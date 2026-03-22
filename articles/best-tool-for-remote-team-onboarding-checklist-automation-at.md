@@ -197,6 +197,264 @@ Select an automation approach based on your organization's constraints:
 Regardless of approach, success depends on treating onboarding as an evolving process. Templates require regular review as tools, teams, and roles change. Automation handles the mechanics, but human judgment shapes the experience.
 
 
+## Advanced Role Template Architecture
+
+Building scalable role templates requires thinking about inheritance and composition:
+
+**Hierarchical Template Structure**: Define base templates that newer roles can extend:
+
+```yaml
+base_templates:
+  all_employees:
+    week_1:
+      - task: "Complete company onboarding (30 mins)"
+        category: "Company"
+        assignee: "HR"
+        days: 1
+      - task: "Set up workstation and access accounts"
+        category: "IT"
+        assignee: "IT Admin"
+        days: 1
+      - task: "Review company policies and handbook"
+        category: "Company"
+        assignee: "HR"
+        days: 2
+      - task: "Meet with direct manager (1-on-1)"
+        category: "Management"
+        assignee: "Manager"
+        days: 2
+
+  technical_employees:
+    extends: all_employees
+    week_1:
+      - task: "Set up development environment"
+        category: "Dev"
+        assignee: "Tech Lead"
+        days: 1
+        depends_on: "Set up workstation and access accounts"
+      - task: "Complete security and compliance training"
+        category: "Security"
+        assignee: "Security Team"
+        days: 2
+      - task: "Access VPN, GitHub, and dev tools"
+        category: "Dev"
+        assignee: "Tech Lead"
+        days: 1
+      - task: "Review codebase and architecture docs"
+        category: "Dev"
+        assignee: "Tech Lead"
+        days: 3
+
+  engineer:
+    extends: technical_employees
+    week_2:
+      - task: "Review team coding standards and PR process"
+        category: "Dev"
+        assignee: "Tech Lead"
+        days: 5
+        depends_on: "Review codebase and architecture docs"
+      - task: "Set up local development environment verification"
+        category: "Dev"
+        assignee: "Peer"
+        days: 5
+      - task: "Submit first pull request (documentation or simple fix)"
+        category: "Dev"
+        assignee: "Tech Lead"
+        days: 7
+    month_2:
+      - task: "Lead code review for team PR"
+        category: "Dev"
+        assignee: "Team Lead"
+        days: 30
+      - task: "Shadow on-call engineer for incident response"
+        category: "Ops"
+        assignee: "On-call Lead"
+        days: 21
+```
+
+This structure eliminates duplication. When company onboarding changes, update the base template once. All derived roles automatically inherit the change.
+
+**Competency-Based Extensions**: Beyond role, add competency paths. An engineer who already knows your tech stack completes fewer training tasks:
+
+```yaml
+engineer_onboarding:
+  base: technical_employees
+  competency_adjustments:
+    knows_python: "-3 days"  # Skip Python basics if they already know it
+    knows_kubernetes: "-2 days"  # They can skip K8s fundamentals
+    has_devops_experience: "-5 days"  # Reduce infra-related training
+    is_team_lead: "+7 days"  # Add leadership/team-specific tasks
+```
+
+During new hire intake, assess existing knowledge and apply competency adjustments. This creates personalized templates without manual curation.
+
+## Real-Time Progress Monitoring and Escalation
+
+Automated checklists fail without active monitoring. Implement automated escalation:
+
+```python
+import time
+from datetime import datetime, timedelta
+from enum import Enum
+
+class TaskStatus(Enum):
+    NOT_STARTED = "not_started"
+    IN_PROGRESS = "in_progress"
+    COMPLETED = "completed"
+    BLOCKED = "blocked"
+    OVERDUE = "overdue"
+
+class OnboardingMonitor:
+    def __init__(self, notification_system):
+        self.notifier = notification_system
+
+    def check_onboarding_health(self, checklist):
+        """Monitor checklist progress and flag issues"""
+        now = datetime.utcnow()
+
+        for task in checklist.tasks:
+            days_since_due = (now - task.due_date).days
+
+            # Escalate overdue tasks
+            if days_since_due > 0 and task.status != TaskStatus.COMPLETED:
+                self.notifier.send(
+                    to=task.assignee.email,
+                    cc=[checklist.owner.manager_email],
+                    template="task_overdue_reminder",
+                    context={
+                        'task': task.title,
+                        'days_overdue': days_since_due,
+                        'new_hire': checklist.owner.name,
+                        'manager': checklist.owner.manager_name
+                    }
+                )
+
+            # Alert on blocked tasks
+            if task.status == TaskStatus.BLOCKED:
+                blocker = task.blocker  # Task this one depends on
+                self.notifier.send(
+                    to=blocker.assignee.email,
+                    template="task_blocking_new_hire",
+                    context={
+                        'blocked_task': task.title,
+                        'new_hire': checklist.owner.name,
+                        'blocking_task': blocker.title
+                    }
+                )
+
+            # Weekly progress summary to manager
+            completion_pct = (len([t for t in checklist.tasks if t.status == TaskStatus.COMPLETED]) / len(checklist.tasks)) * 100
+
+            if completion_pct < 50 and days_since_due > 14:
+                self.notifier.send(
+                    to=checklist.owner.manager_email,
+                    template="onboarding_at_risk",
+                    context={
+                        'new_hire': checklist.owner.name,
+                        'completion': completion_pct,
+                        'days_into_onboarding': (now - checklist.start_date).days
+                    }
+                )
+
+    def analyze_patterns(self, all_checklists):
+        """Identify systematic onboarding bottlenecks"""
+        task_completion_times = {}
+
+        for checklist in all_checklists:
+            for task in checklist.tasks:
+                if task.status == TaskStatus.COMPLETED:
+                    completion_time = (task.completed_at - task.due_date).days
+                    key = f"{task.title}_{checklist.owner.role}"
+
+                    if key not in task_completion_times:
+                        task_completion_times[key] = []
+                    task_completion_times[key].append(completion_time)
+
+        # Flag tasks consistently completing late
+        for task_role, times in task_completion_times.items():
+            avg_delay = sum(times) / len(times)
+            if avg_delay > 3:  # Average 3+ days late
+                print(f"SLOW TASK: {task_role} taking {avg_delay:.1f} days longer than expected")
+
+        return task_completion_times
+```
+
+Wire escalations into Slack, email, or your incident system. Overdue tasks on day 2 are minor; on day 7 they're critical blockers.
+
+## Cost Analysis and Tool Selection Framework
+
+When evaluating onboarding tools, build a decision matrix:
+
+| Factor | Dedicated Platform | HR System | Custom Automation | Spreadsheet |
+|--------|-------------------|-----------|-------------------|-------------|
+| Setup time (hours) | 16 | 24 | 40 | 2 |
+| Cost (monthly) | $200-500 | Included | $0-50 | $0 |
+| Customization flexibility | Medium | Low | High | Very High |
+| Automation capability | High | Medium | High | None |
+| Scalability (to 500 employees) | Excellent | Good | Good | Poor |
+| Template library size | 50+ | 10-20 | Build your own | None |
+| Integration ecosystem | Extensive | Varies | Need custom | Limited |
+| Time saved per new hire | 8 hours | 5 hours | 7 hours | 0 hours |
+| Maintenance overhead (hrs/year) | 20 | 40 | 100 | 200 |
+
+For a 50-person engineering team with 15 hires/year, calculate total cost of ownership:
+
+**Dedicated Platform**: ($400/mo × 12) + (20 hrs maint × $100/hr) = $6,800/year
+**HR System Integration**: $0 + (40 hrs × $100/hr) = $4,000/year
+**Custom Automation**: ($25/mo × 12) + (100 hrs × $100/hr) = $10,300/year
+**Spreadsheet**: $0 + (200 hrs × $100/hr) = $20,000/year
+
+For your organization's hire volume and maintenance capacity, pick the tool that minimizes total cost of ownership, not just subscription cost.
+
+## Onboarding for Distributed Teams (Async-First)
+
+Remote teams cannot rely on spontaneous pairing or hallway conversations. Make onboarding explicitly async:
+
+```yaml
+# Example: Async-first engineer onboarding template
+week_1:
+  async_training:
+    - task: "Watch architecture overview recording (45 mins)"
+      format: "video"
+      resource: "https://internal-wiki.company.com/architecture-overview"
+      assignee: self
+      days: 1
+
+    - task: "Read onboarding FAQ and common questions"
+      format: "doc"
+      resource: "https://internal-wiki.company.com/faq"
+      assignee: self
+      days: 2
+
+    - task: "Review 3 sample PRs and write feedback"
+      format: "async_code_review"
+      resource: "links to PRs in GitHub"
+      assignee: peer
+      days: 3
+
+  live_sync_minimums:
+    - task: "Meet with direct manager (30 mins)"
+      format: "sync_call"
+      frequency: "once"
+      days: 2
+
+    - task: "Team standup introduction"
+      format: "sync_meeting"
+      frequency: "join next 3 standups"
+      days: 1
+
+  deliverables:
+    - task: "Submit development environment setup verification"
+      format: "checklist"
+      due: "EOD day 1"
+
+    - task: "Post intro in team Slack with 3 interesting facts"
+      format: "async_introduction"
+      due: "EOD day 1"
+```
+
+Default to async. Use live sync only when necessary (unblocking, clarification). This works globally and respects time zones.
+
 ## Frequently Asked Questions
 
 

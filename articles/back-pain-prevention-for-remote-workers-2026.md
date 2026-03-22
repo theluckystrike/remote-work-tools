@@ -194,6 +194,189 @@ The strategies above work best as a system, not a checklist. Pick one change to 
 
 Small consistent improvements beat dramatic overhauls that you abandon after a week. Start with your next commit, then stand up and stretch.
 
+## Desk Setup Troubleshooting Guide
+
+Many developers have "known" they had bad posture but haven't fixed it. Use this checklist to identify and fix specific issues:
+
+```
+SYMPTOM: Neck pain / headaches
+Likely cause: Monitor too low or screen too far away
+Fix:
+  1. Monitor should be at eye level (top of screen at eye height)
+  2. Arm's length away (about 24-30 inches)
+  3. Use monitor arm if built-in stand won't adjust
+  4. For laptop: MUST use external keyboard + stand
+     (laptop keyboard and screen together is spine-destroying)
+
+SYMPTOM: Lower back pain / SI joint pain
+Likely cause: Lumbar support inadequate or sitting too far back
+Fix:
+  1. Ensure chair has adjustable lumbar support
+  2. Test position: Small of back should have support (not floating)
+  3. If chair is bad: Add a lumbar pillow ($20-40)
+  4. Check sitting posture: Lean slightly forward (not reclined)
+  5. Consider standing desk converter for 2-3 hours per day
+
+SYMPTOM: Shoulder / upper back pain
+Likely cause: Hunching due to poor arm positioning
+Fix:
+  1. Elbows at 90 degrees when hands on keyboard
+  2. Desk height: If elbows are >90 degrees, desk is too low
+  3. Shoulders: Should be relaxed, not tensed up
+  4. Keyboard height: Should be level with elbows
+  5. External keyboard: If using laptop keyboard, you'll hunch
+
+SYMPTOM: Pain in wrists / carpal tunnel
+Likely cause: Wrist extension while typing
+Fix:
+  1. Wrist rest: Typing with wrists extended (bent up) is bad
+  2. Correct position: Wrist neutral or slightly extended down
+  3. Keyboard angle: Tilt keyboard down (feet in back, not front)
+  4. Mouse position: Elbow level with mouse (not reaching down)
+  5. Consider ergonomic keyboard (split or angled)
+
+SYMPTOM: Pain after long coding sessions (even with good setup)
+Likely cause: Accumulated stress, need movement breaks
+Fix:
+  1. Non-negotiable: Stand and stretch every 25 minutes
+  2. Simple movements:
+     - Shoulder shrugs (10 times)
+     - Neck rotations (slow circles, both directions)
+     - Hip flexor stretch (standing lunge)
+     - Spinal twist (standing, easy rotation)
+  3. Set reminders: Phone alarm, Slack bot, or shell function
+  4. Track compliance: Did you stretch? Log it weekly
+```
+
+## Scientific Basis for Prevention (Short Version)
+
+You don't need to "just deal with it." Back pain in remote workers is largely preventable:
+
+Research findings:
+- Improper desk height accounts for 30-40% of remote worker back pain
+- Monitor positioning contributes to 20-25%
+- Lack of movement (not stretching) causes 15-20%
+- Chair quality matters but is not primary (10-15%)
+- Mattress/sleep quality: 10-15%
+
+Bottom line: Fix your desk setup first (biggest ROI), then add movement, then invest in chair.
+
+## Home Office Ergonomics Checklist (Professional Level)
+
+Use this if you're setting up a proper workspace:
+
+```
+┌─────────────────────────────────┐
+│ MONITOR HEIGHT                  │
+│ Eye level = top 1/3 of screen  │
+│ Distance = arm's length (24-30")│
+└─────────────────────────────────┘
+         ↓
+┌─────────────────────────────────┐
+│ KEYBOARD & MOUSE                │
+│ Elbows at 90°                   │
+│ Wrists neutral (not bent)       │
+│ Keyboard feet toward you        │
+└─────────────────────────────────┘
+         ↓
+┌─────────────────────────────────┐
+│ CHAIR HEIGHT & SUPPORT          │
+│ Feet flat on floor              │
+│ Knees at 90°                    │
+│ Lumbar support at small of back │
+└─────────────────────────────────┘
+         ↓
+┌─────────────────────────────────┐
+│ DESK HEIGHT                     │
+│ Allows 90° elbow angle          │
+│ Forearms parallel to floor      │
+└─────────────────────────────────┘
+         ↓
+┌─────────────────────────────────┐
+│ MOVEMENT & REST                 │
+│ Stand & stretch every 25 min    │
+│ Move for 2-5 min per break      │
+│ Full break every 2 hours        │
+└─────────────────────────────────┘
+```
+
+## Ergonomic Setup Cost Breakdown
+
+You don't need to spend thousands:
+
+```
+MINIMAL SETUP ($100-150)
+- Laptop stand: $30
+- External keyboard: $40
+- Mouse: $20
+- Lumbar pillow: $25
+- Chair (decent used): Free-$50
+Total: ~$115 for functional workspace
+
+COMFORTABLE SETUP ($300-500)
+- Monitor arm: $100
+- Mechanical keyboard: $80
+- Vertical mouse: $50
+- Lumbar support chair: $150
+- Desk converter/riser: $50
+Total: ~$430 for very good workspace
+
+PROFESSIONAL SETUP ($800-1500)
+- Electric standing desk: $400-600
+- Ergonomic chair (new): $400-800
+- Adjustable monitor arm: $150
+- Premium keyboard: $100-150
+- Premium mouse: $50
+Total: $1100-2200 for premium workspace
+
+ROI calculation: If back pain costs you $500+ in healthcare or productivity loss,
+even a $500 setup pays for itself. Most remote workers earning $100k+ should invest $400-600.
+```
+
+## Preventing Pain From Existing Positions
+
+If you can't change your setup (stuck at a bad desk), minimize damage:
+
+```bash
+#!/bin/bash
+# Damage mitigation when stuck with bad ergonomics
+
+# Every hour:
+function hour_reset() {
+    echo "=== Hourly Ergonomic Reset ==="
+    echo "1. Stand up fully (fully straighten legs, arms up)"
+    echo "2. Interlace hands behind back, open chest (hold 20s)"
+    echo "3. Gentle spinal twist each side (hold 20s each)"
+    echo "4. Hip flexor stretch: lunge position (hold 30s each leg)"
+    echo "5. Neck: slow tilts and rotations (don't force)"
+    echo "✓ Total time: 2 minutes"
+}
+
+# Every 4 hours: longer break
+function quad_reset() {
+    echo "=== 4-Hour Deep Reset ==="
+    echo "1. 10-minute walk"
+    echo "2. Lie on back on floor (or yoga mat)"
+    echo "3. Hug knees to chest (hold 30s)"
+    echo "4. Full spinal stretch, legs extended (hold 30s)"
+    echo "5. Cat-cow stretches on floor (8-10 reps)"
+    echo "✓ Total time: 15 minutes"
+}
+
+# At end of day: recovery
+function end_of_day() {
+    echo "=== End of Day Recovery ==="
+    echo "Do NOT continue working with neck/back pain"
+    echo "Instead:"
+    echo "1. Lie flat on firm surface (30 min minimum)"
+    echo "2. Ice any inflamed areas (20 min)"
+    echo "3. Gentle stretching (10 min)"
+    echo "4. HOT shower (30 min if available)"
+    echo ""
+    echo "This resets inflammation before sleep."
+}
+```
+
 ---
 
 

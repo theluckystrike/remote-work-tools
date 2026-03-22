@@ -211,6 +211,196 @@ EOF
 chmod +x ~/bin/check-setup.sh
 ```
 
+## Power Management on Portable Setups
+
+Battery life is critical for true portability. Optimize your system:
+
+```bash
+# macOS battery optimization
+# Settings → Battery → Options:
+- Low Power Mode: Keep enabled (reduces performance 10-15%)
+- Disable background app refresh
+- Reduce screen brightness below 40%
+- Turn off Bluetooth when not needed
+
+# Verify battery estimates
+pmset -g batt  # Shows current drain rate in mW
+
+# Disable power-hungry processes
+# Top energy consumers on dev machines:
+- Docker: Consume massive power (50-100W when active)
+  Solution: Stop Docker when not coding
+- Xcode compilation: Runs on battery even during background indexing
+  Solution: Open Activity Monitor → CPU tab, kill Xcode if idle
+- Chrome: Each tab uses 2-5W (especially video)
+  Solution: Use Safari for video, limit open tabs
+
+# Travel power profile (battery conservation)
+cat >> ~/.zshrc << 'EOF'
+function travel-mode() {
+    pmset -c displaysleep 10
+    pmset -c sleep 30
+    pmset -b displaysleep 3
+    pmset -b sleep 5
+    defaults write NSGlobalDomain NSWindowShouldDragOnGesture -bool NO
+    echo "Travel mode: aggressive power saving enabled"
+}
+EOF
+```
+
+## Display Configuration for Different Scenarios
+
+Portable setups often involve different display arrangements (hotel room, coffee shop, office). Automate display configuration:
+
+```bash
+# macOS: Create display profiles for different locations
+# Using displayplacer (install: brew install jakehilborn/jakehilborn/displayplacer)
+
+# Get current setup
+displayplacer list > ~/display_profiles.txt
+
+# Save three common configurations
+# Config 1: Just laptop screen (no external monitor)
+displayplacer "id:37D8832A res:1728x1117 hz:60 color_depth:8 scaling:on origin:(0,0)"
+
+# Config 2: Laptop + portable monitor (hotel desk)
+displayplacer "id:37D8832A res:1728x1117 hz:60 color_depth:8 scaling:on origin:(0,0)" \
+              "id:6CF5E21E res:2560x1600 hz:60 color_depth:8 scaling:on origin:(1728,0)"
+
+# Config 3: Laptop only, mirrored (conference room presenting)
+displayplacer --mirrors active
+
+# Create aliases for quick switching
+cat >> ~/.zshrc << 'EOF'
+alias dsp-single='displayplacer "id:37D8832A res:1728x1117 hz:60"'
+alias dsp-dual='displayplacer "id:37D8832A res:1728x1117 hz:60" "id:6CF5E21E res:2560x1600 hz:60"'
+EOF
+```
+
+## Network Optimization for Portable Work
+
+Different networks have different characteristics. Prepare your system:
+
+```bash
+# Detect network quality and adapt
+cat > ~/bin/network-check.sh << 'EOF'
+#!/bin/bash
+
+echo "=== Network Quality Check ==="
+
+# Latency test
+LATENCY=$(ping -c 1 8.8.8.8 | grep time | awk '{print $4}' | cut -d'=' -f2)
+echo "Latency: $LATENCY ms"
+
+# Bandwidth test (requires iperf or speedtest)
+# speedtest-cli --simple
+
+# DNS resolution time
+NSLOOKUP_TIME=$(time nslookup github.com 8.8.8.8 2>&1 | grep real)
+echo "DNS: $NSLOOKUP_TIME"
+
+# Packet loss
+LOSS=$(ping -c 10 8.8.8.8 | grep % | awk '{print $6}')
+echo "Packet loss: $LOSS"
+
+# Determine if network is usable for video calls
+if [[ $LATENCY > "100" ]] || [[ $LOSS > "5%" ]]; then
+    echo "⚠️  Network quality poor — avoid video calls"
+    echo "💡 Recommendation: Use phone for calls, save video for later"
+else
+    echo "✅ Network acceptable for video"
+fi
+EOF
+chmod +x ~/bin/network-check.sh
+```
+
+## Portable Setup Productivity Tips
+
+**Context switching overhead:** Moving between locations takes mental energy. Minimize it:
+
+```bash
+# Startup routine (save as shell script)
+cat > ~/bin/setup-work.sh << 'EOF'
+#!/bin/bash
+
+echo "=== Portable Work Setup ==="
+
+# 1. Network check
+~/bin/network-check.sh
+
+# 2. Display configuration
+dsp-dual  # Or dsp-single depending on location
+
+# 3. GitHub status
+git status
+git pull origin main
+
+# 4. Open work tools
+open -a "VS Code"
+open -a "Terminal"
+open https://github.com/[org]/[repo]
+open https://slack.com/
+
+# 5. Set status in Slack
+# (manual, but remember to do it)
+
+echo "✅ Ready to work"
+EOF
+chmod +x ~/bin/setup-work.sh
+```
+
+## Handling Common Portable Work Issues
+
+| Issue | Symptom | Solution |
+|-------|---------|----------|
+| Monitor not detected | External display doesn't show up | Try different USB-C port, restart hub, restart Mac |
+| Hub overheating | Hub gets hot during use | Ensure ventilation, reduce number of high-power devices |
+| Keyboard/mouse lag | Wireless peripherals respond slowly | Switch to USB receiver (not Bluetooth), reduce wireless interference |
+| Battery drains in 30 min | Should last 6+ hours | Run `pmset -g batt` to check power drain, kill heavy apps |
+| Can't wake from sleep | System doesn't respond after hibernation | Check USB dongle connection, restart hub |
+| File sync issues | Changes not syncing to cloud | Check network connection, verify sync app is running |
+
+## Comparison: Different Portability Approaches
+
+| Approach | Setup Time | Productivity | Network Dependency | Cost |
+|----------|-----------|--------------|-------------------|------|
+| Laptop only | <5 min | 7/10 (cramped screen) | Moderate | $0 |
+| Laptop + portable monitor | 8-12 min | 8.5/10 (good ergonomics) | Moderate | $250-400 |
+| Cloud dev environment (browser-based) | 2 min | 7/10 (latency issues) | High | $20-50/mo |
+| Remote dev server (SSH) | 5-10 min | 8/10 (depends on server power) | High | $50-200/mo |
+| Portable desktop setup (full hub) | 15-20 min | 9/10 (near-desktop performance) | Moderate | $400-600 |
+
+For most engineers: laptop + portable monitor hits the productivity/friction sweet spot.
+
+## Security Considerations for Portable Work
+
+Working from different networks and locations introduces security risks:
+
+```bash
+# Pre-travel security checklist
+- [ ] Enable FileVault (macOS) or BitLocker (Windows)
+- [ ] Ensure SSH keys are in 1Password or similar (not local files)
+- [ ] Git credential stored in 1Password, not local git config
+- [ ] VPN client installed and configured
+- [ ] Two-factor authentication enabled on all accounts
+- [ ] Screensaver enabled (2 min timeout)
+- [ ] Firewall enabled
+- [ ] Disk encryption enabled
+
+# Portable work network rules
+- Never join networks without VPN
+- Avoid public WiFi for sensitive work (code review, secrets access)
+- Use VPN even on "trusted" networks (hotel WiFi, airport)
+- Disable Bluetooth and AirDrop when not in use
+- Keep laptop in sight when taking breaks
+
+# Public WiFi workflow
+1. Connect to WiFi
+2. Start VPN immediately (before opening email or work apps)
+3. If VPN drops, kill internet-dependent apps
+4. Reconnect VPN before resuming
+```
+
 ## Related Reading
 
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)

@@ -209,6 +209,191 @@ Slack Analytics (Admin console → Analytics) shows message and member counts pe
 
 Review monthly, archive ruthlessly.
 
+## Advanced Workflow Builder Patterns
+
+Beyond the basic workflows, Slack Workflow Builder supports sophisticated automation. Here are templates for common remote team scenarios:
+
+**Workflow 4: Auto-assign on-call rotation**
+
+```
+Trigger: Scheduled (every Sunday 5pm)
+Steps:
+  1. Get next person from rotation schedule
+  2. Update user status: "🔴 On-call: [week of date]"
+  3. Post to #eng-on-call: "@[person] is now on-call"
+  4. Create reminder for Friday (rotation ends)
+  5. Message [person]: "You're on-call this week — runbook: [link]"
+```
+
+**Workflow 5: Incident channel auto-cleanup**
+
+```
+Trigger: Scheduled (daily 11pm UTC)
+Steps:
+  1. List all channels matching "inc-YYYY-MM-DD-*"
+  2. For each channel older than 7 days without messages
+  3. Post summary: "Incident resolved on [date]"
+  4. Move to #incidents-archive thread
+  5. Archive the channel
+```
+
+**Workflow 6: Weekly team wins collector**
+
+```
+Trigger: Scheduled (Friday 4pm each team's timezone)
+Steps:
+  1. Send form: "What's a win worth celebrating this week?"
+  2. Collect 5 responses
+  3. Post compiled list to #team-wins and #company-announcements
+  4. Tag all respondents
+```
+
+## Notification Audit Framework
+
+Many remote teams never audit their notification settings systematically. Run this quarterly:
+
+```markdown
+## Slack Notification Audit Checklist
+
+### Individual Settings
+- [ ] Do Not Disturb hours match your actual work schedule?
+- [ ] Are you muted in 90%+ of channels? (You should be)
+- [ ] Are keywords set to alert you appropriately?
+- [ ] Mobile notifications disabled during off-hours?
+- [ ] Notification sounds disabled (use visual + badge only)?
+
+### Team Settings
+- [ ] Default notification level is "Mute" or "Mentions only"
+- [ ] @here disabled in large channels (>50 members)
+- [ ] @channel reserved for truly urgent messages
+- [ ] Automated notifications (deploys, alerts) go to dedicated channels
+- [ ] Recurring meeting reminders (standup, retro) posted in threads, not channel
+
+### Channel Hygiene
+- [ ] >20 channels archived in last quarter?
+- [ ] Any channel with zero messages in 60 days?
+- [ ] Documentation channels pinned with updated links?
+- [ ] Bot-only channels have clear purpose?
+
+### Reduction Targets
+- [ ] Team member's sidebar: < 15 active channels
+- [ ] Daily unread notifications: < 50 messages
+- [ ] Time spent in Slack per day: < 2 hours
+```
+
+## Slack Bot Strategy for Engineering Teams
+
+Bots can reduce noise or increase it. Use this decision framework:
+
+| Bot Type | Example | Value | Risk |
+|----------|---------|-------|------|
+| Notification | Deploy alerts | Immediate context | Noise if misconfigured |
+| Workflow | GitHub PR reminders | Reduces context-switching | Nag fatigue |
+| Monitoring | Incident paging | Fast response | Wakes people unnecessarily |
+| Social | Birthday reminders | Team connection | Frivolous distraction |
+| Tools | GitHub search in Slack | Convenience | Creates duplicate sources of truth |
+
+General rule: One bot per critical function, nothing more. For teams with >50 engineers, audit your bots monthly and remove any with <50% adoption.
+
+## Building a Distributed Thread Culture
+
+One major cause of Slack noise is thread-ignorance. New team members often don't understand why threading matters in distributed teams. Document this explicitly:
+
+```markdown
+## Slack Threading Culture
+
+### Why threads matter in distributed teams:
+- **Channel clarity**: Decisions stay discoverable in channel main
+- **Async reading**: People can follow conversations on their schedule
+- **Reduced notification fatigue**: Threads don't ping non-participants
+- **Clean history**: Future team members find decisions, not noise
+
+### The threading rule:
+> ANY reply to ANYONE's message goes in a thread.
+> Never "bump" a conversation in the channel.
+
+### Examples:
+
+❌ Bad (clutters channel):
+```
+@alice: We should use Rust for this service
+@bob: I agree, here's why
+@charlie: Let me add some context about performance
+@alice: Great, let's do it
+```
+
+✅ Good (channel stays clean):
+```
+@alice: We should use Rust for this service
+  ↳ @bob: I agree, here's why [in thread]
+    ↳ @charlie: Performance context [in thread]
+      ↳ @alice: Great, let's do it [in thread]
+Decision summary posted to channel: "Decided: Rust for service X. See thread for context."
+```
+
+### Channel posts are for:
+- Starting new topics
+- Final decisions (summary format, link to thread)
+- Announcements
+- Async updates for visibility
+- One-liners that don't need discussion
+
+### Thread-only conversations are for:
+- Questions about a post
+- Alternative viewpoints
+- Technical debate
+- Clarifying questions
+- Detailed discussion
+
+This reduces channel message volume by 70-80% while maintaining full context.
+```
+
+## Slack Workspace Scaling Milestones
+
+As your team grows, your Slack structure needs deliberate changes:
+
+**5-20 people (startup phase):**
+- Few channels (general, dev, ops, random)
+- Everyone in everything
+- Async mostly not yet necessary
+- Action: Document core communication norms
+
+**20-50 people (scaling phase):**
+- Team-based channels emerging
+- Some timezone asynchrony
+- Notification fatigue starting
+- Action: Implement channel taxonomy, @mention discipline
+
+**50-200 people (distributed phase):**
+- Full team and project structure
+- Multiple timezones expected
+- Slack is primary communication medium
+- Action: Implement Workflow Builder, enforce threading, audit bots
+
+**200+ people (large enterprise):**
+- Org-wide structure needed
+- Message volume overwhelming without controls
+- Searchability critical
+- Action: Implement strict channel governance, segment by function/product, consider multi-workspace
+
+## Common Slack Mistakes to Avoid
+
+**Mistake 1: Treating Slack as persistent email**
+
+Teams often migrate to Slack and recreate email's dysfunction (everyone copied, formal tone, permanent expectations). Slack should be fast, informal, and temporary. Permanent decisions go in docs/tickets, not Slack.
+
+**Mistake 2: Using DMs for work**
+
+Work discussions in DMs are invisible to the rest of the team. Public > private always. DMs only for sensitive topics (salary, personal issues, confidential business).
+
+**Mistake 3: Overloading one channel**
+
+The #general channel shouldn't be the dumping ground for everything. Even with good structure, important announcements get lost.
+
+**Mistake 4: Notifications as primary alerting**
+
+Slack alerts should never be your primary incident notification. Use a real alerting system (PagerDuty, OpsGenie) that pages people directly. Slack is a coordination channel, not a pager.
+
 ## Related Reading
 
 - [Best Practice for Remote Team Slack Do Not Disturb Schedules](/best-practice-for-remote-team-slack-do-not-disturb-schedules/)

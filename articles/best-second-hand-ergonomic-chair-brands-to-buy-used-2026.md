@@ -223,6 +223,191 @@ Pick one tool from the options discussed and sign up for a free trial. Spend 30 
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
+## Evaluation Spreadsheet for Chair Shopping
+
+Create this comparison before buying:
+
+```
+Candidate | Model | Age | Condition | Price | Hydraulic | Mesh | Armrests | Wheels | Overall Score | Action
+---------|-------|-----|-----------|-------|-----------|------|----------|--------|---------------|---------
+Option A | Aeron B | 3yr | Good | $550 | ✓ | Excellent | ✓ | Good | 9/10 | Make offer
+Option B | Leap V2 | 5yr | Fair | $350 | ✓ | Flat cushion | ✓ | Squeaky | 6/10 | Pass (needs repairs)
+Option C | Zody | 2yr | Excellent | $400 | ✓ | N/A | Adjustable | ✓ | 8.5/10 | Consider backup option
+```
+
+Scoring rubric (each component 0-10):
+- Hydraulic (1-10): Does it hold height? No = 2, Slight drift = 5, Perfect = 10
+- Mesh/Cushion (1-10): Compression severity. Flat = 3, Moderate = 7, Pristine = 10
+- Armrests (1-10): All functions work smoothly. Missing = 2, Partially = 6, Perfect = 10
+- Wheels (1-10): Rolls without grinding. Stuck = 2, Rough = 6, Smooth = 10
+- Overall (subjective): Would you sit in this 8 hours daily?
+
+## Price Negotiation for Used Chairs
+
+Successful used furniture buyers negotiate down from initial asking price:
+
+```
+Typical asking price: $600
+Your offer strategy:
+
+1. Research fair market value for that model/year
+2. Identify 2-3 issues during inspection
+3. Calculate repair costs:
+   - Hydraulic cylinder replacement: $50-100
+   - Caster wheel replacement: $20-40
+   - Mesh/fabric repair: $0-200
+   - Armrest replacement: $50-150
+
+4. Offer formula:
+   (Fair market value) - (repair costs × 1.5) - (hassle factor: 5-10%)
+
+   Example:
+   Fair market: $600
+   Issues found: cylinder wear ($80) + wheel replacement ($30)
+   Repair total: $110 × 1.5 = $165
+   Hassle factor: 10% = $60
+
+   Your offer: $600 - $165 - $60 = $375
+
+5. Negotiation approach (text/message):
+   "Hi, interested in [chair]. During inspection, I noticed
+   the cylinder drifts slightly and one wheel is grinding.
+   Repairs would run about $150-170. I can offer $375 as-is."
+
+6. Expect counter: Usually 10-20% higher. Meet in middle.
+   If they refuse, walk away — another chair exists.
+```
+
+## Setup and Adjustment Guide
+
+Once you buy a used chair, proper setup maximizes comfort:
+
+```bash
+# Chair setup checklist (20-30 minutes)
+
+## Height adjustment
+- [ ] Feet flat on floor
+- [ ] Knees at 90 degrees
+- [ ] Thighs parallel to ground
+- [ ] Elbows at 90 degrees when at desk
+
+## Lumbar support
+Herman Miller Aeron:
+  - Lever on left side adjusts lumbar curve
+  - Position: small of back (lower spine)
+  - Firmness: snug but not pressing
+
+Steelcase Leap:
+  - Liveback technology: auto-adjusts to your movement
+  - Adjustment dial: tighter = more support
+  - Find sweet spot: medium firmness usually best
+
+Haworth Zody:
+  - Lumbar adjustment pins
+  - Move up for lower back, down for mid-back
+  - Asymmetric support: left pin ≠ right pin OK (spinal curvature natural)
+
+## Armrest positioning
+- Height: Elbows at 90 degrees, shoulders relaxed
+- Distance: 1-2 inches from your sides (not pressing)
+- Forward/back: Type depends on chair
+  Lever model: Adjust to desk height
+  Fixed model: Just ensure not pressing into ribs
+
+## Tilt settings
+- Lock: Usually "lock" is sufficient (no reclining needed)
+- Tension: If adjustable, medium usually works
+- Test: Lean back gently, should stay at angle without slipping
+
+## Footrest (if included)
+- Use it: Feet should always be supported
+- Never dangle feet in the air
+```
+
+## Troubleshooting Common Issues with Used Chairs
+
+| Problem | Diagnosis | Fix | Cost |
+|---------|-----------|-----|------|
+| Squeaking noise | Friction between frame and mechanisms | WD-40 on all joints, work it in | $0-5 |
+| Creaking seat | Loose hardware or frame crack | Tighten all bolts (Allen wrench set), inspect frame | $0-50 |
+| Armrest squeaks when moving | Loose armrest mounts | Tighten mount bolts from underneath | $0 |
+| Lumbar support too soft | Cushion compressed | Replace lumbar cushion ($50-100) or move pins |$0-100 |
+| Casters worn (rough rolling) | Worn bearings or grime | Clean with damp cloth, or replace wheels ($20-40) | $20-40 |
+
+## Long-Term Maintenance for Used Chairs
+
+Proper maintenance extends the life of a used chair by years:
+
+```bash
+# Monthly maintenance
+- [ ] Wipe mesh/seat with damp cloth (remove dust)
+- [ ] Spray WD-40 on all squeaky joints
+- [ ] Test recline, height adjustment (ensure still works smoothly)
+
+# Quarterly maintenance
+- [ ] Deep clean mesh (use brush attachment on vacuum)
+- [ ] Inspect wheels for hair/string wrapping
+- [ ] Check all bolts are tight (use Allen wrench)
+- [ ] Verify lumbar support still feels right
+
+# Annual maintenance
+- [ ] Inspect hydraulic cylinder (any leaking oil?)
+- [ ] Test tilt mechanism under full weight
+- [ ] Assess cushion compression (press and release, should bounce back)
+- [ ] Plan future repairs (if cylinder failing, budget for replacement)
+
+# Replacement schedule
+- Caster wheels: Every 3-4 years (first wear item)
+- Hydraulic cylinder: Every 5-7 years (inevitable eventually)
+- Cushions (Steelcase/Haworth): Every 4-5 years
+- Mesh (Aeron): Rarely needs replacement (material built to last)
+```
+
+## Chair Setup for Different Desk Heights
+
+Not all desks are the same. Adapt your chair setup:
+
+```
+DESK HEIGHT: 28 inches (standard)
+→ Chair seat height: 16-18 inches
+→ Arm height: 25-27 inches
+→ Monitor top: 20-22 inches
+
+DESK HEIGHT: 30 inches (standing desk, high)
+→ Chair seat height: 18-20 inches (or standing desk converter)
+→ Arm height: 27-29 inches
+→ Monitor top: 22-24 inches
+
+DESK HEIGHT: 26 inches (vintage desk, low)
+→ Chair seat height: 14-16 inches
+→ Arm height: 23-25 inches
+→ Monitor top: 18-20 inches
+
+Quick test: Elbows at 90 degrees, wrists neutral (not bent up)
+If you can't achieve this, add a monitor arm or standing converter.
+```
+
+## Long-Term Value Analysis
+
+Over time, a used ergonomic chair often costs less than poor ergonomic choices:
+
+```
+SCENARIO 1: Buy new budget chair ($200)
+Year 1-2: Comfortable enough ($200)
+Year 2-5: Back pain develops ($500+ in healthcare)
+Total cost: $700+ + chronic pain
+
+SCENARIO 2: Buy used Aeron ($600)
+Year 1-5: Excellent support, no pain ($600)
+Year 5-10: Still comfortable, minimal maintenance ($50 repairs)
+Total cost: $650 + good health
+
+SCENARIO 3: Buy new Herman Miller ($1,400)
+Year 1-10: Premium support, long lifespan ($1,400 + battery replacement $50)
+Total cost: $1,450 + best health
+
+Used chairs offer the best value: 60-70% discount from new, 90%+ of the comfort and lifespan.
+```
 
 ## Related Articles
 

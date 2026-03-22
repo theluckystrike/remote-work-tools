@@ -224,6 +224,250 @@ PagerDuty and OpsGenie report time-to-acknowledge and time-to-escalate in their 
 **What is the right escalation path for a SEV3 discovered at midnight?**
 If it is genuinely SEV3 — minor feature impaired, no revenue impact — do not wake anyone. Create a ticket, document the issue, and assign it for morning. Waking engineers unnecessarily erodes trust in your escalation system.
 
+## Escalation Decision Tree
+
+Use this flowchart to determine when to escalate and to whom:
+
+```
+ALERT TRIGGERED
+    ├─ Is the system completely down?
+    │  ├─ YES → SEV1 (page immediately)
+    │  └─ NO → Continue
+    │
+    ├─ Are customers unable to perform core functions?
+    │  ├─ YES → SEV2 (page within 5 min)
+    │  └─ NO → Continue
+    │
+    ├─ Is functionality degraded (slower, partial outage)?
+    │  ├─ YES → SEV3 (create ticket, morning review)
+    │  └─ NO → Continue
+    │
+    └─ Is it a cosmetic issue or documentation typo?
+       └─ SEV4 (backlog, no escalation)
+
+ESCALATION ROUTING
+    SEV1 →  Page on-call engineer immediately (SMS/call)
+            Parallel: Post to #incidents-sev1
+            Parallel: Notify manager if outage >15 min
+
+    SEV2 →  Post to #incidents-active
+            Message on-call engineer (Slack DM)
+            Expect acknowledgment within 5 minutes
+
+    SEV3 →  Create Jira/linear ticket
+            Post to #incidents-todo
+            No immediate escalation
+
+    SEV4 →  Create ticket for backlog
+            No team notification needed
+```
+
+## Escalation Communication Across Timezones
+
+When on-call crosses timezones, escalation templates must include timezone context:
+
+```markdown
+INCIDENT ESCALATION - SEV2
+
+**Affected Service:** payment-api
+**Impact:** ~50 failed transactions/min, users in EU affected
+**Current Status:** Database connection pool exhausted
+**Started:** 2026-03-16 07:42 UTC (2:42 AM PST, 8:42 AM CET)
+
+**Current Time Context:**
+- PST: 2:42 AM (night shift)
+- CET: 8:42 AM (morning, staff arriving)
+- IST: 1:12 PM (afternoon)
+
+**Who to contact:**
+- Primary on-call (PST): @alice-oncall (night) — page immediately
+- Secondary on-call (CET): @bob-secondary (morning) — notify but not urgent
+- Manager (escalation): @manager-oncall (should be awake given time)
+
+**What I've Tried:**
+- Restarted payment-api pods (no change)
+- Checked database connections (at 1000/1000 limit)
+- Reviewed recent deployments (none in 2 hours)
+- Attempted slow query analysis (inconclusive)
+
+**What I Need:** Help with either:
+1. Identifying the connection leak source
+2. Deciding on rollback strategy
+3. Database connection pool expansion
+
+**Response Needed By:** 07:57 UTC (15 minutes to assess customer impact)
+
+**Escalation Path if no response:**
+- T+10 min: @bob-secondary on PST timezone
+- T+15 min: @manager-oncall
+- T+20 min: Wake on-call manager (@vp-engineering)
+```
+
+## Integration with Incident Management Systems
+
+While templates work, automation handles the repetitive parts:
+
+```python
+# PagerDuty Integration: Auto-generate escalation summary
+
+from pagerduty import PDClient
+
+def generate_escalation_from_incident(incident_id):
+    """
+    Pull incident details and auto-generate escalation template
+    """
+    client = PDClient()
+    incident = client.incidents.get(incident_id)
+
+    template = f"""INCIDENT ESCALATION - SEV{incident.urgency}
+
+**Affected Service:** {incident.service.name}
+**Impact:** {incident.title}
+**Current Status:** Triggered - awaiting responder
+**Started:** {incident.created_at}
+
+**What I've Tried:**
+- Initial investigation pending
+
+**What I Need:** Immediate attention
+
+**Resources:**
+- Incident: {incident.html_url}
+- Service: {incident.service.html_url}
+- Recent deploys: [link to deploy system]
+
+**Contacted:** {incident.first_responder}
+**Next escalation:** {incident.escalation_policy}
+"""
+    return template
+```
+
+## Escalation Template Variations by Context
+
+**Product-Facing Escalation (for customer-impacting issues)**
+
+```markdown
+ESCALATION ALERT - P{priority}
+
+**Affected Users:** {count} users, {region}
+**Service Impact:** {brief description}
+**Customer Notification:** [Has customer been notified? Y/N]
+**Public Status Page:** [Updated? Y/N]
+
+**What Users Are Seeing:**
+[Concrete example: "Error: 'Payment processing temporarily unavailable'"]
+
+**What We're Doing:**
+[Current investigation/action items]
+
+**ETA for Resolution:** {estimate}
+
+**If Resolution Delayed:**
+- Fallback plan: [if any]
+- Customer communication: [what will we tell them?]
+```
+
+**Internal Infrastructure Escalation (for engineering-focused)**
+
+```markdown
+ESCALATION - INFRASTRUCTURE SEV{level}
+
+**Affected Systems:** [service1, service2, service3]
+**Root Cause Hypothesis:** {early assessment}
+**Blast Radius:** {which teams/services are impacted}
+
+**Incident Timeline:**
+- T+0: Alert triggered
+- T+2: Manual confirmation
+- T+5: Initial triage [what did we try]
+
+**Technical Details:**
+- Logs: [link to log aggregation]
+- Metrics: [link to monitoring dashboard]
+- Related tickets: [issue numbers if existing]
+
+**Required Skills:**
+- Database expertise: [if needed]
+- Network engineering: [if needed]
+- [Service] deep knowledge: [if needed]
+```
+
+## Escalation De-Escalation (When to Cancel Escalation)
+
+Not all escalations remain escalations. Define when to de-escalate:
+
+```markdown
+## De-Escalation Criteria
+
+**SEV1 → SEV2:**
+- Issue was initially critical but is now contained
+- Example: "Database recovered, queries normal, but cache needs rebuilding"
+- Action: Update incident with new severity, notify team
+
+**SEV2 → SEV3:**
+- Issue is isolated to subset of users/features
+- Example: "Only EU users affected, feature worked around by US"
+- Action: Reduce escalation urgency, move to next business day
+
+**SEV3/4 → Resolved:**
+- Issue fixed and verified
+- Example: "Deployed hotfix, monitoring for 30 min confirms stable"
+- Action: Close escalation, document root cause, schedule postmortem if SEV1/2
+
+## De-Escalation Template
+
+When de-escalating, communicate clearly:
+
+INCIDENT UPDATE - De-escalation
+
+**Previous:** SEV1 (complete outage)
+**New:** SEV2 (degraded service)
+**Changed At:** {timestamp}
+
+**What changed:**
+- Issue was [original problem]
+- We [specific action that improved situation]
+- Now [new status description]
+
+**Next steps:**
+- Continue monitoring [specific metrics]
+- Planned fix: [timeline]
+- Return to SEV1 if [specific condition]
+```
+
+## Building Escalation Discipline
+
+Teams need to practice escalation to be good at it:
+
+```markdown
+## Escalation Drills (Monthly)
+
+### Drill Structure
+1. **Announcement:** Declare "SEV2 drill" in #incidents-active
+2. **Trigger:** Post incident scenario (fictional or replay of real incident)
+3. **Response:** Team uses actual escalation template and processes
+4. **Debrief:** Review what worked, what was confusing
+
+### Sample Drill Scenario
+
+"Database primary in us-west-2 has failed. Replica is promoting but it will take 8 minutes.
+All users in US West region are seeing errors. Users in other regions are unaffected."
+
+Team should:
+- Recognize this is SEV2 (not complete outage, subset affected)
+- Page on-call engineer with proper escalation template
+- Notify customers (or avoid notification if <1% of user base)
+- Monitor replica promotion progress
+- Update incident status every 2 minutes
+- De-escalate when service restored
+
+### Review Questions
+- Did anyone escalate incorrectly (SEV2 as SEV1)?
+- Was the escalation message clear and actionable?
+- Did communication happen in right channels?
+- How quickly could others join the incident if needed?
+```
+
 ## Related Articles
 
 - [How to Create Remote Team Communication Charter Template](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)

@@ -197,6 +197,219 @@ Most extensions apply settings per-tab. If your settings reset when opening a ne
 Ensure no other application is currently using your camera. Close other video apps, browser tabs with camera access, and system utilities that might claim the device.
 
 
+## Hardware Acceleration and Performance Tuning
+
+Modern webcam extensions can leverage hardware acceleration for better performance:
+
+**GPU-Accelerated Processing**: Extensions like Video Settings Tweaker support WebGL-based processing for effects. Enable hardware acceleration in Chrome:
+
+1. Open Chrome Settings → System
+2. Toggle "Use hardware acceleration when available"
+3. Restart Chrome
+4. Verify: Type `chrome://gpu` to see which features use GPU
+
+With GPU acceleration enabled, color grading and real-time effects consume minimal CPU. You'll notice smoother streaming and less fan noise during long video calls.
+
+**Encoder Selection for Streaming**: If recording or streaming, select the right encoder:
+
+```
+H.264 (VP8): Universal codec, better compression, higher CPU load (~15%)
+VP9: Better quality at same bitrate, very high CPU load (~25%)
+AV1: Newest codec, best compression, extreme CPU load (avoid unless you have workstation CPU)
+```
+
+For Twitch/YouTube streaming, H.264 at 1080p/30fps with quality 90 uses approximately 3-5 Mbps upload. VP9 saves 1 Mbps but increases CPU load significantly.
+
+**Memory Profile Optimization**: Extensions maintain cached frames and color lookup tables. Monitor memory usage:
+
+```
+Chrome DevTools → Memory tab → heap snapshots
+Normal webcam extension: 15-25 MB
+With effects enabled: 40-60 MB
+```
+
+If memory exceeds 100 MB, the extension is malfunctioning. Close other tabs or disable heavy effects.
+
+## Multi-Camera Workflows
+
+Professional remote workers often use multiple cameras. Configure extensions for your setup:
+
+**Dual Camera Setup (Main + Screen Share)**
+
+Many professionals use two cameras:
+1. Main webcam: High-quality external USB camera for face video
+2. Laptop camera: Used for screen-share moments when both face and content matter
+
+Configuration via most extensions:
+
+```javascript
+// Detecting and selecting cameras
+const cameras = await navigator.mediaDevices.enumerateDevices();
+const videoCameras = cameras.filter(device => device.kind === 'videoinput');
+
+// Typical output:
+// [
+//   { deviceId: "...", label: "Logitech C920 HD Pro Webcam" },
+//   { deviceId: "...", label: "Built-in Camera" }
+// ]
+
+// Select primary camera in extension settings
+const primaryCamera = videoCameras[0].deviceId;
+// Extension UI allows switching between cameras before call
+```
+
+In Zoom, Teams, or Meets, you can now switch cameras mid-call without restarting. Set the extension to apply settings to all cameras automatically, or configure per-camera profiles.
+
+**Three-Camera Professional Setup**: Some companies issue high-quality external cameras. Configure three profiles:
+
+1. **Default Profile**: Built-in camera settings (fallback)
+2. **Logitech C920 Profile**: 1080p, 30fps, slight brightness boost
+3. **Streaming Setup**: External camera at 4K (if supported), effects disabled for performance
+
+Switch profiles by clicking the extension icon. Save 30 seconds compared to digging through OS camera settings.
+
+## Bandwidth-Aware Adaptive Settings
+
+For teams with variable internet (remote workers, traveling), implement adaptive settings:
+
+```python
+class AdaptiveWebcamSettings:
+    """Adjust camera settings based on available bandwidth"""
+
+    PROFILES = {
+        'premium': {
+            'resolution': '1080p',
+            'framerate': 30,
+            'bitrate_estimate': 2.5  # Mbps
+        },
+        'good': {
+            'resolution': '720p',
+            'framerate': 30,
+            'bitrate_estimate': 1.5
+        },
+        'moderate': {
+            'resolution': '720p',
+            'framerate': 24,
+            'bitrate_estimate': 1.0
+        },
+        'poor': {
+            'resolution': '480p',
+            'framerate': 15,
+            'bitrate_estimate': 0.5
+        }
+    }
+
+    def detect_bandwidth(self):
+        """Estimate available bandwidth from network API"""
+        # Modern Chrome exposes network information
+        connection = navigator.connection
+        return {
+            'downlink': connection.downlink,  # Mbps
+            'rtt': connection.rtt,  # Round-trip time, ms
+            'effectiveType': connection.effectiveType  # '4g', '3g', etc
+        }
+
+    def select_profile(self, bandwidth_info):
+        """Choose appropriate profile"""
+        downlink = bandwidth_info['downlink']
+
+        if downlink > 5:
+            return 'premium'
+        elif downlink > 2.5:
+            return 'good'
+        elif downlink > 1.5:
+            return 'moderate'
+        else:
+            return 'poor'
+
+    def apply_profile(self, profile_name):
+        """Apply settings for selected profile"""
+        profile = self.PROFILES[profile_name]
+        # Extension applies these settings
+        extension.setResolution(profile['resolution'])
+        extension.setFramerate(profile['framerate'])
+
+# Usage: Every 30 seconds, check bandwidth and adjust
+setInterval(lambda: {
+    bandwidth = detect_bandwidth()
+    profile = select_profile(bandwidth)
+    apply_profile(profile)
+}, 30000)  # Check every 30 seconds
+```
+
+This prevents frustrating video degradation from happening silently. Users see "Bandwidth detected as Good - using 720p/30fps" notification and understand why their video looks the way it does.
+
+## Browser-Specific Compatibility Matrix
+
+Different browsers implement WebRTC and camera APIs differently. Know the quirks:
+
+| Browser | Resolution Support | Manual Focus | White Balance | Status |
+|---------|-------------------|--------------|---------------|--------|
+| Chrome 120+ | Up to 4K | Yes | Yes | Full support |
+| Chrome < 110 | Up to 1080p | Limited | Limited | Upgrade needed |
+| Edge 120+ | Up to 4K | Yes | Yes | Full support |
+| Firefox 120+ | Up to 1080p | Yes | Auto only | Partial support |
+| Safari 16+ | Up to 1080p | No | No | Very limited |
+| Opera 105+ | Up to 4K | Yes | Yes | Full support |
+
+Safari users are locked into OS-level camera controls. If they need webcam adjustment, direct them to OBS Virtual Camera instead.
+
+Firefox supports fewer manual controls. Your extension template should gracefully degrade on Firefox by hiding unsupported sliders.
+
+## Recording-Specific Optimization
+
+If using extensions primarily for recorded video (tutorials, demos):
+
+**Pre-Recording Checklist**:
+```
+Extension Settings:
+- Resolution: 1080p or higher (1440p if 10+ Mbps available)
+- Frame rate: 30fps (smoother playback)
+- Bitrate: Maximum (quality matters for permanent recording)
+- Lighting: No compression needed for static lighting
+
+Hardware:
+- Close unnecessary browser tabs (reduce system load)
+- Turn off notifications (visual distractions)
+- Use external microphone (built-in is poor quality)
+- Hard-code camera focus (avoid focus hunting during recording)
+```
+
+**Post-Recording Steps**:
+1. Trim first and last 5 seconds (usually contain technical chatter)
+2. Denoise audio track (separate concern from video)
+3. Color grade if using multiple clips (ensure consistency)
+4. Export at 1080p H.264 for maximum compatibility
+
+Recording quality drops dramatically if your CPU hits 80%+ load. Use lightweight editing tools or record multiple shorter segments instead of one long one.
+
+## Troubleshooting Advanced Issues
+
+**Extension Conflicts**: Some extensions conflict with camera access. If settings don't apply:
+
+1. Disable all other extensions temporarily
+2. Test camera settings extension in isolation
+3. Re-enable extensions one by one
+4. Identify which extension conflicts
+
+Common culprits: Privacy extensions (uBlock Origin), anti-tracking (Privacy Badger), session managers.
+
+**Driver-Level Problems**: If extension detects your camera but settings don't apply:
+
+1. Update your camera driver (motherboard driver for built-in, manufacturer for USB)
+2. Windows: Device Manager → Cameras → [Your camera] → Update driver
+3. Mac: System Preferences → System Report → USB → [Camera] → Note driver version
+4. Linux: `v4l2-ctl --list-devices` to verify driver support
+
+Outdated drivers often lack support for fine-grained camera control. Updating frequently solves issues.
+
+**Permission Problems**: If the extension asks for camera permission repeatedly:
+
+1. Chrome: Settings → Privacy and Security → Camera → Check that extension has permission
+2. Allow the extension in "On all sites" (not "On specific sites")
+3. Restart Chrome completely
+4. Test again
+
 ## Frequently Asked Questions
 
 
