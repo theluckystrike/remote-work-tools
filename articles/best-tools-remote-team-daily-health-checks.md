@@ -20,26 +20,19 @@ A daily health check for remote teams isn't just asking "how is everyone?" — i
 
 | Tool | Key Feature | Remote Team Fit | Integration | Pricing |
 |---|---|---|---|---|
-| Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
-| Slack | Real-time team messaging | Channels, threads, huddles | 2,600+ apps | $7.25/user/month |
-| Linear | Fast project management | Keyboard-driven, cycles | GitHub, Slack, Figma | $8/user/month |
-| Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
-| 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
+| Uptime Kuma | Self-hosted uptime monitoring | Service health with Slack alerts | Slack, PagerDuty, webhooks | Free/open source |
+| Geekbot | Async standup tool | Replaces daily sync calls | Slack, Microsoft Teams | $2.50/user/month |
+| GitHub CLI | PR and deployment digests | Morning digest automation | GitHub, Slack | Free |
+| AWS Cost Explorer | Cloud spend monitoring | Daily cost anomaly alerts | AWS, Slack via Lambda | Included with AWS |
+| Grafana | Metrics and alerting | Threshold-based health alerts | Prometheus, Loki, Slack | Free OSS; Cloud plans |
 
 ## Key Takeaways
 
-- **Geekbot (Async Standup)
-
-Cost**: $2.50/user/month
-Best for: Replacing synchronous standups with async check-ins
-
-```
-Geekbot question template for daily health check:
-
-1.
-- +{pct_change:.0f}% above average.
-- **The best tools automate**: this and post results to Slack so the whole team starts from shared context.
-- **Topics covered**: the daily health check framework, 1. uptime kuma (service health), 2. geekbot (async standup)
+- Daily health checks combine service monitoring, deployment status, cloud cost alerts, and team standup into one consolidated morning digest
+- Uptime Kuma handles service monitoring with a self-hosted option that avoids per-monitor SaaS fees at scale
+- Geekbot replaces synchronous standups while collecting team health signals like blocker status and energy levels
+- The GitHub morning digest script surfaces stale PRs and overnight deployment results without any manual review
+- A consolidated bash script can pull all health signals into a single Slack message, giving remote teams a shared daily starting point
 
 ## The Daily Health Check Framework
 
@@ -53,6 +46,14 @@ Cloud spend       | AWS/GCP cost alert   | Daily if > 10% above baseline
 PR queue          | GitHub              | Morning: PRs waiting > 8h
 Team async status | Geekbot/Standuply    | Daily async standup
 ```
+
+### Why Remote Teams Need an Explicit Framework
+
+Co-located teams naturally share health signals throughout the day. Engineers overhear conversations about a slow API. A manager glances at a dashboard on a shared screen. Someone mentions the deploy that went sideways at lunch.
+
+Remote teams have none of that ambient signal. Information that isn't explicitly communicated stays siloed. An engineer might not know a deployment failed overnight until they try to reproduce a bug in production. A manager might not know two team members are blocked until standup — if there is a standup.
+
+The health check framework makes implicit signal explicit. It defines what gets checked, where it gets posted, and when. That's the difference between a team that starts the day with shared context and one that spends the first hour figuring out what state things are in.
 
 ## 1. Uptime Kuma (Service Health)
 
@@ -113,6 +114,12 @@ curl -X POST "$SLACK_WEBHOOK" \
   }"
 ```
 
+### Uptime Kuma vs Hosted Alternatives
+
+Uptime Kuma's main advantage is cost at scale. Paid uptime monitors charge per monitor (typically $0.50-$2/monitor/month). A team with 20 services pays $10-$40/month. Uptime Kuma is free and unlimited. The tradeoff is self-hosting overhead — but with Docker on a $5/month VPS, this is minimal.
+
+For teams that want a hosted option, Better Uptime ($20/month) and Pingdom ($15/month) provide similar monitoring with less operational burden. The Slack integration works identically.
+
 ## 2. Geekbot (Async Standup)
 
 **Cost:** $2.50/user/month
@@ -153,6 +160,12 @@ curl -X POST "https://api.geekbot.com/v1/standups" \
     "users": ["U01234567", "U89012345"]
   }'
 ```
+
+### Reading Standup Responses for Health Signals
+
+The standup questions are more valuable than they appear. "Any blockers?" is the most important question in the check-in — but it's also the one most often answered with "None" when there are real blockers. The pattern to watch for: someone answers "None" for blockers but also says their priority today is the same thing they listed yesterday. That's a likely hidden blocker.
+
+The energy rating (1-5) gives managers a lightweight signal without requiring a separate check-in. A 1 or 2 warrants a private follow-up: "Noticed you rated your energy low — anything I can help with?" This takes less than two minutes and catches burnout signals before they become retention problems.
 
 ## 3. GitHub Morning Digest
 
@@ -206,6 +219,16 @@ curl -X POST "$SLACK_WEBHOOK" \
 ```bash
 # Cron: weekdays at 9am
 0 9 * * 1-5 /opt/scripts/github-morning-digest.sh
+```
+
+### Customizing the PR Threshold
+
+The 8-hour threshold (28800 seconds) is appropriate for teams with overlapping timezones. For teams with minimal timezone overlap, where PRs naturally sit overnight, adjust to 24 or 36 hours to avoid noise. The goal is to surface PRs that are stuck, not PRs that are simply aging normally through a review cycle.
+
+If your team uses GitHub's "draft PR" convention for work-in-progress, add a filter to exclude draft PRs from the digest — they're not ready for review:
+
+```bash
+--jq 'map(select(.isDraft == false)) | ...'
 ```
 
 ## 4. AWS Cost Health Check
@@ -263,6 +286,28 @@ if __name__ == "__main__":
     notify_slack(os.environ["SLACK_WEBHOOK_OPS"], msg)
 ```
 
+### Extending the Cost Check to Service-Level Breakdown
+
+The script above gives a total cost figure. For teams with multiple services or environments, adding a service-level breakdown helps identify which component caused a spike:
+
+```python
+# Add this to get_daily_cost() to see cost by service
+result_by_service = ce.get_cost_and_usage(
+    TimePeriod={'Start': yesterday, 'End': today},
+    Granularity='DAILY',
+    Metrics=['UnblendedCost'],
+    GroupBy=[{'Type': 'DIMENSION', 'Key': 'SERVICE'}]
+)
+
+services = [
+    f"  {g['Keys'][0]}: ${float(g['Metrics']['UnblendedCost']['Amount']):.2f}"
+    for g in result_by_service['ResultsByTime'][0]['Groups']
+    if float(g['Metrics']['UnblendedCost']['Amount']) > 1.0  # Only show services > $1
+]
+```
+
+This surfaces "EC2 cost jumped $40 yesterday" rather than "total cost jumped $40," giving engineers a direct entry point for investigation.
+
 ## 5. Grafana Alerting Summary
 
 ```yaml
@@ -287,6 +332,12 @@ curl -s "$GRAFANA_API" \
     }
   '
 ```
+
+### Grafana vs DataDog for Remote Teams
+
+Grafana OSS is free and runs on self-hosted infrastructure. DataDog is paid ($15-$23/host/month) but includes full APM, log management, and a cloud-hosted alerting system with no operational overhead. For remote teams under 10 engineers, Grafana on a small server is often sufficient. For teams shipping to production continuously with 10+ services, the DataDog cost is often justified by the time saved on investigation.
+
+The health check integration is similar in both: a webhook that fires when alerts change state, plus a scheduled API query for the morning digest. The difference is DataDog's query API is more capable — you can filter by service, environment, and alert severity in a single request.
 
 ## Consolidated Morning Digest Script
 
@@ -319,6 +370,31 @@ JSON
 
 curl -s -X POST "$SLACK_WEBHOOK" -H "Content-type: application/json" -d "$PAYLOAD"
 ```
+
+### Scheduling and Reliability
+
+Run the consolidated digest at a fixed time every weekday. The cron below targets 9am UTC; adjust to match the first hour of your primary timezone:
+
+```bash
+# Cron: weekdays at 9am UTC
+0 9 * * 1-5 /opt/scripts/morning-digest.sh >> /var/log/morning-digest.log 2>&1
+```
+
+Log the output. When the digest fails silently, the team doesn't notice until they realize they haven't seen it for three days. Logging to a file makes troubleshooting simple — check the log, see the error, fix it.
+
+If uptime matters for the digest script itself, run it on the same host as Uptime Kuma and add the digest endpoint as a monitor. If the digest stops posting, Uptime Kuma alerts on the silence.
+
+## Tool Comparison: Async Standup Options
+
+| Tool | Price | Timezone Support | Slack Integration | Self-Hosted Option |
+|---|---|---|---|---|
+| Geekbot | $2.50/user/month | Per-user timezone | Native | No |
+| Standuply | $2/user/month | Per-user timezone | Native | No |
+| Range | $6/user/month | Per-user timezone | Native | No |
+| GitHub Issues (DIY) | Free | Manual | Via webhook | Yes |
+| Notion Daily Template | Free | Manual | Via automation | Yes |
+
+For teams already on Slack, Geekbot and Standuply are the practical choices. For teams that want to own the data and avoid per-user fees, a Notion form posted via Slack automation achieves similar results at zero marginal cost.
 
 ## Related Reading
 
