@@ -66,6 +66,8 @@ curl -X GET "https://api.timedoctor.com/v1.1/worklog" \
 - Enable "work/break" time distinction
 - Set up project codes that match your project tracker
 
+Time Doctor's work-life balance report is a hidden gem — it shows which team members are consistently working outside their stated hours. This is a burnout early warning signal that most managers miss until it is too late.
+
 ## Hubstaff
 
 Hubstaff is similar to Time Doctor with stronger GPS tracking (irrelevant for remote) and better integrations with Asana, Linear, and GitHub.
@@ -89,6 +91,8 @@ curl -X GET "https://api.hubstaff.com/v2/organizations/ORG_ID/activities" \
   --data-urlencode "time_slot[start]=2026-03-15T00:00:00Z" \
   --data-urlencode "time_slot[stop]=2026-03-21T23:59:59Z"
 ```
+
+Hubstaff's automatic idle detection is worth configuring carefully. The default 5-minute idle timeout causes false stops when developers are reading documentation, thinking through a problem, or in a video call without moving the mouse. Raise the idle threshold to 15-20 minutes for engineering teams.
 
 ## RescueTime
 
@@ -123,6 +127,20 @@ curl "https://www.rescuetime.com/anapi/data" \
   --data-urlencode "restrict_end=2026-03-21" \
   --data-urlencode "restrict_kind=category"
 ```
+
+RescueTime's "Focus Work" goal feature is particularly useful for individual contributors. Set a goal (e.g., 4 hours of focus time per day in development tools) and RescueTime sends a daily summary of how close you came. Over time, you build an empirical picture of which days and which calendar patterns actually produce deep work.
+
+## Tool Comparison
+
+| Tool | Best For | Privacy Model | Price/user/month | Surveillance Risk |
+|---|---|---|---|---|
+| Time Doctor | Agencies, billing | Manager-controlled | $5.90–$16.70 | High if screenshots enabled |
+| Hubstaff | Teams with project trackers | Manager-controlled | $7–$20 | Medium |
+| RescueTime | Individual self-insight | Individual-first | Free–$6.50 | Low |
+| Toggl Track | Simple time tracking | User-controlled | Free–$9 | Very low |
+| Clockify | Budget teams, billing | User-controlled | Free–$7.99 | Very low |
+
+Toggl Track and Clockify are worth mentioning as purely manual, user-controlled trackers. There is no background monitoring — users start and stop timers themselves. This eliminates surveillance risk entirely and works well for teams that want billable-hour tracking without any automated monitoring. The tradeoff is lower data completeness (people forget to start timers).
 
 ## Building Your Own Light Metrics Dashboard
 
@@ -245,8 +263,21 @@ gcalcli --calendar "Work" agenda \
   }'
 ```
 
-**Alert threshold:** If anyone on your team is in meetings more than 15 hours per week, that's a problem worth addressing before tracking anything else.
+**Alert threshold:** If anyone on your team is in meetings more than 15 hours per week, that is a problem worth addressing before tracking anything else.
 
+The meeting load number is often the most actionable metric a manager can track. Unlike cycle time or velocity, which require understanding a lot of context to interpret, 20 hours of meetings per week for an individual contributor is unambiguously bad — regardless of team, project type, or seniority level.
+
+## Implementing a Metrics Review Cadence
+
+Collecting data is only useful if you act on it. A lightweight cadence that works for most remote engineering teams:
+
+**Weekly (10 minutes, async):** Post the automated GitHub + Linear report to a dedicated Slack channel. Team members can comment or flag if something looks off. No meeting required.
+
+**Monthly (30-minute team meeting):** Review trends over the past 4 weeks. Are cycle times trending up or down? Is meeting load creeping? Did the PR review turnaround improve? This is also a good time to check whether the metrics you are tracking still reflect what you care about.
+
+**Quarterly (manager 1:1s):** Review individual patterns — not to evaluate performance, but to identify support opportunities. Someone whose focus block time has been declining may be dealing with unclear requirements, too many interruptions, or scope creep on a project that needs to be restructured.
+
+The key principle: metrics should inform conversations, not replace them. A declining velocity number is a question ("what changed?"), not a verdict.
 
 ## Related Articles
 
