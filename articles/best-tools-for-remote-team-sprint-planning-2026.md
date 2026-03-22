@@ -10,6 +10,7 @@ voice-checked: true
 intent-checked: true
 slug: best-tools-for-remote-team-sprint-planning-2026
 tags: ["sprint-planning", "project-management", "remote-teams", "agile"]
+permalink: /best-tools-for-remote-team-sprint-planning-2026/
 ---
 
 {% raw %}

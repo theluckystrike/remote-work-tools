@@ -7,6 +7,7 @@ reviewed: true
 score: 8
 voice-checked: true
 intent-checked: true
+permalink: /best-tools-for-remote-team-okr-tracking-2026/
 ---
 
 {% raw %}

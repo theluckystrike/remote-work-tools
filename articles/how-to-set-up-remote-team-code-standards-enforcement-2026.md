@@ -10,6 +10,7 @@ voice-checked: true
 intent-checked: true
 slug: how-to-set-up-remote-team-code-standards-enforcement-2026
 tags: ["code-standards", "remote-teams", "devops", "ci-cd", "developer-tools"]
+permalink: /how-to-set-up-remote-team-code-standards-enforcement-2026/
 ---
 
 {% raw %}

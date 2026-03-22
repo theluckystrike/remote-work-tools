@@ -10,6 +10,7 @@ voice-checked: true
 intent-checked: true
 category: "Remote Teams"
 tags: ["Technical Debt", "Engineering Management", "Remote Teams", "Prioritization"]
+permalink: /how-to-manage-remote-team-technical-debt-2026/
 ---
 
 {% raw %}
