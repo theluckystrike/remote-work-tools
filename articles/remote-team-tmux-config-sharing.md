@@ -259,6 +259,95 @@ tmate show-messages
 
 ---
 
+## Keeping Plugins in Sync Across the Team
+
+The biggest drift point in shared tmux configs is plugin versions. Two engineers on different machines have different versions of `tmux-resurrect` and saved sessions stop restoring correctly. Pin versions in the config:
+
+```bash
+# tmux.conf — pin plugin commits, not just repos
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible#v2.0.0'
+set -g @plugin 'tmux-plugins/tmux-resurrect#v4.0.0'
+set -g @plugin 'tmux-plugins/tmux-continuum#v3.0.0'
+set -g @plugin 'tmux-plugins/tmux-yank#v5.0.0'
+```
+
+Alternatively, vendor the plugins directly in the dotfiles repo:
+
+```bash
+# install.sh additions — vendor tpm and plugins
+mkdir -p "$DOTFILES_DIR/tmux/plugins"
+
+# Clone/update each plugin at a pinned commit
+clone_or_update() {
+  local repo="$1" target="$2" commit="$3"
+  if [[ -d "$target" ]]; then
+    git -C "$target" fetch --quiet
+    git -C "$target" checkout "$commit" --quiet
+  else
+    git clone --quiet "$repo" "$target"
+    git -C "$target" checkout "$commit" --quiet
+  fi
+}
+
+clone_or_update \
+  https://github.com/tmux-plugins/tpm \
+  "$DOTFILES_DIR/tmux/plugins/tpm" \
+  "b840227"  # tag: v3.1.0
+
+# Point tpm at vendored directory
+# In tmux.conf:
+# run '~/.config/tmux/plugins/tpm/tpm'
+```
+
+Then symlink the vendored plugin directory instead of using tpm's git-based installer. New engineers get the exact same versions without a network fetch.
+
+---
+
+## Infra Session Template for On-Call
+
+A dedicated session layout for incident response keeps the monitoring and debugging context separate from normal dev work:
+
+**`tmux/sessions/infra.sh`**
+
+```bash
+#!/bin/bash
+# infra.sh — on-call / infra session
+SESSION="infra"
+
+tmux has-session -t "$SESSION" 2>/dev/null && tmux attach -t "$SESSION" && exit
+
+tmux new-session -d -s "$SESSION" -n "logs"
+
+# Window 1: Log tailing split
+# Top: app logs, Bottom: system logs
+tmux send-keys -t "${SESSION}:logs" \
+  "ssh deploy@app-01.internal 'tail -f /var/log/app/app.log'" Enter
+tmux split-window -t "${SESSION}:logs" -v -p 30
+tmux send-keys -t "${SESSION}:logs.2" \
+  "ssh deploy@app-01.internal 'journalctl -f -u myapp'" Enter
+
+# Window 2: Metrics — Prometheus queries
+tmux new-window -t "$SESSION" -n "metrics"
+tmux send-keys -t "${SESSION}:metrics" \
+  "watch -n5 'curl -s http://prometheus.internal:9090/api/v1/query \
+  --data-urlencode \"query=rate(http_requests_total[5m])\" | jq .'" Enter
+
+# Window 3: Kubernetes
+tmux new-window -t "$SESSION" -n "k8s"
+tmux split-window -t "${SESSION}:k8s" -h
+tmux send-keys -t "${SESSION}:k8s.1" "watch kubectl get pods -n production" Enter
+tmux send-keys -t "${SESSION}:k8s.2" "kubectl events -n production --watch" Enter
+
+# Window 4: SSH + runbook
+tmux new-window -t "$SESSION" -n "shell"
+
+tmux select-window -t "${SESSION}:logs"
+tmux attach -t "$SESSION"
+```
+
+---
+
 ## Related Reading
 
 - [Remote Team Neovim Setup and Config Sharing](/remote-work-tools/remote-team-neovim-setup-config-sharing/)

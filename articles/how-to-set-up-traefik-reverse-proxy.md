@@ -337,6 +337,148 @@ curl -s "http://localhost:8080/api/overview" \
 
 ---
 
+## Middleware Chains for Production Hardening
+
+Combining multiple middlewares into a chain gives you layered defense — rate limiting, secure headers, and auth in one pass. Define the chain in your dynamic config, then apply the chain name to any router.
+
+```yaml
+# traefik/config/middleware-chains.yml
+http:
+  middlewares:
+    # Individual middlewares
+    rate-limit-api:
+      rateLimit:
+        average: 60
+        burst: 20
+        period: 1m
+        sourceCriterion:
+          ipStrategy:
+            depth: 1
+
+    compress:
+      compress:
+        excludedContentTypes:
+          - text/event-stream
+
+    secure-headers:
+      headers:
+        browserXssFilter: true
+        contentTypeNosniff: true
+        frameDeny: true
+        forceSTSHeader: true
+        stsSeconds: 31536000
+        stsIncludeSubdomains: true
+        stsPreload: true
+        referrerPolicy: "strict-origin-when-cross-origin"
+        permissionsPolicy: "camera=(), microphone=(), geolocation=()"
+        customResponseHeaders:
+          X-Robots-Tag: "noindex, nofollow"  # for internal services
+
+    # Chain them together
+    api-chain:
+      chain:
+        middlewares:
+          - rate-limit-api
+          - secure-headers
+          - compress
+
+    internal-chain:
+      chain:
+        middlewares:
+          - office-only
+          - secure-headers
+```
+
+Apply a chain to a container with one label:
+
+```yaml
+labels:
+  - "traefik.http.routers.api.middlewares=api-chain@file"
+```
+
+The `@file` suffix tells Traefik the middleware is defined in a file provider, not Docker labels. Chains are reusable — define once, apply to any router.
+
+---
+
+## Observability: Metrics and Tracing
+
+Traefik exposes Prometheus metrics natively. Add the metrics endpoint to `traefik.yml`:
+
+```yaml
+# traefik/traefik.yml additions
+metrics:
+  prometheus:
+    addEntryPointsLabels: true
+    addRoutersLabels: true
+    addServicesLabels: true
+    buckets:
+      - 0.1
+      - 0.3
+      - 1.2
+      - 5.0
+    entryPoint: metrics
+
+entryPoints:
+  metrics:
+    address: ":8082"
+```
+
+Scrape from Prometheus with:
+
+```yaml
+# prometheus.yml
+scrape_configs:
+  - job_name: traefik
+    static_configs:
+      - targets: ["traefik:8082"]
+    metrics_path: /metrics
+```
+
+Key metrics to alert on:
+
+| Metric | What to watch |
+|--------|---------------|
+| `traefik_entrypoint_requests_total` | Request volume by status code |
+| `traefik_entrypoint_request_duration_seconds` | p99 latency per entrypoint |
+| `traefik_service_open_connections` | Connection saturation |
+| `traefik_router_requests_total{code="502"}` | Upstream failures |
+
+For distributed tracing, add OpenTelemetry export (Traefik v3+):
+
+```yaml
+tracing:
+  otlp:
+    grpc:
+      endpoint: tempo.internal:4317
+      insecure: true
+```
+
+This sends trace spans to Grafana Tempo or any OTLP-compatible backend, correlating Traefik routing decisions with downstream service spans.
+
+---
+
+## Troubleshooting Common Traefik Issues
+
+**Certificate not renewing:** Check `docker logs traefik` for ACME errors. Common causes: the domain doesn't resolve to this server (Let's Encrypt can't complete the challenge), or `acme.json` has wrong permissions (`chmod 600 acme.json`). For DNS challenge failures, confirm the API token has zone edit permissions.
+
+**Service returns 502 Bad Gateway:** Traefik reached the container but the container rejected the connection. Verify the `loadbalancer.server.port` label matches the actual port your app listens on. Check `docker inspect <container>` to confirm the container is on the `proxy` network.
+
+**Redirect loop on HTTPS:** If the upstream service also redirects HTTP→HTTPS, and Traefik forwards to it via HTTP internally, you get a loop. Fix: ensure the upstream app trusts `X-Forwarded-Proto` and only redirects when it's missing, or connect Traefik to the service via HTTPS with `--serversTransport.insecureSkipVerify=true` (dev only).
+
+**Dashboard not loading:** The API router requires the `api@internal` service and must be on the `websecure` entrypoint. Confirm `api.dashboard: true` is in `traefik.yml` and your router labels include `traefik.http.routers.traefik.service=api@internal`.
+
+**New container not discovered:** Ensure the container is on the `proxy` network (not just `bridge`) and has `traefik.enable=true`. Run `docker network inspect proxy` to confirm the container appears. If you added the container after Traefik started, Traefik should detect it automatically within seconds — check logs for `"Skipping provider"` messages.
+
+```bash
+# Inspect what Traefik currently sees
+curl http://localhost:8080/api/rawdata | jq '.routers | keys'
+
+# Watch for configuration events in real time
+docker logs -f traefik 2>&1 | grep -E "(error|warn|router|service)"
+```
+
+---
+
 ## Related Reading
 
 - [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
