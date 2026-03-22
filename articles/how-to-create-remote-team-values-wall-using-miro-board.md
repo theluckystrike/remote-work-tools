@@ -141,6 +141,76 @@ Create a **decision filter** that explicitly references values during important 
 
 **Performance and promotion decisions**: Values guide who gets promoted into leadership. If a value is "enabling others," someone who accumulates individual contributions but doesn't mentor teammates might not be the right promotion candidate. Conversely, someone building team capability aligns with that value.
 
+## Creating Behavioral Accountability Frameworks
+
+
+Once your team has defined values, create concrete accountability mechanisms tied to those values. This prevents them from becoming meaningless posters.
+
+
+**Value-based feedback form**: During performance reviews, ask questions aligned with each value:
+
+- "How did this person demonstrate our 'continuous learning' value?"
+- "Give an example of them embodying 'respect for deep work'"
+- "How did they contribute to 'transparent communication'?"
+
+
+Recording these examples throughout the year creates a feedback loop where people know they're being evaluated against stated values, not arbitrary criteria. They can point to the values wall and say "I'm doing exactly what we committed to."
+
+
+**Quarterly value reflections**: Schedule 30-minute team discussions where you pick one value each quarter and reflect:
+
+1. Did we live this value well this quarter?
+2. Where did we fall short?
+3. What will we commit to next quarter?
+
+
+Document these reflections in your Miro board or a separate wiki page. Over time, this creates a narrative of your team's values evolution. When you hire new people or conduct retrospectives, you can show "here's how we've developed and refined our values over 18 months."
+
+
+## Scaling Values Across Remote Teams
+
+
+If you manage multiple teams, your organization's values wall becomes a unifying artifact. Create a parent values wall at the organizational level, then have each team create their own board that details how they implement those values.
+
+
+```
+Organization Values Wall (Miro Board 1):
+- Innovation
+- Empathy
+- Excellence
+
+Engineering Team Values (Miro Board 2):
+- Innovation → "Ship features without fear of breaking things"
+- Empathy → "Write documentation for future maintainers"
+- Excellence → "Code passes review without requested changes"
+
+Product Team Values (Miro Board 3):
+- Innovation → "Ship new features weekly"
+- Empathy → "User research guides every decision"
+- Excellence → "Zero critical bugs in production"
+```
+
+
+This structure prevents teams from developing misaligned values while allowing department-specific interpretation. You can link the Miro boards together, creating a transparent organizational hierarchy of values.
+
+
+## Conflict Resolution Using the Values Wall
+
+
+When team members disagree on priorities or approaches, use your values wall as a neutral arbiter. For example:
+
+
+**Scenario**: One engineer wants to spend a sprint refactoring legacy code. Another wants to ship new features.
+
+**Resolution using values**:
+1. Pull up your values wall in the meeting
+2. Ask "Which value does refactoring serve?" Answer: "Quality and sustainable pace"
+3. Ask "Which value does new features serve?" Answer: "Customer impact and innovation"
+4. Discuss the tradeoff: "We value both sustainable pace AND innovation. How do we balance them?"
+5. This grounds the discussion in shared principles rather than competing egos
+
+The values wall transforms conflicts from "who's right?" to "what do we value, and what are we willing to sacrifice?" This type of principled discussion builds team maturity and trust.
+
 ## Maintaining and Evolving Your Values Wall
 
 ## Technical Setup in Miro
@@ -168,6 +238,106 @@ Second, consider time zones when scheduling. Try to find a time when the maximum
 Third, assign a facilitator who can keep the discussion on track. Without someone guiding the process, conversations can drift or certain voices can dominate. The facilitator's job is to ensure everyone contributes and the team makes meaningful progress.
 
 Finally, make it enjoyable. Values creation should feel like a celebration of what makes your team great, not a bureaucratic exercise. Play some music, start with positive stories about the team, and acknowledge the effort everyone is putting into making the team better.
+
+
+## Translating Values Into Hiring Criteria
+
+
+Once your values are defined, use them in the hiring process. This ensures new team members are aligned from day one.
+
+
+**Interview questions tied to values**:
+
+If one value is "continuous learning," ask: "Tell us about a skill you taught yourself. How did you approach learning it? What motivated you?"
+
+If one value is "async-first communication," ask: "Describe a time you had to work with someone in a different timezone. How did you keep the collaboration effective?"
+
+If one value is "quality over speed," ask: "Tell us about a time you pushed back on a deadline because you wanted to maintain quality. What was the outcome?"
+
+
+During the interview loop, each interviewer assesses how the candidate demonstrates your team's values. This becomes part of the hiring scorecard: "Does this person embody our values?" becomes as important as "Can they code?"
+
+
+**Onboarding with values**:
+
+On day one, walk the new hire through the values wall. Ask each team member to share one story about a time they lived each value well. This creates immediate cultural immersion and makes the values tangible rather than abstract.
+
+
+## Preventing Values from Becoming Platitudes
+
+
+The biggest risk with values walls is that they become posters everyone ignores. Here's how to prevent that:
+
+
+**Monthly values spotlight**: Pick one value each month for team discussion. Ask: "How did we embody this value last month? What are we committing to this month?" This keeps values at the forefront of discussion.
+
+
+**Link performance reviews to values**: During reviews, don't just discuss projects and deliverables. Ask specific questions:
+- "Which of our values do you feel you demonstrated most strongly?"
+- "Which value do you want to develop further?"
+- "Can you share a specific example of living this value?"
+
+
+**Tie bonuses and promotions to values**: If your org has performance bonuses, explicitly tie them to demonstrated values. Nothing communicates "we care about these values" like money.
+
+
+**Values violations warrant discussion**: If someone consistently violates stated values, address it in real-time. If your value is "transparency" and someone makes a decision in secret, that's a culture issue worth raising.
+
+
+## Exporting and Sharing Your Values
+
+
+After your Miro session, document the output in multiple formats for accessibility:
+
+
+**PDF format**: Export the board as PDF for sharing with executives or prospective hires
+**Markdown format**: Put values in your team handbook or wiki for easy searching
+**Video format**: Record a 5-minute walkthrough of the values board to include in onboarding
+**Slack integration**: Create a Slack custom emoji for each value, use them in discussions
+
+
+The more formats you use, the more likely values stay visible and referenced.
+
+
+## Real-World Example: Engineering Team Values
+
+
+Here's what a mature values wall might look like for an engineering team:
+
+
+```
+Core Values (5 selected):
+
+1. Shipping > Perfection
+   Examples in action:
+   - Shipped payment processing 3 days early, known limitation documented
+   - Chose to deploy with tech debt rather than delay
+
+2. Respectful Disagreement
+   Examples in action:
+   - Architecture debate lasted 2 weeks, all voices heard, loser agreed and shipped
+   - Code review comments are always kind, technical, never personal
+
+3. Async-First, Sync-When-Necessary
+   Examples in action:
+   - All discussions documented in ADRs, no oral decisions
+   - Standups are 5 minutes max, deeper discussion happens async in Slack
+
+4. Continuous Learning
+   Examples in action:
+   - 20% time spent learning new skills
+   - Conference attendance encouraged and funded
+   - Team books chosen quarterly, discussed over lunch
+
+5. Sustainability Over Crunch
+   Examples in action:
+   - No on-call paging during nights/weekends
+   - "No heroic overtime" policy enforced
+   - Burnout addressed immediately with workload rebalancing
+```
+
+
+This specific, example-driven values wall is far more useful than a generic "we value excellence" statement.
 
 
 ### Automate Async Standups via Slack Bot

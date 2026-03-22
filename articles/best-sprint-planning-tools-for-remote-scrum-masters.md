@@ -197,8 +197,167 @@ The best sprint planning tool depends on your team's specific constraints:
 
 Beyond features, evaluate adoption friction. A powerful tool that requires three training sessions delivers less value than a simple tool your team actually uses. Start with your Scrum Master's pain points—time zone coordination, estimation accuracy, async communication—and select tools that solve those specific problems.
 
----
+## Sprint Planning Workflow Template
 
+Implement this structured workflow for effective remote sprint ceremonies:
+
+```markdown
+# 2-Week Sprint Planning Workflow
+
+## Pre-Sprint (Friday before sprint)
+- [ ] Backlog refinement session: prioritize top 20 stories
+- [ ] Estimation: story point all items in top 20
+- [ ] Spike resolution: identify and document unknowns
+- [ ] Capacity planning: calculate team velocity baseline
+- [ ] Constraint identification: holidays, planned absences, deadlines
+
+## Sprint Planning (Monday morning)
+### Session 1: Goal Setting (30 minutes)
+- [ ] Product owner presents sprint goal
+- [ ] Team discusses feasibility
+- [ ] Agree on success metrics
+- [ ] Identify key risks
+
+### Session 2: Commitment (60 minutes)
+- [ ] Team pulls stories based on velocity
+- [ ] Developers estimate if needed
+- [ ] Identify dependencies
+- [ ] Create subtasks for complex items
+- [ ] Team confirms capacity (not overbooked)
+
+## Daily Standup (10 minutes)
+- [ ] What I completed yesterday
+- [ ] What I'm working on today
+- [ ] Blockers or help needed
+- [ ] Update issue status in tool
+
+## Mid-Sprint Check (Wednesday)
+- [ ] Velocity on track?
+- [ ] Any scope creep?
+- [ ] Escalate blockers
+- [ ] Replan if needed
+
+## Sprint Review (Friday afternoon)
+- [ ] Demo completed work
+- [ ] Gather feedback from stakeholders
+- [ ] Update product backlog based on feedback
+- [ ] Calculate actual velocity
+
+## Retrospective (Friday late afternoon)
+- [ ] What went well?
+- [ ] What could improve?
+- [ ] Identify action items for next sprint
+```
+
+## Sprint Planning Tool Comparison Table
+
+Detailed comparison across critical dimensions:
+
+| Criteria | Linear | Jira | Trello | Notion | ClickUp |
+|----------|--------|------|--------|--------|---------|
+| Setup time | 30 min | 2-4 hours | 15 min | 1 hour | 1 hour |
+| Learning curve | Shallow | Steep | Very shallow | Medium | Medium |
+| Estimation tools | Native | Via plugin | Custom fields | Database properties | Native |
+| Sprint reports | Good | Excellent | Limited | Custom | Good |
+| Automation | Workflows | Extensive | Rules/Butler | Database relations | Extensive |
+| Mobile experience | Good | Fair | Good | Fair | Good |
+| Custom workflows | Limited | Very customizable | Flexible | Highly customizable | Customizable |
+| Team size suitability | 5-50 | 10-500+ | 5-30 | 5-100 | 5-200 |
+| Pricing/10 people | $80/mo | $250/mo | Free-$50 | $50-200/mo | $100-300/mo |
+| GitHub integration | Excellent | Good | Zapier | Via API | Good |
+| Velocity tracking | Native | Native | Manual | Manual | Native |
+| Dependencies | Yes | Yes | Limited | Yes | Yes |
+
+## Estimation Best Practices
+
+Use this guide to improve story point estimation accuracy:
+
+```yaml
+estimation_guidelines:
+  fibonacci_scale:
+    1: "Trivial - <2 hours, well-defined, familiar pattern"
+    2: "Simple - 2-4 hours, straightforward, minor unknowns"
+    3: "Medium - Half day, some unknowns, standard complexity"
+    5: "Moderate - 1 day, notable unknowns, design needed"
+    8: "Complex - 2-3 days, significant unknowns, architecture impact"
+    13: "Very complex - 4-5 days, major unknowns, spike recommended"
+    21: "Epic - 2+ weeks, should be broken down"
+
+  estimation_process:
+    step_1: "Product owner describes story in business terms"
+    step_2: "Team asks clarifying questions"
+    step_3: "Team identifies technical unknowns"
+    step_4: "Each person estimates silently"
+    step_5: "Share estimates; discuss outliers"
+    step_6: "Re-estimate until consensus"
+    step_7: "Identify if spike is needed"
+
+  managing_uncertainty:
+    high_uncertainty: "Mark as spike, estimate 3-5 points"
+    estimate_based_on: "Effort, not duration"
+    include_testing: "All testing time in estimate"
+    include_review: "Code review and rework time"
+    include_documentation: "Doc updates are part of story"
+    account_for_interruptions: "Build in buffer for team support"
+
+  velocity_calculation:
+    method: "Sum of completed story points per sprint"
+    stabilization: "Usually stabilizes after 3-4 sprints"
+    use_for: "Capacity planning for future sprints"
+    red_flags: "Velocity swings >20% sprint-to-sprint suggest issues"
+```
+
+## Remote Scrum Master Checklist
+
+Use this comprehensive checklist to manage remote sprint ceremonies:
+
+```markdown
+# Remote Scrum Master Sprint Checklist
+
+## Pre-Sprint (1 week before)
+- [ ] Schedule all ceremonies in team calendars
+- [ ] Confirm all time zones can attend (identify overlaps)
+- [ ] Prepare backlog for refinement
+- [ ] Test recording setup for async participation
+- [ ] Send preparation notes to team
+
+## Sprint Planning
+- [ ] Send agenda 24 hours ahead
+- [ ] Test video conferencing 5 minutes early
+- [ ] Have team members join from quiet spaces
+- [ ] Share screen showing tool
+- [ ] Record session for async team members
+- [ ] Confirm team understands sprint goal
+- [ ] Verify everyone's aware of capacity constraints
+- [ ] Document any late changes to backlog
+
+## Daily (Async Standup)
+- [ ] Monitor standup updates in Slack thread
+- [ ] Escalate blockers within 2 hours
+- [ ] Track completion vs. forecast
+- [ ] Notice if anyone is stuck longer than expected
+
+## Mid-Sprint
+- [ ] Thursday: Velocity check - on track?
+- [ ] Escalate scope creep immediately
+- [ ] Offer to unblock stuck stories
+- [ ] Celebrate progress publicly
+
+## End of Sprint (Friday)
+- [ ] Review: Schedule and send demo link
+- [ ] Retro: Send prompt 24 hours ahead
+- [ ] Calculate actual velocity
+- [ ] Update team capacity for next sprint
+- [ ] Document what changed during sprint
+- [ ] Identify one improvement for next sprint
+
+## Metrics to Track
+- [ ] Velocity trend (improving, stable, or declining?)
+- [ ] Sprint goal completion rate
+- [ ] Story completion rate (% of stories finished)
+- [ ] Unplanned work (interruptions, scope creep)
+- [ ] Team satisfaction (retro sentiment)
+```
 
 ## Frequently Asked Questions
 

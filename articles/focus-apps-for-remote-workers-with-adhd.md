@@ -228,6 +228,210 @@ Start with a small pilot group of willing early adopters. Let them use it for 2-
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
 
+## Building Your Personal ADHD-Friendly Focus Stack
+
+Here's a practical template for assembling tools that work together:
+
+```yaml
+focus_stack_template:
+  morning_routine:
+    tools:
+      - Forest: Start before opening emails
+      - Freedom: Block distracting sites
+      - Pomodoro timer: Set 90-minute block
+    purpose: "Protect peak cognitive hours"
+    duration: 3 hours
+
+  focus_session_structure:
+    minute_0_to_5:
+      action: "Close all non-essential apps"
+      tools: ["Hammerspoon script or Freedom"]
+    minute_5:
+      action: "Start timer and task"
+      tools: ["Pomodoro timer", "Forest"]
+    minute_90:
+      action: "Take 15-minute break"
+      rules: ["Step away from desk", "No screens first 5 minutes"]
+    minute_105:
+      action: "Next focus block"
+      action: "Repeat if energy allows"
+
+  task_breakdown:
+    overwhelming_task: "Too vague - ADHD brain resists"
+    solution: "Break into 30-minute chunks"
+    example:
+      task: "Implement authentication"
+      chunks:
+        - "Set up OAuth2 library (30 min)"
+        - "Configure test environment (30 min)"
+        - "Write login endpoint (30 min)"
+        - "Add error handling (30 min)"
+        - "Create integration tests (30 min)"
+    benefit: "Each chunk feels manageable"
+
+  weekly_review:
+    frequency: "Friday afternoon"
+    time: "15 minutes"
+    questions:
+      - "Which focus apps actually got used?"
+      - "Which were distracting overhead?"
+      - "What new distractions emerged?"
+      - "Should I adjust my stack?"
+    principle: "Ruthlessly cut tools that add friction"
+```
+
+## Complete Setup Guide for macOS
+
+Follow this guide to get a comprehensive focus environment running:
+
+```bash
+# Install core tools
+brew install --cask loom
+brew install --cask focus@will
+brew install --cask freedom
+brew install --cask forest
+
+# Install development focus tools
+brew install hammerspoon
+
+# Configure Pomodoro
+npm install -g pomodoro-cli
+
+# Browser extensions
+# 1. uBlock Origin - from Chrome Web Store
+# 2. Tab Wrangler - from Chrome Web Store
+# 3. Vimium - from Chrome Web Store
+
+# Create focus launch script
+cat > ~/.local/bin/focus-mode.sh << 'EOF'
+#!/bin/bash
+# Activate focus mode: close distractions, start Forest
+
+# Kill attention-stealing apps
+pkill -f "Slack"
+pkill -f "Discord"
+pkill -f "Messages"
+
+# Open focus apps
+open -a Forest
+open -a Focus@Will
+
+# Start Pomodoro
+pomodoro start "Deep work session"
+
+# Optional: open editor in fullscreen
+open -a "Visual Studio Code"
+echo "✓ Focus mode activated. Welcome to deep work."
+EOF
+
+chmod +x ~/.local/bin/focus-mode.sh
+
+# Add to path
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+
+# Create Hammerspoon config for power users
+cat > ~/.hammerspoon/focus-mode.lua << 'EOF'
+-- Advanced focus mode automation
+local hyper = {"cmd", "alt", "ctrl"}
+
+function focusOn()
+  -- Close distracting apps
+  hs.application.find("Slack"):kill()
+  hs.application.find("Discord"):kill()
+  hs.application.find("Mail"):kill()
+
+  -- Mute notifications
+  hs.audiodevice.defaultOutputDevice():setMuted(false)
+  os.execute("defaults write com.apple.systemuiserver menuExtras -array")
+
+  hs.alert.show("🎯 Focus Mode: ON")
+end
+
+function focusOff()
+  -- Restore notification center
+  os.execute("defaults write com.apple.systemuiserver menuExtras -array '/System/Library/CoreServices/Menu\\ Extras/AirPort.menu' '/System/Library/CoreServices/Menu\\ Extras/Volume.menu' '/System/Library/CoreServices/Menu\\ Extras/Battery.menu' '/System/Library/CoreServices/Menu\\ Extras/Clock.menu'")
+
+  hs.alert.show("🎭 Focus Mode: OFF")
+end
+
+-- Activate with Cmd+Alt+Ctrl+F
+hs.hotkey.bind(hyper, "F", focusOn)
+-- Deactivate with Cmd+Alt+Ctrl+G
+hs.hotkey.bind(hyper, "G", focusOff)
+EOF
+
+# Load Hammerspoon config
+hs.loadConfig()
+```
+
+## Comparison Table: Focus Apps for ADHD
+
+Choose based on your specific challenges:
+
+| Tool | Best For | Cost | Effort to Setup |
+|------|----------|------|-----------------|
+| Forest | Gamified focus sessions | $5 one-time | 5 minutes |
+| Focus@Will | Music + focus | $5-14/month | 10 minutes |
+| Freedom | Site/app blocking | $7/month | 30 minutes |
+| Pomodoro timer | Time structure | Free-$2 | 5 minutes |
+| Tab Wrangler | Tab management | Free | 5 minutes |
+| Vimium | Keyboard navigation | Free | 30 minutes (to learn) |
+| Hammerspoon | Full automation | Free | 2+ hours (steep) |
+| Cold turkey | Nuclear-level blocking | $39 one-time | 30 minutes |
+| RescueTime | Productivity tracking | Free-$9/month | 15 minutes |
+| Brain.fm | Focus music (AI) | $10/month | 5 minutes |
+
+## Troubleshooting Common ADHD Work-From-Home Issues
+
+Use this guide to diagnose and fix focus problems:
+
+```markdown
+## Issue: Can't start tasks even with tools
+
+**Diagnosis:** Task seems too vague or overwhelming
+**Solution:**
+1. Break task into 15-minute chunks
+2. Do NOT start with the big task
+3. Start with easiest 15-minute chunk
+4. Success with one chunk builds momentum
+
+## Issue: Tools become another distraction
+
+**Diagnosis:** Too many notifications from apps
+**Solution:**
+1. Mute ALL notifications while focusing
+2. Turn off app badges
+3. Disable Slack/email during focus blocks
+4. Check messages in designated "break time"
+
+## Issue: Procrastinating on focus apps
+
+**Diagnosis:** Setup friction is too high
+**Solution:**
+1. Create one-click launcher script
+2. Map to keyboard shortcut (Cmd+Option+F)
+3. Make it muscle memory
+4. If still struggling, simplify your stack
+
+## Issue: Focus sessions feel empty/lonely
+
+**Diagnosis:** Remote work isolation amplifying ADHD difficulty
+**Solution:**
+1. Join coworking sessions (Focusmate.com)
+2. Use Discord/Slack body-doubling channels
+3. Work in coffee shops occasionally
+4. Schedule co-work time with teammates
+
+## Issue: Afternoon energy crash
+
+**Diagnosis:** Willpower depletion is real, especially ADHD
+**Solution:**
+1. Schedule deep work 9am-12pm
+2. Afternoon = async/admin tasks
+3. Accept your rhythm, don't fight it
+4. Sunlight + movement helps 2-3pm dip
+```
+
 ## Related Articles
 
 - [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)

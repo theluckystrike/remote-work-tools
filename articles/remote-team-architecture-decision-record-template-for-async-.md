@@ -201,6 +201,184 @@ Schedule a quarterly review of active ADRs to identify:
 **Stale status:** An ADR marked "Proposed" from six months ago creates confusion. Update status promptly or archive inactive proposals.
 
 
+## Real-World ADR Examples
+
+
+### Example 1: Adopting Event-Driven Architecture
+
+
+This ADR demonstrates how to document a major architectural shift:
+
+
+```markdown
+# ADR-053: Adopt Event-Driven Architecture for Order Processing
+
+## Status
+Accepted
+
+## Date
+2026-02-15
+
+## Context
+Our order processing system has become a bottleneck during peak traffic. When an order is placed, we synchronously call:
+1. Payment processing service (variable latency: 100-500ms)
+2. Inventory service (50-200ms)
+3. Email notification service (200-1000ms)
+
+This creates a cascading failure pattern where slow external services block the entire order pipeline. We're seeing 30% of checkout requests timeout during peak hours.
+
+We need a solution that allows processing to continue even if individual services are temporarily unavailable.
+
+## Decision
+Implement an event-driven architecture using Kafka for async processing:
+1. Order creation service publishes OrderCreated event
+2. Multiple consumers subscribe: PaymentProcessor, InventoryReducer, NotificationSender
+3. Each consumer processes independently with retry logic
+4. API returns immediately after event publication
+
+## Consequences
+### Positive
+- Reduced checkout latency from 800ms average to 50ms
+- Payment failures no longer block inventory updates
+- Easy to add new processors without modifying core order service
+- Better fault tolerance—one service failure doesn't cascade
+
+### Negative
+- Eventually consistent—customers may see updated inventory 100-500ms after order
+- Requires Kafka infrastructure (new operational complexity)
+- Event ordering becomes critical issue
+- Dead letter queue management needed for failed events
+
+### Workarounds
+- Use Kafka partitioning by order ID to maintain ordering
+- Implement idempotent event handlers to allow replays
+- Set up monitoring alerts for dead letter queues
+
+## Alternatives Considered
+### Option 1: Optimize Database Queries
+We could optimize existing synchronous queries with better indexing and caching. However, this doesn't address the latency from external services (payment provider, email service). Estimated 10-20% improvement max.
+
+### Option 2: Increase Timeout Limits
+Simply allowing longer timeouts pushes the problem to users (longer wait times). Doesn't solve cascading failures.
+
+### Option 3: Thread Pool Isolation (Hystrix)
+Isolate each external service call in separate thread pools with independent timeouts. This prevents cascading failures but doesn't reduce latency for users. Also adds memory overhead.
+
+## Reviewers
+- @backend-lead - Architecture review
+- @infra-lead - Operations and monitoring
+- @payments-team - Third-party integration concerns
+- @notifications-team - Email processing requirements
+
+## Notes
+- Implementation started Q1 2026
+- Migration from sync to async will be phased over 6 weeks
+- Existing synchronous APIs will be maintained for 3 months for backwards compatibility
+- Performance testing results: 8x improvement in p99 latency
+```
+
+
+### Example 2: Frontend Framework Selection
+
+
+This ADR shows how to document tool selection decisions:
+
+
+```markdown
+# ADR-051: Migrate from AngularJS to React 18
+
+## Status
+Accepted (supersedes ADR-024)
+
+## Date
+2026-01-20
+
+## Context
+Our frontend codebase uses AngularJS (1.6), which reached end-of-life in 2022. Security patches are no longer issued, and recruiting developers with AngularJS expertise has become nearly impossible. We need a modern framework that:
+- Supports TypeScript out of the box
+- Has a strong ecosystem of third-party libraries
+- Allows gradual migration (important: we have 200+ active frontend developers)
+- Provides good devtool support
+
+## Decision
+Adopt React 18 with TypeScript for all new frontend development and phased migration of existing AngularJS code.
+
+## Consequences
+### Positive
+- Active community with thousands of third-party libraries
+- TypeScript integration prevents entire classes of bugs
+- React learning curve is gentler than AngularJS for new developers
+- Allows incremental migration (can run React and AngularJS side-by-side)
+- Better testing tooling (React Testing Library, Vitest)
+
+### Negative
+- React has no official router (must choose third-party solution)
+- State management is not baked in (must implement Redux, Zustand, or Recoil)
+- Build complexity higher than AngularJS
+- Migration effort: 6-9 months for entire codebase
+
+### Workarounds
+- Use React Router for routing (standard choice, 95% of projects)
+- Use Redux for state management in large apps, Zustand for smaller ones
+- Use Create React App to reduce build configuration burden
+
+## Alternatives Considered
+### Option 1: Vue 3
+Vue has gentler learning curve and smaller bundle size. However, ecosystem is smaller. Rejected because several team members had concerns about hiring Vue expertise.
+
+### Option 2: Svelte
+Excellent performance and minimal bundle size. But very young framework (risk of future breaking changes). Rejected due to maturity concerns for a 10-year-old product.
+
+### Option 3: Upgrade to AngularJS 2+
+Keep AngularJS ecosystem but upgrade to modern versions. However, this is essentially a rewrite, and AngularJS 2+ has not gained the market adoption of React. Rejected.
+
+## Reviewers
+- @frontend-lead - Framework expertise
+- @platform-lead - Tooling and build infrastructure
+- @hiring-lead - Recruitment impact
+- @devops-lead - Deployment pipeline changes
+
+## Notes
+- Phase 1 (Q1 2026): New components in React, AngularJS for existing
+- Phase 2 (Q2-Q3 2026): Migrate high-traffic components
+- Phase 3 (Q4 2026): Sunset AngularJS entirely
+- Training budget allocated: 40 hours per developer
+```
+
+
+## Building ADR Search and Navigation
+
+
+With many ADRs, navigating decisions becomes difficult. Create an index for easy discovery:
+
+
+```markdown
+# ADR Index
+
+## Architecture (10 ADRs)
+- ADR-053: Event-Driven Architecture
+- ADR-042: Redis Caching Layer
+- ADR-038: Microservices Decomposition
+
+## Infrastructure (8 ADRs)
+- ADR-051: Kubernetes Migration
+- ADR-048: Multi-Region Deployment
+- ADR-040: Container Registry Strategy
+
+## Data (6 ADRs)
+- ADR-045: Eventual Consistency Model
+- ADR-039: Data Warehouse vs Data Lake
+- ADR-035: Encryption at Rest
+
+## Deprecated (3 ADRs)
+- ADR-024: AngularJS Architecture (superseded by ADR-051)
+- ADR-018: Monolithic Architecture (superseded by ADR-038)
+```
+
+
+Create this index as a separate Markdown file. When new team members join, they can read the index first to understand your team's architectural philosophy without drowning in 50 individual ADRs.
+
+
 ## Frequently Asked Questions
 
 
