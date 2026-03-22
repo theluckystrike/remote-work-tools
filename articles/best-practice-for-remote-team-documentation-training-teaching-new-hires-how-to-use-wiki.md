@@ -25,7 +25,17 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]---
 
+
 Teach new hires to use your wiki by giving them a "Getting Started" page on day one covering naming conventions, section structure, and linking habits. Then assign them a hands-on practice task: find three specific answers in your wiki (e.g., "How do we deploy to staging?" or "Where are AWS credentials stored?"). Have them report back what they found and how long it took—this identifies navigation problems immediately. Finally, require them to contribute one new page or update two existing pages during their first sprint, which both embeds wiki habits and catches outdated content.
+
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- Free tier handles most startups.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+- **Teach new hires to**: use your wiki by giving them a "Getting Started" page on day one covering naming conventions, section structure, and linking habits.
+- **Use a sandbox or**: test space where they can experiment without affecting production documentation.
 
 ## Establishing Wiki Conventions Early
 

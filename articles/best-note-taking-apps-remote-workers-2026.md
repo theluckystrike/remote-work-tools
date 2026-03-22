@@ -18,6 +18,15 @@ Remote workers need note-taking tools that handle meeting notes, async documenta
 
 This guide compares the top note-taking apps for remote workers in 2026 with honest assessments of their strengths and where they fall short.
 
+## Key Takeaways
+
+- $50/year for commercial use.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Pricing**: Free for personal use.
+- $10/month for Sync (optional).
+- $10/user/month for Plus (team features).
+- $15/user/month for Business.
+
 ## Obsidian
 
 Obsidian stores notes as plain Markdown files on your local disk. There's no subscription for core features, search is instant, and you own your data outright.

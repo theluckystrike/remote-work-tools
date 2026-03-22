@@ -29,6 +29,15 @@ tags: [remote-work-tools, best-of]---
 
 Desk sensor technology enables hybrid offices to track real-time occupancy and optimize space use by detecting whether desks are in use. ESP32-based microcontrollers combined with PIR motion sensors and pressure sensors provide reliable occupancy data through MQTT pipelines into InfluxDB. This architecture enables REST APIs for desk booking systems and heat maps showing which areas are actually used, supporting hot-desking policies and smart real estate decisions.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Python offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Desk sensor technology enables**: hybrid offices to track real-time occupancy and optimize space use by detecting whether desks are in use.
+
 ## Understanding Desk Sensor Technologies
 
 Desk sensors detect whether a desk or workstation is currently in use. Several technologies power these systems, each with distinct advantages and trade-offs.

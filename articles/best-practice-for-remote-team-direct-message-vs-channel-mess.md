@@ -31,6 +31,20 @@ voice-checked: true---
 
 Effective communication in remote teams requires more than just choosing a tool—it demands understanding when to use each communication channel. This guide provides a practical framework for developers and power users to decide between direct messages and channel messages, with concrete examples you can implement immediately.
 
+## Key Takeaways
+
+- **Effective communication in remote**: teams requires more than just choosing a tool—it demands understanding when to use each communication channel.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+- **If you work with**: sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
+- **Link**: github.com/org/repo/pull/1234
+```
+
+The channel message provides visibility that a review is needed.
+- **the first tool and**: the second tool serve different strengths, so combining them can cover more use cases than relying on either one alone.
+- **Which is better for beginners**: the first tool or the second tool?
+
+It depends on your background.
+
 ## The Core Problem
 
 Remote teams often struggle with communication overload. A 2024 survey found that developers spend approximately 2.5 hours per day on Slack/Teams, with significant time wasted deciding where to post messages and hunting down context scattered across DMs. Choosing the wrong channel creates several problems:

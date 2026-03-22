@@ -18,6 +18,15 @@ Escalation paths in remote teams function differently than in co-located organiz
 
 Building escalation paths that actually work as you scale from 10 to 100+ employees requires more than a static contact list. It demands a tiered system that accounts for issue severity, time zone coverage, and the increasing complexity of organizational structure.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Teams with healthy escalation**: cultures actually escalate less because people trust the system exists if they need it.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+- **Someone facing a technical**: blocker at 2 AM UTC needs a clear, documented path to get help—not a vague sense of who might be available.
+- **Building escalation paths that**: actually work as you scale from 10 to 100+ employees requires more than a static contact list.
+
 ## The Core Problem: Static Escalation Lists Fail at Scale
 
 Most teams start with something like this:

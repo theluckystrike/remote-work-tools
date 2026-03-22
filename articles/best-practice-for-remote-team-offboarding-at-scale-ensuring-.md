@@ -26,7 +26,17 @@ voice-checked: true
 intent-checked: true---
 
 {% raw %}
+
 Scale remote offboarding by running two parallel tracks: knowledge transfer and access removal, executed through automated scripts and structured handoff documents rather than informal conversations. Without physical handshakes or office walkthroughs, departing employees retain dangerous system access while critical knowledge walks out the door. This framework provides actionable checklists and automation code for systematic offboarding across distributed teams.
+
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does GitHub offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Start with the most**: critical systems and work outward.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
 
 ## The Two-Phase Offboarding Framework
 

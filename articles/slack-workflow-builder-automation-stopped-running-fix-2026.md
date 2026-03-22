@@ -150,6 +150,31 @@ Many workflows connect to external tools like project management platforms, HR s
 
 **Use OAuth tokens properly** when connecting external apps. OAuth provides security by not requiring you to share passwords. Most modern integrations use OAuth. Ensure your OAuth tokens have appropriate scopes—many workflow failures stem from insufficient permissions granted to the connected app.
 
+Diagnose token and permission issues by testing your Slack bot credentials directly:
+
+```bash
+# Verify your Slack bot token is still valid
+curl -s -X POST https://slack.com/api/auth.test \
+  -H "Authorization: Bearer xoxb-your-bot-token" | jq .
+
+# Check which permission scopes your token has
+curl -s -X POST https://slack.com/api/auth.test \
+  -H "Authorization: Bearer xoxb-your-bot-token" \
+  | jq '.response_metadata.scopes'
+
+# Test posting a message to verify channel access
+curl -s -X POST https://slack.com/api/chat.postMessage \
+  -H "Authorization: Bearer xoxb-your-bot-token" \
+  -H "Content-Type: application/json" \
+  -d '{"channel":"C0123TESTCH","text":"Workflow diagnostic test"}' | jq .
+
+# Test a webhook endpoint to confirm it accepts payloads
+curl -s -w "\nHTTP Status: %{http_code}\n" \
+  -X POST https://hooks.slack.com/triggers/T00000/12345/abcdef \
+  -H "Content-Type: application/json" \
+  -d '{"test": true}'
+```
+
 **Handle webhook timeouts gracefully**. When calling external APIs through webhooks, set reasonable timeouts (typically 10-30 seconds). If the external service takes longer to respond, the workflow times out. Add retry logic for transient failures.
 
 **Monitor external service status** as part of your workflow health checks. If your workflow depends on a third-party API and that service experiences outages, your workflow fails silently. Check third-party status pages as part of routine troubleshooting.

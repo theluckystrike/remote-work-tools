@@ -17,6 +17,18 @@ intent-checked: true---
 
 Use Wise as your primary payment account, invoice in your home currency with automated templates, and track everything in a single spreadsheet or Notion database. That combination handles currency conversion, minimizes fees, and keeps international tax documentation organized. This guide walks through the full invoicing workflow designed specifically for solo developers managing international client relationships.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **For faster payment**: I also accept PayPal (with 4% fee) or Wise (free)."
+
+State this clearly before work begins.
+- **Wise (formerly TransferWise) offers**: mid-market exchange rates and lower fees than traditional banks, and many freelancers now use it as their primary business account for international work.
+- **Most solo developers use**: either dedicated invoicing software or simple document templates.
+- **Send invoice (March 1)**: Invoice #INV-2026-0301-001 for €3,500 ($3,850 USD equivalent at 1.10 rate)
+2.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+
 ## The Core Challenge
 
 International invoicing introduces complexity that domestic work avoids. You need to convert your rates into client currencies, handle VAT or GST registration in some regions, track which payments have cleared, and follow up on invoices across time zones. A disorganized approach means lost hours on administrative work and delayed payments that hurt your business operations.

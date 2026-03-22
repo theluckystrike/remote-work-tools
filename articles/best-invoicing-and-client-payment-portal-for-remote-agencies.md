@@ -18,6 +18,15 @@ Remote agencies face unique challenges when managing client payments. You deal w
 
 This guide evaluates the best invoicing and payment portal solutions for remote agencies, focusing on developer-friendly features, API capabilities, and practical implementation patterns.
 
+## Key Takeaways
+
+- **Pricing**: 2.9% + $0.30 per successful card payment.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Most platforms offer free**: trials ranging from 14 to 30 days—take advantage of these to validate the workflow matches your actual operations before committing.
+- Invoicing adds $0 per invoice.
+- **Pricing**: Starts at $29/month for up to 100 invoices.
+- **Pricing**: Starts at $99/month for the Launch plan.
+
 ## Key Features Remote Agencies Need
 
 Before examining specific tools, identify the capabilities that matter most for distributed teams:

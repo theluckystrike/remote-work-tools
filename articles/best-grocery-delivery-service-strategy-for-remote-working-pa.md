@@ -31,6 +31,16 @@ Remote working parents face a unique challenge: while the flexibility of working
 
 This guide provides a practical strategy for optimizing grocery delivery that works specifically for remote working parents who need to protect their focus time while ensuring their household runs smoothly.
 
+## Key Takeaways
+
+- **Competitive pricing**: free delivery on orders over $35.
+- **Make logging friction-free (one-command**: bash script is better than opening a spreadsheet).
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **Throughout the week**: Use command-line tools to track consumption as you unpack groceries (1-2 minutes per day)
+3.
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
+- **Most delivery services offer**: subscription or recurring order features that let you set delivery frequency and automatically place orders.
+
 ## The Core Problem: Shopping Burns Focus Time
 
 Traditional grocery shopping consumes more than just the time spent in the store. Factor in travel, parking, navigating aisles, waiting in checkout lines, and unpacking—and you're looking at 2-3 hours per week minimum. For remote workers, this time comes directly from productive work hours or precious family time.

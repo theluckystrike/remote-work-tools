@@ -17,6 +17,15 @@ voice-checked: true
 
 Remote engineering teams face unique challenges when debugging production issues. When your team spans multiple time zones, the ability to quickly correlate logs, metrics, and traces becomes critical for maintaining service reliability. This guide explores observability platforms that help distributed teams diagnose problems efficiently without requiring synchronous collaboration.
 
+## Key Takeaways
+
+- **The trace reveals that**: database connection acquisition took 8 seconds before timing out.
+- **Smaller teams may prefer**: fully managed solutions that require minimal setup.
+- **For teams already using cloud providers**: the native observability offerings often integrate most smoothly with existing infrastructure.
+- **The platform should display**: timestamps in both UTC and the viewer's local time, or at least make it easy to switch between time zones.
+- **The best platforms allow**: you to configure alert routing based on time zone and seniority, ensuring the right person receives notifications at the right time.
+- **The engineer identifies the root cause**: a scheduled batch job that runs during business hours in one timezone but triggers at an odd hour elsewhere.
+
 ## Why Correlation Matters for Remote Teams
 
 When you're debugging an issue at 2 AM local time, waiting for a teammate in another timezone to join the investigation creates unnecessary delays. Observability platforms that automatically correlate data across log files, system metrics, and distributed traces give on-call engineers the context they need to diagnose and resolve issues independently.
@@ -95,6 +104,58 @@ async def get_payment(payment_id: str):
 ```
 
 This single instrumentation pattern automatically produces correlated traces regardless of which backend you send data to.
+
+Add OpenTelemetry to a Python service so logs and traces correlate automatically:
+
+```python
+from opentelemetry import trace
+from opentelemetry.sdk.trace import TracerProvider
+from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import OTLPSpanExporter
+from opentelemetry.sdk.trace.export import BatchSpanProcessor
+import structlog
+
+# Send traces to your observability platform
+provider = TracerProvider()
+provider.add_span_processor(
+    BatchSpanProcessor(OTLPSpanExporter(endpoint="http://collector:4317"))
+)
+trace.set_tracer_provider(provider)
+tracer = trace.get_tracer("payment-service")
+
+# Inject trace_id into every log entry for correlation
+structlog.configure(processors=[
+    structlog.processors.add_log_level,
+    structlog.processors.TimeStamper(fmt="iso"),
+    lambda _, __, ed: {
+        **ed,
+        "trace_id": format(
+            trace.get_current_span().get_span_context().trace_id, "032x"
+        ),
+    },
+    structlog.dev.ConsoleRenderer(),
+])
+logger = structlog.get_logger()
+
+def process_payment(user_id, amount):
+    with tracer.start_as_current_span("process_payment") as span:
+        span.set_attribute("user.id", user_id)
+        span.set_attribute("payment.amount", amount)
+        logger.info("processing_payment", user_id=user_id, amount=amount)
+```
+
+Query logs and traces together during on-call investigations:
+
+```bash
+# Search recent error logs across all services
+curl -G 'http://grafana:3000/api/ds/query' \
+  --data-urlencode 'queries=[{"datasourceId":1,"expr":"{level=\"error\"} |= \"payment\""}]'
+
+# Look up a trace by ID from an incident alert
+curl 'http://tempo:3200/api/traces/abc123def456' | jq '.batches[].resource'
+
+# Check error rate metrics for a specific service
+curl 'http://prometheus:9090/api/v1/query?query=rate(http_requests_total{service="payment",status="500"}[5m])'
+```
 
 ### Create Shared Dashboards for Team Visibility
 

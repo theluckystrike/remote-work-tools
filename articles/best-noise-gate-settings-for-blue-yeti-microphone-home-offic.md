@@ -29,6 +29,16 @@ voice-checked: true---
 
 For a Blue Yeti in a quiet home office, set your noise gate threshold to -40 dB, attack to 5 ms, hold to 100 ms, release to 150 ms, and range to -60 dB. For noisy environments with street noise or HVAC, raise the threshold to -35 dB and increase hold and release to 200 ms each. These settings work in OBS Studio, Voicemeeter, or any noise gate plugin, and they eliminate background noise while keeping your voice clean and natural.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Click the "+" icon**: and choose "Noise Gate" 4.
+- **Baseline recording**: Record 30 seconds of yourself speaking normally without any processing
+2.
+- **Most software gates don't**: support this; you'll manually adjust instead.
+
 ## Understanding How Noise Gates Work
 
 A noise gate is an audio processor that mutes signals below a certain threshold while allowing louder sounds to pass through. When your voice drops below the threshold, the gate closes and silences the signal — including background noise that would otherwise creep into your audio.

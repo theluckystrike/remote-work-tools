@@ -29,6 +29,15 @@ tags: [remote-work-tools, best-of, remote-work]---
 
 A remote team handbook serves as the single source of truth for how your distributed team operates. Notion provides the flexibility to build handbooks that combine HR policies, team norms, and operational documentation in one searchable workspace. This guide covers practical templates and implementation strategies for teams building their first handbook or improving existing documentation.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Notion offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **This section typically requires**: the least technical setup but benefits most from visual consistency.
+- **These differ from policies—norms**: cover behavioral expectations and communication preferences rather than compliance requirements.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## Core Handbook Structure
 
 A functional remote team handbook needs five primary sections: Welcome & Culture, HR Policies, Team Norms, Tools & Access, and Escalation Paths. Each section should be accessible within two clicks from the main dashboard. The goal is reducing重复 questions while giving employees clear answers about expectations and processes.

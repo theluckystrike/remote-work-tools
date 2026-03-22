@@ -29,6 +29,15 @@ tags: [remote-work-tools, best-of]---
 
 Split keyboards with tented setups have become increasingly popular among developers who spend long hours coding. The ergonomic benefits of separating the keyboard halves and tilting them inward are well-documented—reduced shoulder pronation, improved wrist alignment, and more natural arm positioning. However, finding the right wrist rest for a tented split keyboard setup presents unique challenges that standard wrist rests cannot address.
 
+## Key Takeaways
+
+- **Mouse and mousepad (5-10%**: of benefit) If you're struggling with wrist pain, fix chair and monitor height first.
+- **This approach is budget-friendly**: ($20-30) and highly customizable for split keyboard geometry.
+- **Studies of repetitive strain**: injuries show that proper wrist support reduces symptoms in 60-70% of affected developers within 2-3 weeks.
+- **For most split keyboards**: with 30-45 degree tenting, this means a taller profile than standard rests.
+- **Look for products offering**: at least 1.5 inches of thickness when compressed.
+- **Most split keyboards tilt**: 20-45 degrees.
+
 ## Why Standard Wrist Rests Fail with Tented Split Keyboards
 
 When you tilt a split keyboard to a 30-45 degree angle, the keyboard surface rises significantly on the内侧 (inner) side. A traditional flat wrist rest either sits too low to provide support at this angle or forces your wrist into an unnatural flexion. The geometry simply does not work.

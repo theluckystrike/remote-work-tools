@@ -9,7 +9,7 @@ permalink: /travel-ergonomic-setup-for-remote-workers-guide/
 categories: [guides]
 tags: [remote-work-tools, remote-work, ergonomics, travel, developer-tools, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true---
 ---

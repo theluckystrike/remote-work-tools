@@ -29,6 +29,15 @@ voice-checked: true---
 
 Product demo days become exponentially harder as your remote engineering team grows. What works flawlessly with 10 engineers becomes a logistical nightmare at 50. Time zone conflicts multiply, attention spans fragment, and the "quick demo" stretches into a full-day affair. This guide provides a tested format that maintains engagement and delivers value at scale.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **If attendance drops below 50%**: the session should be async.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+- **Video hosting with transcripts**: Use services like Wistia or Mux that include transcripts and searchability.
+- **Demos must have clear value prop**: be under 5 minutes, and include testing results.
+
 ## The Core Problem with Traditional Demo Days
 
 Synchronous demo days assume everyone can attend at the same time and stay focused throughout. With 50 engineers spread across time zones, you're dealing with:

@@ -31,6 +31,15 @@ intent-checked: true---
 
 Negotiate international vendor payment terms by specifying a single invoicing currency (usually USD or EUR), agreeing on who absorbs exchange rate fluctuations, setting NET-30 or NET-45 payment windows with early payment discounts, and including tax withholding clauses that account for cross-border obligations. Use platforms like Wise Business or Payoneer for lower transfer fees, and structure contracts with clear payment milestones tied to deliverables rather than time-based billing to reduce disputes across jurisdictions.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Without these forms**: the IRS requires 30% withholding on certain payments.
+- **Vendors who trust your**: payment behavior often offer better terms—longer payment windows, priority scheduling, or preferential rates.
+- **Development agencies working on**: milestone-based projects need different structures than individual freelancers billing hourly.
+- **A 2% discount for**: Net 10 terms instead of Net 30 improves vendor cash flow and reduces your accounts payable overhead.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+
 ## Understanding the International Vendor Payment ecosystem
 
 When you pay a vendor in the same country, the transaction typically involves one currency, one banking system, and one set of tax regulations. Cross-border payments require navigating multiple currencies, intermediary banks, and compliance frameworks that vary by jurisdiction. The key to successful negotiation is understanding these variables before you begin discussions.

@@ -17,6 +17,15 @@ voice-checked: true---
 
 Code reviews in remote teams carry unique challenges. Without face-to-face interaction, written comments become the primary channel for technical feedback—and tone gets lost in translation. A comment meant as helpful guidance can read as harsh criticism, creating friction that accumulates over time. Building a culture of constructive code review comments requires intentional practices and clear frameworks that work across distributed teams.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Our style guide recommends**: f-strings for new code—they're slightly more readable and have marginally better performance.
+- **Establish team linters and**: style guides upfront, then limit style comments to educational opportunities: Harsh: "Use f-strings instead of.format().
+- **Leadership must hold themselves**: to higher standards precisely because their examples carry more weight.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+
 ## Why Constructive Feedback Matters More in Remote Settings
 
 In co-located teams, developers can clarify intent through quick hallway conversations or observe body language that signals receptiveness. Remote teams lack these cues entirely. Every comment exists in a vacuum, interpreted through the reader's current mood, stress level, and past experiences.

@@ -16,6 +16,15 @@ voice-checked: true---
 
 Basements present unique challenges for video calls. Without windows or natural light sources, you're working with a blank canvas that can either make you look like a news anchor or a suspect in a crime drama. This guide covers the technical approach to achieving professional-quality lighting in your basement home office without breaking the bank.
 
+## Key Takeaways
+
+- **Here's what works for**: different budgets: ### Under $50: Desk Lamp Solution A simple desk lamp with a daylight bulb (6500K) positioned to your side provides adequate key lighting.
+- **The best lighting setup**: is one you actually use.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+- **Most video conferencing platforms**: apply automatic white balance, but they work best when the light temperature stays consistent.
+- **Use matching color temperatures**: across all lights.
+
 ## The Basement Lighting Challenge
 
 Most basements have two problems: insufficient light and unflattering light direction. Ceiling lights cast harsh shadows downward onto your face, creating dark eye sockets and an uninviting appearance. Without natural light to balance the scene, your video feed can appear flat and lifeless.
