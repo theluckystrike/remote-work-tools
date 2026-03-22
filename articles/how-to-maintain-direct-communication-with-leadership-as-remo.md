@@ -27,7 +27,17 @@ score: 9
 voice-checked: true
 intent-checked: true---
 
+
 Maintain direct CEO/leadership access at 50+ people by establishing dedicated async channels for questions, monthly all-hands with embedded Q&A slots, and explicit decision-making frameworks that let teams decide without escalation. At scale, the natural tendency is hierarchy layering that kills direct access and adds friction. Remote teams especially suffer because there's no hallway tap-tap to get clarification. This solution combines structured channels, explicit decision frameworks, and deliberate documentation to preserve the transparency that made your early team effective.
+
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Python offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Remote teams especially suffer**: because there's no hallway tap-tap to get clarification.
 
 ## Why Direct Communication Breaks Down at 50+
 

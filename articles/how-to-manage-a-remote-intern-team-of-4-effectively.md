@@ -14,7 +14,18 @@ score: 9
 tags: [remote-work-tools, remote-work]---
 
 {% raw %}
+
 Managing four remote interns requires a different approach than managing senior developers. Interns need more structure, clearer expectations, and more frequent feedback—yet you want to avoid micromanaging or creating bottlenecks that slow their growth. With the right systems in place, you can build a productive remote internship program that benefits both your team and the interns.
+
+## Key Takeaways
+
+- **Interns should produce 60-70%**: as much as a junior, not serve as cheap developers.
+- **It also makes it**: easier for you to review their work without playing guess-the-requirement.
+- **Use a three-comment rule.**: If you have more than three blocking comments on an intern's PR, schedule a call to walk through issues rather than trading comments back and forth.
+- **Frame feedback as teaching.**: Instead of "This is wrong," write "Consider using X because Y.
+- **They also become ambassadors**: who recommend your program to other talented developers.
+- **Mistake 3**: Expecting them to figure things out
+Interns need significantly more structure than juniors.
 
 ## The Foundation: Clear Communication Channels
 

@@ -33,6 +33,14 @@ Async communication has become the backbone of remote work. Written discussions,
 
 If you write async communication that assumes native-level English fluency, you're excluding talented teammates and losing their contributions. This guide shows you how to write async messages that work for everyone on your team, regardless of their language background.
 
+## Key Takeaways
+
+- **Clear communication actually takes**: less time to produce because it reduces follow-up questions and misunderstandings.
+- **Instead of: > "Let's**: circle back on this after standup" Write: > "Let's discuss this after our daily standup meeting" Instead of abstract expressions, use concrete verbs.
+- **Identify technical jargon without**: explanations Then pick one improvement to focus on for two weeks.
+- **When you write async**: messages that work for non-native English speakers, you build a more inclusive team where everyone can contribute their best ideas.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## The Problem with English-Centric Async Communication
 
 When you type quickly during a busy workday, you likely use idioms, slang, and complex sentence structures without thinking. Phrases like "circle back," "deep dive," or "low-hanging fruit" make perfect sense to native speakers but create confusion for others. Compound sentences with multiple clauses, passive voice, and implicit context all increase cognitive load.

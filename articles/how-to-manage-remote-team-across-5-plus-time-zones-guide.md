@@ -33,6 +33,15 @@ Managing a team across 5+ time zones is hard. When your team spans UTC-8 to UTC+
 
 Real scenario: your team is in San Francisco (UTC-8), Austin (UTC-6), London (UTC+0), Berlin (UTC+1), and Delhi (UTC+5:30). That's 13.5 hours of spread. A decision made in SF at 9 AM doesn't reach Delhi until 10:30 PM. By the time Delhi responds the next morning, SF is moving on different assumptions.
 
+## Key Takeaways
+
+- **Default to async**: use sync only for things that need it.
+- **Best case**: you can hit 4/5 people.
+- **Mandatory.** Pick a time**: that's not 6 AM or 9 PM for anyone.
+- **Use split syncs for**: work that's regional: - Americas sync (SF + Austin): Tuesday 8 AM Austin = 6 AM SF.
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+- **The best you can**: do is optimize partial overlap.
+
 ## The Core Problem: Synchronous Work Doesn't Scale
 
 Your instinct is to schedule one sync meeting that works for everyone. It doesn't exist. The best you can do is optimize partial overlap.

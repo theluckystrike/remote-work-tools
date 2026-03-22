@@ -33,6 +33,13 @@ Distributed agency teams face a unique challenge: communicating with clients acr
 
 This guide provides practical workflows and technical solutions for managing multilingual client communication at scale.
 
+## Key Takeaways
+
+- **This doesn't require expensive**: enterprise solutions—open source tools work well for most agency needs.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: understanding the multilingual communication challenge, building a translation infrastructure, setting up translation memory
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Understanding the Multilingual Communication Challenge
 
 Client communication differs from internal team communication in critical ways. Clients expect responses in their native language, culturally appropriate tone, and consistent terminology across all touchpoints. A mistranslated email or culturally insensitive phrase can damage relationships that took months to build.

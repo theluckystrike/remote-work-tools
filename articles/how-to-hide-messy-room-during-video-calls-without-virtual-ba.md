@@ -33,6 +33,16 @@ Virtual backgrounds seem like the perfect solution for hiding messy rooms, but t
 
 This guide covers practical methods to hide your messy room during video calls without relying on virtual backgrounds.
 
+## Key Takeaways
+
+- **A 5-foot by 7-foot**: screen provides enough coverage for most desk setups while remaining easy to set up and store.
+- **If your camera software**: supports digital zoom, use it to crop tightly on your face.
+- **Choose a built-in background**: or upload custom image 3.
+- **Choose Blur (simple) or**: Image (custom) 4.
+- **Blur the background**: Ask the platform to blur, or use OBS if already set up
+4.
+- **They require decent lighting**: to work properly, they can glitch during important calls, and many platforms impose resolution or feature limitations.
+
 ## Physical Backdrops: The Simplest Solution
 
 The most reliable way to hide room clutter is to block it from the camera's view entirely. Physical backdrops work in any lighting condition and require zero computational resources. Unlike virtual backgrounds that require processing power and can glitch mid-call, physical solutions are foolproof.
