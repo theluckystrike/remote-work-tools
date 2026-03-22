@@ -371,6 +371,117 @@ jobs:
 
 Create a simple slash command webhook that queries your runbook index.
 
+## Template 4: High Traffic / Scaling Response
+
+```markdown
+# High Traffic Response Runbook
+
+**Owner:** @sre-team
+**Last tested:** 2026-03-01
+**Estimated time:** 15 minutes
+**Severity:** Critical
+
+## Purpose
+Scale production to handle traffic spikes without service degradation.
+
+## Prerequisites
+- Access to AWS Console or `kubectl` with production context
+- Grafana dashboard: "Service Health > Request Rate"
+- Confirm this is a real traffic spike, not a metrics scrape bug
+
+## Steps
+
+### Kubernetes — Horizontal Scaling
+
+1. Check current pod count and CPU/memory:
+   ```bash
+   kubectl get hpa -n production
+   kubectl top pods -n production -l app=your-service
+   ```
+
+2. Manually scale if HPA is not triggering fast enough:
+   ```bash
+   kubectl scale deployment your-service -n production --replicas=10
+   ```
+
+3. Verify new pods start healthy:
+   ```bash
+   kubectl rollout status deployment/your-service -n production
+   kubectl get pods -n production -l app=your-service
+   ```
+
+### Database — Connection Pool Check
+
+1. Check Postgres connection count:
+   ```bash
+   psql -U postgres -c "SELECT count(*), state FROM pg_stat_activity GROUP BY state;"
+   ```
+   If active connections > 80% of max_connections: enable PgBouncer connection pooling.
+
+2. Enable read replicas for read-heavy traffic:
+   ```bash
+   # Point reporting queries to replica
+   export DB_READ_HOST=db-replica-01.example.com
+   ```
+
+### CDN / Cache
+
+1. Check cache hit rate in Cloudflare dashboard
+2. Purge stale cache if serving outdated content:
+   ```bash
+   curl -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
+     -H "Authorization: Bearer ${CF_API_TOKEN}" \
+     -H "Content-Type: application/json" \
+     --data '{"purge_everything":true}'
+   ```
+
+## Verification
+
+Traffic is handled when:
+- Error rate < 0.5% (Grafana: Service Health > Error Rate)
+- P95 response time < 500ms
+- Pod CPU usage < 70% under load
+
+## Rollback / Scale Down
+
+After traffic returns to normal (monitor for 30 minutes):
+```bash
+# Let HPA handle it, or manually scale back
+kubectl scale deployment your-service -n production --replicas=3
+```
+
+## Escalation
+
+Traffic still unmanageable after 20 minutes: page @infrastructure-lead and open a Cloudflare support ticket if CDN appears to be the bottleneck.
+```
+
+## Making Runbooks Findable at 3am
+
+A runbook nobody can find in an incident is useless. Three places every runbook must live:
+
+**1. The repo (source of truth):**
+```
+runbooks/
+  incident/
+    service-restart.md
+    db-failover.md
+    high-traffic.md
+  deployments/
+    deploy-hotfix.md
+    rollback.md
+  maintenance/
+    ssl-renewal.md
+    backup-verify.md
+    server-patching.md
+```
+
+**2. Your internal docs tool** (Notion, Confluence, or a static site built from the same markdown). Mirror the repo structure exactly so links in Slack messages to runbooks do not break when people navigate around the docs site.
+
+**3. Pinned in `#incidents`:**
+Post a pinned message at the top of your incidents Slack channel with direct links to the five most-used runbooks. During an incident, people do not have time to navigate a wiki — the link should be one click away.
+
+A runbook library only works if the team trusts it. Trust comes from: commands that actually run without modification, time estimates that are close to reality, and rollback steps that have actually been tested. Each time you use a runbook in a real incident, update the `Last tested` field and fix anything that was inaccurate. This feedback loop — use it, fix it, trust it more — is what separates a living runbook from documentation theatre.
+
 ## Related Reading
 
 - [How to Write Runbooks for Remote Engineering Teams](/remote-work-tools/how-to-write-runbooks-remote-engineering-teams/)
