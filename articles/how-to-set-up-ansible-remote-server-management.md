@@ -10,8 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
----
+tags: [remote-work-tools]---
 
 {% raw %}
 
@@ -123,64 +122,63 @@ app_port: 8080
 ## Common Role
 
 ```yaml
-# roles/common/tasks/main.yml
----
+# roles/common/tasks/main.yml---
 - name: Update apt cache
-  ansible.builtin.apt:
-    update_cache: true
-    cache_valid_time: 3600
-  when: ansible_os_family == "Debian"
+ ansible.builtin.apt:
+ update_cache: true
+ cache_valid_time: 3600
+ when: ansible_os_family == "Debian"
 
 - name: Install common packages
-  ansible.builtin.package:
-    name:
-      - curl
-      - git
-      - htop
-      - unzip
-      - fail2ban
-      - ufw
-    state: present
+ ansible.builtin.package:
+ name:
+ - curl
+ - git
+ - htop
+ - unzip
+ - fail2ban
+ - ufw
+ state: present
 
 - name: Set timezone
-  community.general.timezone:
-    name: UTC
+ community.general.timezone:
+ name: UTC
 
 - name: Configure NTP
-  ansible.builtin.template:
-    src: ntp.conf.j2
-    dest: /etc/ntp.conf
-    owner: root
-    group: root
-    mode: '0644'
-  notify: restart ntp
+ ansible.builtin.template:
+ src: ntp.conf.j2
+ dest: /etc/ntp.conf
+ owner: root
+ group: root
+ mode: '0644'
+ notify: restart ntp
 
 - name: Create deploy user
-  ansible.builtin.user:
-    name: "{{ deploy_user }}"
-    shell: /bin/bash
-    groups: sudo
-    append: true
-    create_home: true
+ ansible.builtin.user:
+ name: "{{ deploy_user }}"
+ shell: /bin/bash
+ groups: sudo
+ append: true
+ create_home: true
 
 - name: Add SSH authorized key for deploy user
-  ansible.posix.authorized_key:
-    user: "{{ deploy_user }}"
-    key: "{{ lookup('file', '~/.ssh/id_ed25519.pub') }}"
-    state: present
+ ansible.posix.authorized_key:
+ user: "{{ deploy_user }}"
+ key: "{{ lookup('file', '~/.ssh/id_ed25519.pub') }}"
+ state: present
 ```
 
 ```yaml
 # roles/common/handlers/main.yml
 ---
 - name: restart ntp
-  ansible.builtin.service:
-    name: ntp
-    state: restarted
+ ansible.builtin.service:
+ name: ntp
+ state: restarted
 
 - name: reload ufw
-  community.general.ufw:
-    state: reloaded
+ community.general.ufw:
+ state: reloaded
 ```
 
 ## Ansible Vault for Secrets
@@ -217,12 +215,12 @@ Reference vault variables in tasks:
 
 ```yaml
 - name: Configure database connection
-  ansible.builtin.template:
-    src: database.conf.j2
-    dest: /etc/app/database.conf
-    mode: '0600'
-  vars:
-    password: "{{ db_password }}"
+ ansible.builtin.template:
+ src: database.conf.j2
+ dest: /etc/app/database.conf
+ mode: '0600'
+ vars:
+ password: "{{ db_password }}"
 ```
 
 ## Main Playbook
@@ -231,25 +229,25 @@ Reference vault variables in tasks:
 # playbooks/site.yml
 ---
 - name: Apply common configuration to all servers
-  hosts: all
-  become: true
-  vars_files:
-    - ../vault/secrets.yml
-  roles:
-    - common
+ hosts: all
+ become: true
+ vars_files:
+ - ../vault/secrets.yml
+ roles:
+ - common
 
 - name: Configure web servers
-  hosts: webservers
-  become: true
-  roles:
-    - nginx
-    - app
+ hosts: webservers
+ become: true
+ roles:
+ - nginx
+ - app
 
 - name: Configure database servers
-  hosts: dbservers
-  become: true
-  roles:
-    - postgres
+ hosts: dbservers
+ become: true
+ roles:
+ - postgres
 ```
 
 ## Running Playbooks
@@ -302,39 +300,39 @@ ansible web-01.example.com -m setup | grep ansible_distribution
 name: Ansible Deploy
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'ansible/**'
+ push:
+ branches: [main]
+ paths:
+ - 'ansible/**'
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+ deploy:
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/checkout@v4
 
-      - name: Install Ansible
-        run: pip install ansible ansible-lint
+ - name: Install Ansible
+ run: pip install ansible ansible-lint
 
-      - name: Write vault password
-        run: echo "${{ secrets.VAULT_PASSWORD }}" > ~/.vault_pass && chmod 600 ~/.vault_pass
+ - name: Write vault password
+ run: echo "${{ secrets.VAULT_PASSWORD }}" > ~/.vault_pass && chmod 600 ~/.vault_pass
 
-      - name: Write SSH key
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
+ - name: Write SSH key
+ run: |
+ mkdir -p ~/.ssh
+ echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
+ chmod 600 ~/.ssh/id_ed25519
 
-      - name: Lint playbooks
-        run: ansible-lint ansible/playbooks/site.yml
+ - name: Lint playbooks
+ run: ansible-lint ansible/playbooks/site.yml
 
-      - name: Run check mode
-        run: ansible-playbook ansible/playbooks/site.yml --check --diff
+ - name: Run check mode
+ run: ansible-playbook ansible/playbooks/site.yml --check --diff
 
-      - name: Deploy to production
-        run: ansible-playbook ansible/playbooks/site.yml
-        env:
-          ANSIBLE_HOST_KEY_CHECKING: "False"
+ - name: Deploy to production
+ run: ansible-playbook ansible/playbooks/site.yml
+ env:
+ ANSIBLE_HOST_KEY_CHECKING: "False"
 ```
 
 ## Testing Roles with Molecule
@@ -352,10 +350,10 @@ molecule test
 # molecule/default/converge.yml
 ---
 - name: Converge
-  hosts: all
-  become: true
-  roles:
-    - role: nginx
+ hosts: all
+ become: true
+ roles:
+ - role: nginx
 ```
 
 ## Idempotency Checks
@@ -379,4 +377,3 @@ ansible-playbook playbooks/site.yml | grep -E "changed|failed"
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

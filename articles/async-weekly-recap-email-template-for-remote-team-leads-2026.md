@@ -10,8 +10,7 @@ tags: [remote-work-tools, remote-work, async-communication, team-leadership, wee
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -77,7 +76,6 @@ Here's a clean template suitable for most remote team leads:
 
 ### 💡 Notes / Interesting Finds
 - [Any relevant link, insight, or observation]
-
 ---
 Questions or want to chat async? Drop a comment here or Slack me.
 ```
@@ -92,8 +90,8 @@ If you're managing other leads or have direct reports, adjust your focus:
 ### Team Health
 - Overall sentiment: [😊 Good / 😐 Mixed / 😟 Challenging]
 - Key wins this week:
-  - [Win 1]
-  - [Win 2]
+ - [Win 1]
+ - [Win 2]
 
 ### Team Updates
 - [Team member] completed [project/milestone]
@@ -136,30 +134,30 @@ API_KEY = "your_api_key"
 TEAM_ID = "your_team_id"
 
 def get_week_completed(client, team_id):
-    week_ago = datetime.now() - timedelta(days=7)
-    issues = client.issues(
-        filter={
-            "team": {"id": {"eq": team_id}},
-            "completedAt": {"gte": week_ago.isoformat()}
-        }
-    )
-    return [
-        {
-            "title": issue.title,
-            "state": issue.state.name,
-            "assignee": issue.assignee.name if issue.assignee else "Unassigned"
-        }
-        for issue in issues.nodes
-    ]
+ week_ago = datetime.now() - timedelta(days=7)
+ issues = client.issues(
+ filter={
+ "team": {"id": {"eq": team_id}},
+ "completedAt": {"gte": week_ago.isoformat()}
+ }
+ )
+ return [
+ {
+ "title": issue.title,
+ "state": issue.state.name,
+ "assignee": issue.assignee.name if issue.assignee else "Unassigned"
+ }
+ for issue in issues.nodes
+ ]
 
 def format_recap(issues):
-    recap = "## Week of {} Recap\n\n".format(
-        datetime.now().strftime("%Y-%m-%d")
-    )
-    recap += "### Completed This Week\n"
-    for issue in issues:
-        recap += f"- [{issue['title']}](url-to-issue) ({issue['assignee']})\n"
-    return recap
+ recap = "## Week of {} Recap\n\n".format(
+ datetime.now().strftime("%Y-%m-%d")
+ )
+ recap += "### Completed This Week\n"
+ for issue in issues:
+ recap += f"- [{issue['title']}](url-to-issue) ({issue['assignee']})\n"
+ return recap
 
 # Usage
 client = LinearClient(API_KEY)
@@ -184,7 +182,7 @@ echo "## Week of $(date +%Y-%m-%d) Development Activity"
 echo ""
 echo "### Pull Requests Merged"
 gh pr list --repo $REPO --state merged --since $SINCE --json title,author,url | \
-  jq -r '.[] | "- [\(.title)](\(.url)) - @\(.author.login)"'
+ jq -r '.[] | "- [\(.title)](\(.url)) - @\(.author.login)"'
 
 echo ""
 echo "### Key Commits"
@@ -261,34 +259,27 @@ Track whether your weekly recaps actually help your team:
 
 If the answers are yes, your recaps are working. If not, experiment with format, length, or content focus.
 
-
 ## Frequently Asked Questions
-
 
 **Who is this article written for?**
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-
 **How current is the information in this article?**
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
-
 
 **Are there free alternatives available?**
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-
 **How do I get my team to adopt a new tool?**
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-
 **What is the learning curve like?**
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-
 
 ## Related Articles
 
@@ -299,4 +290,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

@@ -10,8 +10,7 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -300,9 +299,7 @@ Fix: After each implementation review, the designer checks whether any deviation
 - [Best Design Collaboration Tools for Remote Teams](/best-design-collaboration-tools-for-remote-teams/)
 - [Async Design Critique Process for Remote UX Teams](/async-design-critique-process-for-remote-ux-teams-step-by-st.)
 - [Best Remote Design Collaboration Tool for UX Teams Using Figma](/best-remote-design-collaboration-tool-for-ux-teams-using-fig.)
-
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

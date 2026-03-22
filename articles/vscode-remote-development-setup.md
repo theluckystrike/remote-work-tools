@@ -11,8 +11,21 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]
+tags: [remote-work-tools, remote-work]---
 ---
+layout: default
+title: "VS Code Remote Development Setup Guide"
+description: "Set up VS Code for remote development over SSH, in containers, and with WSL. Extension configs, settings sync, and dev container workflow for distributed teams"
+date: 2026-03-21
+last_modified_at: 2026-03-21
+author: theluckystrike
+permalink: /vscode-remote-development-setup/
+categories: [guides]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 

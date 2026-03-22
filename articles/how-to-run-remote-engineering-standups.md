@@ -10,8 +10,7 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -242,7 +241,6 @@ OR
 
 ### FYI
 - Anything teammates should know (code review needed, PR ready, etc.)
-
 ---
 Example of good response:
 Yesterday: #456 - Implemented Stripe webhook retry logic, merged and deployed
@@ -295,8 +293,8 @@ Summary format: @username's update → [yesterday] [today] [blockers]
 ## Weekly
 - Blocker-only async in #eng-blockers (posted by each tech lead)
 - Cross-team sync (45 min): One rep from each sub-team
-  - Reps rotate monthly
-  - Agenda: blockers, metrics, upcoming priorities
+ - Reps rotate monthly
+ - Agenda: blockers, metrics, upcoming priorities
 ```
 
 ## Creating a Standup Dashboard
@@ -310,41 +308,41 @@ from datetime import datetime, timedelta
 from github import Github
 
 def standup_health(org_name, team_name):
-    """
-    Check standup participation rates for a team
-    """
-    g = Github(os.environ['GITHUB_TOKEN'])
-    org = g.get_organization(org_name)
-    team = org.get_team_by_slug(team_name)
+ """
+ Check standup participation rates for a team
+ """
+ g = Github(os.environ['GITHUB_TOKEN'])
+ org = g.get_organization(org_name)
+ team = org.get_team_by_slug(team_name)
 
-    # Count standup PRs (assuming standups are created as PRs)
-    repo = org.get_repo('team-standups')
-    since = datetime.now() - timedelta(days=5)
+ # Count standup PRs (assuming standups are created as PRs)
+ repo = org.get_repo('team-standups')
+ since = datetime.now() - timedelta(days=5)
 
-    prs = repo.get_pulls(
-        state='all',
-        since=since
-    )
+ prs = repo.get_pulls(
+ state='all',
+ since=since
+ )
 
-    # Parse PR authors
-    respondents = set()
-    for pr in prs:
-        if pr.title.startswith('Standup:'):
-            respondents.add(pr.user.login)
+ # Parse PR authors
+ respondents = set()
+ for pr in prs:
+ if pr.title.startswith('Standup:'):
+ respondents.add(pr.user.login)
 
-    # Get team membership
-    members = team.get_members()
-    member_names = {m.login for m in members}
+ # Get team membership
+ members = team.get_members()
+ member_names = {m.login for m in members}
 
-    # Calculate participation
-    participation = len(respondents) / len(list(member_names)) * 100
+ # Calculate participation
+ participation = len(respondents) / len(list(member_names)) * 100
 
-    return {
-        'team': team_name,
-        'participation_rate': participation,
-        'respondents': list(respondents),
-        'missing': list(member_names - respondents)
-    }
+ return {
+ 'team': team_name,
+ 'participation_rate': participation,
+ 'respondents': list(respondents),
+ 'missing': list(member_names - respondents)
+ }
 ```
 
 ## Standup Anti-Patterns in Remote Teams
@@ -393,4 +391,3 @@ Yes — Tuesday's standup would have highlighted pattern
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

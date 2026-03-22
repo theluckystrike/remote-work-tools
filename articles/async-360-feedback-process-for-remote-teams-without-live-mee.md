@@ -10,8 +10,7 @@ tags: [remote-work-tools, feedback, remote-work, 360-feedback, async, team-devel
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -175,7 +174,6 @@ Thank you for taking the time to provide feedback. Please focus on:
 - **Recent examples** from the last 3 months
 - **Constructive observations** that help growth
 - **Honest assessment** even if critical
-
 ---
 
 ## TECHNICAL EXCELLENCE
@@ -283,10 +281,10 @@ Step 1: De-Identify Responses (if anonymous)
 
 Step 2: Identify Patterns
 Look for themes that appear in 3+ responses:
-  - Technical strengths mentioned repeatedly
-  - Communication issues cited by multiple people
-  - Reliability or accountability patterns
-  - Leadership impact observations
+ - Technical strengths mentioned repeatedly
+ - Communication issues cited by multiple people
+ - Reliability or accountability patterns
+ - Leadership impact observations
 
 Step 3: Categorize Feedback
 - Strengths: Patterns of positive feedback (do this more)
@@ -371,17 +369,17 @@ Automate the administrative burden so nothing falls through the cracks:
 # Week 1: Send requests to reviewers
 echo "Sending feedback requests to reviewers..."
 for reviewer in $(cat reviewers.txt); do
-  send_email \
-    --to "$reviewer" \
-    --subject "360 Feedback Request: [Person Name]" \
-    --body "Please provide feedback by Friday EOD" \
-    --link "https://feedback.company.com/form/[person]"
+ send_email \
+ --to "$reviewer" \
+ --subject "360 Feedback Request: [Person Name]" \
+ --body "Please provide feedback by Friday EOD" \
+ --link "https://feedback.company.com/form/[person]"
 done
 
 # Week 2: Send reminder to non-respondents
 echo "Sending reminders to incomplete responses..."
 for incomplete in $(check_incomplete_forms); do
-  send_slack_dm "$incomplete" "Just a reminder: feedback due tomorrow"
+ send_slack_dm "$incomplete" "Just a reminder: feedback due tomorrow"
 done
 
 # Week 3: Compile and synthesize feedback
@@ -391,9 +389,9 @@ python3 aggregate_feedback.py --person "$1" --output summary.md
 # Week 4: Schedule delivery meeting
 echo "Scheduling feedback delivery meeting..."
 create_calendar_event \
-  --attendees "$person" \
-  --title "360 Feedback Conversation" \
-  --duration 45min
+ --attendees "$person" \
+ --title "360 Feedback Conversation" \
+ --duration 45min
 ```
 
 This removes the manual burden of chasing forms, reminding respondents, and organizing the follow-up.
@@ -410,34 +408,27 @@ This removes the manual burden of chasing forms, reminding respondents, and orga
 
 **Anonymous when team is small**: In a 5-person team, "anonymity" is obvious. Named feedback builds trust better and allows for follow-up clarification.
 
-
 ## Frequently Asked Questions
-
 
 **Who is this article written for?**
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-
 **How current is the information in this article?**
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
-
 
 **Does Teams offer a free tier?**
 
 Most major tools offer some form of free tier or trial period. Check Teams's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-
 **How do I get my team to adopt a new tool?**
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-
 **What is the learning curve like?**
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-
 
 ## Related Articles
 
@@ -448,4 +439,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

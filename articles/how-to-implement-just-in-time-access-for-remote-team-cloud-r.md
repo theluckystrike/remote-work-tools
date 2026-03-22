@@ -11,9 +11,7 @@ tags: [remote-work-tools, cloud-security, just-in-time-access, iam, security, aw
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: false
-
----
+voice-checked: false---
 
 {% raw %}
 
@@ -252,7 +250,6 @@ Design break-glass procedures for genuine emergencies. A secondary approver grou
 **Does JIT access work for contractors and third-party vendors?**
 
 Yes, and it is especially valuable for external parties. Contractors often receive broader access than necessary because provisioning precise scopes is cumbersome. JIT forces the justification conversation every time, resulting in narrower, time-limited access that expires automatically when the work is done.
-
 
 ## Related Reading
 

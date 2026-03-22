@@ -10,8 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
----
+tags: [remote-work-tools]---
 
 {% raw %}
 
@@ -414,9 +413,7 @@ Scheduled job to catch manual changes:
 - [Terraform Remote Team Infrastructure Guide](/remote-work-tools/terraform-remote-team-infrastructure-guide/)
 - [How to Set Up Ansible for Remote Server Management](/remote-work-tools/how-to-set-up-ansible-remote-server-management/)
 - [Best Secrets Management Tool for Remote Dev Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
-
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

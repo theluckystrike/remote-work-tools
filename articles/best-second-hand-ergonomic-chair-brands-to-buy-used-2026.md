@@ -11,8 +11,7 @@ tags: [remote-work-tools, ergonomics, remote-work, hardware, best-of]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 
 {% raw %}
@@ -228,8 +227,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 Create this comparison before buying:
 
 ```
-Candidate | Model | Age | Condition | Price | Hydraulic | Mesh | Armrests | Wheels | Overall Score | Action
----------|-------|-----|-----------|-------|-----------|------|----------|--------|---------------|---------
+Candidate | Model | Age | Condition | Price | Hydraulic | Mesh | Armrests | Wheels | Overall Score | Action---
+------|-------|-----|-----------|-------|-----------|------|----------|--------|---------------|---------
 Option A | Aeron B | 3yr | Good | $550 | ✓ | Excellent | ✓ | Good | 9/10 | Make offer
 Option B | Leap V2 | 5yr | Fair | $350 | ✓ | Flat cushion | ✓ | Squeaky | 6/10 | Pass (needs repairs)
 Option C | Zody | 2yr | Excellent | $400 | ✓ | N/A | Adjustable | ✓ | 8.5/10 | Consider backup option
@@ -253,29 +252,29 @@ Your offer strategy:
 1. Research fair market value for that model/year
 2. Identify 2-3 issues during inspection
 3. Calculate repair costs:
-   - Hydraulic cylinder replacement: $50-100
-   - Caster wheel replacement: $20-40
-   - Mesh/fabric repair: $0-200
-   - Armrest replacement: $50-150
+ - Hydraulic cylinder replacement: $50-100
+ - Caster wheel replacement: $20-40
+ - Mesh/fabric repair: $0-200
+ - Armrest replacement: $50-150
 
 4. Offer formula:
-   (Fair market value) - (repair costs × 1.5) - (hassle factor: 5-10%)
+ (Fair market value) - (repair costs × 1.5) - (hassle factor: 5-10%)
 
-   Example:
-   Fair market: $600
-   Issues found: cylinder wear ($80) + wheel replacement ($30)
-   Repair total: $110 × 1.5 = $165
-   Hassle factor: 10% = $60
+ Example:
+ Fair market: $600
+ Issues found: cylinder wear ($80) + wheel replacement ($30)
+ Repair total: $110 × 1.5 = $165
+ Hassle factor: 10% = $60
 
-   Your offer: $600 - $165 - $60 = $375
+ Your offer: $600 - $165 - $60 = $375
 
 5. Negotiation approach (text/message):
-   "Hi, interested in [chair]. During inspection, I noticed
-   the cylinder drifts slightly and one wheel is grinding.
-   Repairs would run about $150-170. I can offer $375 as-is."
+ "Hi, interested in [chair]. During inspection, I noticed
+ the cylinder drifts slightly and one wheel is grinding.
+ Repairs would run about $150-170. I can offer $375 as-is."
 
 6. Expect counter: Usually 10-20% higher. Meet in middle.
-   If they refuse, walk away — another chair exists.
+ If they refuse, walk away — another chair exists.
 ```
 
 ## Setup and Adjustment Guide
@@ -293,26 +292,26 @@ Once you buy a used chair, proper setup maximizes comfort:
 
 ## Lumbar support
 Herman Miller Aeron:
-  - Lever on left side adjusts lumbar curve
-  - Position: small of back (lower spine)
-  - Firmness: snug but not pressing
+ - Lever on left side adjusts lumbar curve
+ - Position: small of back (lower spine)
+ - Firmness: snug but not pressing
 
 Steelcase Leap:
-  - Liveback technology: auto-adjusts to your movement
-  - Adjustment dial: tighter = more support
-  - Find sweet spot: medium firmness usually best
+ - Liveback technology: auto-adjusts to your movement
+ - Adjustment dial: tighter = more support
+ - Find sweet spot: medium firmness usually best
 
 Haworth Zody:
-  - Lumbar adjustment pins
-  - Move up for lower back, down for mid-back
-  - Asymmetric support: left pin ≠ right pin OK (spinal curvature natural)
+ - Lumbar adjustment pins
+ - Move up for lower back, down for mid-back
+ - Asymmetric support: left pin ≠ right pin OK (spinal curvature natural)
 
 ## Armrest positioning
 - Height: Elbows at 90 degrees, shoulders relaxed
 - Distance: 1-2 inches from your sides (not pressing)
 - Forward/back: Type depends on chair
-  Lever model: Adjust to desk height
-  Fixed model: Just ensure not pressing into ribs
+ Lever model: Adjust to desk height
+ Fixed model: Just ensure not pressing into ribs
 
 ## Tilt settings
 - Lock: Usually "lock" is sufficient (no reclining needed)
@@ -418,4 +417,4 @@ Used chairs offer the best value: 60-70% discount from new, 90%+ of the comfort 
 - [How to Set Up Second Brain for Developers](/remote-work-tools/how-to-set-up-second-brain-for-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+
