@@ -333,6 +333,141 @@ Row 3: Service Health
   - Active incidents
 ```
 
+## 6. Making Dashboards Actually Useful for Remote Teams
+
+The biggest mistake engineering teams make is building dashboards no one looks at. Metrics become valuable when they're embedded into existing rituals, not treated as a separate reporting layer.
+
+### Async Weekly Digest
+
+Instead of expecting engineers to open Grafana each morning, push a digest to Slack automatically:
+
+```python
+# scripts/weekly_digest.py
+import requests
+import os
+from datetime import datetime, timedelta
+
+SLACK_WEBHOOK = os.environ['SLACK_WEBHOOK_URL']
+GRAFANA_URL = os.environ['GRAFANA_URL']
+GRAFANA_TOKEN = os.environ['GRAFANA_TOKEN']
+
+def fetch_metric(query: str, time_range: str = "7d") -> float:
+    resp = requests.get(
+        f"{GRAFANA_URL}/api/datasources/proxy/1/api/v1/query",
+        params={"query": query},
+        headers={"Authorization": f"Bearer {GRAFANA_TOKEN}"}
+    )
+    data = resp.json()
+    return float(data["data"]["result"][0]["value"][1])
+
+def post_digest():
+    deploy_freq = fetch_metric(
+        'sum(increase(deployment_total{environment="production",status="success"}[7d]))'
+    )
+    lead_time = fetch_metric(
+        'avg(pr_lead_time_hours)'
+    )
+    failure_rate = fetch_metric(
+        'rate(deployment_total{status="failure"}[7d]) / rate(deployment_total[7d]) * 100'
+    )
+
+    color = "good" if deploy_freq >= 5 else "warning" if deploy_freq >= 2 else "danger"
+
+    payload = {
+        "attachments": [{
+            "color": color,
+            "title": f"Engineering Metrics — Week of {datetime.now().strftime('%b %d')}",
+            "fields": [
+                {"title": "Deploy Frequency", "value": f"{deploy_freq:.0f} this week", "short": True},
+                {"title": "Avg Lead Time", "value": f"{lead_time:.1f}h", "short": True},
+                {"title": "Change Failure Rate", "value": f"{failure_rate:.1f}%", "short": True},
+            ]
+        }]
+    }
+    requests.post(SLACK_WEBHOOK, json=payload)
+
+post_digest()
+```
+
+Schedule this with a GitHub Actions cron:
+
+```yaml
+# .github/workflows/metrics-digest.yml
+name: Weekly Metrics Digest
+on:
+  schedule:
+    - cron: '0 9 * * MON'  # Monday 9am UTC
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - run: python scripts/weekly_digest.py
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GRAFANA_URL: ${{ secrets.GRAFANA_URL }}
+          GRAFANA_TOKEN: ${{ secrets.GRAFANA_TOKEN }}
+```
+
+### Defining Targets and Thresholds
+
+Raw numbers without context create anxiety, not insight. Define team-specific targets before you publish dashboards publicly:
+
+```yaml
+# team-metrics-targets.yml
+dora:
+  deployment_frequency:
+    elite: ">= 1/day"
+    high: ">= 1/week"
+    medium: ">= 1/month"
+    current_target: high
+
+  lead_time_hours:
+    elite: "< 24"
+    high: "< 168"   # 1 week
+    medium: "< 720" # 1 month
+    current_target: 48
+
+  change_failure_rate_pct:
+    elite: "< 5"
+    high: "< 10"
+    current_target: 10
+
+  mttr_hours:
+    elite: "< 1"
+    high: "< 24"
+    current_target: 4
+
+team_health:
+  pr_review_turnaround_hours: 24
+  stale_pr_threshold_days: 3
+  meeting_hours_per_week_max: 10
+```
+
+Store this in your repo and reference it when configuring alert thresholds in Grafana. This makes targets a team decision rather than a tool default.
+
+### Dashboard Access Control for Remote Teams
+
+With engineers spread across timezones, dashboard access needs to be frictionless:
+
+- **Use SSO**: Configure Grafana's OAuth so any team member logs in with their Google or GitHub account — no separate password management
+- **Public dashboards for execs**: Grafana Cloud supports public dashboard URLs with read-only access; send leadership a static link rather than creating accounts for them
+- **Snapshot for async review**: Use Grafana's built-in snapshot feature (`Share > Snapshot`) to capture point-in-time metrics for incident retrospectives or sprint reviews — snapshots are immutable and shareable without auth
+
+```bash
+# Create a Grafana snapshot via API
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $GRAFANA_TOKEN" \
+  -d '{
+    "dashboard": {"id": 5, "title": "DORA Metrics"},
+    "expires": 86400
+  }' \
+  "$GRAFANA_URL/api/snapshots"
+# Returns a public URL valid for 24 hours
+```
+
 ## Related Reading
 
 - [Setting Up Loki for Remote Log Aggregation](/remote-work-tools/setting-up-loki-remote-log-aggregation/)
