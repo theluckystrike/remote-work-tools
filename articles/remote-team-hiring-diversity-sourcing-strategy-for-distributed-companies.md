@@ -6,9 +6,13 @@
 
 
 
+<<<<<<< HEAD
 
 
 
+
+=======
+>>>>>>> 2b70f87476c51c60d757971f01c2c56d66ed0752
 layout: default
 title: "Diversity Sourcing Strategy for Remote Teams"
 description: "Building diverse remote teams requires more than good intentions—it demands systematic approaches to sourcing, evaluating, and welcoming talent across"
@@ -31,14 +35,14 @@ intent-checked: true
 
 
 
-
-
 <<<<<<< HEAD
+
 
 
 <<<<<<< HEAD
 =======
->>>>>>> d4fc9ccedd956730946d8ecd77b7c1fc784dac40
+>>>>>>> 2b70f87476c51c60d757971f01c2c56d66ed0752
+
 
 
 layout: default

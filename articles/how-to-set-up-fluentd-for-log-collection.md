@@ -17,6 +17,8 @@ tags: [remote-work-tools]
 
 Fluentd is the CNCF log aggregation standard. It collects logs from dozens of sources (Docker, syslog, application files, Kubernetes), transforms and filters them, then routes to one or more destinations. For remote teams with multiple services across multiple hosts, centralized logging is the difference between having observable systems and debugging in the dark.
 
+When an incident happens at 3 AM in a different time zone, the on-call engineer needs logs available in a single search interface — not scattered across individual container filesystems that require SSH access to read. Fluentd handles the collection layer so engineers can focus on investigation rather than log retrieval.
+
 ---
 
 ## Install Fluentd
@@ -284,6 +286,27 @@ func main() {
 }
 ```
 
+From Python using the structured logging approach:
+
+```python
+import fluent.sender
+import fluent.event
+
+fluent.event.setup('app', host='fluentd', port=24224)
+
+# Emit a structured event
+fluent.event.Event('payments', {
+    'user_id': user_id,
+    'amount': amount,
+    'currency': currency,
+    'request_id': request_id,
+    'level': 'info',
+    'message': 'payment processed',
+})
+```
+
+The key discipline for remote teams: always emit structured JSON rather than plain text strings. Structured logs make Fluentd filters and Kibana queries far more powerful. A log line like `"payment processed for user 1234 amount 99.99"` is hard to aggregate; a structured record with discrete fields is trivially filterable by user, amount range, or currency.
+
 ---
 
 ## Route Logs to S3 for Long-Term Storage
@@ -314,6 +337,33 @@ func main() {
     chunk_limit_size 256m
   </buffer>
 </match>
+```
+
+For cost management, use S3 lifecycle rules alongside the Fluentd S3 output. Logs older than 30 days can transition to S3 Glacier for long-term compliance storage at a fraction of the cost:
+
+```json
+{
+  "Rules": [
+    {
+      "ID": "log-archive-lifecycle",
+      "Status": "Enabled",
+      "Filter": { "Prefix": "logs/" },
+      "Transitions": [
+        { "Days": 30, "StorageClass": "STANDARD_IA" },
+        { "Days": 90, "StorageClass": "GLACIER" }
+      ],
+      "Expiration": { "Days": 365 }
+    }
+  ]
+}
+```
+
+Apply this with the AWS CLI:
+
+```bash
+aws s3api put-bucket-lifecycle-configuration \
+  --bucket your-log-archive-bucket \
+  --lifecycle-configuration file://lifecycle.json
 ```
 
 ---
@@ -379,6 +429,57 @@ Send logs to different destinations based on content:
 </label>
 ```
 
+The Slack store in the errors match is valuable for remote teams: 5xx errors get posted to `#alerts` immediately without anyone watching a dashboard. Engineers working in different time zones can respond to errors without polling Kibana continuously.
+
+---
+
+## Sampling High-Volume Logs
+
+In production, some services emit enormous log volumes. Sampling reduces costs without losing visibility into errors:
+
+```xml
+<filter app.high_volume_service.**>
+  @type sampling
+  sample_unit second
+  # Keep 1 in 10 info logs; keep all warnings and errors
+  interval 10
+</filter>
+
+# Override: always keep errors regardless of sampling
+<filter app.high_volume_service.**>
+  @type grep
+  <regexp>
+    key level
+    pattern /error|warn|SECURITY/
+  </regexp>
+</filter>
+```
+
+A two-stage filter approach: sample down info logs first, then let the grep filter rescue errors from the sampling decision. This avoids dropping critical logs while still reducing index size by 80-90% on noisy services.
+
+---
+
+## Adding Trace Correlation Fields
+
+Remote debugging across microservices is much faster when every log record carries a trace ID that links related requests. Inject the trace ID at the Fluentd filter layer so it applies uniformly even to services that don't emit it natively:
+
+```xml
+<filter app.**>
+  @type record_transformer
+  enable_ruby true
+  <record>
+    # Pass X-Request-ID through from the log record if present,
+    # otherwise generate a placeholder for correlation queries
+    trace_id ${record["request_id"] || record["x_request_id"] || "no-trace"}
+    service_name ${tag_parts[1]}
+    datacenter "#{ENV['DATACENTER'] || 'us-east-1'}"
+    log_version "1"
+  </record>
+</filter>
+```
+
+With `trace_id` present on every record, a Kibana query like `trace_id:"req-abc-123"` retrieves the full request path across all services — API gateway, auth service, payments service — without manually correlating timestamps.
+
 ---
 
 ## Monitor Fluentd Health
@@ -393,6 +494,22 @@ curl http://localhost:24220/api/plugins.json | jq '.'
 # Check buffer queue depth (high = Elasticsearch can't keep up)
 curl http://localhost:24220/api/plugins.json \
   | jq '.plugins[] | select(.plugin_id | contains("elasticsearch")) | {buffer_queue_length, retry_count}'
+```
+
+Alert on buffer queue depth exceeding a threshold — it means Fluentd is accumulating logs faster than the output can accept them. Left unaddressed, the buffer fills, the `overflow_action block` directive causes Fluentd to apply backpressure on input, and eventually logs are dropped or Docker log drivers start timing out. Catching this early prevents a silent data loss situation:
+
+```bash
+#!/bin/bash
+# scripts/check-fluentd-buffer.sh
+QUEUE=$(curl -s http://localhost:24220/api/plugins.json \
+  | jq '.plugins[] | select(.plugin_id | contains("elasticsearch")) | .buffer_queue_length' \
+  | head -1)
+
+if [[ "$QUEUE" -gt 50 ]]; then
+  curl -s -X POST "$SLACK_WEBHOOK_URL" \
+    -H "Content-Type: application/json" \
+    -d "{\"text\": \":warning: Fluentd buffer queue depth is $QUEUE on $(hostname) — check Elasticsearch health\"}"
+fi
 ```
 
 ---
