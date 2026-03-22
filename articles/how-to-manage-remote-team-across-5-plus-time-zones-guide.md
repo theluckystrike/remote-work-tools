@@ -332,5 +332,19 @@ If you do these, your distributed team will actually outpace co-located teams. A
 
 Start by implementing async standups and a weekly global sync. Add office hours next. Once that's working, optimize further. Don't try to do everything at once—build the culture incrementally.
 
+<<<<<<< HEAD
+
+
+## Related Articles
+
+- [How to Manage Remote Team Handoffs Across Time Zones](/how-to-manage-remote-team-handoffs-across-time-zones/)
+- [Find overlapping work hours across three zones](/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
+- [Convert to UTC range](/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
+=======
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+>>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 {% endraw %}
