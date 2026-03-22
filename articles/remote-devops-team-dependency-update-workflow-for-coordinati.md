@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Remote DevOps Team Dependency Update Workflow for Coordinating Across Repositories"
 description: "Learn how to build an effective dependency update workflow for remote DevOps teams managing multiple repositories. Practical strategies and real-world examples for distributed teams."
 date: 2026-03-21
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-devops-team-dependency-update-workflow-for-coordinati/
+reviewed: true
+score: 8
+categories: [productivity]
 ---
+
 
 {% raw %}
 # Remote DevOps Team Dependency Update Workflow for Coordinating Across Repositories
