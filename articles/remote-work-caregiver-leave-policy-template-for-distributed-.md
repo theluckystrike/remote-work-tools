@@ -31,6 +31,15 @@ voice-checked: true---
 
 A caregiver leave policy for distributed companies should provide 10-15 days annually, allow unpaid leave options, and include flexible scheduling for elder care without requiring advance notice. This policy template specifically addresses the "sandwich generation"—employees balancing children and aging parents—while maintaining productivity in async-first environments. It includes implementation guidance, communication templates, and return-to-work procedures for your remote organization.
 
+## Key Takeaways
+
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **Your policy should be**: designed to meet or exceed the most generous legal requirement across your employee locations, with the HR system tracking jurisdiction-specific requirements separately.
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
+- **Traditional corporate leave policies**: fail this demographic because they assume employees have a single caregiving responsibility or that caregiving happens outside work hours.
+- **The notification should be informative but privacy-respecting**: "Jane is on caregiver leave from March 18-22" communicates what colleagues need to know without sharing medical or family details.
+- **Use the same tools**: your team prefers—whether that's a Notion workspace, GitHub wiki, or internal developer portal.
+
 ## Understanding the Sandwich Generation in Remote Work
 
 The sandwich generation typically refers to adults in their 30s to 50s who provide care for both their children and elderly parents or relatives. In distributed teams, these employees often work across multiple time zones, attending to children's remote learning during morning hours while handling medical appointments or care coordination for parents in different geographic locations.

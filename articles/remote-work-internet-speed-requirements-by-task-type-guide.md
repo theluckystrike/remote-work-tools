@@ -31,6 +31,15 @@ intent-checked: true---
 
 Remote work doesn't require the 1 Gbps fiber connection you'd think. Most tasks run on 25-50 Mbps with proper bandwidth management. This guide specifies exact bandwidth requirements and latency thresholds by task type: video calls, screen sharing, cloud IDEs, Docker pulls, git operations, and how to test if your connection is adequate.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **A 2 GB image**: pulls the same whether latency is 20ms or 100ms; only bandwidth matters.
+- **If you frequently work with monorepos**: 25-50 Mbps recommended to avoid lengthy clones.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Most tasks run on**: 25-50 Mbps with proper bandwidth management.
+- **A 50ms latency won't**: affect Docker pull speed.
+
 ## Understanding Bandwidth vs. Latency vs. Jitter
 
 Before examining specific tasks, clarify three network metrics:

@@ -31,6 +31,15 @@ intent-checked: true---
 
 Poor ergonomics in home offices causes musculoskeletal disorders that accumulate silently over months, resulting in chronic pain that derails productivity. Unlike office environments with HR oversight, remote workers often optimize for cost rather than health. This guide walks through a complete ergonomic assessment with specific measurements, product recommendations, and budget options.
 
+## Key Takeaways
+
+- **Keyboard and Mouse Placement**: The keyboard and mouse are the most frequently adjusted elements in ergonomics.
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **Week 3-4**: Address secondary issues (lighting, mouse position).
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
+- **This guide walks through**: a complete ergonomic assessment with specific measurements, product recommendations, and budget options.
+- **Week 2**: Fix highest-impact issues (monitor height, keyboard position, chair support).
+
 ## The Core Ergonomic Problem
 
 Remote workers spend 40+ hours weekly at their desk but rarely adjust setup for proper posture. Common mistakes:

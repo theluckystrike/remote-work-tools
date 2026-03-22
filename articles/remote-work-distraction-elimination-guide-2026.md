@@ -33,6 +33,15 @@ Remote work offers freedom, but that freedom comes with a hidden cost: distracti
 
 Remote workers interrupted every 15 minutes never reach deep focus states. The cost: 23 minutes required to refocus after each interruption. This guide transforms how you engineer your environment, schedule your time, and communicate with teammates to reclaim your attention.
 
+## Key Takeaways
+
+- **Passive sound isolation (like Etymotic ER2SE**: $150) works without batteries if you prefer lightweight options.
+- **RescueTime (Free tier or**: $180/year) works silently in the background, tracking your actual time usage without blocking anything.
+- **Most teams see 30-50%**: improvement in deep work output after implementing structured focus time.
+- **The best blocker is**: one you'll actually use.
+- **Cold Turkey ($39 one-time)**: takes a scorched-earth approach.
+- **Focus@Will ($5.99/month) combines blocking**: with specialized background music designed to improve concentration.
+
 ## The Remote Work Distraction Problem
 
 Unlike traditional offices with physical boundaries, remote work happens in the same space where you live, eat, and relax. The lack of spatial separation creates what researchers call "attention residue" — fragments of previous tasks lingering in your mind while you try to focus on new ones. Add in the constant connectivity expectations of modern remote teams, and you have a perfect storm for chronic distraction.

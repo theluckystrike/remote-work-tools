@@ -31,6 +31,21 @@ intent-checked: true---
 
 Mobile hotspot provides the cheapest backup ($10-30/month) but high latency unsuitable for video calls. Starlink offers fast backup connectivity (50-100 Mbps) at premium pricing ($120/month equipment + service). Fixed wireless access (FWA) delivers consistent speeds (100-300 Mbps) at moderate cost ($50-80/month). Dual WAN routers automate failover, transparent to connected devices, but require compatible internet sources. For remote workers, the optimal choice depends on outage frequency, acceptable latency, and budget. Testing reveals Starlink most reliable but expensive; fixed wireless best value; mobile hotspot acceptable only for asynchronous work.
 
+## Key Takeaways
+
+- **Cost:
+Equipment**: $599 one-time
+Service: $120/month standard, $150/month priority
+Annual cost: $1,440-1,800
+
+Best for: Remote workers in areas with poor broadband options.
+- **Mobile hotspot provides the**: cheapest backup ($10-30/month) but high latency unsuitable for video calls.
+- **Starlink offers fast backup**: connectivity (50-100 Mbps) at premium pricing ($120/month equipment + service).
+- **Fixed wireless access (FWA)**: delivers consistent speeds (100-300 Mbps) at moderate cost ($50-80/month).
+- **Setup:
+Hardware cost**: $599 initial (dish, router, cabling) plus $10-20 shipping.
+- **Monthly service**: $120-150.
+
 ## Why Backup Internet Matters for Remote Workers
 
 A single internet outage costs a remote worker hours of lost productivity. Conference calls drop, video recordings stop, file syncing pauses. Unlike traditional offices where internet outages affect a building, remote workers face home internet reliability issues frequently. ISP outages average 4-8 hours annually in many regions; line-of-sight issues, weather, or hardware failures create unexpected gaps.

@@ -17,6 +17,17 @@ voice-checked: true---
 
 Building a remote-first company requires more than just adopting video conferencing tools. Startups need structured playbooks that define how communication flows, how decisions get made, and how team members stay aligned without constant synchronous check-ins. This guide provides a practical template you can adapt for your team, with concrete examples that work for engineering organizations.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Store playbook in Git**: use pull requests for changes, require at least one person to review before updates land.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Use it to accelerate new hire ramp time:
+
+Day 1**: New hire reads core playbook sections (async communication, meeting norms, documentation standards).
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Core Components of a Remote Work Playbook
 
 A functional remote work playbook addresses four key areas: asynchronous communication norms, meeting efficiency, documentation standards, and tooling infrastructure. Each section should include specific guidelines your team can reference rather than vague principles.

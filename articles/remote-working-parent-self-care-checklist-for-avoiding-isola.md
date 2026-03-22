@@ -18,6 +18,15 @@ voice-checked: true---
 
 Remote working parents prevent isolation by scheduling weekly 1:1 coffee chats with colleagues, joining async communities aligned with their interests, and protecting one evening per week for adult-only social interaction outside work. This checklist provides concrete, actionable strategies for developers and power users to maintain mental health, stay professionally connected, and build sustainable remote work habits despite the inherent isolation of distributed parenting.
 
+## Key Takeaways
+
+- **Slack or Discord**: Free with optional $15/user/month paid tiers.
+- **The Geekbot app ($3-10/month**: for team use) runs async standups that keep you visible without meetings.
+- **Loom**: Free for basic video recordings (3 videos at a time), Pro at $13/month.
+- **Clockwise**: Free personal version, $10-20/month for teams.
+- **Virtual coffee apps like**: Donut ($5-15/month for teams) or Icebreakers randomly pair team members for casual conversations.
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+
 ## The Reality of Remote Parent Isolation
 
 Remote working parents face a compounding set of isolation factors. You may work in a home office while colleagues gather in co-working spaces or physical offices. Your daily interactions become limited to video calls and text messages. The absence of casual hallway conversations, lunch break socials, and post-work happy hours creates a vacuum that affects both professional collaboration and personal well-being.
