@@ -391,6 +391,7 @@
 
 
 
+
 layout: default
 title: "Remote Manager Time Management Framework for Leading"
 description: "A practical framework for remote engineering managers leading distributed teams across five or more time zones. Includes scheduling strategies, async"
@@ -938,6 +939,7 @@ Traditional management metrics don't work well for distributed teams. Instead, f
 
 Quarterly surveys can help you understand how well your async communication is working and identify pain points before they become retention risks.
 ---
+
 
 Leading across five or more time zones requires fundamentally rethinking how work gets done. The framework above provides a starting point, but every team will need to adapt these principles to their specific composition and culture. Start with async-first communication, build documentation practices, and protect both your own and your team's time. The investment in building these systems pays dividends in team sustainability and effectiveness.
 
