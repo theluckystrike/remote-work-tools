@@ -327,5 +327,4 @@ alias sprint='open "https://linear.app/yourteam/view/my-issues"'
 - [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

@@ -325,5 +325,4 @@ Then reference credentials by name in workflow nodes — never paste raw API key
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

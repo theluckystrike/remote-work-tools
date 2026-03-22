@@ -184,7 +184,7 @@ This condition restricts access to business hours, but for true JIT access, you'
 
 While cloud-native JIT mechanisms work, several dedicated platforms streamline the entire workflow for distributed teams.
 
-**Teleport** is the most widely adopted open-source JIT access platform. It provides a unified access plane for SSH servers, Kubernetes clusters, databases, and cloud provider consoles. Remote teams particularly benefit from Teleport's web-based access request portal—developers submit requests in a browser, approvers receive Slack or email notifications, and approved sessions are logged automatically. The open-source tier handles most small team needs; the enterprise version adds hardware key enforcement and SAML integration.
+**Teleport** is the most widely adopted open-source JIT access platform. It provides an unified access plane for SSH servers, Kubernetes clusters, databases, and cloud provider consoles. Remote teams particularly benefit from Teleport's web-based access request portal—developers submit requests in a browser, approvers receive Slack or email notifications, and approved sessions are logged automatically. The open-source tier handles most small team needs; the enterprise version adds hardware key enforcement and SAML integration.
 
 **StrongDM** sits between users and infrastructure, enforcing JIT workflows without requiring changes to the underlying resources. A developer who needs production database access submits a request, their manager approves it in StrongDM's interface, and a session proxy grants access for the defined window. Every query executed during that session is logged. This approach works well when you cannot modify the target infrastructure itself.
 

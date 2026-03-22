@@ -290,9 +290,9 @@ Not all teams can gather synchronously. Async lightning talks work through recor
 
 1. **Record 5-minute presentation** (video + screen share)
 2. **Upload to shared location:**
-   - Google Drive folder
-   - Slack channel (pinned)
-   - Internal wiki
+ - Google Drive folder
+ - Slack channel (pinned)
+ - Internal wiki
 3. **Post announcement** with title, topic, presenter
 4. **Allow 3-5 days** for team to watch
 5. **Quick discussion thread** (email, Slack, comment section)

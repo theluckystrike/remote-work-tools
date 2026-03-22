@@ -319,12 +319,12 @@ The key physics principle: match surface hardness to caster hardness. Hard caste
 For mixed-flooring spaces, consider a hybrid approach:
 
 1. **Primary zone (3 x 4 feet)** - Premium material for daily use
-   - High-quality polycarbonate for carpet OR TPE for hardwood
-   - Invest 70% of budget here
+ - High-quality polycarbonate for carpet OR TPE for hardwood
+ - Invest 70% of budget here
 
 2. **Secondary zone (2 x 3 feet)** - Budget option for occasional use
-   - Standard PVC mat
-   - Use 30% of budget here
+ - Standard PVC mat
+ - Use 30% of budget here
 
 This maximizes longevity where you spend most time while keeping overall cost reasonable.
 

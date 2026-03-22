@@ -65,7 +65,7 @@ You don't need expensive cinema lights. Budget options work equally well if posi
  - Each draws ~25W (efficient)
  - Includes basic stands
 
- Amazon: `B00TSY0KXA` or equivalent
+Amazon: `B00TSY0KXA` or equivalent
 
 2. **Cheap Ring Light for Back Light** — $15-22
  - Neewer 10-inch RGB ring light (use on white/warm setting)
@@ -73,7 +73,7 @@ You don't need expensive cinema lights. Budget options work equally well if posi
  - Perfect for separation light behind head
  - Can be mounted on mic stand or clipped to desk
 
- Amazon: `B00F9SDSXE` or equivalent
+Amazon: `B00F9SDSXE` or equivalent
 
 3. **Photo Tripod Stands (if not included)** — $12-18
  - Heavy-duty light stands (2-pack)
@@ -86,7 +86,7 @@ You don't need expensive cinema lights. Budget options work equally well if posi
  - Softens harsh shadows without buying expensive diffusers
 
  **DIY Diffuser (Detailed Instructions):**
-   ```
+ ```
    Materials needed:
    - Foam board (white) - $3
    - Duct tape - already have

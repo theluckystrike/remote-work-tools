@@ -248,7 +248,7 @@ Different team structures benefit from variations on the basic async check-in fo
 
 **Product teams:** Include a section on user feedback encountered. This surfaces customer feedback that might warrant design discussion.
 
-Adapt the format to your team's actual needs rather than forcing a one-size-fits-all template.
+Adapt the format to your team's actual needs rather than forcing an one-size-fits-all template.
 
 ## Related Articles
 

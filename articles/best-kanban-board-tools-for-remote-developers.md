@@ -32,7 +32,7 @@ Teams without structured workflow tools suffer from:
 
 **New Member Ramp-Up**: Onboarding someone new requires extensive one-on-one explanation of what's happening. A transparent board lets new people figure it out.
 
-Real cost: A 5-person team loses 3-5 hours weekly to status coordination overhead. Over a year, that's 150-250 hours—basically a full developer's time.
+Real cost: A 5-person team loses 3-5 hours weekly to status coordination overhead. Over a year, that's 150-250 hours— a full developer's time.
 
 ## Why Remote Developers Need Structured Workflow Tools
 

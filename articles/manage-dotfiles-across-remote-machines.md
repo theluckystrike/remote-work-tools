@@ -292,5 +292,4 @@ cd $(chezmoi source-path) && git add -A && git commit -m "tmux: add popup keybin
 - [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

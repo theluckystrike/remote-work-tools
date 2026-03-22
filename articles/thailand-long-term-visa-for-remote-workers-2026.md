@@ -351,5 +351,4 @@ Many developers stay 6-12 months initially, then relocate to another Southeast A
 - [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

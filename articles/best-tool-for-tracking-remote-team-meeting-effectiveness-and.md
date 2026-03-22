@@ -203,17 +203,17 @@ For most teams, start with **Calendly's free tier** if you schedule many meeting
 
 1. **Cancel everything**: Announce that all recurring meetings are cancelled effective [date]. Make exceptions only for all-hands and executive standup if truly essential.
 
-2. **Re-proposal phase (1 week)**: Owners of cancelled meetings submit a one-page proposal:
-   - Purpose (one sentence)
-   - Target attendees
-   - Frequency and duration
-   - What happens if we don't have this meeting
-   - Alternative if we replace it with async
+2. **Re-proposal phase (1 week)**: Owners of cancelled meetings submit an one-page proposal:
+ - Purpose (one sentence)
+ - Target attendees
+ - Frequency and duration
+ - What happens if we don't have this meeting
+ - Alternative if we replace it with async
 
 3. **Approval** (1 week): Leadership approves only meetings meeting the criteria:
-   - Clear purpose that requires synchronous time
-   - Attendees who all need to be there
-   - Decisions or discussions that genuinely need real-time interaction
+ - Clear purpose that requires synchronous time
+ - Attendees who all need to be there
+ - Decisions or discussions that genuinely need real-time interaction
 
 4. **Reinstate** (1 week): Only approved meetings come back. Measure the difference in calendar load.
 

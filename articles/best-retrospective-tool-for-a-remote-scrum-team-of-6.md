@@ -311,5 +311,7 @@ Test two options with actual sprints before committing. Run one retro with your 
 - [Remote Team Scaling Retrospective Template for Reflecting](/remote-work-tools/remote-team-scaling-retrospective-template-for-reflecting-on/)
 - [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -364,5 +364,4 @@ If you want the simplest "do it all" solution, **ClickUp Free or Unlimited** ($0
 - [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

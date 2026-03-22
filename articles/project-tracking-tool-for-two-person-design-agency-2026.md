@@ -263,6 +263,8 @@ The tools scale, but your processes need adjustment at each growth stage.
 - [Best Project Management Tool for 3 Person Startup 2026](/remote-work-tools/best-project-management-tool-for-3-person-startup-2026/)
 - [How to Handle Client Revision Rounds in Remote Design Agency](/remote-work-tools/how-to-handle-client-revision-rounds-in-remote-design-agency/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

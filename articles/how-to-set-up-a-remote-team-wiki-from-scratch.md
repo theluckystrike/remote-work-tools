@@ -336,7 +336,7 @@ The Decision Log explains why we do it this way. The Process page explains how.
 Focus on documentation people need immediately:
 
 1. **Onboarding Page**
-   ```
+ ```
    New to the company?
    1. Read company values (5 min)
    2. Take laptop setup guide (30 min)
@@ -588,5 +588,4 @@ A wiki works better when connected to other tools.
 - [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

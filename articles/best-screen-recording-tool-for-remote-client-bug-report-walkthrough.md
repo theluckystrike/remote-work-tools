@@ -244,7 +244,7 @@ Loading spinner spins indefinitely, payment never completes
 ### Error Output
 ```
 TypeError: Cannot read property 'handleSubmit' of undefined
-    at HTMLButtonElement.onclick (checkout.js:456)
+ at HTMLButtonElement.onclick (checkout.js:456)
 ```
 
 ### Notes

@@ -248,6 +248,7 @@ If your job depends on your hands (and whose doesn't, as a programmer?), invest 
 
 ---
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 

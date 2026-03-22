@@ -314,5 +314,4 @@ The CLI approach works best for developers who want full control and already hav
 - [Freelancer Tax Deduction Tracking Tools 2026](/remote-work-tools/freelancer-tax-deduction-tracking-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

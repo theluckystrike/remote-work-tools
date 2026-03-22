@@ -337,6 +337,7 @@ Remote 1:1s won't feel the same as in-office conversations. They're structured, 
 
 Make your 1:1s non-negotiable. Your engineers will grow faster, stay longer, and feel invested in. That's the whole game.
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 ---

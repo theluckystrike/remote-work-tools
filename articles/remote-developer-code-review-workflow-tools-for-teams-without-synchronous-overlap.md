@@ -50,7 +50,7 @@ The right combination of platform features, process conventions, and automation 
 While GitHub dominates, evaluate based on your team's needs:
 
 **GitHub**: Best for most async teams
-- Robust PR system with threading and conversation resolution
+- Strong PR system with threading and conversation resolution
 - Native to open-source culture
 - Excellent for GitHub-centric workflows
 - Free tier includes unlimited public repos, unlimited collaborators

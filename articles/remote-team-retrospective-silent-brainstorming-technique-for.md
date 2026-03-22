@@ -168,9 +168,9 @@ Miro's free tier supports unlimited team members but caps the number of boards a
 
 1. Create a template board titled "Retro Template - Silent Brainstorm"
 2. Add sections using shapes:
-   - Header area with sprint number and dates
-   - Three columns: "Went Well" (green background), "Could Improve" (yellow), "Action Items" (pink)
-   - Timer widget showing deadline
+ - Header area with sprint number and dates
+ - Three columns: "Went Well" (green background), "Could Improve" (yellow), "Action Items" (pink)
+ - Timer widget showing deadline
 3. Add voting dots by creating small circles you can copy/paste; assign each team member a color
 4. Use the "frames" feature to zoom into different areas during the sync meeting
 

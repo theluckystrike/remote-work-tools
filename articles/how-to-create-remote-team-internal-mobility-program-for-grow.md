@@ -246,5 +246,4 @@ Start small if needed—a pilot program in one department can demonstrate value 
 - [Web Application Firewall Setup for Remote Team Internal](/remote-work-tools/web-application-firewall-setup-for-remote-team-internal-tool/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

@@ -271,7 +271,5 @@ Total investment: $50-75 for a professional-looking setup that takes 1 hour to i
 - [Cable Management Solutions for Home Office Setup](/cable-management-solutions-for-home-office-setup/)
 - [Cable Management Under Desk for Home Office With Standing](/cable-management-under-desk-for-home-office-with-standing-de/)
 
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

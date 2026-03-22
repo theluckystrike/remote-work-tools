@@ -259,6 +259,8 @@ Include a search-friendly summary in each decision so GitHub's search functional
 - [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
 - [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

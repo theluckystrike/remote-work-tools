@@ -215,7 +215,7 @@ At 5 people, one strong leader can maintain culture. At 20, you need distributed
 
 **Early signs of leadership readiness:**
 - Mentors other developers without being asked
-- Writes comprehensive PRs and code reviews
+- Writes PRs and code reviews
 - Proposes process improvements with solutions, not just complaints
 - Remains calm during outages and helps others stay focused
 

@@ -352,9 +352,9 @@ Every three months, schedule a separate 45-minute meeting:
 - **Goal:** Promotion to Senior Engineer
 - **Gaps:** Needs leadership experience, stronger systems thinking
 - **Actions:**
-  - Lead Q2 project (infrastructure redesign). Target: ship by June 30.
-  - Mentor junior engineer (30 min/week). Target: report ready for mid-level role by Sept.
-  - Take AWS Solutions Architect course ($300). Target: complete by May 31.
+ - Lead Q2 project (infrastructure redesign). Target: ship by June 30.
+ - Mentor junior engineer (30 min/week). Target: report ready for mid-level role by Sept.
+ - Take AWS Solutions Architect course ($300). Target: complete by May 31.
 - **Success metrics:** Complete all above + positive peer feedback in code reviews.
 - **Review:** June 15 (mid-check), Sept 30 (full assessment).
 
@@ -397,4 +397,5 @@ Treat them as non-negotiable. Prepare minimally, listen actively, and invest in 
 
 Start this week with a shared 1:1 agenda doc. Invite your report to contribute. Watch the conversation depth improve immediately.
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

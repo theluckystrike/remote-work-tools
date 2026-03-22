@@ -118,7 +118,7 @@ setInterval(loadDashboard, 60000); // Refresh every minute
 loadDashboard();
 ```
 
-This minimal example demonstrates the core pattern: aggregate data from your existing tools into a unified view.
+This minimal example demonstrates the core pattern: aggregate data from your existing tools into an unified view.
 
 ## Integrating Project Management Platforms
 

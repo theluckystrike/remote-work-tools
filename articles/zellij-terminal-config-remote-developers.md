@@ -298,5 +298,4 @@ Both handle SSH session persistence equally well. The day-to-day experience with
 - [Wezterm vs Alacritty Terminal Comparison: A Practical Guide](/remote-work-tools/wezterm-vs-alacritty-terminal-comparison/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

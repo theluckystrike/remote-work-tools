@@ -269,7 +269,7 @@ If your app uses database migrations, run them before the container swap:
         node src/migrate.js
 ```
 
-Migrations run in a one-off container using the same image before the service restarts.
+Migrations run in an one-off container using the same image before the service restarts.
 
 ## Caching Dependencies to Speed Up Builds
 
@@ -323,5 +323,4 @@ With these rules, `main` is always green. A broken test cannot reach production.
 - [Best Invoicing Workflow for Solo Developer with](/remote-work-tools/best-invoicing-workflow-for-solo-developer-with-international-clients/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

@@ -334,5 +334,4 @@ If your ISP connection is limited (< 25 Mbps), optimize:
 - [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

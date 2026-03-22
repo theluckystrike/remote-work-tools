@@ -347,5 +347,4 @@ Review the logs regularly. The admin console's Logs section shows every SSH sess
 - [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

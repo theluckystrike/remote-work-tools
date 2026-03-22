@@ -88,23 +88,23 @@ gantt
  axisFormat %m-%d
 
  section Discovery
- Requirements gathering:active, des1, 2026-03-16, 5d
- Stakeholder interviews: des2, after des1, 3d
+Requirements gathering:active, des1, 2026-03-16, 5d
+Stakeholder interviews: des2, after des1, 3d
 
  section Design
- Wireframes: des3, after des2, 7d
- Visual design: des4, after des3, 5d
- Design review:crit, des5, after des4, 2d
+Wireframes: des3, after des2, 7d
+Visual design: des4, after des3, 5d
+Design review:crit, des5, after des4, 2d
 
  section Development
- Frontend build: dev1, after des5, 10d
- Backend integration: dev2, after dev1, 7d
- API development: dev3, parallel with dev1, 8d
+Frontend build: dev1, after des5, 10d
+Backend integration: dev2, after dev1, 7d
+API development: dev3, parallel with dev1, 8d
 
  section Launch
- UAT: test1, after dev2, 5d
- Bug fixes:crit, test2, after test1, 3d
- Production deploy:milestone, 2026-05-20, 0d
+UAT: test1, after dev2, 5d
+Bug fixes:crit, test2, after test1, 3d
+Production deploy:milestone, 2026-05-20, 0d
 ```
 
 The `crit` keyword marks critical path items, while `milestone` highlights key deliverables. Clients see a visual representation that updates automatically when you modify the underlying text.
@@ -241,5 +241,7 @@ Set a calendar reminder to review the timeline every Monday. A timeline that has
 - [Shared Inbox Setup for Remote Agency Client Support Emails](/remote-work-tools/shared-inbox-setup-for-remote-agency-client-support-emails/)
 - [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

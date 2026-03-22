@@ -88,7 +88,7 @@ For precise color matching—a requirement for photo editing, video work, or des
  - Repeat for external monitor
 
 4. **Save profiles with descriptive names**
-   ```
+ ```
    MacBook-Pro-Retina-2026-03
    Dell-U2723QE-Custom-2026-03
    ```

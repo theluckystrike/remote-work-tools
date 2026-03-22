@@ -265,9 +265,9 @@ What happens after the program ends determines its real success:
 ### Path 1: Return Offer (Best Case)
 - Offer within 2 weeks of program end
 - Include:
-  - Salary based on market, not "intern rate"
-  - Signing bonus ($500-2,000)
-  - Start date flexibility (can start after school ends)
+ - Salary based on market, not "intern rate"
+ - Signing bonus ($500-2,000)
+ - Start date flexibility (can start after school ends)
 
 ### Path 2: Extended Internship
 - Some interns aren't ready for full-time yet

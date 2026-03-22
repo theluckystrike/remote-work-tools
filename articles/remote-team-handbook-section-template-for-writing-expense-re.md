@@ -250,7 +250,7 @@ Real expenses don't fit neatly into categories. Document these scenarios in your
 
 **Solution**: Define clear rules in your handbook:
 - Equipment under $500 is an expense (reimbursed immediately)
-- Equipment $500-$2,000 is capitalized but can be requested as a one-time reimbursement if the employee funds it upfront
+- Equipment $500-$2,000 is capitalized but can be requested as an one-time reimbursement if the employee funds it upfront
 - Equipment over $2,000 requires founder approval and corporate ownership
 
 ### Partial-Use Equipment

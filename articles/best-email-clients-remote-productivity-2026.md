@@ -215,5 +215,4 @@ Learning 10 shortcuts eliminates the mouse for 90% of email actions. Time from o
 - [Best Screen Sharing Tools for Presenting Designs to Clients](/remote-work-tools/screen-sharing-tool-for-presenting-designs-to-clients-remote/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

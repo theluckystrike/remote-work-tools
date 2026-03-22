@@ -59,9 +59,9 @@ Share this link with your pairing partner. They can join from:
 
 1. Sign in with GitHub or Microsoft account (required for session management)
 2. In VS Code settings, configure guest permissions:
-   - Command Palette → Live Share: Change Session Options
-   - Toggle "Allow Guests to Modify Files" (enabled by default)
-   - Toggle "Allow Guests to See Your Cursor" (enabled)
+ - Command Palette → Live Share: Change Session Options
+ - Toggle "Allow Guests to Modify Files" (enabled by default)
+ - Toggle "Allow Guests to See Your Cursor" (enabled)
 
 **Per-session configuration:**
 
@@ -387,4 +387,5 @@ tmux send-keys -t pair "npm test" Enter
 - [ ] Create PR with pairing notes ("Pair with Jane on feature X")
 - [ ] Close session gracefully (don't leave hanging connections)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

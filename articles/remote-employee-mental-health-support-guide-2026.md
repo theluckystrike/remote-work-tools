@@ -135,7 +135,7 @@ Implementing a mental health support system for a remote team requires a sequenc
 
 1. **Audit current team health** — Start with an anonymous survey using Typeform or Google Forms. Ask about hours worked per week, ability to disconnect, and comfort raising concerns with managers. Baseline data is essential for measuring progress.
 
-2. **Publish explicit norms** — Before adding any tools, publish a one-page communication charter covering response time expectations, meeting-free hours, and what "urgent" means on your team. This single document often reduces anxiety more than any paid tool.
+2. **Publish explicit norms** — Before adding any tools, publish an one-page communication charter covering response time expectations, meeting-free hours, and what "urgent" means on your team. This single document often reduces anxiety more than any paid tool.
 
 3. **Introduce an EAP or wellness benefit** — For teams above 20 people, add a formal Employee Assistance Program. Lyra Health and Spring Health both offer utilization reporting so HR can confirm the benefit is being used without knowing which individuals are using it.
 
@@ -238,7 +238,7 @@ Beyond tooling, these habits provide the foundation that no software can replace
 
 **Wellness programs that employees ignore:** EAPs typically see 3-6% utilization. If adoption is below this, the benefit is not being communicated, not trusted, or perceived as not confidential. Reiterate confidentiality guarantees explicitly and have leadership share that they use the benefit personally.
 
-**Manager training without follow-through:** A one-time training session on mental health warning signs degrades quickly. Include a quarterly 30-minute refresh in manager meetings, and add "team wellbeing" as a standing 1:1 agenda item between managers and their managers.
+**Manager training without follow-through:** An one-time training session on mental health warning signs degrades quickly. Include a quarterly 30-minute refresh in manager meetings, and add "team wellbeing" as a standing 1:1 agenda item between managers and their managers.
 
 **Focus time that meetings override:** Calendar protection tools only work if the team norm is that focus blocks are real commitments. Without explicit manager support for declining meetings during focus time, engineers will abandon focus blocks within weeks.
 

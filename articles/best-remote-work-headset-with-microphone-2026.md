@@ -294,5 +294,4 @@ Jabra and Poly offer best-in-class support for enterprise (dedicated account man
 - [Example: Calculating appropriate microphone gain](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

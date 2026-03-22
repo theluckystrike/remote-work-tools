@@ -79,7 +79,7 @@ jobs:
 
  - name: Check keyword presence
  run: |
- TITLE=$(head -20 ${{ github.event.pull_request.title }})
+TITLE=$(head -20 ${{ github.event.pull_request.title }})
  if! echo "$TITLE" | grep -q "remote content team collaboration"; then
  echo "Error: Target keyword not in title"
  exit 1
@@ -137,7 +137,7 @@ jobs:
  steps:
  - name: Determine reviewer by time zone
  run: |
- HOUR=$(date -u +%H)
+HOUR=$(date -u +%H)
  if [ $HOUR -ge 13 ] && [ $HOUR -lt 21 ]; then
  # US team is online
  echo "reviewer=@us-editor" >> $GITHUB_ENV
@@ -294,6 +294,8 @@ This automation pings reviewers automatically without requiring a project manage
 - [Remote Architecture BIM Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-bim-collaboration-tool-for-distributed-t/)
 - [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

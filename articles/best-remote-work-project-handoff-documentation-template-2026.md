@@ -93,7 +93,7 @@ Example: "This project manages daily ETL jobs that feed product analytics dashbo
 
 ```
 API -> ETL Workers -> PostgreSQL -> Dashboard -> Users
-       (5 parallel)     (replicated)
+ (5 parallel) (replicated)
 ```
 
 ## Access & Credentials
@@ -246,16 +246,11 @@ Recording covers:
 
 **Feedback:** How can we improve this handoff? [Anonymous feedback form](https://forms.company.com)
 
-
-
 ## Related Articles
 
 - [Coda vs Notion for Project Documentation](/coda-vs-notion-for-project-documentation/)
 - [.communication-charter.yml - add to your project repo](/how-to-create-remote-team-communication-charter-template-for/)
 - [Project Kickoff: [Project Name]](/how-to-create-remote-team-project-kickoff-documentation-temp/)
-
-
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}
 ```
@@ -447,15 +442,11 @@ Don't invest in massive binders. Invest in clarity: one short video that covers 
 
 Set up your first handoff doc today. Improve it after your first use. By the fifth handoff, you'll have a system that works.
 
-
-
 ## Related Articles
 
 - [Coda vs Notion for Project Documentation](/coda-vs-notion-for-project-documentation/)
 - [.communication-charter.yml - add to your project repo](/how-to-create-remote-team-communication-charter-template-for/)
 - [Project Kickoff: [Project Name]](/how-to-create-remote-team-project-kickoff-documentation-temp/)
 
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

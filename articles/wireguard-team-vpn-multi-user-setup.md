@@ -300,5 +300,4 @@ grep -A1 "# " /etc/wireguard/wg0.conf | grep -E "# |PublicKey"
 - [WireGuard vs OpenVPN Speed Difference on Mobile Data](https://theluckystrike.github.io/privacy-tools-guide/wireguard-vs-openvpn-speed-difference-on-mobile-data-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}
