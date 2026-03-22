@@ -9,7 +9,7 @@ permalink: /identity-and-access-management-platform-comparison-for-remot/
 categories: [guides]
 tags: [remote-work-tools, iam, security, remote-work, authentication, access-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

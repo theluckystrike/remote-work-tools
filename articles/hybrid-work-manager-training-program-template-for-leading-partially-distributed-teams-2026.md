@@ -9,7 +9,7 @@ permalink: /hybrid-work-manager-training-program-template-for-leading-partially-
 categories: [guides]
 tags: [remote-work-tools, hybrid-work, management-training, leadership, distributed-teams, team-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
