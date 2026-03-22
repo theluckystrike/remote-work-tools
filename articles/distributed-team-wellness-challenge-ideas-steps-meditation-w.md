@@ -9,7 +9,7 @@ permalink: /distributed-team-wellness-challenge-ideas-steps-meditation-water-tra
 categories: [guides]
 tags: [remote-work-tools, remote-work, wellness, distributed-teams, health, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

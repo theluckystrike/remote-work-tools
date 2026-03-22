@@ -9,7 +9,7 @@ permalink: /first-90-days-as-freelance-developer-guide/
 categories: [guides]
 tags: [remote-work-tools, freelance, career]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

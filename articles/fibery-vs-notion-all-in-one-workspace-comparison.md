@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /fibery-vs-notion-all-in-one-workspace-comparison/
 categories: [comparisons]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison]
