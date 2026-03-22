@@ -2,8 +2,8 @@
 title: "How to Set Up Remote Team Code Standards Enforcement (2026)"
 description: "Enforcing code standards across distributed teams: linters, formatters, pre-commit hooks, CI checks, EditorConfig, review guidelines."
 author: "Remote Work Tools Guide"
-date: "2026-03-22"
-updated: "2026-03-22"
+date: 2026-03-22
+updated: 2026-03-22
 reviewed: true
 score: 8
 voice-checked: true

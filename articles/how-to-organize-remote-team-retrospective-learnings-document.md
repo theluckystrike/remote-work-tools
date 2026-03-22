@@ -122,7 +122,7 @@ For teams where synchronous discussion isn't feasible at all, a fully async appr
 4. Share the draft summary for async comment and approval
 5. Publish the finalized retrospective to the archive
 
-This approach takes longer but captures input from every team member regardless of time zone, producing more comprehensive retrospectives than live sessions where quieter team members rarely contribute.
+This approach takes longer but captures input from every team member regardless of time zone, producing more complete retrospectives than live sessions where quieter team members rarely contribute.
 
 ## Organizing by Categories and Tags
 

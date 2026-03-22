@@ -198,7 +198,7 @@ Some participants seem to always have password problems. Systematic support help
 
 Meeting scheduling tools can simplify password sharing.
 
-**Outlook/Exchange:** Meeting details including password appear in calendar invites. Clicking the meeting link initiates joining. This is usually seamless for corporate users.
+**Outlook/Exchange:** Meeting details including password appear in calendar invites. Clicking the meeting link initiates joining. This is usually smooth for corporate users.
 
 **Google Calendar:** Similar integration works well. Meeting details are visible, links are clickable.
 

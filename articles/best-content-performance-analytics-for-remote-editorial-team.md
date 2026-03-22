@@ -202,7 +202,7 @@ Most remote teams should aim for Level 2-3. Moving beyond that requires data sci
 ## Tools Evaluation for Remote Editorial
 
 **Website Analytics Platforms**:
-- Google Analytics 4: Free, comprehensive, but requires setup effort
+- Google Analytics 4: Free, thorough, but requires setup effort
 - Plausible: Simpler than GA4, privacy-focused, paid option
 - Mixpanel: Event-based approach, useful for tracking custom user behaviors
 
@@ -213,7 +213,7 @@ Most remote teams should aim for Level 2-3. Moving beyond that requires data sci
 
 **Social Analytics**:
 - Buffer: Aggregates metrics from multiple social platforms
-- Sprout Social: More comprehensive, designed for larger teams
+- Sprout Social: More complete, designed for larger teams
 
 **Email Analytics**:
 - Mailchimp, Substack, ConvertKit: Built-in subscriber engagement tracking
@@ -341,7 +341,7 @@ Most teams don't need this level of sophistication. Start with basic metrics, ma
 | Ghost Analytics | Newsletter analytics | Included | Easy | Built for async teams |
 | Substack | Newsletter growth | Free | Easy | Native to platform |
 
-**Recommendation for most remote editorial teams**: Start with Google Analytics 4 (free, comprehensive) or Plausible (simple, privacy-focused). Only graduate to Segment/Mixpanel if your needs outgrow these tools.
+**Recommendation for most remote editorial teams**: Start with Google Analytics 4 (free, thorough) or Plausible (simple, privacy-focused). Only graduate to Segment/Mixpanel if your needs outgrow these tools.
 
 ## Training New Remote Editorial Team Members
 

@@ -185,7 +185,7 @@ The right container registry transforms how remote teams collaborate on containe
 
 For teams working across time zones, reliable image distribution through a well-configured registry eliminates a class of deployment problems entirely. Developers push images confidently knowing others can access them reliably. Ops teams deploy with confidence knowing images are tested and secure. This seemingly-infrastructure concern becomes a competitive advantage enabling faster deployment cycles.
 
-Choose your registry thoughtfully, configure it well, and your remote team's containerized workflow becomes seamless.
+Choose your registry thoughtfully, configure it well, and your remote team's containerized workflow becomes easy.
 
 
 

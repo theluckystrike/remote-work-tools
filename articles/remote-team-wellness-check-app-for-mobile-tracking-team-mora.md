@@ -134,7 +134,7 @@ Rolling out a wellness check program successfully requires planning beyond just 
 
 **Communicate the "why" clearly.** Teams often resist new initiatives if they don't understand the purpose. Explain that wellness checks exist to improve team health, not to monitor individual performance. Share how the data will be used and how findings will be actioned. Transparent communication about purpose dramatically improves trust and participation rates. Some teams include a note from leadership explaining their commitment to team wellbeing.
 
-**Start small and expand.** Rather than deploying comprehensive surveys to the entire organization immediately, pilot the program with one team or department. Work out processes and address concerns before scaling. A pilot lets you identify issues early—maybe your initial questions don't make sense, or maybe participants worry about anonymity. Fix these before wide rollout.
+**Start small and expand.** Rather than deploying detailed surveys to the entire organization immediately, pilot the program with one team or department. Work out processes and address concerns before scaling. A pilot lets you identify issues early—maybe your initial questions don't make sense, or maybe participants worry about anonymity. Fix these before wide rollout.
 
 **Train managers on data interpretation.** Managers need to understand that wellness data reflects aggregate trends, not individual sentiments. Provide training on what trends signal, how to address concerns, and how to avoid defensive or punitive responses. A manager who responds to declining morale by working people harder misses the point entirely. Training prevents this backfire scenario.
 

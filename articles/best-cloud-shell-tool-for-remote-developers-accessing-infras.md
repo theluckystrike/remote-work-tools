@@ -91,7 +91,7 @@ Several approaches to browser-based shell access exist. Understanding the differ
 
 **AWS CloudShell** requires only AWS credentials. No setup needed—open the AWS console and click CloudShell. You get a pre-configured terminal with AWS CLI, common development tools, and persistent storage. Free tier provides ample usage for most teams. Best for teams already deep in AWS infrastructure.
 
-**Google Cloud Shell** mirrors the AWS experience for Google Cloud users. Similar free tier, similar built-in tools, similar simplicity. Equally excellent if your infrastructure lives on Google Cloud. Switching between Google Cloud Shell and local terminal feels seamless for developers already using gcloud CLI.
+**Google Cloud Shell** mirrors the AWS experience for Google Cloud users. Similar free tier, similar built-in tools, similar simplicity. Equally excellent if your infrastructure lives on Google Cloud. Switching between Google Cloud Shell and local terminal feels easy for developers already using gcloud CLI.
 
 **Azure Cloud Shell** provides equivalent functionality for Azure deployments. Integrates with Azure identity management and includes both Bash and PowerShell options. Works particularly well for .NET shops or organizations standardized on Microsoft platforms.
 
