@@ -263,9 +263,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
-- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
 - [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
-- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
-- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
+- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
+- [Remote Team Vulnerability Disclosure Policy Template](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -439,10 +439,9 @@ Yes — and you should. Use a Prometheus client library (`prometheus-client` for
 ## Related Articles
 
 - [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Setting Up Grafana Dashboards for Remote Teams](/remote-work-tools/setting-up-grafana-dashboards-for-remote-teams/)
+- [Remote Work VoIP Setup for Home Offices](/remote-work-tools/remote-work-voip-setup-for-home-offices/)
 - [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
 - [How to Monitor Remote Employee Endpoint Health](/remote-work-tools/how-to-monitor-remote-employee-endpoint-health-without-invad/)
-
+- [Setting Up Grafana Dashboards for Remote Teams](/remote-work-tools/setting-up-grafana-dashboards-for-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

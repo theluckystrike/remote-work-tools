@@ -339,9 +339,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
+- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
 - [Chrome Security Headers Extension](/remote-work-tools/chrome-security-headers-extension/)
 - [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
-- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
 - [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

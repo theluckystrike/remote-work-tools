@@ -347,8 +347,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [How to Build Trust on Fully Remote Teams](/remote-work-tools/how-to-build-trust-on-fully-remote-teams/)
 - [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
-- [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
+- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 - [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
-- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

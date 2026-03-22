@@ -303,10 +303,9 @@ curl -s \
 
 - [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
 - [Best Tools for Remote Team API Mocking](/remote-work-tools/best-tools-remote-team-api-mocking/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
 - [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
-- [Best Kanban Board Tools for Remote Developers](/remote-work-tools/best-kanban-board-tools-for-remote-developers/)
-
+- [Best Remote Work Tools for Java Teams Migrating from](/remote-work-tools/best-remote-work-tools-for-java-teams-migrating-from-monolit/)
+- [Best Tools for Remote Team API Documentation](/remote-work-tools/best-tools-remote-team-api-documentation/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

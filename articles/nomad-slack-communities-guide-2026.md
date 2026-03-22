@@ -307,9 +307,9 @@ The compound value arrives years into membership, not immediately. Treat each co
 
 - [Slack Communities for Freelance Remote Developers](/remote-work-tools/slack-communities-for-freelance-remote-developers/)
 - [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 - [How to Network as a Digital Nomad Developer](/remote-work-tools/how-to-network-as-a-digital-nomad-developer/)
 - [Nomad Community Best Practices 2026: A Developer Guide](/remote-work-tools/nomad-community-best-practices-2026/)
-- [Slack List View Sorting Not Saving Preference Fix 2026](/remote-work-tools/slack-list-view-sorting-not-saving-preference-fix-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

@@ -452,6 +452,5 @@ Yes. Clients generally accept this when you're upfront about it. What they don't
 - [Best CRM for Solo Consultant Managing 30 Active Clients](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
 - [Project Management for Husband and Wife Freelance](/remote-work-tools/project-management-for-husband-and-wife-freelance-developmen/)
 - [Best Invoicing Workflow for Solo Developer](/remote-work-tools/best-invoicing-workflow-for-solo-developer-with-international-clients/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -310,6 +310,6 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Async Mentorship Program Structure for Remote Junior Develop](/remote-work-tools/async-mentorship-program-structure-for-remote-junior-develop/)
 - [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
 - [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
-- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

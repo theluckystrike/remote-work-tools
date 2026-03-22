@@ -375,8 +375,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [How to Run Remote Lightning Talks Effectively](/remote-work-tools/how-to-run-remote-lightning-talks-effectively/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -439,8 +439,7 @@ Document which approach your team uses. Engineers creating new endpoints need to
 - [How to Set Up Remote Team Code Standards Enforcement (2026)](/remote-work-tools/how-to-set-up-remote-team-code-standards-enforcement-2026/)
 - [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
 - [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
-- [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
-
+- [Remote Team Code Review Checklist Template](/remote-work-tools/remote-team-code-review-checklist-template/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -425,12 +425,11 @@ The goal is to know, not guess, how long recovery takes. Teams that have done th
 
 ## Related Articles
 
-- [Manage Dotfiles Across Remote Machines](/remote-work-tools/manage-dotfiles-across-remote-machines/)
-- [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
 - [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
-- [Three-Two Hybrid Work Model Implementation Guide](/remote-work-tools/three-two-hybrid-work-model-implementation-guide/)
+- [Manage Dotfiles Across Remote Machines](/remote-work-tools/manage-dotfiles-across-remote-machines/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
+- [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
 - [Git Branching Strategy for Remote Teams](/remote-work-tools/git-branching-strategy-remote-teams/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

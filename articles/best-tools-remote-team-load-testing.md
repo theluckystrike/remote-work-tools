@@ -366,11 +366,10 @@ For most remote teams: use k6 in CI for automated regression tests, Gatling for 
 ## Related Articles
 
 - [Best Tools for Remote QA Testing Workflows](/remote-work-tools/best-tools-remote-qa-testing-workflows/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 - [How to Track Remote Team Use Rate Without Invasive](/remote-work-tools/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
 - [Remote Team Shadow IT Discovery and Management Guide for IT](/remote-work-tools/remote-team-shadow-it-discovery-and-management-guide-for-it-/)
-
+- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

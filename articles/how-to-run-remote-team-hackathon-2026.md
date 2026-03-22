@@ -417,8 +417,8 @@ Rotating themes keep it fresh.
 - [How to Run Remote Developer Hackathon for Distributed](/remote-work-tools/how-to-run-remote-developer-hackathon-for-distributed-engine/)
 - [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 - [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

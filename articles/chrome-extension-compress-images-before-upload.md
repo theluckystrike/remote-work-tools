@@ -326,8 +326,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
 - [Upload large file with chunked upload](/remote-work-tools/best-file-sharing-solution-for-remote-agency-large-design-fi/)
+- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
 - [Chrome Extension OneNote Clipper Setup: Complete Guide](/remote-work-tools/chrome-extension-onenote-clipper-setup/)
 - [Best Browser Extensions for Developer Productivity](/remote-work-tools/best-browser-extensions-for-developer-productivity/)

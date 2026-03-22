@@ -87,7 +87,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
 - [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
 - [Best Open Source Screen Recording Tools for Remote Team](/remote-work-tools/best-open-source-screen-recording-tool-for-remote-team-async/)
+- [How to Set Up a Home Office Recording Studio](/remote-work-tools/how-to-set-up-home-office-recording-studio/)
 - [Best Session Recording Tool for Remote Team Privileged](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
-- [How to Record Client Demo Videos Asynchronously for Remote](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

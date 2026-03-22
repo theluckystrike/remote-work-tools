@@ -366,8 +366,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
 - [How to Run a Remote Team Demo Day Showcasing Cross-Team](/remote-work-tools/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
+- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
 - [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 - [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
 - [How to Build Remote Team Culture Without Mandatory Fun](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)

@@ -261,7 +261,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Tools for Remote QA Testing Workflows](/remote-work-tools/best-tools-remote-qa-testing-workflows/)
 - [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 - [Secure Remote Desktop Solution Comparison for Distributed](/remote-work-tools/secure-remote-desktop-solution-comparison-for-distributed-te/)
-- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [Best Tools for Remote Solidity Teams Coordinating Smart](/remote-work-tools/best-tools-for-remote-solidity-teams-coordinating-smart-cont/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

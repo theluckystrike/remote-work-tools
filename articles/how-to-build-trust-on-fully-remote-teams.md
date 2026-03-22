@@ -262,6 +262,6 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
 - [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
 - [How to Build Psychological Safety on Fully Remote](/remote-work-tools/how-to-build-psychological-safety-on-fully-remote-engineerin/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

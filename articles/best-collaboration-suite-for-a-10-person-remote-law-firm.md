@@ -267,6 +267,6 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
 - [Best Remote Legal Team Document Collaboration Tool](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
 - [Best All-in-One Tool for a 5 Person Remote Nonprofit](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
-- [Remote Developer Documentation Collaboration Tools for Maint](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
 - [CodePen vs CodeSandbox for Remote Collaboration](/remote-work-tools/codepen-vs-codesandbox-for-remote-collaboration/)
+- [Remote Architecture BIM Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-bim-collaboration-tool-for-distributed-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

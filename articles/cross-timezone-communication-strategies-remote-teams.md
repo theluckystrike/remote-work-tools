@@ -363,6 +363,6 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
 - [Remote Team Cross Timezone Collaboration Protocol When Scali](/remote-work-tools/remote-team-cross-timezone-collaboration-protocol-when-scali/)
 - [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
-- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
+- [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

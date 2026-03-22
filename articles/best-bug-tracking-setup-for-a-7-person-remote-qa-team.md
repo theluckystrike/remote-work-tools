@@ -388,7 +388,7 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 - [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
 - [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 - [Remote Team Environment Provisioning Tool for Spinning Up](/remote-work-tools/remote-team-environment-provisioning-tool-for-spinning-up-de/)
-- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

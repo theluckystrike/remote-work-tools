@@ -331,12 +331,11 @@ For offsite backup, Restic against a Backblaze B2 bucket costs roughly $0.006/GB
 
 ## Related Articles
 
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
 - [Remote Work VoIP Setup for Home Offices](/remote-work-tools/remote-work-voip-setup-for-home-offices/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
 - [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 - [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
 - [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

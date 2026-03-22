@@ -396,6 +396,6 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Create Remote Team Skip Level Meeting Program](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
 - [How to Run Effective Remote Team Skip Level Meetings 2026](/remote-work-tools/how-to-run-effective-remote-team-skip-level-meetings-2026/)
 - [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
-- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

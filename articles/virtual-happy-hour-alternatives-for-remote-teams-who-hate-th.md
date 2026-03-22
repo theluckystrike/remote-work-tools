@@ -361,6 +361,6 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Virtual Happy Hour Alternative for Remote Teams Who](/remote-work-tools/best-virtual-happy-hour-alternative-for-remote-teams-who-hat/)
 - [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
 - [How to Create Async Standup Templates in Slack](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 - [Slack Workflow Builder Automation Stopped Running Fix 2026](/remote-work-tools/slack-workflow-builder-automation-stopped-running-fix-2026/)
-- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

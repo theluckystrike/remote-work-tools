@@ -333,9 +333,9 @@ Switching costs are real. Migration typically takes a sprint's worth of engineer
 
 ## Related Articles
 
-- [Project Management Tools for Freelancers 2026](/remote-work-tools/project-management-tools-for-freelancers-2026/)
-- [Best Project Tracking Tool for Remote Hardware Engineering](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
-- [Best Kanban Board Tools for Remote Developers](/remote-work-tools/best-kanban-board-tools-for-remote-developers/)
-- [Best Remote Work Project Management Tools Under 10](/remote-work-tools/best-remote-work-project-management-tools-under-10-per-user-2026/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)
+- [.GitHub/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
+- [Best Project Management Tool for 3 Person Startup 2026](/remote-work-tools/best-project-management-tool-for-3-person-startup-2026/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -299,7 +299,7 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Best Collaborative Coding Tools for Remote Teams](/remote-work-tools/best-collaborative-coding-tools-for-remote-teams/)
 - [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
 - [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
 - [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

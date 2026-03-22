@@ -502,7 +502,6 @@ Configure `default_delete_branch_after_merge: true` to keep the branch list clea
 - [How to Set Up Woodpecker CI for Self-Hosted](/remote-work-tools/how-to-set-up-woodpecker-ci-for-self-hosted/)
 - [Setting Up Keycloak for Team SSO](/remote-work-tools/setting-up-keycloak-for-team-sso/)
 - [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

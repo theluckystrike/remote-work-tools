@@ -318,9 +318,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Best Tools for Remote Team Capacity Planning](/remote-work-tools/best-tools-remote-team-capacity-planning-2026/)
 - [How to Run Sprints with a Remote Team of 4 Engineers](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
-- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
 - [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
 - [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

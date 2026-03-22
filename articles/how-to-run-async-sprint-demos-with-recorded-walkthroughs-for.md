@@ -307,9 +307,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
-- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
 - [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
+- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
 - [Async Sales Demo Recordings for Remote Enterprise Sales Team](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
-- [How to Do Async Code Pairing with Recorded Screen Share](/remote-work-tools/how-to-do-async-code-pairing-with-recorded-screen-share-sessions/)
+- [Best Async Video Messaging Tools for Distributed Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

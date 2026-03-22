@@ -262,6 +262,6 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
 - [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
 - [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
-- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -616,5 +616,4 @@ This approach keeps dependency management from becoming a bottleneck while maint
 - [How to Create Asynchronous Client Update Format for Remote P](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
 - [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
 - [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
-
 {% endraw %}

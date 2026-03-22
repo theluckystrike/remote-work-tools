@@ -254,7 +254,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
 - [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
 - [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
+- [How to Run Async Book Clubs for Distributed Engineering](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 - [Best Async Video Messaging Tools for Distributed Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
-- [Async Capacity Planning Process for Remote: Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

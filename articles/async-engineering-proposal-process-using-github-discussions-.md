@@ -317,7 +317,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 - [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
+- [How to Run Async Book Clubs for Distributed Engineering](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Best Project Management Tools with GitHub Integration](/remote-work-tools/best-project-management-tools-with-github-integration/)
 - [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

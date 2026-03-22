@@ -296,10 +296,9 @@ Yes, and it is especially valuable for external parties. Contractors often recei
 ## Related Articles
 
 - [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
+- [Just-in-Time Database Access for Remote Teams](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 - [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
 - [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
-- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 - [Best Privileged Access Management Tool for Remote IT Admins](/remote-work-tools/best-privileged-access-management-tool-for-remote-it-admins-/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

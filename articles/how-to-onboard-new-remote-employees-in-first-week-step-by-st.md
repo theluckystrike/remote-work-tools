@@ -261,8 +261,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
 - [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
-- [How to Run Remote Developer Hackathon for Distributed](/remote-work-tools/how-to-run-remote-developer-hackathon-for-distributed-engine/)
 - [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
 - [Remote Team Environment Provisioning Tool for Spinning Up](/remote-work-tools/remote-team-environment-provisioning-tool-for-spinning-up-de/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -281,9 +281,9 @@ Trying to change everything at once. Pick one or two practices, implement them w
 ## Related Articles
 
 - [Slack Workspace Structure for a 50 Person Remote](/remote-work-tools/slack-workspace-structure-for-a-50-person-remote-engineering/)
-- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 - [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
 - [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 - [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

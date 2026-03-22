@@ -241,9 +241,9 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 ## Related Articles
 
 - [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
-- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
 - [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 - [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
 - [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Remote Team Communication SLA Template](/remote-work-tools/remote-team-communication-sla-template/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

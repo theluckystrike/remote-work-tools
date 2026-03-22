@@ -523,7 +523,6 @@ Does this change require documentation updates?
 - [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
 - [Best Knowledge Base Tool for Remote Team That Works Offline](/remote-work-tools/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
 - [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

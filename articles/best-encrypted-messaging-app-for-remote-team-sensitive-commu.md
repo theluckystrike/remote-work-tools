@@ -358,7 +358,7 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 - [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
 - [Remote Team Wellness Check App for Mobile: Tracking Team](/remote-work-tools/remote-team-wellness-check-app-for-mobile-tracking-team-mora/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

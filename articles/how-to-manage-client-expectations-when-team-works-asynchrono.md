@@ -265,7 +265,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
 - [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
-- [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 - [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
 - [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

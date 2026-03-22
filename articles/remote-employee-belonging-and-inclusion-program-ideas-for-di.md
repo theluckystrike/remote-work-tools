@@ -304,7 +304,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Remote Team Knowledge Base Contribution Incentive Program](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
 - [How to Create Remote Team Internal Mobility Program for Grow](/remote-work-tools/how-to-create-remote-team-internal-mobility-program-for-grow/)
 - [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [Remote Team Referral Program Template for Distributed](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
 - [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
-- [How to Set Up Remote Team Mentoring Program 2026](/remote-work-tools/how-to-set-up-remote-team-mentoring-program-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

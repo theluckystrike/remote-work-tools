@@ -294,7 +294,6 @@ A well-implemented wiki reduces agent onboarding time by 40% and improves first-
 - [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
 - [Front vs HelpScout for Remote Customer Support](/remote-work-tools/front-vs-helpscout-for-remote-customer-support/)
 - [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

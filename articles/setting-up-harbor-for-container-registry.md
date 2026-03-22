@@ -500,9 +500,8 @@ Key metrics to alert on: `harbor_project_artifact_total` (artifact count growth)
 - [Best Container Registry Tool for Remote Teams Sharing](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
 - [Setting Up Keycloak for Team SSO](/remote-work-tools/setting-up-keycloak-for-team-sso/)
 - [How to Set Up Verdaccio Private npm Registry](/remote-work-tools/how-to-set-up-verdaccio-private-npm-registry/)
-- [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
 - [Setting Up Grafana Dashboards for Remote Teams](/remote-work-tools/setting-up-grafana-dashboards-for-remote-teams/)
-
+- [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

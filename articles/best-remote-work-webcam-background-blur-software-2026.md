@@ -281,8 +281,8 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Best Virtual Background for Professional Video Calls 2026](/remote-work-tools/best-virtual-background-for-professional-video-calls-2026/)
 - [Best Tools for Remote React Native Teams Coordinating iOS](/remote-work-tools/best-tools-for-remote-react-native-teams-coordinating-ios-an/)
 - [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
+- [Switching from Zoom to Around for Lightweight Remote Team](/remote-work-tools/switching-from-zoom-to-around-for-lightweight-remote-team-vi/)
 - [Best External Webcams for Remote Work in 2026](/remote-work-tools/articles/best-remote-work-external-webcam-2026/)
-- [Best Proposal Software for Remote Web Development: 2026](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

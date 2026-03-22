@@ -251,8 +251,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
 - [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [Remote Team Referral Program Template for Distributed](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
 - [Remote Employee Belonging and Inclusion Program Ideas](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
-- [Remote Team Manager Peer Feedback Exchange Template](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
-- [Hybrid Work Culture Building Strategies Guide](/remote-work-tools/hybrid-work-culture-building-strategies-guide/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
