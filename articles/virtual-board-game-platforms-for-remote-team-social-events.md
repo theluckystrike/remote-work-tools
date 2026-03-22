@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /virtual-board-game-platforms-for-remote-team-social-events/
 categories: [guides]
 reviewed: true
-score: 8
+score: 7
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]---

@@ -9,7 +9,7 @@ permalink: /vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/
 categories: [guides]
 tags: [remote-work-tools, vpn, zero-trust, security, remote-work, networking, comparison]
 reviewed: true
-score: 8
+score: 7
 intent-checked: true
 voice-checked: true---
 
