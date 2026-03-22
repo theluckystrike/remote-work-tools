@@ -409,6 +409,97 @@ Scheduled job to catch manual changes:
         # Exit code 2 = changes detected (drift)
 ```
 
+---
+
+## Importing Existing DNS Records
+
+Teams migrating from manual DNS management need to import existing records into Terraform state before managing them declaratively. Importing without adding the resource to config first causes errors.
+
+Step 1: Add the resource to your Terraform config:
+
+```hcl
+# Add to main.tf before importing
+resource "cloudflare_record" "existing_api" {
+  zone_id = data.cloudflare_zone.this.id
+  name    = "api"
+  type    = "A"
+  value   = "203.0.113.20"
+  ttl     = 300
+  proxied = true
+}
+```
+
+Step 2: Find the record ID from the Cloudflare API:
+
+```bash
+curl -s -X GET "https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/dns_records" \
+  -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+  | jq '.result[] | {id: .id, name: .name, type: .type}'
+```
+
+Step 3: Import:
+
+```bash
+terraform import cloudflare_record.existing_api "${ZONE_ID}/${RECORD_ID}"
+```
+
+Step 4: Run `terraform plan` to confirm no changes are planned. If the plan shows changes, update the config values to match the existing record exactly.
+
+For bulk imports across hundreds of records, use the [cf-terraforming](https://github.com/cloudflare/cf-terraforming) tool from Cloudflare:
+
+```bash
+pip install cf-terraforming  # or: brew install cloudflare/cloudflare/cf-terraforming
+
+# Generate Terraform HCL from existing zone
+cf-terraforming generate \
+  --email your@email.com \
+  --key your-api-key \
+  --zone-id your-zone-id \
+  --resource-type cloudflare_record
+
+# Generate import commands
+cf-terraforming import \
+  --email your@email.com \
+  --key your-api-key \
+  --zone-id your-zone-id \
+  --resource-type cloudflare_record
+```
+
+---
+
+## Troubleshooting Common DNS Terraform Issues
+
+**Plan shows delete + recreate instead of update:** Some DNS record attributes like `name` and `type` are immutable. Terraform must destroy and recreate the record. Ensure the `lifecycle { create_before_destroy = true }` block is set on the resource so the new record is created before the old one is deleted (avoiding a window with no record).
+
+**State lock error (`Error acquiring the state lock`):** Another `terraform apply` is running, or a previous run crashed without releasing the lock. Check DynamoDB for a stuck lock entry:
+
+```bash
+aws dynamodb scan \
+  --table-name terraform-state-lock \
+  --region us-east-1 \
+  | jq '.Items'
+
+# Force-unlock only if you are certain no other apply is running
+terraform force-unlock LOCK-ID
+```
+
+**`InvalidChangeBatch` from Route53:** Route53 validates the entire change batch atomically. A single invalid record fails the whole batch. Run `terraform plan -target=aws_route53_record.specific` to narrow down which record is causing the validation failure.
+
+**Cloudflare proxied vs unproxied mismatch:** When `proxied = true`, Cloudflare ignores the TTL and forces it to 1. Terraform may show perpetual diffs if you set a non-1 TTL for a proxied record. Fix: set `ttl = 1` for all proxied records in your config.
+
+**DNS propagation verification:**
+
+```bash
+# Check record from multiple resolvers
+for resolver in 1.1.1.1 8.8.8.8 9.9.9.9; do
+  echo -n "Resolver $resolver: "
+  dig @$resolver api.example.com A +short
+done
+
+# Watch for propagation
+watch -n30 'dig @8.8.8.8 api.example.com A +short'
+```
+
 ## Related Reading
 
 - [Terraform Remote Team Infrastructure Guide](/remote-work-tools/terraform-remote-team-infrastructure-guide/)
