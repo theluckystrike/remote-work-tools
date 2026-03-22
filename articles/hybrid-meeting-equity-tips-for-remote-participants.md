@@ -9,7 +9,7 @@ permalink: /hybrid-meeting-equity-tips-for-remote-participants/
 categories: [guides]
 tags: [remote-work-tools, hybrid-work, remote-work, meeting-equity, video-conferencing]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
