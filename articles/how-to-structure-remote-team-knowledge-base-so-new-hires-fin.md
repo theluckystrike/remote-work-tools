@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-structure-remote-team-knowledge-base-so-new-hires-find-answers-fast/
 reviewed: true
 score: 7
+voice-checked: true
 categories: [guides]
 tags: [remote-work-tools, remote-work]
 ---
