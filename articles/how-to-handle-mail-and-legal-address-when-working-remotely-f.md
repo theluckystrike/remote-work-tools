@@ -9,7 +9,7 @@ permalink: /how-to-handle-mail-and-legal-address-when-working-remotely-f/
 categories: [guides]
 tags: [remote-work-tools, digital-nomad, remote-work, mail-forwarding, legal-address, banking, tax-residency]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

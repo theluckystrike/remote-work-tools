@@ -9,7 +9,7 @@ permalink: /how-to-get-paid-internationally-as-digital-nomad/
 categories: [guides]
 tags: [remote-work-tools, digital-nomad, remote-work, payments, finance, international]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

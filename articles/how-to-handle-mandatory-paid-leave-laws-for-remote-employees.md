@@ -9,7 +9,7 @@ permalink: /how-to-handle-mandatory-paid-leave-laws-for-remote-employees/
 categories: [guides]
 tags: [remote-work-tools, paid-leave, remote-work, compliance, hr, payroll, us-employment-law, state-laws]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /how-to-handle-confidential-client-data-on-remote-team-device/
 categories: [guides]
 tags: [remote-work-tools, security, remote-work, data-protection]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

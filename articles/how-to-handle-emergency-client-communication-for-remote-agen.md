@@ -9,7 +9,7 @@ permalink: /how-to-handle-emergency-client-communication-for-remote-agen/
 categories: [guides]
 tags: [remote-work-tools, client-communication, emergency, remote-work, agency, crisis-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
