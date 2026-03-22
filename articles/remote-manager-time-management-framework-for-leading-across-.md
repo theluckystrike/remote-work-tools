@@ -13,7 +13,6 @@ score: 9
 intent-checked: true
 voice-checked: true
 ---
-<<<<<<< HEAD
 
 
 
@@ -406,8 +405,6 @@ voice-checked: true
 
 
 
-=======
->>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
 
 
 {% raw %}

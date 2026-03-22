@@ -13,10 +13,6 @@ intent-checked: true
 voice-checked: true
 score: 7
 ---
-<<<<<<< HEAD
-=======
-
->>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
 {% raw %}
 
 As organizations prepare for potential return-to-office policy changes in 2026, gathering employee sentiment before implementing changes becomes critical. A well-designed employee survey helps HR teams and leadership understand concerns, preferences, and practical barriers before rolling out new workplace policies. This guide provides a practical survey template with code examples for developers building internal tooling.

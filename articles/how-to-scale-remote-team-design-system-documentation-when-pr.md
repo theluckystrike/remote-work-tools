@@ -872,17 +872,9 @@ Storybook can be set up productively in a few hours. Style Dictionary takes a da
 
 ## Related Articles
 
-<<<<<<< HEAD
 - [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
 - [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
 - [How to Scale Remote Team Code Review Process When Engineering Team Grows](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
 
-=======
-- [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
-- [Remote Developer Documentation Collaboration Tools for Maint](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
-- [Best Tools for Remote Design System Management](/remote-work-tools/best-tools-remote-design-system-management/)
-- [Best Tools for Remote Team Design System Documentation 2026](/remote-work-tools/best-tools-for-remote-team-design-system-documentation-2026/)
-- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
->>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
