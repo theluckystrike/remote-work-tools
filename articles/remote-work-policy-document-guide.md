@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "How to Create a Remote Work Policy Document"
-description: "Write a remote work policy document that covers eligibility, availability expectations, equipment, security, and expense reimbursement. Includes a complete"
-date: 2026-03-21
-author: theluckystrike
-permalink: /remote-work-policy-document-guide/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 

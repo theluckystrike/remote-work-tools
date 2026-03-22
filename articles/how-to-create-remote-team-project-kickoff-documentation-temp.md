@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Project Kickoff: [Project Name]"
-description: "A practical guide for developers and power users building remote project kickoff documentation. Includes templates, stakeholder mapping, and timeline"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-create-remote-team-project-kickoff-documentation-temp/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 Starting a remote project without proper kickoff documentation creates immediate friction. When team members across different time zones cannot quickly understand project goals, stakeholder responsibilities, or milestone timelines, you lose momentum before you begin. A well-structured project kickoff document serves as the single source of truth that keeps distributed teams aligned.

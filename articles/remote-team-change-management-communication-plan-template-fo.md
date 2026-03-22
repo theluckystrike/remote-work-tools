@@ -43,13 +43,13 @@ This template covers organizational changes with significant impact: restructuri
 **Actions**:
 
 1. **Manager briefing document** (sent 7-10 days before announcement): A written document, not a meeting, that gives managers complete information about the change. The document should cover:
-   - What is changing and why
-   - What is not changing (often as important as what is)
-   - Timeline and implementation plan
-   - Known uncertainties and how they will be resolved
-   - Frequently anticipated questions and the honest answers
-   - What to say and what not to say before the official announcement
-   - Who to escalate questions to when managers do not know the answer
+ - What is changing and why
+ - What is not changing (often as important as what is)
+ - Timeline and implementation plan
+ - Known uncertainties and how they will be resolved
+ - Frequently anticipated questions and the honest answers
+ - What to say and what not to say before the official announcement
+ - Who to escalate questions to when managers do not know the answer
 
 2. **Manager Q&A session** (5-7 days before announcement): A live call with all people managers, explicitly focused on questions rather than re-presenting information. Allow managers to push back, express concerns, and voice the likely concerns of their teams. Managers who feel heard during this phase communicate the change better to their teams.
 
@@ -138,7 +138,7 @@ who do not want to ask questions in a group setting.]
 
 Record the call. Publish the recording and a written summary within 24 hours. Include a transcript if your video platform generates one — written text is searchable and faster to navigate than video.
 
-3. **Manager 1:1 with each direct report** (within 48 hours of announcement): This is the highest-leverage communication act in the entire plan. A direct manager having a direct conversation with each person on their team — before the broader discussion has shifted to logistics and implementation — gives individuals a private context to process the change.
+3. **Manager 1:1 with each direct report** (within 48 hours of announcement): This is the highest-uses communication act in the entire plan. A direct manager having a direct conversation with each person on their team — before the broader discussion has shifted to logistics and implementation — gives individuals a private context to process the change.
 
 This conversation is not about convincing people the change is good. It is about understanding where each person is and making sure they feel heard.
 

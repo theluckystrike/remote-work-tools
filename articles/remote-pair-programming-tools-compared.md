@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison, remote-work]
 ---
----
-layout: default
-title: "Remote Pair Programming Tools Compared 2026"
-description: "Compare remote pair programming tools in 2026: VS Code Live Share, Tuple, Pop, and tmux sharing. Latency, features, and which setup fits your team's workflow."
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: theluckystrike
-permalink: /remote-pair-programming-tools-compared/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, comparison, remote-work]
----
 
 {% raw %}
 

@@ -110,64 +110,64 @@ Properties:
 **Week 1 (Kickoff)**:
 
 1. **Monday**: Create project "Mobile App Redesign" in Projects database
-   - Goal: "Modernize mobile UX, improve engagement 20%"
-   - Owner: Product Manager Sarah
-   - Timeline: Mar 17 → Apr 28 (6 weeks)
-   - Teams: Engineering, Design, Product
+ - Goal: "Modernize mobile UX, improve engagement 20%"
+ - Owner: Product Manager Sarah
+ - Timeline: Mar 17 → Apr 28 (6 weeks)
+ - Teams: Engineering, Design, Product
 
 2. **Tuesday**: Create milestone "Kickoff Meeting"
-   - 1-hour meeting with all leads (async summary if needed)
-   - Outcome: Confirm goal, identify design risks, agree on weekly sync time
-   - Next milestone: Design Spec Ready (April 3)
+ - 1-hour meeting with all leads (async summary if needed)
+ - Outcome: Confirm goal, identify design risks, agree on weekly sync time
+ - Next milestone: Design Spec Ready (April 3)
 
 3. **Wednesday**: Kickoff meeting happens
-   - Design lead explains: "Wireframes ready by March 26, final mockups by April 2"
-   - Engineering lead confirms: "Can ship features by April 21 with team of 4"
-   - Marketing lead: "Need 3-week lead time for launch comms"
-   - Product: "Scope locked, any changes need sign-off"
+ - Design lead explains: "Wireframes ready by March 26, final mockups by April 2"
+ - Engineering lead confirms: "Can ship features by April 21 with team of 4"
+ - Marketing lead: "Need 3-week lead time for launch comms"
+ - Product: "Scope locked, any changes need sign-off"
 
 **Week 2-3 (Design Phase)**:
 
 1. **Nightly**: Design updates Notion "Design Status" row
-   - "Completed low-fidelity sketches, team feedback Wed. Moving to high-fidelity."
-   - Engineering can read this async (no meeting needed)
+ - "Completed low-fidelity sketches, team feedback Wed. Moving to high-fidelity."
+ - Engineering can read this async (no meeting needed)
 
 2. **Friday**: Weekly stakeholder status synced
-   - Engineering reads design progress, asks clarifying questions in Notion comments
-   - Marketing scans for scope changes (none this week), starts thinking about launch story
+ - Engineering reads design progress, asks clarifying questions in Notion comments
+ - Marketing scans for scope changes (none this week), starts thinking about launch story
 
 **Week 4 (Handoff to Engineering)**:
 
 1. **Monday**: Design marks "Design Done" milestone as complete
-   - Notion shows: Design phase 🟢 Complete, Engineering phase 🟠 In Progress
+ - Notion shows: Design phase 🟢 Complete, Engineering phase 🟠 In Progress
 
 2. **Tuesday**: Engineering starts implementation
-   - Creates tickets from design specs (Notion links to GitHub issues)
-   - Updates "Engineering Status" row: "Starting authentication flow, estimated 3 days"
+ - Creates tickets from design specs (Notion links to GitHub issues)
+ - Updates "Engineering Status" row: "Starting authentication flow, estimated 3 days"
 
 3. **Wednesday**: Marketing asks in Notion comments: "Can we do early access beta with 50 users?"
-   - Product responds: "Yes, week of April 14"
-   - Marketing updates launch plan accordingly
+ - Product responds: "Yes, week of April 14"
+ - Marketing updates launch plan accordingly
 
 **Week 5-6 (Testing + Launch Prep)**:
 
 1. **Ongoing**: QA tests features as engineering completes them
-   - Bugs logged in Notion with "Assigned To Engineer" and "Fix By Date"
+ - Bugs logged in Notion with "Assigned To Engineer" and "Fix By Date"
 
 2. **Friday (End of Week 5)**:
-   - Engineering: 95% complete, 2 bugs under investigation
-   - Design: Standing by for bug fixes
-   - QA: Regression testing started
-   - Marketing: Launch copy drafted, needs final approval
-   - Status: 🟡 At Risk (2 bugs might delay launch)
+ - Engineering: 95% complete, 2 bugs under investigation
+ - Design: Standing by for bug fixes
+ - QA: Regression testing started
+ - Marketing: Launch copy drafted, needs final approval
+ - Status: 🟡 At Risk (2 bugs might delay launch)
 
 **Week 7 (Launch)**:
 
 1. **Monday-Wed**: Final QA, bug fixes, launch prep
 2. **Thursday**: Full-team launch readiness check-in
-   - Engineering ready to deploy? Yes
-   - Marketing ready to announce? Yes
-   - Ops ready to monitor? Yes
+ - Engineering ready to deploy? Yes
+ - Marketing ready to announce? Yes
+ - Ops ready to monitor? Yes
 3. **Friday 9 AM**: Deploy to production
 4. **Friday 10 AM**: Marketing announce
 5. **Ongoing**: Monitor and respond to issues
@@ -321,13 +321,13 @@ For 10-15 person cross-functional team, minimize sync meetings:
 
 After launch:
 1. **Hold retrospective** (60 min, Miro workshop format or Notion retro)
-   - What worked? (coordination? Tools? Communication?)
-   - What didn't work? (bottlenecks? Late discovery?)
-   - What will we do differently next time?
+ - What worked? (coordination? Tools? Communication?)
+ - What didn't work? (bottlenecks? Late discovery?)
+ - What will we do differently next time?
 
 2. **Update Decision Log**
-   - "Offline feature (decision B) worth it? User feedback says yes, add to v1.1"
-   - "Decision to ship without payment retry logic caused 2% payment failures. Next time, design for retry."
+ - "Offline feature (decision B) worth it? User feedback says yes, add to v1.1"
+ - "Decision to ship without payment retry logic caused 2% payment failures. Next time, design for retry."
 
 3. **Archive project** (lock Notion database, preserve for future reference)
 4. **Celebrate** (team recognition for pulling together across functions)

@@ -13,21 +13,6 @@ reviewed: true
 score: 9
 tags: [remote-work-tools, comparison]
 ---
----
-layout: default
-title: "L-Shaped Desk vs Straight Desk for Home Office"
-description: "Choosing between an L-shaped desk and a straight desk shapes your daily work environment. For developers spending 8-12 hours at their workstation, this"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /l-shaped-desk-vs-straight-desk-for-home-office/
-categories: [guides]
-intent-checked: true
-voice-checked: true
-reviewed: true
-score: 9
-tags: [remote-work-tools, comparison]
----
 
 {% raw %}
 

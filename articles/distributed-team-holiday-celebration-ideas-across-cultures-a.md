@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Distributed Team Holiday Celebration Ideas Across Cultures"
-description: "Use rotating meeting slots instead of forcing one global time, combine async-first celebrations (music playlists, recipe sharing) with optional real-time"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools"
-permalink: /distributed-team-holiday-celebration-ideas-across-cultures-a/
-reviewed: true
-score: 9
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 

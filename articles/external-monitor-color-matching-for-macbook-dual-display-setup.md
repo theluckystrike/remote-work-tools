@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "List available color profiles"
-description: "Learn how to match colors across your MacBook and external monitor for consistent visual experience. Practical calibration steps and automation scripts"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "theluckystrike"
-permalink: /external-monitor-color-matching-for-macbook-dual-display-setup/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 When you add an external monitor to your MacBook setup, color inconsistency becomes immediately apparent. The same image looks different on each display—warmer on one, cooler on the other. This mismatch happens because every monitor ships with different color profiles, backlight technology, and calibration settings. Matching colors across your MacBook and external display requires understanding color profiles, display calibration, and sometimes manual adjustment.

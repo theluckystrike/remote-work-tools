@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Example ndss configuration snippet"
-description: "A practical technical guide for developers and IT administrators to configure secure guest WiFi networks in hybrid offices. Includes network"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/
-categories: [guides, security]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 When your hybrid office hosts visitors, contractors, and clients, providing internet access becomes a security balancing act. You want convenient connectivity for guests while protecting internal systems from potential threats. A poorly configured guest network creates an unlocked door into your corporate infrastructure.

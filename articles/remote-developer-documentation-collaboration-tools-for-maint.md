@@ -175,37 +175,37 @@ A runbook that actually works at 2 AM:
 
 1. Verify you are on the correct AWS account:
    ```bash
-   aws sts get-caller-identity --query Account --output text
-   # Expected output: 123456789012
+ aws sts get-caller-identity --query Account --output text
+ # Expected output: 123456789012
    ```
 
 2. Pull the latest image:
    ```bash
-   docker pull 123456789012.dkr.ecr.us-east-1.amazonaws.com/myapp:latest
+ docker pull 123456789012.dkr.ecr.us-east-1.amazonaws.com/myapp:latest
    ```
 
 3. Trigger the ECS deployment:
    ```bash
-   aws ecs update-service \
-     --cluster prod-cluster \
-     --service myapp-service \
-     --force-new-deployment \
-     --region us-east-1
+ aws ecs update-service \
+ --cluster prod-cluster \
+ --service myapp-service \
+ --force-new-deployment \
+ --region us-east-1
    ```
 
 4. Monitor the deployment:
    ```bash
-   aws ecs wait services-stable \
-     --cluster prod-cluster \
-     --services myapp-service \
-     --region us-east-1
-   # This command exits when deployment is complete (up to 10 minutes)
+ aws ecs wait services-stable \
+ --cluster prod-cluster \
+ --services myapp-service \
+ --region us-east-1
+ # This command exits when deployment is complete (up to 10 minutes)
    ```
 
 5. Verify the health endpoint:
    ```bash
-   curl -f https://api.example.com/health
-   # Expected: {"status":"ok","version":"1.2.3"}
+ curl -f https://api.example.com/health
+ # Expected: {"status":"ok","version":"1.2.3"}
    ```
 
 **If step 5 fails**: See [rollback procedure](./rollback.md)

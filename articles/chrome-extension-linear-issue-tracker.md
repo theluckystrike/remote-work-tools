@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Chrome Extension Linear Issue Tracker: Practical Guide"
-description: "Discover Chrome extensions that integrate with Linear for issue tracking. Learn how to improve your workflow with browser-based Linear access, quick"
-date: 2026-03-15
-last_modified_at: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /chrome-extension-linear-issue-tracker/
-reviewed: true
-score: 9
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 Install the official Linear browser extension to create issues from any webpage without context switching and preview issues directly in GitHub PRs. Linear is popular among development teams for its clean interface and GitHub integration, but Chrome extensions add capabilities that improve workflow efficiency—create issues without switching tabs, view issue previews in PRs, and access notifications directly in Chrome. This guide covers practical Linear extensions and how to integrate them into your daily development routine.
 

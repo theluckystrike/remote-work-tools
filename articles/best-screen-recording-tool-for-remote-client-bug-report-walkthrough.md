@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Screen Recording Tool for Remote Client Bug Report Walkthroughs"
+title: "Best Screen Recording Tool for Remote Client Bug Report"
 description: "Learn how to capture effective screen recordings for remote bug reporting. Tools, techniques, and code snippets for developers and power users"
 date: 2026-03-16
 last_modified_at: 2026-03-16

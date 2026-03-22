@@ -288,9 +288,9 @@ Action: Post to Slack: "Team completed 45 points this cycle"
 2. Create 5 real issues from your backlog
 3. Create branch, PR, merge (test auto-linking)
 4. Questions:
-   - Did issue auto-link to PR?
-   - Did status update on merge?
-   - How intuitive was the experience?
+ - Did issue auto-link to PR?
+ - Did status update on merge?
+ - How intuitive was the experience?
 
 **Part 3: Rollout Plan (15 min)**
 1. Decide: Linear, GitHub Projects, or Shortcut?

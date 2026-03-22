@@ -13,21 +13,6 @@ reviewed: true
 score: 9
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Standing Desk Mat for Bare Feet Review: A Developer's Guide"
-description: "Discover which standing desk mats work best for barefoot use. Compare materials, thickness, durability, and smart features for developers who stand"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /standing-desk-mat-for-bare-feet-review/
-categories: [guides]
-intent-checked: true
-voice-checked: true
-reviewed: true
-score: 9
-tags: [remote-work-tools]
----
 
 {% raw %}
 

@@ -179,7 +179,7 @@ Target scores for a developer portfolio:
 | Best Practices | > 90 | HTTP resources on HTTPS page, deprecated APIs |
 | SEO | > 90 | Missing meta descriptions, no structured data |
 
-**Image optimization** is the single highest-leverage fix for most portfolios. A project screenshot that is 2.4MB as a PNG can become 180KB as a WebP with no visible quality difference:
+**Image optimization** is the single highest-uses fix for most portfolios. A project screenshot that is 2.4MB as a PNG can become 180KB as a WebP with no visible quality difference:
 
 ```bash
 # Convert all PNGs in your images folder to WebP

@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, workflow, remote-work, automation]
 ---
----
-layout: default
-title: "n8n Workflow Automation for Remote Teams"
-description: "Set up n8n self-hosted workflow automation for remote teams. Covers installation, common automations for Slack, GitHub, Notion, and error handling for reliable"
-date: 2026-03-21
-author: theluckystrike
-permalink: /n8n-workflow-automation-remote-teams/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, workflow, remote-work, automation]
----
 
 {% raw %}
 

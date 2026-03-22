@@ -31,7 +31,7 @@ Grafana dashboards in co-located teams are glanced at on a monitor on the wall. 
 - [Grafana vs. Alternatives for Remote Teams](#grafana-vs-alternatives-for-remote-teams)
 - [Related Reading](#related-reading)
 
-The difference between a useful remote dashboard and a useless one is not the metrics — it is the context. A panel showing "error rate: 0.3%" tells a co-located engineer something because they have been watching it all day. It tells a remote engineer nothing at 9am without a baseline, a threshold, and an indication of whether this is better or worse than yesterday.
+The difference between a useful remote dashboard and an useless one is not the metrics — it is the context. A panel showing "error rate: 0.3%" tells a co-located engineer something because they have been watching it all day. It tells a remote engineer nothing at 9am without a baseline, a threshold, and an indication of whether this is better or worse than yesterday.
 
 ## Installation with Docker Compose
 

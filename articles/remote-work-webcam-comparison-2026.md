@@ -64,7 +64,7 @@ The Facecam Pro uses a 1/1.8" Sony STARVIS 2 sensor and records 4K/60fps (1080p/
 - Fixed focus is a liability if you move or work close to the camera
 - Low-light performance falls behind the Opal C1
 - No built-in microphone
-- USB-A only (no USB-C cable in box)
+- USB-An only (no USB-C cable in box)
 
 **Config tip** — set a custom profile for low-light home office in Camera Hub:
 

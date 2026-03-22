@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison]
 ---
----
-layout: default
-title: "Loom vs Vimeo Record for Async Standup Updates Comparison"
-description: "Async standups have become essential for distributed engineering teams. Instead of synchronous morning meetings, team members record short video updates that"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /loom-vs-vimeo-record-for-async-standup-updates-comparison/
-categories: [comparisons]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, comparison]
----
 
 {% raw %}
 

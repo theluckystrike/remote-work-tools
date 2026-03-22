@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "How to Secure Remote Team Kubernetes Clusters with Network P"
-description: "A practical guide to implementing Kubernetes network policies to secure your remote team's cluster infrastructure"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /how-to-secure-remote-team-kubernetes-clusters-with-network-p/
-reviewed: true
-score: 9
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 

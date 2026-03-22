@@ -259,7 +259,7 @@ If Power Automate approvals consistently fail, alternatives exist.
 
 ## Approval Workflow Resilience Patterns
 
-Building robust approval systems that survive failures.
+Building strong approval systems that survive failures.
 
 **Always have manual fallback**: If workflow fails completely, approver and requester should have way to manually document the approval. This prevents business process blocking.
 

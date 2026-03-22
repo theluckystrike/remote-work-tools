@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Ergonomic Desk Setup Guide for Developers 2026"
-description: "Build an ergonomic home office desk setup for developers in 2026. Covers monitor height, keyboard position, chair settings, standing desk configuration, and"
-date: 2026-03-21
-author: theluckystrike
-permalink: /ergonomic-desk-setup-developers-2026/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 

@@ -201,8 +201,8 @@ docker push 12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3
 ### 2. Update Kubernetes Deployment
 ```bash
 kubectl set image deployment/myservice \
-  myservice=12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3 \
-  -n production
+ myservice=12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3 \
+ -n production
 ```
 
 ### 3. Monitor Rollout

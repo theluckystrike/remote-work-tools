@@ -43,7 +43,7 @@ Before comparing tools, it helps to be specific about the problems you are solvi
 
 ## PagerDuty
 
-PagerDuty is the market leader in incident management and has been for over a decade. Its strength is reliability and depth: the on-call scheduling engine is the most sophisticated available, the mobile alerting is rock-solid, and the ecosystem of integrations covers essentially every monitoring tool in use today.
+PagerDuty is the market leader in incident management and has been for over a decade. Its strength is reliability and depth: the on-call scheduling engine is the most sophisticated available, the mobile alerting is rock-solid, and the ecosystem of integrations covers every monitoring tool in use today.
 
 For remote teams, PagerDuty's strongest features are intelligent alert grouping (when five monitoring tools fire simultaneously on the same failure, PagerDuty creates one incident rather than five pages), and multi-layer escalation policies that handle the realities of distributed teams.
 

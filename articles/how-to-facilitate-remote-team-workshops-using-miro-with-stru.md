@@ -206,10 +206,10 @@ Start with 10 ideas, ask team to elaborate or combine them. Generates depth.
 2. **5-25 min**: Display all 30 complaints on board. Team reads and reacts (reactions: 👍 😕 🔥)
 3. **25-40 min**: Discuss top 10 most reacted-to issues. Group into themes
 4. **40-70 min**: Break into 4 small groups (2-3 people each)
-   - Group A: Rank top 5 by customer impact
-   - Group B: Rank top 5 by engineering effort
-   - Group C: Identify which customers would pay extra to solve
-   - Group D: Find root causes
+ - Group A: Rank top 5 by customer impact
+ - Group B: Rank top 5 by engineering effort
+ - Group C: Identify which customers would pay extra to solve
+ - Group D: Find root causes
 5. **70-85 min**: Full group discussion. Create "impact vs effort" 2x2 matrix
 6. **85-90 min**: Vote on top 3 to tackle next quarter
 
@@ -335,6 +335,5 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
 - [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
 - [Miro vs FigJam for Remote Team Collaboration](/remote-work-tools/miro-vs-figjam-for-remote-team-collaboration/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

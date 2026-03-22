@@ -177,7 +177,7 @@ With `--ssh` flag, Tailscale manages SSH keys automatically. You can remove the 
 
 ## Step 5: Dev Environment Setup with mise
 
-mise (formerly rtx) is a unified tool version manager that replaces nvm, rbenv, pyenv, and goenv with a single tool. It reads `.mise.toml` files in project directories and switches versions automatically.
+mise (formerly rtx) is an unified tool version manager that replaces nvm, rbenv, pyenv, and goenv with a single tool. It reads `.mise.toml` files in project directories and switches versions automatically.
 
 ```bash
 # SSH into the server as dev user

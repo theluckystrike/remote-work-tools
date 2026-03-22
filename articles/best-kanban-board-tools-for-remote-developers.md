@@ -259,9 +259,9 @@ Issue column depends on branch status:
 1. Decide: Which tool?
 2. Set rollout date (when everyone migrates)
 3. Define success metrics:
-   - % of issues tracked in tool (target: 95%)
-   - Time to update status (target: same day)
-   - WIP limits breached (target: <2/week)
+ - % of issues tracked in tool (target: 95%)
+ - Time to update status (target: same day)
+ - WIP limits breached (target: <2/week)
 4. Schedule 1-week check-in
 
 ## Measuring Kanban Health: Metrics That Matter

@@ -267,7 +267,7 @@ For a typical remote engineering setup (laptop + 2 monitors + router + switch):
 
 At $48/year, a UPS is cheaper than most SaaS tools and eliminates the most unpredictable failure mode in a home office. For comparison, a single lost hour of billable work for a senior engineer costs more than the 5-year total cost of the UPS.
 
-If budget is a constraint, a used APC Back-UPS 1500 from eBay with a new third-party battery costs around $40-60 total and provides equivalent protection. UPS hardware is robust — the battery is the only consumable component.
+If budget is a constraint, a used APC Back-UPS 1500 from eBay with a new third-party battery costs around $40-60 total and provides equivalent protection. UPS hardware is strong — the battery is the only consumable component.
 
 ## Comparing UPS Models: Feature Matrix
 
@@ -289,7 +289,7 @@ Key decision factors: If you run local infrastructure (NAS, dev servers), priori
 
 ## Configuration Deep Dive: Linux/Unix Systems
 
-For engineers running Linux servers or NAS devices, apcupsd provides comprehensive UPS management:
+For engineers running Linux servers or NAS devices, apcupsd provides UPS management:
 
 ```bash
 # Full apcupsd configuration example

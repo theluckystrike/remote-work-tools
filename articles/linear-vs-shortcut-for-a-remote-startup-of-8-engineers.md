@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison, remote-work]
 ---
----
-layout: default
-title: "Linear vs Shortcut for a Remote Startup of 8 Engineers"
-description: "A practical comparison of Linear and Shortcut for managing an 8-engineer remote startup. Features, API access, GitHub integration, and implementation"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /linear-vs-shortcut-for-a-remote-startup-of-8-engineers/
-categories: [comparisons]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, comparison, remote-work]
----
 
 {% raw %}
 

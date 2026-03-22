@@ -393,9 +393,9 @@ One major cause of Slack noise is thread-ignorance. New team members often don't
 ✅ Good (channel stays clean):
 ```
 @alice: We should use Rust for this service
-  ↳ @bob: I agree, here's why [in thread]
-    ↳ @charlie: Performance context [in thread]
-      ↳ @alice: Great, let's do it [in thread]
+ ↳ @bob: I agree, here's why [in thread]
+ ↳ @charlie: Performance context [in thread]
+ ↳ @alice: Great, let's do it [in thread]
 Decision summary posted to channel: "Decided: Rust for service X. See thread for context."
 ```
 

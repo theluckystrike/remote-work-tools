@@ -13,21 +13,6 @@ reviewed: true
 score: 9
 tags: [remote-work-tools, best-of]
 ---
----
-layout: default
-title: "Payment Terms Best Practices for Freelancers"
-description: "Master payment terms as a freelancer. Learn contract templates, automation scripts, and workflows that protect your cash flow and client relationships"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /payment-terms-best-practices-for-freelancers/
-categories: [guides]
-intent-checked: true
-voice-checked: true
-reviewed: true
-score: 9
-tags: [remote-work-tools, best-of]
----
 
 {% raw %}
 

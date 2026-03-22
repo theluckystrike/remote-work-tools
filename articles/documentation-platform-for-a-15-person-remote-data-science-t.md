@@ -16,14 +16,6 @@ voice-checked: true
 
 A 15-person remote data science team has documentation needs that differ fundamentally from software engineering teams. Your team deals with model experiments, training data lineage, evaluation metrics, hyperparameter variations, and reproducibility requirements that standard wikis and knowledge bases struggle to handle. This guide covers platform selection, implementation patterns, and workflows that keep distributed data science teams aligned and productive.
 
-## Key Takeaways
-
-- **Data science documentation differs sharply from engineering docs**: You need experiment tracking, model versioning, and data lineage—not just code comments and API specs.
-- **A 15-person remote data science team needs platform features most generic tools lack**: experiment tracking integration, reproducibility support, computational environment documentation.
-- **The right platform reduces model debugging time by 40-60%**: When your team can quickly trace why a model's performance changed, you spend less time in firefighting mode.
-- **Documentation adoption fails when teams aren't involved in tool selection**: Let 2-3 team members test options before committing. Their hands-on feedback beats any comparison chart.
-- **Most data science teams waste 3-5 hours weekly reconstructing prior experiments**: A platform with proper experiment tracking and versioning eliminates this friction.
-
 ## Table of Contents
 
 - [The Data Science Documentation Problem](#the-data-science-documentation-problem)
@@ -147,9 +139,9 @@ Cost: Self-hosting costs (VPS ~$100-300/month) + engineering time
 ### Phase 2: Pilot Rollout (2 weeks)
 - Deploy platform with the 3-person pilot team
 - Have them establish documentation standards:
-  - What gets tracked in experiments vs. what goes in narrative docs
-  - Naming conventions for experiments, models, datasets
-  - When to update documentation (during experiment, after validation, before deployment)
+ - What gets tracked in experiments vs. what goes in narrative docs
+ - Naming conventions for experiments, models, datasets
+ - When to update documentation (during experiment, after validation, before deployment)
 - Document these standards in your main wiki
 
 ### Phase 3: Team Training (1 week)

@@ -305,9 +305,9 @@ For best hybrid meeting experience, consider this practical setup:
 **Audio/Video Hardware ($800-2000 investment):**
 - Logitech MeetUp (all-in-one solution for small rooms, $1,500)
 - Alternatively: Separate components ($500-800 total)
-  - Polycom SoundStructure speaker ($400)
-  - USB camera with wide angle (Microsoft LifeCam Studio, $150)
-  - Ceiling-mounted microphone (Shure boundary mic, $300)
+ - Polycom SoundStructure speaker ($400)
+ - USB camera with wide angle (Microsoft LifeCam Studio, $150)
+ - Ceiling-mounted microphone (Shure boundary mic, $300)
 
 **Software Configuration:**
 - Zoom/Teams meeting recorder with cloud transcription

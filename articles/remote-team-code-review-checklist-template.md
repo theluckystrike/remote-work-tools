@@ -118,9 +118,6 @@ Checklist as a GitHub PR template:
 ```markdown
 <!-- .github/pull_request_template.md -->
 
-## Summary
-<!-- What does this change do? Why? -->
-
 ## Type of change
 - [ ] Bug fix (non-breaking, fixes an issue)
 - [ ] New feature (non-breaking, adds functionality)

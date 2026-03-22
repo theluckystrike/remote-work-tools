@@ -13,21 +13,6 @@ reviewed: true
 intent-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Track all critical accounts requiring phone verification"
-description: "A practical guide for developers and power users on keeping your US phone number while working remotely from Portugal or Spain. Includes code examples"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-maintain-us-phone-number-while-working-remotely-from-/
-categories: [guides]
-score: 9
-voice-checked: true
-reviewed: true
-intent-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 Maintaining an US phone number while living in Portugal or Spain is essential for many developers and remote workers. Whether you need it for banking, two-factor authentication, or staying in touch with US-based clients, keeping your American number provides continuity and avoids the hassle of updating contacts and services across international boundaries.

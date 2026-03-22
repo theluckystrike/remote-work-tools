@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Multi-Monitor Linux Workstation Setup Guide"
-description: "Configure a multi-monitor Linux workstation for remote development. Covers xrandr, Wayland, i3, per-monitor DPI, and workspace assignment across displays."
-date: 2026-03-21
-author: theluckystrike
-permalink: /multi-monitor-linux-workstation-setup-guide/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 

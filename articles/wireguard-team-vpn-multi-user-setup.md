@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, vpn]
 ---
----
-layout: default
-title: "WireGuard Team VPN: Multi-User Setup Guide"
-description: "Set up WireGuard as a team VPN with multiple users, split tunneling, and peer management scripts. Covers server config, peer generation, and client setup for"
-date: 2026-03-21
-author: theluckystrike
-permalink: /wireguard-team-vpn-multi-user-setup/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, vpn]
----
 
 {% raw %}
 

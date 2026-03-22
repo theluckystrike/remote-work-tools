@@ -248,11 +248,6 @@ docs(api): document rate limiting headers in OpenAPI spec
 
 ```markdown
 <!-- .github/PULL_REQUEST_TEMPLATE.md -->
-## Summary
-<!-- What does this PR do? 2-3 sentences. Link to the issue or Jira ticket. -->
-
-Closes: #
-
 ## Type of change
 - [ ] Bug fix (non-breaking change that fixes an issue)
 - [ ] New feature (non-breaking change that adds functionality)

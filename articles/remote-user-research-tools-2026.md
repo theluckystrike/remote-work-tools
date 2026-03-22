@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Best Remote User Research Tools 2026"
-description: "Compare the top remote user research tools in 2026. Covers unmoderated testing, participant recruitment, session recording, heatmaps, and survey tools."
-date: 2026-03-21
-author: theluckystrike
-permalink: /remote-user-research-tools-2026/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 

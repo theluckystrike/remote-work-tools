@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Remote HR Benefits Administration Platform for Distributed"
-description: "A review of HR benefits administration platforms designed for remote and distributed global teams. Compare features, API integrations"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools"
-permalink: /remote-hr-benefits-administration-platform-for-distributed-global-teams-2026-review/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 

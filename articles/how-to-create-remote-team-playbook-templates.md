@@ -77,11 +77,11 @@ kubectl logs -n production deployment/payments-api --since=30m | grep ERROR | ta
 
 # Check database connectivity
 kubectl exec -n production deployment/payments-api -- \
-  pg_isready -h $DB_HOST -p 5432
+ pg_isready -h $DB_HOST -p 5432
 
 # View active DB connections
 psql -h $DB_HOST -U postgres -c \
-  "SELECT count(*), state FROM pg_stat_activity GROUP BY state;"
+ "SELECT count(*), state FROM pg_stat_activity GROUP BY state;"
 ```
 
 ## Mitigation Options
@@ -183,7 +183,7 @@ kubectl describe deployment/[service] -n production | grep Image
 # Check error rate (first 5 minutes)
 # Run this every 60 seconds x5
 curl -s "https://monitoring.yourcompany.com/api/v1/query?query=rate(http_requests_total{service='[service]',status=~'5..'}[1m])" \
-  | jq '.data.result[0].value[1]'
+ | jq '.data.result[0].value[1]'
 ```
 
 ### 4. Post-Deploy

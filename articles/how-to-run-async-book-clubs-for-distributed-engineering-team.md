@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Reading schedule generator for async book clubs"
-description: "Running a book club across distributed engineering teams presents unique challenges. Without the benefit of physical proximity, traditional synchronous"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-run-async-book-clubs-for-distributed-engineering-teams/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 Running a book club across distributed engineering teams presents unique challenges. Without the benefit of physical proximity, traditional synchronous discussions become difficult to schedule. However, asynchronous book clubs offer a practical alternative that accommodates multiple time zones and individual reading paces while still fostering meaningful technical discussions.

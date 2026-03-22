@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Parent Room Design for Hybrid Offices (2026)"
-description: "A practical guide for developers and power users on designing dedicated mother and parent rooms in hybrid offices. Includes space planning, technology"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /how-to-design-mother-and-parent-room-for-hybrid-office-retur/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 

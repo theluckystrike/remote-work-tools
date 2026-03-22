@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "How to Create Shared Project Timeline With Remote Agency Cli"
-description: "Managing project timelines across distributed teams and external agencies presents unique challenges. When your collaborators span multiple time zones and use"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-create-shared-project-timeline-with-remote-agency-cli/
-categories: [guides, workflows]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 Managing project timelines across distributed teams and external agencies presents unique challenges. When your collaborators span multiple time zones and use different tools, keeping everyone aligned requires a systematic approach. This guide covers practical methods for creating and sharing project timelines using command-line tools that integrate with your existing workflow.
 

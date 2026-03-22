@@ -13,21 +13,6 @@ reviewed: true
 score: 8
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "How to Separate Business and Personal Finances"
-description: "Running your own business means every financial decision lands on your desk. When you're a freelance developer, the line between 'buying a new laptop for"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /how-to-separate-business-and-personal-finances-freelance/
-categories: [guides]
-intent-checked: true
-voice-checked: true
-reviewed: true
-score: 8
-tags: [remote-work-tools]
----
 
 {% raw %}
 
