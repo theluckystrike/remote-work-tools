@@ -6,7 +6,7 @@ description: "Discover how remote teams can provision development environments o
 date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /remote-team-environment-provisioning-tool-for-spinning-up-de/
-tags: [remote-work-tools]
+tags: [remote-work-tools, remote-work]
 reviewed: true
 score: 8
 categories: [guides]
