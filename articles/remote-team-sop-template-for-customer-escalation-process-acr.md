@@ -15,7 +15,17 @@ voice-checked: true---
 
 
 {% raw %}
+
 Use a three-tier severity classification: Tier 1 (investigation needed, 4-hour response), Tier 2 (feature impaired, 2-hour response), Tier 3 (outage/security, 30-minute response with 24/7 coverage). Every escalation follows a mandatory handoff log stored in a shared tool (not Slack) that records who discovered it, current investigation status, and next steps—this prevents issues from disappearing when shifts change. Automate escalations to PagerDuty based on severity so no critical issue relies on Slack notifications that might be missed while someone sleeps. For each severity tier, document the exact approval workflow (who can escalate, to whom) so any support agent can make consistent decisions.
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Use a three-tier severity classification**: Tier 1 (investigation needed, 4-hour response), Tier 2 (feature impaired, 2-hour response), Tier 3 (outage/security, 30-minute response with 24/7 coverage).
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Escalation owner remains accountable**: until formally handed off—even across time zones This sounds simple, but it's the most common failure point in distributed teams.
 
 ## Understanding Escalation Triage Levels
 

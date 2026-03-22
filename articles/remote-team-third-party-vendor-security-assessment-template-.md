@@ -33,6 +33,16 @@ When your remote team relies on external vendors for critical services, each ven
 
 This guide provides a practical assessment template you can customize for your organization's needs.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Deep examine authentication (must**: support OAuth) 2.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Contract Reviews**: Verify service level agreements include security requirements
+4.
+
 ## Why Remote Teams Need Vendor Security Assessments
 
 Remote work amplifies third-party risk because employees access vendor services from diverse networks and devices. A vendor with weak security controls can expose your entire distributed team to compromise. Without a consistent assessment process, you risk granting access to vendors who lack basic security safeguards.

@@ -31,6 +31,15 @@ Remote user research tools let you test designs, gather feedback, and observe be
 
 This guide covers the tools worth using for each stage of remote user research: discovery, testing, and synthesis.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **The best tools in 2026 combine unmoderated testing, session replay, and participant recruitment in one workflow**: reducing the logistics overhead that slows down research cycles.
+- **The free plan includes**: unlimited forms and responses, logic branching, and Notion-style embed.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+- **A week-long trial with**: actual work gives better signal than feature comparison charts.
+
 ## Unmoderated Usability Testing
 
 ### UserTesting ($49-99/session)

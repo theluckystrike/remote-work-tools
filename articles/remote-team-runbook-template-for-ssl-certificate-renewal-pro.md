@@ -33,6 +33,15 @@ SSL certificate expiration remains one of the most preventable causes of service
 
 This runbook provides a practical template for managing SSL certificate renewals asynchronously, ensuring your remote infrastructure team stays ahead of expiration dates without last-minute fire drills.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **SSL certificate expiration remains**: one of the most preventable causes of service outages.
+- **Without explicit runbooks**: critical knowledge lives only in individual Slack messages or personal notes.
+
 ## Understanding the Challenge
 
 In a remote team environment, certificate renewals present unique challenges. When your infrastructure spans multiple cloud providers, regions, and team members in different time zones, the coordination overhead increases significantly. Someone in Tokyo might handle DNS configuration while someone in Berlin manages the certificate deployment, and someone in San Francisco maintains the documentation.

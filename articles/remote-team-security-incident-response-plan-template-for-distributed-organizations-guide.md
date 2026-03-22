@@ -33,6 +33,15 @@ Security incidents don't respect time zones. When your team is spread across Tok
 
 This guide provides a practical incident response plan template tailored for remote teams, with specific workflows, communication templates, and automation examples you can implement immediately.
 
+## Key Takeaways
+
+- **Isolate affected systems echo**: "[1/6] Isolating affected systems..." aws ec2 modify-instance-attribute --instance-id $AFFECTED_ID \ --security-group-id $ISOLATION_SG # 2.
+- **Rotate potentially compromised credentials**: echo "[2/6] Rotating credentials..." aws secretsmanager rotate-secret --secret-id $COMPROMISED_SECRET # 3.
+- **Enable enhanced logging echo**: "[4/6] Enabling enhanced logging..." aws cloudtrail update-trail --name $TRAIL_NAME --enable-log-file-validation # 5.
+- **In distributed teams**: containment decisions often need to be made by whoever is available and qualified—not necessarily the most senior person.
+- **No immediate action required**: for most team members.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+
 ## Why Remote Teams Need Dedicated Incident Response Plans
 
 Traditional security incident response assumes physical proximity. Team members can shout across the office, whiteboard together, and hand off responsibilities. Remote teams operate differently—your on-call engineer might be asleep when an alert fires in their timezone, and your security lead might be in a completely different region.

@@ -33,6 +33,16 @@ Choose Slack Huddles for quick questions requiring minimal setup and low context
 
 Quick conversations in remote teams often create a decision bottleneck: start a Slack Huddle for a 30-second question, or schedule a full Zoom call for what might be a 5-minute discussion? The answer affects your team's flow, context-switching costs, and ultimately your shipping velocity. This guide breaks down when each tool makes sense for developer workflows.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Slack offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **For a quick technical**: question like "Which API endpoint handles user authentication?", a Huddle takes 15 seconds to start.
+- **Zoom uses its own**: proprietary audio codec that typically sounds better but requires more bandwidth.
+- **You join**: they screen share, explain the pattern in 90 seconds
+5.
+
 ## The Core Difference
 
 Slack Huddles and Zoom serve fundamentally different communication patterns. Huddles are designed for spontaneous, ephemeral voice conversations within your existing Slack context. Zoom calls are structured meetings with recording, transcription, and screen sharing as first-class features.

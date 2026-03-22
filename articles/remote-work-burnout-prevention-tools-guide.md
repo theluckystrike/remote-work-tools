@@ -38,6 +38,30 @@ Burnout prevention requires three layers:
 
 This guide covers tools that target each layer and real strategies to implement them.
 
+## Key Takeaways
+
+- **Identifies focus time patterns**: When are you most productive? (Usually mornings)
+2.
+- **5 normally)
+```
+
+DeskTime alert**: "Your focus time is down 50%.
+- **Consider**: Time blocking (no Slack 9am-12pm), meeting-free days
+```
+
+### Privacy Notes
+
+DeskTime is transparent: you see exactly what it tracks.
+- **40% of time in meetings."
+
+Action**: Cut meeting times by 25% → Save 4.5 hours/week → More deep work time.
+- **Generic "productivity" tools**: Task management tools (Asana, Monday) don't prevent burnout
+
+## The Hard Truth
+
+Tools are 20% of solution.
+- **Burnout prevention requires three**: layers: 1.
+
 ## Burnout Prevention Tools Comparison
 
 | Tool | Focus | Cost | Best For | Calendar Integration | Workload Tracking |
