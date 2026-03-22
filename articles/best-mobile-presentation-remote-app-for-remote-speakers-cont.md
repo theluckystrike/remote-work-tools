@@ -155,7 +155,7 @@ Common technical problems have practical solutions.
 
 Different video platforms integrate differently with presentation apps.
 
-**Zoom:** PowerPoint and Google Slides integrations are seamless. Share your screen through Zoom, and your presentation displays on everyone's screen. Mobile remote control works perfectly from your phone while Zoom handles video transmission.
+**Zoom:** PowerPoint and Google Slides integrations are smooth. Share your screen through Zoom, and your presentation displays on everyone's screen. Mobile remote control works perfectly from your phone while Zoom handles video transmission.
 
 **Google Meet:** Google Slides integration is native. Zoom slide sharing works through the browser. Both work well with mobile control, though you'll manage two separate apps (video + presentations).
 
@@ -185,7 +185,7 @@ The most effective remote presenters make their technical setup invisible to the
 
 Start with whichever app matches your existing tools. Practice with it thoroughly. As you develop facility with mobile control, you'll discover your natural presentation rhythm. Your remote speaking will evolve from technically proficient to genuinely engaging.
 
-For distributed teams where synchronous communication often happens through video presentations, skilled remote presenters create competitive advantage. Your ability to present engagingly from anywhere—leveraging mobile technology and professional techniques—becomes a meaningful skill that affects team communication and external reputation.
+For distributed teams where synchronous communication often happens through video presentations, skilled remote presenters create competitive advantage. Your ability to present engagingly from anywhere—using mobile technology and professional techniques—becomes a meaningful skill that affects team communication and external reputation.
 
 *Built by theluckystrike — More at [zovo.one](https://zovo.one)*
 

@@ -124,13 +124,13 @@ One frequently overlooked mistake is running research in isolation from quantita
 
 ## Popular Data Collection Tools for Remote Research
 
-Several platforms excel at different aspects of distributed research. Understanding the landscape helps you build your stack effectively.
+Several platforms excel at different aspects of distributed research. Understanding the space helps you build your stack effectively.
 
 **Respondent.io** specializes in user recruitment and interview facilitation. They maintain a panel of 3M+ potential participants from around the world. You create a screener to define your target audience (geography, age, usage patterns, etc.), and Respondent handles participant recruitment, scheduling, and payment. This removes the biggest friction point in distributed research: finding willing participants across time zones. Pricing: $50-100 per participant typically.
 
 **UserTesting** offers on-demand user testing where remote participants record themselves using your product. You get high-quality video recordings with participant reactions and think-aloud commentary. Best for evaluating existing products rather than gathering feedback on early concepts. Particularly useful for usability testing where you need to observe how people actually interact with your interface. Pricing: $50-150 per participant.
 
-**Validately** provides a comprehensive platform for scheduling interviews, recording sessions automatically, and sharing findings. Particularly good at handling remote moderated testing where you observe participants real-time across time zones. The platform integrates with video conferencing and provides built-in video editing and highlighting. Pricing: typically $1000-3000/month for organization accounts.
+**Validately** provides a thorough platform for scheduling interviews, recording sessions automatically, and sharing findings. Particularly good at handling remote moderated testing where you observe participants real-time across time zones. The platform integrates with video conferencing and provides built-in video editing and highlighting. Pricing: typically $1000-3000/month for organization accounts.
 
 **Typeform** excels at questionnaire design with beautiful, mobile-friendly forms. While simpler than dedicated research platforms, it covers basic survey needs without excessive setup. Integrates well with other tools through Zapier and native integrations. Free tier sufficient for small teams and early research.
 
@@ -146,7 +146,7 @@ Data collection costs vary dramatically by approach. Understanding what you'll s
 
 **DIY approach:** Use free tools (Google Forms, Calendly, Notion, Otter.ai free tier) with internal recruiting. Cost: essentially free for recruiting, $10-50 monthly for transcription. Best when you have audience access (users on your platform, employees, referral network).
 
-**Streamlined approach:** Basic Respondent.io recruiting, Validately for scheduling, Otter.ai for transcription. Budget $50-100 per participant. Best for teams with a research budget but no dedicated recruitment team.
+**Smoothed out approach:** Basic Respondent.io recruiting, Validately for scheduling, Otter.ai for transcription. Budget $50-100 per participant. Best for teams with a research budget but no dedicated recruitment team.
 
 **Professional approach:** UserTesting or dedicated research recruiting, professional transcription services, research analysis software. Budget $200-500 per participant. Best for organizations where research directly drives product decisions.
 
