@@ -25,7 +25,17 @@ Deploy YubiKey or similar FIDO2-compatible hardware keys for remote team authent
 - **This guide walks through**: implementing hardware security keys using FIDO2/WebAuthn standards, server-side integration, and practical rollout strategies for distributed teams.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Understanding the Security Model
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Security Model
 
 Hardware security keys implement the FIDO2 (Fast Identity Online 2) protocol, which combines the CTAP2 (Client to Authenticator Protocol 2) specification with WebAuthn. The architecture solves several problems common to password-based and even TOTP-based authentication:
 
@@ -35,7 +45,7 @@ Hardware security keys implement the FIDO2 (Fast Identity Online 2) protocol, wh
 
 When a user registers a hardware key, the device generates a new key pair. The public key goes to your server, while the private key stays in the hardware. Authentication requires physical presence—the user must touch the key to prove they're there.
 
-## Server-Side Implementation
+### Step 2: Server-Side Implementation
 
 Most modern authentication frameworks support WebAuthn natively. Here's how to implement registration and authentication in a Node.js environment using the `@simplewebauthn/server` library.
 
@@ -146,7 +156,7 @@ async function completeAuthentication(user, response) {
 }
 ```
 
-## Client-Side Integration
+### Step 3: Client-Side Integration
 
 The frontend needs minimal code since the browser handles most WebAuthn interactions:
 
@@ -198,7 +208,7 @@ async function authenticateWithKey() {
 }
 ```
 
-## Rollout Strategy for Remote Teams
+### Step 4: Rollout Strategy for Remote Teams
 
 Deploying hardware keys to a distributed team requires planning around shipping, enrollment, and backup scenarios.
 
@@ -254,7 +264,7 @@ async function canUsePasswordAuth(user) {
 }
 ```
 
-## Common Implementation Challenges
+### Step 5: Common Implementation Challenges
 
 Browser compatibility: All modern browsers support WebAuthn, but older browsers need fallbacks. Check `window.PublicKeyCredential` to detect support.
 
@@ -268,6 +278,21 @@ Hardware keys provide strong protection but work best as part of a defense-in-de
 
 For remote teams specifically, hardware keys eliminate the risk of SMS interception, man-in-the-middle phishing sites, and credential replay attacks that plague traditional authentication methods.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

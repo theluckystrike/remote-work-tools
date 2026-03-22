@@ -44,7 +44,17 @@ This guide provides a practical framework for handling these differences without
 Don't use one-size-fits-all templates.
 - **Most teams benefit from a hybrid approach**: direct employment or EOR arrangements for core team members, with contractor agreements for short-term or specialized work.
 
-## Understanding the EU Employment Law Baseline
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the EU Employment Law Baseline
 
 The European Union sets minimum standards through directives that all member states must implement, but countries often go beyond these minimums. The Working Time Directive establishes a 48-hour maximum work week, minimum daily and weekly rest periods, and paid annual leave of at least four weeks. The Posted Workers Directive addresses employees working temporarily in another EU country. The Directive on Part-time Work and Fixed-term Contracts provides protections against discrimination.
 
@@ -52,7 +62,7 @@ However, these directives leave significant room for national variation. Germany
 
 Before hiring in any EU country, research its specific implementation of EU directives. Official government websites for labor ministries typically provide English-language summaries of key requirements. For detailed compliance advice, consult with an employment lawyer familiar with that specific jurisdiction.
 
-## Choosing the Right Employment Structure
+### Step 2: Choose the Right Employment Structure
 
 Your choice of employment structure determines which country's laws apply to each team member. Three main options exist for building a compliant EU remote team.
 
@@ -64,7 +74,7 @@ Your choice of employment structure determines which country's laws apply to eac
 
 Most teams benefit from a hybrid approach: direct employment or EOR arrangements for core team members, with contractor agreements for short-term or specialized work.
 
-## Navigating Payroll and Social Security
+### Step 3: Navigating Payroll and Social Security
 
 Payroll across EU borders involves navigating multiple social security systems, each with different contribution rates, caps, and administration requirements. The fundamental principle is that employees typically pay social security in the country where they physically work, not where the company is headquartered.
 
@@ -121,7 +131,7 @@ Italy: Monthly withholding, very detailed payroll documentation required
 
 For most growing companies, EOR services pay for themselves through compliance assurance and reduced administrative burden.
 
-## Managing Working Time and Leave Entitlements
+### Step 4: Manage Working Time and Leave Entitlements
 
 Working time regulations represent one of the most variable areas across EU countries. While the 48-hour weekly maximum applies everywhere, how it's implemented differs.
 
@@ -131,7 +141,7 @@ Minimum paid leave ranges from the EU-mandated four weeks to significantly more 
 
 When managing a team across multiple countries, establish clear policies about expected availability while respecting local requirements. Define core hours that overlap across time zones, but don't expect team members in France to respond to messages at 8 PM like someone in Poland might accommodate.
 
-## Handling Termination and Severance
+### Step 5: Handling Termination and Severance
 
 Terminating employment in EU countries ranges from relatively straightforward to extremely complex. Some countries require extensive documentation of performance issues before termination can occur. Severance requirements vary dramatically—from minimal payments in some Eastern European countries to significant requirements in France and Italy.
 
@@ -252,6 +262,21 @@ Set a calendar reminder for quarterly compliance checks:
 - **Ignoring local holidays:** Failing to grant legally required days off creates breach liability
 - **Over-communicating after hours:** France specifically requires policies limiting after-hours contact
 - **Inadequate leave tracking:** Document usage meticulously; undergranting leave = automatic liability
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

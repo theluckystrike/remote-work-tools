@@ -40,7 +40,17 @@ Track deliverables, commit history, and communication patterns first—then use 
 - **I'd like to schedule**: a 1:1 to talk through some support options.
 - **My goal is to**: support you in succeeding in this role." ### Observations (10 minutes) Present your documented observations factually.
 
-## Recognizing Underperformance in Remote Settings
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Recognizing Underperformance in Remote Settings
 
 The first step in addressing underperformance is accurate identification. Remote work can mask problems just as easily as it can create them. Before initiating any conversation, gather objective data rather than relying on gut feelings.
 
@@ -66,7 +76,7 @@ Document everything. Create a simple tracking system in your project management 
 
 This documentation serves two purposes: it provides factual basis for conversations, and it protects you from appearing biased or unfair if the situation escalates.
 
-## Preparing for the Conversation
+### Step 2: Preparing for the Conversation
 
 Once you've identified a pattern of underperformance, preparation becomes essential. Never initiate a performance conversation spontaneously. Both you and the employee need time to prepare.
 
@@ -80,7 +90,7 @@ Notify the employee in advance. A message like this works well:
 
 This gives the employee warning and opportunity to prepare their perspective.
 
-## The Conversation Framework
+### Step 3: The Conversation Framework
 
 When it's time for the actual conversation, follow a structured approach that balances directness with empathy.
 
@@ -148,7 +158,7 @@ End with encouragement while being clear about consequences.
 
 > "I believe you can turn this around, and I'm committed to supporting you. We'll revisit this in [timeframe] to assess progress. Between now and then, my door is open if you need to discuss anything."
 
-## Following Up
+### Step 4: Following Up
 
 The conversation only matters if you follow through. Schedule the follow-up meeting before ending the current meeting. Hold yourself accountable to providing the support you promised.
 
@@ -170,7 +180,7 @@ New managers often make predictable errors in these conversations. Avoid these p
 
 **Moving too slowly:** Addressing problems early prevents them from compounding. A two-week delay becomes a two-month problem.
 
-## Adapting for Async Communication
+### Step 5: Adapting for Async Communication
 
 Some remote teams operate with minimal synchronous contact. If your team is highly asynchronous, adapt the framework accordingly.
 
@@ -180,7 +190,7 @@ Send a thoughtful async message first:
 
 Provide time for the employee to compose their thoughts. Async communication favors considered responses over spontaneous ones, which can actually benefit performance discussions.
 
-## Shell Automation for Remote Team Workflows
+### Step 6: Shell Automation for Remote Team Workflows
 
 Small shell scripts eliminate repetitive tasks that compound into significant time loss across distributed teams.
 
@@ -215,7 +225,7 @@ done
 
 Add this script to a morning cron job or run it manually before standups. It builds a habit of commit-based status updates rather than vague progress descriptions.
 
-## Time Zone Coordination for Distributed Teams
+### Step 7: Time Zone Coordination for Distributed Teams
 
 Managing meetings across time zones without dedicated tooling leads to scheduling errors and missed calls.
 
@@ -264,7 +274,7 @@ for slot in slots:
 ```
 
 For most globally distributed teams, there are 0-2 overlap hours. Use async-first communication for everything that doesn't require real-time discussion.
-## Real-World Performance Conversation Examples
+### Step 8: Real-World Performance Conversation Examples
 
 Understanding what works in practice helps you adapt the framework to your specific situation:
 
@@ -345,7 +355,7 @@ Problem-solving:
 Missing context about our codebase? Need different tools or processes?"
 ```
 
-## Documenting for Protection
+### Step 9: Documenting for Protection
 
 Managers sometimes worry that honest performance conversations create legal exposure. Actually, the opposite is true. Documented, evidence-based conversations protect you:
 
@@ -363,7 +373,7 @@ Managers sometimes worry that honest performance conversations create legal expo
 
 Date your documentation and keep copies in your performance management system. This isn't about building a case to fire someone—it's about creating clarity for everyone.
 
-## When Coaching Doesn't Work
+### Step 10: When Coaching Doesn't Work
 
 Sometimes employees don't improve despite clear feedback and support. When this happens, escalate:
 
@@ -386,21 +396,21 @@ If you move to a formal performance improvement plan, structure it carefully:
 1. [Specific issue with metrics]
 2. [Specific issue with metrics]
 
-## Required Improvements
+### Step 11: Required Improvements
 1. [Measurable outcome] by [date]
 2. [Measurable outcome] by [date]
 
-## Support Provided
+### Step 12: Support Provided
 - Weekly 1:1 check-ins (30 min, Tuesdays 2 PM)
 - Pairing sessions with [senior engineer] (2x weekly)
 - Training on [specific skill] via [Pluralsight/etc]
 - Clear documentation of expectations
 
-## Consequences
+### Step 13: Consequences
 If improvements are not demonstrated by [end date]:
 - [Next step: role change, demotion, termination]
 
-## Success Definition
+### Step 14: Success Definition
 - Measurable: [specific metrics]
 - Achievable: with support offered
 - Relevant: directly tied to job requirements
@@ -408,6 +418,21 @@ If improvements are not demonstrated by [end date]:
 ```
 
 A good PIP shows the employee exactly what success looks like and gives them reasonable time and resources to achieve it.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -40,13 +40,23 @@ Managing client access across multiple SaaS tools (Linear, Slack, GitHub, Notion
 - **Mastering advanced features takes**: 1-2 weeks of regular use.
 - **What role levels does**: this tool support? 2.
 
-## Understanding the Permission Management Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Permission Management Challenge
 
 Remote teams typically use a stack of tools: project management (Linear, Asana, Jira), communication (Slack, Discord), documentation (Notion, Confluence), code hosting (GitHub, GitLab), and file storage (Google Drive, Dropbox). Each platform has its own permission model, and clients often need access to some—but not all—of these tools.
 
 The core problems emerge quickly: permissions drift as team members add new tools, onboarding new clients requires manual configuration across each platform, and offboarding becomes a security risk when access isn't systematically revoked.
 
-## Build a Centralized Permission Matrix
+### Step 2: Build a Centralized Permission Matrix
 
 Start by documenting your permission requirements in a structured format. This becomes your source of truth for both manual configuration and programmatic implementation.
 
@@ -83,7 +93,7 @@ roles:
 
 This YAML structure serves two purposes: it documents your intended permissions and can be processed by automation scripts to configure new client accounts.
 
-## Automate Provisioning with Scripted Onboarding
+### Step 3: Automate Provisioning with Scripted Onboarding
 
 Manual provisioning across five or more tools introduces errors and inconsistencies. A simple script can iterate through your tools and apply the correct permissions based on the assigned role.
 
@@ -168,7 +178,7 @@ if __name__ == "__main__":
 
 This script demonstrates the pattern—you'll need to adapt it to your specific tool versions and APIs. The key principle is centralizing role definitions and applying them consistently.
 
-## Implement Time-Bounded Access
+### Step 4: Implement Time-Bounded Access
 
 Client projects have natural lifecycles, and permissions should expire automatically. Most enterprise tools support temporal access controls.
 
@@ -217,7 +227,7 @@ async function reviewClientAccess() {
 }
 ```
 
-## Audit and Monitor Access Patterns
+### Step 5: Audit and Monitor Access Patterns
 
 Regular access audits catch permission drift before it becomes a security issue. Set up quarterly reviews that check three things: whether active clients still need access, whether permissions match their current role, and whether departed clients have been fully removed.
 
@@ -250,7 +260,7 @@ echo "## Notion External Shares"
 # Use Notion API to list pages shared externally
 ```
 
-## Document Your Permission Strategy
+### Step 6: Document Your Permission Strategy
 
 Create an internal reference document that answers these questions for each tool:
 
@@ -261,7 +271,7 @@ Create an internal reference document that answers these questions for each tool
 
 This documentation prevents knowledge silos and ensures consistent security practices regardless of who performs onboarding.
 
-## Offboarding Automation Script
+### Step 7: Offboarding Automation Script
 
 Client offboarding is where security risks concentrate:
 
@@ -305,6 +315,21 @@ Run this the moment a client engagement ends. Don't wait -- stale access is the 
 ## SCIM Provisioning for Enterprise Clients
 
 SCIM (System for Cross-domain Identity Management) automates provisioning across all connected tools. When you add a user in your identity provider (Okta, Azure AD, Google Workspace), SCIM automatically creates accounts in all connected applications with the correct permissions. Offboarding works the same way -- deactivate the user and SCIM revokes access everywhere simultaneously.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

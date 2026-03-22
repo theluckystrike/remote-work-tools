@@ -43,7 +43,17 @@ This guide covers practical methods to hide your messy room during video calls w
 4.
 - **They require decent lighting**: to work properly, they can glitch during important calls, and many platforms impose resolution or feature limitations.
 
-## Physical Backdrops: The Simplest Solution
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Physical Backdrops: The Simplest Solution
 
 The most reliable way to hide room clutter is to block it from the camera's view entirely. Physical backdrops work in any lighting condition and require zero computational resources. Unlike virtual backgrounds that require processing power and can glitch mid-call, physical solutions are foolproof.
 
@@ -97,7 +107,7 @@ $200+:    Permanent painted accent wall or wallpaper
 
 The motorized system is excellent for flexibility—pull down the backdrop when you need it, roll it up when you don't. This preserves wall space when you're not on camera.
 
-## Lighting Techniques to Minimize Visible Clutter
+### Step 2: Lighting Techniques to Minimize Visible Clutter
 
 Strategic lighting does more than just improve video quality—it can actively hide mess by drawing attention away from cluttered areas.
 
@@ -129,7 +139,7 @@ For developers working with minimal desk space, a desk-mounted LED panel provide
 
 Place inexpensive LED strip lights on your desk's rear edge, facing the wall. This creates subtle uplighting that brightens the immediate background while keeping your face as the focal point.
 
-## Camera Angle and Field of View Optimization
+### Step 3: Camera Angle and Field of View Optimization
 
 Your camera angle determines how much of your room appears in frame. Adjusting this is often the quickest fix for hiding clutter.
 
@@ -162,7 +172,7 @@ calculate_camera_distance() {
 calculate_camera_distance
 ```
 
-## OBS Virtual Camera: Advanced Background Control
+### Step 4: OBS Virtual Camera: Advanced Background Control
 
 For users comfortable with slightly more setup, OBS (Open Broadcaster Software) provides powerful background handling without AI-dependent virtual backgrounds.
 
@@ -190,7 +200,7 @@ After installation, add a Video Capture Device for your camera, then apply a Blu
 
 The most effective solution combines multiple techniques. Use a physical backdrop for the outer frame, position lighting to minimize background visibility, and apply light OBS blur for the final polish. This layered approach provides redundancy—if one element fails, others compensate.
 
-## Quick Solutions for Last-Minute Calls
+### Step 5: Quick Solutions for Last-Minute Calls
 
 When you need to hide mess immediately without preparation:
 
@@ -200,7 +210,7 @@ When you need to hide mess immediately without preparation:
 - **Use background blur** built into Zoom, Google Meet, or Teams—this uses simpler processing than full virtual backgrounds and often works better with less reliable results
 - **Move one item** into the camera's blind spot—often one repositioned object dramatically improves the frame
 
-## Workspace Design for Always-On Video
+### Step 6: Workspace Design for Always-On Video
 
 As video calls become more frequent, design your workspace with always-visible backgrounds in mind.
 
@@ -239,7 +249,7 @@ Visible clutter on your desk ruins even the best backdrop. Implement desk organi
 
 A clear desk requires 5-10 minutes of daily tidying but transforms your on-camera presence.
 
-## Platform-Specific Recommendations
+### Step 7: Platform-Specific Recommendations
 
 Different video platforms handle backgrounds differently. Optimize for your platform:
 
@@ -276,7 +286,7 @@ Teams offers both blur and image backgrounds:
 
 Teams' implementation is reliable, making it a good platform for custom backgrounds.
 
-## Emergency Solutions When You're Already on Camera
+### Step 8: Emergency Solutions When You're Already on Camera
 
 Sometimes you realize mid-call that your background is terrible. Quick fixes:
 
@@ -288,7 +298,7 @@ Sometimes you realize mid-call that your background is terrible. Quick fixes:
 
 The best solution remains forward planning—set up your corner before you need it, so last-minute video calls don't trigger panic.
 
-## Testing Your Background Setup
+### Step 9: Test Your Background Setup
 
 Before relying on your background for important calls, validate that it works:
 
@@ -299,6 +309,21 @@ Before relying on your background for important calls, validate that it works:
 5. **Check for distractions**: Watch for shadows from plants, reflections from windows, or unintended items in frame
 
 This validation prevents the surprise of discovering on a client call that your "clean" background has problems you didn't notice during setup.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

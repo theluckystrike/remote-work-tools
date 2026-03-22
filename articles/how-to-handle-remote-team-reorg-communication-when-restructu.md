@@ -40,13 +40,23 @@ Team reorganizations are challenging in any context, but remote and distributed 
 3.
 - **What information do we**: still need? 4.
 
-## Understanding the Remote Reorg Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Remote Reorg Challenge
 
 Remote organizations have distinct characteristics that amplify reorg friction. First, information travels through written channels, which lack tonal context and immediate clarification. Second, employees often work alone without peer support to process changes. Third, time zone gaps create information asymmetry—some team members learn news hours before others.
 
 When a company grows from 20 to 50 employees, the flat structure that worked before becomes unsustainable. New layers emerge, teams consolidate, reporting lines shift. The way you communicate these changes determines whether your team emerges stronger or scattered.
 
-## The Reorg Communication Framework
+### Step 2: The Reorg Communication Framework
 
 ### Phase 1: Preparation (Before Any Announcement)
 
@@ -146,7 +156,7 @@ Scale: 1-5
 Open: What's one thing that would help you right now?
 ```
 
-## Handling Difficult Scenarios
+### Step 3: Handling Difficult Scenarios
 
 ### Scenario 1: Someone Learns Through Rumors
 
@@ -175,7 +185,7 @@ When team members complain about learning news at bad hours:
 3. Set clear expectations that responses will come within 24 hours
 4. Acknowledge the inconvenience and commit to better scheduling going forward
 
-## Automation Tools for Reorg Communication
+### Step 4: Automation Tools for Reorg Communication
 
 Several tools can help manage communication at scale:
 
@@ -195,14 +205,14 @@ Example Slack channel structure:
 #reorg-general         - Non-specific questions and support
 ```
 
-## Building a Reorg Information Hub
+### Step 5: Build a Reorg Information Hub
 
 Create a centralized location where all reorg information lives:
 
 ```markdown
 # Reorg Information Hub (Notion/Confluence)
 
-## Quick Links
+### Step 6: Quick Links
 - [Full announcement](#announcement)
 - [FAQ](#faq)
 - [Org chart](#orgchart)
@@ -210,7 +220,7 @@ Create a centralized location where all reorg information lives:
 - [Timeline](#timeline)
 - [Q&A thread](#qa)
 
-## Announcement
+### Step 7: Announcement
 [Full announcement text with rationale]
 
 ## FAQ
@@ -233,25 +243,25 @@ A: [Schedule 1:1 with manager within 2 weeks]
 **Q: Will we have new team meetings?**
 A: [New meeting structure details]
 
-## New Organizational Structure
+### Step 8: New Organizational Structure
 [Visual org chart showing new reporting lines]
 
-## Role Descriptions
+### Step 9: Role Descriptions
 [Detailed description for each new role/team]
 
-## Timeline
+### Step 10: Timeline
 - [Date 1]: Announcement
 - [Date 2]: Manager 1:1s
 - [Date 3]: First new team meeting
 - [Date 4]: First check-in measurement
 
-## Questions & Answers Thread
+### Step 11: Questions & Answers Thread
 [Running log of Q&A responses]
 ```
 
 Share this hub in your initial announcement so people know where information lives.
 
-## Role Clarity Template
+### Step 12: Role Clarity Template
 
 For each role affected by the reorg, create a clear specification:
 
@@ -262,37 +272,37 @@ For each role affected by the reorg, create a clear specification:
 **Team:** [Team name]
 **Location:** [Physical location if hybrid]
 
-## Purpose
+### Step 13: Purpose
 [1-2 sentence summary of why this role exists]
 
-## Key Responsibilities
+### Step 14: Key Responsibilities
 1. [Responsibility 1]
 2. [Responsibility 2]
 3. [Responsibility 3]
 4. [Responsibility 4]
 
-## What's Changing
+### Step 15: What's Changing
 - Previous title: [Old title]
 - Previous manager: [Old manager]
 - New elements: [What's new]
 - What stays the same: [What hasn't changed]
 
-## Success Metrics
+### Step 16: Success Metrics
 - [Metric 1]
 - [Metric 2]
 - [Metric 3]
 
-## Career Path
+### Step 17: Career Path
 Progression to: [Next role in career ladder]
 Timeline: [Typical timeline - e.g., 18-24 months]
 
-## Support Available
+### Step 18: Support Available
 - Manager: [Available for questions weekly]
 - Peer mentors: [Names of people to learn from]
 - Training resources: [What's provided]
 ```
 
-## Measuring Success
+### Step 19: Measuring Success
 
 Track these metrics to gauge reorg communication effectiveness:
 
@@ -314,7 +324,7 @@ Track these metrics to gauge reorg communication effectiveness:
 | Voluntary attrition | 0 | 0 | 1 | <2 |
 ```
 
-## Escalation Procedures for Reorg Issues
+### Step 20: Escalation Procedures for Reorg Issues
 
 Create clear escalation paths for problems:
 
@@ -354,6 +364,21 @@ Create clear escalation paths for problems:
 5. **Failing to follow up:** A reorg announcement without follow-up creates a vacuum that rumors fill. Weekly check-ins, progress updates, and quick wins build momentum.
 
 6. **Changing too much too fast:** Limit changes to structure in reorg. Don't simultaneously change tools, policies, and processes. Stack changes across 2-3 months.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Articles
 

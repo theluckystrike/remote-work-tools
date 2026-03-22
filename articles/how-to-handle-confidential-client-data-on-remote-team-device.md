@@ -38,7 +38,17 @@ Remote teams handling confidential client data need encryption at rest, secure a
 - **Topics covered**: understanding the threat ecosystem, encrypt local storage, macos filevault
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Understanding the Threat ecosystem
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Threat ecosystem
 
 Remote work expands your attack surface significantly. Each team member's home network, personal device, and daily habits become potential entry points for bad actors. The most common risks include:
 
@@ -50,7 +60,7 @@ Remote work expands your attack surface significantly. Each team member's home n
 
 Address these risks through defense in depth—layering multiple security controls so that no single failure compromises your data.
 
-## Encrypt Local Storage
+### Step 2: Encrypt Local Storage
 
 Encryption transforms readable data into an unreadable format without the proper key. For remote team devices, implement full-disk encryption to protect everything automatically.
 
@@ -103,7 +113,7 @@ Enable-BitLocker -MountPoint "C:" -EncryptionMethod XtsAes256 -UsedSpaceOnly
 Enable-BitLocker -MountPoint "C:" -EncryptionMethod XtsAes256 -TpmProtector -PinProtector
 ```
 
-## Implement File-Level Encryption
+### Step 3: Implement File-Level Encryption
 
 Beyond full-disk encryption, apply file-level encryption for particularly sensitive documents. This ensures protection even when files move between systems or get accidentally shared.
 
@@ -161,7 +171,7 @@ age -p -i age-keys.txt -o client-data.tar.gz.age client-data.tar.gz
 age -d -i age-keys.txt -o client-data.tar.gz client-data.tar.gz.age
 ```
 
-## Secure File Transfer and Sharing
+### Step 4: Secure File Transfer and Sharing
 
 Remote teams need ways to share sensitive data without exposing it in transit or at rest. Avoid email attachments for confidential information.
 
@@ -190,7 +200,7 @@ Run this internally or behind your VPN to maintain control over sensitive transf
 
 For quick sharing between team members, consider tmpninja or similar services with automatic expiration. However, never use public file-sharing services for truly confidential client data.
 
-## Enforce Access Controls
+### Step 5: Enforce Access Controls
 
 Limit who can access what data through proper authentication and authorization.
 
@@ -241,7 +251,7 @@ conn = psycopg2.connect(
 )
 ```
 
-## Endpoint Protection and Monitoring
+### Step 6: Endpoint Protection and Monitoring
 
 Remote devices require active security monitoring beyond basic antivirus.
 
@@ -283,7 +293,7 @@ gsettings set org.gnome.desktop.screensaver lock-enabled true
 gsettings set org.gnome.desktop.screensaver lock-delay 300
 ```
 
-## Develop Clear Data Handling Policies
+### Step 7: Develop Clear Data Handling Policies
 
 Technical controls work best combined with clear team policies:
 
@@ -291,6 +301,21 @@ Technical controls work best combined with clear team policies:
 - Define retention periods: Specify how long different data types can remain on devices before secure deletion.
 - Establish incident response: Document what team members should do if a device is lost or suspicious activity is detected.
 - Regular audits: Periodically verify that security controls remain active and policies are followed.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

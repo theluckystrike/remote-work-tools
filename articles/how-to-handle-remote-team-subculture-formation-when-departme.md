@@ -40,7 +40,17 @@ When your engineering team operates asynchronously while your marketing team thr
 - **Maintain a living guide**: that explains each team's norms, preferences, and non-negotiables.
 - **Address Friction Points Directly**: When subculture differences cause measurable problems—missed deadlines, miscommunication, frustrated team members—address them explicitly.
 
-## Understanding Why Subcultures Form
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Why Subcultures Form
 
 Remote teams develop subcultures because different work types demand different workflows. An engineering team needs deep focus time, async code reviews, and documentation-heavy processes. A support team requires rapid response patterns and real-time coordination. A sales team optimizes for immediate availability and relationship-building.
 
@@ -48,7 +58,7 @@ This organic differentiation accelerates in distributed environments. Without ph
 
 The result: parallel universes of working norms that can create friction when they intersect.
 
-## Practical Strategies for Managing Subculture Divergence
+### Step 2: Practical Strategies for Managing Subculture Divergence
 
 ### 1. Establish Core Communication Protocols
 
@@ -114,19 +124,19 @@ When teams speak different operational languages, documentation becomes the tran
 ```markdown
 # Team Norms Handbook
 
-## Engineering Team
+### Step 3: Engineering Team
 - **Core hours**: 10am-2pm UTC (flexible outside)
 - **Async preferred**: RFCs required for major changes
 - **Code review**: Minimum 24-hour response window
 - **Meetings**: No-meetings Wednesdays
 
-## Design Team
+### Step 4: Design Team
 - **Core hours**: 9am-3pm UTC
 - **Sync preferred**: Quick video calls for feedback
 - **Review process**: Figma comments + async approval
 - **Meetings**: Daily 15-minute standups
 
-## Sales Team
+### Step 5: Sales Team
 - **Core hours**: 8am-6pm local (client-facing)
 - **Sync required**: Phone and video for negotiations
 - **Follow-up SLA**: Within 2 hours during business hours
@@ -167,7 +177,7 @@ When subculture differences cause measurable problems—missed deadlines, miscom
 Create a simple escalation template:
 
 ```markdown
-## Cross-Team Friction Report
+### Step 6: Cross-Team Friction Report
 
 **Issue**: [Describe the specific problem]
 
@@ -182,7 +192,7 @@ Create a simple escalation template:
 **Verification**: [How to measure if it works]
 ```
 
-## Real-World Scenario: The Async-Sync Collision
+### Step 7: Real-World Scenario: The Async-Sync Collision
 
 Consider a common scenario: Engineering commits to async-first development with 24-hour response times. Marketing needs quick turnarounds on landing page changes and expects near-instant responses.
 
@@ -200,7 +210,7 @@ A practical resolution might look like:
 
 This approach respects both teams' operational needs without forcing either to completely abandon their working style.
 
-## Diagnosing Subculture Friction Before It Becomes a Problem
+### Step 8: Diagnosing Subculture Friction Before It Becomes a Problem
 
 Most teams discover subculture conflicts only after they produce a visible failure: a missed deadline, a stalled cross-functional project, or turnover in a team that felt perpetually misunderstood. By then, the friction has been building for months.
 
@@ -212,7 +222,7 @@ Use these leading indicators to catch divergence early:
 
 **Onboarding confusion.** New hires who join a cross-functional role — product managers, designers embedded in engineering — are the clearest signal of subculture divergence. If they consistently report confusion about "how things work here," the norms handbook is either incomplete or not being shared during onboarding.
 
-## Subculture Divergence Across Timezone Clusters
+### Step 9: Subculture Divergence Across Timezone Clusters
 
 Subcultures intensify when they align with timezone clusters. A fully distributed team where APAC engineers operate on one schedule and US-based sales and marketing operate on another doesn't just have functional differences — they have temporal separation that reinforces those differences daily.
 
@@ -220,7 +230,7 @@ When the APAC engineering team rarely overlaps with the US marketing team in rea
 
 Bridging this variant of subculture divergence requires explicit overlap time design. A weekly 30-minute cross-team sync placed at the one hour of overlap between UTC+8 and UTC-5 (early morning US / late afternoon APAC) creates a forcing function that neither team would naturally generate on their own. Leadership must schedule it and protect it — it won't emerge organically.
 
-## Measuring Subculture Health Over Time
+### Step 10: Measuring Subculture Health Over Time
 
 Managing subculture divergence is an ongoing practice, not an one-time fix. Build a lightweight measurement framework so you know whether your interventions are working.
 
@@ -230,13 +240,28 @@ For engineering-heavy organizations, you can track subculture health through tic
 
 Revisit your team norms handbook every quarter. Norms evolve as teams grow, shrink, onboard new leads, or shift product strategy. A norms handbook written in Q1 for a 12-person team is likely partially obsolete by Q4. Assign a rotating owner from each department to submit an one-paragraph update each quarter confirming that their section is still accurate.
 
-## The Long-Term View
+### Step 11: The Long-Term View
 
 Subculture formation in remote teams isn't something you eliminate—it's something you manage. The goal isn't uniformity; it's conscious differentiation with bridges between islands.
 
 Successful remote organizations embrace department-specific optimization while maintaining enough common ground for collaboration. This requires ongoing attention, explicit agreements, and regular recalibration as teams evolve.
 
 The teams that thrive in remote environments are those that treat norm differences as design challenges to solve, not problems to eliminate. Build the protocols, create the rituals, document the differences, and address friction when it emerges. Your teams will find their rhythms, and those rhythms can coexist productively.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

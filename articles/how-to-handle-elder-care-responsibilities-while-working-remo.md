@@ -42,13 +42,23 @@ This guide provides practical strategies and technical solutions specifically de
 - **Mastering advanced features takes**: 1-2 weeks of regular use.
 - **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
 
-## Setting Up Boundaries and Communication
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Boundaries and Communication
 
 The foundation of successfully managing remote work and elder care starts with clear communication with your employer. Before taking on caregiving responsibilities, have an honest conversation about your situation. Many companies now offer flexible arrangements that can accommodate unexpected interruptions.
 
 Document your availability and create a shared calendar with your team. Transparency about your schedule helps manage expectations and prevents misunderstandings. If your caregiving duties require unpredictable time blocks, consider proposing a core hours model where you're available during specific windows but have flexibility for the rest.
 
-## Automating Care Coordination
+### Step 2: Automate Care Coordination
 
 For developers, automation can significantly reduce the mental overhead of managing appointments and medications. Here's a simple Python script using the Google Calendar API to keep track of elder care appointments:
 
@@ -96,7 +106,7 @@ if __name__ == '__main__':
 
 This script runs as a cron job to automatically import caregiving appointments into your work calendar, ensuring you never miss important responsibilities while maintaining focus during deep work sessions.
 
-## Building a Care Station
+### Step 3: Build a Care Station
 
 Creating a dedicated physical space for caregiving tasks helps maintain boundaries between work and care responsibilities. A care station might include:
 
@@ -124,7 +134,7 @@ automation:
         message: "It's time for morning medication in the kitchen"
 ```
 
-## Time Blocking for Caregivers
+### Step 4: Time Blocking for Caregivers
 
 Time blocking works exceptionally well for remote workers managing caregiving duties. Divide your day into dedicated blocks:
 
@@ -135,7 +145,7 @@ Time blocking works exceptionally well for remote workers managing caregiving du
 
 Use a tool like Todoist or Notion to manage these blocks visually. The key is protecting your deep work time while remaining responsive to caregiving needs.
 
-## Managing Interruptions Gracefully
+### Step 5: Manage Interruptions Gracefully
 
 Despite best planning, interruptions will happen. Develop a protocol for handling them:
 
@@ -164,7 +174,7 @@ update_status() {
 # update_status "In a meeting" "calendar"
 ```
 
-## using Remote Work Benefits
+### Step 6: Use Remote Work Benefits
 
 Remote work offers unique advantages for caregivers that office workers cannot access:
 
@@ -175,7 +185,7 @@ Remote work offers unique advantages for caregivers that office workers cannot a
 
 Document your caregiving situation properly. Many HR departments now recognize caregiver burnout as a valid concern. Some companies offer caregiver leave, flexible spending accounts for medical expenses, or employee assistance programs.
 
-## Building a Support Network
+### Step 7: Build a Support Network
 
 Technical solutions alone cannot address the emotional and physical demands of elder care. Build a support network:
 
@@ -184,7 +194,7 @@ Technical solutions alone cannot address the emotional and physical demands of e
 - Use meal delivery services to reduce daily workload
 - Coordinate with siblings or family members using shared task management
 
-## Tools for Managing Caregiving and Work
+### Step 8: Tools for Managing Caregiving and Work
 
 The right tools reduce mental load significantly:
 
@@ -215,7 +225,7 @@ The right tools reduce mental load significantly:
 - Google Drive (free) for shared documents
 - Total cost: ~$36/year plus hardware
 
-## Realistic Caregiving Schedules for Remote Workers
+### Step 9: Realistic Caregiving Schedules for Remote Workers
 
 Rather than trying to do everything, structure your day to separate work and caregiving:
 
@@ -268,7 +278,7 @@ Evening (5-7 PM):
 
 This schedule gives you 7 hours of work time by sharing caregiving load.
 
-## Respite Care and Cost Planning
+### Step 10: Respite Care and Cost Planning
 
 Professional respite care gives you uninterrupted work blocks:
 
@@ -297,7 +307,7 @@ Many employers offer caregiver support through employee assistance programs (EAP
 
 Document caregiver costs—many are tax-deductible if you're providing financial support to a dependent.
 
-## Work Performance with Caregiving
+### Step 11: Work Performance with Caregiving
 
 Be realistic about productivity while caregiving:
 
@@ -318,7 +328,7 @@ Set expectations with your manager:
 
 Most managers respect honest communication more than pretending to be unaffected.
 
-## Preventing Caregiver Burnout
+### Step 12: Preventing Caregiver Burnout
 
 The biggest risk isn't work performance—it's your health:
 
@@ -338,7 +348,7 @@ The biggest risk isn't work performance—it's your health:
 
 Many companies offer caregiver counseling through EAP. Use it.
 
-## Legal Documents to Prepare
+### Step 13: Legal Documents to Prepare
 
 Caregiving creates administrative requirements:
 
@@ -355,6 +365,21 @@ Have these conversations:
 - Who's the backup caregiver if you can't continue?
 
 Having these conversations difficult but prevents crisis decisions later.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

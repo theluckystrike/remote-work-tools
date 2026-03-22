@@ -28,7 +28,17 @@ This guide covers practical strategies for developers and power users who switch
 - **Use backup authentication –**: If you registered multiple methods, try the alternative Prevent this situation by testing your recovery flow before you need it.
 - **The solution isn't to**: avoid 2FA—it's to build redundancy into your authentication strategy before you need it.
 
-## Understanding the Core Problem
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Core Problem
 
 When you insert a new SIM card, your phone gets a new phone number (unless you're using eSIM with number porting). Most 2FA implementations that depend on SMS will either:
 
@@ -39,7 +49,7 @@ Authenticator apps tied to a specific device also create issues. If you switch p
 
 The solution isn't to avoid 2FA—it's to build redundancy into your authentication strategy before you need it.
 
-## Strategy 1: Use Authenticator Apps with Cloud Backup
+### Step 2: Strategy 1: Use Authenticator Apps with Cloud Backup
 
 The most reliable approach for frequent travelers is using authenticator apps that support cloud synchronization. These apps store your 2FA secrets in encrypted cloud storage, allowing you to restore them on any new device.
 
@@ -74,7 +84,7 @@ bw create item login \
 
 This approach means your 2FA codes travel with your password vault. When you get a new phone, you install the password manager app, log in, and all your TOTP codes are immediately available.
 
-## Strategy 2: Export and Store Recovery Codes Properly
+### Step 3: Strategy 2: Export and Store Recovery Codes Properly
 
 Every serious service provides recovery codes when you enable 2FA. The common mistake is storing these digitally in an unsecured location or worse, not storing them at all.
 
@@ -105,7 +115,7 @@ gpg --decrypt ~/2fa-recovery-codes.txt.gpg
 
 The GPG approach gives you military-grade encryption for your recovery codes. Store the encrypted file in cloud storage (Dropbox, Google Drive, iCloud) and remember your passphrase.
 
-## Strategy 3: Use Hardware Tokens as Primary 2FA
+### Step 4: Strategy 3: Use Hardware Tokens as Primary 2FA
 
 Hardware security keys like YubiKey or Titan provide the most travel-resistant authentication method. These devices don't depend on phone numbers, SIM cards, or internet connectivity. You plug in or tap the key to authenticate.
 
@@ -151,7 +161,7 @@ async function registerHardwareKey() {
 
 The key advantage for frequent SIM changers: hardware tokens work regardless of your phone number. You could lose your phone entirely and still authenticate with your YubiKey.
 
-## Strategy 4: Keep a Static Number Through VoIP
+### Step 5: Strategy 4: Keep a Static Number Through VoIP
 
 If you need a consistent phone number for SMS-based 2FA, consider a VoIP service that provides a persistent number. Google Voice (US only), Skype, or services like NumberBarn give you a number that stays constant regardless of your physical SIM card.
 
@@ -163,7 +173,7 @@ However, this approach has caveats:
 
 For developers who primarily use authenticator apps, this serves as a backup for services that insist on SMS verification.
 
-## Strategy 5: Prepare Before You Travel
+### Step 6: Strategy 5: Prepare Before You Travel
 
 The most important strategy is preparation. Before changing SIM cards or traveling:
 
@@ -187,7 +197,7 @@ PRE-DEPARTURE 2FA CHECKLIST:
 EOF
 ```
 
-## What to Do If You're Locked Out
+### Step 7: What to Do If You're Locked Out
 
 If you change your SIM and lose access to 2FA-protected accounts:
 
@@ -198,7 +208,7 @@ If you change your SIM and lose access to 2FA-protected accounts:
 
 Prevent this situation by testing your recovery flow before you need it. Set a calendar reminder every 6 months to verify you can access your recovery codes and test a login recovery.
 
-## Building Your Long-Term Setup
+### Step 8: Build Your Long-Term Setup
 
 For developers who travel frequently, the optimal setup combines multiple layers:
 
@@ -211,6 +221,21 @@ This layered approach means no single point of failure. Your SIM card change bec
 
 The initial setup takes some time, but the peace of mind is worth it. Your authentication stays functional regardless of where you are, what SIM card you're using, or which devices you have access to.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions
@@ -235,12 +260,12 @@ The patterns shown here follow standard practices, but production deployments ne
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Real-World Scenario: Recovery After Losing Access
+### Step 9: Real-World Scenario: Recovery After Losing Access
 
 Here's a real scenario of losing 2FA access and recovery:
 
 ```markdown
-## Incident: Lost Phone in Berlin, 48 Hours from Important Deadline
+### Step 10: Incident: Lost Phone in Berlin, 48 Hours from Important Deadline
 
 **Situation:**
 - Phone with all 2FA codes dropped in Berlin taxi
@@ -306,7 +331,7 @@ Here's a real scenario of losing 2FA access and recovery:
 | **SMS-based 2FA** | Universal, works on any phone | Carriers can swap SIM, can be intercepted | Last resort only, avoid if possible |
 | **Backup phone** | Completely independent device | Synchronization burden, another device to carry | Redundancy if you travel frequently |
 
-## Building Your Personal 2FA Architecture
+### Step 11: Build Your Personal 2FA Architecture
 
 Design a resilient 2FA setup before traveling:
 
@@ -391,7 +416,7 @@ class PersonalAuthenticationArchitecture:
         return steps
 ```
 
-## Professional 2FA Management for Teams
+### Step 12: Professional 2FA Management for Teams
 
 If you're managing multiple accounts for a team or business:
 
@@ -455,12 +480,12 @@ self_hosted_alternative:
   - Best for: High security requirements, compliance-heavy industries
 ```
 
-## Monthly 2FA Maintenance Checklist
+### Step 13: Monthly 2FA Maintenance Checklist
 
 Schedule this for the first of every month:
 
 ```markdown
-## 2FA Maintenance Checklist (15 minutes)
+### Step 14: 2FA Maintenance Checklist (15 minutes)
 
 - [ ] Test login to 3 random critical accounts using 2FA
 - [ ] Verify primary authenticator app is up to date
@@ -473,7 +498,7 @@ Schedule this for the first of every month:
 - [ ] Verify backup person still has copy of recovery codes
 - [ ] Rotate encrypted backup codes if using shared vault
 
-## What NOT to Do
+### Step 15: What NOT to Do
 
 - **Don't:** Share recovery codes via email or messaging
 - **Don't:** Assume you'll remember your security key PIN

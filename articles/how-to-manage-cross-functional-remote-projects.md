@@ -25,7 +25,17 @@ Manage cross-functional remote projects by assigning single-owner accountability
 - **Begin integration testing with**: test payments 3.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Establishing Clear Ownership and Accountability
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Establishing Clear Ownership and Accountability
 
 The first challenge in any cross-functional project is defining who owns what. Without clear ownership, tasks fall through the gaps and dependencies create bottlenecks. Start by mapping out each team member's responsibilities in a RACI matrix (Responsible, Accountable, Consulted, Informed).
 
@@ -47,7 +57,7 @@ task:
 
 Assign each task a single accountable owner—the person who ensures the work gets done. Collaborators contribute to the task but don't own its completion. This distinction prevents the diffusion of responsibility that often plagues remote teams.
 
-## Building Effective Communication Channels
+### Step 2: Build Effective Communication Channels
 
 Cross-functional teams need multiple communication channels serving different purposes. Resist the urge to consolidate everything into one tool. Instead, create a channel strategy that matches communication urgency and type:
 
@@ -63,7 +73,7 @@ When working across time zones, establish "office hours"—specific times when t
 Structured async updates reduce meeting fatigue and keep everyone informed without requiring real-time presence. Use a consistent format:
 
 ```
-## Project: Payment Gateway Integration
+### Step 3: Project: Payment Gateway Integration
 
 ### Completed This Week
 - API client library for Stripe integration
@@ -84,7 +94,7 @@ Structured async updates reduce meeting fatigue and keep everyone informed witho
 3. Update API documentation
 ```
 
-## Managing Dependencies Across Functions
+### Step 4: Manage Dependencies Across Functions
 
 Dependencies are where cross-functional projects most commonly break down. A developer can't complete their task without design assets; QA can't test without a feature built. Explicitly track these dependencies and their status.
 
@@ -124,7 +134,7 @@ print(tracker.get_blockers("DEV-201"))  # Returns ["DES-142"]
 
 Review dependencies weekly in your sync meetings. Identify tasks at risk and communicate blockers early—when someone realizes they can't complete their work, they should flag it immediately rather than waiting for someone else to notice.
 
-## Automating Coordination Overhead
+### Step 5: Automate Coordination Overhead
 
 Remote teams waste significant time on coordination overhead—status checks, manual updates, and context-switching between tools. Automation reduces this burden while keeping everyone aligned.
 
@@ -156,7 +166,7 @@ Automated standups: Use bots to collect async updates and aggregate them for the
 
 CI/CD visibility: Ensure the entire team sees build status and deployment progress. When a feature reaches production, automatic notifications help everyone see progress without asking.
 
-## Running Effective Remote Planning Sessions
+### Step 6: Run Effective Remote Planning Sessions
 
 Planning cross-functional projects remotely requires extra preparation. Distribute any pre-reading 24 hours before your planning session. This includes:
 
@@ -174,7 +184,7 @@ Structure your planning sessions to respect attention spans:
 3. **Synthesis** (15 minutes): Share findings and make decisions
 4. **Commitment** (10 minutes): Confirm assignments and timelines
 
-## Measuring and Improving Remote Collaboration
+### Step 7: Measuring and Improving Remote Collaboration
 
 Track metrics that indicate cross-functional health:
 
@@ -227,7 +237,7 @@ async function notifyDependentTeams(completedTaskId) {
 
 This prevents teams from missing the signal that they can now start.
 
-## Real-World Example: 3-Month Product Launch
+### Step 8: Real-World Example: 3-Month Product Launch
 
 Here's how a cross-functional project with design, engineering, and QA manages dependencies:
 
@@ -252,7 +262,7 @@ Here's how a cross-functional project with design, engineering, and QA manages d
 
 Each phase has explicit blockers defined at the start. Teams know what unlocks their work and when to escalate.
 
-## Preventing Cross-Functional Drift
+### Step 9: Preventing Cross-Functional Drift
 
 As projects span months, teams can drift out of alignment. Prevent this with:
 
@@ -270,25 +280,25 @@ Example format for async standups in a shared document:
 ```markdown
 # Weekly Cross-Functional Sync — Week of March 20
 
-## Design (Jessica)
+### Step 10: Design (Jessica)
 - ✅ Completed: User dashboard mockups (revision 3)
 - 🔄 In Progress: Settings page responsive breakpoints
 - 🚫 Blocked: Waiting on engineering constraints for search performance
 - ❓ Need: Backend team input on search latency expectations
 
-## Engineering - Backend (Mike)
+### Step 11: Engineering - Backend (Mike)
 - ✅ Completed: Search API endpoints (basic implementation)
 - 🔄 In Progress: Database query optimization
 - 🚫 Blocked: None
 - ❓ Need: Design team clarification on search result display format
 
-## Engineering - Frontend (Alex)
+### Step 12: Engineering - Frontend (Alex)
 - ✅ Completed: Component library setup
 - 🔄 In Progress: Integrating with search API
 - 🚫 Blocked: Waiting on final search API response format from backend
 - ❓ Need: Exact API response format from backend team
 
-## QA (Sarah)
+### Step 13: QA (Sarah)
 - ✅ Completed: Test plan outline
 - 🔄 In Progress: Setting up test environment
 - 🚫 Blocked: Need access to staging environment
@@ -297,6 +307,21 @@ Example format for async standups in a shared document:
 
 This format is quick to write (5 minutes), easy to parse, and creates visibility without meetings.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

@@ -32,7 +32,17 @@ Fully remote startups handle sensitive data across countless locations, networks
 
 For startup teams, the stakes are particularly high. Unlike established enterprises with dedicated IT departments and budgets, startups need lightweight solutions that scale without overwhelming limited resources.
 
-## Core Components of a Device Management Policy
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Components of a Device Management Policy
 
 A practical device management policy addresses four key areas: device selection, security requirements, access controls, and incident response. Each component should be documented clearly and distributed to all team members during onboarding.
 
@@ -184,7 +194,7 @@ network:
     recommended: Cloudflare (1.1.1.1) or Quad9 (9.9.9.9)
 ```
 
-## Mobile Device Management Solutions
+### Step 2: Mobile Device Management Solutions
 
 For startups ready to invest in dedicated management tools, Mobile Device Management (MDM) platforms provide centralized control. Popular options include:
 
@@ -210,12 +220,12 @@ tools:
     - Crowdstrike or SentinelOne (endpoint protection)
 ```
 
-## Incident Response Procedures
+### Step 3: Plan Incident Response Procedures
 
 Every device management policy must include clear incident response steps. Define what happens when a device is lost, stolen, or compromised.
 
 ```markdown
-## Device Loss Response Procedure
+### Step 4: Device Loss Response Procedure
 
 1. **Immediate Reporting** (within 1 hour)
    - Notify IT security team via dedicated channel
@@ -238,7 +248,7 @@ Every device management policy must include clear incident response steps. Defin
    - Conduct security review within 48 hours
 ```
 
-## Policy Enforcement Strategies
+### Step 5: Policy Enforcement Strategies
 
 Enforcing device policies without dedicated IT staff requires automation. Use configuration profiles for macOS, group policy for Windows, and Ansible or Chef playbooks for Linux.
 
@@ -269,6 +279,21 @@ Example Ansible playbook for Linux security hardening:
  name: fail2ban
  state: present
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

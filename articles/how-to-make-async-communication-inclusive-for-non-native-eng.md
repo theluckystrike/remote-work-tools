@@ -41,7 +41,17 @@ If you write async communication that assumes native-level English fluency, you'
 - **When you write async**: messages that work for non-native English speakers, you build a more inclusive team where everyone can contribute their best ideas.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## The Problem with English-Centric Async Communication
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Problem with English-Centric Async Communication
 
 When you type quickly during a busy workday, you likely use idioms, slang, and complex sentence structures without thinking. Phrases like "circle back," "deep dive," or "low-hanging fruit" make perfect sense to native speakers but create confusion for others. Compound sentences with multiple clauses, passive voice, and implicit context all increase cognitive load.
 
@@ -51,7 +61,7 @@ Consider this typical Slack message:
 
 This message contains three idioms ("touch base," "barking up the wrong tree," "table this") and assumes the reader knows the sprint schedule. For a non-native speaker, parsing this takes significantly more effort than for a fluent speaker.
 
-## Writing Clear Async Messages
+### Step 2: Writing Clear Async Messages
 
 The core principle is simple: write for clarity first, brevity second. Clear communication actually takes less time to produce because it reduces follow-up questions and misunderstandings.
 
@@ -89,7 +99,7 @@ Non-native speakers often struggle with implied context. Include information tha
 
 **Strong:** "I've opened PR #247 that implements the user dashboard. Please review the changes by Wednesday so we can merge before the release. The main changes are in `dashboard.js` and `api-routes.js`."
 
-## Code Examples and Technical Writing
+### Step 3: Code Examples and Technical Writing
 
 For developer teams, technical communication carries additional complexity. Code examples, error messages, and technical discussions need special attention.
 
@@ -134,7 +144,7 @@ Fixes #142"
 When writing technical documentation, spell out scenarios that native speakers might infer:
 
 ```markdown
-## API Rate Limiting
+### Step 4: API Rate Limiting
 
 The API allows 100 requests per minute per API key.
 
@@ -145,7 +155,7 @@ Edge cases:
 - There's no burst allowance—clients must space requests evenly
 ```
 
-## Tools That Help
+### Step 5: Tools That Help
 
 Several tools can help your team write more inclusive async communication:
 
@@ -164,7 +174,7 @@ Several tools can help your team write more inclusive async communication:
 - Designate "clarification champions" who help rephrase confusing messages
 - Review past communications for patterns that cause confusion
 
-## Building Inclusive Async Habits
+### Step 6: Build Inclusive Async Habits
 
 Making async communication inclusive requires ongoing attention, not one-time fixes. Start by auditing your recent written communications:
 
@@ -177,7 +187,7 @@ Then pick one improvement to focus on for two weeks. Small changes compound—us
 
 The goal isn’t to dumb down your communication. It’s to remove unnecessary barriers that have nothing to do with intelligence or capability. When you write async messages that work for non-native English speakers, you build a more inclusive team where everyone can contribute their best ideas.
 
-## Tools That Help with Inclusive Communication
+### Step 7: Tools That Help with Inclusive Communication
 
 Several tools can help you write more clearly:
 
@@ -201,30 +211,30 @@ Several tools can help you write more clearly:
 - Review past confusing messages and rewrite them clearly
 - Celebrate clear writing when you see it
 
-## Communication Standards Template
+### Step 8: Communication Standards Template
 
 Create a team document with these standards:
 
 ```markdown
 # Our Communication Standards for Clarity
 
-## Sentence Structure
+### Step 9: Sentence Structure
 - Average sentence: 15-20 words maximum
 - Use active voice (developer creates code, not code is created)
 - One main idea per sentence
 
-## Vocabulary
+### Step 10: Vocabulary
 - Avoid industry jargon without explanation
 - Avoid idioms ("circle back" → "discuss again later")
 - Avoid complex words when simple words work
 
-## Organization
+### Step 11: Organization
 - Use numbered lists for steps
 - Use bullet points for related items
 - Use headers to break up long text
 - Lead with the main point, not background
 
-## Examples of Our Standards
+### Step 12: Examples of Our Standards
 
 Bad:
 "We should probably touch base regarding the API refactor since I think we’re barking up the wrong tree."
@@ -252,7 +262,7 @@ Good:
 
 Share this with your team, update with real examples from your Slack history.
 
-## Measuring Inclusive Communication
+### Step 13: Measuring Inclusive Communication
 
 Track whether your communication changes are working:
 
@@ -279,7 +289,7 @@ Ask non-native English speakers:
 
 Act on specific feedback. If multiple people say "circle back" is confusing, the team should stop using it.
 
-## Building Inclusive Technical Communication
+### Step 14: Build Inclusive Technical Communication
 
 For engineering teams, technical clarity is extra important:
 
@@ -364,7 +374,7 @@ prices = get_all_prices(item_ids) # Query 1
 This reduces database queries from 101 to 2.
 ```
 
-## Leadership Actions for Inclusive Communication
+### Step 15: Leadership Actions for Inclusive Communication
 
 As a manager or senior engineer, you set the tone:
 
@@ -375,6 +385,21 @@ As a manager or senior engineer, you set the tone:
 5. **Never mock language mistakes**: People should feel safe trying
 
 Your behavior creates psychological safety around communication. When you ask for clarification without judgment, the whole team does.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

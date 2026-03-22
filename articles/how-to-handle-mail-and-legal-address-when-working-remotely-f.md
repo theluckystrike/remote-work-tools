@@ -43,7 +43,17 @@ This guide covers practical solutions for handling postal mail, maintaining a le
 - **One of the most**: overlooked complexities is managing your physical mail and maintaining a legal address in your home country while effectively living elsewhere.
 - **The solution involves a**: combination of digital forwarding services, trusted contacts, and strategic use of registered agents.
 
-## The Core Problem: Why Your Address Matters
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Problem: Why Your Address Matters
 
 Your home country address serves multiple critical functions:
 
@@ -55,7 +65,7 @@ Your home country address serves multiple critical functions:
 
 When you're in Portugal, Thailand, or Colombia for six months, you cannot simply ignore these communications. The solution involves a combination of digital forwarding services, trusted contacts, and strategic use of registered agents.
 
-## Mail Forwarding Services: The Foundation
+### Step 2: Mail Forwarding Services: The Foundation
 
 Commercial mail forwarding services solve the physical problem by receiving your mail and converting it to digital format or forwarding it internationally.
 
@@ -114,7 +124,7 @@ async function getUrgentMail() {
 
 The main tradeoff with these services: they add a layer between you and your mail, which can introduce delays for time-sensitive documents.
 
-## Trusted Person Proxy: Lower Cost Alternative
+### Step 3: Trusted Person Proxy: Lower Cost Alternative
 
 If you have a trusted family member or friend in your home country, designating them as your authorized agent provides a free alternative. This works well for:
 
@@ -145,7 +155,7 @@ Authorized activities:
 
 This approach requires someone reliable and introduces privacy considerations—your proxy has access to your financial mail.
 
-## Banking Considerations for Extended Travel
+### Step 4: Banking Considerations for Extended Travel
 
 Banks increasingly scrutinize customers who appear to live abroad while maintaining domestic accounts. Proactive communication prevents account freezes or closures.
 
@@ -175,7 +185,7 @@ PATCH /api/v1/account/settings \
 
 **Keep a domestic phone number** for 2FA. Many banks require SMS or call-based authentication. Services like Google Voice (for US numbers) or number forwarding services maintain your domestic presence for verification codes.
 
-## Legal Address for Tax and Voting
+### Step 5: Legal Address for Tax and Voting
 
 Your legal address determines tax residency in most countries. For US citizens, the IRS considers factors beyond just where you receive mail—the centers of your life matter. However, maintaining a home country address helps establish tax home documentation.
 
@@ -203,7 +213,7 @@ def estimate_state_tax(income, state, filing_status="single"):
 
 For voting, most states require physical presence or intent to return. A mail forwarding address typically satisfies voter registration requirements, but check your specific state's rules.
 
-## Practical Setup: Putting It Together
+### Step 6: Practical Setup: Putting It Together
 
 A mail and address strategy for long-term remote work typically includes:
 
@@ -246,6 +256,21 @@ mail_rules:
 **Failing to update voter registration** can result in losing voting rights. Most states allow overseas voters to participate in federal elections.
 
 The right setup for your situation depends on your home country, destination, income type, and how long you plan to stay abroad. Start with a mail forwarding solution, establish banking communication preferences, and build from there.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

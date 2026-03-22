@@ -52,7 +52,17 @@ Before examining solutions, understand what's at stake. Violations of state paid
 
 For a company with 50 employees across multiple states, a mistake that affects 20 employees could result in six-figure liability. More importantly, leave law violations often surface during state audits triggered by other issues—and regulators scrutinize everything once they start looking.
 
-## The Fundamental Problem: State-by-State Variation
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Fundamental Problem: State-by-State Variation
 
 Each US state with paid leave mandates operates under its own rules. The variations affect several key dimensions:
 
@@ -68,7 +78,7 @@ Each US state with paid leave mandates operates under its own rules. The variati
 
 Before hiring in any new state, verify the current requirements directly through the state's labor department website. Laws change frequently, and municipal ordinances often add another layer on top of state requirements.
 
-## Quick Reference: Current Leave Laws (2026)
+### Step 2: Quick Reference: Current Leave Laws (2026)
 
 This snapshot shows major state mandates as of 2026. Laws change frequently, so verify before implementation:
 
@@ -174,7 +184,7 @@ def calculate_accrued_leave(
 
 This basic structure gives you a foundation. Expand it to handle city-level rules, employer size adjustments, and carryover calculations as your team grows.
 
-## Handling Multi-State Payroll
+### Step 3: Handling Multi-State Payroll
 
 Integrating leave tracking with your payroll system requires mapping each employee's location to the correct calculation. Most modern payroll platforms support multi-state configuration, but you must verify the setup for each new hire.
 
@@ -198,7 +208,7 @@ Consider creating a simple schema for each employee record:
 
 When an employee splits time across locations, you may need to apportion leave accrual based on where work was performed. This is complex but manageable with proper tracking.
 
-## Practical Considerations for Your Team
+### Step 4: Practical Considerations for Your Team
 
 Beyond the technical implementation, consider these operational factors:
 
@@ -229,7 +239,7 @@ actions:
 
 Annual review process: Schedule a quarterly review of state leave laws. Subscribe to your state's labor law email updates or use a compliance service that tracks these changes. Update your code and policies when laws change.
 
-## Common Pitfalls to Avoid
+### Step 5: Common Pitfalls to Avoid
 
 One mistake remote employers make is applying their headquarters state rules to all employees. This works fine in states without mandates but creates legal exposure in states with requirements. Every employee location must receive compliant treatment regardless of where your company is incorporated.
 
@@ -237,7 +247,7 @@ Another error involves ignoring city ordinances. Several cities impose additiona
 
 Finally, do not treat independent contractors the same as employees for leave purposes. Contractor agreements do not trigger paid leave obligations, but misclassification creates significant legal risk. If your contractor relationship looks like employment in practice, you may owe leave benefits regardless of what the contract states.
 
-## Getting Help
+### Step 6: Getting Help
 
 Employment law compliance grows complex as your team spans more locations. Consider consulting with an employment attorney in each state where you have employees when establishing your initial presence. For ongoing management, many companies use professional employer organizations (PEOs) or employer of record (EOR) services that assume compliance responsibility.
 
@@ -274,6 +284,21 @@ If an employee claims they weren't given proper leave time, having detailed accr
 
 This documentation is your defense if a state labor board investigates a complaint.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

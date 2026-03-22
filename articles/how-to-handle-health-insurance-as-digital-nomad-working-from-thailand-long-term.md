@@ -53,7 +53,17 @@ While Thailand does not mandate health insurance for all visa types, certain app
 
 The Thailand Elite Visa, while expensive ($15,000-$30,000 upfront), comes with a concierge service that can assist with hospital navigation, visa extensions, and sometimes insurance referrals. For nomads planning a decade-long stay, this service layer is worth factoring into total cost calculations. The LTR Visa, launched in 2022 and expanded in 2023, is the better option for working professionals because it explicitly recognizes remote employment income as qualifying — unlike the Elite Visa which has no income requirement.
 
-## Local Thai Health Insurance vs International Plans
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Local Thai Health Insurance vs International Plans
 
 You have two primary paths: local Thai health insurance or international travel/expat insurance. Each has distinct advantages.
 
@@ -120,7 +130,7 @@ Beyond premium costs, what actually matters is claim processing speed and denial
 
 One practical step before committing to any provider: search the provider name alongside "Thailand claim denied" or "Thailand claim experience" in Facebook groups like Nomad List, Chiang Mai Digital Nomads, and Bangkok Nomads. Real claim experiences from people in the same situation are far more useful than marketing materials.
 
-## Practical Strategy: The Hybrid Approach
+### Step 2: Practical Strategy: The Hybrid Approach
 
 Many long-term digital nomads use a hybrid strategy that combines local and international coverage:
 
@@ -131,7 +141,7 @@ This approach optimizes costs while ensuring you have coverage for emergencies r
 
 The coordination of benefits between two policies requires attention. When you have both a local and an international plan, clarify which is primary for each type of claim. Most international plans want to be secondary for locally-available services but primary for evacuation. Get this confirmed in writing from both providers before you need to use it — claim-time surprises about coordination of benefits are common and frustrating.
 
-## Key Considerations for Developers
+### Step 3: Key Considerations for Developers
 
 As a developer or tech professional, consider these additional factors:
 
@@ -157,7 +167,7 @@ Many modern insurance providers offer telemedicine consultations — useful when
 
 SafetyWing, Cigna, and Allianz all include telemedicine access. This is particularly valuable for developers in Chiang Mai or on islands who aren't near a major international hospital. A telemedicine consultation can distinguish a situation requiring a hospital visit from one manageable with local pharmacy antibiotics — saving time and money.
 
-## Estimating Healthcare Costs in Thailand
+### Step 4: Estimating Healthcare Costs in Thailand
 
 Understanding actual costs helps you choose appropriate coverage levels:
 
@@ -182,7 +192,7 @@ Even without insurance, these costs are significantly lower than in the US or Eu
 
 Note that dental care is often excluded from both local and international health insurance but is genuinely affordable in Thailand without coverage. Bumrungrad International Hospital's dental center in Bangkok charges $40-80 for a standard cleaning — comparable to what many people pay as a copay in the US. Budget separately for dental rather than prioritizing finding a plan that includes it.
 
-## Actionable Steps to Secure Coverage
+### Step 5: Actionable Steps to Secure Coverage
 
 1. Assess your visa status: Determine which visa you'll hold and any insurance requirements
 2. Calculate your budget: Monthly premiums plus expected out-of-pocket expenses
@@ -234,7 +244,7 @@ Thailand's Long-Term Resident (LTR) visa launched in 2022 specifically targets r
 
 Document your insurance in your LTR application — it demonstrates financial responsibility and increases approval likelihood. Keep policy documentation accessible in cloud storage (Google Drive, Dropbox) for border runs and visa extensions.
 
-## Working with Thai Healthcare Systems
+### Step 6: Work with Thai Healthcare Systems
 
 Thailand's medical system is excellent but operates differently from Western systems. Understanding how insurance works with Thai hospitals saves both money and frustration:
 
@@ -254,7 +264,7 @@ When you arrive at a private hospital for a non-emergency, go to the insurance d
 
 If you're in a remote area (northern Thailand, islands), evacuation coverage becomes critical. Many international plans exclude evacuation or require you to pay first.
 
-## Thailand-Specific Health Risks for Remote Workers
+### Step 7: Thailand-Specific Health Risks for Remote Workers
 
 Your insurance should cover these common concerns:
 
@@ -277,7 +287,7 @@ As a remote worker, your tax situation affects insurance choices:
 
 For US citizens, Thailand has no tax treaty with the US, meaning your foreign-earned income may still be subject to US taxation above the Foreign Earned Income Exclusion ($126,500 in 2024). Health insurance premiums paid while abroad can offset some of this — but only if you're properly self-employed or have the right business structure. A consultation with an US expat tax specialist (services like Bright!Tax or Greenback Tax specialize in this) is worth the $200-400 fee before committing to a multi-year Thailand stay.
 
-## Building Your Insurance Stack for Long-Term Stability
+### Step 8: Build Your Insurance Stack for Long-Term Stability
 
 Rather than choosing one provider, successful long-term nomads in Thailand layer coverage:
 
@@ -296,7 +306,7 @@ Rather than choosing one provider, successful long-term nomads in Thailand layer
 
 This three-layer approach typically costs $250-400/month but provides genuine peace of mind for multi-year stays.
 
-## Renewal and Policy Persistence
+### Step 9: Renewal and Policy Persistence
 
 Health insurance renewal in Thailand differs from the US. Plan your renewal carefully:
 
@@ -307,6 +317,21 @@ Health insurance renewal in Thailand differs from the US. Plan your renewal care
 - Some providers discontinue plans without notice — track industry changes via digital nomad communities
 
 Join groups like Bangkok Nomads or Thailand Digital Nomads on Facebook to hear about other people's real experiences with insurance claims and renewals.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

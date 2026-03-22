@@ -27,7 +27,17 @@ These ring-light-style screens fold flat and pop open in seconds.
 - **Front-Facing Light ($20-150): Position**: a desk lamp or ring light in front of you.
 - **Backdrop Lighting ($40-100): Place**: a light behind you aimed at the wall.
 
-## 1. Rearrange Your Camera Angle
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: 1. Rearrange Your Camera Angle
 
 The simplest solution is to point your camera at the cleanest part of your space. Most rooms have at least one wall or corner that's relatively tidy.
 
@@ -38,7 +48,7 @@ The simplest solution is to point your camera at the cleanest part of your space
 
 This approach takes seconds and requires no equipment beyond adjusting your laptop or webcam position.
 
-## 2. Use a Physical Backdrop
+### Step 2: 2. Use a Physical Backdrop
 
 A portable backdrop gives you a consistent, professional look without relying on software. Several options work well for different budgets:
 
@@ -76,7 +86,7 @@ Popular models:
 
 **Pro Setup Tip:** Combine a backdrop with lighting (see section 3) for best results. Position the backdrop 3-4 feet behind you to create natural depth in your camera frame.
 
-## 3. Master Lighting to Hide Clutter
+### Step 3: 3. Master Lighting to Hide Clutter
 
 Smart lighting draws attention away from mess and toward you. The right light setup can reduce background visibility by 50-70% through exposure and focus effects.
 
@@ -132,7 +142,7 @@ Advanced setup ($200-350):
 - Physical backdrop (~$40)
 - Professional studio quality for frequent video calls
 
-## 4. Declutter the Camera's View Only
+### Step 4: 4. Declutter the Camera's View Only
 
 You don't need to clean your whole room—just what the camera sees:
 
@@ -143,7 +153,7 @@ You don't need to clean your whole room—just what the camera sees:
 
 This approach works because video calls typically show only 5-10% of your room.
 
-## 5. use Depth of Field
+### Step 5: 5. use Depth of Field
 
 If your camera or software supports it, use shallow depth of field to blur the background:
 
@@ -153,7 +163,7 @@ If your camera or software supports it, use shallow depth of field to blur the b
 
 This gives you the clean look of a virtual background without the processing artifacts.
 
-## 6. Choose the Right Background Objects
+### Step 6: 6. Choose the Right Background Objects
 
 If you can't hide everything, strategically place items that look professional:
 
@@ -164,7 +174,7 @@ If you can't hide everything, strategically place items that look professional:
 
 The goal isn't perfection—it's a background that doesn't distract from you.
 
-## Quick Setup Checklist
+### Step 7: Quick Setup Checklist
 
 Before your next call, verify:
 
@@ -176,7 +186,7 @@ Before your next call, verify:
 
 These physical solutions work every time, don't require software processing, and work even when your internet connection is too slow for real-time background processing.
 
-## 7. Camera Distance and Framing
+### Step 8: 7. Camera Distance and Framing
 
 Adjust your camera positioning to minimize what the lens captures. A camera positioned 2-3 feet from your face captures a wider view of your room. A camera positioned 4-5 feet away with good zoom creates a tighter frame showing primarily your upper body, making background clutter less noticeable.
 
@@ -187,7 +197,7 @@ Adjust your camera positioning to minimize what the lens captures. A camera posi
 
 This technique works particularly well for standing desks or adjustable setups where you can fine-tune distance during setup.
 
-## 8. Strategic Décor Positioning
+### Step 9: 8. Strategic Décor Positioning
 
 If you can't hide your background, decorate it intentionally. The goal is creating a focal point that draws attention away from clutter:
 
@@ -199,7 +209,7 @@ If you can't hide your background, decorate it intentionally. The goal is creati
 
 Avoid cluttered arrangements. Three well-chosen items beat ten decorative pieces.
 
-## 9. Quick Setup Routine Before Video Calls
+### Step 10: 9. Quick Setup Routine Before Video Calls
 
 Create a pre-call checklist that takes 3 minutes:
 
@@ -212,7 +222,7 @@ Create a pre-call checklist that takes 3 minutes:
 
 Keep a small basket near your desk for quick toss-ins during the call setup phase.
 
-## 10. Seasonal Background Changes
+### Step 11: 10. Seasonal Background Changes
 
 Update your background strategy with seasons:
 
@@ -224,7 +234,7 @@ Update your background strategy with seasons:
 
 Rotating seasonal approaches prevents your background from looking stale across dozens of calls.
 
-## 11. Multi-Call Daily Setup Strategy
+### Step 12: 11. Multi-Call Daily Setup Strategy
 
 If you have multiple video calls daily, create a permanent "call-ready" corner rather than adjusting each time:
 
@@ -239,7 +249,7 @@ Once set up, all future calls use the same backdrop, lighting, and camera angle.
 **Cost:** One-time investment ($100-300) but eliminates daily setup time
 **Benefit:** Professional consistency across all calls
 
-## 12. Emergency Backup Solutions
+### Step 13: 12. Emergency Backup Solutions
 
 Meetings happen unexpectedly. Prepare quick workarounds:
 
@@ -284,6 +294,21 @@ sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder
 # In macOS: System Settings > Network > WiFi > Preferred Networks
 # Move your 5GHz SSID to the top of the list
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

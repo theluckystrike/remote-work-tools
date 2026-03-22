@@ -27,7 +27,7 @@ This is the scaling problem every distributed team faces. Communication norms th
 - **But the alternative**: communication breakdown, knowledge silos, and meeting overload — is far worse.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Recognizing When Your Communication Norms Are Breaking
+### Step 1: Recognizing When Your Communication Norms Are Breaking
 
 The symptoms of communication breakdown are often subtle at first, then suddenly overwhelming. Watch for these indicators:
 
@@ -41,7 +41,7 @@ Knowledge silos emerge: As teams grow, information that used to flow freely now 
 
 When these symptoms appear, your communication norms have stopped working at scale. It's time to rebuild them intentionally.
 
-## Building Communication Norms That Scale
+### Step 2: Build Communication Norms That Scale
 
 ### 1. Establish Explicit Channel Architecture
 
@@ -70,28 +70,28 @@ Unstructured messages don't scale. Establish templates for common communication 
 
 **Pull request descriptions** should include:
 ```markdown
-## Context
+### Step 3: Context
 Why is this change needed?
 
-## Approach
+### Step 4: Approach
 How does this implementation work?
 
-## Testing
+### Step 5: Test
 What verification was performed?
 
-## Screenshots (if applicable)
+### Step 6: Screenshots (if applicable)
 Visual confirmation of changes
 ```
 
 **Decision requests** should follow a lightweight RFC pattern:
 ```markdown
-## Problem
+### Step 7: Problem
 What pain point does this solve?
 
-## Proposed Solution
+### Step 8: Proposed Solution
 Concrete approach
 
-## Questions for Reviewer
+### Step 9: Questions for Reviewer
 Specific items needing feedback
 ```
 
@@ -102,7 +102,7 @@ Ambiguity about response times creates anxiety and inefficiency. Define and docu
 ```markdown
 # Team Communication Guidelines
 
-## Response Time Expectations
+### Step 10: Response Time Expectations
 - Slack/Direct Messages: 24 hours during business days
 - Email: 48 hours
 - Pull Request Reviews: 48 hours
@@ -114,7 +114,7 @@ If you've received no response after 2x the expected time:
 2. If still no response, mention team lead
 ```
 
-## Tools and Automation for Communication at Scale
+### Step 11: Tools and Automation for Communication at Scale
 
 Manual communication enforcement doesn't scale. Automate what you can.
 
@@ -167,7 +167,7 @@ def route_notification(message, sender, recipients):
     store_for_async_read(message)
 ```
 
-## Documenting Decisions and Creating Institutional Memory
+### Step 12: Documenting Decisions and Creating Institutional Memory
 
 As teams grow, tribal knowledge becomes a liability. What everyone "just knows" in a small team becomes inaccessible in a larger one.
 
@@ -178,7 +178,7 @@ Create a simple, searchable decision log:
 ```markdown
 # Decision Log Template
 
-## [Date] - [Short Title]
+### Step 13: [Date] - [Short Title]
 
 **Status**: [Proposed/Accepted/Deprecated]
 
@@ -207,17 +207,17 @@ Document recurring processes so they don't require individual explanation each t
 - [ ] Code review approved
 - [ ] Feature flag enabled in staging
 
-## Steps
+### Step 14: Steps
 1. Merge to production branch
 2. Verify CI pipeline completes
 3. Monitor error rate for 15 minutes
 4. If error rate > 1%, rollback and alert team
 
-## Rollback Command
+### Step 15: Rollback Command
 git revert HEAD && git push --force
 ```
 
-## Tool Selection for Async Communication at Scale
+### Step 16: Tool Selection for Async Communication at Scale
 
 Choosing the right tools shapes whether your communication norms actually stick. Here is a comparison of tools commonly used by remote engineering teams at the 20-50 person stage:
 
@@ -234,7 +234,7 @@ Choosing the right tools shapes whether your communication norms actually stick.
 
 For most remote engineering teams hitting their first growth pain around fifteen to thirty people, a combination of Slack with strict channel taxonomy, Linear for issue tracking, Notion for decisions and runbooks, and Loom for async video covers the essential surface area without forcing people to learn too many new tools simultaneously.
 
-## Managing the Transition Period
+### Step 17: Manage the Transition Period
 
 The hardest part of rebuilding communication norms is the gap between when you announce new processes and when they become habit. Expect two to four weeks of friction regardless of how well-designed the new system is.
 
@@ -246,7 +246,7 @@ Three tactics that smooth the transition:
 
 **Name a communication owner.** In small teams this is often the engineering lead. Their job is not to police violations but to model the norms, update the guidelines when they stop working, and surface friction points before they become team-wide complaints.
 
-## Calibrating Communication as You Continue Growing
+### Step 18: Calibrating Communication as You Continue Growing
 
 The communication norms that work for twenty people won't work for fifty. Build in regular review cycles:
 
@@ -264,6 +264,21 @@ Communication at scale is a moving target. The teams that thrive are those that 
 
 The shift from organic to intentional communication feels uncomfortable at first. But the alternative — communication breakdown, knowledge silos, and meeting overload — is far worse. Invest in rebuilding your norms now, and your future scaling self will thank you.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

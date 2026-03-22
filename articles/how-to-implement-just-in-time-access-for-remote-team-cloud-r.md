@@ -34,7 +34,17 @@ Just-in-time access is a security model where users receive elevated privileges 
 
 When the access window expires, credentials become invalid automatically. This approach dramatically reduces the blast radius of compromised credentials and helps organizations meet compliance requirements like SOC 2, ISO 27001, and PCI-DSS.
 
-## Core Components of a JIT Access System
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Components of a JIT Access System
 
 A functional JIT system requires several moving parts:
 
@@ -44,7 +54,7 @@ A functional JIT system requires several moving parts:
 4. **Access Enforcement** – Enforcement of time-limited access
 5. **Audit Logging** – Complete record of who accessed what and when
 
-## Implementing JIT Access with AWS
+### Step 2: Implementing JIT Access with AWS
 
 AWS provides several mechanisms for JIT access. The most common approach uses IAM roles with session policies and the AWS Security Token Service (STS).
 
@@ -132,7 +142,7 @@ class JITAccessRequest:
 
 This basic request object tracks the approval lifecycle and expiration. In production, you'd persist these to a database and integrate with notification systems.
 
-## Implementing JIT with Azure
+### Step 3: Implementing JIT with Azure
 
 Azure AD Privileged Identity Management (PIM) provides built-in JIT capabilities for Azure resources.
 
@@ -163,7 +173,7 @@ Open-AzureADPrivilegedRoleAssignmentRequest `
 
 Users with eligible assignments can activate their role through the Azure portal or API when needed. Activation requires justification and optionally approval from a privileged administrator.
 
-## Implementing JIT with GCP
+### Step 4: Implementing JIT with GCP
 
 GCP's IAM offers conditions for time-based access control.
 
@@ -186,7 +196,7 @@ bindings:
 
 This condition restricts access to business hours, but for true JIT access, you'll want to combine IAM with a custom solution or use Binary Authorization.
 
-## Purpose-Built JIT Access Tools for Remote Teams
+### Step 5: Purpose-Built JIT Access Tools for Remote Teams
 
 While cloud-native JIT mechanisms work, several dedicated platforms speed up the entire workflow for distributed teams.
 
@@ -238,13 +248,28 @@ Begin with non-production resources to validate your JIT workflow. Once confiden
 
 Remote team members need clear instructions on how to request access, what to include in justifications, and what to do if access is denied unexpectedly.
 
-## Common Pitfalls to Avoid
+### Step 6: Common Pitfalls to Avoid
 
 - **Overly permissive session policies** – Time-limited access is useless if the session policy grants full admin rights
 - **Bypassing JIT for "emergencies"** – This defeats the purpose; instead, design fast-track approval workflows
 - **Poor visibility into active sessions** – You need real-time awareness of who has access right now
 - **Session duration creep** – Teams often start with 60-minute sessions and gradually extend to 8 hours "for convenience." Audit session durations quarterly and push back against unnecessary extensions.
 - **Ignoring service account JIT** – Human accounts get the JIT treatment but long-lived service account keys accumulate. Apply the same time-bound thinking to machine identities using AWS IAM Roles for Service Accounts or GCP Workload Identity Federation.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

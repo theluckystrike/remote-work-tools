@@ -27,7 +27,17 @@ Implement Conditional Access policies in Azure Entra ID to require multi-factor 
 - **Baseline policy**: Require MFA for all cloud apps
 2.
 
-## Understanding Conditional Access Fundamentals
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Conditional Access Fundamentals
 
 Conditional Access works on a simple principle: evaluate signals about a user's identity and environment, then decide whether to grant access, block access, or require additional verification. The core components include:
 
@@ -37,7 +47,7 @@ Conditional Access works on a simple principle: evaluate signals about a user's 
 
 For remote workers, the most relevant signals include device compliance, location, sign-in risk, and user risk levels. You combine these signals to create policies that protect your organization without creating friction for legitimate users.
 
-## Building Your First Remote Worker Policy
+### Step 2: Build Your First Remote Worker Policy
 
 The most common starting point is requiring multi-factor authentication (MFA) for remote access. This ensures that even if credentials are compromised, attackers cannot access your resources without a second factor.
 
@@ -104,7 +114,7 @@ Remote workers often use personal devices or laptops that may not meet your orga
 
 This policy prevents access to Microsoft 365, the Azure portal, and custom applications from devices that aren't marked as compliant in Intune. For developers accessing code repositories or CI/CD pipelines, you can target specific applications with this same approach.
 
-## Location-Based Access Control
+### Step 3: Location-Based Access Control
 
 Geographic restrictions add another security layer. You can create named locations in Microsoft Entra ID and use them in Conditional Access policies to allow or block access from specific countries.
 
@@ -140,7 +150,7 @@ Then create the policy:
 
 For remote teams with global distribution, you might instead choose to require MFA for any sign-in outside your expected regions, rather than blocking entirely.
 
-## Implementing Risk-Based Policies
+### Step 4: Implementing Risk-Based Policies
 
 Azure Identity Protection provides risk detection that feeds directly into Conditional Access. You can create policies that respond to risky sign-ins automatically.
 
@@ -167,7 +177,7 @@ Azure Identity Protection provides risk detection that feeds directly into Condi
 
 This policy forces users flagged as high risk to change their password before gaining access. Combined with MFA requirements, this creates a defense-in-depth approach.
 
-## Session Policies for Data Protection
+### Step 5: Session Policies for Data Protection
 
 Beyond blocking or granting access, Conditional Access supports session policies that control what users can do after authenticating. These are particularly useful for protecting sensitive data in cloud applications.
 

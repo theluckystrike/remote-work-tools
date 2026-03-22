@@ -40,7 +40,17 @@ When a remote developer leaves your team, the knowledge they've accumulated over
 - **Runbooks work best for high-stakes**: low-frequency tasks that must be executed correctly.
 - **Critical systems that only**: one person understands demand immediate attention.
 
-## Start the Handoff Process Early
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Start the Handoff Process Early
 
 The most critical factor in successful knowledge handoff is timing. As soon as you know a developer is leaving, initiate the process. Ideally, provide two to three weeks for knowledge transfer. Rushed handoffs result in gaps that surface as production issues weeks later.
 
@@ -54,7 +64,7 @@ Begin with a knowledge audit. Work with the departing developer to identify:
 
 Create a prioritized list based on business impact. Critical systems that only one person understands demand immediate attention.
 
-## Documenting Technical Knowledge
+### Step 2: Documenting Technical Knowledge
 
 Technical knowledge falls into two categories: current state documentation and historical context. Both matter, but teams often focus on the former while ignoring the why behind decisions.
 
@@ -84,13 +94,13 @@ Identify areas of the codebase where the departing developer has unique expertis
 
 Record these sessions. Screen recordings with audio commentary become invaluable references for future developers.
 
-## Creating a Handoff Document
+### Step 3: Create a Handoff Document
 
 A structured handoff document ensures nothing falls through the cracks. Here's a template you can adapt:
 
 ```markdown
 # Developer Handoff Document
-## [Developer Name] - Last Day: [Date]
+### Step 4: [Developer Name] - Last Day: [Date]
 
 ### Systems Owned
 | System | Criticality | Documentation Status |
@@ -121,7 +131,7 @@ Why we chose PostgreSQL over MongoDB: [explanation]
 Decision to refactor auth in 2024: [explanation]
 ```
 
-## Transferring Institutional Knowledge
+### Step 5: Transferring Institutional Knowledge
 
 Technical documentation captures what systems do, but institutional knowledge covers how your team works. This context often exists only in people's heads.
 
@@ -153,7 +163,7 @@ Remote developers often build relationships with external contacts. Note:
 - Open source maintainers they interact with
 - Internal stakeholders in other departments
 
-## Using Knowledge Management Tools
+### Step 6: Use Knowledge Management Tools
 
 Several tools help capture and preserve knowledge effectively.
 
@@ -164,16 +174,16 @@ Architecture Decision Records (ADRs): A lightweight practice for documenting tec
 ```markdown
 # ADR-001: Use PostgreSQL for Primary Database
 
-## Status
+### Step 7: Status
 Accepted
 
-## Context
+### Step 8: Context
 We need a database for the core application that handles user data, transactions, and reporting.
 
-## Decision
+### Step 9: Decision
 We will use PostgreSQL as our primary database.
 
-## Consequences
+### Step 10: Consequences
 - Pro: Strong ACID compliance for transactions
 - Pro: Excellent JSON support for flexible schemas
 - Con: Requires more setup than SQLite
@@ -182,7 +192,7 @@ We will use PostgreSQL as our primary database.
 
 Video Documentation: Loom and similar tools enable quick video walkthroughs. A 10-minute screen recording explaining a complex process often communicates more than pages of written documentation.
 
-## Post-Departure Validation
+### Step 11: Post-Departure Validation
 
 After a developer leaves, verify your knowledge base actually works. Assign someone to:
 
@@ -192,7 +202,7 @@ After a developer leaves, verify your knowledge base actually works. Assign some
 
 This validation catches gaps while they're fixable. Create a feedback loop where the person covering these responsibilities documents what was missing.
 
-## Building a Culture of Documentation
+### Step 12: Build a Culture of Documentation
 
 The best handoff is one that's unnecessary because knowledge was captured incrementally. Encourage documentation as part of daily work:
 
@@ -258,67 +268,67 @@ Example runbook structure for a payment system outage:
 ```markdown
 # RUNBOOK: Payment Service Outage Response
 
-## Severity: Critical
+### Step 13: Severity: Critical
 
-## Trigger Conditions
+### Step 14: Trigger Conditions
 - Payment success rate drops below 95% for 5+ minutes
 - Payment processing latency exceeds 10 seconds
 - Customer complaints arrive faster than 10/minute in Slack
 
-## Pre-Steps (Do these before escalating)
+### Step 15: Pre-Steps (Do these before escalating)
 1. Check Datadog dashboard: /links/payment-system-health
 2. Query last 100 failed transactions: `SELECT * FROM payment_errors LIMIT 100`
 3. Check for recent deployments: `git log --oneline origin/main -10`
 
-## If Database Connection Timeout
+### Step 16: If Database Connection Timeout
 1. SSH to payment-db-primary
 2. Run: `show processlist` to check active connections
 3. If >800 connections, kill idle: `KILL QUERY <process_id>`
 
-## If Service Unavailable
+### Step 17: If Service Unavailable
 1. Check deployment status: `kubectl get deployment payment-api`
 2. If pods stuck terminating, force: `kubectl delete pod <pod-name> --grace-period=0 --force`
 
-## Escalation
+### Step 18: Escalation
 Call on-call engineer: ${ONCALL_ENGINEER_PHONE}
 ```
 
 Runbooks reduce decision-making during high-stress situations. The departing developer's knowledge, encoded as a procedure, becomes executable by their replacement.
 
-## Knowledge Audit Template
+### Step 19: Knowledge Audit Template
 
 Before the handoff meeting with the departing developer, use this template to ensure nothing gets missed:
 
 ```markdown
 # Knowledge Audit: [Developer Name]
 
-## Critical Path Systems (Will cause revenue impact if down)
+### Step 20: Critical Path Systems (Will cause revenue impact if down)
 - [ ] System: [Name]
   - Owner: [Developer Name]
   - Backup: [Assigned to]
   - Monitoring dashboard: [URL]
   - Escalation contact: [Name/Phone]
 
-## High Maintenance Systems (Frequent operational overhead)
+### Step 21: High Maintenance Systems (Frequent operational overhead)
 - [ ] System: [Name]
   - Frequency of intervention: [Daily/Weekly/Monthly]
   - Common issues: [List]
   - Typical resolution time: [X minutes]
 
-## Knowledge Held by One Person Only
+### Step 22: Knowledge Held by One Person Only
 - [ ] Technical area: [Name]
   - Why only one person? [Decision context]
   - Documented where? [URL]
   - Can be owned by: [Name] (starting date)
 
-## External Dependencies (Vendor relationships, API keys)
+### Step 23: External Dependencies (Vendor relationships, API keys)
 - [ ] Service: [Name]
   - Account owner: [Developer Name]
   - Key contact: [Vendor name/email]
   - Auth method: [OAuth/API key/...]
   - Renewal date: [Date]
 
-## Recent Decision Making
+### Step 24: Recent Decision Making
 - [ ] Major decision: [What changed]
   - Made by: [Developer Name]
   - Decision record: [URL to ADR or Slack thread]
@@ -327,7 +337,7 @@ Before the handoff meeting with the departing developer, use this template to en
 
 Complete this audit collaboratively with the departing developer. Their input on what matters most prevents you from over-documenting low-stakes areas.
 
-## Measuring Handoff Success: 30-60-90 Days
+### Step 25: Measuring Handoff Success: 30-60-90 Days
 
 Don't assume the handoff worked just because the developer left. Measure success through a structured follow-up process:
 
@@ -339,7 +349,7 @@ Don't assume the handoff worked just because the developer left. Measure success
 
 If you don't hit these milestones, schedule additional mentoring sessions or pair programming. It's far cheaper than having two people context-switching back to the old developer's systems.
 
-## Building Preventive Documentation Practices
+### Step 26: Build Preventive Documentation Practices
 
 The best handoff is one that's unnecessary because knowledge was captured continuously:
 
@@ -350,6 +360,21 @@ The best handoff is one that's unnecessary because knowledge was captured contin
 5. **Pair programming on critical paths** - rotate pairing so knowledge spreads, not concentrates
 
 These practices compound over time. After six months of continuous documentation, handoffs become friction-free because knowledge was never siloed.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

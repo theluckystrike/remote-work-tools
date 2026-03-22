@@ -44,7 +44,17 @@ Remote work transforms emergency communication from a simple walk-down-the-hall 
 
 Clients remember how you handle crises far more vividly than routine deliveries. A well-executed emergency response builds trust that takes months of good work to establish. Conversely, a chaotic response—even if you eventually solve the problem—plants seeds of doubt about your agency's reliability.
 
-## Establishing Your Emergency Communication Framework
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Establishing Your Emergency Communication Framework
 
 ### Define What Constitutes an Emergency
 
@@ -93,7 +103,7 @@ Level 4: Agency Principal (as needed)
 
 Share this chain with your client upfront so they know who to expect hearing from and when.
 
-## Building Your Emergency Toolkit
+### Step 2: Build Your Emergency Toolkit
 
 ### Essential Tools for Remote Emergency Response
 
@@ -137,7 +147,7 @@ def generate_oncall_schedule(team_members, weeks_ahead=4):
 
 Rotate primary and backup engineers so everyone gets predictable recovery time after on-call duty.
 
-## Responding to Client Emergencies: A Step-by-Step Guide
+### Step 3: Responding to Client Emergencies: A Step-by-Step Guide
 
 ### Immediate Response (0-15 minutes)
 
@@ -175,7 +185,7 @@ Once the immediate crisis passes:
 
 4. **Update documentation** — Add this incident to your knowledge base so future responders can learn from it.
 
-## Managing Client Communication During Emergencies
+### Step 4: Manage Client Communication During Emergencies
 
 ### Setting Expectations Early
 
@@ -210,7 +220,7 @@ Never say these phrases during client emergencies:
 - "You should have..." — Never blame clients, even subtly
 - Silence — No update is worse than a "still working on it" update
 
-## Preventing Future Emergencies
+### Step 5: Preventing Future Emergencies
 
 ### Proactive Measures
 
@@ -232,6 +242,21 @@ Conduct blameless post-mortems that focus on:
 - Timeline for implementation
 
 Share relevant findings with clients when appropriate—they appreciate transparency and seeing your commitment to improvement.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

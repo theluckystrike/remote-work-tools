@@ -39,13 +39,23 @@ Managing overtime pay for remote workers introduces complexity that most HR syst
 - **Create separate time-tracking spreadsheets**: per state if needed 3.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Understanding the Federal Baseline
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Federal Baseline
 
 The Fair Labor Standards Act (FLSA) establishes the federal baseline: non-exempt employees must receive overtime pay at 1.5x their regular rate for hours worked over 40 in a workweek. However, states can—and do—set stricter requirements.
 
 As a developer or team lead, you need to understand that federal law serves as the minimum, not the maximum. Your compliance strategy must always default to whichever law is more favorable to the employee.
 
-## State-by-State Threshold Differences
+### Step 2: State-by-State Threshold Differences
 
 The most significant variation between states is the overtime threshold. Here's a comparison of key states:
 
@@ -58,7 +68,7 @@ The most significant variation between states is the overtime threshold. Here's 
 
 California stands out as particularly important for remote teams. Even if your employee works remotely from their home in Austin, if your company has California nexus, you may need to comply with California overtime rules.
 
-## Building a State-Aware Overtime Calculator
+### Step 3: Build a State-Aware Overtime Calculator
 
 For developers integrating overtime calculations into time-tracking systems, here's a practical approach:
 
@@ -138,7 +148,7 @@ def calculate_overtime(hours_worked: float, hourly_rate: float, state: State) ->
     }
 ```
 
-## Practical Scenarios for Remote Teams
+### Step 4: Practical Scenarios for Remote Teams
 
 ### Scenario 1: California Employee Working Remotely
 
@@ -182,7 +192,7 @@ For teams managing remote workers across states, consider these practical steps:
 
 4. Document Employee Location: Maintain records of where each remote employee works. State laws can change based on employee location.
 
-## Common Pitfalls to Avoid
+### Step 5: Common Pitfalls to Avoid
 
 Treating all states equally: Using federal rules for everyone will expose you to compliance issues in states like California, which has aggressive overtime enforcement.
 
@@ -192,7 +202,7 @@ Forgetting about double time: California requires double pay (2x regular rate) f
 
 Not updating rates: Each state's threshold and minimum wage changes yearly. Your systems need to reflect current rates.
 
-## Implementation Recommendations
+### Step 6: Implementation Recommendations
 
 For developers building time-tracking or payroll integrations:
 
@@ -223,7 +233,7 @@ As your distributed team grows, additional layers of complexity emerge:
 
 **On-call and standby time:** Time spent on-call may or may not count as "hours worked" depending on state and circumstances. Get clarity in writing from legal counsel.
 
-## Audit Preparation
+### Step 7: Audit Preparation
 
 Even with good intentions, audits happen. Prepare by maintaining:
 
@@ -235,7 +245,7 @@ Even with good intentions, audits happen. Prepare by maintaining:
 
 An auditor is more likely to give you leniency if you've clearly documented your good-faith effort to comply.
 
-## Common Audit Findings
+### Step 8: Common Audit Findings
 
 Audits often uncover these issues:
 
@@ -246,7 +256,7 @@ Audits often uncover these issues:
 
 Most audits result in back pay owed plus penalties. Proactive compliance is far cheaper than remediation.
 
-## Payroll Integration Tools
+### Step 9: Payroll Integration Tools
 
 Modern payroll systems handle multi-state compliance better than manual approaches:
 
@@ -257,7 +267,7 @@ Modern payroll systems handle multi-state compliance better than manual approach
 
 Even if you use manual spreadsheets, consider a tool that at least validates your calculations against state law rules.
 
-## Building Team Culture Around Fair Compensation
+### Step 10: Build Team Culture Around Fair Compensation
 
 Transparency about overtime policy builds trust:
 
@@ -268,6 +278,21 @@ Transparency about overtime policy builds trust:
 **Avoid encouraging overtime:** If your engineering culture celebrates working long hours, you're building a compliance liability. Instead, celebrate shipping efficient work and protecting team health.
 
 Compliance with overtime laws across states requires attention to detail and proactive system design. Whether you're building tools or managing teams directly, understanding these differences prevents costly mistakes and ensures your remote workers receive correct compensation.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

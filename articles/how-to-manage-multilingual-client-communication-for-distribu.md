@@ -40,7 +40,17 @@ This guide provides practical workflows and technical solutions for managing mul
 - **Topics covered**: understanding the multilingual communication challenge, building a translation infrastructure, setting up translation memory
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Understanding the Multilingual Communication Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Multilingual Communication Challenge
 
 Client communication differs from internal team communication in critical ways. Clients expect responses in their native language, culturally appropriate tone, and consistent terminology across all touchpoints. A mistranslated email or culturally insensitive phrase can damage relationships that took months to build.
 
@@ -53,7 +63,7 @@ The core challenges include:
 
 Technical solutions exist for each of these problems, but they require deliberate process design.
 
-## Building a Translation Infrastructure
+### Step 2: Build a Translation Infrastructure
 
 Before implementing workflows, establish a translation infrastructure that supports your team's needs. This doesn't require expensive enterprise solutions—open source tools work well for most agency needs.
 
@@ -98,7 +108,7 @@ Load this into your client communication system to ensure translators and team m
 Response templates reduce drafting time and maintain consistency. Create templates for common client scenarios:
 
 ```markdown
-## Project Update Template (German)
+### Step 3: Project Update Template (German)
 
 **Projektstatus**: {{status}}
 
@@ -116,7 +126,7 @@ Bei Fragen stehe ich Ihnen gerne zur Verfügung.
 
 Store templates in your project management tool with placeholders that team members fill in before sending.
 
-## Implementing Client Communication Workflows
+### Step 4: Implementing Client Communication Workflows
 
 With infrastructure in place, design workflows that keep communication flowing smoothly.
 
@@ -190,7 +200,7 @@ function scheduleEmail(clientId, subject, body, sendHour = 9) {
 
 Clients receive messages when they're likely to read them, improving response times.
 
-## Automating Routine Communications
+### Step 5: Automate Routine Communications
 
 Not every client interaction requires human translation. Automate repetitive, low-stakes communications while keeping high-touch interactions human-led.
 
@@ -236,7 +246,7 @@ function localizeNotification(notification, clientLocale) {
 }
 ```
 
-## Managing Cultural Context
+### Step 6: Manage Cultural Context
 
 Language is only part of communication. Cultural context shapes how messages are received.
 
@@ -285,7 +295,7 @@ function formatForLocale(value, type, locale) {
 
 A German client receiving an USD-formatted invoice with American date formats sees unnecessary friction.
 
-## Measuring Communication Quality
+### Step 7: Measuring Communication Quality
 
 Track metrics to continuously improve your multilingual communication:
 
@@ -295,6 +305,21 @@ Track metrics to continuously improve your multilingual communication:
 - Escalation frequency: How often do issues require intervention?
 
 Review these monthly and adjust your processes accordingly.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

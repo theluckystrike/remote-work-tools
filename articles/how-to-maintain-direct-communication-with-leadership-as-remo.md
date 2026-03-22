@@ -51,7 +51,17 @@ This happens for three reasons:
 
 The result: developers spend more time navigating politics than building. Technical decisions get made without engineering input. Important context gets lost in translation.
 
-## Strategy 1: Structured Async Communication Channels
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Strategy 1: Structured Async Communication Channels
 
 The first solution is creating dedicated, low-friction async channels that respect everyone's time while maintaining direct access.
 
@@ -70,7 +80,7 @@ const questionTemplate = {
 
 Leaders commit to responding within 24-48 hours. This removes the anxiety of "did they see my message?" and creates accountability.
 
-## Strategy 2: Leadership Office Hours
+### Step 2: Strategy 2: Leadership Office Hours
 
 Many successful remote companies implement recurring leadership office hours—dedicated time slots where any team member can book a 15-minute slot directly with a leader.
 
@@ -102,7 +112,7 @@ class OfficeHours:
 
 The system does not need to be complex. A shared Google Calendar with "Office Hours" blocks and a simple sign-up sheet works for most teams.
 
-## Strategy 3: Decision Documentation Standards
+### Step 3: Strategy 3: Decision Documentation Standards
 
 One of the most effective ways to maintain influence is ensuring that important decisions are documented transparently. When leadership makes a decision, the reasoning should be visible to everyone.
 
@@ -111,27 +121,27 @@ Adopt Architecture Decision Records (ADRs) or similar documentation standards:
 ```markdown
 # ADR-042: Leadership Communication Channels
 
-## Status
+### Step 4: Status
 Accepted
 
-## Context
+### Step 5: Context
 As we scaled past 50 people, direct access to leadership decreased.
 Team members reported 3-5 day delays on decision approvals.
 
-## Decision
+### Step 6: Decision
 We will implement:
 1. Weekly leadership office hours (15-min slots)
 2. Async leadership channel with 48-hour response SLA
 3. Monthly all-hands with Q&A section
 
-## Consequences
+### Step 7: Consequences
 - Positive: Direct access preserved, async communication improved
 - Negative: Leaders need to protect office hours time
 ```
 
 When decisions are documented with context, team members can understand the "why" even without direct access. This reduces the need to interrupt leaders and enables individuals to make aligned decisions independently.
 
-## Strategy 4: Skip-Level Meetings
+### Step 8: Strategy 4: Skip-Level Meetings
 
 Skip-level meetings—where a leader meets with reports two levels down—bypass middle management to maintain direct connection.
 
@@ -144,7 +154,7 @@ Schedule these quarterly. A leader might meet with 5-6 engineers directly, cover
 
 This keeps leadership grounded in what is actually happening without relying solely on management summaries.
 
-## Strategy 5: Transparent Metrics Dashboards
+### Step 9: Strategy 5: Transparent Metrics Dashboards
 
 Another approach is making leadership activity transparent through shared dashboards:
 
@@ -161,7 +171,7 @@ const metrics = {
 
 When everyone can see how leadership is performing on communication, it creates healthy pressure to maintain standards. Public accountability works better than private promises.
 
-## What This Requires From Leadership
+### Step 10: What This Requires From Leadership
 
 These strategies only work when leadership commits to them. Specifically, leaders must:
 
@@ -170,7 +180,7 @@ These strategies only work when leadership commits to them. Specifically, leader
 - **Document decisions** — Make reasoning visible, not just outcomes
 - **Accept the discomfort** — Direct access means hearing concerns directly, including criticism
 
-## Measuring Success
+### Step 11: Measuring Success
 
 Track whether your communication channels are working:
 
@@ -179,14 +189,14 @@ Track whether your communication channels are working:
 - Escalation rate: Are blockers being resolved through proper channels, or are people going around them?
 - Sentiment: Quarterly surveys can gauge whether team members feel heard
 
-## Strategy 6: Context Documentation as a Proxy for Access
+### Step 12: Strategy 6: Context Documentation as a Proxy for Access
 
 When leaders cannot be available for every question, thorough documentation becomes a scalable substitute. Create wikis and decision logs that let team members make informed decisions without escalation.
 
 ```markdown
 # Decision Log Template
 
-## Decision: Adopt async-first communication for engineering team
+### Step 13: Decision: Adopt async-first communication for engineering team
 
 **Date:** 2026-03-01
 **Decision Maker:** CEO + VP Engineering
@@ -214,7 +224,7 @@ When leaders cannot be available for every question, thorough documentation beco
 
 When this level of context exists, team members make better decisions independently and escalate only when truly necessary.
 
-## Strategy 7: Rotating Leadership Exposure
+### Step 14: Strategy 7: Rotating Leadership Exposure
 
 Rather than bottlenecking all communication through one or two leaders, rotate decision-making authority. Different leaders own different domains and can provide specialized advice.
 
@@ -240,7 +250,7 @@ Leadership_Rotation:
 
 This distribution prevents any single person from being the bottleneck and gives team members multiple routes to leadership input.
 
-## Strategy 8: Building Feedback Loops Into Regular Meetings
+### Step 15: Strategy 8: Building Feedback Loops Into Regular Meetings
 
 Rather than creating entirely new communication channels, embed direct leadership access into existing meetings.
 
@@ -259,7 +269,7 @@ The Q&A section provides direct access without scheduling overhead. Leaders comm
 
 Embedding access into existing meetings scales better than creating new channels.
 
-## Strategy 9: Asynchronous Video for Complex Communication
+### Step 16: Strategy 9: Asynchronous Video for Complex Communication
 
 When a question requires explanation, leaders recording 3-5 minute videos beats a 30-minute meeting. Developers can watch at their convenience and rewind complex sections.
 
@@ -287,7 +297,7 @@ def process_async_question(question_text, question_context):
 
 Many teams use Loom ($10/month) for this purpose. Leaders can record explanations that multiple people consume asynchronously.
 
-## Strategy 10: Creating Career Development Access
+### Step 17: Strategy 10: Creating Career Development Access
 
 Direct access to leadership matters most for career development conversations. Ensure these aren't deprioritized:
 
@@ -308,7 +318,7 @@ Scheduling:
 
 This structure ensures that career development—which requires direct access—doesn't get squeezed out by operational demands.
 
-## Measuring Progress and Adjusting
+### Step 18: Measuring Progress and Adjusting
 
 After implementing these strategies, measure whether direct access actually improved:
 
@@ -325,6 +335,21 @@ After implementing these strategies, measure whether direct access actually impr
 - Reduced political navigation in decision-making
 
 Adjust your approach based on data. If office hours are underutilized, meetings might work better. If leadership time is oversaturated, add more delegation. The mechanisms matter less than the outcome: team members feel they can reach leadership when it matters.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

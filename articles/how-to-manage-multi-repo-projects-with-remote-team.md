@@ -38,13 +38,23 @@ Start by assigning clear CODEOWNERS per repository, set up a centralized depende
 - **Pick the workflow that**: fits your team's size and distribution, document it, and revisit it periodically as your project evolves.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## The Multi-Repo Challenge for Remote Teams
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Multi-Repo Challenge for Remote Teams
 
 Remote teams already deal with asynchronous communication and time zone gaps. Multi-repo projects add another layer of complexity: understanding how changes in one repository affect others, tracking cross-repository dependencies, and ensuring everyone stays informed without overwhelming communication channels.
 
 The core problems are visibility and coordination. When Team A modifies an API in `backend-core` that Team B depends on in `frontend-app`, someone needs to communicate that change, update the dependent code, and verify everything still works. In a remote setting, these handoffs often happen through pull request comments, Slack messages, or worst-case—production incidents.
 
-## Establish Clear Repository Ownership
+### Step 2: Establish Clear Repository Ownership
 
 The first step is assigning clear ownership to each repository. Every repo should have a designated team or maintainer responsible for:
 
@@ -65,7 +75,7 @@ A `CODEOWNERS` file in each repository makes this explicit:
 
 This approach works well for remote teams because ownership is documented and version-controlled. When someone proposes a change, the right reviewers get automatically assigned. For distributed teams across time zones, this removes the guesswork about who should review what.
 
-## Implement a Centralized Dependency Tracker
+### Step 3: Implement a Centralized Dependency Tracker
 
 With multiple repositories, you need a way to track which projects depend on which. Create a centralized dependency manifest that your team can reference:
 
@@ -93,7 +103,7 @@ With multiple repositories, you need a way to track which projects depend on whi
 
 Store this in a dedicated repository your team can query. A simple script can then answer questions like "what repos will break if `shared-utils` changes?" or "who owns the repo that our frontend depends on?"
 
-## Use Monorepo Tools Where Appropriate
+### Step 4: Use Monorepo Tools Where Appropriate
 
 Sometimes the best solution is consolidating repositories. Monorepo tools likeNx, Turborepo, or Bazel let you keep code in a single repository while building and testing only what changed. This approach eliminates cross-repo dependency confusion entirely.
 
@@ -117,7 +127,7 @@ For teams that benefit from monorepos, the setup looks like this:
 
 The trade-off is increased repository size and potential CI pipeline complexity. However, for teams working on tightly coupled codebases, the coordination savings often outweigh these concerns.
 
-## Automate Cross-Repository Changes
+### Step 5: Automate Cross-Repository Changes
 
 When you must maintain separate repositories, automation reduces manual coordination overhead. Several patterns work well:
 
@@ -166,12 +176,12 @@ jobs:
 
 This approach ensures that changing `backend-core` automatically validates `frontend-app` without manual coordination.
 
-## Coordinate Releases with a Release Calendar
+### Step 6: Coordinate Releases with a Release Calendar
 
 When multiple teams own separate repositories, coordinate releases to avoid conflicts. A shared release calendar gives everyone visibility into when changes will ship:
 
 ```markdown
-## Release Schedule - Q1 2026
+### Step 7: Release Schedule - Q1 2026
 
 ### Week of Jan 6
 - backend-core v2.3.0 (feature freeze: Jan 3)
@@ -187,7 +197,7 @@ When multiple teams own separate repositories, coordinate releases to avoid conf
 
 Publish this calendar where your team collaborates—Notion, a shared wiki, or your project management tool. Include dependency requirements so teams know what needs to ship before their changes.
 
-## Establish Communication Channels for Cross-Repo Work
+### Step 8: Establish Communication Channels for Cross-Repo Work
 
 Despite automation, human communication still matters. Create dedicated channels for multi-repo coordination:
 
@@ -196,7 +206,7 @@ Set up a `#repo-updates` Slack channel where teams announce changes affecting ot
 When changes require downstream updates, document this in the pull request:
 
 ```markdown
-## Breaking Change Notice
+### Step 9: Breaking Change Notice
 
 This PR modifies the authentication API in `auth-lib`.
 
@@ -211,7 +221,7 @@ This PR modifies the authentication API in `auth-lib`.
 
 This explicit communication prevents surprises and gives dependent teams adequate time to adapt.
 
-## Version Pinning and Contract Testing
+### Step 10: Version Pinning and Contract Testing
 
 Remote teams benefit from explicit API contracts between repositories. Pin dependency versions and verify contracts through testing:
 
@@ -240,9 +250,24 @@ describe('API Contract: /auth/validate', () => {
 
 Contract tests catch breaking changes before they reach production. Run these tests in CI pipelines for both the API provider and consumer repositories.
 
-## Practical Takeaways
+### Step 11: Practical Takeaways
 
 Start with clear ownership, automate dependency management, and maintain transparent communication about changes that affect multiple repositories. Pick the workflow that fits your team's size and distribution, document it, and revisit it periodically as your project evolves.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

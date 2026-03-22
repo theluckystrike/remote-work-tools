@@ -41,7 +41,17 @@ Working remotely from an EU country for a few months creates complex social secu
 - **After 90 days in Germany**: you'd need to register with German social security.
 - **Remote workers on this**: visa typically need to register with Portuguese social security (Segurança Social) if staying beyond 90 days, even with an A1 certificate from another country.
 
-## Understanding EU Social Security Coordination
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand EU Social Security Coordination
 
 The EU has coordinated social security systems through regulations that determine which country's rules apply when you work across borders. The core principle is that you typically pay social security in only one country at a time, even if you work in multiple EU nations.
 
@@ -49,7 +59,7 @@ When you're employed by a company in one EU country and temporarily work from an
 
 The key regulation is EC Regulation 883/2004, which governs social security coordination across EU member states. This regulation ensures that workers don't lose coverage when moving between countries and prevents duplicate contributions.
 
-## The 90-Day Rule Explained
+### Step 2: The 90-Day Rule Explained
 
 The most critical timeframe for remote workers is 90 days. If you work remotely from an EU country other than your home country, you can typically remain covered by your home country's social security system for up to 90 days, provided certain conditions are met.
 
@@ -126,7 +136,7 @@ if __name__ == "__main__":
 
 This script helps you monitor your presence in any EU country. Run it regularly or integrate it with calendar automation to track your actual work locations.
 
-## The A1 Certificate: Your Key Document
+### Step 3: The A1 Certificate: Your Key Document
 
 When working remotely from another EU country while remaining employed in your home country, you need an A1 certificate. This document proves you're covered by your home country's social security system and don't need to contribute in the host country.
 
@@ -156,7 +166,7 @@ A1_APPLICATION/
 └── bank_statements.pdf          # Proof of salary payments (if self-employed)
 ```
 
-## Practical Scenarios for Developers
+### Step 4: Practical Scenarios for Developers
 
 ### Scenario 1: Short-Term Client Project in Berlin
 
@@ -170,7 +180,7 @@ You're employed full-time remotely by a Spanish company, living in Poland. You p
 
 You work remotely for an US company while traveling through multiple EU countries. Each country has different rules. Your US employer's social security contributions don't cover you in the EU. You need to either maintain coverage in one EU country (where you have residency or significant presence) or arrange private insurance that meets local requirements.
 
-## What Happens If You Exceed the 90 Days
+### Step 5: What Happens If You Exceed the 90 Days
 
 If you work beyond 90 days in an EU country without proper arrangements, several consequences may apply:
 
@@ -179,7 +189,7 @@ If you work beyond 90 days in an EU country without proper arrangements, several
 - Penalties: Some countries impose fines for non-compliance, though enforcement varies significantly.
 - Legal complications: Continued work without proper registration could affect your legal status for future visa or residency applications.
 
-## Self-Employed Developers: Additional Considerations
+### Step 6: Self-Employed Developers: Additional Considerations
 
 If you're self-employed and working remotely from an EU country, the rules differ slightly. You remain responsible for your own social security contributions in your home country or the country where your business is registered. The 90-day rule still applies, but you're directly accountable for compliance.
 
@@ -202,7 +212,7 @@ Complex situations benefit from professional guidance:
 
 A social security consultant or international tax advisor can review your specific situation and ensure you're compliant. The cost of professional advice typically far outweighs the potential penalties and stress of non-compliance.
 
-## Country-Specific Guidance
+### Step 7: Country-Specific Guidance
 
 Social security rules vary by EU country. Here's practical information for common destinations:
 
@@ -220,7 +230,7 @@ Social security rules vary by EU country. Here's practical information for commo
 
 For any country-specific guidance, contact the national social security authority (listed below) directly or hire an international tax advisor who specializes in your origin country + destination country combinations.
 
-## National Social Security Authority Contact Information
+### Step 8: National Social Security Authority Contact Information
 
 ```
 Portugal: Segurança Social
@@ -248,7 +258,7 @@ Italy: INPS (Istituto Nazionale della Previdenza Sociale)
 - English translations available online
 ```
 
-## Tax Implications Beyond Social Security
+### Step 9: Tax Implications Beyond Social Security
 
 Social security contributions are only part of the picture. Remote work from EU countries may trigger tax obligations independent of social security:
 
@@ -311,7 +321,7 @@ Beyond penalties, non-compliance creates ripple effects:
 
 The financial impact of non-compliance extends far beyond immediate penalties.
 
-## Planning for Success
+### Step 10: Planning for Success
 
 Remote work from EU countries is entirely viable with proper planning:
 
@@ -324,6 +334,21 @@ Remote work from EU countries is entirely viable with proper planning:
 7. **Build buffer time:** Plan to exceed your 90-day window by a week or two to get everything squared away before your time runs out
 
 Remote work from EU countries offers genuine quality-of-life improvements. Proper compliance ensures you can enjoy those benefits without legal or financial stress.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -53,7 +53,17 @@ Beyond liability protection, incorporation offers:
 - Banking benefits: Business accounts often come with better features and protections
 - Deduction expansion: Some business expenses become more straightforward to deduct
 
-## Choosing Your Business Entity Type
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Choose Your Business Entity Type
 
 For freelance developers, three entity types make the most sense: Limited Liability Company (LLC), S-corporation, and occasionally C-corporation.
 
@@ -89,7 +99,7 @@ Potential annual savings: ~$6,738
 
 C-corps make sense primarily if you plan to raise investment capital, retain significant earnings in the business, or potentially sell shares in the future. The double taxation (corporate level and dividend level) generally doesn't benefit solo freelancers.
 
-## Step-by-Step Incorporation Process
+### Step 2: Step-by-Step Incorporation Process
 
 ### 1. Choose Your State of Formation
 
@@ -130,7 +140,7 @@ With your EIN, articles of organization, and operating agreement, open a dedicat
 
 While optional at first, establishing proper accounting from day one pays dividends. At minimum, use accounting software like Wave (free) or QuickBooks to track income and expenses. This makes tax preparation easier and provides visibility into your business health.
 
-## Practical Considerations for Developers
+### Step 3: Practical Considerations for Developers
 
 ### Operating Agreement Template
 
@@ -186,7 +196,7 @@ While many developers incorporate themselves, certain situations warrant profess
 
 an one-time consultation with a small business attorney or CPA ($200-500) can prevent costly mistakes and ensure your structure aligns with your goals.
 
-## Incorporation Cost Breakdown: Real Numbers
+### Step 4: Incorporation Cost Breakdown: Real Numbers
 
 Here's what you'll actually pay to incorporate and operate a freelance business:
 
@@ -206,7 +216,7 @@ Here's what you'll actually pay to incorporate and operate a freelance business:
 
 For developers earning $50k-$150k annually from freelance work, the tax savings from S-corp election ($3,000-8,000 annually) justify these costs.
 
-## State-by-State Quick Reference
+### Step 5: State-by-State Quick Reference
 
 Choose a state based on cost and residency:
 
@@ -216,7 +226,7 @@ Choose a state based on cost and residency:
 
 Pro tip: If you incorporate in Delaware but live in California, you still owe California franchise tax (~$800-1,200 annually for $100k income). Many developers think Delaware saves taxes—it doesn't unless you're a real Delaware resident. Your home state usually works fine.
 
-## Implementation Timeline: Formation to First Deduction
+### Step 6: Implementation Timeline: Formation to First Deduction
 
 **Month 1, Week 1:** Choose entity type and state. File articles of organization online (30 minutes).
 
@@ -253,7 +263,7 @@ Example: $100k net income
 
 This math improves as income grows. At $150k+ income, S-corp savings can exceed $10,000 annually.
 
-## Common Deductions Developers Miss
+### Step 7: Common Deductions Developers Miss
 
 Many freelancers under-claim deductions because they don't realize they're business-related:
 
@@ -267,7 +277,7 @@ Many freelancers under-claim deductions because they don't realize they're busin
 
 Track these aggressively. A $200/month subscription you forgot to categorize becomes $2,400 annually in deductions you're leaving on the table.
 
-## Documentation for Audit Protection
+### Step 8: Documentation for Audit Protection
 
 The IRS scrutinizes business deductions, especially for solo operators. Protect yourself:
 
@@ -296,6 +306,21 @@ Hire a professional if:
 - You want to minimize audit risk with perfect documentation
 
 Cost of professional help ($300-800 annually for bookkeeping + tax prep) pays for itself once you're optimizing taxes via S-corp structure.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
