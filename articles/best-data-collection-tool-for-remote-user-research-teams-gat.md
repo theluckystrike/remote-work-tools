@@ -9,6 +9,7 @@ permalink: /best-data-collection-tool-for-remote-user-research-teams-gat/
 reviewed: true
 score: 8
 categories: [best-of]
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 

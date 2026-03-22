@@ -9,6 +9,7 @@ permalink: /best-content-performance-analytics-for-remote-editorial-team/
 reviewed: true
 score: 8
 categories: [best-of]
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 

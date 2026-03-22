@@ -9,6 +9,7 @@ permalink: /best-container-registry-tool-for-remote-teams-sharing-docker/
 reviewed: true
 score: 8
 categories: [best-of]
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 
