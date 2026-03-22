@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /remote-team-wiki-maintenance-tools/
 categories: [guides]
 reviewed: true
-score: 7
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
