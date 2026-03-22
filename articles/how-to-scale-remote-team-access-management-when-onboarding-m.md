@@ -285,6 +285,6 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Implement Just-in-Time Access for Remote Team](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
 - [Best Privileged Access Management Tool for Remote IT Admins](/remote-work-tools/best-privileged-access-management-tool-for-remote-it-admins-/)
 - [Identity and Access Management Platform Comparison](/remote-work-tools/identity-and-access-management-platform-comparison-for-remot/)
-- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
+- [Manage Client Access Permissions for Remote Teams](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
