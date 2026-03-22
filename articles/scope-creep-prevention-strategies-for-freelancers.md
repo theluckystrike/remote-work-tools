@@ -18,6 +18,18 @@ voice-checked: true---
 
 Prevent scope creep by defining deliverables precisely upfront, implementing formal change request procedures with pricing, and tying payments to milestone completion rather than calendar dates. When clients request additions, respond with a structured framework: state what's in scope, show the extra cost or timeline, and let them choose. This guide provides concrete strategies with templates and code examples you can implement immediately to protect your margin.
 
+## Key Takeaways
+
+- **Add to current project scope**: +$X additional cost, +Y days timeline
+2.
+- **Create separate phase**: New SOW for $Z, delivered by [date]
+3.
+- **Add to current project**: +$[amount]
+2.
+- **Best, [Your name] ```**: ## Automate Scope Documentation Use tools that keep scope visible throughout the project.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+
 ## Define Scope with Precision
 
 Vague project descriptions invite scope creep. When a client says "build me a dashboard," they might mean a simple overview page or a full analytics platform with seventeen interactive charts. The difference could mean forty hours of extra work.

@@ -18,6 +18,16 @@ voice-checked: true---
 
 A satellite office strategy for hybrid companies extends your physical presence beyond headquarters by establishing mini-hubs with 3-8 people, dedicated equipment, and network infrastructure that provides full parity with the main office. The key requirements are a site-to-site VPN or SD-WAN connection, business-grade WiFi with VLAN support, and asynchronous-first communication protocols. This guide covers network architecture, hardware setup, security considerations, and coordination patterns for building and managing satellite offices.
 
+## Key Takeaways
+
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **Daily standups in writing**: Use Slack threads or Notion databases instead of live meetings
+2.
+- **The key requirements are**: a site-to-site VPN or SD-WAN connection, business-grade WiFi with VLAN support, and asynchronous-first communication protocols.
+- **The most effective satellite**: office strategy for hybrid companies balances three factors.
+- **Here are coordination patterns**: that work: ### Asynchronous-First Communication Satellite offices across time zones require asynchronous communication as the default: 1.
+- **Consumer internet won't handle**: daily video calls for multiple people, so under-investing in bandwidth is the most common mistake.
+
 ## What Makes a Satellite Office Work
 
 A satellite office differs from a remote team in one critical way: it functions as a mini-hub with dedicated space, equipment, and enough team members to operate independently for daily work while remaining connected to the main organization.

@@ -27,7 +27,17 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]---
 
+
 Present designs to remote clients using screen sharing tools that support annotations (Figma, Loom, or Google Slides) so clients can mark up designs in real-time and feedback is captured directly. Video recording ensures async stakeholders can view later.
+
+## Key Takeaways
+
+- **Pricing**: Free for personal use; Google Workspace starts at $12/user/month.
+- **Pricing**: Free tier available; Pro starts at $14.99/month.
+- **The best tool depends**: on your specific workflow, client preferences, and integration requirements.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Key Features: - 1080p**: screen sharing on paid plans - Companion mode for dual-monitor setups - Calendar integration - Live captions for accessibility Best For: Teams using Google Workspace.
+- **Pricing**: Nitro starts at $9.99/month.
 
 ## Why Screen Sharing Matters for Design Presentations
 

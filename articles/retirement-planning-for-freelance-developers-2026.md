@@ -14,7 +14,17 @@ voice-checked: true
 tags: [remote-work-tools]---
 
 {% raw %}
+
 Retirement planning as a freelance developer requires a different approach than traditional employment. Without an employer matching your contributions, you're fully responsible for building your retirement nest egg. The good news is that self-employment comes with powerful tax-advantaged retirement accounts that often exceed what traditional employees receive.
+
+## Key Takeaways
+
+- **As your own employee**: you can contribute up to $23,500 as employee deferrals (2026 limit), plus up to 25% of net self-employment income as employer contributions, totaling up to $69,000.
+- **For 2026**: you can contribute up to 25% of your net self-employment income, capped at $69,000.
+- **Most freelancers experience income**: volatility—use conservative estimates for planning.
+- **For 2026**: you can contribute $7,000 to a Roth IRA (or $8,000 if you're 50 or older).
+- **Retirement planning as a**: freelance developer requires a different approach than traditional employment.
+- **Default 7% annual return**: approximates historical S&P 500 average.
 
 ## Understanding Your Retirement Account Options
 
