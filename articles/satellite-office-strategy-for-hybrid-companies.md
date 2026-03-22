@@ -9,7 +9,7 @@ permalink: /satellite-office-strategy-for-hybrid-companies/
 categories: [guides]
 tags: [remote-work-tools, satellite-office, hybrid-work, remote-infrastructure]
 reviewed: true
-score: 8
+score: 7
 intent-checked: true
 voice-checked: true---
 

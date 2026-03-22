@@ -7,7 +7,7 @@ last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /screen-brightness-settings-for-eye-health-developers/
 reviewed: true
-score: 9
+score: 7
 intent-checked: true
 voice-checked: true
 categories: [guides]

@@ -9,7 +9,7 @@ permalink: /remote-work-special-needs-child-accommodation-guide-for-parents/
 categories: [guides]
 tags: [remote-work-tools, remote-work, special-needs, parenting, productivity, distributed-teams, accommodation]
 reviewed: true
-score: 8
+score: 7
 intent-checked: true
 voice-checked: true---
 

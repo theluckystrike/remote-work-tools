@@ -8,7 +8,7 @@ permalink: /remote-work-power-backup-ups-guide/
 categories: [guides]
 tags: [remote-work-tools, remote-work]
 reviewed: true
-score: 9
+score: 6
 intent-checked: true
 voice-checked: true---
 
