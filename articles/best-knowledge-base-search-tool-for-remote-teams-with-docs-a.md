@@ -6,7 +6,7 @@ date: 2026-03-21
 author: theluckystrike
 permalink: /best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/
 categories: [guides]
-tags: [knowledge-base, search-tools, remote-work, documentation, developer-tools, team-collaboration]
+tags: [remote-work-tools, knowledge-base, search-tools, remote-work, documentation, developer-tools, team-collaboration, best-of]
 reviewed: true
 score: 8
 intent-checked: true

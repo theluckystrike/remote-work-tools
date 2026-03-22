@@ -8,7 +8,7 @@ permalink: /best-knowledge-base-tool-for-remote-team-that-works-offline-/
 categories: [guides]
 tags: [knowledge-base, remote-work-tools, offline-sync, mobile-first, team-wiki, developer-tools, documentation, git-backed]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: false
 ---
