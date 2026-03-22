@@ -199,6 +199,66 @@ cd ~/dotfiles
 
 The shell commands run after creating symlinks, enabling you to automate plugin installations, package manager setups, and other initialization tasks.
 
+## Comparison Table: Dotfiles Managers at a Glance
+
+| Tool | Mechanism | OS Templates | Secrets Support | Bootstrap Scripts | Learning Curve |
+|---|---|---|---|---|---|
+| GNU Stow | Symlinks | No | No (use separately) | No | Very low |
+| YADM | Git wrapper | Yes (alternates) | Yes (GPG encryption) | Yes (.yadm/bootstrap) | Low |
+| Chezmoi | State tracking + templates | Yes (Go templates) | Yes (Bitwarden, 1Password, Vault integration) | Yes (run_once scripts) | Medium |
+| Dotbot | YAML config + symlinks | No | No | Yes (shell commands) | Low |
+| Rcm | Symlinks (rcup/mkrc) | Hostname-based | No | No | Low |
+| Homeshick | Git + symlinks | No | No | Yes (castle scripts) | Low |
+
+## Handling Secrets in Your Dotfiles
+
+One problem every remote developer hits: configuration files often contain secrets — API keys in `.gitconfig`, tokens in shell profiles, SSH config referencing private hosts. Committing these to a public GitHub repository is a significant security risk.
+
+**The right pattern is to separate secrets from configuration.** Store configuration in your dotfiles repo; retrieve secrets at shell init time from a dedicated secrets manager:
+
+```bash
+# In your .bashrc or .zshrc — loaded every shell session
+# Retrieve secrets from 1Password CLI at shell start
+if command -v op &> /dev/null; then
+  export GITHUB_TOKEN=$(op item get "GitHub Token" --field credential 2>/dev/null)
+  export AWS_ACCESS_KEY_ID=$(op item get "AWS Dev" --field access_key 2>/dev/null)
+fi
+
+# Or use direnv for project-scoped secrets
+# .envrc in project root (never committed):
+# export DATABASE_URL="postgres://..."
+```
+
+Chezmoi has native integrations with 1Password, Bitwarden, LastPass, and HashiCorp Vault. Secrets are referenced in templates and fetched at apply time — they never land in your dotfiles repository.
+
+YADM provides GPG-based encryption for specific files via `yadm encrypt`. This works well for files that must exist at a fixed path but contain credentials, such as `~/.netrc` for package manager authentication.
+
+## Quick Bootstrap for a New Machine
+
+The real test of any dotfiles setup is how fast you can go from a fresh machine to a productive environment. Here is a bootstrap script pattern that works with any of the tools covered above:
+
+```bash
+#!/bin/bash
+# bootstrap.sh - Run this on any new machine
+set -e
+
+# Install Homebrew and bundle packages (macOS)
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  command -v brew &>/dev/null || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  brew bundle install --file=~/dotfiles/Brewfile
+fi
+
+# Clone and apply dotfiles
+git clone git@github.com:yourusername/dotfiles.git ~/dotfiles
+cd ~/dotfiles && stow git vim bash tmux zsh
+
+# Install shell plugins
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+vim +PlugInstall +qall 2>/dev/null || true
+```
+
+A `Brewfile` committed to your dotfiles repo captures your macOS tool dependencies. `brew bundle install` reads it and installs everything in one command. On Linux, an equivalent `packages.txt` listing apt package names achieves the same result.
+
 ## Choosing the Right Manager
 
 For most remote developers, the choice depends on complexity tolerance and specific requirements:
@@ -207,13 +267,13 @@ For most remote developers, the choice depends on complexity tolerance and speci
 
 - **YADM** provides the best balance of features and simplicity, with encryption and bootstrap capabilities that address real remote work scenarios.
 
-- **Chezmoi** appeals to developers comfortable with templating and wanting granular control over machine-specific configurations.
+- **Chezmoi** appeals to developers comfortable with templating and wanting granular control over machine-specific configurations — particularly when secrets management via 1Password or Bitwarden integration matters.
 
-- **Dotbot** excels when you need automation beyond simple configuration synchronization.
+- **Dotbot** excels when you need automation beyond simple configuration synchronization, especially for teams that want a reproducible onboarding script for new engineers.
 
-Start with Stow if you're new to dotfiles management—its simplicity lets you understand the core concepts before adding complexity. As your needs evolve, you can migrate to more feature-rich solutions without losing your existing configuration.
+Start with Stow if you're new to dotfiles management — its simplicity lets you understand the core concepts before adding complexity. As your needs evolve, you can migrate to more feature-rich solutions without losing your existing configuration.
 
-The best dotfiles manager ultimately is the one you'll actually use. Whichever tool you choose, version controlling your configurations ensures you never lose your carefully crafted development environment, regardless of where work takes you.
+The best dotfiles manager ultimately is the one you'll actually use. Whichever tool you choose, version controlling your configurations ensures you never lose your carefully crafted development environment, regardless of where remote work takes you.
 
 
 ## Frequently Asked Questions
