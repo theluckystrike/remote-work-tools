@@ -9,7 +9,7 @@ permalink: /remote-team-technical-assessment-platform-for-evaluating-distributed
 categories: [guides]
 tags: [remote-work-tools, remote-hiring, technical-assessment, hiring, engineering-recruitment, distributed-teams, remote-work]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 ---
