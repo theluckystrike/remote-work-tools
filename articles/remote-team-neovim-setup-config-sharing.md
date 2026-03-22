@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Neovim Setup and Config Sharing"
-description: "Share Neovim configs across a distributed team using a dotfiles repo with LSP, Treesitter, and lazy.nvim plugin lock files for reproducible setups across all machines"
+description: "Share Neovim configs across a distributed team using a dotfiles repo with LSP, Treesitter, and lazy.nvim plugin lock files for reproducible setups..."
 date: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-neovim-setup-config-sharing/

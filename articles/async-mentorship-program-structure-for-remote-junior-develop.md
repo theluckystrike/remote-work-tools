@@ -345,4 +345,13 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
 - [How to Structure an Async All Hands Update for 100 Employees](/remote-work-tools/how-to-structure-an-async-all-hands-update-for-100-employees/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
+## Related Reading
+
+- [Slack Workspace Structure for a 50 Person Remote](/slack-workspace-structure-for-a-50-person-remote-engineering/)
+- [Remote Team Referral Program Template for Distributed](/remote-team-referral-program-template-for-distributed-compan/)
+- [Example: Finding interview slots across time zones](/remote-team-hiring-manager-training-program-for-first-time-m/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}

@@ -52,7 +52,6 @@ A simple weekly update template works well for ongoing retainers:
 def generate_weekly_update(tasks_completed, blockers, next_week_goals):
     return f"""
 Weekly Update
-=============
 Completed This Week:
 {'- ' + '\n- '.join(tasks_completed)}
 

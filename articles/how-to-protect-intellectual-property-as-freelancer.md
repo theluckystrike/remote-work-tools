@@ -128,7 +128,6 @@ If you use code libraries or tools you've built previously, document them clearl
 
 ```text
 PRE-EXISTING MATERIALS NOTICE
-=============================
 The following components are pre-existing materials owned by Developer:
 - authentication-lib v2.1 (internal library)
 - React component library (developed for other projects)

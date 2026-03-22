@@ -191,7 +191,6 @@ def generate_invoice(client_name, hours, rate, billing_period):
 
     invoice = f"""
 INVOICE #{invoice_number}
-====================
 Client: {client_name}
 Billing Period: {billing_period}
 Date: {datetime.now().strftime("%Y-%m-%d")}

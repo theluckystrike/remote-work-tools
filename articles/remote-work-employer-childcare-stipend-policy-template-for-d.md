@@ -174,7 +174,6 @@ Copy this template for your organization:
 
 ```
 CHILDCARE STIPEND POLICY
-=========================
 
 PURPOSE
 [Company Name] recognizes that employees with caregiving responsibilities

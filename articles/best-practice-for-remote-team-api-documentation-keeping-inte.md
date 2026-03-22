@@ -185,7 +185,6 @@ Maintain backward compatibility within major versions whenever possible. When br
 ```
 # Deprecation notice example
 Deprecation Notice: /api/v1/orders
-====================================
 The v1 orders endpoint will be deprecated on June 30, 2026.
 Please migrate to /api/v2/orders which includes:
 - Pagination support

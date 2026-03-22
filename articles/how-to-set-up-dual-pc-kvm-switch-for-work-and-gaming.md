@@ -253,7 +253,6 @@ Create a simple document mapping:
 
 ```
 ATEN KVM Port Mappings
-======================
 Port 1: Gaming PC (DisplayPort) → HDMI on KVM
 Port 2: Work Laptop (USB-C) → USB-C on KVM
 USB Hub 1: Keyboard → Logitech MX Keys
