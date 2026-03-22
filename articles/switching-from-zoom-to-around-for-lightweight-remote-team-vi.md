@@ -153,6 +153,7 @@
 
 
 
+
 layout: default
 title: "Switching from Zoom to Around for Lightweight Remote Team"
 description: "A practical guide for developers and power users transitioning from Zoom to Around for lightweight remote team video calls in 2026. Compare features, API"
@@ -166,6 +167,7 @@ score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 
 
