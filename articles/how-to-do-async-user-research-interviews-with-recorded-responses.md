@@ -9,13 +9,6 @@
 
 
 
-<<<<<<< HEAD
-
-
-
-<<<<<<< HEAD
-=======
->>>>>>> 10d8e417f (fix: final YAML/Liquid cleanup pass)
 
 
 
@@ -54,13 +47,6 @@ voice-checked: true
 
 
 
-<<<<<<< HEAD
-
-
-
-<<<<<<< HEAD
-=======
->>>>>>> 10d8e417f (fix: final YAML/Liquid cleanup pass)
 
 
 
