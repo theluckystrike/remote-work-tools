@@ -18,6 +18,20 @@ voice-checked: true
 
 Use GitHub Free for unlimited repositories, GitHub Projects for task management, GitHub Actions for CI/CD, and Vercel or Heroku free tiers for deployment to run side projects with zero cost. This guide shows you how to combine these free tools into a complete workflow for developing, deploying, and maintaining side projects while working full-time.
 
+## Table of Contents
+
+- [Version Control and Code Hosting](#version-control-and-code-hosting)
+- [Task Management That Actually Works](#task-management-that-actually-works)
+- [Deployment and Hosting Platforms](#deployment-and-hosting-platforms)
+- [Communication and Documentation](#communication-and-documentation)
+- [GET /api/users/:id](#get-apiusersid)
+- [Monitoring and Error Tracking](#monitoring-and-error-tracking)
+- [Putting It All Together](#putting-it-all-together)
+- [Complete Free Stack Comparison](#complete-free-stack-comparison)
+- [Setting Up Your Complete Workflow](#setting-up-your-complete-workflow)
+- [Free-to-Paid Scaling Strategy](#free-to-paid-scaling-strategy)
+- [Automation Beyond CI/CD](#automation-beyond-cicd)
+
 ## Version Control and Code Hosting
 
 GitHub remains the gold standard for hosting side project code, offering unlimited public repositories with generous free tiers. For private repositories, GitHub Free provides 500MB of storage and standard CI/CD capabilities through GitHub Actions.

@@ -33,6 +33,20 @@ tags: [remote-work-tools, remote-work]
 
 Shift to async-first communication, define explicit response-time windows for every channel, and rotate meeting times so no single region always takes the inconvenient slot -- these three strategies solve most cross-timezone communication problems for remote teams. Start by documenting response expectations (15 minutes for incidents, 24 hours for PR reviews) and calculating your actual overlap hours. This guide provides the templates, automation scripts, and handoff documentation formats to apply each strategy immediately.
 
+## Table of Contents
+
+- [Asynchronous-First Communication](#asynchronous-first-communication)
+- [Update: Feature Flag Rollout](#update-feature-flag-rollout)
+- [Response Time Expectations](#response-time-expectations)
+- [Finding and Using Overlap Windows](#finding-and-using-overlap-windows)
+- [Automating Cross Timezone Workflows](#automating-cross-timezone-workflows)
+- [Handoff Documentation](#handoff-documentation)
+- [Handoff: [Feature/Task Name]](#handoff-featuretask-name)
+- [Tool Recommendations by Team Size](#tool-recommendations-by-team-size)
+- [Handling Urgent Issues Across Timezones](#handling-urgent-issues-across-timezones)
+- [Measuring Whether Your Strategy Is Working](#measuring-whether-your-strategy-is-working)
+- [Practical Implementation Steps](#practical-implementation-steps)
+
 ## Asynchronous-First Communication
 
 The foundation of effective cross timezone work is shifting from synchronous to asynchronous by default. This doesn't mean slower—it means more intentional.

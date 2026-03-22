@@ -18,6 +18,18 @@ voice-checked: true
 
 Two-person backend teams face unique automation challenges. You have enough code to benefit from continuous integration and deployment, but not the overhead to manage complex enterprise tooling. The right CI/CD pipeline tools can automate testing, catch bugs early, and deploy your applications with confidence—all without requiring dedicated DevOps resources.
 
+## Table of Contents
+
+- [What Small Remote Teams Actually Need](#what-small-remote-teams-actually-need)
+- [GitHub Actions: The Default Choice](#github-actions-the-default-choice)
+- [GitLab CI: Strong Free Tier](#gitlab-ci-strong-free-tier)
+- [CircleCI: Speed and Parallelism](#circleci-speed-and-parallelism)
+- [Tool Comparison: What to Choose as a Two-Person Team](#tool-comparison-what-to-choose-as-a-two-person-team)
+- [Specialized Tools for Small Teams](#specialized-tools-for-small-teams)
+- [Keeping Pipelines Fast Across Time Zones](#keeping-pipelines-fast-across-time-zones)
+- [Recommendations by Use Case](#recommendations-by-use-case)
+- [Infrastructure as Code](#infrastructure-as-code)
+
 ## What Small Remote Teams Actually Need
 
 Before examining specific tools, consider what matters most for a two-person backend team working remotely:
@@ -377,11 +389,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
-- [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
-- [How to Create Remote Team Leadership Development Pipeline Fo](/remote-work-tools/how-to-create-remote-team-leadership-development-pipeline-fo/)
-- [How to Secure Remote Team CI/CD Pipeline From Supply Chain](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
-- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
-
+- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
+- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Best Collaborative Coding Tools for Remote Teams](/remote-work-tools/best-collaborative-coding-tools-for-remote-teams/)
+- [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,13 @@ intent-checked: true
 
 ## Prerequisites
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Comparison Table](#comparison-table)
+- [Comparison with Expensive Alternatives](#comparison-with-expensive-alternatives)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+
 Before you begin, make sure you have the following ready:
 
 - A computer running macOS, Linux, or Windows

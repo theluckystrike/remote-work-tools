@@ -17,6 +17,22 @@ tags: [remote-work-tools, best-of]
 
 Place acoustic foam behind your microphone first, then at side wall reflection points, then on the ceiling above your seat, and finally behind your monitor. For most home offices, 6-10 panels of 2-inch foam (NRC 0.70+) across these four zones eliminates the echo and boxy quality that degrades Zoom call audio. This guide covers each placement zone with room geometry considerations, mounting approaches, and validation steps for developers working from home.
 
+## Table of Contents
+
+- [How Acoustic Foam Works](#how-acoustic-foam-works)
+- [Room Assessment Before Placement](#room-assessment-before-placement)
+- [Primary Placement Zones](#primary-placement-zones)
+- [Foam Density and Thickness Recommendations](#foam-density-and-thickness-recommendations)
+- [Mounting Approaches and Installation Guide](#mounting-approaches-and-installation-guide)
+- [Validation and Iteration](#validation-and-iteration)
+- [Advanced: Measuring with Software](#advanced-measuring-with-software)
+- [Testing Your Setup Before Purchasing Expensive Foam](#testing-your-setup-before-purchasing-expensive-foam)
+- [Common Issues and Fixes](#common-issues-and-fixes)
+- [Integration with Remote Meeting Software](#integration-with-remote-meeting-software)
+- [Acoustic Foam in Different Room Types](#acoustic-foam-in-different-room-types)
+- [Acoustic Treatment Beyond Foam: Complementary Approaches](#acoustic-treatment-beyond-foam-complementary-approaches)
+- [Acoustic Foam FAQs and Common Misconceptions](#acoustic-foam-faqs-and-common-misconceptions)
+
 ## How Acoustic Foam Works
 
 Acoustic foam absorbs sound energy through friction. When sound waves hit foam, they travel into the porous material and convert to trace heat. This process reduces reflected sound that would otherwise reach your microphone and create coloration in your voice. The foam does not block sound transmission through walls—neighbors will still hear you—but it controls what your microphone captures.
@@ -340,11 +356,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Zoom Phone Call Quality Choppy on Home WiFi Fix (2026)](/remote-work-tools/zoom-phone-call-quality-choppy-on-home-wifi-fix-2026/)
-- [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
-- [Test UDP latency to Slack's media servers](/remote-work-tools/remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/)
-- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
 - [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
-
+- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
+- [How to Set Up a Home Office Recording Studio](/remote-work-tools/how-to-set-up-home-office-recording-studio/)
+- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
+- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

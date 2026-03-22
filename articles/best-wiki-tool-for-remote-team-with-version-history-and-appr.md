@@ -16,6 +16,18 @@ voice-checked: true
 
 Remote teams need wiki tools that go beyond simple documentation. When your team spans multiple time zones, version history becomes critical for tracking changes, and approval workflows ensure quality control without creating bottlenecks. This guide evaluates the best wiki solutions for remote teams that need strong version control and structured review processes.
 
+## Table of Contents
+
+- [Why Version History and Approval Workflows Matter](#why-version-history-and-approval-workflows-matter)
+- [Solution 1: Notion — Flexible Workflows with Version Tracking](#solution-1-notion-flexible-workflows-with-version-tracking)
+- [Solution 2: Confluence — Enterprise-Grade Version Control](#solution-2-confluence-enterprise-grade-version-control)
+- [Solution 3: GitBook — Developer-Friendly with Git Integration](#solution-3-gitbook-developer-friendly-with-git-integration)
+- [Solution 4: Coda — Interactive Documents with Approval States](#solution-4-coda-interactive-documents-with-approval-states)
+- [Comparing Version History Capabilities](#comparing-version-history-capabilities)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Choosing Based on Team Size and Compliance Needs](#choosing-based-on-team-size-and-compliance-needs)
+- [Tool Migration Without Losing History](#tool-migration-without-losing-history)
+
 ## Why Version History and Approval Workflows Matter
 
 Remote work creates unique documentation challenges. Team members cannot walk over to ask about a document's current state. Without clear version tracking, outdated information spreads across the team. Approval workflows solve this by requiring reviews before content becomes official.

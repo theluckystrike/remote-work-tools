@@ -33,6 +33,18 @@ tags: [remote-work-tools]
 
 Hybrid office network upgrades require symmetric business-class internet (100+ Mbps upload for 50-person offices), Quality of Service (QoS) rules prioritizing video ports (443, 3478-3480, 5000-6000), and gigabit or multi-gig switched infrastructure. WiFi 6E/7 access points with band steering handle concurrent connections better than older standards. Monitor bandwidth continuously using tools like vnstat with Prometheus metrics and Grafana dashboards to catch saturation before video calls degrade. Start by calculating concurrent capacity at 40% occupancy × 2 Mbps per participant plus 30% headroom.
 
+## Table of Contents
+
+- [Assessing Your Current Network Capacity](#assessing-your-current-network-capacity)
+- [Upgrading Your Internet Connection](#upgrading-your-internet-connection)
+- [Implementing Quality of Service (QoS)](#implementing-quality-of-service-qos)
+- [Optimizing Local Network Architecture](#optimizing-local-network-architecture)
+- [Monitoring and Maintaining Performance](#monitoring-and-maintaining-performance)
+- [Practical Upgrade Checklist](#practical-upgrade-checklist)
+- [Network Configuration Templates](#network-configuration-templates)
+- [Network Capacity Planning Example](#network-capacity-planning-example)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+
 ## Assessing Your Current Network Capacity
 
 Before upgrading, you need to understand your baseline. Video calls consume significant bandwidth, and most platforms recommend 1.5-3 Mbps per participant for HD quality. With multiple simultaneous calls, bandwidth requirements multiply quickly.

@@ -17,6 +17,24 @@ tags: [remote-work-tools]
 
 A communication SLA removes ambiguity about response expectations. Remote teams that operate across timezones need written agreements: which channel for what urgency, how long before you can expect a reply, and when escalation is appropriate. This guide provides templates and the tooling to enforce them.
 
+## Table of Contents
+
+- [Core Concepts](#core-concepts)
+- [Channel-by-Channel SLA](#channel-by-channel-sla)
+- [Slack](#slack)
+- [Email](#email)
+- [GitHub / Gitea](#github-gitea)
+- [Video Calls](#video-calls)
+- [Timezone Coverage Matrix](#timezone-coverage-matrix)
+- [Active Hours by Time Zone](#active-hours-by-time-zone)
+- [Async-First Rules for Cross-TZ Work](#async-first-rules-for-cross-tz-work)
+- [Slack Bot Enforcement](#slack-bot-enforcement)
+- [PR Review SLA Bot (GitHub Actions)](#pr-review-sla-bot-github-actions)
+- [PR Checklist](#pr-checklist)
+- [Onboarding New Team Members](#onboarding-new-team-members)
+- [Quarterly Review](#quarterly-review)
+- [Related Reading](#related-reading)
+
 ## Core Concepts
 
 A communication SLA defines:

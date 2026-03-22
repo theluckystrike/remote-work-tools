@@ -18,6 +18,16 @@ voice-checked: true
 
 A client-facing knowledge base transforms how your remote agency communicates with clients. Instead of repeating the same explanations across Slack messages and email threads, you create a centralized library where clients can find answers, track project progress, and understand your processes. This guide walks you through building a knowledge base that reduces client friction while positioned your agency as a professional, well-organized partner.
 
+## Table of Contents
+
+- [Why Remote Agencies Need Client-Facing Knowledge Bases](#why-remote-agencies-need-client-facing-knowledge-bases)
+- [Prerequisites](#prerequisites)
+- [When to Use This](#when-to-use-this)
+- [Common Issues](#common-issues)
+- [Next Steps](#next-steps)
+- [Best Practices for Remote Agency Knowledge Bases](#best-practices-for-remote-agency-knowledge-bases)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Remote Agencies Need Client-Facing Knowledge Bases
 
 Remote agencies face unique communication challenges that in-person firms don't encounter. Without physical office spaces where clients can peek at whiteboards or see project status boards, every piece of information requires intentional delivery. Clients working in different time zones can't simply walk down the hall to ask questions, leading to delayed responses and duplicated explanations.
@@ -316,11 +326,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
-- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
+- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [Self-Hosted Knowledge Base for Remote Support Team](/remote-work-tools/self-hosted-knowledge-base-for-remote-support-team-replacing/)
 - [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
-- [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
-
+- [Best Knowledge Base Tool for Remote Team That Works Offline](/remote-work-tools/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

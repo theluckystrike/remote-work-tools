@@ -31,6 +31,24 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Use Miro for template libraries and enterprise integrations, MURAL for more intuitive interface with help coaching, or Figma if your team already uses it for design. Choose based on template variety, real-time sync performance, async contribution support, and existing workflow integration for running strategic sessions across time zones.
 
+## Table of Contents
+
+- [What Makes a Virtual Offsite Platform Effective](#what-makes-a-virtual-offsite-platform-effective)
+- [Platform Comparison](#platform-comparison)
+- [Pre-work (Async)](#pre-work-async)
+- [Live Session Agenda](#live-session-agenda)
+- [Post-session](#post-session)
+- [Feature Comparison Table](#feature-comparison-table)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Avoiding Common Pitfalls](#avoiding-common-pitfalls)
+- [Advanced Implementation for Engineering Teams](#advanced-implementation-for-engineering-teams)
+- [Day 1: Preparation (Async)](#day-1-preparation-async)
+- [Day 2: Live Synthesis (90 min meeting across 3 time zones)](#day-2-live-synthesis-90-min-meeting-across-3-time-zones)
+- [Day 3: Voting and Decision (Async)](#day-3-voting-and-decision-async)
+- [Outcomes](#outcomes)
+- [Cost Optimization for Large Teams](#cost-optimization-for-large-teams)
+- [Measuring Offsite Success](#measuring-offsite-success)
+
 ## What Makes a Virtual Offsite Platform Effective
 
 Before comparing tools, understand the key requirements for successful remote offsites:

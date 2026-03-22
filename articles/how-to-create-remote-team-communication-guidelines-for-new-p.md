@@ -31,6 +31,20 @@ tags: [remote-work-tools, remote-work]
 
 Establish remote team communication guidelines for new projects by creating a channel selection matrix, defining async writing standards, setting meeting protocols with time zone rules, and capturing documentation artifacts like ADRs. This framework prevents communication friction, reduces coordination overhead, and ensures important information survives beyond individual conversations—critical for distributed teams across time zones.
 
+## Table of Contents
+
+- [Why Communication Guidelines Matter for New Remote Projects](#why-communication-guidelines-matter-for-new-remote-projects)
+- [Core Components of Remote Team Communication Guidelines](#core-components-of-remote-team-communication-guidelines)
+- [Communication Channels](#communication-channels)
+- [Feature: User Authentication Flow](#feature-user-authentication-flow)
+- [Status: Accepted](#status-accepted)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Reviewers](#reviewers)
+- [Implementing Guidelines for 2026 Projects](#implementing-guidelines-for-2026-projects)
+- [Adapting Guidelines Over Time](#adapting-guidelines-over-time)
+
 Remote team communication doesn't magically work itself out. When a new project launches in 2026 with distributed team members across time zones, the absence of clear guidelines creates friction, delays, and frustration. The difference between a smooth remote project launch and a chaotic one often comes down to communication norms established on day one.
 
 This guide provides a framework for creating communication guidelines tailored to new remote projects. You'll find practical templates, code-based solutions, and implementation strategies that work for developer teams and technical power users.

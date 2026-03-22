@@ -18,6 +18,22 @@ voice-checked: true
 
 Greece introduced its digital nomad visa in 2021, offering a pathway for non-EU remote workers to live in the country while continuing work for employers or clients outside Greece. The initial visa is valid for one year, and you can renew it for additional two-year periods, with a maximum stay of five years. This guide covers the renewal process, required documents, timelines, and practical automation tips for developers managing their visa status.
 
+## Table of Contents
+
+- [Understanding the Renewal Framework](#understanding-the-renewal-framework)
+- [When to Start the Renewal Process](#when-to-start-the-renewal-process)
+- [Required Documents for Renewal](#required-documents-for-renewal)
+- [The Application Process](#the-application-process)
+- [Automation Tips for Developers](#automation-tips-for-developers)
+- [Common Renewal Issues and Solutions](#common-renewal-issues-and-solutions)
+- [Extending Beyond Five Years](#extending-beyond-five-years)
+- [Regional Variations and Local Immigration Office Differences](#regional-variations-and-local-immigration-office-differences)
+- [Document Organization System](#document-organization-system)
+- [Common Renewal Mistakes and Prevention](#common-renewal-mistakes-and-prevention)
+- [Timeline for Multi-Month Renewal Process](#timeline-for-multi-month-renewal-process)
+- [Post-Renewal Status Management](#post-renewal-status-management)
+- [Visa Extension Beyond Five Years](#visa-extension-beyond-five-years)
+
 ## Understanding the Renewal Framework
 
 The Greece digital nomad visa operates under Law 4825/2021. After your first year, you can apply for renewal in two-year increments. To qualify for renewal, you must continue meeting the original eligibility criteria: proof of remote work for a non-Greek entity, sufficient income (at least €3,500 monthly), health insurance coverage, and no criminal record in Greece.
@@ -347,11 +363,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
-- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
-- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Brazil Digital Nomad Visa Process and Tax Implications](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
+- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

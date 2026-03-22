@@ -18,6 +18,24 @@ intent-checked: true
 
 Career ladder documentation serves as the foundation for talent development in remote engineering organizations. When your team spans multiple time zones and communicates primarily through asynchronous channels, having clear, written criteria for each engineering level becomes essential for fair compensation, transparent promotion paths, and consistent performance expectations.
 
+## Table of Contents
+
+- [Why Remote Engineering Teams Need Explicit Career Ladders](#why-remote-engineering-teams-need-explicit-career-ladders)
+- [Structuring Your Career Ladder Framework](#structuring-your-career-ladder-framework)
+- [Practical Example: Engineering Level Definitions](#practical-example-engineering-level-definitions)
+- [Implementation Steps for Remote Teams](#implementation-steps-for-remote-teams)
+- [Promotion Criteria: Senior Engineer](#promotion-criteria-senior-engineer)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Handling Specialized Career Paths](#handling-specialized-career-paths)
+- [Compensation Philosophy Documentation](#compensation-philosophy-documentation)
+- [Handling Mid-Career Engineers and Title Inflation](#handling-mid-career-engineers-and-title-inflation)
+- [Title Normalization for Experienced Hires](#title-normalization-for-experienced-hires)
+- [Documenting Remote-Specific Skills Explicitly](#documenting-remote-specific-skills-explicitly)
+- [Creating Career Progression Examples](#creating-career-progression-examples)
+- [Measuring Career Ladder Effectiveness](#measuring-career-ladder-effectiveness)
+- [Annual Career Ladder Reviews](#annual-career-ladder-reviews)
+- [Communicating the Career Ladder to Your Team](#communicating-the-career-ladder-to-your-team)
+
 This guide provides practical steps for creating career ladder documentation tailored to remote engineering teams, with concrete examples you can adapt for your organization.
 
 ## Why Remote Engineering Teams Need Explicit Career Ladders

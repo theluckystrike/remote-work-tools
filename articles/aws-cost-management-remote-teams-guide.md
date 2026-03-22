@@ -17,6 +17,20 @@ tags: [remote-work-tools, remote-work]
 
 AWS bills grow quietly. A dev environment EC2 left running over a holiday weekend, an S3 bucket with no lifecycle policy accumulating five years of logs, an RDS instance sized for peak traffic that never arrived — these add up. Remote teams with multiple developers provisioning infrastructure independently need guardrails.
 
+## Table of Contents
+
+- [Set Up Budget Alerts First](#set-up-budget-alerts-first)
+- [Enable Cost Anomaly Detection](#enable-cost-anomaly-detection)
+- [Tag Every Resource](#tag-every-resource)
+- [Find Idle and Underutilized Resources](#find-idle-and-underutilized-resources)
+- [Stop Dev Instances Outside Business Hours](#stop-dev-instances-outside-business-hours)
+- [S3 Lifecycle Policies](#s3-lifecycle-policies)
+- [Right-Size RDS Instances](#right-size-rds-instances)
+- [Use Savings Plans for Predictable Workloads](#use-savings-plans-for-predictable-workloads)
+- [Cost Explorer Report by Tag](#cost-explorer-report-by-tag)
+- [Building a Cost Review Cadence](#building-a-cost-review-cadence)
+- [Related Reading](#related-reading)
+
 This guide covers practical cost control for remote AWS teams: budget alerts, anomaly detection, right-sizing, reserved capacity, and automated cleanup of abandoned resources.
 
 ## Set Up Budget Alerts First

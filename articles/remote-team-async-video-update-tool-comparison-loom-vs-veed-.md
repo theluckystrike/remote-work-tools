@@ -18,6 +18,20 @@ tags: [remote-work-tools, comparison, remote-work]
 
 Asynchronous video updates have become essential for remote teams that want to reduce meeting fatigue while maintaining clear communication. When your team spans time zones or works in deep-focus blocks, recorded video updates replace live meetings more effectively than text or audio alone. This comparison evaluates Loom, Veed, and ScreenPal from a developer's perspective—focusing on API access, automation potential, and practical integration into team workflows.
 
+## Table of Contents
+
+- [Recording Quality and Technical Foundation](#recording-quality-and-technical-foundation)
+- [Developer Integration and API Access](#developer-integration-and-api-access)
+- [Automation Potential for Team Workflows](#automation-potential-for-team-workflows)
+- [Pricing for Technical Teams](#pricing-for-technical-teams)
+- [When to Choose Loom](#when-to-choose-loom)
+- [When to Choose Veed](#when-to-choose-veed)
+- [When to Choose ScreenPal](#when-to-choose-screenpal)
+- [Making the Decision](#making-the-decision)
+- [Implementation Guide for Each Tool](#implementation-guide-for-each-tool)
+- [Measuring Video ROI](#measuring-video-roi)
+- [Video Best Practices by Use Case](#video-best-practices-by-use-case)
+
 ## Recording Quality and Technical Foundation
 
 All three tools handle basic screen recording competently, but the technical details matter for teams that value production quality.

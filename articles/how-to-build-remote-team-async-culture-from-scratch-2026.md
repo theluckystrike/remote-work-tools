@@ -31,6 +31,25 @@ tags: [remote-work-tools, remote-work]
 
 Async-first culture is a force multiplier for distributed teams. It eliminates the "waiting for a meeting" tax, respects distributed time zones, and creates space for deep work. Teams that run async well ship faster, with higher quality output, and lower burnout. Teams that try to force synchronous workflows (Zoom calls, Slack Real-time chat) onto remote workers end up exhausted and inefficient.
 
+## Table of Contents
+
+- [The Async Mindset](#the-async-mindset)
+- [Core Tool Stack](#core-tool-stack)
+- [Decision: Migrate from MongoDB to PostgreSQL (Decision #42)](#decision-migrate-from-mongodb-to-postgresql-decision-42)
+- [Communication Protocols](#communication-protocols)
+- [Status: Week of March 17-21](#status-week-of-march-17-21)
+- [Meeting Reduction Strategies](#meeting-reduction-strategies)
+- [Documentation Templates](#documentation-templates)
+- [Week 1](#week-1)
+- [Week 2](#week-2)
+- [Ongoing](#ongoing)
+- [Decision: [Title]](#decision-title)
+- [Loom: [link] (5-minute video explaining the situation)](#loom-link-5-minute-video-explaining-the-situation)
+- [Discussion Doc: [link]](#discussion-doc-link)
+- [Async Execution Workflow](#async-execution-workflow)
+- [Pitfalls to Avoid](#pitfalls-to-avoid)
+- [Measuring Async Health](#measuring-async-health)
+
 Building async culture requires intentional tool choices, clear communication protocols, and documented processes. This guide covers the stack, practices, and templates to go from chaotic async (Slack overload, lost context) to functional async (clear decisions, deep work, high velocity).
 
 ## The Async Mindset

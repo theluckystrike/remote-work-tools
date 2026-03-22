@@ -18,6 +18,19 @@ intent-checked: true
 
 The essential return to office tools for hybrid teams are a desk booking system with calendar integration, occupancy sensors for space use data, hybrid-ready video conferencing hardware, and API-based access control that provisions building entry automatically. Start with desk booking since it solves the most immediate coordination pain. This guide covers each category with integration examples for developer workflows.
 
+## Table of Contents
+
+- [The Core Problem: Coordination Across Locations](#the-core-problem-coordination-across-locations)
+- [Essential Categories of Return to Office Tools](#essential-categories-of-return-to-office-tools)
+- [Integration Considerations](#integration-considerations)
+- [Practical Implementation Tips](#practical-implementation-tips)
+- [Building Custom Solutions](#building-custom-solutions)
+- [Tool Comparison: Major Platforms](#tool-comparison-major-platforms)
+- [Real-World Scenario: Implementing Desk Booking](#real-world-scenario-implementing-desk-booking)
+- [Building Space Analytics Dashboards](#building-space-analytics-dashboards)
+- [Policy Templates for Common Scenarios](#policy-templates-for-common-scenarios)
+- [Measuring Hybrid Success Metrics](#measuring-hybrid-success-metrics)
+
 ## The Core Problem: Coordination Across Locations
 
 Hybrid teams face a fundamental challenge: ensuring people can work effectively whether they're at home or in the office. This isn't just about booking desks—it's about creating consistent experiences where location becomes irrelevant for productivity. The right tools handle the logistics so your team can focus on writing code, reviewing PRs, and shipping products.

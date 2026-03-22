@@ -18,6 +18,17 @@ voice-checked: true
 
 Distributed Revit teams can collaborate using cloud-based central file storage (Autodesk Construction Cloud, Azure Blob Storage), VPN-based workset synchronization, or web-based BIM viewers for stakeholder access. Real-time workset monitoring and conflict detection systems help prevent simultaneous editing conflicts. This guide examines technical approaches, cloud integration patterns, and implementation strategies enabling distributed architecture teams to work on Revit projects collaboratively across time zones.
 
+## Table of Contents
+
+- [Understanding the Remote BIM Challenge](#understanding-the-remote-bim-challenge)
+- [Technical Approaches for Remote Revit Collaboration](#technical-approaches-for-remote-revit-collaboration)
+- [Implementing Real-Time Collaboration](#implementing-real-time-collaboration)
+- [Best Practices for Distributed Revit Teams](#best-practices-for-distributed-revit-teams)
+- [Tool Comparison: Remote BIM Collaboration Platforms](#tool-comparison-remote-bim-collaboration-platforms)
+- [Network Latency Optimization for Remote Revit](#network-latency-optimization-for-remote-revit)
+- [Workset Ownership by Time Zone](#workset-ownership-by-time-zone)
+- [Evaluating Your Collaboration Stack](#evaluating-your-collaboration-stack)
+
 ## Understanding the Remote BIM Challenge
 
 Revit, Autodesk's industry-standard BIM platform, was designed primarily for single-user, on-premises workflows. The software's reliance on workset-based collaboration and local file access creates significant challenges for remote teams. Each team member typically needs direct access to the central model, which introduces latency when team members are geographically distributed.

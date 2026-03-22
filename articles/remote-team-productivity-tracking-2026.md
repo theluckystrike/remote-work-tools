@@ -33,6 +33,17 @@ tags: [remote-work-tools, remote-work, productivity]
 
 Productivity tracking for remote teams sits on a spectrum from surveillance tools that screenshot every 5 minutes to outcome-based metrics that track shipped work. The tools you choose signal what you trust about your team.
 
+## Table of Contents
+
+- [What to Track (and What Not To)](#what-to-track-and-what-not-to)
+- [Time Doctor](#time-doctor)
+- [Hubstaff](#hubstaff)
+- [RescueTime](#rescuetime)
+- [Tool Comparison](#tool-comparison)
+- [Building Your Own Light Metrics Dashboard](#building-your-own-light-metrics-dashboard)
+- [Meeting Load Tracking](#meeting-load-tracking)
+- [Implementing a Metrics Review Cadence](#implementing-a-metrics-review-cadence)
+
 This guide covers the practical end of the spectrum: time tracking that helps individuals understand their own work patterns, project-level metrics that help managers spot blockers, and the activity data worth paying attention to versus the data that creates anxiety without insight.
 
 ## What to Track (and What Not To)
@@ -318,11 +329,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
 - [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
-- [How to Measure Remote Team Productivity Without](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
-- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
-- [Best Tool for Remote Team Mood Tracking and Sentiment](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
-- [Parse: Accomplished X. Next: Y. Blockers: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
-
+- [Best Time Tracking Tools for Remote Freelancers](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
+- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
+- [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

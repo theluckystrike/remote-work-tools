@@ -20,6 +20,21 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Implement SSH agent forwarding for small teams as a starting point, use dedicated tools like Teleport or HashiCorp Vault for enterprise-scale teams needing audit trails and access controls, or combine OIDC authentication with cloud provider-native solutions for minimal friction. The key is reducing manual key rotation while maintaining visibility into who accesses production infrastructure.
 
+## Table of Contents
+
+- [The SSH Key Management Problem](#the-ssh-key-management-problem)
+- [SSH Agent Forwarding and Key Chaining](#ssh-agent-forwarding-and-key-chaining)
+- [Implementing a Centralized SSH Key Directory](#implementing-a-centralized-ssh-key-directory)
+- [Using Ansible for SSH Key Distribution](#using-ansible-for-ssh-key-distribution)
+- [GitOps-Based SSH Key Management](#gitops-based-ssh-key-management)
+- [Short-Lived SSH Certificates](#short-lived-ssh-certificates)
+- [SSH Key Rotation Strategies](#ssh-key-rotation-strategies)
+- [Managed SSH Key Solutions](#managed-ssh-key-solutions)
+- [Monitoring and Auditing SSH Access](#monitoring-and-auditing-ssh-access)
+- [Practical Recommendations](#practical-recommendations)
+- [Migrating from Password to Key-Based Authentication](#migrating-from-password-to-key-based-authentication)
+- [Incident Response for Compromised Keys](#incident-response-for-compromised-keys)
+
 ## The SSH Key Management Problem
 
 Remote engineering teams typically face several key management challenges. Developers need access to production servers, staging environments, and various internal services. Each developer might have multiple keys for different purposes—a personal key, a work key, and keys for specific projects. When team members leave or roles change, revoking access quickly becomes critical.
@@ -302,11 +317,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
-- [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
-- [Secure Remote Desktop Solution Comparison for Distributed](/remote-work-tools/secure-remote-desktop-solution-comparison-for-distributed-te/)
 - [SSH Tunnels for Remote Database Access](/remote-work-tools/ssh-tunnels-remote-database-access/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-
+- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
+- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
+- [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
+- [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

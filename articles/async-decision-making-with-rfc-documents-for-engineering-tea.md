@@ -17,6 +17,45 @@ score: 9
 
 Request for Comments (RFC) documents serve as the backbone of asynchronous decision making in distributed engineering organizations. When implemented effectively, RFCs enable teams to make thoughtful, documented decisions without requiring real-time synchronization, which proves especially valuable across time zones.
 
+## Table of Contents
+
+- [Implementation Plan](#implementation-plan)
+- [What Makes RFCs Effective for Async Decision Making](#what-makes-rfcs-effective-for-async-decision-making)
+- [Structuring an RFC Document](#structuring-an-rfc-document)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Alternatives Considered](#alternatives-considered)
+- [Implementation Plan](#implementation-plan)
+- [Open Questions](#open-questions)
+- [Success Metrics](#success-metrics)
+- [Timeline](#timeline)
+- [Implementing an RFC Workflow](#implementing-an-rfc-workflow)
+- [Decision](#decision)
+- [Practical Example: Database Migration Decision](#practical-example-database-migration-decision)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Alternatives Considered](#alternatives-considered)
+- [Implementation Plan](#implementation-plan)
+- [Success Metrics](#success-metrics)
+- [Managing RFC Review Effectively](#managing-rfc-review-effectively)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [RFC Tools and Workflow Integration](#rfc-tools-and-workflow-integration)
+- [Real RFC Examples](#real-rfc-examples)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Alternatives Considered](#alternatives-considered)
+- [Timeline](#timeline)
+- [Risks & Mitigation](#risks-mitigation)
+- [Success Metrics](#success-metrics)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Implementation Details](#implementation-details)
+- [Risks & Mitigation](#risks-mitigation)
+- [Success Metrics](#success-metrics)
+- [Timeline](#timeline)
+- [Running Efficient RFC Review Periods](#running-efficient-rfc-review-periods)
+- [Learning from Decisions](#learning-from-decisions)
+
 ## Implementation Plan
 1.
 - **A reasonable SLA**: - Initial feedback: 48 hours

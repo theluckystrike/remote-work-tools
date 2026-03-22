@@ -33,6 +33,15 @@ tags: [remote-work-tools, remote-work]
 
 Implement zero-trust remote access by requiring multi-factor authentication for all connections, using short-lived credentials that expire quickly, and logging every access request for audit trails. Zero-trust removes the assumption that "inside the network" means safe.
 
+## Table of Contents
+
+- [Understanding Zero Trust for Engineering Teams](#understanding-zero-trust-for-engineering-teams)
+- [Component Architecture](#component-architecture)
+- [Implementation Steps](#implementation-steps)
+- [Practical Configuration Examples](#practical-configuration-examples)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Scaling Your Implementation](#scaling-your-implementation)
+
 This guide walks through implementing zero trust remote access for small engineering teams without enterprise budgets or complex infrastructure.
 
 ## Understanding Zero Trust for Engineering Teams
@@ -292,11 +301,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
 - [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
+- [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
 - [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
-- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
-- [Ubuntu and Debian](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
-
+- [How to Implement Just-in-Time Access for Remote Team](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
+- [How to Build Trust on Fully Remote Teams](/remote-work-tools/how-to-build-trust-on-fully-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

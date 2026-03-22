@@ -33,6 +33,23 @@ tags: [remote-work-tools]
 
 Digital nomads face unique networking challenges. Moving between cities while maintaining professional relationships requires a different approach to community building. This guide covers practical strategies and tools for developers and power users who work remotely while traveling.
 
+## Table of Contents
+
+- [Why Networking Changes When You Nomad](#why-networking-changes-when-you-nomad)
+- [Finding Networking Events While Traveling](#finding-networking-events-while-traveling)
+- [Virtual Event Strategies](#virtual-event-strategies)
+- [Building Your Nomad Networking Stack](#building-your-nomad-networking-stack)
+- [Practical Code Examples](#practical-code-examples)
+- [Event Best Practices](#event-best-practices)
+- [Managing Time Zone Challenges](#managing-time-zone-challenges)
+- [Growing Your Network Intentionally](#growing-your-network-intentionally)
+- [Pre-Event Preparation Checklist](#pre-event-preparation-checklist)
+- [Real-World Nomad Networking Templates](#real-world-nomad-networking-templates)
+- [Event Strategy by Type](#event-strategy-by-type)
+- [Building a Nomad Networking System](#building-a-nomad-networking-system)
+- [Advanced: Taking advantage of Nomad Networks for Opportunities](#advanced-taking-advantage-of-nomad-networks-for-opportunities)
+- [Networking Fatigue and Recovery](#networking-fatigue-and-recovery)
+
 ## Why Networking Changes When You Nomad
 
 Traditional networking assumes you stay in one location. You attend local meetups, build relationships over months, and rely on proximity. Nomad networking flips this model. You connect deeply with people quickly, then maintain those connections asynchronously across time zones.

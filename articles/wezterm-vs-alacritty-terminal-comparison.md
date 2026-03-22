@@ -17,6 +17,26 @@ voice-checked: true
 
 Choose Wezterm if you want built-in tabs, split panes, and Lua-powered configuration without relying on tmux. Choose Alacritty if raw performance and minimalism are your top priorities and you already use tmux for multiplexing. Both are GPU-accelerated Rust terminals, but Wezterm bundles more features while Alacritty stays deliberately lean -- this guide covers the practical tradeoffs across performance, configuration, and workflow integration.
 
+## Table of Contents
+
+- [Understanding the Core Philosophies](#understanding-the-core-philosophies)
+- [Performance Characteristics](#performance-characteristics)
+- [Configuration and Customization](#configuration-and-customization)
+- [Built-in Features](#built-in-features)
+- [Cross-Platform Support](#cross-platform-support)
+- [Which Should You Choose?](#which-should-you-choose)
+- [Integration with Development Workflows](#integration-with-development-workflows)
+- [Real-World Performance Testing](#real-world-performance-testing)
+- [Terminal Feature Comparison Table](#terminal-feature-comparison-table)
+- [Migration Path: From One to the Other](#migration-path-from-one-to-the-other)
+- [Advanced Configurations: Power User Setup](#advanced-configurations-power-user-setup)
+- [Performance Tips](#performance-tips)
+- [When to Reconsider Your Choice](#when-to-reconsider-your-choice)
+- [Debugging and Troubleshooting: When Something Goes Wrong](#debugging-and-troubleshooting-when-something-goes-wrong)
+- [Advanced Use Cases](#advanced-use-cases)
+- [Accessibility Features](#accessibility-features)
+- [Future Development and Maintenance](#future-development-and-maintenance)
+
 ## Understanding the Core Philosophies
 
 Wezterm and Alacritty represent different approaches to terminal emulation. Alacritty focuses on raw performance, using GPU acceleration to achieve minimal latency. It started as a project to demonstrate that terminals could be blazing fast without sacrificing simplicity. Wezterm, on the other hand, aims to provide a more feature-rich experience while still maintaining excellent performance.

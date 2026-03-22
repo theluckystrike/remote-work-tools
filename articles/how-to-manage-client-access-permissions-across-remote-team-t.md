@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "permission-matrix.yaml"
+title: "Manage Client Access Permissions for Remote Teams"
 description: "A practical guide for developers and power users on managing client access permissions across remote team tools. Includes code examples, permission"
 date: 2026-03-16
 last_modified_at: 2026-03-16

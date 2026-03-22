@@ -33,6 +33,29 @@ tags: [remote-work-tools, tools, remote-work]
 
 The fastest desk-to-kitchen transitions use three techniques: physical workspace layout that minimizes walking distance, pre-prepared meals that require no cooking, and calendar blocking that protects 30-minute lunch windows. This guide provides actionable strategies to recover 12-15 lost minutes per meal, including workspace setup diagrams, meal prep templates, and scripts for communicating lunch boundaries to family members working in the same home.
 
+## Table of Contents
+
+- [Understanding the Transition Cost](#understanding-the-transition-cost)
+- [Physical Workspace Setup](#physical-workspace-setup)
+- [Automating Status and Notifications](#automating-status-and-notifications)
+- [The Five-Minute Preparation System](#the-five-minute-preparation-system)
+- [Kitchen Organization for Speed](#kitchen-organization-for-speed)
+- [Batch Cooking and Strategic Leftovers](#batch-cooking-and-strategic-leftovers)
+- [Managing Family Interruptions During Transitions](#managing-family-interruptions-during-transitions)
+- [When It Starts](#when-it-starts)
+- [What This Means](#what-this-means)
+- [Why It Matters](#why-it-matters)
+- [During Lunch](#during-lunch)
+- [After Lunch](#after-lunch)
+- [Meal Prep Deep Dive: The Sustainable Approach](#meal-prep-deep-dive-the-sustainable-approach)
+- [Portable Lunch Solutions for Flexible Work](#portable-lunch-solutions-for-flexible-work)
+- [Pre-staged Container](#pre-staged-container)
+- [Condiment Kit](#condiment-kit)
+- [No-Cook Options](#no-cook-options)
+- [Hybrid Approach](#hybrid-approach)
+- [The 5-Minute Return-to-Work Protocol](#the-5-minute-return-to-work-protocol)
+- [Measuring Success: Quantifying Your Time Recovery](#measuring-success-quantifying-your-time-recovery)
+
 ## Understanding the Transition Cost
 
 Every time you leave your workstation, several things happen: you save your current state, physically move to a different room, and mentally shift from work mode to parent mode. For developers and power users, the real inefficiency comes from losing focus and the time cost of resuming complex workflows.

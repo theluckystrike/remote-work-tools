@@ -18,6 +18,21 @@ voice-checked: true
 
 Setting up reliable WiFi for a second floor home office requires understanding how radio waves propagate through your living space. Most routers broadcast in a roughly spherical pattern, which means ground floor placement often leaves upper floors with weak signals. This guide covers practical strategies for developers and power users who need consistent, low-latency connections for video calls, code deployments, and remote collaboration.
 
+## Table of Contents
+
+- [Understanding Signal Propagation in Multi-Story Homes](#understanding-signal-propagation-in-multi-story-homes)
+- [Strategy One: Centralized Single-Router Placement](#strategy-one-centralized-single-router-placement)
+- [Strategy Two: Wired Access Points](#strategy-two-wired-access-points)
+- [Strategy Three: Mesh WiFi Systems](#strategy-three-mesh-wifi-systems)
+- [Channel Selection and Congestion](#channel-selection-and-congestion)
+- [Practical Configuration for Developers](#practical-configuration-for-developers)
+- [When to Upgrade Your Equipment](#when-to-upgrade-your-equipment)
+- [Router Comparison: Equipment That Works for Multi-Story Homes](#router-comparison-equipment-that-works-for-multi-story-homes)
+- [Installation and Optimization Guide](#installation-and-optimization-guide)
+- [Mesh Network Installation Example](#mesh-network-installation-example)
+- [Troubleshooting Common Second-Floor Issues](#troubleshooting-common-second-floor-issues)
+- [Cost-Benefit Analysis](#cost-benefit-analysis)
+
 ## Understanding Signal Propagation in Multi-Story Homes
 
 WiFi signals travel differently than wired ethernet. They attenuate through walls, reflect off metal objects, and lose strength as they pass through floors. The 2.4 GHz band penetrates obstacles better than 5 GHz, but offers lower speeds. For a second floor office, you have three primary approaches: optimal single-router placement, wired access point deployment, or mesh network installation.

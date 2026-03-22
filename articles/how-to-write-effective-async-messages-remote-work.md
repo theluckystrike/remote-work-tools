@@ -201,6 +201,19 @@ Even well-intentioned teams stumble with recurring problems. Recognizing these p
 "Hey, so we have a pretty serious issue with the API. Performance got way worse. I think it's the database doing too many queries. We should probably fix that before it gets worse. Let me know what you think."
 ```
 
+## Table of Contents
+
+- [Building Asynchronous Feedback Loops](#building-asynchronous-feedback-loops)
+- [Feedback Timeline Example](#feedback-timeline-example)
+- [The Art of Async Disagreement](#the-art-of-async-disagreement)
+- [RFC Discussion: Move to GraphQL](#rfc-discussion-move-to-graphql)
+- [Real-World Async Message Examples](#real-world-async-message-examples)
+- [Architecture Decision: PostgreSQL for Audit Log Storage](#architecture-decision-postgresql-for-audit-log-storage)
+- [Design Review Request: New Dashboard Layout](#design-review-request-new-dashboard-layout)
+- [Async Communication Tools Comparison](#async-communication-tools-comparison)
+- [Building Async Communication Guidelines for Your Team](#building-async-communication-guidelines-for-your-team)
+- [Our Async Communication Guidelines](#our-async-communication-guidelines)
+
 **Vague action items**: "Can you review this?" leaves the reviewer confused about urgency, deadline, or scope. Replace with: "Can you review this PR for security issues by Thursday? I'm targeting Friday deployment."
 
 **Sensitive content without context**: Sharing performance metrics, bugs, or personnel issues without framing them appropriately creates anxiety. Always open sensitive messages with intent: "I'm sharing this to improve our process, not to blame anyone."

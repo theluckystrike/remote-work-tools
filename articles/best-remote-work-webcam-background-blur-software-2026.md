@@ -18,6 +18,16 @@ intent-checked: true
 
 Use Zoom's native blur if your team already pays for Zoom and needs zero setup (free tier supports blur on 10+ participants). Use Slack's camera settings in huddles if you're Slack-first and need quick background replacement without third-party apps. Use Open Broadcaster Software (OBS) with Nvidia CUDA acceleration if you stream or record calls and want professional-grade background control. Use BackgroundRemover desktop if you need background blur across any app (Chrome, Teams, Discord, Slack) and have a dedicated GPU. This guide walks through setup, CPU/GPU requirements, and comparison of blur quality across tools.
 
+## Table of Contents
+
+- [Why Background Blur Matters for Remote Teams](#why-background-blur-matters-for-remote-teams)
+- [Native Solutions: Zoom and Slack](#native-solutions-zoom-and-slack)
+- [Third-Party Blur Solutions: OBS and BackgroundRemover](#third-party-blur-solutions-obs-and-backgroundremover)
+- [Comparison Table: Blur Quality and CPU Usage](#comparison-table-blur-quality-and-cpu-usage)
+- [Specific Scenarios and Recommendations](#specific-scenarios-and-recommendations)
+- [GPU Performance Breakdown](#gpu-performance-breakdown)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+
 ## Why Background Blur Matters for Remote Teams
 
 Unprofessional home backgrounds damage credibility in client calls and investment pitches. Blurring your background solves this without the overhead of virtual backgrounds, which can look fake on low-bandwidth calls. Native solutions built into video platforms offer the best performance. Standalone tools provide flexibility if you're using multiple platforms or need professional-grade effects.

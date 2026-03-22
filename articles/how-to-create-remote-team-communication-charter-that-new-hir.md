@@ -16,6 +16,26 @@ tags: [remote-work-tools, remote-work]
 
 A communication charter serves as the connective tissue for distributed teams. Without one, new hires scramble to understand when to use Slack versus email, how quickly they should respond to messages, and where critical information lives. Building a charter that actually gets adopted during onboarding requires more than documenting rules—it demands making those rules accessible, contextual, and reinforced through the first weeks of employment.
 
+## Table of Contents
+
+- [Why Most Communication Charters Fail](#why-most-communication-charters-fail)
+- [Building Blocks of an Effective Communication Charter](#building-blocks-of-an-effective-communication-charter)
+- [Quick Communication Guide](#quick-communication-guide)
+- [What this PR changes](#what-this-pr-changes)
+- [How to test](#how-to-test)
+- [Screenshots (if applicable)](#screenshots-if-applicable)
+- [Yesterday](#yesterday)
+- [Today](#today)
+- [Blockers](#blockers)
+- [FYI](#fyi)
+- [Attendees](#attendees)
+- [Decisions Made](#decisions-made)
+- [Action Items](#action-items)
+- [Open Questions](#open-questions)
+- [Week 1 Communication Tasks](#week-1-communication-tasks)
+- [Making Your Charter Living Documentation](#making-your-charter-living-documentation)
+- [Testing Charter Adoption](#testing-charter-adoption)
+
 This guide walks through creating a remote team communication charter that new hires naturally adopt during their onboarding journey. You'll find practical templates, implementation strategies, and code-based approaches that work for developer teams and technical power users.
 
 ## Why Most Communication Charters Fail

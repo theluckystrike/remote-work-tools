@@ -44,6 +44,27 @@ Not all decisions should be async. Classify decisions into three categories:
 
 ## Async Decision Framework Workflow
 
+## Table of Contents
+
+- [Async Decision Framework Workflow](#async-decision-framework-workflow)
+- [Tools & Setup](#tools-setup)
+- [Problem Statement](#problem-statement)
+- [Options Considered](#options-considered)
+- [Recommendation](#recommendation)
+- [Stakeholders & Deadlines](#stakeholders-deadlines)
+- [Feedback Window](#feedback-window)
+- [Escalation Threshold](#escalation-threshold)
+- [Feedback (filled as responses arrive)](#feedback-filled-as-responses-arrive)
+- [Decision](#decision)
+- [Implementation](#implementation)
+- [Signoffs](#signoffs)
+- [Timeboxing Strategy](#timeboxing-strategy)
+- [Escalation Criteria (Automatic Sync)](#escalation-criteria-automatic-sync)
+- [Real Example: Feature Prioritization Decision](#real-example-feature-prioritization-decision)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Measuring Async Success](#measuring-async-success)
+- [Recommendation](#recommendation)
+
 ### Step 1: Propose (Owner Initiative)
 
 Owner writes a decision proposal document (template below) that includes:
@@ -509,11 +530,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
+- [Async Decision-Making Framework for Remote Teams](/remote-work-tools/articles/how-to-set-up-async-decision-making-framework-guide/)
 - [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
-- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [Async Decision Making with RFC Documents for Engineering](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
-- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [How to Create Remote Team Decision Making Framework for Dist](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 - [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
-
+- [Best Tool for Remote Team Async Introductions](/remote-work-tools/best-tool-for-remote-team-async-introductions-connecting-new/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

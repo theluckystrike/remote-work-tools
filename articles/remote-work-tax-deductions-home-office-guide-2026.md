@@ -18,6 +18,13 @@ intent-checked: true
 
 The average remote worker can deduct $1,200-3,600 annually in home office expenses. Yet 82% of remote workers don't claim any deductions. This guide covers what qualifies, how much you can deduct, calculation methods for each country, and tools to track expenses.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Record-Keeping Best Practices (All Countries)](#record-keeping-best-practices-all-countries)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

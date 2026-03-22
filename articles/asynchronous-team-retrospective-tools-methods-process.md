@@ -16,6 +16,18 @@ intent-checked: true
 
 Retrospectives are where teams identify improvements, celebrate wins, and solve problems. But synchronous retros require everyone present at the same time—impossible for distributed teams. Async retros feel impersonal and get ignored. This guide shows how to run async retrospectives that actually change behavior, using proven formats, tools, and help methods that drive real improvement.
 
+## Table of Contents
+
+- [Why Traditional Retros Fail for Distributed Teams](#why-traditional-retros-fail-for-distributed-teams)
+- [Async Retrospective Template: 5-Day Format](#async-retrospective-template-5-day-format)
+- [Tool Comparison: Async Retro Platforms](#tool-comparison-async-retro-platforms)
+- [Real Tool Setup: Miro Async Retro Template](#real-tool-setup-miro-async-retro-template)
+- [Real Team Example: 6-Person Distributed Team](#real-team-example-6-person-distributed-team)
+- [Async Retro Formats: Pick the Right One](#async-retro-formats-pick-the-right-one)
+- [Implementation Tracking: Keep Action Items Alive](#implementation-tracking-keep-action-items-alive)
+- [Common Pitfalls + Solutions](#common-pitfalls-solutions)
+- [Recommended Workflow: 2-Week Cycle](#recommended-workflow-2-week-cycle)
+
 ## Why Traditional Retros Fail for Distributed Teams
 
 Sync retro at 9 AM Pacific requires people to join at 5 PM Europe or 2:30 AM India. Some skip it. Those who attend are exhausted. Discussion moves fast and quiet voices get drowned out. India and Europe feel like they're in a meeting held for Pacific team. Post-retro action items get forgotten.
@@ -419,9 +431,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Async Retrospective Tools and Process Guide](/remote-work-tools/async-retrospective-tools-and-process/)
-- [Async Team Retrospective Using Shared Documents and](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
-- [Remote Team Retrospective Silent Brainstorming Technique](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)
-
+- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
+- [Async Team Retrospective Using Shared Documents and Recorded](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

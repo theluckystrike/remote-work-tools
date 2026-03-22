@@ -33,6 +33,17 @@ tags: [remote-work-tools, remote-work]
 
 Balance workload across remote teams using tools that visualize capacity across projects, track time allocation by individual, and flag burnout risks before they become problems. Workload visibility prevents the silent burnout that remote work often hides.
 
+## Table of Contents
+
+- [The Core Problem: Invisible Overload](#the-core-problem-invisible-overload)
+- [Building a Capacity Matrix](#building-a-capacity-matrix)
+- [Tool Options for Workload Management](#tool-options-for-workload-management)
+- [Automated Load Balancing](#automated-load-balancing)
+- [Setting Healthy Thresholds](#setting-healthy-thresholds)
+- [Redistribution Workflows](#redistribution-workflows)
+- [Time Zone Considerations](#time-zone-considerations)
+- [Implementation Checklist](#implementation-checklist)
+
 ## The Core Problem: Invisible Overload
 
 In co-located teams, you can physically see when someone's desk is buried under papers or when someone leaves early to decompress. Remote work removes these visual cues. A developer in Tokyo might be drowning in tickets while their manager in San Francisco assumes everything is fine because pull requests are still coming in.
@@ -290,11 +301,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [analyze_review_distribution.py](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
 - [Best Practice for Remote Team Workload Balance](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
-- [Remote Team Conflict Resolution Framework for Managers](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
-- [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-
+- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [How to Monitor Remote Team Tool Response Times for](/remote-work-tools/how-to-monitor-remote-team-tool-response-times-for-identifyi/)
+- [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

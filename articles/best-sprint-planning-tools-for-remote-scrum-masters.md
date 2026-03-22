@@ -18,6 +18,31 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Use Linear for speed-focused engineering teams that want minimal ceremony, Jira for enterprise organizations needing audit trails and compliance, Trello for quick setup on a budget, Notion when documentation needs to live alongside planning, or ClickUp when you want a single unified platform. Each tool handles sprint cycles, estimation, and backlog management differently for distributed teams -- this guide breaks down the practical tradeoffs with API examples and workflow patterns for remote Scrum Masters.
 
+## Table of Contents
+
+- [Linear: Speed for Engineering-Driven Teams](#linear-speed-for-engineering-driven-teams)
+- [Jira: Enterprise-Grade Sprint Management](#jira-enterprise-grade-sprint-management)
+- [Trello: Simplicity for Quick Setup](#trello-simplicity-for-quick-setup)
+- [Notion: Flexible Documentation + Planning](#notion-flexible-documentation-planning)
+- [ClickUp: All-in-One Platform](#clickup-all-in-one-platform)
+- [Choosing Your Sprint Planning Stack](#choosing-your-sprint-planning-stack)
+- [Sprint Planning Workflow Template](#sprint-planning-workflow-template)
+- [Pre-Sprint (Friday before sprint)](#pre-sprint-friday-before-sprint)
+- [Sprint Planning (Monday morning)](#sprint-planning-monday-morning)
+- [Daily Standup (10 minutes)](#daily-standup-10-minutes)
+- [Mid-Sprint Check (Wednesday)](#mid-sprint-check-wednesday)
+- [Sprint Review (Friday afternoon)](#sprint-review-friday-afternoon)
+- [Retrospective (Friday late afternoon)](#retrospective-friday-late-afternoon)
+- [Sprint Planning Tool Comparison Table](#sprint-planning-tool-comparison-table)
+- [Estimation Best Practices](#estimation-best-practices)
+- [Remote Scrum Master Checklist](#remote-scrum-master-checklist)
+- [Pre-Sprint (1 week before)](#pre-sprint-1-week-before)
+- [Sprint Planning](#sprint-planning)
+- [Daily (Async Standup)](#daily-async-standup)
+- [Mid-Sprint](#mid-sprint)
+- [End of Sprint (Friday)](#end-of-sprint-friday)
+- [Metrics to Track](#metrics-to-track)
+
 ## Linear: Speed for Engineering-Driven Teams
 
 Linear was built by engineers for engineers, and that philosophy shapes its sprint planning capabilities. The interface responds instantly to keyboard navigation, which matters when you're managing time-boxed ceremonies across multiple time zones.
@@ -382,11 +407,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
+- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
+- [Best Tools for Remote Team Sprint Planning (2026)](/remote-work-tools/best-tools-for-remote-team-sprint-planning-2026/)
 - [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
 - [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
-- [Remote Team Story Point Velocity Trend Analysis Tool for](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
-- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
-
+- [Best Tools for Remote Design Sprints: A Practical Guide](/remote-work-tools/best-tools-for-remote-design-sprints/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

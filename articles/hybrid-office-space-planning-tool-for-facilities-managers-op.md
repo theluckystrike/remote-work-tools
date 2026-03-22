@@ -33,6 +33,14 @@ tags: [remote-work-tools]
 
 Build a hybrid office space planning tool using pressure sensors, infrared motion sensors, or ultrasonic distance sensors deployed across desks, connected via MQTT to a time-series database, with analytics dashboards showing peak use hours and efficiency scores. This reveals actual desk usage patterns driving informed space optimization decisions rather than guesswork.
 
+## Table of Contents
+
+- [Core Components of a Desk Use System](#core-components-of-a-desk-use-system)
+- [Data Collection Architecture](#data-collection-architecture)
+- [Occupancy Analytics and Insights](#occupancy-analytics-and-insights)
+- [Integration with Space Planning Tools](#integration-with-space-planning-tools)
+- [Deployment Considerations](#deployment-considerations)
+
 Hybrid office space planning requires accurate data about how employees actually use physical workspace. Without real occupancy insights, facilities managers rely on guesswork for desk allocation, leading to either overcrowded spaces or wasted real estate. Building a desk use tracking system provides the data needed to optimize space allocation, reduce costs, and improve the employee experience. This guide covers the technical implementation of a hybrid office space planning tool—from sensor deployment to analytics dashboards.
 
 ## Core Components of a Desk Use System

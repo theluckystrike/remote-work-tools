@@ -17,6 +17,19 @@ intent-checked: true---
 
 Giphy integration in Slack brings animated reactions and searchable GIFs to your team conversations. When this integration stops working, remote teams lose a valuable way to add personality and humor to async communication. This guide covers the most common reasons Giphy fails in Slack and provides practical fixes you can apply immediately.
 
+## Table of Contents
+
+- [Common Causes of Giphy Not Working in Slack](#common-causes-of-giphy-not-working-in-slack)
+- [Step-by-Step Troubleshooting Guide](#step-by-step-troubleshooting-guide)
+- [Preventing Future Issues](#preventing-future-issues)
+- [Quick Fix Checklist](#quick-fix-checklist)
+- [Advanced Troubleshooting for Persistent Issues](#advanced-troubleshooting-for-persistent-issues)
+- [Alternative GIF Services and Why You Might Need Them](#alternative-gif-services-and-why-you-might-need-them)
+- [Preventing Future Giphy Problems](#preventing-future-giphy-problems)
+- [Giphy Integration Status](#giphy-integration-status)
+- [Workspace Administrator Checklist](#workspace-administrator-checklist)
+- [Giphy Settings Worth Knowing](#giphy-settings-worth-knowing)
+
 ## Common Causes of Giphy Not Working in Slack
 
 Several factors can cause Giphy to stop displaying results in Slack. Understanding these causes helps you identify the right solution faster.

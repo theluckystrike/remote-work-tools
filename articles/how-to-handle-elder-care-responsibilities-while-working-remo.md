@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Set up calendar service"
+title: "Elder Care and Remote Work: A Practical Guide"
 description: "A practical guide for developers and power users balancing remote work with elder care responsibilities. Includes automation scripts, scheduling"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -30,6 +30,22 @@ tags: [remote-work-tools, tools]
 ---
 
 Successfully balancing remote work with elder care requires three core strategies: establishing clear boundaries with both your employer and care recipients, automating care coordination through shared calendars and health tracking apps, and building in buffer time for unexpected medical appointments. This guide provides practical automation scripts, scheduling templates, and communication frameworks specifically designed for developers managing caregiving duties while maintaining remote work productivity.
+
+## Table of Contents
+
+- [Setting Up Boundaries and Communication](#setting-up-boundaries-and-communication)
+- [Automating Care Coordination](#automating-care-coordination)
+- [Building a Care Station](#building-a-care-station)
+- [Time Blocking for Caregivers](#time-blocking-for-caregivers)
+- [Managing Interruptions Gracefully](#managing-interruptions-gracefully)
+- [using Remote Work Benefits](#using-remote-work-benefits)
+- [Building a Support Network](#building-a-support-network)
+- [Tools for Managing Caregiving and Work](#tools-for-managing-caregiving-and-work)
+- [Realistic Caregiving Schedules for Remote Workers](#realistic-caregiving-schedules-for-remote-workers)
+- [Respite Care and Cost Planning](#respite-care-and-cost-planning)
+- [Work Performance with Caregiving](#work-performance-with-caregiving)
+- [Preventing Caregiver Burnout](#preventing-caregiver-burnout)
+- [Legal Documents to Prepare](#legal-documents-to-prepare)
 
 This guide provides practical strategies and technical solutions specifically designed for developers and power users who want to maintain peak productivity while fulfilling caregiving duties.
 

@@ -18,6 +18,35 @@ voice-checked: true
 
 Remote teams that rely only on the daily standup miss most of what makes a team cohesive — shared wins, genuine connection, collaborative learning, and honest reflection. This guide covers practical weekly rituals that build team culture without adding calendar bloat, with implementation examples you can use immediately.
 
+## Table of Contents
+
+- [Ritual 1: Async Team Wins Board](#ritual-1-async-team-wins-board)
+- [Team Wins — Week of 2026-03-17](#team-wins-week-of-2026-03-17)
+- [Ritual 2: Weekly Async Retrospective](#ritual-2-weekly-async-retrospective)
+- [Sprint 42 Retrospective — Closes Wednesday 2026-03-19](#sprint-42-retrospective-closes-wednesday-2026-03-19)
+- [Start](#start)
+- [Stop](#stop)
+- [Continue](#continue)
+- [Change](#change)
+- [Ritual 3: Friday Team Wins Recognition](#ritual-3-friday-team-wins-recognition)
+- [Ritual 4: Bi-Weekly Code Review Swap](#ritual-4-bi-weekly-code-review-swap)
+- [Ritual 3: Code Review Swap](#ritual-3-code-review-swap)
+- [Ritual 4: Weekly Tech Talk](#ritual-4-weekly-tech-talk)
+- [Tech Talk Schedule](#tech-talk-schedule)
+- [Ritual 5: Monthly Show-and-Tell for Side Projects](#ritual-5-monthly-show-and-tell-for-side-projects)
+- [Ritual 6: Weekly Tech Talk + Deep Dive Rotation](#ritual-6-weekly-tech-talk-deep-dive-rotation)
+- [Building Your Ritual Calendar](#building-your-ritual-calendar)
+- [Measuring Whether Your Rituals Are Working](#measuring-whether-your-rituals-are-working)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Ritual Variations for Different Team Types](#ritual-variations-for-different-team-types)
+- [Building Psychological Safety Through Rituals](#building-psychological-safety-through-rituals)
+- [Troubleshooting Ritual Problems](#troubleshooting-ritual-problems)
+- [Measuring Ritual Success](#measuring-ritual-success)
+- [Advanced Ritual Patterns: For Mature Teams](#advanced-ritual-patterns-for-mature-teams)
+- [Calendar and Time Zone Considerations](#calendar-and-time-zone-considerations)
+- [Resource Requirements: What You'll Need](#resource-requirements-what-youll-need)
+- [Starting Your Ritual Program: Implementation Path](#starting-your-ritual-program-implementation-path)
+
 ## Ritual 1: Async Team Wins Board
 
 Celebrating successes matters even more in remote environments where accomplishments can disappear into Slack threads unnoticed. An async wins board surfaces positive signals automatically without requiring a synchronous meeting.

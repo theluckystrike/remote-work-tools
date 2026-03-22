@@ -18,6 +18,24 @@ tags: [remote-work-tools, remote-work]
 
 Remote pair programming across timezones presents unique scheduling challenges that go beyond simple timezone conversion. When your teammate is 8 hours ahead or behind, finding productive overlap hours requires more than knowing the time difference—you need to identify when both developers can collaborate effectively while maintaining sustainable work schedules. This guide provides concrete methods to calculate these windows and structure your pairing sessions for maximum productivity.
 
+## Table of Contents
+
+- [What Makes Overlap Hours "Productive"](#what-makes-overlap-hours-productive)
+- [The Calculation Framework](#the-calculation-framework)
+- [Real-World Scenarios](#real-world-scenarios)
+- [Maximizing Productive Pair Time](#maximizing-productive-pair-time)
+- [Tool Recommendations](#tool-recommendations)
+- [Calculating Overlap for Three or More Timezones](#calculating-overlap-for-three-or-more-timezones)
+- [Handling Uneven Timezone Distribution](#handling-uneven-timezone-distribution)
+- [Calculating Sustainable Schedule Impacts](#calculating-sustainable-schedule-impacts)
+- [Practical Scheduling Frameworks](#practical-scheduling-frameworks)
+- [Tools for Overlap Management](#tools-for-overlap-management)
+- [When Overlap Becomes Insufficient](#when-overlap-becomes-insufficient)
+- [Annual Planning: Accounting for Timezone Changes](#annual-planning-accounting-for-timezone-changes)
+- [Documenting Your Overlap Schedule](#documenting-your-overlap-schedule)
+- [Calculated Overlap](#calculated-overlap)
+- [Approved Pairing Windows (Opt-in)](#approved-pairing-windows-opt-in)
+
 ## What Makes Overlap Hours "Productive"
 
 Not all overlapping hours are equally valuable for pair programming. Productive overlap hours share three characteristics: both developers are within their core working hours, the session fits naturally into both schedules without forcing early mornings or late nights, and enough time exists for meaningful collaboration—not just quick syncs.

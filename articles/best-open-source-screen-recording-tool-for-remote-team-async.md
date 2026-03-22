@@ -17,6 +17,16 @@ voice-checked: true
 
 Asynchronous communication has become the backbone of successful remote teams. When your colleagues span multiple time zones, waiting for live meetings wastes valuable productivity. Screen recordings let you share context, demonstrate solutions, and explain complex ideas without scheduling conflicts. For developers and power users, open source tools offer privacy, customization, and cost savings that proprietary alternatives cannot match.
 
+## Table of Contents
+
+- [Why Open Source Matters for Async Video](#why-open-source-matters-for-async-video)
+- [Tool Comparison at a Glance](#tool-comparison-at-a-glance)
+- [Top Open Source Screen Recording Tools](#top-open-source-screen-recording-tools)
+- [Integrating Screen Recording into Async Workflows](#integrating-screen-recording-into-async-workflows)
+- [API Integration Guide](#api-integration-guide)
+- [Self-Hosting Considerations](#self-hosting-considerations)
+- [Choosing the Right Tool](#choosing-the-right-tool)
+
 This guide examines the best open source screen recording tools available in 2026 for remote team async communication, with comparisons, integration patterns, and real-world usage examples.
 
 ## Why Open Source Matters for Async Video

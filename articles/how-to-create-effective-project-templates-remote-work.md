@@ -18,6 +18,17 @@ voice-checked: true
 
 Create effective project templates for remote work by building three core components: a standardized directory structure (with `.github/`, `docs/`, `scripts/`, and `src/` folders), pre-configured environment files with `.env.example`, and automated setup scripts that handle dependencies and database initialization in a single command. These templates encode your team's best practices into reusable structures so new projects launch with consistent workflows, CI/CD pipelines, and documentation from day one.
 
+## Table of Contents
+
+- [Why Project Templates Matter for Distributed Teams](#why-project-templates-matter-for-distributed-teams)
+- [Tool Comparison: Template and Project Management Platforms](#tool-comparison-template-and-project-management-platforms)
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Common Pitfalls and Troubleshooting](#common-pitfalls-and-troubleshooting)
+- [Troubleshooting](#troubleshooting)
+- [Related Reading](#related-reading)
+
 ## Why Project Templates Matter for Distributed Teams
 
 In a remote environment, you cannot simply walk over to a colleague's desk to ask about the standard folder structure or which conventions to follow. Every piece of implicit knowledge must be made explicit. Project templates capture these decisions — from directory layouts to CI/CD configurations — and make them available to everyone, regardless of timezone.
@@ -279,6 +290,14 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [Best Async Project Management Tools for Distributed Teams 2026](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
 - [Best Project Management Tools with GitHub Integration](/remote-work-tools/best-project-management-tools-with-github-integration/)
 - [How to Create Async Standup Templates in Slack With Workflow Builder](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+
+## Related Articles
+
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
+- [How to Create Shared Project Timeline With Remote Agency Cli](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
+- [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
+- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

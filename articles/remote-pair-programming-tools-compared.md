@@ -33,6 +33,20 @@ tags: [remote-work-tools, comparison, remote-work]
 
 Remote pair programming requires low latency, shared cursor visibility, and voice communication — all at the same time. Generic screen sharing (Zoom, Meet) works but adds friction: you need to request control, screen resolution is compressed, and the guest can't navigate files independently.
 
+## Table of Contents
+
+- [VS Code Live Share](#vs-code-live-share)
+- [Tuple](#tuple)
+- [Pop (by Screenhero founders)](#pop-by-screenhero-founders)
+- [tmux SSH Sharing](#tmux-ssh-sharing)
+- [Comparison Table](#comparison-table)
+- [Setting Up a Pairing Routine](#setting-up-a-pairing-routine)
+- [Pair Programming at Different Scales](#pair-programming-at-different-scales)
+- [Async Pair Programming Alternatives](#async-pair-programming-alternatives)
+- [Performance Tips for Each Tool](#performance-tips-for-each-tool)
+- [Handling Difficult Pairing Situations](#handling-difficult-pairing-situations)
+- [Pair Programming Health Checks](#pair-programming-health-checks)
+
 Dedicated pair programming tools solve these problems with direct connections, sub-50ms latency, and independent cursor support. This guide compares the main options in 2026 with setup instructions.
 
 ## VS Code Live Share

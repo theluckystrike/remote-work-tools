@@ -18,6 +18,21 @@ voice-checked: true
 
 Cross-functional projects bring together diverse expertise from engineering, design, product, and operations—but coordinating these teams remotely without a structured kickoff creates chaos. A well-designed kickoff meeting sets the foundation for clear communication, aligned expectations, and measurable success criteria. This guide provides actionable templates and practices for running effective remote cross-functional project kickoffs.
 
+## Table of Contents
+
+- [Why Kickoff Agendas Fail in Remote Settings](#why-kickoff-agendas-fail-in-remote-settings)
+- [Pre-Meeting Preparation: The Async Foundation](#pre-meeting-preparation-the-async-foundation)
+- [The 90-Minute Kickoff Agenda Template](#the-90-minute-kickoff-agenda-template)
+- [Team Roster Template](#team-roster-template)
+- [Async Follow-Up: Cementing Agreements](#async-follow-up-cementing-agreements)
+- [Kickoff Summary: [Project Name]](#kickoff-summary-project-name)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Kickoff Effectiveness](#measuring-kickoff-effectiveness)
+- [Tools for Remote Kickoff Execution: Comparison and Configuration](#tools-for-remote-kickoff-execution-comparison-and-configuration)
+- [Pre-Read Template in Notion](#pre-read-template-in-notion)
+- [Decision Record Template (Video + Async)](#decision-record-template-video-async)
+- [Advanced Kickoff Workflows for Complex Projects](#advanced-kickoff-workflows-for-complex-projects)
+
 ## Why Kickoff Agendas Fail in Remote Settings
 
 Most remote kickoff meetings fall apart because they treat the meeting as a status update rather than an alignment session. Team members join without clear ownership, deliverables remain vague, and dependencies get discovered weeks later. The cost compounds quickly: rework, missed deadlines, and frustrated stakeholders.

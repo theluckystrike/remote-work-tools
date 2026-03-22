@@ -18,6 +18,16 @@ voice-checked: true
 
 Remote development agencies face a unique challenge: collecting meaningful client feedback without the benefit of in-person conversations. Effective feedback collection directly impacts project success, client retention, and your agency's reputation. This guide covers practical approaches to building or selecting client feedback collection tools tailored for remote development agencies in 2026.
 
+## Table of Contents
+
+- [The Problem with Traditional Feedback Methods](#the-problem-with-traditional-feedback-methods)
+- [Core Components of a Feedback Collection System](#core-components-of-a-feedback-collection-system)
+- [Integrating Feedback into Your Workflow](#integrating-feedback-into-your-workflow)
+- [Tool Integration Patterns for Remote Agencies](#tool-integration-patterns-for-remote-agencies)
+- [Team Coordination Patterns for Remote Agencies](#team-coordination-patterns-for-remote-agencies)
+- [Best Practices for 2026](#best-practices-for-2026)
+- [Measuring Success](#measuring-success)
+
 ## The Problem with Traditional Feedback Methods
 
 Email-based feedback requests often go unanswered. Client calls scheduled specifically for feedback sessions feel like interruptions. Generic surveys produce generic responses that don't help you improve your delivery. Remote agencies need a systematic approach that respects client time while extracting practical recommendations.

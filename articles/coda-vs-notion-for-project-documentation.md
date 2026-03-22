@@ -33,6 +33,18 @@ tags: [remote-work-tools, comparison]
 
 Choose Notion if your team prioritizes clean, readable documentation pages with a gentle learning curve and a generous free tier. Choose Coda if you need documentation that functions as a lightweight application--with spreadsheet-style formulas, dynamic queries, and interactive runbooks that update in real time. Notion excels at static, well-structured knowledge bases, while Coda rewards teams willing to model complex relationships between API versions, deployment status, and sprint milestones within a single living document.
 
+## Table of Contents
+
+- [Data Model Architecture](#data-model-architecture)
+- [Query and Filter Capabilities](#query-and-filter-capabilities)
+- [API and Automation](#api-and-automation)
+- [Real-Time Collaboration](#real-time-collaboration)
+- [Template and Structure Flexibility](#template-and-structure-flexibility)
+- [Search and Discoverability](#search-and-discoverability)
+- [Pricing and Team Size Comparison](#pricing-and-team-size-comparison)
+- [Implementation Recommendations by Team Type](#implementation-recommendations-by-team-type)
+- [Migration Considerations](#migration-considerations)
+
 ## Data Model Architecture
 
 The fundamental difference between Coda and Notion lies in how each platform structures data. Notion uses a block-based system where every piece of content is a block that can be rearranged, nested, or transformed. Pages contain blocks, and databases are special page types with structured properties. This hierarchical model feels natural for documentation but becomes complex when you need cross-referencing between documents.
@@ -249,10 +261,9 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 ## Related Articles
 
 - [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
-- [Best Tools for Remote Team Documentation 2026: Notion vs.](/remote-work-tools/best-remote-team-documentation-tools-2026/)
+- [Notion vs Confluence for Remote Documentation](/remote-work-tools/notion-vs-confluence-remote-documentation/)
 - [GitBook vs Notion for Technical Documentation](/remote-work-tools/gitbook-vs-notion-for-technical-documentation/)
-- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
-- [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
-
+- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
+- [Best Tools for Remote Team Documentation 2026: Notion](/remote-work-tools/best-remote-team-documentation-tools-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

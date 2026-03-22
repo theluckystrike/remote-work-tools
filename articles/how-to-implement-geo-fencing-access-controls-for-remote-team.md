@@ -33,6 +33,19 @@ tags: [remote-work-tools, remote-work]
 
 Implement geo-fencing using MaxMind GeoIP2 to restrict application access to specific geographic regions, blocking compromised credentials from unexpected locations. Geo-fencing access controls add a security layer by restricting resource access based on geographic location, preventing unauthorized access from unexpected places and supporting data residency compliance. This guide walks through implementing geo-fencing access controls with core concepts, practical architecture, IP geolocation integration, and working code examples you can adapt immediately.
 
+## Table of Contents
+
+- [Understanding Geo-Fencing for Access Control](#understanding-geo-fencing-for-access-control)
+- [Building the Location Detection Layer](#building-the-location-detection-layer)
+- [Defining Access Policies](#defining-access-policies)
+- [Integrating with Your Application](#integrating-with-your-application)
+- [Handling Edge Cases](#handling-edge-cases)
+- [Best Practices](#best-practices)
+- [Handling VPN and Proxy Traffic](#handling-vpn-and-proxy-traffic)
+- [Anomaly Detection: Location Velocity Checks](#anomaly-detection-location-velocity-checks)
+- [Infrastructure Considerations: Caching and Rate Limits](#infrastructure-considerations-caching-and-rate-limits)
+- [Compliance and Audit Logging](#compliance-and-audit-logging)
+
 ## Understanding Geo-Fencing for Access Control
 
 Geo-fencing in access control works by comparing a user's detected location against a predefined set of allowed locations. When a user attempts to access a protected resource, the system checks whether their current geographic coordinates fall within an approved region. If the location is outside the allowed area, access gets denied or flagged for review.
@@ -383,11 +396,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
+- [How to Implement Just-in-Time Access for Remote Team](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
 - [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-- [Using Microsoft Graph API to create named locations](/remote-work-tools/how-to-implement-conditional-access-policies-for-remote-work/)
-- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
-- [How to Implement Hardware Security Keys for Remote Team](/remote-work-tools/how-to-implement-hardware-security-keys-for-remote-team-auth/)
-
+- [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
+- [Zero Trust Remote Access Setup Guide for Small Engineering](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
+- [Hybrid Office Access Control System Upgrade for Flexible](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

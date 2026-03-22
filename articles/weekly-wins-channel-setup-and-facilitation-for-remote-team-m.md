@@ -18,6 +18,13 @@ voice-checked: true---
 
 Launch a weekly wins channel by setting a consistent posting day and format, making participation easy with simple templates, and celebrating wins visibly to build team morale. Weekly wins channels combat the invisibility of remote work achievements.
 
+## Table of Contents
+
+- [Why Weekly Wins Channels Work](#why-weekly-wins-channels-work)
+- [Prerequisites](#prerequisites)
+- [Advanced Automation Options](#advanced-automation-options)
+- [Troubleshooting](#troubleshooting)
+
 This guide covers setting up a weekly wins channel that drives genuine engagement, including configuration examples, help techniques, and automation options for teams using Slack or Discord.
 
 ## Why Weekly Wins Channels Work
@@ -375,11 +382,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
-- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
 - [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
-
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
+- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/remote-work-tools/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

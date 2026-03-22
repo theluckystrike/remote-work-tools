@@ -18,6 +18,21 @@ intent-checked: true---
 
 Manual onboarding in distributed teams means someone remembers to send an invite, maybe. New team members wait for Slack access, then email, then GitHub. Some tasks slip through cracks. Two weeks in, a critical system access is still pending.
 
+## Table of Contents
+
+- [The Cost of Manual Onboarding](#the-cost-of-manual-onboarding)
+- [Building Your Onboarding Stack](#building-your-onboarding-stack)
+- [Complete Automation Example: First Week Flow](#complete-automation-example-first-week-flow)
+- [Tools to Build This System](#tools-to-build-this-system)
+- [Onboarding Documentation Template](#onboarding-documentation-template)
+- [Your First 24 Hours](#your-first-24-hours)
+- [Week 1: Get Oriented](#week-1-get-oriented)
+- [This Quarter](#this-quarter)
+- [Important Links](#important-links)
+- [Need Help?](#need-help)
+- [Common Mistakes](#common-mistakes)
+- [Measuring Onboarding Success](#measuring-onboarding-success)
+
 A well-designed automation pipeline ensures every new employee gets consistent, complete onboarding—regardless of who's managing it. This guide walks through building an end-to-end onboarding system that reduces admin burden and improves new employee experience.
 
 ## The Cost of Manual Onboarding

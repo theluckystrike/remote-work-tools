@@ -18,6 +18,17 @@ tags: [remote-work-tools, best-of]
 
 Choose Linear if your team prioritizes speed and GitHub integration, GitHub Projects if you want zero learning curve and no additional subscriptions, or Notion if you prefer flexibility and less-structured workflows. For three-person startups, the best tool is whichever one your team will actually use consistently—all three options work at this scale.
 
+## Table of Contents
+
+- [What a 3-Person Startup Actually Needs](#what-a-3-person-startup-actually-needs)
+- [Linear: Developer Experience First ($8/user/month)](#linear-developer-experience-first-8usermonth)
+- [ClickUp: The All-in-One Option ($0-7/user/month)](#clickup-the-all-in-one-option-0-7usermonth)
+- [Notion: Documentation-Centric Teams](#notion-documentation-centric-teams)
+- [GitHub Projects: Free and Integrated](#github-projects-free-and-integrated)
+- [Complete Pricing and Feature Comparison](#complete-pricing-and-feature-comparison)
+- [Making Your Decision](#making-your-decision)
+- [Real-World Setup Recommendations](#real-world-setup-recommendations)
+
 ## What a 3-Person Startup Actually Needs
 
 Your team of three probably shares roles. One person might handle frontend, another backend, and the third manages product and customer communication—or all three rotate through different responsibilities. Your project management tool needs to support this flexibility without forcing you into rigid workflows.

@@ -18,6 +18,16 @@ voice-checked: true
 
 Remote team laptops represent one of the highest-risk attack vectors in distributed organizations. When employees work from coffee shops, co-working spaces, and home offices, their machines contain sensitive company data that could cause catastrophic breaches if lost or stolen. Endpoint encryption provides the last line of defense, ensuring that even if physical access is compromised, the data remains unreadable. This guide shows you how to enforce endpoint encryption across Windows and Mac devices in your remote team.
 
+## Table of Contents
+
+- [Why Endpoint Encryption Matters for Remote Teams](#why-endpoint-encryption-matters-for-remote-teams)
+- [Windows BitLocker Implementation](#windows-bitlocker-implementation)
+- [macOS FileVault Implementation](#macos-filevault-implementation)
+- [Enforcing Encryption as a Requirement](#enforcing-encryption-as-a-requirement)
+- [Monitoring Compliance Across Your Fleet](#monitoring-compliance-across-your-fleet)
+- [Handling Encryption Recovery Scenarios](#handling-encryption-recovery-scenarios)
+- [Building Encryption into Your Remote Work Security Strategy](#building-encryption-into-your-remote-work-security-strategy)
+
 ## Why Endpoint Encryption Matters for Remote Teams
 
 Remote work fundamentally changes the threat model for laptop security. Corporate machines that never leave a secure office have minimal physical exposure, but remote laptops travel everywhere their owners go. A left laptop at a cafe, a stolen bag at an airport, or a borrowed device at a family gathering all represent potential data exposure events.
@@ -247,11 +257,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
-- [DNS Filtering Setup for Remote Team Endpoint Security Using](/remote-work-tools/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
-- [FastAPI-based question collection endpoint](/remote-work-tools/remote-team-all-hands-meeting-question-collection-tool-for-d/)
+- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
+- [How to Implement Remote Team macOS FileVault Enforcement](/remote-work-tools/a91-how-to-implement-remote-team-macos-filevault-enforcement-through-mdm-policy/)
+- [DNS Filtering Setup for Remote Team Endpoint Security](/remote-work-tools/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
+- [Best Endpoint Security Solution for Remote Employees](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
 - [Best Backup Solution for Remote Employee Laptops](/remote-work-tools/best-backup-solution-for-remote-employee-laptops-automatic-a/)
-- [Best Endpoint Security Solution for Remote Employees Using](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

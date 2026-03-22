@@ -16,6 +16,22 @@ tags: [remote-work-tools, best-of, remote-work]
 
 A sub-2-pound aluminum portable stand that folds in under 5 seconds and fits your laptop sleeve is more valuable than premium materials because deployment speed matches the reality of kitchen table work—you might clear the table for breakfast, work for an hour, then clear again for lunch. Stands offering 6-15 inches height adjustment, a stable 8+ inch base, and one-handed folding handle the unpredictable kitchen environment better than prettier but heavier options that never leave the closet.
 
+## Table of Contents
+
+- [Why Kitchen Table Workers Need Specialized Equipment](#why-kitchen-table-workers-need-specialized-equipment)
+- [Technical Requirements for Active Households](#technical-requirements-for-active-households)
+- [Practical Configurations for Parents](#practical-configurations-for-parents)
+- [Alternative Solutions for Tight Spaces](#alternative-solutions-for-tight-spaces)
+- [Ergonomic Implementation](#ergonomic-implementation)
+- [Making the Tradeoffs](#making-the-tradeoffs)
+- [Maintenance and Longevity](#maintenance-and-longevity)
+- [Specific Product Recommendations with Real Pricing](#specific-product-recommendations-with-real-pricing)
+- [Comparison Table: Kitchen Table Stands](#comparison-table-kitchen-table-stands)
+- [Ergonomic Specifications Deep Dive](#ergonomic-specifications-deep-dive)
+- [Kitchen-Specific Installation Considerations](#kitchen-specific-installation-considerations)
+- [Multi-Child Household Positioning Strategy](#multi-child-household-positioning-strategy)
+- [Maintenance Protocol for Kitchen Environments](#maintenance-protocol-for-kitchen-environments)
+
 ## Why Kitchen Table Workers Need Specialized Equipment
 
 The typical kitchen table environment differs significantly from a dedicated home office. Surface heights vary, often sitting at dining rather than desk height. Lighting can be inconsistent. Most importantly, you need mobility—packing up in seconds when the space transforms from workspace to family area.

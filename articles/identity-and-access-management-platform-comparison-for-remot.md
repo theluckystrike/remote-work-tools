@@ -18,6 +18,15 @@ voice-checked: true
 
 Remote-first companies face unique identity and access management challenges that traditional office-based organizations rarely encounter. Your team members access company resources from coffee shops, home networks, and co-working spaces across multiple time zones. You need an IAM solution that supports zero-trust architecture, integrates with your developer tools, and scales as your distributed team grows.
 
+## Table of Contents
+
+- [What Remote-First Companies Need from IAM](#what-remote-first-companies-need-from-iam)
+- [Platform Comparison Overview](#platform-comparison-overview)
+- [Platform Comparison](#platform-comparison)
+- [Making Your Decision](#making-your-decision)
+- [Zero-Trust Network Access: Beyond Traditional IAM](#zero-trust-network-access-beyond-traditional-iam)
+- [Implementation Best Practices](#implementation-best-practices)
+
 This guide compares leading IAM platforms with practical implementation examples to help developers and power users choose the right solution for their remote workforce.
 
 ## What Remote-First Companies Need from IAM

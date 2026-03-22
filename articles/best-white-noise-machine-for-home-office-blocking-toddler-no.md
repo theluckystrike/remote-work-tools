@@ -18,6 +18,23 @@ tags: [remote-work-tools, best-of]
 
 Working from home with toddlers present creates unique acoustic challenges. When your three-year-old decides to have a meltdown during a critical standup meeting, you need more than hope—you need a systematic approach to sound management. This guide covers both hardware solutions and software alternatives for developers and power users who need reliable noise blocking during remote calls.
 
+## Table of Contents
+
+- [Understanding the Acoustic Problem](#understanding-the-acoustic-problem)
+- [Hardware Solutions for Sound Masking](#hardware-solutions-for-sound-masking)
+- [Build Your Own Noise Generator](#build-your-own-noise-generator)
+- [Software Alternatives and Browser Extensions](#software-alternatives-and-browser-extensions)
+- [Integration with Communication Tools](#integration-with-communication-tools)
+- [Practical Setup Recommendations](#practical-setup-recommendations)
+- [Choosing Your Approach](#choosing-your-approach)
+- [Recommended Hardware Solutions and Pricing](#recommended-hardware-solutions-and-pricing)
+- [Stacking Noise Management Layers](#stacking-noise-management-layers)
+- [When to Use This in Your Workflow](#when-to-use-this-in-your-workflow)
+- [Testing Your Setup Before Important Calls](#testing-your-setup-before-important-calls)
+- [Maintenance and Replacement](#maintenance-and-replacement)
+- [When Not to Use White Noise](#when-not-to-use-white-noise)
+- [Real-World Success Stories](#real-world-success-stories)
+
 ## Understanding the Acoustic Problem
 
 Toddler noise occupies the 400Hz-4000Hz frequency range—the exact band where human speech peaks. Standard office noise masking often fails because children's sounds are sporadic and high-energy. A passive solution like foam earplugs reduces volume but doesn't address the unpredictable nature of child sounds that cut through background music or ambient noise.
@@ -311,11 +328,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
-- [How to Childproof Home Office When Toddler Interrupts](/remote-work-tools/how-to-childproof-home-office-when-toddler-interrupts-meetin/)
-- [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
 - [Best Noise Cancelling Microphones for Home Offices Busy](/remote-work-tools/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
-- [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
-
+- [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
+- [Best Noise Cancelling Setup for Remote Work from Busy Bali](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
+- [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
+- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,16 @@ voice-checked: true
 
 The most effective productivity strategy for digital nomads is building a portable command center with version-controlled dotfiles and offline-capable tools, then structuring your day into three time blocks: early-morning deep work before disruptions start, midday meetings and communications, and evening focused sessions when accommodation WiFi is least congested. These core habits, combined with redundant internet connectivity and automated backups, let you maintain consistent output regardless of where you are working from.
 
+## Table of Contents
+
+- [Establish a Portable Command Center](#establish-a-portable-command-center)
+- [Master Internet Resilience Strategies](#master-internet-resilience-strategies)
+- [Design Time-Blocked Routines for Variable Environments](#design-time-blocked-routines-for-variable-environments)
+- [Implement Backup and Sync Systems](#implement-backup-and-sync-systems)
+- [Optimize Your Physical Setup Anywhere](#optimize-your-physical-setup-anywhere)
+- [Protect Cognitive Bandwidth](#protect-cognitive-bandwidth)
+- [Managing Fatigue and Avoiding Burnout While Traveling](#managing-fatigue-and-avoiding-burnout-while-traveling)
+
 This guide provides the specific scripts, tool configurations, and routines that make this system work in practice.
 
 ## Establish a Portable Command Center
@@ -393,11 +403,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Best eSIM Data Plans for Digital Nomads Working Across](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
-- [Best Portable WiFi Hotspot for Digital Nomads: A](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
-- [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
-- [Example: Policy comparison scoring for digital nomads](/remote-work-tools/best-travel-insurance-for-digital-nomads-covering-laptop-the/)
-
+- [Best Portable WiFi Hotspot for Digital Nomads](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
+- [Portable Monitor Setup for Digital Nomads](/remote-work-tools/portable-monitor-setup-for-digital-nomads/)
+- [Manage Dotfiles Across Remote Machines](/remote-work-tools/manage-dotfiles-across-remote-machines/)
+- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
+- [Best Travel Insurance for Digital Nomads 2026](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

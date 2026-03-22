@@ -33,6 +33,18 @@ tags: [remote-work-tools]
 
 MLA (Modern Language Association) citation format remains the standard for humanities, literature, arts, and many social science disciplines. When conducting research online, generating accurate MLA citations manually can be time-consuming and error-prone. Chrome extensions that automate MLA citation generation improve this process significantly for researchers, students, and academics.
 
+## Table of Contents
+
+- [How MLA Citation Generator Extensions Work](#how-mla-citation-generator-extensions-work)
+- [MLA Citation Format Essentials](#mla-citation-format-essentials)
+- [Best MLA Citation Generator Extensions Compared](#best-mla-citation-generator-extensions-compared)
+- [Practical Applications for Researchers](#practical-applications-for-researchers)
+- [Building a Custom Citation Generator](#building-a-custom-citation-generator)
+- [Verifying MLA Citation Accuracy](#verifying-mla-citation-accuracy)
+- [Limitations and Workarounds](#limitations-and-workarounds)
+- [Extension Recommendations](#extension-recommendations)
+- [Integrating Citations into a Research Workflow](#integrating-citations-into-a-research-workflow)
+
 This guide covers how MLA citation generator Chrome extensions work under the hood, their practical applications, and provides technical insights for developers interested in building or customizing these tools.
 
 ## How MLA Citation Generator Extensions Work

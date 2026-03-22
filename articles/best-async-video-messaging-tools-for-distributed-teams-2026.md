@@ -17,6 +17,25 @@ intent-checked: true
 
 Async video messaging replaces endless Zoom calls with focused video walkthroughs recorded once and watched asynchronously. A senior engineer explains a complex feature once on video instead of repeating the same explanation in four different meetings across time zones. This approach scales better, respects people's calendars, and creates permanent documentation.
 
+## Table of Contents
+
+- [Why Async Video Matters](#why-async-video-matters)
+- [Loom](#loom)
+- [Codeshot](#codeshot)
+- [Google Meet Screen Recording + Google Drive](#google-meet-screen-recording-google-drive)
+- [Microsoft Stream](#microsoft-stream)
+- [Building an Async Video Workflow](#building-an-async-video-workflow)
+- [Opening (30 seconds)](#opening-30-seconds)
+- [Context (1-2 minutes)](#context-1-2-minutes)
+- [Main Explanation (3-5 minutes)](#main-explanation-3-5-minutes)
+- [Conclusion (30 seconds)](#conclusion-30-seconds)
+- [Post-Recording](#post-recording)
+- [Architecture Overview](#architecture-overview)
+- [Comparison Matrix](#comparison-matrix)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Measuring Impact](#measuring-impact)
+- [Recommendation by Company Stage](#recommendation-by-company-stage)
+
 This guide evaluates leading async video tools and shows how to integrate them into your team's workflow to eliminate unnecessary synchronous meetings.
 
 ## Why Async Video Matters

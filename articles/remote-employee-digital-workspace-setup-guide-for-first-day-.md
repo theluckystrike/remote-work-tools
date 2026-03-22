@@ -31,6 +31,20 @@ tags: [remote-work-tools, remote-work]
 
 Setting up your digital workspace on your first day as a remote employee requires more than just installing a few apps. For developers and power users, a well-configured environment directly impacts productivity, security, and collaboration efficiency. This guide walks you through the essential steps to get your remote work setup production-ready from day one.
 
+## Table of Contents
+
+- [Security Foundation: VPN and Authentication](#security-foundation-vpn-and-authentication)
+- [Development Environment Configuration](#development-environment-configuration)
+- [Communication Stack Configuration](#communication-stack-configuration)
+- [Terminal and Shell Optimization](#terminal-and-shell-optimization)
+- [Environment Variables and Secrets Management](#environment-variables-and-secrets-management)
+- [Documentation Access and Knowledge Base Setup](#documentation-access-and-knowledge-base-setup)
+- [Daily Driver Applications](#daily-driver-applications)
+- [Network and Hardware Considerations](#network-and-hardware-considerations)
+- [Automating Your Setup with a Bootstrap Script](#automating-your-setup-with-a-bootstrap-script)
+- [Workspace Organization: Directory Structure](#workspace-organization-directory-structure)
+- [Validating Your Setup: A First-Week Checklist](#validating-your-setup-a-first-week-checklist)
+
 ## Security Foundation: VPN and Authentication
 
 Before touching any work tools, establish a secure connection to your company network. Most organizations use VPN clients to encrypt traffic and provide access to internal resources.

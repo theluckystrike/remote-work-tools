@@ -18,6 +18,23 @@ tags: [remote-work-tools, knowledge-sharing, async-video, documentation]
 
 Loom dominates knowledge sharing for distributed teams due to superior search, instant transcription, and seamless sharing—$120/year for unlimited recording and searchable transcripts. Grain records meetings directly with auto-highlighted moments and speaker identification, costing $600/year for unlimited recordings. Scribe excels for process documentation with step-by-step screenshots and annotations, free tier includes 5 captures monthly. Tango generates interactive step-by-step guides from live actions without video recording. Choose Loom for broad knowledge capture and async learning, Grain for meeting analysis with automatic moment detection, Scribe for detailed process documentation, or Tango for interactive how-to guides. Most teams use a combination: Loom for general knowledge sessions, Scribe for repeatable processes, Tango for step-by-step guides, and Grain for strategic meetings requiring analysis.
 
+## Table of Contents
+
+- [The Shift to Asynchronous Knowledge Transfer](#the-shift-to-asynchronous-knowledge-transfer)
+- [Loom: The Versatile Foundation](#loom-the-versatile-foundation)
+- [Grain: Automatic Meeting Analysis](#grain-automatic-meeting-analysis)
+- [Scribe: Process Documentation with Precision](#scribe-process-documentation-with-precision)
+- [Tango: Interactive How-To Guides Without Video](#tango-interactive-how-to-guides-without-video)
+- [Comparison Table: Features and Costs](#comparison-table-features-and-costs)
+- [Real-World Use Case: Distributed Finance Team](#real-world-use-case-distributed-finance-team)
+- [Comparative Analysis: Knowledge Sharing Across Company Size](#comparative-analysis-knowledge-sharing-across-company-size)
+- [Workflow Integration Examples](#workflow-integration-examples)
+- [Implementation Timeline for Knowledge Sharing Program](#implementation-timeline-for-knowledge-sharing-program)
+- [Integration Checklist](#integration-checklist)
+- [Best Practices for Knowledge Sharing Success](#best-practices-for-knowledge-sharing-success)
+- [Avoiding Common Knowledge Sharing Pitfalls](#avoiding-common-knowledge-sharing-pitfalls)
+- [Making Your Choice](#making-your-choice)
+
 ## The Shift to Asynchronous Knowledge Transfer
 
 Remote teams eliminate synchronous training sessions. No one wants to schedule meetings across time zones for knowledge transfer that could be consumed asynchronously. The challenge: tools must make asynchronous content searchable, transcribed, and organized—not just recorded. A 45-minute recording with no transcript wastes hours when employees search for specific information buried in video.
@@ -275,12 +292,11 @@ The cost of confusion—employees repeating work, onboarding taking 3x longer, c
 
 ## Related Articles
 
-- [Best Asynchronous Communication Tools for Distributed Teams](/remote-work-tools/best-asynchronous-communication-tools-distributed-teams/)
-- [How to Create Effective Remote Onboarding Documentation](/remote-work-tools/how-to-create-effective-remote-onboarding-documentation/)
-- [Notion vs Confluence for Remote Team Documentation](/remote-work-tools/notion-vs-confluence-remote-team-documentation/)
-- [Best Video Conferencing Platforms with Recording and Transcription](/remote-work-tools/best-video-conferencing-platforms-recording-transcription/)
-- [Building a Remote Team Knowledge Base in 2026](/remote-work-tools/building-remote-team-knowledge-base-2026/)
-
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
+- [Best Practice for Hybrid Team Knowledge Transfer](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
+- [How to Prevent Knowledge Silos When Remote Team Grows Past](/remote-work-tools/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+- [Best Tools for Remote Team Knowledge Graphs](/remote-work-tools/best-tools-remote-team-knowledge-graphs/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

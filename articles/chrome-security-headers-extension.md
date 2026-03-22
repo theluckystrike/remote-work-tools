@@ -31,6 +31,21 @@ tags: [remote-work-tools, security]
 
 Use the SecurityHeaders.com extension or similar tools to inspect HTTP security headers directly in Chrome without custom scripts. Security headers protect applications from XSS, clickjacking, and data injection attacks, but many developers struggle to test and verify these headers during development. Browser extensions solve this by letting you inspect response headers and identify missing configurations without leaving Chrome. This guide covers the best Chrome extensions for testing security headers, common mistakes, and which headers should be your priority.
 
+## Table of Contents
+
+- [Why Security Headers Matter](#why-security-headers-matter)
+- [Essential Chrome Extensions for Security Headers](#essential-chrome-extensions-for-security-headers)
+- [Practical Examples](#practical-examples)
+- [Headers You Should Implement](#headers-you-should-implement)
+- [Common Pitfalls](#common-pitfalls)
+- [Building a Custom Security Header Audit Script](#building-a-custom-security-header-audit-script)
+- [Real-World Security Header Implementations](#real-world-security-header-implementations)
+- [Content-Security-Policy: The Deep Dive](#content-security-policy-the-deep-dive)
+- [Practical Incident Response Using Headers](#practical-incident-response-using-headers)
+- [Monitoring Header Compliance Over Time](#monitoring-header-compliance-over-time)
+- [Browser DevTools Alternative: Network Tab Inspection](#browser-devtools-alternative-network-tab-inspection)
+- [Common Questions About Security Headers](#common-questions-about-security-headers)
+
 ## Why Security Headers Matter
 
 When a browser requests a webpage, the server responds with HTTP headers that tell the browser how to handle the content. Security-related headers instruct the browser to enable protections such as:
@@ -448,10 +463,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
-- [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
-- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
-- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
-- [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
-
+- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

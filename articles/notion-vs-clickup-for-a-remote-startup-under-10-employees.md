@@ -33,6 +33,21 @@ tags: [remote-work-tools, comparison, remote-work]
 
 Choose Notion if your startup prioritizes flexible documentation and knowledge management; choose ClickUp if structured task management and project tracking matter more. The right choice depends on whether your team struggles more with scattered information or chaotic task tracking.
 
+## Table of Contents
+
+- [The Fundamental Trade-off](#the-fundamental-trade-off)
+- [Quick Comparison](#quick-comparison)
+- [Core Features for Small Remote Teams](#core-features-for-small-remote-teams)
+- [Pricing for Early-Stage Startups](#pricing-for-early-stage-startups)
+- [API and Automation Capabilities](#api-and-automation-capabilities)
+- [Decision Framework for Your Team](#decision-framework-for-your-team)
+- [Practical Considerations for Remote Teams](#practical-considerations-for-remote-teams)
+- [The Hybrid Approach](#the-hybrid-approach)
+- [Practical Setup Workflows: Day One](#practical-setup-workflows-day-one)
+- [Handling Tool Switching Later](#handling-tool-switching-later)
+- [Long-term Growth Signals](#long-term-growth-signals)
+- [Making Your Choice](#making-your-choice)
+
 ## The Fundamental Trade-off
 
 Notion functions as a flexible workspace where notes, databases, and project tracking coexist on equal footing. ClickUp operates as a task-first platform with document capabilities added on top. This distinction shapes everything about how your team works daily.

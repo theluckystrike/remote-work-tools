@@ -17,6 +17,25 @@ tags: [remote-work-tools, remote-work]
 
 The best vendor evaluation documentation for remote teams combines a scoring matrix, feature comparison table, cost analysis, and implementation timeline in a single searchable document. This structure enables asynchronous stakeholder feedback, creates an audit trail for future decisions, and ensures new team members understand past procurement choices without requiring live consensus meetings. This guide provides templates and frameworks your remote team can use immediately.
 
+## Table of Contents
+
+- [Why Structured Vendor Documentation Matters](#why-structured-vendor-documentation-matters)
+- [Components of Effective Vendor Evaluation Documentation](#components-of-effective-vendor-evaluation-documentation)
+- [Evaluation Process Framework](#evaluation-process-framework)
+- [Evaluation Session Template](#evaluation-session-template)
+- [Documentation Best Practices](#documentation-best-practices)
+- [Vendor Evaluation Template You Can Use](#vendor-evaluation-template-you-can-use)
+- [Executive Summary](#executive-summary)
+- [Requirements Assessment](#requirements-assessment)
+- [Security Deep Dive](#security-deep-dive)
+- [Cost Analysis (3-Year TCO)](#cost-analysis-3-year-tco)
+- [Integration Assessment](#integration-assessment)
+- [Evaluation Sessions](#evaluation-sessions)
+- [Final Recommendation](#final-recommendation)
+- [Handling Vendor Changes and Price Increases](#handling-vendor-changes-and-price-increases)
+- [Decision-Making Framework When Torn Between Options](#decision-making-framework-when-torn-between-options)
+- [Red Flags During Vendor Evaluation](#red-flags-during-vendor-evaluation)
+
 ## Why Structured Vendor Documentation Matters
 
 When evaluating vendors for remote team tools, you face unique challenges that don't exist in co-located environments. Your evaluation committee likely never meets in person, so every decision must be captured in writing. A well-structured vendor evaluation document serves multiple purposes: it creates an audit trail for future reference, enables new team members to understand past decisions, and provides a framework for consistent evaluation across different vendors.

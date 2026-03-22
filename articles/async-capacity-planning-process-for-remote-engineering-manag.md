@@ -17,6 +17,23 @@ tags: [remote-work-tools, remote-work]
 
 Build async capacity planning by collecting weekly availability reports from each engineer, tracking velocity or throughput metrics over time, and running the numbers in a shared capacity template -- all without scheduling a single meeting. This process replaces synchronous planning sessions with structured written inputs that produce more accurate forecasts, better documentation, and fewer time zone conflicts.
 
+## Table of Contents
+
+- [Why Async Capacity Planning Matters for Remote Teams](#why-async-capacity-planning-matters-for-remote-teams)
+- [Step 1: Gather Team Availability Data](#step-1-gather-team-availability-data)
+- [Capacity Report: [Name] - [Period]](#capacity-report-name-period)
+- [Step 2: Track Velocity and Throughput](#step-2-track-velocity-and-throughput)
+- [Team Velocity History](#team-velocity-history)
+- [Monthly Throughput](#monthly-throughput)
+- [Step 3: Build a Capacity Planning Template](#step-3-build-a-capacity-planning-template)
+- [Capacity Plan: [Team Name] - [Quarter/Month]](#capacity-plan-team-name-quartermonth)
+- [Step 4: Establish the Async Workflow](#step-4-establish-the-async-workflow)
+- [Step 5: Handle Common Remote Team Challenges](#step-5-handle-common-remote-team-challenges)
+- [Capacity Buffer Calculation](#capacity-buffer-calculation)
+- [Team Overlap Analysis](#team-overlap-analysis)
+- [Context Switching Multiplier](#context-switching-multiplier)
+- [Practical Example: Quarterly Planning](#practical-example-quarterly-planning)
+
 ## Why Async Capacity Planning Matters for Remote Teams
 
 Traditional capacity planning often relies on synchronous planning meetings—sprint planning, quarterly planning sessions, or resource allocation meetings where everyone gathers (or in person) to discuss bandwidth. While these sessions serve a purpose, they create several problems for distributed teams:

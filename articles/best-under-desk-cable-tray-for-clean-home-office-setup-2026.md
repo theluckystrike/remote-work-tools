@@ -31,6 +31,21 @@ tags: [remote-work-tools, best-of]
 
 A mesh cable tray is the best under-desk cable management solution for most home office setups, offering easy access, airflow, and sub-$20 pricing. Choose a clamp-mount mesh tray if you rent and cannot drill, or a screw-mount rigid metal tray for permanent heavy-duty cable loads. For standing desks, use a flexible spine or J-channel that accommodates height changes without pulling cables. This guide compares tray types, installation methods, and DIY alternatives.
 
+## Table of Contents
+
+- [Why Cable Management Matters for Developers](#why-cable-management-matters-for-developers)
+- [Types of Under Desk Cable Trays](#types-of-under-desk-cable-trays)
+- [Installation Considerations](#installation-considerations)
+- [Practical Setup Examples](#practical-setup-examples)
+- [Maintenance and Scalability](#maintenance-and-scalability)
+- [Recommended Cable Management Products and Pricing](#recommended-cable-management-products-and-pricing)
+- [Advanced Setup Patterns for Power Users](#advanced-setup-patterns-for-power-users)
+- [Troubleshooting Common Cable Management Issues](#troubleshooting-common-cable-management-issues)
+- [Cable Tie Materials Comparison](#cable-tie-materials-comparison)
+- [Cable Identification System](#cable-identification-system)
+- [Custom Installation for Non-Standard Desks](#custom-installation-for-non-standard-desks)
+- [Maintenance and Scalability](#maintenance-and-scalability)
+
 ## Why Cable Management Matters for Developers
 
 Your workspace directly impacts productivity. Tangled cables create several problems beyond aesthetics:
@@ -342,10 +357,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Wireless Charging Setup for Clean Home Office Desk 2026](/remote-work-tools/best-wireless-charging-setup-for-clean-home-office-desk-2026/)
+- [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)
 - [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)
 - [Cable Management Under Desk for Home Office With Standing](/remote-work-tools/cable-management-under-desk-for-home-office-with-standing-de/)
-- [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)
-- [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
-
+- [Best Remote Work Cable Management Solutions 2026](/remote-work-tools/best-remote-work-cable-management-solutions-2026/)
+- [How to Organize Cables in Home Office Setup](/remote-work-tools/how-to-organize-cables-in-home-office-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

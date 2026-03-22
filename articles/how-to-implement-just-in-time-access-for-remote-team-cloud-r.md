@@ -18,6 +18,14 @@ voice-checked: false
 
 Managing access to cloud resources for remote teams presents a unique security challenge. Team members need sufficient permissions to do their work, but standing privileges create persistent attack vectors. Just-in-time (JIT) access solves this problem by granting temporary credentials only when needed and automatically revoking them afterward.
 
+## Table of Contents
+
+- [What is Just-in-Time Access?](#what-is-just-in-time-access)
+- [Prerequisites](#prerequisites)
+- [Best Practices for Remote Teams](#best-practices-for-remote-teams)
+- [Troubleshooting](#troubleshooting)
+- [Related Reading](#related-reading)
+
 This guide walks you through implementing JIT access for remote teams across major cloud providers.
 
 ## What is Just-in-Time Access?

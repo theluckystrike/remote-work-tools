@@ -19,6 +19,30 @@ voice-checked: true
 
 Implement a Zero Trust architecture combined with Mobile Device Management (MDM) for BYOD environments to protect corporate data without controlling personal devices. Use endpoint detection and response (EDR) tools for threat monitoring, identity-based access controls for resource verification, and data loss prevention (DLP) to protect sensitive information. This guide covers practical security solutions that balance employee privacy with corporate risk management.
 
+## Table of Contents
+
+- [Understanding the BYOD Security Challenge](#understanding-the-byod-security-challenge)
+- [Core Components of Remote Endpoint Security](#core-components-of-remote-endpoint-security)
+- [Implementation Strategy for Small Teams](#implementation-strategy-for-small-teams)
+- [Evaluating Solutions: What Matters](#evaluating-solutions-what-matters)
+- [Endpoint Security Tool Comparison](#endpoint-security-tool-comparison)
+- [Configuration Template: Practical BYOD Policy](#configuration-template-practical-byod-policy)
+- [Device Requirements](#device-requirements)
+- [What We Monitor](#what-we-monitor)
+- [Data Protection](#data-protection)
+- [Consequences](#consequences)
+- [Employee Rights](#employee-rights)
+- [Deployment Sequence for Small Teams](#deployment-sequence-for-small-teams)
+- [Incident Response Workflow](#incident-response-workflow)
+- [Device Lost or Stolen](#device-lost-or-stolen)
+- [Suspected Compromise](#suspected-compromise)
+- [Response Time Targets](#response-time-targets)
+- [Making the Trade-offs](#making-the-trade-offs)
+- [Monitoring and Adjustment](#monitoring-and-adjustment)
+- [Questions to Ask](#questions-to-ask)
+- [Metric Tracking](#metric-tracking)
+- [Adjustments](#adjustments)
+
 ## Understanding the BYOD Security Challenge
 
 When employees use personal Macs, Windows PCs, and Linux workstations for work, you lose the ability to enforce hardware-level controls, pre-install agents, or wipe devices remotely without legal and privacy complications. The endpoint security solution must operate within these constraints while still providing meaningful protection.

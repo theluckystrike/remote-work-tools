@@ -32,6 +32,22 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 Building a hiring pipeline for distributed candidates requires a different approach than traditional in-person recruitment. When your team spans multiple time zones and your candidate pool is global, synchronous interviews become a logistics nightmare. An async interview pipeline solves this by removing the need for real-time scheduling while maintaining rigorous candidate evaluation.
 
+## Table of Contents
+
+- [Why Async Interviews Suit Distributed Hiring](#why-async-interviews-suit-distributed-hiring)
+- [Designing Your Pipeline Stages](#designing-your-pipeline-stages)
+- [Implementing Stage 2: The Technical Assessment](#implementing-stage-2-the-technical-assessment)
+- [Backend Developer Technical Assessment](#backend-developer-technical-assessment)
+- [Building the Code Review Exercise](#building-the-code-review-exercise)
+- [Async Code Review Exercise](#async-code-review-exercise)
+- [Managing Candidate Communication](#managing-candidate-communication)
+- [Stage Transition Email Template](#stage-transition-email-template)
+- [Setting Up Evaluation Infrastructure](#setting-up-evaluation-infrastructure)
+- [Handling Time Zones and Flexibility](#handling-time-zones-and-flexibility)
+- [Automation and Pipeline Management](#automation-and-pipeline-management)
+- [Measuring Pipeline Effectiveness](#measuring-pipeline-effectiveness)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+
 This guide walks through setting up a complete remote hiring pipeline that works for distributed teams. You'll learn how to design stages, create assessments, and manage communication without ever requiring candidates and interviewers to be online simultaneously.
 
 ## Why Async Interviews Suit Distributed Hiring
@@ -268,11 +284,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 - [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
-- [Example GitHub Actions quality gates](/remote-work-tools/how-to-coordinate-remote-frontend-developers-on-shared-compo/)
-- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
+- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
+- [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

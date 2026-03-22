@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Reclaim AI vs Clockwise"
+title: "Reclaim AI vs Clockwise: Calendar Tools (2026)"
 description: "A technical comparison of Reclaim AI and Clockwise calendar optimization tools for developers and power users"
 date: 2026-03-15
 last_modified_at: 2026-03-22
@@ -32,6 +32,20 @@ tags: [remote-work-tools, comparison, artificial-intelligence]
 {% raw %}
 
 Choose Reclaim AI if your primary need is personal productivity--it excels at automatically scheduling task time, protecting focus blocks, and providing fine-grained API control for custom integrations. Choose Clockwise if team meeting optimization is your priority--it clusters meetings together to create larger focus blocks and provides analytics on meeting patterns across your organization. Here is how they compare on features, API capabilities, and integration patterns.
+
+## Table of Contents
+
+- [How Calendar Optimization Tools Work](#how-calendar-optimization-tools-work)
+- [Reclaim AI: Task-First Scheduling](#reclaim-ai-task-first-scheduling)
+- [Clockwise: Meeting Optimization](#clockwise-meeting-optimization)
+- [Technical Comparison](#technical-comparison)
+- [Choosing the Right Tool](#choosing-the-right-tool)
+- [Implementation Tips](#implementation-tips)
+- [Pricing and Licensing Models](#pricing-and-licensing-models)
+- [Real-World Workflows Compared](#real-world-workflows-compared)
+- [Integration Scenarios](#integration-scenarios)
+- [Common Customizations](#common-customizations)
+- [Trial and Evaluation Strategy](#trial-and-evaluation-strategy)
 
 ## How Calendar Optimization Tools Work
 

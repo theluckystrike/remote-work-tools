@@ -18,6 +18,41 @@ intent-checked: true
 
 Remote teams that don't document fail. Without documentation, knowledge lives in Slack messages and video calls. When someone leaves, context dies with them. Onboarding takes months instead of weeks. Decisions get remade because nobody remembers why they were made before.
 
+## Table of Contents
+
+- [Why Documentation Culture Fails in Remote Teams](#why-documentation-culture-fails-in-remote-teams)
+- [Step 1: Choose ONE Place for Docs](#step-1-choose-one-place-for-docs)
+- [Step 2: Create Three Mandatory Doc Types](#step-2-create-three-mandatory-doc-types)
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+- [Verification](#verification)
+- [Rollback (if needed)](#rollback-if-needed)
+- [Problem](#problem)
+- [Options Considered](#options-considered)
+- [Decision](#decision)
+- [Rationale](#rationale)
+- [Tradeoffs Accepted](#tradeoffs-accepted)
+- [When to Revisit](#when-to-revisit)
+- [Related Decisions](#related-decisions)
+- [Timeline](#timeline)
+- [Root Cause](#root-cause)
+- [Impact](#impact)
+- [What We Did Well](#what-we-did-well)
+- [What We'll Improve](#what-well-improve)
+- [Action Items (Owner, Due Date)](#action-items-owner-due-date)
+- [Related Incidents](#related-incidents)
+- [Step 3: Build Docs into Your Workflow](#step-3-build-docs-into-your-workflow)
+- [Documentation](#documentation)
+- [Step 4: Assign a Documentation Owner](#step-4-assign-a-documentation-owner)
+- [Step 5: Make Docs Searchable](#step-5-make-docs-searchable)
+- [Step 6: Review and Update Cycle](#step-6-review-and-update-cycle)
+- [Incentives That Work](#incentives-that-work)
+- [Tools That Help (But Aren't Required)](#tools-that-help-but-arent-required)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Timeline to Documentation Culture](#timeline-to-documentation-culture)
+- [Real Impact](#real-impact)
+- [The Bottom Line](#the-bottom-line)
+
 Building a documentation culture isn't about tools. It's about habit. This guide covers the specific systems that make remote teams actually write and maintain docs.
 
 ## Why Documentation Culture Fails in Remote Teams

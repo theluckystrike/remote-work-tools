@@ -33,6 +33,22 @@ tags: [remote-work-tools]
 
 Effective desk organization for a developer home office starts with three foundations: an under-desk cable tray to hide power strips and excess cables, drawer dividers to compartmentalize connectivity gear and tools, and a pegboard or wall-mounted system for frequently accessed items like headphones and adapters. The core principle is that every item gets a designated place that minimizes friction in your daily workflow. This guide covers cable management, monitor-stand storage, modular drawer systems, and physical-digital inventory sync for developer setups in 2026.
 
+## Table of Contents
+
+- [The Developer Workspace Challenge](#the-developer-workspace-challenge)
+- [Cable Management: The Foundation of a Clean Desk](#cable-management-the-foundation-of-a-clean-desk)
+- [Monitor Stands and Vertical Storage](#monitor-stands-and-vertical-storage)
+- [Drawer Systems and Modular Storage](#drawer-systems-and-modular-storage)
+- [The Developer-Specific Gear Station](#the-developer-specific-gear-station)
+- [Physical-Digital Organization Sync](#physical-digital-organization-sync)
+- [Ergonomic Considerations](#ergonomic-considerations)
+- [Maintenance and Evolution](#maintenance-and-evolution)
+- [Specific Product Recommendations for Developers](#specific-product-recommendations-for-developers)
+- [Real-World Desk Audit Example](#real-world-desk-audit-example)
+- [Maintenance Checklist](#maintenance-checklist)
+- [Advanced Organization Hacks for Power Users](#advanced-organization-hacks-for-power-users)
+- [Keeping the System Working](#keeping-the-system-working)
+
 ## The Developer Workspace Challenge
 
 Your desk likely hosts multiple monitors, a mechanical keyboard, a development machine (or two), charging cables, notebooks, and various peripherals. Without proper organization, this quickly becomes a tangled mess that disrupts your workflow and increases cognitive load.

@@ -60,6 +60,24 @@ voice-checked: true---
 
 Implement async peer feedback exchanges for remote leadership teams using structured requests with specific questions, deadline-bound responses, explicit acknowledgment of feedback, and committed follow-up actions—creating documentation that builds trust while replacing the informal hallway conversations that don't exist in distributed settings. This process reduces emotional friction while producing clear expectations about behavior change and growth.
 
+## Table of Contents
+
+- [Why Distributed Leadership Teams Need Structured Feedback](#why-distributed-leadership-teams-need-structured-feedback)
+- [The Template Structure](#the-template-structure)
+- [Implementing the Template in Your Team](#implementing-the-template-in-your-team)
+- [Timing and Frequency](#timing-and-frequency)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Detailed Peer Feedback Form for Leadership Teams](#detailed-peer-feedback-form-for-leadership-teams)
+- [Aggregation and Analysis Process](#aggregation-and-analysis-process)
+- [[Manager] Feedback Summary - 2026 Q1](#manager-feedback-summary-2026-q1)
+- [Feedback Delivery Conversation for Managers](#feedback-delivery-conversation-for-managers)
+- [Monthly Check-In Template for Accountability](#monthly-check-in-template-for-accountability)
+- [Progress This Month](#progress-this-month)
+- [Evidence of Progress](#evidence-of-progress)
+- [Obstacles](#obstacles)
+- [Next Month's Focus](#next-months-focus)
+- [Support Needed](#support-needed)
+
 Managing peer feedback in distributed leadership environments requires deliberate structure. When your team spans time zones and communication happens asynchronously, the informal hallway conversations that build trust in co-located settings simply do not exist. This guide provides a peer feedback exchange template specifically designed for remote team managers operating in distributed leadership structures.
 
 ## Why Distributed Leadership Teams Need Structured Feedback

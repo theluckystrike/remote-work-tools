@@ -32,6 +32,22 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 When developers and power users work remotely, they frequently access sensitive company infrastructure from home networks. Unlike corporate environments with dedicated security teams, home WiFi setups often lack the baseline protections that keep company data safe. This creates real risk: compromised home networks account for a significant portion of remote work security incidents.
 
+## Table of Contents
+
+- [Network Segmentation: Separate Work from Personal](#network-segmentation-separate-work-from-personal)
+- [Router Firmware: The Foundation of Security](#router-firmware-the-foundation-of-security)
+- [WiFi Encryption: Beyond the Basics](#wifi-encryption-beyond-the-basics)
+- [VPN Configuration: Your Encrypted Tunnel](#vpn-configuration-your-encrypted-tunnel)
+- [Network Monitoring: Know What's Connected](#network-monitoring-know-whats-connected)
+- [DNS Security: Filtering at the Network Level](#dns-security-filtering-at-the-network-level)
+- [Physical Security: Don't Overlook the Basics](#physical-security-dont-overlook-the-basics)
+- [Putting It All Together](#putting-it-all-together)
+- [Step-by-Step Network Security Hardening](#step-by-step-network-security-hardening)
+- [Monthly Maintenance Checklist](#monthly-maintenance-checklist)
+- [Monthly Network Security Review](#monthly-network-security-review)
+- [Real-World Security Incident Response](#real-world-security-incident-response)
+- [Testing Your Network Security](#testing-your-network-security)
+
 Securing a home WiFi network for company data access doesn't require expensive equipment or deep networking expertise. Most routers available today support the security protocols and features needed to create a defensible perimeter. The challenge lies in knowing which settings matter and how to configure them correctly.
 
 ## Network Segmentation: Separate Work from Personal
@@ -387,11 +403,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
-- [How to Secure Remote Team Kubernetes Clusters with Network P](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
-- [Simple Slack webhook for probation check-ins](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
-- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
+- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 - [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-
+- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

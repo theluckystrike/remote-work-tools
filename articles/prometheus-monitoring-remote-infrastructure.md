@@ -31,6 +31,23 @@ tags: [remote-work-tools, remote-work]
 
 Remote infrastructure needs observability. Without it, you find out about a crashed service when a client emails you, not when it goes down at 3am. Prometheus scrapes metrics from your servers and containers every 15 seconds. Grafana turns those metrics into dashboards. Alertmanager sends you a page before the client notices.
 
+## Table of Contents
+
+- [Architecture](#architecture)
+- [Install on the Monitoring Server](#install-on-the-monitoring-server)
+- [Prometheus Scrape Config](#prometheus-scrape-config)
+- [Install Node Exporter on Each Target](#install-node-exporter-on-each-target)
+- [Firewall Rules](#firewall-rules)
+- [Alerting Rules](#alerting-rules)
+- [Alertmanager Config](#alertmanager-config)
+- [Grafana Dashboard Provisioning](#grafana-dashboard-provisioning)
+- [Start the Stack](#start-the-stack)
+- [Query Examples](#query-examples)
+- [Monitoring Stack Comparison](#monitoring-stack-comparison)
+- [Step-by-Step Implementation Guide for Remote Teams](#step-by-step-implementation-guide-for-remote-teams)
+- [Additional Exporters for Remote Infrastructure](#additional-exporters-for-remote-infrastructure)
+- [Related Reading](#related-reading)
+
 This guide builds a complete monitoring stack: Prometheus, Grafana, and Node Exporter on a dedicated monitoring server, with targets across your fleet.
 
 ## Architecture

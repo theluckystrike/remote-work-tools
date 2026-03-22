@@ -17,6 +17,17 @@ voice-checked: true
 
 Remote teams constantly evaluate their communication tools to balance synchronous collaboration with asynchronous workflows. Slack huddles have served many teams well, but Discord stage channels offer a compelling alternative for teams that need more structured audio discussions, better audience management, and superior audio quality. This guide covers the technical aspects of migrating your remote team's audio communication from Slack huddles to Discord stage channels.
 
+## Table of Contents
+
+- [Understanding the Architectural Differences](#understanding-the-architectural-differences)
+- [Setting Up Discord Stage Channels](#setting-up-discord-stage-channels)
+- [Managing Speaker and Audience Permissions](#managing-speaker-and-audience-permissions)
+- [Structuring Your Discord Server for Engineering Teams](#structuring-your-discord-server-for-engineering-teams)
+- [Integrating with Your Existing Workflow](#integrating-with-your-existing-workflow)
+- [Audio Quality and Technical Considerations](#audio-quality-and-technical-considerations)
+- [Handling Transition Resistance](#handling-transition-resistance)
+- [Best Practices for Remote Team Audio Discussions](#best-practices-for-remote-team-audio-discussions)
+
 ## Understanding the Architectural Differences
 
 Slack huddles function as ad-hoc voice conversations within channels. They work well for quick check-ins but lack granular control over speaker permissions and audience separation. When you need to host a structured discussion with a presenter and an audience, Slack's limitations become apparent.

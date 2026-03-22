@@ -18,6 +18,14 @@ voice-checked: true
 
 Hiring across time zones introduces friction that traditional onboarding tools were never designed to handle. When your new hire starts in Tokyo while your HR team operates from San Francisco, the first-day orientation that works for co-located teams becomes a coordination nightmare. This review evaluates HR onboarding platforms based on their ability to support async workflows, developer-friendly integrations, and automation capabilities that matter to technical teams building distributed organizations.
 
+## Table of Contents
+
+- [Evaluation Criteria for Remote-Onboarding Platforms](#evaluation-criteria-for-remote-onboarding-platforms)
+- [Quick Comparison](#quick-comparison)
+- [Platform Comparison](#platform-comparison)
+- [Building Your Own Integration Layer](#building-your-own-integration-layer)
+- [Decision Framework](#decision-framework)
+
 ## Evaluation Criteria for Remote-Onboarding Platforms
 
 Before examining specific platforms, establish the technical requirements that distinguish remote-capable onboarding tools from basic HR software:
@@ -250,11 +258,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
-- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
 - [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
 - [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
-- [How to Manage Multilingual Client Communication for](/remote-work-tools/how-to-manage-multilingual-client-communication-for-distributed-agency-team/)
-
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

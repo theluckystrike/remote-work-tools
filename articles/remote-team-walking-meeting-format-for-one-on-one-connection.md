@@ -18,6 +18,17 @@ voice-checked: true
 
 Use virtual walking meetings via video call while walking alone to maintain connection with direct reports while both parties get movement and fresh air. This casual format often produces more candid conversations than formal desk-based one-on-ones.
 
+## Table of Contents
+
+- [Why Walking Meetings Work for Remote One-on-Ones](#why-walking-meetings-work-for-remote-one-on-ones)
+- [Core Format: The 30-Minute Structure](#core-format-the-30-minute-structure)
+- [Technical Setup: Audio and Connectivity](#technical-setup-audio-and-connectivity)
+- [Scheduling and Calendar Integration](#scheduling-and-calendar-integration)
+- [Practical Examples: Meeting Templates](#practical-examples-meeting-templates)
+- [Environment Considerations](#environment-considerations)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Implementation Checklist](#implementation-checklist)
+
 ## Why Walking Meetings Work for Remote One-on-Ones
 
 Research consistently shows that walking improves cognitive function and creative thinking. When applied to remote one-on-ones, walking meetings solve several problems that plague video calls: the fatigue from staring at screens, the stiffness of sitting for extended periods, and the transactional feel that develops when every conversation happens in the same virtual room.

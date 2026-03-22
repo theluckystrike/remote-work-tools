@@ -31,6 +31,21 @@ tags: [remote-work-tools, remote-work]
 
 The most effective documentation ownership model for remote teams assigns a primary maintainer to each page who reviews updates quarterly, updates metadata automatically, and serves as the async point of contact for related questions. This approach solves outdated content, prevents knowledge silos, and scales documentation responsibility across the entire team without overloading a few contributors. This guide walks you through implementing a documentation ownership model that works across time zones.
 
+## Table of Contents
+
+- [Why Documentation Ownership Matters for Remote Teams](#why-documentation-ownership-matters-for-remote-teams)
+- [Step 1: Audit Your Current Documentation ecosystem](#step-1-audit-your-current-documentation-ecosystem)
+- [Step 2: Define Ownership Roles](#step-2-define-ownership-roles)
+- [Step 3: Create an Ownership Registry](#step-3-create-an-ownership-registry)
+- [Step 4: Establish Review Workflows](#step-4-establish-review-workflows)
+- [Step 5: Onboard Contributors to the Model](#step-5-onboard-contributors-to-the-model)
+- [Documentation Ownership](#documentation-ownership)
+- [Measuring Success](#measuring-success)
+- [Tooling That Supports Ownership Models](#tooling-that-supports-ownership-models)
+- [Handling Ownership During Team Changes](#handling-ownership-during-team-changes)
+- [FAQ: Documentation Ownership for Remote Teams](#faq-documentation-ownership-for-remote-teams)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+
 ## Why Documentation Ownership Matters for Remote Teams
 
 Remote work eliminates the informal hallway conversations where knowledge transfers happen naturally. When anyone can edit everything, responsibility becomes diffuse. A well-designed ownership model solves three critical problems:

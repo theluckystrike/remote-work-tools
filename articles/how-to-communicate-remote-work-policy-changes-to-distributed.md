@@ -18,6 +18,14 @@ tags: [remote-work-tools, remote-work]
 
 Remote work policy change communication should follow the RISE framework: Release previews before finalizing anything, Include specifics and rationale avoiding ambiguity, Schedule announcements across time zones (8 AM - 6 PM local), and Enable two-way dialogue through Q&A sessions or async feedback channels. Use consistent message frameworks with clear action items, acknowledge employee input was considered, and respond to every question. This approach transforms potentially anxiety-inducing announcements into trust-building moments by respecting that remote workers base life decisions on current policies.
 
+## Table of Contents
+
+- [Why Policy Changes Trigger Anxiety](#why-policy-changes-trigger-anxiety)
+- [The RISE Framework for Policy Announcements](#the-rise-framework-for-policy-announcements)
+- [Practical Communication Templates](#practical-communication-templates)
+- [What to Avoid](#what-to-avoid)
+- [Measuring Success](#measuring-success)
+
 ## Why Policy Changes Trigger Anxiety
 
 Before implementing any communication strategy, understanding why these announcements cause such strong reactions helps you address the root concerns.

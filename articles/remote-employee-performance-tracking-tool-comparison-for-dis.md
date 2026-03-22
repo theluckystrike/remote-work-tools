@@ -31,6 +31,17 @@ tags: [remote-work-tools, remote-work]
 
 For distributed teams, compare performance tracking tools by evaluating async feedback mechanisms, goal tracking capabilities, and integration with existing HR systems rather than invasive activity monitoring. Modern remote-friendly tools focus on outcomes and communication, not surveillance.
 
+## Table of Contents
+
+- [Core Categories for Remote Performance Tracking](#core-categories-for-remote-performance-tracking)
+- [Quick Comparison](#quick-comparison)
+- [Tool Comparison for Distributed Managers](#tool-comparison-for-distributed-managers)
+- [Choosing Between Tools: A Decision Guide](#choosing-between-tools-a-decision-guide)
+- [What Good Metrics Look Like for Remote Teams](#what-good-metrics-look-like-for-remote-teams)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Building a Custom Dashboard](#building-a-custom-dashboard)
+- [Making Performance Data Useful](#making-performance-data-useful)
+
 ## Core Categories for Remote Performance Tracking
 
 Before examining specific tools, understand the four main categories of remote performance tracking:

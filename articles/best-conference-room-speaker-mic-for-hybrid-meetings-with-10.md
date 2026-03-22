@@ -17,6 +17,16 @@ tags: [remote-work-tools, best-of]
 
 For 10-person hybrid conference rooms, a ceiling-mounted cardioid microphone with acoustic array technology combined with 360-degree speakers provides optimal coverage without expensive installation or excessive equipment. Systems like Shure MX2620 or Biamp Parle Ceiling represent the practical sweet spot—picking up voices from all directions while rejecting echo and background noise that disrupts remote participants. A single tabletop mic cannot cover 10 people adequately, while full ceiling array systems waste budget, making array ceiling mics with excellent echo cancellation the proven choice for hybrid call quality at this participant scale.
 
+## Table of Contents
+
+- [The 10-Person Room Challenge](#the-10-person-room-challenge)
+- [Speakerphone Units: The All-in-One Solution](#speakerphone-units-the-all-in-one-solution)
+- [USB Conference Speaker-Mic Systems](#usb-conference-speaker-mic-systems)
+- [Beamforming Ceiling Microphone Arrays](#beamforming-ceiling-microphone-arrays)
+- [Digital Signal Processing Considerations](#digital-signal-processing-considerations)
+- [Software Integration](#software-integration)
+- [Zoom Meeting Automation via API](#zoom-meeting-automation-via-api)
+
 ## The 10-Person Room Challenge
 
 A 10-person hybrid meeting room presents specific acoustic problems that differ from smaller or larger spaces. Each participant needs to be heard clearly whether seated at a conference table or standing to present. Remote participants must sound natural, without the hollow quality that comes from distant microphones. The system must handle multiple simultaneous speakers without creating feedback or phase issues.

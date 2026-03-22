@@ -18,6 +18,19 @@ voice-checked: true
 
 The Cayman Islands Global Citizen Concierge Program (GCCP) offers a legitimate pathway for remote workers, freelancers, and digital nomads to establish tax residency in one of the most financially stable jurisdictions in the Caribbean. Unlike traditional visa programs, the GCCP functions more like a concierge service that helps high-net-worth individuals navigate residency, banking, and tax obligations while working remotely for overseas employers.
 
+## Table of Contents
+
+- [What Is the Global Citizen Concierge Program?](#what-is-the-global-citizen-concierge-program)
+- [Eligibility Requirements for 2026](#eligibility-requirements-for-2026)
+- [Application Process](#application-process)
+- [Tax Implications](#tax-implications)
+- [Practical Considerations for Remote Workers](#practical-considerations-for-remote-workers)
+- [Is the GCCP Right for You?](#is-the-gccp-right-for-you)
+- [Comparing GCCP to Other Digital Nomad Programs](#comparing-gccp-to-other-digital-nomad-programs)
+- [Tax Planning for Cayman Islands Residency](#tax-planning-for-cayman-islands-residency)
+- [Financial Logistics for GCCP Holders](#financial-logistics-for-gccp-holders)
+- [Next Steps](#next-steps)
+
 This guide covers eligibility requirements, application procedures, tax implications, and practical considerations for developers and power users evaluating the program in 2026.
 
 ## What Is the Global Citizen Concierge Program?

@@ -19,6 +19,22 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Miro is the best whiteboard tool for a remote product management team of 10, offering the strongest template library for roadmapping, native Jira integration, and reliable real-time collaboration at $10 per user per month. Choose FigJam instead if your team already pays for Figma and prioritizes design handoff over structured PM frameworks. This guide compares the top options with pricing, feature breakdowns, and API examples.
 
+## Table of Contents
+
+- [Key Requirements for Product Management Teams](#key-requirements-for-product-management-teams)
+- [Miro: The Enterprise Standard](#miro-the-enterprise-standard)
+- [FigJam: Lightweight Collaboration](#figjam-lightweight-collaboration)
+- [Miro vs FigJam for Product Managers](#miro-vs-figjam-for-product-managers)
+- [Microsoft Whiteboard: Ecosystem Play](#microsoft-whiteboard-ecosystem-play)
+- [Excalidraw: Developer-First Whiteboarding](#excalidraw-developer-first-whiteboarding)
+- [Detailed Pricing Analysis for 10-Person Teams](#detailed-pricing-analysis-for-10-person-teams)
+- [Template Library Deep Dive: What Miro Actually Provides](#template-library-deep-dive-what-miro-actually-provides)
+- [Real-World Product Team Workflow: Q2 Planning Session](#real-world-product-team-workflow-q2-planning-session)
+- [Integration Comparison Matrix](#integration-comparison-matrix)
+- [Feature Request Use Case](#feature-request-use-case)
+- [Making the Decision](#making-the-decision)
+- [Implementation Checklist](#implementation-checklist)
+
 ## Key Requirements for Product Management Teams
 
 A team of 10 product managers working remotely has specific needs that differ from in-person brainstorming sessions. The tool must handle concurrent editing without latency, support structured frameworks like journey maps and Kanban boards, and export cleanly for stakeholder presentations. Integration with project management tools like Jira, Linear, or Asana matters when translating whiteboard outputs into actionable tickets.

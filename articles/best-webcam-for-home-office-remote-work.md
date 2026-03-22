@@ -31,6 +31,25 @@ tags: [remote-work-tools, best-of, remote-work]
 
 The best webcam for home office remote work is a 1080p/30fps UVC-compliant camera with reliable auto-exposure and good low-light performance--start with 1080p rather than 4K, since most video conferencing platforms compress heavily and the extra resolution rarely shows on calls. Prioritize Linux UVC driver support for plug-and-play compatibility, a physical privacy shutter, and fixed focus if you sit stationary during calls (it eliminates autofocus hunting). This guide covers resolution tradeoffs, low-light testing, Linux compatibility checks, programmatic camera control, and the specific specs that matter for developers and power users.
 
+## Table of Contents
+
+- [Resolution and Frame Rate Tradeoffs](#resolution-and-frame-rate-tradeoffs)
+- [What Developers Should Look For](#what-developers-should-look-for)
+- [Low-Light Performance](#low-light-performance)
+- [Autofocus and Exposure](#autofocus-and-exposure)
+- [Field of View](#field-of-view)
+- [Microphone Quality](#microphone-quality)
+- [Testing Your Webcam Programmatically](#testing-your-webcam-programmatically)
+- [Privacy Considerations](#privacy-considerations)
+- [Detailed Webcam Comparison Table](#detailed-webcam-comparison-table)
+- [Real-World Webcam Performance Testing](#real-world-webcam-performance-testing)
+- [Lighting Setup Recommendations](#lighting-setup-recommendations)
+- [Linux Compatibility Deep Dive](#linux-compatibility-deep-dive)
+- [Cross-Platform Setup Examples](#cross-platform-setup-examples)
+- [Privacy Setup Checklist](#privacy-setup-checklist)
+- [Recommended Approach](#recommended-approach)
+- [Budget Webcam Selection by Use Case](#budget-webcam-selection-by-use-case)
+
 ## Resolution and Frame Rate Tradeoffs
 
 Resolution matters, but frame rate often matters more for video calls. A 1080p webcam at 30fps provides smooth motion that feels natural in conversations. Some webcams advertise 4K, but most video conferencing platforms compress video heavily, so the extra resolution rarely translates to visible improvement on calls.

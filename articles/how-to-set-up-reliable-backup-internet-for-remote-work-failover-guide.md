@@ -17,6 +17,14 @@ intent-checked: true
 
 Internet outages are unpredictable yet inevitable. For remote workers, losing connectivity means missed meetings, lost work, and damaged professional reputation. A properly configured backup internet system with automatic failover eliminates this risk. This guide covers backup strategies ranging from mobile hotspot basics to sophisticated dual-ISP load balancing, with practical configurations and hardware recommendations.
 
+## Table of Contents
+
+- [Why Backup Internet Matters for Remote Work](#why-backup-internet-matters-for-remote-work)
+- [Prerequisites](#prerequisites)
+- [Cost Comparison](#cost-comparison)
+- [Advanced: Monitoring and Alerts](#advanced-monitoring-and-alerts)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Backup Internet Matters for Remote Work
 
 Primary ISP outages average 3-6 hours per year, with larger outages (8+ hours) occurring roughly every 2-3 years. For a remote worker earning $100/hour, even a 2-hour outage costs $200. Over a 5-year career period, expecting 3-4 major outages, the financial impact is substantial.
@@ -360,9 +368,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
-- [On Android, enable tethering via settings](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)
-- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
-- [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
 - [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
-
+- [Remote Work Internet Redundancy Setup Guide](/remote-work-tools/remote-work-internet-redundancy-setup-guide/)
+- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
+- [Best Fiber Internet Providers in Lisbon for Remote](/remote-work-tools/best-fiber-internet-providers-in-lisbon-for-remote-developer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

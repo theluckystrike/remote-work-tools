@@ -17,6 +17,21 @@ intent-checked: true
 
 Combining an aluminum laptop stand with an 80mm cooling fan, closing your laptop lid to disable the hot display backlight, scheduling CPU-intensive tasks during cooler morning hours, and applying a conservative -100mV undervolt reduces laptop temperatures 15-20°C below unmanaged configurations. In 32°C ambient conditions with this multi-pronged approach, your development environment stays responsive while React builds and Docker operations complete in reasonable times instead of taking 3x longer due to thermal throttling.
 
+## Table of Contents
+
+- [Understanding Thermal Throttling in Tropical Conditions](#understanding-thermal-throttling-in-tropical-conditions)
+- [Active Cooling Solutions](#active-cooling-solutions)
+- [Passive Cooling Strategies](#passive-cooling-strategies)
+- [Software-Level Thermal Management](#software-level-thermal-management)
+- [Hardware Considerations for Tropical Work](#hardware-considerations-for-tropical-work)
+- [Building Your Tropical Workstation](#building-your-tropical-workstation)
+- [Monitoring Your Setup](#monitoring-your-setup)
+- [Product Comparison: Cooling Solutions](#product-comparison-cooling-solutions)
+- [Temperature Profiling: Establishing Your Baseline](#temperature-profiling-establishing-your-baseline)
+- [Workflow Optimization for Thermal Constraints](#workflow-optimization-for-thermal-constraints)
+- [Advanced: DIY Cooling System](#advanced-diy-cooling-system)
+- [Measuring Cooling Effectiveness](#measuring-cooling-effectiveness)
+
 ## Understanding Thermal Throttling in Tropical Conditions
 
 Tropical climates create a double thermal burden. Ambient temperatures often exceed 30°C (86°F) with humidity levels between 70-90%. Your laptop must dissipate both its internal heat generation and fight against the surrounding warm, moist air.

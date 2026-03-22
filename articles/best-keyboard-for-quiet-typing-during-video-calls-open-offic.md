@@ -17,6 +17,25 @@ voice-checked: true
 
 When you're on back-to-back video calls in an open office, your keyboard noise becomes a shared experience with your entire team. That satisfying mechanical click that you love at home suddenly feels inappropriate when your teammates are trying to focus on a product demo or code review. Finding the right quiet keyboard isn't about sacrificing typing feel—it's about choosing tools that work for collaborative environments.
 
+## Table of Contents
+
+- [Understanding Keyboard Noise Sources](#understanding-keyboard-noise-sources)
+- [Mechanical Switches Designed for Quiet Operation](#mechanical-switches-designed-for-quiet-operation)
+- [Membrane and Low-Profile Alternatives](#membrane-and-low-profile-alternatives)
+- [Keyboard Modifications for Noise Reduction](#keyboard-modifications-for-noise-reduction)
+- [Configuration Tips for Shared Workspaces](#configuration-tips-for-shared-workspaces)
+- [Product Recommendations by Budget and Preference](#product-recommendations-by-budget-and-preference)
+- [Noise Level Comparison](#noise-level-comparison)
+- [Customization Strategies for Existing Mechanical Keyboards](#customization-strategies-for-existing-mechanical-keyboards)
+- [Making the Switch](#making-the-switch)
+- [Extended Adjustment Strategies](#extended-adjustment-strategies)
+- [Team Dynamics Around Keyboard Noise](#team-dynamics-around-keyboard-noise)
+- [When Quiet Keyboards Aren't Enough](#when-quiet-keyboards-arent-enough)
+- [Keyboard Choice by Role and Use Case](#keyboard-choice-by-role-and-use-case)
+- [Budget Allocation Over Time](#budget-allocation-over-time)
+- [Keyboard Maintenance and Longevity](#keyboard-maintenance-and-longevity)
+- [Testing Keyboards Before You Buy](#testing-keyboards-before-you-buy)
+
 This guide covers the keyboard options that keep you productive while being considerate to those around you. We'll look at mechanical switches designed for quiet operation, alternative keyboard designs, and practical configurations you can apply today.
 
 ## Understanding Keyboard Noise Sources

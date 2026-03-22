@@ -33,6 +33,18 @@ tags: [remote-work-tools, remote-work]
 
 Build a shared "School Breaks" calendar showing each parent's childcare gaps, then use a Python script to calculate realistic sprint capacity accounting for 50% productivity during break periods. Default to asynchronous standups and async check-ins during high-conflict weeks, document coverage requests explicitly in a dedicated Slack channel, and set expectations upfront that parents handle their own school schedule coordination—most parents will be satisfied knowing you understand the reality rather than expecting them to ignore school holidays for work.
 
+## Table of Contents
+
+- [Understanding the Overlap Problem](#understanding-the-overlap-problem)
+- [Build a Parental Schedule Calendar](#build-a-parental-schedule-calendar)
+- [Implement Staggered Sprint Planning](#implement-staggered-sprint-planning)
+- [Create a Parent-Cover Protocol](#create-a-parent-cover-protocol)
+- [Coverage Request](#coverage-request)
+- [Use Asynchronous Check-Ins as Default](#use-asynchronous-check-ins-as-default)
+- [Weekly Async Update](#weekly-async-update)
+- [Plan for Overlap as a Team](#plan-for-overlap-as-a-team)
+- [Setting Team Norms Around School Schedules](#setting-team-norms-around-school-schedules)
+
 ## Understanding the Overlap Problem
 
 The core challenge isn't just about calendar conflicts. When multiple team members have children in different schools, you face:

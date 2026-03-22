@@ -18,6 +18,17 @@ voice-checked: true
 
 For a remote legal team of 12, use a Git-backed document management system paired with a real-time collaboration layer like Etherpad or Google Docs for active drafting sessions. This hybrid approach gives you the version history and audit trails that legal compliance demands, while still supporting concurrent editing across matters. Teams already in the Microsoft ecosystem should use SharePoint with Information Rights Management instead.
 
+## Table of Contents
+
+- [Core Requirements for Legal Document Collaboration](#core-requirements-for-legal-document-collaboration)
+- [Git-Based Version Control for Legal Documents](#git-based-version-control-for-legal-documents)
+- [Real-Time Collaboration Layer](#real-time-collaboration-layer)
+- [Access Control and Permissions](#access-control-and-permissions)
+- [Compliance and Audit Trails](#compliance-and-audit-trails)
+- [Workflow Automation for Common Tasks](#workflow-automation-for-common-tasks)
+- [Choosing Your Collaboration Stack](#choosing-your-collaboration-stack)
+- [Implementation Priority](#implementation-priority)
+
 ## Core Requirements for Legal Document Collaboration
 
 Before evaluating tools, establish your baseline requirements. A legal team of 12 typically handles multiple concurrent matters, each involving contracts, briefs, correspondence, and research documents. Your collaboration system must handle:

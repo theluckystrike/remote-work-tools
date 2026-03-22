@@ -33,6 +33,16 @@ tags: [remote-work-tools, remote-work]
 
 Track first response time for distributed helpdesk teams by normalizing all timestamps to UTC, implementing business-hours-aware SLA thresholds that exclude off-hours, and routing tickets to agents across time zones to minimize wait times. Monitoring FRT by timezone reveals which regions experience delays, enabling informed coverage scheduling that maintains responsive customer support across 24-hour operations.
 
+## Table of Contents
+
+- [Why First Response Time Matters More in Distributed Teams](#why-first-response-time-matters-more-in-distributed-teams)
+- [Calculating First Response Time Across Time Zones](#calculating-first-response-time-across-time-zones)
+- [Implementing SLA Thresholds with Business Hours](#implementing-sla-thresholds-with-business-hours)
+- [Building Dashboard Queries for FRT Analysis](#building-dashboard-queries-for-frt-analysis)
+- [Setting Up Automated Alerts for FRT Breaches](#setting-up-automated-alerts-for-frt-breaches)
+- [Practical Strategies for Improving Distributed FRT](#practical-strategies-for-improving-distributed-frt)
+- [Measuring What Actually Improves](#measuring-what-actually-improves)
+
 First response time (FRT) serves as a critical metric for any distributed helpdesk operation. When your support team spans multiple time zones, tracking when the first human response reaches a customer becomes exponentially more complex—and more valuable. This guide covers practical approaches to measuring and improving first response time for remote teams, with concrete code examples you can implement today.
 
 ## Why First Response Time Matters More in Distributed Teams

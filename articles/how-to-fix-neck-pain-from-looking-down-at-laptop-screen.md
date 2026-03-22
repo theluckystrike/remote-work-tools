@@ -31,6 +31,20 @@ tags: [remote-work-tools, troubleshooting, best-of]
 
 Raise your laptop screen to eye level using a stand, stack of books, or external monitor, then use a separate keyboard at elbow height — this single change eliminates the primary cause of neck pain from laptop use. Combine that with chin tucks and neck stretches two to three times daily to reverse the muscular damage from forward head posture. Most developers experience significant relief within days of making these adjustments, addressing the "tech neck" caused by looking down at a screen positioned well below eye level.
 
+## Table of Contents
+
+- [Why Laptops Cause Neck Pain](#why-laptops-cause-neck-pain)
+- [Immediate Changes You Can Make Today](#immediate-changes-you-can-make-today)
+- [Exercises and Stretches for Relief](#exercises-and-stretches-for-relief)
+- [Building Sustainable Habits](#building-sustainable-habits)
+- [When to Seek Professional Help](#when-to-seek-professional-help)
+- [Making It Stick](#making-it-stick)
+- [Product Recommendations for Fixing Tech Neck](#product-recommendations-for-fixing-tech-neck)
+- [Building Ergonomic Habits](#building-ergonomic-habits)
+- [Ergonomic Workstations by Budget](#ergonomic-workstations-by-budget)
+- [Ergonomic Assessment Checklist](#ergonomic-assessment-checklist)
+- [When to See a Physical Therapist](#when-to-see-a-physical-therapist)
+
 ## Why Laptops Cause Neck Pain
 
 Your head weighs approximately 10-12 pounds. For every inch your head tilts forward, the strain on your neck muscles increases exponentially. When you look down at a laptop placed on a standard desk, your neck bends forward anywhere from 2 to 4 inches — multiplying the effective weight your neck must support to 30-40 pounds or more.

@@ -18,6 +18,16 @@ intent-checked: true
 
 A team wiki is the difference between asking "who knows how we do X?" and having documented answers ready. Building one correctly prevents information silos, reduces onboarding time, and creates accountability for processes. This guide walks through choosing a platform, structuring content, implementing permissions, and maintaining quality over time.
 
+## Table of Contents
+
+- [Why Your Remote Team Needs a Wiki](#why-your-remote-team-needs-a-wiki)
+- [Platform Comparison: Notion vs Confluence vs GitBook vs Outline](#platform-comparison-notion-vs-confluence-vs-gitbook-vs-outline)
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
+- [Common Issues](#common-issues)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Your Remote Team Needs a Wiki
 
 Synchronous communication (Slack, calls) handles urgent problems. A wiki handles everything else: how to deploy, approval workflows, company policies, project templates, lessons learned, on-call procedures, and design decisions.

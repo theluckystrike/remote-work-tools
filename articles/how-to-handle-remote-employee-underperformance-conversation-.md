@@ -18,6 +18,16 @@ voice-checked: true
 
 Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with the employee. Managing remote teams makes addressing underperformance both more critical and complex because you lack visual cues and must gather objective data instead of relying on gut feelings. This guide provides new managers with a structured approach including conversation scripts, documentation frameworks, and tips specifically adapted for distributed work environments.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Performance Notes - [Employee Name]](#performance-notes-employee-name)
+- [Performance Improvement Plan - [Date]](#performance-improvement-plan-date)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Performance Improvement Plans (PIPs) Done Right](#performance-improvement-plans-pips-done-right)
+- [Performance Issues](#performance-issues)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

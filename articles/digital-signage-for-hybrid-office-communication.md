@@ -33,6 +33,18 @@ tags: [remote-work-tools]
 
 Digital signage gives hybrid offices an always-on communication channel that updates automatically from your existing tools—calendars, incident trackers, desk booking systems. This guide covers technical implementation patterns for developers building or integrating these systems.
 
+## Table of Contents
+
+- [Why Digital Signage Matters for Hybrid Teams](#why-digital-signage-matters-for-hybrid-teams)
+- [Core Components of a Digital Signage System](#core-components-of-a-digital-signage-system)
+- [Building a Content API Integration](#building-a-content-api-integration)
+- [Automating Content from Existing Tools](#automating-content-from-existing-tools)
+- [Display Hardware Considerations](#display-hardware-considerations)
+- [Content Management Best Practices](#content-management-best-practices)
+- [Deployment Architecture](#deployment-architecture)
+- [Production Deployment: Real Implementation Patterns](#production-deployment-real-implementation-patterns)
+- [Measuring Signage Effectiveness](#measuring-signage-effectiveness)
+
 ## Why Digital Signage Matters for Hybrid Teams
 
 Traditional office communication relied heavily on physical bulletin boards, email announcements, and team meetings. Remote work disrupted these patterns, creating information gaps between those in the office and those working from home. Digital signage solves this by creating a centralized, always-on communication channel that works for distributed teams.

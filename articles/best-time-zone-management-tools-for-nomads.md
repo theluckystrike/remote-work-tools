@@ -16,6 +16,23 @@ tags: [remote-work-tools, best-of]
 
 World Time Buddy is the best all-around time zone management tool for digital nomads, offering instant visual scheduling across multiple zones with no install required. For developers, pair it with the `tz` CLI for terminal-based conversions and date-fns-tz or moment-timezone for programmatic handling in your projects. This guide breaks down each tool's strengths so you can build a time zone toolkit that matches your workflow as you move between locations.
 
+## Table of Contents
+
+- [The Nomad's Time Zone Problem](#the-nomads-time-zone-problem)
+- [World Time Buddy: Quick Visual Scheduling](#world-time-buddy-quick-visual-scheduling)
+- [Timezone.io: Track Team Availability](#timezoneio-track-team-availability)
+- [CLIs and Developer Tools](#clis-and-developer-tools)
+- [Cronofy: Calendar Integration](#cronofy-calendar-integration)
+- [World Clock Widgets and Desktop Apps](#world-clock-widgets-and-desktop-apps)
+- [Mobile Apps for On-the-Go Time Zone Management](#mobile-apps-for-on-the-go-time-zone-management)
+- [Automation Patterns for Nomads](#automation-patterns-for-nomads)
+- [Dealing with Daylight Saving Time as a Nomad](#dealing-with-daylight-saving-time-as-a-nomad)
+- [Handling Meeting Coordination Across Multiple Zones](#handling-meeting-coordination-across-multiple-zones)
+- [Core Team Hours (overlap period)](#core-team-hours-overlap-period)
+- [Individual Availability](#individual-availability)
+- [Recommended Meeting Time Slots](#recommended-meeting-time-slots)
+- [Choosing Your Toolkit](#choosing-your-toolkit)
+
 ## The Nomad's Time Zone Problem
 
 When you work from Bangkok today and Lisbon next week, your local time shifts while your team's expectations remain. You need tools that handle three distinct scenarios:

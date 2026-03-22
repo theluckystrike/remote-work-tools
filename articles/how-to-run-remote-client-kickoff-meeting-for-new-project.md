@@ -18,6 +18,14 @@ voice-checked: true
 
 Send a 48-hour pre-meeting agenda, run a 90-minute meeting covering goals, scope, timeline, and communication cadence, then follow up with documented decisions and next steps. A well-executed kickoff meeting sets the foundation for project success—remote meetings lose in-person energy but gain documentation, async follow-up, and recorded discussions. This guide covers practical steps to run a remote client kickoff that establishes clear expectations, builds trust, and aligns your team from day one, including help techniques and follow-up strategies.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Technical Requirements Discovery](#technical-requirements-discovery)
+- [Kickoff Summary](#kickoff-summary)
+- [Next Steps](#next-steps)
+- [Troubleshooting](#troubleshooting)
+
 # [Project Name] Kickoff Notes**: [Date]
 
 ## Prerequisites

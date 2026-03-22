@@ -32,6 +32,19 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 Attracting top distributed talent requires more than posting jobs on LinkedIn. Your employer brand—the story you tell about working at your company—determines whether engineers even apply. Remote teams face a unique challenge: competing for talent against companies worldwide, without the advantage of physical presence.
 
+## Table of Contents
+
+- [Understanding Employer Brand in a Remote Context](#understanding-employer-brand-in-a-remote-context)
+- [Strategy 1: Make Your Engineering Culture Visible](#strategy-1-make-your-engineering-culture-visible)
+- [Development Environment Setup](#development-environment-setup)
+- [Strategy 2: Build a Talent Attraction Engine](#strategy-2-build-a-talent-attraction-engine)
+- [Strategy 3: Create Compelling Candidate Experiences](#strategy-3-create-compelling-candidate-experiences)
+- [Engineering Interview Process](#engineering-interview-process)
+- [Strategy 4: Measure Your Employer Brand](#strategy-4-measure-your-employer-brand)
+- [Strategy 5: Build Internal Brand Advocates](#strategy-5-build-internal-brand-advocates)
+- [Speaking and Sharing Guidelines](#speaking-and-sharing-guidelines)
+- [Implementation Roadmap](#implementation-roadmap)
+
 This guide provides concrete strategies to build employer branding that attracts developers at scale. You'll find actionable frameworks, code examples for measuring brand equity, and systems you can implement immediately.
 
 ## Understanding Employer Brand in a Remote Context

@@ -18,6 +18,23 @@ voice-checked: true
 
 The lifestyle appeals to many developers, but packing for indefinite travel while maintaining productivity requires deliberate choices. This guide covers the practical essentials developers need when working from anywhere, focusing on items that genuinely impact your ability to code, debug, and deploy regardless of location.
 
+## Table of Contents
+
+- [The Core Tech Kit](#the-core-tech-kit)
+- [Software and Development Environment](#software-and-development-environment)
+- [Destination-Specific Considerations](#destination-specific-considerations)
+- [Security Essentials](#security-essentials)
+- [Workflow Tools That Travel Well](#workflow-tools-that-travel-well)
+- [Workspace Comfort](#workspace-comfort)
+- [What to Skip](#what-to-skip)
+- [Building Your List](#building-your-list)
+- [Packing List by Trip Duration and Region](#packing-list-by-trip-duration-and-region)
+- [Weight and Space Optimization](#weight-and-space-optimization)
+- [Internet Connectivity Reliability Assessment](#internet-connectivity-reliability-assessment)
+- [Time Zone Management Tools and Practices](#time-zone-management-tools-and-practices)
+- [Productivity Tracking While Traveling](#productivity-tracking-while-traveling)
+- [Health and Wellness While Traveling](#health-and-wellness-while-traveling)
+
 ## The Core Tech Kit
 
 ### Laptop and Accessories
@@ -501,10 +518,9 @@ Nutrition:
 ## Related Articles
 
 - [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
-- [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
-- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
-- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-
+- [How to Network as a Digital Nomad Developer](/remote-work-tools/how-to-network-as-a-digital-nomad-developer/)
+- [Nomad Friend Finding Tips Guide 2026](/remote-work-tools/nomad-friend-finding-tips-guide-2026/)
+- [Digital Nomad Mastermind Groups Guide 2026](/remote-work-tools/digital-nomad-mastermind-groups-guide-2026/)
+- [How to Combat Loneliness as a Digital Nomad](/remote-work-tools/how-to-combat-loneliness-as-a-digital-nomad/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

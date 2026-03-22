@@ -17,6 +17,34 @@ tags: [remote-work-tools]
 {% raw %}
 Transition gradually over seven phases: audit your current meeting load, identify replaceable meetings (standups and status updates first), implement async standups with a structured template, add async decision documentation, set explicit response-time expectations, move code reviews to PR-based async workflows, then reduce remaining meetings incrementally. This phased approach avoids the trust breakdowns and silent reversions that happen when teams try to go fully async overnight. Most teams see measurable improvements in deep work hours within four to six weeks.
 
+## Table of Contents
+
+- [Understanding the Shift](#understanding-the-shift)
+- [Phase 1: Audit Your Current Meeting Load](#phase-1-audit-your-current-meeting-load)
+- [Meeting Audit - Week of [Date]](#meeting-audit-week-of-date)
+- [Phase 2: Identify Replaceable Meetings](#phase-2-identify-replaceable-meetings)
+- [Phase 3: Implement Async Standups](#phase-3-implement-async-standups)
+- [Phase 4: Add Async Decision Documentation](#phase-4-add-async-decision-documentation)
+- [Architecture Decision Log](#architecture-decision-log)
+- [Phase 5: Establish Response Time Expectations](#phase-5-establish-response-time-expectations)
+- [Phase 6: Introduce Async Code Reviews](#phase-6-introduce-async-code-reviews)
+- [Description](#description)
+- [Type of Change](#type-of-change)
+- [Testing Performed](#testing-performed)
+- [Checklist](#checklist)
+- [Phase 7: Gradual Reduction](#phase-7-gradual-reduction)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Success](#measuring-success)
+- [Selecting Tools for Your Async Workflow](#selecting-tools-for-your-async-workflow)
+- [Template Examples You Can Adopt](#template-examples-you-can-adopt)
+- [Week of [Date] - Team Status](#week-of-date-team-status)
+- [RFC: Adopt TypeScript for Frontend Codebase](#rfc-adopt-typescript-for-frontend-codebase)
+- [Building Async Review Culture](#building-async-review-culture)
+- [Code Review Response Times](#code-review-response-times)
+- [Onboarding New Team Members Async](#onboarding-new-team-members-async)
+- [Measuring Async Transition Success](#measuring-async-transition-success)
+- [Handling the Timezone Problem at Scale](#handling-the-timezone-problem-at-scale)
+
 ## Understanding the Shift
 
 Synchronous meetings consume blocks of time simultaneously from all participants. When a team holds multiple daily standups, code reviews, and status meetings, developers lose deep work time that requires uninterrupted concentration. Async updates solve this by letting team members consume and produce information on their own schedules.
@@ -382,11 +410,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
-- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
-- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
-- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
-
+- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -323,9 +323,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
 - [Shared Inbox Tool for a 4 Person Remote Customer Success](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
-- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
-- [macOS](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
+- [Best Two-Factor Authentication Setup for Remote Team Shared](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
 - [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
-
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

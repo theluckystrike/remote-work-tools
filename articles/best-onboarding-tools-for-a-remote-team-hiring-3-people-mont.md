@@ -27,6 +27,17 @@ voice-checked: true
 
 When your remote team brings in three new hires every month, manual onboarding processes quickly become a bottleneck. Each new team member needs access to dozens of tools, access to multiple repositories, orientation materials, and mentorship pairing. Automating this workflow saves hours of repetitive work and ensures consistency across hires.
 
+## Table of Contents
+
+- [The Core Onboarding Pipeline](#the-core-onboarding-pipeline)
+- [Notion: Centralized Knowledge Base with Access Control](#notion-centralized-knowledge-base-with-access-control)
+- [Environment Setup](#environment-setup)
+- [GitHub: Automating Repository Access](#github-automating-repository-access)
+- [Slack: Structured Welcome Channels](#slack-structured-welcome-channels)
+- [Linear: Task Management Integration](#linear-task-management-integration)
+- [Combining Tools: an Unified Approach](#combining-tools-an-unified-approach)
+- [Evaluation Criteria for Your Team](#evaluation-criteria-for-your-team)
+
 This guide evaluates onboarding tools that handle the specific challenges of consistent, repeatable remote team scaling. The focus is on tools that integrate with developer workflows, support async documentation, and reduce coordination overhead.
 
 ## The Core Onboarding Pipeline

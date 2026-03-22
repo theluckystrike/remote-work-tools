@@ -32,6 +32,19 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 Choose CrowdStrike if you need lightweight agents for distributed laptops, or Microsoft Defender if you're already in the Microsoft 365 ecosystem. Endpoint detection and response tools are essential for remote teams needing visibility into distributed workstations—traditional network appliances cannot monitor remote devices, so EDR agents must be installed directly on laptops. This comparison evaluates EDR solutions based on resource footprint, API accessibility, developer experience, and pricing for distributed engineering teams.
 
+## Table of Contents
+
+- [What Remote Teams Actually Need from EDR](#what-remote-teams-actually-need-from-edr)
+- [Tool Comparison](#tool-comparison)
+- [Deployment Considerations for Remote Work](#deployment-considerations-for-remote-work)
+- [Making Your Decision](#making-your-decision)
+- [Detailed Pricing and TCO Analysis](#detailed-pricing-and-tco-analysis)
+- [Feature Comparison Matrix (Detailed)](#feature-comparison-matrix-detailed)
+- [Performance Impact on Developer Machines](#performance-impact-on-developer-machines)
+- [Deployment at Scale: Integration Examples](#deployment-at-scale-integration-examples)
+- [Decision Framework for Remote Teams](#decision-framework-for-remote-teams)
+- [Common Implementation Mistakes](#common-implementation-mistakes)
+
 ## What Remote Teams Actually Need from EDR
 
 Remote engineering teams have distinct requirements that differ from enterprise security stacks. You need lightweight agents that won't drain battery on developer laptops during travel. You need visibility without requiring constant VPN connections. You need API access so you can query detection data from your existing monitoring infrastructure.
@@ -387,10 +400,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
-- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
-- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
+- [Productboard vs Aha for Remote Product Management](/remote-work-tools/productboard-vs-aha-for-remote-product-management/)
+- [Clio API authentication](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 - [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
-
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

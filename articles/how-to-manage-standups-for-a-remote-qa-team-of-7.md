@@ -32,6 +32,34 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 A 7-person remote QA team needs 10-15 minute standups that balance sync collaboration with async work across time zones, rotating meeting times quarterly. Split async standup posts in Slack with sync meetings only for blockers, pair testing coordination, or complex discussions. This guide covers standup formats, schedule templates, and async alternatives for remote QA coordination.
 
+## Table of Contents
+
+- [Why Team Size Matters for Standup Structure](#why-team-size-matters-for-standup-structure)
+- [Structuring Your Standup Around Blockers and Priorities](#structuring-your-standup-around-blockers-and-priorities)
+- [Time Zone Rotation Strategy](#time-zone-rotation-strategy)
+- [Asynchronous Standup Alternatives](#asynchronous-standup-alternatives)
+- [Automating Standup Preparation](#automating-standup-preparation)
+- [Handling Conflict and Disagreement](#handling-conflict-and-disagreement)
+- [Measuring Standup Effectiveness](#measuring-standup-effectiveness)
+- [Sample Standup Rotation Schedule](#sample-standup-rotation-schedule)
+- [Current Rotation](#current-rotation)
+- [Host Responsibilities](#host-responsibilities)
+- [Async Fallback Protocol](#async-fallback-protocol)
+- [Tools for Managing QA Team Standups](#tools-for-managing-qa-team-standups)
+- [Real Standup Transcripts (QA-Specific)](#real-standup-transcripts-qa-specific)
+- [Metrics for QA Team Standups](#metrics-for-qa-team-standups)
+- [Weekly Measurements](#weekly-measurements)
+- [Monthly Measurements](#monthly-measurements)
+- [Red Flags](#red-flags)
+- [Improvements to Try](#improvements-to-try)
+- [Template: Standup Rotation Schedule for QA Team](#template-standup-rotation-schedule-for-qa-team)
+- [Host Schedule](#host-schedule)
+- [Host Checklist](#host-checklist)
+- [Standup Format (10 minutes max)](#standup-format-10-minutes-max)
+- [If <4 Team Members Can Attend](#if-4-team-members-can-attend)
+- [Standups with Distributed QA Specialists](#standups-with-distributed-qa-specialists)
+- [When to Kill Standup](#when-to-kill-standup)
+
 ## Why Team Size Matters for Standup Structure
 
 A team of 7 occupies a sweet spot in remote QA operations. You likely have specialists covering different test domains—functional testing, API testing, automation, performance—and your team probably spans 2-3 time zones. Too few people and you lack diversity in perspectives; too many and standups become status meetings that drain productivity.
@@ -414,11 +442,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
-- [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)
-- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
-- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
-- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
-
+- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [How to Run Remote Engineering Standups That Work](/remote-work-tools/how-to-run-remote-engineering-standups/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

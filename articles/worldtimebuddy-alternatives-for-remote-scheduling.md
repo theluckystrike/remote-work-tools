@@ -17,6 +17,17 @@ tags: [remote-work-tools, remote-work]
 
 The best WorldTimeBuddy alternatives for remote scheduling are Every Time Zone for a faster visual reference, Timezone.io for team availability dashboards, Cronofy for calendar-native scheduling with automatic timezone handling across Google Calendar and Outlook, and Slack's built-in timezone features for teams already embedded in that platform. For developers building custom tooling, the World Clock API paired with Luxon provides full programmatic control over timezone data and overlap calculations.
 
+## Table of Contents
+
+- [When WorldTimeBuddy Falls Short](#when-worldtimebuddy-falls-short)
+- [Every Time Zone: The Minimalist Alternative](#every-time-zone-the-minimalist-alternative)
+- [Timezone.io: Team Availability Tracking](#timezoneio-team-availability-tracking)
+- [Cronofy: Calendar-Native Scheduling](#cronofy-calendar-native-scheduling)
+- [Slack Native Solutions](#slack-native-solutions)
+- [World Clock API: Programmatic Timezone Data](#world-clock-api-programmatic-timezone-data)
+- [Luxon: Modern Timezone Library](#luxon-modern-timezone-library)
+- [Selecting Your Alternative](#selecting-your-alternative)
+
 ## When WorldTimeBuddy Falls Short
 
 Teams requiring more than occasional scheduling quickly outgrow WorldTimeBuddy's capabilities. Common scenarios include:

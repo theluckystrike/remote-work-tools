@@ -33,6 +33,21 @@ tags: [remote-work-tools, productivity]
 
 The fastest Google Meet productivity wins are keyboard shortcuts (Ctrl+D to mute, Ctrl+E for camera) and Google Apps Script automations that handle attendance tracking and recording organization for you. Beyond those essentials, this guide covers Calendar API integrations, custom Chrome extensions, noise cancellation tuning, and presentation optimization techniques for developers who spend significant time in meetings.
 
+## Table of Contents
+
+- [Essential Keyboard Shortcuts](#essential-keyboard-shortcuts)
+- [Meeting Automation with Google Apps Script](#meeting-automation-with-google-apps-script)
+- [Browser Extension Development](#browser-extension-development)
+- [Calendar API Integration](#calendar-api-integration)
+- [Noise Cancellation Configuration](#noise-cancellation-configuration)
+- [Presentation Optimization](#presentation-optimization)
+- [Recording Workflows](#recording-workflows)
+- [Meeting Etiquette for Developers](#meeting-etiquette-for-developers)
+- [Advanced: Building a Meet Dashboard](#advanced-building-a-meet-dashboard)
+- [Managing Meeting Load for Distributed Teams](#managing-meeting-load-for-distributed-teams)
+- [Google Meet vs. Competing Tools for Developer Teams](#google-meet-vs-competing-tools-for-developer-teams)
+- [Reducing Meeting Fatigue with Meet Settings](#reducing-meeting-fatigue-with-meet-settings)
+
 ## Essential Keyboard Shortcuts
 
 Memorizing keyboard shortcuts eliminates the need to reach for your mouse during calls. These shortcuts work in the browser and desktop app:
@@ -297,11 +312,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Google Meet Echo When Using External Speakers Fix (2026)](/remote-work-tools/google-meet-echo-when-using-external-speakers-fix-2026/)
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
+- [Migrating from Google Forms to Typeform for Remote Team](/remote-work-tools/migrating-from-google-forms-to-typeform-for-remote-team-surv/)
+- [Virtual Meeting Etiquette Best Practices: A Developer Guide](/remote-work-tools/virtual-meeting-etiquette-best-practices/)
+- [Jitsi Meet vs Zoom: Privacy Comparison for Developers](/remote-work-tools/jitsi-meet-vs-zoom-privacy-comparison/)
 - [Productivity Tips for Digital Nomads on the Road](/remote-work-tools/productivity-tips-for-digital-nomads-on-the-road/)
-- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
-- [Cheapest Video Call Tool for Weekly 50 Person All Hands](/remote-work-tools/cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/)
-- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

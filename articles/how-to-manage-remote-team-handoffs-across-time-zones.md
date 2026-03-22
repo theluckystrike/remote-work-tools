@@ -31,6 +31,25 @@ tags: [remote-work-tools, remote-work]
 
 Manage remote team handoffs across time zones by implementing structured handoff documents (covering what was completed, what remains, context for the next engineer, and verification steps), scheduling handover conversations during calculated overlap windows, and automating status capture through commit message conventions and bot-assisted checks. These five patterns--structured documents, timezone-aware scheduling, automated status capture, shared async norms, and handing over at natural boundaries--prevent context decay without adding more meetings to your calendar.
 
+## Table of Contents
+
+- [The Core Problem: Context Decay](#the-core-problem-context-decay)
+- [Pattern 1: Structured Handoff Documents](#pattern-1-structured-handoff-documents)
+- [Handoff: [Feature/Ticket Name]](#handoff-featureticket-name)
+- [Pattern 2: Time Zone-Aware Scheduling](#pattern-2-time-zone-aware-scheduling)
+- [Pattern 3: Automate Status Capture](#pattern-3-automate-status-capture)
+- [Handoff Notes](#handoff-notes)
+- [Pattern 4: Shared Async Communication Norms](#pattern-4-shared-async-communication-norms)
+- [Pattern 5: Hand over at Natural Boundaries](#pattern-5-hand-over-at-natural-boundaries)
+- [Mid-Task Handoff](#mid-task-handoff)
+- [Building Your Own System](#building-your-own-system)
+- [Implementation Roadmap: Starting with Small Wins](#implementation-roadmap-starting-with-small-wins)
+- [Handoff Checklist](#handoff-checklist)
+- [Real Cost of Handoff Failure](#real-cost-of-handoff-failure)
+- [Tools and Services for Handoff Management](#tools-and-services-for-handoff-management)
+- [Measuring Handoff Success](#measuring-handoff-success)
+- [Common Pitfalls and How to Avoid Them](#common-pitfalls-and-how-to-avoid-them)
+
 ## The Core Problem: Context Decay
 
 Every handover carries context—the reasoning behind decisions, the gotchas discovered during implementation, the trade-offs considered. In co-located teams, this context transfers through hallway conversations and immediate feedback. Across time zones, you have hours or even days between interactions. Context decays rapidly without explicit preservation.

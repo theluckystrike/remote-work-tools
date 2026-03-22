@@ -17,6 +17,18 @@ intent-checked: true
 
 When your engineering team spans San Francisco to Singapore, timezone confusion kills productivity. Someone schedules a meeting at "9am PT" forgetting it's 1am for your Tokyo engineer. Minutes wasted on timezone math add up—a team of 10 spanning 4 timezones spends 50+ hours per quarter on timezone coordination alone. This guide compares tools built specifically for this problem: World Time Buddy ($40-480/year), Every Time Zone (free), Timezone.io ($5-50/month), and Calendly Pro ($20/month). Each tool takes different approaches—visual grids, converted time displays, async-first scheduling, or integration with existing calendar systems. Understanding their strengths and limitations helps you build meeting practices that respect everyone's sleep and optimize for actual overlap times.
 
+## Table of Contents
+
+- [Best Practices for Distributed Team Scheduling](#best-practices-for-distributed-team-scheduling)
+- [The Cost of Timezone Confusion](#the-cost-of-timezone-confusion)
+- [World Time Buddy: Visual Timezone Grid](#world-time-buddy-visual-timezone-grid)
+- [Every Time Zone: Lightweight and Free](#every-time-zone-lightweight-and-free)
+- [Timezone.io: API-Driven and Lightweight](#timezoneio-api-driven-and-lightweight)
+- [Calendly Pro: Scheduling-First Approach](#calendly-pro-scheduling-first-approach)
+- [Comparison Table](#comparison-table)
+- [Recommended Workflows by Team Structure](#recommended-workflows-by-team-structure)
+- [Best Practices for Distributed Team Scheduling](#best-practices-for-distributed-team-scheduling)
+
 ## Best Practices for Distributed Team Scheduling
 
 1.
@@ -407,9 +419,8 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 ## Related Articles
 
 - [Time Zone Management Tools for Distributed Teams](/remote-work-tools/time-zone-management-tools-distributed-teams/)
-- [Best Time Zone Management Tools for Global Teams: A](/remote-work-tools/best-time-zone-management-tools-for-global-teams/)
+- [Best Time Zone Management Tools for Global Teams](/remote-work-tools/best-time-zone-management-tools-for-global-teams/)
+- [Best Timezone Management Tool for Distributed Teams](/remote-work-tools/best-timezone-management-tool-for-distributed-teams-spanning-four-or-more-continents-2026/)
 - [Best Time Zone Management Tools for Nomads: A Developer](/remote-work-tools/best-time-zone-management-tools-for-nomads/)
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
-- [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-
+- [Remote Work Time Zone Overlap Calculator Tools 2026](/remote-work-tools/remote-work-time-zone-overlap-calculator-tools-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

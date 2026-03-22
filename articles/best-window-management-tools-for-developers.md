@@ -28,6 +28,21 @@ voice-checked: true
 
 Effective window management transforms how developers work, reducing the friction between your workflow and your desktop environment. Whether you're juggling multiple projects, analyzing code across several screens, or simply trying to maintain sanity while debugging, the right window management tools save clicks, keyboard presses, and mental context switches. This guide covers the best window management tools for developers, focusing on utilities that integrate into development workflows.
 
+## Table of Contents
+
+- [Why Window Management Matters for Developers](#why-window-management-matters-for-developers)
+- [Rectangle: macOS Window Management](#rectangle-macos-window-management)
+- [PowerToys: Windows 10 and 11](#powertoys-windows-10-and-11)
+- [yabai: macOS Window Management for Power Users](#yabai-macos-window-management-for-power-users)
+- [KDE Plasma: Built-in Window Management](#kde-plasma-built-in-window-management)
+- [Keyboard-Driven Workflow Tips](#keyboard-driven-workflow-tips)
+- [Window Management Pricing and Installation Comparison](#window-management-pricing-and-installation-comparison)
+- [Workflow Template: Development Layout Configuration](#workflow-template-development-layout-configuration)
+- [Time Savings Measurement](#time-savings-measurement)
+- [Advanced Configuration Examples](#advanced-configuration-examples)
+- [Productivity Gains Beyond Window Management](#productivity-gains-beyond-window-management)
+- [Choosing the Right Tool](#choosing-the-right-tool)
+
 ## Why Window Management Matters for Developers
 
 Developers typically work with more windows than most knowledge workers. Your typical session might include a code editor, terminal windows, browser tabs for documentation and testing, a database client, and communication tools. Without proper organization, windows pile up, overlap, and consume valuable screen real estate.

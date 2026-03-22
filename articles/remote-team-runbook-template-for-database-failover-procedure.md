@@ -18,6 +18,15 @@ voice-checked: true
 
 When your primary database instance fails at 3 AM while your DBA is eight time zones away, the difference between a 15-minute recovery and a multi-hour outage often comes down to having a well-practiced failover runbook. Database failures don't wait for business hours, and distributed DevOps teams can't rely on synchronous handoffs during critical incidents. This guide provides a runbook template that remote engineering teams can adapt for handling database failovers across distributed staff.
 
+## Table of Contents
+
+- [The Challenge of Database Failover in Distributed Teams](#the-challenge-of-database-failover-in-distributed-teams)
+- [Pre-Failover Preparation Checklist](#pre-failover-preparation-checklist)
+- [The Database Failover Runbook](#the-database-failover-runbook)
+- [Failover Decision Request](#failover-decision-request)
+- [Database Failover Incident Report](#database-failover-incident-report)
+- [Key Principles for Remote Team Database Failovers](#key-principles-for-remote-team-database-failovers)
+
 ## The Challenge of Database Failover in Distributed Teams
 
 Traditional database operations assume that the person with the most knowledge about the system is available when problems arise. In distributed teams spanning multiple time zones, this assumption breaks down. A failover that requires senior DBA approval can stall for hours simply because the right person is sleeping.
@@ -323,11 +332,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Runbook Template for Deploying Hotfix to](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
-- [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
-- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
-- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
-- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
-
+- [Remote Team Runbook Template for Deploying Hotfix](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
+- [How to Build a Remote Team Runbook Library 2026](/remote-work-tools/how-to-build-remote-team-runbook-library-2026/---)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

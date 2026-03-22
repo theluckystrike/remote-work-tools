@@ -15,6 +15,13 @@ voice-checked: true
 
 Remote engineering teams that outgrow GitBook face a real problem: documentation is not a glamorous problem to solve, but bad documentation kills productivity faster than almost anything else. When engineers across time zones cannot find API specs, onboarding guides, or architecture decisions, they interrupt teammates — exactly what async-first teams are trying to avoid.
 
+## Table of Contents
+
+- [Why Remote Teams Outgrow GitBook](#why-remote-teams-outgrow-gitbook)
+- [The Alternatives, Ranked by Use Case](#the-alternatives-ranked-by-use-case)
+- [Decision Framework: Which Alternative Fits Your Team](#decision-framework-which-alternative-fits-your-team)
+- [Making the Transition](#making-the-transition)
+
 GitBook works well for many teams, but it has meaningful gaps: limited self-hosting, slow search on large wikis, and friction when engineers want to write docs as code in the same pull request as the feature. This guide covers the strongest alternatives, who each fits best, and how to set them up for a remote engineering context.
 
 ## Why Remote Teams Outgrow GitBook
@@ -173,10 +180,9 @@ Docusaurus and MkDocs require familiarity with Markdown and basic command-line t
 
 ## Related Articles
 
-- [Best Virtual Happy Hour Alternative for Remote Teams Who](/remote-work-tools/best-virtual-happy-hour-alternative-for-remote-teams-who-hat/)
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
+- [Best Documentation Linting Tool for Remote Teams](/remote-work-tools/best-documentation-linting-tool-for-remote-teams-enforcing-w/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [Best Knowledge Base Search Tool for Remote Teams with Docs](/remote-work-tools/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
+- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
 - [Best Chat Platforms for Remote Engineering Teams](/remote-work-tools/best-chat-platforms-remote-engineering-teams/)
-- [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
-- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

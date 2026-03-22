@@ -17,6 +17,24 @@ intent-checked: true
 
 A time audit is not about tracking every second of your day. It is about understanding where your hours actually go and identifying patterns that sabotage your productivity. For remote workers, this becomes critical because the boundary between work and personal time blurs easily, and without the structure of an office environment, inefficiencies compound silently.
 
+## Table of Contents
+
+- [Why Remote Workers Need a Time Audit](#why-remote-workers-need-a-time-audit)
+- [Step 1: Collect Raw Time Data](#step-1-collect-raw-time-data)
+- [Understanding What a Time Audit Actually Measures](#understanding-what-a-time-audit-actually-measures)
+- [Step 2: Categorize Your Activities](#step-2-categorize-your-activities)
+- [Step 3: Identify Patterns and Waste](#step-3-identify-patterns-and-waste)
+- [Step 4: Implement Changes and Re-Measure](#step-4-implement-changes-and-re-measure)
+- [A Minimal Audit Without Specialized Tools](#a-minimal-audit-without-specialized-tools)
+- [Advanced Analysis: Finding Hidden Patterns](#advanced-analysis-finding-hidden-patterns)
+- [Different Audit Approaches for Different Goals](#different-audit-approaches-for-different-goals)
+- [Creating a Time Audit Report](#creating-a-time-audit-report)
+- [Current Distribution](#current-distribution)
+- [Key Findings](#key-findings)
+- [Implemented Changes](#implemented-changes)
+- [Measurable Goals](#measurable-goals)
+- [From Audit to System: Building Sustainable Time Management](#from-audit-to-system-building-sustainable-time-management)
+
 This guide walks you through performing a practical time audit using tools developers and power users already have at their disposal. No expensive subscriptions, no complex project management platforms. Just data, scripts, and practical recommendations.
 
 ## Why Remote Workers Need a Time Audit
@@ -297,10 +315,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Response Time Expectations for Remote Workers: A](/remote-work-tools/response-time-expectations-for-remote-workers-guide/)
-- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 - [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 - [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
-- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
-
+- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

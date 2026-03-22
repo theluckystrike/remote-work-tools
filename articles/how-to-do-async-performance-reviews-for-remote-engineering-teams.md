@@ -18,6 +18,14 @@ voice-checked: true
 
 Performance reviews are one of the most challenging processes to run remotely. The traditional approach of gathering everyone in a room or scheduling a series of video calls doesn't scale well for distributed teams. Yet skipping performance reviews means losing critical opportunities for employee growth and team alignment.
 
+## Table of Contents
+
+- [Why Async Reviews Work Better for Engineering Teams](#why-async-reviews-work-better-for-engineering-teams)
+- [Prerequisites](#prerequisites)
+- [Best Practices for Remote Engineering Reviews](#best-practices-for-remote-engineering-reviews)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Troubleshooting](#troubleshooting)
+
 An async performance review process solves these challenges while actually producing better outcomes. When done right, async reviews give employees more time to reflect, reduce the stress of real-time conversations, and create a permanent record you can track over time.
 
 This guide covers the complete framework for running async performance reviews tailored specifically for remote engineering teams.

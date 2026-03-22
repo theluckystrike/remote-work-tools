@@ -17,6 +17,16 @@ voice-checked: true
 
 The best clipboard manager for developers is CopyQ for cross-platform use (Windows, Linux, macOS) thanks to its regex search, scripting engine, and CLI automation, or Clipy if you work exclusively on macOS and want a lightweight, free, open-source option. Both preserve code formatting and support keyboard-driven workflows. Below is a detailed comparison of the top options with installation steps, configuration examples, and practical use cases.
 
+## Table of Contents
+
+- [Why Developers Need a Clipboard Manager](#why-developers-need-a-clipboard-manager)
+- [Essential Features to Look For](#essential-features-to-look-for)
+- [Top Clipboard Managers for Developers](#top-clipboard-managers-for-developers)
+- [Pricing Comparison](#pricing-comparison)
+- [Pro Tips for Developer Workflows](#pro-tips-for-developer-workflows)
+- [Making the Right Choice](#making-the-right-choice)
+- [Related Reading](#related-reading)
+
 ## Why Developers Need a Clipboard Manager
 
 The standard operating system clipboard holds only one item at a time. When you're debugging code, writing documentation, or configuring environments, you frequently need to reference multiple pieces of text simultaneously. A clipboard manager preserves your copy history, allowing you to paste previous items without re-copying them.

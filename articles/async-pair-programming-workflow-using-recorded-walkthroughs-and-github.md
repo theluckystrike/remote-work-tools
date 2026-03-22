@@ -17,6 +17,25 @@ voice-checked: true
 
 Pair programming has long been celebrated as a powerful technique for knowledge sharing, code quality improvement, and team cohesion. But for distributed teams spread across time zones, traditional synchronous pair programming sessions can feel impossible to schedule. Enter async pair programming—a methodology that captures the benefits of pairing while respecting everyone's timezone, focus time, and work style.
 
+## Table of Contents
+
+- [Why Async Pair Programming Matters](#why-async-pair-programming-matters)
+- [Setting Up Your Async Pair Programming Framework](#setting-up-your-async-pair-programming-framework)
+- [Step 1: Driver Creates the Implementation Walkthrough](#step-1-driver-creates-the-implementation-walkthrough)
+- [Step 2: Creating Effective PR Descriptions for Async Review](#step-2-creating-effective-pr-descriptions-for-async-review)
+- [Overview](#overview)
+- [Changes Made](#changes-made)
+- [Approach](#approach)
+- [Recording](#recording)
+- [Questions for Reviewer](#questions-for-reviewer)
+- [Testing](#testing)
+- [Step 3: Navigator Reviews and Provides Feedback](#step-3-navigator-reviews-and-provides-feedback)
+- [Review Summary](#review-summary)
+- [Step 4: Addressing Feedback and Iterating](#step-4-addressing-feedback-and-iterating)
+- [Integrating with GitHub Features](#integrating-with-github-features)
+- [Best Practices for Success](#best-practices-for-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+
 This guide walks you through implementing an async pair programming workflow using screen recordings and GitHub that maintains the collaborative spirit of traditional pairing while eliminating the scheduling headaches.
 
 ## Why Async Pair Programming Matters
@@ -263,11 +282,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Run Async Sprint Demos with Recorded Walkthroughs](/remote-work-tools/how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/)
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
-- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
 - [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
-
+- [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
+- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
+- [How to Set Up Remote Pair Programming Sessions in 2026](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-2026/)
+- [How to Set Up Remote Pair Programming Workflow Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-workflow-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

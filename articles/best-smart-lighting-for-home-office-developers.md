@@ -18,6 +18,14 @@ voice-checked: true
 
 As developers, we spend hours in front of screens in spaces that often receive poor natural light. The right smart lighting setup transforms your home office from a dim cave into a productivity-enhancing environment that adapts to your workflow throughout the day.
 
+## Table of Contents
+
+- [Why Smart Lighting Matters for Developers](#why-smart-lighting-matters-for-developers)
+- [Top Smart Lighting Options with Pricing](#top-smart-lighting-options-with-pricing)
+- [Integration Examples for Developers](#integration-examples-for-developers)
+- [Practical Implementation Strategy](#practical-implementation-strategy)
+- [Budget Tiers and Expected ROI](#budget-tiers-and-expected-roi)
+
 ## Why Smart Lighting Matters for Developers
 
 Your office lighting affects more than just visibility. Poor lighting causes eye strain, impacts circadian rhythms, and can drain your energy by midday. Smart lighting addresses these issues by allowing precise control over color temperature, brightness, and automation triggers that align with your work patterns.

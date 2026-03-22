@@ -33,6 +33,20 @@ tags: [remote-work-tools, remote-work]
 
 Run async performance reviews by structuring a two-week cycle: self-reviews in days 1-5, peer feedback in days 6-7, manager synthesis in days 8-10, and employee response in days 11-14. Use structured templates that capture technical contributions, code review activity, and collaboration rather than generic forms. Automate phase transitions and reminders through Slack or your project management tool so nothing stalls across time zones.
 
+## Table of Contents
+
+- [Why Async Performance Reviews Work Better for Distributed Teams](#why-async-performance-reviews-work-better-for-distributed-teams)
+- [Setting Up Your Async Review Infrastructure](#setting-up-your-async-review-infrastructure)
+- [Review Status Board (Notion/Jira Template)](#review-status-board-notionjira-template)
+- [Creating Effective Review Templates](#creating-effective-review-templates)
+- [Self-Review Template](#self-review-template)
+- [Peer Feedback for [Engineer Name]](#peer-feedback-for-engineer-name)
+- [Running the Review Cycle](#running-the-review-cycle)
+- [Handling Difficult Conversations](#handling-difficult-conversations)
+- [Escalation Protocol](#escalation-protocol)
+- [Measuring Review Effectiveness](#measuring-review-effectiveness)
+- [Post-Review Survey](#post-review-survey)
+
 ## Why Async Performance Reviews Work Better for Distributed Teams
 
 Traditional synchronous performance reviews create real problems in distributed engineering teams. Scheduling an one-hour conversation across three time zones means someone always attends at an inconvenient hour. Engineers in different regions receive different quality conversations depending on when they're scheduled. And the pressure of a live discussion often leads to surface-level answers rather than the reflective thinking that produces useful feedback.

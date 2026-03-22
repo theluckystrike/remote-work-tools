@@ -18,6 +18,16 @@ voice-checked: true
 
 Remote client workshops present unique challenges that in-person sessions never address. You cannot lean over a whiteboard together, cannot point at a sticky note without talking over someone, and cannot read the room when everyone is a small video thumbnail. Miro boards solve these problems when you approach them with the right strategy.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Advanced Facilitation Techniques for Remote Workshops](#advanced-facilitation-techniques-for-remote-workshops)
+- [Key Decisions Made](#key-decisions-made)
+- [Action Items (with owners and deadlines)](#action-items-with-owners-and-deadlines)
+- [Open Questions](#open-questions)
+- [Next Steps](#next-steps)
+- [Troubleshooting](#troubleshooting)
+
 This guide walks through setting up and helping productive remote client workshops using Miro, with practical templates you can adapt immediately.
 
 ## Prerequisites
@@ -404,9 +414,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
 - [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
-- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
-- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
-- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
-
+- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
+- [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
+- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

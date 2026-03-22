@@ -18,6 +18,16 @@ voice-checked: true
 
 Create audit-ready compliance documentation by building a data access control matrix tracking who has access to what systems, implementing communication logging for regulated systems, maintaining evidence retention processes, and documenting your approval workflows for financial and security changes. Use the provided templates to address SOX requirements (internal control documentation, change logs, approval trails) and ISO 27001 requirements (asset inventory, access controls, incident logs) adapted for your distributed workforce structure.
 
+## Table of Contents
+
+- [Understanding Compliance Requirements for Remote Teams](#understanding-compliance-requirements-for-remote-teams)
+- [Building Your Compliance Documentation Checklist](#building-your-compliance-documentation-checklist)
+- [Compliance Training Tracker](#compliance-training-tracker)
+- [Automated Compliance Verification](#automated-compliance-verification)
+- [Prerequisites](#prerequisites)
+- [Best Practices for Remote Compliance Documentation](#best-practices-for-remote-compliance-documentation)
+- [Troubleshooting](#troubleshooting)
+
 ## Understanding Compliance Requirements for Remote Teams
 
 When your team operates across multiple locations, compliance documentation must account for data access controls, communication logging, and evidence retention that satisfy auditors working with limited physical oversight.
@@ -358,11 +368,10 @@ SOX does not specify a minimum frequency, but quarterly reviews are the accepted
 
 ## Related Articles
 
+- [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
+- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
-- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
-- [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
-- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
-
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

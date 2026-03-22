@@ -33,6 +33,15 @@ tags: [remote-work-tools]
 
 Use rotating meeting slots instead of forcing one global time, combine async-first celebrations (music playlists, recipe sharing) with optional real-time events, and respect diverse cultural holidays instead of assuming a single celebration calendar. This guide shows you how to create inclusive holiday experiences that honor different time zones and cultural backgrounds while building team connection.
 
+## Table of Contents
+
+- [Understanding the Timezone Challenge](#understanding-the-timezone-challenge)
+- [Practical Approaches for Global Teams](#practical-approaches-for-global-teams)
+- [Cultural Inclusivity in Celebration Design](#cultural-inclusivity-in-celebration-design)
+- [Technical Tools for Coordination](#technical-tools-for-coordination)
+- [Making It Personal: The Human Element](#making-it-personal-the-human-element)
+- [Planning Timeline](#planning-timeline)
+
 ## Understanding the Timezone Challenge
 
 When your team operates across multiple regions, finding a meeting time that works for everyone becomes a mathematical puzzle. A session at 9 AM in New York translates to 2 PM in London, 10 PM in Tokyo, and midnight in Sydney. These gaps aren't just inconvenient—they actively exclude team members from participation.

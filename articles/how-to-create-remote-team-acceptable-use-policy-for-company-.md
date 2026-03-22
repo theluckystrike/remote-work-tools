@@ -32,6 +32,27 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 Create a remote-specific acceptable use policy covering personal software installation, shared family networks, and approved cloud storage to protect company data while respecting employee privacy. Employees working from home often use the same machines for personal and professional tasks, creating security risks that traditional office policies cannot address. An AUP designed for remote teams establishes clear boundaries, protects sensitive data, and ensures everyone understands their responsibilities. This guide provides a practical template with concrete examples you can adapt for your organization immediately.
 
+## Table of Contents
+
+- [Why Remote Device Policies Differ from Office Policies](#why-remote-device-policies-differ-from-office-policies)
+- [Core Components of an Effective AUP](#core-components-of-an-effective-aup)
+- [Device Assignment](#device-assignment)
+- [Permitted Uses](#permitted-uses)
+- [Prohibited Uses](#prohibited-uses)
+- [Network Security Requirements](#network-security-requirements)
+- [Technical Implementation Examples](#technical-implementation-examples)
+- [Data Handling and Privacy](#data-handling-and-privacy)
+- [Data Handling Guidelines](#data-handling-guidelines)
+- [Incident Response Procedures](#incident-response-procedures)
+- [Security Incident Response](#security-incident-response)
+- [Enforcement and Acknowledgment](#enforcement-and-acknowledgment)
+- [MDM Tools for Enforcing Your AUP](#mdm-tools-for-enforcing-your-aup)
+- [Handling Personal Device Exceptions (BYOD)](#handling-personal-device-exceptions-byod)
+- [Practical Policy Review Checklist](#practical-policy-review-checklist)
+- [Policy Review Cadence](#policy-review-cadence)
+- [Making Policy Accessible](#making-policy-accessible)
+- [Common Mistakes When Writing Remote AUPs](#common-mistakes-when-writing-remote-aups)
+
 ## Why Remote Device Policies Differ from Office Policies
 
 In a traditional office environment, IT teams have direct control over hardware, network access, and physical security. When employees take laptops home, that control disappears. A remote team's acceptable use policy must account for:
@@ -289,9 +310,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
 - [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
-- [How to Create Remote Work Nanny Cam Policy That Respects](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
-- [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
+- [Best Endpoint Security Solution for Remote Employees](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
+- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
 - [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -33,6 +33,17 @@ tags: [remote-work-tools, comparison, remote-work]
 
 For a 30-person nonprofit remote team, choosing between Monday.com and Asana requires evaluating how each platform handles distributed collaboration, volunteer coordination, and budget constraints. Both tools serve similar purposes, but their underlying philosophies and feature sets create different user experiences. This comparison breaks down the practical differences for nonprofit teams operating with limited resources and distributed staff.
 
+## Table of Contents
+
+- [Platform Philosophy and Core Differences](#platform-philosophy-and-core-differences)
+- [Quick Comparison](#quick-comparison)
+- [Feature Comparison for Remote Nonprofit Teams](#feature-comparison-for-remote-nonprofit-teams)
+- [Pricing Analysis for 30-Person Teams](#pricing-analysis-for-30-person-teams)
+- [Remote Team Specific Features](#remote-team-specific-features)
+- [Implementation Considerations](#implementation-considerations)
+- [Decision Framework](#decision-framework)
+- [Practical Recommendation](#practical-recommendation)
+
 ## Platform Philosophy and Core Differences
 
 Monday.com operates as a work operating system (WorkOS) with a visual, board-based approach. Tasks appear as cards on customizable boards that teams can configure for different workflows. The platform emphasizes visual flexibility—teams can switch between board, list, calendar, and chart views without changing the underlying data structure.

@@ -17,6 +17,22 @@ tags: [remote-work-tools]
 
 Distributed tracing shows you where time goes across service boundaries. Jaeger collects OpenTelemetry spans and lets your team trace a request from API gateway through microservices to database. This guide deploys Jaeger all-in-one for development and a production-ready setup with Elasticsearch for persistence.
 
+## Table of Contents
+
+- [Development: Jaeger All-in-One](#development-jaeger-all-in-one)
+- [Production: Docker Compose with Elasticsearch](#production-docker-compose-with-elasticsearch)
+- [Instrumenting a Python Service](#instrumenting-a-python-service)
+- [Instrumenting a Node.js Service](#instrumenting-a-nodejs-service)
+- [Manual Span Creation](#manual-span-creation)
+- [Jaeger Query API for Automation](#jaeger-query-api-for-automation)
+- [Grafana Integration](#grafana-integration)
+- [Trace Sampling Configuration](#trace-sampling-configuration)
+- [Trace Retention and Index Lifecycle Management](#trace-retention-and-index-lifecycle-management)
+- [Adding Context Propagation Across Queues](#adding-context-propagation-across-queues)
+- [Kubernetes Deployment with Jaeger Operator](#kubernetes-deployment-with-jaeger-operator)
+- [Alerting on Trace Anomalies](#alerting-on-trace-anomalies)
+- [Correlating Traces with Logs](#correlating-traces-with-logs)
+
 ## Development: Jaeger All-in-One
 
 ```bash

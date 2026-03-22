@@ -28,6 +28,21 @@ voice-checked: true
 
 Remote teams face a unique challenge: without daily in-person interactions, how do you know everyone understands and supports the team's direction? Synchronous all-hands meetings create real-time alignment but drain productivity and exclude time-zone-constrained team members. An async strategy update cadence solves this by creating a structured, measurable approach to keeping remote teams aligned.
 
+## Table of Contents
+
+- [Why Async Strategy Updates Work for Alignment](#why-async-strategy-updates-work-for-alignment)
+- [Building Your Async Strategy Update Cadence](#building-your-async-strategy-update-cadence)
+- [Strategy Update: [Date]](#strategy-update-date)
+- [Measuring Alignment: Practical Approaches](#measuring-alignment-practical-approaches)
+- [Implementing the Cadence](#implementing-the-cadence)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Improvement Over Time](#measuring-improvement-over-time)
+- [Building a Measurement Dashboard](#building-a-measurement-dashboard)
+- [Real-World Alignment Failure Case Study](#real-world-alignment-failure-case-study)
+- [Advanced: Semantic Alignment Scoring](#advanced-semantic-alignment-scoring)
+- [Seasonal Alignment Patterns](#seasonal-alignment-patterns)
+- [Alignment vs. Agreement](#alignment-vs-agreement)
+
 This guide covers practical methods to measure remote team alignment using async strategy updates, with code examples and implementation frameworks you can apply immediately.
 
 ## Why Async Strategy Updates Work for Alignment

@@ -18,6 +18,19 @@ intent-checked: true
 
 Negotiating remote work before accepting a job offer is far easier than requesting it after joining. Most companies have flexibility they don't advertise, especially if you demonstrate clear value and practical arrangements. This guide provides conversation scripts, negotiation frameworks, and fallback positions that have worked for hundreds of remote workers securing work-from-home arrangements in traditionally office-based roles.
 
+## Table of Contents
+
+- [Why Remote Work Negotiation Matters](#why-remote-work-negotiation-matters)
+- [Pre-Offer Phase: Signal Your Preference Early](#pre-offer-phase-signal-your-preference-early)
+- [The Offer: Negotiation Timing and Approach](#the-offer-negotiation-timing-and-approach)
+- [Negotiation Frameworks](#negotiation-frameworks)
+- [Conversation Scripts by Scenario](#conversation-scripts-by-scenario)
+- [Email Scripts for Formal Negotiation](#email-scripts-for-formal-negotiation)
+- [Negotiation Red Flags](#negotiation-red-flags)
+- [When to Walk Away](#when-to-walk-away)
+- [Post-Offer: Getting It in Writing](#post-offer-getting-it-in-writing)
+- [First 90 Days: Proving Remote Success](#first-90-days-proving-remote-success)
+
 ## Why Remote Work Negotiation Matters
 
 The difference between "fully remote" and "office required" is often worth $10,000-$30,000 annually when you factor in commute costs, childcare, relocation expenses, and quality-of-life gains. Negotiating early, when companies are most flexible, is strategically sound. Once you're hired, the use reverses—most companies become rigid about location policies to maintain consistency across existing employees.
@@ -403,10 +416,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Work Job Search Strategies That Actually Work](/remote-work-tools/)
-- [Best Fully Remote Tech Jobs 2026](/remote-work-tools/)
-- [How to Manage Remote Team Across Time Zones](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
-- [Remote Work Company Culture Building Guide](/remote-work-tools/)
-
+- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

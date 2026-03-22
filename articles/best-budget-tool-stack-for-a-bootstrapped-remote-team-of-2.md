@@ -17,6 +17,19 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Keep your remote team of 2 operating under $50/month by combining free tiers and affordable tools. Use Slack free, Google Drive, Linear or GitHub, and Airtable to replace expensive all-in-one platforms. This guide shows you the exact tool combinations bootstrapped teams use to stay productive without breaking the bank.
 
+## Table of Contents
+
+- [Making the Most of Your Budget Stack](#making-the-most-of-your-budget-stack)
+- [What Makes a Tool Stack "Budget-Friendly" for a Team of Two](#what-makes-a-tool-stack-budget-friendly-for-a-team-of-two)
+- [Communication Tools: Staying Connected Without the Cost](#communication-tools-staying-connected-without-the-cost)
+- [Project Management: Keeping Tasks Organized](#project-management-keeping-tasks-organized)
+- [File Storage and Document Collaboration](#file-storage-and-document-collaboration)
+- [Time Tracking and Invoicing](#time-tracking-and-invoicing)
+- [Video Conferencing](#video-conferencing)
+- [Building Your Stack: Recommended Combinations](#building-your-stack-recommended-combinations)
+- [Implementation: Setting Up Your Stack](#implementation-setting-up-your-stack)
+- [Making the Most of Your Budget Stack](#making-the-most-of-your-budget-stack)
+
 ## Making the Most of Your Budget Stack
 
 To maximize your budget tool stack:

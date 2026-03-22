@@ -33,6 +33,18 @@ tags: [remote-work-tools, best-of]
 
 Hybrid office visitor management requires real-time occupancy tracking, pre-registration workflows, and automated check-in/check-out systems integrated with calendar platforms and access control. Custom solutions can be built with RESTful APIs for visitor registration, WebSocket support for live occupancy updates, and calendar webhook integration for automatic visitor creation from meeting invites. Commercial platforms like Envoy, Proxyclick, and Greet offer enterprise features, but prioritize API flexibility for integrations with internal tools that vendors cannot anticipate.
 
+## Table of Contents
+
+- [Core Requirements for Hybrid Office Visitor Management](#core-requirements-for-hybrid-office-visitor-management)
+- [Building a Custom Visitor Management System](#building-a-custom-visitor-management-system)
+- [Integrating with Calendar Systems](#integrating-with-calendar-systems)
+- [Commercial Solutions Worth Considering](#commercial-solutions-worth-considering)
+- [Security Considerations](#security-considerations)
+- [Practical Implementation Checklist](#practical-implementation-checklist)
+- [Comparing Commercial Platforms in Depth](#comparing-commercial-platforms-in-depth)
+- [Handling Edge Cases in Visitor Flows](#handling-edge-cases-in-visitor-flows)
+- [Notification Workflow Design](#notification-workflow-design)
+
 ## Core Requirements for Hybrid Office Visitor Management
 
 Before implementing a solution, identify the fundamental capabilities your system needs. Hybrid office visitor management requires more than signing in visitors—it demands real-time tracking, integration with access control systems, and automated notifications.
@@ -285,11 +297,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
-- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
-- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
-- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
-- [Best Hot Desking Software for Hybrid Offices with Under 100](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
-
+- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
+- [How to Create Hybrid Work Equipment Checkout System for Shar](/remote-work-tools/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)
+- [Badge Access Systems for Hybrid Workplaces 2026](/remote-work-tools/badge-access-systems-for-hybrid-workplaces-2026/)
+- [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
+- [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

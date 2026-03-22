@@ -31,6 +31,24 @@ tags: [remote-work-tools]
 
 To apply for Colombia's digital nomad visa as a software developer, you need proof of remote employment or freelance contracts with foreign clients, a minimum monthly income of approximately $3,000 USD (3x Colombia's minimum wage), health insurance valid in Colombia, and a clean criminal background check. The application is submitted online through the Colombian Ministry of Foreign Affairs portal, processing takes 5-15 business days, costs approximately $177 USD, and grants a two-year renewable stay with access to local banking and healthcare.
 
+## Table of Contents
+
+- [Why Colombia for Software Developers](#why-colombia-for-software-developers)
+- [Eligibility Requirements](#eligibility-requirements)
+- [Step 1: Prepare Your Documents](#step-1-prepare-your-documents)
+- [Step 2: Create Your Colombian Immigration Account](#step-2-create-your-colombian-immigration-account)
+- [Step 3: Complete the Visa Application Form](#step-3-complete-the-visa-application-form)
+- [Step 4: Upload Supporting Documents](#step-4-upload-supporting-documents)
+- [Step 5: Pay the Application Fee](#step-5-pay-the-application-fee)
+- [Step 6: Submit and Track Your Application](#step-6-submit-and-track-your-application)
+- [Step 7: Receive Visa Approval](#step-7-receive-visa-approval)
+- [Step 8: Enter Colombia and Register](#step-8-enter-colombia-and-register)
+- [Banking and Finance for Developers](#banking-and-finance-for-developers)
+- [Healthcare Options](#healthcare-options)
+- [Tax Considerations](#tax-considerations)
+- [Common Application Mistakes](#common-application-mistakes)
+- [When to Consider Alternatives](#when-to-consider-alternatives)
+
 ## Why Colombia for Software Developers
 
 Colombia has emerged as a top destination for remote workers, particularly in Medellín—often called the "Silicon Valley of Latin America." The digital nomad visa provides a two-year renewable stay, access to local banking, and eligibility for healthcare, all while you continue working for clients or employers outside Colombia.
@@ -262,10 +280,9 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 - [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-- [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
-
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
+- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -18,6 +18,27 @@ voice-checked: true
 
 Portugal has become a premier destination for remote workers seeking tax-efficient setups within the European Union. Registering as a self-employed worker (trabalhador independente) in Portugal involves several administrative steps, each with specific requirements that differ from traditional employment. This guide walks through the complete registration process with practical details developers and freelancers need to handle their Portuguese tax obligations correctly.
 
+## Table of Contents
+
+- [Understanding Your Tax Status in Portugal](#understanding-your-tax-status-in-portugal)
+- [Step 1: Obtain Your NIF (Número de Identificação Fiscal)](#step-1-obtain-your-nif-nmero-de-identificao-fiscal)
+- [Step 2: Register as Trabalhador Independente](#step-2-register-as-trabalhador-independente)
+- [Step 3: Understanding IRS Tax Categories](#step-3-understanding-irs-tax-categories)
+- [Step 4: VAT (IVA) Registration and Obligations](#step-4-vat-iva-registration-and-obligations)
+- [Step 5: Setting Up Invoice Compliance](#step-5-setting-up-invoice-compliance)
+- [Step 6: Social Security Contributions](#step-6-social-security-contributions)
+- [Practical Example: First-Year Tax Calculation](#practical-example-first-year-tax-calculation)
+- [Maintaining Compliance](#maintaining-compliance)
+- [Portuguese Accounting Software Comparison](#portuguese-accounting-software-comparison)
+- [Quarterly Payment Schedule and Planning](#quarterly-payment-schedule-and-planning)
+- [Quarterly Advance Payments (Pagamentos por Conta)](#quarterly-advance-payments-pagamentos-por-conta)
+- [Annual Settlement (Acerto Final)](#annual-settlement-acerto-final)
+- [IRS Declaration (Declaração de Rendimentos)](#irs-declaration-declarao-de-rendimentos)
+- [Step-by-Step First Year Timeline](#step-by-step-first-year-timeline)
+- [Real-World Tax Calculation Examples](#real-world-tax-calculation-examples)
+- [Non-Resident vs. Resident Tax Treatment](#non-resident-vs-resident-tax-treatment)
+- [Hiring an Accountant vs. DIY](#hiring-an-accountant-vs-diy)
+
 ## Understanding Your Tax Status in Portugal
 
 Before beginning registration, you need to determine which category applies to your situation. Portugal offers two primary paths for self-employed remote workers: the simplificado regime (simplified regime) or regime geral (general regime).

@@ -16,6 +16,27 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Linear is the best bug tracking tool for most remote QA teams thanks to its fast keyboard-driven interface, tight GitHub integration, and workflow automation that handles cross-timezone triage without manual overhead. Jira is the better choice for large enterprises needing complex permissions and test case management, while Shortcut offers a solid middle ground for mid-sized teams. This guide evaluates each tool based on what matters most for distributed QA: workflow automation, async-friendly reproduction steps, integration depth, and developer experience.
 
+## Table of Contents
+
+- [What Remote QA Teams Actually Need](#what-remote-qa-teams-actually-need)
+- [Linear: Improved Issue Management](#linear-improved-issue-management)
+- [Jira: The Enterprise Standard](#jira-the-enterprise-standard)
+- [Shortcut: Developer-Friendly Issue Tracking](#shortcut-developer-friendly-issue-tracking)
+- [Bugsnag: Full-Stack Error Tracking](#bugsnag-full-stack-error-tracking)
+- [Making Your Choice](#making-your-choice)
+- [Slack Integration Strategies](#slack-integration-strategies)
+- [Reproduction Steps Format](#reproduction-steps-format)
+- [Steps to Reproduce](#steps-to-reproduce)
+- [Expected Behavior](#expected-behavior)
+- [Actual Behavior](#actual-behavior)
+- [Environment](#environment)
+- [Attachments](#attachments)
+- [Volume Metrics and Triage Load](#volume-metrics-and-triage-load)
+- [Cross-Timezone Triage Workflow](#cross-timezone-triage-workflow)
+- [Video and Screen Recording Integration](#video-and-screen-recording-integration)
+- [Video Reproduction](#video-reproduction)
+- [Metrics Dashboard Setup](#metrics-dashboard-setup)
+
 ## What Remote QA Teams Actually Need
 
 Before examining specific tools, clarify the requirements that distinguish remote QA workflows from co-located teams. You need clear reproduction steps because the back-and-forth clarification that happens naturally in an office becomes painful over Slack or email. You need strong attachment support for screenshots, videos, and logs. You need role-based access controls that work across distributed organizations. Finally, you need automation that reduces manual status updates and notification fatigue.

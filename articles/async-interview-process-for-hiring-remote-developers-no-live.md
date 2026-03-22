@@ -17,6 +17,23 @@ tags: [remote-work-tools, remote-work]
 
 Building an async interview process for hiring remote developers removes the friction of scheduling across time zones while giving candidates flexibility to demonstrate their skills without performative pressure. Many remote-first companies have replaced live coding interviews with asynchronous assessments that evaluate problem-solving ability, communication skills, and technical depth through written responses, recorded explanations, and pull request reviews.
 
+## Table of Contents
+
+- [Why Async Interviews Work for Remote Hiring](#why-async-interviews-work-for-remote-hiring)
+- [Step 1: Design Your Assessment Stages](#step-1-design-your-assessment-stages)
+- [Step 2: Create the Technical Challenge](#step-2-create-the-technical-challenge)
+- [Technical Challenge: API Implementation](#technical-challenge-api-implementation)
+- [Step 3: Build the Code Review Exercise](#step-3-build-the-code-review-exercise)
+- [Code Review Exercise](#code-review-exercise)
+- [Step 4: Design the Architectural Discussion](#step-4-design-the-architectural-discussion)
+- [Architectural Discussion: Notification Service](#architectural-discussion-notification-service)
+- [Step 5: Set Clear Evaluation Criteria](#step-5-set-clear-evaluation-criteria)
+- [Step 6: Manage Candidate Communication](#step-6-manage-candidate-communication)
+- [Application Status: Technical Assessment](#application-status-technical-assessment)
+- [Step 7: Handle Edge Cases](#step-7-handle-edge-cases)
+- [Practical Tips for Implementation](#practical-tips-for-implementation)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+
 ## Why Async Interviews Work for Remote Hiring
 
 Traditional live interviews create several problems for distributed teams. Candidates must clear time during specific windows, often taking time off work. Engineers must coordinate schedules across continents. The performative pressure of live coding under observation rarely reflects actual day-to-day work.

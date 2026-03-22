@@ -18,6 +18,19 @@ voice-checked: true
 
 Effective remote team wellness programs address mental health isolation, ergonomic setup, and fitness challenges without requiring in-person participation. Distributed organizations can implement anonymous pulse surveys, subsidized therapy services, virtual fitness challenges, and async wellness content—all measurable and trackable. This guide covers specific programs, implementation scripts, and metrics for tracking wellness ROI.
 
+## Table of Contents
+
+- [The Hidden Cost of Team Burnout](#the-hidden-cost-of-team-burnout)
+- [Mental Health Support Systems](#mental-health-support-systems)
+- [Physical Wellness Initiatives](#physical-wellness-initiatives)
+- [Structured Break Systems](#structured-break-systems)
+- [Community and Connection Programs](#community-and-connection-programs)
+- [Measuring Wellness Program Success](#measuring-wellness-program-success)
+- [Implementation Priority Matrix](#implementation-priority-matrix)
+- [Handling Common Wellness Program Resistance](#handling-common-wellness-program-resistance)
+- [Real ROI from Wellness Programs](#real-roi-from-wellness-programs)
+- [Long-Term Sustainability](#long-term-sustainability)
+
 ## The Hidden Cost of Team Burnout
 
 Burnout in remote teams is expensive and often invisible until someone quits unexpectedly:

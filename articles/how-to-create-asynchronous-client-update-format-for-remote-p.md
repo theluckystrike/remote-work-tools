@@ -16,6 +16,21 @@ tags: [remote-work-tools, remote-work]
 
 Structure client updates with Status Summary, Progress This Week, Blockers, Next Steps, and Decision Needed sections to enable async collaboration across time zones. When teams span multiple time zones, the way you format client updates determines whether information flows smoothly or gets lost in translation—synchronous communication patterns break down in distributed environments. This guide walks you through creating async update formats with concrete examples, templates, and implementation patterns for remote project teams.
 
+## Table of Contents
+
+- [Understanding the Core Problem](#understanding-the-core-problem)
+- [Designing Your Update Structure](#designing-your-update-structure)
+- [Implementing Versioned JSON Updates](#implementing-versioned-json-updates)
+- [Building Update Automation](#building-update-automation)
+- [Choosing the Right Delivery Channel](#choosing-the-right-delivery-channel)
+- [Coordinating Across Time Zones Without Update Fatigue](#coordinating-across-time-zones-without-update-fatigue)
+- [Best Practices for Remote Update Formats](#best-practices-for-remote-update-formats)
+- [Adapting Formats to Your Context](#adapting-formats-to-your-context)
+- [Update - March 16, 2026](#update-march-16-2026)
+- [Real-World Implementation: Setting Up Your Update Pipeline](#real-world-implementation-setting-up-your-update-pipeline)
+- [Frequency and Timing Guidelines](#frequency-and-timing-guidelines)
+- [Handling Difficult Conversations in Writing](#handling-difficult-conversations-in-writing)
+
 ## Understanding the Core Problem
 
 Remote projects face a unique challenge: not everyone is available at the same time. When a stakeholder in New York sends an update at 9 AM, their colleague in Tokyo might not see it for another 12 hours. Traditional synchronous communication patterns break down in this environment. You need formats that convey context, action items, and status without requiring immediate responses.
@@ -385,10 +400,9 @@ This structure gives the client what they need to make a decision without creati
 
 ## Related Articles
 
-- [How to Create Client Project Retrospective Format for](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
+- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
 - [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
-- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
-- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
-- [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
-
+- [Remote DevOps Team Dependency Update Workflow for](/remote-work-tools/remote-devops-team-dependency-update-workflow-for-coordinati/)
+- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
+- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

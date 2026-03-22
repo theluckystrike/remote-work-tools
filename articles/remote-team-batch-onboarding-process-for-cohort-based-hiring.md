@@ -18,6 +18,16 @@ voice-checked: true
 
 When your distributed company hires multiple new employees at once, treating each hire as an isolated onboarding project wastes resources and creates inconsistent experiences. Cohort-based hiring—bringing in groups of new hires together—transforms onboarding from a repetitive chore into an efficient system that builds community from day one.
 
+## Table of Contents
+
+- [Why Cohort-Based Hiring Works for Distributed Teams](#why-cohort-based-hiring-works-for-distributed-teams)
+- [Structuring Your Batch Onboarding Timeline](#structuring-your-batch-onboarding-timeline)
+- [Async Communication Strategies That Scale](#async-communication-strategies-that-scale)
+- [Automating the Administrative Burden](#automating-the-administrative-burden)
+- [Measuring Onboarding Success](#measuring-onboarding-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building Your Cohort Onboarding System](#building-your-cohort-onboarding-system)
+
 This guide covers the complete batch onboarding process for remote teams, with practical templates and automation strategies that work across time zones.
 
 ## Why Cohort-Based Hiring Works for Distributed Teams
@@ -253,11 +263,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
 - [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
-- [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
 - [Remote HR Onboarding Platform Comparison for Hiring](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
-- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
-
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
+- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

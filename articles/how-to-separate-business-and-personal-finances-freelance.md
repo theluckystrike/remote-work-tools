@@ -313,11 +313,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Automation Tools for Freelance Business Operations: A](/remote-work-tools/automation-tools-for-freelance-business-operations/)
-- [Best USB Switch for Sharing Keyboard and Mouse Between Work](/remote-work-tools/best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/)
-- [Obsidian vs Notion for Personal Knowledge Management](/remote-work-tools/obsidian-vs-notion-for-personal-knowledge-management/)
-- [Best Business Bank Accounts for Freelancers 2026: A](/remote-work-tools/best-business-bank-accounts-for-freelancers-2026/)
+- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
+- [Best Business Bank Accounts for Freelancers 2026](/remote-work-tools/best-business-bank-accounts-for-freelancers-2026/)
+- [How to Incorporate as a Freelance Developer](/remote-work-tools/how-to-incorporate-as-a-freelance-developer/)
 - [How to Build a Location Independent Business](/remote-work-tools/how-to-build-a-location-independent-business/)
-
+- [How to Set Freelance Developer Rates in 2026](/remote-work-tools/how-to-set-freelance-developer-rates-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

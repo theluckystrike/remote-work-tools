@@ -18,6 +18,26 @@ voice-checked: true
 
 Shared emoji reaction norms reduce unnecessary Slack messages while keeping async communication fast and clean—👍 for acknowledgment, ❤️ for appreciation, ✅ for completion. Establishing a team emoji dictionary prevents confusion and creates a lightweight feedback layer that works across time zones. This guide covers common emoji standards, documentation templates, and enforcement strategies.
 
+## Table of Contents
+
+- [Why Emoji Reactions Matter for Remote Teams](#why-emoji-reactions-matter-for-remote-teams)
+- [Building Your Team's Emoji Vocabulary](#building-your-teams-emoji-vocabulary)
+- [Documenting Your Emoji Norms](#documenting-your-emoji-norms)
+- [Introducing Norms to Your Team](#introducing-norms-to-your-team)
+- [Handling Edge Cases](#handling-edge-cases)
+- [Measuring Success](#measuring-success)
+- [Sample Team Emoji Guide](#sample-team-emoji-guide)
+- [Implementation Mechanics: Tools and Workflows](#implementation-mechanics-tools-and-workflows)
+- [Adoption Metrics and Benchmarks](#adoption-metrics-and-benchmarks)
+- [Scaling Emoji Norms Across Teams](#scaling-emoji-norms-across-teams)
+- [Universal (all teams)](#universal-all-teams)
+- [Engineering](#engineering)
+- [Sales](#sales)
+- [Support](#support)
+- [Handling Remote-Async Challenges](#handling-remote-async-challenges)
+- [Real-World Emoji Norm Examples](#real-world-emoji-norm-examples)
+- [When Emoji Norms Fail](#when-emoji-norms-fail)
+
 ## Why Emoji Reactions Matter for Remote Teams
 
 In async-first remote work, every message doesn't need a written reply. Emoji reactions fill an important gap by providing immediate feedback without cluttering channels. A simple 👍 can acknowledge receipt, ❤️ can signal appreciation, and ✅ can mark tasks complete.

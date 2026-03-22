@@ -17,6 +17,20 @@ tags: [remote-work-tools, best-of, remote-work, collaboration]
 
 Figma is the best design collaboration tool for most remote teams, offering real-time multiplayer editing, a built-in Dev Mode with CSS/React/iOS code generation, and a REST API for CI/CD integration -- all with a free tier that includes unlimited files. Choose Penpot instead if you need an open-source, self-hosted solution with SVG-native export, or Sketch if your entire team runs macOS and you want deep system integration with a mature plugin ecosystem. This guide compares these tools alongside Supernova and Abstract, focusing on API capabilities, developer handoff workflows, and automation potential for distributed teams.
 
+## Table of Contents
+
+- [Figma: The Industry Standard](#figma-the-industry-standard)
+- [Penpot: Open-Source Alternative](#penpot-open-source-alternative)
+- [Sketch: macOS Power User Choice](#sketch-macos-power-user-choice)
+- [Supernova: Design System Automation](#supernova-design-system-automation)
+- [Abstract: Version Control for Design](#abstract-version-control-for-design)
+- [Choosing the Right Tool](#choosing-the-right-tool)
+- [Detailed Tool Comparison Matrix](#detailed-tool-comparison-matrix)
+- [Implementation Workflow: Design to Developer Handoff](#implementation-workflow-design-to-developer-handoff)
+- [Pricing Deep Dive: Total Cost of Ownership](#pricing-deep-dive-total-cost-of-ownership)
+- [Integration Checklist: Setting Up Your Tool Properly](#integration-checklist-setting-up-your-tool-properly)
+- [Performance Considerations for Large Files](#performance-considerations-for-large-files)
+
 ## Figma: The Industry Standard
 
 Figma has become the dominant force in collaborative design, offering a browser-first approach that eliminates platform barriers. Its real-time multiplayer engine enables multiple designers to work simultaneously on the same file, with cursor tracking and live updates visible to everyone.

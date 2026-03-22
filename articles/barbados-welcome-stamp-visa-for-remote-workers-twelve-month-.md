@@ -16,6 +16,22 @@ voice-checked: true
 
 The Barbados Welcome Stamp lets remote workers live and work for 12 months in Barbados while earning from overseas clients, with no local income tax, fiber-optic internet speeds up to 100 Mbps, and an entirely digital application process. The USD $50,000 annual income requirement is straightforward for most developers, and the USD $2,000 application fee buys you legal residency in a stable English-speaking Caribbean nation with reliable banking, healthcare, and coworking infrastructure.
 
+## Table of Contents
+
+- [Program Overview and Eligibility](#program-overview-and-eligibility)
+- [Application Process: Step by Step](#application-process-step-by-step)
+- [Financial Considerations for Developers](#financial-considerations-for-developers)
+- [Internet Infrastructure: A Developer's Perspective](#internet-infrastructure-a-developers-perspective)
+- [Accommodation Options and Costs for Welcome Stamp Holders](#accommodation-options-and-costs-for-welcome-stamp-holders)
+- [Visa Extension and Long-Term Considerations](#visa-extension-and-long-term-considerations)
+- [Common Challenges and Solutions for Welcome Stamp Holders](#common-challenges-and-solutions-for-welcome-stamp-holders)
+- [Financial Planning for a 12-Month Stay](#financial-planning-for-a-12-month-stay)
+- [Practical Onboarding Timeline for New Welcome Stamp Arrivals](#practical-onboarding-timeline-for-new-welcome-stamp-arrivals)
+- [Support Resources for Welcome Stamp Holders](#support-resources-for-welcome-stamp-holders)
+- [Practical Tips for a Successful Stay](#practical-tips-for-a-successful-stay)
+- [Extending Your Stay](#extending-your-stay)
+- [Is the Barbados Welcome Stamp Right for You?](#is-the-barbados-welcome-stamp-right-for-you)
+
 ## Program Overview and Eligibility
 
 The Barbados Welcome Stamp is a visa program that allows remote workers to live in Barbados for up to 12 months while continuing to work for employers or clients outside the country. The program is designed specifically for individuals who can perform their work remotely without being physically present in their employer's office.

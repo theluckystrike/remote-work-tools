@@ -16,6 +16,43 @@ tags: [remote-work-tools, remote-work]
 
 Production incidents don't wait for business hours. Distributed teams need defined processes for alert routing, on-call escalation, runbook execution, and post-incident reviews. Here's what works without chaos.
 
+## Table of Contents
+
+- [Why Distributed Teams Need Structure](#why-distributed-teams-need-structure)
+- [1. Alert Routing: PagerDuty vs OpsGenie](#1-alert-routing-pagerduty-vs-opsgenie)
+- [2. On-Call Rotation Schedule](#2-on-call-rotation-schedule)
+- [3. Runbook Template](#3-runbook-template)
+- [Symptoms](#symptoms)
+- [Diagnosis (< 2 minutes)](#diagnosis-2-minutes)
+- [Quick Fix (5 minutes)](#quick-fix-5-minutes)
+- [Root Cause Investigation (post-incident)](#root-cause-investigation-post-incident)
+- [Escalation](#escalation)
+- [Verification Metrics](#verification-metrics)
+- [Post-Incident](#post-incident)
+- [Symptoms](#symptoms)
+- [Diagnosis (< 2 minutes)](#diagnosis-2-minutes)
+- [Quick Fix](#quick-fix)
+- [If Still Critical](#if-still-critical)
+- [Escalation](#escalation)
+- [Symptoms](#symptoms)
+- [Diagnosis (< 2 minutes)](#diagnosis-2-minutes)
+- [Quick Fix Option 1: Stripe is Down](#quick-fix-option-1-stripe-is-down)
+- [Quick Fix Option 2: Our Integration is Broken](#quick-fix-option-2-our-integration-is-broken)
+- [If Queue Backing Up > 1 hour](#if-queue-backing-up-1-hour)
+- [Post-Incident](#post-incident)
+- [4. Incident Communication During Active Incident](#4-incident-communication-during-active-incident)
+- [5. Post-Mortem Template](#5-post-mortem-template)
+- [Timeline](#timeline)
+- [Impact](#impact)
+- [Root Cause](#root-cause)
+- [Why Wasn't This Caught?](#why-wasnt-this-caught)
+- [Lessons Learned](#lessons-learned)
+- [Action Items (Who / When)](#action-items-who-when)
+- [Follow-Up](#follow-up)
+- [6. Complete Setup Checklist](#6-complete-setup-checklist)
+- [Real Metrics to Track](#real-metrics-to-track)
+- [Common Mistakes](#common-mistakes)
+
 ## Why Distributed Teams Need Structure
 
 Centralized office:
@@ -544,10 +581,11 @@ Customer Impact Severity:
 
 ## Related Articles
 
-- [Scale Remote Team Incident Response From Startup to Mid-Size](/how-to-scale-remote-team-incident-response-process-from-star/)
-- [How to Scale Remote Team Incident Response Process](/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-- [How to Set Up Remote Team Peer Feedback Process](/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
-
+- [How to Scale Remote Team Incident Response Process](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
+- [Remote Team Security Incident Response Plan Template](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [Best Tools for Remote Team Incident Postmortems in 2026](/remote-work-tools/best-tools-for-remote-team-incident-postmortems-2026/)
+- [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

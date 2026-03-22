@@ -18,6 +18,19 @@ tags: [remote-work-tools]
 
 The best digital nomad residency options in 2026 are Portugal's D7 visa for EU access and a citizenship pathway, Croatia's visa for tax-free foreign income during the first two years, and Spain's visa for affordable living with a strong tech community. For higher-budget nomads, golden visa programs in Portugal, Greece, and the UAE offer long-term residency through investment. This guide compares every major program by income requirements, tax treatment, healthcare access, and path to citizenship.
 
+## Table of Contents
+
+- [Understanding Digital Nomad Residency Concepts](#understanding-digital-nomad-residency-concepts)
+- [Digital Nomad Visa Programs](#digital-nomad-visa-programs)
+- [Investment-Based Residency Programs](#investment-based-residency-programs)
+- [Tax Optimization Strategies](#tax-optimization-strategies)
+- [Healthcare and Insurance Considerations](#healthcare-and-insurance-considerations)
+- [Banking and Financial Infrastructure](#banking-and-financial-infrastructure)
+- [Practical Steps to Establish Residency](#practical-steps-to-establish-residency)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Emerging Options in 2026](#emerging-options-in-2026)
+- [Next Steps](#next-steps)
+
 ## Understanding Digital Nomad Residency Concepts
 
 Three key distinctions shape how residency programs work:

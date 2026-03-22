@@ -17,6 +17,20 @@ voice-checked: true
 
 Async weekly recap emails keep distributed teams aligned without synchronous meetings, eliminating information silos across time zones. A well-structured recap documents progress, highlights blockers, and reduces the need for status meetings—saving time for deep work. This guide provides ready-to-use templates, automation scripts for pulling data from Linear/GitHub, and best practices for different team sizes.
 
+## Table of Contents
+
+- [Why Weekly Recap Emails Matter for Remote Teams](#why-weekly-recap-emails-matter-for-remote-teams)
+- [Anatomy of an Effective Weekly Recap Email](#anatomy-of-an-effective-weekly-recap-email)
+- [Template: Basic Weekly Recap](#template-basic-weekly-recap)
+- [Week of [Date Range] Recap](#week-of-date-range-recap)
+- [Template: Team Lead Focus](#template-team-lead-focus)
+- [Team Lead Weekly Update — [Date Range]](#team-lead-weekly-update-date-range)
+- [Automating Your Weekly Recap](#automating-your-weekly-recap)
+- [Best Practices for Remote Team Leads](#best-practices-for-remote-team-leads)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Adapting for Different Team Sizes](#adapting-for-different-team-sizes)
+- [Measuring Effectiveness](#measuring-effectiveness)
+
 ## Why Weekly Recap Emails Matter for Remote Teams
 
 Remote work removes the ambient awareness that comes from physically working together. When you're distributed across time zones, you can't glance at a colleague's screen or overhear a quick status update. This creates information silos where team members work in isolation, unaware of what others are accomplishing or struggling with.

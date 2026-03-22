@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Code Review Guidelines"
+title: "Scale Code Reviews for Growing Remote Teams (2026)"
 description: "Practical strategies for scaling your code review process when your remote engineering team grows from 10 to 30 developers"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -16,6 +16,13 @@ intent-checked: true
 
 
 Scale code review from 10 to 30 developers by assigning ownership-based reviewers per code area, establishing clear review guidelines with pass/fail criteria, and automating trivial checks (formatting, type errors) to free humans for architectural feedback. Tripling your team breaks informal "hey can you review?" processes—PRs wait 2-3 days and quality slips. The solution distributes review load by domain ownership, not by adding more people, while defining explicit pass/fail criteria that reduce debate overhead. This guide provides concrete implementation approaches you can use immediately.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Strategy 2: Implement Tiered Review Requirements](#strategy-2-implement-tiered-review-requirements)
+- [Troubleshooting](#troubleshooting)
+- [Detailed Reviewer Assignment Strategy](#detailed-reviewer-assignment-strategy)
 
 ## Prerequisites
 

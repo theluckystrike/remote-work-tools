@@ -31,6 +31,17 @@ tags: [remote-work-tools]
 
 Install the official Linear browser extension to create issues from any webpage without context switching and preview issues directly in GitHub PRs. Linear is popular among development teams for its clean interface and GitHub integration, but Chrome extensions add capabilities that improve workflow efficiency—create issues without switching tabs, view issue previews in PRs, and access notifications directly in Chrome. This guide covers practical Linear extensions and how to integrate them into your daily development routine.
 
+## Table of Contents
+
+- [Why Use Chrome Extensions with Linear](#why-use-chrome-extensions-with-linear)
+- [Practical Chrome Extensions for Linear](#practical-chrome-extensions-for-linear)
+- [Setting Up Your Extension Workflow](#setting-up-your-extension-workflow)
+- [Limitations and Alternatives](#limitations-and-alternatives)
+- [Building Your Custom Extension: Complete Example](#building-your-custom-extension-complete-example)
+- [Linear Extension Workflow Optimization](#linear-extension-workflow-optimization)
+- [Performance Tips for Extension Users](#performance-tips-for-extension-users)
+- [Comparison: Extensions vs. Native Apps](#comparison-extensions-vs-native-apps)
+
 ## Why Use Chrome Extensions with Linear
 
 Linear's web application works well, but browser extensions add capabilities that improve productivity for developers who spend significant time in Chrome. These extensions can:
@@ -436,10 +447,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Chrome Security Headers Extension: A Practical Guide for](/remote-work-tools/chrome-security-headers-extension/)
-- [Shortcut vs Linear: Issue Tracking Comparison for](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
-- [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
-- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
-- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
-
+- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
+- [Best Project Management CLI Tools 2026](/remote-work-tools/best-project-management-cli-tools-2026/)
+- [Shortcut vs Linear Issue Tracking Comparison](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
+- [Best Browser Extensions for Developer Productivity](/remote-work-tools/best-browser-extensions-for-developer-productivity/)
+- [Linear vs Shortcut for a Remote Startup of 8 Engineers](/remote-work-tools/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

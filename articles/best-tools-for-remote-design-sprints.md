@@ -33,6 +33,25 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Remote design sprints require tooling that supports rapid ideation, structured help, and collaboration across distributed teams. The tools below are evaluated on real-world usability, integration capabilities, and developer-friendly features.
 
+## Table of Contents
+
+- [Understanding Remote Design Sprint Requirements](#understanding-remote-design-sprint-requirements)
+- [Miro: Sprint Help](#miro-sprint-help)
+- [FigJam: Lightweight Sprint Sessions](#figjam-lightweight-sprint-sessions)
+- [Mural: Structured Workshop Help](#mural-structured-workshop-help)
+- [Specialized Sprint Tools](#specialized-sprint-tools)
+- [Integration Strategies](#integration-strategies)
+- [Choosing Your Sprint Stack](#choosing-your-sprint-stack)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Sprint Day Breakdown: Hour-by-Hour Schedule](#sprint-day-breakdown-hour-by-hour-schedule)
+- [Sprint Retrospective Template](#sprint-retrospective-template)
+- [What Worked?](#what-worked)
+- [What Didn't Work?](#what-didnt-work)
+- [Metrics](#metrics)
+- [What We'll Change Next Sprint](#what-well-change-next-sprint)
+- [Next Sprint Planned For](#next-sprint-planned-for)
+- [Measuring Sprint ROI](#measuring-sprint-roi)
+
 ## Understanding Remote Design Sprint Requirements
 
 Design sprints follow the Google Sprint methodology: Understand, Diverge, Decide, Prototype, and Validate. Running these phases remotely introduces specific challenges that your tooling must address.

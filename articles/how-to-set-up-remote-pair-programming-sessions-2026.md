@@ -14,6 +14,13 @@ permalink: /how-to-set-up-remote-pair-programming-sessions-2026/
 
 # How to Set Up Remote Pair Programming Sessions in 2026
 
+## Table of Contents
+
+- [Why Remote Pair Programming Matters](#why-remote-pair-programming-matters)
+- [Prerequisites](#prerequisites)
+- [Latency Comparison Table](#latency-comparison-table)
+- [Troubleshooting](#troubleshooting)
+
 Pair programming reduces bugs, accelerates learning, and improves code quality. Remote pair programming removes geography barriers but introduces latency and tool complexity. This guide covers the best tools, setup steps, and workflow patterns for effective remote pairing.
 
 ## Why Remote Pair Programming Matters

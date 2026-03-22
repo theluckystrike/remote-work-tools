@@ -18,6 +18,15 @@ intent-checked: true
 
 A programmer's keyboard matters more than most realize. You're hitting it 8+ hours a day. A bad keyboard induces RSI after months; the right one sustains you for years. Remote work amplifies this: you control the entire environment, so picking the wrong board is your own mistake.
 
+## Table of Contents
+
+- [The Contenders](#the-contenders)
+- [Comparison Table](#comparison-table)
+- [Practical Advice](#practical-advice)
+- [Long-Term Cost Analysis](#long-term-cost-analysis)
+- [The Wrist Pain Question](#the-wrist-pain-question)
+- [Final Verdict](#final-verdict)
+
 We tested four flagship mechanical keyboards used by working developers: Keychron Q1, Happy Hacking Keyboard Pro 2 (HHKB), Kinesis Advantage 360, and ZSA Moonlander Mark 1. We scored them on ergonomics, switch quality, build, programmability, and value.
 
 ## The Contenders
@@ -272,11 +281,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best USB Switch for Sharing Keyboard and Mouse Between Work](/remote-work-tools/best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/)
-- [Best Blue Light Glasses for Programmers: A Practical Guide](/remote-work-tools/best-blue-light-glasses-for-programmers/)
-- [Wrist Exercises for Programmers](/remote-work-tools/wrist-exercises-for-programmers-prevent-rsi/)
-- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
+- [Best Remote Work Mechanical Keyboard 2026](/remote-work-tools/best-remote-work-mechanical-keyboard-2026/)
 - [Best Mechanical Keyboard for Remote Developers](/remote-work-tools/best-mechanical-keyboard-for-remote-developers-quiet-switches-2026/)
-
+- [Best Mechanical Keyboard for Remote Developers: Discover](/remote-work-tools/best-mechanical-keyboard-for-remote-developers/)
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
+- [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

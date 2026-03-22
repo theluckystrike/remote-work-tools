@@ -17,6 +17,13 @@ voice-checked: true
 
 Hybrid meetings have become the standard for distributed teams, yet remote participants frequently report feeling like second-class citizens. Cameras pointed at whiteboards exclude those joining from home. Side conversations in meeting rooms happen without captions or chat transcripts. Decision-making happens in hallways before remote attendees even learn there was a discussion.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Platform Comparison for Hybrid Equity](#platform-comparison-for-hybrid-equity)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Troubleshooting](#troubleshooting)
+
 This guide provides concrete techniques to ensure remote participants are genuinely included—not just technically present.
 
 ## Prerequisites

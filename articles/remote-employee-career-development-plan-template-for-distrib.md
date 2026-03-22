@@ -18,6 +18,23 @@ voice-checked: true
 
 Managing career growth for remote employees requires deliberate structure. Unlike office environments where managers can observe growth through hallway conversations and spontaneous mentorship, distributed teams need documented processes that create visibility and accountability. This guide provides a practical template for creating career development plans that work across time zones and async workflows.
 
+## Table of Contents
+
+- [The Core Career Development Framework](#the-core-career-development-framework)
+- [Quarterly Objectives That Drive Growth](#quarterly-objectives-that-drive-growth)
+- [Async Progress Tracking Systems](#async-progress-tracking-systems)
+- [Weekly Progress Update](#weekly-progress-update)
+- [Skill Progression Matrices for Technical Roles](#skill-progression-matrices-for-technical-roles)
+- [Career Conversation Cadence](#career-conversation-cadence)
+- [Promotion Readiness Criteria](#promotion-readiness-criteria)
+- [Handling Career Development Across Time Zones](#handling-career-development-across-time-zones)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Real-World Career Development Plan Examples](#real-world-career-development-plan-examples)
+- [Development Plans for Remote-First Roles](#development-plans-for-remote-first-roles)
+- [Career Ladders as Career Development Infrastructure](#career-ladders-as-career-development-infrastructure)
+- [Special Considerations for Distributed Managers](#special-considerations-for-distributed-managers)
+- [Development Budgets and Learning Resources](#development-budgets-and-learning-resources)
+
 ## The Core Career Development Framework
 
 An effective remote career development plan addresses four key dimensions: technical skill progression, leadership and communication growth, career trajectory clarity, and measurable milestones. Without explicit documentation, remote employees often feel their growth goes unnoticed, leading to disengagement and turnover.
@@ -385,11 +402,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [Usage: python pip_tracker.py employee-pip.json](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
-- [Remote Team Change Management Communication Plan Template](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
-- [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
-- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
-
+- [How to Create Remote Team Career Ladder Documentation](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [How to Build Remote Team Engineering Career Ladder 2026](/remote-work-tools/how-to-build-remote-team-engineering-career-ladder-2026/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [How to Set Up Remote Team Learning and Development Program](/remote-work-tools/how-to-set-up-remote-team-learning-and-development-program-2026/)
+- [How to Create Remote Team Leadership Development Pipeline Fo](/remote-work-tools/how-to-create-remote-team-leadership-development-pipeline-fo/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,23 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 Managing four remote interns requires a different approach than managing senior developers. Interns need more structure, clearer expectations, and more frequent feedback—yet you want to avoid micromanaging or creating bottlenecks that slow their growth. With the right systems in place, you can build a productive remote internship program that benefits both your team and the interns.
 
+## Table of Contents
+
+- [The Foundation: Clear Communication Channels](#the-foundation-clear-communication-channels)
+- [Task Management: Breaking Work Into Digestible Pieces](#task-management-breaking-work-into-digestible-pieces)
+- [Task: Implement User Authentication Flow](#task-implement-user-authentication-flow)
+- [Code Review: Building a Learning Loop](#code-review-building-a-learning-loop)
+- [Onboarding: Getting Remote Interns Productive Fast](#onboarding-getting-remote-interns-productive-fast)
+- [Measuring Success: What to Track](#measuring-success-what-to-track)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building a Lasting Program](#building-a-lasting-program)
+- [Intern Compensation Structure](#intern-compensation-structure)
+- [Weekly Intern Team Sync Format](#weekly-intern-team-sync-format)
+- [Code Review Feedback Framework](#code-review-feedback-framework)
+- [Internship Performance Rubric](#internship-performance-rubric)
+- [Post-Internship Path](#post-internship-path)
+- [Common Intern Management Mistakes](#common-intern-management-mistakes)
+
 ## The Foundation: Clear Communication Channels
 
 Remote intern teams succeed or fail based on how information flows. For a four-person intern team, establish three distinct communication tiers:
@@ -323,11 +340,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 - [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
-- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 - [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
-- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
-
+- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

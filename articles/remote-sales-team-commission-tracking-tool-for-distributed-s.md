@@ -18,6 +18,17 @@ voice-checked: true
 
 Managing commissions across distributed sales teams presents unique challenges that traditional spreadsheet workflows cannot address. When your sales organization spans multiple time zones, currencies, and compensation structures, you need a system that handles real-time calculation, audit trails, and automated payouts. This guide walks through building a commission tracking infrastructure tailored for distributed sales operations.
 
+## Table of Contents
+
+- [Core Challenges in Distributed Commission Management](#core-challenges-in-distributed-commission-management)
+- [Building the Data Model](#building-the-data-model)
+- [Implementing Commission Calculation Logic](#implementing-commission-calculation-logic)
+- [Currency and Exchange Rate Handling](#currency-and-exchange-rate-handling)
+- [Building the API Layer](#building-the-api-layer)
+- [Webhook Integration for Real-Time Updates](#webhook-integration-for-real-time-updates)
+- [Automation and Payout Workflows](#automation-and-payout-workflows)
+- [Key Implementation Considerations](#key-implementation-considerations)
+
 ## Core Challenges in Distributed Commission Management
 
 Distributed sales operations introduce complexity that breaks conventional commission systems. Each region may have different commission rates, payout schedules, and currency requirements. Sales reps closing deals in their local time need immediate visibility into earned commissions, while finance teams require consolidated reporting across all regions.
@@ -339,11 +350,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Industry match (40% weight)](/remote-work-tools/remote-sales-team-crm-workflow-optimization-for-distributed-/)
-- [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
-- [Remote Sales Team Territory Mapping Tool for Distributed](/remote-work-tools/remote-sales-team-territory-mapping-tool-for-distributed-acc/)
-- [Remote Team Grant and Funding Tracking Tool for Distributed](/remote-work-tools/remote-team-grant-and-funding-tracking-tool-for-distributed-/)
+- [Best Affiliate Commission Tracking Automation for Remote](/remote-work-tools/best-affiliate-commission-tracking-automation-for-remote-mar/)
 - [Best Remote Sales Enablement Platform for Distributed BDRs](/remote-work-tools/best-remote-sales-enablement-platform-for-distributed-bdrs-a/)
-
+- [Remote Team Grant and Funding Tracking Tool for Distributed](/remote-work-tools/remote-team-grant-and-funding-tracking-tool-for-distributed-/)
+- [Remote Sales Team Forecasting Tool Comparison for Distribute](/remote-work-tools/remote-sales-team-forecasting-tool-comparison-for-distribute/)
+- [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

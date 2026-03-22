@@ -17,6 +17,27 @@ tags: [remote-work-tools, workflow, remote-work]
 
 Build an async customer feedback synthesis workflow by routing all feedback sources into a centralized pipeline, normalizing entries with a standard template, and running batched review cycles that team members complete on their own schedules. This structured approach lets remote product managers process support tickets, survey responses, user interviews, and social media mentions continuously—without synchronous meetings—while creating an auditable record of how feedback becomes product decisions.
 
+## Table of Contents
+
+- [Why Async Feedback Synthesis Works](#why-async-feedback-synthesis-works)
+- [Step 1: Establish Unified Feedback Collection Channels](#step-1-establish-unified-feedback-collection-channels)
+- [Step 2: Create a Standardized Feedback Template](#step-2-create-a-standardized-feedback-template)
+- [Feedback Entry](#feedback-entry)
+- [Step 3: Implement Regular Async Review Cycles](#step-3-implement-regular-async-review-cycles)
+- [Week of [Date] - Feedback Synthesis](#week-of-date-feedback-synthesis)
+- [Step 4: Build Feedback Analysis Scripts](#step-4-build-feedback-analysis-scripts)
+- [Step 5: Close the Loop with Customers](#step-5-close-the-loop-with-customers)
+- [Step 6: Integrate with Product Planning](#step-6-integrate-with-product-planning)
+- [Feature: Improved API Rate Limiting](#feature-improved-api-rate-limiting)
+- [Handling Common Challenges](#handling-common-challenges)
+- [Practical Tips for Remote Product Managers](#practical-tips-for-remote-product-managers)
+- [Tools for Feedback Synthesis at Each Step](#tools-for-feedback-synthesis-at-each-step)
+- [Advanced: Building a Feedback Search Engine](#advanced-building-a-feedback-search-engine)
+- [Real Company Example: How SaaS Product Team Processes Feedback](#real-company-example-how-saas-product-team-processes-feedback)
+- [When to Escalate Feedback to Synchronous Discussion](#when-to-escalate-feedback-to-synchronous-discussion)
+- [Preventing Feedback Fatigue](#preventing-feedback-fatigue)
+- [Measuring ROI of Async Feedback Process](#measuring-roi-of-async-feedback-process)
+
 ## Why Async Feedback Synthesis Works
 
 Synchronous feedback review meetings work for small teams with overlapping hours, but they break down quickly in distributed organizations. Waiting for scheduled meetings to discuss feedback introduces delays, reduces the volume of feedback you can process, and creates bottlenecks around a few team members.
@@ -358,11 +379,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
-- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
-
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [How to Set Up Remote Team Peer Feedback Process](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
+- [Client Feedback Collection Tool for Remote Development](/remote-work-tools/client-feedback-collection-tool-for-remote-development-agenc/)
+- [How to Give Constructive Feedback Remotely Over Text](/remote-work-tools/how-to-give-constructive-feedback-remotely-over-text-without/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

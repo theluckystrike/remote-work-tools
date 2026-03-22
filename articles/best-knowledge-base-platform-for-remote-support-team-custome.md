@@ -18,6 +18,23 @@ voice-checked: true
 
 Remote support teams face unique challenges when creating and maintaining customer-facing documentation. When your team is distributed across different time zones and working asynchronously, having the right knowledge base platform becomes critical for delivering consistent, high-quality support content to customers.
 
+## Table of Contents
+
+- [Why Knowledge Base Selection Matters for Remote Support](#why-knowledge-base-selection-matters-for-remote-support)
+- [Top Knowledge Base Platforms for Remote Support Teams](#top-knowledge-base-platforms-for-remote-support-teams)
+- [Making Your Decision](#making-your-decision)
+- [Implementation Best Practices](#implementation-best-practices)
+- [Structuring Content for Asynchronous Remote Teams](#structuring-content-for-asynchronous-remote-teams)
+- [Measuring Knowledge Base Effectiveness for Remote Teams](#measuring-knowledge-base-effectiveness-for-remote-teams)
+- [Advanced Knowledge Base Workflows](#advanced-knowledge-base-workflows)
+- [SEO Optimization for Knowledge Bases](#seo-optimization-for-knowledge-bases)
+- [Knowledge Base Content Strategy](#knowledge-base-content-strategy)
+- [Multilingual Knowledge Bases](#multilingual-knowledge-bases)
+- [Knowledge Base Analytics and Insights](#knowledge-base-analytics-and-insights)
+- [Building Knowledge Base for Remote Team Success](#building-knowledge-base-for-remote-team-success)
+- [Integration With Support Ticket Systems](#integration-with-support-ticket-systems)
+- [Knowledge Base Performance Optimization](#knowledge-base-performance-optimization)
+
 ## Why Knowledge Base Selection Matters for Remote Support
 
 Customer-facing articles serve as the first line of support for many users. A well-structured knowledge base reduces ticket volume, improves customer satisfaction, and enables users to find solutions independently. For remote support teams, the platform must enable collaboration without requiring real-time communication.
@@ -280,8 +297,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Self-Hosted Knowledge Base for Remote Support Team Replacing Zendesk Guide 2026](/self-hosted-knowledge-base-for-remote-support-team-replacing/)
-- [Best Knowledge Base Tool for Remote Team That Works Offline on Mobile 2026](/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
-- [Best Tools for Remote Team Knowledge Base 2026](/best-tools-for-remote-team-knowledge-base-2026/)
-
+- [Self-Hosted Knowledge Base for Remote Support Team](/remote-work-tools/self-hosted-knowledge-base-for-remote-support-team-replacing/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [Best Knowledge Base Tool for Remote Team That Works Offline](/remote-work-tools/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

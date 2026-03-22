@@ -18,6 +18,20 @@ voice-checked: true
 
 Remote engineering teams need async standups that respect time zones, reduce meeting fatigue, and surface blockers before they become problems. Standup bots automate the daily check-in process, collecting updates via chat platforms and presenting them in digestible formats. This guide compares the leading options across features, pricing, integrations, and implementation complexity.
 
+## Table of Contents
+
+- [Why Standup Bots Matter for Distributed Teams](#why-standup-bots-matter-for-distributed-teams)
+- [GeekBot: The Veteran Option](#geekbot-the-veteran-option)
+- [Standuply: Feature-Rich and Flexible](#standuply-feature-rich-and-flexible)
+- [Cyclops: Lightweight and Open Source](#cyclops-lightweight-and-open-source)
+- [DailyStandup: Simple and Focused](#dailystandup-simple-and-focused)
+- [Comparing the Options](#comparing-the-options)
+- [Detailed Pricing Breakdown](#detailed-pricing-breakdown)
+- [Real-World Deployment Scenarios](#real-world-deployment-scenarios)
+- [Advanced Configuration Examples](#advanced-configuration-examples)
+- [Implementation Recommendations by Team Size and Maturity](#implementation-recommendations-by-team-size-and-maturity)
+- [Making Async Standups Work](#making-async-standups-work)
+
 ## Why Standup Bots Matter for Distributed Teams
 
 Traditional daily standups work poorly across time zones. Someone always joins late at night or early morning, context gets lost in real-time chatter, and the meeting eats into deep work time. Standup bots solve this by letting engineers answer questions on their own schedule, typically through Slack or Teams. The bot then compiles responses into a thread or dashboard that the whole team reads asynchronously.

@@ -17,6 +17,29 @@ tags: [remote-work-tools, comparison]
 
 Choose Linear if your 10-person dev team wants fast, keyboard-driven issue tracking with tight GitHub integration at $8/user/month. Choose Asana if you need custom approval workflows, portfolio-level visibility, or non-technical stakeholders accessing tasks -- though you will pay roughly $25/user/month for those features. Linear wins on developer experience and speed, while Asana wins on organizational flexibility across mixed work types.
 
+## Table of Contents
+
+- [Task Management Philosophy](#task-management-philosophy)
+- [Quick Comparison](#quick-comparison)
+- [GitHub Integration](#github-integration)
+- [API Access and Customization](#api-access-and-customization)
+- [Pricing for a 10-Person Team](#pricing-for-a-10-person-team)
+- [Workflow Customization](#workflow-customization)
+- [Mobile Experience](#mobile-experience)
+- [When to Choose Linear](#when-to-choose-linear)
+- [When to Choose Asana](#when-to-choose-asana)
+- [Making the Decision](#making-the-decision)
+- [Detailed Feature Comparison](#detailed-feature-comparison)
+- [Implementation Decision Tree](#implementation-decision-tree)
+- [Migration Guide: Switching Between Tools](#migration-guide-switching-between-tools)
+- [Sample Integration: Linear to GitHub](#sample-integration-linear-to-github)
+- [Team Adoption Strategy](#team-adoption-strategy)
+- [Day 1: Announcement](#day-1-announcement)
+- [Days 2-3: Live Training](#days-2-3-live-training)
+- [Days 4-7: Parallel Running](#days-4-7-parallel-running)
+- [Days 8-14: Full Cutover](#days-8-14-full-cutover)
+- [Week 3: Retrospective](#week-3-retrospective)
+
 ## Task Management Philosophy
 
 Linear operates on a cycling metaphor—teams work in focused cycles (similar to sprints) with limited work-in-progress. This constraint-based approach works well for teams that want to reduce context switching. Each issue lives in a cycle, and when the cycle ends, unfinished work rolls forward or gets re-planned.
@@ -449,11 +472,10 @@ Get your team to actually use the tool you choose:
 
 ## Related Articles
 
+- [Shortcut vs Linear Issue Tracking Comparison](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
 - [Monday vs Asana for a Nonprofit Remote Team of 30](/remote-work-tools/monday-vs-asana-for-a-nonprofit-remote-team-of-30/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
-- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
-
+- [Best Project Management Tool for 3 Person Startup 2026](/remote-work-tools/best-project-management-tool-for-3-person-startup-2026/)
+- [Linear vs Jira for Software Development: A Practical](/remote-work-tools/linear-vs-jira-for-software-development/)
+- [Linear vs Shortcut for a Remote Startup of 8 Engineers](/remote-work-tools/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

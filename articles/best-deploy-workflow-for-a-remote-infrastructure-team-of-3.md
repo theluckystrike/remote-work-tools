@@ -17,6 +17,21 @@ voice-checked: true
 
 Use a four-stage pipeline — local validation, CI testing, staged deployment, and production approval gate — with GitHub Actions environment protection requiring one peer approval before any production push. This workflow gives a three-person remote infrastructure team enough automation to deploy safely across time zones while keeping human oversight where it matters. Pair it with weekly deployment rotation and async runbooks stored in your infrastructure repo so the on-call engineer can execute confidently without hunting for context in Slack.
 
+## Table of Contents
+
+- [Core Principles for Small Remote Teams](#core-principles-for-small-remote-teams)
+- [Structuring Your Deployment Pipeline](#structuring-your-deployment-pipeline)
+- [Time Zone Coordination Strategies](#time-zone-coordination-strategies)
+- [Prerequisites](#prerequisites)
+- [Pre-deployment](#pre-deployment)
+- [Execution](#execution)
+- [Rollback](#rollback)
+- [Post-deployment](#post-deployment)
+- [Handling Emergency Deployments](#handling-emergency-deployments)
+- [Tooling Comparison for Small Infrastructure Teams](#tooling-comparison-for-small-infrastructure-teams)
+- [Secret and Credential Management Across Time Zones](#secret-and-credential-management-across-time-zones)
+- [Continuous Improvement](#continuous-improvement)
+
 ## Core Principles for Small Remote Teams
 
 Before exploring implementation, establish the principles that guide your workflow. Small teams benefit from explicit conventions that larger teams might handle through process overhead.

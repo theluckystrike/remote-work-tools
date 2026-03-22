@@ -17,6 +17,35 @@ intent-checked: true
 
 Quarterly planning for a single remote team is challenging. Quarterly planning across five, ten, or twenty distributed teams becomes a coordination nightmare without the right systems in place. Most organizations approach this the same way they did when everyone sat in an office—scheduling marathon sync meetings, creating massive shared spreadsheets, and hoping alignment happens by sheer force of will. It rarely does.
 
+## Table of Contents
+
+- [The Core Framework: Three-Phase Async Planning](#the-core-framework-three-phase-async-planning)
+- [Retrospective: Q2 2026](#retrospective-q2-2026)
+- [Capacity Assessment](#capacity-assessment)
+- [Proposed Objectives for Q3](#proposed-objectives-for-q3)
+- [Top-Level Objectives](#top-level-objectives)
+- [Team Commitments](#team-commitments)
+- [Cross-Team Dependencies](#cross-team-dependencies)
+- [Risks and Mitigations](#risks-and-mitigations)
+- [Scaling the Process: What Changes at Higher Team Counts](#scaling-the-process-what-changes-at-higher-team-counts)
+- [Quarterly Planning Tool Recommendations](#quarterly-planning-tool-recommendations)
+- [Planning Document Template (Copy & Use)](#planning-document-template-copy-use)
+- [Part 1: Retrospective](#part-1-retrospective)
+- [Part 2: Q3 Capacity Planning](#part-2-q3-capacity-planning)
+- [Part 3: Q3 Objectives](#part-3-q3-objectives)
+- [Part 4: Cross-Team Dependencies](#part-4-cross-team-dependencies)
+- [Part 5: Risks & Mitigation](#part-5-risks-mitigation)
+- [Part 6: How We Measure Success](#part-6-how-we-measure-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Planning Cadence and Calendar](#planning-cadence-and-calendar)
+- [Measuring Planning Process Quality](#measuring-planning-process-quality)
+- [Seasonal Variations to Account For](#seasonal-variations-to-account-for)
+- [Cross-Functional Planning Coordination](#cross-functional-planning-coordination)
+- [Planning Meeting Agendas](#planning-meeting-agendas)
+- [Handling Mid-Quarter Changes](#handling-mid-quarter-changes)
+- [Async Planning Review Template](#async-planning-review-template)
+- [Planning Review — [Team]](#planning-review-team)
+
 This guide provides a structured approach to quarterly planning that scales across multiple remote teams while keeping async workflows intact and meeting time to a minimum.
 
 ## The Core Framework: Three-Phase Async Planning

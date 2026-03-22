@@ -33,6 +33,20 @@ tags: [remote-work-tools, remote-work]
 
 A remote work playbook is the single source of truth for how your distributed team operates day-to-day. Without one, new hires spend weeks reconstructing informal knowledge, decisions get made inconsistently, and team culture drifts. With a good one, everyone from a new contractor to a senior engineer can answer operational questions without pinging a colleague.
 
+## Table of Contents
+
+- [What a Remote Work Playbook Should Cover](#what-a-remote-work-playbook-should-cover)
+- [Starting Template](#starting-template)
+- [Communication](#communication)
+- [Tooling](#tooling)
+- [Workflow Definitions](#workflow-definitions)
+- [Incident Response](#incident-response)
+- [Automation Examples That Save Time](#automation-examples-that-save-time)
+- [Implementation Strategy](#implementation-strategy)
+- [Choosing Where to Host the Playbook](#choosing-where-to-host-the-playbook)
+- [Making It Stick: Adoption Patterns That Work](#making-it-stick-adoption-patterns-that-work)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+
 This guide walks through building a playbook that your team will actually use—not a static wiki that rots in a shared drive.
 
 ## What a Remote Work Playbook Should Cover

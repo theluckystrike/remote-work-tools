@@ -31,6 +31,20 @@ tags: [remote-work-tools, remote-work]
 
 Use a time zone overlap optimization tool to identify shared working hours across distributed teams, schedule critical meetings during windows that include all zones, and adjust work hours when beneficial. Tools like When2Meet or custom spreadsheets solve this common scheduling pain point.
 
+## Table of Contents
+
+- [The Core Problem](#the-core-problem)
+- [Building a Time Zone Overlap Calculator](#building-a-time-zone-overlap-calculator)
+- [Practical Implementation Approaches](#practical-implementation-approaches)
+- [Integrating with Calendar Systems](#integrating-with-calendar-systems)
+- [Evaluating Existing Tools](#evaluating-existing-tools)
+- [Optimizing Your Meeting Strategy](#optimizing-your-meeting-strategy)
+- [Tools That Actually Calculate Overlap](#tools-that-actually-calculate-overlap)
+- [Real-World Scheduling: Global Team Examples](#real-world-scheduling-global-team-examples)
+- [Handling Daylight Saving Time Transitions](#handling-daylight-saving-time-transitions)
+- [Building a Team Scheduling Culture](#building-a-team-scheduling-culture)
+- [Advanced: Building a Custom Scheduling Tool](#advanced-building-a-custom-scheduling-tool)
+
 ## The Core Problem
 
 Remote teams typically operate across three to six time zones, sometimes more. A meeting that works for your US-based developers may require your European colleagues to join at 7 AM or your Asian team members to stay until 10 PM. Repeatedly scheduling at inconvenient hours leads to burnout, reduced participation, and ultimately, poorer team collaboration.

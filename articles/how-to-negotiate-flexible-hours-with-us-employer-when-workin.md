@@ -31,6 +31,23 @@ tags: [remote-work-tools]
 
 Propose specific alternatives like 10 AM - 4 PM CET core hours (overlapping 2-4 PM US East Coast), showing how this gives the US team morning hours for meetings while you work during peak productivity. Demonstrate your async capability with PR descriptions, async video walkthroughs, and 24-hour code review turnaround for two weeks before the negotiation, then present this track record as proof that flexible hours don't mean unavailability. If denied initially, start with 1-2 flexible days weekly as a trial, document your productivity metrics, then revisit the conversation once you've proven the arrangement works.
 
+## Table of Contents
+
+- [Understanding the Timezone Math](#understanding-the-timezone-math)
+- [Build Your Business Case](#build-your-business-case)
+- [Propose Specific Alternatives](#propose-specific-alternatives)
+- [Address Common Employer Concerns](#address-common-employer-concerns)
+- [Present Your Proposal Professionally](#present-your-proposal-professionally)
+- [use Async Tools to Support Your Case](#use-async-tools-to-support-your-case)
+- [What If Your Request Is Denied?](#what-if-your-request-is-denied)
+- [Comparative Schedules: Europe to US Timezone Mapping](#comparative-schedules-europe-to-us-timezone-mapping)
+- [Building Your Productivity Evidence Document](#building-your-productivity-evidence-document)
+- [Async Capability Evidence (Current Month Example)](#async-capability-evidence-current-month-example)
+- [The Negotiation Conversation Script](#the-negotiation-conversation-script)
+- [Handling the "Always On" Expectation](#handling-the-always-on-expectation)
+- [If Your Negotiation Fails (Backup Strategies)](#if-your-negotiation-fails-backup-strategies)
+- [Legal and HR Considerations](#legal-and-hr-considerations)
+
 ## Understanding the Timezone Math
 
 The first step is knowing exactly what you're working with. US timezones span Eastern (UTC-5), Central (UTC-6), Mountain (UTC-7), and Pacific (UTC-8). If you're in Western Europe (UTC+0/+1), your overlap with US teams ranges from 1-4 hours during standard business hours.
@@ -318,9 +335,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [How to Schedule Meetings Across 8 Hour Timezone Difference](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
-- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
 - [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
-- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
-- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-
+- [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
+- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

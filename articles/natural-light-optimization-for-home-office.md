@@ -33,6 +33,20 @@ tags: [remote-work-tools]
 
 Natural light is one of the most underutilized resources in home offices. Most developers focus on monitor calibration, keyboard choice, and desk setup while ignoring the fundamental environmental factor that affects both productivity and health. Optimizing natural light in your workspace reduces eye strain during long coding sessions, stabilizes your circadian rhythm for better sleep, and creates an environment where you can maintain focus for hours.
 
+## Table of Contents
+
+- [Why Natural Light Matters for Developers](#why-natural-light-matters-for-developers)
+- [Assessing Your Current Light Situation](#assessing-your-current-light-situation)
+- [Practical Light Optimization Strategies](#practical-light-optimization-strategies)
+- [Automated Light Management](#automated-light-management)
+- [Monitor Positioning and Natural Light](#monitor-positioning-and-natural-light)
+- [Circadian Rhythm Optimization](#circadian-rhythm-optimization)
+- [Light Measurement and Optimization Tools](#light-measurement-and-optimization-tools)
+- [Product Recommendations for Light Optimization](#product-recommendations-for-light-optimization)
+- [Home Office Lighting Setup](#home-office-lighting-setup)
+- [Measuring Impact on Your Productivity](#measuring-impact-on-your-productivity)
+- [Quick Wins for Immediate Improvement](#quick-wins-for-immediate-improvement)
+
 This guide covers practical strategies for maximizing natural light, automated solutions for light management, and how to integrate these approaches into a developer-friendly workflow.
 
 ## Why Natural Light Matters for Developers

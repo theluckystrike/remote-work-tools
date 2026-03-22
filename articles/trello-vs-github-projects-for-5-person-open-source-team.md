@@ -32,6 +32,25 @@ tags: [remote-work-tools, comparison]
 {% raw %}
 Choosing between Trello and GitHub Projects for a five-person open source team comes down to how tightly you want your project management tied to your code workflow. Both tools handle boards, cards, and assignments well, but the integration differences matter when you're managing issues, pull requests, and releases alongside your daily development work.
 
+## Table of Contents
+
+- [GitHub Projects: Native Code Integration](#github-projects-native-code-integration)
+- [Trello: Flexibility and Visual Simplicity](#trello-flexibility-and-visual-simplicity)
+- [Comparing the Two](#comparing-the-two)
+- [Practical Decision Framework](#practical-decision-framework)
+- [Hybrid Approach](#hybrid-approach)
+- [Real-World Example](#real-world-example)
+- [Which Fits Your Team](#which-fits-your-team)
+- [Detailed Feature Analysis](#detailed-feature-analysis)
+- [Detailed Comparison Table](#detailed-comparison-table)
+- [Use Case Recommendations](#use-case-recommendations)
+- [Hybrid Implementation Strategy](#hybrid-implementation-strategy)
+- [Real-World Decision Tree](#real-world-decision-tree)
+- [Implementation Walkthrough: GitHub Projects](#implementation-walkthrough-github-projects)
+- [Implementation Walkthrough: Trello](#implementation-walkthrough-trello)
+- [Migration Path: Starting Small and Scaling](#migration-path-starting-small-and-scaling)
+- [Monitoring and Metrics](#monitoring-and-metrics)
+
 ## GitHub Projects: Native Code Integration
 
 GitHub Projects lives inside your repository. This means issue tracking, pull requests, and project boards share the same context without manual syncing.

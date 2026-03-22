@@ -33,6 +33,19 @@ tags: [remote-work-tools]
 
 A portable dev environment solves the biggest friction in remote development: getting a new machine, a new teammate, or a new CI environment up and running in minutes instead of hours. Docker makes the environment a file that you check into version control alongside your code.
 
+## Table of Contents
+
+- [The Goal: One Command Setup](#the-goal-one-command-setup)
+- [Writing a Good Dev Dockerfile](#writing-a-good-dev-dockerfile)
+- [Docker Compose for Full Stack Dev](#docker-compose-for-full-stack-dev)
+- [Dev Environment Scripts](#dev-environment-scripts)
+- [Persisting Data and Dotfiles](#persisting-data-and-dotfiles)
+- [Managing Multiple Projects](#managing-multiple-projects)
+- [Multi-Architecture Builds (Apple Silicon + Linux CI)](#multi-architecture-builds-apple-silicon-linux-ci)
+- [CI/CD Integration](#cicd-integration)
+- [Choosing a Base Image: Comparison](#choosing-a-base-image-comparison)
+- [Keeping Images Up to Date](#keeping-images-up-to-date)
+
 This guide builds a complete portable dev environment: a base Dockerfile, a Docker Compose setup with services, and a VS Code dev container config — all usable from any machine with Docker installed.
 
 ## The Goal: One Command Setup

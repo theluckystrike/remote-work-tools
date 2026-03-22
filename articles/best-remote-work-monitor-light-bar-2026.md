@@ -18,6 +18,20 @@ intent-checked: true
 
 ## Overview
 
+## Table of Contents
+
+- [Overview](#overview)
+- [The Eye Strain Problem](#the-eye-strain-problem)
+- [Top Monitor Light Bars Ranked](#top-monitor-light-bars-ranked)
+- [Detailed Comparison Table](#detailed-comparison-table)
+- [Buying Recommendation Matrix](#buying-recommendation-matrix)
+- [Installation Guide: BenQ ScreenBar Pro (Most Popular)](#installation-guide-benq-screenbar-pro-most-popular)
+- [Optimal Settings for Remote Work](#optimal-settings-for-remote-work)
+- [Health Benefits Data](#health-benefits-data)
+- [Comparison: Light Bar vs. Other Solutions](#comparison-light-bar-vs-other-solutions)
+- [Troubleshooting](#troubleshooting)
+- [Long-Term Durability](#long-term-durability)
+
 Monitor light bars reduce eye strain during long work sessions by eliminating the contrast between bright monitor and dark desk surroundings. Remote workers spend 8+ hours daily staring at screens. Proper ambient lighting decreases headaches, eye fatigue, and improves focus. This guide compares actual monitor light bars with pricing, brightness, and color temperature specs.
 
 ## The Eye Strain Problem

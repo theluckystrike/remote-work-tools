@@ -116,6 +116,13 @@ Admin dashboard shows:
 
 ### LinkedIn Learning
 
+## Table of Contents
+
+- [Structuring a Learning Program](#structuring-a-learning-program)
+- [Measuring Learning ROI](#measuring-learning-roi)
+- [Implementation Timeline](#implementation-timeline)
+- [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
+
 **Best for**: Professional development tied to career advancement. Integrates with LinkedIn profiles.
 
 **Pricing**: $8-15/person/month for team subscriptions

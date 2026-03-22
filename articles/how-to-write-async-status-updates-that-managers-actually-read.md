@@ -33,6 +33,25 @@ tags: [remote-work-tools]
 
 Craft status updates managers read by opening with the single most important insight (impact or blocker), organizing supporting details into 3-4 bullet points, and closing with a clear ask. This format respects attention bandwidth while ensuring critical information surfaces through the noise.
 
+## Table of Contents
+
+- [Why Most Status Updates Fail](#why-most-status-updates-fail)
+- [The SPARC Framework for Effective Async Updates](#the-sparc-framework-for-effective-async-updates)
+- [Practical Templates](#practical-templates)
+- [Week of [Date]](#week-of-date)
+- [[Date] Update](#date-update)
+- [Examples That Work](#examples-that-work)
+- [Writing Tips That Drive Results](#writing-tips-that-drive-results)
+- [Common Mistakes to Fix](#common-mistakes-to-fix)
+- [Adapting for Your Team Culture](#adapting-for-your-team-culture)
+- [Tools That Support Async Updates](#tools-that-support-async-updates)
+- [Advanced Techniques for Maximum Impact](#advanced-techniques-for-maximum-impact)
+- [Building Your Update Habit](#building-your-update-habit)
+- [Status Update Red Flags Your Manager Notices](#status-update-red-flags-your-manager-notices)
+- [Context About Your Manager Matters](#context-about-your-manager-matters)
+- [Recovery From Bad Update Patterns](#recovery-from-bad-update-patterns)
+- [Status Updates As Career Documentation](#status-updates-as-career-documentation)
+
 ## Why Most Status Updates Fail
 
 Before looking at solutions, let's identify why typical status updates fall flat:
@@ -380,11 +399,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
 - [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
 - [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
-- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
 - [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
-- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-
+- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

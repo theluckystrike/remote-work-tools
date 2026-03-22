@@ -18,6 +18,22 @@ voice-checked: true
 
 Running security for a sub-20 person remote company means you cannot afford enterprise-scale solutions with enterprise-scale price tags. You also cannot rely on physical office security—every employee device is both a gateway and a target. This guide covers practical security tools with real implementation patterns, configuration examples, and honest assessments of what works when your team is distributed across multiple locations.
 
+## Table of Contents
+
+- [The Remote Security Challenge](#the-remote-security-challenge)
+- [Identity and Access Management](#identity-and-access-management)
+- [Network Security: Beyond Traditional VPNs](#network-security-beyond-traditional-vpns)
+- [Endpoint Protection](#endpoint-protection)
+- [Secrets Management](#secrets-management)
+- [Implementation Priorities](#implementation-priorities)
+- [What to Avoid](#what-to-avoid)
+- [Build Your Stack Incrementally](#build-your-stack-incrementally)
+- [Tool Stack Recommendations by Company Stage](#tool-stack-recommendations-by-company-stage)
+- [Security Audit Template for Small Teams](#security-audit-template-for-small-teams)
+- [Security Audit Checklist](#security-audit-checklist)
+- [Incident Response Plan for Small Teams](#incident-response-plan-for-small-teams)
+- [Cost-Benefit Analysis: Security Investment](#cost-benefit-analysis-security-investment)
+
 ## The Remote Security Challenge
 
 Your attack surface expands with every remote worker. There is no perimeter firewall protecting employee laptops. Home networks vary from properly segmented setups to a single router with default credentials. Public WiFi usage, Shadow IT, and the sheer number of devices accessing company data all compound the risk.
@@ -396,11 +412,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [Best Endpoint Security Solution for Remote Employees](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
 - [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
-- [Best Endpoint Security Solution for Remote Employees Using](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
-- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
-- [Deal Brief: [Company Name]](/remote-work-tools/how-to-set-up-remote-sales-team-deal-room-with-shared-docume/)
-
+- [Best Security Information Event Management Tool for Remote](/remote-work-tools/best-security-information-event-management-tool-for-remote-first-companies-2026/)
+- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -32,6 +32,22 @@ tags: [remote-work-tools, workflow, automation]
 {% raw %}
 Set up ClickUp automations by creating trigger-action rules: define a trigger event (like a status change to "Bug Reported") and an action (like setting priority to High and assigning to your triage team). Start with three high-impact automations--bug triage routing, code review assignment with round-robin, and sprint rollover for incomplete tasks--then expand as your workflow stabilizes. Below are ready-to-use automation recipes with webhook integration examples for GitHub, CI/CD pipelines, and Slack notifications.
 
+## Table of Contents
+
+- [Setting Up Your First Automation](#setting-up-your-first-automation)
+- [Automating Code Review Workflows](#automating-code-review-workflows)
+- [Managing Sprint Cycles](#managing-sprint-cycles)
+- [Notifications That Actually Help](#notifications-that-actually-help)
+- [Custom Fields and Status Automation](#custom-fields-and-status-automation)
+- [Practical Integration Example](#practical-integration-example)
+- [Best Practices for Developer Automations](#best-practices-for-developer-automations)
+- [Advanced Automation Recipes for Development Teams](#advanced-automation-recipes-for-development-teams)
+- [ClickUp Pricing and Value Assessment](#clickup-pricing-and-value-assessment)
+- [Integration Patterns with GitHub and CI/CD](#integration-patterns-with-github-and-cicd)
+- [ClickUp Automation Troubleshooting Guide](#clickup-automation-troubleshooting-guide)
+- [Decision Framework: When to Automate vs. When to Use Templates](#decision-framework-when-to-automate-vs-when-to-use-templates)
+- [Scaling Automations Across Multiple Teams](#scaling-automations-across-multiple-teams)
+
 ## Setting Up Your First Automation
 
 Automations in ClickUp follow a simple trigger-action pattern. You define when something should happen (the trigger), and what should occur (the action). Here's a practical example for managing bug triage:
@@ -364,10 +380,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Notion vs ClickUp for Engineering Teams: A Practical](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
-- [Best Power Strip for Developer Desk Setup: A Practical Guide](/remote-work-tools/best-power-strip-for-developer-desk-setup/)
-- [How to Track Deep Work Hours as a Developer: A Practical](/remote-work-tools/how-to-track-deep-work-hours-as-developer/)
-- [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
-- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
-
+- [Notion vs ClickUp for a Remote Startup Under 10 Employees](/remote-work-tools/notion-vs-clickup-for-a-remote-startup-under-10-employees/)
+- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

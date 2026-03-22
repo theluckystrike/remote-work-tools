@@ -18,6 +18,13 @@ voice-checked: true
 
 When your remote team relies on dozens of SaaS tools, slow-performing applications silently drain productivity. A lagging project management platform, a sluggish documentation system, or a slow CI/CD pipeline can cost hours per week per employee. Learning how to monitor remote team tool response times enables you to identify bottleneck apps before they become chronic problems.
 
+## Table of Contents
+
+- [Why Response Time Monitoring Matters for Remote Teams](#why-response-time-monitoring-matters-for-remote-teams)
+- [Prerequisites](#prerequisites)
+- [Practical Next Steps](#practical-next-steps)
+- [Troubleshooting](#troubleshooting)
+
 This guide covers practical approaches for developers and power users to measure, track, and analyze tool performance across remote workflows—without requiring expensive APM vendors.
 
 ## Why Response Time Monitoring Matters for Remote Teams

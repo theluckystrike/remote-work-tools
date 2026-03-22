@@ -28,6 +28,16 @@ voice-checked: true
 
 Remote real estate photographers can scale their delivery by implementing automation for batch image processing, standardized tour generation, and cloud-based delivery infrastructure. This guide provides proven technical strategies and code examples that enable photographers to deliver high-quality virtual tours faster while managing multiple properties across distributed locations. Automation at each stage—from image optimization through client access—separates sustainable operations from burnout.
 
+## Table of Contents
+
+- [The Remote Photography Delivery Challenge](#the-remote-photography-delivery-challenge)
+- [Workflow Automation Fundamentals](#workflow-automation-fundamentals)
+- [Cloud Storage and Delivery Architecture](#cloud-storage-and-delivery-architecture)
+- [Quality Assurance Automation](#quality-assurance-automation)
+- [Measuring and Optimizing Performance](#measuring-and-optimizing-performance)
+- [Automating Client Notifications on Tour Delivery](#automating-client-notifications-on-tour-delivery)
+- [Handling High-Demand Periods with a Job Queue](#handling-high-demand-periods-with-a-job-queue)
+
 ## The Remote Photography Delivery Challenge
 
 Remote real estate photographers often face unique challenges that differ from traditional on-site photographers. Properties may be located hundreds of miles away, access arrangements vary, and clients expect professional-grade virtual tours delivered within tight timelines. The key to success lies in automation, standardized processes, and reliable tooling.

@@ -16,6 +16,25 @@ voice-checked: true
 
 If you are working remotely or managing a distributed team, you have likely encountered situations where Zoom Companion Mode fails to connect to your room system. This issue can disrupt meetings, cause unnecessary delays, and affect productivity across multiple locations. Understanding how to diagnose and resolve these connectivity problems is essential for maintaining smooth virtual collaboration.
 
+## Table of Contents
+
+- [Understanding Zoom Companion Mode and Room System Connectivity](#understanding-zoom-companion-mode-and-room-system-connectivity)
+- [Step-by-Step Troubleshooting Guide](#step-by-step-troubleshooting-guide)
+- [Preventing Future Connection Issues](#preventing-future-connection-issues)
+- [Common Causes Summary](#common-causes-summary)
+- [Network Architecture Deep Dive](#network-architecture-deep-dive)
+- [Zoom Room System vs. Third-Party Hardware](#zoom-room-system-vs-third-party-hardware)
+- [Companion Mode Connection Methods](#companion-mode-connection-methods)
+- [Advanced Troubleshooting for IT Administrators](#advanced-troubleshooting-for-it-administrators)
+- [Mobile Device Considerations](#mobile-device-considerations)
+- [Hybrid Meeting Scenarios](#hybrid-meeting-scenarios)
+- [Zoom Account Licensing for Companion Mode Features](#zoom-account-licensing-for-companion-mode-features)
+- [Comparing Companion Mode to Alternative Room System Features](#comparing-companion-mode-to-alternative-room-system-features)
+- [Mobile Companion Mode Specifics](#mobile-companion-mode-specifics)
+- [Zoom Account Permissions Configuration](#zoom-account-permissions-configuration)
+- [Escalation Path for Persistent Issues](#escalation-path-for-persistent-issues)
+- [Preventative Maintenance Schedule](#preventative-maintenance-schedule)
+
 This guide provides practical troubleshooting steps specifically designed for remote workers and distributed teams experiencing Zoom Companion Mode connection issues in 2026.
 
 ## Understanding Zoom Companion Mode and Room System Connectivity

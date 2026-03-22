@@ -18,6 +18,22 @@ tags: [remote-work-tools, remote-work]
 
 ## The Core Challenge of Delegating Across Time Zones
 
+## Table of Contents
+
+- [The Core Challenge of Delegating Across Time Zones](#the-core-challenge-of-delegating-across-time-zones)
+- [The Four Tiers of Delegation](#the-four-tiers-of-delegation)
+- [Engineering Delegation Matrix](#engineering-delegation-matrix)
+- [Async Decision Documentation](#async-decision-documentation)
+- [Decision: [Short Title]](#decision-short-title)
+- [Decision: Migrate authentication from JWT to session cookies](#decision-migrate-authentication-from-jwt-to-session-cookies)
+- [The Manager's Async Workflow](#the-managers-async-workflow)
+- [Delegation Check: Know When to Intervene](#delegation-check-know-when-to-intervene)
+- [Time Zone Overlap Optimization](#time-zone-overlap-optimization)
+- [Building Delegation Confidence](#building-delegation-confidence)
+- [Measuring Delegation Effectiveness](#measuring-delegation-effectiveness)
+- [Scaling Delegation to 30+ Reports](#scaling-delegation-to-30-reports)
+- [Delegation Readiness Checklist for New Managers](#delegation-readiness-checklist-for-new-managers)
+
 Delegation in co-located teams relies on quick feedback loops—walk to someone's desk, ask a question, get an answer. When your team spans San Francisco, London, and Sydney, that model breaks down. The average round-trip time for a synchronous question jumps from minutes to hours or days. Waiting for responses during working hours in every time zone becomes a full-time job.
 
 Most remote managers either over-correct by maintaining tight synchronous schedules (burning themselves out) or under-corrected by becoming bottlenecks (slowing everything down). A proper delegation framework solves this by making delegation asynchronous by default while preserving the speed and quality of decisions.

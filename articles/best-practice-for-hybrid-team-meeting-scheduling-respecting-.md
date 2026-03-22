@@ -18,6 +18,18 @@ voice-checked: true
 
 Hybrid team meeting scheduling requires deliberate design choices that account for timezone differences, location preferences, and communication equity. When your team spans both remote workers and office-based employees, the default approach—scheduling around whoever sits in the physical office—creates systematic disadvantages for remote participants. This guide provides actionable patterns for building meeting systems that work fairly across all work arrangements.
 
+## Table of Contents
+
+- [Understanding the Core Challenge](#understanding-the-core-challenge)
+- [Time Slot Selection Strategy](#time-slot-selection-strategy)
+- [Meeting Format Patterns](#meeting-format-patterns)
+- [Tooling for Preference Respect](#tooling-for-preference-respect)
+- [Decision Framework: When to Meet Synchronously](#decision-framework-when-to-meet-synchronously)
+- [Measuring Success](#measuring-success)
+- [Meeting Scheduling Implementation: Real Examples](#meeting-scheduling-implementation-real-examples)
+- [Building Meeting-Free Blocks into Calendar Systems](#building-meeting-free-blocks-into-calendar-systems)
+- [Auditing Your Current Meeting Load](#auditing-your-current-meeting-load)
+
 ## Understanding the Core Challenge
 
 The fundamental problem in hybrid scheduling isn't technical—it's social. Office-based team members have implicit advantages: spontaneous conversations, body language visibility, and easier sidebar discussions. Remote participants often struggle with audio quality, feeling "present" in conversations, and having their contributions equally valued. Meeting schedules that ignore these dynamics amplify these gaps.
@@ -356,10 +368,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 ## Related Articles
 
 - [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
-- [Python script for scheduling client communication boundaries](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
-- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
 - [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -31,6 +31,23 @@ tags: [remote-work-tools]
 
 Track your deep work hours by logging each focus session's start time, end time, and task in a plain text file, then review the log weekly to identify your peak-productivity windows and realistic capacity. For less friction, use CLI tools like `timetrap` (stores data in local SQLite) or wire a git post-commit hook that timestamps every commit automatically -- both methods capture deep work data without interrupting your flow.
 
+## Table of Contents
+
+- [Why Track Deep Work Hours](#why-track-deep-work-hours)
+- [Manual Tracking with Simple Time Logs](#manual-tracking-with-simple-time-logs)
+- [CLI Tools for Automated Tracking](#cli-tools-for-automated-tracking)
+- [Integrating with Development Workflow](#integrating-with-development-workflow)
+- [Protecting Your Tracked Deep Work Time](#protecting-your-tracked-deep-work-time)
+- [Analyzing Your Data](#analyzing-your-data)
+- [Advanced: Creating Your Deep Work Dashboard](#advanced-creating-your-deep-work-dashboard)
+- [Weekly Review Process](#weekly-review-process)
+- [Metrics](#metrics)
+- [Patterns Identified](#patterns-identified)
+- [Adjustments for Next Week](#adjustments-for-next-week)
+- [One Win](#one-win)
+- [Protecting Deep Work From Meeting Creep](#protecting-deep-work-from-meeting-creep)
+- [Key Metrics to Track](#key-metrics-to-track)
+
 ## Why Track Deep Work Hours
 
 When you track your deep work hours, you gain insights that would otherwise remain invisible. You discover which hours of day produce your best output, how much actual focused time certain projects require, and where distractions are bleeding your productivity. Without tracking, developers tend to overestimate their focused time by significant margins—often by 50% or more.
@@ -373,10 +390,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
-- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
-- [Best Power Strip for Developer Desk Setup: A Practical Guide](/remote-work-tools/best-power-strip-for-developer-desk-setup/)
-- [ClickUp Automations for Developer Workflows: A Practical](/remote-work-tools/clickup-automations-for-developer-workflows/)
+- [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
+- [RescueTime vs Toggl Track](/remote-work-tools/rescue-time-vs-toggl-track-productivity-comparison/)
 - [How to Manage Work-Life Balance as a Remote Developer](/remote-work-tools/how-to-manage-work-life-balance-remote-developer/)
-
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
+- [Hybrid Work Productivity Comparison Study](/remote-work-tools/hybrid-work-productivity-comparison-study-remote-vs-office-vs-hybrid-days-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -33,6 +33,25 @@ tags: [remote-work-tools, remote-work]
 
 The Taiwan Gold Card provides a four-in-one work permit combining visa, residency, and re-entry rights for remote tech workers earning NT$1,600,000+ ($50,000 USD) annually, requiring only 30-90 business days to process entirely from overseas. Unlike employer-sponsored work visas, the Gold Card lets you work for international clients while establishing residency, accessing Taiwan's healthcare system, and maintaining flexibility to switch clients or become self-employed—making it an ideal pathway for developers seeking a base in Asia with first-world infrastructure.
 
+## Table of Contents
+
+- [Eligibility Requirements for Tech Workers](#eligibility-requirements-for-tech-workers)
+- [Required Documents](#required-documents)
+- [Application Process Step by Step](#application-process-step-by-step)
+- [Entering Taiwan on Your Gold Card](#entering-taiwan-on-your-gold-card)
+- [Maintaining Your Gold Card Status](#maintaining-your-gold-card-status)
+- [Converting to Permanent Residence](#converting-to-permanent-residence)
+- [Practical Tips for Remote Tech Workers](#practical-tips-for-remote-tech-workers)
+- [Tax Implications for Remote Workers on Gold Card](#tax-implications-for-remote-workers-on-gold-card)
+- [Healthcare and Insurance on Gold Card](#healthcare-and-insurance-on-gold-card)
+- [Building Your Taiwan Professional Network](#building-your-taiwan-professional-network)
+- [Extending Your Gold Card](#extending-your-gold-card)
+- [Alternative Visas Comparison](#alternative-visas-comparison)
+- [Post-Arrival Setup Timeline](#post-arrival-setup-timeline)
+- [Real-World Example: Developer Setup in Taiwan](#real-world-example-developer-setup-in-taiwan)
+- [Learning Mandarin as Gold Card Holder](#learning-mandarin-as-gold-card-holder)
+- [Visa Compliance and Record-Keeping](#visa-compliance-and-record-keeping)
+
 ## Eligibility Requirements for Tech Workers
 
 The Taiwan Gold Card targets foreign professionals across multiple industries, with tech workers comprising a significant portion of approved applicants. You qualify if you meet at least one of the following criteria:
@@ -343,11 +362,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
-- [eSIM vs Local SIM Card for Digital Nomads](/remote-work-tools/esim-vs-local-sim-card-for-digital-nomads/)
-- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
-- [Best SIM Card and Mobile Data Plan for Remote Workers in](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
-
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
+- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [Mexico Temporary Resident Visa for Remote Workers Earning](/remote-work-tools/mexico-temporary-resident-visa-for-remote-workers-earning-fo/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

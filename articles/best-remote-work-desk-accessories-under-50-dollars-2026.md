@@ -18,6 +18,25 @@ intent-checked: true
 
 Remote workers spend 8+ hours daily at their desk, but most focus spending on monitors or chairs while neglecting accessories that actually reduce pain and clutter. This guide covers eight proven accessories under $50 each that meaningfully improve ergonomics, cable management, and desk organization. Quality matters here—cheap accessories break quickly, creating false economy. Each recommendation includes actual prices, real alternatives, and specific use cases.
 
+## Table of Contents
+
+- [Cable Management: BlueLounge CableBox vs Alternatives](#cable-management-bluelounge-cablebox-vs-alternatives)
+- [Monitor Risers: Creating Desk Real Estate and Ergonomics](#monitor-risers-creating-desk-real-estate-and-ergonomics)
+- [Desk Mats and Desk Pads: Protecting Surfaces and Defining Space](#desk-mats-and-desk-pads-protecting-surfaces-and-defining-space)
+- [Phone Stands: Getting Screens to Eye Level for Video Calls](#phone-stands-getting-screens-to-eye-level-for-video-calls)
+- [USB Hubs: Consolidating Ports Without Adapter Hell](#usb-hubs-consolidating-ports-without-adapter-hell)
+- [Keyboard Accessories: Wrist Rests and Ergonomic Additions](#keyboard-accessories-wrist-rests-and-ergonomic-additions)
+- [Task Lighting: Reducing Eye Strain from Screen Glare](#task-lighting-reducing-eye-strain-from-screen-glare)
+- [Document Holder: Reducing Neck Strain When Referencing Materials](#document-holder-reducing-neck-strain-when-referencing-materials)
+- [Complete Under-$50 Desk Setup: Total Cost](#complete-under-50-desk-setup-total-cost)
+- [Buying Strategy and Longevity](#buying-strategy-and-longevity)
+- [Keyboard Stands: Proper Typing Height and Posture](#keyboard-stands-proper-typing-height-and-posture)
+- [Ergonomic Mat: Standing Desk Comfort](#ergonomic-mat-standing-desk-comfort)
+- [Desk Lamp Positioning: Reducing Screen Glare Properly](#desk-lamp-positioning-reducing-screen-glare-properly)
+- [Cable Management After Accessories Install](#cable-management-after-accessories-install)
+- [The Complete Desk Setup: Month-by-Month](#the-complete-desk-setup-month-by-month)
+- [Maintenance: Keeping Accessories in Good Condition](#maintenance-keeping-accessories-in-good-condition)
+
 ## Cable Management: BlueLounge CableBox vs Alternatives
 
 Cables create visual clutter and make desk changes difficult. Proper cable management isn't aesthetic—it's practical. When you need to unplug your laptop quickly, tangled cables slow you down.

@@ -17,6 +17,19 @@ tags: [remote-work-tools, best-of, remote-work]
 {% raw %}
 Async customer discovery interviews let product managers collect video responses across time zones without scheduling live calls, scaling customer research faster while creating a searchable archive. Tools like Rile, Loom, and HomeBase support timestamped notes, question templates, and API access for programmatic analysis of qualitative data. This guide covers setup, question design, and integration patterns for distributed product teams.
 
+## Table of Contents
+
+- [What Makes an Async Interview Tool Effective](#what-makes-an-async-interview-tool-effective)
+- [Building a Custom Async Interview Pipeline](#building-a-custom-async-interview-pipeline)
+- [Open Source Alternatives Worth Considering](#open-source-alternatives-worth-considering)
+- [Evaluating Commercial Platforms](#evaluating-commercial-platforms)
+- [Recommended Workflow for Remote Product Managers](#recommended-workflow-for-remote-product-managers)
+- [Detailed Tool Pricing and Comparison](#detailed-tool-pricing-and-comparison)
+- [Building a Custom Async Interview System: Step-by-Step](#building-a-custom-async-interview-system-step-by-step)
+- [Hybrid Approach: Managed Frontend + Custom Backend](#hybrid-approach-managed-frontend-custom-backend)
+- [Async Interview Synthesis at Scale](#async-interview-synthesis-at-scale)
+- [Common Pitfalls in Async Interview Programs](#common-pitfalls-in-async-interview-programs)
+
 ## What Makes an Async Interview Tool Effective
 
 The ideal tool for async customer discovery combines several capabilities: video recording with timestamped notes, structured question templates, easy sharing with stakeholders, and integration with your existing workflow. Most importantly, it should produce artifacts that your team can reference long after the interview concludes.
@@ -472,11 +485,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Run Remote Workshop for Product Managers Defining](/remote-work-tools/how-to-run-remote-workshop-for-product-managers-defining-qua/)
-- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
-- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
-
+- [Async Product Discovery Process for Remote Teams](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Best Tool for Remote Team Async Introductions](/remote-work-tools/best-tool-for-remote-team-async-introductions-connecting-new/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

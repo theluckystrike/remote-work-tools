@@ -17,6 +17,22 @@ voice-checked: true
 
 Browser extensions can transform your development workflow, saving hours of repetitive tasks and improving how you interact with web applications. This guide covers the best browser extensions for developer productivity, focusing on tools that deliver measurable time savings without adding unnecessary complexity.
 
+## Table of Contents
+
+- [What Makes a Browser Extension Valuable for Developers](#what-makes-a-browser-extension-valuable-for-developers)
+- [Tab Management and Organization](#tab-management-and-organization)
+- [Code Inspection and Debugging Tools](#code-inspection-and-debugging-tools)
+- [Documentation and Reference Extensions](#documentation-and-reference-extensions)
+- [API Testing and Network Tools](#api-testing-and-network-tools)
+- [Productivity Enhancers](#productivity-enhancers)
+- [Extension Stack Recommendations by Workflow](#extension-stack-recommendations-by-workflow)
+- [Performance Monitoring Extension Impact](#performance-monitoring-extension-impact)
+- [Advanced: Custom Extension Creation](#advanced-custom-extension-creation)
+- [Extension Audit Checklist](#extension-audit-checklist)
+- [Q2 Extension Audit (March 2026)](#q2-extension-audit-march-2026)
+- [Extension Management Best Practices](#extension-management-best-practices)
+- [Security Considerations](#security-considerations)
+
 ## What Makes a Browser Extension Valuable for Developers
 
 The most useful extensions share several characteristics: they fit into your existing workflow, solve specific pain points, and don't drain system resources. Before installing every extension you find, evaluate each against your actual needs. A focused set of powerful tools outperforms a cluttered toolbar full of rarely-used utilities.

@@ -16,6 +16,26 @@ tags: [remote-work-tools, best-of]
 
 Working late-night coding sessions demands proper task lighting to protect your eyes and maintain productivity. Poor lighting causes eye strain, headaches, and long-term vision problems. This guide covers the best task lighting solutions for developers who code at night, from monitor lights to desk lamps, with practical setup recommendations.
 
+## Table of Contents
+
+- [Why Task Lighting Matters for Night Coding](#why-task-lighting-matters-for-night-coding)
+- [Types of Task Lighting for Your Desk](#types-of-task-lighting-for-your-desk)
+- [Understanding Color Temperature](#understanding-color-temperature)
+- [Practical Setup Recommendations](#practical-setup-recommendations)
+- [Recommended Products by Budget](#recommended-products-by-budget)
+- [Advanced Night Coding Optimization](#advanced-night-coding-optimization)
+- [Measuring Your Lighting Setup](#measuring-your-lighting-setup)
+- [Additional Eye Strain Prevention Tips](#additional-eye-strain-prevention-tips)
+- [Practical Night Coding Workflow](#practical-night-coding-workflow)
+- [Preventing and Treating Blue Light Overexposure](#preventing-and-treating-blue-light-overexposure)
+- [Seasonal Adjustments to Your Lighting](#seasonal-adjustments-to-your-lighting)
+- [Measuring Lighting Quality in Your Setup](#measuring-lighting-quality-in-your-setup)
+- [Lighting for Different Coding Tasks](#lighting-for-different-coding-tasks)
+- [Energy Efficiency and Long-Term Costs](#energy-efficiency-and-long-term-costs)
+- [Troubleshooting Lighting Problems](#troubleshooting-lighting-problems)
+- [Creating Optimal Night Coding Lighting: The Complete Setup](#creating-optimal-night-coding-lighting-the-complete-setup)
+- [Advanced: Connecting Lights to Productivity Tools](#advanced-connecting-lights-to-productivity-tools)
+
 ## Why Task Lighting Matters for Night Coding
 
 When you're coding at night, you're typically staring at a bright screen in a dark room. This creates a high-contrast environment that strains your eyes. The solution isn't to flood your room with light—that disrupts your circadian rhythm and makes it harder to sleep afterward. Instead, you need targeted task lighting that reduces screen glare while providing enough illumination for your workspace.
@@ -417,10 +437,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
 - [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
-- [How to Reduce Eye Strain as a Remote Developer](/remote-work-tools/how-to-reduce-eye-strain-remote-developer/)
-- [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
-- [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
-- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
-
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
+- [Best Smart Lighting for Home Office Developers](/remote-work-tools/best-smart-lighting-for-home-office-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

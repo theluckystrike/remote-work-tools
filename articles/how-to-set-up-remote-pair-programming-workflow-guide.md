@@ -18,6 +18,13 @@ intent-checked: true
 
 Use VS Code Live Share if your team already works in VS Code and needs instant pair programming with shared editing, cursor visibility, and integrated audio (free, included with VS Code). Use JetBrains Code With Me if you're in PyCharm, IntelliJ, or Goland and need IDE-native pairing with full language tooling (paid, $8.99/month or $89.99/year per participant). Use tmux + SSH if you need zero-dependency terminal-based pairing across Unix systems or need to pair on remote servers directly. This guide walks through setup, session management, and best practices for each tool.
 
+## Table of Contents
+
+- [Why Pair Programming Works Better Remote](#why-pair-programming-works-better-remote)
+- [Prerequisites](#prerequisites)
+- [Comparison: When to Use Each Tool](#comparison-when-to-use-each-tool)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Pair Programming Works Better Remote
 
 In-office pairing is natural: you share a screen and keyboard effortlessly. Remote pairing requires intentional tooling. The best tools give both participants equal control of the code, synchronized cursor visibility, and smooth audio for discussion. They also let the "driver" stay focused while the "observer" navigates and thinks strategically.
@@ -414,10 +421,11 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ## Related Articles
 
-- [How to Set Up Remote Pair Programming Sessions](/how-to-set-up-remote-pair-programming-sessions-guide/)
-- [How to Set Up Remote Design Handoff Workflow](/how-to-set-up-remote-design-handoff-workflow-between-designe/)
-- [How to Set Up Remote Finance Team Approval Workflow](/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
-
+- [How to Set Up Remote Pair Programming Sessions in 2026](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-2026/)
+- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
+- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
+- [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
+- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

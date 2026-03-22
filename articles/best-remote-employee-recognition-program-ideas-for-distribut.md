@@ -17,6 +17,23 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Start with Slack #kudos channels for peer-to-peer recognition, add Loom video shoutouts from managers, and implement GitHub-based recognition workflows for developer teams. Remote teams lack the casual office interactions that naturally create recognition moments, so distributed teams need structured programs that celebrate contributions without requiring significant budgets. This guide covers practical employee recognition program ideas that work well for remote teams with limited resources and code examples you can implement immediately.
 
+## Table of Contents
+
+- [Peer Recognition Channels in Slack](#peer-recognition-channels-in-slack)
+- [Async Video Recognition with Loom](#async-video-recognition-with-loom)
+- [GitHub-Based Recognition Systems](#github-based-recognition-systems)
+- [Digital Badge Systems](#digital-badge-systems)
+- [Virtual Coffee or Lunch Sessions](#virtual-coffee-or-lunch-sessions)
+- [Skill-Sharing Recognition](#skill-sharing-recognition)
+- [Anniversary and Milestone Celebrations](#anniversary-and-milestone-celebrations)
+- [Recognition Budget Allocation](#recognition-budget-allocation)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Budget Breakdown for Distributed Teams](#budget-breakdown-for-distributed-teams)
+- [Recognition Program Implementation Roadmap](#recognition-program-implementation-roadmap)
+- [Recognition Program for Distributed Teams Across Time Zones](#recognition-program-for-distributed-teams-across-time-zones)
+- [Measuring Recognition Program Success](#measuring-recognition-program-success)
+- [Common Recognition Program Mistakes](#common-recognition-program-mistakes)
+
 ## Peer Recognition Channels in Slack
 
 Creating a dedicated Slack channel for shoutouts costs nothing and builds a culture of appreciation. Set up a channel like `#kudos` or `#wins` where team members can recognize each other's contributions throughout the week.

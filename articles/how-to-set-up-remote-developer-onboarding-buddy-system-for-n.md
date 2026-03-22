@@ -32,6 +32,21 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 A well-structured buddy system transforms remote developer onboarding from a chaotic scramble into a predictable, supportive process. New hires who receive consistent guidance from an assigned buddy integrate faster, report higher satisfaction, and reach productivity benchmarks sooner than those left to figure things out alone.
 
+## Table of Contents
+
+- [Why Remote Developers Need a Buddy System](#why-remote-developers-need-a-buddy-system)
+- [Step 1: Define Buddy Responsibilities](#step-1-define-buddy-responsibilities)
+- [Key Touchpoints](#key-touchpoints)
+- [What Buddies Should NOT Do](#what-buddies-should-not-do)
+- [Step 2: Choose Buddy Assignment Strategy](#step-2-choose-buddy-assignment-strategy)
+- [Step 3: Automate Buddy Assignment](#step-3-automate-buddy-assignment)
+- [Step 4: Create Buddy Onboarding Materials](#step-4-create-buddy-onboarding-materials)
+- [Step 5: Track Buddy System Effectiveness](#step-5-track-buddy-system-effectiveness)
+- [New Hire Feedback Survey (Day 30)](#new-hire-feedback-survey-day-30)
+- [Step 6: Prevent Buddy Burnout](#step-6-prevent-buddy-burnout)
+- [Practical Implementation Checklist](#practical-implementation-checklist)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+
 This guide walks through setting up a buddy system specifically designed for remote developer teams. You'll find practical implementation steps, template code, and configuration examples you can adapt to your team's existing tools.
 
 ## Why Remote Developers Need a Buddy System

@@ -18,6 +18,20 @@ tags: [remote-work-tools]
 
 Working in a windowless home office doesn't mean sacrificing air quality. Whether you've converted a basement, closet, or interior room into your workspace, proper ventilation is essential for maintaining focus, health, and productivity. This guide covers practical solutions ranging from budget-friendly DIY approaches to professional-grade systems.
 
+## Table of Contents
+
+- [Understanding the Challenge](#understanding-the-challenge)
+- [Mechanical Ventilation Systems](#mechanical-ventilation-systems)
+- [Air Purifiers as Primary Solution](#air-purifiers-as-primary-solution)
+- [DIY Solutions and Budget Options](#diy-solutions-and-budget-options)
+- [Smart Monitoring](#smart-monitoring)
+- [Practical Implementation Tips](#practical-implementation-tips)
+- [Product Recommendations by Budget](#product-recommendations-by-budget)
+- [Maintenance Schedule](#maintenance-schedule)
+- [Real Results: Air Quality Improvements](#real-results-air-quality-improvements)
+- [Common Questions About Windowless Offices](#common-questions-about-windowless-offices)
+- [When to Call a Professional](#when-to-call-a-professional)
+
 ## Understanding the Challenge
 
 Rooms without windows lack natural air exchange, which means stale air, elevated CO2 levels, and potential buildup of indoor pollutants accumulate throughout your workday. Studies show that CO2 levels above 1000 ppm lead to decreased cognitive function, while poor air quality can cause headaches, fatigue, and long-term respiratory issues.

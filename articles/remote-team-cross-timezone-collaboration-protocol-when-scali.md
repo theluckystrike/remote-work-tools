@@ -33,6 +33,26 @@ tags: [remote-work-tools, remote-work, collaboration]
 
 Scaling a remote engineering team to include members in Asia Pacific creates genuine operational challenges. The time difference between US-based teams and APAC can reach 15+ hours, meaning real-time collaboration becomes nearly impossible without careful protocol design. This article provides a concrete framework for maintaining velocity and team cohesion when adding Asian Pacific regions to your distributed workforce in 2026.
 
+## Table of Contents
+
+- [The Core Problem](#the-core-problem)
+- [Establish Clear Overlap Windows](#establish-clear-overlap-windows)
+- [Document Decisions in Structured Formats](#document-decisions-in-structured-formats)
+- [Decision: [Title]](#decision-title)
+- [Implement Async-First Code Review](#implement-async-first-code-review)
+- [Build Culture Around Written Communication](#build-culture-around-written-communication)
+- [Standup - March 15](#standup-march-15)
+- [Tools That Support Cross-Timezone Workflow](#tools-that-support-cross-timezone-workflow)
+- [Measuring Protocol Effectiveness](#measuring-protocol-effectiveness)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Handling Production Incidents Across Timezones](#handling-production-incidents-across-timezones)
+- [Synchronizing Sprint Planning Across Zones](#synchronizing-sprint-planning-across-zones)
+- [Maintaining Team Cohesion Without Co-location](#maintaining-team-cohesion-without-co-location)
+- [Measuring Success Beyond Metrics](#measuring-success-beyond-metrics)
+- [Handling Burnout in Cross-Timezone Teams](#handling-burnout-in-cross-timezone-teams)
+- [Cross-Timezone Knowledge Transfer](#cross-timezone-knowledge-transfer)
+- [Retrospectives and Protocol Improvements](#retrospectives-and-protocol-improvements)
+
 ## The Core Problem
 
 When your San Francisco team finishes their day at 5 PM PST, developers in Tokyo are just starting their morning. Sydney crosses into the next day entirely. Traditional sprint ceremonies break down. Pull request reviews stall. Decisions made in async messages get lost or misinterpreted across these gaps.

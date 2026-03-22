@@ -18,6 +18,25 @@ voice-checked: true
 
 Remote teams often struggle to find learning opportunities that don't require synchronous attendance across time zones. A podcast club solves this problem by using asynchronous audio content that team members can consume on their own schedules, then reconvene for structured discussions.
 
+## Table of Contents
+
+- [Setting Up Your Podcast Club Infrastructure](#setting-up-your-podcast-club-infrastructure)
+- [Episode Selection Criteria](#episode-selection-criteria)
+- [Discussion Format That Works](#discussion-format-that-works)
+- [Time Zone Friendly Scheduling](#time-zone-friendly-scheduling)
+- [Recommended Podcasts for Developer Teams](#recommended-podcasts-for-developer-teams)
+- [Measuring Success](#measuring-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Starting Your First Session](#starting-your-first-session)
+- [Podcast Club Platform Comparison](#podcast-club-platform-comparison)
+- [Episode Selection Framework](#episode-selection-framework)
+- [Async-Heavy Participation Model](#async-heavy-participation-model)
+- [Format for Comments](#format-for-comments)
+- [Example Good Response](#example-good-response)
+- [Discussion Lead's Role](#discussion-leads-role)
+- [Measuring Impact](#measuring-impact)
+- [Action Item Translation](#action-item-translation)
+
 This format transforms passive listening into active professional development, building technical knowledge while strengthening team bonds through shared learning experiences.
 
 ## Setting Up Your Podcast Club Infrastructure

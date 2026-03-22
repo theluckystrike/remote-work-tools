@@ -17,6 +17,26 @@ voice-checked: true
 
 Remote design review with clients requires tools that bridge visual communication gaps effectively. When you're working with stakeholders across different time zones, the right annotation tool transforms vague feedback into actionable design changes. This guide examines the essential features and practical implementations for annotation tools in client-facing design workflows.
 
+## Table of Contents
+
+- [Core Requirements for Client Design Reviews](#core-requirements-for-client-design-reviews)
+- [Practical Annotation Workflows](#practical-annotation-workflows)
+- [Tool Evaluation Criteria](#tool-evaluation-criteria)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Common Challenges and Solutions](#common-challenges-and-solutions)
+- [Annotation Tool Comparison Chart](#annotation-tool-comparison-chart)
+- [Tool-Specific Implementation Guides](#tool-specific-implementation-guides)
+- [Client Annotation Guidelines Document](#client-annotation-guidelines-document)
+- [How to Leave Feedback](#how-to-leave-feedback)
+- [Feedback Types We Accept](#feedback-types-we-accept)
+- [Review Timeline](#review-timeline)
+- [What Happens Next](#what-happens-next)
+- [Extracting Feedback Into Development Tickets](#extracting-feedback-into-development-tickets)
+- [From Design Review Comment #47](#from-design-review-comment-47)
+- [Async Review Workflow Template](#async-review-workflow-template)
+- [Mobile Design Annotation Best Practices](#mobile-design-annotation-best-practices)
+- [Measuring Annotation Effectiveness](#measuring-annotation-effectiveness)
+
 ## Core Requirements for Client Design Reviews
 
 Before evaluating specific tools, you need to understand what makes annotation effective for client collaboration. The primary goal is converting client feedback into precise, actionable design changes without requiring synchronous meetings.

@@ -28,6 +28,32 @@ voice-checked: true
 
 Async pull request reviews form the backbone of effective collaboration when engineering teams span multiple time zones. Unlike synchronous code reviews, async reviews require intentional structuring to maintain velocity while ensuring thorough feedback. This guide covers practical strategies you can implement immediately.
 
+## Table of Contents
+
+- [Writing Effective Pull Request Descriptions](#writing-effective-pull-request-descriptions)
+- [What This PR Does](#what-this-pr-does)
+- [Why This Change Is Needed](#why-this-change-is-needed)
+- [How To Test](#how-to-test)
+- [Screenshots/Visual Changes](#screenshotsvisual-changes)
+- [What This PR Does](#what-this-pr-does)
+- [Why This Change Is Needed](#why-this-change-is-needed)
+- [How To Test](#how-to-test)
+- [Setting Clear Review Expectations](#setting-clear-review-expectations)
+- [Code Review Templates](#code-review-templates)
+- [Type of Change](#type-of-change)
+- [Testing Performed](#testing-performed)
+- [Checklist](#checklist)
+- [Handling Time Zone Challenges](#handling-time-zone-challenges)
+- [Providing Constructive Feedback](#providing-constructive-feedback)
+- [Using Review Features Effectively](#using-review-features-effectively)
+- [Automating Review Logistics](#automating-review-logistics)
+- [Building Review Culture](#building-review-culture)
+- [Handling Review Delays and Bottlenecks](#handling-review-delays-and-bottlenecks)
+- [Code Review Metrics Worth Tracking](#code-review-metrics-worth-tracking)
+- [Async Reviews for Large PRs](#async-reviews-for-large-prs)
+- [Handling Disagreement in Reviews](#handling-disagreement-in-reviews)
+- [Async Reviews for Open Source and Public Contributions](#async-reviews-for-open-source-and-public-contributions)
+
 ## Writing Effective Pull Request Descriptions
 
 The pull request description sets the stage for your review. A well-structured description answers questions before reviewers ask them, reducing back-and-forth communication.
@@ -284,12 +310,11 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [GitHub Pull Request Workflow for Distributed Teams](/remote-work-tools/github-pull-request-workflow-for-distributed-teams/)
-- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
-- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [Best Tool for Async Performance Feedback Collection for Dist](/remote-work-tools/best-tool-for-async-performance-feedback-collection-for-dist/)
+- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 - [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
-
+- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

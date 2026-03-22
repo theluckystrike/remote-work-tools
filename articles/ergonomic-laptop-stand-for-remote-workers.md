@@ -33,6 +33,25 @@ tags: [remote-work-tools, best-of, remote-work]
 
 An ergonomic laptop stand transforms your home office setup from a posture-compromising workstation into a health-conscious coding environment. For developers spending 8+ hours daily in front of screens, the right laptop stand eliminates the forward head posture that leads to chronic neck pain, improves screen visibility, and creates the foundation for sustainable remote work.
 
+## Table of Contents
+
+- [The Problem: Why Laptop Positioning Matters](#the-problem-why-laptop-positioning-matters)
+- [Understanding Ergonomic Height Calculations](#understanding-ergonomic-height-calculations)
+- [Stand Types and Their Trade-offs](#stand-types-and-their-trade-offs)
+- [Heat Management Considerations](#heat-management-considerations)
+- [Integration with External Peripherals](#integration-with-external-peripherals)
+- [Building Your Setup Incrementally](#building-your-setup-incrementally)
+- [Thermal Management Deep Dive for Development Workloads](#thermal-management-deep-dive-for-development-workloads)
+- [Preventing Stand-Related Injuries](#preventing-stand-related-injuries)
+- [Adapting Your Stand to Different Work Modes](#adapting-your-stand-to-different-work-modes)
+- [Beyond the Stand: Holistic Ergonomic Thinking](#beyond-the-stand-holistic-ergonomic-thinking)
+- [Making the Decision](#making-the-decision)
+- [Popular Laptop Stand Options for Developers](#popular-laptop-stand-options-for-developers)
+- [Combining Your Stand with Other Equipment](#combining-your-stand-with-other-equipment)
+- [Standing Desk Integration](#standing-desk-integration)
+- [Troubleshooting Common Setup Issues](#troubleshooting-common-setup-issues)
+- [Long-Term Ergonomic Sustainability](#long-term-ergonomic-sustainability)
+
 This guide covers the engineering principles behind effective laptop stands, how to calculate the optimal height for your setup, and practical integration tips for developers who demand both comfort and productivity.
 
 ## The Problem: Why Laptop Positioning Matters

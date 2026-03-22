@@ -18,6 +18,27 @@ tags: [remote-work-tools, best-of, remote-work, api]
 
 Treat API documentation as code by storing it in version control and automating generation from code annotations using OpenAPI specifications. This approach keeps documentation current with your codebase and lets distributed teams review changes through pull requests, making it the best practice for remote engineering teams. Document every endpoint with exact parameters, example requests/responses, and authentication requirements—then automate deployment of your OpenAPI spec to a tool like Swagger UI so developers can explore it interactively.
 
+## Table of Contents
+
+- [The Documentation-as-Code Approach](#the-documentation-as-code-approach)
+- [Building a Documentation Portal](#building-a-documentation-portal)
+- [Documentation Standards Every Remote Team Needs](#documentation-standards-every-remote-team-needs)
+- [Async Documentation Workflows](#async-documentation-workflows)
+- [Maintaining Documentation Over Time](#maintaining-documentation-over-time)
+- [Versioning Strategies for Remote Teams](#versioning-strategies-for-remote-teams)
+- [Documentation Ownership and Responsibilities](#documentation-ownership-and-responsibilities)
+- [Tools That Support Documentation Maintenance](#tools-that-support-documentation-maintenance)
+- [Documentation Automation Workflows](#documentation-automation-workflows)
+- [Documentation Maturity Levels](#documentation-maturity-levels)
+- [Common Documentation Debt and How to Eliminate It](#common-documentation-debt-and-how-to-eliminate-it)
+- [Building a Documentation Culture](#building-a-documentation-culture)
+- [Who is responsible?](#who-is-responsible)
+- [Documentation is required before:](#documentation-is-required-before)
+- [Documentation checklist (every PR):](#documentation-checklist-every-pr)
+- [Documentation review criteria:](#documentation-review-criteria)
+- [Consequences for undocumented code:](#consequences-for-undocumented-code)
+- [Celebration:](#celebration)
+
 ## The Documentation-as-Code Approach
 
 The most successful remote teams treat documentation as code. This means storing API documentation in version control alongside the source code, reviewing documentation changes through pull requests, and automating generation where feasible. This approach ensures documentation stays current because it lives in the same lifecycle as the code it describes.
@@ -422,11 +443,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
-- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
-- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
-- [Example ndss configuration snippet](/remote-work-tools/how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/)
-
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
+- [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
+- [How to Build Remote Team Documentation Culture Guide](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

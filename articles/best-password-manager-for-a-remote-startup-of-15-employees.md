@@ -17,6 +17,22 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Use 1Password Teams or Bitwarden Organizations for shared vaults with granular permissions and zero-knowledge encryption. Implement hybrid vaults: personal vaults for individual passwords, shared team vaults for service credentials. This guide covers feature comparison, cost, and deployment patterns for 15-person teams.
 
+## Table of Contents
+
+- [What Remote Startups Actually Need](#what-remote-startups-actually-need)
+- [Core Features to Evaluate](#core-features-to-evaluate)
+- [Practical Comparison](#practical-comparison)
+- [Implementation Strategy](#implementation-strategy)
+- [Security Considerations](#security-considerations)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Pricing Breakdown for 15-Person Teams](#pricing-breakdown-for-15-person-teams)
+- [Advanced Configuration Examples](#advanced-configuration-examples)
+- [Team Adoption Strategies](#team-adoption-strategies)
+- [Risk Mitigation During Migration](#risk-mitigation-during-migration)
+- [Red Flags in Password Manager Selection](#red-flags-in-password-manager-selection)
+- [Making the Decision](#making-the-decision)
+- [Incident Response: Credential Breach Checklist](#incident-response-credential-breach-checklist)
+
 ## What Remote Startups Actually Need
 
 A 15-person remote team faces specific challenges that consumer-grade password managers weren't designed to handle. You need shared vaults for team credentials, granular access controls, and audit logs showing who accessed what. At the same time, you don't need enterprise pricing that kicks in at 100+ seats.

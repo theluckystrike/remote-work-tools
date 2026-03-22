@@ -33,6 +33,24 @@ tags: [remote-work-tools, remote-work, collaboration]
 
 Use Spotify collaborative playlists for the most accessible team music experience, Soundtrack Your Team for workplace-specific features like moderation and Slack integration, or Apple Music Replay for quarterly summary sharing. Music playlists build team culture asynchronously by creating a shared sonic environment and starting informal conversations without requiring scheduled meetings.
 
+## Table of Contents
+
+- [Why Music Collaboration Matters for Remote Teams](#why-music-collaboration-matters-for-remote-teams)
+- [Top Tools for Team Music Playlist Collaboration](#top-tools-for-team-music-playlist-collaboration)
+- [Building Effective Team Playlist Norms](#building-effective-team-playlist-norms)
+- [Integrating Playlists with Remote Work Routines](#integrating-playlists-with-remote-work-routines)
+- [Automation Tips for Busy Teams](#automation-tips-for-busy-teams)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Playlist Impact on Team Culture](#measuring-playlist-impact-on-team-culture)
+- [Scaling Playlist Management for Larger Teams](#scaling-playlist-management-for-larger-teams)
+- [Week 1: Curator A](#week-1-curator-a)
+- [Week 2: Curator B](#week-2-curator-b)
+- [Week 3: Curator C](#week-3-curator-c)
+- [Week 4: Curator D](#week-4-curator-d)
+- [Monthly Review Process](#monthly-review-process)
+- [Advanced Automation with Spotify API](#advanced-automation-with-spotify-api)
+- [Getting Started Today](#getting-started-today)
+
 ## Why Music Collaboration Matters for Remote Teams
 
 Remote work eliminates the casual office interactions where music naturally emerges—playing through speakers in a shared space, someone humming along, or discovering new artists through colleagues. These small moments contribute significantly to team bonding. Shared playlists recreate that shared sonic environment asynchronously, giving remote workers a sense of togetherness regardless of time zone or schedule.

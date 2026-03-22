@@ -43,6 +43,15 @@ voice-checked: true---
 
 Remote teams frequently face a common problem: how do you share credentials securely without resorting to shared spreadsheets, which create significant security vulnerabilities. This guide covers practical approaches for developers and power users who need to manage team credentials without compromising security.
 
+## Table of Contents
+
+- [Team Password Managers: The Foundation](#team-password-managers-the-foundation)
+- [Secret Management for Developers](#secret-management-for-developers)
+- [Zero-Knowledge Encryption: What It Means](#zero-knowledge-encryption-what-it-means)
+- [Access Control Patterns](#access-control-patterns)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Moving Away from Spreadsheets](#moving-away-from-spreadsheets)
+
 The spreadsheet approach—whether Google Sheets, Excel, or Notion tables—seems convenient but introduces serious risks. Credentials sit unencrypted in cloud storage, live indefinitely without rotation, and provide no audit trail. Anyone with access can view, copy, or leak sensitive information. Fortunately, modern tools offer far superior alternatives.
 
 ## Team Password Managers: The Foundation

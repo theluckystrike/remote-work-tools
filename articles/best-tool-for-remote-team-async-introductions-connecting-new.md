@@ -18,6 +18,20 @@ voice-checked: true
 
 Async introductions solve a fundamental challenge in remote work: how do you help new team members feel connected when your team spans multiple time zones and synchronous meetings are impractical? The right async introduction tool creates structured, engaging first impressions that replace the informal hallway conversations happening in physical offices. This guide evaluates the best approaches and tools for implementing async new hire introductions that actually work.
 
+## Table of Contents
+
+- [Why Async Introductions Matter for Remote Teams](#why-async-introductions-matter-for-remote-teams)
+- [Core Features to Evaluate](#core-features-to-evaluate)
+- [Tool Comparison](#tool-comparison)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Pricing and Cost Considerations](#pricing-and-cost-considerations)
+- [Maximizing Engagement and Consistency](#maximizing-engagement-and-consistency)
+- [Response Rate Improvement Strategies](#response-rate-improvement-strategies)
+- [Measuring Success and ROI](#measuring-success-and-roi)
+- [Common Mistakes When Implementing](#common-mistakes-when-implementing)
+- [Running a 6-Month Check-In](#running-a-6-month-check-in)
+- [Scaling Across Different Team Sizes](#scaling-across-different-team-sizes)
+
 ## Why Async Introductions Matter for Remote Teams
 
 When a new developer joins your distributed team, they face an information gap that their office-based counterparts never experienced. In traditional workplaces, new employees absorb organizational culture through casual interactions—lunch conversations, hallway exchanges, spontaneous questions. Remote teams must intentionally recreate these bonding opportunities.

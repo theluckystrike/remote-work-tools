@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Format: INV-2026-0001"
+title: "Open a Business Bank Account as a Remote Freelancer"
 description: "Open a Portuguese business bank account as a remote freelancer by registering as a trabalhador independente (sole trader) with your NIF, then presenting your"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -17,6 +17,22 @@ intent-checked: true
 {% raw %}
 
 Open a Portuguese business bank account as a remote freelancer by registering as a trabalhador independente (sole trader) with your NIF, then presenting your passport, tax registration, and proof of residence to any Portuguese bank—the entire process takes 2-3 weeks and costs nothing for most banks. Whether operating as a sole trader or limited company, a dedicated business account separates personal from professional income and simplifies your annual tax filing. This guide walks you through the process with practical details for developers and tech professionals.
+
+## Table of Contents
+
+- [Understanding Your Business Structure](#understanding-your-business-structure)
+- [Documents You'll Need](#documents-youll-need)
+- [Choosing the Right Bank](#choosing-the-right-bank)
+- [The Application Process](#the-application-process)
+- [Automating Your Finance Workflow](#automating-your-finance-workflow)
+- [Common Challenges and Solutions](#common-challenges-and-solutions)
+- [Setup Timeline and Expected Costs](#setup-timeline-and-expected-costs)
+- [Practical Recommendations](#practical-recommendations)
+- [Technical Developers: API and Automation Opportunities](#technical-developers-api-and-automation-opportunities)
+- [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
+- [International Alternatives if Portuguese Banks Reject You](#international-alternatives-if-portuguese-banks-reject-you)
+- [Long-Term: Growing Beyond Sole Trader](#long-term-growing-beyond-sole-trader)
+- [Final Checklist: You're Ready to Open an Account](#final-checklist-youre-ready-to-open-an-account)
 
 ## Understanding Your Business Structure
 

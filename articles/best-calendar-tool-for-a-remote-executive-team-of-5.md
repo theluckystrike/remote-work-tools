@@ -17,6 +17,18 @@ voice-checked: true
 
 Google Calendar is the best calendar tool for most remote executive teams of five, thanks to its API, cross-timezone intelligence, and deep ecosystem integration. If your organization runs Microsoft 365, Outlook with Exchange Online is the natural fit instead. Layer Calendly on top of either for external scheduling, and use Apps Script or Power Automate to protect focus time and automate availability views.
 
+## Table of Contents
+
+- [Core Requirements for Executive Calendar Management](#core-requirements-for-executive-calendar-management)
+- [Google Calendar: The Default Choice with Power](#google-calendar-the-default-choice-with-power)
+- [Calendly and Scheduling Pages](#calendly-and-scheduling-pages)
+- [Microsoft Outlook with Exchange Online](#microsoft-outlook-with-exchange-online)
+- [Comparing the Options](#comparing-the-options)
+- [Building Custom Calendar Dashboards](#building-custom-calendar-dashboards)
+- [Making the Decision](#making-the-decision)
+- [Implementation Checklist](#implementation-checklist)
+- [Related Reading](#related-reading)
+
 ## Core Requirements for Executive Calendar Management
 
 Before evaluating specific tools, establish your non-negotiable requirements. A remote executive team of five typically needs:
@@ -220,6 +232,14 @@ When deploying your chosen solution, ensure you:
 - [Best Calendar Blocking Strategy for Remote Working Parents](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
 - [How to Handle Elder Care Responsibilities While Working Remotely](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
 - [Best Activity Kit Subscription for Kids of Remote Working Parents](/remote-work-tools/best-activity-kit-subscription-for-kids-of-remote-working-pa/)
+
+## Related Articles
+
+- [Best Calendar Scheduling Tools for Remote Teams 2026](/remote-work-tools/calendar-scheduling-tools-remote-teams-2026/)
+- [Remote 1 on 1 Meeting Tool Comparison for Distributed](/remote-work-tools/remote-1-on-1-meeting-tool-comparison-for-distributed-manage/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
+- [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

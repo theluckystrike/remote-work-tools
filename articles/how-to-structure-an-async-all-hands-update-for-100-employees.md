@@ -19,6 +19,25 @@ tags: [remote-work-tools]
 
 Structure your async all-hands around five consistent sections (company overview, department highlights, recognition, upcoming events, and Q&A), automate collection from department heads with a deadline-driven script, and distribute on the same weekday each month with a clear read-acknowledgment call-to-action. This format replaces the scheduling nightmare of synchronous all-hands for 100 employees while keeping engagement measurable through view counts, question volume, and acknowledgment rates. Below is the full step-by-step system including templates, automation code, and common pitfalls to avoid.
 
+## Table of Contents
+
+- [Why Async All-Hands Works at Scale](#why-async-all-hands-works-at-scale)
+- [Step 1: Define Your Update Sections](#step-1-define-your-update-sections)
+- [Step 2: Use a Template System](#step-2-use-a-template-system)
+- [Company Overview](#company-overview)
+- [Department Highlights](#department-highlights)
+- [Recognition](#recognition)
+- [Coming Up](#coming-up)
+- [Q&A](#qa)
+- [Step 3: Automate Collection and Formatting](#step-3-automate-collection-and-formatting)
+- [Step 4: Time Your Distribution Strategically](#step-4-time-your-distribution-strategically)
+- [Step 5: Handle Questions Asynchronously](#step-5-handle-questions-asynchronously)
+- [Measuring Engagement](#measuring-engagement)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Tools That Support Async All-Hands](#tools-that-support-async-all-hands)
+- [Scaling the System as Your Company Grows](#scaling-the-system-as-your-company-grows)
+- [Common Questions About Scaling](#common-questions-about-scaling)
+
 ## Why Async All-Hands Works at Scale
 
 When your team spans multiple time zones, finding a single hour that works for everyone becomes mathematically impossible. A 100-person team likely spans 8+ hour time differences, making synchronous all-hands either exclusionary or exhausting (or both).

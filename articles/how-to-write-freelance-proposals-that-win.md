@@ -191,6 +191,14 @@ status: draft
 
 # Proposal: ${PROJECT_NAME} for ${CLIENT_NAME}
 
+## Table of Contents
+
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Timeline](#timeline)
+- [Investment](#investment)
+- [Next Steps](#next-steps)
+
 ## Problem Statement
 
 ## Proposed Solution

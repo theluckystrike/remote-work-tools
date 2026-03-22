@@ -18,6 +18,20 @@ intent-checked: true
 
 Fix 30%+ variance in remote hiring by implementing monthly calibration sessions where interviewers discuss candidate scorecards, define competency matrices per level, and align on pass/fail criteria using recorded reference interviews. Without deliberate calibration, distributed interviewers across timezones develop wildly different standards—one prioritizes system design, another coding speed—creating inconsistent hiring and team quality drift. This systematic process rebuilds the hallway conversations that naturally calibrate co-located teams, but structures them for async distributed teams.
 
+## Table of Contents
+
+- [Why Remote Teams Need Structured Calibration](#why-remote-teams-need-structured-calibration)
+- [Building a Calibration Framework](#building-a-calibration-framework)
+- [Running Ongoing Calibration](#running-ongoing-calibration)
+- [Practical Implementation Tips](#practical-implementation-tips)
+- [Measuring Calibration Success](#measuring-calibration-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Calibration Session Formats for Different Scenarios](#calibration-session-formats-for-different-scenarios)
+- [Competency Matrices for Different Roles](#competency-matrices-for-different-roles)
+- [Calibration Metrics Dashboard](#calibration-metrics-dashboard)
+- [Handling Interviewer Outliers](#handling-interviewer-outliers)
+- [Scaling Calibration to Multiple Teams](#scaling-calibration-to-multiple-teams)
+
 ## Why Remote Teams Need Structured Calibration
 
 In distributed environments, interviewers lack the organic opportunity to observe each other's hiring decisions. A senior engineer in Berlin and a tech lead in San Francisco never see how each other evaluate candidates, so patterns of leniency or excessive rigor go uncorrected. Over time, this leads to measurable variance in hiring outcomes.
@@ -423,11 +437,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
-- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
-- [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
-- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
-- [Best Practice for Remote Employee Peer Review Calibration](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
-
+- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [How to Build Remote Team Engineering Career Ladder 2026](/remote-work-tools/how-to-build-remote-team-engineering-career-ladder-2026/)
+- [Remote Team Hiring Rubric Template for Consistent](/remote-work-tools/remote-team-hiring-rubric-template-for-consistent-evaluation/)
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [Setting Up Grafana Dashboards for Remote Teams](/remote-work-tools/setting-up-grafana-dashboards-for-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -247,11 +247,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [How to Implement Just-in-Time Access for Remote Team](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
 - [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
-- [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
 - [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-
+- [Best Privileged Access Management Tool for Remote IT Admins](/remote-work-tools/best-privileged-access-management-tool-for-remote-it-admins-/)
+- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

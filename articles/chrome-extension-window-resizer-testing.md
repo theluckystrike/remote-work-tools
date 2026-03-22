@@ -18,6 +18,21 @@ voice-checked: true
 
 Testing how your website or web application responds to different screen sizes is essential in modern web development. With the diversity of devices—from large desktop monitors to compact mobile phones—ensuring a consistent user experience across all viewports has become a critical skill. Chrome extension window resizer testing tools provide developers with a practical way to simulate various screen dimensions directly in the browser, eliminating the need for multiple physical devices or complex emulators.
 
+## Table of Contents
+
+- [Understanding Window Resizer Testing](#understanding-window-resizer-testing)
+- [Top Chrome Extensions for Window Resizer Testing](#top-chrome-extensions-for-window-resizer-testing)
+- [Implementing Effective Window Resizer Testing](#implementing-effective-window-resizer-testing)
+- [Best Practices for Responsive Development](#best-practices-for-responsive-development)
+- [Common Issues and Solutions](#common-issues-and-solutions)
+- [Extension Comparison and Pricing](#extension-comparison-and-pricing)
+- [Advanced Testing with Chromatic](#advanced-testing-with-chromatic)
+- [Testing Device-Specific Interactions](#testing-device-specific-interactions)
+- [Creating a Responsive Testing Workflow](#creating-a-responsive-testing-workflow)
+- [Debugging Responsive Issues](#debugging-responsive-issues)
+- [Performance Considerations at Different Viewports](#performance-considerations-at-different-viewports)
+- [Building a Device-Agnostic Testing Framework](#building-a-device-agnostic-testing-framework)
+
 ## Understanding Window Resizer Testing
 
 Window resizer testing involves checking how your web application behaves at different viewport sizes. This goes beyond simply shrinking the browser window—it requires precise control over dimensions, the ability to preset common device sizes, and features that help identify responsive design issues quickly.
@@ -284,11 +299,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Chrome Extension OneNote Clipper Setup: Complete Guide](/remote-work-tools/chrome-extension-onenote-clipper-setup/)
-- [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
-- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
+- [Best Window Management Tools for Developers](/remote-work-tools/best-window-management-tools-for-developers/)
+- [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
+- [Best Tools for Remote QA Testing Workflows](/remote-work-tools/best-tools-remote-qa-testing-workflows/)
+- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
-- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

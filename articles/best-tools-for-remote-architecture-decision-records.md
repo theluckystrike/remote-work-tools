@@ -219,6 +219,13 @@ Views to create:
 ### Context
 [What is the situation and why is a decision needed?]
 
+## Table of Contents
+
+- [Comparison](#comparison)
+- [The Right Choice](#the-right-choice)
+- [Running the Async Review Process](#running-the-async-review-process)
+- [Related Reading](#related-reading)
+
 ### Options Considered
 Option A: ...
 Option B: ...

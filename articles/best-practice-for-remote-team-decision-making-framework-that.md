@@ -23,6 +23,31 @@ voice-checked: true
 | Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
 | 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
 
+## Table of Contents
+
+- [Why Decision-Making Breaks in Distributed Teams](#why-decision-making-breaks-in-distributed-teams)
+- [The Four-Tier Decision Framework](#the-four-tier-decision-framework)
+- [Documenting Decisions as Code](#documenting-decisions-as-code)
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Decided By](#decided-by)
+- [Date](#date)
+- [RACI Matrix for Remote Decision Making](#raci-matrix-for-remote-decision-making)
+- [Async Decision Meeting Patterns](#async-decision-meeting-patterns)
+- [Decision to Make](#decision-to-make)
+- [Context Document (linked)](#context-document-linked)
+- [Pros (from async discussion)](#pros-from-async-discussion)
+- [Cons (from async discussion)](#cons-from-async-discussion)
+- [Open Questions for Discussion](#open-questions-for-discussion)
+- [Your Pre-Meeting Vote (optional)](#your-pre-meeting-vote-optional)
+- [Escalation Without Bottlenecks](#escalation-without-bottlenecks)
+- [Common Failure Patterns to Avoid](#common-failure-patterns-to-avoid)
+- [Measuring Framework Effectiveness](#measuring-framework-effectiveness)
+- [Making It Stick](#making-it-stick)
+
 
 Remote teams that scale successfully share one trait: they stop routing every decision through founders and senior leaders. Building a decision-making framework that works across time zones requires explicit tiers, clear ownership, and documented processes that work asynchronously. This guide covers the structures, tools, and patterns that distributed engineering teams use to move fast without constant synchronous coordination.
 
@@ -289,10 +314,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 - [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
-- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
-- [Async Decision Making with RFC Documents for Engineering](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
-- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-
+- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+- [How to Create Remote Team Decision Making Framework for Dist](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Measuring Remote Team Alignment](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Code Review Guide"
+title: "Remote Team Documentation Culture Guide (2026)"
 description: "A practical step-by-step guide for engineering managers to build documentation culture in remote teams. Includes templates, workflows, and code examples"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -31,6 +31,40 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 Building documentation culture in a remote engineering team requires deliberate effort, clear systems, and consistent reinforcement. Unlike co-located teams where knowledge transfers happen informally through hallway conversations, remote teams need explicit, written-down processes that team members can discover and follow independently.
+
+## Table of Contents
+
+- [Step 1: Audit Your Current Documentation State](#step-1-audit-your-current-documentation-state)
+- [Step 2: Define Documentation Categories](#step-2-define-documentation-categories)
+- [Step 3: Establish Documentation Standards](#step-3-establish-documentation-standards)
+- [Prerequisites](#prerequisites)
+- [Review Checklist](#review-checklist)
+- [Timeline Expectations](#timeline-expectations)
+- [Motivation](#motivation)
+- [Detailed Design](#detailed-design)
+- [Alternatives Considered](#alternatives-considered)
+- [Timeline](#timeline)
+- [Step 4: Implement Documentation-Tracking Workflows](#step-4-implement-documentation-tracking-workflows)
+- [Documentation](#documentation)
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Step 5: Create Accountability and Recognition Systems](#step-5-create-accountability-and-recognition-systems)
+- [Step 6: Build Onboarding Documentation First](#step-6-build-onboarding-documentation-first)
+- [Step 7: Maintain and Evolve Documentation](#step-7-maintain-and-evolve-documentation)
+- [Building Long-Term Culture](#building-long-term-culture)
+- [Practical Documentation Workflow Template](#practical-documentation-workflow-template)
+- [Code Changes Documentation](#code-changes-documentation)
+- [Architecture Changes Documentation](#architecture-changes-documentation)
+- [Runbook and Operational Docs](#runbook-and-operational-docs)
+- [Documentation Quality Checklist](#documentation-quality-checklist)
+- [Building Documentation Into Your Definition of Done](#building-documentation-into-your-definition-of-done)
+- [Code Quality](#code-quality)
+- [Documentation](#documentation)
+- [Knowledge Transfer](#knowledge-transfer)
+- [Process](#process)
+- [Documentation Metrics Worth Tracking](#documentation-metrics-worth-tracking)
 
 This guide provides a step-by-step framework for engineering managers who want to establish sustainable documentation practices. Each step builds on the previous one, creating a foundation that scales as your team grows.
 

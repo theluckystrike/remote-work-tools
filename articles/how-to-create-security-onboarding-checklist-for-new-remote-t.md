@@ -32,6 +32,16 @@ tags: [remote-work-tools, security, remote-work]
 {% raw %}
 Build a security onboarding checklist covering account setup, hardware configuration, approved tools, and data handling practices—organized into phases completed across the first two weeks. A structured checklist transforms how remote teams handle cybersecurity from day one, giving new hires a clear, trackable path to becoming a secure team member. This approach works particularly well for distributed teams where you cannot walk across the office to ask about proper security practices. This guide shows you how to build one from scratch with verifiable milestones and practical tasks.
 
+## Table of Contents
+
+- [Why Remote Teams Need Structured Security Onboarding](#why-remote-teams-need-structured-security-onboarding)
+- [Building Your Security Onboarding Checklist](#building-your-security-onboarding-checklist)
+- [Data Classification Guide](#data-classification-guide)
+- [Security Incident Response](#security-incident-response)
+- [Implementing the Checklist](#implementing-the-checklist)
+- [Security Onboarding: [New Hire Name]](#security-onboarding-new-hire-name)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+
 ## Why Remote Teams Need Structured Security Onboarding
 
 Remote work expands your attack surface significantly. Team members access company resources from home networks, coffee shops, and co-working spaces. They use personal devices alongside company equipment. They communicate through dozens of tools you've never evaluated for security.
@@ -293,11 +303,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
-- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
 - [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
-- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
-- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

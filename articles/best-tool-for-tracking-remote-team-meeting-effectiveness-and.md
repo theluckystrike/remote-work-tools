@@ -18,6 +18,24 @@ voice-checked: true
 
 Track meeting effectiveness using four core metrics: meeting frequency vs. output ratio, time-to-outcome, participant engagement, and agenda adherence. Use meeting analytics features in Slack, Google Workspace, or Calendly combined with manual sprint reviews to identify and eliminate low-value meetings. This guide shows you how to reduce meeting waste while maintaining alignment.
 
+## Table of Contents
+
+- [Why Meeting Metrics Matter for Remote Teams](#why-meeting-metrics-matter-for-remote-teams)
+- [Core Metrics for Meeting Effectiveness](#core-metrics-for-meeting-effectiveness)
+- [Implementing Measurement Without Overhead](#implementing-measurement-without-overhead)
+- [Meeting: [Title] - [Date]](#meeting-title-date)
+- [Reducing Meeting Waste](#reducing-meeting-waste)
+- [The Tool Recommendation](#the-tool-recommendation)
+- [Measuring Improvement](#measuring-improvement)
+- [Building a Meeting-Healthy Culture](#building-a-meeting-healthy-culture)
+- [Tool Comparison for Meeting Tracking](#tool-comparison-for-meeting-tracking)
+- [Implementing Meeting Bankruptcy](#implementing-meeting-bankruptcy)
+- [Quarterly Meeting Audits](#quarterly-meeting-audits)
+- [Q2 2026 Meeting Audit](#q2-2026-meeting-audit)
+- [Using Meeting Data to Improve Specific Meetings](#using-meeting-data-to-improve-specific-meetings)
+- [Presenting Findings to Leadership](#presenting-findings-to-leadership)
+- [Monitoring for Meeting Creep](#monitoring-for-meeting-creep)
+
 ## Why Meeting Metrics Matter for Remote Teams
 
 Developers often cite meetings as the biggest productivity disruptor in remote work. The problem isn't meetings themselves—some meetings are necessary for alignment, decision-making, and team cohesion. The problem is meetings that continue out of habit, lack clear agendas, or produce no actionable outcomes.

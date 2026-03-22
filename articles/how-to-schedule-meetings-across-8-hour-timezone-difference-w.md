@@ -18,6 +18,13 @@ voice-checked: true
 
 With an 8-hour timezone difference, find your 2-4 hour overlap window (typically early morning for the western team and evening for the eastern team) and use that for synchronous meetings, then rotate meeting times weekly to equitably distribute inconvenient times. For non-overlapping communication, establish asynchronous decision-making processes using RFC documents and async standups recorded as Loom videos, so teams in different time windows can participate and make progress without forcing anyone into extreme working hours.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Detailed Timezone Overlap Calculator](#detailed-timezone-overlap-calculator)
+- [Current Feedback Summary](#current-feedback-summary)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

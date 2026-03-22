@@ -18,6 +18,13 @@ voice-checked: true
 
 Working from home during summer months presents a unique challenge: maintaining productivity in temperatures that can fry both hardware and focus. Whether you're dealing with a rented space where installing AC isn't permitted, working in a historic building without modern cooling, or simply trying to reduce your energy footprint, this guide covers practical solutions for keeping your home office comfortable without air conditioning.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Advanced Thermal Analysis: The Thermal Envelope](#advanced-thermal-analysis-the-thermal-envelope)
+- [When to Give Up and Use AC](#when-to-give-up-and-use-ac)
+- [Troubleshooting](#troubleshooting)
+
 This article targets developers and power users who want actionable, technical approaches rather than generic advice.
 
 ## Prerequisites
@@ -357,10 +364,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
-- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
-- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
-- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
-- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
-
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
+- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
+- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
+- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

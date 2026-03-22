@@ -18,6 +18,18 @@ voice-checked: true
 
 The ideal relative humidity for a home office coding environment is between 30% and 50%, with 45% as the optimal target for most climates. Below 30%, you risk static discharge on electronics and dry eyes during long sessions; above 60%, mold growth and sluggishness become problems. A basic hygrometer ($15-20), an ultrasonic humidifier, and a smart plug with automation give you consistent control with minimal effort. This guide covers measurement tools, automation strategies, and seasonal adjustments to keep your coding sessions comfortable year-round.
 
+## Table of Contents
+
+- [Why Humidity Matters for Developers](#why-humidity-matters-for-developers)
+- [Measuring Your Current Humidity](#measuring-your-current-humidity)
+- [Automating Humidity Control](#automating-humidity-control)
+- [Practical Setup Recommendations](#practical-setup-recommendations)
+- [Monitoring Long-Term Trends](#monitoring-long-term-trends)
+- [Quick Win: Humidity Alerts](#quick-win-humidity-alerts)
+- [Remote Work Scenarios Where Humidity Becomes a Crisis](#remote-work-scenarios-where-humidity-becomes-a-crisis)
+- [Comparing Humidity Control Approaches](#comparing-humidity-control-approaches)
+- [Integrating Humidity Data Into Your Productivity Tracking](#integrating-humidity-data-into-your-productivity-tracking)
+
 ## Why Humidity Matters for Developers
 
 The ideal relative humidity range for indoor spaces is between 30% and 50%. Below 30%, you experience dry skin, irritated eyes, and increased static electricity that can fry components. Above 60%, mold growth becomes a concern and you feel sluggish. For programmers spending 8+ hours daily in a home office, maintaining this balance prevents:

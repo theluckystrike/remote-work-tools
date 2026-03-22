@@ -254,11 +254,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
-- [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
-- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
-- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
-- [Remote Team Org Chart Restructuring Guide](/remote-work-tools/remote-team-org-chart-restructuring-guide-when-scaling-from-/)
-
+- [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [Best Tools for Remote Team Architecture Reviews 2026](/remote-work-tools/best-tools-for-remote-team-architecture-reviews-2026/)
+- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

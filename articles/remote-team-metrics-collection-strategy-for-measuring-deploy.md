@@ -20,6 +20,21 @@ intent-checked: true
 
 Deployment lead time stands as one of the most critical metrics for distributed software teams. When your team spans multiple time zones, understanding how long code changes take to reach production becomes essential for identifying bottlenecks, improving processes, and maintaining healthy deployment cadences. This guide provides a practical approach to collecting deployment lead time metrics specifically tailored for remote and distributed teams.
 
+## Table of Contents
+
+- [Understanding Deployment Lead Time for Remote Teams](#understanding-deployment-lead-time-for-remote-teams)
+- [Setting Up Your Metrics Collection Pipeline](#setting-up-your-metrics-collection-pipeline)
+- [Real-World Workflow Examples](#real-world-workflow-examples)
+- [Tools for Collecting Lead Time Metrics](#tools-for-collecting-lead-time-metrics)
+- [Practical Tips for Remote Teams](#practical-tips-for-remote-teams)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building Dashboards for Visibility](#building-dashboards-for-visibility)
+- [Comparative Analysis Across Teams](#comparative-analysis-across-teams)
+- [Handling Variability in Distributed Teams](#handling-variability-in-distributed-teams)
+- [Actionable Improvements from Lead Time Data](#actionable-improvements-from-lead-time-data)
+- [Integration with Development Workflow](#integration-with-development-workflow)
+- [Moving Forward](#moving-forward)
+
 ## Understanding Deployment Lead Time for Remote Teams
 
 Deployment lead time measures the elapsed time from code commit to production deployment. For distributed teams, this metric carries additional weight since communication delays and asynchronous workflows naturally extend the time between code submission and deployment. The key lies not in eliminating these delays but in measuring them accurately and identifying opportunities for improvement.

@@ -17,6 +17,30 @@ voice-checked: true
 
 Remote work has transformed how teams collaborate, but it has also created new challenges in understanding how team members actually feel. When you're not sharing physical space, subtle signs of burnout, disengagement, or declining morale can go unnoticed for weeks or months. This is where a remote team wellness check app becomes valuable—especially one designed for mobile use that allows team members to share their feelings anonymously.
 
+## Table of Contents
+
+- [Why Anonymous Wellness Checks Matter for Distributed Teams](#why-anonymous-wellness-checks-matter-for-distributed-teams)
+- [Comparing the Leading Mobile Wellness Apps for Remote Teams](#comparing-the-leading-mobile-wellness-apps-for-remote-teams)
+- [Key Features to Look for in a Mobile Wellness App](#key-features-to-look-for-in-a-mobile-wellness-app)
+- [Practical Workflow: Implementing Weekly Wellness Check-ins](#practical-workflow-implementing-weekly-wellness-check-ins)
+- [Real-World Example: A Product Team's Experience](#real-world-example-a-product-teams-experience)
+- [Integrating Wellness Data with Team Operations](#integrating-wellness-data-with-team-operations)
+- [Handling Low Participation Rates](#handling-low-participation-rates)
+- [Mobile Implementation Best Practices](#mobile-implementation-best-practices)
+- [Popular Wellness Check Apps: Comparison and Costs](#popular-wellness-check-apps-comparison-and-costs)
+- [Implementation Checklist for Launching Mobile Wellness Checks](#implementation-checklist-for-launching-mobile-wellness-checks)
+- [Privacy and Anonymity Best Practices](#privacy-and-anonymity-best-practices)
+- [Real Metrics: Measuring Wellness Program ROI](#real-metrics-measuring-wellness-program-roi)
+- [Looking Ahead: The Future of Anonymous Team Wellness Tracking](#looking-ahead-the-future-of-anonymous-team-wellness-tracking)
+- [Advanced Wellness Metrics and Predictive Analytics](#advanced-wellness-metrics-and-predictive-analytics)
+- [Wellness Program Integration With Other HR Systems](#wellness-program-integration-with-other-hr-systems)
+- [Advanced Anonymity Techniques and Trust Building](#advanced-anonymity-techniques-and-trust-building)
+- [Building Wellness Culture Beyond Apps](#building-wellness-culture-beyond-apps)
+- [Scaling Wellness Programs as Organizations Grow](#scaling-wellness-programs-as-organizations-grow)
+- [Common Wellness Check Program Mistakes to Avoid](#common-wellness-check-program-mistakes-to-avoid)
+- [Wellness Program Measurement Framework](#wellness-program-measurement-framework)
+- [Wellness Check Program Communication Strategy](#wellness-check-program-communication-strategy)
+
 ## Why Anonymous Wellness Checks Matter for Distributed Teams
 
 When team members fear judgment or repercussions, they tend to downplay problems. A wellness check app that guarantees anonymity removes this barrier. Employees can report stress levels, workload concerns, or feelings of isolation without worrying about how their responses might affect performance reviews or project assignments.

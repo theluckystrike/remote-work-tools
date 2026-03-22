@@ -18,6 +18,25 @@ voice-checked: true
 
 Running a freelance development business with your spouse combines the challenges of client work with the unique dynamics of a family partnership. The right project management approach can mean the difference between a smooth-running operation and one that bleeds into your personal life. This guide covers practical strategies for managing projects when you're both developers working from home.
 
+## Table of Contents
+
+- [Establishing Clear Work Boundaries](#establishing-clear-work-boundaries)
+- [Task Management That Actually Works](#task-management-that-actually-works)
+- [Communication Patterns for Daily Sync](#communication-patterns-for-daily-sync)
+- [Client Communication Boundaries](#client-communication-boundaries)
+- [File and Document Organization](#file-and-document-organization)
+- [Scaling Freelance Partnerships](#scaling-freelance-partnerships)
+- [Handling Overlap and Conflicts](#handling-overlap-and-conflicts)
+- [Managing Separate Clients](#managing-separate-clients)
+- [Time Tracking and Invoicing](#time-tracking-and-invoicing)
+- [What to Avoid](#what-to-avoid)
+- [Pricing and Revenue Management](#pricing-and-revenue-management)
+- [Handling Growth and Outsourcing](#handling-growth-and-outsourcing)
+- [Making It Sustainable](#making-it-sustainable)
+- [Protecting Your Relationship from Work Stress](#protecting-your-relationship-from-work-stress)
+- [Common Pitfalls Revisited with Solutions](#common-pitfalls-revisited-with-solutions)
+- [Scaling Beyond Two People](#scaling-beyond-two-people)
+
 ## Establishing Clear Work Boundaries
 
 The most critical factor in a husband-wife development partnership is separating work from personal time. Without office walls, the temptation to check "just one more thing" after dinner becomes constant. Set defined working hours and stick to them. Use a shared calendar to block work time, and treat those blocks as non-negotiable as you would a client meeting.
@@ -293,10 +312,9 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 ## Related Articles
 
 - [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
-- [SaaS Side Project Guide for Freelance Developers](/remote-work-tools/saas-side-project-guide-for-freelance-developers/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [Best Project Management CLI Tools 2026](/remote-work-tools/best-project-management-cli-tools-2026/)
-- [Best Project Management Tool for 3 Person Startup 2026](/remote-work-tools/best-project-management-tool-for-3-person-startup-2026/)
-
+- [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
+- [Project Management Tools for Freelancers 2026](/remote-work-tools/project-management-tools-for-freelancers-2026/)
+- [Python script for scheduling client communication boundaries](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
+- [How to Scope Freelance Development Projects](/remote-work-tools/how-to-scope-freelance-development-projects/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

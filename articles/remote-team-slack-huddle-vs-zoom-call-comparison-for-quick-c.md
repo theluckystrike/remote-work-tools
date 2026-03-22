@@ -33,6 +33,23 @@ tags: [remote-work-tools, comparison, remote-work]
 
 Choose Slack Huddles for quick questions requiring minimal setup and low context-switching friction, and Zoom for structured meetings requiring recording, transcription, and screen-sharing for groups larger than 15 people. This matching of tool capability to conversation type prevents wasted setup time while avoiding the cognitive penalty of unnecessary interruptions.
 
+## Table of Contents
+
+- [The Core Difference](#the-core-difference)
+- [Latency and Connection Quality](#latency-and-connection-quality)
+- [Context Switching Cost](#context-switching-cost)
+- [Feature Comparison for Developer Use Cases](#feature-comparison-for-developer-use-cases)
+- [When Slack Huddles Work Best](#when-slack-huddles-work-best)
+- [When Zoom Makes Sense](#when-zoom-makes-sense)
+- [Hybrid Workflow Example](#hybrid-workflow-example)
+- [Performance Considerations](#performance-considerations)
+- [Practical Recommendations](#practical-recommendations)
+- [Complete Tool Comparison Matrix](#complete-tool-comparison-matrix)
+- [Cost Analysis for Teams](#cost-analysis-for-teams)
+- [Network and Audio Codec Details](#network-and-audio-codec-details)
+- [Implementation: Team Policies](#implementation-team-policies)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+
 Quick conversations in remote teams often create a decision bottleneck: start a Slack Huddle for a 30-second question, or schedule a full Zoom call for what might be a 5-minute discussion? The answer affects your team's flow, context-switching costs, and ultimately your shipping velocity. This guide breaks down when each tool makes sense for developer workflows.
 
 ## The Core Difference

@@ -38,11 +38,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-- [Linux: Check audio input levels](/remote-work-tools/best-headset-for-remote-work-all-day-comfort-2026/)
-- [Simple volume check script for testing headphones](/remote-work-tools/best-kid-safe-headphones-for-children-of-remote-workers-need/)
-- [Zoom CLI example for updating PMI settings](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
-- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
-
+- [Remote Developer Documentation Collaboration Tools for Maint](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
+- [Documentation Platform for a 15 Person Remote Data Science T](/remote-work-tools/documentation-platform-for-a-15-person-remote-data-science-t/)
+- [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [Install Storybook for your design system package](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

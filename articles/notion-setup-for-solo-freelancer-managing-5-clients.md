@@ -19,6 +19,24 @@ tags: [remote-work-tools]
 
 Managing multiple clients as a solo freelancer requires structure. Without a proper system, you juggle deadlines in your head, lose track of conversations, and miss billable hours. Notion provides a flexible foundation for building a client management system that scales with your workload. This guide walks through a practical setup designed specifically for developers and power users handling around 5 concurrent clients.
 
+## Table of Contents
+
+- [Database Architecture](#database-architecture)
+- [Views That Actually Help](#views-that-actually-help)
+- [Templates for Consistency](#templates-for-consistency)
+- [Advanced: API Integration for Developers](#advanced-api-integration-for-developers)
+- [Maintenance and Evolution](#maintenance-and-evolution)
+- [Automating Invoicing from Notion](#automating-invoicing-from-notion)
+- [Client Profitability Analysis](#client-profitability-analysis)
+- [Client Communication Workflow](#client-communication-workflow)
+- [What Was Completed](#what-was-completed)
+- [What's Planned for Next Week](#whats-planned-for-next-week)
+- [Blockers or Questions](#blockers-or-questions)
+- [Billable Hours This Week](#billable-hours-this-week)
+- [Next Steps](#next-steps)
+- [Scaling Beyond 5 Clients](#scaling-beyond-5-clients)
+- [Sample Client Rates by Specialty (2026)](#sample-client-rates-by-specialty-2026)
+
 The core principle is simple: separate client data from project data, link them together, and create views that show you what needs attention now.
 
 ## Database Architecture

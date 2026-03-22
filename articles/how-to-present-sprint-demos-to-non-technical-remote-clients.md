@@ -18,6 +18,13 @@ voice-checked: true
 
 Presenting sprint demos to non-technical clients over video calls presents unique challenges. Your audience cannot see the code, doesn't understand technical terminology, and may lose interest quickly if you focus on implementation details. The difference between a successful demo and a confusing one often comes down to preparation and communication style.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Advanced: Using Storytelling to Engage Clients](#advanced-using-storytelling-to-engage-clients)
+- [Troubleshooting](#troubleshooting)
+
 This guide provides practical strategies for delivering effective sprint demos that keep clients engaged, build trust, and demonstrate real progress.
 
 ## Prerequisites

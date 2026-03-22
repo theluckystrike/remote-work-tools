@@ -17,6 +17,22 @@ voice-checked: true
 
 Product demo days become exponentially harder as your remote engineering team grows. What works flawlessly with 10 engineers becomes a logistical nightmare at 50. Time zone conflicts multiply, attention spans fragment, and the "quick demo" stretches into a full-day affair. This guide provides a tested format that maintains engagement and delivers value at scale.
 
+## Table of Contents
+
+- [The Core Problem with Traditional Demo Days](#the-core-problem-with-traditional-demo-days)
+- [The Async-First Demo Format](#the-async-first-demo-format)
+- [Week of March 16 Demo Day](#week-of-march-16-demo-day)
+- [Live Q&A Guidelines](#live-qa-guidelines)
+- [Scaling to 50+ Engineers: Practical Adjustments](#scaling-to-50-engineers-practical-adjustments)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Scaling Demo Infrastructure as Teams Grow](#scaling-demo-infrastructure-as-teams-grow)
+- [Feedback and Iteration Loops](#feedback-and-iteration-loops)
+- [Building Momentum with Recurring Themes](#building-momentum-with-recurring-themes)
+- [Demo Day for Distributed, Geographically Scattered Teams](#demo-day-for-distributed-geographically-scattered-teams)
+- [Preventing Demo Day Fatigue](#preventing-demo-day-fatigue)
+- [Learning From Failed Demos](#learning-from-failed-demos)
+- [Adapting Demo Format as Company Scales](#adapting-demo-format-as-company-scales)
+
 ## The Core Problem with Traditional Demo Days
 
 Synchronous demo days assume everyone can attend at the same time and stay focused throughout. With 50 engineers spread across time zones, you're dealing with:
@@ -292,10 +308,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 ## Related Articles
 
 - [How to Run a Remote Team Demo Day Showcasing Cross-Team](/remote-work-tools/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
-- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
-- [Best Practice for Hybrid Team Standup Format Accommodating M](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
-- [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
 - [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
-
+- [How to Run Effective Remote Team Demos and Showcases 2026](/remote-work-tools/how-to-run-effective-remote-team-demos-and-showcases-2026/)
+- [How to Record Client Demo Videos Asynchronously for Remote](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
+- [Async Sales Demo Recordings for Remote Enterprise Sales Team](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

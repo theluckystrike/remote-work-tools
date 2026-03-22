@@ -27,6 +27,25 @@ tags: [remote-work-tools, remote-work]
 
 Remote hackathons are high-energy events where distributed teams compete to ship features, fixes, or side projects in 24-72 hours. Unlike in-person hackathons with energy from physical proximity, remote versions require deliberate structure: clear judging criteria, persistent communication channels, and async-friendly formats. This guide covers the complete playbook.
 
+## Table of Contents
+
+- [Why Run a Remote Hackathon?](#why-run-a-remote-hackathon)
+- [Pre-Hackathon Planning (4 Weeks Out)](#pre-hackathon-planning-4-weeks-out)
+- [Hackathon Schedule (48-Hour Example)](#hackathon-schedule-48-hour-example)
+- [Judging Rubric](#judging-rubric)
+- [Tooling Setup](#tooling-setup)
+- [Team: [Names]](#team-names)
+- [What we built](#what-we-built)
+- [How to try it](#how-to-try-it)
+- [Technical approach](#technical-approach)
+- [What we learned](#what-we-learned)
+- [If we had more time](#if-we-had-more-time)
+- [Real Example: Slack Bot Hackathon](#real-example-slack-bot-hackathon)
+- [Common Failures and Fixes](#common-failures-and-fixes)
+- [Async Hacks for Distributed Teams](#async-hacks-for-distributed-teams)
+- [Post-Hackathon (2 Days After)](#post-hackathon-2-days-after)
+- [Hackathon Ideas Bank](#hackathon-ideas-bank)
+
 ## Why Run a Remote Hackathon?
 
 **Benefits:**

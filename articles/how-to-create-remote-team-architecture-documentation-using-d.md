@@ -18,6 +18,14 @@ voice-checked: true
 
 The best approach for remote teams is using Mermaid or PlantUML to store diagrams as text files in your repository, enabling Git-based collaboration and eliminating merge conflicts that plague binary diagram tools. This guide shows you how to implement diagrams as code with practical examples, CI/CD integration strategies, and workflows that scale across time zones without requiring real-time synchronization.
 
+## Table of Contents
+
+- [Why Diagrams as Code for Remote Teams](#why-diagrams-as-code-for-remote-teams)
+- [Prerequisites](#prerequisites)
+- [Getting Started with Mermaid](#getting-started-with-mermaid)
+- [Best Practices for Remote Teams](#best-practices-for-remote-teams)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Diagrams as Code for Remote Teams
 
 Traditional diagramming tools create binary files that don't merge well in version control. When team members across different time zones work on the same diagram, you encounter constant merge conflicts and lost changes. Diagrams as code treats your architecture drawings as plain text files that integrate smoothly with Git workflows.
@@ -287,11 +295,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Best Tools for Remote Team Architecture Reviews 2026](/remote-work-tools/best-tools-for-remote-team-architecture-reviews-2026/)
+- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
+- [Remote Team Information Architecture Overhaul Guide When](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
 - [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
-- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
-- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
-- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
-
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

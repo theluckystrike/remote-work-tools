@@ -16,6 +16,17 @@ intent-checked: true
 
 Home offices near traffic, construction, or urban noise are notoriously bad for remote calls. Your colleagues hear jackhammers, truck engines, and car horns instead of your voice. Software noise cancellation helps but introduces latency and artifacts. A proper noise-canceling or directional microphone is the real solution, cutting environmental noise while preserving voice clarity. This guide reviews the best microphones tested in real noisy conditions (street traffic, HVAC noise, construction) with pricing and practical configuration.
 
+## Table of Contents
+
+- [The Noise Problem: Why Standard Mics Fail](#the-noise-problem-why-standard-mics-fail)
+- [Microphone Comparison: Tested in Noise](#microphone-comparison-tested-in-noise)
+- [Best for Different Noise Situations](#best-for-different-noise-situations)
+- [Mic Positioning Strategy for Noise Rejection](#mic-positioning-strategy-for-noise-rejection)
+- [Advanced Configuration: Software + Hardware](#advanced-configuration-software-hardware)
+- [Real-World Test: Busy Intersection Home Office](#real-world-test-busy-intersection-home-office)
+- [Recommended Setup by Budget](#recommended-setup-by-budget)
+- [Final Recommendation by Noise Level](#final-recommendation-by-noise-level)
+
 ## The Noise Problem: Why Standard Mics Fail
 
 Consumer USB microphones (like basic Blue Yeti or cheap condenser mics) pick up sound equally from all directions. Your voice + background noise get mixed at the same level. Software noise suppression then struggles: reduce the noise too much and your voice sounds robotic; leave it untouched and people complain about the jackhammer.
@@ -334,10 +345,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Noise Cancelling Setup for Remote Work from Busy Bali](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
-- [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
 - [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
 - [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
-- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
-
+- [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
+- [Best Noise Gate Microphone Setting for Remote Parents](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
+- [Best Noise Cancelling Setup for Remote Work from Busy Bali](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -18,6 +18,25 @@ voice-checked: true
 
 Remote and distributed teams need effective ways to communicate about design work without scheduling synchronous meetings. Async annotation and commenting tools bridge this gap, allowing team members to leave precise feedback on design mockups at any time, from any timezone. This guide evaluates the best tools for async annotation and commenting on design mockups, focusing on developer integration, workflow automation, and practical use cases.
 
+## Table of Contents
+
+- [Why Async Design Feedback Matters](#why-async-design-feedback-matters)
+- [Figma: Native Annotation with Dev Mode](#figma-native-annotation-with-dev-mode)
+- [MarkUp: Standalone Annotation Platform](#markup-standalone-annotation-platform)
+- [Frame.io: Video and Image Annotation](#frameio-video-and-image-annotation)
+- [Redline: Developer-Centric Annotation](#redline-developer-centric-annotation)
+- [InVision: Enterprise Design Collaboration](#invision-enterprise-design-collaboration)
+- [Choosing the Right Tool](#choosing-the-right-tool)
+- [Automating Annotation Workflows](#automating-annotation-workflows)
+- [Building Review Templates for Consistency](#building-review-templates-for-consistency)
+- [Feedback Template: Visual Polish](#feedback-template-visual-polish)
+- [Feedback Template: Interaction Review](#feedback-template-interaction-review)
+- [Working with Design Systems and Tokens](#working-with-design-systems-and-tokens)
+- [Handling Async Feedback on Animations and Interactions](#handling-async-feedback-on-animations-and-interactions)
+- [Managing Comment Resolution and Stakeholder Sign-Off](#managing-comment-resolution-and-stakeholder-sign-off)
+- [Performance Considerations for Large Design Files](#performance-considerations-for-large-design-files)
+- [Integration with Project Management](#integration-with-project-management)
+
 ## Why Async Design Feedback Matters
 
 Design reviews consume significant time when conducted synchronously. Scheduling meetings across time zones, waiting for all stakeholders to assemble, and discussing feedback in real-time creates bottlenecks in the development cycle. Async annotation tools eliminate these friction points by enabling team members to comment on specific elements of a design, attach files, and track resolution status without live coordination.

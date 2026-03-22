@@ -18,6 +18,15 @@ tags: [remote-work-tools, best-of, workflow, remote-work]
 
 Distributed legal teams need deadline management tools that automatically calculate response windows across multiple jurisdictions, integrate with practice management software, and provide escalation notifications for missed deadlines. Notion offers flexibility for smaller teams, Airtable provides automation capabilities, and custom solutions integrate with existing legal infrastructure. This guide compares workflow tools specifically designed for remote legal assistants managing court filing deadlines across multiple jurisdictions and time zones.
 
+## Table of Contents
+
+- [Core Requirements for Legal Deadline Management](#core-requirements-for-legal-deadline-management)
+- [Evaluating Workflow Tools for Legal Deadline Management](#evaluating-workflow-tools-for-legal-deadline-management)
+- [Building a Custom Legal Deadline System](#building-a-custom-legal-deadline-system)
+- [Coordinating Across Time Zones Without Missing Deadlines](#coordinating-across-time-zones-without-missing-deadlines)
+- [Recommended Approach Based on Team Size](#recommended-approach-based-on-team-size)
+- [Security Considerations](#security-considerations)
+
 ## Core Requirements for Legal Deadline Management
 
 Legal assistants handling court filings operate under strict constraints. Missing a deadline can result in dismissed cases, sanctions, or malpractice claims. A workflow tool must address several non-negotiable requirements:

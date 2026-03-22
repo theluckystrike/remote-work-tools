@@ -249,6 +249,18 @@ Blockers: Need clarity on invoice CSV schema from @product
 FYI: PR #455 ready for review, straightforward auth fix
 ```
 
+## Table of Contents
+
+- [Async Standup Failure Modes and Fixes](#async-standup-failure-modes-and-fixes)
+- [Engineering Standups at Different Team Sizes](#engineering-standups-at-different-team-sizes)
+- [Daily](#daily)
+- [Weekly](#weekly)
+- [Creating a Standup Dashboard](#creating-a-standup-dashboard)
+- [Standup Anti-Patterns in Remote Teams](#standup-anti-patterns-in-remote-teams)
+- [Integration with Incident Response](#integration-with-incident-response)
+- [Standup Intelligence Review](#standup-intelligence-review)
+- [Related Reading](#related-reading)
+
 Provide this in your onboarding docs so new engineers learn the format immediately.
 
 ## Async Standup Failure Modes and Fixes

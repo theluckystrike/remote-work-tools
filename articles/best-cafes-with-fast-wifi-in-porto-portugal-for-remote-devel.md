@@ -16,6 +16,19 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Cafe Santiago offers the best combination of fast WiFi (consistently 50+ Mbps), abundant power outlets, and quiet upper-floor seating for focused work, making it the top choice for developers working full 8-hour days. The ground floor provides a lively networking environment if you want community, while the upper section isolates you from distractions—Porto's other developer-friendly cafes offer competitive WiFi but lack Santiago's consistency and outlet availability.
 
+## Table of Contents
+
+- [What Makes a Cafe Developer-Friendly](#what-makes-a-cafe-developer-friendly)
+- [Top Cafes for Remote Developers in Porto](#top-cafes-for-remote-developers-in-porto)
+- [Testing WiFi Speed Programmatically](#testing-wifi-speed-programmatically)
+- [Essential Tools for Remote Workers in Porto](#essential-tools-for-remote-workers-in-porto)
+- [Practical Tips for Working in Porto Cafes](#practical-tips-for-working-in-porto-cafes)
+- [Detailed Cafe Reviews with Technical Metrics](#detailed-cafe-reviews-with-technical-metrics)
+- [Working in Porto Cafes: Full-Day Workflow](#working-in-porto-cafes-full-day-workflow)
+- [Communication Tools That Perform Well Over Porto Cafe WiFi](#communication-tools-that-perform-well-over-porto-cafe-wifi)
+- [Neighborhoods Worth Exploring](#neighborhoods-worth-exploring)
+- [Internet Backup Plans for Critical Work](#internet-backup-plans-for-critical-work)
+
 ## What Makes a Cafe Developer-Friendly
 
 Before exploring specific recommendations, here are the key factors remote developers should evaluate when choosing a workspace:

@@ -33,6 +33,13 @@ tags: [remote-work-tools, remote-work]
 
 Building a thoughtful welcome ritual for remote team members creates the foundation for long-term engagement and retention. Unlike office environments where new hires naturally absorb team culture through physical presence, remote teams must intentionally design experiences that make newcomers feel connected, informed, and valued from day one.
 
+## Table of Contents
+
+- [Why Welcome Rituals Matter for Remote Teams](#why-welcome-rituals-matter-for-remote-teams)
+- [Designing Your Welcome Ritual Framework](#designing-your-welcome-ritual-framework)
+- [Automating Welcome Ritual Elements](#automating-welcome-ritual-elements)
+- [Measuring Welcome Ritual Effectiveness](#measuring-welcome-ritual-effectiveness)
+
 This guide provides actionable steps to create welcoming rituals that work across time zones and asynchronous workflows.
 
 ## Why Welcome Rituals Matter for Remote Teams
@@ -298,11 +305,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
-- [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
-- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
-- [How to Create Remote Team Working Agreement Template for](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
 - [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/remote-work-tools/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
-
+- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
+- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

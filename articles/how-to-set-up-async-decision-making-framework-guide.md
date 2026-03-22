@@ -40,6 +40,40 @@ Async decision-making benefits:
 
 ## The Five-Step Async Decision Framework
 
+## Table of Contents
+
+- [The Five-Step Async Decision Framework](#the-five-step-async-decision-framework)
+- [1. Context & Problem Statement](#1-context-problem-statement)
+- [2. Options Being Considered](#2-options-being-considered)
+- [3. Key Tradeoffs](#3-key-tradeoffs)
+- [4. Implementation Path](#4-implementation-path)
+- [5. Reversibility](#5-reversibility)
+- [6. Questions from Stakeholders](#6-questions-from-stakeholders)
+- [7. Recommendation](#7-recommendation)
+- [8. Input from Stakeholders](#8-input-from-stakeholders)
+- [1. Context](#1-context)
+- [2. Options Being Considered](#2-options-being-considered)
+- [3. Key Tradeoffs](#3-key-tradeoffs)
+- [4. Implementation Path](#4-implementation-path)
+- [5. Reversibility](#5-reversibility)
+- [6. Questions from Stakeholders](#6-questions-from-stakeholders)
+- [7. Recommendation from Tech Lead](#7-recommendation-from-tech-lead)
+- [8. Input from Stakeholders](#8-input-from-stakeholders)
+- [Planned Actions](#planned-actions)
+- [Progress (Updated weekly)](#progress-updated-weekly)
+- [Blockers + Changes](#blockers-changes)
+- [Post-Decision Learning](#post-decision-learning)
+- [Tools for Async Decision-Making](#tools-for-async-decision-making)
+- [Real-World Example: Switching Cloud Providers](#real-world-example-switching-cloud-providers)
+- [Options](#options)
+- [Tradeoffs Table](#tradeoffs-table)
+- [Input from Data Science Team](#input-from-data-science-team)
+- [Input from DevOps](#input-from-devops)
+- [Input from Finance](#input-from-finance)
+- [Best Practices for Async Decisions](#best-practices-for-async-decisions)
+- [Recommended Implementation Timeline](#recommended-implementation-timeline)
+- [Related Reading](#related-reading)
+
 ### Step 1: Clearly Define the Decision
 
 Not all decisions deserve async treatment. Only decisions that meet these criteria go through the framework:
@@ -708,6 +742,14 @@ Timeline:
 - [Leadership in Remote-First Organizations](https://guides.zovo.one/remote-leadership)
 
 ---
+
+## Related Articles
+
+- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
+- [How to Create Remote Team Decision Making Framework for Dist](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Best Async Voice Message Tools for Remote Teams 2026](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

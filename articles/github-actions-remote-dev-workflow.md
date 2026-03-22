@@ -33,6 +33,16 @@ tags: [remote-work-tools, workflow, remote-work]
 
 Remote teams can't do "walk over and ask if the build is broken." Automation fills that gap: every PR gets tested automatically, deploys run without a human initiating them, and Slack notifications keep the team informed without requiring anyone to watch CI dashboards.
 
+## Table of Contents
+
+- [PR Validation Workflow](#pr-validation-workflow)
+- [Automated Deploy Workflow](#automated-deploy-workflow)
+- [Branch Preview Environments](#branch-preview-environments)
+- [Slack Notification for Failed Builds](#slack-notification-for-failed-builds)
+- [Secrets Management in GitHub Actions](#secrets-management-in-github-actions)
+- [Caching Dependencies for Speed](#caching-dependencies-for-speed)
+- [Workflow Reuse with Composite Actions](#workflow-reuse-with-composite-actions)
+
 This guide covers GitHub Actions workflows that make async remote development reliable: PR validation, branch preview environments, automated deploys, and Slack integration.
 
 ## PR Validation Workflow
