@@ -29,6 +29,12 @@ The primary constraints at 200 participants are:
 - Audio management: Open microphones create feedback loops; you need strict muting protocols
 - Visual engagement: With 200 faces on screen, traditional video grids become overwhelming
 
+### Zoom Plan Selection
+
+For 200-person quarterly meetings, you have two realistic options. The standard Business or Enterprise plan supports up to 300 participants by default in some tiers, but reliably check your contract because limits vary. The Large Meeting add-on ($50/month as of 2026) expands any qualifying plan to 500 participants, giving headroom above your 200-person count. The Webinar add-on is worth considering if your quarterly meeting is primarily broadcast-style — it provides better audience control tools but removes the ability for attendees to turn on cameras.
+
+For a company all-hands where you want cultural engagement and two-way Q&A, the Large Meeting add-on on a Business plan is the right configuration, not Webinar mode.
+
 ## Room Configuration and Settings
 
 Before your quarterly meeting, configure your Zoom room settings for large-scale delivery. Access these through the Zoom web portal under "Settings > Meeting".
@@ -53,6 +59,18 @@ Before your quarterly meeting, configure your Zoom room settings for large-scale
 ```
 
 The waiting room is critical for 200-person meetings. It prevents unauthorized access and lets you admit participants in controlled batches, reducing initial audio chaos. Authentication requirements ensure only company employees can join.
+
+### Bandwidth and Network Preparation
+
+With 200 participants, aggregate bandwidth consumption is significant. Ensure your presenters (not participants) meet these minimums:
+
+| Video Quality | Upload Required | Notes |
+|---|---|---|
+| 720p HD | 1.8 Mbps | Minimum for good presenter quality |
+| 1080p HD | 3.8 Mbps | Recommended for main presenters |
+| Screen share only | 0.5-1.5 Mbps | If presenter turns camera off |
+
+Participants mostly receive video — they need 1-2 Mbps download each, but that load is distributed. Your central concern is presenter upload quality. Run a Zoom connection test from the presenter's actual location (not the office, if they're remote) at least 48 hours in advance so bandwidth issues can be resolved.
 
 ## Pre-Meeting Automation Script
 
@@ -108,6 +126,22 @@ print(f"Meeting created: {q1_meeting.get('join_url')}")
 
 This script creates a pre-configured meeting with appropriate settings. Store your Zoom OAuth token securely and rotate it according to your security policy.
 
+You can extend this script to automatically distribute the meeting link to your HRIS or Slack workspace after creation, eliminating the manual copy-paste step that causes scheduling errors:
+
+```python
+def notify_slack(join_url, channel, topic):
+    """Post meeting link to Slack channel after creation."""
+    payload = {
+        "channel": channel,
+        "text": f"*{topic}* has been scheduled.\nJoin: {join_url}"
+    }
+    requests.post(
+        "https://slack.com/api/chat.postMessage",
+        json=payload,
+        headers={"Authorization": f"Bearer {slack_token}"}
+    )
+```
+
 ## Structuring the Meeting for Maximum Engagement
 
 With 200 participants, engagement requires deliberate design. A 90-minute meeting with passive listening will lose your audience. Structure your quarterly meeting in distinct phases:
@@ -117,9 +151,9 @@ With 200 participants, engagement requires deliberate design. A 90-minute meetin
 Start with clear audio and visual framing. Display the meeting title and your company branding on the shared screen. Use this time to confirm audio levels and remind participants of interaction rules:
 
 ```
-📋 Meeting Protocol:
+Meeting Protocol:
 - All attendees muted by default
-- Use Reactions (👍, ❤️, 🎉) to react in real-time
+- Use Reactions to react in real-time
 - Questions via Chat - will be addressed in Q&A
 - Recording in progress
 ```
@@ -153,6 +187,8 @@ Rotate through department heads with concise updates. Limit each presenter to 3-
 </div>
 ```
 
+Enforce the time limits. At 200-person scale, a presenter running 3 minutes over costs 600 person-minutes of attention — the equivalent of losing 10 people's full-day productivity. Assign a moderator whose only job is signaling presenters when they hit 30 seconds remaining.
+
 ### Phase 4: Q&A Session (20 minutes)
 
 The Q&A requires structured help at 200-person scale. Use one of these approaches:
@@ -162,6 +198,8 @@ Chat-Based Q&A: Participants submit questions in chat. A moderator curates and r
 Slido Integration: Embed Slido directly in Zoom for live polling and upvoting. Questions with most votes get addressed first.
 
 Written Questions Only: For sensitive topics, allow only written questions that presenters answer directly.
+
+For a 200-person all-hands, the Slido approach consistently produces better Q&A quality than open chat. Upvoting surfaces the questions most people want answered and deprioritizes niche individual questions that would otherwise derail the group session.
 
 ## Technical Backup Procedures
 
@@ -181,6 +219,18 @@ Large meetings require contingency planning. Prepare for common failure scenario
 - Require all presenters to use wired headsets
 - Have a dedicated audio coordinator on standby
 - Prepare a dial-in phone number as fallback
+
+### Moderator Role Distribution
+
+At 200-person scale, one person cannot host, monitor chat, manage the waiting room, handle technical issues, and time presenters simultaneously. Distribute responsibilities across a minimum crew of three:
+
+| Role | Responsibilities |
+|---|---|
+| Host | Controls spotlight, admits from waiting room, ends meeting |
+| Chat Moderator | Monitors chat, routes questions to presenter, flags issues |
+| Technical Coordinator | Monitors audio/video quality, manages presenter transitions, handles backups |
+
+Assign each role to someone who has rehearsed it at least once in a test session. The first time you run a 200-person meeting should not be the first time your moderators have used the host controls under pressure.
 
 ## Post-Meeting Follow-Up
 
@@ -215,6 +265,34 @@ def parse_action_items(chat_messages):
 
     return actions
 ```
+
+### Adding Chapter Markers to Recordings
+
+Zoom cloud recordings land as flat MP4 files without chapter markers. Before distributing, add timestamps in the video description or accompanying document to match your meeting structure:
+
+```markdown
+## Q1 2026 All-Hands Recording
+
+**Total Duration**: 1:28:14
+
+**Chapters**:
+- 0:00 — Opening and logistics
+- 5:10 — CEO company update
+- 22:30 — Engineering department highlights
+- 28:00 — Product department highlights
+- 34:00 — Sales and marketing highlights
+- 41:00 — Finance overview
+- 52:00 — Q&A session
+- 1:20:00 — Closing remarks
+
+Recording available at: [intranet link]
+```
+
+This index lets employees who missed the live meeting jump directly to the sections most relevant to their role, dramatically increasing recording viewership compared to a raw file with no navigation.
+
+---
+
+Running a 200-person quarterly meeting is a logistical exercise as much as a technical one. The Zoom configuration is the foundation, but the meeting structure, moderator preparation, and follow-up distribution determine whether participants leave informed and engaged or wondering why they didn't just read a summary email.
 
 
 ## Related Articles
