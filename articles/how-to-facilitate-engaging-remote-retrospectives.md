@@ -236,7 +236,7 @@ Track these metrics to measure retro effectiveness:
 **Team Participation Score:** Track the percentage of team members contributing to each retro (comments, action items, reactions).
 - Declining participation signals the format has become stale or team members feel unsafe
 
-## Facilitating Difficult Retrospectives
+## helping Difficult Retrospectives
 
 Some retros surface conflict or difficult truths. Here's how to handle them:
 

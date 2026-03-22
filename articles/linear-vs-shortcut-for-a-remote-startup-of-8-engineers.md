@@ -26,6 +26,18 @@ Shortcut (formerly Clubhouse) takes a more flexible approach. You can define cus
 
 For an eight-person remote startup, the question becomes: does your team value speed and simplicity, or customization and workflow control?
 
+
+## Quick Comparison
+
+| Feature | Linear | Shortcut |
+|---|---|---|
+| Pricing | $8 | $8 |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Automation | Workflow support | Workflow support |
+
 ## Feature Comparison for Small Teams
 
 ### Issue Management

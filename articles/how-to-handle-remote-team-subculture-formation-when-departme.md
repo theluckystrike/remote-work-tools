@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /how-to-handle-remote-team-subculture-formation-when-departme/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-management, culture]
-score: 8
+score: 9
 voice-checked: true
 reviewed: true
 intent-checked: true

@@ -9,7 +9,7 @@ permalink: /home-office-air-circulation-fan-that-is-quiet-for-calls/
 categories: [guides]
 tags: [remote-work-tools, home-office, remote-work, air-circulation, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

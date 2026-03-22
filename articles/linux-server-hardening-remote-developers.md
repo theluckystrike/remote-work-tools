@@ -10,7 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
@@ -322,6 +322,8 @@ sudo nmap -sV --open -p- localhost 2>/dev/null | grep "open"
 - [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
 - [WireGuard Team VPN: Multi-User Setup Guide](/remote-work-tools/wireguard-team-vpn-multi-user-setup/)
 - [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
+- [Linux Desktop Privacy Hardening Guide](https://theluckystrike.github.io/privacy-tools-guide/linux-desktop-privacy-hardening-guide/)
+- [macOS Privacy Hardening Checklist 2026](https://theluckystrike.github.io/privacy-tools-guide/macos-privacy-hardening-checklist-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

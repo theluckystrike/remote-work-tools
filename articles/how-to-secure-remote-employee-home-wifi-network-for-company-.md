@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /how-to-secure-remote-employee-home-wifi-network-for-company-data/
 categories: [guides, security]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]

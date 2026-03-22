@@ -9,7 +9,7 @@ permalink: /how-to-organize-virtual-volunteering-day-for-distributed-team-member
 categories: [guides]
 tags: [remote-work-tools, remote-work, volunteering, distributed-teams, team-building]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

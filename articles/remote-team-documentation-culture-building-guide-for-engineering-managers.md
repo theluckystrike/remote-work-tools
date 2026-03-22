@@ -9,7 +9,7 @@ permalink: /remote-team-documentation-culture-building-guide-for-engineering-man
 categories: [guides]
 tags: [remote-work-tools, documentation, remote-work, engineering-management, team-culture, knowledge-sharing]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -163,7 +163,7 @@ Your documentation tool choice matters because it affects adoption:
 **Small Teams (3-10 engineers)**
 - Notion ($8-10/user/month): Single workspace with docs, databases, wiki functionality
 - GitHub Wiki (free): For code-heavy teams, keeps docs next to code
-- Markdown in repo: Use simple file structure, leverage GitHub's built-in rendering
+- Markdown in repo: Use simple file structure, use GitHub's built-in rendering
 
 **Mid-Size Teams (10-50 engineers)**
 - Confluence ($5/user/month or self-hosted): Enterprise wiki with strong search, good for large doc volumes
@@ -247,7 +247,7 @@ Documentation rots without maintenance. Establish explicit review schedules:
 - Check for outdated references or broken links
 - Takes ~15 minutes per document
 
-**Quarterly review (comprehensive)**
+**Quarterly review ()**
 - Team reviews all critical documentation together
 - Check for stale information, missing prerequisites, outdated pricing
 - One hour per document

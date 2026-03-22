@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chrome Extension Window Resizer Testing: Complete Guide for"
+title: "Chrome Extension Window Resizer Testing"
 description: "Testing how your website or web application responds to different screen sizes is essential in modern web development. With the diversity of devices—from large"
 date: 2026-03-15
 last_modified_at: 2026-03-15

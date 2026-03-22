@@ -9,7 +9,7 @@ permalink: /remote-work-caregiver-leave-policy-template-for-distributed-/
 categories: [guides]
 tags: [remote-work-tools, remote-work, caregiver-leave, hr-policy, distributed-teams, sandwich-generation, remote-benefits]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

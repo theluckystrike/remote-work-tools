@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /how-to-run-remote-user-research-sessions-for-ux-designers-ac/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
@@ -368,7 +368,7 @@ Research Archive (Notion/Airtable):
     └── Success metrics (if applicable)
 ```
 
-This structure enables future researchers to understand context and leverage past findings.
+This structure enables future researchers to understand context and use past findings.
 
 ## Measuring Research Quality
 
@@ -408,7 +408,7 @@ Mitigation: Link research findings to design sprints or product roadmap. Create 
 
 **Error 5: Same people conducting research repeatedly**
 
-Mitigation: Rotate research responsibilities. Each team member should facilitate at least one session quarterly. Prevents gatekeeping of insights.
+Mitigation: Rotate research responsibilities. Each team member should help at least one session quarterly. Prevents gatekeeping of insights.
 
 ## Building Research Culture in Remote Teams
 

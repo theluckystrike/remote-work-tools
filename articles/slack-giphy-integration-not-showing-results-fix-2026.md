@@ -7,10 +7,11 @@ last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /slack-giphy-integration-not-showing-results-fix-2026/
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 categories: [troubleshooting]
 tags: [remote-work-tools, troubleshooting, integration]
+intent-checked: true
 ---
 
 {% raw %}
@@ -237,7 +238,7 @@ Tenor is Giphy's primary competitor and often works better in corporate environm
 - Works well when Giphy is experiencing issues
 - Tenor API has different rate limits, so sometimes works when Giphy fails
 
-**Disadvantage:** Less comprehensive catalog of older/classic GIFs
+**Disadvantage:** Less catalog of older/classic GIFs
 
 **How to install:** Same process as Giphy. Go to Slack App Directory, search "Tenor", click "Add"
 

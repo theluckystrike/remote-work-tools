@@ -9,7 +9,7 @@ permalink: /how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting
 categories: [guides]
 tags: [remote-work-tools, hybrid-work, office-wayfinding, indoor-navigation, workplace-tools, developer-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

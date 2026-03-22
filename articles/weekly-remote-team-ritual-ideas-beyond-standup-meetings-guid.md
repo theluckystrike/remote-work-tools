@@ -470,7 +470,7 @@ Different rituals require different resources:
 |--------|----------|-------|--------------|-------|
 | Weekly Wins | 1 hour | Slack channel | None | Minimal overhead |
 | Retrospective | 3 hours | Funretro/Notion | Facilitator | Most valuable |
-| Code Review Swap | 2 hours | GitHub/tool | None | Self-facilitated |
+| Code Review Swap | 2 hours | GitHub/tool | None | Self-helped |
 | Tech Talk | 1 hour | Zoom + recording | Speaker only | Scalable |
 | Show-and-Tell | 2 hours | Zoom | Light facilitation | Optional participation |
 | Mentorship | Ongoing | Calendar | None | Structured pairing |

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Migrating from Google Forms to Typeform for Remote Team."
+title: "Migrating from Google Forms to Typeform for Remote Team"
 description: "A detailed guide to migrating from Google Forms to Typeform for remote team surveys. Learn migration strategies, API integrations, and best"
 date: 2026-03-20
 last_modified_at: 2026-03-20
@@ -12,6 +12,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
+
 ---
 
 {% raw %}

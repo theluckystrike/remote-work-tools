@@ -321,7 +321,7 @@ Google Meet with Jamboard embedded:
 
 ## Recording and Asynchronous Learning Integration
 
-High-functioning tutoring teams leverage recordings for student review. Zoom's automatic transcription is particularly powerful:
+High-functioning tutoring teams use recordings for student review. Zoom's automatic transcription is particularly powerful:
 
 ```javascript
 // Zoom transcription extraction for study materials

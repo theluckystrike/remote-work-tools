@@ -288,12 +288,11 @@ Consult a tax professional specializing in US expat taxation before establishing
 
 ## Common Pitfalls to Avoid
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Work Guides Hub](/remote-work-tools/)
 - [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
 - [Barbados Welcome Stamp Visa for Remote Workers: 12-Month.](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 
-Built by
 
 
 ## Related Articles

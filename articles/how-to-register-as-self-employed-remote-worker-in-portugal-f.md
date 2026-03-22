@@ -9,7 +9,7 @@ permalink: /how-to-register-as-self-employed-remote-worker-in-portugal-f/
 categories: [guides]
 tags: [remote-work-tools, portugal, self-employed, tax, remote-work, freelancer, nif, irs]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

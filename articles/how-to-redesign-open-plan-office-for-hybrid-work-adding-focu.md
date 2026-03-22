@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
@@ -290,7 +290,7 @@ After six months with pods, track these metrics:
 
 **Retention impact:** Compare voluntary turnover before and after hybrid redesign. Employees who feel the office supports their work style stay longer.
 
-**Collaboration indicators:** Track cross-team meetings and project collaborations. The office should increase these, not replace them. If office time is only for focus, you're not leveraging hybrid benefits.
+**Collaboration indicators:** Track cross-team meetings and project collaborations. The office should increase these, not replace them. If office time is only for focus, you're not using hybrid benefits.
 
 Success metrics should balance focus support (pod usage) with collaboration value (cross-team interactions happening at office). The hybrid office should be better than either fully remote or fully in-office for both dimensions.
 

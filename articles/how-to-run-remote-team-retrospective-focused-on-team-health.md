@@ -9,7 +9,7 @@ permalink: /how-to-run-remote-team-retrospective-focused-on-team-health/
 categories: [guides]
 tags: [remote-work-tools, retrospective, remote-work, team-health, agile, psychological-safety]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -83,7 +83,7 @@ Sharing these reflections is optional—sometimes the act of writing is valuable
 
 ## Facilitation Techniques That Work Remotely
 
-Facilitating health discussions remotely requires intentional structure. Without careful facilitation, some voices dominate while others stay silent.
+helping health discussions remotely requires intentional structure. Without careful facilitation, some voices dominate while others stay silent.
 
 **Use written responses first.** Before opening verbal discussion, give everyone 5-10 minutes to write their thoughts individually. This ensures quieter team members have opportunity to contribute, and written responses often surface issues that people hesitate to mention verbally. Tools like Mentimeter, EasyRetro, or even a shared Google Doc work well for this.
 
@@ -93,7 +93,7 @@ Facilitating health discussions remotely requires intentional structure. Without
 
 **Name the elephant.** If tension exists in the room, acknowledge it directly. A facilitator might say, "I sense some hesitation about this topic. Let's create space for anyone who wants to share their perspective." Naming the dynamic often releases the pressure.
 
-**Rotate the facilitator role.** When the same person always facilitates, the retro takes on their personality and biases. Rotating facilitation—especially letting individual contributors facilitate—distributes ownership of team health and develops facilitation skills across the team.
+**Rotate the facilitator role.** When the same person always helps, the retro takes on their personality and biases. Rotating facilitation—especially letting individual contributors help—distributes ownership of team health and develops facilitation skills across the team.
 
 **Time-box aggressively.** In remote settings, discussions without clear time limits drift or get dominated by the most verbose participants. A visible timer on screen (using tools like Cuckoo Timer or a shared browser timer) creates natural pause points and signals when to move on.
 

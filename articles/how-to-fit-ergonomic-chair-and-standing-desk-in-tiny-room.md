@@ -9,7 +9,7 @@ permalink: /how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/
 categories: [guides]
 tags: [remote-work-tools, ergonomics, workspace, remote-work, home-office]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

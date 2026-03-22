@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Shortcut vs Linear: Issue Tracking Comparison for"
+title: "Shortcut vs Linear Issue Tracking Comparison"
 description: "A practical comparison of Shortcut vs Linear issue tracking. Learn the key differences, workflow approaches, and which tool fits your development"
 date: 2026-03-15
 last_modified_at: 2026-03-15
@@ -25,6 +25,18 @@ Choose Linear if your team values speed, keyboard-first workflows, and a minimal
 **Linear** was built with a focus on speed and keyboard-centric workflows. It mimics the feel of a local desktop application while operating entirely in the browser. The interface is minimal, the keyboard shortcuts are extensive, and everything is designed to keep your hands on the keyboard.
 
 **Shortcut** (formerly Clubhouse) takes a more flexible, story-centric approach to issue tracking. It emphasizes epics and stories over individual issues, making it particularly attractive to teams working in Agile frameworks where larger feature narratives matter.
+
+
+## Quick Comparison
+
+| Feature | Shortcut | Linear |
+|---|---|---|
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| Mobile App | Available | Available |
+| API Access | Available | Available |
+| Automation | Workflow support | Workflow support |
 
 ## User Interface and Keyboard Workflows
 

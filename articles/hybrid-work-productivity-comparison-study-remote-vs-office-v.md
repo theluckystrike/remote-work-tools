@@ -190,6 +190,44 @@ echo "Evening responses (after 5pm):"
 git log --since='30 days ago' --format='%ad' --date=format:'%A' | sort | uniq -c
 ```
 
+## Practical Recommendations by Role
+
+| Role | Recommended Model | Rationale |
+|------|------------------|-----------|
+| Backend developers | 4 remote / 1 office | Deep work priority |
+| Frontend developers | 3 remote / 2 office | In-person design pairing |
+| DevOps/SRE | Fully remote | On-call is location-independent |
+| Engineering managers | 2 remote / 3 office | Face-to-face builds trust |
+| Product managers | 2 remote / 3 office | Stakeholder meetings benefit from office |
+| Designers | 3 remote / 2 office | Deep design remote, critiques in person |
+
+Let teams experiment for 3 months and measure the impact. Data should drive policy, not assumptions.
+
+## Building Your Own Productivity Dashboard
+
+```python
+import json
+from datetime import datetime
+
+def generate_weekly_report(team_data):
+    report = {"week_ending": datetime.now().strftime("%Y-%m-%d"), "metrics": {}}
+    for member in team_data:
+        name = member["name"]
+        report["metrics"][name] = {
+            "model": member["model"],
+            "commits": member.get("commits", 0),
+            "prs_reviewed": member.get("prs_reviewed", 0),
+            "meeting_hours": member.get("meeting_hours", 0),
+            "focus_hours": member.get("focus_hours", 0),
+            "productivity_ratio": (
+                member.get("focus_hours", 0) /
+                max(member.get("meeting_hours", 1), 1)
+            )
+        }
+    return report
+```
+
+Track the productivity ratio (focus hours / meeting hours) over time. A healthy ratio is 3:1 or higher. If this drops below 2:1, your team is over-meeting.
 
 ## Related Articles
 

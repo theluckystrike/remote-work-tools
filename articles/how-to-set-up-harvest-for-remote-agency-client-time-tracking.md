@@ -9,7 +9,7 @@ permalink: /how-to-set-up-harvest-for-remote-agency-client-time-tracking/
 categories: [guides]
 tags: [remote-work-tools, harvest, time-tracking, remote-work, agency-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -17,11 +17,23 @@ voice-checked: true
 {% raw %}
 # How to Set Up Harvest for Remote Agency Client Time Tracking
 
-Remote agencies face unique challenges when tracking time across distributed teams and multiple clients. Harvest provides a solution for capturing billable hours, managing client projects, and generating invoices. This guide covers practical setup steps for agencies working with remote clients.
+Remote agencies face unique challenges when tracking time across distributed teams and multiple clients. Harvest provides a solution for capturing billable hours, managing client projects, and generating invoices. This guide covers practical setup steps for agencies working with remote clients, with emphasis on remote-specific workflows and time zone management.
 
 ## Creating Your Agency Workspace
 
 Start by creating a Harvest account tailored to agency operations. The workspace structure determines how you organize client work and report on productivity.
+
+**Why workspace structure matters**: A poorly structured workspace becomes increasingly painful as your agency scales. You can't easily audit which clients are profitable, team utilization becomes opaque, and reporting requires manual work. Invest time upfront in clean structure.
+
+**Plan before setup**: Before creating a single project, document your:
+- Client list and organizational hierarchy
+- Project naming conventions
+- Task categories matching your service types
+- Team member roles and permission models
+- Billing rate structures
+- Reporting requirements
+
+This 30-minute planning prevents months of cleanup later.
 
 When setting up, choose between a single workspace or multiple workspaces. Single workspace works well for agencies managing all clients in one place. Multiple workspaces suit larger agencies separating different business units or regional operations.
 
@@ -86,11 +98,13 @@ Retainer Billing: Set up recurring invoices for ongoing client work. Track time 
 
 Establish clear time tracking habits that work across time zones. The key is consistency rather than complex processes.
 
-Daily Tracking: Have team members log time at the end of each day. This prevents forgotten hours and keeps project budgets accurate. The Harvest timer works well for active work sessions.
+**Daily Tracking**: Have team members log time at the end of each day. This prevents forgotten hours and keeps project budgets accurate. The Harvest timer works well for active work sessions. Set reminders (via email or Slack) at 4:45pm asking team members to complete their time entries before end of day.
 
-Weekly Review: Designate a time weekly to review logged hours for accuracy. Team leads can run the "Team Overview" report to identify missing entries or suspicious patterns.
+**Timezone considerations**: When team members span multiple time zones, clarify whether your agency tracks by UTC, team member local time, or client timezone. Document this explicitly—timezone confusion creates hours of monthly reconciliation work. Recommend UTC for international agencies as the reference standard.
 
-Code Snippet for Time Entry API: For teams wanting programmatic time tracking, Harvest provides a REST API:
+**Weekly Review**: Designate a time weekly to review logged hours for accuracy. Team leads can run the "Team Overview" report to identify missing entries or suspicious patterns. Tuesday mornings work well—gives team members time to submit weekend work on Monday.
+
+**Code Snippet for Time Entry API**: For teams wanting programmatic time tracking, Harvest provides a REST API:
 
 ```bash
 # Create time entry via Harvest API
@@ -108,6 +122,10 @@ curl -X POST "https://api.harvestapp.com/v2/time_entries" \
 ```
 
 Integrate this with your development workflow using GitHub Actions or a custom Slack command for time logging without leaving your workflow.
+
+**API rate limits**: Harvest allows 100 requests per 15 seconds per account. If you're logging time programmatically for 20+ team members, batch updates rather than creating individual entries one by one. Queue entries and submit them in bulk to respect rate limits.
+
+**Retention and archival**: Harvest stores unlimited historical data. After projects complete, archive them to keep active project lists clean. Create an "Archived Projects" view separate from active work. This improves team usability without losing historical profitability data.
 
 ## Generating Reports and Invoices
 
@@ -186,6 +204,57 @@ Reduce manual overhead with Harvest's automation features:
 - Budget alerts: Get notified when projects reach configurable threshold percentages
 
 Set up these automations in the Settings > Notifications section. Tailor thresholds based on project size—smaller projects might warrant 75% alerts while larger engagements use 90%.
+
+## Mobile Time Tracking for Distributed Teams
+
+Remote agencies often have team members across time zones or working from varied locations. Harvest's mobile app becomes critical infrastructure:
+
+**Mobile App Best Practices**:
+- Require team members to track time daily via phone before end of business
+- Enable offline mode so tracking continues during connectivity gaps
+- Use the camera feature to photograph time-sensitive deliverables alongside time entries
+
+**Scheduling reminders**: Configure push notifications at specific times (e.g., 4:55pm) to prompt end-of-day time logging. This catches forgotten hours before they're lost to memory gaps.
+
+**GPS location tracking**: For agencies with field work or client site visits, enable location tracking (with appropriate privacy policies and consent). This validates that time entries match where work actually occurred.
+
+## Client Communication and Transparency
+
+Harvest integrates with client-facing tools to maintain transparency:
+
+**Client Portals**: Harvest allows sharing project views with clients. This shows:
+- Budget utilization percentage
+- Upcoming invoice totals
+- Milestone progress
+- Time breakdowns by task
+
+Share read-only project views with clients regularly (weekly or monthly). This prevents surprises at invoicing and builds trust around hours logged.
+
+**Automatic Invoice Comments**: Include helpful notes in client invoices pulled directly from your time entry descriptions. Instead of vague "Development - 8 hours," show "Implemented user authentication module, database schema updates, and API integration testing."
+
+**Progress Dashboard**: Create a custom dashboard visible to clients showing real-time project status. This positions your agency as organized and professional.
+
+## Handling Multiple Currencies and Tax Compliance
+
+Agencies working across regions face currency and tax complexity:
+
+**Currency Conversion**: Harvest stores rates and applies automatic conversion for reporting. Configure currency pairs in settings for common client locations. Rates update daily against market rates.
+
+**Tax Calculation**: Configure tax rates by project based on client location and project type. Some projects may be taxable services while others fall under different categories. Build this into project creation templates.
+
+**Invoice Formatting**: Harvest supports custom invoice templates. Create templates for each major client region that include appropriate tax line items and compliance language for their jurisdiction.
+
+## Troubleshooting Common Remote Agency Issues
+
+Teams using Harvest encounter predictable problems:
+
+**Time Zone Confusion**: Harvest timestamps everything in UTC. Team members in different zones may accidentally log hours under the wrong date. Use team guidelines specifying that all time entries reference the project's primary time zone, not the team member's local time.
+
+**Duplicate Entries**: When tracking shifts between multiple projects or using the timer feature incorrectly, duplicates appear. Weekly review catches these before invoicing. Use the "Approval" feature to require team lead sign-off on hours before billing.
+
+**Missing Mobile App Sync**: If the app fails to sync (poor connectivity), tell team members to track in the web app instead. The app has known issues recovering from extended offline periods. Recommend syncing at least daily.
+
+**Budget Overages**: When projects exceed budget, Harvest flags them but doesn't stop time entry. Have a process where project managers investigate overages immediately, assess whether the client approved additional work, and either adjust budgets or discuss costs with clients before invoicing.
 
 ---
 

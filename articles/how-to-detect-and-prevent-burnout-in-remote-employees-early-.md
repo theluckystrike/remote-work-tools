@@ -9,7 +9,7 @@ permalink: /how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-
 categories: [guides]
 tags: [remote-work-tools, remote-work, burnout, mental-health, team-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Remote Legal Team Document Collaboration Tool for"
+title: "Best Remote Legal Team Document Collaboration Tool"
 description: "Remote legal teams need document collaboration tools that handle contract review workflows efficiently while maintaining version control, access permissions"
 date: 2026-03-16
 last_modified_at: 2026-03-16

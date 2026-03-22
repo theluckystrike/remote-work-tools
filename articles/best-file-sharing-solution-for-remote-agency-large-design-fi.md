@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /best-file-sharing-solution-for-remote-agency-large-design-fi/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
@@ -193,6 +193,172 @@ Choose **Dropbox** if your team prioritizes simplicity and cross-platform sync w
 
 For most remote design agencies, a hybrid approach works best: Dropbox or Google Drive for active projects requiring collaboration, with rclone scripts handling archival to cheaper cold storage. The key is ensuring your file sharing solution supports selective sync, maintains reliable version history, and integrates with your existing creative tooling without forcing workflow changes.
 
+## SFTP-Based File Sharing for Maximum Control
+
+For agencies handling confidential work under strict NDAs, SFTP provides complete control over file access and retention:
+
+```bash
+#!/bin/bash
+# SFTP-based project folder with automated cleanup
+
+# Setup: Create SFTP user with chroot jail to project folders
+sudo useradd -m -d /projects/client-name client-sftp
+sudo usermod -s /sbin/nologin client-sftp
+
+# Configure SSH only SFTP access (no shell)
+cat >> /etc/ssh/sshd_config <<EOF
+Match User client-sftp
+  ChrootDirectory /projects/client-name
+  X11Forwarding no
+  AllowAgentForwarding no
+  PermitTTY no
+  ForceCommand internal-sftp
+EOF
+
+sudo systemctl restart sshd
+
+# Auto-cleanup old deliverables after 90 days
+find /projects/client-name/archived -mtime +90 -delete
+
+# Log all access for audit trail
+grep -i sftp /var/log/auth.log | tail -20
+```
+
+SFTP requires more setup than cloud storage but gives agencies complete file control and detailed audit trails for compliance-sensitive work.
+
+## Handling Oversized Files (10GB+)
+
+When files exceed cloud storage limits, use resumable transfer protocols:
+
+```bash
+#!/bin/bash
+# Upload massive render file with resume capability using aspera
+
+ascp -P 33001 -L /tmp/aspera.log \
+  -k 2 \
+  -i ~/.aspera/asperakey.openssh \
+  video-render-4K-final.mov \
+  user@filehost.com:/deliverables/
+
+# If connection drops, resume automatically
+# Aspera remembers chunks already transferred
+```
+
+For agencies regularly handling 10GB+ files (4K video renders, 3D model files), aspera or rsync with resume capability is cheaper than managing multiple redundant copies on slow cloud uploads.
+
+## Version Control for Design Files
+
+While Git doesn't suit binary design files, Git LFS (Large File Storage) or specialized tools provide version control:
+
+```bash
+# Git LFS for Figma exports, PSD files, etc.
+git lfs install
+git lfs track "*.psd" "*.figma" "*.ai"
+
+git add .gitattributes
+git commit -m "Add LFS tracking for design files"
+
+# Now PSD/AI files get true version control with diff capability
+git push origin main
+```
+
+This enables design file versioning, branching, and rollback—capabilities missing from traditional cloud storage.
+
+## Multi-Cloud Redundancy Strategy
+
+Don't rely on a single provider. Distribute strategically:
+
+```yaml
+# Architecture for high-reliability agencies
+
+Active projects:
+  Primary: Google Drive (real-time collaboration)
+  Backup: Dropbox (auto-sync fallback)
+
+Archives:
+  Cold storage: AWS S3 (cheapest long-term)
+  Cost: ~$0.023 per GB per month
+
+Sync automation:
+  - Nightly: Google Drive → Dropbox (incremental backup)
+  - Weekly: Active projects → S3 (archival)
+  - Monthly: S3 lifecycle rules (move to Glacier after 1 year)
+```
+
+If Google Drive goes down, your team continues work in Dropbox. If both fail, S3 provides recovery path.
+
+## Bandwidth Optimization for Global Teams
+
+Distribute storage geographically if your agency spans continents:
+
+```bash
+# Regional storage setup
+
+# EU team works from EU datacenter
+aws s3 --region eu-west-1 sync ./designs s3://agency-eu-designs/
+
+# US team works from US datacenter
+aws s3 --region us-east-1 sync ./designs s3://agency-us-designs/
+
+# Nightly sync between regions (lower priority, off-peak hours)
+aws s3 sync s3://agency-eu-designs/ s3://agency-us-designs/ \
+  --region us-east-1 \
+  --storage-class GLACIER
+```
+
+This reduces latency for large file access and improves performance during collaborative work.
+
+## Security: Permission Granularity
+
+Different clients and projects require different access levels:
+
+```
+Client A:
+  - Alice: Editor (can modify, delete)
+  - Bob: Viewer only (approves but doesn't edit)
+
+Client B:
+  - Charlie: Editor
+  - Diana: Commenter (can suggest changes but not edit)
+  - Eve: Viewer only (compliance audit)
+
+External stakeholder:
+  - Frank: View only (expiring link, 48-hour access)
+```
+
+Configure these permissions at the folder level, not individually for each file. This prevents permission decay where outdated access persists.
+
+## Measuring File Sharing Efficiency
+
+Track metrics that indicate your solution is working:
+
+```python
+file_sharing_metrics = {
+    'average_file_download_time_seconds': 45,
+    'sync_latency_minutes': 5,
+    'permission_disputes_per_quarter': 0,
+    'unplanned_access_incidents_per_year': 0,
+    'client_satisfaction_with_delivery_process': 4.8
+}
+
+# Green zone: metrics above
+# Yellow zone: download time > 120s, sync latency > 15 min
+# Red zone: permission disputes, access incidents
+```
+
+If metrics degrade, investigate root cause. Often it's not the tool—it's that team members are using workarounds (email, USB drives) because the official system is cumbersome.
+
+## Transition Strategy: Migrating Between Providers
+
+When switching file sharing providers:
+
+1. **Overlap period (2 weeks):** Keep old system active, write to new system simultaneously
+2. **Validation (1 week):** Verify all files synced correctly to new system
+3. **Read-only cutover:** Old system becomes read-only for 2 weeks
+4. **Archival:** Archive old system offline for 1 year
+5. **Deletion:** Securely wipe old system storage
+
+This prevents data loss and gives team members time to adjust to the new workflow.
 
 ## Related Articles
 

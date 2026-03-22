@@ -221,7 +221,7 @@ This structure prevents the blank-page problem and ensures your journal serves p
 
 ### Integration with Version Control
 
-Since many developers already use git, leverage it for journaling:
+Since many developers already use git, use it for journaling:
 
 ```bash
 #!/bin/bash

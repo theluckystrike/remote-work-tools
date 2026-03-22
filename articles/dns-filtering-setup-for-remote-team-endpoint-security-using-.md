@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "DNS Filtering Setup for Remote Team Endpoint Security Using"
+title: "DNS Filtering Setup for Remote Team Endpoint Security"
 description: "A practical technical guide for developers and power users setting up DNS filtering with Cloudflare Gateway to secure remote team endpoints from threats"
 date: 2026-03-15
 last_modified_at: 2026-03-15

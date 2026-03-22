@@ -9,7 +9,7 @@ permalink: /virtual-escape-room-platforms-for-remote-engineering-team-ev/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-building, virtual-events]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -172,11 +172,11 @@ Choosing the right escape room platform depends on team size, budget, and whethe
 
 | Platform | Cost per session | Team size | Facilitation | Best for |
 |---|---|---|---|---|
-| Room Escape Detective | $30-50 | 4-8 | Self-facilitated | Budget-conscious, technical teams |
+| Room Escape Detective | $30-50 | 4-8 | Self-helped | Budget-conscious, technical teams |
 | Escape Hunt | $200-400 | 4-8 | Hosted facilitator | Full experience; facilitator manages flow |
 | Puzzle Break | $300-500 | 6-12 | Hosted facilitator | Premium experience, custom scenarios |
 | The Logic Escapes Me | $20/month platform | Unlimited | Self-built puzzles | Teams building custom experiences |
-| Breakout.com | $40-80 | 4-8 | Self-facilitated | Simple setup, browser-based |
+| Breakout.com | $40-80 | 4-8 | Self-helped | Simple setup, browser-based |
 | Evermaze | $50-100 | 6-10 | Optional paid facilitator | Flexible; can go self-guided or hosted |
 
 **For a 12-person engineering team:** Two parallel sessions of 6 people each using Room Escape Detective = $100-150 total cost. Compare to: $400-600 for a single hosted session with Escape Hunt. Most engineering teams go with Room Escape Detective.

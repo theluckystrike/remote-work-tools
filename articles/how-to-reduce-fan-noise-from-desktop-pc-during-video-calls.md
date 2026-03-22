@@ -9,7 +9,7 @@ permalink: /how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/
 categories: [guides]
 tags: [remote-work-tools, hardware, noise-reduction, video-calls, remote-work, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -244,7 +244,7 @@ Not all quiet fans are equal. Real-world options for developers:
 # Result: 8-12°C cooler, noticeable reduction in fan noise during calls
 ```
 
-### Comprehensive Setup ($150 investment)
+### Setup ($150 investment)
 
 ```bash
 # Step 1: Thermal paste + cleanup

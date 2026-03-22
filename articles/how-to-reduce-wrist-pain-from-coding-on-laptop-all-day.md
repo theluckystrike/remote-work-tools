@@ -9,7 +9,7 @@ permalink: /how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/
 categories: [guides]
 tags: [remote-work-tools, remote-work, ergonomics, health, developer-tools, coding, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

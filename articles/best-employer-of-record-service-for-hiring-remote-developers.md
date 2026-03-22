@@ -305,7 +305,7 @@ These questions move beyond marketing materials to operational reality.
 
 ## Related Articles
 
-- [Example on-call schedule that leverages timezone difference](/remote-work-tools/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
+- [Example on-call schedule that uses timezone difference](/remote-work-tools/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
 - [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
 - [Example ndss configuration snippet](/remote-work-tools/how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/)
 - [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)

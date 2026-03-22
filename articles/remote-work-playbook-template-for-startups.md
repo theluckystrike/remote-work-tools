@@ -9,7 +9,7 @@ permalink: /remote-work-playbook-template-for-startups/
 categories: [guides]
 tags: [remote-work-tools, remote-work, templates, startups, workflows]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -223,7 +223,7 @@ Week 3: Deploy the daily standup reminder. Track participation. If adoption stal
 
 Week 4: Review what worked, what didn't. Permanent playbook goes into version control. New hires reference it during onboarding.
 
-This 4-week pattern avoids over-engineering. You're testing hypotheses about what your team actually needs, not implementing a comprehensive system before you know the problems.
+This 4-week pattern avoids over-engineering. You're testing hypotheses about what your team actually needs, not implementing a system before you know the problems.
 
 ## Onboarding New Remote Hires Using Your Playbook
 

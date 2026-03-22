@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best SIM Card and Mobile Data Plan for Remote Workers in"
+title: "Best Sim Card and Mobile Data Plan for Remote Workers"
 description: "A practical guide to the best SIM cards and mobile data plans for remote workers in Portugal. Compare carriers, data allowances, 5G coverage, and eSIM"
 date: 2026-03-16
 last_modified_at: 2026-03-16

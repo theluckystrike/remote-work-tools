@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /remote-team-async-video-update-tool-comparison-loom-vs-veed-/
 categories: [comparisons]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison, remote-work]

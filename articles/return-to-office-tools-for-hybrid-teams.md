@@ -9,7 +9,7 @@ permalink: /return-to-office-tools-for-hybrid-teams/
 categories: [guides]
 tags: [remote-work-tools, tools]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

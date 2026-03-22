@@ -9,7 +9,7 @@ permalink: /how-to-prevent-burnout-as-remote-developer/
 categories: [guides]
 tags: [remote-work-tools, remote-work, burnout, mental-health, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -346,7 +346,7 @@ Hire enough people to handle workload sustainably:
 
 ## Personal Responsibility vs. Systemic Accountability
 
-It's worth noting that while individual strategies matter, burnout often has systemic causes:
+ while individual strategies matter, burnout often has systemic causes:
 
 - Unrealistic project timelines
 - Understaffing

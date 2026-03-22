@@ -9,7 +9,7 @@ permalink: /how-to-run-book-clubs-for-a-remote-engineering-team-of-40/
 categories: [guides]
 tags: [remote-work-tools, book-club, remote-work, team-building, engineering-culture, learning]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

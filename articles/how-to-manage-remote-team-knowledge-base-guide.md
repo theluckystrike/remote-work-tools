@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "How to Manage Remote Team Knowledge Base: Complete Guide 2026"
-description: "Build and maintain effective team knowledge bases for remote teams. Compare tools, document standards, searchability strategies, and best practices for distributed knowledge management."
+title: "How to Manage Remote Team Knowledge Base: Complete Guide"
+description: "Build and maintain effective team knowledge bases for remote teams. Compare tools, document standards, searchability strategies, and best practices for"
 date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-remote-team-knowledge-base-guide/
 categories: [guides]
-tags: [remote-work-tools, knowledge-management, team-collaboration, best-of]
+tags: [remote-work-tools, knowledge-management, team-collaboration, best-of, remote-work]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---
@@ -489,7 +489,7 @@ Does this change require documentation updates?
 - [Asynchronous Code Review Process Without Zoom Calls](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 - [Best All-in-One Tool for Remote Team Collaboration](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
 - [Best Async Project Management Tools for Distributed Teams 2026](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [Remote Work Tools Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Work Tools Guides Hub](/remote-work-tools/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

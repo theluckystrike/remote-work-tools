@@ -1,16 +1,16 @@
 ---
 layout: default
 title: "AWS Cost Management for Remote Teams"
-description: "Cut AWS bills for remote engineering teams with budgets, cost anomaly detection, right-sizing, reserved instances, and S3 lifecycle policies. Includes CLI commands."
+description: "Cut AWS bills for remote engineering teams with budgets, cost anomaly detection, right-sizing, reserved instances, and S3 lifecycle policies. Includes CLI"
 date: 2026-03-21
 author: theluckystrike
 permalink: /aws-cost-management-remote-teams-guide/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}

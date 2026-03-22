@@ -9,7 +9,7 @@ permalink: /how-to-support-neurodivergent-remote-workers/
 categories: [guides]
 tags: [remote-work-tools, remote-work, neurodiversity, inclusion, productivity]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

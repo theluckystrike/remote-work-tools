@@ -19,6 +19,21 @@ voice-checked: true
 
 Managing code reviews across time zones that never align creates unique challenges for distributed development teams. When your team spans San Francisco, London, and Tokyo, finding a single hour where everyone is awake—let alone focused on code review—becomes impractical. This guide covers the tools and workflows that make async code reviews effective for teams without synchronous overlap.
 
+## The Business Impact of Async Code Review
+
+Code review bottlenecks directly impact ship velocity. In synchronous teams, a developer might have to wait 2-4 hours for review (meeting core hours), then wait another 2-4 hours for feedback on revisions. That's 4-8 hours of delay within a single day, magnified across a week.
+
+For time-zone distributed teams, delays compound:
+- Developer in San Francisco opens PR at 9am PT
+- Reviewer in London is offline until 4pm PT (works their early morning)
+- First review arrives 7 hours later
+- Developer addresses feedback by end of day
+- London reviewer sees changes next morning (8am PT next day)
+- Second review arrives 8 hours later
+- Total cycle time: 23 hours for a two-round review
+
+Without optimization, async teams ship 30-40% slower than synchronous ones. The fix requires deliberate process design, not hope that reviewers will be available sooner.
+
 ## The Core Challenge of Async Code Reviews
 
 Traditional code review assumes reviewers are available within hours, not days. When your Singapore developer sleeps while your New York team starts their day, you need systems that:
@@ -29,6 +44,32 @@ Traditional code review assumes reviewers are available within hours, not days. 
 - Reduce cognitive load on reviewers by presenting focused, well-documented changes
 
 The right combination of platform features, process conventions, and automation transforms code review from a bottleneck into a reliable quality gate.
+
+## Choosing Between Git Platforms for Async Teams
+
+While GitHub dominates, evaluate based on your team's needs:
+
+**GitHub**: Best for most async teams
+- Robust PR system with threading and conversation resolution
+- Native to open-source culture
+- Excellent for GitHub-centric workflows
+- Free tier includes unlimited public repos, unlimited collaborators
+- Enterprise option with audit logs and advanced security
+- Best for: Tech-forward teams, open source projects, startups
+
+**GitLab**: Strong alternative with better built-in features
+- Integrated CI/CD (GitLab Runner) reduces tool sprawl
+- Native merge request approvals with more granular control
+- Better for regulated industries (audit trails built-in)
+- Self-hosting option for data sovereignty
+- Best for: Enterprise teams, regulated industries, teams wanting integrated tooling
+
+**Bitbucket**: Often overlooked but solid
+- Deep Jira integration if your team uses Jira
+- Pull request review features competitive with GitHub
+- Best for: Teams already in Atlassian ecosystem
+
+For most async-first distributed teams, GitHub remains the best choice. Its simplicity and wide adoption mean less friction onboarding and hiring developers familiar with the workflow.
 
 ## GitHub Pull Requests as the Foundation
 
@@ -186,12 +227,50 @@ Documenting these resolution patterns helps newer team members navigate disagree
 
 Track these metrics to ensure your async review process improves over time:
 
-- Review cycle time: From PR opened to approved
-- Review iteration count: How many rounds of feedback occur typically
-- Reviewer load distribution: Ensure reviews aren't concentrating on specific individuals
-- PR size correlation: Larger PRs often see longer review times
+- Review cycle time: From PR opened to approved. Target: first review within 24 hours, approval within 48-72 hours
+- Review iteration count: How many rounds of feedback occur typically. Too many rounds indicate unclear PR descriptions or reviewer misunderstanding
+- Reviewer load distribution: Ensure reviews aren't concentrating on specific individuals. Bottlenecks on one reviewer defeat async benefits
+- PR size correlation: Larger PRs often see longer review times. Track whether PRs are getting too large—if average review time jumps above 72 hours, require smaller PRs
+- Approval rate on first submission: Track what percentage of PRs get approved without requiring changes. If it's below 50%, authors need better PR descriptions
 
-GitHub's native analytics provide baseline metrics; integrate with tools like Stack Overflow for Teams or Notion for custom dashboards.
+GitHub's native analytics provide baseline metrics; integrate with tools like Stack Overflow for Teams or Notion for custom dashboards. Create a simple monthly report:
+
+```markdown
+## February Code Review Metrics
+
+Average cycle time: 48 hours (target: 48-72)
+PRs requiring revisions: 45%
+Reviewer load (most loaded): 12 PRs/week
+Average PR size: 180 lines
+Approval rate first submission: 55%
+```
+
+Share these metrics with the team. They create accountability for both authors (to write better PRs) and reviewers (to review promptly).
+
+## Scaling Code Review
+
+As your team grows, async code review becomes even more critical. Implement these scaling patterns:
+
+### Review Pairs
+
+Assign permanent review pairs to different code areas. When one reviewer isn't available, their pair ensures reviews don't stall. This prevents single-reviewer bottlenecks.
+
+### Rotation Schedule
+
+For teams over 10 people, implement a review rotation where different people are the "primary reviewer" each week. This distributes load and builds broader code understanding across the team.
+
+### Auto-Approval for Trivial Changes
+
+Create policies for what doesn't need human review:
+- Documentation-only changes
+- CI/CD configuration tweaks
+- Dependency version bumps (with passing tests)
+
+Use code ownership rules to auto-approve these categories. This frees reviewer capacity for substantive code review.
+
+### Async Slack Notifications
+
+Configure GitHub to post PR updates to Slack. When a PR is ready for review, mention the assigned reviewer. When feedback is addressed, post follow-up. This keeps reviews visible without requiring constant GitHub polling.
 
 
 ## Related Articles

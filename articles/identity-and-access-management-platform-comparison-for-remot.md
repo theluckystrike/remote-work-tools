@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Identity and Access Management Platform Comparison for"
+title: "Identity and Access Management Platform Comparison"
 description: "Compare top IAM platforms for remote-first companies in 2026. Evaluate Okta, Azure AD, Auth0, JumpCloud, and Keycloak with code examples for developers"
 date: 2026-03-16
 last_modified_at: 2026-03-16

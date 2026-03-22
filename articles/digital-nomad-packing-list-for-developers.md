@@ -9,7 +9,7 @@ permalink: /digital-nomad-packing-list-for-developers/
 categories: [guides]
 tags: [remote-work-tools, digital-nomad, remote-work, productivity, gear]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

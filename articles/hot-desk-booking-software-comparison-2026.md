@@ -25,6 +25,18 @@ When evaluating desk booking software, developers typically prioritize several t
 
 The best solutions treat desk booking as part of a larger workplace experience platform rather than a standalone tool. This approach reduces integration friction and provides a consistent data model across your organization's workplace tools.
 
+
+## Quick Comparison
+
+| Feature | Tool A | Tool B |
+|---|---|---|
+| Pricing | See current pricing | See current pricing |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Automation | Workflow support | Workflow support |
+
 ## Teem: API-First Desk Management
 
 Teem (now part of Envoy) offers a well-documented API that handles the core desk booking operations. The API supports CRUD operations for desks, floors, and bookings, making it suitable for custom integrations.

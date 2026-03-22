@@ -284,7 +284,7 @@ def handle_occupancy_event():
     return jsonify({'status': 'processed'})
 ```
 
-Common downstream integrations include updating digital signage with floor availability, triggering HVAC setpoint adjustments when floors reach capacity thresholds (reducing energy costs on under-utilized days), and sending Slack notifications to facilities teams when cleaning crews are needed in high-traffic zones after peak hours. Organizations that wire occupancy data into their building management system (BMS) directly typically report energy savings of 15–25% on HVAC alone, which often pays for the sensor infrastructure within 18–24 months.
+Common downstream integrations include updating digital signage with floor availability, triggering HVAC setpoint adjustments when floors reach capacity thresholds (reducing energy costs on under-used days), and sending Slack notifications to facilities teams when cleaning crews are needed in high-traffic zones after peak hours. Organizations that wire occupancy data into their building management system (BMS) directly typically report energy savings of 15–25% on HVAC alone, which often pays for the sensor infrastructure within 18–24 months.
 
 ## Privacy Considerations and Data Governance
 

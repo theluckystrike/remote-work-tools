@@ -212,7 +212,7 @@ If your employer:
 
 - [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
 - [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
-- [Example on-call schedule that leverages timezone difference](/remote-work-tools/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
+- [Example on-call schedule that uses timezone difference](/remote-work-tools/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
 - [How to Reduce Lower Back Pain from Sitting 8 Hours Coding](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
 - [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
 

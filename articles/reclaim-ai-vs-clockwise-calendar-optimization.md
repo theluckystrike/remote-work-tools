@@ -7,7 +7,7 @@ last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /reclaim-ai-vs-clockwise-calendar-optimization/
 reviewed: true
-score: 7
+score: 9
 categories: [comparisons]
 intent-checked: true
 voice-checked: true

@@ -9,7 +9,7 @@ permalink: /how-to-create-automated-client-progress-report-for-remote-pr/
 categories: [guides]
 tags: [remote-work-tools, automation, remote-work, reporting, client-communication, scripts]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

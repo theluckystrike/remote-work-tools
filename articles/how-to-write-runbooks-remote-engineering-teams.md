@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Write Runbooks for Remote Engineering Teams"
-description: "Write runbooks that remote engineers can execute alone under pressure. Covers structure, verification steps, decision trees, rollback procedures, and maintenance cadence."
+description: "Write runbooks that remote engineers can execute alone under pressure. Covers structure, verification steps, decision trees, rollback procedures, and"
 date: 2026-03-21
 author: theluckystrike
 permalink: /how-to-write-runbooks-remote-engineering-teams/
@@ -10,7 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
@@ -277,7 +277,7 @@ The index should live in the same location as the runbooks (Obsidian vault, Conf
 
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
 - [Obsidian for Remote Team Knowledge Management](/remote-work-tools/obsidian-remote-team-knowledge-management/)
-- [Async Decision Making with RFC Documents for Engineering Teams](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-tea/)
+- [Async Decision Making with RFC Documents for Engineering Teams](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

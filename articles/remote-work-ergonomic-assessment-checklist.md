@@ -328,7 +328,6 @@ An occupational therapist can perform detailed ergonomic assessment and recommen
 **Month 3+:** Re-assess quarterly. Update setup as needs change.
 
 
-Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 
 
 ## Related Articles

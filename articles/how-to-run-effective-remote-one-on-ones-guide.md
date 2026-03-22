@@ -7,9 +7,9 @@ last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-effective-remote-one-on-ones-guide/
 categories: [guides]
-tags: [remote-work-tools, management, meetings]
+tags: [remote-work-tools, management, meetings, remote-work]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---
@@ -274,7 +274,7 @@ Nothing signals disrespect more than a manager who's habitually late or runs ove
 - "I'm blocked on X from team Y."
 - "I don't understand the project direction."
 - "No one responds to my questions."
-- Action: These are systemic issues. Don't brush past them. Escalate or facilitate resolution.
+- Action: These are systemic issues. Don't brush past them. Escalate or help resolution.
 
 **Career stagnation signals:**
 - "I don't know what I'm working toward."

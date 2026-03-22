@@ -426,7 +426,6 @@ Day 3, 2 PM: Discussion (synchronous or async chat)
 8. **Evaluate Tool:** After 3 retros, assess if tool is working for your team
 
 
-Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 
 
 ## Related Articles

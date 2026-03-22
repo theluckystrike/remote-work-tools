@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Terraform for Remote Teams: State, Modules, and CI"
-description: "Set up Terraform for distributed remote teams with remote state, reusable modules, workspace separation, and CI/CD integration. Includes practical config examples."
+description: "Set up Terraform for distributed remote teams with remote state, reusable modules, workspace separation, and CI/CD integration. Includes practical config"
 date: 2026-03-21
 author: theluckystrike
 permalink: /terraform-remote-team-infrastructure-guide/
@@ -10,7 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}

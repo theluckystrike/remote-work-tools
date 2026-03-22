@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /notion-vs-coda-for-a-3-person-remote-content-team/
 categories: [comparisons]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison, remote-work]
@@ -479,4 +479,5 @@ The right tool should disappear into the background, letting your team focus on 
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+```
 {% endraw %}

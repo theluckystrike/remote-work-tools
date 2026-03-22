@@ -311,7 +311,7 @@ If these metrics trend upward, your relationship-building efforts are working. I
 
 Sometimes teams develop adversarial relationships—especially over shared systems or resource contention. Address this explicitly:
 
-1. **Name the problem**: Hold a facilitated discussion about tension between teams
+1. **Name the problem**: Hold a helped discussion about tension between teams
 2. **Clarify incentives**: Ensure teams aren't competing for the same limited resources
 3. **Create shared success metrics**: Teams share responsibility for company outcomes, not just team outcomes
 4. **Rebuild through project collaboration**: Assign a small project where teams must work together

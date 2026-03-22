@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Notion Setup for Solo Freelancer Managing 5 Clients: A"
+title: "Notion Setup for Solo Freelancer Managing 5 Clients"
 description: "Build a practical Notion system to manage multiple clients efficiently. Learn database structures, templates, and workflows designed for solo"
 date: 2026-03-16
 last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /notion-setup-for-solo-freelancer-managing-5-clients/
 reviewed: true
-score: 8
+score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
@@ -182,6 +182,186 @@ Your Notion system requires periodic maintenance. Schedule monthly reviews:
 The system should serve your workflow, not constrain it. If a view feels unnecessary, delete it. If you need a new property, add it.
 
 Start with the three-database structure, add your five clients, and build views as you need them. This foundation scales beyond five clients when your business grows.
+
+## Automating Invoicing from Notion
+
+Connect your billable hours to automated invoicing:
+
+```python
+# Generate invoices from Notion data
+from notion_client import Client
+from datetime import datetime, timedelta
+
+notion = Client(auth=NOTION_TOKEN)
+
+def generate_invoice(client_id, billing_period_start, billing_period_end):
+    """Create invoice from logged hours"""
+
+    # Query tasks for this client in billing period
+    tasks = notion.databases.query(
+        database_id=TASKS_DB_ID,
+        filter={
+            "and": [
+                {"property": "Client", "relation": {"contains": client_id}},
+                {"property": "Status", "select": {"equals": "Done"}},
+                {"property": "Billable", "checkbox": {"equals": True}},
+                {"property": "Date Completed", "date": {
+                    "on_or_after": billing_period_start,
+                    "before": billing_period_end
+                }}
+            ]
+        }
+    )
+
+    total_hours = 0
+    line_items = []
+
+    for task in tasks["results"]:
+        hours = task["properties"]["Actual Hours"]["number"]
+        total_hours += hours
+        line_items.append({
+            "description": task["properties"]["Name"]["title"][0]["plain_text"],
+            "hours": hours
+        })
+
+    # Query client rate
+    client = notion.pages.retrieve(client_id)
+    hourly_rate = client["properties"]["Hourly Rate"]["number"]
+
+    invoice = {
+        "client_name": client["properties"]["Name"]["title"][0]["plain_text"],
+        "period": f"{billing_period_start} to {billing_period_end}",
+        "line_items": line_items,
+        "total_hours": total_hours,
+        "total_amount": total_hours * hourly_rate,
+        "generated_at": datetime.now().isoformat()
+    }
+
+    return invoice
+```
+
+Export this data to a PDF invoice template (use tools like WeasyPrint or send to Stripe Invoicing).
+
+## Client Profitability Analysis
+
+Track which clients are actually profitable:
+
+```javascript
+// Calculate client profitability
+function analyzeClientProfitability(clientId, allTasks) {
+    const clientTasks = allTasks.filter(t => t.clientId === clientId);
+
+    const totalHours = clientTasks
+        .filter(t => t.billable)
+        .reduce((sum, t) => sum + t.actualHours, 0);
+
+    const totalRevenue = totalHours * clientRate;
+
+    // Account for non-billable time (communication, admin)
+    const totalTimeInvested = clientTasks.reduce((sum, t) => sum + t.actualHours, 0);
+    const nonBillablePercent = 1 - (totalHours / totalTimeInvested);
+
+    const effectiveHourlyRate = totalRevenue / totalTimeInvested;
+
+    return {
+        clientName: clientId,
+        billableHours: totalHours,
+        totalRevenue: totalRevenue,
+        nonBillablePercentage: nonBillablePercent,
+        effectiveHourlyRate: effectiveHourlyRate,
+        profitablilityRating: effectiveHourlyRate > minAcceptableRate ? 'Profitable' : 'Below Target'
+    };
+}
+```
+
+If a client's effective hourly rate drops below your minimum (after accounting for non-billable time), it's time to either raise rates or end the relationship.
+
+## Client Communication Workflow
+
+Use Notion as your communication hub:
+
+**For clients with email preference:**
+- Weekly status update template in Notion
+- Copy-paste into email client
+- Attach same link in email signature
+
+**For clients with Slack preference:**
+- Format Notion weekly update as Slack message
+- Copy to Slack #general or DM
+- Link back to Notion for full context
+
+**For clients with Notion workspace:**
+- Share the project page directly
+- Add comments for updates
+- Clients see real-time progress
+
+```markdown
+# Weekly Update - [Client Name] - Week of [Date]
+
+## What Was Completed
+- [ ] Task 1: [description] (4.5 hours)
+- [ ] Task 2: [description] (2 hours)
+
+## What's Planned for Next Week
+- [ ] Task 3: [description] (6 hours estimated)
+- [ ] Task 4: [description] (2 hours estimated)
+
+## Blockers or Questions
+None this week — we're on track.
+
+## Billable Hours This Week
+- Total: 6.5 hours
+- Rate: $[rate]/hour
+- Amount: $[total]
+
+## Next Steps
+- Waiting on your feedback on designs (due by Friday)
+- I'll implement next week after receiving feedback
+```
+
+Copy this template every Monday and fill in details from your Tasks database.
+
+## Scaling Beyond 5 Clients
+
+When approaching 10 clients, introduce these changes:
+
+**Add a "Pipeline" database:**
+Track prospective clients, quotes in progress, and follow-up status.
+
+**Add a "Contracts" database:**
+Store contract documents, rates, terms, and renewal dates.
+Link each Client to their Contract(s).
+
+**Add a "Payments" database:**
+Track when invoices were sent and when payments arrived.
+This catches late payments and helps cash flow planning.
+
+**Automate metrics:**
+```
+SELECT AVG(actualHours) as avgTaskHours,
+MAX(completedTasks) as projectsCompleted,
+SUM(totalBillable) as monthlyRevenue
+FROM tasks WHERE monthCompleted = current_month
+```
+
+Use Notion's Rollup property to calculate these automatically.
+
+## Sample Client Rates by Specialty (2026)
+
+Use these benchmarks when setting client rates:
+
+| Specialty | Junior Rate | Mid-level | Senior |
+|-----------|------------|-----------|---------|
+| Web development | $50-75/hr | $75-150/hr | $150-250/hr |
+| Mobile development | $60-90/hr | $100-175/hr | $175-300/hr |
+| DevOps/Infrastructure | $75-125/hr | $125-200/hr | $200-350/hr |
+| Data/ML | $80-130/hr | $130-225/hr | $225-400/hr |
+| Design | $45-70/hr | $70-120/hr | $120-200/hr |
+| Product management | $70-110/hr | $110-180/hr | $180-300/hr |
+
+Regional variation: Add 20-40% for San Francisco/NYC, subtract 20-30% for lower cost-of-living areas.
+
+---
 
 
 ## Related Articles

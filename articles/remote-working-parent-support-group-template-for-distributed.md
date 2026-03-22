@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Working Parent Support Group Template for"
+title: "Remote Working Parent Support Group Template for Distributed"
 description: "A practical guide to building a parent support group for remote workers in distributed companies. Includes templates, Slack channel setups, async"
 date: 2026-03-16
 last_modified_at: 2026-03-16

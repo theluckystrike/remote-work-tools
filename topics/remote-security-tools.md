@@ -3,6 +3,9 @@ layout: default
 title: "Remote Security Tools — VPN, Zero Trust & Compliance"
 description: "Security tools for remote teams: VPN comparisons, zero trust architecture, password management, security hardening checklists, and SOC2 compliance guides."
 permalink: /topics/remote-security-tools/
+intent-checked: true
+voice-checked: true
+date: 2026-03-21
 ---
 
 # Remote Security Tools — VPN, Zero Trust & Compliance

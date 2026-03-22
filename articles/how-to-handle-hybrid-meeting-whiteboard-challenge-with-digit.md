@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Hybrid Meeting Whiteboard Challenge with"
+title: "How to Handle Hybrid Meeting Whiteboard Challenge"
 description: "Hybrid meetings present a unique challenge when visual collaboration tools like whiteboards are involved. You have participants in a physical room looking at"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -9,7 +9,7 @@ permalink: /how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-p
 categories: [guides]
 tags: [remote-work-tools, hybrid-work, meetings, collaboration, remote-work, whiteboard, video-conferencing]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

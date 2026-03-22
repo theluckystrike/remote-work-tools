@@ -240,6 +240,50 @@ Create an internal reference document that answers these questions for each tool
 
 This documentation prevents knowledge silos and ensures consistent security practices regardless of who performs onboarding.
 
+## Offboarding Automation Script
+
+Client offboarding is where security risks concentrate:
+
+```python
+#!/usr/bin/env python3
+import os
+import json
+import requests
+from datetime import datetime
+
+def offboard_client(email, client_name):
+    results = {}
+    timestamp = datetime.now().isoformat()
+
+    # Revoke GitHub access
+    gh_token = os.environ["GITHUB_TOKEN"]
+    org = os.environ["GITHUB_ORG"]
+    response = requests.delete(
+        f"https://api.github.com/orgs/{org}/outside_collaborators/{email}",
+        headers={"Authorization": f"Bearer {gh_token}"}
+    )
+    results["github"] = "revoked" if response.status_code == 204 else "failed"
+
+    # Revoke Slack access
+    slack_token = os.environ["SLACK_ADMIN_TOKEN"]
+    response = requests.post(
+        "https://slack.com/api/admin.users.remove",
+        headers={"Authorization": f"Bearer {slack_token}"},
+        json={"team_id": os.environ["SLACK_TEAM_ID"], "user_id": email}
+    )
+    results["slack"] = "revoked" if response.json().get("ok") else "failed"
+
+    # Log the action
+    with open("offboarding-log.csv", "a") as f:
+        f.write(f"{timestamp},{client_name},{email},{json.dumps(results)}\n")
+    return results
+```
+
+Run this the moment a client engagement ends. Don't wait -- stale access is the top cause of unauthorized data exposure.
+
+## SCIM Provisioning for Enterprise Clients
+
+SCIM (System for Cross-domain Identity Management) automates provisioning across all connected tools. When you add a user in your identity provider (Okta, Azure AD, Google Workspace), SCIM automatically creates accounts in all connected applications with the correct permissions. Offboarding works the same way -- deactivate the user and SCIM revokes access everywhere simultaneously.
 
 ## Related Articles
 

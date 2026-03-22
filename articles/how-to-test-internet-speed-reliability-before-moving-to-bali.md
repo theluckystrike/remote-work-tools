@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Test Internet Speed and Reliability Before Moving to"
+title: "How to Test Internet Speed and Reliability Before Moving"
 description: "A practical guide for developers and remote workers on testing internet speed and reliability before relocating to Bali. Includes CLI tools, scripts"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /how-to-test-internet-speed-reliability-before-moving-to-bali/
 categories: [guides]
 tags: [remote-work-tools, bali, remote-work, internet-speed, digital-nomad, connectivity]
-score: 8
+score: 9
 voice-checked: true
 reviewed: true
 intent-checked: true

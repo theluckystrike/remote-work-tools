@@ -9,7 +9,7 @@ permalink: /how-to-create-compliant-offer-letter-for-international-remot/
 categories: [guides]
 tags: [remote-work-tools, remote-work, hr, compliance, international-hiring, legal, templates]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -154,7 +154,7 @@ India is one of the most common destinations for remote technical hiring, and it
 
 ### Brazil
 
-Brazil's CLT (Consolidation of Labor Laws) is one of the most comprehensive labor frameworks in the world and applies broadly. For direct employment:
+Brazil's CLT (Consolidation of Labor Laws) is one of the most labor frameworks in the world and applies broadly. For direct employment:
 
 - 13th salary (décimo terceiro salário): Mandatory year-end bonus equal to one month's pay
 - FGTS: Employers contribute 8% of gross salary to a severance fund

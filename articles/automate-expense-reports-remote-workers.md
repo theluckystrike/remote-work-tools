@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Automate Expense Reports for Remote Workers"
-description: "Automate expense report creation and submission using scripts, receipt OCR, and free tools. Covers CSV generation, PDF reports, and email delivery without SaaS fees."
+description: "Automate expense report creation and submission using scripts, receipt OCR, and free tools. Covers CSV generation, PDF reports, and email delivery without SaaS"
 date: 2026-03-21
 author: theluckystrike
 permalink: /automate-expense-reports-remote-workers/
@@ -10,7 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
@@ -363,7 +363,7 @@ echo "2026-03-15,Ikea,89.99,hardware,Standing desk riser,desk-riser-receipt.jpg"
 
 - [Best Expense Management Platform for Remote Teams with Receipt Tracking](/remote-work-tools/best-expense-management-platform-for-remote-teams-with-recei/)
 - [Best Accounting Software for Freelancers 2026](/remote-work-tools/best-accounting-software-for-freelancers-2026/)
-- [Automate Invoice Generation for Freelancers](/remote-work-tools/automate-invoice-generation-freelancers-scripts/)
+- [Automate Invoice Generation for Freelancers](/remote-work-tools/automate-invoice-generation-freelancers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

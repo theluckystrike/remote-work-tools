@@ -9,7 +9,7 @@ permalink: /client-retention-strategies-for-freelancers-2026/
 categories: [guides]
 tags: [remote-work-tools, freelance, client-retention, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -348,7 +348,7 @@ Go beyond regular updates with genuine value:
 - Suggest 1 improvement they could make
 
 **Annually (1-2 hours)**
-- Comprehensive year review (projects completed, impact, metrics)
+- year review (projects completed, impact, metrics)
 - Strategy session for next 12 months
 - Request testimonial/referral (make it easy: provide template)
 

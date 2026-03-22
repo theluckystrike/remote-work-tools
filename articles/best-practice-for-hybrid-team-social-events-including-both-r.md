@@ -267,7 +267,7 @@ In well-designed hybrid events, remote people should initiate conversation, ask 
 
 Review Zoom/Meet transcripts: Compare lines of unprompted speaking between remote and in-office participants. Target 70%+ of remote speech being unprompted (they speak because they want to, not because they were asked). Below 50% unprompted means redesign the activity.
 
-Record yourself facilitating a hybrid event. Watch playback. Do you naturally look at the in-office group, with remotes as an afterthought? Increase camera time facing the screen showing remote participants. Make eye contact with the camera, not just your in-office colleagues.
+Record yourself helping a hybrid event. Watch playback. Do you naturally look at the in-office group, with remotes as an afterthought? Increase camera time facing the screen showing remote participants. Make eye contact with the camera, not just your in-office colleagues.
 
 ## Building Multi-Event Momentum
 

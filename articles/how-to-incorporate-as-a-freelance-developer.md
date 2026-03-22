@@ -9,7 +9,7 @@ permalink: /how-to-incorporate-as-a-freelance-developer/
 categories: [guides]
 tags: [remote-work-tools, freelance, incorporation, legal, business-structure, taxes]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

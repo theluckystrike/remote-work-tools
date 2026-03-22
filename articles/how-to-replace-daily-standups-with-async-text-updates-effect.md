@@ -9,7 +9,7 @@ permalink: /how-to-replace-daily-standups-with-async-text-updates-effect/
 categories: [guides]
 tags: [remote-work-tools, async-communication, standups, remote-work, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

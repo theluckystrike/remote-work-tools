@@ -9,7 +9,7 @@ permalink: /remote-team-email-vs-slack-vs-video-call-decision-framework-/
 categories: [guides]
 tags: [remote-work-tools, remote-work, communication, team-management, async-communication, decision-framework, comparison]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

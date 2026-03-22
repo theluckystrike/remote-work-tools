@@ -173,7 +173,7 @@ The best design document template is one your team actually uses. Implement this
 Different wiki platforms require format adjustments:
 
 ### Confluence-Specific Considerations
-Confluence natively supports decision tracking and voting. Leverage these features:
+Confluence natively supports decision tracking and voting. use these features:
 
 ```
 # Design Document: [Title]

@@ -9,7 +9,7 @@ permalink: /sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/
 categories: [guides]
 tags: [remote-work-tools, sri-lanka, digital-nomad-visa, remote-work-visa, coworking, south-asia, visa-guide]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -252,7 +252,7 @@ Healthcare in Sri Lanka is excellent but varies by facility:
 
 **Private Hospitals** (recommended for expats):
 - Apollo Hospitals Colombo: International standard care, English-speaking doctors
-- Nawaloka Hospitals: Comprehensive services at reasonable cost
+- Nawaloka Hospitals: services at reasonable cost
 - Asiri Hospital: Quality private facility with modern equipment
 
 **Costs**:

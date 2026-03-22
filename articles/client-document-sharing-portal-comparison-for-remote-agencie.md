@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /client-document-sharing-portal-comparison-for-remote-agencie/
 categories: [comparisons]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]

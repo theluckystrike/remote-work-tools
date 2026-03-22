@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /async-mentorship-program-structure-for-remote-junior-develop/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
@@ -226,7 +226,7 @@ For questions that need immediate response, establish "response windows" rather 
 
 ## Building a Mentee-to-Mentee Learning Culture
 
-As your program grows to multiple mentees, facilitate peer learning:
+As your program grows to multiple mentees, help peer learning:
 
 Create a "mentee cohort" channel where current mentees share resources, ask each other questions, and celebrate wins. Junior developers often learn more from each other's mistakes than from senior engineers' perfect explanations.
 

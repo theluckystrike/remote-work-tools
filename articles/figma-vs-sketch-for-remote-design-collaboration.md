@@ -54,6 +54,18 @@ const extractColors = (styles) => {
 };
 ```
 
+
+## Quick Comparison
+
+| Feature | Figma | Sketch |
+|---|---|---|
+| Pricing | $120/year | $120 |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Ease of Use | Moderate learning curve | Moderate learning curve |
+
 ## API Access and Automation
 
 Developers building internal design systems need programmatic access to design data. Figma provides a well-documented REST API that lets you extract colors, typography settings, and component hierarchies. The plugin API enables custom integrations that can push design updates directly to your component libraries.

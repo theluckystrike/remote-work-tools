@@ -9,7 +9,7 @@ permalink: /how-to-set-up-remote-team-guilds-and-communities-of-practice/
 categories: [guides]
 tags: [remote-work-tools, remote-work, guilds, communities-of-practice, knowledge-sharing, developer-productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

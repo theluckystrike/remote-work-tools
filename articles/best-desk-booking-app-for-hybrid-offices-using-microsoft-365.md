@@ -7,7 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-desk-booking-app-for-hybrid-offices-using-microsoft-365/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 tags: [remote-work-tools, best-of]

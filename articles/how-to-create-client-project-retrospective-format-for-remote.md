@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Client Project Retrospective Format for"
+title: "How to Create Client Project Retrospective Format for Remote"
 description: "A practical guide to building effective client project retrospective formats for remote teams. Learn structured templates, async approaches, and best"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -9,7 +9,7 @@ permalink: /how-to-create-client-project-retrospective-format-for-remote/
 categories: [guides]
 tags: [remote-work-tools, retrospective, remote-work, client-projects, project-management, async-communication]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

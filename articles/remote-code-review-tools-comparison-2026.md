@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Code Review Tools Comparison 2026"
-description: "Compare the best remote code review tools in 2026: GitHub, GitLab, Gerrit, Phabricator, and Review Board. Covers async features, inline comments, and CI integration."
+description: "Compare the best remote code review tools in 2026: GitHub, GitLab, Gerrit, Phabricator, and Review Board. Covers async features, inline comments, and CI"
 date: 2026-03-21
 author: theluckystrike
 permalink: /remote-code-review-tools-comparison-2026/
@@ -10,7 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}

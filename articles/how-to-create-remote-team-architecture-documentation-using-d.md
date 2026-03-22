@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Architecture Documentation Using"
+title: "How to Create Remote Team Architecture Documentation"
 description: "The best approach for remote teams is using Mermaid or PlantUML to store diagrams as text files in your repository, enabling Git-based collaboration and"
 date: 2026-03-16
 last_modified_at: 2026-03-16

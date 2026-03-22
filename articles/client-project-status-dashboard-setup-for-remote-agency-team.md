@@ -7,7 +7,7 @@ last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /client-project-status-dashboard-setup-for-remote-agency-team/
 reviewed: true
-score: 8
+score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true

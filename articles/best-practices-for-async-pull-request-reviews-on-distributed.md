@@ -9,7 +9,7 @@ permalink: /best-practices-for-async-pull-request-reviews-on-distributed/
 categories: [guides]
 tags: [remote-work-tools, pull-requests, code-review, distributed-teams, async-communication, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -191,6 +191,65 @@ Sustainable async review practices require cultural foundations:
 
 **Celebrate good PRs**: Recognize when PRs are well-documented, thoroughly tested, or elegantly written. This reinforces positive behavior.
 
+## Handling Review Delays and Bottlenecks
+
+Async reviews sometimes get stuck. Address delays proactively:
+
+**Review time SLA:** Define expected response times. "Reviews within 24 hours during working hours" sets clear expectations. Post this in your CONTRIBUTING.md.
+
+**Escalation path:** If a PR is waiting for review beyond the SLA, escalation should be automated or explicit. Some teams auto-request if waiting 48+ hours.
+
+**Reviewer rotation:** Avoid single-person knowledge silos where only one developer can review certain code areas. Pair senior and junior reviewers to distribute knowledge.
+
+**Blocking vs. non-blocking:** Use explicit labels. A PR might be "approved with non-blocking comments"—it can merge but follow-up issues should be created for the suggestions.
+
+## Code Review Metrics Worth Tracking
+
+Not all metrics matter, but these indicate code quality and team health:
+
+**Review cycle time:** Average time from PR open to merge. For distributed teams, 24-48 hours is healthy. Longer cycles indicate bottlenecks.
+
+**Review rounds per PR:** Fewer rounds = clearer initial PRs. If averaging 3+ rounds, PR descriptions or code clarity needs improvement.
+
+**Comment-to-suggestion ratio:** If most comments are problems without solutions, reviewers need better guidance on constructive feedback.
+
+**Rework rate:** What percentage of merged PRs have bugs or require follow-up PRs? High rework rates mean reviews aren't catching issues.
+
+## Async Reviews for Large PRs
+
+Large PRs are harder to review. When you can't avoid them:
+
+**Break into logical chunks:** Ask the author to highlight the order in which to read the code (comment in the PR with reading order).
+
+**Review in phases:** Review 200 lines, leave feedback, author responds, then review next 200 lines.
+
+**Detailed commits help:** If the PR has well-organized, logical commits, reviewers can review commit-by-commit rather than treating it as one massive diff.
+
+**Dedicated review session:** For very large PRs, schedule a 60-minute session where reviewer and author sync in real-time to work through complex sections.
+
+## Handling Disagreement in Reviews
+
+Code review disagreements are common. Handle them maturely:
+
+**Distinguish between style and substance:** Style differences (naming, formatting) are less important than architectural disagreements. Let style slide if the code is solid.
+
+**Escalate technical disagreement:** If reviewer and author disagree on technical approach, involve a technical lead or architect. Don't let PRs languish in disagreement.
+
+**Document decisions:** When you resolve a disagreement, document the decision and reasoning in a decision record. This prevents relitigating the same argument in future PRs.
+
+**Consensus-seeking:** "I prefer approach X, but approach Y is also valid. Let's go with your choice." Build trust by being flexible on debatable points.
+
+## Async Reviews for Open Source and Public Contributions
+
+Contributing to external projects requires adjusting review expectations:
+
+**Respect project maintainers' timezone:** Open source maintainers are often volunteers in different timezones. Don't expect immediate reviews. Be patient.
+
+**Detailed PR descriptions matter even more:** You can't follow up with the maintainer in real-time. Leave no ambiguity. Explain your reasoning thoroughly.
+
+**Proactive risk mitigation:** Address likely objections upfront. If changing a performance-critical section, benchmark and include results in the PR.
+
+**Accept feedback gracefully:** When external reviewers suggest changes, treat it as learning, not criticism. Open source reviews are some of the best learning opportunities available.
 
 ## Related Articles
 

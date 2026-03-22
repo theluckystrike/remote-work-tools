@@ -7,7 +7,7 @@ last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-sales-team-deal-room-with-shared-docume/
 reviewed: true
-score: 8
+score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true

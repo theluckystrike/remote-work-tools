@@ -164,7 +164,7 @@ Ambient sound apps aren't universal solutions. Some developers find that any bac
 
 Additionally, if you're working in an already noisy environment, ambient apps may add to the auditory load rather than reducing it. In these cases, noise-canceling headphones paired with ambient sound at low volume often works better than relying on the app alone to mask environmental noise.
 
-## Comprehensive App Comparison Table
+## App Comparison Table
 
 Not all ambient noise apps work the same. Here's how the major options compare across criteria that matter to developers:
 

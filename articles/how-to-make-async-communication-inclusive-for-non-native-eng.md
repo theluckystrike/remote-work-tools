@@ -9,7 +9,7 @@ permalink: /how-to-make-async-communication-inclusive-for-non-native-eng/
 categories: [guides]
 tags: [remote-work-tools, async-communication, remote-work, inclusion, non-native-english, global-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Video Walkthrough Tools for Presenting Code Changes to"
+title: "Video Walkthrough Tools for Presenting Code Changes"
 description: "A practical guide to video walkthrough tools that help developers present code changes clearly to non-technical clients. Learn about screen recording"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -9,7 +9,7 @@ permalink: /video-walkthrough-tools-for-presenting-code-changes-to-non-t/
 categories: [guides]
 tags: [remote-work-tools, video-tools, client-communication, code-presentation, developer-tools, screen-recording]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

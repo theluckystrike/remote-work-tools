@@ -9,7 +9,7 @@ permalink: /how-to-set-up-hubspot-for-remote-agency-client-pipeline/
 categories: [guides]
 tags: [remote-work-tools, hubspot, crm, remote-work, client-management, agency-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

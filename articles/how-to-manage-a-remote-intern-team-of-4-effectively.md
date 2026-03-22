@@ -10,7 +10,7 @@ categories: [guides]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 tags: [remote-work-tools, remote-work]
 ---
 
@@ -182,6 +182,122 @@ Review these metrics in your weekly intern team sync. If someone is consistently
 A well-managed remote intern team benefits your organization beyond the summer. Former interns become strong hires who already understand your codebase, culture, and expectations. They also become ambassadors who recommend your program to other talented developers.
 
 The systems you build—check-ins, task templates, code review practices—scale to larger teams. Start with four interns, refine your processes, and you'll have a repeatable program that produces real value.
+
+## Intern Compensation Structure
+
+Fair compensation signals respect and attracts better talent:
+
+| Experience Level | 2026 Rate | Location Adjustment | Equity Offer |
+|------------------|-----------|-------------------|--------------|
+| High school (rare) | $18/hr | ±20% by cost-of-living | None |
+| Freshman/Sophomore | $20-25/hr | ±20% by cost-of-living | 0.01-0.05% |
+| Junior/Senior | $25-35/hr | ±20% by cost-of-living | 0.05-0.10% |
+| Grad students | $30-40/hr | ±20% by cost-of-living | 0.10-0.20% |
+
+Even small equity stakes signal that you view interns as potential future team members.
+
+## Weekly Intern Team Sync Format
+
+Structure that actually works for a 30-minute weekly meeting:
+
+```
+00:00-00:05 — Standup (1 min per intern)
+00:05-00:20 — Two interns present 7-min project demos (rotating)
+00:20-00:25 — Blockers/concerns callout
+00:25-00:30 — Recognition + next week preview
+```
+
+Record the demos so absent interns (or anyone async) can catch up. This keeps the meeting focused and provides documentation of their progress.
+
+## Code Review Feedback Framework
+
+When reviewing intern PRs, use this structure to be both honest and kind:
+
+**1. Start with positive specifics:**
+```
+"I like how you structured the error handling here.
+The try/catch wrapping is clean and the specific
+error messages make debugging easy."
+```
+
+**2. Point out the growth opportunity:**
+```
+"One thing to consider: what happens if the
+database connection fails? That case isn't handled
+in your current code."
+```
+
+**3. Suggest a resource, not just the fix:**
+```
+"Check out this pattern in our existing codebase
+[link to similar code]. It shows how we typically
+handle this scenario. Give it a read and we can
+discuss if you have questions."
+```
+
+**4. Empower them to solve it:**
+```
+"Why don't you take another look with that pattern
+in mind? Reply in the thread if you get stuck and
+I'll jump on a call with you."
+```
+
+This approach teaches problem-solving instead of just fixing problems.
+
+## Internship Performance Rubric
+
+Evaluate interns consistently using this rubric for end-of-program feedback:
+
+| Dimension | Emerging | Developing | Proficient | Exemplary |
+|-----------|----------|-----------|-----------|-----------|
+| Code Quality | Code works but needs review feedback | Most PRs need 1-2 rounds of feedback | PRs rarely need feedback | PRs ship with minimal changes |
+| Communication | Rarely asks for help; struggles silently | Asks questions but takes time to clarify | Asks clear questions with context | Identifies issues early and escalates appropriately |
+| Learning Velocity | Repeats same mistakes in new PRs | Applies feedback to next PR | Applies feedback across similar situations | Learns patterns after one example |
+| Initiative | Works only on assigned tasks | Completes assigned work + asks for more | Finds improvements to own code/process | Mentors other interns |
+| Collaboration | Minimal interaction with team | Participates when involved | Actively engages in discussions | Elevates team discussions |
+
+Use this to have concrete conversations about growth areas and strengths.
+
+## Post-Internship Path
+
+What happens after the program ends determines its real success:
+
+### Path 1: Return Offer (Best Case)
+- Offer within 2 weeks of program end
+- Include:
+  - Salary based on market, not "intern rate"
+  - Signing bonus ($500-2,000)
+  - Start date flexibility (can start after school ends)
+
+### Path 2: Extended Internship
+- Some interns aren't ready for full-time yet
+- Offer part-time continuation during school year
+- Typically 10-15 hrs/week for $20-30/hr
+- Provides continued pipeline and keeps relationship active
+
+### Path 3: Warm Rejection
+- If not offering position, still invest in relationship
+- Write detailed feedback on strengths
+- Introduce to other companies in your network
+- Keep in touch for future hiring cycles
+
+Former interns you've treated well become your best recruiting channel. Invest accordingly.
+
+## Common Intern Management Mistakes
+
+**Mistake 1: Treating interns as free labor**
+This destroys motivation and burns out your program. Interns should produce 60-70% as much as a junior, not serve as cheap developers.
+
+**Mistake 2: No career development focus**
+If your internship is just task completion, you're wasting their time. Plan their growth as carefully as you'd plan a junior's growth.
+
+**Mistake 3: Expecting them to figure things out**
+Interns need significantly more structure than juniors. Provide templates, examples, and clear documentation.
+
+**Mistake 4: Skipping real feedback**
+"You're doing great!" means nothing. Specific, developmental feedback is the greatest gift you can give an intern.
+
+---
 
 
 ## Related Articles

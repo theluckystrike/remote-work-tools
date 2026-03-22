@@ -25,6 +25,18 @@ ClickUp takes the opposite approach—an almost overwhelming feature set with de
 
 For creative agencies managing multiple client projects simultaneously, this philosophical difference matters. Basecamp forces consistency; ClickUp rewards intentional design.
 
+
+## Quick Comparison
+
+| Feature | Basecamp | Clickup |
+|---|---|---|
+| Pricing | $15/month | $149/month |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Automation | Workflow support | Workflow support |
+
 ## Task Management for Creative Work
 
 Creative agencies typically manage projects across several stages: brief, concept, design, revision, approval, and delivery. Both tools can accommodate these workflows, but the implementation differs significantly.

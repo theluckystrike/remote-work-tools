@@ -1,17 +1,18 @@
 ---
 layout: default
-title: "How to Calculate Productive Overlap Hours for Remote."
+title: "How to Calculate Productive Overlap Hours for Remote"
 description: "A practical guide for developers working across timezones to calculate and maximize productive pair programming hours with code examples and real-world"
 date: 2026-03-16
 last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-calculate-productive-overlap-hours-for-remote-pair-pr/
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 categories: [guides]
 intent-checked: true
 tags: [remote-work-tools, remote-work]
+
 ---
 
 {% raw %}

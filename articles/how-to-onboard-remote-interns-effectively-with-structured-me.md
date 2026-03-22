@@ -9,7 +9,7 @@ permalink: /how-to-onboard-remote-interns-effectively-with-structured-me/
 categories: [guides]
 tags: [remote-work-tools, remote-work, onboarding, mentorship, internship, developer-experience, team-building]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

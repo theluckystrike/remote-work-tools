@@ -367,7 +367,7 @@ Check prices weekly; webcams frequently sale between $40-60 (C920/C922).
 ## Related Articles
 
 - [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/best-webcam-lighting-setup-under-100/)
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
 - [Best Remote Work Desk Accessories Under 50 Dollars 2026](/remote-work-tools/best-remote-work-desk-accessories-under-50-dollars-2026/)
 - [Best Remote Work Monitor Under 300 Dollars 2026](/remote-work-tools/best-remote-work-monitor-under-300-dollars-2026/)
 - [Best Remote Work Standing Desk Converter Under $200 2026](/remote-work-tools/best-remote-work-standing-desk-converter-under-200-dollars-2026/)

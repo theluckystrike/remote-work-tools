@@ -7,7 +7,7 @@ last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-law-firm-client-communication-portal-comparison-for-d/
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]
@@ -121,7 +121,7 @@ Weaknesses: Steeper learning curve, requires more setup time.
 |---------|-------------|--------|----------|
 | Client portal | Yes | Yes | Yes |
 | 2FA enforcement | Yes | Yes | Yes |
-| Audit logging | Comprehensive | Basic | Comprehensive |
+| Audit logging | | Basic | |
 | API documentation | Excellent | Good | Good |
 | Mobile apps | iOS + Android | iOS + Android | iOS + Android |
 | Payment processing | Via Clio Payments | Built-in | Via integration |

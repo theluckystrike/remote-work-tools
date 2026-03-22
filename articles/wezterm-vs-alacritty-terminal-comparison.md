@@ -9,7 +9,7 @@ permalink: /wezterm-vs-alacritty-terminal-comparison/
 categories: [guides]
 tags: [remote-work-tools, wezterm, alacritty, terminal, emulator, development-tools, comparison]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

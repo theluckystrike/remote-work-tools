@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Tool for Remote Team Org Directory with Timezone and"
+title: "Best Tool for Remote Team Org Directory with Timezone"
 description: "A practical guide to team org directory tools with timezone and availability tracking for distributed software teams. Includes implementation patterns"
 date: 2026-03-16
 last_modified_at: 2026-03-16

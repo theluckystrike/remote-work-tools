@@ -8,7 +8,7 @@ permalink: /async-360-feedback-process-for-remote-teams-without-live-mee/
 categories: [guides]
 tags: [remote-work-tools, feedback, remote-work, 360-feedback, async, team-development]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -165,7 +165,7 @@ Track these metrics to evaluate your async feedback process:
 
 ## Detailed Feedback Form Template with Response Anchors
 
-A well-designed form guides responses without constraining genuine feedback. Here's a comprehensive template that works well for distributed teams:
+A well-designed form guides responses without constraining genuine feedback. Here's a template that works well for distributed teams:
 
 ```markdown
 # 360 Feedback Form: [Person Name] | [Quarter]

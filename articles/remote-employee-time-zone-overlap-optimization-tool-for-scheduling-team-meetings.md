@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Employee Time Zone Overlap Optimization Tool for"
+title: "Remote Employee Time Zone Overlap Optimization: Scheduling"
 description: "Find optimal meeting times for distributed teams using visualization tools that show time zone overlap, such as World Time Buddy or built-in calendar features"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -9,7 +9,7 @@ permalink: /remote-employee-time-zone-overlap-optimization-tool-for-scheduling-t
 categories: [guides]
 tags: [remote-work-tools, remote-work, time-zones, scheduling, tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Work Tax Deductions: Home Office Guide 2026 (US."
+title: "Remote Work Tax Deductions: Home Office Guide 2026"
 description: "Complete guide to home office tax deductions for remote workers. US IRS deduction methods, UK/EU rules, qualifying expenses, calculation methods"
 date: 2026-03-20
 last_modified_at: 2026-03-20
@@ -12,6 +12,7 @@ reviewed: true
 score: 9
 voice-checked: true
 intent-checked: true
+
 ---
 
 {% raw %}

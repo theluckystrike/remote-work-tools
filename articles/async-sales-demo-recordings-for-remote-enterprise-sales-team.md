@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Output paths"
+title: "Async Sales Demo Recordings for Remote Enterprise Sales Team"
 description: "Build an async sales demo workflow by having sales engineers record product demonstrations once, processing them through an automated pipeline (transcoding"
 date: 2026-03-16
 author: "Remote Work Tools Guide"

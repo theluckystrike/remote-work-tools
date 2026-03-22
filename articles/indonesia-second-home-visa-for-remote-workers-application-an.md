@@ -9,7 +9,7 @@ permalink: /indonesia-second-home-visa-for-remote-workers-application-an/
 categories: [guides]
 tags: [remote-work-tools, indonesia, second-home-visa, remote-work, digital-nomad, visa-guide, indonesian-visa]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

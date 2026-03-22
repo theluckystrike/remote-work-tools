@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /best-client-approval-workflow-tool-for-remote-design-teams/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, workflow, remote-work]

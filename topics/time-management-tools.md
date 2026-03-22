@@ -3,6 +3,9 @@ layout: default
 title: "Time Management & Productivity Tools for Remote Workers"
 description: "Time management tools for remote teams: time tracking, productivity metrics, calendar blocking, Pomodoro apps, and time zone overlap calculators."
 permalink: /topics/time-management-tools/
+intent-checked: true
+voice-checked: true
+date: 2026-03-21
 ---
 
 # Time Management & Productivity Tools for Remote Workers

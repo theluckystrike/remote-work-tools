@@ -9,7 +9,7 @@ permalink: /how-to-handle-knowledge-base-handoff-when-remote-developer-l/
 categories: [guides]
 tags: [remote-work-tools, knowledge-management, remote-work, developer-handoffs, documentation, team-processes]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

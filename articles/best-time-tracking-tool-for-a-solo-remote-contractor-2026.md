@@ -400,12 +400,11 @@ Export format for accountant:
 
 ---
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Work Guides Hub](/remote-work-tools/)
 - [Best Time Tracking Tools for Remote Freelancers: A.](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
 - [Daily Workflow for a Solo Remote Technical Writer 2026](/remote-work-tools/daily-workflow-for-a-solo-remote-technical-writer-2026/)
 - [Best Whiteboarding Tool for Remote Architects Doing System Design Sessions 2026](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
 
-Built by
 
 
 ## Related Articles

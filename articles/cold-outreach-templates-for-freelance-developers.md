@@ -9,7 +9,7 @@ permalink: /cold-outreach-templates-for-freelance-developers/
 categories: [guides]
 tags: [remote-work-tools, freelance, business-development, client-acquisition]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -213,7 +213,7 @@ Generic emails to "info@company.com" get deleted. Find decision makers:
 - RocketReach ($50/month): Contact database with decision makers
 - LinkedIn Sales Navigator ($65/month): Filter by role and company
 - Apollo.io ($49-199/month): Full sales prospecting platform
-- ZoomInfo: Enterprise option, expensive but comprehensive
+- ZoomInfo: Enterprise option, expensive but 
 
 **Process:**
 1. Identify decision maker title (VP Engineering, CTO, Dev Manager)

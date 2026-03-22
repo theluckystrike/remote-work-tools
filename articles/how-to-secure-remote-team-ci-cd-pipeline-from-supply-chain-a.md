@@ -19,7 +19,7 @@ voice-checked: true
 
 Remote teams rely heavily on automated CI/CD pipelines to ship software efficiently. However, these pipelines represent a significant attack surface that threat actors increasingly exploit. Supply chain attacks targeting CI/CD systems have led to major security incidents across the industry. This guide provides practical steps to harden your pipeline infrastructure against these threats.
 
-Understanding the threat landscape forms the foundation for building effective defenses.
+Understanding the threat environment forms the foundation for building effective defenses.
 
 ## Understanding Supply Chain Risks in CI/CD
 
@@ -262,6 +262,48 @@ function checkPipelineModifications() {
 
 Create an incident response plan specifically for pipeline compromises. Know how to revoke tokens, rebuild from known-good commits, and notify affected users.
 
+## SBOM Generation for Supply Chain Transparency
+
+Generate a Software Bill of Materials automatically:
+
+```bash
+# Generate SBOM using Syft
+syft packages dir:. -o spdx-json > sbom.json
+
+# Scan for vulnerabilities
+grype sbom:sbom.json --fail-on high
+```
+
+Add this to your CI pipeline:
+
+```yaml
+- name: Generate SBOM
+  run: |
+    curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
+    syft packages dir:. -o spdx-json > sbom.json
+
+- name: Scan SBOM
+  run: |
+    curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin
+    grype sbom:sbom.json --fail-on high
+```
+
+When a CVE drops, search your SBOM to determine if you are affected without manually checking lockfiles.
+
+## Supply Chain Security Checklist
+
+| Check | Frequency | Tool |
+|-------|-----------|------|
+| Dependency audit | Every build | npm audit, pip-audit |
+| SBOM generation | Every release | Syft |
+| Vulnerability scan | Every build | Grype, Snyk, Trivy |
+| Action version pinning | Monthly review | Renovate |
+| Secret rotation | Quarterly | Vault |
+| Runner image updates | Monthly | Dependabot |
+| Pipeline config review | Quarterly | Manual code review |
+| Access permission audit | Quarterly | GitHub org audit log |
+
+Assign each check to a specific team member. Rotate responsibility monthly to spread security awareness across the team.
 
 ## Related Articles
 

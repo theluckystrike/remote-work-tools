@@ -27,6 +27,18 @@ Notion provides building blocks. Databases, pages, blocks, and relations let you
 
 For remote developers, the distinction matters. Basecamp says "here's how we organize work." Notion says "design how you want to organize work." Opinionated tools win when team alignment is hard. Customizable tools win when your workflow diverges from defaults.
 
+
+## Quick Comparison
+
+| Feature | Basecamp | Notion |
+|---|---|---|
+| Pricing | $299/month | $299/month |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Automation | Workflow support | Workflow support |
+
 ## Task Management Comparison
 
 Basecamp's To-Dos use a straightforward checklist model. You create lists, add tasks with due dates, assign responsibility, and check items complete. The interface lacks subtasks, dependencies, or custom fields. This simplicity means less configuration time but also less expressiveness for complex projects.
@@ -252,7 +264,7 @@ Some remote engineering teams run both platforms:
 - **Basecamp:** Client communication, executive status updates, company-wide announcements
 - **Notion:** Internal documentation, technical specs, engineering standards, knowledge base
 
-This leverages each tool's strengths:
+This uses each tool's strengths:
 - Basecamp's focused interface for external communication
 - Notion's flexibility for internal technical documentation
 

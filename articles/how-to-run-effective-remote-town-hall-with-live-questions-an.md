@@ -9,7 +9,7 @@ permalink: /how-to-run-effective-remote-town-hall-with-live-questions-and-async-
 categories: [guides]
 tags: [remote-work-tools, remote-meetings, town-hall, async-communication, virtual-events, distributed-teams, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -117,7 +117,7 @@ Use a platform that supports both presentation and participation features. Zoom,
 
 Enable live captions if available—this aids accessibility and helps non-native speakers follow along.
 
-### Facilitating Cross-Time-Zone Participation
+### helping Cross-Time-Zone Participation
 
 For teams spanning more than 8 time zones, a single live session will always disadvantage someone. The common approaches are rotating the session time (alternating between APAC-friendly and EMEA-friendly slots), running two sessions (a shorter version of the live Q&A for the secondary time zone), or accepting that the primary value is the recording plus async Q&A rather than live attendance.
 

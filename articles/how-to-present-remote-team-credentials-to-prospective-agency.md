@@ -289,7 +289,7 @@ Credential errors destroy credibility instantly. Establish processes to prevent 
 
 This systematic approach prevents the common mistake of listing expired certifications, which damages your credibility far more than listing fewer certifications.
 
-## Leveraging Credentials in Business Development
+## using Credentials in Business Development
 
 Your credentials should inform every client conversation:
 

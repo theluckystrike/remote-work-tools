@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Home Office in Bali Rental Apartment with"
+title: "How to Set Up Home Office in Bali Rental Apartment"
 description: "A practical guide for developers and digital nomads setting up a productive home office in Bali rental apartments. Covers power infrastructure"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -191,6 +191,43 @@ Before moving into your Bali rental:
 - [ ] Set up automated backup systems
 - [ ] Configure network failover
 
+## Cost Breakdown: Monthly Home Office in Bali
+
+| Item | Monthly Cost (USD) | Notes |
+|------|-------------------|-------|
+| Apartment rental | $400-1,200 | Canggu/Seminyak area |
+| Fiber internet | $20-40 | Biznet or Indihome |
+| Backup mobile data | $10-15 | Telkomsel 30GB plan |
+| Electricity | $30-80 | Higher with AC running all day |
+| UPS purchase | $80-150 (one-time) | APC Back-UPS 600-800VA |
+| Coworking backup | $50-150 | Dojo Bali, Outpost |
+| Total monthly | $510-1,485 | Excluding one-time equipment |
+
+A coworking space membership serves as your backup workspace when power or internet problems persist at home.
+
+## Handling Extended Power Outages
+
+For outages lasting more than 30 minutes:
+
+```bash
+#!/bin/bash
+# power-fallback.sh
+# Save all work to cloud
+rclone sync ~/projects gdrive:emergency-backup --fast-list
+# Graceful shutdown
+sudo shutdown -h now
+```
+
+Trigger this automatically when your UPS reports low battery via NUT monitoring.
+
+## Rainy Season Considerations
+
+Bali's rainy season (November through March) brings more frequent power outages. Plan for:
+
+- Higher UPS capacity or portable power station for longer outages
+- Mobile hotspot as primary backup (cell towers often have generators)
+- Schedule critical calls during morning hours when weather is typically clearer
+- Keep a waterproof bag for your laptop when commuting to coworking
 
 ## Related Articles
 

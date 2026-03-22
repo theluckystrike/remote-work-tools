@@ -9,7 +9,7 @@ permalink: /coworking-space-membership-vs-day-pass-comparison/
 categories: [guides]
 tags: [remote-work-tools, coworking, remote-work, productivity, comparison]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

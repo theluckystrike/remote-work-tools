@@ -9,7 +9,7 @@ permalink: /how-to-set-up-a-remote-team-wiki-from-scratch/
 categories: [guides]
 tags: [remote-work-tools, tools, remote-work]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

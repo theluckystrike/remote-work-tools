@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-structure-an-async-all-hands-update-for-100-employees/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]

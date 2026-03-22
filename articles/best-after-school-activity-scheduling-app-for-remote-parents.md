@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Usage"
+title: "Best After School Activity Scheduling App for Remote Parents"
 description: "Cozi Family Organizer is the best app for remote parents managing multiple children's activities because it detects scheduling conflicts automatically, allows"
 date: 2026-03-15
 author: "Remote Work Tools Guide"

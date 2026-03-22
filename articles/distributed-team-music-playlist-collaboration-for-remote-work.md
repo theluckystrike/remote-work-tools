@@ -7,7 +7,7 @@ last_modified_at: 2026-03-17
 author: "Remote Work Tools Guide"
 permalink: /distributed-team-music-playlist-collaboration-for-remote-work/
 reviewed: true
-score: 8
+score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true

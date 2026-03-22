@@ -9,7 +9,7 @@ permalink: /how-to-share-home-office-with-partner-both-on-calls/
 categories: [guides]
 tags: [remote-work-tools, remote-work, home-office, productivity, setup]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

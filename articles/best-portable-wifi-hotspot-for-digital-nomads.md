@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Portable WiFi Hotspot for Digital Nomads: A"
+title: "Best Portable WiFi Hotspot for Digital Nomads"
 description: "Best Portable WiFi Hotspot for Digital Nomads: A. — practical guide for remote teams and distributed workers with tools, tips, and workflows for 2026"
 date: 2026-03-15
 last_modified_at: 2026-03-15
