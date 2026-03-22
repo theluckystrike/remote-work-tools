@@ -28,6 +28,16 @@ voice-checked: true
 intent-checked: true---
 
 
+| Tool | Multi-Timezone | Auto-Detection | Calendar Sync | Pricing |
+|---|---|---|---|---|
+| World Time Buddy | Side-by-side comparison | Manual city selection | Google, Outlook export | Free / $3.50/month |
+| Every Time Zone | Visual timeline slider | Browser timezone | Link sharing | Free |
+| Clockify | Team timezone display | Auto-detect from IP | Google Calendar sync | Free / $3.99/user/month |
+| Spacetime | Slack-native timezone bot | Auto from Slack profile | Direct scheduling | $2/user/month |
+| Timeanddate.com | Meeting planner tool | IP-based detection | iCal export | Free |
+
+
+
 Notion excels as the best remote team org directory tool, offering timezone tracking, availability status integration, and self-service updates without expensive enterprise tools. A timezone-aware directory transforms coordination across distributed teams—without it, you're constantly calculating whether it's 2 AM for your Tokyo teammate. This guide evaluates approaches and tools for building org directories that keep remote teams synchronized.
 
 ## Key Takeaways

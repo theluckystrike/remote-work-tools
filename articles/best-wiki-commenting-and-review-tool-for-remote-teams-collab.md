@@ -27,6 +27,16 @@ score: 9
 intent-checked: true
 voice-checked: true---
 
+
+| Tool | Search Quality | Offline Access | API Support | Pricing |
+|---|---|---|---|---|
+| Notion | Full-text + AI search | Partial (desktop app) | Full REST API | $8/user/month |
+| Confluence | Advanced search + labels | Offline via Data Center | Full REST API | $5.75/user/month |
+| GitBook | Fast search, versioned docs | No | Full REST API | $6.70/user/month |
+| Slite | AI-powered search | Offline on desktop | Basic API | $8/user/month |
+| Tettra | AI answers from docs | No | Zapier integration | $4/user/month |
+
+
 {% raw %}
 
 Remote teams need structured documentation workflows with effective commenting and review capabilities. When your team spans multiple time zones, asynchronous review processes become essential for maintaining documentation quality without creating bottlenecks. This guide evaluates practical approaches and tools for wiki-based documentation review.

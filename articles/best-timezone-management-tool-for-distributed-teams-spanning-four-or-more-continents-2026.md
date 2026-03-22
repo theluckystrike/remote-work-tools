@@ -243,6 +243,16 @@ The key insight is that teams spanning four or more continents cannot rely on in
 ---
 
 
+
+
+| Tool | Multi-Timezone | Auto-Detection | Calendar Sync | Pricing |
+|---|---|---|---|---|
+| World Time Buddy | Side-by-side comparison | Manual city selection | Google, Outlook export | Free / $3.50/month |
+| Every Time Zone | Visual timeline slider | Browser timezone | Link sharing | Free |
+| Clockify | Team timezone display | Auto-detect from IP | Google Calendar sync | Free / $3.99/user/month |
+| Spacetime | Slack-native timezone bot | Auto from Slack profile | Direct scheduling | $2/user/month |
+| Timeanddate.com | Meeting planner tool | IP-based detection | iCal export | Free |
+
 ## Frequently Asked Questions
 
 **Are free AI tools good enough for timezone management tool for distributed teams?**

@@ -27,6 +27,16 @@ voice-checked: true
 intent-checked: true
 tags: [remote-work-tools, best-of, remote-work]---
 
+
+| Tool | Backup Type | Automation | Encryption | Pricing |
+|---|---|---|---|---|
+| Backblaze | Continuous full-disk backup | Automatic background | AES-128 encryption | $7/month per computer |
+| Arq Backup | Incremental to any cloud | Scheduled backups | AES-256 encryption | $50 one-time license |
+| Duplicati | Open-source, any cloud target | Cron-scheduled | AES-256 encryption | Free (open source) |
+| CrashPlan | Continuous enterprise backup | Real-time monitoring | AES-256 encryption | $10/device/month |
+| Time Machine + iCloud | macOS native backup | Automatic hourly | FileVault encryption | $0.99-$9.99/month |
+
+
 {% raw %}
 
 An APC Back-UPS Pro 1500VA with pure sine wave output provides 15-20 minutes of runtime for a typical developer workstation (monitors, laptop, router), giving you time to commit changes and shut down gracefully during unexpected outages. Configure networked shutdown using apcupsd on Linux or PowerChute on Windows so your system powers down automatically when battery runs low, preventing corruption if you're away during extended outages. For developers in regions with frequent outages, this single device eliminates the productivity loss and data risk of unexpected power events.
