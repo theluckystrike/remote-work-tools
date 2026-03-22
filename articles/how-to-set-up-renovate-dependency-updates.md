@@ -455,6 +455,75 @@ renovate:
 
 Create a GitLab CI/CD schedule that runs this pipeline daily at 5 AM. Store the Renovate token — a GitLab personal access token with `api` scope — as a masked CI/CD variable named `RENOVATE_GITLAB_TOKEN`.
 
+## Using Presets for Cross-Repo Consistency
+
+When you manage more than a handful of repositories, maintaining identical Renovate config in each one becomes a drift problem. Renovate presets solve this: define a shared config in one repo and extend it everywhere else.
+
+Create a `renovate-config` repo at `yourorg/renovate-config` with a `default.json`:
+
+```json
+// default.json in yourorg/renovate-config
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "ACME organization default Renovate config",
+  "extends": ["config:base"],
+  "timezone": "America/New_York",
+  "schedule": ["before 6am on Monday"],
+  "prConcurrentLimit": 5,
+  "prHourlyLimit": 2,
+  "commitMessagePrefix": "chore(deps):",
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch"],
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboard": true,
+      "dependencyDashboardApproval": true
+    }
+  ]
+}
+```
+
+Each project repo reduces its `renovate.json` to a single line:
+
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>yourorg/renovate-config"]
+}
+```
+
+When you adjust the global schedule or add a new group rule, update `default.json` once and all repos pick it up on their next Renovate run. Projects needing overrides extend the base and add their own `packageRules` — Renovate merges them in order.
+
+## Measuring Renovate's Impact
+
+After a few weeks, verify Renovate is working as intended by querying GitHub for merged dependency PRs:
+
+```bash
+# Count merged Renovate PRs in the last 30 days
+gh pr list \
+  --repo yourorg/yourrepo \
+  --state merged \
+  --label dependencies \
+  --json number,title,mergedAt \
+  --jq 'length'
+
+# List major updates that required approval
+gh pr list \
+  --repo yourorg/yourrepo \
+  --state merged \
+  --label dependencies \
+  --search "major in:title" \
+  --json number,title,mergedAt \
+  | jq '.[] | {number, title, mergedAt}'
+```
+
+A healthy Renovate setup for a mid-sized JS project typically generates 5-15 merged PRs per week, with patch auto-merges happening continuously and minor/major updates batched to Monday morning. If you see zero PRs, check the Dependency Dashboard for token errors. If you see hundreds of open PRs, tighten your `prConcurrentLimit` and add more grouping rules.
+
 ## Related Reading
 
 - [How to Automate Code Quality Gates for Remote Teams](/remote-work-tools/how-to-automate-code-quality-gates-remote-teams/)
