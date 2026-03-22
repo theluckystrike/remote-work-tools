@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Keel for Continuous Delivery"
-description: "Deploy Keel in Kubernetes to automatically update Deployments and Helm releases when new container images are pushed — with approval workflows and Slack notifications"
+description: "Deploy Keel in Kubernetes to automatically update Deployments and Helm releases when new container images are pushed — with approval workflows and Slack."
 date: 2026-03-22
 author: theluckystrike
 permalink: /keel-continuous-delivery-setup/

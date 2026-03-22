@@ -202,6 +202,138 @@ The key is assuming guests will connect untrusted devices and designing your net
 
 When contractors finish their engagements, revoke their credentials immediately. When events conclude, rotate passwords. These operational practices matter as much as the technical configuration.
 
+## Scaling Guest WiFi for Events
+
+Companies hosting events or offsites need temporary guest WiFi for many visitors:
+
+**Temporary Event Network Setup:**
+```json
+{
+  "event_network": {
+    "ssid": "CompanyName-Event-Mar2026",
+    "vlan_id": 173,
+    "subnet": "172.17.0.0/24",
+    "encryption": "WPA3-Personal",
+    "password_rotation": "daily",
+    "max_bandwidth_per_device": "10Mbps",
+    "concurrent_device_limit": 200,
+    "session_timeout": "8 hours",
+    "auto_disconnect": "10pm daily"
+  }
+}
+```
+
+For 200-person events:
+- Provision 5-10 access points (one AP per 20-30 people)
+- Use mesh network so coverage works across all floors
+- Implement captive portal that collects name and company
+- Set bandwidth limits to prevent any single attendee from saturating the link
+- Have IT staff on-site first day to troubleshoot initial connectivity issues
+
+## Guest WiFi for Multiple Office Locations
+
+If your company has multiple hybrid offices (SF, NYC, London), replicate the setup consistently:
+
+**Multi-Location Configuration:**
+```yaml
+Guest Network Configuration Template
+- All locations use same SSID convention: Guest-[CityCode]
+- All locations use VPN tunnel back to HQ for centralized logging
+- All locations use DNS filtering service (Pi-hole or Cisco Umbrella)
+- Monthly sync: IT team reviews logs across all locations for anomalies
+- Quarterly: Penetration test each location's guest network
+```
+
+Consistency prevents variations where one office has weaker security than another.
+
+## Troubleshooting Common Guest WiFi Issues
+
+**Guests Can't Connect**
+- Check that guest SSID broadcast is enabled
+- Verify WiFi password is shared correctly (common mistakes: 0 vs O, 1 vs l)
+- Confirm guest doesn't have too many saved networks on device
+- Ask them to "forget" the network and reconnect
+
+**Connection Drops After 30-60 Minutes**
+- Usually means captive portal session timeout
+- Extend timeout to 4 hours if it's happening to multiple guests
+- Check if user's device is in power-save mode (disables WiFi)
+- Verify DHCP lease timeout aligns with expected session duration
+
+**Guests Can See Internal Network Resources**
+- This is a serious security issue
+- Immediately check firewall rules (guest → corporate subnet should be DENIED)
+- Verify VLAN isolation is working
+- Run network scanning tool to confirm guest can't reach internal IPs
+- Update firewall rules and test again
+
+**Guest Network Runs Slow But Corporate Network is Fine**
+- Guests may be monopolizing bandwidth with streaming/downloads
+- Check rate limiting rules in traffic shaper
+- Verify QoS (Quality of Service) is prioritizing corporate traffic
+- If many guests are present, add additional access points
+
+## Compliance Considerations for Guest Networks
+
+Depending on your industry, guest WiFi may trigger compliance requirements:
+
+**Healthcare (HIPAA)**
+- Don't allow guest network to connect to any healthcare systems
+- Ensure separate physical network segment
+- Log all network activity for 6 months minimum
+- Regular security audits (quarterly)
+
+**Finance (PCI-DSS)**
+- Guest network must not have access to payment systems
+- Implement network segmentation (VLAN isolation)
+- Maintain logs for 1 year
+- Annual penetration testing
+
+**Legal/Professional Services**
+- Protect attorney-client privileged information
+- Ensure guest network can't access file shares containing sensitive docs
+- Consider requiring guests to use company VPN instead of direct WiFi access
+
+Consult your compliance team before implementing guest networks if you handle sensitive data.
+
+## Guest WiFi Documentation
+
+Create a simple guide for employees about guest WiFi:
+
+```markdown
+# Guest WiFi Quick Guide for Employees
+
+## How to Share the Guest WiFi
+
+1. Give guests the SSID: "CompanyName-Guest"
+2. Provide the password: [Check your manager or IT for current password]
+3. After they connect, they may see a login page—that's normal
+
+## Setting a New Guest Password
+
+1. Request new password from IT
+2. IT will rotate it within 1 business day
+3. Share new password with contractors/visitors
+4. Revoke old password
+
+## Reporting Problems
+
+If a guest can't connect or the network is slow:
+1. Check that they're entering the password correctly
+2. Try connecting from a different device to confirm it's not their device
+3. Contact IT and provide: guest name, device type, error message
+4. IT will investigate within 2 hours during business hours
+
+## Security Reminders
+
+- Don't share the guest password with non-employees
+- Don't write the password in email or Slack
+- Tell IT immediately if the password is compromised
+- Guest network has no access to company files or internal systems (by design)
+```
+
+Distribute this guide to all employees so they can confidently help guests without creating security issues.
+
 ## Frequently Asked Questions
 
 **Who is this article written for?**

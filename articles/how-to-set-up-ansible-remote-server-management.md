@@ -368,6 +368,83 @@ ansible-playbook playbooks/site.yml | grep -E "changed|failed"
 # Second run should show: changed=0 failed=0
 ```
 
+## Dynamic Inventory with AWS EC2
+
+For teams on AWS, hardcoded host inventories break as instances are replaced. Use the EC2 dynamic inventory plugin instead:
+
+```bash
+pip install boto3 botocore
+```
+
+```yaml
+# inventory/production/aws_ec2.yml
+plugin: amazon.aws.aws_ec2
+regions:
+  - us-east-1
+  - eu-west-1
+
+filters:
+  tag:Environment: production
+  instance-state-name: running
+
+keyed_groups:
+  - key: tags.Role         # groups by Role tag: webservers, dbservers, etc.
+    prefix: ""
+    separator: ""
+  - key: placement.region
+    prefix: region_
+
+compose:
+  ansible_host: private_ip_address  # use private IPs (assumes VPN or bastion)
+```
+
+Test it:
+
+```bash
+# List all hosts Ansible would discover
+ansible-inventory -i inventory/production/aws_ec2.yml --list
+
+# Run against a dynamically discovered group
+ansible tag_Role_webserver -i inventory/production/aws_ec2.yml -m ping
+```
+
+Add a bastion host for servers without public IPs:
+
+```ini
+# ansible.cfg additions
+[ssh_connection]
+ssh_args = -o ProxyJump=bastion.example.com -o StrictHostKeyChecking=no -o ControlMaster=auto -o ControlPersist=60s
+```
+
+---
+
+## Ansible Tower / AWX for Team Workflows
+
+For larger remote teams, running playbooks directly from each engineer's laptop creates consistency problems — different Python versions, different vault passwords, different inventory files. AWX (the open-source Ansible Tower) centralizes execution:
+
+```bash
+# Deploy AWX with Docker Compose
+git clone https://github.com/ansible/awx.git
+cd awx
+docker-compose -f tools/docker-compose/_sources/docker-compose.yml up -d
+# Access at http://localhost:8013 (admin/password)
+```
+
+Key AWX capabilities for distributed teams:
+
+| Feature | Benefit |
+|---------|---------|
+| Credentials vault | Vault passwords, SSH keys stored centrally, not on laptops |
+| Job templates | Consistent playbook invocations with locked inventory/variables |
+| RBAC | Control who can run which playbooks against which environments |
+| Job history | Full audit log: who ran what, when, with what output |
+| Webhooks | Trigger playbooks from GitHub PRs or Slack commands |
+| Notifications | Slack/email on job success/failure |
+
+A typical workflow: the engineer opens a PR with playbook changes, a CI job runs `ansible-lint` and `--check` mode, the team reviews the diff, and on merge AWX automatically runs the playbook against production via webhook.
+
+---
+
 ## Related Reading
 
 - [Terraform Remote Team Infrastructure Guide](/remote-work-tools/terraform-remote-team-infrastructure-guide/)

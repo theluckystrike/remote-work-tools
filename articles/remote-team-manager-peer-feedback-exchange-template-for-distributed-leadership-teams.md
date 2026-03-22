@@ -6,13 +6,14 @@
 
 
 
-<<<<<<< HEAD
 
 
 
 
-=======
->>>>>>> 2b70f87476c51c60d757971f01c2c56d66ed0752
+
+
+
+
 layout: default
 title: "Remote Team Manager Peer Feedback Exchange Template"
 description: "A practical peer feedback exchange template designed for remote team managers leading distributed leadership teams. Includes JSON templates, async"
@@ -35,13 +36,13 @@ voice-checked: true
 
 
 
-<<<<<<< HEAD
 
 
 
-<<<<<<< HEAD
-=======
->>>>>>> 2b70f87476c51c60d757971f01c2c56d66ed0752
+
+
+
+
 
 
 

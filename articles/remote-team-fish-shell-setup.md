@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team fish Shell Setup Guide"
-description: "Share a fish shell config across a distributed team using a dotfiles repo — with shared functions, abbreviations, universal variables, and a one-command bootstrap"
+description: "Share a fish shell config across a distributed team using a dotfiles repo — with shared functions, abbreviations, universal variables, and a one-command."
 date: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-fish-shell-setup/

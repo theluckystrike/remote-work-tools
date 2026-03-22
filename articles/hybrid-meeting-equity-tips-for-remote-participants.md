@@ -204,6 +204,195 @@ The goal isn't to replicate in-person meetings remotely. It's to design meetings
 ---
 
 
+## Technical Troubleshooting for Remote Participants
+
+### Audio Quality and Feedback Loops
+
+Poor audio creates an immediate disadvantage for remote participants. The in-room group hears each other clearly while remote attendees deal with echoes and distortion:
+
+**Eliminate echo:**
+```bash
+# Test audio routing before important meetings
+# macOS: Check for audio loopback
+system_profiler SPAudioDataType | grep -i "Aggregate Device"
+
+# If loopback exists, disable it in System Preferences > Sound
+# This is the #1 cause of audio feedback in hybrid meetings
+```
+
+**Deploy a dedicated meeting room speaker/mic:**
+Instead of relying on the conference room's generic speakers, position a dedicated device (Jabra Panacast, Cisco Webex Room, Poly Studio) where room audio routes through a single channel. This prevents the "person echoing themselves" problem that makes remote participants mute the room audio.
+
+### Video Feed Positioning
+
+Camera placement dramatically affects perception. A camera pointed downward at someone's laptop screen creates an unflattering angle and makes the person appear disengaged:
+
+```yaml
+# Ideal setup for room camera
+position: "At eye level, 4-6 feet from seated participants"
+angle: "Neutral (not pointing down)"
+frame: "Include participants' upper bodies and hands"
+lighting: "Behind camera, not on camera (backlighting looks bad)"
+
+# What doesn't work
+- Laptop built-in camera (too low, captures ceiling)
+- Camera on top of monitor (points down at desk)
+- Mounted above whiteboard (only captures backs of heads)
+```
+
+Advocate for proper camera placement. Request that your organization install a 4K room camera at eye level. The difference in communication clarity is measurable.
+
+### Screen Sharing Equity
+
+When someone shares their screen, remote participants often struggle to read small text. Request shared content in advance so you can prepare appropriately:
+
+```bash
+# Before a meeting with code review or detailed documents:
+# Ask: "Can you share the presentation/code 15 minutes early?"
+# This gives remote participants time to:
+# 1. Download and view on a separate monitor
+# 2. Adjust zoom/scaling for readability
+# 3. Prepare questions while the content is being discussed
+```
+
+Some teams maintain a shared drive with pre-meeting materials. Check it before the meeting and have your questions ready—this signals engagement to the group.
+
+### Network Resilience During Meetings
+
+Remote participants dependent on WiFi can experience sudden disconnects. Prepare:
+
+```bash
+# Test connection 5 minutes before important meetings
+ping -c 4 8.8.8.8  # Google's DNS
+speedtest-cli      # Full speed/latency test
+
+# Prepare mobile hotspot as backup
+# iPhone: Settings > Hotspot > Turn On
+# Android: Settings > Network > Hotspot > Turn On
+# Keep it disabled until needed (saves battery)
+```
+
+## Mastering Async Communication
+
+### The 48-Hour Comment Window
+
+Some teams use a system where major decisions are announced 48 hours before the meeting. Remote participants post written comments during this window:
+
+**Template for async feedback:**
+```markdown
+## [Your Name] - Async Input
+
+**Position:** [Agree/Disagree/Need clarification]
+
+**Rationale:**
+[2-3 sentences explaining your perspective]
+
+**Questions for Discussion:**
+1. [Specific question]
+2. [Specific question]
+
+**Suggested Action:**
+[If you have a concrete recommendation]
+```
+
+This format ensures remote participants' input receives equal weight even if they cannot attend the live meeting.
+
+### Recording with Detailed Timestamps
+
+When you record a meeting for async viewers, timestamps enable fast navigation:
+
+```bash
+#!/bin/bash
+# create-meeting-chapters.sh
+# Generates chapter markers for meeting recording
+
+cat > /tmp/meeting-chapters.txt <<'EOF'
+0:00 - Agenda review and context-setting (skippable)
+2:15 - Project update discussion begins
+5:45 - Architecture decision discussion
+12:30 - Key question from remote participant addressed
+18:00 - Next steps and action items
+EOF
+
+# Share this file with the recording link
+# Async viewers can jump to relevant sections
+```
+
+Including a time-keyed summary in the meeting notes dramatically improves async participation. People watch only the 5 minutes relevant to them instead of the full 60-minute meeting.
+
+### Email Summaries for Time Zone Gaps
+
+For teams spanning multiple continents, send a same-day email summary within 4 hours of the meeting:
+
+```
+Subject: [Project Name] Meeting Summary - 2026-03-22
+
+From: [Meeting Organizer]
+To: [Full team distribution list]
+
+Key Decisions:
+1. [Decision 1] - Owner: @person, Due: Date
+2. [Decision 2] - Owner: @person, Due: Date
+
+Remote Participants' Input Incorporated:
+- Carol raised concern about API compatibility (added to backlog)
+- Dave requested 2-week review period (approved)
+
+Next Meeting: [Date and Time with time zones listed]
+
+Attendees who missed this: Recording is here [link].
+Please comment on decisions by EOD tomorrow.
+```
+
+This email serves the person in a 6-hour time zone difference—they see decisions fast without waiting for async catch-up.
+
+## Measuring Meeting Equity
+
+Set specific metrics to track whether changes are working:
+
+```python
+# meeting-equity-metrics.py
+# Track participation balance over time
+
+from datetime import datetime
+import json
+
+meeting_data = {
+    "date": "2026-03-22",
+    "total_attendees": 12,
+    "remote_count": 5,
+    "in_room_count": 7,
+
+    "speaking_time": {
+        "remote": 8.5,      # minutes
+        "in_room": 18.2,    # minutes
+        "balance": "32% remote, 68% in-room"
+    },
+
+    "question_contributions": {
+        "remote": 3,
+        "in_room": 7,
+        "balance": "30% remote, 70% in-room"
+    },
+
+    "decisions_influenced_by": {
+        "remote_only": 0,
+        "in_room_only": 2,
+        "combined_input": 1,
+        "remote_explicitly_excluded": 0
+    }
+}
+
+# Target metrics for equity
+targets = {
+    "speaking_time_remote_minimum": 0.40,  # 40% of speak time
+    "question_contribution_remote_minimum": 0.35,  # 35% of questions
+    "decisions_influenced_remotely": 0.25   # 25% of decisions
+}
+```
+
+Review these metrics weekly. If remote participation stays below targets for two weeks, escalate the issue. It signals a process problem, not a tool problem.
+
 ## Frequently Asked Questions
 
 **How do I prioritize which recommendations to implement first?**

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Automated Rollback Systems"
-description: "Build automated rollback systems for Kubernetes, Docker Compose, and Lambda deployments using health checks, Prometheus metrics, and GitHub Actions failure gates"
+description: "Build automated rollback systems for Kubernetes, Docker Compose, and Lambda deployments using health checks, Prometheus metrics, and GitHub Actions."
 date: 2026-03-22
 author: theluckystrike
 permalink: /automated-rollback-systems/
@@ -307,6 +307,124 @@ aws lambda update-alias \
   --region "$REGION"
 
 echo "Deployment complete: version $NEW_VERSION at 100%"
+```
+
+---
+
+## GitHub Actions: Automated Rollback Gate in CI/CD
+
+Integrating rollback directly into your GitHub Actions pipeline catches failures before they fully propagate:
+
+```yaml
+# .github/workflows/deploy.yml
+name: Deploy with Auto-Rollback
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure kubectl
+        uses: azure/k8s-set-context@v3
+        with:
+          kubeconfig: ${{ secrets.KUBECONFIG }}
+
+      - name: Deploy new image
+        id: deploy
+        run: |
+          NEW_IMAGE="ghcr.io/${{ github.repository }}:${{ github.sha }}"
+          CURRENT_IMAGE=$(kubectl get deployment myapp -n production \
+            -o jsonpath='{.spec.template.spec.containers[0].image}')
+
+          echo "current-image=$CURRENT_IMAGE" >> "$GITHUB_OUTPUT"
+          kubectl set image deployment/myapp myapp="$NEW_IMAGE" -n production
+
+      - name: Wait for rollout
+        id: rollout
+        run: |
+          if ! kubectl rollout status deployment/myapp -n production --timeout=5m; then
+            echo "rollout-failed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "rollout-failed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Rollback on failure
+        if: steps.rollout.outputs.rollout-failed == 'true'
+        run: |
+          echo "::error::Rollout failed — rolling back"
+          kubectl rollout undo deployment/myapp -n production
+          kubectl rollout status deployment/myapp -n production --timeout=120s
+          exit 1
+
+      - name: Post-deploy smoke test
+        run: |
+          sleep 10
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            "https://myapp.example.com/health")
+          if [[ "$STATUS" != "200" ]]; then
+            echo "::error::Smoke test failed (HTTP $STATUS) — rolling back"
+            kubectl rollout undo deployment/myapp -n production
+            exit 1
+          fi
+          echo "Smoke test passed: HTTP $STATUS"
+
+      - name: Notify Slack on rollback
+        if: failure()
+        uses: slackapi/slack-github-action@v1.27
+        with:
+          payload: |
+            {
+              "text": ":rotating_light: Deploy FAILED and ROLLED BACK",
+              "blocks": [{
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "*Deploy failed*\nRepo: `${{ github.repository }}`\nCommit: `${{ github.sha }}`\nReverted to: `${{ steps.deploy.outputs.current-image }}`\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View run>"
+                }
+              }]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+```
+
+---
+
+## Rollback Decision Matrix
+
+Not all failures should trigger automatic rollback. Use a matrix to decide:
+
+| Signal | Threshold | Action |
+|--------|-----------|--------|
+| Readiness probe fails | Pod stays unready > 5 min | Auto rollback |
+| HTTP 5xx error rate | > 5% over 5 min | Auto rollback |
+| p99 latency | > 3× baseline over 5 min | Alert + manual decision |
+| CPU usage | > 90% sustained | Scale up, not rollback |
+| Memory leak | Slow growth over hours | Alert, schedule fix |
+| Deployment timeout | Pods not ready in N min | Auto rollback |
+
+For latency spikes, automatic rollback can mask underlying capacity problems rather than solve them. Prefer alerting and manual decision for ambiguous signals, and reserve automatic rollback for clear failure signals: readiness failures, hard error rate thresholds, and deployment timeouts.
+
+Keep rollback procedures in your team runbook so the on-call engineer knows what automatic rollback covers and what still requires manual intervention:
+
+```bash
+# ops/runbook/rollback.md quick reference
+# What rolls back automatically:
+#   - k8s readiness failures (kubectl rollout undo)
+#   - Docker Compose health check timeout
+#   - Lambda error rate > 2% during 10% canary
+#   - GitHub Actions post-deploy smoke test failure
+#
+# What requires manual rollback:
+#   - Database migrations (requires migration revert script)
+#   - Feature flag changes (toggle in LaunchDarkly)
+#   - S3 / external config changes
+#   - CDN cache / edge config changes
 ```
 
 ---
