@@ -18,6 +18,15 @@ Managing 30 active clients as a solo consultant working remotely presents a uniq
 
 This guide evaluates CRM solutions based on what actually matters for your scale: automation capabilities, mobile experience, pricing, and integration flexibility.
 
+## Key Takeaways
+
+- **Pro plans ($20/month) unlock**: automation and larger databases—reasonable for your needs.
+- **The best CRM for**: solo consultant managing 30 active clients remotely is whichever one you actually use consistently.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+- **Managing 30 active clients**: as a solo consultant working remotely presents a unique challenge.
+
 ## What Solo Consultants Actually Need
 
 Before examining specific tools, identify the non-negotiables for your situation. With 30 active clients, you probably handle:
