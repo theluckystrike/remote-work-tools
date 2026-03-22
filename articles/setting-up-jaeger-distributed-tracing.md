@@ -328,6 +328,151 @@ sampler = ParentBased(
 provider = TracerProvider(resource=resource, sampler=sampler)
 ```
 
+## Trace Retention and Index Lifecycle Management
+
+Jaeger with Elasticsearch accumulates data quickly. A busy service generating 1,000 traces per minute fills tens of gigabytes per day. Configure an ILM policy in Elasticsearch to roll over and delete old trace indices automatically:
+
+```bash
+# Create ILM policy for Jaeger span indices
+curl -X PUT "http://localhost:9200/_ilm/policy/jaeger-span-policy" \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "policy": {
+      "phases": {
+        "hot": {
+          "actions": {
+            "rollover": {
+              "max_age": "1d",
+              "max_size": "10gb"
+            }
+          }
+        },
+        "warm": {
+          "min_age": "3d",
+          "actions": {
+            "shrink": { "number_of_shards": 1 },
+            "forcemerge": { "max_num_segments": 1 }
+          }
+        },
+        "delete": {
+          "min_age": "14d",
+          "actions": {
+            "delete": {}
+          }
+        }
+      }
+    }
+  }'
+```
+
+This keeps 14 days of traces and aggressively merges warm shards after 3 days to reduce heap pressure. Adjust `min_age` under `delete` based on your incident response SLA — most teams find 7-30 days sufficient.
+
+Jaeger also ships a `jaeger-es-index-cleaner` utility for simpler retention without ILM:
+
+```bash
+# Delete indices older than 14 days
+docker run --rm \
+  -e ROLLOVER=true \
+  jaegertracing/jaeger-es-index-cleaner:1.55 \
+  14 http://elasticsearch:9200
+```
+
+Schedule this as a cron job or a daily Docker Compose service to keep storage bounded without configuring full ILM.
+
+## Adding Context Propagation Across Queues
+
+Auto-instrumentation handles HTTP calls automatically, but message queues require explicit context propagation. Here is a pattern for RabbitMQ using the W3C TraceContext format:
+
+```python
+# Producer: inject trace context into message headers
+from opentelemetry import trace, propagate
+from opentelemetry.trace.propagation.tracecontext import TraceContextTextMapPropagator
+
+def publish_order_event(channel, order_id: str, payload: dict):
+    tracer = trace.get_tracer(__name__)
+
+    with tracer.start_as_current_span("publish-order-event") as span:
+        span.set_attribute("messaging.system", "rabbitmq")
+        span.set_attribute("messaging.destination", "orders")
+        span.set_attribute("order.id", order_id)
+
+        headers = {}
+        propagate.inject(headers)  # Injects traceparent + tracestate
+
+        channel.basic_publish(
+            exchange="orders",
+            routing_key="order.created",
+            body=json.dumps(payload),
+            properties=pika.BasicProperties(headers=headers)
+        )
+```
+
+```python
+# Consumer: extract trace context from message headers
+def process_message(channel, method, properties, body):
+    tracer = trace.get_tracer(__name__)
+    ctx = propagate.extract(properties.headers or {})
+
+    with tracer.start_as_current_span(
+        "process-order-event",
+        context=ctx,
+        kind=trace.SpanKind.CONSUMER
+    ) as span:
+        span.set_attribute("messaging.system", "rabbitmq")
+        order = json.loads(body)
+        handle_order(order)
+```
+
+This ensures that a trace from the HTTP request that triggered the publish appears connected to the consumer span in Jaeger — giving you end-to-end visibility across the queue boundary.
+
+## Kubernetes Deployment with Jaeger Operator
+
+For Kubernetes environments, the Jaeger Operator simplifies lifecycle management:
+
+```bash
+# Install cert-manager (prerequisite)
+kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.13.0/cert-manager.yaml
+
+# Install Jaeger Operator
+kubectl create namespace observability
+kubectl apply -n observability -f https://github.com/jaegertracing/jaeger-operator/releases/download/v1.55.0/jaeger-operator.yaml
+```
+
+```yaml
+# jaeger-production.yaml
+apiVersion: jaegertracing.io/v1
+kind: Jaeger
+metadata:
+  name: jaeger-production
+  namespace: observability
+spec:
+  strategy: production
+  storage:
+    type: elasticsearch
+    options:
+      es:
+        server-urls: http://elasticsearch:9200
+        index-prefix: jaeger
+  collector:
+    replicas: 2
+    resources:
+      limits:
+        cpu: 500m
+        memory: 512Mi
+  query:
+    replicas: 1
+    resources:
+      limits:
+        cpu: 250m
+        memory: 256Mi
+  ingress:
+    enabled: true
+    hosts:
+      - tracing.example.com
+```
+
+The operator manages rolling updates and handles schema migration for Elasticsearch indices automatically, which is a significant operational advantage over managing the collector and query components separately.
+
 ## Related Reading
 
 - [Setting Up Loki for Remote Log Aggregation](/remote-work-tools/setting-up-loki-remote-log-aggregation/)

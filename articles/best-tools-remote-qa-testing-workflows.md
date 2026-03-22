@@ -343,6 +343,90 @@ k6 run --env BASE_URL=https://staging.example.com load-test.js
 k6 run --out influxdb=http://localhost:8086/k6 load-test.js
 ```
 
+## Contract Testing: Pact for API Compatibility
+
+When a remote team has separate frontend and backend squads, contract testing prevents the classic problem where both sides pass their own tests but break each other in integration. Pact lets consumers define what they expect from an API, and providers verify they meet those expectations — without requiring both sides to be running at the same time.
+
+```bash
+# Install Pact JS
+npm install --save-dev @pact-foundation/pact
+```
+
+```typescript
+// tests/pact/orders.consumer.spec.ts
+import { PactV3, MatchersV3 } from '@pact-foundation/pact';
+import { OrdersClient } from '../../src/api/orders-client';
+
+const provider = new PactV3({
+  consumer: 'WebFrontend',
+  provider: 'OrdersService',
+  dir: './pacts',
+});
+
+describe('Orders API contract', () => {
+  it('returns an order by ID', async () => {
+    await provider
+      .given('order 123 exists')
+      .uponReceiving('a request for order 123')
+      .withRequest({ method: 'GET', path: '/orders/123' })
+      .willRespondWith({
+        status: 200,
+        body: {
+          id: MatchersV3.integer(123),
+          status: MatchersV3.string('confirmed'),
+          total: MatchersV3.decimal(49.99),
+        },
+      })
+      .executeTest(async (mockServer) => {
+        const client = new OrdersClient(mockServer.url);
+        const order = await client.getOrder(123);
+        expect(order.status).toBe('confirmed');
+      });
+  });
+});
+```
+
+```bash
+# Run consumer tests — generates a pact file in ./pacts/
+npx jest tests/pact/
+
+# Publish pact to Pact Broker (self-hosted or pactflow.io)
+npx pact-broker publish ./pacts \
+  --broker-base-url https://pact.example.com \
+  --consumer-app-version $(git rev-parse --short HEAD) \
+  --branch $(git branch --show-current)
+
+# On the provider side (CI for OrdersService):
+npx pact-provider-verifier \
+  --provider-base-url http://localhost:8080 \
+  --pact-broker-url https://pact.example.com \
+  --provider OrdersService \
+  --publish-verification-results \
+  --provider-app-version $(git rev-parse --short HEAD)
+```
+
+Contract tests run fast (milliseconds per interaction) and can gate PRs without deploying the full stack. Remote teams find them especially valuable because they make implicit API assumptions explicit and version-controlled.
+
+## Async QA Workflows for Distributed Teams
+
+Remote QA operates across time zones, which means handoffs need to be self-documenting. Structure your async QA process around these artifacts:
+
+**Test run reports** — Every CI run should produce an HTML report (Playwright's built-in `html` reporter or Allure) that any team member can open without running the tests themselves. Upload these as CI artifacts and link them from the PR description.
+
+**Annotated failures** — When a test fails in CI, the artifact should include enough context to diagnose without reproduction. Playwright's trace viewer (`npx playwright show-trace trace.zip`) records every network request, DOM mutation, and screenshot at each test step. A QA engineer in a different time zone can open the trace and see exactly what happened.
+
+**Flake tracking** — Flaky tests are the biggest async QA problem. A test that passes on re-run wastes the next reviewer's time and erodes trust in the suite. Use Playwright's built-in retry and the `--shard` flag to identify flakes systematically:
+
+```bash
+# Run each test 3 times to surface flakes
+npx playwright test --repeat-each 3 --reporter=json > results.json
+
+# Find tests that failed at least once but not all three times
+jq '[.suites[].specs[] | select(.tests[].results | map(.status) | unique | length > 1)] | .[].title' results.json
+```
+
+**Documented test environments** — Maintain a `TEST_ENVIRONMENTS.md` in the QA repo listing base URLs, test account credentials (stored in the team password manager, linked by name), known limitations of each env (e.g., "payments are mocked in staging"), and the expected CI behavior. Remote QA engineers who are new or returning from leave should be able to get context from this file without a synchronous call.
+
 ## Related Reading
 
 - [Async Bug Triage Process for Remote QA Teams](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)

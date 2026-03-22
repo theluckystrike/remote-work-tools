@@ -328,20 +328,161 @@ curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/branch_prote
   }'
 ```
 
-## Troubleshooting
+## Gitea API Automation
 
-**Configuration changes not taking effect**
+Gitea ships with a full REST API documented at `/swagger` on your instance. Teams use it for onboarding automation, repository templating, and dashboard integrations.
 
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+```bash
+# List all repos in an org (paginated)
+curl -s "https://git.example.com/api/v1/orgs/mycompany/repos?limit=50&page=1" \
+  -H "Authorization: token your-api-token" | jq '.[].full_name'
 
-**Permission denied errors**
+# Mirror an external repo into Gitea (for archiving or vendoring)
+curl -X POST "https://git.example.com/api/v1/repos/migrate" \
+  -H "Authorization: token your-api-token" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "clone_addr": "https://github.com/upstream/project.git",
+    "mirror": true,
+    "mirror_interval": "8h0m0s",
+    "repo_name": "project-mirror",
+    "repo_owner": "mycompany",
+    "private": true
+  }'
 
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+# Create a deploy key on a repo (for CI runners)
+curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/keys" \
+  -H "Authorization: token your-api-token" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "key": "ssh-ed25519 AAAA... ci-runner-key",
+    "read_only": true,
+    "title": "CI Runner"
+  }'
+```
 
-**Connection or network-related failures**
+### Scripted Onboarding
 
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+When a new developer joins, automate the full onboarding with a shell script:
 
+```bash
+#!/bin/bash
+# scripts/onboard-dev.sh USERNAME EMAIL
+set -e
+
+USERNAME="$1"
+EMAIL="$2"
+API="https://git.example.com/api/v1"
+TOKEN="$GITEA_ADMIN_TOKEN"
+
+# Create user
+curl -s -X POST "$API/admin/users" \
+  -H "Authorization: token $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d "{
+    \"email\": \"$EMAIL\",
+    \"login_name\": \"$USERNAME\",
+    \"username\": \"$USERNAME\",
+    \"password\": \"ChangeMe123!\",
+    \"must_change_password\": true,
+    \"send_notify\": true
+  }"
+
+# Add to org teams
+TEAM_ID=$(curl -s "$API/orgs/mycompany/teams" \
+  -H "Authorization: token $TOKEN" | jq '.[] | select(.name=="Developers") | .id')
+
+curl -s -X PUT "$API/teams/$TEAM_ID/members/$USERNAME" \
+  -H "Authorization: token $TOKEN"
+
+echo "Onboarded $USERNAME — password reset required on first login"
+```
+
+## Upgrading Gitea
+
+Gitea follows semantic versioning. Minor upgrades (1.21.x → 1.21.y) are safe to do any time. Major upgrades require reading the release notes for migration steps.
+
+```bash
+# Pull the new image
+docker compose pull server
+
+# Back up before upgrading (always)
+./scripts/backup-gitea.sh
+
+# Apply the upgrade
+docker compose up -d server
+
+# Check logs for any migration output
+docker compose logs -f server | grep -E "migration|error|panic"
+
+# Verify version
+curl -s https://git.example.com/api/v1/version | jq .version
+```
+
+Pin the image tag in your `docker-compose.yml` (e.g., `gitea/gitea:1.22.1`) rather than using `latest`. This prevents surprise upgrades when you run `docker compose pull` for unrelated reasons.
+
+## Monitoring Gitea Health
+
+```bash
+# Gitea exposes metrics at /metrics (enable in app.ini)
+# In docker-compose, add:
+GITEA__metrics__ENABLED=true
+GITEA__metrics__TOKEN=your-metrics-token
+
+# Scrape from Prometheus
+# prometheus.yml
+scrape_configs:
+  - job_name: gitea
+    bearer_token: your-metrics-token
+    static_configs:
+      - targets: ['git.example.com:443']
+    scheme: https
+    metrics_path: /metrics
+```
+
+Useful Gitea metrics to alert on:
+
+- `gitea_repositories_total` — track repo growth over time
+- `gitea_users_total` — unexpected spikes may indicate account compromise
+- `process_resident_memory_bytes` — Gitea is lean; spikes indicate runaway git operations
+- `gitea_actions_runners` — ensure your CI runner count stays above zero
+
+For a minimal health check endpoint, Gitea also provides `/api/v1/settings/api` which returns 200 when the instance is up and reachable. Add this to your uptime monitor (UptimeRobot, Uptime Kuma, or Grafana Synthetic Monitoring).
+
+## Managing Multiple Runners and Labels
+
+When your team grows, you will want runners with different capabilities — a runner with Docker-in-Docker for container builds, a runner with GPU access for ML tests, or a macOS runner for native builds. Gitea Actions supports runner labels to target specific machines:
+
+```bash
+# Register a second runner with a custom label
+docker run -d \
+  --name gitea-runner-macos \
+  -e GITEA_INSTANCE_URL=https://git.example.com \
+  -e GITEA_RUNNER_REGISTRATION_TOKEN=your-runner-token \
+  -e GITEA_RUNNER_LABELS=macos,native \
+  --restart unless-stopped \
+  gitea/act_runner:latest
+```
+
+Labels are matched at scheduling time. Workflows that require `ubuntu-latest` go to Linux runners; workflows requiring `macos` go to the macOS runner. If no matching runner is online, the job queues until one becomes available — Gitea does not fail the job immediately, giving runners time to reconnect after maintenance.
+
+## Pull Request Review Workflow
+
+Gitea's PR workflow is close to GitHub's but with a few differences in configuration worth knowing. Set sensible repository defaults via the API:
+
+```bash
+# Set squash-merge as default and auto-delete merged branches
+curl -X PATCH "https://git.example.com/api/v1/repos/mycompany/myrepo" \
+  -H "Authorization: token your-api-token" \
+  -H "Content-Type: application/json" \
+  -d '{
+    default_merge_style: squash,
+    default_delete_branch_after_merge: true,
+    default_allow_maintainer_edit: true
+  }'
+```
+
+Configure `default_delete_branch_after_merge: true` to keep the branch list clean. With squash merging as default, your `main` history stays linear and readable, which matters when `git bisect` is your primary debugging tool during an incident. Combine this with the branch protection rule requiring at least one approval and passing status checks, and you have a review workflow that is safe without being bureaucratic.
 
 ## Related Reading
 
