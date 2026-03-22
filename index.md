@@ -26,7 +26,7 @@ Browse articles by topic:
 
 ## Recent Articles
 
-{% assign rwt_articles = site.pages | where_exp: "p", "p.path contains 'articles/'" | sort: "date" | reverse %}
+{% assign rwt_articles = site.pages | where_exp: "p", "p.path contains 'articles/' and p.date" | sort: "date" | reverse %}
 {% for p in rwt_articles limit:50 %}
 - [{{ p.title }}]({{ p.url | relative_url }})
 {% endfor %}
