@@ -261,6 +261,7 @@ Give the model at least 6 weeks before deciding it's not working. People need ti
 
 ---
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 

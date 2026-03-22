@@ -334,6 +334,7 @@ Track build times weekly and set a team target of keeping average CI time under 
 
 Build by theluckystrike — More at [zovo.one](https://zovo.one)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 

@@ -504,5 +504,4 @@ Before buying tools, ask: Does leadership respect work-life boundaries? If no, t
 - [Scope Creep Prevention Strategies for Freelancers](/remote-work-tools/scope-creep-prevention-strategies-for-freelancers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

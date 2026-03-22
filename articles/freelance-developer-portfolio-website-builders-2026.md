@@ -356,6 +356,8 @@ Your name as a `.dev` or `.com` domain remains the clearest choice for freelance
 - [Freelance Developer Networking Strategies Online: A](/remote-work-tools/freelance-developer-networking-strategies-online/)
 - [Freelance Developer to Product Builder Transition: A](/remote-work-tools/freelance-developer-to-product-builder-transition/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

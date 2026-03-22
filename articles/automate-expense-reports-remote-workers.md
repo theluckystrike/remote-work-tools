@@ -366,5 +366,4 @@ echo "2026-03-15,Ikea,89.99,hardware,Standing desk riser,desk-riser-receipt.jpg"
 - [Automate Invoice Generation for Freelancers](/remote-work-tools/automate-invoice-generation-freelancers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

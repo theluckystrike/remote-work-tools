@@ -234,7 +234,7 @@ When this query returns specific timezone pairs with high delay averages—say, 
 
 ## Building a Pipeline Velocity Scorecard
 
-Track velocity performance weekly using a simple scorecard format. This gives your leadership team a one-page view of hiring health:
+Track velocity performance weekly using a simple scorecard format. This gives your leadership team an one-page view of hiring health:
 
 ```
 Week of 2026-03-17 — Pipeline Velocity Scorecard

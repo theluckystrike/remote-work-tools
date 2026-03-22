@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ".github/communication.yml"
+title: ".GitHub/communication.yml"
 description: "A practical guide for developers and technical teams to build communication charters that actually get adopted by new hires during onboarding"
 date: 2026-03-16
 last_modified_at: 2026-03-16

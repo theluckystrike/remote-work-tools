@@ -419,29 +419,29 @@ Reality: Hiring managers will misuse scorecards, skip required fields, and compl
 If you're currently managing hiring via spreadsheets or email:
 
 1. **Audit current process** (1 week)
-   - Map all data you currently track
-   - Identify which data matters
-   - Document your approval workflows
+ - Map all data you currently track
+ - Identify which data matters
+ - Document your approval workflows
 
 2. **ATS selection and setup** (2-4 weeks)
-   - Choose ATS based on your requirements
-   - Configure basic workflows
-   - Set up integrations (email, calendar, Slack)
+ - Choose ATS based on your requirements
+ - Configure basic workflows
+ - Set up integrations (email, calendar, Slack)
 
 3. **Historical data migration** (1-2 weeks)
-   - Import current candidates (if ATS allows)
-   - Set up archiving for old records
-   - Keep spreadsheets read-only during transition
+ - Import current candidates (if ATS allows)
+ - Set up archiving for old records
+ - Keep spreadsheets read-only during transition
 
 4. **Soft launch** (1-2 weeks)
-   - Run new and old systems in parallel
-   - Train core hiring team
-   - Fix critical bugs
+ - Run new and old systems in parallel
+ - Train core hiring team
+ - Fix critical bugs
 
 5. **Full launch** (ongoing)
-   - Declare spreadsheets deprecated
-   - Monitor adoption
-   - Hold monthly review sessions
+ - Declare spreadsheets deprecated
+ - Monitor adoption
+ - Hold monthly review sessions
 
 ---
 

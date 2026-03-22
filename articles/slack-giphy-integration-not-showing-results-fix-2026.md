@@ -174,8 +174,8 @@ If Giphy loads but only shows results you've searched for before, the problem is
 **For desktop app:**
 1. Go to Slack Preferences → Advanced → Clear cache
 2. Alternatively, manually clear the cache directory:
-   - Mac: `~/Library/Application Support/Slack/`
-   - Windows: `%APPDATA%\Slack\`
+ - Mac: `~/Library/Application Support/Slack/`
+ - Windows: `%APPDATA%\Slack\`
 3. Remove both `Cache` and `IndexedDB` folders if they exist
 4. Restart Slack completely
 
@@ -188,9 +188,9 @@ This usually indicates a channel-level permission restriction set by your worksp
 1. Ask your admin to check: Settings → Workspace Settings → Apps → Giphy
 2. Look for "Restricted Apps" or "Giphy Channel Restrictions"
 3. If Giphy appears in this list, it's restricted. Common restrictions:
-   - Only allowed in #random or specific channels
-   - Blocked from private channels (sometimes for compliance reasons)
-   - Blocked from #announcements or #general (to keep them professional)
+ - Only allowed in #random or specific channels
+ - Blocked from private channels (sometimes for compliance reasons)
+ - Blocked from #announcements or #general (to keep them professional)
 
 If channel restrictions feel overly strict, approach your admin with a specific use case: "We'd like to use Giphy in #engineering to celebrate deployments. It'd take 30 seconds to allow it."
 

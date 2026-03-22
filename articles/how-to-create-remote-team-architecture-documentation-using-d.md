@@ -228,8 +228,8 @@ jobs:
       - name: Validate all Mermaid diagrams
         run: |
           find docs -name "*.md" -exec grep -l "```mermaid" {} \; | while read f; do
-            mmdc -i "$f" -o /tmp/test.svg && echo "OK: $f" || echo "FAIL: $f"
-          done
+ mmdc -i "$f" -o /tmp/test.svg && echo "OK: $f" || echo "FAIL: $f"
+ done
 ```
 
 This CI step catches syntax errors before they reach main. For remote teams where async review is the norm, automated validation reduces round-trip time on pull requests—reviewers don't need to manually check that diagram syntax is valid.

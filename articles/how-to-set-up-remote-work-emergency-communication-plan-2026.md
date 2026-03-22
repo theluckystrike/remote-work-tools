@@ -440,7 +440,7 @@ Create this checklist and review quarterly:
 
 ### 15. Sample Emergency Communication Plan Document
 
-Create a one-pager and share it with all team members:
+Create an one-pager and share it with all team members:
 
 ```
 EMERGENCY COMMUNICATION PROTOCOL
@@ -471,7 +471,7 @@ Status page: [url]
 Twitter: @[company]
 ```
 
-Print this and send it to all employees. Make it a one-pager so people actually read it.
+Print this and send it to all employees. Make it an one-pager so people actually read it.
 
 ## Final Recommendations
 
@@ -495,4 +495,5 @@ Print this and send it to all employees. Make it a one-pager so people actually 
 
 Test your plan once per quarter. Update phone numbers and escalation paths quarterly. You'll never regret being over-prepared for communication breakdowns.
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

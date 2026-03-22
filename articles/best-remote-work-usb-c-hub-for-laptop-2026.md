@@ -395,6 +395,8 @@ Caused by bandwidth sharing. Multiple USB 3.0 devices on same hub can throttle e
 
 {% raw %}
 Some hubs have weak ethernet implementations. Test with different cables (Cat5e vs Cat6). Update dock firmware if available (CalDigit, Belkin). If issue persists, consider USB-C to Gigabit adapter instead of dock ethernet.
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 ## Future-Proofing Your Investment

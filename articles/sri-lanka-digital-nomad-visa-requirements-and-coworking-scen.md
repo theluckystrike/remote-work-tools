@@ -228,21 +228,21 @@ This assumes you cook some meals and eat local food. Western restaurants and imp
 The ETA extension at the Department of Immigration requires several steps:
 
 1. **Prepare documentation** (2-3 days before visiting):
-   - Completed STR form 1 (extension application)
-   - Passport and ETA page photocopy
-   - 2x4cm passport photographs (get these locally, $5 for 10 copies)
-   - Accommodation lease or hotel booking confirmation
+ - Completed STR form 1 (extension application)
+ - Passport and ETA page photocopy
+ - 2x4cm passport photographs (get these locally, $5 for 10 copies)
+ - Accommodation lease or hotel booking confirmation
 
 2. **Visit the immigration office**:
-   - Located at 41 Nuwara Road, Colombo 5
-   - Open Monday-Friday, 9 AM - 4 PM
-   - Arrive early—long queues are normal
-   - Processing takes 30-45 minutes if all documents are present
+ - Located at 41 Nuwara Road, Colombo 5
+ - Open Monday-Friday, 9 AM - 4 PM
+ - Arrive early—long queues are normal
+ - Processing takes 30-45 minutes if all documents are present
 
 3. **Payment and receipt**:
-   - Extension cost: approximately LKR 10,000-15,000 ($30-45)
-   - You receive a receipt and new endorsement in your passport
-   - The extension is valid immediately
+ - Extension cost: approximately LKR 10,000-15,000 ($30-45)
+ - You receive a receipt and new endorsement in your passport
+ - The extension is valid immediately
 
 **Pro tip**: Hire a local visa agent ($50-100) if you're unfamiliar with the process. They handle everything—forms, photography, submission. Time saved often justifies the cost.
 

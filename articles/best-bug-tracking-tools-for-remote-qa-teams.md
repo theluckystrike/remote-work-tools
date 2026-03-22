@@ -189,7 +189,7 @@ Consider starting with a two-week trial of your top two candidates. Have your QA
 
 ## Slack Integration Strategies
 
-Remote QA teams live in Slack. Your bug tracker should minimize context switching by integrating seamlessly:
+Remote QA teams live in Slack. Your bug tracker should minimize context switching by integrating :
 
 **Linear's Slack integration**:
 - Create issues directly from Slack messages

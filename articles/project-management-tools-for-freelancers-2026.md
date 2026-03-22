@@ -130,7 +130,7 @@ This approach gives you full data ownership and avoids subscription costs. Pocke
 omniplan --export --format=HTML --output=report.html MyProject.omniplan
 ```
 
-OmniPlan costs $149.99 as a one-time purchase or $9.99/month. For freelancers billing at $75+/hour, the cost pays for itself in the first client report it generates without requiring a Gantt chart conversation.
+OmniPlan costs $149.99 as an one-time purchase or $9.99/month. For freelancers billing at $75+/hour, the cost pays for itself in the first client report it generates without requiring a Gantt chart conversation.
 
 **Focalboard** is an open-source project management tool that offers both cloud and self-hosted deployment. It uses a board-based interface familiar to users of Trello but with markdown-based content:
 

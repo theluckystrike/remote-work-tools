@@ -293,5 +293,4 @@ The **Obsidian Git** plugin's `sync` command runs `pull --rebase` then `push`. M
 - [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

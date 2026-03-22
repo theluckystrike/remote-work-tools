@@ -30,7 +30,7 @@ The most practical approach separates updates into distinct sections. Each secti
 
 A strong async update format includes five core sections:
 
-**Status Summary** — a one-line overall health indicator (On Track / At Risk / Blocked) with a single sentence of context. This goes first so stakeholders can triage urgency before reading details.
+**Status Summary** — an one-line overall health indicator (On Track / At Risk / Blocked) with a single sentence of context. This goes first so stakeholders can triage urgency before reading details.
 
 **Progress This Week** — a bulleted list of completed work with ticket references where applicable. Linking to actual work artifacts (PRs, Figma frames, test results) lets stakeholders verify progress without scheduling a review call.
 

@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team Wellness Check App for Mobile: Tracking Team Morale Anonymously in 2026"
+title: "Remote Team Wellness Check App for Mobile: Tracking Team"
 description: "Discover how mobile wellness check apps help remote teams track morale anonymously, improve engagement, and build healthier distributed teams."
 date: 2026-03-21
 author: "Remote Work Tools Guide"
@@ -10,8 +10,9 @@ reviewed: true
 score: 8
 categories: [guides]
 tags: [remote-work-tools, remote-work]
+intent-checked: true
+voice-checked: true
 ---
-
 
 # Remote Team Wellness Check App for Mobile: Tracking Team Morale Anonymously in 2026
 

@@ -132,7 +132,7 @@ Modern software provides powerful tools to supplement your physical setup.
 
 ### Noise Cancellation Software
 
- Krisp (now Krisp.ai) offers real-time noise cancellation during calls and works with most video conferencing platforms. The free tier provides sufficient minutes for most remote workers, and the AI-powered cancellation handles unexpected noises like doorbells or barking dogs.
+Krisp (now Krisp.ai) offers real-time noise cancellation during calls and works with most video conferencing platforms. The free tier provides sufficient minutes for most remote workers, and the AI-powered cancellation handles unexpected noises like doorbells or barking dogs.
 
 For Linux users, NoiseTorch provides open-source noise cancellation that works with PulseAudio. Install it from your package manager or build from source for the latest features.
 
@@ -191,7 +191,7 @@ When both people are in the same room on separate calls, microphone choice becom
 | Shotgun condenser (Rode NT-SF1) | $200+ | Excellent (highly directional) | Most noise rejection; overkill for most situations |
 | Omnidirectional (Rode Procaster) | $200 | Poor (picks up everything) | NOT recommended for shared offices |
 
-**Real couple scenario:** Partner A uses headset with boom (excellent rejection), Partner B uses cardioid USB mic at desk. Combined with scheduling to minimize overlaps, this eliminates 90%+ of cross-talk.
+**Real couple scenario:** Partner An uses headset with boom (excellent rejection), Partner B uses cardioid USB mic at desk. Combined with scheduling to minimize overlaps, this eliminates 90%+ of cross-talk.
 
 ## Detailed Scheduling System with Code
 

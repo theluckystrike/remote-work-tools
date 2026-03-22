@@ -248,5 +248,4 @@ Review the policy with a lawyer before publishing if your team spans multiple co
 - [How to Communicate Remote Work Policy Changes to Distributed Teams](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

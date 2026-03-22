@@ -86,9 +86,9 @@ class TeamMember:
 
 def calculate_sprint_capacity(members: list[TeamMember], sprint_days: int = 10) -> dict:
  """
- Calculate available team capacity for a sprint.
+Calculate available team capacity for a sprint.
 
- Args:
+Args:
  members: List of team members with their availability
  sprint_days: Number of working days in the sprint
  """
@@ -121,9 +121,9 @@ def calculate_sprint_capacity(members: list[TeamMember], sprint_days: int = 10) 
 
 # Example usage
 team = [
- TeamMember("Alice", 8.0, "UTC-5", 0.15),
- TeamMember("Bob", 8.0, "UTC+1", 0.20),
- TeamMember("Charlie", 8.0, "UTC+8", 0.10),
+TeamMember("Alice", 8.0, "UTC-5", 0.15),
+TeamMember("Bob", 8.0, "UTC+1", 0.20),
+TeamMember("Charlie", 8.0, "UTC+8", 0.10),
 ]
 
 result = calculate_sprint_capacity(team)
@@ -301,6 +301,8 @@ Start with async standups this week, add capacity planning next sprint, and iter
 - [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
 - [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

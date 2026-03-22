@@ -303,5 +303,4 @@ For offsite backup, Restic against a Backblaze B2 bucket costs roughly $0.006/GB
 - [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

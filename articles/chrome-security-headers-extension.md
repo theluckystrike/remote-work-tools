@@ -92,7 +92,7 @@ The extension displays results directly in the browser toolbar, showing which he
 3. Click the extension icon
 4. Scroll through the headers list
 5. Verify these security headers are present:
-   ```
+ ```
    Strict-Transport-Security: max-age=31536000; includeSubDomains
    X-Content-Type-Options: nosniff
    X-Frame-Options: DENY

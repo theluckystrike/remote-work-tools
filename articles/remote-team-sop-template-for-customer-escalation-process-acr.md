@@ -199,6 +199,8 @@ The best escalation processes feel invisible—team members execute them automat
 Implementing this SOP template requires upfront investment, but the payoff is immediate. Your team spends less time firefighting miscommunication and more time solving customer problems. Customers receive consistent, professional escalation handling that builds trust in your support organization.
 
 Start with the basics: define your severity levels, create your handoff template, and document your escalation workflow. Add automation and refine metrics as your team grows comfortable with the process.
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 

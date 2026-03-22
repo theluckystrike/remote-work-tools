@@ -264,6 +264,8 @@ The technical tools matter less than consistent participation. A team that plays
 - [Virtual Escape Room Platforms for Remote Engineering Team](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
 - [Teleparty supports these streaming platforms:](/remote-work-tools/virtual-movie-watch-party-tools-for-remote-team-friday-event/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

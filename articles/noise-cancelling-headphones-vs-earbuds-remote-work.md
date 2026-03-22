@@ -284,6 +284,7 @@ Even the best setup fails eventually. Have backup options:
 
 Plan for failure. When your primary audio dies mid-project call, having a backup prevents panic.
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 

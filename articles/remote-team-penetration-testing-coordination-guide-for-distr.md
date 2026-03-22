@@ -228,6 +228,8 @@ Remote penetration testing coordination requires more deliberate structure than 
 - [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
 - [Remote Team Feature Delivery Predictability Metric for](/remote-work-tools/remote-team-feature-delivery-predictability-metric-for-distr/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

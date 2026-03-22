@@ -375,39 +375,39 @@ generate_runbook_script() {
   local environment=$2
 
   # Extract code blocks marked with ```bash
-  awk '
-    /^```bash/{flag=1; next}
+ awk '
+ /^```bash/{flag=1; next}
     /^```/{flag=0; next}
-    flag {print}
-  ' "$runbook_file" | \
-  # Substitute environment variables
-  sed "s|\$ENVIRONMENT|$environment|g" | \
-  sed "s|\$TIMESTAMP|$(date +%Y%m%d_%H%M%S)|g" \
-  > "/tmp/runbook_generated_$environment.sh"
+ flag {print}
+ ' "$runbook_file" | \
+ # Substitute environment variables
+ sed "s|\$ENVIRONMENT|$environment|g" | \
+ sed "s|\$TIMESTAMP|$(date +%Y%m%d_%H%M%S)|g" \
+ > "/tmp/runbook_generated_$environment.sh"
 
-  chmod +x "/tmp/runbook_generated_$environment.sh"
-  echo "Generated runbook script: /tmp/runbook_generated_$environment.sh"
+ chmod +x "/tmp/runbook_generated_$environment.sh"
+ echo "Generated runbook script: /tmp/runbook_generated_$environment.sh"
 }
 
 # Execute with confirmation prompts
 execute_with_confirmation() {
-  local script=$1
+ local script=$1
 
-  echo "=== RUNBOOK EXECUTION ==="
-  echo "Script: $script"
-  echo ""
-  echo "Commands to execute:"
-  echo "---"
-  cat "$script"
-  echo "---"
-  echo ""
-  read -p "Proceed with execution? (type 'yes' to confirm): " confirmation
+ echo "=== RUNBOOK EXECUTION ==="
+ echo "Script: $script"
+ echo ""
+ echo "Commands to execute:"
+ echo "---"
+ cat "$script"
+ echo "---"
+ echo ""
+ read -p "Proceed with execution? (type 'yes' to confirm): " confirmation
 
-  if [ "$confirmation" = "yes" ]; then
-    bash "$script"
-  else
-    echo "Execution cancelled"
-  fi
+ if [ "$confirmation" = "yes" ]; then
+ bash "$script"
+ else
+ echo "Execution cancelled"
+ fi
 }
 
 # Usage
@@ -484,15 +484,15 @@ Estimated Duration: 15 minutes
 Rollback Duration: 5 minutes
 
 Steps:
-  1. Health Check Green (Standby) Environment
-  2. Deploy Application to Green
-  3. Run Smoke Tests Against Green
-  4. Update Load Balancer to Route 10% to Green
-  5. Monitor Error Rates (5 minutes)
-  6. Route 50% to Green
-  7. Monitor Error Rates (5 minutes)
-  8. Route 100% to Green
-  9. Decommission Blue Environment
+ 1. Health Check Green (Standby) Environment
+ 2. Deploy Application to Green
+ 3. Run Smoke Tests Against Green
+ 4. Update Load Balancer to Route 10% to Green
+ 5. Monitor Error Rates (5 minutes)
+ 6. Route 50% to Green
+ 7. Monitor Error Rates (5 minutes)
+ 8. Route 100% to Green
+ 9. Decommission Blue Environment
 
 Rollback Trigger: Error rate > 0.1% or response time > 2s
 Rollback Action: Immediately route 100% back to Blue
@@ -506,17 +506,17 @@ Purpose: Rapid diagnosis and remediation
 Estimated Duration: 10 minutes to mitigation
 
 Steps:
-  1. Page on-call engineer
-  2. Check API health dashboard
-  3. Review application logs (last 5 minutes)
-  4. Check infrastructure metrics (CPU, memory, network)
-  5. Determine if issue is:
-     a. Code-related → Rollback last deployment
-     b. Infrastructure → Scale up resources
-     c. Dependency → Failover to secondary
-  6. Communicate status to stakeholders
-  7. Create incident timeline
-  8. Schedule post-mortem
+ 1. Page on-call engineer
+ 2. Check API health dashboard
+ 3. Review application logs (last 5 minutes)
+ 4. Check infrastructure metrics (CPU, memory, network)
+ 5. Determine if issue is:
+ a. Code-related → Rollback last deployment
+ b. Infrastructure → Scale up resources
+ c. Dependency → Failover to secondary
+ 6. Communicate status to stakeholders
+ 7. Create incident timeline
+ 8. Schedule post-mortem
 
 Escalation: If unresolved after 5 minutes, page incident commander
 ```
@@ -529,14 +529,14 @@ Purpose: Bootstrap development environment
 Estimated Duration: 45 minutes
 
 Steps:
-  1. Clone repository with SSH keys
-  2. Install dependencies (npm/pip/etc)
-  3. Configure database connection
-  4. Run database migrations
-  5. Start development server
-  6. Verify health check endpoint
-  7. Run test suite
-  8. Create personal feature branch
+ 1. Clone repository with SSH keys
+ 2. Install dependencies (npm/pip/etc)
+ 3. Configure database connection
+ 4. Run database migrations
+ 5. Start development server
+ 6. Verify health check endpoint
+ 7. Run test suite
+ 8. Create personal feature branch
 
 Validation: Developer can run tests locally without errors
 ```
@@ -547,11 +547,11 @@ Link runbooks directly into your incident management system:
 
 ```yaml
 PagerDuty Integration:
-  - Create escalation policy with runbook link in description
-  - Include runbook URL in incident alert notification
-  - Teams acknowledge alert and click runbook link
-  - Runbook execution triggers audit log entry back to incident
-  - Post-incident review includes runbook effectiveness assessment
+ - Create escalation policy with runbook link in description
+ - Include runbook URL in incident alert notification
+ - Teams acknowledge alert and click runbook link
+ - Runbook execution triggers audit log entry back to incident
+ - Post-incident review includes runbook effectiveness assessment
 ```
 
 This closes the loop between detection, response, and continuous improvement.

@@ -363,20 +363,20 @@ If action items aren't in tickets with owners and due dates, they disappear. Wri
 Effective retros change behavior. Track:
 
 1. **Action item completion rate** — Did we actually do what we said?
-   - Target: >80% completion by next retro
-   - If you're at 40%, your retros are theater
+ - Target: >80% completion by next retro
+ - If you're at 40%, your retros are theater
 
 2. **Participation rate** — Did the quiet people contribute?
-   - Target: >90% of team with input or votes
-   - Use DM nudges to hit this
+ - Target: >90% of team with input or votes
+ - Use DM nudges to hit this
 
 3. **Repeat themes across sprints** — Are we solving problems or just venting?
-   - If "code reviews too slow" appears in retros for 3 straight sprints with no action, you're not serious about fixing it
-   - Action: Either fix it (hire reviewers, change process) or stop complaining
+ - If "code reviews too slow" appears in retros for 3 straight sprints with no action, you're not serious about fixing it
+ - Action: Either fix it (hire reviewers, change process) or stop complaining
 
 4. **Team sentiment change** — Do retros feel productive or like complaints sessions?
-   - Simple check: ask team "Do you feel heard in retros?"
-   - If <70% say yes, your facilitation needs work
+ - Simple check: ask team "Do you feel heard in retros?"
+ - If <70% say yes, your facilitation needs work
 
 ## Template Scripts for Facilitators
 
@@ -445,6 +445,5 @@ The most effective remote retros are boring—they follow the same structure eve
 - [Best Framework for Evaluating Remote Team Collaboration Quality](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 
-Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
-
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

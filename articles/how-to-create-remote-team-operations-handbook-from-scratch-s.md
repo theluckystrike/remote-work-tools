@@ -133,17 +133,17 @@ Developers should never have to guess how to handle routine operational tasks. C
 1. Ensure you're on the main branch and have pulled latest:
    ```bash
  git checkout main && git pull origin main
-   ```
+ ```
 
 2. Create a release branch:
    ```bash
  git checkout -b release/$(date +%Y%m%d)
-   ```
+ ```
 
 3. Run the staging deployment script:
    ```bash
 ./scripts/deploy.sh staging
-   ```
+ ```
 
 4. Verify deployment in #deployments Slack channel
 5. Test critical user flows on staging environment

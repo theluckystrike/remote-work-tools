@@ -175,25 +175,25 @@ Organize chaos into patterns.
 
 {% raw %}
 WENT WELL column:
-  Theme 1: PROCESS IMPROVEMENTS
-    - "Merged PR reviews faster"
-    - "Documentation updated weekly"
-  Theme 2: TEAM DYNAMICS
-    - "Great pairing session with Dev"
-    - "Helped junior engineer learn React"
-  Theme 3: PRODUCT DELIVERY
-    - "Shipped feature 3 days early"
+Theme 1: PROCESS IMPROVEMENTS
+ - "Merged PR reviews faster"
+ - "Documentation updated weekly"
+Theme 2: TEAM DYNAMICS
+ - "Great pairing session with Dev"
+ - "Helped junior engineer learn React"
+Theme 3: PRODUCT DELIVERY
+ - "Shipped feature 3 days early"
 
 DIDN'T GO WELL column:
-  Theme 1: TECHNICAL DEBT
-    - "Legacy auth service broke again"
-    - "Tests flaky in CI/CD"
-  Theme 2: COMMUNICATION
-    - "PM didn't mention API deadline"
-    - "Scope creep mid-sprint"
-  Theme 3: WORKLOAD
-    - "3 P1 bugs during sprint"
-    - "On-call overload"
+Theme 1: TECHNICAL DEBT
+ - "Legacy auth service broke again"
+ - "Tests flaky in CI/CD"
+Theme 2: COMMUNICATION
+ - "PM didn't mention API deadline"
+ - "Scope creep mid-sprint"
+Theme 3: WORKLOAD
+ - "3 P1 bugs during sprint"
+ - "On-call overload"
 {% endraw %}
 
 **Voting for Priorities** (5-10 minutes)
@@ -378,9 +378,9 @@ Custom Field: Risk [Low/Medium/High]
 WENT WELL: "Ship speed improved"
 DIDN'T GO WELL: "Auth service flaky, 2 prod incidents"
 ACTION ITEMS:
-  1. Mike — Add circuit breaker to auth service (due: April 12)
-  2. Sarah — Write incident post-mortem (due: March 31)
-  3. Team — Post-mortem review meeting (due: April 1)
+ 1. Mike — Add circuit breaker to auth service (due: April 12)
+ 2. Sarah — Write incident post-mortem (due: March 31)
+ 3. Team — Post-mortem review meeting (due: April 1)
 {% endraw %}
 
 **Tools:** Google Jamboard + Zoom (minimal setup)
@@ -437,9 +437,9 @@ Sync (90 minutes):
 THEME: "Product-Engineering misalignment on prioritization"
 DISCUSSION: Sales pushing features, Eng pushing refactoring
 ACTION ITEMS:
-  1. Create Engineering Roadmap board (public)
-  2. Monthly prioritization meeting with Product/Eng leads
-  3. Document priority rationale (ship fast vs quality)
+ 1. Create Engineering Roadmap board (public)
+ 2. Monthly prioritization meeting with Product/Eng leads
+ 3. Document priority rationale (ship fast vs quality)
 OWNER: VP Eng + VP Product
 DUE: April 1 (kickoff)
 {% endraw %}
@@ -649,6 +649,8 @@ Weekly status updates: Fridays in Slack
 Next retro: April 12 (same time)
 
 Great effort this sprint!
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 

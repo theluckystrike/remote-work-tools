@@ -352,5 +352,4 @@ For teams handling sensitive code, verify your organization's security policies 
 - [Best Standing Desk for Home Office Coding](/remote-work-tools/best-standing-desk-for-home-office-coding/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

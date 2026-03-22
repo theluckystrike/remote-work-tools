@@ -134,10 +134,10 @@ const generateClientDigest = async (clientEmail, projectId) => {
  to: clientEmail,
  subject: `Project Update: ${completed.length} tasks completed this week`,
  body: `
- Completed: ${completed.map(t => t.name).join(", ")}
- In Progress: ${inProgress.map(t => t.name).join(", ")}
+Completed: ${completed.map(t => t.name).join(", ")}
+In Progress: ${inProgress.map(t => t.name).join(", ")}
 
- View full details: ${dashboardUrl}
+View full details: ${dashboardUrl}
  `
  };
 };
@@ -238,5 +238,7 @@ The client portal setup is not a one-time configuration—treat it as part of yo
 - [List all markdown files in your docs directory](/remote-work-tools/how-to-set-up-documentation-ownership-model-for-remote-teams/)
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

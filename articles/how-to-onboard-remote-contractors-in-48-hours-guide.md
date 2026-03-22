@@ -236,7 +236,7 @@ Choose the first task carefully. The ideal first task should:
 - Add a new API endpoint (touches controllers, routes, tests)
 - Implement a new UI component (touches frontend, components, styleguide)
 - Write a database migration + backend handler
-- Refactor a utility function with existing tests
+- Refactor an utility function with existing tests
 
 **Bad first task examples:**
 - Fix a critical bug in production code
@@ -491,5 +491,4 @@ ROI: For a 12-week contractor ($15K cost), shaving 2 weeks off ramp-up is a 17% 
 - [How to Calculate Productive Overlap Hours for Remote.](/remote-work-tools/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

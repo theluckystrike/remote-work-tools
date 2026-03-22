@@ -343,7 +343,7 @@ Even in a distraction-free workspace, interruptions happen. Handling them well p
 
 **When interrupted**:
 1. Pause, don't stop. If in the middle of typing code, finish the line
-2. Note your mental context: Write a one-line note about what you were thinking
+2. Note your mental context: Write an one-line note about what you were thinking
 3. Switch contexts to handle the interruption
 4. Return to the distraction-free area when available
 5. Spend 30 seconds reviewing your context note before resuming

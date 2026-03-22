@@ -226,5 +226,4 @@ The best dotfiles manager ultimately is the one you'll actually use. Whichever t
 - [Best Speakers for Home Office Setup 2026: A Developer Guide](/remote-work-tools/best-speakers-for-home-office-setup-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

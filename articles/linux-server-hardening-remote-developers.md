@@ -326,5 +326,4 @@ sudo nmap -sV --open -p- localhost 2>/dev/null | grep "open"
 - [macOS Privacy Hardening Checklist 2026](https://theluckystrike.github.io/privacy-tools-guide/macos-privacy-hardening-checklist-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

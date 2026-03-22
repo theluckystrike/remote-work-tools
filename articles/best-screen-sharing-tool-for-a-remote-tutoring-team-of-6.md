@@ -223,7 +223,7 @@ The true cost of tutoring screen sharing includes more than software:
 
 **Google Workspace + Meet Scenario:**
 - Workspace Business Standard (6 seats): $18/user/month × 6 = $108
-  - Includes Workspace sync, enhanced Meet features, 2TB storage per user
+ - Includes Workspace sync, enhanced Meet features, 2TB storage per user
 - Third-party whiteboard integration (Jamboard, paid tier): $8/month
 - Meeting transcription upgrade: Already included in Workspace
 - **Total: $116/month**
