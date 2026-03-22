@@ -41,7 +41,17 @@ Secure Slack and Teams channels require restricted member access, disallowed for
 2.
 - **Verify each member still**: requires access 3.
 
-## Identifying What Needs Protection
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Identifying What Needs Protection
 
 Before configuring permissions, identify the types of discussions requiring enhanced security:
 
@@ -53,7 +63,7 @@ Before configuring permissions, identify the types of discussions requiring enha
 
 Each category warrants different access controls and retention policies. Creating dedicated channels with explicit security configurations ensures conversations remain private.
 
-## Securing Slack Channels
+### Step 2: Secure Slack Channels
 
 ### Private Channels for Sensitive Discussions
 
@@ -118,7 +128,7 @@ setChannelRetention('C0123456789', 90);
 
 Enforce 2FA for all team members accessing sensitive channels. In **Workspace Settings > Security**, require two-factor authentication and consider hardware security keys (YubiKey or similar) for accounts with access to highly sensitive discussions.
 
-## Securing Microsoft Teams Channels
+### Step 3: Secure Microsoft Teams Channels
 
 ### Private Channels vs Shared Channels
 
@@ -191,7 +201,7 @@ When conducting video calls for sensitive matters:
 
 Configure these in **Teams admin center > Meetings > Meeting policies**.
 
-## Cross-Platform Security Patterns
+### Step 4: Cross-Platform Security Patterns
 
 ### Audit Logging and Monitoring
 
@@ -249,7 +259,7 @@ Implement quarterly access reviews:
 3. Remove departed employees within 24 hours
 4. Document review findings for compliance
 
-## Implementation Checklist
+### Step 5: Implementation Checklist
 
 Use this checklist to verify your configuration:
 
@@ -274,6 +284,21 @@ Several frequent errors undermine channel security:
 - **Relying on honor system** without technical enforcement
 
 Automated policies catch mistakes that human vigilance misses.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

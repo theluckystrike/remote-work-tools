@@ -39,7 +39,17 @@ To set up a ClickUp client portal, create a dedicated space with guest access co
 - **For most development teams**: guest access provides sufficient functionality and works across all plan tiers.
 - **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
 
-## Guest Access vs. Client Portal: Understanding Your Options
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Guest Access vs. Client Portal: Understanding Your Options
 
 ClickUp offers two primary mechanisms for external client visibility:
 
@@ -48,7 +58,7 @@ ClickUp offers two primary mechanisms for external client visibility:
 
 For most development teams, guest access provides sufficient functionality and works across all plan tiers. Here's how to implement it programmatically.
 
-## Setting Up Guest Access via API
+### Step 2: Set Up Guest Access via API
 
 While you can create guests through the ClickUp UI, automating guest provisioning fits better into developer workflows. Here's a Python script using the ClickUp API:
 
@@ -83,7 +93,7 @@ To set up a ClickUp client portal, create a dedicated space with guest access co
 
 This approach works well when you need to provision multiple clients across different projects—simply extend the `accessible_list_ids` array to match your project structure.
 
-## Structuring Client-Facing Spaces
+### Step 3: Structuring Client-Facing Spaces
 
 Create a dedicated space structure that separates client-visible content from internal development work. A practical folder layout looks like:
 
@@ -98,7 +108,7 @@ Client Projects/
 
 The key principle: curate spaces explicitly for clients rather than exposing your entire workspace. Clients should see milestones, deliverables, and status—not sprint planning, bug backlogs, or internal code review discussions.
 
-## Custom Views for Client Visibility
+### Step 4: Custom Views for Client Visibility
 
 Configure custom views that filter out technical details. Use ClickUp's view API to create client-specific perspectives:
 
@@ -129,7 +139,7 @@ const createClientView = async (listId) => {
 
 This view includes only task names, due dates, status, assignees, and attachments—stripping out custom fields that might contain cost data, internal priority markers, or technical notes.
 
-## Automation Patterns for Client Updates
+### Step 5: Automation Patterns for Client Updates
 
 Automate status updates to reduce manual communication overhead. This Integromat/Make scenario sends weekly summaries to clients:
 
@@ -171,7 +181,7 @@ You can also set up automation within ClickUp itself:
 - **Blocker Added → Alert Manager**: Notify your project lead when a client-dependent task is blocked
 - **Due Date Passed → Escalate**: Route overdue items awaiting client feedback to your account manager
 
-## Integrating with External Dashboards
+### Step 6: Integrate with External Dashboards
 
 For clients who prefer a custom dashboard outside ClickUp, pull data via the API:
 
@@ -213,7 +223,7 @@ def project_status():
 
 This pattern works well when you need to embed project status into a client portal running on your own domain.
 
-## Permission Auditing for Security
+### Step 7: Permission Auditing for Security
 
 Periodically audit guest permissions to prevent accidental exposure:
 
@@ -242,7 +252,7 @@ def audit_guest_access():
 
 Run this monthly to ensure former clients no longer have access and current clients only see what they need.
 
-## Practical Tips for Developer Teams
+### Step 8: Practical Tips for Developer Teams
 
 - **Use descriptive task names**: Clients see task titles directly. Instead of `FEAT-142`, use "Implement user authentication flow"
 - **Set up separate notification rules**: Guests should only receive mentions on tasks they're assigned to, not every comment
@@ -250,6 +260,21 @@ Run this monthly to ensure former clients no longer have access and current clie
 - **Document the setup**: Keep internal docs explaining which spaces are client-accessible so new team members don't accidentally share wrong content
 
 The client portal setup is not a one-time configuration—treat it as part of your client service infrastructure that evolves based on feedback and usage patterns.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

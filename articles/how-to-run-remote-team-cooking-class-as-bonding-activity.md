@@ -41,7 +41,17 @@ Choose live synchronous cooking with accessible recipes that use common ingredie
 - **Choose live synchronous cooking**: with accessible recipes that use common ingredients to maximize bonding across remote teams.
 - **The best sessions feel intentional**: accessible, and genuinely interactive.
 
-## Planning Your Virtual Cooking Class
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Planning Your Virtual Cooking Class
 
 Successful virtual cooking events require more than sending out a Zoom link and a recipe. The best sessions feel intentional, accessible, and genuinely interactive. Here's how to plan one that your team will actually want to attend.
 
@@ -73,13 +83,13 @@ Simple pasta dough, stir-fry, tacos, and basic bread all work well. Avoid recipe
 Don't surprise your team with ingredient lists the day before. Send everything at least one week in advance:
 
 ```markdown
-## Shopping List (serves 4)
+### Step 2: Shopping List (serves 4)
 - 2 cups all-purpose flour
 - 3 large eggs
 - 1 tablespoon olive oil
 - 1/2 teaspoon salt
 
-## Equipment Needed
+### Step 3: Equipment Needed
 - Large mixing bowl
 - Fork or pastry cutter
 - Plastic wrap
@@ -88,7 +98,7 @@ Don't surprise your team with ingredient lists the day before. Send everything a
 
 Including a brief video walkthrough of technique basics helps nervous cooks feel prepared. Keep it under five minutes—anything longer gets skipped.
 
-## Technical Setup for Smooth Execution
+### Step 4: Technical Setup for Smooth Execution
 
 A poorly configured video call ruins the experience before it starts. Take time to set up properly.
 
@@ -104,7 +114,7 @@ Create a separate Slack or Discord channel specifically for the cooking event. P
 
 Consider setting up a shared photo album where everyone uploads their dishes at the end. Teams often reference these photos weeks later, reinforcing the bond created during the session.
 
-## Help Techniques That Work
+### Step 5: Help Techniques That Work
 
 The difference between a mediocre virtual cooking class and a great one comes down to help. Here's what experienced organizers do:
 
@@ -132,14 +142,14 @@ Someone's audio will fail. Another participant's browser will crash. Have a back
 Create a simple troubleshooting guide:
 
 ```markdown
-## Quick Tech Fixes
+### Step 6: Quick Tech Fixes
 - No audio? Check: Speakers enabled in OS, app volume up, not muted in-call
 - Can't see screen share? Ask host to restart share
 - Video frozen? Leave and rejoin the call
 - Lost connection? Text in event channel: back in 2 min
 ```
 
-## Making It a Recurring Event
+### Step 7: Making It a Recurring Event
 
 One cooking class creates a single memorable experience. Recurring sessions build ongoing team culture. Consider running monthly or quarterly sessions with escalating complexity.
 
@@ -158,7 +168,7 @@ This progression gives participants time to build confidence while keeping exper
 
 Create a shared document or wiki page where you compile successful recipes from your sessions. Over time, this becomes a unique team artifact—your collective cooking knowledge. Some teams have turned this into an annual team cookbook, printing copies for everyone.
 
-## Platforms and Tools for Hosted Cooking Classes
+### Step 8: Platforms and Tools for Hosted Cooking Classes
 
 If organizing synchronous cooking feels overwhelming, outsourcing to professional platforms reduces coordination burden:
 
@@ -181,7 +191,7 @@ If organizing synchronous cooking feels overwhelming, outsourcing to professiona
 
 For budget-conscious teams, DIY organization creates more memorable bonding despite requiring more planning effort.
 
-## Asynchronous Cooking for Global Teams
+### Step 9: Asynchronous Cooking for Global Teams
 
 Time zone challenges make synchronous cooking impossible for some teams. An async cooking competition framework adapts the activity:
 
@@ -193,7 +203,7 @@ Time zone challenges make synchronous cooking impossible for some teams. An asyn
 
 This structure maintains the bonding elements (creativity, sharing, celebration) while accommodating distributed schedules.
 
-## Handling Common Challenges During Sessions
+### Step 10: Handling Common Challenges During Sessions
 
 **Challenge: People joining late or leaving early**
 - Solution: Repeat the introduction in first 10 minutes
@@ -231,7 +241,7 @@ This structure maintains the bonding elements (creativity, sharing, celebration)
 - Solution: Include a tasting/sharing portion at the end regardless of pacing
 - Solution: Build in 15-minute buffer where people can socialize while waiting
 
-## Recipe Selection Frameworks
+### Step 11: Recipe Selection Frameworks
 
 **For First-Time Group Cooking (Start Simple):**
 - Pasta dishes (fresh or dried)
@@ -253,7 +263,7 @@ This structure maintains the bonding elements (creativity, sharing, celebration)
 - Exotic cuisines with less-familiar ingredients
 - Themed "Iron Chef" style competitions
 
-## Measuring Engagement and Impact
+### Step 12: Measuring Engagement and Impact
 
 Beyond attendance, track these signals to assess success:
 
@@ -281,7 +291,7 @@ engagement_metrics:
 
 Track these metrics across 3-4 sessions to understand what resonates with your team. Adjust format based on actual engagement data rather than assumptions.
 
-## Measuring Success
+### Step 13: Measuring Success
 
 How do you know if your cooking class actually worked? Look beyond attendance numbers:
 
@@ -291,6 +301,21 @@ How do you know if your cooking class actually worked? Look beyond attendance nu
 - Informal feedback: Do team members reference the event positively afterward?
 
 The best indicator is when participants start suggesting recipes for future sessions. That ownership signal means the activity has genuinely connected with your team.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

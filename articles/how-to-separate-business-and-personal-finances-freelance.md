@@ -41,7 +41,17 @@ This guide provides concrete systems for maintaining clean separation between yo
 - **Pick a regular schedule—monthly**: or bi-weekly—and transfer a set "salary" amount.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## The Case for Strict Separation
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Case for Strict Separation
 
 Before exploring implementation, understand why separation matters:
 
@@ -51,7 +61,7 @@ Before exploring implementation, understand why separation matters:
 
 The goal isn't just accounting hygiene—it's business intelligence. You need to know your true hourly rate after expenses, not just what you billed.
 
-## Bank Account Strategy
+### Step 2: Bank Account Strategy
 
 The foundation of financial separation starts with your banking setup. You don't need a complicated business structure, but you do need dedicated accounts.
 
@@ -75,7 +85,7 @@ For US-based freelancers, most banks offer business checking accounts with no mo
 
 Transferring money from business to personal works like a payroll system. Pick a regular schedule—monthly or bi-weekly—and transfer a set "salary" amount. This creates a predictable rhythm and prevents spontaneous personal spending from business funds.
 
-## Tracking Expenses with Plain Text
+### Step 3: Tracking Expenses with Plain Text
 
 Developers who embrace plain-text accounting gain several advantages: version control over financial data, powerful querying capabilities, and complete data ownership. Two tools excel at this approach: Ledger CLI and Beancount.
 
@@ -153,7 +163,7 @@ fava expenses.beancount
 
 Both approaches store your financial data in plain text files that live in your repository. You get Git history of every change, searchability, and backup simplicity.
 
-## Automating Transaction Categorization
+### Step 4: Automate Transaction Categorization
 
 Manual categorization gets tedious. Build a simple rule engine to handle the bulk of transactions automatically:
 
@@ -204,7 +214,7 @@ Run this weekly against your bank export:
 python categorize.py bank_export.csv > categorized_expenses.csv
 ```
 
-## Handling Mixed Expenses
+### Step 5: Handling Mixed Expenses
 
 Some purchases benefit both business and personal use. The IRS allows proportional deductions in many cases. Track these explicitly:
 
@@ -233,7 +243,7 @@ def calculate_deduction():
 print(f"Business mileage deduction: ${calculate_deduction():.2f}")
 ```
 
-## Monthly Review System
+### Step 6: Monthly Review System
 
 Set up a recurring calendar block for financial review. A 30-minute monthly session keeps everything manageable:
 
@@ -245,7 +255,7 @@ Set up a recurring calendar block for financial review. A 30-minute monthly sess
 
 This rhythm prevents end-of-year panic and keeps your books always ready for quarterly tax estimates.
 
-## Quarterly Tax Estimation Script
+### Step 7: Quarterly Tax Estimation Script
 
 Freelancers in the US pay estimated taxes quarterly. Automate the calculation:
 
@@ -294,6 +304,21 @@ Run this before IRS deadlines (April 15, June 15, September 15, January 15).
 | Wave | SaaS | Free | Non-technical freelancers |
 | FreshBooks | SaaS | $17+/month | Invoicing-heavy businesses |
 | QuickBooks | SaaS | $15/month | Tax categorization |
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

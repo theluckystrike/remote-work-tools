@@ -40,7 +40,17 @@ Understanding the threat environment forms the foundation for building effective
 - **Topics covered**: understanding supply chain risks in ci/cd, practical steps to secure your pipeline, 1. implement dependency pinning and verification
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Understanding Supply Chain Risks in CI/CD
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Supply Chain Risks in CI/CD
 
 Supply chain attacks targeting CI/CD pipelines exploit the trust relationships between your pipeline stages, external services, and dependencies. Attackers compromise build tools, dependency registries, or pipeline configurations to inject malicious code into your software delivery process.
 
@@ -54,7 +64,7 @@ Common attack vectors include:
 
 Remote teams face additional challenges because developers work from varied network environments and may use personal devices that lack enterprise security controls.
 
-## Practical Steps to Secure Your Pipeline
+### Step 2: Practical Steps to Secure Your Pipeline
 
 ### 1. Implement Dependency Pinning and Verification
 
@@ -253,7 +263,7 @@ permissions:
 
 Review and audit which integrations have access to your repositories regularly.
 
-## Continuous Monitoring and Response
+### Step 3: Continuous Monitoring and Response
 
 Security requires ongoing attention. Set up alerts for unusual pipeline behavior:
 
@@ -281,7 +291,7 @@ function checkPipelineModifications() {
 
 Create an incident response plan specifically for pipeline compromises. Know how to revoke tokens, rebuild from known-good commits, and notify affected users.
 
-## SBOM Generation for Supply Chain Transparency
+### Step 4: SBOM Generation for Supply Chain Transparency
 
 Generate a Software Bill of Materials automatically:
 
@@ -309,7 +319,7 @@ Add this to your CI pipeline:
 
 When a CVE drops, search your SBOM to determine if you are affected without manually checking lockfiles.
 
-## Supply Chain Security Checklist
+### Step 5: Supply Chain Security Checklist
 
 | Check | Frequency | Tool |
 |-------|-----------|------|
@@ -323,6 +333,21 @@ When a CVE drops, search your SBOM to determine if you are affected without manu
 | Access permission audit | Quarterly | GitHub org audit log |
 
 Assign each check to a specific team member. Rotate responsibility monthly to spread security awareness across the team.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

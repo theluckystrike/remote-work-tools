@@ -44,7 +44,17 @@ The second framing anchors on total value rather than hourly cost.
 - **Setting your freelance developer**: rates is one of the most consequential decisions you'll make as an independent developer.
 - **Junior developers (1-2 years)**: typically charge $50-80/hour.
 
-## Calculate Your Minimum Viable Rate
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Calculate Your Minimum Viable Rate
 
 Before looking at market data, determine your personal floor. Your rate must cover three components: business expenses, taxes, and personal income needs.
 
@@ -66,7 +76,7 @@ Most freelance developers bill between 1,000 and 1,500 hours per year. Accountin
 
 This baseline tells you nothing about market rates, but it prevents accepting work that actively loses money.
 
-## Factor in Your Experience and Specialization
+### Step 2: Factor in Your Experience and Specialization
 
 Experience directly impacts rates, but the relationship isn't linear. Junior developers (1-2 years) typically charge $50-80/hour. Mid-level developers (3-5 years) command $80-150/hour. Senior developers (7+ years) with specialized skills can exceed $200/hour.
 
@@ -79,7 +89,7 @@ Specialization amplifies your value. Generalist full-stack developers face more 
 
 A developer who combines two or more of these specializations can command significant premiums over generalist rates.
 
-## Research Market Rates Effectively
+### Step 3: Research Market Rates Effectively
 
 Raw market data helps calibrate your expectations. Several approaches provide useful signals:
 
@@ -91,7 +101,7 @@ Raw market data helps calibrate your expectations. Several approaches provide us
 
 **Direct client feedback:** When you lose a deal to pricing, ask for feedback. Clients will often share what they paid the winning bidder.
 
-## Choose Your Pricing Model
+### Step 4: Choose Your Pricing Model
 
 Freelance developers typically use three pricing structures: hourly, fixed-project, and value-based. Each has trade-offs.
 
@@ -115,7 +125,7 @@ You price based on the business value you deliver, not your time. This requires 
 
 **Best for:** High-impact projects where you can measure business outcomes.
 
-## Implement Rate Increases
+### Step 5: Implement Rate Increases
 
 Your rates should increase over time. Strategies include:
 
@@ -152,7 +162,7 @@ projected_income = my_rate.calculate_annual_income(1200)
 print(f"Projected annual income: ${projected_income:,.2f}")
 ```
 
-## Handle Rate Negotiations
+### Step 6: Handle Rate Negotiations
 
 When clients push back on rates, have responses ready:
 
@@ -167,7 +177,7 @@ When clients push back on rates, have responses ready:
 
 The key is never to immediately lower your rate. Instead, explore what's driving the negotiation and find creative solutions.
 
-## Position for Premium Rates
+### Step 7: Position for Premium Rates
 
 Higher rates attract better clients. Positioning strategies include:
 
@@ -179,7 +189,7 @@ Higher rates attract better clients. Positioning strategies include:
 
 **Premium service levels:** Respond within hours, not days. Provide clear documentation. Deliver ahead of schedule when possible. Act like a premium vendor.
 
-## Understanding Your Market Position
+### Step 8: Understand Your Market Position
 
 Before setting rates, understand where you fall in the competitive world. Your market position affects pricing power significantly.
 
@@ -189,7 +199,7 @@ Before setting rates, understand where you fall in the competitive world. Your m
 
 **Hybrid models** (you sell fixed projects, not hours) allow you to capture more value than hourly rates alone. If a project normally takes 40 hours at $100/hour ($4,000), you might quote $6,000 fixed. This rewards efficiency and caps the client's exposure to cost overruns.
 
-## Common Freelance Rate Mistakes
+### Step 9: Common Freelance Rate Mistakes
 
 **Mistake 1: Matching competitor rates without understanding their positioning.**
 If another developer charges $50/hour, you don't know whether they are profitable, busy, or desperate for work. Matching their rate without understanding your own economics is dangerous.
@@ -206,7 +216,7 @@ After 2-3 projects together, raise your rate. Long-term clients understand your 
 **Mistake 5: Conflating time spent with value delivered.**
 A project that takes 20 hours isn't necessarily worth less than one taking 40 hours. If both deliver $100,000 in client value, your efficiency shouldn't reduce your compensation. Value-based pricing captures this properly.
 
-## Seasonal Rate Adjustments
+### Step 10: Seasonal Rate Adjustments
 
 Freelance work has seasonal patterns. During slow seasons (November-December, July-August), reducing rates slightly fills your calendar. During peak seasons, you can raise rates since demand exceeds supply.
 
@@ -241,7 +251,7 @@ slow_rate = seasonal_rate(100, 40, "slow")  # $80.75/hour
 
 This approach keeps your calendar full during slow seasons while capturing peak-season demand.
 
-## Communicating Your Rate
+### Step 11: Communicating Your Rate
 
 How you present your rate affects acceptance rates significantly.
 
@@ -258,7 +268,7 @@ The second framing anchors on total value rather than hourly cost. Clients often
 
 This positions you as a problem-solver delivering results, not a contractor selling hours.
 
-## Rate Tiers for Different Client Types
+### Step 12: Rate Tiers for Different Client Types
 
 Consider offering rate tiers based on client type rather than a single fixed rate:
 
@@ -279,13 +289,28 @@ Consider offering rate tiers based on client type rather than a single fixed rat
 
 Document the differences: premium clients get faster response times, standard clients get reliable turnaround, focused niches get flexible scheduling. This justifies rate differences while being transparent.
 
-## Building Your Rate Narrative
+### Step 13: Build Your Rate Narrative
 
 When clients ask "Why $X/hour?", have a 2-minute explanation ready:
 
 "I charge $120/hour because of three factors: First, I specialize in [your specialty], which commands a premium. Second, my track record shows I deliver complex projects 20% ahead of schedule, which compounds to significant savings for clients. Third, my rate accounts for my operational costs—professional development, tooling, insurance, and the overhead of running an independent business. Most importantly, I only take projects where I can deliver exceptional value. When I'm working at this rate, I'm selective about client fit, which means you get my best work on problems that matter to your business."
 
 This framing shows you are confident in your value, not apologizing for cost.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

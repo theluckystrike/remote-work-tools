@@ -42,7 +42,17 @@ This guide provides concrete strategies for maintaining the energy, speed, and a
 - **Architecture documentation - Current**: system diagrams, data flows, and key integration points 3.
 - **Remote work amplifies this**: challenge because you lose casual hallway conversations and spontaneous lunches.
 
-## The Communication Bottleneck
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Communication Bottleneck
 
 Your first scaling challenge appears in how your team shares information. With 5 people, you can share context in seconds. With 20, you need systems.
 
@@ -53,25 +63,25 @@ Here's a practical template for technical decision documents that scales:
 ```markdown
 # RFC: Migrate Authentication Service to Auth0
 
-## Problem Statement
+### Step 2: Problem Statement
 Current auth service requires dedicated maintenance. Security patches, token refresh logic, and password reset flows consume ~20% of one engineer's time monthly.
 
-## Proposed Solution
+### Step 3: Proposed Solution
 Implement Auth0 with custom claims for role-based access control.
 
-## Timeline
+### Step 4: Timeline
 - Week 1: Proof of concept with staging environment
 - Week 2: Migrate non-critical user flows
 - Week 3: Full migration and rollback plan testing
 
-## Questions for Reviewers
+### Step 5: Questions for Reviewers
 1. How does this impact our mobile app authentication flow?
 2. Are there compliance considerations for EU user data?
 ```
 
 This RFC format works because it forces authors to think through the full context while giving reviewers a structured way to provide input asynchronously.
 
-## Preserve Autonomy Through Clear Standards
+### Step 6: Preserve Autonomy Through Clear Standards
 
 Startup culture thrives on autonomy—individual contributors making decisions without excessive approval chains. The risk at scale is that autonomy becomes chaos when 20 people make independent choices without alignment.
 
@@ -89,7 +99,7 @@ const reviewGuidelines = {
 
 These guidelines answer the question "can I merge this?" without requiring a manager approval. Developers know exactly where they have freedom and where they need input.
 
-## Build Onboarding Into Your Growth
+### Step 7: Build Onboarding Into Your Growth
 
 Every new hire tests your ability to scale. At 5 people, you can onboard personally—walk them through the codebase, introduce them to customers, explain your unwritten rules. At 20, that approach doesn't scale and creates inconsistent experiences.
 
@@ -116,7 +126,7 @@ echo "Environment ready. Run 'npm run dev' to start."
 
 The goal isn't to replace human interaction—it's to remove friction so your team can focus on mentorship and cultural transmission rather than repetitive setup questions.
 
-## Maintain Cultural Connection Remotely
+### Step 8: Maintain Cultural Connection Remotely
 
 Culture doesn't happen in company values documents—it happens in how people interact daily. Remote work amplifies this challenge because you lose casual hallway conversations and spontaneous lunches.
 
@@ -147,7 +157,7 @@ rituals:
 
 These rituals scale because they're designed for async participation and don't require everyone to be online simultaneously.
 
-## Document Your Decision-Making
+### Step 9: Document Your Decision-Making
 
 As teams grow, the same questions get answered repeatedly. "Why did we choose PostgreSQL over MongoDB?" "Why do we require two approvals for billing changes?" Without documentation, each new team member repeats this research, and senior engineers burn out answering the same questions.
 
@@ -156,25 +166,25 @@ Maintain a decision log (often called an ADR - Architecture Decision Record):
 ```markdown
 # ADR-004: Use PostgreSQL as Primary Database
 
-## Status: Accepted
+### Step 10: Status: Accepted
 
-## Context
+### Step 11: Context
 We need a database that handles relational data, supports complex queries, and has strong JSON support for flexible schemas.
 
-## Decision
+### Step 12: Decision
 Use PostgreSQL 15 with Citus extension for future sharding capability.
 
-## Consequences
+### Step 13: Consequences
 - Positive: Strong ecosystem, excellent documentation, Heroku/RDS managed options
 - Negative: Horizontal scaling requires more planning than NoSQL options
 
-## Review Date
+### Step 14: Review Date
 2026-06-16
 ```
 
 This ADR format creates institutional memory that preserves the reasoning behind technical choices, allowing new team members to understand context without interrogating everyone.
 
-## Maintaining Code Quality During Growth
+### Step 15: Maintaining Code Quality During Growth
 
 As teams grow, code quality often suffers unless you intentionally maintain standards. Implement these practices:
 
@@ -206,7 +216,7 @@ jobs:
 
 **Refactoring time allocation:** Reserve 20% of sprint capacity for technical debt paydown. Growing teams accumulate technical debt; without dedicated refactoring time, it compounds exponentially.
 
-## Communication Patterns That Scale
+### Step 16: Communication Patterns That Scale
 
 As your team grows from 5 to 20, communication patterns must evolve:
 
@@ -229,7 +239,7 @@ As your team grows from 5 to 20, communication patterns must evolve:
 - Architecture review board: Weekly RFC review
 - Officer sync: Department heads, twice weekly
 
-## Building Leaders Without Losing Culture
+### Step 17: Build Leaders Without Losing Culture
 
 At 5 people, one strong leader can maintain culture. At 20, you need distributed leadership. Identify potential leads early:
 
@@ -249,7 +259,7 @@ At 5 people, one strong leader can maintain culture. At 20, you need distributed
 
 This gradual transition develops leaders while maintaining continuity.
 
-## Trust But Verify Your Scaling
+### Step 18: Trust But Verify Your Scaling
 
 The final principle is measurement. You need feedback loops that tell you whether your scaling efforts are working:
 
@@ -304,7 +314,7 @@ function generateScalingReport(metrics) {
 }
 ```
 
-## Preventing Manager Bottlenecks
+### Step 19: Preventing Manager Bottlenecks
 
 A common failure mode when scaling: the founding team becomes a bottleneck because all decisions flow through them. Prevent this:
 
@@ -320,6 +330,21 @@ A common failure mode when scaling: the founding team becomes a bottleneck becau
 - Conflict resolution
 
 This maintains cultural alignment while distributing operational decisions.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

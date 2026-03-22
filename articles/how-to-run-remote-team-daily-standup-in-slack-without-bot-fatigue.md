@@ -42,7 +42,17 @@ You can run effective daily standups in Slack without adding another bot to your
 Best**: Async-only thread with no required live time
 ```
 
-## Standup Evolution Template
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Standup Evolution Template
 
 As teams mature, standup format changes.
 - **Async-only standup (no live**: time requirement) 3.
@@ -59,7 +69,7 @@ First, the format feels impersonal. Team members paste answers into a form witho
 
 When your team starts using standup bots as an excuse to avoid real communication, you've lost the plot. The standup should help collaboration, not replace it with automated form-filling.
 
-## A Human-First Standup Framework for Slack
+### Step 2: A Human-First Standup Framework for Slack
 
 Instead of adding bots, use Slack's native features to create a standup rhythm that feels natural. The goal is structure without automation, coordination without congestion.
 
@@ -89,7 +99,7 @@ Rather than relying on bot reminders, establish a consistent time window—say, 
 
 A passive approach works better than automated reminders. Team members who haven't posted by mid-window might get a friendly nudge from a colleague, but this human touch maintains accountability without adding infrastructure.
 
-## Practical Slack Workflows That Replace Bots
+### Step 3: Practical Slack Workflows That Replace Bots
 
 You can achieve bot-like functionality using Slack's built-in tools. Here's how to implement common standup bot features without the bot.
 
@@ -128,7 +138,7 @@ At the end of your standup window, a team lead or rotating facilitator can post 
 
 The summary serves team members who scan rather than read every thread, and it provides an useful reference for the rest of the day.
 
-## Handling Time Zones Without Automated Conversion
+### Step 4: Handling Time Zones Without Automated Conversion
 
 Distributed teams across time zones present real coordination challenges. Bots often claim to solve this, but they introduce their own problems.
 
@@ -140,13 +150,13 @@ A simpler approach: establish a reference time zone (usually your company's HQ o
 
 This convention removes ambiguity without requiring timezone conversion bots or complex scheduling tools.
 
-## When Threaded Standups Don't Work
+### Step 5: When Threaded Standups Don't Work
 
 Threaded standups aren't perfect for every team. If your team is very small (three or fewer people), a quick voice or video check-in might be more efficient. If your work is highly interdependent and requires real-time coordination, consider a brief 5-7 minute synchronous standup instead.
 
 The threaded approach shines when your team values asynchronous communication, when you have team members across multiple time zones, and when you want a searchable history of daily progress. Evaluate your team's needs honestly—if the threaded approach feels forced, try a hybrid model with synchronous standups on certain days and async updates on others.
 
-## Maintaining Standup Quality Over Time
+### Step 6: Maintaining Standup Quality Over Time
 
 The biggest challenge isn't setting up the process—it's keeping it meaningful months down the line. A few practices help:
 
@@ -156,7 +166,7 @@ Second, revisit the format quarterly. Ask your team what's working and what isn'
 
 Third, lead by example. If senior team members treat standups as box-checking, others will too. Show genuine interest in colleagues' updates, ask follow-up questions, and engage authentically.
 
-## Standup Format Variations for Different Team Types
+### Step 7: Standup Format Variations for Different Team Types
 
 ### Engineering Teams (Async-Heavy)
 
@@ -259,7 +269,7 @@ Research budget: on track, no overruns
 - One customer requesting refund for service disruption (forwarded to finance)
 ```
 
-## Standup Metrics Worth Tracking
+### Step 8: Standup Metrics Worth Tracking
 
 Use these to evaluate standup health over time:
 
@@ -294,7 +304,7 @@ issues_identified:
 
 Track these over a month. If metrics degrade, standup process needs refinement.
 
-## Standup Failure Patterns and Fixes
+### Step 9: Standup Failure Patterns and Fixes
 
 **Pattern 1: Declining Participation**
 ```
@@ -346,27 +356,27 @@ Options:
 Best: Async-only thread with no required live time
 ```
 
-## Standup Evolution Template
+### Step 10: Standup Evolution Template
 
 As teams mature, standup format changes. Track this evolution:
 
 ```markdown
 # Standup Evolution Timeline
 
-## Month 1: Chaotic (No Process)
+### Step 11: Month 1: Chaotic (No Process)
 - Random timing
 - Inconsistent format
 - Often forgotten
 - Action: Implement dedicated channel + scheduled message
 
-## Month 2-3: Bot-Heavy (Overcorrection)
+### Step 12: Month 2-3: Bot-Heavy (Overcorrection)
 - Slack bot reminder every morning
 - Structured form responses
 - Daily digest summary
 - Problem: Notification fatigue begins
 - Action: Simplify format, remove non-essential bot features
 
-## Month 4-6: Stable (Sweet Spot)
+### Step 13: Month 4-6: Stable (Sweet Spot)
 - Dedicated #standup channel
 - Consistent 9 AM PT window (humans know this)
 - Simple text format (Yesterday/Today/Blockers)
@@ -374,7 +384,7 @@ As teams mature, standup format changes. Track this evolution:
 - High participation (>85%)
 - Action: Maintain this rhythm, iterate quarterly
 
-## Month 7+: Mature (Optimization)
+### Step 14: Month 7+: Mature (Optimization)
 - Team knows standup cadence, needs no reminders
 - Format refined based on team feedback
 - Standups reference actual blockers/decisions
@@ -383,7 +393,7 @@ As teams mature, standup format changes. Track this evolution:
 - Action: Quarterly refinement only, collect team feedback
 ```
 
-## Standup Content Examples by Industry
+### Step 15: Standup Content Examples by Industry
 
 **SaaS Product Team:**
 ```
@@ -413,7 +423,7 @@ Today: Present findings to board, start building prototype for top feature reque
 Blockers: Need design resources for prototype—currently just me
 ```
 
-## Running Your First Standup (Checklist)
+### Step 16: Run Your First Standup (Checklist)
 
 - [ ] Create dedicated Slack channel (#daily-standup)
 - [ ] Pick a time that works for majority (earlier usually better)
@@ -428,7 +438,7 @@ Blockers: Need design resources for prototype—currently just me
 - [ ] At month-end: collect team feedback, adjust for month 2
 - [ ] At month-3: evaluate participation and engagement metrics
 
-## Standup Health Red Flags
+### Step 17: Standup Health Red Flags
 
 If you see these, standup process needs fixing:
 
@@ -446,6 +456,21 @@ If you see these, standup process needs fixing:
 Address these immediately. Standup only works if it's genuinely useful to the team.
 
 Third, lead by example. If senior team members treat standups as box-checking, others will too. Show genuine interest in colleagues' updates, ask follow-up questions, and engage authentically.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

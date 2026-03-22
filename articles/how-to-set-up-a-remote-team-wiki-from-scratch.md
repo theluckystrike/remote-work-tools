@@ -189,7 +189,7 @@ Outline is a modern, self-hosted wiki platform. It's free and open-source but re
 
 **Recommendation for most remote teams:** Confluence if you have budget and want granular permissions, Notion if you want simplicity and integrated project management, Outline if you want speed and privacy.
 
-## Wiki Structure: Building Architecture That Works
+### Step 1: Wiki Structure: Building Architecture That Works
 
 Regardless of platform, structure determines usability. Poor structure means good information stays hidden.
 
@@ -248,10 +248,10 @@ Create templates for common page types. Templates ensure consistency and reduce 
 **Decided by:** [Name]
 **Participants:** [List people in discussion]
 
-## The Problem
+### Step 2: The Problem
 [What are we trying to solve? Why does this matter?]
 
-## Options Considered
+### Step 3: Options Considered
 
 ### Option A: [Name]
 **Pros:** [Benefits]
@@ -263,15 +263,15 @@ Create templates for common page types. Templates ensure consistency and reduce 
 **Cons:** [Drawbacks]
 **Cost:** [Time/money]
 
-## Decision
+### Step 4: Decision
 We chose Option A because [rationale].
 
-## Consequences
+### Step 5: Consequences
 - [What changes as a result]
 - [What we'll need to do next]
 - [What we won't do anymore]
 
-## Revisit Date
+### Step 6: Revisit Date
 [When we'll reconsider this decision, e.g., "Q3 2026"]
 ```
 
@@ -292,7 +292,7 @@ We chose Option A because [rationale].
 - [Who needs to approve]
 - [What tools you need access to]
 
-## Step-by-Step
+### Step 7: Step-by-Step
 
 1. [First step]
    - [Sub-step if needed]
@@ -302,15 +302,15 @@ We chose Option A because [rationale].
    - [Sub-step]
    - [Expected outcome]
 
-## Approval
+### Step 8: Approval
 
 - [ ] [Name] approves
 - [ ] [Name] verifies
 
-## Rollback
+### Step 9: Rollback
 If something goes wrong, [steps to undo].
 
-## Common Questions
+### Step 10: Common Questions
 - **Q: What if X happens?**
   A: [Answer]
 ```
@@ -333,7 +333,7 @@ Step 5: Tear down green
 
 The Decision Log explains why we do it this way. The Process page explains how.
 
-## Implementation: Week-by-Week Setup
+### Step 11: Implementation: Week-by-Week Setup
 
 ### Week 1: Foundation (2-3 hours)
 
@@ -418,7 +418,7 @@ Focus on documentation people need immediately:
  - Monthly review: engineering team reviews dev setup
  - Add calendar reminders for owners
 
-## Real Example: Deployment Documentation
+### Step 12: Real Example: Deployment Documentation
 
 Here's what excellent deployment documentation looks like in practice:
 
@@ -434,7 +434,7 @@ Last Updated: March 21, 2026
 - [ ] A second engineer reviews the changes
 - [ ] You have AWS console access
 
-## Deployment Steps
+### Step 13: Deploy ment Steps
 
 1. Create deployment ticket in Jira
    Expected: Jira ticket created with timestamp
@@ -464,7 +464,7 @@ Last Updated: March 21, 2026
 
 7. Close deployment ticket
 
-## Rollback (If something is wrong)
+### Step 14: Rollback (If something is wrong)
 $ ./scripts/deploy.sh --env=production --rollback
 $ # Manually verify rollback worked
 
@@ -479,7 +479,7 @@ A: Check the deployment checklist dashboard (link) showing latest test results a
 See decision #47 for the reasoning behind this approach.
 ```
 
-## Permission Model for Growing Teams
+### Step 15: Permission Model for Growing Teams
 
 As your team grows, permission management becomes important.
 
@@ -525,7 +525,7 @@ Contributors propose changes → owner reviews → publishes
 **Pros:** Prevents misinformation, audit trail, controls access to sensitive docs
 **Cons:** Slower updates, requires coordination
 
-## Maintaining Quality Over Time
+### Step 16: Maintaining Quality Over Time
 
 A wiki degrades over time. Stale docs create more confusion than no docs.
 
@@ -569,7 +569,7 @@ Engineering Team:
 
 Owners spend 30 min each reviewing and updating. Takes 2 hours total for quarterly maintenance.
 
-## Common Pitfalls and Solutions
+### Step 17: Common Pitfalls and Solutions
 
 | Pitfall | Solution |
 |---------|----------|
@@ -581,7 +581,7 @@ Owners spend 30 min each reviewing and updating. Takes 2 hours total for quarter
 | Too much process (wiki feels bureaucratic) | Document what you actually do, not ideal process |
 | Decisions get lost (no way to find old decisions) | Decision log with consistent format |
 
-## Integration with Other Tools
+### Step 18: Integration with Other Tools
 
 A wiki works better when connected to other tools.
 
@@ -599,6 +599,21 @@ A wiki works better when connected to other tools.
 - Link tickets to wiki docs
 - "See also" links from tickets to related processes
 - Deployment tickets link to deployment guide
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

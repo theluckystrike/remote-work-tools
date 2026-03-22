@@ -38,7 +38,17 @@ Remote environments present unique challenges because your attack surface spans 
 
 The technique works because legitimate users never access these tokens. If you place a canary document named "salary-2026.xlsx" in a shared directory and someone opens it, you know something is wrong. Attackers, scanning for valuable data, will find and open it without questioning its legitimacy.
 
-## Creating Your First Canary Token
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Create Your First Canary Token
 
 Several open-source and commercial services provide canary token generation. For self-hosted deployments, the **Canarytokens.org** project (from Thinkst Applied Research) offers a free hosted version you can use immediately or deploy your own instance.
 
@@ -61,7 +71,7 @@ docker run -d \
 
 This gives you full control over your tokens and notification infrastructure.
 
-## Deploying Tokens in Remote Work Environments
+### Step 2: Deploy Tokens in Remote Work Environments
 
 Remote environments require strategic token placement. You need tokens that attackers will find while legitimate users never encounter them.
 
@@ -129,7 +139,7 @@ def send_canary_alert(token_data):
 
 This integration ensures your team sees alerts immediately, regardless of where they are working.
 
-## Strategic Token Placement
+### Step 3: Strategic Token Placement
 
 Effective detection requires thinking like an attacker. Consider what an intruder would search for after gaining initial access:
 
@@ -140,7 +150,7 @@ Effective detection requires thinking like an attacker. Consider what an intrude
 
 Rotate your tokens periodically—every 3-6 months—to prevent attackers from learning which tokens are monitored.
 
-## Monitoring and Response
+### Step 4: Monitor and Response
 
 When a canary token triggers, your response should be proportional to the alert severity. Low-confidence triggers (such as automated scanners) may warrant watching, while direct access to credential-like tokens requires immediate action.
 
@@ -154,7 +164,7 @@ Document your response procedures:
 
 Canary tokens work best as part of a layered security strategy. They excel at detecting post-breach activity but should complement preventive controls like multi-factor authentication, endpoint protection, and access logging.
 
-## Incident Response Workflows
+### Step 5: Plan Incident Response Workflows
 
 When a canary token triggers, your response should be immediate and systematic.
 
@@ -251,7 +261,7 @@ done
 
 Configure file-level monitoring through your security tool to alert when these files are accessed.
 
-## Integrating Canary Tokens with SIEM Systems
+### Step 6: Integrate Canary Tokens with SIEM Systems
 
 For enterprise environments, integrate canary token alerts into your Security Information and Event Management (SIEM) system:
 
@@ -286,7 +296,7 @@ class CanaryTokenSIEMBridge:
 
 This integration provides visibility into canary alerts alongside other security events, enabling correlation analysis.
 
-## Measuring Canary Token Effectiveness
+### Step 7: Measuring Canary Token Effectiveness
 
 Track metrics that demonstrate canary tokens' value:
 
@@ -295,6 +305,21 @@ Track metrics that demonstrate canary tokens' value:
 - **Response efficiency**: How long did it take to respond and remediate after a genuine alert?
 
 Teams with mature canary token programs typically detect breaches 50-70% faster than without them, providing invaluable time for containment.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

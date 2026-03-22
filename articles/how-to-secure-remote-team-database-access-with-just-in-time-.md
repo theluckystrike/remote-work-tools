@@ -40,7 +40,17 @@ Implement just-in-time database access that generates temporary credentials on-d
 - **These gaps matter because**: database breaches frequently trace back to compromised credentials.
 - **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
 
-## The Problem with Permanent Database Credentials
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Problem with Permanent Database Credentials
 
 Traditional database access follows a simple pattern: developers receive credentials during onboarding, and those credentials remain valid until someone manually revokes them. In remote teams, this creates several security gaps.
 
@@ -48,7 +58,7 @@ First, credentials persist across employment. When a developer leaves, revoking 
 
 These gaps matter because database breaches frequently trace back to compromised credentials. Permanent credentials that work from anywhere, at any time, amplify this risk significantly.
 
-## How Just-in-Time Access Works
+### Step 2: How Just-in-Time Access Works
 
 Just-in-time access inverts the default. Instead of credentials existing until removed, credentials are generated on-demand and automatically expire after a short window—typically minutes to hours.
 
@@ -63,7 +73,7 @@ The workflow follows a consistent pattern:
 
 This approach means that even if credentials leak, they become useless within hours rather than remaining valid indefinitely.
 
-## Implementing JIT Database Access
+### Step 3: Implementing JIT Database Access
 
 Several open-source tools enable JIT database access. Here's how to implement it using common approaches.
 
@@ -197,7 +207,7 @@ vault read database/creds/developer-readonly
 
 The response includes an username and password that automatically expire after the configured TTL.
 
-## Setting Up Approval Workflows
+### Step 4: Set Up Approval Workflows
 
 JIT access gains real value when paired with appropriate approval workflows. Not all database access requires the same scrutiny.
 
@@ -234,7 +244,7 @@ WHERE EXTRACT(HOUR FROM session_start) NOT BETWEEN 8 AND 18
    OR EXTRACT(DOW FROM session_start) IN (0, 6);
 ```
 
-## Practical Tips for Remote Teams
+### Step 5: Practical Tips for Remote Teams
 
 Start with non-production databases to build confidence. Let developers experience the JIT workflow with lower-stakes environments before extending to production.
 
@@ -243,6 +253,21 @@ Document the request process clearly. Remote teams span time zones—ensure deve
 Balance security with velocity. If developers cannot access databases quickly during incidents, they'll find workarounds. Set reasonable TTLs and ensure approvers understand on-call scenarios.
 
 Review access patterns regularly. Even with JIT, some users may accumulate excessive access over time. Periodic audits ensure the system continues to align with actual needs.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

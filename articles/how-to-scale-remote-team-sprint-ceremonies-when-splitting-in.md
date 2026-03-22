@@ -49,7 +49,17 @@ Third, cross-squad dependencies get lost. When Squad A's API changes break Squad
 
 The solution involves restructuring ceremonies into three categories: squad-specific sync, cross-squad coordination, and async communication.
 
-## Squad-Specific Ceremonies: Keep Them Lean
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Squad-Specific Ceremonies: Keep Them Lean
 
 Each squad should maintain minimal synchronous ceremonies while pushing information to async channels.
 
@@ -101,7 +111,7 @@ For sprint planning, maintain a synchronous session but limit it to two hours ma
 
 The key is moving individual story selection to async. Each developer reviews the sprint backlog beforehand and adds comments to tickets they intend to pick up. The synchronous portion focuses purely on coordination.
 
-## Cross-Squad Coordination: The Scrum of Scrums Alternative
+### Step 2: Cross-Squad Coordination: The Scrum of Scrums Alternative
 
 Rather than scheduling a separate "Scrum of Scrums" meeting that nobody enjoys, embed coordination into existing workflows.
 
@@ -187,7 +197,7 @@ jobs:
 
 This automation posts a dependency status report every Wednesday, giving teams visibility without requiring a live meeting.
 
-## Scaling Retrospectives: Rotate and Specialize
+### Step 3: Scaling Retrospectives: Rotate and Specialize
 
 Full-team retrospectives don't scale beyond two or three squads. Implement a rotating focus model:
 
@@ -205,24 +215,24 @@ For async retros, use a structured document template:
 ```markdown
 # Sprint {{sprintNumber}} Retrospective - {{squadName}}
 
-## What Went Well
+### Step 4: What Went Well
 - [ ]
 
-## What Could Improve
+### Step 5: What Could Improve
 - [ ]
 
-## Action Items
+### Step 6: Action Items
 | Item | Owner | Due |
 |------|-------|-----|
 |      |       |     |
 
-## Cross-Squad Blockers to Escalate
+### Step 7: Cross-Squad Blockers to Escalate
 -
 ```
 
 Each squad fills this out asynchronously. The Scrum Master or Engineering Manager consolidates cross-squad blockers and raises them in the next coordination touchpoint.
 
-## Practical Scheduling: Time Zone Consideration
+### Step 8: Practical Scheduling: Time Zone Consideration
 
 When squads span multiple time zones, ceremony timing requires deliberate rotation:
 
@@ -265,6 +275,21 @@ def calculate_optimal_meeting_times(timezones: list[str], squads: list[dict]) ->
 ```
 
 This script helps you generate a rotation schedule where no single time zone consistently takes inconvenient meeting times.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

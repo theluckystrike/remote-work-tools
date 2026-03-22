@@ -42,13 +42,23 @@ Scaling incident response for remote teams requires evolving from informal ad-ho
 - **Terminate if needed**: `SELECT pg_terminate_backend(<pid>)`
 4.
 
-## Understanding the Growth Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Growth Challenge
 
 Remote teams face unique incident response challenges that amplify as you scale. At startup size, a Slack message to the engineering channel gets immediate attention. At mid-size, that same approach creates chaos—too many people notified, unclear ownership, and response times that balloon as coordination overhead increases.
 
 The solution is intentional evolution of your incident response process at each growth stage, not waiting until things break to add structure.
 
-## Phase 1: Startup (1-10 Engineers)
+### Step 2: Phase 1: Startup (1-10 Engineers)
 
 At startup scale, your incident response should be lightweight and human-centered. Focus on clear ownership and fast communication rather than elaborate tooling.
 
@@ -64,7 +74,7 @@ When an incident occurs, the first responder follows this sequence:
 Create a simple ownership matrix mapping incident types to team members:
 
 ```markdown
-## Incident Ownership Matrix
+### Step 3: Incident Ownership Matrix
 
 | Incident Type | Primary | Secondary |
 |--------------|---------|-----------|
@@ -98,7 +108,7 @@ The first person to notice an incident posts immediately:
 
 This lightweight approach works because everyone knows each other, communication is direct, and no one needs permission to act.
 
-## Phase 2: Growth (10-30 Engineers)
+### Step 4: Phase 2: Growth (10-30 Engineers)
 
 As your team hits 10-15 engineers, the startup approach breaks down. Too many people receive notifications, incidents lack clear ownership, and tribal knowledge creates single points of failure.
 
@@ -111,18 +121,18 @@ Create runbooks in a centralized location:
 ```markdown
 # Runbook: High CPU on Production Server
 
-## Symptoms
+### Step 5: Symptoms
 - Alert from monitoring: CPU > 90% for 5 minutes
 - API responses timing out
 - Dashboard showing degraded performance
 
-## Diagnosis
+### Step 6: Diagnosis
 1. SSH to affected server: `ssh prod-api-01`
 2. Check processes: `top -c`
 3. Identify culprit: Look for processes using >50% CPU
 4. Check logs: `tail -f /var/log/app/error.log`
 
-## Resolution
+### Step 7: Resolution
 ### If Ruby/Python process
 1. Note PID: `kill -15 <pid>` (graceful)
 2. Wait 30 seconds
@@ -135,7 +145,7 @@ Create runbooks in a centralized location:
 3. Terminate if needed: `SELECT pg_terminate_backend(<pid>)`
 4. Notify @dba
 
-## Post-Incident
+### Step 8: Post-Incident
 - Document in incident tracker
 - Schedule post-mortem within 48 hours
 - Update runbook if steps changed
@@ -180,7 +190,7 @@ The on-call engineer owns initial response. If they cannot resolve within a thre
 Clear severity levels prevent over-response to minor issues and under-response to critical ones:
 
 ```markdown
-## Severity Definitions
+### Step 9: Severity Definitions
 
 ### SEV1 - Critical
 - Complete service outage
@@ -208,7 +218,7 @@ Clear severity levels prevent over-response to minor issues and under-response t
 - Regular sprint priority
 ```
 
-## Phase 3: Mid-Size (30-100+ Engineers)
+### Step 10: Phase 3: Mid-Size (30-100+ Engineers)
 
 At mid-size, you need formal incident management processes, cross-team coordination, and reliable automation.
 
@@ -217,7 +227,7 @@ At mid-size, you need formal incident management processes, cross-team coordinat
 Adopt a structured incident command approach borrowed from disaster response:
 
 ```markdown
-## Incident Commander Responsibilities
+### Step 11: Incident Commander Responsibilities
 
 The Incident Commander (IC) coordinates all aspects of an active incident:
 
@@ -319,33 +329,33 @@ Every SEV1 and SEV2 incident should have a blameless post-mortem:
 - **Severity**: SEV1/SEV2
 - **Impact**: Describe user/business impact
 
-## Timeline
+### Step 12: Timeline
 - 14:00 - Alert triggered
 - 14:05 - On-call acknowledged
 - 14:15 - Root cause identified
 - 14:30 - Fix deployed
 - 14:45 - Service restored
 
-## Root Cause
+### Step 13: Root Cause
 What actually happened?
 
-## What Went Well
+### Step 14: What Went Well
 - Fast detection
 - Clear communication
 - Effective teamwork
 
-## What Could Improve
+### Step 15: What Could Improve
 - Faster escalation
 - Better monitoring
 - Updated runbooks
 
-## Action Items
+### Step 16: Action Items
 - [ ] Add specific alert (owner: @person, due: date)
 - [ ] Update runbook (owner: @person, due: date)
 - [ ] Implement automated fix (owner: @person, due: date)
 ```
 
-## Key Principles for All Stages
+### Step 17: Key Principles for All Stages
 
 Regardless of team size, apply these foundational practices:
 
@@ -358,6 +368,21 @@ Regardless of team size, apply these foundational practices:
 **Automate wisely.** Automate repetitive tasks but keep humans in the loop for complex decisions.
 
 **Document everything.** If it's not written down, it doesn't exist. Create artifacts that help future responders.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

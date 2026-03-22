@@ -53,7 +53,17 @@ Most QBR methodologies assume synchronous, co-located participation. You gather 
 
 A well-designed remote QBR addresses these issues through async preparation, structured synchronous sessions, and clear ownership of follow-up actions.
 
-## Building Your Async QBR Workflow
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Build Your Async QBR Workflow
 
 ### Phase 1: Data Collection (Week 1)
 
@@ -62,23 +72,23 @@ Start the quarter review process with a week of async data gathering. Each team 
 Create a shared document with these sections:
 
 ```markdown
-## Accomplishments This Quarter
+### Step 2: Accomplishments This Quarter
 - [Team member]: What did you ship? What goals did you achieve?
 - Include metrics and specific outcomes where possible
 
-## Challenges Faced
+### Step 3: Challenges Faced
 - What blockers hindered progress?
 - What process improvements would help?
 
-## Learning & Growth
+### Step 4: Learning & Growth
 - What did you learn this quarter?
 - What skills did you develop?
 
-## Cross-Team Dependencies
+### Step 5: Cross-Team Dependencies
 - What did you need from other teams?
 - What did other teams need from you?
 
-## Next Quarter Priorities
+### Step 6: Next Quarter Priorities
 - What are your top 3 priorities?
 - What resources do you need?
 ```
@@ -115,7 +125,7 @@ Document specific next steps with owners and deadlines. This is where many QBRs 
 **Feedback Collection (10 minutes)**
 End by collecting feedback on the QBR process itself. What worked? What would team members change for next quarter?
 
-## Adapting QBRs for Multi-Level Distributed Leadership
+### Step 7: Adapting QBRs for Multi-Level Distributed Leadership
 
 When your organization has multiple layers of leadership—executives, directors, team leads—running effective QBRs requires additional coordination.
 
@@ -140,7 +150,7 @@ Distributed leadership requires explicit coordination across peer teams. Schedul
 3. Identify intersection points (10 minutes)
 4. Assign owners for cross-team action items (10 minutes)
 
-## Tools That Support Remote QBRs
+### Step 8: Tools That Support Remote QBRs
 
 Your tool selection impacts how effectively your team runs QBRs. The best approach uses separate tools for different phases:
 
@@ -152,7 +162,7 @@ Your tool selection impacts how effectively your team runs QBRs. The best approa
 
 **Asynchronous video:** Consider recording short video updates (5-10 minutes) that team members watch before the synchronous meeting. This works particularly well for team leads who want to present context beyond what fits in writing.
 
-## Common Pitfalls to Avoid
+### Step 9: Common Pitfalls to Avoid
 
 **Overloading the synchronous session.** The QBR is not the place to share every detail. Use async channels for information and reserve synchronous time for discussion and decision-making.
 
@@ -162,7 +172,7 @@ Your tool selection impacts how effectively your team runs QBRs. The best approa
 
 **Neglecting team member recognition.** QBRs often focus on problems and metrics while ignoring individual contributions. Build explicit time for acknowledging team member achievements.
 
-## Measuring QBR Effectiveness
+### Step 10: Measuring QBR Effectiveness
 
 Track these metrics to improve your QBR process over time:
 
@@ -171,7 +181,7 @@ Track these metrics to improve your QBR process over time:
 - **Meeting satisfaction:** Do participants feel the synchronous time was valuable?
 - **Time to alignment:** How quickly does the team reach consensus on priorities after the QBR?
 
-## Tools, Templates, and Resource Library
+### Step 11: Tools, Templates, and Resource Library
 
 ### Recommended Tools for Each QBR Phase
 
@@ -198,7 +208,7 @@ Track these metrics to improve your QBR process over time:
 **Individual Contributor Update Template**
 
 ```markdown
-## [Your Name] - Q1 2026 QBR Update
+### Step 12: [Your Name] - Q1 2026 QBR Update
 
 ### Accomplishments This Quarter
 - What did you complete or ship?
@@ -234,7 +244,7 @@ Track these metrics to improve your QBR process over time:
 **Team Lead QBR Template**
 
 ```markdown
-## [Team Name] - Q1 2026 QBR
+### Step 13: [Team Name] - Q1 2026 QBR
 
 ### Team Performance Summary
 - 3-5 key metrics this quarter (e.g., features shipped, bugs fixed, velocity)
@@ -280,29 +290,29 @@ Convert synthesis documents into a simple format for async consumption:
 ```
 # Q1 2026 Company QBR Executive Summary
 
-## Key Metrics Dashboard
+### Step 14: Key Metrics Dashboard
 | Metric | Q1 | Q4 | Trend |
 |--------|----|----|-------|
 | Revenue | $2.5M | $2.1M | ↑ |
 | Churn | 3% | 4% | ↓ |
 | NPS Score | 58 | 52 | ↑ |
 
-## What Went Well (Top Themes)
+### Step 15: What Went Well (Top Themes)
 1. **Shipping velocity** - 23% increase from last quarter
 2. **Customer retention** - Reduced churn by 1 point through improved onboarding
 3. **Team growth** - Successfully onboarded 4 new engineers with zero turnover
 
-## What Needs Attention
+### Step 16: What Needs Attention
 1. **Cloud infrastructure costs** - Up 18%, requires optimization review
 2. **Sales-engineering alignment** - Custom requests slowing standard delivery
 3. **Technical debt** - Growing test suite runtime threatening CI/CD efficiency
 
-## Next Quarter Bets (Q2 2026)
+### Step 17: Next Quarter Bets (Q2 2026)
 1. **Ship feature X** - Expected $500K new revenue impact
 2. **Infrastructure optimization** - Target 25% cost reduction
 3. **Process improvement** - Reduce custom request turnaround from 3 weeks to 1 week
 
-## Q1→Q2 Action Items
+### Step 18: Q1→Q2 Action Items
 | Action | Owner | Due Date | Success Metric |
 |--------|-------|----------|----------------|
 | Cloud cost analysis | DevOps Lead | April 30 | Identified $50K+ optimization |
@@ -312,7 +322,7 @@ Convert synthesis documents into a simple format for async consumption:
 
 This format is 3-4 pages, easily scannable in 15 minutes, and provides context for the synchronous discussion.
 
-## Measuring QBR Effectiveness Long-Term
+### Step 19: Measuring QBR Effectiveness Long-Term
 
 ### Monthly Tracking Dashboard
 
@@ -344,7 +354,7 @@ Metric: "Async pre-read completion before QBR sync"
 
 Track these metrics for 3 quarters. If metrics stay above targets, your QBR process is working. If any drop below targets, diagnose why and adjust.
 
-## QBR Anti-Patterns to Avoid
+### Step 20: QBR Anti-Patterns to Avoid
 
 **Anti-pattern 1: QBR becomes a presentation-only event**
 
@@ -370,7 +380,7 @@ QBR generates 20 action items. Two weeks later, nothing has changed. The next QB
 
 Fix: Assign *every* action item to a specific owner. Review action items monthly, not quarterly. If an item isn't progressing, surface it immediately.
 
-## Scaling QBRs Across Growth Stages
+### Step 21: Scaling QBRs Across Growth Stages
 
 ### Seed to Series A (5-15 people)
 Run a single all-hands QBR. Everyone submits async updates. One 2-hour sync covers entire company. Document outcomes in a single shared document.
@@ -383,6 +393,21 @@ Three-tier structure: Team QBRs → Functional QBRs (engineering, product, sales
 
 ### Post Series C (150+ people)
 Four-tier structure: Team → Department → Business Unit → Company Executive QBR. Can span 3-4 weeks. Use automation to aggregate data between levels.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

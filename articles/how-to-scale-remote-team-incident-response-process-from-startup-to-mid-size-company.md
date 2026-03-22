@@ -41,12 +41,22 @@ Scaling incident response for a remote team requires deliberate process design. 
 ```markdown
 # Runbook: High CPU on API Servers
 
-## Symptoms
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Symptoms
 - API latency > 2 seconds
 - 5xx error rate > 5%
 - CPU usage > 90%
 
-## Diagnosis
+### Step 2: Diagnosis
 1.
 - **When your remote engineering**: team is small—five people or fewer—incident response feels almost natural.
 - **Everyone knows the codebase**: Slack alerts reach everyone instantly, and a quick voice call resolves most issues.
@@ -54,7 +64,7 @@ Scaling incident response for a remote team requires deliberate process design. 
 - **If traffic spike**: Enable auto-scaling or rate limit
 2.
 
-## The Startup Phase: Informal but Fast
+### Step 3: The Startup Phase: Informal but Fast
 
 In the early stages, your incident response likely looks like this: something breaks, someone notices in Slack, and the team hops on a quick call or shares screens to debug. This works when there are fewer than five engineers and everyone knows the system intimately.
 
@@ -67,7 +77,7 @@ At this stage, your incident handling probably relies on:
 
 This approach has one genuine advantage: speed. When everyone knows everything, you can diagnose and fix issues fast. The problem is it doesn't scale, and it burns out your early engineers who become the de facto on-call for everything.
 
-## The Growth Pain Point: 10-15 Engineers
+### Step 4: The Growth Pain Point: 10-15 Engineers
 
 Between ten and fifteen engineers, you start hitting walls. Engineers work in separate domain areas—maybe one team owns the API, another owns the frontend, another owns the data pipeline. When an incident occurs, domain knowledge becomes fragmented. The engineer paged might have no idea how the failing component works.
 
@@ -75,7 +85,7 @@ You also notice time zone gaps. Your US-based team handles daytime incidents, bu
 
 This is when you need to introduce structured incident response before things get worse.
 
-## Phase 1: Establish Incident Response Foundations (10-20 Engineers)
+### Step 5: Phase 1: Establish Incident Response Foundations (10-20 Engineers)
 
 ### Define Severity Levels
 
@@ -137,26 +147,26 @@ Document your tribal knowledge. For each recurring failure mode, write a runbook
 ```markdown
 # Runbook: High CPU on API Servers
 
-## Symptoms
+### Step 6: Symptoms
 - API latency > 2 seconds
 - 5xx error rate > 5%
 - CPU usage > 90%
 
-## Diagnosis
+### Step 7: Diagnosis
 1. Check Prometheus dashboard: `cpu_usage{job="api-server"}`
 2. Identify which endpoints are slow: `http_request_duration_seconds`
 3. Look for traffic anomalies: `requests_per_second`
 
-## Resolution
+### Step 8: Resolution
 1. If traffic spike: Enable auto-scaling or rate limit
 2. If runaway query: Kill stuck queries in database
 3. If deployment: Roll back to previous version
 
-## Rollback Command
+### Step 9: Rollback Command
 git revert last-deploy && ./deploy.sh production
 ```
 
-## Phase 2: Mature Incident Response (20-50 Engineers)
+### Step 10: Phase 2: Mature Incident Response (20-50 Engineers)
 
 As you grow beyond twenty engineers, introduce formal incident command.
 
@@ -200,7 +210,7 @@ After every SEV1 or SEV2 incident, conduct a blameless post-mortem:
 ```markdown
 # Post-Incident Review: Database Outage
 
-## Timeline (UTC)
+### Step 11: Timeline (UTC)
 - 14:23 — Alert fires: database_cpu > 95%
 - 14:31 — On-call acknowledges
 - 14:35 — IC assigned, status page updated
@@ -208,19 +218,19 @@ After every SEV1 or SEV2 incident, conduct a blameless post-mortem:
 - 15:10 — Fix deployed, services recovering
 - 15:30 — All systems operational
 
-## Root Cause
+### Step 12: Root Cause
 Migration script omitted index creation, causing query degradation under load.
 
-## What Went Well
+### Step 13: What Went Well
 - Alert fired within 30 seconds of threshold breach
 - On-call responded in under 10 minutes
 - Communication was clear and timely
 
-## What Could Improve
+### Step 14: What Could Improve
 - Runbook didn't cover this specific scenario
 - No canary deployment caught the issue pre-launch
 
-## Action Items
+### Step 15: Action Items
 - [ ] Add index validation to CI pipeline (owner: @engineer-x, due: 2026-03-20)
 - [ ] Update runbook with migration checklist (owner: @engineer-y, due: 2026-03-22)
 ```
@@ -278,9 +288,9 @@ Quarterly, simulate major failures to test your response:
 ```markdown
 # Game Day Agenda: Q2 2026
 
-## Scenario: Complete database failure
-## Time: 2 hours
-## Participants: On-call team + IC rotation
+### Step 16: Scenario: Complete database failure
+### Step 17: Time: 2 hours
+### Step 18: Participants: On-call team + IC rotation
 
 1. Inject failure (database connection pool exhaustion)
 2. Monitor alert firing and response time
@@ -289,7 +299,7 @@ Quarterly, simulate major failures to test your response:
 5. Document gaps and improvements
 ```
 
-## Key Principles for Remote Incident Response
+### Step 19: Key Principles for Remote Incident Response
 
 Regardless of team size, these principles remain constant:
 
@@ -300,6 +310,21 @@ Regardless of team size, these principles remain constant:
 5. Respect time zones: Design rotations that don't burden specific regions permanently
 
 Scaling incident response isn't about adding bureaucracy—it's about creating structure that lets your team respond faster and more effectively as the system complexity grows. Start with foundations at ten engineers, mature the process at twenty, and formalize at fifty. Your on-call team will thank you.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

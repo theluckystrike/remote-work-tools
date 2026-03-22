@@ -36,7 +36,7 @@ ansible --version
 # ansible [core 2.14.x]
 ```
 
-## Directory Structure
+### Step 1: Directory Structure
 
 A clean layout keeps roles reusable across projects.
 
@@ -66,7 +66,7 @@ ansible/
     └── secrets.yml
 ```
 
-## ansible.cfg
+### Step 2: ansible.cfg
 
 ```ini
 [defaults]
@@ -86,7 +86,7 @@ pipelining         = True
 ssh_args           = -o ControlMaster=auto -o ControlPersist=60s
 ```
 
-## Inventory File
+### Step 3: Inventory File
 
 ```yaml
 # inventory/production/hosts.yml
@@ -109,7 +109,7 @@ all:
           ansible_host: 10.0.3.10
 ```
 
-## Group Variables
+### Step 4: Group Variables
 
 ```yaml
 # inventory/production/group_vars/all.yml
@@ -127,7 +127,7 @@ nginx_worker_connections: 1024
 app_port: 8080
 ```
 
-## Common Role
+### Step 5: Common Role
 
 ```yaml
 # roles/common/tasks/main.yml
@@ -190,7 +190,7 @@ app_port: 8080
     state: reloaded
 ```
 
-## Ansible Vault for Secrets
+### Step 6: Ansible Vault for Secrets
 
 Never store plaintext credentials in git.
 
@@ -232,7 +232,7 @@ Reference vault variables in tasks:
     password: "{{ db_password }}"
 ```
 
-## Main Playbook
+### Step 7: Main Playbook
 
 ```yaml
 # playbooks/site.yml
@@ -259,7 +259,7 @@ Reference vault variables in tasks:
     - postgres
 ```
 
-## Running Playbooks
+### Step 8: Run Playbooks
 
 ```bash
 # Check syntax before running
@@ -281,7 +281,7 @@ ansible-playbook playbooks/site.yml --limit web-01.example.com
 ansible-playbook playbooks/site.yml -v
 ```
 
-## Ad-Hoc Commands for Teams
+### Step 9: Ad-Hoc Commands for Teams
 
 Quick operations without full playbooks:
 
@@ -302,7 +302,7 @@ ansible all -m shell -a "uptime" -o
 ansible web-01.example.com -m setup | grep ansible_distribution
 ```
 
-## CI Integration (GitHub Actions)
+### Step 10: CI Integration (GitHub Actions)
 
 ```yaml
 # .github/workflows/ansible.yml
@@ -344,7 +344,7 @@ jobs:
           ANSIBLE_HOST_KEY_CHECKING: "False"
 ```
 
-## Testing Roles with Molecule
+### Step 11: Test Roles with Molecule
 
 ```bash
 pip install molecule molecule-docker
@@ -365,7 +365,7 @@ molecule test
     - role: nginx
 ```
 
-## Idempotency Checks
+### Step 12: Idempotency Checks
 
 Always verify idempotency before team rollout:
 
@@ -376,7 +376,7 @@ ansible-playbook playbooks/site.yml | grep -E "changed|failed"
 # Second run should show: changed=0 failed=0
 ```
 
-## Dynamic Inventory for Cloud Environments
+### Step 13: Dynamic Inventory for Cloud Environments
 
 Static inventory files work for fixed infrastructure, but cloud environments with auto-scaling groups require dynamic inventory. Ansible ships plugins for AWS, GCP, and Azure:
 
@@ -414,7 +414,7 @@ ansible-playbook -i inventory/production/aws_ec2.yml playbooks/site.yml
 
 This approach means newly launched instances automatically appear in the correct host groups based on their tags, without any manual inventory updates.
 
-## Ansible Callback Plugins for Better Logging
+### Step 14: Ansible Callback Plugins for Better Logging
 
 Remote teams need visibility into what Ansible does across multiple playbook runs. The `profile_tasks` and `log_plays` callback plugins help:
 
@@ -443,7 +443,7 @@ ara-manage runserver 0.0.0.0:8000
 
 With ara, every team member can browse the history of Ansible runs in a browser, inspect task outputs, and compare diffs between runs — no SSH access to the control node required.
 
-## Handling Drift in Long-Running Infrastructure
+### Step 15: Handling Drift in Long-Running Infrastructure
 
 Servers that have been running for months accumulate manual changes that drift from what Ansible expects. The `--check` flag combined with `--diff` produces a drift report:
 
@@ -457,7 +457,7 @@ grep "^TASK\|changed:" drift-report-*.txt | grep changed | sort | uniq -c | sort
 
 Running this weekly as a scheduled CI job creates an audit trail of infrastructure drift. When the count climbs, it signals that manual changes are accumulating and need to be folded back into roles.
 
-## Using Tags for Selective Playbook Runs
+### Step 16: Use Tags for Selective Playbook Runs
 
 Tags let teams run subsets of a playbook without applying the full configuration. This is especially useful in CI pipelines where you want to deploy only the application layer without re-running base OS hardening:
 
@@ -495,7 +495,7 @@ ansible-playbook playbooks/site.yml --list-tags
 
 Tags also help new team members understand which parts of the playbook affect which systems, making the codebase more approachable for engineers who aren't Ansible experts.
 
-## Rolling Updates for Zero-Downtime Deployments
+### Step 17: Rolling Updates for Zero-Downtime Deployments
 
 Deploying to a fleet of web servers without downtime requires updating servers in batches and checking health before proceeding:
 
@@ -542,6 +542,21 @@ Deploying to a fleet of web servers without downtime requires updating servers i
 ```
 
 The `serial` parameter controls the batch size — 25% means on an 8-server fleet, Ansible updates 2 servers at a time. If the health check fails on any server in the batch, `max_fail_percentage: 0` halts the entire playbook before the bad deploy reaches the remaining hosts.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

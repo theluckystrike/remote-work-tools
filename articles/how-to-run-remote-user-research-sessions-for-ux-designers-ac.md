@@ -40,13 +40,23 @@ Running remote user research sessions across time zones presents unique challeng
 - **Some users prefer recorded**: sessions because they can pause and think before responding.
 - **Match your methodology to**: participant preferences when possible.
 
-## The Core Challenge: Time Zone Overlap
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Challenge: Time Zone Overlap
 
 The fundamental problem with remote user research is finding time slots that work for participants across multiple regions. A session convenient for your London team excludes your Tokyo users. A time that works for San Francisco participants forces European team members into awkward evening hours.
 
 Successful async-first research requires rethinking the entire workflow. Instead of forcing everyone into simultaneous sessions, distribute the research process across time using three primary approaches: asynchronous recorded sessions, staggered live sessions with handoffs, and hybrid models that combine both methods.
 
-## Strategy 1: Asynchronous Recorded Sessions
+### Step 2: Strategy 1: Asynchronous Recorded Sessions
 
 Asynchronous recorded sessions form the backbone of time zone-friendly user research. One team member conducts a live interview while recording it. Other team members watch the recording later and contribute feedback through structured channels.
 
@@ -69,7 +79,7 @@ Before conducting actual sessions, test your setup with a colleague in a differe
 After recording, upload the session to a shared location and create a structured feedback template. Use a format like this:
 
 ```markdown
-## Session: [Participant Name] - [Date]
+### Step 3: Session: [Participant Name] - [Date]
 ### Timestamp: [0:00 - Introduction]
 
 **Observations:**
@@ -85,7 +95,7 @@ After recording, upload the session to a shared location and create a structured
 
 Distribute this template to team members with a 24-48 hour response window. This approach lets designers in Tokyo review sessions recorded by their colleagues in New York without any real-time coordination.
 
-## Strategy 2: Staggered Live Sessions with Handoffs
+### Step 4: Strategy 2: Staggered Live Sessions with Handoffs
 
 When you need live interaction but cannot find overlapping time slots, use a staggered handoff approach. One team member starts the session with participants in their time zone, then hands off observation duties to colleagues in other regions for subsequent sessions.
 
@@ -122,7 +132,7 @@ For staggered sessions, use collaboration tools that support async observation:
 - Notion: Use a database that tags observations by participant, session number, and research question
 - Slack: Set up a dedicated channel for live session observations with timestamped updates
 
-## Strategy 3: Hybrid Synchronous Windows
+### Step 5: Strategy 3: Hybrid Synchronous Windows
 
 If your team has even a small window of overlap, protect that time for high-value synchronous activities. Use the 2-3 hour overlap for synthesis sessions, stakeholder presentations, and sensitive interviews that require real-time rapport building.
 
@@ -148,7 +158,7 @@ console.log(`Best sync window: ${overlap.join(', ')}`);
 
 Schedule synthesis workshops during these overlap windows. Use the async time for research execution, and reserve synchronous time for collaborative analysis where real-time discussion accelerates insight generation.
 
-## Managing Participant Recruitment Across Regions
+### Step 6: Manage Participant Recruitment Across Regions
 
 Your participant recruitment strategy must account for time zone distribution. Recruit participants who match your target user demographics regardless of location, then schedule sessions based on their availability.
 
@@ -165,7 +175,7 @@ Your participant recruitment strategy must account for time zone distribution. R
 
 Screen participants for willingness to participate in async formats. Some users prefer recorded sessions because they can pause and think before responding. Others need the energy of live interaction. Match your methodology to participant preferences when possible.
 
-## Documentation and Synthesis
+### Step 7: Documentation and Synthesis
 
 Regardless of which time zone strategy you use, document everything systematically. Create a research repository with:
 
@@ -179,7 +189,7 @@ Regardless of which time zone strategy you use, document everything systematical
 After completing all sessions, schedule a synthesis session using your overlap window. Use affinity mapping to group observations:
 
 ```markdown
-## Synthesis Template
+### Step 8: Synthesis Template
 
 ### Research Question: [Your question here]
 
@@ -192,11 +202,11 @@ After completing all sessions, schedule a synthesis session using your overlap w
 - Design implication: [What this means for design]
 ```
 
-## Common Pitfalls to Avoid
+### Step 9: Common Pitfalls to Avoid
 
 Several mistakes undermine remote user research effectiveness. First, avoid conducting sessions alone when your team is distributed. Always have at least one observer from each major time zone represented. Second, do not skip transcription. Manually reviewing hours of recordings wastes time that could go toward insight synthesis. Third, resist the temptation to only schedule sessions during your local work hours. This defeats the purpose of distributed research and excludes team member participation.
 
-## Budget and Tool Recommendations
+### Step 10: Budget and Tool Recommendations
 
 Running quality research across time zones requires investing in the right infrastructure:
 
@@ -230,7 +240,7 @@ For professional-grade research, invest in:
 
 Total setup cost: $200-500 for quality baseline. This investment pays for itself through research efficiency and findings quality.
 
-## Recruiting Participants Across Time Zones
+### Step 11: Recruiting Participants Across Time Zones
 
 International participant recruitment requires different strategies than domestic research:
 
@@ -262,7 +272,7 @@ Beyond demographic targeting, screen for:
 - Technical proficiency (can use Zoom, handle screen sharing)
 - Communication clarity (not all potential participants articulate well on camera)
 
-## Session Structure for Async-Friendly Research
+### Step 12: Session Structure for Async-Friendly Research
 
 Design your research protocol assuming async observation:
 
@@ -303,7 +313,7 @@ Even async observers should participate in real-time:
 - Researcher compiles quotes and highlights
 - Initial findings documented
 
-## Analysis and Synthesis at Scale
+### Step 13: Analysis and Synthesis at Scale
 
 Scaling from 1-2 sessions to 5+ sessions requires systematized analysis:
 
@@ -341,7 +351,7 @@ Hour 3: Recommendations
 
 Workshop is most efficient with full team present or async recordings captured for absent members.
 
-## Handling Sensitive Topics in Remote Research
+### Step 14: Handling Sensitive Topics in Remote Research
 
 Some research (health, finance, personal experiences) requires extra care:
 
@@ -359,7 +369,7 @@ Some research (health, finance, personal experiences) requires extra care:
 - For employee research, use external researchers to reduce power dynamics
 - For customer research, explicitly separate product feedback from feature decisions
 
-## Building a Research Repository
+### Step 15: Build a Research Repository
 
 Accumulate insights over time in searchable format:
 
@@ -392,7 +402,7 @@ Research Archive (Notion/Airtable):
 
 This structure enables future researchers to understand context and use past findings.
 
-## Measuring Research Quality
+### Step 16: Measuring Research Quality
 
 Distributed research can actually produce higher-quality insights with right approach:
 
@@ -410,7 +420,7 @@ If findings are unclear or team skeptical, repeat rather than forcing conclusion
 - Often reveals nuance first round missed
 - Builds team confidence in findings
 
-## Common Implementation Errors and Solutions
+### Step 17: Common Implementation Errors and Solutions
 
 **Error 1: Recording only lead researcher**
 
@@ -432,7 +442,7 @@ Mitigation: Link research findings to design sprints or product roadmap. Create 
 
 Mitigation: Rotate research responsibilities. Each team member should help at least one session quarterly. Prevents gatekeeping of insights.
 
-## Building Research Culture in Remote Teams
+### Step 18: Build Research Culture in Remote Teams
 
 Quality research requires cultural commitment:
 
@@ -463,6 +473,21 @@ Make research findings visible:
 This reinforces that research drives decisions, motivating investment in quality.
 
 Remote research requires more intentionality than in-person sessions, but often produces better insights because distributed team brings diverse perspectives and async documentation creates better artifact quality. The upfront investment in process and tools pays dividends through systematic, reusable insights.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

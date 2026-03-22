@@ -40,13 +40,23 @@ Accurate project scoping separates successful freelance developers from those wh
 - **Instead**: ask about the problem they're solving and who will use the solution.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## The Foundation: Understanding What Scoping Really Means
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Foundation: Understanding What Scoping Really Means
 
 Project scoping defines the boundaries of your work. It answers three critical questions: What will be built? How will you know it's complete? What falls outside the agreement? Many developers treat scoping as simply estimating hours, but it's really about creating a shared understanding with your client about deliverables, timeline, and assumptions.
 
 A well-scoped project protects both you and your client. You get paid fairly for your work. Your client gets exactly what they expect. Disputes become rare because everyone agreed on the definition of "done" before writing the first line of code.
 
-## Step-by-Step Scoping Process
+### Step 2: Step-by-Step Scoping Process
 
 ### 1. Gather Requirements Through Structured Conversation
 
@@ -134,7 +144,7 @@ Acceptance criteria specify what "done" means for each deliverable. Write them a
 
 These criteria transform vague requirements into measurable checkpoints. When you complete work that meets all criteria, the deliverable is done. No more "just one more thing" requests without formal scope change discussion.
 
-## Handling Scope Changes
+### Step 3: Handling Scope Changes
 
 Even with thorough scoping, clients will request changes. Build change management into your process from the start.
 
@@ -144,7 +154,7 @@ When a client requests something new, respond with the same format:
 
 This approach does three things: it educates clients about the cost of changes, it creates a paper trail, and it makes adding work feel like a deliberate decision rather than an expectation.
 
-## Sample Scoping Document
+### Step 4: Sample Scoping Document
 
 Here's a practical template you can adapt:
 
@@ -156,36 +166,36 @@ Date: [Date]
 ## Overview
 [Brief description of what this project accomplishes]
 
-## Deliverables
+### Step 5: Deliverables
 1. [Deliverable 1]
 2. [Deliverable 2]
 3. [Deliverable 3]
 
-## Out of Scope
+### Step 6: Out of Scope
 - [Item explicitly not included]
 - [Item explicitly not included]
 
-## Timeline
+### Step 7: Timeline
 - Phase 1: [Description] - [Duration]
 - Phase 2: [Description] - [Duration]
 - Phase 3: [Description] - [Duration]
 
-## Total Estimate
+### Step 8: Total Estimate
 [Total hours] hours at $[rate]/hour = $[total]
 
-## Payment Terms
+### Step 9: Payment Terms
 [Your payment terms]
 
-## Acceptance Criteria
+### Step 10: Acceptance Criteria
 For each deliverable, list specific testable criteria.
 
-## Assumptions
+### Step 11: Assumptions
 - Client provides [assets/content/access] by [date]
 - Client reviews deliverables within [timeframe]
 - No third-party API changes during project
 ```
 
-## Common Scoping Mistakes to Avoid
+### Step 12: Common Scoping Mistakes to Avoid
 
 **Underestimating complexity.** Clients often describe simple-sounding projects. Probe deeper. "Just a simple API" might involve authentication, rate limiting, error handling, documentation, and testing.
 
@@ -197,7 +207,7 @@ For each deliverable, list specific testable criteria.
 
 **Estimating in your head.** Write everything down. The act of documenting reveals gaps in your understanding.
 
-## Pricing Strategies for Different Project Types
+### Step 13: Pricing Strategies for Different Project Types
 
 Your rate structure should vary by project complexity and risk:
 
@@ -221,7 +231,7 @@ Your rate structure should vary by project complexity and risk:
 - Risk: Split with client
 - Example: "Phase 1 (authentication): Fixed $3,000. Phase 2 (API): Time-and-materials at $75/hr with 40-hour estimate"
 
-## Estimation Techniques You Can Use
+### Step 14: Estimation Techniques You Can Use
 
 **Three-point estimation** (reduces overconfidence):
 ```
@@ -252,7 +262,7 @@ Very complex (integration work):    20+ hours
 Total project: Sum complexity ratings, then add 25% buffer
 ```
 
-## Red Flags That Indicate Scope Creep Risk
+### Step 15: Red Flags That Indicate Scope Creep Risk
 
 Learn to identify projects likely to exceed scope:
 
@@ -273,7 +283,7 @@ Learn to identify projects likely to exceed scope:
 **Your response:**
 For projects showing 3+ red flags, increase estimates by 40-50% or propose time-and-materials instead. Your instinct is usually right.
 
-## Building Your Scoping Muscle
+### Step 16: Build Your Scoping Muscle
 
 Create a database of past estimates vs. actual hours to calibrate your skills:
 
@@ -295,7 +305,7 @@ Create a database of past estimates vs. actual hours to calibrate your skills:
 **Calibration:** If fixed projects consistently over by 15%+, adjust multiplier from 1.3x to 1.5x
 ```
 
-## Tools for Scoping
+### Step 17: Tools for Scoping
 
 Several tools help manage project scope:
 
@@ -308,7 +318,7 @@ Several tools help manage project scope:
 
 Build these into your scoping workflow. They create accountability and documentation that protects everyone involved.
 
-## Sample Scoping Project Template
+### Step 18: Sample Scoping Project Template
 
 Create this template and reuse it for every project:
 
@@ -323,23 +333,23 @@ Create this template and reuse it for every project:
 ## Problem Summary
 [1 paragraph describing what client is trying to achieve]
 
-## Proposed Solution
+### Step 19: Proposed Solution
 [Overview of your approach]
 
-## Deliverables
+### Step 20: Deliverables
 1. [Deliverable 1: Exact description]
 2. [Deliverable 2: Exact description]
 3. [Deliverable 3: Exact description]
 
-## Out of Scope (Explicitly Not Included)
+### Step 21: Out of Scope (Explicitly Not Included)
 - [Item 1]
 - [Item 2]
 - [Item 3]
 
-## Technical Approach
+### Step 22: Technical Approach
 [How you plan to build this. Include architecture decisions and technology choices]
 
-## Timeline
+### Step 23: Timeline
 - Phase 1: [Deliverables] - [Duration]
 - Phase 2: [Deliverables] - [Duration]
 - Phase 3: [Deliverables] - [Duration]
@@ -348,7 +358,7 @@ Create this template and reuse it for every project:
 **Estimated start:** [Date]
 **Estimated completion:** [Date]
 
-## Investment
+### Step 24: Investment
 - [Phase 1]: [Hours] hours at $[rate]/hour = $[cost]
 - [Phase 2]: [Hours] hours at $[rate]/hour = $[cost]
 - [Phase 3]: [Hours] hours at $[rate]/hour = $[cost]
@@ -356,13 +366,13 @@ Create this template and reuse it for every project:
 **Total investment:** $[amount]
 **Payment terms:** [Your terms - e.g., 50% on signing, 50% on delivery]
 
-## Success Criteria
+### Step 25: Success Criteria
 The project is considered successful when:
 - [Criterion 1]
 - [Criterion 2]
 - [Criterion 3]
 
-## Change Request Process
+### Step 26: Change Request Process
 Additional work beyond this scope will be quoted separately using this format:
 - Change description
 - Estimated hours
@@ -370,16 +380,31 @@ Additional work beyond this scope will be quoted separately using this format:
 - Timeline impact
 - Approval required before proceeding
 
-## Assumptions
+### Step 27: Assumptions
 - Client provides [assets/access/content] by [date]
 - Client reviews deliverables within [timeframe]
 - Client decisions don't change [technical foundation/scope]
 - [Your assumption about client involvement]
 
-## Approval
+### Step 28: Approval
 - Client representative: _________________ Date: _______
 - Developer: _________________ Date: _______
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

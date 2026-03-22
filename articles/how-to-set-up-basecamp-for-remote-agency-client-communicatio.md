@@ -25,7 +25,17 @@ This guide walks through setting up Basecamp specifically for remote agency clie
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 - **Topics covered**: creating your agency workspace, configuring client access properly, setting up automated check-ins
 
-## Creating Your Agency Workspace
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Create Your Agency Workspace
 
 The first step is establishing a clean workspace structure. Log into Basecamp and create a new project for each client relationship. Name it consistently—something like "ClientName - ProjectName" keeps things searchable.
 
@@ -41,7 +51,7 @@ Within each project, enable the features that matter for client work:
 
 The Hill Chart feature deserves special attention. It provides clients with a visual representation of project momentum without requiring them to understand technical details. When work is "on the hill" (figuring things out), clients see upward movement. Once the path clears, progress accelerates toward the summit (launch).
 
-## Configuring Client Access Properly
+### Step 2: Configure Client Access Properly
 
 One of Basecamp's strongest features is granular permission control. Never give clients full access—they don't need to see internal discussions or administrative controls.
 
@@ -71,7 +81,7 @@ Here's what clients see versus team members:
 | Automatic Updates| Receive     | Configure   |
 ```
 
-## Setting Up Automated Check-Ins
+### Step 3: Set Up Automated Check-Ins
 
 Manual status updates waste everyone's time. Basecamp's automatic check-ins solve this by prompting your team for updates on a schedule, then automatically sending summaries to clients.
 
@@ -99,7 +109,7 @@ For added automation, use Basecamp's integration with Slack or email to forward 
 }
 ```
 
-## Organizing Project Structure
+### Step 4: Organizing Project Structure
 
 A well-organized Basecamp project reduces confusion and search time. Create consistent structures across all client projects:
 
@@ -123,7 +133,7 @@ Each to-do list should contain granular tasks with:
 - Attachments for relevant files
 - Dependencies noted in descriptions
 
-## Improving File Sharing
+### Step 5: Improving File Sharing
 
 Clients often need to review deliverables—design mockups, documentation, video recordings. Basecamp's Docs & Files section handles this, but structure it intentionally:
 
@@ -144,7 +154,7 @@ Clients often need to review deliverables—design mockups, documentation, video
 
 The key insight: use separate folders for client-accessible content. This prevents accidental exposure of internal discussions while keeping everything in one place.
 
-## Integrating with Your Existing Workflow
+### Step 6: Integrate with Your Existing Workflow
 
 Basecamp works best when connected to your development pipeline. Common integrations include:
 
@@ -204,7 +214,7 @@ Once Basecamp is configured, success comes down to consistent habits:
 - Archive old messages after project phase ends
 - Keep active work visible, historical work accessible
 
-## Common Pitfalls to Avoid
+### Step 7: Common Pitfalls to Avoid
 
 Many agencies set up Basecamp but fail to get client adoption. Watch for these issues:
 
@@ -218,7 +228,7 @@ Many agencies set up Basecamp but fail to get client adoption. Watch for these i
 
 5. Outdated to-dos: Review and clean up to-dos weekly. Stale items reduce trust.
 
-## Measuring Success
+### Step 8: Measuring Success
 
 Track these metrics to ensure your Basecamp setup is working:
 
@@ -229,6 +239,21 @@ Track these metrics to ensure your Basecamp setup is working:
 
 If clients still rely on email for primary communication, that's a sign the Basecamp setup needs adjustment. The goal is Basecamp as the single source of truth.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

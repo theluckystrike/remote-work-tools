@@ -38,7 +38,17 @@ Remote work naturally creates information silos. Engineers on one team often hav
 
 A well-run demo day solves this by creating a regular cadence where teams present collaborative work to the entire organization. The format forces presenters to articulate not just what they built, but why it matters and how other teams can use it.
 
-## Structuring the Demo Day Format
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Structuring the Demo Day Format
 
 A cross-team demo day works best with a structured, time-boxed format that keeps energy high and respects everyone's schedules.
 
@@ -67,7 +77,7 @@ For a two-hour session, plan for 6-8 demos maximum. Fewer demos with deeper cont
 One week before the demo day:
 
 ```markdown
-## Demo Day Preparation Checklist
+### Step 2: Demo Day Preparation Checklist
 
 ### For Presenters
 - [ ] Confirm presenters and backup speakers
@@ -83,7 +93,7 @@ One week before the demo day:
 - [ ] Create Slack channel for live discussion
 ```
 
-## Selecting and Ordering Cross-Team Projects
+### Step 3: Select and Ordering Cross-Team Projects
 
 The most effective demo days feature work that genuinely required collaboration between teams. Look for projects where:
 
@@ -98,7 +108,7 @@ Order demos strategically. Consider:
 2. **Alternate technical complexity** — Mix straightforward features with deep technical work
 3. **End with forward-looking demos** — Leave the audience excited about what's coming
 
-## Technical Setup for Remote Demos
+### Step 4: Technical Setup for Remote Demos
 
 Reliable technical execution prevents the frustration that kills demo day momentum.
 
@@ -154,7 +164,7 @@ services:
 
 This ensures consistent, safe demos that won't affect real users.
 
-## Making Demos Actionable for Viewers
+### Step 5: Making Demos Actionable for Viewers
 
 The difference between a good demo and a great one lies in what viewers can do with the information afterward. Presenters should consistently answer:
 
@@ -170,7 +180,7 @@ Create a shared resource document that accumulates all demo links, including:
 - Team contact channels
 - RFCs or design documents
 
-## Handling Q&An Effectively
+### Step 6: Handling Q&An Effectively
 
 Q&A makes or breaks demo days. Without structure, sessions devolve into either awkward silence or lengthy debates that derail the schedule.
 
@@ -186,7 +196,7 @@ Designate someone to collect questions in chat and present them to presenters in
 When a question requires extended debate, acknowledge it and suggest a follow-up meeting. Note the participants and schedule immediately after the demo.
 
 ```markdown
-## Question Handling Template
+### Step 7: Question Handling Template
 
 **Category A: Clarification** (answer immediately)
 - "Which API endpoint handles that?"
@@ -198,7 +208,7 @@ When a question requires extended debate, acknowledge it and suggest a follow-up
 - "Should this approach have been different?"
 ```
 
-## Common Pitfalls to Avoid
+### Step 8: Common Pitfalls to Avoid
 
 **No cross-team content** — If every demo is from a single team, rename the event or fix the underlying visibility problem
 
@@ -210,7 +220,7 @@ When a question requires extended debate, acknowledge it and suggest a follow-up
 
 **Ignoring timezones** — Rotate demo times to share the burden of inconvenient hours fairly
 
-## Measuring Demo Day Success
+### Step 9: Measuring Demo Day Success
 
 Track these metrics to improve your sessions over time:
 
@@ -223,7 +233,7 @@ Track these metrics to improve your sessions over time:
 Send a brief survey after each session:
 
 ```markdown
-## Post-Demo Day Survey
+### Step 10: Post-Demo Day Survey
 
 1. How useful was today's demo day? (1-5)
 2. Which demo was most valuable and why?
@@ -231,7 +241,7 @@ Send a brief survey after each session:
 4. Any collaboration opportunities you want to explore?
 ```
 
-## Building a Sustainable Cadence
+### Step 11: Build a Sustainable Cadence
 
 Most organizations benefit from monthly or bi-monthly demo days. Too frequent and preparation becomes a burden; too rare and visibility suffers.
 
@@ -246,6 +256,21 @@ Set up a recurring schedule:
 
 Block prep time for presenters the week before. Make the schedule visible and hold people accountable to it.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

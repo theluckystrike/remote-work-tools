@@ -26,7 +26,17 @@ Move design system documentation from informal wikis to structured component lib
 - **Automated documentation keeps itself**: current because it derives from your actual code.
 - **Slack integration - Bot**: that searches documentation when questions are asked 4.
 
-## The Breaking Point: Why 20 People Changes Everything
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Breaking Point: Why 20 People Changes Everything
 
 At 20+ people, your design system faces several simultaneous pressures:
 
@@ -38,7 +48,7 @@ At 20+ people, your design system faces several simultaneous pressures:
 
 The transition from "we'll figure it out" to "here's how it works" must be intentional. Without structured documentation, your design system becomes a bottleneck rather than an enabler.
 
-## Strategy One: Tiered Documentation Structure
+### Step 2: Strategy One: Tiered Documentation Structure
 
 Rather than maintaining a single documentation site with everything at the same level, implement a tiered approach that serves different audiences:
 
@@ -72,7 +82,7 @@ docs/
     └── code-standards.md
 ```
 
-## Strategy Two: Automated Documentation from Code
+### Step 3: Strategy Two: Automated Documentation from Code
 
 Manual documentation drifts from reality. Automated documentation keeps itself current because it derives from your actual code. This is especially critical for remote teams where the "source of truth" cannot be a person's memory or a quickly-outdated wiki.
 
@@ -140,7 +150,7 @@ export const colorMeta = {
 };
 ```
 
-## Strategy Three: Living Changelog and Version Documentation
+### Step 4: Strategy Three: Living Changelog and Version Documentation
 
 At scale, different teams use different versions of your design system. Your documentation must accommodate this reality.
 
@@ -149,7 +159,7 @@ Implement a changelog that tracks not just what changed, but what teams need to 
 ```markdown
 # Changelog
 
-## v2.3.0 (2026-03-10)
+### Step 5: v2.3.0 (2026-03-10)
 
 ### Breaking Changes
 - `Button` prop `isOutlined` renamed to `variant: "outlined"` - Update all usages by March 25
@@ -179,7 +189,7 @@ your-docs.git
 
 This allows teams to reference the documentation matching their installed version, preventing confusion when APIs diverge between versions.
 
-## Strategy Four: Ownership and Governance Model
+### Step 6: Strategy Four: Ownership and Governance Model
 
 Documentation without ownership becomes orphaned. At 20+ people, assign explicit ownership:
 
@@ -215,7 +225,7 @@ documentation:
   champion_this_quarter: @casey-dev
 ```
 
-## Strategy Five: Async-First Search and Discovery
+### Step 7: Strategy Five: Async-First Search and Discovery
 
 Remote teams cannot lean on walking over to someone's desk to ask questions. Your documentation must be findable without human intervention.
 
@@ -247,7 +257,7 @@ export const DocLink = ({ to, children }) => (
 >
 ```
 
-## Measuring Documentation Health
+### Step 8: Measuring Documentation Health
 
 At scale, you need metrics to know if your documentation efforts are working:
 
@@ -258,7 +268,7 @@ At scale, you need metrics to know if your documentation efforts are working:
 
 Track these monthly and set improvement targets. Documentation is never "done"—it's a living system that requires ongoing maintenance.
 
-## Moving Forward
+### Step 9: Moving Forward
 
 Scaling design system documentation for a remote team over 20 people requires intentional infrastructure. The strategies above—tiered documentation, automation, versioning, ownership, and discoverability—provide a foundation for sustainable growth.
 
@@ -266,6 +276,21 @@ Start with what causes the most pain today. If your Slack channels are flooded w
 
 The goal is not perfect documentation—it's documentation that enables your team to move faster, not slower.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

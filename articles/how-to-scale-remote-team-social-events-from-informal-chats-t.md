@@ -42,7 +42,17 @@ The transition from informal social chats to structured social programs isn't op
 - **Small teams rely on**: organic interactions because they don't have alternatives.
 - **It's to create something**: better—intentional spaces where people can connect as humans, regardless of when they work or where they live.
 
-## The Problem With Organic Social at Scale
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Problem With Organic Social at Scale
 
 In small remote teams, social interaction emerges from proximity. You see who's online, notice when someone joins late from a different timezone, and casual conversations naturally happen in shared spaces. This incidental social capital builds trust and psychological safety—the foundation of effective collaboration.
 
@@ -50,7 +60,7 @@ Once your team grows beyond fifteen or twenty people, these organic moments beco
 
 Without intervention, remote teams become professional execution machines that lack the human bonds that make work meaningful. You ship code, hit deadlines, and hold retros—but nobody actually knows each other as people.
 
-## Phase One: Formalize the Informal
+### Step 2: Phase One: Formalize the Informal
 
 Before building complex programs, start by making existing informal interactions more accessible and inclusive.
 
@@ -99,7 +109,7 @@ function generatePairs(teamMembers, previousPairs = []) {
 
 Tools like Donut, Parrot, or custom Slack integrations can automate this. The key is keeping it lightweight—thirty minutes, no agenda, just conversation.
 
-## Phase Two: Structured Social Programs
+### Step 3: Phase Two: Structured Social Programs
 
 Once you've formalized informal interactions, introduce programs with clear structure and regular cadence.
 
@@ -143,7 +153,7 @@ Playlist Collaboration: Shared Spotify or Apple Music playlist where anyone adds
 
 These require zero scheduling but still create shared experiences and conversation starters.
 
-## Phase Three: Program Infrastructure
+### Step 4: Phase Three: Program Infrastructure
 
 As your social programs mature, build infrastructure that sustains them without relying on individual champions.
 
@@ -198,7 +208,7 @@ Track social program health without reducing everything to vanity metrics:
 
 Numbers tell you if programs are failing; they don't tell you if they're succeeding. Use metrics for alerting, not celebration.
 
-## Common Pitfalls to Avoid
+### Step 5: Common Pitfalls to Avoid
 
 Forcing Fun: Mandatory fun isn't fun. Every program should have clear value, but participation should remain voluntary. The goal is creating opportunities, not requiring attendance.
 
@@ -208,7 +218,7 @@ Ignoring Timezones: A social event at 9 AM San Francisco is 6 PM London and midn
 
 One-Person Shows: Programs that depend on one enthusiastic person will fail when that person burns out or leaves. Design for sustainability from the start.
 
-## Measuring Program Effectiveness Without Killing Culture
+### Step 6: Measuring Program Effectiveness Without Killing Culture
 
 Metrics matter, but bad metrics kill programs. Avoid obsessing over attendance numbers, which create false pressure to make events "sticky" or mandatory-feeling. Instead, track signals that indicate genuine connection:
 
@@ -220,7 +230,7 @@ Metrics matter, but bad metrics kill programs. Avoid obsessing over attendance n
 
 One weak signal is attendance at mandatory events. High numbers indicate compliance, not connection.
 
-## Evolution as Teams Grow
+### Step 7: Evolution as Teams Grow
 
 Your social infrastructure requirements change at predictable inflection points. At five people, nothing is needed. At fifteen, formalize a few traditions. At fifty, you need structured programs. At two hundred, you might need dedicated staff managing culture infrastructure.
 
@@ -228,7 +238,7 @@ Most teams don't acknowledge these inflection points until culture suddenly brea
 
 Budget time for leadership to discuss culture evolution explicitly. When you hit thirty people, discuss what worked informally and what will break if unchanged. Make conscious choices about what to formalize and what to let go.
 
-## Building Culture That Scales
+### Step 8: Build Culture That Scales
 
 The transition from informal to structured social programs isn't a sign that your team has lost its human touch—it's a sign that you're mature enough to be intentional about culture. Small teams rely on organic interactions because they don't have alternatives. Grown-up teams build infrastructure that makes meaningful connection possible regardless of size or geography.
 
@@ -236,7 +246,7 @@ Start where you are. If your team is small, add one structured element to your e
 
 The goal isn't to replicate an office water cooler. It's to create something better—intentional spaces where people can connect as humans, regardless of when they work or where they live. Asynchronous traditions, interest groups, and rotated ownership distribute the burden of culture-building across your organization rather than concentrating it in one person or function.
 
-## Remote Culture in Crisis and Transition
+### Step 9: Remote Culture in Crisis and Transition
 
 Culture infrastructure becomes critical when organizations face difficulty. During layoffs, restructuring, or rapid scaling, informal social bonds become lifelines. Teams that have invested in intentional culture through programs and traditions weather crises better than those that relied on organic connection.
 
@@ -248,7 +258,7 @@ Conversely, if you've coasted on organic culture and never formalized anything, 
 
 Invest in social infrastructure not for good times, but for the times when your organization needs it most.
 
-## Documentation and Handoff
+### Step 10: Documentation and Handoff
 
 For long-term sustainability, document your social programs explicitly. When a team member moves into a new role or leaves the organization, the documented structure survives them.
 
@@ -264,7 +274,7 @@ This documentation prevents knowledge loss and makes it easy for new leaders to 
 
 Remote culture is infrastructure. Like any infrastructure, it requires documentation, maintenance, and deliberate evolution as circumstances change.
 
-## Technology Stack for Social Event Management
+### Step 11: Technology Stack for Social Event Management
 
 As you scale social programs, technology support becomes valuable. You don't need dedicated software—many organizations manage this with spreadsheets and Slack—but certain tools simplify operations:
 
@@ -280,7 +290,7 @@ As you scale social programs, technology support becomes valuable. You don't nee
 
 Start simple. A shared Google Calendar and a Slack channel are often sufficient for programs under 100 people. Add tools as specific pain points emerge.
 
-## Examples From Real Organizations
+### Step 12: Examples From Real Organizations
 
 Different organizations approach remote culture differently based on their structure and geography:
 
@@ -293,6 +303,21 @@ Different organizations approach remote culture differently based on their struc
 **Large org with divisions**: Central social programs at the company level (monthly socials, global interest groups), local programs within divisions (weekly team socials), team-level informal traditions.
 
 Your specific approach depends on team size, timezone spread, and cultural priorities. But the fundamental principle holds: as scale increases, intentional social infrastructure becomes essential.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

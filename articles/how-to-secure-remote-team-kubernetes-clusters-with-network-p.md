@@ -38,13 +38,23 @@ Implement Kubernetes network policies with a deny-all baseline, then explicitly 
 - **Topics covered**: understanding kubernetes network policies, baseline policy for remote team clusters, implementing namespace isolation
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Understanding Kubernetes Network Policies
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Kubernetes Network Policies
 
 Kubernetes network policies function as firewall rules for your pod-to-pod communication. By default, Kubernetes allows all traffic between pods, which creates a significant security gap, especially in multi-tenant or distributed team setups. Network policies enable you to explicitly define which pods can communicate with each other, reducing the attack surface significantly.
 
 A network policy consists of three main components: pod selection, ingress rules defining allowed incoming traffic, and egress rules defining allowed outgoing traffic. When you apply a policy, only the traffic matching your specified rules is permitted—all other traffic gets blocked.
 
-## Baseline Policy for Remote Team Clusters
+### Step 2: Baseline Policy for Remote Team Clusters
 
 Start with a deny-all policy as your foundation, then explicitly allow only required communication paths. This zero-trust approach ensures that new pods cannot communicate until you explicitly permit it.
 
@@ -71,7 +81,7 @@ kubectl apply -f default-deny-all.yaml
 
 After applying the deny-all policy, test that pods cannot communicate. You should see connection timeouts when attempting to access services that haven't been explicitly allowed.
 
-## Implementing Namespace Isolation
+### Step 3: Implementing Namespace Isolation
 
 Remote teams often share clusters across multiple projects or environments. Namespace-based isolation provides a logical separation that network policies can enforce. Create policies that restrict traffic between namespaces while permitting necessary communication.
 
@@ -95,7 +105,7 @@ spec:
 
 This policy allows traffic only within the production namespace. Remote team members working on staging or development environments cannot accidentally or intentionally access production resources.
 
-## Protecting Sensitive Services
+### Step 4: Protecting Sensitive Services
 
 Your cluster likely contains services that require stricter access controls—databases, authentication services, or internal APIs. Create dedicated policies for these critical components.
 
@@ -131,7 +141,7 @@ Label your application pods accordingly:
 kubectl label pods/backend-xyz app=backend role=application -n production
 ```
 
-## Egress Control for Remote Workers
+### Step 5: Egress Control for Remote Workers
 
 Remote team members sometimes run local development environments that need cluster access. Egress policies prevent compromised or unauthorized pods from exfiltrating data to external servers.
 
@@ -166,7 +176,7 @@ spec:
 
 This policy allows the sensitive workload to communicate only with approved services and DNS, blocking all other outbound connections.
 
-## Enabling DNS and Essential Services
+### Step 6: Enable DNS and Essential Services
 
 Every pod needs DNS resolution and often requires access to external APIs for legitimate purposes. Create a policy that allows essential outbound traffic:
 
@@ -204,7 +214,7 @@ spec:
 
 This policy permits DNS queries to the kube-system namespace and HTTPS traffic to public IP addresses only, blocking private network access.
 
-## Testing Your Policies
+### Step 7: Test Your Policies
 
 After applying network policies, verify they work as expected. Use a debug pod to test connectivity:
 
@@ -215,7 +225,7 @@ kubectl exec -it debug-pod -- wget -qO- http://service-name.namespace.svc.cluste
 
 The connection should fail if no policy permits it. Check the policy status and adjust rules accordingly.
 
-## Remote Team Workflow Considerations
+### Step 8: Remote Team Workflow Considerations
 
 Network policy management requires coordination when your engineering team is distributed. A few patterns that work well for remote teams:
 
@@ -259,7 +269,7 @@ kubectl apply -f network-policies/ -n staging
 
 Configure your CI pipeline to automate staging validation and post results to your team's async communication channel before any production apply is considered.
 
-## Comparing Network Policy Tools
+### Step 9: Comparing Network Policy Tools
 
 The standard Kubernetes NetworkPolicy resource covers most use cases, but several tools extend what is possible:
 
@@ -272,13 +282,28 @@ The standard Kubernetes NetworkPolicy resource covers most use cases, but severa
 
 Cilium deserves particular attention for remote teams. Its Hubble observability layer visualizes real-time traffic flows across your cluster, which is invaluable when a distributed team needs to diagnose why a service cannot reach another without physically being in the same room. Engineers can share Hubble dashboard links rather than coordinating live kubectl sessions.
 
-## Monitoring and Maintenance
+### Step 10: Monitor and Maintenance
 
 Network policies require ongoing attention as your applications evolve. Review policy logs regularly and update rules when adding new services. Document your policy decisions so remote team members understand the security boundaries.
 
 Consider using tools like Calico or Cilium that provide enhanced network policy capabilities beyond the Kubernetes specification, including more sophisticated traffic matching and visualization.
 
 Schedule a monthly async review where engineers post any observed policy gaps or unnecessary restrictions to a shared document. This keeps security posture current without requiring synchronous meetings and gives every team member — regardless of timezone — a voice in how the cluster is protected.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -55,7 +55,17 @@ The five-minute constraint forces presenters to distill information to its essen
 
 Research on knowledge sharing in technical teams consistently shows that frequent, small sharing sessions outperform occasional deep-dive presentations. The brevity makes sharing sustainable over the long term.
 
-## Setting Up Your Lightning Talk Framework
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Your Lightning Talk Framework
 
 ### Scheduling and Frequency
 
@@ -108,7 +118,7 @@ A team lead wants to share a new incident response checklist:
 4. Implementation (1 minute): Where the checklist lives, when to use it.
 5. Closing (30 seconds): Ask for feedback before正式 implementing.
 
-## Managing Time Effectively
+### Step 2: Manage Time Effectively
 
 The five-minute limit only works if you enforce it. Here are techniques that work well for remote teams:
 
@@ -143,7 +153,7 @@ Designate one person as the timekeeper whose sole responsibility is to give visu
 
 Structure talks so that a presenter can stop at any natural breaking point. If time runs out, the presenter knows exactly where they can gracefully exit without leaving the audience confused.
 
-## Tools That Support Lightning Talks
+### Step 3: Tools That Support Lightning Talks
 
 While you can run lightning talks with basic video conferencing tools, certain features make them more effective:
 
@@ -153,7 +163,7 @@ While you can run lightning talks with basic video conferencing tools, certain f
 
 Most major video conferencing platforms—Zoom, Google Meet, Microsoft Teams—support these features. The specific tool matters less than consistency in using it.
 
-## Handling Remote-Specific Challenges
+### Step 4: Handling Remote-Specific Challenges
 
 ### Time Zone Considerations
 
@@ -185,7 +195,7 @@ Provide presenters with basic guidance on their setup:
 - Use a wired connection when possible for stable video
 - Have a backup plan if their primary tool fails
 
-## Building the Culture
+### Step 5: Build the Culture
 
 Lightning talks succeed when they become routine. Here's how to encourage participation:
 
@@ -231,46 +241,46 @@ Different platforms offer varying support for timed presentations. Here's what m
 
 For consistent lightning talks, Zoom or Google Meet provide the best balance of features and ease of use.
 
-## Content Templates that Work
+### Step 6: Content Templates that Work
 
 Standardizing presentation structure helps presenters focus on content, not format. Here's a template that works across most topics:
 
 ```markdown
 # Lightning Talk Template (5 minutes)
 
-## Hook (30 seconds)
+### Step 7: Hook (30 seconds)
 Start with the benefit or outcome:
 - "This saved us 3 hours per deployment"
 - "I found a bug that's affecting everyone"
 - "Here's a tool that nobody knows about"
 
-## Context (1 minute)
+### Step 8: Context (1 minute)
 Explain why this matters:
 - What problem does this solve?
 - Who experiences this problem?
 - Why does the current approach fall short?
 
-## Solution Demo (2 minutes)
+### Step 9: Solution Demo (2 minutes)
 Show, don't tell:
 - Live demo if possible
 - If demo is risky, use a recording
 - Show actual output/results
 - Keep it simple—no complex setup
 
-## Action (1 minute)
+### Step 10: Action (1 minute)
 Make it actionable:
 - Link to documentation
 - Repo location
 - Slack channel for questions
 - Specific next steps for audience
 
-## Closing (30 seconds)
+### Step 11: Closing (30 seconds)
 Summarize and open for questions:
 - Restate the key takeaway
 - "Questions for the next 2 minutes?"
 ```
 
-## Measuring Engagement and Impact
+### Step 12: Measuring Engagement and Impact
 
 Track what's working to maintain momentum:
 
@@ -302,7 +312,7 @@ Run this weekly to spot trends. If attendance drops, you may need to:
 - Solicit more presenter volunteers
 - Highlight upcoming talk topics in advance
 
-## Async Lightning Talks for Distributed Teams
+### Step 13: Async Lightning Talks for Distributed Teams
 
 Not all teams can gather synchronously. Async lightning talks work through recorded videos:
 
@@ -324,7 +334,7 @@ Not all teams can gather synchronously. Async lightning talks work through recor
 
 Async talks typically get lower discussion engagement, but they preserve knowledge for future team members who join.
 
-## Escalating to Longer Talks
+### Step 14: Escalating to Longer Talks
 
 Some lightning talks spark enough interest that a longer session makes sense. Have a process for escalation:
 
@@ -338,6 +348,21 @@ Some lightning talks spark enough interest that a longer session makes sense. Ha
 2. Deep dive on mechanics (15 minutes)
 3. Interactive Q&A (5-10 minutes)
 4. Schedule separately, not part of lightning talk series
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

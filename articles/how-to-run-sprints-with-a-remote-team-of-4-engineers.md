@@ -47,23 +47,33 @@ Most Scrum guides were written with co-located teams of 7 (plus or minus 2) in m
 
 The key insight is that a team of 4 has much lower coordination overhead than a larger team — but the async penalty is higher per person. Every hour spent in a poorly run ceremony affects 100% of your engineering capacity. Design your sprint process to minimize synchronous time while preserving the feedback loops that make sprints useful.
 
-## Async-First Sprint Ceremonies
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Async-First Sprint Ceremonies
 
 ### Weekly Written Standups
 
 Replace daily video standups with weekly written updates posted in a dedicated GitHub Discussion or Slack thread. Each engineer posts their update using a consistent template:
 
 ```markdown
-## Completed This Week
+### Step 2: Completed This Week
 - What did you ship?
 
-## Next Week
+### Step 3: Next Week
 - What will you work on?
 
-## Blockers
+### Step 4: Blockers
 - Anything blocking progress?
 
-## Notes
+### Step 5: Notes
 - Any context for the team?
 ```
 
@@ -128,7 +138,7 @@ Combine these into a single 60-minute session to reduce meeting fatigue:
 - Three columns: Went well, To improve, Action items
 - Rotate facilitation between sprints
 
-## Tooling Choices for Small Remote Teams
+### Step 6: Tooling Choices for Small Remote Teams
 
 ### Linear vs Jira for a Team of 4
 
@@ -142,7 +152,7 @@ Linear's cycle (sprint) feature lets you assign issues to 2-week cycles with min
 
 For teams that want to minimize tool sprawl, GitHub Projects v2 handles sprint management well. Create a project board with a sprint iteration field, use labels for priority, and link issues directly to the PRs that close them. The main advantage is that everything lives in GitHub — your planning board, code, and CI/CD are all in one place.
 
-## Capacity Planning for 4-Person Teams
+### Step 7: Capacity Planning for 4-Person Teams
 
 Capacity planning for small remote teams requires accounting for context-switching overhead and async communication delays.
 
@@ -207,17 +217,17 @@ function calculateVelocity(completedPoints, lookbackSprints = 3) {
 
 Use the conservative estimate when committing to a sprint goal. With 4 engineers, one person going on leave, dealing with a production incident, or getting pulled into an interview loop can shift your velocity by 25%. Building in that buffer prevents sprint failure from external factors.
 
-## Managing Dependencies in a Small Team
+### Step 8: Manage Dependencies in a Small Team
 
 With 4 engineers, dependencies are more visible but still need management. Create a simple dependency tracking system:
 
 ```yaml
 # In each story, add dependency information
-## Dependencies
+### Step 9: Dependencies
 - Blocked by: #123 (API endpoint)
 - Blocks: #456 (Frontend component)
 
-## Technical Notes
+### Step 10: Technical Notes
 - API needed by: Friday
 - PR review requested from: @engineer-name
 ```
@@ -230,7 +240,7 @@ Use GitHub Projects to visualize dependencies:
 
 For a 4-person team, the most common dependency problem is a single engineer holding a blocking piece of work. Make this visible during planning: if more than 2 issues in a sprint depend on one engineer's output, the sprint plan has a fragile critical path. Rebalance before committing.
 
-## Handling Blockers and Escalation
+### Step 11: Handling Blockers and Escalation
 
 In async environments, blockers can go unnoticed for days. Implement automated escalation:
 
@@ -265,28 +275,43 @@ jobs:
             }
 ```
 
-## Sprint Retrospectives That Actually Work
+### Step 12: Sprint Retrospectives That Actually Work
 
 For a 4-person team, retrospectives should focus on process improvement, not blame. Use this format:
 
 **Quick Retro Template:**
 
 ```markdown
-## What went well?
+### Step 13: What went well?
 - [Item 1]
 - [Item 2]
 
-## What could improve?
+### Step 14: What could improve?
 - [Item 1]
 - [Item 2]
 
-## Action items for next sprint
+### Step 15: Action items for next sprint
 - [ ] Action owner: description
 ```
 
 Rotate the facilitator role each sprint. This prevents one person from dominating the conversation and ensures fresh perspectives.
 
 One common failure mode for small team retros is ending with action items that never get implemented. To prevent this, limit retro action items to one per sprint, assign a specific owner, and include it as a tracked issue in the next sprint's board. If the previous sprint's retro action wasn't completed, discuss why before adding a new one.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

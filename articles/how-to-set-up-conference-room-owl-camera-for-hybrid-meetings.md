@@ -43,7 +43,7 @@ Physical placement matters significantly. Position the Owl at the center of the 
 
 Connect the Owl to power and wait for the LED ring to initialize (approximately 30 seconds). The device appears as an USB camera and speaker when connected to your host machine—no special drivers required for most operating systems.
 
-## Network Configuration for Reliable Streaming
+### Step 1: Network Configuration for Reliable Streaming
 
 Network quality directly impacts meeting stability. While the Owl works over USB, many organizations prefer network-based deployment for centralized management.
 
@@ -72,7 +72,7 @@ Ensure your firewall allows traffic on these ports:
 
 For organizations using video conferencing platforms like Zoom, Google Meet, or Microsoft Teams, verify that the respective meeting client ports are permitted.
 
-## Platform Integration Patterns
+### Step 2: Platform Integration Patterns
 
 The Meeting Owl integrates with major video platforms through standard USB connectivity. Here's how to configure for popular options:
 
@@ -113,7 +113,7 @@ The API enables programmatic control over:
 - LED brightness and behavior
 - Meeting analytics extraction
 
-## Audio Optimization for Hybrid Spaces
+### Step 3: Audio Optimization for Hybrid Spaces
 
 Video quality means little without clear audio. The Owl's eight microphones capture voices within a 12-foot radius, but room acoustics significantly affect performance.
 
@@ -194,7 +194,7 @@ Keep the Owl firmware updated for performance improvements:
 - Check for competing audio devices
 - Update Owl firmware
 
-## Deployment Automation with Ansible
+### Step 4: Deploy ment Automation with Ansible
 
 For IT teams managing multiple rooms, here's an example Ansible playbook for Owl configuration:
 
@@ -216,7 +216,7 @@ For IT teams managing multiple rooms, here's an example Ansible playbook for Owl
 
 This approach enables consistent configuration across all conference rooms and simplifies long-term maintenance.
 
-## Multi-Room Deployment Strategies
+### Step 5: Multi-Room Deployment Strategies
 
 Organizations with multiple hybrid conference rooms face compounded challenges: device inventory management, consistent firmware versions, and coordinating room availability with remote participants.
 
@@ -266,7 +266,7 @@ done
 
 Running this at 7:00 AM gives IT 1-2 hours to resolve hardware issues before the morning meeting rush.
 
-## Calendar Integration for Room Awareness
+### Step 6: Calendar Integration for Room Awareness
 
 Remote participants benefit from knowing which rooms are equipped for hybrid meetings. Integrating Owl room status with your calendar system reduces confusion about which invitations will have video capability.
 
