@@ -207,7 +207,7 @@ The biggest fear with dependency updates involves introducing subtle bugs throug
 - Load tests for performance-critical dependencies
 - Smoke tests running basic functionality paths
 
-Remote teams benefit from comprehensive automated testing because it replaces the need for developers to manually verify everything works. Confidence in test coverage enables faster dependency updates.
+Remote teams benefit from full automated testing because it replaces the need for developers to manually verify everything works. Confidence in test coverage enables faster dependency updates.
 
 **Run tests in matrices.** Test your application against multiple versions of critical dependencies. This identifies incompatibilities before they hit production.
 
