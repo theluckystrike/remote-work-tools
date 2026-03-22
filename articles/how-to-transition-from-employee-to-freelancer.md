@@ -406,7 +406,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
 - [Remote Employee Mental Health Support Guide 2026](/remote-work-tools/remote-employee-mental-health-support-guide-2026/)
 - [How to Set Up Compliant Remote Employee Benefits](/remote-work-tools/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
+- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
 - [How to Handle Remote Employee Underperformance](/remote-work-tools/how-to-handle-remote-employee-underperformance-conversation-/)
-- [How to Celebrate Employee Anniversaries on Fully Remote](/remote-work-tools/how-to-celebrate-employee-anniversaries-on-fully-remote-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -418,11 +418,10 @@ If scores are close (within 0.5 points), choose the one your team is most famili
 ## Related Articles
 
 - [Best Tools for Remote Team Documentation 2026: Notion](/remote-work-tools/best-remote-team-documentation-tools-2026/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 - [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
-- [Best Knowledge Base Search Tool for Remote Teams with Docs](/remote-work-tools/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
 - [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

@@ -306,7 +306,6 @@ The goal is understanding whether the team is productive, not proving individual
 - [How to Measure Remote Team Productivity Without Surveillance](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
 - [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 - [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
-
+- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

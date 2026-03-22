@@ -287,6 +287,6 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
 - [Best Password Manager for Remote Development Teams](/remote-work-tools/best-password-manager-for-remote-development-teams/)
 - [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
-- [Best Cloud Access Security Broker for Remote Teams](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
+- [Just-in-Time Database Access for Remote Teams](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

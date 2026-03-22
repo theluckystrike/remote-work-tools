@@ -510,6 +510,6 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 - [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
 - [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [Notion vs Confluence for Remote Documentation](/remote-work-tools/notion-vs-confluence-remote-documentation/)
-- [Best Tools for Remote Team Documentation Reviews 2026](/remote-work-tools/best-tools-for-remote-team-documentation-reviews-2026/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

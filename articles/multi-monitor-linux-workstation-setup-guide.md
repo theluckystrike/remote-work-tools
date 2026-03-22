@@ -366,11 +366,10 @@ For a pure development workstation where you want tiling and keyboard control, i
 ## Related Articles
 
 - [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
+- [How to Set Up a Portable Coding Workstation](/remote-work-tools/how-to-set-up-portable-coding-workstation/)
 - [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
 - [Portable Monitor Setup for Digital Nomads](/remote-work-tools/portable-monitor-setup-for-digital-nomads/)
 - [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
-- [Remote Work Internet Redundancy Setup Guide](/remote-work-tools/remote-work-internet-redundancy-setup-guide/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

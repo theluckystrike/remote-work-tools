@@ -493,9 +493,10 @@ Set up your first handoff doc today. Improve it after your first use. By the fif
 
 ## Related Articles
 
-- [Coda vs Notion for Project Documentation](/coda-vs-notion-for-project-documentation/)
-- [.communication-charter.yml - add to your project repo](/how-to-create-remote-team-communication-charter-template-for/)
-- [Project Kickoff: [Project Name]](/how-to-create-remote-team-project-kickoff-documentation-temp/)
-
+- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [Remote Agency Client Offboarding Checklist and Handoff Docum](/remote-work-tools/remote-agency-client-offboarding-checklist-and-handoff-docum/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

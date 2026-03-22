@@ -380,12 +380,11 @@ Run this during your work day for a week, then share the log with your ISP when 
 
 ## Related Articles
 
+- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
 - [How to Secure Remote Team Kubernetes Clusters with Network P](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
 - [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
 - [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
 - [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
-- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

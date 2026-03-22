@@ -311,6 +311,6 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 - [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 - [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [How to Set Up Remote Team Code Standards Enforcement (2026)](/remote-work-tools/how-to-set-up-remote-team-code-standards-enforcement-2026/)
+- [Scale Code Reviews for Growing Remote Teams (2026)](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
