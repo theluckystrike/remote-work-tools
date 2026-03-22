@@ -17,6 +17,8 @@ voice-checked: true
 
 Hetzner offers the best price-to-performance ratio for cloud dev servers in Europe and the US. A CX22 (2 vCPU, 4GB RAM) costs €3.79/month. A CCX33 (8 dedicated vCPU, 32GB RAM) costs €27.49/month. Compare that to AWS or GCP equivalents at 3-5x the price. For remote developers who want a persistent, fast dev environment accessible from any machine, Hetzner plus code-server is hard to beat.
 
+The core idea is simple: instead of lugging a powerful laptop everywhere, or trying to sync dev environments across multiple machines, you run everything on a single cloud server. Your local machine becomes a thin client. Any laptop — even a base MacBook Air or a cheap Chromebook — can be your full workstation via browser or SSH.
+
 ## Architecture
 
 ```
@@ -28,6 +30,8 @@ Hetzner CX22/CX32 server (code-server + your dev tools)
     ↓
 Your projects (on-server, backed up to Hetzner Object Storage)
 ```
+
+This architecture has meaningful advantages over local development. The server is always on — long-running jobs, build caches, and Docker services persist between sessions. You get consistent performance regardless of where you're working. And because the server is on Hetzner's network, git operations, Docker pulls, and package downloads are significantly faster than on a home connection.
 
 ## Step 1: Create the Server
 
@@ -56,6 +60,8 @@ hcloud server create \
 # Get the IP
 hcloud server ip dev-server
 ```
+
+**Location selection**: Hetzner operates datacenters in Nuremberg (nbg1), Falkenstein (fsn1), Helsinki (hel1), and Ashburn VA (ash). Pick the one closest to your primary clients or CI systems, not closest to you — latency to the server over SSH is negligible; latency between your server and external services matters more.
 
 ## Step 2: Cloud-Init Configuration
 
@@ -95,6 +101,8 @@ runcmd:
   - systemctl enable --now code-server@dev
 ```
 
+Cloud-init runs on first boot and gives you a fully configured server in about 3-4 minutes. No manual SSH steps, no post-boot scripts to remember. The entire configuration is in version control.
+
 ## Step 3: Install and Configure code-server
 
 ```bash
@@ -114,6 +122,10 @@ sed -i "s/\$(openssl rand -hex 24)/$(openssl rand -hex 24)/" ~/.config/code-serv
 
 sudo systemctl restart code-server@dev
 ```
+
+code-server gives you VS Code in the browser — full extension support, integrated terminal, git integration. For extensions that don't work well in the browser (debuggers for some languages, for example), Remote-SSH is the better option and is covered in Step 4.
+
+One important note: bind code-server to 127.0.0.1, not 0.0.0.0. You never want code-server exposed directly to the internet. Access it only through the Tailscale tunnel.
 
 ## Step 4: Tailscale for Secure Access
 
@@ -145,7 +157,11 @@ Host hetzner-dev
 
 Then in VS Code: Remote-SSH → Connect to Host → hetzner-dev
 
+With `--ssh` flag, Tailscale manages SSH keys automatically. You can remove the Hetzner server from all public networks and rely entirely on Tailscale for access. This is the recommended setup: no public SSH port, no exposed services, no firewall rules to maintain for your own access.
+
 ## Step 5: Dev Environment Setup with mise
+
+mise (formerly rtx) is a unified tool version manager that replaces nvm, rbenv, pyenv, and goenv with a single tool. It reads `.mise.toml` files in project directories and switches versions automatically.
 
 ```bash
 # SSH into the server as dev user
@@ -172,6 +188,8 @@ python = "3.12"
 [env]
 DATABASE_URL = "postgresql://localhost:5432/myapp_dev"
 ```
+
+When you `cd` into a project directory, mise reads the `.mise.toml` and activates the correct toolchain. No more "works on my machine" issues from version mismatches across team members — everyone uses the same `.mise.toml` in the repository.
 
 ## Step 6: Persistent Docker Services
 
@@ -212,6 +230,8 @@ docker compose up -d
 # Services start automatically on server reboot
 ```
 
+The `restart: unless-stopped` policy means your Postgres and Redis instances are always running when the server is. No more "wait for the database to start" in your morning routine, and no state loss between sessions. Mailhog captures all outgoing email from your dev environment so you can test transactional emails without a real SMTP server.
+
 ## Step 7: Automated Snapshots
 
 ```bash
@@ -238,6 +258,10 @@ echo "Snapshot $SNAPSHOT_NAME created"
 (crontab -l; echo "0 2 * * 0 HCLOUD_TOKEN=your-token /home/dev/snapshot.sh >> /home/dev/snapshot.log 2>&1") | crontab -
 ```
 
+Hetzner charges €0.0119 per GB per month for snapshots. A typical dev server snapshot is 8-15GB, so keeping five weekly snapshots costs roughly €0.50-0.90/month. That is a trivial insurance cost against accidental data loss or a corrupted server.
+
+For project data specifically, also consider Hetzner Object Storage (S3-compatible, €4.43/month for 1TB) combined with `restic` or `rclone` for automated project backup. This gives you independent recovery for your code and databases even if the server itself needs to be rebuilt from scratch.
+
 ## Step 8: Dotfiles Sync
 
 ```bash
@@ -251,6 +275,8 @@ chezmoi apply
 # On any new server: two commands and you're configured
 ```
 
+chezmoi is preferable to bare git for dotfiles because it handles machine-specific values (different SSH keys, different email addresses per machine) cleanly via templates. Your `.zshrc`, `.gitconfig`, shell aliases, and tmux config are all in one place and applied consistently across every machine you use.
+
 ## Cost Calculation
 
 | Server Type | vCPU | RAM | Price/month | Good for |
@@ -260,7 +286,7 @@ chezmoi apply
 | CCX23 | 4 dedicated | 8GB | €13.99 | Compile-heavy work |
 | CCX33 | 8 dedicated | 32GB | €27.49 | Multiple services, Docker |
 
-An extra €80/year in snapshots gets you weekly backups. Total for a solid dev server: €7-35/month depending on size.
+An extra €80/year in snapshots gets you weekly backups. Total for a solid dev server: €7-35/month depending on size. Compare to GitHub Codespaces at $0.18/hour for a 4-core instance — that's $130/month if you work 720 hours. Hetzner at €5.39 for the same class of machine is a 24x cost reduction.
 
 ## Firewalla for Hetzner Firewall (Optional)
 
@@ -283,7 +309,20 @@ hcloud firewall apply-to-resource dev-firewall \
   --server dev-server
 ```
 
-With Tailscale, you can block port 22 entirely and use only Tailscale SSH.
+With Tailscale, you can block port 22 entirely and use only Tailscale SSH. The recommended final state is: no public-facing ports at all except UDP 41641 for Tailscale's WireGuard traffic. Everything else routes through the Tailscale mesh.
+
+## Comparing Hetzner to Alternatives
+
+| Provider | 4-core / 8GB RAM | Monthly cost | Notes |
+|---|---|---|---|
+| Hetzner CX32 | 4 shared vCPU, 8GB | €5.39 | Best value for shared CPU |
+| Hetzner CCX23 | 4 dedicated vCPU, 8GB | €13.99 | True dedicated cores |
+| DigitalOcean 4GB | 2 vCPU, 4GB | $24 | ~3x more expensive |
+| AWS EC2 t3.large | 2 vCPU, 8GB | ~$60 | ~10x more expensive |
+| GitHub Codespaces | 4-core | ~$130/mo (720h) | Per-hour billing adds up |
+| Fly.io (performance-2x) | 2 vCPU, 4GB | $62 | Good if you need edge locations |
+
+For developers in Europe or with European client bases, Hetzner is the clear default. For developers who need a US presence, Hetzner Ashburn (ash) gives the same economics in Virginia.
 
 ## Related Reading
 
