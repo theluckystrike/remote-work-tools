@@ -31,6 +31,15 @@ A knowledge base is the operational heartbeat of distributed teams. It stores on
 
 The ideal tool is fast to search, easy to write in (no Markdown syntax frustration), supports rich media (images, embeds, code blocks), and enforces permissions so confidential docs aren't exposed. This guide compares five leading knowledge base tools, covering setup, search quality, permissions, and real-world pricing.
 
+## Key Takeaways
+
+- **Pricing**: Cloud: Free (up to 10 users, limited features), Standard ($7/user/month), Premium ($13/user/month).
+- **Pricing**: Free (public docs only), Plus ($8/month, private docs, up to 5 team members), Pro ($15/month, up to 25 members), Enterprise custom.
+- **Pricing**: Free (limited), Plus ($6/user/month), Pro ($12/user/month).
+- **Teams without a centralized**: knowledge base spend 30% more time re-explaining decisions and debugging problems because context is scattered.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Pricing**: Free (unlimited pages, 5 members).
+
 ## Notion
 
 Notion is a visual database-first tool. Create docs, databases, wikis, and link them together. Non-technical teams love Notion because it has no Markdown learning curve—editing is WYSIWYG (what you see is what you get).
