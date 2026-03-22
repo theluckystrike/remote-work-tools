@@ -9,7 +9,7 @@ permalink: /virtual-team-building-activities-that-developers-actually-enjoy/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-building, developers, productivity]
 reviewed: true
-score: 7
+score: 8
 intent-checked: true
 voice-checked: true
 ---

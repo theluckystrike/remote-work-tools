@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /time-zone-management-tools-distributed-teams/
 categories: [guides]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]

@@ -9,7 +9,7 @@ permalink: /time-tracking-for-contractors-and-freelancers-guide/
 categories: [guides]
 tags: [remote-work-tools, time-tracking, freelancers, contractors, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
