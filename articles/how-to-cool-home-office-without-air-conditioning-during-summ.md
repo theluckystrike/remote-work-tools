@@ -42,7 +42,17 @@ This article targets developers and power users who want actionable, technical a
 - **Windows with single-pane glass**: transmit 85-90% of solar heat.
 - **If windows account for 60% of your heat gain**: reflective window treatments will have outsized impact compared to other cooling methods.
 
-## Understanding Your Thermal Environment
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Your Thermal Environment
 
 Before implementing solutions, you need to understand where the heat originates. Run a simple script to monitor temperature trends throughout the day:
 
@@ -74,7 +84,7 @@ except ImportError:
 
 This helps identify peak heat hours so you can schedule demanding tasks during cooler periods. Most offices see temperatures spike between 11 AM and 4 PM.
 
-## Strategic Setup: Positioning and Airflow
+### Step 2: Strategic Setup: Positioning and Airflow
 
 The cheapest cooling starts with positioning. Heat rises, so if possible, set up your workspace in the lowest floor of your home. Basements naturally stay 5-10°C cooler than upper floors.
 
@@ -88,7 +98,7 @@ open -a Weather
 
 The goal is drawing cooler outside air across your workspace. Place a box fan in your window frame, facing outward to pull hot air out, then position a second fan to direct fresh air toward your desk. This creates a continuous airflow loop that can reduce perceived temperature by 3-5°C.
 
-## Smart Monitoring with Home Automation
+### Step 3: Smart Monitoring with Home Automation
 
 If you have a Raspberry Pi or similar single-board computer, build a temperature monitoring system that alerts you when conditions become suboptimal:
 
@@ -128,7 +138,7 @@ async def send_alert(subject, body):
 
 Set up automated actions like turning on fans when temperature exceeds a threshold using Home Assistant or similar platforms.
 
-## DIY Evaporative Cooling
+### Step 4: DIY Evaporative Cooling
 
 Evaporative cooling works by passing air over water-soaked material. While commercial swamp coolers cost money, you can create a basic version:
 
@@ -148,7 +158,7 @@ For a more permanent solution, build a personal evaporative cooler:
 
 Cut a hole in the container lid for the fan, line the bottom with damp paper towels, place ice packs on top, and position the fan to draw air through the wet material. This can reduce incoming air temperature by 4-7°C in dry climates.
 
-## Optimizing Your Development Environment
+### Step 5: Optimizing Your Development Environment
 
 Your hardware generates significant heat. Reduce this thermal load:
 
@@ -165,7 +175,7 @@ cat /sys/class/thermal/thermal_zone*/temp
 watch -n 1 "grep MHz /proc/cpuinfo"
 ```
 
-## Cooling Your Workspace at Night
+### Step 6: Cooling Your Workspace at Night
 
 Night cooling can pre-cool your office for the next day:
 
@@ -174,7 +184,7 @@ Night cooling can pre-cool your office for the next day:
 3. Close blinds and curtains before sunset to block heat gain
 4. Freeze water bottles and place them in front of fans during day
 
-## When All Else Fails: The Emergency Setup
+### Step 7: When All Else Fails: The Emergency Setup
 
 For extreme heat days, create a dedicated cooling station:
 
@@ -183,7 +193,7 @@ For extreme heat days, create a dedicated cooling station:
 - Take breaks at this station during the hottest hours
 - Use a cooling vest (available from workwear suppliers)
 
-## Measuring Success
+### Step 8: Measuring Success
 
 Track your productivity alongside temperature readings:
 
@@ -237,7 +247,7 @@ print(f"Equivalent to {result['equivalent_hair_dryers']} running hair dryers")
 
 Understanding your thermal load helps prioritize interventions. If windows account for 60% of your heat gain, reflective window treatments will have outsized impact compared to other cooling methods.
 
-## External Heat Dissipation: Pushing Heat Outside
+### Step 9: External Heat Dissipation: Pushing Heat Outside
 
 Traditional cooling brings cold air in. Heat dissipation focuses on actively removing heat from your workspace:
 
@@ -257,7 +267,7 @@ If you live in humid climates, evaporative cooling provides minimal benefit. Foc
 
 You can measure effectiveness by checking humidity recovery time. After ventilating overnight, how quickly does indoor temperature rise during the day? If it takes 4+ hours to heat back up to 26°C, your thermal mass is functioning well.
 
-## Behavioral Strategies: Scheduling Work Around Temperature
+### Step 10: Behavioral Strategies: Scheduling Work Around Temperature
 
 Rather than fighting heat, adapt your schedule to temperature patterns:
 
@@ -276,7 +286,7 @@ Rather than fighting heat, adapt your schedule to temperature patterns:
 
 **Take active breaks in cooler zones**: If your office is unavoidably warm, identify the coolest area in your home (basement, north-facing room) and spend 10 minutes every 2 hours there. Even brief cooling breaks restore cognitive function.
 
-## Hardware-Specific Cooling
+### Step 11: Hardware-Specific Cooling
 
 Different devices generate different thermal profiles:
 
@@ -288,7 +298,7 @@ Different devices generate different thermal profiles:
 
 **Laptop vs desktop trade-offs**: Laptops concentrate heat in a small volume, creating uncomfortable workstation heat. Desktops with proper airflow dissipate heat more effectively. If possible, use an external display and detach your laptop to improve ventilation around your primary work area.
 
-## Measuring and Tracking: Building a Thermal Baseline
+### Step 12: Measuring and Tracking: Building a Thermal Baseline
 
 Once you implement cooling strategies, measure their effectiveness:
 
@@ -328,6 +338,21 @@ Sometimes the best decision is accepting that without AC, you can't maintain ade
 4. **Negotiating cooled hot-desk access**: Some offices offer hourly access. Use for peak heat hours only.
 
 The goal is maintaining productivity, not proving you can work uncomfortably. Use no-AC strategies to reduce dependence on air conditioning, not eliminate it entirely if it's the difference between functional and dysfunctional work.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

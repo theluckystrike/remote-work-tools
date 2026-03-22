@@ -43,7 +43,17 @@ The compound creates a "constrained layer damping" system that absorbs resonant 
 - **Seal all gaps (weather stripping + door sweep)**: $15-25
 2.
 
-## Understanding Sound Transmission
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Sound Transmission
 
 Before buying materials, understand how sound travels through doors. Doors are typically hollow-core constructions with minimal mass. Sound waves pass through easily because there's nothing to absorb or block the energy. The key principles are:
 
@@ -53,7 +63,7 @@ Before buying materials, understand how sound travels through doors. Doors are t
 
 You don't need acoustic panels. You need a strategic combination of these three principles applied to your existing door.
 
-## The Foundation: Sealing All Gaps
+### Step 2: The Foundation: Sealing All Gaps
 
 The cheapest and most effective first step costs almost nothing. Measure the gaps around your door frame—you'll likely find spaces of 3-8mm that let sound bypass your door entirely.
 
@@ -75,7 +85,7 @@ WIDTH=$(echo "scale=2; $(cat /sys/class/thermal/thermal_zone0/temp 2>/dev/null |
 
 Apply self-adhesive foam weather stripping along the top and sides of your door frame where the door closes. For the bottom, install a door sweep that creates a seal when closed. This alone can reduce perceived noise by 15-25dB, which is significant—every 10dB represents roughly half the perceived loudness.
 
-## Adding Mass: The Door Blanket Approach
+### Step 3: Adding Mass: The Door Blanket Approach
 
 Hollow-core doors weigh 20-30 pounds. Adding mass to the door surface increases its sound-blocking capability dramatically. A door blanket or moving blanket provides excellent mass at low cost.
 
@@ -103,7 +113,7 @@ echo "Order approximately $TOTAL_MATERIAL sq ft of MLV"
 
 Attach MLV using construction adhesive or screws with washer heads. For a cleaner look, mount a thin plywood backing first, then attach MLV, then cover with fabric or a door skin.
 
-## Damping: Resonant Frequency Absorption
+### Step 4: Damping: Resonant Frequency Absorption
 
 Mass alone isn't enough—adding a damping layer converts sound energy to heat. This is the same principle used in automotive soundproofing.
 
@@ -117,7 +127,7 @@ Apply a damping compound between two layers of mass:
 
 The compound creates a "constrained layer damping" system that absorbs resonant frequencies that pass through simple mass barriers. This combination can achieve STC (Sound Transmission Class) ratings of 35-40, comparable to solid core doors costing $300+.
 
-## Budget Alternatives Worth Considering
+### Step 5: Budget Alternatives Worth Considering
 
 Not every solution requires major installation:
 
@@ -152,7 +162,7 @@ def measure_decibel_level(duration=5):
 
 Set up a Raspberry Pi with an USB microphone to measure decibel levels before and after modifications. This gives you quantitative data on your improvements—useful for justifying the setup to skeptical partners or for your own optimization process.
 
-## Combined Approach: The Developer Setup
+### Step 6: Combined Approach: The Developer Setup
 
 For maximum sound dampening at minimum cost, combine these techniques in order:
 
@@ -162,7 +172,7 @@ For maximum sound dampening at minimum cost, combine these techniques in order:
 
 This three-stage approach can achieve 25-35dB reduction—transforming a noisy hallway conversation into a faint murmur, or eliminating audible distractions from your video calls entirely.
 
-## Maintenance and Upgrades
+### Step 7: Perform Maintenance and Upgrades
 
 Once you've implemented basic dampening, consider these enhancements:
 
@@ -172,7 +182,7 @@ Once you've implemented basic dampening, consider these enhancements:
 
 The key insight is that sound dampening follows the law of diminishing returns. The first $30-40 in materials (weather stripping + door blanket) provides 80% of the benefit. Additional mass and damping layers add incremental improvement but at increasing cost.
 
-## Product Recommendations and Alternatives
+### Step 8: Product Recommendations and Alternatives
 
 **Weather Stripping:**
 - Frost King (basic foam): $3-8 per pack, sufficient for standard door
@@ -227,7 +237,7 @@ Create an acoustic airlock by installing a second door in front of your office d
 **Option 3: Removable Acoustic Panel System ($150-300)**
 Custom-fitted frames that mount over your door and seal using magnetic strips. Better than blankets because they're always perfectly positioned and easily removed when needed.
 
-## Measuring Your Improvements
+### Step 9: Measuring Your Improvements
 
 Many developers want to quantify their soundproofing effectiveness:
 
@@ -286,7 +296,7 @@ print(f"- Your improvement: {(baseline - final) / 10:.1f}x quieter")
 
 Use a calibrated phone microphone app or purchase an USB microphone ($20-30) for more accurate measurements. Test at different times of day to capture variation.
 
-## Integration with Office Workflow
+### Step 10: Integration with Office Workflow
 
 Sound dampening pairs effectively with other productivity tools:
 
@@ -296,6 +306,21 @@ Sound dampening pairs effectively with other productivity tools:
 - **Communicate door status** to household members (closed door = deep focus)
 
 The combination of physical soundproofing + active noise cancellation + white noise apps creates a multi-layered approach that handles even disruptive environments.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

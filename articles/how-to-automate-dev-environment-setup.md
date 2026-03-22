@@ -31,7 +31,17 @@ Manual setup processes are error-prone and difficult to reproduce. When you conf
 
 Automation solves these problems by codifying your environment as version-controlled configuration. When your setup lives in code, you can review changes through pull requests, roll back problematic updates, and apply identical configurations across any number of machines. New team members can go from zero to a fully configured development environment in minutes rather than days.
 
-## Starting Simple: Shell Scripts
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Starting Simple: Shell Scripts
 
 The most accessible approach to environment automation uses shell scripts. Even basic bash scripts that automate package installation significantly reduce setup time and ensure consistency.
 
@@ -79,7 +89,7 @@ npm run prepare
 echo "Project environment ready. Run 'npm run dev' to start."
 ```
 
-## Using Docker for Reproducible Environments
+### Step 2: Use Docker for Reproducible Environments
 
 Docker provides stronger isolation than shell scripts by containerizing your entire development environment. This approach packages not just dependencies but the exact runtime environment, eliminating OS-level differences entirely.
 
@@ -147,7 +157,7 @@ volumes:
 
 With this configuration, any team member runs `docker-compose up` and gets a complete development stack—application, database, and cache—without installing anything beyond Docker.
 
-## Configuration Management with Ansible
+### Step 3: Configuration Management with Ansible
 
 For more complex environments across multiple machines, Ansible provides automation at scale. Ansible uses declarative YAML files called playbooks to describe desired system states, handling the complexity of idempotent configuration automatically.
 
@@ -209,7 +219,7 @@ An Ansible playbook for development machine setup:
 
 Run this playbook with `ansible-playbook development.yml` and Ansible ensures your machine matches the specification. The idempotent nature means running the playbook multiple times produces the same result—safe for repeated application or CI/CD pipelines.
 
-## Dotfiles: Personal Configuration Management
+### Step 4: Dotfiles: Personal Configuration Management
 
 Beyond project-specific tools, developers accumulate personal configuration through dotfiles—hidden configuration files like `.bashrc`, `.zshrc`, `.vimrc`, and `.gitconfig`. Managing these as a dotfiles repository provides portable personal environments.
 
@@ -258,13 +268,28 @@ link_file ".config/starship.toml"
 
 Combine this with a shell script that installs dependencies, and you have a complete personal environment reproducible across any machine.
 
-## Automating for Teams
+### Step 5: Automate for Teams
 
 Team environments benefit most from automation because they multiply the effort saved across multiple developers. Consider storing setup scripts in a dedicated repository accessible to all team members. Use tools like Machete or GitHub's Template Repositories to provide standardized starting points for new projects.
 
 Documentation matters as much as the scripts themselves. Include README files explaining how to run setup scripts, what assumptions the automation makes about the base system, and how to troubleshoot common issues. Even the best automation fails when users don't understand how to use it or what went wrong when something breaks.
 
 Start with shell scripts, add Docker for project reproducibility, and layer Ansible for team-wide infrastructure management as your needs grow.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

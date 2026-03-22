@@ -40,13 +40,23 @@ Interest-based Slack channels transform remote teams from purely functional work
 - **Analyze existing conversations by**: reviewing which topics generate the most engagement in general channels.
 - **Share what you're playing**: ask for recommendations, organize co-op sessions.
 
-## The Problem with Work-Only Communication
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Problem with Work-Only Communication
 
 Remote teams often fall into a trap where Slack becomes purely transactional. Channels exist for projects, support, and announcements, but there's no space for casual connection. This functional-only approach creates isolated workers who communicate only when absolutely necessary.
 
 Interest-based channels solve this by providing dedicated spaces for non-work conversations. A developer who loves woodworking has different things in common with a designer who rock climbs than with someone on their immediate team. These cross-functional connections build tissue throughout your organization.
 
-## Identifying Your Team's Interests
+### Step 2: Identifying Your Team's Interests
 
 Before creating channels, gather data on what your team actually cares about. Several approaches work well:
 
@@ -120,7 +130,7 @@ def add_new_user_to_interests(user_id, client):
 
 This automation ensures new hires immediately see opportunities for connection without needing to hunt for them.
 
-## Sustaining Channel Activity
+### Step 3: Sustaining Channel Activity
 
 Creating a channel is easy. Keeping it alive requires ongoing effort. Here are proven strategies:
 
@@ -153,7 +163,7 @@ When interesting discussions happen in interest channels, briefly mention them i
 
 This creates visibility without forcing participation. People who are interested will check it out; others won't feel pressured.
 
-## Measuring Success
+### Step 4: Measuring Success
 
 Track whether your interest channels are actually building culture:
 
@@ -165,7 +175,7 @@ Track whether your interest channels are actually building culture:
 
 **Sentiment** — Periodically ask channel members if they find value. A two-question pulse survey takes seconds and reveals whether channels are working.
 
-## Common Pitfalls to Avoid
+### Step 5: Common Pitfalls to Avoid
 
 **Creating too many channels at once.** Start with three to five and expand based on demonstrated interest. Empty channels signal that community building isn't working.
 
@@ -213,13 +223,28 @@ const weeklyMealWorkflow = {
 };
 ```
 
-## Building Lasting Culture
+### Step 6: Build Lasting Culture
 
 Interest-based channels succeed when they become genuine communities rather than afterthoughts. The goal is creating spaces where team members want to participate, not ones they're invited to.
 
 Start small, measure results, and iterate. The specific interests matter less than the principle of creating connection outside work tasks. Your team will be more cohesive, your retention will improve, and people will actually enjoy their remote work experience more.
 
 The best time to create interest channels was when your team formed. The second best time is today.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
@@ -243,20 +268,20 @@ Yes, the underlying concepts transfer to other stacks, though the specific imple
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Interest Channel Launch Template
+### Step 7: Interest Channel Launch Template
 
 Use this template to systematically launch new interest channels:
 
 ```markdown
 # Interest Channel Launch Checklist
 
-## 1 Week Before Launch
+### Step 8: 1 Week Before Launch
 - [ ] Announce new channel in #general
 - [ ] Explain purpose clearly (not mandatory, just optional)
 - [ ] Include channel link to make joining easy
 - [ ] Highlight any scheduled activities
 
-## Channel Setup
+### Step 9: Channel Setup
 - [ ] Create descriptive channel topic
 - [ ] Write clear channel purpose in description
 - [ ] Pin community guidelines as first message
@@ -264,21 +289,21 @@ Use this template to systematically launch new interest channels:
 - [ ] Invite initial seed members (people interested in topic)
 - [ ] Assign channel champion(s)
 
-## First Week Activities
+### Step 10: First Week Activities
 - [ ] Champion posts daily prompt or question
 - [ ] Champion highlights interesting contributions
 - [ ] Respond quickly to first few messages
 - [ ] Moderate and welcome new members
 - [ ] Build initial momentum
 
-## First Month
+### Step 11: First Month
 - [ ] Adjust frequency of prompts based on engagement
 - [ ] Schedule first community event (if applicable)
 - [ ] Solicit feedback on channel usefulness
 - [ ] Celebrate early contributors
 - [ ] Plan first monthly activity
 
-## Quarterly Review
+### Step 12: Quarterly Review
 - [ ] Measure activity metrics
 - [ ] Survey members on channel value
 - [ ] Rotate champion if needed
@@ -286,7 +311,7 @@ Use this template to systematically launch new interest channels:
 - [ ] Archive if consistently inactive
 ```
 
-## Sample Channel Descriptions
+### Step 13: Sample Channel Descriptions
 
 Use these as templates for your own channels:
 
@@ -328,7 +353,7 @@ share your fitness goal for the week. Every Friday, report your
 results. No judgment, just community support.
 ```
 
-## Engagement Metrics Dashboard
+### Step 14: Engagement Metrics Dashboard
 
 Track channel health with these metrics:
 
@@ -385,7 +410,7 @@ class SlackChannelMetrics:
         return sum(checks.values()) >= 3  # At least 3 of 4 checks pass
 ```
 
-## Seasonal Interest Channel Ideas
+### Step 15: Seasonal Interest Channel Ideas
 
 Launch these channels during relevant seasons to drive engagement:
 

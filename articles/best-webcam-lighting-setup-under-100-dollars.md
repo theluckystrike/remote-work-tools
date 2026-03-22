@@ -30,7 +30,17 @@ The difference between looking professional and looking exhausted on video calls
 - **Watch your preview for**: 30 seconds 3.
 - **Evening (5pm-9pm)**: Warm-toned LED panels look best.
 
-## The Three-Point Lighting Formula
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Three-Point Lighting Formula
 
 Professional video uses three lights:
 
@@ -40,7 +50,7 @@ Professional video uses three lights:
 
 You don't need expensive cinema lights. Budget options work equally well if positioned correctly.
 
-## Optimal Setup Architecture
+### Step 2: Optimal Setup Architecture
 
 ```
      BACK LIGHT (directly behind, above head)
@@ -57,7 +67,7 @@ You don't need expensive cinema lights. Budget options work equally well if posi
 - Fill light: 3-4 feet from your face, on the opposite side (slightly lower intensity)
 - Back light: 2-3 feet behind your head, angled downward
 
-## Budget Lighting Breakdown
+### Step 3: Budget Lighting Breakdown
 
 | Component | Option | Cost | Quality |
 |-----------|--------|------|---------|
@@ -68,7 +78,7 @@ You don't need expensive cinema lights. Budget options work equally well if posi
 | **Diffusion** | Foam board + white fabric (DIY) | $5-8 | Excellent (DIY) |
 | **Total** | | $82-111 | Professional Result |
 
-## Recommended Budget Setup (Under $100)
+### Step 4: Recommended Budget Setup (Under $100)
 
 **Shopping List:**
 
@@ -116,7 +126,7 @@ Amazon: `B00F9SDSXE` or equivalent
 
 **Total cost: $65-95**
 
-## Installation Steps (15 minutes)
+### Step 5: Install ation Steps (15 minutes)
 
 **Step 1: Arrange Your Desk**
 
@@ -177,7 +187,7 @@ Ring light directly behind your head:
 # If shadows too harsh: Move fill light closer or increase brightness
 ```
 
-## Power and Heat Management
+### Step 6: Power and Heat Management
 
 Budget LED panels are cool-running, but stacking lights creates heat. Follow these precautions:
 
@@ -192,7 +202,7 @@ Budget LED panels are cool-running, but stacking lights creates heat. Follow the
 - Ring light: 8W
 - Total draw: ~60W (less than a standard lightbulb)
 
-## Alternative: Soft Box Setup ($80-100)
+### Step 7: Alternative: Soft Box Setup ($80-100)
 
 If you prefer soft boxes over diffusers:
 
@@ -224,7 +234,7 @@ Total: $65-85
 | **One side of face dark** | Move fill light closer or increase brightness | Balances exposure between key and fill |
 | **Background too bright** | Turn off back light or reduce brightness | Back light should not be brighter than face light |
 
-## Professional Upgrade Path ($150-250)
+### Step 8: Professional Upgrade Path ($150-250)
 
 Once you nail the basics, upgrade progressively:
 
@@ -247,7 +257,7 @@ Once you nail the basics, upgrade progressively:
 - Upgrade microphone (benefits calls more than lighting)
 - Add green screen (if doing presentations)
 
-## Pro Tips for Video Call Lighting
+### Step 9: Pro Tips for Video Call Lighting
 
 **1. Time of Day Matters**
 
@@ -285,7 +295,7 @@ If you can't adjust lighting physically:
 - Prevents background from competing with your face
 - Use subtle back light to separate you from background
 
-## Real-World Results
+### Step 10: Real-World Results
 
 **Before lighting:**
 - Dark circles visible
@@ -303,7 +313,7 @@ If you can't adjust lighting physically:
 
 Users report managers comment on "looking healthier" or "looking more engaged" after implementing proper lighting.
 
-## Measuring Lighting Quality
+### Step 11: Measuring Lighting Quality
 
 If you're technical, measure light levels:
 
@@ -323,7 +333,7 @@ Measure:
 4. Adjust light distance/brightness to hit 700-900 lux range
 ```
 
-## Maintenance and Durability
+### Step 12: Perform Maintenance and Durability
 
 Budget LED panels last 50,000-100,000 hours (5-10 years of heavy use):
 

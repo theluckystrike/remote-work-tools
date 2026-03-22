@@ -40,7 +40,17 @@ Use Claude Code to automate npm package boilerplate generation, enforce TypeScri
 - **Mastering advanced features takes**: 1-2 weeks of regular use.
 - **Use Claude Code to**: automate npm package boilerplate generation, enforce TypeScript/linting configurations, and manage the entire publish workflow from testing to npm registry.
 
-## Setting Up Your Development Environment
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Your Development Environment
 
 Before creating your first npm package with Claude Code, ensure your environment is properly configured.
 
@@ -66,7 +76,7 @@ mkdir my-npm-package && cd my-npm-package
 npm init -y
 ```
 
-## Using Claude Code for Package Scaffolding
+### Step 2: Use Claude Code for Package Scaffolding
 
 Claude Code can generate the entire package structure with proper configuration files.
 
@@ -85,7 +95,7 @@ Claude Code creates:
 - Directory structure (`src/`, `tests/`)
 - Initial source files and test templates
 
-## Implementing Core Package Features
+### Step 3: Implementing Core Package Features
 
 After scaffolding, implement your package functionality using Claude Code's assistance.
 
@@ -137,7 +147,7 @@ export type PackageEvent =
   | { type: 'error'; error: Error };
 ```
 
-## Writing Tests with Claude Code
+### Step 4: Writing Tests with Claude Code
 
 Claude Code helps generate test suites covering edge cases.
 
@@ -189,7 +199,7 @@ describe('MyPackage', () => {
 });
 ```
 
-## Setting Up CI/CD Pipeline
+### Step 5: Set Up CI/CD Pipeline
 
 Claude Code generates GitHub Actions workflows for automated testing and publishing.
 
@@ -254,7 +264,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 ```
 
-## Publishing Your Package
+### Step 6: Publish Your Package
 
 Follow these steps to publish your package to the npm registry.
 
@@ -290,7 +300,7 @@ npm publish
 npm publish --access public  # For scoped packages
 ```
 
-## Maintaining Your Package
+### Step 7: Maintaining Your Package
 
 Claude Code assists with ongoing maintenance tasks.
 
@@ -315,7 +325,7 @@ claude "Add a new method to the package that implements caching with TTL support
 claude "Generate API documentation from TypeScript types using TypeDoc. Include examples for each exported function and class."
 ```
 
-## Handling Backward Compatibility as Your Package Evolves
+### Step 8: Handling Backward Compatibility as Your Package Evolves
 
 The hardest part of maintaining a public npm package is not building new features — it is removing or changing existing ones without breaking dependent projects. Claude Code helps you think through compatibility implications before making changes.
 
@@ -351,7 +361,7 @@ claude "Review the diff between v1.x and v2.0 in this changelog. Generate a migr
 
 The migration guide should live in `MIGRATION.md` at your package root and be linked from your README's changelog section.
 
-## Publishing Dual Packages: ESM and CommonJS
+### Step 9: Publish Dual Packages: ESM and CommonJS
 
 Modern npm packages need to support both ES Modules (used by Vite, modern bundlers, and native Node.js ESM) and CommonJS (used by older Node.js projects and Jest). Configure your `package.json` exports field correctly:
 
@@ -397,7 +407,7 @@ Configure TypeScript to output both formats:
 
 Ask Claude Code to audit your package.json exports field and verify that bundler tools resolve both formats correctly. Edge cases in the exports field — especially around subpath exports and conditional exports — are a common source of "works in my project, breaks in yours" reports.
 
-## Automating Package Quality with Claude Code
+### Step 10: Automate Package Quality with Claude Code
 
 Beyond test generation, Claude Code can perform ongoing quality checks as part of your development workflow.
 
@@ -428,6 +438,21 @@ Ask Claude Code to suggest size optimizations when the bundle exceeds your targe
 ```bash
 claude "The bundle size for this npm package exceeds our 10KB limit. Review the imports in src/index.ts and suggest which dependencies could be made optional or replaced with lighter alternatives."
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

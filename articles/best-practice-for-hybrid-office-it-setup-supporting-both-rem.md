@@ -49,7 +49,17 @@ Hybrid office IT infrastructure should shift from perimeter-based security to id
 - **Audit current infrastructure**: Identify which systems require hybrid access versus those that can remain office-only.
 - **Configure split access**: Allow VPN or ZTNA access only for resources that genuinely require it.
 
-## Network Architecture: Beyond Traditional VPNs
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Network Architecture: Beyond Traditional VPNs
 
 Traditional VPN solutions often struggle with hybrid environments. When employees split their time between office and home, they need consistent access to internal resources without the performance penalties of routing all traffic through a central VPN concentrator.
 
@@ -87,7 +97,7 @@ access_policy:
 
 This approach ensures developers access only what they need, regardless of whether they're at home or in the office.
 
-## Identity Management Across Locations
+### Step 2: Identity Management Across Locations
 
 Centralized identity management forms the backbone of any hybrid IT setup. Employees should use the same credentials and authentication methods whether working remotely or on-site.
 
@@ -125,7 +135,7 @@ For hybrid environments, enforce device compliance requirements:
 
 Use Mobile Device Management (MDM) solutions to enforce these policies across both company-owned and BYOD devices.
 
-## File Access and Collaboration
+### Step 3: File Access and Collaboration
 
 Hybrid teams need reliable access to shared files and collaborative workspaces. The solution should work identically whether users are in the office or remote.
 
@@ -157,7 +167,7 @@ Host dev-server
 
 Developers should also have access to cloud-based development environments that provision consistent tooling regardless of local machine configuration.
 
-## Meeting and Communication Infrastructure
+### Step 4: Meeting and Communication Infrastructure
 
 Hybrid meetings require careful attention to ensure remote participants have equal presence with those in the office.
 
@@ -181,7 +191,7 @@ Support async communication with:
 - Shared documentation that serves as single source of truth
 - Status indicators that show availability across time zones
 
-## Monitoring and Support
+### Step 5: Monitor and Support
 
 Hybrid environments require enhanced monitoring capabilities since IT staff may not physically see issues reported by remote workers.
 
@@ -237,7 +247,7 @@ Each segment should have specific access controls and monitoring.
 
 Deploy endpoint detection and response (EDR) solutions across all devices, regardless of location. This provides visibility into potential threats even when devices are outside the corporate network.
 
-## Practical Implementation Steps
+### Step 6: Practical Implementation Steps
 
 1. Audit current infrastructure: Identify which systems require hybrid access versus those that can remain office-only.
 
@@ -252,6 +262,21 @@ Deploy endpoint detection and response (EDR) solutions across all devices, regar
 6. Document procedures: Create clear guides for employees setting up their home offices and connecting to office resources.
 
 7. Monitor and iterate: Collect feedback from users and adjust policies to improve the hybrid experience.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

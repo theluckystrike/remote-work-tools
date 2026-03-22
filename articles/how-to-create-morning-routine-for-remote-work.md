@@ -54,7 +54,17 @@ Your morning routine serves three critical functions in a remote context:
 
 Without these elements, you sacrifice the peak mental hours to low-value tasks that pile up overnight.
 
-## Designing Your Core Routine Structure
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Designing Your Core Routine Structure
 
 A sustainable morning routine consists of three phases: wake, prepare, and launch. Each phase should take roughly 20-45 minutes depending on your preferences and responsibilities.
 
@@ -110,7 +120,7 @@ Task selection: Identify the one task that requires your best cognitive energy. 
 
 Warmup coding: Before tackling your main feature, spend 10-15 minutes on something low-stakes—reviewing a PR, writing a test, or addressing a small bug. This gradually engages your technical thinking without the pressure of breakthrough work.
 
-## Automating Routine Elements
+### Step 2: Automate Routine Elements
 
 Developers excel at automation. Apply this skill to your morning routine to reduce friction and maintain consistency.
 
@@ -162,7 +172,7 @@ Build your stack around natural anchors:
 
 This approach eliminates decision fatigue. You're not choosing whether to do something; you're following a triggered sequence.
 
-## Adapting Your Routine Over Time
+### Step 3: Adapting Your Routine Over Time
 
 A morning routine isn't static. Your energy patterns, work demands, and life circumstances change. Review and adjust monthly.
 
@@ -172,7 +182,7 @@ Rotate focus areas: During sprint planning, your routine might emphasize prepara
 
 Handle disruptions: Sick days, travel, or family obligations will interrupt your routine. Build flexibility by identifying which elements are non-negotiable (hydration, task review) versus optional (exercise, script execution).
 
-## Common Pitfalls to Avoid
+### Step 4: Common Pitfalls to Avoid
 
 Don't start with email. Checking inbox first thing immediately puts you in reactive mode. You're solving other people's problems before identifying your own.
 
@@ -182,7 +192,7 @@ Don't over-optimize. A 2-hour morning routine sounds impressive but rarely lasts
 
 Don't compare to others. Some developers thrive on 5 AM starts; others need 8 AM to function. Your routine must match your chronotype and life constraints.
 
-## Sample 90-Minute Routine
+### Step 5: Sample 90-Minute Routine
 
 Here's one effective configuration for a developer:
 
@@ -224,7 +234,7 @@ Root cause: You're trying to lock in exact times. Solution: Switch to phases ins
 
 Root cause: Comparing your routine to productivity influencers. Solution: Remember the goal—sustainable high performance, not maximum productivity. A routine you maintain for 5 years beats one you maintain for 2 weeks. Conservative, boring routines win.
 
-## Seasonal and Circumstantial Adjustments
+### Step 6: Seasonal and Circumstantial Adjustments
 
 Your routine should evolve with your life:
 
@@ -236,13 +246,13 @@ Your routine should evolve with your life:
 
 **Seasonal adjustments** (winter darkness, summer light): Align your schedule with sunlight if possible. Some developers perform better with earlier morning starts when it's dark; others need daylight. Experiment seasonally.
 
-## Building Accountability Without Micromanagement
+### Step 7: Build Accountability Without Micromanagement
 
 If you're a manager building morning routines into team culture, model it yourself. Share your routine in team retrospectives. Ask directly: "What does your morning look like?" This normalizes the discussion without creating surveillance or shame.
 
 For distributed teams, you could create optional morning check-in channels where people post (no obligation): "Starting my deep work block at 8:15 AM on task X." This creates lightweight social accountability without intrusion.
 
-## The Long-term View
+### Step 8: The Long-term View
 
 You're not building a routine for next month. You're building one for the next decade of your career. That means it needs to be:
 

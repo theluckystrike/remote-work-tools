@@ -40,7 +40,17 @@ This guide provides actionable strategies for creating meeting practices that wo
 - **Topics covered**: understanding time zone equity, async-first meeting culture, meeting proposal
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Understanding Time Zone Equity
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Time Zone Equity
 
 The first step toward inclusive meetings is recognizing that "meeting in the middle" isn't actually fair. When a team spans three time zones, the person joining at 7 AM or 9 PM often experiences that as inconvenient regardless of where the meeting is scheduled. True equity means rotating meeting times so everyone shares the burden approximately equally.
 
@@ -93,14 +103,14 @@ def generate_rotation_schedule(team_timezones, weeks=4):
 
 This approach ensures that over time, no single time zone consistently bears the burden of inconvenient meeting times.
 
-## Async-First Meeting Culture
+### Step 2: Async-First Meeting Culture
 
 The most inclusive meeting practice you can adopt is having fewer meetings. Async-first communication respects everyone's time and working hours, but when meetings are necessary, structure them to maximize value.
 
 Implement a meeting request template that forces organizers to justify why this meeting can't be async:
 
 ```markdown
-## Meeting Proposal
+### Step 3: Meeting Proposal
 
 **What is the purpose of this meeting?**
 [ ] Decision on [topic]
@@ -126,7 +136,7 @@ Explain why a synchronous meeting is necessary:
 
 This template, when enforced consistently, dramatically reduces unnecessary meetings while making the essential ones more purposeful.
 
-## Structured Meeting Formats
+### Step 4: Structured Meeting Formats
 
 When meetings are required, structured formats ensure everyone can participate meaningfully regardless of their communication style or language proficiency.
 
@@ -135,7 +145,7 @@ When meetings are required, structured formats ensure everyone can participate m
 Replace open-ended status updates with a structured Red/Amber/Green format:
 
 ```markdown
-## Team Standup - [Date]
+### Step 5: Team Standup - [Date]
 
 ### Red (Blocked/Needs Help)
 - @username: [Brief description of blocker]
@@ -189,7 +199,7 @@ console.log(meetingRotation.getNextSpeaker()); // Alice
 
 This ensures quieter team members get equal speaking time and prevents dominant voices from monopolizing discussions.
 
-## Accessible Meeting Settings
+### Step 6: Accessible Meeting Settings
 
 Configure your video conferencing tools to support diverse participant needs:
 
@@ -222,12 +232,12 @@ meeting_platform:
 
 Share these settings with your team and establish norms around their use. For example, always enable live captions even if no one currently needs them—this normalizes accessibility features and makes them available when needed.
 
-## Documentation and Follow-Up
+### Step 7: Documentation and Follow-Up
 
 Inclusive meetings extend beyond the actual meeting time. documentation ensures team members in different time zones or those who couldn't attend can stay informed:
 
 ```markdown
-## Meeting: [Title]
+### Step 8: Meeting: [Title]
 **Date:** [Date]
 **Attendees:** [List]
 **Recording:** [Link]
@@ -251,7 +261,7 @@ Inclusive meetings extend beyond the actual meeting time. documentation ensures 
 
 Create a standing "asynchronous feedback" section where people who couldn't attend or who process information differently can add their input after the meeting. This explicitly validates input outside the live meeting window.
 
-## Implementing These Practices
+### Step 9: Implementing These Practices
 
 Start with one or two practices and iterate. Here's a suggested implementation order:
 
@@ -262,13 +272,28 @@ Start with one or two practices and iterate. Here's a suggested implementation o
 
 Track participation rates and gather feedback. The goal isn't perfection—it's continuous improvement toward meetings that work for everyone, regardless of location.
 
-## Common Pitfalls to Avoid
+### Step 10: Common Pitfalls to Avoid
 
 Watch out for these patterns that undermine inclusive meetings:
 
 - Defaulting to "core hours": If your team spans 12+ hours, no single hour works for everyone. Accept that some meetings will require early or late times for everyone.
 - Recording as an afterthought: Start recordings from the beginning so synchronous attendees don't have advantages over async viewers.
 - Same-host timezone dominance: Rotate not just meeting times but meeting hosts, giving each time zone ownership.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

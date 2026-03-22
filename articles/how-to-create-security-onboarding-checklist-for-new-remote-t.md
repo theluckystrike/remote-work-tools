@@ -48,7 +48,17 @@ Without structured onboarding, new remote hires become weakest links. They do no
 
 A checklist solves this problem by making security requirements explicit. New hires know exactly what to complete and in what order. Managers can verify completion. The checklist becomes documentation proving your team takes security seriously.
 
-## Building Your Security Onboarding Checklist
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Build Your Security Onboarding Checklist
 
 ### Phase 1: Account and Access Setup (Days 1-2)
 
@@ -197,7 +207,7 @@ Remote team members handle sensitive data without direct supervision. They need 
 Provide a data handling quick reference:
 
 ```markdown
-## Data Classification Guide
+### Step 2: Data Classification Guide
 
 ### Internal Only
 - Internal policies and procedures
@@ -232,7 +242,7 @@ New hires must know what to do when something goes wrong. Panic leads to worse o
 Create an incident response card they can keep handy:
 
 ```markdown
-## Security Incident Response
+### Step 3: Security Incident Response
 
 **If you suspect a breach:**
 1. DON'T PANIC - Do not delete evidence
@@ -246,12 +256,12 @@ Create an incident response card they can keep handy:
 **Slack Channel**: #security-incidents
 ```
 
-## Implementing the Checklist
+### Step 4: Implementing the Checklist
 
 Track checklist completion using a simple issue or task:
 
 ```markdown
-## Security Onboarding: [New Hire Name]
+### Step 5: Security Onboarding: [New Hire Name]
 
 - [ ] Phase 1: Account Setup (Due: Day 2)
 - [ ] Phase 2: Device Security (Due: Day 3)
@@ -276,6 +286,21 @@ Schedule brief check-ins during onboarding. Use these to answer questions and ve
 **Skipping practical exercises.** Reading about phishing does not build skills. Include hands-on components where possible.
 
 **Treating security as an one-time event.** Security onboarding starts the process. Plan ongoing training and refreshers throughout the year.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

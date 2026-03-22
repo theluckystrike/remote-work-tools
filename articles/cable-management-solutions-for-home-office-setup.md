@@ -42,7 +42,17 @@ This guide covers practical approaches to organizing cables in your home office,
 - **Use cable ties to**: secure within the arm 4.
 - **Use velcro ties to**: bundle cables in groups: - "Video" bundle (HDMI cables together) - "Power" bundle (power cables separately for heat dissipation) - "Data" bundle (USB cables together) 4.
 
-## The Developer Perspective: Why Cable Management Matters
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Developer Perspective: Why Cable Management Matters
 
 When you're debugging at 2 AM or rushing through a code review, the last thing you need is a rat's nest of cables preventing you from quickly accessing a port or identifying which cable goes where. Beyond aesthetics, proper cable management offers concrete benefits:
 
@@ -51,7 +61,7 @@ When you're debugging at 2 AM or rushing through a code review, the last thing y
 - Easier cleaning: Dust accumulates less on organized cables
 - Scalability: Adding new devices becomes straightforward rather than a cable-management nightmare
 
-## Essential Cable Management Techniques
+### Step 2: Essential Cable Management Techniques
 
 ### 1. Label Everything
 
@@ -147,7 +157,7 @@ Benefits:
 - Reduced cable wear on laptop ports
 ```
 
-## Build Your Own Cable Management System
+### Step 3: Build Your Own Cable Management System
 
 For developers who prefer hands-on solutions, custom cable management builds using 3D-printed components offer tailored results:
 
@@ -164,7 +174,7 @@ For developers who prefer hands-on solutions, custom cable management builds usi
 # Supports: Only where necessary
 ```
 
-## Maintenance and Scalability
+### Step 4: Perform Maintenance and Scalability
 
 Cable management isn't an one-time setup—it requires periodic attention as your setup evolves. Schedule quarterly reviews:
 
@@ -179,7 +189,7 @@ Quarterly Cable Audit Checklist:
 [ ] Clean dust from cable bundles and cable trays
 ```
 
-## Cable Management by Setup Type
+### Step 5: Cable Management by Setup Type
 
 ### Single Monitor Setup (Minimal Cable Load)
 
@@ -295,7 +305,7 @@ Example vertical cable management build:
 # 6. Document connections and create cable map
 ```
 
-## Ergonomic Benefits of Cable Management
+### Step 6: Ergonomic Benefits of Cable Management
 
 Beyond aesthetics, proper cable management reduces physical strain:
 
@@ -307,7 +317,7 @@ Beyond aesthetics, proper cable management reduces physical strain:
 
 **Reduced eye strain:** A clean, organized workspace reduces cognitive load, helping you focus on work rather than visual clutter.
 
-## Cable Management for Hot Desking Environments
+### Step 7: Cable Management for Hot Desking Environments
 
 If you frequently change locations (co-working spaces, coffee shops, different home offices), you need portable cable management:
 

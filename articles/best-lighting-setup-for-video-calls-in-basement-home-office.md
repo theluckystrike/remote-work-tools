@@ -25,13 +25,23 @@ Basements present unique challenges for video calls. Without windows or natural 
 - **Most video conferencing platforms**: apply automatic white balance, but they work best when the light temperature stays consistent.
 - **Use matching color temperatures**: across all lights.
 
-## The Basement Lighting Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Basement Lighting Challenge
 
 Most basements have two problems: insufficient light and unflattering light direction. Ceiling lights cast harsh shadows downward onto your face, creating dark eye sockets and an uninviting appearance. Without natural light to balance the scene, your video feed can appear flat and lifeless.
 
 The solution involves understanding three key variables: color temperature, light direction, and light intensity. Control these three factors, and you can achieve consistent, professional results every time.
 
-## Understanding Color Temperature
+### Step 2: Understand Color Temperature
 
 Color temperature, measured in Kelvin (K), dramatically affects how you appear on camera. Daylight hovers around 5600K, while standard incandescent bulbs are around 2700K. For video calls, aim for consistent color temperature across all light sources to avoid mixed tones that look unnatural.
 
@@ -45,7 +55,7 @@ Here's a quick reference for common scenarios:
 | Mixed artificial light | Match existing bulbs | Avoiding color casts |
 | Evening calls | 4000K-4500K | Warmer, relaxed appearance |
 
-## The Three-Point Lighting Foundation
+### Step 3: The Three-Point Lighting Foundation
 
 Professional video lighting uses a three-point setup: key light, fill light, and back light. Each serves a distinct purpose in creating dimension and eliminating shadows.
 
@@ -57,7 +67,7 @@ Back Light: Positioned behind you, this separates you from the background and ad
 
 For a minimal basement setup, you can achieve good results with just two lights: a key light in front and a back light behind. The fill light is optional but improves quality.
 
-## Budget-Friendly Equipment Options
+### Step 4: Budget-Friendly Equipment Options
 
 You don't need expensive equipment to achieve solid results. Here's what works for different budgets:
 
@@ -75,7 +85,7 @@ Two LED panels (one key, one fill) in the 5000K range provide professional-quali
 ### Under $300: Complete Professional Setup
 A dedicated video light like the Elgato Key Light Air or Lume Cube with a diffused front creates soft, professional illumination. Add a back light for separation, and you have a broadcast-quality setup.
 
-## Smart Lighting Automation
+### Step 5: Smart Lighting Automation
 
 For developers who want automation, you can integrate smart lighting with your video conferencing workflow. Here's a Home Assistant configuration example that dims your key light when you join a Zoom call:
 
@@ -139,7 +149,7 @@ while True:
     time.sleep(30)
 ```
 
-## Practical Setup Tips
+### Step 6: Practical Setup Tips
 
 **Position your key light first**. Sit in your normal working position, then position the key light at a 45-degree angle to your face, slightly above eye level. Look at your camera preview and adjust until shadows disappear.
 
@@ -161,7 +171,7 @@ Many basement office setups fail because of these issues:
 
 **Lights too far away**. Light intensity drops rapidly with distance. Position lights closer (but not so close they create hotspots) for better control.
 
-## Automating Color Temperature by Time of Day
+### Step 7: Automate Color Temperature by Time of Day
 
 For a more sophisticated setup, adjust color temperature throughout the day to match your natural circadian rhythm:
 
@@ -206,7 +216,7 @@ automation:
 
 This automation adjusts from cooler (more energetic) light in the afternoon to warmer (more relaxed) light in the evening.
 
-## Final Recommendations
+### Step 8: Final Recommendations
 
 Start simple: a single quality LED panel or ring light positioned correctly solves 80% of basement lighting problems. Add a second light for fill when your budget allows. Integrate with your video conferencing tools if you want automatic scene changes.
 
@@ -214,6 +224,21 @@ The best lighting setup is one you actually use. Complex automation is worthless
 
 Your basement home office can produce professional-quality video calls. The key is treating lighting as a technical problem with measurable solutions—color temperature, direction, and intensity—that you can control and replicate consistently.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

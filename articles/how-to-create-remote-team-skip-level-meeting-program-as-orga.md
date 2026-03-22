@@ -46,7 +46,17 @@ In physical offices, serendipitous interactions happen at the coffee machine, in
 
 When you add management layers, the problem compounds. Each layer acts as an information filter, and remote async communication amplifies the loss. By the time a concern reaches leadership, it's often been sanitized, delayed, or completely lost. Skip-level meetings restore direct communication channels that would otherwise vanish.
 
-## Building a Scalable Skip-Level Meeting Program
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Build a Scalable Skip-Level Meeting Program
 
 ### Phase 1: Define Your Structure
 
@@ -186,7 +196,7 @@ def find_optimal_meeting_time(participant_timezones, preferred_window=(9, 17)):
 
 This ensures fairness over time. If someone always meets at an inconvenient hour, rotate the schedule quarterly.
 
-## Measuring Effectiveness
+### Step 2: Measuring Effectiveness
 
 Track whether skip-level meetings actually help:
 
@@ -195,7 +205,7 @@ Track whether skip-level meetings actually help:
 3. Participant satisfaction: Anonymous surveys after each session
 4. Retention correlation: Do employees who participate in skip-levels stay longer?
 
-## Common Pitfalls to Avoid
+### Step 3: Common Pitfalls to Avoid
 
 Don't make it a performance review: Skip-levels aren't for evaluating ICs. Leaders should listen, not judge.
 
@@ -205,7 +215,7 @@ Don't ignore outcomes: If nothing changes after skip-level discussions, particip
 
 Don't over-schedule: More than quarterly per person creates meeting fatigue and diminishes returns.
 
-## Automation with Slack
+### Step 4: Automation with Slack
 
 For ongoing skip-level communication, consider async supplements. A private Slack channel for skip-level participants can maintain connection between meetings:
 
@@ -219,6 +229,21 @@ For ongoing skip-level communication, consider async supplements. A private Slac
 ```
 
 This keeps the relationship alive without requiring synchronous meetings.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
@@ -242,14 +267,14 @@ Yes, the underlying concepts transfer to other stacks, though the specific imple
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Skip-Level Meeting Template
+### Step 5: Skip-Level Meeting Template
 
 Use this structure for every skip-level meeting:
 
 ```markdown
 # Skip-Level Meeting Template
 
-## Pre-Meeting (Send 3 days before)
+### Step 6: Pre-Meeting (Send 3 days before)
 
 **Subject:** Skip-Level Chat - [Your Name] & [IC Name]
 **Time:** [30 minutes, specific timezone]
@@ -269,7 +294,7 @@ Come prepared to discuss:
 All of this is confidential between us. Feel free to be honest.
 See you [day/time]!
 
-## Meeting Format (30 minutes)
+### Step 7: Meeting Format (30 minutes)
 
 **Opening (2 min)**
 - Thanks for the time
@@ -297,7 +322,7 @@ See you [day/time]!
 - Summarize action items (if any)
 - Next skip-level timing (quarterly)
 
-## Post-Meeting Synthesis
+### Step 8: Post-Meeting Synthesis
 
 **During meeting:** Take notes (share screen or write visible notes so IC sees you taking them seriously)
 
@@ -315,7 +340,7 @@ See you [day/time]!
 - Share progress publicly in team channel
 ```
 
-## Sample Skip-Level Meeting Notes
+### Step 9: Sample Skip-Level Meeting Notes
 
 Here's what good notes look like:
 
@@ -324,34 +349,34 @@ Here's what good notes look like:
 **Date:** March 20, 2026
 **Duration:** 30 minutes
 
-## What's Working
+### Step 10: What's Working
 - Enjoys the peer code review process
 - Appreciates flexibility on work hours
 - Likes recent project work on notifications feature
 
-## Challenges
+### Step 11: Challenges
 - Onboarding to CI/CD was confusing, docs outdated
 - Feels pressure to be available for interrupts
 - Concerned about career growth path to senior engineer
 
-## Ideas
+### Step 12: Ideas
 - Create CI/CD documentation video walkthrough
 - Establish "core hours" vs. flexible hours
 - Define senior engineer expectations and skill gaps
 
-## Action Items
+### Step 13: Action Items
 - Carol to update CI/CD docs (by April 10)
 - Carol to discuss senior engineer path with Alice's manager, feedback in 2 weeks
 - Alice to suggest "core hours" policy to team
 
-## Observations
+### Step 14: Observations
 - High performer, good attitude
 - Slightly burnt out from interrupts
 - Wants to grow within company (retention signal)
 - Straightforward communicator
 ```
 
-## Skip-Level Program Rollout Phases
+### Step 15: Skip-Level Program Rollout Phases
 
 Implement this phased approach to avoid overwhelming your org:
 
@@ -398,12 +423,12 @@ phase_4_systematic:
   key_success_factor: "Executive commitment to acting on insights"
 ```
 
-## Handling Difficult Conversations in Skip-Levels
+### Step 16: Handling Difficult Conversations in Skip-Levels
 
 Prepare for challenging scenarios:
 
 ```markdown
-## Scenario 1: IC Complains About Direct Manager
+### Step 17: Scenario 1: IC Complains About Direct Manager
 
 **IC says:** "My manager never gives me feedback and doesn't care about development"
 
@@ -423,7 +448,7 @@ Prepare for challenging scenarios:
 - Share the feedback without asking first
 - Make it weird for the IC to speak up
 
-## Scenario 2: IC Reveals Major Problem
+### Step 18: Scenario 2: IC Reveals Major Problem
 
 **IC says:** "I'm looking to leave - I need better compensation"
 
@@ -438,7 +463,7 @@ Prepare for challenging scenarios:
 
 **Note:** Retention conversations often need follow-up with compensation/team, not just listening
 
-## Scenario 3: IC Seems Disengaged/Unhappy
+### Step 19: Scenario 3: IC Seems Disengaged/Unhappy
 
 **Observation:** Quiet, short answers, seems unmotivated
 
@@ -451,7 +476,7 @@ Prepare for challenging scenarios:
 6. Offer real support
 7. Follow up frequently
 
-## Scenario 4: IC Criticizes Leadership Direction
+### Step 20: Scenario 4: IC Criticizes Leadership Direction
 
 **IC says:** "I don't agree with the new product direction"
 
@@ -466,7 +491,7 @@ Prepare for challenging scenarios:
 **This is valuable input, not insubordination**
 ```
 
-## Quarterly Skip-Level Themes
+### Step 21: Quarterly Skip-Level Themes
 
 Focus each quarter on specific topics:
 

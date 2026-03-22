@@ -45,7 +45,17 @@ The primary benefit is reproducibility. When a timeline lives as code, you can r
 
 A secondary benefit is automation. A timeline defined as structured data — CSV, YAML, or Markdown — can feed into automated status reports, Slack notifications, or email digests without manual reformatting. The timeline becomes a single source of truth that drives communication rather than a document that needs to stay in sync with other documents.
 
-## Method 1: Using Taskwarrior with Export
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Method 1: Using Taskwarrior with Export
 
 Taskwarrior is a mature command-line task manager that supports detailed task attributes including due dates, dependencies, and tags. You can create a project timeline by defining tasks with appropriate start and due dates, then export them for client-facing reports.
 
@@ -90,7 +100,7 @@ task project:"Website Redesign" +client-facing list
 
 This outputs a clean table of tasks with due dates that reads naturally in any plain-text context.
 
-## Method 2: Markdown + Mermaid Diagrams
+### Step 2: Method 2: Markdown + Mermaid Diagrams
 
 Mermaid.js supports Gantt charts rendered from text definitions. This approach produces visual timelines that live in your project documentation and render in any Markdown-compatible viewer including GitHub and GitLab.
 
@@ -99,7 +109,7 @@ Create a `timeline.md` file in your project:
 ```markdown
 # Project Timeline
 
-## Phase Overview
+### Step 3: Phase Overview
 
 ```mermaid
 gantt
@@ -131,7 +141,7 @@ The `crit` keyword marks critical path items, while `milestone` highlights key d
 
 Mermaid diagrams render natively in GitHub, GitLab, and Notion. If your client has access to a shared GitHub repository or Notion space, this approach requires zero additional tooling on their end — they just open the document and see the chart.
 
-## Method 3: CSV Export from Spreadsheets
+### Step 4: Method 3: CSV Export from Spreadsheets
 
 For agencies comfortable with spreadsheets, generate timelines from CSV data and convert them to client-friendly formats. This hybrid approach takes advantage of spreadsheet familiarity while producing shareable outputs.
 
@@ -184,7 +194,7 @@ if __name__ == '__main__':
 
 This produces a clean HTML table you can embed in client portals or send as an attachment.
 
-## Handling Scope Changes and Timeline Updates
+### Step 5: Handling Scope Changes and Timeline Updates
 
 Timelines are living documents. When scope changes, you need to update the timeline, communicate the change clearly, and preserve the history of what changed and why. CLI-based timelines make this straightforward.
 
@@ -204,7 +214,7 @@ git diff HEAD~1 timeline.csv | grep '^[+-]' | grep -v '^---\|^+++'
 
 This output shows exactly which rows changed. Paste it into a client Slack message or email alongside a brief explanation of the business reason for the change.
 
-## Automating Weekly Status Reports
+### Step 6: Automate Weekly Status Reports
 
 The real productivity gain from CLI-based timelines is automation. Instead of manually compiling a weekly status update, generate it from your timeline data.
 
@@ -230,7 +240,7 @@ task project:"Website Redesign" +milestone list
 
 Schedule this to run Friday afternoons and pipe the output to a Markdown file, then commit it to the shared repository. Clients receive consistent, formatted updates without anyone spending time on manual compilation.
 
-## Choosing the Right Method for Your Client
+### Step 7: Choose the Right Method for Your Client
 
 Different clients need different formats. A technical client who works in GitHub daily will appreciate Mermaid diagrams in a shared repository. A non-technical business stakeholder needs a calendar invite or a clean HTML table they can view in a browser.
 
@@ -251,6 +261,21 @@ git commit -m "Update timeline: extend design phase for client feedback"
 This creates an audit trail of project evolution that helps both parties understand scope changes.
 
 Set a calendar reminder to review the timeline every Monday. A timeline that hasn't been touched in two weeks is probably stale. Stale timelines erode client trust faster than delayed milestones — the delay is understandable, but discovering it without notice is not.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

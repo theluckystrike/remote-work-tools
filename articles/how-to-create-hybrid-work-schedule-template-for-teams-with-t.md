@@ -39,13 +39,23 @@ Three-office-day hybrid schedules balance collaboration needs with focused indiv
 - **Desk booking systems prevent overbooking**: communication protocols clarify when to prefer in-person versus async, and monthly reviews adapt schedules to actual team patterns.
 - **For most technical teams**: a rotating pattern provides better outcomes.
 
-## Understanding the Three-Office-Day Pattern
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Three-Office-Day Pattern
 
 A three-day office schedule works well when your team has specific needs that require physical presence. Engineering teams doing hardware debugging, design teams collaborating on physical prototypes, or teams with frequent client meetings often find two office days insufficient. The three-day pattern provides enough overlap for meaningful collaboration while still granting team members two days for focused, uninterrupted work.
 
 The key challenge is preventing the schedule from becoming chaotic. Without a clear template, you'll deal with constant Slack messages asking "who's in tomorrow?" and last-minute desk bookings. A structured approach with rotation logic solves this.
 
-## Building the Schedule Template
+### Step 2: Build the Schedule Template
 
 ### Core Schedule Structure
 
@@ -179,7 +189,7 @@ team_schedule:
       required: false
 ```
 
-## Integrating with Calendar Tools
+### Step 3: Integrate with Calendar Tools
 
 For developers, the schedule needs to live where you already live—your calendar. Here's a script that syncs your schedule to Google Calendar:
 
@@ -243,33 +253,33 @@ function getNextDateForDay(dayName) {
 module.exports = { syncScheduleToCalendar };
 ```
 
-## Setting Up Communication Norms
+### Step 4: Set Up Communication Norms
 
 A schedule template is useless without clear communication expectations. Define when to use which channel based on who's in the office:
 
 ```markdown
 # Hybrid Communication Protocol
 
-## Office Days (Mon/Wed/Fri for Group A)
+### Step 5: Office Days (Mon/Wed/Fri for Group A)
 - Prefer in-person conversations for code reviews
 - Use Slack for async updates that remote team members need
 - Book meeting rooms for discussions involving remote folks
 - Update shared Slack status: "� office"
 
-## Remote Days (Tue/Thu for Group A)
+### Step 6: Remote Days (Tue/Thu for Group A)
 - All meetings must have Zoom/Meet links
 - Record important discussions for those in different timezones
 - Use async updates in writing before jumping to calls
 - Update shared Slack status: "🏠 remote"
 
-## Cross-Mode Communication
+### Step 7: Cross-Mode Communication
 When one person is in-office and others are remote:
 - Always include virtual meeting link in calendar invites
 - Default to screen-sharing during code reviews
 - Use collaborative documents for design discussions
 ```
 
-## Managing Desk and Resource Booking
+### Step 8: Manage Desk and Resource Booking
 
 With three office days, you'll likely need a desk booking system. Several open-source options exist, or you can build a simple one:
 
@@ -320,7 +330,7 @@ class DeskBookingSystem {
 }
 ```
 
-## Review and Iterate
+### Step 9: Review and Iterate
 
 Your first schedule won't be perfect. Plan a monthly review where the team discusses:
 
@@ -332,6 +342,21 @@ Your first schedule won't be perfect. Plan a monthly review where the team discu
 Adjust the template based on feedback. The schedule should serve your team's actual work patterns, not the other way around.
 
 Building a three-office-day hybrid schedule doesn't require expensive tools or complex systems. Start with a simple rotation, use existing calendar and communication tools, and iterate based on what actually works for your team.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

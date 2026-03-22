@@ -53,7 +53,17 @@ Before searching, define what "dedicated office space" means for your situation.
 
 For developers, Chiang Mai offers fiber internet in most areas, but coverage varies by building. Targeting neighborhoods with established expat communities simplifies the search considerably.
 
-## Best Neighborhoods for Remote Work
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Best Neighborhoods for Remote Work
 
 ### Nimman Area
 The Nimman area hosts numerous cafes with fast WiFi, making it convenient for hybrid work arrangements. Apartments here tend to be newer and come with modern amenities. However, rent prices have increased over the past years, and street noise can be an issue on weekends.
@@ -67,7 +77,7 @@ North of Nimman, Santitham offers a balance between affordability and convenienc
 ### Hang Dong Area
 For those with vehicles, Hang Dong provides more space at lower prices. Newer condominium developments offer dedicated office rooms within units. The downside involves distance from the city center and the necessity of transportation.
 
-## Search Platforms and Strategies
+### Step 2: Search Platforms and Strategies
 
 ### Local Platforms
 
@@ -94,7 +104,7 @@ Join Facebook groups and introduce yourself with your requirements. Landlords fr
 
 Many apartment buildings in Chiang Mai operate without online listings. Visiting neighborhoods directly and looking for "ห้องว่าง" (vacancy) signs yields results. This approach works particularly well in Santitham and Hang Dong areas.
 
-## Evaluating Internet Speed
+### Step 3: Evaluating Internet Speed
 
 Internet reliability matters more than raw speed for most remote work scenarios. Before committing to a lease, test the connection yourself:
 
@@ -108,7 +118,7 @@ Internet reliability matters more than raw speed for most remote work scenarios.
 
 Request proof of actual speed from current tenants rather than relying on building claims. Ask to run a video call test during your viewing. Most tenants are happy to demonstrate, as they understand the importance for remote workers.
 
-## Identifying Dedicated Office Space in Apartments
+### Step 4: Identifying Dedicated Office Space in Apartments
 
 True dedicated office space within apartments varies in Chiang Mai. Understanding the terminology helps:
 
@@ -144,7 +154,7 @@ Based on current market rates (2026), here are typical options:
 
 Utilities typically add 1,500-3,000 THB monthly, depending on air conditioning usage.
 
-## Negotiation and Lease Terms
+### Step 5: Negotiation and Lease Terms
 
 Most landlords expect negotiation on annual leases. Key points:
 
@@ -155,7 +165,7 @@ Most landlords expect negotiation on annual leases. Key points:
 
 Request a minimum six-month lease initially. This provides flexibility while demonstrating commitment to landlords who prefer annual agreements.
 
-## Red Flags to Avoid
+### Step 6: Red Flags to Avoid
 
 Watch for these warning signs:
 
@@ -165,7 +175,7 @@ Watch for these warning signs:
 - Landlords unwilling to provide tenant contact for reference
 - Contracts requiring more than two months deposit
 
-## Internet Verification Checklist
+### Step 7: Internet Verification Checklist
 
 Before signing any lease, verify internet quality yourself:
 
@@ -219,7 +229,7 @@ echo "- Video call: No drops, clear audio"
 
 Document the results and compare against your requirements.
 
-## Comparing Neighborhoods: Cost vs. Convenience Matrix
+### Step 8: Comparing Neighborhoods: Cost vs. Convenience Matrix
 
 This table compares all neighborhoods:
 
@@ -241,7 +251,7 @@ This table compares all neighborhoods:
 - **Maximize savings**: Hang Dong (cheapest, best if you have scooter)
 - **Short-term flexibility**: Old City (tourist infrastructure, monthly leases)
 
-## Rental Costs Over Time (Historical Data)
+### Step 9: Rental Costs Over Time (Historical Data)
 
 Prices have increased steadily. Budget accordingly:
 
@@ -265,7 +275,7 @@ Prices have increased steadily. Budget accordingly:
 
 **Implication**: Budget is 10-15% higher than older online guides suggest.
 
-## Apartment Size and Configuration Guide
+### Step 10: Apartment Size and Configuration Guide
 
 ### Size Recommendations by Usage
 
@@ -283,7 +293,7 @@ Prices have increased steadily. Budget accordingly:
 - **AC in office**: Separate AC vs. shared affects comfort during heat
 - **Insulation**: Concrete buildings quieter than older structures
 
-## Application Timeline: 30-Day Search Plan
+### Step 11: Application Timeline: 30-Day Search Plan
 
 ### Week 1: Research and Neighborhood Testing
 - Book 1-week Airbnb in target neighborhood
@@ -309,7 +319,7 @@ Prices have increased steadily. Budget accordingly:
 - Plan furniture delivery
 - Establish landlord communication channel
 
-## Apartment Viewing Checklist
+### Step 12: Apartment Viewing Checklist
 
 Print this and bring to viewings:
 
@@ -350,12 +360,12 @@ Would you sign today? YES / NO
 Why or why not: ________________
 ```
 
-## Lease Template Essentials
+### Step 13: Lease Template Essentials
 
 Ensure your lease covers these points (have translated if needed):
 
 ```markdown
-## Critical Lease Provisions
+### Step 14: Critical Lease Provisions
 
 1. **Internet Provision**
    - Landlord provides fiber internet OR
@@ -384,7 +394,7 @@ Ensure your lease covers these points (have translated if needed):
    - Billing process and payment terms
 ```
 
-## Final Recommendations
+### Step 15: Final Recommendations
 
 Finding the right apartment requires balancing multiple factors. For developers and power users:
 
@@ -407,6 +417,21 @@ Most remote workers find suitable apartments within 2-3 weeks of active searchin
 - Are flexible on minor imperfections
 
 Chiang Mai offers exceptional value for remote workers willing to invest time in finding the right fit. The city's infrastructure continues improving, and the community of remote workers provides valuable network support during your search. Once settled, most remote workers report cost of living 50-70% lower than major Western cities while maintaining excellent work conditions.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

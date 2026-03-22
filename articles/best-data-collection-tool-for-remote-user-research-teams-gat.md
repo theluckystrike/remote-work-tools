@@ -93,6 +93,33 @@ Third, aggregate findings in a shared research repository in Dovetail or Notion.
 
 This three-step workflow — survey, interview, aggregate — scales across time zones and produces structured data you can compare across user segments.
 
+Automate research data collection by pulling Typeform survey responses and exporting them for analysis:
+
+```bash
+# Fetch all responses from a Typeform survey
+TYPEFORM_TOKEN="tfp_your_personal_access_token"
+FORM_ID="abc123XYZ"
+
+# Get the latest 100 responses with metadata
+curl -s "https://api.typeform.com/forms/${FORM_ID}/responses?page_size=100" \
+  -H "Authorization: Bearer ${TYPEFORM_TOKEN}" \
+  | jq '.items[] | {
+    submitted_at: .submitted_at,
+    respondent: .hidden.email // "anonymous",
+    answers: [.answers[] | {field: .field.ref, value: (.text // .choice.label // .number // .boolean)}]
+  }' > research_responses.json
+
+# Count responses by day for participation tracking
+curl -s "https://api.typeform.com/forms/${FORM_ID}/responses?page_size=1000" \
+  -H "Authorization: Bearer ${TYPEFORM_TOKEN}" \
+  | jq '[.items[].submitted_at | split("T")[0]] | group_by(.) | map({date: .[0], count: length})'
+
+# Export Hotjar heatmap data for a specific page
+curl -s "https://insights.hotjar.com/api/v2/sites/${HOTJAR_SITE_ID}/heatmaps" \
+  -H "Authorization: Bearer ${HOTJAR_TOKEN}" \
+  | jq '.[] | select(.name | contains("onboarding")) | {id, name, pageviews: .num_pageviews}'
+```
+
 ## Building a Participant Recruitment Pipeline
 
 No amount of tooling matters without willing participants. Remote research requires a reliable way to recruit users on an ongoing basis. Several approaches work for distributed teams.

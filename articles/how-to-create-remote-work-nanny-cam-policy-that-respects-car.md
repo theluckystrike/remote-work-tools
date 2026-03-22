@@ -26,13 +26,23 @@ Remote work has blurred the lines between home and office, leading many professi
 - **Local storage provides better**: privacy controls and eliminates third-party data handling.
 - **Choose platforms that offer**: end-to-end encryption and allow you to delete footage on demand.
 
-## Understanding the Legal and Ethical Landscape
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Legal and Ethical Landscape
 
 Before deploying any camera system, understand that caregiver privacy laws vary significantly by jurisdiction. In many US states, recording someone without consent in private spaces constitutes wiretapping or privacy violation. Even in states with single-party consent, informing caregivers about cameras remains both legally prudent and ethically necessary.
 
 The principle is straightforward: caregivers deserve transparent communication about surveillance, and they must provide informed consent. This isn't just about legal compliance—it establishes trust between employers (or household employers) and the professionals caring for their loved ones.
 
-## Core Policy Components
+### Step 2: Core Policy Components
 
 Every nanny cam policy should address five key areas: disclosure, access controls, data handling, retention limits, and consent documentation. Let's examine each with practical implementation guidance.
 
@@ -145,7 +155,7 @@ Paper trails protect everyone involved. Maintain signed disclosure agreements in
 Consider using digital signature platforms that timestamp and verify identity:
 
 ```markdown
-## Annual Consent Review Checklist
+### Step 3: Annual Consent Review Checklist
 
 - [ ] Caregiver has received updated policy document
 - [ ] All camera locations and capabilities disclosed
@@ -155,7 +165,7 @@ Consider using digital signature platforms that timestamp and verify identity:
 - [ ] Emergency contact information current
 ```
 
-## Technical Recommendations for Privacy-Conscious Setup
+### Step 4: Technical Recommendations for Privacy-Conscious Setup
 
 For developers building home camera systems, prioritize these privacy-first patterns:
 
@@ -185,13 +195,13 @@ audit_entry:
   ip_address: "192.168.1.xxx"
 ```
 
-## Building Trust Through Transparency
+### Step 5: Build Trust Through Transparency
 
 A well-crafted nanny cam policy balances legitimate security interests with caregiver dignity. Open communication about cameras, clear consent processes, and demonstrated respect for privacy boundaries actually strengthen the working relationship. Caregivers who feel respected become more trustworthy partners in your household.
 
 Remember that policy documents require ongoing attention. Review and update your approach annually, particularly as technology evolves or legal requirements shift in your jurisdiction.
 
-## State-by-State Legal Overview
+### Step 6: State-by-State Legal Overview
 
 Camera laws vary dramatically. Before deploying any system:
 
@@ -203,7 +213,7 @@ Camera laws vary dramatically. Before deploying any system:
 
 Talk to an employment lawyer (30-minute consultation costs $75-150). This prevents expensive mistakes later. Many firms offer free initial consultations.
 
-## Hardware Recommendations
+### Step 7: Hardware Recommendations
 
 **Wyze Cam v3**: $30-50 per unit. Budget option with local storage capability.
 - Pros: Cheap, reliable, local storage prevents cloud dependency
@@ -219,7 +229,7 @@ Talk to an employment lawyer (30-minute consultation costs $75-150). This preven
 
 For caregiver-respectful systems, local-only storage (Wyze or Ubiquiti) is preferable to cloud services. It prevents accidental data leaks and shows caregivers you're not mining their data.
 
-## Creating a Caregiver Handbook
+### Step 8: Create a Caregiver Handbook
 
 Bundle your camera policy into a broader caregiver handbook:
 
@@ -231,7 +241,7 @@ Bundle your camera policy into a broader caregiver handbook:
 
 A professional handbook signals you take the relationship seriously and aren't sneaking cameras in.
 
-## Measuring Success
+### Step 9: Measuring Success
 
 A good nanny cam policy succeeds when:
 
@@ -244,7 +254,7 @@ If you're reviewing footage constantly or catching frequent minor issues (caregi
 
 The goal isn't to spy—it's to verify that caregiving is happening as expected while preserving trust. If you can't trust your caregivers, no camera policy will fix that.
 
-## Retention and Deletion
+### Step 10: Retention and Deletion
 
 Implement automated deletion policies:
 
@@ -254,7 +264,7 @@ Implement automated deletion policies:
 
 Document your deletion policy in writing. Some caregivers worry that footage is kept indefinitely for potential future complaints. Knowing it deletes weekly reduces anxiety.
 
-## Alternatives to Nanny Cams
+### Step 11: Alternatives to Nanny Cams
 
 Before deploying cameras, consider less invasive monitoring:
 
@@ -270,7 +280,7 @@ Before deploying cameras, consider less invasive monitoring:
 
 Cameras are a tool when trust gaps exist but can't be fully resolved. They're not a substitute for hiring the right person.
 
-## Handling Camera-Related Conflict
+### Step 12: Handling Camera-Related Conflict
 
 If a caregiver objects to cameras:
 
@@ -284,6 +294,21 @@ If a caregiver objects to cameras:
 
 The best policies result from negotiation, not unilateral decisions.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

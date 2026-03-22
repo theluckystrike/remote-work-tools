@@ -43,7 +43,17 @@ Modern developer desks typically power:
 
 That easily totals 8-12 devices requiring power. A basic three-outlet strip won't suffice.
 
-## Key Features to Evaluate
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Key Features to Evaluate
 
 ### Outlet Count and Spacing
 
@@ -74,7 +84,7 @@ Look for power strips rated at least 2,000 joules. The indicator light should co
 
 A 6-foot cord provides flexibility for desk placement. Flat plug designs fit behind furniture more easily. Braided or reinforced cords resist wear better than standard plastic jackets.
 
-## Practical Setup Examples
+### Step 2: Practical Setup Examples
 
 ### Minimalist Developer Setup
 
@@ -127,13 +137,13 @@ Smart strips work well for:
 - Cycling power to troubleshoot frozen devices
 - Controlling desk lamps and ambient lighting
 
-## Cable Management Integration
+### Step 3: Cable Management Integration
 
 Power strips often become cable management hubs. Some practical approaches:
 
 Many power strips include mounting slots or adhesive backing for under-desk installation, which keeps cables organized and accessible without cluttering the desk surface. Tower-style vertical strips stack outlets vertically, reducing the desk footprint while providing many ports. Some strips also fit within standard cable raceway channels, creating clean transitions from desk to wall.
 
-## Maintenance and Safety
+### Step 4: Perform Maintenance and Safety
 
 Power strips degrade over time. Replace strips that show:
 - Burn marks or melted plastic
@@ -144,7 +154,7 @@ Power strips degrade over time. Replace strips that show:
 
 For critical development equipment, consider an UPS (Uninterruptible Power Supply) alongside your power strip. This provides battery backup during outages, giving you time to save work and shut down systems gracefully.
 
-## Building Your Power Infrastructure
+### Step 5: Build Your Power Infrastructure
 
 Start by auditing your current and projected power needs. Count all devices, note their wattage requirements, and plan for growth. Choose a strip with at least 20% more capacity than your current load.
 
@@ -152,7 +162,7 @@ Position your power strip where it remains accessible but hidden from direct vie
 
 A reliable power setup protects your hardware, reduces daily frustrations, and keeps outlet count from becoming the thing that slows down your work.
 
-## Power Strip Recommendations for Different Developer Setups
+### Step 6: Power Strip Recommendations for Different Developer Setups
 
 | Product | Outlets | USB | Surge (J) | Price | Best For |
 |---------|---------|-----|----------|-------|----------|
@@ -167,7 +177,7 @@ A reliable power setup protects your hardware, reduces daily frustrations, and k
 **Premium pick:** Ergotron or Tripp Lite ($150-300) for long-term reliability.
 **Budget pick:** Belkin SurgePlus ($25-35) works fine for simple setups.
 
-## USB-C Power Delivery Specifications Explained
+### Step 7: USB-C Power Delivery Specifications Explained
 
 Not all USB-C ports are equal. Understanding wattage helps you choose correctly:
 
@@ -316,7 +326,7 @@ Safe practices:
 ✓ Maintain clear access to power switch
 ```
 
-## Calculating Your Actual Power Needs
+### Step 8: Calculating Your Actual Power Needs
 
 Developers often overestimate or underestimate power requirements:
 
@@ -386,6 +396,21 @@ Annually:
 - Plan for next-generation power upgrades
 ```
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

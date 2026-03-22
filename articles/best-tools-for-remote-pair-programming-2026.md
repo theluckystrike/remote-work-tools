@@ -14,8 +14,8 @@ voice-checked: true
 intent-checked: true---
 
 {% raw %}
-
 ## The Pair Programming Problem
+
 
 Remote pair programming is harder than in-office. You need:
 - **Low-latency code sharing** (millisecond updates)
@@ -25,6 +25,16 @@ Remote pair programming is harder than in-office. You need:
 
 Most tools claim to solve this. Most fail at scale. This guide separates the winners from the pretenders.
 ---
+
+
+## Key Takeaways
+
+- **Setup: ```bash # Download**: from tuple.app # Sign up (free tier available) # Pro plan: $20/month # Open local file or web project # Workflow: # 1.
+- **Spend $10-20/month to eliminate that**: and productivity increases far exceed the tool cost.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Keep sessions short: -**: 90 minutes maximum (mental fatigue) - Take 5-minute breaks hourly - End session, take notes, resume next day if needed 4.
+- **A week-long trial with**: actual work gives better signal than feature comparison charts.
 
 ## VS Code Live Share: Free, Solid, Works Everywhere
 

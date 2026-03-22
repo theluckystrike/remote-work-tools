@@ -48,7 +48,17 @@ Retention data consistently shows that employees who feel recognized at work are
 
 The challenge: coordinating celebration across time zones, ensuring the recognition feels personal rather than automated, and building traditions that don't require synchronous presence.
 
-## Building an Anniversary Tracking System
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Build an Anniversary Tracking System
 
 The foundation of any anniversary program is accurate data. You need a reliable way to track hire dates and trigger recognition at the right time.
 
@@ -79,7 +89,7 @@ Store anniversary data in a structured format your team can query. A JSON file w
 
 This structure gives you the flexibility to build notifications, generate reports, and personalize messages based on employee timezone or tenure.
 
-## Automating Anniversary Notifications with Slack
+### Step 2: Automate Anniversary Notifications with Slack
 
 Slack remains the communication hub for most remote teams. Building a simple anniversary bot keeps recognition consistent without requiring manual tracking.
 
@@ -138,7 +148,7 @@ def check_and_notify():
 
 Run this script daily via cron or a GitHub Action to catch upcoming anniversaries. The key is scheduling it to run at a consistent time that works across your team's time zones.
 
-## Creating Personal Recognition Experiences
+### Step 3: Create Personal Recognition Experiences
 
 Automation handles consistency, but personalization makes recognition memorable. The best remote teams combine both.
 
@@ -165,7 +175,7 @@ mkdir -p anniversary-videos/2026-03
 
 Tools like Loom or Vidly make recording and sharing video messages frictionless. Compile these into a montage that gets shared on the anniversary day.
 
-## Making Recognition Part of Your Workflow
+### Step 4: Making Recognition Part of Your Workflow
 
 The best anniversary programs integrate into existing processes rather than adding separate tasks.
 
@@ -187,7 +197,7 @@ Engineering teams often appreciate different recognition styles than sales or su
 
 This keeps recognition relevant to actual work rather than generic praise.
 
-## Avoiding Common Pitfalls
+### Step 5: Avoiding Common Pitfalls
 
 Several patterns undermine anniversary recognition programs:
 
@@ -197,7 +207,7 @@ Generic automation: A bot posting "Happy 3rd work anniversary!" without context 
 
 Inconsistent follow-through: Starting an anniversary program and then abandoning it damages trust more than never starting. Begin with a simple system you can maintain.
 
-## Measuring Impact
+### Step 6: Measuring Impact
 
 Track a few key metrics to understand if your program works:
 
@@ -207,7 +217,7 @@ Track a few key metrics to understand if your program works:
 
 You don't need complex analytics—simple observation over a few quarters reveals patterns.
 
-## Building Team Traditions
+### Step 7: Build Team Traditions
 
 Over time, anniversary recognition becomes part of your team culture. Some traditions that work well for remote teams:
 
@@ -218,7 +228,7 @@ Over time, anniversary recognition becomes part of your team culture. Some tradi
 
 The specific tradition matters less than consistency. Teams that recognize milestones regularly build stronger connections across distance.
 
-## Implementation Quick Start
+### Step 8: Implementation Quick Start
 
 Here's a minimal path to launching an anniversary program:
 
@@ -229,6 +239,21 @@ Here's a minimal path to launching an anniversary program:
 5. Iterate: Gather feedback and adjust the approach
 
 Remote teams that celebrate together stay together. Anniversaries provide a predictable, meaningful touchpoint for building those connections.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

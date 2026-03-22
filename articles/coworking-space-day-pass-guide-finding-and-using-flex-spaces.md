@@ -40,13 +40,23 @@ Day passes for coworking spaces represent one of the most flexible options for r
 - **$350 retail) This captures**: some membership pricing benefits without commitment.
 - **Focus evaluation on these**: practical factors: ### Connectivity Requirements Developers need reliable, fast internet—preferably wired ethernet in addition to WiFi.
 
-## Understanding Day Pass Economics
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Day Pass Economics
 
 Coworking day pass prices typically range from $25 to $75 depending on location, amenities, and demand. Major chains like WeWork, Regus, and local independents offer day passes with varying terms. The key advantage for developers is paying only for days you actually use the space—a model that beats monthly memberships when you need office access fewer than 15 days per month.
 
 Most spaces calculate break-even differently, but the general rule is straightforward: if you need dedicated workspace more than 10-12 days monthly, a monthly membership usually costs less. Day passes make sense for project-based work, client meetings, or when your home internet fails.
 
-## Finding Day Passes: Practical Approaches
+### Step 2: Finding Day Passes: Practical Approaches
 
 ### Direct Search Methods
 
@@ -93,7 +103,7 @@ findDayPasses('Austin', 40).then(spaces => {
 
 This approach becomes valuable when you frequently work from different cities and need to compare options quickly.
 
-## Evaluating Spaces: What Matters for Developers
+### Step 3: Evaluating Spaces: What Matters for Developers
 
 Not all coworking spaces serve developers equally. Focus evaluation on these practical factors:
 
@@ -123,7 +133,7 @@ Essential checks:
 
 Many spaces segment into phone booth zones, open work areas, and meeting rooms. Developers needing focus time should verify quiet zone availability. Some spaces offer "developer floors" with noise management policies.
 
-## Maximizing Your Day Pass Experience
+### Step 4: Maximizing Your Day Pass Experience
 
 ### Time Optimization Strategies
 
@@ -145,7 +155,7 @@ Frequent day pass users often receive informal perks:
 
 **Package handling**: If expecting deliveries, clarify with staff. Day pass holders typically cannot receive packages without advance notice.
 
-## Day Pass Alternatives Worth Considering
+### Step 5: Day Pass Alternatives Worth Considering
 
 For developers with variable schedules, several alternatives exist:
 
@@ -157,7 +167,7 @@ For developers with variable schedules, several alternatives exist:
 
 4. **Restaurant workspaces** - Certain cafes and restaurants market toward remote workers with day passes. Examples include Spokes in Portland or Desklight spaces.
 
-## Quick Decision Framework
+### Step 6: Quick Decision Framework
 
 Use this decision tree for choosing day passes vs. alternatives:
 
@@ -235,7 +245,7 @@ Use this decision tree for choosing day passes vs. alternatives:
 
 **Best for**: Established businesses, client meetings, mail forwarding needs
 
-## Decision Matrix: Subscription vs. Pay-as-You-Go
+### Step 7: Decision Matrix: Subscription vs. Pay-as-You-Go
 
 Use this matrix to determine whether day passes or monthly membership saves money:
 
@@ -271,7 +281,7 @@ console.log(calculateBestOption(15));  // Membership - save $25/month
 console.log(calculateBestOption(20));  // Membership - save $150/month
 ```
 
-## Evaluating Spaces: Technical Deep-Dive
+### Step 8: Evaluating Spaces: Technical Deep-Dive
 
 ### Network Performance Requirements for Developers
 
@@ -351,7 +361,7 @@ Consistent day pass users often receive:
 
 Treat staff as humans, be consistent, and you'll develop informal perks over time.
 
-## Handling Common Day Pass Scenarios
+### Step 9: Handling Common Day Pass Scenarios
 
 ### Scenario 1: Internet Goes Down Mid-Day
 
@@ -394,7 +404,7 @@ Treat staff as humans, be consistent, and you'll develop informal perks over tim
 - Try different space location same company
 - Shift work to early morning or evening
 
-## Coworking Space Quality Metrics
+### Step 10: Coworking Space Quality Metrics
 
 Track your experience across spaces:
 
@@ -411,7 +421,7 @@ Track your experience across spaces:
 
 After visiting 10+ spaces, patterns emerge about which operators run better spaces.
 
-## Seasonal Coworking Patterns
+### Step 11: Seasonal Coworking Patterns
 
 Coworking demand varies seasonally:
 
@@ -421,6 +431,21 @@ Coworking demand varies seasonally:
 **Spring (Mar-May)**: Moderate demand, Q2 budget spending by startups
 
 Book summer day passes in bulk if you're planning that season. Avoid December 20-January 5 when spaces have reduced hours.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

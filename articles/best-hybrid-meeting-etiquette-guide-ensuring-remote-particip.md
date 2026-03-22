@@ -43,7 +43,17 @@ This simple practice forces the room to pause and creates explicit space for rem
 - **In-room attendees who want**: to discuss something privately should use a breakout room or save it for after the meeting.
 - **Making decisions informally after the call ends**: The most damaging exclusion happens when in-room attendees continue discussing—and deciding—after remote participants have dropped.
 
-## The Fundamental Problem: Asymmetric Experience
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Fundamental Problem: Asymmetric Experience
 
 In-person attendees naturally default to behaviors that work for co-located groups. They can see facial expressions, hear ambient context, and participate in spontaneous exchanges. Remote participants depend entirely on the meeting infrastructure and the intentional behaviors of in-room attendees.
 
@@ -63,7 +73,7 @@ Before investing in etiquette changes, confirm your toolchain supports inclusive
 
 For teams running more than five hybrid meetings per week, Zoom or Microsoft Teams with dedicated room hardware provide the most reliable inclusive experience.
 
-## Pre-Meeting Infrastructure
+### Step 2: Pre-Meeting Infrastructure
 
 Before any meeting starts, establish infrastructure that treats remote participants as first-class citizens.
 
@@ -100,24 +110,24 @@ const meetingNotesTemplate = `
 **Attendees (In-Person):** {{in_person_list}}
 **Attendees (Remote):** {{remote_list}}
 
-## Agenda
+### Step 3: Agenda
 1. {{agenda_item_1}}
 2. {{agenda_item_2}}
 
-## Discussion Notes
+### Step 4: Discussion Notes
 *Add notes here in real-time*
 
-## Action Items
+### Step 5: Action Items
 - [ ]
 
-## Recording Link
+### Step 6: Recording Link
 *Add after meeting*
 `;
 ```
 
 The shared document gives remote participants something to edit and react to in real time, creating active rather than passive participation.
 
-## During the Meeting: Inclusive Practices
+### Step 7: During the Meeting: Inclusive Practices
 
 ### The Round-Robin Rule
 
@@ -166,7 +176,7 @@ A practical convention: before pointing at a slide or document, say "I'm going t
 
 Side conversations are one of the most common complaints from remote participants: they hear murmuring, cannot follow the discussion, and then must ask someone to repeat a decision already made. Enforce a single-channel rule—all conversation runs through shared audio. In-room attendees who want to discuss something privately should use a breakout room or save it for after the meeting. Teams that adopt this consistently report higher remote participant satisfaction.
 
-## Technical Implementation: Meeting Bot
+### Step 8: Technical Implementation: Meeting Bot
 
 For teams that want to automate some of these practices, here's a simple meeting coordination script:
 
@@ -239,7 +249,7 @@ Run this script before each meeting to ensure you've addressed the basics:
 python3 hybrid_meeting_helper.py
 ```
 
-## Post-Meeting Follow-Up
+### Step 9: Post-Meeting Follow-Up
 
 The meeting doesn't end when everyone leaves the video call. Remote participants benefit from explicit follow-up:
 
@@ -250,7 +260,7 @@ The meeting doesn't end when everyone leaves the video call. Remote participants
 
 The 24-hour recording rule matters because remote participants in different time zones often join outside their normal work hours—sharing the recording promptly lets them review anything they missed while fatigued. A written action item list shared via email or project management tool immediately after the meeting ensures remote participants have the same commitment reinforcement that in-room social dynamics provide to co-located attendees.
 
-## Measuring Success
+### Step 10: Measuring Success
 
 Track whether your hybrid meetings are truly inclusive:
 
@@ -284,6 +294,21 @@ Even teams that genuinely want to include remote participants fall into predicta
 **Relying on the chat without monitoring it**: Chat is a lifeline for remote participants, but in-room attendees focused on the room often miss messages. The designated remote liaison must actively watch chat and read relevant messages aloud.
 
 Hybrid meetings done well require more deliberate effort than fully remote or fully in-person meetings. The asymmetry is real and requires active compensation. Teams that treat hybrid etiquette as core meeting design produce genuinely inclusive collaboration; those that treat it as overhead to minimize will consistently fail remote participants.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

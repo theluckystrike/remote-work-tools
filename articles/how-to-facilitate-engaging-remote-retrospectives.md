@@ -42,7 +42,17 @@ Remote retrospectives often feel like mandatory meetings where team members half
 - **Use async pre-work to**: gather input from everyone before your synchronous session.
 - **Use round-robin talking circles**: or the "each person speaks once before anyone speaks twice" rule.
 
-## Setting the Foundation
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Setting the Foundation
 
 Before you even open your retro tool, establish clear expectations. Remote retrospectives work best when team members understand the purpose and feel safe sharing honest feedback.
 
@@ -74,7 +84,7 @@ A simple Google Form or Typeform with three questions works well:
 
 Collect responses 24 hours before your meeting. Review themes and prepare your help focus accordingly.
 
-## Help Techniques That Work
+### Step 2: Help Techniques That Work
 
 The facilitator's job is not to solve problems—it's to guide the conversation so the team solves their own problems.
 
@@ -95,7 +105,7 @@ The joke deflector: Sometimes teams use humor to avoid addressing real issues. A
 
 The silent participant: If someone hasn't contributed, explicitly invite them: "Jordan, you've been working on this feature—any observations from your perspective?"
 
-## Digital Tools and Setups
+### Step 3: Digital Tools and Setups
 
 Your tool choice matters less than how you use it. However, certain tools support better help.
 
@@ -140,7 +150,7 @@ For fully asynchronous teams across multiple time zones, consider skipping live 
 
 This works well for teams that are genuinely distributed and never synchronous.
 
-## Making Retrospectives Actually Useful
+### Step 4: Making Retrospectives Actually Useful
 
 The biggest complaint about retrospectives is that nothing changes. Fix this by connecting retro actions to your actual workflow.
 
@@ -153,7 +163,7 @@ Every retro action should connect to a sprint goal or technical debt item. If an
 Start every retrospective by reviewing completed actions from the previous retro. This builds trust that the process leads to real change.
 
 ```markdown
-## Action Item Review
+### Step 5: Action Item Review
 
 | Action | Owner | Status | Notes |
 |--------|-------|--------|-------|
@@ -164,7 +174,7 @@ Start every retrospective by reviewing completed actions from the previous retro
 
 Be honest about why items weren't completed. If something keeps getting pushed, either remove it or escalate why it's blocked.
 
-## Keeping Energy High Over Time
+### Step 6: Keeping Energy High Over Time
 
 Retrospective fatigue is real. After running the same format for months, people stop engaging. Rotate formats to maintain interest:
 
@@ -201,7 +211,7 @@ This structure prevents teams from treating symptoms instead of causes.
 Reserve 15 minutes in quarterly retros to review patterns across recent retrospectives:
 
 ```markdown
-## Pattern Review: Last 12 Weeks
+### Step 7: Pattern Review: Last 12 Weeks
 
 | Issue | Frequency | Root Cause | Status |
 |-------|-----------|-----------|--------|
@@ -217,7 +227,7 @@ This reveals systemic problems that individual retros miss. Pattern analysis dri
 For significant incidents or failures, use a blameless post-mortem that separates incident analysis from blame:
 
 ```markdown
-## Incident: Database Connection Timeout (March 18, 2026)
+### Step 8: Incident: Database Connection Timeout (March 18, 2026)
 
 ### Timeline
 - 14:23 - Alert fired for high database latency
@@ -244,7 +254,7 @@ For significant incidents or failures, use a blameless post-mortem that separate
 
 Blameless post-mortems encourage psychological safety because they focus on systems rather than individual performance.
 
-## Retrospective Metrics That Matter
+### Step 9: Retrospective Metrics That Matter
 
 Track these metrics to measure retro effectiveness:
 
@@ -259,7 +269,7 @@ Track these metrics to measure retro effectiveness:
 **Team Participation Score:** Track the percentage of team members contributing to each retro (comments, action items, reactions).
 - Declining participation signals the format has become stale or team members feel unsafe
 
-## helping Difficult Retrospectives
+### Step 10: helping Difficult Retrospectives
 
 Some retros surface conflict or difficult truths. Here's how to handle them:
 
@@ -275,7 +285,7 @@ Set expectations: "We've heard several concerns. Now let's shift to: what's one 
 
 Consider a split: have team members do their own retro first, then leadership joins for the final 15 minutes to hear findings and commit to action items.
 
-## Retro Tools and Setup Recommendations
+### Step 11: Retro Tools and Setup Recommendations
 
 **For Synchronous Retros:**
 - Miro or FigJam for visual collaboration
@@ -295,11 +305,26 @@ Consider a split: have team members do their own retro first, then leadership jo
 - Async follow-up where team members add details or propose alternatives
 - Final decision-making in synchronous closure
 
-## The Culture Shift
+### Step 12: The Culture Shift
 
 The most effective teams don't see retrospectives as compliance checkboxes or feedback opportunities. They see them as core to continuous improvement. When retros consistently drive visible changes, team members invest more energy in honest reflection.
 
 This cultural shift doesn't happen through mandate—it happens through consistent follow-through. When the team sees that a retro action actually gets implemented, they trust that the next retro will be worth their time.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

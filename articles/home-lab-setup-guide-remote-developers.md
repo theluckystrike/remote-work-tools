@@ -40,7 +40,17 @@ This guide covers: hardware choice, hypervisor installation, network setup, and 
 - **A 500GB backup set costs about $3/month**: worth it to protect weeks of configuration work.
 - **It runs KVM virtual**: machines and LXC containers, has a web UI, and is free with optional paid support.
 
-## Hardware: What to Buy in 2026
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Hardware: What to Buy in 2026
 
 The sweet spot for a developer home lab is a small form factor PC or repurposed workstation. Avoid consumer NAS devices — they limit your software options.
 
@@ -57,7 +67,7 @@ Key specs to prioritize: RAM (you need at least 32GB for running multiple VMs), 
 
 Power consumption matters for always-on hardware. The Beelink mini PC draws around 15-25W under load — roughly $2-3/month in electricity at average US rates. Compare that to a full tower workstation at 150W+ idle, which runs $15-20/month continuously. For a 24/7 lab, mini PCs and NUCs win on running costs, and the noise level is also significantly lower — important if the lab lives in a home office or bedroom.
 
-## Hypervisor: Proxmox VE
+### Step 2: Hypervisor: Proxmox VE
 
 Proxmox is the standard home lab hypervisor. It runs KVM virtual machines and LXC containers, has a web UI, and is free with optional paid support.
 
@@ -94,7 +104,7 @@ apt update && apt dist-upgrade -y
 
 For most developers, Proxmox hits the best balance of features and operational simplicity.
 
-## Create Your First VM
+### Step 3: Create Your First VM
 
 ```bash
 # Via CLI (or use the web UI)
@@ -129,7 +139,7 @@ ssh devuser@192.168.1.101
 
 Cloud-init VMs boot with your SSH key already installed — no password needed.
 
-## Network: VLANs for Isolation
+### Step 4: Network: VLANs for Isolation
 
 Keep lab traffic separate from your home network. Most managed switches (TP-Link TL-SG108E, ~$30) support VLANs.
 
@@ -157,7 +167,7 @@ iface vmbr0 inet static
 
 VLAN isolation provides two practical benefits for developers: your lab experiments cannot accidentally DDoS your home router, and you can simulate realistic network topologies (frontend subnet, backend subnet, database subnet) without physical hardware.
 
-## DNS: pi-hole + Unbound
+### Step 5: DNS: pi-hole + Unbound
 
 Pi-hole handles ad blocking and local DNS resolution. Unbound adds a recursive resolver so DNS queries go directly to root nameservers — not Google or Cloudflare.
 
@@ -188,7 +198,7 @@ Set your router's DHCP to push 192.168.1.200 as the DNS server.
 
 Local DNS entries are a quality-of-life improvement that compounds over time. Typing `ssh ubuntu-dev.lab` instead of memorizing IP addresses, and accessing services at `gitea.lab:3000` instead of `192.168.1.101:3000`, makes the lab feel like a real infrastructure environment.
 
-## Services Worth Running in a Home Lab
+### Step 6: Services Worth Running in a Home Lab
 
 ### Gitea (self-hosted Git)
 
@@ -261,7 +271,7 @@ services:
 
 Pair Woodpecker with your Gitea instance for a fully local Git + CI pipeline. This is particularly useful for validating Docker build pipelines and infrastructure-as-code changes before pushing to production.
 
-## SSH Config for Lab Access
+### Step 7: SSH Config for Lab Access
 
 ```bash
 # ~/.ssh/config
@@ -283,7 +293,7 @@ Host lab-dev
   IdentityFile ~/.ssh/id_homelab
 ```
 
-## Remote Access via Tailscale
+### Step 8: Remote Access via Tailscale
 
 ```bash
 # Install Tailscale on Proxmox host and key VMs
@@ -302,7 +312,7 @@ With the subnet route approved, your work laptop reaches `192.168.1.101` through
 
 Tailscale's free tier supports up to 3 users and 100 devices, more than enough for a personal lab. The Magic DNS feature (tailscale.net hostnames) adds another layer of naming convenience on top of your Pi-hole local DNS.
 
-## Backups: The Step Most People Skip
+### Step 9: Backups: The Step Most People Skip
 
 A home lab without backups is a lab you will eventually rebuild from scratch. Proxmox Backup Server (PBS) is free and designed for this use case:
 
@@ -316,6 +326,21 @@ A home lab without backups is a lab you will eventually rebuild from scratch. Pr
 ```
 
 For offsite backup, Restic against a Backblaze B2 bucket costs roughly $0.006/GB/month. A 500GB backup set costs about $3/month — worth it to protect weeks of configuration work.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

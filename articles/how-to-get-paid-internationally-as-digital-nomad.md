@@ -29,13 +29,23 @@ Working remotely from anywhere in the world creates unique challenges when it co
 5.
 - **Use clear currency throughout**: (no ambiguity) 5.
 
-## Understanding the Payment Space
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Payment Space
 
 The traditional banking system wasn't designed for global remote work. When a client in Germany pays you in euros while you're in Thailand, several intermediaries take cuts, and settlement can take 5-7 business days. Modern payment platforms solve these problems, but each has trade-offs worth understanding.
 
 Your primary options break down into three categories: global payment processors, crypto-native solutions, and regional banking alternatives. Most digital nomads use a combination of all three, depending on client preferences and local infrastructure.
 
-## Payment Processors That Work Globally
+### Step 2: Payment Processors That Work Globally
 
 ### Wise (formerly TransferWise)
 
@@ -104,7 +114,7 @@ async function createConnectedAccount(country = 'US', email) {
 }
 ```
 
-## Cryptocurrency as a Payment Method
+### Step 3: Cryptocurrency as a Payment Method
 
 Cryptocurrency bypasses traditional banking entirely. You receive stablecoins (USDC, USDT) and convert to your local currency through exchanges, or spend directly where accepted.
 
@@ -149,7 +159,7 @@ def convert_crypto_to_fiat(crypto_amount, target_currency='THB'):
 
 Major exchanges like Binance, Kraken, and Coinbase allow you to convert crypto to fiat and withdraw to your local bank. Verification requirements vary by jurisdiction.
 
-## Managing Multiple Currencies
+### Step 4: Manage Multiple Currencies
 
 As a digital nomad, you likely receive payments in different currencies while incurring expenses in others. Here's a practical workflow:
 
@@ -175,7 +185,7 @@ payment_flow:
 
 This multi-currency approach minimizes conversion fees while keeping funds accessible. The key is maintaining balances in currencies where you spend money directly.
 
-## Tax Considerations for Digital Nomads
+### Step 5: Tax Considerations for Digital Nomads
 
 Tax compliance becomes complex when you work across borders. Three main approaches exist:
 
@@ -198,7 +208,7 @@ Several countries now offer digital nomad visas with specific tax treatment:
 
 Research your specific situation carefully. Tax treaties between countries affect your obligations, and rules change frequently.
 
-## Practical Setup Recommendations
+### Step 6: Practical Setup Recommendations
 
 Based on common digital nomad workflows, here's a recommended setup:
 
@@ -225,7 +235,7 @@ Choose based on:
 - Frequency of conversions (high frequency = use Wise or crypto)
 - Emergency fund strategy (crypto for flexibility, Wise for simplicity)
 
-## Setting Up a Nomad-Friendly Payment Infrastructure
+### Step 7: Set Up a Nomad-Friendly Payment Infrastructure
 
 Here's a complete workflow for receiving and managing international payments:
 
@@ -258,7 +268,7 @@ Ongoing (Monthly)
 - Update tax records monthly for end-of-year prep
 ```
 
-## Invoicing Templates for International Clients
+### Step 8: Invoicing Templates for International Clients
 
 Create a professional invoice that works across borders:
 
@@ -320,6 +330,21 @@ Invoice tips for international work:
 3. Provide multiple payment methods (wire + crypto)
 4. Use clear currency throughout (no ambiguity)
 5. Specify payment terms (Net 14, Net 30) upfront
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

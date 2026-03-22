@@ -32,7 +32,7 @@ For most remote teams, Git-based flat files strike the best balance. You get ver
 - **For most remote teams**: Git-based flat files strike the best balance.
 - **Prefer descriptive titles over**: clever ones.
 
-## Building the Search System
+### Step 1: Build the Search System
 
 Search makes or breaks a wiki. A wiki users can't search becomes a graveyard of outdated information. Implement search early and make it.
 
@@ -76,7 +76,7 @@ fs.writeFileSync('./search-index.json', JSON.stringify(index, null, 2));
 
 This generates a JSON index you can query client-side. For larger wikis, integrate lunr.js or Fuse.js for fuzzy matching and relevance scoring.
 
-## Structuring Your Content Hierarchy
+### Step 2: Structuring Your Content Hierarchy
 
 Organization should mirror how your team thinks, not how a database schema demands. Create intuitive top-level categories that map to actual team functions:
 
@@ -89,7 +89,7 @@ Within each category, use consistent naming conventions. Prefer descriptive titl
 
 Create index pages for each section that link to all children. This gives readers a map of what's available and provides navigation when search fails.
 
-## Implementing Collaborative Features
+### Step 3: Implementing Collaborative Features
 
 A wiki only works if people actually update it. Build collaboration features that reduce friction:
 
@@ -102,7 +102,7 @@ A wiki only works if people actually update it. Build collaboration features tha
 **Change request templates** standardize how teammates suggest additions:
 
 ```markdown
-## Change Request: [Page Title]
+### Step 4: Change Request: [Page Title]
 
 **Suggested by**: [Name]
 **Date**: [YYYY-MM-DD]
@@ -119,7 +119,7 @@ A wiki only works if people actually update it. Build collaboration features tha
 
 **Review workflows** using pull requests catch errors before they propagate. Require review for all changes to documentation directories. This seems like overhead but prevents broken links and outdated information from reaching your team.
 
-## Maintenance and Governance
+### Step 5: Perform Maintenance and Governance
 
 Documentation rots faster than code. Without explicit maintenance, wikis become useless within months. Assign ownership to each top-level section. Owners review their sections quarterly, checking for accuracy and identifying gaps.
 
@@ -135,7 +135,7 @@ Review files that haven't received updates. Either they're no longer needed, or 
 
 Schedule monthly documentation review sessions. Block one hour, go through recent changes, and discuss what should be added. Making documentation visible in team meetings reinforces its importance.
 
-## Hosting and Deployment
+### Step 6: Hosting and Deployment
 
 For a Git-based wiki, deployment is straightforward. GitHub Pages provides free hosting with custom domain support. Netlify or Vercel add CI/CD pipelines and preview deployments for every pull request.
 
@@ -155,7 +155,7 @@ Configure your deployment to run search index generation as part of the build pr
 
 Preview deployments let teammates review documentation changes before they go live. This is particularly valuable for architectural decisions where precision matters.
 
-## Measuring Success
+### Step 7: Measuring Success
 
 Track wiki health through concrete metrics:
 
@@ -166,7 +166,7 @@ Track wiki health through concrete metrics:
 
 These metrics reveal whether your wiki solves problems or creates maintenance busywork. Adjust your approach based on what the data tells you.
 
-## Writing Standards That Prevent Rot
+### Step 8: Writing Standards That Prevent Rot
 
 The biggest cause of wiki decay isn't neglect — it's vague writing that makes content impossible to evaluate later. A page that says "configure the database connection" without specifics becomes useless the moment the database changes. Writing standards prevent this.
 
@@ -179,18 +179,18 @@ verified_by: @username
 applies_to: [services, environments, or tools this covers]
 ---
 
-## Context
+### Step 9: Context
 [One paragraph: when does someone need this page? What problem does it solve?]
 
 ## Prerequisites
 - [What must already be set up]
 - [What permissions or access are required]
 
-## Steps
+### Step 10: Steps
 1. [Step with specific commands or screenshots]
 2. [Step with expected output]
 
-## Verification
+### Step 11: Verification
 [How to confirm it worked — specific command output or test]
 
 ## Troubleshooting
@@ -199,14 +199,14 @@ applies_to: [services, environments, or tools this covers]
 
 The `last_verified` and `verified_by` fields are the most valuable additions. When a teammate finds a page that hasn't been verified in 8 months, they know to treat it with caution and verify the steps before relying on them.
 
-## Preventing the "One Person Writes Everything" Failure Mode
+### Step 12: Preventing the "One Person Writes Everything" Failure Mode
 
 Most wikis start with one enthusiastic contributor writing the majority of the content. When that person leaves or moves to a different team, the wiki stops getting updated and slowly decays.
 
 Build distributed contribution from the start with a section ownership model:
 
 ```markdown
-## Wiki Section Ownership
+### Step 13: Wiki Section Ownership
 
 | Section | Owner | Backup | Review Cadence |
 |---|---|---|---|
@@ -223,7 +223,7 @@ Owners are responsible for:
 
 Assign ownership during the wiki's creation, not after it's built. Retroactive ownership assignment faces resistance — no one wants to inherit a large section of untested content they didn't write.
 
-## Using GitHub Actions to Flag Stale Content
+### Step 14: Use GitHub Actions to Flag Stale Content
 
 Automate stale content detection rather than relying on manual quarterly audits:
 

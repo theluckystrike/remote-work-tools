@@ -40,7 +40,17 @@ Monitor communication changes, output metrics, and work schedule patterns to det
 - **Use scheduled sends to**: deliver messages during appropriate hours, and explicitly communicate that you don't expect responses outside work hours.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Understanding Burnout in Remote Contexts
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Burnout in Remote Contexts
 
 Burnout is not simply working too hard—it's a systematic erosion of engagement caused by prolonged stress without adequate recovery. For remote employees, the boundaries between professional and personal life often blur until they disappear entirely. The home office becomes the workplace, and the workday extends into evening hours because there is no physical separation marking the end of work.
 
@@ -48,7 +58,7 @@ Remote work removes many natural breakpoints that office environments provide. T
 
 The challenge for technical managers and team leads is that burnout symptoms often masquerade as performance issues. An employee who once delivered features consistently may start missing deadlines. Code review participation may drop. Meeting attendance becomes sporadic. These behaviors could indicate many things, but when they cluster together, burnout is often the root cause.
 
-## Early Warning Signs to Monitor
+### Step 2: Early Warning Signs to Monitor
 
 Detecting burnout early requires paying attention to patterns rather than isolated incidents. Here are the key indicators to watch:
 
@@ -72,7 +82,7 @@ Code quality often deteriorates when developers are overwhelmed. Look for an inc
 
 Remote work already limits organic social interaction. When an employee stops joining optional meetings, stops responding to non-essential messages, or declines invitations to virtual social events, this withdrawal can indicate burnout rather than mere introversion.
 
-## Practical Detection Methods
+### Step 3: Practical Detection Methods
 
 Building systems to detect burnout requires intentionality. Here are approaches that work well for distributed teams:
 
@@ -141,7 +151,7 @@ const getBurnoutIndicators = (commitHistory) => {
 };
 ```
 
-## Prevention Strategies
+### Step 4: Prevention Strategies
 
 Detecting burnout is only half the battle—prevention requires systematic changes to how your team works:
 
@@ -177,7 +187,7 @@ Create rhythms that include rest:
 - Scheduled "maker time" blocks for focused work
 - Team-wide "offline" periods where async communication is discouraged
 
-## Building Sustainable Remote Culture
+### Step 5: Build Sustainable Remote Culture
 
 Sustainable remote work requires treating wellbeing as a technical requirement, not a soft skill. Just as you would refactor inefficient code, refactor workflows that create unnecessary stress. Track burnout metrics alongside your usual engineering KPIs. Celebrate employees who maintain healthy boundaries rather than those who consistently overextend.
 
@@ -185,7 +195,7 @@ The goal is not to eliminate all stress—some pressure drives growth and innova
 
 Prevention costs far less than recovery. A burned-out employee may require months to recover fully, and some never return to their previous productivity levels. Investing in detection and prevention protects both your team members and your project's success.
 
-## Burnout Detection Tools and Services
+### Step 6: Burnout Detection Tools and Services
 
 Several software solutions help automate burnout detection. Here's what's available:
 
@@ -245,7 +255,7 @@ curl -X POST $SLACK_WEBHOOK \
   --data '{"text":"Team pulse check: Burnout risk HIGH. Review metrics."}'
 ```
 
-## Creating a Sustainable Work Culture
+### Step 7: Create a Sustainable Work Culture
 
 Beyond detection, systematic changes prevent burnout at the source:
 
@@ -293,19 +303,19 @@ Document and enforce what's actually in scope:
 ```markdown
 # [Employee Name] Role Definition
 
-## Core Responsibilities
+### Step 8: Core Responsibilities
 - Feature development (60%)
 - Code review (15%)
 - Mentoring junior devs (10%)
 - Admin/meetings (15%)
 
-## Out of Scope (escalate if requested)
+### Step 9: Out of Scope (escalate if requested)
 - On-call rotations beyond agreed schedule
 - Fixing production issues outside business hours
 - Training/documentation beyond annual 40 hours
 - Cross-team project work not approved in advance
 
-## Response Time Expectations
+### Step 10: Response Time Expectations
 - Slack messages: Same business day (not evening)
 - Urgent: Escalate via phone, not Slack
 - After-hours: For true emergencies only
@@ -345,6 +355,21 @@ Recovery_Plan:
     - Document burnout factors to prevent repetition
     - Extend recovery support to 8-12 weeks if severe
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

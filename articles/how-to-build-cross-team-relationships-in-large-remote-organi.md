@@ -42,7 +42,17 @@ Make team work visible through shared documentation, create formal cross-team pa
 3.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## The Cross-Team Relationship Gap
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Cross-Team Relationship Gap
 
 Large remote organizations often develop silos. Your team knows your team's work, but knowledge of what other teams are building, their challenges, and their priorities remains limited. This gap creates several problems:
 
@@ -53,29 +63,29 @@ Large remote organizations often develop silos. Your team knows your team's work
 
 The solution isn't more all-hands meetings or company-wide Slack channels. It's designing intentional touchpoints that create authentic connections without overwhelming anyone with more meetings.
 
-## Create Shared Documentation Spaces
+### Step 2: Create Shared Documentation Spaces
 
 One of the most effective ways to build cross-team relationships is making your work visible. When other teams understand what you're doing, they can identify collaboration opportunities and reach out with relevant context.
 
 Create team-specific pages in your internal wiki that include:
 
 ```
-## Current Priorities
+### Step 3: Current Priorities
 - Feature X: Improving API response times by 40%
 - Feature Y: Implementing new authentication flow
 
-## Looking for Input On
+### Step 4: Looking for Input On
 - Database schema changes affecting user profiles
 - Frontend component library updates
 
-## Recent Wins
+### Step 5: Recent Wins
 - Reduced CI/CD pipeline time from 45min to 12min
 - Launched new caching layer for product listings
 ```
 
 Update this section bi-weekly or after significant milestones. Other teams can subscribe to notifications or bookmark these pages for reference. When someone from another team sees a relevant entry, they have a natural opening for a conversation.
 
-## Establish Cross-Team Office Hours
+### Step 6: Establish Cross-Team Office Hours
 
 Similar to how technical teams sometimes hold office hours for stakeholders, consider establishing cross-team office hours where your team is available for questions, consultations, or just casual conversation about your domain.
 
@@ -90,7 +100,7 @@ Topic: Database optimization and caching strategies
 Drop in to discuss API performance, data modeling, or just say hi!
 ```
 
-## Implement Team Rotation Programs
+### Step 7: Implement Team Rotation Programs
 
 Team rotations, even short ones, build tremendous cross-team empathy. When developers spend time working with another team, they gain insight into that team's challenges, workflows, and constraints. This understanding persists long after the rotation ends.
 
@@ -112,7 +122,7 @@ def suggest_rotation_pairs(teams, rotation_length=2):
 
 The key is keeping rotations focused and time-boxed. Two weeks is usually enough to contribute meaningfully without disrupting either team's workflow. Create clear expectations for what the rotating developer should accomplish, and ensure their home team has coverage for their regular responsibilities.
 
-## Use Async Video for Deeper Connections
+### Step 8: Use Async Video for Deeper Connections
 
 Text-based communication is efficient but lacks the warmth needed for relationship building. Async video messages fill this gap without requiring synchronous meetings.
 
@@ -124,7 +134,7 @@ Tools like Loom or Vidyard let you record short video updates that colleagues ca
 
 The investment is minimal (a few minutes to record), but the impact on relationship quality is substantial. Seeing someone's face and hearing their voice creates connection that text cannot replicate.
 
-## Build Cross-Team Slack Channels Strategically
+### Step 9: Build Cross-Team Slack Channels Strategically
 
 Rather than creating a massive company-wide channel that becomes noise, build cross-team channels around specific topics or projects. The key is making them opt-in and focused.
 
@@ -137,7 +147,7 @@ Examples of effective cross-team channels:
 
 Set channel guidelines that encourage sharing context, asking questions, and acknowledging contributions. When someone from another team helps solve a problem, publicly acknowledge their assistance. This positive reinforcement encourages continued engagement.
 
-## Run Cross-Team Retrospectives
+### Step 10: Run Cross-Team Retrospectives
 
 When projects involve multiple teams, run joint retrospectives that bring everyone together to reflect on what worked and what didn't. These sessions naturally build relationships as participants share experiences and identify improvements together.
 
@@ -149,7 +159,7 @@ Structure the retrospective to include:
 
 Record these sessions and share summaries. Future team members can review past retrospectives to understand historical context and relationship dynamics.
 
-## Create Guilds or Communities of Practice
+### Step 11: Create Guilds or Communities of Practice
 
 Guilds bring together people across teams who share similar interests or responsibilities, regardless of their reporting structure. Unlike project teams that form around specific deliverables, guilds form around continuous learning and improvement in a domain.
 
@@ -162,7 +172,7 @@ Popular guild structures include:
 
 Guilds typically meet monthly, discuss challenges and solutions, and maintain shared resources. Participation is usually voluntary but encouraged. The relationships built through guilds often lead to unexpected collaborations and improved consistency across teams.
 
-## Make Cross-Team Dependencies Visible
+### Step 12: Make Cross-Team Dependencies Visible
 
 When teams work on interconnected projects, dependencies often become bottlenecks. Making these dependencies visible creates natural conversation opportunities and forces intentional coordination.
 
@@ -176,7 +186,7 @@ Feature C (Team Alpha) → depends on → Design system (Team Design)
 
 Review these dependencies weekly in cross-team sync meetings. Discuss timelines, identify blockers, and surface potential conflicts early. These conversations build relationships through shared problem-solving.
 
-## Building Cross-Team Mentorship Relationships
+### Step 13: Build Cross-Team Mentorship Relationships
 
 Formal mentorship programs explicitly pair people from different teams:
 
@@ -190,7 +200,7 @@ A frontend developer paired with backend engineer mentor learns architecture thi
 
 Capture these relationships—mentors and mentees often collaborate on projects later, and mentorship builds organizational coherence.
 
-## Infrastructure for Cross-Team Visibility
+### Step 14: Infrastructure for Cross-Team Visibility
 
 The tools you use shape cross-team visibility. Implement these systems:
 
@@ -200,18 +210,18 @@ Every team records major technical decisions in shared repository with template:
 ```markdown
 # ADR: Using PostgreSQL for analytics pipeline
 
-## Context
+### Step 15: Context
 Team needed queryable analytics storage for dashboards
 
-## Decision
+### Step 16: Decision
 Use PostgreSQL with Timescale extension
 
-## Consequences
+### Step 17: Consequences
 - Positive: Full SQL expressiveness, excellent performance for time-series
 - Negative: Added operational burden for backup management
 - Risk: Scaling limits for events >1B/month
 
-## Alternatives Considered
+### Step 18: Alternatives Considered
 - MongoDB: Too slow for complex queries
 - Elasticsearch: No multi-user ACID transactions
 ```
@@ -222,12 +232,12 @@ Other teams learn how your team approaches problems. When they face similar deci
 Friday email showing what each team shipped:
 
 ```
-## Backend Platform Team
+### Step 19: Backend Platform Team
 - Deployed new authentication service (breaking changes documented)
 - Reduced API latency by 15% through caching optimization
 - Looking for input on database schema for user profiles
 
-## Frontend Team
+### Step 20: Frontend Team
 - Released new dashboard design
 - Improving form validation UX
 - Interested in backend team's profiling work
@@ -244,7 +254,7 @@ Each team presents 30-minute technical deep-dive on internal Slack or recorded v
 
 Required attendance? No. Recorded for later viewing? Yes. Optional participation removes pressure but recorded versions ensure information reaches distributed team members across time zones.
 
-## Measuring Success of Cross-Team Relationships
+### Step 21: Measuring Success of Cross-Team Relationships
 
 Track these patterns to understand relationship quality:
 
@@ -266,7 +276,7 @@ Track these patterns to understand relationship quality:
 
 If cross-team interactions remain low after implementation, revisit your approach. The strategy may not match your team's actual workflow or preference.
 
-## Structured Pair Programming Across Teams
+### Step 22: Structured Pair Programming Across Teams
 
 Cross-team pairing creates authentic working relationships. Unlike office spontaneity, remote teams need explicit processes:
 
@@ -277,7 +287,7 @@ Cross-team pairing creates authentic working relationships. Unlike office sponta
 
 A backend engineer pairing with a frontend engineer on API design discussions creates understanding that pure documentation cannot achieve. The frontend engineer learns backend constraints, the backend engineer understands frontend performance implications.
 
-## Cross-Team Knowledge Artifacts
+### Step 23: Cross-Team Knowledge Artifacts
 
 Create reusable assets that teams can reference:
 
@@ -288,7 +298,7 @@ Create reusable assets that teams can reference:
 
 When teams contribute equally to these artifacts, everyone feels invested in quality and consistency. The knowledge becomes collaborative property rather than one team's documentation.
 
-## Celebration and Acknowledgment Patterns
+### Step 24: Celebration and Acknowledgment Patterns
 
 Remote teams need explicit recognition of cross-team wins. Establish these patterns:
 
@@ -298,7 +308,7 @@ Remote teams need explicit recognition of cross-team wins. Establish these patte
 
 Public acknowledgment is underrated in remote organizations. When people know their cross-team work will be celebrated, they invest more energy in collaboration.
 
-## Async-First Cross-Team Communication
+### Step 25: Async-First Cross-Team Communication
 
 The biggest mistake remote teams make is assuming cross-team work requires synchronous meetings. Instead:
 
@@ -309,7 +319,7 @@ The biggest mistake remote teams make is assuming cross-team work requires synch
 
 Document-first communication scales across time zones and creates permanent records. Contrast this with synchronous meetings where important decisions happen verbally and only meeting attendees remember the conclusion.
 
-## Creating Trust Through Vulnerability
+### Step 26: Create Trust Through Vulnerability
 
 Cross-team relationships require vulnerability. Structure opportunities for teams to admit what they're struggling with:
 
@@ -319,7 +329,7 @@ Cross-team relationships require vulnerability. Structure opportunities for team
 
 When teams openly share struggles, other teams see them as human and collaborative. This differs from the perception of teams that present only polished work.
 
-## Measuring Cross-Team Relationship Quality
+### Step 27: Measuring Cross-Team Relationship Quality
 
 Track these metrics quarterly:
 
@@ -330,7 +340,7 @@ Track these metrics quarterly:
 
 If these metrics trend upward, your relationship-building efforts are working. If they plateau or decline, reassess your approach.
 
-## When Cross-Team Relationships Go Wrong
+### Step 28: When Cross-Team Relationships Go Wrong
 
 Sometimes teams develop adversarial relationships—especially over shared systems or resource contention. Address this explicitly:
 
@@ -340,6 +350,21 @@ Sometimes teams develop adversarial relationships—especially over shared syste
 4. **Rebuild through project collaboration**: Assign a small project where teams must work together
 
 Often the issue is structural rather than interpersonal. Teams competing for on-call burden or infrastructure resources naturally develop friction. Reorganize the system so teams share the burden fairly.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

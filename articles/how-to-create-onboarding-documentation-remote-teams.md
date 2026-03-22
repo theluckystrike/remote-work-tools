@@ -26,7 +26,17 @@ This guide covers the essential components of onboarding documentation, practica
 - **These change most frequently**: and become dangerous when stale.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Core Components of Remote Onboarding Documentation
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Components of Remote Onboarding Documentation
 
 Every remote team's onboarding documentation should address four fundamental areas: access and accounts, development environment setup, team processes and workflows, and project-specific knowledge. Skipping any of these creates gaps that slow down new team members.
 
@@ -89,7 +99,7 @@ Create a `.env.example` file in your repository—this becomes the reference dev
 
 The setup documentation should be runnable from top to bottom without prior knowledge. Test this assumption periodically: have someone new follow the docs from scratch, and update any step they get stuck on. If your devex team uses a shell script or Makefile to automate setup, include that too—getting someone from zero to a working `npm run dev` in under 30 minutes is achievable and worth optimizing for.
 
-## Team Processes and Workflows
+### Step 2: Team Processes and Workflows
 
 Remote teams rely heavily on documented processes because colleagues cannot simply walk over and ask questions. Document your core workflows clearly and reference them in your onboarding materials.
 
@@ -104,22 +114,22 @@ Specify your team's code review conventions:
 - Handling merge conflicts across time zones
 
 ```markdown
-## Pull Request Template
+### Step 3: Pull Request Template
 
-## Description
+### Step 4: Description
 Brief description of changes
 
-## Type of Change
+### Step 5: Type of Change
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Documentation update
 
-## Testing
+### Step 6: Test
 - [ ] Unit tests pass locally
 - [ ] Integration tests pass
 - [ ] Manual testing completed
 
-## Screenshots (if applicable)
+### Step 7: Screenshots (if applicable)
 
 Closes #
 ```
@@ -142,7 +152,7 @@ Be explicit about response time expectations by channel. A reasonable baseline: 
 
 Also document what happens when someone is unavailable — how does the team handle urgent issues when the on-call developer is in a different timezone? If you use PagerDuty or a rotation, explain it. If the team has an informal "ping secondary" rule, write that down too.
 
-## Project-Specific Knowledge
+### Step 8: Project-Specific Knowledge
 
 Technical documentation specific to your codebase accelerates new developer productivity significantly.
 
@@ -206,7 +216,7 @@ This section alone can save new developers hours of frustration.
 
 Write this section in the voice of someone who's already made the mistake. "If you see error X, it means Y — the fix is Z" is far more useful than "Note that X may occur in certain conditions." Every engineer on your team has lost hours to something that turned out to be obvious in hindsight — that's exactly what belongs in gotchas.
 
-## Implementation Strategy
+### Step 9: Implementation Strategy
 
 ### Version Control Your Documentation
 
@@ -241,7 +251,7 @@ Add a "last verified" date to the development environment setup and access check
 Create a simple feedback mechanism for new hires:
 
 ```markdown
-## Onboarding Feedback
+### Step 10: Onboarding Feedback
 
 Rate your onboarding experience (1-5):
 - Access setup: ___
@@ -254,7 +264,7 @@ What was missing? What could be improved?
 
 Use this feedback to continuously improve your materials. Send this at the end of week one and again at the end of month one — the month-one feedback captures gaps that only become visible once someone starts working on real tasks.
 
-## Tools and Platforms
+### Step 11: Tools and Platforms
 
 Several tools work well for remote team onboarding documentation:
 
@@ -269,6 +279,21 @@ Avoid platforms that require separate logins to access — developers who have t
 ---
 
 Effective onboarding documentation transforms how new developers integrate into remote teams. Invest time in creating well-organized materials, and your team will recover that investment through faster velocity and reduced knowledge silos.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

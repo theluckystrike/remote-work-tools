@@ -42,13 +42,23 @@ This guide covers practical approaches to implementing 2FA for shared accounts i
 - **Cost**: $800-1200 hardware + $100-200/month services.
 - **The best approach is often layered**: TOTP for day-to-day services, hardware keys for high-value accounts, and Authelia for legacy systems without native 2FA support.
 
-## Understanding the Shared Account Problem
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Shared Account Problem
 
 Shared accounts exist because some services don't support team-based access control. You might need a single AWS IAM user for deployment pipelines, a shared Slack bot account, or admin access to a legacy CMS. The challenge is clear: you need multiple people to access the same credentials, but you also want the security benefits of two-factor authentication.
 
 The solution isn't one-size-fits-all. Different 2FA methods offer different tradeoffs between security, convenience, and recovery options. Let's walk through the most practical approaches.
 
-## Method 1: TOTP-Based 2FA with Shared Secret Storage
+### Step 2: Method 1: TOTP-Based 2FA with Shared Secret Storage
 
 Time-based One-Time Passwords (TOTP) are the most common 2FA method. Services like Google Authenticator, Authy, or 1Password generate short-lived codes based on a shared secret. For shared accounts, you store the secret in a secure, accessible location.
 
@@ -83,7 +93,7 @@ This approach works well when your team uses the same authenticator app. Authy m
 - Recovery requires access to the stored secret
 - Not all password managers support TOTP generation from shared vaults
 
-## Method 2: Hardware Security Keys (YubiKey)
+### Step 3: Method 2: Hardware Security Keys (YubiKey)
 
 Hardware security keys like YubiKey provide the strongest 2FA protection. Instead of a shared secret that multiple people possess, each team member has their own hardware key registered to the shared account.
 
@@ -120,7 +130,7 @@ Hardware keys resist phishing because they cryptographically verify the service'
 - Not all services support hardware 2FA
 - Team members must have their own keys
 
-## Method 3: Centralized Identity with SSO
+### Step 4: Method 3: Centralized Identity with SSO
 
 If your team uses Google Workspace or Microsoft 365, you can use SSO for many services. However, for services that don't integrate with your identity provider, consider using a centralized authentication proxy.
 
@@ -165,7 +175,7 @@ With this setup, users authenticate through Authelia with 2FA (TOTP, WebAuthn, o
 - Single point of failure if misconfigured
 - Requires service support for proxy authentication
 
-## Method 4: Delegated Access with Temporary Credentials
+### Step 5: Method 4: Delegated Access with Temporary Credentials
 
 For AWS specifically, avoid shared accounts altogether by using IAM roles with temporary credentials. Each team member authenticates with their own identity, then assumes a role with the necessary permissions.
 
@@ -199,13 +209,13 @@ Regardless of which method you choose, follow these security principles:
 
 5. **Limit shared accounts** — Proactively migrate services to proper team-based access. Many tools now support SSO or built-in team management.
 
-## Choosing Your Approach
+### Step 6: Choose Your Approach
 
 Start with TOTP if you need something quick and don't have hardware keys. Move to hardware security keys for high-value infrastructure accounts like AWS, GCP, or production database access. Implement an auth proxy like Authelia when you need to secure multiple services with a single authentication flow.
 
 The best two-factor authentication setup for your remote team is one that balances security with accessibility. Evaluate your highest-risk shared accounts first, implement the appropriate 2FA method, and gradually improve coverage across your entire tool stack.
 
-## 2FA Method Pricing and Infrastructure Costs
+### Step 7: 2FA Method Pricing and Infrastructure Costs
 
 Understanding the cost implications helps teams make economically sound security decisions:
 
@@ -374,7 +384,7 @@ For government contracts:
 - No shared accounts (individual authentication only)
 - Key management per NIST standards
 
-## Implementation Timeline for Teams
+### Step 8: Implementation Timeline for Teams
 
 ### Week 1: Planning and Procurement
 
@@ -396,7 +406,7 @@ For government contracts:
 - Maintain shared secret/recovery codes in password manager
 - Schedule monthly reviews
 
-## Decision Table: Which Method for Which Service?
+### Step 9: Decision Table: Which Method for Which Service?
 
 | Service | TOTP | Hardware Key | Authelia | None |
 |---------|------|--------------|----------|------|
@@ -408,7 +418,7 @@ For government contracts:
 | Email | ✗ Leak risk | ✓ Best | ✓ Best | ✗ Never |
 | Legacy systems without 2FA | - | - | ✓ Only option | ✓ Tolerable with access controls |
 
-## Monitoring and Audit
+### Step 10: Monitor and Audit
 
 ### Key Metrics to Track
 
@@ -460,7 +470,7 @@ print(f"Secret rotation compliance: {metrics.secret_rotation_compliance()}%")
 - [ ] Update access lists if team members joined/left
 - [ ] Test recovery procedures quarterly (quarterly, not just monthly)
 
-## Final Recommendation for Remote Teams
+### Step 11: Final Recommendation for Remote Teams
 
 1. **For most SaaS companies**: Use hardware keys (YubiKey) for AWS, GitHub, and production access. Use Authelia for internal tools. Cost: $700 hardware + $20-100/month services.
 
@@ -471,6 +481,21 @@ print(f"Secret rotation compliance: {metrics.secret_rotation_compliance()}%")
 4. **For distributed teams across timezones**: Authelia proxy (SSO) provides best experience—no "which authenticator app" confusion, centralized audit logs.
 
 The best approach is often layered: TOTP for day-to-day services, hardware keys for high-value accounts, and Authelia for legacy systems without native 2FA support.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -42,13 +42,23 @@ This guide provides actionable frameworks, templates, and code examples for givi
 - **Use synchronous channels for truly sensitive matters**: If you've tried text-based feedback repeatedly without improvement, a quick video call often resolves faster than more async threads.
 - Respecting preferences builds psychological safety.
 
-## The Core Problem: Missing Context
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Problem: Missing Context
 
 When you give feedback in person, your tone, pace, and facial expressions provide context. Text strips all that away. Research from Harvard Business Review shows that text-based communication is more likely to be perceived negatively, especially when the reader is already defensive about the topic.
 
 The solution isn't to soften everything into meaningless praise. It's to structure your feedback so the intent is unmistakable.
 
-## The SBI Framework for Text-Based Feedback
+### Step 2: The SBI Framework for Text-Based Feedback
 
 The Situation-Behavior-Impact (SBI) model translates well to written feedback because it forces specificity:
 
@@ -66,7 +76,7 @@ Here's how it looks in practice:
 
 The second version is specific, actionable, and focused on the work—not the person.
 
-## Template for Code Review Feedback
+### Step 3: Template for Code Review Feedback
 
 When reviewing pull requests, use templates that encourage constructive dialogue. Here's a GitHub comment template that works well:
 
@@ -111,7 +121,7 @@ This template:
 - Provides a concrete solution
 - Ends with collaboration, not dictation
 
-## The "Email Before Sending" Rule
+### Step 4: The "Email Before Sending" Rule
 
 Before sending any critical feedback over text, apply the 5-minute rule: write your message, then wait 5 minutes before sending. During this pause, read it as if you were receiving it from someone less familiar with your intentions.
 
@@ -125,7 +135,7 @@ Then apply the "curiosity test"—replace statements with questions where possib
 
 Questions invite dialogue rather than defensiveness.
 
-## Timing Matters As Much As Content
+### Step 5: Timing Matters As Much As Content
 
 In async environments, when you send feedback matters. Avoid sending critical feedback:
 - Late at night (appears aggressive)
@@ -134,7 +144,7 @@ In async environments, when you send feedback matters. Avoid sending critical fe
 
 The best times are mid-morning Tuesday through Thursday. The recipient has time to process and respond thoughtfully.
 
-## Handling Sensitive Topics
+### Step 6: Handling Sensitive Topics
 
 Some feedback requires extra care. When addressing pattern issues, performance concerns, or interpersonal dynamics:
 
@@ -147,7 +157,7 @@ Some feedback requires extra care. When addressing pattern issues, performance c
  - "What's your perspective on this?"
  - "Happy to discuss further in a call if helpful."
 
-## Example: Slack Feedback Template
+### Step 7: Example: Slack Feedback Template
 
 For real-time messaging, use this structure:
 
@@ -173,7 +183,7 @@ I think we could reduce this significantly by adding the health-check endpoints 
 Happy to pair on the implementation if helpful.
 ```
 
-## Building Feedback Culture
+### Step 8: Build Feedback Culture
 
 Constructive feedback at scale requires consistent patterns across the team. Consider:
 
@@ -218,7 +228,7 @@ This works because:
 - Provides a concrete starting point
 - Closes by connecting to bigger picture
 
-## Feedback in Different Media
+### Step 9: Feedback in Different Media
 
 Effectiveness varies by channel. Choose wisely:
 
@@ -237,7 +247,7 @@ Effectiveness varies by channel. Choose wisely:
 - Bad: Slack DM suggesting code refactor (private, lacks visibility)
 - Good: GitHub comment with context and alternatives
 
-## Building a Feedback Recipient's Perspective
+### Step 10: Build a Feedback Recipient's Perspective
 
 Understanding how feedback lands helps you deliver better feedback:
 
@@ -266,7 +276,7 @@ Understanding how feedback lands helps you deliver better feedback:
 
 Share this with your team. Different people need different styles. Respecting preferences builds psychological safety.
 
-## Measuring Feedback Effectiveness
+### Step 11: Measuring Feedback Effectiveness
 
 Track whether your feedback actually drives behavior change:
 
@@ -302,7 +312,7 @@ class FeedbackEffectiveness:
 
 Measure feedback quality like you measure code quality. Iterate on approach based on results.
 
-## Special Cases: Feedback for Remote-Specific Challenges
+### Step 12: Special Cases: Feedback for Remote-Specific Challenges
 
 Remote work creates unique feedback scenarios:
 
@@ -326,7 +336,7 @@ Remote work creates unique feedback scenarios:
 - Feedback: "I noticed you're quiet in team calls. Is everything okay? If it's a focus thing, happy to send notes instead."
 - Solution: Address the root cause, not the symptom
 
-## The Long Game: Building Feedback Culture
+### Step 13: The Long Game: Building Feedback Culture
 
 Individual feedback matters less than systemic feedback culture. To build this:
 
@@ -350,6 +360,21 @@ Individual feedback matters less than systemic feedback culture. To build this:
  - Normalize the awkwardness
 
 Teams that master feedback compound their velocity because ideas flow freely and corrections happen fast. This is worth investing in.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

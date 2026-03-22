@@ -62,7 +62,7 @@ Different tools handle project template creation in different ways. Choosing the
 
 For engineering teams, GitHub Template Repositories combined with Linear project templates covers most needs. Non-engineering teams benefit from Notion or ClickUp for their visual structure.
 
-## Core Components of Effective Project Templates
+### Step 1: Core Components of Effective Project Templates
 
 ### Directory Structure
 
@@ -141,7 +141,7 @@ echo "Setup complete! Run 'npm run dev' to start the development server."
 
 Make these scripts executable with `chmod +x scripts/setup.sh`. On remote teams where a new hire may be setting up on Windows, macOS, or Linux, include a check for the operating system and handle platform-specific edge cases explicitly rather than assuming everyone runs the same environment.
 
-## Step-by-Step Implementation Guide
+### Step 2: Step-by-Step Implementation Guide
 
 Follow this sequence to build and deploy a project template system for your remote team:
 
@@ -161,7 +161,7 @@ Follow this sequence to build and deploy a project template system for your remo
 
 8. **Validate with a pilot project** — Before rolling out company-wide, have one team start a real project using the template. Collect feedback after two weeks. The first version will always have gaps that only show up in practice.
 
-## Template Versioning and Maintenance
+### Step 3: Template Versioning and Maintenance
 
 Templates evolve as your team's practices improve. Use version control to track changes and allow teams to upgrade templates incrementally. Tag releases in your template repository:
 
@@ -174,7 +174,7 @@ When updating templates, provide clear migration guides. Teams using an older ve
 
 Consider maintaining two versions: a stable release and a `next` branch for upcoming changes teams can opt into early. This mirrors how major open-source projects handle template updates and avoids forcing disruptive changes on teams mid-sprint.
 
-## Integration with Project Management Tools
+### Step 4: Integration with Project Management Tools
 
 Effective templates extend beyond code to include project management configurations. For Linear, define custom issue types and workflow states in a configuration file that can be imported when creating new projects:
 
@@ -197,7 +197,7 @@ Effective templates extend beyond code to include project management configurati
 
 For teams using Notion as their project wiki, create a Notion template page that mirrors the `docs/` folder structure in the code repository. When a new project launches, the engineer duplicates the Notion template and links it from the repository README. This ensures every project has both a code-level and documentation-level home from day one.
 
-## Documentation Templates
+### Step 5: Documentation Templates
 
 Every project needs documentation, but starting from a blank page wastes time. Include template documentation that prompts developers to fill in essential information:
 
@@ -218,16 +218,16 @@ Brief description of what this project does and why it exists.
 3. Configure your `.env` file
 4. Run `npm run dev`
 
-## Architecture
+### Step 6: Architecture
 Explain the high-level architecture and key components.
 
-## Deployment
+### Step 7: Deploy ment
 Document the deployment process and environments.
 ```
 
 The prompt sections ("Explain the high-level architecture") remind developers what information the project needs without prescribing exact content. Pair this with a required-documentation check in CI that fails the build if key sections are still placeholder text.
 
-## Testing and Validation
+### Step 8: Test and Validation
 
 Templates should include validation to ensure they are used correctly. Add pre-commit hooks that check for common issues:
 
@@ -280,6 +280,21 @@ There is no automatic sync mechanism for GitHub template repos. Document what ch
 
 **Should the template include linting and formatting configuration?**
 Yes. Including `.eslintrc`, `.prettierrc`, or equivalent configuration files in the template eliminates "which style guide do we follow?" debates at project start and ensures CI enforces consistent formatting from the first commit.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

@@ -40,7 +40,17 @@ Common failure points include:
 - **Context gaps** — You know what prompted your message; recipients may not
 - **Cultural differences** — Communication norms vary significantly across cultures and regions
 
-## The CLEAR Framework for Async Messages
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The CLEAR Framework for Async Messages
 
 Structure your written communications using the CLEAR framework to ensure recipients understand your intent:
 
@@ -84,7 +94,7 @@ Indicate how you want to receive a response. This reduces back-and-forth and hel
 
 **Strong:** "Reply with either 'Approved' or 'Needs revision' so I can track this in the project board."
 
-## Writing Templates for Common Remote Work Scenarios
+### Step 2: Writing Templates for Common Remote Work Scenarios
 
 ### Requesting Help or Information
 
@@ -127,7 +137,7 @@ Note: For constructive feedback, always separate observation from interpretation
 ### Status Updates That Prevent Confusion
 
 ```
-## Update: [Project Name] — [Date]
+### Step 3: Update: [Project Name] — [Date]
 
 ### Completed Since Last Update
 - [Brief bullet of finished work]
@@ -146,7 +156,7 @@ Note: For constructive feedback, always separate observation from interpretation
 - [Information worth knowing but not requiring action]
 ```
 
-## Tools and Techniques to Reduce Miscommunication
+### Step 4: Tools and Techniques to Reduce Miscommunication
 
 ### Use Structured Formats
 
@@ -187,7 +197,7 @@ Document your team's communication norms:
 Example handbook section:
 
 ```
-## Response Time Expectations
+### Step 5: Response Time Expectations
 
 | Channel | Expected Response | Maximum |
 |---------|-------------------|---------|
@@ -200,7 +210,7 @@ Example handbook section:
 "Working hours" are defined as your local 9 AM – 6 PM. Nobody is expected to respond outside their working hours.
 ```
 
-## Detecting and Resolving Miscommunication
+### Step 6: Detecting and Resolving Miscommunication
 
 ### Watch for Warning Signs
 
@@ -220,7 +230,7 @@ These patterns often indicate miscommunication is happening:
 4. **Offer to adjust your communication style** — "Would voice notes help clarify complex topics?"
 5. **Document lessons learned** — Add to your team handbook to prevent recurrence
 
-## Measuring Your Team's Async Communication Health
+### Step 7: Measuring Your Team's Async Communication Health
 
 Track these metrics to identify communication friction:
 
@@ -232,7 +242,7 @@ Track these metrics to identify communication friction:
 
 **Survey quarterly:** "Do you feel you understand what's expected of you?" and "Do you feel informed about team decisions?" Track trends over time.
 
-## Building a Communication-First Remote Culture
+### Step 8: Build a Communication-First Remote Culture
 
 Great async communication doesn't happen by accident. It requires intentional practice, continuous improvement, and cultural reinforcement.
 
@@ -240,6 +250,21 @@ Start small: adopt the CLEAR framework for your next five messages. Introduce me
 
 The teams that master async written communication unlock the full potential of remote work—faster decision-making, reduced context-switching, documentation that survives personnel changes, and team members who feel genuinely understood even across continents.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

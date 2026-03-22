@@ -40,7 +40,7 @@ tfenv install 1.6.6
 tfenv use 1.6.6
 ```
 
-## Project Structure
+### Step 1: Project Structure
 
 ```
 dns/
@@ -70,7 +70,7 @@ dns/
         └── dns.yml
 ```
 
-## Backend Configuration
+### Step 2: Backend Configuration
 
 ```hcl
 # backend.tf
@@ -96,7 +96,7 @@ aws dynamodb create-table \
   --region us-east-1
 ```
 
-## Versions and Providers
+### Step 3: Versions and Providers
 
 ```hcl
 # versions.tf
@@ -124,7 +124,7 @@ provider "cloudflare" {
 }
 ```
 
-## Route53 Zone Module
+### Step 4: Route53 Zone Module
 
 ```hcl
 # modules/route53_zone/variables.tf
@@ -185,7 +185,7 @@ resource "aws_route53_record" "aliases" {
 }
 ```
 
-## Cloudflare Zone Module
+### Step 5: Cloudflare Zone Module
 
 ```hcl
 # modules/cloudflare_zone/main.tf
@@ -266,7 +266,7 @@ module "example_com" {
 }
 ```
 
-## Variables and tfvars
+### Step 6: Variables and tfvars
 
 ```hcl
 # variables.tf
@@ -297,7 +297,7 @@ export AWS_ACCESS_KEY_ID="your-key"
 export AWS_SECRET_ACCESS_KEY="your-secret"
 ```
 
-## Daily Workflow
+### Step 7: Daily Workflow
 
 ```bash
 # Initialize (first time or after provider changes)
@@ -322,7 +322,7 @@ terraform plan -target=module.example_com.cloudflare_record.records[\"api\"]
 terraform import 'module.example_com.cloudflare_record.records["api"]' <zone_id>/<record_id>
 ```
 
-## CI/CD with GitHub Actions
+### Step 8: Configure CI/CD with GitHub Actions
 
 ```yaml
 # .github/workflows/dns.yml
@@ -399,7 +399,7 @@ jobs:
           TF_VAR_cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 ```
 
-## Drift Detection
+### Step 9: Drift Detection
 
 Scheduled job to catch manual changes:
 
@@ -450,7 +450,7 @@ curl -s "https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/dns_records?per_p
 
 Paste the output into your module's `records` map and run `terraform import` for each entry. Once the state matches the live zone, every future change goes through pull requests.
 
-## Managing Multiple Domains from One Repository
+### Step 10: Manage Multiple Domains from One Repository
 
 Teams often manage DNS for several domains. A top-level `main.tf` that calls per-domain modules keeps everything organized:
 
@@ -479,7 +479,7 @@ module "api_example_com" {
 
 Splitting record definitions into per-domain locals files reduces merge conflicts when multiple engineers are updating different domains simultaneously — a common scenario in remote teams where DNS changes often come from different squads at different times.
 
-## Terraform Workspaces for Environment Separation
+### Step 11: Terraform Workspaces for Environment Separation
 
 Instead of separate `environments/staging` and `environments/production` directories, Terraform workspaces let you use a single configuration with different state files per environment:
 
@@ -530,6 +530,21 @@ module "example_com" {
 ```
 
 The workspace approach works well for smaller teams. For larger organizations with strict access controls between staging and production, the separate directory approach is clearer because it makes the environment boundary explicit in the file system and easier to enforce with CODEOWNERS.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

@@ -38,7 +38,17 @@ A productive home office doesn't require thousands of dollars. With strategic pu
 - **Weakness**: Difficult to relocate; better suited to long-term setups.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## The $500 Office Budget Breakdown
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The $500 Office Budget Breakdown
 
 ### Essential Tier ($450-500 total)
 
@@ -71,7 +81,7 @@ A productive home office doesn't require thousands of dollars. With strategic pu
 
 This totals approximately $420-580. The range depends on your location and willingness to hunt deals. Key strategy: Buy used furniture, new input devices.
 
-## Smart Shopping Strategies
+### Step 2: Smart Shopping Strategies
 
 ### Where to Find Budget Office Furniture
 
@@ -126,7 +136,7 @@ Strategy 4: Point out minor issues
 - But be honest—don't manufacture problems
 ```
 
-## Build Your Own Desk ($30-50)
+### Step 3: Build Your Own Desk ($30-50)
 
 For minimalists, a DIY desk works well:
 
@@ -153,7 +163,7 @@ Height: Adjust leg height to maintain 90° elbow angle (critical for posture)
 
 This approach works well if you need a simple, sturdy desk. Weakness: Difficult to relocate; better suited to long-term setups.
 
-## The $500+ Office Component Breakdown
+### Step 4: The $500+ Office Component Breakdown
 
 | Component | Budget | Mid-Range | Premium | Notes |
 |-----------|--------|-----------|---------|-------|
@@ -166,7 +176,7 @@ This approach works well if you need a simple, sturdy desk. Weakness: Difficult 
 | Lamp | $20-40 (task lamp) | $60-100 | $150+ | Any 20W+ task lamp provides adequate light |
 | Cable management | $15-25 | $40-60 | $100+ | Budget options work equally well |
 
-## Specific Product Recommendations
+### Step 5: Specific Product Recommendations
 
 **Monitor:** Refurbished Dell S2422HZ (24", 1080p, IPS) - $110-140
 - Clean colors for long sessions
@@ -206,7 +216,7 @@ This approach works well if you need a simple, sturdy desk. Weakness: Difficult 
 
 **Total estimated cost: $450-480**
 
-## Budget Office Setup Assembly Timeline
+### Step 6: Budget Office Setup Assembly Timeline
 
 **Week 1: Core furniture**
 - Find and secure used chair and desk ($200-250)
@@ -227,7 +237,7 @@ This approach works well if you need a simple, sturdy desk. Weakness: Difficult 
 - Add storage or organization if needed ($20-40)
 - Your productive office is now complete
 
-## Free/Cheap Upgrades to Maximize Productivity
+### Step 7: Free/Cheap Upgrades to Maximize Productivity
 
 **Ambient lighting:** Position desk near window + use overhead lighting
 - Cost: $0 (if window exists)
@@ -246,9 +256,24 @@ This approach works well if you need a simple, sturdy desk. Weakness: Difficult 
 **Acoustic panel (DIY):** Hang blanket/towel for echo reduction - $0
 - Creates professional video call appearance
 
-## Footer
+### Step 8: Footer
 
 Building a productive office on $500 requires one non-negotiable: your comfort. Invest in a decent chair (you spend more time sitting than anywhere else) and a monitor that reduces eye strain. Everything else is negotiable and can be upgraded over time. Your productivity is directly correlated with physical comfort—a $100 chair that causes back pain costs you far more in lost productivity than the price difference to a $200 quality chair. Plan your budget accordingly, prioritize ruthlessly, and upgrade components one at a time as your budget improves.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

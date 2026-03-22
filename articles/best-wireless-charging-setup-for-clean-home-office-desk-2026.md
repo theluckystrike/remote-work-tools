@@ -86,7 +86,17 @@ Before discussing placement, here are the leading options by use case:
 - Premium materials (leather, metal construction)
 - Best for developers with multiple Apple devices
 
-## Choosing the Right Charging Zones
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Choose the Right Charging Zones
 
 A clean desk setup requires thoughtful placement. Most people benefit from two or three dedicated charging zones:
 
@@ -109,7 +119,7 @@ Multi-device pads advertise high wattage but distribute power across devices. Re
 2. **Desk edge mount**: USB-C hub clamped to desk edge with cable running down back of desk
 3. **Separate power zone**: Laptop charger in corner, kept away from wireless charging area to avoid interference
 
-## Cable Management Strategies
+### Step 2: Cable Management Strategies
 
 Wireless charging eliminates some cables, but not all of them. Effective cable management makes the difference between a clean setup and a messy one.
 
@@ -159,7 +169,7 @@ upower -e | xargs upower -i
 
 This command lists all power devices and their detailed status information.
 
-## Complete Setup Architectures by Budget
+### Step 3: Complete Setup Architectures by Budget
 
 ### Minimalist Setup ($40-60 total)
 **Components**:
@@ -218,7 +228,7 @@ This command lists all power devices and their detailed status information.
 **Mid-Career**: Standard developer setup ($150) covers all bases
 **Senior/Team Lead**: Premium multi-device ($250) with professional aesthetics for client calls
 
-## Recommended Component Selection
+### Step 4: Recommended Component Selection
 
 Rather than specific products (which change), here's the architecture template:
 
@@ -241,6 +251,21 @@ Position the 65W charger near your laptop work zone, and keep the Qi pads in you
 **Mixing fast and slow devices:** Some multi-device chargers throttle down when you add a third device. If you need simultaneous fast charging for your phone and laptop, use separate dedicated chargers rather than a single hub trying to do everything.
 
 **Forgetting about cases:** Thick metal cases or cases with battery packs often block wireless charging. Remove cases before placing phones on chargers, or verify your specific case works with Qi charging.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

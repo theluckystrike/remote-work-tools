@@ -24,7 +24,17 @@ A tech radar is a snapshot of your team's technology decisions: what you're adop
 - **Use-case recommendations**: Specific guidance based on team size and requirements
 - **Trade-off analysis**: Strengths and limitations of each option discussed
 
-## The Four Quadrants and Rings
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Four Quadrants and Rings
 
 Thoughtworks format uses four quadrants and four rings:
 
@@ -42,7 +52,7 @@ Rings:
   HOLD     — Pause new adoption; not recommended
 ```
 
-## Option A: Static Generator (No Infrastructure)
+### Step 2: Option A: Static Generator (No Infrastructure)
 
 The `build-your-own-radar` tool from Thoughtworks reads a CSV and generates an interactive radar.
 
@@ -84,7 +94,7 @@ npm run build
 # Copy dist/ to your GitHub Pages repo
 ```
 
-## Option B: Backstage Tech Radar Plugin
+### Step 3: Option B: Backstage Tech Radar Plugin
 
 If you're already running Backstage:
 
@@ -166,7 +176,7 @@ export const techRadarLoader = async (): Promise<TechRadarLoaderResponse> => {
 }
 ```
 
-## Contributing Process for Remote Teams
+### Step 4: Contributing Process for Remote Teams
 
 The radar is most valuable when the whole team contributes. Use a GitHub PR workflow:
 
@@ -182,7 +192,7 @@ PR template for radar changes:
 
 ```markdown
 <!-- .github/PULL_REQUEST_TEMPLATE/radar_entry.md -->
-## Tech Radar Entry
+### Step 5: Tech Radar Entry
 
 **Technology:** [name]
 **Proposed ring:** ADOPT / TRIAL / ASSESS / HOLD
@@ -201,7 +211,7 @@ Why this ring placement?
 What should we watch out for?
 ```
 
-## Automated Publishing
+### Step 6: Automated Publishing
 
 ```yaml
 # .github/workflows/radar.yml
@@ -238,7 +248,7 @@ jobs:
           publish_branch: gh-pages
 ```
 
-## Radar Review Cadence
+### Step 7: Radar Review Cadence
 
 Schedule a quarterly async radar review:
 
@@ -259,14 +269,14 @@ Schedule a quarterly async radar review:
 3. Does the ring still reflect our actual usage?
 ```
 
-## Ring Change Log
+### Step 8: Ring Change Log
 
 Track changes in `CHANGELOG.md` alongside the radar:
 
 ```markdown
 # Radar Changelog
 
-## 2026-Q2
+### Step 9: 2026-Q2
 
 ### Moved to ADOPT
 - Bruno (Tools) — API testing with git-stored collections.
@@ -285,7 +295,7 @@ Track changes in `CHANGELOG.md` alongside the radar:
 - Bun (Languages) — Node.js alternative, watching for ecosystem maturity.
 ```
 
-## Deciding What Goes on the Radar
+### Step 10: Deciding What Goes on the Radar
 
 Not everything belongs on a tech radar. A common mistake is listing every library, every SaaS tool, and every language variant — the radar becomes noise and engineers stop consulting it. Apply a filter:
 
@@ -302,7 +312,7 @@ Not everything belongs on a tech radar. A common mistake is listing every librar
 
 When in doubt, write it as an ADR first. If the ADR matters enough to reference repeatedly, promote it to the radar.
 
-## Linking the Radar to ADRs
+### Step 11: Linking the Radar to ADRs
 
 Tech radar entries gain credibility when backed by an Architectural Decision Record. Add an `adr` field to your CSV:
 
@@ -326,7 +336,7 @@ When the Backstage plugin renders entries, the `description` field can include a
 
 This creates a traceable audit trail: you can always read the original reasoning behind a ring placement, not just the current recommendation.
 
-## Running Your First Radar Session
+### Step 12: Run Your First Radar Session
 
 The first time a team builds a radar, the session often stalls because nobody is sure what ring to assign to a technology they have mixed feelings about. Use this facilitation format for remote teams:
 
@@ -344,7 +354,7 @@ Skip consensus items. Only discuss the flagged disagreements. Use a simple rule:
 **Publish and celebrate (Week 2):**
 Merge the PR. Post the radar link in `#engineering`. Make the first publication a moment — it signals that the team takes technology decisions seriously enough to write them down.
 
-## Measuring Radar Effectiveness
+### Step 13: Measuring Radar Effectiveness
 
 After two quarters, ask these questions to evaluate whether the radar is working:
 
@@ -354,6 +364,21 @@ After two quarters, ask these questions to evaluate whether the radar is working
 - Has the radar prevented any "should we use X?" debates that would otherwise have taken a week of Slack messages?
 
 A radar that gets consulted saves time. A radar that gets ignored is a documentation artifact. If nobody uses it, the problem is usually one of: it is not visible enough (add a link to your eng handbook front page), it is not maintained (stale entries), or it does not cover decisions the team actually faces (wrong quadrant choices for your stack).
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

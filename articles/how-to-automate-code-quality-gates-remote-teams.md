@@ -24,7 +24,17 @@ Remote teams can't rely on a team lead catching every style issue in review. Aut
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 - **Use-case recommendations**: Specific guidance based on team size and requirements
 
-## Layer 1: Pre-Commit Hooks (Local, Fast)
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Layer 1: Pre-Commit Hooks (Local, Fast)
 
 Stop bad code before it's pushed:
 
@@ -82,7 +92,7 @@ pre-commit run --all-files
 pre-commit autoupdate
 ```
 
-## Layer 2: SonarQube for Code Analysis
+### Step 2: Layer 2: SonarQube for Code Analysis
 
 ```yaml
 # docker-compose.yml (SonarQube server)
@@ -151,7 +161,7 @@ sonar.python.version=3.11
 # Security hotspots reviewed: 100%
 ```
 
-## Layer 3: GitHub Actions Quality Gate
+### Step 3: Layer 3: GitHub Actions Quality Gate
 
 ```yaml
 # .github/workflows/quality.yml
@@ -241,7 +251,7 @@ jobs:
           sarif_file: trivy-results.sarif
 ```
 
-## Layer 4: Branch Protection Rules
+### Step 4: Layer 4: Branch Protection Rules
 
 Configure in GitHub repo settings (or via API):
 
@@ -266,7 +276,7 @@ Settings to enable:
 - Require at least 1 approving review
 - Dismiss stale pull request approvals when new commits are pushed
 
-## Layer 5: PR Size Limits
+### Step 5: Layer 5: PR Size Limits
 
 Large PRs resist review. Automate a size check:
 
@@ -303,7 +313,7 @@ jobs:
           fi
 ```
 
-## Reporting to Slack
+### Step 6: Reporting to Slack
 
 ```yaml
 # Add to quality.yml
@@ -323,7 +333,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
 ```
 
-## Enforcing Commit Message Standards
+### Step 7: Enforcing Commit Message Standards
 
 Inconsistent commit messages make it impossible to generate meaningful changelogs or trace bugs through history. Add a `commit-msg` hook that enforces Conventional Commits format:
 
@@ -339,7 +349,7 @@ Inconsistent commit messages make it impossible to generate meaningful changelog
 
 This blocks commits like `fix stuff` but allows `fix(auth): handle expired JWT tokens correctly`. Your CI/CD pipeline can then run `conventional-changelog` to auto-generate release notes on every merge to main.
 
-## Caching for Fast Feedback Loops
+### Step 8: Caching for Fast Feedback Loops
 
 Remote developers tolerate slow feedback loops poorly — a 10-minute CI run kills momentum. Cache aggressively:
 
@@ -362,7 +372,7 @@ Remote developers tolerate slow feedback loops poorly — a 10-minute CI run kil
 
 For Python projects this alone cuts install time from 90 seconds to under 10. Apply the same pattern to npm (`~/.npm`), Maven (`~/.m2`), or Gradle (`~/.gradle`) caches.
 
-## Language-Specific Gate Configurations
+### Step 9: Language-Specific Gate Configurations
 
 ### JavaScript / TypeScript Projects
 
@@ -418,7 +428,7 @@ jobs:
           [ $(echo "$COVERAGE >= 80" | bc) -eq 1 ] || (echo "::error::Coverage below 80%"; exit 1)
 ```
 
-## Rollout Strategy for Existing Codebases
+### Step 10: Rollout Strategy for Existing Codebases
 
 Dropping a strict quality gate on a legacy codebase generates hundreds of failures and demoralizes the team. Use a ratchet approach instead:
 
@@ -429,7 +439,7 @@ Dropping a strict quality gate on a legacy codebase generates hundreds of failur
 
 This converts the quality gate from an obstacle into a metric that visibly improves — which changes team culture around code quality faster than enforcement alone.
 
-## Configuring Quality Gate Notifications Without Noise
+### Step 11: Configure Quality Gate Notifications Without Noise
 
 Spam every PR failure to Slack and engineers mute the channel. Tune notifications:
 
@@ -452,6 +462,21 @@ Spam every PR failure to Slack and engineers mute the channel. Tune notification
 ```
 
 Only failures alert the channel. Passes are recorded in the PR timeline but produce no Slack noise. This keeps the `#engineering` channel useful instead of a stream of green checkmarks.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

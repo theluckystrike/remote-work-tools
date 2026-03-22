@@ -42,13 +42,23 @@ This guide provides a systematic approach to building a timezone-adapted routine
 - **Expect productivity to drop**: 20-30% during weeks 1-2.
 - **Recovery is non-linear**: You might sleep great on day 5, terribly on day 6, then better on day 7.
 
-## Understanding Your Adaptation Window
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Your Adaptation Window
 
 Your circadian rhythm doesn't shift instantly. Research indicates that timezone adjustments occur at roughly one hour per day when traveling eastward, and slightly faster when traveling westward. If you've moved 8 hours ahead (e.g., US to Central Europe), expect approximately 8-10 days of partial adjustment before your sleep-wake cycle stabilizes.
 
 During this period, your goal is dual: maintain meaningful overlap with your team while gradually shifting your schedule. Attempting to immediately match your new timezone's working hours often leads to sleep deprivation, reduced code quality, and decision fatigue.
 
-## Phase 1: Calculate Your Real Working Window
+### Step 2: Phase 1: Calculate Your Real Working Window
 
 Before building a routine, determine your actual productive hours during adaptation. This requires honest assessment of when you can function cognitively.
 
@@ -94,7 +104,7 @@ find_overlap()
 
 Run this to see your optimal collaboration window. For the first week, structure your day around 4-5 hours of overlap with your team, then use your remaining morning hours for independent deep work before your body fully adjusts.
 
-## Phase 2: Design Your Adaptive Schedule
+### Step 3: Phase 2: Design Your Adaptive Schedule
 
 Build your daily routine in three phases: adjustment period, stabilization, and optimization.
 
@@ -128,7 +138,7 @@ A sample stabilized routine for a developer in CET working with an US team:
 22:00 - Sleep routine
 ```
 
-## Phase 3: Automation and Environment Setup
+### Step 4: Phase 3: Automation and Environment Setup
 
 Reduce cognitive load during adaptation by automating timezone-aware workflows.
 
@@ -191,7 +201,7 @@ def batch_notifications():
 schedule.every(30).minutes.do(batch_notifications)
 ```
 
-## Protecting Sleep During Transition
+### Step 5: Protecting Sleep During Transition
 
 Sleep disruption is the biggest risk during timezone adaptation. Implement these safeguards:
 
@@ -201,7 +211,7 @@ Sleep disruption is the biggest risk during timezone adaptation. Implement these
 
 **Strategic napping:** If you experience afternoon fatigue during the first week, limit naps to 20 minutes and take them before 3 PM local time. Longer or later naps fragment nighttime sleep.
 
-## Long-Term Optimization
+### Step 6: Long-Term Optimization
 
 After 2-3 weeks, your routine should stabilize. Fine-tune with these developer-specific optimizations:
 
@@ -211,7 +221,7 @@ After 2-3 weeks, your routine should stabilize. Fine-tune with these developer-s
 
 **Environmental anchors:** Create consistent environmental cues in your new location—a specific desk setup, background music, or workspace rituals that signal "work time" regardless of timezone confusion. A specific coffee brand, a particular playlist, or a commute ritual (even 10-minute walk) can help.
 
-## Handling Reverse Culture Shock
+### Step 7: Handling Reverse Culture Shock
 
 If you're relocating temporarily or planning to return to your home timezone, anticipate reverse culture shock when you readjust:
 
@@ -221,7 +231,7 @@ If you're relocating temporarily or planning to return to your home timezone, an
 
 **Gradual schedule shift back:** Don't immediately revert to your old schedule. Shift back by 30-minute increments over the first week of return.
 
-## Documentation for Future Reference
+### Step 8: Documentation for Future Reference
 
 Before you completely adjust to your new timezone routine, document what worked and what didn't. This documentation helps:
 
@@ -229,7 +239,7 @@ Before you completely adjust to your new timezone routine, document what worked 
 2. **Team knowledge:** If another team member relocates, they have a concrete guide (specific to your team's timezone) rather than generic advice.
 3. **Personal reference:** Even a simple bullet-point list ("mornings were hardest, light therapy lamp helped, switching to European food schedule cut adjustments time in half") guides future decisions.
 
-## Dealing with Permanent Disruption
+### Step 9: Dealing with Permanent Disruption
 
 Some remote workers relocate permanently. For long-term relocation, revisit your optimization quarterly:
 
@@ -239,7 +249,7 @@ Some remote workers relocate permanently. For long-term relocation, revisit your
 
 Treat your daily routine as a system you optimize, not a fixed schedule you maintain forever.
 
-## Sleep Quality and Productivity Connection
+### Step 10: Sleep Quality and Productivity Connection
 
 Timezone adaptation primarily impacts sleep, which cascades into productivity. The relationship is direct:
 
@@ -251,7 +261,7 @@ Timezone adaptation primarily impacts sleep, which cascades into productivity. T
 
 Protect sleep at all costs during adaptation. If you need to choose between attending a meeting at an awkward time or skipping it for sleep, sleep usually wins.
 
-## Social and Relationship Impacts
+### Step 11: Social and Relationship Impacts
 
 Timezone changes affect your personal life and relationships:
 
@@ -263,7 +273,7 @@ Timezone changes affect your personal life and relationships:
 
 **Expat communities:** In many cities, digital nomad and expat communities can accelerate localization. These relationships help offset the isolation of timezone shift.
 
-## Extended Relocation Checklist
+### Step 12: Extended Relocation Checklist
 
 If relocating for 3+ months or permanently, address these items:
 
@@ -277,7 +287,7 @@ If relocating for 3+ months or permanently, address these items:
 
 **Tax implications:** If relocating internationally, understand tax implications. Some countries tax remote workers differently.
 
-## Cognitive Load During Timezone Adjustment
+### Step 13: Cognitive Load During Timezone Adjustment
 
 Your brain works harder during timezone adaptation than normal. Manage cognitive load:
 
@@ -291,7 +301,7 @@ Your brain works harder during timezone adaptation than normal. Manage cognitive
 
 By week 3-4, your cognitive load should return to normal and productivity should rebound.
 
-## Celebrating the Win
+### Step 14: Celebrating the Win
 
 After 2-3 weeks of grinding through adjustment, take time to appreciate the opportunity. You've now experienced:
 
@@ -301,6 +311,21 @@ After 2-3 weeks of grinding through adjustment, take time to appreciate the oppo
 - Personal growth through challenge
 
 This experience becomes valuable career capital. You've proven you can handle distributed work, thrive in uncertainty, and adapt to new environments—all increasingly valuable skills in remote work.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -38,7 +38,17 @@ Generating realistic test data is a critical part of software development. Wheth
 - **Topics covered**: understanding the faker.js and claude code integration, setting up your environment, creating basic test data with claude code
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Understanding the Faker.js and Claude Code Integration
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Faker.js and Claude Code Integration
 
 Claude Code can act as your intelligent assistant when working with Faker.js, helping you generate data structures, write seed scripts, and even create entire test data pipelines. The combination allows you to describe what you need in natural language and receive production-ready code that you can immediately use in your project.
 
@@ -54,7 +64,7 @@ npm install @faker-js/faker
 
 Once installed, you can import it in your JavaScript or TypeScript files. Claude Code can help you set up proper typing and configuration if you're working with TypeScript, ensuring type safety throughout your test data generation.
 
-## Creating Basic Test Data with Claude Code
+### Step 2: Create Basic Test Data with Claude Code
 
 When you need quick test data, simply describe what you need. For example, you might ask Claude Code to generate a set of user records with names, email addresses, and profile information. The AI will produce code that uses Faker.js methods appropriately:
 
@@ -81,7 +91,7 @@ const users = faker.helpers.multiple(generateUser, { count: 100 });
 
 This basic pattern becomes powerful when you need to generate related data. For instance, if you're building an e-commerce application, you might need products, orders, and customers that reference each other correctly.
 
-## Building Complex Data Structures
+### Step 3: Build Complex Data Structures
 
 Real applications require interconnected data. A test dataset for an online store needs products that belong to categories, orders that reference valid customer IDs, and line items that link to actual products. Claude Code excels at designing these relationships.
 
@@ -146,7 +156,7 @@ const orders = faker.helpers.multiple(() => {
 
 This approach ensures data integrity by creating entities in the correct order and maintaining referential consistency. Claude Code can help you design similar structures for any domain.
 
-## Automating Seed Data Generation
+### Step 4: Automate Seed Data Generation
 
 One of the most valuable workflows is creating reproducible seed data for development and testing. When debugging, you often need the same data to reproduce issues consistently.
 
@@ -205,7 +215,7 @@ seed()
   });
 ```
 
-## Generating Edge Case Data
+### Step 5: Generate Edge Case Data
 
 Testing strong applications requires more than just typical data. You need to test boundary conditions, error handling, and unusual scenarios. Claude Code can help you generate datasets specifically designed to expose potential issues.
 
@@ -250,6 +260,21 @@ When you modify your data model, your existing seed data might become incompatib
 ### Balance Realism and Performance
 
 While Faker.js can generate highly realistic data, extremely large datasets can slow down your tests. Find the balance between realistic data and test execution speed. Often, a smaller set of well-designed data is more valuable than a massive dataset of generic values.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

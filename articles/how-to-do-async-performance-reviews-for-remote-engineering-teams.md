@@ -60,7 +60,17 @@ Async reviews offer several advantages:
 
 **Documentation** — Written feedback creates a historical record that helps track growth over time. This matters for career development discussions.
 
-## Setting Up Your Review Framework
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Your Review Framework
 
 Before collecting any feedback, establish clear criteria that reflect what your team actually values. Generic competencies won't resonate with engineers who care about specific, observable behaviors.
 
@@ -88,7 +98,7 @@ For manager assessment:
 - Describe a situation where they went above and beyond.
 - What one area would most benefit from focused improvement?
 
-## Implementing the Async Review Process
+### Step 2: Implementing the Async Review Process
 
 ### Phase 1: Self-Assessment (Days 1-5)
 
@@ -97,7 +107,7 @@ Send the self-assessment template to each team member at the start of the review
 Provide clear instructions:
 
 ```markdown
-## Self-Assessment Template
+### Step 3: Self-Assessment Template
 
 **Review Period:** Q1 2026
 
@@ -124,7 +134,7 @@ Peer feedback provides diverse perspectives that manager feedback alone cannot c
 Use a structured peer feedback form:
 
 ```markdown
-## Peer Feedback for [Engineer Name]
+### Step 4: Peer Feedback for [Engineer Name]
 
 **Reviewer:** [Your Name]
 **Relationship:** Peer / Pair Partner / Cross-functional Partner
@@ -159,7 +169,7 @@ Send the complete review document to the employee with a response window of 5-7 
 
 After the async exchange is complete, offer an optional live conversation for those who want it. Some employees prefer to discuss their review in real-time, while others are satisfied with the written exchange.
 
-## Tools That Support Async Reviews
+### Step 5: Tools That Support Async Reviews
 
 ### Document-Based Approach
 
@@ -228,7 +238,7 @@ if __name__ == "__main__":
 
 **Ignoring the written response** — The employee's written response is valuable. Don't just skim it and schedule a call.
 
-## Measuring Review Effectiveness
+### Step 6: Measuring Review Effectiveness
 
 Track these signals to evaluate your async review process:
 
@@ -236,6 +246,21 @@ Track these signals to evaluate your async review process:
 - Goal achievement (do employees complete their stated goals?)
 - Engagement (do people find the process valuable?)
 - Retention (are high performers staying after reviews?)
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

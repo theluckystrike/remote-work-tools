@@ -29,7 +29,17 @@ Working from Bali's vibrant cafe scene offers an incredible lifestyle, but the c
 - **Morning sessions (before 11am)**: typically offer quieter conditions across most Bali cafes.
 - **Holiday Periods**: July-August peak tourism causes 40% increase in cafe noise levels.
 
-## The Bali Café Acoustic Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Bali Café Acoustic Challenge
 
 Bali cafes present a unique noise profile that differs from typical office environments. The combination of hard surfaces (common in tropical café designs), overlapping conversations, bass-heavy playlist music, and unpredictable disturbances creates an acoustic challenge that basic earplugs cannot address. Understanding what you're fighting against helps you build the right defense.
 
@@ -40,7 +50,7 @@ The frequency spectrum in busy Bali cafés typically breaks down as:
 
 Effective noise cancellation must address all three bands. Most developers make the mistake of focusing only on ANC headphones, ignoring the other two-thirds of the problem.
 
-## Building Your Hardware Layer
+### Step 2: Build Your Hardware Layer
 
 ### Active Noise Cancelling Headphones
 
@@ -59,7 +69,7 @@ Regardless of headphone type, fit determines 60% of your noise isolation effecti
 
 Test your seal by playing music at moderate volume and covering one cup or earbud—you should notice significant volume reduction when covered.
 
-## Software Solutions for Enhanced Isolation
+### Step 3: Software Solutions for Enhanced Isolation
 
 ### Noise Suppression for Calls
 
@@ -89,7 +99,7 @@ Configure ambient apps to play:
 
 The volume should be just loud enough that sudden café sounds blend into the background rather than startling you.
 
-## Environmental Strategies
+### Step 4: Environmental Strategies
 
 ### Strategic Café Selection
 
@@ -119,7 +129,7 @@ Where you sit determines half your acoustic environment. Ideal positions:
 
 Some developers use a portable **acoustic panel** (foam panels in a frame) positioned behind their laptop to reduce reflection from hard café walls.
 
-## The Developer-Specific Setup
+### Step 5: The Developer-Specific Setup
 
 For developers working on complex tasks, integrate these elements into your workflow:
 
@@ -152,7 +162,7 @@ Mechanical keyboards amplify in noisy environments—your typing becomes part of
 
 If you must use a louder keyboard in a pinch, position your body to shield the keyboard from direct sound projection toward other café patrons.
 
-## Managing the Microphone Challenge
+### Step 6: Manage the Microphone Challenge
 
 When you need to take calls in a busy café, your microphone picks up everything. Beyond software noise suppression, consider:
 
@@ -169,7 +179,7 @@ For important calls, enable the most aggressive noise suppression available:
 - Slack calls: Enable "Knock Knock" and use the desktop app's enhanced audio processing
 - Discord: Disable "Echo Cancellation" if it artifacts, use "Noise Suppression" instead
 
-## Building Your Portable Kit
+### Step 7: Build Your Portable Kit
 
 For a complete Bali café setup, carry:
 
@@ -209,7 +219,7 @@ Choosing the right audio gear is half the battle. Here's a practical breakdown o
 
 ---
 
-## Building a Noise Profile Database
+### Step 8: Build a Noise Profile Database
 
 Track which Bali locations are actually productive. Create a simple spreadsheet to build institutional knowledge:
 
@@ -311,7 +321,7 @@ chmod +x start-focus-block.sh
 
 ---
 
-## Voice Call Survival in Loud Cafes
+### Step 9: Voice Call Survival in Loud Cafes
 
 High-stakes calls (client meetings, interviews, sales) require special handling in cafe environments:
 
@@ -350,7 +360,7 @@ const callChecklist = {
 
 ---
 
-## Seasonal Noise Variations in Bali
+### Step 10: Seasonal Noise Variations in Bali
 
 Bali's acoustic environment changes dramatically by season. Plan your location strategy accordingly:
 
@@ -362,7 +372,7 @@ Bali's acoustic environment changes dramatically by season. Plan your location s
 
 ---
 
-## Microphone Technique for Developers
+### Step 11: Microphone Technique for Developers
 
 Your microphone placement and technique matter more than equipment quality when working in high-noise environments:
 
@@ -406,6 +416,21 @@ Your microphone placement and technique matter more than equipment quality when 
 ```
 
 ---
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

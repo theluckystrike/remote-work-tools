@@ -40,7 +40,17 @@ Childproof your home office in three layers: physical barriers (pressure-mounted
 - **Use only short cables**: that don't dangle ``` This setup keeps cables out of reach while maintaining convenient charging for your devices.
 - **You do not need to cover every surface**: the wall adjacent to the play area matters most.
 
-## Physical Workspace Setup
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Physical Workspace Setup
 
 The foundation of childproofing your home office starts with physical barriers that prevent toddler access without creating a prison-like atmosphere. Electrical cords are the primary danger zone—every cable leading to your desk becomes a tempting pull toy.
 
@@ -69,7 +79,7 @@ Installation: Pressure-mounted (no screws needed)
 
 Place a small table or shelf in front of the gate to make it less appealing as a climbing challenge. The goal isn't to create an impassable barrier but to add enough friction that your toddler chooses a different path.
 
-## Technical Solutions for Meeting Interruptions
+### Step 2: Technical Solutions for Meeting Interruptions
 
 When your toddler inevitably reaches you during a call, technical preparations minimize the disruption.
 
@@ -137,7 +147,7 @@ hold_time: 100ms
 release_time: 100ms
 ```
 
-## Meeting Preparation Checklist
+### Step 3: Meeting Preparation Checklist
 
 Before every important call, run through this mental checklist:
 
@@ -147,7 +157,7 @@ Before every important call, run through this mental checklist:
 4. Partner coordination: Establish a signal with your co-parent for emergency rescue
 5. Mute discipline: Enable push-to-mute rather than toggle-mute
 
-## Creating a Toddler-Resistant Charging Station
+### Step 4: Create a Toddler-Resistant Charging Station
 
 Charging cables represent both a danger and a constant replacement cost. Build a simple charging station that keeps cables contained:
 
@@ -167,7 +177,7 @@ Steps:
 
 This setup keeps cables out of reach while maintaining convenient charging for your devices.
 
-## Emergency Protocols
+### Step 5: Emergency Protocols
 
 Sometimes preparation fails. Have a protocol for when your toddler appears on camera:
 
@@ -178,7 +188,7 @@ Sometimes preparation fails. Have a protocol for when your toddler appears on ca
 
 Test your emergency protocol monthly. Muscle memory matters more than perfect preparation.
 
-## Automation for Meeting Management
+### Step 6: Automation for Meeting Management
 
 Automate the mundane tasks around meeting hygiene so cognitive load stays low:
 
@@ -201,7 +211,7 @@ sleep 300 && say "Meeting starting in 5 minutes"
 
 Add this to your dotfiles and run it with a single command before standup or client calls.
 
-## Soundproofing Strategies for Toddler-Adjacent Offices
+### Step 7: Soundproofing Strategies for Toddler-Adjacent Offices
 
 Noise cancellation software handles steady ambient noise well — fan hum, keyboard clicks, HVAC — but sudden loud sounds like a toddler screaming or banging toys pass through before the algorithm adapts. Acoustic treatment at the room level handles what software cannot.
 
@@ -211,7 +221,7 @@ For the door, the gap at the bottom is typically the largest acoustic leak. A do
 
 If full soundproofing is not feasible, position your desk so your back faces the door rather than the side. Toddlers approach from a predictable direction, and facing away gives you a fraction more time to mute before they reach the microphone.
 
-## Choosing the Right Noise Cancellation Tool
+### Step 8: Choose the Right Noise Cancellation Tool
 
 Not all noise cancellation software is equivalent when it comes to toddler sounds specifically. Here is how the main options compare based on the type of noise:
 
@@ -223,7 +233,7 @@ Not all noise cancellation software is equivalent when it comes to toddler sound
 
 **Combination approach**: Run Krisp or NVIDIA Broadcast as your virtual microphone input, then enable the conferencing app's noise cancellation on top. The double-processing adds a few milliseconds of latency but substantially reduces breakthrough noise from sudden loud sounds.
 
-## Establishing a Co-Parent Communication Protocol
+### Step 9: Establishing a Co-Parent Communication Protocol
 
 For dual-income remote households where both parents work from home, unplanned interruptions often happen because of unclear handoffs rather than negligence. A simple protocol eliminates most of the friction.
 
@@ -233,7 +243,7 @@ For unplanned urgent situations during your call, agree on a signal — a specif
 
 If your co-parent is unavailable during certain windows, identify two or three activities that reliably hold your toddler's attention for 20–30 minutes: a show they only watch during calls, a water play bin, or playdough. Reserve these for actual calls rather than general entertainment — novelty is what buys you time.
 
-## Ergonomics and Desk Layout for Parents
+### Step 10: Ergonomics and Desk Layout for Parents
 
 One underappreciated aspect of childproofing is desk positioning relative to the room entrance. Most people set up their desk for natural light or screen visibility without considering toddler traffic patterns.
 
@@ -241,13 +251,28 @@ Position your chair and desk so you have a clear sightline to the door. This giv
 
 Keep your mute button accessible from multiple positions. If you use a hardware mute button (Elgato Wave XLR, RØDE PodMic USB, or similar), mount it within arm's reach of wherever you typically sit during calls — not just at your keyboard. A wireless headset with a hardware mute button on the earcup is the most reliable option for immediate muting regardless of what application has focus.
 
-## Building Sustainable Systems
+### Step 11: Build Sustainable Systems
 
 The reality of parenting while working remotely means interruptions will happen. The goal is not elimination but reduction and recovery speed. Physical barriers prevent most incidents, technical solutions handle the rest, and practiced protocols ensure that when your toddler appears mid-sprint review, you recover professionally in under 30 seconds.
 
 Start with the simplest changes: cable management, door latches, and meeting status automation. Add soundproofing and noise cancellation tooling as your meeting load increases. Your time as a developer is valuable — spend it solving engineering problems, not constantly retrieving a curious toddler from your keyboard.
 
 The best childproofing system is one you actually maintain. A $5 door latch you install today beats an elaborate system you plan to set up next weekend. Do the easy things first, and build from there.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

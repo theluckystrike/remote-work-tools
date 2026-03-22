@@ -47,7 +47,17 @@ The benefits extend beyond version control. Your diagrams become refactorable, t
 
 For remote teams specifically, diagrams as code solves the asynchronous communication problem. Instead of scheduling a screen-share to walk colleagues through a whiteboard sketch, you commit a diagram file. Team members in different time zones can review it on their own schedule, leave comments inline, and suggest changes through standard pull request tooling.
 
-## Popular Diagrams as Code Tools
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Popular Diagrams as Code Tools
 
 Several tools fit well for remote team documentation. Mermaid.js offers the lowest barrier to entry—it renders diagrams from text directly in Markdown files. PlantUML provides more advanced diagramming capabilities with enterprise features. Structurizr combines architecture diagrams with C4 model compliance.
 
@@ -78,7 +88,7 @@ flowchart TD
 
 This flowchart renders automatically in platforms supporting Mermaid. The syntax reads like code—easy to write, review, and modify in pull requests.
 
-## Documenting Service Architecture
+### Step 2: Documenting Service Architecture
 
 For microservices architectures, sequence diagrams clarify service interactions. Here's how to document an API request flow:
 
@@ -102,7 +112,7 @@ sequenceDiagram
 
 This sequence diagram shows exactly how requests flow through your system. Remote team members can read the flow without needing a live demo or screen share.
 
-## Infrastructure Documentation
+### Step 3: Infrastructure Documentation
 
 Document cloud infrastructure using deployment diagrams:
 
@@ -129,7 +139,7 @@ graph TB
 
 Infrastructure diagrams in code enable Infrastructure as Code practices. When your Terraform changes, update the diagram to match—keeping documentation synchronized with reality.
 
-## C4 Model for Architecture Context
+### Step 4: C4 Model for Architecture Context
 
 The C4 model provides a standardized approach to architecture documentation. Structurizr supports C4 through DSL:
 
@@ -165,7 +175,7 @@ workspace {
 
 Remote teams benefit from C4's standardized levels. New team members start with the context diagram, then drill into containers and components as needed.
 
-## Git Workflow for Diagram Collaboration
+### Step 5: Git Workflow for Diagram Collaboration
 
 Treat diagram files like source code in your workflow:
 
@@ -179,7 +189,7 @@ This workflow ensures architecture changes receive proper scrutiny. Teams often 
 
 A practical way to enforce this is adding a PR template checklist item: "Architecture diagram updated if this PR changes service boundaries or data flows." That single line prevents documentation drift across a distributed team.
 
-## Embedding Diagrams in Documentation
+### Step 6: Embedding Diagrams in Documentation
 
 Jekyll sites support Mermaid through plugins or CDN includes. Add this to your layout:
 
@@ -210,7 +220,7 @@ Maintain diagram quality across distributed teams by following these practices:
 
 **Assign diagram ownership.** For each major system area, designate a team member responsible for keeping diagrams current. Ownership prevents the tragedy of the commons where everyone assumes someone else will update the docs.
 
-## Automating Diagram Generation
+### Step 7: Automate Diagram Generation
 
 For dynamic architectures, generate diagrams from code:
 
@@ -228,7 +238,7 @@ Automated generation keeps documentation synchronized with deployed services. Ru
 
 You can extend this approach to generate diagrams from your infrastructure-as-code definitions. Parse Terraform output or Kubernetes manifests to produce topology diagrams automatically. When the infrastructure changes, the diagram updates on the next CI run without any manual intervention.
 
-## CI/CD Integration for Diagram Validation
+### Step 8: Configure CI/CD Integration for Diagram Validation
 
 Add a CI step to validate diagram syntax before merging:
 
@@ -253,11 +263,26 @@ jobs:
 
 This CI step catches syntax errors before they reach main. For remote teams where async review is the norm, automated validation reduces round-trip time on pull requests—reviewers don't need to manually check that diagram syntax is valid.
 
-## Onboarding New Team Members with Diagrams
+### Step 9: Onboarding New Team Members with Diagrams
 
 Architecture documentation built on diagrams as code becomes a self-service onboarding resource. New engineers can clone the repository and immediately see system topology without scheduling calls. A well-structured `docs/architecture/` directory with a README explaining the C4 levels gives any new hire a path from high-level context to component detail.
 
 Create an architecture tour document that links diagrams in sequence: start with the system context, move to containers, then highlight the two or three sequence diagrams that describe the most critical user flows. New team members across time zones can complete this tour independently in their first week.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

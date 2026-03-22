@@ -47,7 +47,17 @@ Most failed location independent businesses skip stages 3 and 4.
 5.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## The Location Independent Business Model
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Location Independent Business Model
 
 A location independent business operates on three core principles: digital delivery (products or services that exist entirely online), asynchronous operations (processes that don't require real-time coordination), and automated scaling (systems that grow without proportional time investment).
 
@@ -60,7 +70,7 @@ Most viable models for developers fall into these categories:
 
 The key insight: your goal isn't to work remotely from your business—it's to build a business that runs without you.
 
-## Infrastructure That Travels With You
+### Step 2: Infrastructure That Travels With You
 
 Your development environment and business infrastructure need to be accessible from any machine. This isn't optional; it's the foundation that makes everything else possible.
 
@@ -98,7 +108,7 @@ Store critical business data in the cloud with encrypted access. Essential servi
 
 Configure two-factor authentication on every service. When you're accessing business systems from public networks in unfamiliar locations, this protection becomes critical.
 
-## Automating Revenue-Generating Systems
+### Step 3: Automate Revenue-Generating Systems
 
 Automation is the mechanism that makes location independence possible. The goal is to build systems that acquire customers, deliver value, and process payments without manual intervention.
 
@@ -149,7 +159,7 @@ Build a self-service support system that handles common questions without your i
 
 Implement these systems incrementally. Start with detailed documentation, then add automated responses for the five most frequent questions you receive.
 
-## Time Zone-Aware Operations
+### Step 4: Time Zone-Aware Operations
 
 When your customers span multiple time zones, synchronous availability becomes impossible. Design operations that don't require real-time responses.
 
@@ -188,7 +198,7 @@ async function updateStatus(currentAvailability) {
 
 Connect your status page to your calendar. When you're in meetings or offline, the page reflects accurate availability. This prevents frustration from customers who expect immediate responses.
 
-## Financial Systems for Global Operations
+### Step 5: Financial Systems for Global Operations
 
 Location independent businesses need financial infrastructure that works across borders without excessive fees or complications.
 
@@ -236,7 +246,7 @@ def reserve_taxes(revenue_records, entity_type):
 
 Automate tax reserve calculations and transfer a percentage of revenue to a separate account. This protects you from unexpected tax bills.
 
-## Building Systems First, Then Scaling
+### Step 6: Build Systems First, Then Scaling
 
 The sequence matters. Build your location independence in stages:
 
@@ -247,6 +257,21 @@ The sequence matters. Build your location independence in stages:
 5. Stage 5 - Scale deliberately: Add customers, products, or team members only after systems are proven
 
 Most failed location independent businesses skip stages 3 and 4. They automate delivery but never document their processes or test whether the business actually runs without them.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -14,14 +14,25 @@ voice-checked: true
 tags: [remote-work-tools, remote-work]---
 
 {% raw %}
-
 ## The Core Challenge of Delegating Across Time Zones
+
 
 Delegation in co-located teams relies on quick feedback loops—walk to someone's desk, ask a question, get an answer. When your team spans San Francisco, London, and Sydney, that model breaks down. The average round-trip time for a synchronous question jumps from minutes to hours or days. Waiting for responses during working hours in every time zone becomes a full-time job.
 
 Most remote managers either over-correct by maintaining tight synchronous schedules (burning themselves out) or under-corrected by becoming bottlenecks (slowing everything down). A proper delegation framework solves this by making delegation asynchronous by default while preserving the speed and quality of decisions.
 
 This guide provides a concrete framework you can implement immediately, whether you're managing three people or thirty.
+
+
+## Key Takeaways
+
+- **Reserve for coordination only**: Use overlap for things that truly need sync—complex discussions, 1:1s, crisis response
+3.
+- **If reversals >10%**: your tier definitions need clarity.
+- **Over time**: your team becomes faster because they're not waiting for you, and you become more valuable because you're solving Tier 3 and Tier 4 problems instead of drowning in Tier 1 decisions.
+- **Not for its own sake**: but because documentation is what makes async delegation possible.
+- **When they make mistakes—and**: they will—use those as coaching moments, not reasons to reclaim authority.
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
 
 ## The Four Tiers of Delegation
 

@@ -35,7 +35,17 @@ A remote team handbook is a living document that codifies communication norms, w
 
 - **Example**: "We use React (decided 2024-Q2, see decision log)"
 
-## Example Handbook Outline
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Example Handbook Outline
 
 ```
 # Remote Team Handbook
@@ -56,7 +66,7 @@ A quality handbook:
 - Serves as asynchronous communication replacement (people don't wait for synchronous answers)
 - Reduces management overhead (teams self-serve policies)
 
-## Building the Structure
+### Step 2: Build the Structure
 
 Start with a table of contents that reflects how people search for information. Avoid generic "Welcome" sections; instead, organize by the actual questions new hires ask.
 
@@ -87,7 +97,7 @@ This section answers immediate onboarding needs. Include:
 Document every tool your team uses with setup instructions. This prevents tribal knowledge where only specific people know workflows.
 
 ```
-## Slack
+### Step 3: Slack
 
 **Setup**: Workspace created during onboarding. Download apps for desktop, iOS, Android.
 
@@ -101,7 +111,7 @@ Document every tool your team uses with setup instructions. This prevents tribal
 
 **Disable Notifications**: Work/life boundary is critical. Disable notifications after 6 PM.
 
-## Google Workspace / Microsoft 365
+### Step 4: Google Workspace / Microsoft 365
 
 **Calendar Setup**:
 - Set your timezone (Settings → General → Timezone)
@@ -114,7 +124,7 @@ Document every tool your team uses with setup instructions. This prevents tribal
 - Decline meetings with 24 hours notice if possible
 - Mark "Do Not Disturb" for focus time blocks
 
-## GitHub / GitLab / Bitbucket
+### Step 5: GitHub / GitLab / Bitbucket
 
 **Workflow**:
 1. Create feature branch from develop
@@ -129,7 +139,7 @@ Document every tool your team uses with setup instructions. This prevents tribal
 - Pull requests: Include "why" not just "what"
 - Code reviews: Respond within 24 hours
 
-## Asana / Monday.com / Linear
+### Step 6: Asana / Monday.com / Linear
 
 **Project Management**:
 - Sprint planning every Monday 10 AM UTC
@@ -193,7 +203,7 @@ When a team member requests feedback:
 4. Execute decision
 5. Document final decision in decision log
 
-## Part 4: Work Culture and Expectations
+### Step 7: Part 4: Work Culture and Expectations
 
 Document the culture you want, not the default culture that emerges. Include:
 
@@ -208,7 +218,7 @@ Document the culture you want, not the default culture that emerges. Include:
 **Work Hours and Flexibility**
 
 ```
-## Work Hours Policy
+### Step 8: Work Hours Policy
 
 Core hours: 9 AM - 3 PM your local timezone (when you must be available for meetings)
 
@@ -239,7 +249,7 @@ Burnout prevention: Monthly 1:1 checkins include workload discussion. Overwork i
 Remote workers often experience burnout without natural breaks. Include:
 
 ```
-## Sabbatical Policy
+### Step 9: Sabbatical Policy
 
 After 3 years: Eligible for 2-week paid sabbatical (can be split)
 After 5 years: Eligible for 4-week paid sabbatical (can be split)
@@ -252,7 +262,7 @@ Process:
 5. Return to no backlog (sabbatical isn't prep for buried inbox)
 ```
 
-## Part 5: Technical Standards
+### Step 10: Part 5: Technical Standards
 
 Document the standards that prevent tribal knowledge and reduce onboarding friction.
 
@@ -276,12 +286,12 @@ Document the standards that prevent tribal knowledge and reduce onboarding frict
 - Compliance requirements (what laws apply to your data?)
 - Data deletion policies (retention periods for different data types)
 
-## Part 6: Onboarding Checklist
+### Step 11: Part 6: Onboarding Checklist
 
 Create a concrete checklist for managers to follow, referencing handbook sections.
 
 ```
-## Week 1 (Manager completes by Friday)
+### Step 12: Week 1 (Manager completes by Friday)
 
 - [ ] Create email account and grant group access
 - [ ] Send handbook and highlight first-week sections
@@ -291,7 +301,7 @@ Create a concrete checklist for managers to follow, referencing handbook section
 - [ ] Share project overview document
 - [ ] Assign one task from backlog (small, non-critical)
 
-## Week 2 (First Monday 1:1)
+### Step 13: Week 2 (First Monday 1:1)
 
 - [ ] Review handbook understanding
 - [ ] Clarify team communication norms
@@ -299,20 +309,20 @@ Create a concrete checklist for managers to follow, referencing handbook section
 - [ ] Assign 2 small tasks
 - [ ] Schedule 30-min pair programming session
 
-## Weeks 3-4
+### Step 14: Weeks 3-4
 
 - [ ] Assign first meaningful project (2-3 days estimated)
 - [ ] Code review feedback session (how we review, standards)
 - [ ] Team stand-in: Share what you've learned in 5 min
 
-## Month 1 (Month-end 1:1)
+### Step 15: Month 1 (Month-end 1:1)
 
 - [ ] How are things going feedback session
 - [ ] Clarify goals for months 2-3
 - [ ] Adjust role if initial expectations mismatched
 ```
 
-## Maintaining the Handbook
+### Step 16: Maintaining the Handbook
 
 A stale handbook is worse than no handbook. Assign ownership:
 
@@ -331,7 +341,7 @@ A stale handbook is worse than no handbook. Assign ownership:
 - Solicit feedback from all teams
 - Update based on what changed in the year
 
-## Platform Recommendations
+### Step 17: Platform Recommendations
 
 **For small teams (under 50)**: Use Google Docs or Notion
 - Notion structure: Database with sections as collections
@@ -350,7 +360,7 @@ A stale handbook is worse than no handbook. Assign ownership:
 - Gitbook: Pro: integrated with development workflow
 - Con: Requires technical comfort
 
-## Common Handbook Mistakes
+### Step 18: Common Handbook Mistakes
 
 **Too detailed**: A 100-page handbook no one reads is useless. Keep primary handbook to 20-30 pages. Reference external docs for tool-specific details.
 
@@ -362,7 +372,7 @@ A stale handbook is worse than no handbook. Assign ownership:
 
 **Orphaned decisions**: Decisions get made but never document. Create a "Decisions" section in handbook and link relevant sections to decisions. Example: "We use React (decided 2024-Q2, see decision log)"
 
-## Example Handbook Outline
+### Step 19: Example Handbook Outline
 
 ```
 # Remote Team Handbook
@@ -404,7 +414,7 @@ A stale handbook is worse than no handbook. Assign ownership:
 7. Onboarding Checklist
 ```
 
-## Implementation Timeline
+### Step 20: Implementation Timeline
 
 **Week 1**: Outline sections and assign one section per team member
 **Week 2**: Draft section, review with manager
@@ -412,6 +422,21 @@ A stale handbook is worse than no handbook. Assign ownership:
 **Week 4**: First team read-through, incorporate feedback
 
 A good handbook takes 4 weeks and pays dividends for years.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

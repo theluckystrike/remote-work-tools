@@ -46,7 +46,17 @@ For developers, the extended surface area matters. You can position your primary
 
 The corner position also provides natural screen placement away from foot traffic, reducing distractions during deep work sessions. If your desk faces into the room rather than a wall, you maintain awareness of your surroundings without direct line-of-sight to high-traffic areas.
 
-## Key Features to Evaluate
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Key Features to Evaluate
 
 ### Dimensions and Proportions
 
@@ -68,7 +78,7 @@ Corner desks endure more stress than rectangular desks due to their lever-arm ef
 
 Many corner desks include built-in storage: shelves, drawers, or keyboard trays. Evaluate whether these features match your needs. Developers often prefer open surfaces over drawers that trap cables and small accessories.
 
-## Recommended Desk Categories
+### Step 2: Recommended Desk Categories
 
 ### Compact Corner Desks (Under 48" Total Width)
 
@@ -115,7 +125,7 @@ Premium models include high-end materials, built-in power outlets, wireless char
 
 **Pro tip:** For developers, prioritize height adjustability and stability over price. An $800 desk with motorized adjustment beats a $2,000 fixed desk for long-term back health.
 
-## Setup Configuration Tips
+### Step 3: Set Up Configuration Tips
 
 ### Monitor Placement
 
@@ -133,7 +143,7 @@ Corner positions often receive uneven natural light. Position your desk to recei
 
 An L-shaped desk requires a chair that rolls smoothly between both work zones. Consider a chair with armrests that flip up or remove entirely for easy movement. The ideal chair height allows your feet flat on the floor with thighs parallel to the ground.
 
-## Room Dimension Guide
+### Step 4: Room Dimension Guide
 
 Before purchasing, measure your actual corner space and match it to desk dimensions:
 
@@ -171,7 +181,7 @@ Door (east wall)
 
 Adjust desk position 12" away from corner to allow cable access on both walls.
 
-## Making Your Decision
+### Step 5: Making Your Decision
 
 The best corner desk for your home office depends on your specific room dimensions, workflow, and budget. For developers, prioritize surface depth for large monitors, height adjustability for standing work, and cable management. Measure your space twice, consider your actual device layout, and choose a desk that accommodates your current setup with room to grow.
 The best corner desk for your home office depends on your specific room dimensions, workflow, and budget. Use this decision tree:
@@ -192,7 +202,7 @@ Measure your space twice, consider your actual device layout, and choose a desk 
 
 The right corner desk transforms awkward room angles into your most productive workspace. Take time to find the fit that matches your work style and budget.
 
-## Desk Height Transition: Standing vs. Sitting Ergonomics
+### Step 6: Desk Height Transition: Standing vs. Sitting Ergonomics
 
 If upgrading to a height-adjustable corner desk, understanding the transition phase matters. Your body needs 2-4 weeks to adapt to standing work without discomfort. Start with a 50/50 sitting-standing split—30 minutes standing, 30 minutes sitting—and gradually increase standing time to 2-3 hours per day over the adjustment period.
 
@@ -200,7 +210,7 @@ Many developers start too aggressively with standing desks, experience calf sore
 
 For corner desks specifically, position your chair so you can easily swivel between sitting and standing. This reduces the friction of transitions and encourages the alternating pattern. High-quality corner desks support smooth transitions with dual-motor systems that move at adjustable speeds—slower speeds (6-8 seconds for full range) reduce strain during transitions versus rapid movement.
 
-## Monitor Arm Strategy for Corner Desks
+### Step 7: Monitor Arm Strategy for Corner Desks
 
 Corner desks with standard legs don't work well with wall-mounted monitor arms—you lose the structural mounting points. Instead, use monitor stands or desk-mounted monitor arms for corner configurations.
 
@@ -215,7 +225,7 @@ Recommended corner desk monitor arm combinations:
 - **Mid-range**: One motorized arm + one passive stand ($100-150 total) — good flexibility
 - **Premium**: Two motorized arms ($250-400 total) — full adjustability but requires solid desk structure
 
-## Cable Management Specifics for Corner Desks
+### Step 8: Cable Management Specifics for Corner Desks
 
 Corner desks require thoughtful cable management because you have two distinct work zones plus a corner junction where cable congestion worsens. Use a combination approach:
 
@@ -227,7 +237,7 @@ For corner desk corners specifically, leave a 2-3" gap for air circulation to pr
 
 Power routing: Bring a single surge protector outlet to the corner junction area so both desk wings can access power without running cables across visible surfaces. Use in-wall power conduit if permanently installing the desk and you have electrical access.
 
-## Preventive Maintenance for Corner Desks
+### Step 9: Preventive Maintenance for Corner Desks
 
 Corner desks experience more stress than standard rectangular desks due to the lever-arm effect created by the L-shape. Prevent problems with these maintenance steps:
 
@@ -248,7 +258,7 @@ Plan for desk replacement when:
 
 Most quality corner desks last 5-7 years with regular use before showing signs of degradation. Budget for replacement in the 5-7 year window rather than being surprised when your desk fails.
 
-## Corner Desk Accessories That Actually Matter
+### Step 10: Corner Desk Accessories That Actually Matter
 
 Smart accessory choices amplify a corner desk's effectiveness:
 
@@ -290,7 +300,7 @@ Corner desks limit wall space above. Wall-mounted shelves or floating shelves he
 - 12-24 inches deep shelves work best (won't obstruct sitting/standing position)
 - Weight-rated shelves essential if storing multiple monitors or equipment
 
-## Ergonomic Details: Preventing Pain in Corner Desk Setups
+### Step 11: Ergonomic Details: Preventing Pain in Corner Desk Setups
 
 Corner desks can cause unique ergonomic problems if not set up correctly:
 
@@ -316,7 +326,7 @@ Corner desks can cause unique ergonomic problems if not set up correctly:
 
 Test your ergonomic setup after 1-2 weeks. If you're developing pain, adjust immediately—corner desks can amplify postural problems because people often accept awkward angles.
 
-## Real-World Corner Desk Setups: Visual Examples
+### Step 12: Real-World Corner Desk Setups: Visual Examples
 
 Rather than generic advice, here are specific configurations that developers report working well:
 
@@ -359,6 +369,21 @@ Desk size: 60" × 30" L-shaped
 Equipment: Quality mic on boom arm, audio interface, monitor, peripheral device dock
 
 Pick the configuration that matches your actual workflow, not what you think you *should* use.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
