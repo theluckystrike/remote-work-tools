@@ -11,8 +11,7 @@ tags: [remote-work-tools, documentation, best-of, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true
----
+intent-checked: true---
 
 {% raw %}
 
@@ -203,8 +202,8 @@ Define what documentation your team actually needs.
 Assign documentation ownership:
 
 ```
-Topic | Owner | Backup | Review Frequency |
-------|-------|--------|-----------------|
+Topic | Owner | Backup | Review Frequency |---
+---|-------|--------|-----------------|
 Architecture | @alice | @bob | Quarterly |
 API Reference | @carol | @dave | Per release |
 Onboarding | @eve | @frank | Before each hire |
@@ -238,15 +237,15 @@ Different tools serve different purposes. Choose based on your team's needs.
 ```
 Repository structure:
 /docs
-  /guides
-    - getting-started.md
-    - architecture.md
-  /api
-    - endpoints.md
-    - authentication.md
-  /deployment
-    - procedures.md
-    - troubleshooting.md
+ /guides
+ - getting-started.md
+ - architecture.md
+ /api
+ - endpoints.md
+ - authentication.md
+ /deployment
+ - procedures.md
+ - troubleshooting.md
 ```
 
 ### Option 2: Confluence (Best for Enterprise)
@@ -273,17 +272,17 @@ Confluence Space: Engineering
 
 Parent Pages:
 - Getting Started
-  - System Requirements
-  - Installation
-  - First Project
+ - System Requirements
+ - Installation
+ - First Project
 - Architecture
-  - System Design
-  - Database Schema
-  - API Design
+ - System Design
+ - Database Schema
+ - API Design
 - Processes
-  - Code Review
-  - Deployment
-  - Incident Response
+ - Code Review
+ - Deployment
+ - Incident Response
 ```
 
 ### Option 3: Notion (Best for Mixed Content)
@@ -336,14 +335,14 @@ Databases:
 Obsidian Vault: Team Docs
 
 - Architecture/
-  - System Overview.md
-  - Database Schema.md
-  - [[API Design]]
+ - System Overview.md
+ - Database Schema.md
+ - [[API Design]]
 - Processes/
-  - [[Deployment Steps]]
-  - [[Code Review Process]]
+ - [[Deployment Steps]]
+ - [[Code Review Process]]
 - Guides/
-  - [[Getting Started]]
+ - [[Getting Started]]
 ```
 
 ### Option 5: Markdown + Git (Most Flexible)
@@ -372,11 +371,11 @@ docs/
 ├── DEPLOYMENT.md
 ├── PROCESSES.md
 ├── guides/
-│   ├── getting-started.md
-│   └── troubleshooting.md
+│ ├── getting-started.md
+│ └── troubleshooting.md
 └── decisions/
-    ├── 001-database-choice.md
-    └── 002-api-versioning.md
+ ├── 001-database-choice.md
+ └── 002-api-versioning.md
 ```
 
 ## Tools Comparison Table
@@ -552,27 +551,27 @@ Automatically update docs on code changes:
 name: Update Documentation
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'src/**'
+ push:
+ branches: [main]
+ paths:
+ - 'src/**'
 
 jobs:
-  docs:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+ docs:
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/checkout@v4
 
-      - name: Generate API docs
-        run: npm run docs:generate
+ - name: Generate API docs
+ run: npm run docs:generate
 
-      - name: Update wiki
-        run: |
-          cp docs/api.md wiki/api.md
-          git config user.name "Docs Bot"
-          git add wiki/
-          git commit -m "Auto-update docs from code changes"
-          git push
+ - name: Update wiki
+ run: |
+ cp docs/api.md wiki/api.md
+ git config user.name "Docs Bot"
+ git add wiki/
+ git commit -m "Auto-update docs from code changes"
+ git push
 ```
 
 ## Real Example: Reducing Documentation Debt
@@ -636,45 +635,38 @@ Track these metrics monthly to show improvement:
 ```
 Documentation Health Dashboard
 
-Metric              | Month 1 | Month 2 | Month 3 | Target
+Metric | Month 1 | Month 2 | Month 3 | Target
 --------------------|---------|---------|---------|--------
-DDS Score          | 0.28    | 0.45    | 0.65    | 0.8
-Quality Average    | 2.1/5   | 2.8/5   | 3.7/5   | 4.0/5
-Freshness %        | 25%     | 45%     | 65%     | 70%+
-Onboarding Time    | 28 days | 18 days | 14 days | 10 days
-Support Questions  | 12/week | 8/week  | 5/week  | 3/week
-Documentation      | 42      | 52      | 58      | 65
-Pages              |         |         |         |
+DDS Score | 0.28 | 0.45 | 0.65 | 0.8
+Quality Average | 2.1/5 | 2.8/5 | 3.7/5 | 4.0/5
+Freshness % | 25% | 45% | 65% | 70%+
+Onboarding Time | 28 days | 18 days | 14 days | 10 days
+Support Questions | 12/week | 8/week | 5/week | 3/week
+Documentation | 42 | 52 | 58 | 65
+Pages | | | |
 ```
 
-
 ## Frequently Asked Questions
-
 
 **How long does it take to manage remote team documentation debt: complete guide?**
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-
 **What are the most common mistakes to avoid?**
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
-
 
 **Do I need prior experience to follow this guide?**
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-
 **Can I adapt this for a different tech stack?**
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
 
 ## Related Articles
 
@@ -685,4 +677,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

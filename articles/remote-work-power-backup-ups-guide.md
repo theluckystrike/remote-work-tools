@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Work Power Backup and UPS Guide"
-description: "Choose and configure a UPS for home office power protection — sizing calculations, runtime estimates, and integration with NAS and network gear for remote engineers"
+description: "Choose and configure a UPS for home office power protection — sizing calculations, runtime estimates, and integration with NAS and network gear for remote"
 date: 2026-03-22
 author: theluckystrike
 permalink: /remote-work-power-backup-ups-guide/
@@ -10,8 +10,7 @@ tags: [remote-work-tools, remote-work]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -410,9 +409,7 @@ When a team member reports a power outage:
 - [Best Power Strip for Developer Desk Setup](/best-power-strip-for-developer-desk-setup/)
 - [Best Power Strip with Surge Protector for Home Office](/best-power-strip-with-surge-protector-for-home-office-desk-2.)
 - [Remote Work Internet Redundancy Setup Guide](/remote-work-internet-redundancy-setup-guide/)
-
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

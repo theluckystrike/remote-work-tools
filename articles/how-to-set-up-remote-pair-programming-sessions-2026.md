@@ -7,8 +7,17 @@ reviewed: true
 score: 8
 voice-checked: true
 intent-checked: true
-permalink: /how-to-set-up-remote-pair-programming-sessions-2026/
+permalink: /how-to-set-up-remote-pair-programming-sessions-2026/---
 ---
+title: "How to Set Up Remote Pair Programming Sessions in 2026"
+description: "Guide to VS Code Live Share, Tuple, Pop, and CodeTogether for pair programming. Pricing, latency comparison, driver/navigator workflows."
+author: Remote Work Tools Guide
+date: 2026-03-22
+reviewed: true
+score: 8
+voice-checked: true
+intent-checked: true
+permalink: /how-to-set-up-remote-pair-programming-sessions-2026/---
 
 {% raw %}
 
@@ -94,7 +103,7 @@ Tuple is purpose-built for pair programming with low-latency HD video and optimi
 - Works with any editor (not just VS Code)
 - Dedicated pair programming UX (no clutter)
 - Session recordings available (great for async reviews)
-- Works seamlessly across Mac/Linux/Windows
+- Works across Mac/Linux/Windows
 
 **Latency:** 15-30ms typical (best-in-class).
 

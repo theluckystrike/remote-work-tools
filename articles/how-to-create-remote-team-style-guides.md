@@ -10,8 +10,7 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -403,9 +402,7 @@ Document which approach your team uses. Engineers creating new endpoints need to
 - [Async Code Review Process Without Zoom Calls](/async-code-review-process-without-zoom-calls-step-by-step/)
 - [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
 - [Remote Team Deployment Pipeline Best Practices](/remote-team-deployment-pipeline-best-practices/)
-
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

@@ -11,8 +11,7 @@ tags: [remote-work-tools, remote-work, hr, compliance, international-hiring, leg
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -186,8 +185,7 @@ If using an EOR, the offer letter structure differs slightly — you'll receive 
 
 Here's a condensed template you can adapt:
 
-```markdown
----
+```markdown---
 # Employment Offer Letter Template
 # Customize based on jurisdiction and EOR requirements
 ---
@@ -204,40 +202,40 @@ Dear [Candidate Name],
 We are pleased to offer you the position of [Job Title] at [Company Name].
 
 1. EMPLOYMENT DETAILS
-   - Start Date: [Date]
-   - Location: [Country], Remote
-   - Department: [Team]
-   - Reports To: [Manager Name]
+ - Start Date: [Date]
+ - Location: [Country], Remote
+ - Department: [Team]
+ - Reports To: [Manager Name]
 
 2. COMPENSATION
-   - Annual Base Salary: [Amount] [Currency]
-   - Payment Frequency: [Monthly]
-   - Benefits: [List]
+ - Annual Base Salary: [Amount] [Currency]
+ - Payment Frequency: [Monthly]
+ - Benefits: [List]
 
 3. WORKING ARRANGEMENTS
-   - Hours per Week: [X]
-   - Time Zone Overlap: [X hours]
-   - Equipment: [Company-provided/Employee-owned]
+ - Hours per Week: [X]
+ - Time Zone Overlap: [X hours]
+ - Equipment: [Company-provided/Employee-owned]
 
 4. LEAVE ENTITLEMENT
-   - Annual Leave: [X] days per year
-   - Sick Leave: As per [Country] law
-   - Public Holidays: As per [Country] calendar
+ - Annual Leave: [X] days per year
+ - Sick Leave: As per [Country] law
+ - Public Holidays: As per [Country] calendar
 
 5. TERMINATION
-   - Notice Period: [X] days/weeks
-   - Severance: Per [Country] requirements
+ - Notice Period: [X] days/weeks
+ - Severance: Per [Country] requirements
 
 6. CONFIDENTIALITY
-   - Standard confidentiality and IP assignment clauses
+ - Standard confidentiality and IP assignment clauses
 
 7. GOVERNING LAW
-   - This agreement shall be governed by the laws of [Country/Jurisdiction]
+ - This agreement shall be governed by the laws of [Country/Jurisdiction]
 
 Please sign below to confirm acceptance.
 
 _______________________ ____________
-[Candidate Name]        [Date]
+[Candidate Name] [Date]
 
 _______________________ ____________
 [Company Representative] [Date]
@@ -247,7 +245,7 @@ _______________________ ____________
 
 **Omitting governing law.** Without a governing law clause, disputes may be resolved in an unexpected jurisdiction. Specify clearly whether the contract is governed by your home country's laws or the employee's local laws — and understand which courts have jurisdiction.
 
-**Using a US-style at-will termination clause internationally.** At-will employment is largely a US concept. In most countries, termination requires cause, notice, and often severance. Including an at-will clause in an offer letter for a German or Brazilian employee may be unenforceable and signals a lack of compliance awareness.
+**Using an US-style at-will termination clause internationally.** At-will employment is largely an US concept. In most countries, termination requires cause, notice, and often severance. Including an at-will clause in an offer letter for a German or Brazilian employee may be unenforceable and signals a lack of compliance awareness.
 
 **Ignoring mandatory benefits.** Many countries have statutory benefits that must be included regardless of what your offer letter says. In France, for example, the mutual health insurance (mutuelle) contribution is mandatory for employers. In Brazil, meal vouchers (vale refeição) are effectively mandatory in many sectors. Failing to mention these does not eliminate your obligation to provide them.
 
@@ -264,7 +262,6 @@ No. A single template cannot accommodate the variation in mandatory terms across
 **What currency should I pay international remote employees in?**
 There's no universal answer. Paying in local currency protects the employee from exchange rate risk and is generally preferred by workers. Paying in USD or EUR is simpler for your finance team. Many companies pay a base in home currency with a local supplement through the EOR for mandatory benefits.
 
-
 ## Related Articles
 
 - [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
@@ -274,4 +271,4 @@ There's no universal answer. Paying in local currency protects the employee from
 - [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

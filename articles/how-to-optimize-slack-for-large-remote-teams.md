@@ -10,8 +10,7 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -445,9 +444,7 @@ Slack alerts should never be your primary incident notification. Use a real aler
 - [Best Practice for Remote Team Slack Do Not Disturb Schedules](/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 - [Best Practice for Remote Team Slack Emoji Reactions Replacing Verbal Responses](/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
 - [How to Create Async Standup Templates in Slack with Workflow Builder](/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
-
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

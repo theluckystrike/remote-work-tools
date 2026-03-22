@@ -11,8 +11,7 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]
----
+tags: [remote-work-tools, best-of, remote-work]---
 
 
 {% raw %}
@@ -69,25 +68,24 @@ This structure separates keys by user, server environment, and team. Administrat
 Ansible excels at managing SSH keys across multiple servers. This approach combines automation with infrastructure-as-code principles.
 
 ```yaml
-# ansible/playbooks/ssh-key-management.yml
----
+# ansible/playbooks/ssh-key-management.yml---
 - name: Manage SSH keys across servers
-  hosts: all
-  become: yes
-  tasks:
-    - name: Ensure SSH directory exists
-      file:
-        path: "/home/{{ ansible_user }}/.ssh"
-        state: directory
-        owner: "{{ ansible_user }}"
-        mode: '0700'
+ hosts: all
+ become: yes
+ tasks:
+ - name: Ensure SSH directory exists
+ file:
+ path: "/home/{{ ansible_user }}/.ssh"
+ state: directory
+ owner: "{{ ansible_user }}"
+ mode: '0700'
 
-    - name: Deploy authorized_keys file
-      copy:
-        src: "files/authorized_keys/{{ ansible_hostname }}/"
-        dest: "/home/{{ ansible_user }}/.ssh/authorized_keys"
-        owner: "{{ ansible_user }}"
-        mode: '0600'
+ - name: Deploy authorized_keys file
+ copy:
+ src: "files/authorized_keys/{{ ansible_hostname }}/"
+ dest: "/home/{{ ansible_user }}/.ssh/authorized_keys"
+ owner: "{{ ansible_user }}"
+ mode: '0600'
 ```
 
 With this playbook, you maintain authorized_keys files in version control, and Ansible distributes them to servers. Adding a new developer involves adding their key to the appropriate file and running the playbook.
@@ -100,17 +98,17 @@ For teams already using GitOps workflows, storing SSH key configurations alongsi
 # Example structure in your infrastructure repository
 # infrastructure/
 # ├── ssh/
-# │   ├── keys/
-#   │   │   └── users/
-#   │   │       └── developer-keys/
-#   │   │           ├── alice_ed25519.pub
-#   │   │           └── bob_ed25519.pub
-#   │   ├── templates/
-#   │   │   └── authorized_keys.j2
-#   │   └── scripts/
-#   │       ├── add_key.sh
-#   │       ├── remove_key.sh
-#   │       └── rotate_keys.sh
+# │ ├── keys/
+# │ │ └── users/
+# │ │ └── developer-keys/
+# │ │ ├── alice_ed25519.pub
+# │ │ └── bob_ed25519.pub
+# │ ├── templates/
+# │ │ └── authorized_keys.j2
+# │ └── scripts/
+# │ ├── add_key.sh
+# │ ├── remove_key.sh
+# │ └── rotate_keys.sh
 ```
 
 A key rotation script might look like:
@@ -146,9 +144,9 @@ ssh-keygen -t ed25519 -f ssh_ca -C "team-ca"
 
 # Sign a user certificate (valid for 24 hours)
 ssh-keygen -s ssh_ca -I "developer-alice" \
-  -V "+24h" \
-  -z "20240315" \
-  id_alice.pub
+ -V "+24h" \
+ -z "20240315" \
+ id_alice.pub
 
 # The signed certificate (id_alice-cert.pub) can now authenticate
 # without being added to individual server authorized_keys files
@@ -178,19 +176,19 @@ KEY_DIR="/opt/ssh-keys/users"
 ARCHIVE_DIR="/opt/ssh-keys/archive"
 
 for pubkey in "$KEY_DIR"/*.pub; do
-  modified_days=$(( ($(date +%s) - $(stat -f%m "$pubkey" 2>/dev/null || stat -c%Y "$pubkey")) / 86400 ))
+ modified_days=$(( ($(date +%s) - $(stat -f%m "$pubkey" 2>/dev/null || stat -c%Y "$pubkey")) / 86400 ))
 
-  if [ "$modified_days" -gt "$ROTATION_INTERVAL_DAYS" ]; then
-    key_user=$(basename "$pubkey" .pub)
-    echo "Rotating key for $key_user"
+ if [ "$modified_days" -gt "$ROTATION_INTERVAL_DAYS" ]; then
+ key_user=$(basename "$pubkey" .pub)
+ echo "Rotating key for $key_user"
 
-    # Archive old key
-    mkdir -p "$ARCHIVE_DIR/$(date +%Y-%m)"
-    mv "$pubkey" "$ARCHIVE_DIR/$(date +%Y-%m)/"
+ # Archive old key
+ mkdir -p "$ARCHIVE_DIR/$(date +%Y-%m)"
+ mv "$pubkey" "$ARCHIVE_DIR/$(date +%Y-%m)/"
 
-    # Notify user to provide new key
-    echo "Key rotation needed for $key_user" | mail -s "SSH Key Rotation Required" "$key_user@company.com"
-  fi
+ # Notify user to provide new key
+ echo "Key rotation needed for $key_user" | mail -s "SSH Key Rotation Required" "$key_user@company.com"
+ fi
 done
 ```
 
@@ -279,34 +277,27 @@ Having automated revocation mechanisms makes this response much faster. With cen
 
 The right solution depends on your team size, infrastructure maturity, and security requirements. Small teams benefit from simple Ansible-based approaches, while larger organizations should invest in certificate-based systems or managed solutions that provide audit trails and automatic rotation. Regardless of the solution, implement it with clear documentation so every team member understands the process and can respond correctly when incidents occur.
 
-
 ## Frequently Asked Questions
-
 
 **Who is this article written for?**
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-
 **How current is the information in this article?**
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
-
 
 **Are there free alternatives available?**
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-
 **How do I get my team to adopt a new tool?**
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-
 **What is the learning curve like?**
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-
 
 ## Related Articles
 
@@ -317,4 +308,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

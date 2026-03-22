@@ -8,8 +8,7 @@ score: 8
 voice-checked: true
 intent-checked: true
 tags: ["runbooks", "incident response", "remote work", "documentation", "on-call"]
-permalink: /how-to-build-remote-team-runbook-library-2026/
----
+permalink: /how-to-build-remote-team-runbook-library-2026/---
 
 {% raw %}
 
@@ -147,17 +146,13 @@ Runbook Index (filtered database view)
 **Implementation: 1-2 weeks (with templates)**
 
 Confluence page template:
-```
----
+```---
 Title: [System] [Incident Type]
 Space: Runbooks
 Owner: [Team Name]
 Severity: P1/P2/P3
 Last Updated: [Auto]
 ---
-
-## Summary
-One-sentence trigger and resolution.
 
 ## Detection
 - Alert name(s)
@@ -197,13 +192,13 @@ Repository structure:
 ```
 runbooks/
 ├─ database/
-│  ├─ connection-pool-exhaustion.md
-│  ├─ replication-lag.md
-│  └─ disk-space-critical.md
+│ ├─ connection-pool-exhaustion.md
+│ ├─ replication-lag.md
+│ └─ disk-space-critical.md
 ├─ cache/
-│  └─ redis-memory-spike.md
+│ └─ redis-memory-spike.md
 ├─ api/
-│  └─ 5xx-error-spike.md
+│ └─ 5xx-error-spike.md
 ├─ README.md (index)
 └─ .gitbook.yaml (sidebar config)
 ```
@@ -244,26 +239,26 @@ On-Call Rotation: API Team
 
 DIAGNOSIS (5 minutes max)
 ├─ Check application metrics dashboard
-│  ├─ CPU utilization: <50%? ✓ (rules out resource exhaustion)
-│  ├─ Error rate: <1%? ✓ (rules out widespread failure)
-│  ├─ QPS: Normal or elevated? (tells you if it's traffic-driven)
-│  └─ Go to next step
+│ ├─ CPU utilization: <50%? ✓ (rules out resource exhaustion)
+│ ├─ Error rate: <1%? ✓ (rules out widespread failure)
+│ ├─ QPS: Normal or elevated? (tells you if it's traffic-driven)
+│ └─ Go to next step
 │
 ├─ Check recent deployments
-│  ├─ Any deploy in last 30 minutes? (git log --oneline -10)
-│  ├─ If yes: ROLLBACK (see escalation steps)
-│  └─ If no: Continue
+│ ├─ Any deploy in last 30 minutes? (git log --oneline -10)
+│ ├─ If yes: ROLLBACK (see escalation steps)
+│ └─ If no: Continue
 │
 ├─ Check downstream dependencies
-│  ├─ Stripe API status: stripe.com/status
-│  ├─ AWS status: status.aws.amazon.com
-│  ├─ Analytics (Mixpanel/Segment): Check their dashboard
-│  └─ If any red: WAIT or USE FALLBACK (see escalation)
+│ ├─ Stripe API status: stripe.com/status
+│ ├─ AWS status: status.aws.amazon.com
+│ ├─ Analytics (Mixpanel/Segment): Check their dashboard
+│ └─ If any red: WAIT or USE FALLBACK (see escalation)
 │
 └─ Check database
-   ├─ Connection pool utilization: SELECT COUNT(*) FROM pg_stat_activity
-   ├─ Long-running queries: (list if any > 5s)
-   └─ Lock contention: SELECT * FROM pg_locks WHERE granted = false
+ ├─ Connection pool utilization: SELECT COUNT(*) FROM pg_stat_activity
+ ├─ Long-running queries: (list if any > 5s)
+ └─ Lock contention: SELECT * FROM pg_locks WHERE granted = false
 ```
 
 ### Step 4: Add Remediation Steps
@@ -334,9 +329,6 @@ LINKS
 **Owner:** [Team Name]
 **Last Updated:** [Date]
 **Review Date:** [Date + 6 months]
-
-## Summary
-One-sentence description of the incident and its impact.
 
 ## Detection
 - **Alert name:** [PagerDuty alert name]
@@ -440,8 +432,8 @@ Security Runbooks → Security Team + SRE
 Add checks in your runbook tool:
 ```
 IF last_updated < (today - 90 days)
-  THEN tag as STALE in Notion/Confluence
-  AND Slack @owner: "Review needed"
+ THEN tag as STALE in Notion/Confluence
+ AND Slack @owner: "Review needed"
 ```
 
 ### Post-Incident Updates
@@ -500,4 +492,3 @@ Compare to:
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

@@ -11,8 +11,7 @@ tags: [remote-work-tools, knowledge-base, self-hosted, zendesk-alternative, supp
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -60,7 +59,7 @@ site_name: Internal Support Knowledge Base
 docs_dir: docs
 theme:
   name: material
-  palette: 
+  palette:
     primary: indigo
     accent: blue
 plugins:
@@ -146,8 +145,7 @@ This approach catches errors before publication and maintains a history of all c
 
 Support teams depend on fast, accurate search. Most platforms provide built-in search, but tuning improves results significantly. Add relevant keywords to article metadata, structure content with clear headings, and maintain a consistent taxonomy.
 
-```markdown
----
+```markdown---
 title: "VPN Connection Troubleshooting"
 tags: [vpn, network, remote-access, troubleshooting]
 category: Technical Support
@@ -176,23 +174,23 @@ ZENDESK_URL = "https://yourcompany.zendesk.com"
 API_TOKEN = "your_api_token"
 
 def export_articles():
-    """Export all help center articles from Zendesk"""
-    response = requests.get(
-        f"{ZENDESK_URL}/api/v2/help_center/articles.json",
-        auth=("your@email.com/token", API_TOKEN)
-    )
-    articles = response.json()["articles"]
-    
-    for article in articles:
-        filename = f"docs/{article['id']}.md"
-        with open(filename, 'w') as f:
-            f.write(f"# {article['title']}\n\n")
-            f.write(article['body'])
-        
-        print(f"Exported: {article['title']}")
+ """Export all help center articles from Zendesk"""
+ response = requests.get(
+ f"{ZENDESK_URL}/api/v2/help_center/articles.json",
+ auth=("your@email.com/token", API_TOKEN)
+ )
+ articles = response.json()["articles"]
+
+ for article in articles:
+ filename = f"docs/{article['id']}.md"
+ with open(filename, 'w') as f:
+ f.write(f"# {article['title']}\n\n")
+ f.write(article['body'])
+
+ print(f"Exported: {article['title']}")
 
 if __name__ == "__main__":
-    export_articles()
+ export_articles()
 ```
 
 This basic script gets you started—you'll need to handle attachments, categories, and permissions separately.
@@ -204,18 +202,18 @@ One underappreciated aspect of Zendesk is its search analytics. Understanding wh
 ```javascript
 // Simple search analytics middleware for Wiki.js
 router.get('/search', async (req, res) => {
-  const query = req.query.q;
-  const timestamp = new Date().toISOString();
-  
-  // Log search query for analytics
-  await db.search_logs.insert({
-    query,
-    timestamp,
-    user_id: req.user?.id,
-    results_count: await performSearch(query).length
-  });
-  
-  return performSearch(query);
+ const query = req.query.q;
+ const timestamp = new Date().toISOString();
+
+ // Log search query for analytics
+ await db.search_logs.insert({
+ query,
+ timestamp,
+ user_id: req.user?.id,
+ results_count: await performSearch(query).length
+ });
+
+ return performSearch(query);
 });
 ```
 
@@ -230,10 +228,10 @@ Monitor response times, search usage patterns, and article access counts. This d
 ```yaml
 # Prometheus configuration for Wiki.js monitoring
 scrape_configs:
-  - job_name: 'wikijs'
-    static_configs:
-      - targets: ['wiki:3000']
-    metrics_path: '/api/monitoring/prometheus'
+ - job_name: 'wikijs'
+ static_configs:
+ - targets: ['wiki:3000']
+ metrics_path: '/api/monitoring/prometheus'
 ```
 
 ### Backup Strategies
@@ -249,7 +247,6 @@ tar -czf /backups/wiki_uploads_${DATE}.tar.gz /var/lib/docker/volumes/wiki_uploa
 find /backups -mtime +30 -delete
 ```
 
-
 ## Related Articles
 
 - [Best Knowledge Base Platform for Remote Support Team](/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
@@ -258,33 +255,25 @@ find /backups -mtime +30 -delete
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-
 ## Frequently Asked Questions
-
 
 **Who is this article written for?**
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-
 **How current is the information in this article?**
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
-
 
 **Are there free alternatives available?**
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-
 **How do I get my team to adopt a new tool?**
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
-
 
 **What is the learning curve like?**
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-
-{% endraw %}

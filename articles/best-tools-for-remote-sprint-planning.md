@@ -10,8 +10,7 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -386,9 +385,7 @@ If a blocking story slips, all dependent stories slip. Escalate blocking stories
 - [Best Sprint Planning Tools for Remote Scrum Masters](/best-sprint-planning-tools-for-remote-scrum-masters/)
 - [Best Tools for Remote Team Sprint Planning 2026](/best-tools-for-remote-team-sprint-planning-2026/)
 - [Remote Team Sprint Planning Communication Template](/remote-team-sprint-planning-communication-template-for-distr.)
-
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

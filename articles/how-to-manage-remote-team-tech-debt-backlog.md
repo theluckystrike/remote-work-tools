@@ -10,8 +10,7 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -77,8 +76,7 @@ gh label create "debt-scheduled" --color "3b82f6" --description "In a sprint or 
 ## Issue Template
 
 ```markdown
-<!-- .github/ISSUE_TEMPLATE/tech-debt.md -->
----
+<!-- .github/ISSUE_TEMPLATE/tech-debt.md -->---
 name: Tech Debt
 about: Document a technical debt item
 title: '[DEBT] '
@@ -132,23 +130,23 @@ A GitHub Action triggers when an issue is labeled `debt-new` and posts a scoring
 # .github/workflows/tech-debt-scoring.yml
 name: Tech Debt Scoring Request
 on:
-  issues:
-    types: [labeled]
+ issues:
+ types: [labeled]
 
 jobs:
-  request-scoring:
-    if: github.event.label.name == 'debt-new'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Post scoring comment
-        uses: actions/github-script@v7
-        with:
-          script: |
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: `## Tech Debt Scoring
+ request-scoring:
+ if: github.event.label.name == 'debt-new'
+ runs-on: ubuntu-latest
+ steps:
+ - name: Post scoring comment
+ uses: actions/github-script@v7
+ with:
+ script: |
+ await github.rest.issues.createComment({
+ owner: context.repo.owner,
+ repo: context.repo.repo,
+ issue_number: context.issue.number,
+ body: `## Tech Debt Scoring
 
 Please score this item by replying with your assessment (any team member can score):
 
@@ -164,7 +162,7 @@ Please score this item by replying with your assessment (any team member can sco
 Reply with: Impact: X | Frequency: X | Effort: X
 
 I'll aggregate scores after 48 hours.`
-            });
+ });
 ```
 
 ## Weekly Async Review (No Meeting)
@@ -237,19 +235,19 @@ gh project create --owner @org --title "Tech Debt Backlog" --format table
 ```bash
 # GitHub CLI: count debt items by status
 gh issue list --label "tech-debt" --state open --json number,labels,createdAt \
-  | jq 'length'
+ | jq 'length'
 
 # Items closed this month
 gh issue list --label "tech-debt" --state closed \
-  --json closedAt \
-  | jq --arg date "$(date -d '30 days ago' +%Y-%m-%d)" \
-  '[.[] | select(.closedAt >= $date)] | length'
+ --json closedAt \
+ | jq --arg date "$(date -d '30 days ago' +%Y-%m-%d)" \
+ '[.[] | select(.closedAt >= $date)] | length'
 
 # Items added this month
 gh issue list --label "tech-debt" --state all \
-  --json createdAt \
-  | jq --arg date "$(date -d '30 days ago' +%Y-%m-%d)" \
-  '[.[] | select(.createdAt >= $date)] | length'
+ --json createdAt \
+ | jq --arg date "$(date -d '30 days ago' +%Y-%m-%d)" \
+ '[.[] | select(.createdAt >= $date)] | length'
 ```
 
 If additions consistently exceed closures, increase the debt budget or reduce feature velocity until the trend reverses.
@@ -264,4 +262,3 @@ If additions consistently exceed closures, increase the debt budget or reduce fe
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

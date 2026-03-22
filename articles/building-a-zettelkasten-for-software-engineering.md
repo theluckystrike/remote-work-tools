@@ -11,8 +11,7 @@ score: 9
 voice-checked: true
 categories: [guides]
 intent-checked: true
-tags: [remote-work-tools]
----
+tags: [remote-work-tools]---
 
 
 {% raw %}
@@ -25,8 +24,7 @@ The core principle of a Zettelkasten is atomicity — each note should contain o
 
 An atomic note in software engineering might look like this:
 
-```markdown
----
+```markdown---
 id: 20260315-debounce-function
 tags: [javascript, patterns, performance]
 created: 2026-03-15
@@ -76,8 +74,8 @@ Prerequisite links capture dependencies between concepts:
 
 ```
 [[kubernetes-basics]]
-  → linked from: [[helm-charts]], [[service-mesh]], [[kustomize]]
-  → links to: [[docker-fundamentals]], [[yaml-syntax]]
+ → linked from: [[helm-charts]], [[service-mesh]], [[kustomize]]
+ → links to: [[docker-fundamentals]], [[yaml-syntax]]
 ```
 
 ## Implementation with Plain Text Tools
@@ -89,13 +87,13 @@ A typical directory structure might look like:
 ```
 zettelkasten/
 ├── 00-inbox/
-│   └── fleeting-notes.md
+│ └── fleeting-notes.md
 ├── 10-permanent/
-│   ├── 20260315-debounce-function.md
-│   ├── 20260315-throttle-function.md
-│   └── 20260315-memoization-pattern.md
+│ ├── 20260315-debounce-function.md
+│ ├── 20260315-throttle-function.md
+│ └── 20260315-memoization-pattern.md
 ├── 20-projects/
-│   └── project-name/
+│ └── project-name/
 └── index.md
 ```
 
@@ -139,13 +137,13 @@ Imagine you're building a Zettelkasten around API design. Over months, you accum
 
 ```
 [[rest-api-best-practices]]
-  → links to: [[json-api-conventions]], [[http-status-codes]]
+ → links to: [[json-api-conventions]], [[http-status-codes]]
 
 [[graphql-schema-design]]
-  → links to: [[n+1-query-problem]], [[resolver-pattern]]
+ → links to: [[n+1-query-problem]], [[resolver-pattern]]
 
 [[webhook-security]]
-  → links to: [[hmac-signature-verification]], [[retry-strategies]]
+ → links to: [[hmac-signature-verification]], [[retry-strategies]]
 ```
 
 When you need to design a new API, querying your Zettelkasten surfaces all relevant context: conventions to follow, pitfalls to avoid, and security measures to implement. The system becomes greater than the sum of its parts.
@@ -326,27 +324,27 @@ Don't let your knowledge base become a graveyard of half-finished notes:
 
 ```yaml
 Daily:
-  - Capture one permanent note from work
-  - Link it to at least one existing note
-  - Time: 15-20 minutes
+ - Capture one permanent note from work
+ - Link it to at least one existing note
+ - Time: 15-20 minutes
 
 Weekly (Friday):
-  - Review fleeting notes from the week
-  - Convert 3-5 into permanent notes
-  - Prune notes that became obsolete
-  - Time: 45 minutes
+ - Review fleeting notes from the week
+ - Convert 3-5 into permanent notes
+ - Prune notes that became obsolete
+ - Time: 45 minutes
 
 Monthly:
-  - Query your knowledge graph for clusters
-  - Identify gaps (areas with few notes)
-  - Archive project-specific notes
-  - Time: 1 hour
+ - Query your knowledge graph for clusters
+ - Identify gaps (areas with few notes)
+ - Archive project-specific notes
+ - Time: 1 hour
 
 Quarterly:
-  - Review entire graph structure
-  - Refactor overly broad notes into atomic ones
-  - Merge duplicate concepts
-  - Time: 2 hours
+ - Review entire graph structure
+ - Refactor overly broad notes into atomic ones
+ - Merge duplicate concepts
+ - Time: 2 hours
 ```
 
 This schedule keeps your Zettelkasten healthy without becoming a time sink.
@@ -377,19 +375,19 @@ As your Zettelkasten grows, connections across domains emerge:
 
 ```
 [[caching-strategies]]
-  ├── [[redis-cache-pattern]]
-  ├── [[browser-cache-headers]]
-  └── [[cdn-edge-caching]]
+ ├── [[redis-cache-pattern]]
+ ├── [[browser-cache-headers]]
+ └── [[cdn-edge-caching]]
 
 [[api-design]]
-  ├── [[rest-principles]]
-  ├── [[rate-limiting]] ← also links from caching-strategies
-  └── [[idempotency]]
+ ├── [[rest-principles]]
+ ├── [[rate-limiting]] ← also links from caching-strategies
+ └── [[idempotency]]
 
 [[database-performance]]
-  ├── [[n+1-query-problem]]
-  ├── [[query-optimization]]
-  └── [[caching-strategies]] ← makes explicit that caching solves db perf
+ ├── [[n+1-query-problem]]
+ ├── [[query-optimization]]
+ └── [[caching-strategies]] ← makes explicit that caching solves db perf
 ```
 
 These cross-domain connections often spark insights: "wait, I could apply the caching pattern from APIs to my database layer."
@@ -431,7 +429,6 @@ This approach gets the benefits of personal knowledge capture without the chaos 
 
 ---
 
-
 ## Related Articles
 
 - [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
@@ -441,4 +438,4 @@ This approach gets the benefits of personal knowledge capture without the chaos 
 - [Best Virtual Coffee Chat Tool for Remote Teams Building](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

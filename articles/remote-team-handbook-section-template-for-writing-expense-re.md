@@ -11,8 +11,7 @@ tags: [remote-work-tools, remote-work, expense-policy, handbook, reimbursement, 
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 Copy this expense reimbursement template directly into your handbook: list eligible expenses (home office equipment, software, internet, travel, professional development), define submission process (expense tool + receipt within 30 days), set approval tiers by amount ($0-$100 manager-approved, $100-$500 CFO approval, $500+ founder), require specific documentation (date, business purpose, receipt), and commit to reimbursement within 15 days of approval. This structure eliminates the guesswork that otherwise eats up finance team time fielding clarification questions across time zones.
 
@@ -28,7 +27,6 @@ Every expense policy needs six core components:
 6. **Exclusions and limits** — what is not covered
 
 Below is a template you can copy into your handbook. Adjust amounts, thresholds, and approval limits to match your organization's size and culture.
-
 ---
 
 ## Template: Expense Reimbursement Policy

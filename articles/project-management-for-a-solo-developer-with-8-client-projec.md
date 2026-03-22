@@ -11,8 +11,21 @@ tags: [remote-work-tools, project-management, solo-developer, productivity, work
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
+voice-checked: true---
 ---
+layout: default
+title: "Project Management for a Solo Developer with 8 Client"
+description: "Practical strategies and tools for managing 8 client projects simultaneously. Learn time-blocking, task isolation, and workflow automation techniques"
+date: 2026-03-16
+last_modified_at: 2026-03-22
+author: theluckystrike
+permalink: /project-management-for-a-solo-developer-with-8-client-projec/
+categories: [guides]
+tags: [remote-work-tools, project-management, solo-developer, productivity, workflow]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true---
 
 {% raw %}
 

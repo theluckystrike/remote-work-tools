@@ -10,8 +10,20 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]
+tags: [remote-work-tools, remote-work]---
 ---
+layout: default
+title: "Prometheus Monitoring Setup for Remote Infrastructure"
+description: "Set up Prometheus and Grafana to monitor remote servers, containers, and services. Covers exporters, alerting rules, and dashboard config for distributed infra."
+date: 2026-03-21
+author: theluckystrike
+permalink: /prometheus-monitoring-remote-infrastructure/
+categories: [guides]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 

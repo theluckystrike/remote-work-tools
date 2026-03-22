@@ -10,8 +10,7 @@ tags: [remote-work-tools, best-of, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -341,9 +340,7 @@ GitHub Actions covers most small-to-mid-size remote teams with less operational 
 - [How to Secure Remote Team CI/CD Pipeline from Supply Chain Attacks](/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend Developers](/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-develope/)
-
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

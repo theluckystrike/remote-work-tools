@@ -11,8 +11,7 @@ tags: [remote-work-tools, architecture, adr, technical-decisions, remote-work, d
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 9
----
+score: 9---
 
 {% raw %}
 
@@ -38,20 +37,19 @@ A practical ADR template for remote teams includes these sections:
 
 Here is a YAML-based template you can use directly:
 
-```yaml
----
+```yaml---
 adr:
-  id: 0015
-  date: "2026-03-10"
-  authors:
-    - sarah.chen
-    - marcus.johnson
-  status: accepted
-  deciders:
-    - tech-lead
-  consulted:
-    - platform-team
-    - security-team
+ id: 0015
+ date: "2026-03-10"
+ authors:
+ - sarah.chen
+ - marcus.johnson
+ status: accepted
+ deciders:
+ - tech-lead
+ consulted:
+ - platform-team
+ - security-team
 ---
 
 ## Context
@@ -100,12 +98,12 @@ Remote teams benefit from explicit async review processes. Add these workflow se
 ```yaml
 ---
 adr:
-  id: 0016
-  proposed-by: alex.turner
-  proposed-date: "2026-03-12"
-  review-channel: "#engineering-arch-reviews"
-  comment-period-days: 5
-  minimum-approvers: 2
+ id: 0016
+ proposed-by: alex.turner
+ proposed-date: "2026-03-12"
+ review-channel: "#engineering-arch-reviews"
+ comment-period-days: 5
+ minimum-approvers: 2
 ---
 
 ## Async Review Process
@@ -125,11 +123,11 @@ Architecture decisions evolve. Your template should accommodate status changes:
 
 ```yaml
 adr:
-  id: 0017
-  date: "2026-02-01"
-  status: deprecated
-  superseded-by: 0020
-  sunset-date: "2026-06-01"
+ id: 0017
+ date: "2026-02-01"
+ status: deprecated
+ superseded-by: 0020
+ sunset-date: "2026-06-01"
 ---
 
 ## Status History
@@ -287,34 +285,27 @@ Whatever approach you choose, establish clear guidelines about what decisions wa
 - Create notable trade-offs
 - Will be questioned by future developers
 
-
 ## Frequently Asked Questions
-
 
 **How long does it take to create remote team architecture decision record?**
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-
 **What are the most common mistakes to avoid?**
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
-
 
 **Do I need prior experience to follow this guide?**
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-
 **Can I adapt this for a different tech stack?**
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
 
 ## Related Articles
 
@@ -325,4 +316,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

@@ -11,8 +11,7 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]
----
+tags: [remote-work-tools, remote-work]---
 
 Structure client updates with Status Summary, Progress This Week, Blockers, Next Steps, and Decision Needed sections to enable async collaboration across time zones. When teams span multiple time zones, the way you format client updates determines whether information flows smoothly or gets lost in translation—synchronous communication patterns break down in distributed environments. This guide walks you through creating async update formats with concrete examples, templates, and implementation patterns for remote project teams.
 
@@ -205,7 +204,6 @@ Choose the complexity level that matches your team's needs. The goal is clear co
 **How do we handle scope changes in the update format?** Add a "Scope Change Alert" section at the top of any update where scope has changed. Flag it in the status summary line as well. Scope drift that hides in the body of an update erodes client trust; surfacing it prominently shows professional transparency.
 
 **What tools support async update workflows?** Linear and Jira both support weekly digest reports. Notion databases can act as structured update logs. Tools like Loom, Claap, and Descript cover video update workflows. For document-heavy clients, a shared Google Slides deck that teams update weekly gives stakeholders a visual snapshot alongside the written narrative.
-
 ---
 
 ## Real-World Implementation: Setting Up Your Update Pipeline
@@ -383,7 +381,6 @@ Example:
 > I recommend Option 1—it's low-risk, maintains the SLA, and we can evaluate Option 2 post-launch. This will delay the dashboard release by 3 days (new ETA: March 26). Please confirm by EOD Wednesday so I can start implementation.
 
 This structure gives the client what they need to make a decision without creating panic.
-
 
 ## Related Articles
 

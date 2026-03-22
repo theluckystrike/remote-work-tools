@@ -11,8 +11,7 @@ tags: [remote-work-tools, management, meetings, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true
----
+intent-checked: true---
 
 {% raw %}
 
@@ -32,7 +31,6 @@ Effective 1:1s require trust. Your report must believe that:
 4. **You're not evaluating every statement.** Conversational, not interrogatory.
 
 One-on-ones are theirs to shape. Spend 40% of the time on their agenda, not yours.
-
 ---
 
 ## Cadence: How Often?
@@ -397,7 +395,6 @@ Treat them as non-negotiable. Prepare minimally, listen actively, and invest in 
 
 Start this week with a shared 1:1 agenda doc. Invite your report to contribute. Watch the conversation depth improve immediately.
 
-
 ## Related Articles
 
 - [How to Run Effective Remote One-on-One Meetings](/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
@@ -406,33 +403,25 @@ Start this week with a shared 1:1 agenda doc. Invite your report to contribute. 
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-
 ## Frequently Asked Questions
-
 
 **How long does it take to run effective remote one on ones guide?**
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-
 **What are the most common mistakes to avoid?**
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
-
 
 **Do I need prior experience to follow this guide?**
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-
 **Can I adapt this for a different tech stack?**
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
-
 
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-
-{% endraw %}

@@ -10,8 +10,7 @@ tags: [remote-work-tools, retrospective, remote-work, async, team-processes, con
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -44,7 +43,6 @@ Here's a practical template structure:
 
 **Period:** [Start Date] to [End Date]
 **Facilitator:** [Name]
-
 ---
 
 ## What Went Well
@@ -86,9 +84,9 @@ echo "Please add your thoughts to the shared doc by [DEADLINE]:"
 echo "$RETRO_DOC"
 echo ""
 echo "Focus areas:"
-echo "  - What went well this sprint?"
-echo "  - What could improve?"
-echo "  - Any blockers we should track?"
+echo " - What went well this sprint?"
+echo " - What could improve?"
+echo " - Any blockers we should track?"
 ```
 
 Set gentle reminders halfway through the period and one day before the deadline. Automated reminders prevent the retrospective from being forgotten while respecting that people have competing priorities.
@@ -156,52 +154,52 @@ import json
 from datetime import datetime
 
 class ActionTracker:
-    def __init__(self, filename="retro_actions.json"):
-        self.filename = filename
-        self.actions = self.load_actions()
+ def __init__(self, filename="retro_actions.json"):
+ self.filename = filename
+ self.actions = self.load_actions()
 
-    def load_actions(self):
-        try:
-            with open(self.filename) as f:
-                return json.load(f)
-        except FileNotFoundError:
-            return {"actions": []}
+ def load_actions(self):
+ try:
+ with open(self.filename) as f:
+ return json.load(f)
+ except FileNotFoundError:
+ return {"actions": []}
 
-    def add_action(self, description, owner, due_date, retro_id):
-        action = {
-            "id": len(self.actions["actions"]) + 1,
-            "description": description,
-            "owner": owner,
-            "due_date": due_date,
-            "retro_id": retro_id,
-            "status": "open",
-            "created_at": datetime.now().isoformat()
-        }
-        self.actions["actions"].append(action)
-        self.save()
-        return action
+ def add_action(self, description, owner, due_date, retro_id):
+ action = {
+ "id": len(self.actions["actions"]) + 1,
+ "description": description,
+ "owner": owner,
+ "due_date": due_date,
+ "retro_id": retro_id,
+ "status": "open",
+ "created_at": datetime.now().isoformat()
+ }
+ self.actions["actions"].append(action)
+ self.save()
+ return action
 
-    def complete_action(self, action_id):
-        for action in self.actions["actions"]:
-            if action["id"] == action_id:
-                action["status"] = "completed"
-                action["completed_at"] = datetime.now().isoformat()
-        self.save()
+ def complete_action(self, action_id):
+ for action in self.actions["actions"]:
+ if action["id"] == action_id:
+ action["status"] = "completed"
+ action["completed_at"] = datetime.now().isoformat()
+ self.save()
 
-    def get_open_actions(self):
-        return [a for a in self.actions["actions"] if a["status"] == "open"]
+ def get_open_actions(self):
+ return [a for an in self.actions["actions"] if a["status"] == "open"]
 
-    def save(self):
-        with open(self.filename, "w") as f:
-            json.dump(self.actions, f, indent=2)
+ def save(self):
+ with open(self.filename, "w") as f:
+ json.dump(self.actions, f, indent=2)
 
 # Usage example
 tracker = ActionTracker()
 tracker.add_action(
-    "Implement automated test coverage reporting",
-    "sarah",
-    "2026-03-30",
-    "retro-2026-11"
+ "Implement automated test coverage reporting",
+ "sarah",
+ "2026-03-30",
+ "retro-2026-11"
 )
 ```
 
@@ -228,34 +226,27 @@ Track these metrics to understand if your async retrospectives are working:
 
 Iterate on your format based on feedback. Every team evolves their retrospective practice—yours should too.
 
-
 ## Frequently Asked Questions
-
 
 **Who is this article written for?**
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-
 **How current is the information in this article?**
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
-
 
 **Are there free alternatives available?**
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-
 **How do I get started quickly?**
 
 Pick one tool from the options discussed and sign up for a free trial. Spend 30 minutes on a real task from your daily work rather than running through tutorials. Real usage reveals fit faster than feature comparisons.
 
-
 **What is the learning curve like?**
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-
 
 ## Related Articles
 
@@ -266,4 +257,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+
