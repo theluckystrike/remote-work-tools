@@ -8,6 +8,7 @@ permalink: /remote-devops-team-deployment-freeze-coordination-tool-for-h/
 reviewed: true
 score: 8
 categories: [guides]
+voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
 
