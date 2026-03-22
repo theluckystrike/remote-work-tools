@@ -8,7 +8,7 @@ permalink: /adr-tools-for-remote-engineering-teams/
 categories: [guides]
 tags: [remote-work-tools, adr, documentation, remote-work]
 reviewed: true
-score: 8
+score: 7
 intent-checked: true
 voice-checked: true---
 

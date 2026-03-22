@@ -5,7 +5,7 @@ author: "theluckystrike"
 categories: [guides]
 tags:
 permalink: /a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/
-score: 8
+score: 9
 voice-checked: true
 reviewed: true
 layout: default
