@@ -118,6 +118,167 @@ The most frequent reasons for Zoom Companion Mode failing to connect to room sys
 
 If your team continues to experience persistent issues despite following these troubleshooting steps, consider reaching out to your organization's IT department or Zoom's official support channels for more specialized assistance.
 
+## Network Architecture Deep Dive
+
+Understanding your network setup helps you troubleshoot more effectively. Room systems typically communicate with personal devices through a combination of WiFi and Ethernet. When Companion Mode fails, the issue often lies in how these networks are isolated or segmented.
+
+Enterprise networks frequently use VLANs (Virtual LANs) to separate conference room systems from general-purpose devices. When your personal device sits on a different VLAN than the room system, routing and firewall policies prevent communication. Ask your IT team whether the room system and your device operate on separate VLANs. If yes, request routing rules that allow Companion Mode communication between these segments.
+
+Bandwidth constraints also cause connection failures. Room systems require stable upload and download capacity. If your conference room's WiFi network is congested with 50 people streaming video, adding Companion Mode communication often fails. Check WiFi signal strength in your specific room. Consider switching to a wired Ethernet connection for the room system if available, which improves stability regardless of wireless congestion.
+
+## Zoom Room System vs. Third-Party Hardware
+
+Different room system manufacturers implement Companion Mode compatibility differently. Zoom-certified room systems (like Zoom Rooms) have built-in support. Third-party systems (Cisco WebEx endpoints, Polycom devices, etc.) require updates or plugins to support Companion Mode.
+
+If your organization uses non-Zoom certified systems, check whether your specific model supports Companion Mode. Visit the device manufacturer's support page and search for "Zoom Companion Mode compatibility." Some older hardware simply doesn't support this feature, and no amount of troubleshooting resolves the incompatibility.
+
+For Zoom Rooms specifically, verify the room controller firmware version. Zoom Rooms require version 5.0 or later for full Companion Mode support. Update the room controller to the latest version through the Zoom Admin Portal.
+
+## Companion Mode Connection Methods
+
+Zoom supports three primary connection methods for Companion Mode, each with different requirements.
+
+**Ultrasonic proximity detection** represents the newest connection method. Your device detects ultrasonic signals broadcast by the room system, enabling automatic connection. This requires no manual input but demands compatible hardware. Verify your room system and personal device both support ultrasonic pairing.
+
+**Proximity code entry** requires manually entering a 6-digit code displayed on the room system's screen. This works on any device and survives network interference, but requires action from the user. If automatic methods fail, this manual fallback usually works.
+
+**Meeting ID + participant name** connects by joining the same Zoom meeting on both devices. Your personal device joins as a participant, and the room system recognizes it, enabling Companion Mode features. This method works universally but creates redundancy—you're managing the same meeting twice.
+
+## Advanced Troubleshooting for IT Administrators
+
+When standard troubleshooting fails, IT administrators can access deeper diagnostics.
+
+Access the Zoom Admin Portal and navigate to Settings > Companion Mode. Enable Companion Mode debug logging, then attempt to connect. The logs capture detailed error messages showing exactly where the connection attempt fails. Export these logs and search Zoom's knowledge base for specific error codes.
+
+For network administrators, Zoom publishes a comprehensive list of required IP ranges and ports for Companion Mode. Configure your firewall rules to explicitly allow traffic to these addresses. Some corporate firewalls block ranges by default, requiring explicit whitelisting.
+
+Test connectivity to Zoom's infrastructure directly using the Zoom Network Connectivity Tool, available in the Zoom Admin Portal. This tool runs diagnostics on your network's connection to Zoom's services and identifies bandwidth constraints, packet loss, or jitter that might affect Companion Mode.
+
+## Mobile Device Considerations
+
+When using a smartphone or tablet as your Companion Mode device, different considerations apply compared to laptops.
+
+Mobile devices on LTE/5G can experience different latency characteristics than WiFi-connected devices. If your room system connects via Ethernet and your mobile device uses cellular data, latency mismatches can cause synchronization issues. Test with WiFi-connected mobile devices first to isolate whether the problem involves your connection type.
+
+Background app activity on phones frequently interferes with Companion Mode. Before attempting to connect, close all non-essential applications. iOS users should close apps from the multitasking switcher. Android users should check Settings > Apps > Permissions and disable background activity for non-essential apps.
+
+Mobile device battery levels matter too. When battery drops below 20%, most devices throttle performance to extend battery life. This throttling sometimes disrupts Companion Mode. Ensure your mobile device is adequately charged (above 50%) before attempting connection.
+
+## Hybrid Meeting Scenarios
+
+When mixing in-room and remote participants, Companion Mode behavior changes. Understanding these dynamics helps troubleshoot hybrid scenarios.
+
+In hybrid meetings, the room system becomes the "primary" endpoint. Your personal device acts as supplementary input. Some features like screen sharing might be limited to prevent confusion. If you're leading a hybrid meeting and Companion Mode features don't work as expected, verify that you haven't accidentally disabled specific features in the room system settings.
+
+When multiple people in the room attempt to use Companion Mode simultaneously, connection conflicts occur. Only one personal device per room system typically works reliably for Companion Mode. If multiple people need their devices connected, consider whether they should just join as regular participants instead.
+
+## Zoom Account Licensing for Companion Mode Features
+
+Different Zoom account types support different Companion Mode features. Basic Zoom accounts may lack certain advanced capabilities.
+
+Zoom Pro ($199.99/year per user) provides full Companion Mode support. Zoom Business ($268.99/year) and higher tiers include all Companion Mode features. Free Zoom accounts have severely limited Companion Mode capabilities—essentially none for most features.
+
+If your organization uses Zoom Rooms (the dedicated hardware) rather than software endpoints, these require separate licensing. Zoom Rooms licenses ($39/month per room) include full Companion Mode support. Verify your Zoom Rooms license is current and hasn't expired.
+
+## Comparing Companion Mode to Alternative Room System Features
+
+Companion Mode serves specific use cases but alternatives exist for some scenarios.
+
+**Dual-screen setups** (room system + personal device as separate participants): Works but requires managing two separate meetings and camera feeds. Less elegant than Companion Mode but doesn't require Companion Mode support.
+
+**Hot-desking with personal devices**: Join the meeting directly from your personal device without room system involvement. Works for casual meetings but lacks room system audio/video quality.
+
+**Zoom Rooms as primary endpoint**: Have everyone join as participants in Zoom Rooms without Companion Mode. Simpler to manage but limits flexibility for individual control.
+
+**WebRTC-based integration**: Some organizations use webRTC bridges to connect room systems with personal devices outside of Zoom's native Companion Mode. Requires technical expertise but works when standard Companion Mode doesn't.
+
+## Mobile Companion Mode Specifics
+
+Mobile devices connecting via Companion Mode have unique considerations.
+
+**Smartphone vs tablet trade-offs:**
+- Smartphones are convenient but screen size limits functionality
+- Tablets provide better screen real estate but less portable
+- Both connect via WiFi or cellular, creating different latency profiles
+
+**Mobile-specific reliability issues:**
+- Phone calls coming in interrupt Companion Mode connections
+- Screen lock timeouts pause Companion Mode (adjust in phone settings)
+- Battery drainage can abruptly end sessions
+- Background app activity sometimes interferes with Companion Mode
+
+**Mobile optimization best practices:**
+- Keep only Zoom app running (close other apps)
+- Enable Do Not Disturb to prevent call interruptions
+- Keep screen always-on during meetings (battery impact but ensures continuity)
+- Use phone charger during extended Companion Mode sessions
+- Test before critical meetings
+
+## Zoom Account Permissions Configuration
+
+Detailed permission settings affect Companion Mode availability.
+
+**Enable Companion Mode at account level**: Admin Portal > Settings > In Meeting (Basic) > Enable Companion Mode. This top-level toggle must be on.
+
+**Enable Companion Mode for individual meeting hosts**: Some organizations restrict Companion Mode to specific users. Admin Portal > Users > Edit User Settings > In Meeting > Companion Mode toggle.
+
+**Configure Companion Mode screen sharing permissions**: Decide whether Companion Mode users can share screens or only view. More permissive settings enable more flexibility but increase complexity.
+
+**Set auto-connection behavior**: Configure whether Companion Mode automatically connects when room system joins meeting or requires manual action. Auto-connect is convenient but sometimes causes unexpected connections.
+
+## Escalation Path for Persistent Issues
+
+When standard troubleshooting fails, follow this escalation path.
+
+**Level 1: Personal troubleshooting** (before involving others)
+- Review all troubleshooting steps above
+- Test with different devices
+- Test with different room systems
+- Research your specific error code on Zoom's knowledge base
+
+**Level 2: IT department support** (internal resources)
+- Contact your organization's IT help desk
+- Provide error messages, device models, network information
+- Ask them to check firewall rules and network configuration
+- Request they contact Zoom if it's a known issue
+
+**Level 3: Zoom support** (expert resources)
+- Zoom Business/Premium customers get official support
+- Provide workflow IDs, timestamps, device models
+- Share network diagnostics and logs
+- Accept remote assistance if offered
+
+**Level 4: Hardware vendor support** (if using third-party room systems)
+- Contact room system manufacturer (Cisco, Polycom, etc.)
+- Report that Companion Mode isn't working with your system
+- Check whether firmware updates address the issue
+- Ask about Zoom compatibility certification
+
+## Preventative Maintenance Schedule
+
+Implement this schedule to minimize future Companion Mode issues.
+
+**Weekly:**
+- Test Companion Mode connection before important meetings
+- Verify VPN isn't blocking communication
+- Check that room system is powered on and connected
+
+**Monthly:**
+- Check for software updates on all devices
+- Test Companion Mode with different devices
+- Review Zoom status page for reported issues affecting your region
+
+**Quarterly:**
+- Update all software to latest versions
+- Verify firewall rules haven't been modified
+- Test from different network locations (home, coffee shop, office)
+
+**Annually:**
+- Audit Zoom licensing and confirm Companion Mode is included
+- Review and document your working configuration
+- Verify room system firmware is current
+- Schedule security audit of your network configuration
+
 
 ## Frequently Asked Questions
 
