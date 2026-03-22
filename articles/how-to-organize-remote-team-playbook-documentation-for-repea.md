@@ -15,7 +15,7 @@ voice-checked: true
 
 {% raw %}
 
-Documentation that nobody reads is worse than no documentation at all. When your remote team needs to execute a critical process—whether it's deploying to production, handling a security incident, or onboarding a new team member—having well-organized playbooks transforms chaos into confidence. This guide covers practical patterns for structuring remote team playbook documentation that your team will actually use.
+Documentation that nobody reads is worse than no documentation at all. When your remote team needs to execute a critical process — whether it's deploying to production, handling a security incident, or onboarding a new team member — having well-organized playbooks transforms chaos into confidence. This guide covers practical patterns for structuring remote team playbook documentation that your team will actually use.
 
 ## The Core Structure Every Playbook Needs
 
@@ -80,6 +80,22 @@ After rollback completes, verify:
 
 Notice how each step includes the exact command to run and explicit verification criteria. This removes ambiguity during high-stress situations.
 
+## Choosing the Right Documentation Platform
+
+Where you store playbooks affects how readily your team uses them. The right platform depends on your team's existing workflow and the type of content your playbooks contain.
+
+| Platform | Best For | Code Support | Search Quality | Version History |
+|----------|----------|--------------|----------------|-----------------|
+| GitHub Wiki | Code-adjacent teams | Good | Basic | Yes |
+| Notion | General teams, mixed media | Limited | Excellent | Yes |
+| Confluence | Enterprise teams with Jira | Moderate | Good | Yes |
+| GitBook | Public or internal docs sites | Good | Excellent | Yes |
+| Obsidian + Git | Small teams preferring local-first | Excellent | Good | Via Git |
+
+For engineering teams, storing playbooks in the same GitHub repository as the code they document offers a meaningful advantage: pull requests, review workflows, and version history all apply to documentation changes automatically. A developer updating a deployment script can update the corresponding playbook in the same PR, keeping code and documentation synchronized.
+
+Teams with mixed technical and non-technical members often find Notion more accessible. Notion's database views allow filtering playbooks by category, recency, or owner without requiring Markdown familiarity.
+
 ## Version Control for Playbooks
 
 Treat your playbooks as code. Use version control to track changes, require pull requests for modifications, and document the rationale behind updates. This approach provides several advantages:
@@ -90,22 +106,20 @@ Treat your playbooks as code. Use version control to track changes, require pull
 
 Store playbooks alongside your codebase in the same repository. This ensures they're available when you need them and keeps documentation synchronized with code changes.
 
-```markdown
+```yaml
 ## Playbook Metadata Header
 
 Every playbook should include metadata:
 
-```yaml
 ---
 version: 2.3.1
 last_updated: 2026-03-15
 maintainer: platform-team
 review_frequency: quarterly
 dependencies:
- - scripts/deploy.sh
- - tools/monitoring-dashboard
+  - scripts/deploy.sh
+  - tools/monitoring-dashboard
 ---
-```
 ```
 
 ## Linking Playbooks Together
@@ -122,7 +136,7 @@ Use a consistent linking convention:
 - [Post-Incident Review](/playbooks/post-incident-review/) - After resolving the incident
 ```
 
-This interconnected structure helps team members navigate from one relevant playbook to another during incidents or routine operations.
+This interconnected structure helps team members navigate from one relevant playbook to another during incidents or routine operations. Consider building a simple index page that lists all playbooks by category, making discovery easier for new team members who don't know what documentation exists.
 
 ## Automating Playbook Access
 
@@ -141,7 +155,15 @@ function playbook() {
 playbook deployment
 ```
 
-Simple tooling like this reduces the friction of accessing documentation when stress levels are high.
+Simple tooling like this reduces the friction of accessing documentation when stress levels are high. Some teams go further by building Slack bots that respond to commands like `/playbook incident-response` with a direct link to the relevant document. This pattern works particularly well when your team is already using Slack heavily and wants to avoid context switching to a separate documentation tool during an active incident.
+
+## Keeping Playbooks Concise
+
+Playbooks fail in two directions: too thin to be useful, or too detailed to navigate quickly under pressure. The right balance places essential information in the playbook itself and links to deeper documentation for background context.
+
+A useful test: can an experienced team member not familiar with this specific process execute the playbook in real time, reading it for the first time, during an incident? If steps require background knowledge that isn't in the playbook, add that context. If sections require reading through paragraphs of explanation before reaching actionable instructions, restructure them.
+
+Use visual formatting to create clear information hierarchy. Code blocks for exact commands, bullet lists for verification criteria, tables for decision trees. These formatting choices help readers scan quickly rather than read linearly.
 
 ## Testing Your Playbooks
 
@@ -151,7 +173,7 @@ The ultimate test of any playbook is whether someone can follow it under pressur
 - Builds muscle memory for responding to incidents
 - Identifies gaps or ambiguities before they cause problems
 
-Document any issues discovered during drills and update the playbook immediately.
+Document any issues discovered during drills and update the playbook immediately. Some teams run quarterly game days — half-day sessions where they deliberately trigger failure scenarios and execute the corresponding playbooks. Game days surface documentation gaps more reliably than any review process because they create authentic time pressure.
 
 ## Maintaining Playbooks Over Time
 
@@ -161,7 +183,15 @@ Documentation entropy is real. Playbooks become outdated as tools change, proces
 - **Post-incident updates**: Revise immediately after any real incident
 - **Ownership rotation**: Assign maintainers who feel responsible for keeping documents current
 
-Consider adding a "stale" indicator to playbooks that haven't been reviewed in a specified timeframe. This visual cue prompts teams to examine whether the documentation still reflects reality.
+Consider adding a "stale" indicator to playbooks that haven't been reviewed in a specified timeframe. This visual cue prompts teams to examine whether the documentation still reflects reality. A simple front matter field like `last_verified: 2026-01-15` combined with a CI check that flags playbooks older than 90 days creates lightweight governance without requiring a dedicated documentation role.
+
+## Onboarding New Team Members with Playbooks
+
+Playbooks serve a secondary purpose beyond incident response: they accelerate onboarding for new team members. A well-documented set of playbooks gives new hires immediate access to how the team actually operates, not just how the team says it operates in a handbook.
+
+Structure a dedicated onboarding playbook that references the most critical operational playbooks a new team member will encounter. Include context about when each playbook was last updated and who to contact with questions. New hires who can independently execute common workflows within their first two weeks integrate faster and require less hand-holding from senior team members.
+
+Cross-reference your onboarding playbook with your development environment setup guide, your CI/CD pipeline documentation, and your incident escalation procedures. The goal is that a new team member can work independently on routine tasks within their first sprint using documentation alone.
 
 ## Key Takeaways
 
@@ -169,6 +199,7 @@ Building effective remote team playbook documentation requires intentional struc
 
 - Define explicit triggers so team members know when to act
 - Write granular, verifiable steps that don't assume context
+- Choose a platform your team will actually access during incidents
 - Version control your playbooks alongside code
 - Create connections between related documentation
 - Make playbooks easily accessible through tooling
