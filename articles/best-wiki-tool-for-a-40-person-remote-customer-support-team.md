@@ -31,6 +31,15 @@ voice-checked: true---
 
 Use Notion for flexible formatting and permission controls, Confluence if your team prefers native Jira integration, or implement a lightweight wiki in GitHub if agents can use Markdown. The key is integration with your support platform (Zendesk, Intercom), fast search performance, granular permissions for sensitive escalation procedures, and async contribution across time zones.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Enterprise pricing starts at**: $10 per user monthly.
+- **Use Notion for flexible**: formatting and permission controls, Confluence if your team prefers native Jira integration, or implement a lightweight wiki in GitHub if agents can use Markdown.
+- **Organizations already in the**: Atlassian ecosystem should use Confluence's integration advantages.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+
 ## Key Requirements for Customer Support Wikis
 
 A 40-person remote support team has distinct needs that differ from engineering or marketing wikis:

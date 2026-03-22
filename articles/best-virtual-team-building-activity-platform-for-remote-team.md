@@ -33,6 +33,15 @@ Building genuine connections between team members who never meet in person requi
 
 This guide evaluates the best platforms for small remote teams based on engagement features, pricing structure, ease of setup, and ability to create memorable shared experiences.
 
+## Key Takeaways
+
+- **If rates drop below 50%**: survey the team to understand barriers—timing issues, activity preferences, or tool friction.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **A rule of thumb**: pay roughly $50-400/month total for a team of 30-50 people, or $1.50-8 per person monthly.
+- **Integration Requirements**: Teams already using Slack benefit most from Donut's deep integration.
+- **Research shows that default-in**: adoption rates exceed 80%, while purely voluntary programs often see only 30-40% participation.
+- **As your team approaches 50**: expect to transition to paid plans ranging from $4-12 per user monthly.
+
 ## Why Small Remote Teams Need Dedicated Team Building Platforms
 
 Remote work offers flexibility but creates invisible barriers to connection. Water cooler conversations simply do not happen when your team spans multiple time zones. Without intentional effort, team members become interchangeable names on Slack—collaborators in tasks but strangers as people.

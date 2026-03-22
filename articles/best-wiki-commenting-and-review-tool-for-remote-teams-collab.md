@@ -31,6 +31,15 @@ voice-checked: true---
 
 Remote teams need structured documentation workflows with effective commenting and review capabilities. When your team spans multiple time zones, asynchronous review processes become essential for maintaining documentation quality without creating bottlenecks. This guide evaluates practical approaches and tools for wiki-based documentation review.
 
+## Key Takeaways
+
+- **Tools**: Free GitHub Pro tier ($7/user/month).
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Tools**: $10-15/person/month for platform.
+- **Tools**: Confluence or enterprise GitBook ($50-150/month).
+- **ReadMe costs $50-300+/month depending**: on API size.
+- **The PR becomes a**: permanent record of all review discussion This approach requires zero additional tooling beyond what developers already use daily.
+
 ## Why Commenting Systems Matter for Distributed Documentation
 
 Documentation drafts require more than simple text editing. Technical writers, developers, and product managers need to discuss specific sections, suggest changes, and track revisions without derailing the writing process. A commenting system enables these conversations to happen in context—directly alongside the content being discussed.
