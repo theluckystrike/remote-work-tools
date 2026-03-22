@@ -9,7 +9,7 @@ permalink: /best-remote-team-wellness-program-ideas-for-distributed-orga/
 categories: [guides]
 tags: [remote-work-tools, remote-work, wellness, team-building, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

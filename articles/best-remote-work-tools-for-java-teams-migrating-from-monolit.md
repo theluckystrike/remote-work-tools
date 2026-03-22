@@ -10,7 +10,7 @@ permalink: /best-remote-work-tools-for-java-teams-migrating-from-monolit/
 categories: [guides]
 tags: [java, microservices, monolith-migration, remote-work-tools, devops, containers, kubernetes, ci-cd]
 reviewed: true
-score: 8
+score: 9
 intent-checked: false
 voice-checked: false
 ---
