@@ -9,7 +9,7 @@ permalink: /remote-employee-output-based-performance-measurement-framewo/
 categories: [guides]
 tags: [remote-work-tools, remote-performance, output-metrics, remote-management, performance-kpis, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
