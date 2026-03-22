@@ -38,7 +38,17 @@ Working remotely as a developer demands a finely tuned macOS environment. When y
 - **How should I handle**: VPN performance issues while working remotely? Split tunneling is the most effective solution.
 - **Topics covered**: terminal configuration and shell optimization, switching to zsh with oh my zsh, recommended shell plugins for remote developers
 
-## Terminal Configuration and Shell Optimization
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Terminal Configuration and Shell Optimization
 
 The terminal serves as your primary workspace. Optimizing it directly impacts daily productivity.
 
@@ -133,7 +143,7 @@ setw -g pane-base-index 1
 set -g status-right '%H:%M %d-%b-%y | #{host}'
 ```
 
-## Network Performance for Remote Work
+### Step 2: Network Performance for Remote Work
 
 Remote development hinges on reliable network access. macOS includes several optimization features worth enabling.
 
@@ -212,7 +222,7 @@ sudo powermetrics --samples 1 -i 1000 | grep -i latency
 sudo networksetup -setbackgroundWiFiPowerManagement en0 off
 ```
 
-## Security Configurations for Remote Developers
+### Step 3: Security Configurations for Remote Developers
 
 Working remotely requires heightened security awareness. macOS provides built-in tools that balance protection with usability.
 
@@ -268,7 +278,7 @@ export MY_API_KEY=$(security find-generic-password -a "$USER" -s "MY_API_KEY" -w
 
 Add the export line to your `~/.zshrc` to have secrets available in every terminal session without writing them to disk. This is significantly safer than storing credentials in `.env` files that might be accidentally committed to version control.
 
-## Development Environment Performance
+### Step 4: Development Environment Performance
 
 Optimize your Mac's resource usage for development workloads.
 
@@ -320,7 +330,7 @@ defaults write com.apple.dt.Xcode IDESkipSourceEditorAllowsIndexing -bool YES
 
 Outdated packages accumulate over time and cause unexpected behavior. Run `brew update && brew upgrade` weekly, or schedule it with launchd using a plist that triggers `brew update` every Monday at 9am. Load the plist with `launchctl load ~/Library/LaunchAgents/com.homebrew.update.plist` to keep packages current without manual effort.
 
-## Productivity Workflows
+### Step 5: Productivity Workflows
 
 Improve daily workflows to maximize output during remote work hours.
 
@@ -356,11 +366,26 @@ Cmd + Shift + 5
 
 Remote developers juggling terminal, IDE, browser, Slack, and video calls benefit from keyboard-driven application launching. Alfred (with the Powerpack) extends Spotlight with workflow automation — open a GitHub PR by typing its number, launch tmux sessions by name, or search Jira and Notion without switching windows. Index your development directories in Alfred's file search to open projects instantly.
 
-## Closing Thoughts
+### Step 6: Closing Thoughts
 
 Optimizing macOS for remote development requires balancing performance, security, and workflow efficiency. Start with terminal improvements and network configurations — returns appear immediately. Security settings protect your work long-term, while productivity tweaks compound over months of remote work.
 
 Revisit these settings quarterly and adjust based on changing project requirements or new tools in your workflow.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -50,7 +50,17 @@ Monitoring tool response times provides objective data to support tooling decisi
 
 Geographic distribution compounds the problem. A SaaS platform with servers in us-east-1 performs well for your New York team but may be 300ms slower for engineers in Singapore. Monitoring from multiple locations—even simple cron jobs on machines in different regions—reveals whether latency is global or region-specific.
 
-## Core Metrics to Track
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Metrics to Track
 
 Focus on these primary metrics when monitoring web-based tools:
 
@@ -63,7 +73,7 @@ Focus on these primary metrics when monitoring web-based tools:
 
 P95 matters more than averages for identifying user-impacting slowness. A tool with 200ms average but 4,000ms P95 is creating a frustrating experience for one in twenty requests, even though the average looks fine.
 
-## Simple cURL-Based Monitoring
+### Step 2: Simple cURL-Based Monitoring
 
 The most accessible approach uses standard command-line tools. Create a monitoring script that tests tool responsiveness periodically:
 
@@ -97,7 +107,7 @@ This script captures both HTTP status codes and total response time. Run it via 
 
 cURL's `-w` format string supports many useful fields: `time_namelookup`, `time_connect`, `time_starttransfer` (equivalent to TTFB), and `time_total`. Breaking these down reveals whether slowness is DNS, TCP handshake, or server processing.
 
-## Using Python for Advanced Monitoring
+### Step 3: Use Python for Advanced Monitoring
 
 Python offers more sophisticated analysis capabilities. The following script tests multiple endpoints and calculates statistics:
 
@@ -146,7 +156,7 @@ if __name__ == "__main__":
 
 Running this script reveals performance patterns. Consistent high latency (above 2-3 seconds for API calls) signals tools worth investigating further. High standard deviation—where some requests are fast and others slow—indicates rate limiting or backend instability.
 
-## Browser-Based Performance Testing
+### Step 4: Browser-Based Performance Testing
 
 For browser-accessible tools, the browser developer tools Network tab provides immediate insights. However, for systematic testing, Puppeteer-based automation gives repeatable measurements:
 
@@ -190,7 +200,7 @@ async function measureTool(name, url) {
 
 This script loads each tool and measures actual page load time including all resources. Sorting results immediately surfaces which tools are slowest for your team.
 
-## Identifying Bottleneck Apps
+### Step 5: Identifying Bottleneck Apps
 
 Once you have baseline data, analyzing for bottlenecks involves looking for:
 
@@ -202,7 +212,7 @@ Once you have baseline data, analyzing for bottlenecks involves looking for:
 
 **Time-of-Day Patterns**: Many tools slow during business hours when server loads peak. If your team works across time zones, this data helps optimize work schedules—scheduling tasks requiring slow tools for off-peak hours, or flagging that a tool vendor needs to scale their infrastructure.
 
-## Building a Monitoring Dashboard
+### Step 6: Build a Monitoring Dashboard
 
 For ongoing tracking, visualize your data. A simple approach uses a SQLite database with Python:
 
@@ -267,6 +277,21 @@ Start with simple measurements before building elaborate monitoring systems. Eve
 For teams that want managed monitoring without building custom tooling, Checkly, UptimeRobot, and Better Uptime all offer synthetic monitoring with API check support. These services run checks from multiple geographic regions, automatically alerting when response times exceed thresholds—useful for SaaS tools where you want passive monitoring without maintaining infrastructure.
 
 Remember that latency represents only one dimension of tool performance. Reliability, feature completeness, and team satisfaction matter equally. Use response time data as one input in your overall tool evaluation framework, not as the sole criterion for switching tools.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

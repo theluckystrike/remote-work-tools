@@ -44,7 +44,17 @@ Buffer time**: When quoting, add 20% buffer for unknowns.
 - **Managing multiple freelance clients**: without losing your sanity requires systems, not just willpower.
 - **It's to maintain 80%**: utilization with clients you enjoy, on projects that align with your goals, at rates that reflect your expertise.
 
-## Client Segments: The Foundation of Freelance Stability
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Client Segments: The Foundation of Freelance Stability
 
 Before implementing any tools, segment your clients into tiers based on revenue, strategic value, and communication intensity. Most freelance developers fall into three categories:
 
@@ -56,7 +66,7 @@ Before implementing any tools, segment your clients into tiers based on revenue,
 
 Create a simple Notion database or spreadsheet tracking each client with columns for: hourly rate, payment terms, average response time expected, primary communication channel, and next scheduled touchpoint. Update this weekly. This 15-minute habit prevents the drift where small clients silently expand into time sinks.
 
-## Time Blocking for Multiple Clients
+### Step 2: Time Blocking for Multiple Clients
 
 One of the biggest mistakes freelance developers make is keeping all clients in the same calendar with no separation. When everything competes for "whenever you're available," nothing gets dedicated focus.
 
@@ -92,7 +102,7 @@ This structure means Client A knows they get Tuesday afternoons and Monday morni
 
 Block these times on your actual calendar and treat them as non-negotiable appointments. When a client asks for a meeting outside their designated block, the answer is simple: "My schedule for [Client] is [specific times]. Would one of those work?"
 
-## Communication Channel Management
+### Step 3: Communication Channel Management
 
 Each client doesn't need their own Slack workspace, but混乱的 communication channels create chaos. Establish clear rules:
 
@@ -123,7 +133,7 @@ mkdir -p ~/Mail/ClientA ~/Mail/ClientB ~/Mail/ClientC
 # 0 10 * * * ~/bin/check-general-mail.sh
 ```
 
-## Project Tracking Without Overhead
+### Step 4: Project Tracking Without Overhead
 
 For developers, the temptation is to build an elaborate project management system. Resist this. The best tracking system is one you'll actually use.
 
@@ -167,7 +177,7 @@ function logTime(client, minutes, note) {
 
 This gives you data for future rate negotiations and helps identify which clients consume disproportionate time.
 
-## Scope Protection Strategies
+### Step 5: Scope Protection Strategies
 
 Scope creep is the silent killer of freelance profitability. Every "quick favor" and "small addition" adds up. Protect yourself with:
 
@@ -177,7 +187,7 @@ Scope creep is the silent killer of freelance profitability. Every "quick favor"
 
 **Buffer time:** When quoting, add 20% buffer for unknowns. Clients respect conservative estimates that are met or beaten more than optimistic ones that slip.
 
-## Financial Hygiene for Multiple Clients
+### Step 6: Financial Hygiene for Multiple Clients
 
 With multiple income streams, financial management gets complex. Set up:
 
@@ -193,7 +203,7 @@ With multiple income streams, financial management gets complex. Set up:
 
 **Quarterly tax estimates:** Set aside 25-30% of income for taxes. Multiple clients mean variable income—save more during high-earning months.
 
-## The Weekly Review Habit
+### Step 7: The Weekly Review Habit
 
 Once a week (Friday afternoon works well), spend 30 minutes reviewing:
 
@@ -207,7 +217,7 @@ This 30-minute investment prevents the slow drift where small issues become big 
 
 Managing multiple freelance clients effectively comes down to systems that reduce cognitive load. Time blocks, clear communication channels, simple tracking, and scope boundaries work together to create a sustainable freelance practice. Start with one system, make it habit, then add the next. The compounding effect of these small systems is what separates burnout-prone freelancers from those who build long-term, profitable practices.
 
-## Rate Architecture for Multiple Clients
+### Step 8: Rate Architecture for Multiple Clients
 
 Managing rates across clients prevents undercharging some while overcharging others. Establish a rate framework:
 
@@ -262,7 +272,7 @@ effective_rate(8000, 35, 50)
 
 If your effective rate is below your desired rate, you're either underpriced or have too much non-billable work. Adjust rates or hire help (virtual assistant for proposals, bookkeeper for invoicing).
 
-## Pricing Strategy for Different Client Types
+### Step 9: Pricing Strategy for Different Client Types
 
 **Tech Startup (Bootstrap stage):**
 - Budget: $30-80/hour
@@ -292,7 +302,7 @@ If your effective rate is below your desired rate, you're either underpriced or 
 - Risk: Moderate (can be demanding, unclear needs)
 - Recommendation: Require detailed briefs, clear scope documents
 
-## Invoice and Payment Automation
+### Step 10: Invoice and Payment Automation
 
 Automate invoicing to accelerate cash flow:
 
@@ -323,7 +333,7 @@ Alternatively, use platforms like:
 - **Wave** (Free): Simple invoicing, tracks overdue payments
 - **Stripe Billing** (2.9% + $0.30 per transaction): Automated subscriptions, works globally
 
-## Client Profitability Analysis
+### Step 11: Client Profitability Analysis
 
 After 6 months managing multiple clients, analyze which are actually profitable:
 
@@ -337,7 +347,7 @@ After 6 months managing multiple clients, analyze which are actually profitable:
 **Action**: Increase ClientB's rate 25%, tighten ClientC's scope, or migrate them to fixed-price projects.
 ```
 
-## Scaling to 5+ Clients Without Burnout
+### Step 12: Scaling to 5+ Clients Without Burnout
 
 When you exceed 5 active clients, you need staffing or systems change:
 
@@ -364,7 +374,7 @@ When you exceed 5 active clients, you need staffing or systems change:
 - Higher rates compensate for lower volume
 - Most sustainable for solo freelancers
 
-## Annual Client Retention and Growth
+### Step 13: Annual Client Retention and Growth
 
 Your ideal client portfolio for sustainable growth:
 
@@ -386,6 +396,21 @@ Your ideal client portfolio for sustainable growth:
 The goal isn't to fill every hour. It's to maintain 80% utilization with clients you enjoy, on projects that align with your goals, at rates that reflect your expertise.
 
 Managing multiple freelance clients effectively comes down to systems that reduce cognitive load. Time blocks, clear communication channels, simple tracking, and scope boundaries work together to create a sustainable freelance practice. Combined with thoughtful rate architecture and profitability analysis, these systems separate burnout-prone freelancers from those who build long-term, profitable practices.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -24,7 +24,17 @@ When a production incident hits at 3 AM, on-call engineers need immediate answer
 - **Connect to bastion and**: check active connections: ```bash psql -h prod-db.example.com -U readonly -c \ "SELECT count(*) FROM pg_stat_activity WHERE datname='main';" ``` 2.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## What Makes Runbook Documentation Effective
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: What Makes Runbook Documentation Effective
 
 Effective runbooks share common characteristics regardless of the team or technology stack. The primary goal is reducing mean time to resolution (MTTR) by providing clear, actionable steps that engineers can follow without requiring deep tribal knowledge or extensive context switching.
 
@@ -32,7 +42,7 @@ A runbook should answer three questions quickly: What is happening? What should 
 
 Remote teams face unique challenges that make runbook organization even more critical. Without the ability to shoulder-surf a colleague or quickly tap someone on the shoulder, engineers must be self-sufficient. Your runbooks serve as the substitute for that immediate in-person assistance.
 
-## Structuring Your Runbook Repository
+### Step 2: Structuring Your Runbook Repository
 
 Organize your runbooks around services and symptoms rather than generic categories. Each runbook should focus on a specific alert, error pattern, or failure scenario.
 
@@ -65,7 +75,7 @@ runbooks/
 
 This structure allows engineers to navigate directly to the relevant service when they receive an alert. The common directory contains investigation procedures that apply across multiple services, reducing duplication.
 
-## Writing Actionable Runbook Steps
+### Step 3: Writing Actionable Runbook Steps
 
 Each runbook should follow a consistent template that engineers can rely on during high-stress situations.
 
@@ -74,30 +84,30 @@ Each runbook should follow a consistent template that engineers can rely on duri
 ```markdown
 # Runbook: [Brief Description of Issue]
 
-## Alert Indicators
+### Step 4: Alert Indicators
 - Symptoms the on-call engineer will see
 - Expected vs actual values
 - Relevant dashboards or graphs
 
-## Impact
+### Step 5: Impact
 - Who is affected (internal/external users)
 - Service degradation level
 - Business impact
 
-## Diagnostic Steps
+### Step 6: Diagnostic Steps
 1. First check: command or query to run
 2. Second check: what to look for
 3. Additional investigation: optional commands
 
-## Resolution Steps
+### Step 7: Resolution Steps
 1. Step one with exact command
 2. Step two with exact command
 3. Confirmation: how to verify fix
 
-## Rollback Procedure
+### Step 8: Rollback Procedure
 Commands or steps to revert changes if the fix fails
 
-## Escalation
+### Step 9: Escalation
 When to escalate, who to contact
 ```
 
@@ -108,18 +118,18 @@ Avoid generic advice like "check the logs" without specifying which logs, where 
 ```markdown
 # Runbook: Database Connection Pool Exhaustion
 
-## Alert Indicators
+### Step 10: Alert Indicators
 - `ConnectionPoolTimeoutError` in application logs
 - Database CPU below 50% but application responding slowly
 - P99 latency spikes exceeding 5 seconds
 - CloudWatch metric: `DatabaseConnections` at max capacity
 
-## Impact
+### Step 11: Impact
 - All services depending on this database fail
 - New user logins timing out
 - Payment processing halted
 
-## Diagnostic Steps
+### Step 12: Diagnostic Steps
 1. Connect to bastion and check active connections:
    ```bash
  psql -h prod-db.example.com -U readonly -c \
@@ -138,7 +148,7 @@ ORDER BY duration DESC LIMIT 5;
  /app/scripts/check-connections.sh
  ```
 
-## Resolution Steps
+### Step 13: Resolution Steps
 1. Kill longest-running idle connections:
    ```sql
 SELECT pg_terminate_backend(pid)
@@ -154,20 +164,20 @@ WHERE state = 'idle' AND query_start < now() - interval '10 minutes';
  kubectl rollout restart deployment/api
  ```
 
-## Rollback Procedure
+### Step 14: Rollback Procedure
 If the issue was caused by a recent deployment:
 ```bash
 kubectl rollout undo deployment/api
 ```
 
-## Escalation
+### Step 15: Escalation
 Escalate to DBA team if:
 - Issue persists after 30 minutes
 - Data corruption suspected
 - More than 10,000 users affected
 ```
 
-## Version Control and Automation
+### Step 16: Version Control and Automation
 
 Store runbooks in the same version control system as your infrastructure code. This provides audit trails, peer review for changes, and the ability to roll back problematic documentation updates.
 
@@ -222,7 +232,7 @@ if __name__ == '__main__':
 
 Run this script in your CI pipeline to ensure runbooks receive periodic reviews.
 
-## Integrating with Incident Management
+### Step 17: Integrate with Incident Management
 
 Connect your runbooks directly to your alert routing and incident management tools. When an alert triggers, the notification should include a link directly to the relevant runbook.
 
@@ -241,7 +251,7 @@ services:
 
 When engineers receive the alert, they immediately have access to the troubleshooting guide without searching.
 
-## Maintenance and Review Cadence
+### Step 18: Perform Maintenance and Review Cadence
 
 Runbooks decay without consistent maintenance. Establish a review schedule that matches your deployment frequency:
 
@@ -260,7 +270,7 @@ next-review: 2026-05-15
 ---
 ```
 
-## Building a Culture Around Documentation
+### Step 19: Build a Culture Around Documentation
 
 The best-run book system fails if engineers do not use it. Foster a culture where creating runbooks becomes part of the incident response workflow:
 
@@ -269,6 +279,21 @@ The best-run book system fails if engineers do not use it. Foster a culture wher
 3. **During on-call handoffs**: Review runbooks as part of the handoff process
 
 Recognize contributors who maintain documentation. Documentation work often goes unnoticed but directly impacts team effectiveness.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Articles
 

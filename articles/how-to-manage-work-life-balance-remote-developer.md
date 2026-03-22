@@ -25,13 +25,23 @@ Manage work-life balance as a remote developer by enforcing three systems: time-
 - **Topics covered**: the core challenge: boundary erosion, time management strategies that actually work, time blocking with context switching minimization
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## The Core Challenge: Boundary Erosion
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Challenge: Boundary Erosion
 
 When your office is your home, work can easily consume waking hours. The absence of a commute removes natural transition time, and the convenience of your desk makes it tempting to check "just one more thing" at 10 PM. Research consistently shows that remote workers work longer hours than their office counterparts—often without realizing it.
 
 Managing work-life balance as a remote developer requires three pillars: time management, environmental design, and systematic boundary enforcement.
 
-## Time Management Strategies That Actually Work
+### Step 2: Time Management Strategies That Actually Work
 
 ### Time Blocking with Context Switching Minimization
 
@@ -71,7 +81,7 @@ pomodoro() {
 }
 ```
 
-## Environmental Design: Separating Work from Life
+### Step 3: Environmental Design: Separating Work from Life
 
 Your physical environment significantly impacts mental separation. Ideally, have a dedicated workspace—but even without a separate room, you can create psychological boundaries.
 
@@ -106,7 +116,7 @@ open -a Music
 echo "Work mode disabled. Enjoy your evening."
 ```
 
-## Boundary Enforcement Systems
+### Step 4: Boundary Enforcement Systems
 
 Boundaries only work when automated. Relying on willpower leads to burnout.
 
@@ -156,7 +166,7 @@ function setSlackStatus() {
 }
 ```
 
-## Physical and Mental Health Integration
+### Step 5: Physical and Mental Health Integration
 
 ### Movement Breaks
 
@@ -197,7 +207,7 @@ Here's how these practices combine into a typical day:
 | 5:00 PM | End-of-day wrap-up | Run end-workday.sh, clear workspace |
 | 6:00 PM | Personal time | Work laptop closed, separate area |
 
-## Common Pitfalls to Avoid
+### Step 6: Common Pitfalls to Avoid
 
 The "just checking" trap: Opening work apps "quickly" after hours often leads to 30+ minute detours into tasks. Avoid entirely or batch into a specific evening slot.
 
@@ -205,12 +215,27 @@ Guilt-driven overwork: Remote workers sometimes overcompensate to prove producti
 
 Isolation creep: Loneliness undermines long-term performance. Schedule regular virtual coffees and maintain non-work social connections.
 
-## Making It Stick
+### Step 7: Making It Stick
 
 Start with one change. Implement time blocking for a week. Add the end-of-day script the next. Small, consistent improvements compound into sustainable habits.
 
 Work-life balance isn't about perfect equilibrium every day. It's about systems that prevent chronic imbalance while allowing flexibility when projects demand extra effort.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions
@@ -235,7 +260,7 @@ Yes, the underlying concepts transfer to other stacks, though the specific imple
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Measuring Your Actual Work Hours
+### Step 8: Measuring Your Actual Work Hours
 
 Remote developers often work longer than they realize. Track it:
 
@@ -282,7 +307,7 @@ class WorkHourTracker:
 
 If your tracker shows >45 hours regularly, something needs to change.
 
-## Creating Ritual Boundaries: The End-of-Day Protocol
+### Step 9: Create Ritual Boundaries: The End-of-Day Protocol
 
 The most effective boundary is a transition ritual:
 
@@ -324,7 +349,7 @@ afplay /System/Library/Sounds/Ping.aiff
 
 Run this script every day at 5 PM via cron or manually.
 
-## Stack of Sustainable Work Practices
+### Step 10: Stack of Sustainable Work Practices
 
 Building on time blocking, here are additional layers:
 
@@ -357,12 +382,12 @@ layer_5_accountability:
   - Quarterly adjustment: What needs to change?
 ```
 
-## Handling Crunch Periods Without Destroying Balance
+### Step 11: Handling Crunch Periods Without Destroying Balance
 
 Sometimes projects demand extra hours. Do this sustainably:
 
 ```markdown
-## Structured Crunch Period Framework
+### Step 12: Structured Crunch Period Framework
 
 ### Before Crunch
 1. Define clear end date ("We need this through March 15th")
@@ -391,7 +416,7 @@ Sometimes projects demand extra hours. Do this sustainably:
 **If this happens:** This is a job/team fit issue that needs explicit conversation, not just boundary-setting.
 ```
 
-## Detecting Burnout Before It Happens
+### Step 13: Detecting Burnout Before It Happens
 
 Track these warning signs monthly:
 
@@ -436,12 +461,12 @@ class BurnoutDetector:
         return actions
 ```
 
-## Real Talk: Sometimes the Job Isn't Compatible
+### Step 14: Real Talk: Sometimes the Job Isn't Compatible
 
 If you've implemented all these strategies and you're still working 50+ hours:
 
 ```markdown
-## When Boundaries Alone Don't Work
+### Step 15: When Boundaries Alone Don't Work
 
 ### This Might Not Be a Boundary Problem If:
 - You're doing work of multiple people
@@ -469,12 +494,12 @@ The goal isn't perfect balance every day. It's sustainable work practices that l
 **If you're at burnout level despite these tools, the job itself may be incompatible with healthy boundaries. That's not a personal failure—it's organizational misalignment.**
 ```
 
-## Sample Monthly Reflection Template
+### Step 16: Sample Monthly Reflection Template
 
 Adapt this and use it every month:
 
 ```markdown
-## Monthly Work-Life Balance Reflection
+### Step 17: Monthly Work-Life Balance Reflection
 
 **Month:** [Month/Year]
 **Hours worked this month:** [Total]

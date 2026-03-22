@@ -39,7 +39,17 @@ Propose specific alternatives like 10 AM - 4 PM CET core hours (overlapping 2-4 
 - **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 - **If you're a backend**: developer who codes best at 6 AM local time, that's valuable information.
 
-## Understanding the Timezone Math
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Timezone Math
 
 The first step is knowing exactly what you're working with. US timezones span Eastern (UTC-5), Central (UTC-6), Mountain (UTC-7), and Pacific (UTC-8). If you're in Western Europe (UTC+0/+1), your overlap with US teams ranges from 1-4 hours during standard business hours.
 
@@ -75,7 +85,7 @@ console.log(`Lisbon-LA overlap: ${lisbonLA.hours} hours (${lisbonLA.start}:00 to
 
 This code reveals the hard truth: your overlap might be only 1-3 hours during traditional business hours. That's not enough time for real-time collaboration, which is exactly why flexible hours matter.
 
-## Build Your Business Case
+### Step 2: Build Your Business Case
 
 Before approaching your employer, prepare data that demonstrates how flexible hours actually improve your output. US managers often worry that non-standard hours mean unavailability. Counter this with concrete points:
 
@@ -85,7 +95,7 @@ Before approaching your employer, prepare data that demonstrates how flexible ho
 
 **Calculate the business value.** If you're in Portugal negotiating with a San Francisco team, your 8 AM local time is 11 PM PST the previous day. But your 10 AM local time is 2 AM PST—useless for collaboration. However, your 2 PM local time is 6 AM PST, perfect for catching the US team as they start their day. Strategic hour alignment can actually expand effective collaboration windows.
 
-## Propose Specific Alternatives
+### Step 3: Propose Specific Alternatives
 
 Vague requests get vague answers. Come with concrete proposals:
 
@@ -129,7 +139,7 @@ Request starting earlier or later to maximize overlap. A 7 AM start in Berlin gi
 | 12:00 - 14:00 | 6:00 - 8:00 | Meetings, reviews |
 | 14:00 - 16:00 | 8:00 - 10:00 | Async documentation |
 
-## Address Common Employer Concerns
+### Step 4: Address Common Employer Concerns
 
 **"What about emergencies?"** Establish an on-call rotation that accounts for timezone coverage. If you're in Europe and the US team is in California, you naturally cover different coverage windows:
 
@@ -150,7 +160,7 @@ on_call_coverage:
 
 **"Clients won't understand."** If your company serves US clients, position yourself as covering European timezone support—an asset rather than an obstacle. Document your hours clearly in client-facing materials.
 
-## Present Your Proposal Professionally
+### Step 5: Present Your Proposal Professionally
 
 Structure your request like a professional proposal:
 
@@ -164,7 +174,7 @@ Structure your request like a professional proposal:
 
 5. Define success metrics: "We can track PR review time, meeting attendance, and delivery predictability during the trial."
 
-## use Async Tools to Support Your Case
+### Step 6: use Async Tools to Support Your Case
 
 Show your employer that flexible hours work by demonstrating async communication competence:
 
@@ -175,7 +185,7 @@ Show your employer that flexible hours work by demonstrating async communication
 
 When your manager sees you deliver reliably without requiring real-time availability, they become more open to formalizing flexible arrangements.
 
-## What If Your Request Is Denied?
+### Step 7: What If Your Request Is Denied?
 
 If initial negotiations don't succeed, explore alternatives:
 
@@ -186,7 +196,7 @@ If initial negotiations don't succeed, explore alternatives:
 
 Many developers have secured flexible hours by proving their value first and negotiating second. The key is demonstrating that your output quality remains high—or improves—when you're not forced to work during your biological trough hours.
 
-## Comparative Schedules: Europe to US Timezone Mapping
+### Step 8: Comparative Schedules: Europe to US Timezone Mapping
 
 Understanding exactly what overlap you get is critical. Here's a reference table showing real-world overlaps for common European and US city pairs:
 
@@ -201,12 +211,12 @@ Understanding exactly what overlap you get is critical. Here's a reference table
 
 Use these natural overlap windows for synchronous work. Schedule meetings during peak overlap hours and protect them fiercely—they're your real-time collaboration time with the US team.
 
-## Building Your Productivity Evidence Document
+### Step 9: Build Your Productivity Evidence Document
 
 Before proposing flexible hours, compile a dossier that proves your capability to work independently. This document becomes your negotiation toolkit:
 
 ```markdown
-## Async Capability Evidence (Current Month Example)
+### Step 10: Async Capability Evidence (Current Month Example)
 
 ### Code Quality Metrics
 - Average PR review cycle: 18 hours (down from 24 hours last quarter)
@@ -231,7 +241,7 @@ Before proposing flexible hours, compile a dossier that proves your capability t
 
 Gather specific evidence over 2-3 weeks before your negotiation conversation. This document should be concrete and measurable, not opinion-based.
 
-## The Negotiation Conversation Script
+### Step 11: The Negotiation Conversation Script
 
 When you sit down (or video call) with your manager, have a structured conversation:
 
@@ -245,7 +255,7 @@ When you sit down (or video call) with your manager, have a structured conversat
 
 **The Boundaries**: "Here's what won't change: I'll be fully available for meetings during our overlap window, I'll maintain 12-hour async response time, and I'll document any blockers immediately."
 
-## Handling the "Always On" Expectation
+### Step 12: Handling the "Always On" Expectation
 
 Some managers worry that flexible hours mean you'll be unavailable when they need you. Counter this explicitly by establishing clear boundaries:
 
@@ -273,7 +283,7 @@ on_call_rotation:
 
 This framework makes it clear you're not asking to disappear—you're asking to work during your best hours while maintaining better boundaries.
 
-## If Your Negotiation Fails (Backup Strategies)
+### Step 13: If Your Negotiation Fails (Backup Strategies)
 
 If your manager says no initially, you have several intermediate options:
 
@@ -287,7 +297,7 @@ If your manager says no initially, you have several intermediate options:
 
 **Regional support angle**: "My timezone naturally covers [specific coverage need] better than standard hours. Having me available 2 PM-8 PM UTC gives us better client support in the Asian region." Reframe it as a business advantage.
 
-## Legal and HR Considerations
+### Step 14: Legal and HR Considerations
 
 Before negotiating flexible hours, understand the legal market:
 
@@ -300,6 +310,21 @@ Before negotiating flexible hours, understand the legal market:
 **Tax implications**: Flexible hours might affect how your income is taxed or claimed. Unusual hour patterns shouldn't affect tax treatment, but document the arrangement in case of audit.
 
 When in doubt, have your employer's HR department (not just your manager) acknowledge the flexible arrangement in writing.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

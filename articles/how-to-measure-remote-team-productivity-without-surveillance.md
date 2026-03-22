@@ -41,7 +41,17 @@ Measuring productivity in remote teams remains one of the most challenging aspec
 Month 4+**: Iterate based on team feedback.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## The Problem with Surveillance-Based Monitoring
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Problem with Surveillance-Based Monitoring
 
 Surveillance software creates a toxic dynamic where team members feel treated as potential underperformers rather than trusted professionals. Developers, in particular, experience decreased job satisfaction when their every keystroke is logged. The data these tools collect rarely correlates with meaningful business outcomes.
 
@@ -49,7 +59,7 @@ Consider what surveillance actually measures: time spent at a keyboard, mouse mo
 
 Instead of surveillance, focus on outcomes and behaviors that genuinely indicate healthy team performance.
 
-## Outcome-Based Metrics That Work
+### Step 2: Outcome-Based Metrics That Work
 
 ### Delivery Velocity and Cycle Time
 
@@ -110,7 +120,7 @@ Example team OKR:
  - Achieve 99.9% uptime for core services
  - Complete incident response training for all team members
 
-## Process Health Indicators
+### Step 3: Process Health Indicators
 
 Beyond output metrics, monitor process health indicators that predict future performance.
 
@@ -166,7 +176,7 @@ Monitor for early warning signs of team burnout:
 - Rising defect rates or technical debt
 - Decreased engagement in non-required activities
 
-## Building Trust Through Transparency
+### Step 4: Build Trust Through Transparency
 
 The most effective productivity measurement systems work because teams understand and trust them. Implement these practices:
 
@@ -204,7 +214,7 @@ Implement peer-to-peer recognition that values collaboration and quality:
 
 This approach measures and rewards the behaviors that actually make teams effective.
 
-## Practical Implementation Steps
+### Step 5: Practical Implementation Steps
 
 Start implementing trust-based productivity measurement:
 
@@ -214,7 +224,7 @@ Start implementing trust-based productivity measurement:
 4. Build dashboards: Create shared visibility into team performance
 5. Iterate and refine: Adjust metrics based on what actually improves outcomes
 
-## Beyond Individual Metrics: Team Health Signals
+### Step 6: Beyond Individual Metrics: Team Health Signals
 
 Focus on indicators that predict team success across multiple dimensions:
 
@@ -279,7 +289,7 @@ echo "Can explain auth system: Bob, Eve, Frank"
 # Even distribution = healthy team
 ```
 
-## Handling Productivity Discussions
+### Step 7: Handling Productivity Discussions
 
 When discussing productivity metrics with your team, follow this approach:
 
@@ -292,7 +302,7 @@ When discussing productivity metrics with your team, follow this approach:
 
 **Adjustment process:** If metrics are off, fix them collaboratively rather than forcing them on the team.
 
-## Red Flags That Metrics Are Wrong
+### Step 8: Red Flags That Metrics Are Wrong
 
 Adjust your metrics if you notice:
 
@@ -303,7 +313,7 @@ Adjust your metrics if you notice:
 
 When you see these signals, pause metrics, understand the root cause, and redesign.
 
-## Async-First Productivity Measurement
+### Step 9: Async-First Productivity Measurement
 
 Remote teams relying on async communication need metrics adjusted for that context:
 
@@ -323,7 +333,7 @@ output_availability:
 
 Async teams thrive when metrics reward clear communication and thoughtful decision-making, not busyness.
 
-## Measuring Psychological Safety
+### Step 10: Measuring Psychological Safety
 
 The strongest predictor of team performance is psychological safety—the belief that you can take interpersonal risks without punishment. Measure it through anonymous pulse surveys:
 
@@ -338,7 +348,7 @@ Rate your agreement (1-5 scale):
 
 Teams with average scores above 4.0 consistently outperform those with lower scores, regardless of individual contributor metrics.
 
-## Transition Plan: From Surveillance to Trust
+### Step 11: Transition Plan: From Surveillance to Trust
 
 If you're currently using surveillance tools, this transition requires careful change management:
 
@@ -351,6 +361,21 @@ If you're currently using surveillance tools, this transition requires careful c
 **Month 4+:** Iterate based on team feedback. Adjust metrics monthly if needed.
 
 The transition typically surfaces anxiety from both managers and team members. Acknowledge it openly. Trust isn't naive—it's built on clear expectations and transparent measurement.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -40,7 +40,17 @@ Optimize your internet speed for remote work by making two changes that cost not
 - **This is the single**: biggest improvement most remote workers can make.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Measuring Your Current Performance
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Measuring Your Current Performance
 
 Before optimizing, establish a baseline. Run multiple speed tests at different times of day to understand your typical performance.
 
@@ -63,7 +73,7 @@ Look for three key metrics:
 
 For remote development work, latency matters more than raw throughput. A connection with 150 Mbps download but 80ms ping feels worse for coding than 50 Mbps with 15ms ping.
 
-## Diagnosing Network Bottlenecks
+### Step 2: Diagnosing Network Bottlenecks
 
 If your speeds are inconsistent or slower than expected, identify the bottleneck.
 
@@ -96,7 +106,7 @@ sudo iw wlan0 scan | grep -E "SSID:|signal:|channel:"
 
 Move your router away from microwave ovens, cordless phones, and neighboring networks on the same channel. The 5 GHz band typically offers less interference than 2.4 GHz.
 
-## Optimizing Your Connection
+### Step 3: Optimizing Your Connection
 
 Once you identify issues, apply targeted fixes.
 
@@ -163,7 +173,7 @@ ping -c 5 vpn-server-address
 
 WireGuard typically achieves 3-4x the throughput of OpenVPN with lower latency.
 
-## Operating System Tweaks
+### Step 4: Configure the Operating System Tweaks
 
 ### TCP Window Scaling
 
@@ -194,7 +204,7 @@ ping -M do -s 1472 -c 4 google.com
 
 If packets fragment, reduce the MTU. Set it in your network configuration or router.
 
-## Monitoring and Automation
+### Step 5: Monitor and Automation
 
 Build monitoring into your workflow to catch issues before they impact work.
 
@@ -231,6 +241,21 @@ Sometimes hardware and software optimization hit their limits. Consider upgradin
 - Multiple household members frequently use bandwidth simultaneously
 
 Before upgrading, contact your ISP to test the actual line quality. Often, technicians can identify and fix external issues affecting your connection.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

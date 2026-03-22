@@ -40,20 +40,30 @@ Manage remote team handoffs across time zones by implementing structured handoff
 3.
 - **Confirm new option appears**: in dropdown ``` Store these documents in a consistent location—preferably alongside the ticket or in a dedicated handoff channel that spans your team's time zones.
 
-## The Core Problem: Context Decay
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Problem: Context Decay
 
 Every handover carries context—the reasoning behind decisions, the gotchas discovered during implementation, the trade-offs considered. In co-located teams, this context transfers through hallway conversations and immediate feedback. Across time zones, you have hours or even days between interactions. Context decays rapidly without explicit preservation.
 
 The solution isn't more meetings. It's building systems that capture context at the source and make it discoverable later.
 
-## Pattern 1: Structured Handoff Documents
+### Step 2: Pattern 1: Structured Handoff Documents
 
 Create a standard handoff format your team uses consistently. A good handoff document answers four questions: what was completed (specific ticket numbers, PR links, test results), what remains undone (blocking issues and dependencies), what the next person should know (decisions made, alternatives rejected, areas requiring judgment calls), and how progress can be verified (steps to validate the current state).
 
 Here's a template teams use effectively:
 
 ```markdown
-## Handoff: [Feature/Ticket Name]
+### Step 3: Handoff: [Feature/Ticket Name]
 
 ### Completed
 - PR #1234: Feature implementation
@@ -76,7 +86,7 @@ Here's a template teams use effectively:
 
 Store these documents in a consistent location—preferably alongside the ticket or in a dedicated handoff channel that spans your team's time zones.
 
-## Pattern 2: Time Zone-Aware Scheduling
+### Step 4: Pattern 2: Time Zone-Aware Scheduling
 
 Rather than forcing everyone into overlapping hours, design your handover rhythm around your team's actual distribution. Calculate overlap windows where real-time communication is possible.
 
@@ -97,7 +107,7 @@ Schedule handoff conversations during these overlap windows. Use the remaining h
 
 For handoffs between Tokyo and San Francisco with no overlap, establish an "async handshake"—a recorded video or detailed written handoff that the receiving party acknowledges before you sign off for the day.
 
-## Pattern 3: Automate Status Capture
+### Step 5: Pattern 3: Automate Status Capture
 
 Manual handoffs fail because they depend on individual discipline. Automate status tracking wherever possible.
 
@@ -119,7 +129,7 @@ Closes #445"
 Pull request descriptions should include a handoff section:
 
 ```markdown
-## Handoff Notes
+### Step 6: Handoff Notes
 
 ### For the reviewer
 - Migration runs automatically on deploy
@@ -150,7 +160,7 @@ if __name__ == "__main__":
 
 This catches handoffs that fall through the cracks during weekends or holidays.
 
-## Pattern 4: Shared Async Communication Norms
+### Step 7: Pattern 4: Shared Async Communication Norms
 
 Your team needs explicit agreements about async communication:
 
@@ -160,7 +170,7 @@ Status indicators: Use status indicators to communicate availability. When you'r
 
 Decision logging: Every significant decision should be written down somewhere searchable. If a decision happens in a call, the owner of that call writes a summary. This creates institutional memory that survives any individual team member's timezone.
 
-## Pattern 5: Hand over at Natural Boundaries
+### Step 8: Pattern 5: Hand over at Natural Boundaries
 
 Don't hand off mid-task if you can avoid it. Handover at natural break points:
 
@@ -172,7 +182,7 @@ Don't hand off mid-task if you can avoid it. Handover at natural break points:
 If you must hand off mid-task, provide your current state explicitly:
 
 ```markdown
-## Mid-Task Handoff
+### Step 9: Mid-Task Handoff
 
 ### Where I stopped
 - Working on `src/handlers/payment.go`
@@ -187,7 +197,7 @@ If you must hand off mid-task, provide your current state explicitly:
 - Consider splitting the handler into smaller functions
 ```
 
-## Building Your Own System
+### Step 10: Build Your Own System
 
 Start with structured documents and time zone awareness. Add automation incrementally based on where your team actually loses context. Track handoff failures—moments when information was lost—and close those gaps.
 
@@ -195,7 +205,7 @@ The goal isn't perfect handoffs. It's reducing context loss enough that your tea
 
 The patterns here work because they treat handoffs as a system problem rather than an individual discipline problem. When the right information is captured automatically at the right time, your team doesn't need to remember everything. The system remembers.
 
-## Implementation Roadmap: Starting with Small Wins
+### Step 11: Implementation Roadmap: Starting with Small Wins
 
 Rolling out handoff systems across distributed teams requires phased adoption. Start with one pattern and expand incrementally as your team builds discipline.
 
@@ -204,7 +214,7 @@ Rolling out handoff systems across distributed teams requires phased adoption. S
 Begin with structured handoff documents. Create a single template and require all engineers to use it for mid-sprint handoffs. Share example handoffs from your strongest engineers to establish patterns.
 
 ```markdown
-## Handoff Checklist
+### Step 12: Handoff Checklist
 [ ] Tests passing locally
 [ ] Commit messages describe changes (not "fixed bug")
 [ ] Edge cases documented in code comments
@@ -229,7 +239,7 @@ Define response time expectations for different communication channels. Document
 
 Once patterns stabilize, introduce automation. A simple bot that scans for incomplete handoffs and reminds engineers Friday afternoon prevents information loss over weekends. Start simple—Python + Slack API takes 30 minutes.
 
-## Real Cost of Handoff Failure
+### Step 13: Real Cost of Handoff Failure
 
 The expense of broken handoffs compounds faster than most teams realize. Consider these scenarios:
 
@@ -255,7 +265,7 @@ These scenarios cost roughly 2-5 hours weekly per engineer on average distribute
 
 Structured handoffs preventing even 50% of these failures pays for the system overhead many times over.
 
-## Tools and Services for Handoff Management
+### Step 14: Tools and Services for Handoff Management
 
 Several tools simplify handoff tracking beyond raw documents and commits:
 
@@ -271,7 +281,7 @@ Several tools simplify handoff tracking beyond raw documents and commits:
 
 For minimal teams, a shared Google Doc with a simple template works fine. The system matters more than the tool.
 
-## Measuring Handoff Success
+### Step 15: Measuring Handoff Success
 
 Track these metrics to understand if your handoff system actually works:
 
@@ -285,7 +295,7 @@ Track these metrics to understand if your handoff system actually works:
 
 Review these metrics monthly. Upward trends signal your handoff system is degrading—usually from skipped documentation as deadline pressure increases. Use trends as permission to revisit patterns with your team.
 
-## Common Pitfalls and How to Avoid Them
+### Step 16: Common Pitfalls and How to Avoid Them
 
 **Pitfall 1: Over-Engineering**
 Teams often create elaborate handoff documents with 15 fields to fill. Adoption fails immediately. Solution: Start with three required fields. Add more only when team feedback suggests you're missing critical information.
@@ -301,6 +311,21 @@ Teams don't track when handoffs go wrong. Without data, they can't improve the s
 
 **Pitfall 5: One-Size-Fits-All**
 Critical production systems might need more detailed handoffs than experimental features. Solution: Create lightweight (5-minute) and (30-minute) templates. Let engineers choose based on context.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -47,7 +47,17 @@ Unstructured mentorship often fails remote interns because there's no ambient ex
 
 A structured mentorship program replaces that ambient exposure with deliberate, documented touchpoints. Instead of hoping your intern learns the codebase through osmosis, you create explicit learning paths with checkpoints and deliverables.
 
-## Building the Mentorship Program Framework
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Build the Mentorship Program Framework
 
 A well-designed remote internship program consists of four core components: onboarding sequence, weekly cadences, project milestones, and feedback loops. Let's examine each.
 
@@ -111,7 +121,7 @@ Regular check-ins prevent problems from compounding. Here's a recommended weekly
 **Weekly Template for Async Updates:**
 
 ```
-## Week X Update
+### Step 2: Week X Update
 
 ### Accomplished
 -
@@ -162,7 +172,7 @@ End-of-internship: Formal review with manager and mentor
 
 **Pair strategically.** Match interns with mentors who have bandwidth, not just seniority. An overwhelmed senior engineer makes a poor mentor.
 
-## Adapting the Template to Your Team
+### Step 3: Adapting the Template to Your Team
 
 Every team has unique needs. Modify this framework by:
 
@@ -174,7 +184,7 @@ The key principle remains constant: structure replaces the ambient learning that
 
 A structured mentorship program requires more upfront planning than ad-hoc onboarding, but the results speak for themselves—interns who contribute meaningfully, mentors who grow through teaching, and teams that scale their knowledge effectively across distance.
 
-## Handling Mentorship Challenges
+### Step 4: Handling Mentorship Challenges
 
 Even well-designed programs hit friction points. Here's how to address common challenges:
 
@@ -190,7 +200,7 @@ This signals that projects lack clarity. Revisit week 5-6 milestones. Break them
 **Challenge: Intern proposes to extend and you cannot hire**
 Plan this conversation early. If you love an intern but cannot extend, start reaching out to companies in your network weeks before their end date. Make warm introductions to recruiters or hiring managers. Help them find their next role actively—your credibility in their success carries enormous weight for their career.
 
-## Scaling Mentorship to Multiple Interns
+### Step 5: Scaling Mentorship to Multiple Interns
 
 When you have 2-3 interns per cycle, maintain structure but reduce redundancy:
 
@@ -223,23 +233,23 @@ Cohort_Mentorship_Model:
 
 This model scales to 4-5 interns without proportionally increasing mentor burden.
 
-## Documentation as Mentorship
+### Step 6: Documentation as Mentorship
 
 The best mentorship combines synchronous interaction with asynchronous documentation. As interns ask questions, capture answers in team wikis:
 
 ```markdown
 # Intern FAQ - Growing document as interns join
 
-## "How do I set up my development environment?"
+### Step 7: "How do I set up my development environment?"
 See: [Setup Guide for macOS/Linux/Windows](setup-guide.md)
 Last updated: 2026-03-01
 
-## "What's the code review process?"
+### Step 8: "What's the code review process?"
 PR workflow: fork → branch → commit → push → open PR → address feedback → merge
 Review SLA: Feedback within 24 hours (working hours)
 See: [Code Review Standards](code-review-standards.md)
 
-## "How do I know if my code is ready to merge?"
+### Step 9: "How do I know if my code is ready to merge?"
 Checklist:
 - [ ] Tests pass locally
 - [ ] Linter passes (run `npm run lint`)
@@ -247,18 +257,18 @@ Checklist:
 - [ ] All feedback addressed
 - [ ] Squash commits before merging
 
-## "Where is the architectural documentation?"
+### Step 10: "Where is the architectural documentation?"
 See: [Architecture Decision Records](adr/)
 Start with ADR-001 for overview
 
-## "What if I break something in production?"
+### Step 11: "What if I break something in production?"
 Don't panic. See: [Incident Response Guide](incident-response.md)
 Reach out to mentor or on-call engineer immediately.
 ```
 
 This documentation answers 80% of intern questions without requiring mentor time.
 
-## Mentoring Across Time Zones
+### Step 12: Mentoring Across Time Zones
 
 For distributed teams with interns in different zones, establish clear timezone boundaries:
 
@@ -282,7 +292,7 @@ def create_mentor_schedule(mentor_tz, intern_tz, sync_minutes=60):
 
 For maximum timezone separation (e.g., San Francisco to Tokyo), you might schedule syncs only 2-3 times weekly and rely heavily on async communication otherwise.
 
-## Alumni Network and Internship Outcomes
+### Step 13: Alumni Network and Internship Outcomes
 
 After interns complete their tenure, maintain relationships. Former interns become:
 
@@ -293,7 +303,7 @@ After interns complete their tenure, maintain relationships. Former interns beco
 
 Create an alumni channel in your Slack and maintain quarterly alumni newsletters. Invite alumni to company events. This builds long-term relationships that strengthen your recruiting pipeline.
 
-## Internship Program Evaluation
+### Step 14: Internship Program Evaluation
 
 After each cohort completes, evaluate program effectiveness:
 
@@ -323,6 +333,21 @@ metrics = {
 ```
 
 Use this data to iterate on your program annually. Successful internship programs improve every cycle because you address feedback systematically.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

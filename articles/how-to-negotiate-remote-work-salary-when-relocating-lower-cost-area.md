@@ -39,13 +39,23 @@ Moving to a cheaper city shouldn't cost you money. Yet many remote workers accep
 - **Based on market data**: my salary should stay at market rate for a senior engineer—roughly $210-240k base depending on our salary bands.
 - **Senior engineers at our**: company in the $240k range stay at $240k regardless of location.
 
-## The Core Principle: Market Rate ≠ Local CoL
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Principle: Market Rate ≠ Local CoL
 
 Here's what employers won't tell you: your comp is based on market rate for your role and performance, not local cost of living. A senior engineer in Austin commands the same salary as a senior engineer in Bozeman. The Austin employee has higher rent; the Bozeman employee has lower rent. Both earn market rate.
 
 When an employer suggests a pay cut for relocation, they're trying to pocket the difference in their budget.
 
-## Salary Data by Role (2026 Market Rates)
+### Step 2: Salary Data by Role (2026 Market Rates)
 
 Use these as anchors for your negotiation. All figures are US-based remote work:
 
@@ -70,7 +80,7 @@ Your actual market rate depends on:
 
 **Important:** If you're moving FROM a high-CoL city (SF, NYC, Boston) TO a lower-CoL city, you have use. Your employer was already paying market rate for your home city. Relocation shouldn't trigger a "cost of living adjustment" in reverse.
 
-## The Negotiation Framework
+### Step 3: The Negotiation Framework
 
 ### Before the Conversation
 
@@ -139,7 +149,7 @@ Your Apply Points:
 
 Document the conversation. Request in writing that they explain which salary band your role falls into and how relocation affects your market rate. This creates a paper trail—if they try to justify a cut, it becomes discoverable if you leave.
 
-## Specific Scenarios and Strategies
+### Step 4: Specific Scenarios and Strategies
 
 ### Scenario 1: Relocating from SF to Austin (High to Medium CoL)
 
@@ -170,7 +180,7 @@ Document the conversation. Request in writing that they explain which salary ban
 
 **Why this works:** Employers can't defend paying two engineers the same salary different amounts based on location. It creates liability and retention problems.
 
-## Compensation Structure to Protect Yourself
+### Step 5: Compensation Structure to Protect Yourself
 
 If your employer insists on some "adjustment," negotiate it into a different component:
 
@@ -181,7 +191,7 @@ If your employer insists on some "adjustment," negotiate it into a different com
 | Reduced title/level | Same title, flat salary | Title affects future earning potential |
 | Verbal agreement on future review | "Trial period" with written guarantee to return to X if not extended | Protects you from permanent cut |
 
-## Real-World Example: Negotiation Transcript
+### Step 6: Real-World Example: Negotiation Transcript
 
 **Context:** Senior engineer, $240k base, SF → Austin, manager is supportive
 
@@ -208,7 +218,7 @@ HR: "We've confirmed your salary will remain at $240k. We don't adjust remote sa
 - You asked for documentation (salary bands)
 - You stayed professional and data-driven
 
-## Red Flags: When to Walk Away
+### Step 7: Red Flags: When to Walk Away
 
 If your employer:
 - Insists on a major pay cut (>10%) for relocation
@@ -219,7 +229,7 @@ If your employer:
 
 → These are signs your employer undervalues you. Start interviewing elsewhere immediately. The job market has plenty of remote roles that pay market rate without the negotiation fight.
 
-## Negotiation Checklist
+### Step 8: Negotiation Checklist
 
 - [ ] Document current market rate using Levels.fyi, Blind, OpenComp
 - [ ] Identify your use (specialization, performance, tenure)
@@ -229,6 +239,21 @@ If your employer:
 - [ ] Request salary bands and market rate data from employer
 - [ ] Get any agreed salary structure in writing before moving
 - [ ] Don't accept "we'll review in 6 months"—get certainty upfront
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

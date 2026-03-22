@@ -42,7 +42,17 @@ Real scenario: your team is in San Francisco (UTC-8), Austin (UTC-6), London (UT
 - **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
 - **The best you can**: do is optimize partial overlap.
 
-## The Core Problem: Synchronous Work Doesn't Scale
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Problem: Synchronous Work Doesn't Scale
 
 Your instinct is to schedule one sync meeting that works for everyone. It doesn't exist. The best you can do is optimize partial overlap.
 
@@ -60,7 +70,7 @@ There is no time where all five are in reasonable working hours (8 AM to 6 PM). 
 
 **Solution: Async-first operations.** Sync meetings happen once weekly for the team to align. Everything else runs async.
 
-## Strategy 1: Async Communication as Default
+### Step 2: Strategy 1: Async Communication as Default
 
 ### Slack/Discord Guidelines
 
@@ -141,7 +151,7 @@ Details: Full migration planned for Q2. Testing environment ready by April 1.
 
 This log prevents re-arguing old decisions.
 
-## Strategy 2: Weekly Synchronous Sync (The One Meeting That Matters)
+### Step 3: Strategy 2: Weekly Synchronous Sync (The One Meeting That Matters)
 
 **One 60-minute meeting per week. Same time. Mandatory.**
 
@@ -167,7 +177,7 @@ Keep it tight. End at 60 minutes. People will love a meeting that respects their
 
 **Recording & Transcript:** Record and transcribe (use Otter, Fireflies, or built-in tools). Post transcript to Slack. People in wrong time zones can catch up asynchronously.
 
-## Strategy 3: Split Team Sync Meetings (For Specific Regions)
+### Step 4: Strategy 3: Split Team Sync Meetings (For Specific Regions)
 
 Not everything needs the whole team. SF and Austin teams have morning overlap (8 AM Austin, 6 AM SF). Berlin and London have afternoon overlap (3 PM Berlin, 2 PM London).
 
@@ -179,7 +189,7 @@ Use split syncs for work that's regional:
 
 This gives regional teams more touchpoints without burning out people in inconvenient zones.
 
-## Strategy 4: Overlap Hours and Office Hours
+### Step 5: Strategy 4: Overlap Hours and Office Hours
 
 Designate office hours. "Berlin team is on a daily 9-10 AM call available for questions. Delhi team is on a Slack call 8-9 PM for real-time debugging."
 
@@ -194,7 +204,7 @@ Make it clear these are optional for observers but encouraged. Someone from SF w
 
 People check the office hours calendar and join if they have questions. Real-time, but optional.
 
-## Strategy 5: Async Code Review and CI/CD
+### Step 6: Strategy 5: Async Code Review and CI/CD
 
 Don't wait for synchronous code review. Use async review tools:
 
@@ -211,7 +221,7 @@ This prevents the "I'm waiting for review" blocker.
 
 **Deployment windows:** Deploy during overlap hours. If you deploy at 3 PM London (when 4 people are online), you have immediate help if something breaks. Don't deploy at 6 AM SF when only SF is awake and everyone else can't help.
 
-## Strategy 6: Rotating Responsibilities
+### Step 7: Strategy 6: Rotating Responsibilities
 
 Distribute on-call, meeting facilitation, and standby across time zones instead of concentrating it.
 
@@ -230,7 +240,7 @@ Everyone is on-call ~2 weeks per quarter, not 2 weeks every 5 weeks. Fairer dist
 **Meeting facilitation:**
 Rotate who runs the weekly global sync. Delhi team leads the call once monthly. SF team leads once monthly. This shares the burden of agenda-setting and time-zone awkwardness.
 
-## Strategy 7: Async Standups
+### Step 8: Strategy 7: Async Standups
 
 Replace daily standups with async check-ins posted in a dedicated Slack channel.
 
@@ -246,7 +256,7 @@ Scan the channel in the morning (London does at 2 PM London time, which is 6 AM 
 
 If someone is blocked, they flag it. Owner of the blocker responds within 4 hours. Works async without meetings.
 
-## Strategy 8: Timezone-Friendly Scheduling Tools
+### Step 9: Strategy 8: Timezone-Friendly Scheduling Tools
 
 Use tools that show everyone's timezone:
 
@@ -256,7 +266,7 @@ Use tools that show everyone's timezone:
 
 Before scheduling any meeting, check these tools. Don't schedule at 9 PM for anyone without a very good reason.
 
-## Strategy 9: Transparent Async Decision-Making
+### Step 10: Strategy 9: Transparent Async Decision-Making
 
 When someone makes a decision async (e.g., "We're using Postgres for this service"), document it and give people 24 hours to object.
 
@@ -272,7 +282,7 @@ Objections? Reply here.
 
 After 24 hours, unless there are serious objections, it's decided. This keeps things moving without waiting weeks for a meeting.
 
-## Strategy 10: Timezone Awareness in Hiring and Compensation
+### Step 11: Strategy 10: Timezone Awareness in Hiring and Compensation
 
 When hiring globally, set expectations:
 
@@ -280,7 +290,7 @@ When hiring globally, set expectations:
 - **Hours:** State clearly. "Core hours are 12 PM-6 PM London time" or "You set your own hours as long as you overlap with global sync once weekly."
 - **Travel:** If you want occasional in-person meetings, budget for it. Delhi to London is expensive. Offer annual travel budget.
 
-## Practical Workflow Example
+### Step 12: Practical Workflow Example
 
 **Monday:**
 - 7 AM SF: Delhi team posts async standup
@@ -321,7 +331,7 @@ This pattern repeats. Work flows around the clock because async communications a
 
 7. **Underestimating response time.** Planning a 24-hour decision window when half your team sleeps during that window won't work. Use 48 hours instead.
 
-## Tools That Help
+### Step 13: Tools That Help
 
 - **Slack:** For async communication with threads
 - **GitHub/GitLab:** For async code review
@@ -331,7 +341,7 @@ This pattern repeats. Work flows around the clock because async communications a
 - **Calendly:** For timezone-aware scheduling
 - **Otter.ai:** For meeting transcription
 
-## Metrics to Track
+### Step 14: Metrics to Track
 
 Monitor your team's health:
 
@@ -340,7 +350,7 @@ Monitor your team's health:
 - **On-call alert response:** How long to acknowledge a production alert? Target: < 15 min on average.
 - **Team satisfaction:** Poll quarterly on meeting load and timezone awkwardness. Adjust based on feedback.
 
-## Final Guidance
+### Step 15: Final Guidance
 
 5+ timezones is hard, but it's solved with:
 
@@ -353,6 +363,21 @@ Monitor your team's health:
 If you do these, your distributed team will actually outpace co-located teams. Async communication forces clarity. Written decisions prevent misunderstandings. No meeting culture means more time for actual work.
 
 Start by implementing async standups and a weekly global sync. Add office hours next. Once that's working, optimize further. Don't try to do everything at once—build the culture incrementally.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

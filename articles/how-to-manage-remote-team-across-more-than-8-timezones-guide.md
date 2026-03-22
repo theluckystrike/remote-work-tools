@@ -46,7 +46,17 @@ Managing teams across 8+ timezones requires fundamentally different operational 
 - **Teams executing this well**: move faster than single-timezone teams because context is captured, decisions are documented, and knowledge compounds.
 - **Decision process for non-critical**: decisions (turnaround time: 48 hours): 1.
 
-## The 8+ Timezone Reality
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The 8+ Timezone Reality
 
 With team members spanning Mumbai (UTC+5:30) to San Francisco (UTC-8), that's a 13.5-hour difference. There's no natural overlap where everyone's awake during normal working hours.
 
@@ -63,7 +73,7 @@ Overlap windows:
 
 Reality: Everyone has a window where they're productive, but those windows don't align. Traditional synchronous team meetings don't work.
 
-## Building an Async-First Culture
+### Step 2: Build an Async-First Culture
 
 The most successful 8+ timezone teams treat synchronous communication as a premium resource to be used strategically, not as the default.
 
@@ -182,7 +192,7 @@ Even with 8+ timezones, small overlap windows exist. Use them strategically.
 
 The rule: "If this could be written, write it. Only meet if talking is more efficient than writing."
 
-## Communication Norms for Async Teams
+### Step 3: Communication Norms for Async Teams
 
 ### Response Time Expectations
 
@@ -238,7 +248,7 @@ With rotation, no single person is consistently disadvantaged.
 - When cross-timezone meetings are needed, rotate timing
 - Record all meetings for async viewing
 
-## Practical Tooling for 8+ Timezone Teams
+### Step 4: Practical Tooling for 8+ Timezone Teams
 
 ### Task Management with Timezone Context
 
@@ -311,7 +321,7 @@ Minimum sections:
 4. Decision log (major decisions with reasoning)
 5. Current projects (status of active work)
 
-## Example Weekly Structure for 8+ Timezone Team
+### Step 5: Example Weekly Structure for 8+ Timezone Team
 
 ### Monday (Europe/US overlap window)
 - 1 all-hands meeting in Europe morning / US morning
@@ -328,7 +338,7 @@ Minimum sections:
 - Europe has opportunity to read/respond to their work
 - Async weekly updates written up (what we shipped, what's next, blockers)
 
-## Avoiding Common Pitfalls
+### Step 6: Avoiding Common Pitfalls
 
 ### Pitfall 1: Favoring Synchronous Over Async
 
@@ -354,7 +364,7 @@ Minimum sections:
 
 **Solution:** Document decisions, architecture, processes, and context. Don't document every brainstorm or conversation. Aim for "someone joining now should understand context in 2 hours of reading."
 
-## Metrics for Timezone-Distributed Teams
+### Step 7: Metrics for Timezone-Distributed Teams
 
 **Track these to ensure async-first is working:**
 
@@ -375,7 +385,7 @@ Minimum sections:
 
 If decisions are taking > 72 hours, team isn't doing async well. If people are attending 3+ meetings per week outside core hours, schedule is broken.
 
-## Hiring for Timezone-Distributed Teams
+### Step 8: Hiring for Timezone-Distributed Teams
 
 Async-first teams require different skills than co-located teams.
 
@@ -392,7 +402,7 @@ Async-first teams require different skills than co-located teams.
 
 Async-first culture is a feature, not a bug. It attracts people who like autonomy and work-life balance. It repels people who need constant collaboration and real-time interaction.
 
-## The Outcome: Why It Works
+### Step 9: The Outcome: Why It Works
 
 Teams that execute async-first well across 8+ timezones move faster than single-timezone teams because:
 
@@ -402,6 +412,21 @@ Teams that execute async-first well across 8+ timezones move faster than single-
 4. **Less meeting overhead:** Team spends 5 hours/week in meetings vs. 15+ hours in traditional models
 
 The tradeoff is that building async-first culture requires discipline. It's easier to default to synchronous, easier to skip documentation, easier to call a meeting than write it up. Teams that can sustain the discipline move at remarkable speed despite (or because of) the timezone spread.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

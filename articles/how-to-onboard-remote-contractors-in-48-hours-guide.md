@@ -39,7 +39,17 @@ Rapid contractor onboarding is a competitive advantage for distributed teams. Th
 - **Topics covered**: pre-arrival setup (before contractor starts), day -1: infrastructure setup, day -1: documentation package
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Pre-Arrival Setup (Before Contractor Starts)
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Pre-Arrival Setup (Before Contractor Starts)
 
 Preparation begins the moment a contractor accepts an offer. Prepare the digital workspace before their first login.
 
@@ -129,7 +139,7 @@ Template to store in Google Drive:
 ```markdown
 # Day 1 Onboarding Guide for {{ contractor_name }}
 
-## Welcome!
+### Step 2: Welcome!
 We're excited to have you start on {{ start_date }}.
 
 Your manager: {{ manager_name }} (@{{ slack_handle }})
@@ -171,7 +181,7 @@ Thanks,
 [Manager]
 ```
 
-## Hour 1-2: Welcome and Tool Setup
+### Step 3: Hour 1-2: Welcome and Tool Setup
 
 ### Arrival Protocol (08:00-09:00 AM)
 
@@ -241,7 +251,7 @@ Conduct a 30-minute call covering these topics. Assign homework for each:
 | Figma | Design (if needed) | Free-$12/month | 1 min |
 | Zoom | Synchronous calls | Free-$199/month | 1 min |
 
-## Hour 2-6: First Task and Code Review
+### Step 4: Hour 2-6: First Task and Code Review
 
 ### Task Selection
 
@@ -302,7 +312,7 @@ One thing: wrap the database call in a try/catch
 No blockers—just a consistency thing.
 ```
 
-## Hour 6-24: Independent Work + Office Hours
+### Step 5: Hour 6-24: Independent Work + Office Hours
 
 ### Afternoon Productivity (12:00-17:00 PM, Day 1)
 
@@ -330,7 +340,7 @@ Contractor completes first task and opens PR.
 - Confidence level with codebase
 - Next assignment (usually 2-3 tasks worth 2-4 hours each)
 
-## Day 2 Afternoon: Rapid Scaling
+### Step 6: Day 2 Afternoon: Rapid Scaling
 
 By Day 2 afternoon, contractor should:
 - Understand repository layout
@@ -353,7 +363,7 @@ Contractor prioritizes and works through them with minimal blocking.
 - Contractor knows Slack and GitHub workflows
 - Contractor knows who to ask for different types of help
 
-## Complete 48-Hour Onboarding Checklist
+### Step 7: Complete 48-Hour Onboarding Checklist
 
 ### Pre-Arrival (Day -1)
 
@@ -403,7 +413,7 @@ Contractor prioritizes and works through them with minimal blocking.
 - [ ] First week's work planned
 - [ ] Off-boarding plan confirmed (if contract has end date)
 
-## Tools That Accelerate Onboarding
+### Step 8: Tools That Accelerate Onboarding
 
 **Automated Onboarding Platforms:**
 - **Workday/BambooHR** ($10-20/user/month): Workflow-based onboarding
@@ -425,7 +435,7 @@ Actions:
 4. Notify buddy it's onboarding day
 ```
 
-## Measuring Onboarding Success
+### Step 9: Measuring Onboarding Success
 
 Track these metrics for improvements:
 
@@ -448,7 +458,7 @@ Track these metrics for improvements:
 - Buddy time invested: Target 3-4 hours
 - IT time invested: Target < 1 hour
 
-## Common Delays and Solutions
+### Step 10: Common Delays and Solutions
 
 **Problem: Contractor can't access GitHub on first day**
 - Solution: Pre-test all account provisioning on Day -1; have IT standby
@@ -466,7 +476,7 @@ Track these metrics for improvements:
 - Solution: Manager explicitly tells contractor: "It's expected you'll have questions. Slack immediately."
 - Prevention: Normalize help-seeking in first meeting
 
-## Cost Analysis of 48-Hour Onboarding
+### Step 11: Cost Analysis of 48-Hour Onboarding
 
 Typical cost for one contractor:
 
@@ -484,7 +494,7 @@ Benefits achieved:
 
 ROI: For a 12-week contractor ($15K cost), shaving 2 weeks off ramp-up is a 17% efficiency gain.
 
-## Extensions for Different Contractor Types
+### Step 12: Extensions for Different Contractor Types
 
 **For Designers:**
 - Add Figma account + design system walkthrough
@@ -500,6 +510,21 @@ ROI: For a 12-week contractor ($15K cost), shaving 2 weeks off ramp-up is a 17% 
 - Add Salesforce/HubSpot access
 - First task: Customer outreach using template
 - Buddy: Experienced CS team member
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

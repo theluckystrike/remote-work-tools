@@ -48,7 +48,17 @@ Use annotation tools**: Most screen sharing software allows you to draw on scree
 
 Solution (45 seconds)**: "We've unified the checkout to capture all information in a single form.
 
-## Understanding Your Audience
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Your Audience
 
 Non-technical clients care about business outcomes, not implementation details. They want to see their money producing results that solve their problems. Before any demo, answer these questions:
 
@@ -58,7 +68,7 @@ Non-technical clients care about business outcomes, not implementation details. 
 
 A client running an e-commerce business cares about checkout flow improvements, not the refactored API endpoints that enable them. Translate every feature into business value.
 
-## Structuring Your Demo
+### Step 2: Structuring Your Demo
 
 A well-structured demo follows a clear narrative arc. Use this framework for each sprint presentation:
 
@@ -119,7 +129,7 @@ End with open-ended questions:
 
 This turns the demo into a conversation rather than an one-way presentation.
 
-## Handling Technical Questions
+### Step 3: Handling Technical Questions
 
 Clients occasionally ask technical questions. When they do, bridge back to business value:
 
@@ -129,7 +139,7 @@ You: "We're using PostgreSQL, which is highly reliable and keeps your customer d
 
 This satisfies their curiosity while reinforcing trust in your technical decisions.
 
-## Practical Demo Preparation Checklist
+### Step 4: Practical Demo Preparation Checklist
 
 Before each demo, verify these items:
 
@@ -160,7 +170,7 @@ Solution: Maintain a glossary of terms the client understands. When in doubt, si
 Mistake 4: Ignoring the human element
 Solution: Begin and end with genuine conversation. Ask about their week, share updates about the project team, build relationship
 
-## Making Remote Demos Engaging
+### Step 5: Making Remote Demos Engaging
 
 Remote presentations require extra effort to maintain engagement. Consider these techniques:
 
@@ -198,7 +208,7 @@ Say: "We improved how quickly the product list loads. Think of it like reorganiz
 
 Your client doesn't need to understand caching; they need to understand the customer benefit.
 
-## Handling Difficult Client Questions
+### Step 6: Handling Difficult Client Questions
 
 Some questions reveal deeper concerns beneath the surface. Address the underlying worry:
 
@@ -218,7 +228,7 @@ This answer educates the client and prevents the perception that your team is in
 
 This shows strategic thinking and prevents scope creep from misunderstandings.
 
-## Demo Preparation Beyond Slides
+### Step 7: Demo Preparation Beyond Slides
 
 Brilliant slides matter less than a well-rehearsed demo.
 
@@ -249,7 +259,7 @@ echo ""
 echo "DO NOT PRESENT UNTIL ALL ITEMS CHECKED"
 ```
 
-## Managing Client Expectations Between Demos
+### Step 8: Manage Client Expectations Between Demos
 
 Demos shouldn't be first time clients hear about progress. Maintain visibility throughout the sprint:
 
@@ -284,7 +294,7 @@ You: "That's a great idea. Gift cards would absolutely add value. Let me add it 
 
 This approach prevents overcommitting and shows you take requests seriously without derailing your planning.
 
-## Following Up After the Demo
+### Step 9: Following Up After the Demo
 
 The demo doesn't end when the call disconnects. Send a follow-up email within 24 hours containing:
 
@@ -320,6 +330,21 @@ Thanks for your feedback on the checkout flow redesign!
 ```
 
 This follow-up keeps clients engaged and ensures alignment on next steps.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
