@@ -300,9 +300,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Notion Setup for Solo Freelancer Managing 5 Clients](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
-- [Notion API Integration Returning 502 Errors Fix (2026)](/remote-work-tools/notion-api-integration-returning-502-errors-fix-2026/)
+- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
 - [Fibery vs Notion: All-in-One Workspace Comparison](/remote-work-tools/fibery-vs-notion-all-in-one-workspace-comparison/)
+- [Notion API Integration Returning 502 Errors Fix (2026)](/remote-work-tools/notion-api-integration-returning-502-errors-fix-2026/)
 - [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
-- [Notion Habit Tracker Template for Developers](/remote-work-tools/notion-habit-tracker-template-for-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

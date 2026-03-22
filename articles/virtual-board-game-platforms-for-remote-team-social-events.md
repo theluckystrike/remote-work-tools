@@ -283,7 +283,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
 - [Best Virtual Office Platforms for Remote Teams 2026](/remote-work-tools/best-virtual-office-platforms-for-remote-teams-2026/)
 - [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-- [Best Virtual Whiteboard for Remote Team Brainstorming](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
+- [Virtual Happy Hour Alternatives for Remote Teams](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

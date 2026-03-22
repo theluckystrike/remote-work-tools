@@ -15,7 +15,7 @@ tags: [remote-work-tools, tools]
 ---
 ---
 layout: default
-title: "Set up calendar service"
+title: "Elder Care and Remote Work: A Practical Guide"
 description: "A practical guide for developers and power users balancing remote work with elder care responsibilities. Includes automation scripts, scheduling"
 date: 2026-03-16
 last_modified_at: 2026-03-16

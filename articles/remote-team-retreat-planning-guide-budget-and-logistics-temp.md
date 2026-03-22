@@ -9,7 +9,7 @@ permalink: /remote-team-retreat-planning-guide-budget-and-logistics-temp/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-retreat, budget-planning, logistics, team-building]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -377,8 +377,7 @@ jobs:
 - [How to Organize Remote Team Playbook Documentation for](/remote-work-tools/how-to-organize-remote-team-playbook-documentation-for-repea/)
 - [Remote Work Playbook Template for Startups](/remote-work-tools/remote-work-playbook-template-for-startups/)
 - [Best Tools for Remote Team Incident Postmortems in 2026](/remote-work-tools/best-tools-for-remote-team-incident-postmortems-2026/)
-- [Best Tools for Remote Incident Management](/remote-work-tools/best-tools-for-remote-incident-management/)
-
+- [How to Create Remote Team Runbook Templates](/remote-work-tools/how-to-create-remote-team-runbook-templates/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

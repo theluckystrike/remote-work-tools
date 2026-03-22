@@ -291,10 +291,10 @@ Some organizations pay an on-call stipend per shift. Others offer compensatory t
 
 ## Related Articles
 
-- [.GitHub/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
 - [How to Set Up Remote Team On-Call Rotation 2026](/remote-work-tools/how-to-set-up-remote-team-on-call-rotation-2026/)
-- [Best Project Management Tools with GitHub Integration](/remote-work-tools/best-project-management-tools-with-github-integration/)
-- [Remote Work Tools: All Guides and Reviews](/remote-work-tools/guides-hub/)
-- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
+- [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
+- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
+- [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

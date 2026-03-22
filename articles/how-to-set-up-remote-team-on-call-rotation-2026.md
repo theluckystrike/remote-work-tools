@@ -364,11 +364,11 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ## Related Articles
 
+- [On-Call Burden Tracking Tools for Remote Teams](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 - [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
 - [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
 - [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
-- [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

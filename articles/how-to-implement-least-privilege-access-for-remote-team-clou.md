@@ -340,6 +340,6 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
 - [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
 - [Best Privileged Access Management Tool for Remote IT Admins](/remote-work-tools/best-privileged-access-management-tool-for-remote-it-admins-/)
-- [Identity and Access Management Platform Comparison](/remote-work-tools/identity-and-access-management-platform-comparison-for-remot/)
+- [Manage Client Access Permissions for Remote Teams](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

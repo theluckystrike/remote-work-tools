@@ -290,6 +290,6 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
 - [Weekly Wins Channel Setup and Facilitation for Remote Team](/remote-work-tools/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
 - [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
-- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
+- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

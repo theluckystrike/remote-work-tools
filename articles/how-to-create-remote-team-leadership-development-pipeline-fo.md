@@ -289,7 +289,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 - [How to Create Remote Team Skip Level Meeting Program](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
 - [How to Set Up Remote Team Learning and Development Program](/remote-work-tools/how-to-set-up-remote-team-learning-and-development-program-2026/)
-- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

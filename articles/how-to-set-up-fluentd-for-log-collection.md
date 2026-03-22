@@ -407,12 +407,11 @@ curl http://localhost:24220/api/plugins.json \
 
 ## Related Articles
 
+- [How to Set Up Vector for Log Processing](/remote-work-tools/how-to-set-up-vector-for-log-processing/)
 - [Optimize Docker for Slow Connections When Working Remotely](/remote-work-tools/docker-optimize-slow-connection-remote-work/)
 - [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
 - [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
 - [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
-- [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

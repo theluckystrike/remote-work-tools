@@ -358,8 +358,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
 - [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
-- [How to Set Up a Home Office Recording Studio](/remote-work-tools/how-to-set-up-home-office-recording-studio/)
 - [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
 - [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
+- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -415,8 +415,8 @@ Docusaurus and MkDocs require familiarity with Markdown and basic command-line t
 ## Related Articles
 
 - [Best Documentation Linting Tool for Remote Teams](/remote-work-tools/best-documentation-linting-tool-for-remote-teams-enforcing-w/)
+- [Virtual Happy Hour Alternatives for Remote Teams](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
 - [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
 - [Best Chat Platforms for Remote Engineering Teams](/remote-work-tools/best-chat-platforms-remote-engineering-teams/)
 - [Best Knowledge Base Search Tool for Remote Teams with Docs](/remote-work-tools/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
-- [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -242,6 +242,6 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 - [How to Set Up Remote Team Peer Feedback Process](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
-- [Remote Team Manager Peer Feedback Exchange Template](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

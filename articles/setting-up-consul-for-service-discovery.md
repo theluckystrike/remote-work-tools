@@ -401,7 +401,6 @@ consul kv import @kv-backup.json
 - [Remote Agency Client Data Security Compliance Checklist](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
 - [Setting Up pgBouncer for Connection Pooling](/remote-work-tools/setting-up-pgbouncer-for-connection-pooling/)
 - [Setting Up a Remote Dev Server with Hetzner](/remote-work-tools/setting-up-remote-dev-server-with-hetzner/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

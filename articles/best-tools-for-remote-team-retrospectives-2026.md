@@ -467,6 +467,6 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
 - [Best Tools for Remote Team Sprint Retrospective Boards 2026](/remote-work-tools/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
 - [Asynchronous Team Retrospective Tools Methods Process](/remote-work-tools/asynchronous-team-retrospective-tools-methods-process/)
-- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

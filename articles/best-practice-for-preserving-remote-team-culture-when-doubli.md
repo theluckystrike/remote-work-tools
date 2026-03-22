@@ -252,8 +252,8 @@ Track trends over time. A dropping eNPS during a hiring wave signals cultural er
 - [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
 - [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 - [How to Build Remote Team Culture Without Mandatory Fun](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
-- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

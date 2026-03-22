@@ -422,8 +422,8 @@ Detailed reports get faster resolution than generic "it doesn't work" submission
 
 ## Related Articles
 
-- [Slack Workflow Builder Automation Stopped Running Fix 2026](/remote-work-tools/slack-workflow-builder-automation-stopped-running-fix-2026/)
 - [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
+- [Slack Workflow Builder Automation Stopped Running Fix 2026](/remote-work-tools/slack-workflow-builder-automation-stopped-running-fix-2026/)
 - [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
 - [Best Slack Alternatives for Small Teams in 2026](/remote-work-tools/best-slack-alternatives-for-small-teams/)
 - [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)

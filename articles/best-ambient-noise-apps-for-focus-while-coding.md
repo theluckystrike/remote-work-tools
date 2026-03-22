@@ -352,6 +352,6 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
 - [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
 - [Best Noise Canceling Earbuds for Remote Work 2026](/remote-work-tools/best-noise-canceling-earbuds-for-remote-work-2026/)
-- [How to Create Distraction Free Workspace at Home](/remote-work-tools/how-to-create-distraction-free-workspace-at-home/)
+- [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

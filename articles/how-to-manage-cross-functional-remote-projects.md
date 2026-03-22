@@ -377,8 +377,8 @@ The PM community at Lenny's Newsletter and the Remote-how community are good res
 ## Related Articles
 
 - [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
+- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
 - [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
-- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
-- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

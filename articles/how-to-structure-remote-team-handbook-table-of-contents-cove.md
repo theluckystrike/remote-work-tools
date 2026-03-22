@@ -15,7 +15,7 @@ tags: [remote-work-tools, remote-work]
 ---
 ---
 layout: default
-title: "Remote Team Handbook"
+title: "Remote Team Handbook: Structure and Template"
 description: "Structure your remote handbook with these 10 core sections in order: Welcome & Mission → Communication Norms → Work Schedule & Time Tracking → Performance"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -253,8 +253,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [How to Structure Remote Team Handbook: Policies, Processes](/remote-work-tools/how-to-structure-remote-team-handbook-covering-policies-proc/)
 - [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
-- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
 - [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -338,9 +338,9 @@ Trying to change everything at once. Pick one or two practices, implement them w
 ## Related Articles
 
 - [Remote Working Parent Burnout Prevention Checklist](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [Elder Care and Remote Work: A Practical Guide](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
 - [Remote Working Parent Support Group Template for Distributed](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
 - [Best Meal Delivery Service Comparison for Remote Working](/remote-work-tools/best-meal-delivery-service-comparison-for-remote-working-fam/)
 - [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
-- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

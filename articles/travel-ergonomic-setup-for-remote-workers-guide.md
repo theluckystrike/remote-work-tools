@@ -271,6 +271,6 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
 - [Ergonomic Laptop Stand for Remote Workers](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
 - [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
-- [Remote Work VoIP Setup for Home Offices](/remote-work-tools/remote-work-voip-setup-for-home-offices/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

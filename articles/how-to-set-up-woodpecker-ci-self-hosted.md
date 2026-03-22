@@ -339,10 +339,9 @@ steps:
 
 - [How to Set Up Drone CI for Remote Teams](/remote-work-tools/how-to-set-up-drone-ci-for-remote-teams/)
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
+- [Best Project Management Tools with GitHub Integration](/remote-work-tools/best-project-management-tools-with-github-integration/)
 - [Best Tools for Remote Team Feature Flags](/remote-work-tools/best-tools-remote-team-feature-flags/)
 - [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

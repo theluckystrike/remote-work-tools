@@ -9,7 +9,7 @@ permalink: /remote-team-growth-stage-communication-audit-identifying-bot/
 categories: [guides]
 tags: [remote-work-tools, remote-work, communication, team-growth, bottleneck-analysis, async-communication, distributed-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

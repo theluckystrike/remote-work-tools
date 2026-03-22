@@ -236,9 +236,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [Remote Employee Performance Improvement Plan Guide](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
 - [Best Compliance Tool for Managing Remote Employees](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
 - [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
 - [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
