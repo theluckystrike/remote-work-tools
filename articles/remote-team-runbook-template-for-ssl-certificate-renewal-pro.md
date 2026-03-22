@@ -9,7 +9,7 @@ permalink: /remote-team-runbook-template-for-ssl-certificate-renewal-pro/
 categories: [guides]
 tags: [remote-work-tools, ssl, certificates, security, infrastructure, remote-work, devops]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
