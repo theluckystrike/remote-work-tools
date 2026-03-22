@@ -187,19 +187,148 @@ The security stack should integrate with your identity provider, IT ticketing sy
 **Scalable Pricing**
 Personal device security often scales with headcount rather than device count. Look for pricing models that reflect the reality of BYOD—employees might use 2-3 devices each.
 
+## Endpoint Security Tool Comparison
+
+| Feature | Jamf (Apple) | Intune (Microsoft) | Kandji | JumpCloud |
+|---------|-------------|------------------|--------|-----------|
+| **Platforms** | macOS only | Windows, macOS | macOS, iOS | Multi-platform |
+| **Zero Trust** | Via separate tool | Conditional Access | Built-in | Built-in |
+| **Cost/Device** | $5-15/mo | $6-18/mo | $8-12/mo | $5-10/mo |
+| **Setup Time** | 30 minutes | 45 minutes | 20 minutes | 1 hour |
+| **EDR Capable** | Limited | Limited | Limited | Limited |
+| **Small Team Fit** | Good | Good | Excellent | Very good |
+
+For teams under 20, Kandji and JumpCloud offer the best balance of features, ease, and affordability.
+
+## Configuration Template: Practical BYOD Policy
+
+Here's a policy that balances security with employee autonomy:
+
+```markdown
+# BYOD Security Policy (Practical Version)
+
+## Device Requirements
+- [x] Device encryption required
+- [x] Biometric or PIN lock required
+- [x] Auto-lock after 10 minutes
+- [x] MDM enrollment required
+- [x] Minimum OS version must be current - 1
+
+## What We Monitor
+✓ Device enrollment status
+✓ Encryption status
+✓ OS updates (outdated OS = access revoked)
+✗ Application usage (we won't check this)
+✗ Web browsing history (we won't check this)
+✗ Personal files or photos (we won't check this)
+
+## Data Protection
+- Work email: Containerized in Outlook or Gmail container
+- VPN required for access to internal resources
+- Sensitive files: OneDrive with encryption
+- Code: GitHub/GitLab SSO only, no local copies
+
+## Consequences
+- Non-compliant device: 48-hour grace period to remediate
+- After 48 hours: VPN access revoked (can't access work resources)
+- After 1 week: Device moved to "non-compliant" list
+- After 2 weeks: Device can be managed more strictly
+
+## Employee Rights
+- Personal apps/data remain private
+- We won't inspect personal information
+- Device data stays on your personal device after employment
+- We provide $200/year device security credit
+```
+
+This policy clearly separates what you monitor from what you respect as personal.
+
+## Deployment Sequence for Small Teams
+
+| Week | Action | Reason |
+|------|--------|--------|
+| Week 1 | Announce policy + 30-day grace | Time to prepare, device updates |
+| Week 2 | Send enrollment links | Early adopters start process |
+| Week 3 | Reminder to leadership | Ensure visibility |
+| Week 4 | Final reminder + support | Catch stragglers |
+| Week 5 | Enforce: Non-compliant = no VPN | Real consequences begin |
+
+Gradual enforcement beats sudden strict implementation.
+
+## Incident Response Workflow
+
+When a device is compromised or lost:
+
+```markdown
+# Device Incident Response
+
+## Device Lost or Stolen
+1. User immediately contacts IT
+2. IT remotely locks device
+3. IT initiates remote wipe (after confirmation)
+4. MDM removes device from inventory
+5. User receives replacement device
+
+## Suspected Compromise
+1. User reports suspicious activity
+2. IT isolates device from network
+3. EDR collects forensic data (if available)
+4. Device sent for analysis OR wiped and reconfigured
+5. Incident reviewed in security team meeting
+
+## Response Time Targets
+- Device lockdown: < 1 hour
+- Notification to user: < 24 hours
+- Forensic analysis: < 48 hours
+- Remediation: < 5 business days
+```
+
+Documented incident response prevents panic and confusion.
+
 ## Making the Trade-offs
 
 No solution perfectly balances security and convenience. BYOD inherently involves trade-offs:
 
-Security vs. Privacy: More invasive monitoring provides better security but erodes employee trust. Find solutions that maximize security within privacy-preserving boundaries.
+**Security vs. Privacy:** More invasive monitoring provides better security but erodes employee trust. Find solutions that maximize security within privacy-preserving boundaries.
 
-Control vs. Adoption: Strict device requirements increase security but decrease enrollment rates. Consider what requirements are truly necessary versus nice-to-have.
+**Control vs. Adoption:** Strict device requirements increase security but decrease enrollment rates. Consider what requirements are truly necessary versus nice-to-have.
 
-Cost vs. Coverage: solutions cost more but provide better protection. Start with essential protections and layer additional security as budget allows.
+**Cost vs. Coverage:** Comprehensive solutions cost more but provide better protection. Start with essential protections and layer additional security as budget allows.
 
 The best endpoint security solution for remote employees using personal devices is one your team will actually use. A deployed, moderate solution outperforms an ideal, unenforced one every time.
----
+**Mobile vs. Desktop:** Personal phones need different security approaches than laptops. Don't over-secure phones (limits usability) or under-secure laptops (increases risk).
 
+The best endpoint security solution for remote employees using personal devices is one your team will actually use. A deployed, moderate solution outperforms an ideal, unenforced one every time. Focus on policies that people accept rather than controls that breed resentment.
+
+## Monitoring and Adjustment
+
+Review your endpoint security setup quarterly:
+
+```markdown
+# Quarterly Security Review
+
+## Questions to Ask
+- What actual threats has the solution prevented?
+- Have we had any security incidents?
+- Are employees complaining about restrictions?
+- Is enrollment rate 100% or should we investigate non-compliant devices?
+- Are we using all the features we're paying for?
+
+## Metric Tracking
+- Enrollment rate: Target > 95%
+- Compliance rate: Target > 90%
+- Time to remediate non-compliance: Target < 5 days
+- Incident response time: Track as audit trail
+
+## Adjustments
+If enrollment is <95%: Policy is too strict or tool is too difficult
+If compliance is <90%: Requirements are misaligned with actual work needs
+If users complain constantly: Recalibrate monitoring to reduce intrusion
+```
+
+Regular reviews prevent security theater (restrictions without real protection) and over-engineering.
+
+---
 
 ## Frequently Asked Questions
 

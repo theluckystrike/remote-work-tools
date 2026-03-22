@@ -202,6 +202,121 @@ Here's what to tackle first:
 5. [ ] Test your video call setup
 6. [ ] Create one work-only ritual
 
+## Workflow Templates for Studio Office Setup
+
+Here are proven templates for studio home office workflows:
+
+### Morning Routine Template
+
+```markdown
+# Morning Work Routine (Studio Home Office)
+
+## 6:30-7:00 AM: Pre-Work
+- Wake up, basic shower/grooming
+- Breakfast away from desk (kitchen zone)
+- Avoid checking email
+
+## 7:00 AM: Transition
+- Change into work clothes or put on "work layer"
+- Move to work zone
+- Set phone to silent, close non-work apps
+- Review calendar for the day
+
+## 7:00-12:00 PM: Deep Work Block
+- Focus on one significant project
+- Minimize notifications
+- Take one 10-minute break at 9:00 AM
+- Stand/stretch at 11:00 AM
+
+## 12:00-1:00 PM: Lunch
+- Eat away from desk (kitchen or outside)
+- Actually break from work
+- Don't check work messages
+```
+
+Following a template reduces decision fatigue and creates consistency that helps your brain transition.
+
+### Midday Context Switch
+
+When you can't physically walk away from your desk, create a mini context switch:
+
+```bash
+#!/bin/bash
+# midday-break.sh — 10-minute reset during lunch
+
+# Close all work apps
+osascript -e 'quit app "Slack"'
+osascript -e 'quit app "Terminal"'
+osascript -e 'quit app "VS Code"'
+
+# Open a playlist or podcast
+open "spotify:playlist:relax"
+
+# Set do-not-disturb
+defaults write com.apple.controlcenter DoNotDisturb -bool true
+
+# Create visual boundary
+echo "Take a real lunch break. Step away from desk." | say
+
+# Re-enable at 1:00 PM
+sleep 600
+defaults write com.apple.controlcenter DoNotDisturb -bool false
+```
+
+Small scripts like this make micro-breaks feel deliberate rather than accidental.
+
+## Advanced Studio Office Setup
+
+For those serious about optimizing studio home office productivity:
+
+### Vertical Storage Optimization
+
+Studio apartments demand intelligent vertical use:
+
+```markdown
+## Vertical Storage Strategy
+
+### Wall Space Allocation (using 8' wall)
+- 0-2 ft: Power strips and cable management
+- 2-4 ft: Floating desk or shelving
+- 4-6 ft: Monitor arm or additional storage
+- 6-8 ft: Additional shelving or decorative elements
+
+### Recommended Setup
+- Floating desk: 2ft depth, 4-5ft width
+- Monitor arm: Saves 12" of desk depth
+- Wall-mounted cable tray: Organizes cables above desk
+- Pegboard: Stores frequently accessed items
+```
+
+This approach makes a 6x6 ft work zone feel spacious rather than cramped.
+
+### Lighting Configuration for Zones
+
+Different zones need different lighting. Create distinct lighting signatures:
+
+```yaml
+lighting_zones:
+  work_zone:
+    ambient: "4000K cool white ceiling lamp"
+    task: "5000K cool white desk lamp with dimmer"
+    accent: "LED strip under floating shelf"
+    purpose: "Bright and energizing for focus"
+
+  relaxation_zone:
+    ambient: "2700K warm white floor lamp"
+    accent: "Smart lights with scene: relaxation"
+    purpose: "Warm and calming for evening"
+
+  sleep_zone:
+    ambient: "No overhead lights"
+    accent: "Warm bedside lamp only"
+    schedule: "Warm lights turn off at 10pm"
+    purpose: "Minimal light to support sleep"
+```
+
+Having distinct lighting for different zones helps your body recognize when you're in "work mode."
+
 ## Budget Breakdown
 
 Here's a realistic budget for a studio home office setup:
@@ -211,8 +326,25 @@ Here's a realistic budget for a studio home office setup:
 | Desk | $100 (IKEA) | $250 | $600+ |
 | Chair | $50 (used) | $300 | $1,200 |
 | Lighting | $40 | $100 | $200 |
+| Storage (shelves, pegboard) | $80 | $250 | $500 |
+| Room divider or plants | $50 | $200 | $500 |
+| Cable management | $20 | $50 | $150 |
+| Monitor/monitor arm | $150 | $300+ | $800+ |
+| **Total Minimum** | **$490** | **$1,450** | **$3,750+** |
 
-Start with the basics and upgrade over time. A functional workspace doesn't require spending thousands.
+Start with the basics ($500 budget: desk, used chair, lamp, basic storage) and upgrade over time. A functional workspace doesn't require spending thousands. The desk and chair matter most—everything else can be improved gradually.
+
+## Pro Tips from Studio-Based Remote Workers
+
+**Establish departure rituals:** Even though you live there, create a symbolic departure. Some people change clothes again, close the divider, or take a walk around the building. This signals to your brain that work is over.
+
+**Use white noise strategically:** A cheap white noise machine during work hours masks apartment sounds (neighbor noise, HVAC) and creates an acoustic boundary even without physical walls.
+
+**Invest in a good power strip:** Studio apartments often have limited outlets. A multi-outlet power strip with surge protection keeps your workspace functional and safe.
+
+**Keep a "work only" water bottle:** Small rituals like a specific cup or bottle for work hours create psychological markers that your brain recognizes as work time.
+
+**Document your video call background:** Take a screenshot of your best camera angle with ideal lighting. Review it monthly to maintain professional appearance for remote meetings.
 
 ## Frequently Asked Questions
 

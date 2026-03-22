@@ -209,9 +209,111 @@ TEAM_HEALTH_METRICS = {
 
 The numbers tell part of the story. The rest comes from listening to team feedback and observing how members interact in channels and meetings.
 
+## Strategy Five: Documentation as Culture Artifact
+
+Great remote cultures are documented cultures. When new team members can read the history of how decisions were made, what was tried and failed, and why the team operates a certain way, they absorb culture through reading rather than requiring constant verbal transmission.
+
+### Building a Culture Wiki
+
+Create a team wiki or knowledge base specifically dedicated to culture:
+
+```markdown
+# Our Culture and Operations
+
+## What We Value (Not Just Words)
+
+### Default to Async
+We write decisions in permanent channels so people in different timezones can catch up.
+- Consequence: We rarely have synchronous standups
+- Tool: Slack channel #decisions-log with daily summaries
+
+### Ship Imperfect Over Perfect
+We release features before they're "done" if they provide customer value.
+- Consequence: We do more frequent deploys, accept more bugs initially
+- Tool: Feature flags in all production releases
+
+### No Shame in Asking
+We celebrate asking for help as a sign of good judgment.
+- Consequence: New engineers ask questions freely rather than getting stuck
+- Tool: Dedicated #questions channel, same visibility as #announcements
+
+## How We Operate
+
+### Meeting Policies
+- No meetings on Tuesdays or Thursdays (deep work days)
+- All meetings have agendas posted 24 hours in advance
+- Recording available within 4 hours for anyone who couldn't attend
+
+### Communication Norms
+- Expect response within 4 hours during core hours
+- Email requires 24-hour response
+- No expectation of response on weekends or after 6 PM
+
+### Onboarding Timeline
+- Week 1: Technical setup, pair with buddy
+- Week 2-4: First real project assigned
+- Month 2: First 1:1 career conversation
+- Month 3: Evaluate if this is the right fit for both sides
+```
+
+This wiki becomes the cultural equivalent of your written code style guide—it helps new team members know what to expect and reduces miscommunication.
+
+### Celebrating Culture Through Rituals
+
+Beyond the wiki, create regular rituals that reinforce values:
+
+```yaml
+monthly_culture_rituals:
+  first_friday:
+    name: "Ship Celebration"
+    duration: "30 minutes"
+    format: "Async submissions + 10 min sync video"
+    purpose: "Celebrate what shipped this month"
+
+  second_tuesday:
+    name: "Learning Share"
+    duration: "45 minutes"
+    format: "2 people present something they learned"
+    purpose: "Build collective knowledge, celebrate expertise"
+
+  third_wednesday:
+    name: "Culture Feedback"
+    duration: "30 minutes"
+    format: "Anonymous feedback collected, team discusses"
+    purpose: "Ensure culture remains healthy and evolving"
+
+  fourth_monday:
+    name: "Coffee Random"
+    duration: "25 minutes"
+    format: "Automated pairing of 2 people"
+    purpose: "Build relationships across teams"
+```
+
+These rituals create predictability and show that culture is intentional, not accidental.
+
+## Culture in Moments of Crisis
+
+True culture reveals itself during stressful moments. When a production incident happens or a project slips, how does your team respond?
+
+**High-culture teams:**
+- Focus on learning, not blaming
+- Quickly document what happened and why
+- Protect team psychological safety
+- Use incidents as improvement opportunities
+
+**Low-culture teams:**
+- Point fingers at who caused the problem
+- Treat mistakes as personal failures
+- Create fear around admitting issues
+- Repeat the same mistakes
+
+Build your culture explicitly around how you handle bad moments, not just good ones.
+
 ## Building Culture Takes Work, But Pays Dividends
 
 Start with one ritual, one documented value, or one process improvement. Culture compounds over time — small consistent efforts create the kind of team environment that makes remote work genuinely rewarding.
+
+The teams that maintain strong culture across distributed timezones share a common approach: they treat culture as infrastructure, not as a nice-to-have. They invest in documentation, rituals, and systems the same way they invest in CI/CD pipelines and code review processes. This investment pays dividends in retention, innovation, and team happiness.
 
 ## Frequently Asked Questions
 

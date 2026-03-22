@@ -185,6 +185,107 @@ const metrics = {
 
 High participation numbers don't indicate success—genuine support and reduced isolation do. Survey members quarterly about whether the group actually helps them feel more connected.
 
+## Template: Emergency Childcare Support Network
+
+Build mutual aid into your parent support group:
+
+```markdown
+# Emergency Childcare Support Network
+
+## How It Works
+When a parent faces unexpected childcare disruption:
+1. Post in #parents-emergency with situation
+2. Experienced parents respond with options
+3. Community helps find solution quickly
+
+## Emergency Scenarios Covered
+- School closed unexpectedly
+- Daycare/nanny cancellation
+- Child illness during work hours
+- Transport emergency
+
+## Resources Shared
+- List of flexible childcare options (phone numbers, websites)
+- Tips for managing work during childcare gaps
+- Flexibility policy reminders
+- Colleague handoff examples
+
+## Example Conversation
+Parent A: "Daycare closed unexpectedly. Have 2-hour meeting in 30 min. Advice?"
+Parent B: "Our nanny back-up agency [phone]. Can get someone in 1 hour most times."
+Parent C: "If you need to reschedule meeting, use the flexibility framework. I'll help cover if needed."
+Manager: "We can move that meeting. Let me know once you have childcare sorted."
+```
+
+This turns peer support into practical problem-solving.
+
+## Quarterly Parent Town Halls
+
+Beyond monthly coffee chats, hold quarterly town halls with management:
+
+```markdown
+# Quarterly Parent Town Hall
+
+**Format:** 60-minute Zoom (video optional, voice encouraged)
+**Timing:** Afternoon slot rotating to accommodate timezones
+**Attendees:** All working parents, HR, management optional
+
+## Agenda (60 minutes)
+
+### Welcome & Framing (5 min)
+"This is a safe space. Honesty appreciated. What's discussed here stays here."
+
+### Hot Topic Discussion (20 min)
+This quarter's topic: [Rotating topics]
+- Q1: Balancing performance expectations with parenting
+- Q2: Dealing with guilt and identity as professional parent
+- Q3: Childcare costs and financial strategies
+- Q4: Holiday season managing work/family
+
+### Open Q&A (20 min)
+"Any questions about company policies? Flexible work options? Career paths?"
+
+### Breakout: Peer Support (15 min)
+Small groups by child age: Toddlers, School-age, Teens, Multiple
+
+### Closing (5 min)
+"What was useful? Feedback for next session?"
+```
+
+Town halls create institutional awareness that parenting matters to the organization.
+
+## Creating Policy Based on Parent Feedback
+
+Use parent group feedback to improve company policies:
+
+```markdown
+# Policy Iteration Based on Parent Input
+
+## Process
+1. Parent group identifies common pain point
+2. Group member volunteers to draft proposal
+3. HR reviews for feasibility
+4. Company commits to trial period
+5. Group provides feedback on success
+
+## Example: Async Standup Policy
+**Problem identified:** Parents with kids struggle with 8 AM daily standups
+**Solution:** Switch to async written updates
+**Trial period:** 1 month
+**Feedback:** "Reduced stress, more participation, better notes"
+**Outcome:** Adopted permanently
+
+## Potential Areas for Improvement
+- Flexible meeting times
+- Work-from-home guarantees
+- Emergency childcare budget
+- Parental leave top-ups
+- School calendar coordination
+- Floating sick days for childcare
+```
+
+When parent feedback directly improves policies, it signals real commitment.
+
 ## Integration with Company Culture
 
 Parent support groups thrive when connected to broader company values:
@@ -193,11 +294,46 @@ Parent support groups thrive when connected to broader company values:
 - **Calendar flexibility:** Ensure parent-friendly meeting policies extend to group events
 - **Resource allocation:** Budget for occasional virtual events or small gifts
 - **Policy feedback loop:** Use the group as a sounding board for family-friendly policies
+- **Explicit inclusion:** Mention parent support group in benefits materials and onboarding
 
 The support group should feel like a gift from the company to parents, not an extra requirement or checkbox.
+The support group should feel like a gift from the company to parents, not an extra requirement or checkbox. When parents see that leadership takes the group seriously, engagement increases dramatically.
+
+## Scaling as the Group Grows
+
+As your company grows, parent group structures can evolve:
+
+```markdown
+# Parent Group Scaling Strategy
+
+## Stage 1: Startup (< 30 people)
+- Single Slack channel
+- Monthly virtual coffee
+- Informal mutual aid
+- Manager participates
+
+## Stage 2: Growth (30-100 people)
+- Multi-channel structure
+- Weekly async check-ins
+- Monthly coffee + quarterly town hall
+- Designated parent group lead
+- HR partnership
+
+## Stage 3: Mature (100+ people)
+- Separate channels by geography/timezone
+- Multiple recurring social events
+- Quarterly town halls with management
+- Parent group representation on DEI committee
+- Annual parent-focused event (optional)
+```
+
+Scaling gracefully prevents the "group got too big and lost purpose" problem.
+
 ---
 
 Building a parent support group takes initial setup effort but compounds in value over time. Start with the Slack channels, add async check-ins, and layer on synchronous connections as participation grows. The goal isn't a perfectly structured organization—it's creating space for remote working parents to feel seen, supported, and connected across time zones.
+
+Parents working remotely carry unique pressure: they must be fully present at work AND available for parenting. There's no "commute" to mentally transition between roles. A good parent support group acknowledges this reality and makes space for the human experience behind the code.
 
 ## Frequently Asked Questions
 

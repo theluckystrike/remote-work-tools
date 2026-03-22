@@ -195,9 +195,119 @@ Rotate help responsibilities. This distributes the cognitive load and helps team
 End every meeting with clear action items that include owners and deadlines. Ambiguous action items like "someone should look into that" create accountability gaps in remote teams where informal follow-ups don't happen naturally.
 
 Use the parking lot technique. When topics arise that deserve deeper discussion but aren't relevant to the current meeting's goal, add them to a parking lot and address them in a dedicated follow-up meeting. This keeps the current meeting focused while ensuring good ideas aren't lost.
+
+## Additional Template: Code Review Session
+
+Code review meetings work better with structured agendas:
+
+```markdown
+# Code Review Session - [Date]
+**Duration:** 45 minutes
+**Attendees:** @reviewer1, @reviewer2, @author
+
+## PRs for Review
+| PR # | Title | Author | Priority | Est. Time |
+|------|-------|--------|----------|-----------|
+| 523 | Add user authentication | @author1 | High | 20 min |
+| 531 | Fix sidebar bug | @author2 | Low | 15 min |
+| 535 | Refactor payment module | @author3 | Medium | 10 min |
+
+## Pre-Meeting Setup
+- Authors: Share PR links 24 hours before
+- Reviewers: Read PRs and add comments beforehand
+- Leads: Have context doc ready on architectural concerns
+
+## During Session
+1. Go through high-priority PRs first
+2. Author explains decision rationale
+3. Reviewers ask clarifying questions
+4. Record decisions in GitHub issue
+
+## Action Items
+- [ ] [Task]: [Owner] - [Due Date]
+```
+
+Pre-reviewing code asynchronously, then discussing live, gets better results than reviewing live from scratch.
+
+## Template: Security and Compliance Review
+
+For teams handling sensitive data or regulated workloads:
+
+```markdown
+# Security Review - [Feature Name]
+**Date:** YYYY-MM-DD
+**Facilitator:** @security-lead
+**Attendees:** Developers, Security, DevOps
+
+## What We're Reviewing
+[Brief description of feature and why security review is needed]
+
+## Threat Model
+- What data does this handle?
+- Who could misuse it?
+- What's the impact if compromised?
+
+## Security Checklist
+- [ ] Authentication required for access
+- [ ] Authorization checked properly
+- [ ] Data encrypted in transit
+- [ ] Data encrypted at rest
+- [ ] Logging in place for audit trail
+- [ ] Rate limiting implemented
+- [ ] Input validation comprehensive
+- [ ] Error messages don't leak information
+
+## Compliance Requirements
+- GDPR implications: [Notes]
+- SOC 2 controls: [Notes]
+- Other regulations: [Notes]
+
+## Decision
+[ ] Approved
+[ ] Approved with conditions: [List]
+[ ] Rejected: [Reasons]
+
+## Follow-up Items
+- [ ] [Action]: [Owner] - [Due Date]
+```
+
+Security discussions need structure to be thorough without becoming bureaucratic.
+
+## Implementation: Converting Your Existing Meetings
+
+If you already have meetings without good agendas, use this process to improve:
+
+```markdown
+## Meeting Improvement Process
+
+### Week 1: Audit Existing Meetings
+- List all recurring meetings
+- For each, ask: "What decision or outcome should this produce?"
+- Note which meetings lack clear purpose
+
+### Week 2: Draft Agendas
+- For keep-worthy meetings, write an agenda template
+- Share with participants for feedback
+- Refine based on input
+
+### Week 3: Trial Agendas
+- Use agendas for all meetings
+- Ask team: "Is this structure helpful?"
+- Iterate based on feedback
+
+### Week 4: Document and Iterate
+- Finalize agenda templates
+- Add to your team wiki/handbook
+- Review quarterly to ensure they're still working
+```
+
+This gradual approach prevents the "new process" backlash that kills process improvements.
+
 ---
 
 Effective remote meeting agenda templates transform chaotic video calls into productive sessions that respect everyone's time. Start with these templates, adapt them to your team's specific needs, and iterate based on what works for your timezone distribution and communication style. The goal isn't perfect agendas—it's consistent, focused meetings that move work forward.
+
+Strong agendas signal respect for people's time. When team members see that meetings have clear purposes and time-boxed discussions, they'll engage more thoughtfully. Over time, this creates a culture where meetings are viewed as opportunities to make decisions together rather than time-wasting status updates.
 
 ## Frequently Asked Questions
 

@@ -188,17 +188,146 @@ Several platforms offer free, customizable contract templates:
 
 Customize any template to your specific situation. A template provides structure, but your specific project details make it enforceable.
 
+## Advanced Contract Strategies
+
+### Escrow and Payment Security
+
+For high-value projects, consider using escrow services where payment is held by a neutral third party until deliverables are accepted. This protects both you and the client:
+
+```markdown
+## Escrow Agreement Addendum
+
+### Payment Hold
+- Client deposits full payment with [Escrow Service] before work begins
+- Payment held until deliverables accepted per project criteria
+- If dispute arises, escrow arbitrates using documented acceptance criteria
+
+### Release Schedule
+- 25% released upon initial setup and architecture approval
+- 25% released upon first milestone completion
+- 50% released upon final delivery and client acceptance
+
+### Dispute Resolution
+If client and developer disagree about whether deliverables meet criteria:
+1. Issue documented for 5 business days
+2. If unresolved, escrow reviews evidence
+3. Escrow releases payment based on objective assessment
+```
+
+Escrow adds overhead but becomes essential for contracts exceeding $10,000.
+
+### Scope Creep Protection
+
+The most common cause of contract disputes is scope creep. Add explicit protection:
+
+```markdown
+## Scope Management
+
+### Change Request Process
+Any work beyond the original scope requires a Change Order document.
+
+### Change Order Template
+- Description of requested change
+- Estimated additional hours
+- Impact on timeline and total price
+- Both parties must sign before work begins
+
+### What Counts as Scope Creep
+- Features not listed in original specification
+- Significant changes to existing requirements
+- Testing on third-party platforms not originally specified
+- Revisions beyond the included revision limit
+
+### What Doesn't Count as Scope Creep
+- Bug fixes in delivered code
+- Performance optimization
+- Documentation updates
+- Testing on originally specified platforms
+```
+
+This clarity prevents the "but that should be included" arguments that kill projects.
+
+### Milestone-Based Acceptance Criteria
+
+Structure larger projects into milestones with clear acceptance criteria:
+
+```markdown
+## Milestone Structure and Acceptance
+
+### Milestone 1: Foundation (Weeks 1-2)
+**Deliverables:**
+- User authentication implemented
+- Database schema created
+- API endpoints for core resources
+
+**Acceptance Criteria:**
+- All endpoints respond within 200ms
+- User registration and login flow works end-to-end
+- Code passes linting and test suite
+
+### Milestone 2: Features (Weeks 3-5)
+**Deliverables:**
+- Admin dashboard
+- Reporting functionality
+- Email notification system
+
+**Acceptance Criteria:**
+- Dashboard loads in under 3 seconds
+- Reports generate within 30 seconds
+- Email delivery confirmed for test messages
+
+### Review Process
+Client has 5 business days to review each milestone and confirm acceptance.
+Silence after 5 days indicates acceptance. Minor revisions (< 2 hours work)
+are included; major changes require scope adjustment.
+```
+
+Milestone-based structure reduces the "but I didn't want that" risk and creates natural stopping points.
+
+## Template Customization Checklist
+
+Before using any template with a real client, customize these sections:
+
+```markdown
+- [ ] Company/individual names inserted
+- [ ] Rate or project fee finalized
+- [ ] Payment schedule modified to match your cash flow needs
+- [ ] Revision limits match project complexity
+- [ ] Timezone explicitly stated (or clear it's UTC)
+- [ ] Termination notice period reflects your setup time
+- [ ] Jurisdiction chosen (your location or neutral)
+- [ ] Deliverables exactly match what you discussed
+- [ ] Exclusions clearly stated
+- [ ] Any special requirements (NDA, security clearance, etc.) added
+```
+
+This checklist prevents accidentally using templates with generic placeholders.
+
 ## Next Steps Before Signing
 
 1. Read the entire contract before signing—don't just scan
 2. Ensure all verbal agreements appear in writing
 3. Keep a signed copy with your project records
 4. Discuss any concerns with the client before starting
-5. Consider a lawyer review for high-value contracts
+5. Consider a lawyer review for high-value contracts ($5,000+)
+6. Have the client initial any handwritten modifications
+7. Clearly communicate what happens if either party needs to walk away
 
 A good contract builds trust. When both parties understand expectations clearly, projects run smoother and relationships last longer. Pick the template matching your situation, customize the details, and start every project with protection in place.
 ---
 
+## Common Disputes and How Contracts Prevent Them
+
+| Dispute Type | Cause | Contract Solution |
+|-------------|-------|-------------------|
+| "That's out of scope" | Vague deliverables | Detailed specification list |
+| "I didn't know that was extra" | Unclear revision limits | Explicit revision count in writing |
+| "I need it faster" | No timeline specified | Detailed schedule with milestones |
+| "That's not done yet" | Ambiguous completion | Acceptance criteria checklist |
+| "I'm paying you less" | No payment schedule | Deposits and milestone-based payments |
+| "That code is mine" | IP ownership unclear | IP clause explicitly assigning ownership |
+
+---
 
 ## Frequently Asked Questions
 
