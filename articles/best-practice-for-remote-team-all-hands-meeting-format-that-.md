@@ -33,6 +33,15 @@ Running an all-hands meeting for a team of 10 is straightforward. Everyone speak
 
 This guide covers practical formats and help strategies for running all-hands meetings that actually work when your team grows beyond the point where everyone can participate in a traditional synchronous discussion.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Even with the best intentions**: only a handful of voices dominate while everyone else mutes and waits.
+- **The hybrid async-sync approach**: described here scales because it respects the constraints of remote work: different time zones, varied communication preferences, and limited synchronous attention.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+- **Use a simple form**: or spreadsheet where anyone can submit topics they want addressed.
+
 ## Why Traditional All-Hands Formats Break at Scale
 
 When you gather 100+ remote workers in a video call, several problems emerge simultaneously. First, the sheer number of participants makes real-time discussion impossible. Even with the best intentions, only a handful of voices dominate while everyone else mutes and waits. Second, time zone coverage becomes mathematically impossible to optimize—someone will always join outside their working hours. Third, cognitive load increases dramatically when attendees try to process updates from departments they barely interact with.

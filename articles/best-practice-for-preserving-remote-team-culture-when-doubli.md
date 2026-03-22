@@ -31,6 +31,15 @@ Doubling your remote team's headcount threatens every cultural norm you've built
 
 This guide covers practical systems for scaling remote team culture without losing what made it work.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Each sub-team should be**: able to make most decisions independently.
+- **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
+
 ## Why Culture Breaks During Rapid Growth
 
 When a team doubles, three things happen simultaneously:

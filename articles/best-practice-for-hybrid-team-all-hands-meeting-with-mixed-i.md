@@ -31,6 +31,17 @@ voice-checked: true---
 
 Running a successful all-hands meeting when you have a mix of in-person and remote attendees requires careful planning and the right technical setup. This guide provides practical patterns for hybrid all-hands meetings, focusing on tools and techniques that work for developer teams and power users.
 
+## Key Takeaways
+
+- **This setup costs under**: $300 and supports rooms up to eight in-person attendees with acceptable quality.
+- **Walk to the far**: corners of the room and confirm the microphone picks up your voice 4.
+- Use a structured approach:
+
+1.
+- **Collect questions async -**: Use a shared document or polling tool where attendees submit questions before the meeting 2.
+- **Goal**: <15% difference in speaking time.
+- **The most common failure**: mode is treating the physical room as primary and remote attendees as secondary.
+
 ## The Hybrid All-Hands Challenge
 
 All-hands meetings serve as a critical touchpoint for company-wide communication. When your team spans multiple locations and work arrangements, ensuring every attendee has an equitable experience becomes essential. The core challenge is simple: remote participants must feel as included as those physically present, and in-person attendees should not be disadvantaged by the technology bridging the gap.

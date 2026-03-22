@@ -33,6 +33,15 @@ Remote teams face a unique challenge: without daily in-person interactions, how 
 
 This guide covers practical methods to measure remote team alignment using async strategy updates, with code examples and implementation frameworks you can apply immediately.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Month 3**: Response rate drops to 60%.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+- **Root cause**: Leadership treated updates as broadcast, not dialogue.
+- **You should not confuse**: the two.
+
 ## Why Async Strategy Updates Work for Alignment
 
 Traditional alignment relies on synchronous presence—team members physically or in the same room, processing information together. While this creates a shared moment, it lacks retention value and excludes those who cannot attend.
