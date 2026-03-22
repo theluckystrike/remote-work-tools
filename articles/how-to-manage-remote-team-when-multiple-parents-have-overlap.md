@@ -29,9 +29,11 @@ The core challenge isn't just about calendar conflicts. When multiple team membe
 
 The solution isn't to mandate availability or expect parents to work around the clock. Instead, build systems that treat school schedule variance as a normal part of distributed team dynamics.
 
+Different school systems compound the problem significantly. A team of five parents might have children across three school districts, two private schools, and a home-school arrangement — each with completely independent holiday calendars. December alone can span 12 different break windows when you factor in winter recesses, exam periods, and religious observances. Treating this as an edge case guarantees sprint failures. Treating it as a structural input to planning makes it manageable.
+
 ## Build a Parental Schedule Calendar
 
-Create a shared calendar that tracks all team members' school break periods. This goes beyond PTO—it's a proactive planning tool.
+Create a shared calendar that tracks all team members' school break periods. This goes beyond PTO — it's a proactive planning tool.
 
 ### Google Calendar Integration Script
 
@@ -66,6 +68,15 @@ function getParentAvailability() {
 ```
 
 Run this weekly and post results to a dedicated Slack channel. Team members can then plan collaborative work knowing everyone's availability upfront.
+
+### Naming Conventions for Calendar Events
+
+Consistency matters when multiple people are adding events. Enforce a simple naming convention:
+
+- Format: `[Parent Name] - School Break - [School Name optional]`
+- Examples: `Alice - School Break`, `Bob - Spring Break - Lincoln Elementary`
+
+This makes the Apps Script pattern matching reliable and lets teammates scan the calendar at a glance without guessing whose break is whose.
 
 ## Implement Staggered Sprint Planning
 
@@ -124,6 +135,12 @@ print(f"Team capacity: {total} story points")
 
 This script helps you set realistic sprint commitments instead of overpromising during high-absentee periods.
 
+### When Multiple Parents Overlap in the Same Week
+
+The calculator above handles individual breaks, but the hardest scenario is when three or four parents all have reduced capacity in the same sprint week. In that case, the right move is to explicitly reduce the sprint scope rather than silently carry over work. Tell stakeholders upfront: "This sprint lands across school break week for half the team. We're committing 60% of normal velocity and treating the remaining items as stretch goals."
+
+Stakeholders respect transparency. What they don't respect is a sprint that closes at 40% completion with no warning.
+
 ## Create a Parent-Cover Protocol
 
 When school holidays create coverage gaps, have a documented protocol for handovers:
@@ -152,6 +169,10 @@ When school holidays create coverage gaps, have a documented protocol for handov
 ```
 
 Post these requests in a dedicated #coverage-requests channel. The key is making coverage explicit rather than hoping someone notices your absence.
+
+### Coverage Rotation Fairness
+
+If the same non-parent team members keep absorbing coverage requests, resentment builds. Track coverage load explicitly — a simple Notion table or Airtable base with columns for "Requester," "Coverer," and "Dates" gives you a running record. Review it quarterly and redistribute informal work accordingly. If one person has covered 80% of requests, they should get the first pass at high-visibility projects or flexible scheduling as a counterbalance.
 
 ## Use Asynchronous Check-Ins as Default
 
@@ -187,13 +208,21 @@ Dec 27-31: Fully available
 
 This format works year-round but becomes essential when school schedules fragment availability.
 
+### Tools That Support Async Standups
+
+Several tools make async check-ins easier to sustain than raw Slack threads:
+
+- **Geekbot**: Sends scheduled prompts via Slack DM and compiles responses into a channel post. Configurable per-user timezone, so the prompt arrives at each person's morning.
+- **Range**: Integrates with GitHub, Jira, and Google Calendar to pre-fill check-ins with recent activity. Reduces friction by showing completed tickets automatically.
+- **Loom for blockers**: When a text description isn't enough, a 60-second Loom video explaining a blocker gets faster responses than a lengthy Slack message. Async video works especially well when a parent is available at unusual hours.
+
 ## Plan for Overlap as a Team
 
 At the start of each semester or term, hold a brief planning session where parents share their school calendars. Use this information to:
 
 1. **Front-load critical work** before known break periods
 2. **Distribute knowledge** so no single parent is a bottleneck
-3. **Schedule依赖关系** to avoid mid-sprint surprises
+3. **Sequence dependencies** to avoid mid-sprint surprises
 4. **Set realistic deadlines** that account for reduced capacity
 
 ### Example Calendar Sync Meeting Agenda
@@ -205,8 +234,20 @@ At the start of each semester or term, hold a brief planning session where paren
 4. Adjust sprint commitments if needed (5 min)
 ```
 
-Keep these meetings short—15 minutes maximum. The goal is information sharing, not extensive discussion.
+Keep these meetings short — 15 minutes maximum. The goal is information sharing, not extensive discussion.
 
+## Setting Team Norms Around School Schedules
+
+The systems above only work if the team culture supports them. Without explicit norms, parents hide their reduced availability and everyone pretends the sprint capacity is full.
+
+Establish these norms explicitly at an all-hands or team retrospective:
+
+- **School breaks are team inputs, not personal problems.** When a parent's kid is home, that affects sprint capacity. This is a planning fact, not a favor to ask.
+- **Coverage is a shared responsibility.** No single person is always the backup. Rotate explicitly.
+- **Async is the default during break weeks.** Do not schedule synchronous standups or planning meetings during the week between Christmas and New Year unless genuinely urgent.
+- **Managers model the behavior.** If the manager hides their own school-day pickups and pretends to be fully available, the team will do the same. Transparency starts at the top.
+
+A one-page team agreement documenting these norms, stored in your wiki and reviewed at onboarding, saves repeated conversations every December and June.
 
 ## Related Articles
 
