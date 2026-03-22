@@ -9,7 +9,7 @@ permalink: /remote-team-story-point-velocity-trend-analysis-tool-for-sprint-plan
 categories: [guides]
 tags: [remote-work-tools, sprint-planning, velocity-tracking, remote-work, agile, story-points, team-metrics]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

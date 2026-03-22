@@ -9,7 +9,7 @@ permalink: /remote-team-third-party-vendor-security-assessment-template-/
 categories: [guides]
 tags: [remote-work-tools, security, vendor-assessment, remote-work, it-admin, third-party-risk]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

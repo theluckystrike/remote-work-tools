@@ -7,7 +7,7 @@ last_modified_at: 2026-03-22
 author: "Remote Work Tools"
 permalink: /remote-team-support-ticket-first-response-time-tracking-for-/
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]

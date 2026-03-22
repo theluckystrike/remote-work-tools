@@ -11,7 +11,7 @@ tags: [remote-work-tools, security, incident-response, remote-work, distributed-
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 
 {% raw %}
