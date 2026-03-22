@@ -33,6 +33,16 @@ The most effective productivity strategy for digital nomads is building a portab
 
 This guide provides the specific scripts, tool configurations, and routines that make this system work in practice.
 
+## Key Takeaways
+
+- **Seating**: Assess chair height relative to table, use books or bags for adjustment if needed
+4.
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **Wake before your destination opens**: many digital nomads report their most productive hours between 6 AM and 9 AM in locations where cafés don't open until 9 or 10 AM.
+- **Use a YubiKey or**: similar hardware token for SSH authentication when working from shared computers.
+- **Small teams can often**: implement changes faster because there are fewer people to coordinate.
+- **Adapt the specifics to**: your team size—a 5-person team does not need the same formal processes as a 50-person organization.
+
 ## Establish a Portable Command Center
 
 Your development environment travels with you. Every minute spent reconfiguring tools after arriving at a new location is time stolen from actual work. Build a portable command center using a well-organized dotfiles repository and containerized workflows.

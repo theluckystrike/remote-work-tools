@@ -31,6 +31,15 @@ voice-checked: true---
 
 Managing eight client projects simultaneously as a solo developer requires disciplined systems rather than relying on memory or willpower. The key lies in creating clear boundaries between projects, automating repetitive tasks, and building a workflow that prevents context-switching costs from destroying your productivity.
 
+## Key Takeaways
+
+- **Best, [Your name] ```**: Store these in your note-taking app or a dedicated text expansion tool like TextExpander (macOS) or Espanso (cross-platform, free).
+- **Use tools like Wave (free invoicing)**: FreshBooks, or simple templates in Notion or Airtable.
+- **Free tier is sufficient**: for most solo developers.
+- **Linear's free tier supports up to 250 issues**: which may feel tight across eight clients.
+- **The best tool is**: one you'll actually use consistently.
+- **Most clients are reasonable**: when they understand your process.
+
 ## The Core Challenge
 
 When you juggle eight clients, you're not just managing eight projects — you're managing eight different communication channels, eight sets of expectations, eight timelines, and potentially eight different technology stacks. Without a solid system, you'll either burn out trying to keep everything in your head or lose track of deliverables.

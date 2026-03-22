@@ -18,6 +18,21 @@ voice-checked: true---
 
 Build a scope change workflow that requires written change requests documenting what's being added, estimating impact on timeline and budget, and requiring approval before execution. This prevents scope creep and keeps client expectations aligned with deliverables.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **For most requests**: a 24-48 hour turnaround is reasonable for remote teams.
+- **Best,
+[Your name]
+```
+
+### Step 3**: Impact Assessment
+
+This is where most agencies lose time or money.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## The Core Problem
 
 Without a formal process, scope changes create friction. Your team drops everything to accommodate "small" requests. The client assumes changes are included in the original quote. Tension builds because neither side has a clear framework for evaluating and approving new work. The solution is not avoiding changes—they're often legitimate—but building a transparent system that handles them professionally.

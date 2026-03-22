@@ -33,6 +33,16 @@ Client satisfaction surveys are critical for remote agencies. Without face-to-fa
 
 This guide provides a survey template designed specifically for remote agencies, then shows you how to automate the entire feedback collection workflow using tools developers and power users can implement without extensive infrastructure.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Would you recommend our**: agency to others? (0-10 scale - NPS) 7.
+- **The open-ended question at**: position 7 often produces your most actionable feedback.
+- **Notion**: Use Notion's database with a "Send Survey" button that triggers a Make (formerly Integromat) or Zapier automation
+2.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## Survey Template Design
 
 The most effective client satisfaction surveys for remote agencies balance comprehensiveness with brevity. Clients are busy, and long surveys produce low response rates. Aim for 8-12 questions that cover the key dimensions of your client relationship.

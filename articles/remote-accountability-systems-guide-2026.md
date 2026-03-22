@@ -31,6 +31,15 @@ voice-checked: true---
 
 Accountability systems for remote teams transform vague promises into visible progress. When your team spans time zones and lacks casual hallway conversations, structured accountability becomes essential for maintaining momentum and trust. This guide covers practical approaches to implementing accountability systems that work for developers and power users in distributed environments.
 
+## Key Takeaways
+
+- **This shift from surveillance**: to outcome-focus actually improves trust while delivering better results.
+- **Systems that make progress visible without judgment will be embraced**: because they protect team members from unfair performance reviews as much as they protect managers from surprise delays.
+- **Larger organizations with HR**: requirements benefit from Lattice's integration with performance review cycles.
+- **Use APIs**: webhooks, and scheduled jobs to collect and display progress without asking team members to update multiple systems.
+- **This degrades the quality**: of deep work and burns out your best contributors within months.
+- **The best accountability systems pull from a single source of truth**: usually the issue tracker — and distribute that information automatically.
+
 ## Why Remote Accountability Requires Different Systems
 
 Traditional workplace accountability relies on visible presence. Managers observe when employees arrive, see them at their desks, and notice when they're engaged in conversations. Remote work removes these visual cues entirely. Without intentional systems, remote teams drift into ambiguity—team members unsure what others are working on, managers guessing about project status, and deliverables arriving unexpectedly.

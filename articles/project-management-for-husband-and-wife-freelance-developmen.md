@@ -31,6 +31,15 @@ voice-checked: true---
 
 Running a freelance development business with your spouse combines the challenges of client work with the unique dynamics of a family partnership. The right project management approach can mean the difference between a smooth-running operation and one that bleeds into your personal life. This guide covers practical strategies for managing projects when you're both developers working from home.
 
+## Key Takeaways
+
+- **Running a freelance development**: business with your spouse combines the challenges of client work with the unique dynamics of a family partnership.
+- **Determine whether you charge**: clients per hour (typically $75-200 for development depending on specialization and location) or fixed-price projects.
+- **Fixed pricing rewards efficiency—if**: you complete a $5000 project in 100 hours instead of 150, you've effectively increased your hourly rate to $50/hour.
+- **Couples who work 24/7**: because "we're always nearby" suffer relationship erosion and business burnout simultaneously.
+- **Knowledge transfer**: Document each client's setup, preferences, and history so either partner can support in emergencies.
+- **Set aside 15-20% of**: revenue for business expenses and taxes, even if you're not yet a formal entity.
+
 ## Establishing Clear Work Boundaries
 
 The most critical factor in a husband-wife development partnership is separating work from personal time. Without office walls, the temptation to check "just one more thing" after dinner becomes constant. Set defined working hours and stick to them. Use a shared calendar to block work time, and treat those blocks as non-negotiable as you would a client meeting.

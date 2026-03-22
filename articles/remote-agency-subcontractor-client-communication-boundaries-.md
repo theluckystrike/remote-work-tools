@@ -19,6 +19,15 @@ Working as a subcontractor for remote agencies presents unique communication cha
 
 This guide provides concrete strategies and practical tools for establishing communication boundaries that protect your time while delivering excellent work.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Most clients respect boundaries**: when they're communicated upfront.
+- **Best, [Your name] ```**: When a client bypasses the agency: ```markdown Hi [Client Name], Thanks for reaching out!
+
 ## Understanding the Three-Way Communication Dynamic
 
 When you work as a subcontractor, you're typically part of a triangle: the agency, the client, and yourself. The agency manages the client relationship while you handle execution. However, remote work often blurs these lines—clients may message you directly, agencies may not filter communications effectively, and everyone expects immediate responses.
