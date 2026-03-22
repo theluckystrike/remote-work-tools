@@ -31,6 +31,15 @@ voice-checked: true---
 
 Portugal has become a premier destination for remote workers seeking tax-efficient setups within the European Union. Registering as a self-employed worker (trabalhador independente) in Portugal involves several administrative steps, each with specific requirements that differ from traditional employment. This guide walks through the complete registration process with practical details developers and freelancers need to handle their Portuguese tax obligations correctly.
 
+## Key Takeaways
+
+- **The contribution base depends**: on your declared income, with rates around 21.4% for most freelancers.
+- **The simplified regime works**: well for most individual freelancers earning under €200,000 annually.
+- **Plan cash flow carefully—you**: need to set aside approximately 23-28% of gross revenue to cover taxes and social contributions.
+- **This guide walks through**: the complete registration process with practical details developers and freelancers need to handle their Portuguese tax obligations correctly.
+- **The standard Portuguese VAT rate is 23%**: with reduced rates of 13% and 6% for specific goods and services.
+- **Newly registered self-employed workers**: receive a 50% reduction in contributions during the first year, tapering to 25% in the second year.
+
 ## Understanding Your Tax Status in Portugal
 
 Before beginning registration, you need to determine which category applies to your situation. Portugal offers two primary paths for self-employed remote workers: the simplificado regime (simplified regime) or regime geral (general regime).

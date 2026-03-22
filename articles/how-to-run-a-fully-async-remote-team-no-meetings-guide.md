@@ -33,6 +33,13 @@ The traditional workplace revolves around meetings—daily standups, weekly sync
 
 This guide walks you through building an async-first remote team that functions effectively without relying on real-time communication.
 
+## Key Takeaways
+
+- **Quick Questions**: Use chat for brief exchanges that don't need documentation.
+- **Some team members think**: better in writing and deserve equal opportunity to participate.
+- **Priority Setting**: Use scoring methods like WSJF (Weighted Shortest Job First) or MoSCoW prioritization in shared documents.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Why Go Fully Async
 
 Before looking at implementation, it's worth understanding why teams choose to eliminate meetings entirely.

@@ -33,6 +33,17 @@ Every freelance developer has faced this scenario: you build something remarkabl
 
 This guide covers practical steps to protect your IP as a freelancer, with concrete examples and templates you can use immediately.
 
+## Key Takeaways
+
+- **Most clients want to**: pay for finished work they can use freely.
+- **Most freelancers want to**: retain the right to use their work in portfolios or reuse certain components in future projects.
+- **Use a contract template**: Create your own from sample clauses above or purchase from LawDepot ($30-60 one-time)
+2.
+- **This guide covers practical**: steps to protect your IP as a freelancer, with concrete examples and templates you can use immediately.
+- **This means your freelance**: agreement must clearly specify what rights you're granting—and what you're retaining.
+- **Developer grants Client a non-exclusive**: perpetual
+license to use the custom Deliverables for their internal business purposes.
+
 ## Understanding IP Ownership Fundamentals
 
 Intellectual property encompasses several categories relevant to developers: source code, documentation, UI designs, algorithms, and proprietary methodologies. By default, the creator owns the copyright to their work. However, this default changes when you sign a contract transferring those rights to a client.

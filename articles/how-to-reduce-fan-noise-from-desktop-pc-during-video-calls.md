@@ -33,6 +33,15 @@ Desktop PCs generate heat, and that heat requires active cooling. When you're on
 
 This guide covers practical methods to reduce fan noise during video calls without sacrificing performance for your actual work. You'll find software tweaks, configuration examples, and hardware adjustments that work well for developers and power users.
 
+## Key Takeaways
+
+- **For developers on Mac or without RTX**: Krisp free tier ($0) covers 60 minutes monthly—sufficient for a few calls weekly.
+- **Set process priorities (Windows**: via PowerShell) Get-Process zoom | % { $_.PriorityClass = "BelowNormal" } # 3.
+- **A $150 CPU cooler**: upgrade is worth it only if you're in calls daily for years.
+- **Run a quick script**: to pause Docker or other background services 5.
+- **Pause background tasks systemctl**: stop docker # Stop containers # Or pause Dropbox/OneDrive sync via UI # 4.
+- **Test audio before call**: # Quick 10-second recording to verify noise isn't audible ``` Running this 2-minute routine prevents 95% of "hey, your fan is really loud" messages from colleagues.
+
 ## Why Your PC Gets Loud During Video Calls
 
 Modern video conferencing applications like Zoom, Google Meet, and Microsoft Teams run continuously while you're in a call. They encode video, decode incoming streams, process audio, and maintain network connections—all simultaneously. On a desktop PC, this creates sustained CPU and GPU load that triggers your cooling system.

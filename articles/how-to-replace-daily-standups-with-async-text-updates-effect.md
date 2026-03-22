@@ -21,6 +21,15 @@ Async text updates solve this problem. Instead of gathering everyone simultaneou
 
 This guide covers practical strategies for making async standups work for your team.
 
+## Key Takeaways
+
+- **Here's a practical comparison**: to help you choose: Slack: Free tier allows unlimited threads and pinned messages.
+- **Linear.im**: $10/user/month includes integrated status updates with voting on blockers.
+- **Pro plan ($12.50/user/month) adds**: user groups for targeted notifications.
+- **Range.io**: $12/user/month specifically built for async standups.
+- **Best for open-source and**: developer-heavy teams; less suitable for non-technical stakeholders.
+- **Use threads if clarification is needed**: but allow others to read and respond on their own schedule.
+
 ## The Core Problem with Synchronous Standups
 
 A typical standup wastes more than 15 minutes per person. Multiply by team size: a six-person team spends roughly 90 person-minutes daily on updates that could be read asynchronously. The real cost compounds when you factor in context-switching—research shows it takes 23 minutes to refocus after an interruption.

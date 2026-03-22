@@ -19,6 +19,16 @@ Working from your couch seems convenient. You wake up, grab your laptop, and set
 
 The couch was never designed for 8-hour coding sessions. The soft cushions, lack of lumbar support, and hunched positions create perfect conditions for spinal stress. This guide provides actionable strategies to protect your back while still enjoying the flexibility of remote work.
 
+## Key Takeaways
+
+- **Research indicates that improper**: sitting posture increases disc pressure by up to 40% compared to standing.
+- **Even standing for 60**: seconds provides meaningful relief.
+- **Aim for at least**: 5-10 minutes of standing per hour.
+- **The most effective approach**: combines: 1.
+- **Hold 30 seconds**: repeat 3x per leg
+4.
+- **Phase 2 (Week 3-4)**: Add external keyboard/mouse.
+
 ## Why Couch Working Hurts Your Back
 
 Understanding the problem is the first step toward solving it. Couches cause back pain through several mechanisms that accumulate over time.

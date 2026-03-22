@@ -33,6 +33,21 @@ Presenting sprint demos to non-technical clients over video calls presents uniqu
 
 This guide provides practical strategies for delivering effective sprint demos that keep clients engaged, build trust, and demonstrate real progress.
 
+## Key Takeaways
+
+- **For your store**: that means an extra $2,000 in monthly revenue and fewer customer support requests."
+
+This framework converts feature announcements into compelling business stories.
+- **Consider these techniques:
+
+Use annotation tools**: Most screen sharing software allows you to draw on screen.
+- **Given your current user base**: scheduled notifications with webhook integrations give you 90% of the benefit with half the complexity.
+- **Use this framework for**: each sprint presentation: ### 1.
+- **Show the 3-5 most**: important items that demonstrate clear progress Mistake 3: Using technical jargon without explanation Solution: Maintain a glossary of terms the client understands.
+- **This creates confusion."
+
+Solution (45 seconds)**: "We've unified the checkout to capture all information in a single form.
+
 ## Understanding Your Audience
 
 Non-technical clients care about business outcomes, not implementation details. They want to see their money producing results that solve their problems. Before any demo, answer these questions:
