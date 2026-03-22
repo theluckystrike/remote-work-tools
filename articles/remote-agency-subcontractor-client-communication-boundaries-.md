@@ -9,7 +9,7 @@ permalink: /remote-agency-subcontractor-client-communication-boundaries-/
 categories: [guides]
 tags: [remote-work-tools, remote-work, subcontractor, agency, communication, boundaries, developer-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
