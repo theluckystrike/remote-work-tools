@@ -224,16 +224,31 @@ Use Figma's annotation features or a plugin like Redline to mark:
 - [ ] Developer contact: @name available for questions until [date]
 ```
 
+## Additional Tools Worth Evaluating
+
+Beyond the Figma/Loom/Notion core, three tools solve specific async design problems that the core stack does not cover well.
+
+**Zeroheight — Design system documentation:**
+Zeroheight connects directly to your Figma component library and publishes a living design system site. When a designer updates a component in Figma, the documentation updates automatically. It is expensive ($149/month for teams) but eliminates the stale-docs problem for mature design systems. The free alternative is Notion + manual Figma embeds, which works but requires manual updates.
+
+**Jam.dev — Bug reporting with context:**
+When developers encounter implementation issues that require designer clarification, Jam captures a screenshot, annotated with console errors, network requests, and browser info in a single shareable link. This cuts the back-and-forth of "can you share a screenshot, what browser, what did you click" to zero. Free tier covers most small teams.
+
+**Whimsical — Async flowcharts and wireframes:**
+Figma is heavy for quick flows. Whimsical is faster for user journey diagrams and low-fidelity wireframes during discovery. Async comments in Whimsical work better than FigJam for structured decision-making because the canvas stays smaller and focused. $12/month per editor.
+
 ## Comparison Matrix
 
-| Tool | Best For | Weakness |
-|---|---|---|
-| Figma comments | Structured design feedback | Comment threads get unwieldy |
-| Figma branches | Version control | Mental overhead of branch management |
-| FigJam | Discovery, async whiteboarding | Not for detailed design |
-| Loom | Complex feedback, context | Video format, hard to skim |
-| Notion | Decisions, documentation | Not connected to design files |
-| Zeroheight | Design system docs | Expensive, setup time |
+| Tool | Best For | Async-Friendly? | Cost |
+|---|---|---|---|
+| Figma comments | Structured design feedback | Yes, with comment prefixes | $15/editor/mo |
+| Figma branches | Version control | Yes | Included |
+| FigJam | Discovery, whiteboarding | Moderate | $3/editor/mo |
+| Loom | Complex feedback, context | Yes | Free up to 25 videos |
+| Notion | Decisions, documentation | Yes | $8/member/mo |
+| Zeroheight | Design system docs | Yes | $149/mo team |
+| Jam.dev | Bug reporting | Yes | Free |
+| Whimsical | Flows, wireframes | Yes | $12/editor/mo |
 
 ## Setting Up the Full Async Design Workflow
 
@@ -261,6 +276,24 @@ Use Figma's annotation features or a plugin like Redline to mark:
    → Developer shares screenshots/recording
    → Designer reviews async, comments in 24h
 ```
+
+## Common Async Design Failures and Fixes
+
+**Problem: Feedback arrives after the deadline and blocks the designer.**
+
+Fix: Set a hard close date on the review request and state explicitly that feedback received after the deadline will be deferred to the next iteration. Use the FigJam template to show the deadline prominently. Late stakeholders learn quickly when their feedback gets deferred once.
+
+**Problem: Developers ask the same questions that were already documented.**
+
+Fix: The handoff checklist is not enough on its own. Add a "Questions answered here" sticky note directly in the Figma frame that links to the Notion brief and lists the top 3 questions developers have asked previously. This reduces repeat questions by giving developers a fast path to the context they need.
+
+**Problem: Comment threads in Figma become arguments.**
+
+Fix: Designate one person as the comment resolver — typically the designer or design lead. Only that person marks comments as resolved. Comments are not resolved by discussion; they are resolved when the design change is made or the decision is logged in Notion. This stops comment threads from being used as decision-making forums.
+
+**Problem: The design system gets out of sync with what is actually shipped.**
+
+Fix: After each implementation review, the designer checks whether any deviations from the design became intentional changes. If yes, update the Figma main branch to match. Treat the shipped product as the source of truth for what the design system should reflect — not the reverse. A quarterly audit of Figma main against production screens catches drift before it compounds.
 
 ## Related Reading
 

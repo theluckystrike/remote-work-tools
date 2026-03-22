@@ -263,6 +263,69 @@ autorandr --save test-layout
 autorandr previous
 ```
 
+## Hardware: What Actually Works
+
+Not every GPU and cable combination delivers a clean multi-monitor setup on Linux. Common failure points:
+
+**GPU driver considerations:**
+- AMD (Radeon RX 5000 and newer): AMDGPU driver is included in the kernel, works out of the box on any modern Linux distro. Best choice for a hassle-free multi-monitor setup.
+- NVIDIA (RTX 3000+): proprietary drivers required. Install via `sudo apt install nvidia-driver-550` (Debian/Ubuntu). Without the proprietary driver, multi-monitor output over DisplayPort may fail or deliver reduced refresh rates.
+- Intel integrated graphics: works well for 2 monitors up to 4K@60. Three monitors at high refresh rate will hit bandwidth limits.
+
+**Cable and port specifics:**
+
+| Connection | Max 4K@60 | Max 144Hz | DisplayPort 1.4 required? |
+|---|---|---|---|
+| DisplayPort 1.4 | Yes | Yes (1440p) | Yes |
+| HDMI 2.1 | Yes | Yes (1440p) | No |
+| HDMI 2.0 | Yes | No (30Hz at 4K) | No |
+| USB-C (DP alt mode) | Yes | Check spec | Check spec |
+| HDMI 1.4 | No (30Hz) | No | No |
+
+If your 4K monitor is locked to 30Hz, check whether you have an HDMI 1.4 cable. Replacing it with DisplayPort or HDMI 2.0+ resolves this immediately.
+
+## Hyprland Configuration (Modern Wayland Alternative)
+
+Hyprland has become the go-to Wayland compositor for developers who want a tiling workflow without the X11 limitations. Multi-monitor configuration is straightforward:
+
+```bash
+# ~/.config/hypr/hyprland.conf
+
+monitor=HDMI-A-1,2560x1440@144,0x0,1
+monitor=DP-1,1920x1080@60,2560x0,1
+
+# Workspace-to-monitor binding
+workspace=1,monitor:HDMI-A-1
+workspace=2,monitor:HDMI-A-1
+workspace=3,monitor:HDMI-A-1
+workspace=4,monitor:HDMI-A-1
+workspace=5,monitor:DP-1
+workspace=6,monitor:DP-1
+workspace=7,monitor:DP-1
+
+# Move focus between monitors
+bind=SUPER,Left,focusmonitor,l
+bind=SUPER,Right,focusmonitor,r
+
+# Move window to other monitor
+bind=SUPER SHIFT,Left,movewindow,mon:l
+bind=SUPER SHIFT,Right,movewindow,mon:r
+```
+
+Hyprland's advantage over i3 is native per-monitor fractional scaling without workarounds. A 4K@200% monitor next to a 1080p@100% monitor works cleanly. Its disadvantage: it is more complex to configure and has occasional regressions between releases. Use Sway if you want stability; use Hyprland if you want the latest Wayland features.
+
+## Compositor and Display Server Comparison
+
+| Environment | Display Server | Multi-Monitor DPI | Fractional Scale | Best For |
+|---|---|---|---|---|
+| i3 | X11 | Workarounds only | No | Keyboard-driven tiling, stability |
+| Sway | Wayland | Native | Integer only | i3-compatible Wayland migration |
+| Hyprland | Wayland | Native | Yes | Modern tiling, animations |
+| GNOME | Wayland / X11 | Native (Wayland) | Yes (Wayland) | GUI-friendly setup |
+| KDE Plasma | Wayland / X11 | Native (Wayland) | Yes (Wayland) | Feature-rich desktop |
+
+For a pure development workstation where you want tiling and keyboard control, i3 (X11) or Sway (Wayland) are the most stable options in 2026. GNOME and KDE Plasma handle multi-monitor DPI cleanly on Wayland if you prefer a full desktop environment.
+
 ## Related Reading
 
 - [How to Set Up a Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
