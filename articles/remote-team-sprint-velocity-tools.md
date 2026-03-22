@@ -29,6 +29,8 @@ Common failure modes:
 - Capacity changes (PTO, time zone overlap reductions) aren't tracked against velocity
 - Velocity charts in Jira/Linear that no one looks at because they don't account for team size changes
 
+The fix isn't a better chart — it's enforcing a definition of done and normalizing velocity for capacity. Both require a small amount of process discipline plus the right API queries.
+
 ---
 
 ## Tool 1: Linear (Best for Engineering Teams)
@@ -101,6 +103,69 @@ for cycle in cycles:
     print(f"{cycle['name']:<20} {total_points:<8} {len(completed_issues):<8} {per_eng}")
 ```
 
+**Linear Cycle Burndown Data**
+
+Pull burndown data per cycle to understand pace mid-sprint, not just at the end:
+
+```python
+#!/usr/bin/env python3
+# linear_burndown.py — daily remaining points for current cycle
+import os, requests
+from datetime import datetime, timedelta
+
+LINEAR_API_KEY = os.environ["LINEAR_API_KEY"]
+TEAM_ID = os.environ["LINEAR_TEAM_ID"]
+
+burndown_query = """
+query($teamId: String!) {
+  cycles(
+    filter: { team: { id: { eq: $teamId } }, isActive: { eq: true } }
+    first: 1
+  ) {
+    nodes {
+      name
+      startsAt
+      endsAt
+      issues {
+        nodes {
+          estimate
+          completedAt
+          state { type }
+        }
+      }
+    }
+  }
+}
+"""
+
+resp = requests.post(
+    "https://api.linear.app/graphql",
+    json={"query": burndown_query, "variables": {"teamId": TEAM_ID}},
+    headers={"Authorization": LINEAR_API_KEY},
+)
+cycle = resp.json()["data"]["cycles"]["nodes"][0]
+issues = cycle["issues"]["nodes"]
+
+total_points = sum(i["estimate"] or 0 for i in issues)
+completed_points = sum(
+    i["estimate"] or 0 for i in issues
+    if i["state"]["type"] == "completed"
+)
+remaining = total_points - completed_points
+
+starts = datetime.fromisoformat(cycle["startsAt"].replace("Z", "+00:00"))
+ends = datetime.fromisoformat(cycle["endsAt"].replace("Z", "+00:00"))
+total_days = (ends - starts).days
+elapsed_days = (datetime.now(starts.tzinfo) - starts).days
+ideal_remaining = total_points * (1 - elapsed_days / total_days)
+
+print(f"Cycle: {cycle['name']}")
+print(f"Total points: {total_points}")
+print(f"Completed: {completed_points}")
+print(f"Remaining: {remaining} (ideal: {ideal_remaining:.0f})")
+print(f"Status: {'On track' if remaining <= ideal_remaining else 'Behind'}")
+```
+
 ---
 
 ## Tool 2: Jira Cloud (with JQL and Automation)
@@ -149,6 +214,16 @@ for sprint_id in $sprint_ids; do
   echo "$sprint_name: $points points"
 done
 ```
+
+**Jira Automation for Sprint Close Reports**
+
+Use Jira's built-in Automation feature (Project Settings > Automation) to generate a sprint summary automatically when a sprint closes:
+
+- Trigger: Sprint completed
+- Action: Send Slack message to `#engineering`
+- Message template: `Sprint {{sprint.name}} closed. Completed: {{sprint.completedIssuesCount}} issues. Story points: {{sprint.completedStoryPoints}}.`
+
+This avoids the need for custom API scripts for teams that live in Jira's UI.
 
 ---
 
@@ -238,6 +313,44 @@ forecast = round(avg_adj_velocity * next_sprint_capacity)
 print(f"\nForecast for next sprint ({next_sprint_capacity} eng-days): ~{forecast} points")
 ```
 
+**Tracking Capacity Changes Across Time Zones**
+
+For globally distributed teams, available overlap hours matter as much as headcount. A 5-person team with 2 hours of daily overlap has effectively less collaborative capacity than a 4-person co-located team. Track this explicitly:
+
+```python
+# capacity_tracker.py — log sprint capacity with overlap hours
+import json
+from datetime import date
+
+CAPACITY_LOG = "sprint_capacity.json"
+
+def log_sprint_capacity(sprint_name, engineers, pto_days, overlap_hours_per_day):
+    """
+    engineers: list of dicts with name and timezone
+    pto_days: total PTO days across team this sprint
+    overlap_hours_per_day: actual synchronous working hours available
+    """
+    try:
+        with open(CAPACITY_LOG) as f:
+            log = json.load(f)
+    except FileNotFoundError:
+        log = []
+
+    entry = {
+        "sprint": sprint_name,
+        "date": str(date.today()),
+        "headcount": len(engineers),
+        "pto_days": pto_days,
+        "overlap_hours": overlap_hours_per_day,
+        "effective_capacity": len(engineers) * 10 - pto_days,  # 10-day sprint
+    }
+    log.append(entry)
+
+    with open(CAPACITY_LOG, "w") as f:
+        json.dump(log, f, indent=2)
+    return entry
+```
+
 ---
 
 ## Posting Weekly Velocity to Slack
@@ -272,6 +385,39 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}
 ```
+
+---
+
+## Async Retrospective Metrics
+
+Velocity alone doesn't explain why a sprint went well or poorly. Pair it with structured async retrospective data to build a complete picture:
+
+```markdown
+## Sprint 42 Retro Data
+
+**Velocity:** 45 pts (forecast was 48)
+
+**What slowed us:**
+- [ ] Auth service PR sat in review 4 days (tag: review_delay)
+- [ ] Two unplanned production incidents (tag: incidents)
+
+**What went well:**
+- [ ] All planned features shipped
+- [ ] Zero regression bugs from QA
+
+**Action items:**
+- [ ] Set max 48-hour review SLA for PRs @alice owns rotation
+- [ ] Add incident response runbook to reduce investigation time
+```
+
+Store retro notes in a structured format (YAML or JSON in your repo) and query them over time to find patterns:
+
+```bash
+# Count review_delay tags across last 10 retros
+grep -r "review_delay" retros/ | wc -l
+```
+
+When velocity drops, checking 3 retros back usually surfaces the systemic cause. For remote teams, the cause is almost always one of three things: review bottlenecks, unclear acceptance criteria, or unplanned interrupt work eating into planned capacity.
 
 ---
 
