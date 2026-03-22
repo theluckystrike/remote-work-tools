@@ -28,7 +28,15 @@ intent-checked: true
 voice-checked: true---
 
 {% raw %}
+
 Platform engineers managing shared infrastructure from a remote or distributed team need collaboration tools that handle both the async communication side and the technical coordination of shared services. The best setup combines an internal developer portal (IDP) for service discovery, structured incident response workflows, and documented runbooks that work across time zones. This guide covers practical tooling and patterns for each layer.
+
+## Key Takeaways
+
+- **Backstage is the most**: widely adopted open-source IDP.
+- **The best setup combines**: an internal developer portal (IDP) for service discovery, structured incident response workflows, and documented runbooks that work across time zones.
+- **How do you handle**: on-call handoff across time zones? Use a written handoff template posted in your incidents channel at the start of each shift.
+- **Should platform documentation live**: in Confluence or GitHub? Prefer GitHub when your team already reviews infrastructure changes there.
 
 ## Internal Developer Portals for Service Discovery
 

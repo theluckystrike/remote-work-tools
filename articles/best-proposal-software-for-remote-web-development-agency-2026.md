@@ -18,6 +18,15 @@ voice-checked: true---
 
 Use PandaDoc for template flexibility and async commenting, Proposal.io for visual proposals and client self-service portals, or build custom proposals in Notion plus Google Docs if you prefer control and no additional subscriptions. Choose based on whether you need compliance reporting, client signatures, or tight team collaboration features.
 
+## Key Takeaways
+
+- **Most tools offer free**: trials—use them to evaluate how well each supports your team's async workflow and integrates with your development process.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Choose based on whether**: you need compliance reporting, client signatures, or tight team collaboration features.
+- **Weaknesses**: No built-in e-signature (requires integration with tools like DocuSign).
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+
 ## What Remote Web Development Agencies Need in Proposal Software
 
 Before examining specific tools, identify the features that matter most for distributed development teams:

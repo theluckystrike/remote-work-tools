@@ -33,6 +33,18 @@ As a solo freelance UX designer working remotely, you juggle research, wireframi
 
 This guide evaluates proposal tools specifically for solo remote UX designers who need efficiency without enterprise complexity.
 
+## Key Takeaways
+
+- **Clarity (25% impact)**: Clients choose proposals they understand completely
+3.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **As a solo freelance**: UX designer working remotely, you juggle research, wireframing, prototyping, and client communication—all without the support infrastructure of an agency.
+- **Can we talk through**: what's most important to you?" Objection: "Can you do this in half the timeline?" Response: "I could compress to 3 weeks, but this would mean skipping user testing.
+- **Social proof (30% impact)**: Case studies and testimonials outweigh features
+2.
+- **Risk reduction (25% impact)**: Guarantees and refund policies
+4.
+
 ## What Solo UX Designers Actually Need in a Proposal Tool
 
 Before examining specific tools, let's establish the criteria that matter for your situation:

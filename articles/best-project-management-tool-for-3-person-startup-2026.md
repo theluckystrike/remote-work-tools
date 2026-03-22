@@ -17,6 +17,15 @@ tags: [remote-work-tools, best-of]---
 
 Choose Linear if your team prioritizes speed and GitHub integration, GitHub Projects if you want zero learning curve and no additional subscriptions, or Notion if you prefer flexibility and less-structured workflows. For three-person startups, the best tool is whichever one your team will actually use consistently—all three options work at this scale.
 
+## Key Takeaways
+
+- **The pricing is reasonable**: at $10 per user monthly for Plus, with a free personal tier that works for individual use.
+- **The only limitation**: free tier can't use multiple teams/projects.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **For three-person startups**: the best tool is whichever one your team will actually use consistently—all three options work at this scale.
+- **If you grow beyond 10 people**: Standard tier costs $24/month total.
+- **When you grow beyond that**: Team plan at $15/month ($5 × 3) is still affordable.
+
 ## What a 3-Person Startup Actually Needs
 
 Your team of three probably shares roles. One person might handle frontend, another backend, and the third manages product and customer communication—or all three rotate through different responsibilities. Your project management tool needs to support this flexibility without forcing you into rigid workflows.
