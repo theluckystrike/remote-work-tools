@@ -17,6 +17,8 @@ voice-checked: true
 
 Slack in a 10-person team is manageable. Slack in a 200-person remote team without structure becomes a noise machine that creates anxiety, buries decisions, and wastes hours. This guide covers the structural changes that make Slack work at scale: channel taxonomy, notification policies, Workflow Builder automations, and async-first norms.
 
+The failure mode is not that engineers use Slack wrong. It is that nobody ever defined what right looks like. Teams grow, channels multiply, and notification defaults stay at "everything." Twelve months later you have 400 channels, engineers with badges in the hundreds, and a team that treats Slack like an always-on meeting room.
+
 ## Channel Taxonomy
 
 The most important decision you make in Slack is your channel naming convention. A consistent prefix system lets anyone find a channel in 3 seconds.
@@ -34,6 +36,8 @@ The most important decision you make in Slack is your channel naming convention.
 ```
 
 **Archive vs delete**: Archive channels when projects end; never delete them. Decisions and context from #proj-payment-redesign may be referenced 18 months later.
+
+**Enforcement**: Assign a Slack admin who reviews new channel requests weekly. Any channel not matching the taxonomy gets renamed or archived. This sounds bureaucratic but it takes 10 minutes a week and prevents 400-channel entropy.
 
 ## Notification Policy
 
@@ -67,6 +71,8 @@ Notification defaults:
 Preferences → Notifications → My keywords
 Add: [your name], [your team], [system names you own], outage, urgent, on-call
 ```
+
+**@here and @channel governance**: Remove `@here` and `@channel` posting permission from all non-admin users in channels with more than 50 members. In a 200-person engineering org, a carelessly placed `@here` in #general interrupts 200 people simultaneously. The only legitimate use case at scale is a true emergency announcement.
 
 ## Required Channels
 
@@ -140,6 +146,19 @@ Steps:
 To create these in Slack:
 - Go to your workspace → Tools → Workflow Builder → Create
 
+**Workflow 4: On-call handoff**
+
+```
+Trigger: Scheduled, every Monday 9am
+Channel: #eng-on-call
+Steps:
+  1. Post a form: "Who is on-call this week? Who is secondary?"
+  2. Wait for response from on-call rotation manager
+  3. Post to channel: "This week's on-call: @primary (primary), @secondary (secondary). Escalation: [link to runbook]"
+```
+
+Automated handoff posts eliminate the "who is on call right now" question that wastes 5 minutes every time it comes up in a large remote team.
+
 ## Channel Description Template
 
 Every channel must have a description. Undescribed channels get archived after 90 days.
@@ -164,22 +183,33 @@ Document these in your team's remote work playbook:
 
 1. **No hello messages.** Don't send "hey" and wait for a response.
    State your question or request in the first message.
-   ❌ "Hey Mike, got a minute?"
-   ✅ "Mike — can you review PR #342 before EOD? It blocks the deploy."
+   Bad: "Hey Mike, got a minute?"
+   Good: "Mike — can you review PR #342 before EOD? It blocks the deploy."
 
 2. **Thread everything.** Replies to a message go in its thread.
    Channel = signal. Thread = detail.
 
 3. **Reactions are answers.**
-   ✅ = done | 👀 = I'll look at this | ❓ = I have a question (follow up in thread)
+   Check = done | Eyes = I'll look at this | Question mark = I have a question (follow up in thread)
    Don't reply "sounds good" or "will do" — add a checkmark.
 
 4. **Status = availability signal.** Update your status:
-   🟢 Available | 🟡 Focus time (async only) | 🔴 Do not disturb | ✈️ OOO
+   Green = Available | Yellow = Focus time (async only) | Red = Do not disturb | Plane = OOO
 
 5. **Public over private.** Default to public channels for work discussions.
    DMs should be for sensitive topics only.
 ```
+
+**The response time contract**: Define expected response times explicitly. A common structure for remote engineering teams:
+
+```
+DMs to specific person: 4 hours during working hours
+@mentions in team channels: 4 hours during working hours
+@mentions in other channels: next working day
+Urgent prefix in message: 30 minutes during working hours
+```
+
+Post this in your onboarding doc and in the channel description of #help-onboarding. Undefined response time expectations are a major source of anxiety in remote teams.
 
 ## Reducing Notification Anxiety at Scale
 
@@ -200,6 +230,22 @@ Set your working hours: e.g., 9am–6pm Mon-Fri (your local time)
 Others see "In a meeting" or "Outside working hours" badge
 ```
 
+**The mute everything approach**: Some engineers mute all channels except direct messages and their primary team channel. They check muted channels once in the morning and once in the afternoon. This feels counterintuitive but is consistent with how high-output async teams work — Slack becomes a mailbox, not a real-time chat room.
+
+## Slack Alternatives Worth Knowing
+
+If your team is evaluating whether Slack is the right tool:
+
+| Tool | Strength | Weakness | Best for |
+|---|---|---|---|
+| Slack | Best ecosystem, most integrations | Expensive at scale ($8.75/user/mo Pro) | Teams needing deep tool integration |
+| Discord | Free, good threads, voice channels | Consumer UX, poor enterprise controls | Small teams, open source projects |
+| Linear | Issue tracking + minimal comms | Not a Slack replacement | Engineering-only teams |
+| Twist | Thread-first design, async-native | Smaller ecosystem, fewer integrations | Fully async remote teams |
+| Teams | Included in M365 | Poor developer experience | Teams already paying for M365 |
+
+For engineering teams of 50+, Slack Pro or Business+ is generally the right answer despite the cost. The integration ecosystem — GitHub, PagerDuty, Grafana, Jira, Datadog — is unmatched and worth the premium for engineering productivity.
+
 ## Analytics: Identifying Noise Channels
 
 Slack Analytics (Admin console → Analytics) shows message and member counts per channel. Any channel with:
@@ -208,6 +254,8 @@ Slack Analytics (Admin console → Analytics) shows message and member counts pe
 - High join rate, high leave rate → unclear purpose
 
 Review monthly, archive ruthlessly.
+
+**The 90-day rule**: Any channel with zero messages in 90 days is automatically archived. Configure this in Admin console → Settings → Channel Management. The channel still exists and can be unarchived — this is not deletion. Teams that know inactive channels auto-archive will close temporary project channels themselves rather than letting them linger.
 
 ## Related Reading
 
