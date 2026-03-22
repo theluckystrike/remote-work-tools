@@ -190,6 +190,75 @@ Pair your dehumidifier with other humidity control strategies:
 - Use exhaust fans when performing moisture-generating tasks
 - Run dehumidifier during off-peak electricity hours if using time-of-use pricing
 
+## Product Recommendations by Use Case
+
+### For Budget-Conscious Setups (Under $300)
+
+**Frigidaire 50-Pint Dehumidifier** ($250-280)
+- Capacity: 50 pints/day
+- Coverage: Up to 4,500 sq ft
+- Energy Factor: 1.8 L/kWh
+- Noise: 52 dB
+- Water container: 1.6 gallons
+- Pros: Affordable, basic reliability, adequate for most basement offices
+- Cons: No smart features, manual drain collection required
+- Best for: Tight budgets, 500-1,500 sq ft basements
+
+**Vremi 30-Pint Dehumidifier** ($180-220)
+- Capacity: 30 pints/day
+- Coverage: Up to 1,500 sq ft
+- Energy Factor: 1.6 L/kWh
+- Noise: 50 dB
+- Pros: Compact, quiet, budget-friendly
+- Cons: Limited capacity, not suitable for larger basements
+- Best for: Small home offices, guest rooms
+
+### For Mid-Range Smart Setups ($400-700)
+
+**LG PuriCare Dehumidifier with WiFi** ($450-550)
+- Capacity: 50 pints/day
+- WiFi-enabled for remote control
+- Smart Home integration: Google Home, Alexa compatible
+- Energy Factor: 2.1 L/kWh (excellent)
+- Continuous drain option: Yes
+- Noise: 49 dB (quiet for compressor unit)
+- Features: Jet Cool technology for faster dehumidification
+- Best for: Tech-savvy workers who want automation, moderate basements
+
+**hOmeLabs Dehumidifier 70-Pint** ($380-420)
+- Capacity: 70 pints/day
+- Coverage: Up to 4,500 sq ft
+- Energy Factor: 1.95 L/kWh
+- Continuous drain: Yes
+- Noise: 51 dB
+- Pros: High capacity, affordable for the size
+- Cons: No WiFi, no smart features
+- Best for: Large basements without smart home needs
+
+### For Premium/Full-Featured ($700-1200)
+
+**Aer Comfort 70-Pint Smart Dehumidifier** ($800-950)
+- Capacity: 70 pints/day
+- WiFi + voice control (Alexa, Google Home)
+- Smart home integration: Home Assistant, SmartThings
+- Energy Factor: 2.25 L/kWh
+- Continuous drain: Yes, with pump
+- Noise: 48 dB
+- Additional sensors: Integrated CO2 monitor, air quality tracking
+- Pros: Excellent automation potential, quiet, high efficiency
+- Cons: Premium pricing
+- Best for: Larger tech-focused setups, HVAC integration needs
+
+## Comparison Table: Popular Dehumidifiers for Home Office
+
+| Model | Price | Capacity (pints) | Coverage (sq ft) | WiFi | Noise (dB) | Energy Factor | Best For |
+|-------|-------|------------------|------------------|------|-----------|---------------|----------|
+| Frigidaire 50-Pint | $250 | 50 | 4,500 | No | 52 | 1.8 | Budget option |
+| Vremi 30-Pint | $180 | 30 | 1,500 | No | 50 | 1.6 | Small office |
+| LG PuriCare 50 | $500 | 50 | 3,000 | Yes | 49 | 2.1 | Smart home |
+| hOmeLabs 70-Pint | $420 | 70 | 4,500 | No | 51 | 1.95 | Large basement |
+| Aer Comfort 70 | $900 | 70 | 5,000 | Yes | 48 | 2.25 | Premium setup |
+
 ## Automation Workflows
 
 Set up conditional logic that responds to your schedule and environmental conditions:
