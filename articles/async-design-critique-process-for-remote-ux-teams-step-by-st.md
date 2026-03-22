@@ -55,7 +55,7 @@ Use a consistent format for presenting designs. Many teams use a simple markdown
 - [User flow diagram]
 ```
 
-This structure ensures reviewers understand the context before diving into feedback.
+This structure ensures reviewers understand the context before exploring feedback.
 
 ## Step 2: Define Your Review Timeline
 
@@ -318,7 +318,7 @@ Real design teams face messy feedback situations. Here's how experienced teams n
 Selected dropdown (Reviewer B's suggestion) because:
 - Clearer discoverability for new users
 - Existing design system has established dropdown patterns
-- Toggle would add new interaction paradigm
+- Toggle would add new interaction model
 
 ### Future validation
 Will A/B test toggle vs dropdown in next user research sprint and revisit this decision with real usage data.

@@ -72,7 +72,7 @@ Unique feature: Button sensitivity adjustment. Standard mice require consistent 
 
 ### Trackballs
 
-Trackballs reverse traditional mouse paradigm—your hand stays stationary while you manipulate a ball with fingers or thumb. Zero hand movement means zero pronation strain.
+Trackballs reverse traditional mouse model—your hand stays stationary while you manipulate a ball with fingers or thumb. Zero hand movement means zero pronation strain.
 
 **Kensington Expert Mouse Trackball**
 - Large 55mm ball supports multiple finger control styles

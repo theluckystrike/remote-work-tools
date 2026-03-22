@@ -183,7 +183,7 @@ The trade-off emerges when traveling. The Nexstand stays bulky even collapsed, r
 
 Both stands assume you'll use external input devices. The architecture works best when your laptop serves as a secondary display while an external keyboard and mouse handle input.
 
-For developers coupling the stand with mechanical keyboards or ergonomic mice, the workflow becomes seamless. The elevated laptop position creates natural desk real estate for peripherals without creating awkward arm angles.
+For developers coupling the stand with mechanical keyboards or ergonomic mice, the workflow becomes smooth. The elevated laptop position creates natural desk real estate for peripherals without creating awkward arm angles.
 
 ## Environmental and Longevity Considerations
 

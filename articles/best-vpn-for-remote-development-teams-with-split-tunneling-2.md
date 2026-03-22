@@ -28,7 +28,7 @@ However, split tunneling introduces complexity. You need to decide what to route
 
 ## Key Features to Evaluate
 
-Before diving into specific solutions, here are the criteria that matter for development teams:
+Before looking at specific solutions, here are the criteria that matter for development teams:
 
 - Split tunneling granularity: Can you route by domain, IP range, or application?
 - Protocol support: WireGuard, OpenVPN, IPSec—which protocols are available?

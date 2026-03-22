@@ -17,7 +17,7 @@ If your team has been using Loom for asynchronous video messaging but you're con
 
 ## Understanding the Key Differences
 
-Before migrating, it's worth understanding what distinguishes these two platforms. Loom pioneered async video for professional teams, offering screen recording with webcam overlay, automatic transcription, and deep integrations with productivity tools. Claap positions itself as a more streamlined alternative with a focus on team collaboration features like comments, reactions, and threading directly on videos.
+Before migrating, it's worth understanding what distinguishes these two platforms. Loom pioneered async video for professional teams, offering screen recording with webcam overlay, automatic transcription, and deep integrations with productivity tools. Claap positions itself as a simpler alternative with a focus on team collaboration features like comments, reactions, and threading directly on videos.
 
 For developers, the difference often comes down to API access and automation capabilities. Loom provides a more mature developer ecosystem with a documented API, while Claap emphasizes real-time collaboration features that some teams find more intuitive for daily async communication.
 

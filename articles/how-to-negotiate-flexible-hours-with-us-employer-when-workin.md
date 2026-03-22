@@ -111,7 +111,7 @@ Request starting earlier or later to maximize overlap. A 7 AM start in Berlin gi
 **"What about emergencies?"** Establish an on-call rotation that accounts for timezone coverage. If you're in Europe and the US team is in California, you naturally cover different coverage windows:
 
 ```yaml
-# Example on-call schedule that leverages timezone difference
+# Example on-call schedule that applies timezone difference
 on_call_coverage:
   europe_team:
     timezone: CET
@@ -266,7 +266,7 @@ If your manager says no initially, you have several intermediate options:
 
 ## Legal and HR Considerations
 
-Before negotiating flexible hours, understand the legal landscape:
+Before negotiating flexible hours, understand the legal market:
 
 **Employment status**: Remote contractors have fewer protections than employees in many jurisdictions. If you're a contractor, this discussion happens at project negotiation, not during employment.
 

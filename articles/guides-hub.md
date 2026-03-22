@@ -1179,7 +1179,7 @@ tags: [remote-work-tools]
 - [Veed API - Upload and process video](/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
 - [Whiteboard vs Glass Board for Home Office: A Practical Guide](/whiteboard-vs-glass-board-for-home-office/)
 - [WorldTimeBuddy Alternatives for Remote Scheduling](/worldtimebuddy-alternatives-for-remote-scheduling/)
-- [Zulip vs Slack: A Deep Dive into Threaded Conversation](/zulip-vs-slack-threaded-conversation-comparison/)
+- [Zulip vs Slack: A Deep Look at Threaded Conversation](/zulip-vs-slack-threaded-conversation-comparison/)
 
 ## Productivity
 

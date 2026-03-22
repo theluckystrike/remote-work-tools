@@ -165,7 +165,7 @@ Required vs. Actual Documentation Matrix
 | Team Processes | Yes | Partial | 1/5 | High |
 
 Missing Documentation (High Priority):
-1. Comprehensive onboarding guide
+1. Full onboarding guide
 2. Updated architecture diagrams
 3. Deployment runbooks
 4. Team meeting processes

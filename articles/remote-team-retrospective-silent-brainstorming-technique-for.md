@@ -81,7 +81,7 @@ The live meeting becomes much more efficient. Skip the typical round-robin where
 
 1. **Review themes together** (5 minutes): Walk through the grouped stickies quickly
 2. **Vote on priorities** (5 minutes): Each team member gets 3 dots to distribute
-3. **Discuss top items** (20-30 minutes): Deep dive into the highest-voted themes
+3. **Discuss top items** (20-30 minutes): Deep explore the highest-voted themes
 4. **Assign action owners** (5 minutes): Clear accountability for follow-up
 
 ## Practical Example: Tech Team Sprint Retrospective

@@ -24,7 +24,7 @@ Speed test results show bandwidth capacity, but reliability determines whether y
 
 Bali's internet infrastructure has improved significantly, with fiber availability expanding in areas like Seminyak, Canggu, and Ubud. However, rural areas and newer coworking spaces may rely on satellite or limited cable infrastructure. Thorough testing before your move prevents productivity disruption.
 
-## Understanding Bali's Internet Landscape
+## Understanding Bali's Internet Space
 
 Bali's connectivity varies sharply by neighborhood. Canggu and Seminyak have become digital nomad hubs with multiple ISPs competing for business, resulting in reasonably reliable fiber connections at many coworking spaces. Ubud offers good connectivity in the central area near Monkey Forest Road, with quality dropping as you move toward the rice fields.
 

@@ -267,7 +267,7 @@ For remote workers earning from overseas clients or employers:
 Write a concise statement explaining your intent to stay in Indonesia and maintain your financial stability:
 
 ```
-"I am a remote software developer working with [Company/Clients] based in [Country]. My annual income is [amount], consistently deposited to my bank account. I intend to establish residence in Indonesia while continuing my remote work, which requires no local employment. I have arranged long-term accommodation in [City] and maintain comprehensive health insurance through [Insurance Provider]. The funds demonstrated in my bank statements represent accumulated savings, and I will continue earning sufficient income to sustain myself comfortably in Indonesia."
+"I am a remote software developer working with [Company/Clients] based in [Country]. My annual income is [amount], consistently deposited to my bank account. I intend to establish residence in Indonesia while continuing my remote work, which requires no local employment. I have arranged long-term accommodation in [City] and maintain detailed health insurance through [Insurance Provider]. The funds demonstrated in my bank statements represent accumulated savings, and I will continue earning sufficient income to sustain myself comfortably in Indonesia."
 ```
 
 This statement addresses every concern immigration officers might have: legitimate income, no local employment, financial sustainability, housing, and health considerations.

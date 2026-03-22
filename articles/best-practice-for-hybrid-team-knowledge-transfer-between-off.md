@@ -77,7 +77,7 @@ blockers:
 
 ## Use Contextual Documentation Patterns
 
-Rather than trying to document everything comprehensively upfront, adopt contextual documentation that captures knowledge exactly when it's needed. This approach reduces the burden of maintaining separate documentation and ensures relevance.
+Rather than trying to document everything fully upfront, adopt contextual documentation that captures knowledge exactly when it's needed. This approach reduces the burden of maintaining separate documentation and ensures relevance.
 
 ### Decision Logs
 

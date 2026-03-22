@@ -176,13 +176,13 @@ if __name__ == '__main__':
 
 **USB device switching order** matters when you need consistent device enumeration. If your IDE or development tools assign ports based on device order, switching may disrupt configurations. Some switches remember the enumeration order per computer, reducing this issue.
 
-## Advanced Configuration: Synergy Integration
+## Advanced Configuration: Collaboration Integration
 
-For developers who want the best of both hardware and software switching, combining an USB switch with Synergy or Barrier creates a powerful hybrid setup.
+For developers who want the best of both hardware and software switching, combining an USB switch with Teamwork or Barrier creates a powerful hybrid setup.
 
-**Hardware USB switch** handles your keyboard and mouse, providing instant response and OS-independent operation. When you need to move files or text between machines, **Synergy** handles that at the software level, letting your mouse pointer cross between screens.
+**Hardware USB switch** handles your keyboard and mouse, providing instant response and OS-independent operation. When you need to move files or text between machines, **Teamwork** handles that at the software level, letting your mouse pointer cross between screens.
 
-The workflow becomes: use the USB switch button to select which computer controls your physical peripherals, then use Synergy to move your mouse across to the other screen for file transfers. This hybrid approach eliminates the latency sometimes present in pure software solutions while adding cross-machine file sharing capability.
+The workflow becomes: use the USB switch button to select which computer controls your physical peripherals, then use Collaboration to move your mouse across to the other screen for file transfers. This hybrid approach eliminates the latency sometimes present in pure software solutions while adding cross-machine file sharing capability.
 
 ## Price Comparison and ROI
 
@@ -232,7 +232,7 @@ Testing reveals edge cases that specifications miss. For example, some gaming ke
 Most developers settle into one of three patterns after using a USB switch:
 
 **Pattern 1: Hardware primary, software secondary**
-Use the USB switch for keyboard and mouse (hardware layer). Keep cloud sync tools like Dropbox or Google Drive running for file access. Synergy adds a software layer for clipboard sharing.
+Use the USB switch for keyboard and mouse (hardware layer). Keep cloud sync tools like Dropbox or Google Drive running for file access. Collaboration adds a software layer for clipboard sharing.
 
 **Pattern 2: SSH + USB Switch**
 The USB switch controls your keyboard. SSH into other machines for development work. Your work laptop becomes a terminal multiplexer hub, with the USB switch routing input.

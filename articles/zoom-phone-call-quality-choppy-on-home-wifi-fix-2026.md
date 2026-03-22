@@ -19,7 +19,7 @@ Choppy Zoom calls from your home office are frustrating when you are trying to c
 
 ## Understanding Why Home WiFi Causes Choppy Calls
 
-Before diving into fixes, it helps to understand what creates choppy calls in the first place. Zoom and similar video conferencing platforms transmit audio and video data in real-time, which requires a consistent network connection with low latency. When your home WiFi network experiences interference, congestion, or signal degradation, packets of audio and video data arrive out of order or arrive too late, resulting in the choppy playback you hear and see.
+Before looking at fixes, it helps to understand what creates choppy calls in the first place. Zoom and similar video conferencing platforms transmit audio and video data in real-time, which requires a consistent network connection with low latency. When your home WiFi network experiences interference, congestion, or signal degradation, packets of audio and video data arrive out of order or arrive too late, resulting in the choppy playback you hear and see.
 
 Several common factors affect home WiFi performance for video calls. Your router's distance from your workspace directly impacts signal strength. Competing bandwidth from other household members streaming, gaming, or downloading creates congestion. Physical obstacles like walls and furniture weaken signals. Older router hardware may not handle multiple simultaneous connections efficiently. Neighboring networks on overlapping WiFi channels cause interference in dense housing situations.
 

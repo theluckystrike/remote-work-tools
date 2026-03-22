@@ -440,7 +440,7 @@ def send_delivery_notification(client_email: str, delivery_info: dict, smtp_conf
         server.sendmail(smtp_config["from_address"], client_email, msg.as_string())
 ```
 
-Trigger this function at the end of your `TourDeliveryService.upload_tour()` call to make notification seamless and traceable.
+Trigger this function at the end of your `TourDeliveryService.upload_tour()` call to make notification simple and traceable.
 
 ## Handling High-Demand Periods with a Job Queue
 

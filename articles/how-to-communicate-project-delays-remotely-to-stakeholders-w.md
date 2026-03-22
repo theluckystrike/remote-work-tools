@@ -199,7 +199,7 @@ next_steps = ['Complete payment refactor', 'Update test suite', 'Schedule stakeh
 print(generate_status_update('Payment API Integration', milestones, blockers, next_steps))
 ```
 
-Running this script weekly produces consistent, readable status updates that stakeholders can scan quickly or dive into for details.
+Running this script weekly produces consistent, readable status updates that stakeholders can scan quickly or look at for details.
 
 ## Best Practices for Remote Delay Communication
 

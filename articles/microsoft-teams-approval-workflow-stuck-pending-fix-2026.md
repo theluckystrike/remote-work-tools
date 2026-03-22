@@ -18,7 +18,7 @@ Microsoft Teams approval workflows help remote teams automate document reviews, 
 
 ## Understanding Microsoft Teams Approval Workflows
 
-Teams approval workflows integrate with Microsoft Power Automate to create streamlined request-and-approval processes. These workflows typically involve a requestor submitting a form or document, which then routes to one or more approvers for review. The status can show as pending, approved, or rejected.
+Teams approval workflows integrate with Microsoft Power Automate to create smoothed out request-and-approval processes. These workflows typically involve a requestor submitting a form or document, which then routes to one or more approvers for review. The status can show as pending, approved, or rejected.
 
 Remote workers rely on these workflows for essential operations: expense reimbursement, purchase approvals, contract reviews, and leave requests. When workflows hang in pending status, team productivity suffers significantly.
 

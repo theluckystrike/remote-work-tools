@@ -62,7 +62,7 @@ Within the first two minutes, establish the ground rules:
 - Share the Slack channel or email thread for follow-up
 
 ```
-"Hi everyone, thanks for joining. We're recording this for our team members in other time zones. Let's keep this focused on the big picture today—we'll dive into details in working sessions later."
+"Hi everyone, thanks for joining. We're recording this for our team members in other time zones. Let's keep this focused on the big picture today—we'll look at details in working sessions later."
 ```
 
 ### Define Success Together

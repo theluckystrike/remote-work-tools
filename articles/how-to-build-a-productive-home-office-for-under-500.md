@@ -102,7 +102,7 @@ Strategy 3: Check for bulk discounts
 
 Strategy 4: Point out minor issues
 - Worn upholstery, scratches, missing components
-- Use as negotiation leverage
+- Use as negotiation use
 - But be honest—don't manufacture problems
 ```
 

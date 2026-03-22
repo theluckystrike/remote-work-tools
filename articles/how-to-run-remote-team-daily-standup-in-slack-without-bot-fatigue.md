@@ -53,7 +53,7 @@ Here's a simple template team members can adapt:
 **Blockers:** Need access to staging environment credentials
 ```
 
-Posting updates as threads means the channel stays readable. Others can scan updates quickly and dive into threads when they need details. This structure also makes it easy to bookmark or reference specific updates later.
+Posting updates as threads means the channel stays readable. Others can scan updates quickly and examine threads when they need details. This structure also makes it easy to bookmark or reference specific updates later.
 
 ### Implement a Time-Boxed Window
 

@@ -83,7 +83,7 @@ Example Opal OS Setup:
 ```
 
 **Strengths:**
-- Best-in-class auto-framing (game-changer for dynamic talks)
+- Best-in-class auto-framing (big deal for dynamic talks)
 - Excellent low-light performance
 - Premium build quality (aluminum frame)
 - Works with all major platforms (Zoom, Teams, Google Meet)
@@ -150,7 +150,7 @@ Example Insta360 Setup:
 - Excellent value ($99 is budget-friendly)
 - 4K resolution native support
 - 120-degree field of view (best for showing surroundings)
-- Dual sensor design (seamless panoramic stitching)
+- Dual sensor design (easy panoramic stitching)
 - Works excellently in most lighting conditions
 
 **Weaknesses:**

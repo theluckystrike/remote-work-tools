@@ -259,7 +259,7 @@ Rate your team's needs on a scale of 1-5:
 
 ```
 If score is:
-16-20: Choose Supernova (comprehensive platform)
+16-20: Choose Supernova (thorough platform)
 11-15: Choose Tokens Studio (Figma-integrated)
 6-10: Choose Style Dictionary (developer-first)
 

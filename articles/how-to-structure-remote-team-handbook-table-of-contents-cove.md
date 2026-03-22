@@ -19,7 +19,7 @@ Structure your remote handbook with these 10 core sections in order: Welcome & M
 
 ## Core Principles for Handbook Structure
 
-Before diving into specific sections, apply three foundational principles:
+Before examining specific sections, apply three foundational principles:
 
 Accessibility over comprehensiveness: Every policy should be findable within three clicks from the handbook's main page. Remote teams span multiple time zones, so employees cannot simply walk to a colleague's desk for quick answers.
 

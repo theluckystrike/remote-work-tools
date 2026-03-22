@@ -47,7 +47,7 @@ The project sponsor or product owner presents the business context. Keep this fo
 - Success metrics: How will we measure completion?
 - Strategic alignment: How does this connect to broader goals?
 
-Avoid diving into technical architecture in this phase—engineers will ask, but redirect to the "how" discussions later.
+Avoid exploring technical architecture in this phase—engineers will ask, but redirect to the "how" discussions later.
 
 ### Phase 2: Team Introduction and Role Clarity (15 minutes)
 

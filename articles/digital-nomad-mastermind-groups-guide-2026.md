@@ -108,7 +108,7 @@ Mastermind groups thrive on communication between meetings. These tools support 
 
 **Zoom** remains the standard for video calls. Use breakout rooms for subgroup discussions if your group exceeds six members.
 
-**Google Calendar with appointment slots** streamlines scheduling across time zones. Create a recurring event and let members claim slots.
+**Google Calendar with appointment slots** simplifies scheduling across time zones. Create a recurring event and let members claim slots.
 
 ## Measuring Mastermind Group Success
 

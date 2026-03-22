@@ -35,7 +35,7 @@ A practical workflow for a remote team: the growth manager creates a weekly dash
 
 ## Looker Studio: Free and Integrated with Google Ecosystem
 
-Looker Studio (formerly Google Data Studio) provides excellent value for small remote teams already embedded in the Google ecosystem. The free tier accommodates most small team needs, and the seamless integration with Google Sheets, Google Analytics, and BigQuery makes it a natural choice for teams using these tools.
+Looker Studio (formerly Google Data Studio) provides excellent value for small remote teams already embedded in the Google ecosystem. The free tier accommodates most small team needs, and the smooth integration with Google Sheets, Google Analytics, and BigQuery makes it a natural choice for teams using these tools.
 
 The template gallery offers quick-start dashboards for common use cases, reducing setup time significantly. Remote teams appreciate the real-time collaboration features that allow multiple team members to work on the same dashboard simultaneously, regardless of their physical location.
 
@@ -63,7 +63,7 @@ The pricing model becomes expensive quickly for larger teams, but small teams ca
 
 Regardless of which BI tool you choose, successful adoption by a remote team without data analysts requires deliberate practices. Start by identifying two or three questions that different team members need answered regularly, then build dashboards addressing those specific needs before expanding scope.
 
-Create a shared documentation page explaining how to interpret each dashboard and what actions to take based on different metric values. This reduces the constant "what does this mean?" questions and empowers team members to draw their own conclusions.
+Create a shared documentation page explaining how to interpret each dashboard and what actions to take based on different metric values. This reduces the constant "what does this mean?" questions and helps team members to draw their own conclusions.
 
 Establish a weekly or bi-weekly rhythm where team members review dashboards together during overlapping hours, discussing anomalies and planning investigations into interesting patterns. This builds data literacy across the team while maintaining the collaborative advantage of remote work.
 

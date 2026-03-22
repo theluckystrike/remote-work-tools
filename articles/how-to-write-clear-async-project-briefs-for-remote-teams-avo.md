@@ -22,7 +22,7 @@ This guide provides frameworks, templates, and practical examples specifically d
 
 ## Why Project Briefs Fail in Async Environments
 
-Before diving into the frameworks, understanding why briefs fail helps you avoid common pitfalls:
+Before examining the frameworks, understanding why briefs fail helps you avoid common pitfalls:
 
 - **Implicit context** — You know the background; your remote teammates don't
 - **Unstated assumptions** — Technical decisions that seem obvious to you may confuse others

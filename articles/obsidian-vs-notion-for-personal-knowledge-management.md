@@ -60,7 +60,7 @@ Both tools support markdown, but with different philosophies.
 
 Obsidian's editor is markdown-first. You type markdown syntax directly. The preview mode renders the formatted output. Live Preview mode shows rendered content as you type. The experience feels like writing code—plain text with semantic markup.
 
-Notion uses a block-based editor that renders inline. Type `/` to insert blocks—text, headings, code, toggles, callouts. The slash command menu becomes your primary interface. While Notion supports markdown shortcuts (typing `# ` creates a heading), the block paradigm differs from traditional markdown workflows.
+Notion uses a block-based editor that renders inline. Type `/` to insert blocks—text, headings, code, toggles, callouts. The slash command menu becomes your primary interface. While Notion supports markdown shortcuts (typing `# ` creates a heading), the block model differs from traditional markdown workflows.
 
 For developers who live in their editors, Obsidian's approach feels familiar. For those comfortable with Notion's block model, the slash commands become intuitive after a short learning curve.
 

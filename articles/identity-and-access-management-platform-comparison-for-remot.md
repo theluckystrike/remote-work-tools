@@ -31,11 +31,11 @@ Before comparing platforms, identify the requirements that matter most for distr
 - **API-first architecture** for automating user provisioning and access reviews
 - **Audit logging** for compliance and security incident investigation
 
-Remote teams also need seamless onboarding for contractors and short-term contributors. The ability to grant scoped, time-limited access without IT involvement speeds up hiring workflows and reduces the security risk of lingering accounts.
+Remote teams also need easy onboarding for contractors and short-term contributors. The ability to grant scoped, time-limited access without IT involvement speeds up hiring workflows and reduces the security risk of lingering accounts.
 
 ## Platform Comparison Overview
 
-Before diving into each platform, here is a side-by-side summary of how the major options stack up across the dimensions that matter most for distributed teams:
+Before examining each platform, here is a side-by-side summary of how the major options stack up across the dimensions that matter most for distributed teams:
 
 | Platform | Best For | SSO Apps | MFA Options | Self-Hosted | Starting Price |
 |----------|----------|----------|-------------|-------------|----------------|

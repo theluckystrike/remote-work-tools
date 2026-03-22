@@ -20,7 +20,7 @@ Choose Slack if you need tight integrations with GitHub and Jira, Slack if your 
 
 ## What Remote Development Shops Actually Need
 
-Before diving into tools, let's define the requirements that matter for development work:
+Before exploring tools, let's define the requirements that matter for development work:
 
 - Contextual history: Clients need to see previous discussions when reviewing new deliverables
 - Async-first design: Not everyone works in the same time zone

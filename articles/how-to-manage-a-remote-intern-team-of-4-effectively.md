@@ -235,7 +235,7 @@ handle this scenario. Give it a read and we can
 discuss if you have questions."
 ```
 
-**4. Empower them to solve it:**
+**4. Help them to solve it:**
 ```
 "Why don't you take another look with that pattern
 in mind? Reply in the thread if you get stuck and

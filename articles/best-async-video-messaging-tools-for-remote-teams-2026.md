@@ -368,7 +368,7 @@ No native Slack integration
 Share link manually
 ```
 
-Winner: Loom (seamless), Tella (close second)
+Winner: Loom (smooth), Tella (close second)
 
 ### Notion Integration
 

@@ -164,7 +164,7 @@ If your team is considering switching whiteboard tools, migrate strategically:
 
 **For moving from FigJam to Miro:**
 - FigJam exports as PDF/images
-- Both tools have similar interface paradigms, making transition smoother than other combinations
+- Both tools have similar interface approaches, making transition smoother than other combinations
 - Can run both simultaneously during transition period (2-4 weeks)
 
 Avoid switching tools mid-sprint or during high-meeting periods. The context-switching cost of learning new tools compounds with actual work deadlines.

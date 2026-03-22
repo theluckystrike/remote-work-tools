@@ -1041,7 +1041,7 @@ Growth Areas (consensus):
 
 2. **Delegation and trust** (mentioned by 3 respondents)
    - "Tries to do too much personally"
-   - "Could empower team more on decisions"
+   - "Could help team more on decisions"
 
 Questions Needing Clarification:
 - One respondent said "hard to reach" while others said "very responsive"

@@ -79,7 +79,7 @@ This structured approach forces clients to organize their thoughts rather than s
 
 ## Implement a Revision Triage Process
 
-When feedback arrives, resist the urge to immediately start making changes. Instead, implement a triage process that categorizes and prioritizes revision requests. This protects your team from diving into low-impact changes while higher-priority items remain unresolved.
+When feedback arrives, resist the urge to immediately start making changes. Instead, implement a triage process that categorizes and prioritizes revision requests. This protects your team from examining low-impact changes while higher-priority items remain unresolved.
 
 Create a simple classification system:
 

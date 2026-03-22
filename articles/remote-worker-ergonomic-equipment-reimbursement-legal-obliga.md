@@ -20,7 +20,7 @@ As remote work becomes permanent for many organizations, employers face increasi
 
 ## The Legal Framework: What Mandates Reimbursement?
 
-Understanding the legal landscape requires examining multiple regulatory layers. In the United States, there is no federal mandate requiring employers to reimburse remote workers for home office equipment. However, several states have enacted laws that change this calculation.
+Understanding the legal market requires examining multiple regulatory layers. In the United States, there is no federal mandate requiring employers to reimburse remote workers for home office equipment. However, several states have enacted laws that change this calculation.
 
 ### State-Specific Requirements
 

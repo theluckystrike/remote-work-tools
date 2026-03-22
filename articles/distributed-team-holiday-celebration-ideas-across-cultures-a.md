@@ -120,7 +120,7 @@ Time-Delayed Toasts: Have each regional pod raise a toast at their local midnigh
 
 ## Cultural Inclusivity in Celebration Design
 
-A distributed team likely celebrates multiple holidays beyond the Western Christmas paradigm. Consider these approaches:
+A distributed team likely celebrates multiple holidays beyond the Western Christmas approach. Consider these approaches:
 
 ### The Holiday Season Calendar
 

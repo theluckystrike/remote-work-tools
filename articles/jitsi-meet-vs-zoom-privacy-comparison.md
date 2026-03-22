@@ -21,7 +21,7 @@ Choose Jitsi Meet if you need full data sovereignty, self-hosting capability, an
 
 ## Who This Decision Actually Affects
 
-Before diving into technical specs, consider which category describes your situation. Privacy concerns are not uniform across remote teams.
+Before exploring technical specs, consider which category describes your situation. Privacy concerns are not uniform across remote teams.
 
 **High-stakes privacy users** — legal firms, healthcare providers, security researchers, government contractors, and startups working on proprietary technology — need the strongest possible privacy guarantees. For these teams, any scenario where meeting content could be accessed by a third party is unacceptable. Jitsi self-hosted is the only defensible choice.
 

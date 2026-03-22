@@ -77,7 +77,7 @@ This section defines what success looks like. Remote agencies need precise proje
 
 ### Technical and Design Context
 
-For development and design agencies, this section captures the technical landscape. Understanding existing systems, constraints, and preferences prevents discovery phases from stretching unnecessarily.
+For development and design agencies, this section captures the technical market. Understanding existing systems, constraints, and preferences prevents discovery phases from stretching unnecessarily.
 
 ```markdown
 ## Technical Background
