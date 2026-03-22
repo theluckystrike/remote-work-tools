@@ -7,9 +7,9 @@ last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-remote-team-technical-debt-backlog-2026/
 categories: [guides]
-tags: [remote-work-tools, tools]
+tags: [remote-work-tools, tools, remote-work]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

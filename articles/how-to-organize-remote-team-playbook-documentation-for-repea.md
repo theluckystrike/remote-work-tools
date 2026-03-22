@@ -8,7 +8,7 @@ permalink: /how-to-organize-remote-team-playbook-documentation-for-repea/
 categories: [guides]
 tags: [remote-work-tools, documentation, playbooks, workflows, team-collaboration, developer-tools, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

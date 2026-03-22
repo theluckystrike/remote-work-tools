@@ -7,7 +7,7 @@ last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-remote-team-when-multiple-parents-have-overlap/
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 categories: [guides]
 intent-checked: true

@@ -5,11 +5,11 @@ author: "Remote Work Tools Guide"
 date: "2026-03-22"
 updated: "2026-03-22"
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 category: "Remote Teams"
-tags: ["Technical Debt", "Engineering Management", "Remote Teams", "Prioritization"]
+tags: [remote-work-tools, Technical Debt, Engineering Management, Remote Teams, Prioritization, remote-work]
 permalink: /how-to-manage-remote-team-technical-debt-2026/
 ---
 
