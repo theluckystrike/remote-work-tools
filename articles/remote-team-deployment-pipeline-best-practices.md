@@ -6,7 +6,7 @@ date: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-deployment-pipeline-best-practices/
 categories: [guides]
-tags: [remote-work-tools]
+tags: [remote-work-tools, best-of, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

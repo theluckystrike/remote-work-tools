@@ -9,7 +9,7 @@ permalink: /remote-team-feature-delivery-predictability-metric-for-distr/
 categories: [guides]
 tags: [remote-work-tools, feature-delivery, predictability, metrics, remote-work, distributed-teams, dev-metrics]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
