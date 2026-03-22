@@ -9,7 +9,7 @@ permalink: /how-to-create-remote-team-inclusive-meeting-practices-guide-/
 categories: [guides]
 tags: [remote-work-tools, remote-work, inclusive-meetings, global-teams, async, team-collaboration]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

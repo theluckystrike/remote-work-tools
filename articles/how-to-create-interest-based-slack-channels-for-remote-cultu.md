@@ -9,7 +9,7 @@ permalink: /how-to-create-interest-based-slack-channels-for-remote-cultu/
 categories: [guides]
 tags: [remote-work-tools, slack, remote-culture, team-building, slack-channels, community, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

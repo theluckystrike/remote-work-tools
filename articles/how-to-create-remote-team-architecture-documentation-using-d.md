@@ -9,7 +9,7 @@ permalink: /how-to-create-remote-team-architecture-documentation-using-d/
 categories: [guides]
 tags: [remote-work-tools, architecture-documentation, diagrams-as-code, remote-teams, mermaid, plantuml, technical-writing, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

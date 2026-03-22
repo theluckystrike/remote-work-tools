@@ -11,7 +11,7 @@ tags: [remote-work-tools, decision-making, remote-work, distributed-teams, async
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 
 {% raw %}

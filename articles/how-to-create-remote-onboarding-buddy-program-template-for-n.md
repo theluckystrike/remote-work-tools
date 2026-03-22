@@ -9,7 +9,7 @@ permalink: /how-to-create-remote-onboarding-buddy-program-template-for-n/
 categories: [guides]
 tags: [remote-work-tools, onboarding, remote-work, buddy-program, new-hire, team-collaboration]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
