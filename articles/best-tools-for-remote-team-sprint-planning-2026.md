@@ -5,11 +5,11 @@ author: "Remote Work Tools Guide"
 date: 2026-03-22
 updated: 2026-03-22
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 slug: best-tools-for-remote-team-sprint-planning-2026
-tags: ["sprint-planning", "project-management", "remote-teams", "agile"]
+tags: [remote-work-tools, sprint-planning, project-management, remote-teams, agile, best-of, remote-work]
 permalink: /best-tools-for-remote-team-sprint-planning-2026/
 ---
 
