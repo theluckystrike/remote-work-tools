@@ -17,6 +17,28 @@ voice-checked: true
 
 Slack in a 10-person team is manageable. Slack in a 200-person remote team without structure becomes a noise machine that creates anxiety, buries decisions, and wastes hours. This guide covers the structural changes that make Slack work at scale: channel taxonomy, notification policies, Workflow Builder automations, and async-first norms.
 
+## Table of Contents
+
+- [Channel Taxonomy](#channel-taxonomy)
+- [Notification Policy](#notification-policy)
+- [Required Channels](#required-channels)
+- [Workflow Builder Automations](#workflow-builder-automations)
+- [Channel Description Template](#channel-description-template)
+- [Async-First Norms to Codify](#async-first-norms-to-codify)
+- [Slack Norms](#slack-norms)
+- [Reducing Notification Anxiety at Scale](#reducing-notification-anxiety-at-scale)
+- [Slack Alternatives Worth Knowing](#slack-alternatives-worth-knowing)
+- [Analytics: Identifying Noise Channels](#analytics-identifying-noise-channels)
+- [Advanced Workflow Builder Patterns](#advanced-workflow-builder-patterns)
+- [Notification Audit Framework](#notification-audit-framework)
+- [Slack Notification Audit Checklist](#slack-notification-audit-checklist)
+- [Slack Bot Strategy for Engineering Teams](#slack-bot-strategy-for-engineering-teams)
+- [Building a Distributed Thread Culture](#building-a-distributed-thread-culture)
+- [Slack Threading Culture](#slack-threading-culture)
+- [Slack Workspace Scaling Milestones](#slack-workspace-scaling-milestones)
+- [Common Slack Mistakes to Avoid](#common-slack-mistakes-to-avoid)
+- [Related Reading](#related-reading)
+
 The failure mode is not that engineers use Slack wrong. It is that nobody ever defined what right looks like. Teams grow, channels multiply, and notification defaults stay at "everything." Twelve months later you have 400 channels, engineers with badges in the hundreds, and a team that treats Slack like an always-on meeting room.
 
 ## Channel Taxonomy

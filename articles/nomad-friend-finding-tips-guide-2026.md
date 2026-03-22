@@ -19,6 +19,24 @@ intent-checked: true
 
 Building meaningful connections as a digital nomad requires different strategies than traditional social networking. This guide provides practical approaches for developers and power users to find genuine friendships while working remotely.
 
+## Table of Contents
+
+- [Why Nomad Friendship Differs From Regular Social Networking](#why-nomad-friendship-differs-from-regular-social-networking)
+- [Digital Tools and Platforms That Actually Work](#digital-tools-and-platforms-that-actually-work)
+- [Co-Living and Co-Working Strategies](#co-living-and-co-working-strategies)
+- [Building Your Own Nomad Community](#building-your-own-nomad-community)
+- [[City] Digital Nomad Meetup](#city-digital-nomad-meetup)
+- [Relationship Maintenance Across Time Zones](#relationship-maintenance-across-time-zones)
+- [Quality Over Quantity](#quality-over-quantity)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Practical First Steps](#practical-first-steps)
+- [Structured Friend-Finding System](#structured-friend-finding-system)
+- [Tool Stack for Nomad Friendships](#tool-stack-for-nomad-friendships)
+- [Friendship Types and Maintenance Requirements](#friendship-types-and-maintenance-requirements)
+- [The Long-Distance Friendship Maintenance Protocol](#the-long-distance-friendship-maintenance-protocol)
+- [Preventing Loneliness: The Backup Plan](#preventing-loneliness-the-backup-plan)
+- [Friendship Deals: What to Discuss Early](#friendship-deals-what-to-discuss-early)
+
 ## Why Nomad Friendship Differs From Regular Social Networking
 
 The transient nature of travel creates unique challenges. You meet people constantly but rarely have time to move beyond surface-level interactions. The key shift involves treating friendship-building as a skill rather than a chance occurrence.

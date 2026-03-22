@@ -18,6 +18,18 @@ voice-checked: true
 
 Working remotely from anywhere in the world creates unique challenges when it comes to getting paid. Banks block transactions, currency conversion eats your earnings, and tax compliance becomes a multi-jurisdictional puzzle. This guide covers practical solutions for receiving international payments as a digital nomad developer or power user.
 
+## Table of Contents
+
+- [Understanding the Payment Space](#understanding-the-payment-space)
+- [Payment Processors That Work Globally](#payment-processors-that-work-globally)
+- [Cryptocurrency as a Payment Method](#cryptocurrency-as-a-payment-method)
+- [Managing Multiple Currencies](#managing-multiple-currencies)
+- [Tax Considerations for Digital Nomads](#tax-considerations-for-digital-nomads)
+- [Practical Setup Recommendations](#practical-setup-recommendations)
+- [Payment Platform Comparison for 2026](#payment-platform-comparison-for-2026)
+- [Setting Up a Nomad-Friendly Payment Infrastructure](#setting-up-a-nomad-friendly-payment-infrastructure)
+- [Invoicing Templates for International Clients](#invoicing-templates-for-international-clients)
+
 ## Understanding the Payment Space
 
 The traditional banking system wasn't designed for global remote work. When a client in Germany pays you in euros while you're in Thailand, several intermediaries take cuts, and settlement can take 5-7 business days. Modern payment platforms solve these problems, but each has trade-offs worth understanding.

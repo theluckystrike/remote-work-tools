@@ -18,6 +18,23 @@ voice-checked: true
 
 An USB switch lets you share one keyboard and mouse between two computers without swapping cables. For developers running both a work laptop and personal desktop, an USB switch provides transitions between machines without the desk clutter of multiple peripherals or the complexity of software-based solutions. This guide covers USB switch basics, hardware selection criteria, setup procedures, and automation options for power users.
 
+## Table of Contents
+
+- [Understanding USB Switch Basics](#understanding-usb-switch-basics)
+- [Hardware Selection Criteria](#hardware-selection-criteria)
+- [Popular USB Switch Options](#popular-usb-switch-options)
+- [Setup and Configuration](#setup-and-configuration)
+- [Software Automation for Developers](#software-automation-for-developers)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Advanced Configuration: Collaboration Integration](#advanced-configuration-collaboration-integration)
+- [Price Comparison and ROI](#price-comparison-and-roi)
+- [Common Gotchas and Solutions](#common-gotchas-and-solutions)
+- [Real-World Testing Recommendations](#real-world-testing-recommendations)
+- [Desktop Setup Integration Patterns](#desktop-setup-integration-patterns)
+- [Maintenance and Longevity](#maintenance-and-longevity)
+- [Migration Path: Upgrading Your Setup](#migration-path-upgrading-your-setup)
+- [When NOT to Use a USB Switch](#when-not-to-use-a-usb-switch)
+
 ## Understanding USB Switch Basics
 
 USB switches work at the hardware level, routing USB signals between connected computers. When you press a button or hotkey, the switch sends your keyboard and mouse inputs to the selected machine. Unlike KVM switches that also handle video, pure USB switches assume you already have a shared monitor setup or are using a separate KVM for video switching.

@@ -17,6 +17,27 @@ voice-checked: true
 
 A single ISP connection is a single point of failure. For engineers on customer calls, async video reviews, or live deployments, a dropped connection at the wrong moment costs trust and time. This guide covers a practical dual-ISP failover setup for home offices that achieves automatic failover in under 30 seconds.
 
+## Table of Contents
+
+- [The Core Setup](#the-core-setup)
+- [Hardware Option 1: GL.iNet Flint 2 (Budget)](#hardware-option-1-glinet-flint-2-budget)
+- [Hardware Option 2: Peplink Balance One ($299)](#hardware-option-2-peplink-balance-one-299)
+- [4G/5G Backup Modem Recommendations](#4g5g-backup-modem-recommendations)
+- [Testing Failover Behavior](#testing-failover-behavior)
+- [Application-Level Failover Gaps](#application-level-failover-gaps)
+- [Monitoring Connection Health](#monitoring-connection-health)
+- [Budget Breakdown](#budget-breakdown)
+- [Configuring DNS Resilience Alongside Internet Redundancy](#configuring-dns-resilience-alongside-internet-redundancy)
+- [Automating Failover Notifications](#automating-failover-notifications)
+- [WireGuard VPN Across Dual-WAN](#wireguard-vpn-across-dual-wan)
+- [Failover Testing Methodology](#failover-testing-methodology)
+- [Carrier Coverage Comparison for Backup Internet](#carrier-coverage-comparison-for-backup-internet)
+- [Monitoring Failover Health Over Time](#monitoring-failover-health-over-time)
+- [Mosh Configuration for Persistent Remote Sessions](#mosh-configuration-for-persistent-remote-sessions)
+- [Application-Level Failover Configuration Template](#application-level-failover-configuration-template)
+- [Practical Failover Checklist](#practical-failover-checklist)
+- [Related Reading](#related-reading)
+
 ## The Core Setup
 
 The goal is two independent internet connections that switch automatically when the primary fails:

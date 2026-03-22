@@ -18,6 +18,33 @@ voice-checked: true
 
 Daily standups were designed for co-located teams with short feedback loops. When everyone sits in the same room, a 15-minute morning sync makes sense. For distributed teams spanning multiple time zones, these synchronous meetings often mean someone joins at 7 AM or 9 PM local time—hardly the foundation for sustainable productivity.
 
+## Table of Contents
+
+- [The Core Problem with Synchronous Standups](#the-core-problem-with-synchronous-standups)
+- [Structuring Effective Async Standups](#structuring-effective-async-standups)
+- [Yesterday](#yesterday)
+- [Today](#today)
+- [Blockers](#blockers)
+- [Notes](#notes)
+- [Tools and Platforms](#tools-and-platforms)
+- [Weekly Update - Week of March 16](#weekly-update-week-of-march-16)
+- [Making Async Standups Stick](#making-async-standups-stick)
+- [When Synchronous Check-ins Still Work](#when-synchronous-check-ins-still-work)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Tool Comparison: Platforms for Async Standups](#tool-comparison-platforms-for-async-standups)
+- [Advanced Template Variations](#advanced-template-variations)
+- [Key Metrics](#key-metrics)
+- [Completed](#completed)
+- [In Progress](#in-progress)
+- [Blockers](#blockers)
+- [Shipped Impact](#shipped-impact)
+- [In Motion](#in-motion)
+- [Blocked](#blocked)
+- [Status [Your Timezone - UTC+0]](#status-your-timezone-utc0)
+- [Context for Other Timezones](#context-for-other-timezones)
+- [Measuring Success](#measuring-success)
+- [Implementation Checklist](#implementation-checklist)
+
 Async text updates solve this problem. Instead of gathering everyone simultaneously, team members share their status in writing at a time that works for them. Others read updates when their day begins. This approach respects time zones, preserves deep work blocks, and creates a searchable record of progress.
 
 This guide covers practical strategies for making async standups work for your team.

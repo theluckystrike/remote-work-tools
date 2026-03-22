@@ -17,6 +17,35 @@ voice-checked: true
 {% raw %}
 Effective postmortem reports for remote teams share three properties: they are written close to the incident while details are fresh, they establish blameless root cause analysis, and they produce specific action items with assigned owners. This guide provides a complete template and workflow for distributed teams working asynchronously across time zones.
 
+## Table of Contents
+
+- [Why Remote Teams Need a Different Approach](#why-remote-teams-need-a-different-approach)
+- [The Postmortem Template](#the-postmortem-template)
+- [Impact](#impact)
+- [Timeline (UTC)](#timeline-utc)
+- [Root Cause](#root-cause)
+- [Contributing Factors](#contributing-factors)
+- [Action Items](#action-items)
+- [Lessons Learned](#lessons-learned)
+- [Writing an Effective Root Cause Analysis](#writing-an-effective-root-cause-analysis)
+- [Conducting the Timeline Reconstruction Asynchronously](#conducting-the-timeline-reconstruction-asynchronously)
+- [Managing Action Items Across Time Zones](#managing-action-items-across-time-zones)
+- [Why Postmortems Matter for Remote Teams](#why-postmortems-matter-for-remote-teams)
+- [Structuring the Postmortem Process for Async Teams](#structuring-the-postmortem-process-for-async-teams)
+- [Making Postmortems a Habit](#making-postmortems-a-habit)
+- [Tools and Platforms for Remote Postmortems](#tools-and-platforms-for-remote-postmortems)
+- [Template for Different Incident Types](#template-for-different-incident-types)
+- [Common Postmortem Mistakes to Avoid](#common-postmortem-mistakes-to-avoid)
+- [Measuring Postmortem Program Health](#measuring-postmortem-program-health)
+- [Handling Sensitive Incidents: Approach Differences](#handling-sensitive-incidents-approach-differences)
+- [Postmortem Anti-Patterns to Avoid](#postmortem-anti-patterns-to-avoid)
+- [Postmortem as Learning Tool](#postmortem-as-learning-tool)
+- [Monitoring Gaps](#monitoring-gaps)
+- [Deployment Risks](#deployment-risks)
+- [Communication Delays](#communication-delays)
+- [Scaling Postmortems as You Grow](#scaling-postmortems-as-you-grow)
+- [Building a Postmortem Culture](#building-a-postmortem-culture)
+
 ## Why Remote Teams Need a Different Approach
 
 Co-located teams can debrief in a conference room the day after an incident. Remote teams cannot. Without a structured async process, postmortems become vague Slack threads or get skipped entirely, and the same incidents recur.

@@ -17,6 +17,27 @@ voice-checked: true
 
 Sprint planning in remote teams fails when it tries to replicate in-person planning ceremonies over video. A 2-hour Zoom call with 8 engineers estimating stories one by one is exhausting and ineffective. Async-first sprint planning — with a short synchronous alignment call at the end — works better. This guide covers the tools and the workflow.
 
+## Table of Contents
+
+- [The Async-First Sprint Planning Workflow](#the-async-first-sprint-planning-workflow)
+- [Tool 1: Linear](#tool-1-linear)
+- [Sprint Start Checklist](#sprint-start-checklist)
+- [Tool 2: Jira](#tool-2-jira)
+- [Tool 3: Notion for Sprint Documentation](#tool-3-notion-for-sprint-documentation)
+- [Team Capacity](#team-capacity)
+- [Sprint Scope (committed)](#sprint-scope-committed)
+- [Sprint Decision Log](#sprint-decision-log)
+- [Post-Sprint Review (filled in after sprint)](#post-sprint-review-filled-in-after-sprint)
+- [Tool Comparison: Linear vs Jira vs Height](#tool-comparison-linear-vs-jira-vs-height)
+- [Estimation Anti-Patterns](#estimation-anti-patterns)
+- [PlanningPoker.com for Async Estimation](#planningpokercom-for-async-estimation)
+- [Async Estimation Challenges and Solutions](#async-estimation-challenges-and-solutions)
+- [Velocity Anti-Patterns and Fixes](#velocity-anti-patterns-and-fixes)
+- [Scaling Sprint Planning Across Multiple Teams](#scaling-sprint-planning-across-multiple-teams)
+- [Multi-Team Sprint Planning Process](#multi-team-sprint-planning-process)
+- [Cross-team dependency tracking](#cross-team-dependency-tracking)
+- [Related Reading](#related-reading)
+
 ## The Async-First Sprint Planning Workflow
 
 The pattern that works for most remote teams:

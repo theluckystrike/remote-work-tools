@@ -18,6 +18,24 @@ voice-checked: true
 
 Building a remote pharmacy consultation service requires careful attention to both technical infrastructure and regulatory compliance. Unlike general video conferencing applications, pharmacy consultations involve sensitive patient health information and often require integration with pharmacy management systems. This guide walks through the technical architecture and implementation steps for developers building such a service.
 
+## Table of Contents
+
+- [Core Requirements Analysis](#core-requirements-analysis)
+- [Video Conferencing Platform Selection](#video-conferencing-platform-selection)
+- [System Architecture Design](#system-architecture-design)
+- [HIPAA Compliance Implementation](#hipaa-compliance-implementation)
+- [Patient Experience Considerations](#patient-experience-considerations)
+- [Integration with Pharmacy Operations](#integration-with-pharmacy-operations)
+- [Scaling Considerations](#scaling-considerations)
+- [Cost Analysis: Building vs. Buying](#cost-analysis-building-vs-buying)
+- [Real-World Implementation: Retail Pharmacy Chain](#real-world-implementation-retail-pharmacy-chain)
+- [Staff Training Requirements](#staff-training-requirements)
+- [Regulatory Considerations by Jurisdiction](#regulatory-considerations-by-jurisdiction)
+- [Scaling to Multiple Pharmacies](#scaling-to-multiple-pharmacies)
+- [Integration with Pharmacy Management Systems](#integration-with-pharmacy-management-systems)
+- [Patient Acquisition and Marketing](#patient-acquisition-and-marketing)
+- [Measuring Success Metrics](#measuring-success-metrics)
+
 ## Core Requirements Analysis
 
 Before selecting tools, define the specific requirements your pharmacy consultation service must meet. Consider these factors:

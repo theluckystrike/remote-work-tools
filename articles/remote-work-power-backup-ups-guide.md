@@ -17,6 +17,25 @@ voice-checked: true
 
 Power interruptions are the second most common cause of remote work disruption after internet failures. A UPS (Uninterruptible Power Supply) buys you time: enough to finish a sentence on a call, save work, or let your router switch to backup internet. This guide covers UPS sizing, equipment priority, and the configuration needed to protect a home office engineering setup.
 
+## Table of Contents
+
+- [What a UPS Actually Does](#what-a-ups-actually-does)
+- [Sizing Your UPS](#sizing-your-ups)
+- [Recommended UPS Models](#recommended-ups-models)
+- [What to Put on Battery vs. Surge-Only](#what-to-put-on-battery-vs-surge-only)
+- [UPS Software Configuration](#ups-software-configuration)
+- [Monitoring Battery Health](#monitoring-battery-health)
+- [Power Outage Response Runbook](#power-outage-response-runbook)
+- [Power Outage Protocol](#power-outage-protocol)
+- [Budget Recommendation](#budget-recommendation)
+- [Comparing UPS Models: Feature Matrix](#comparing-ups-models-feature-matrix)
+- [Configuration Deep Dive: Linux/Unix Systems](#configuration-deep-dive-linuxunix-systems)
+- [Networking Redundancy Integration](#networking-redundancy-integration)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Multi-Zone Setup for Distributed Teams](#multi-zone-setup-for-distributed-teams)
+- [UPS Status During Incidents](#ups-status-during-incidents)
+- [Related Reading](#related-reading)
+
 Most engineers treat UPS as a luxury. It is not. If you are working on a deployment, in a video call with a client, or running a long test suite when the power goes out, you will lose time proportional to how unprepared you are. A proper UPS installation costs less than one hour of wasted work at most engineer salaries.
 
 ## What a UPS Actually Does

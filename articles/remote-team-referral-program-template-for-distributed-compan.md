@@ -18,6 +18,25 @@ voice-checked: true
 
 Employee referral programs remain one of the most cost-effective hiring channels, with referral hires typically showing higher retention rates and faster onboarding. For distributed companies, designing a referral program that works across time zones and legal jurisdictions requires thoughtful structure and clear communication. This guide provides a template you can adapt for your remote team, with practical implementation details and code examples for tracking referrals.
 
+## Table of Contents
+
+- [Defining Referral Program Tiers](#defining-referral-program-tiers)
+- [The Referral Process Workflow](#the-referral-process-workflow)
+- [Eligibility Rules and Restrictions](#eligibility-rules-and-restrictions)
+- [Communication Templates](#communication-templates)
+- [Measuring Referral Program Success](#measuring-referral-program-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Implementation Checklist](#implementation-checklist)
+- [Real Results From Distributed Companies](#real-results-from-distributed-companies)
+- [Common Objections and Rebuttals](#common-objections-and-rebuttals)
+- [Bonus Payout Timing](#bonus-payout-timing)
+- [Integrating With Your Hiring Process](#integrating-with-your-hiring-process)
+- [Recruiting in Competitive Markets](#recruiting-in-competitive-markets)
+- [Tax Implications (US-specific)](#tax-implications-us-specific)
+- [Optimizing Your Program as You Grow](#optimizing-your-program-as-you-grow)
+- [Communicating Your Program Effectively](#communicating-your-program-effectively)
+- [International Considerations](#international-considerations)
+
 ## Defining Referral Program Tiers
 
 Successful referral programs use tiered bonus structures based on role difficulty and time-to-fill. For distributed companies, consider adding location-based adjustments since hiring senior talent in high-cost markets often requires competitive incentives.

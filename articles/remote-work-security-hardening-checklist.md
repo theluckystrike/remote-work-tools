@@ -33,6 +33,17 @@ tags: [remote-work-tools, security, remote-work]
 
 Remote work expands your attack surface. Your home network, personal laptop, and public WiFi hotspots are all less controlled than a corporate office environment. This checklist covers the practical security hardening steps every remote developer should have in place, with commands to verify and implement each one.
 
+## Table of Contents
+
+- [SSH Key Security](#ssh-key-security)
+- [Multi-Factor Authentication (MFA)](#multi-factor-authentication-mfa)
+- [Disk Encryption](#disk-encryption)
+- [Firewall Configuration](#firewall-configuration)
+- [DNS-over-HTTPS (DoH)](#dns-over-https-doh)
+- [Secrets Management](#secrets-management)
+- [Public WiFi Precautions](#public-wifi-precautions)
+- [Security Audit Script](#security-audit-script)
+
 ## SSH Key Security
 
 Weak SSH keys are still how most servers get compromised. Audit and upgrade your keys:

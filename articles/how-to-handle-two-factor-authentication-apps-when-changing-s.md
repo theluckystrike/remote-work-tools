@@ -18,6 +18,17 @@ voice-checked: true
 
 Changing SIM cards frequently while traveling internationally creates a specific problem for two-factor authentication (2FA). Your phone number changes, and many 2FA systems link directly to that number—whether it's SMS codes or authenticator apps tied to a specific device. If you rely on phone-based 2FA without preparation, you risk losing access to critical accounts at the worst possible moment.
 
+## Table of Contents
+
+- [Understanding the Core Problem](#understanding-the-core-problem)
+- [Strategy 1: Use Authenticator Apps with Cloud Backup](#strategy-1-use-authenticator-apps-with-cloud-backup)
+- [Strategy 2: Export and Store Recovery Codes Properly](#strategy-2-export-and-store-recovery-codes-properly)
+- [Strategy 3: Use Hardware Tokens as Primary 2FA](#strategy-3-use-hardware-tokens-as-primary-2fa)
+- [Strategy 4: Keep a Static Number Through VoIP](#strategy-4-keep-a-static-number-through-voip)
+- [Strategy 5: Prepare Before You Travel](#strategy-5-prepare-before-you-travel)
+- [What to Do If You're Locked Out](#what-to-do-if-youre-locked-out)
+- [Building Your Long-Term Setup](#building-your-long-term-setup)
+
 This guide covers practical strategies for developers and power users who switch SIM cards regularly. The focus is on maintaining access to your accounts without creating security vulnerabilities.
 
 ## Understanding the Core Problem

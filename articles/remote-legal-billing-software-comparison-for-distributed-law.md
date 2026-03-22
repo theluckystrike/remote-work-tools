@@ -19,6 +19,19 @@ voice-checked: true
 
 Distributed law firms need billing software with real-time time tracking, multi-jurisdiction trust accounting, and API access for custom integrations. Clio, MyCase, PracticePanther, and CosmoLex offer different feature sets—from $39/user/month starter plans to enterprise solutions. This comparison evaluates leading platforms from a technical perspective, focusing on API capabilities, compliance features, and integration patterns for distributed legal teams tracking hours across multiple jurisdictions.
 
+## Table of Contents
+
+- [Core Requirements for Distributed Legal Billing](#core-requirements-for-distributed-legal-billing)
+- [Platform Analysis](#platform-analysis)
+- [Technical Implementation Considerations](#technical-implementation-considerations)
+- [Decision Framework](#decision-framework)
+- [Pricing Breakdown and ROI Analysis](#pricing-breakdown-and-roi-analysis)
+- [Implementation Timeline and Considerations](#implementation-timeline-and-considerations)
+- [Real-World Integration Scenarios](#real-world-integration-scenarios)
+- [Data Migration from Previous Systems](#data-migration-from-previous-systems)
+- [Compliance Considerations by Jurisdiction](#compliance-considerations-by-jurisdiction)
+- [Staff Training and Change Management](#staff-training-and-change-management)
+
 ## Core Requirements for Distributed Legal Billing
 
 Before evaluating specific platforms, establish your baseline requirements. Remote legal billing software must handle several critical functions that become more complex when team members work across different jurisdictions and time zones.

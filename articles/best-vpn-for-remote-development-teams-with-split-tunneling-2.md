@@ -18,6 +18,19 @@ voice-checked: true
 
 Remote development teams have specific networking requirements that differ from typical office workers. You need fast access to GitHub, npm registries, Docker Hub, cloud provider consoles, and staging environments—all while maintaining security for internal resources. Split tunneling becomes essential here: route only the necessary traffic through the VPN tunnel while letting everything else flow directly to the internet. This review examines VPN solutions that handle split tunneling well for development workflows.
 
+## Table of Contents
+
+- [Why Split Tunneling Matters for Developers](#why-split-tunneling-matters-for-developers)
+- [Key Features to Evaluate](#key-features-to-evaluate)
+- [Solution Analysis](#solution-analysis)
+- [Practical Configuration Examples](#practical-configuration-examples)
+- [Performance Considerations](#performance-considerations)
+- [Security Trade-offs](#security-trade-offs)
+- [Implementation Recommendations](#implementation-recommendations)
+- [VPN Solution Comparison Table](#vpn-solution-comparison-table)
+- [Troubleshooting Split Tunneling Issues](#troubleshooting-split-tunneling-issues)
+- [Security Audit Checklist](#security-audit-checklist)
+
 ## Why Split Tunneling Matters for Developers
 
 When you route all traffic through a VPN, every request to a public service like npmjs.com or GitHub makes an unnecessary round trip through the VPN server. This adds latency to every operation. For a team pushing code commits, installing packages, or pulling Docker images throughout the day, that latency compounds into significant productivity loss.

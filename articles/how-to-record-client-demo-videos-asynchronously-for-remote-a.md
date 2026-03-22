@@ -19,6 +19,18 @@ voice-checked: true
 
 Async demo videos let clients review features on their schedule without time zone coordination, while your team preserves deep work focus. Screen recordings with voiceover narration via Loom, Screenflow, or OBS plus timestamped feedback links create structured review cycles. This guide covers recording workflows, editing automation, and client feedback collection for remote agencies.
 
+## Table of Contents
+
+- [Why Asynchronous Demos Work Better](#why-asynchronous-demos-work-better)
+- [Recording Setup: The Minimal Viable Studio](#recording-setup-the-minimal-viable-studio)
+- [Structuring Your Demo Videos](#structuring-your-demo-videos)
+- [Automation Workflows for Volume Agencies](#automation-workflows-for-volume-agencies)
+- [Handling Client Feedback on Videos](#handling-client-feedback-on-videos)
+- [Common Pitfalls and Fixes](#common-pitfalls-and-fixes)
+- [Recording Equipment Recommendations](#recording-equipment-recommendations)
+- [Workflow Example: Weekly Demo Cycle](#workflow-example-weekly-demo-cycle)
+- [Measuring Demo Impact](#measuring-demo-impact)
+
 ## Why Asynchronous Demos Work Better
 
 Synchronous demos force everyone into real-time availability. A 30-minute demo actually costs an hour when you account for setup time, context switching, and the inevitable small talk. With asynchronous recordings, clients watch when convenient, pause to review tricky sections, and respond with thoughtful feedback instead of reactive "looks good."

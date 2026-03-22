@@ -17,6 +17,22 @@ voice-checked: true
 
 ## Why Retrospective Tools Matter for Small Teams
 
+## Table of Contents
+
+- [Why Retrospective Tools Matter for Small Teams](#why-retrospective-tools-matter-for-small-teams)
+- [The Five Core Features You Need](#the-five-core-features-you-need)
+- [Dedicated Retro Tools vs. Generic Alternatives](#dedicated-retro-tools-vs-generic-alternatives)
+- [Step-by-Step Setup for a 6-Person Team](#step-by-step-setup-for-a-6-person-team)
+- [Common Retro Formats and When to Use Them](#common-retro-formats-and-when-to-use-them)
+- [Integration with Your Development Workflow](#integration-with-your-development-workflow)
+- [Managing Remote Team Dynamics](#managing-remote-team-dynamics)
+- [Measuring Retro Effectiveness](#measuring-retro-effectiveness)
+- [Real-World Retro Scripts: Word-for-Word Examples](#real-world-retro-scripts-word-for-word-examples)
+- [Running Retros Asynchronously for Maximum Engagement](#running-retros-asynchronously-for-maximum-engagement)
+- [Tool Deep Dives](#tool-deep-dives)
+- [Scaling From 6 People to 12+](#scaling-from-6-people-to-12)
+- [Common Failure Modes and Fixes](#common-failure-modes-and-fixes)
+
 A 6-person remote team is at the sweet spot where manual processes break and tooling becomes critical. Without a dedicated retrospective tool, your team either:
 
 1. Uses generic meeting notes (everyone forgets what was discussed)

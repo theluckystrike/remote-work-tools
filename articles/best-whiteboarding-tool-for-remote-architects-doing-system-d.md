@@ -18,6 +18,23 @@ voice-checked: true
 
 Remote system design sessions require whiteboarding tools that handle complex architecture diagrams, support real-time collaboration across time zones, and integrate with your existing workflow. After testing the leading options throughout 2025 and early 2026, here's a practical comparison for architects running distributed design sessions.
 
+## Table of Contents
+
+- [What Remote Architects Need from Whiteboarding Tools](#what-remote-architects-need-from-whiteboarding-tools)
+- [Excalidraw: The Developer-Favorite Choice](#excalidraw-the-developer-favorite-choice)
+- [Miro: Enterprise-Grade Collaboration](#miro-enterprise-grade-collaboration)
+- [Mermaid.js: Code-First Diagramming](#mermaidjs-code-first-diagramming)
+- [Figma: Design-to-Architecture Workflow](#figma-design-to-architecture-workflow)
+- [Comparing the Options](#comparing-the-options)
+- [Practical Recommendation for Remote Architecture Teams](#practical-recommendation-for-remote-architecture-teams)
+- [Running Effective Remote System Design Sessions](#running-effective-remote-system-design-sessions)
+- [Workflow Integration: From Sketch to Production](#workflow-integration-from-sketch-to-production)
+- [Caching Architecture Design](#caching-architecture-design)
+- [Keyboard Shortcuts That Save Time](#keyboard-shortcuts-that-save-time)
+- [Handling Large Architecture Diagrams](#handling-large-architecture-diagrams)
+- [Collaborating Across Time Zones](#collaborating-across-time-zones)
+- [Versioning Architecture Diagrams](#versioning-architecture-diagrams)
+
 ## What Remote Architects Need from Whiteboarding Tools
 
 System design sessions differ from typical brainstorming. You need precise diagramming capabilities for:

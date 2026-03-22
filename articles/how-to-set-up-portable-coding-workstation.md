@@ -17,6 +17,25 @@ voice-checked: true
 
 A portable coding workstation lets you work from home, a co-working space, or anywhere else without losing productivity. The key constraint is setup time: a good portable setup goes from bag to working in under 5 minutes, not 20. This guide covers the hardware choices and software configuration to achieve that.
 
+## Table of Contents
+
+- [The Core Constraint: 5-Minute Setup](#the-core-constraint-5-minute-setup)
+- [Laptop](#laptop)
+- [The Hub: The Center of the Setup](#the-hub-the-center-of-the-setup)
+- [Portable Monitor](#portable-monitor)
+- [Keyboard and Mouse](#keyboard-and-mouse)
+- [Software: Making Any Machine Home](#software-making-any-machine-home)
+- [The Bag](#the-bag)
+- [Location Setup Checklist](#location-setup-checklist)
+- [Power Management on Portable Setups](#power-management-on-portable-setups)
+- [Display Configuration for Different Scenarios](#display-configuration-for-different-scenarios)
+- [Network Optimization for Portable Work](#network-optimization-for-portable-work)
+- [Portable Setup Productivity Tips](#portable-setup-productivity-tips)
+- [Handling Common Portable Work Issues](#handling-common-portable-work-issues)
+- [Comparison: Different Portability Approaches](#comparison-different-portability-approaches)
+- [Security Considerations for Portable Work](#security-considerations-for-portable-work)
+- [Related Reading](#related-reading)
+
 ## The Core Constraint: 5-Minute Setup
 
 If your portable setup takes 20 minutes to assemble, you'll stop using it. The goal is: open bag, plug in one or two cables, open laptop, start working.

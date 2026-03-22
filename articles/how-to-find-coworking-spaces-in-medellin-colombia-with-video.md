@@ -18,6 +18,26 @@ voice-checked: true
 
 Medellín has become a premier destination for digital nomads and remote workers, offering a vibrant ecosystem of coworking spaces. For developers and power users who need reliable video call capabilities, finding spaces with dedicated video call booths can significantly improve your daily workflow. This guide provides practical strategies to locate the best coworking options in Medellín with video call facilities.
 
+## Table of Contents
+
+- [Why Video Call Booths Matter for Developers](#why-video-call-booths-matter-for-developers)
+- [Search Strategies That Work](#search-strategies-that-work)
+- [Top Areas to Search in Medellín](#top-areas-to-search-in-medelln)
+- [Key Amenities to Verify](#key-amenities-to-verify)
+- [Practical Tips for Developers](#practical-tips-for-developers)
+- [Evaluating Costs](#evaluating-costs)
+- [Final Recommendations](#final-recommendations)
+- [Popular Coworking Spaces with Video Booths in Medellín](#popular-coworking-spaces-with-video-booths-in-medelln)
+- [Video Booth Setup Best Practices](#video-booth-setup-best-practices)
+- [Internet Speed Verification](#internet-speed-verification)
+- [Cost-Benefit of Monthly vs. Day Passes](#cost-benefit-of-monthly-vs-day-passes)
+- [Time Zone Considerations for Video Calls](#time-zone-considerations-for-video-calls)
+- [Building Your Coworking Network](#building-your-coworking-network)
+- [Contingency Plans for Booth Unavailability](#contingency-plans-for-booth-unavailability)
+- [Longer-Term Residence Considerations](#longer-term-residence-considerations)
+- [Medellín Coworking Etiquette](#medelln-coworking-etiquette)
+- [Using Coworking as Network Hub](#using-coworking-as-network-hub)
+
 ## Why Video Call Booths Matter for Developers
 
 When you're working on client calls, technical interviews, or team standups, background noise and interruptions can derail professional conversations. Video call booths provide soundproofed spaces specifically designed for clear communication. Many coworking spaces in Medellín have invested in these facilities to cater to the international remote worker community.

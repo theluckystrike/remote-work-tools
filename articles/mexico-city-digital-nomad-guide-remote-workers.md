@@ -18,6 +18,23 @@ voice-checked: true
 
 Mexico City has become one of the top destinations for remote workers, offering a compelling mix of affordable living, vibrant culture, and a growing tech scene. With over 300 coworking spaces, reliable internet in most areas, and a time zone that aligns with US Central Time, Mexico City digital nomad life works well for developers collaborating with North American teams.
 
+## Table of Contents
+
+- [Best Neighborhoods for Remote Workers](#best-neighborhoods-for-remote-workers)
+- [Setting Up Internet in Your Apartment](#setting-up-internet-in-your-apartment)
+- [Coworking Spaces](#coworking-spaces)
+- [Development Workflow Tips](#development-workflow-tips)
+- [Essential Apps for Mexico City Life](#essential-apps-for-mexico-city-life)
+- [Cost of Living Breakdown](#cost-of-living-breakdown)
+- [Practical Tips](#practical-tips)
+- [Getting Started](#getting-started)
+- [Mexico City Neighborhood Detailed Comparison](#mexico-city-neighborhood-detailed-comparison)
+- [Internet Providers Detailed Comparison](#internet-providers-detailed-comparison)
+- [Apartment Hunting Checklist for Remote Workers](#apartment-hunting-checklist-for-remote-workers)
+- [Internet Verification Checklist](#internet-verification-checklist)
+- [Backup Internet Setup for Remote Workers](#backup-internet-setup-for-remote-workers)
+- [Mexico City Power Outage Preparedness](#mexico-city-power-outage-preparedness)
+
 ## Best Neighborhoods for Remote Workers
 
 Choosing the right neighborhood impacts your daily productivity.

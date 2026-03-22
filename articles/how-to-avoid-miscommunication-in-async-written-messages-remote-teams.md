@@ -18,6 +18,18 @@ voice-checked: true
 
 Async written communication forms the backbone of modern remote work. Without the cues of voice tone, facial expression, and immediate feedback, text-based messages easily become sources of confusion, frustration, and conflict. Learning to communicate clearly in async formats isn't just a skill—it's a competitive advantage for distributed teams.
 
+## Table of Contents
+
+- [Why Async Written Communication Creates Unique Challenges](#why-async-written-communication-creates-unique-challenges)
+- [The CLEAR Framework for Async Messages](#the-clear-framework-for-async-messages)
+- [Writing Templates for Common Remote Work Scenarios](#writing-templates-for-common-remote-work-scenarios)
+- [Update: [Project Name] — [Date]](#update-project-name-date)
+- [Tools and Techniques to Reduce Miscommunication](#tools-and-techniques-to-reduce-miscommunication)
+- [Response Time Expectations](#response-time-expectations)
+- [Detecting and Resolving Miscommunication](#detecting-and-resolving-miscommunication)
+- [Measuring Your Team's Async Communication Health](#measuring-your-teams-async-communication-health)
+- [Building a Communication-First Remote Culture](#building-a-communication-first-remote-culture)
+
 This guide provides concrete frameworks, templates, and practices you can implement immediately to reduce miscommunication in your remote team's written exchanges.
 
 ## Why Async Written Communication Creates Unique Challenges

@@ -18,6 +18,15 @@ voice-checked: true
 
 Hiring international remote employees introduces legal complexities that domestic hires don't require. Each country has its own employment laws, tax obligations, and mandatory benefits. A poorly drafted offer letter can expose your company to legal risk, regulatory penalties, or costly disputes down the line.
 
+## Table of Contents
+
+- [Understanding Employment Classification](#understanding-employment-classification)
+- [Essential Offer Letter Components](#essential-offer-letter-components)
+- [Country-Specific Considerations](#country-specific-considerations)
+- [Using an Employer of Record (EOR)](#using-an-employer-of-record-eor)
+- [Practical Template Structure](#practical-template-structure)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+
 This guide provides a practical framework for creating compliant international offer letters. You'll find template structures, key clauses, and specific considerations for different employment classifications.
 
 ## Understanding Employment Classification

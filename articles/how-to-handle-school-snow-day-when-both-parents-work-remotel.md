@@ -18,6 +18,21 @@ voice-checked: true
 
 When both parents work remotely and schools close, the solution is pre-planning: designate staggered work windows, prepare activity kits the night before, and use asynchronous communication to reduce meeting pressure on snow days. This guide provides specific scheduling templates, activity lists, and communication strategies that let dual-remote households maintain 70-80% productivity while keeping children engaged and supervised throughout the day.
 
+## Table of Contents
+
+- [Understanding the Snow Day Challenge](#understanding-the-snow-day-challenge)
+- [Strategic Planning Before Snow Hits](#strategic-planning-before-snow-hits)
+- [Technical Setup for Snow Day Success](#technical-setup-for-snow-day-success)
+- [Practical Work-Arounds During Snow Days](#practical-work-arounds-during-snow-days)
+- [Managing Team Expectations](#managing-team-expectations)
+- [Self-Compassionate Recovery](#self-compassionate-recovery)
+- [Snow Day Budget Worksheet](#snow-day-budget-worksheet)
+- [Activity Kit Preparation Checklist](#activity-kit-preparation-checklist)
+- [Communication Templates for Your Team](#communication-templates-for-your-team)
+- [Acoustic Setup for Video Calls During Snow Days](#acoustic-setup-for-video-calls-during-snow-days)
+- [Historical Snow Day Data](#historical-snow-day-data)
+- [Real Talk: When Snow Days Don't Work](#real-talk-when-snow-days-dont-work)
+
 ## Understanding the Snow Day Challenge
 
 When schools close due to inclement weather, remote working parents face a collision of responsibilities. Unlike traditional office workers who might have backup childcare options, remote parents often have neither the flexibility to take full days off nor the luxury of external childcare on short notice.
