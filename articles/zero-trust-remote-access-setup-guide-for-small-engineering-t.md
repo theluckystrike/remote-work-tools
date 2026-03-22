@@ -7,7 +7,22 @@ last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /zero-trust-remote-access-setup-guide-for-small-engineering-t/
 reviewed: true
-score: 9
+score: 8
+categories: [guides]
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]
+---
+---
+layout: default
+title: "Zero Trust Remote Access Setup Guide for Small Engineering"
+description: "Implement zero-trust remote access by requiring multi-factor authentication for all connections, using short-lived credentials that expire quickly, and logging"
+date: 2026-03-15
+last_modified_at: 2026-03-22
+author: "Remote Work Tools Guide"
+permalink: /zero-trust-remote-access-setup-guide-for-small-engineering-t/
+reviewed: true
+score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true

@@ -9,10 +9,9 @@ permalink: /remote-working-parent-productivity-hack-using-time-blocking-/
 categories: [guides]
 tags: [remote-work-tools, productivity, time-management, remote-work, parenting, calendar]
 reviewed: true
-score: 9
+score: 7
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

@@ -13,6 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
+---
+layout: default
+title: "Quick inventory script to scan network for dormant machines"
+description: "Reactivating dormant workstations requires physical inspection, BIOS verification, operating system security updates, certificate/credential renewal, and"
+date: 2026-03-16
+last_modified_at: 2026-03-16
+author: "Remote Work Tools Guide"
+permalink: /return-to-office-it-checklist-for-reactivating-dormant-works/
+categories: [guides]
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools]
+---
 
 {% raw %}
 

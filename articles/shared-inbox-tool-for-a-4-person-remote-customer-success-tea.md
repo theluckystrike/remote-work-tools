@@ -9,10 +9,9 @@ permalink: /shared-inbox-tool-for-a-4-person-remote-customer-success-tea/
 categories: [guides]
 tags: [remote-work-tools, customer-success, shared-inbox, remote-work, automation]
 reviewed: true
-score: 9
+score: 7
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

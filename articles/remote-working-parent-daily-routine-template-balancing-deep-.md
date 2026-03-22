@@ -9,10 +9,9 @@ permalink: /remote-working-parent-daily-routine-template-balancing-deep-work-and
 categories: [guides]
 tags: [remote-work-tools, remote-work, productivity, deep-work, work-life-balance, parenting]
 reviewed: true
-score: 9
+score: 7
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 
 {% raw %}
