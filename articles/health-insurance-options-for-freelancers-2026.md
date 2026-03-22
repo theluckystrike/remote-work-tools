@@ -188,6 +188,71 @@ Keep these records for insurance purposes:
 - Receipts for all medical expenses (even with HSA-eligible plans)
 - Policy documents and enrollment confirmations
 
+## Tax Filing Deductions and Credits
+
+As a self-employed freelancer, you can deduct health insurance premiums on your federal tax return using the self-employed health insurance deduction:
+
+```python
+#!/usr/bin/env python3
+"""Calculate tax savings from health insurance deductions."""
+
+def calculate_health_insurance_tax_benefit(annual_insurance_cost, federal_tax_bracket):
+    """
+    Calculate annual tax savings from self-employed health insurance deduction.
+    """
+    # Self-employed health insurance deduction (deductible as business expense)
+    tax_deduction = annual_insurance_cost
+
+    # Tax savings = deduction amount * your marginal tax rate
+    marginal_rates = {
+        "10%": 0.10,
+        "12%": 0.12,
+        "22%": 0.22,
+        "24%": 0.24,
+        "32%": 0.32,
+    }
+
+    rate = marginal_rates.get(federal_tax_bracket, 0.22)
+    tax_savings = tax_deduction * rate
+
+    print(f"Annual insurance cost: ${annual_insurance_cost:,.0f}")
+    print(f"Tax deduction value: ${tax_deduction:,.0f}")
+    print(f"Tax savings (at {federal_tax_bracket}): ${tax_savings:,.0f}")
+    print(f"Effective monthly cost: ${(annual_insurance_cost - tax_savings) / 12:,.0f}")
+
+    return tax_savings
+
+# Example: Freelancer in 22% tax bracket paying $6,000/year for insurance
+calculate_health_insurance_tax_benefit(6000, "22%")
+```
+
+This deduction significantly reduces your actual insurance costs compared to employees who don't see this benefit.
+
+## Income Fluctuation and Plan Switching
+
+Freelancers with variable income face challenges estimating annual earnings. The advance premium tax credit reconciliation process handles over/underestimation:
+
+```bash
+# Scenario: You estimate $60K income, get subsidies, but earn $85K
+# At tax time, you'll owe back some subsidies (called reconciliation)
+
+ESTIMATED_INCOME=60000
+ACTUAL_INCOME=85000
+EXCESS_INCOME=$((ACTUAL_INCOME - ESTIMATED_INCOME))
+
+# Reconciliation formula (simplified)
+# For income between 400-500% of poverty level,
+# you may owe back 50-75% of excess
+
+CLAWBACK_RATE=0.50
+AMOUNT_TO_REPAY=$((EXCESS_INCOME * CLAWBACK_RATE / 100))
+
+echo "Income error: $EXCESS_INCOME"
+echo "Amount to repay: $AMOUNT_TO_REPAY"
+```
+
+To minimize tax surprises, update your income estimate if circumstances change significantly mid-year.
+
 ## Getting Started
 
 1. Estimate your 2026 income conservatively
@@ -198,6 +263,22 @@ Keep these records for insurance purposes:
 
 The right health insurance for freelancers depends on your specific situation. Use the tools and calculations above to make an informed decision that protects your health without breaking your budget.
 
+## Monitoring and Annual Review
+
+Set a calendar reminder to review your plan each year:
+
+```bash
+# Annual insurance review checklist
+echo "Health Insurance Review - $(date +%B\ %Y)"
+echo "1. Compare current premium vs new plan costs"
+echo "2. Check out-of-pocket maximums and deductibles"
+echo "3. Verify favorite doctors are still in-network"
+echo "4. Review prescription coverage if taking medications"
+echo "5. Update income estimate for next year's subsidy"
+echo "6. Check for any life changes (marriage, kids, location)"
+```
+
+Even small changes in income or personal circumstances can shift which plan makes the most financial sense.
 
 ## Frequently Asked Questions
 

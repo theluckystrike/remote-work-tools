@@ -196,6 +196,101 @@ Avoid these mistakes that reduce ideation session effectiveness:
 - **Missing follow-through** — Ideas without owners and deadlines die immediately
 - **Infinite sessions** — Cap ideation at 45-60 minutes; extended sessions produce diminishing returns
 
+## Advanced Facilitation: Running Large-Scale Ideation
+
+For teams larger than 8 people or complex problems requiring diverse input, use structured workflows that maintain quality at scale.
+
+### Multi-Wave Ideation Workflow
+
+Running ideation in parallel tracks prevents group dominance and surfaces diverse perspectives:
+
+```markdown
+## 5-Team Parallel Ideation (2 hours total)
+
+### Wave 1: Individual Generation (20 min)
+- Each person documents 5 ideas solo
+- Use: shared Google Doc or Notion database
+- Focus: quantity, no filtering, crazy ideas welcome
+
+### Wave 2: Team Clustering (15 min)
+- 5 teams of 4-6 people each
+- Each team gets all 25+ ideas (from Wave 1)
+- Task: Group similar ideas into 5-7 clusters
+- Theme each cluster with a label
+
+### Wave 3: Cluster Refinement (15 min)
+- Same teams refine their clusters
+- Select strongest idea per cluster
+- Prepare 2-minute verbal summary
+
+### Wave 4: Cross-Pollination (20 min)
+- Rotate team members (leave one person to present)
+- Hearing other team summaries sparks new angles
+- Recorders capture cross-team insights
+
+### Wave 5: Synthesis (10 min)
+- Full group votes on top 5 clusters
+- Assign each to an owner + deadline
+```
+
+This format generates 25+ substantive ideas, prevents loudest-voice dominance, and keeps energy high.
+
+### Comparison: Ideation Methods by Situation
+
+| Situation | Method | Duration | Team Size | Output |
+|-----------|--------|----------|-----------|--------|
+| Stuck on single problem | SCAMPER exercise | 45 min | 4-8 | 7 angles explored |
+| Need diverse perspectives | 6-3-5 method | 45 min | 6 | 54 ideas generated |
+| Time zone distributed | Silent start + async voting | 48 hours | 8-20 | Ranked idea list |
+| Quick decision needed | Round-robin live | 30 min | 4-6 | 20-30 ideas |
+| Large group (15+) | Wave method | 90 min | 15-30 | 5-7 finalists |
+| Executive buy-in needed | Formal workshop with recording | 120 min | 10-15 | Video summary |
+
+### Building an Ideation Culture
+
+The best remote teams make ideation a regular practice, not a one-time event. This requires:
+
+1. **Weekly ideation time** — 30-minute async ideation slot for small improvements
+2. **Clear submission process** — One shared doc/database where ideas go
+3. **No idea is bad initially** — Evaluation happens in a separate meeting
+4. **Visible progress** — Share which ideas shipped, why rejected ideas weren't chosen
+5. **Psychological safety** — Leaders must participate and appreciate wild ideas
+
+Track ideation as a metric:
+- Ideas submitted per month
+- Percentage of ideas implemented
+- Time from idea to shipped feature
+- Employee engagement in ideation process
+
+### Async Ideation Template for Distributed Teams
+
+For teams that can't synchronously meet:
+
+```markdown
+# Ideation: [Problem Statement]
+**Posted:** 2026-03-22
+**Voting closes:** 2026-03-24 at 17:00 UTC
+**Selected ideas reviewed:** 2026-03-25
+
+## Problem Statement
+[Clear 1-2 sentence problem]
+
+## Submission Guidelines
+- One idea per comment/entry
+- Format: [Title] — [1 paragraph explanation]
+- Examples welcome, links encouraged
+- React with emoji (👍, 🚀, 💡) to show support
+
+## Top Ideas After Voting
+1. [Idea with X votes] — @owner assigned, deadline 2026-04-05
+2. [Idea with Y votes] — @owner assigned, deadline 2026-04-05
+
+## What Happened to Other Ideas
+- [Rejected idea]: Blocked by infrastructure limitation
+- [Deferred idea]: Worth revisiting in Q3
+- [Duplicate]: Similar to [winning idea], merged
+```
+
 
 ## Frequently Asked Questions
 

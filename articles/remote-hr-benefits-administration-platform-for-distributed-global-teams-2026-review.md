@@ -197,6 +197,185 @@ Select your benefits administration platform based on your specific distribution
 
 The right choice depends on your current hiring pattern, technical integration requirements, and budget. Consider running a pilot with a small group of employees in one country before committing to a platform-wide rollout.
 
+## Benefits Administration Platform Feature Comparison
+
+| Feature | Deel | Remote | Oyster | Bamboo |
+|---------|------|--------|--------|--------|
+| Countries supported | 150+ | 170+ | 80+ | 220+ |
+| Health insurance coverage | Yes | Yes | Yes | Yes |
+| Retirement planning (401k equiv) | Yes | Limited | Yes | Yes |
+| Stock options management | Yes | No | Limited | Yes |
+| Currency support | 50+ | 40+ | 35+ | 50+ |
+| API availability | Extensive | Good | Good | Limited |
+| Free tier | Yes (demo) | Yes (limited) | Yes (basic) | No |
+| Setup time | 2-3 weeks | 3-4 weeks | 1-2 weeks | 4-6 weeks |
+| Monthly cost per employee | $15-50 | $12-40 | $10-35 | $20-60 |
+
+## Implementation Timeline for Global Benefits
+
+```markdown
+# Rolling Out Benefits Platform to 50-Person Global Team
+
+## Month 1: Foundation (Weeks 1-4)
+
+Week 1:
+- [ ] Select platform (proposal to exec team)
+- [ ] Sign agreement and get credentials
+- [ ] Designate HR owner + two admins
+
+Week 2-3:
+- [ ] Import employee directory from HRIS
+- [ ] Verify data accuracy (name, email, location)
+- [ ] Create custom benefit packages per country
+  - US: 401k, health, FSA
+  - Germany: Statutory health, pension
+  - India: Gratuity, health coverage
+  - UK: Pension, health insurance
+
+Week 4:
+- [ ] Test enrollments with pilot group (5 people)
+- [ ] Resolve data issues
+- [ ] Train HR team on platform
+
+## Month 2: Soft Launch (Weeks 5-8)
+
+Week 5:
+- [ ] Open enrollment for North America (30 people)
+- [ ] Provide enrollment deadline (10 days)
+- [ ] Support calls for questions
+
+Week 6:
+- [ ] Monitor enrollment progress
+- [ ] Email reminders for non-enrolled
+- [ ] Resolve issues (benefits selection corrections)
+
+Week 7:
+- [ ] Roll out to Europe (15 people)
+- [ ] Provide local language support if needed
+- [ ] Ensure benefits match local requirements
+
+Week 8:
+- [ ] Final enrollment push
+- [ ] Process any last-minute changes
+- [ ] Generate compliance reports
+
+## Month 3: Full Operation (Weeks 9-12)
+
+Week 9:
+- [ ] Confirm all enrollments
+- [ ] Sync benefits to payroll system
+- [ ] Begin deductions next payroll cycle
+
+Week 10-12:
+- [ ] Monitor claims processing
+- [ ] Gather feedback from employees
+- [ ] Document processes for future years
+```
+
+## Common Benefits by Geography
+
+Use this as starting point when configuring packages:
+
+```yaml
+benefits_by_region:
+  United_States:
+    required: [Health insurance, W2 tax withholding]
+    typical: [401(k), FSA, Commuter benefits]
+    optional: [Life insurance, Disability, Pet insurance]
+
+  Canada:
+    required: [Health insurance where applicable by province]
+    typical: [RRSP matching, Provincial benefits]
+    optional: [Life insurance, Disability]
+
+  Europe:
+    required: [Statutory health insurance, Pension contribution]
+    typical: [Company pension top-up, Transportation allowance]
+    optional: [Private health, Additional vacation days]
+
+  Germany:
+    required: [Statutory health (KV), Pension (RV), Unemployment (AV), Disability (PV)]
+    typical: [Employer pension contribution, Accident insurance]
+    optional: [Dental, Vision]
+
+  UK:
+    required: [Workplace Pension, Payroll tax]
+    typical: [Life insurance, Health insurance]
+    optional: [Dental, Gym membership]
+
+  Australia:
+    required: [Superannuation (9.5%), Tax file number]
+    typical: [Salary sacrifice options]
+    optional: [Health insurance rebate assistance, Income protection]
+
+  India:
+    required: [Provident Fund / EPF, Health insurance, Gratuity]
+    typical: [Medical reimbursement]
+    optional: [Life insurance, Disability]
+
+  Singapore:
+    required: [Central Provident Fund (CPF), Health insurance]
+    typical: [Flexible benefits]
+    optional: [Life insurance]
+
+  Japan:
+    required: [Health insurance, Pension, Employment insurance]
+    typical: [Commuting allowance, Housing allowance]
+    optional: [Dental, Vision, Life insurance]
+```
+
+## Troubleshooting Common Implementation Issues
+
+**Issue: Employees confused about benefits options**
+
+```
+Solution: Create benefit guides per country
+- 1-page summary for each benefit type
+- Include: what it covers, cost, how to claim
+- Provide in local language
+- Share video walkthrough (10 min) for enrollment process
+
+Example template:
+[Benefit Name]: Health Insurance
+What it covers: Doctor visits, hospital, prescriptions
+Annual cost: $200 (company pays $500, employee pays $200)
+How to claim: Call insurance provider or use mobile app
+Questions?: Email benefits@company.com or video call with HR
+```
+
+**Issue: Late enrollments after open enrollment closes**
+
+```
+Solution: Life event framework
+Allow changes for:
+- Marriage/divorce
+- Birth/adoption of child
+- Change in employment status
+- Change in income
+
+Documentation required:
+- Marriage: Marriage certificate or signed domestic partnership agreement
+- Birth: Birth certificate
+- Other changes: Supporting documentation
+
+Processing: Within 5 business days of documentation receipt
+```
+
+**Issue: Compliance with local employment law**
+
+```
+Prevention:
+1. Work with local HR consultants per country (budget $2-5k per country)
+2. Document compliance status in platform (checklist)
+3. Quarterly review: Are benefits still compliant?
+4. Subscribe to employment law updates (ExpatriateAssistant, Globalization Partners)
+
+Red flags:
+- Employee placed in wrong benefit tier due to visa status
+- Pension contributions didn't account for local vesting rules
+- Tax treatment of benefits differs from law
+```
+
 
 ## Frequently Asked Questions
 
