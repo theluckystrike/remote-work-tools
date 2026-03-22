@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Thanos for Prometheus HA"
-description: "Deploy Thanos Sidecar, Store Gateway, Querier, and Compactor alongside Prometheus for high availability, long-term storage in S3, and unified multi-cluster querying"
+description: "Deploy Thanos Sidecar, Store Gateway, Querier, and Compactor alongside Prometheus for high availability, long-term storage in S3, and unified."
 date: 2026-03-22
 author: theluckystrike
 permalink: /thanos-prometheus-ha-setup/
@@ -17,6 +17,8 @@ tags: [remote-work-tools]
 ## How to Set Up Thanos for Prometheus HA
 
 Prometheus stores data locally, which means a single instance has a retention limit based on disk size and goes down with the host it runs on. Thanos wraps Prometheus with object storage (S3, GCS, Azure Blob) for unlimited retention and adds a global query layer that federates across multiple Prometheus instances — useful when remote teams run separate clusters per region.
+
+This guide covers every component: Sidecar, Store Gateway, Querier, and Compactor — plus Kubernetes Helm deployment, recording rules that survive restarts, and alerting integration with Alertmanager.
 
 ---
 
@@ -47,6 +49,8 @@ Prometheus stores data locally, which means a single instance has a retention li
    │ (fan out)    │
    └──────────────┘
 ```
+
+Each Prometheus instance is paired with a Thanos Sidecar. The Sidecar exposes a gRPC StoreAPI so the Querier can read real-time data directly from Prometheus, and it also uploads completed 2-hour TSDB blocks to object storage for long-term retention. The Store Gateway reads those same S3 blocks and exposes them over the same gRPC protocol. From the Querier's perspective, Sidecars and Store Gateways look identical — it fans out every PromQL query to all of them and merges the results. The Compactor runs separately as a singleton, downsampling old blocks and removing duplicates produced by HA replica pairs.
 
 ---
 
@@ -96,6 +100,8 @@ volumes:
   prometheus-data:
 ```
 
+The critical Prometheus flags are `--storage.tsdb.min-block-duration=2h` and `--storage.tsdb.max-block-duration=2h`. Without these, Prometheus compacts blocks on its own schedule, which conflicts with Thanos block management and produces overlapping time ranges in S3.
+
 **`s3.yml` — object store config:**
 
 ```yaml
@@ -110,6 +116,8 @@ config:
   # endpoint: "minio.internal:9000"
   # insecure: true
 ```
+
+For AWS deployments, prefer an IAM instance role over static credentials. Attach a policy that grants `s3:GetObject`, `s3:PutObject`, `s3:DeleteObject`, and `s3:ListBucket` on the Thanos bucket only.
 
 ---
 
@@ -130,6 +138,8 @@ services:
       - "--grpc-address=0.0.0.0:10901"
       - "--http-address=0.0.0.0:10902"
       - "--sync-block-duration=5m"
+      - "--store.limits.request-samples=0"   # 0 = unlimited
+      - "--index-cache-size=500MB"
     volumes:
       - store-data:/var/thanos/store
       - ./s3.yml:/etc/thanos/s3.yml:ro
@@ -139,6 +149,8 @@ services:
 volumes:
   store-data:
 ```
+
+The Store Gateway downloads block index files from S3 and caches them locally. The `--index-cache-size` flag controls how much RAM is used for index caching — the default is 250 MB, which is adequate for modest workloads. Increase to 1–2 GB if you store more than 30 days of data across multiple clusters.
 
 ---
 
@@ -170,6 +182,17 @@ services:
 
 Point Grafana at `http://thanos-querier:9090` — it speaks the standard Prometheus HTTP API.
 
+For service discovery instead of static endpoints, use `--endpoint.sd-files` pointing to a file that lists StoreAPI endpoints. Thanos re-reads this file automatically, so you can add new Prometheus regions without restarting the Querier:
+
+```yaml
+# sd-config.yml  (referenced by --endpoint.sd-files)
+- targets:
+    - thanos-sidecar-us-east-1.internal:10901
+    - thanos-sidecar-eu-west-1.internal:10901
+    - thanos-sidecar-ap-southeast-1.internal:10901
+    - thanos-store.internal:10901
+```
+
 ---
 
 ## Step 4: Thanos Compactor
@@ -192,12 +215,98 @@ services:
       - "--retention.resolution-1h=1y"     # 1h resolution kept 1 year
       - "--wait"                           # run continuously
       - "--wait-interval=30m"
+      - "--deduplication.replica-label=replica"
     volumes:
       - compact-data:/var/thanos/compact
       - ./s3.yml:/etc/thanos/s3.yml:ro
 
 volumes:
   compact-data:
+```
+
+The `--deduplication.replica-label=replica` flag tells the Compactor which label distinguishes HA replicas. When your two Prometheus instances both have `replica=0` and `replica=1`, the Compactor merges their blocks into a single deduplicated block, cutting storage roughly in half.
+
+Downsampling works in two stages: raw data becomes 5-minute resolution after 40 hours, and 5-minute resolution becomes 1-hour resolution after 10 days. This makes long-range Grafana queries over months of data fast.
+
+---
+
+## Prometheus Configuration for HA Pairs
+
+Each Prometheus instance in an HA pair should carry an external label identifying which replica it is. This is what Thanos uses for deduplication:
+
+```yaml
+# prometheus.yml — on replica 0
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    cluster: us-east-1
+    replica: "0"
+
+rule_files:
+  - /etc/prometheus/rules/*.yml
+
+scrape_configs:
+  - job_name: kubernetes-pods
+    kubernetes_sd_configs:
+      - role: pod
+```
+
+```yaml
+# prometheus.yml — on replica 1 (identical, different replica label)
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    cluster: us-east-1
+    replica: "1"
+```
+
+The `cluster` label identifies the region and flows through to S3 blocks, letting you query across clusters from a single Querier.
+
+---
+
+## Thanos Ruler for Recording Rules
+
+If you use recording rules or alerting rules, run Thanos Ruler instead of Prometheus's built-in rule evaluation. Ruler evaluates rules against the global Querier (seeing all clusters), not just local data:
+
+```yaml
+# ruler docker-compose.yml
+version: "3.8"
+services:
+  thanos-ruler:
+    image: quay.io/thanos/thanos:v0.35.1
+    command:
+      - "rule"
+      - "--data-dir=/var/thanos/ruler"
+      - "--eval-interval=1m"
+      - "--rule-file=/etc/thanos/rules/*.yml"
+      - "--query=http://thanos-querier:10902"
+      - "--objstore.config-file=/etc/thanos/s3.yml"
+      - "--http-address=0.0.0.0:10902"
+      - "--grpc-address=0.0.0.0:10901"
+      - "--alertmanagers.url=http://alertmanager:9093"
+      - "--label=ruler_cluster=global"
+      - "--label=replica=ruler"
+    volumes:
+      - ruler-data:/var/thanos/ruler
+      - ./rules:/etc/thanos/rules:ro
+      - ./s3.yml:/etc/thanos/s3.yml:ro
+
+volumes:
+  ruler-data:
+```
+
+An example recording rule that Ruler evaluates globally:
+
+```yaml
+# /etc/thanos/rules/recording.yml
+groups:
+  - name: global_request_rate
+    interval: 1m
+    rules:
+      - record: job:http_requests_total:rate5m
+        expr: sum by (job, cluster) (rate(http_requests_total[5m]))
 ```
 
 ---
@@ -247,6 +356,35 @@ helm upgrade --install thanos bitnami/thanos \
   --create-namespace
 ```
 
+For the Prometheus Operator integration, configure the `PrometheusSpec` to include the Thanos Sidecar as a sidecar container:
+
+```yaml
+apiVersion: monitoring.coreos.com/v1
+kind: Prometheus
+metadata:
+  name: prometheus
+  namespace: monitoring
+spec:
+  replicas: 2
+  replicaExternalLabelName: replica
+  externalLabels:
+    cluster: us-east-1
+  thanos:
+    image: quay.io/thanos/thanos:v0.35.1
+    objectStorageConfig:
+      key: thanos.yaml
+      name: thanos-objstore-secret
+  retention: 2h
+  storage:
+    volumeClaimTemplate:
+      spec:
+        resources:
+          requests:
+            storage: 10Gi
+```
+
+The Prometheus Operator automatically configures block durations and mounts the sidecar — you only supply the object storage secret and the external labels.
+
 ---
 
 ## Verify the Setup
@@ -266,7 +404,16 @@ aws s3 ls s3://your-thanos-metrics-bucket/ --recursive | head -20
 curl -G http://thanos-querier:9090/api/v1/query \
   --data-urlencode 'query=count(up)' \
   --data-urlencode 'dedup=true'
+
+# Check Compactor activity
+curl http://thanos-compactor:10902/metrics | grep thanos_compact
 ```
+
+**Common issues:**
+
+- If the Querier shows 0 stores, the gRPC endpoints are unreachable. Check firewall rules on port 10901.
+- If you see duplicate time series in Grafana, the `--query.replica-label` on the Querier must match the `external_labels` replica key in `prometheus.yml`.
+- If S3 blocks are not appearing, verify the Sidecar has write access to the bucket and that block duration flags are set correctly on Prometheus.
 
 ---
 

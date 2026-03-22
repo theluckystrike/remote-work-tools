@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team tmux Config Sharing Guide"
-description: "Share a common tmux config across a distributed team using a dotfiles repo, tpm plugin lock files, and session templates that new engineers can bootstrap in minutes"
+description: "Share a common tmux config across a distributed team using a dotfiles repo, tpm plugin lock files, and session templates that new engineers can bootstrap."
 date: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-tmux-config-sharing/

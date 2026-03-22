@@ -301,12 +301,12 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 - [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
 - [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-{% endraw %}
+
 ```
 
 This template captures everything needed for a smooth transition. Customize sections based on your project type.
 
-{% raw %}
+
 
 ## Confluence Template: Structured Handoff
 

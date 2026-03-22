@@ -18,6 +18,8 @@ tags: [remote-work-tools]
 
 VPNs give remote engineers a network-level tunnel to everything, which means a compromised laptop gets network-level access to everything. Teleport does the opposite: every resource (SSH servers, Kubernetes clusters, databases) requires a short-lived certificate issued per-session, tied to the user's identity, with a full audit trail of every command run.
 
+This guide walks through the full setup: deploying the Teleport cluster, adding SSH nodes, configuring roles with least-privilege access, connecting databases, reviewing audit logs, and wiring CI/CD pipelines to use short-lived Machine ID certificates instead of static SSH keys.
+
 ---
 
 ## Architecture Overview
@@ -34,7 +36,13 @@ Teleport Proxy (public HTTPS endpoint)
      └── Web apps via Application Service
 ```
 
-Teleport Auth Service issues X.509 certificates valid for hours or days. Nothing is accessible without a current certificate. All sessions are recorded.
+Teleport Auth Service issues X.509 certificates valid for hours or days. Nothing is accessible without a current certificate. All sessions are recorded. The Proxy is the only public-facing component — everything else lives inside your private network and calls out to the Proxy, not the other way around.
+
+There are three deployment models:
+
+- **Single-node**: Auth + Proxy on one host. Simple for labs and small teams up to ~20 users.
+- **HA cluster**: Auth backed by etcd or DynamoDB, multiple Proxy replicas behind a load balancer. For production.
+- **Teleport Cloud**: Hosted Auth + Proxy; you only manage nodes. Fastest to get running.
 
 ---
 
@@ -93,6 +101,29 @@ ssh_service:
   enabled: false  # separate SSH nodes, not the auth node
 ```
 
+**Option B: Kubernetes with Helm (production)**
+
+```bash
+helm repo add teleport https://charts.releases.teleport.dev
+helm repo update
+
+cat > teleport-values.yaml << 'EOF'
+clusterName: yourcompany.teleport.example.com
+chartMode: standalone
+persistence:
+  enabled: true
+  storageClassName: gp3
+  size: 10Gi
+acme: true
+acmeEmail: ops@yourcompany.com
+EOF
+
+helm upgrade --install teleport teleport/teleport-cluster \
+  -n teleport \
+  --create-namespace \
+  -f teleport-values.yaml
+```
+
 ---
 
 ## Add SSH Nodes
@@ -141,6 +172,22 @@ Verify the node appears:
 tctl nodes ls
 # Node      Address          Labels
 # web-01    10.0.1.10:3022   env=production,region=us-east-1,role=web
+```
+
+For automated node provisioning at scale, use **IAM Join** so EC2 instances join the cluster using instance identity documents rather than a static join token. This eliminates the need to distribute secrets to new instances:
+
+```yaml
+# teleport.yaml on EC2 instance (no token needed)
+teleport:
+  auth_server: teleport.yourcompany.com:3025
+  join_params:
+    method: iam
+    token_name: ec2-join-token
+
+ssh_service:
+  enabled: true
+  labels:
+    env: production
 ```
 
 ---
@@ -202,6 +249,22 @@ tctl users add alice --roles=dev --logins=ubuntu
 # Outputs a one-time invite link
 ```
 
+For teams using SSO, configure an OIDC or SAML connector and map identity provider groups to Teleport roles automatically. Here is an example Okta SAML connector:
+
+```yaml
+kind: saml
+version: v2
+metadata:
+  name: okta
+spec:
+  acs: https://teleport.yourcompany.com/v1/webapi/saml/acs
+  attributes_to_roles:
+    - {name: "groups", value: "engineering", roles: ["dev"]}
+    - {name: "groups", value: "sre-team", roles: ["sre"]}
+  entity_descriptor_url: https://yourcompany.okta.com/app/.../sso/saml/metadata
+  issuer: https://teleport.yourcompany.com
+```
+
 ---
 
 ## Connecting from the Developer's Machine
@@ -230,6 +293,8 @@ tsh kube login my-cluster
 kubectl get pods -A
 ```
 
+The `tsh` client configures `~/.ssh/config` with ProxyCommand entries, so you can continue using native `ssh` commands. Certificates are automatically renewed on the next `tsh login`, and expired certificates produce a clear error rather than a silent connection failure.
+
 ---
 
 ## Database Access
@@ -248,6 +313,21 @@ db_service:
         env: production
 ```
 
+For RDS, Teleport uses IAM authentication to avoid storing database passwords at all:
+
+```yaml
+db_service:
+  enabled: true
+  databases:
+    - name: rds-prod
+      protocol: postgres
+      uri: prod-db.cluster-abc123.us-east-1.rds.amazonaws.com:5432
+      aws:
+        region: us-east-1
+        rds:
+          instance_id: prod-db
+```
+
 Connect from the developer's machine:
 
 ```bash
@@ -259,6 +339,8 @@ tsh db connect prod-postgres
 # or
 psql "$(tsh db env --format=uri prod-postgres)"
 ```
+
+Every query is logged to the audit trail, giving you a full record of who queried what table and when — without requiring application-level query logging.
 
 ---
 
@@ -278,6 +360,18 @@ tctl audit log --type=session.command \
 # Export session recording
 tsh recordings ls
 tsh play session-id-here
+```
+
+Session recordings are stored as compressed asciicast files. You can replay them interactively with `tsh play` or export them to a web viewer for compliance evidence. The Teleport web UI also provides a searchable event log with filtering by user, resource, and event type.
+
+For SIEM integration, forward audit events to your log aggregator:
+
+```yaml
+# In teleport.yaml auth_service section
+auth_service:
+  audit_events_uri:
+    - "dynamodb://us-east-1/teleport-events"    # DynamoDB for HA
+    - "stdout://"                                # also log to stdout for log shipper
 ```
 
 ---
@@ -304,6 +398,27 @@ jobs:
       - name: Deploy via SSH
         run: |
           tsh ssh ubuntu@web-01 'cd /opt/myapp && ./deploy.sh'
+```
+
+Machine ID issues short-lived bot certificates that expire after the workflow completes. There are no long-lived SSH keys in your secrets store, and every deployment session is visible in the Teleport audit log with the GitHub Actions run ID as the user identity.
+
+For self-hosted runners, use the `tbot` daemon to continuously renew certificates:
+
+```yaml
+# tbot.yaml on the runner host
+version: v2
+proxy_server: teleport.yourcompany.com:443
+onboarding:
+  join_method: iam
+  token: runner-bot-token
+storage:
+  type: directory
+  path: /var/lib/teleport/bot
+outputs:
+  - type: identity
+    destination:
+      type: directory
+      path: /opt/teleport-identity
 ```
 
 ---
