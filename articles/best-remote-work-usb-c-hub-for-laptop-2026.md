@@ -58,7 +58,7 @@ The TS4 is the gold standard for remote Mac workers. With 18 ports and 96W power
 **Real-World Setup:**
 {% raw %}
 One remote worker's setup: MacBook Pro 14" → TS4 → LG UltraFine 5K monitor, Sonnet Fusion SSD (4TB), Elgato HD60S video capture card, wireless headphones via Bluetooth.
-{% endraw %}
+
 
 ## Table of Contents
 
@@ -110,7 +110,7 @@ The Anker 737 balances performance and price. With 12 ports and 65W power delive
 - Cable length: 1.6 meters (5.2 feet) — good for desk placement flexibility
 
 **Real-World Usage:**
-{% raw %}
+
 Anker 737 paired with Dell XPS 13 handles: external 27-inch 4K monitor (HDMI), wireless mouse + keyboard (USB-A), Slack Cam (USB-A), external hard drive (USB-A), ethernet adapter (USB-A). Total: 5 devices, all functioning simultaneously at full speed.
 {% endraw %}
 

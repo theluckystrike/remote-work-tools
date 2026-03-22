@@ -31,7 +31,7 @@ score: 8
 tags: [remote-work-tools]
 ---
 
-{% raw %}
+
 
 Digital signage gives hybrid offices an always-on communication channel that updates automatically from your existing tools—calendars, incident trackers, desk booking systems. This guide covers technical implementation patterns for developers building or integrating these systems.
 
@@ -477,7 +477,7 @@ def measure_display_engagement(display_id, start_date, end_date):
 
 Most offices install signage, assume it works, and never measure. The displays that survive 2+ years typically correlate with measurable behavior change.
 
-{% endraw %}
+
 
 ## Related Articles
 

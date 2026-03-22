@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Automated Dependency Audit"
-description: "Build automated dependency audit workflows using Dependabot, Renovate, and custom scripts to keep npm, pip, Go, and Ruby packages current with CVE tracking and PRs"
+description: "Build automated dependency audit workflows using Dependabot, Renovate, and custom scripts to keep npm, pip, Go, and Ruby packages current with CVE."
 date: 2026-03-22
 author: theluckystrike
 permalink: /automated-dependency-audit/

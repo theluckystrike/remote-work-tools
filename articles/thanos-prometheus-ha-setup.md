@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Thanos for Prometheus HA"
-description: "Deploy Thanos Sidecar, Store Gateway, Querier, and Compactor alongside Prometheus for high availability, long-term storage in S3, and unified multi-cluster querying"
+description: "Deploy Thanos Sidecar, Store Gateway, Querier, and Compactor alongside Prometheus for high availability, long-term storage in S3, and unified."
 date: 2026-03-22
 author: theluckystrike
 permalink: /thanos-prometheus-ha-setup/

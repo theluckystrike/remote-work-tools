@@ -77,7 +77,7 @@ Tools: Miro board (link below) + Zoom
 Prep: Add 3-5 ideas to the Miro board before the meeting.
 
 See you tomorrow!
-{% endraw %}
+
 
 ### 2. Choose Async-First Tools
 
@@ -151,7 +151,7 @@ Start light. Don't jump straight into criticism.
 
 **Script Example:**
 
-{% raw %}
+
 "Welcome, team! Before we dive in, let's do a quick round: describe this sprint in one word, no multitasking. I'll start: 'productive'. Sarah?"
 {% endraw %}
 

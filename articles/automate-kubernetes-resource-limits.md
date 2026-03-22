@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Automate Kubernetes Resource Limits"
-description: "Automatically set and right-size Kubernetes CPU and memory limits using VPA, Goldilocks, LimitRange policies, and custom scripts that prevent OOMKills and throttling"
+description: "Automatically set and right-size Kubernetes CPU and memory limits using VPA, Goldilocks, LimitRange policies, and custom scripts that prevent OOMKills and."
 date: 2026-03-22
 author: theluckystrike
 permalink: /automate-kubernetes-resource-limits/
