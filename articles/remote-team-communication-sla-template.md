@@ -19,11 +19,11 @@ A communication SLA removes ambiguity about response expectations. Remote teams 
 
 ## Key Takeaways
 
-- **Escalation**: If no response in 2h, use @mention in relevant channel.
-- Use Slack for same-day needs.
-- **Write messages that don't**: require immediate response 2.
-- **Set explicit deadlines**: "Need this by Friday 5pm ET"
-4.
+- A communication SLA defines channel purpose, expected response time, and escalation paths — not just etiquette, but operational agreements
+- Different channels warrant different urgency levels: #incidents requires 5-minute response; #general is best-effort same day
+- Timezone coverage matrices and async-first writing practices prevent SLA violations caused by geography rather than negligence
+- Bots and GitHub Actions can automate SLA enforcement for PR review queues and unanswered Slack mentions
+- Quarterly reviews keep the SLA aligned with team growth, timezone shifts, and channel changes
 
 ## Core Concepts
 
@@ -33,7 +33,18 @@ A communication SLA defines:
 Channel → Purpose → Expected Response Time → Escalation Path
 ```
 
-Not all messages deserve the same urgency, and not all channels warrant the same attention.
+Not all messages deserve the same urgency, and not all channels warrant the same attention. The SLA makes these distinctions explicit and enforced rather than assumed and inconsistent.
+
+### Why Teams Need Written Communication SLAs
+
+In co-located offices, communication norms emerge organically. Someone learns that tapping an engineer on the shoulder means "right now," while leaving a sticky note means "whenever." Remote teams have no equivalent shared context. A Slack message can feel like either a tap on the shoulder or a sticky note, and different team members read it differently.
+
+Without a written SLA:
+- Someone sends a "quick question" in DM, expects a reply in 10 minutes, gets it in 4 hours, and feels ignored
+- An engineer posts a PR review request in #engineering, gets no response for 2 days, blocks their own work
+- An incident is posted in #general instead of #incidents because the poster wasn't sure which channel to use
+
+The SLA document answers all three scenarios explicitly before they happen.
 
 ## Channel-by-Channel SLA
 
@@ -134,6 +145,32 @@ Owner: @engineering-leads
 4. For Diana's timezone: file issues/PRs before 3pm ET for same-day turnaround
 ```
 
+### Writing Async-First Messages
+
+The async-first rule is easy to state and hard to practice. Most people write Slack messages the way they'd say something aloud — incomplete, expecting a back-and-forth. That works in an office. For remote teams spanning timezones, every message should be self-contained.
+
+Bad async message:
+```
+Hey, do you have a minute? I wanted to ask about the auth service.
+```
+
+Good async message:
+```
+Hey @Alice — quick question about the auth service token refresh flow.
+
+Context: I'm building the mobile client and seeing 401s after token expiry.
+Looking at the refresh endpoint, I'm not sure whether I should be sending
+the refresh token in the Authorization header or the body.
+
+I saw we handle it one way in the web client (body), but the API docs say
+header. Which is correct? I can work around this either way — just want to
+match whatever the server expects.
+
+No rush — needed by Thursday EOD.
+```
+
+The second message requires no follow-up to answer. Alice can reply with a single sentence when she's available. That's what async-first looks like in practice.
+
 ## Slack Bot Enforcement
 
 Use a bot to track and nudge on SLA violations:
@@ -193,6 +230,15 @@ if __name__ == "__main__":
 0 9-18 * * 1-5 python3 /opt/scripts/sla-checker.py
 ```
 
+### Calibrating Bot Sensitivity
+
+The bot should nudge, not spam. A few calibration points:
+
+- Run it only during business hours (the cron schedule above enforces this)
+- Only fire on messages with @mentions — informational posts don't need replies
+- Don't re-fire if the thread already has a bot reminder — add a check for existing bot messages in the thread before posting
+- Exclude the #deployments and #incidents channels from the generic SLA checker — those have their own paging workflows
+
 ## PR Review SLA Bot (GitHub Actions)
 
 ```yaml
@@ -239,6 +285,20 @@ jobs:
             }
 ```
 
+### Preventing Review Bottlenecks
+
+PR review SLAs fail most often because of unclear assignment. If a PR has no requested reviewers, no one feels responsible. The GitHub Actions workflow above only fires when reviewers are already requested. The companion step is ensuring your PR template prompts for reviewer selection:
+
+```markdown
+## PR Checklist
+- [ ] Requested at least one reviewer
+- [ ] Linked to relevant issue
+- [ ] Added to sprint board
+- [ ] Tests passing
+```
+
+Making reviewer assignment a checklist item removes the "I forgot" failure mode.
+
 ## Onboarding New Team Members
 
 SLA summary card for new hires:
@@ -264,6 +324,8 @@ SLA summary card for new hires:
 - Expect faster replies by mentioning people repeatedly
 ```
 
+The quick reference card should be in your onboarding wiki, your team Notion space, and pinned in the #general channel. New team members who read it in week one set the right expectations immediately. Those who discover it after a frustrating experience are already forming wrong mental models.
+
 ## Quarterly Review
 
 ```markdown
@@ -280,6 +342,15 @@ Update SLA if:
 - New channels added
 - Recurring SLA violations suggest targets are unrealistic
 ```
+
+### Reading Slack Analytics for SLA Data
+
+Slack's built-in analytics (available on Pro and Business+ plans) shows message volume and response times per channel. Export the weekly summary for the channels in your SLA. Look for channels where average response time consistently exceeds the SLA target — that's a signal to either adjust the target or investigate the cause.
+
+Common causes of consistent SLA violations:
+- **Volume too high**: the channel is overloaded; split it or add a triage role
+- **Target too aggressive**: the team has grown across timezones; 4-hour SLA no longer works with no timezone overlap
+- **Wrong channel**: people are posting urgent questions in non-urgent channels; redirect behavior through education and reminders
 
 ## Related Reading
 
