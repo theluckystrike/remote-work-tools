@@ -3,7 +3,7 @@ layout: default
 title: "Hungary Digital Nomad Visa White Card Application for Remote"
 description: "Complete guide to Hungary digital nomad visa (White Card) application process. Requirements, documents, income thresholds, and step-by-step"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /hungary-digital-nomad-visa-white-card-application-for-remote/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Hungary Digital Nomad Visa White Card Application for Remote Workers Guide
 
 Hungary introduced its digital nomad visa in 2021, officially called the "White Card" (Fehér Kártya), making it one of the more accessible European options for remote workers. The White Card allows non-EU citizens to live in Hungary for up to two years while working remotely for employers or clients outside the country. This guide covers the application process, requirements, and practical considerations for developers and power users.
 
@@ -318,7 +317,6 @@ Before finalizing your move:
 - [ ] Verify internet quality at your accommodation before committing long-term
 
 Once approved, you'll have access to Hungary's affordable cost of living, excellent infrastructure, and strategic position for exploring Central and Eastern Europe.
-
 
 
 ## Frequently Asked Questions

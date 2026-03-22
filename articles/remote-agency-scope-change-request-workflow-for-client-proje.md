@@ -3,7 +3,7 @@ layout: default
 title: "Remote Agency Scope Change Request Workflow for Client"
 description: "Build a scope change workflow that requires written change requests documenting what's being added, estimating impact on timeline and budget, and requiring"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /remote-agency-scope-change-request-workflow-for-client-projects/
 categories: [troubleshooting]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# Remote Agency Scope Change Request Workflow for Client Projects
 
 Build a scope change workflow that requires written change requests documenting what's being added, estimating impact on timeline and budget, and requiring approval before execution. This prevents scope creep and keeps client expectations aligned with deliverables.
 
@@ -235,7 +234,6 @@ Charge consistently. Apply your pricing framework uniformly across clients to av
 Train your team. Everyone who communicates with clients should understand the workflow and know how to redirect scope change discussions to the proper process.
 
 ---
-
 
 
 ## Frequently Asked Questions

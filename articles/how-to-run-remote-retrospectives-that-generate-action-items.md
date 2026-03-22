@@ -3,7 +3,7 @@ layout: default
 title: "How to Run Remote Retrospectives That Generate Action Items"
 description: "Complete guide to helping effective remote team retrospectives with templates, tools, voting techniques, and action item tracking systems."
 date: 2026-03-21
-last_modified_at: 2026-03-21
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 categories: [guides]
 tags: [remote-work-tools, team-collaboration, agile, best-of, remote-work]
@@ -14,7 +14,6 @@ intent-checked: true
 permalink: /articles/how-to-run-remote-retrospectives-that-generate-action-items/
 ---
 
-# How to Run Remote Retrospectives That Generate Action Items
 
 Remote retrospectives are critical for team improvement, but they often suffer from low engagement, unclear outcomes, and forgotten action items. This guide provides tested frameworks, tools, and facilitation techniques to run retrospectives that drive real change.
 
@@ -652,7 +651,6 @@ Great effort this sprint!
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
-
 
 
 ## Frequently Asked Questions

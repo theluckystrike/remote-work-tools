@@ -3,7 +3,7 @@ layout: default
 title: "How to Separate Business and Personal Finances"
 description: "Running your own business means every financial decision lands on your desk. When you're a freelance developer, the line between 'buying a new laptop for"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-separate-business-and-personal-finances-freelance/
 categories: [guides]
@@ -15,7 +15,6 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-# How to Separate Business and Personal Finances as a Freelancer
 
 Running your own business means every financial decision lands on your desk. When you're a freelance developer, the line between "buying a new laptop for client work" and "upgrading my personal rig" gets blurry fast. Mixing business and personal finances creates tax headaches, complicates expense reporting, and makes it nearly impossible to understand your true profitability.
 

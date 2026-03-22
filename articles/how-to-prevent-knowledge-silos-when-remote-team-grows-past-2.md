@@ -3,7 +3,7 @@ layout: default
 title: "How to Prevent Knowledge Silos When Remote Team Grows Past"
 description: "A practical guide for developers and engineering leaders on breaking down knowledge silos as your remote team scales beyond 25 engineers. Includes code"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/
 categories: [guides]
@@ -15,7 +15,6 @@ score: 8
 ---
 
 {% raw %}
-# How to Prevent Knowledge Silos When Remote Team Grows Past 25 Engineers
 
 When your remote engineering team crosses the 25-person threshold, something shifts. The informal knowledge sharing that worked when everyone knew each other's names starts breaking down. Developers solve the same problems independently because they do not know who holds relevant expertise. On-call engineers waste hours debugging issues that someone else already fixed. New hires spend weeks getting up to speed instead of contributing.
 
@@ -252,7 +251,6 @@ Track these metrics to gauge knowledge silo reduction:
 - **Documentation coverage** of critical systems (target: 80%+)
 - **Cross-team collaboration frequency** (track PRs involving multiple teams)
 - **Incident resolution time** (knowledgeable people should be findable quickly)
-
 
 
 ## Frequently Asked Questions

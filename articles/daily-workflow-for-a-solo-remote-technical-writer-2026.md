@@ -3,7 +3,7 @@ layout: default
 title: "Daily Workflow for a Solo Remote Technical Writer 2026"
 description: "A practical daily workflow for solo remote technical writers in 2026. Includes time blocking, documentation pipelines, automation scripts, and tools"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /daily-workflow-for-a-solo-remote-technical-writer-2026/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Daily Workflow for a Solo Remote Technical Writer 2026
 
 Working as a solo remote technical writer means you juggle multiple documentation projects without a team to lean on. Your workflow directly impacts how much you accomplish and how well you maintain work-life boundaries when your home is also your office. This guide walks through a practical daily structure that scales with your workload and keeps momentum steady across weeks and months.
 

@@ -280,9 +280,15 @@
 
 
 
+<<<<<<< HEAD
 
 
 
+
+
+
+=======
+>>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
 layout: default
 title: "How to Implement Remote Team macOS FileVault Enforcement"
 description: "A step-by-step guide to implementing macOS FileVault encryption enforcement for remote teams using Mobile Device Management (MDM) solutions like Jamf, Kandji"
@@ -298,6 +304,7 @@ voice-checked: true
 ---
 
 
+<<<<<<< HEAD
 
 
 
@@ -581,8 +588,12 @@ voice-checked: true
 
 
 
+
+
+
+=======
+>>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
 {% raw %}
-# How to Implement Remote Team macOS FileVault Enforcement Through MDM Policy
 
 FileVault, Apple's native full-disk encryption technology, is essential for securing sensitive data on macOS devices—particularly critical for remote teams where employees work from various locations and networks. Implementing FileVault enforcement through Mobile Device Management (MDM) ensures all company devices are protected without requiring physical access. This guide walks through the complete implementation process for distributed teams using leading MDM solutions.
 

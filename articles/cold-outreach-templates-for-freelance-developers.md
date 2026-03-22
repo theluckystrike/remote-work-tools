@@ -3,7 +3,7 @@ layout: default
 title: "Cold Outreach Templates for Freelance Developers"
 description: "Practical cold outreach templates for freelance developers to land more clients. Includes email scripts, LinkedIn messages, and follow-up sequences"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /cold-outreach-templates-for-freelance-developers/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Cold Outreach Templates for Freelance Developers
 
 Cold outreach templates for freelance developers include mutual connection introductions, problem-specific emails, portfolio-based pitches, LinkedIn messages, and follow-up sequences. Each template follows a four-part framework: personalization, credibility, a clear value proposition, and a low-friction call to action. Below are ready-to-use scripts you can customize for your niche and start sending today.
 
@@ -418,7 +417,6 @@ Focus: Compliance, security, reliability
 Example angle: "Enterprise teams in [industry] are increasingly [trend]. I've worked with [company names if possible] to implement [solution]. Would love to compare approaches."
 
 ---
-
 
 
 ## Frequently Asked Questions

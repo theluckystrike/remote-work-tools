@@ -14,7 +14,6 @@ score: 9
 ---
 
 {% raw %}
-# Best Format for Remote Team Weekly Written Status Update Replacing Standup Meeting
 
 Daily standups work well when teams share a physical space, but remote teams often find that synchronous meetings create more problems than they solve. Timezone conflicts, meeting fatigue, and the overhead of coordinating schedules lead many teams to explore written alternatives. The best format for a remote team weekly written status update replacing standup meetings focuses on clarity, async-first communication, and practical recommendations.
 
@@ -358,7 +357,6 @@ The best weekly update format adapts to your team culture:
 **For customer-facing teams**: Add customer feedback section. Keep organization attuned to customer sentiment.
 
 The core four sections (accomplishments, current focus, upcoming plans, notes) stay constant. Everything else adapts to your context.
-
 
 
 ## Frequently Asked Questions

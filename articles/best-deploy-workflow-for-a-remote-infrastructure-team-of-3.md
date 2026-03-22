@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Deploy Workflow for a Remote Infrastructure Team of 3
 
 Use a four-stage pipeline — local validation, CI testing, staged deployment, and production approval gate — with GitHub Actions environment protection requiring one peer approval before any production push. This workflow gives a three-person remote infrastructure team enough automation to deploy safely across time zones while keeping human oversight where it matters. Pair it with weekly deployment rotation and async runbooks stored in your infrastructure repo so the on-call engineer can execute confidently without hunting for context in Slack.
 
@@ -230,7 +229,6 @@ Review your deployment process monthly. Track metrics that matter for a small te
 A three-person team can iterate quickly on workflow improvements. When something causes friction, discuss it in your next sync and adjust accordingly.
 
 ---
-
 
 
 ## Frequently Asked Questions

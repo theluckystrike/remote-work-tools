@@ -3,7 +3,7 @@ layout: default
 title: "Remote Manager One on One Question Template for Distributed"
 description: "Running effective one-on-one meetings with a distributed team requires more than copying your in-office habits into a video call. The asynchronous nature of"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-manager-one-on-one-question-template-for-distributed-team-check-ins/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Manager One on One Question Template for Distributed Team Check Ins
 
 Running effective one-on-one meetings with a distributed team requires more than copying your in-office habits into a video call. The asynchronous nature of remote work, the lack of hallway conversations, and the time zone differences all demand a more intentional approach to check-ins.
 
@@ -282,7 +281,6 @@ One-on-ones drain managers doing them with 15+ people. If you have a large team:
 - Seriously reconsider your team size if you're doing 1:1s with 20+ people
 
 Start with the BASE framework, gather feedback from your team on what's helpful, and iterate. The goal isn't perfect—it's consistent attention to your team members as humans, not just as productivity units. When one-on-ones work well, they become your team's most valuable meeting.
-
 
 
 ## Frequently Asked Questions

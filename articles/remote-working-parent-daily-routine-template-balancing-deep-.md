@@ -3,7 +3,7 @@ layout: default
 title: "Remote Working Parent Daily Routine Template"
 description: "A practical daily routine template for remote working parents. Learn strategies to protect deep work windows while managing childcare responsibilities"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# Remote Working Parent Daily Routine Template: Balancing Deep Work and Kid Interruptions
 
 The most sustainable daily routine for remote parents protects two 90-minute deep work blocks before school pickup and uses 1-hour windows after bedtime for async meetings and admin work. This template aligns your work schedule with your children's school hours and natural energy patterns, creates clear boundaries using calendar-based communication, and acknowledges that interruptions are inevitable rather than trying to eliminate them. This guide provides concrete time blocks, automation ideas, and communication scripts you can customize immediately.
 
@@ -244,7 +243,6 @@ Remote working parents who succeed don't have better willpower—they have bette
 Start with one change this week. Perhaps it's the visual timer. Perhaps it's blocking off 8:30-11:30 on your calendar. Small improvements compound into sustainable routines that let you thrive as both a developer and a parent.
 
 ---
-
 
 
 ## Frequently Asked Questions

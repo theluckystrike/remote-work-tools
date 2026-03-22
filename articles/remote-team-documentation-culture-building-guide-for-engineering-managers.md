@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Documentation Culture"
 description: "A practical step-by-step guide for engineering managers to build lasting documentation culture in remote teams. Includes templates, workflows, and code"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-documentation-culture-building-guide-for-engineering-managers/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Documentation Culture: Building Guide for Engineering Managers
 
 Documentation culture doesn't happen by accident. In remote teams, where watercooler conversations don't exist and Slack threads disappear into the void, intentional documentation practices determine whether knowledge stays with your team or walks out the door with the next departure. Building a documentation culture requires more than telling people to "write more docs"—it needs systems, templates, and sustained leadership attention.
 
@@ -361,7 +360,6 @@ curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp
 ```
 
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.
-
 
 
 ## Frequently Asked Questions

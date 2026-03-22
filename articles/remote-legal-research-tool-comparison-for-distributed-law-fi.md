@@ -3,7 +3,7 @@ layout: default
 title: "Remote Legal Research Tool Comparison for Distributed Law"
 description: "Distributed law firms face unique challenges when it comes to legal research. Team members work across different time zones, need secure access to sensitive"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-legal-research-tool-comparison-for-distributed-law-fi/
 categories: [guides]
@@ -16,7 +16,6 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-# Remote Legal Research Tool Comparison for Distributed Law Firms Using AI 2026
 
 Distributed law firms face unique challenges when it comes to legal research. Team members work across different time zones, need secure access to sensitive documents, and require AI-powered tools that can search massive case law databases in seconds rather than hours. This guide compares the leading remote legal research platforms from a developer's perspective, focusing on API capabilities, integration patterns, and implementation considerations for building legal research workflows.
 
@@ -240,7 +239,6 @@ Distributed firms handling international matters should evaluate cross-border re
 ### Generative AI Research Memos
 
 A significant development in 2026 is the ability to generate first-draft research memos directly from case law queries. Both LexisNexis and Casetext have introduced memo-generation features. Treat these outputs as starting points that require attorney review, not finished work products. Document in your firm's policy which AI-generated outputs require what level of attorney review before transmission to clients—malpractice carriers are beginning to ask about this.
-
 
 
 ## Frequently Asked Questions

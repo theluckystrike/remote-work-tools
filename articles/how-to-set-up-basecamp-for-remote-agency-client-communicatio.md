@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Basecamp for Remote Agency Client"
 description: "A practical guide to configuring Basecamp for client communication in remote agencies. Set up projects, automate updates, and improve feedback"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-basecamp-for-remote-agency-client-communicatio/
 categories: [guides]
@@ -15,8 +15,6 @@ voice-checked: true
 ---
 {% raw %}
 
-
-# How to Set Up Basecamp for Remote Agency Client Communication
 
 Remote agencies face unique communication challenges that traditional tools struggle to address. Clients expect transparency, timely updates, and easy access to project progress—but email threads become chaotic, and real-time meetings are hard to schedule across time zones. Basecamp offers a structured solution that keeps everyone aligned without the overwhelm.
 
@@ -227,7 +225,6 @@ Track these metrics to ensure your Basecamp setup is working:
 If clients still rely on email for primary communication, that's a sign the Basecamp setup needs adjustment. The goal is Basecamp as the single source of truth.
 
 ---
-
 
 
 ## Frequently Asked Questions

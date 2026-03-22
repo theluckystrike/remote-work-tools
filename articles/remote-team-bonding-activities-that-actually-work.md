@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Bonding Activities That Actually Work"
 description: "Remote team bonding often feels forced. Icebreakers that kill conversation, mandatory fun that nobody enjoys, and virtual happy hours where people mute"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-bonding-activities-that-actually-work/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Bonding Activities That Actually Work
 
 Remote team bonding often feels forced. Icebreakers that kill conversation, mandatory fun that nobody enjoys, and virtual happy hours where people mute themselves and multitask. After years of running distributed engineering teams, I've found activities that actually build real connections—ones where people genuinely want to participate.
 
@@ -332,7 +331,6 @@ Make bonding repeatable by documenting what works:
 ```
 
 ---
-
 
 
 ## Frequently Asked Questions

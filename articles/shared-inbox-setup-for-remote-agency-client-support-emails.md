@@ -3,7 +3,7 @@ layout: default
 title: "Shared Inbox Setup for Remote Agency Client Support Emails"
 description: "Configure a shared inbox for client support by using a platform like Front or Gmail shared inbox, assigning ownership for each email thread, and setting up"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /shared-inbox-setup-for-remote-agency-client-support-emails/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# Shared Inbox Setup for Remote Agency Client Support Emails
 
 Configure a shared inbox for client support by using a platform like Front or Gmail shared inbox, assigning ownership for each email thread, and setting up SLAs to ensure timely responses across time zones. Shared inboxes prevent emails from falling through cracks when team members are unavailable.
 
@@ -298,7 +297,6 @@ Consider these factors when selecting your approach:
 For most remote agencies, starting with Google Groups and upgrading to a dedicated platform as volume grows provides the best balance of simplicity and capability.
 
 ---
-
 
 
 ## Frequently Asked Questions

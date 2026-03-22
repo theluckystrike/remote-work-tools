@@ -3,7 +3,7 @@ layout: default
 title: "Return to Office Employee Survey Template"
 description: "A practical guide to building a return to office employee survey with code examples. Measure sentiment, analyze results, and make data-driven decisions"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /return-to-office-employee-survey-template-measuring-sentimen/
 categories: [guides]
@@ -15,7 +15,6 @@ score: 8
 ---
 
 {% raw %}
-# Return to Office Employee Survey Template: Measuring Sentiment Before Policy Change 2026
 
 As organizations prepare for potential return-to-office policy changes in 2026, gathering employee sentiment before implementing changes becomes critical. A well-designed employee survey helps HR teams and leadership understand concerns, preferences, and practical barriers before rolling out new workplace policies. This guide provides a practical survey template with code examples for developers building internal tooling.
 
@@ -265,7 +264,6 @@ Consider offering small incentives. Gift cards or charitable donations in employ
 ---
 
 Building an effective RTO sentiment survey requires thoughtful question design, secure data collection, and rigorous analysis. The template and code examples above provide a starting point for developers building internal tooling. The key is gathering authentic feedback before making policy changes that affect your team's daily work life.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "How to Handle School Snow Day When Both Parents Work"
 description: "A practical guide for remote working parents managing unexpected school closures due to snow days. Strategies for maintaining productivity while caring"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-school-snow-day-when-both-parents-work-remotel/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Handle School Snow Day When Both Parents Work Remotely
 
 When both parents work remotely and schools close, the solution is pre-planning: designate staggered work windows, prepare activity kits the night before, and use asynchronous communication to reduce meeting pressure on snow days. This guide provides specific scheduling templates, activity lists, and communication strategies that let dual-remote households maintain 70-80% productivity while keeping children engaged and supervised throughout the day.
 
@@ -326,7 +325,6 @@ Consider alternatives:
 Protecting both your professional reputation AND your children's safety matters more than proving you can do both simultaneously.
 
 ---
-
 
 
 ## Frequently Asked Questions

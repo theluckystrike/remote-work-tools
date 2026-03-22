@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Knowledge Base Contribution Incentive Program"
 description: "A practical guide to building and implementing a knowledge base contribution incentive program for remote engineering teams. Includes code examples"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /remote-team-knowledge-base-contribution-incentive-program-fo/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Knowledge Base Contribution Incentive Program for Engineering Teams
 
 Create a knowledge base contribution program that incentivizes documentation through recognition, rewards, or learning time allocations, making contribution frictionless via simple templates, and celebrating high-quality submissions publicly. Incentives shift knowledge management from a burden to a valued activity.
 
@@ -357,7 +356,6 @@ But also measure qualitatively:
 - "Are fewer questions asked in Slack?" (analyze Slack trends)
 
 A successful program feels like documentation is just "how we do things," not "the incentive program we're running."
-
 
 
 ## Frequently Asked Questions

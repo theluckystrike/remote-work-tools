@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Automated Client Progress Report for Remote"
 description: "A practical guide to building automated client progress reports for remote projects. Learn to use scripts, APIs, and templates to keep stakeholders"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-automated-client-progress-report-for-remote-pr/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# How to Create Automated Client Progress Report for Remote Projects
 
 Automated client progress reports aggregate task completion, sprint metrics, and timeline data without manual compilation, saving hours weekly. You can script reports from Linear, Jira, or GitHub APIs, format them as PDF or email, and schedule weekly/monthly delivery. This guide covers reporting pipeline architecture, template examples, and integrations for remote project teams.
 
@@ -300,7 +299,6 @@ Adjust your template and delivery frequency based on feedback. The goal is consi
 ---
 
 Building an automated client progress reporting system requires upfront development time but pays dividends through consistent stakeholder communication. Start with simple metrics and expand as you identify what matters most to your clients.
-
 
 
 ## Frequently Asked Questions

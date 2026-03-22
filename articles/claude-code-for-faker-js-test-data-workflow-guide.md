@@ -3,7 +3,7 @@ layout: default
 title: "Claude Code for Faker.js Test Data Workflow Guide"
 description: "Generating realistic test data is a critical part of software development. Whether you're populating a database, running integration tests, or building demo"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools"
 permalink: /claude-code-for-faker-js-test-data-workflow-guide/
 categories: [guides, workflows]
@@ -15,7 +15,6 @@ intent-checked: true
 ---
 
 {% raw %}
-# Claude Code for Faker.js Test Data Workflow Guide
 
 Generating realistic test data is a critical part of software development. Whether you're populating a database, running integration tests, or building demo environments, having the right data makes all the difference. Faker.js has long been the go-to library for JavaScript developers, but using it effectively often requires writing boilerplate code, managing complex configurations, and maintaining consistency across projects. This is where Claude Code transforms your workflow.
 
@@ -231,7 +230,6 @@ When you modify your data model, your existing seed data might become incompatib
 ### Balance Realism and Performance
 
 While Faker.js can generate highly realistic data, extremely large datasets can slow down your tests. Find the balance between realistic data and test execution speed. Often, a smaller set of well-designed data is more valuable than a massive dataset of generic values.
-
 
 
 ## Frequently Asked Questions

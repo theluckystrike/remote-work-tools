@@ -3,7 +3,7 @@ layout: default
 title: "Best Remote Collaboration Tool for Technical Architects"
 description: "A practical guide for technical architects working remotely to document system dependencies. Compare tools, see code examples, and implement dependency"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /best-remote-collaboration-tool-for-technical-architects-docu/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Remote Collaboration Tool for Technical Architects Documenting System Dependencies Guide
 
 Document system dependencies using GitHub's native dependency graph plus custom markdown in your repo for service relationships, create visual architecture diagrams in Miro or Lucidchart, and maintain a living README that evolves with your system. This guide shows you how to keep dependency documentation async-friendly and accessible without requiring synchronous documentation meetings.
 
@@ -266,7 +265,6 @@ for service in services/*/; do
     fi
 done
 ```
-
 
 
 ## Frequently Asked Questions

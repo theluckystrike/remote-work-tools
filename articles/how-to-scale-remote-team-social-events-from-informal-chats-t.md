@@ -3,7 +3,7 @@ layout: default
 title: "How to Scale Remote Team Social Events From Informal Chats"
 description: "A practical guide for developers and technical teams to evolve remote social events from spontaneous conversations into scalable, structured programs"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-scale-remote-team-social-events-from-informal-chats-t/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Scale Remote Team Social Events From Informal Chats to Structured Programs
 
 When your remote team consists of five people, social connections happen naturally. Someone jumps into a Slack channel at 10 PM, a quick video call solves a problem and turns into banter, and everyone knows each other's quirks from daily interactions. Scale to fifty or a hundred people, and those organic touchpoints disappear. The water cooler empties. New hires feel isolated. Team culture becomes something that happens to other companies.
 
@@ -272,7 +271,6 @@ Different organizations approach remote culture differently based on their struc
 **Large org with divisions**: Central social programs at the company level (monthly socials, global interest groups), local programs within divisions (weekly team socials), team-level informal traditions.
 
 Your specific approach depends on team size, timezone spread, and cultural priorities. But the fundamental principle holds: as scale increases, intentional social infrastructure becomes essential.
-
 
 
 ## Frequently Asked Questions

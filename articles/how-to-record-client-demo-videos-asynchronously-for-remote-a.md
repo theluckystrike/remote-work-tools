@@ -3,7 +3,7 @@ layout: default
 title: "How to Record Client Demo Videos Asynchronously for Remote"
 description: "Learn practical techniques for recording client demo videos asynchronously. Includes setup recommendations, recording workflows, and automation scripts"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-record-client-demo-videos-asynchronously-for-remote-a/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# How to Record Client Demo Videos Asynchronously for Remote Agency
 
 Async demo videos let clients review features on their schedule without time zone coordination, while your team preserves deep work focus. Screen recordings with voiceover narration via Loom, Screenflow, or OBS plus timestamped feedback links create structured review cycles. This guide covers recording workflows, editing automation, and client feedback collection for remote agencies.
 

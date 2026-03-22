@@ -3,7 +3,7 @@ layout: default
 title: "How to Write Remote Team Postmortem Communication Template"
 description: "A practical guide to creating effective postmortem communication templates for remote teams. Includes ready-to-use templates, best practices, and code"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-write-remote-team-postmortem-communication-template-f/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Write Remote Team Postmortem Communication Template for Incident Announcements
 
 When an incident hits your production system, the hours and days following require clear, structured communication. Remote teams face a unique challenge: the lack of spontaneous hallway conversations means every message must stand on its own. A well-crafted postmortem communication template ensures stakeholders receive consistent, actionable information without requiring follow-up questions.
 
@@ -313,7 +312,6 @@ Postmortem quality degrades when teams use blame-focused language. This happens 
 | "X made a mistake" | "The system permitted X without a confirmation step" |
 
 The shift from person to system is deliberate: action items that fix systems prevent the same class of error regardless of who's on the keyboard next time. Action items that blame individuals don't generalize.
-
 
 
 ## Frequently Asked Questions

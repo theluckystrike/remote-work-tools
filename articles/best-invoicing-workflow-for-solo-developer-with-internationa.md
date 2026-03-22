@@ -15,7 +15,6 @@ intent-checked: true
 
 
 {% raw %}
-# Best Invoicing Workflow for Solo Developer with International Clients
 
 Use Wise as your primary payment account, invoice in your home currency with automated templates, and track everything in a single spreadsheet or Notion database. That combination handles currency conversion, minimizes fees, and keeps international tax documentation organized. This guide walks through the full invoicing workflow designed specifically for solo developers managing international client relationships.
 
@@ -367,7 +366,6 @@ Keep detailed records. Most countries require invoices and payment receipts as b
 Consistent invoice numbering, organized client records, and a centralized payment tracker are the foundation. Clarify payment terms before starting work, and consult a tax professional about your specific situation—tax rules vary significantly based on your home country, client locations, and the nature of your services.
 
 The invoicing workflow itself is simple; the complexity lies in managing international payment timing, currency conversion, and tax implications. Automating what you can and documenting everything else keeps the administrative overhead minimal while ensuring compliance and healthy cash flow.
-
 
 
 ## Frequently Asked Questions

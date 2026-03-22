@@ -3,7 +3,7 @@ layout: default
 title: "Portable Monitor Setup for Digital Nomads"
 description: "Working as a developer on the move transforms your productivity when you add a portable monitor to your setup. A second screen means more space for code"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /portable-monitor-setup-for-digital-nomads/
 categories: [guides]
@@ -16,7 +16,6 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-# Portable Monitor Setup for Digital Nomads: A Developer's Guide
 
 Working as a developer on the move transforms your productivity when you add a portable monitor to your setup. A second screen means more space for code, documentation, and debugging without crowding your laptop display. This guide walks you through building a reliable portable monitor setup that works across咖啡馆, coworking spaces, and hotel rooms worldwide.
 
@@ -271,7 +270,6 @@ The trade-off is usually worth it. Code development with dual screens outweighs 
 Portable monitors hold value well. A 2-year-old ASUS MB16UC still sells for $150-200 on eBay (60% of original price). This means your true cost of ownership is lower than it appears. After two years, your actual cost is $100-150, or $0.14/day.
 
 ---
-
 
 
 ## Frequently Asked Questions

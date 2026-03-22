@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Hybrid Team Anchor Days When Subteams Have"
 description: "Hybrid work models with anchor days—designated in-office days for team collaboration—work well until your organization scales into subteams with conflicting"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-team-anchor-days-when-subteams-have-dif/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Set Up Hybrid Team Anchor Days When Subteams Have Different Schedules
 
 Hybrid work models with anchor days—designated in-office days for team collaboration—work well until your organization scales into subteams with conflicting schedules. A frontend team in Europe, a backend team in the US, and a DevOps team spread across Asia face fundamentally different constraints when coordinating physical presence. This guide provides a practical framework for establishing anchor day schedules that actually work when subteams have different operational windows.
 
@@ -205,7 +204,6 @@ Ignoring commute variation: A 90-minute commute for occasional in-office days is
 Making anchor days purely social: If the only value of being in-office is "water cooler moments," teams will question why they can't work remotely. Anchor days should enable work that genuinely benefits from physical co-location: whiteboarding sessions, complex debugging, hiring interviews.
 
 Neglecting async documentation: Without explicit async handoffs, anchor days create information silos that harm remote team members.
-
 
 
 ## Frequently Asked Questions

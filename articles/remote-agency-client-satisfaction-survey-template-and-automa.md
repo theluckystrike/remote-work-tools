@@ -3,7 +3,7 @@ layout: default
 title: "Remote Agency Client Satisfaction Survey Template"
 description: "A practical guide for building client satisfaction surveys for remote agencies with automation workflows using JavaScript, GitHub Actions, and no-code"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-agency-client-satisfaction-survey-template-and-automa/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Agency Client Satisfaction Survey Template and Automation Guide
 
 Client satisfaction surveys are critical for remote agencies. Without face-to-face interactions, you lose subtle cues about client happiness. Systematic feedback collection fills this gap, helping you spot issues before they become relationship-ending problems.
 
@@ -229,7 +228,6 @@ function analyzeSurveyResponses(responses) {
 - [ ] Schedule a monthly review of recent survey results with your team
 
 With this system in place, you continuously gather client intelligence without adding manual busywork. The automation handles the timing and distribution, while you focus on analyzing feedback and improving your services.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Best Second Hand Ergonomic Chair Brands to Buy Used 2026"
 description: "A practical guide to finding quality used ergonomic chairs for developers. Compare top brands, what to inspect, and how to evaluate condition before"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /best-second-hand-ergonomic-chair-brands-to-buy-used-2026/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# Best Second Hand Ergonomic Chair Brands to Buy Used 2026
 
 Buy a used Herman Miller Aeron Gen2 ($400-700) for the best combination of durability and ergonomic support -- its Pellicle mesh does not compress over time, so even 3-5 year old units retain their supportive properties. For a lower budget, the Steelcase Leap V2 ($300-550) offers excellent adjustability, though check that the foam seat cushion has not flattened. Haworth Zody ($250-450) is the value pick with replaceable cushions that extend its usable life. All three brands build chairs rated for 10-15 years, so buying used at 40-60% off retail saves hundreds while delivering the same ergonomic benefits developers need for 8+ hour coding sessions.
 
@@ -195,7 +194,6 @@ Pair your ergonomic chair with:
 - A desk at proper height (elbows at 90° when typing)
 - A monitor at eye level (top of screen at or slightly below eye level)
 - Keyboard and mouse positioned to keep wrists neutral
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Costa Rica Digital Nomad Visa Tax Obligations for Remote"
 description: "Costa Rica Digital Nomad Visa Tax Obligations for Remote. — practical guide for remote teams and distributed workers with tools, tips, and workflows"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Costa Rica Digital Nomad Visa Tax Obligations for Remote Tech Workers
 
 Costa Rica launched its Digital Nomad Visa (Rentista) in 2021, offering remote workers a pathway to live in one of Central America's most stable democracies. For developers and tech professionals earning foreign income, understanding the tax implications prevents costly mistakes and ensures compliance with both Costa Rican and home-country tax authorities.
 
@@ -247,7 +246,6 @@ Digital nomad visas are designed as temporary arrangements. Plan your next move:
 - **Remote employee status**: Becoming a full-time employee of a Costa Rican company changes tax rules significantly (and usually unfavorably)
 
 The most tax-efficient path for most nomads: maintain home country tax residence, use digital nomad visas temporarily, and repatriate when home country situation improves.
-
 
 
 ## Frequently Asked Questions

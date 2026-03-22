@@ -3,7 +3,7 @@ layout: default
 title: "Client Project Status Dashboard Setup for Remote Agency"
 description: "Learn how to build a client project status dashboard tailored for distributed agency teams with practical implementation examples"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /client-project-status-dashboard-setup-for-remote-agency-team/
 reviewed: true
@@ -15,7 +15,6 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-# Client Project Status Dashboard Setup for Remote Agency Teams
 
 Build a custom dashboard using Node.js, Express, and GitHub/Linear APIs to display real-time project status, active tasks, time tracking, and deliverable links. Alternatively, use Basecamp or Monday.com for out-of-the-box solutions with client visibility settings. This guide shows you how to consolidate scattered Slack, email, and spreadsheet updates into a single source of truth for distributed agency teams.
 

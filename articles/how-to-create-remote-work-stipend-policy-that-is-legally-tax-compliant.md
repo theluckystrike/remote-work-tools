@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Remote Work Stipend Policy That Is Legally"
 description: "Tax-compliant remote work stipend policies must distinguish between tax-free accountable plans and taxable income—with proper documentation, substantiation"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Create Remote Work Stipend Policy That Is Legally Tax Compliant
 
 Tax-compliant remote work stipend policies must distinguish between tax-free accountable plans and taxable income—with proper documentation, substantiation, and return-of-excess provisions. IRS regulations allow up to $1,200/year for home office equipment tax-free if structured correctly. This guide covers legal framework, policy templates, and implementation strategies to keep stipends compliant.
 
@@ -274,7 +273,6 @@ Before launching, train your management team on the policy. They need to underst
 - Why this matters (the tax benefits it creates)
 
 ---
-
 
 
 ## Frequently Asked Questions

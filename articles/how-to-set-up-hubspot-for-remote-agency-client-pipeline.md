@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up HubSpot for Remote Agency Client Pipeline"
 description: "A practical guide to configuring HubSpot pipelines tailored for remote agencies managing client relationships across time zones"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-hubspot-for-remote-agency-client-pipeline/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Set Up HubSpot for Remote Agency Client Pipeline
 
 Remote agencies face unique challenges when managing client relationships. Your team spans multiple time zones, client interactions happen asynchronously, and maintaining visibility into deal progress requires deliberate system design. HubSpot provides the flexibility to build a pipeline that accommodates these realities, but the default configuration rarely fits a remote agency's workflow out of the box.
 
@@ -321,7 +320,6 @@ Create HubSpot dashboards that show pipeline health at a glance:
 - Win/loss ratio by industry or deal source (shows which markets work)
 
 These dashboards replace status update meetings—anyone can check pipeline health without asking questions.
-
 
 
 ## Frequently Asked Questions

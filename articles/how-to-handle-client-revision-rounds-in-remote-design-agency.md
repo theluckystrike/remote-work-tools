@@ -3,7 +3,7 @@ layout: default
 title: "How to Handle Client Revision Rounds in Remote Design Agency"
 description: "A practical guide to managing client revision rounds in remote design agencies. Includes async workflows, code templates, and implementation strategies"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-handle-client-revision-rounds-in-remote-design-agency/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Handle Client Revision Rounds in Remote Design Agency
 
 Managing client revision rounds represents one of the most challenging aspects of running a remote design agency. Without the benefit of in-person conversations, revision requests can easily spiral into endless loops of back-and-forth feedback that drain team energy and erode project margins. This guide provides a systematic approach to handling revision rounds that keeps projects on track while maintaining strong client relationships.
 
@@ -423,7 +422,6 @@ After completing each project, take time to document what worked and what didn't
 - Scope creep instances and their cost impact
 
 This data helps you refine your scoping process and identify areas where client education might reduce revision friction. Over time, you'll develop increasingly accurate estimates and more effective communication patterns.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Indonesia Second Home Visa for Remote Workers"
 description: "A practical guide for developers and power users on Indonesia's Second Home Visa for remote workers. Complete application process, requirements, financial"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /indonesia-second-home-visa-for-remote-workers-application-an/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Indonesia Second Home Visa for Remote Workers: Application and Requirements Guide 2026
 
 Indonesia introduced the Second Home Visa (Visa Tinggal Terbatas dengan注 sponsor Tinggal Tetap) specifically to attract remote workers, digital nomads, and long-term visitors who want to live in Indonesia without requiring local employment. Unlike the B211A tourist/business visa that requires periodic extensions, the Second Home Visa offers validity for 5 to 10 years with multiple entry privileges. This guide covers the complete application process, financial requirements, document preparation, and practical tools for developers planning a move to Indonesia.
 

@@ -3,7 +3,7 @@ layout: default
 title: "How to Handle Social Security Contributions When Working"
 description: "Working remotely from an EU country for a few months creates complex social security questions that many developers and power users overlook. The rules around"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Handle Social Security Contributions When Working Remotely from an EU Country Temporarily
 
 Working remotely from an EU country for a few months creates complex social security questions that many developers and power users overlook. The rules around contributions, coverage, and compliance can significantly impact your financial obligations and access to healthcare. This guide provides actionable steps to handle social security contributions when working temporarily in EU countries.
 
@@ -302,7 +301,6 @@ Remote work from EU countries is entirely viable with proper planning:
 7. **Build buffer time:** Plan to exceed your 90-day window by a week or two to get everything squared away before your time runs out
 
 Remote work from EU countries offers genuine quality-of-life improvements. Proper compliance ensures you can enjoy those benefits without legal or financial stress.
-
 
 
 ## Frequently Asked Questions

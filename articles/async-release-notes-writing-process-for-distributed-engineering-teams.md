@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Async Release Notes Writing Process for Distributed Engineering Teams
 
 Release notes are critical for keeping stakeholders informed about what changed in your product, but coordinating their creation across time zones can become a logistical nightmare. When your engineering team spans San Francisco, London, and Bangalore, scheduling a synchronous meeting to review release notes becomes impractical. An async release notes process solves this by enabling collaborative writing and review that respects everyone's time zone and work hours.
 
@@ -216,7 +215,6 @@ Track these metrics to continuously improve your async release notes process:
 3. Stakeholder feedback: Survey readability and usefulness
 4. Correction rate: How often errors are found post-publication
 5. Time to produce: Total hours spent on release notes creation
-
 
 
 ## Frequently Asked Questions

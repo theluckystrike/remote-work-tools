@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Async Capacity Planning Process for Remote Engineering Managers Guide
 
 Capacity planning is one of the most challenging responsibilities for engineering managers, especially when leading distributed teams across time zones. Traditional approaches rely heavily on synchronous planning sessions where everyone shares their availability, discusses bandwidth, and commits to sprint goals in real-time. While this worked in co-located settings, remote teams need a different approach that respects asynchronous workflows and provides documentation for future reference.
 
@@ -240,7 +239,6 @@ Iterate on your process based on feedback. The first version won't be perfect, a
 **Using averages blindly** — Averages hide variance. A team averaging 40 points might have sprints of 25 and 55. Plan for realistic variation.
 
 **Failing to update** — Capacity isn't static. If someone's situation changes mid-sprint, recalculate and communicate.
-
 
 
 ## Frequently Asked Questions

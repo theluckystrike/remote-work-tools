@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Practice for Remote Team Meeting Hygiene When Calendar Bloat Increases During Scaling
 
 As remote engineering teams grow from 10 to 50+ members, calendar bloat becomes a silent productivity killer. What starts as a few daily standups evolves into overlapping syncs, redundant reviews, and meeting sprawl that consumes deep work time. This guide provides actionable strategies to maintain meeting hygiene during rapid scaling, with practical examples developers can implement immediately.
 
@@ -322,7 +321,6 @@ Not everyone experiences calendar bloat as a problem. Senior engineers, managers
 - Measure and share the data: when engineers see their own meeting hours drop from 18 to 10 per week, they become advocates
 
 The hardest part of meeting hygiene at scale isn't the tooling — it's building team norms that make it feel normal to cancel a meeting, decline an invite, or default to a written update instead of a call.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "How to Run Remote Client UX Research Sessions with Observers"
 description: "Configure Zoom with breakout rooms or separate observer channels to keep participants comfortable while giving stakeholders visibility into research sessions"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-client-ux-research-sessions-with-observers/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# How to Run Remote Client UX Research Sessions with Observers
 
 Configure Zoom with breakout rooms or separate observer channels to keep participants comfortable while giving stakeholders visibility into research sessions. Running remote UX research sessions with multiple observers requires infrastructure that balances participant comfort with stakeholder visibility—you need separate video streams for the research and observer groups. This guide covers practical approaches for running effective remote UX research sessions with product managers, designers, developers, and client observers, with implementation details.
 
@@ -202,7 +201,6 @@ A simple Google Sheets template works well for tracking observations:
 | 14:23     | Sarah    | Hesitated at login | "I'm not sure..." | Form field unclear | High     |
 | 14:31     | Mike     | Successfully completed task | — | User succeeded | Low      |
 ```
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Remote Agency Subcontractor Client Communication Boundaries"
 description: "A practical guide to establishing clear communication boundaries when working as a subcontractor for remote agencies. Includes templates, workflows"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-agency-subcontractor-client-communication-boundaries-/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Agency Subcontractor Client Communication Boundaries and Guidelines
 
 Working as a subcontractor for remote agencies presents unique communication challenges. You often juggle multiple projects, deal with different point contacts, and navigate unclear expectations about when and how to communicate with end clients. Without clear boundaries, you'll experience burnout, scope creep, and damaged professional relationships.
 
@@ -203,7 +202,6 @@ Adjust your framework as you learn what works. The goal isn't to minimize commun
 Remote agency work thrives on trust. By being clear about how you work, you actually become easier to collaborate with—and you protect the long-term energy needed to deliver great work.
 
 ---
-
 
 
 ## Frequently Asked Questions

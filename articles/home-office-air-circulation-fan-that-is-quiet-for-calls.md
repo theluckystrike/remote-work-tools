@@ -3,7 +3,7 @@ layout: default
 title: "Home Office Air Circulation Fan That Is Quiet for Calls"
 description: "For a home office fan that stays quiet during calls, target a tower fan rated under 25 dB with 50-150 CFM airflow, positioned to create a cross-breeze without"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /home-office-air-circulation-fan-that-is-quiet-for-calls/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Home Office Air Circulation Fan That Is Quiet for Calls
 
 For a home office fan that stays quiet during calls, target a tower fan rated under 25 dB with 50-150 CFM airflow, positioned to create a cross-breeze without pointing directly at your microphone. Fans with fewer, wider blades and DC motors run quieter at equivalent airflow. Place the fan to your left or right at desk height or in a corner -- never facing your mic -- and you get comfortable air circulation without colleagues hearing it on calls.
 
@@ -297,7 +296,6 @@ The right quiet fan depends on your specific situation. Consider these factors:
 For most developers in moderate climates, a quality tower fan in the 23-30 dB range (Vornado CR1 or Lasko 30"), positioned to create cross-breeze without pointing at your mic, provides the best balance of cooling and quiet operation during calls. Test it first with a 30-day return window.
 
 The investment in a quiet air circulation solution pays off immediately—you'll sound more professional on calls, stay comfortable during focused work sessions, and avoid the distraction of dealing with heat during important meetings.
-
 
 
 ## Frequently Asked Questions

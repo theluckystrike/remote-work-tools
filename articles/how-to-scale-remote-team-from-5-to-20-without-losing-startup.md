@@ -3,7 +3,7 @@ layout: default
 title: "How to Scale Remote Team From 5 to 20 Without Losing"
 description: "A practical guide for developers and technical leads on scaling remote teams from 5 to 20 people while preserving startup culture, communication speed"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-scale-remote-team-from-5-to-20-without-losing-startup/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 {% raw %}
 
-# How to Scale Remote Team From 5 to 20 Without Losing Startup Culture
 
 Scaling a remote team from 5 to 20 people tests every assumption you've made about how work gets done. At 5 people, you can rely on verbal communication, implicit knowledge sharing, and organic collaboration. At 20, those same habits create information silos, process gaps, and cultural drift. The challenge isn't adding heads—you're fundamentally changing how your organization functions.
 

@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up a Soundproof Home Office When Working"
 description: "A practical guide for developers and power users to create a soundproof home office setup that handles the challenges of remote work with young"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-soundproof-home-office-when-working-remotely-w/
 categories: [guides]
@@ -16,7 +16,6 @@ intent-checked: true
 
 
 {% raw %}
-# How to Set Up a Soundproof Home Office When Working Remotely with Young Children
 
 Start with door sealing (sweep + weatherstripping adds 3-5 dB) and quality ANC headphones—these two interventions handle 80% of child noise problems. For additional control, 2 lb/sq ft mass-loaded vinyl reduces wall transmission by 25-30 dB, DIY acoustic panels cost $30 each and absorb mid-high frequencies, and brown noise masking covers remaining unpredictable sounds. This layered approach—physical barriers + absorption + masking—creates predictable acoustic conditions where unexpected squeals and crashes don't derail your focus during critical deep work sessions with young children at home.
 

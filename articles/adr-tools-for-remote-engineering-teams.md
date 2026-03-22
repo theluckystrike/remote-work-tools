@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# ADR Tools for Remote Engineering Teams
 
 Use Log4brains if you want ADRs stored directly in your codebase with a browsable web interface, Notion if your team already documents there and needs relational linking between decisions, or plain GitHub markdown files with a CI validation workflow if you want full control with zero extra tooling. Each approach supports async review across time zones, version-controlled decision history, and searchable architectural records. This guide walks through setup, configuration, and tradeoffs for each option.
 
@@ -208,7 +207,6 @@ echo "Created ADR-${NEXT}: $1"
 Run this script with `./new-adr.sh "Use Redis for Caching"` to generate a properly numbered, formatted ADR ready for editing.
 
 ---
-
 
 
 ## Frequently Asked Questions

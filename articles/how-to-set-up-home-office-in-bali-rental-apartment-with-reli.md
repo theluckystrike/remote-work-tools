@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Home Office in Bali Rental Apartment"
 description: "A practical guide for developers and digital nomads setting up a productive home office in Bali rental apartments. Covers power infrastructure"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-home-office-in-bali-rental-apartment-with-reli/
 categories: [guides]
@@ -15,7 +15,6 @@ intent-checked: true
 ---
 
 {% raw %}
-# How to Set Up Home Office in Bali Rental Apartment with Reliable Power
 
 Setting up a functional home office in a Bali rental apartment requires understanding the local power infrastructure and planning accordingly. Unlike Western properties with stable 220V grids, Bali's electrical systems vary significantly between new developments and traditional villas. This guide provides actionable strategies for developers and power users who need uninterrupted productivity.
 

@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team One on One Meeting Template for Engineering"
 description: "A practical template and framework for engineering managers running effective one-on-one meetings with remote direct reports. Includes async options"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-one-on-one-meeting-template-for-engineering-mana/
 categories: [guides]
@@ -15,7 +15,6 @@ score: 8
 ---
 
 {% raw %}
-# Remote Team One on One Meeting Template for Engineering Managers with Direct Reports
 
 Engineering managers overseeing remote teams face a unique challenge: building genuine connection and providing meaningful guidance without the benefit of in-person interactions. A well-structured one-on-one meeting template becomes your primary tool for maintaining engagement, catching issues early, and helping your direct reports grow professionally.
 
@@ -262,7 +261,6 @@ If these metrics decline, your one-on-ones need adjustment.
 6. Iterate quarterly: Review and adjust your approach based on feedback
 
 A well-executed one-on-one template transforms a simple meeting into your most powerful management tool. The consistency builds trust over time, and the structure ensures nothing important falls through the cracks.
-
 
 
 ## Frequently Asked Questions

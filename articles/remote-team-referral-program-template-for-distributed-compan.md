@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Referral Program Template for Distributed"
 description: "A practical template and implementation guide for building employee referral programs in remote and distributed companies. Includes bonus structures"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-referral-program-template-for-distributed-compan/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Referral Program Template for Distributed Companies: Incentivizing Employee Referral Hiring 2026
 
 Employee referral programs remain one of the most cost-effective hiring channels, with referral hires typically showing higher retention rates and faster onboarding. For distributed companies, designing a referral program that works across time zones and legal jurisdictions requires thoughtful structure and clear communication. This guide provides a template you can adapt for your remote team, with practical implementation details and code examples for tracking referrals.
 
@@ -331,7 +330,6 @@ For distributed companies:
 For companies with employees in 5+ countries, consult an international tax firm ($500-1K cost) to ensure compliance.
 
 ---
-
 
 
 ## Frequently Asked Questions

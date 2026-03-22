@@ -14,7 +14,6 @@ score: 9
 ---
 
 {% raw %}
-# Async Decision Making with RFC Documents for Engineering Teams
 
 Request for Comments (RFC) documents serve as the backbone of asynchronous decision making in distributed engineering organizations. When implemented effectively, RFCs enable teams to make thoughtful, documented decisions without requiring real-time synchronization, which proves especially valuable across time zones.
 
@@ -328,7 +327,6 @@ Every approved RFC is a learning opportunity. Monthly, pick one approved RFC and
 4. Document: Add a "Results" section to the RFC with learnings
 
 This practice creates organizational learning that compounds over time. New team members can read old RFCs and understand not just decisions, but the outcomes of those decisions.
-
 
 
 ## Frequently Asked Questions

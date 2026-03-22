@@ -3,7 +3,7 @@ layout: default
 title: "Fake Commute for Remote Workers"
 description: "A practical guide on implementing fake commute rituals for remote workers. Learn transition rituals, automation scripts, and routines that help"
 date: 2026-03-20
-last_modified_at: 2026-03-20
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /fake-commute-for-remote-workers-transition-rituals-that-work/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Fake Commute for Remote Workers: Transition Rituals That Work
 
 Remote work offers flexibility but blurs the boundaries between professional and personal life. Without a physical commute, many developers find themselves working longer hours, feeling perpetually "on," and struggling to disconnect. Fake commutes and transition rituals solve this problem by creating psychological separation between work mode and rest mode.
 
@@ -363,7 +362,6 @@ Create a personal toolkit of ritual components to mix-and-match:
 Mix-and-match across morning and evening. Morning might be: 10-min walk + "Morning Focus" playlist + coffee + read Hacker News (5 min). Evening might be: 5-min walk + different playlist + tea + brief journal. The combination of multiple components creates stronger neural association than single-component rituals.
 
 The key is consistency and combination. Ritual stacks are more powerful than individual rituals because multiple cues reinforce the state change. Your brain learns: "combination of these signals = work time is over."
-
 
 
 ## Frequently Asked Questions

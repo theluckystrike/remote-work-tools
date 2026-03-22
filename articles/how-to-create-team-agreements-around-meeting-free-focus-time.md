@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Team Agreements Around Meeting-Free Focus Time"
 description: "Deep work requires uninterrupted time. For remote engineering teams, the absence of physical office boundaries means meetings can creep into every available"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-team-agreements-around-meeting-free-focus-time/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Create Team Agreements Around Meeting-Free Focus Time
 
 Deep work requires uninterrupted time. For remote engineering teams, the absence of physical office boundaries means meetings can creep into every available slot. Creating explicit team agreements around meeting-free focus time protects your team's ability to solve complex problems and write quality code.
 
@@ -241,7 +240,6 @@ Focus time agreements require ongoing attention:
 The goal isn't rigid enforcement but creating a culture where deep work is valued as much as collaboration. When your team consistently delivers quality code without burnout, you've built something sustainable.
 
 ---
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Linux Workstation for Remote Work"
 description: "A practical guide for developers and power users setting up a Linux workstation for remote work. Includes desktop environment setup, security"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-linux-workstation-for-remote-work/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Set Up Linux Workstation for Remote Work
 
 Setting up a Linux workstation for remote work requires more than installing a distribution and hoping for the best. Developers and power users need a system that's secure, productive, and maintainable across long work sessions. This guide walks through the essential steps to build a reliable Linux remote work environment.
 
@@ -268,7 +267,6 @@ Create aliases for quick access:
 # ~/.bashrc
 alias top='bpytop'
 ```
-
 
 
 ## Frequently Asked Questions

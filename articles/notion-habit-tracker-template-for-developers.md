@@ -3,7 +3,7 @@ layout: default
 title: "Notion Habit Tracker Template for Developers"
 description: "A practical guide to building a habit tracker in Notion designed specifically for developers. Includes template structures, database configurations"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /notion-habit-tracker-template-for-developers/
 categories: [productivity, guides]
@@ -17,7 +17,6 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-# Notion Habit Tracker Template for Developers: Build Consistent Routines
 
 Build a developer habit tracker in Notion using two connected databases: a Habits database (name, category, frequency, streak) and a Daily Log database (date, habit relation, completed checkbox, notes). Start with three or fewer habits tied to your development goals -- like daily commits, code reviews, or learning time -- and connect them via a Relation property for automatic streak tracking. This guide walks through the full setup with database configurations and automation examples you can use immediately.
 
@@ -332,7 +331,6 @@ Habit trackers aren't forever. Revisit and reset quarterly:
 A quarterly reset also catches habit drift — where the original definition of a habit has silently changed in practice. If "30 minutes of learning" has drifted from "reading technical books" to "watching YouTube," decide consciously whether that change was intentional. The quarterly review surfaces this kind of drift before it undermines the habit's value.
 
 A healthy habit tracker evolves as you do.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team OKR and Goal Tracking 2026"
 description: "Complete guide to setting up async OKR tracking for distributed teams including tool recommendations and process templates"
 date: 2026-03-20
-last_modified_at: 2026-03-20
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-okr-goal-tracking-2026/
 categories: [guides]
@@ -16,7 +16,6 @@ intent-checked: true
 
 {% raw %}
 
-# Remote Team OKR and Goal Tracking 2026
 
 Distributed teams lose goal alignment when they're out of physical proximity. An office team naturally talks about quarterly goals in the hallway. A remote team needs intentional structure and clear visibility.
 
@@ -347,7 +346,6 @@ Track these meta-metrics:
 Run a quick survey mid-year: "Rate 1-5 how clear company priorities are to you."
 
 OKRs done well make remote teams feel connected, aligned, and enabled. They're the clearest signal that distributed work can be just as effective as office work.
-
 
 
 ## Frequently Asked Questions

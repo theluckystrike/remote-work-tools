@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Compact Standing Desk for Small Apartment Home Office 2026
 
 For developers and power users working in tight spaces, finding the right standing desk requires balancing desk height adjustability, footprint, weight capacity, and compatibility with existing monitors and peripherals. This guide breaks down the key considerations for compact standing desks in small apartments and home offices, with practical setup examples and configuration tips.
 
@@ -217,7 +216,6 @@ Switching to a compact standing desk in a small apartment requires adjustment:
 3. Monitor placement: Eye level matters more when standing
 4. Peripheral access: Ensure keyboard and mouse remain comfortable
 5. Neighbor considerations: Electric motors produce sound—avoid late-night adjustments in apartments
-
 
 
 ## Frequently Asked Questions

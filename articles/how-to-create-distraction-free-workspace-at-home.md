@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Distraction Free Workspace at Home"
 description: "A practical guide for developers and power users to build a distraction-free workspace at home. Includes environmental setup, digital noise reduction"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-distraction-free-workspace-at-home/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Create Distraction Free Workspace at Home
 
 Creating a distraction-free workspace at home requires more than just clearing a desk. For developers and power users, the environment directly impacts code quality, debug sessions, and sustained focus during long work sessions. This guide covers physical setup, digital boundaries, and automation that helps maintain concentration.
 
@@ -358,7 +357,6 @@ This "context capture" dramatically reduces the time it takes to regain focus af
 Clear expectations prevent surprise interruptions from feeling personal. People know your focus time is protected, not rejecting them.
 
 ---
-
 
 
 ## Frequently Asked Questions

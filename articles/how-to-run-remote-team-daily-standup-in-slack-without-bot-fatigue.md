@@ -3,7 +3,7 @@ layout: default
 title: "How to Run Remote Team Daily Standup in Slack Without Bot"
 description: "Learn practical strategies to run effective daily standups in Slack for remote teams without relying on bots. Reduce notification overload and keep"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools"
 permalink: /how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/
 categories: [guides]
@@ -18,7 +18,6 @@ voice-checked: true
 
 Run effective daily standups in Slack without bots by creating dedicated standup channels, using threaded replies for individual updates, establishing time-boxed posting windows, and employing emoji reactions for lightweight acknowledgment. This human-centered approach maintains coordination and searchable history while avoiding notification fatigue that plagues bot-driven standups.
 
-# How to Run Remote Team Daily Standup in Slack Without Bot Fatigue
 
 Daily standups are the backbone of remote team coordination, but the bot-heavy approach has worn thin. Automated reminders, threaded surveys, and constant notifications have created a new problem: bot fatigue. Your team mutes channels, ignores prompts, and the standup becomes a chore rather than an useful ritual.
 
@@ -419,7 +418,6 @@ If you see these, standup process needs fixing:
 Address these immediately. Standup only works if it's genuinely useful to the team.
 
 Third, lead by example. If senior team members treat standups as box-checking, others will too. Show genuine interest in colleagues' updates, ask follow-up questions, and engage authentically.
-
 
 
 ## Frequently Asked Questions

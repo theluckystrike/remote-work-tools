@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub
 
 Pair programming has long been celebrated as a powerful technique for knowledge sharing, code quality improvement, and team cohesion. But for distributed teams spread across time zones, traditional synchronous pair programming sessions can feel impossible to schedule. Enter async pair programming—a methodology that captures the benefits of pairing while respecting everyone's timezone, focus time, and work style.
 
@@ -239,7 +238,6 @@ For complex decisions that go beyond code comments, create a GitHub Discussion l
 3. Skipping follow-up recordings: If changes are significant, record them
 4. Ignoring timezones entirely: Check when your reviewer is likely to be online
 5. Perfectionism: Async pair programming is about collaboration, not getting everything perfect on the first try
-
 
 
 ## Frequently Asked Questions

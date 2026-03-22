@@ -3,7 +3,7 @@ layout: default
 title: "Remote Ideation Session Facilitation Guide"
 description: "A practical guide to running effective remote ideation sessions for developers and power users. Learn help techniques, tools, and code examples"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /remote-ideation-session-facilitation-guide/
 reviewed: true
@@ -15,7 +15,6 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-# Remote Ideation Session Help Guide
 
 Start every remote ideation session with a "silent start" -- send the problem prompt 24-48 hours in advance and have participants contribute ideas asynchronously before any live discussion. This eliminates the loudest-voice-wins problem and produces higher-quality input from the entire team. This guide covers the full help toolkit, including round-robin generation, the 6-3-5 method, SCAMPER frameworks, and post-session follow-through workflows.
 
@@ -196,7 +195,6 @@ Avoid these mistakes that reduce ideation session effectiveness:
 - **Too many participants** — Keep sessions to 6-8 people maximum
 - **Missing follow-through** — Ideas without owners and deadlines die immediately
 - **Infinite sessions** — Cap ideation at 45-60 minutes; extended sessions produce diminishing returns
-
 
 
 ## Frequently Asked Questions

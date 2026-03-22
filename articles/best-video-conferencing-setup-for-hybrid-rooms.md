@@ -3,7 +3,7 @@ layout: default
 title: "Best Video Conferencing Setup for Hybrid Rooms"
 description: "A practical guide for developers and power users configuring video conferencing in hybrid rooms. Covers camera selection, lighting, and software"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-video-conferencing-setup-for-hybrid-rooms/
 categories: [guides]
@@ -15,7 +15,6 @@ intent-checked: true
 ---
 
 {% raw %}
-# Best Video Conferencing Setup for Hybrid Rooms: A Technical Guide
 
 The best video conferencing setup for hybrid rooms combines a PTZ camera with auto-tracking, consistent front-lighting at 45-degree angles, and eye-level displays for remote participants. These three components solve the core hybrid challenge: serving both in-room and remote audiences with equal quality. This guide covers camera selection, lighting strategies, and software integration for each room size.
 
@@ -337,7 +336,6 @@ Hybrid rooms require regular care to stay functional:
 - Review utilization data and adjust setup if needed
 
 A maintained hybrid room consistently outperforms a well-equipped but neglected one.
-
 
 
 ## Frequently Asked Questions

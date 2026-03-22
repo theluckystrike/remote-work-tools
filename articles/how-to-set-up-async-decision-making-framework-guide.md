@@ -13,7 +13,6 @@ voice-checked: true
 intent-checked: true
 ---
 
-# How to Set Up an Async Decision-Making Framework for Remote Teams
 
 Synchronous decision-making (meetings, calls, real-time discussions) becomes increasingly expensive in remote teams across time zones. A 30-minute decision meeting with 8 people costs the organization 4 hours of productivity. In 2026, leading remote-first organizations have moved to asynchronous decision-making frameworks where decisions are made faster, with better documentation, and full team visibility.
 

@@ -3,7 +3,7 @@ layout: default
 title: "Do Async Performance Reviews for Remote Engineering Teams"
 description: "A practical guide with code snippets and templates for implementing async performance reviews in distributed engineering teams"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-do-async-performance-reviews-for-remote-engineering-t/
 reviewed: true
@@ -16,7 +16,6 @@ tags: [remote-work-tools, remote-work]
 
 
 {% raw %}
-# How to Do Async Performance Reviews for Remote Engineering Teams
 
 Run async performance reviews by structuring a two-week cycle: self-reviews in days 1-5, peer feedback in days 6-7, manager synthesis in days 8-10, and employee response in days 11-14. Use structured templates that capture technical contributions, code review activity, and collaboration rather than generic forms. Automate phase transitions and reminders through Slack or your project management tool so nothing stalls across time zones.
 
@@ -254,7 +253,6 @@ Survey engineers after each cycle:
 **Iteration cadence:** Run the post-review survey within 48 hours of cycle completion while the experience is fresh. Review the results before designing the next cycle. Most teams see completion rates improve significantly between cycles 1 and 3 as engineers understand what's expected and trust that their written responses are actually read.
 
 The single metric that matters most is goal completion in the following cycle. If engineers consistently fail to hit goals set in reviews, either the goals are being set unrealistically or the review feedback isn't translating into actionable change. Both are fixable, but only if you're tracking the outcome.
-
 
 
 ## Frequently Asked Questions

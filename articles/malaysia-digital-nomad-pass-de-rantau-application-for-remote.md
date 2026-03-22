@@ -3,7 +3,7 @@ layout: default
 title: "Malaysia Digital Nomad Pass De Rantau Application for Remote"
 description: "Malaysia Digital Nomad Pass DE Rantau Application for. — practical guide for remote teams and distributed workers with tools, tips, and workflows for 2026"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /malaysia-digital-nomad-pass-de-rantau-application-for-remote/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Malaysia Digital Nomad Pass DE Rantau Application for Remote Tech Workers 2026
 
 Malaysia introduced the DE Rantau Digital Nomad Pass in 2022 as part of its efforts to attract remote workers and strengthen its position as a hub for digital professionals in Southeast Asia. The program offers a long-term residency option for remote workers who want to live in Malaysia while continuing to work for employers or clients outside the country. This guide covers the application process with practical details for developers and tech workers planning to relocate in 2026.
 
@@ -322,7 +321,6 @@ Malaysia offers excellent value for remote workers. A comfortable lifestyle in c
 Coworking spaces in major Malaysian cities typically cost between USD 200 and USD 400 per month. Many spaces offer high-speed internet, meeting rooms, and community events that help with networking.
 
 The DE Rantau pass allows you to open a local bank account once you arrive, which simplifies managing living expenses. However, you should maintain your overseas bank accounts for receiving remote work income.
-
 
 
 ## Frequently Asked Questions

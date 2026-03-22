@@ -3,7 +3,7 @@ layout: default
 title: "Portugal Digital Nomad Visa Application Guide"
 description: "Portugal launched its digital nomad visa in 2022, becoming one of the first European countries to formalize residency pathways for remote workers. The visa"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /portugal-digital-nomad-visa-application-guide/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Portugal Digital Nomad Visa Application Guide
 
 Portugal launched its digital nomad visa in 2022, becoming one of the first European countries to formalize residency pathways for remote workers. The visa allows non-EU citizens to live in Portugal while working remotely for employers or clients outside the country. This guide walks through the application process with practical details for developers and power users who want to relocate.
 
@@ -290,7 +289,6 @@ The Portugal digital nomad visa provides a clear pathway to European residency f
 - [ ] Once you arrive, register residence permit immediately
 
 Once approved, you'll have access to Portugal's relatively low cost of living (€1,200-1,800/month for comfortable living outside Lisbon), excellent climate (average 15°C winter, 28°C summer), and position within the Schengen area for visa-free travel throughout Europe. The investment of 4-6 months in the application process opens decades of visa-free European residency.
-
 
 
 ## Frequently Asked Questions

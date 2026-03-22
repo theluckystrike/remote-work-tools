@@ -3,7 +3,7 @@ layout: default
 title: "How to Reduce Fan Noise from Desktop PC During Video Calls"
 description: "Practical techniques to minimize desktop PC fan noise during video calls. Includes software tweaks, fan curve configurations, and hardware"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Reduce Fan Noise from Desktop PC During Video Calls
 
 Desktop PCs generate heat, and that heat requires active cooling. When you're on video calls, your machine often works harder than you realize—video encoding, background processes, and browser tabs all contribute to CPU and GPU load. The result: fans spin faster, and your colleagues hear that distracting whirring in the background.
 
@@ -323,7 +322,6 @@ Consider your situation:
 - You'll replace the PC in under a year anyway
 
 The cost-benefit math: A $30 fan upgrade preventing even one "can you mute your fan?" message per month is worth it. A $150 CPU cooler upgrade is worth it only if you're in calls daily for years.
-
 
 
 ## Frequently Asked Questions

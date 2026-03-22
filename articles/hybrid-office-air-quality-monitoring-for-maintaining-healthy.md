@@ -3,7 +3,7 @@ layout: default
 title: "Hybrid Office Air Quality Monitoring for Maintaining"
 description: "Learn how to implement air quality monitoring systems for hybrid offices with variable occupancy. Includes sensor integration, occupancy-aware"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /hybrid-office-air-quality-monitoring-for-maintaining-healthy/
 reviewed: true
@@ -15,7 +15,6 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-# Hybrid Office Air Quality Monitoring for Maintaining Healthy Environment with Variable Occupancy
 
 Integrate door counter or badge API data with CO2 sensors to calculate occupancy-adjusted thresholds (base 600 ppm + 15 ppm per person) instead of fixed alerts, reducing false positives during low-occupancy periods while catching real ventilation problems when the office fills up. Publish occupancy and CO2 readings to MQTT/WebSocket so your building automation system can adjust HVAC fan speed proportionally rather than binary on/off control. This approach—dynamic thresholds accounting for actual occupancy—prevents excessive alerts on Tuesdays when 8 people work alone while remaining sensitive to genuine ventilation shortfalls when 40 people occupy the same space.
 
@@ -266,7 +265,6 @@ During this pilot phase, track these metrics:
 Adjust your per-person allowance values based on actual observations. Buildings with excellent ventilation require lower per-person allowances than those with older HVAC systems.
 
 After validation, expand sensors to all significant areas. Meeting rooms typically need dedicated sensors since they experience rapid occupancy changes when filled or emptied.
-
 
 
 ## Frequently Asked Questions

@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best One on One Meeting Tool for Remote Engineering Managers 2026 Review
 
 Use Loom for async-first 1:1s across multiple time zones with automatic transcription and GitHub integration, or combine Slack, Google Meet, and Notion for lightweight workflows without dedicated tools. The key is supporting both live meetings for relationship-building and async video updates for efficient information sharing.
 
@@ -376,7 +375,6 @@ With 6 engineers, 1:1s are manageable (3 hours/week). With 12 engineers, it's ch
 As you scale, the principle remains: regular 1:1s drive retention and growth. The format adjusts, but the priority doesn't.
 
 ---
-
 
 
 ## Frequently Asked Questions

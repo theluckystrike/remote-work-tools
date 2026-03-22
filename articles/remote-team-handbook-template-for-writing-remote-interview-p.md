@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Handbook Template"
 description: "A practical template and guide for writing remote interview process documentation. Learn how to create clear, consistent interview playbooks for hiring"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-handbook-template-for-writing-remote-interview-p/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Handbook Template: Writing Remote Interview Process Documentation for Hiring Managers
 
 Documentation transforms vague interview processes into repeatable, fair hiring systems. When your team spans multiple time zones, hiring managers need clear playbooks that eliminate guesswork and ensure consistent candidate experiences. This guide provides a template you can adapt for your remote team's handbook.
 

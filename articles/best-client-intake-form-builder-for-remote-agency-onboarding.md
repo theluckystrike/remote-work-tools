@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Client Intake Form Builder for Remote Agency Onboarding
 
 Remote agencies face a unique challenge: gathering detailed client information without the benefit of in-person conversations. A well-designed client intake form serves as the foundation for successful project outcomes, replacing casual hallway conversations with structured data collection that your distributed team can access instantly.
 
@@ -271,7 +270,6 @@ Track these metrics to optimize your intake process:
 - **Data quality** — Do you receive all the information needed, or do you still follow up asking clarifying questions?
 - **Conversion rate** — What percentage of qualified intakes convert to clients? This indicates if qualification questions are working.
 - **Team efficiency** — How much time does your team spend on manual intake processing? Should decrease as automation improves.
-
 
 
 ## Frequently Asked Questions

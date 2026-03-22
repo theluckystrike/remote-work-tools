@@ -3,7 +3,7 @@ layout: default
 title: "Documentation Platform for a 15 Person Remote Data Science T"
 description: "A 15-person remote data science team has documentation needs that differ from software engineering teams. Models have training data, evaluation metrics, and"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /documentation-platform-for-a-15-person-remote-data-science-t/
 categories: [guides]
@@ -400,7 +400,7 @@ Assign every new hire a "documentation mentor" for their first month — an exis
 - Accuracy monitored daily
 - Alert if accuracy drops below 83%
 - Drift detection on feature distributions
-- See [monitoring dashboard](link)
+- See monitoring dashboard
 ```
 
 ### Data Dictionary Template
@@ -440,7 +440,7 @@ Assign every new hire a "documentation mentor" for their first month — an exis
 
 ## Lineage
 - Source: events_raw → events_processed → customer_interactions
-- Transformations: See [ETL pipeline](link)
+- Transformations: See ETL pipeline
 - Dependencies: None
 - Downstream: churn-predictor-v2, customer-segmentation-model
 ```
@@ -578,8 +578,8 @@ Structure onboarding docs to accelerate productivity:
 ## Week 1: System and Tools Access
 - [ ] GitHub access to all repositories
 - [ ] Read: Team Documentation Index
-- [ ] Read: [Stack and Tools Guide](link)
-- [ ] Read: [Development Setup](link)
+- [ ] Read: Stack and Tools Guide
+- [ ] Read: Development Setup
 - [ ] Complete: Local environment setup
 
 ## Week 2: Understanding the Data

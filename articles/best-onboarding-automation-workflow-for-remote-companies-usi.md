@@ -14,7 +14,6 @@ intent-checked: true
 ---
 
 {% raw %}
-# Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates
 
 Automating employee onboarding for remote teams eliminates repetitive manual tasks, ensures consistency across hires, and helps new team members feel welcomed from day one. By combining Slack bots with Notion templates, you can create a workflow that guides employees through paperwork, introduces them to company culture, and provides easy access to essential resources—all without burdening your HR or operations team.
 
@@ -259,7 +258,6 @@ Track key metrics to continuously improve your workflow:
 - New Hire Satisfaction: Weekly pulse survey scores during onboarding
 
 Store these metrics in Notion alongside employee records, creating a data-driven approach to onboarding optimization.
-
 
 
 ## Frequently Asked Questions

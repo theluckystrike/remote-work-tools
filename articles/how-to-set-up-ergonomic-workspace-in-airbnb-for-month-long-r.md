@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Ergonomic Workspace in Airbnb for Month-Long"
 description: "A practical guide for developers and power users setting up an ergonomic workspace in an Airbnb for extended remote work stays. Includes equipment"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Set Up Ergonomic Workspace in Airbnb for Month-Long Remote Work Stay
 
 Spending a month working from an Airbnb sounds ideal until you realize the desk is a dining table, the chair is a wooden kitchen chair, and your back starts protesting by day three. For developers and power users who spend 8+ hours at the keyboard, a poorly set up workspace quickly becomes a productivity killer and a health risk.
 

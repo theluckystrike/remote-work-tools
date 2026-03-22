@@ -3,7 +3,7 @@ layout: default
 title: "Remote Working Parent Burnout Prevention Checklist"
 description: "A practical checklist for distributed team managers to recognize and prevent remote working parent burnout. Includes warning signs, intervention"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Working Parent Burnout Prevention Checklist for Distributed Team Managers
 
 Managing a distributed team means you're probably working with parents who juggle professional responsibilities with childcare—especially when working from home. Remote working parent burnout isn't just about feeling tired; it's a systematic issue that manifests through changed work patterns, declining engagement, and eventual attrition. This checklist helps distributed team managers recognize early warning signs and take preventive action before talented team members burn out.
 
@@ -342,7 +341,6 @@ Many remote parents feel guilty taking time off for childcare. Address this cult
 ```
 
 When you make parental responsibilities normal rather than exceptional, parents stop hiding them and burnout prevention becomes easier.
-
 
 
 ## Frequently Asked Questions

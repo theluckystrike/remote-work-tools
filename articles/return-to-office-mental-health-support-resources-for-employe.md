@@ -3,7 +3,7 @@ layout: default
 title: "Return to Office Mental Health Support Resources"
 description: "A practical guide to mental health support resources for employees returning to office and adjusting to commuting routines. Includes tools, strategies"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /return-to-office-mental-health-support-resources-for-employe/
 categories: [guides]
@@ -15,7 +15,6 @@ intent-checked: true
 ---
 
 {% raw %}
-# Return to Office Mental Health Support Resources for Employees Adjusting to Commute in 2026
 
 The transition back to office work involves more than logistical adjustments. For many employees, returning to a physical workplace means rebuilding commute routines, readjusting to office noise, and finding new ways to maintain work-life balance. Organizations that provide structured mental health support during this transition see higher employee retention and faster productivity recovery. This guide covers practical resources, tools, and implementation strategies specifically designed for developers and technical professionals navigating the return to office in 2026.
 
@@ -242,7 +241,6 @@ Mental health support for returning to office shouldn't be a temporary initiativ
 - Budget protection: Mental health stipends shouldn't be first cut in budget reviews
 
 The goal is creating an environment where returning to office is a choice that employees make with genuine buy-in, not a mandate that feels punitive. When organizations invest in genuine support structures, the transition becomes manageable and even beneficial for team cohesion.
-
 
 
 ## Frequently Asked Questions

@@ -16,7 +16,6 @@ tags: [remote-work-tools, best-of, remote-work, collaboration]
 
 {% raw %}
 
-# Best Collaboration Suite for a 10 Person Remote Law Firm
 
 The best collaboration suite for a 10-person remote law firm is Google Workspace for documents and email, Slack Business+ for internal chat, Zoom for client meetings, and Clio for practice management -- totaling under $100 per user per month. This stack covers end-to-end encryption, audit logging, eDiscovery, and client portal needs that bar association compliance demands, without the overhead of enterprise platforms built for hundreds of users.
 
@@ -233,7 +232,6 @@ Built by theluckystrike — More at [zovo.one](https://zovo.one)
 - [Remote Law Firm Client Communication Portal Comparison.](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 - [Best All-in-One Tool for a 5 Person Remote Nonprofit](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
 - [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
-
 
 
 ## Frequently Asked Questions

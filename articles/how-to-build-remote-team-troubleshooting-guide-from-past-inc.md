@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Build a Remote Team Troubleshooting Guide from Past Incident Postmortems
 
 When your remote team faces recurring issues, having a well-structured troubleshooting guide can mean the difference between a five-minute fix and a five-hour firefight. Postmortems document what went wrong, but without a system to extract actionable patterns, that knowledge stays locked in private Slack channels and forgotten Google Docs.
 
@@ -264,7 +263,6 @@ Building a troubleshooting guide from past incident postmortems requires upfront
 The goal is not perfect documentation but searchable, actionable guidance that helps your remote team resolve the next incident faster than the last one.
 
 ---
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Client Onboarding Portal for Remote Agency"
 description: "A practical guide to building a client onboarding portal for remote agencies. Learn the essential components, tools, and implementation steps"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-client-onboarding-portal-for-remote-agency/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# How to Set Up Client Onboarding Portal for Remote Agency
 
 Set up a client onboarding portal by creating a structured workflow in your chosen tool (Notion, ClickUp, or custom web app), populating it with templated forms and checklists, and integrating email notifications to guide clients through each phase. This standardizes your onboarding experience and frees your team from manual follow-ups.
 
@@ -313,7 +312,6 @@ Before launching, verify your portal handles real-world scenarios: test form sub
 ## Measuring Portal Effectiveness
 
 Track completion rate, time to kickoff, support tickets, and client feedback. Iterate based on data—small improvements compound into significant time savings.
-
 
 
 ## Frequently Asked Questions

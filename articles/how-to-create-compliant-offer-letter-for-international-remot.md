@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Compliant Offer Letter for International"
 description: "A practical guide to creating legally compliant offer letters for international remote workers. Includes templates, key clauses, and country-specific"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-compliant-offer-letter-for-international-remot/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Create Compliant Offer Letter for International Remote Employees Template Guide
 
 Hiring international remote employees introduces legal complexities that domestic hires don't require. Each country has its own employment laws, tax obligations, and mandatory benefits. A poorly drafted offer letter can expose your company to legal risk, regulatory penalties, or costly disputes down the line.
 

@@ -3,7 +3,7 @@ layout: default
 title: "Nomad Friend Finding Tips Guide 2026"
 description: "Practical strategies for digital nomads to build genuine friendships on the road. Tools, communities, and code-based approaches for finding like-minded"
 date: 2026-03-20
-last_modified_at: 2026-03-20
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /nomad-friend-finding-tips-guide-2026/
 categories: [guides]
@@ -16,7 +16,6 @@ intent-checked: true
 
 {% raw %}
 
-# Nomad Friend Finding Tips Guide 2026
 
 Building meaningful connections as a digital nomad requires different strategies than traditional social networking. This guide provides practical approaches for developers and power users to find genuine friendships while working remotely.
 

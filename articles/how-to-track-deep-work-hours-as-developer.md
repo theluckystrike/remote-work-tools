@@ -3,7 +3,7 @@ layout: default
 title: "How to Track Deep Work Hours as a Developer: A Practical"
 description: "Learn practical methods to track and maximize your deep work hours as a developer. Includes code snippets, CLI tools, and automation strategies"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-track-deep-work-hours-as-developer/
 reviewed: true
@@ -14,8 +14,6 @@ voice-checked: true
 tags: [remote-work-tools]
 ---
 
-
-# How to Track Deep Work Hours as a Developer
 
 Track your deep work hours by logging each focus session's start time, end time, and task in a plain text file, then review the log weekly to identify your peak-productivity windows and realistic capacity. For less friction, use CLI tools like `timetrap` (stores data in local SQLite) or wire a git post-commit hook that timestamps every commit automatically -- both methods capture deep work data without interrupting your flow.
 

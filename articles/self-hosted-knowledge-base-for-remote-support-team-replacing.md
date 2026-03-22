@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Self-Hosted Knowledge Base for Remote Support Team Replacing Zendesk Guide 2026
 
 Remote support teams increasingly seek alternatives to SaaS platforms like Zendesk for their knowledge base needs. Data sovereignty concerns, cost optimization, and customization requirements drive teams to explore self-hosted solutions. This guide covers practical approaches to building and deploying a self-hosted knowledge base tailored for remote support teams.
 
