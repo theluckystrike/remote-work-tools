@@ -7,7 +7,7 @@ date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /self-hosted-knowledge-base-for-remote-support-team-replacing/
 categories: [guides]
-tags: [remote-work-tools, knowledge-base, self-hosted, zendesk-alternative, support-tools]
+tags: [remote-work-tools, knowledge-base, self-hosted, zendesk-alternative, support-tools, remote-work]
 reviewed: true
 score: 8
 ---
