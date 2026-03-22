@@ -9,6 +9,7 @@ permalink: /how-to-organize-remote-team-retrospective-learnings-document/
 reviewed: true
 score: 8
 categories: [guides]
+tags: [remote-work-tools, remote-work]
 ---
 
 
