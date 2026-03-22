@@ -19,19 +19,11 @@ Lightning talks are 5-minute presentations where a team member demos something, 
 
 ## Key Takeaways
 
-- **Timer (visible to all)**: use a web timer shared via screen
-# https://www.bigtimer.net/?minutes=5  # Full-screen 5-minute timer
-
-# 2.
-- **Wrap up in 10 seconds."
-  → Wait 10 seconds for speaker to land
-  → "Questions for Bob**: post in the Slack thread.
-- **Carlos**: Shell aliases I use daily [0:12]
-4.
-- **For remote teams**: they're one of the best ways to transfer knowledge without long meetings.
-- **First up**: Alice with 'Rate limiting in 5 minutes'.
-- **Alice**: Rate limiting in 5 minutes [0:02]
-2.
+- A 30-minute session with 4-5 talks and a hard 5-minute cutoff keeps energy high and prevents meeting bloat
+- All Q&A moves to a Slack thread after the session — this makes lightning talks timezone-friendly and forces well-formed questions
+- Recording every session is non-negotiable; the replay often reaches more people than the live audience
+- Submission intake forms, talk queues, and host scripts eliminate the coordination overhead that kills recurring programs
+- For fully distributed teams, async Loom-based lightning talks give the same knowledge transfer without requiring any live attendance
 
 ## Format That Works for Remote Teams
 
@@ -54,6 +46,12 @@ Key rules:
   - Record everything
   - All Q&A happens async in Slack thread after
 ```
+
+### Why This Format Works for Remote Teams
+
+The 5-minute hard cut does more than keep the session tight. It sets an expectation that no single person dominates the room. In remote meetings, the loudest voice often comes from whoever has the most stable connection and the fewest time-zone constraints. Lightning talks distribute the floor equally: 5 minutes, rotating, enforced by a timer on everyone's screen.
+
+The async Q&A structure solves the question problem. In a 30-minute live session, there's no time for questions after each talk. Moving Q&A to a Slack thread gives everyone time to formulate better questions, lets speakers respond thoughtfully, and creates a searchable record that remains useful weeks later.
 
 ## Talk Submission Process
 
@@ -90,6 +88,12 @@ Track submissions in a shared doc:
 - Frank: Docker layer caching tips
 ```
 
+### Managing the Talk Pipeline
+
+The backlog is as important as the confirmed list. Teams that maintain a rolling backlog never scramble to fill a session. Send a reminder to the backlog list two weeks before each session: "Session 13 is April 17 — reply to confirm your slot." People who aren't ready move down; people who are slot in.
+
+The intake form also serves as a lightweight filter. Talks that can't be described in eight words often can't be delivered in five minutes. When someone submits a 20-word title, follow up with "Can you narrow this to one specific thing?" That conversation almost always improves the talk.
+
 ## Technical Setup
 
 ```bash
@@ -118,6 +122,18 @@ Zoom settings to configure before session:
   Recording: Cloud recording enabled
   Waiting room: OFF (causes delays between talks)
 ```
+
+### Reducing Context-Switch Friction
+
+The biggest technical problem in remote lightning talks is screen-share handoffs. Each presenter switching from viewer to presenter adds 20-30 seconds of silence. Over four talks, that's two minutes of dead air.
+
+Two options to solve this:
+
+**Option A: Collect slides in advance.** The host shares one slide deck for the entire session. No handoffs. Works well for slide-based talks. Fails for live demos.
+
+**Option B: Pre-assign co-host permissions.** In Zoom, make each presenter a co-host before the session. They can start screen-sharing immediately when called without waiting for host permission. This keeps demo talks smooth.
+
+For sessions mixing slides and demos, pre-assign co-host and collect slides. The host handles the slide talks; demo presenters switch in seamlessly.
 
 ## Host Script
 
@@ -151,6 +167,12 @@ Zoom settings to configure before session:
    Submit your talk at [link]. Thanks everyone!"
 ```
 
+### Why the Host Script Matters
+
+New hosts feel awkward enforcing the 5-minute cut. They let speakers run to 7 or 8 minutes. The session runs long. Attendees drop. The program loses credibility.
+
+The script makes the cut impersonal: the timer ran out, not the host's patience. Framing it as "wrap up in 10 seconds" rather than "stop now" gives the speaker a landing strip without extending the window. Speakers appreciate this — it removes the anxiety of not knowing when the cut will come.
+
 ## Async Q&A in Slack
 
 ```
@@ -172,6 +194,12 @@ Ask questions below in threads — speakers will reply within 24h.
 ---
 ```
 
+### Making Async Q&A Actually Happen
+
+Async Q&A fails when no one asks first. The host can seed the first question for each talk immediately after posting the recording. "Hey Alice, one thing I was curious about: how does this interact with the rate limiter you built for the mobile API?" That question exists in the thread. Others reply or add their own.
+
+Speakers should check their talk thread within 24 hours. This expectation should be stated explicitly in the talk submission form: "After the session, respond to questions in your Slack thread within 24h."
+
 ## Making it Async-Friendly for Multiple Timezones
 
 ```markdown
@@ -191,6 +219,12 @@ Ask questions below in threads — speakers will reply within 24h.
   "Record yourself presenting with your slides/demo.
    Max 5 minutes. Upload to Loom, share in #lightning-talks."
 ```
+
+### Choosing Between Live and Async
+
+For teams with 2-3 overlapping timezones, a single live session with a recording works. The people who attend get the live experience; everyone else watches the recording and posts in the thread.
+
+For teams that span 4+ timezones with no single window that works for everyone, the async-first model removes the attendance barrier entirely. The quality difference between a live talk and a well-recorded Loom is small. The accessibility difference is enormous.
 
 ## Loom-Based Async Lightning Talks
 
@@ -221,6 +255,12 @@ Speaker: @yourname | Length: X:XX
 Reply with questions — I'll respond within 24h.
 ```
 
+### Loom Recording Tips for Presenters
+
+Five-minute recordings are harder than they seem. Most people talk at 130-150 words per minute, which means a 5-minute talk is 650-750 words. Write an outline before recording. Do a practice run. Loom makes it easy to re-record: start over, trim the beginning, cut dead air at the end.
+
+The camera-on format (screen + face in corner) performs better than screen-only. Viewers engage more when they can see the speaker's face. It also signals that the presenter prepared and is engaged with the audience, even in async format.
+
 ## Metrics: Are Lightning Talks Working?
 
 Track quarterly:
@@ -238,6 +278,14 @@ Red flags:
   - Questions consistently 0 (topics aren't useful or async Q&A is broken)
   - Attendance dropping below 40%: reconsider time slot or format
 ```
+
+### Responding to Metric Signals
+
+**Low submission rate** usually means the program feels exclusive (only senior engineers submit) or the submission process is unclear. Fix: announce the program in onboarding, make the submission form visible in the team wiki, and explicitly invite junior team members to submit.
+
+**Zero questions in threads** means the topics are either too niche (no one has relevant follow-ups) or the async Q&A norm hasn't been established. Fix: host seeds the first question for each talk.
+
+**Attendance below 40%** often means the time slot has drifted to an inconvenient window, or the recording is good enough that people skip live. If the recording is good enough — that's a success, not a failure. Track replay views, not just live attendance.
 
 ## Related Reading
 
