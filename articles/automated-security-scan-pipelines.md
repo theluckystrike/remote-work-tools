@@ -299,6 +299,93 @@ api_key = "test-key-not-real"  # gitleaks:allow
 
 ---
 
+## Layer 5: Infrastructure as Code Scanning with Checkov
+
+Terraform, Kubernetes manifests, and Dockerfiles have security misconfigurations that aren't caught by code SAST. Checkov finds them before they reach production.
+
+```yaml
+# .github/workflows/checkov.yml
+name: IaC Security Scan
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  checkov:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Checkov for Terraform
+        uses: bridgecrewio/checkov-action@master
+        with:
+          directory: ./terraform
+          framework: terraform
+          output_format: sarif
+          output_file_path: checkov-terraform.sarif
+          soft_fail: false
+          skip_check: CKV_AWS_79  # Skip specific check if needed
+
+      - name: Run Checkov for Kubernetes manifests
+        uses: bridgecrewio/checkov-action@master
+        with:
+          directory: ./k8s
+          framework: kubernetes
+          output_format: sarif
+          output_file_path: checkov-k8s.sarif
+
+      - name: Upload Checkov results
+        if: always()
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: checkov-terraform.sarif
+```
+
+Common Checkov findings to watch:
+- S3 buckets without encryption or public access blocks
+- Security groups with `0.0.0.0/0` ingress on sensitive ports
+- Kubernetes pods running as root without `runAsNonRoot: true`
+- RDS instances without deletion protection
+- IAM policies with `*` actions
+
+Suppress a finding in Terraform when it's intentional:
+
+```hcl
+resource "aws_s3_bucket" "public_assets" {
+  # checkov:skip=CKV_AWS_18:Access logging not needed for public static assets
+  # checkov:skip=CKV_AWS_21:Versioning not required for public static assets
+  bucket = "myapp-public-assets"
+}
+```
+
+## Enforcing the Security Gate
+
+The pipeline only works as a gate if PR merges are blocked when scans fail. Configure branch protection:
+
+```
+Repository → Settings → Branches → Branch protection rules → main
+✅ Require status checks to pass before merging
+Required checks:
+  - Secret Scan / gitleaks
+  - Dependency Audit / npm-audit (or python-safety, go-vuln)
+  - SAST -- Semgrep / semgrep
+  - Container Security Scan / trivy (if Dockerfile exists)
+```
+
+For teams using code owners, add a CODEOWNERS rule that requires security team sign-off when any of the scan configuration files change:
+
+```
+# .github/CODEOWNERS
+.github/workflows/gitleaks.yml    @org/security-team
+.github/workflows/semgrep.yml     @org/security-team
+.semgrep/                          @org/security-team
+.gitleaks.toml                    @org/security-team
+terraform/                         @org/security-team
+```
+
+Track scan metrics over time by posting results to a dashboard. A rising false-positive rate means rules need tuning. A rising true-positive rate means developers need training on the patterns being caught.
+
 ## Related Reading
 
 - [Best Tools for Remote Team Secret Sharing](/remote-work-tools/remote-team-secret-sharing-tools/)

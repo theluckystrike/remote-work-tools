@@ -262,6 +262,113 @@ WantedBy=multi-user.target
 
 ---
 
+## Health Checks and Process Monitoring
+
+Unit tracks application process state via the status endpoint. Poll it to confirm healthy startup before updating your load balancer:
+
+```bash
+# Wait for application to report running processes
+check_unit_health() {
+  local app="$1"
+  local retries=10
+  local delay=3
+
+  for i in $(seq 1 $retries); do
+    STATUS=$(curl -s --unix-socket /var/run/control.unit.sock \
+      "http://localhost/status/applications/${app}/processes" 2>/dev/null)
+    RUNNING=$(echo "$STATUS" | python3 -c "import sys,json; print(json.load(sys.stdin).get('running', 0))")
+    if [ "${RUNNING:-0}" -gt 0 ]; then
+      echo "App $app: $RUNNING process(es) running"
+      return 0
+    fi
+    echo "Waiting for $app... (attempt $i/$retries)"
+    sleep "$delay"
+  done
+  echo "ERROR: $app failed to start"
+  return 1
+}
+
+check_unit_health fastapi
+```
+
+Unit log messages go to `/var/log/unit.log` — tail it during deployments to catch startup errors before they reach users:
+
+```bash
+# Watch for errors during deployment
+tail -f /var/log/unit.log | grep -E "(error|warning|NOTICE)"
+
+# Common startup errors:
+# "failed to apply new conf" — JSON syntax error in config
+# "unable to open ... module" — language module not installed
+# "system error: permission denied" — wrong user/group for app files
+```
+
+For automated rollback, capture the current config before deploying and restore if the health check fails:
+
+```bash
+# Save current config
+PREV_CONFIG=$(curl -s --unix-socket /var/run/control.unit.sock \
+  http://localhost/config/applications/fastapi)
+
+# Deploy
+curl -X PUT --unix-socket /var/run/control.unit.sock \
+  http://localhost/config/applications/fastapi/path \
+  -d '"/var/www/fastapi-app-v3"'
+
+# Health check
+if ! check_unit_health fastapi; then
+  echo "Rollback triggered"
+  echo "$PREV_CONFIG" | curl -X PUT --unix-socket /var/run/control.unit.sock \
+    http://localhost/config/applications/fastapi -H "Content-Type: application/json" -d @-
+fi
+```
+
+## Go App Deployment
+
+Unit supports Go apps compiled as shared libraries. Unlike Python or Node, Go apps need to be compiled with Unit's Go module:
+
+```bash
+# Install Go module for Unit
+go get unit.nginx.org/go
+
+# main.go — wrap your handler with Unit's ListenAndServe
+package main
+
+import (
+    "fmt"
+    "net/http"
+    "unit.nginx.org/go"
+)
+
+func handler(w http.ResponseWriter, r *http.Request) {
+    fmt.Fprintf(w, `{"status":"ok","path":"%s"}`, r.URL.Path)
+}
+
+func main() {
+    http.HandleFunc("/", handler)
+    unit.ListenAndServe(":0", nil)
+}
+```
+
+```bash
+# Build as a shared library
+go build -buildmode=c-shared -o /var/www/goapp/app.so
+
+# Configure Unit
+curl -X PUT --unix-socket /var/run/control.unit.sock \
+  http://localhost/config/applications/goapp \
+  -H "Content-Type: application/json" \
+  -d '{
+    "type": "go",
+    "executable": "/var/www/goapp/app.so",
+    "processes": 4,
+    "user": "unit",
+    "group": "unit"
+  }'
+```
+
+Go apps in Unit run as native shared libraries — no interpreter overhead, no port conflicts between apps. Each app uses Unit's shared process pool management regardless of language.
+
 ## Related Reading
 
 - [How to Set Up Keel for Continuous Delivery](/remote-work-tools/keel-continuous-delivery-setup/)
