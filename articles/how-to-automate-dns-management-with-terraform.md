@@ -17,6 +17,13 @@ tags: [remote-work-tools]
 
 Manual DNS changes break things and leave no audit trail. Terraform brings DNS under version control with plan/apply workflows that fit remote teams using pull requests. This guide covers Route53 and Cloudflare with shared state, modules, and CI gating.
 
+## Key Takeaways
+
+- **Topics covered**: prerequisites, project structure, backend configuration
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+- **Use-case recommendations**: Specific guidance based on team size and requirements
+- **Trade-off analysis**: Strengths and limitations of each option discussed
+
 ## Prerequisites
 
 - Terraform 1.6+

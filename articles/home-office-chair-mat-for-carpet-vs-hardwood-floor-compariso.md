@@ -31,6 +31,22 @@ voice-checked: true---
 
 If you spend 8+ hours daily at a desk, the interaction between your chair casters and your flooring determines both comfort and long-term floor preservation. A well-chosen chair mat prevents premature wear, enables smooth chair movement, and reduces strain on your joints. This guide examines the critical differences between mats designed for carpet versus hardwood, helping you make an informed decision for your workspace.
 
+## Key Takeaways
+
+- **Primary zone (3 x**: 4 feet) - Premium material for daily use - High-quality polycarbonate for carpet OR TPE for hardwood - Invest 70% of budget here 2.
+- **Choose backing type**: Cleated/gripper for carpet, smooth for hard floors—never interchange
+3.
+- **Check caster compatibility**: Thick carpet may require stem extenders
+
+### For Hardwood/Floor Offices
+
+For hardwood, laminate, tile, or vinyl flooring:
+
+1.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+- **If you work with**: sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
+- **Hard floor casters use smaller**: harder wheels optimized for smooth surfaces.
+
 ## The Fundamental Problem: Surface Incompatibility
 
 Chair casters (the wheels on your office chair) are designed for specific surface types. Standard carpet casters feature larger, softer wheels that distribute weight across carpet fibers. Hard floor casters use smaller, harder wheels optimized for smooth surfaces. Using the wrong mat creates friction, causes rolling resistance, and accelerates wear on both your chair and flooring.

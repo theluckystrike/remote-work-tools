@@ -31,6 +31,15 @@ voice-checked: true---
 
 Choosing the right chair mat for your home office isn't just about protecting your flooring—it's about maintaining smooth chair mobility, protecting your investment in ergonomic seating, and creating a workspace that supports long coding sessions. Whether you have carpet or hardwood floors, the right mat can make or break your daily workflow. This guide breaks down the key differences, helping you choose the perfect chair mat for your specific flooring situation.
 
+## Key Takeaways
+
+- **For renters with hardwood**: Use thin vinyl mat ($25-40).
+- **For high-pile carpet offices**: Choose thicker carpet mat with heavy-duty cleats ($50-70).
+- **For gamers/streamers with extended sitting**: Premium mat ($80-150) justified by extended daily use.
+- **These mats are typically**: thicker—ranging from 0.1 to 0.25 inches—because they need to sit on top of carpet without compressing too much under chair casters.
+- **Expect to pay $50-150**: for a 36x48 inch mat.
+- **Instead**: invest in an anti-fatigue mat ($40-80) that covers the standing area.
+
 ## Understanding the Fundamental Differences
 
 The core distinction between chair mats for carpet and hardwood floors comes down to two factors: grip and thickness.

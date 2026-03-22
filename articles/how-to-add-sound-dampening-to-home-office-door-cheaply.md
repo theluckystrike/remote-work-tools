@@ -31,6 +31,18 @@ voice-checked: true---
 
 Whether you're on calls with clients, debugging code in deep focus mode, or participating in async video reviews, unwanted noise leaking through your office door disrupts productivity. Professional soundproofing can cost thousands, but developers and power users know that strategic, inexpensive interventions often work better than expensive solutions. This guide covers practical methods to dampen sound transmission through your home office door without breaking your budget.
 
+## Key Takeaways
+
+- **The first $30-40 in**: materials (weather stripping + door blanket) provides 80% of the benefit.
+- **Better than blankets because**: they're always perfectly positioned and easily removed when needed.
+- **A 4x8 foot sheet**: costs $40-60 and can be cut to size.
+- **Between layers**: Apply acoustic damping compound ($20-30 for a tube)
+
+The compound creates a "constrained layer damping" system that absorbs resonant frequencies that pass through simple mass barriers.
+- **This combination can achieve**: STC (Sound Transmission Class) ratings of 35-40, comparable to solid core doors costing $300+.
+- **Seal all gaps (weather stripping + door sweep)**: $15-25
+2.
+
 ## Understanding Sound Transmission
 
 Before buying materials, understand how sound travels through doors. Doors are typically hollow-core constructions with minimal mass. Sound waves pass through easily because there's nothing to absorb or block the energy. The key principles are:

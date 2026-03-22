@@ -31,6 +31,15 @@ A home lab gives you a real infrastructure environment to experiment with, a pla
 
 This guide covers: hardware choice, hypervisor installation, network setup, and the services worth running in a home lab for development work.
 
+## Key Takeaways
+
+- **Most managed switches (TP-Link TL-SG108E**: ~$30) support VLANs.
+- **The Beelink mini PC draws around 15-25W under load**: roughly $2-3/month in electricity at average US rates.
+- **Compare that to a**: full tower workstation at 150W+ idle, which runs $15-20/month continuously.
+- **Tailscale's free tier supports**: up to 3 users and 100 devices, more than enough for a personal lab.
+- **A 500GB backup set costs about $3/month**: worth it to protect weeks of configuration work.
+- **It runs KVM virtual**: machines and LXC containers, has a web UI, and is free with optional paid support.
+
 ## Hardware: What to Buy in 2026
 
 The sweet spot for a developer home lab is a small form factor PC or repurposed workstation. Avoid consumer NAS devices — they limit your software options.

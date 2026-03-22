@@ -16,6 +16,15 @@ tags: [remote-work-tools, comparison]---
 
 Choose hourly pricing if your project scope is undefined, you lack estimating experience, or the client needs flexibility. Choose project-based pricing if deliverables are clearly defined, you have experience estimating similar work, and you want income upside from efficiency gains. A hybrid approach -- time-and-materials with a cap -- works well when you need elements of both.
 
+## Key Takeaways
+
+- **Many developers discover they**: need $80-150/hour just to match their previous employee compensation.
+- **However**: if it takes 60 hours, you drop to $80/hour—below your minimum.
+- **The most successful freelancers**: aren't dogmatic about either model.
+- **Choose hourly pricing if**: your project scope is undefined, you lack estimating experience, or the client needs flexibility.
+- **They analyze each opportunity**: estimate their likely effective rate, and choose the pricing structure that aligns with their income goals and client needs.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+
 ## Understanding the Two Models
 
 Hourly pricing means you charge for every hour worked. You track time, submit timesheets or invoices, and get paid proportionally to effort invested.
