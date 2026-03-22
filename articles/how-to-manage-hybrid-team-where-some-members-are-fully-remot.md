@@ -31,6 +31,18 @@ tags: [remote-work-tools]
 
 Hybrid teams with split remote and in-office members need explicit communication norms, video-first meetings, and documentation-first workflows to prevent information silos. Establish core hours for synchronous overlap, implement async-first standups using GitHub Actions or Slack, and make all meeting rooms video-conference ready with equal participation cues. This guide provides practical systems and code examples for managing teams that work across locations without enterprise tools.
 
+## Table of Contents
+
+- [The Asynchronous-First Foundation](#the-asynchronous-first-foundation)
+- [Build Transparent Work Visibility](#build-transparent-work-visibility)
+- [Create Location-Agnostic Meeting Rules](#create-location-agnostic-meeting-rules)
+- [Implement Pair Programming Across Locations](#implement-pair-programming-across-locations)
+- [Handle Knowledge Transfer Proactively](#handle-knowledge-transfer-proactively)
+- [[Title]](#title)
+- [Establish Clear Documentation Locations](#establish-clear-documentation-locations)
+- [Practical Remote Team Health Checks](#practical-remote-team-health-checks)
+- [Onboarding Permanent Remote Members](#onboarding-permanent-remote-members)
+
 ## The Asynchronous-First Foundation
 
 When your team splits between permanent remote and office locations, synchronous collaboration becomes expensive. Office-based team members can naturally collaborate in real-time, but remote members face timezone constraints, technology friction, and isolation. The solution is building asynchronous workflows that treat all locations equally.

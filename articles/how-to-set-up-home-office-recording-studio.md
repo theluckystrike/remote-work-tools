@@ -17,6 +17,26 @@ voice-checked: true
 
 Async video is the primary communication format for serious remote teams. If your recordings sound tinny or your room echoes, colleagues watch at 1.5x speed with one eye on something else. This guide covers a practical recording setup for engineers who need to record demos, technical walkthroughs, and team updates — without building a professional studio.
 
+## Table of Contents
+
+- [The Priority Order](#the-priority-order)
+- [Room Acoustics: The Foundation](#room-acoustics-the-foundation)
+- [Microphone Selection](#microphone-selection)
+- [Camera](#camera)
+- [Lighting](#lighting)
+- [Recording Software](#recording-software)
+- [Complete Budget Breakdown](#complete-budget-breakdown)
+- [Advanced Room Acoustics: Professional Treatment](#advanced-room-acoustics-professional-treatment)
+- [Screen Recording Workflow for Engineers](#screen-recording-workflow-for-engineers)
+- [Microphone Technique for Better Recordings](#microphone-technique-for-better-recordings)
+- [Audio Level Management](#audio-level-management)
+- [Recording Software Comparison](#recording-software-comparison)
+- [Post-Recording Audio Cleanup](#post-recording-audio-cleanup)
+- [Video Format and Compression Standards](#video-format-and-compression-standards)
+- [Accessibility Considerations](#accessibility-considerations)
+- [Video Accessibility Checklist](#video-accessibility-checklist)
+- [Related Reading](#related-reading)
+
 ## The Priority Order
 
 Most engineers spend money in the wrong order. Fix in this sequence:

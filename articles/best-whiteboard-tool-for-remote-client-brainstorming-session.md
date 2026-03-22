@@ -18,6 +18,21 @@ voice-checked: true
 
 Use Miro for API-driven integration and extensive templates, FigJam for lightweight collaboration with Figma integration, or Mural if you prefer a simpler interface with help coaching. Choose based on real-time sync latency, API availability, export formats, and whether you need enterprise security features for client brainstorming sessions.
 
+## Table of Contents
+
+- [What Makes a Whiteboard Tool Suitable for Remote Client Sessions](#what-makes-a-whiteboard-tool-suitable-for-remote-client-sessions)
+- [Miro: The Feature-Rich Enterprise Option](#miro-the-feature-rich-enterprise-option)
+- [FigJam: Figma's Collaborative Whiteboard](#figjam-figmas-collaborative-whiteboard)
+- [Miro vs. FigJam: Implementation Trade-offs](#miro-vs-figjam-implementation-trade-offs)
+- [Excalidraw: The Developer-Favorite Open-Source Option](#excalidraw-the-developer-favorite-open-source-option)
+- [Selecting the Right Tool for Your Client Workflow](#selecting-the-right-tool-for-your-client-workflow)
+- [Automating Session Follow-ups](#automating-session-follow-ups)
+- [Pricing and Scaling Analysis](#pricing-and-scaling-analysis)
+- [Whiteboard Template Library for Client Brainstorming](#whiteboard-template-library-for-client-brainstorming)
+- [Export and Automation Workflows](#export-and-automation-workflows)
+- [Platform-Specific Client Workflows](#platform-specific-client-workflows)
+- [Measuring Brainstorm Session Effectiveness](#measuring-brainstorm-session-effectiveness)
+
 ## What Makes a Whiteboard Tool Suitable for Remote Client Sessions
 
 Before examining specific tools, establish criteria that matter for developer-centric remote collaboration:

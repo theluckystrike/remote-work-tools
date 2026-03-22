@@ -19,6 +19,15 @@ voice-checked: true
 
 Joining a distributed team as a senior hire presents unique challenges that differ significantly from office-based onboarding. Without the ability to casually meet colleagues in hallways or observe team dynamics in person, you need a structured approach to ramp up quickly and start delivering value. This 90-day plan template provides a framework for senior developers and leads to integrate effectively into remote teams while building the relationships and context necessary for long-term success.
 
+## Table of Contents
+
+- [Understanding the Remote Onboarding Challenge](#understanding-the-remote-onboarding-challenge)
+- [Phase One: Foundation Week (Days 1-7)](#phase-one-foundation-week-days-1-7)
+- [Phase Two: Exploration Sprint (Days 8-30)](#phase-two-exploration-sprint-days-8-30)
+- [Phase Three: Contribution Period (Days 31-90)](#phase-three-contribution-period-days-31-90)
+- [Example 60-Day Goals Template](#example-60-day-goals-template)
+- [Remote-Specific Considerations](#remote-specific-considerations)
+
 ## Understanding the Remote Onboarding Challenge
 
 Remote onboarding for senior hires requires intentional effort that would otherwise happen organically in co-located settings. You cannot simply shadow a colleague, grab coffee with team members, or absorb organizational culture through passive observation. Every connection must be scheduled, every piece of context must be actively sought, and every norm must be explicitly communicated.

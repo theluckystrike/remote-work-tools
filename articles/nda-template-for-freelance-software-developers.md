@@ -19,6 +19,24 @@ voice-checked: true
 
 A freelance software developer NDA template should include seven sections: definition of confidential information, exclusions, obligations of the receiving party, return/destruction terms, duration, remedies, and general provisions. Below is a complete, customizable NDA template along with guidance on work product ownership clauses, mutual vs. one-way NDAs, and common mistakes to avoid.
 
+## Table of Contents
+
+- [Why Freelance Developers Need NDAs](#why-freelance-developers-need-ndas)
+- [A Practical NDA Template for Developers](#a-practical-nda-template-for-developers)
+- [1. Definition of Confidential Information](#1-definition-of-confidential-information)
+- [2. Exclusions from Confidential Information](#2-exclusions-from-confidential-information)
+- [3. Obligations of the Receiving Party](#3-obligations-of-the-receiving-party)
+- [4. Return or Destruction of Confidential Information](#4-return-or-destruction-of-confidential-information)
+- [5. Term and Duration](#5-term-and-duration)
+- [6. Remedies](#6-remedies)
+- [7. General Provisions](#7-general-provisions)
+- [Key Clauses Every Developer NDA Should Include](#key-clauses-every-developer-nda-should-include)
+- [Work Product and IP Ownership](#work-product-and-ip-ownership)
+- [Non-Solicitation](#non-solicitation)
+- [When to Use Different NDA Types](#when-to-use-different-nda-types)
+- [Implementation Tips for Developers](#implementation-tips-for-developers)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+
 ## Why Freelance Developers Need NDAs
 
 Clients trust you with valuable intellectual property. Before writing a single line of code, you should have a signed NDA in place. It establishes legal consequences if confidential information is misused, defines what information you can and cannot share, and demonstrates professionalism that builds client trust.

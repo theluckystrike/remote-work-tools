@@ -19,6 +19,19 @@ voice-checked: true
 
 Record a screen walkthrough under 10 minutes following a consistent structure -- 30-second sprint overview, 2-5 minutes per feature demo, optional technical highlights, and 30-second next-steps summary -- then distribute it with timestamps and a written summary so stakeholders can review on their own schedule. This eliminates the time zone conflicts of live demos while creating a permanent searchable record of sprint progress.
 
+## Table of Contents
+
+- [Why Async Demos Work Better for Distributed Teams](#why-async-demos-work-better-for-distributed-teams)
+- [Recording Your Sprint Demo](#recording-your-sprint-demo)
+- [Structuring Your Walkthrough](#structuring-your-walkthrough)
+- [Automating Demo Video Generation](#automating-demo-video-generation)
+- [Distributing to Stakeholders](#distributing-to-stakeholders)
+- [Sprint 24 Demo Recording](#sprint-24-demo-recording)
+- [Handling Feedback Async](#handling-feedback-async)
+- [Feedback Request — Sprint 24 Demo](#feedback-request-sprint-24-demo)
+- [Tools Worth Considering](#tools-worth-considering)
+- [Measuring Success](#measuring-success)
+
 ## Why Async Demos Work Better for Distributed Teams
 
 Traditional sprint demos force everyone into a single meeting time, often meaning someone joins at 7 AM or 10 PM. Async recordings eliminate this constraint entirely. Stakeholders can watch during their productive hours, pause to review complex sections, and revisit recordings later when questions arise.

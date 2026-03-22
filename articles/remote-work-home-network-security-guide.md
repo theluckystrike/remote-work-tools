@@ -18,6 +18,23 @@ intent-checked: true
 
 ## The Problem: Home Networks Are Security Weak Points
 
+## Table of Contents
+
+- [The Problem: Home Networks Are Security Weak Points](#the-problem-home-networks-are-security-weak-points)
+- [Layer 1: Router Hardening (Prerequisite)](#layer-1-router-hardening-prerequisite)
+- [Layer 2: VLAN Segmentation (Isolate IoT/Guests)](#layer-2-vlan-segmentation-isolate-iotguests)
+- [Layer 3: DNS Filtering (Block Malware at Query Level)](#layer-3-dns-filtering-block-malware-at-query-level)
+- [Layer 4: VPN for Work Devices (Defense in Depth)](#layer-4-vpn-for-work-devices-defense-in-depth)
+- [Layer 5: Guest Network (Isolate Visitors)](#layer-5-guest-network-isolate-visitors)
+- [Layer 6: Firewall Rules (Block Unnecessary Connections)](#layer-6-firewall-rules-block-unnecessary-connections)
+- [Complete Setup Costs](#complete-setup-costs)
+- [Implementation Checklist](#implementation-checklist)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Monitoring and Maintenance](#monitoring-and-maintenance)
+- [Security Best Practices](#security-best-practices)
+- [Bottom Line](#bottom-line)
+- [Tool Quick Reference](#tool-quick-reference)
+
 Your company's VPN protects your traffic. But:
 - Family members' devices compromise WiFi security
 - IoT devices (smart speakers, cameras) run outdated firmware

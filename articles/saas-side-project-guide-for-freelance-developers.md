@@ -33,6 +33,22 @@ tags: [remote-work-tools]
 
 Building a SaaS side project while freelancing represents one of the most effective paths to recurring revenue for developers. Unlike client work where you trade hours for money, a successful SaaS product generates income while you sleep. This guide covers practical strategies for freelance developers to validate, build, and launch SaaS side projects without disrupting their existing income.
 
+## Table of Contents
+
+- [Finding Your SaaS Idea](#finding-your-saas-idea)
+- [Choosing Your Technology Stack](#choosing-your-technology-stack)
+- [Building the Minimum Viable Product](#building-the-minimum-viable-product)
+- [Pricing Strategy for Freelancer SaaS](#pricing-strategy-for-freelancer-saas)
+- [Launch Strategies](#launch-strategies)
+- [Managing Time Between Clients](#managing-time-between-clients)
+- [Financial Planning and Long-Term Sustainability](#financial-planning-and-long-term-sustainability)
+- [Growth Metrics and Targets](#growth-metrics-and-targets)
+- [Customer Feedback Loop](#customer-feedback-loop)
+- [Date Range: [Week]](#date-range-week)
+- [Launch Checklist for Your First SaaS](#launch-checklist-for-your-first-saas)
+- [SaaS Failures: Common Patterns](#saas-failures-common-patterns)
+- [From SaaS to Acquisition](#from-saas-to-acquisition)
+
 ## Finding Your SaaS Idea
 
 The most sustainable SaaS products solve problems you encounter repeatedly in your freelance work. Every client project contains potential product seeds—internal tools you've built, repetitive workflows you've automated, or gaps in existing tooling that keep appearing.

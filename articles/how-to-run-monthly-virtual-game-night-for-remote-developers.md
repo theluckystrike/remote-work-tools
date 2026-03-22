@@ -19,6 +19,16 @@ voice-checked: true
 
 Monthly virtual game nights build team bonding through optional, low-pressure social time that developers actually enjoy—replacing forced mandatory fun. Games like Among Us, Jackbox, and online trivia work across time zones when scheduled at rotating times. This guide covers scheduling strategies, game selection, help techniques, and tools for running engaging remote game nights.
 
+## Table of Contents
+
+- [Setting Up the Foundation](#setting-up-the-foundation)
+- [Selecting Games That Work Well Remotely](#selecting-games-that-work-well-remotely)
+- [Help and Engagement](#help-and-engagement)
+- [Practical Examples from Real Teams](#practical-examples-from-real-teams)
+- [Tracking and Improving Your Game Nights](#tracking-and-improving-your-game-nights)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building Team Culture Through Play](#building-team-culture-through-play)
+
 ## Setting Up the Foundation
 
 Successful virtual game nights require minimal infrastructure but consistent organization. The goal is low-friction participation that feels optional but becomes a team staple through repetition.

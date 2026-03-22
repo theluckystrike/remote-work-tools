@@ -33,6 +33,21 @@ tags: [remote-work-tools, remote-work]
 
 Tailscale turns every device your team uses into a node on a private network, without requiring a central VPN server, NAT traversal rules, or certificate management. Each device gets a stable IP in the `100.64.0.0/10` range, reachable from any other device on the tailnet regardless of what network either is on.
 
+## Table of Contents
+
+- [Install on All Platforms](#install-on-all-platforms)
+- [Authenticate and Start](#authenticate-and-start)
+- [Enable MagicDNS and HTTPS](#enable-magicdns-and-https)
+- [Configure ACLs (Access Control Lists)](#configure-acls-access-control-lists)
+- [Set Up Subnet Routes](#set-up-subnet-routes)
+- [Exit Nodes](#exit-nodes)
+- [Tailscale SSH (Replace SSH Key Management)](#tailscale-ssh-replace-ssh-key-management)
+- [Running Tailscale on Servers at Boot](#running-tailscale-on-servers-at-boot)
+- [Tailscale vs. Traditional VPN for Remote Teams](#tailscale-vs-traditional-vpn-for-remote-teams)
+- [Integrating Tailscale with CI/CD Pipelines](#integrating-tailscale-with-cicd-pipelines)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Pro Tips for Team Administration](#pro-tips-for-team-administration)
+
 For remote teams, Tailscale replaces the classic VPN setup with something that works in 10 minutes, handles firewall traversal automatically, and scales to hundreds of devices without extra configuration.
 
 ## Install on All Platforms

@@ -18,6 +18,25 @@ voice-checked: true
 
 Creating a distraction-free workspace at home requires more than just clearing a desk. For developers and power users, the environment directly impacts code quality, debug sessions, and sustained focus during long work sessions. This guide covers physical setup, digital boundaries, and automation that helps maintain concentration.
 
+## Table of Contents
+
+- [Physical Environment Basics](#physical-environment-basics)
+- [Managing Environmental Noise](#managing-environmental-noise)
+- [Digital Boundaries](#digital-boundaries)
+- [Terminal and Editor Focus](#terminal-and-editor-focus)
+- [Scheduling Deep Work](#scheduling-deep-work)
+- [Physical Ergonomics](#physical-ergonomics)
+- [Maintaining Your Setup](#maintaining-your-setup)
+- [Physical Equipment Investments That Actually Reduce Distraction](#physical-equipment-investments-that-actually-reduce-distraction)
+- [Digital Tools for Distraction Prevention](#digital-tools-for-distraction-prevention)
+- [Managing Interruptions From Others](#managing-interruptions-from-others)
+- [Measuring Distraction Quantitatively](#measuring-distraction-quantitatively)
+- [The Exception: Collaborative Flow](#the-exception-collaborative-flow)
+- [Workspace Optimization for Different Work Modes](#workspace-optimization-for-different-work-modes)
+- [The 90-Minute Focus Ultradian Rhythm](#the-90-minute-focus-ultradian-rhythm)
+- [Digital Hygiene Routines](#digital-hygiene-routines)
+- [Handling Unexpected Interruptions Well](#handling-unexpected-interruptions-well)
+
 ## Physical Environment Basics
 
 Your workspace location matters more than furniture. Choose a space with consistent lighting and minimal foot traffic. A dedicated room works best, but a corner with a physical divider can also create psychological separation from living areas.

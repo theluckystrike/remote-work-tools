@@ -18,6 +18,18 @@ voice-checked: true
 
 Lower back pain from prolonged coding requires ergonomic desk setup (monitor height, keyboard position), movement breaks every 30-60 minutes, and targeted strengthening exercises for core stability. Standing desks, lumbar support cushions, and automated movement reminders prevent pain before it develops. This guide covers ergonomic setup standards, exercises, and tools for remote developers.
 
+## Table of Contents
+
+- [Why Developers Are Particularly Vulnerable](#why-developers-are-particularly-vulnerable)
+- [Immediate Ergonomic Fixes (Start Today)](#immediate-ergonomic-fixes-start-today)
+- [Movement Strategies That Actually Work](#movement-strategies-that-actually-work)
+- [Strength Training for Coders](#strength-training-for-coders)
+- [Desk Modifications for Lumbar Health](#desk-modifications-for-lumbar-health)
+- [Sleep Optimization for Back Repair](#sleep-optimization-for-back-repair)
+- [When Pain Persists: Professional Help](#when-pain-persists-professional-help)
+- [The 30-Day Implementation Plan](#the-30-day-implementation-plan)
+- [Your Back Is an Investment](#your-back-is-an-investment)
+
 ## Why Developers Are Particularly Vulnerable
 
 Developers face unique challenges that accelerate lower back deterioration:

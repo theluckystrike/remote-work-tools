@@ -16,6 +16,20 @@ tags: [remote-work-tools, remote-work]
 
 ## Cross-Functional Projects: Why Remote Increases Friction
 
+## Table of Contents
+
+- [Cross-Functional Projects: Why Remote Increases Friction](#cross-functional-projects-why-remote-increases-friction)
+- [The Cross-Functional Project Anatomy](#the-cross-functional-project-anatomy)
+- [Tool Setup: Notion for Cross-Functional Coordination](#tool-setup-notion-for-cross-functional-coordination)
+- [Real Workflow: Managing Cross-Functional Project in Notion](#real-workflow-managing-cross-functional-project-in-notion)
+- [Stakeholder Communication: Weekly Status Template](#stakeholder-communication-weekly-status-template)
+- [Decision-Making Framework: Async Decisions](#decision-making-framework-async-decisions)
+- [Critical Path: Identify What Blocks Everything](#critical-path-identify-what-blocks-everything)
+- [Communication Cadence: What Meetings Are Actually Needed](#communication-cadence-what-meetings-are-actually-needed)
+- [Red Flags: When Project Health Is Declining](#red-flags-when-project-health-is-declining)
+- [Post-Launch: Close the Loop](#post-launch-close-the-loop)
+- [Team Exercise: Plan Your Cross-Functional Project (2 hours)](#team-exercise-plan-your-cross-functional-project-2-hours)
+
 Cross-functional means: engineering + design + product + marketing + operations all contributing. Synchronously coordinating 20+ people across 5 departments in different time zones is impossible.
 
 The solution is structured async: clear goals, explicit handoffs, visible progress, no surprise blockers.
@@ -344,25 +358,21 @@ After launch:
 
 ## Frequently Asked Questions
 
-**How long does it take to manage cross-functional remote projects?**
+**How long does it take to set up this system for a new project?**
 
-For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
+The DACI document, communication channels, and shared tracker take about 2 hours to set up before kickoff. The kickoff itself takes 60 minutes. Total upfront investment is approximately half a day. This pays back within the first week through avoided confusion and faster decision-making.
 
 **What are the most common mistakes to avoid?**
 
-The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
+The most frequent failure is skipping the DACI step and assuming ownership is obvious. It never is across disciplines. The second most common mistake is treating the canonical tracker as optional — within two weeks, discipline-specific tools diverge and nobody has an accurate project-level view.
 
-**Do I need prior experience to follow this guide?**
+**Do these practices work for very small cross-functional teams?**
 
-Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
-
-**Can I adapt this for a different tech stack?**
-
-Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
+Yes, with simplification. A three-person cross-functional team (one engineer, one designer, one PM) can replace the full channel taxonomy with a single project channel and a shared Notion doc. The DACI is still worth doing — even on small teams, unclear decision authority slows things down.
 
 **Where can I get help if I run into issues?**
 
-Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
+The PM community at Lenny's Newsletter and the Remote-how community are good resources for cross-functional remote project patterns. GitLab's public handbook has detailed documentation of their fully remote cross-functional processes, free to read and adapt.
 
 ## Related Articles
 
@@ -372,4 +382,3 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
 - [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-

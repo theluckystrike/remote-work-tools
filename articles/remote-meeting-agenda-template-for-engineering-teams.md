@@ -18,6 +18,53 @@ voice-checked: true
 
 Running effective meetings across distributed teams requires more than just showing up on a video call. Without a clear agenda, remote meetings either become unproductive status updates or spiral into unfocused discussions that waste everyone's time. A well-structured meeting agenda template for engineering teams addresses this challenge by providing a consistent format that keeps meetings focused, inclusive, and actionable.
 
+## Table of Contents
+
+- [Core Components of an Engineering Meeting Agenda](#core-components-of-an-engineering-meeting-agenda)
+- [Daily Standup Template for Remote Engineering](#daily-standup-template-for-remote-engineering)
+- [Previous Day Accomplishments](#previous-day-accomplishments)
+- [Today's Priorities](#todays-priorities)
+- [Blockers](#blockers)
+- [Async Updates (for those unable to attend)](#async-updates-for-those-unable-to-attend)
+- [Sprint Planning Meeting Template](#sprint-planning-meeting-template)
+- [Sprint Goal](#sprint-goal)
+- [Capacity Planning](#capacity-planning)
+- [Backlog Review](#backlog-review)
+- [Sprint Commitment](#sprint-commitment)
+- [Action Items](#action-items)
+- [Technical Design Review Template](#technical-design-review-template)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Architecture Changes](#architecture-changes)
+- [API Changes](#api-changes)
+- [Data Model Changes](#data-model-changes)
+- [Security Considerations](#security-considerations)
+- [Testing Strategy](#testing-strategy)
+- [Rollback Plan](#rollback-plan)
+- [Open Questions](#open-questions)
+- [Decisions Made During Review](#decisions-made-during-review)
+- [Retrospective Template for Remote Teams](#retrospective-template-for-remote-teams)
+- [What Went Well](#what-went-well)
+- [What Could Improve](#what-could-improve)
+- [Action Items for Next Sprint](#action-items-for-next-sprint)
+- [Team Health Metrics](#team-health-metrics)
+- [Async Feedback (collected before meeting)](#async-feedback-collected-before-meeting)
+- [Best Practices for Remote Meeting Agendas](#best-practices-for-remote-meeting-agendas)
+- [Additional Template: Code Review Session](#additional-template-code-review-session)
+- [PRs for Review](#prs-for-review)
+- [Pre-Meeting Setup](#pre-meeting-setup)
+- [During Session](#during-session)
+- [Action Items](#action-items)
+- [Template: Security and Compliance Review](#template-security-and-compliance-review)
+- [What We're Reviewing](#what-were-reviewing)
+- [Threat Model](#threat-model)
+- [Security Checklist](#security-checklist)
+- [Compliance Requirements](#compliance-requirements)
+- [Decision](#decision)
+- [Follow-up Items](#follow-up-items)
+- [Implementation: Converting Your Existing Meetings](#implementation-converting-your-existing-meetings)
+- [Meeting Improvement Process](#meeting-improvement-process)
+
 ## Core Components of an Engineering Meeting Agenda
 
 Every effective remote meeting agenda needs five essential elements: the meeting goal, required participants, pre-reading materials, a time-boxed agenda with specific topics, and clear action items with owners. When any of these components is missing, meetings tend to drift away from their purpose.

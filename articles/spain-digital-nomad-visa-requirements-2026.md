@@ -39,6 +39,23 @@ tags: [remote-work-tools]
 
 Spain's digital nomad visa in 2026 requires non-EU applicants to prove remote employment or freelance work for clients outside Spain, earn at least EUR 2,334 per month, hold private health insurance with full coverage, and provide a clean criminal record. The visa grants an initial one-year stay, renewable up to five years total, with access to the Beckham Law flat 24% tax rate for the first six years of residence.
 
+## Table of Contents
+
+- [Eligibility Requirements](#eligibility-requirements)
+- [Application Process](#application-process)
+- [Duration and Renewal](#duration-and-renewal)
+- [Tax Implications](#tax-implications)
+- [Key Differences from Other Visas](#key-differences-from-other-visas)
+- [Practical Considerations](#practical-considerations)
+- [Document Checklist](#document-checklist)
+- [Identity](#identity)
+- [Employment Evidence](#employment-evidence)
+- [Financial](#financial)
+- [Legal](#legal)
+- [Health](#health)
+- [Beckham Law (file within 30 days of arrival)](#beckham-law-file-within-30-days-of-arrival)
+- [Tips for a Successful Application](#tips-for-a-successful-application)
+
 ## Eligibility Requirements
 
 To qualify for Spain's digital nomad visa, you must meet several criteria:

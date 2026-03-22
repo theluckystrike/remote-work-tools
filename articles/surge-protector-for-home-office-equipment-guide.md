@@ -33,6 +33,25 @@ tags: [remote-work-tools]
 
 A surge protector for home office equipment is essential infrastructure for any developer working from home. Power surges—brief voltage spikes that can exceed normal household current by hundreds or even thousands of volts—pose a serious threat to your expensive development hardware. A quality surge protector absorbs these spikes, preventing them from reaching your laptop, monitors, external drives, and other critical equipment. This guide covers the technical specifications that matter, how to calculate the protection you need, and which configurations work best for modern developer setups.
 
+## Table of Contents
+
+- [Understanding Power Surge Risks for Developers](#understanding-power-surge-risks-for-developers)
+- [Key Specifications Explained](#key-specifications-explained)
+- [Building Your Home Office Protection Setup](#building-your-home-office-protection-setup)
+- [Smart Surge Protection Solutions](#smart-surge-protection-solutions)
+- [Choosing the Right Configuration](#choosing-the-right-configuration)
+- [Maintenance and Replacement](#maintenance-and-replacement)
+- [Specific Surge Protector Product Recommendations (2026)](#specific-surge-protector-product-recommendations-2026)
+- [Testing Your Surge Protector: How to Know If It's Working](#testing-your-surge-protector-how-to-know-if-its-working)
+- [When Power Issues Are NOT Surge Protector Problems](#when-power-issues-are-not-surge-protector-problems)
+- [Calculating Actual Power Needs (Watts and Amps)](#calculating-actual-power-needs-watts-and-amps)
+- [Documentation: Track Your Surge Protection Setup](#documentation-track-your-surge-protection-setup)
+- [Surge Protector 1](#surge-protector-1)
+- [Surge Protector 2](#surge-protector-2)
+- [Network Protection](#network-protection)
+- [Whole-House Protection](#whole-house-protection)
+- [Incident Log](#incident-log)
+
 ## Understanding Power Surge Risks for Developers
 
 Power surges occur more frequently than most people realize. They originate from multiple sources: lightning strikes (the most dramatic but rarest), utility grid switching, cycling of high-power appliances like air conditioners and refrigerators, and even the normal operation of devices in your home. A single powerful surge can instantly destroy sensitive electronics, while smaller repeated surges gradually degrade circuit boards and reduce equipment lifespan.

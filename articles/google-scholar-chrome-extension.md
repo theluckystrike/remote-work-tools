@@ -16,6 +16,18 @@ tags: [remote-work-tools]
 
 ## Chrome Extensions for Google Scholar: Why Build One
 
+## Table of Contents
+
+- [Chrome Extensions for Google Scholar: Why Build One](#chrome-extensions-for-google-scholar-why-build-one)
+- [What Your Scholar Extension Should Do](#what-your-scholar-extension-should-do)
+- [Architecture: Building Your Scholar Extension](#architecture-building-your-scholar-extension)
+- [Publishing Your Extension](#publishing-your-extension)
+- [Testing Before Publishing](#testing-before-publishing)
+- [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
+- [Real Workflow: Using Your Scholar Extension](#real-workflow-using-your-scholar-extension)
+- [Building Additional Features: Export to Zotero](#building-additional-features-export-to-zotero)
+- [Team Exercise: Planning Your Extension (60 minutes)](#team-exercise-planning-your-extension-60-minutes)
+
 Google Scholar is the default for academic/research lookups. Building a Chrome extension can enhance Scholar with features it lacks: highlight papers you've read, export citations in one click, show related papers, link to free PDF versions, track papers you've saved.
 
 For remote researchers, librarians, and academics, a well-built Scholar extension saves hours per month.
@@ -438,25 +450,25 @@ async function exportToZotero(paperId, title) {
 
 ## Frequently Asked Questions
 
-**How long does it take to complete this setup?**
+**How long does it take to build this extension?**
 
-For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
+A basic version with export-to-CSV takes 2–4 hours for a developer comfortable with JavaScript. Adding saved search alerts and a polished popup UI adds another 3–5 hours. Plan for a full weekend if you want something production-ready.
 
 **What are the most common mistakes to avoid?**
 
-The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
+Using Manifest V2 patterns in a V3 extension is the most frequent issue — particularly using `chrome.browserAction` instead of `chrome.action`, or trying to use a persistent background page instead of a service worker. The Chrome migration guide covers every breaking change.
 
 **Do I need prior experience to follow this guide?**
 
-Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
+Basic JavaScript familiarity is required. You do not need to know browser extension APIs beforehand — the guide covers every API call used. If DOM manipulation and event listeners are familiar, you have enough background.
 
-**Can I adapt this for a different tech stack?**
+**Can I adapt this for a different academic search engine?**
 
-Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
+Yes. PubMed, Semantic Scholar, and arXiv all have parseable HTML. Change the `host_permissions` and `content_scripts` matches in the manifest, then update the CSS selectors in `parseResults()`. The background service worker and popup code remain largely the same.
 
 **Where can I get help if I run into issues?**
 
-Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
+The Chrome Developers documentation at developer.chrome.com is the authoritative source. The `chrome-extensions` tag on Stack Overflow is active for specific error messages. The Chromium extensions Google Group handles edge cases and API behavior questions.
 
 ## Related Articles
 
@@ -466,4 +478,3 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Chrome Extension Compress Images Before Upload](/remote-work-tools/chrome-extension-compress-images-before-upload/)
 - [Chrome Extension Currency Converter Shopping](/remote-work-tools/chrome-extension-currency-converter-shopping/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-

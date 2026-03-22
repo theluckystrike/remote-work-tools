@@ -24,6 +24,35 @@ A 15-person remote data science team has documentation needs that differ fundame
 - **Documentation adoption fails when teams aren't involved in tool selection**: Let 2-3 team members test options before committing. Their hands-on feedback beats any comparison chart.
 - **Most data science teams waste 3-5 hours weekly reconstructing prior experiments**: A platform with proper experiment tracking and versioning eliminates this friction.
 
+## Table of Contents
+
+- [The Data Science Documentation Problem](#the-data-science-documentation-problem)
+- [Documentation Platforms Compared](#documentation-platforms-compared)
+- [Recommended Configurations by Team Structure](#recommended-configurations-by-team-structure)
+- [Implementation Framework for 15-Person Teams](#implementation-framework-for-15-person-teams)
+- [Critical Workflows for Data Science Documentation](#critical-workflows-for-data-science-documentation)
+- [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
+- [Setting Up Your First Documentation System: 30-Day Plan](#setting-up-your-first-documentation-system-30-day-plan)
+- [Experiment Tracking (Weights & Biases)](#experiment-tracking-weights-biases)
+- [Data Lineage Documentation (Notion or Wiki)](#data-lineage-documentation-notion-or-wiki)
+- [Decision Documentation (Notion)](#decision-documentation-notion)
+- [Real Documentation Examples](#real-documentation-examples)
+- [Problem Statement](#problem-statement)
+- [Data](#data)
+- [Transformations](#transformations)
+- [Baseline Model](#baseline-model)
+- [Next Steps](#next-steps)
+- [Background](#background)
+- [Problem](#problem)
+- [Alternatives Evaluated](#alternatives-evaluated)
+- [Decision: Hybrid (Option 2)](#decision-hybrid-option-2)
+- [Implementation Status](#implementation-status)
+- [Metrics Post-Launch](#metrics-post-launch)
+- [Metrics That Matter](#metrics-that-matter)
+- [Scaling Documentation for Growth](#scaling-documentation-for-growth)
+- [Budget and ROI](#budget-and-roi)
+- [- [Remote Work Guides Hub](/remote-work-tools/)](#remote-work-guides-hubremote-work-tools)
+
 ## The Data Science Documentation Problem
 
 General-purpose documentation platforms (Confluence, Notion, wiki systems) force data scientists into an awkward pattern: write up experiments after they're done, then manually track which experiments led to which decisions. Your team then spends time re-running old experiments because the connection between documentation and actual code/data is broken.

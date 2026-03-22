@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Example: Export Miro board via API"
+title: "How to Facilitate Remote Team Workshops Using Miro with Structured Communication"
 description: "Learn practical techniques for running effective remote workshops in Miro with structured communication exercises that keep teams engaged and productive"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -11,10 +11,21 @@ score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools, remote-work]
+tags: [remote-work-tools, remote-work, miro, workshops, facilitation]
 ---
 
 ## Remote Workshops in Miro: The Challenge
+
+## Table of Contents
+
+- [Remote Workshops in Miro: The Challenge](#remote-workshops-in-miro-the-challenge)
+- [Pre-Workshop Preparation: Set Teams Up to Succeed](#pre-workshop-preparation-set-teams-up-to-succeed)
+- [Workshop Structures: Proven Formats](#workshop-structures-proven-formats)
+- [Engagement Techniques: Keep Remote Teams Active](#engagement-techniques-keep-remote-teams-active)
+- [Real Miro Workshop: Customer Problem Discovery (90 minutes)](#real-miro-workshop-customer-problem-discovery-90-minutes)
+- [Facilitation Tips: Make It Feel Smooth](#facilitation-tips-make-it-feel-smooth)
+- [Exporting Workshop Output: Miro API](#exporting-workshop-output-miro-api)
+- [Team Exercise: Running Your First Workshop (2 hours)](#team-exercise-running-your-first-workshop-2-hours)
 
 Running workshops on Zoom sucks: cameras off, participants muted, one person talking, others not engaged. Miro changes this by giving everyone a shared whiteboard where they can simultaneously contribute.
 
@@ -326,3 +337,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -19,6 +19,20 @@ voice-checked: true
 
 Automated client progress reports aggregate task completion, sprint metrics, and timeline data without manual compilation, saving hours weekly. You can script reports from Linear, Jira, or GitHub APIs, format them as PDF or email, and schedule weekly/monthly delivery. This guide covers reporting pipeline architecture, template examples, and integrations for remote project teams.
 
+## Table of Contents
+
+- [Understanding the Reporting Pipeline](#understanding-the-reporting-pipeline)
+- [Choosing the Right Data Sources](#choosing-the-right-data-sources)
+- [Building the Data Collection Layer](#building-the-data-collection-layer)
+- [Pulling Data from Linear](#pulling-data-from-linear)
+- [Creating the Report Template](#creating-the-report-template)
+- [Automating Delivery](#automating-delivery)
+- [Scheduling the Automation](#scheduling-the-automation)
+- [Report Format Options: Choosing What Works for Each Client](#report-format-options-choosing-what-works-for-each-client)
+- [Enhancing Reports with Additional Context](#enhancing-reports-with-additional-context)
+- [Security and Access Considerations](#security-and-access-considerations)
+- [Measuring Report Effectiveness](#measuring-report-effectiveness)
+
 ## Understanding the Reporting Pipeline
 
 An automated reporting system consists of three core components:

@@ -16,6 +16,22 @@ voice-checked: true
 
 ## Why Daily Check-Ins Matter for Remote Teams
 
+## Table of Contents
+
+- [Why Daily Check-Ins Matter for Remote Teams](#why-daily-check-ins-matter-for-remote-teams)
+- [Daily Check-In Tools: Quick Comparison](#daily-check-in-tools-quick-comparison)
+- [Slack Workflow: Zero-Friction Check-Ins for Slack Teams](#slack-workflow-zero-friction-check-ins-for-slack-teams)
+- [15Five: Structured with 1:1 Context](#15five-structured-with-11-context)
+- [Ally: Mobile-First with Team Morale Focus](#ally-mobile-first-with-team-morale-focus)
+- [Geekbot: The Lightweight Slack Alternative](#geekbot-the-lightweight-slack-alternative)
+- [Marco Polo: Voice Check-Ins for Async Teams](#marco-polo-voice-check-ins-for-async-teams)
+- [Implementation Roadmap: Rolling Out Check-Ins in 2 Weeks](#implementation-roadmap-rolling-out-check-ins-in-2-weeks)
+- [Check-In Question Templates](#check-in-question-templates)
+- [Data Integration: Slack Digest from Standup Responses](#data-integration-slack-digest-from-standup-responses)
+- [Team Exercise: Designing Your Check-In Format (30 minutes)](#team-exercise-designing-your-check-in-format-30-minutes)
+- [Measuring Check-In Health](#measuring-check-in-health)
+- [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
+
 Synchronous standups break distributed work. You schedule a call for 9 AM Pacific = 12 PM Eastern = 5 PM London = 2 AM Sydney. Someone's always miserable.
 
 Async check-ins solve this: each person posts their update once a day, whenever their morning is. Manager reads them during their morning coffee. Team sees progress without scheduling a meeting.
@@ -286,7 +302,7 @@ Team writes what manager wants to hear, not what's real.
 
 **Who is this article written for?**
 
-This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
+This article is written for engineering managers, team leads, and remote operations folks who want to improve async visibility on distributed teams. The tool comparisons focus on practical implementation rather than feature lists.
 
 **How current is the information in this article?**
 
@@ -294,7 +310,7 @@ We update articles regularly to reflect the latest changes. However, tools and p
 
 **Does Teams offer a free tier?**
 
-Most major tools offer some form of free tier or trial period. Check Teams's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
+Most major tools offer some form of free tier or trial period. Check each tool's current pricing page for the latest details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
 **How do I get my team to adopt a new tool?**
 
@@ -313,3 +329,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Install Storybook for your design system package](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

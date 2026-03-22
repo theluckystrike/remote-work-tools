@@ -19,6 +19,30 @@ intent-checked: true
 
 Hybrid work culture breaks down when in-office employees accumulate more information, opportunities, and social capital than remote team members. The fix is treating culture infrastructure like your codebase: unified async communication channels, equitable meeting design where every participant joins by video, and documented decision records with async feedback periods. This guide provides five concrete strategies with implementation examples for technical teams.
 
+## Table of Contents
+
+- [The Hybrid Culture Challenge](#the-hybrid-culture-challenge)
+- [Strategy One: Unified Communication Channels](#strategy-one-unified-communication-channels)
+- [Strategy Two: Equitable Meeting Design](#strategy-two-equitable-meeting-design)
+- [Strategy Three: Intentional In-Person Time](#strategy-three-intentional-in-person-time)
+- [Strategy Four: Transparent Decision Documentation](#strategy-four-transparent-decision-documentation)
+- [ADR-042: Adoption of Feature Flag System](#adr-042-adoption-of-feature-flag-system)
+- [Strategy Five: Culture Documentation and Evolution](#strategy-five-culture-documentation-and-evolution)
+- [How We Work](#how-we-work)
+- [Measuring Culture Health](#measuring-culture-health)
+- [Putting It All Together](#putting-it-all-together)
+- [Practical Tools for Culture Implementation](#practical-tools-for-culture-implementation)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Async Review Period: 7 days](#async-review-period-7-days)
+- [Measuring Culture Health: Specific Metrics](#measuring-culture-health-specific-metrics)
+- [Recovery Strategies If Culture Is Breaking](#recovery-strategies-if-culture-is-breaking)
+- [Seasonal Culture Activities](#seasonal-culture-activities)
+- [Documenting Culture Evolution](#documenting-culture-evolution)
+- [Red Flags That Hybrid Culture Is Failing](#red-flags-that-hybrid-culture-is-failing)
+- [Quick Wins to Improve Right Now](#quick-wins-to-improve-right-now)
+
 ## The Hybrid Culture Challenge
 
 Hybrid work creates a fundamental tension: team members physically present in the office develop stronger relationships through spontaneous interactions, while remote workers often feel out of the loop. Left unaddressed, this gap widens over time, leading to two-tier team dynamics where in-office employees receive more information, opportunities, and social capital.

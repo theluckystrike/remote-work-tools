@@ -18,6 +18,26 @@ voice-checked: true
 
 Remote teams often hit a communication wall around the 15-person mark. Before this threshold, informal chats and ad-hoc synchronization work reasonably well. Beyond it, the same approaches that once functioned smoothly start creating friction, misunderstandings, and lost context. Recognizing the warning signs early prevents productivity loss and team burnout.
 
+## Table of Contents
+
+- [The 15-Person Threshold: Why It Happens](#the-15-person-threshold-why-it-happens)
+- [Warning Sign 1: Response Time Creep](#warning-sign-1-response-time-creep)
+- [Warning Sign 2: Increased Meeting Frequency](#warning-sign-2-increased-meeting-frequency)
+- [Warning Sign 3: Context Fragmentation](#warning-sign-3-context-fragmentation)
+- [Warning Sign 4: Silent Team Members](#warning-sign-4-silent-team-members)
+- [Warning Sign 5: Assumption-Based Coordination](#warning-sign-5-assumption-based-coordination)
+- [Warning Sign 6: Channel Proliferation](#warning-sign-6-channel-proliferation)
+- [Practical Countermeasures](#practical-countermeasures)
+- [Decision Record: [Brief Title]](#decision-record-brief-title)
+- [Detecting Warning Signs: Practical Metrics](#detecting-warning-signs-practical-metrics)
+- [Implementing Fixes: Concrete Steps](#implementing-fixes-concrete-steps)
+- [Response Time Expectations](#response-time-expectations)
+- [Channel Usage](#channel-usage)
+- [Synchronous Meeting Guidelines](#synchronous-meeting-guidelines)
+- [Communication Latency Guidelines](#communication-latency-guidelines)
+- [ADR-042: Migrating from REST to GraphQL](#adr-042-migrating-from-rest-to-graphql)
+- [Measuring Improvement](#measuring-improvement)
+
 This guide helps you identify when your remote team's communication is breaking down and provides actionable strategies to address each symptom before it compounds.
 
 ## The 15-Person Threshold: Why It Happens

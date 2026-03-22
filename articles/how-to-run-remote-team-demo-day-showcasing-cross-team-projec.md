@@ -18,6 +18,21 @@ voice-checked: true
 
 Demo days transform isolated project work into shared organizational knowledge. For remote teams, these sessions serve a dual purpose: they keep everyone informed about progress across the company and they create natural opportunities for collaboration to emerge. When multiple teams present their joint work, the demo becomes a forcing function for visibility and a catalyst for future partnerships.
 
+## Table of Contents
+
+- [Why Cross-Team Demo Days Matter](#why-cross-team-demo-days-matter)
+- [Structuring the Demo Day Format](#structuring-the-demo-day-format)
+- [Demo Day Preparation Checklist](#demo-day-preparation-checklist)
+- [Selecting and Ordering Cross-Team Projects](#selecting-and-ordering-cross-team-projects)
+- [Technical Setup for Remote Demos](#technical-setup-for-remote-demos)
+- [Making Demos Actionable for Viewers](#making-demos-actionable-for-viewers)
+- [Handling Q&An Effectively](#handling-qan-effectively)
+- [Question Handling Template](#question-handling-template)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Demo Day Success](#measuring-demo-day-success)
+- [Post-Demo Day Survey](#post-demo-day-survey)
+- [Building a Sustainable Cadence](#building-a-sustainable-cadence)
+
 This guide provides a practical framework for running remote demo days that genuinely showcase cross-team project work, not just individual team accomplishments.
 
 ## Why Cross-Team Demo Days Matter

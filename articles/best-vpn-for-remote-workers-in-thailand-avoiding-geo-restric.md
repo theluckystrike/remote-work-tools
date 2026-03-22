@@ -18,6 +18,18 @@ intent-checked: true
 
 Remote workers in Thailand frequently encounter geo-restrictions that block access to essential development tools, cloud services, and internal company resources. Whether you're connecting to corporate systems, accessing AI-assisted coding tools with regional limitations, or using APIs that block Thai IP addresses, a reliable VPN setup becomes critical infrastructure for maintaining productivity.
 
+## Table of Contents
+
+- [The Geo-Restriction Problem for Developers](#the-geo-restriction-problem-for-developers)
+- [Self-Hosted VPN Solutions](#self-hosted-vpn-solutions)
+- [Cloud-Based VPN Services](#cloud-based-vpn-services)
+- [Tool-Specific Solutions](#tool-specific-solutions)
+- [Performance Optimization](#performance-optimization)
+- [Security Considerations](#security-considerations)
+- [Commercial VPN Comparison for Thailand-Based Developers](#commercial-vpn-comparison-for-thailand-based-developers)
+- [Multi-Hop and Obfuscation for Challenging Networks](#multi-hop-and-obfuscation-for-challenging-networks)
+- [Choosing Your Solution](#choosing-your-solution)
+
 This guide provides practical VPN solutions tailored for developers and power users who need uninterrupted access to their toolchain while working from Thailand.
 
 ## The Geo-Restriction Problem for Developers

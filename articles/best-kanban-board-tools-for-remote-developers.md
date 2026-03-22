@@ -15,6 +15,21 @@ tags: [remote-work-tools, best-of, remote-work]
 
 ## Kanban Boards for Distributed Teams: The Challenge
 
+## Table of Contents
+
+- [Kanban Boards for Distributed Teams: The Challenge](#kanban-boards-for-distributed-teams-the-challenge)
+- [Top Kanban Tools: Feature Comparison](#top-kanban-tools-feature-comparison)
+- [Linear: The Developer's Kanban](#linear-the-developers-kanban)
+- [GitHub Projects: Zero-Cost If You're Already on GitHub](#github-projects-zero-cost-if-youre-already-on-github)
+- [Jira: The Enterprise Standard (With Complexity)](#jira-the-enterprise-standard-with-complexity)
+- [Trello: Simple Until You Need More](#trello-simple-until-you-need-more)
+- [Shortcut: The Agile+Kanban Hybrid](#shortcut-the-agilekanban-hybrid)
+- [Implementation: Getting Your Team Kanban-Ready in 1 Week](#implementation-getting-your-team-kanban-ready-in-1-week)
+- [Decision Tree: Choosing Your Tool](#decision-tree-choosing-your-tool)
+- [Automation Examples: Reduce Manual Status Updates](#automation-examples-reduce-manual-status-updates)
+- [Team Exercise: Kanban Planning Session (90 minutes)](#team-exercise-kanban-planning-session-90-minutes)
+- [Measuring Kanban Health: Metrics That Matter](#measuring-kanban-health-metrics-that-matter)
+
 Kanban boards work in physical offices (glance at wall, see work-in-progress limit). For remote teams, the board lives behind a screen. Without physical presence, teams lose the transparency that makes kanban effective.
 
 The best tools solve this by: (1) making board state visible in real-time across time zones, (2) integrating with developer workflow (GitHub, Git), and (3) automating status updates so humans don't have to babysit the board.

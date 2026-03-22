@@ -18,6 +18,25 @@ voice-checked: true
 
 Tax-compliant remote work stipend policies must distinguish between tax-free accountable plans and taxable income—with proper documentation, substantiation, and return-of-excess provisions. IRS regulations allow up to $1,200/year for home office equipment tax-free if structured correctly. This guide covers legal framework, policy templates, and implementation strategies to keep stipends compliant.
 
+## Table of Contents
+
+- [Understanding the Tax Framework](#understanding-the-tax-framework)
+- [Why Accountable Plans Matter for Your Bottom Line](#why-accountable-plans-matter-for-your-bottom-line)
+- [Building Your Compliant Policy](#building-your-compliant-policy)
+- [Purpose](#purpose)
+- [Eligible Expenses](#eligible-expenses)
+- [Documentation Requirements](#documentation-requirements)
+- [Excess Advance Returns](#excess-advance-returns)
+- [Eligibility](#eligibility)
+- [Expense Categories: What Qualifies and What Doesn't](#expense-categories-what-qualifies-and-what-doesnt)
+- [Practical Implementation Examples](#practical-implementation-examples)
+- [Internet Reimbursement Calculation](#internet-reimbursement-calculation)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Regional Considerations](#regional-considerations)
+- [Documenting for Audit Protection](#documenting-for-audit-protection)
+- [Annual Compliance Checklist](#annual-compliance-checklist)
+- [Making the Policy Work](#making-the-policy-work)
+
 ## Understanding the Tax Framework
 
 The IRS treats remote work stipends differently depending on how they're structured. Under current tax law, there are two primary paths:

@@ -18,6 +18,17 @@ voice-checked: true
 
 When you manage a remote team spread across multiple US states, you quickly discover that paid leave laws are anything but uniform. What earns your developer in Austin three days of paid sick leave triggers zero obligations in Orlando. The paid family leave mandate that applies to your engineer in Seattle does not exist in Texas. Handling these differences requires more than policy documents—it demands a system that can track, calculate, and comply with varying state requirements automatically.
 
+## Table of Contents
+
+- [Understanding the Cost of Non-Compliance](#understanding-the-cost-of-non-compliance)
+- [The Fundamental Problem: State-by-State Variation](#the-fundamental-problem-state-by-state-variation)
+- [Quick Reference: Current Leave Laws (2026)](#quick-reference-current-leave-laws-2026)
+- [Building a Compliance Tracker](#building-a-compliance-tracker)
+- [Handling Multi-State Payroll](#handling-multi-state-payroll)
+- [Practical Considerations for Your Team](#practical-considerations-for-your-team)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Getting Help](#getting-help)
+
 This guide shows you how to build compliance into your remote work infrastructure without losing your mind or your payroll budget.
 
 ## Understanding the Cost of Non-Compliance

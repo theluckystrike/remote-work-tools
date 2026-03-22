@@ -17,6 +17,21 @@ tags: [remote-work-tools, remote-work]
 
 A developer's backup strategy needs to cover more than documents. Code history lives in git but local work-in-progress, environment configs, credentials managers, and databases need separate protection. This guide builds a 3-2-1 strategy: 3 copies, 2 different media, 1 offsite.
 
+## Table of Contents
+
+- [What Needs Backing Up](#what-needs-backing-up)
+- [Dotfiles: Git as Backup](#dotfiles-git-as-backup)
+- [macOS: Time Machine + rsync Offsite](#macos-time-machine-rsync-offsite)
+- [Linux: Restic to S3/B2](#linux-restic-to-s3b2)
+- [Local Database Backups](#local-database-backups)
+- [Backup Verification (Critical)](#backup-verification-critical)
+- [SSH Keys: Special Handling](#ssh-keys-special-handling)
+- [Cloud Sync Is Not a Backup](#cloud-sync-is-not-a-backup)
+- [Secrets and Environment Files](#secrets-and-environment-files)
+- [Windows and WSL2 Considerations](#windows-and-wsl2-considerations)
+- [Testing Your Full Recovery Scenario](#testing-your-full-recovery-scenario)
+- [Related Reading](#related-reading)
+
 ## What Needs Backing Up
 
 Map your risk before picking tools:

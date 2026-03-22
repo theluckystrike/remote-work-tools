@@ -18,6 +18,18 @@ voice-checked: true
 
 Feature delivery predictability measures how accurately your team estimates and delivers planned work on schedule. For distributed product organizations, this metric becomes critical because coordination overhead, time zone gaps, and async communication create inherent variability that traditional estimation methods struggle to capture.
 
+## Table of Contents
+
+- [Why Predictability Matters for Distributed Teams](#why-predictability-matters-for-distributed-teams)
+- [Core Predictability Metrics](#core-predictability-metrics)
+- [Implementing Automated Tracking](#implementing-automated-tracking)
+- [Interpreting Results](#interpreting-results)
+- [Setting Realistic Targets](#setting-realistic-targets)
+- [Jira Integration for Automated Metrics](#jira-integration-for-automated-metrics)
+- [Tools Comparison: Delivery Metrics Platforms](#tools-comparison-delivery-metrics-platforms)
+- [The Predictability Improvement Playbook](#the-predictability-improvement-playbook)
+- [Building Predictability Over Time](#building-predictability-over-time)
+
 This guide covers the key predictability metrics, provides Python code for calculation, and shows how to integrate measurement into your existing GitHub or Jira workflows.
 
 ## Why Predictability Matters for Distributed Teams

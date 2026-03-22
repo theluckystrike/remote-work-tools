@@ -514,6 +514,17 @@ score: 8
 
 Running a book club in a distributed engineering team presents unique challenges. Without the luxury of spontaneous hallway conversations or easy after-work meetups, traditional synchronous book clubs often fall apart. But here's the thing — async book clubs can actually be *more* inclusive and thought-provoking than their synchronous counterparts. They give everyone time to process ideas deeply, respond when inspired, and participate across time zones without disrupting work-life balance.
 
+## Table of Contents
+
+- [Why Async Book Clubs Work Better for Distributed Teams](#why-async-book-clubs-work-better-for-distributed-teams)
+- [Setting Up Your Async Book Club Framework](#setting-up-your-async-book-club-framework)
+- [Week X: [Chapter/Part Title]](#week-x-chapterpart-title)
+- [Tools and Automation](#tools-and-automation)
+- [Measuring Success](#measuring-success)
+- [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
+- [Book Recommendations for Engineering Teams](#book-recommendations-for-engineering-teams)
+- [Getting Started Tomorrow](#getting-started-tomorrow)
+
 This guide walks you through setting up an async book club that actually works for distributed engineering teams, with practical templates, tool recommendations, and automation scripts to keep things running smoothly.
 
 ## Why Async Book Clubs Work Better for Distributed Teams

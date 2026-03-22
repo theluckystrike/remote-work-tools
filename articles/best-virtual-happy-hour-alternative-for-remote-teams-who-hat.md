@@ -18,6 +18,29 @@ voice-checked: true
 
 Replace forced synchronous happy hours with async-first alternatives: shared documentation channels for watercooler conversations, optional interest-based groups (gaming, fitness, cooking), or self-organized video calls that team members join only when interested. The key is optional participation, genuine value, and respecting the autonomy of developers who prefer deep work over mandatory socialization.
 
+## Table of Contents
+
+- [Why Forced Fun Backfires](#why-forced-fun-backfires)
+- [Async-First Connection Strategies](#async-first-connection-strategies)
+- [Optional Synchronous Alternatives](#optional-synchronous-alternatives)
+- [Technical Implementation](#technical-implementation)
+- [Measuring Success Without Attendance](#measuring-success-without-attendance)
+- [Implementation Roadmap](#implementation-roadmap)
+- [Async-First Tools and Platforms for Optional Connection](#async-first-tools-and-platforms-for-optional-connection)
+- [Channel Structure Template for Async Connection](#channel-structure-template-for-async-connection)
+- [#watercooler](#watercooler)
+- [#wins](#wins)
+- [#learning](#learning)
+- [#creative](#creative)
+- [#gaming](#gaming)
+- [#fitness](#fitness)
+- [#book-club](#book-club)
+- [#random](#random)
+- [Async Activities That Actually Work](#async-activities-that-actually-work)
+- [Technical Implementation: Automation and Bots](#technical-implementation-automation-and-bots)
+- [Measuring Success of Optional Connection Systems](#measuring-success-of-optional-connection-systems)
+- [Implementation Checklist: Rolling Out Async-First Culture](#implementation-checklist-rolling-out-async-first-culture)
+
 ## Why Forced Fun Backfires
 
 Before exploring alternatives, understand why mandatory social events create resistance. Developers and technical workers often value deep work, asynchronous communication, and autonomy. When "fun" becomes scheduled and mandatory, it contradicts these preferences. The result is passive participation—cameras off, microphones muted, disengagement disguised as technical difficulties.
