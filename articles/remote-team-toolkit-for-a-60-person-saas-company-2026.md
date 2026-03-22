@@ -13,6 +13,8 @@ score: 9
 intent-checked: true
 voice-checked: true
 ---
+{% raw %}
+
 
 Sixty people is a genuinely difficult size for a remote SaaS company. You are too large to coordinate through individual relationships and informal channels, but too small to justify the infrastructure and process overhead of a 200-person organization. The tools that worked at 15 people create bottlenecks. The tools designed for enterprise teams feel like they require a dedicated admin to configure and maintain.
 
@@ -460,3 +462,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best All-in-One Tool for a 5 Person Remote Nonprofit](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
 - [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
