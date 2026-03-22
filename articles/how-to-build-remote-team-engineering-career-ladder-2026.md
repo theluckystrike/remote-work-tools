@@ -291,27 +291,27 @@ Adjustments:
 **Responsibilities:**
 
 1. **Technical Ownership (40%)**
-   - Own 2–3 systems end-to-end (architecture, reliability, performance)
-   - Write RFCs for major changes; lead architecture reviews
-   - Take on-call for critical systems
-   - Mentor code, propose refactors for team scalability
+ - Own 2–3 systems end-to-end (architecture, reliability, performance)
+ - Write RFCs for major changes; lead architecture reviews
+ - Take on-call for critical systems
+ - Mentor code, propose refactors for team scalability
 
 2. **Mentorship (30%)**
-   - Formally mentor 2–3 engineers
-   - Weekly 1:1 pairing or code review sessions
-   - Help juniors debug complex issues
-   - Document patterns, best practices
+ - Formally mentor 2–3 engineers
+ - Weekly 1:1 pairing or code review sessions
+ - Help juniors debug complex issues
+ - Document patterns, best practices
 
 3. **Collaboration (20%)**
-   - Participate in hiring (screens, interviews)
-   - Drive cross-team initiatives
-   - Lead technical discussions, estimation
-   - Communicate status + blockers proactively
+ - Participate in hiring (screens, interviews)
+ - Drive cross-team initiatives
+ - Lead technical discussions, estimation
+ - Communicate status + blockers proactively
 
 4. **Growth (10%)**
-   - Level up technical skills (new languages, systems)
-   - Contribute to company knowledge (docs, tech talks, handbook)
-   - Explore new technologies
+ - Level up technical skills (new languages, systems)
+ - Contribute to company knowledge (docs, tech talks, handbook)
+ - Explore new technologies
 
 **Success Metrics:**
 - Shipped 2–4 major features per quarter

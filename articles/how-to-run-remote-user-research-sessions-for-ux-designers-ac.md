@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Recommended recording setup for user research"
-description: "A practical guide to conducting remote user research sessions for distributed UX teams跨越时区. Includes scheduling strategies, async workflows, and tool"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-run-remote-user-research-sessions-for-ux-designers-ac/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 

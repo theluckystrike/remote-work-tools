@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, workflow, remote-work, automation]
 ---
----
-layout: default
-title: "n8n Workflow Automation for Remote Teams"
-description: "Set up n8n self-hosted workflow automation for remote teams. Covers installation, common automations for Slack, GitHub, Notion, and error handling for reliable"
-date: 2026-03-21
-author: theluckystrike
-permalink: /n8n-workflow-automation-remote-teams/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, workflow, remote-work, automation]
----
 
 {% raw %}
 
@@ -337,6 +323,7 @@ Then reference credentials by name in workflow nodes — never paste raw API key
 - [Automation Tools for Freelance Business Operations](/remote-work-tools/automation-tools-for-freelance-business-operations/)
 - [Async Standup Alternative Using GitHub Commit Summaries Automatically](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
+- [How to Run Remote Accounting Firm with Distributed Staff](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
 
 ## Related Articles
 

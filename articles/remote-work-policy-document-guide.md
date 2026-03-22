@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "How to Create a Remote Work Policy Document"
-description: "Write a remote work policy document that covers eligibility, availability expectations, equipment, security, and expense reimbursement. Includes a complete"
-date: 2026-03-21
-author: theluckystrike
-permalink: /remote-work-policy-document-guide/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
@@ -268,6 +254,7 @@ Review the policy with a lawyer before publishing if your team spans multiple co
 - [How to Create a Remote Work Stipend Policy That Is Legally Tax Compliant](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
 - [How to Create a Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
 - [How to Communicate Remote Work Policy Changes to Distributed Teams](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
+- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
 
 ## Related Articles
 

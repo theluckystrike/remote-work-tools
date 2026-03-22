@@ -247,7 +247,8 @@ architecture/
 
 Use GitHub's review features naturally—design docs are just code to your team:
 
-```markdown---
+```markdown
+---
 adr: 0001
 title: Microservices Architecture Decision
 status: Approved

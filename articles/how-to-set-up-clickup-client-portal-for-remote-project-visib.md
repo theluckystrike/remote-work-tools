@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Example: Add a client to a specific project list"
-description: "To set up a ClickUp client portal, create a dedicated space with guest access configured to specific lists, then use ClickUp's API to automate guest"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-set-up-clickup-client-portal-for-remote-project-visib/
-reviewed: true
-score: 8
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 To set up a ClickUp client portal, create a dedicated space with guest access configured to specific lists, then use ClickUp's API to automate guest provisioning and filter client-facing views. This approach gives remote development teams visibility into project progress while keeping internal technical discussions private.
 

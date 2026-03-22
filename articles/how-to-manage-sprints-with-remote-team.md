@@ -274,24 +274,6 @@ Remote sprint retrospectives fail when they become status meetings. Structure th
 
 Rotate retrospective facilitation and time zones. If your team spans three time zones, each retro should be hosted by someone from a different zone over the course of the sprint rotation.
 
-## Key Takeaways
-
-Managing sprints with remote teams succeeds when you:
-
-1. Replace synchronous ceremonies with async alternatives — Use GitHub Issues and Actions for standups and documentation-first planning.
-
-2. Account for communication overhead — Build 15-20% buffer into capacity calculations for async communication costs.
-
-3. Make blockers visible immediately — Automated escalation ensures no one waits days for unblocking.
-
-4. Track progress simply — Velocity projections based on percentage complete work better than burndown charts for distributed teams.
-
-5. Rotate facilitation — Ensure no single time zone owns the retrospective process.
-
-Start with async standups this week, add capacity planning next sprint, and iterate from there.
----
-
-
 ## Frequently Asked Questions
 
 **How long does it take to manage sprints with remote team: a practical?**

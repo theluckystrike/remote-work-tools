@@ -387,6 +387,7 @@ Between major versions (e.g., 22 → 23 → 24), review the Keycloak migration g
 - [Best Password Manager for a Remote Startup of 15 Employees](/remote-work-tools/best-password-manager-for-a-remote-startup-of-15-employees/)
 - [Best Endpoint Security for Remote Employees](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
 - [How to Set Up Gitea for Self-Hosted Git](/remote-work-tools/how-to-set-up-gitea-self-hosted-git/)
+- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 
 ---
 

@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Remote Ideation Session Facilitation Guide"
-description: "A practical guide to running effective remote ideation sessions for developers and power users. Learn help techniques, tools, and code examples"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /remote-ideation-session-facilitation-guide/
-reviewed: true
-score: 8
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 

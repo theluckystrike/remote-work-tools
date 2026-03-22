@@ -295,6 +295,7 @@ set -g status-left "#[fg=yellow]#S "
 - [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
 - [Remote Team Keyboard Shortcut Standardization](/remote-work-tools/remote-team-keyboard-shortcut-standardization/)
 - [How to Set Up Vector for Log Processing](/remote-work-tools/how-to-set-up-vector-for-log-processing/)
+- [Wezterm vs Alacritty Terminal Comparison: A Practical Guide](/remote-work-tools/wezterm-vs-alacritty-terminal-comparison/)
 
 ---
 

@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Deal Brief: [Company Name]"
-description: "A practical guide for developers and power users building deal rooms for remote sales teams using shared documents and collaborative tools"
-date: 2026-03-15
-last_modified_at: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /how-to-set-up-remote-sales-team-deal-room-with-shared-docume/
-reviewed: true
-score: 9
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 Building a deal room for a remote sales team doesn't require expensive enterprise software. You can create an effective, asynchronous deal room using shared documents, version control, and automation tools that developers and power users will appreciate.

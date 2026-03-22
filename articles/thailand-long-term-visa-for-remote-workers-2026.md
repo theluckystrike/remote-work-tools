@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Thailand Long Term Visa for Remote Workers 2026"
-description: "Everything developers and digital nomads need to know about Thailand's visa options for remote work in 2026. Compare requirements, application processes"
-date: 2026-03-15
-last_modified_at: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /thailand-long-term-visa-for-remote-workers-2026/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 

@@ -248,7 +248,7 @@ Elite remote workers use activity kits as deliberate focus engineering. If you u
 **Overlap Strategy**: During that 45-minute buffer before pickup/end-of-kit, you have soft-priority work capacity. Code review, emails, communication—things that can pause if child needs you.
 
 **Redundancy Pattern**: Maintain 2-3 active subscriptions so you never hit a gap. Rotation schedule:
-- Week 1-2: Subscription A active
+- Week 1-2: Subscription An active
 - Week 3-4: Subscription B active
 - Week 5-6: Subscription C active
 - Week 7-8: Repeat

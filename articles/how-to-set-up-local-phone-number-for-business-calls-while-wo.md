@@ -13,21 +13,6 @@ categories: [guides]
 intent-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Local Business Phone Setup for Remote Workers"
-description: "A practical guide for developers and remote workers on setting up local business phone numbers while working internationally, including VoIP solutions"
-date: 2026-03-15
-last_modified_at: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /how-to-set-up-local-phone-number-for-business-calls-while-wo/
-reviewed: true
-score: 8
-voice-checked: true
-categories: [guides]
-intent-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 

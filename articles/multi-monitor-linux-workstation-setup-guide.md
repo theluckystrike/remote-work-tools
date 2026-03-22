@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Multi-Monitor Linux Workstation Setup Guide"
-description: "Configure a multi-monitor Linux workstation for remote development. Covers xrandr, Wayland, i3, per-monitor DPI, and workspace assignment across displays."
-date: 2026-03-21
-author: theluckystrike
-permalink: /multi-monitor-linux-workstation-setup-guide/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 
@@ -362,6 +348,7 @@ For a pure development workstation where you want tiling and keyboard control, i
 - [How to Set Up a Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
 - [Best Ultrawide Monitor for Programming Remote Work](/remote-work-tools/best-ultrawide-monitor-for-programming-remote-work/)
 - [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
+- [How to Set Up Dual Monitor Arms on Remote Work Desk](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
 
 ## Related Articles
 

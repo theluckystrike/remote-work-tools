@@ -13,21 +13,6 @@ categories: [guides]
 intent-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Hybrid Office Air Quality Monitoring for Maintaining"
-description: "Learn how to implement air quality monitoring systems for hybrid offices with variable occupancy. Includes sensor integration, occupancy-aware"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /hybrid-office-air-quality-monitoring-for-maintaining-healthy/
-reviewed: true
-score: 9
-voice-checked: true
-categories: [guides]
-intent-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 

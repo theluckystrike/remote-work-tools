@@ -160,7 +160,7 @@ Two options to solve this:
 
 **Option B: Pre-assign co-host permissions.** In Zoom, make each presenter a co-host before the session. They can start screen-sharing immediately when called without waiting for host permission. This keeps demo talks smooth.
 
-For sessions mixing slides and demos, pre-assign co-host and collect slides. The host handles the slide talks; demo presenters switch in seamlessly.
+For sessions mixing slides and demos, pre-assign co-host and collect slides. The host handles the slide talks; demo presenters switch in .
 
 ## Host Script
 
@@ -215,7 +215,7 @@ Ask questions below in threads — speakers will reply within 24h.
 ---
 ```
 
-### Making Async Q&A Actually Happen
+### Making Async Q&An Actually Happen
 
 Async Q&A fails when no one asks first. The host can seed the first question for each talk immediately after posting the recording. "Hey Alice, one thing I was curious about: how does this interact with the rate limiter you built for the mobile API?" That question exists in the thread. Others reply or add their own.
 
@@ -390,6 +390,7 @@ Teams with strong lightning talk cultures report better knowledge distribution, 
 - [How to Run Remote Team Lightning Talks](/remote-work-tools/how-to-run-remote-team-lightning-talks-keeping-presentations/)
 - [Async Video Messaging Tools for Distributed Teams](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
 - [Best Remote Team Social Channel Ideas](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 
 ---
 

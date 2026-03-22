@@ -13,21 +13,6 @@ voice-checked: true
 intent-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Meeting Room Video Conferencing Equipment Setup for Hybrid"
-description: "Build a hybrid meeting room for $180-500 by prioritizing audio quality, choosing reliable cameras like the Logitech C920, adding proper lighting, and"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /meeting-room-video-conferencing-equipment-setup-for-hybrid-t/
-categories: [guides]
-reviewed: true
-score: 8
-voice-checked: true
-intent-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 

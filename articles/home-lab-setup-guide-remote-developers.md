@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Home Lab Setup Guide for Remote Developers"
-description: "Build a home lab for remote development: hardware selection, hypervisor setup, network segmentation, DNS, and services worth running locally for development"
-date: 2026-03-21
-author: theluckystrike
-permalink: /home-lab-setup-guide-remote-developers/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
@@ -328,6 +314,7 @@ For offsite backup, Restic against a Backblaze B2 bucket costs roughly $0.006/GB
 - [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
 - [How to Set Up WireGuard VPN Server for Small Remote Development Teams](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
 - [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
+- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
 
 ## Related Articles
 

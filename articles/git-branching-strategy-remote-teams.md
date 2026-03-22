@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Git Branching Strategy for Remote Teams"
-description: "Choose and implement the right Git branching strategy for distributed remote teams. Covers trunk-based development, GitHub Flow, Gitflow, and branch protection"
-date: 2026-03-21
-author: theluckystrike
-permalink: /git-branching-strategy-remote-teams/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
@@ -287,6 +273,7 @@ gh pr list --state closed --limit 50 --json headRefName,closedAt \
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 - [Async Code Review Process Without Zoom Calls](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 - [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
+- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
 
 ## Related Articles
 

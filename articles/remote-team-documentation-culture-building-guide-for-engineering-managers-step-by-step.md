@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Remote Team Documentation Culture Guide (2026)"
-description: "A practical step-by-step guide for engineering managers to build documentation culture in remote teams. Includes templates, workflows, and code examples"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/
-reviewed: true
-score: 8
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 Building documentation culture in a remote engineering team requires deliberate effort, clear systems, and consistent reinforcement. Unlike co-located teams where knowledge transfers happen informally through hallway conversations, remote teams need explicit, written-down processes that team members can discover and follow independently.

@@ -13,21 +13,6 @@ reviewed: true
 score: 8
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "How to Organize Multiple Chargers and Cables on Home Desk"
-description: "Every developer knows the struggle: a desk cluttered with charging bricks, tangled USB-C cables, power strips hidden behind monitors, and that one cable that"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /how-to-organize-multiple-chargers-and-cables-on-home-desk/
-categories: [guides]
-intent-checked: true
-voice-checked: true
-reviewed: true
-score: 8
-tags: [remote-work-tools]
----
 
 {% raw %}
 

@@ -407,6 +407,7 @@ If a blocking story slips, all dependent stories slip. Escalate blocking stories
 - [Best Sprint Planning Tools for Remote Scrum Masters](/best-sprint-planning-tools-for-remote-scrum-masters/)
 - [Best Tools for Remote Team Sprint Planning 2026](/best-tools-for-remote-team-sprint-planning-2026/)
 - [Remote Team Sprint Planning Communication Template](/remote-team-sprint-planning-communication-template-for-distr.)
+- [Remote Team Story Point Velocity Trend Analysis Tool](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
 ---
 
 ## Related Articles

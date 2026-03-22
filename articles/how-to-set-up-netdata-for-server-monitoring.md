@@ -379,6 +379,7 @@ curl -s "http://127.0.0.1:19999/api/v1/alarms?all" | jq '.alarms | to_entries[] 
 - [How to Set Up Traefik Reverse Proxy](/remote-work-tools/how-to-set-up-traefik-reverse-proxy/)
 - [How to Automate Database Backup Verification](/remote-work-tools/how-to-automate-database-backup-verification/)
 - [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
+- [How to Set Up Ansible for Remote Server Management](/remote-work-tools/how-to-set-up-ansible-remote-server-management/)
 
 ---
 

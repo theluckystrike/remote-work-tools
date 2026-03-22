@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, workflow]
 ---
----
-layout: default
-title: "GitHub Pull Request Workflow for Distributed Teams"
-description: "Master GitHub pull request workflows designed for distributed teams. Includes branch strategies, code review patterns, automation examples, and time"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /github-pull-request-workflow-for-distributed-teams/
-reviewed: true
-score: 8
-categories: [productivity]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, workflow]
----
 
 {% raw %}
 

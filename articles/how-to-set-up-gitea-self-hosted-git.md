@@ -492,6 +492,7 @@ Configure `default_delete_branch_after_merge: true` to keep the branch list clea
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
 - [How to Create Automated Deployment Notifications](/remote-work-tools/how-to-create-automated-deployment-notifications/)
 - [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [How to Set Up Woodpecker CI for Self-Hosted](/remote-work-tools/how-to-set-up-woodpecker-ci-for-self-hosted/)
 
 ---
 

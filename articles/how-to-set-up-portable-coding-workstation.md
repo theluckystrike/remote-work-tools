@@ -425,6 +425,7 @@ Working from different networks and locations introduces security risks:
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 - [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
 - [Best Portable Monitor Setup for Digital Nomads](/portable-monitor-setup-for-digital-nomads/)
+- [How to Set Up Dual Monitor Arms on Remote Work Desk](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
 ---
 
 ## Related Articles

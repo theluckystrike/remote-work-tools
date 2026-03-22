@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Deploy a secure Element (Matrix) server for pen test"
-description: "A practical guide for coordinating penetration testing activities across distributed security teams. Includes code examples and coordination workflows"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /remote-team-penetration-testing-coordination-guide-for-distr/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 Coordinating penetration testing across distributed security teams presents unique challenges that traditional in-person assessments never addressed. When your red team members span multiple time zones, use different tools, and operate with varying levels of access, you need structured workflows that maintain both security and efficiency. This guide provides actionable patterns for running effective remote penetration tests in 2026.

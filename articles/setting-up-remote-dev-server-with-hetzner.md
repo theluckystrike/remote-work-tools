@@ -177,7 +177,7 @@ With `--ssh` flag, Tailscale manages SSH keys automatically. You can remove the 
 
 ## Step 5: Dev Environment Setup with mise
 
-mise (formerly rtx) is a unified tool version manager that replaces nvm, rbenv, pyenv, and goenv with a single tool. It reads `.mise.toml` files in project directories and switches versions automatically.
+mise (formerly rtx) is an unified tool version manager that replaces nvm, rbenv, pyenv, and goenv with a single tool. It reads `.mise.toml` files in project directories and switches versions automatically.
 
 ```bash
 # SSH into the server as dev user
@@ -345,6 +345,7 @@ For developers in Europe or with European client bases, Hetzner is the clear def
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 - [Best Remote Dev Server Setup for Async Teams](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 - [Remote Team Deployment Pipeline Best Practices](/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
+- [WireGuard VPN Setup for Remote Dev Teams (2026)](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
 ---
 
 ## Related Articles

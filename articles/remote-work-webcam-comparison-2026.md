@@ -10,7 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
@@ -64,7 +64,7 @@ The Facecam Pro uses a 1/1.8" Sony STARVIS 2 sensor and records 4K/60fps (1080p/
 - Fixed focus is a liability if you move or work close to the camera
 - Low-light performance falls behind the Opal C1
 - No built-in microphone
-- USB-A only (no USB-C cable in box)
+- USB-An only (no USB-C cable in box)
 
 **Config tip** — set a custom profile for low-light home office in Camera Hub:
 
@@ -189,6 +189,7 @@ Simple test: take a screenshot from your current camera. If your face is darker 
 - [Remote Work Audio Interface Comparison](/remote-work-tools/remote-work-audio-interface-comparison/)
 - [Remote Work Microphone Comparison Guide 2026](/remote-work-tools/remote-work-microphone-comparison-2026/)
 - [Best Acoustic Foam Placement for Home Office Zoom Call Quality](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
 
 ---
 

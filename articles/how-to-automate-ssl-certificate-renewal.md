@@ -333,6 +333,7 @@ nginx -t && systemctl reload nginx
 - [How to Set Up Traefik Reverse Proxy](/remote-work-tools/how-to-set-up-traefik-reverse-proxy/)
 - [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
 - [How to Create Automated Status Pages](/remote-work-tools/how-to-create-automated-status-pages/)
+- [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
 
 ---
 

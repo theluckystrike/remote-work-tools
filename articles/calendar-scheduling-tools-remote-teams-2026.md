@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Best Calendar Scheduling Tools for Remote Teams 2026"
-description: "Compare the top calendar scheduling tools for remote teams in 2026. Covers Cal.com, Calendly, Reclaim, Motion, and SavvyCal with config examples and team use"
-date: 2026-03-21
-author: theluckystrike
-permalink: /calendar-scheduling-tools-remote-teams-2026/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
@@ -426,6 +412,7 @@ If you can't confidently take 2 weeks vacation without obsessively checking emai
 - [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
 - [How to Schedule Meetings Across 8-Hour Timezone Differences](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
 - [Maker Schedule for Remote Developers Guide 2026](/remote-work-tools/maker-schedule-for-remote-developers-guide-2026/)
+- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
 
 ## Related Articles
 

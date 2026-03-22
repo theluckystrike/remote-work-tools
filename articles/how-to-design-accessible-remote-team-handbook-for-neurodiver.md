@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Accessible Remote Handbook for Neurodiverse Teams"
-description: "Design an accessible remote team handbook for neurodiverse employees with clear navigation, multiple format options, consistent structure, and explicit communication guidelines"
+description: "Design an accessible remote team handbook for neurodiverse employees with clear navigation, multiple format options, consistent structure, and explicit"
 date: 2026-03-21
 author: theluckystrike
 permalink: /how-to-design-accessible-remote-team-handbook-for-neurodiver/
@@ -278,12 +278,6 @@ review_cycle:
 ```
 
 Update the handbook when policies change, tools evolve, or user feedback indicates confusion. Version control makes tracking changes straightforward and allows rolling back problematic updates.
-
-## Summary
-
-Accessible remote team handbooks for neurodiverse employees require thoughtful structural choices: consistent naming conventions, multiple format options, explicit context, and robust search functionality. Implement these patterns incrementally, test with actual users, and maintain regular review cycles to keep content useful.
-
-The investment in accessibility improves information retention for all team members, not just neurodiverse users. Clear structure, explicit language, and multiple entry points benefit everyone.
 
 ## Related Articles
 

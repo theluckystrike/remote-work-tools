@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Example: GitHub Actions workflow for assessment tracking"
-description: "A practical guide to building a remote hiring pipeline with async interviews. Step-by-step implementation for evaluating distributed candidates across"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 Building a hiring pipeline for distributed candidates requires a different approach than traditional in-person recruitment. When your team spans multiple time zones and your candidate pool is global, synchronous interviews become a logistics nightmare. An async interview pipeline solves this by removing the need for real-time scheduling while maintaining rigorous candidate evaluation.

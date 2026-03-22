@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison]
 ---
----
-layout: default
-title: "Coda vs Notion for Project Documentation"
-description: "Compare Coda and Notion for managing project documentation. Includes API access, developer features, database relationships, and practical"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /coda-vs-notion-for-project-documentation/
-categories: [comparisons]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, comparison]
----
 
 {% raw %}
 

@@ -391,6 +391,7 @@ consul kv import @kv-backup.json
 - [Setting Up pgBouncer for Connection Pooling](/remote-work-tools/setting-up-pgbouncer-for-connection-pooling/)
 - [How to Set Up Traefik Reverse Proxy](/remote-work-tools/how-to-set-up-traefik-reverse-proxy/)
 - [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
+- [Async Product Discovery Process for Remote Teams](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
 
 ---
 

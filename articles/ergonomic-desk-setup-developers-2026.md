@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Ergonomic Desk Setup Guide for Developers 2026"
-description: "Build an ergonomic home office desk setup for developers in 2026. Covers monitor height, keyboard position, chair settings, standing desk configuration, and"
-date: 2026-03-21
-author: theluckystrike
-permalink: /ergonomic-desk-setup-developers-2026/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 
@@ -260,6 +246,7 @@ At end of day:
 - [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
 - [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
 - [Multi-Monitor Linux Workstation Setup Guide](/remote-work-tools/multi-monitor-linux-workstation-setup-guide/)
+- [How to Mount Monitor on Wall Behind Standing Desk Setup](/remote-work-tools/how-to-mount-monitor-on-wall-behind-standing-desk-setup/)
 
 ## Related Articles
 

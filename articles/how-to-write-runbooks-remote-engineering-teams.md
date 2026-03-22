@@ -303,6 +303,7 @@ The index should live in the same location as the runbooks (Obsidian vault, Conf
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
 - [Obsidian for Remote Team Knowledge Management](/remote-work-tools/obsidian-remote-team-knowledge-management/)
 - [Async Decision Making with RFC Documents for Engineering Teams](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
 
 ## Related Articles
 

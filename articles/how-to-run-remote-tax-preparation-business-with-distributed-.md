@@ -47,7 +47,8 @@ When your team accesses sensitive tax data from home offices, you need to enforc
 You can automate VPN configuration deployment using configuration management tools. Here's an example using Ansible to ensure consistent OpenVPN client setup across seasonal staff machines:
 
 ```yaml
-# ansible-playbook for tax-prep-vpn-setup.yml---
+# ansible-playbook for tax-prep-vpn-setup.yml
+---
 - hosts: seasonal_workers
  become: yes
  vars:

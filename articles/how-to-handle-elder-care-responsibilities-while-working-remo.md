@@ -13,21 +13,6 @@ voice-checked: true
 categories: [guides]
 tags: [remote-work-tools, tools]
 ---
----
-layout: default
-title: "Elder Care and Remote Work: A Practical Guide"
-description: "A practical guide for developers and power users balancing remote work with elder care responsibilities. Includes automation scripts, scheduling"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /how-to-handle-elder-care-responsibilities-while-working-remotely/
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-categories: [guides]
-tags: [remote-work-tools, tools]
----
 
 Successfully balancing remote work with elder care requires three core strategies: establishing clear boundaries with both your employer and care recipients, automating care coordination through shared calendars and health tracking apps, and building in buffer time for unexpected medical appointments. This guide provides practical automation scripts, scheduling templates, and communication frameworks specifically designed for developers managing caregiving duties while maintaining remote work productivity.
 

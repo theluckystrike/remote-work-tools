@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, demos, presentations, distributed-teams, team-culture]
 ---
----
-layout: default
-title: "How to Run Effective Remote Team Demos and Showcases 2026"
-description: "Demo day best practices for distributed teams. Tools, recording, async viewing, feedback collection, and real-world examples."
-date: 2026-03-22
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-run-effective-remote-team-demos-and-showcases-2026/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, demos, presentations, distributed-teams, team-culture]
----
 
 {% raw %}
 

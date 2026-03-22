@@ -327,6 +327,7 @@ alias grep='grep --color=auto'
 - [Remote Team Terminal Emulator Comparison 2026](/remote-work-tools/remote-team-terminal-emulator-comparison/)
 - [Remote Team Git Hooks Standardization Guide](/remote-work-tools/remote-team-git-hooks-standardization-guide/)
 - [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
+- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 
 ---
 

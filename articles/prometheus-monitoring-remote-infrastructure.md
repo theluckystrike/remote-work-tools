@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Prometheus Monitoring Setup for Remote Infrastructure"
-description: "Set up Prometheus and Grafana to monitor remote servers, containers, and services. Covers exporters, alerting rules, and dashboard config for distributed infra."
-date: 2026-03-21
-author: theluckystrike
-permalink: /prometheus-monitoring-remote-infrastructure/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
@@ -435,6 +421,7 @@ Yes — and you should. Use a Prometheus client library (`prometheus-client` for
 - [How to Secure Your Remote Team CI/CD Pipeline from Supply Chain Attacks](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
 - [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
 - [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
+- [Prometheus Alerting for Remote Infrastructure](/remote-work-tools/prometheus-alerting-remote-infra-setup/)
 
 ## Related Articles
 

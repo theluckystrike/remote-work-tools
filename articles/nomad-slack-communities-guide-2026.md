@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-
-layout: default
-title: "Nomad Slack Communities Guide 2026"
-description: "A practical guide to finding and maximizing value from Slack communities for digital nomads and remote workers in 2026."
-date: 2026-03-20
-author: "Remote Work Tools Guide"
-permalink: /nomad-slack-communities-guide-2026/
-reviewed: true
-score: 9
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 

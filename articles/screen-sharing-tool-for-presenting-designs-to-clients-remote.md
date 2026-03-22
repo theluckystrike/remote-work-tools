@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Best Screen Sharing Tools for Presenting Designs to Clients"
-description: "A guide to screen sharing tools that help designers present work effectively to remote clients. Compare features, pricing, and use cases"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /screen-sharing-tool-for-presenting-designs-to-clients-remote/
-reviewed: true
-score: 9
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 Present designs to remote clients using screen sharing tools that support annotations (Figma, Loom, or Google Slides) so clients can mark up designs in real-time and feedback is captured directly. Video recording ensures async stakeholders can view later.
 

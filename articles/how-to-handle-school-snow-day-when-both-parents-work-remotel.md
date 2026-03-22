@@ -199,7 +199,7 @@ If your region experiences 5-10 snow days annually, planning for this reduction 
 
 Calculate your realistic capacity before the snow hits:
 
-| Time Block | Parent A Activity | Parent B Activity | Notes |
+| Time Block | Parent An Activity | Parent B Activity | Notes |
 |-----------|-------------------|-------------------|-------|
 | 6:00-9:00 AM | Deep work hours | Breakfast + kids routine | 3 hours focus |
 | 9:00-12:00 PM | Kid supervision | Meetings + documentation | 3 hours focus |

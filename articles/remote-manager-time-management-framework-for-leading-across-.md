@@ -13,6 +13,7 @@ score: 9
 intent-checked: true
 voice-checked: true
 ---
+<<<<<<< HEAD
 
 
 
@@ -405,6 +406,8 @@ voice-checked: true
 
 
 
+=======
+>>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
 
 
 {% raw %}
@@ -547,14 +550,6 @@ Traditional management metrics don't work well for distributed teams. Instead, f
 
 Quarterly surveys can help you understand how well your async communication is working and identify pain points before they become retention risks.
 ---
-
-
-
-
-
-
-
-
 
 
 Leading across five or more time zones requires fundamentally rethinking how work gets done. The framework above provides a starting point, but every team will need to adapt these principles to their specific composition and culture. Start with async-first communication, build documentation practices, and protect both your own and your team's time. The investment in building these systems pays dividends in team sustainability and effectiveness.

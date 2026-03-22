@@ -393,9 +393,9 @@ One major cause of Slack noise is thread-ignorance. New team members often don't
 ✅ Good (channel stays clean):
 ```
 @alice: We should use Rust for this service
-  ↳ @bob: I agree, here's why [in thread]
-    ↳ @charlie: Performance context [in thread]
-      ↳ @alice: Great, let's do it [in thread]
+ ↳ @bob: I agree, here's why [in thread]
+ ↳ @charlie: Performance context [in thread]
+ ↳ @alice: Great, let's do it [in thread]
 Decision summary posted to channel: "Decided: Rust for service X. See thread for context."
 ```
 
@@ -467,6 +467,7 @@ Slack alerts should never be your primary incident notification. Use a real aler
 - [Best Practice for Remote Team Slack Do Not Disturb Schedules](/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 - [Best Practice for Remote Team Slack Emoji Reactions Replacing Verbal Responses](/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
 - [How to Create Async Standup Templates in Slack with Workflow Builder](/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
 ---
 
 ## Related Articles

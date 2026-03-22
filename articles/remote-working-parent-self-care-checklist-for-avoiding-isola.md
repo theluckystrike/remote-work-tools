@@ -9,7 +9,7 @@ permalink: /remote-working-parent-self-care-checklist-for-avoiding-isolation-in-
 categories: [guides]
 tags: [remote-work-tools, remote-work, parent, self-care, isolation, mental-health, developer-tools]
 reviewed: true
-score: 7
+score: 9
 intent-checked: true
 voice-checked: true
 ---

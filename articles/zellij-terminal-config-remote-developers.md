@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Zellij Terminal Config for Remote Developers"
-description: "Configure Zellij as your terminal multiplexer for remote development: layouts, plugins, keybindings, session persistence, and SSH workflow setup guide."
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: theluckystrike
-permalink: /zellij-terminal-config-remote-developers/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 

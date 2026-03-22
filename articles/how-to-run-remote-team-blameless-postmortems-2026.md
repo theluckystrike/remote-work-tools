@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Remote Team Blameless Postmortems 2026"
-description: "Practical guide for facilitating blameless postmortems in distributed teams including async preparation, timeline reconstruction, and action item tracking"
+description: "Practical guide for helping blameless postmortems in distributed teams including async preparation, timeline reconstruction, and action item tracking"
 date: 2026-03-22
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
@@ -222,10 +222,6 @@ GitHub/Confluence format:
 **Impact:** 2.3% of users, ~15K affected
 **Duration:** 12 minutes (14:23-14:35 UTC)
 **Date:** 2026-03-22
-
-## Summary
-New deployment broke database connection pooling, causing API timeouts.
-Quick detection (2 min) and rollback (8 min) limited customer impact.
 
 ## Timeline
 [Full timeline from incident tool]

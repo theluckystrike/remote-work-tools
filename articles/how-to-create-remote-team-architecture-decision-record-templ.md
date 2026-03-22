@@ -38,7 +38,8 @@ A practical ADR template for remote teams includes these sections:
 
 Here is a YAML-based template you can use directly:
 
-```yaml---
+```yaml
+---
 adr:
  id: 0015
  date: "2026-03-10"

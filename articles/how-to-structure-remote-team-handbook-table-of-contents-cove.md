@@ -13,21 +13,6 @@ categories: [guides]
 intent-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Remote Team Handbook: Structure and Template"
-description: "Structure your remote handbook with these 10 core sections in order: Welcome & Mission → Communication Norms → Work Schedule & Time Tracking → Performance"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-structure-remote-team-handbook-table-of-contents-cove/
-reviewed: true
-score: 8
-voice-checked: true
-categories: [guides]
-intent-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 Structure your remote handbook with these 10 core sections in order: Welcome & Mission → Communication Norms → Work Schedule & Time Tracking → Performance Management → Compensation & Benefits → Expense Reimbursement → Time Off Policies → Onboarding & Offboarding → Tools & Access → Code of Conduct. Make each section findable within three clicks and keep content actionable (e.g., "What do I do when..." instead of vague guidance). Use this specific ordering because time-critical topics like communication norms and work schedules come first, policy details follow, and code of conduct anchors the handbook's values.

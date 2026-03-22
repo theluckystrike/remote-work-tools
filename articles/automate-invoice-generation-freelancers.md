@@ -331,6 +331,7 @@ The CLI approach works best for developers who want full control and already hav
 - [Best Invoicing Tools for Freelancers 2026](/remote-work-tools/best-invoicing-tools-for-freelancers-2026/)
 - [Best Accounting Software for Freelancers 2026](/remote-work-tools/best-accounting-software-for-freelancers-2026/)
 - [Freelancer Tax Deduction Tracking Tools 2026](/remote-work-tools/freelancer-tax-deduction-tracking-2026/)
+- [How to Automate Changelog Generation](/remote-work-tools/how-to-automate-changelog-generation/)
 
 ## Related Articles
 

@@ -130,7 +130,7 @@ The decision hinges on this core question: Does your team need a pre-built commu
 | **Access Control** | Simple (project-level) | Granular (page-level) |
 | **Free Tier** | Yes (1 project) | Yes (limited) |
 | **Pricing Per User** | $99/month flat (unlimited users) | $10-20/user/month |
-| **API Availability** | Limited | Robust (webhooks, rich API) |
+| **API Availability** | Limited | strong (webhooks, rich API) |
 | **Learning Curve** | 30 min | 2-4 hours |
 | **Best For Team Size** | 5-50 people | 2-200 people |
 

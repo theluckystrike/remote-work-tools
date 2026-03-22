@@ -147,7 +147,8 @@ Runbook Index (filtered database view)
 **Implementation: 1-2 weeks (with templates)**
 
 Confluence page template:
-```---
+```
+---
 Title: [System] [Incident Type]
 Space: Runbooks
 Owner: [Team Name]
@@ -365,12 +366,12 @@ LINKS
 ## Remediation
 ```
 Option A: [Most common cause]
-  1. Step 1
-  2. Step 2
+ 1. Step 1
+ 2. Step 2
 
 Option B: [Less common cause]
-  1. Step 1
-  2. Step 2
+ 1. Step 1
+ 2. Step 2
 ```
 
 ## Testing (Practice in staging)

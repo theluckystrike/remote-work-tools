@@ -382,7 +382,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
-- [How to Facilitate Remote Team Workshops Using Miro with Structured Communication](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [How to help Remote Team Workshops Using Miro with Structured Communication](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
 - [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
 - [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)

@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Remote Team Employer Branding Strategy for Attracting"
-description: "A practical guide to building employer branding that attracts distributed talent. Concrete strategies, code examples, and frameworks for remote-first"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /remote-team-employer-branding-strategy-for-attracting-distributed-talent-at-scale-guide-2026/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 Attracting top distributed talent requires more than posting jobs on LinkedIn. Your employer brand—the story you tell about working at your company—determines whether engineers even apply. Remote teams face a unique challenge: competing for talent against companies worldwide, without the advantage of physical presence.

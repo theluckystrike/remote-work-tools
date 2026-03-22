@@ -380,6 +380,7 @@ For small remote teams (under 20 engineers), Flagsmith self-hosted covers most u
 - [How to Create Automated Canary Deployments](/remote-work-tools/how-to-create-automated-canary-deployments/)
 - [Best Tools for Remote Team API Mocking](/remote-work-tools/best-tools-remote-team-api-mocking/)
 - [How to Set Up Woodpecker CI for Self-Hosted](/remote-work-tools/how-to-set-up-woodpecker-ci-for-self-hosted/)
+- [Remote Team Feature Delivery Predictability Metric](/remote-work-tools/remote-team-feature-delivery-predictability-metric-for-distr/)
 
 ---
 

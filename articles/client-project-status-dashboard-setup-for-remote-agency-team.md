@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Client Project Status Dashboard Setup for Remote Agency"
-description: "Learn how to build a client project status dashboard tailored for distributed agency teams with practical implementation examples"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /client-project-status-dashboard-setup-for-remote-agency-team/
-reviewed: true
-score: 9
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 

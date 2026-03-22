@@ -383,10 +383,10 @@ module.exports = {
 1. **(10 min)** List 5 docs your team references most frequently
 2. **(15 min)** Create test workspaces in 2-3 candidate tools (Notion, Confluence, Docusaurus)
 3. **(20 min)** Migrate one sample document to each tool. Compare:
-   - Ease of editing
-   - Appearance (how does the doc look?)
-   - Search (can you find content?)
-   - Sharing (is permission model intuitive?)
+ - Ease of editing
+ - Appearance (how does the doc look?)
+ - Search (can you find content?)
+ - Sharing (is permission model intuitive?)
 4. **(10 min)** Vote: Which tool felt most natural?
 5. **(5 min)** Decide: Is the winner worth migrating? If yes, start migration plan.
 

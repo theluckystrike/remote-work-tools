@@ -13,21 +13,6 @@ voice-checked: true
 categories: [comparisons]
 tags: [remote-work-tools, comparison, remote-work, collaboration]
 ---
----
-layout: default
-title: "Miro vs FigJam for Remote Team Collaboration"
-description: "Compare Miro and FigJam for remote team collaboration. Includes API integrations, whiteboard features, developer workflows, and practical"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /miro-vs-figjam-for-remote-team-collaboration/
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-categories: [comparisons]
-tags: [remote-work-tools, comparison, remote-work, collaboration]
----
 
 {% raw %}
 

@@ -352,6 +352,7 @@ vector top  # requires vector CLI
 - [How to Set Up Fluentd for Log Collection](/remote-work-tools/how-to-set-up-fluentd-for-log-collection/)
 - [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
 - [Best Tools for Remote Team Error Tracking](/remote-work-tools/best-tools-remote-team-error-tracking/)
+- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
 
 ---
 

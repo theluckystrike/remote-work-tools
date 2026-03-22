@@ -420,6 +420,7 @@ The goal is to know, not guess, how long recovery takes. Teams that have done th
 - [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
 - [How to Set Up MinIO for Team Object Storage](/remote-work-tools/how-to-set-up-minio-team-object-storage/)
 - [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
+- [Podcast Guesting Strategy for Freelance Developers](/remote-work-tools/podcast-guesting-strategy-for-freelance-developers/)
 
 ---
 

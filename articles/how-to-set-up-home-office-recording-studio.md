@@ -445,6 +445,7 @@ Make async videos accessible to your whole team:
 - [Best Screen Recording Async Communication](/best-screen-recording-async-communication/)
 - [Best Open Source Screen Recording Tool for Remote Team Async](/best-open-source-screen-recording-tool-for-remote-team-async.)
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
 ---
 
 ## Related Articles

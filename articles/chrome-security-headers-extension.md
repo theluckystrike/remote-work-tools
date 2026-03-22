@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, security]
 ---
----
-layout: default
-title: "Chrome Security Headers Extension"
-description: "Learn how to use Chrome extensions to inspect, test, and debug security headers directly in your browser. Practical examples and tool recommendations"
-date: 2026-03-15
-last_modified_at: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /chrome-security-headers-extension/
-reviewed: true
-score: 9
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, security]
----
 
 Use the SecurityHeaders.com extension or similar tools to inspect HTTP security headers directly in Chrome without custom scripts. Security headers protect applications from XSS, clickjacking, and data injection attacks, but many developers struggle to test and verify these headers during development. Browser extensions solve this by letting you inspect response headers and identify missing configurations without leaving Chrome. This guide covers the best Chrome extensions for testing security headers, common mistakes, and which headers should be your priority.
 
