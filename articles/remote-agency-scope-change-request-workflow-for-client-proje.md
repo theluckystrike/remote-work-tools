@@ -9,7 +9,7 @@ permalink: /remote-agency-scope-change-request-workflow-for-client-projects/
 categories: [troubleshooting]
 tags: [remote-work-tools, scope-change, client-communication, remote-agency, workflow, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

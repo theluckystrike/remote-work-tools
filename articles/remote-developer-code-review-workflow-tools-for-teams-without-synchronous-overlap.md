@@ -9,7 +9,7 @@ permalink: /remote-developer-code-review-workflow-tools-for-teams-without-synchr
 categories: [guides]
 tags: [remote-work-tools, code-review, remote-work, async, developer-tools, team-collaboration, distributed-teams, workflow]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
