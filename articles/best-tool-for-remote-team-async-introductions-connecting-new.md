@@ -17,6 +17,15 @@ voice-checked: true---
 
 Async introductions solve a fundamental challenge in remote work: how do you help new team members feel connected when your team spans multiple time zones and synchronous meetings are impractical? The right async introduction tool creates structured, engaging first impressions that replace the informal hallway conversations happening in physical offices. This guide evaluates the best approaches and tools for implementing async new hire introductions that actually work.
 
+## Key Takeaways
+
+- **Teams that invest in**: early connection see 10-15% better 6-month retention.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Better systems provide specific**: questions that surface work style, communication preferences, and personal interests.
+- **HelpScout**: $20/month per user.
+- **Notion**: $10/month per workspace.
+- **If your tool needs signup**: downloads, or accounts, participation drops 30-50%.
+
 ## Why Async Introductions Matter for Remote Teams
 
 When a new developer joins your distributed team, they face an information gap that their office-based counterparts never experienced. In traditional workplaces, new employees absorb organizational culture through casual interactions—lunch conversations, hallway exchanges, spontaneous questions. Remote teams must intentionally recreate these bonding opportunities.

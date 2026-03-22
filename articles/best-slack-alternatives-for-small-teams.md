@@ -18,6 +18,15 @@ tags: [remote-work-tools, best-of]---
 
 The best Slack alternatives for small teams are Zulip for async-heavy workflows (free unlimited users with topic-based threading), Discord for teams that want free unlimited message history plus excellent voice channels, and Mattermost for self-hosted control over data residency. Each delivers strong functionality without Slack's per-user pricing pressure, and this guide breaks down what works best for teams of 5-50 developers.
 
+## Key Takeaways
+
+- **Mattermost Cloud starts at $10 per user per month**: more expensive than Slack Pro, but with unlimited message history and a managed deployment.
+- **Best for**: Teams on tight budgets, teams that also maintain open-source communities, and teams that use voice channels frequently for pair programming or daily standups.
+- **Best for**: Teams that also run customer-facing chat support, teams wanting omnichannel communication, and small startups wanting a free cloud option without a message limit.
+- **The Cloud Free tier has a 10,000 message limit, but self-hosting is completely free with unlimited history**: making Zulip the most affordable option for teams willing to manage their own deployment.
+- **The free tier limits**: message history to 90 days and restricts integrations to 10 apps, which is enough to evaluate the platform but not enough to actually work in it long-term.
+- **Pricing**: The free self-hosted edition covers most small-team needs.
+
 ## Why Small Teams Feel the Slack Pricing Pinch
 
 Slack's pricing lands at $7.25 per user per month on the Pro plan. For a team of 15 developers, that is $108 per month or roughly $1,300 per year — just to chat. The free tier limits message history to 90 days and restricts integrations to 10 apps, which is enough to evaluate the platform but not enough to actually work in it long-term.

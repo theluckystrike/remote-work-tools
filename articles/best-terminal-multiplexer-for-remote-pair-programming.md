@@ -31,6 +31,15 @@ tags: [remote-work-tools, best-of, remote-work]---
 
 Use tmux for remote pair programming if your team is comfortable with a config-first tool and wants stability. Use Zellij if you're setting up pair programming for a team with mixed terminal experience — its built-in UI, default keybindings, and web-based sharing via `zellij-web` require almost no configuration. Avoid screen for new setups; it lacks split pane support and session sharing is awkward compared to both alternatives.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **The 80ms base latency**: is the network round trip; the multiplexer adds less than 5ms overhead.
+- **Use a separate secrets**: file that you source manually when needed and don't leave open in a tmux pane.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## How Remote Pair Programming Over SSH Actually Works
 
 The core mechanic: both developers SSH into the same server, attach to the same multiplexer session. Both see identical output and can type simultaneously. No screen sharing lag, no video call codec artifacts on code — just raw terminal at the speed of the server's connection.
