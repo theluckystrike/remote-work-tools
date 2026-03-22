@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Law Firm Client Portal Comparison (2026)"
+title: "Clio API authentication"
 description: "Distributed law firms need client communication portals with end-to-end encryption, two-factor authentication, and audit logging for HIPAA and attorney-client"
 date: 2026-03-15
 last_modified_at: 2026-03-15
@@ -339,11 +339,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Collaboration Suite for a 10 Person Remote Law Firm](/remote-work-tools/best-collaboration-suite-for-a-10-person-remote-law-firm/)
-- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
-- [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)
 - [Share with client](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
-- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
-
+- [Remote Legal Research Tool Comparison for Distributed Law](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
+- [Remote Legal Billing Software Comparison for Distributed](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
+- [Query recent detections via Falcon API](/remote-work-tools/endpoint-detection-and-response-tools-comparison-for-remote-/)
+- [Productboard vs Aha for Remote Product Management](/remote-work-tools/productboard-vs-aha-for-remote-product-management/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

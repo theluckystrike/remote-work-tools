@@ -11,7 +11,8 @@ tags: [remote-work-tools, async-communication, remote-work, project-briefs, team
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

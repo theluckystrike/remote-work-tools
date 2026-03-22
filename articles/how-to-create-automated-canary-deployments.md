@@ -342,6 +342,14 @@ echo "Canary passed monitoring period. Proceeding with full rollout."
 
 ---
 
+## Related Articles
+
+- [How to Set Up Canary Tokens for Detecting Unauthorized](/remote-work-tools/how-to-set-up-canary-tokens-for-detecting-unauthorized-acces/)
+- [How to Create Automated Status Pages](/remote-work-tools/how-to-create-automated-status-pages/)
+- [How to Create Remote Team Style Guides](/remote-work-tools/how-to-create-remote-team-style-guides/)
+- [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
+- [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

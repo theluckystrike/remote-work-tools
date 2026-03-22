@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, team-culture, morale, slack, discord, asy
 reviewed: true
 score: 7
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}

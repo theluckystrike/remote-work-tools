@@ -11,7 +11,8 @@ tags: [remote-work-tools, 2fa, security, remote-work, authentication, digital-no
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

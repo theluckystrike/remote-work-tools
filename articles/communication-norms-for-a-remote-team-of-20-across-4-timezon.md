@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, communication, async, timezones, team-man
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8---
+score: 8
+---
 
 {% raw %}
 

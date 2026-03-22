@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, daily-standup, async-communication, team-
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 ## Frequently Asked Questions

@@ -328,10 +328,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [tmux Config Guide for Remote Developers](/remote-work-tools/tmux-config-guide-remote-developers/)
-- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 - [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
-- [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
-- [Wezterm vs Alacritty Terminal Comparison: A Practical Guide](/remote-work-tools/wezterm-vs-alacritty-terminal-comparison/)
-
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [How to Optimize macOS for Remote Development](/remote-work-tools/how-to-optimize-macos-for-remote-development/)
+- [Remote Ideation Session Facilitation Guide](/remote-work-tools/remote-ideation-session-facilitation-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

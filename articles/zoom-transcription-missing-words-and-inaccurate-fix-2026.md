@@ -398,9 +398,11 @@ A clean reinstall sometimes resolves persistent issues caused by corrupted cache
 
 ## Related Articles
 
-- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
-- [Zoom Companion Mode Not Connecting to Room System Fix (2026)](/zoom-companion-mode-not-connecting-to-room-system-fix-2026/)
-- [Zoom Meeting Password Not Accepted by Participants Fix 2026](/zoom-meeting-password-not-accepted-by-participants-fix-2026/)
+- [Zoom Meeting Password Not Accepted by Participants Fix 2026](/remote-work-tools/zoom-meeting-password-not-accepted-by-participants-fix-2026/)
+- [Zoom CLI example for updating PMI settings](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
+- [Switching from Zoom to Around for Lightweight Remote Team](/remote-work-tools/switching-from-zoom-to-around-for-lightweight-remote-team-vi/)
+- [Zoom Phone Call Quality Choppy on Home WiFi Fix (2026)](/remote-work-tools/zoom-phone-call-quality-choppy-on-home-wifi-fix-2026/)
+- [Zoom Companion Mode Not Connecting to Room System Fix (2026)](/remote-work-tools/zoom-companion-mode-not-connecting-to-room-system-fix-2026/)
 The effort you invest in transcription quality pays dividends across multiple areas: async communication becomes feasible when transcripts are reliable, onboarding accelerates when new team members can reference recorded meetings, and institutional knowledge persists when meetings are searchable and accurate.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

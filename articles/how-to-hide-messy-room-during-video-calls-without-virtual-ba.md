@@ -328,9 +328,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [How to Hide Messy Room During Video Calls Without Virtual](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-background/)
 - [Best Virtual Background for Professional Video Calls 2026](/remote-work-tools/best-virtual-background-for-professional-video-calls-2026/)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
-- [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
-
+- [How to Reduce Fan Noise from Desktop PC During Video Calls](/remote-work-tools/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
+- [How to Stop Dog Barking During Video Calls: A Complete](/remote-work-tools/how-to-stop-dog-barking-during-video-calls-work-from-home/)
+- [How to Prevent Laptop Overheating During Long Video Call](/remote-work-tools/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

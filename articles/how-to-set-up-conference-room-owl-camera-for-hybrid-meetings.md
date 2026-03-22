@@ -11,7 +11,8 @@ tags: [remote-work-tools, hybrid-meetings, conference-room, owl-labs, video-conf
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

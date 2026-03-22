@@ -330,10 +330,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [Best Quick Exercise Routine for Remote Parents With Only 15](/remote-work-tools/best-quick-exercise-routine-for-remote-parents-with-only-15-/)
 - [How to Create a Morning Routine for Remote Work](/remote-work-tools/how-to-create-morning-routine-for-remote-work/)
-- [Best Journaling Apps for Remote Worker Reflection](/remote-work-tools/best-journaling-apps-for-remote-worker-reflection/)
-- [Best Tool for Tracking Remote Worker Tax Obligations Across](/remote-work-tools/best-tool-for-tracking-remote-worker-tax-obligations-across-/)
-
+- [How to Calculate Productive Overlap Hours for Remote](/remote-work-tools/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
+- [How to Manage Timezone Overlap When Working Remotely](/remote-work-tools/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
+- [Remote Team Interview Scheduling Tool for Coordinating](/remote-work-tools/remote-team-interview-scheduling-tool-for-coordinating-acros/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

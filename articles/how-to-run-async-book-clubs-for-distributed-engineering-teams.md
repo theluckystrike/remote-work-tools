@@ -262,7 +262,8 @@ tags: [remote-work-tools, async, book-club, remote-work, distributed-teams, engi
 intent-checked: true
 voice-checked: true
 reviewed: true
-score: 8---
+score: 8
+---
 
 
 
@@ -836,9 +837,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 - [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
-- [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
+- [Remote Team Book Club Format and Facilitation Guide](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
 - [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

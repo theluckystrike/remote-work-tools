@@ -478,10 +478,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
-- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
-- [How to Build a Productive Home Office for Under $500](/remote-work-tools/how-to-build-a-productive-home-office-for-under-500/)
-- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
-- [Best Remote Pair Design Tool for UX Researchers](/remote-work-tools/best-remote-pair-design-tool-for-ux-researchers-collaboratin/)
-
+- [Remote Employee Time Zone Overlap Optimization: Scheduling](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/)
+- [How to Manage Timezone Overlap When Working Remotely](/remote-work-tools/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
+- [Remote Employee Time Zone Overlap Optimization Tool](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-sche/)
+- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

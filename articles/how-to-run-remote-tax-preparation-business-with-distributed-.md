@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, tax-preparation, seasonal-staff, distribu
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

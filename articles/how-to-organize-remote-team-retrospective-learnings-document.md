@@ -11,7 +11,8 @@ score: 8
 categories: [guides]
 tags: [remote-work-tools, remote-work]
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 # How to Organize Remote Team Retrospective Learnings Documentation

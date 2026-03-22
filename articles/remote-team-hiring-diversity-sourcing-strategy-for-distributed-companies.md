@@ -25,35 +25,8 @@ tags: [remote-work-tools, remote-hiring, diversity, diversity-sourcing, inclusiv
 score: 9
 voice-checked: true
 reviewed: true
-intent-checked: true---
+intent-checked: true
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-layout: default
-title: "Diversity Sourcing Strategy for Remote Teams"
-description: "Building diverse remote teams requires more than good intentions—it demands systematic approaches to sourcing, evaluating, and welcoming talent across"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/
-categories: [guides]
-tags: [remote-work-tools, remote-hiring, diversity, diversity-sourcing, inclusive-hiring, distributed-teams, talent-acquisition, remote-work]
-score: 9
-voice-checked: true
-reviewed: true
-intent-checked: true---
 
 
 {% raw %}
