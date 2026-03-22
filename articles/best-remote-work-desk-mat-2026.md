@@ -19,6 +19,17 @@ A desk mat transforms your workspace: it protects your desk surface, defines you
 
 This guide compares desk mats across material, size, price, and durability. Real options, tested against actual workflows.
 
+## Key Takeaways
+
+- **Value Pick**: SteelSeries QcK Prism (48" × 24"), $119
+- Excellent mouse tracking.
+- **Budget Pick**: Logicool Pro (36" × 16"), $49
+- Acceptable durability (2–3 years).
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Annually (Leather Only): -**: Clean with leather conditioner (Lexol or equivalent, $15).
+- **If removal is needed**: professional cleaning ($30–50).
+- **Mouse tracking**: Microfiber and polyester cloth surfaces track better than slick leather for optical mice.
+
 ## The Essentials: What Makes a Quality Desk Mat
 
 **Material durability:** Leather and felt resist wear; vinyl cracks over time. Genuine leather lasts 5+ years.

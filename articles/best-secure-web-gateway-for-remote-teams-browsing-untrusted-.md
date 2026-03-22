@@ -31,6 +31,16 @@ voice-checked: true---
 
 Deploy a cloud-based secure web gateway like Zscaler, Cloudflare Gateway, or Cisco Umbrella to filter malicious traffic, inspect HTTPS connections, and enforce DLP policies regardless of employee network location. These solutions require no hardware at endpoints and protect teams browsing from untrusted coffee shop and hotel networks while maintaining transparent user experience.
 
+## Key Takeaways
+
+- **Most SMBs land at**: $5,000-6,000 annually for mid-tier solutions like Cloudflare or Zscaler.
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Pilot with developers**: They often need the most access and will quickly identify blocking issues
+4.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **For remote teams**: it becomes especially critical because you cannot control the networks they connect from.
+
 ## What a Secure Web Gateway Actually Does
 
 A secure web gateway filters HTTP/HTTPS traffic, blocks access to malicious domains, prevents data exfiltration, and enforces acceptable use policies. For remote teams, it becomes especially critical because you cannot control the networks they connect from.
