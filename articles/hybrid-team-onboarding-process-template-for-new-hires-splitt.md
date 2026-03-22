@@ -1,4 +1,5 @@
 ---
+
 layout: default
 <<<<<<< HEAD
 title: "Hybrid Team Onboarding Process Template for New Hires"
@@ -18,6 +19,7 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+
 
 <<<<<<< HEAD
 Hybrid onboarding fails when the experience is inconsistent between in-office and remote days. New hires who happen to join on an office day get hallway introductions, context from overheard conversations, and spontaneous help from nearby colleagues. New hires who join on a remote day get a Zoom link and a Notion doc. The template below produces a structured, repeatable onboarding experience that works the same whether the new hire is at their desk at home or sitting in the office.
