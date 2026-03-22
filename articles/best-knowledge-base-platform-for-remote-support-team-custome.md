@@ -9,6 +9,7 @@ permalink: /best-knowledge-base-platform-for-remote-support-team-customer-facing
 reviewed: true
 score: 8
 categories: [best-of]
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 
