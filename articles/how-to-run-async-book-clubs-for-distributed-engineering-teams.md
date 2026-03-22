@@ -2,6 +2,9 @@
 
 
 
+
+
+
 layout: default
 title: "How to Run Async Book Clubs for Distributed Engineering"
 description: "Running a book club in a distributed engineering team presents unique challenges. Without the luxury of spontaneous hallway conversations or easy after-work"
@@ -259,6 +262,9 @@ score: 8
 
 =======
 >>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
+
+
+
 
 
 
