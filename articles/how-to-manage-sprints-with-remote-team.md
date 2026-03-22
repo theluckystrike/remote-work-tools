@@ -13,6 +13,33 @@ score: 8
 intent-checked: true
 voice-checked: true---
 {% raw %}
+Managing sprints with a remote team requires rethinking every ceremony and assumption built around co-location. Stand-ups that take 10 minutes in person can consume an hour of async back-and-forth without the right structure. This guide covers practical techniques for sprint management across distributed teams—from async standups and capacity planning to blocker escalation and retrospectives that actually surface actionable improvements.
+
+## Choosing Your Sprint Management Toolchain
+
+Before diving into ceremony design, get your toolchain right. The wrong combination of tools creates more coordination overhead than it solves.
+
+### GitHub-Centric Teams
+
+If your engineering team already lives in GitHub, extend that rather than add another SaaS layer. Use GitHub Issues for sprint backlog, GitHub Projects (Beta) for Kanban boards, and GitHub Actions for automation. This keeps everything in one place and eliminates context switching.
+
+### Jira + Confluence Teams
+
+Jira remains the default for larger organizations. Use Confluence pages for sprint planning documents and link them directly to Jira epics. Enable the Jira-Confluence integration so sprint velocity charts embed in planning pages automatically.
+
+### Lightweight Alternatives
+
+Linear has gained traction with smaller remote teams for its speed and clean UX. Notion works for teams that want their sprint board embedded in their documentation workspace. Shortcut (formerly Clubhouse) sits between Linear and Jira in complexity and offers strong API access for custom automation.
+
+The key principle: pick one system of record for sprint state. Syncing between multiple tools creates drift that destroys trust in the data.
+
+## Async Standups That Replace Synchronous Meetings
+
+The daily standup exists to surface blockers early and align the team. For remote teams, synchronous standups penalize engineers in distant time zones. Replace them with structured async updates using GitHub Issues.
+
+Create a standup template in your repository:
+
+```markdown
 ## Yesterday
 - What did you complete?
 
