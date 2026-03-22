@@ -242,20 +242,89 @@ Avoid these mistakes:
 - Written once, never revisited: Treat values as living documents
 - No accountability: Reference values in feedback and decisions
 
-## Troubleshooting
+## Making Values Stick Across Timezones
 
-**Configuration changes not taking effect**
+The hardest part of a remote team values document is not writing it — it is keeping it alive once the initial energy fades. Distributed teams face a specific challenge: there is no hallway conversation to reinforce culture, no body language to signal when a value is being violated, and no shared lunch table where norms get informally re-negotiated.
 
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+### Embed Values Into Async Workflows
 
-**Permission denied errors**
+Build values reference points into the tools your team uses every day:
 
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+**Pull request templates:**
 
-**Connection or network-related failures**
+```markdown
+<!-- .github/pull_request_template.md -->
+## What does this change do?
 
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+## Which team value does this reflect?
+<!-- e.g., "Take initiative — I noticed X was broken and fixed it" -->
+<!-- or "Share knowledge — I added comments and updated the runbook" -->
 
+## Checklist
+- [ ] Tested locally
+- [ ] Updated documentation if behavior changed
+- [ ] Added observability (logging, metrics) for significant changes
+```
+
+**Retrospective agenda template:**
+
+```markdown
+# Sprint Retrospective — {{date}}
+
+## Shoutouts (5 min)
+Who demonstrated a team value this sprint? Be specific.
+
+## What worked well?
+(Reference values where relevant)
+
+## What didn't work?
+(Are any values being systematically violated?)
+
+## Action items
+| Action | Owner | Due |
+|--------|-------|-----|
+|        |       |     |
+```
+
+Retrospectives that explicitly reference values over time build a feedback loop: team members start connecting their behavior to documented principles without prompting.
+
+### Values as an Onboarding Tool
+
+New team members in remote environments often struggle with unwritten rules — the informal norms that never made it into documentation. A living values document closes that gap, but only if onboarding treats it as a conversation rather than assigned reading.
+
+Structure the onboarding experience around the document:
+
+1. New team member reads the values doc on day one
+2. On day three, their onboarding buddy asks: "Which two values resonate most with you? Which one surprised you?"
+3. The answers go into a lightweight onboarding notes doc the team reviews quarterly
+4. Patterns in those answers reveal which values need clearer explanation and which are already well-communicated
+
+This creates a feedback mechanism that improves the document over time without requiring a formal review cycle.
+
+### Handling Values Conflicts
+
+Remote teams inevitably face situations where two stated values pull in opposite directions. "Move fast" and "assume good intent" can conflict when a quick unreviewed change breaks someone else's work. Document how the team resolves these tensions explicitly:
+
+```markdown
+## When Values Conflict
+
+### Speed vs. Thoroughness
+Default to involving the affected party. A 10-minute async message
+prevents a 2-hour rollback. Speed wins on reversible decisions;
+thoroughness wins when changes are hard to undo.
+
+### Async First vs. Bad News Travels Fast
+Time-sensitive blockers override async defaults. If something will
+block another team member within 24 hours, use the urgent channel
+or send a direct message — don't wait for async to be noticed.
+
+### Ownership vs. Collaboration
+If you see something broken and can fix it in under 30 minutes, fix
+it. For anything larger, create an issue first and check with the
+relevant owner before making changes.
+```
+
+Documenting these resolution rules prevents the values document from becoming an intellectual exercise and turns it into a practical decision-making tool.
 
 ## Frequently Asked Questions
 
@@ -289,3 +358,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}
