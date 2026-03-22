@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Async Standup Alternative Using GitHub Commit Summaries Automatically
 
 Daily standups were designed for co-located teams to quickly synchronize their work. For remote teams spread across time zones, these synchronous meetings often mean someone is joining at 7 AM or 8 PM, and the rapid-fire updates rarely provide actionable information. What if you could replace these meetings with an automated system that generates meaningful progress summaries directly from your team's actual work?
 

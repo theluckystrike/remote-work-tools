@@ -3,7 +3,7 @@ layout: default
 title: "Best Practice for Hybrid Team All Hands Meeting with Mixed"
 description: "Master hybrid all-hands meetings with mixed in-person and remote attendees. Practical patterns, technical setup, help techniques for developers"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Practice for Hybrid Team All Hands Meeting with Mixed In-Person Remote
 
 Running a successful all-hands meeting when you have a mix of in-person and remote attendees requires careful planning and the right technical setup. This guide provides practical patterns for hybrid all-hands meetings, focusing on tools and techniques that work for developer teams and power users.
 
