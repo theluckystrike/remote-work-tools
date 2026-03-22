@@ -9,7 +9,7 @@ permalink: /how-to-create-decision-log-documentation-for-remote-teams-re/
 categories: [guides]
 tags: [remote-work-tools, decision-log, documentation, remote-work, knowledge-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
