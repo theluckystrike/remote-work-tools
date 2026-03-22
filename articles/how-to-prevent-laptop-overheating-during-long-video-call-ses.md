@@ -27,6 +27,16 @@ score: 8
 intent-checked: true
 voice-checked: true---
 
+
+| Tool | Video Quality | Screen Sharing | Recording | Pricing |
+|---|---|---|---|---|
+| Zoom | Up to 4K | Desktop + app sharing | Cloud + local | $13.33/user/month |
+| Google Meet | Up to 1080p | Screen + tab sharing | Google Drive | Included with Workspace ($6+) |
+| Microsoft Teams | Up to 1080p | Desktop + PowerPoint Live | OneDrive/SharePoint | Included with M365 ($6+) |
+| Around | Floating window, auto-crop | Screen sharing | No recording | Free / $8.50/user/month |
+| Tuple | HD pair programming | Full screen control | Session recording | $30/user/month |
+
+
 {% raw %}
 
 To prevent laptop overheating during long video calls, use native apps instead of browser-based calls, lower video resolution to 720p, disable virtual backgrounds and background blur, reduce screen brightness by 20%, and place your laptop on a stand or hard surface with open airflow underneath. Before calls, close unnecessary browser tabs and background applications to reduce CPU load. These changes address both sides of the thermal problem -- reducing heat generation from resource-heavy video processing and improving heat dissipation from your machine.

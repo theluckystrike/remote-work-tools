@@ -242,6 +242,16 @@ intent-checked: true
 voice-checked: true---
 
 
+| Tool | Team Features | SSO Support | CLI Access | Price |
+|---|---|---|---|---|
+| 1Password Business | Shared vaults, admin controls | SAML SSO, SCIM | Full CLI | $7.99/user/month |
+| Bitwarden Teams | Shared collections, 2FA | SSO (Enterprise) | Full CLI | $4/user/month |
+| Dashlane Business | Smart spaces, VPN included | SAML SSO | Limited CLI | $8/user/month |
+| Keeper Business | Role-based access, reporting | SAML SSO, SCIM | CLI available | $3.75/user/month |
+| LastPass Teams | Shared folders, MFA | SSO (Business+) | No CLI | $4/user/month |
+
+
+
 
 
 {% raw %}

@@ -9,7 +9,7 @@ permalink: /response-time-expectations-for-remote-workers-guide/
 categories: [guides]
 tags: [remote-work-tools, remote-work, communication, productivity, async-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true---
 ---
