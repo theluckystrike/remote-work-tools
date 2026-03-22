@@ -25,6 +25,16 @@ score: 8
 intent-checked: true
 voice-checked: true---
 
+
+| Desk | Height Range | Motor Type | Max Load | Price Range |
+|---|---|---|---|---|
+| Uplift V2 Commercial | 22.6-48.7 in | Dual motor | 355 lbs | $599-$1,199 |
+| FlexiSpot E7 | 22.8-48.4 in | Dual motor | 355 lbs | $479-$699 |
+| IKEA BEKANT | 22-48 in | Single motor | 154 lbs | $349-$549 |
+| Fully Jarvis | 25.5-50.5 in | Single motor | 350 lbs | $559-$959 |
+| Autonomous SmartDesk | 26.2-52 in | Dual motor | 300 lbs | $449-$699 |
+
+
 {% raw %}
 
 For developers and power users working in tight spaces, finding the right standing desk requires balancing desk height adjustability, footprint, weight capacity, and compatibility with existing monitors and peripherals. This guide breaks down the key considerations for compact standing desks in small apartments and home offices, with practical setup examples and configuration tips.

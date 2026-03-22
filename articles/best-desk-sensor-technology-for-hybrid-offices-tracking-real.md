@@ -25,6 +25,16 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]---
 
+
+| Desk | Height Range | Motor Type | Max Load | Price Range |
+|---|---|---|---|---|
+| Uplift V2 Commercial | 22.6-48.7 in | Dual motor | 355 lbs | $599-$1,199 |
+| FlexiSpot E7 | 22.8-48.4 in | Dual motor | 355 lbs | $479-$699 |
+| IKEA BEKANT | 22-48 in | Single motor | 154 lbs | $349-$549 |
+| Fully Jarvis | 25.5-50.5 in | Single motor | 350 lbs | $559-$959 |
+| Autonomous SmartDesk | 26.2-52 in | Dual motor | 300 lbs | $449-$699 |
+
+
 {% raw %}
 
 Desk sensor technology enables hybrid offices to track real-time occupancy and optimize space use by detecting whether desks are in use. ESP32-based microcontrollers combined with PIR motion sensors and pressure sensors provide reliable occupancy data through MQTT pipelines into InfluxDB. This architecture enables REST APIs for desk booking systems and heat maps showing which areas are actually used, supporting hot-desking policies and smart real estate decisions.

@@ -25,6 +25,16 @@ voice-checked: true
 intent-checked: true
 tags: [remote-work-tools, best-of]---
 
+
+| Headset | Type | Noise Cancellation | Mic Quality | Battery Life | Price |
+|---|---|---|---|---|---|
+| Sony WH-1000XM5 | Over-ear wireless | Best-in-class ANC | Good (AI noise filter) | 30 hours | $350 |
+| Jabra Evolve2 85 | Over-ear wireless | Strong ANC, busylight | Excellent (boom mic) | 37 hours | $380 |
+| Apple AirPods Max | Over-ear wireless | Excellent ANC | Good (beamforming) | 20 hours | $549 |
+| Poly Voyager Focus 2 | Over-ear wireless | Adaptive ANC | Excellent (boom mic) | 19 hours | $250 |
+| Jabra Evolve2 75 | On-ear wireless | Good ANC, busylight | Very good (boom mic) | 36 hours | $280 |
+
+
 {% raw %}
 
 For 10-person hybrid conference rooms, a ceiling-mounted cardioid microphone with acoustic array technology combined with 360-degree speakers provides optimal coverage without expensive installation or excessive equipment. Systems like Shure MX2620 or Biamp Parle Ceiling represent the practical sweet spot—picking up voices from all directions while rejecting echo and background noise that disrupts remote participants. A single tabletop mic cannot cover 10 people adequately, while full ceiling array systems waste budget, making array ceiling mics with excellent echo cancellation the proven choice for hybrid call quality at this participant scale.
