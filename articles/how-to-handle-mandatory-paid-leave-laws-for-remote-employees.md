@@ -21,6 +21,30 @@ When you manage a remote team spread across multiple US states, you quickly disc
 
 This guide shows you how to build compliance into your remote work infrastructure without losing your mind or your payroll budget.
 
+## Understanding the Cost of Non-Compliance
+
+Before diving into solutions, understand what's at stake. Violations of state paid leave laws carry serious penalties:
+
+**California** (one of strictest states):
+- If an employee wins a lawsuit for unpaid accrued leave, they get:
+  - Full accrued leave value
+  - Penalties: Up to 30 days' additional wages
+  - Potential Labor Commissioner administrative penalties
+  - Attorney's fees and court costs
+
+**New York**:
+- Minimum penalties of $500 per employee per year for violations
+- Private right of action (employees can sue)
+- Attorney general can pursue civil penalties
+- State labor board can order triple damages
+
+**Washington**:
+- Up to $2,000 per violation
+- Cumulative penalties across multiple violations stack quickly
+- Labor & Industries division investigates complaints
+
+For a company with 50 employees across multiple states, a mistake that affects 20 employees could result in six-figure liability. More importantly, leave law violations often surface during state audits triggered by other issues—and regulators scrutinize everything once they start looking.
+
 ## The Fundamental Problem: State-by-State Variation
 
 Each US state with paid leave mandates operates under its own rules. The variations affect several key dimensions:
@@ -36,6 +60,29 @@ Each US state with paid leave mandates operates under its own rules. The variati
 - Notice requirements: Advance notice periods vary. Some states require same-day notification; others demand advance notice for foreseeable absences.
 
 Before hiring in any new state, verify the current requirements directly through the state's labor department website. Laws change frequently, and municipal ordinances often add another layer on top of state requirements.
+
+## Quick Reference: Current Leave Laws (2026)
+
+This snapshot shows major state mandates as of 2026. Laws change frequently, so verify before implementation:
+
+**California**: 3 days/year minimum (1 day per 30 hours worked), 5 days for most employers 16+
+**New York**: 1 week paid leave (7 days) mandatory, no carryover allowed
+**Washington**: 1 week (40 hours) minimum, accrual at 0.01923 hours per hour worked
+**Colorado**: 1 week (40 hours) minimum, accrual from day one
+**Illinois**: 1 week (40 hours) mandatory for private employers
+**Connecticut**: 5 days per year
+**Delaware**: 1 week per year
+**Oregon**: 1 week after 90 days
+**Texas**: No state mandate (though some local ordinances exist)
+**Florida**: No state mandate (though some ordinances)
+
+Cities add additional requirements:
+- **San Francisco**: 5 paid days minimum (in addition to state)
+- **New York City**: 5 paid days minimum (in addition to state)
+- **Philadelphia**: 4 paid days minimum
+- **Seattle**: Paid leave required for all employers with 5+ workers
+
+This is not exhaustive. Before hiring in any state, check the official labor department website.
 
 ## Building a Compliance Tracker
 
@@ -187,9 +234,38 @@ Finally, do not treat independent contractors the same as employees for leave pu
 
 Employment law compliance grows complex as your team spans more locations. Consider consulting with an employment attorney in each state where you have employees when establishing your initial presence. For ongoing management, many companies use professional employer organizations (PEOs) or employer of record (EOR) services that assume compliance responsibility.
 
-For technical implementation, payroll platforms like Gusto, ADP, or Rippling offer multi-state compliance features. Verify their coverage for the specific states in your workforce and understand what configuration you must maintain.
+For technical implementation, payroll platforms like Gusto, ADP, or Rippling offer multi-state compliance features. Verify their coverage for the specific states in your workforce and understand what configuration you must maintain. Ask these specific questions:
+
+- Does your platform auto-calculate accrual based on state rules?
+- When laws change, how quickly does the platform update?
+- Can you track split work locations (employee working 60% in CA, 40% in TX)?
+- What audit reports can you generate?
+- Do they provide compliance consulting if you have questions?
+
+### Maintaining Compliance Over Time
 
 Building proper leave tracking from the start saves significant headaches later. The time invested in a compliant system pays off when you expand to your tenth state and need to demonstrate proper accrual calculations during an audit.
+
+Set calendar reminders quarterly to review state leave law changes. Many states update their requirements January 1st, but changes happen throughout the year. Subscribe to updates from:
+- Your state's labor department website
+- Legal compliance services like Fisher & Phillips or Jackson Lewis
+- Your payroll provider's compliance alerts
+
+When you hire an employee in a new state, before their first day:
+1. Verify current leave requirements with that state's labor department
+2. Update your payroll system configuration
+3. Notify the employee in writing of their leave benefits
+4. Document their work location in your records
+
+### Handling Disputes
+
+If an employee claims they weren't given proper leave time, having detailed accrual records defends you. Maintain:
+- When leave was earned (by-the-hour tracking)
+- When it was used (with approvals and documentation)
+- Any rollover carryovers
+- How excess time beyond carryover limits was handled
+
+This documentation is your defense if a state labor board investigates a complaint.
 
 ---
 

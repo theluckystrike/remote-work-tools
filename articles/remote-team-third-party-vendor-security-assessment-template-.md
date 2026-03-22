@@ -52,7 +52,39 @@ Example SSO Integration Checklist:
 
 ### 2. Data Protection and Encryption
 
-Assess how the vendor protects data at rest and in transit:
+Assess how the vendor protects data at rest and in transit. This is where many smaller vendors fail:
+
+- Is data encrypted using TLS 1.2 or higher in transit?
+- What encryption standard is used for data at rest?
+- Do they offer encryption keys you control (BYOK)?
+- Where is data stored geographically? Does this comply with your data residency requirements?
+- What happens to data when you terminate the service?
+
+### Encryption Deep Dive for Technical Teams
+
+Understanding encryption strength matters:
+
+**TLS Versions**:
+- TLS 1.0-1.1: Deprecated, reject these vendors
+- TLS 1.2: Minimum acceptable
+- TLS 1.3: Modern standard, preferred
+
+**Data at Rest Encryption**:
+- AES-256: Industry standard, acceptable
+- AES-128: Weaker but acceptable
+- Proprietary encryption: Reject (unvetted)
+- No encryption: Immediate disqualification
+
+**Key Management**:
+- Vendor-controlled keys: Acceptable for low-sensitivity data
+- Customer-managed keys (BYOK): Required for sensitive data
+- Hardware security modules (HSM): Preferred for critical infrastructure
+
+Ask your vendor directly: "What encryption standard do you use?" If they're evasive or unclear, that's a red flag.
+
+### 2. Data Protection and Encryption (Continued)
+
+Beyond encryption, consider these factors:
 
 - Is data encrypted using TLS 1.2 or higher in transit?
 - What encryption standard is used for data at rest?
@@ -192,6 +224,64 @@ Use this checklist when deploying your vendor security assessment template:
 - [ ] Track assessment results in a central register
 - [ ] Set calendar reminders for reassessment dates
 - [ ] Train team members on vendor access request procedures
+
+## Real-World Assessment Scenarios
+
+### Scenario 1: SaaS Tool for Internal Use Only
+
+A designer wants to use a new design collaboration platform. Security assessment steps:
+
+1. Confirm it doesn't need access to your code repositories or customer data
+2. Verify SSO integration capabilities
+3. Check encryption standards (minimum TLS 1.2)
+4. Review their privacy policy for data residency
+5. Quick approval: 2-3 days if they meet basic standards
+
+Risk level: Low-to-Medium. Turnaround: Fast.
+
+### Scenario 2: Developer Tool with Code Repository Access
+
+A developer wants to use a CI/CD optimization tool that integrates with GitHub. Security assessment steps:
+
+1. Deep dive into authentication (must support OAuth)
+2. Review what data the tool accesses from repositories (code itself? metadata only?)
+3. Examine their security incidents and how they were handled
+4. Request SOC 2 report
+5. Require signing a Data Processing Addendum (DPA)
+
+Risk level: High. Turnaround: 2-3 weeks. Approval: CTO + Security lead required.
+
+### Scenario 3: Contractor Using Their Own Tools
+
+A freelance consultant needs access to your Slack and project management tool. Assessment steps:
+
+1. Confirm they're authenticating through their own managed identity
+2. Establish data access boundaries (what channels/projects only?)
+3. Implement IP whitelisting if available
+4. Require contractor to sign security addendum
+5. Plan for account deprovisioning on contract end
+
+Risk level: Medium. Turnaround: 1 week. Approval: Manager + IT.
+
+## Remediating Security Gaps
+
+When a vendor fails assessment, don't automatically reject them. Work with them to remediate:
+
+> "We love your tool but can't approve it yet. You need SOC 2 Type II certification, which your product roadmap shows for Q3. We can approve you on that timeline if you confirm commitment."
+
+Many vendors are willing to accelerate security improvements for customers willing to commit. This builds better relationships than blanket rejection.
+
+## Keeping the Process Manageable
+
+Assessment can become a bottleneck if not managed efficiently. To scale:
+
+- Create templates for common vendor types (SaaS, contractor, tool)
+- Maintain a pre-approved vendor list (don't re-assess annually if risk profile hasn't changed)
+- Automate questionnaire distribution and tracking
+- Assign assessment responsibility to rotating team members (build security knowledge across the team)
+- Set SLAs: Critical vendors assessed in 1 week, high-risk in 2 weeks, medium in 3 weeks
+
+The goal is making assessment routine, not exceptional.
 
 
 ## Related Articles
