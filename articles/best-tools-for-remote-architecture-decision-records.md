@@ -262,6 +262,24 @@ Reminder: all engineers review by [deadline]. @mention someone if you need their
 
 **Use Notion if:** non-technical stakeholders need to read or comment on ADRs, or your team already uses Notion for all documentation.
 
+## Running the Async Review Process
+
+Whichever tool you pick, the async review process matters more than the tooling. A well-run ADR review prevents the common failure mode where decisions happen in Slack threads and the ADR is written after the fact to document what was already decided — at which point nobody challenges it because the decision already happened.
+
+A practical async review workflow:
+
+**Step 1: Author publishes the ADR as "Proposed"** and posts in Slack with a clear deadline: "ADR-043: Use Redis for session storage. Review open until Friday EOD. Comments on the Notion page / GitHub Discussion / PR."
+
+**Step 2: Set a 3-5 day review window.** Shorter than 3 days doesn't give distributed team members across time zones a fair chance to review. Longer than 5 days causes context loss.
+
+**Step 3: Require explicit votes, not just silence.** Default approval (no objection = approved) works poorly in remote teams where people miss notifications. Ask each named reviewer to explicitly comment with their vote. Use the "Deciders" field to track who needs to respond.
+
+**Step 4: Resolve dissent in writing.** If a reviewer raises a concern, the author responds in the ADR document itself (not Slack), updating the "alternatives considered" section if the dissent surfaces a new option. This keeps the decision reasoning in one place.
+
+**Step 5: Author changes status to "Accepted"** once the review period closes and all deciders have voted. Link the PR that implements the decision from the ADR.
+
+The most common gap in ADR processes is step 4 — dissent gets handled in Slack and the ADR stays unchanged. Over time this creates a false picture where every decision looks consensus-based and easy. Write disagreements and minority positions into the document explicitly, so engineers joining the team six months later understand what tradeoffs were consciously accepted and what concerns were noted but overruled. An ADR without documented dissent is often an incomplete record of the actual decision.
+
 ## Related Reading
 
 - [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
