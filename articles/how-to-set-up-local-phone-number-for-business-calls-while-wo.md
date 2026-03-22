@@ -73,6 +73,27 @@ app.post('/voice', (req, res) => {
 
 This setup forwards all incoming calls to your personal number, regardless of your physical location.
 
+### Vonage (formerly Nexmo)
+
+Vonage is a strong Twilio alternative, particularly for teams that need European numbers or EU data residency. The Vonage Number Management API is similar in structure to Twilio's but with slightly different terminology:
+
+```bash
+# Install Vonage CLI
+npm install -g @vonage/cli
+
+# Configure credentials
+vonage config:set --apiKey=YOUR_API_KEY --apiSecret=YOUR_API_SECRET
+
+# Search for available numbers in the UK
+vonage numbers:search GB --type=landline-toll-free
+```
+
+Vonage tends to have more competitive rates for UK, German, and French numbers than Twilio. If most of your clients are in Europe, compare Vonage's per-minute rates carefully.
+
+### Google Voice: The No-Code Option
+
+For individuals or very small teams, Google Voice remains the simplest option if you need a US number. Sign up at voice.google.com, pick a number, and Google handles all routing. Limitations include: US-only numbers, no API access on the free tier, and call quality that varies more than dedicated VoIP providers. Google Voice works best for solo freelancers who need a US number without technical setup.
+
 ## SIP Trunking: Greater Control, Higher Complexity
 
 SIP trunking gives you direct access to the telephone network without per-minute markup from VoIP providers. You rent a SIP trunk and connect it to your own PBX or telephony software.
@@ -104,6 +125,10 @@ exten => _X.,n,VoiceMail(main)
 ```
 
 This approach requires more setup but eliminates per-minute costs for high call volumes.
+
+### When to Use VoIP.ms vs Twilio
+
+VoIP.ms charges around $0.0035/minute for inbound calls versus Twilio's $0.0085/minute. For a business handling 5,000 minutes per month, that difference is roughly $25/month — enough to justify the additional setup work of VoIP.ms's less polished dashboard. VoIP.ms also supports E911 services and Canadian numbers at competitive rates. Twilio is preferable when you need a developer-friendly API, global number coverage, or SMS alongside voice.
 
 ## Call Forwarding: The Simplest Method
 
@@ -175,15 +200,33 @@ If you want to keep an existing business number, you can port it to most VoIP se
 - Your current carrier account details
 - The number must be active during porting
 
+Twilio, Plivo, and Vonage all support number porting. Twilio's porting UI is the most straightforward; Vonage requires submitting a support ticket for international ports.
+
+### Outbound Caller ID
+
+One detail that trips up remote workers: when you call out from a VoIP number, some carriers flag unknown caller IDs or international origination. To present your local business number as caller ID on outbound calls through Twilio:
+
+```javascript
+client.calls.create({
+  from: '+14155551234',  // Your Twilio number
+  to: '+12025559876',
+  url: 'https://your-app.com/outbound-twiml'
+})
+```
+
+If clients are rejecting calls because your number shows as "Unknown," verify that your Twilio number is set as the caller ID and that you have not enabled anonymous caller ID on your account settings.
+
 ### Cost Comparison
 
 | Method | Setup Cost | Monthly Cost | Per-Minute Cost |
 |--------|-----------|--------------|-----------------|
 | Twilio Local | $1.00/number | $1.00 | $0.01-0.02 |
-| SIP Trunking | $0 | $10-30 | $0.005-0.01 |
-| Call Forwarding | $0 | $5-15 | $0.15-0.50 |
+| Vonage | $1.50/number | $1.50 | $0.008-0.015 |
+| SIP Trunking (VoIP.ms) | $0 | $5-15 | $0.003-0.007 |
+| Call Forwarding (carrier) | $0 | $5-15 | $0.15-0.50 |
+| Google Voice (personal) | $0 | $0 | $0 (US calls) |
 
-For low-volume use, Twilio provides the lowest barrier to entry. For businesses handling 1000+ minutes monthly, SIP trunking becomes more economical.
+For low-volume use, Twilio provides the lowest barrier to entry. For businesses handling 1000+ minutes monthly, SIP trunking becomes more economical. Vonage is worth evaluating if the majority of your numbers are European.
 
 ## Security Best Practices
 
@@ -212,6 +255,18 @@ def handle_voice():
     pass
 ```
 
+Toll fraud is a real and expensive problem with VoIP. If someone obtains your Twilio credentials or webhook URL, they can place large volumes of calls at your expense. Always validate the `X-Twilio-Signature` header on incoming webhook requests to confirm the request genuinely came from Twilio.
+
+## Choosing the Right Setup for Your Situation
+
+The right configuration depends on your usage pattern:
+
+- **Freelancer or solo contractor**: Google Voice for US numbers, or a single Twilio number if you need SMS and call forwarding together. Total cost: $1-5/month.
+- **Small team (2-10 people)**: Twilio or Vonage with a simple webhook app. Gives you per-user numbers, voicemail, and call recording without managing your own PBX. Cost: $10-30/month.
+- **Growing company with 1000+ minutes/month**: Evaluate SIP trunking via VoIP.ms or CallCentric alongside your own Asterisk or FreePBX instance. Higher upfront complexity, lower ongoing per-minute cost.
+- **Enterprise or regulated industry**: Consider providers like Bandwidth or DialPad that offer HIPAA-compliant calling, E911 support, and dedicated SLAs. These cost more but remove compliance burden from your team.
+
+The common mistake remote workers make is over-engineering early. Start with Twilio or Google Voice, validate that clients can reach you reliably, then optimize for cost or features once you understand your actual usage patterns.
 
 
 ## Frequently Asked Questions
