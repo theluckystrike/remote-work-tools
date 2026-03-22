@@ -29,6 +29,15 @@ voice-checked: true---
 
 The best employee recognition platforms for distributed teams enable peer-to-peer recognition, work anniversary celebrations, and Slack/Teams integration. Bonusly, Kudos, Nectar, and open-source options like Mattermost each address different organizational needs—from points-based rewards to values-aligned recognition. This guide compares leading solutions and implementation patterns for HR teams building appreciation culture across time zones.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Bonusly, Kudos, Nectar, and open-source options like Mattermost each address different organizational needs**: from points-based rewards to values-aligned recognition.
+- **The best employee recognition**: platforms for distributed teams enable peer-to-peer recognition, work anniversary celebrations, and Slack/Teams integration.
+- **The Mattermost integration also**: supports custom Slash commands for quick recognition.
+- **Consider starting with a**: platform that integrates with tools your team already uses.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+
 ## Core Requirements for Remote Employee Recognition
 
 Before evaluating specific platforms, establish your baseline requirements. Employee recognition tools for distributed teams must support asynchronous recognition, provide clear visibility across time zones, and offer meaningful customization for different cultures and team sizes.

@@ -29,6 +29,22 @@ score: 9---
 
 Request for Comments (RFC) documents serve as the backbone of asynchronous decision making in distributed engineering organizations. When implemented effectively, RFCs enable teams to make thoughtful, documented decisions without requiring real-time synchronization, which proves especially valuable across time zones.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Stay on PostgreSQL 13**: with extended support: Costs $5,000/year, delays access to new features 2.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+- **Migrate to managed database service**: Exceeds current budget by 40%
+
+## Implementation Plan
+1.
+- **A reasonable SLA**: - Initial feedback: 48 hours
+- Full review: 72 hours
+- Decision announcement: 96 hours from RFC publication
+
+Use asynchronous voting for non-controversial decisions.
+- **Extract user management domain**: (2 months) 3.
+
 ## What Makes RFCs Effective for Async Decision Making
 
 An RFC document captures a proposed change, its rationale, alternatives considered, and the expected impact. Unlike quick Slack messages or impromptu video calls, RFCs create a persistent, reviewable record that future team members can reference.

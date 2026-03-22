@@ -29,6 +29,15 @@ tags: [remote-work-tools, remote-work]---
 
 Run effective async design critiques with five key steps: prepare designs with context and specific questions, set 24-48 hour review deadlines, collect feedback in a structured format (threaded comments, Markdown, or issues), synthesize and respond to all input, and close the loop by sharing implemented changes. This removes time zone friction while maintaining design quality through structured documentation and clear feedback prompts that produce practical recommendations.
 
+## Key Takeaways
+
+- **Most teams see 85%+**: on-time participation when reminders go out.
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **The best tool is**: the one your team actually opens and uses consistently.
+- **Cost ($12-45/editor monthly) is**: negligible compared to lost time in poorly-adopted systems.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+
 ## What Makes Async Design Critique Effective
 
 The core principle behind async design critique is **structured documentation**. Unlike synchronous sessions where feedback happens in real-time and often gets lost in conversation, async critique requires participants to write down their thoughts deliberately. This produces a permanent record that team members can reference later.

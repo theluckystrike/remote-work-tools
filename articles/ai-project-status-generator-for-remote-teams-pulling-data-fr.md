@@ -18,6 +18,15 @@ Remote teams juggle dozens of tools—Slack for communication, Jira for tracking
 
 An AI project status generator automates this workflow by pulling data from multiple tools and using large language models to synthesize the information into a readable status report. This guide shows you how to build one from scratch.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+
 ## Architecture Overview
 
 The system consists of three main components:
