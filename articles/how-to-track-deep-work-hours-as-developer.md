@@ -27,7 +27,18 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]---
 
+
 Track your deep work hours by logging each focus session's start time, end time, and task in a plain text file, then review the log weekly to identify your peak-productivity windows and realistic capacity. For less friction, use CLI tools like `timetrap` (stores data in local SQLite) or wire a git post-commit hook that timestamps every commit automatically -- both methods capture deep work data without interrupting your flow.
+
+## Key Takeaways
+
+- **You discover which hours**: of day produce your best output, how much actual focused time certain projects require, and where distractions are bleeding your productivity.
+- **Without tracking**: developers tend to overestimate their focused time by significant margins—often by 50% or more.
+- **deepwork end ``` ##**: Integrating with Development Workflow The most effective tracking methods blend into your existing development process rather than adding separate tracking steps.
+- **[Pattern 1 - e.g.**: "Most productive 8-10 AM"]
+2.
+- **Use these tactics: Calendar**: blocking strategies: 1.
+- **ActivityWatch is open-source and**: stores all data locally.
 
 ## Why Track Deep Work Hours
 

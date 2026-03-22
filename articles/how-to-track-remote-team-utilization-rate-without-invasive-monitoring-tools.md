@@ -33,6 +33,15 @@ Tracking team use in remote environments presents a genuine challenge for engine
 
 This guide covers practical approaches to measuring remote team use that respect developer autonomy while providing the insights leadership needs.
 
+## Key Takeaways
+
+- **Pricing starts around $18**: per user per month.
+- **The platform costs more—expect**: $25 to $40 per seat—but provides insights that justify the investment for scaling teams.
+- **This guide covers practical**: approaches to measuring remote team use that respect developer autonomy while providing the insights leadership needs.
+- **Tracking team use in**: remote environments presents a genuine challenge for engineering managers and team leads.
+- **The good news**: ethical use tracking is entirely achievable using data your team already produces through normal development workflows.
+- **Activity Before implementing any**: tracking system, distinguish between activity and use.
+
 ## Understanding Use vs. Activity
 
 Before implementing any tracking system, distinguish between activity and use. Activity measures whether someone is working; use measures whether that work contributes to team goals. The distinction matters because tracking activity feels invasive while tracking use feels useful.

@@ -33,6 +33,13 @@ A second brain is a digital system that captures, organizes, and retrieves your 
 
 This guide covers three approaches to building a second brain: Obsidian (local-first, markdown-based), Notion (cloud-hosted, relational), and a code-first approach using Git-backed plain text. Each suits different workflows.
 
+## Key Takeaways
+
+- **It works because developers**: already think in systems, structures, and connections—the same principles that make a second brain effective.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: why developers need a second brain, option 1: obsidian — local-first markdown system, initial setup
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Why Developers Need a Second Brain
 
 You write code that solves problems. Six months later, you encounter a similar issue and spend hours searching for the solution. A second brain eliminates this cycle. It works because developers already think in systems, structures, and connections—the same principles that make a second brain effective.
