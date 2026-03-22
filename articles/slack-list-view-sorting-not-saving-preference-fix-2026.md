@@ -218,5 +218,12 @@ No. The Slack Web API does not expose endpoints for user display preferences lik
 
 Yes. The Electron desktop app and the browser version use different storage mechanisms for preferences. The desktop app uses a local SQLite-like database, while the browser version uses IndexedDB and localStorage. Issues in one do not necessarily appear in the other. If one version fails to save preferences, try switching to the other as a workaround.
 
+
+## Related Articles
+
+- [Slack Custom Emoji Not Uploading: Error Message Fix (2026)](/slack-custom-emoji-not-uploading-error-message-fix-2026/)
+- [Slack Giphy Integration Not Showing Results Fix 2026](/slack-giphy-integration-not-showing-results-fix-2026/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
