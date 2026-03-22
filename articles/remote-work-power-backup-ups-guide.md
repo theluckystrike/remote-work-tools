@@ -17,6 +17,8 @@ voice-checked: true
 
 Power interruptions are the second most common cause of remote work disruption after internet failures. A UPS (Uninterruptible Power Supply) buys you time: enough to finish a sentence on a call, save work, or let your router switch to backup internet. This guide covers UPS sizing, equipment priority, and the configuration needed to protect a home office engineering setup.
 
+Most engineers treat UPS as a luxury. It is not. If you are working on a deployment, in a video call with a client, or running a long test suite when the power goes out, you will lose time proportional to how unprepared you are. A proper UPS installation costs less than one hour of wasted work at most engineer salaries.
+
 ## What a UPS Actually Does
 
 A UPS has three functions:
@@ -25,6 +27,8 @@ A UPS has three functions:
 3. **Signals software** to gracefully shut down servers or NAS devices before battery depletes
 
 Most engineers only need function 1 and 2. Function 3 matters if you run a local server or NAS.
+
+Power conditioning is underappreciated. Voltage fluctuations — particularly in older buildings or areas with aging grid infrastructure — degrade power supplies and can cause intermittent hardware failures. A good UPS eliminates this category of problem entirely.
 
 ## Sizing Your UPS
 
@@ -66,6 +70,8 @@ Look for a UPS with at least 600VA (≈ 360W) to give yourself margin.
 
 For most remote engineers, 15-20 minutes of runtime is enough to finish what you're doing and gracefully shut down. Aim for the 1000-1500VA range.
 
+**Why the 0.7 derating rule matters**: Running a UPS at 100% capacity continuously degrades the battery faster and generates more heat. The battery also cannot deliver rated power at full discharge — capacity curves non-linearly. The 0.7 factor keeps you in the efficient part of the discharge curve.
+
 ## Recommended UPS Models
 
 **Budget ($100-150): APC Back-UPS 1100VA**
@@ -93,6 +99,17 @@ For most remote engineers, 15-20 minutes of runtime is enough to finish what you
 
 Cheap UPS units output stepped approximation waveforms. Most laptops and desktop PSUs tolerate this. NAS devices, servers, and some chargers do not. If you run a NAS or local server, buy a pure sine wave UPS.
 
+**Brand reliability comparison:**
+
+| Brand | Known for | Weakness |
+|---|---|---|
+| APC (Schneider) | Market leader, wide software support, replacement batteries easy to find | Premium pricing |
+| CyberPower | Best value pure sine wave options | Customer support slower than APC |
+| Eaton | Strong for rack-mount and professional use | Less common in consumer market |
+| Tripp Lite | Solid budget options, good build quality | Fewer features at the same price point |
+
+APC's software (PowerChute) is the most mature and has the widest NAS/server integration. CyberPower (PowerPanel) is a close second and the better value. For a home office, either brand at the 1500VA tier is a safe choice.
+
 ## What to Put on Battery vs. Surge-Only
 
 **Battery-protected outlets:**
@@ -108,7 +125,9 @@ Cheap UPS units output stepped approximation waveforms. Most laptops and desktop
 - Printer
 - USB chargers for phones/tablets
 
-Prioritize networking gear first — your internet connection is more critical than your second monitor during a power event.
+Prioritize networking gear first — your internet connection is more critical than your second monitor during a power event. If your router and modem are both on the UPS, you maintain network connectivity for the duration of the power outage, which is often the most valuable outcome.
+
+If you have a 4G or 5G backup modem (see the internet redundancy guide), it must also be on the UPS. A backup internet connection that loses power at the same moment as your primary is useless.
 
 ## UPS Software Configuration
 
@@ -155,6 +174,23 @@ brew install --cask powerpanel
 # Same settings, different UI
 ```
 
+**Network UPS Tools (NUT) — for Linux servers:**
+
+NUT is an open-source framework that lets a single UPS communicate power status to multiple machines on the network. One machine connects to the UPS via USB (the "server"), and other machines query it over TCP.
+
+```bash
+# On the UPS-connected machine:
+apt install nut
+# Edit /etc/nut/ups.conf, /etc/nut/upsd.conf, /etc/nut/upsd.users
+# Configure: driver = usbhid-ups, port = auto
+
+# On secondary machines:
+# Edit /etc/nut/upsmon.conf
+# MONITOR myups@192.168.1.100 1 monuser password slave
+```
+
+NUT is the right choice if you have a home lab with multiple machines and only one physical UPS.
+
 ## Monitoring Battery Health
 
 UPS batteries last 3-5 years. Signs of degraded battery:
@@ -169,15 +205,19 @@ apcaccess status | grep -E "BCHARGE|TIMELEFT|BATTDATE"
 # Output:
 # BCHARGE  : 100.0 Percent
 # TIMELEFT : 28.5 Minutes
-# BATTDATE : 2023-06-12  ← battery date, if >4 years old, consider replacement
+# BATTDATE : 2023-06-12  -- battery date, if >4 years old, consider replacement
 ```
+
+**Replacement battery sourcing**: OEM replacement batteries from APC and CyberPower cost $40-80 for 1500VA units. Third-party replacements (BB Battery, Yuasa) are 30-50% cheaper and generally comparable quality. For professional-grade UPS units like the APC Smart-UPS line, APC's own RBC (Replacement Battery Cartridge) kits are the safest option because they include all connectors and hardware. For consumer-grade Back-UPS units, third-party batteries work fine.
+
+Set a calendar reminder to replace the battery at year 3 regardless of apparent health. The cost of an unexpected UPS failure (battery dies mid-power-outage with no warning) is higher than the cost of a proactive replacement.
 
 ## Power Outage Response Runbook
 
 ```markdown
 ## Power Outage Protocol
 
-1. UPS activates → note the time
+1. UPS activates — note the time
 2. Immediately: check if router/modem is on UPS (test: ping 8.8.8.8)
 3. If internet is up: continue work normally, keep calls brief
 4. At 15 minutes remaining (UPS alarm changes pitch):
@@ -194,6 +234,8 @@ apcaccess status | grep -E "BCHARGE|TIMELEFT|BATTDATE"
    - Check for any data loss in interrupted processes
 ```
 
+The "wait 2 minutes after power restores" step is important. Power grid restoration is sometimes followed by a second brief interruption as the grid stabilizes. Waiting 2 minutes avoids an immediate second UPS activation and gives the building's electrical system time to normalize.
+
 ## Budget Recommendation
 
 For a typical remote engineering setup (laptop + 2 monitors + router + switch):
@@ -204,7 +246,9 @@ For a typical remote engineering setup (laptop + 2 monitors + router + switch):
 | Replacement battery (3yr) | $50 |
 | 5-year all-in | ~$239 total |
 
-At $48/year, a UPS is cheaper than most SaaS tools and eliminates the most unpredictable failure mode in a home office.
+At $48/year, a UPS is cheaper than most SaaS tools and eliminates the most unpredictable failure mode in a home office. For comparison, a single lost hour of billable work for a senior engineer costs more than the 5-year total cost of the UPS.
+
+If budget is a constraint, a used APC Back-UPS 1500 from eBay with a new third-party battery costs around $40-60 total and provides equivalent protection. UPS hardware is robust — the battery is the only consumable component.
 
 ## Related Reading
 
