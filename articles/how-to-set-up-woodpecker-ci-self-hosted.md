@@ -17,6 +17,8 @@ tags: [remote-work-tools]
 
 Woodpecker CI is a lightweight, open-source CI system forked from Drone. It runs on your own hardware, integrates with Gitea, GitHub, GitLab, and Forgejo, and uses a simple YAML pipeline syntax. For remote teams that want GitHub Actions-style workflows without GitHub's pricing or data residency concerns, it's the cleanest self-hosted option.
 
+The operational footprint is minimal: a server process and one or more agents. The server handles scheduling and the web interface. Agents execute pipeline steps in isolated Docker containers. Both communicate over gRPC. You can start with everything on one host and add agents on separate machines as build volume grows.
+
 ---
 
 ## Architecture Overview
@@ -26,6 +28,8 @@ Woodpecker has two components:
 - **Agent**: Executes pipeline steps. Run one per host; scale horizontally.
 
 Both communicate over gRPC. The server stores state in SQLite (small teams) or PostgreSQL (production).
+
+Each pipeline step runs in its own Docker container, pulled fresh for each build. Steps within a pipeline share a workspace volume so files written by one step (like a compiled binary) are available to the next. This model is simpler than GitHub Actions' runner model and easier to debug — you can reproduce any step locally by running the same Docker image with the same commands.
 
 ---
 
@@ -94,6 +98,10 @@ WOODPECKER_AGENT_SECRET=$(openssl rand -hex 32)
 DB_PASSWORD=$(openssl rand -hex 24)
 ```
 
+`WOODPECKER_OPEN=false` is important — it disables open registration so only users from your configured OAuth provider can log in. `WOODPECKER_ADMIN` grants admin access to the specified username, which lets you manage repositories and organization-level secrets from the UI.
+
+Port 8000 is the HTTP/HTTPS interface. Port 9000 is the gRPC port that agents connect to. If you're behind a reverse proxy, only 8000 needs to be exposed externally — agents connect to 9000 over the internal Docker network.
+
 ---
 
 ## Create the GitHub OAuth App
@@ -113,6 +121,18 @@ For Gitea instead of GitHub:
 - WOODPECKER_GITEA_CLIENT=${GITEA_OAUTH_CLIENT_ID}
 - WOODPECKER_GITEA_SECRET=${GITEA_OAUTH_CLIENT_SECRET}
 ```
+
+For GitLab:
+
+```bash
+- WOODPECKER_GITHUB=false
+- WOODPECKER_GITLAB=true
+- WOODPECKER_GITLAB_URL=https://gitlab.yourcompany.com
+- WOODPECKER_GITLAB_CLIENT=${GITLAB_APPLICATION_ID}
+- WOODPECKER_GITLAB_SECRET=${GITLAB_APPLICATION_SECRET}
+```
+
+In GitLab, create the application at **User Settings > Applications** with the `api` and `read_user` scopes and the callback URL `https://ci.yourcompany.com/authorize`.
 
 ---
 
@@ -140,6 +160,20 @@ server {
         proxy_read_timeout 3600;
     }
 }
+```
+
+The `proxy_buffering off` and `proxy_read_timeout 3600` settings are not optional. Woodpecker streams pipeline logs to the browser using Server-Sent Events (SSE). Without buffering disabled, nginx buffers the stream and logs appear in chunks rather than in real time. Without a long timeout, nginx closes idle connections before long-running pipelines complete.
+
+If you're using Traefik instead of nginx, add these labels to the server container:
+
+```yaml
+labels:
+  - "traefik.enable=true"
+  - "traefik.http.routers.woodpecker.rule=Host(`ci.yourcompany.com`)"
+  - "traefik.http.routers.woodpecker.entrypoints=websecure"
+  - "traefik.http.routers.woodpecker.tls.certresolver=letsencrypt"
+  - "traefik.http.services.woodpecker.loadbalancer.server.port=8000"
+  - "traefik.http.middlewares.woodpecker-buf.buffering.maxResponseBodyBytes=0"
 ```
 
 ---
@@ -207,6 +241,29 @@ steps:
       branch: [main, staging]
 ```
 
+For Python with caching:
+
+```yaml
+steps:
+  - name: install
+    image: python:3.12-slim
+    commands:
+      - pip install --user -r requirements.txt
+
+  - name: test
+    image: python:3.12-slim
+    commands:
+      - python -m pytest tests/ -v --tb=short
+
+  - name: type-check
+    image: python:3.12-slim
+    commands:
+      - pip install --user mypy
+      - python -m mypy src/
+```
+
+The `when` clause is the main conditional mechanism. You can filter on branch, event type (push, pull_request, tag), and step success/failure. A step with no `when` clause runs on every pipeline trigger.
+
 ---
 
 ## Secrets Management
@@ -247,6 +304,8 @@ steps:
       - curl -X POST -d '{"text":"Deployed!"}' "$SLACK_WEBHOOK"
 ```
 
+Organization-level secrets are available to all repos within the organization without needing to add them per-repo. Useful for shared credentials like a container registry password or a deployment key that multiple services use. Repo-level secrets override organization-level secrets with the same name.
+
 ---
 
 ## Scale Agents Horizontally
@@ -283,6 +342,8 @@ steps:
       - python train.py
 ```
 
+Agent labels are how you route specific pipeline steps to specific hardware. A common pattern: one agent on a fast x86 host for standard builds, one agent on an ARM host for cross-platform testing, one agent on a machine with an attached GPU for model training or inference tests. The scheduler matches steps to agents based on label intersection.
+
 ---
 
 ## Useful CLI Commands
@@ -302,6 +363,12 @@ woodpecker-cli repo list
 
 # Check agent status
 woodpecker-cli agent list
+
+# Restart a failed pipeline
+woodpecker-cli pipeline restart your-org/app 42
+
+# Get pipeline info as JSON
+woodpecker-cli pipeline info your-org/app 42 --output json
 ```
 
 ---
@@ -324,6 +391,52 @@ steps:
     commands:
       - go test ./...
 ```
+
+Woodpecker expands the matrix into parallel pipelines — one per version combination. If you add a second dimension:
+
+```yaml
+matrix:
+  GO_VERSION:
+    - "1.21"
+    - "1.22"
+  OS:
+    - alpine
+    - debian
+
+steps:
+  - name: test
+    image: golang:${GO_VERSION}-${OS}
+    commands:
+      - go test ./...
+```
+
+This produces 4 pipelines (2 Go versions × 2 OS variants) running concurrently across available agents. Matrix builds are the cleanest way to validate compatibility without writing separate pipeline files for each combination.
+
+---
+
+## Conditional Pipelines with When Clauses
+
+Control when entire pipelines or individual steps run:
+
+```yaml
+# Run only on pull requests targeting main
+when:
+  event: pull_request
+  branch: main
+
+# Run only when specific files change
+when:
+  path:
+    include: ["src/**", "Dockerfile"]
+    exclude: ["**/*.md"]
+
+# Run on tag push (release builds)
+when:
+  event: tag
+  tag: "v*"
+```
+
+Path filtering prevents unnecessary CI runs. A docs change that only touches Markdown files does not need to trigger a full build and test cycle. Combining path filtering with matrix builds keeps CI costs and wait times proportional to the scope of the change.
 
 ---
 
