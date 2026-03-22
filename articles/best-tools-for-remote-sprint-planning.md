@@ -202,6 +202,22 @@ Not completed: [issues]
 Carry-over: [issues]
 ```
 
+## Tool Comparison: Linear vs Jira vs Height
+
+Choosing the right tool matters more for remote teams than co-located ones — friction in async workflows compounds. Here is how the main options compare across the factors that matter most:
+
+| Factor | Linear | Jira | Height |
+|---|---|---|---|
+| Setup time | 30 minutes | 2-4 hours | 1 hour |
+| Async estimation UX | Inline, keyboard-first | Requires clicking into each issue | Inline, fast |
+| Automation / rules | Basic | Extensive (Automation for Jira) | Moderate |
+| Reporting / velocity | Built-in cycle reports | Rich (burndown, velocity, CFD) | Basic |
+| GitHub integration | Excellent (auto-closes issues) | Good (with Jira GitHub app) | Good |
+| Price per user/mo | $8 | $8.15 (Standard) | $6.99 |
+| Best for | Engineering-focused startups | Enterprise / compliance-heavy | Small product teams |
+
+Linear wins for developer experience. Jira wins when you need integration with enterprise tooling (Confluence, ServiceNow, Salesforce) or complex reporting dashboards for non-engineering stakeholders. Height is worth a look for teams that find both too heavy or too light respectively.
+
 ## Estimation Anti-Patterns
 
 **Planning poker by video**: 8 engineers in a Zoom call showing cards is painful. Use PlanningPoker.com or Linear's built-in estimation — engineers submit estimates independently, then compare.

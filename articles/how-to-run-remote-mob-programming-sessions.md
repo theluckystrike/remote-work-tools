@@ -117,6 +117,21 @@ vscode:
 
 Everyone opens the same Gitpod workspace URL and uses Live Share within it — no local environment required.
 
+## Tool Comparison: Live Share vs Tuple vs Gitpod
+
+Picking the wrong tool is the fastest way to kill engagement in a remote mob session. Here is how the main options compare:
+
+| Factor | VS Code Live Share | Tuple | Gitpod (cloud IDE) |
+|---|---|---|---|
+| Latency | Medium (80-200ms) | Low (<100ms) | Depends on cloud region |
+| OS support | Windows, macOS, Linux | macOS only | Browser-based (any OS) |
+| Local env required | Yes | Yes | No |
+| Remote terminal access | Requires host permission | Full control passable | Built-in shared terminal |
+| Cost | Free | $35/user/mo | $9/user/mo (Team plan) |
+| Best for | Mixed OS teams | macOS shops wanting quality | Teams with complex or inconsistent local setups |
+
+Tuple is the best pure mob experience if your team is on macOS and you can justify the cost — the latency difference is noticeable in active coding sessions. Live Share is a reasonable free alternative for occasional mob sessions. Gitpod becomes the right answer when local environment inconsistency is causing mob sessions to lose 20 minutes at the start to setup issues.
+
 ## Session Structure (90 minutes)
 
 ```
@@ -174,6 +189,20 @@ The most common failure mode in mob programming is navigator breakdown:
 **Monologue navigator** — One person dominates navigation across rotations, turning it into pair programming with an audience. Explicitly require silent time for mob members to surface ideas.
 
 **Too much detail** — "Type async def create_user open paren user: UserCreate close paren arrow UserResponse colon" — overly granular. Navigate at intention level: "Let's create the async endpoint for user creation with the standard signature."
+
+## Keeping the Mob Engaged
+
+The biggest practical challenge in remote mob sessions is maintaining mob engagement. Mob members who aren't driving or navigating can zone out within minutes — and in-person cues like someone leaning forward or reaching for the keyboard don't translate over video.
+
+Concrete techniques that help:
+
+**Rotate every 15 minutes without exception.** When people know their turn is coming, they stay attentive. Longer rotations let attention drift.
+
+**Assign an explicit "mob voice" role.** One mob member is designated to speak up with observations, questions, and alternatives at any time. This role rotates with each handoff. It gives permission to people who might otherwise stay quiet.
+
+**Use shared scratch space.** Keep a collaborative document (Google Docs, Notion, or a shared terminal session) where mob members can write down ideas, questions, or alternative approaches they want to raise at the next pause. This captures thoughts without interrupting the navigator-driver flow.
+
+**Run shorter sessions more often.** A 60-minute mob session with full engagement is more productive than a 2-hour session where the second hour is low-quality. Schedule 60-90 minutes maximum and book follow-up sessions for complex problems. Ending while the team is still energized is a reliable way to build momentum for the next session.
 
 ## When Mob Programming Is Worth It
 
