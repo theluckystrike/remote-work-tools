@@ -336,15 +336,12 @@
 
 
 
-<<<<<<< HEAD
 
 
 
 
 
 
-=======
->>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
 layout: default
 title: "Remote Manager Time Management Framework for Leading"
 description: "A practical framework for remote engineering managers leading distributed teams across five or more time zones. Includes scheduling strategies, async"
@@ -364,7 +361,6 @@ voice-checked: true
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -705,8 +701,6 @@ voice-checked: true
 
 
 
-=======
->>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
 {% raw %}
 
 Manage time across multiple time zones by blocking calendar time for each zone's working hours, scheduling async check-ins for updates, and reserving synchronous meetings only for high-bandwidth discussions that require real-time interaction. This framework prevents constant early mornings or late nights.
