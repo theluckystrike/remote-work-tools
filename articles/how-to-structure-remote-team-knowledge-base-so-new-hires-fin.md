@@ -7,8 +7,9 @@ date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-structure-remote-team-knowledge-base-so-new-hires-find-answers-fast/
 reviewed: true
-score: 8
+score: 7
 categories: [guides]
+tags: [remote-work-tools, remote-work]
 ---
 
 
