@@ -12,9 +12,22 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true---
+
 ## Start
+
 - [ ] Daily async check-ins using Slack threads
 - [ ] Pair programming sessions on complex stories
+
+
+## Key Takeaways
+
+- **Teams using Parabol report**: 40% less administrative overhead post-retro because action items are already created and assigned.
+- **Funretro ($15-30/month) provides a**: simpler interface focused on the Start/Stop/Continue framework.
+- **Choose your tool**: Pick from the comparison table
+3.
+- **Same issues every sprint**: If you're discussing the same problem 3 sprints in a row, either: (1) Root cause isn't real, or (2) Not enough effort to fix.
+- **How do we improve**: code review?" Participation from only extroverts: Use quiet time (10 minutes writing) before discussion.
+- **Pro tip**: Document whichever tool you choose with a 5-minute setup guide for new team members so they know the process immediately.
 
 ## Stop
 - [ ] Waiting for synchronous meetings to discuss blockers
