@@ -197,6 +197,121 @@ Based on common digital nomad workflows, here's a recommended setup:
 4. Local Banking: Open a local bank account in your most frequent country for ATM withdrawals and local expenses
 5. Documentation: Keep detailed records of income sources, locations, and visa status for tax purposes
 
+## Payment Platform Comparison for 2026
+
+| Platform | USD/EUR | Crypto | Speed | Fees | Best For |
+|----------|---------|--------|-------|------|----------|
+| Wise | Excellent | No | 1-2 days | 0.5-1% | International freelancers |
+| Payoneer | Good | No | 2-3 days | 1-2% | Platform earners (Upwork, Fiverr) |
+| Stripe Connect | Excellent | Optional | 2-7 days | 2.2%+$0.30 | SaaS founders |
+| Kraken/Binance | No | Excellent | Minutes | 0.5-1% | Crypto-first workflows |
+| Revolut | Good | Yes | Hours | 1-2% | EU digital nomads |
+| N26 | Good | No | Hours | 0% | EU-based, limited outside EU |
+
+Choose based on:
+- Primary currency received (if all USD, Wise is best)
+- Geographic location (EU nomads may prefer Revolut)
+- Frequency of conversions (high frequency = use Wise or crypto)
+- Emergency fund strategy (crypto for flexibility, Wise for simplicity)
+
+## Setting Up a Nomad-Friendly Payment Infrastructure
+
+Here's a complete workflow for receiving and managing international payments:
+
+```yaml
+Month 1: Foundation
+- Open Wise account (1 day)
+- Get local USD/EUR/GBP account details
+- Share Wise routing numbers with clients
+- Open Payoneer if using freelance platforms
+- Time: 3-4 hours total
+
+Month 2: Verify and Test
+- Receive first payment via Wise (test with $100)
+- Verify conversion rates and fees
+- Set up automated withdrawal to primary bank
+- Document process for future reference
+- Time: 2 hours (mostly waiting for transfers)
+
+Month 3: Optimize
+- Evaluate currency positions (do you hold too much EUR if you spend USD?)
+- Set up crypto allocation for 15% of revenue
+- Open second backup payment method (Payoneer or Stripe)
+- Document tax position and visa status
+- Time: 3 hours
+
+Ongoing (Monthly)
+- Track income received by currency
+- Rebalance holdings quarterly (ensure right currencies for spending)
+- Monitor fees (Wise usually best, but prices change)
+- Update tax records monthly for end-of-year prep
+```
+
+## Invoicing Templates for International Clients
+
+Create a professional invoice that works across borders:
+
+```markdown
+INVOICE
+
+Invoice #: INV-2026-001
+Date: March 22, 2026
+Due: April 5, 2026 (Net 14)
+
+FROM:
+Your Name
+[Your Country/City]
+[Email]
+Tax ID: [Your US EIN or foreign equivalent]
+
+TO:
+Client Company
+[Client Address]
+Tax ID: [Their Business ID]
+
+DESCRIPTION OF SERVICES:
+
+| Date Range | Description | Hours/Rate | Amount |
+|---|---|---|---|
+| Mar 1-15 | Development: React component library | 40h @ $100/h | $4,000 |
+| Mar 16-22 | Code review and documentation | 8h @ $100/h | $800 |
+
+SUBTOTAL (USD): $4,800
+VAT/GST: $0 (reverse charged for international services)
+TOTAL DUE: $4,800 USD
+
+PAYMENT INSTRUCTIONS:
+
+Bank Transfer (Preferred):
+Account: [Your Wise USD account]
+Routing Number: [From Wise]
+Account Number: [From Wise]
+Swift Code: [WISE bank code]
+Bank: Wise
+Reference: INV-2026-001
+
+Cryptocurrency:
+USDC on Ethereum: [Your wallet address]
+USDC on Solana: [Your wallet address]
+
+Notes:
+- Payment due by April 5, 2026
+- Late payment: 1.5% monthly interest
+- All amounts in USD
+- No VAT charged (reverse charge applies)
+
+---
+Thank you for the opportunity to work with you!
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+```
+
+Invoice tips for international work:
+1. Always include your Tax ID (EIN for US citizens)
+2. State "Reverse charge mechanism applies" for VAT purposes
+3. Provide multiple payment methods (wire + crypto)
+4. Use clear currency throughout (no ambiguity)
+5. Specify payment terms (Net 14, Net 30) upfront
+
 
 ## Frequently Asked Questions
 

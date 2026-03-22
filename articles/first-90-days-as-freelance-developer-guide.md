@@ -182,9 +182,109 @@ The freelance trap is trading all time for money. Work toward revenue streams th
 - Templates and Tools: Sellable digital products
 - Referral Fees: Establish relationships with agencies and consultants
 
+## Advanced: Contract Templates and Legal Frameworks
+
+Professional contracts protect both you and your clients. Create standard templates for different engagement types to save time during negotiations:
+
+```markdown
+## Standard Service Agreement
+
+This agreement ("Agreement") is made between [Your Company] ("Consultant") and [Client Name] ("Client").
+
+### Scope of Work
+Consultant agrees to provide [specific deliverables] as detailed in the Statement of Work (SOW).
+Scope is limited to: [List specifically what IS included]
+Scope excludes: [List what IS NOT included]
+
+### Compensation
+- Rate: [hourly/fixed price structure]
+- Payment Terms: [Net 30/50% deposit]
+- Late Payment: [2% monthly interest or late fee terms]
+- Currency: [USD/EUR/other]
+
+### Intellectual Property
+- Custom work developed under this agreement belongs to Client
+- Pre-existing tools/libraries/frameworks remain Consultant's property
+- Client receives license to use custom code in production
+
+### Termination
+- Either party may terminate with 2 weeks written notice
+- Client remains responsible for services rendered through termination date
+- Unpaid invoices due within 14 days of termination
+
+### Confidentiality
+Consultant agrees not to disclose Client's proprietary information during or after engagement.
+Non-disclosure period: [1 year / indefinite]
+```
+
+Create separate templates for:
+1. Hourly engagement (flexibility for scope variation)
+2. Fixed-price project (clear deliverables, deposit structure)
+3. Retainer (recurring monthly commitment)
+4. Statement of Work (detailed scope attachment)
+
 ### Continuous Learning Investment
 
 Dedicate 10% of billable hours to skill development. This maintains competitive advantage and prevents stagnation.
+
+## Automation: Key Tools to Reduce Time-Wasting
+
+After your first few clients, your biggest bottleneck becomes admin overhead. Automate these workflows:
+
+```yaml
+# Invoice Automation Setup
+tool: FreshBooks or Wave
+automation:
+  - Auto-generate recurring invoices for retainer clients
+  - Send payment reminders 5 days before due date
+  - Auto-categorize expenses for tax prep
+  - Generate quarterly income reports
+
+# Time Tracking and Reporting
+tool: Toggl or Harvest
+setup:
+  - Track billable hours per client/project
+  - Generate monthly billing reports
+  - Identify where you're spending time (reveals inefficiencies)
+  - Calculate effective hourly rate across all work
+
+# Email and Meeting Scheduling
+tool: Calendly
+automation:
+  - Embed scheduling link in email signature
+  - Block focused work hours (unavailable)
+  - Auto-confirm client meetings
+  - Time zone management for international clients
+
+# Contract and Document Management
+tool: Airtable or PipeDrive
+tracking:
+  - Pipeline of prospective clients
+  - Signed contracts archive
+  - Milestone tracking for fixed-price projects
+  - Rate history and client notes
+```
+
+These tools should cost $20-80/month combined but save 5-8 hours weekly, freeing capacity for billable work.
+
+## Month 3+ Strategy: Moving Beyond Commodity Rates
+
+After three months, evaluate your positioning. Are you competing on price or value?
+
+**Price-based positioning** (commodity developer) leads to constant client churn and downward pressure on rates. **Value-based positioning** (specialist solving specific problems) commands higher rates and attracts better clients.
+
+Transition your positioning by:
+
+1. **Specializing deeper** — Pick your best client type, study their problems obsessively
+2. **Writing about your niche** — Blog posts, Twitter threads, open source contributions establish authority
+3. **Raising rates** — When you have a waiting list, raise rates. Existing clients often accept; new clients pay higher rates
+4. **Systemizing delivery** — Build repeatable processes that let you deliver faster, increasing effective hourly rate
+
+Example rate progression:
+- Month 1-2: $50-75/hr (landing first clients)
+- Month 3-6: $75-100/hr (retained clients, established process)
+- Month 6-12: $100-150/hr (specialization premium)
+- Year 2+: Fixed-price projects at $2k-10k (not hourly)
 
 ## What to Prioritize in Your First 90 Days
 

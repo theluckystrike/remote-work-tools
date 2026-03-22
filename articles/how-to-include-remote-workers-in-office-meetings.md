@@ -196,8 +196,149 @@ When remote workers contribute valuable insights, highlight those contributions 
 
 The goal is creating meetings where location becomes irrelevant—where every participant has equal ability to contribute, listen, and collaborate toward team objectives.
 
+## Automated Meeting Intelligence
+
+Use automation to extract and distribute meeting value to remote workers who may miss informal discussions:
+
+```python
+import json
+from datetime import datetime
+
+class MeetingIntelligenceBot:
+    """
+    Extract key decisions and assign follow-ups automatically.
+    Ensures remote workers get full context without rewatching.
+    """
+
+    def __init__(self, meeting_id, recording_url):
+        self.meeting_id = meeting_id
+        self.recording_url = recording_url
+        self.participants = []
+
+    def extract_decisions(self, transcript):
+        """
+        Parse transcript to identify key decisions.
+        """
+        decisions = []
+        lines = transcript.split('\n')
+
+        for i, line in enumerate(lines):
+            if any(keyword in line.lower() for keyword in
+                   ['decided', 'agreed to', 'will', 'should', 'must']):
+                decisions.append({
+                    "timestamp": self._extract_time(line),
+                    "statement": line,
+                    "speaker": self._extract_speaker(line)
+                })
+
+        return decisions
+
+    def generate_action_items(self, decisions):
+        """
+        Convert decisions into trackable action items.
+        """
+        action_items = []
+        for decision in decisions:
+            action_items.append({
+                "task": self._extract_task(decision['statement']),
+                "assignee": decision['speaker'],
+                "deadline": "TBD",
+                "status": "open"
+            })
+        return action_items
+
+    def notify_remote_workers(self, action_items, remote_participants):
+        """
+        Send personalized summaries to remote workers.
+        """
+        for participant in remote_participants:
+            relevant_tasks = [
+                item for item in action_items
+                if item['assignee'] == participant or 'all' in item['assignee'].lower()
+            ]
+            self._send_notification(participant, relevant_tasks)
+
+    def _extract_time(self, line):
+        return datetime.now().isoformat()
+
+    def _extract_speaker(self, line):
+        return line.split(':')[0] if ':' in line else 'unknown'
+
+    def _extract_task(self, statement):
+        return statement.strip()
+
+    def _send_notification(self, participant, tasks):
+        print(f"Notifying {participant} of {len(tasks)} action items")
+```
+
+This automation ensures remote workers don't need to manually extract their responsibilities from meeting recordings.
+
+## Equipment and Software Stack Recommendations
+
+For best hybrid meeting experience, consider this practical setup:
+
+**Audio/Video Hardware ($800-2000 investment):**
+- Logitech MeetUp (all-in-one solution for small rooms, $1,500)
+- Alternatively: Separate components ($500-800 total)
+  - Polycom SoundStructure speaker ($400)
+  - USB camera with wide angle (Microsoft LifeCam Studio, $150)
+  - Ceiling-mounted microphone (Shure boundary mic, $300)
+
+**Software Configuration:**
+- Zoom/Teams meeting recorder with cloud transcription
+- Slack integration for real-time notifications
+- Meeting note software (HackMD, Notion) for collaborative docs
+
+**Network Requirements:**
+- Minimum 10 Mbps upload bandwidth for HD video
+- Separate WiFi band for video conferencing (not file transfers)
+- QoS (Quality of Service) prioritization for video traffic
+
+```bash
+# Test your meeting bandwidth
+# Run before important calls
+speedtest-cli --simple
+
+# Monitor network during meeting
+iftop -n  # Shows real-time bandwidth by connection
+```
+
+## Post-Meeting Follow-up Protocol
+
+Structure follow-ups to ensure remote workers actually retain information:
+
+```markdown
+# Post-Meeting Follow-up Template
+
+## Meeting Summary (2-3 sentences)
+[Quick recap of what was discussed]
+
+## Decisions Made
+- [ ] Decision 1 and rationale
+- [ ] Decision 2 and rationale
+
+## Action Items
+| Owner | Task | Due | Status |
+|-------|------|-----|--------|
+| Person A | Specific action | Date | ❌ |
+
+## Remote Participant Questions Addressed
+- [x] Question from @remote_person1
+- [x] Question from @remote_person2
+
+## Next Steps
+- Follow-up meeting scheduled for [date]
+- [Owner] will follow up async on [topic]
+
 ---
 
+**Share this with:** All attendees + team Slack channel
+**Response required from remote workers by:** [date]
+```
+
+This structured format ensures remote workers can quickly understand what they need to do without parsing long meeting notes.
+
+---
 
 ## Frequently Asked Questions
 

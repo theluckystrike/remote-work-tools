@@ -195,6 +195,101 @@ Linear for speed and simplicity, ClickUp for features with automation, Shortcut 
 
 Each tool integrates differently with GitHub, and the right choice depends on your existing workflow, team size, and specific integration needs. Test the GitHub connection yourself before committing—seeing how issues sync and status updates flow reveals more than feature lists.
 
+## Integration Depth Comparison
+
+| Feature | Linear | ClickUp | Shortcut | Jira | GitHub Projects |
+|---------|--------|---------|----------|------|-----------------|
+| Auto-link PRs to issues | Yes | Yes | Yes | Yes | Native |
+| Two-way sync | Partial | Full | Partial | Full | Limited |
+| Automation rules | Limited | Extensive | Basic | Extensive | Growing |
+| API maturity | Excellent | Good | Good | Mature | Good |
+| Free tier | Yes (generous) | Yes | Yes | Free (single project) | Yes |
+| Setup time | 30 min | 1-2 hours | 30 min | 2-4 hours | 15 min |
+
+### Practical Integration Workflows
+
+**Workflow 1: Linear (Fast-moving startups)**
+
+```
+Developer creates branch from Linear issue:
+Issue #LIN-247 "Add dark mode" → Branch: lin-247-add-dark-mode
+Developer commits to branch, creates PR
+PR title includes issue number: "LIN-247: Add dark mode toggle"
+Linear auto-links PR, displays in issue timeline
+PR reviewed, merged → Linear auto-closes issue
+```
+
+This requires minimal configuration and keeps developers in GitHub.
+
+**Workflow 2: Jira + GitHub (Enterprise with change control)**
+
+```
+PM creates Jira story with acceptance criteria
+Jira creates GitHub issue via webhook
+Developer creates branch from GitHub issue
+Commits reference both: Closes GH-123, LIN-247
+Jira automation rule watches for PR merge
+When PR merges, Jira transitions story to "In Review"
+QA tests, moves to "Done"
+```
+
+Extra step but ensures audit trail for compliance.
+
+**Workflow 3: GitHub Projects Only (Minimal tool overhead)**
+
+```
+Create GitHub project board (Table or Board view)
+Add repository issues to project
+Automation: Issues added to project get "sprint-ready" label
+Developers update issue status directly in GitHub
+Project queries by label and milestone
+Monthly reporting: Export project view to CSV
+```
+
+Best for teams already in GitHub, maximizing existing investment.
+
+## Choosing Based on Team Stage
+
+- **Early stage (3-10 engineers):** GitHub Projects or Linear
+- **Growing (10-30 engineers):** Linear or Shortcut
+- **Established (30+ engineers):** Jira or ClickUp
+- **Enterprise (100+ with compliance):** Jira with GitHub Enterprise integration
+
+The wrong choice early forces expensive migrations later. Start simple, add complexity only when necessary.
+
+## Migration Path If Switching Tools
+
+If you're currently in Jira and want to move to Linear:
+
+```bash
+# Export Jira issues
+jq '. | to_entries[] | {
+  title: .value.fields.summary,
+  description: .value.fields.description,
+  status: .value.fields.status.name,
+  assignee: .value.fields.assignee.name
+}' jira-export.json > migration.csv
+
+# Linear API import script (node.js)
+const linear = new LinearClient({ apiKey: process.env.LINEAR_API_KEY });
+
+async function importFromJira(csvFile) {
+  const issues = await parseCSV(csvFile);
+
+  for (const issue of issues) {
+    await linear.createIssue({
+      teamId: 'your-team-id',
+      title: issue.title,
+      description: issue.description,
+      state: mapStatus(issue.status),
+      assigneeId: await findAssignee(issue.assignee)
+    });
+  }
+}
+
+// Note: Migrations are time-consuming. Plan for 2-3 weeks of dual-tool operation.
+```
+
 ---
 
 

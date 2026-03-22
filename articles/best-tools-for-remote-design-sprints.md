@@ -197,6 +197,110 @@ For developers, build prototype components in your actual codebase when possible
 
 Start simple, measure what works, and evolve your tooling as your sprint practice matures.
 
+## Sprint Day Breakdown: Hour-by-Hour Schedule
+
+For a one-day remote design sprint (compressed version):
+
+```
+9:00am - 9:15am (15 min): Kickoff & Problem Framing
+- Host shares problem statement, business context
+- Clarify what success looks like
+- Tool: Video call + shared Google Doc with problem
+
+9:15am - 10:00am (45 min): Silent Generation
+- No meetings, everyone contributes ideas independently
+- Tool: Shared document with structure (Problem / Constraints / Possible Solutions sections)
+- One idea per comment, each person contributes 3-5
+
+10:00am - 10:30am (30 min): Idea Clustering
+- Facilitator groups similar ideas
+- Tool: Miro or FigJam (drag ideas into swim lanes)
+- Vote on themes using emoji reactions
+
+10:30am - 10:45am (15 min): Break
+
+10:45am - 11:45am (60 min): Team Sketching
+- Each person sketches their solution to one cluster
+- Tool: Whiteboard (digital or paper, photograph/scan)
+- Goal: Quick visual mockups, not polished designs
+
+11:45am - 12:30pm (45 min): Storyboarding
+- Teams arrange sketches in user journey order
+- Tool: FigJam, Mural, or PowerPoint slides
+- Add 2-3 sentence narrative explaining flow
+
+12:30pm - 1:00pm (30 min): Debrief & Next Steps
+- Share outcomes, assign owners
+- Schedule prototyping work
+- Tool: Shared doc with decisions and action items
+```
+
+This is exhausting but effective. Only run this format 1-2x quarterly; otherwise use extended 5-day format.
+
+## Sprint Retrospective Template
+
+After sprints conclude, run a retro focused on process, not just outcomes:
+
+```markdown
+# Design Sprint Retro: Sprint Name, Date Range
+
+## What Worked?
+- [List 3-5 things that enabled good ideas]
+- Example: Silent start generated better ideas than live brainstorm
+- Example: Storyboarding revealed flow issues early
+
+## What Didn't Work?
+- [List blockers or inefficiencies]
+- Example: Too many participants made voting take 45 minutes
+- Example: Sharing sketches digitally was slower than physical boards
+
+## Metrics
+- Time from idea to prototype: [X hours]
+- Number of ideas generated: [N]
+- Ideas that advanced to roadmap: [M]
+- Percent of team engagement: [%]
+
+## What We'll Change Next Sprint
+1. [Specific change with owner and deadline]
+2. [Specific change with owner and deadline]
+3. [Specific change with owner and deadline]
+
+# Tool Satisfaction Rating
+- Miro: 8/10 (intuitive, but expensive)
+- FigJam: 9/10 (simple, integrated with Figma)
+- Communication: 7/10 (Slack notifications got lost)
+
+## Next Sprint Planned For
+[Date] — Problem: [TBD]
+```
+
+## Measuring Sprint ROI
+
+Design sprints consume significant time. Track whether they deliver value:
+
+```yaml
+Sprint ROI Tracking:
+
+Time investment:
+  - Preparation: 4 hours (PM setting up problem)
+  - Execution: 16-40 hours (depending on sprint length × team size)
+  - Prototyping: 8-24 hours (implementation)
+  - Total: 28-68 hours
+
+Value generated:
+  - Ideas implemented: [count]
+  - User research conducted: [count]
+  - Pivot decisions made: [count]
+  - Savings from learning before building: [estimated cost avoided]
+
+ROI calculation:
+  (Value generated × hours saved) / (Time invested)
+
+Target: Achieve ROI > 2 (2x return on time invested)
+```
+
+If sprints consistently show poor ROI, simplify the format or reduce frequency. Some teams run one intensive sprint yearly; others run them monthly. Your cadence depends on how quickly your market/product evolves.
+
 
 ## Frequently Asked Questions
 

@@ -195,6 +195,153 @@ Mexico City offers everything remote workers need: reliable infrastructure, affo
 
 Successful remote work in Mexico City depends on three things: reliable internet (test before signing a lease), a good workspace, and a routine that accounts for the city's energy. Once you establish those basics, you'll find a city that rewards both productivity and exploration.
 
+## Mexico City Neighborhood Detailed Comparison
+
+| Neighborhood | Vibe | Internet | Rent (1BR) | Coworking | Best For |
+|---|---|---|---|---|---|
+| Condesa | Trendy, young | Excellent (200+ Mbps) | $1,000-1,400 | 8+ spaces | Nightlife, restaurants |
+| Roma Norte | Hip, creative | Excellent | $1,100-1,500 | 6+ spaces | Design/creative work |
+| Polanco | Upscale, safe | Excellent | $1,500-2,200 | 4+ spaces | Business professionals |
+| Del Valle | Modern, quiet | Good (100+ Mbps) | $700-1,000 | 3+ spaces | Productivity focus |
+| Santa Fe | Corporate, new | Excellent | $1,200-1,800 | 5+ spaces | Corporate teams |
+| Centro | Historic, cheap | Fair (50-100 Mbps) | $400-700 | 2+ spaces | Budget travelers |
+| Coyoacán | Cultural, local | Fair | $700-1,000 | 1-2 spaces | Cultural immersion |
+
+## Internet Providers Detailed Comparison
+
+```yaml
+provider_comparison:
+  - name: Telmex (Infinitum)
+    coverage: 95% of neighborhoods
+    speeds: 50-300 Mbps available
+    stability: 8/10 (occasional outages)
+    setup_time: 3-5 days
+    cost: $40-80/month
+    notes: "Most common provider, good customer service in Spanish"
+
+  - name: Izzi
+    coverage: 85% of central areas
+    speeds: 100-500 Mbps
+    stability: 7/10
+    setup_time: 2-3 days
+    cost: $35-70/month
+    notes: "Slightly cheaper than Telmex, fewer support offices"
+
+  - name: Totalplay
+    coverage: 70% of central areas
+    speeds: 100-400 Mbps
+    stability: 9/10
+    setup_time: 2-3 days
+    cost: $50-100/month
+    notes: "Best stability, premium service, higher cost"
+
+  - name: AT&T Mexico
+    coverage: 60% (mainly modern buildings)
+    speeds: 100-300 Mbps
+    stability: 8/10
+    setup_time: 3-5 days
+    cost: $45-85/month
+    notes: "Good for new apartment buildings, less established in older areas"
+
+recommendation: "Get Telmex + mobile hotspot backup (Telcel). Telmex covers most areas, hotspot covers gaps."
+```
+
+## Apartment Hunting Checklist for Remote Workers
+
+Before signing a lease, verify:
+
+```markdown
+## Internet Verification Checklist
+
+BEFORE viewing:
+- [ ] Call provider to confirm service available at address
+- [ ] Check neighborhood on coverage maps (provider websites)
+- [ ] Ask landlord if they've had issues with providers
+- [ ] Verify upload speeds (critical for video calls)
+
+DURING viewing:
+- [ ] Test WiFi with speedtest-cli
+- [ ] Take notes on signal strength in each room
+- [ ] Check for WiFi dead zones (kitchen, bedroom)
+- [ ] Ask about previous tenant's internet reliability
+- [ ] Verify coaxial/fiber cable enters apartment (not just building)
+
+AFTER signing:
+- [ ] Have provider test speeds before signing documents
+- [ ] Negotiate move-in date (allow 1 week for setup)
+- [ ] Get written SLA from landlord (internet responsibility)
+- [ ] Test multiple times during first month (different times/days)
+- [ ] Document baseline speeds for future troubleshooting
+
+Red flags:
+- Landlord says "WiFi is always spotty around here"
+- Building is older with minimal infrastructure
+- Provider quotes "up to 300 Mbps" but can't guarantee minimum
+- Previous tenant left because of internet issues
+```
+
+## Backup Internet Setup for Remote Workers
+
+```bash
+#!/bin/bash
+# failover-internet.sh - Automatic failover for dual internet
+
+PRIMARY_GATEWAY="192.168.1.1"
+BACKUP_APN="telcel"  # Mobile hotspot
+
+check_internet() {
+    # Test primary connection
+    if ! ping -c 1 -W 2 8.8.8.8 > /dev/null 2>&1; then
+        echo "Primary internet down, activating backup"
+        activate_backup
+    fi
+}
+
+activate_backup() {
+    # Switch to mobile hotspot
+    nmcli con up id "$BACKUP_APN"
+
+    # Send notification
+    notify-send "Internet Failover" "Switched to mobile hotspot"
+
+    # Log the event
+    echo "$(date): Failover activated" >> ~/.failover.log
+}
+
+check_internet_loop() {
+    while true; do
+        check_internet
+        sleep 60  # Check every 60 seconds
+    done
+}
+
+# Run in background
+check_internet_loop &
+```
+
+## Mexico City Power Outage Preparedness
+
+Power outages (apagones) happen occasionally, especially during summer heat waves:
+
+```
+Preparation:
+- UPS (uninterruptible power supply): $100-300
+- Minimum UPS specs: 1000VA, 30+ min runtime
+- Backup battery: Large portable power bank ($100-200)
+- Generator: Only if you stay longer than 6 months
+
+Internet continuity:
+- Mobile hotspot (Telcel SIM): Always available
+- Dual router setup: Main router + backup router with mobile failover
+- Cloud backup: All code pushed to GitHub (essential)
+
+During outage:
+- Work on localhost (no internet required)
+- Commit changes to local git repo
+- Use mobile hotspot for critical syncs
+- Push all commits when power/internet restores
+```
+
 ---
 
 

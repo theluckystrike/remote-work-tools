@@ -196,6 +196,203 @@ Run through this checklist when upgrading your hybrid office network:
 - [ ] Document network topology and configuration for future reference
 - [ ] Schedule quarterly network assessments
 
+## Network Configuration Templates
+
+### Firewall/Router QoS Configuration (pfSense Example)
+
+```bash
+# /etc/pf.conf - Quality of Service rules
+
+# Define interfaces
+WAN_IF="em0"
+LAN_IF="em1"
+
+# Define video ports with priority
+VIDEO_PORTS="{ 443, 3478, 3479, 3480, 5000:6000, 8443 }"
+VOIP_PORTS="{ 5060, 5061 }"
+DEFAULT_PORTS="any"
+
+# Queue definitions
+altq on $WAN_IF hfsc bandwidth 1Gbps queue { q_video, q_voip, q_default }
+queue q_video hfsc (bandwidth 40%, realtime 40%)
+queue q_voip hfsc (bandwidth 30%, realtime 30%)
+queue q_default hfsc (bandwidth 30%, realtime 10%)
+
+# Classify traffic and assign to queues
+pass out on $WAN_IF inet proto tcp from any to any port $VIDEO_PORTS queue q_video
+pass out on $WAN_IF inet proto udp from any to any port $VIDEO_PORTS queue q_video
+pass out on $WAN_IF inet proto udp from any to any port $VOIP_PORTS queue q_voip
+pass out on $WAN_IF inet from any to any queue q_default
+```
+
+### Bandwidth Monitoring Prometheus Config
+
+```yaml
+# prometheus.yml
+global:
+  scrape_interval: 30s
+
+scrape_configs:
+  - job_name: 'network-bandwidth'
+    static_configs:
+      - targets: ['localhost:9100']  # node_exporter
+    metric_path: '/metrics'
+
+  - job_name: 'video-call-quality'
+    static_configs:
+      - targets: ['localhost:9101']  # custom script exporting metrics
+    metric_relabel_configs:
+      - source_labels: [__name__]
+        regex: 'video_call_.*'
+        action: keep
+
+alert_rules:
+  - name: video_bandwidth_alert.rules
+    rules:
+      - alert: HighVideoLatency
+        expr: video_call_latency_ms > 100
+        for: 5m
+        annotations:
+          summary: "Video call latency exceeding 100ms"
+
+      - alert: LowNetworkCapacity
+        expr: (network_bandwidth_used / network_bandwidth_available) > 0.8
+        for: 10m
+        annotations:
+          summary: "Network utilization above 80%"
+```
+
+### WiFi 6E Access Point Config (OpenWRT)
+
+```bash
+# /etc/config/wireless for WiFi 6E AP
+
+config wifi-device 'radio0'
+    option type 'mac80211'
+    option path 'platform/soc/18100000.wifi'
+    option hwmode '11ax'  # WiFi 6
+    option band '2g'
+    option channel '11'
+    option htmode 'HE20'  # High efficiency
+    option country 'US'
+
+config wifi-iface 'default_radio0'
+    option device 'radio0'
+    option network 'lan'
+    option mode 'ap'
+    option ssid 'Office-Video-2G'
+    option encryption 'sae'  # WPA3
+    option key 'your_wifi_password'
+    option isolate '0'  # Allow device-to-device communication
+    option airtime_fairness '1'  # Prevent slow clients from degrading performance
+
+config wifi-device 'radio1'
+    option type 'mac80211'
+    option hwmode '11ax'
+    option band '5g'
+    option channel '149'
+    option htmode 'HE80'  # 80MHz channel width for higher throughput
+    option country 'US'
+    option txpower '23'  # 23dBm
+
+config wifi-iface 'default_radio1'
+    option device 'radio1'
+    option network 'lan'
+    option mode 'ap'
+    option ssid 'Office-Video-5G'
+    option encryption 'sae'
+    option key 'your_wifi_password'
+    option isolate '0'
+    option airtime_fairness '1'
+
+config wifi-device 'radio2'
+    option type 'mac80211'
+    option hwmode '11ax'
+    option band '6g'  # WiFi 6E adds 6GHz band
+    option channel '37'
+    option htmode 'HE160'  # 160MHz for max throughput
+    option country 'US'
+
+config wifi-iface 'default_radio2'
+    option device 'radio2'
+    option network 'lan'
+    option mode 'ap'
+    option ssid 'Office-Video-6G'
+    option encryption 'sae'
+    option key 'your_wifi_password'
+
+# Band steering: Automatically move devices to best band
+config wifi-device
+    option band_steering '1'
+    option band_steering_threshold '80'  # Move if signal < 80dBm
+```
+
+## Network Capacity Planning Example
+
+For a 100-person office with hybrid work:
+
+```
+Office configuration:
+- 100 total employees
+- 40% present on any given day = 40 people
+- 50% concurrently on video calls = 20 people
+- Video codec: VP9/H.265 (modern efficient)
+- Bandwidth per call: 1.5-2 Mbps HD
+
+Calculations:
+- Base requirement: 20 people × 2 Mbps = 40 Mbps
+- Headroom for spikes (add 50%): 40 × 1.5 = 60 Mbps
+- WiFi overhead (WiFi is ~80% efficient): 60 / 0.8 = 75 Mbps WiFi capacity needed
+
+Recommended internet:
+- Upload capacity: 100 Mbps (future-proof 2x requirement)
+- Download capacity: 300 Mbps (support other traffic)
+- Type: Fiber with SLA guarantee
+
+Internal network:
+- Gigabit minimum to all desks
+- 10 Gbps uplink from switches to firewall
+- 2-4 WiFi 6E access points per floor
+- VLAN segregation for video traffic
+```
+
+## Troubleshooting Common Issues
+
+**Issue: "Calls cut out during peak hours"**
+
+```
+Diagnosis:
+1. Check total bandwidth utilization: vnstat -h
+2. If >85% capacity, you have a bottleneck
+3. Check jitter: ping -c 100 8.8.8.8 | grep "stddev"
+
+If jitter > 30ms, QoS rules aren't working properly
+If bandwidth > capacity, upgrade connection or reduce participants
+
+Fix:
+- Verify QoS configuration is active: pfctl -s rules | grep queue
+- Increase video port priority
+- Consider dedicated video VLAN with separate uplink
+```
+
+**Issue: "WiFi drops during calls"**
+
+```
+Diagnosis:
+1. Check interference: sudo iwconfig | grep Bit
+2. Check signal strength: iwconfig wlan0 | grep Signal
+3. Count connected devices: iw dev wlan0 station dump
+
+If signal < -70dBm, too far from AP or too much interference
+
+Fix:
+- Move AP to central location (elevation helps)
+- Switch to 5GHz or 6GHz band
+- Reduce transmit power to -3dBm (paradoxically improves stability)
+- Enable band steering to move devices automatically
+- Increase transmit power on 6GHz (less congested)
+```
+
 
 
 ## Frequently Asked Questions
