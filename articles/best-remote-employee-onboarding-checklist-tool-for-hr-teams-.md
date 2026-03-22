@@ -233,7 +233,7 @@ const week1Tasks = [
 
 ### Week 2-3: Role-Specific Onboarding
 
-Deep dive into role responsibilities and key systems.
+Deep explore role responsibilities and key systems.
 
 ```yaml
 # Engineering-specific onboarding (Week 2-3)

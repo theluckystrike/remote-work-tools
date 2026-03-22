@@ -20,7 +20,7 @@ Hybrid work has created a new challenge for workplace management: employees visi
 
 ## Understanding the Core Requirements
 
-Before diving into implementation, identify what your wayfinding system must accomplish. Infrequent visitors typically need help with three scenarios: locating a specific meeting room, finding an available desk, and reaching a colleague's workspace. Each requires different data sources and interaction patterns.
+Before looking at implementation, identify what your wayfinding system must accomplish. Infrequent visitors typically need help with three scenarios: locating a specific meeting room, finding an available desk, and reaching a colleague's workspace. Each requires different data sources and interaction patterns.
 
 The technical foundation relies on indoor positioning. You have several options: Bluetooth Low Energy (BLE) beacons, Wi-Fi triangulation, or ultrawideband (UWB) anchors. For most office deployments, BLE beacons offer the best balance of cost, accuracy (2-5 meters), and battery life. UWB provides sub-meter accuracy but requires more expensive hardware.
 

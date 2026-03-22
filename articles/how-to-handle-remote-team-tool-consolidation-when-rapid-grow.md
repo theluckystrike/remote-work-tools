@@ -188,7 +188,7 @@ These metrics justify the effort and identify areas for further optimization.
 The success of tool consolidation depends heavily on communication. Create a communication timeline:
 
 **Month 1: Awareness & Buy-In Phase**
-- Email announcement: "We're streamlining tools to reduce costs and improve workflow"
+- Email announcement: "We're simplifying tools to reduce costs and improve workflow"
 - Include the financial impact: "This saves us $X/month and your time switching between platforms"
 - Present the business case without blame: "As we've grown, we've acquired overlapping tools"
 - Survey teams: "Which tool would you prefer for [category]?" (Make people feel heard)

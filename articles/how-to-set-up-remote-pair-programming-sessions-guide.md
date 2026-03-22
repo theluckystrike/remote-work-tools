@@ -22,7 +22,7 @@ Remote pair programming combines code editing, debugging, and debugging across t
 
 Pair programming accelerates learning, reduces bugs, and strengthens team cohesion. One person drives (writes code), the other navigates (thinks ahead, reviews). Every 15 minutes, roles switch. Real-time collaboration catches mistakes before they land in repos.
 
-Remote pairs face latency, screen real estate, and tool fatigue. Successful setups optimize for low friction: switching roles should be seamless, communication clear, and keyboard/mouse control responsive.
+Remote pairs face latency, screen real estate, and tool fatigue. Successful setups optimize for low friction: switching roles should be simple, communication clear, and keyboard/mouse control responsive.
 
 ## Tool Comparison: VS Code Live Share vs Tuple vs SSH
 

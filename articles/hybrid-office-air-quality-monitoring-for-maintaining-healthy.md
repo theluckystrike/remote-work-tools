@@ -7,7 +7,7 @@ last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /hybrid-office-air-quality-monitoring-for-maintaining-healthy/
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 categories: [guides]
 intent-checked: true

@@ -153,7 +153,7 @@ Here's a breakdown of popular routers and mesh systems suited for second-floor o
 | Ubiquiti Dream Machine | Single | $300 | 1500-2000 sq ft | Networks requiring management | Enterprise-grade, web UI |
 | TP-Link Archer AXE300 | Single | $150 | 1000-1500 sq ft | Budget mesh starter | WiFi 6E, decent range |
 | Asus RT-AX88U | Single | $250 | 1200-1600 sq ft | Gaming/streaming | Powerful processor, customizable |
-| Eero Pro 6E | Mesh | $400 (3-pack) | 2000+ sq ft | Most home offices | Seamless roaming, strong upstairs coverage |
+| Eero Pro 6E | Mesh | $400 (3-pack) | 2000+ sq ft | Most home offices | Simple roaming, strong upstairs coverage |
 | Netgear Orbi 970 | Mesh | $700 (3-pack) | 2500+ sq ft | Multi-story homes | 10 Gbps backhaul, pro-grade |
 | Unifi 6 Plus AP | Single/Satellite | $150 each | 1500 sq ft per unit | Wired backhaul preference | Professional UI, scalable |
 | Google Nest WiFi Pro | Mesh | $300 (2-pack) | 1600 sq ft | Simplicity | Easy setup, Matter support |
@@ -263,7 +263,7 @@ Node 2 (Satellite): Second floor, opposite side from Node 1
 - Provides reliable local coverage for office
 
 Configuration:
-- Single SSID for seamless roaming
+- Single SSID for simple roaming
 - Separate guest network for visitors
 - Clients automatically switch to strongest node
 

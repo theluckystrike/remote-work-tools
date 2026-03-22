@@ -333,15 +333,18 @@
 
 
 
-<<<<<<< HEAD
 
 
 
 
 
 
-=======
->>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
+
+
+
+
+
+
 layout: article
 title: "How to Do Async Code Pairing with Recorded Screen Share"
 description: "Learn how to conduct effective async code pairing sessions using recorded screen shares. Complete 2026 guide for remote development teams"
@@ -367,7 +370,6 @@ voice-checked: true
 ---
 
 
-<<<<<<< HEAD
 
 
 
@@ -706,8 +708,12 @@ voice-checked: true
 
 
 
-=======
->>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
+
+
+
+
+
+
 categories: [guides]
 
 

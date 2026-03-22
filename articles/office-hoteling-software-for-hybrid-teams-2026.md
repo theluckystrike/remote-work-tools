@@ -16,7 +16,7 @@ voice-checked: true
 
 {% raw %}
 
-Office hoteling transforms how hybrid teams reserve and manage workspace. Instead of permanent desks, employees book workspaces on-demand through software that handles availability, check-ins, and analytics. For developers and power users building or integrating these systems, understanding the technical landscape matters more than ever.
+Office hoteling transforms how hybrid teams reserve and manage workspace. Instead of permanent desks, employees book workspaces on-demand through software that handles availability, check-ins, and analytics. For developers and power users building or integrating these systems, understanding the technical market matters more than ever.
 
 This guide covers what office hoteling software does, how to evaluate it technically, and how to implement custom solutions when off-the-shelf tools don't fit your workflow.
 

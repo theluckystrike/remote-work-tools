@@ -364,7 +364,7 @@ def hybrid_health_check():
 
 ## Building Culture That Scales
 
-Maintaining remote team culture in a hybrid environment requires deliberate effort, but the techniques are straightforward. Document decisions comprehensively, design meetings for remote inclusion, protect focus time, create predictable in-office schedules, and measure equity of experience.
+Maintaining remote team culture in a hybrid environment requires deliberate effort, but the techniques are straightforward. Document decisions thoroughly, design meetings for remote inclusion, protect focus time, create predictable in-office schedules, and measure equity of experience.
 
 ### Key Principles
 1. **Remote-first design**: Build systems that work for remote users, not as afterthought

@@ -57,7 +57,7 @@ Here's a help structure that balances conversation flow with practical outcomes:
 
 **Minutes 0-5: Check-in and rapport building**
 
-Start with something low-pressure. Ask about their current project or a recent achievement you've noticed. This builds connection before diving into challenges.
+Start with something low-pressure. Ask about their current project or a recent achievement you've noticed. This builds connection before exploring challenges.
 
 **Minutes 5-15: Engineer-driven discussion**
 

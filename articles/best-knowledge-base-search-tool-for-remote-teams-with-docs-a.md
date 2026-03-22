@@ -36,15 +36,18 @@
 
 
 
-<<<<<<< HEAD
 
 
 
 
 
 
-=======
->>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
+
+
+
+
+
+
 layout: default
 title: "Best Knowledge Base Search Tool for Remote Teams with Docs"
 description: "Find the best knowledge base search tool for remote teams managing documentation across multiple platforms. Compare search capabilities, integrations, and"
@@ -60,7 +63,6 @@ voice-checked: true
 ---
 
 
-<<<<<<< HEAD
 
 
 
@@ -103,8 +105,12 @@ voice-checked: true
 
 
 
-=======
->>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
+
+
+
+
+
+
 {% raw %}
 
 Remote teams frequently struggle with scattered documentation across Notion, Confluence, GitHub wikis, Google Docs, and internal portals. Finding the right information at the right time directly impacts developer productivity and team velocity. This guide evaluates search solutions that aggregate content from multiple platforms and deliver fast, relevant results for distributed teams.

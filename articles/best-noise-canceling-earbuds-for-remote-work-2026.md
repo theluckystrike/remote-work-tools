@@ -47,7 +47,7 @@ AirPods Pro 2 represent Apple's premium positioning. The second-generation refre
 - **Conversation Awareness**: Automatically reduces volume and lets outside voices through when you start talking, perfect for unmuted Zoom moments
 - **Transparent mode**: Switch instantly to hear surroundings without removing earbuds
 - **Spatial audio with head tracking**: Gives video call presence when paired with compatible apps
-- **Seamless Mac/iPhone/iPad integration**: Auto-switching between Apple devices, instant pairing
+- **Smooth Mac/iPhone/iPad integration**: Auto-switching between Apple devices, instant pairing
 
 ### Weaknesses
 
@@ -82,7 +82,7 @@ Tested in: Coffee shop (60dB ambient), home office with window traffic (50dB), Z
 ### Best For
 
 - Mac/iPhone/iPad exclusive ecosystems
-- Professionals who value seamless Apple integration
+- Professionals who value smooth Apple integration
 - Teams using Spatial Audio-enabled video conferencing
 - Casual listeners who accept balanced performance across all categories
 
@@ -208,7 +208,7 @@ Samsung's latest flagship delivers excellent noise cancellation at the lowest pr
 - **Excellent build quality**: Premium materials, lightweight, secure fit
 - **Adaptive ANC**: Adjusts noise cancellation strength based on real-time environment
 - **360-degree mic system**: Captures your voice from all angles, rejects background noise effectively
-- **Seamless Galaxy device integration**: Auto-pairing, gesture controls across Samsung phones/tablets
+- **Easy Galaxy device integration**: Auto-pairing, gesture controls across Samsung phones/tablets
 - **Latency optimized for video**: ~12ms latency (faster than Sony, slower than Bose)
 - **IPX7 sweat resistance**: Better than most competitors for gym/outdoor use
 
@@ -317,7 +317,7 @@ Tested in: Home office, Zoom calls, outdoor communication.
 
 **Mac-Only Ecosystem**
 → **Apple AirPods Pro 2**
-- Seamless device switching
+- Simple device switching
 - Spatial audio benefits
 - Native integration with Mac, iPhone, iPad
 

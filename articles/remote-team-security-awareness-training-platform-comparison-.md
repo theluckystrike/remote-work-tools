@@ -79,7 +79,7 @@ def get_user_risk_score(email):
     )
     return response.json()["riskScore"]
 
-# Sync with training completion data for comprehensive risk view
+# Sync with training completion data for complete risk view
 users_at_risk = [email for email in team_emails if get_user_risk_score(email) > 75]
 ```
 

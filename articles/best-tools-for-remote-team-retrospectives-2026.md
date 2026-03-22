@@ -204,7 +204,7 @@ in their backlog without manual data entry.
 ```
 
 **Parabol Strengths:**
-- Best Jira integration (seamless ticket creation)
+- Best Jira integration (easy ticket creation)
 - Works with Azure DevOps (rare feature)
 - Supports multiple teams with unified view
 - Mood check-ins correlate with sprint velocity

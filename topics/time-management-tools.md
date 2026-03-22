@@ -33,7 +33,7 @@ Managing time effectively across distributed teams and multiple time zones is on
 - [Brain.fm vs Endel: Focus Music Comparison for Developers](/brain-fm-vs-endel-focus-music-comparison/)
 - [Convert to UTC range](/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 - [Cross Timezone Communication Strategies for Remote Teams](/cross-timezone-communication-strategies-remote-teams/)
-- [Example on-call schedule that leverages timezone difference](/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
+- [Example on-call schedule that applies timezone difference](/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
 - [Example: Finding interview slots across time zones](/remote-team-hiring-manager-training-program-for-first-time-m/)
 - [Example: Simple calendar reminder script for kit deployment](/best-activity-kit-subscription-for-kids-of-remote-working-pa/)
 - [Example: Timezone-aware scheduling](/best-applicant-tracking-system-for-remote-companies-hiring-a/)

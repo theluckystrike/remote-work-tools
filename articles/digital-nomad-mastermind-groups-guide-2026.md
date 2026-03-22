@@ -108,7 +108,7 @@ Mastermind groups thrive on communication between meetings. These tools support 
 
 **Zoom** remains the standard for video calls. Use breakout rooms for subgroup discussions if your group exceeds six members.
 
-**Google Calendar with appointment slots** streamlines scheduling across time zones. Create a recurring event and let members claim slots.
+**Google Calendar with appointment slots** simplifies scheduling across time zones. Create a recurring event and let members claim slots.
 
 ## Measuring Mastermind Group Success
 
@@ -296,7 +296,6 @@ Know when to leave a mastermind group. You should exit when:
 
 When exiting, give 30 days notice, publicly celebrate the group's impact on your journey, and offer to host a final meeting to help recruit replacements if needed.
 
-<<<<<<< HEAD
 ## Conclusion
 
 Digital nomad mastermind groups offer structured peer support that remote developers need. Success requires intentional member selection, consistent meeting structures, and investment in async communication tools. Start with a small, committed group and iterate on your format based on what actually produces results. The accountability and diverse perspectives these groups provide accelerate career growth in ways that isolated remote work cannot match.
@@ -338,7 +337,5 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Brazil Digital Nomad Visa Process and Tax Implications](/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
 - [Document checklist with recommended file names](/colombia-digital-nomad-visa-application-process-for-software/)
 
-=======
->>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

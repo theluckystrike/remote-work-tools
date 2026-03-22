@@ -20,7 +20,7 @@ Remote support teams face unique challenges when creating and maintaining custom
 
 ## Why Knowledge Base Selection Matters for Remote Support
 
-Customer-facing articles serve as the first line of support for many users. A well-structured knowledge base reduces ticket volume, improves customer satisfaction, and empowers users to find solutions independently. For remote support teams, the platform must enable collaboration without requiring real-time communication.
+Customer-facing articles serve as the first line of support for many users. A well-structured knowledge base reduces ticket volume, improves customer satisfaction, and enables users to find solutions independently. For remote support teams, the platform must enable collaboration without requiring real-time communication.
 
 The ideal solution combines ease of writing with powerful search capabilities, ensuring customers can quickly find the information they need while allowing your distributed team to contribute efficiently.
 
@@ -32,7 +32,7 @@ GitBook has become a favorite among remote engineering and support teams. Its Gi
 
 **Key Features:**
 - Markdown-based authoring with live preview
-- GitHub and GitLab integration for seamless workflows
+- GitHub and GitLab integration for smooth workflows
 - Customizable branding and theming
 - Powerful search with typo tolerance
 - Team spaces for organizing content by product area

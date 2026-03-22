@@ -62,7 +62,7 @@ Confluence is Atlassian's enterprise wiki. Used by thousands of large companies,
 **Strengths:**
 - Best full-text search; advanced query syntax.
 - Excellent role-based permissions.
-- Seamless Jira integration (embed sprints, issues in docs).
+- Easy Jira integration (embed sprints, issues in docs).
 - Mature product (20+ years), handles massive wikis.
 - API-driven; automate doc creation/updates.
 
@@ -294,7 +294,6 @@ If you outgrow your current tool:
 
 Most tools support bulk exports and Markdown, so switching is feasible.
 
-<<<<<<< HEAD
 ## Conclusion
 
 Choose based on team size, technical comfort, and budget:
@@ -347,7 +346,4 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-=======
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
->>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 {% endraw %}

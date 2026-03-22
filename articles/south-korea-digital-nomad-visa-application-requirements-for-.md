@@ -315,7 +315,7 @@ medical emergencies, travel, or quality-of-life expenses.
 ### First 3 Months
 1. Familiarize with public transportation
  - Download Naver Map or Kakao Map apps
- - Use T-money card for seamless transit payment
+ - Use T-money card for easy transit payment
 2. Set up healthcare access
  - Many private clinics offer English-speaking services
  - Health insurance activates after registration

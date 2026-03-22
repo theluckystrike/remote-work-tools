@@ -18,7 +18,7 @@ voice-checked: true
 
 Working remotely from anywhere in the world creates unique challenges when it comes to getting paid. Banks block transactions, currency conversion eats your earnings, and tax compliance becomes a multi-jurisdictional puzzle. This guide covers practical solutions for receiving international payments as a digital nomad developer or power user.
 
-## Understanding the Payment Landscape
+## Understanding the Payment Space
 
 The traditional banking system wasn't designed for global remote work. When a client in Germany pays you in euros while you're in Thailand, several intermediaries take cuts, and settlement can take 5-7 business days. Modern payment platforms solve these problems, but each has trade-offs worth understanding.
 

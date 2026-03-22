@@ -54,7 +54,7 @@ One catch: Keychron ships with stabilizers that need tuning out-of-box. Five-min
 
 Best for: Mac/iPad users and professionals who value finish and support.
 
-Logitech's mechanical hybrid feels like real mechanical but quieter. Paired with their MX Mouse, the ecosystem is seamless—switch devices with one keystroke. Backlighting is clean. Keycaps are quality ABS.
+Logitech's mechanical hybrid feels like real mechanical but quieter. Paired with their MX Mouse, the ecosystem is simple—switch devices with one keystroke. Backlighting is clean. Keycaps are quality ABS.
 
 The sound is controlled because the housing is designed to dampen. You won't hear that signature mechanical click in video calls. Key travel is shallow (2.7mm), good for typing speed without fatigue.
 

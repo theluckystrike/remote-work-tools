@@ -21,7 +21,7 @@ This guide evaluates the best invoicing and payment portal solutions for remote 
 
 ## Key Features Remote Agencies Need
 
-Before diving into specific tools, identify the capabilities that matter most for distributed teams:
+Before examining specific tools, identify the capabilities that matter most for distributed teams:
 
 - **Multi-currency support** with transparent exchange rates
 - **Recurring invoice automation** for retainer clients

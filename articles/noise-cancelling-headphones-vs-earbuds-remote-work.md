@@ -181,7 +181,7 @@ For most home office scenarios (HVAC hum, ambient traffic), ANC headphones provi
 | Model | Price | Battery | Mic Quality | Fit Quality | Best For |
 |-------|-------|---------|------------|------------|----------|
 | Sony WF-1000XM5 | €300 | 8h (+24h case) | Very good | Excellent | Serious earbud users, multi-device |
-| Apple AirPods Pro (3rd gen) | €249 | 6h (+30h case) | Excellent | Good | Mac/iOS users, seamless integration |
+| Apple AirPods Pro (3rd gen) | €249 | 6h (+30h case) | Excellent | Good | Mac/iOS users, smooth integration |
 | Nothing Ear | €150 | 6h (+34h case) | Good | Good | Budget option, Google integration |
 | Sennheiser Momentum True 4 | €250 | 8h (+32h case) | Very good | Very good | Audiophile quality, glass fiber drivers |
 | Google Pixel Buds Pro | €200 | 7h (+31h case) | Excellent | Good | Android ecosystem, live translate |

@@ -33,7 +33,7 @@ A well-crafted weekly recap email solves this in several ways:
 
 ## Anatomy of an Effective Weekly Recap Email
 
-Before diving into templates, understand what makes a weekly recap email actually useful. The best recaps share these characteristics:
+Before exploring templates, understand what makes a weekly recap email actually useful. The best recaps share these characteristics:
 
 ### Brevity is Everything
 

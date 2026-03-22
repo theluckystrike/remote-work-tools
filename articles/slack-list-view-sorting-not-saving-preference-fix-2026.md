@@ -3,6 +3,7 @@ layout: default
 title: "Slack List View Sorting Not Saving Preference Fix 2026"
 description: "Fix Slack list view sorting not saving preferences. Step-by-step troubleshooting for remote workers and distributed teams using Slack in 2026."
 date: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools"
 permalink: /slack-list-view-sorting-not-saving-preference-fix-2026/
 categories: [guides]
@@ -13,6 +14,7 @@ intent-checked: true
 voice-checked: true
 ---
 {% raw %}
+# Slack List View Sorting Not Saving Preference Fix 2026
 
 If you've ever clicked on a Slack channel, sorted your messages by newest first, and then returned later only to find Slack reverted to its default sorting, you're not alone. This persistent issue affects remote workers and distributed teams who rely on consistent message organization across multiple devices and sessions. In this guide, we'll walk through practical solutions to fix Slack list view sorting not saving your preference.
 
@@ -21,6 +23,17 @@ If you've ever clicked on a Slack channel, sorted your messages by newest first,
 Slack offers multiple ways to sort your message views. In channel and direct message lists, you can choose between chronological (oldest first), reverse chronological (newest first), and activity-based sorting. The problem occurs when Slack fails to remember your selection, resetting to its default each time you revisit a conversation.
 
 This behavior creates friction for remote teams managing high message volumes. When you're working across time zones and need to quickly find the latest updates, unexpected sorting changes can lead to missed information or wasted time scrolling through familiar conversations.
+
+### Common Scenarios Where Sorting Resets
+
+| Scenario | Likely Cause | Fix Difficulty |
+|----------|-------------|---------------|
+| Sorting resets after closing Slack | Corrupted cache | Easy |
+| Different sorting on phone vs desktop | Per-device preferences not syncing | Medium |
+| Sorting resets after workspace switch | Multi-workspace session bug | Easy |
+| Sorting works then breaks after update | App update regression | Wait for patch or downgrade |
+| Sorting never saves on browser Slack | Browser storage blocked | Medium |
+| Sorting resets only in specific channels | Channel-level settings conflict | Check with admin |
 
 ## Step-by-Step Troubleshooting Solutions
 
@@ -59,6 +72,19 @@ Cached data corruption often causes preference reset issues. Clear Slack's local
 3. Delete the "Cache" and "webview-storage" folders
 4. Relaunch Slack
 
+**On Linux:**
+
+1. Close Slack
+2. Delete `~/.config/Slack/Cache` and `~/.config/Slack/webview-storage`
+3. Restart Slack
+
+**For Slack in a browser:**
+
+1. Open your browser's developer tools (F12)
+2. Go to Application > Storage
+3. Click "Clear site data" for the Slack domain
+4. Hard refresh the page (Ctrl+Shift+R or Cmd+Shift+R)
+
 ### Step 3: Check Your Workspace Permissions
 
 Sometimes workspace administrators impose settings that override individual preferences. If sorting consistently resets, verify that your workspace allows custom sorting.
@@ -68,7 +94,28 @@ Sometimes workspace administrators impose settings that override individual pref
 3. Look for any policies affecting message display or sorting
 4. Contact your workspace admin if restrictions are in place
 
-### Step 4: Reinstall Slack Completely
+### Step 4: Reset Slack's Local Database
+
+If clearing the cache did not help, Slack's local IndexedDB database may be corrupted. This stores your preferences including sort order.
+
+**Desktop app:**
+
+1. Quit Slack
+2. Navigate to the Slack data directory:
+   - macOS: `~/Library/Application Support/Slack/`
+   - Windows: `%APPDATA%\Slack\`
+   - Linux: `~/.config/Slack/`
+3. Rename the `IndexedDB` folder to `IndexedDB_backup`
+4. Restart Slack — it will rebuild the database from scratch
+
+**Browser:**
+
+1. Open DevTools (F12)
+2. Go to Application > IndexedDB
+3. Delete all Slack-related databases
+4. Reload the page
+
+### Step 5: Reinstall Slack Completely
 
 When updates and cache clearing don't resolve the issue, a clean reinstallation often works.
 
@@ -84,7 +131,7 @@ When updates and cache clearing don't resolve the issue, a clean reinstallation 
 3. Download the latest version from slack.com
 4. Install and sign in fresh
 
-### Step 5: Test Across Multiple Devices
+### Step 6: Test Across Multiple Devices
 
 If sorting works on one device but not another, the issue likely relates to specific app data or sync problems.
 
@@ -93,7 +140,7 @@ If sorting works on one device but not another, the issue likely relates to spec
 3. Sign out and back into Slack on the affected device
 4. Verify your sorting preference persists after closing and reopening Slack
 
-### Step 6: Check for Conflicting Slack Extensions or Integrations
+### Step 7: Check for Conflicting Slack Extensions or Integrations
 
 Browser extensions, particularly those modifying web pages, can interfere with Slack's preference storage.
 
@@ -101,17 +148,32 @@ Browser extensions, particularly those modifying web pages, can interfere with S
 2. Test whether sorting preferences save correctly
 3. Re-enable extensions one by one to identify conflicts
 
-### Step 7: Report to Slack Support
+Known conflicting extensions include ad blockers that strip cookies, privacy extensions that clear localStorage on tab close, and productivity tools that inject custom CSS into Slack.
+
+### Step 8: Report to Slack Support
 
 If none of the above solutions work, the issue may require attention from Slack's development team.
 
 When contacting support, include:
 
 - Your operating system and version
-- Slack app version
+- Slack app version (Help > About on desktop)
 - Steps you've already attempted
 - Screenshots showing the issue
 - Whether the problem occurs on multiple devices
+- Browser console logs if using web Slack (F12 > Console tab)
+
+## Comparing Slack Sorting Options
+
+Understanding what each sort mode does helps you pick the right default:
+
+| Sort Mode | Behavior | Best For |
+|-----------|----------|----------|
+| Activity | Most recent activity first | Catching up after time away |
+| Alphabetical | A-Z channel names | Large workspaces with many channels |
+| Priority | Starred and muted ordering | Focused work sessions |
+| Custom sections | Manual drag-and-drop ordering | Teams with stable channel lists |
+| Unread first | Channels with unread messages on top | High-volume workspaces |
 
 ## Preventing Future Issues
 
@@ -123,6 +185,8 @@ Beyond fixing the current problem, establish habits that minimize sorting-relate
 
 **Keep Apps Updated:** Enable automatic updates for Slack to receive bug fixes promptly.
 
+**Use Slack's sidebar sections:** Instead of relying on automatic sort order, organize channels into custom sidebar sections (Starred, Priority, Projects, etc.). These persist more reliably than sort preferences because they are stored server-side.
+
 ## Alternative Workarounds
 
 While troubleshooting continues, consider these temporary approaches:
@@ -130,48 +194,29 @@ While troubleshooting continues, consider these temporary approaches:
 - **Star Important Messages:** Use Slack's star feature to bookmark critical messages, making them easy to find regardless of sort order
 - **Create Custom Lists:** Use Slack's "Highlights" and "Saved Items" features to maintain visibility of important content
 - **Search Filters:** Master Slack's search operators to quickly locate specific messages without relying on sort order
+- **Keyboard shortcuts:** Press Ctrl+K (Cmd+K on Mac) to jump directly to any channel by name — faster than scrolling through a sorted list
 
-## Why This Issue Disproportionately Affects Remote Teams
+## Frequently Asked Questions
 
-Sorting preferences feel like a minor inconvenience to co-located workers who can quickly ask a colleague about a missed message. For fully distributed teams, a sorting reset creates a more serious problem: the context needed to catch up after a gap is entirely within Slack's message history, and navigating it efficiently depends on predictable ordering.
+### Does Slack store sorting preferences locally or on their servers?
 
-Consider a scenario common in remote work: you are based in London, your team lead is in San Francisco. Your working day ends before theirs begins. When you start work the next morning, you need to review everything your team discussed during the US afternoon. If your sorting resets overnight, you may spend several minutes re-orienting before you can start processing new information. Multiplied across a team of twenty people checking in from different time zones, this compounds into significant daily friction.
+Slack stores most display preferences locally on each device. This means your sorting preference on your laptop does not automatically apply to your phone or browser session. If you clear your cache or reinstall, these local preferences are lost. Sidebar section organization, by contrast, syncs across devices because it is stored server-side.
 
-Slack's preference sync architecture stores sorting choices locally per device and syncs to Slack's servers when you close a session cleanly. Abrupt disconnections—common with remote workers on VPNs or spotty connections—can prevent this sync from completing, causing the server to overwrite your local preference with its last saved state on next launch. Understanding this mechanism explains why signing out consistently before ending your session is not just good housekeeping—it is the specific action that triggers Slack to write your current preferences to the server before the session closes.
+### Why does sorting reset only in specific workspaces?
 
-## Using Slack Search Operators as a Reliable Alternative
+Each workspace maintains its own set of preferences. If you belong to multiple workspaces, a sorting preference set in one workspace does not carry over to others. Additionally, workspace admins can enforce default views that override your personal preferences for that specific workspace.
 
-While you work through the sorting fix, mastering Slack's search operators provides consistent message retrieval regardless of sort order. These operators work in the search bar and produce results in chronological order independent of your list view settings.
+### Is this a known Slack bug?
 
-**Date-based searching**: Find everything from a specific period without relying on sort order:
+Slack has acknowledged sorting persistence issues in several changelogs dating back to 2024. Patches have been released, but the issue recurs intermittently, particularly after major Slack updates or when switching between the desktop app and browser versions within the same session.
 
-```
-in:#team-engineering after:2026-03-18 before:2026-03-20
-```
+### Can I use the Slack API to set sorting preferences programmatically?
 
-**User and channel filtering**: Combine filters to narrow results quickly:
+No. The Slack Web API does not expose endpoints for user display preferences like channel sorting. These preferences are managed entirely through the client application. If you need consistent sorting across a team, your best option is to establish sidebar section conventions and document them in your team handbook.
 
-```
-from:@sarah in:#product-updates has:link
-```
+### Does the Electron version of Slack handle this differently than the browser version?
 
-**Keyword search within a channel**: Add the `in:` filter to restrict results to one conversation:
-
-```
-"deployment failed" in:#alerts after:yesterday
-```
-
-**All Unreads workaround**: If your sort preference keeps resetting, use the "All Unreads" view (Ctrl+Shift+A on Windows, Cmd+Shift+A on macOS). This view collects all unread messages across channels into a single stream sorted by recency, bypassing the individual channel sort settings that keep resetting. Create this as your default morning review starting point until the sorting issue is permanently resolved.
-
-## Slack's Known Issues Tracker and Escalation Path
-
-Before spending time on extensive troubleshooting, check whether your specific issue is a recognized bug with an expected fix timeline. Slack maintains a public status page at status.slack.com that documents current and historical incidents. Known preference bugs are typically discussed in the Slack Community forums under the "Technical Issues" section.
-
-When you report the issue to Slack support (Step 7 above), referencing the community forum thread number speeds up your case resolution. Support agents can immediately see whether your issue matches a known regression or requires individual investigation.
-
-For teams on Slack's Enterprise Grid plan, your workspace administrator has a dedicated Slack customer success contact who can escalate preference-saving bugs faster than the standard support queue. If the issue affects multiple people on your team simultaneously, coordinate a single escalation through your admin rather than submitting parallel tickets, which slows triage.
-
-For smaller teams without Enterprise contracts, the most effective escalation path is documenting the issue with screen recordings and submitting through the in-app feedback mechanism while the bug is actively occurring. Feedback submitted in-context carries more diagnostic weight than a written description filed after the fact.
+Yes. The Electron desktop app and the browser version use different storage mechanisms for preferences. The desktop app uses a local SQLite-like database, while the browser version uses IndexedDB and localStorage. Issues in one do not necessarily appear in the other. If one version fails to save preferences, try switching to the other as a workaround.
 
 
 ## Related Articles
@@ -181,34 +226,4 @@ For smaller teams without Enterprise contracts, the most effective escalation pa
 - [Best Practice for Remote Team Slack Do Not Disturb](/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-
-## Frequently Asked Questions
-
-
-**What if the fix described here does not work?**
-
-If the primary solution does not resolve your issue, check whether you are running the latest version of the software involved. Clear any caches, restart the application, and try again. If it still fails, search for the exact error message in the tool's GitHub Issues or support forum.
-
-
-**Could this problem be caused by a recent update?**
-
-Yes, updates frequently introduce new bugs or change behavior. Check the tool's release notes and changelog for recent changes. If the issue started right after an update, consider rolling back to the previous version while waiting for a patch.
-
-
-**How can I prevent this issue from happening again?**
-
-Pin your dependency versions to avoid unexpected breaking changes. Set up monitoring or alerts that catch errors early. Keep a troubleshooting log so you can quickly reference solutions when similar problems recur.
-
-
-**Is this a known bug or specific to my setup?**
-
-Check the tool's GitHub Issues page or community forum to see if others report the same problem. If you find matching reports, you will often find workarounds in the comments. If no one else reports it, your local environment configuration is likely the cause.
-
-
-**Should I reinstall the tool to fix this?**
-
-A clean reinstall sometimes resolves persistent issues caused by corrupted caches or configuration files. Before reinstalling, back up your settings and project files. Try clearing the cache first, since that fixes the majority of cases without a full reinstall.
-
-
 {% endraw %}

@@ -19,7 +19,7 @@ Keep your remote team of 2 operating under $50/month by combining free tiers and
 
 ## What Makes a Tool Stack "Budget-Friendly" for a Team of Two
 
-Before diving into specific tools, let's define what we're looking for in a budget-friendly remote work stack:
+Before examining specific tools, let's define what we're looking for in a budget-friendly remote work stack:
 
 - Free tiers or affordable pricing: Ideally free for small teams, or under $20/month total
 - Essential features only: Avoid over-engineered solutions with features you'll never use

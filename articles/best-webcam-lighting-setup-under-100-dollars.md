@@ -251,7 +251,7 @@ Evening (5pm-9pm): Warm-toned LED panels look best. Avoid cool (5000K) light at 
 
 Optimal color: Medium blue, gray, or earth tones
 
-**3. Camera Angle + Lighting Synergy**
+**3. Camera Angle + Lighting Combination**
 
 Good lighting cannot fix bad camera angle. Ensure:
 - Camera is at eye level or 5° above (never below)

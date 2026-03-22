@@ -254,7 +254,7 @@ Consider your expected growth:
 - **Rapid growth (30-100 people in next year):** Notion scales better
 - **Enterprise path (100+ people):** Basecamp's fixed cost becomes unbeatable
 
-If uncertain, start with Notion. You can always move to Basecamp's simplicity later, though migration isn't seamless. Moving from Basecamp to Notion requires rebuilding more fundamentally.
+If uncertain, start with Notion. You can always move to Basecamp's simplicity later, though migration isn't simple. Moving from Basecamp to Notion requires rebuilding more fundamentally.
 
 ## Hybrid Tool Strategy (Both Together)
 

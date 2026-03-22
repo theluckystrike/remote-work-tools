@@ -177,7 +177,6 @@ For teams wanting OKRs + performance management bundled: Use 15Five, but underst
 
 Most critical: Pick a tool and commit. OKRs fail not because of software—they fail because teams stop checking in by week 6. Pick something lightweight (Weekdone) and integrate it into your Friday ritual. That matters more than features.
 
-<<<<<<< HEAD
 
 
 
@@ -218,7 +217,4 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-=======
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
->>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 {% endraw %}

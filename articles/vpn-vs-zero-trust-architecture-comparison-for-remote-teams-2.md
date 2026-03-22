@@ -202,7 +202,7 @@ resource "cloudflare_access_policy" "engineeringApps" {
 
 Phase 3 is the most critical transition point. Running an identity-aware proxy in front of your most sensitive applications — production APIs, internal dashboards, database admin panels — gives you Zero Trust controls for high-value targets while the rest of the organization continues using VPN. This reduces migration risk considerably and lets you build operational familiarity before expanding.
 
-## Tool Landscape in 2026
+## Tool Field in 2026
 
 Several commercial products now implement Zero Trust Network Access (ZTNA) at different price points:
 

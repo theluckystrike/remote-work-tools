@@ -22,7 +22,7 @@ This guide provides concrete systems for maintaining clean separation between yo
 
 ## The Case for Strict Separation
 
-Before diving into implementation, understand why separation matters:
+Before exploring implementation, understand why separation matters:
 
 - **Tax deductions require documentation**. Commingled funds make it impossible to prove which expenses were genuinely business-related.
 - **Profitability becomes invisible**. When business income pays for personal expenses, you can't tell if you're actually earning money.

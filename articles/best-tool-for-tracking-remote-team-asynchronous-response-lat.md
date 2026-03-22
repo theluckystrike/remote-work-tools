@@ -172,7 +172,6 @@ Once you establish baseline metrics, implement these evidence-based improvements
 4. **Document decisions**: Reduce repeated questions by maintaining living documents
 5. **Set status indicators**: Make your response availability visible through Slack status or similar tools
 
-<<<<<<< HEAD
 ## Conclusion
 
 Tracking asynchronous response latency transforms an invisible bottleneck into a measurable, improvable metric. Start simple—extract data from tools you already use, calculate basic averages, and establish baselines. Over time, layer in more sophisticated tracking as your team's async culture matures.
@@ -215,7 +214,5 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [How to Manage Remote Team Across More Than 8 Timezones Guide](/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
 - [Convert to UTC range](/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
-=======
->>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

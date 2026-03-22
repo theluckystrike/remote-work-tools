@@ -28,7 +28,7 @@ These symptoms indicate that your current information architecture cannot scale.
 
 Before implementing changes, document your current state. Create an inventory of every tool your team uses, categorized by function. This audit should capture not just the tool names but also which teams use them, approximate storage volume, and most importantly, where information redundancy exists.
 
-A practical approach uses a simple CSV or JSON structure to map your tool landscape:
+A practical approach uses a simple CSV or JSON structure to map your tool market:
 
 ```json
 {

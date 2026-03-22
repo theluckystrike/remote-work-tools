@@ -45,7 +45,7 @@ Pick a theme that's broad enough for diverse projects but narrow enough to guide
 
 **Bad themes:**
 - "Anything goes" (too many bad ideas, dilutes energy)
-- Company-specific jargon ("Accelerate synergies") (kills creativity)
+- Company-specific jargon ("Accelerate collaborations") (kills creativity)
 
 **Announce early:** Slack post + email. Give 4 weeks for ideas to brew.
 

@@ -20,7 +20,7 @@ Cold outreach templates for freelance developers include mutual connection intro
 
 ## The Anatomy of a High-Converting Cold Outreach Message
 
-Before diving into templates, understand the four components that make cold outreach successful:
+Before exploring templates, understand the four components that make cold outreach successful:
 
 1. **Personalization** — Reference something specific about the recipient's work or company
 2. **Credibility** — Demonstrate you understand their technical context

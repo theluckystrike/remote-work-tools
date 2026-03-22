@@ -176,7 +176,7 @@ Global teams require localized benefits information. Store benefits content with
 {
   "benefit_descriptions": {
     "health_insurance": {
-      "en": "Comprehensive health coverage for you and your family",
+      "en": "Complete health coverage for you and your family",
       "de": "Umfassende Krankenversicherung für Sie und Ihre Familie",
       "ja": "ご本人とご家族の 包括的な医療保険",
       "pt-BR": "Cobertura de saúde abrangente para você e sua família"

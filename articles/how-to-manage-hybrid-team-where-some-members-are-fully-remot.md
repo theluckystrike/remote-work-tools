@@ -15,7 +15,6 @@ tags: [remote-work-tools]
 ---
 
 Hybrid teams with split remote and in-office members need explicit communication norms, video-first meetings, and documentation-first workflows to prevent information silos. Establish core hours for synchronous overlap, implement async-first standups using GitHub Actions or Slack, and make all meeting rooms video-conference ready with equal participation cues. This guide provides practical systems and code examples for managing teams that work across locations without enterprise tools.
->>>>>>> 6f82cb5 (intent: restructure 6 articles for search intent alignment)
 
 ## The Asynchronous-First Foundation
 

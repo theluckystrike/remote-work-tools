@@ -357,7 +357,6 @@ Track these metrics:
 
 If decision time is >5 days or meeting hours >8, your async culture is breaking down. Tighten feedback deadlines; increase documentation.
 
-<<<<<<< HEAD
 ## Conclusion
 
 Async-first culture is built on four pillars: centralized knowledge base, clear communication protocols, ruthless meeting elimination, and written decision-making. The payoff is massive: 10+ extra hours per week of deep work, better decisions (because people think before writing), and respect for time zones and working styles.
@@ -404,7 +403,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-=======
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
->>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 {% endraw %}

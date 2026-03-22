@@ -291,7 +291,7 @@ The most successful nomad networkers have a system, not just spontaneity:
 - What communities align with your goals?
 - How is your international network growing?
 
-## Advanced: Leveraging Nomad Networks for Opportunities
+## Advanced: Taking advantage of Nomad Networks for Opportunities
 
 After 6-12 months of consistent networking, your network becomes a business development asset:
 

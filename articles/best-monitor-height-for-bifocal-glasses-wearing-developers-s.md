@@ -253,7 +253,7 @@ Many developers wonder whether to upgrade from bifocals to progressive lenses. E
 - Limited viewing angles without distortion
 
 **Progressive lenses advantages:**
-- Seamless transition, no visible line
+- Simple transition, no visible line
 - Wider usable viewing zones
 - Better for varied distance activities
 - More modern appearance

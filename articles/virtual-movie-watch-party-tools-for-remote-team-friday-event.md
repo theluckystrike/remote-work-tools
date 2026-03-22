@@ -83,7 +83,7 @@ sudo systemctl restart jellyfin
 
 Once configured, create a watch party from the Jellyfin interface, invite team members, and the plugin handles synchronization. The advantage: stream from your own media library without licensing concerns.
 
-**Plex** offers native Watch Together functionality for Plex Pass subscribers. The integration is seamless if your team already uses Plex for media management:
+**Plex** offers native Watch Together functionality for Plex Pass subscribers. The integration is smooth if your team already uses Plex for media management:
 
 1. Start playing any video in Plex
 2. Select "Create Watch Together" from the player menu
@@ -96,7 +96,7 @@ The limitation is the subscription requirement and locked ecosystem—works well
 
 **Small teams (2-8 people)** benefit most from Teleparty or Watch2Gether. Minimal setup, no infrastructure management, sufficient for casual Friday viewing. Teleparty excels if everyone has streaming subscriptions; Watch2Gether handles mixed scenarios better.
 
-**Medium teams (9-30 people)** should consider Watch2Gether's paid tier or StreamSync. The increased participant count requires more robust synchronization, and dedicated platforms handle scale better than browser extensions.
+**Medium teams (9-30 people)** should consider Watch2Gether's paid tier or StreamSync. The increased participant count requires more strong synchronization, and dedicated platforms handle scale better than browser extensions.
 
 **Large teams (30+ people)** need self-hosted solutions or enterprise-focused platforms. Jellyfin with SyncPlay provides cost-effective scaling, while organizations willing to pay should evaluate enterprise sync-play services like Evenbeat or Room.
 

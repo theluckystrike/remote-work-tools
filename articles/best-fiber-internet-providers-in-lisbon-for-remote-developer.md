@@ -281,7 +281,7 @@ Run these tests during different times to establish baseline:
 
 ```bash
 #!/bin/bash
-# Comprehensive fiber performance test
+# Complete fiber performance test
 
 echo "=== THROUGHPUT BENCHMARKS ==="
 # Download speed (500MB file)

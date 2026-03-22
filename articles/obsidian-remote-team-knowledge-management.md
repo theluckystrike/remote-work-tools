@@ -269,11 +269,7 @@ When two people edit the same note simultaneously and both commit, Git will crea
 
 ```bash
 # The conflict looks like this in the file:
-<<<<<<< HEAD
 The database decision was finalized on 2026-03-15.
-=======
-The database decision was finalized on 2026-03-14.
->>>>>>> origin/main
 ```
 
 ```bash

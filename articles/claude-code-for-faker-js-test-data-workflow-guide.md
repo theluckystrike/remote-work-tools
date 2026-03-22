@@ -26,7 +26,7 @@ The key advantage is that Claude Code understands both the Faker.js API and your
 
 ### Setting Up Your Environment
 
-Before diving into workflows, ensure you have Faker.js installed in your project:
+Before examining workflows, ensure you have Faker.js installed in your project:
 
 ```bash
 npm install @faker-js/faker

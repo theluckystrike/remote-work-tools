@@ -8,7 +8,7 @@ author: "Remote Work Tools"
 permalink: /hybrid-office-space-planning-tool-for-facilities-managers-op/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]

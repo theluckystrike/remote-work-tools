@@ -20,7 +20,7 @@ Remote work doesn't require the 1 Gbps fiber connection you'd think. Most tasks 
 
 ## Understanding Bandwidth vs. Latency vs. Jitter
 
-Before diving into specific tasks, clarify three network metrics:
+Before examining specific tasks, clarify three network metrics:
 
 **Bandwidth (Mbps):** Total data throughput available. Think of it as the width of the pipe.
 - Measured in megabits per second (Mbps) or gigabits per second (Gbps)

@@ -61,7 +61,7 @@ When you're driving (implementing), start by recording a walkthrough before or d
 Your walkthrough should cover:
 
 1. The problem: What issue are you solving? Reference any related issues or PRs.
-2. Your approach: Walk through the overall strategy before diving into code.
+2. Your approach: Walk through the overall strategy before examining code.
 3. Key decisions: Explain why you chose this implementation over alternatives.
 4. Potential concerns: Be transparent about tradeoffs or areas of uncertainty.
 5. Specific code sections: Highlight the most important or complex parts of your implementation.

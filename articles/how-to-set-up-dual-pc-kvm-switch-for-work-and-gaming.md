@@ -131,7 +131,7 @@ This setup lets you develop on your work machine while keeping your gaming PC av
 
 ## Advanced Configuration: Automatic Switching
 
-Some KVM models support automatic switching based on which computer is powered on or sending a video signal. This creates a seamless experience—if your work laptop is docked and your gaming PC is off, the KVM automatically selects the laptop.
+Some KVM models support automatic switching based on which computer is powered on or sending a video signal. This creates a simple experience—if your work laptop is docked and your gaming PC is off, the KVM automatically selects the laptop.
 
 You can combine hardware and software approaches. Use the hardware KVM for your primary monitor, keyboard, and mouse, then use Barrier for additional functionality like clipboard sync and file drag-and-drop between machines.
 

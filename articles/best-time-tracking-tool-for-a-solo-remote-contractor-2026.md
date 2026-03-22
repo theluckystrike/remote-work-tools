@@ -20,7 +20,7 @@ As a solo developer or remote contractor, you need time tracking that disappears
 
 ## What Solo Contractors Actually Need
 
-Before diving into specific tools, let's establish what makes time tracking work for a single person handling multiple client projects:
+Before looking at specific tools, let's establish what makes time tracking work for a single person handling multiple client projects:
 
 1. **Instant start** — No login screens, no browser extensions to click through
 2. **Project switching without friction** — Moving between client work should take one command or keystroke

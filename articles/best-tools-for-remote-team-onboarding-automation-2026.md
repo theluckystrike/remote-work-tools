@@ -232,7 +232,7 @@ Via Zapier:
 
 - **Most **: HR + payroll + IT in one platform
 - **Device provisioning**: Only major platform with built-in device management
-- **Identity integration**: Seamless Okta/Azure AD sync
+- **Identity integration**: Smooth Okta/Azure AD sync
 - **Offboarding**: Complete access revocation automation
 - **Enterprise-ready**: SOC 2, HIPAA, FedRAMP compliant
 
@@ -454,7 +454,7 @@ New hire in BambooHR → Auto-send tax forms → Sync to payroll
 
 - Unified platform: HR + payroll + IT + devices
 - Auto-provision laptops, accounts, identity
-- Seamless Azure AD / Okta integration
+- Simple Azure AD / Okta integration
 - Offboarding automation
 - Cost: ~$4,000-9,000/month total ($8-18 per employee)
 

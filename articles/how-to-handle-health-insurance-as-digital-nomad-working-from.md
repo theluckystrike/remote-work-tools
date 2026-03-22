@@ -20,7 +20,7 @@ Working remotely from Thailand offers an attractive lifestyle—affordable cost 
 
 This guide walks through your options, practical steps, and cost considerations to help you make informed decisions about health insurance while working from Thailand.
 
-## Understanding Thailand's Healthcare Landscape
+## Understanding Thailand's Healthcare Field
 
 Thailand boasts world-class private hospitals, particularly in Bangkok, Chiang Mai, and Phuket. International hospitals like Bumrungrad and Bangkok Hospital serve expats with English-speaking staff and modern facilities. However, healthcare costs add up quickly without insurance—a simple consultation might cost 1,000-3,000 THB, while major procedures easily reach hundreds of thousands of baht.
 
@@ -49,7 +49,7 @@ Some insurers offer plans specifically designed for Thailand residents. These of
 # Based on typical rates for a healthy 30-year-old developer
 
 coverage_types = {
-    "International Comprehensive": {
+    "International Detailed": {
         "monthly_premium": 150,
         "deductible": 500,
         "coverage_area": "Global",

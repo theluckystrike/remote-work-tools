@@ -112,7 +112,7 @@ We tested this with two team members prone to wrist strain. One has carpal tunne
 
 Quantified: One user went from 6/10 wrist pain (with HHKB) to 2/10 with Kinesis Advantage 360 over 8 weeks of use.
 
-**Thumb cluster:** The Kinesis puts 14 keys under your thumbs. You can reprogram these for Space, Enter, Ctrl, Alt, Layer toggles. This is a game-changer if you have limited hand mobility or heavy modifier use. One user remapped Space and Layer to thumbs, reducing pinky strain by ~40% (measured typing speed and accuracy gains).
+**Thumb cluster:** The Kinesis puts 14 keys under your thumbs. You can reprogram these for Space, Enter, Ctrl, Alt, Layer toggles. This is a big deal if you have limited hand mobility or heavy modifier use. One user remapped Space and Layer to thumbs, reducing pinky strain by ~40% (measured typing speed and accuracy gains).
 
 **Switch feel:** We tested with Kinesis-native switches (similar to Cherry MX Browns, 55g, tactile). Hotswap is standard, so you can swap to reds, blacks, etc. Build quality is solid; no rattle.
 
