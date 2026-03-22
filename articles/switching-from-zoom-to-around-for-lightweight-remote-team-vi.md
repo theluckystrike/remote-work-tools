@@ -192,7 +192,7 @@ permalink: /switching-from-zoom-to-around-for-lightweight-remote-team-vi/
 categories: [guides]
 tags: [remote-work-tools, video-conferencing, zoom, around, team-collaboration, developer-tools, lightweight-meetings, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: false
 voice-checked: false---
 ---
