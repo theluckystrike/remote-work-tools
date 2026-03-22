@@ -326,6 +326,7 @@ For remote developers, keyboard investment pays dividends. You're typing 8+ hour
 
 Invest in silence. Your team will thank you.
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 ---

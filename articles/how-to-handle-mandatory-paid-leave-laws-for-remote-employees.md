@@ -27,10 +27,10 @@ Before diving into solutions, understand what's at stake. Violations of state pa
 
 **California** (one of strictest states):
 - If an employee wins a lawsuit for unpaid accrued leave, they get:
-  - Full accrued leave value
-  - Penalties: Up to 30 days' additional wages
-  - Potential Labor Commissioner administrative penalties
-  - Attorney's fees and court costs
+ - Full accrued leave value
+ - Penalties: Up to 30 days' additional wages
+ - Potential Labor Commissioner administrative penalties
+ - Attorney's fees and court costs
 
 **New York**:
 - Minimum penalties of $500 per employee per year for violations

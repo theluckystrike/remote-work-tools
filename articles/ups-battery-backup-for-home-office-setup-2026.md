@@ -233,11 +233,11 @@ Add-on: **Extra battery pack** ($80-120) if you need 40+ minutes runtime
 1. Unpack UPS, remove shipping bolts/brackets
 2. Place on floor beside desk (not under desk where air can't circulate)
 3. Connect cables in order:
-   - Power strip (with surge protection) into UPS
-   - Monitor into power strip
-   - Desktop/laptop charger into power strip
-   - Modem/router into UPS (directly, not via power strip)
-   - USB management cable to laptop
+ - Power strip (with surge protection) into UPS
+ - Monitor into power strip
+ - Desktop/laptop charger into power strip
+ - Modem/router into UPS (directly, not via power strip)
+ - USB management cable to laptop
 
 4. Plug UPS into wall outlet
 5. Power on UPS; LED indicators should light up
@@ -310,9 +310,9 @@ Result: ✓ Within expected range
 1. Trigger low-battery condition (drain until 10% remains)
 2. Verify your shutdown script executes
 3. Check logs for:
-   - Time of battery low event
-   - Git commits made (if you have pre-shutdown hook)
-   - Graceful shutdown executed
+ - Time of battery low event
+ - Git commits made (if you have pre-shutdown hook)
+ - Graceful shutdown executed
 4. Reconnect, verify nothing was corrupted
 
 ## Monitoring and Maintenance

@@ -61,7 +61,7 @@ Time blocking transformed from a productivity trend into a remote work necessity
 
 ### The Focus Block Protocol
 
-Structure your day around focus blocks of 90-120 minutes — roughly the length of a ultradian rhythm cycle. During these blocks:
+Structure your day around focus blocks of 90-120 minutes — roughly the length of an ultradian rhythm cycle. During these blocks:
 
 - Close or hide email clients
 - Exit chat applications
@@ -86,7 +86,7 @@ Async-first communication fundamentally reduces interruption load. When teammate
 Explicitly define response time expectations with your team:
 
 - **Immediate (within 30 minutes)**: Production emergencies, critical client issues
-- **Same day (within 4 hours)**: Time-sensitive questions, blocking issues  
+- **Same day (within 4 hours)**: Time-sensitive questions, blocking issues 
 - **Standard (within 24 hours)**: Most messages, non-urgent requests
 - **Low priority (within 48 hours)**: FYI messages, optional invitations
 
@@ -170,7 +170,7 @@ Specific tools amplify the strategies above. Here's what effective remote worker
 
 ## Building Sustainable Habits
 
-Eliminating distraction isn't a one-time fix — it's an ongoing practice. Build systems that support long-term success:
+Eliminating distraction isn't an one-time fix — it's an ongoing practice. Build systems that support long-term success:
 
 **Start small.** Don't try to implement everything at once. Pick one change, practice it for two weeks, then add another.
 
@@ -188,14 +188,14 @@ Popular distraction-elimination solutions vary significantly in approach and eff
 
 | Tool | Price | Platform | Key Feature | Best For |
 |------|-------|----------|-------------|----------|
-| Freedom | $40/year | Mac/Win/iOS/Android | Cross-device blocking | Comprehensive control |
+| Freedom | $40/year | Mac/Win/iOS/Android | Cross-device blocking | control |
 | Cold Turkey | $39 one-time | Windows/Mac | "Frozen turkey" mode | Nuclear option users |
 | Focus@Will | $5.99/month | Web/App | Curated focus music | Audio-centric workers |
 | RescueTime | Free-$180/year | Mac/Win/Linux | Automatic time tracking | Analytics-first approach |
 | LeechBlock NG | Free | Chrome/Firefox | Browser-only blocking | Lightweight solution |
 | Forest | $2.99 one-time | Web/iOS/Android | Gamified focus sessions | Reward-motivated users |
 
-**Freedom** ($40/year) offers the most comprehensive solution for power users. It blocks websites, apps, and internet connectivity across all devices with synced schedules. The downside: requires setup on each device, though the cross-platform approach means you can't simply switch browsers to bypass it.
+**Freedom** ($40/year) offers the most solution for power users. It blocks websites, apps, and internet connectivity across all devices with synced schedules. The downside: requires setup on each device, though the cross-platform approach means you can't simply switch browsers to bypass it.
 
 **Cold Turkey** ($39 one-time) takes a scorched-earth approach. Once activated, you cannot disable it until the timer ends—even restarting your computer won't help. Some users love this irreversible commitment; others find it frustrating when legitimate exceptions occur. Worth trying on a test machine first.
 
@@ -264,4 +264,5 @@ Before your next focus session, verify:
 
 The physical act of checking this list before starting creates a ritual that signals to your brain: deep work time.
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

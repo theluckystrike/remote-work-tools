@@ -224,7 +224,7 @@ Retention Policies: Implement automated message retention that aligns with your 
 
 The technical implementation is only half the challenge. Getting clients to actually use the portal requires deliberate onboarding. Many legal clients—particularly in estate planning, real estate, or elder law—are unfamiliar with self-service portals and may default to calling or emailing the firm directly, which defeats the purpose.
 
-Develop a one-page client portal guide in plain language (not legal language) that explains how to log in, upload documents, send secure messages, and make payments. Send this guide with the engagement letter, include a 5-minute video walkthrough hosted on Loom or YouTube, and have a paralegal follow up with first-time portal users to confirm they can access the system.
+Develop an one-page client portal guide in plain language (not legal language) that explains how to log in, upload documents, send secure messages, and make payments. Send this guide with the engagement letter, include a 5-minute video walkthrough hosted on Loom or YouTube, and have a paralegal follow up with first-time portal users to confirm they can access the system.
 
 For high-value clients or those who express hesitation, offer a brief 15-minute onboarding call focused entirely on the portal. The investment pays back immediately by eliminating weeks of email back-and-forth during the matter.
 

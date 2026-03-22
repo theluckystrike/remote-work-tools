@@ -236,10 +236,10 @@ Purchase decisions should involve hands-on testing:
 - Sit in front of each monitor for 5-10 minutes
 - Display your typical work (open a code editor or website)
 - Pay attention to:
-  - Does text rendering feel sharp?
-  - Does color accuracy look consistent across the screen?
-  - How does the stand height adjustment feel?
-  - Is the display angle comfortable?
+ - Does text rendering feel sharp?
+ - Does color accuracy look consistent across the screen?
+ - How does the stand height adjustment feel?
+ - Is the display angle comfortable?
 
 **Online purchase with return policy:**
 - Order two monitors from retailers with free returns
@@ -336,5 +336,4 @@ Check calibration settings. Many monitors ship with brightness at 100%. Reduce t
 - [How to Choose Monitor Arm Weight Capacity for Remote.](/remote-work-tools/how-to-choose-monitor-arm-weight-capacity-for-remote-work-ultrawide-screen-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

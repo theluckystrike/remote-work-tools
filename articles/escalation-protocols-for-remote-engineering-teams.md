@@ -258,9 +258,9 @@ Create runbooks for your top 5 failure scenarios. Here's a template:
 1. Open CloudWatch dashboard for "RDS Connections"
 2. Check which service is consuming connections:
    ```bash
-   # SSH to bastion, then:
-   psql $DB_HOST -c "SELECT datname, count(*) FROM pg_stat_activity GROUP BY datname;"
-   ```
+ # SSH to bastion, then:
+ psql $DB_HOST -c "SELECT datname, count(*) FROM pg_stat_activity GROUP BY datname;"
+ ```
 3. Determine if this is abnormal (compare to typical usage graph)
 
 ## If Abnormal Connection Usage
@@ -274,11 +274,11 @@ Create runbooks for your top 5 failure scenarios. Here's a template:
 ```bash
 # Kill idle connections from specific app
 psql $DB_HOST -c "
-  SELECT pg_terminate_backend(pid)
-  FROM pg_stat_activity
-  WHERE datname = 'production'
-    AND state = 'idle'
-    AND state_change < now() - interval '5 minutes'
+SELECT pg_terminate_backend(pid)
+FROM pg_stat_activity
+WHERE datname = 'production'
+AND state = 'idle'
+AND state_change < now() - interval '5 minutes'
 ;"
 ```
 

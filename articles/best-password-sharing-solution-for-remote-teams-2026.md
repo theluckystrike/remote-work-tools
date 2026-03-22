@@ -349,10 +349,10 @@ $5/user/month for basic features. Expensive compared to Bitwarden Teams at same 
 ### Week 1: Choose and Deploy
 
 1. Decide based on your needs:
-   - Engineering, granular access, SSO needed? → 1Password
-   - Budget is tight, ops team available? → Bitwarden (self-hosted)
-   - Large non-technical team? → Dashlane
-   - Don't choose LastPass
+ - Engineering, granular access, SSO needed? → 1Password
+ - Budget is tight, ops team available? → Bitwarden (self-hosted)
+ - Large non-technical team? → Dashlane
+ - Don't choose LastPass
 
 2. Create admin accounts and test vault structure
 
@@ -389,16 +389,16 @@ $5/user/month for basic features. Expensive compared to Bitwarden Teams at same 
 ## Security Best Practices Regardless of Tool
 
 1. **Require MFA on all accounts** (not just password manager)
-   - Even if someone learns your password, they can't access the vault
+ - Even if someone learns your password, they can't access the vault
 
 2. **Rotate shared credentials regularly**
-   - GitHub tokens: every 90 days
-   - Database passwords: every 180 days
-   - API keys: every 60 days
-   - Implement automated rotation if possible
+ - GitHub tokens: every 90 days
+ - Database passwords: every 180 days
+ - API keys: every 60 days
+ - Implement automated rotation if possible
 
 3. **Audit access monthly**
-   ```
+ ```
    Questions to ask:
    - Who accessed production credentials this month?
    - Did anyone access credentials they shouldn't have?
@@ -406,13 +406,13 @@ $5/user/month for basic features. Expensive compared to Bitwarden Teams at same 
    ```
 
 4. **Limit shared credentials**
-   - Only credentials that absolutely must be shared
-   - Personal credentials (personal GitHub account, your email password) stay personal
+ - Only credentials that absolutely must be shared
+ - Personal credentials (personal GitHub account, your email password) stay personal
 
 5. **Offboard properly**
-   - When someone leaves, reset all shared passwords they had access to
-   - Change GitHub tokens, database passwords, API keys
-   - Remove their user from all vaults immediately
+ - When someone leaves, reset all shared passwords they had access to
+ - Change GitHub tokens, database passwords, API keys
+ - Remove their user from all vaults immediately
 
 ## Recommendation by Team Size
 
@@ -444,6 +444,5 @@ The goal is a secure, auditable system where credentials are shared but access i
 - [Bitwarden vs 1Password for Team Credential Sharing](/privacy-tools-guide/bitwarden-vs-1password-for-team-credential-sharing/)
 - [API Key Management Workflow for Remote Development Team](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
 
-Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
-
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

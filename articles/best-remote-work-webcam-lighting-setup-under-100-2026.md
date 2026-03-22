@@ -391,5 +391,4 @@ Measured in Kelvin (K). Lower numbers = warmer (more orange). Higher = cooler (m
 - [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

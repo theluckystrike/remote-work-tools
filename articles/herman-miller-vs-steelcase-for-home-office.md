@@ -253,11 +253,11 @@ Many retailers offer 30-90 day trials:
 - Set up properly with monitor, keyboard, mouse at correct heights
 - Work full 8-hour days for at least one week
 - Pay attention to:
-  - Lower back comfort after 4+ hours
-  - Neck position (does your posture suffer late in the day?)
-  - Heat buildup (do you get too warm?)
-  - Armrest usability (do you actually use them?)
-  - Stand/sit transitions (does chair support standing movement?)
+ - Lower back comfort after 4+ hours
+ - Neck position (does your posture suffer late in the day?)
+ - Heat buildup (do you get too warm?)
+ - Armrest usability (do you actually use them?)
+ - Stand/sit transitions (does chair support standing movement?)
 
 Real feedback requires living with the chair, not 15-minute showroom tests.
 

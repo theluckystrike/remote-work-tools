@@ -218,7 +218,7 @@ Slite is a lightweight knowledge base built for speed. Docs are organized in fol
 1. Create a GitHub repo (e.g., `company-wiki`).
 2. Create `docs/` folder, add Markdown files.
 3. Create `gitbook.yaml` at repo root:
-   ```yaml
+ ```yaml
    root: ./docs
    title: Company Wiki
    author: Your Team
@@ -244,7 +244,7 @@ Slite is a lightweight knowledge base built for speed. Docs are organized in fol
 1. Provision a Linux server.
 2. Install Docker, Docker-Compose.
 3. Create `docker-compose.yml`:
-   ```yaml
+ ```yaml
    version: '3'
    services:
      postgres:
@@ -294,6 +294,7 @@ If you outgrow your current tool:
 
 Most tools support bulk exports and Markdown, so switching is feasible.
 
+<<<<<<< HEAD
 ## Conclusion
 
 Choose based on team size, technical comfort, and budget:
@@ -317,4 +318,7 @@ The best knowledge base is the one your team actually uses. Notion gets adoption
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+=======
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+>>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 {% endraw %}

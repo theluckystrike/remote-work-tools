@@ -231,7 +231,7 @@ They share the dashboard with the team. Transparency about what is measured and 
 
 They set a 4-week baseline before drawing conclusions. One week of low commit activity might mean a developer was deep in architecture planning, not slacking. Four weeks of data reveals actual patterns.
 
-They combine metrics with regular one-on-ones. Quantitative signals complement qualitative conversation. If the dashboard shows low PR activity from a developer, a one-on-one might reveal they are blocked by an unclear spec or waiting for a code review from a senior engineer.
+They combine metrics with regular one-on-ones. Quantitative signals complement qualitative conversation. If the dashboard shows low PR activity from a developer, an one-on-one might reveal they are blocked by an unclear spec or waiting for a code review from a senior engineer.
 
 They retire metrics that create perverse incentives. If measuring commit count causes developers to split work into dozens of tiny commits, that metric is now measuring the wrong thing. Review your metrics quarterly and cut any that no longer reflect genuine output.
 

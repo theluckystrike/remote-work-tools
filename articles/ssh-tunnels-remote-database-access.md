@@ -266,5 +266,4 @@ lsof -ti:5433 | xargs kill  # kill whatever is using port 5433
 - [Best Cloud Access Security Broker for Remote Teams Using](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

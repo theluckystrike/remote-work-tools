@@ -345,6 +345,8 @@ Use this framework to select the best option for your specific situation:
 - Problem: EDR detects threat but unclear who responds or how
 - Result: Detection occurs but incident response is chaotic
 - Fix: Create response runbooks before deployment, test during trials
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 

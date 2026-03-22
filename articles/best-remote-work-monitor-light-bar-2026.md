@@ -232,14 +232,14 @@ Studies show 40% reduction in eye strain with proper monitor lighting.
 3. **Mount light bar onto bracket** (slots into groove, secure with friction)
 
 4. **Connect USB-C cable:**
-   - To monitor USB hub (if available)
-   - To powered USB hub on desk
-   - To laptop USB-C port (some power loss on laptops)
+ - To monitor USB hub (if available)
+ - To powered USB hub on desk
+ - To laptop USB-C port (some power loss on laptops)
 
 5. **Download app:**
-   - BenQ ScreenBar app (iOS/Android/Windows/Mac)
-   - Log in or use local mode
-   - Grant Bluetooth permission
+ - BenQ ScreenBar app (iOS/Android/Windows/Mac)
+ - Log in or use local mode
+ - Grant Bluetooth permission
 
 6. **Calibrate:** App offers preset brightness/warmth; adjust to desk lighting
 
@@ -344,7 +344,5 @@ Light bars win on ease of setup and effectiveness combined.
 - [Best Baby Monitor with WiFi That Works Alongside Home](/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
 - [Best Blue Light Glasses for Programmers: A Practical Guide](/best-blue-light-glasses-for-programmers/)
 
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

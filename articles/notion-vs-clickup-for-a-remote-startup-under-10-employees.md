@@ -188,30 +188,30 @@ Getting started matters more than perfect selection. Here's how to implement eac
 ### Notion Quick Start (2 hours)
 
 1. Create a template workspace with these core databases:
-   - **Project Tracker**: Name, status, deadline, owner, description
-   - **Task Backlog**: Link to projects, priority, assignee, due date, status
-   - **Decision Log**: What decision, who decided, reasoning, date
-   - **Meeting Notes**: Meeting date, attendees, decisions made, action items
+ - **Project Tracker**: Name, status, deadline, owner, description
+ - **Task Backlog**: Link to projects, priority, assignee, due date, status
+ - **Decision Log**: What decision, who decided, reasoning, date
+ - **Meeting Notes**: Meeting date, attendees, decisions made, action items
 
 2. Add relations between databases—each task links to its project, each action item links to a decision
 
 3. Create a team dashboard homepage that shows:
-   - Today's tasks (due today)
-   - Overdue items
-   - Decision log recent entries
-   - Active projects
+ - Today's tasks (due today)
+ - Overdue items
+ - Decision log recent entries
+ - Active projects
 
 ### ClickUp Quick Start (2 hours)
 
 1. Create a space for your startup with these folders:
-   - **Product Development**: Store sprints here
-   - **Operations**: Recurring tasks, company processes
-   - **Sales & Marketing**: Campaign tracking
+ - **Product Development**: Store sprints here
+ - **Operations**: Recurring tasks, company processes
+ - **Sales & Marketing**: Campaign tracking
 
 2. Set up custom fields:
-   - Priority (High, Medium, Low)
-   - Time Estimate (hours)
-   - Team (Engineering, Product, Operations, etc.)
+ - Priority (High, Medium, Low)
+ - Time Estimate (hours)
+ - Team (Engineering, Product, Operations, etc.)
 
 3. Create a task template for recurring items (weekly meeting prep, monthly reviews)
 

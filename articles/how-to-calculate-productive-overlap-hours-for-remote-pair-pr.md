@@ -446,5 +446,4 @@ Share this with team so expectations are clear from hire date.
 - [Best Remote Pair Design Tool for UX Researchers](/remote-work-tools/best-remote-pair-design-tool-for-ux-researchers-collaboratin/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

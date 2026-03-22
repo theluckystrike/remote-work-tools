@@ -17,7 +17,7 @@ This article compares five OKR tracking tools head-to-head on setup ease, report
 
 ## Weekdone
 
-Weekdone is lightweight—it prioritizes simplicity over comprehensive feature bloat. Built explicitly for remote teams and async work, it's strong for teams that want OKR tracking without learning new enterprise software.
+Weekdone is lightweight—it prioritizes simplicity over feature bloat. Built explicitly for remote teams and async work, it's strong for teams that want OKR tracking without learning new enterprise software.
 
 Strengths: Setup takes 2 hours (genuinely). Interface is clean and doesn't overwhelm. Status updates are async, not synchronous (Slack posts sent weekly, no required meetings to update OKRs). Good roadmap integration—can link OKRs to initiatives and sprints. Excellent for transparent alignment: everyone sees everyone's OKRs by default.
 
@@ -99,7 +99,7 @@ Result: Done, intuitive, everyone can see alignment immediately.
 - Create team OKRs and validate cascades (45 min)
 - Configure check-in schedule (15 min)
 - Test workflows (30 min)
-Result: Robust, but requires dedicated OKR person to understand cascade rules.
+Result: Strong, but requires dedicated OKR person to understand cascade rules.
 
 **Perdoo Setup Time**: 2 hours
 - Set up org structure (20 min)
@@ -177,6 +177,7 @@ For teams wanting OKRs + performance management bundled: Use 15Five, but underst
 
 Most critical: Pick a tool and commit. OKRs fail not because of software—they fail because teams stop checking in by week 6. Pick something lightweight (Weekdone) and integrate it into your Friday ritual. That matters more than features.
 
+<<<<<<< HEAD
 
 
 ## Related Articles
@@ -188,4 +189,7 @@ Most critical: Pick a tool and commit. OKRs fail not because of software—they 
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+=======
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+>>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 {% endraw %}

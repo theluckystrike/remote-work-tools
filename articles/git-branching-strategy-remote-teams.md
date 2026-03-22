@@ -275,5 +275,4 @@ gh pr list --state closed --limit 50 --json headRefName,closedAt \
 - [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

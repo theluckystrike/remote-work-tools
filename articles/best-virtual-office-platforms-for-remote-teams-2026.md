@@ -170,26 +170,26 @@ Kumospace, but disable always-on. Instead, schedule "office hours" (10am-12pm ev
 ## Real Deployment Pipeline
 
 1. **Week 1: Selection**
-   - Run 30-minute pilots of top 2 platforms
-   - Have team vote on preferred UX
-   - Negotiate pricing (most offer discounts for annual commitments)
+ - Run 30-minute pilots of top 2 platforms
+ - Have team vote on preferred UX
+ - Negotiate pricing (most offer discounts for annual commitments)
 
 2. **Week 2-3: Setup**
-   - Build out workspace (maps, rooms, desks)
-   - Set up integrations (Slack, Calendar)
-   - Train team (15-minute video on how proximity works)
-   - Go live with opt-in (don't force)
+ - Build out workspace (maps, rooms, desks)
+ - Set up integrations (Slack, Calendar)
+ - Train team (15-minute video on how proximity works)
+ - Go live with opt-in (don't force)
 
 3. **Week 4-6: Normalize**
-   - Celebrate wins (e.g., "5 unscheduled pair programming sessions today")
-   - Move standup to platform if it feels natural
-   - Retire Zoom for casual catch-ups
-   - Gather feedback on what's working
+ - Celebrate wins (e.g., "5 unscheduled pair programming sessions today")
+ - Move standup to platform if it feels natural
+ - Retire Zoom for casual catch-ups
+ - Gather feedback on what's working
 
 4. **Month 2+: Optimize**
-   - Monitor usage (Gather publishes metrics)
-   - Adjust office layout based on team patterns
-   - Decide: is this permanent or temporary experiment?
+ - Monitor usage (Gather publishes metrics)
+ - Adjust office layout based on team patterns
+ - Decide: is this permanent or temporary experiment?
 
 ## When Virtual Offices Fail
 
@@ -223,6 +223,7 @@ Best practice: Virtual office during "core hours" (e.g., 10am-3pm everyone's wor
 - **Discord + spatial audio:** Gamers' choice, good for playful teams
 - **Slack canvas:** Collaborative whiteboarding in Slack itself
 
+<<<<<<< HEAD
 ## Conclusion
 
 Virtual office platforms work best for distributed, async-first teams that value spontaneity. Pick the lightest tool that fits your culture: Teamflow for engineers, Gather for creative teams, SpatialChat for product collaboration, Kumospace for large enterprises.
@@ -240,4 +241,7 @@ Don't treat virtual offices as permanent Zoom replacements. Treat them as experi
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+=======
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+>>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 {% endraw %}

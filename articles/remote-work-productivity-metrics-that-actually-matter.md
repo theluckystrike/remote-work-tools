@@ -384,5 +384,4 @@ These metrics corrupt behavior and reveal nothing about actual productivity.
 - [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

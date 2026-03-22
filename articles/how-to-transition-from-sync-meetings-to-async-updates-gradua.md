@@ -283,22 +283,22 @@ Assign priority during PR creation. If a reviewer can't meet the SLA, they expli
 Different comment types require different responses:
 
 1. **Must-fix** - Use "MUST" prefix. PR cannot merge until addressed.
-   ```
+ ```
    MUST: This SQL query is vulnerable to injection. Use parameterized queries.
    ```
 
 2. **Should-fix** - Use "SHOULD" prefix. Address in current PR or follow-up.
-   ```
+ ```
    SHOULD: Consider extracting this logic into a helper function for reuse.
    ```
 
 3. **Nice-to-have** - Use "COULD" prefix. Optional, can defer indefinitely.
-   ```
+ ```
    COULD: Adding error boundaries would improve UX here. File an issue if interested.
    ```
 
 4. **Question** - Use "QUESTION:" prefix. Seeking clarification.
-   ```
+ ```
    QUESTION: Why did you choose React hooks over class components here?
    ```
 

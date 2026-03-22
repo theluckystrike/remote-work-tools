@@ -159,8 +159,8 @@ Implement a rotation system:
 ```python
 def generate_sync_rotation(timezone_names, weeks=4):
  """
- Generate a fair rotation for synchronous meeting times.
- Each timezone hosts (accepts inconvenient hours) equally.
+Generate a fair rotation for synchronous meeting times.
+Each timezone hosts (accepts inconvenient hours) equally.
  """
  rotation = []
  for week in range(weeks):
@@ -208,6 +208,8 @@ The teams that thrive across five-plus timezones aren't those that find better m
 - [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
 - [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

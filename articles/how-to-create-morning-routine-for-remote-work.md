@@ -266,5 +266,4 @@ The most successful developers maintain roughly 70% consistency long-term, not 1
 - [Using Microsoft Graph API to create named locations](/remote-work-tools/how-to-implement-conditional-access-policies-for-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

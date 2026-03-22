@@ -201,13 +201,13 @@ Bridging this variant of subculture divergence requires explicit overlap time de
 
 ## Measuring Subculture Health Over Time
 
-Managing subculture divergence is an ongoing practice, not a one-time fix. Build a lightweight measurement framework so you know whether your interventions are working.
+Managing subculture divergence is an ongoing practice, not an one-time fix. Build a lightweight measurement framework so you know whether your interventions are working.
 
 The simplest approach: a quarterly team norms survey. Ask each team member to rate (1-5) how well they understand how other departments work, how often cross-functional friction affects their output, and whether the current communication protocols feel fair to their team's working style. Aggregate by team. A score of 3 or below on cross-functional understanding is a signal that norm-bridging rituals need to be added or made more consistent.
 
 For engineering-heavy organizations, you can track subculture health through ticket data. Measure the average time from cross-team request creation to first substantive response, broken down by requesting team and receiving team. If marketing-to-engineering tickets consistently take 3x longer than product-to-engineering tickets at the same priority level, you have quantified a subculture gap that a documented protocol can address.
 
-Revisit your team norms handbook every quarter. Norms evolve as teams grow, shrink, onboard new leads, or shift product strategy. A norms handbook written in Q1 for a 12-person team is likely partially obsolete by Q4. Assign a rotating owner from each department to submit a one-paragraph update each quarter confirming that their section is still accurate.
+Revisit your team norms handbook every quarter. Norms evolve as teams grow, shrink, onboard new leads, or shift product strategy. A norms handbook written in Q1 for a 12-person team is likely partially obsolete by Q4. Assign a rotating owner from each department to submit an one-paragraph update each quarter confirming that their section is still accurate.
 
 ## The Long-Term View
 

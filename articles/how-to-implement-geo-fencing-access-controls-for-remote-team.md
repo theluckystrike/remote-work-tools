@@ -281,7 +281,7 @@ def check_location_velocity(
     return required_speed <= max_speed_kmh
 ```
 
-Store the last known location and timestamp for each authenticated session in your user store. On each new authentication, run the velocity check and trigger a mandatory MFA challenge if the movement is implausible. Most legitimate users traveling internationally will complete the MFA without friction; it's a one-time step that prevents the compromise from succeeding silently.
+Store the last known location and timestamp for each authenticated session in your user store. On each new authentication, run the velocity check and trigger a mandatory MFA challenge if the movement is implausible. Most legitimate users traveling internationally will complete the MFA without friction; it's an one-time step that prevents the compromise from succeeding silently.
 
 ## Infrastructure Considerations: Caching and Rate Limits
 

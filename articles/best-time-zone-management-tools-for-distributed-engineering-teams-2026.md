@@ -369,7 +369,7 @@ Time saved: 20-30 hours/quarter
  - 8 hour overlap SF-London
  - 2 hour overlap London-Singapore
 
- Use these different windows for different meeting types.
+Use these different windows for different meeting types.
 
 6. **Document timezone abbreviations**: Define your team's standard abbreviations (PT, ET, GMT, IST, JST) in Slack or wiki. Reduces math errors.
 

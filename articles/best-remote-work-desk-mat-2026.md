@@ -323,7 +323,5 @@ Avoid synthetic leather and vinyl. They fail within 3 years and require replacem
 - [BenQ ScreenBar vs Desk Lamp Comparison: A Developer](/benq-screenbar-vs-desk-lamp-comparison/)
 - [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
 
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

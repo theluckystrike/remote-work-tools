@@ -195,7 +195,7 @@ Distributed teams create state tax complexity that goes beyond federal mileage r
 
 Several states—including California—have specific requirements for expense reimbursement that go beyond federal accountable plan rules. California Labor Code Section 2802 requires employers to reimburse employees for all necessary business expenses, which courts have interpreted broadly to include mileage. Failing to reimburse California employees at the IRS standard rate can create wage claim liability.
 
-For teams with members in multiple high-tax states, consider using a unified reimbursement platform (Expensify, Ramp, or Brex) that applies state-specific rules automatically. These platforms can flag submissions from California employees that fall below the required reimbursement threshold and flag submissions from states with no reimbursement requirements separately for policy purposes.
+For teams with members in multiple high-tax states, consider using an unified reimbursement platform (Expensify, Ramp, or Brex) that applies state-specific rules automatically. These platforms can flag submissions from California employees that fall below the required reimbursement threshold and flag submissions from states with no reimbursement requirements separately for policy purposes.
 
 ## Common Mistakes to Avoid
 

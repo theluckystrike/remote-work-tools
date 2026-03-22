@@ -211,7 +211,7 @@ so timing works. Just need to defer smaller items Q2."
 
 **Timeline for Information Gathering:**
 - Deadline for information: 3 days
-- Allow 2 days for asynchronous Q&A and clarifications
+- Allow 2 days for asynchronous Q&An and clarifications
 
 ---
 
@@ -471,9 +471,9 @@ After 4 weeks:
 **Process:**
 1. Create decision doc
 2. Decision maker records Loom video (5-10 min)
-   - Why this decision
-   - What changes
-   - How it affects different teams
+ - Why this decision
+ - What changes
+ - How it affects different teams
 3. Link Loom in decision doc
 4. Team watches at convenient time
 5. Questions go in comments
@@ -713,5 +713,4 @@ Timeline:
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

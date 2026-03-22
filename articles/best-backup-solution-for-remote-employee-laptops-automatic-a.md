@@ -198,13 +198,13 @@ borg umount /tmp/recovery
 
 Follow this sequence to deploy laptop backup for a distributed team:
 
-1. **Inventory your fleet** — Determine how many devices need backing up, what OS they run (macOS, Windows, Linux), and whether IT has remote access to deploy agents. This dictates whether you can use a uniform solution or need platform-specific approaches.
+1. **Inventory your fleet** — Determine how many devices need backing up, what OS they run (macOS, Windows, Linux), and whether IT has remote access to deploy agents. This dictates whether you can use an uniform solution or need platform-specific approaches.
 
 2. **Select your storage backend** — Backblaze B2 is the cost-effective default for most teams. For teams with strict data residency requirements, evaluate AWS S3 in the required region or a self-hosted MinIO deployment.
 
 3. **Generate and store encryption keys securely** — Create a strong passphrase for each repository (or per-device if security isolation is required). Store passphrases in 1Password, Bitwarden Teams, or HashiCorp Vault — not in a shared spreadsheet.
 
-4. **Deploy the backup agent** — For managed macOS fleets, deploy via Jamf Pro or Kandji using a configuration profile. For Windows fleets, deploy via Intune. For unmanaged devices, provide a one-command setup script that employees run once.
+4. **Deploy the backup agent** — For managed macOS fleets, deploy via Jamf Pro or Kandji using a configuration profile. For Windows fleets, deploy via Intune. For unmanaged devices, provide an one-command setup script that employees run once.
 
 5. **Configure bandwidth throttling** — Set upload limits to 50% of each employee's connection speed during working hours. Backblaze Personal Backup has a built-in throttle; for Restic, use the `--limit-upload` flag.
 

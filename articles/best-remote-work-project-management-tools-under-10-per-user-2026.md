@@ -449,6 +449,7 @@ Setup time amortized: Notion 30 hours over 5 years = 6 hours/year
 **Creative/marketing team (any size):**
 → Monday.com ($9/user) for visual status and team morale.
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 

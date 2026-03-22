@@ -378,6 +378,7 @@ Documentation culture doesn't happen from mandates. It happens when:
 
 Start this month. In six months, your remote team will have solved the knowledge problem that kills most distributed teams.
 
+<<<<<<< HEAD
 
 ## Related Articles
 
@@ -388,4 +389,7 @@ Start this month. In six months, your remote team will have solved the knowledge
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+=======
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+>>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 {% endraw %}

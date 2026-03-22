@@ -163,15 +163,15 @@ echo "=== Standup Notes: $(date +%A\ %b\ %d) ==="
 echo ""
 
 for repo in "${REPOS[@]}"; do
-    repo_name=$(basename "$repo")
-    if [ -d "$repo/.git" ]; then
-        activity=$(git -C "$repo" log             --since="$SINCE"             --author="$AUTHOR"             --oneline             --no-walk 2>/dev/null)
-        if [ -n "$activity" ]; then
-            echo "### $repo_name"
-            echo "$activity"
-            echo ""
-        fi
-    fi
+ repo_name=$(basename "$repo")
+ if [ -d "$repo/.git" ]; then
+ activity=$(git -C "$repo" log --since="$SINCE" --author="$AUTHOR" --oneline --no-walk 2>/dev/null)
+ if [ -n "$activity" ]; then
+ echo "### $repo_name"
+ echo "$activity"
+ echo ""
+ fi
+ fi
 done
 
 # Output to clipboard (macOS):
@@ -191,43 +191,43 @@ from datetime import datetime
 import pytz
 
 TEAM_TIMEZONES = {
-    "Alice (NYC)": "America/New_York",
-    "Bob (London)": "Europe/London",
-    "Carlos (Singapore)": "Asia/Singapore",
-    "Dana (SF)": "America/Los_Angeles",
+ "Alice (NYC)": "America/New_York",
+ "Bob (London)": "Europe/London",
+ "Carlos (Singapore)": "Asia/Singapore",
+ "Dana (SF)": "America/Los_Angeles",
 }
 
 def find_overlap_windows(date_str, start_hour=8, end_hour=18):
-    # Find times where all team members are within working hours
-    utc = pytz.UTC
-    good_slots = []
+ # Find times where all team members are within working hours
+ utc = pytz.UTC
+ good_slots = []
 
-    # Check each UTC hour
-    for utc_hour in range(24):
-        utc_time = datetime.strptime(f"{date_str} {utc_hour:02d}:00", "%Y-%m-%d %H:%M")
-        utc_time = utc.localize(utc_time)
+ # Check each UTC hour
+ for utc_hour in range(24):
+ utc_time = datetime.strptime(f"{date_str} {utc_hour:02d}:00", "%Y-%m-%d %H:%M")
+ utc_time = utc.localize(utc_time)
 
-        all_available = True
-        slot_info = {}
-        for person, tz_name in TEAM_TIMEZONES.items():
-            tz = pytz.timezone(tz_name)
-            local_time = utc_time.astimezone(tz)
-            local_hour = local_time.hour
-            if not (start_hour <= local_hour < end_hour):
-                all_available = False
-                break
-            slot_info[person] = local_time.strftime("%I:%M %p %Z")
+ all_available = True
+ slot_info = {}
+ for person, tz_name in TEAM_TIMEZONES.items():
+ tz = pytz.timezone(tz_name)
+ local_time = utc_time.astimezone(tz)
+ local_hour = local_time.hour
+ if not (start_hour <= local_hour < end_hour):
+ all_available = False
+ break
+ slot_info[person] = local_time.strftime("%I:%M %p %Z")
 
-        if all_available:
-            good_slots.append(slot_info)
+ if all_available:
+ good_slots.append(slot_info)
 
-    return good_slots
+ return good_slots
 
 slots = find_overlap_windows("2026-03-25")
 for slot in slots:
-    print("--- Available slot ---")
-    for person, time in slot.items():
-        print(f"  {person}: {time}")
+ print("--- Available slot ---")
+ for person, time in slot.items():
+ print(f" {person}: {time}")
 ```
 
 For most globally distributed teams, there are 0-2 overlap hours. Use async-first communication for everything that doesn't require real-time discussion.
@@ -241,6 +241,8 @@ For most globally distributed teams, there are 0-2 overlap hours. Use async-firs
 - [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
 - [Best Freelance Platforms for Software Developers](/remote-work-tools/best-freelance-platforms-for-software-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

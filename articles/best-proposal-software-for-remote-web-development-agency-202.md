@@ -280,23 +280,23 @@ Create your proposal infrastructure in phases:
 ### Phase 2: Templates (Week 3-4)
 - [ ] Build initial templates in chosen software
 - [ ] Create reusable sections:
-  - Standard discovery process description
-  - Common tech stack explanations
-  - Payment term options
-  - Support and maintenance descriptions
+ - Standard discovery process description
+ - Common tech stack explanations
+ - Payment term options
+ - Support and maintenance descriptions
 - [ ] Test templates by creating 2-3 sample proposals
 - [ ] Get team feedback and iterate
 
 ### Phase 3: Integration (Week 5-6)
 - [ ] Connect proposal software to your existing tools
-  - CRM integration (sync client data)
-  - Slack notifications (when proposals viewed, signed)
-  - Payment processor (automatic setup)
-  - Calendar API (auto-add kickoff meetings)
+ - CRM integration (sync client data)
+ - Slack notifications (when proposals viewed, signed)
+ - Payment processor (automatic setup)
+ - Calendar API (auto-add kickoff meetings)
 - [ ] Set up automation:
-  - Auto-send follow-up reminders
-  - Alert when client opens proposal
-  - Trigger next steps when signed
+ - Auto-send follow-up reminders
+ - Alert when client opens proposal
+ - Trigger next steps when signed
 
 ### Phase 4: Training and Launch (Week 7-8)
 - [ ] Document your proposal workflow

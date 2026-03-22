@@ -426,7 +426,7 @@ Ensures new team members train on current procedures
 | Comment threading | Excellent | Good | Good | Excellent |
 | Permission granularity | Good | Excellent | Basic | Good |
 | Real-time collaboration | Excellent | Good | Excellent | Good |
-| Version control | Basic | Automatic | Limited | Comprehensive |
+| Version control | Basic | Automatic | Limited | |
 | Approval workflows | Manual | Manual | Manual | Automated |
 | Compliance/audit trails | None | None | None | Excellent |
 | Integration ecosystem | Excellent | Excellent | Good | Moderate |

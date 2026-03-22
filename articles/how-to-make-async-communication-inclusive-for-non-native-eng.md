@@ -329,15 +329,15 @@ Instead, could we fetch all items once?
 
 Current approach:
 ```python
-items = get_items()  # Query 1
+items = get_items() # Query 1
 for item in items:
-  price = get_price(item.id)  # Query 2, 3, 4... 101
+ price = get_price(item.id) # Query 2, 3, 4... 101
 ```
 
 Suggested approach:
 ```python
 items = get_items()
-prices = get_all_prices(item_ids)  # Query 1
+prices = get_all_prices(item_ids) # Query 1
 # match items with prices
 ```
 

@@ -248,5 +248,4 @@ Pair ergonomic mouse with ergonomic workspace and healthy work habits, and you'l
 - [Remote Work Tools Guides Hub](/remote-work-tools/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

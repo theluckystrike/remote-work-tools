@@ -22,7 +22,7 @@ Run async performance reviews by structuring a two-week cycle: self-reviews in d
 
 ## Why Async Performance Reviews Work Better for Distributed Teams
 
-Traditional synchronous performance reviews create real problems in distributed engineering teams. Scheduling a one-hour conversation across three time zones means someone always attends at an inconvenient hour. Engineers in different regions receive different quality conversations depending on when they're scheduled. And the pressure of a live discussion often leads to surface-level answers rather than the reflective thinking that produces useful feedback.
+Traditional synchronous performance reviews create real problems in distributed engineering teams. Scheduling an one-hour conversation across three time zones means someone always attends at an inconvenient hour. Engineers in different regions receive different quality conversations depending on when they're scheduled. And the pressure of a live discussion often leads to surface-level answers rather than the reflective thinking that produces useful feedback.
 
 Async reviews flip this dynamic. An engineer in Singapore can complete their self-review at 10 AM local time with full concentration. Their manager in Berlin reads it carefully before writing a synthesis. There's no scheduling friction, and the written format creates a permanent record both parties can reference throughout the next review period.
 

@@ -194,9 +194,9 @@ For full-team sprint ceremonies and larger discussions:
 
 - **Table size**: Accommodate team size comfortably—aim for 1.5m per person of table perimeter
 - **Display setup**:
-  - Primary display (65"+ interactive panel like Microsoft Surface Hub or Cisco Webex Board) facing the table
-  - Secondary display for presenters' notes or video feeds
-  - Wireless casting capability to both displays
+ - Primary display (65"+ interactive panel like Microsoft Surface Hub or Cisco Webex Board) facing the table
+ - Secondary display for presenters' notes or video feeds
+ - Wireless casting capability to both displays
 - **Seating arrangement**: U-shape or oval table allows sight lines for all participants
 - **Whiteboards**: Floor-to-ceiling or large sections (minimum 2m wide) for brainstorming
 - **Acoustics**: Sound-absorbing panels on walls to reduce echo and allow for normal conversation volume

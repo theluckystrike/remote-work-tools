@@ -230,5 +230,4 @@ The insight tagging feature is the core value: highlight a quote, tag it, and Do
 - [Best Remote Pair Design Tool for UX Researchers Collaborating](/remote-work-tools/best-remote-pair-design-tool-for-ux-researchers-collaboratin/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

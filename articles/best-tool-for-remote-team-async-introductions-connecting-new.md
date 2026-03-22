@@ -237,7 +237,7 @@ How do you know if your async introduction system is working?
 
 **Metric 4: New hire confidence**: Ask new hires in exit interviews: "Did you feel connected to teammates within first week?" Async introductions should move this metric upward.
 
-**Metric 5: Retention impact**: Compare retention of new hires in teams with robust intro systems vs. without. Teams that invest in early connection see 10-15% better 6-month retention.
+**Metric 5: Retention impact**: Compare retention of new hires in teams with strong intro systems vs. without. Teams that invest in early connection see 10-15% better 6-month retention.
 
 Track these metrics quarterly. If participation is dropping, something in your system needs friction reduction.
 
@@ -256,13 +256,13 @@ If new hires see their introduction sitting with zero comments for a week, they 
 Text-based introverts may feel comfortable writing. Video-first extroverts may prefer recorded responses. Offering both options increases participation.
 
 **Mistake 5: One-and-done mentality**
-Treating introductions as a onboarding checkbox, never revisiting. The best systems build ongoing connection.
+Treating introductions as an onboarding checkbox, never revisiting. The best systems build ongoing connection.
 
 ## Running a 6-Month Check-In
 
 Async introductions work best when teams check in periodically. After six months, do a second round of introductions. Team members may have shifted roles, grown in areas, or learned new things. This creates a living introduction system rather than a static first-day artifact.
 
-Some teams run quarterly "intro updates"—shorter, one-question responses that keep information fresh. Others do annual comprehensive updates when team membership stabilizes.
+Some teams run quarterly "intro updates"—shorter, one-question responses that keep information fresh. Others do annual updates when team membership stabilizes.
 
 ## Scaling Across Different Team Sizes
 

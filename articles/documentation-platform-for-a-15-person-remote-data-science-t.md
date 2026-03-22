@@ -501,24 +501,24 @@ const index = client.initIndex('data_science_docs');
 
 // Index all documentation
 const docs = [
-  {
-    objectID: 'churn-model-card',
-    title: 'Customer Churn Predictor Model Card',
-    type: 'model-card',
-    owner: 'jane',
-    tags: ['production', 'churn', 'xgboost'],
-    content: '...',
-    lastUpdated: '2026-03-10'
-  },
-  {
-    objectID: 'customer-data-dict',
-    title: 'Customer Interactions Data Dictionary',
-    type: 'data-dictionary',
-    owner: 'mike',
-    tags: ['production', 'customers'],
-    content: '...',
-    lastUpdated: '2026-03-10'
-  }
+ {
+ objectID: 'churn-model-card',
+ title: 'Customer Churn Predictor Model Card',
+ type: 'model-card',
+ owner: 'jane',
+ tags: ['production', 'churn', 'xgboost'],
+ content: '...',
+ lastUpdated: '2026-03-10'
+ },
+ {
+ objectID: 'customer-data-dict',
+ title: 'Customer Interactions Data Dictionary',
+ type: 'data-dictionary',
+ owner: 'mike',
+ tags: ['production', 'customers'],
+ content: '...',
+ lastUpdated: '2026-03-10'
+ }
 ];
 
 // Bulk index
@@ -526,8 +526,8 @@ index.saveObjects(docs).wait();
 
 // Search with facets
 index.search('churn', {
-  facets: ['type', 'owner', 'tags'],
-  filters: "type:model-card"
+ facets: ['type', 'owner', 'tags'],
+ filters: "type:model-card"
 });
 ```
 
@@ -538,34 +538,34 @@ Assign clear ownership to prevent orphaned documentation:
 ```yaml
 # Documentation ownership matrix
 documentation_owners:
-  models:
-    - churn-predictor-v2: jane
-    - customer-segmentation: alex
-    - inventory-forecast: sam
+ models:
+ - churn-predictor-v2: jane
+ - customer-segmentation: alex
+ - inventory-forecast: sam
 
-  data_dictionaries:
-    - customer_interactions: mike
-    - product_catalog: alex
-    - order_history: jane
+ data_dictionaries:
+ - customer_interactions: mike
+ - product_catalog: alex
+ - order_history: jane
 
-  runbooks:
-    - model-deployment: devops-team
-    - data-pipeline-troubleshooting: mike
-    - incident-response: jane
+ runbooks:
+ - model-deployment: devops-team
+ - data-pipeline-troubleshooting: mike
+ - incident-response: jane
 
 # Review requirements
 review_requirements:
-  model_card: 1 peer review required
-  data_dictionary: 1 data engineer review required
-  decision_log: stakeholders + 1 peer
-  runbook: owner + 1 operator
+ model_card: 1 peer review required
+ data_dictionary: 1 data engineer review required
+ decision_log: stakeholders + 1 peer
+ runbook: owner + 1 operator
 
 # Update cadence
 update_cadence:
-  model_cards: monthly (or after retraining)
-  data_dictionaries: when schema changes
-  decision_logs: as decisions are made
-  runbooks: quarterly or when operational changes occur
+ model_cards: monthly (or after retraining)
+ data_dictionaries: when schema changes
+ decision_logs: as decisions are made
+ runbooks: quarterly or when operational changes occur
 ```
 
 ## Onboarding New Team Members Using Documentation
@@ -622,6 +622,8 @@ Structure onboarding docs to accelerate productivity:
 - [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
 - [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

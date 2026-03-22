@@ -122,7 +122,7 @@ ls -lh output.mp4
 
 ## Quick Recordings with ffmpeg (No GUI)
 
-For developers who want a one-command screen recorder:
+For developers who want an one-command screen recorder:
 
 ```bash
 # macOS: record entire screen to file
@@ -238,7 +238,7 @@ Tooling is only half the equation. The way your team uses recordings determines 
 
 Screen recordings work best when embedded directly into the places where work happens. A recording floating in a Slack DM gets lost. A recording embedded in a GitHub PR, Notion doc, or Linear issue stays attached to the context.
 
-For GitHub PRs, paste Loom links in the PR description with a one-line summary. For Notion docs, embed Cloudflare Stream or Loom iframes using the `/embed` block. For Linear or Jira tickets, paste the video URL in the issue description along with the written summary.
+For GitHub PRs, paste Loom links in the PR description with an one-line summary. For Notion docs, embed Cloudflare Stream or Loom iframes using the `/embed` block. For Linear or Jira tickets, paste the video URL in the issue description along with the written summary.
 
 Teams that maintain a searchable video library in Notion — one row per recording, with tags for topic and date — get long-term value from their async video investment. A recording of an architecture decision made six months ago can answer questions that would otherwise require a synchronous meeting.
 
@@ -260,5 +260,4 @@ The signal that your team is using async video well: teammates reference recordi
 - [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

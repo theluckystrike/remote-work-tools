@@ -367,5 +367,4 @@ Self-hosting the full stack costs a fraction of hosted alternatives like Datadog
 - [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

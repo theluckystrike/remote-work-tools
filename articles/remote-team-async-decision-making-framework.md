@@ -497,5 +497,4 @@ Review decision quality quarterly. If 80%+ of implemented decisions have positiv
 - [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

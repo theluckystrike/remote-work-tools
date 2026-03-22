@@ -52,7 +52,7 @@ You cannot run async without a centralized knowledge base. Without it, decisions
 Choose one: Slack or an async-native alternative (Discord, Mattermost). Avoid email as your primary tool; it doesn't scale to teams over 10 people.
 
 **Slack setup for async:**
-- Use threads aggressively. A Slack message without a threaded reply is a interruption. If you're responding to something, use thread-reply, not a top-level message.
+- Use threads aggressively. A Slack message without a threaded reply is an interruption. If you're responding to something, use thread-reply, not a top-level message.
 - Set channel topics and descriptions. `#infrastructure` is for infrastructure decisions; questions go in `#infrastructure-questions`.
 - Create status channels (`#status-eng`, `#status-product`) for daily updates (5-minute writes), not meetings.
 - Mute notifications outside working hours. Async doesn't mean always-on; it means async.
@@ -357,6 +357,7 @@ Track these metrics:
 
 If decision time is >5 days or meeting hours >8, your async culture is breaking down. Tighten feedback deadlines; increase documentation.
 
+<<<<<<< HEAD
 ## Conclusion
 
 Async-first culture is built on four pillars: centralized knowledge base, clear communication protocols, ruthless meeting elimination, and written decision-making. The payoff is massive: 10+ extra hours per week of deep work, better decisions (because people think before writing), and respect for time zones and working styles.
@@ -374,4 +375,7 @@ Start small. Eliminate daily standups. Document one decision. Record one Loom in
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+=======
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+>>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 {% endraw %}

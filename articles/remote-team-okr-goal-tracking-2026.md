@@ -358,5 +358,4 @@ OKRs done well make remote teams feel connected, aligned, and enabled. They're t
 - [Best Tool for Remote Team Mood Tracking and Sentiment](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

@@ -312,5 +312,4 @@ Include "review daily logs from your first sprint" in your onboarding checklist.
 - [How to Write Async Technical RFCs That Get Meaningful](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

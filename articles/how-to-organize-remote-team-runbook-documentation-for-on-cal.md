@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Organize Remote Team Runbook Documentation for On-Call Engineers 2026"
-description: "Learn practical strategies for organizing runbook documentation that helps on-call engineers diagnose, troubleshoot, and resolve incidents efficiently in remote teams."
+title: "How to Organize Remote Team Runbook Documentation for"
+description: "Learn practical strategies for organizing runbook documentation that helps on-call engineers diagnose, troubleshoot, and resolve incidents efficiently in"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-organize-remote-team-runbook-documentation-for-on-cal/
@@ -116,37 +116,37 @@ Avoid generic advice like "check the logs" without specifying which logs, where 
 ## Diagnostic Steps
 1. Connect to bastion and check active connections:
    ```bash
-   psql -h prod-db.example.com -U readonly -c \
-     "SELECT count(*) FROM pg_stat_activity WHERE datname='main';"
-   ```
+ psql -h prod-db.example.com -U readonly -c \
+ "SELECT count(*) FROM pg_stat_activity WHERE datname='main';"
+ ```
 2. Identify longest-running queries:
    ```sql
-   SELECT pid, now() - pg_stat_activity.query_start AS duration, query
-   FROM pg_stat_activity
-   WHERE state = 'active' AND query NOT ILIKE '%pg_stat_activity%'
-   ORDER BY duration DESC LIMIT 5;
-   ```
+SELECT pid, now() - pg_stat_activity.query_start AS duration, query
+FROM pg_stat_activity
+WHERE state = 'active' AND query NOT ILIKE '%pg_stat_activity%'
+ORDER BY duration DESC LIMIT 5;
+ ```
 3. Check for connection leaks in application:
    ```bash
-   kubectl exec -it deployment/api -- \
-     /app/scripts/check-connections.sh
-   ```
+ kubectl exec -it deployment/api -- \
+ /app/scripts/check-connections.sh
+ ```
 
 ## Resolution Steps
 1. Kill longest-running idle connections:
    ```sql
-   SELECT pg_terminate_backend(pid)
-   FROM pg_stat_activity
-   WHERE state = 'idle' AND query_start < now() - interval '10 minutes';
-   ```
+SELECT pg_terminate_backend(pid)
+FROM pg_stat_activity
+WHERE state = 'idle' AND query_start < now() - interval '10 minutes';
+ ```
 2. If connections persist, scale up database:
    ```bash
-   terraform apply -var="instance_class=db.r6g.xlarge"
-   ```
+ terraform apply -var="instance_class=db.r6g.xlarge"
+ ```
 3. Restart affected pods to clear connection leaks:
    ```bash
-   kubectl rollout restart deployment/api
-   ```
+ kubectl rollout restart deployment/api
+ ```
 
 ## Rollback Procedure
 If the issue was caused by a recent deployment:
@@ -264,10 +264,6 @@ The best-run book system fails if engineers do not use it. Foster a culture wher
 3. **During on-call handoffs**: Review runbooks as part of the handoff process
 
 Recognize contributors who maintain documentation. Documentation work often goes unnoticed but directly impacts team effectiveness.
-
-## Conclusion
-
-Well-organized runbook documentation reduces incident resolution time, reduces engineer stress during on-call shifts, and enables remote teams to operate effectively across time zones. Structure your repository around services, write specific and actionable steps, version control your documentation, integrate with alerting tools, and maintain a regular review cadence. Your future on-call self will thank you.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -202,7 +202,7 @@ Review the framework with your team every quarter. Communication norms evolve as
 
 ## Writing a Team Communication Charter
 
-The fastest way to institutionalize your framework is to write a one-page communication charter and get every team member to review it during onboarding. A good charter covers four things: which channels exist and their purpose, expected response times for each channel, how to escalate when a response is overdue, and how to handle sensitive topics that should not go into Slack.
+The fastest way to institutionalize your framework is to write an one-page communication charter and get every team member to review it during onboarding. A good charter covers four things: which channels exist and their purpose, expected response times for each channel, how to escalate when a response is overdue, and how to handle sensitive topics that should not go into Slack.
 
 Keep the charter living in your wiki (Notion, Confluence, or equivalent) and link to it from your team's main Slack channel description. When communication problems come up in retrospectives, reference the charter rather than relitigating the same debates. If the charter needs updating, update it formally with a changelog entry and re-share with the team.
 

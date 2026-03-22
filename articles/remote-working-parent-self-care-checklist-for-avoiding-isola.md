@@ -150,7 +150,7 @@ If you notice these signs, take immediate action:
 
 ### Internal Team Support
 
- Advocate for parent-friendly policies:
+Advocate for parent-friendly policies:
 
 - Flexible working hours that accommodate childcare
 - Meeting-free focus blocks
@@ -284,15 +284,15 @@ These are signals to escalate:
 1. **Talk to your manager**: Frame it as a needs conversation. "The current arrangement isn't working. I need to explore options. Can we discuss?"
 
 2. **Explore alternatives**:
-   - Part-time remote work (3 days remote, 2 days office for childcare)
-   - Flexible hours (start work at 10 AM when kids are at school)
-   - Project-based work with variable hours vs. fixed presence
-   - Temporary reduction in scope until kids are older
+ - Part-time remote work (3 days remote, 2 days office for childcare)
+ - Flexible hours (start work at 10 AM when kids are at school)
+ - Project-based work with variable hours vs. fixed presence
+ - Temporary reduction in scope until kids are older
 
 3. **Consider structural changes**:
-   - Additional childcare (nanny, daycare, school program)
-   - Moving to an area with better support (near grandparents, larger community)
-   - Partner role adjustments (one person takes primary parenting month)
+ - Additional childcare (nanny, daycare, school program)
+ - Moving to an area with better support (near grandparents, larger community)
+ - Partner role adjustments (one person takes primary parenting month)
 
 There's no shame in finding that a particular work arrangement doesn't work. Companies that truly support working parents help you find a better path, not guilt you into unsustainable productivity.
 

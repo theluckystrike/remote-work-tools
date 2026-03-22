@@ -284,7 +284,7 @@ Response approach:
 Response approach:
 1. Explore why: "What's appealing about that team?"
 2. Understand if it's team fit or broader issue
-3. If transfer makes sense, facilitate it
+3. If transfer makes sense, help it
 4. If transfer isn't viable, discuss career growth in current role
 5. Set timeline for follow-up
 

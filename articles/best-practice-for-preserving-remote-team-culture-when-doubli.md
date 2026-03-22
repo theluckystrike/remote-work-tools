@@ -228,6 +228,5 @@ Track trends over time. A dropping eNPS during a hiring wave signals cultural er
 - [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/how-to-run-remote-retrospectives-that-generate-action-items/)
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 
-Built by theluckystrike -- More at [zovo.one](https://zovo.one)
-
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

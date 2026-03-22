@@ -76,7 +76,7 @@ The right tooling amplifies community building efforts. Focus on tools that supp
 
 ### Communication Platforms
 
-Discord remains popular for its robust channel organization and strong mobile app. Slack offers superior search and integration capabilities, particularly valuable for communities with significant professional networking goals. For privacy-conscious communities, Element (Matrix) provides end-to-end encryption while maintaining federation capabilities.
+Discord remains popular for its strong channel organization and strong mobile app. Slack offers superior search and integration capabilities, particularly valuable for communities with significant professional networking goals. For privacy-conscious communities, Element (Matrix) provides end-to-end encryption while maintaining federation capabilities.
 
 ### Knowledge Management
 
@@ -257,29 +257,23 @@ We connect [specific type of professional] to share knowledge, find collaborator
 Track these metrics quarterly:
 
 1. **Engagement rate**: (Active members / total members) × 100
-   - Healthy: 20-30% active weekly
-   - Concerning: Below 10%
+ - Healthy: 20-30% active weekly
+ - Concerning: Below 10%
 
 2. **Message velocity**: Average messages per day
-   - Healthy growth: 10-20% increase quarter-over-quarter
-   - Declining: More than 15% drop signals trouble
+ - Healthy growth: 10-20% increase quarter-over-quarter
+ - Declining: More than 15% drop signals trouble
 
 3. **Member satisfaction**: Quarterly NPS survey (Net Promoter Score)
-   - Score of 40+ indicates healthy community
-   - Score below 20 indicates structural issues
+ - Score of 40+ indicates healthy community
+ - Score below 20 indicates structural issues
 
 4. **Retention rate**: (Members at quarter end - new members) / (members at quarter start)
-   - Healthy: 85-95% retention
-   - Churn: Below 80% means members leaving faster than joining
+ - Healthy: 85-95% retention
+ - Churn: Below 80% means members leaving faster than joining
 
 5. **Growth rate**: (New members - removed members) / starting members
-   - Sustainable: 10-20% quarter growth
-   - Stalled: Below 5%
-
-## Conclusion
-
-Building and participating in nomad communities requires intentional design around async communication, inclusive practices, and appropriate tooling. The most successful communities in 2026 balance professional networking with social connection while maintaining accessibility across varying connectivity levels. Whether you are starting a new community or deepening your involvement in existing ones, applying these practices creates more meaningful connections and sustainable community health.
-
-Start with one improvement to your current community practices. Perhaps that means documenting response time expectations, or perhaps it means reaching out to a newcomer this week. Small consistent actions compound into stronger communities over time. Communities that invest in structure, culture, and measurement create lasting value for their members.
+ - Sustainable: 10-20% quarter growth
+ - Stalled: Below 5%
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
