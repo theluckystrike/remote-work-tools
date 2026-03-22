@@ -16,6 +16,17 @@ voice-checked: true---
 
 Async weekly recap emails keep distributed teams aligned without synchronous meetings, eliminating information silos across time zones. A well-structured recap documents progress, highlights blockers, and reduces the need for status meetings—saving time for deep work. This guide provides ready-to-use templates, automation scripts for pulling data from Linear/GitHub, and best practices for different team sizes.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **This guide provides ready-to-use**: templates, automation scripts for pulling data from Linear/GitHub, and best practices for different team sizes.
+- **Be specific**: "Shipped the user authentication flow."
+
+Skipping when busy — The times you most need a recap are when you're busiest.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Why Weekly Recap Emails Matter for Remote Teams
 
 Remote work removes the ambient awareness that comes from physically working together. When you're distributed across time zones, you can't glance at a colleague's screen or overhear a quick status update. This creates information silos where team members work in isolation, unaware of what others are accomplishing or struggling with.

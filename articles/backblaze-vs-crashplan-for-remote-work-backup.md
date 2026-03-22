@@ -14,8 +14,16 @@ tags: [remote-work-tools, comparison, remote-work]---
 
 {% raw %}
 
-
 Choosing the right backup solution for remote work requires balancing cost, reliability, cross-platform support, and ease of restoration. For developers and power users managing multiple machines across locations, the decision between Backblaze and CrashPlan involves several practical considerations that go beyond marketing claims.
+
+## Key Takeaways
+
+- **The $7/month price**: straightforward unlimited storage, native Linux support, and private encryption options cover 90% of developer backup needs.
+- **CrashPlan for Small Business**: (the most relevant option for developers) runs approximately $10/month per computer with unlimited storage.
+- **Backblaze recommendation**: Install on Mac laptop ($7) + use Backblaze B2 for headless Linux server backup via CLI.
+- **CrashPlan recommendation**: Team plan ($50-60/month) with deduplication.
+- **Total cost**: $7/month.
+- **Backblaze uses incremental backups**: that only transfer changed files.
 
 ## Pricing and Value
 

@@ -31,6 +31,15 @@ AWS bills grow quietly. A dev environment EC2 left running over a holiday weeken
 
 This guide covers practical cost control for remote AWS teams: budget alerts, anomaly detection, right-sizing, reserved capacity, and automated cleanup of abandoned resources.
 
+## Key Takeaways
+
+- **Opt in to 3-month lookback periods for better recommendations**: this is especially important for workloads with weekly or monthly cycles that 14 days would misread as idle.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+- **Tune this threshold based on your typical bill**: a $500/month account should alert at $25, while a $5000/month account might tolerate $150 before alerting.
+- **A staging database that**: runs $150/month as a fixed instance often costs $20-40/month on Aurora Serverless v2 with realistic usage patterns.
+- **If your production fleet**: runs consistently at $300/month but spikes to $400/month twice a year, commit to $210-240/month in Savings Plans.
+- **An instance with 10% average CPU but 90% of max connections isn't over-provisioned on compute**: it's under-provisioned on connections.
+
 ## Set Up Budget Alerts First
 
 Before anything else, configure billing alerts so you know when spending deviates.

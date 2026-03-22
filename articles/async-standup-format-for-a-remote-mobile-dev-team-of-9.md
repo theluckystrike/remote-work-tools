@@ -18,6 +18,15 @@ Coordinating daily standups across nine mobile developers working in different t
 
 This guide provides a practical implementation of async standups specifically tailored for a nine-person mobile development team.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **The goal is a**: window that works for at least 80% of the team without forcing anyone to post outside 7 AM-9 PM local time.
+- **Geekbot ($3-10/month)**: Lightweight standup bot with customizable questions.
+- **GitHub Discussions (free)**: For developer teams, use GitHub Discussions instead of Slack.
+- **Slack-native workflow (free)**: For minimal overhead, use a Slack workflow with a scheduled reminder and a linked Google Form.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+
 ## Why Async Standups Work for Mobile Teams
 
 Mobile development involves specific workflows that align well with asynchronous communication. Developers often work on features that require extended focus time—debugging platform-specific issues, optimizing app performance, or implementing new native features. Interrupting this focus for a 15-minute standup can cost 30+ minutes of recovery time per developer.

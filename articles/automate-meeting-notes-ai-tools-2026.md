@@ -18,6 +18,15 @@ Manual meeting notes have two problems: whoever takes them misses part of the co
 
 This guide compares the major AI meeting note tools in 2026 and shows how to wire them into a distribution workflow.
 
+## Key Takeaways
+
+- $10/user/month for Pro.
+- $20/user/month for Business.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Best for**: Individual contributors and small teams who want free, unlimited recording on Zoom.
+- **$15/month for Fathom Team**: Edition (Slack + CRM integrations).
+- $18/seat/month for Pro (unlimited).
+
 ## Tool Comparison
 
 ### Fathom
