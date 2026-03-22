@@ -7,7 +7,7 @@ last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /health-insurance-options-for-freelancers-2026/
 reviewed: true
-score: 8
+score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
