@@ -28,6 +28,16 @@ score: 8
 tags: [remote-work-tools, best-of, remote-work]---
 
 
+| Tool | Multi-Timezone | Auto-Detection | Calendar Sync | Pricing |
+|---|---|---|---|---|
+| World Time Buddy | Side-by-side comparison | Manual city selection | Google, Outlook export | Free / $3.50/month |
+| Every Time Zone | Visual timeline slider | Browser timezone | Link sharing | Free |
+| Clockify | Team timezone display | Auto-detect from IP | Google Calendar sync | Free / $3.99/user/month |
+| Spacetime | Slack-native timezone bot | Auto from Slack profile | Direct scheduling | $2/user/month |
+| Timeanddate.com | Meeting planner tool | IP-based detection | iCal export | Free |
+
+
+
 Remote freelancers need reliable time tracking to bill accurately, understand productivity patterns, and demonstrate value to clients. Unlike traditional employees, freelancers must track time for multiple clients, switch between projects throughout the day, and maintain detailed records for invoicing. This guide covers the best time tracking tools for remote freelancers, focusing on options that appeal to developers and power users who prefer minimal friction and maximum control.
 
 ## Key Takeaways

@@ -27,6 +27,16 @@ voice-checked: true
 categories: [guides]
 tags: [remote-work-tools, best-of, remote-work]---
 
+
+| Tool | Key Feature | Remote Team Fit | Integration | Pricing |
+|---|---|---|---|---|
+| Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
+| Slack | Real-time team messaging | Channels, threads, huddles | 2,600+ apps | $7.25/user/month |
+| Linear | Fast project management | Keyboard-driven, cycles | GitHub, Slack, Figma | $8/user/month |
+| Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
+| 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
+
+
 {% raw %}
 
 Remote UX researchers need tools that support real-time sticky note collaboration, card clustering, and async affinity mapping across time zones. Miro leads for large-scale enterprise mapping, while FigJam excels for smaller teams already in Figma, and MURAL offers specialized research features. This guide compares top platforms' canvas performance, template libraries, and collaboration features for affinity mapping workflows.

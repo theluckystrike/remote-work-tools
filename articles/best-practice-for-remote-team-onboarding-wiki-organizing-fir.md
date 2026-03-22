@@ -222,6 +222,16 @@ This approach transforms onboarding from a chaotic introduction into a structure
 ---
 
 
+
+
+| Tool | Search Quality | Offline Access | API Support | Pricing |
+|---|---|---|---|---|
+| Notion | Full-text + AI search | Partial (desktop app) | Full REST API | $8/user/month |
+| Confluence | Advanced search + labels | Offline via Data Center | Full REST API | $5.75/user/month |
+| GitBook | Fast search, versioned docs | No | Full REST API | $6.70/user/month |
+| Slite | AI-powered search | Offline on desktop | Basic API | $8/user/month |
+| Tettra | AI answers from docs | No | Zapier integration | $4/user/month |
+
 ## Frequently Asked Questions
 
 **Are free AI tools good enough for practice for remote team onboarding wiki?**
