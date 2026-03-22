@@ -333,7 +333,7 @@ Wednesday (Tokyo-friendly):
   SF: 10 PM - 1 AM (rough but acceptable 1x/week)
 
 Friday (shared asynchronous):
-  No required sync; comprehensive async handoff
+  No required sync; detailed async handoff
 ```
 
 **Framework 2: Flexible Scheduling**

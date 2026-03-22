@@ -22,7 +22,7 @@ This guide walks you through building an async-first remote team that functions 
 
 ## Why Go Fully Async
 
-Before diving into implementation, it's worth understanding why teams choose to eliminate meetings entirely.
+Before looking at implementation, it's worth understanding why teams choose to eliminate meetings entirely.
 
 Time Zone Independence: When your team spans San Francisco, London, and Tokyo, finding meeting times that don't require early mornings or late nights becomes impossible. Async communication respects everyone's working hours equally.
 

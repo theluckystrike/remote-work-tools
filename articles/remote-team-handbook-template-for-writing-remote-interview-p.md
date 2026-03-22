@@ -264,7 +264,7 @@ Reduce hiring time while maintaining quality through sequential elimination:
 - **Pass rate target**: 50% proceed to Stage 3
 
 ### Stage 3: Culture + Experience (45 min, sync)
-- Deep dive into past projects
+- Deep look at past projects
 - Assess async communication samples
 - Team culture fit discussion
 - Final decision stage

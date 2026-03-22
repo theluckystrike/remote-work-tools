@@ -19,7 +19,7 @@ Use a four-stage pipeline — local validation, CI testing, staged deployment, a
 
 ## Core Principles for Small Remote Teams
 
-Before diving into implementation, establish the principles that guide your workflow. Small teams benefit from explicit conventions that larger teams might handle through process overhead.
+Before exploring implementation, establish the principles that guide your workflow. Small teams benefit from explicit conventions that larger teams might handle through process overhead.
 
 Document your deployment steps as code rather than relying on tribal knowledge. When someone deploys at 2 AM across three time zones, they should follow tested steps, not hunt for context in Slack threads. Your workflow should also catch problems early in the pipeline and provide clear rollback paths — a three-person team cannot afford debugging production issues while juggling other responsibilities. Build review gates that work without requiring immediate responses, using pull request comments, checklist-based approvals, and scheduled deployment windows rather than expecting real-time availability.
 

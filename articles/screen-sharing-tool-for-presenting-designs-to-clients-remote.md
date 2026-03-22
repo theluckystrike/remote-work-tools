@@ -46,7 +46,7 @@ Zoom remains a staple for design presentations thanks to its widespread adoption
 
 ### 2. Loom
 
-Loom has revolutionized asynchronous design reviews by combining screen recording with sharing.
+Loom has changed asynchronous design reviews by combining screen recording with sharing.
 
 **Key Features:**
 - Instant recording with one-click sharing

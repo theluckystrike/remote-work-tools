@@ -193,7 +193,7 @@ class OccupancyAnalytics:
         self.floor = floor_client
 
     def generate_utilization_report(self, start_date, end_date):
-        """Produce comprehensive occupancy report."""
+        """Produce complete occupancy report."""
         badge_events = self.badge.get_events(start_date, end_date)
 
         report = {

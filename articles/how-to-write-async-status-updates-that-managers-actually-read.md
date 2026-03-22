@@ -20,7 +20,7 @@ Craft status updates managers read by opening with the single most important ins
 
 ## Why Most Status Updates Fail
 
-Before diving into solutions, let's identify why typical status updates fall flat:
+Before looking at solutions, let's identify why typical status updates fall flat:
 
 - Vague progress claims: "Made good progress on the project" tells managers nothing measurable
 - Missing context: Updates without background force managers to chase details

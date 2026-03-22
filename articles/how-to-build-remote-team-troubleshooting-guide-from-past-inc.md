@@ -24,7 +24,7 @@ This guide shows you how to transform past incident postmortems into a living tr
 
 Remote work introduces unique challenges that make postmortem-derived guides essential. Team members cannot lean over to ask a colleague what fixed last month's database deadlock. Time zone gaps mean the person who solved the problem might be asleep when it reoccurs. Without searchable, structured documentation, you repeatedly rediscover the same solutions.
 
-A well-built troubleshooting guide captures institutional knowledge, reduces mean time to recovery (MTTR), and empowers on-call engineers to resolve issues without waiting for the "expert" to wake up.
+A well-built troubleshooting guide captures institutional knowledge, reduces mean time to recovery (MTTR), and helps on-call engineers to resolve issues without waiting for the "expert" to wake up.
 
 ## Step 1: Standardize Your Postmortem Format
 

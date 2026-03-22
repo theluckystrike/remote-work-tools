@@ -72,13 +72,13 @@ Market Rate Analysis:
 **Step 2: Identify negotiation use**
 
 ```
-Your Leverage Points:
+Your Apply Points:
 ✓ Strong performer (reviews document this)
 ✓ Specialized skills (rare in market)
 ✓ Institutional knowledge (expensive to replace)
 ✓ Remote role (no relocation costs to employer)
 ✓ Market rate data supports current salary
-✗ Not a counter-offer situation (don't use job market as leverage unless true)
+✗ Not a counter-offer situation (don't use job market as take advantage of unless true)
 ```
 
 **Step 3: Prepare responses to common objections**

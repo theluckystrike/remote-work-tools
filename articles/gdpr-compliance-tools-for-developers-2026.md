@@ -20,7 +20,7 @@ Building GDPR-compliant applications requires more than just checking boxes. Dev
 
 ## Understanding Developer GDPR Requirements
 
-Before diving into tools, recognize what GDPR means for software development:
+Before looking at tools, recognize what GDPR means for software development:
 
 - Data Subject Rights: Right to access, rectify, erase, port, and restrict processing
 - Consent Management: Proper consent collection and withdrawal mechanisms

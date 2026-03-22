@@ -316,7 +316,7 @@ Tailor your 1:1 frequency and content to the engineer's level.
 
 ## Technical Discussions in 1:1s
 
-Use 1:1s to dive into technical topics that don't fit in regular meetings:
+Use 1:1s to examine technical topics that don't fit in regular meetings:
 
 **Code review deep-dives**: Pick a PR they're working on. Discuss tradeoffs, alternative approaches, testing strategy. This teaches critical thinking.
 

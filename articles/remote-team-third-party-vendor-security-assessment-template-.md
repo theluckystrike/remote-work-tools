@@ -242,7 +242,7 @@ Risk level: Low-to-Medium. Turnaround: Fast.
 
 A developer wants to use a CI/CD optimization tool that integrates with GitHub. Security assessment steps:
 
-1. Deep dive into authentication (must support OAuth)
+1. Deep examine authentication (must support OAuth)
 2. Review what data the tool accesses from repositories (code itself? metadata only?)
 3. Examine their security incidents and how they were handled
 4. Request SOC 2 report

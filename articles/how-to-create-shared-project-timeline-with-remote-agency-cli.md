@@ -113,7 +113,7 @@ Mermaid diagrams render natively in GitHub, GitLab, and Notion. If your client h
 
 ## Method 3: CSV Export from Spreadsheets
 
-For agencies comfortable with spreadsheets, generate timelines from CSV data and convert them to client-friendly formats. This hybrid approach leverages spreadsheet familiarity while producing shareable outputs.
+For agencies comfortable with spreadsheets, generate timelines from CSV data and convert them to client-friendly formats. This hybrid approach takes advantage of spreadsheet familiarity while producing shareable outputs.
 
 Create a `timeline.csv` file:
 

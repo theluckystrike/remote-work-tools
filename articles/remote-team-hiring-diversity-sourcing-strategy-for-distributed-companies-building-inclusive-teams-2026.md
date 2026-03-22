@@ -212,7 +212,7 @@ Share this roadmap with candidates during interviews. Many talented people from 
 
 ## Legal and Compliance Considerations
 
-When implementing diversity sourcing, understand the regulatory landscape:
+When implementing diversity sourcing, understand the regulatory field:
 
 **FCRA compliance:** If you conduct background checks on candidates, comply with the Fair Credit Reporting Act. This applies regardless of sourcing channel.
 

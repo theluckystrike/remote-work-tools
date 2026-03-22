@@ -23,11 +23,11 @@ This guide provides specific noise gate settings tailored for remote parents man
 
 Most noise gate tutorials assume a relatively quiet environment. They recommend threshold values like -40 dB, which works well for empty home offices. But when your kids are playing in the next room, background noise floors can reach -35 dB or higher, rendering those settings useless.
 
-Children's activities create unpredictable audio landscapes. A child playing quietly might generate -38 dB of background noise, while siblings engaged in heated LEGO battles can push -30 dB or beyond. Your noise gate needs to adapt to this variability.
+Children's activities create unpredictable audio spaces. A child playing quietly might generate -38 dB of background noise, while siblings engaged in heated LEGO battles can push -30 dB or beyond. Your noise gate needs to adapt to this variability.
 
 ## Understanding the Key Parameters
 
-Before diving into specific settings, you need to understand how each noise gate parameter affects your audio:
+Before exploring specific settings, you need to understand how each noise gate parameter affects your audio:
 
 **Threshold** determines the volume level at which the gate opens. Your voice must exceed this level to be heard. Set it too high, and your speech gets cut. Set it too low, and background noise leaks through.
 

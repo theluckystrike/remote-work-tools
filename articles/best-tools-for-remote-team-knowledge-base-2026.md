@@ -62,7 +62,7 @@ Confluence is Atlassian's enterprise wiki. Used by thousands of large companies,
 **Strengths:**
 - Best full-text search; advanced query syntax.
 - Excellent role-based permissions.
-- Seamless Jira integration (embed sprints, issues in docs).
+- Easy Jira integration (embed sprints, issues in docs).
 - Mature product (20+ years), handles massive wikis.
 - API-driven; automate doc creation/updates.
 

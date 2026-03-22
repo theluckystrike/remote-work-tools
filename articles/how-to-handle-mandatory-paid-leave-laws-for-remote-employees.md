@@ -22,7 +22,7 @@ This guide shows you how to build compliance into your remote work infrastructur
 
 ## Understanding the Cost of Non-Compliance
 
-Before diving into solutions, understand what's at stake. Violations of state paid leave laws carry serious penalties:
+Before examining solutions, understand what's at stake. Violations of state paid leave laws carry serious penalties:
 
 **California** (one of strictest states):
 - If an employee wins a lawsuit for unpaid accrued leave, they get:

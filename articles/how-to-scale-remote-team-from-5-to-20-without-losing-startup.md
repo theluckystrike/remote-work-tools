@@ -287,7 +287,7 @@ function generateScalingReport(metrics) {
 
 A common failure mode when scaling: the founding team becomes a bottleneck because all decisions flow through them. Prevent this:
 
-**Empower team decisions:**
+**Help team decisions:**
 - Developers can merge their own PRs after one review (except critical systems)
 - Teams select their own tools (within approved categories)
 - Deploy their own services (with automated rollback capabilities)

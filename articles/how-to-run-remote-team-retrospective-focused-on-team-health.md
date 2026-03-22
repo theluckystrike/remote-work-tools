@@ -41,7 +41,7 @@ Begin with a personal check-in. Each team member shares a brief answer to a simp
 - "What's one thing that's been on your mind?"
 - "How would you rate your energy level from 1-10?"
 
-This opening serves multiple purposes. It normalizes discussing emotions, establishes that personal state matters, and gives the facilitator data about team mood before diving into structured topics.
+This opening serves multiple purposes. It normalizes discussing emotions, establishes that personal state matters, and gives the facilitator data about team mood before exploring structured topics.
 
 A useful variation is the "weather report" check-in, where team members describe their current state as weather: sunny, partly cloudy, stormy, foggy. This metaphor distances the exercise from direct emotional disclosure, making it more comfortable for team members who find emotional language difficult. Remote developers in particular often respond better to concrete analogies than open-ended personal questions.
 

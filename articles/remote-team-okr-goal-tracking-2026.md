@@ -244,7 +244,7 @@ OBJECTIVE 1: Ship the new real-time collaboration feature
   Initiatives:
   - Implement operational transformation algorithm (Marcus)
   - Build WebSocket connection pooling (Priya)
-  - Write comprehensive conflict resolution tests (Dev)
+  - Write thorough conflict resolution tests (Dev)
   - Performance profiling and optimization (Sarah)
 
 OBJECTIVE 2: Make onboarding for new developers 50% faster
@@ -265,7 +265,7 @@ OBJECTIVE 3: Establish platform as reliable, enterprise-grade
 
   Initiatives:
   - Implement automated failover for primary database (Raj)
-  - Set up comprehensive alerting on critical paths (Elena)
+  - Set up detailed alerting on critical paths (Elena)
   - Create incident response runbooks (whole team)
   - Practice incident responses monthly
 ```

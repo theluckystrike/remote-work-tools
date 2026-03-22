@@ -49,7 +49,7 @@ The 60° angle is slightly more aggressive than other verticals, requiring stron
 
 ### Trackballs
 
-Trackballs reverse the mouse paradigm—your hand stays still while you rotate a ball with your thumb or fingers. Zero wrist movement means zero pronation strain. Trackballs are ideal for developers with severe RSI who cannot tolerate even vertical mice.
+Trackballs reverse the mouse pattern—your hand stays still while you rotate a ball with your thumb or fingers. Zero wrist movement means zero pronation strain. Trackballs are ideal for developers with severe RSI who cannot tolerate even vertical mice.
 
 **Kensington Expert Mouse Trackball:**
 - Large 55mm ball supports multiple finger control styles

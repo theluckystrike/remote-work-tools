@@ -48,7 +48,7 @@ A well-structured interview yields better recordings. Prepare a discussion guide
 
 1. Opening (2-3 minutes): Introduce yourself, explain the purpose, and set expectations for the recording
 2. Context Building (5-10 minutes): Understand the user's role, background, and context for using your product
-3. Problem Exploration (15-20 minutes): Dive into the challenges they face and current workarounds
+3. Problem Exploration (15-20 minutes): Look at the challenges they face and current workarounds
 4. Solution Discussion (10-15 minutes): Explore potential solutions and gather reactions to concepts
 5. Closing (2-3 minutes): Thank them, explain next steps, and ask for follow-up
 

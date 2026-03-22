@@ -181,7 +181,7 @@ This condition restricts access to business hours, but for true JIT access, you'
 
 ## Purpose-Built JIT Access Tools for Remote Teams
 
-While cloud-native JIT mechanisms work, several dedicated platforms streamline the entire workflow for distributed teams.
+While cloud-native JIT mechanisms work, several dedicated platforms speed up the entire workflow for distributed teams.
 
 **Teleport** is the most widely adopted open-source JIT access platform. It provides an unified access plane for SSH servers, Kubernetes clusters, databases, and cloud provider consoles. Remote teams particularly benefit from Teleport's web-based access request portal—developers submit requests in a browser, approvers receive Slack or email notifications, and approved sessions are logged automatically. The open-source tier handles most small team needs; the enterprise version adds hardware key enforcement and SAML integration.
 

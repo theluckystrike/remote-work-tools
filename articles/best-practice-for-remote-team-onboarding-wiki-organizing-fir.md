@@ -25,7 +25,7 @@ The key benefits include reduced onboarding time, clearer accountability for men
 
 ## Wiki Architecture Principles
 
-Before diving into specific task categories, establish a wiki structure that supports role-based customization. The ideal architecture separates universal content from role-specific content, allowing you to maintain a single source of truth while providing personalized experiences.
+Before examining specific task categories, establish a wiki structure that supports role-based customization. The ideal architecture separates universal content from role-specific content, allowing you to maintain a single source of truth while providing personalized experiences.
 
 ```
 /onboarding-wiki

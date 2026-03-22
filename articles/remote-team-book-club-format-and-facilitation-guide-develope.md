@@ -20,7 +20,7 @@ Running a book club for a distributed developer team requires more than sharing 
 
 ## Establishing the Foundation
 
-Before diving into discussion formats, establish clear expectations about commitment level, meeting frequency, and reading pace. A developer book club typically works best with a 2-4 week cycle per book chapter or section, depending on complexity. For technical books covering dense material like system design patterns or advanced algorithms, allow more time. For leadership or process-focused books, you can move faster.
+Before looking at discussion formats, establish clear expectations about commitment level, meeting frequency, and reading pace. A developer book club typically works best with a 2-4 week cycle per book chapter or section, depending on complexity. For technical books covering dense material like system design patterns or advanced algorithms, allow more time. For leadership or process-focused books, you can move faster.
 
 Create a simple signup process using your existing tooling. A GitHub issue or Notion database works well for tracking participants and their reading progress. Here's a minimal template for signups:
 
@@ -122,7 +122,7 @@ Ask questions like: "What happens if we increase buffer_size?" or "How would thi
 
 ### Pair Programming on Exercises
 
-For books with programming exercises, pair team members to work through problems together. Use VS Code Live Share or similar collaborative editing tools to code together in real-time. This approach works particularly well for books covering algorithms, system design, or new programming paradigms.
+For books with programming exercises, pair team members to work through problems together. Use VS Code Live Share or similar collaborative editing tools to code together in real-time. This approach works particularly well for books covering algorithms, system design, or new programming patterns.
 
 ## helping Difficult Discussions
 

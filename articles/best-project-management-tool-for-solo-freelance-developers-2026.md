@@ -42,7 +42,7 @@ Most enterprise PM tools (Jira, Monday.com) are overkill and expensive. Most sim
 - Integrations: Zapier, Gmail, Slack, Calendar
 
 **Strengths:**
-- Fastest task capture (QuickAdd feature, Inbox paradigm)
+- Fastest task capture (QuickAdd feature, Inbox model)
 - Excellent mobile experience
 - Calendar view showing tasks over time
 - Labels/filters for client segmentation
@@ -209,7 +209,7 @@ Notion is the most flexible option but requires initial setup (4-8 hours to buil
 
 **Strengths:**
 - Zero marginal cost (already using GitHub for code)
-- Seamless PR-to-issue linking
+- Easy PR-to-issue linking
 - Quick setup if you already use GitHub Issues
 - Dark mode, keyboard shortcuts
 - Automation: auto-move cards when PRs merge

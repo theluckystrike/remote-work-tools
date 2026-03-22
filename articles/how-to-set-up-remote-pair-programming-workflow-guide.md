@@ -135,7 +135,7 @@ To let a guest type in the terminal:
 - Ultra-low latency (<100ms typical)
 - Works over moderate bandwidth (2-5Mbps)
 - Integrated audio is actually good quality
-- Browser-based guest option is seamless
+- Browser-based guest option is simple
 
 **Weaknesses:**
 - Guests cannot control terminal by default (host-only by design)

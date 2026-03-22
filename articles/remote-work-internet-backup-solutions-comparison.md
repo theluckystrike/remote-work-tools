@@ -145,7 +145,7 @@ Rollback: If WAN1 recovers, wait 30 seconds then switch back
 ```
 
 **Automation benefit:**
-Devices on your network don't experience disruption during failover. Your laptop continues video call on backup internet automatically. Seamless from user perspective.
+Devices on your network don't experience disruption during failover. Your laptop continues video call on backup internet automatically. Simple from user perspective.
 
 **Speed performance:**
 Dual WAN routers themselves are fast (1-2.5 Gbps throughput), so don't constrain speed. Performance depends on backup internet source.

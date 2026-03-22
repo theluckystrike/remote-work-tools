@@ -23,7 +23,7 @@ The Meeting Owl from Owl Labs has become a popular choice for hybrid meeting spa
 
 ## Prerequisites and Initial Hardware Setup
 
-Before diving into configuration, ensure you have the necessary components:
+Before examining configuration, ensure you have the necessary components:
 
 - Meeting Owl 3 or Meeting Owl Pro
 - Power adapter (included)

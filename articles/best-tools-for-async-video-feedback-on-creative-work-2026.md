@@ -181,7 +181,7 @@ Regardless of which tool you choose, following these practices improves the qual
 
 Be specific about what you're reviewing. Rather than recording a general reaction, focus on specific elements of the creative work. Mention exact sections, colors, layouts, or copy that you're addressing.
 
-Structure your feedback logically. Start with overall impressions, then move to specific points. This helps creators understand your perspective before diving into details.
+Structure your feedback logically. Start with overall impressions, then move to specific points. This helps creators understand your perspective before exploring details.
 
 Balance criticism with appreciation. Creative work improves when reviewers acknowledge what's working well alongside areas for improvement.
 

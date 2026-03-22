@@ -192,7 +192,7 @@ This approach typically saves 2-4 hours per week compared to traditional shoppin
 
 Not all delivery services work equally well for remote teams:
 
-**Amazon Fresh / Whole Foods:** Best for: Regular recurring orders, if you have Prime membership. Integrates with Amazon ecosystem. Recurring delivery is seamless.
+**Amazon Fresh / Whole Foods:** Best for: Regular recurring orders, if you have Prime membership. Integrates with Amazon ecosystem. Recurring delivery is easy.
 
 **Instacart:** Best for: Flexibility and variety. Works with multiple stores locally. Good for families whose preferences change week-to-week. Downside: Higher markups and service fees.
 

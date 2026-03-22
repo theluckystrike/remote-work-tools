@@ -211,7 +211,7 @@ BREAKPOINTS=(
   "320x480"   # Small mobile
   "375x667"   # iPhone size
   "768x1024"  # Tablet
-  "1024x768"  # Landscape tablet
+  "1024x768"  # Market tablet
   "1280x720"  # Desktop
   "1920x1080" # Large desktop
 )

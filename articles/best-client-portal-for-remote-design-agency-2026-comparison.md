@@ -19,7 +19,7 @@ Remote design agencies face unique challenges when managing client communication
 
 ## Core Requirements for Design Agency Client Portals
 
-Before diving into specific tools, identify the essential features your agency needs:
+Before exploring specific tools, identify the essential features your agency needs:
 
 Your agency needs generous storage and fast upload speeds for large design assets (PSD, Figma, Sketch files), clear version history for design iterations, commenting and annotation tools specific to visual work, structured sign-off processes for approvals, and connectivity with design tools like Figma, Adobe Creative Cloud, and project management platforms.
 

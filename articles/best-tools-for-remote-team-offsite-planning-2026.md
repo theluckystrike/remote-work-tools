@@ -79,7 +79,7 @@ All attendees see schedule, can RSVP to activities, activities auto-blocked on c
 ### Strengths
 
 - Excellent for larger groups (8+ people)
-- Seamless Airbnb integration (no switching platforms)
+- Simple Airbnb integration (no switching platforms)
 - Visual property selection with reviews and ratings
 - Integrated calendar prevents scheduling conflicts
 - Automatic payment splitting

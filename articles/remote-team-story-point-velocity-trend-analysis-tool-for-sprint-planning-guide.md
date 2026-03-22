@@ -20,7 +20,7 @@ Velocity trend analysis is one of the most valuable metrics for remote engineeri
 
 ## Understanding Velocity Metrics for Remote Teams
 
-Before diving into implementation, let's clarify what velocity means in a remote context. Velocity measures the amount of work a team completes during a sprint, typically expressed in story points. For remote teams, velocity becomes even more critical because you lack the informal in-office observations that co-located managers rely on to gauge team health.
+Before exploring implementation, let's clarify what velocity means in a remote context. Velocity measures the amount of work a team completes during a sprint, typically expressed in story points. For remote teams, velocity becomes even more critical because you lack the informal in-office observations that co-located managers rely on to gauge team health.
 
 **Key velocity metrics to track:**
 

@@ -26,7 +26,7 @@ Unlike formal mentors assigned by management, buddies build relationships throug
 
 ## Core Components of a Scaled Buddy Program
 
-Before diving into implementation, establish these foundational elements:
+Before examining implementation, establish these foundational elements:
 
 1. Clear Role Definition: Document what buddies do and don't do. They answer questions, pair on small tasks, and provide social connection—they do not replace managers or HR onboarding processes.
 

@@ -315,7 +315,7 @@ Layer 4: Snapshots during development (manual or automatic)
 ├─ Limitations: Only for specific data you explicitly track
 └─ Retention: Last 10-100 commits depending on config
 
-Total cost: ~$100-150/month for comprehensive protection
+Total cost: ~$100-150/month for detailed protection
 ```
 
 **Practical implementation:**

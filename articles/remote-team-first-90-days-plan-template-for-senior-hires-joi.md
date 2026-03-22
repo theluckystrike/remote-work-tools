@@ -27,7 +27,7 @@ The first 90 days break naturally into three distinct phases: the foundation wee
 
 ## Phase One: Foundation Week (Days 1-7)
 
-The first week focuses on getting your environment operational and understanding the team's basic communication patterns. Resist the temptation to dive into code or architecture immediately—building the right foundation pays dividends throughout your tenure.
+The first week focuses on getting your environment operational and understanding the team's basic communication patterns. Resist the temptation to examine code or architecture immediately—building the right foundation pays dividends throughout your tenure.
 
 ### Days 1-2: Environment Setup and Tooling
 
@@ -185,7 +185,7 @@ As you approach the 90-day mark, focus on sustainability and long-term positioni
 The 90-day review is a critical milestone. Come prepared to discuss:
 
 - What you accomplished versus your initial goals
-- What you learned about the team, product, and technical landscape
+- What you learned about the team, product, and technical field
 - Challenges you faced and how you overcame them
 - Your vision for your role in the next quarter
 - Feedback on the onboarding process itself
@@ -196,7 +196,7 @@ Several factors require extra attention when joining remote teams:
 
 **Time zone awareness** becomes critical when you're in a significantly different zone than your team. Identify the overlap hours and protect them for synchronous collaboration. Use async communication for everything else.
 
-**Written communication** carries more weight in remote settings. Your ability to write clearly and comprehensively directly impacts your effectiveness. Practice writing detailed PR descriptions, RFCs, and documentation.
+**Written communication** carries more weight in remote settings. Your ability to write clearly and fully directly impacts your effectiveness. Practice writing detailed PR descriptions, RFCs, and documentation.
 
 **Visibility** doesn't happen automatically when you work remotely. Make your contributions visible through demos, written summaries, and consistent updates in team channels. This isn't self-promotion—it's necessary context-sharing.
 

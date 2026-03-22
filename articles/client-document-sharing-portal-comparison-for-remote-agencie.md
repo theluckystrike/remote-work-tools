@@ -20,7 +20,7 @@ Remote agencies face unique challenges when sharing client deliverables. Unlike 
 
 ## Core Requirements for Remote Agency Document Portals
 
-Before diving into specific tools, identify what matters most for distributed teams:
+Before examining specific tools, identify what matters most for distributed teams:
 
 **Version control and audit trails** matter because clients often request changes, and you need to track who viewed what and when. **Granular permission controls** let you share specific folders with specific stakeholders without exposing everything. **API access** enables you to automate document generation and delivery—critical for agencies handling multiple clients simultaneously.
 
@@ -186,7 +186,7 @@ async function uploadClientDeliverable(client, filename, content) {
 
 SharePoint works best within the Microsoft ecosystem. Outside it, the experience degrades significantly. Client-facing portals often require guest account setup, adding friction. The admin experience remains complex compared to consumer-focused tools.
 
-If your clients are Microsoft shops themselves, the experience is seamless—they access files through their existing Teams interface with no new account required. If they are not, expect onboarding friction.
+If your clients are Microsoft shops themselves, the experience is easy—they access files through their existing Teams interface with no new account required. If they are not, expect onboarding friction.
 
 Cost: Microsoft 365 Business Basic ($12/user/month) includes SharePoint.
 

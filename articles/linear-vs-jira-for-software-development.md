@@ -253,7 +253,7 @@ Linear would be awkward with this complexity. Jira is designed for this.
 
 **Jira Integrations (100+ apps)**
 Popular integrations:
-- Confluence (native; seamless docs linking)
+- Confluence (native; smooth docs linking)
 - Bitbucket (native; PR auto-link)
 - Slack (2-way sync, issue updates)
 - Tempo (time tracking)

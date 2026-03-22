@@ -52,7 +52,7 @@ Unstructured feedback in async channels reads harsher than intended. The gap bet
 ## Feedback: [Feature Name]
 
 ### What worked well
-- The test coverage is comprehensive
+- The test coverage is thorough
 - The naming is clear and consistent
 
 ### Opportunity for growth

@@ -164,7 +164,7 @@ If you decide cameras stay on, optimize strategically. Most remote workers overs
 |-----------|--------|--------|
 | USB Webcam (Logitech C920) | $50-80 | Good quality, adequate for most calls |
 | 4K Webcam (Razer Kiyo Pro) | $150-200 | Minimal improvement in typical calls |
-| Ring Light (Neewer) | $20-30 | Game-changer for appearance |
+| Ring Light (Neewer) | $20-30 | Significant shift for appearance |
 | Professional LED Panel (Nanlite) | $100-300 | Excellent if you do frequent presentations |
 | Desk Mount + Cable Management | $20-40 | Reduces clutter in background |
 | Wireless Earbuds (AirPods Pro) | $240 | Excellent audio, reduces camera equipment |

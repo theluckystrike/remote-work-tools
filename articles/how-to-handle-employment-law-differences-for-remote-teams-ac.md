@@ -16,7 +16,7 @@ voice-checked: true
 
 {% raw %}
 
-Managing a remote team across multiple European Union countries introduces a complex legal landscape that no manager can afford to ignore. Each EU member state implements variations of employment law, even though directives from Brussels create a baseline framework. The result is a patchwork of requirements that affects everything from employment contracts to social security contributions, from working hour regulations to termination procedures.
+Managing a remote team across multiple European Union countries introduces a complex legal field that no manager can afford to ignore. Each EU member state implements variations of employment law, even though directives from Brussels create a baseline framework. The result is a patchwork of requirements that affects everything from employment contracts to social security contributions, from working hour regulations to termination procedures.
 
 This guide provides a practical framework for handling these differences without needing a law degree. You'll learn the key areas where EU countries differ, how to structure your team's employment arrangements, and which tools and partners can simplify compliance.
 

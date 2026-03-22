@@ -396,7 +396,7 @@ Both tools connect to broader workflows:
   - Stripe, Slack, Google Calendar, Figma, GitHub
 - API: Custom integrations for developers
 
-Notion's Zapier integration is more powerful than Coda's API. Coda's native Slack bot is more seamless than Notion's external setup.
+Notion's Zapier integration is more powerful than Coda's API. Coda's native Slack bot is more easy than Notion's external setup.
 
 ## Migration Scenarios and Recommendations
 
@@ -426,7 +426,7 @@ Recommendation: **Likely Coda or Airtable**
 - Notion's free tier limitations appear
 - Complex multi-author workflows benefit from Coda's database-driven approach
 
-**Scenario 4: You need robust integrations**
+**Scenario 4: You need solid integrations**
 
 Recommendation: **Neither—consider Airtable**
 

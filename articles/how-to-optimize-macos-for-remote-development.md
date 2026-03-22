@@ -48,7 +48,7 @@ Beyond the default Oh My Zsh plugins, these additions specifically benefit remot
 | `zsh-syntax-highlighting` | Real-time syntax coloring | Catches typos in destructive commands before execution |
 | `kubectl` | Kubernetes aliases | Speeds up remote cluster management |
 | `aws` | AWS CLI completion | Essential for infrastructure work across cloud regions |
-| `tmux` | Tmux aliases and keybindings | Streamlines session management during unstable connections |
+| `tmux` | Tmux aliases and keybindings | Simplifies session management during unstable connections |
 
 Install third-party plugins by cloning into the Oh My Zsh custom plugins directory:
 

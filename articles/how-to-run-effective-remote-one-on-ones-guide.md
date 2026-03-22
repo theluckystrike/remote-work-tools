@@ -370,7 +370,7 @@ Every three months, schedule a separate 45-minute meeting:
 **Managing 10+ reports:**
 - Delegate some 1:1s to senior engineers (skip-level 1:1s; you check in monthly).
 - Implement 15Five or Lattice to reduce note-taking burden.
-- Group less frequent deep-dives into monthly career conversations.
+- Group less frequent deep-explores monthly career conversations.
 
 ---
 

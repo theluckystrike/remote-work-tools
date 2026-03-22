@@ -22,7 +22,7 @@ This guide evaluates proposal tools specifically for solo remote UX designers wh
 
 ## What Solo UX Designers Actually Need in a Proposal Tool
 
-Before diving into specific tools, let's establish the criteria that matter for your situation:
+Before examining specific tools, let's establish the criteria that matter for your situation:
 
 - Time efficiency: You bill hourly on client work—proposal writing should not eat your entire afternoon
 - Professional presentation: Your work speaks for itself; your proposals should look equally polished

@@ -299,7 +299,7 @@ This approach optimizes for meeting balance rather than just finding any overlap
 
 ## Calendar Integration Patterns
 
-For seamless integration with existing systems:
+For easy integration with existing systems:
 
 ```bash
 #!/bin/bash

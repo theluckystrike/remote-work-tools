@@ -51,7 +51,7 @@ Choose episodes that balance technical depth with accessibility. The best podcas
 Build an episode queue with variety:
 
 - **Technical deep dives** (60-90 minutes): Architecture decisions, language comparisons, tooling discussions
-- **Industry trends** (30-45 minutes): Market movements, tool landscape changes, methodology debates
+- **Industry trends** (30-45 minutes): Market movements, tool space changes, methodology debates
 - **Career growth** (20-30 minutes): Leadership lessons, communication skills, productivity systems
 
 For a team of 5-8 developers, aim for one episode per week. This creates consistent learning momentum without overwhelming schedules.

@@ -16,7 +16,7 @@ voice-checked: true
 
 {% raw %}
 
-Revenue intelligence platforms have become essential infrastructure for distributed sales teams. As remote work continues to dominate the sales landscape, understanding how conversation analytics and AI-powered insights transform deal execution becomes critical for engineering leaders and product managers building sales tech stacks.
+Revenue intelligence platforms have become essential infrastructure for distributed sales teams. As remote work continues to dominate the sales space, understanding how conversation analytics and AI-powered insights transform deal execution becomes critical for engineering leaders and product managers building sales tech stacks.
 
 ## What is Revenue Intelligence?
 

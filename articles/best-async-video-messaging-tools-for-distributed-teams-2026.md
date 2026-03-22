@@ -136,7 +136,7 @@ Meeting settings:
 
 Advantages:
 - Zero additional cost
-- Google Drive integration seamless
+- Google Drive integration simple
 - Works with existing calendar/email
 - Automatic transcription available
 
@@ -302,7 +302,7 @@ This video explains [topic]. Estimated watch time: 7 minutes.
 
 **No captions**: Accessibility and comprehension both improve with captions. Turn them on.
 
-**Missing context**: Assume viewers don't know background. Provide brief context before diving into details.
+**Missing context**: Assume viewers don't know background. Provide brief context before exploring details.
 
 **Fire and forget**: After posting a video, encourage comments and questions. Async doesn't mean no discussion—just not synchronous.
 

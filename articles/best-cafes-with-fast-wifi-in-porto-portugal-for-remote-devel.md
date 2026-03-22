@@ -17,7 +17,7 @@ Cafe Santiago offers the best combination of fast WiFi (consistently 50+ Mbps), 
 
 ## What Makes a Cafe Developer-Friendly
 
-Before diving into specific recommendations, here are the key factors remote developers should evaluate when choosing a workspace:
+Before exploring specific recommendations, here are the key factors remote developers should evaluate when choosing a workspace:
 
 - WiFi speed: Look for connections with at least 30+ Mbps download speeds
 - Power outlet availability: Essential for long work sessions
