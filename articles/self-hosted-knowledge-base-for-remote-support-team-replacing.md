@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Self-Hosted Knowledge Base for Remote Support Team Replacing Zendesk Guide 2026"
 description: "A practical guide to building a self-hosted knowledge base for remote support teams migrating from Zendesk. Covers open-source tools, architecture patterns, and implementation strategies."
 date: 2026-03-21
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /self-hosted-knowledge-base-for-remote-support-team-replacing/
 categories: [guides]
 tags: [remote-work-tools, knowledge-base, self-hosted, zendesk-alternative, support-tools]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Self-Hosted Knowledge Base for Remote Support Team Replacing Zendesk Guide 2026
