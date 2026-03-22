@@ -31,6 +31,13 @@ intent-checked: true---
 
 Building a buddy system program becomes essential when your remote team grows beyond a handful of new hires. A well-structured buddy program accelerates onboarding, reduces time-to-productivity, and creates genuine human connections in distributed environments. This guide provides a practical framework for implementing and scaling a remote buddy system using automation, clear processes, and measurable outcomes.
 
+## Key Takeaways
+
+- **Training and Resources**: Give buddies a checklist of topics to cover during the first week: tooling access, communication norms, team rituals, and local recommendations for remote workers.
+- **Use scheduled reminders to**: maintain consistency without adding administrative overhead.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: why remote buddy systems work, core components of a scaled buddy program, automating buddy assignment
+
 ## Why Remote Buddy Systems Work
 
 New hires in remote environments face unique challenges. They lack organic hallway conversations, cannot observe team dynamics in person, and often feel isolated during their first weeks. A buddy serves as an informal guide—a peer who answers "silly questions" without judgment, shares cultural context, and helps navigate the unspoken norms of your organization.

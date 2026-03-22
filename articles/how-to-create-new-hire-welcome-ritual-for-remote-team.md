@@ -33,6 +33,13 @@ Building a thoughtful welcome ritual for remote team members creates the foundat
 
 This guide provides actionable steps to create welcoming rituals that work across time zones and asynchronous workflows.
 
+## Key Takeaways
+
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: why welcome rituals matter for remote teams, designing your welcome ritual framework, pre-boarding phase (before day one)
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+- **Use-case recommendations**: Specific guidance based on team size and requirements
+
 ## Why Welcome Rituals Matter for Remote Teams
 
 Remote work eliminates the casual hallway conversations and lunch interactions that help people feel included. Without intentional design, new hires can feel isolated during their first weeks, struggling to understand team dynamics and cultural norms. A well-crafted welcome ritual addresses this by creating structured touchpoints that guide newcomers through integration.

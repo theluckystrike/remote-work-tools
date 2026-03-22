@@ -28,7 +28,17 @@ voice-checked: true
 tags: [remote-work-tools, remote-work]---
 
 {% raw %}
+
 Map your infrastructure pods and on-call responsibilities, then use a capacity planning spreadsheet or tool to align remote SRE members with their zones—preventing overallocation in some areas while leaving expertise gaps in others. Capacity planning for remote SRE teams requires careful coordination across distributed infrastructure pods and time zones. This guide provides practical, step-by-step methods for aligning remote SRE capacity with infrastructure demands, including automation examples and coverage verification strategies.
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Discuss major initiatives requiring**: SRE support, anticipated infrastructure changes, and any hiring needs.
+- **Identify expertise gaps and**: training needs 4.
 
 ## Understanding Infrastructure Pods and SRE Responsibilities
 

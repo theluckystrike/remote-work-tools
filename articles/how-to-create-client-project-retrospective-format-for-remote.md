@@ -31,6 +31,19 @@ voice-checked: true---
 
 Client project retrospectives provide a structured opportunity to reflect on what worked, what didn't, and how to improve future collaborations. For remote teams working with clients across different locations and time zones, the traditional in-person retrospective doesn't translate well. This guide covers how to create effective client project retrospective formats designed specifically for distributed teams.
 
+## Key Takeaways
+
+- **Example prompt**: "What about our collaboration or the deliverables we produced did you find most valuable or surprising?"
+
+Areas for Improvement
+
+This section requires sensitivity.
+- **Ask what would have**: made the experience better without implying that something was wrong.
+- **Smaller clients may prefer**: more casual conversations.
+- **Adjust your format based**: on client preferences while maintaining the core structure that makes retrospectives valuable.
+- **Use synchronous time sparingly**: for high-value discussion rather than information gathering that could happen asynchronously.
+- **A declining trend signals**: process problems before they cause client churn.
+
 ## Why Client Retrospectives Need Different Formats for Remote Work
 
 When you're working in the same office as your client, retrospectives happen organically—casual conversations in the hallway, quick syncs after meetings, or informal chats over coffee. Remote work eliminates these spontaneous touchpoints, which means you need intentional structures to capture the same value.
