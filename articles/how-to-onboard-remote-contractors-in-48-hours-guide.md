@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Onboard Remote Contractors in 48 Hours"
-description: "Fast-track contractor onboarding with checklist, tools, and templates. From offer to productive in two days."
+description: "Onboard remote contractors in 48 hours: access provisioning checklist, tool setup automation, async orientation flow, and first-week task templates."
 date: 2026-03-21
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"

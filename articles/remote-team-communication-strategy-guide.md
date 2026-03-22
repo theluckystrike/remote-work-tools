@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Communication Strategy Guide"
-description: "A practical guide to building effective remote team communication strategies for developers and technical teams"
+description: "Build a remote communication strategy: channel hierarchy, response time expectations, meeting cadence, and escalation rules for distributed teams."
 date: 2026-03-15
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"

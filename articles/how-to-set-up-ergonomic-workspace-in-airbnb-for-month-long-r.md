@@ -33,6 +33,28 @@ Spending a month working from an Airbnb sounds ideal until you realize the desk 
 
 This guide walks you through creating a comfortable, ergonomic workspace in any Airbnb, using what you already travel with and what you can source locally. No expensive gear required—just smart positioning and a few strategic purchases.
 
+## Key Takeaways
+
+- **Pick from**: ${breakActivities.join(", ")}`);
+
+    // Resume after 17 minute break
+    await sleep(17 * 60 * 1000);
+  });
+};
+```
+
+Daily exercises to prevent RSI (5 min, do every morning):
+1.
+- **Mouse**: Avoid trackpad-only work for extended periods
+4.
+- **Wrist circles**: 30 seconds each direction (2x)
+2.
+- **Finger extension**: Spread fingers wide, hold 5 seconds (3x)
+3.
+- **If the table is too high**: raise your chair and use a footrest.
+- **Lumbar cushion**: Provides back support on unfamiliar chairs
+5.
+
 ## Pre-Arrival Research: Know What You're Walking Into
 
 Before booking, scan listing photos for desk and chair options. Look for:

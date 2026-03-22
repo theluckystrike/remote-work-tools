@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Remote Team Operations Handbook From Scratch"
-description: "A practical guide for developers and power users to build a remote team operations handbook from the ground up"
+description: "Build a remote team operations handbook from scratch: communication protocols, escalation paths, tool guides, and async decision-making templates."
 date: 2026-03-16
 last_modified_at: 2026-03-22
 author: theluckystrike

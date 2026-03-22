@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Review assignment logic (example)"
-description: "A practical guide to implementing efficient code review processes for distributed backend teams of 6 developers"
+description: "Code review workflow for a 6-person remote backend team: PR size limits, reviewer rotation, async feedback loops, and merge queue configuration."
 date: 2026-03-16
 last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"

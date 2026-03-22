@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "OpenVPN client configuration snippet"
-description: "A practical guide for developers and power users setting up IT infrastructure that supports hybrid work models"
+description: "Hybrid office IT setup: network segmentation, VPN configs, hot desk booking systems, and AV equipment for seamless remote-to-office transitions."
 date: 2026-03-16
 last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"

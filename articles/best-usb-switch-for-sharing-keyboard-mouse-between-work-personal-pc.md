@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best USB Switch for Sharing Keyboard and Mouse Between Work"
-description: "A guide to USB KVM switches for developers sharing peripherals between work and personal computers. Includes comparison, setup"
+description: "USB KVM switches for sharing keyboard and mouse between work and personal PCs: UGREEN, Sabrent, and IOGear compared on latency and compatibility."
 date: 2026-03-16
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"

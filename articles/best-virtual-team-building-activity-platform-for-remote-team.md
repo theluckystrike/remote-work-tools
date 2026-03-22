@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Virtual Team Building Activity Platform for Remote"
-description: "A guide to selecting the best virtual team building activity platform for small remote teams under 50 members. Compare features, pricing"
+description: "Virtual team building platforms for small remote teams: Gather, Donut, and TeamBuilding compared on activity variety, pricing, and engagement data."
 date: 2026-03-16
 last_modified_at: 2026-03-22
 author: theluckystrike

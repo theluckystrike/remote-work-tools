@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Multi Timezone Team Calendar Setup Scheduling Across Regions"
-description: "Complete guide to setting up calendars, scheduling tools, and meeting times for distributed teams across 3+ timezones"
+description: "Set up calendars for multi-timezone teams: World Time Buddy, Google Calendar overlays, meeting window finders, and fair rotation scheduling."
 date: 2026-03-20
 last_modified_at: 2026-03-20
 author: theluckystrike

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Standing Desk Converters Under $300 for Developers"
-description: "Affordable standing desk converters that improve posture without requiring full desk replacement"
+description: "Standing desk converters under $300 for developers: FlexiSpot, VIVO, and VariDesk compared on stability, keyboard tray depth, and monitor weight."
 date: 2026-03-20
 last_modified_at: 2026-03-20
 author: theluckystrike

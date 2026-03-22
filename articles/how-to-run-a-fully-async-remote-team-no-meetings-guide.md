@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run a Fully Async Remote Team No Meetings Guide"
-description: "A guide to running a fully asynchronous remote team without live meetings. Learn frameworks, tools, and best practices for async-first"
+description: "Run a fully async remote team with zero meetings: decision frameworks, documentation standards, video memo workflows, and escalation protocols."
 date: 2026-03-18
 last_modified_at: 2026-03-22
 author: theluckystrike

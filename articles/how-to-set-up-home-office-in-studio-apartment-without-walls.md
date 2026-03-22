@@ -33,6 +33,17 @@ Create a dedicated home office in a studio apartment by using vertical space wit
 
 This guide walks through practical strategies for carving out a functional home office in a studio apartment, from zone planning to organization systems that actually work.
 
+## Key Takeaways
+
+- **Used Herman Miller or**: Aeron chairs can often be found for $300-$500, a worthwhile investment for 8+ hours daily use.
+- Prices range from $150-$400.
+- **White noise machines**: Compact units ($20-$50) or smartphone apps create ambient sound that masks distractions.
+- **[ ] Position desk**: for best natural light and minimal glare 3.
+- **You have full control**: over how you divide and use every square foot, without being constrained by existing doorways or wall placements.
+- **Consider these options:
+
+Corner Desks**: use unused corner space.
+
 ## The Core Challenge: Defining Space Without Walls
 
 Unlike traditional apartments with separate rooms, a studio forces you to get creative with space definition. The good news? Your open layout is actually an advantage. You have full control over how you divide and use every square foot, without being constrained by existing doorways or wall placements.

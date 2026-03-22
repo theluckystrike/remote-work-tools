@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Freelance Developer Rates in 2026"
-description: "A practical guide to setting freelance developer rates with formulas, market analysis, and pricing strategies for 2026"
+description: "Set freelance developer rates in 2026: hourly vs project pricing formulas, market rate data by stack, and value-based pricing strategies."
 date: 2026-03-15
 last_modified_at: 2026-03-22
 author: theluckystrike
@@ -30,6 +30,19 @@ voice-checked: true---
 {% raw %}
 
 Setting your freelance developer rates is one of the most consequential decisions you'll make as an independent developer. Price too low and you'll burn out chasing volume. Price too high and you'll struggle to close deals. The sweet spot requires understanding your costs, valuing your skills, and positioning yourself strategically in the market. This guide provides actionable frameworks for setting rates that sustain a profitable freelance career.
+
+## Key Takeaways
+
+- **Mistake 2**: Basing rates on salary equivalents.
+"I made $120,000 as an employee, so I need $60/hour as a freelancer" is flawed math.
+- **A developer making $120,000**: salary needs $100-120/hour as a freelancer to maintain income.
+- **Poor**: "My rate is $85/hour."
+Better: "Based on your project scope, I estimate 120 hours of work, totaling $10,200."
+
+The second framing anchors on total value rather than hourly cost.
+- **Accounting for prospecting**: administrative work, and unpaid holidays, a realistic use rate sits around 60-70% of total working hours.
+- **Setting your freelance developer**: rates is one of the most consequential decisions you'll make as an independent developer.
+- **Junior developers (1-2 years)**: typically charge $50-80/hour.
 
 ## Calculate Your Minimum Viable Rate
 

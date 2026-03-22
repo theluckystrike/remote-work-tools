@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Architecture BIM Collaboration Tool for Distributed"
-description: "A guide to remote architecture BIM collaboration tools enabling distributed teams to work on Revit projects together in real-time. Covers"
+description: "BIM collaboration tools for distributed architecture teams: Revit Server, BIM 360, and Speckle compared on real-time sync and version control."
 date: 2026-03-16
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"

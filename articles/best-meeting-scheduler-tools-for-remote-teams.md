@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Meeting Scheduler Tools for Remote Teams"
-description: "A guide to the best meeting scheduler tools for remote teams. Compare features, APIs, and developer-friendly integrations for distributed"
+description: "Meeting schedulers for remote teams: Calendly, SavvyCal, and Cal.com compared on timezone handling, round-robin routing, and API integrations."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-meeting-scheduler-tools-for-remote-teams/

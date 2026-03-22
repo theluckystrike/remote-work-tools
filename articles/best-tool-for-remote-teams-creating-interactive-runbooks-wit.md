@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Migration runbook example structure"
-description: "A practical guide to interactive runbooks with embedded terminal commands for distributed development teams"
+description: "Interactive runbooks with embedded terminal commands for remote teams. Notion, Backstage, and Rundeck compared on execution and version control."
 date: 2026-03-15
 last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
