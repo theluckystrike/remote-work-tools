@@ -126,6 +126,33 @@ func main() {
 }
 ```
 
+**Adding Custom Context to Sentry Events**
+
+Raw stack traces are useful, but the error is much faster to diagnose when you attach business context — which user triggered it, what they were doing, and what state the application was in:
+
+```python
+import sentry_sdk
+
+def process_order(order_id: str, user_id: str):
+    with sentry_sdk.push_scope() as scope:
+        scope.set_tag("order.id", order_id)
+        scope.set_tag("user.tier", get_user_tier(user_id))
+        scope.set_context("order", {
+            "id": order_id,
+            "status": "processing",
+            "items_count": get_order_items_count(order_id),
+        })
+        scope.set_user({"id": user_id})
+
+        try:
+            result = run_payment_flow(order_id)
+        except PaymentError as e:
+            sentry_sdk.capture_exception(e)
+            raise
+```
+
+This adds a searchable tag and structured context to every error that occurs inside this function. When you're debugging at midnight from different time zones, having `order.id` directly in Sentry reduces the investigation loop from 20 minutes to 2.
+
 ---
 
 ## GlitchTip (Self-Hosted Sentry Alternative)
@@ -185,6 +212,10 @@ volumes:
 ```
 
 Since GlitchTip uses the Sentry protocol, all Sentry SDKs work unchanged — just point the `DSN` at your GlitchTip instance.
+
+**When to Choose GlitchTip Over Sentry CE**
+
+GlitchTip trades Sentry's performance monitoring and session replay features for dramatically simpler operations. If your team's primary need is error grouping and alerting — not APM — GlitchTip is easier to run sustainably. A single `t3.small` with 4 GB RAM is sufficient for teams shipping a few thousand errors per day. Sentry CE needs a minimum of 8 containers and 16 GB RAM on the control node.
 
 ---
 
@@ -307,6 +338,81 @@ path:src/auth/* security-team
 url:*/api/v2/* backend-team
 tags.logger:frontend frontend-team
 ```
+
+**Error Budgets for Async Teams**
+
+Define an explicit error rate budget per service so the team has a shared threshold for when to stop shipping and address reliability:
+
+```python
+#!/usr/bin/env python3
+# error_budget.py — report error budget status for Slack
+import os, requests
+from datetime import datetime, timedelta
+
+SENTRY_TOKEN = os.environ["SENTRY_AUTH_TOKEN"]
+ORG = os.environ["SENTRY_ORG"]
+PROJECT = os.environ["SENTRY_PROJECT"]
+
+# Error budget: 99.5% success rate = 0.5% allowed errors
+ERROR_BUDGET_PERCENT = 0.5
+
+def get_error_rate(hours=24):
+    end = datetime.utcnow()
+    start = end - timedelta(hours=hours)
+
+    stats = requests.get(
+        f"https://sentry.io/api/0/projects/{ORG}/{PROJECT}/stats/",
+        headers={"Authorization": f"Bearer {SENTRY_TOKEN}"},
+        params={
+            "since": int(start.timestamp()),
+            "until": int(end.timestamp()),
+            "stat": "received",
+            "resolution": "1h",
+        },
+    ).json()
+
+    total_events = sum(point[1] for point in stats)
+    return total_events
+
+errors = get_error_rate(hours=24)
+print(f"Errors last 24h: {errors}")
+print(f"Budget status: review if errors exceed threshold for your traffic volume")
+```
+
+Post the budget status to Slack on a daily schedule so the whole team sees it during async standups, not just the engineer who happened to check Sentry that morning.
+
+---
+
+## Alerting Routing for Distributed On-Call
+
+Error tracking tools are only as useful as their alerting configuration. For remote teams across time zones, poor routing means the wrong person gets paged at 3am for an issue outside their domain.
+
+Configure routing rules in Sentry to send alerts based on the code path, not just the project:
+
+```python
+# Sentry alert configuration via sentry-cli or Terraform
+# Route payment errors to payments team Slack channel
+# Route auth errors to security team PagerDuty
+# Route everything else to a general #errors channel with low priority
+```
+
+Use PagerDuty or Opsgenie to implement time-zone-aware on-call rotations. Set up escalation policies so an alert that goes unacknowledged for 15 minutes automatically escalates to the next person in the rotation, regardless of time zone.
+
+For teams that don't want full PagerDuty overhead, Sentry's built-in alert rules with Slack routing plus a simple on-call schedule posted in your team handbook is sufficient for most sub-20-person teams:
+
+```yaml
+# Sentry alert rules (configurable in Project Settings > Alerts)
+# Rule 1: Critical errors — any new issue with >10 occurrences/hour
+#   Action: Notify #alerts-critical in Slack + email on-call engineer
+#
+# Rule 2: Error spike — error rate increases 50% vs. last hour
+#   Action: Notify #alerts-ops in Slack
+#
+# Rule 3: New error in production — any first-seen error
+#   Action: Notify #errors-review in Slack (low priority, review async)
+```
+
+Keep the critical alert channel genuinely critical. If it fires more than 3 times per week on non-critical issues, the team will start ignoring it — the classic alert fatigue failure mode.
 
 ---
 
