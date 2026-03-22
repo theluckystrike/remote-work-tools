@@ -234,13 +234,13 @@ Pricing: $15/month for the Lite plan, $30/month for Plus (includes time tracking
 
 Select your invoicing platform based on your agency's specific needs:
 
-| Use Case | Recommended Tool |
-|----------|------------------|
-| Developer-heavy workflow with custom needs | Stripe Invoicing |
-| International clients with tax complexity | Quaderno |
-| All-in-one client management | HoneyBook |
-| Subscription/retainer focus | Chargebee |
-| Hourly billing with time tracking | FreshBooks |
+| Use Case | Recommended Tool | Free Trial |
+|----------|------------------|------------|
+| Developer-heavy workflow with custom needs | Stripe Invoicing | No trial, pay-as-you-go |
+| International clients with tax complexity | Quaderno | 14 days |
+| All-in-one client management | HoneyBook | 7 days |
+| Subscription/retainer focus | Chargebee | 14 days |
+| Hourly billing with time tracking | FreshBooks | 30 days |
 
 Consider starting with one tool and expanding as your agency grows. Most platforms offer free trials ranging from 14 to 30 days—take advantage of these to validate the workflow matches your actual operations before committing.
 ---

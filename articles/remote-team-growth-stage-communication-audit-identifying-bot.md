@@ -206,13 +206,13 @@ Teams with high bidirectional dependency scores are candidates for tighter integ
 
 Once you've identified bottlenecks, prioritize based on impact. Common effective interventions:
 
-| Bottleneck Type | Intervention |
-|-----------------|---------------|
-| Too many channels | Archive inactive channels, create channel guides |
-| Meeting overload | Implement "meeting-free Fridays", require agendas |
-| Slow async responses | Set SLA expectations, create dedicated async windows |
-| Documentation gaps | Mandate decision records, create runbooks |
-| Cross-team silos | Establish guilds or communities of practice |
+| Bottleneck Type | Intervention | Tool |
+|-----------------|---------------|------|
+| Too many channels | Archive inactive channels, create channel guides | Slack analytics, Slack Workflow Builder |
+| Meeting overload | Implement "meeting-free Fridays", require agendas | Clockwise, Reclaim.ai |
+| Slow async responses | Set SLA expectations, create dedicated async windows | Loom, Notion, Linear |
+| Documentation gaps | Mandate decision records, create runbooks | Confluence, Notion, GitHub wikis |
+| Cross-team silos | Establish guilds or communities of practice | Slack Connect, Tettra |
 
 Start with quick wins that have high visibility. Implementing a channel cleanup typically takes a few hours but immediately reduces noise for everyone.
 
