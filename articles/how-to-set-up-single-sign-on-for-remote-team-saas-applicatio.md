@@ -20,17 +20,34 @@ Single sign-on (SSO) has become essential for remote teams managing multiple Saa
 
 Three protocols dominate modern SSO implementations: SAML 2.0, OAuth 2.0, and OpenID Connect (OIDC). Each serves different use cases and offers varying levels of complexity.
 
-**SAML 2.0** remains prevalent in enterprise environments. It uses XML-based assertions and works well for applications needing deep integration with identity providers.
+**SAML 2.0** remains prevalent in enterprise environments. It uses XML-based assertions and works well for applications needing deep integration with identity providers. SAML is verbose and XML-heavy, but offers mature tooling and broad enterprise SaaS compatibility — if your org uses Salesforce, Workday, or older on-prem tools, SAML is often the only option.
 
-**OAuth 2.0** focuses on authorization rather than authentication. It enables scoped access without sharing credentials, making it ideal for API-centric applications.
+**OAuth 2.0** focuses on authorization rather than authentication. It enables scoped access without sharing credentials, making it ideal for API-centric applications. OAuth alone does not tell you who the user is — only that they have permission to access a resource. You need OIDC on top if you want identity.
 
-**OpenID Connect** builds on OAuth 2.0, adding an identity layer. It provides JSON-based ID tokens and has become the preferred choice for modern SaaS applications due to its developer-friendly nature.
+**OpenID Connect** builds on OAuth 2.0, adding an identity layer. It provides JSON-based ID tokens and has become the preferred choice for modern SaaS applications due to its developer-friendly nature. OIDC's discovery document (hosted at `/.well-known/openid-configuration`) lets applications auto-configure themselves, dramatically simplifying integration.
 
 For most remote teams, OIDC provides the best balance of security, simplicity, and broad SaaS support.
+
+### Protocol Comparison
+
+| Feature | SAML 2.0 | OAuth 2.0 | OIDC |
+|---|---|---|---|
+| Primary use | Authentication + Authorization | Authorization | Authentication + Authorization |
+| Token format | XML assertions | Opaque tokens | JWT (JSON) |
+| SaaS compatibility | Broad (enterprise) | API-centric | Broad (modern apps) |
+| Developer experience | Moderate | Good | Excellent |
+| Mobile support | Poor | Good | Good |
+| Setup complexity | High | Medium | Medium |
 
 ## Setting Up Your Identity Provider
 
 Before configuring SaaS applications, establish a centralized identity provider (IdP). Popular options include Okta, Google Workspace, Azure AD, and Auth0. The setup process varies by provider, but the core concepts remain consistent.
+
+**Okta** is the most widely supported IdP for SaaS-heavy teams. Its application catalog pre-configures hundreds of integrations. Pricing starts at $2/user/month for core SSO.
+
+**Google Workspace** SSO is free if your team already uses Gmail and Google apps. SAML app configuration is available in the Admin console under "Apps > Web and Mobile Apps." Coverage is broad but support is weaker than Okta's for niche tools.
+
+**Auth0** (now Okta's developer platform) suits teams building custom internal applications. The free tier covers 7,500 active users and unlimited social connections — ideal for startups.
 
 Create an application within your IdP dashboard and note these critical values:
 
@@ -110,6 +127,10 @@ NOTION_ATTRIBUTES = {
 }
 ```
 
+### Linear and Jira
+
+For engineering-focused tools like Linear and Jira (Atlassian), SSO is typically configured in organization settings under "Security." Linear supports Google OAuth and SAML natively. Atlassian products use Atlassian Access, a separate subscription that enables SAML SSO across Jira, Confluence, and other tools from a single admin console. Budget approximately $4/user/month for Atlassian Access on top of existing licenses.
+
 ## Implementing Custom SSO for Internal Tools
 
 For internal applications, implement OIDC directly in your codebase. Here's a Python FastAPI example using Authlib:
@@ -145,11 +166,13 @@ async def auth_callback(request: Request):
     return {"user": user_info['email'], "authenticated": True}
 ```
 
+For Node.js services, `passport-oidc` and `openid-client` are the standard libraries. The `openid-client` package handles discovery, token validation, and refresh automatically — it is the most production-hardened option in the Node ecosystem.
+
 ## Security Considerations for Remote Teams
 
 SSO strengthens security but requires proper implementation to be effective.
 
-**Enforce MFA at the IdP level**. Configure your identity provider to require multi-factor authentication before issuing tokens. This protects against compromised credentials.
+**Enforce MFA at the IdP level**. Configure your identity provider to require multi-factor authentication before issuing tokens. This protects against compromised credentials. Hardware security keys (FIDO2/WebAuthn) are the strongest MFA factor — they are phishing-resistant in a way that TOTP codes and SMS are not.
 
 **Implement session policies**. Set appropriate token lifetimes and require re-authentication for sensitive operations:
 
@@ -163,6 +186,8 @@ const sessionConfig = {
   slidingSession: false
 };
 ```
+
+Short access token lifetimes (1 hour) limit the blast radius if a token is intercepted. Refresh tokens should be rotated on use — many IdPs support this with a "rotate refresh token" setting.
 
 **Audit regularly**. Review connected applications and active sessions. Remove access for departing team members immediately through IdP deprovisioning.
 
@@ -185,27 +210,35 @@ scim:
       target: title
 ```
 
+SCIM deprovisioning is particularly valuable for remote teams with high contractor turnover. When a team member leaves, one action in your IdP disables access across every SCIM-connected application simultaneously. Without SCIM, manual deprovisioning across 20 SaaS tools is error-prone and slow.
+
 ## Troubleshooting Common Issues
 
 Remote team SSO implementations frequently encounter these challenges.
 
-**Redirect URI mismatches** cause authentication failures. Your SaaS application's redirect URI must exactly match what's configured in your IdP, including trailing slashes and protocol (HTTP vs HTTPS).
+**Redirect URI mismatches** cause authentication failures. Your SaaS application's redirect URI must exactly match what's configured in your IdP, including trailing slashes and protocol (HTTP vs HTTPS). Use a debugging proxy like mitmproxy or Burp Suite to inspect the actual redirect URI being sent if the error message is vague.
 
-**Attribute mapping errors** prevent proper user identification. Verify that your IdP sends required attributes in expected formats. SAML assertions must use correct NameID formats for user identification.
+**Attribute mapping errors** prevent proper user identification. Verify that your IdP sends required attributes in expected formats. SAML assertions must use correct NameID formats for user identification. The most common SAML debugging tool is SAML Tracer (Firefox extension) — it decodes assertions in real time and shows exactly what attributes are being sent.
 
-**Certificate issues** break SAML connections. IdP certificates expire and require renewal. Set calendar reminders for certificate updates and maintain documentation of certificate fingerprints.
+**Certificate issues** break SAML connections. IdP certificates expire and require renewal. Set calendar reminders for certificate updates and maintain documentation of certificate fingerprints. Many IdP certificates have 3-10 year lifetimes; it is easy to forget until they expire and authentication breaks globally.
 
-**Time synchronization problems** invalidate tokens. Ensure all systems synchronize with NTP servers. Even a few minutes of clock skew can cause authentication failures.
+**Time synchronization problems** invalidate tokens. Ensure all systems synchronize with NTP servers. Even a few minutes of clock skew can cause authentication failures. JWT validation (`nbf` and `exp` claims) is especially sensitive — tokens issued with a future `iat` will be rejected.
+
+**Group/role mapping failures** mean users authenticate but receive wrong permissions. Test attribute claims by having your IdP send test assertions through a SAML validator. Verify group membership claims are being transmitted as arrays, not comma-separated strings — parsers handle these differently.
 
 ## Best Practices for Distributed Teams
 
 Maintain a centralized SSO documentation hub accessible to all team members. Document IdP connection steps, emergency contacts, and deprovisioning procedures.
 
-Create tiered access policies based on sensitivity. Finance tools and code repositories warrant stricter policies than casual collaboration tools.
+Create tiered access policies based on sensitivity. Finance tools and code repositories warrant stricter policies than casual collaboration tools. A practical tier structure:
+
+- **Tier 1 (high sensitivity):** Production database, billing, HR systems — require MFA + device posture checks, short sessions (1-2 hours)
+- **Tier 2 (standard):** Code repos, project management, communication tools — require MFA, 4-8 hour sessions
+- **Tier 3 (low sensitivity):** Internal wikis, shared calendars — SSO login required, no MFA step-up
 
 Regularly test SSO functionality. Monthly verification catches configuration drift before it becomes a problem.
 
-Implement fallback authentication methods. When SSO experiences outages, maintain alternative verification procedures for critical operations.
+Implement fallback authentication methods. When SSO experiences outages, maintain alternative verification procedures for critical operations. This typically means maintaining break-glass accounts with local credentials stored in your secrets manager, used only during IdP outages.
 
 ---
 
