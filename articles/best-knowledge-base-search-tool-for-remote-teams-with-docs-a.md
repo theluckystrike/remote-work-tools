@@ -188,6 +188,107 @@ Track search analytics from day one. Understanding what users search for but don
 
 The best knowledge base search tool ultimately depends on your team's technical capacity and specific requirements. Teams with strong engineering resources benefit from self-hosted solutions. Teams prioritizing speed to value should evaluate managed platforms first.
 
+## Federated Search: Connecting Multiple Documentation Sources
+
+Most teams don't have one centralized wiki—they have documentation scattered across platforms. Building a federated search layer unifies the experience:
+
+**Architecture Pattern:**
+
+```python
+class FederatedSearchEngine:
+    def __init__(self):
+        self.connectors = {
+            'github': GitHubConnector(),
+            'notion': NotionConnector(),
+            'confluence': ConfluenceConnector(),
+            'google_drive': GoogleDriveConnector()
+        }
+        self.search_backend = ElasticsearchClient()
+
+    def search(self, query: str, filters: dict) -> list:
+        """Search across all platforms simultaneously."""
+        results = []
+
+        # Parallel search across all sources
+        for platform, connector in self.connectors.items():
+            try:
+                platform_results = connector.search(query)
+                # Normalize results to common format
+                normalized = self._normalize_results(platform_results, platform)
+                results.extend(normalized)
+            except Exception as e:
+                print(f"Search failed on {platform}: {e}")
+
+        # Rank and deduplicate
+        return self._rank_results(results, filters)
+
+    def _normalize_results(self, raw, platform):
+        """Convert platform-specific results to common format."""
+        return [{
+            'title': result.get('title'),
+            'url': result.get('url'),
+            'source': platform,
+            'snippet': result.get('body')[:200],
+            'last_modified': result.get('updated_at')
+        } for result in raw]
+```
+
+This approach requires building connectors for each platform, but gives users one search interface for everything.
+
+## Measuring Knowledge Base Quality
+
+A search tool is only as useful as the documentation it indexes. Track these metrics:
+
+**Coverage Metrics**
+- % of common questions answerable by search (survey users)
+- Documentation density: % of documented processes vs. undocumented
+- Search result freshness: % of results updated in last 90 days
+- Duplicate content: articles covering same topic (consolidate)
+
+**Usage Metrics**
+- Search queries per team member per day
+- Query success rate: did user find answer without asking someone
+- Time to answer: average time from search to finding solution
+- Drop-off rate: searches with no click-through (usually bad results)
+
+**Content Health**
+- Pages without author assigned: indicates orphaned docs
+- Pages without modification date: can't determine if current
+- Broken links discovered by automated checks
+- Outdated tool references (version numbers, deprecated features)
+
+Review these metrics monthly in a team meeting. Use patterns to identify documentation gaps.
+
+## Building a Documentation Intake Process
+
+Without a structured intake process, documentation gaps compound over time. When someone asks "How do we...?" three times, it's documentation-worthy:
+
+**Intake Workflow:**
+1. Slack bot or form captures: "We should document X"
+2. Triage team (2-3 people) reviews in weekly meeting
+3. Assign to subject matter expert with deadline (usually 1 week)
+4. Peer review before publishing
+5. Add to search index and notify team
+
+**Intake Form Template:**
+
+```yaml
+Documentation Request
+
+Title: [What should be documented?]
+Why: [Why is this needed? How many people ask about this?]
+Owner: [Who should write this?]
+Deadline: [When do you need it?]
+Related: [Links to similar documentation]
+Acceptance Criteria:
+- [ ] Process is clearly explained with examples
+- [ ] Includes decision framework if applicable
+- [ ] Links to related documentation
+- [ ] Has owner and review date assigned
+```
+
+This systematizes documentation creation and prevents knowledge loss when individuals leave.
+
 ## Frequently Asked Questions
 
 **Are free AI tools good enough for knowledge base search tool for remote teams with docs?**
