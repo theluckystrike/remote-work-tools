@@ -33,6 +33,18 @@ Remote teams that don't document fail. Without documentation, knowledge lives in
 
 Building a documentation culture isn't about tools. It's about habit. This guide covers the specific systems that make remote teams actually write and maintain docs.
 
+## Key Takeaways
+
+- **"Because we've been documenting**: new hires are productive 50% faster."
+
+Incident reduction: If docs reduce support tickets or repeated mistakes, quantify it.
+- **This is how we**: improve docs." New people are the best doc editors because they spot what's unclear.
+- **Teams fail at documentation**: culture because: 1.
+- **Takes 2 minutes to**: write because you're documenting something you just did.
+- **Structure: ``` # Why**: We Use PostgreSQL Instead of MongoDB ## Problem Need a database for user accounts and transactions.
+- **Add storage monitoring**: Alert if disk usage exceeds 80%
+2.
+
 ## Why Documentation Culture Fails in Remote Teams
 
 Remote work isolates people. Without spontaneous in-person collaboration, knowledge doesn't transfer naturally. Someone figures out a tricky deployment process. They tell their neighbor. Their neighbor tells the team. Eventually everyone knows. But remote? That person Slacks the answer to one person. Others struggle with the same problem a month later.

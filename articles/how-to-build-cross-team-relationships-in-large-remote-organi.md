@@ -31,6 +31,17 @@ voice-checked: true---
 
 Make team work visible through shared documentation, create formal cross-team pairing rotations, and establish async-first communication channels for collaboration. Avoid relying on unstructured all-hands meetings. Instead, design intentional touchpoints like quarterly tech talks from other teams, cross-team code reviews on critical projects, and documentation-sharing workflows that make everyone's work discoverable without requiring more synchronous meetings.
 
+## Key Takeaways
+
+- **Use explicit decision points in documents**: "Decision needed: Option A vs.
+- **The strategy may not**: match your team's actual workflow or preference.
+- **Unlike office spontaneity**: remote teams need explicit processes:
+
+1.
+- **Clarify incentives**: Ensure teams aren't competing for the same limited resources
+3.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## The Cross-Team Relationship Gap
 
 Large remote organizations often develop silos. Your team knows your team's work, but knowledge of what other teams are building, their challenges, and their priorities remains limited. This gap creates several problems:

@@ -31,6 +31,15 @@ voice-checked: true---
 
 Authentic remote team culture comes from voluntary, opt-in activities that respect time zones and preferences—not mandatory game nights that feel like work obligations. Strong remote teams build connection through shared values, meaningful communication norms, and spaces for authentic interaction outside structured activities. This guide covers specific strategies for creating culture through optional Slack channels, async storytelling, and values-driven decision making.
 
+## Key Takeaways
+
+- **David**: Refactored the database connection pool—query speed up 40%.
+- **Authentic remote team culture**: comes from voluntary, opt-in activities that respect time zones and preferences—not mandatory game nights that feel like work obligations.
+- **When people share because they want to**: the conversations feel authentic.
+- **When people feel their time is valued**: they're more likely to engage authentically when they do choose to participate.
+- **Is there low turnover**: among people who want to stay? - People leave for better opportunities; that's normal.
+- **But when it works**: it often becomes *stronger* than office culture because it's intentional rather than accidental.
+
 ## Why Mandatory Fun Backfires in Remote Teams
 
 When you mandate participation in social activities, you signal that work isn't enough—you need to perform camaraderie on command. Remote workers already navigate isolation; adding forced social obligations feels like another item on a todo list rather than a genuine connection.

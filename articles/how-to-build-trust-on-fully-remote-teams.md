@@ -33,6 +33,13 @@ Trust is the currency of remote work. Without the ability to walk to someone's d
 
 This guide covers practical patterns for establishing and maintaining trust in fully remote teams, with concrete examples you can implement immediately.
 
+## Key Takeaways
+
+- **Understanding this dynamic helps**: you make better decisions about how you communicate and deliver work.
+- **Pick tools your team**: will actually use and commit to them.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: trust is earned in small deposits, communication patterns that build trust, over-communicate context
+
 ## Trust Is Earned in Small Deposits
 
 In remote settings, trust accumulates through small, consistent actions rather than grand gestures. Every pull request review, every status update, every meeting attendance builds or erodes your trust account. Understanding this dynamic helps you make better decisions about how you communicate and deliver work.

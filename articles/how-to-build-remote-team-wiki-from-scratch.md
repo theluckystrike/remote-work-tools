@@ -13,6 +13,7 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]---
 {% raw %}
+
 # API Authentication
 
 Your team needs to implement OAuth 2.0 for all external API access...
@@ -21,6 +22,15 @@ Your team needs to implement OAuth 2.0 for all external API access...
 **Database-backed storage** using SQLite provides search capabilities and concurrent editing support. Tools like mdBook with embedded search or custom solutions using better-sqlite3 give you full-text search out of the box.
 
 For most remote teams, Git-based flat files strike the best balance. You get version control, familiar workflows, and straightforward hosting through GitHub Pages, Netlify, or similar services.
+
+## Key Takeaways
+
+- **Tools like mdBook with**: embedded search or custom solutions using better-sqlite3 give you full-text search out of the box.
+- **For larger wikis**: integrate lunr.js or Fuse.js for fuzzy matching and relevance scoring.
+- **GitHub Pages provides free**: hosting with custom domain support.
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+- **For most remote teams**: Git-based flat files strike the best balance.
+- **Prefer descriptive titles over**: clever ones.
 
 ## Building the Search System
 

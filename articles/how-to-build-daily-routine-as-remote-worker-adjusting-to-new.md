@@ -33,6 +33,15 @@ Relocating to a new country while maintaining remote work creates a unique chall
 
 This guide provides a systematic approach to building a timezone-adapted routine that works for developers and power users who need sustained cognitive performance across their workday.
 
+## Key Takeaways
+
+- **Use time-tracking data to**: identify when you ship the most code with fewest bugs.
+- **For the first week**: structure your day around 4-5 hours of overlap with your team, then use your remaining morning hours for independent deep work before your body fully adjusts.
+- **Afternoon block (12:00-16:00 your time)**: This is your overlap window with most European or Asian teams.
+- **If you've moved to**: a timezone where mornings are dark, use a light therapy lamp (10,000 lux for 20-30 minutes).
+- **Expect productivity to drop**: 20-30% during weeks 1-2.
+- **Recovery is non-linear**: You might sleep great on day 5, terribly on day 6, then better on day 7.
+
 ## Understanding Your Adaptation Window
 
 Your circadian rhythm doesn't shift instantly. Research indicates that timezone adjustments occur at roughly one hour per day when traveling eastward, and slightly faster when traveling westward. If you've moved 8 hours ahead (e.g., US to Central Europe), expect approximately 8-10 days of partial adjustment before your sleep-wake cycle stabilizes.

@@ -31,6 +31,15 @@ voice-checked: true---
 
 Childproof your home office in three layers: physical barriers (pressure-mounted gate, cable management sleeves, enclosed charging station), technical safeguards (push-to-mute keybindings, aggressive noise cancellation, automated Slack status scripts), and a practiced emergency protocol for when your toddler appears on camera mid-call. Start with cable management and a door latch, then add meeting automation as needed. Below are the specific solutions for each layer, with code examples for the automation pieces.
 
+## Key Takeaways
+
+- **A door sweep costs**: under $20 and eliminates most noise that travels under the door.
+- **The Pro plan at**: around $8/month is reasonable for daily use.
+- **The free tier limits**: usage to 60 minutes per day, which may be insufficient for heavy meeting schedules.
+- **A $5 door latch**: you install today beats an elaborate system you plan to set up next weekend.
+- **Use only short cables**: that don't dangle ``` This setup keeps cables out of reach while maintaining convenient charging for your devices.
+- **You do not need to cover every surface**: the wall adjacent to the play area matters most.
+
 ## Physical Workspace Setup
 
 The foundation of childproofing your home office starts with physical barriers that prevent toddler access without creating a prison-like atmosphere. Electrical cords are the primary danger zone—every cable leading to your desk becomes a tempting pull toy.
