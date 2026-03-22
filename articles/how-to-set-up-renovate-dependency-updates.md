@@ -534,6 +534,7 @@ A healthy Renovate setup for a mid-sized JS project typically generates 5-15 mer
 - [How to Automate Code Quality Gates for Remote Teams](/remote-work-tools/how-to-automate-code-quality-gates-remote-teams/)
 - [How to Set Up Verdaccio Private npm Registry](/remote-work-tools/how-to-set-up-verdaccio-private-npm-registry/)
 - [Best DevsSecOps Toolchain for Remote Teams](/remote-work-tools/best-devsecops-toolchain-for-remote-teams-integrating-securi/)
+- [How to Automate Docker Container Updates](/remote-work-tools/automate-docker-container-updates/)
 
 ---
 

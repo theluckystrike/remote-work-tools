@@ -361,6 +361,7 @@ make setup
 - [Best Tools for Remote Team Code Ownership](/remote-work-tools/best-tools-remote-team-code-ownership/)
 - [Remote Team Code Review Checklist Template](/remote-work-tools/remote-team-code-review-checklist-template/)
 - [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
+- [Best Knowledge Base Tool for Remote Team That Works Offline](/remote-work-tools/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
 
 ---
 

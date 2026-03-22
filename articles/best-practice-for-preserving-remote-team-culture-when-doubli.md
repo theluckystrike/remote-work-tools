@@ -246,6 +246,7 @@ Track trends over time. A dropping eNPS during a hiring wave signals cultural er
 - [Remote Team Communication Guidelines That Actually Work](/remote-work-tools/remote-team-communication-guidelines-that-actually-work/)
 - [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/how-to-run-remote-retrospectives-that-generate-action-items/)
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [Hybrid Team Social Events: Best Practices (2026)](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
 
 ## Related Articles
 

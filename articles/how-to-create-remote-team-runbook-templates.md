@@ -500,6 +500,7 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [How to Write Runbooks for Remote Engineering Teams](/remote-work-tools/how-to-write-runbooks-remote-engineering-teams/)
 - [Best Practice for Remote Team Escalation Paths](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
 - [Best Practices for Remote Incident Communication](/remote-work-tools/best-practices-for-remote-incident-communication/)
+- [How to Create Remote Team Playbook Templates](/remote-work-tools/how-to-create-remote-team-playbook-templates/)
 
 ---
 

@@ -349,6 +349,7 @@ Use Renovate or Dependabot for updates, OWASP or Snyk for vulnerability scanning
 - [Remote Team Git Hooks Standardization Guide](/remote-work-tools/remote-team-git-hooks-standardization-guide/)
 - [Best Tools for Remote Team Error Tracking](/remote-work-tools/best-tools-remote-team-error-tracking/)
 - [How to Automate Changelog Generation](/remote-work-tools/how-to-automate-changelog-generation/)
+- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
 
 ---
 

@@ -258,6 +258,7 @@ If additions consistently exceed closures, increase the debt budget or reduce fe
 - [Async Decision Making with RFC Documents for Engineering Teams](/async-decision-making-with-rfc-documents-for-engineering-tea/)
 - [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
 - [Async Engineering Proposal Process Using GitHub Discussions](/async-engineering-proposal-process-using-github-discussions-/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
 
 ---
 

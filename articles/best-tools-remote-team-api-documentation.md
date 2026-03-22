@@ -345,6 +345,7 @@ For most remote teams: use Scalar for external developer-facing docs, Redoc for 
 - [Best Tools for Remote Team API Mocking](/remote-work-tools/best-tools-remote-team-api-mocking/)
 - [Best Tools for Remote Team Load Testing](/remote-work-tools/best-tools-remote-team-load-testing/)
 - [Remote Team Code Review Checklist Template](/remote-work-tools/remote-team-code-review-checklist-template/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
 
 ---
 

@@ -373,6 +373,7 @@ ansible-playbook playbooks/site.yml | grep -E "changed|failed"
 - [Terraform Remote Team Infrastructure Guide](/remote-work-tools/terraform-remote-team-infrastructure-guide/)
 - [Best Secrets Management Tool for Remote Dev Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
 - [How to Automate Remote Server Patching](/remote-work-tools/how-to-automate-remote-server-patching/)
+- [Async Decision-Making Framework for Remote Teams](/remote-work-tools/articles/how-to-set-up-async-decision-making-framework-guide/)
 
 ---
 

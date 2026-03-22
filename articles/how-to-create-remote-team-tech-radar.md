@@ -378,6 +378,7 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
 - [Async Decision Making with RFC Documents](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-tea/)
 - [Best Practice for Remote Team Decision Making Framework](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
+- [How to Create Remote Team Compensation Benchmarking Report](/remote-work-tools/how-to-create-remote-team-compensation-benchmarking-report-u/)
 
 ---
 

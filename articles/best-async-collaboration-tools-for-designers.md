@@ -324,6 +324,7 @@ Fix: After each implementation review, the designer checks whether any deviation
 - [Best Design Collaboration Tools for Remote Teams](/best-design-collaboration-tools-for-remote-teams/)
 - [Async Design Critique Process for Remote UX Teams](/async-design-critique-process-for-remote-ux-teams-step-by-st.)
 - [Best Remote Design Collaboration Tool for UX Teams Using Figma](/best-remote-design-collaboration-tool-for-ux-teams-using-fig.)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 ---
 
 ## Related Articles

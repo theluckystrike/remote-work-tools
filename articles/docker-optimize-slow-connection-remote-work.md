@@ -291,6 +291,7 @@ The `type=gha` cache stores Docker layer cache in GitHub Actions Cache storage (
 - [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
 - [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
+- [How to Handle Mail and Legal Address When Working Remotely](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
 
 ## Related Articles
 

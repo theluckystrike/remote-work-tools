@@ -390,6 +390,7 @@ Teams with strong lightning talk cultures report better knowledge distribution, 
 - [How to Run Remote Team Lightning Talks](/remote-work-tools/how-to-run-remote-team-lightning-talks-keeping-presentations/)
 - [Async Video Messaging Tools for Distributed Teams](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
 - [Best Remote Team Social Channel Ideas](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 
 ---
 

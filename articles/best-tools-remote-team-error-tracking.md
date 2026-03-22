@@ -327,6 +327,7 @@ tags.logger:frontend frontend-team
 - [How to Set Up Vector for Log Processing](/remote-work-tools/how-to-set-up-vector-for-log-processing/)
 - [How to Set Up Fluentd for Log Collection](/remote-work-tools/how-to-set-up-fluentd-for-log-collection/)
 - [How to Create Automated Status Pages](/remote-work-tools/how-to-create-automated-status-pages/)
+- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
 
 ---
 

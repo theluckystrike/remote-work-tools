@@ -478,6 +478,7 @@ For a team of 5-50 developers publishing a handful of internal packages, Verdacc
 - [How to Set Up Gitea for Self-Hosted Git](/remote-work-tools/how-to-set-up-gitea-self-hosted-git/)
 - [How to Set Up Renovate for Dependency Updates](/remote-work-tools/how-to-set-up-renovate-dependency-updates/)
 - [Best Secrets Management Tool for Remote Dev Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
+- [Claude Code NPM Package Development Guide](/remote-work-tools/claude-code-npm-package-development-guide/)
 
 ---
 

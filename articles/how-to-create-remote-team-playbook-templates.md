@@ -368,6 +368,7 @@ jobs:
 - [Remote Team Code Review Checklist Template](/remote-work-tools/remote-team-code-review-checklist-template/)
 - [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
 - [How to Create Automated Status Pages](/remote-work-tools/how-to-create-automated-status-pages/)
+- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
 
 ---
 

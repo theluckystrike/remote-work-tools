@@ -416,6 +416,7 @@ This document gets posted to Notion and reviewed asynchronously by engineering m
 - [Async Capacity Planning Process for Remote Engineering Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 - [How to Coordinate Remote SRE Team Capacity Planning](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
 - [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 
 ---
 

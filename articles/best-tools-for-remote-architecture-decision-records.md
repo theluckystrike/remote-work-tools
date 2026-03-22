@@ -291,6 +291,7 @@ The most common gap in ADR processes is step 4 — dissent gets handled in Slack
 - [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
 - [Async Decision Making with RFC Documents for Engineering Teams](/async-decision-making-with-rfc-documents-for-engineering-tea/)
 - [Async Engineering Proposal Process Using GitHub Discussions](/async-engineering-proposal-process-using-github-discussions-/)
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
 ---
 

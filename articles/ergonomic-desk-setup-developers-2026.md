@@ -246,6 +246,7 @@ At end of day:
 - [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
 - [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
 - [Multi-Monitor Linux Workstation Setup Guide](/remote-work-tools/multi-monitor-linux-workstation-setup-guide/)
+- [How to Mount Monitor on Wall Behind Standing Desk Setup](/remote-work-tools/how-to-mount-monitor-on-wall-behind-standing-desk-setup/)
 
 ## Related Articles
 

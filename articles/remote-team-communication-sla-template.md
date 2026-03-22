@@ -367,6 +367,7 @@ Common causes of consistent SLA violations:
 - [Best Practice for Remote Team Direct Message vs Channel Messaging](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-mess/)
 - [Async Standup Format for a Remote Mobile Dev Team](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
 - [Best Notification Batching Strategies for Async-First Remote Teams](/remote-work-tools/best-notification-batching-strategies-for-async-first-remote-teams/)
+- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
 
 ---
 

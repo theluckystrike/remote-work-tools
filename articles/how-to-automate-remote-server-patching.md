@@ -508,6 +508,7 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [How to Set Up Ansible for Remote Server Management](/remote-work-tools/how-to-set-up-ansible-remote-server-management/)
 - [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
 - [Best Practice for Remote Team Escalation Paths](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
+- [How to Automate Docker Container Updates](/remote-work-tools/automate-docker-container-updates/)
 
 ---
 

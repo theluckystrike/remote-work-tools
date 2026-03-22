@@ -439,6 +439,7 @@ jq '[.suites[].specs[] | select(.tests[].results | map(.status) | unique | lengt
 - [Async Bug Triage Process for Remote QA Teams](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
 - [Async QA Signoff Process for Remote Teams](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
 - [How to Automate Code Quality Gates for Remote Teams](/remote-work-tools/how-to-automate-code-quality-gates-remote-teams/)
+- [Simple volume check script for testing headphones](/remote-work-tools/best-kid-safe-headphones-for-children-of-remote-workers-need/)
 
 ---
 

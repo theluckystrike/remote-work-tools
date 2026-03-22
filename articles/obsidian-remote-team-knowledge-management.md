@@ -411,6 +411,7 @@ Notion and Confluence win on onboarding ease and collaborative editing. Obsidian
 - [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
 - [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [Best Practice for Hybrid Team Knowledge Transfer](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
 
 ## Related Articles
 

@@ -481,6 +481,7 @@ curl -X POST \
 - [Setting Up Loki for Remote Log Aggregation](/remote-work-tools/setting-up-loki-remote-log-aggregation/)
 - [Setting Up Jaeger for Distributed Tracing](/remote-work-tools/setting-up-jaeger-distributed-tracing/)
 - [Best Observability Platform for Remote Teams](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
+- [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
 
 ---
 

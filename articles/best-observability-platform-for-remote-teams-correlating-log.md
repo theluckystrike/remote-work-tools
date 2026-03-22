@@ -462,6 +462,7 @@ The right observability platform transforms incident response for remote teams. 
 - [How to Set Up a Kubernetes Dev Cluster Remotely](/remote-work-tools/how-to-set-up-kubernetes-dev-cluster-remotely/)
 - [Terraform Remote Team Infrastructure Guide](/remote-work-tools/terraform-remote-team-infrastructure-guide/)
 - [Best Secrets Management Tool for Remote Dev Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
+- [Remote Team Metrics Collection Strategy for Measuring](/remote-work-tools/remote-team-metrics-collection-strategy-for-measuring-deploy/)
 
 ---
 

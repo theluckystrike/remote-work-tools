@@ -307,6 +307,7 @@ Enterprise with existing Neo4j:      Neo4j Bloom
 - [Best Knowledge Base Platform for Remote Support Teams](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-custome/)
 - [How to Create a Remote Team Tech Radar](/remote-work-tools/how-to-create-remote-team-tech-radar/)
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
+- [Best Knowledge Base Search Tool for Remote Teams with Docs](/remote-work-tools/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
 
 ---
 

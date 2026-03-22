@@ -399,6 +399,7 @@ Yes — Tuesday's standup would have highlighted pattern
 - [Best Tools for Remote Team Standup Meetings 2026](/best-tools-for-remote-team-standup-meetings-2026/)
 - [Geekbot vs Standuply Async Standup Comparison](/geekbot-vs-standuply-async-standup-comparison/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [How to Run Remote Lightning Talks Effectively](/remote-work-tools/how-to-run-remote-lightning-talks-effectively/)
 
 ---
 

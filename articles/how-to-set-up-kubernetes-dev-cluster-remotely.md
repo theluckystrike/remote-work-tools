@@ -529,6 +529,7 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [How to Secure Remote Team Kubernetes Clusters](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
 - [Best Container Registry Tool for Remote Teams](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
 - [Setting Up Harbor for Container Registry](/remote-work-tools/setting-up-harbor-for-container-registry/)
+- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
 
 ---
 

@@ -332,6 +332,7 @@ steps:
 - [How to Set Up Drone CI for Remote Teams](/remote-work-tools/how-to-set-up-drone-ci-for-remote-teams/)
 - [Best Tools for Remote Team Code Ownership](/remote-work-tools/best-tools-remote-team-code-ownership/)
 - [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
+- [How to Set Up Gitea for Self-Hosted Git](/remote-work-tools/how-to-set-up-gitea-self-hosted-git/)
 
 ---
 

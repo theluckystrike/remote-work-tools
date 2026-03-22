@@ -492,6 +492,7 @@ Key metrics to alert on: `harbor_project_artifact_total` (artifact count growth)
 - [How to Set Up Kubernetes Dev Cluster Remotely](/remote-work-tools/how-to-set-up-kubernetes-dev-cluster-remotely/)
 - [Best Container Registry Tool for Remote Teams](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
 - [Setting Up Keycloak for Team SSO](/remote-work-tools/setting-up-keycloak-for-team-sso/)
+- [How to Automate Docker Container Updates](/remote-work-tools/automate-docker-container-updates/)
 
 ---
 

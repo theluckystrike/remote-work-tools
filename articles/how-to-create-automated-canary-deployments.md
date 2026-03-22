@@ -339,6 +339,7 @@ echo "Canary passed monitoring period. Proceeding with full rollout."
 - [Best Tools for Remote Team Feature Flags](/remote-work-tools/best-tools-remote-team-feature-flags/)
 - [How to Set Up Drone CI for Remote Teams](/remote-work-tools/how-to-set-up-drone-ci-for-remote-teams/)
 - [How to Create Automated Status Pages](/remote-work-tools/how-to-create-automated-status-pages/)
+- [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
 
 ---
 

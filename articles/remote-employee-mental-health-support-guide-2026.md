@@ -295,6 +295,7 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [How to Detect and Prevent Burnout in Remote Employees Early Warning Signs](/remote-work-tools/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
 - [Best Remote Team Wellness Program Ideas for Distributed Organizations](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
 - [Remote Work Burnout Prevention Tools Guide](/remote-work-tools/remote-work-burnout-prevention-tools/)
+- [Return to Office Mental Health Support Resources](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
 
 ## Related Articles
 

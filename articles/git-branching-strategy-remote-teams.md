@@ -273,6 +273,7 @@ gh pr list --state closed --limit 50 --json headRefName,closedAt \
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 - [Async Code Review Process Without Zoom Calls](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 - [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
+- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
 
 ## Related Articles
 

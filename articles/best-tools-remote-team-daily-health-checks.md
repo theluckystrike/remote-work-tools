@@ -405,6 +405,7 @@ For teams already on Slack, Geekbot and Standuply are the practical choices. For
 - [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
 - [Best Remote Team Async Daily Check-in Format](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-stand/)
 - [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [Best Pulse Survey Tool for Measuring Remote Employee](/remote-work-tools/best-pulse-survey-tool-for-measuring-remote-employee-engagem/)
 
 ---
 

@@ -228,6 +228,7 @@ The insight tagging feature is the core value: highlight a quote, tag it, and Do
 - [How to Run Remote User Research Sessions for UX Designers](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
 - [How to Do Async User Research Interviews with Recorded Responses](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
 - [Best Remote Pair Design Tool for UX Researchers Collaborating](/remote-work-tools/best-remote-pair-design-tool-for-ux-researchers-collaboratin/)
+- [Best Data Collection Tools for Remote User Research Teams](/remote-work-tools/best-data-collection-tool-for-remote-user-research-teams-gat/)
 
 ## Related Articles
 

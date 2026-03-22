@@ -328,6 +328,7 @@ Add live status badges to service READMEs:
 - [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
 - [How to Automate SSL Certificate Renewal](/remote-work-tools/how-to-automate-ssl-certificate-renewal/)
 - [How to Automate Infrastructure Cost Alerts](/remote-work-tools/how-to-automate-infrastructure-cost-alerts/)
+- [How to Create Automated Canary Deployments](/remote-work-tools/how-to-create-automated-canary-deployments/)
 
 ---
 

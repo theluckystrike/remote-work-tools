@@ -427,6 +427,7 @@ Document which approach your team uses. Engineers creating new endpoints need to
 - [Async Code Review Process Without Zoom Calls](/async-code-review-process-without-zoom-calls-step-by-step/)
 - [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
 - [Remote Team Deployment Pipeline Best Practices](/remote-team-deployment-pipeline-best-practices/)
+- [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 ---
 
 ## Related Articles

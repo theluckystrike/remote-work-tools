@@ -355,6 +355,7 @@ This posts a comment on each PR showing the monthly cost delta (e.g., "+$47.20/m
 - [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
 - [How to Create Automated Status Pages](/remote-work-tools/how-to-create-automated-status-pages/)
 - [How to Automate Database Backup Verification](/remote-work-tools/how-to-automate-database-backup-verification/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
 
 ---
 

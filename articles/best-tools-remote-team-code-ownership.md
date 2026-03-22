@@ -309,6 +309,7 @@ Start with CODEOWNERS in every repo. Add Backstage when you have more services t
 - [Remote Team Git Hooks Standardization Guide](/remote-work-tools/remote-team-git-hooks-standardization-guide/)
 - [Remote Team Code Review Checklist Template](/remote-work-tools/remote-team-code-review-checklist-template/)
 - [How to Set Up Woodpecker CI for Self-Hosted](/remote-work-tools/how-to-set-up-woodpecker-ci-for-self-hosted/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 
 ---
 

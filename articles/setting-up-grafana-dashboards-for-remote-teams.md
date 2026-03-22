@@ -407,6 +407,7 @@ For most remote engineering teams self-hosting on Hetzner, DigitalOcean, or simi
 - [Incident Management Setup for a Remote DevOps Team of 5](/incident-management-setup-for-a-remote-devops-team-of-5/)
 - [Remote Engineering Team Infrastructure Cost Per Deploy Tracking](/remote-engineering-team-infrastructure-cost-per-deploy-track/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
+- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/remote-work-tools/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
 ---
 
 ## Related Articles
