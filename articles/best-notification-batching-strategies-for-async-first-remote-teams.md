@@ -26,6 +26,16 @@ voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]---
 
 
+| Tool | Key Feature | Remote Team Fit | Integration | Pricing |
+|---|---|---|---|---|
+| Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
+| Slack | Real-time team messaging | Channels, threads, huddles | 2,600+ apps | $7.25/user/month |
+| Linear | Fast project management | Keyboard-driven, cycles | GitHub, Slack, Figma | $8/user/month |
+| Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
+| 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
+
+
+
 Implement time-boxed check-ins (9 AM, 1 PM, 4 PM) for routine messages while reserving separate escalation channels for critical alerts. Use priority-based filtering in Slack to batch lower-priority notifications for later review. This approach improves both focus and response times because team members can do deeper work between scheduled message reviews.
 
 ## Key Takeaways

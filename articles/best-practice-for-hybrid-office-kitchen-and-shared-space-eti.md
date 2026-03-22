@@ -27,6 +27,16 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]---
 
+
+| Tool | Video Quality | Screen Sharing | Recording | Pricing |
+|---|---|---|---|---|
+| Zoom | Up to 4K | Desktop + app sharing | Cloud + local | $13.33/user/month |
+| Google Meet | Up to 1080p | Screen + tab sharing | Google Drive | Included with Workspace ($6+) |
+| Microsoft Teams | Up to 1080p | Desktop + PowerPoint Live | OneDrive/SharePoint | Included with M365 ($6+) |
+| Around | Floating window, auto-crop | Screen sharing | No recording | Free / $8.50/user/month |
+| Tuple | HD pair programming | Full screen control | Session recording | $30/user/month |
+
+
 {% raw %}
 
 Hybrid offices present unique challenges when managing shared spaces like kitchens, break rooms, and collaborative areas. With some team members working remotely and others in-office on varying schedules, establishing clear etiquette guidelines becomes essential for maintaining a functional workplace. This guide provides practical approaches to creating, implementing, and automating shared space management in hybrid work environments.
