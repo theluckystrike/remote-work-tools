@@ -9,7 +9,7 @@ permalink: /best-remote-collaboration-tool-for-technical-architects-docu/
 categories: [guides]
 tags: [remote-work-tools, system-dependencies, documentation, technical-architecture, remote-work, best-of, collaboration]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
