@@ -394,6 +394,86 @@ echo "Harbor backup complete: harbor-${DATE}.tar.gz"
 
 Restore by extracting the archive, restoring the database dump with `psql`, syncing the registry blobs back to `data_volume`, and restarting Harbor. Test restores quarterly — a backup you have never restored is a backup you cannot trust.
 
+## Enforcing Content Trust with Cosign
+
+Harbor supports Cosign signatures for supply chain security. After signing images with your CI pipeline's private key, Harbor can be configured to block pulls of unsigned images from the production project.
+
+First, generate a cosign key pair and store the private key as a CI secret:
+
+```bash
+# Generate key pair
+cosign generate-key-pair
+
+# Keys are written to cosign.key (private) and cosign.pub (public)
+# Add cosign.key as a CI/CD secret: COSIGN_PRIVATE_KEY
+# Commit cosign.pub to your repo for verification
+```
+
+In your GitHub Actions build workflow, sign after push:
+
+```yaml
+- name: Build and push image
+  id: build
+  uses: docker/build-push-action@v5
+  with:
+    push: true
+    tags: registry.example.com/production/my-app:${{ github.sha }}
+
+- name: Sign image with Cosign
+  env:
+    COSIGN_PRIVATE_KEY: ${{ secrets.COSIGN_PRIVATE_KEY }}
+    COSIGN_PASSWORD: ${{ secrets.COSIGN_PASSWORD }}
+  run: |
+    cosign sign --key env://COSIGN_PRIVATE_KEY \
+      registry.example.com/production/my-app@${{ steps.build.outputs.digest }}
+```
+
+Enable content trust enforcement in Harbor at the project level:
+
+```bash
+curl -X PUT "https://registry.example.com/api/v2.0/projects/production" \
+  -H "Content-Type: application/json" \
+  -u "admin:your-admin-password" \
+  -d '{"metadata": {"enable_content_trust_cosign": "true"}}'
+```
+
+With this enabled, Harbor blocks any `docker pull` or Kubernetes pull against the production project if the image digest has no valid Cosign signature. This is the most practical supply chain control available without a full Sigstore infrastructure.
+
+## Monitoring Harbor Health
+
+Harbor exposes a `/api/v2.0/health` endpoint that returns the status of each internal component (database, registry, jobservice, Redis, Trivy). Scrape it from your monitoring stack:
+
+```bash
+# Check health
+curl -s "https://registry.example.com/api/v2.0/health" | jq '.components[] | select(.status != "healthy")'
+
+# Prometheus scrape config for Harbor metrics
+# Harbor exposes metrics at /metrics on the admin port (9090 by default)
+```
+
+```yaml
+# prometheus.yml scrape job
+scrape_configs:
+  - job_name: harbor
+    static_configs:
+      - targets: ['registry.example.com:9090']
+    metrics_path: /metrics
+    scheme: https
+    tls_config:
+      insecure_skip_verify: false
+```
+
+Enable Harbor metrics in `harbor.yml` before installation:
+
+```yaml
+metric:
+  enabled: true
+  port: 9090
+  path: /metrics
+```
+
+Key metrics to alert on: `harbor_project_artifact_total` (artifact count growth), `harbor_jobservice_job_total` with status `Error` (replication or scan job failures), and `harbor_registry_request_duration_seconds` for pull latency. A Grafana dashboard built on these three signals covers the most common operational failure modes without requiring deep Harbor expertise.
+
 ## Related Reading
 
 - [How to Set Up Kubernetes Dev Cluster Remotely](/remote-work-tools/how-to-set-up-kubernetes-dev-cluster-remotely/)
