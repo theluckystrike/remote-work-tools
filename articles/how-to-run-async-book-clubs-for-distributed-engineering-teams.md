@@ -27,17 +27,17 @@ voice-checked: true
 reviewed: true
 score: 8
 ---
-
-
-
 <<<<<<< HEAD
-
 
 
 
 <<<<<<< HEAD
 =======
->>>>>>> ce05905f17c838d92c59f89702391a74f747b013
+>>>>>>> 10d8e417f (fix: final YAML/Liquid cleanup pass)
+
+
+
+
 
 
 
