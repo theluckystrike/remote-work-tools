@@ -232,27 +232,216 @@ def create_recurring_meeting(token, topic, start_time, duration_min=60):
 
 Server-to-server OAuth (type `account_credentials`) is the recommended auth method for automation — no user login required and tokens refresh automatically.
 
+## Advanced Audio Post-Processing and Mixing
+
+For power users handling conference room audio, real-time post-processing can dramatically improve quality.
+
+### Automatic Gain Control (AGC) and Normalization
+
+Most modern conference systems include automatic gain control, but manual configuration yields better results.
+
+```python
+# Example: Setting up optimal AGC parameters for a 10-person room
+import numpy as np
+
+def calculate_agc_parameters(room_size_sq_ft, num_participants, target_level_db=-12):
+    """Calculate optimal AGC settings for conference room audio"""
+    # Account for reflections and room acoustics
+    absorption_coefficient = 0.2 + (0.1 * num_participants / 10)  # More people = more absorption
+
+    # Target normalized level accounting for participant distance variation
+    attack_time_ms = max(10, 50 - (num_participants * 3))  # Faster for more people
+    release_time_ms = 200  # Conservative release
+
+    return {
+        "target_level": target_level_db,
+        "attack_time": attack_time_ms,
+        "release_time": release_time_ms,
+        "max_gain": 18,  # dB - prevents clipping from quiet speakers
+        "min_gain": 0,
+        "hold_time": 500  # Prevent gain fluctuation during speech
+    }
+
+params = calculate_agc_parameters(room_size_sq_ft=250, num_participants=10)
+print(params)
+```
+
+### Noise Gating and Suppression
+
+Implement software noise gates to reduce background noise from HVAC, traffic, or ambient office noise:
+
+```bash
+# Using ffmpeg for real-time audio processing
+ffmpeg -f alsa -i hw:1 \
+  -af "anlmdn=om=o" \
+  -f alsa hw:0
+
+# anlmdn: Adaptive Noise Reduction
+# om=o: Output only noise (useful for noise profile analysis)
+```
+
+### Echo Cancellation Verification
+
+Proper AEC configuration prevents the "dead" feeling of echo-cancelled conference rooms. Test by:
+
+1. Playing reference tones through speakers
+2. Recording with microphone
+3. Checking for residual echo (should be inaudible)
+4. Adjusting AEC aggression based on test results
+
+## Cable Routing and Electrical Considerations
+
+Physical installation affects audio quality significantly.
+
+### Power Conditioning
+
+Conference room audio equipment is sensitive to electrical noise from dimmer switches, LED lighting, and network equipment.
+
+```
+Proper grounding setup:
+- Microphone: Balanced XLR (preferred) or USB
+- Speakers: Balanced or short USB cables
+- Power: Dedicated circuit, not shared with lighting
+- Avoid coiling cables near power lines
+```
+
+### Cable Management for Hybrid Rooms
+
+A 10-person room typically requires:
+- Microphone cable: 25+ feet (run along baseboards, not across floor)
+- Speaker cable: 15+ feet
+- USB extension: Optional for remote control
+- Network: PoE injector for beamforming mics
+
+Use cable trays and raceways to prevent tripping hazards and signal interference.
+
+### Wireless Audio Fallback
+
+Battery-powered wireless lapel microphones provide fallback if primary system fails:
+
+```
+Recommended wireless setup for 10-person rooms:
+- Frequency: UHF (2.4 GHz or dedicated UHF band)
+- Range: 100+ feet line-of-sight
+- Battery: Rechargeable, at least 8-hour runtime
+- Backup: Keep 2-3 charged batteries available
+```
+
+## Maintenance and Troubleshooting
+
+Conference room audio requires ongoing maintenance.
+
+### Monthly Audio Quality Checks
+
+```bash
+#!/bin/bash
+# Monthly conference audio test script
+
+# Test microphone pickup from various distances
+echo "Testing microphone sensitivity at 3 feet..."
+arecord -d 10 test_3ft.wav
+
+echo "Testing microphone sensitivity at 8 feet..."
+arecord -d 10 test_8ft.wav
+
+# Analyze recorded levels
+ffprobe -of json test_3ft.wav | jq '.streams[0]'
+ffprobe -of json test_8ft.wav | jq '.streams[0]'
+
+# Both should peak around -12dB to -6dB (nominal level)
+# If 8ft reading is below -20dB, microphone sensitivity may have drifted
+```
+
+### Common Issues and Fixes
+
+| Issue | Symptom | Fix |
+|-------|---------|-----|
+| Echo feedback | Participants hear themselves echoed | Disable echo cancellation momentarily, move speaker away from mic, reduce gain |
+| Muted audio | No sound from speakers or mic | Check mute buttons, verify USB connection, restart conferencing software |
+| Clipping/distortion | Audio sounds harsh, peaked | Reduce microphone gain, ensure proper level in conferencing software |
+| One-way audio | Can hear remote, they can't hear you | Check speakerphone is selected as both input and output, not split devices |
+| Intermittent connection drops | Audio cuts in and out | Check network stability, verify adequate bandwidth (1.5 Mbps minimum for HD audio) |
+
+### Firmware Updates
+
+Conference audio devices receive firmware updates quarterly:
+
+```bash
+# Check for firmware updates
+# Most devices have web interfaces (e.g., http://device-ip:8080)
+# Or use vendor-provided CLI tools
+
+# Example for Shure devices
+shure-update-tool check-updates --device MXA310
+```
+
+## Real-World Room Scenarios and Setup Recommendations
+
+### All-in-One Speakerphone Setup (Budget: $200-400)
+
+Best for: Small teams, temporary setups, startups
+
+```
+Configuration:
+- 1x Jabra Speak 750 or Yamaha YVC-200
+- 1x USB extension cable (25 feet, active)
+- 1x Surge protector with 1 outlet reserved
+- 0x additional microphones needed
+```
+
+Limitations: Adequate for 10 people only with central table positioning, degraded quality at table edges.
+
+### Hybrid Beamforming Mic + Dedicated Speaker Setup (Budget: $800-1200)
+
+Best for: Organizations deploying multiple hybrid rooms
+
+```
+Configuration:
+- 1x Shure MXA310 ceiling microphone
+- 1x Separate 360-degree speaker (not integrated)
+- 1x PoE network injector
+- 1x Cable management kit
+- 1x Optional: Expansion microphones if table > 12 feet
+```
+
+Advantages: Superior audio quality, room-agnostic flexibility, professional appearance.
+
+### Full Enterprise Setup (Budget: $2000-3500)
+
+Best for: Established companies, executive meeting rooms
+
+```
+Configuration:
+- 1x Shure MXA920 or Biamp Parlé ceiling array
+- 1x Dedicated digital mixer/processor
+- 2-3x Full-duplex networked speakers
+- 1x Control panel for volume, mute, presets
+- Professional installation and calibration
+```
+
+Advantages: Exceptional audio quality, integrates with video conferencing at OS level, supports custom recording profiles.
+
 ## Frequently Asked Questions
 
 **Who is this article written for?**
 
-This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
+This article targets IT managers, office managers, and technical decision-makers implementing hybrid conference room solutions. Whether evaluating initial purchases or optimizing existing systems, the focus remains on practical, measurable audio quality improvements.
 
 **How current is the information in this article?**
 
-We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
+We update articles quarterly to reflect new product releases and software updates. However, the audio fundamentals covered here remain stable. Before purchasing, verify current product availability and pricing on vendor websites—specifications and costs change frequently.
 
 **Are there free alternatives available?**
 
-Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
+Many organizations use built-in laptop/monitor audio (free but poor quality), free conferencing software audio (limited), or consumer speaker systems (rarely adequate). Professional conference audio typically requires investment—the quality difference justifies cost for organizations running 10+ hybrid meetings weekly.
 
 **How do I get started quickly?**
 
-Pick one tool from the options discussed and sign up for a free trial. Spend 30 minutes on a real task from your daily work rather than running through tutorials. Real usage reveals fit faster than feature comparisons.
+Start with a 30-day trial of a Yamaha YVC-200 or Jabra Speak 750 ($150-200). Test it in your actual conference room with your actual meeting software. If audio quality meets your needs, purchase; if not, invest in ceiling microphones. This iterative approach prevents overinvestment.
 
 **What is the learning curve like?**
 
-Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+Basic setup (unbox, plug in USB, select in Zoom/Teams) takes 15 minutes. Optimization—adjusting gain, testing echo cancellation, configuring DSP—requires 1-2 hours. Ongoing maintenance (firmware updates, quarterly audio tests) requires 30 minutes quarterly.
 
 ## Related Articles
 

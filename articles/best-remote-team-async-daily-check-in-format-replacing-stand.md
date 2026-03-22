@@ -27,6 +27,16 @@ score: 9
 intent-checked: true
 voice-checked: true---
 
+
+| Tool | Key Feature | Remote Team Fit | Integration | Pricing |
+|---|---|---|---|---|
+| Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
+| Slack | Real-time team messaging | Channels, threads, huddles | 2,600+ apps | $7.25/user/month |
+| Linear | Fast project management | Keyboard-driven, cycles | GitHub, Slack, Figma | $8/user/month |
+| Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
+| 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
+
+
 {% raw %}
 
 Synchronous daily standups were designed for co-located teams walking to a whiteboard. For distributed teams spanning time zones, these meetings often mean someone joins at 7 AM or 10 PM, and the "quick update" spirals into problem-solving sessions that could happen asynchronously. The solution is an async daily check-in format that captures the same information without scheduling conflicts.

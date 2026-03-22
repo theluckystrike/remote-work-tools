@@ -25,6 +25,16 @@ score: 8
 intent-checked: true
 voice-checked: true---
 
+
+| Tool | Onboarding Workflows | Task Automation | Integration | Pricing |
+|---|---|---|---|---|
+| BambooHR | Customizable checklists | Auto-assign by role | Slack, ATS, payroll | Custom pricing |
+| Rippling | IT + HR unified onboarding | Device provisioning | 500+ apps | $8/user/month |
+| Process Street | Template-based workflows | Conditional logic | 1,000+ via Zapier | $25/user/month |
+| Notion | Custom wiki + checklists | Basic automation | API + Zapier | $8/user/month |
+| Trainual | Structured training paths | Progress tracking | Slack, BambooHR | $49/month (10 seats) |
+
+
 {% raw %}
 
 When your remote team brings in three new hires every month, manual onboarding processes quickly become a bottleneck. Each new team member needs access to dozens of tools, access to multiple repositories, orientation materials, and mentorship pairing. Automating this workflow saves hours of repetitive work and ensures consistency across hires.

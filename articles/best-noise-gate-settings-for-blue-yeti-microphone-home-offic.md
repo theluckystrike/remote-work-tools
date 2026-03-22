@@ -25,6 +25,16 @@ score: 9
 intent-checked: true
 voice-checked: true---
 
+
+| Headset | Type | Noise Cancellation | Mic Quality | Battery Life | Price |
+|---|---|---|---|---|---|
+| Sony WH-1000XM5 | Over-ear wireless | Best-in-class ANC | Good (AI noise filter) | 30 hours | $350 |
+| Jabra Evolve2 85 | Over-ear wireless | Strong ANC, busylight | Excellent (boom mic) | 37 hours | $380 |
+| Apple AirPods Max | Over-ear wireless | Excellent ANC | Good (beamforming) | 20 hours | $549 |
+| Poly Voyager Focus 2 | Over-ear wireless | Adaptive ANC | Excellent (boom mic) | 19 hours | $250 |
+| Jabra Evolve2 75 | On-ear wireless | Good ANC, busylight | Very good (boom mic) | 36 hours | $280 |
+
+
 {% raw %}
 
 For a Blue Yeti in a quiet home office, set your noise gate threshold to -40 dB, attack to 5 ms, hold to 100 ms, release to 150 ms, and range to -60 dB. For noisy environments with street noise or HVAC, raise the threshold to -35 dB and increase hold and release to 200 ms each. These settings work in OBS Studio, Voicemeeter, or any noise gate plugin, and they eliminate background noise while keeping your voice clean and natural.

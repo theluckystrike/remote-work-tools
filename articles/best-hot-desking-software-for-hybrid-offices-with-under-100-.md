@@ -25,6 +25,16 @@ score: 9
 intent-checked: true
 voice-checked: true---
 
+
+| Desk | Height Range | Motor Type | Max Load | Price Range |
+|---|---|---|---|---|
+| Uplift V2 Commercial | 22.6-48.7 in | Dual motor | 355 lbs | $599-$1,199 |
+| FlexiSpot E7 | 22.8-48.4 in | Dual motor | 355 lbs | $479-$699 |
+| IKEA BEKANT | 22-48 in | Single motor | 154 lbs | $349-$549 |
+| Fully Jarvis | 25.5-50.5 in | Single motor | 350 lbs | $559-$959 |
+| Autonomous SmartDesk | 26.2-52 in | Dual motor | 300 lbs | $449-$699 |
+
+
 {% raw %}
 
 Choosing hot desking software for a small hybrid team requires balancing functionality against complexity. Teams under 100 employees typically need straightforward desk booking without enterprise-level price tags or over-engineered features. This guide evaluates solutions that actually work for small to medium-sized hybrid offices.

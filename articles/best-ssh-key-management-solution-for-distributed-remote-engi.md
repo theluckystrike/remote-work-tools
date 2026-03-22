@@ -14,6 +14,16 @@ voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]---
 
 
+| Tool | Key Management | Team Access | Audit Logging | Pricing |
+|---|---|---|---|---|
+| Teleport | Certificate-based access | RBAC, SSO integration | Full session recording | Free (Community) |
+| HashiCorp Vault | Dynamic SSH credentials | Policy-based access | Comprehensive audit log | Free (open source) |
+| StrongDM | Proxy-based access | Role-based permissions | Query-level logging | Custom pricing |
+| AWS SSM Session Manager | IAM-based, no SSH keys | IAM roles and policies | CloudTrail logging | Free with EC2 |
+| Smallstep SSH | Certificate authority | OIDC/OAuth integration | Step-level logging | Free (open source) |
+
+
+
 {% raw %}
 
 Implement SSH agent forwarding for small teams as a starting point, use dedicated tools like Teleport or HashiCorp Vault for enterprise-scale teams needing audit trails and access controls, or combine OIDC authentication with cloud provider-native solutions for minimal friction. The key is reducing manual key rotation while maintaining visibility into who accesses production infrastructure.

@@ -327,6 +327,16 @@ For developers and power users, prioritize systems with wired backhaul options, 
 ---
 
 
+
+
+| System | Coverage | Speed | WiFi Standard | Nodes | Price |
+|---|---|---|---|---|---|
+| Eero Pro 6E | 6,000 sq ft (3-pack) | Up to 2.3 Gbps | WiFi 6E | 3 | $500 |
+| Google Nest WiFi Pro | 6,600 sq ft (3-pack) | Up to 4.2 Gbps | WiFi 6E | 3 | $400 |
+| TP-Link Deco XE75 | 7,200 sq ft (3-pack) | Up to 5.4 Gbps | WiFi 6E | 3 | $350 |
+| Netgear Orbi 960 | 7,500 sq ft (3-pack) | Up to 10.8 Gbps | WiFi 6E | 3 | $1,100 |
+| Ubiquiti UniFi | Custom coverage | Up to 4.8 Gbps | WiFi 6 | Custom | $180/AP |
+
 ## Frequently Asked Questions
 
 **Who is this article written for?**
