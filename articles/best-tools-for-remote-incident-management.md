@@ -270,6 +270,69 @@ Regardless of tool, store runbooks where they're accessible during an incident:
 **Review:** Open until [date + 2 business days]. Comment with additions or corrections.
 ```
 
+## Reducing On-Call Fatigue for Distributed Teams
+
+On-call fatigue is a more acute problem for remote teams than co-located ones. Without the social pressure of a shared office, engineers who are repeatedly paged outside their working hours have no informal outlet to escalate the problem. It accumulates silently until someone quits or burns out.
+
+Several practices reduce alert fatigue specifically for distributed on-call rotations:
+
+**Alert deduplication**: Most incident tools can suppress repeated alerts from the same root cause. Configure suppression windows so a flapping service generates one incident, not forty pages.
+
+**Urgency routing by time of day**: PagerDuty and Opsgenie both support different escalation policies based on time windows. A P3 alert during business hours might page the on-call engineer via Slack. The same alert at 2 AM should either wait until morning or escalate only if it crosses a higher severity threshold. Configure this explicitly:
+
+```
+PagerDuty Urgency Rules:
+  High Urgency (pages immediately, any hour):
+    - Service: payment-api, alert.urgency = "high"
+    - Service: auth-service, alert.urgency = "high"
+  Low Urgency (suppressed 10pm-8am local time):
+    - All other services
+    - All alerts with urgency = "low"
+```
+
+**Burnout tracking via on-call metrics**: PagerDuty's analytics show hours paged per engineer per month. Set an internal threshold — for example, no engineer should receive more than 8 after-hours pages per month. When someone exceeds it, rotate them off the primary slot for the following month, regardless of their technical expertise.
+
+**Timezone-aware schedule construction**: Follow-the-sun scheduling works when you have engineers in genuinely non-overlapping timezones. But many remote teams in similar timezones try to create a follow-the-sun rotation and end up with gaps or with engineers covering hours that are outside their comfort zone. Be honest about your team's timezone distribution before committing to a rotation structure that doesn't actually fit.
+
+## Automating Status Page Updates
+
+Customer-facing status pages are a trust mechanism: they communicate what is broken, what you know, and when you expect resolution. For remote teams, maintaining a status page during an incident competes with the cognitive load of actually resolving the incident.
+
+Automate the initial status page update as part of your incident creation flow. Most status page providers (Statuspage.io, Instatus, Cachet) offer APIs:
+
+```python
+import httpx
+
+STATUSPAGE_API_KEY = "your-api-key"
+PAGE_ID = "your-page-id"
+COMPONENT_ID = "your-component-id"
+
+def open_incident_on_statuspage(title: str, body: str, component_status: str = "degraded_performance"):
+    """Create a public incident and update component status."""
+    resp = httpx.post(
+        f"https://api.statuspage.io/v1/pages/{PAGE_ID}/incidents",
+        headers={"Authorization": f"OAuth {STATUSPAGE_API_KEY}"},
+        json={
+            "incident": {
+                "name": title,
+                "status": "investigating",
+                "body": body,
+                "components": {COMPONENT_ID: component_status},
+                "component_ids": [COMPONENT_ID],
+                "deliver_notifications": True
+            }
+        }
+    )
+    return resp.json()
+
+# Call this automatically when PagerDuty creates a P1 or P2 incident
+# via PagerDuty webhook → Lambda/Cloud Function → statuspage API
+```
+
+Triggering this automatically via a PagerDuty webhook means the status page shows "Investigating" within seconds of an incident opening — without requiring the on-call engineer to remember to update it while simultaneously diagnosing the root cause.
+
+Define standard update intervals in your runbooks: every 15 minutes for active P1 incidents, every 30 minutes for P2. Rootly can enforce these cadences by posting reminders in the incident Slack channel if a status update hasn't been posted within the window.
+
 ## Tool Selection Matrix
 
 | Factor | PagerDuty | Opsgenie | Rootly |
