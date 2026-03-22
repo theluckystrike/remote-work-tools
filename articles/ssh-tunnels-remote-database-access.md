@@ -231,6 +231,57 @@ TablePlus also has built-in SSH tunnel support: Connection → SSH → enable, f
 //   Identity file: /home/user/.ssh/id_ed25519
 ```
 
+### DataGrip
+
+JetBrains DataGrip handles SSH tunnels natively in the data source configuration. In the Data Sources panel, select your data source, open the SSH/SSL tab, and check "Use SSH tunnel." Specify the SSH host, port 22, and your private key. DataGrip maintains the tunnel for the lifetime of the IDE session and reconnects automatically if the SSH connection drops. This is one of the most reliable built-in tunnel implementations for GUI clients.
+
+## Using SSH Tunnels with ORMs and Application Code
+
+For development environments, you often want your application code to connect through a tunnel rather than configuring firewall rules. A clean pattern is a tunnel-aware connection wrapper:
+
+```python
+# tunnel_db.py — start an SSH tunnel before connecting
+import subprocess
+import time
+import psycopg2
+
+def start_tunnel(ssh_host, remote_db_port, local_port):
+    """Start an SSH tunnel and return the subprocess."""
+    proc = subprocess.Popen([
+        'ssh', '-fN',
+        '-L', f'{local_port}:localhost:{remote_db_port}',
+        '-o', 'StrictHostKeyChecking=no',
+        '-o', 'ServerAliveInterval=30',
+        ssh_host
+    ])
+    time.sleep(1)  # Brief wait for tunnel to establish
+    return proc
+
+# Usage: tunnel to dev DB before running migrations
+tunnel = start_tunnel('ubuntu@db.staging.example.com', 5432, 5433)
+conn = psycopg2.connect(
+    host='127.0.0.1',
+    port=5433,
+    database='mydb',
+    user='appuser',
+    password='secret'
+)
+```
+
+For Rails applications, the `sshtunnel` gem provides equivalent functionality and integrates cleanly with `database.yml`. Node.js projects can use the `tunnel-ssh` npm package, which wraps the same SSH forwarding logic.
+
+## Tunnel Comparison: Manual SSH vs autossh vs GUI Built-in
+
+| Method | Best For | Reconnects | Extra Deps | Persistent |
+|--------|----------|-----------|-----------|-----------|
+| `ssh -fN` | One-off queries | No | None | No |
+| `autossh` | Developer machines | Yes | autossh | No (unless systemd) |
+| systemd + autossh | Server/CI environments | Yes | autossh + systemd | Yes |
+| GUI built-in (TablePlus, DBeaver) | GUI-only workflows | Varies | GUI client | Session only |
+| DataGrip SSH | JetBrains shops | Yes (IDE session) | DataGrip | Session only |
+
+For local development on a Mac, the `autossh` alias approach offers the best balance of simplicity and reliability. For CI/CD pipelines or staging servers that need permanent database access, the systemd service is the correct choice.
+
 ## Verify and Debug Tunnels
 
 ```bash
@@ -255,6 +306,8 @@ lsof -ti:5433 | xargs kill  # kill whatever is using port 5433
 # The remote host can't reach the destination (firewall or wrong address)
 # Test on the remote server: telnet localhost 5432
 ```
+
+A useful diagnostic when the tunnel establishes but database connections fail: SSH to the remote server directly and attempt `psql -h localhost -p 5432`. If that fails, the issue is on the remote server (database not listening, pg_hba.conf blocking local connections), not the tunnel itself.
 
 
 
