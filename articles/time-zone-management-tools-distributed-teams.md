@@ -33,6 +33,15 @@ Scheduling across time zones is a daily friction point for distributed teams. Th
 
 This guide covers the tools and the shared conventions that actually solve time zone coordination.
 
+## Key Takeaways
+
+- **Best use**: Quick "is 3pm UTC okay for everyone?" check before sending a calendar invite.
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## The Convention You Need First
 
 Before any tool: establish a canonical timezone for your team's communication.

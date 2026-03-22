@@ -31,6 +31,15 @@ voice-checked: true---
 
 The most effective time tracking methods for contractors and freelancers are plain-text log files with a parsing script for simplicity, ActivityWatch for automatic activity detection, Git Time Metric for development-integrated tracking, and CLI tools like timetrap for quick session timers. Combine multiple methods for maximum accuracy, and use a reconciliation script weekly to catch unbilled hours before invoicing.
 
+## Key Takeaways
+
+- **The best time tracking**: system is the one you actually use consistently.
+- **Most tools support CSV**: or JSON export.
+- **Combine multiple methods for**: maximum accuracy, and use a reconciliation script weekly to catch unbilled hours before invoicing.
+- **For contractors and freelancers**: time equals revenue directly.
+- **Tools like ActivityWatch (open**: source) run in the background and log window titles, active applications, and idle time.
+- **Use automatic activity tracking**: as a background safety net, manual timers for billable client work, and Git-based tracking for development tasks.
+
 ## The Business Case for Precise Time Tracking
 
 Every hour you fail to track is an hour you cannot bill. For contractors and freelancers, time equals revenue directly. Unlike salaried employees where hours blend together, your time has explicit monetary value. Clients expect detailed invoices with breakdown by task or project. Accurate time records protect both you and your client from disputes about billed hours.

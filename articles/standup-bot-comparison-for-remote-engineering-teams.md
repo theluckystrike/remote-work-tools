@@ -31,6 +31,15 @@ voice-checked: true---
 
 Remote engineering teams need async standups that respect time zones, reduce meeting fatigue, and surface blockers before they become problems. Standup bots automate the daily check-in process, collecting updates via chat platforms and presenting them in digestible formats. This guide compares the leading options across features, pricing, integrations, and implementation complexity.
 
+## Key Takeaways
+
+- **Small teams can use**: free tier indefinitely; $9-15/month for paid features on 3-5 person team.
+- **Standuply**: Free for up to 100 messages/month; $4.99/user/month ($25-50 for small teams) with unlimited standups.
+- **Paid plans add features like analytics**: custom branding, and priority support starting at $3 per user monthly.
+- **The main limitation is**: Slack-only support—if your team uses Teams or Discord, you'll need a different solution.
+- **The free tier includes**: unlimited users and unlimited standups, supported by optional donations.
+- **Teams of 3-5 typically**: pay $15-25/month total.
+
 ## Why Standup Bots Matter for Distributed Teams
 
 Traditional daily standups work poorly across time zones. Someone always joins late at night or early morning, context gets lost in real-time chatter, and the meeting eats into deep work time. Standup bots solve this by letting engineers answer questions on their own schedule, typically through Slack or Teams. The bot then compiles responses into a thread or dashboard that the whole team reads asynchronously.

@@ -15,8 +15,18 @@ voice-checked: true---
 
 {% raw %}
 
-
 The three-two hybrid work model means three days remote and two days in the office, with remote days reserved for deep focus work and office days dedicated to collaboration, pair programming, and meetings. To implement it successfully, you need a containerized development environment that runs identically in both locations, async-first communication channels, and intentional scheduling that matches work type to location. This guide covers the technical setup, weekly structure, and security considerations for developers adopting this model.
+
+## Key Takeaways
+
+- **Core hours hybrid (flexible**: days with required hours): Instead of fixed office days, require attendance during certain core hours (10 AM - 4 PM) and let people choose location otherwise.
+- **The 3-2 model balances**: collaboration needs with deep work time for most software teams.
+- **Some developers focus better**: on remote days; others need the office structure.
+- **Pitfall 3**: Meeting Proliferation
+
+Office days often attract meeting additions: "Let's meet Tuesday because people are in." Solution: Designate specific meeting times.
+- **Give the model at**: least 6 weeks before deciding it's not working.
+- **This reduces the pressure**: of instant responses and lets people work during their most productive hours.
 
 ## Setting Up Your Development Environment
 

@@ -33,6 +33,13 @@ tmux is the single most important tool for remote developers who work over SSH. 
 
 This guide covers practical tmux configuration: a solid `~/.tmux.conf`, session and window management patterns, plugin setup with tpm, and SSH persistence workflows.
 
+## Key Takeaways
+
+- **tmux is the single**: most important tool for remote developers who work over SSH.
+- **When you reconnect, you reattach and pick up exactly where you left off**: no lost work, no killed processes, no interrupted builds.
+- **If your distro ships an older version**: build from source or use a package manager like asdf.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Install tmux
 
 On most Linux servers:

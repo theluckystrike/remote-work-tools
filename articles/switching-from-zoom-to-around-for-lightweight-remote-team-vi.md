@@ -237,6 +237,15 @@ Many development teams have relied on Zoom for years, but the platform's resourc
 
 This guide covers the practical aspects of transitioning your remote team from Zoom to Around, including feature comparisons, API integration patterns, and migration strategies that minimize disruption.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **For most engineering teams**: with fewer than eight regular collaborators on any given call, the free tier accommodates typical usage without issue.
+- **When starting a video**: call takes two seconds instead of fifteen, teams use video more freely for quick questions that would otherwise become long Slack threads.
+- **Does Zoom offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **If your team requires meeting recordings**: either use Zoom for those specific calls or explore third-party screen recording tools.
+
 ## Understanding the Key Differences
 
 Zoom remains the industry standard for video conferencing, offering breakout rooms, recording storage, webinar capabilities, and extensive admin controls. Around focuses on a narrower use case: quick, frictionless video calls with minimal setup overhead.

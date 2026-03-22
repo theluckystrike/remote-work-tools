@@ -31,6 +31,15 @@ Remote teams debugging production issues need observability infrastructure that 
 
 This guide covers structured logging setup, OpenTelemetry trace instrumentation, and exporting traces and logs to a self-hosted stack using Grafana Tempo and Loki.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Root cause is documented**: in the incident thread with a link to the relevant trace 4.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Why Structured Logging Over Plain Text
 
 Plain text logs require grep patterns to extract information. Structured logs are queryable like a database.

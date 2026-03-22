@@ -33,6 +33,17 @@ Showing code changes to non-technical clients presents a unique communication ch
 
 This guide covers the tools and techniques you need to create effective video explanations of code changes for non-technical stakeholders.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Test audio levels #**: Use built-in mic test or external USB microphone # Record 10 seconds and check levels before full recording ffmpeg -f avfoundation -i ":0" -t 10 test_audio.wav # 6.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Use a focused theme**: Remove distractions from your IDE
+3.
+- **Here's the original problem—the**: system was timing out after 30 seconds when users tried to reset their password.
+- **Use plain language**: Replace "we refactored the auth module" with "we improved the login system"
+4.
+
 ## Why Video Walkthroughs Work Better Than Screenshots
 
 Static screenshots capture a moment in time but fail to show process, interaction, or change over time. A client looking at a diff cannot easily understand what was added, removed, or modified without technical context. Video walkthroughs solve this by:
