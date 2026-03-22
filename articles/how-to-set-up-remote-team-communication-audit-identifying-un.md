@@ -9,7 +9,7 @@ permalink: /how-to-set-up-remote-team-communication-audit-identifying-un/
 categories: [guides]
 tags: [remote-work-tools, remote-work, communication, productivity, meetings, slack, team-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

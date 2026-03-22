@@ -9,7 +9,7 @@ permalink: /how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/
 categories: [guides]
 tags: [remote-work-tools, banking, thailand, digital-nomad, remote-work, finance, artificial-intelligence]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

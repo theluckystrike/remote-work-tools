@@ -9,7 +9,7 @@ permalink: /how-to-set-up-remote-team-peer-feedback-process-without-awkw/
 categories: [guides]
 tags: [remote-work-tools, feedback, remote-work, peer-feedback, async, team-development]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

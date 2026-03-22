@@ -9,7 +9,7 @@ permalink: /how-to-set-up-remote-design-handoff-workflow-between-designe/
 categories: [guides]
 tags: [remote-work-tools, design-handoff, remote-work, designer-developer-collaboration, workflow, figma, design-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
