@@ -31,6 +31,15 @@ voice-checked: true---
 
 Hungary introduced its digital nomad visa in 2021, officially called the "White Card" (Fehér Kártya), making it one of the more accessible European options for remote workers. The White Card allows non-EU citizens to live in Hungary for up to two years while working remotely for employers or clients outside the country. This guide covers the application process, requirements, and practical considerations for developers and power users.
 
+## Key Takeaways
+
+- **You must demonstrate stable**: monthly income of at least €2,000 (approximately $2,150 USD) from remote work activities.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Employment contracts**: freelance agreements, or client contracts must explicitly state the remote nature of your work.
+- **Most banks require your White Card**: passport, and proof of address (which you receive after registering your accommodation).
+- **Redundancy (backup mobile connection)**: recommended for critical work.
+
 ## Eligibility Requirements
 
 The Hungary digital nomad visa targets remote workers who meet specific income and employment criteria. You must demonstrate stable monthly income of at least €2,000 (approximately $2,150 USD) from remote work activities. This threshold applies regardless of whether you're employed or self-employed, though the documentation differs slightly between the two categories.

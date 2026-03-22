@@ -14,7 +14,23 @@ intent-checked: true
 voice-checked: true---
 
 {% raw %}
+
 Effective postmortem reports for remote teams share three properties: they are written close to the incident while details are fresh, they establish blameless root cause analysis, and they produce specific action items with assigned owners. This guide provides a complete template and workflow for distributed teams working asynchronously across time zones.
+
+## Key Takeaways
+
+- **Before this incident**: Redis was hitting memory limits because..."
+
+## Postmortem as Learning Tool
+
+The best postmortems become institutional knowledge.
+- **The 5 Whys technique**: forces deeper investigation: Incident: API response times exceeded 10 seconds for 45 minutes.
+- **Use precise language**: "API returned 500 errors" rather than "API was broken."
+
+Impact Analysis (5 minutes): Quantify the blast radius.
+- **Root Cause (10 minutes)**: This is the hardest section.
+- **Use the "5 whys"**: technique but document it explicitly: - Why did the API fail? The deployment script didn't run health checks.
+- **Write "Implement alerting when**: API error rate exceeds 5% for 30 seconds" with an assigned owner.
 
 ## Why Remote Teams Need a Different Approach
 

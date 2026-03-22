@@ -18,6 +18,13 @@ A runbook is a document that an engineer unfamiliar with a system can follow to 
 
 Remote teams are especially dependent on good runbooks — there is no one to turn to in the next cubicle. This guide covers how to write runbooks that actually work.
 
+## Key Takeaways
+
+- **If your runbooks require**: institutional knowledge, slack messages to get context, or judgment calls that are not documented, they will fail exactly when you need them most.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: what a runbook is not, runbook structure, prerequisites
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## What a Runbook Is Not
 
 Before writing, clarify the distinction:

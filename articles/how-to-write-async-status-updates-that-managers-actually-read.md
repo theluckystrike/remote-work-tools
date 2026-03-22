@@ -31,6 +31,19 @@ tags: [remote-work-tools]---
 
 Craft status updates managers read by opening with the single most important insight (impact or blocker), organizing supporting details into 3-4 bullet points, and closing with a clear ask. This format respects attention bandwidth while ensuring critical information surfaces through the noise.
 
+## Key Takeaways
+
+- **Craft status updates managers**: read by opening with the single most important insight (impact or blocker), organizing supporting details into 3-4 bullet points, and closing with a clear ask.
+- **Apply this filter**: "If my manager only reads the first three sentences of this update, will they know the one thing they most need to know?" If the answer is no, restructure your opening.
+- **The new caching layer**: introduced a data consistency issue affecting 0.3% of transactions.
+- **Some teams want daily**: updates; others prefer weekly.
+- **Some want formal structure;**: others prefer informal notes.
+- **Request support**: Ask specifically what you need from your manager
+
+Example:
+
+> We discovered a critical performance regression in the payment processing pipeline.
+
 ## Why Most Status Updates Fail
 
 Before looking at solutions, let's identify why typical status updates fall flat:

@@ -31,6 +31,15 @@ voice-checked: true---
 
 Structure your RFC with a 2-3 sentence summary, a concrete problem statement with real data, a detailed proposed solution with code examples, explicitly rejected alternatives, numbered open questions for reviewers, and a clear feedback deadline. Assign 2-3 specific reviewers by name with targeted questions for each, and frame your decisions as current thinking rather than final verdicts. This approach converts vague "looks good" responses into actionable technical feedback across time zones.
 
+## Key Takeaways
+
+- **Use these sections in**: order: ## Writing Techniques That Generate Better Feedback ### Use Concrete Examples Abstract proposals invite abstract responses.
+- **They might agree or disagree**: but they can't provide meaningful technical feedback because there's nothing specific to evaluate.
+- **Instead**: your RFC should frame every claim with evidence, every decision with context, and every recommendation with clear alternatives considered.
+- **Is the additional complexity**: worth it for our use case?" This invites reviewers to challenge your assumptions without feeling like they're rejecting your entire proposal.
+- **Use headers**: bullet points, and code blocks to create visual breaks.
+- **Use Slack's Block Kit**: Builder (api.slack.com/block-kit/building) to design rich message layouts.
+
 ## The Core Problem with Most Technical RFCs
 
 Most RFCs fail not because the ideas are bad, but because the document itself is difficult to engage with. A typical problematic RFC might say:

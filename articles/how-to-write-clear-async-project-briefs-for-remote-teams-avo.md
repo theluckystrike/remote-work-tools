@@ -19,6 +19,15 @@ Writing clear async project briefs is one of the most valuable skills you can de
 
 This guide provides frameworks, templates, and practical examples specifically designed for developers and technical teams working across time zones.
 
+## Key Takeaways
+
+- **Increase timeout to 30**: seconds for transactions over $200 2.
+- **Customer support tickets increased**: 40% this month.
+- **Add system preference detection**: (respects OS setting) 2.
+- **Persist user preference in**: database 4.
+- **Approximately 15% of high-value**: transactions fail.
+- **Writing clear async project**: briefs is one of the most valuable skills you can develop in a remote work environment.
+
 ## Why Project Briefs Fail in Async Environments
 
 Before examining the frameworks, understanding why briefs fail helps you avoid common pitfalls:

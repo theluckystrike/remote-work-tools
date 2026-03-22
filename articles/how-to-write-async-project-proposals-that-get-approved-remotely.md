@@ -33,6 +33,14 @@ Getting buy-in on projects without the benefit of face-to-face conversation or r
 
 This guide walks through the anatomy of effective async project proposals, frameworks that work across different team structures, and practical tips for improving your approval rates without ever scheduling a meeting.
 
+## Key Takeaways
+
+- **This constraint actually produces**: better proposals—in-person pitches often gloss over weaknesses or rely on charisma to mask gaps.
+- **Async proposals force you**: to address those weaknesses directly, which builds trust and leads to better project outcomes.
+- **3-5 days is appropriate**: for most proposals.
+- **Tokens are scoped to the user's permissions**: use a service account for shared automation.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Why Async Proposals Are Different From In-Person Pitches
 
 When you present a project proposal in a meeting, you have several advantages that disappear in async communication. You can read the room and adjust your pitch in real-time. You can answer questions immediately. You can gauge interest through body language and adjust your approach on the fly. You can dig deeper into objections as they arise.

@@ -14,7 +14,17 @@ voice-checked: true
 tags: [remote-work-tools]---
 
 {% raw %}
+
 Transition gradually over seven phases: audit your current meeting load, identify replaceable meetings (standups and status updates first), implement async standups with a structured template, add async decision documentation, set explicit response-time expectations, move code reviews to PR-based async workflows, then reduce remaining meetings incrementally. This phased approach avoids the trust breakdowns and silent reversions that happen when teams try to go fully async overnight. Most teams see measurable improvements in deep work hours within four to six weeks.
+
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does GitHub offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Most PR feedback doesn't**: require real-time discussion.
+- **Async works best when**: everyone has reasonable overlap for essential同步 discussions.
 
 ## Understanding the Shift
 

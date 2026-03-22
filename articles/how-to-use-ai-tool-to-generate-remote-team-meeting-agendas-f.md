@@ -17,6 +17,13 @@ intent-checked: true---
 
 Remote teams face a common challenge: spending precious meeting time rehashing discussions that have already happened in async channels. Instead of manually scanning through Slack threads, GitHub comments, and past meeting notes to build an agenda, you can use AI tools to automate this process. This guide shows you how to build a workflow that transforms scattered notes into structured, actionable meeting agendas.
 
+## Key Takeaways
+
+- **Instead of manually scanning**: through Slack threads, GitHub comments, and past meeting notes to build an agenda, you can use AI tools to automate this process.
+- **Note any topics that**: need follow-up discussion 4.
+- **Maintain a notes archive**: The more historical data you feed the system, the better it becomes at identifying patterns.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## The Problem with Manual Agenda Building
 
 When you're managing a distributed team, relevant information lives across multiple platforms. Your sprint planning notes might be in Notion, design decisions in Figma comments, and technical discussions in Slack channels. Building a meeting agenda traditionally requires manually gathering these disparate inputs—a time-consuming process that often misses critical context.
