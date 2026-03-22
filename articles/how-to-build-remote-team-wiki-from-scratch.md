@@ -13,6 +13,7 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+{% raw %}
 title: [Action-oriented title: "Configure PostgreSQL Connection Pooling"]
 last_verified: YYYY-MM-DD
 verified_by: @username
@@ -147,4 +148,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}
