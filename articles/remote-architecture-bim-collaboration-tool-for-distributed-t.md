@@ -9,7 +9,7 @@ permalink: /remote-architecture-bim-collaboration-tool-for-distributed-t/
 categories: [guides]
 tags: [remote-work-tools, bim, revit, architecture, remote-collaboration, distributed-teams, building-information-modeling, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
