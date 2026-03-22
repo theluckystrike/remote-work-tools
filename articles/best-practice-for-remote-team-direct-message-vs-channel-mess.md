@@ -9,7 +9,7 @@ permalink: /best-practice-for-remote-team-direct-message-vs-channel-message-deci
 categories: [guides]
 tags: [remote-work-tools, remote-work, communication, slack, teams, async-communication, developer-productivity, comparison]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

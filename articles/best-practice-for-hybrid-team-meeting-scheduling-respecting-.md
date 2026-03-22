@@ -9,7 +9,7 @@ permalink: /best-practice-for-hybrid-team-meeting-scheduling-respecting-/
 categories: [guides]
 tags: [remote-work-tools, hybrid-work, meeting-scheduling, remote-work, office-preferences, team-collaboration, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
