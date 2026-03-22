@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ".GitHub/communication.yml"
+title: "Remote Team Communication Charter Template (2026)"
 description: "A practical guide for developers and technical teams to build communication charters that actually get adopted by new hires during onboarding"
 date: 2026-03-16
 last_modified_at: 2026-03-16

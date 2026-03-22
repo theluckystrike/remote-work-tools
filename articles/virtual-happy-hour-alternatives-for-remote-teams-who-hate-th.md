@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "slack_workflow_async_checkin.py"
+title: "Virtual Happy Hour Alternatives for Remote Teams"
 description: "Practical alternatives to virtual happy hours that actually work for remote developer teams who dread mandatory social gatherings"
 date: 2026-03-15
 last_modified_at: 2026-03-15

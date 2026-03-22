@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "From your local machine with VPN active"
+title: "Remote Incident Response Runbook Guide (2026)"
 description: "A practical guide to building incident response runbooks that work across time zones. Includes templates, automation examples, and handover protocols"
 date: 2026-03-16
 last_modified_at: 2026-03-22
