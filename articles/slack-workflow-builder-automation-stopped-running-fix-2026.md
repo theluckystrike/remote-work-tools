@@ -8,7 +8,7 @@ permalink: /slack-workflow-builder-automation-stopped-running-fix-2026/
 categories: [guides]
 tags: [remote-work-tools, slack, workflow-builder, automation, remote-work, troubleshooting, distributed-teams, slack-tools]
 reviewed: true
-score: 8
+score: 7
 intent-checked: true
 voice-checked: true---
 

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /slack-custom-emoji-not-uploading-error-message-fix-2026/
 reviewed: true
-score: 8
+score: 9
 categories: [troubleshooting]
 tags: [remote-work-tools, troubleshooting]
 intent-checked: true

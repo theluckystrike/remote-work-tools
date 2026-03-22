@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /ssh-tunnels-remote-database-access/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]---

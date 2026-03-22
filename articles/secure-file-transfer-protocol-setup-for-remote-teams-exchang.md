@@ -9,7 +9,7 @@ permalink: /secure-file-transfer-protocol-setup-for-remote-teams-exchang/
 categories: [guides]
 tags: [remote-work-tools, sftp, security, remote-work, file-transfer]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true---
 ---

@@ -9,7 +9,7 @@ permalink: /skip-level-meeting-guide-for-remote-organizations/
 categories: [guides]
 tags: [remote-work-tools, skip-level-meeting, remote-work, leadership, team-management]
 reviewed: true
-score: 9
+score: 7
 intent-checked: true
 voice-checked: true---
 

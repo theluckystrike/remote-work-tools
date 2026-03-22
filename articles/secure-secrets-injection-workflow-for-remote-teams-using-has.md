@@ -9,7 +9,7 @@ permalink: /secure-secrets-injection-workflow-for-remote-teams-using-has/
 categories: [guides]
 tags: [remote-work-tools, security, devops, hashicorp-vault, secrets-management, remote-work, workflow]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true---
 ---

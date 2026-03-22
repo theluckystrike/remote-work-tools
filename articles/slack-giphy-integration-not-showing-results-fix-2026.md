@@ -7,7 +7,7 @@ last_modified_at: 2026-03-22
 author: "Remote Work Tools"
 permalink: /slack-giphy-integration-not-showing-results-fix-2026/
 reviewed: true
-score: 9
+score: 7
 voice-checked: true
 categories: [troubleshooting]
 tags: [remote-work-tools, troubleshooting, integration]

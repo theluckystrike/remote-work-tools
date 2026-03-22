@@ -9,7 +9,7 @@ permalink: /slack-list-view-sorting-not-saving-preference-fix-2026/
 categories: [guides]
 tags: [slack, slack-troubleshooting, slack-list-view, slack-preferences, slack-sorting, remote-work-tools, distributed-teams, troubleshooting]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true---
 ---
