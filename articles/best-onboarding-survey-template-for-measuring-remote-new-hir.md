@@ -18,15 +18,6 @@ Remote onboarding requires intentional measurement. Unlike office environments w
 
 This guide provides practical templates you can implement immediately, along with code examples for automating survey distribution and analysis.
 
-## Key Takeaways
-
-- **as $hire | [(now**: | strftime("%Y-%m-%d") | strptime("%Y-%m-%d") | mktime) - ($hire.start_date | strptime("%Y-%m-%d") | mktime)] / 86400 | tostring | .
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **What has been your**: biggest challenge in the past two weeks? [Open text] ### Support Needed 8.
-- **Who are the people**: you interact with most? Who should you interact with more? [Open text] ### Feedback and Growth 7.
-- **What support do you**: need from your manager in the next quarter? [Open text] ### Onboarding Program Assessment 7.
-
 ## Why Measure Remote Onboarding at Specific Milestones
 
 New hires experience distinct phases during their first three months. The first 30 days involve overwhelming learning—tools, processes, team dynamics. Days 31-60 shift toward contribution and independence. The 60-90 day period focuses on mastery and long-term integration.
@@ -454,4 +445,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

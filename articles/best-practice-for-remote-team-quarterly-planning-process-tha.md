@@ -18,15 +18,6 @@ Quarterly planning for a single remote team is challenging. Quarterly planning a
 
 This guide provides a structured approach to quarterly planning that scales across multiple remote teams while keeping async workflows intact and meeting time to a minimum.
 
-## Key Takeaways
-
-- **Notion is free for ≤10 users**: then $15/user/month.
-- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
-- **Q2 you completed 55%**: of objectives.
-- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
-- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
-- **The goal is async**: resolution—only escalate to a sync call if async discussion stalls after 48 hours.
-
 ## The Core Framework: Three-Phase Async Planning
 
 Effective quarterly planning at scale follows three distinct phases: individual team preparation, cross-team synchronization, and final consolidation. Each phase operates asynchronously, allowing team members to contribute on their own schedules while producing documented artifacts that serve as reference throughout the quarter.
@@ -523,4 +514,4 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Best Tools for Remote Team Offsite Planning 2026](/remote-work-tools/best-tools-for-remote-team-offsite-planning-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

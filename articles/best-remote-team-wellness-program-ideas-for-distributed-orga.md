@@ -17,15 +17,6 @@ voice-checked: true---
 
 Effective remote team wellness programs address mental health isolation, ergonomic setup, and fitness challenges without requiring in-person participation. Distributed organizations can implement anonymous pulse surveys, subsidized therapy services, virtual fitness challenges, and async wellness content—all measurable and trackable. This guide covers specific programs, implementation scripts, and metrics for tracking wellness ROI.
 
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **A $500/month wellness program**: that prevents one departure saves your company tens of thousands.
-- **When people feel cared for**: they build better things, stay longer, and recommend your company to others.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **An employee costs 50-200%**: of salary to replace when you factor in hiring, onboarding, and lost productivity.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-
 ## The Hidden Cost of Team Burnout
 
 Burnout in remote teams is expensive and often invisible until someone quits unexpectedly:
@@ -297,4 +288,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Remote Team Referral Program Template for Distributed](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

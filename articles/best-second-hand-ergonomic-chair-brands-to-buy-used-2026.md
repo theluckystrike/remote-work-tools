@@ -18,15 +18,6 @@ voice-checked: true---
 
 Buy a used Herman Miller Aeron Gen2 ($400-700) for the best combination of durability and ergonomic support -- its Pellicle mesh does not compress over time, so even 3-5 year old units retain their supportive properties. For a lower budget, the Steelcase Leap V2 ($300-550) offers excellent adjustability, though check that the foam seat cushion has not flattened. Haworth Zody ($250-450) is the value pick with replaceable cushions that extend its usable life. All three brands build chairs rated for 10-15 years, so buying used at 40-60% off retail saves hundreds while delivering the same ergonomic benefits developers need for 8+ hour coding sessions.
 
-## Key Takeaways
-
-- **Haworth Zody ($250-450) is**: the value pick with replaceable cushions that extend its usable life.
-- **Listen for: - Grinding**: sounds indicating worn bearings - Uneven rolling suggesting damaged casters - Wheels that don't spin freely Replaceable caster wheels cost $20-40 for a set.
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **For a lower budget**: the Steelcase Leap V2 ($300-550) offers excellent adjustability, though check that the foam seat cushion has not flattened.
-- **All three brands build**: chairs rated for 10-15 years, so buying used at 40-60% off retail saves hundreds while delivering the same ergonomic benefits developers need for 8+ hour coding sessions.
-- **A new Herman Miller**: Aeron costs around $1,400.
-
 ## Why Buy Second-Hand Ergonomic Chairs
 
 The math is straightforward. A new Herman Miller Aeron costs around $1,400. The same chair in good condition, 2-3 years old, often appears on resale platforms for $500-700. That's a savings of 50-65% for the same ergonomic benefits.
@@ -426,4 +417,4 @@ Used chairs offer the best value: 60-70% discount from new, 90%+ of the comfort 
 - [How to Set Up Second Brain for Developers](/remote-work-tools/how-to-set-up-second-brain-for-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

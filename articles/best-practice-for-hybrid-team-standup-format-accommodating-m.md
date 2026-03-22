@@ -10,23 +10,10 @@ score: 9
 voice-checked: true
 categories: [guides]
 intent-checked: true
-tags: [remote-work-tools, best-of]---
-
+tags: [remote-work-tools, best-of]
+---
 
 The "all-remote standup format" where even in-office participants dial in from individual desks prevents asymmetric participation and ensures remote attendees don't become invisible second-class participants. By breaking standups into 60-second individual updates instead of conversational round-robins, using async Slack updates with dedicated response threads, and rotating standup help to distributed team members, hybrid teams ensure information flows equally and remote voices get heard. This inverts the default problem—rather than fitting remote workers into an in-office meeting structure, designing standups for distributed-first participation paradoxically improves engagement for co-located teams while ensuring equity across your entire distributed workforce.
-
-## Key Takeaways
-
-- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
-- **Set explicit time limits beforehand**: "We have 90 seconds per person; I'll give you a 30-second warning."
-2.
-- **Research on hybrid team**: dynamics shows that remote participants contribute 40% less during unstructured meetings compared to fully remote meetings.
-- **Instead**: use a structured round-robin format:
-
-1.
-- **Each person speaks for 60-90 seconds covering**: one win, one focus area, any blockers
-3.
-- **Make it simple**: Use pre-formatted templates that require minimal effort.
 
 ## The Core Problem: Asymmetric Participation
 
@@ -203,16 +190,6 @@ Some teams find that hybrid standups are more trouble than they're worth. Consid
 
 Async standups using tools like Geekbot, Standuply, or simple Slack threads can be equally effective for information sharing while eliminating the coordination overhead.
 ---
-
-
-
-| Tool | Video Quality | Screen Sharing | Recording | Pricing |
-|---|---|---|---|---|
-| Zoom | Up to 4K | Desktop + app sharing | Cloud + local | $13.33/user/month |
-| Google Meet | Up to 1080p | Screen + tab sharing | Google Drive | Included with Workspace ($6+) |
-| Microsoft Teams | Up to 1080p | Desktop + PowerPoint Live | OneDrive/SharePoint | Included with M365 ($6+) |
-| Around | Floating window, auto-crop | Screen sharing | No recording | Free / $8.50/user/month |
-| Tuple | HD pair programming | Full screen control | Session recording | $30/user/month |
 
 ## Advanced Facilitation Techniques
 

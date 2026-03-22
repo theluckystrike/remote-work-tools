@@ -19,15 +19,6 @@ A programmer's keyboard matters more than most realize. You're hitting it 8+ hou
 
 We tested four flagship mechanical keyboards used by working developers: Keychron Q1, Happy Hacking Keyboard Pro 2 (HHKB), Kinesis Advantage 360, and ZSA Moonlander Mark 1. We scored them on ergonomics, switch quality, build, programmability, and value.
 
-## Key Takeaways
-
-- **Bluetooth also supported; we**: didn't use it (latency is noticeable for gaming, less so for typing, but 2.4GHz is better).
-- **Price-to-value**: Best in class at $189.
-- **Switches wear out after**: ~100M presses (~5 years of heavy use), but Keychron ships hotswap sockets, so replacement switches are $5–15 each.
-- **If wrist pain costs you 10% productivity**: an extra $260 is worth it.
-- **It pays dividends over 3–5 years**: and the difference between a $189 and $449 board isn't noticeable when you're doing your best work.
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-
 ## The Contenders
 
 ### 1. Keychron Q1 Pro
@@ -287,3 +278,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Mechanical Keyboard for Remote Developers](/remote-work-tools/best-mechanical-keyboard-for-remote-developers-quiet-switches-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

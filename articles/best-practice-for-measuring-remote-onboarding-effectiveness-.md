@@ -10,7 +10,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 ---
 layout: default
 title: "Find the first commit by a specific author"
@@ -23,31 +24,11 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
-
-
-| Tool | Key Feature | Remote Team Fit | Integration | Pricing |
-|---|---|---|---|---|
-| Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
-| Slack | Real-time team messaging | Channels, threads, huddles | 2,600+ apps | $7.25/user/month |
-| Linear | Fast project management | Keyboard-driven, cycles | GitHub, Slack, Figma | $8/user/month |
-| Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
-| 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
-
+tags: [remote-work-tools, best-of, remote-work]
+---
 
 {% raw %}
-
 Measuring remote onboarding effectiveness requires metrics that actually tell you whether new developers are becoming productive members of your team. Time to first commit (TTFC) stands out as one of the most actionable metrics—it measures the elapsed time from a developer's first day to their first merged pull request. This metric directly reflects how quickly a new hire can navigate your development environment, understand your codebase, and contribute meaningful work.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Some of your best**: engineers may take longer to contribute because they're being thorough, not because they're struggling.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **You need to establish**: benchmarks based on your team's historical data and then use those benchmarks to identify problems.
-- **Set up automated tracking**: Use the scripts above or adapt them to your tooling
-3.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
 
 ## Why Time to First Commit Works
 

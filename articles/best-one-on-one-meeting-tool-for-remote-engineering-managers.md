@@ -16,16 +16,6 @@ voice-checked: true---
 
 Use Loom for async-first 1:1s across multiple time zones with automatic transcription and GitHub integration, or combine Slack, Google Meet, and Notion for lightweight workflows without dedicated tools. The key is supporting both live meetings for relationship-building and async video updates for efficient information sharing.
 
-## Key Takeaways
-
-- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
-- **The best one on**: one meeting tool for remote engineering managers is ultimately the one your team will actually use, with the structure that makes those conversations valuable.
-- **Pitfall 4**: Career conversations only happen at review time
-Engineers feel surprise during annual reviews because growth conversations were sporadic.
-- **The best one on**: one meeting tool for remote engineering managers addresses these core needs while fitting into your existing workflow without adding friction.
-- **The free tier handles basic 1:1s**: while paid plans add transcription and longer meeting durations.
-- **Record and transcribe -**: Use your tool's recording features to create reference material for both parties 3.
-
 ## What Engineering Managers Actually Need from 1:1 Tools
 
 Before examining specific tools, consider what makes one-on-ones effective for engineering teams. You need reliable video and audio quality for face-to-face connection. You need integrated note-taking that doesn't require switching apps. You need the ability to share code snippets or technical artifacts during discussions. You need meeting transcripts or recordings for reference later. You need scheduling that works across time zones without endless back-and-forth emails.
@@ -416,4 +406,4 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}
