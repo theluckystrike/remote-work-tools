@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-create-security-onboarding-checklist-for-new-remote-t/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, security, remote-work]

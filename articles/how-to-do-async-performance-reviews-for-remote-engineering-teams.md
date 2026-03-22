@@ -9,7 +9,7 @@ permalink: /how-to-do-async-performance-reviews-for-remote-engineering-teams/
 categories: [guides]
 tags: [remote-work-tools, performance-review, remote-work, async, engineering, feedback, management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

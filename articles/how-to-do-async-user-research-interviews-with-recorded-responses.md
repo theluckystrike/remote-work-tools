@@ -136,7 +136,7 @@ tags:
  - ux research tools
 permalink: /how-to-do-async-user-research-interviews-with-recorded-responses/
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

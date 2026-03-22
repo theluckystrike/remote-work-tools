@@ -140,7 +140,7 @@ tags:
  - developer productivity
 permalink: /how-to-do-async-code-pairing-with-recorded-screen-share-sessions/
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

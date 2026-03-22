@@ -9,7 +9,7 @@ permalink: /how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-a
 categories: [guides]
 tags: [remote-work-tools, hybrid-meeting, remote-work, AV-setup, meeting-room, video-conferencing]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

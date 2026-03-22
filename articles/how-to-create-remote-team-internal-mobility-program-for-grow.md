@@ -9,7 +9,7 @@ permalink: /how-to-create-remote-team-internal-mobility-program-for-grow/
 categories: [guides]
 tags: [remote-work-tools, remote-work, internal-mobility, career-growth, talent-retention, hr, team-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

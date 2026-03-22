@@ -6,9 +6,9 @@ date: 2026-03-21
 author: theluckystrike
 permalink: /how-to-design-accessible-remote-team-handbook-for-neurodiver/
 categories: [guides]
-tags: [remote-work-tools, accessibility, neurodiversity, team-handbook, inclusion]
+tags: [remote-work-tools, accessibility, neurodiversity, team-handbook, inclusion, remote-work]
 reviewed: true
-score: 9
+score: 8
 voice-checked: true
 intent-checked: true
 ---
