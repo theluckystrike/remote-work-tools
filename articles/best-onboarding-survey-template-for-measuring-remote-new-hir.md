@@ -8,7 +8,7 @@ permalink: /best-onboarding-survey-template-for-measuring-remote-new-hir/
 categories: [guides]
 tags: [remote-work-tools, onboarding, remote-work, surveys, new-hire, hr, team-development, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
