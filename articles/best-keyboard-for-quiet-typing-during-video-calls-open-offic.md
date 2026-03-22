@@ -31,6 +31,15 @@ When you're on back-to-back video calls in an open office, your keyboard noise b
 
 This guide covers the keyboard options that keep you productive while being considerate to those around you. We'll look at mechanical switches designed for quiet operation, alternative keyboard designs, and practical configurations you can apply today.
 
+## Key Takeaways
+
+- **Spending $200 on something**: you use 2,000+ hours annually is reasonable.
+- **If you've committed to mechanical**: invest in premium switches ($100), better keycaps ($80), or a custom keyboard build ($200+).
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Use new keyboard for**: 30-50% of typing tasks during week 1-2 3.
+- **Year 2**: If you type 8+ hours daily, upgrade to a better option in your preferred category.
+- **Sometimes the perceived problem**: is 80% microphone placement and only 20% actual keyboard noise.
+
 ## Understanding Keyboard Noise Sources
 
 Before exploring solutions, it helps to understand where keyboard noise originates. The sound profile of any keyboard comes from three main components: the switch mechanism, the keycap material, and the keyboard housing. Each contributes differently to the overall noise level.
