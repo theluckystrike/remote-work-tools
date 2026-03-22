@@ -185,6 +185,58 @@ Related: [[Authentication]], [[Error Codes]]
 
 Logseq's outliner format nests details under parent items, creating a more collapsible and queryable structure. Obsidian's traditional markdown reads more like published documentation.
 
+## Performance and Search at Scale
+
+As a developer, your knowledge base will grow quickly. Performance and search quality matter once you have hundreds or thousands of notes.
+
+### Obsidian Search Performance
+
+Obsidian's full-text search indexes files locally and returns results fast even in large vaults (10,000+ notes). The search supports:
+
+- Regular expressions for pattern matching across code blocks
+- Path filters to search within specific folders
+- Tag-based filtering to narrow to a topic area
+- Operator combinations: `file:api AND code:fetch`
+
+The Dataview plugin extends this with SQL-like queries that run against note metadata, letting you build dashboards of recent decisions or open bugs:
+
+```
+```dataview
+TABLE file.name, status, assigned-to
+FROM "projects/active"
+WHERE status = "in-review"
+SORT file.mtime DESC
+```
+```
+
+### Logseq Search and Queries
+
+Logseq's built-in query language operates at the block level. You can search for pages containing specific tags, find all blocks that reference a particular concept, or filter by properties:
+
+```
+{{query (and (property :status "in-review") [[backend]])}}
+```
+
+This surfaces every block across your entire database that matches—even if those blocks are embedded deep inside other pages. For developers tracking tasks or bugs across projects, this is a powerful capability that does not require an external plugin.
+
+## Migrating Between Tools
+
+If you start with one tool and later need to switch, the process is manageable because both store plain markdown files.
+
+**Obsidian to Logseq:** Logseq reads Obsidian vaults directly. Open your existing Obsidian folder as a Logseq graph. Links formatted as `[[Note Name]]` transfer without modification. Folder hierarchy converts to tags automatically.
+
+**Logseq to Obsidian:** Export your Logseq graph as markdown. Block-level properties become front matter. Page-level content renders as standard markdown in Obsidian. The main loss is block references that embed specific sub-bullets across pages—those become broken links.
+
+Keep your vault in a Git repository from day one regardless of which tool you choose. A commit history lets you roll back migrations if something goes wrong and provides a clean backup for any future tool change.
+
+## Real Developer Workflows
+
+Here are two concrete workflow setups developers use in practice:
+
+**Obsidian for Architecture Documentation:** Create a folder structure mirroring your service architecture (`/services/auth`, `/services/payments`). Each service has a main note with Dataview queries pulling in linked decision records. The graph view helps during code reviews to visualize which services share dependencies. Use the Git plugin to auto-commit every 10 minutes.
+
+**Logseq for Daily Engineering Journaling:** Each day page becomes your engineering journal. As you debug, you add blocks tagged with `[[bug]]` and the relevant service name. At week's end, a query surfaces all bugs investigated that week. Retrospectives become quick because every decision has a dated block reference.
+
 ## Which Should You Choose?
 
 Choose **Obsidian** if you:
