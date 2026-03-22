@@ -81,6 +81,25 @@ Firewall settings often block the necessary ports for Zoom room system communica
 - Add Zoom to your firewall or security software exception list if needed
 - Re-enable security software after testing
 
+Test whether the required Zoom ports are reachable from your network:
+
+```bash
+# Test TCP connectivity to Zoom's required ports
+nc -zv zoomgov.com 443 2>&1 | grep -E "succeeded|refused"
+nc -zv zoomgov.com 8801 2>&1 | grep -E "succeeded|refused"
+
+# Check DNS resolution for Zoom services
+dig +short zoom.us
+nslookup _sip._tcp.zoom.us
+
+# Test network speed and latency to Zoom servers
+curl -o /dev/null -w "DNS: %{time_namelookup}s\nConnect: %{time_connect}s\nTotal: %{time_total}s\n" \
+  https://zoom.us
+
+# On macOS, check if Zoom has firewall exceptions
+/usr/libexec/ApplicationFirewall/socketfilterfw --listapps | grep -i zoom
+```
+
 ### Step 6: Verify Account Permissions and Licensing
 
 Your Zoom account must have the appropriate permissions to use Companion Mode with room systems.

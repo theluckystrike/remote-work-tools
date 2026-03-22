@@ -147,6 +147,38 @@ A four-person team using AWS can be productive within an hour:
 3. Add team members to your AWS account
 4. Each developer accesses CloudShell directly from the console
 
+Create an IAM policy that grants CloudShell access with read-only infrastructure permissions for your dev team:
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowCloudShellAccess",
+      "Effect": "Allow",
+      "Action": [
+        "cloudshell:CreateEnvironment",
+        "cloudshell:GetEnvironmentStatus",
+        "cloudshell:StartEnvironment",
+        "cloudshell:PutCredentials"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "AllowReadOnlyInfraAccess",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:Describe*",
+        "ecs:List*",
+        "logs:GetLogEvents",
+        "logs:FilterLogEvents"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
+
 No additional tooling required. Cost is negligible for small teams. This approach works well when your entire infrastructure lives on AWS and team members are comfortable with AWS console navigation.
 
 ### Multi-Cloud Setup with Teleport
@@ -158,6 +190,40 @@ A ten-person team with servers across AWS, Google Cloud, and on-premises:
 3. Create RBAC roles for different team member types
 4. Team members access through browser at teleport.yourcompany.com
 5. All sessions automatically recorded for audit purposes
+
+Install Teleport and configure role-based access for your team:
+
+```bash
+# Install Teleport on your proxy server
+curl https://goteleport.com/static/install.sh | bash -s 15.0.0
+
+# Initialize the cluster
+sudo teleport configure --cluster-name=team.yourdomain.com \
+  --public-addr=team.yourdomain.com:443 \
+  --output-file=/etc/teleport.yaml
+
+# Start the service
+sudo systemctl enable teleport && sudo systemctl start teleport
+
+# Create a developer role with staging-only access
+tctl create << 'EOF'
+kind: role
+version: v7
+metadata:
+  name: developer
+spec:
+  allow:
+    logins: [ubuntu, ec2-user]
+    node_labels:
+      env: ["staging", "development"]
+  deny:
+    node_labels:
+      env: production
+EOF
+
+# Add a team member
+tctl users add alice --roles=developer --logins=ubuntu
+```
 
 Initial setup takes a few days. Ongoing overhead is manageable. This approach scales well as infrastructure becomes more complex.
 

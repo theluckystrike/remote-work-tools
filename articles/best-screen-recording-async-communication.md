@@ -19,6 +19,15 @@ A 90-second screen recording of a bug is worth ten paragraphs of text. Async scr
 
 This guide covers the best screen recording tools for async communication in 2026, how to set them up, and how to build a distribution workflow that doesn't require Slack uploads or cloud subscriptions for every recording.
 
+## Key Takeaways
+
+- **$8/creator/month for Business (unlimited**: plus analytics).
+- **Pricing**: $89 one-time purchase (macOS only).
+- **Best for**: Developers on Linux, anyone who wants free, unlimited recording with full control over quality settings.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Pricing**: $5/month includes 1,000 minutes stored and 10,000 minutes delivered.
+- **Extra at $0.005/min stored**: $0.001/min delivered.
+
 ## Loom
 
 Loom is the standard async video tool for remote teams. Record, share a link immediately, and viewers can comment at specific timestamps.

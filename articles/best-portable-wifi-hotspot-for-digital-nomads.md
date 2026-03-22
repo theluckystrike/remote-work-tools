@@ -31,6 +31,15 @@ tags: [remote-work-tools, best-of]---
 
 For most digital nomads, the Netgear Nighthawk M1 is the best portable WiFi hotspot -- it delivers Cat 16 LTE speeds, 12+ hours of battery life, and an Ethernet port for stable development work, all with an unlocked SIM slot for local data plans worldwide. If you need open-source firmware and VPN integration, choose the GL.iNet GL-MT3000 instead. This guide compares viable devices, covers the technical specs that matter, and includes code examples for automating connectivity.
 
+## Key Takeaways
+
+- **If you need open-source**: firmware and VPN integration, choose the GL.iNet GL-MT3000 instead.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Tethering works for occasional**: use but becomes problematic when you need stable connectivity for eight-hour work sessions.
+- **They typically offer better**: battery life than phone tethering, support multiple simultaneous connections, and often include LCD displays for monitoring data usage and signal strength.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## Understanding Portable WiFi Options
 
 Digital nomads have three primary approaches to staying connected: smartphone tethering, dedicated portable hotspots, and mobile routers with external antennas. Each option carries distinct tradeoffs for developers who need reliable, fast connections for video calls, code deployments, and accessing cloud development environments.

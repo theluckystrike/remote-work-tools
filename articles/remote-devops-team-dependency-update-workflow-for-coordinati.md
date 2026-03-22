@@ -93,6 +93,76 @@ This rhythm creates predictability. Remote team members know when to focus on de
 
 **Use Automation Judiciously**: Automated dependency updates through tools like Dependabot or Renovate reduce manual work but require configuration for multi-repository workflows. Set up proper routing rules so updates are assigned to the correct team members automatically.
 
+Configure Renovate to automatically create dependency update PRs across all your repositories with sensible grouping and scheduling:
+
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "schedule": ["every tuesday"],
+  "timezone": "America/New_York",
+  "assignees": ["@devops-team"],
+  "labels": ["dependencies", "automated"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "groupName": "patch-updates"
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "groupName": "minor-updates",
+      "automerge": false
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "groupName": "major-updates",
+      "automerge": false,
+      "labels": ["breaking-change", "needs-review"]
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": ["security"],
+    "assignees": ["@security-team"]
+  }
+}
+```
+
+Use a script to scan all repositories for outdated dependencies and generate a summary report:
+
+```bash
+#!/bin/bash
+# scan-dependencies.sh — Run across all repos to generate update report
+
+REPOS=("frontend-app" "api-gateway" "user-service" "payment-service" "shared-lib")
+REPORT_FILE="dependency-report-$(date +%Y-%m-%d).md"
+
+echo "# Dependency Update Report — $(date +%Y-%m-%d)" > "$REPORT_FILE"
+
+for repo in "${REPOS[@]}"; do
+  echo -e "\n## $repo" >> "$REPORT_FILE"
+  cd "$HOME/repos/$repo"
+
+  if [ -f "package.json" ]; then
+    echo "### npm outdated" >> "$REPORT_FILE"
+    npx npm-check-updates --format group 2>/dev/null >> "$REPORT_FILE"
+  fi
+
+  if [ -f "requirements.txt" ]; then
+    echo "### pip outdated" >> "$REPORT_FILE"
+    pip list --outdated --format columns 2>/dev/null >> "$REPORT_FILE"
+  fi
+
+  if [ -f "go.mod" ]; then
+    echo "### Go modules" >> "$REPORT_FILE"
+    go list -u -m all 2>/dev/null | grep '\[' >> "$REPORT_FILE"
+  fi
+done
+
+echo "Report saved to $REPORT_FILE"
+```
+
 **Document Dependency Owners**: Clearly assign ownership for each repository's dependencies. Remote teams avoid confusion when everyone knows who to tag with questions about specific packages.
 
 **Create Standardized PR Templates**: Standard templates for dependency update PRs ensure consistency. Include checkboxes for testing completed, changelog reviewed, and any breaking changes assessed.

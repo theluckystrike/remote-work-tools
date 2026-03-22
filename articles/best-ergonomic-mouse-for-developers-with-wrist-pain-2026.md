@@ -29,6 +29,15 @@ intent-checked: true---
 
 If your wrist aches after 8 hours of coding, a traditional flat mouse is likely part of the problem. Developers spend 30-40% of their workday moving a mouse, creating cumulative strain that leads to repetitive strain injury (RSI). The right ergonomic mouse can eliminate wrist pain entirely by supporting your hand in a neutral position, reducing pronation (palm-down rotation), and distributing pressure across a larger surface area. This guide compares mouse designs specifically chosen for developers who experience wrist pain and need long-term solutions.
 
+## Key Takeaways
+
+- **Developers spend 30-40% of**: their workday moving a mouse, creating cumulative strain that leads to repetitive strain injury (RSI).
+- **Most developers report 70%**: pain reduction.
+- **An ergonomic mouse works**: best with a properly adjusted workstation where elbows rest at 90° to your torso.
+- **Keyboard shortcuts**: Reduce mouse usage by 20-30% through keyboard navigation.
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **This dramatically reduces pronation**: and is the most recommended design by occupational therapists.
+
 ## Why Standard Mice Cause Wrist Pain
 
 A traditional mouse forces your hand into pronation—your palm faces down, twisting your wrist slightly inward. This position strains the flexor and extensor tendons, and after 8+ hours daily, that strain accumulates into chronic pain. The problem compounds if you use a mouse pad without wrist support, forcing your wrist to bend upward (extension) in addition to the pronation.

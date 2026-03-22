@@ -31,6 +31,16 @@ tags: [remote-work-tools, best-of, remote-work, api]---
 
 Treat API documentation as code by storing it in version control and automating generation from code annotations using OpenAPI specifications. This approach keeps documentation current with your codebase and lets distributed teams review changes through pull requests, making it the best practice for remote engineering teams. Document every endpoint with exact parameters, example requests/responses, and authentication requirements—then automate deployment of your OpenAPI spec to a tool like Swagger UI so developers can explore it interactively.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **URL versioning (e.g.**: `/api/v1/users`) works well for most REST APIs because it is explicit and easy to understand.
+- **Several open-source options work**: well for this use case.
+- **The best tool depends**: on your team's existing tools and preferences.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Purpose**: What does this endpoint accomplish? Why would a developer use it?
+2.
+
 ## The Documentation-as-Code Approach
 
 The most successful remote teams treat documentation as code. This means storing API documentation in version control alongside the source code, reviewing documentation changes through pull requests, and automating generation where feasible. This approach ensures documentation stays current because it lives in the same lifecycle as the code it describes.

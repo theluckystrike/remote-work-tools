@@ -218,6 +218,37 @@ Meeting scheduling tools can simplify password sharing.
 
 **Custom integrations:** Organizations with custom scheduling systems can integrate Zoom API to automatically include password in invitations.
 
+Create meetings with embedded passwords using the Zoom API, so participants never need to type a password manually:
+
+```bash
+# Create a meeting with auto-generated password via the Zoom API
+curl -s -X POST "https://api.zoom.us/v2/users/me/meetings" \
+  -H "Authorization: Bearer $ZOOM_JWT_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "topic": "Weekly Team Standup",
+    "type": 2,
+    "start_time": "2026-03-25T10:00:00Z",
+    "duration": 30,
+    "password": "TeamSync2026",
+    "settings": {
+      "join_before_host": false,
+      "waiting_room": true
+    }
+  }' | jq '{id: .id, join_url: .join_url, password: .password}'
+
+# Retrieve the direct-join URL with embedded password
+curl -s "https://api.zoom.us/v2/meetings/$MEETING_ID" \
+  -H "Authorization: Bearer $ZOOM_JWT_TOKEN" \
+  | jq '.join_url'
+
+# Update the password on an existing meeting
+curl -s -X PATCH "https://api.zoom.us/v2/meetings/$MEETING_ID" \
+  -H "Authorization: Bearer $ZOOM_JWT_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"password": "UpdatedPass2026"}'
+```
+
 ## Zoom Security Best Practices Alongside Password Management
 
 Good password practices complement broader security approaches.

@@ -31,6 +31,15 @@ Running live group sessions as a remote tutor requires a platform that handles r
 
 This guide evaluates platforms based on API capabilities, session management features, pricing structure, and developer-friendly integrations. Whether you're building a tutoring business from scratch or scaling an existing operation, these recommendations will help you choose the right tool for live group instruction.
 
+## Key Takeaways
+
+- **Paid plans start at**: $15.99/month for individual use.
+- **$salt); return simplexml_load_file($api_call); }**: ``` Pricing: Self-hosted (free) or hosted plans starting at $30/month.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **The best online teaching**: platforms for this use case share a common characteristic: they prioritize low-friction access for participants while giving tutors control over the session environment.
+- http_build_query($params) .
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+
 ## Core Requirements for Live Group Tutoring
 
 Before evaluating specific platforms, identify the technical requirements that matter most for live group sessions:

@@ -31,6 +31,15 @@ Running ethernet cable through walls and ceilings is impractical for most home o
 
 Powerline adapters are particularly useful when your home office sits far from the router. Instead of suffering weak WiFi signals or investing in mesh systems that may still struggle with concrete walls, you can use the electrical infrastructure already in your walls. This guide covers the technical fundamentals, selection criteria, and practical implementation for developers and power users setting up a reliable home office connection.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **The basic setup requires**: at least two adapters.
+- **In practice**: expect 30-60% of the rated speed depending on your electrical infrastructure.
+- **For most home office**: tasks including video calls, code repositories, and cloud development environments, a 1200 Mbps adapter provides sufficient bandwidth.
+- **Plug both into outlets**: wait 30-60 seconds, and the link light should illuminate indicating a successful connection.
+
 ## How Powerline Networking Works
 
 Powerline adapters use your home's electrical wiring to transmit network data. Each adapter plugs into a standard wall outlet and communicates with other adapters on the same electrical circuit. The technology encodes data onto electrical signals at frequencies that do not interfere with standard 50/60Hz AC power.

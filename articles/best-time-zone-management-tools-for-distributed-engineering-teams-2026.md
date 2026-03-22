@@ -27,7 +27,28 @@ score: 9
 voice-checked: true
 intent-checked: true---
 
+
 When your engineering team spans San Francisco to Singapore, timezone confusion kills productivity. Someone schedules a meeting at "9am PT" forgetting it's 1am for your Tokyo engineer. Minutes wasted on timezone math add up—a team of 10 spanning 4 timezones spends 50+ hours per quarter on timezone coordination alone. This guide compares tools built specifically for this problem: World Time Buddy ($40-480/year), Every Time Zone (free), Timezone.io ($5-50/month), and Calendly Pro ($20/month). Each tool takes different approaches—visual grids, converted time displays, async-first scheduling, or integration with existing calendar systems. Understanding their strengths and limitations helps you build meeting practices that respect everyone's sleep and optimize for actual overlap times.
+
+## Key Takeaways
+
+- **This guide compares tools**: built specifically for this problem: World Time Buddy ($40-480/year), Every Time Zone (free), Timezone.io ($5-50/month), and Calendly Pro ($20/month).
+- **Cost**: $0 (+ Calendly if already paying)
+Time saved: 10 hours/quarter
+
+Medium team (8-15 people, 3-4 timezones):
+
+Use World Time Buddy (Pro tier, $120/year) + Calendly (Pro, $20/person/month).
+- **Cost**: $300/year
+Time saved: 20-30 hours/quarter
+
+## Best Practices for Distributed Team Scheduling
+
+1.
+- **When scheduling**: open Every Time Zone, check feasibility in 10 seconds, use Calendly for actual scheduling.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **9am PT / 5pm GMT standup**: SF and London only (30 minutes, quick sync on critical blockers)
+2.
 
 ## The Cost of Timezone Confusion
 

@@ -17,6 +17,15 @@ voice-checked: true---
 
 Use GitHub Free for unlimited repositories, GitHub Projects for task management, GitHub Actions for CI/CD, and Vercel or Heroku free tiers for deployment to run side projects with zero cost. This guide shows you how to combine these free tools into a complete workflow for developing, deploying, and maintaining side projects while working full-time.
 
+## Key Takeaways
+
+- **Use GitHub Free for unlimited repositories**: GitHub Projects for task management, GitHub Actions for CI/CD, and Vercel or Heroku free tiers for deployment to run side projects with zero cost.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **The best tools are**: ones you'll actually use.
+- **Cost**: $4/month for GitHub Pro if you want more features.
+- **For CPU-heavy workloads**: upgrade to Pro ($20/month) around 500k invocations.
+- **Total realistic scaling cost**: $0-80/month depending on demand.
+
 ## Version Control and Code Hosting
 
 GitHub remains the gold standard for hosting side project code, offering unlimited public repositories with generous free tiers. For private repositories, GitHub Free provides 500MB of storage and standard CI/CD capabilities through GitHub Actions.

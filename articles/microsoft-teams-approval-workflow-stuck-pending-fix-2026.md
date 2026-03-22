@@ -195,6 +195,28 @@ When rebuilding stuck workflows or upgrading to new versions, follow structured 
 
 **Export flow definitions** as JSON for version control and documentation. Save your flow definitions in a shared repository. This enables quick recreation if a flow becomes corrupted and provides audit history of changes.
 
+Export and back up Power Automate flow definitions using the Microsoft Graph API:
+
+```bash
+# Get an access token for the Power Automate management API
+ACCESS_TOKEN=$(curl -s -X POST \
+  "https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/token" \
+  -d "client_id=$CLIENT_ID" \
+  -d "scope=https://graph.microsoft.com/.default" \
+  -d "client_secret=$CLIENT_SECRET" \
+  -d "grant_type=client_credentials" | jq -r '.access_token')
+
+# List all flows and their current status
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" \
+  "https://api.flow.microsoft.com/providers/Microsoft.ProcessSimple/environments/$ENV_ID/flows?api-version=2016-11-01" \
+  | jq '.value[] | {name: .properties.displayName, state: .properties.state}'
+
+# Export a specific flow definition for version control
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" \
+  "https://api.flow.microsoft.com/providers/Microsoft.ProcessSimple/environments/$ENV_ID/flows/$FLOW_ID?api-version=2016-11-01" \
+  | jq '.properties.definition' > "flow_backup_$(date +%Y%m%d).json"
+```
+
 **Test with realistic data** before production rollout. Use actual approval requests, not minimal test data. Test edge cases: partial information, special characters, maximum-length inputs. Failures in production often stem from insufficient test coverage.
 
 ## Performance Optimization for High-Volume Approvals

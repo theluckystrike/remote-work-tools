@@ -28,7 +28,19 @@ tags: [remote-work-tools, best-of, remote-work]
 intent-checked: true---
 
 {% raw %}
+
 Implementing effective async onboarding for distributed teams requires the right combination of self-paced learning infrastructure, progress tracking, and knowledge delivery systems. This guide evaluates the core components and patterns that make async onboarding successful, with practical implementation examples developers and power users can apply immediately.
+
+## Key Takeaways
+
+- **Instead**: use milestone-based signals at 30, 60, and 90 days:
+
+- Day 30: New hire has submitted at least one PR that was merged without major rework.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **New hires are the**: best onboarding auditors because they just experienced it without the blindspot of familiarity.
+- **Worse**: shadowing-only onboarding creates invisible dependencies: if the person being shadowed leaves, so does the knowledge they were carrying.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
 
 ## Core Requirements for Async Onboarding Platforms
 

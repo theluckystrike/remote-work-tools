@@ -29,6 +29,15 @@ voice-checked: true---
 
 Choosing hot desking software for a small hybrid team requires balancing functionality against complexity. Teams under 100 employees typically need straightforward desk booking without enterprise-level price tags or over-engineered features. This guide evaluates solutions that actually work for small to medium-sized hybrid offices.
 
+## Key Takeaways
+
+- **A $10/month increase in**: platform cost can translate to $50,000+ in real estate savings through better utilization insights.
+- **Pricing**: Robin offers tiered pricing starting around $8-12 per user monthly for basic features, with more advanced analytics and integrations at higher tiers.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Pricing**: Envoy's desk booking starts around $5-8 per user monthly, making it competitive for small teams.
+- **Pricing**: Teem pricing typically runs $6-10 per user monthly, positioning it in the mid-range for small team solutions.
+- **Pricing**: Skedda's pricing is competitive for small teams, with plans starting around $5 per user monthly.
+
 ## Why Small Teams Need Specialized Desk Booking
 
 Hybrid offices with under 100 employees face unique challenges that enterprise solutions often overlook. You need enough desk availability management to prevent conflicts, but you probably lack dedicated IT staff to manage complex integrations. The ideal solution offers features without requiring a full-time administrator.

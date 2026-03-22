@@ -29,6 +29,15 @@ tags: [remote-work-tools, best-of]---
 
 Finding the right freelance platform directly impacts your ability to secure consistent work and command fair rates as a software developer. With numerous options available, understanding which platforms align with your specialization, workflow, and business goals helps you make informed decisions about where to invest your time.
 
+## Key Takeaways
+
+- **Rate expectations**: Most Toptal developers charge $60-200+ per hour, with enterprise clients willing to pay premium rates for matched expertise.
+- **Fee structure**: Upwork takes 10% for invoices over $500, 20% for $250-500, and 27% for under $250.
+- **But understanding which tools**: successful freelancers use helps your business operations.
+- **A developer in Southeast**: Asia charging $50/hr has less competition than one charging $30/hr.
+- **A $5,000 project becomes**: five $1,000 milestones.
+- **Platforms support this**: but it burns the client relationship permanently—only use for clear non-payment.
+
 ## Understanding Platform Types
 
 Freelance platforms fall into three main categories, each with distinct advantages for developers.

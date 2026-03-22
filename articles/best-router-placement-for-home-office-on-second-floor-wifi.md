@@ -17,6 +17,15 @@ voice-checked: true---
 
 Setting up reliable WiFi for a second floor home office requires understanding how radio waves propagate through your living space. Most routers broadcast in a roughly spherical pattern, which means ground floor placement often leaves upper floors with weak signals. This guide covers practical strategies for developers and power users who need consistent, low-latency connections for video calls, code deployments, and remote collaboration.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **The 2.4 GHz band**: penetrates obstacles better than 5 GHz, but offers lower speeds.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Most routers broadcast in**: a roughly spherical pattern, which means ground floor placement often leaves upper floors with weak signals.
+- **For a two-story home**: with a second-floor office, place the primary node on the first floor and at least one satellite on the second floor.
+
 ## Understanding Signal Propagation in Multi-Story Homes
 
 WiFi signals travel differently than wired ethernet. They attenuate through walls, reflect off metal objects, and lose strength as they pass through floors. The 2.4 GHz band penetrates obstacles better than 5 GHz, but offers lower speeds. For a second floor office, you have three primary approaches: optimal single-router placement, wired access point deployment, or mesh network installation.

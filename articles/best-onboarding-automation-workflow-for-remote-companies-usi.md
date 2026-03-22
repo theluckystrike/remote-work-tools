@@ -31,6 +31,15 @@ Automating employee onboarding for remote teams eliminates repetitive manual tas
 
 This guide walks through building a practical onboarding automation system using Slack's API and Notion's database capabilities. You'll find code examples that work with existing tools, making this approach accessible for teams with moderate technical capacity.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **We recommend using Bolt.js**: (Slack's official Node.js framework) for building interactive bot experiences.
+- **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
+
 ## Why Slack + Notion for Onboarding
 
 Slack serves as the central communication hub for most remote companies, making it the natural place to deliver onboarding tasks and notifications. Notion excels at documentation, database management, and creating structured templates that can dynamically populate based on role or department.

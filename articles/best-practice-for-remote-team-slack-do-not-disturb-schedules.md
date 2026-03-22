@@ -31,6 +31,16 @@ voice-checked: true---
 
 Remote teams spanning multiple time zones face a unique challenge: staying connected without sacrificing work-life balance. Slack's Do Not Disturb (DND) feature, when configured thoughtfully, becomes a powerful tool for respecting personal boundaries while maintaining asynchronous collaboration. This guide covers practical strategies for implementing DND schedules that work across time zones.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- Select Preferences > Notifications
+3.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+- **For remote teams**: the key is understanding how to configure both individual preferences and team-wide settings that accommodate diverse geographical distributions.
+- **Use Slack's scheduling feature**: to deliver messages during recipients' business hours.
+
 ## Understanding Slack DND for Remote Teams
 
 Slack's Do Not Disturb feature silences notifications during specified hours. For remote teams, the key is understanding how to configure both individual preferences and team-wide settings that accommodate diverse geographical distributions.

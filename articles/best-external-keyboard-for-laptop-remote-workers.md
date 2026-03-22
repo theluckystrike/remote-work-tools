@@ -19,6 +19,15 @@ When you're working from home full-time, your keyboard becomes your primary inte
 
 This guide focuses on what matters for developers and power users: switch types, ergonomics, connectivity, and practical features that integrate with development workflows.
 
+## Key Takeaways
+
+- **PBT keycaps ($30-50) resist**: fading better than ABS.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Tenkeyless remains popular among**: developers—enough keys for daily work while freeing desk space for mouse movement.
+- **60% layouts maximize desk**: real estate but require function-layer navigation for keys like Delete, Home, and arrows.
+- **PBT keycaps resist this**: better than ABS plastic, making them worthwhile for long-term use.
+- **Hot-swap keyboards allow removing**: and replacing individual switches ($0.50-2 each).
+
 ## Why Laptop Keyboards Fall Short
 
 Most laptop keyboards use membrane or scissor-switch mechanisms with shallow travel depth—typically 1-2mm compared to the 3.5-4mm found on dedicated keyboards. This shallow travel reduces tactile feedback, leading to more typing errors and finger fatigue during extended sessions.

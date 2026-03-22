@@ -16,6 +16,18 @@ voice-checked: true---
 
 Use a four-stage pipeline — local validation, CI testing, staged deployment, and production approval gate — with GitHub Actions environment protection requiring one peer approval before any production push. This workflow gives a three-person remote infrastructure team enough automation to deploy safely across time zones while keeping human oversight where it matters. Pair it with weekly deployment rotation and async runbooks stored in your infrastructure repo so the on-call engineer can execute confidently without hunting for context in Slack.
 
+## Key Takeaways
+
+- **Confirm backup completion**: `aws s3 ls s3://backups/$(date +%Y-%m-%d)/`
+
+## Execution
+1.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Scheduled deployment windows. Agree**: on overlapping hours when at least two team members are available.
+
 ## Core Principles for Small Remote Teams
 
 Before exploring implementation, establish the principles that guide your workflow. Small teams benefit from explicit conventions that larger teams might handle through process overhead.
