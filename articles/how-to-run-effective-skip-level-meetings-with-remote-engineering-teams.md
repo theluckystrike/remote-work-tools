@@ -51,7 +51,17 @@ Now imagine that same engineer gets 30 minutes directly with a senior engineerin
 
 Beyond problem-solving, these meetings serve a retention function. Engineers want to feel seen by leadership. A 30-minute conversation where someone senior listens to their challenges communicates that their work matters.
 
-## Structuring Your Skip Level Meeting Process
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Structuring Your Skip Level Meeting Process
 
 ### Phase 1: Async Preparation
 
@@ -149,7 +159,7 @@ Thanks for our conversation! Here's what I'm actioning:
 If anything else comes up before our next sync, feel free to ping me directly.
 ```
 
-## Common Challenges and Solutions
+### Step 2: Common Challenges and Solutions
 
 ### Challenge: Time Zone Coordination
 
@@ -192,7 +202,7 @@ Engineering managers are busy. It's tempting to deprioritize skip level meetings
 
 Protect these meetings on your calendar as you would a board meeting or customer demo. The ROI is measurable: teams with regular skip level meetings report higher engagement scores and lower voluntary turnover.
 
-## Measuring Effectiveness
+### Step 3: Measuring Effectiveness
 
 Track a few simple metrics to understand if your skip level program works:
 
@@ -201,7 +211,7 @@ Track a few simple metrics to understand if your skip level program works:
 - Meeting effectiveness survey: After each meeting, ask: "Was this valuable? What would make it more useful?"
 - Engagement correlation: Compare engagement scores for engineers who've had skip levels vs. those who haven't
 
-## Creating Your Skip Level Program Calendar
+### Step 4: Create Your Skip Level Program Calendar
 
 Develop a sustainable rotation that covers your team:
 
@@ -253,19 +263,19 @@ const scheduler = new SkipLevelScheduler(engineers, 'quarterly');
 const q2Schedule = scheduler.generateSchedule(new Date('2026-04-01'));
 ```
 
-## Structured Action Item Tracking
+### Step 5: Structured Action Item Tracking
 
 After meetings, systematically track what you committed to:
 
 ```markdown
 # Skip Level Action Items
 
-## Status Overview
+### Step 6: Status Overview
 - Open: 8
 - In Progress: 3
 - Completed: 24
 
-## By Engineer
+### Step 7: By Engineer
 
 ### Alex Chen (Last meeting: 2026-03-15)
 - [ ] **OPEN** - Discuss API documentation issue with platform team (Due: 2026-03-22)
@@ -276,12 +286,12 @@ After meetings, systematically track what you committed to:
 - [ ] **OPEN** - Research async testing framework options (Due: 2026-03-24)
 - [x] **COMPLETED** - Brought up code review process at eng leadership (Completed: 2026-03-17)
 
-## Leadership Follow-up
+### Step 8: Leadership Follow-up
 This week: 2 action items to update, 1 needs escalation
 Next week: Quarterly review of open items - close or re-prioritize
 ```
 
-## Common Skip Level Meeting Scenarios and Responses
+### Step 9: Common Skip Level Meeting Scenarios and Responses
 
 **Scenario: Engineer mentions they're job hunting**
 
@@ -319,7 +329,7 @@ Response approach:
 4. Don't investigate yourself—let proper channels handle it
 5. Maintain confidentiality while getting support in place
 
-## Building a Sustainable Program
+### Step 10: Build a Sustainable Program
 
 Start small. Pick two or three engineers to pilot skip level meetings over two months. Learn what works, refine your process, then expand to the full team.
 
@@ -332,39 +342,54 @@ Example sustainable schedule for growing team:
 
 The key is consistency. Engineers quickly learn whether skip level meetings lead to real change or just leadership theater. When they see action on their feedback, the meetings become something they look forward to rather than dread.
 
-## Measuring Long-term Impact
+### Step 11: Measuring Long-term Impact
 
 After 6 months of skip level meetings, measure their ROI:
 
 ```markdown
 # Skip Level Program Impact Analysis
 
-## Retention
+### Step 12: Retention
 - Q1 voluntary attrition: 8% (3 people)
 - Q2 voluntary attrition: 5% (1 person)
 - Improvement: -60% attrition rate
 
-## Issues Surfaced
+### Step 13: Issues Surfaced
 - Critical blockers identified: 12
 - Resolved without escalation: 8 (67%)
 - Required executive intervention: 4 (33%)
 
-## Engagement Scores
+### Step 14: Engagement Scores
 - Engineering team NPS: +45 (pre-program: 32, post-program: 77)
 - "I feel heard by leadership" score: 3.2 → 4.1 (1-5 scale)
 
-## Team Improvements
+### Step 15: Team Improvements
 - Code review process improvements: 3 implemented
 - Tooling requests: 5 (2 approved and implemented)
 - Career development: 4 engineers in formal mentorship
 
-## Time Investment
+### Step 16: Time Investment
 - Total hours: 18 hours (1-2 per engineer × 12 engineers)
 - Cost per retention prevented: ~$25K (assuming replacement cost $150K)
 - ROI: 6:1 on time invested
 ```
 
 Done right, skip level meetings transform how your remote engineering team communicates upward and how leadership understands what's actually happening in the code.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

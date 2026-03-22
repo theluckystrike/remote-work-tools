@@ -30,7 +30,17 @@ This guide covers practical strategies for making async standups work for your t
 - **Best for open-source and**: developer-heavy teams; less suitable for non-technical stakeholders.
 - **Use threads if clarification is needed**: but allow others to read and respond on their own schedule.
 
-## The Core Problem with Synchronous Standups
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Problem with Synchronous Standups
 
 A typical standup wastes more than 15 minutes per person. Multiply by team size: a six-person team spends roughly 90 person-minutes daily on updates that could be read asynchronously. The real cost compounds when you factor in context-switching—research shows it takes 23 minutes to refocus after an interruption.
 
@@ -42,23 +52,23 @@ For remote teams, synchronous standups create additional friction:
 
 Async text updates address these issues directly.
 
-## Structuring Effective Async Standups
+### Step 2: Structuring Effective Async Standups
 
 The key to replacing daily standups is maintaining the core value—sharing progress, plans, and blockers—while eliminating the synchronous overhead. Here's a practical template your team can adapt:
 
 ```
-## Yesterday
+### Step 3: Yesterday
 - Completed feature X implementation
 - Reviewed PR #123 for team member
 
-## Today
+### Step 4: Today
 - Starting integration work for feature Y
 - Waiting on API specs from backend team
 
-## Blockers
+### Step 5: Blockers
 - None
 
-## Notes
+### Step 6: Notes
 - Found a bug in the payment flow, created issue #456
 ```
 
@@ -81,7 +91,7 @@ client.chat_postMessage(
 
 The goal is consistency without rigidity. Updates should feel like a helpful habit, not a compliance chore.
 
-## Tools and Platforms
+### Step 7: Tools and Platforms
 
 Your existing tools probably support async standups without additional software:
 
@@ -92,7 +102,7 @@ Notion/Confluence: A shared database with properties for date, team member, and 
 GitHub Projects: Add a weekly status comment to relevant issues. This ties updates directly to work items:
 
 ```markdown
-## Weekly Update - Week of March 16
+### Step 8: Weekly Update - Week of March 16
 
 **Completed:**
 - #45 User authentication flow
@@ -106,7 +116,7 @@ GitHub Projects: Add a weekly status comment to relevant issues. This ties updat
 
  dedicated tools: Range, Daily, and Standuply offer structured templates and reminders. However, most teams succeed with simpler solutions first.
 
-## Making Async Standups Stick
+### Step 9: Making Async Standups Stick
 
 Transitioning from synchronous to async updates requires intentional change management. Here are strategies that work:
 
@@ -126,7 +136,7 @@ If someone posts an update, resist replying immediately with questions. Use thre
 
 Track time saved and share improvements. "We reclaimed 90 person-minutes daily" is more convincing than "async standups are better."
 
-## When Synchronous Check-ins Still Work
+### Step 10: When Synchronous Check-ins Still Work
 
 Async standups aren't universal. Some situations benefit from real-time conversation:
 
@@ -136,7 +146,7 @@ Async standups aren't universal. Some situations benefit from real-time conversa
 
 The goal isn't eliminating all synchronous communication—it's eliminating unnecessary meetings. Consider a hybrid approach: async updates daily, weekly synchronous optional check-ins for relationship building.
 
-## Common Pitfalls to Avoid
+### Step 11: Common Pitfalls to Avoid
 
 Async standups fail when teams treat them as micromanagement tools. Avoid these mistakes:
 
@@ -174,52 +184,52 @@ The basic Yesterday/Today/Blockers template works for most teams. Here are varia
 **For Backend/Infrastructure Teams (with metrics focus):**
 
 ```markdown
-## Key Metrics
+### Step 12: Key Metrics
 - Deployment success rate: 99.7%
 - P95 API latency: 245ms (up 15ms from yesterday)
 - Database connection pool usage: 65%
 
-## Completed
+### Step 13: Completed
 - Optimized user authentication index
 - Deployed hotfix for payment webhook timeout
 
-## In Progress
+### Step 14: In Progress
 - Migration to connection pooling (70% complete)
 - Performance monitoring dashboard
 
-## Blockers
+### Step 15: Blockers
 - Waiting on security review for connection pool configuration
 ```
 
 **For Product Teams (with impact focus):**
 
 ```markdown
-## Shipped Impact
+### Step 16: Shipped Impact
 - Launched feature flag UI (12 customers can now self-serve toggles)
 - Resolved critical UX bug in checkout (impacting 3% of conversions)
 
-## In Motion
+### Step 17: In Motion
 - Customer research interviews: 8/12 scheduled
 - Design review for dashboard redesign
 
-## Blocked
+### Step 18: Blocked
 - Need clarity on data retention policy for analytics features
 ```
 
 **For Distributed Async Teams (with timezone notes):**
 
 ```markdown
-## Status [Your Timezone - UTC+0]
+### Step 19: Status [Your Timezone - UTC+0]
 - Yesterday: Code review cycle (8 PRs), merged baseline refactor
 - Today: Start auth integration, available until 14:00 UTC
 - Blockers: None
 
-## Context for Other Timezones
+### Step 20: Context for Other Timezones
 - The auth integration I'm starting today uses the new patterns @asia-team established last week—thanks for the documentation
 - Will leave my PR comments for review during your working hours
 ```
 
-## Measuring Success
+### Step 21: Measuring Success
 
 Track these metrics to evaluate your async standup practice:
 
@@ -231,7 +241,7 @@ Track these metrics to evaluate your async standup practice:
 
 Most teams find async updates improve within the first month. Adjust your approach based on what you learn. Set a baseline measurement before switching from synchronous to async—then measure the same metrics 30 and 90 days later to quantify improvements.
 
-## Implementation Checklist
+### Step 22: Implementation Checklist
 
 Ready to make the switch? Here's a practical starting point:
 
@@ -248,6 +258,21 @@ After two weeks, gather feedback and refine your process. There's no perfect tem
 ---
 
 Async text updates transform daily standups from a mandatory meeting into a flexible, asynchronous practice that respects time zones, preserves focus time, and creates useful documentation. Start simple, stay consistent, and adjust based on what your team actually needs.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

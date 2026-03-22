@@ -40,13 +40,23 @@ Remote developers spend countless hours staring at screens. Whether you're debug
 - **The Samsung CRG5 ($300-400)**: and Dell S2721DGF ($400-500) are popular among developers.
 - **The LG 34UP550 ($700-900)**: ultrawide curved offers excellent ergonomics for code review and multi-window work.
 
-## Understanding Eye Strain in Remote Work
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Eye Strain in Remote Work
 
 Eye strain occurs when your eyes tire from intense use. For developers, the culprits are well-known: prolonged screen time, inadequate lighting, poor display settings, and insufficient breaks. Unlike acute injuries, eye strain builds gradually. You might notice symptoms like dry eyes, headaches, blurred vision, or neck pain after hours of coding.
 
 The challenge for remote developers is that your workspace often lacks the ergonomic setup of a professional office. You control your environment, but that means you're responsible for optimizing it. Fortunately, small adjustments yield significant improvements.
 
-## Display Settings That Protect Your Eyes
+### Step 2: Display Settings That Protect Your Eyes
 
 Your monitor settings form the first line of defense against eye strain. Most operating systems now include built-in tools to reduce blue light and adjust color temperature.
 
@@ -82,7 +92,7 @@ Enable font ligatures in your editor. Ligatures like `->`, `=>`, and `!=` render
 }
 ```
 
-## Terminal Colors and Contrast
+### Step 3: Terminal Colors and Contrast
 
 Your terminal affects your eyes more than you might realize. High contrast without being harsh reduces strain during long debugging sessions.
 
@@ -98,7 +108,7 @@ colorscheme solarized
 
 Consider using low-contrast color schemes specifically designed for extended use. Solarized, Gruvbox, and Nord themes balance readability with reduced eye fatigue.
 
-## The 20-20-20 Rule and Scheduled Breaks
+### Step 4: The 20-20-20 Rule and Scheduled Breaks
 
 The 20-20-20 rule is simple: every 20 minutes, look at something 20 feet away for 20 seconds. This gives your eye muscles a chance to relax from focusing on close-up code.
 
@@ -115,7 +125,7 @@ done
 
 Tools like Stretchly, BreakTimer, or VS Code extensions like Standup reminder automate these breaks. Some developers use smart LED bulbs that gradually dim to signal break times.
 
-## Lighting Your Workspace Properly
+### Step 5: Lighting Your Workspace Properly
 
 Proper lighting eliminates the contrast between your screen and surroundings. A dim screen in a bright room or a bright screen in a dark room creates eye strain.
 
@@ -129,7 +139,7 @@ Avoid working in darkness. Ambient light at roughly half your screen brightness 
 
 Some developers invest in bias lighting—LED strips behind the monitor that illuminate the wall behind the screen. This reduces the stark brightness difference between your screen and the dark wall.
 
-## Blue Light and Screen Filters
+### Step 6: Blue Light and Screen Filters
 
 Blue light contributes to digital eye strain. While research on blue light's long-term effects continues, reducing exposure certainly helps during evening coding sessions.
 
@@ -147,7 +157,7 @@ Most operating systems include blue light filters. Enable them and set a schedul
 
 For browser-based work, extensions like f.lux or built-in dark modes help. Many code editors and terminals support dark themes by default.
 
-## Consider Hardware Solutions
+### Step 7: Consider Hardware Solutions
 
 While software solutions help, hardware improvements offer lasting benefits.
 
@@ -157,7 +167,7 @@ Anti-glare screens: Matte screen protectors reduce reflections, especially in ro
 
 Quality displays: IPS panels generally offer better viewing angles and color accuracy than TN panels, reducing the need to tilt your head or strain to see content.
 
-## Eye Care Habits for Developers
+### Step 8: Eye Care Habits for Developers
 
 Beyond environmental adjustments, develop habits that protect your vision.
 
@@ -166,7 +176,7 @@ Beyond environmental adjustments, develop habits that protect your vision.
 - Annual eye exams: Regular checkups catch issues early. Discuss your screen time with your eye doctor.
 - Correct prescription: Outdated prescriptions force your eyes to work harder. Update glasses or contacts as needed.
 
-## Specialized Eyewear for Screen Work
+### Step 9: Specialized Eyewear for Screen Work
 
 Consider investing in computer-specific eyewear. These lenses include blue light filtering and are optimized for the distance at which you work (usually 60-70 cm away):
 
@@ -182,7 +192,7 @@ Developer-specific frames from tech companies:
 
 For contact lens users, consider specialized daily disposables designed for extended screen time. Dailies Aqua Comfort Plus and Acuvue Oasys specifically market reduced eye strain from improved moisture retention.
 
-## Monitor Distance and Positioning
+### Step 10: Monitor Distance and Positioning
 
 The 20-20-20 rule works better when your monitor position is ergonomic:
 
@@ -224,7 +234,7 @@ Matte screens reduce reflections and glare, particularly important for home offi
 **4K Resolution at 27" or Larger:**
 Smaller text on 1080p 24" monitors forces harder focusing. Moving to 1440p or 2160p allows you to increase IDE font size while maintaining more code on screen. The Dell U2720Q ($600-700) offers excellent 4K ergonomics for developers.
 
-## Software Configuration Beyond Display Settings
+### Step 11: Software Configuration Beyond Display Settings
 
 Your IDE and terminal settings can significantly impact eye strain:
 
@@ -270,7 +280,7 @@ Preferences > Profiles > Window > Transparency: 15%
 # Inconsolata (free) size 13
 ```
 
-## Lighting Optimization in Detail
+### Step 12: Lighting Optimization in Detail
 
 Beyond basic ambient lighting, consider these advanced setups:
 
@@ -302,7 +312,7 @@ schedule = {
 # Correlates with circadian rhythm, reducing eye strain throughout day
 ```
 
-## Break Automation Tools
+### Step 13: Break Automation Tools
 
 Manual breaks fail because they interrupt flow. Use tools that interrupt at scheduled times:
 
@@ -329,7 +339,7 @@ Configuration example:
 }
 ```
 
-## Nutritional Support for Eye Health
+### Step 14: Nutritional Support for Eye Health
 
 While not directly related to workplace ergonomics, nutrition affects eye function:
 
@@ -341,7 +351,7 @@ While not directly related to workplace ergonomics, nutrition affects eye functi
 
 None of these are magic bullets, but combined with proper ergonomics, they support your eyes through long coding sessions.
 
-## Testing Your Current Setup
+### Step 15: Test Your Current Setup
 
 Before investing in hardware, audit your current situation:
 
@@ -370,6 +380,21 @@ Most developers find that 2-3 targeted changes eliminate 70-80% of eye strain. C
 - Curved monitor + proper contrast theme + workspace reorganization
 
 Track what works for you and iterate.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

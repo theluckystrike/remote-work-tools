@@ -537,7 +537,17 @@ Synchronous book clubs force everyone to meet at a specific time — often early
 - Permanent discussion archive: Every insight is documented and searchable
 - Inclusive time zones: No one has to attend at 7 AM or 9 PM
 
-## Setting Up Your Async Book Club Framework
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Your Async Book Club Framework
 
 ### Phase 1: Initial Setup (Week 1)
 
@@ -553,7 +563,7 @@ Before launching, establish the foundation:
 Each week's discussion should follow a consistent structure. Create a Slack thread or Notion page with these sections:
 
 ```
-## Week X: [Chapter/Part Title]
+### Step 2: Week X: [Chapter/Part Title]
 ### Key Themes
 - Theme 1
 - Theme 2
@@ -578,7 +588,7 @@ Here's a sample weekly schedule that works across time zones:
 | Friday | Summary post highlighting best insights |
 | Weekend | Optional async social chat about non-book topics |
 
-## Tools and Automation
+### Step 3: Tools and Automation
 
 ### Recommended Tool Stack
 
@@ -766,7 +776,7 @@ if __name__ == "__main__":
     print("Usage: python discussion_summarizer.py <slack_export.json>")
 ```
 
-## Measuring Success
+### Step 4: Measuring Success
 
 Track these metrics to ensure your async book club is delivering value:
 
@@ -777,7 +787,7 @@ Track these metrics to ensure your async book club is delivering value:
 | Implementation ideas | >3 per book | Number of actionable ideas generated |
 | Net Promoter Score | >7 | "Would you recommend this book club?" |
 
-## Common Pitfalls and Solutions
+### Step 5: Common Pitfalls and Solutions
 
 ### Problem: Low engagement after initial excitement
 Solution: Keep discussions focused on practical applications. Engineers want to know "how does this help our work?" not just abstract concepts.
@@ -791,7 +801,7 @@ Solution: Rotate book selection authority. Let different team members choose, wi
 ### Problem: Async fatigue
 Solution: Limit required reading to 30 minutes per week. Make participation optional but encouraged. Never make it feel like another meeting.
 
-## Book Recommendations for Engineering Teams
+### Step 6: Book Recommendations for Engineering Teams
 
 Start with these titles that work well for async discussion:
 
@@ -834,6 +844,21 @@ Here's your quick-start checklist:
 
 
 **
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

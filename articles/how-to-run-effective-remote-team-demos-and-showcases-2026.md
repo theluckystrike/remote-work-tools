@@ -41,7 +41,7 @@ This guide covers how to run effective demos and showcases for distributed teams
 - **"This saves 30 seconds**: per user per action." End with a specific feedback question.
 - **If feedback led to a change, tell people**: "Based on demo feedback, we're changing X."
 
-## Real-World Examples
+### Step 1: Real-World Examples
 
 ### Example 1: Weekly Demo Days (Colocated-ish Team)
 
@@ -55,7 +55,7 @@ Remote work isolates people. You don't see coworkers in the office hallway, don'
 
 Good demo culture also drives work quality. If you know your work will be demoed, you care more about the details. If the team celebrates wins, people stay longer. If feedback from demos shapes future work, people feel heard.
 
-## The Synchronous Live Demo
+### Step 2: The Synchronous Live Demo
 
 The simplest format: everyone joins a call, someone shares their screen, demo runs for 10-15 minutes, Q&A for 5 minutes.
 
@@ -94,7 +94,7 @@ Rotate demo times so different zones get unsleepy times. If you're a global team
 
 Offer async viewing for anyone who can't join live. Record the demo and send it out.
 
-## The Asynchronous Recorded Demo
+### Step 3: The Asynchronous Recorded Demo
 
 Record a 5-15 minute screencast, post it for people to watch when they have time, collect feedback async.
 
@@ -139,7 +139,7 @@ Pin the feedback question. "Feedback deadline: Friday EOD."
 
 Send a Slack notification to specific people whose feedback you need. Don't expect people to find it without a nudge.
 
-## The Showcase Event
+### Step 4: The Showcase Event
 
 A monthly or quarterly event where 5-10 people demo work. More formal than weekly demos, longer format (60-90 minutes), broader audience.
 
@@ -178,7 +178,7 @@ Have a tech person monitoring screen sharing and handling transitions between pr
 
 Record the whole event and post it within 24 hours for anyone who couldn't attend.
 
-## Collecting Feedback on Demos
+### Step 5: Collecting Feedback on Demos
 
 The demo ends; then what? Most feedback is lost. Here's how to actually collect and act on it.
 
@@ -206,7 +206,7 @@ Create a simple spreadsheet: demo, feedback category, response needed, owner. Sh
 
 Close the loop. If you collect feedback and don't act on it, future feedback won't come. If feedback led to a change, tell people: "Based on demo feedback, we're changing X."
 
-## Real-World Examples
+### Step 6: Real-World Examples
 
 ### Example 1: Weekly Demo Days (Colocated-ish Team)
 
@@ -257,7 +257,7 @@ Team spanning 15+ timezones. No good overlap time exists. Weekly async demos ins
 
 **Make it work:** Have monthly or quarterly live showcases to maintain synchronous connection, even if most demos are async.
 
-## Tools for Remote Demos
+### Step 7: Tools for Remote Demos
 
 | Tool | Purpose | Price | Best for |
 |------|---------|-------|----------|
@@ -269,7 +269,7 @@ Team spanning 15+ timezones. No good overlap time exists. Weekly async demos ins
 | **Slite/Notion** | Demo documentation, written summaries | $4-10/user/mo | Organized demo archives |
 | **Typeform** | Feedback collection forms | Free or paid | Structured post-demo feedback |
 
-## Tips for Reducing Demo Anxiety
+### Step 8: Tips for Reducing Demo Anxiety
 
 Public speaking is stressful, especially on video. Here's how to make demoing less scary:
 
@@ -291,7 +291,7 @@ Normalize imperfection. "I'm going to mess up. That's cool. Let's see what we le
 
 Mentor new presenters. If someone's not great at demos, help them practice. This investment pays back long-term.
 
-## Running Demos in Different Business Contexts
+### Step 9: Run Demos in Different Business Contexts
 
 **For product teams:** Demo new features, show customer feedback, explain trade-off decisions.
 
@@ -304,6 +304,21 @@ Mentor new presenters. If someone's not great at demos, help them practice. This
 **For support/ops teams:** Demo new processes, documentation improvements, tooling changes.
 
 Each context has different audiences. Tailor the demo to what matters to them. Engineers care about architecture and performance. Product cares about user impact. Leadership cares about business outcomes.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

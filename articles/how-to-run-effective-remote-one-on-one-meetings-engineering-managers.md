@@ -41,7 +41,17 @@ In-office management has built-in context. You overhear problems, notice someone
 
 4. **Psychological safety requires explicit signals.** Remote settings make people more cautious. Your 1:1 structure needs to clearly communicate that this is a safe space for honest feedback and concerns.
 
-## Pre-1:1 Async Preparation
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Pre-1:1 Async Preparation
 
 Prepare every 1:1 the day before or morning-of. Spend 10-15 minutes reviewing context.
 
@@ -52,7 +62,7 @@ Create a simple template in your note-taking system (Notion, Obsidian, or even G
 ```
 # 1:1 Prep — [Engineer Name] — [Date]
 
-## Recent Context (from last week)
+### Step 2: Recent Context (from last week)
 - What project is this person working on?
 - Did they mention any blockers last week?
 - Have I seen PRs/commits from them?
@@ -61,18 +71,18 @@ Create a simple template in your note-taking system (Notion, Obsidian, or even G
 - Positive: [Specific behavior/outcome observed]
 - Concern: [If any — specific situation, not personality judgment]
 
-## Topics to Cover
+### Step 3: Topics to Cover
 - [ ] Ongoing project status (2 min)
 - [ ] One blocker/challenge to discuss (5 min)
 - [ ] Feedback on [specific recent work] (5 min)
 - [ ] Career growth: [topic] (10 min)
 - [ ] Open floor for their priorities (5 min)
 
-## Follow-up Items from Last 1:1
+### Step 4: Follow-up Items from Last 1:1
 - [ ] Did they resolve [previous blocker]?
 - [ ] Have they followed up on [previous action item]?
 
-## Notes
+### Step 5: Notes
 [Space for during-1:1 notes]
 ```
 
@@ -100,7 +110,7 @@ Where to find context for your checklist:
 
 Total prep time: 3-5 minutes if you're systematic.
 
-## Scheduled 1:1 Structure: 30-Minute Format
+### Step 6: Scheduled 1:1 Structure: 30-Minute Format
 
 A 30-minute 1:1 is standard for engineers. Here's the breakdown:
 
@@ -127,7 +137,7 @@ Reserve 8-10 minutes every other week for career conversation. Spending this tim
 **22:00-30:00 — Action Items and Closing**
 "What will you do this week? What will I do?" Write it down. Publish the notes (via email or Slack) within 30 minutes. Engineer should see that you're tracking their growth, not just checking a box.
 
-## Feedback Framework for Remote Delivery
+### Step 7: Feedback Framework for Remote Delivery
 
 Negative feedback over video is harder than in person. You can't read tone as clearly. Use the Situation-Behavior-Impact (SBI) framework:
 
@@ -146,7 +156,7 @@ This approach is:
 Bad remote feedback: "You need to pay more attention. You shipped a bug."
 Good remote feedback: [SBI framework above]
 
-## Tools for Effective Remote 1:1s
+### Step 8: Tools for Effective Remote 1:1s
 
 **Note-taking:**
 - Obsidian with date-based folders (free, local, can link across notes)
@@ -170,7 +180,7 @@ Pro tip: Block 1:1s at the same time weekly (e.g., "Every Tuesday 2pm"). Enginee
 
 Pro tip: Let the engineer choose the medium. Some prefer quick voice calls over video. Reduce friction; maximize engagement.
 
-## Career Development Templates
+### Step 9: Career Development Templates
 
 Career conversations are where remote managers fail most. Without hallway time, engineers don't see promotion paths naturally. Proactively discuss careers.
 
@@ -179,7 +189,7 @@ Career conversations are where remote managers fail most. Without hallway time, 
 Every quarter, dedicate a 1:1 to:
 
 ```
-## Career Development Check-in — [Engineer] — [Date]
+### Step 10: Career Development Check-in — [Engineer] — [Date]
 
 ### Current Role Satisfaction
 1. On a scale of 1-10, how satisfied are you in your current role? [Score]
@@ -207,7 +217,7 @@ Share this template with the engineer beforehand. Let them prep answers. This ma
 If an engineer might be ready for advancement, formalize the criteria:
 
 ```
-## Promotion Readiness — [Name] — [Target Level]
+### Step 11: Promotion Readiness — [Name] — [Target Level]
 
 ### Technical Competence (Current vs. Target)
 - Coding quality: Current [Senior], Target [Staff]
@@ -234,7 +244,7 @@ If an engineer might be ready for advancement, formalize the criteria:
 
 Before a promotion conversation, fill this out. Share it with the engineer. Promotion becomes a shared goal, not a surprise decision at review time.
 
-## Difficult Conversation Framework for Remote 1:1s
+### Step 12: Difficult Conversation Framework for Remote 1:1s
 
 Performance issues in remote environments can fester. Address them quickly with structured conversation.
 
@@ -267,7 +277,7 @@ This approach:
 - Offers support
 - Has a timeline for improvement
 
-## Async 1:1s for Distributed Time Zones
+### Step 13: Async 1:1s for Distributed Time Zones
 
 If your engineer works in a different time zone, synchronous 1:1s may not be feasible.
 
@@ -302,7 +312,7 @@ if you'd like to talk through anything verbally.
 
 They respond within 24 hours. You read, add comments, schedule a brief call only if needed (often unnecessary). This preserves the relationship and growth conversation without forcing cross-timezone meetings.
 
-## Measuring 1:1 Effectiveness
+### Step 14: Measuring 1:1 Effectiveness
 
 Good 1:1s show up in downstream metrics:
 
@@ -318,7 +328,7 @@ Good 1:1s show up in downstream metrics:
 - Career conversations feel forced or brief
 - Engineer quits and says "I never knew how I was doing"
 
-## Remote 1:1 Cadence by Tenure
+### Step 15: Remote 1:1 Cadence by Tenure
 
 **New engineer (0-3 months):**
 - Weekly 1:1s (30 minutes)
@@ -342,7 +352,7 @@ Good 1:1s show up in downstream metrics:
 
 Adjust based on individual needs. A high-performer may need monthly 1:1s. Someone in transition may need weekly.
 
-## Final Note
+### Step 16: Final Note
 
 Remote 1:1s won't feel the same as in-office conversations. They're structured, deliberate, documented. This isn't a downside. It's an opportunity to be more intentional about your team's growth. The managers who build strong remote teams are the ones who systematize 1:1s—prep, feedback framework, career conversations, documentation. The managers who struggle are the ones who treat remote 1:1s as optional check-ins.
 
@@ -351,6 +361,21 @@ Make your 1:1s non-negotiable. Your engineers will grow faster, stay longer, and
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

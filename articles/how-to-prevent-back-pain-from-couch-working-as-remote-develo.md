@@ -41,7 +41,17 @@ Understanding the problem is the first step toward solving it. Couches cause bac
 
 Research indicates that improper sitting posture increases disc pressure by up to 40% compared to standing. For developers spending 8-12 hours daily at their computers, this translates to significant cumulative stress on the spinal structures.
 
-## The Better Setup: Laptop Stands and Ergonomic Positioning
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Better Setup: Laptop Stands and Ergonomic Positioning
 
 You do not need to abandon couch working entirely. With the right equipment and positioning, you can dramatically reduce the strain on your back.
 
@@ -83,7 +93,7 @@ const couchErgonomics = {
 
 A small pillow or rolled towel placed behind your lumbar spine restores your spine's natural curve. This simple addition compensates for the couch's lack of built-in support. Position it at belt-line height, where the curve of your lower back naturally occurs.
 
-## Movement Routines That Counteract Sitting Damage
+### Step 2: Movement Routines That Counteract Sitting Damage
 
 Even perfect posture becomes harmful when held too long. Movement is essential for spinal health, and developers can integrate several routines into their workflow.
 
@@ -139,7 +149,7 @@ Sometimes the couch setup is fundamentally incompatible with your health. Consid
 
 A dedicated workspace with proper ergonomic support becomes necessary when symptoms persist. This does not mean abandoning remote work—it means investing in furniture that supports your body during long work sessions.
 
-## Building Sustainable Habits
+### Step 3: Build Sustainable Habits
 
 Preventing back pain from couch working requires combining multiple strategies. No single solution provides complete protection. The most effective approach combines:
 
@@ -153,7 +163,7 @@ Start with one change this week. Add another next week. Gradually building these
 
 Your body will thank you after years of remote work. The investment in proper setup and habits pays dividends in sustained productivity and comfort throughout your career.
 
-## Equipment Recommendations and Pricing
+### Step 4: Equipment Recommendations and Pricing
 
 **Laptop Stands ($15-80):**
 - Basic stacking solution: $0-5 (use books)
@@ -183,7 +193,7 @@ Your body will thank you after years of remote work. The investment in proper se
 
 Most developers find the $100-150 "sweet spot" provides 90% of the benefit of $400+ setups.
 
-## Stretches and Exercises Specifically for Couch Workers
+### Step 5: Stretches and Exercises Specifically for Couch Workers
 
 Beyond the basic stretches, these exercises counteract couch-specific damage:
 
@@ -225,7 +235,7 @@ If you experience persistent pain despite these interventions:
 
 Consult a physical therapist ($75-150 per session) before the problem becomes chronic. Remote workers can often find telehealth PT options. Many insurance plans cover 20-30 PT sessions annually.
 
-## Building a Couch-to-Desk Transition Plan
+### Step 6: Build a Couch-to-Desk Transition Plan
 
 If pain signals that couch work isn't sustainable, transition gradually:
 
@@ -239,7 +249,7 @@ If pain signals that couch work isn't sustainable, transition gradually:
 
 This gradual transition prevents buyer's remorse and helps you identify what actually helps your specific back situation.
 
-## Creating Sustainable Long-Term Habits
+### Step 7: Create Sustainable Long-Term Habits
 
 The biggest risk with couch work setups is habit degradation. You implement good ergonomics but gradually slip back to bad habits:
 
@@ -289,7 +299,7 @@ class CouchErgonomicsTracker:
 
 Self-monitoring creates accountability. Knowing you're tracking makes you more likely to maintain good habits.
 
-## The Couch Isn't Inherently Bad
+### Step 8: The Couch Isn't Inherently Bad
 
 The real issue isn't couches specifically—it's prolonged static posture in any configuration. Developers working 8+ hours at standing desks, high chairs, or yoga balls without movement also develop problems.
 
@@ -301,6 +311,21 @@ The couch works fine if combined with:
 
 Treating couch work as temporary (not permanent workstation) reduces pain risk significantly. If you're back-to-back meetings, a permanent desk makes sense. If you're doing focused coding with occasional calls, a well-optimized couch setup works fine.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

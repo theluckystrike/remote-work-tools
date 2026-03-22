@@ -47,7 +47,17 @@ This toggles notification pausing instantly.
 - **Use these for catching**: up after focus sessions.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Understanding Notification Fatigue in Remote Work
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Notification Fatigue in Remote Work
 
 Remote developers receive an average of 50-100 Slack notifications daily across multiple channels and direct messages. Each notification triggers a micro-interruption that breaks your mental context. Research shows it takes approximately 23 minutes to regain full focus after an interruption. Multiply this by the number of notifications you receive, and you lose hours of productive time each day.
 
@@ -58,7 +68,7 @@ The challenge is especially acute for remote developers because:
 
 The solution isn't to ignore your team—it's to design systems that protect your focus while maintaining responsiveness for genuinely urgent matters.
 
-## Configure Slack Notification Settings Strategically
+### Step 2: Configure Slack Notification Settings Strategically
 
 Slack's notification settings offer more granular control than most users realize. Start here:
 
@@ -102,7 +112,7 @@ Slack's "Pause Notifications" feature provides instant relief. Use keyboard shor
 
 This toggles notification pausing instantly. Get in the habit of pausing when you start a focused work session.
 
-## use Slack's Built-In Tools for Async Communication
+### Step 3: use Slack's Built-In Tools for Async Communication
 
 ### Set Custom Statuses as Availability Signals
 
@@ -131,7 +141,7 @@ This respects recipients' focus time while ensuring your message gets delivered.
 
 Establish a channel like `#focus-time` that team members use to signal they're in deep work mode. Anyone posting there commits to not responding until they surface. This normalizes protected work time and creates accountability.
 
-## Implement Notification Batching
+### Step 4: Implement Notification Batching
 
 Rather than responding to messages immediately, batch your Slack checking:
 
@@ -157,7 +167,7 @@ Fourth check: 5:30 PM (end of day)
 
 This ensures you see urgent messages without living in Slack.
 
-## Use Integration Filters to Reduce Noise
+### Step 5: Use Integration Filters to Reduce Noise
 
 Integrations can flood Slack with notifications. Configure them strategically:
 
@@ -192,7 +202,7 @@ Don't notify every pipeline completion. Instead:
 
 Review each installed app's notification settings. Disable notifications from apps you don't actively use.
 
-## Communicate Your Availability Proactively
+### Step 6: Communicate Your Availability Proactively
 
 Setting expectations with your team makes everything easier:
 
@@ -213,7 +223,7 @@ Propose team-wide norms:
 
 Model the behavior you want to see. When you need to message a teammate, check their status first. If they're in "flow state" or marked as busy, wait or schedule your message.
 
-## Use External Tools to Enhance Focus
+### Step 7: Use External Tools to Enhance Focus
 
 While Slack has good built-in options, external tools provide additional protection:
 
@@ -225,7 +235,7 @@ Apps like [Focus](https://focusapp.io) or [RescueTime](https://rescuetime.com) c
 
 Extensions like [Slack Reader](https://readersExtension.com) let you catch up on channels without real-time notifications. Use these for catching up after focus sessions.
 
-## Measuring Your Progress
+### Step 8: Measuring Your Progress
 
 Track whether these changes improve your productivity:
 
@@ -235,6 +245,21 @@ Track whether these changes improve your productivity:
 4. Stress levels: Do you feel less overwhelmed by communication?
 
 Adjust your approach based on what works for your specific role and team.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

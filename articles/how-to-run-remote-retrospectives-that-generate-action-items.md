@@ -43,7 +43,17 @@ Remote retrospectives are critical for team improvement, but they often suffer f
 
 **This guide solves each problem** with specific techniques, templates, and tools.
 
-## Pre-Retro Preparation (The 80/20 Rule)
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Pre-Retro Preparation (The 80/20 Rule)
 
 Remote retros succeed or fail before they start. Invest 30% of retro time in preparation.
 
@@ -135,7 +145,7 @@ List 4: COMPLETED ACTION ITEMS (Last Sprint)
 - Shows team impact
 ```
 
-## Running the Retro (75 Minutes)
+### Step 2: Run the Retro (75 Minutes)
 
 ### 0-5 Minutes: Icebreaker + Tone Setting
 
@@ -371,7 +381,7 @@ Custom Field: Risk [Low/Medium/High]
 
 **Best For:** Teams new to retros (lower learning curve) or sensitive environments (psychological safety).
 
-## Real-World Retro Playbooks
+### Step 3: Real-World Retro Playbooks
 
 ### Playbook 1: The 60-Minute Lean Retro (Startup Teams)
 
@@ -458,7 +468,7 @@ DUE: April 1 (kickoff)
 
 **Tools:** Miro + Zoom + Confluence + follow-up stakeholder meetings
 
-## Facilitator's Cheat Sheet
+### Step 4: Facilitator's Cheat Sheet
 
 ### 10 Techniques to Boost Engagement
 
@@ -512,7 +522,7 @@ DUE: April 1 (kickoff)
 - Leaves team on positive note
 - Counters "retro feels like blame session"
 
-## Action Item Tracking Systems
+### Step 5: Action Item Tracking Systems
 
 ### The Weekly Retro Check-In (5 minutes, Slack)
 
@@ -563,7 +573,7 @@ RESULT: 95% contribution rate, 3-4 action items consistently completed
 METRIC: Team survey: 8/10 retro satisfaction (was 5/10)
 {% endraw %}
 
-## Metrics That Matter
+### Step 6: Metrics That Matter
 
 Track these to measure retro effectiveness:
 
@@ -576,7 +586,7 @@ Track these to measure retro effectiveness:
 | Repeated Items | # of same issues in consecutive retros | <1 per retro | Improvements stick |
 | Time Invested | Hours per retro (planning + facilitation + tracking) | <3 hours | ROI on retro time |
 
-## Common Retro Anti-Patterns (And Fixes)
+### Step 7: Common Retro Anti-Patterns (And Fixes)
 
 **Anti-Pattern 1: Blame Culture**
 - Symptom: "John broke auth service"
@@ -598,7 +608,7 @@ Track these to measure retro effectiveness:
 - Symptom: Facilitator talks 60%, team talks 40%
 - Fix: Use silence. Ask questions. Let pauses happen.
 
-## Retro Templates (Copy-Paste)
+### Step 8: Retro Templates (Copy-Paste)
 
 ### Sprint Retro Template (Email)
 
@@ -663,6 +673,21 @@ Next retro: April 12 (same time)
 Great effort this sprint!
 
 {% endraw %}
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

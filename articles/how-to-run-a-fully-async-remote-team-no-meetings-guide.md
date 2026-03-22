@@ -54,7 +54,17 @@ Reduced Meeting Fatigue: Video call exhaustion is real. Teams that eliminate mee
 
 Inclusive Participation: Not everyone contributes equally in verbal meetings. Some team members think better in writing and deserve equal opportunity to participate.
 
-## Building Blocks of an Async-First Culture
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Build Blocks of an Async-First Culture
 
 Transitioning to a no-meeting culture requires rethinking how your team communicates, makes decisions, and stays aligned.
 
@@ -110,7 +120,7 @@ Urgent Protocol: Define exactly what qualifies as urgent and how to flag it
 
 Document these expectations in your team handbook and revisit them quarterly.
 
-## Running Specific Processes Without Meetings
+### Step 2: Run Specific Processes Without Meetings
 
 ### Async Planning and Decision Making
 
@@ -154,7 +164,7 @@ Show and Tell: Create a channel where team members share projects, hobbies, or l
 
 Recognition Channels: Celebrate wins publicly where everyone can see and react when it fits their schedule.
 
-## Tools That Enable Meeting-Free Work
+### Step 3: Tools That Enable Meeting-Free Work
 
 The right tools make async work sustainable:
 
@@ -170,7 +180,7 @@ Knowledge Bases: Central repositories for decisions, processes, and team informa
 
 Time Tracking: For teams that need visibility into workload distribution.
 
-## Challenges and How to Address Them
+### Step 4: Challenges and How to Address Them
 
 ### Trust Concerns
 
@@ -196,7 +206,7 @@ Async processes take longer than meetings.
 
 Solution: Set explicit deadlines for responses. A decision with a 3-day comment period moves faster than waiting for a meeting that takes 2 weeks to schedule.
 
-## Implementing the Transition
+### Step 5: Implementing the Transition
 
 Moving to a fully async team doesn't happen overnight:
 
@@ -220,7 +230,7 @@ Phase 4 (Month 3+):
 - Refine response time expectations
 - Document lessons learned
 
-## Measuring Success
+### Step 6: Measuring Success
 
 Track these metrics to know if your async transformation is working:
 
@@ -265,6 +275,21 @@ post_async_standup(
     },
 )
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

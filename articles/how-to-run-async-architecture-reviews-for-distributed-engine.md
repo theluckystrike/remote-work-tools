@@ -52,7 +52,17 @@ This approach works particularly well for distributed engineering teams because 
 - **This approach works particularly**: well for distributed engineering teams because it respects asynchronous communication patterns already in place.
 - **Use automated reminders to**: keep the process moving without requiring manual follow-ups.
 
-## Setting Up Your Async Review Workflow
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Your Async Review Workflow
 
 A well-structured async architecture review follows a predictable lifecycle. Each review moves through distinct stages: draft, review, discussion, and decision. Using a shared document or pull request as the central artifact keeps everyone working from the same source of truth.
 
@@ -72,7 +82,7 @@ architecture-reviews/
 
 Each review folder contains the proposal document, any supporting diagrams, individual review comments, and the final decision record. This structure makes it easy to search past decisions and understand the reasoning behind them.
 
-## Writing an Effective Architecture Proposal
+### Step 2: Writing an Effective Architecture Proposal
 
 The proposal document is the foundation of your async review. It needs to provide enough context for reviewers who may not be familiar with the specific problem domain while remaining focused enough to enable concrete feedback.
 
@@ -81,33 +91,33 @@ A solid proposal template includes these sections:
 ```markdown
 # AR-001: Implement Event-Driven Architecture for Order Processing
 
-## Problem Statement
+### Step 3: Problem Statement
 Our current synchronous order processing creates bottlenecks during peak traffic.
 Orders timeout when downstream services exceed 30-second response windows.
 
-## Proposed Solution
+### Step 4: Proposed Solution
 Transition to an event-driven architecture using Kafka for order events.
 Implement saga pattern for distributed transactions across services.
 
-## Alternatives Considered
+### Step 5: Alternatives Considered
 1. Increase timeout values and scale horizontally (rejected: operational complexity)
 2. Use synchronous REST with circuit breakers (rejected: doesn't solve root cause)
 3. Implement webhooks for async notifications (rejected: less scalable)
 
-## Impact Analysis
+### Step 6: Impact Analysis
 - **Development Effort**: 3-4 sprints
 - **Infrastructure**: New Kafka cluster required
 - **Team Skills**: Training needed on event sourcing
 - **Migration Path**: Phased rollout with dual-write period
 
-## Open Questions
+### Step 7: Open Questions
 - Should we use Confluent Cloud or self-hosted Kafka?
 - How do we handle event ordering guarantees?
 ```
 
 The open questions section is particularly valuable in async reviews. It signals to reviewers where you need specific input, whether that's security review, performance analysis, or product perspective.
 
-## Running the Review Cycle
+### Step 8: Run the Review Cycle
 
 Set a clear timeline for each review stage. A typical async architecture review runs for five to seven days, giving reviewers across time zones adequate time to participate. Use automated reminders to keep the process moving without requiring manual follow-ups.
 
@@ -127,7 +137,7 @@ Reviewers add feedback directly to the document or PR. Encourage specific commen
 Use a structured feedback format to make responses actionable:
 
 ```markdown
-## Review Comments
+### Step 9: Review Comments
 
 ### Comment 1: Infrastructure Complexity
 **Reviewer**: Sarah (APAC)
@@ -146,7 +156,7 @@ The proposal author synthesizes feedback into a summary. Address each concern ex
 Document the final decision with clear rationale. Include what feedback was incorporated and what was deliberately rejected. Assign accountability for implementation and any follow-up reviews needed after initial deployment.
 
 ```markdown
-## Decision: Approved with Conditions
+### Step 10: Decision: Approved with Conditions
 
 **Approver**: Engineering Director
 **Date**: 2026-03-23
@@ -160,7 +170,7 @@ Document the final decision with clear rationale. Include what feedback was inco
 The event-driven approach addresses the core timeout issue. Managed Kafka reduces operational risk during initial adoption. Security review ensures compliance requirements are met.
 ```
 
-## Tools and Platforms
+### Step 11: Tools and Platforms
 
 Several tools support async architecture reviews effectively. GitHub pull requests work well for teams already using GitHub—use the PR description for the proposal and review comments for feedback. Notion or Confluence provide richer formatting options and easier diagram embedding. Specialized tools like ArchReview or ADR-tools offer purpose-built workflows.
 
@@ -171,7 +181,7 @@ Regardless of platform, ensure your chosen tool supports these capabilities:
 - Accessible search for finding past reviews
 - Permission controls for sensitive proposals
 
-## Common Pitfalls to Avoid
+### Step 12: Common Pitfalls to Avoid
 
 Async architecture reviews fail when teams treat them as formality rather than genuine collaboration. Avoid these common mistakes:
 
@@ -183,7 +193,7 @@ No clear ownership: Every review needs a designated owner who drives the process
 
 Skipping the documentation: The primary value of async architecture reviews is the permanent record they create. Without a clear decision document, future engineers cannot understand why decisions were made.
 
-## Scaling Across Large Organizations
+### Step 13: Scaling Across Large Organizations
 
 For organizations with multiple engineering teams, establish clear criteria for what requires architecture review. Small changes within a service boundary may not need formal review, while cross-service implications, new dependencies, or significant infrastructure changes should trigger the full async process.
 
@@ -195,7 +205,7 @@ Consider a tiered approach:
 
 This tiered approach prevents bottlenecks while ensuring significant decisions receive appropriate scrutiny.
 
-## Architecture Review Decision Template
+### Step 14: Architecture Review Decision Template
 
 Every architecture review should produce a clear, written decision that answers specific questions. Use this template:
 
@@ -206,29 +216,29 @@ Every architecture review should produce a clear, written decision that answers 
 **Date:** [YYYY-MM-DD]
 **Decision Owner:** [Name]
 
-## Proposal Details
+### Step 15: Proposal Details
 - **Problem Solved:** [The core issue this addresses]
 - **Proposed Solution:** [The recommendation from the review]
 - **Estimated Effort:** [Timeline and resource requirements]
 - **Key Trade-offs:** [What we gain vs. what we give up]
 
-## Decision
+### Step 16: Decision
 [Approved | Rejected | Approved with Conditions]
 
 **Rationale:**
 [2-3 sentences explaining why this decision was made]
 
-## Conditions (if applicable)
+### Step 17: Conditions (if applicable)
 1. [Specific requirement or follow-up review]
 2. [Timeline for implementation or reassessment]
 3. [Success metrics or gating criteria]
 
-## Alternative Approaches Considered
+### Step 18: Alternative Approaches Considered
 1. [Alternative A]: Why it was rejected
 2. [Alternative B]: Why it was rejected
 3. [Alternative C]: Why it was rejected
 
-## Key Discussion Points
+### Step 19: Key Discussion Points
 [Consensus areas]
 - [Widely agreed point]
 - [Widely agreed point]
@@ -237,18 +247,18 @@ Every architecture review should produce a clear, written decision that answers 
 - [Minority opinion]: [Rationale]
 - [Minority opinion]: [Rationale]
 
-## Implementation Plan
+### Step 20: Implementation Plan
 - **Owner:** [Person responsible]
 - **Start Date:** [Estimated]
 - **Completion Target:** [Estimated]
 - **Rollback Plan:** [What to do if it fails]
 
-## Follow-up Review
+### Step 21: Follow-up Review
 - **Timeline:** [When we'll reassess]
 - **Success Metrics:** [How we'll measure if this works]
 - **Failure Criteria:** [When we'd reconsider]
 
-## Sign-off
+### Step 22: Sign-off
 - Decision Owner: _____ Date: _____
 - Technical Lead: _____ Date: _____
 - [Other stakeholders as needed]
@@ -256,7 +266,7 @@ Every architecture review should produce a clear, written decision that answers 
 
 This template creates accountability and prevents decisions from being forgotten or misinterpreted later.
 
-## Async Review Communication Checklist
+### Step 23: Async Review Communication Checklist
 
 A structured communication process prevents reviews from stalling. Use this checklist:
 
@@ -294,7 +304,7 @@ Week 4: Decision and Closure
 
 Clear phases prevent reviews from getting stuck in endless discussion.
 
-## Metrics for Tracking Architecture Review Health
+### Step 24: Metrics for Tracking Architecture Review Health
 
 Monitor these metrics to ensure your async review process is working:
 
@@ -327,7 +337,7 @@ Communication:
 
 Review these quarterly to ensure the process stays healthy as your organization grows.
 
-## Avoiding Analysis Paralysis
+### Step 25: Avoiding Analysis Paralysis
 
 Async architecture reviews can stall if reviewers over-analyze. Set boundaries:
 
@@ -361,6 +371,21 @@ Anti-Patterns to Prevent:
 ```
 
 Async processes work well when boundaries are clear and decision authority is explicit.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

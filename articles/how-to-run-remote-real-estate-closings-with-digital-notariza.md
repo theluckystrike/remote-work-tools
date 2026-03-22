@@ -38,13 +38,23 @@ Run remote real estate closings by integrating Remote Online Notarization (RON) 
 - **Topics covered**: understanding remote online notarization (ron), core components of a digital closing system, integrating notarization apis
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Understanding Remote Online Notarization (RON)
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Remote Online Notarization (RON)
 
 Remote Online Notarization allows notaries public to perform notarizations entirely online through secure video conferencing and electronic document management. Unlike traditional notarization, RON creates a complete digital paper trail that includes identity verification, session recordings, and tamper-evident signatures.
 
 Most states in the US now permit RON, though specific requirements vary. Before implementing a remote closing system, verify current regulations in your jurisdiction and ensure your chosen notarization platform maintains compliance with state-specific requirements.
 
-## Core Components of a Digital Closing System
+### Step 2: Core Components of a Digital Closing System
 
 A functional remote closing system requires several integrated components:
 
@@ -54,7 +64,7 @@ A functional remote closing system requires several integrated components:
 4. **Document Management** — Stores, organizes, and distributes closing documents securely
 5. **Secure Video Conferencing** — Enables the required video session between signers and notary
 
-## Integrating Notarization APIs
+### Step 3: Integrate Notarization APIs
 
 Most production-ready implementations use specialized API services rather than building notarization infrastructure from scratch. Here's how to integrate a typical notarization service:
 
@@ -92,7 +102,7 @@ const createNotarizationSession = async (signers, documents) => {
 
 This API call creates a notarization session with identity verification requirements. The response includes a session ID that coordinates the entire closing workflow.
 
-## Building the Closing Workflow
+### Step 4: Build the Closing Workflow
 
 A typical real estate closing involves multiple documents requiring signature and notarization. Here's a practical workflow implementation:
 
@@ -133,7 +143,7 @@ def prepare_closing_workflow(closing: ClosingSession):
 
 This workflow ensures documents are processed in the correct order, with notarization sessions reserved only when required.
 
-## Identity Verification Implementation
+### Step 5: Identity Verification Implementation
 
 Strong identity verification prevents fraud and ensures legal validity. Most RON platforms implement multi-factor verification:
 
@@ -192,7 +202,7 @@ jurisdiction_configs:
 
 This configuration enables your system to automatically apply correct requirements based on property location.
 
-## Post-Closing Document Handling
+### Step 6: Post-Closing Document Handling
 
 After the closing session completes, proper document handling ensures accessibility and legal preservation:
 
@@ -226,7 +236,7 @@ const finalizeClosing = async (sessionId) => {
 };
 ```
 
-## Common Implementation Challenges
+### Step 7: Common Implementation Challenges
 
 Several practical issues arise when building remote closing systems:
 
@@ -246,6 +256,21 @@ Protecting sensitive real estate data requires attention to several areas:
 - Access Control: Implement role-based permissions limiting document access to necessary parties
 - Audit Logging: Maintain logs of all document access and actions
 - Data Retention: Follow jurisdiction-specific retention requirements, typically 5-10 years for real estate documents
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

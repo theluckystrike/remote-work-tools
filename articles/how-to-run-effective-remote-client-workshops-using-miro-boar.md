@@ -42,7 +42,17 @@ This guide walks through setting up and helping productive remote client worksho
 - **Let them use it for 2-3 weeks**: then gather their honest feedback.
 - **Mastering advanced features takes**: 1-2 weeks of regular use.
 
-## Preparing Your Miro Board Before the Workshop
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Preparing Your Miro Board Before the Workshop
 
 Success starts before anyone joins the call. A well-prepared board gives clients confidence in your professionalism and gives you a clear roadmap for the session.
 
@@ -78,7 +88,7 @@ For workshops with new clients, include a simple icebreaker in the main workspac
 2. Add a "One Word Check-In" sticky note cluster where everyone places a single word describing their mood
 3. These take two minutes but establish the board as a shared space
 
-## Help Techniques for Remote Workshops
+### Step 2: Help Techniques for Remote Workshops
 
 Running a workshop remotely requires deliberate communication patterns that you can ignore in person.
 
@@ -120,7 +130,7 @@ When more than three clients attend, designate one as the "primary decision make
 2. Select "Follow" to sync your viewport to theirs
 3. This keeps everyone on the same page without verbal navigation cues
 
-## Practical Template: Discovery Workshop
+### Step 3: Practical Template: Discovery Workshop
 
 Here is a proven board structure for initial client discovery sessions:
 
@@ -147,7 +157,7 @@ Here is a proven board structure for initial client discovery sessions:
 - Simple table frame with columns for: Item, Estimated Cost, Actual Cost, Variance
 - Keeps financial discussions visible without leaving the board
 
-## Handling Difficult Workshop Scenarios
+### Step 4: Handling Difficult Workshop Scenarios
 
 ### When a Client Goes Off-Topic
 
@@ -170,7 +180,7 @@ Always have a fallback:
 - Designate a note-taker who can make edits if you lose connection
 - Keep a PDF backup of the board state in your shared drive
 
-## Post-Workshop Follow-Up Workflow
+### Step 5: Post-Workshop Follow-Up Workflow
 
 The workshop value compounds when you follow up effectively:
 
@@ -180,7 +190,7 @@ The workshop value compounds when you follow up effectively:
 
 Miro's built-in export features handle the PDF generation. Navigate to the board settings and select "Export" to generate a high-resolution PDF or image sequence.
 
-## Integrating Miro with Your Existing Tools
+### Step 6: Integrate Miro with Your Existing Tools
 
 Connect your workshop outputs to your project management system:
 
@@ -265,36 +275,36 @@ Monitor participant engagement through Miro:
 
 If you see warning signals, pause and ask: "Let's take a breath. What questions do you have about what we've done so far?" This resets attention.
 
-## Pre-Workshop Client Preparation
+### Step 7: Pre-Workshop Client Preparation
 
 Send this to clients 48 hours before the workshop:
 
 ```markdown
 # Workshop Prep Guide
 
-## Logistics
+### Step 8: Logistics
 - **Time**: [Date/Time with timezone]
 - **Link**: [Miro board link] (Join 5 min early to test video)
 - **Duration**: 60 minutes
 - **Camera**: Please have it on (helps group connection)
 
-## Preparation (10 minutes, optional but helpful)
+### Step 9: Preparation (10 minutes, optional but helpful)
 - Have your team brainstorm 3-5 biggest challenges before we start
 - Look at the attached "Workshop Agenda" document
 - Prepare 1-2 questions about our goals together
 
-## During the Workshop
+### Step 10: During the Workshop
 - We'll move between silent work and group discussion
 - There's no bad ideas—we're here to explore possibilities
 - Expect to see a rough board that evolves; we'll refine it after
 
-## After the Workshop
+### Step 11: After the Workshop
 - You'll get a PDF of the board same-day
 - We'll send a summary document within 24 hours
 - Follow-up call: [Date] to confirm next steps
 ```
 
-## Workshop Facilitation Checklist
+### Step 12: Workshop Facilitation Checklist
 
 Use this checklist 30 minutes before each workshop:
 
@@ -308,7 +318,7 @@ Use this checklist 30 minutes before each workshop:
 - [ ] Mute your notifications (prevent interruptions)
 - [ ] Have client names displayed on Miro board in intro section
 
-## Post-Workshop Delivery Timeline
+### Step 13: Post-Workshop Delivery Timeline
 
 **Same day (by 5 PM):**
 - Export board as PDF or image sequence
@@ -341,7 +351,7 @@ Use this checklist 30 minutes before each workshop:
 - Check: "What's been easy to implement? What's been challenging?"
 - Unblock any stuck items
 
-## Handling Difficult Personalities in Workshops
+### Step 14: Handling Difficult Personalities in Workshops
 
 **The Dominator** (talks 70% of the time):
 - Technique: "Thanks for that perspective. Let's hear from folks who haven't spoken yet."
@@ -363,7 +373,7 @@ Use this checklist 30 minutes before each workshop:
 - Task assignment: "I need someone to track our decisions on the board. Can you do that?"
 - Gives them a role that forces engagement
 
-## Tool Alternatives for Different Workshop Types
+### Step 15: Tool Alternatives for Different Workshop Types
 
 | Workshop Type | Ideal Tool | Why |
 |---|---|---|
@@ -374,6 +384,21 @@ Use this checklist 30 minutes before each workshop:
 | Retrospective | Miro + simple voting | Sticky notes, dot voting, easy |
 
 Most teams start with Miro, then discover Figma for design work, then add Notion for follow-up. Multi-tool workflows are common by year 2.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

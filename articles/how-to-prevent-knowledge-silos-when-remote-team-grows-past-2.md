@@ -41,7 +41,17 @@ These are the symptoms of knowledge silos forming in your remote team. Without d
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 - **Topics covered**: recognizing knowledge silo warning signs, strategy 1: structured documentation practices, living documentation with code examples
 
-## Recognizing Knowledge Silo Warning Signs
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Recognizing Knowledge Silo Warning Signs
 
 Knowledge silos develop gradually, but certain indicators signal their emergence. Watch for these patterns in remote engineering teams:
 
@@ -53,7 +63,7 @@ Knowledge silos develop gradually, but certain indicators signal their emergence
 
 **"Let me check with..." responses.** When simple questions require relaying through multiple people because the answer holder works in a different time zone, knowledge distribution has become inefficient.
 
-## Strategy 1: Structured Documentation Practices
+### Step 2: Strategy 1: Structured Documentation Practices
 
 Documentation is the foundation of distributed knowledge. However, sporadic wikis and outdated README files do not count as effective documentation. Implement structured practices that keep knowledge accessible.
 
@@ -64,20 +74,20 @@ Create living documents that evolve with your codebase. A good starting point is
 ```markdown
 # ADR-042: Implementing Rate Limiting
 
-## Status
+### Step 3: Status
 Accepted
 
-## Context
+### Step 4: Context
 Our API experiences traffic spikes causing downstream service degradation.
 
-## Decision
+### Step 5: Decision
 We will implement token bucket rate limiting at the API gateway level.
 
-## Consequences
+### Step 6: Consequences
 - Positive: Protects backend services, provides consistent user experience
 - Negative: Requires Redis cluster, introduces latency for rate-limited requests
 
-## Review Date
+### Step 7: Review Date
 2026-06-01
 ```
 
@@ -102,12 +112,12 @@ Operational knowledge—what to do when things break—often resides only in sen
 ```markdown
 # Runbook: Database Connection Pool Exhaustion
 
-## Symptoms
+### Step 8: Symptoms
 - Application returns 503 errors
 - Database connections remain in "idle in transaction" state
 - Logs show "too many connections" errors
 
-## Immediate Actions
+### Step 9: Immediate Actions
 1. Check current connection count: `SELECT count(*) FROM pg_stat_activity;`
 2. Identify long-running queries: `SELECT pid, query, state, duration FROM pg_stat_activity WHERE state = 'active';`
 3. Kill problematic connections if needed:
@@ -118,13 +128,13 @@ WHERE state = 'idle in transaction'
 AND query_start < now() - interval '10 minutes';
  ```
 
-## Prevention
+### Step 10: Prevention
 - Set `statement_timeout` to 30 seconds
 - Implement connection pooling with PgBouncer
 - Add monitoring alerts at 80% pool capacity
 ```
 
-## Strategy 2: Cross-Functional Knowledge Sharing Sessions
+### Step 11: Strategy 2: Cross-Functional Knowledge Sharing Sessions
 
 Remote work reduces spontaneous hallway conversations. Replace them with deliberate knowledge exchange formats.
 
@@ -164,7 +174,7 @@ schedule:
     date: "2026-05-20"
 ```
 
-## Strategy 3: Pair Programming and Mob Programming
+### Step 12: Strategy 3: Pair Programming and Mob Programming
 
 Direct collaboration transfers knowledge more effectively than documentation alone. For remote teams, pair programming sessions via screen sharing become essential.
 
@@ -190,24 +200,24 @@ When tackling complex issues, bring multiple perspectives together:
 ```markdown
 # Swarm Session: Payment Service Latency
 
-## Participants
+### Step 13: Participants
 - Backend team lead
 - Database specialist
 - Frontend developer
 
-## Agenda
+### Step 14: Agenda
 1. Problem statement (5 min)
 2. Individual investigation (20 min)
 3. Shared findings (15 min)
 4. Solution proposal (20 min)
 
-## Action Items
+### Step 15: Action Items
 - [ ] Database query optimization: @maria
 - [ ] Cache implementation: @james
 - [ ] Frontend timeout handling: @alex
 ```
 
-## Strategy 4: Accessible Expertise Directories
+### Step 16: Strategy 4: Accessible Expertise Directories
 
 Create and maintain searchable records of who knows what in your organization.
 
@@ -253,7 +263,7 @@ Establish virtual office hours where specific engineers are available for questi
 | Lisa Park     | Frontend/React    | Wed 22:00-23:00   |
 ```
 
-## Implementation Roadmap
+### Step 17: Implementation Roadmap
 
 Start with documentation practices, add structured knowledge sharing, then establish expertise directories. Each layer builds on the previous:
 
@@ -264,7 +274,7 @@ Start with documentation practices, add structured knowledge sharing, then estab
 5. **Month 5:** Establish office hours for key knowledge areas
 6. **Month 6:** Review and iterate based on team feedback
 
-## Measuring Success
+### Step 18: Measuring Success
 
 Track these metrics to gauge knowledge silo reduction:
 
@@ -272,6 +282,21 @@ Track these metrics to gauge knowledge silo reduction:
 - **Documentation coverage** of critical systems (target: 80%+)
 - **Cross-team collaboration frequency** (track PRs involving multiple teams)
 - **Incident resolution time** (knowledgeable people should be findable quickly)
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -42,7 +42,17 @@ Remote client workshops require careful planning and the right digital tools to 
 3.
 - Aim for 50%+ response rate.
 
-## Preparing Your Miro Board for Client Workshops
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Preparing Your Miro Board for Client Workshops
 
 Before the workshop begins, create a dedicated Miro board with all the necessary components. A well-structured board guides the session flow and keeps participants focused.
 
@@ -56,7 +66,7 @@ Start by setting up these essential sections:
 
 For a typical 60-minute client workshop, structure your board with clear visual sections that participants can navigate easily.
 
-## Setting Up Interactive Workshop Elements
+### Step 2: Set Up Interactive Workshop Elements
 
 Miro offers numerous interactive features that transform passive viewers into active participants. Use these elements strategically throughout your workshop:
 
@@ -85,7 +95,7 @@ Example voting session setup:
 
 The timer widget keeps sessions on track. Set appropriate time limits for each activity and display the countdown visibly to maintain momentum.
 
-## Help Techniques for Remote Workshops
+### Step 3: Help Techniques for Remote Workshops
 
 Effective help makes the difference between a productive session and a wasted meeting. Apply these techniques when running remote client workshops:
 
@@ -146,7 +156,7 @@ After the session, take these steps to maintain momentum:
 3. Schedule follow-up sessions if needed
 4. Update your workshop template based on lessons learned
 
-## Common Pitfalls to Avoid
+### Step 4: Common Pitfalls to Avoid
 
 Remote client workshops can fall flat if you overlook these common issues:
 
@@ -158,7 +168,7 @@ Skipping Icebreakers: Even brief introductions help participants feel comfortabl
 
 Ignoring Time Zones: For跨时区 workshops, record sessions and share exports with those who couldn't attend live.
 
-## Measuring Workshop Success
+### Step 5: Measuring Workshop Success
 
 Track these metrics to improve future sessions:
 
@@ -171,7 +181,7 @@ Regularly reviewing these metrics helps you refine your workshop approach and de
 
 Running effective remote client workshops using Miro Board requires preparation, the right interactive elements, and skilled help. By structuring your sessions thoughtfully and using Miro's collaborative features, you can create engaging virtual experiences that produce meaningful outcomes for your clients.
 
-## Miro Pricing and Workspace Configuration
+### Step 6: Miro Pricing and Workspace Configuration
 
 ### Miro Pricing Models
 
@@ -235,7 +245,7 @@ Pre-built frame templates accelerate setup:
 
 A typical workshop template with 6-8 frames takes 15 minutes to customize versus 45 minutes to build from scratch.
 
-## Facilitation Techniques Specific to Remote Workshops
+### Step 7: Facilitation Techniques Specific to Remote Workshops
 
 ### Managing Cross-Time-Zone Workshops
 
@@ -321,7 +331,7 @@ Action items (10 min) → Assign owners for improvements
 - Frame 3: "What could improve" responses
 - Frame 4: "Action items" with owner assignment grid
 
-## Client Feedback and Iteration
+### Step 8: Client Feedback and Iteration
 
 ### Collecting Workshop Feedback
 
@@ -347,6 +357,21 @@ Track metrics across multiple workshops:
 | Time accuracy | Workshop ended on time | Yes/No |
 
 If satisfaction drops below 3.5/5 or participation below 60%, review recording and ask for specific feedback on which elements didn't work.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

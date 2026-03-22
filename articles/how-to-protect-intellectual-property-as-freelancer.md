@@ -44,7 +44,17 @@ This guide covers practical steps to protect your IP as a freelancer, with concr
 - **Developer grants Client a non-exclusive**: perpetual
 license to use the custom Deliverables for their internal business purposes.
 
-## Understanding IP Ownership Fundamentals
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand IP Ownership Fundamentals
 
 Intellectual property encompasses several categories relevant to developers: source code, documentation, UI designs, algorithms, and proprietary methodologies. By default, the creator owns the copyright to their work. However, this default changes when you sign a contract transferring those rights to a client.
 
@@ -52,7 +62,7 @@ The key principle is this: **unless you explicitly transfer ownership, you retai
 
 Most clients want to pay for finished work they can use freely. Most freelancers want to retain the right to use their work in portfolios or reuse certain components in future projects. These goals aren't incompatible—you just need to document them clearly.
 
-## Essential Contract Clauses for IP Protection
+### Step 2: Essential Contract Clauses for IP Protection
 
 Your contract is your primary defense. Include these specific provisions in every agreement:
 
@@ -96,7 +106,7 @@ on their website, and in marketing materials, provided no confidential
 information of Client is disclosed.
 ```
 
-## Practical Documentation Strategies
+### Step 3: Practical Documentation Strategies
 
 Beyond contracts, document your work thoroughly to establish ownership:
 
@@ -161,7 +171,7 @@ Many freelancers lose IP rights through oversight:
 - **Rush jobs skipping contracts** — The time saved isn't worth the risk
 - **Not reading termination clauses** — These often specify what happens to IP if things go wrong
 
-## What About Open Source?
+### Step 4: What About Open Source?
 
 If you contribute to open source or use open-source components, understand the implications:
 
@@ -171,7 +181,7 @@ If you contribute to open source or use open-source components, understand the i
 
 For client work, stick to permissive licenses or clearly document which components use which licenses.
 
-## When Things Go Wrong
+### Step 5: When Things Go Wrong
 
 If a client violates your agreement:
 
@@ -182,7 +192,7 @@ If a client violates your agreement:
 
 Most clients genuinely don't understand IP rights. A professional explanation often resolves issues without legal action.
 
-## Sample IP Protection Contract Clauses
+### Step 6: Sample IP Protection Contract Clauses
 
 Rather than starting from scratch, use these battle-tested clauses in your freelance agreements:
 
@@ -236,7 +246,7 @@ If source code is released, Client agrees to:
 - Return or destroy all source code upon contract termination
 ```
 
-## Real Pricing Examples
+### Step 7: Real Pricing Examples
 
 Understanding market rates helps you price IP transfers appropriately:
 
@@ -258,7 +268,7 @@ Understanding market rates helps you price IP transfers appropriately:
 - Exclusive ownership (prevents you from selling similar tools): Base price + 100-150%
 - Ongoing source code updates: +15-25% annually
 
-## Portfolio and Reuse Strategies
+### Step 8: Portfolio and Reuse Strategies
 
 As a freelancer, your portfolio is your marketing. Negotiate portfolio rights explicitly:
 
@@ -329,7 +339,7 @@ git show v1.0-client-delivery
 - Create a mirror repository under your account for IP protection
 - Transfer access to client only after full payment
 
-## Dispute Resolution Strategies
+### Step 9: Dispute Resolution Strategies
 
 If a client violates your IP agreement, follow this escalation:
 
@@ -375,7 +385,7 @@ Best,
 - Copyright infringement suits for larger violations
 - Work with attorney (most do IP on contingency for clear violations)
 
-## Building Your IP Protection Process
+### Step 10: Build Your IP Protection Process
 
 Make IP protection routine, not reactive:
 
@@ -384,6 +394,21 @@ Make IP protection routine, not reactive:
 3. **Get it signed before starting** — Never start work without a signed agreement
 4. **Archive everything** — Keep signed contracts in cloud storage with version control
 5. **Document creation dates** — Use Git commits and file timestamps as evidence
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

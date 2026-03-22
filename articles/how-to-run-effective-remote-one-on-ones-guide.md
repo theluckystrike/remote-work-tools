@@ -47,7 +47,17 @@ Effective 1:1s require trust. Your report must believe that:
 One-on-ones are theirs to shape. Spend 40% of the time on their agenda, not yours.
 ---
 
-## Cadence: How Often?
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Cadence: How Often?
 
 **Individual Contributor (IC), standard responsibility:**
 - Weekly 30-minute 1:1. Non-negotiable.
@@ -70,7 +80,7 @@ One-on-ones are theirs to shape. Spend 40% of the time on their agenda, not your
 
 ---
 
-## The Effective Remote 1:1 Structure (30 Minutes)
+### Step 2: The Effective Remote 1:1 Structure (30 Minutes)
 
 **Time Allocation:**
 - 0–2 min: Personal check-in (weather, weekend, trivial small talk)
@@ -87,7 +97,7 @@ One-on-ones are theirs to shape. Spend 40% of the time on their agenda, not your
 
 ---
 
-## Template: 1:1 Agenda Document
+### Step 3: Template: 1:1 Agenda Document
 
 Create a recurring shared doc (Google Doc or Notion). Copy template weekly; archive after meeting.
 
@@ -102,22 +112,22 @@ Link: [Meet link]
 
 ---
 
-## REPORT AGENDA (Their topics)
+### Step 4: REPORT AGENDA (Their topics)
 - [Item 1: Brief description]
 - [Item 2: Brief description]
 
-## MANAGER AGENDA (Your topics)
+### Step 5: Manage R AGENDA (Your topics)
 - [Feedback item / update / discussion]
 - [Feedback item / update / discussion]
 
-## NOTES
+### Step 6: NOTES
 (Filled during meeting)
 
-## ACTION ITEMS
+### Step 7: ACTION ITEMS
 - [ ] [Action] — Owner: [Person] — Due: [Date]
 - [ ] [Action] — Owner: [Person] — Due: [Date]
 
-## FOLLOW-UP FOR NEXT WEEK
+### Step 8: FOLLOW-UP FOR NEXT WEEK
 - [Anything unresolved or needs revisit]
 ```
 
@@ -125,7 +135,7 @@ Link: [Meet link]
 
 ---
 
-## Conversation Framework: The Four Pillars
+### Step 9: Conversation Framework: The Four Pillars
 
 ### 1. Performance + Execution (2–3 minutes)
 
@@ -184,7 +194,7 @@ Link: [Meet link]
 
 ---
 
-## Sample 1:1 Dialogue (Real Scenario)
+### Step 10: Sample 1:1 Dialogue (Real Scenario)
 
 **Setup:** Sarah is a senior engineer. This is week 3 (Career focus).
 
@@ -247,7 +257,7 @@ Link: [Meet link]
 
 ---
 
-## Remote-Specific Tips
+### Step 11: Remote-Specific Tips
 
 ### 1. Video On, Always
 
@@ -274,7 +284,7 @@ Nothing signals disrespect more than a manager who's habitually late or runs ove
 
 ---
 
-## Red Flags: When 1:1s Reveal Problems
+### Step 12: Red Flags: When 1:1s Reveal Problems
 
 **Report is quiet / withdrawn:**
 - Not sharing agenda items.
@@ -302,7 +312,7 @@ Nothing signals disrespect more than a manager who's habitually late or runs ove
 
 ---
 
-## Common Mistakes Managers Make
+### Step 13: Common Mistakes Managers Make
 
 ### 1. Turning 1:1s Into Status Reports
 
@@ -333,7 +343,7 @@ Status is available in tickets. Use 1:1s for depth.
 
 ---
 
-## Tools for Remote 1:1s
+### Step 14: Tools for Remote 1:1s
 
 | Tool | Purpose | Best For |
 |------|---------|----------|
@@ -347,7 +357,7 @@ Status is available in tickets. Use 1:1s for depth.
 
 ---
 
-## Quarterly Deep-Dive: Career Planning Session
+### Step 15: Quarterly Deep-Dive: Career Planning Session
 
 Every three months, schedule a separate 45-minute meeting:
 
@@ -372,7 +382,7 @@ Every three months, schedule a separate 45-minute meeting:
 
 ---
 
-## Scaling to Multiple Reports
+### Step 16: Scaling to Multiple Reports
 
 **Managing 5–7 reports:**
 - Protect weekly 1:1 time (2.5–3.5 hours).
@@ -386,7 +396,7 @@ Every three months, schedule a separate 45-minute meeting:
 
 ---
 
-## Final Checklist: Running 1:1s That Work
+### Step 17: Final Checklist: Running 1:1s That Work
 
 - [ ] Weekly 30-minute minimum cadence
 - [ ] Shared agenda doc (report contributes items)
@@ -401,13 +411,28 @@ Every three months, schedule a separate 45-minute meeting:
 
 ---
 
-## Verdict
+### Step 18: Verdict
 
 Effective 1:1s are the difference between managing output and developing talent. They're where trust builds, problems surface, and career growth happens.
 
 Treat them as non-negotiable. Prepare minimally, listen actively, and invest in your report's growth. The ROI is immense: higher retention, faster skill development, better team dynamics, and fewer surprises.
 
 Start this week with a shared 1:1 agenda doc. Invite your report to contribute. Watch the conversation depth improve immediately.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Articles
 

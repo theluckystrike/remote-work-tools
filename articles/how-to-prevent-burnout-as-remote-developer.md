@@ -41,7 +41,17 @@ Therapy costs $100-200/session.
 - **The strategies below work**: best when implemented before burnout sets in.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Recognize the Early Warning Signs
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Recognize the Early Warning Signs
 
 Burnout rarely announces itself with dramatic symptoms. Watch for these subtle indicators:
 
@@ -52,7 +62,7 @@ Burnout rarely announces itself with dramatic symptoms. Watch for these subtle i
 
 If any of these sound familiar, it's time to rebuild your boundaries. The strategies below work best when implemented before burnout sets in.
 
-## Establish firm Working Hours
+### Step 2: Establish firm Working Hours
 
 One of the biggest challenges remote developers face is the temptation to work beyond reasonable hours. Without a commute to signal the end of the workday, many developers find themselves checking tickets at 9 PM or debugging at midnight.
 
@@ -77,7 +87,7 @@ function shouldNotify() {
 
 Use your operating system's focus modes or tools like RescueTime to enforce these boundaries. Block non-essential notifications during your off-hours. Your code will still be there tomorrow—your mental health may not recover as quickly if you keep burning the candle at both ends.
 
-## Designate a Dedicated Workspace
+### Step 3: Designate a Dedicated Workspace
 
 Working from your couch or bed creates psychological overlap between rest and work. Your brain learns to associate your relaxation spaces with task-oriented thinking, making it harder to truly disconnect.
 
@@ -90,7 +100,7 @@ Set up a specific area for development work, even if it's just a desk in a corne
 
 When you leave this space, mentally "clock out." Walk to a different room, change your clothes, or follow a brief ritual that signals the end of your workday. This physical and psychological separation helps your brain transition from work mode to rest mode.
 
-## Take Actual Breaks Throughout the Day
+### Step 4: Take Actual Breaks Throughout the Day
 
 The Pomodoro Technique remains effective because it forces breaks that developers often skip. Here's a simple implementation you can adapt:
 
@@ -112,7 +122,7 @@ done
 
 During breaks, step away from your computer entirely. Stretch, hydrate, look at something distant to rest your eyes, or do a quick physical activity. These micro-breaks restore cognitive function and prevent the mental fatigue that accumulates during long coding sessions.
 
-## Communicate Proactively with Your Team
+### Step 5: Communicate Proactively with Your Team
 
 Many remote developers experience burnout partly due to communication anxiety—the fear that being offline or unavailable will be perceived negatively. Combat this by setting clear expectations with your team.
 
@@ -141,7 +151,7 @@ async function updateSlackStatus() {
 
 Transparency about your availability reduces anxiety and prevents the need to be constantly "on."
 
-## Prioritize Physical Health
+### Step 6: Prioritize Physical Health
 
 Mental burnout has strong physical components. Regular exercise, adequate sleep, and proper nutrition directly impact your ability to handle remote work stress.
 
@@ -154,7 +164,7 @@ Small investments in physical wellness pay dividends:
 
 Consider investing in a standing desk or ergonomic setup if you spend long hours coding. Physical discomfort compounds mental fatigue.
 
-## Build Social Connections Outside Work
+### Step 7: Build Social Connections Outside Work
 
 Remote work can be isolating. The casual conversations that happen naturally in offices—the hallway chat, lunch with colleagues—are absent in remote setups. This isolation contributes to burnout.
 
@@ -167,7 +177,7 @@ Actively cultivate social connections:
 
 These connections provide emotional support and perspective when work becomes challenging.
 
-## Set Clear Project Boundaries
+### Step 8: Set Clear Project Boundaries
 
 Beyond time boundaries, set limits on your projects and responsibilities:
 
@@ -196,7 +206,7 @@ class WorkSession:
 
 The flexibility that makes remote work valuable only works when you protect your boundaries. Your career is a marathon—pacing yourself matters more than short-term sprinting.
 
-## Recovery Strategies When Burnout Has Taken Hold
+### Step 9: Recovery Strategies When Burnout Has Taken Hold
 
 If you're already experiencing burnout, prevention isn't enough—you need active recovery:
 
@@ -247,7 +257,7 @@ Burnout often requires external support:
 
 Therapy costs $100-200/session. Many insurances cover it. The investment pays for itself through improved work performance and life satisfaction.
 
-## Long-Term Career Management to Prevent Recurrence
+### Step 10: Long-Term Career Management to Prevent Recurrence
 
 Once you recover from burnout, structural changes prevent it from recurring:
 
@@ -282,7 +292,7 @@ Within your organization, rotate roles every 3-4 years:
 - Builds relationships across teams
 - Signals commitment and potential leadership ability
 
-## Team-Level Burnout Prevention
+### Step 11: Team-Level Burnout Prevention
 
 As a team lead or manager, you can create structures preventing burnout in your reports:
 
@@ -326,7 +336,7 @@ When someone sets a boundary ("no Slack after 6 PM"), respect it absolutely:
 
 Teams where boundaries are respected have dramatically lower burnout.
 
-## Creating a Burnout-Resistant Engineering Culture
+### Step 12: Create a Burnout-Resistant Engineering Culture
 
 Organizations serious about preventing burnout make structural choices:
 
@@ -366,7 +376,7 @@ Hire enough people to handle workload sustainably:
 - Empty seats and overwork compound burnout
 - Cost of hiring is less than cost of replacing burned-out senior engineers
 
-## Personal Responsibility vs. Systemic Accountability
+### Step 13: Personal Responsibility vs. Systemic Accountability
 
  while individual strategies matter, burnout often has systemic causes:
 
@@ -378,6 +388,21 @@ Hire enough people to handle workload sustainably:
 If you implement all strategies above and still burn out, the problem likely isn't your discipline—it's your environment. Consider changing roles, teams, or companies. Burnout recovery often requires both personal changes and environmental changes.
 
 The goal of this guide is helping you protect yourself and maintain sustainable productivity. But it's also important to recognize when the responsibility lies with the organization to provide sustainable conditions. You control your boundaries; you don't control whether your organization respects them. When it doesn't, moving on is often the healthiest choice.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

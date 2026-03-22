@@ -40,7 +40,17 @@ Developers face unique challenges that accelerate lower back deterioration:
 
 The lumbar spine bears the brunt of all this. When you sit, pressure on intervertebral discs increases by 40-90% compared to standing. Without counteractive measures, this pressure accumulates into chronic pain.
 
-## Immediate Ergonomic Fixes (Start Today)
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Immediate Ergonomic Fixes (Start Today)
 
 ### Chair Height and Position
 
@@ -104,7 +114,7 @@ while True:
 # - Too close = leaning forward = lumbar flexion overload
 ```
 
-## Movement Strategies That Actually Work
+### Step 2: Movement Strategies That Actually Work
 
 ### The 25-5-2 Rule (Developer-Optimized)
 
@@ -215,7 +225,7 @@ echo "Taking 30 seconds to stretch before you commit..."
 echo "💆‍♂️ Quick hip flexor stretch: Stand in lunge position for 30s each side"
 ```
 
-## Strength Training for Coders
+### Step 3: Strength Training for Coders
 
 ### The Minimal Routine (3 Exercises, 15 Minutes)
 
@@ -263,7 +273,7 @@ function logCompletion(exercise) {
 }
 ```
 
-## Desk Modifications for Lumbar Health
+### Step 4: Desk Modifications for Lumbar Health
 
 ### Standing Desk Transition
 
@@ -297,7 +307,7 @@ Standing desks help but require strategy:
 # and should be inflated to 80% capacity
 ```
 
-## Sleep Optimization for Back Repair
+### Step 5: Sleep Optimization for Back Repair
 
 Your lower back repairs itself during sleep. Optimize recovery:
 
@@ -313,7 +323,7 @@ Your lower back repairs itself during sleep. Optimize recovery:
 # - If you wake with more pain than you slept with, mattress is wrong
 ```
 
-## When Pain Persists: Professional Help
+### Step 6: When Pain Persists: Professional Help
 
 Some situations require medical intervention:
 
@@ -333,7 +343,7 @@ Some situations require medical intervention:
 # - Chiropractic care (adjunct therapy)
 ```
 
-## The 30-Day Implementation Plan
+### Step 7: The 30-Day Implementation Plan
 
 **Week 1: Setup**
 - [ ] Adjust chair height and add lumbar support
@@ -355,12 +365,27 @@ Some situations require medical intervention:
 - [ ] Maintain all previous changes
 - [ ] Notice and address pain triggers
 
-## Your Back Is an Investment
+### Step 8: Your Back Is an Investment
 
 Every hour you spend coding without addressing ergonomics accumulates into future pain. The strategies above cost little to implement but save thousands in physical therapy and lost productivity.
 
 Start with one change today. Then another next week. Your future self will thank you when you're still coding pain-free at 50.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

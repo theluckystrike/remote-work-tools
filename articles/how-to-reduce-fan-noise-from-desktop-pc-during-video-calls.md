@@ -55,7 +55,17 @@ The culprits are predictable:
 
 Understanding these sources helps you target the right solutions.
 
-## Software Solutions: Reduce Load and Control Fans
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Software Solutions: Reduce Load and Control Fans
 
 ### Adjust Process Priority
 
@@ -120,7 +130,7 @@ alias join-call="~/scripts/call-prep.sh && zoom"
 
 On Windows, use Process Lasso or simply close browser tabs and pause background downloads.
 
-## Hardware Modifications: Quiet the Machine
+### Step 2: Hardware Modifications: Quiet the Machine
 
 ### Upgrade Case Airflow
 
@@ -147,7 +157,7 @@ Stock case fans often prioritize cost over silence. Replacement fans from Noctua
 
 Look for fans rated below 20 dBA for truly quiet operation.
 
-## Audio Processing: Mask Residual Noise
+### Step 3: Audio Processing: Mask Residual Noise
 
 Sometimes you can't eliminate all fan noise. In those cases, audio processing helps:
 
@@ -168,7 +178,7 @@ For stronger suppression, use system-level tools:
 
 These tools apply real-time audio processing to remove fan noise before it reaches your call.
 
-## Quick Checklist Before Your Next Call
+### Step 4: Quick Checklist Before Your Next Call
 
 1. Close unnecessary browser tabs and applications
 2. Enable hardware video encoding in your video app
@@ -177,7 +187,7 @@ These tools apply real-time audio processing to remove fan noise before it reach
 5. Check that case fans aren't obstructed
 6. Enable noise suppression in your video app
 
-## Building a Quieter Development Environment
+### Step 5: Build a Quieter Development Environment
 
 For developers spending hours on calls, investing time into a quieter setup pays dividends. The steps above—software configuration, fan curve tuning, and selective hardware upgrades—combine to create a system that stays quiet during meetings but still performs when you're compiling code or running tests.
 
@@ -185,7 +195,7 @@ Start with the free software tweaks. They take minutes and often provide immedia
 
 Remember: your setup doesn't need to be silent—your colleagues simply shouldn't hear your cooling system over your voice.
 
-## Hardware Upgrade Cost-Benefit Analysis
+### Step 6: Hardware Upgrade Cost-Benefit Analysis
 
 Reducing fan noise often requires small hardware investments. Here's what each upgrade costs and what noise reduction it delivers:
 
@@ -201,7 +211,7 @@ Reducing fan noise often requires small hardware investments. Here's what each u
 
 Most developers see best results from thermal paste + one quiet fan replacement ($40-60 total, 10-15°C cooler systems). This typically eliminates call-disrupting noise without expensive CPU cooler replacement.
 
-## Specific Quiet Fan Recommendations
+### Step 7: Specific Quiet Fan Recommendations
 
 Not all quiet fans are equal. Real-world options for developers:
 
@@ -234,7 +244,7 @@ Not all quiet fans are equal. Real-world options for developers:
 - Noise: Pad itself is quiet; reduces laptop fan noise 2-3 dBA
 - Trade-off: Only works for laptops; requires desk space
 
-## Real Configuration Examples
+### Step 8: Real Configuration Examples
 
 ### Minimal Setup (Zero Cost)
 
@@ -294,7 +304,7 @@ For developers on Mac or without RTX: Krisp free tier ($0) covers 60 minutes mon
 
 For Linux: NoiseTorch (free, open source) beats everything else if you're comfortable with PulseAudio.
 
-## Pre-Call Routine: 2-Minute Optimization
+### Step 9: Pre-Call Routine: 2-Minute Optimization
 
 Experienced remote workers run this check before every important call:
 
@@ -344,6 +354,21 @@ Consider your situation:
 - You'll replace the PC in under a year anyway
 
 The cost-benefit math: A $30 fan upgrade preventing even one "can you mute your fan?" message per month is worth it. A $150 CPU cooler upgrade is worth it only if you're in calls daily for years.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

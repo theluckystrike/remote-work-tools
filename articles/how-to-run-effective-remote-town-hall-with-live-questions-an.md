@@ -38,7 +38,17 @@ Distributed teams accumulate a specific kind of trust debt when leadership commu
 
 Regular town halls address this by creating a scheduled, recorded, searchable communication event that everyone can access on equal terms. The engineer who joined last week gets the same context as the founding team member. The parent who needs to take a call during the live event can watch the recording with the same understanding as someone who attended live. This equity in information access is itself a team coordination tool—it reduces the status-checking behavior that consumes time in information-scarce environments.
 
-## Pre-Event Preparation
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Pre-Event Preparation
 
 ### Setting Up Your Question Collection System
 
@@ -111,7 +121,7 @@ A tight agenda keeps town halls productive. Aim for 45-60 minutes total with the
 
 Share the agenda 24 hours in advance so attendees can prepare questions relevant to specific topics.
 
-## Running the Live Session
+### Step 2: Run the Live Session
 
 ### Technical Setup
 
@@ -147,7 +157,7 @@ Example Slido poll formats:
 
 The upvoting feature in Slido and similar tools serves a coordination function: it surfaces questions that resonate with many attendees without requiring the moderator to manually gauge audience reaction. When 40 people upvote a question about on-call rotation policy, that is a signal the topic deserves more than a two-sentence answer.
 
-## Async Follow-Up Strategies
+### Step 3: Async Follow-Up Strategies
 
 The real value of a remote town hall comes from what happens after the live session ends. Async follow-up ensures that:
 
@@ -180,7 +190,7 @@ Adding a timestamped index to your recording is a high-ROI investment that takes
 Create a follow-up document that organizes responses by question. This becomes a searchable knowledge base:
 
 ```markdown
-## Town Hall Follow-Up - March 16, 2026
+### Step 4: Town Hall Follow-Up - March 16, 2026
 
 ### Q: Will we be migrating to the new authentication service this quarter?
 **Asked by**: Sarah K. | **Category**: Technical Decisions
@@ -234,7 +244,7 @@ At the start of the next town hall, spend two minutes reviewing any open action 
 
 For teams using Notion or Confluence, a simple database with town hall action items—tagged by assignee, status, and due date—makes this review take 90 seconds rather than 10 minutes. The database view filtered to "open items from last session" is the only thing you need on screen for this segment.
 
-## Making It Sustainable
+### Step 5: Making It Sustainable
 
 Remote town halls work best when they're consistent and bounded. Don't try to address every issue in every session. Build trust with your team by:
 
@@ -245,6 +255,21 @@ Remote town halls work best when they're consistent and bounded. Don't try to ad
 - Celebrating specific team contributions, not just shipped features
 
 The combination of live engagement and async follow-up creates a communication loop that respects different work styles and time zones while maintaining the transparency that distributed teams need to function effectively. Consistency matters more than production quality—a simple, reliable 50-minute town hall every four weeks builds more cohesion than an elaborate quarterly event that feels disconnected from daily work.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

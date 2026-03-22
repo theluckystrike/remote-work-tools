@@ -55,13 +55,23 @@ Hardware acceleration uses your GPU for rendering, which generates heat.
 - **They have direct access to system APIs**: better resource management, and fewer background processes.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Understanding the Thermal Problem
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Thermal Problem
 
 Video calling applications are resource-hungry. A typical video call involves multiple concurrent processes: video encoding and decoding, audio processing, network transmission, UI rendering, and notification handling. On integrated graphics machines, the GPU handles display and video simultaneously, doubling thermal load. Even dedicated GPU setups can struggle when fans cannot dissipate heat quickly enough.
 
 When your laptop reaches critical temperatures, throttling kicks in. Your CPU and GPU clock speeds drop, applications lag, fans spin louder, and the keyboard or palm rest becomes uncomfortable. Preventing this requires a two-pronged approach: reducing thermal generation and improving heat dissipation.
 
-## Monitoring Your System Temperatures
+### Step 2: Monitor Your System Temperatures
 
 Before optimizing, you need visibility into what's happening. Several tools provide real-time temperature data.
 
@@ -112,7 +122,7 @@ glances
 
 Glances displays CPU temperature alongside CPU, memory, and network usage—useful for identifying which application is generating the most heat.
 
-## Identifying Resource-Hungry Processes
+### Step 3: Identifying Resource-Hungry Processes
 
 When temperatures spike, you need to identify the culprits. Video calls involve many processes, but often one misbehaving tab or application creates disproportionate load.
 
@@ -154,7 +164,7 @@ done
 
 Run this in a terminal window while in a video call to correlate temperature spikes with specific applications.
 
-## Browser Optimization for Video Calls
+### Step 4: Browser Optimization for Video Calls
 
 Browsers often consume more resources than dedicated applications. If you use web-based video calls, these optimizations help:
 
@@ -190,7 +200,7 @@ pkill -f "Chrome" --older-than 3600  # Kill Chrome tabs open > 1 hour
 
 Desktop applications like Zoom, Teams, and Slack typically perform better than browser versions. They have direct access to system APIs, better resource management, and fewer background processes.
 
-## System-Level Optimizations
+### Step 5: System-Level Optimizations
 
 ### Power Settings
 
@@ -245,7 +255,7 @@ Script to remind yourself about positioning:
 notify-send "Thermal Check" "Consider: ✓ Laptop stand? ✓ External fan? ✓ Ventilation?" --expire-time=10
 ```
 
-## Application-Specific Optimizations
+### Step 6: Application-Specific Optimizations
 
 ### Video Quality Settings
 
@@ -273,7 +283,7 @@ Some video apps allow QoS configuration. For example, Zoom allows reducing bandw
 open -a "Zoom.us" --args --disable-video
 ```
 
-## Proactive Monitoring Scripts
+### Step 7: Proactive Monitoring Scripts
 
 Create a thermal monitoring script that alerts you before critical temperatures:
 
@@ -296,7 +306,7 @@ Run this via cron every 5 minutes during calls:
 */5 * * * * /path/to/thermal-alert.sh
 ```
 
-## Building a Video Call Thermal Workflow
+### Step 8: Build a Video Call Thermal Workflow
 
 Combining these techniques creates a sustainable workflow:
 
@@ -310,6 +320,21 @@ For developers with regular long calls, create a shell alias for quick setup:
 # Add to .zshrc or .bashrc
 alias call-mode='osascript -e "set volume output volume 40"; istats fan min 3000; echo "Call mode activated"'
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

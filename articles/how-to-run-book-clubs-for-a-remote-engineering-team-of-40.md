@@ -42,7 +42,17 @@ This guide walks you through setting up a book club that scales to 40 remote eng
 - **Pick one book**: set up your async channel, and schedule one live session.
 - **A 40-person remote engineering**: team can absolutely run a thriving book club—it just requires different tactics than a small in-person group.
 
-## Structuring Your Book Club Format
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Structuring Your Book Club Format
 
 With 40 people, expecting synchronous participation in every session creates scheduling nightmares. Instead, design your book club with two complementary tracks:
 
@@ -69,7 +79,7 @@ def get_meeting_time(month, team_timezones):
     return rotations[month % 3 + 1]
 ```
 
-## Choosing Books That Actually Matter
+### Step 2: Choose Books That Actually Matter
 
 For an engineering team of 40, selecting books that resonate with your technical work increases engagement significantly. Focus on three categories:
 
@@ -81,7 +91,7 @@ Team Dynamics: "Team Topologies" or "The Manager's Path" address how we work tog
 
 Create a simple voting mechanism using a Google Form or Notion database. Present 3-4 options each quarter and let the team vote. This builds ownership and ensures people actually want to read the chosen book.
 
-## Setting Up Async Discussion Infrastructure
+### Step 3: Set Up Async Discussion Infrastructure
 
 Create a dedicated space for ongoing conversation. A well-structured async discussion includes:
 
@@ -103,7 +113,7 @@ Here's a template for weekly async prompts:
 Reply by Thursday for synthesis into live session topics.
 ```
 
-## Making Live Sessions Worth Attending
+### Step 4: Making Live Sessions Worth Attending
 
 With 40 people, full-group discussions become unwieldy. Use these techniques to keep sessions productive:
 
@@ -126,7 +136,7 @@ facilitator_schedule:
 
 Timebox Ruthlessly: Keep live sessions to 45 minutes maximum. Short, focused sessions respect everyone's calendar and maintain energy.
 
-## Handling Participation at Scale
+### Step 5: Handling Participation at Scale
 
 Forty people means varied reading speeds and availability. Build flexibility into your program:
 
@@ -136,7 +146,7 @@ Optional Live Attendance: Make the monthly live session optional. Record it for 
 
 Chapter Highlights: For longer books, designate volunteers to write one-paragraph summaries of each chapter. These become reference material and help people catch up quickly.
 
-## Measuring Success Without Killing the Joy
+### Step 6: Measuring Success Without Killing the Joy
 
 Avoid turning your book club into a metrics-driven obligation. Instead, track simple indicators:
 
@@ -159,7 +169,7 @@ Month 3: Final chapters discussion. Quick team survey on next quarter's book. Ce
 
 Keep the rhythm predictable so people can plan around it. Consistency beats intensity for long-term engagement.
 
-## Common Pitfalls to Avoid
+### Step 7: Common Pitfalls to Avoid
 
 Picking Too Many Books: One book per quarter is plenty. Rushing through books defeats the learning purpose.
 
@@ -175,7 +185,7 @@ Start small. Pick one book, set up your async channel, and schedule one live ses
 
 A 40-person remote engineering team can absolutely run a thriving book club—it just requires different tactics than a small in-person group. Embrace async, rotate fairly, and keep the discussions focused on what matters to your team's work.
 
-## Building Engagement with Incentives
+### Step 8: Build Engagement with Incentives
 
 Some teams find that optional book clubs struggle with participation. Light incentives improve engagement without creating obligation:
 
@@ -192,7 +202,7 @@ Some teams find that optional book clubs struggle with participation. Light ince
 
 The key is keeping incentives light enough that they don't create pressure, but present enough that they signal the book club's importance.
 
-## Content Beyond Published Books
+### Step 9: Content Beyond Published Books
 
 Some teams find success mixing traditional books with custom content:
 
@@ -210,29 +220,29 @@ Some teams find success mixing traditional books with custom content:
 - Mix 1 paper per month with a traditional book
 - Pairs well with senior engineers seeking intellectual depth
 
-## Handling Controversial Books
+### Step 10: Handling Controversial Books
 
 Technical books aren't always neutral. Books on management, technology ethics, or social impact sometimes surface disagreements. Here's how to handle it:
 
 ```markdown
 # Book Club: Handling Disagreement and Controversy
 
-## Principle
+### Step 11: Principle
 We read diverse perspectives. Disagreement signals good discussion material.
 
-## Norms During Discussions
+### Step 12: Norms During Discussions
 - Focus on ideas, not people
 - Ask clarifying questions before disagreeing
 - "I see it differently because..." beats "That's wrong"
 - Disagree in discussions, not in sidebar channels
 
-## If a Book Creates Tension
+### Step 13: If a Book Creates Tension
 1. Acknowledge the disagreement in your live session
 2. Normalize it: "This book raises important questions people reasonably disagree on"
 3. Offer a "dissenting opinion" channel for those wanting deeper discussion
 4. Don't suppress the disagreement—excavate it productively
 
-## Books to Approach Thoughtfully
+### Step 14: Books to Approach Thoughtfully
 - Books on politics or ideology
 - Books critiquing technology's social impact
 - Books proposing controversial engineering practices
@@ -243,7 +253,7 @@ The goal is learning together, which includes learning from disagreement.
 
 This framing turns potential controversy into learning opportunities.
 
-## Book Club for Distributed Sub-Teams
+### Step 15: Book Club for Distributed Sub-Teams
 
 If your 40-person team spans multiple sub-teams with different focuses (backend, frontend, infrastructure), consider sub-team book clubs:
 
@@ -276,7 +286,7 @@ Book_Club_Structure:
 
 This model provides company-wide cohesion (quarterly company book) while allowing teams to dive deep on their specific domains.
 
-## Measuring Impact Beyond Metrics
+### Step 16: Measuring Impact Beyond Metrics
 
 Book clubs succeed when they influence how people work together. Look for:
 
@@ -287,7 +297,7 @@ Book clubs succeed when they influence how people work together. Look for:
 
 These soft signals matter more than attendance rates. A book club where 15 people deeply engaged beats one where 40 show up half-engaged.
 
-## Evolving Your Book Club Over Time
+### Step 17: Evolving Your Book Club Over Time
 
 Year 1: Establish the basics. Pick accessible books, build the habit, keep it simple.
 
@@ -296,6 +306,21 @@ Year 2: Experiment. Try different formats. Include non-technical books. Test aut
 Year 3+: Customize to your team's maturity. Mix challenging technical books with culture-building reads. Support self-selected sub-team clubs. Measure and refine based on team feedback.
 
 Your book club is a living program that evolves with your team's interests and needs.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
