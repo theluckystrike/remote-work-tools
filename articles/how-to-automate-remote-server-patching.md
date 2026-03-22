@@ -305,6 +305,179 @@ ansible-playbook playbooks/patch-report.yml
 cat /tmp/patch-report.csv | column -t -s,
 ```
 
+## Handling Reboot Coordination Across Distributed Teams
+
+Rebooting production servers across multiple time zones without notice is how outages happen at 4am for someone. Build a reboot coordination workflow:
+
+```yaml
+# playbooks/reboot-notify.yml
+---
+- name: Coordinate reboot with team
+  hosts: localhost
+  tasks:
+    - name: Post reboot notice to Slack
+      uri:
+        url: "{{ slack_webhook }}"
+        method: POST
+        body_format: json
+        body:
+          text: |
+            :warning: *Scheduled reboot in 30 minutes*
+            Hosts: {{ groups[target_group] | join(', ') }}
+            Window: {{ ansible_date_time.date }} {{ ansible_date_time.hour }}:{{ ansible_date_time.minute }} UTC
+            Reason: Post-patch kernel update
+            Owner: {{ lookup('env', 'USER') }}
+            React with :white_check_mark: to acknowledge or :x: to delay.
+      when: slack_webhook is defined
+
+    - name: Wait for acknowledgement window
+      pause:
+        seconds: 1800  # 30 minutes
+        prompt: "Press Enter to proceed with reboots, Ctrl+C to abort"
+```
+
+For fully automated overnight patching, skip the pause and rely on the maintenance window enforcement in the playbook to prevent accidental daytime reboots.
+
+## Inventory Management for Heterogeneous Fleets
+
+Real fleets mix Ubuntu, RHEL, Debian, and Amazon Linux. Structure your inventory to handle this cleanly:
+
+```ini
+# inventory/production.ini
+[webservers]
+web-01.example.com  ansible_python_interpreter=/usr/bin/python3
+web-02.example.com  ansible_python_interpreter=/usr/bin/python3
+
+[dbservers]
+db-01.example.com   patch_priority=critical
+db-02.example.com   patch_priority=critical
+
+[monitoring]
+grafana-01.example.com  reboot_ok=false  # Never auto-reboot monitoring
+
+[ubuntu:children]
+webservers
+
+[rhel:children]
+dbservers
+
+[all:vars]
+ansible_user=deploy
+ansible_ssh_private_key_file=~/.ssh/deploy_key
+enforce_maintenance_window=true
+allow_reboot=false
+```
+
+```yaml
+# group_vars/ubuntu.yml
+patch_manager: apt
+kernel_update_pkg: linux-image-generic
+
+# group_vars/rhel.yml
+patch_manager: dnf
+kernel_update_pkg: kernel
+```
+
+This structure lets you run the same playbook across mixed OS environments without conditionals scattered throughout the tasks.
+
+## Kernel Live Patching for Zero-Downtime Security Fixes
+
+For servers that cannot tolerate any reboot, kernel live patching applies security fixes to the running kernel without a restart. On Ubuntu:
+
+```bash
+# Enable Canonical Livepatch
+sudo snap install canonical-livepatch
+sudo canonical-livepatch enable <your-token>
+
+# Check live patch status
+sudo canonical-livepatch status --verbose
+```
+
+On RHEL/CentOS with kpatch:
+
+```bash
+# Install kpatch
+sudo dnf install kpatch
+
+# List available patches
+sudo kpatch list
+
+# Load a patch (no reboot required)
+sudo kpatch load /usr/lib/kpatch/$(uname -r)/kpatch-*.ko
+
+# Make persistent across reboots
+sudo kpatch install /usr/lib/kpatch/$(uname -r)/kpatch-*.ko
+```
+
+Live patching does not replace traditional patching — it handles critical CVEs between maintenance windows, not a permanent substitute. Schedule full reboots quarterly even for live-patched servers to apply accumulated package updates.
+
+## Integrating Patch Status with Your Monitoring Stack
+
+Patching without observability means you do not know when it breaks something. Push patch results to your monitoring:
+
+```bash
+# Push patch metrics to Prometheus pushgateway
+push_metric() {
+  local HOST=$1
+  local PACKAGES_UPDATED=$2
+  local REBOOT_REQUIRED=$3
+
+  cat <<EOF | curl -s --data-binary @- \
+    "http://pushgateway.example.com:9091/metrics/job/ansible_patching/instance/${HOST}"
+ansible_last_patch_timestamp $(date +%s)
+ansible_packages_updated_total ${PACKAGES_UPDATED}
+ansible_reboot_required ${REBOOT_REQUIRED}
+EOF
+}
+
+# Call from your patching script after completion
+push_metric "web-01" "23" "0"
+```
+
+In Grafana, build a "Patch Compliance" dashboard with:
+- Hosts patched in the last 7 days (green)
+- Hosts awaiting reboot (yellow)
+- Hosts not patched in 30+ days (red alert)
+
+Set an alert on the red panel that fires to `#ops` if any production host exceeds 30 days without a patch run. This gives your security team a live compliance view without manual spreadsheet updates.
+
+## Testing Patches in a Staging Pipeline
+
+Never patch production without a staging run. Add a sequential pipeline:
+
+```bash
+#!/bin/bash
+# patch-pipeline.sh — run staging first, then prod after validation
+
+set -e
+
+echo "=== Patching staging ==="
+ansible-playbook playbooks/patch.yml \
+  -e "target_hosts=staging" \
+  -e "enforce_maintenance_window=false" \
+  -e "allow_reboot=true"
+
+echo "=== Running smoke tests against staging ==="
+./scripts/smoke-test.sh staging.example.com
+SMOKE_RESULT=$?
+
+if [ $SMOKE_RESULT -ne 0 ]; then
+  echo "Staging smoke tests FAILED — aborting production patching"
+  curl -s -X POST "$SLACK_WEBHOOK" \
+    -H "Content-type: application/json" \
+    -d '{"text":":x: Patch pipeline aborted — staging smoke tests failed. Production patching skipped."}'
+  exit 1
+fi
+
+echo "=== Staging clean — patching production ==="
+ansible-playbook playbooks/patch.yml \
+  -e "target_hosts=production" \
+  -e "allow_reboot=true" \
+  -e "batch_size=1"
+```
+
+This pattern catches kernel incompatibilities, application crashes after library upgrades, and config file changes introduced by package updates before they hit your production servers.
+
 ## Related Reading
 
 - [How to Set Up Ansible for Remote Server Management](/remote-work-tools/how-to-set-up-ansible-remote-server-management/)
