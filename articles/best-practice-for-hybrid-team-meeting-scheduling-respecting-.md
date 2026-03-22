@@ -197,6 +197,140 @@ Track whether your hybrid meeting practices actually work:
 
 If you see disparities, iterate on your meeting formats. The goal is equitable outcomes, not performative inclusion.
 
+## Meeting Scheduling Implementation: Real Examples
+
+### Example 1: US + Europe Team (8am-6pm overlap window)
+
+Team composition: 5 in PST, 3 in CET, 2 in UTC
+
+```
+Available overlap: 8am PST = 5pm CET = 4pm UTC (only 3 hours daily)
+
+Meeting schedule:
+- 9am PST / 6pm CET / 5pm UTC: Standup (30 min)
+- 2pm PST / 11pm CET / 10pm UTC: AVOID (CET too late)
+- Alternative: Rotate async standups, one sync/week at 4pm PST (1am CET next day)
+
+Decision: Skip daily sync meetings. Do async Friday updates instead.
+One mandatory weekly sync at rotating time (favor whichever region needs it most).
+```
+
+### Example 2: US + India + Europe (30-min overlap only)
+
+Team: 4 PST, 3 IST, 2 CET
+
+```
+IST is 13.5 hours ahead of PST.
+Hard overlap: Only 12:30am-1am PST = 2-3pm IST = 1:30-2:30am CET next day
+
+This is untenable for synchronous work.
+
+Solution: Fully async operations with daily async standups.
+One monthly all-hands at: 11am PST / 12:30am IST / 8pm CET (previous day)
+Deliberately inconvenient for everyone — makes the point that sync is rare.
+```
+
+### Example 3: All US Team (Distributed Across Zones)
+
+Team: 8 PST, 6 CST, 5 EST
+
+```
+Overlap: 8am PST = 10am CST = 11am EST (all day overlap)
+
+Problem to solve: PST folks tired early, EST folks tired late
+
+Schedule:
+- 10am PT core hours (all must be available)
+- Standup: 10:15am PT (all zones reasonable)
+- Deep work blocks: 11am-1pm PT (no meetings)
+- Team meetings: 10:30am-12pm PT, or 3-4pm PT
+
+Result: Symmetric treatment, no zone feels neglected.
+```
+
+## Building Meeting-Free Blocks into Calendar Systems
+
+The most practical tool is automatic calendar integration:
+
+```python
+# Calendar enforcement script (runs weekly)
+import calendar_api
+import config
+
+def protect_deep_work_blocks():
+    """Block deep work time across all team calendars"""
+
+    team_members = config.ENGINEERING_TEAM
+
+    for person in team_members:
+        cal = calendar_api.get_calendar(person.email)
+
+        # Protect Wednesday 9am-12pm for deep work
+        deep_work_event = {
+            'title': 'Deep Work Block (no meetings)',
+            'time': '09:00-12:00',
+            'day_of_week': 'Wednesday',
+            'recurring': True,
+            'visibility': 'busy',  # Don't schedule over this
+            'description': 'Individual focus time. Async communication only.'
+        }
+
+        cal.create_event(deep_work_event)
+
+        # Protect Fridays after 3pm for wrap-up
+        wrap_up_event = {
+            'title': 'End-of-week wrap-up',
+            'time': '15:00-17:00',
+            'day_of_week': 'Friday',
+            'recurring': True,
+            'visibility': 'busy'
+        }
+
+        cal.create_event(wrap_up_event)
+
+if __name__ == '__main__':
+    protect_deep_work_blocks()
+    print("Calendar blocks protected for all engineers")
+```
+
+This ensures no one can accidentally over-schedule, protecting time that enables async work to succeed.
+
+## Auditing Your Current Meeting Load
+
+Before optimizing, measure the current state:
+
+```javascript
+// Weekly meeting audit
+const audit = {
+  total_hours_in_meetings_per_person: 0,
+  meeting_breakdown: {
+    standups: 0,
+    1on1s: 0,
+    project_planning: 0,
+    stakeholder_reviews: 0,
+    social: 0,
+    other: 0
+  },
+
+  questions_to_answer: [
+    'Do half of these meetings need to be synchronous?',
+    'Which meetings block async work?',
+    'Which meetings could be recorded async updates instead?',
+    'Are recurring meetings re-evaluated quarterly?',
+    'Do we have default 25/50 minute slots instead of full hours?'
+  ]
+};
+
+// Recommendation: If any person is in >10 hours of meetings/week,
+// you have a scheduling problem, not a meeting problem.
+```
+
+Audit your last month of calendars. Tag every meeting type. Most teams discover that:
+- 30-40% of meeting time is optional
+- 20-30% could be async updates instead
+- 20-30% is recurring meetings that haven't been re-evaluated in 2+ years
+- Only 10-20% is genuinely necessary sync time
+
 
 ## Frequently Asked Questions
 

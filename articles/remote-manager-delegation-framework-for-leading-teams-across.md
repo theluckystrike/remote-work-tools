@@ -193,6 +193,64 @@ The framework scales: with three people, you know everything they do. With thirt
 
 ---
 
+## Measuring Delegation Effectiveness
+
+You can't improve what you don't measure. Track these delegation metrics monthly:
+
+```yaml
+# Delegation Health Metrics
+
+Velocity metrics:
+  - Decision cycle time (ask → decision made)
+  - Current: 48-72 hours
+  - Target: 24-48 hours
+  - How: Time-stamp decisions in Slack/docs
+
+Autonomy metrics:
+  - % of Tier 1 decisions made without manager approval
+  - Current: Track this month
+  - Target: 95%+
+  - How: Review PRs and pull request decision logs
+
+Quality metrics:
+  - Decision reversals (manager overrides IC decision)
+  - Current: Track this month
+  - Target: <5% per month
+  - How: Count reversals, note reasons
+
+Confidence metrics:
+  - Survey: "Do you know what you can decide without asking?"
+  - Target: 90%+ agreement
+  - Frequency: Monthly pulse check
+```
+
+If cycle time is >48 hours, you're still bottlenecking. If reversals >10%, your tier definitions need clarity.
+
+## Scaling Delegation to 30+ Reports
+
+The framework above works for teams up to 15-20. Scaling larger requires delegation multiplication—training other leaders to delegate the same way.
+
+When hiring your first team leads or senior engineers into management:
+
+1. Share your delegation matrix explicitly
+2. Have them audit their own delegation patterns
+3. Schedule monthly "delegation calibration" calls (30 min) to align on tier assignments
+4. Build delegation metrics into your team leads' performance reviews
+
+```markdown
+## Delegation Readiness Checklist for New Managers
+
+- [ ] Tier matrix documented and shared with team
+- [ ] All Tier 4 decisions explicitly listed (nothing ambiguous)
+- [ ] Team has asked 3+ questions and received async answers
+- [ ] No reversal of a Tier 1 or 2 decision without discussion
+- [ ] Decision records tracked and referenced when reviewed
+- [ ] Weekly updates collected async
+- [ ] Escalation path clear to team members
+```
+
+The mistake most managers make when scaling: trying to personally approve every Tier 2 and 3 decision. This doesn't scale. Instead, teach your team leads to own delegation in their domains, then spot-check their decisions monthly.
+
 Next steps: Audit your current workload. Categorize your tasks using the four tiers. Move everything you can to Tier 1 or 2. Document your delegation matrix and share it with your team. Then protect your time for the decisions that actually need you.
 
 
