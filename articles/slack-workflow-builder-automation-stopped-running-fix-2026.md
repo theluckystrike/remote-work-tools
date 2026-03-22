@@ -126,6 +126,13 @@ Community forums and user groups often contain solutions to less common workflow
 
 ---
 
+
+## Related Articles
+
+- [How to Create Async Standup Templates in Slack](/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [Best Onboarding Automation Workflow for Remote Companies](/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+- [Simple Slack kudos automation using Slack API](/best-remote-employee-recognition-program-ideas-for-distribut/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 

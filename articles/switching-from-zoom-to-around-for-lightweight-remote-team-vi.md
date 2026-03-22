@@ -425,6 +425,13 @@ Around desktop app (idle): ~80-120 MB RAM
 
 On older laptops or virtual machines, this difference affects system responsiveness during long workdays.
 
+
+## Related Articles
+
+- [How to Build a Remote Team Handbook from Scratch](/how-to-build-a-remote-team-handbook-from-scratch/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [How to Build a Remote Team Troubleshooting Guide from Past](/how-to-build-remote-team-troubleshooting-guide-from-past-inc/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 

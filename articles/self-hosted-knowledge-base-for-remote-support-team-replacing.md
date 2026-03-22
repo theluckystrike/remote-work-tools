@@ -250,6 +250,13 @@ tar -czf /backups/wiki_uploads_${DATE}.tar.gz /var/lib/docker/volumes/wiki_uploa
 find /backups -mtime +30 -delete
 ```
 
+
+## Related Articles
+
+- [Best Knowledge Base Platform for Remote Support Team](/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [Best Knowledge Base Tool for Remote Team That Works Offline](/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
+- [Best Tools for Remote Team Knowledge Base 2026](/best-tools-for-remote-team-knowledge-base-2026/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 
