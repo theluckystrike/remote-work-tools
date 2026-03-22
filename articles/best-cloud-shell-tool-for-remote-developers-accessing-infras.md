@@ -9,6 +9,7 @@ permalink: /best-cloud-shell-tool-for-remote-developers-accessing-infras/
 reviewed: true
 score: 8
 categories: [best-of]
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 
