@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /remote-work-voip-setup-for-home-offices/
 categories: [guides]
 reviewed: true
-score: 6
+score: 8
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
