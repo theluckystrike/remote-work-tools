@@ -10,24 +10,13 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
 Style guides solve a specific remote work problem: code review comments about formatting and naming conventions. In a co-located team, a junior engineer can sit next to a senior and absorb conventions through proximity. In a remote team, they discover them through review feedback at PR time — which is slow and demoralizing. A style guide with automated enforcement eliminates 80% of stylistic review comments, freeing code review time for actual logic.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: What Belongs in a Style Guide
+## What Belongs in a Style Guide
 
 An engineering style guide for remote teams should cover:
 
@@ -40,7 +29,7 @@ An engineering style guide for remote teams should cover:
 
 Anything in the style guide that isn't automated will be inconsistently followed. Prioritize enforcing what you can.
 
-### Step 2: Code Style: Automate Everything
+## Code Style: Automate Everything
 
 ```yaml
 # .github/workflows/lint.yml
@@ -118,14 +107,14 @@ strict = true
 }
 ```
 
-### Step 3: Naming Conventions Document
+## Naming Conventions Document
 
 Conventions that can't be linted must be documented clearly:
 
 ```markdown
 # Naming Conventions
 
-### Step 4: Python
+## Python
 
 ### Functions
 - Use snake_case for all functions
@@ -150,14 +139,14 @@ Conventions that can't be linted must be documented clearly:
 - UPPER_SNAKE_CASE
 - Group related constants in Enum or TypedDict, not scattered globals
 
-### Step 5: API Endpoints
+## API Endpoints
 
 - Resource names: plural nouns (/users, /orders, not /user, /order)
 - Nested resources: /users/{id}/orders (2 levels max)
 - Actions that don't map to CRUD: POST /orders/{id}/cancel
 - No verbs in resource names: /orders not /getOrders
 
-### Step 6: Database
+## Database
 
 - Table names: plural snake_case (users, order_items)
 - Column names: snake_case
@@ -167,7 +156,7 @@ Conventions that can't be linted must be documented clearly:
 - Index names: ix_{table}_{column} or uq_{table}_{column}
 ```
 
-### Step 7: Commit Message Convention
+## Commit Message Convention
 
 Conventional Commits + commitlint:
 
@@ -225,36 +214,75 @@ perf(search): add composite index for status+created_at filter
 docs(api): document rate limiting headers in OpenAPI spec
 ```
 
-### Step 8: PR Description Template
+## PR Description Template
 
 ```markdown
 <!-- .github/PULL_REQUEST_TEMPLATE.md -->
+## Summary
+<!-- What does this PR do? 2-3 sentences. Link to the issue or Jira ticket. -->
+
+Closes: #
+
+## Type of change
+- [ ] Bug fix (non-breaking change that fixes an issue)
+- [ ] New feature (non-breaking change that adds functionality)
+- [ ] Breaking change (fix or feature that causes existing functionality to break)
+- [ ] Refactoring (no functional changes)
+- [ ] Infrastructure / CI change
+
+## Testing
+<!-- How was this tested? -->
+- [ ] Unit tests added/updated
+- [ ] Integration tests added/updated
+- [ ] Tested locally against staging data
+- [ ] Manual QA steps (describe below if applicable)
+
+## Database changes
+- [ ] No database changes
+- [ ] Migration included — migration is backward compatible
+- [ ] Migration included — requires deployment coordination (explain below)
+
+## Checklist
+- [ ] Code follows the team style guide
+- [ ] Self-review completed
+- [ ] Documentation updated (if applicable)
+- [ ] No secrets or credentials in code
+
+## Notes for reviewers
+<!-- Anything specific you want reviewers to focus on? -->
+```
+
+## Publishing the Style Guide
+
+Store the style guide in your documentation repo (or in CONTRIBUTING.md in the main repo):
+
+```markdown
 # CONTRIBUTING.md structure
 
-### Step 15: Quick Start
+## Quick Start
 [How to set up the dev environment in 5 commands]
 
-### Step 16: Style Guide
+## Style Guide
 [Link to full style guide or inline if short]
 
-### Step 17: Branching Strategy
+## Branching Strategy
 - main: always deployable
 - feature/: new features, branched from main
 - fix/: bug fixes, branched from main
 - No long-lived branches
 
-### Step 18: PR Process
+## PR Process
 1. Create PR
 2. CI checks must pass
 3. One approving review required (two for production-critical paths)
 4. Squash merge only
 5. Delete branch after merge
 
-### Step 19: ADR Process
+## ADR Process
 [When to write an ADR, where to file it]
 ```
 
-### Step 20: Enforcement Without Being Annoying
+## Enforcement Without Being Annoying
 
 The key to a style guide that engineers follow is: automate what you enforce strictly, document what you enforce lightly.
 
@@ -276,14 +304,14 @@ The key to a style guide that engineers follow is: automate what you enforce str
 
 Trying to enforce naming conventions with AST tools leads to engineer frustration. Document them clearly, mention them in onboarding, and leave them for code review feedback.
 
-### Step 21: Onboarding New Engineers to the Style Guide
+## Onboarding New Engineers to the Style Guide
 
 The style guide is useless if new engineers don't know it exists. A structured onboarding checklist is the difference between absorbing conventions in week one versus discovering them through painful PR feedback over three months.
 
 **Onboarding checklist for style guide:**
 
 ```markdown
-### Step 22: Engineering Onboarding — Style Guide Checklist
+## Engineering Onboarding — Style Guide Checklist
 
 - [ ] Read CONTRIBUTING.md top to bottom
 - [ ] Run the linter locally: `make lint` passes on your machine
@@ -337,7 +365,7 @@ Different team setups warrant different tool choices. Here is a comparison of th
 
 For most Python projects, Ruff + Mypy covers 95% of automated enforcement. For TypeScript, ESLint + Prettier + commitlint is the standard setup.
 
-### Step 23: API Design Conventions in Practice
+## API Design Conventions in Practice
 
 API consistency problems compound in remote teams. When engineers are not in the same room, they implement endpoints independently and the inconsistencies multiply across services. Document these conventions in the style guide and include worked examples of right versus wrong:
 
@@ -368,21 +396,6 @@ API consistency problems compound in remote teams. When engineers are not in the
 - Query param (`?version=2`) — avoid; hard to cache and inconsistent
 
 Document which approach your team uses. Engineers creating new endpoints need to know without asking.
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Related Reading
 

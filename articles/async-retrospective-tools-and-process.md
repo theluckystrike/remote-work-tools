@@ -214,6 +214,78 @@ gh issue create \
 
 **Energy Radar:** Rate energy levels across: Focus, Collaboration, Communication, Delivery, Fun. Shows team health trends over time.
 
+## Decision Frameworks for Prioritizing Retro Items
+
+Not all retro feedback deserves action items. Use this framework to decide what's worth implementing:
+
+```
+For each item, score on two dimensions:
+
+IMPACT (1-5):
+- Does this affect the whole team or just one person?
+- How much time/frustration does it cause?
+- How many sprints has this been an issue?
+
+IMPLEMENTATION_COST (1-5):
+- 1 = Someone can fix it today
+- 3 = Requires process change, 2-3 hours of work
+- 5 = Architectural change, weeks of work
+
+ACTION CRITERIA:
+- Score 4+ Impact AND 1-2 Cost → DO THIS FIRST
+- Score 3+ Impact AND 1-3 Cost → DO THIS QUARTER
+- Score 5 Cost AND Any Impact → ACKNOWLEDGE but defer
+- Score <3 Impact and Any Cost → ACKNOWLEDGE but don't action
+```
+
+Example scoring:
+
+| Item | Impact | Cost | Decision |
+|------|--------|------|----------|
+| "Slack is too loud" | 4 | 1 | Implement quiet hours |
+| "We need better monitoring" | 5 | 5 | Design async, plan for Q3 |
+| "Code review feedback loop is slow" | 4 | 2 | Set response time SLAs |
+| "Meeting rooms too small" | 2 | 5 | Acknowledge, don't action |
+
+## Preventing Retro Fatigue
+
+Teams that run retros poorly often stop running them. Prevent burnout by:
+
+**Varying the format every 2-3 sprints**: Same format every week becomes rote. Mix between Start/Stop/Continue, 4Ls, Energy Radar. Variety keeps participation fresh.
+
+**Celebrating wins explicitly**: Spend 5 minutes at the start recognizing what went well. "We shipped on time three sprints in a row" or "Deployment success rate hit 99%." Balance improvement focus with celebration.
+
+**Action item follow-up**: Each retro starts with reviewing last sprint's action items. Did we complete them? Why or why not? This closing-the-loop step ensures retros don't feel like they produce nothing.
+
+**Hard cutoff on action items**: Limit to 2-4 action items per sprint maximum. More than that guarantees incomplete follow-through and team frustration.
+
+## Retro Participation Strategies for Distributed Teams
+
+Low participation kills async retros. Increase engagement by:
+
+**Rotating facilitators**: Each sprint, a different team member leads the retro. Brings different perspectives, prevents facilitator bottleneck, gives people leadership experience.
+
+**Anonymous input option**: Some team members have strong opinions but don't want attribution. Use anonymous retro tools (EasyRetro, Parabol) to allow this during input phase. During voting/discussion, non-anonymous is fine.
+
+**1-on-1 input collection**: If someone's been quiet, ask directly: "What went well this sprint? What should we improve?" Their answer might not show up unless prompted.
+
+**Regular 1:1 check-ins separate from retros**: Not everything belongs in a team retro. Some issues are interpersonal. Check in with individuals separately, then bring patterns to the team-level retro.
+
+**Incentivize participation**: Recognition matters. "Sarah brought up the CI/CD bottleneck early this sprint, which let us fix it proactively" → call that out in the all-hands.
+
+## Sample Retro Schedule for Engineering Teams
+
+**Sprint cycles: 2 weeks**
+
+**Monday (Sprint end, 8 AM UTC)**: Facilitator creates retro board, posts announcement
+**Monday-Tuesday (48h input window)**: Team adds items
+**Wednesday morning**: Facilitator groups items, removes author attribution
+**Wednesday (24h voting)**: Team votes on top priorities
+**Thursday morning**: Facilitator extracts action items, creates Linear/Jira tickets
+**Thursday**: Summary posted to #engineering: "Sprint 24 retro complete. Action items linked below."
+
+This schedule respects time zones while maintaining a consistent weekly rhythm.
+
 ---
 
 ## Frequently Asked Questions

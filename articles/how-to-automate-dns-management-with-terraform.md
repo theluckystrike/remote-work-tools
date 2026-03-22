@@ -33,7 +33,7 @@ tfenv install 1.6.6
 tfenv use 1.6.6
 ```
 
-### Step 1: Project Structure
+## Project Structure
 
 ```
 dns/
@@ -63,7 +63,7 @@ dns/
         └── dns.yml
 ```
 
-### Step 2: Backend Configuration
+## Backend Configuration
 
 ```hcl
 # backend.tf
@@ -89,7 +89,7 @@ aws dynamodb create-table \
   --region us-east-1
 ```
 
-### Step 3: Versions and Providers
+## Versions and Providers
 
 ```hcl
 # versions.tf
@@ -117,7 +117,7 @@ provider "cloudflare" {
 }
 ```
 
-### Step 4: Route53 Zone Module
+## Route53 Zone Module
 
 ```hcl
 # modules/route53_zone/variables.tf
@@ -178,7 +178,7 @@ resource "aws_route53_record" "aliases" {
 }
 ```
 
-### Step 5: Cloudflare Zone Module
+## Cloudflare Zone Module
 
 ```hcl
 # modules/cloudflare_zone/main.tf
@@ -259,7 +259,7 @@ module "example_com" {
 }
 ```
 
-### Step 6: Variables and tfvars
+## Variables and tfvars
 
 ```hcl
 # variables.tf
@@ -290,7 +290,7 @@ export AWS_ACCESS_KEY_ID="your-key"
 export AWS_SECRET_ACCESS_KEY="your-secret"
 ```
 
-### Step 7: Daily Workflow
+## Daily Workflow
 
 ```bash
 # Initialize (first time or after provider changes)
@@ -315,7 +315,7 @@ terraform plan -target=module.example_com.cloudflare_record.records[\"api\"]
 terraform import 'module.example_com.cloudflare_record.records["api"]' <zone_id>/<record_id>
 ```
 
-### Step 8: Configure CI/CD with GitHub Actions
+## CI/CD with GitHub Actions
 
 ```yaml
 # .github/workflows/dns.yml
@@ -392,7 +392,7 @@ jobs:
           TF_VAR_cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 ```
 
-### Step 9: Drift Detection
+## Drift Detection
 
 Scheduled job to catch manual changes:
 
@@ -409,144 +409,12 @@ Scheduled job to catch manual changes:
         # Exit code 2 = changes detected (drift)
 ```
 
-## Migrating Existing DNS Zones to Terraform
-
-Teams often start managing DNS manually and need to bring existing records into Terraform state without deleting them. The import workflow handles this safely:
-
-```bash
-# List all records in a Cloudflare zone
-curl -s -X GET "https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/dns_records" \
-  -H "Authorization: Bearer ${CF_API_TOKEN}" | \
-  jq -r '.result[] | "\(.type) \(.name) \(.id)"'
-
-# Import each record by type/name combination
-terraform import 'module.example_com.cloudflare_record.records["api"]' "${ZONE_ID}/${RECORD_ID}"
-terraform import 'module.example_com.cloudflare_record.records["mail"]' "${ZONE_ID}/${MX_RECORD_ID}"
-
-# After all imports, plan should show no changes
-terraform plan
-# Plan: 0 to add, 0 to change, 0 to destroy.
-```
-
-For large zones with dozens of records, write a script that generates Terraform resource blocks from the API output:
-
-```bash
-#!/bin/bash
-# generate-tf-records.sh
-curl -s "https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/dns_records?per_page=200" \
-  -H "Authorization: Bearer ${CF_API_TOKEN}" | \
-  jq -r '.result[] | @base64' | while read -r record; do
-    echo "$record" | base64 --decode | jq -r \
-      '"  \"\(.name)\" = {\n    type    = \"\(.type)\"\n    value   = \"\(.content)\"\n    ttl     = \(.ttl)\n    proxied = \(.proxied)\n  }"'
-  done
-```
-
-Paste the output into your module's `records` map and run `terraform import` for each entry. Once the state matches the live zone, every future change goes through pull requests.
-
-### Step 10: Manage Multiple Domains from One Repository
-
-Teams often manage DNS for several domains. A top-level `main.tf` that calls per-domain modules keeps everything organized:
-
-```hcl
-# environments/production/main.tf
-module "example_com" {
-  source              = "../../modules/cloudflare_zone"
-  domain              = "example.com"
-  cloudflare_api_token = var.cloudflare_api_token
-  enable_www_redirect = true
-  records             = local.example_com_records
-}
-
-module "api_example_com" {
-  source              = "../../modules/cloudflare_zone"
-  domain              = "api.example.com"
-  cloudflare_api_token = var.cloudflare_api_token
-  enable_www_redirect = false
-  records             = local.api_records
-}
-
-# Keep record definitions in separate locals files per domain
-# locals-example-com.tf, locals-api-example-com.tf
-# This splits the review surface so engineers only see the records relevant to their PR
-```
-
-Splitting record definitions into per-domain locals files reduces merge conflicts when multiple engineers are updating different domains simultaneously — a common scenario in remote teams where DNS changes often come from different squads at different times.
-
-### Step 11: Terraform Workspaces for Environment Separation
-
-Instead of separate `environments/staging` and `environments/production` directories, Terraform workspaces let you use a single configuration with different state files per environment:
-
-```bash
-# Create workspaces
-terraform workspace new staging
-terraform workspace new production
-
-# Switch between them
-terraform workspace select staging
-terraform plan   # Uses dns/terraform.tfstate.d/staging/terraform.tfstate
-
-terraform workspace select production
-terraform apply  # Uses dns/terraform.tfstate.d/production/terraform.tfstate
-```
-
-Reference the workspace name in your configuration to use different values per environment:
-
-```hcl
-locals {
-  env_config = {
-    staging = {
-      root_ip  = "203.0.113.5"
-      api_ip   = "203.0.113.6"
-      proxied  = false
-    }
-    production = {
-      root_ip  = "203.0.113.10"
-      api_ip   = "203.0.113.20"
-      proxied  = true
-    }
-  }
-  config = local.env_config[terraform.workspace]
-}
-
-module "example_com" {
-  source = "./modules/cloudflare_zone"
-  domain = "example.com"
-  records = {
-    "@" = {
-      type    = "A"
-      value   = local.config.root_ip
-      ttl     = 1
-      proxied = local.config.proxied
-    }
-  }
-}
-```
-
-The workspace approach works well for smaller teams. For larger organizations with strict access controls between staging and production, the separate directory approach is clearer because it makes the environment boundary explicit in the file system and easier to enforce with CODEOWNERS.
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
-
 ## Related Reading
 
 - [Terraform Remote Team Infrastructure Guide](/remote-work-tools/terraform-remote-team-infrastructure-guide/)
 - [How to Set Up Ansible for Remote Server Management](/remote-work-tools/how-to-set-up-ansible-remote-server-management/)
 - [Best Secrets Management Tool for Remote Dev Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
-
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

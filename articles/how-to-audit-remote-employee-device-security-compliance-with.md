@@ -11,8 +11,7 @@ tags: [remote-work-tools, device-security, remote-work, endpoint-security, compl
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

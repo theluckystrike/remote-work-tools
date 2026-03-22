@@ -11,8 +11,7 @@ tags: [remote-work-tools, hot-desk, booking, workspace, desk-booking, hybrid-wor
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
