@@ -40,20 +40,30 @@ This guide covers practical patterns for establishing and maintaining trust in f
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 - **Topics covered**: trust is earned in small deposits, communication patterns that build trust, over-communicate context
 
-## Trust Is Earned in Small Deposits
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Trust Is Earned in Small Deposits
 
 In remote settings, trust accumulates through small, consistent actions rather than grand gestures. Every pull request review, every status update, every meeting attendance builds or erodes your trust account. Understanding this dynamic helps you make better decisions about how you communicate and deliver work.
 
 The core principle is reliability: do what you say you will do, when you say you will do it. When this pattern breaks, the trust repair process is slow and difficult. Prevention through realistic commitments is far more effective than recovery through apologies.
 
-## Communication Patterns That Build Trust
+### Step 2: Communication Patterns That Build Trust
 
 ### Over-Communicate Context
 
 In office settings, context is shared through casual conversations and ambient awareness. Remote teams must deliberately transmit this context. When making decisions, share not just the decision but the reasoning behind it.
 
 ```markdown
-## Decision: Migrate Database to PostgreSQL
+### Step 3: Decision: Migrate Database to PostgreSQL
 
 **Decision:** We will migrate from MySQL to PostgreSQL over the next quarter.
 
@@ -105,7 +115,7 @@ A short video works well for:
 
 Tools like Loom or Vidyard integrate with common workflows. The key is keeping videos short—under three minutes when possible—and providing a written summary for accessibility and searchability.
 
-## Transparency Practices for Technical Teams
+### Step 4: Transparency Practices for Technical Teams
 
 ### Share Work Openly and Early
 
@@ -114,7 +124,7 @@ The instinct to polish work before sharing it is counterproductive in remote tea
 A simple practice: share incomplete work with explicit status markers.
 
 ```markdown
-## WIP: API Rate Limiting Implementation
+### Step 5: WIP: API Rate Limiting Implementation
 
 **Status:** In progress (60% complete)
 
@@ -148,20 +158,20 @@ When team members can find information independently, they feel enabled rather t
 ```markdown
 # ADR-003: Use Event Sourcing for User Activity Tracking
 
-## Status
+### Step 6: Status
 Accepted
 
-## Context
+### Step 7: Context
 We need to track user activity for analytics, audit trails, and personalization features.
 Traditional relational approaches have served us well, but the analytics team
 needs flexible querying and the audit team needs complete change history.
 
-## Decision
+### Step 8: Decision
 We will implement event sourcing for user activity tracking, storing each
 activity as an immutable event in Kafka, with projections to both PostgreSQL
 (for real-time queries) and Elasticsearch (for analytics).
 
-## Consequences
+### Step 9: Consequences
 ### Positive
 - Complete audit trail without additional tables
 - Easy to add new analytics views without schema changes
@@ -180,7 +190,7 @@ activity as an immutable event in Kafka, with projections to both PostgreSQL
 
 This pattern creates institutional memory and demonstrates that decisions were made thoughtfully, reducing second-guessing and building confidence in team competence.
 
-## Reliability Systems
+### Step 10: Reliability Systems
 
 ### Commit to Explicit Agreements
 
@@ -205,7 +215,7 @@ Trust grows when people see their feedback is valued and acted upon. Establish r
 
 The key is demonstrating that feedback leads to action. Track feedback and report back on what changed as a result.
 
-## Building Personal Connection
+### Step 11: Build Personal Connection
 
 Trust operates at both professional and personal levels. Remote teams often excel professionally while struggling personally, which limits the depth of collaboration possible.
 
@@ -217,7 +227,7 @@ Invest in casual interaction through:
 
 One effective practice: start each team meeting with a brief round-robin where each person shares one non-work update. Keep it to 30 seconds. Over time, these small shares build genuine connection.
 
-## Tools That Support Trust-Building
+### Step 12: Tools That Support Trust-Building
 
 While trust is fundamentally about behavior rather than tools, certain tools help trust-building practices:
 
@@ -228,6 +238,21 @@ While trust is fundamentally about behavior rather than tools, certain tools hel
 - **Status pages (GitHub Status, Atlassian Statuspage):** Demonstrates operational honesty
 
 The tool choice matters less than consistent usage. Pick tools your team will actually use and commit to them.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

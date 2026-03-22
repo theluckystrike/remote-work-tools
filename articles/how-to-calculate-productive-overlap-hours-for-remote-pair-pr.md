@@ -25,13 +25,23 @@ Remote pair programming across timezones presents unique scheduling challenges t
 - **Use Async Pairing for**: Off-Hours When overlap is insufficient for live pairing, record your screen while working through difficult code.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## What Makes Overlap Hours "Productive"
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: What Makes Overlap Hours "Productive"
 
 Not all overlapping hours are equally valuable for pair programming. Productive overlap hours share three characteristics: both developers are within their core working hours, the session fits naturally into both schedules without forcing early mornings or late nights, and enough time exists for meaningful collaboration—not just quick syncs.
 
 A 30-minute overlap might work for a quick code review, but pair programming on a complex feature typically needs 2-3 hour blocks. Understanding this helps you calculate which overlap windows actually work for your team.
 
-## The Calculation Framework
+### Step 2: The Calculation Framework
 
 Start by defining each team member's working window. Most developers work standard hours, but remote work often allows flexibility. Let's establish a baseline:
 
@@ -85,7 +95,7 @@ function findOverlap(devA, devB) {
 }
 ```
 
-## Real-World Scenarios
+### Step 3: Real-World Scenarios
 
 ### San Francisco (PST) and Berlin (CET)
 
@@ -142,7 +152,7 @@ def calculate_overlap_with_boundary(team_a, team_b):
 
 For NY-Bangalore, the practical overlap is 1:30 PM - 5:00 PM EST (Bangalore's late afternoon, NY's early afternoon).
 
-## Maximizing Productive Pair Time
+### Step 4: Maximizing Productive Pair Time
 
 Once you calculate overlap windows, optimize how you use them:
 
@@ -170,7 +180,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - Started working on feature X" >> pairing-lo
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Pausing for async handoff" >> pairing-log.md
 ```
 
-## Tool Recommendations
+### Step 5: Tool Recommendations
 
 Several tools simplify timezone overlap calculations:
 
@@ -180,7 +190,7 @@ Several tools simplify timezone overlap calculations:
 
 For teams using calendar apps, Clockwise and Reclaim.ai automatically find optimal meeting slots across timezones.
 
-## Calculating Overlap for Three or More Timezones
+### Step 6: Calculating Overlap for Three or More Timezones
 
 When teams span three or more regions, calculation becomes complex. Here's how to handle multiple zones systematically:
 
@@ -240,7 +250,7 @@ result = find_overlap_hours(team)
 print(f"Overlap: {result['utc_window']} ({result['overlap_hours']} hours)")
 ```
 
-## Handling Uneven Timezone Distribution
+### Step 7: Handling Uneven Timezone Distribution
 
 Real teams rarely have perfectly symmetric timezone gaps. Handle asymmetric distributions strategically:
 
@@ -290,7 +300,7 @@ Minimal overlap requirements:
 
 This requires cultural commitment but works well for experienced distributed teams.
 
-## Calculating Sustainable Schedule Impacts
+### Step 8: Calculating Sustainable Schedule Impacts
 
 Beyond pure overlap calculation, consider fatigue from non-standard hours:
 
@@ -321,7 +331,7 @@ function assessScheduleSustainability(tz1, tz2) {
 
 A 2-3 hour overlap where one team is working "off-hours" can work 1-2 days per week. Making it daily burns people out.
 
-## Practical Scheduling Frameworks
+### Step 9: Practical Scheduling Frameworks
 
 Once you calculate overlap, implement it with clear frameworks:
 
@@ -366,7 +376,7 @@ Wednesday: SF watches follow-up, implements suggested changes
 
 Takes 3x longer than live session but eliminates schedule constraints.
 
-## Tools for Overlap Management
+### Step 10: Tools for Overlap Management
 
 Several tools simplify overlap calculation and scheduling:
 
@@ -384,7 +394,7 @@ Several tools simplify overlap calculation and scheduling:
 - Tuple (pair programming): Built-in timezone awareness
 - VS Code Live Share: Real-time collaborative coding
 
-## When Overlap Becomes Insufficient
+### Step 11: When Overlap Becomes Insufficient
 
 If calculated overlap is under 90 minutes daily, pair programming becomes difficult. Consider alternatives:
 
@@ -396,7 +406,7 @@ If calculated overlap is under 90 minutes daily, pair programming becomes diffic
 
 These methods work at scale but require discipline and clear handoff protocols.
 
-## Annual Planning: Accounting for Timezone Changes
+### Step 12: Annual Planning: Accounting for Timezone Changes
 
 Daylight Saving Time creates discontinuities in your carefully calculated overlap:
 
@@ -411,20 +421,20 @@ Result: One-hour shift in overlaps for 2 weeks
 
 Plan for these shifts annually. Brief 1-week meetings shifted by an hour are usually acceptable with notice.
 
-## Documenting Your Overlap Schedule
+### Step 13: Documenting Your Overlap Schedule
 
 Create a clear, shared document showing actual overlap windows and approved pairing times:
 
 ```markdown
 # Tokyo-San Francisco Overlap Schedule
 
-## Calculated Overlap
+### Step 14: Calculated Overlap
 - UTC 14:00-18:00 (Mon-Fri)
 - Tokyo: 11 PM - 3 AM next day
 - SF: 6 AM - 10 AM (previous day, confusing!)
 - **Assessment: Unsustainable for regular pairing**
 
-## Approved Pairing Windows (Opt-in)
+### Step 15: Approved Pairing Windows (Opt-in)
 - **Monday 2-5 PM PT** (Monday 6-9 AM+1 JST)
   - Volunteers only
   - SF standard hours, Tokyo early but acceptable
@@ -441,6 +451,21 @@ Create a clear, shared document showing actual overlap windows and approved pair
 ```
 
 Share this with team so expectations are clear from hire date.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

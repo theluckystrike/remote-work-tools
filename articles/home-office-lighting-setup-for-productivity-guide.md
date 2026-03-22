@@ -38,7 +38,17 @@ The three primary light layers in a functional home office are:
 
 Most developers focus only on task lighting, ignoring ambient and accent layers. A balanced approach creates a workspace where your eyes can relax during pauses between coding sessions.
 
-## Color Temperature: Finding Your Ideal Range
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Color Temperature: Finding Your Ideal Range
 
 Color temperature, measured in Kelvin (K), determines whether light appears warm (yellow) or cool (blue). For coding environments, the optimal range sits between 4000K and 5500K.
 
@@ -93,7 +103,7 @@ automation:
                   color_temp: 370  # ~2700K
 ```
 
-## Brightness Levels and Lumens
+### Step 2: Brightness Levels and Lumens
 
 Brightness, measured in lumens, directly impacts eye comfort. The recommended brightness for task lighting at a desk ranges from 300 to 800 lumens, depending on ambient conditions.
 
@@ -105,7 +115,7 @@ Brightness, measured in lumens, directly impacts eye comfort. The recommended br
 
 Monitor-mounted light bars have become popular among developers because they provide focused task lighting without occupying desk space or creating screen glare. Position the light bar so it illuminates your keyboard and desk surface without reflecting on your screen.
 
-## The Three-Point Lighting System for Video Calls
+### Step 3: The Three-Point Lighting System for Video Calls
 
 If you take video meetings regularly, proper lighting affects how colleagues perceive you. A simple three-point setup dramatically improves video quality:
 
@@ -115,7 +125,7 @@ If you take video meetings regularly, proper lighting affects how colleagues per
 
 For developers on a budget, a ring light or panel light as your key light, combined with a desk lamp as fill, creates a professional appearance. Position your key light at 45 degrees to your face for the most flattering angle.
 
-## Smart Lighting Integrations for Automation
+### Step 4: Smart Lighting Integrations for Automation
 
 Smart lighting works best when integrated with your workflow. Beyond scheduled adjustments, consider these automation triggers:
 
@@ -169,7 +179,7 @@ if __name__ == "__main__":
     check_tests()
 ```
 
-## Practical Desk Setup Recommendations
+### Step 5: Practical Desk Setup Recommendations
 
 **Minimum viable setup:**
 - One monitor-mounted light bar (300-500 lumens)
@@ -185,7 +195,7 @@ if __name__ == "__main__":
 
 Positioning matters more than expensive equipment. Place task lights on the opposite side of your dominant hand to avoid shadows. Keep lights at or slightly above desk height, and ensure no direct light shines in your eyes or on your screen.
 
-## Common Lighting Mistakes to Avoid
+### Step 6: Common Lighting Mistakes to Avoid
 
 Overhead fluorescent lighting creates harsh shadows and causes eye fatigue. If you must use overhead lighting, install diffusers or switch to LED panels with soft-white bulbs.
 
@@ -195,7 +205,7 @@ Blue light at night suppresses melatonin production. After sunset, shift to warm
 
 Screen glare deserves attention too. Position your desk perpendicular to windows. If this isn't possible, use vertical blinds or a monitor hood to control glare.
 
-## Measuring Your Lighting Setup
+### Step 7: Measuring Your Lighting Setup
 
 Use a light meter app on your phone to measure brightness at your desk surface. Aim for 300-500 lux for comfortable coding. Many smart home platforms also provide ambient light sensors that can feed into your automation:
 
@@ -208,12 +218,27 @@ sensor:
         unit_of_measurement: "lux"
 ```
 
-## Building Your Lighting System Over Time
+### Step 8: Build Your Lighting System Over Time
 
 Start simple: one quality task light with adjustable color temperature. Add smart bulbs and automation as you identify pain points. Track your energy levels and eye comfort over two weeks to identify what works.
 
 The best lighting setup is one you'll actually use consistently. Incremental improvements beat elaborate systems that become complicated to maintain.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

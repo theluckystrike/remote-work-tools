@@ -34,7 +34,17 @@ Shared component libraries serve as the foundation for multiple applications and
 
 The solution isn't to restrict changes—it's to build systems that make coordination automatic and transparent.
 
-## Establish Clear Component Ownership
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Establish Clear Component Ownership
 
 Every component in your library needs a clear owner or owning team. Ownership doesn't mean solitary control; it means responsibility for:
 
@@ -56,7 +66,7 @@ Create a component ownership map in your repository:
 
 This living document lives in your repository's docs folder and gets updated with each major component addition.
 
-## Implement a Structured Contribution Workflow
+### Step 2: Implement a Structured Contribution Workflow
 
 Remote developers need explicit guidelines for how to propose and implement changes. A well-defined workflow prevents conflicts and ensures quality.
 
@@ -71,24 +81,24 @@ Remote developers need explicit guidelines for how to propose and implement chan
 Here's a PR template that enforces this workflow:
 
 ```markdown
-## Component Modified
+### Step 3: Component Modified
 <!-- Which component did you modify? -->
 
-## Ownership Approval
+### Step 4: Ownership Approval
 - [ ] I have confirmed this change with the component owner
 - [ ] Owner review requested: @username
 
-## Testing
+### Step 5: Test
 - [ ] Unit tests added/updated
 - [ ] Visual regression tests pass
 - [ ] Storybook stories updated (if applicable)
 
-## Breaking Changes
+### Step 6: Breaking Changes
 - [ ] No breaking changes
 - [ ] Breaking changes documented with migration path
 ```
 
-## Version and Release Strategically
+### Step 7: Version and Release Strategically
 
 Remote teams working independently need predictable release cadences. Don't allow ad-hoc releases that surprise other teams.
 
@@ -111,7 +121,7 @@ Breaking changes:
 Migration session: [Link to async recording]
 ```
 
-## Create Documentation Standards
+### Step 8: Create Documentation Standards
 
 Remote developers can't just peek over someone's shoulder to understand components. Your documentation must be self-sufficient.
 
@@ -124,7 +134,7 @@ Every component should have:
 
 Host documentation in Storybook with MDX-powered pages that include live examples teams can copy-paste.
 
-## Establish Communication Channels
+### Step 9: Establish Communication Channels
 
 Create dedicated spaces for component library coordination:
 
@@ -134,7 +144,7 @@ Create dedicated spaces for component library coordination:
 
 When remote developers have questions, they post in the appropriate channel rather than DMing individual team members. This creates a searchable knowledge base for future reference.
 
-## Implement Automated Quality Gates
+### Step 10: Implement Automated Quality Gates
 
 Manual review isn't scalable across time zones. Automate quality checks so teams can get feedback even when human reviewers are offline.
 
@@ -174,14 +184,14 @@ Here's how a remote developer adds a new component following these practices:
 8. PR merges; semantic-release creates minor version bump
 9. Release announcement posts to #component-library-announcements with changelog
 
-## Putting It All Together
+### Step 11: Putting It All Together
 
 Coordinating remote frontend developers on shared component libraries requires intentional systems. The eight practices above—clear ownership, structured workflows, strategic releases, documentation, dedicated communication channels, automated quality gates, and transparent processes—work together to create a resilient coordination framework.
 
 Start with ownership and workflow, then layer in the other practices as your library matures. The investment pays dividends in reduced conflicts, faster development, and healthier team relationships.
 ---
 
-## Managing Cross-Team Dependencies
+### Step 12: Manage Cross-Team Dependencies
 
 As your component library grows, teams become interdependent in complex ways. A button component change might affect dozens of consuming applications. Without dependency tracking, you create invisible coupling that breaks silently.
 
@@ -202,7 +212,7 @@ Create a dependency map that shows which teams depend on which components. This 
 
 Before deploying breaking changes, notify all consuming teams with at least two weeks notice. Provide migration paths and code examples they can copy-paste. Offer a migration session where you walk teams through the changes in real-time, answering questions asynchronously across time zones.
 
-## Handling Disagreement on Component Design
+### Step 13: Handling Disagreement on Component Design
 
 Remote teams disagreeing about component API design can escalate quickly without clear escalation paths. Establish a decision framework before conflicts arise.
 
@@ -215,7 +225,7 @@ For design disputes, use this approach:
 
 This prevents endless debates while respecting input from distributed teams. Document decisions in your component library's ADR (Architecture Decision Records) folder for future reference.
 
-## Testing Strategies for Remote Component Development
+### Step 14: Test Strategies for Remote Component Development
 
 Coordinating component testing across teams requires more than unit tests. Implement a testing pyramid that scales:
 
@@ -231,7 +241,7 @@ Coordinating component testing across teams requires more than unit tests. Imple
 - Screen readers announce component purpose
 - Mobile touch targets are adequate
 
-## Version Compatibility Windows
+### Step 15: Version Compatibility Windows
 
 Decide how many versions you'll support simultaneously. A clear policy prevents endless support obligations:
 
@@ -241,7 +251,7 @@ Decide how many versions you'll support simultaneously. A clear policy prevents 
 
 Communicate version retirement dates at least 6 months in advance. Provide automated migration tools if possible—a CLI tool that updates component imports and prop names goes a long way.
 
-## Monitoring Component Library Health
+### Step 16: Monitor Component Library Health
 
 Track metrics that tell you how well your coordination system works:
 
@@ -253,6 +263,21 @@ Track metrics that tell you how well your coordination system works:
 Review these metrics quarterly. If time-to-merge is increasing, your workflow might have too much friction. If defect escape is high, your testing strategy needs strengthening.
 
 ---
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

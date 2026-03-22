@@ -37,7 +37,17 @@ Additionally, remote workers already experience higher baseline uncertainty comp
 
 The anxiety is rarely about the policy itself—it's about the lack of control and information.
 
-## The RISE Framework for Policy Announcements
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The RISE Framework for Policy Announcements
 
 Use the RISE framework to structure your policy change communications:
 
@@ -149,7 +159,7 @@ Recording will be available for those who cannot attend.
 
 For async-first teams, consider a dedicated Slack channel where people can post questions and get answers over 24-48 hours. Respond to every question, even if the answer is "we can't accommodate that specific request."
 
-## Practical Communication Templates
+### Step 2: Practical Communication Templates
 
 ### For Hybrid Policy Introductions
 
@@ -211,7 +221,7 @@ We're here to support you through this transition.
 [Your name]
 ```
 
-## What to Avoid
+### Step 3: What to Avoid
 
 Certain approaches reliably increase anxiety and damage trust:
 
@@ -221,7 +231,7 @@ Certain approaches reliably increase anxiety and damage trust:
 4. **Silence after questions** — Unanswered questions fester into resentment
 5. **Different messages for different groups** — Inconsistent communication creates suspicion
 
-## Measuring Success
+### Step 4: Measuring Success
 
 After implementing your communication plan, watch for these indicators:
 
@@ -231,6 +241,21 @@ After implementing your communication plan, watch for these indicators:
 
 Policy changes don't have to cause anxiety. With careful communication, they can actually strengthen trust by demonstrating that leadership communicates transparently and values team input.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

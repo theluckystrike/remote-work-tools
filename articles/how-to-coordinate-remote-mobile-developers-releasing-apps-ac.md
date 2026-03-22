@@ -41,7 +41,17 @@ This guide provides actionable strategies for remote mobile teams releasing apps
 - **For most teams**: separate repositories with a coordination repository works best.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Establishing a Shared Release cadence
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Establishing a Shared Release cadence
 
 The foundation of coordinated mobile releases is a predictable release cadence. When everyone knows when releases happen, coordination becomes significantly easier. Most successful mobile teams adopt either a time-based release schedule (bi-weekly or monthly) or a milestone-based approach tied to feature completion.
 
@@ -63,7 +73,7 @@ Week 2, Wednesday: Release to 10% of users (if using staged rollout)
 Week 2, Friday: Full release if no critical issues
 ```
 
-## Version Control Strategy for Multi-Platform Releases
+### Step 2: Version Control Strategy for Multi-Platform Releases
 
 Managing iOS and Android codebases requires thoughtful version control. You have two primary approaches: shared repository with platform-specific directories, or separate repositories per platform.
 
@@ -92,7 +102,7 @@ A simple version tracking file in your coordinator repository might look like:
 
 Each developer updates their platform's status as they progress through the release. This provides a single source of truth that anyone on the team can check asynchronously.
 
-## CI/CD Pipeline Coordination
+### Step 3: Configure CI/CD Pipeline Coordination
 
 Automated pipelines reduce manual coordination overhead significantly. Both iOS and Android benefit from similar pipeline stages, but the tooling differs.
 
@@ -162,7 +172,7 @@ upload_testflight:
     - altool --upload-app -f ./output/App.ipa -t ios
 ```
 
-## Async Communication Protocols
+### Step 4: Async Communication Protocols
 
 When your iOS developer in Tokyo and Android developer in Berlin need to coordinate a release, synchronous communication becomes a bottleneck. Implement async communication protocols that work across time zones.
 
@@ -178,7 +188,7 @@ Create a dedicated Slack or Teams channel specifically for release coordination.
 A standardized update might look like:
 
 ```
-## Release 2.4.0 Status
+### Step 5: Release 2.4.0 Status
 
 **iOS:**
 - [x] Build created
@@ -201,7 +211,7 @@ A standardized update might look like:
 When one developer needs to hand off work to another (perhaps across time zones), create a standardized handoff format:
 
 ```markdown
-## Handoff: Login Feature
+### Step 6: Handoff: Login Feature
 
 **Status:** Complete, needs verification
 **Platform:** iOS
@@ -221,7 +231,7 @@ When one developer needs to hand off work to another (perhaps across time zones)
 Test on device with notch. Simulator works but has display issues.
 ```
 
-## Handling Cross-Platform Dependencies
+### Step 7: Handling Cross-Platform Dependencies
 
 Many features require coordination between iOS and Android—shared API endpoints, feature flags, or synchronized feature rollouts. Establish clear protocols for these dependencies.
 
@@ -256,7 +266,7 @@ Backend changes often affect both mobile apps. Establish these rules:
 3. Maintain backward compatibility for at least one previous API version
 4. Document API changes in a shared changelog visible to all developers
 
-## Emergency Release Procedures
+### Step 8: Emergency Release Procedures
 
 Sometimes bugs require hotfixes outside your normal release cycle. Prepare emergency procedures in advance.
 
@@ -274,6 +284,21 @@ For urgent releases, use abbreviated async processes:
 3. One sentence approval from tech lead (documented in thread)
 4. Build and test
 5. Expedited submission with notes to reviewers
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

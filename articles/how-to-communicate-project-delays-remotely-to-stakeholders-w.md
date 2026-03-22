@@ -54,7 +54,17 @@ Transparency serves two purposes. First, it gives stakeholders realistic expecta
 
 The goal is not to avoid delivering bad news. The goal is to deliver it in a way that demonstrates you understand the problem, have a plan, and are still in control.
 
-## Structuring Your Delay Communication
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Structuring Your Delay Communication
 
 Every delay notification should contain four elements: what changed, why it happened, what you are doing about it, and what the new timeline looks like. This structure works whether you are sending a quick Slack message or writing a formal status update.
 
@@ -113,7 +123,7 @@ This code sends a structured Slack message with a clear header, summary, and act
 After the initial notification, provide an update. Use this template structure:
 
 ```markdown
-## Project Delay Notification: [Project Name]
+### Step 2: Project Delay Notification: [Project Name]
 
 ### Current Status
 [One-sentence summary of where the project stands]
@@ -143,7 +153,7 @@ After the initial notification, provide an update. Use this template structure:
 
 Adapt this template based on your project management system. If you use Jira, include issue links. If you use Linear, reference the relevant items. The format matters less than including all four key elements consistently.
 
-## Real-World Example: API Integration Delay
+### Step 3: Real-World Example: API Integration Delay
 
 Consider a scenario where your team is building a payment API integration. Three weeks before launch, a third-party API deprecation notice arrives. Your team needs additional time to refactor.
 
@@ -165,7 +175,7 @@ Consider a scenario where your team is building a payment API integration. Three
 
 This example demonstrates several best practices. It names the specific vendor problem, quantifies the work involved, provides a revised date, and makes a clear ask. Stakeholders can make informed decisions because they have concrete information.
 
-## Automating Status Updates
+### Step 4: Automate Status Updates
 
 For ongoing projects with multiple stakeholders, consider automating regular status reports. This reduces the manual work of communication while ensuring stakeholders receive consistent updates.
 
@@ -239,7 +249,7 @@ Running this script weekly produces consistent, readable status updates that sta
 
 **Match the channel to the severity.** A minor one-day delay might warrant a quick Slack message. A major milestone slip warrants a video call or detailed email with time for questions.
 
-## Building a Communication Workflow
+### Step 5: Build a Communication Workflow
 
 For teams that handle multiple projects, create a standardized workflow for delay communication. This ensures consistency and reduces the cognitive load of remembering what to communicate.
 
@@ -250,6 +260,21 @@ For teams that handle multiple projects, create a standardized workflow for dela
 5. Regular updates: Provide status updates on at least a weekly basis until the project returns to its original timeline or a new one is agreed upon.
 
 This workflow scales whether you are managing one project or dozens. The key is acting deliberately rather than reacting after the fact.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
