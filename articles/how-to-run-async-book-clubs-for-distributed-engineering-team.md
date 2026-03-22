@@ -28,9 +28,19 @@ voice-checked: true
 tags: [remote-work-tools]---
 
 {% raw %}
+
 Running a book club across distributed engineering teams presents unique challenges. Without the benefit of physical proximity, traditional synchronous discussions become difficult to schedule. However, asynchronous book clubs offer a practical alternative that accommodates multiple time zones and individual reading paces while still fostering meaningful technical discussions.
 
 This guide covers practical strategies for implementing async book clubs that actually work for engineering teams. You'll find concrete examples, tool configurations, and discussion formats you can adapt to your team's specific needs.
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Threaded discussions work better**: than linear chat because they allow multiple conversations to happen simultaneously.
+- **Notion database**: $10/month for Team plan.
+- **Mighty Networks**: $20-40/month.
+- **Airtable**: $10-20/month.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
 ## Why Async Book Clubs Work for Engineering Teams
 

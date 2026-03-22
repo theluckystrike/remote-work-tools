@@ -31,6 +31,16 @@ score: 9---
 
 Skip level meetings are one of the most powerful tools in an engineering leader's arsenal. When done well, they uncover blockers that would otherwise stay hidden, build trust across organizational layers, and help retain your best engineers. In remote engineering teams, they require deliberate design to work effectively.
 
+## Key Takeaways
+
+- **To make the most of our time**: could you share:
+1.
+- **Any feedback on processes**: or tools that could work better? No need for long responses—bullet points are great.
+- **Skip level meetings are**: one of the most powerful tools in an engineering leader's arsenal.
+- **When done well**: they uncover blockers that would otherwise stay hidden, build trust across organizational layers, and help retain your best engineers.
+- **Pick two or three**: engineers to pilot skip level meetings over two months.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Why Skip Level Meetings Work for Remote Engineering Teams
 
 In distributed engineering organizations, communication happens through async channels. This creates distance between senior leadership and the engineers doing the actual work. A skip level meeting bypasses that filter layer.

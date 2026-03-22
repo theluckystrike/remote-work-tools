@@ -19,6 +19,15 @@ Video meetings have become the default for remote collaboration, but they come w
 
 This guide shows you how to run effective remote brainstorming sessions using chat tools, specifically tailored for developers and technical teams.
 
+## Key Takeaways
+
+- **Currently**: it takes 5 clicks and 12 seconds.
+- **🎯 GOAL**: Reduce to 2 clicks or less, under 4 seconds total.
+- **Current**: 5 clicks, 12 seconds.
+- **Goal**: 1 click, 2 seconds.
+- **Text-based chat brainstorming offers**: a powerful alternative that actually leads to better ideas and more inclusive participation.
+- **Participants can think deeply**: before responding, research asynchronously, and contribute when they have their best ideas—regardless of the time of day.
+
 ## Why Choose Chat Over Video for Brainstorming
 
 Chat-based brainstorming works because it removes the pressure of real-time performance. Participants can think deeply before responding, research asynchronously, and contribute when they have their best ideas—regardless of the time of day.

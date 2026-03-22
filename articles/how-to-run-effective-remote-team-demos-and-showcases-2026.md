@@ -33,6 +33,22 @@ Demos drive team morale. There's nothing like seeing your work in front of an au
 
 This guide covers how to run effective demos and showcases for distributed teams. Whether you're doing weekly demo days, monthly showcase events, or ad-hoc team presentations, the structure and tools matter more than you'd think.
 
+## Key Takeaways
+
+- **"Is this intuitive? Would**: you change anything?" gets better feedback than "Questions?" Use live polling if your meeting tool supports it.
+- **Screenflow (Mac)**: One-time purchase, $13.
+- **Some of the best**: feedback comes from "why didn't you build it this way?" End with a specific call to action: "I need feedback on the pricing model.
+- **"This saves 30 seconds**: per user per action." End with a specific feedback question.
+- **If feedback led to a change, tell people**: "Based on demo feedback, we're changing X."
+
+## Real-World Examples
+
+### Example 1: Weekly Demo Days (Colocated-ish Team)
+
+Team is 70% US-based, 30% Europe.
+- What impressed you most?
+2.
+
 ## Why Demo Culture Matters for Remote Teams
 
 Remote work isolates people. You don't see coworkers in the office hallway, don't overhear conversations about projects, don't feel the shared wins. Demos fix this. They create moments where the whole team sees what someone built, celebrates the work, and connects.

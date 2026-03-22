@@ -33,6 +33,25 @@ Async architecture reviews replace the traditional conference room whiteboard se
 
 This approach works particularly well for distributed engineering teams because it respects asynchronous communication patterns already in place. Engineers can review diagrams, read through trade-off analyses, and compose detailed responses without feeling pressured to respond immediately. The resulting documentation also creates a permanent record of the decision-making process that future team members can reference.
 
+## Key Takeaways
+
+- **Use synchronous REST with**: circuit breakers (rejected: doesn't solve root cause) 3.
+- **Use managed Kafka (Confluent**: Cloud) for first 6 months 2.
+- **Perfectionism
+   Problem**: Searching for the "best" solution forever
+   Prevention: Set decision deadline and stick to it
+   Ownership: Decision owner calls the close at deadline
+
+3.
+- **Lack of Trust
+   Problem**: Reopening settled decisions because "what if?"
+   Prevention: Establish clear follow-up review cadence
+   Ownership: Schedule post-implementation review, then close
+
+4.
+- **This approach works particularly**: well for distributed engineering teams because it respects asynchronous communication patterns already in place.
+- **Use automated reminders to**: keep the process moving without requiring manual follow-ups.
+
 ## Setting Up Your Async Review Workflow
 
 A well-structured async architecture review follows a predictable lifecycle. Each review moves through distinct stages: draft, review, discussion, and decision. Using a shared document or pull request as the central artifact keeps everyone working from the same source of truth.

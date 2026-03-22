@@ -31,6 +31,17 @@ voice-checked: true---
 
 Remote client workshops require careful planning and the right digital tools to maintain engagement and collaboration. Miro Board provides a powerful platform for helping interactive virtual sessions that rival in-person meetings in effectiveness. This guide walks you through the process of setting up and running productive remote client workshops using Miro.
 
+## Key Takeaways
+
+- **The Team tier ($24/month**: for 3 people) is cost-effective for agencies or consultancies running regular workshops.
+- **This is particularly useful**: when clients need to select from multiple options or rank preferences.
+- **Use arrow keys to**: navigate the board 3.
+- **Use rounds**: "Let's hear from each person in order"
+3.
+- **Specific questions**: "Which exercise was most valuable?"
+3.
+- Aim for 50%+ response rate.
+
 ## Preparing Your Miro Board for Client Workshops
 
 Before the workshop begins, create a dedicated Miro board with all the necessary components. A well-structured board guides the session flow and keeps participants focused.

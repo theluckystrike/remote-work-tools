@@ -33,6 +33,15 @@ Running a book club for a team of 40 engineers across multiple time zones presen
 
 This guide walks you through setting up a book club that scales to 40 remote engineers while maintaining engagement and avoiding meeting fatigue.
 
+## Key Takeaways
+
+- **Use this session for**: the most engaging chapter discussions and cross-team mingling.
+- **Use these techniques to**: keep sessions productive: Breakout Discussions: Split into groups of 5-6 for 20 minutes, then reconvene for share-outs.
+- **Running a book club**: for a team of 40 engineers across multiple time zones presents unique challenges that differ significantly from in-person groups.
+- Opt-in participation yields better engagement.
+- **Pick one book**: set up your async channel, and schedule one live session.
+- **A 40-person remote engineering**: team can absolutely run a thriving book club—it just requires different tactics than a small in-person group.
+
 ## Structuring Your Book Club Format
 
 With 40 people, expecting synchronous participation in every session creates scheduling nightmares. Instead, design your book club with two complementary tracks:

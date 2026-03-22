@@ -31,6 +31,26 @@ voice-checked: true---
 
 Send a 48-hour pre-meeting agenda, run a 90-minute meeting covering goals, scope, timeline, and communication cadence, then follow up with documented decisions and next steps. A well-executed kickoff meeting sets the foundation for project success—remote meetings lose in-person energy but gain documentation, async follow-up, and recorded discussions. This guide covers practical steps to run a remote client kickoff that establishes clear expectations, builds trust, and aligns your team from day one, including help techniques and follow-up strategies.
 
+## Key Takeaways
+
+- **To make the best use of our time together**: we'd like to ask a few prep questions.
+- **Send a preparation agenda**: at least 48 hours in advance so clients can gather their stakeholders and think through their answers.
+- **Technical Constraints**: Any systems we need to integrate with? API documentation? Hosted on your infrastructure or ours?
+
+5.
+- **A minimal live document structure that works for most kickoffs:
+
+```
+# [Project Name] Kickoff Notes**: [Date]
+
+## Attendees
+- [Name, Role, Company]
+
+## Decisions Made
+1.
+- Use a simple in-scope vs.
+- **Team Attendees**: Who from your team should attend? We recommend stakeholders from [relevant departments].
+
 ## Pre-Meeting Preparation
 
 Success starts before the meeting begins. Send a preparation agenda at least 48 hours in advance so clients can gather their stakeholders and think through their answers.

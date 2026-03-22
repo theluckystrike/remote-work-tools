@@ -17,6 +17,15 @@ voice-checked: true---
 
 Remote town halls have become a cornerstone of distributed team communication. When executed well, they create alignment, build culture, and give everyone a voice regardless of time zone. This guide covers the complete workflow—from preparation through async follow-up—so you can run town halls that actually deliver value.
 
+## Key Takeaways
+
+- **For teams using Notion or Confluence**: a simple database with town hall action items—tagged by assignee, status, and due date—makes this review take 90 seconds rather than 10 minutes.
+- **This step is the**: single most impactful thing you can do to improve town hall quality, and it is the most frequently skipped.
+- **Prioritize questions that affect**: the most people or have the highest impact.
+- **A follow-up session on**: on-call best practices is being scheduled.
+- **The database view filtered**: to "open items from last session" is the only thing you need on screen for this segment.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Why Remote Town Halls Work
 
 The key advantage of remote town halls is their ability to scale communication across geographic boundaries. Unlike traditional all-hands meetings, a well-structured remote town hall accommodates asynchronous participation, ensures questions are captured even when attendees can't attend live, and creates a lasting knowledge base for future reference.

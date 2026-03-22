@@ -31,6 +31,16 @@ voice-checked: true---
 
 Configure Zoom with breakout rooms or separate observer channels to keep participants comfortable while giving stakeholders visibility into research sessions. Running remote UX research sessions with multiple observers requires infrastructure that balances participant comfort with stakeholder visibility—you need separate video streams for the research and observer groups. This guide covers practical approaches for running effective remote UX research sessions with product managers, designers, developers, and client observers, with implementation details.
 
+## Key Takeaways
+
+- **Cameras on preferred but**: optional 2.
+- **Use chat for questions**: during session 3.
+- **Here's a typical setup:**: ```bash # Observer best practices during screen share 1.
+- **Use chat for all**: communication 4.
+- **Prioritization (5 min)**: What matters most?
+4.
+- **Most modern tools handle this**: but configuration matters.
+
 ## Setting Up Your Session Infrastructure
 
 The foundation of a good remote UX research session is reliable video conferencing software that supports breakout rooms or parallel streams. Most modern tools handle this, but configuration matters.
