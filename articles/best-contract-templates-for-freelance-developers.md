@@ -8,7 +8,7 @@ permalink: /best-contract-templates-for-freelance-developers/
 categories: [guides]
 tags: [remote-work-tools, contracts, freelance, legal, developer-tools, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

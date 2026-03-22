@@ -8,7 +8,7 @@ permalink: /best-deploy-workflow-for-a-remote-infrastructure-team-of-3/
 categories: [guides]
 tags: [remote-work-tools, devops, ci-cd, remote-work, infrastructure, best-of, workflow]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
