@@ -33,6 +33,17 @@ Managing a remote team across multiple European Union countries introduces a com
 
 This guide provides a practical framework for handling these differences without needing a law degree. You'll learn the key areas where EU countries differ, how to structure your team's employment arrangements, and which tools and partners can simplify compliance.
 
+## Key Takeaways
+
+- **Work with local employment counsel (cost**: $500-1,500 per country for template development).
+- **The Working Time Directive**: establishes a 48-hour maximum work week, minimum daily and weekly rest periods, and paid annual leave of at least four weeks.
+- **France Example**: Same €3,000 gross salary costs employer €4,260/month (42% contribution).
+- **French labor law restricts**: email outside working hours, with companies over 50 employees required to have a charter on the right to disconnect.
+- **Step 2**: Create Compliant Contracts (Week 2-3)
+
+Don't use one-size-fits-all templates.
+- **Most teams benefit from a hybrid approach**: direct employment or EOR arrangements for core team members, with contractor agreements for short-term or specialized work.
+
 ## Understanding the EU Employment Law Baseline
 
 The European Union sets minimum standards through directives that all member states must implement, but countries often go beyond these minimums. The Working Time Directive establishes a 48-hour maximum work week, minimum daily and weekly rest periods, and paid annual leave of at least four weeks. The Posted Workers Directive addresses employees working temporarily in another EU country. The Directive on Part-time Work and Fixed-term Contracts provides protections against discrimination.

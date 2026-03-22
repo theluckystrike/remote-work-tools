@@ -31,6 +31,16 @@ voice-checked: true---
 
 8-hour time differences make synchronous calls difficult, but async-first communication keeps client relationships strong without burnout. Video updates, async status reports, and rotating call times (occasionally early or late) preserve communication while protecting work-life balance. This guide covers communication templates, async client check-ins, and strategies for maintaining trust across maximum time zone spreads.
 
+## Key Takeaways
+
+- **Notion ($10/month or free for smaller teams)**: Central repository for documentation, decision logs, and status updates.
+- **Invest in platforms that**: reduce synchronous meeting needs: Loom ($10-30/month): Record video explanations of decisions, technical issues, or project status.
+- **Figma ($12+/month)**: Share design and technical architecture documents.
+- **Use async video**: Loom or similar tools let you explain context thoroughly without scheduling
+3.
+- **These clients typically test**: limits because previous vendors accepted them.
+- **The better approach treats**: client communication as an asynchronous-first system, with synchronous calls reserved for truly necessary moments.
+
 ## Understanding the 8-Hour Challenge
 
 An 8-hour time difference creates two non-overlapping workdays. If you're in New York (EST) and your client is in London (GMT), you're starting your day when they're finishing theirs. The overlap window for acceptable meeting times is narrow or nonexistent.

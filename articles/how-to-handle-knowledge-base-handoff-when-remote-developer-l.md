@@ -31,6 +31,15 @@ voice-checked: true---
 
 When a remote developer leaves your team, the knowledge they've accumulated over months or years can feel like it's walking out the door with them. Unlike office environments where informal conversations fill knowledge gaps, remote work relies heavily on explicit documentation. This guide provides a practical framework for managing knowledge base handoff that preserves institutional knowledge and ensures continuity.
 
+## Key Takeaways
+
+- **Use your slowest tool**: interaction speed - if you normally work fast, slow down 30% on camera.
+- **Day 60**: The replacement has made at least one independent decision in the domain (bug fix, minor feature, infrastructure adjustment) that didn't require approval from other senior engineers.
+- **After six months of continuous documentation**: handoffs become friction-free because knowledge was never siloed.
+- **Q2 infrastructure migration -**: 60% complete 2.
+- **Runbooks work best for high-stakes**: low-frequency tasks that must be executed correctly.
+- **Critical systems that only**: one person understands demand immediate attention.
+
 ## Start the Handoff Process Early
 
 The most critical factor in successful knowledge handoff is timing. As soon as you know a developer is leaving, initiate the process. Ideally, provide two to three weeks for knowledge transfer. Rushed handoffs result in gaps that surface as production issues weeks later.

@@ -31,6 +31,15 @@ voice-checked: true---
 
 Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with the employee. Managing remote teams makes addressing underperformance both more critical and complex because you lack visual cues and must gather objective data instead of relying on gut feelings. This guide provides new managers with a structured approach including conversation scripts, documentation frameworks, and tips specifically adapted for distributed work environments.
 
+## Key Takeaways
+
+- **Managing remote teams makes**: addressing underperformance both more critical and complex because you lack visual cues and must gather objective data instead of relying on gut feelings.
+- **Use async-first communication for**: everything that doesn't require real-time discussion.
+- **Track deliverables**: commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with the employee.
+- **Avoid generalizations like "your**: work has been declining." Instead, use concrete examples with dates and outcomes.
+- **I'd like to schedule**: a 1:1 to talk through some support options.
+- **My goal is to**: support you in succeeding in this role." ### Observations (10 minutes) Present your documented observations factually.
+
 ## Recognizing Underperformance in Remote Settings
 
 The first step in addressing underperformance is accurate identification. Remote work can mask problems just as easily as it can create them. Before initiating any conversation, gather objective data rather than relying on gut feelings.

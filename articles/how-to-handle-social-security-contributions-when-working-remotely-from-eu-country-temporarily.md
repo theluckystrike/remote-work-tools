@@ -31,6 +31,16 @@ voice-checked: true---
 
 Working remotely from an EU country for a few months creates complex social security questions that many developers and power users overlook. The rules around contributions, coverage, and compliance can significantly impact your financial obligations and access to healthcare. This guide provides actionable steps to handle social security contributions when working temporarily in EU countries.
 
+## Key Takeaways
+
+- **Get professional advice**: An hour with a specialized advisor costs $150-300 and prevents thousands in potential complications
+5.
+- **Cost**: approximately 11-13% of income in contributions.
+- **This can happen relatively**: quickly—some freelancers have triggered requirements within weeks of arriving.
+- **However**: this only applies under specific conditions and time limits.
+- **After 90 days in Germany**: you'd need to register with German social security.
+- **Remote workers on this**: visa typically need to register with Portuguese social security (Segurança Social) if staying beyond 90 days, even with an A1 certificate from another country.
+
 ## Understanding EU Social Security Coordination
 
 The EU has coordinated social security systems through regulations that determine which country's rules apply when you work across borders. The core principle is that you typically pay social security in only one country at a time, even if you work in multiple EU nations.

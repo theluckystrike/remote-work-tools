@@ -31,6 +31,15 @@ voice-checked: true---
 
 Recurring clients transform freelance work from a volatile income stream into a sustainable business. Instead of constantly hunting for your next project, you build relationships where clients return again and again. This guide covers practical strategies to turn one-time engagements into long-term partnerships.
 
+## Key Takeaways
+
+- **But a difficult client**: that fills 30% of your capacity prevents you from finding better opportunities.
+- **The referred clients often**: become Tier 1 accounts because they come pre-vetted through trusted relationships.
+- **Recurring clients transform freelance**: work from a volatile income stream into a sustainable business.
+- **The client cannot easily**: hand this off to another developer because the knowledge of why you made certain architectural decisions lives in your head.
+- **This might be useful**: for [specific use case] if you haven't seen it already.
+- **Best, [Your Name] ```**: This approach keeps you top-of-mind without being pushy.
+
 ## Understand What Makes Clients Come Back
 
 Clients return when you solve problems they cannot solve themselves, when communication is effortless, and when your work consistently exceeds expectations. The foundation of recurring work is delivering value beyond the original scope without nickel-and-diming every small request.

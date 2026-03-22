@@ -19,6 +19,15 @@ When you manage a remote team spread across multiple US states, you quickly disc
 
 This guide shows you how to build compliance into your remote work infrastructure without losing your mind or your payroll budget.
 
+## Key Takeaways
+
+- **Most modern payroll platforms**: support multi-state configuration, but you must verify the setup for each new hire.
+- **New York City prohibits**: carryover entirely for most employers.
+- **Subscribe to your state's**: labor law email updates or use a compliance service that tracks these changes.
+- **For ongoing management**: many companies use professional employer organizations (PEOs) or employer of record (EOR) services that assume compliance responsibility.
+- **Many states update their**: requirements January 1st, but changes happen throughout the year.
+- **Verify current leave requirements**: with that state's labor department 2.
+
 ## Understanding the Cost of Non-Compliance
 
 Before examining solutions, understand what's at stake. Violations of state paid leave laws carry serious penalties:

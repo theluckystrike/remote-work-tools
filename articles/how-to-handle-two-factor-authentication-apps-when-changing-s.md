@@ -19,6 +19,15 @@ Changing SIM cards frequently while traveling internationally creates a specific
 
 This guide covers practical strategies for developers and power users who switch SIM cards regularly. The focus is on maintaining access to your accounts without creating security vulnerabilities.
 
+## Key Takeaways
+
+- **If you rely on**: phone-based 2FA without preparation, you risk losing access to critical accounts at the worst possible moment.
+- **Use recovery codes –**: This should be your first attempt 2.
+- **Request account recovery –**: Most services offer this via email 3.
+- **Contact support directly –**: For critical accounts (banking, cloud infrastructure), phone support often resolves faster 4.
+- **Use backup authentication –**: If you registered multiple methods, try the alternative Prevent this situation by testing your recovery flow before you need it.
+- **The solution isn't to**: avoid 2FA—it's to build redundancy into your authentication strategy before you need it.
+
 ## Understanding the Core Problem
 
 When you insert a new SIM card, your phone gets a new phone number (unless you're using eSIM with number porting). Most 2FA implementations that depend on SMS will either:

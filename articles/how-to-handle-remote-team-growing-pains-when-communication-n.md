@@ -19,6 +19,14 @@ Every remote team reaches a tipping point. The communication norms that worked w
 
 This is the scaling problem every distributed team faces. Communication norms that emerge naturally in small teams rarely survive contact with growth. Here's how to recognize the warning signs and rebuild your communication infrastructure for scale.
 
+## Key Takeaways
+
+- **Channel abandonment**: Developers stop checking team channels because the signal-to-noise ratio has collapsed.
+- **Knowledge silos emerge**: As teams grow, information that used to flow freely now gets trapped in private conversations between subsets of team members.
+- **Track adoption**: not just announcement. After rolling out new PR description templates, check what percentage of PRs actually use them after two weeks.
+- **But the alternative**: communication breakdown, knowledge silos, and meeting overload — is far worse.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Recognizing When Your Communication Norms Are Breaking
 
 The symptoms of communication breakdown are often subtle at first, then suddenly overwhelming. Watch for these indicators:
