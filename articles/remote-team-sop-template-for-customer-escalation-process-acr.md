@@ -9,7 +9,7 @@ permalink: /remote-team-sop-template-for-customer-escalation-process-acr/
 categories: [guides]
 tags: [remote-work-tools, remote-work, customer-support, sop, escalation, distributed-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
