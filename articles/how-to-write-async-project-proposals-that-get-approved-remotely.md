@@ -49,11 +49,21 @@ Async proposals must be self-contained documents that anticipate every reasonabl
 
 The other challenge is attention. Your reviewer is likely reading your proposal between meetings, during a busy day, or at the end of a long week. They won't give you their undivided attention, so your proposal needs to deliver maximum value with minimum time investment.
 
-## The Anatomy of a Winning Async Proposal
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Anatomy of a Winning Async Proposal
 
 Every successful async project proposal contains several key sections. Skipping any of these reduces your chances of approval.
 
-## Frameworks for Different Types of Proposals
+### Step 2: Frameworks for Different Types of Proposals
 
 Not all proposals are the same. Adjust your approach based on what you're asking for.
 
@@ -69,7 +79,7 @@ Large projects require more rigorous documentation. Include detailed cost-benefi
 
 Proposals that change how the team works require extra attention to buy-in. Document current pain points with specific examples. Identify all affected parties and show you've gathered input from them. Anticipate resistance and address it directly.
 
-## Writing Tips That Increase Approval Rates
+### Step 3: Writing Tips That Increase Approval Rates
 
 ### Lead with Outcomes, Not Activities
 
@@ -91,7 +101,7 @@ Include a clear approval mechanism. Can they just reply "LGTM"? Should they comm
 
 After sending your proposal, follow up at the right time. 3-5 days is appropriate for most proposals. Your follow-up should be brief—just a reminder with any new context. Avoid being pushy or making the reviewer feel pressured.
 
-## Common Mistakes That Kill Proposals
+### Step 4: Common Mistakes That Kill Proposals
 
 **Being too vague.** Proposals that say "improve the product" without specifics fail. Every claim should have evidence or a clear path to evidence.
 
@@ -103,40 +113,40 @@ After sending your proposal, follow up at the right time. 3-5 days is appropriat
 
 **Sending and disappearing.** Async doesn't mean hands-off. Be available for questions, respond promptly to comments, and show engagement with feedback.
 
-## Templates You Can Adapt
+### Step 5: Templates You Can Adapt
 
 Here's a template structure you can customize for your team's needs:
 
 ```
-## Problem
+### Step 6: Problem
 [What issue are you solving? Evidence?]
 
-## Solution
+### Step 7: Solution
 [Your proposed approach]
 
-## Impact
+### Step 8: Impact
 [Expected outcomes with metrics]
 
-## Timeline
+### Step 9: Timeline
 [Key milestones and dates]
 
-## Resources Needed
+### Step 10: Resources Needed
 [Budget, people, access]
 
-## Risks & Mitigation
+### Step 11: Risks & Mitigation
 [Key risks and how you'll address them]
 
-## Ask
+### Step 12: Ask
 [What you need and by when]
 ```
 
-## Building Your Reputation for Future Proposals
+### Step 13: Build Your Reputation for Future Proposals
 
 Your approval rate improves over time as you build credibility. Deliver on your promises. When projects succeed, document the results and share them. When they don't succeed, analyze what went wrong and share those learnings too.
 
 Proposals from someone with a track record of successful projects get more trust and faster approvals than proposals from someone unknown. Think of each proposal as an investment in your future influence.
 
-## Jira Automation Scripts for Remote Teams
+### Step 14: Jira Automation Scripts for Remote Teams
 
 Automating Jira ticket creation and status updates reduces administrative overhead in distributed teams.
 
@@ -248,29 +258,29 @@ Database properties track:
 - Approval state tracked with stakeholder sign-off
 - Integrates directly with sprint planning
 
-## Proposal Templates by Project Type
+### Step 15: Proposal Templates by Project Type
 
 ### Small Feature/Experiment (Under $5K, 2 weeks)
 ```markdown
 # [Feature Name] Proposal
 
-## Problem
+### Step 16: Problem
 [1-2 sentences describing user pain or business gap]
 Data: [one metric showing impact]
 
-## Solution
+### Step 17: Solution
 [3-5 sentences of approach]
 
-## Implementation
+### Step 18: Implementation
 - Timeline: X days
 - Team: [who]
 - Dependencies: [list any blockers]
 
-## Metrics for Success
+### Step 19: Metrics for Success
 - Launch date: [date]
 - Success criteria: [measurable outcome]
 
-## Ask
+### Step 20: Ask
 [Explicit approval request: budget, timeline, resources]
 ```
 
@@ -283,24 +293,24 @@ Keep this under 1 page. Decision should take <5 minutes.
 ## Executive Summary
 [2-3 sentence overview of what, why, expected impact]
 
-## Current Problem Analysis
+### Step 21: Current Problem Analysis
 - Quantified pain point (metrics)
 - Root cause analysis
 - Cost of inaction (financial impact)
 
-## Proposed Solution
+### Step 22: Proposed Solution
 - High-level approach (diagram if helpful)
 - Phase breakdown with deliverables
 - Technical approach (brief)
 - Team composition and skills needed
 
-## Business Impact
+### Step 23: Business Impact
 - Revenue impact (if applicable)
 - Cost savings
 - Risk reduction
 - User satisfaction improvement
 
-## Timeline
+### Step 24: Timeline
 | Phase | Deliverable | Duration | Owner |
 |-------|-------------|----------|-------|
 | 1 | [spec] | 2w | [name] |
@@ -313,16 +323,16 @@ Keep this under 1 page. Decision should take <5 minutes.
 - Design: A days
 - Budget: $$$
 
-## Risks & Mitigation
+### Step 25: Risks & Mitigation
 - Risk 1: [scenario], Mitigation: [action]
 - Risk 2: [scenario], Mitigation: [action]
 
-## Success Metrics
+### Step 26: Success Metrics
 - Launch goal: [date]
 - Adoption target: [%]
 - Quality gates: [criteria]
 
-## Decision Needed
+### Step 27: Decision Needed
 Approve budget + timeline by [date]
 ```
 
@@ -335,7 +345,7 @@ Add to the medium template:
 - Risk analysis with contingency budget
 - Quarterly milestone reviews built in
 
-## Approval Optimization Techniques
+### Step 28: Approval Optimization Techniques
 
 **Pre-Submit Review Checklist**
 Before sending to decision-makers, validate:
@@ -379,6 +389,21 @@ Fewer reviewers = faster decisions. More cooks spoil the approval.
 - Day 4: (If no response) Ping with "checking in on timeline"
 - Day 6: (If still no response) Offer to sync 15-min call vs. more questions needed
 - Day 7: Escalate if critical path item blocked
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

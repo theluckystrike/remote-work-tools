@@ -44,7 +44,17 @@ Engagement: Survey neurodivergent employees quarterly on support effectiveness a
 Retention**: Accommodated neurodivergent employees show 40% higher retention rates than those without accommodations.
 - **For the digital workspace**: organize the desktop, minimize visual clutter, and use a window management tool.
 
-## Understanding Neurodivergent Work Patterns
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Neurodivergent Work Patterns
 
 Neurodivergent individuals frequently exhibit working patterns that differ from neurotypical expectations. These differences are not deficiencies but rather alternative cognitive styles that offer genuine advantages in technical work.
 
@@ -52,7 +62,7 @@ Hyperfocus brings intense concentration on high-interest tasks that can last sev
 
 Understanding these patterns allows you to design workflows that accommodate neurodivergent team members while improving outcomes for everyone.
 
-## Flexible Communication Channels
+### Step 2: Flexible Communication Channels
 
 Rigid communication expectations create unnecessary friction for neurodivergent workers. Implement asynchronous-first communication policies that respect different processing speeds and reduce the cognitive load of real-time responsiveness.
 
@@ -76,7 +86,7 @@ Default notification settings often overwhelm neurodivergent workers. Provide co
 Consider establishing "deep work" periods where synchronous communication is not expected. Document these expectations clearly in your team handbook:
 
 ```markdown
-## Communication Expectations
+### Step 3: Communication Expectations
 
 - **Async-first**: Default to written communication for non-urgent matters
 - **Response windows**: Expect responses within 24 hours for async messages
@@ -84,7 +94,7 @@ Consider establishing "deep work" periods where synchronous communication is not
 - **Optional attendance**: Meetings always have optional attendance for non-critical discussions
 ```
 
-## Task Management and Executive Function Support
+### Step 4: Task Management and Executive Function Support
 
 Neurodivergent workers often struggle with task initiation and organization but excel when given clear structure and immediate feedback. Implement task management systems that provide external scaffolding for executive function.
 
@@ -111,7 +121,7 @@ tasks:
 
 Use visual project management tools that provide clear overview and progress visualization. Tools like Linear, Notion, or custom dashboards help neurodivergent workers maintain situational awareness without excessive cognitive overhead.
 
-## Environment Customization
+### Step 5: Environment Customization
 
 Remote work enables environmental control that office settings cannot provide. Encourage team members to optimize their physical and digital workspaces for their neurological needs.
 
@@ -123,7 +133,7 @@ Adjust monitor refresh rates, text size, and color temperature to reduce visual 
 
 Provide stipends or equipment loans for home office optimization. This investment reduces accommodation requests and improves overall team productivity.
 
-## Meeting Accessibility
+### Step 6: Meeting Accessibility
 
 Meetings present particular challenges for neurodivergent workers. Implement practices that reduce cognitive load and increase participation equity.
 
@@ -132,7 +142,7 @@ Meetings present particular challenges for neurodivergent workers. Implement pra
 Send discussion topics and any pre-reading materials at least 24 hours before meetings. Enable recording so team members who process information better in written form can review at their own pace. Live collaborative documents with shared editing allow participation at individual pace. Designate a note-taker, timekeeper, and discussion moderator to reduce cognitive burden on attendees. Replace open-floor discussion with structured turn-taking — direct engagement expectations can be overwhelming, and round-robin speaking provides predictability.
 
 ```markdown
-## Meeting Agenda Template
+### Step 7: Meeting Agenda Template
 
 **Topic**: [Meeting Title]
 **Duration**: [X] minutes
@@ -158,7 +168,7 @@ Traditional performance review processes often disadvantage neurodivergent worke
 
 Run frequent one-on-ones that include explicit asks about what support is needed. Evaluate on deliverables and impact rather than activity metrics. Gather 360-degree feedback from multiple sources to capture diverse contribution types. Encourage team members to document their work explicitly so contributions are visible. Review promotion criteria to ensure advancement opportunities don't rely on neurotypical presentation styles.
 
-## Building Psychological Safety
+### Step 8: Build Psychological Safety
 
 Perhaps the most important factor in supporting neurodivergent remote workers is creating an environment where accommodation requests are welcomed without stigma.
 
@@ -166,7 +176,7 @@ Perhaps the most important factor in supporting neurodivergent remote workers is
 
 Leaders should openly discuss their own needs and accommodations — this models the behavior and makes it safe for others to do the same. Discuss neurodiversity in team contexts regularly to reduce stigma. Recognize diverse cognitive styles as assets rather than requiring normalization. Make accommodation requests simple and remove any justification requirements.
 
-## Real-World Accommodations: What Actually Works
+### Step 9: Real-World Accommodations: What Actually Works
 
 ### ADHD-Focused Adjustments
 
@@ -222,7 +232,7 @@ Some neurodivergent workers are hypersensitive to sensory input. Accommodations:
 
 **Predictable meeting formats:** Meetings with cameras on, multiple overlapping conversations, and constant visual stimulation are exhausting. Limit to necessary participants and clear structure.
 
-## Building the Business Case for Accommodations
+### Step 10: Build the Business Case for Accommodations
 
 Leadership sometimes views accommodations as special treatment or too costly. Counter with data:
 
@@ -236,7 +246,7 @@ Leadership sometimes views accommodations as special treatment or too costly. Co
 
 **Competitive advantage:** Tech companies compete for talent. Explicit neurodiversity support attracts skilled engineers who might otherwise leave tech due to burnout.
 
-## Creating a Neurodiversity Hiring Program
+### Step 11: Create a Neurodiversity Hiring Program
 
 Once you've built accommodations into your culture, create explicit hiring channels:
 
@@ -252,7 +262,7 @@ Once you've built accommodations into your culture, create explicit hiring chann
 
 **Workplace flexibility:** Advertise flexible working arrangements prominently. Neurodivergent candidates often prioritize this over salary.
 
-## Measuring Progress and Accountability
+### Step 12: Measuring Progress and Accountability
 
 Track these metrics to ensure your neurodiversity initiatives are working:
 
@@ -266,7 +276,7 @@ Track these metrics to ensure your neurodiversity initiatives are working:
 
 **Team feedback:** Ask neurotypical team members if they find accommodations helpful or disruptive. Good accommodations benefit everyone.
 
-## Resources for Continued Learning
+### Step 13: Resources for Continued Learning
 
 - **"Neurodivergent Teams" by Sarah Hendrickx**: Best overview of accommodating various neurodivergent types in workplace settings
 - **Neurodiversity @ Work certification programs**: Formal training for managers
@@ -275,7 +285,7 @@ Track these metrics to ensure your neurodiversity initiatives are working:
 
 Building a truly inclusive workplace requires ongoing adjustment and willingness to listen. Neurodivergent employees are experts in their own needs—involve them in designing accommodations rather than imposing solutions.
 
-## Common Accommodation Requests and Responses
+### Step 14: Common Accommodation Requests and Responses
 
 Rather than waiting for formal requests, proactively offer accommodations that many neurodivergent workers appreciate:
 
@@ -299,7 +309,7 @@ Response: "Of course. Many people find these tools help them focus. They're welc
 
 These responses normalize accommodations as business norms rather than special exceptions.
 
-## Measuring Accommodation Effectiveness
+### Step 15: Measuring Accommodation Effectiveness
 
 Beyond anecdotal feedback, track these metrics:
 
@@ -315,7 +325,7 @@ Beyond anecdotal feedback, track these metrics:
 
 If data shows accommodations aren't working, investigate why. Maybe the implementation is flawed, or the accommodation doesn't match the person's actual needs.
 
-## Manager Training: Building Neurodiversity Competence
+### Step 16: Manage r Training: Building Neurodiversity Competence
 
 Managers need training to support neurodivergent team members effectively. Key training topics:
 
@@ -328,6 +338,21 @@ Managers need training to support neurodivergent team members effectively. Key t
 **Avoiding burnout triggers:** Neurodivergent employees often burnout from cumulative small stressors rather than single major crises. Identify and reduce: excessive context-switching, open-office noise, unclear priorities, constant schedule changes.
 
 **Ongoing learning:** Neurodiversity isn't simple. Managers should read recent research, take certification courses, and continuously educate themselves rather than assuming outdated stereotypes.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

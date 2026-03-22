@@ -40,7 +40,17 @@ Structure your RFC with a 2-3 sentence summary, a concrete problem statement wit
 - **Use headers**: bullet points, and code blocks to create visual breaks.
 - **Use Slack's Block Kit**: Builder (api.slack.com/block-kit/building) to design rich message layouts.
 
-## The Core Problem with Most Technical RFCs
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Problem with Most Technical RFCs
 
 Most RFCs fail not because the ideas are bad, but because the document itself is difficult to engage with. A typical problematic RFC might say:
 
@@ -50,11 +60,11 @@ This statement leaves reviewers with no context, no data, and no clear way to re
 
 Instead, your RFC should frame every claim with evidence, every decision with context, and every recommendation with clear alternatives considered. The goal is to make reviewing your proposal the easiest path for busy engineers.
 
-## Structuring Your RFC for Async Review
+### Step 2: Structuring Your RFC for Async Review
 
 An effective technical RFC follows a consistent structure that reviewers can quickly navigate. Use these sections in order:
 
-## Writing Techniques That Generate Better Feedback
+### Step 3: Writing Techniques That Generate Better Feedback
 
 ### Use Concrete Examples
 
@@ -92,7 +102,7 @@ Define what "success" looks like for your proposal:
 
 Concrete metrics give reviewers something concrete to evaluate against.
 
-## Managing the Async Review Process
+### Step 4: Manage the Async Review Process
 
 Writing a great RFC is only half the battle—you also need to manage the review process effectively.
 
@@ -116,7 +126,7 @@ Some feedback requires back-and-forth. Plan for this from the start by:
 - Creating a living document where you can incorporate feedback
 - Scheduling an optional sync call if the discussion gets complex
 
-## Common Async RFC Mistakes to Avoid
+### Step 5: Common Async RFC Mistakes to Avoid
 
 ### The Wall of Text
 
@@ -140,40 +150,40 @@ Replace weak language with specific claims:
 
 The most common failure mode is explaining what you want to do without explaining why this is the right thing to do. Every technical decision should connect back to business goals, user needs, or engineering constraints.
 
-## Example RFC Template
+### Step 6: Example RFC Template
 
 Here's a practical template you can adapt:
 
 ```markdown
 # RFC: [Short Title]
 
-## Motivation
+### Step 7: Motivation
 [Specific problem this solves, with concrete examples]
 
-## Proposed Solution
+### Step 8: Proposed Solution
 [Detailed technical approach with code examples]
 
-## Alternatives
+### Step 9: Alternatives
 - Option A: [description] — Rejected because [reason]
 - Option B: [description] — Rejected because [reason]
 
-## Open Questions
+### Step 10: Open Questions
 - [Specific question for reviewers]
 - [Another area needing input]
 
-## Success Criteria
+### Step 11: Success Criteria
 - [Measurable outcome 1]
 - [Measurable outcome 2]
 
-## Timeline
+### Step 12: Timeline
 - Week 1: [milestone]
 - Week 2: [milestone]
 
-## Feedback Requested By
+### Step 13: Feedback Requested By
 [Date and tagged reviewers]
 ```
 
-## Slack Automation with Workflows and Webhooks
+### Step 14: Slack Automation with Workflows and Webhooks
 
 Automating Slack notifications reduces manual status updates and keeps teams synchronized without extra meetings.
 
@@ -217,7 +227,7 @@ def post_standup_digest(updates):
 
 Webhooks are simpler than bot tokens for one-way notifications. Use Slack's Block Kit Builder (api.slack.com/block-kit/building) to design rich message layouts.
 
-## Slack Search Operators for Remote Teams
+### Step 15: Slack Search Operators for Remote Teams
 
 Advanced search operators cut through Slack noise to find decisions, files, and context quickly.
 
@@ -236,6 +246,21 @@ curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp
 ```
 
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

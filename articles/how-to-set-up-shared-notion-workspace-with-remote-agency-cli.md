@@ -42,7 +42,17 @@ This guide walks through the technical implementation of a shared Notion workspa
 - **If you track tasks in Linear**: keep using Linear and use Notion for documentation and specs.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Workspace Architecture for Agency-Client Sharing
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Workspace Architecture for Agency-Client Sharing
 
 The first decision involves choosing between a guest-based model or a multi-workspace approach. For most agencies managing multiple clients, the guest invitation model works well because it keeps all client data within your organization's Notion plan while providing appropriate access controls.
 
@@ -71,7 +81,7 @@ Clients/
 
 This structure ensures every client sees only their project while maintaining a clean organizational hierarchy.
 
-## Permission Models That Actually Work
+### Step 2: Permission Models That Actually Work
 
 Notion's permission system offers granular control, but configuring it correctly from the start prevents headaches later.
 
@@ -105,7 +115,7 @@ Create separate page groups within Notion to manage permissions efficiently:
 
 This grouping makes permission auditing straightforward. Run a monthly review to ensure client access remains appropriate as projects evolve.
 
-## Essential Pages for Client Workspaces
+### Step 3: Essential Pages for Client Workspaces
 
 Every client-facing Notion workspace should contain a consistent set of pages that establish expectations and provide clear communication channels.
 
@@ -116,18 +126,18 @@ Create a landing page with project essentials visible at a glance:
 ```markdown
 # Project Dashboard - [Client Name]
 
-## Current Sprint
+### Step 4: Current Sprint
 - Sprint Goal: [One sentence objective]
 - End Date: [Date]
 - Team: [@team-members]
 
-## Quick Links
+### Step 5: Quick Links
 - [Active Issues](link)
 - [Design Files](link)
 - [Staging Environment](link)
 - [Production URL](link)
 
-## Recent Updates
+### Step 6: Recent Updates
 - [Date] - [Update summary]
 - [Date] - [Update summary]
 ```
@@ -137,7 +147,7 @@ Create a landing page with project essentials visible at a glance:
 Standardize weekly status updates with a template that clients can expect and that your team can fill quickly:
 
 ```markdown
-## Week of [Date]
+### Step 7: Week of [Date]
 
 ### Completed
 - [Task 1]
@@ -170,7 +180,7 @@ Create dedicated pages for different types of feedback:
 
 The key principle is making it dead simple for clients to provide actionable feedback without needing to write lengthy emails.
 
-## Automating Workspace Management
+### Step 8: Automate Workspace Management
 
 For agencies managing multiple client workspaces, automation saves significant time. Notion's API enables programmatic workspace setup and maintenance.
 
@@ -235,7 +245,7 @@ Use Notion's Slack integration or a simple cron job to send weekly reminders:
 
 This queries your project database for active projects and sends reminders to team leads to update their client status pages.
 
-## Common Pitfalls and How to Avoid Them
+### Step 9: Common Pitfalls and How to Avoid Them
 
 **Over-sharing is worse than under-sharing.** Start with minimal permissions and expand as clients demonstrate they need access. You can always add more access later, but removing access after a project ends requires careful cleanup.
 
@@ -256,6 +266,21 @@ When sharing workspace access with external clients, implement these security pr
 5. Use encryption for any stored API keys or access tokens
 
 Notion's enterprise plan offers additional security features like SAML SSO and domain-wide sharing controls that larger agencies may require.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

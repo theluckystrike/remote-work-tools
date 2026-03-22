@@ -43,7 +43,17 @@ Remote work amplifies dependency management challenges that already exist in sof
 
 The core problems are visibility and timing. You may not know another team is depending on an API you're about to change. Even when you do know, the timezone gap means they might be asleep when you deploy a breaking change. Effective dependency tracking addresses both: making dependencies visible and creating safe communication channels.
 
-## Start with Your Package Manager
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Start with Your Package Manager
 
 The foundation of dependency tracking begins with your package manager configuration. Whether you use npm, pip, Cargo, or Go modules, your dependency files already contain valuable information— you just need to expose it.
 
@@ -66,7 +76,7 @@ pip-audit  # Check for vulnerabilities
 
 Commit these dependency snapshots to your repository. When you review a pull request, you can compare the new dependency tree against the baseline. This catches unexpected additions early.
 
-## Create a Central Dependency Registry
+### Step 2: Create a Central Dependency Registry
 
 For projects with multiple services or packages, maintain a central registry that maps dependencies between components. This doesn't require complex tooling—a simple YAML or JSON file works well:
 
@@ -97,7 +107,7 @@ services:
 
 Place this file in a shared location—your repository root, an internal wiki, or a dedicated docs folder. Update it whenever you add or remove inter-service dependencies. The registry becomes a single source of truth for understanding system architecture.
 
-## Use Dependency Graphs and Visualization
+### Step 3: Use Dependency Graphs and Visualization
 
 Visual representations of dependencies help teams understand relationships at a glance. Several tools can generate these automatically.
 
@@ -126,7 +136,7 @@ npx nx graph
 
 Run these tools in your CI pipeline and fail builds when critical dependencies change. This automation catches problems before they reach production.
 
-## Automate Dependency Updates with Bots
+### Step 4: Automate Dependency Updates with Bots
 
 Keeping dependencies current reduces security vulnerabilities and compatibility issues. Set up automated dependabot-style workflows:
 
@@ -161,14 +171,14 @@ Beyond GitHub, **Renovate** offers more flexible configuration for monorepos and
 }
 ```
 
-## Establish Communication Channels for Dependency Changes
+### Step 5: Establish Communication Channels for Dependency Changes
 
 Tools alone won't solve dependency management. You need processes that ensure changes propagate correctly across time zones.
 
 **Create a dependency change template** for PR descriptions:
 
 ```markdown
-## Dependency Changes
+### Step 6: Dependency Changes
 
 <!-- Fill this out for any PR that changes dependencies -->
 
@@ -219,7 +229,7 @@ async function notifyDependents(serviceName, changes) {
 }
 ```
 
-## Monitor Dependencies in Production
+### Step 7: Monitor Dependencies in Production
 
 Tracking dependencies isn't complete without observability. Monitor your applications for dependency-related failures:
 
@@ -246,7 +256,7 @@ const dependencyMetrics = {
 
 Set up alerts for dependency failures with escalation paths. When a payment API goes down, the team on-call should know immediately—regardless of which timezone they're in.
 
-## Build a Dependency Review Habit
+### Step 8: Build a Dependency Review Habit
 
 The most effective remote teams make dependency review a regular practice:
 
@@ -254,9 +264,24 @@ Run a weekly dependency audit — 30 minutes reviewing changes from the past wee
 
 Document these sessions. Future team members will thank you.
 
-## Putting It Together
+### Step 9: Putting It Together
 
 Make dependency visibility part of the daily workflow rather than a periodic exercise. When any developer can answer "what does this service depend on?" in under a minute, the team ships faster and breaks less.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

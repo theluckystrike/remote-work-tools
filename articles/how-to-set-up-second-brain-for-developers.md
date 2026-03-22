@@ -46,7 +46,17 @@ You write code that solves problems. Six months later, you encounter a similar i
 
 The core principle is simple: capture useful information in a structured way, link related ideas, and make everything searchable. The tools differ, but the methodology stays consistent.
 
-## Option 1: Obsidian — Local-First Markdown System
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Option 1: Obsidian — Local-First Markdown System
 
 Obsidian stores notes as plain markdown files on your local filesystem. This gives you full control over your data and integrates naturally with version control.
 
@@ -110,7 +120,7 @@ Enable these core plugins from Settings > Plugins:
 - Search: Advanced search with regex support
 - Markdown Format Converter: Import from other systems
 
-## Option 2: Notion — Relational Database Approach
+### Step 2: Option 2: Notion — Relational Database Approach
 
 Notion offers a cloud-hosted solution with databases, calendars, and collaboration features. It works well for teams but stores data on Notion's servers.
 
@@ -155,7 +165,7 @@ async function addSnippet(code, language, description) {
 
 This requires setting up an integration at notion.so/my-integrations and sharing your database with that integration.
 
-## Option 3: Code-First Plain Text with Git
+### Step 3: Option 3: Code-First Plain Text with Git
 
 If you prefer minimal tooling, store everything as plain markdown files in a Git repository. This approach uses the tools you already know.
 
@@ -201,7 +211,7 @@ git log --all --oneline --grep="docker"
 
 This gives you a complete audit trail of your knowledge base. Tools like `ripgrep` (installed via `brew install ripgrep`) provide faster searching than grep for large knowledge bases.
 
-## Choosing Your Approach
+### Step 4: Choose Your Approach
 
 | Factor | Obsidian | Notion | Git/Plain Text |
 |--------|----------|--------|----------------|
@@ -213,7 +223,7 @@ This gives you a complete audit trail of your knowledge base. Tools like `ripgre
 
 Obsidian works best if you want offline access and full data ownership. Notion suits teams needing real-time collaboration. Git-backed plain text appeals to developers who want zero dependencies beyond their terminal.
 
-## Building the Habit
+### Step 5: Build the Habit
 
 A second brain only works if you use it consistently. Set a simple rule: after solving a problem that took more than 15 minutes, spend 3 minutes documenting the solution. Capture the error message, the fix, and why it worked.
 
@@ -222,6 +232,21 @@ Review your inbox weekly. Move notes from `0_Inbox` to proper folders, add links
 Over time, your second brain becomes more valuable. That archive of debugging notes from three projects ago? It will save you hours. That code snippet you refined across five projects? It becomes a reusable tool you never have to rewrite.
 
 Start with one system, build the capture habit, and expand as you learn what works for your workflow.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

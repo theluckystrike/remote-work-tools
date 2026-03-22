@@ -24,7 +24,17 @@ Outdated dependencies are a security liability and a technical debt accumulation
 - **Use-case recommendations**: Specific guidance based on team size and requirements
 - **Trade-off analysis**: Strengths and limitations of each option discussed
 
-## Installation Options
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Install ation Options
 
 ### Option 1: GitHub App (Easiest)
 
@@ -71,7 +81,7 @@ RENOVATE_PLATFORM=github \
 renovate yourorg/yourrepo
 ```
 
-## Base Configuration
+### Step 2: Base Configuration
 
 ```json
 // renovate.json
@@ -92,7 +102,7 @@ renovate yourorg/yourrepo
 }
 ```
 
-## Grouping Updates
+### Step 3: Grouping Updates
 
 Reduce PR noise by grouping related packages:
 
@@ -136,7 +146,7 @@ Reduce PR noise by grouping related packages:
 }
 ```
 
-## Auto-Merge Safe Updates
+### Step 4: Auto-Merge Safe Updates
 
 ```json
 {
@@ -172,7 +182,7 @@ Reduce PR noise by grouping related packages:
 }
 ```
 
-## Python / Poetry Configuration
+### Step 5: Python / Poetry Configuration
 
 ```json
 {
@@ -200,7 +210,7 @@ Reduce PR noise by grouping related packages:
 }
 ```
 
-## Docker and GitHub Actions Updates
+### Step 6: Docker and GitHub Actions Updates
 
 ```json
 {
@@ -235,7 +245,7 @@ Reduce PR noise by grouping related packages:
 }
 ```
 
-## Security-Only Mode
+### Step 7: Security-Only Mode
 
 For repos where you only want to act on known vulnerabilities:
 
@@ -263,7 +273,7 @@ For repos where you only want to act on known vulnerabilities:
 }
 ```
 
-## Monorepo Configuration
+### Step 8: Monorepo Configuration
 
 ```json
 {
@@ -296,7 +306,7 @@ For repos where you only want to act on known vulnerabilities:
 }
 ```
 
-## PR Description Customization
+### Step 9: PR Description Customization
 
 ```json
 {
@@ -305,7 +315,7 @@ For repos where you only want to act on known vulnerabilities:
 }
 ```
 
-## Running Renovate on Gitea
+### Step 10: Run Renovate on Gitea
 
 ```json
 {
@@ -326,6 +336,21 @@ RENOVATE_ENDPOINT=https://git.example.com \
 RENOVATE_TOKEN=your-token \
 renovate mycompany/api
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

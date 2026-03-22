@@ -38,13 +38,23 @@ Track remote team velocity by measuring three complementary metrics: **sprint ve
 - **Topics covered**: understanding velocity in async environments, core velocity metrics to track, sprint velocity
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Understanding Velocity in Async Environments
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Velocity in Async Environments
 
 Velocity measures how much work a team completes in a given timeframe. In remote settings, traditional methods like observing someone at their desk no longer apply. Instead, you track completed work items, story points, or feature deliveries over time.
 
 The core challenge: remote work introduces time zone differences, flexible schedules, and communication delays that can distort simple counting metrics. A thoughtful velocity tracking system accounts for these factors while keeping measurement overhead low.
 
-## Core Velocity Metrics to Track
+### Step 2: Core Velocity Metrics to Track
 
 ### Sprint Velocity
 
@@ -139,7 +149,7 @@ print(f"Weekly throughput: {throughput}")
 # Output: {'2026-03-03': 3, '2026-03-10': 2}
 ```
 
-## Setting Up Velocity Tracking
+### Step 3: Set Up Velocity Tracking
 
 ### Data Collection Pipeline
 
@@ -216,7 +226,7 @@ new Chart(document.getElementById('velocityChart'), {
 });
 ```
 
-## Avoiding Common Pitfalls
+### Step 4: Avoiding Common Pitfalls
 
 ### Don't Track Activity Instead of Outcomes
 
@@ -230,7 +240,7 @@ When team members work across time zones, work continues around the clock but me
 
 Share velocity metrics openly with the team. When people understand how velocity is calculated, they can contribute to improving it rather than feeling surveilled.
 
-## Practical Velocity Tracking Setup
+### Step 5: Practical Velocity Tracking Setup
 
 For most remote teams, a minimal setup includes:
 
@@ -240,6 +250,21 @@ For most remote teams, a minimal setup includes:
 4. Hold a monthly review to spot trends and discuss improvements
 
 You don't need expensive tools to track velocity effectively. A spreadsheet with the formulas above works well for teams under 20 people. As you scale, graduate to dedicated analytics tools that integrate with your existing workflow.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

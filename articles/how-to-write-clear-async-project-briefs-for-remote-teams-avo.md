@@ -39,7 +39,17 @@ Before examining the frameworks, understanding why briefs fail helps you avoid c
 
 The cost of ambiguous briefs compounds quickly in async settings. A miscommunication that takes 5 minutes to clarify in an office can stretch into hours or days of lost productivity when team members are spread across time zones.
 
-## The BRIEF Framework for Async Project Briefs
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The BRIEF Framework for Async Project Briefs
 
 Use this six-component framework every time you write a project brief:
 
@@ -72,7 +82,7 @@ Notice how each requirement uses action verbs and specific outcomes. Avoid vague
 Document technical decisions, architectural constraints, and dependencies. This section answers the "how" questions before they arise:
 
 ```markdown
-## Implementation Notes
+### Step 2: Implementation Notes
 
 - Use `bcrypt` library version 4.x (compatible with our Node 18 runtime)
 - Store migration status in Redis with 24-hour TTL
@@ -86,7 +96,7 @@ Document technical decisions, architectural constraints, and dependencies. This 
 Explicitly state what should happen after the brief is read. Use action verbs and assign owners:
 
 ```markdown
-## Action Items
+### Step 3: Action Items
 
 - [ ] @developer-api: Implement password migration script (by Wed)
 - [ ] @devops: Configure Redis migration state store (by Thu)
@@ -99,7 +109,7 @@ Explicitly state what should happen after the brief is read. Use action verbs an
 Define what "done" looks like before work begins. Ambiguous completion criteria lead to scope creep and frustrated team members:
 
 ```markdown
-## Success Criteria
+### Step 4: Success Criteria
 
 - [ ] All 50,000 user passwords successfully migrated
 - [ ] Login latency remains under 200ms
@@ -125,22 +135,22 @@ User research shows 67% of our users work late hours. Currently, our app forces 
 4. Apply theme without page reload
 5. Support both light and dark color schemes
 
-## Technical Constraints
+### Step 5: Technical Constraints
 - Must not cause flash of unstyled content on load
 - CSS custom properties required for theming
 - Contrast ratios must meet WCAG AA standards
 - Theme must apply to all components including modals
 
-## Dependencies
+### Step 6: Dependencies
 - Design team provides dark palette (ETA: Monday)
 - Backend API addition for preference storage
 
-## Action Items
+### Step 7: Action Items
 - [ ] @frontend-team: Implement theme detection and toggle
 - [ ] @backend-team: Add preference API endpoint
 - [ ] @design-team: Deliver dark palette tokens
 
-## Acceptance Criteria
+### Step 8: Acceptance Criteria
 - [ ] System preference detected automatically on first visit
 - [ ] Manual toggle overrides system preference
 - [ ] Theme persists across sessions and devices
@@ -153,10 +163,10 @@ User research shows 67% of our users work late hours. Currently, our app forces 
 ```markdown
 # Bug Brief: Payment Processing Timeout
 
-## Impact
+### Step 9: Impact
 Users on European servers experience timeout errors when processing payments over $500. Approximately 15% of high-value transactions fail. Customer support tickets increased 40% this month.
 
-## Root Cause
+### Step 10: Root Cause
 Timeout value set to 10 seconds is too short for European payment providers processing USD transactions. The external API occasionally exceeds this threshold even when successfully processing the payment.
 
 ## Requirements
@@ -165,7 +175,7 @@ Timeout value set to 10 seconds is too short for European payment providers proc
 3. Add detailed error messages distinguishing timeout from declined
 4. Log all retry attempts with timing data
 
-## Code Context
+### Step 11: Code Context
 Current implementation in `paymentservice.js` lines 45-67:
 ```javascript
 const timeout = 10000;
@@ -176,20 +186,20 @@ const response = await fetch(paymentEndpoint, {
 });
 ```
 
-## Testing Plan
+### Step 12: Test Plan
 - [ ] Verify timeout works correctly at 10s, 20s, 30s thresholds
 - [ ] Confirm retry logic doesn't duplicate charges
 - [ ] Test with network throttling simulation
 - [ ] Validate error messages display correctly in UI
 
-## Success Criteria
+### Step 13: Success Criteria
 - [ ] Zero false timeouts on legitimate payments
 - [ ] No duplicate charges from retry logic
 - [ ] Error messages help support team diagnose issues
 - [ ] Logs provide sufficient detail for debugging
 ```
 
-## Tools and Templates
+### Step 14: Tools and Templates
 
 Consider creating a template repository or Notion template your team can reuse:
 
@@ -204,13 +214,13 @@ Consider creating a template repository or Notion template your team can reuse:
 2. [Specific, testable requirement]
 3. [Specific, testable requirement]
 
-## Technical Notes
+### Step 15: Technical Notes
 [Architecture decisions, constraints, dependencies]
 
-## Action Items
+### Step 16: Action Items
 - [ ] @owner: Task description (deadline)
 
-## Success Criteria
+### Step 17: Success Criteria
 - [ ] Measurable outcome 1
 - [ ] Measurable outcome 2
 ```
@@ -229,7 +239,7 @@ Store this template in your team's shared documentation so every brief follows t
 
 **Leaving action items vague.** "Someone should look at this" creates no accountability. Assign specific owners and deadlines.
 
-## Building Briefs That Scale
+### Step 18: Build Briefs That Scale
 
 As your team grows, well-structured briefs become essential for onboarding, knowledge transfer, and maintaining institutional memory. Briefs stored in searchable tools (Notion, Confluence, GitHub) become referenceable artifacts that prevent repeated discussions about the same topics.
 
@@ -237,6 +247,21 @@ Review your briefs after project completion. Note what was unclear, what questio
 
 The best async project briefs anticipate questions before they appear. They give your remote team everything needed to execute confidently, independently, and correctly.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

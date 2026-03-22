@@ -24,13 +24,23 @@ Remote teams face a common challenge: spending precious meeting time rehashing d
 - **Maintain a notes archive**: The more historical data you feed the system, the better it becomes at identifying patterns.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## The Problem with Manual Agenda Building
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Problem with Manual Agenda Building
 
 When you're managing a distributed team, relevant information lives across multiple platforms. Your sprint planning notes might be in Notion, design decisions in Figma comments, and technical discussions in Slack channels. Building a meeting agenda traditionally requires manually gathering these disparate inputs—a time-consuming process that often misses critical context.
 
 AI tools excel at pattern recognition across large volumes of text. By feeding previous notes into an AI system, you can automatically extract action items, identify recurring topics, and surface decisions that need follow-up.
 
-## Building Your AI Agenda Generator
+### Step 2: Build Your AI Agenda Generator
 
 Here's a practical approach using a simple Python script that works with most AI APIs:
 
@@ -118,7 +128,7 @@ if __name__ == "__main__":
 
 This script collects markdown files from a designated folder, sends them to an AI model, and returns a structured agenda. You can customize the prompt to match your team's specific needs.
 
-## Integrating with Your Existing Tools
+### Step 3: Integrate with Your Existing Tools
 
 For a more integrated solution, consider connecting your AI agenda generator to your existing workflow:
 
@@ -174,7 +184,7 @@ def get_github_notes(owner, repo, days=7):
 
 **Maintain a notes archive**: The more historical data you feed the system, the better it becomes at identifying patterns. Consistent note-taking pays dividends.
 
-## Extracting Action Items Automatically
+### Step 4: Extracting Action Items Automatically
 
 One of the most valuable features is automatic action item extraction. Configure your AI to specifically look for:
 
@@ -199,7 +209,7 @@ Text:
     return action_items
 ```
 
-## Putting It All Together
+### Step 5: Putting It All Together
 
 The real power comes from combining multiple data sources. A complete agenda pipeline might pull from:
 
@@ -211,7 +221,7 @@ The real power comes from combining multiple data sources. A complete agenda pip
 
 Each source adds context. The AI serves as the aggregator, transforming noise into signal.
 
-## Scheduling the Agenda Generator
+### Step 6: Scheduling the Agenda Generator
 
 Automate agenda generation before each recurring meeting:
 
@@ -238,7 +248,7 @@ Schedule with cron:
 0 8 * * 1,3,5 /home/user/scripts/pre-meeting-agenda.sh >> /var/log/agenda.log 2>&1
 ```
 
-## Comparing AI Models for Agenda Generation
+### Step 7: Comparing AI Models for Agenda Generation
 
 | Model | Strength | Weakness | Cost per Agenda |
 |-------|----------|----------|----------------|
@@ -249,7 +259,7 @@ Schedule with cron:
 
 For weekly team meetings, Claude Sonnet produces the most actionable agendas. For daily standups, Claude Haiku provides sufficient quality at a fraction of the cost.
 
-## Measuring Agenda Effectiveness
+### Step 8: Measuring Agenda Effectiveness
 
 Track whether AI-generated agendas improve meeting quality:
 
@@ -259,6 +269,21 @@ Track whether AI-generated agendas improve meeting quality:
 - Meeting duration vs planned: shorter / on-time / longer
 
 Teams typically report 20-30% improvement in perceived meeting effectiveness within the first month, primarily because agendas surface forgotten action items and reduce time spent recapping previous discussions.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

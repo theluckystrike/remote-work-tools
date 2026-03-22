@@ -40,7 +40,17 @@ Velocity = (Total Candidates in Pipeline × Average Time in Stage) / Number of S
 
 For remote teams, you'll want to segment this further by timezone pairs and communication channel.
 
-## Building a Pipeline Tracker
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Build a Pipeline Tracker
 
 Start with a simple data model. Whether you use a spreadsheet or a database, track these core fields per candidate:
 
@@ -59,7 +69,7 @@ Start with a simple data model. Whether you use a spreadsheet or a database, tra
 
 This structure lets you analyze where delays occur. For distributed teams, the delta between `entered_stage` and `last_interaction` reveals timezone-related friction.
 
-## Key Metrics for Distributed Hiring
+### Step 2: Key Metrics for Distributed Hiring
 
 Focus on these four metrics:
 
@@ -83,7 +93,7 @@ If this number grows beyond 24 hours, your scheduling process needs adjustment.
 **4. Offer-to-Accept Ratio**
 Remote offers face unique competition. Candidates may have offers from other remote-friendly companies. Track this ratio by region to understand which markets need faster offer processes.
 
-## Implementing Velocity Tracking
+### Step 3: Implementing Velocity Tracking
 
 For a developer-focused approach, consider a simple SQL-based tracking system:
 
@@ -116,7 +126,7 @@ ORDER BY hours_in_stage DESC;
 
 This query reveals your slowest stages. For remote teams, expect technical interviews to show higher times due to scheduling complexity.
 
-## Automating Velocity Alerts
+### Step 4: Automate Velocity Alerts
 
 Set up automated monitoring to catch slowdowns early:
 
@@ -142,7 +152,7 @@ fi
 
 Run this daily via cron to maintain pipeline health across time zones.
 
-## Visualizing the Pipeline
+### Step 5: Visualizing the Pipeline
 
 Create a simple velocity dashboard using Python and matplotlib:
 
@@ -177,7 +187,7 @@ plt.savefig('velocity-dashboard.png')
 
 Review this weekly with your distributed team to identify patterns. Red bars indicate stages needing process improvement.
 
-## Optimizing for Remote Velocity
+### Step 6: Optimizing for Remote Velocity
 
 Once you measure velocity, focus on these improvements:
 
@@ -188,7 +198,7 @@ Once you measure velocity, focus on these improvements:
 **Document handoff protocols.** When a recruiter in one timezone hands off to a hiring manager in another, use structured handoff documents:
 
 ```markdown
-## Candidate Handoff: Jane Doe
+### Step 7: Candidate Handoff: Jane Doe
 - Technical level: Senior
 - Remote experience: 4 years
 - Key strength: Distributed team collaboration
@@ -199,7 +209,7 @@ Once you measure velocity, focus on these improvements:
 
 **Implement async assessment stages.** Replace live coding interviews with timed take-home projects evaluated asynchronously. This removes scheduling dependencies entirely.
 
-## Comparing ATS Tools for Distributed Hiring Velocity
+### Step 8: Comparing ATS Tools for Distributed Hiring Velocity
 
 Not all applicant tracking systems expose the velocity data you need. Here's how leading tools compare for remote hiring metrics:
 
@@ -213,7 +223,7 @@ Not all applicant tracking systems expose the velocity data you need. Here's how
 
 Ashby stands out for distributed teams because it exposes granular stage timing data via API and supports custom pipeline views segmented by timezone. Teams with engineering resources often prefer a lightweight Notion database + custom API pipeline, giving complete control over the metrics you surface.
 
-## Detecting Timezone Bottlenecks Programmatically
+### Step 9: Detecting Timezone Bottlenecks Programmatically
 
 Most pipeline slowdowns in distributed teams occur at timezone seams—when a candidate in APAC waits for a hiring manager in US-EST to wake up. You can detect these patterns by correlating stage entry times with delay lengths:
 
@@ -238,7 +248,7 @@ ORDER BY avg_delay_hours DESC;
 
 When this query returns specific timezone pairs with high delay averages—say, US recruiter / APAC candidate averaging 52 hours for first contact—you have an actionable finding. The fix might be adding a recruiter in that region, enabling automated first-contact emails outside business hours, or creating async video introductions that reduce the need for live first contact.
 
-## Building a Pipeline Velocity Scorecard
+### Step 10: Build a Pipeline Velocity Scorecard
 
 Track velocity performance weekly using a simple scorecard format. This gives your leadership team an one-page view of hiring health:
 
@@ -262,7 +272,7 @@ Action: Schedule 2x async take-home assessments this week
 
 This format forces weekly accountability and surfaces bottlenecks before they compound. Assign a recruiting lead to own the scorecard and present findings in your weekly all-hands or team standup.
 
-## Measuring Success
+### Step 11: Measuring Success
 
 Set velocity targets based on your data. A reasonable remote hiring pipeline should complete in 21-28 days end-to-end. Break this down:
 
@@ -274,6 +284,21 @@ Set velocity targets based on your data. A reasonable remote hiring pipeline sho
 Track these weekly. If your actual times exceed targets by more than 20%, investigate the bottleneck stage. For distributed teams, expect slightly longer technical stages due to scheduling complexity.
 
 Once you have four to six weeks of clean velocity data, you can establish team-specific benchmarks. A team hiring primarily in Latin America will have different baseline numbers than one hiring across EU and APAC. Normalizing against your own historical data is more meaningful than industry benchmarks that do not account for your geographic distribution.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

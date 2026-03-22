@@ -25,7 +25,17 @@ Single sign-on (SSO) has become essential for remote teams managing multiple Saa
 - **Does GitHub offer a**: free tier? Most major tools offer some form of free tier or trial period.
 - **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Understanding SSO Protocols
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand SSO Protocols
 
 Three protocols dominate modern SSO implementations: SAML 2.0, OAuth 2.0, and OpenID Connect (OIDC). Each serves different use cases and offers varying levels of complexity.
 
@@ -48,7 +58,7 @@ For most remote teams, OIDC provides the best balance of security, simplicity, a
 | Mobile support | Poor | Good | Good |
 | Setup complexity | High | Medium | Medium |
 
-## Setting Up Your Identity Provider
+### Step 2: Set Up Your Identity Provider
 
 Before configuring SaaS applications, establish a centralized identity provider (IdP). Popular options include Okta, Google Workspace, Azure AD, and Auth0. The setup process varies by provider, but the core concepts remain consistent.
 
@@ -78,7 +88,7 @@ Example Auth0 Application Configuration:
 }
 ```
 
-## Configuring SaaS Applications
+### Step 3: Configure SaaS Applications
 
 Most modern SaaS tools support SSO through standardized protocols. Here's how to configure common remote work applications.
 
@@ -140,7 +150,7 @@ NOTION_ATTRIBUTES = {
 
 For engineering-focused tools like Linear and Jira (Atlassian), SSO is typically configured in organization settings under "Security." Linear supports Google OAuth and SAML natively. Atlassian products use Atlassian Access, a separate subscription that enables SAML SSO across Jira, Confluence, and other tools from a single admin console. Budget approximately $4/user/month for Atlassian Access on top of existing licenses.
 
-## Implementing Custom SSO for Internal Tools
+### Step 4: Implementing Custom SSO for Internal Tools
 
 For internal applications, implement OIDC directly in your codebase. Here's a Python FastAPI example using Authlib:
 

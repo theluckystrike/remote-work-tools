@@ -46,7 +46,17 @@ Remote teams face a fundamental challenge: information asymmetry. When developer
 
 With 50 developers, you'll likely have multiple product areas, a mix of feature work and maintenance, and various release cadences. The structure must accommodate this complexity while remaining navigable.
 
-## Recommended Hierarchy: Projects, Boards, and Filters
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Recommended Hierarchy: Projects, Boards, and Filters
 
 For a team of 50 developers, a flat project structure quickly becomes unmanageable. Instead, use a hierarchical approach that groups related work while maintaining clear boundaries.
 
@@ -80,7 +90,7 @@ Board: PROJ-API Sprint Board
   Columns: To Do | In Progress | In Review | Done
 ```
 
-## Workflow Configuration for Async Handoffs
+### Step 2: Workflow Configuration for Async Handoffs
 
 Large remote teams need explicit workflow states that communicate progress without requiring status update meetings.
 
@@ -127,7 +137,7 @@ THEN: Add comment "@assignee Please provide an update"
 AND: Add label "needs-attention"
 ```
 
-## Team-Specific Configurations
+### Step 3: Team-Specific Configurations
 
 With 50 developers, you'll likely have sub-teams. Configure Jira to respect these boundaries while maintaining organization-wide visibility.
 
@@ -160,7 +170,7 @@ Filter: "Team Blockers"
 
 Share these filters widely. Team members can bookmark their team's filters for quick access.
 
-## Handling Cross-Team Dependencies
+### Step 4: Handling Cross-Team Dependencies
 
 Large remote teams inevitably have dependencies across product areas. Without explicit tracking, these become coordination nightmares.
 
@@ -189,7 +199,7 @@ Issue Type: Dependency
 
 When Team A depends on Team B, they create a Dependency issue that appears on both teams' boards.
 
-## Permission Schemes That Scale
+### Step 5: Permission Schemes That Scale
 
 With 50 developers, overly restrictive permissions create bottlenecks. Too open, and you lose auditability.
 
@@ -219,7 +229,7 @@ Product Managers:
 
 Avoid creating individual user permissions. Use groups consistently.
 
-## Practical Tips for Remote Jira Usage
+### Step 6: Practical Tips for Remote Jira Usage
 
 Beyond configuration, establish conventions that make Jira work for distributed teams:
 
@@ -227,6 +237,21 @@ Beyond configuration, establish conventions that make Jira work for distributed 
 2. **Use @mentions in comments** — Explicitly notify team members rather than relying on default notifications
 3. **Link PRs immediately** — Automated transitions keep boards current without manual updates
 4. **Review board standing** — Spend 5 minutes each morning reviewing your team's board view
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

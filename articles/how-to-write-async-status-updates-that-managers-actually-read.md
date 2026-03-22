@@ -56,7 +56,17 @@ Before looking at solutions, let's identify why typical status updates fall flat
 
 The fix isn't writing more—it's writing smarter.
 
-## The SPARC Framework for Effective Async Updates
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The SPARC Framework for Effective Async Updates
 
 Use the SPARC framework to structure every status update:
 
@@ -68,12 +78,12 @@ Use the SPARC framework to structure every status update:
 
 Here's a template that applies this framework:
 
-## Practical Templates
+### Step 2: Practical Templates
 
 ### Weekly Team Update Template
 
 ```
-## Week of [Date]
+### Step 3: Week of [Date]
 
 ### Accomplishments
 - Completed [specific task] - [outcome or metric]
@@ -100,7 +110,7 @@ Here's a template that applies this framework:
 ### Daily Quick Update Template
 
 ```
-## [Date] Update
+### Step 4: [Date] Update
 
 **Completed**: [Task 1], [Task 2]
 **In Progress**: [Task] - on track / at risk / blocked
@@ -109,7 +119,7 @@ Here's a template that applies this framework:
 **Help needed**: [Specific request, if any]
 ```
 
-## Examples That Work
+### Step 5: Examples That Work
 
 ### Weak Update (Avoid)
 
@@ -129,7 +139,7 @@ Here's a template that applies this framework:
 
 Notice the difference: specific tasks, measurable progress, clear deadlines, and a specific ask.
 
-## Writing Tips That Drive Results
+### Step 6: Writing Tips That Drive Results
 
 ### Lead with What Matters
 
@@ -154,7 +164,7 @@ When your team uses the same structure every time, managers know exactly where t
 
 A screenshot, diagram, or link to actual work beats a paragraph describing it. For code updates, include PR links. For design work, include mockups. For data analysis, include key findings.
 
-## Common Mistakes to Fix
+### Step 7: Common Mistakes to Fix
 
 | Mistake | Why It Fails | Fix |
 |---------|--------------|-----|
@@ -164,13 +174,13 @@ A screenshot, diagram, or link to actual work beats a paragraph describing it. F
 | No clear owner | Creates confusion | Name who needs to act |
 | Updating too often | Causes fatigue | Match team rhythm |
 
-## Adapting for Your Team Culture
+### Step 8: Adapting for Your Team Culture
 
 Every team has different communication norms. Some teams want daily updates; others prefer weekly. Some want formal structure; others prefer informal notes. Observe what your manager responds to and adjust accordingly.
 
 If your manager asks follow-up questions after every update, you're probably not providing enough detail. If they rarely respond, you might be over-updating or your updates lack actionable information.
 
-## Tools That Support Async Updates
+### Step 9: Tools That Support Async Updates
 
 Consider using these tools to structure your updates:
 
@@ -264,13 +274,13 @@ Example:
 
 This approach transforms bad news into a managed situation rather than a crisis.
 
-## Building Your Update Habit
+### Step 10: Build Your Update Habit
 
 Treat status updates as a regular practice, not an afterthought. Schedule time each Friday afternoon to draft your weekly update while the work is fresh. This 15-minute investment prevents the scramble of trying to remember what you accomplished while blocking your manager's calendar.
 
 Create a template in your favorite tool and update it incrementally throughout the week. Add items to "Completed" as you finish them rather than trying to reconstruct your week on Friday.
 
-## Status Update Red Flags Your Manager Notices
+### Step 11: Status Update Red Flags Your Manager Notices
 
 Managers unconsciously evaluate status updates based on patterns. These red flags signal deeper problems:
 
@@ -301,7 +311,7 @@ Managers unconsciously evaluate status updates based on patterns. These red flag
 
 Audit your last 4 weeks of updates. If any red flags appear, correct them immediately.
 
-## Context About Your Manager Matters
+### Step 12: Context About Your Manager Matters
 
 Different managers value different information:
 
@@ -327,7 +337,7 @@ Different managers value different information:
 
 Pay attention to which updates get responses. If your manager always asks for more detail, you're under-explaining. If they never engage with detailed sections, simplify.
 
-## Recovery From Bad Update Patterns
+### Step 13: Recovery From Bad Update Patterns
 
 If your status updates aren't landing well:
 
@@ -353,7 +363,7 @@ If your status updates aren't landing well:
 
 People trust new patterns after 3-4 repetitions. Give yourself that runway.
 
-## Status Updates As Career Documentation
+### Step 14: Status Updates As Career Documentation
 
 One underrated value: your status updates become your performance review documentation. Managers reference them when writing reviews, discussing promotions, or preparing references.
 
@@ -366,6 +376,21 @@ This means:
 The developers who advance most consistently are those whose status updates paint a picture of increasing responsibility and impact.
 
 Conversely, vague status updates make managers underestimate your contributions. Your work matters, but it only counts if your manager sees it.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

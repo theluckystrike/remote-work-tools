@@ -21,7 +21,17 @@ Effective postmortem reports for remote teams share three properties: they are w
 
 - **Before this incident**: Redis was hitting memory limits because..."
 
-## Postmortem as Learning Tool
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Postmortem as Learning Tool
 
 The best postmortems become institutional knowledge.
 - **The 5 Whys technique**: forces deeper investigation: Incident: API response times exceeded 10 seconds for 45 minutes.
@@ -42,46 +52,46 @@ The key differences for remote postmortem workflows:
 - **Written root cause analysis**: The depth that comes from careful writing, not rapid brainstorm
 - **Tracked action items**: Every improvement must be a ticket, not a comment
 
-## The Postmortem Template
+### Step 2: The Postmortem Template
 
 Store this template in your team wiki or as a GitHub Issue template:
 
 ```markdown
-## Impact
+### Step 3: Impact
 
 - Duration: [start] to [end]
 - Users affected: [number or estimate]
 - Financial impact: [if applicable]
 - Data impact: [if applicable]
 
-## Timeline (UTC)
+### Step 4: Timeline (UTC)
 
 - [HH:MM] - [Event description]
 - [HH:MM] - [Event description]
 
-## Root Cause
+### Step 5: Root Cause
 
 [Explanation using 5 whys or similar technique]
 
-## Contributing Factors
+### Step 6: Contributing Factors
 
 - [Factor 1]
 - [Factor 2]
 
-## Action Items
+### Step 7: Action Items
 
 | Item | Owner | Due |
 |------|-------|-----|
 | [Description] | @username | YYYY-MM-DD |
 
-## Lessons Learned
+### Step 8: Lessons Learned
 
 - What went well:
 - What could improve:
 ```
 
 
-## Writing an Effective Root Cause Analysis
+### Step 9: Writing an Effective Root Cause Analysis
 
 The root cause section is where most postmortems fall short. Shallow analysis — "the server ran out of memory" — leads to shallow fixes that do not prevent recurrence. The 5 Whys technique forces deeper investigation:
 
@@ -98,7 +108,7 @@ This analysis produces two real action items: fix the code pattern, and add conn
 Write the root cause in full sentences, not bullet points. The discipline of complete sentences forces clarity and prevents hand-waving.
 
 
-## Conducting the Timeline Reconstruction Asynchronously
+### Step 10: Conducting the Timeline Reconstruction Asynchronously
 
 Remote teams often discover that different members have incomplete or conflicting recollections of an incident's timeline. A structured async reconstruction process produces a more accurate record.
 
@@ -125,7 +135,7 @@ aws logs filter-log-events \
 Attaching log evidence to the timeline section of the postmortem gives future readers concrete data rather than approximate recollections.
 
 
-## Managing Action Items Across Time Zones
+### Step 11: Manage Action Items Across Time Zones
 
 Action items in a postmortem document are promises, not tasks. For remote teams, promises without tracking systems disappear. Every action item must become a ticket in your project management tool before the postmortem is published.
 
@@ -159,7 +169,7 @@ Postmortems serve multiple functions beyond documenting what went wrong. For dis
 
 Remote teams also face a specific risk: without intentional documentation, incident learnings vanish. The developer who debugged the issue goes back to feature work. Two months later, a similar problem surfaces and the team doesn't realize they already found the solution. Postmortems prevent this knowledge loss.
 
-## Structuring the Postmortem Process for Async Teams
+### Step 12: Structuring the Postmortem Process for Async Teams
 
 ### Timing and Deadlines
 
@@ -197,7 +207,7 @@ The last "why" is usually systemic—lack of process, tooling, training, or owne
 | Dashboard | 02:37 UTC | 02:35 UTC | 02:50 UTC | 03:15 UTC | 40 min |
 | Background Jobs | 02:40 UTC | N/A | 03:05 UTC | 03:18 UTC | 13 min |
 
-## Making Postmortems a Habit
+### Step 13: Making Postmortems a Habit
 
 The best postmortem is one that actually gets written and read. For remote teams, this means building it into your incident response workflow:
 
@@ -214,7 +224,7 @@ The best postmortem is one that actually gets written and read. For remote teams
 
 6. **Follow up on action items.** Track action items in your project management tool immediately after publishing. Assign owners, set due dates (typically within 2 weeks for critical items, 30 days for improvements). Review these items in retrospectives or team standups.
 
-## Tools and Platforms for Remote Postmortems
+### Step 14: Tools and Platforms for Remote Postmortems
 
 | Platform | Strengths | Trade-offs | Best For |
 |----------|-----------|-----------|----------|
@@ -225,7 +235,7 @@ The best postmortem is one that actually gets written and read. For remote teams
 
 For most remote teams, start simple with Google Docs shared in Slack. As your incident volume grows, consider moving to a dedicated wiki platform.
 
-## Template for Different Incident Types
+### Step 15: Template for Different Incident Types
 
 ### Database Outage Template
 
@@ -239,7 +249,7 @@ Include: exact commit that was deployed, what changed from previous version, why
 
 Include: provider's status page details, what our team changed recently (even unrelated), whether this was a known risk, communication with the vendor.
 
-## Common Postmortem Mistakes to Avoid
+### Step 16: Common Postmortem Mistakes to Avoid
 
 **Blame-focused root causes**: "The developer deployed without testing" isn't a root cause—it's a symptom. The actual cause is the process allows untested code to ship. Address the system, not the person.
 
@@ -251,7 +261,7 @@ Include: provider's status page details, what our team changed recently (even un
 
 **Writing for the wrong audience**: Avoid excessive technical jargon if non-technical stakeholders read these. Provide context: "database connection pool" → "the database server's limit on simultaneous connections."
 
-## Measuring Postmortem Program Health
+### Step 17: Measuring Postmortem Program Health
 
 Track these metrics to understand if your postmortem culture is working:
 
@@ -261,7 +271,7 @@ Track these metrics to understand if your postmortem culture is working:
 - **Team participation**: Do comments and questions come from a broad group or just a few people?
 - **Search usage**: Are people searching your postmortem archive to avoid repeating issues?
 
-## Handling Sensitive Incidents: Approach Differences
+### Step 18: Handling Sensitive Incidents: Approach Differences
 
 Not all incidents warrant a full postmortem. Calibrate your response:
 
@@ -304,7 +314,7 @@ These incidents might not warrant full postmortems:
 
 Decision framework: "Would this knowledge prevent a future outage?" If yes, postmortem it. If no, doc it lightly.
 
-## Postmortem Anti-Patterns to Avoid
+### Step 19: Postmortem Anti-Patterns to Avoid
 
 ### The "Blame Hunt" Postmortem
 
@@ -353,7 +363,7 @@ Decision framework: "Would this knowledge prevent a future outage?" If yes, post
 
 **Fix**: Add context section: "The API runs on Kubernetes with 6 pods. It uses Redis for caching. Before this incident, Redis was hitting memory limits because..."
 
-## Postmortem as Learning Tool
+### Step 20: Postmortem as Learning Tool
 
 The best postmortems become institutional knowledge. Create feedback loops:
 
@@ -373,20 +383,20 @@ Separate from postmortems, create a "Lessons Learned" document that synthesizes 
 ```markdown
 # Key Lessons from Q1 2024 Incidents
 
-## Monitoring Gaps
+### Step 21: Monitor Gaps
 - 4 incidents (Apr, May, June, Aug) involved unmonitored error conditions
 - Action: Implement metrics-first monitoring (choose what matters before alerts fail)
 - Owner: Ops team
 - Status: In progress
 
-## Deployment Risks
+### Step 22: Deploy ment Risks
 - 3 incidents involved recent deployments
 - Pattern: Changes affecting database were deployed without coordination with DBA
 - Action: Implement deployment review process for high-risk changes
 - Owner: Engineering leads
 - Status: Implemented July 1
 
-## Communication Delays
+### Step 23: Communication Delays
 - 2 incidents involved delayed customer notification
 - Root: No clear owner for customer communication during incidents
 - Action: Create incident commander role with explicit communication responsibilities
@@ -396,7 +406,7 @@ Separate from postmortems, create a "Lessons Learned" document that synthesizes 
 
 This high-level view helps leadership see systemic issues and allocate resources accordingly.
 
-## Scaling Postmortems as You Grow
+### Step 24: Scaling Postmortems as You Grow
 
 Postmortem practices change as teams scale:
 
@@ -417,7 +427,7 @@ Postmortem practices change as teams scale:
 - Regular synthesis: monthly report showing incident trends, action item status
 
 
-## Building a Postmortem Culture
+### Step 25: Build a Postmortem Culture
 
 Teams that write good postmortems consistently share one property: the postmortem is explicitly blameless. When an individual fears being blamed for an incident, they withhold information during the root cause analysis. Incomplete information produces incomplete fixes.
 
@@ -431,6 +441,21 @@ Engineers make good decisions with the information available at the time.
 ```
 
 Post this at the top of every postmortem document. Over time, the team internalizes that the purpose of the exercise is shared learning, not accountability theater.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

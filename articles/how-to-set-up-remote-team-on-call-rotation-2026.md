@@ -27,7 +27,17 @@ PagerDuty ($1,499/month for small teams) is the industry standard with the best 
 - **Integration only works within**: Grafana ecosystem; if you use other monitoring tools (Datadog, New Relic), you need different routing.
 - **Invest in the tool**: that prevents a key engineer from leaving due to burnout (cost: $150k+ replacement) or a critical incident from going unresponded (cost: $millions in customer impact).
 
-## The Remote On-Call Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Remote On-Call Challenge
 
 Remote teams face unique on-call complexities. Traditional single-time-zone on-call shifts don't work across distributed teams. A 4am incident notification to your San Francisco team while Asia team sleeps violates fairness. Without structured rotation policies, senior engineers shoulder disproportionate load. Without automated escalation, incidents wait minutes for humans to notice and acknowledge.
 
@@ -76,7 +86,7 @@ Integration with Slack, email, phone, SMS, and webhooks ensures on-call engineer
 
 Limitations: PagerDuty costs $1,500+/month (expensive for smaller teams). Setup requires careful escalation policy design; misconfigured policies become worse than no automation. The platform carries complexity that small teams don't need.
 
-## OpsGenie: Cost-Effective Alternative
+### Step 2: OpsGenie: Cost-Effective Alternative
 
 OpsGenie (part of Atlassian, costs $29/user/month, roughly $290-580/month for 10-20 engineers) provides 85% of PagerDuty functionality at half the cost. It's the smarter choice for most remote teams.
 
@@ -104,7 +114,7 @@ OpsGenie's mobile app is nearly identical to PagerDuty's—push notifications, i
 
 Limitations: OpsGenie's analytics are weaker than PagerDuty. Identifying on-call load per person requires manual report generation rather than built-in dashboards. For tracking burnout risk across the team, PagerDuty's metrics shine.
 
-## Grafana OnCall: Free Option for Grafana-Heavy Teams
+### Step 3: Grafana OnCall: Free Option for Grafana-Heavy Teams
 
 Grafana OnCall is free (or $60/month for team instance with premium support) for teams already using Grafana for monitoring. If your alert stack is Prometheus + Grafana, OnCall integrates natively—alerts route directly from Grafana to escalation policies without additional configuration.
 
@@ -122,7 +132,7 @@ Prometheus alert fires
 
 Limitations: Grafana OnCall lacks depth in enterprise escalation scenarios, schedule override workflows, and post-incident analytics. It's sufficient for teams with straightforward on-call needs but insufficient for organizations requiring sophisticated policy management. Integration only works within Grafana ecosystem; if you use other monitoring tools (Datadog, New Relic), you need different routing.
 
-## Building an Effective Rotation Schedule
+### Step 4: Build an Effective Rotation Schedule
 
 The scheduling strategy prevents burnout more than any tool feature:
 
@@ -150,7 +160,7 @@ For truly distributed teams (8+ time zones), consider three smaller rotations:
 
 Each region handles incidents during their business hours when possible, reducing 4am wake-ups.
 
-## Measuring On-Call Load and Burnout Risk
+### Step 5: Measuring On-Call Load and Burnout Risk
 
 Most on-call burnout occurs invisibly. Senior engineers take extra shifts, skip rotations to cover for underperformers, volunteer for "just one more week." Without metrics, management doesn't see the load until resignation.
 
@@ -195,7 +205,7 @@ Off-hour pages indicate either alerting that should be business-hours-only (redu
 | Complexity | High | Medium | Low |
 | Best for | Enterprise | Most teams | Grafana teams |
 
-## Real-World Use Case: 12-Engineer Distributed Team
+### Step 6: Real-World Use Case: 12-Engineer Distributed Team
 
 Team structure: 4 US engineers, 4 Europe engineers, 4 Asia engineers. Services: API, Database, Frontend, Infrastructure. Incident SLA: P1 (critical) resolution within 30 minutes, P2 (major) within 2 hours.
 
@@ -210,7 +220,7 @@ Cost: $30/user/month × 12 engineers = $360/month
 
 Outcome: No engineer pages during sleep hours. Incidents handled by region during business hours when possible. If APAC engineer on vacation, shift to EMEA engineer rather than forcing US team to cover. Load tracked monthly, preventing silent burnout.
 
-## Implementation Checklist
+### Step 7: Implementation Checklist
 
 - Set up escalation policies (define timeouts, levels, notification methods)
 - Configure on-call schedules with timezone awareness
@@ -222,7 +232,7 @@ Outcome: No engineer pages during sleep hours. Incidents handled by region durin
 - Run quarterly rotation reviews (detect unfair load distribution)
 - Automate schedule updates to calendar (Google Calendar, Outlook)
 
-## Common On-Call Mistakes and How Tools Prevent Them
+### Step 8: Common On-Call Mistakes and How Tools Prevent Them
 
 Mistake 1: Senior engineers get paged for all severity levels
 Without escalation policies, every alert goes to senior people. They carry disproportionate load, burn out, leave.
@@ -248,7 +258,7 @@ Mistake 6: Post-incident learning doesn't happen
 Incident resolves, on-call engineer moves on. No structured review means same issue repeats weekly.
 Solution: Jira/PagerDuty integration auto-creates incident tickets. Team reviews, documents root cause, prevents recurrence.
 
-## Building On-Call Culture Beyond Tools
+### Step 9: Build On-Call Culture Beyond Tools
 
 Tools are infrastructure, but sustainable on-call requires team culture:
 
@@ -279,7 +289,7 @@ Automate what you can:
 - Auto-rollback deployments if health checks fail
 - Database failover automation reducing manual incident response
 
-## Comparative Success: Team A vs Team B
+### Step 10: Comparative Success: Team A vs Team B
 
 Team A (no on-call tool):
 - 8 engineers, shared on-call "whoever feels like responding"
@@ -300,7 +310,7 @@ Team B (OpsGenie, structured rotation):
 
 The math is simple: invest in tools and structure. The cost is negligible compared to the value of preventing burnout-driven attrition.
 
-## Incident Response Runbook Template
+### Step 11: Plan Incident Response Runbook Template
 
 Structure post-incident learning with tools:
 
@@ -329,7 +339,7 @@ Lesson: On-call response time was excellent. Root cause was insufficient testing
 
 This structure ensures post-incident learning actually prevents recurrence. Without formal runbooks, lessons evaporate within days.
 
-## Making Your Choice
+### Step 12: Making Your Choice
 
 Use OpsGenie for most teams. It costs half of PagerDuty, provides nearly equivalent functionality, and integrates seamlessly with Jira/Slack. The Jira integration justifies the choice alone if your team uses Jira.
 
@@ -338,6 +348,21 @@ Use PagerDuty if you're a 50+ engineer organization where advanced escalation, b
 Use Grafana OnCall if your entire monitoring stack is Prometheus/Grafana and you want to minimize tool proliferation. For teams using Datadog/New Relic or multiple monitoring tools, the integration limitations become apparent quickly.
 
 The real cost of on-call management is engineer burnout prevented and incident response time improved, not the subscription fee. Invest in the tool that prevents a key engineer from leaving due to burnout (cost: $150k+ replacement) or a critical incident from going unresponded (cost: $millions in customer impact). Pair tool investment with team rotation discipline and post-incident learning to prevent the conditions causing burnout in the first place.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Articles
 

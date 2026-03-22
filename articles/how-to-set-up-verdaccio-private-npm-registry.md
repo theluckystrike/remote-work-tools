@@ -24,7 +24,17 @@ Verdaccio is a lightweight Node.js private npm registry that proxies the public 
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 - **Use-case recommendations**: Specific guidance based on team size and requirements
 
-## Docker Deployment
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Docker Deployment
 
 ```yaml
 # docker-compose.yml
@@ -51,7 +61,7 @@ mkdir -p verdaccio/config verdaccio/storage verdaccio/plugins
 sudo chown -R 10001:65533 verdaccio/
 ```
 
-## Verdaccio Configuration
+### Step 2: Verdaccio Configuration
 
 ```yaml
 # verdaccio/config/config.yaml
@@ -117,7 +127,7 @@ web:
   scope: "@acme"
 ```
 
-## User Management
+### Step 3: User Management
 
 ```bash
 # Install verdaccio CLI
@@ -132,7 +142,7 @@ docker exec verdaccio htpasswd -B -b /verdaccio/conf/htpasswd ci-runner cipasswo
 npm adduser --registry https://npm.example.com
 ```
 
-## Nginx Reverse Proxy
+### Step 4: Nginx Reverse Proxy
 
 ```nginx
 # /etc/nginx/sites-available/verdaccio
@@ -162,7 +172,7 @@ server {
 }
 ```
 
-## Developer Configuration
+### Step 5: Developer Configuration
 
 Each developer configures their npm to use the private registry:
 
@@ -204,7 +214,7 @@ npmScopes:
     npmRegistryServer: "https://npm.example.com"
 ```
 
-## Publishing Internal Packages
+### Step 6: Publish Internal Packages
 
 ```json
 // packages/ui-components/package.json
@@ -238,7 +248,7 @@ npm info @acme/ui-components --registry https://npm.example.com
 npm install @acme/ui-components
 ```
 
-## CI/CD Publishing Workflow
+### Step 7: Configure CI/CD Publishing Workflow
 
 ```yaml
 # .github/workflows/publish.yml
@@ -274,7 +284,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 ```
 
-## S3 Storage Backend
+### Step 8: S3 Storage Backend
 
 For production with multiple replicas, use S3 instead of local filesystem:
 
@@ -298,7 +308,7 @@ store:
 # AWS_SECRET_ACCESS_KEY=your-secret
 ```
 
-## Backup and Restore
+### Step 9: Backup and Restore
 
 ```bash
 #!/bin/bash
@@ -319,6 +329,21 @@ echo "Verdaccio backup: $BACKUP_PATH"
 tar xzf "/backups/verdaccio-20260322_020000.tar.gz"
 docker compose restart verdaccio
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

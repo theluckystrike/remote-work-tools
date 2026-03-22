@@ -40,7 +40,17 @@ Structure your remote handbook with these 10 core sections in order: Welcome & M
 - **Let them use it for 2-3 weeks**: then gather their honest feedback.
 - **Mastering advanced features takes**: 1-2 weeks of regular use.
 
-## Core Principles for Handbook Structure
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Principles for Handbook Structure
 
 Before examining specific sections, apply three foundational principles:
 
@@ -50,31 +60,31 @@ Living documentation: Structure sections for easy updates. Policies change as te
 
 Actionable content: Policies should answer "what do I do when..." rather than providing vague guidance. Remote work creates novel situations daily—your handbook must address them explicitly.
 
-## Recommended Table of Contents Structure
+### Step 2: Recommended Table of Contents Structure
 
 Here's a production-ready structure for a remote team handbook:
 
 ```markdown
 # Remote Team Handbook
 
-## 1. Welcome & Mission
+### Step 3: 1. Welcome & Mission
    - 1.1 Company Mission and Values
    - 1.2 Team Directory & Organizational Chart
    - 1.3 How to Use This Handbook
 
-## 2. Communication Norms
+### Step 4: 2. Communication Norms
    - 2.1 Communication Channel Guidelines
    - 2.2 Response Time Expectations
    - 2.3 Meeting Conventions
    - 2.4 Documentation Standards
 
-## 3. Work Schedule & Time Tracking
+### Step 5: 3. Work Schedule & Time Tracking
    - 3.1 Core Hours and Flexibility Windows
    - 3.2 Time Tracking Procedures
    - 3.3 Time Zone Management
    - 3.4 Time Off Policies
 
-## 4. Equipment & Technology
+### Step 6: 4. Equipment & Technology
    - 4.1 Required Equipment List
    - 4.2 Home Office Setup Stipend
    - 4.3 Security Requirements
@@ -86,25 +96,25 @@ Here's a production-ready structure for a remote team handbook:
    - 5.3 Incident Reporting Procedures
    - 5.4 Device Management
 
-## 6. Performance & Growth
+### Step 7: 6. Performance & Growth
    - 6.1 Goal Setting Framework
    - 6.2 Feedback and Review Processes
    - 6.3 Career Development Resources
    - 6.4 Promotion Criteria
 
-## 7. Onboarding & Offboarding
+### Step 8: 7. Onboarding & Offboarding
    - 7.1 New Hire Checklist
    - 7.2 Access Provisioning Timeline
    - 7.3 Offboarding Procedures
    - 7.4 Knowledge Transfer Guidelines
 
-## 8. Benefits & Compensation
+### Step 9: 8. Benefits & Compensation
    - 8.1 Health and Wellness Benefits
    - 8.2 Expense Reimbursement
    - 8.3 Learning and Development Budget
    - 8.4 Remote Work Stipends
 
-## 9. Emergency Protocols
+### Step 10: 9. Emergency Protocols
    - 9.1 Incident Response Contacts
    - 9.2 Business Continuity Procedures
    - 9.3 Communication Escalation Paths
@@ -154,7 +164,7 @@ For developer teams, add a subsection on secure coding practices, secrets manage
 Onboarding determines new hire productivity velocity. Structure this section as a sequential checklist:
 
 ```markdown
-## 7.1 New Hire Checklist
+### Step 11: 7.1 New Hire Checklist
 
 ### Day 1
 - [ ] Receive welcome email with account credentials
@@ -189,7 +199,7 @@ cp .env.example .env
 echo "Environment ready. Update .env with your credentials."
 ```
 
-## Customization for Team Size
+### Step 12: Customization for Team Size
 
 Adjust your handbook depth based on team size:
 
@@ -199,12 +209,12 @@ Mid-size teams (11-50): Add formal performance review processes and cross-team c
 
 Large organizations (50+): Include governance structures, department-specific policies, and legal/compliance sections. Consider separate handbooks for different regions due to employment law variations.
 
-## Maintenance and Versioning
+### Step 13: Perform Maintenance and Versioning
 
 Establish a review cadence for handbook content:
 
 ```markdown
-## Review Schedule
+### Step 14: Review Schedule
 
 | Section               | Review Frequency | Owner        |
 |-----------------------|------------------|--------------|
@@ -217,14 +227,14 @@ Establish a review cadence for handbook content:
 Add version history to major policy documents:
 
 ```markdown
-## Changelog
+### Step 15: Changelog
 
 - **2026-03-01**: Updated VPN connection procedures
 - **2026-02-15**: Added remote work stipend amounts
 - **2026-01-10**: Revised incident response escalation contacts
 ```
 
-## Tools for Building Your Handbook
+### Step 16: Tools for Building Your Handbook
 
 Popular platforms for remote team handbooks include:
 
@@ -234,6 +244,21 @@ Popular platforms for remote team handbooks include:
 - Slite: Great for async-first teams wanting simple documentation
 
 Choose platforms that support granular permissions, as some sections (compensation, performance reviews) require restricted access.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

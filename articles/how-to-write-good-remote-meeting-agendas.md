@@ -40,7 +40,17 @@ A good remote meeting agenda states the meeting's purpose, assigns time limits a
 3.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## The Core Components of an Effective Agenda
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Components of an Effective Agenda
 
 Every solid meeting agenda needs five elements: a clear purpose, time bounds, specific topics with owners, expected outcomes, and prep materials.
 
@@ -53,7 +63,7 @@ A straightforward agenda format in markdown looks like this:
 **Duration**: 30 minutes
 **Facilitator**: Sarah
 
-## Agenda
+### Step 2: Agenda
 
 | Topic | Owner | Time | Outcome |
 |-------|-------|------|---------|
@@ -62,7 +72,7 @@ A straightforward agenda format in markdown looks like this:
 | Incident post-mortem | Alex | 10 min | Document action items |
 | Open discussion | All | 5 min | Address questions |
 
-## Prep
+### Step 3: Prep
 
 - Review [PR #234](https://github.com/team/repo/pull/234)
 - Read the API redesign doc
@@ -70,7 +80,7 @@ A straightforward agenda format in markdown looks like this:
 
 This structure shows attendees what to expect, who owns each topic, and what they need to prepare.
 
-## Writing Agenda Items That Drive Discussion
+### Step 4: Writing Agenda Items That Drive Discussion
 
 Vague agenda items create vague meetings. Instead of "Discuss API," write "Review REST-to-GraphQL migration proposal — decide on timeline for Q2." The difference matters because the second version tells attendees what decision they'll make and when.
 
@@ -90,7 +100,7 @@ A well-structured technical agenda item follows this pattern:
 - **Dependencies**: DevOps team availability for Redis cluster setup
 ```
 
-## Automating Agenda Creation
+### Step 5: Automate Agenda Creation
 
 For recurring meetings, scripts can generate agendas from templates and issue tracker data. This approach saves time and ensures consistency.
 
@@ -133,14 +143,14 @@ if __name__ == "__main__":
 
 This script pulls relevant issues and formats them into a readable agenda. You can extend it to pull from Linear, Jira, or any other project management tool your team uses.
 
-## Time Boxing and Real-Time Management
+### Step 6: Time Boxing and Real-Time Management
 
 Remote meetings require strict time management. Without visual cues about how much time remains, discussions can run over and waste everyone's schedule. Time boxing each agenda item keeps meetings on track.
 
 Add explicit time allocations to your agenda:
 
 ```markdown
-## Agenda
+### Step 7: Agenda
 
 1. **Blockers and escalations** — 5 min (all)
 2. **Sprint metrics review** — 5 min (scrum master)
@@ -150,7 +160,7 @@ Add explicit time allocations to your agenda:
 
 If a topic needs more time than allocated, the facilitator should decide whether to extend the meeting (and get explicit agreement) or defer the remaining discussion to async communication or a follow-up meeting.
 
-## Pre-Meeting and Post-Meeting Workflows
+### Step 8: Pre-Meeting and Post-Meeting Workflows
 
 The agenda is most effective when integrated into a broader meeting workflow. Send the agenda at least 24 hours in advance for important meetings. This gives participants time to prepare responses, gather data, or flag topics that need more time.
 
@@ -159,25 +169,25 @@ After the meeting, publish notes within a few hours while the discussion is fres
 ```markdown
 # Meeting Notes: API Design Review — March 15, 2026
 
-## Attendees
+### Step 9: Attendees
 - Sarah, Marcus, Jordan, Alex
 
-## Decisions
+### Step 10: Decisions
 - ✅ Approved GraphQL migration for user endpoints
 - ❌ Deferred payment integration redesign to Q3
 
-## Action Items
+### Step 11: Action Items
 | Action | Owner | Due |
 |--------|-------|-----|
 | Create GraphQL schema draft | Jordan | March 18 |
 | Update API documentation | Marcus | March 20 |
 | Set up staging environment | DevOps | March 22 |
 
-## Recording
+### Step 12: Recording
 [Link to recording] — available for async review
 ```
 
-## Key Principles to Remember
+### Step 13: Key Principles to Remember
 
 Writing good remote meeting agendas comes down to four principles. First, be specific about decisions needed — vague agendas produce vague outcomes. Second, provide context upfront — link specs, documents, and background materials. Third, respect time — allocate realistic durations and enforce them. Fourth, close the loop — document decisions and action items immediately after the meeting.
 
@@ -185,7 +195,7 @@ Remote teams that adopt structured agendas typically see fewer meetings, shorter
 
 Write the agenda before sending the invite, then evaluate whether the meeting is still necessary. Sometimes a well-written agenda reveals the meeting itself isn't needed.
 
-## Agenda Management Tools
+### Step 14: Agenda Management Tools
 
 **Option 1: Google Docs (Free)**
 - Shared document, everyone can comment/edit
@@ -236,7 +246,7 @@ Template properties:
 
 For most teams, **Google Docs + template** (free) or **Notion** (if already using) is best choice.
 
-## Agenda Templates by Meeting Type
+### Step 15: Agenda Templates by Meeting Type
 
 **Daily Standup (15 minutes)**
 ```
@@ -246,7 +256,7 @@ Attendees: [Team list]
 Facilitator: [Name]
 Timekeeper: [Name]
 
-## Format
+### Step 16: Format
 - Each person: 1 minute (what shipped, blocked, focus)
 - Team blockers: 2-3 minutes (escalations)
 - Announcement: 1 minute (if any)
@@ -261,7 +271,7 @@ No prep needed — just be ready to speak.
 Facilitator: Product Manager
 Attendees: Engineering team, design, product
 
-## Agenda
+### Step 17: Agenda
 
 | Item | Owner | Time | Outcome |
 |------|-------|------|---------|
@@ -271,7 +281,7 @@ Attendees: Engineering team, design, product
 | Story point voting | Team | 15 min | Estimate capacity |
 | Sprint start confirmation | PM | 5 min | Commit to sprint |
 
-## Prep
+### Step 18: Prep
 - Review top 10 backlog items before meeting
 - Have story point reference (previous sprints)
 ```
@@ -283,7 +293,7 @@ Attendees: Engineering team, design, product
 Facilitator: [Manager]
 Attendees: [Team list]
 
-## Agenda (Timekeeper keeps pace)
+### Step 19: Agenda (Timekeeper keeps pace)
 
 1. **Wins** (3 min) — What shipped/accomplished
 2. **Blockers** (5 min) — What's stuck, needs unblocking
@@ -291,7 +301,7 @@ Attendees: [Team list]
 4. **People/Culture** (5 min) — Team health check, announcements
 5. **Open discussion** (5 min) — Q&A, misc topics
 
-## Prep
+### Step 20: Prep
 - Come ready to share 1 win from your area
 - Flag blockers in advance if possible
 ```
@@ -303,7 +313,7 @@ Attendees: [Team list]
 Facilitator: Tech Lead
 Context: [Link to design doc/RFC]
 
-## Agenda
+### Step 21: Agenda
 
 | Item | Owner | Time | Outcome |
 |------|-------|------|---------|
@@ -313,7 +323,7 @@ Context: [Link to design doc/RFC]
 | Team discussion | All | 10 min | Open feedback |
 | Next steps | Tech lead | 5 min | Document decisions |
 
-## Prep Required
+### Step 22: Prep Required
 - Read design doc (5 min)
 - Review related code/architecture (5 min)
 - Prepare questions or concerns
@@ -325,7 +335,7 @@ Context: [Link to design doc/RFC]
 
 Facilitator: Manager
 
-## Agenda (Flexible; employee leads)
+### Step 23: Agenda (Flexible; employee leads)
 
 1. **How are you feeling?** (5 min) — General mood check
 2. **Work topics** (15 min) — Projects, goals, progress
@@ -333,7 +343,7 @@ Facilitator: Manager
 4. **Manager feedback** (3 min) — Manager perspective
 5. **Next month focus** (2 min) — 1-3 priorities for next month
 
-## Prep
+### Step 24: Prep
 - Employee: Prepare update on ongoing projects
 - Manager: Review previous month's notes
 ```
@@ -345,7 +355,7 @@ Facilitator: Manager
 Facilitator: Project Manager
 Attendees: Client stakeholders, project team
 
-## Agenda
+### Step 25: Agenda
 
 1. **Introductions** (5 min)
    - Team members + roles
@@ -376,12 +386,12 @@ Attendees: Client stakeholders, project team
    - Client questions
    - Team clarifications
 
-## Prep
+### Step 26: Prep
 - Client: Read project brief
 - Team: Have project plan, timeline visible
 ```
 
-## Automating Agenda Generation from Data
+### Step 27: Automate Agenda Generation from Data
 
 For recurring meetings, automate agenda creation:
 
@@ -425,7 +435,7 @@ if __name__ == '__main__':
 
 This auto-generates the agenda 1 hour before the meeting, ensuring it's always current.
 
-## Agenda Review Before Meeting
+### Step 28: Agenda Review Before Meeting
 
 Implement a pre-meeting QA check:
 
@@ -443,6 +453,21 @@ Implement a pre-meeting QA check:
 
 If you check "no" on "meeting is necessary" — cancel and send the info async instead.
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

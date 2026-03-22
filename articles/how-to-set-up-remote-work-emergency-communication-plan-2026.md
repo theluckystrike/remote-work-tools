@@ -42,7 +42,17 @@ Slack is down. Zoom won't connect. Your primary communication infrastructure fai
 
 This guide covers building an emergency communication plan that keeps your remote team operational when primary tools fail.
 
-## The Three Tiers of Communication Breakdown
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Three Tiers of Communication Breakdown
 
 **Tier 1: Partial Outage**
 - Slack works but is slow
@@ -64,7 +74,7 @@ This guide covers building an emergency communication plan that keeps your remot
 
 **Action:** Activate phone tree. Use public status pages (Twitter, status pages, SMS). Call critical stakeholders.
 
-## Emergency Communication Plan Template
+### Step 2: Emergency Communication Plan Template
 
 ### 1. Communication Hierarchy
 
@@ -496,7 +506,7 @@ Twitter: @[company]
 
 Print this and send it to all employees. Make it an one-pager so people actually read it.
 
-## Final Recommendations
+### Step 3: Final Recommendations
 
 **For teams < 20 people:**
 - Simple email + phone tree is enough
@@ -517,6 +527,21 @@ Print this and send it to all employees. Make it an one-pager so people actually
 **Most important:** Have a plan written down and share it with your entire team. Plans that exist only in someone's head are useless when that person is asleep or traveling.
 
 Test your plan once per quarter. Update phone numbers and escalation paths quarterly. You'll never regret being over-prepared for communication breakdowns.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Articles
 

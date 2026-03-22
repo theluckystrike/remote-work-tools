@@ -63,7 +63,17 @@ A quiet home office should register below 40 dB. If you're reading 60-80 dB duri
 
 Sound escapes through three primary vectors: walls/ceilings, doors/windows, and ventilation systems. For remote workers with children in adjacent spaces, walls and doors typically dominate the problem.
 
-## Acoustic Treatment Strategies for Home Offices
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Acoustic Treatment Strategies for Home Offices
 
 ### Wall Soundproofing Without Construction
 
@@ -119,7 +129,7 @@ print(f"Composite STC: {result:.1f}")
 
 Acoustic window inserts (like Indow or tailored acoustic panels) can add STC 10-15 ratings. Combined with heavy curtains, you can achieve meaningful improvement without window replacement.
 
-## Budget-Friendly Solutions Under $500
+### Step 2: Budget-Friendly Solutions Under $500
 
 Not everyone needs—or can afford—professional acoustic treatment. Here are high-impact, low-cost interventions:
 
@@ -170,7 +180,7 @@ afplay -v 0.3 brown_noise.wav &
 
 Brown noise (lower frequency than white noise) masks speech more effectively without becoming annoying during extended coding sessions.
 
-## Technical Considerations for Developers
+### Step 3: Technical Considerations for Developers
 
 ### Headphones vs. Speakers for Code Reviews
 
@@ -200,7 +210,7 @@ audio_recording_setup:
 
 A dynamic microphone like the Audio-Technica AT2020 or Shure SM58 rejects ambient sound better than condensers designed for studio use.
 
-## Real-World Soundproofing Scenarios
+### Step 4: Real-World Soundproofing Scenarios
 
 Different home situations require different approaches:
 
@@ -214,7 +224,7 @@ Different home situations require different approaches:
 
 **Shared office with partner:** If both partners work from home with meetings, staggered meeting schedules matter more than perfect soundproofing. Negotiate who takes which time blocks for critical calls.
 
-## DIY vs. Professional Acoustic Treatment
+### Step 5: DIY vs. Professional Acoustic Treatment
 
 Some people should skip DIY and hire professionals. Consider professional treatment if:
 
@@ -227,7 +237,7 @@ Professional acoustic treatment costs $1,500-5,000 but provides measurable dB re
 
 For most remote workers, DIY approaches (door sealing, acoustic panels, brown noise) achieve 80% of the benefit at 10% of the cost.
 
-## Maintenance and Long-Term Adaptation
+### Step 6: Perform Maintenance and Long-Term Adaptation
 
 Acoustic treatment isn't set-and-forget. As children grow, their activity patterns change. Reassess your setup quarterly:
 
@@ -239,7 +249,7 @@ Acoustic treatment isn't set-and-forget. As children grow, their activity patter
 
 For developers working in shifts or on-call, consider a rapid-deploy setup—a portable vocal booth or noise-canceling booth for emergency calls when child activity peaks.
 
-## Acoustic Challenges by Child Age
+### Step 7: Acoustic Challenges by Child Age
 
 The types of sounds children produce change with age, requiring different acoustic strategies:
 
@@ -251,7 +261,7 @@ The types of sounds children produce change with age, requiring different acoust
 
 **School age (5+ years):** Often quieter during school hours, louder after. Your acoustic setup can relax during school hours; focus on after-school meeting protection.
 
-## Budget Expansion Paths
+### Step 8: Budget Expansion Paths
 
 Start with basics ($100-200), then expand strategically as budget allows:
 
@@ -262,7 +272,7 @@ Start with basics ($100-200), then expand strategically as budget allows:
 
 Don't jump to Phase 4 immediately. Measure results at each phase. You may find that Phase 2 is sufficient for your situation.
 
-## Content Creation and Recording Considerations
+### Step 9: Content Creation and Recording Considerations
 
 Remote workers creating content (tutorials, podcasts, streams) face higher audio quality demands:
 
@@ -274,6 +284,21 @@ Remote workers creating content (tutorials, podcasts, streams) face higher audio
 4. **Backup recordings:** Record ambient noise separately, then use tools like Audacity to profile and remove it in post
 
 This approach lets you maintain remote-work-quality audio for meetings while achieving content-creation-quality for recordings. You're not trying to build a professional studio—you're building a functional recording space that works despite household noise.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

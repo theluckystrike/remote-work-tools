@@ -32,7 +32,17 @@ Here is the framework I use for technical freelance work:
 - **Most developers treat proposals**: as paperwork—a formality to endure before getting to the "real work." That mindset costs you clients.
 - **This takes thirty seconds**: but transforms your email from "generic freelancer" to "someone who actually gets it." ``` Hi [Client Name], Thanks for reaching out about your e-commerce platform.
 
-## The Proposal Framework That Works
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Proposal Framework That Works
 
 Every winning proposal follows a clear structure. Skip the fluff, the lengthy company histories, and the generic value propositions. Clients want to know three things: Can you solve my problem? Can I trust you? Is the price reasonable?
 
@@ -46,7 +56,7 @@ Here is the framework I use for technical freelance work:
 
 This is not my original invention. This structure appears in every successful freelance business because it mirrors how clients evaluate purchases. Apply it consistently.
 
-## Research Before You Write
+### Step 2: Research Before You Write
 
 Before typing a single word, research the client and their project. Read their website, study their product, check their LinkedIn, and review any technical documentation they have shared. Look for:
 
@@ -61,7 +71,7 @@ For example, if a client needs a React migration from a legacy framework, do not
 
 See the difference? The second version proves you did the work.
 
-## The Anatomy of a Winning Proposal
+### Step 3: The Anatomy of a Winning Proposal
 
 ### Opening: Lead with Understanding
 
@@ -80,7 +90,7 @@ I've worked with similar WooCommerce-to-headless migrations, and I believe I can
 Avoid generic statements like "I will build a high-quality website." Instead, break the work into concrete deliverables. For developers, this means speaking in terms they understand:
 
 ```
-## Proposed Approach
+### Step 4: Proposed Approach
 
 1. **Audit and Planning** (Week 1)
    - Analyze current database queries causing slow load times
@@ -105,7 +115,7 @@ This level of detail accomplishes several things. It shows competence, gives the
 Never just dump a number. Explain what the client gets for that investment. If you charge a premium rate, briefly state why:
 
 ```
-## Investment
+### Step 5: Investment
 
 Total: $8,500 (fixed price)
 
@@ -173,7 +183,7 @@ to reserve your slot in my schedule.
 
 The goal is reducing friction. Make it easy to say yes.
 
-## Common Proposal Mistakes
+### Step 6: Common Proposal Mistakes
 
 **Using generic templates.** Every proposal should feel written for this specific client. Swap out the placeholder text, reference their actual project, and tailor every section.
 
@@ -185,7 +195,7 @@ The goal is reducing friction. Make it easy to say yes.
 
 **Ignoring red flags.** If a client is evasive about budget, unclear on scope, or wants everything done yesterday, a proposal will not fix that. Sometimes the best move is to decline and move on.
 
-## Automating Your Proposal Process
+### Step 7: Automate Your Proposal Process
 
 Once you have a winning format, create a template you can adapt quickly. Here is a simple script to generate proposal files:
 
@@ -204,13 +214,13 @@ status: draft
 
 # Proposal: ${PROJECT_NAME} for ${CLIENT_NAME}
 
-## Problem Statement
+### Step 8: Problem Statement
 
-## Proposed Solution
+### Step 9: Proposed Solution
 
-## Timeline
+### Step 10: Timeline
 
-## Investment
+### Step 11: Investment
 
 ## Next Steps
 EOF
@@ -219,6 +229,21 @@ echo "Created proposal for ${CLIENT_NAME}"
 ```
 
 This saves time on formatting so you can focus on customizing the content.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

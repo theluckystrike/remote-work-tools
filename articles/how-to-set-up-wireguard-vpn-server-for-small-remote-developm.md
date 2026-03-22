@@ -50,7 +50,17 @@ WireGuard offers several advantages over OpenVPN and IPSec alternatives. The han
 
 The configuration lives in a single file with no complex certificate infrastructure. Adding a new team member involves generating a key pair, adding two lines to the server configuration, and sending a small config file. Revoking access is equally straightforward—just remove those two lines.
 
-## Server Setup
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Server Setup
 
 The server runs on any Linux machine with a public IP address. A small cloud instance from any provider works perfectly for teams of this size. The minimum requirements are modest: a machine with one CPU core, 512MB of RAM, and 5GB of storage handles dozens of concurrent VPN connections without breaking a sweat.
 
@@ -128,7 +138,7 @@ sudo wg show
 
 The output displays the active interface and configured peers. If you see the interface but no peers, the configuration loaded correctly—peers appear once they connect.
 
-## Client Configuration
+### Step 2: Client Configuration
 
 Each team member needs their own key pair and a configuration file. The process differs slightly by operating system but follows the same conceptual pattern.
 
@@ -177,7 +187,7 @@ The process mirrors macOS since WireGuard originated on Linux. Install the tools
 
 Download the WireGuard installer from the official website. The Windows version includes a GUI that imports configuration files with a few clicks. Generate keys on the Windows machine using the built-in tooling or transfer keys generated elsewhere—whichever approach your security policy prefers.
 
-## Network Considerations
+### Step 3: Network Considerations
 
 The server needs port 51820 open in its firewall. If you're using a cloud provider, also configure the security group or network ACL to allow UDP traffic on that port:
 
@@ -196,7 +206,7 @@ Endpoint = your-server-ip:443
 
 The trade-off is that port 443 requires root on the server to bind to a privileged port, and some networks perform deep packet inspection that identifies WireGuard regardless of the port.
 
-## Managing Team Access
+### Step 4: Manage Team Access
 
 Adding a new developer takes under two minutes. Generate a key pair on the new machine, obtain the public key, add it to the server configuration, and restart the service:
 
@@ -224,6 +234,21 @@ Latency matters more than raw throughput for development work. WireGuard maintai
 While WireGuard provides excellent transport security, remember that anyone with a valid configuration file can access your internal network. Treat these files with the same sensitivity as SSH private keys. Store them in a password manager, never commit them to version control, and regenerate keys immediately if a machine is lost or compromised.
 
 For teams with stricter requirements, consider combining WireGuard with additional authentication layers. Running services behind an authentication proxy or requiring VPN users to authenticate to internal applications adds defense in depth without complicating the VPN setup itself.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

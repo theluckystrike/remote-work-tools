@@ -40,13 +40,23 @@ To transition from employee to freelancer, save six months of expenses as a fina
 - **Taxes**: Set aside 25-30% of income for taxes.
 - **Each 1% improvement =**: €50k/year in additional revenue.
 
-## The Mental Shift: From Salary to Revenue
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Mental Shift: From Salary to Revenue
 
 Freelancing fundamentally changes your relationship with income. As an employee, you receive a predictable paycheck regardless of company performance. As a freelancer, your income directly correlates with your ability to find work, deliver value, and collect payments.
 
 This means your first task isn't paperwork—it's recalibrating your mindset. Track your expenses meticulously during your final months of employment. Calculate your true monthly burn rate including health insurance, retirement contributions, and equipment costs that your employer currently covers. Freelancers typically need to charge 1.5 to 2 times their previous salary to maintain equivalent take-home pay after accounting for taxes, benefits, and periods between projects.
 
-## Financial Foundation: Build Your Safety Net
+### Step 2: Financial Foundation: Build Your Safety Net
 
 The most common failure point for new freelancers isn't skill—it's running out of money before establishing a client pipeline. Before submitting your resignation, accumulate a financial cushion.
 
@@ -69,7 +79,7 @@ print(f"Suggested safety net: ${six_month_buffer:,.0f}")
 
 This script gives you a concrete target. Adjust the numbers to match your actual situation, then save aggressively before making the transition.
 
-## Legal Structure: Sole Proprietor vs LLC
+### Step 3: Legal Structure: Sole Proprietor vs LLC
 
 Your business structure affects taxes, liability, and professional credibility. Most freelance developers start as sole proprietors—a simple setup with minimal paperwork. You report business income on Schedule C of your personal tax return.
 
@@ -77,7 +87,7 @@ An LLC adds liability protection and may offer tax advantages, though the comple
 
 Register your business name if using something other than your legal name. This typically requires filing a DBA ("doing business as") with your local government, often completed online for a small fee.
 
-## Client Acquisition: Start Before You Need It
+### Step 4: Client Acquisition: Start Before You Need It
 
 One of the biggest mistakes new freelancers make is waiting until after leaving employment to find clients. This creates unnecessary pressure and often leads to accepting poor-fit projects out of desperation.
 
@@ -87,7 +97,7 @@ Update your portfolio with personal projects and code samples, reach out to past
 
 Landing your first freelance client before quitting provides validation and reduces financial stress during the transition period.
 
-## Setting Your Rates: Value-Based Pricing
+### Step 5: Setting Your Rates: Value-Based Pricing
 
 Pricing remains one of the most challenging aspects for developers transitioning to freelancing. Many undercharge initially, driven by fear of rejection or unfamiliarity with market rates.
 
@@ -96,7 +106,7 @@ Research rates in your specialization and geographic market. Backend developers 
 Avoid hourly billing when possible. Clients prefer predictable costs, and you benefit from efficiency gains. Instead, quote project prices based on scope definition:
 
 ```markdown
-## Project: E-commerce API Integration
+### Step 6: Project: E-commerce API Integration
 
 **Scope:**
 - RESTful API development (4 endpoints)
@@ -115,7 +125,7 @@ Avoid hourly billing when possible. Clients prefer predictable costs, and you be
 
 This format communicates value clearly and prevents scope creep discussions later.
 
-## Essential Freelance Tools
+### Step 7: Essential Freelance Tools
 
 You'll need to replace tools your employer previously provided. Budget for:
 
@@ -123,7 +133,7 @@ For accounting, Wave is free and handles invoicing; QuickBooks is the paid alter
 
 Set these up before your first paid project to present professionally from day one.
 
-## The Transition Timeline
+### Step 8: The Transition Timeline
 
 Most developers benefit from a phased approach rather than an abrupt break:
 
@@ -146,7 +156,7 @@ Most developers benefit from a phased approach rather than an abrupt break:
 
 This gradual approach dramatically reduces risk while allowing you to validate the freelance lifestyle before committing fully.
 
-## Handling Benefits and Taxes
+### Step 9: Handling Benefits and Taxes
 
 As an employee, benefits come automatically. As a freelancer, you manage everything:
 
@@ -156,7 +166,7 @@ Retirement: Open a SEP-IRA or Solo 401(k). These allow larger contributions than
 
 Taxes: Set aside 25-30% of income for taxes. Make quarterly estimated payments to avoid penalties. Many freelancers use QuickBooks Self-Employed or hire bookkeepers to manage this.
 
-## Managing the Psychological Transition
+### Step 10: Manage the Psychological Transition
 
 The mental shift from employee to freelancer affects many people more than the financial or legal aspects. Address these psychological challenges head-on:
 
@@ -226,7 +236,7 @@ Setting rates is deeply personal, but these frameworks help you price confidentl
 Instead of hourly rates, quote project fees based on the value you deliver to the client.
 
 ```markdown
-## Project: E-commerce Platform Audit & Optimization
+### Step 11: Project: E-commerce Platform Audit & Optimization
 
 Client's situation: Losing 15% of orders to slow checkout process.
 Each 1% improvement = €50k/year in additional revenue.
@@ -264,7 +274,7 @@ Most developers gravitate to Tier 2 initially. You'll naturally move to Tier 3+ 
 For clients needing ongoing support, retainers provide predictable income:
 
 ```markdown
-## Support Retainer: €2,000/month
+### Step 12: Support Retainer: €2,000/month
 
 What's included:
 - 20 hours/month of maintenance and support
@@ -280,7 +290,7 @@ What's extra:
 
 Retainers are lower hourly rates than project work but provide stability and allow you to plan around predictable income.
 
-## Building Your Service-Based Business Systems
+### Step 13: Build Your Service-Based Business Systems
 
 Freelancing is a business, which means you need business systems:
 
@@ -296,7 +306,7 @@ Most developers spend €30-50/month on tools here. Don't over-engineer it initi
 Create a master agreement you customize for each client:
 
 ```markdown
-## Master Service Agreement Template
+### Step 14: Master Service Agreement Template
 
 1. Scope of Work: [Clear description of deliverables]
 2. Timeline: [Start date, milestones, delivery date]
@@ -332,7 +342,7 @@ clients = {
 # Disqualify poor fits early rather than wasting time on mismatches
 ```
 
-## The First Year: Realistic Expectations
+### Step 15: The First Year: Realistic Expectations
 
 Your first freelance year typically looks like:
 
@@ -353,7 +363,7 @@ Your first freelance year typically looks like:
 
 These are estimates. Your results depend on your specialization, marketing effort, and network.
 
-## Common Freelancer Mistakes to Avoid
+### Step 16: Common Freelancer Mistakes to Avoid
 
 **1. Charging too little out of fear**
 Your first instinct is to undercharge to "get clients." This is wrong. Undercutting destroys your market position and attracts difficult clients. Charge market rate from day one and disqualify prospects who won't pay it.
@@ -370,11 +380,26 @@ Set aside 30% of income for taxes immediately, in a separate account. Don't spen
 **5. Mixing personal and business finances**
 Open a separate business bank account (costs $0-50). Don't co-mingle money. This simplifies accounting, prevents confusion, and looks professional if audited.
 
-## Before You Hand In Your Notice
+### Step 17: Before You Hand In Your Notice
 
 Start by building financial runway, testing the freelance lifestyle with side projects, and establishing client relationships before leaving employment. This measured approach lets you evaluate whether freelancing fits your goals without risking immediate financial stability.
 
 The technical skills that made you employable transfer directly to freelance work. What you need to add are business fundamentals: client communication, financial management, and self-discipline. These are learnable.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

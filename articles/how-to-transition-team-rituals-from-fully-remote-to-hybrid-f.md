@@ -63,7 +63,17 @@ The fix is intentional design from day one. Hybrid work requires answering hard 
 
 The teams that succeed at hybrid treat it as a deliberate restructuring, not an accidental arrangement.
 
-## Audit Your Current Rituals
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Audit Your Current Rituals
 
 Before changing anything, document your existing team rituals. List every recurring meeting, async practice, and social tradition your team maintains. For each ritual, ask three questions:
 
@@ -73,7 +83,7 @@ Before changing anything, document your existing team rituals. List every recurr
 
 A typical remote team's ritual list might include daily async standups, weekly sprint planning, bi-weekly retrospectives, demo days, and informal social events. Each of these needs evaluation before your hybrid transition.
 
-## Timeline and Expectations: How Long Does Transition Take
+### Step 2: Timeline and Expectations: How Long Does Transition Take
 
 Be realistic about pace:
 
@@ -87,7 +97,7 @@ Be realistic about pace:
 
 Plan for 6 months minimum before judging whether your hybrid approach works. Three months is too early—you'll still be in friction phase.
 
-## Adapt Standups: The Hybrid Challenge
+### Step 3: Adapt Standups: The Hybrid Challenge
 
 Daily standups exemplify the hybrid transition problem. In fully remote teams, async text updates work well—team members write their updates in Slack or a dedicated tool by a certain time, and everyone reads them when convenient.
 
@@ -120,7 +130,7 @@ def schedule_standup(channel, standup_time="09:00"):
 
 This keeps async updates as the primary channel while allowing in-office members to connect face-to-face after. Remote workers miss the in-office hallway conversation but gain the same information asynchronously.
 
-## Retrospectives: Bridging the Physical-Digital Divide
+### Step 4: Retrospectives: Bridging the Physical-Digital Divide
 
 Remote retrospectives use shared documents or whiteboards where everyone contributes equally. Transitioning to hybrid requires maintaining that equality.
 
@@ -147,7 +157,7 @@ const retrospectiveItem = {
 
 Key principle: equal weight to contributions regardless of whether someone is remote or in-office. If in-office attendees dominate discussion, remote participants become passive observers.
 
-## The Meeting Hygiene Rules for Hybrid Teams
+### Step 5: The Meeting Hygiene Rules for Hybrid Teams
 
 Hybrid meetings fail when they're run like office meetings. Here are non-negotiable rules:
 
@@ -168,7 +178,7 @@ Remote participants can't interrupt like in-office people can. Make it safe to a
 
 These rules seem small but determine whether remote team members feel included or invisible.
 
-## Planning Sessions: Reconsider Synchronous Defaults
+### Step 6: Planning Sessions: Reconsider Synchronous Defaults
 
 Sprint planning often happens synchronously in remote teams. For hybrid teams, consider moving more planning work async:
 
@@ -197,7 +207,7 @@ sprint_planning:
         - "Recorder running for async members"
 ```
 
-## Social Rituals: The Connection Challenge
+### Step 7: Social Rituals: The Connection Challenge
 
 Fully remote teams build connection through virtual coffee chats, game sessions, and informal video calls. Hybrid transitions often inadvertently weaken these bonds because in-office members naturally socialize while remote members feel isolated.
 
@@ -217,7 +227,7 @@ Thursday: Team sync (hybrid meeting room + video)
 Friday: Virtual win sharing - async in #wins channel
 ```
 
-## Documentation: Your Hybrid Safety Net
+### Step 8: Documentation: Your Hybrid Safety Net
 
 The single most important practice for smooth hybrid transitions is documentation. When your team was fully remote, documentation helped async work. In hybrid environments, documentation becomes essential for fairness.
 
@@ -229,7 +239,7 @@ Create a documentation habit:
 4. **Onboarding** materials work for both remote and in-office experiences
 
 ```markdown
-## Meeting Template for Hybrid Sessions
+### Step 9: Meeting Template for Hybrid Sessions
 
 ### Pre-Meeting (Async)
 - [ ] Agenda shared 24h in advance
@@ -249,7 +259,7 @@ Create a documentation habit:
 - [ ] Async members notified of outcomes
 ```
 
-## The Transition Timeline
+### Step 10: The Transition Timeline
 
 Avoid changing everything at once. A phased approach reduces disruption:
 
@@ -259,7 +269,7 @@ Week 5-6: Adapt one synchronous meeting (retrospective or planning)
 Week 7-8: Review and adjust social rituals
 Ongoing: Solicit feedback and iterate
 
-## Measuring Success
+### Step 11: Measuring Success
 
 Track whether your hybrid rituals work through simple metrics:
 
@@ -270,7 +280,7 @@ Track whether your hybrid rituals work through simple metrics:
 
 If remote participation drops or remote team members report feeling disconnected, revisit your hybrid meeting design immediately. Don't wait for quarterly reviews to notice problems.
 
-## Preventing the Two-Tier Team Problem
+### Step 12: Preventing the Two-Tier Team Problem
 
 The biggest risk in hybrid transitions is creating a two-tier team where in-office members build stronger relationships and get more visibility. Combat this deliberately:
 
@@ -286,7 +296,7 @@ Occasionally have in-office team members work from home too. This maintains empa
 
 Never hold synchronous-only meetings. If you do, you've failed at hybrid work. Every important meeting should have a video dial-in option. Every decision should be documented asynchronously for those who couldn't attend.
 
-## The 6-Month Review
+### Step 13: The 6-Month Review
 
 After implementing hybrid rituals for 6 months, conduct a full review:
 
@@ -297,6 +307,21 @@ After implementing hybrid rituals for 6 months, conduct a full review:
 5. Check retention: Did anyone leave because they felt excluded?
 
 Use this review to make substantial adjustments if needed. Hybrid work is too important to get wrong—the first 6 months reveal what's actually working vs. what looks good in theory.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -26,18 +26,28 @@ Transition gradually over seven phases: audit your current meeting load, identif
 - **Most PR feedback doesn't**: require real-time discussion.
 - **Async works best when**: everyone has reasonable overlap for essential同步 discussions.
 
-## Understanding the Shift
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Shift
 
 Synchronous meetings consume blocks of time simultaneously from all participants. When a team holds multiple daily standups, code reviews, and status meetings, developers lose deep work time that requires uninterrupted concentration. Async updates solve this by letting team members consume and produce information on their own schedules.
 
 The transition requires changing not just tools, but communication norms. Everyone needs to agree on response time expectations, update formats, and which discussions truly require real-time interaction.
 
-## Phase 1: Audit Your Current Meeting Load
+### Step 2: Phase 1: Audit Your Current Meeting Load
 
 Before making changes, document your current state. Track all meetings for one week using a simple format:
 
 ```markdown
-## Meeting Audit - Week of [Date]
+### Step 3: Meeting Audit - Week of [Date]
 
 ### Monday
 - 9:00 AM - Daily standup (15 min) - 4 attendees
@@ -50,7 +60,7 @@ Before making changes, document your current state. Track all meetings for one w
 
 Calculate the total developer hours spent in meetings. A team of five developers in eight hours of weekly meetings consumes forty person-hours. If even half these meetings convert to async updates, you regain twenty hours of deep work time weekly.
 
-## Phase 2: Identify Replaceable Meetings
+### Step 4: Phase 2: Identify Replaceable Meetings
 
 Not all meetings should disappear. Focus first on these categories:
 
@@ -64,7 +74,7 @@ Not all meetings should disappear. Focus first on these categories:
 
 Meetings to preserve include complex problem-solving sessions, emotional or conflict-related discussions, and creative brainstorming where real-time dialogue generates better outcomes.
 
-## Phase 3: Implement Async Standups
+### Step 5: Phase 3: Implement Async Standups
 
 Replace daily standups with a structured async format. Choose a tool your team already uses—Slack, a dedicated channel, or a project management tool.
 
@@ -87,14 +97,14 @@ Create a simple template for daily updates:
 
 Set clear expectations: updates posted by a specific time (9:30 AM works well), blockers highlighted prominently, and a commitment to check async updates before starting deep work.
 
-## Phase 4: Add Async Decision Documentation
+### Step 6: Phase 4: Add Async Decision Documentation
 
 When decisions happen in meetings, document them in a searchable format. This reduces repeat discussions and helps new team members understand context.
 
 Create a decisions log in your project:
 
 ```markdown
-## Architecture Decision Log
+### Step 7: Architecture Decision Log
 
 ### 2026-03-15: Choose State Management Approach
 
@@ -117,7 +127,7 @@ Create a decisions log in your project:
 
 This approach captures not just what was decided, but why. Future team members understand the reasoning without asking.
 
-## Phase 5: Establish Response Time Expectations
+### Step 8: Phase 5: Establish Response Time Expectations
 
 Async communication fails when people expect instant responses. Set explicit guidelines:
 
@@ -129,7 +139,7 @@ Async communication fails when people expect instant responses. Set explicit gui
 
 These expectations prevent the anxiety that makes teams revert to meetings. When someone knows they'll receive a response within four hours, they stop pinging repeatedly or escalating to synchronous calls.
 
-## Phase 6: Introduce Async Code Reviews
+### Step 9: Phase 6: Introduce Async Code Reviews
 
 Code reviews represent low-hanging fruit for async adoption. Most PR feedback doesn't require real-time discussion.
 
@@ -137,19 +147,19 @@ Configure your code review workflow:
 
 ```yaml
 # Example GitHub PR template
-## Description
+### Step 10: Description
 Brief description of changes
 
-## Type of Change
+### Step 11: Type of Change
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Refactoring
 - [ ] Documentation
 
-## Testing Performed
+### Step 12: Test Performed
 What testing did you perform?
 
-## Checklist
+### Step 13: Checklist
 - [ ] Tests pass locally
 - [ ] Code follows style guidelines
 - [ ] Documentation updated
@@ -159,13 +169,13 @@ Reviewers provide feedback as comments. Authors respond or make changes. Complex
 
 For reviews requiring discussion, schedule a brief 15-minute call rather than treating it as a default.
 
-## Phase 7: Gradual Reduction
+### Step 14: Phase 7: Gradual Reduction
 
 Remove meetings incrementally. If you currently hold daily standups, transition to async versions for three weeks before evaluating. Then tackle the next meeting type.
 
 This pacing allows teams to adjust habits and surface problems before they compound. Some teams find they need one async format for engineering and another for product discussions.
 
-## Common Pitfalls to Avoid
+### Step 15: Common Pitfalls to Avoid
 
 **Going too fast** breaks team trust. If people feel blindsided by new expectations, they'll resist or silently revert.
 
@@ -175,7 +185,7 @@ This pacing allows teams to adjust habits and surface problems before they compo
 
 **Ignoring time zones** defeats the purpose. Async works best when everyone has reasonable overlap for essential同步 discussions. If your team spans twelve time zones, accept that some real-time interaction remains necessary.
 
-## Measuring Success
+### Step 16: Measuring Success
 
 Track these metrics during transition:
 
@@ -186,7 +196,7 @@ Track these metrics during transition:
 
 Most teams see improvements within four to six weeks. The initial adjustment period requires patience, but the payoff in focused work time typically exceeds expectations.
 
-## Selecting Tools for Your Async Workflow
+### Step 17: Select Tools for Your Async Workflow
 
 Different teams require different tools depending on size, existing infrastructure, and communication style. Here's a comparison of popular options:
 
@@ -201,12 +211,12 @@ Different teams require different tools depending on size, existing infrastructu
 
 For most distributed teams, a combination works best: email for formal decisions, Slack for quick coordination, and a wiki (Notion or GitHub) for permanent documentation.
 
-## Template Examples You Can Adopt
+### Step 18: Template Examples You Can Adopt
 
 ### Weekly Status Template
 
 ```markdown
-## Week of [Date] - Team Status
+### Step 19: Week of [Date] - Team Status
 
 ### Accomplishments
 - [Team Member 1]: Completed feature X, shipped code to production
@@ -229,7 +239,7 @@ For most distributed teams, a combination works best: email for formal decisions
 ### Async RFC (Request for Comments) Template
 
 ```markdown
-## RFC: Adopt TypeScript for Frontend Codebase
+### Step 20: RFC: Adopt TypeScript for Frontend Codebase
 
 **Proposer:** @frontend-lead
 **Deadline for feedback:** March 25, 2026, EOD
@@ -268,14 +278,14 @@ Migrate to TypeScript over 8 weeks. Enable `strict` mode from day one.
 - Any questions not answered above
 ```
 
-## Building Async Review Culture
+### Step 21: Build Async Review Culture
 
 Code reviews are where many teams struggle with async transitions. Reviews often require multiple rounds of back-and-forth, but structure eliminates most delays.
 
 ### Code Review SLAs by Priority
 
 ```markdown
-## Code Review Response Times
+### Step 22: Code Review Response Times
 
 | Priority | Response Time | Example Situations |
 |----------|---------------|--------------------|
@@ -313,7 +323,7 @@ Different comment types require different responses:
 
 This labeling system eliminates confusion about whether feedback requires action.
 
-## Onboarding New Team Members Async
+### Step 23: Onboarding New Team Members Async
 
 New hires struggle most when transitioning from collocated to async teams. Prepare in advance:
 
@@ -329,7 +339,7 @@ New hires struggle most when transitioning from collocated to async teams. Prepa
 
 Schedule one synchronous meeting during the first week, but make all other onboarding async. This tests your actual async processes and surfaces gaps before the new hire is fully expected to work independently.
 
-## Measuring Async Transition Success
+### Step 24: Measuring Async Transition Success
 
 Beyond anecdotal "more focus time," track these metrics:
 
@@ -350,7 +360,7 @@ Beyond anecdotal "more focus time," track these metrics:
 
 Measure these monthly for the first 6 months. Most improvements appear after 8 weeks, not immediately.
 
-## Handling the Timezone Problem at Scale
+### Step 25: Handling the Timezone Problem at Scale
 
 If your team spans 8+ hours of timezone spread, pure async becomes impossible. Instead, adopt a "sandwich" model:
 
@@ -365,6 +375,21 @@ Example for team spanning SF (UTC-8) to Singapore (UTC+8):
 - This gives SF mornings and Singapore afternoons as overlap
 - Outside core hours: all Slack posts, PRs, and documents
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

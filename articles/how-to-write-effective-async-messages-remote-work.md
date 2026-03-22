@@ -26,20 +26,30 @@ Effective async messaging is the backbone of successful remote collaboration. Wh
 - **Use Slack for quick questions**: informal coordination, and time-sensitive items within your immediate team.
 - **When you choose the right channel**: you increase the likelihood of timely responses and reduce the cognitive load on your team.
 
-## The Core Principles of Async Communication
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Principles of Async Communication
 
 Async communication works best when you treat each message as a complete unit of work. Unlike chat, where you can iterate in real time, async messages must stand on their own. The sender cannot be available to answer follow-up questions immediately, so the message itself must anticipate and address potential questions.
 
 Three principles drive effective async messages: context, clarity, and actionable next steps. Context helps the reader understand why the message matters. Clarity ensures the message cannot be misinterpreted. Actionable next steps give the reader a specific response to make or action to take.
 
-## Structuring Your Async Messages
+### Step 2: Structuring Your Async Messages
 
 Every effective async message should answer five questions: What, Why, Who, When, and How. What describes the topic or proposal. Why provides the background and rationale. Who identifies who needs to act or respond. When specifies deadlines or timing. How outlines the specific action or decision needed.
 
 Consider this template for requesting feedback on a proposal:
 
 ```markdown
-## Proposal: Implement New CI/CD Pipeline
+### Step 3: Proposal: Implement New CI/CD Pipeline
 
 **What:** Migrate from Jenkins to GitHub Actions for our frontend builds.
 
@@ -58,7 +68,7 @@ Consider this template for requesting feedback on a proposal:
 
 This structure eliminates guesswork. The reader knows exactly what you need and when you need it.
 
-## Choosing the Right Channel
+### Step 4: Choose the Right Channel
 
 Remote teams typically have multiple communication channels: email, Slack, project management tools, and video descriptions. Choosing the right channel for your message improves response rates and ensures appropriate visibility.
 
@@ -66,14 +76,14 @@ Use email for formal requests, external communication, and messages requiring do
 
 When you choose the right channel, you increase the likelihood of timely responses and reduce the cognitive load on your team.
 
-## Writing Clear Technical Requests
+### Step 5: Writing Clear Technical Requests
 
 Technical teams face unique async communication challenges. Code reviews, architecture decisions, and implementation questions require careful framing to avoid misinterpretation.
 
 For code review requests, include the context of what changed and why:
 
 ```markdown
-## PR #234: Add user authentication middleware
+### Step 6: PR #234: Add user authentication middleware
 
 **Summary:** Implements JWT-based auth for API endpoints.
 
@@ -95,7 +105,7 @@ For code review requests, include the context of what changed and why:
 
 The reviewer can assess the PR without digging through commits or asking clarifying questions.
 
-## Setting Clear Expectations
+### Step 7: Setting Clear Expectations
 
 Async messages fail when expectations are unclear. Avoid vague requests like "let me know your thoughts" or "feedback welcome." Instead, specify exactly what you need.
 
@@ -107,7 +117,7 @@ Replace vague language with specific requests:
 
 When you specify exactly what you need, you remove ambiguity and accelerate decision-making.
 
-## Handling Sensitive Topics Async
+### Step 8: Handling Sensitive Topics Async
 
 Difficult conversations require extra care in async format. Without tone of voice or real-time clarification, written messages can be misinterpreted. Take extra time to craft sensitive messages carefully.
 
@@ -120,14 +130,14 @@ For performance discussions, conflict resolution, or feedback on missed commitme
 
 Some conversations are better synchronous. Recognize when a message async will cause more harm than good.
 
-## Documenting Decisions Async
+### Step 9: Documenting Decisions Async
 
 Remote teams must over-communicate decisions that would normally happen in hallway conversations. When a decision is made, document it in a way that preserves context for future team members.
 
 A decision documentation format:
 
 ```markdown
-## Decision: Adopt TypeScript for New Frontend Projects
+### Step 10: Decision: Adopt TypeScript for New Frontend Projects
 
 **Date:** 2026-03-10
 **Deciders:** Engineering team (5 members)
@@ -155,7 +165,7 @@ TypeScript won because it provides compile-time type safety, improves IDE suppor
 
 This documentation prevents repeated discussions and provides onboarding context for future team members.
 
-## Measuring Async Communication Effectiveness
+### Step 11: Measuring Async Communication Effectiveness
 
 Track your async communication success through response patterns and meeting frequency. Healthy async communication shows:
 
@@ -166,7 +176,7 @@ Track your async communication success through response patterns and meeting fre
 
 If you notice patterns of missed deadlines, unclear requirements, or frequent meeting requests for clarification, your async communication needs improvement.
 
-## Tools That Support Async Workflows
+### Step 12: Tools That Support Async Workflows
 
 Several tools enhance async communication for remote teams:
 
@@ -178,7 +188,7 @@ Several tools enhance async communication for remote teams:
 
 These tools complement clear writing, not replace it. Even with video or voice options, the written summary ensures accessibility and searchability.
 
-## Building an Async-First Culture
+### Step 13: Build an Async-First Culture
 
 Transitioning to async-first communication requires deliberate practice. Start by applying these patterns in your own messages, then encourage team adoption through example.
 
@@ -186,7 +196,7 @@ When you write clear, actionable async messages, you reduce meeting load, respec
 
 The shift to async-first communication transforms how remote teams operate. Messages become more thoughtful, decisions become more documented, and team members gain freedom to work when they're most productive.
 
-## Common Async Communication Mistakes to Avoid
+### Step 14: Common Async Communication Mistakes to Avoid
 
 Even well-intentioned teams stumble with recurring problems. Recognizing these patterns helps you avoid them:
 
@@ -194,7 +204,7 @@ Even well-intentioned teams stumble with recurring problems. Recognizing these p
 
 ```markdown
 # GOOD: Structured message
-## Problem: Our API response times increased 40% this week
+### Step 15: Problem: Our API response times increased 40% this week
 
 **Root cause:** Database query N+1 bug introduced in PR #456
 
@@ -216,14 +226,14 @@ Even well-intentioned teams stumble with recurring problems. Recognizing these p
 
 **Ping culture masquerading as async**: Sending "ping" or "around?" followed 2 minutes later by "are you there?" defeats async. If you need synchronous input, schedule a call explicitly.
 
-## Building Asynchronous Feedback Loops
+### Step 16: Build Asynchronous Feedback Loops
 
 Effective async requires planning around feedback latency. A question to your UK team at 10 PM Pacific won't get a response for 16+ hours.
 
 ### Planning for Latency
 
 ```markdown
-## Feedback Timeline Example
+### Step 17: Feedback Timeline Example
 
 ### Your timezone: Pacific Time (UTC-8)
 ### Team timezone: Central European (UTC+1)
@@ -242,14 +252,14 @@ Effective async requires planning around feedback latency. A question to your UK
 
 For truly global teams (8+ time zones), identify "relay points" where one timezone's end-of-day is another's morning. This prevents the 24-hour feedback cycle from becoming a blocker.
 
-## The Art of Async Disagreement
+### Step 18: The Art of Async Disagreement
 
 Disagreements in async communication escalate quickly because tone is lost and misinterpretation happens easily. Handle disagreement thoughtfully:
 
 ### Framework for Respectful Disagreement
 
 ```markdown
-## RFC Discussion: Move to GraphQL
+### Step 19: RFC Discussion: Move to GraphQL
 
 I see value in GraphQL but want to raise a concern.
 
@@ -273,12 +283,12 @@ This format achieves several things:
 
 Never end disagreements with "This is a bad idea." Instead, end with "I need X, Y, Z before I can support this."
 
-## Real-World Async Message Examples
+### Step 20: Real-World Async Message Examples
 
 ### Example 1: Explaining a Complex Technical Decision
 
 ```markdown
-## Architecture Decision: PostgreSQL for Audit Log Storage
+### Step 21: Architecture Decision: PostgreSQL for Audit Log Storage
 
 **Who decided:** Backend team (4 members voted)
 **Decision date:** March 15, 2026
@@ -327,7 +337,7 @@ Please reply with:
 ### Example 2: Requesting Design Review (Async)
 
 ```markdown
-## Design Review Request: New Dashboard Layout
+### Step 22: Design Review Request: New Dashboard Layout
 
 **Component:** User analytics dashboard
 **Stakes:** User-facing, high traffic
@@ -371,12 +381,12 @@ Beyond software capabilities, consider communication style differences:
 
 Match your message type to channel. An RFC in Slack becomes noise. A quick question in email takes 48 hours to answer.
 
-## Building Async Communication Guidelines for Your Team
+### Step 23: Build Async Communication Guidelines for Your Team
 
 Create a simple one-page guide specific to your team:
 
 ```markdown
-## Our Async Communication Guidelines
+### Step 24: Our Async Communication Guidelines
 
 ### Core Principles
 - Assume 4-hour response time for normal items
@@ -409,6 +419,21 @@ Create a simple one-page guide specific to your team:
 Post this in an accessible location (wiki or pinned Slack message) and reference it when onboarding new team members.
 
 ---
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

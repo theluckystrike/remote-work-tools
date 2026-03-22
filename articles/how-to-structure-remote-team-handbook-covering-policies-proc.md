@@ -37,7 +37,17 @@ This guide provides a practical framework for building a remote team handbook th
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 - **Topics covered**: core handbook structure, essential policy sections, communication policy
 
-## Core Handbook Structure
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Handbook Structure
 
 The most effective handbooks follow a modular architecture. Instead of one massive document, structure your handbook as a collection of interlinked pages:
 
@@ -65,14 +75,14 @@ handbook/
 
 This structure allows teams to link directly to specific sections rather than pointing people to a 50-page document no one will read.
 
-## Essential Policy Sections
+### Step 2: Essential Policy Sections
 
 ### Communication Policy
 
 Your communication policy should define when to use which channel. A practical framework uses response time expectations:
 
 ```markdown
-## Communication Channels
+### Step 3: Communication Channels
 
 | Channel    | Response Time | Use Case                    |
 |------------|---------------|-----------------------------|
@@ -86,7 +96,7 @@ Your communication policy should define when to use which channel. A practical f
 For developers, add a section on code-related communication:
 
 ```markdown
-## Code Discussion Protocol
+### Step 4: Code Discussion Protocol
 
 1. Questions about implementation → GitHub/PR comments
 2. Architectural decisions → RFC document in `/docs/rfcs`
@@ -107,7 +117,7 @@ Security policies for remote teams need to cover both organizational and technic
 - MFA: Hardware key (YubiKey) or TOTP app
 - VPN: Required for accessing internal services
 
-## Network Guidelines
+### Step 5: Network Guidelines
 
 - Avoid public WiFi for sensitive work
 - Use personal hotspot or Tailscale for secure access
@@ -119,13 +129,13 @@ Security policies for remote teams need to cover both organizational and technic
 Remote work requires explicit clarity about when people are expected to be available:
 
 ```markdown
-## Core Hours
+### Step 6: Core Hours
 
 **Team-wide overlap: 10:00-14:00 UTC**
 
 Individual schedules are flexible outside core hours. Update your Slack status to reflect your availability.
 
-## Time Tracking
+### Step 7: Time Tracking
 
 Log hours daily using the company time tracking tool. Include:
 - Project code
@@ -141,14 +151,14 @@ Notes: Completed endpoint, started tests
 ```
 ```
 
-## Process Documentation
+### Step 8: Process Documentation
 
 ### Onboarding Process
 
 A strong onboarding process reduces time-to-productivity and prevents early burnout:
 
 ```markdown
-## Week 1 Checklist
+### Step 9: Week 1 Checklist
 
 ### Day 1
 - [ ] Set up email and Slack access
@@ -168,7 +178,7 @@ A strong onboarding process reduces time-to-productivity and prevents early burn
 - [ ] Complete compliance training
 - [ ] Set up benefits and payroll
 
-## Access Provisioning Script
+### Step 10: Access Provisioning Script
 
 IT uses this automation for new team member setup:
 
@@ -200,7 +210,7 @@ EOF
 For technical teams, incident response documentation is critical:
 
 ```markdown
-## Incident Severity Levels
+### Step 11: Incident Severity Levels
 
 | Severity | Response Time | Example                          |
 |----------|---------------|----------------------------------|
@@ -209,13 +219,13 @@ For technical teams, incident response documentation is critical:
 | SEV3     | 4 hours       | Minor feature degraded           |
 | SEV4     | Next business | Non-critical issue               |
 
-## On-Call Rotation
+### Step 12: On-Call Rotation
 
 - Primary on-call: First responder
 - Secondary on-call: Backup if primary unavailable
 - Rotation: Weekly, follows oncall.md in operations repo
 
-## Post-Incident Review
+### Step 13: Post-Incident Review
 
 After any SEV1 or SEV2 incident:
 1. Document timeline within 24 hours
@@ -224,14 +234,14 @@ After any SEV1 or SEV2 incident:
 4. Track action items in issue tracker
 ```
 
-## Culture Section
+### Step 14: Culture Section
 
 ### Values and Principles
 
 Remote culture requires explicit articulation of values that might be implicit in office settings:
 
 ```markdown
-## Our Core Values
+### Step 15: Our Core Values
 
 ### Asynchronous First
 We default to async communication. Meetings are for discussion, not status updates. If it can be a document, make it a document.
@@ -251,7 +261,7 @@ Small feedback now prevents large problems later. Be direct, be kind, be specifi
 Meetings in remote teams need more structure than in-person ones:
 
 ```markdown
-## Meeting Rules
+### Step 16: Meeting Rules
 
 1. **Always have an agenda** - Posted in calendar invite at least 24 hours ahead
 2. **No optional meetings** - If someone's optional, don't invite them
@@ -259,7 +269,7 @@ Meetings in remote teams need more structure than in-person ones:
 4. **Time zone respect** - Rotate meeting times to share the burden
 5. **No cameras required** - Unless it's a social call
 
-## Meeting Types
+### Step 17: Meeting Types
 
 - **Daily standup**: 15 min, async via Slack
 - **Weekly team sync**: 30 min, sync, rotating facilitator
@@ -267,7 +277,7 @@ Meetings in remote teams need more structure than in-person ones:
 - **All-hands**: Monthly, 60 min, recorded
 ```
 
-## Implementation Tips
+### Step 18: Implementation Tips
 
 ### Version Control Your Handbook
 
@@ -316,6 +326,21 @@ A handbook that isn't updated becomes useless. Schedule quarterly reviews:
 - **Monthly**: Rotate responsibility among team leads
 - **Quarterly**: Review for accuracy, remove outdated content
 - **Annually**: Major revision, consider structural changes
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Articles
 
