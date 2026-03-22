@@ -31,6 +31,15 @@ tags: [remote-work-tools, comparison, remote-work, collaboration]---
 
 Choose Miro if your team needs enterprise-grade security, extensive integrations, and advanced diagramming for complex architecture sessions. Choose FigJam if your team already uses Figma and values simplicity, faster onboarding, and a lightweight collaboration experience. Both platforms handle remote whiteboarding well, but Miro favors depth and ecosystem breadth while FigJam prioritizes speed and design-tool integration.
 
+## Key Takeaways
+
+- **FigJam annual cost for a 10-person team**: $0 if they already use Figma Professional ($120/year per license).
+- **Choose Miro if your**: team needs enterprise-grade security, extensive integrations, and advanced diagramming for complex architecture sessions.
+- **Total**: $1,200 + ~40 hours training time.
+- **If not**: $1,800 per year (10 editors × $15/month).
+- **Total**: $0–$1,800 depending on existing Figma investment.
+- **The best approach**: use both.
+
 ## Platform Origins and Integration Ecosystem
 
 Miro started as a digital whiteboard in 2011, evolving into a visual collaboration platform. Its market maturity shows in over 100 integrations with tools like Jira, Confluence, Slack, and Microsoft Teams. For teams already invested in the Atlassian or Microsoft ecosystems, Miro's connectors feel natural.

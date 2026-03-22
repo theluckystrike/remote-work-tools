@@ -18,6 +18,15 @@ voice-checked: true---
 
 A freelance software developer NDA template should include seven sections: definition of confidential information, exclusions, obligations of the receiving party, return/destruction terms, duration, remedies, and general provisions. Below is a complete, customizable NDA template along with guidance on work product ownership clauses, mutual vs. one-way NDAs, and common mistakes to avoid.
 
+## Key Takeaways
+
+- **For most freelance engagements**: a mutual NDA is appropriate since both parties share information.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+- **Discounts of 25-50% are**: common for qualifying organizations.
+- **Remedies The Receiving Party**: acknowledges that unauthorized disclosure of Confidential Information may cause irreparable harm.
+- **This protects you from**: claims if you use general knowledge or independently developed techniques.
+
 ## Why Freelance Developers Need NDAs
 
 Clients trust you with valuable intellectual property. Before writing a single line of code, you should have a signed NDA in place. It establishes legal consequences if confidential information is misused, defines what information you can and cannot share, and demonstrates professionalism that builds client trust.

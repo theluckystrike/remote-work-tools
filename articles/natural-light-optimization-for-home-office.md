@@ -33,6 +33,15 @@ Natural light is one of the most underutilized resources in home offices. Most d
 
 This guide covers practical strategies for maximizing natural light, automated solutions for light management, and how to integrate these approaches into a developer-friendly workflow.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Many developers find that**: natural light optimization is worth $200-300 in window treatments—it provides measurable productivity gains immediately.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Natural light is one**: of the most underutilized resources in home offices.
+- **Most developers focus on monitor calibration**: keyboard choice, and desk setup while ignoring the fundamental environmental factor that affects both productivity and health.
+
 ## Why Natural Light Matters for Developers
 
 Working under artificial light alone disrupts your circadian rhythm. Your body's internal clock uses light cues to regulate sleep hormones, alertness, and cognitive function. When you spend 8+ hours under fluorescent or LED lighting without natural light exposure, you're working against your biology.

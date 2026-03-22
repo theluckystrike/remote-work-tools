@@ -31,6 +31,15 @@ voice-checked: true---
 
 Migrating from HipChat to Slack represents a significant shift in how remote teams communicate. HipChat Server and HipChat Cloud served teams well for years, but the platform's sunset and the subsequent move toStride and now to other solutions leaves many teams searching for a modern alternative. Slack has emerged as the dominant choice, offering better threading, integrations, and mobile experience. This guide walks through the technical and organizational aspects of migrating from HipChat legacy to Slack, designed for developers and power users who need practical, actionable steps.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Slack offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Slack has emerged as the dominant choice**: offering better threading, integrations, and mobile experience.
+- **Slack integrates with most**: major identity providers including Okta, OneLogin, and Google Workspace.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## Understanding Your Starting Point
 
 HipChat came in two flavors: HipChat Server (self-hosted) and HipChat Cloud (hosted). The migration path differs slightly depending on which version you're coming from, but the core challenges remain consistent across both.

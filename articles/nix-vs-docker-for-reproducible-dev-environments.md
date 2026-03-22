@@ -17,6 +17,15 @@ voice-checked: true---
 
 Reproducible development environments remain one of the hardest problems in software engineering. When a new team member joins or you switch machines, the time spent debugging "works on my machine" issues compounds quickly. Two tools frequently surface in this discussion: Nix and Docker. Each takes a fundamentally different approach to environment reproducibility, and understanding these differences helps you choose the right tool for your workflow.
 
+## Key Takeaways
+
+- **Committing the Dockerfile to**: version control means anyone can rebuild the exact same environment: ```bash docker build -t mydevenv:$(git rev-parse HEAD) .
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+- **If you work with**: sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
+- **Each takes a fundamentally**: different approach to environment reproducibility, and understanding these differences helps you choose the right tool for your workflow.
+- **Create a basic development**: environment with Docker: ```dockerfile FROM python:3.11-slim WORKDIR /app COPY requirements.txt .
+- **You can run PostgreSQL**: 15 on a macOS machine even if the host package manager only offers version 14.
+
 ## How Docker Handles Reproducibility
 
 Docker packages applications along with their dependencies into isolated containers. These containers share the host kernel but maintain separate filesystem namespaces, making them lightweight compared to virtual machines.

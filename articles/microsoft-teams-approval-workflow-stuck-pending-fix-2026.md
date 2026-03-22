@@ -15,6 +15,15 @@ voice-checked: true---
 
 Microsoft Teams approval workflows help remote teams automate document reviews, expense submissions, time-off requests, and other business processes. When these workflows get stuck in pending status, it disrupts operations for distributed teams across time zones. This guide provides practical troubleshooting steps to get your Teams approval workflows moving again.
 
+## Key Takeaways
+
+- **A purchase request under**: $500 goes to team lead; over $500 goes to director; over $10,000 goes to CFO.
+- **Misunderstood routing rules cause**: most approval workflow failures.
+- **Look for special characters**: that might cause parsing errors If you identify data issues, the requestor must resubmit with corrected information.
+- **Approval workflows require specific**: licensing for approvers: 1.
+- **Check each required field**: for complete information 3.
+- **Mobile app compatibility limits**: approval action on some mobile phones.
+
 ## Understanding Microsoft Teams Approval Workflows
 
 Teams approval workflows integrate with Microsoft Power Automate to create smoothed out request-and-approval processes. These workflows typically involve a requestor submitting a form or document, which then routes to one or more approvers for review. The status can show as pending, approved, or rejected.

@@ -31,6 +31,15 @@ voice-checked: true---
 
 Remote teams increasingly need collaboration features that AWS CodeCommit cannot fully provide. While CodeCommit served many organizations well, GitHub's pull request workflows, Actions automation, and ecosystem integrations make it a stronger choice for distributed development teams. This guide walks through the migration process with practical commands and configuration examples you can apply immediately.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does GitHub offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **GitHub's free organization tier**: includes unlimited collaborators on private repositories, a significant improvement over CodeCommit's tiered pricing.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Why Remote Teams Choose GitHub Over CodeCommit
 
 CodeCommit offers secure Git hosting within AWS, but remote teams often encounter friction with its limited collaboration features. GitHub provides code review tools, project management boards, and a marketplace of integrations that remote teams rely on for async communication.

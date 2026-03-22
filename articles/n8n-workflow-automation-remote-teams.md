@@ -31,6 +31,15 @@ n8n is an open-source workflow automation tool that self-hosts. Unlike Zapier or
 
 This guide covers: self-hosted n8n setup, five practical remote team workflows, and error handling to make automations reliable.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **n8n is an open-source**: workflow automation tool that self-hosts.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Install n8n with Docker
 
 ```bash

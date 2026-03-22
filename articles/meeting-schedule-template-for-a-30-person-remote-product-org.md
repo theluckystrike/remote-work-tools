@@ -33,6 +33,16 @@ Managing meetings across a 30-person remote product organization requires struct
 
 This guide provides a tested meeting template framework with practical implementation details. The principles apply whether you use Google Calendar, Outlook, or other scheduling tools.
 
+## Key Takeaways
+
+- **Here's what works: Google**: Calendar with Admin Console: Free or $6-18/user/month via Google Workspace.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Meeting-free days**: Aim for at least 2 half-days of no meetings per week
+3.
+- **Calendly**: $10-25/user/month.
+- **Outlook (Microsoft 365)**: $6-12.50/user/month.
+- **Notion Calendar + Coda**: $10-20/month for Notion Team plan.
+
 ## The Core Meeting Structure
 
 A healthy meeting schedule for a 30-person product org needs four meeting tiers. Each serves a distinct purpose and involves specific participants.

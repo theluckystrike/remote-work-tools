@@ -31,6 +31,15 @@ A multi-monitor Linux workstation requires configuration that Windows and macOS 
 
 This guide covers the complete setup: detecting displays, configuring layouts, handling mixed DPI, setting up workspace assignment in i3/Sway, and persisting everything across reboots.
 
+## Key Takeaways
+
+- **Best choice for a**: hassle-free multi-monitor setup.
+- **The payoff is total control**: workspaces pinned to specific monitors, per-display scaling, hotkey-driven layout switching, and no proprietary drivers needed for most hardware.
+- **A 4K@200% monitor next**: to a 1080p@100% monitor works cleanly.
+- **Use Sway or Hyprland**: for the cleanest result.
+- **Use Sway if you**: want stability; use Hyprland if you want the latest Wayland features.
+- **GNOME and KDE Plasma**: handle multi-monitor DPI cleanly on Wayland if you prefer a full desktop environment.
+
 ## Check What Linux Sees
 
 ```bash
