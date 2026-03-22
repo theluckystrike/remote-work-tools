@@ -1,6 +1,7 @@
 ---
 
 
+
 layout: default
 <<<<<<< HEAD
 title: "Hybrid Team Onboarding Process Template for New Hires"
@@ -20,6 +21,7 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+
 
 
 
