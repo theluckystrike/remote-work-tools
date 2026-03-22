@@ -20,18 +20,19 @@ A design system managed in isolation fails distributed teams. Remote designers a
 
 | Tool | Key Feature | Remote Team Fit | Integration | Pricing |
 |---|---|---|---|---|
-| Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
-| Slack | Real-time team messaging | Channels, threads, huddles | 2,600+ apps | $7.25/user/month |
-| Linear | Fast project management | Keyboard-driven, cycles | GitHub, Slack, Figma | $8/user/month |
-| Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
-| 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
+| Figma | Component design + tokens | Single design source of truth | Storybook, Tokens Studio, GitHub | $15/user/month |
+| Style Dictionary | Token transformation pipeline | Converts tokens to CSS/JS/iOS/Android | npm, GitHub Actions, CI | Free/open source |
+| Storybook | Component documentation | Interactive UI docs with live code | Chromatic, Figma, GitHub | Free/open source |
+| Chromatic | Visual testing + hosting | Screenshot diffs on PRs | GitHub, GitLab, Storybook | Free tier; $149+/month |
+| Tokens Studio | Figma ↔ token sync | Bridges Figma Variables and Style Dictionary | GitHub, GitLab, Figma | Free; Pro $14/month |
 
 ## Key Takeaways
 
-- **Topics covered**: the core problem for remote teams, 1. figma (design source of truth), 2. style dictionary (token pipeline)
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-- **Trade-off analysis**: Strengths and limitations of each option discussed
+- A remote design system requires a connected toolchain: Figma for design, Style Dictionary for tokens, Storybook for documentation, and Chromatic for visual review
+- Token pipelines eliminate manual handoff — changes in Figma flow automatically into CSS and component code
+- Visual regression testing with Chromatic gives distributed designers a structured review workflow without synchronous calls
+- Versioning with semantic versioning and migration guides is essential when multiple product teams consume the same design system
+- Publishing as an npm package with automated CI keeps every consuming project in sync without manual copy-paste
 
 ## The Core Problem for Remote Teams
 
@@ -49,6 +50,20 @@ With tooling:
                                           Storybook docs (auto-generated)
 ```
 
+Remote teams that skip the token pipeline end up with three independent sources of truth that drift apart every sprint. A designer updates a color in Figma. An engineer uses an old hex value from memory. The documentation shows a third variant. Tooling makes divergence structurally impossible — when the pipeline runs, everything updates together.
+
+## Why Design Systems Fail for Remote Teams
+
+Before covering tools, it helps to name the failure modes that tooling solves:
+
+**Failure mode 1: Figma is the only source of truth, but engineers can't use it directly.** Designers maintain meticulous components in Figma. Engineers rebuild them from scratch in code, making different decisions. The fix: a token export pipeline and a component library that engineers actually import.
+
+**Failure mode 2: Components exist in code but aren't documented.** Engineers on other teams can't discover what's available. They rebuild things that already exist. The fix: Storybook, published and searchable, with every component auto-documented from props.
+
+**Failure mode 3: No review process for visual changes.** A designer can't quickly check whether an engineer's implementation matches the spec. The fix: Chromatic screenshot diffs on every PR, requiring design approval before merge.
+
+**Failure mode 4: Consuming teams don't know when breaking changes land.** They upgrade the design system package, something breaks, and they have no migration path. The fix: semantic versioning with mandatory migration guides for major versions.
+
 ## 1. Figma (Design Source of Truth)
 
 **Cost:** $15/user/month (Professional)
@@ -58,21 +73,21 @@ Key Figma settings for team design systems:
 
 ```
 Figma Design System File structure:
-  🎨 Foundations
+  Foundations
     Colors (Figma Variables)
     Typography
     Spacing
     Border radius
     Shadow
 
-  🧩 Components
+  Components
     Buttons (all variants)
     Inputs
     Cards
     Navigation
     Modals
 
-  📐 Patterns
+  Patterns
     Forms
     Tables
     Empty states
@@ -93,6 +108,17 @@ Collections:
     color/brand-primary-hover: {color/blue-600}
     spacing/component-padding: {spacing/4}
 ```
+
+### Figma for Remote Teams: Practical Setup
+
+The most common remote team mistake with Figma is treating it as a design file rather than a system file. A system file has strict conventions:
+
+- All components use auto-layout with named constraints
+- All colors reference Variables, never hardcoded hex values
+- All text styles reference the typography scale
+- Component variants are complete — not missing "disabled" states or "mobile" variants
+
+For remote collaboration, publish the design system file as a Figma Library and share it across your organization. Any change to a component triggers a "library update" notification in consuming files, which keeps product designers from using outdated components without knowing it.
 
 ## 2. Style Dictionary (Token Pipeline)
 
@@ -176,6 +202,10 @@ style-dictionary build
 # --ds-spacing-4: 16px;
 ```
 
+### Why Token Pipelines Matter More for Remote Teams
+
+In co-located teams, a designer can walk over and confirm a color value. In remote teams, that confirmation happens through Slack threads, screenshots, and hex codes pasted into messages. The token pipeline replaces that entire conversation. When the token is defined in one place and consumed everywhere, there is nothing to confirm.
+
 ## 3. Storybook (Component Documentation)
 
 ```bash
@@ -244,6 +274,12 @@ export const AllVariants: Story = {
 };
 ```
 
+### Using Storybook as the Design Handoff Tool
+
+Rather than handing off Figma files with red-lines, remote teams can point engineers at the published Storybook instance. Engineers see live component code, interactive controls for all props, and a link back to the corresponding Figma frame. This eliminates the annotation step entirely and keeps documentation in sync with the actual codebase.
+
+The Figma plugin link in the story parameters (shown above) means any engineer can open the Figma design for any component directly from Storybook. That link persists as long as the Figma file node ID doesn't change — making it a stable cross-tool reference.
+
 ## 4. Chromatic (Visual Testing + Storybook Hosting)
 
 ```bash
@@ -268,6 +304,12 @@ Chromatic workflow for remote teams:
 4. Designer reviews screenshot in Chromatic UI and approves
 5. PR merges with design sign-off documented
 
+### Chromatic vs Manual Screenshot Review
+
+Without Chromatic, the remote design review process looks like: engineer takes a screenshot, posts it in Slack, waits for designer to respond across timezones, iterates. This works for one or two components. It does not work at scale.
+
+Chromatic runs the review inside the PR. The designer gets a URL showing exactly what changed, with side-by-side before/after comparisons at pixel level. They click Accept or Reject. The decision is recorded in the PR audit trail. Approvals happen async, and no Slack screenshots are required.
+
 ## 5. Tokens Studio Figma Plugin
 
 Tokens Studio bridges Figma Variables and Style Dictionary:
@@ -282,6 +324,8 @@ Tokens Studio bridges Figma Variables and Style Dictionary:
 #   Branch: main
 #   File path: tokens/
 ```
+
+With the GitHub sync configured, a designer saving token changes in Figma triggers a commit to the token repository. That commit triggers the Style Dictionary build in CI. The new CSS variables are published to npm. Consuming apps get an update notification. The entire chain is automated.
 
 ## Publishing the Design System as npm Package
 
@@ -366,6 +410,41 @@ Major versions must include MIGRATION.md with:
   - Manual steps required
   - Timeline for removing old API
 ```
+
+## Governance: Who Owns the Design System on a Remote Team
+
+A design system without clear ownership degrades. For remote teams, the governance model needs to be explicit because there's no hallway conversation to resolve ambiguity:
+
+```
+Design System Governance (Remote Team Model)
+
+Core team (2-4 people):
+  - 1-2 designers who own Figma components and token decisions
+  - 1-2 engineers who own the component library and token pipeline
+  - Responsibility: Review all contributions, own versioning, write migration guides
+
+Contributing teams (all product teams):
+  - Can open PRs to add components or tokens
+  - Must follow contribution guidelines
+  - Core team reviews within 2 business days
+
+Decision process:
+  - Bug fixes: any core team member can merge
+  - New components: 1 designer + 1 engineer approval required
+  - Breaking changes: sync call or RFC document with 1-week comment period
+```
+
+This model works for remote teams because all decisions are documented and async-compatible. A product team in a different timezone can open a PR, the core team reviews during their hours, and the decision and rationale are recorded in the PR thread.
+
+## Tool Selection by Team Size
+
+| Team Size | Minimum Viable Stack | Full Stack |
+|---|---|---|
+| 1-5 people | Figma + Storybook | Add Chromatic |
+| 5-20 people | Figma + Tokens Studio + Style Dictionary + Storybook | Add Chromatic + npm package |
+| 20+ people | Full stack + governance model | Add RFC process + codemod tooling |
+
+Small teams sometimes skip the token pipeline because it feels heavyweight. The right threshold: if you have a second product consuming your design system, the pipeline pays for itself immediately.
 
 ## Related Reading
 
