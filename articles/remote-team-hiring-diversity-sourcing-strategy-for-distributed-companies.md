@@ -28,10 +28,11 @@ tags: [remote-work-tools, remote-hiring, diversity, diversity-sourcing, inclusiv
 score: 9
 voice-checked: true
 reviewed: true
-intent-checked: true---
+intent-checked: true
 ---
 
 
+<<<<<<< HEAD
 
 
 
@@ -62,6 +63,8 @@ reviewed: true
 intent-checked: true---
 
 
+=======
+>>>>>>> ee0c965ee12a5fe6ea604c409db62573b2d3274b
 {% raw %}
 
 Building diverse remote teams requires more than good intentions—it demands systematic approaches to sourcing, evaluating, and welcoming talent across geographic and cultural boundaries. This guide provides practical strategies for distributed companies committed to building inclusive teams in 2026.

@@ -11,7 +11,8 @@ tags: [remote-work-tools, documentation, wikis, collaboration, remote-work, engi
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 ## Frequently Asked Questions

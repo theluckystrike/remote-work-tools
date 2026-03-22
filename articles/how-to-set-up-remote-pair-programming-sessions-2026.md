@@ -343,12 +343,11 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ## Related Articles
 
-- [Effective Code Review Practices for Remote Teams](/articles/code-review-remote-teams-2026.md)
-- [Scaling Engineering Teams with Async Work](/articles/scaling-async-engineering-teams-2026.md)
-- [Developer Onboarding Best Practices 2026](/articles/developer-onboarding-2026.md)
-- [Terminal Multiplexing for Pair Programming](/articles/terminal-multiplexing-pairing-2026.md)
-- [Recorded Session Best Practices for Knowledge Transfer](/articles/recorded-sessions-knowledge-transfer-2026.md)
-
+- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
+- [How to Set Up Remote Pair Programming Workflow Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-workflow-guide/)
+- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
+- [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
+- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

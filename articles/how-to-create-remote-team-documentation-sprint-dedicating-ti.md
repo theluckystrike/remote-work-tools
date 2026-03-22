@@ -11,7 +11,8 @@ tags: [remote-work-tools, documentation, remote-work, wiki, team-collaboration, 
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 To fix your outdated wiki, run a 2-week documentation sprint: audit stale pages using `git log --since="180 days ago"`, categorize them as critical/useful/deprecated, assign each person 2-4 pages to update (not write new ones), and use a shared tracking spreadsheet to show progress daily. Start with critical pages affecting onboarding or production, then let team members tackle their specialties. This structured time-box prevents wiki maintenance from disappearing back into the backlog indefinitely.

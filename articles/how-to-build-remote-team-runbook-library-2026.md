@@ -8,7 +8,8 @@ score: 8
 voice-checked: true
 intent-checked: true
 tags: ["runbooks", "incident response", "remote work", "documentation", "on-call"]
-permalink: /how-to-build-remote-team-runbook-library-2026/---
+permalink: /how-to-build-remote-team-runbook-library-2026/
+---
 
 {% raw %}
 

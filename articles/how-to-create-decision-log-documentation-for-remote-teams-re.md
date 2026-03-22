@@ -11,7 +11,8 @@ tags: [remote-work-tools, decision-log, documentation, remote-work, knowledge-ma
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

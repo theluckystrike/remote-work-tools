@@ -11,7 +11,8 @@ tags: [remote-work-tools, digital-nomad, remote-work, nomad, friend-finding, tra
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 

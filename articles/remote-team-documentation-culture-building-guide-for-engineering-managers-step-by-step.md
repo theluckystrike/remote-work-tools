@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Remote Team Documentation Culture Guide (2026)"
+title: "Code Review Guide"
 description: "A practical step-by-step guide for engineering managers to build documentation culture in remote teams. Includes templates, workflows, and code examples"
 date: 2026-03-16
 last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/
 reviewed: true
-score: 8
+score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
@@ -354,6 +354,11 @@ Monitor these metrics to understand documentation health:
 
 ## Related Articles
 
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Build Remote Team Documentation Culture Guide](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
 **How long does it take to complete this setup?**
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.

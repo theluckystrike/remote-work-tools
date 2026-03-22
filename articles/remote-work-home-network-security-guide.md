@@ -11,21 +11,12 @@ tags: [remote-work-tools, tools, best-of, security, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
-<<<<<<< Updated upstream
 ## The Problem: Home Networks Are Security Weak Points
-=======
-## Table of Contents
-
-- [The Problem: Home Networks Are Security Weak Points](#the-problem-home-networks-are-security-weak-points)
-- [Prerequisites](#prerequisites)
-- [Troubleshooting Common Issues](#troubleshooting-common-issues)
-- [Security Best Practices](#security-best-practices)
-
->>>>>>> Stashed changes
 
 Your company's VPN protects your traffic. But:
 - Family members' devices compromise WiFi security

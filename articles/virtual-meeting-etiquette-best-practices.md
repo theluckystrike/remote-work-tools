@@ -13,7 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]
 ---
-<<<<<<< Updated upstream
 ---
 layout: default
 title: "Virtual Meeting Etiquette Best Practices: A Developer Guide"
@@ -29,26 +28,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]
 ---
-=======
-
-
-| Tool | Video Quality | Screen Sharing | Recording | Pricing |
-|---|---|---|---|---|
-| Zoom | Up to 4K | Desktop + app sharing | Cloud + local | $13.33/user/month |
-| Google Meet | Up to 1080p | Screen + tab sharing | Google Drive | Included with Workspace ($6+) |
-| Microsoft Teams | Up to 1080p | Desktop + PowerPoint Live | OneDrive/SharePoint | Included with M365 ($6+) |
-| Around | Floating window, auto-crop | Screen sharing | No recording | Free / $8.50/user/month |
-| Tuple | HD pair programming | Full screen control | Session recording | $30/user/month |
-
-## Table of Contents
-
-- [Pre-Meeting Preparation](#pre-meeting-preparation)
-- [During the Meeting: Core Etiquette Rules](#during-the-meeting-core-etiquette-rules)
-- [Automation for Meeting Efficiency](#automation-for-meeting-efficiency)
-- [Platform-Specific Tips](#platform-specific-tips)
-- [Post-Meeting Etiquette](#post-meeting-etiquette)
-
->>>>>>> Stashed changes
 
 The three highest-impact virtual meeting practices are: test your audio and video before every call, mute when not speaking, and always review the agenda beforehand. These habits alone eliminate the most common meeting friction for remote developer teams. This guide goes deeper with platform-specific shortcuts, automation scripts for meeting prep, and etiquette guidelines for screen sharing, camera use, and post-meeting follow-up.
 

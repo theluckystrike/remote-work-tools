@@ -155,6 +155,240 @@ Switching documentation tools across a remote team requires more care than switc
 **Archive, do not delete.** Keep the old GitBook space accessible in read-only mode for 90 days after the switch. Remote teams inevitably have someone on leave or in a different time zone who missed the announcement and needs the old content.
 
 **Create a documentation template.** Give teams a starter template in the new tool that shows what good documentation looks like. This removes the blank-page problem and encourages consistency.
+## Why GitBook Might No Longer Be Right for Your Team
+
+GitBook specializes in beautiful, published documentation. For many engineering teams, it's overkill: you pay for publishing features you don't need (public docs) while settling for limited internal collaboration tools (no real-time editing, limited API, awkward permission model).
+
+The alternatives either offer tighter GitHub integration (Notion, Readthedocs, Mintlify) or more flexibility for internal knowledge bases (Notion, Confluence, Slite).
+
+## Documentation Solution Comparison
+
+| Solution | Best For | Setup Time | Cost | GitHub Sync | Real-Time Collab |
+|----------|----------|-----------|------|-------------|------------------|
+| Notion | Internal wiki + publishing | 2 hours | $10/user/mo | Zapier only | Yes |
+| Confluence | Enterprise teams | 1 day | $7/user/mo | Via plugins | Yes |
+| Read the Docs | Open-source projects | 30 min | Free | Native | No |
+| Mintlify | Developer docs with code | 1 hour | Free → $100/mo | GitHub | Limited |
+| Slite | Team knowledge base | 2 hours | $5-10/user/mo | No | Yes |
+| Docusaurus | Custom documentation sites | 3 hours | Free (self-hosted) | Git | No |
+| Sphinx | Technical Python projects | 4 hours | Free | Git | No |
+| GitHub Wiki | Minimal docs | 10 min | Free (GitHub native) | Git | Yes |
+
+## Notion: The All-in-One Replacement
+
+Notion works as both internal documentation AND public publishing. Create pages, nest them hierarchically, set granular permissions (public, team, specific people), then embed or link externally.
+
+**Real team workflow**: Create "Engineering Docs" workspace. Main sections: Architecture, Onboarding, API Reference, Runbooks, Decision Records. Each section is a database with templates (same format every time). Notion can publish entire databases as public websites with custom domains.
+
+**Strengths**:
+- Real-time collaboration (multiple people editing same doc)
+- Database structure (organize docs with sorting, filtering)
+- Public sharing (turn any page into public site)
+- AI features (write templates, auto-summarize)
+- Affordable at team scale ($10/person/month beats GitBook)
+
+**Limitations**:
+- No native Git sync (manual + Zapier workflows)
+- Performance degrades at scale (1000+ documents)
+- Limited code syntax highlighting vs purpose-built doc tools
+- Steeper learning curve than GitBook
+
+**Integration example**: Zapier syncs GitHub README files → Notion database → team updates in Notion → changes don't sync back (one-way).
+
+## Read the Docs: Purpose-Built for Developers
+
+Read the Docs is the standard for open-source documentation. Build with Sphinx (Python) or other static site generators, commit to GitHub, push triggers rebuild and deploy.
+
+**Real workflow**: Write docs in Markdown or reStructuredText → commit to GitHub `docs/` folder → webhook triggers Read the Docs build → rebuilt site lives at projectname.readthedocs.io within 2 minutes → team reviews live changes.
+
+**Strengths**:
+- Git-native (docs live in your repo)
+- Automatic builds on push
+- Free tier is genuinely complete
+- Perfect for API documentation
+- Versioning support (docs for v1, v2, etc simultaneously)
+
+**Limitations**:
+- No real-time collaboration (write → commit → push workflow)
+- Limited internal tools (no discussion/comments)
+- Markdown required (steeper for non-technical writers)
+- Design is functional, not beautiful
+
+**Best for**: Open-source projects, API documentation, teams that live in Git.
+
+## Mintlify: Modern API Docs with Code Blocks
+
+Mintlify builds beautiful API documentation with integrated code examples. Define API endpoints in OpenAPI, Mintlify renders docs with working code samples in multiple languages.
+
+**Real workflow**: Define API in `openapi.yaml` → upload to Mintlify → auto-generates endpoint docs with try-it-out buttons → sync to GitHub for version control → deploy to custom domain.
+
+**Strengths**:
+- Auto-generates from OpenAPI/Swagger
+- Code examples in multiple languages (JS, Python, Go, etc.)
+- Try-it-out (make live API calls from docs)
+- Beautiful out-of-the-box
+- Free tier sufficient for small APIs
+
+**Limitations**:
+- Specialized for API docs (not general documentation)
+- Free tier limited features
+- Limited internal documentation capabilities
+- Community smaller than Notion/Confluence
+
+**Best for**: Engineering teams shipping APIs, startups with public developer platforms.
+
+## Confluence: Enterprise Collaboration (With a Cost)
+
+Confluence is Atlassian's documentation wiki, deeply integrated with Jira. Real-time editing, commenting, version history, permissions hierarchy.
+
+**Real workflow**: Create "Engineering" space → each project gets a page → child pages for specifications, designs, runbooks → link to related Jira tickets → full search across all docs → permission groups control who sees sensitive docs.
+
+**Strengths**:
+- Deep Jira integration
+- Excellent full-text search
+- Granular permissions
+- Real-time collaboration
+- Version history with restoration
+
+**Limitations**:
+- Expensive ($7/user/month minimum, $5-10k for small teams)
+- Overkill for teams <20 people
+- Complex UI (learning curve higher than Notion)
+- Data export requires plugins
+
+**Best for**: Enterprise teams already using Jira, organizations with complex permission needs, teams >50 people.
+
+## Docusaurus: The Custom Approach
+
+Docusaurus is a React-based static site generator for documentation. Write in Markdown, Docusaurus builds a responsive site, deploy to any host (Vercel, Netlify, GitHub Pages).
+
+**Real workflow**: Clone Docusaurus starter → write docs in `/docs` folder (Markdown) → commit to GitHub → CI/CD pipeline builds → deploys to Vercel → live in 1 minute.
+
+**Code example**: Docusaurus sidebar configuration:
+
+```javascript
+// sidebars.js
+module.exports = {
+  docs: [
+    'intro',
+    {
+      label: 'Getting Started',
+      items: ['getting-started/installation', 'getting-started/setup'],
+    },
+    {
+      label: 'Guides',
+      items: [
+        'guides/authentication',
+        'guides/api-calls',
+        'guides/error-handling',
+      ],
+    },
+    {
+      label: 'API Reference',
+      link: { type: 'doc', id: 'api/overview' },
+      items: [
+        'api/users',
+        'api/projects',
+        'api/integrations',
+      ],
+    },
+  ],
+};
+```
+
+**Strengths**:
+- Completely customizable
+- Git-native (docs in repo)
+- Zero cost (self-hosted)
+- Beautiful default theme
+- Excellent for technical teams
+
+**Limitations**:
+- Setup requires React knowledge
+- No real-time collaboration (Git workflow)
+- No built-in discussion/comments
+- Maintenance overhead (React updates, dependency management)
+
+**Best for**: Engineering teams comfortable with code, custom docs requirements, teams wanting full control.
+
+## Implementation Timeline: Migrating from GitBook
+
+**Phase 1 (Week 1): Audit existing docs**
+- List all documents in GitBook
+- Categorize by purpose (API, onboarding, architecture, runbooks)
+- Identify which docs are read-only vs frequently updated
+
+**Phase 2 (Week 2): Choose replacement**
+- Use decision framework below
+- Set up test workspace in new tool
+- Migrate 2-3 sample docs
+- Team evaluates
+
+**Phase 3 (Week 3-4): Bulk migration**
+- Export all GitBook content
+- Transform into target tool's format (Markdown → Notion, etc.)
+- Verify links still work
+- Update team onboarding docs to point to new location
+
+**Phase 4 (Ongoing): Maintain and refine**
+- Monitor docs access patterns
+- Retire outdated documents
+- Establish update cadence (who owns which docs?)
+
+## Decision Framework: Choosing Your Solution
+
+**Go with Notion if**:
+- You want to combine internal wiki + public publishing
+- Team prefers visual database approach
+- You already use Notion for projects/tasks
+- You value real-time collaboration
+- Budget allows $10/person/month
+
+**Go with Read the Docs if**:
+- You have open-source projects
+- Docs live in Git repo (with code)
+- You want zero infrastructure costs
+- Team comfortable with Markdown/Git
+
+**Go with Confluence if**:
+- You're an enterprise (100+ people)
+- Deep Jira integration needed
+- Budget allows $5k+ annually
+- Complex permission hierarchy required
+
+**Go with Docusaurus if**:
+- Team has React/JavaScript skills
+- You want full customization
+- You'll self-host or use Vercel
+- Budget is nearly zero (just hosting)
+
+**Go with Mintlify if**:
+- Primary docs are API reference
+- You use OpenAPI/Swagger
+- You want beautiful auto-generated docs
+- You have a public developer platform
+
+## Setting Up Notion as GitBook Replacement: 30-Minute Setup
+
+1. Create workspace "Documentation"
+2. Add pages: Architecture, API, Onboarding, Runbooks
+3. Create "Docs" database with properties: Title, Category, Last Updated, Owner
+4. Set public sharing on top-level pages
+5. Create public link (Settings → Share → Edit)
+6. Test sharing link in incognito window (confirms permissions work)
+7. Update team wiki link to point to public Notion page
+
+## Team Exercise: Evaluation Session (60 minutes)
+
+1. **(10 min)** List 5 docs your team references most frequently
+2. **(15 min)** Create test workspaces in 2-3 candidate tools (Notion, Confluence, Docusaurus)
+3. **(20 min)** Migrate one sample document to each tool. Compare:
+   - Ease of editing
+   - Appearance (how does the doc look?)
+   - Search (can you find content?)
+   - Sharing (is permission model intuitive?)
+4. **(10 min)** Vote: Which tool felt most natural?
+5. **(5 min)** Decide: Is the winner worth migrating? If yes, start migration plan.
 
 ## Frequently Asked Questions
 

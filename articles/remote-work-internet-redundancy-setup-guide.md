@@ -10,34 +10,14 @@ tags: [remote-work-tools, remote-work]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 A single ISP connection is a single point of failure. For engineers on customer calls, async video reviews, or live deployments, a dropped connection at the wrong moment costs trust and time. This guide covers a practical dual-ISP failover setup for home offices that achieves automatic failover in under 30 seconds.
 
-<<<<<<< Updated upstream
 ## The Core Setup
-=======
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Carrier Coverage Comparison for Backup Internet](#carrier-coverage-comparison-for-backup-internet)
-- [Troubleshooting](#troubleshooting)
-- [Related Reading](#related-reading)
-
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: The Core Setup
->>>>>>> Stashed changes
 
 The goal is two independent internet connections that switch automatically when the primary fails:
 

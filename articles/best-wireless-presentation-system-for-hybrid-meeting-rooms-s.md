@@ -11,7 +11,8 @@ tags: [remote-work-tools, wireless-presentation, byod, hybrid-meetings, meeting-
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 
 {% raw %}

@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, parent, self-care, isolation, mental-heal
 reviewed: true
 score: 7
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}

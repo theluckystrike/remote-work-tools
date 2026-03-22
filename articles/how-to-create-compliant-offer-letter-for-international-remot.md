@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, hr, compliance, international-hiring, leg
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

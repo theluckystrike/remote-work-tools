@@ -508,11 +508,10 @@ Team should:
 
 ## Related Articles
 
-- [How to Create Remote Team Communication Charter Template](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-- [Remote Team SOP Template for Customer Escalation Process](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
-- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
-- [Remote Team Change Management Communication Plan Template](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
 - [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
-
+- [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
+- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
+- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
+- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

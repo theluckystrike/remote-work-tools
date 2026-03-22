@@ -11,7 +11,8 @@ tags: [remote-work-tools, basecamp, remote-work, client-communication, agency-to
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 {% raw %}
 
 

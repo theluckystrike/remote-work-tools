@@ -10,31 +10,14 @@ tags: [remote-work-tools, remote-work]
 reviewed: true
 score: 6
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Grafana dashboards in co-located teams are glanced at on a monitor on the wall. Remote teams need dashboards designed for async consumption: clear annotations, shareable panels, and automated summaries that land in Slack without anyone having to remember to look. This guide covers the setup that makes Grafana useful for distributed teams.
 
-<<<<<<< Updated upstream
 The difference between a useful remote dashboard and a useless one is not the metrics — it is the context. A panel showing "error rate: 0.3%" tells a co-located engineer something because they have been watching it all day. It tells a remote engineer nothing at 9am without a baseline, a threshold, and an indication of whether this is better or worse than yesterday.
-=======
-## Table of Contents
-
-- [Installation with Docker Compose](#installation-with-docker-compose)
-- [Dashboard Provisioning (Dashboard-as-Code)](#dashboard-provisioning-dashboard-as-code)
-- [Team Dashboard Structure](#team-dashboard-structure)
-- [The Async-Friendly Dashboard Panel](#the-async-friendly-dashboard-panel)
-- [Deploy Annotations](#deploy-annotations)
-- [Alerting Configuration for Remote Teams](#alerting-configuration-for-remote-teams)
-- [Slack Digest: Daily Health Report](#slack-digest-daily-health-report)
-- [Shareable Panel Links](#shareable-panel-links)
-- [Dashboard-as-Code with Grafonnet](#dashboard-as-code-with-grafonnet)
-- [Grafana vs. Alternatives for Remote Teams](#grafana-vs-alternatives-for-remote-teams)
-- [Related Reading](#related-reading)
-
-The difference between a useful remote dashboard and an useless one is not the metrics — it is the context. A panel showing "error rate: 0.3%" tells a co-located engineer something because they have been watching it all day. It tells a remote engineer nothing at 9am without a baseline, a threshold, and an indication of whether this is better or worse than yesterday.
->>>>>>> Stashed changes
 
 ## Installation with Docker Compose
 
@@ -411,6 +394,14 @@ For most remote engineering teams self-hosting on Hetzner, DigitalOcean, or simi
 - [Remote Engineering Team Infrastructure Cost Per Deploy Tracking](/remote-engineering-team-infrastructure-cost-per-deploy-track/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 ---
+
+## Related Articles
+
+- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
+- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/remote-work-tools/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

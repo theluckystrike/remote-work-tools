@@ -11,7 +11,8 @@ tags: [remote-work-tools, usb-switch, kvm, keyboard-mouse, productivity, hardwar
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
