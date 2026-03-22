@@ -188,6 +188,62 @@ The most powerful boundary tool is documentation. When expectations are written 
 3. **Decision logs:** Record why certain calls were made to avoid repeated discussions
 4. **Meeting notes:** Share and archive all call notes in an accessible location
 
+## Negotiating Boundaries in Your Contract
+
+The best time to establish communication boundaries is before work begins—specifically, in your contract or statement of work. Once you start delivering results, agencies and clients expect the same level of responsiveness indefinitely. Getting it in writing early prevents renegotiation later.
+
+Include a communication clause that specifies:
+
+```markdown
+## Communication Terms (Section 8)
+
+**Working Hours:** Contractor is available Monday through Thursday,
+9:00 AM – 4:00 PM [Timezone]. Outside these hours, responses are
+not guaranteed.
+
+**Response SLA:** Contractor will respond to messages within
+4 business hours during working hours.
+
+**Emergency Protocol:** Issues causing production outages may be
+escalated via phone at [number]. Emergency response is billed at
+1.5x the standard hourly rate with a 2-hour minimum.
+
+**Out-of-Scope Requests:** Communication about work outside the
+agreed project scope will be redirected to a change order process
+before action is taken.
+```
+
+Agencies that balk at this language are often the same agencies that will expect Sunday night turnarounds. Clear terms protect both parties and establish professionalism from day one.
+
+## Managing Scope Creep Through Communication Logs
+
+Scope creep most commonly enters projects through informal communication—a quick Slack message, a casual request during a call, an email CC. Without a system to capture and evaluate these requests, you end up doing work you were never paid for.
+
+Build a simple scope request workflow:
+
+```markdown
+## Scope Change Log Template
+
+| Date | Requested by | Request description | Status | Decision |
+|------|-------------|---------------------|--------|----------|
+| 2026-03-10 | Client PM | Add export to CSV | Pending | Awaiting change order |
+| 2026-03-12 | Agency lead | Update color scheme | Approved | In SOW v2 |
+| 2026-03-14 | Client CEO | Integrate with Salesforce | Declined | Out of scope |
+```
+
+When a request arrives through any channel, log it and respond with a standard message:
+
+```markdown
+Thanks for flagging this. I've logged it as a potential scope addition.
+If this is in scope, I'll include it in the current sprint.
+If it's outside our current agreement, I'll send a change order for
+[Agency Contact]'s review before proceeding.
+
+I'll have a determination for you by [specific date].
+```
+
+This response buys time to evaluate the request properly while signaling that you have a process rather than acting ad hoc.
+
 ## Building Sustainable Communication Habits
 
 Effective boundaries aren't rigid—they're adaptive. Review your communication patterns monthly:
