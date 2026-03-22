@@ -247,6 +247,118 @@ require("luasnip.loaders.from_vscode").lazy_load({
 
 ---
 
+## Treesitter for Consistent Syntax Highlighting
+
+Mason installs LSP servers but does not manage Treesitter grammars. Lock those separately so everyone gets the same highlighting behavior:
+
+```lua
+-- lua/plugins/treesitter.lua
+return {
+  {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+    config = function()
+      require("nvim-treesitter.configs").setup({
+        ensure_installed = {
+          "lua", "python", "typescript", "javascript",
+          "go", "rust", "bash", "yaml", "json", "markdown",
+          "dockerfile", "terraform", "sql",
+        },
+        sync_install = false,
+        highlight = { enable = true },
+        indent = { enable = true },
+        incremental_selection = {
+          enable = true,
+          keymaps = {
+            init_selection = "<C-space>",
+            node_incremental = "<C-space>",
+            scope_incremental = false,
+            node_decremental = "<bs>",
+          },
+        },
+      })
+    end,
+  },
+  -- Text objects based on syntax tree
+  {
+    "nvim-treesitter/nvim-treesitter-textobjects",
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
+  },
+}
+```
+
+Pin Treesitter grammar versions in `lazy-lock.json` the same way you pin other plugins. If a grammar update breaks a language, the whole team sees the regression at the same time — not scattered across individual `TSUpdate` runs.
+
+CI check to ensure the lock file stays consistent:
+
+```yaml
+# .github/workflows/check-lockfile.yml
+name: Check Neovim config consistency
+
+on:
+  pull_request:
+    paths:
+      - "lazy-lock.json"
+      - "lua/**"
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Neovim
+        run: |
+          curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
+          tar -xf nvim-linux-x86_64.tar.gz
+          echo "$PWD/nvim-linux-x86_64/bin" >> $GITHUB_PATH
+      - name: Restore plugins from lock file
+        run: |
+          mkdir -p ~/.config
+          cp -r . ~/.config/nvim
+          nvim --headless "+Lazy! restore" +qa
+          echo "Plugin restore successful"
+```
+
+## Handling Multiple Language-Specific Configs
+
+Teams working across many languages often need per-project LSP overrides without committing workspace paths to the shared repo. Use a project-local `.nvim.lua` (Neovim 0.9+):
+
+```lua
+-- .nvim.lua (committed per project repo, not in nvim-config repo)
+-- Automatically loaded when nvim opens from this directory
+
+-- Override Python interpreter for this virtualenv
+require("lspconfig").pyright.setup({
+  settings = {
+    python = {
+      pythonPath = vim.fn.getcwd() .. "/.venv/bin/python",
+      analysis = {
+        typeCheckingMode = "strict",
+        autoImportCompletions = true,
+      }
+    }
+  }
+})
+
+-- Project-specific formatter: use black instead of ruff
+vim.api.nvim_create_autocmd("BufWritePre", {
+  pattern = "*.py",
+  callback = function()
+    vim.lsp.buf.format({ name = "null-ls", async = false })
+  end,
+})
+```
+
+Enable project-local configs in the shared `init.lua`:
+
+```lua
+-- init.lua — add this to enable .nvim.lua project configs
+vim.o.exrc = true   -- load .nvim.lua from current directory
+vim.o.secure = true -- only load if file is trusted
+```
+
+The first time Neovim opens a directory with `.nvim.lua`, it asks the developer to trust the file. This prevents malicious configs from running automatically in cloned repos.
+
 ## Related Reading
 
 - [Remote Team tmux Config Sharing Guide](/remote-work-tools/remote-team-tmux-config-sharing/)

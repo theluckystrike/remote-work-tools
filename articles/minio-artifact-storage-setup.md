@@ -228,6 +228,105 @@ Key alerts: `minio_cluster_capacity_usable_free_bytes < 10GB`, `minio_s3_request
 
 ---
 
+## Storing Terraform State in MinIO
+
+MinIO works as a Terraform remote state backend using the S3-compatible protocol. This centralizes state for distributed teams without paying AWS S3 fees.
+
+Create a dedicated bucket and lock it down:
+
+```bash
+mc mb artifacts/terraform-state
+mc anonymous set none artifacts/terraform-state
+
+# Create a terraform-specific user
+cat > tf-policy.json << 'EOF'
+{
+  "Version": "2012-10-17",
+  "Statement": [{
+    "Effect": "Allow",
+    "Action": ["s3:GetObject","s3:PutObject","s3:DeleteObject","s3:ListBucket"],
+    "Resource": ["arn:aws:s3:::terraform-state","arn:aws:s3:::terraform-state/*"]
+  }]
+}
+EOF
+mc admin policy create artifacts terraform-state tf-policy.json
+mc admin user add artifacts terraform "$(openssl rand -base64 24)"
+mc admin policy attach artifacts terraform-state --user terraform
+mc admin user svcacct add artifacts terraform
+# Save the generated access key and secret key
+```
+
+Configure Terraform to use MinIO as the S3 backend:
+
+```hcl
+# backend.tf
+terraform {
+  backend "s3" {
+    bucket                      = "terraform-state"
+    key                         = "prod/vpc/terraform.tfstate"
+    region                      = "us-east-1"
+    endpoint                    = "https://minio.internal:9000"
+    access_key                  = "your-access-key"
+    secret_key                  = "your-secret-key"
+    skip_credentials_validation = true
+    skip_metadata_api_check     = true
+    skip_region_validation      = true
+    force_path_style            = true
+  }
+}
+```
+
+State locking requires a DynamoDB-compatible service. MinIO does not provide this natively — use a PostgreSQL backend for locking, or use Terrakube/Atlantis which manages locking at the application layer.
+
+For teams using Terragrunt, set the backend values in a root `terragrunt.hcl`:
+
+```hcl
+remote_state {
+  backend = "s3"
+  config = {
+    bucket           = "terraform-state"
+    key              = "${path_relative_to_include()}/terraform.tfstate"
+    region           = "us-east-1"
+    endpoint         = get_env("MINIO_ENDPOINT", "https://minio.internal:9000")
+    access_key       = get_env("MINIO_ACCESS_KEY")
+    secret_key       = get_env("MINIO_SECRET_KEY")
+    force_path_style = true
+    skip_credentials_validation = true
+  }
+}
+```
+
+## Replication for Multi-Region Teams
+
+If your team spans multiple offices or regions, MinIO's site replication keeps artifact buckets synchronized so developers pull artifacts from a local node rather than a distant primary.
+
+```bash
+# Set up site replication between two MinIO instances
+# Both instances must have the same admin credentials
+mc admin replicate add \
+  artifacts http://minio-us.internal:9000 \
+  http://minio-eu.internal:9000
+
+# Verify replication status
+mc admin replicate status artifacts
+
+# Watch replication lag
+mc admin replicate resync status artifacts http://minio-eu.internal:9000
+```
+
+Site replication synchronizes IAM policies, users, groups, and bucket contents. Buckets are bi-directional: a CI job in the US region pushes a build artifact; the EU developer's restore script pulls the same artifact from their local node with low latency.
+
+For unidirectional replication (primary → secondary, read-only mirror), use bucket-level replication instead:
+
+```bash
+mc replicate add \
+  artifacts/ci-build-outputs \
+  --remote-bucket artifacts-mirror/ci-build-outputs \
+  --remote-url http://minio-eu.internal:9000 \
+  --access-key mirror-key --secret-key mirror-secret \
+  --priority 1
+```
+
 ## Related Reading
 
 - [How to Set Up Thanos for Prometheus HA](/remote-work-tools/thanos-prometheus-ha-setup/)
