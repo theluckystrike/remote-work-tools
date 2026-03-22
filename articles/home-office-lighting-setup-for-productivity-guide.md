@@ -3,7 +3,7 @@ layout: default
 title: "Home Office Lighting Setup for Productivity"
 description: "Optimize your home office lighting for maximum productivity. Learn about color temperature, brightness levels, smart automation, and practical"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /home-office-lighting-setup-for-productivity-guide/
 reviewed: true
@@ -15,7 +15,6 @@ tags: [remote-work-tools, productivity]
 ---
 
 {% raw %}
-# Home Office Lighting Setup for Productivity: A Developer's Guide
 
 A productive home office lighting setup uses three layers: ambient room illumination, a monitor-mounted light bar (300-500 lumens) for task lighting, and accent lighting behind your screen to reduce contrast strain. Set color temperature between 4000K-5500K during the day and shift to 2700K-3000K after sunset to support your circadian rhythm. This guide covers color temperature schedules, brightness guidelines by room type, three-point video call lighting, and smart automation integrations for developers.
 
@@ -208,7 +207,6 @@ Start simple: one quality task light with adjustable color temperature. Add smar
 The best lighting setup is one you'll actually use consistently. Incremental improvements beat elaborate systems that become complicated to maintain.
 
 ---
-
 
 
 ## Frequently Asked Questions

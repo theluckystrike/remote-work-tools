@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Async Standup Templates in Slack"
 description: "Slack Workflow Builder provides a powerful no-code solution for automating asynchronous standups. Rather than relying on live meetings or manual Slack"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-async-standup-templates-in-slack-with-workflow-builder/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Create Async Standup Templates in Slack With Workflow Builder
 
 Slack Workflow Builder provides a powerful no-code solution for automating asynchronous standups. Rather than relying on live meetings or manual Slack messages, you can create structured prompts that fire on schedules you define, collect responses in a consistent format, and aggregate results for team visibility.
 
@@ -346,7 +345,6 @@ Archive standup responses in Notion for historical reference and team knowledge:
 # → Creates database entry with timestamp + responses
 # → Automatically tagged by team member
 ```
-
 
 
 ## Frequently Asked Questions

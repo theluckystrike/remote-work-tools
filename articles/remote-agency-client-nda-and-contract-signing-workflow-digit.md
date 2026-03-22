@@ -3,7 +3,7 @@ layout: default
 title: "Remote Agency Client NDA and Contract Signing Workflow"
 description: "When you run a remote agency, getting contracts signed between you and your clients often turns into a multi-day email thread that kills momentum before work"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-agency-client-nda-and-contract-signing-workflow-digit/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Agency Client NDA and Contract Signing Workflow Digital
 
 When you run a remote agency, getting contracts signed between you and your clients often turns into a multi-day email thread that kills momentum before work even starts. A digital NDA and contract signing workflow removes the friction by automating document delivery, tracking signatures, and storing executed agreements in your project management system. This guide shows you how to build a practical workflow using available APIs and tools, tailored for developers and power users who want something more than attaching PDFs to emails.
 
@@ -243,7 +242,6 @@ def store_signed_contract(contract_id, pdf_content, client_name):
 ```
 
 Configure lifecycle policies to move older contracts to cheaper storage tiers, but retain them for the duration required by your jurisdiction's statute of limitations.
-
 
 
 ## Frequently Asked Questions

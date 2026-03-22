@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Invoicing and Client Payment Portal for Remote Agencies
 
 Remote agencies face unique challenges when managing client payments. You deal with international clients across different time zones, multiple currencies, and varying payment preferences. The right invoicing and payment portal improves these operations, reduces administrative overhead, and provides a professional experience that keeps clients coming back.
 
@@ -247,7 +246,6 @@ Select your invoicing platform based on your agency's specific needs:
 Consider starting with one tool and expanding as your agency grows. Most platforms offer free trials ranging from 14 to 30 days—take advantage of these to validate the workflow matches your actual operations before committing.
 
 ---
-
 
 
 ## Frequently Asked Questions

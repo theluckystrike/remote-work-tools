@@ -3,7 +3,7 @@ layout: default
 title: "OKR Tracking for a Remote Product Team of 12 People"
 description: "A practical guide to implementing and tracking OKRs for a distributed product team of 12. Includes tooling suggestions, automation examples, and real"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /okr-tracking-for-a-remote-product-team-of-12-people/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# OKR Tracking for a Remote Product Team of 12 People
 
 Managing Objectives and Key Results (OKRs) across a distributed team of 12 people requires deliberate structure. Unlike co-located teams that can rely on hallway conversations and visual dashboards, remote product teams need explicit processes and tooling to keep everyone aligned. This guide covers practical approaches to tracking OKRs that actually work for mid-sized remote product teams.
 
@@ -345,7 +344,6 @@ End your quarter with a structured meeting (90 minutes for a 12-person team):
 5. Closing reflection (10 min) — Discuss what changes for next quarter
 
 This meeting closes the loop on the quarter and creates psychological closure. Without this, OKRs can feel like they just roll forward forever without reflection.
-
 
 
 ## Frequently Asked Questions

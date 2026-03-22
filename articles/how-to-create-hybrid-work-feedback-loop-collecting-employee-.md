@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Hybrid Work Feedback Loop Collecting Employee"
 description: "A practical guide to building feedback systems that collect employee input on hybrid work policy changes. Includes code examples and implementation"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Create Hybrid Work Feedback Loop Collecting Employee Input on Policy Changes
 
 Hybrid work models require continuous adjustment. Policies that work for a fully remote team often fail when some employees return to the office. The only way to find the right balance is by systematically collecting employee input and acting on it. A well-designed feedback loop transforms policy decisions from top-down mandates into collaborative evolution.
 

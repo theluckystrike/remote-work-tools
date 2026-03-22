@@ -3,7 +3,7 @@ layout: default
 title: "How to Manage Multi-Repo Projects with Remote Team"
 description: "Start by assigning clear CODEOWNERS per repository, set up a centralized dependency manifest so teams know what breaks when a shared library changes, and"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-multi-repo-projects-with-remote-team/
 reviewed: true
@@ -16,7 +16,6 @@ tags: [remote-work-tools, remote-work]
 
 
 {% raw %}
-# How to Manage Multi-Repo Projects with Remote Team
 
 Start by assigning clear CODEOWNERS per repository, set up a centralized dependency manifest so teams know what breaks when a shared library changes, and automate cross-repo CI checks using GitHub Actions to validate downstream consumers on every pull request. These three steps eliminate the most common multi-repo coordination failures for remote teams. This guide covers each pattern with code examples, plus release calendar coordination, contract testing, and communication strategies that keep distributed teams synchronized across repositories.
 
@@ -225,7 +224,6 @@ Contract tests catch breaking changes before they reach production. Run these te
 ## Practical Takeaways
 
 Start with clear ownership, automate dependency management, and maintain transparent communication about changes that affect multiple repositories. Pick the workflow that fits your team's size and distribution, document it, and revisit it periodically as your project evolves.
-
 
 
 ## Frequently Asked Questions

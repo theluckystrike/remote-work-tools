@@ -3,7 +3,7 @@ layout: default
 title: "How to Do Async Performance Reviews for Remote Engineering"
 description: "A practical guide to running effective async performance reviews for distributed engineering teams. Learn frameworks, templates, and tools for remote"
 date: 2026-03-17
-last_modified_at: 2026-03-17
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-do-async-performance-reviews-for-remote-engineering-teams/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Do Async Performance Reviews for Remote Engineering Teams
 
 Performance reviews are one of the most challenging processes to run remotely. The traditional approach of gathering everyone in a room or scheduling a series of video calls doesn't scale well for distributed teams. Yet skipping performance reviews means losing critical opportunities for employee growth and team alignment.
 
@@ -213,7 +212,6 @@ Track these signals to evaluate your async review process:
 - Goal achievement (do employees complete their stated goals?)
 - Engagement (do people find the process valuable?)
 - Retention (are high performers staying after reviews?)
-
 
 
 ## Frequently Asked Questions

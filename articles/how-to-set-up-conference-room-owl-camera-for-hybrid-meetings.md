@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Conference Room Owl Camera for Hybrid"
 description: "A technical guide for developers and power users on configuring Owl Labs Meeting Owl cameras for hybrid meetings. Covers network setup, API"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "theluckystrike"
 permalink: /how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/
 categories: [guides]
@@ -18,7 +18,6 @@ voice-checked: true
 
 Set up a Meeting Owl camera for hybrid meetings by positioning it at table center, configuring wired network connectivity with proper firewall rules, optimizing audio settings with noise suppression and echo cancellation, and ensuring adequate lighting and bandwidth (5+ Mbps). Following this configuration process with firmware updates and Ansible automation enables reliable hybrid meeting experiences for distributed teams.
 
-# How to Set Up Conference Room Owl Camera for Hybrid Meetings Quality Guide
 
 The Meeting Owl from Owl Labs has become a popular choice for hybrid meeting spaces, combining a 360-degree camera with intelligent speaker tracking. This guide walks through the technical setup process, network configuration, and optimization strategies for achieving reliable video quality in conference room environments.
 
@@ -209,7 +208,6 @@ For IT teams managing multiple rooms, here's an example Ansible playbook for Owl
 ```
 
 This approach enables consistent configuration across all conference rooms and simplifies long-term maintenance.
-
 
 
 ## Frequently Asked Questions

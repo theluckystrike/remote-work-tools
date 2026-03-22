@@ -3,7 +3,7 @@ layout: default
 title: "Certificate Based Authentication Setup for Remote Team VPN"
 description: "A practical guide to implementing certificate based authentication for remote team VPN connections. Includes OpenVPN, WireGuard configurations and PKI"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /certificate-based-authentication-setup-for-remote-team-vpn-c/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Certificate Based Authentication Setup for Remote Team VPN Connections 2026 Guide
 
 Implement certificate-based VPN authentication using a two-tier PKI hierarchy: offline root CA issuing intermediate CAs that sign user certificates. Configure WireGuard or OpenVPN with client certificate validation for password-free VPN access. This guide shows you how to automate certificate distribution, set expiration policies for automatic revocation, and implement secure hardware key storage for production environments.
 
@@ -253,7 +252,6 @@ Implement certificate pinning on mobile devices. Both iOS and Android support ce
 Rotate keys regularly but automate the process to avoid service disruptions. Consider using short-lived certificates (30-90 days) for clients with automated renewal.
 
 Document your PKI structure and revocation procedures. When security incidents occur, clear documentation enables rapid response.
-
 
 
 ## Frequently Asked Questions

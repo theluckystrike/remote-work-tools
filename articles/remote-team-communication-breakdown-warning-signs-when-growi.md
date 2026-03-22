@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Communication Breakdown"
 description: "Learn to identify the critical warning signs of communication breakdown in remote teams as they scale beyond 15 people. Includes practical detection"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-communication-breakdown-warning-signs-when-growi/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Communication Breakdown: Warning Signs When Growing Past 15 People
 
 Remote teams often hit a communication wall around the 15-person mark. Before this threshold, informal chats and ad-hoc synchronization work reasonably well. Beyond it, the same approaches that once functioned smoothly start creating friction, misunderstandings, and lost context. Recognizing the warning signs early prevents productivity loss and team burnout.
 
@@ -332,7 +331,6 @@ Track progress:
 The goal isn't eliminating all communication friction. Some is natural at scale. The goal is preventing friction from becoming dysfunction—where people stop collaborating because the overhead is too high.
 
 ---
-
 
 
 ## Frequently Asked Questions

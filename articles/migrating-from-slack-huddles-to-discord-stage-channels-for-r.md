@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Migrating from Slack Huddles to Discord Stage Channels for Remote Team Talks
 
 Remote teams constantly evaluate their communication tools to balance synchronous collaboration with asynchronous workflows. Slack huddles have served many teams well, but Discord stage channels offer a compelling alternative for teams that need more structured audio discussions, better audience management, and superior audio quality. This guide covers the technical aspects of migrating your remote team's audio communication from Slack huddles to Discord stage channels.
 

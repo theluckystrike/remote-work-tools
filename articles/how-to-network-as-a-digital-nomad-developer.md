@@ -3,7 +3,7 @@ layout: default
 title: "How to Network as a Digital Nomad Developer"
 description: "Learn practical strategies for networking as a digital nomad developer. Discover communities, events, tools, and code-based approaches to build"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-network-as-a-digital-nomad-developer/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Network as a Digital Nomad Developer
 
 Building a professional network while traveling the world presents unique challenges. Without a fixed office or local tech scene, digital nomad developers must be intentional about creating and maintaining connections. This guide covers practical strategies, tools, and communities that help you build meaningful professional relationships from anywhere.
 
@@ -225,7 +224,6 @@ curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp
 ```
 
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.
-
 
 
 ## Frequently Asked Questions

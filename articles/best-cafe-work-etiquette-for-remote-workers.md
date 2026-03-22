@@ -14,7 +14,6 @@ tags: [remote-work-tools, best-of, remote-work]
 ---
 
 {% raw %}
-# Best Cafe Work Etiquette for Remote Workers: A Developer's Guide
 
 Order a drink every 60-90 minutes, keep your footprint to one seat, and use noise-canceling headphones for all audio -- these three rules form the foundation of good cafe work etiquette for remote workers. Follow them consistently and you stay welcome; ignore them and cafes start posting "no laptops" signs. This guide covers the full playbook for technical setup, communication etiquette, and building long-term relationships with cafe staff.
 
@@ -202,7 +201,6 @@ Relocate to a quieter corner or outdoor seating, or put on noise-canceling headp
 ### When Asked to Move or Order More
 
 Stay positive. Say "Absolutely, let me order more" or "No problem, I'll find another spot." Your response affects how cafes view all remote workers.
-
 
 
 ## Frequently Asked Questions

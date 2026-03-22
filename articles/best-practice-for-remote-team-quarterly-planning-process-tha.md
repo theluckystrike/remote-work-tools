@@ -14,7 +14,6 @@ intent-checked: true
 ---
 
 {% raw %}
-# Best Practice for Remote Team Quarterly Planning Process That Scales Across Multiple Teams Guide
 
 Quarterly planning for a single remote team is challenging. Quarterly planning across five, ten, or twenty distributed teams becomes a coordination nightmare without the right systems in place. Most organizations approach this the same way they did when everyone sat in an office—scheduling marathon sync meetings, creating massive shared spreadsheets, and hoping alignment happens by sheer force of will. It rarely does.
 
@@ -484,7 +483,6 @@ Next steps: Address questions, resubmit by [date]
 This feedback loop prevents unrealistic plans from being approved.
 
 ---
-
 
 
 ## Frequently Asked Questions

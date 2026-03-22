@@ -3,7 +3,7 @@ layout: default
 title: "Open Source Contributions for Freelancer Credibility"
 description: "Learn how strategic open source contributions build freelancer credibility. Practical strategies, GitHub workflows, and code examples for developers"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /open-source-contributions-for-freelancer-credibility/
 categories: [guides]
@@ -15,7 +15,6 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-# Open Source Contributions for Freelancer Credibility: A Developer Guide
 
 When potential clients evaluate freelancers, they face a fundamental problem: how to verify technical competence from a portfolio of potentially inflated claims. Open source contributions solve this problem by providing verifiable evidence of your skills. Unlike testimonials or portfolio pieces that exist behind NDA walls, your contributions to public repositories are inspectable, runnable, and judgeable by anyone with technical knowledge.
 
@@ -331,7 +330,6 @@ Open source contributions provide something rare in freelance work: verifiable, 
 - [ ] Update portfolio page with contribution
 - [ ] Schedule contribution time weekly (3-5 hours)
 - [ ] Set 12-month goal for meaningful contributions
-
 
 
 ## Frequently Asked Questions

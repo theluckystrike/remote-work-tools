@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Async Standup Format for a Remote Mobile Dev Team of 9
 
 Coordinating daily standups across nine mobile developers working in different time zones creates unnecessary friction. Most teams default to synchronous meetings because that's what they've always done, but an async standup format for a remote mobile dev team of 9 can actually improve communication quality while respecting everyone's time and timezone differences.
 
@@ -333,7 +332,6 @@ To bring this all together, here's what a typical week looks like:
 This rhythm ensures daily visibility without requiring synchronous meetings.
 
 ---
-
 
 
 ## Frequently Asked Questions

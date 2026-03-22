@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Hybrid Office Wayfinding System for Employees"
 description: "A technical guide to building a wayfinding system for hybrid offices that helps infrequent visitors navigate your workplace. Includes code examples"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Set Up Hybrid Office Wayfinding System for Employees Visiting Infrequently
 
 Hybrid work has created a new challenge for workplace management: employees visit the office infrequently, often just once or twice a month, and struggle to find meeting rooms, desks, amenities, or colleague locations. Traditional printed floor signs won't solve this. You need a digital wayfinding system that works for developers and power users who expect intuitive, app-based navigation. This guide covers the technical implementation—from indoor positioning to integration with workplace systems—using practical code examples you can adapt for your organization.
 

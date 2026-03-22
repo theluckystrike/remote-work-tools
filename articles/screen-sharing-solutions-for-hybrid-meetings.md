@@ -3,7 +3,7 @@ layout: default
 title: "Screen Sharing Solutions for Hybrid Meetings"
 description: "Building effective screen sharing into your meeting platform requires understanding the technical tradeoffs between different approaches. Whether you're"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /screen-sharing-solutions-for-hybrid-meetings/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Screen Sharing Solutions for Hybrid Meetings
 
 Building effective screen sharing into your meeting platform requires understanding the technical tradeoffs between different approaches. Whether you're integrating with an existing video conferencing service or building custom functionality, this guide covers the practical implementation details developers need to know.
 
@@ -239,7 +238,6 @@ For most developer teams, integrating an established service like Daily.co or Li
 The key factors in your decision are: team size (affects SFU requirements), latency sensitivity (real-time collaboration needs WebRTC), custom processing needs (recording, transcription, content moderation), and browser compatibility requirements.
 
 Start with browser-based capture for the simplest implementation, migrate to WebRTC-based solutions when you need better latency, and consider third-party APIs when building meeting platforms. Each approach has a place depending on your specific requirements and engineering resources.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Best Webcam for Remote Work Under 100 Dollars 2026"
 description: "Compare the best webcams under $100 for remote work video calls. Reviews Logitech C920, C922, Brio, Anker PowerConf C200, and Elgato Facecam"
 date: 2026-03-20
-last_modified_at: 2026-03-20
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /best-webcam-for-remote-work-under-100-dollars-2026/
 categories: [guides]
@@ -16,7 +16,6 @@ intent-checked: true
 
 {% raw %}
 
-# Best Webcam for Remote Work Under 100 Dollars 2026
 
 Built-in laptop cameras are blurry, have narrow angles, and perform poorly in low light. External webcams transform your video presence in meetings. This guide compares specific models under $100, covering resolution, low-light performance, autofocus speed, audio quality, field of view, and real-world video call performance across Zoom, Teams, and Google Meet.
 
@@ -362,7 +361,6 @@ Cables and mounting:
 Check prices weekly; webcams frequently sale between $40-60 (C920/C922).
 
 ---
-
 
 
 ## Frequently Asked Questions

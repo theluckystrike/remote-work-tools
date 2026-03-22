@@ -3,7 +3,7 @@ layout: default
 title: "Cheapest Video Call Tool for Weekly 50 Person All Hands"
 description: "Find the most cost-effective video call tool for weekly 50-person all-hands meetings. Compare pricing, features, and integration options for developer"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Cheapest Video Call Tool for Weekly 50 Person All Hands Meeting
 
 Running weekly all-hands meetings with 50 attendees quickly adds up in cost. If you're paying per-user for a tool that doesn't scale, you're burning budget on meetings that could be handled more efficiently. This guide evaluates the most affordable video call tools for regular 50-person all-hands meetings, with practical considerations for developer teams and power users who need automation, recording, and integration support.
 
@@ -309,7 +308,6 @@ Options:
 **Hybrid on-prem/remote:** Combine Google Meet for internal all-hands (cheaper, simpler) with Zoom for client calls (better quality perception). Total cost: ~$15/user/month.
 
 The final decision should factor in not just per-user cost but also your team's existing tool stack, integration needs, timezone distribution, and whether video quality perception affects your business.
-
 
 
 ## Frequently Asked Questions

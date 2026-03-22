@@ -3,7 +3,7 @@ layout: default
 title: "How to Give Constructive Feedback Remotely Over Text"
 description: "Master the art of delivering constructive feedback in remote text-based communication. Practical frameworks, templates, and techniques for developers"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-give-constructive-feedback-remotely-over-text-without/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Give Constructive Feedback Remotely Over Text Without Sounding Harsh
 
 Delivering feedback through text removes the nuance of tone, facial expressions, and body language. A message meant as helpful guidance can land as a personal attack if the reader interprets it through a negative lens. For developers and technical professionals who often communicate through Slack, GitHub comments, and async documents, mastering text-based feedback is essential for healthy remote collaboration.
 
@@ -329,7 +328,6 @@ Individual feedback matters less than systemic feedback culture. To build this:
  - Normalize the awkwardness
 
 Teams that master feedback compound their velocity because ideas flow freely and corrections happen fast. This is worth investing in.
-
 
 
 ## Frequently Asked Questions

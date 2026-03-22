@@ -3,7 +3,7 @@ layout: default
 title: "How to Schedule Meetings Across 8 Hour Timezone Difference"
 description: "A practical guide for developers and power users managing team meetings across 8-hour timezone differences. Learn async strategies, overlapping hours"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-schedule-meetings-across-8-hour-timezone-difference-w/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Schedule Meetings Across 8 Hour Timezone Difference Without Burning Out Team
 
 With an 8-hour timezone difference, find your 2-4 hour overlap window (typically early morning for the western team and evening for the eastern team) and use that for synchronous meetings, then rotate meeting times weekly to equitably distribute inconvenient times. For non-overlapping communication, establish asynchronous decision-making processes using RFC documents and async standups recorded as Loom videos, so teams in different time windows can participate and make progress without forcing anyone into extreme working hours.
 
@@ -372,7 +371,6 @@ For contractors or remote employees, consider:
 - Additional comp time (1 hour extra PTO per early/late meeting)
 - Flexible scheduling (if you attend 6am meeting, end day 2 hours earlier)
 - Async-first culture (minimize forced sync meetings regardless of timezone)
-
 
 
 ## Frequently Asked Questions

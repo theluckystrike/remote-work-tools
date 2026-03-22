@@ -3,7 +3,7 @@ layout: default
 title: "Google Meet Tips and Tricks for Productivity in 2026"
 description: "Master Google Meet with advanced tips for developers and power users. Learn keyboard shortcuts, API integrations, automation scripts, and hidden features"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /google-meet-tips-and-tricks-for-productivity/
 reviewed: true
@@ -16,7 +16,6 @@ tags: [remote-work-tools, productivity]
 
 
 {% raw %}
-# Google Meet Tips and Tricks for Productivity in 2026
 
 The fastest Google Meet productivity wins are keyboard shortcuts (Ctrl+D to mute, Ctrl+E for camera) and Google Apps Script automations that handle attendance tracking and recording organization for you. Beyond those essentials, this guide covers Calendar API integrations, custom Chrome extensions, noise cancellation tuning, and presentation optimization techniques for developers who spend significant time in meetings.
 
@@ -259,7 +258,6 @@ Video fatigue is real. Google Meet has several settings that reduce cognitive lo
 **Enable captions by default.** Live captions (press N) reduce cognitive load by letting participants read rather than listen exclusively, which helps in noisy environments and for participants whose first language differs from the meeting language. Transcripts are available post-meeting for Workspace Business and Enterprise plans.
 
 **Lower your video quality intentionally.** Under the three-dot menu, Meet lets you set video to "standard definition." For audio-heavy discussions — standups, retrospectives, status updates — dropping to SD reduces bandwidth consumption and CPU usage, which matters on older machines running multiple containers or builds in parallel.
-
 
 
 ## Frequently Asked Questions

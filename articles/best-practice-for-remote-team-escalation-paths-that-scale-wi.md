@@ -14,7 +14,6 @@ intent-checked: true
 ---
 
 {% raw %}
-# Best Practice for Remote Team Escalation Paths That Scale With Organizational Complexity
 
 Escalation paths in remote teams function differently than in co-located organizations. When your team spans multiple time zones, the informal hallway conversation that resolves a blocker in an office simply does not exist. Someone facing a technical blocker at 2 AM UTC needs a clear, documented path to get help—not a vague sense of who might be available.
 
@@ -219,7 +218,6 @@ Escalation should feel like using a safety net, not admitting failure. Frame esc
 When designing your escalation paths, involve the people who will use them. The best escalation framework is one that actually matches how your team naturally works—and grows with them.
 
 ---
-
 
 
 ## Frequently Asked Questions

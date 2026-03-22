@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days
 
 Remote onboarding requires intentional measurement. Unlike office environments where managers observe new hires daily, distributed teams must rely on structured check-ins to understand how newcomers are adjusting. A well-designed 30-60-90 day survey framework captures qualitative and quantitative data that drives meaningful improvements to your onboarding process.
 
@@ -196,7 +195,6 @@ Survey data without action creates cynicism. Close the loop by:
 3. **Following up individually** on concerning responses
 
 One of our engineering teams reduced time-to-productivity by 40% after discovering that new hires spent two weeks waiting for repository access. The 30-day survey surfaced this systematically—previously, individual complaints were dismissed as normal adjustment.
-
 
 
 ## Frequently Asked Questions

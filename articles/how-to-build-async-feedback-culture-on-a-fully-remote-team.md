@@ -3,7 +3,7 @@ layout: default
 title: "How to Build Async Feedback Culture on a Fully Remote Team"
 description: "A practical guide to establishing async feedback culture in fully remote teams. Learn frameworks, tools, and code examples for giving and receiving"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-build-async-feedback-culture-on-a-fully-remote-team/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Build Async Feedback Culture on a Fully Remote Team
 
 Feedback is the engine of growth in any team. In fully remote environments, the absence of casual hallway conversations and spontaneous desk visits means you must be intentional about how feedback flows. Building an async-first feedback culture requires establishing clear frameworks, appropriate tools, and norms that make giving and receiving feedback as natural as writing code.
 

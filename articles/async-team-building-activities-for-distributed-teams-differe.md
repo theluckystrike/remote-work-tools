@@ -15,7 +15,6 @@ voice-checked: true
 
 
 {% raw %}
-# Async Team Building Activities for Distributed Teams Across Different Time Zones
 
 Async team building activities eliminate scheduling conflicts across time zones while creating more inclusive, thoughtful connections than synchronous events. Async activities let team members participate on their own schedule, reduce performance anxiety, and generate searchable documentation that strengthens team culture. This guide covers seven proven async activities—from collaborative playlists to async games—with implementation patterns you can adapt to your team's size and culture.
 
@@ -213,7 +212,6 @@ Start with one activity and prove it works before adding more:
 The goal isn't to fill every moment with structured interaction. Rather, create touchpoints that help team members see each other as complete humans. Even one or two consistent async activities can meaningfully improve team cohesion across time zones.
 
 ---
-
 
 
 ## Frequently Asked Questions

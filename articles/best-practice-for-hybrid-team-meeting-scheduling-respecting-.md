@@ -3,7 +3,7 @@ layout: default
 title: "Best Practice for Hybrid Team Meeting Scheduling Respecting"
 description: "Learn practical strategies for scheduling hybrid meetings that respect both remote and office-based team members. Includes code examples, tooling"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-practice-for-hybrid-team-meeting-scheduling-respecting-/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Practice for Hybrid Team Meeting Scheduling Respecting Remote and Office Preferences
 
 Hybrid team meeting scheduling requires deliberate design choices that account for timezone differences, location preferences, and communication equity. When your team spans both remote workers and office-based employees, the default approach—scheduling around whoever sits in the physical office—creates systematic disadvantages for remote participants. This guide provides actionable patterns for building meeting systems that work fairly across all work arrangements.
 
@@ -197,7 +196,6 @@ Track whether your hybrid meeting practices actually work:
 4. No-meeting productivity: Can teams ship meaningful work without daily standups?
 
 If you see disparities, iterate on your meeting formats. The goal is equitable outcomes, not performative inclusion.
-
 
 
 ## Frequently Asked Questions

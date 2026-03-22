@@ -3,7 +3,7 @@ layout: default
 title: "Run Effective Remote Client Workshops Using Miro"
 description: "Remote client workshops present unique challenges that in-person sessions never address. You cannot lean over a whiteboard together, cannot point at a sticky"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-run-effective-remote-client-workshops-using-miro-boar/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Run Effective Remote Client Workshops Using Miro Board
 
 Remote client workshops present unique challenges that in-person sessions never address. You cannot lean over a whiteboard together, cannot point at a sticky note without talking over someone, and cannot read the room when everyone is a small video thumbnail. Miro boards solve these problems when you approach them with the right strategy.
 

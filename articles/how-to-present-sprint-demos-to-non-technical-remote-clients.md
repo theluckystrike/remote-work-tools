@@ -3,7 +3,7 @@ layout: default
 title: "How to Present Sprint Demos to Non-Technical Remote Clients"
 description: "Presenting sprint demos to non-technical clients over video calls presents unique challenges. Your audience cannot see the code, doesn't understand technical"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-present-sprint-demos-to-non-technical-remote-clients/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Present Sprint Demos to Non-Technical Remote Clients
 
 Presenting sprint demos to non-technical clients over video calls presents unique challenges. Your audience cannot see the code, doesn't understand technical terminology, and may lose interest quickly if you focus on implementation details. The difference between a successful demo and a confusing one often comes down to preparation and communication style.
 
@@ -293,7 +292,6 @@ Thanks for your feedback on the checkout flow redesign!
 ```
 
 This follow-up keeps clients engaged and ensures alignment on next steps.
-
 
 
 ## Frequently Asked Questions

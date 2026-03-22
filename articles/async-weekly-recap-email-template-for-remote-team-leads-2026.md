@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Async Weekly Recap Email Template for Remote Team Leads 2026
 
 Async weekly recap emails keep distributed teams aligned without synchronous meetings, eliminating information silos across time zones. A well-structured recap documents progress, highlights blockers, and reduces the need for status meetings—saving time for deep work. This guide provides ready-to-use templates, automation scripts for pulling data from Linear/GitHub, and best practices for different team sizes.
 
@@ -261,7 +260,6 @@ Track whether your weekly recaps actually help your team:
 - Can you reference past recaps during planning?
 
 If the answers are yes, your recaps are working. If not, experiment with format, length, or content focus.
-
 
 
 ## Frequently Asked Questions

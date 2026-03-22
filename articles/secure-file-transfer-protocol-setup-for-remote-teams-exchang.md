@@ -3,7 +3,7 @@ layout: default
 title: "Secure File Transfer Protocol Setup for Remote Teams"
 description: "When your remote engineering team needs to exchange large files—database dumps, build artifacts, video assets, or ML model weights—cloud storage services often"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /secure-file-transfer-protocol-setup-for-remote-teams-exchang/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Secure File Transfer Protocol Setup for Remote Teams Exchanging Large Files
 
 When your remote engineering team needs to exchange large files—database dumps, build artifacts, video assets, or ML model weights—cloud storage services often impose frustrating upload limits and per-file restrictions. Setting up a dedicated secure file transfer protocol server gives your team full control over file transfers with enterprise-grade security, and it costs nothing beyond the server infrastructure you already operate.
 
@@ -278,7 +277,6 @@ with pysftp.Connection('sftp.example.com', username='deploy',
     sftp.put('/local/build/app.tar.gz', '/remote/builds/app.tar.gz')
     sftp.get('/remote/logs/transfer.log', '/local/logs/transfer.log')
 ```
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Best Quick Exercise Routine for Remote Parents With Only 15"
 description: "Practical 15-minute exercise routines designed for remote working parents who need to squeeze in movement between meetings. No equipment needed"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-quick-exercise-routine-for-remote-parents-with-only-15-/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Quick Exercise Routine for Remote Parents With Only 15 Minutes Between Meetings
 
 Remote parenting comes with unique challenges. You juggle conference calls, help kids with homework, answer Slack messages, and somewhere in there—your own health gets neglected. Finding time to exercise when you have only 15 minutes between meetings feels impossible, but it does not have to be.
 
@@ -421,7 +420,6 @@ Research shows habit formation takes 66-90 days. Follow this progression:
 - **Expectation**: Movement feels like normal part of day
 
 By day 90, the routine becomes automatic—scheduled movement feels as normal as scheduled meetings.
-
 
 
 ## Frequently Asked Questions

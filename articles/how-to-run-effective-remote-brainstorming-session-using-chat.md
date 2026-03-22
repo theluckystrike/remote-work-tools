@@ -3,7 +3,7 @@ layout: default
 title: "How to Run Effective Remote Brainstorming Session"
 description: "A practical guide for developers and power users on running productive remote brainstorming sessions using text-based chat tools"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-run-effective-remote-brainstorming-session-using-chat/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Run Effective Remote Brainstorming Session Using Chat Instead of Video
 
 Video meetings have become the default for remote collaboration, but they come with significant drawbacks. Camera fatigue, scheduling conflicts across time zones, and the pressure of immediate responses can stifle creativity. Text-based chat brainstorming offers a powerful alternative that actually leads to better ideas and more inclusive participation.
 
@@ -332,7 +331,6 @@ Chat works poorly when:
 For those scenarios, use video calls. But for most feature work, chat brainstorming outperforms traditional meetings.
 
 ---
-
 
 
 ## Frequently Asked Questions

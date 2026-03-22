@@ -3,7 +3,7 @@ layout: default
 title: "Travel Ergonomic Setup for Remote Workers Guide"
 description: "Practical strategies for maintaining ergonomic health while traveling for remote work. Build a portable setup that protects your body across hotels"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /travel-ergonomic-setup-for-remote-workers-guide/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace
 
 Working remotely while traveling presents unique ergonomic challenges. Your home office setup disappears, replaced by questionable hotel desks, cramped airplane seats, and noisy cafes. Without proper planning, a week of travel work can set you back months in terms of back pain, neck strain, and productivity loss.
 
@@ -218,7 +217,6 @@ echo "4. Walk: 10 minutes minimum"
 echo ""
 echo "Tomorrow's productivity starts tonight"
 ```
-
 
 
 ## Frequently Asked Questions

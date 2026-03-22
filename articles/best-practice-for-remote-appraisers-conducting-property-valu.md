@@ -3,7 +3,7 @@ layout: default
 title: "Best Practice for Remote Appraisers Conducting Property"
 description: "A technical guide to virtual property inspection workflows for remote appraisers. Learn about software tools, API integrations, automation patterns"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-practice-for-remote-appraisers-conducting-property-valu/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Practice for Remote Appraisers Conducting Property Valuations Using Virtual Inspection
 
 Remote property appraisal through virtual inspection has transformed how appraisers value residential and commercial properties. This guide covers technical implementations, workflow optimization, and integration patterns for teams building or operating virtual inspection systems.
 
@@ -453,7 +452,6 @@ Date: {inspection['completed_at'][:10]}
 ```
 
 Retain this certification in your appraisal workfile alongside the inspection media. Some lenders require it as an attachment to the appraisal report when desktop or hybrid appraisal products are used.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Best Practice for Hybrid Office Kitchen and Shared Space"
 description: "A practical guide to establishing hybrid office kitchen and shared space etiquette. Includes signage templates, scheduling systems, and automation"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-practice-for-hybrid-office-kitchen-and-shared-space-eti/
 categories: [guides]
@@ -15,7 +15,6 @@ tags: [remote-work-tools, best-of]
 ---
 
 {% raw %}
-# Best Practice for Hybrid Office Kitchen and Shared Space Etiquette: Posted Guidelines
 
 Hybrid offices present unique challenges when managing shared spaces like kitchens, break rooms, and collaborative areas. With some team members working remotely and others in-office on varying schedules, establishing clear etiquette guidelines becomes essential for maintaining a functional workplace. This guide provides practical approaches to creating, implementing, and automating shared space management in hybrid work environments.
 
@@ -230,7 +229,6 @@ When rolling out new shared space guidelines, follow this sequence:
 5. Implement tracking systems: Add booking, occupancy, or monitoring tools
 6. Announce changes: Explain the rationale, not just the rules
 7. Review and iterate: Check effectiveness after 30 days and adjust
-
 
 
 ## Frequently Asked Questions

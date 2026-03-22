@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Interview Scheduling Tool for Coordinating"
 description: "A technical guide to building and implementing interview scheduling tools that handle timezone complexity for distributed hiring teams. Includes code"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-interview-scheduling-tool-for-coordinating-acros/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Interview Scheduling Tool for Coordinating Across Candidates and Interviewers in Many Timezones
 
 Coordinating interviews across candidates and interviewers scattered across multiple time zones presents a distinct challenge for remote hiring teams. A well-designed remote team interview scheduling tool must handle timezone conversion, availability matching, and calendar integration while providing a smooth experience for all participants. This guide covers the technical implementation patterns and practical approaches for building or selecting scheduling tools that work effectively across many timezones.
 
@@ -243,7 +242,6 @@ async function autoScheduleInterview(candidates, interviewers, position) {
   return { status: 'scheduled', event, slot: selectedSlot };
 }
 ```
-
 
 
 ## Frequently Asked Questions

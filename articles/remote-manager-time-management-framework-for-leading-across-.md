@@ -333,17 +333,20 @@
 
 
 
+<<<<<<< HEAD
 
 
 
 
 
 
+=======
+>>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
 layout: default
 title: "Remote Manager Time Management Framework for Leading"
 description: "A practical framework for remote engineering managers leading distributed teams across five or more time zones. Includes scheduling strategies, async"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /remote-manager-time-management-framework-for-leading-across-five-plus-timezones/
 categories: [guides]
@@ -355,6 +358,7 @@ voice-checked: true
 ---
 
 
+<<<<<<< HEAD
 
 
 
@@ -695,8 +699,9 @@ voice-checked: true
 
 
 
+=======
+>>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
 {% raw %}
-# Remote Manager Time Management Framework for Leading Across Five Plus Timezones
 
 Manage time across multiple time zones by blocking calendar time for each zone's working hours, scheduling async check-ins for updates, and reserving synchronous meetings only for high-bandwidth discussions that require real-time interaction. This framework prevents constant early mornings or late nights.
 
@@ -1030,7 +1035,6 @@ If you have concerns, reply in thread by [date+24 hours]
 ```
 
 This structure prevents decisions made in AMER morning from creating confusion when Europe wakes up. Everyone has context upfront.
-
 
 
 ## Frequently Asked Questions

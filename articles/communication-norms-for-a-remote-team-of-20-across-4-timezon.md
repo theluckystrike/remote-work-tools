@@ -3,7 +3,7 @@ layout: default
 title: "Communication Norms for a Remote Team of 20 Across 4"
 description: "A practical guide to establishing communication norms for a 20-person remote team spread across 4 time zones. Includes async-first workflows, tool"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /communication-norms-for-a-remote-team-of-20-across-4-timezon/
 categories: [guides]
@@ -15,7 +15,6 @@ score: 8
 ---
 
 {% raw %}
-# Communication Norms for a Remote Team of 20 Across 4 Timezones
 
 Managing communication for a 20-person remote team across 4 time zones requires deliberate structure. Without clear norms, you create information silos, missed messages, and decision-making bottlenecks. This guide provides actionable frameworks for establishing communication norms that scale across distributed teams.
 
@@ -244,7 +243,6 @@ Survey your team quarterly:
 4. How often do you feel required to be online outside work hours?
 5. What's one change that would improve our team communication?
 ```
-
 
 
 ## Frequently Asked Questions

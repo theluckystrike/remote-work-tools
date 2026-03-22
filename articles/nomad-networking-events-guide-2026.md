@@ -16,7 +16,6 @@ tags: [remote-work-tools]
 
 
 {% raw %}
-# Nomad Networking Events Guide 2026
 
 Digital nomads face unique networking challenges. Moving between cities while maintaining professional relationships requires a different approach to community building. This guide covers practical strategies and tools for developers and power users who work remotely while traveling.
 

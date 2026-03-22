@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Remote Buddy System Program for Onboarding"
 description: "Building a buddy system program becomes essential when your remote team grows beyond a handful of new hires. A well-structured buddy program accelerates"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-remote-buddy-system-program-for-onboarding-new/
 categories: [guides]
@@ -15,7 +15,6 @@ intent-checked: true
 ---
 
 {% raw %}
-# How to Create Remote Buddy System Program for Onboarding New Hires at Scale
 
 Building a buddy system program becomes essential when your remote team grows beyond a handful of new hires. A well-structured buddy program accelerates onboarding, reduces time-to-productivity, and creates genuine human connections in distributed environments. This guide provides a practical framework for implementing and scaling a remote buddy system using automation, clear processes, and measurable outcomes.
 
@@ -211,7 +210,6 @@ Use this checklist to launch your program:
 - [ ] Iterate based on data
 
 A remote buddy system program requires upfront investment but pays dividends through faster onboarding, stronger cultural cohesion, and improved retention. Start simple, measure outcomes, and scale the program as your team grows.
-
 
 
 ## Frequently Asked Questions

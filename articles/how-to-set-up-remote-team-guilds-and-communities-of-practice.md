@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Remote Team Guilds and Communities of Practice"
 description: "A practical guide to building and scaling remote team guilds and communities of practice that drive knowledge sharing and skill development across"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-remote-team-guilds-and-communities-of-practice/
 categories: [guides]
@@ -14,7 +14,6 @@ intent-checked: true
 voice-checked: true
 ---
 
-# How to Set Up Remote Team Guilds and Communities of Practice
 
 Launch remote team guilds by defining a guild purpose and membership, setting up a dedicated communication channel and regular meeting cadence, and creating a knowledge base for guild-specific resources. Guilds connect people across teams who share interests or expertise, strengthening organizational culture in distributed environments.
 
@@ -398,7 +397,6 @@ Some organizations need guilds but also need additional coordination structures:
 - Guilds are steady-state; working groups are temporary
 
 Guilds, CoEs, ARBs, and working groups complement each other. Guilds handle ongoing domain expertise; CoE provides strategy; ARB provides governance; working groups handle temporary initiatives. Most organizations over 30 engineers benefit from all four structures.
-
 
 
 ## Frequently Asked Questions

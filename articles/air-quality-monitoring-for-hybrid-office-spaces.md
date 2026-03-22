@@ -14,7 +14,6 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-# Air Quality Monitoring for Hybrid Office Spaces: A Technical Guide
 
 To implement air quality monitoring in hybrid offices, deploy ESP32-based sensors measuring CO2, PM2.5, VOCs, and humidity, connected via MQTT to a time-series database and dashboard with threshold-based alerts. Hybrid office spaces require balancing variable occupancy patterns while providing real-time visibility into air quality metrics that directly impact employee health and productivity. This guide covers the complete technical implementation—from sensor selection and data pipelines to automation rules and practical deployment strategies.
 
@@ -205,7 +204,6 @@ Start with a pilot deployment of 3-5 sensors to validate your infrastructure bef
 Position sensors away from direct airflow, windows, and doors to avoid skewed readings. Mount at desk height (approximately 4 feet) rather than floor or ceiling level for representative measurements.
 
 Document sensor locations and calibration schedules in your facilities management system. Create runbooks for responding to different alert levels so your team knows exactly what actions to take.
-
 
 
 ## Frequently Asked Questions

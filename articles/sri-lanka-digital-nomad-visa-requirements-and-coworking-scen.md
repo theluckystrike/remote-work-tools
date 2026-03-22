@@ -3,7 +3,7 @@ layout: default
 title: "Sri Lanka Digital Nomad Visa Requirements and Coworking"
 description: "Sri Lanka's ETA (electronic travel authorization) costs just $35 for 30 days and extends up to 6 months total, letting you stay legally without a dedicated"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/
 categories: [guides]
@@ -14,7 +14,6 @@ intent-checked: true
 voice-checked: true
 ---
 
-# Sri Lanka Digital Nomad Visa Requirements and Coworking Scene for Remote Workers 2026
 
 Sri Lanka's ETA (electronic travel authorization) costs just $35 for 30 days and extends up to 6 months total, letting you stay legally without a dedicated nomad visa program. Foreign-earned income remains untaxed for non-residents, coworking spaces cost $50-110/month with reliable 100 Mbps fiber connections in Colombo and Kandy, and the UTC+5:30 timezone overlaps perfectly with India and the Middle East while offering reasonable async windows for US collaboration. For developers seeking an alternative to saturated Bali/Chiang Mai destinations, Sri Lanka combines affordable living ($400-800/month accommodation), excellent food, and stable infrastructure without the tourist density of Southeast Asia's nomad hubs.
 
@@ -317,7 +316,6 @@ After 2-3 months in Sri Lanka, assess whether it's meeting your needs:
 - You miss proximity to home or specific people
 
 The beauty of digital nomad visas is flexibility. Sri Lanka works well as a 3-6 month destination while deciding longer-term location strategies.
-
 
 
 ## Frequently Asked Questions

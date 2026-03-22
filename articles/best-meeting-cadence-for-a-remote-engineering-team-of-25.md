@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Meeting Cadence for a Remote Engineering Team of 25
 
 Running meetings for a 25-person remote engineering team requires deliberate structure. Too many meetings and you destroy focused work time. Too few and alignment breaks down. The sweet spot balances synchronous collaboration with asynchronous communication, respecting both deep work needs and team cohesion.
 
@@ -201,7 +200,6 @@ Track a few metrics to ensure your cadence remains healthy:
 - Sentiment feedback: Ask the team if meetings are productive
 
 If engineers report that meetings interrupt their work, reduce the cadence. If teams report misalignment, add more sync points.
-
 
 
 ## Frequently Asked Questions

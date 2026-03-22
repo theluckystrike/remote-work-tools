@@ -3,7 +3,7 @@ layout: default
 title: "Hybrid Meeting Equity Tips for Remote Participants"
 description: "Practical hybrid meeting equity tips for remote participants. Learn technical setups, async workflows, and tools to ensure equal participation"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /hybrid-meeting-equity-tips-for-remote-participants/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Hybrid Meeting Equity Tips for Remote Participants
 
 Hybrid meetings create an inherent imbalance. The in-room participants share physical space, catch side conversations, read body language, and dominate whiteboard discussions. Remote participants often feel like second-class citizens watching through a screen. This guide provides practical technical setups, workflow adjustments, and tooling strategies that remote participants and their teams can implement to achieve true meeting equity.
 
@@ -204,7 +203,6 @@ Start with one meeting per week. Propose the round-robin speaking structure or t
 The goal isn't to replicate in-person meetings remotely. It's to design meetings where location becomes irrelevant and contribution quality determines participation, not proximity.
 
 ---
-
 
 
 ## Frequently Asked Questions

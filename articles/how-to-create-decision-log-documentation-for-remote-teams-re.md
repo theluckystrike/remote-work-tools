@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Decision Log Documentation for Remote Teams"
 description: "Learn how to create decision log documentation for remote teams. Practical templates, code examples, and workflows to capture the context behind choices"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-decision-log-documentation-for-remote-teams-re/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices
 
 Remote teams face a unique challenge: knowledge that would naturally transfer in office settings evaporates across time zones and chat channels. Someone makes a critical choice in a late-night PR review, and six months later, the reasoning disappears into Slack archives. Decision logs solve this by creating a searchable, version-controlled record of why choices were made.
 
@@ -249,7 +248,6 @@ A decision log only helps if people can find it. Add your decision log to:
 Include a search-friendly summary in each decision so GitHub's search functionality works effectively. Use consistent terminology and key terms that team members would naturally search for.
 
 ---
-
 
 
 ## Frequently Asked Questions

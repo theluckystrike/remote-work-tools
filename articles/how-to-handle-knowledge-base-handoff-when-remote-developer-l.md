@@ -3,7 +3,7 @@ layout: default
 title: "How to Handle Knowledge Base Handoff When Remote Developer"
 description: "A practical guide for managing knowledge base handoff when a remote developer leaves. Includes templates, tools, and step-by-step processes for developers"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-handle-knowledge-base-handoff-when-remote-developer-l/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Handle Knowledge Base Handoff When Remote Developer Leaves
 
 When a remote developer leaves your team, the knowledge they've accumulated over months or years can feel like it's walking out the door with them. Unlike office environments where informal conversations fill knowledge gaps, remote work relies heavily on explicit documentation. This guide provides a practical framework for managing knowledge base handoff that preserves institutional knowledge and ensures continuity.
 
@@ -329,7 +328,6 @@ The best handoff is one that's unnecessary because knowledge was captured contin
 5. **Pair programming on critical paths** - rotate pairing so knowledge spreads, not concentrates
 
 These practices compound over time. After six months of continuous documentation, handoffs become friction-free because knowledge was never siloed.
-
 
 
 ## Frequently Asked Questions

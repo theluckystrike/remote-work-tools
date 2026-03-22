@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Async 360 Feedback Process for Remote Teams Without Live Meetings
 
 Traditional 360-degree feedback requires everyone to gather in a room or hop on a video call. For distributed teams across time zones, this creates scheduling nightmares and often excludes quieter team members who contribute more in writing than in verbal discussions. An async 360 feedback process solves these problems while producing richer, more thoughtful responses.
 
@@ -410,7 +409,6 @@ This removes the manual burden of chasing forms, reminding respondents, and orga
 **No follow-up**: Collect feedback, deliver it, then never revisit. The value is in the follow-up accountability, not the collection.
 
 **Anonymous when team is small**: In a 5-person team, "anonymity" is obvious. Named feedback builds trust better and allows for follow-up clarification.
-
 
 
 ## Frequently Asked Questions

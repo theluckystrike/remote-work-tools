@@ -3,7 +3,7 @@ layout: default
 title: "Three-Two Hybrid Work Model Implementation Guide"
 description: "A practical guide for developers and power users implementing the 3-2 hybrid work model with technical setup, tools, and workflows"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /three-two-hybrid-work-model-implementation-guide/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 {% raw %}
 
-# Three-Two Hybrid Work Model Implementation Guide
 
 The three-two hybrid work model means three days remote and two days in the office, with remote days reserved for deep focus work and office days dedicated to collaboration, pair programming, and meetings. To implement it successfully, you need a containerized development environment that runs identically in both locations, async-first communication channels, and intentional scheduling that matches work type to location. This guide covers the technical setup, weekly structure, and security considerations for developers adopting this model.
 
@@ -263,7 +262,6 @@ Give the model at least 6 weeks before deciding it's not working. People need ti
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
-
 
 
 ## Frequently Asked Questions

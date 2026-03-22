@@ -3,7 +3,7 @@ layout: default
 title: "How to Cool Home Office Without Air Conditioning During"
 description: "Practical techniques to keep your home office cool without AC. Smart thermostat scripts, DIY cooling solutions, and developer-focused setups for summer"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-cool-home-office-without-air-conditioning-during-summer/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Cool Home Office Without Air Conditioning During Summer
 
 Working from home during summer months presents a unique challenge: maintaining productivity in temperatures that can fry both hardware and focus. Whether you're dealing with a rented space where installing AC isn't permitted, working in a historic building without modern cooling, or simply trying to reduce your energy footprint, this guide covers practical solutions for keeping your home office comfortable without air conditioning.
 
@@ -307,7 +306,6 @@ Sometimes the best decision is accepting that without AC, you can't maintain ade
 4. **Negotiating cooled hot-desk access**: Some offices offer hourly access. Use for peak heat hours only.
 
 The goal is maintaining productivity, not proving you can work uncomfortably. Use no-AC strategies to reduce dependence on air conditioning, not eliminate it entirely if it's the difference between functional and dysfunctional work.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "How to Handle Remote Employee Underperformance"
 description: "Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-remote-employee-underperformance-conversation-/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Handle Remote Employee Underperformance: Conversation Guide for New Managers
 
 Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with the employee. Managing remote teams makes addressing underperformance both more critical and complex because you lack visual cues and must gather objective data instead of relying on gut feelings. This guide provides new managers with a structured approach including conversation scripts, documentation frameworks, and tips specifically adapted for distributed work environments.
 
@@ -388,7 +387,6 @@ If improvements are not demonstrated by [end date]:
 ```
 
 A good PIP shows the employee exactly what success looks like and gives them reasonable time and resources to achieve it.
-
 
 
 ## Frequently Asked Questions

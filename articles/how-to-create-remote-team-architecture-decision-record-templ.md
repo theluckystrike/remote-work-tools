@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Remote Team Architecture Decision Record"
 description: "A practical guide to building an architecture decision record (ADR) template for remote and distributed engineering teams. Includes YAML templates"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-remote-team-architecture-decision-record-templ/
 categories: [guides]
@@ -15,7 +15,6 @@ score: 9
 ---
 
 {% raw %}
-# How to Create Remote Team Architecture Decision Record Template for Tracking Technical Choices
 
 Remote engineering teams face a unique challenge: capturing the reasoning behind technical decisions when team members span multiple time zones and communicate asynchronously. Without a structured approach, technical choices become tribal knowledge—understood by the person who made them but lost on everyone else. Architecture Decision Records (ADRs) solve this problem by providing a standardized format for documenting why decisions were made, what alternatives were considered, and what tradeoffs were accepted.
 
@@ -287,7 +286,6 @@ Whatever approach you choose, establish clear guidelines about what decisions wa
 - Affect multiple systems
 - Create notable trade-offs
 - Will be questioned by future developers
-
 
 
 ## Frequently Asked Questions

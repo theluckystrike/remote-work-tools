@@ -3,7 +3,7 @@ layout: default
 title: "How to Build a Location Independent Business"
 description: "A practical guide for developers and power users to build a location independent business. Includes automation scripts, remote infrastructure setup"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-build-a-location-independent-business/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Build a Location Independent Business
 
 Building a location independent business means creating systems that generate revenue without requiring your physical presence. For developers and power users, this translates to using automation, remote infrastructure, and digital products that scale beyond traditional constraints.
 
@@ -221,7 +220,6 @@ The sequence matters. Build your location independence in stages:
 5. Stage 5 - Scale deliberately: Add customers, products, or team members only after systems are proven
 
 Most failed location independent businesses skip stages 3 and 4. They automate delivery but never document their processes or test whether the business actually runs without them.
-
 
 
 ## Frequently Asked Questions

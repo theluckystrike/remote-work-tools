@@ -3,7 +3,7 @@ layout: default
 title: "How to Share Home Office with Partner Both on Calls"
 description: "Practical strategies and technical solutions for couples working from home who both need to take video calls. Acoustic treatment, scheduling systems"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-share-home-office-with-partner-both-on-calls/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Share Home Office with Partner Both on Calls
 
 When you and your partner both work remotely and share a single home office, back-to-back video calls can quickly become a logistical nightmare. The good news is that with the right setup, acoustic treatment, and scheduling systems, you can create a harmonious workspace where both of you stay productive and professional on calls. This guide covers practical solutions for developers and power users who want to transform their shared office into a call-friendly environment.
 
@@ -363,7 +362,6 @@ Clear signals prevent most tensions:
 ```
 
 Couples who implement this protocol report zero lingering frustration. The signal system prevents surprise interruptions (largest source of tension).
-
 
 
 ## Frequently Asked Questions

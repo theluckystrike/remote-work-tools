@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Hybrid Meeting Etiquette Guide Ensuring Remote Participants Are Not Forgotten
 
 Hybrid meetings have become the standard for distributed teams, yet remote participants frequently report feeling like second-class citizens. Cameras pointed at whiteboards exclude those joining from home. Side conversations in meeting rooms happen without captions or chat transcripts. Decision-making happens in hallways before remote attendees even learn there was a discussion.
 
@@ -261,7 +260,6 @@ Even teams that genuinely want to include remote participants fall into predicta
 **Relying on the chat without monitoring it**: Chat is a lifeline for remote participants, but in-room attendees focused on the room often miss messages. The designated remote liaison must actively watch chat and read relevant messages aloud.
 
 Hybrid meetings done well require more deliberate effort than fully remote or fully in-person meetings. The asymmetry is real and requires active compensation. Teams that treat hybrid etiquette as core meeting design produce genuinely inclusive collaboration; those that treat it as overhead to minimize will consistently fail remote participants.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team First 90 Days Plan Template for Senior Hires"
 description: "A 90-day onboarding plan template for senior hires joining remote teams. Practical frameworks, weekly milestones, and async communication strategies"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-first-90-days-plan-template-for-senior-hires-joi/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 {% raw %}
 
-# Remote Team First 90 Days Plan Template for Senior Hires Joining Distributed Company
 
 Joining a distributed team as a senior hire presents unique challenges that differ significantly from office-based onboarding. Without the ability to casually meet colleagues in hallways or observe team dynamics in person, you need a structured approach to ramp up quickly and start delivering value. This 90-day plan template provides a framework for senior developers and leads to integrate effectively into remote teams while building the relationships and context necessary for long-term success.
 
@@ -206,7 +205,6 @@ Several factors require extra attention when joining remote teams:
 ---
 
 Following this framework helps you transition from newcomer to effective contributor more quickly than ad-hoc approaches. The structured approach to relationship building, context gathering, and progressive contribution sets you up for long-term success in distributed teams.
-
 
 
 ## Frequently Asked Questions

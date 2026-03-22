@@ -15,7 +15,6 @@ voice-checked: true
 
 
 {% raw %}
-# Best Document Collaboration for a Remote Legal Team of 12
 
 For a remote legal team of 12, use a Git-backed document management system paired with a real-time collaboration layer like Etherpad or Google Docs for active drafting sessions. This hybrid approach gives you the version history and audit trails that legal compliance demands, while still supporting concurrent editing across matters. Teams already in the Microsoft ecosystem should use SharePoint with Information Rights Management instead.
 
@@ -277,7 +276,6 @@ Start with your most active matter as a pilot. Learn from that implementation be
 The best document collaboration system for your remote legal team of 12 is one your team actually uses. Technical sophistication means nothing if adoption fails. Choose tools that meet your compliance requirements while fitting naturally into existing workflows.
 
 ---
-
 
 
 ## Frequently Asked Questions

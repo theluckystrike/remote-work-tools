@@ -3,7 +3,7 @@ layout: default
 title: "Hybrid Office Fire Safety and Evacuation Plan Update"
 description: "Learn how to update fire safety and evacuation plans for hybrid offices with variable occupancy. Covers smart occupancy tracking, dynamic evacuation"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /hybrid-office-fire-safety-and-evacuation-plan-update-for-var/
 categories: [guides]
@@ -15,7 +15,6 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-# Hybrid Office Fire Safety and Evacuation Plan Update for Variable Occupancy Buildings
 
 Hybrid work models create unique challenges for building safety. When occupancy fluctuates daily—sometimes reaching full capacity, other times sitting at 20%—static fire safety plans become inadequate. This guide covers technical approaches to dynamic fire safety systems that adapt to variable occupancy, including occupancy tracking, intelligent evacuation routing, and automated alert systems for hybrid office environments.
 
@@ -308,7 +307,6 @@ Fire safety requires regular testing:
 - Verify notification systems reach everyone
 - Measure actual vs. predicted evacuation times
 - Update procedures based on findings
-
 
 
 ## Frequently Asked Questions

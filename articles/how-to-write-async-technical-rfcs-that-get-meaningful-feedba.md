@@ -3,19 +3,18 @@ layout: default
 title: "How to Write Async Technical RFCs That Get Meaningful"
 description: "Learn practical techniques for writing async technical RFCs that generate meaningful feedback from distributed teams. Includes templates and examples"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-async-technical-rfcs-that-get-meaningful-feedba/
 categories: [guides]
 tags: [remote-work-tools, rfc, async, technical-writing, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
 
 {% raw %}
-# How to Write Async Technical RFCs That Get Meaningful Feedback
 
 Structure your RFC with a 2-3 sentence summary, a concrete problem statement with real data, a detailed proposed solution with code examples, explicitly rejected alternatives, numbered open questions for reviewers, and a clear feedback deadline. Assign 2-3 specific reviewers by name with targeted questions for each, and frame your decisions as current thinking rather than final verdicts. This approach converts vague "looks good" responses into actionable technical feedback across time zones.
 
@@ -216,7 +215,6 @@ curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp
 ```
 
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Remote Onboarding Checklist for a Solo HR Manager Hiring 10"
 description: "A practical checklist and automation guide for solo HR managers handling remote onboarding for 10 new hires. Includes scripts, templates, and workflows"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Onboarding Checklist for a Solo HR Manager Hiring 10
 
 Handling 10 simultaneous remote new hires as a solo HR manager requires structure, automation, and clear workflows. Without a system in place, you'll spend 40+ hours on administrative tasks alone. With the right checklist and tools, you can improve the entire process while ensuring each new hire receives a consistent, high-quality experience.
 
@@ -217,7 +216,6 @@ Update this weekly and share with leadership for visibility.
 - **Skipping documentation** — Record answers to repeated questions in a knowledge base
 - **One-size-fits-all** — Adjust timelines and focus areas by role
 - **Silence after week one** — Consistent check-ins prevent small issues from becoming resignations
-
 
 
 ## Frequently Asked Questions

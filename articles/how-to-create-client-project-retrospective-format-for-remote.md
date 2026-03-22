@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Client Project Retrospective Format for Remote"
 description: "A practical guide to building effective client project retrospective formats for remote teams. Learn structured templates, async approaches, and best"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-client-project-retrospective-format-for-remote/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Create Client Project Retrospective Format for Remote Teams
 
 Client project retrospectives provide a structured opportunity to reflect on what worked, what didn't, and how to improve future collaborations. For remote teams working with clients across different locations and time zones, the traditional in-person retrospective doesn't translate well. This guide covers how to create effective client project retrospective formats designed specifically for distributed teams.
 
@@ -325,7 +324,6 @@ By year-end, review all retrospectives:
 - What improvements haven't been implemented yet?
 
 This drives your process improvements year over year.
-
 
 
 ## Frequently Asked Questions

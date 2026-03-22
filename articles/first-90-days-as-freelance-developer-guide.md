@@ -3,7 +3,7 @@ layout: default
 title: "First 90 Days as a Freelance Developer: A Complete Guide"
 description: "A practical roadmap for developers transitioning to freelance work. Covers legal setup, client acquisition, pricing strategies, and building"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /first-90-days-as-freelance-developer-guide/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# First 90 Days as a Freelance Developer: A Complete Guide
 
 Your first 90 days as a freelance developer should follow three phases: weeks 1-2 for legal and financial setup (LLC formation, business banking, insurance), weeks 3-4 for positioning and landing your first clients, and months 2-3 for establishing delivery processes and building systems that scale. This guide breaks down each phase with actionable steps, tools, and checklists you can implement immediately.
 
@@ -196,7 +195,6 @@ The overwhelm of freelance independence catches many developers off guard. Focus
 3. One Repeat Client: A returning client stabilizes income and reduces acquisition costs
 4. Systems Documentation: Capture processes while they're fresh
 5. Positioning Refinement: Adjust based on what clients actually value
-
 
 
 ## Frequently Asked Questions

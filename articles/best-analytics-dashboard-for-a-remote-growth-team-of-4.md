@@ -15,7 +15,6 @@ voice-checked: true
 
 
 {% raw %}
-# Best Analytics Dashboard for a Remote Growth Team of 4
 
 Metabase is the strongest pick for most four-person remote growth teams -- it offers self-service query building for non-technical teammates, full SQL access for developers, and scheduled alerts that work across time zones, all on an open-source model. Choose Grafana instead if you need real-time operational metrics alongside business data, or stick with Supabase's built-in analytics if your stack already runs on it and you only need basic visibility.
 

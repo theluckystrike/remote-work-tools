@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Documentation Linting Tool for Remote Teams: Enforcing Wiki Writing Standards Automatically
 
 Remote teams face unique challenges when maintaining documentation quality. Without consistent enforcement, wiki content becomes inconsistent, outdated, and difficult to navigate. Documentation linting tools solve this problem by automatically checking writing quality, formatting standards, and content rules before changes merge into your knowledge base.
 
@@ -268,7 +267,6 @@ Select a documentation linting tool based on your team's specific needs:
 **write-good** complements other tools by addressing prose quality and readability directly.
 
 Start with Vale using basic rules, then expand configuration as your team's documentation standards mature. The initial investment in setup pays dividends through consistent, maintainable documentation across your remote team.
-
 
 
 ## Frequently Asked Questions

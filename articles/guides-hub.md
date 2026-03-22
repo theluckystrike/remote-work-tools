@@ -15,8 +15,6 @@ tags: [remote-work-tools]
 {% raw %}
 
 
-# Remote Work Tools Hub
-
  guides for remote teams and distributed developers. From async processes to security setup for remote workers.
 
 **1165 articles** organized by category.

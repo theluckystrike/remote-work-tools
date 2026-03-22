@@ -3,7 +3,7 @@ layout: default
 title: "Home Office Chair Mat for Carpet vs Hardwood: Comparison"
 description: "A practical comparison of chair mats for carpet vs hardwood floors in home office setups. Learn which mat type suits your flooring and workspace needs"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /home-office-chair-mat-for-carpet-vs-hardwood-floor-comparison/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Home Office Chair Mat for Carpet vs Hardwood Floor Comparison
 
 Choosing the right chair mat for your home office isn't just about protecting your flooring—it's about maintaining smooth chair mobility, protecting your investment in ergonomic seating, and creating a workspace that supports long coding sessions. Whether you have carpet or hardwood floors, the right mat can make or break your daily workflow. This guide breaks down the key differences, helping you choose the perfect chair mat for your specific flooring situation.
 
@@ -297,7 +296,6 @@ done &
 echo "$(date '+%Y-%m-%d %H:%M') — stood up" >> ~/standing-log.txt
 tail -10 ~/standing-log.txt
 ```
-
 
 
 ## Frequently Asked Questions

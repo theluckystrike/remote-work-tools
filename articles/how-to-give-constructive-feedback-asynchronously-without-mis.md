@@ -3,7 +3,7 @@ layout: default
 title: "How to Give Constructive Feedback Asynchronously"
 description: "Master asynchronous feedback techniques for remote teams. Learn structured frameworks, tone indicators, and code examples that prevent tone"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-give-constructive-feedback-asynchronously-without-mis/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Give Constructive Feedback Asynchronously Without Misunderstanding Tone
 
 Give async feedback without tone misunderstandings by using the SBI framework (Situation-Behavior-Impact), adding explicit tone indicators like /srs or /nm to your messages, and structuring every code review comment with Suggestion/Reason/Optionality fields. These three techniques make your intent visible so readers interpret your words as constructive rather than critical. Written feedback loses vocal cues, but consistent structure and explicit framing replace them reliably.
 
@@ -269,7 +268,6 @@ Track these indicators to know if your async feedback practices are working:
 - Callback-free discussions (discussions where people avoid the topic suggest fear)
 
 If these trends are declining, revisit training. If they're improving, reinforce what's working.
-
 
 
 ## Frequently Asked Questions

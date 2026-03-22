@@ -3,7 +3,7 @@ layout: default
 title: "Google Scholar Chrome Extension Development Guide"
 description: "A practical guide to building and using Chrome extensions for Google Scholar. Covers Manifest V3, content scripts, and real-world implementation"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /google-scholar-chrome-extension/
 reviewed: true
@@ -17,7 +17,6 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-# Google Scholar Chrome Extension Development Guide
 
 Build a Google Scholar Chrome extension by creating a Manifest V3 project with a content script that targets `https://scholar.google.com/*`, then use a MutationObserver to extract paper metadata (title, authors, citation count) from the `.gs_r` result containers after dynamic loading completes. This guide provides the complete implementation: manifest configuration, DOM selectors for Scholar's result structure, external API integration with Semantic Scholar, Chrome storage for user preferences, and distribution through the Chrome Web Store.
 
@@ -312,7 +311,6 @@ When ready to publish, create a zip file of your extension and submit it to the 
 For updates, increment the version number in manifest.json and upload a new zip. Chrome automatically pushes updates to existing users.
 
 ---
-
 
 
 ## Frequently Asked Questions

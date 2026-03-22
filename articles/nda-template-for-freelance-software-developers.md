@@ -3,7 +3,7 @@ layout: default
 title: "NDA Template for Freelance Software Developers"
 description: "A practical NDA template and guide for freelance software developers. Includes customizable clauses, code examples, and tips for protecting your"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /nda-template-for-freelance-software-developers/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# NDA Template for Freelance Software Developers
 
 A freelance software developer NDA template should include seven sections: definition of confidential information, exclusions, obligations of the receiving party, return/destruction terms, duration, remedies, and general provisions. Below is a complete, customizable NDA template along with guidance on work product ownership clauses, mutual vs. one-way NDAs, and common mistakes to avoid.
 
@@ -212,7 +211,6 @@ Clarify whether your general skills and knowledge can be applied to future proje
 Customize the template above for your specific needs and have it signed before beginning work. The best contracts are ones both parties understand and accept — keep your NDAs clear, specific, and fair.
 
 ---
-
 
 
 ## Frequently Asked Questions
