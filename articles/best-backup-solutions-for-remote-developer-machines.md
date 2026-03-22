@@ -292,16 +292,6 @@ Start with the configuration backup approach—it's immediate, requires minimal 
 ---
 
 
-
-
-| Tool | Backup Type | Automation | Encryption | Pricing |
-|---|---|---|---|---|
-| Backblaze | Continuous full-disk backup | Automatic background | AES-128 encryption | $7/month per computer |
-| Arq Backup | Incremental to any cloud | Scheduled backups | AES-256 encryption | $50 one-time license |
-| Duplicati | Open-source, any cloud target | Cron-scheduled | AES-256 encryption | Free (open source) |
-| CrashPlan | Continuous enterprise backup | Real-time monitoring | AES-256 encryption | $10/device/month |
-| Time Machine + iCloud | macOS native backup | Automatic hourly | FileVault encryption | $0.99-$9.99/month |
-
 ## Frequently Asked Questions
 
 **Who is this article written for?**
@@ -333,4 +323,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

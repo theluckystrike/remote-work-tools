@@ -10,7 +10,8 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of]---
+tags: [remote-work-tools, best-of]
+---
 ---
 layout: default
 title: "Best Acoustic Foam Placement for Home Office Zoom Call"
@@ -23,7 +24,8 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of]---
+tags: [remote-work-tools, best-of]
+---
 
 {% raw %}
 

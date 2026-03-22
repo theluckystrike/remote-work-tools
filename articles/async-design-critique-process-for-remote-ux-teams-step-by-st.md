@@ -10,7 +10,8 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 ---
 layout: default
 title: "Async Design Critique Process for Remote Ux Teams Step by St"
@@ -23,7 +24,8 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 

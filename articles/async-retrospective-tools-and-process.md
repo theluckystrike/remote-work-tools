@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Retrospective Tools and Process Guide"
-description: "Run async retrospectives for remote teams with EasyRetro, Parabol, and Notion. Voting, action tracking, and facilitator-free workflows explained."
+description: "Run effective async retrospectives for remote teams using EasyRetro, Parabol, and Notion."
 date: 2026-03-21
 author: theluckystrike
 permalink: /async-retrospective-tools-and-process/
@@ -10,7 +10,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
@@ -255,4 +256,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

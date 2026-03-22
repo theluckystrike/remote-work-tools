@@ -10,7 +10,8 @@ score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 ---
 layout: default
 title: "Audio Setup for Hybrid Conference Rooms: A Technical Guide"
@@ -23,7 +24,8 @@ score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
@@ -41,17 +43,7 @@ Hybrid conference rooms present unique audio challenges. Remote participants mus
 
 Cause: Usually microphone placement or aggressive audio processing removing clarity.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Understand the Acoustic Challenges
+## Understanding the Acoustic Challenges
 
 Hybrid rooms combine two acoustic environments that rarely work well together. The room itself has reverberation, ambient noise from HVAC systems, and unpredictable sound propagation. Meanwhile, remote participants connect through compressed audio codecs that lose detail. Your goal is minimizing degradation at every stage: source, capture, transmission, and playback.
 
@@ -64,7 +56,7 @@ The most common problems in hybrid conference rooms are:
 
 Address these systematically through equipment selection, room treatment, and proper gain staging.
 
-### Step 2: Microphone Selection and Placement
+## Microphone Selection and Placement
 
 Microphone choice fundamentally shapes your audio quality. For hybrid conference rooms, you typically choose between ceiling-mounted arrays, tabletop microphones, and personal wearable options.
 
@@ -84,7 +76,7 @@ When positioning tabletop microphones, maintain a minimum distance of 2-3 feet f
 
 For presenters who move around the room, wireless lavalier or headset microphones provide consistent audio capture. While less common in standard meetings, these become essential for training sessions, presentations, or collaborative workshops where the speaker interacts with whiteboards or displays.
 
-### Step 3: Digital Signal Processing
+## Digital Signal Processing
 
 Raw microphone signals require processing before they sound professional. Digital Signal Processing (DSP) handles echo cancellation, noise suppression, gain adjustment, and equalization. Most modern video conferencing platforms include basic DSP, but dedicated hardware or software solutions provide superior results.
 
@@ -113,7 +105,7 @@ Dedicated DSP hardware from companies like Biamp, QSC, or Yamaha provides enterp
 
 For smaller deployments, USB audio interfaces with built-in DSP—like certain Focusrite or Universal Audio devices—offer a middle ground between software processing and dedicated hardware.
 
-### Step 4: Acoustic Treatment Basics
+## Acoustic Treatment Basics
 
 Even excellent microphones struggle in reverberant rooms. Basic acoustic treatment dramatically improves audio quality by reducing reflections that smear sound.
 
@@ -136,7 +128,7 @@ A functional hybrid room needs moderate treatment, not full studio absorption. A
 - Ceiling treatment if the room has hard ceilings (drop ceilings with acoustic tiles help)
 - Minimal treatment on the wall behind the primary speaker/microphone position
 
-### Step 5: Gain Staging and Level Management
+## Gain Staging and Level Management
 
 Proper gain staging prevents both distortion and excessive noise. The goal is capturing audio at a healthy level without overloading the input.
 
@@ -154,7 +146,7 @@ For XLR microphones going through audio interfaces or mixers:
 
 Modern video conferencing platforms include automatic gain control (AGC) that normalizes incoming audio levels. While useful as a safety net, relying on AGC introduces pumping artifacts where the platform constantly adjusts levels. Better to set correct input levels manually and use AGC only for compensation.
 
-### Step 6: Network Considerations for Audio
+## Network Considerations for Audio
 
 Audio quality depends heavily on network stability, particularly for remote participants. Unlike video, audio requires consistent low-latency delivery more than high bandwidth.
 
@@ -175,7 +167,7 @@ policy-map PRIORITY-QUEUE
 
 Always connect conference room computers via Ethernet rather than WiFi. The consistent latency of wired connections eliminates audio glitches that plague wireless connections, particularly during screen sharing or when multiple devices use the same access point.
 
-### Step 7: Putting It All Together
+## Putting It All Together
 
 A functional hybrid conference room audio system requires:
 
@@ -187,7 +179,7 @@ A functional hybrid conference room audio system requires:
 
 Start with the microphone placement and acoustic treatment—these provide the foundation. Add processing to address remaining issues, and verify everything works with actual test calls before relying on the system for important meetings.
 
-### Step 8: Audio Equipment Recommendations by Room Size
+## Audio Equipment Recommendations by Room Size
 
 **Small Rooms (up to 8 people, 200 sq ft):**
 
@@ -277,21 +269,21 @@ Solutions:
 
 Cause: Usually microphone placement or aggressive audio processing removing clarity.
 
-### Step 9: Documenting Your Audio Setup
+## Documenting Your Audio Setup
 
 Create a setup guide for your conference room team:
 
 ```markdown
 # Conference Room A: Audio Setup Guide
 
-### Step 10: Quick Start
+## Quick Start
 1. Ensure room is free (calendar check)
 2. Turn on power strip (speakers, microphone array, processor)
 3. Start your video call (Zoom, Teams, etc.)
 4. Test audio: "Hello? Can you hear me?"
 5. Adjust speaker volume with remote: use arrows on wall-mounted control
 
-### Step 11: Audio Control Panel
+## Audio Control Panel
 Location: Right wall, 3 feet up
 Buttons:
 - Volume up/down: Adjust speaker volume
@@ -303,12 +295,12 @@ Buttons:
 - Feedback/echo? Move away from speakers or increase distance between speaker and microphone
 - Can't hear remote participants? Speak louder into microphone—system has automatic gain control
 
-### Step 12: To Report Issues
+## To Report Issues
 - Create a ticket in #conference-room-support Slack channel
 - Include: room name, time, what happened, who to contact
 - For urgent issues: page the facilities on-call engineer
 
-### Step 13: Preventive Maintenance
+## Preventive Maintenance
 Every Monday: Vacuum under microphone (dust buildup hurts clarity)
 Monthly: Clean speaker cones with damp cloth
 Quarterly: Professional audio technician checks levels and calibration
@@ -316,7 +308,7 @@ Quarterly: Professional audio technician checks levels and calibration
 
 This documentation prevents common mistakes and speeds up issue resolution.
 
-### Step 14: Network Prioritization for Audio Quality
+## Network Prioritization for Audio Quality
 
 Even perfect audio equipment fails with poor network quality. Ensure your network prioritizes conferencing:
 
@@ -340,7 +332,7 @@ tc filter add dev eth0 parent 1: protocol ip prio 1 match u32 match ip dst 0.0.0
 
 This ensures conference room audio gets priority treatment, even during bandwidth-heavy operations elsewhere in your network.
 
-### Step 15: Perform Maintenance and Ongoing Optimization
+## Maintenance and Ongoing Optimization
 
 Audio quality degrades over time. Schedule regular maintenance:
 
