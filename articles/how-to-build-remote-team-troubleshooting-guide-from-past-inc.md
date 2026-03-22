@@ -7,7 +7,7 @@ date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-build-remote-team-troubleshooting-guide-from-past-inc/
 categories: [guides]
-tags: [remote-work, troubleshooting, postmortems, incident-response, documentation, devops]
+tags: [remote-work-tools, remote-work, troubleshooting, postmortems, incident-response, documentation, devops]
 reviewed: true
 score: 8
 ---
