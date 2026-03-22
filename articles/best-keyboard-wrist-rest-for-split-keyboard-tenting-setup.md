@@ -44,7 +44,17 @@ When you tilt a split keyboard to a 30-45 degree angle, the keyboard surface ris
 
 The fundamental problem is that tenting creates a slope. Your wrists need support that follows this incline, maintaining neutral alignment throughout the typing motion. A wrist rest that works perfectly for a flat keyboard becomes ineffective—or worse, counterproductive—when you introduce tenting.
 
-## Key Criteria for Split Keyboard Wrist Rests
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Key Criteria for Split Keyboard Wrist Rests
 
 Before examining specific options, understand the factors that determine whether a wrist rest works with your tented setup.
 
@@ -56,7 +66,7 @@ Before examining specific options, understand the factors that determine whether
 
 **Angle adjustability** separates adequate options from excellent ones. The ability to fine-tune the rest angle ensures proper wrist alignment regardless of your specific tenting angle.
 
-## Recommended Wrist Rest Options with Pricing
+### Step 2: Recommended Wrist Rest Options with Pricing
 
 ### Memory Foam Palm Rests with Adjustable Height
 
@@ -112,7 +122,7 @@ This approach costs more than off-the-shelf options but delivers perfect fit. Fo
 
 **Ergonomic research note:** Studies show that wrist rests improve typing endurance when height matches keyboard travel distance (typically 2-3 cm above desk surface at keycap height). Under-height rests (less than 1.2") provide minimal benefit.
 
-## DIY Solutions for Tented Setups
+### Step 3: DIY Solutions for Tented Setups
 
 If commercial options do not fit your specific configuration, building a custom wrist rest is straightforward.
 
@@ -147,9 +157,9 @@ Stack laser-cut wood layers to achieve your desired height and angle. Birch plyw
 
 Apply a finish like beeswax or danish oil for a smooth, comfortable surface. This method produces aesthetically pleasing rests that match desk aesthetics.
 
-## Positioning Guidelines
+### Step 4: Positioning Guidelines
 
-## Height and Angle Verification
+### Step 5: Height and Angle Verification
 
 Once you have appropriate wrist rests, positioning determines effectiveness. Use this checklist:
 
@@ -168,13 +178,13 @@ Place the rest so your wrist maintains a neutral position—neither flexed upwar
 
 Test your setup by typing for extended periods. Signs of improper positioning include wrist fatigue, numbness in fingers, or shoulder tension. Adjust rest height or angle incrementally until symptoms resolve.
 
-## Integration with Split Keyboard Workflow
+### Step 6: Integration with Split Keyboard Workflow
 
 Wrist rests for tented split keyboards require consideration of keyboard placement relative to your body. Most developers position split keyboards with significant lateral separation—anywhere from shoulder-width to significantly wider. Your wrist rests must accommodate this positioning.
 
 Some prefer rests that move with the keyboard when adjusting width. Others maintain fixed rest positions and adjust keyboard halves to meet them. Experiment to find your optimal arrangement.
 
-## Ergonomics Foundation: Why Wrist Rests Matter for Split Keyboards
+### Step 7: Ergonomics Foundation: Why Wrist Rests Matter for Split Keyboards
 
 Split keyboards reduce strain through two mechanisms:
 1. **Reduced Pronation:** Separating the keyboard halves allows each hand to maintain neutral rotation (palm neither facing up nor down)
@@ -184,7 +194,7 @@ However, split keyboards introduce a new problem: if your wrists extend downward
 
 Studies of repetitive strain injuries show that proper wrist support reduces symptoms in 60-70% of affected developers within 2-3 weeks. The investment in a correctly-sized rest often prevents months of pain and lost productivity.
 
-## Material Deep-Dive: Pros and Cons
+### Step 8: Material Deep-Dive: Pros and Cons
 
 **Memory Foam:**
 - Pros: Soft initial feel, conforms to wrist shape, good for sensitive wrists
@@ -210,7 +220,7 @@ Studies of repetitive strain injuries show that proper wrist support reduces sym
 - Best for: DIY enthusiasts, developers comfortable 3D printing custom shapes
 - Price: $15-60 for services, $0 if self-printing
 
-## Fine-Tuning Your Tented Setup
+### Step 9: Fine-Tuning Your Tented Setup
 
 Once you have wrist rests, optimize the full setup:
 
@@ -244,7 +254,7 @@ Press on the rest firmly. Your wrist should sink slightly but feel supported, no
 - Likely cause: Material choice or compression
 - Solution: Add fabric or neoprene padding on top ($5-15), or switch to softer material for next purchase
 
-## Integrating Wrist Rests with Ergonomic Accessories
+### Step 10: Integrate Wrist Rests with Ergonomic Accessories
 
 Wrist rests work best as part of complete ergonomic setup:
 
@@ -260,7 +270,7 @@ Eye level should be at the top third of your monitor. If you're looking down sig
 **Keyboard Placement:**
 Split keyboards should sit 6-12 inches wider than shoulder width. Wrist rests support this wider positioning by eliminating the need to angle your wrists inward.
 
-## The Whole-Body Ergonomic Setup
+### Step 11: The Whole-Body Ergonomic Setup
 
 Wrist rests work best as part of a complete ergonomic system. Common mistakes:
 
@@ -281,7 +291,7 @@ Stretching for 2 minutes every hour prevents more strain than any wrist rest. Bu
 
 If you're struggling with wrist pain, fix chair and monitor height first. Many people discover wrist rests weren't needed once foundational ergonomics improved.
 
-## Long-Term Maintenance
+### Step 12: Long-Term Maintenance
 
 Wrist rests wear over time. Plan for replacement:
 

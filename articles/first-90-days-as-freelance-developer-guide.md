@@ -44,7 +44,17 @@ Your first 90 days as a freelance developer should follow three phases: weeks 1-
 - **Expense Tracking**: Use receipt scanning apps (Expensify, Shoeboxed)
 3.
 
-## Week 1-2: Legal and Financial Foundation
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Week 1-2: Legal and Financial Foundation
 
 Before writing any code for clients, set up your business infrastructure. This phase prevents headaches later and establishes professional credibility.
 
@@ -73,7 +83,7 @@ Separate your business and personal finances from day one. Use a business checki
 
 General liability insurance ($300-500/year) protects against client property damage or bodily injury claims. Professional liability insurance (errors and omissions) covers legal costs if a client claims your work caused financial losses.
 
-## Week 3-4: Positioning and Client Acquisition
+### Step 2: Week 3-4: Positioning and Client Acquisition
 
 With infrastructure in place, focus on defining your niche and attracting your first clients.
 
@@ -116,7 +126,7 @@ Priority order for new freelance developers:
 3. Job Boards: We Work Remotely, RemoteOK, Hacker News Hire
 4. Cold Outreach: Target 10 companies per week with personalized messages
 
-## Month 2: Onboarding Clients and Establishing Processes
+### Step 3: Month 2: Onboarding Clients and Establishing Processes
 
 With your first clients secured, focus on delivery excellence and operational efficiency.
 
@@ -126,13 +136,13 @@ Standardize your onboarding to save time and set professional expectations:
 
 ```yaml
 # client-onboarding-checklist.md
-## Pre-project
+### Step 4: Pre-project
 - [ ] Signed contract (with deposit terms)
 - [ ] Signed NDA if applicable
 - [ ] Project brief and scope document
 - [ ] Communication preferences documented
 
-## First Week
+### Step 5: First Week
 - [ ] Development environment setup documented
 - [ ] Code review process agreed
 - [ ] Deployment pipeline access granted
@@ -149,7 +159,7 @@ Establish communication norms in writing:
 - Working hours and availability
 
 ```markdown
-## Communication Protocol
+### Step 6: Communication Protocol
 - Slack/Teams: For quick questions during agreed hours
 - Email: For non-urgent matters and documentation
 - Video Calls: Scheduled meetings only, 24-hour notice minimum
@@ -168,7 +178,7 @@ Test different pricing models early to find what works:
 
 Starting with hourly builds experience with client management. Transition to fixed-price or retainer as you improve estimation skills.
 
-## Month 3: Systems and Scaling
+### Step 7: Month 3: Systems and Scaling
 
 Move beyond trading time for money by building systems that generate value independent of your direct involvement.
 
@@ -213,7 +223,7 @@ The freelance trap is trading all time for money. Work toward revenue streams th
 Professional contracts protect both you and your clients. Create standard templates for different engagement types to save time during negotiations:
 
 ```markdown
-## Standard Service Agreement
+### Step 8: Standard Service Agreement
 
 This agreement ("Agreement") is made between [Your Company] ("Consultant") and [Client Name] ("Client").
 
@@ -253,7 +263,7 @@ Create separate templates for:
 
 Dedicate 10% of billable hours to skill development. This maintains competitive advantage and prevents stagnation.
 
-## Automation: Key Tools to Reduce Time-Wasting
+### Step 9: Automation: Key Tools to Reduce Time-Wasting
 
 After your first few clients, your biggest bottleneck becomes admin overhead. Automate these workflows:
 
@@ -293,7 +303,7 @@ tracking:
 
 These tools should cost $20-80/month combined but save 5-8 hours weekly, freeing capacity for billable work.
 
-## Month 3+ Strategy: Moving Beyond Commodity Rates
+### Step 10: Month 3+ Strategy: Moving Beyond Commodity Rates
 
 After three months, evaluate your positioning. Are you competing on price or value?
 
@@ -312,7 +322,7 @@ Example rate progression:
 - Month 6-12: $100-150/hr (specialization premium)
 - Year 2+: Fixed-price projects at $2k-10k (not hourly)
 
-## What to Prioritize in Your First 90 Days
+### Step 11: What to Prioritize in Your First 90 Days
 
 The overwhelm of freelance independence catches many developers off guard. Focus on these priorities in order:
 
@@ -321,6 +331,21 @@ The overwhelm of freelance independence catches many developers off guard. Focus
 3. One Repeat Client: A returning client stabilizes income and reduces acquisition costs
 4. Systems Documentation: Capture processes while they're fresh
 5. Positioning Refinement: Adjust based on what clients actually value
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

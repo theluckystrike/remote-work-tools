@@ -24,7 +24,17 @@ This guide helps you find the best external display for your MacBook Air M4 home
 - **The USB-C ports on**: the MacBook Air M4 provide enough bandwidth for most modern displays without needing additional docks or adapters.
 - **Price range**: $1,600-2,000
 
-## Setting Up Your External Display
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Your External Display
 
 ### Optimal Positioning
 
@@ -59,7 +69,7 @@ Developers consistently report significant productivity improvements with extern
 
 Research shows developers can save 2-4 hours daily through improved workflow efficiency when using multiple monitors.
 
-## Key Features to Evaluate
+### Step 2: Key Features to Evaluate
 
 ### Connection Type: USB-C vs HDMI
 
@@ -104,7 +114,7 @@ Look for displays with:
 - Tilt and swivel for optimal viewing angles
 - VESA mount compatibility for monitor arms
 
-## Recommended Displays by Use Case
+### Step 3: Recommended Displays by Use Case
 
 ### Best Overall: Dell UltraSharp 27 4K USB-C Hub Monitor (U2723QE)
 
@@ -191,7 +201,7 @@ Consideration: No height adjustment in standard model; stand adds significant co
 
 Price range: $1,600-2,000
 
-## Setting Up Your External Display
+### Step 4: Set Up Your External Display
 
 ### Optimal Positioning
 
@@ -219,7 +229,7 @@ For accurate colors in occasional design work:
 - Design tasks: "Display P3"
 - Photo/video: Match your workflow requirements
 
-## Power Delivery Considerations
+### Step 5: Power Delivery Considerations
 
 When choosing a display, verify USB-C power delivery meets your MacBook Air M4 needs:
 
@@ -229,7 +239,7 @@ When choosing a display, verify USB-C power delivery meets your MacBook Air M4 n
 
 The displays listed above all provide sufficient power for the MacBook Air M4, though charging speed varies.
 
-## Making Your Decision
+### Step 6: Making Your Decision
 
 Choose your external display based on your priorities:
 
@@ -264,6 +274,21 @@ xrandr --output HDMI-1 --mode 2560x1440 --rate 144
 # Check if DisplayPort cable supports the target refresh rate
 # DP 1.4 = up to 4K@120Hz; DP 1.2 = up to 4K@60Hz or 1440p@165Hz
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

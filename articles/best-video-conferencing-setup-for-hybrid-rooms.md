@@ -50,7 +50,17 @@ The foundation of any hybrid room video setup rests on three pillars: camera cov
 
 **Lighting consistency** prevents the jarring brightness shifts that make remote participants difficult to see. Meeting rooms with large windows create variable lighting conditions throughout the day. Consistent, controlled lighting benefits all participants regardless of their location.
 
-## Camera Selection and Configuration
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Camera Selection and Configuration
 
 For hybrid rooms,PTZ (pan-tilt-zoom) cameras offer the best flexibility. Unlike static wide-angle cameras, PTZ units can frame speakers dynamically and cover multiple areas of the room.
 
@@ -94,7 +104,7 @@ cap.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.75)  # 0.75 = auto exposure enabled
 
 This basic configuration works for rooms where you build custom video pipelines. Most production deployments, however, use dedicated conferencing hardware that handles these settings automatically.
 
-## Lighting Strategies That Work
+### Step 2: Lighting Strategies That Work
 
 Proper lighting eliminates the most common hybrid video complaints: participants appearing silhouetted, washed out, or difficult to see.
 
@@ -125,7 +135,7 @@ function setLightLevel(channel, level) {
 setLightLevel(1, 192);
 ```
 
-## Display and Content Sharing
+### Step 3: Display and Content Sharing
 
 Hybrid rooms need clear content sharing for remote participants. Document cameras, screen sharing, and dedicated presentation inputs all serve this purpose.
 
@@ -135,7 +145,7 @@ Hybrid rooms need clear content sharing for remote participants. Document camera
 
 **Dedicated presentation inputs** allow instant switching between presenters without fiddling with cable adapters. Install HDMI or USB-C connections at each presenter position, connected to a matrix switcher that routes to both room displays and the video conferencing feed.
 
-## Software Integration Considerations
+### Step 4: Software Integration Considerations
 
 For developers building hybrid room solutions, platform APIs enable sophisticated automation.
 
@@ -169,7 +179,7 @@ if status and status.get("meeting_status") == "in_meeting":
 
 This basic pattern extends to controlling camera presets, muting audio, and managing screen shares programmatically.
 
-## Practical Setup Recommendations
+### Step 5: Practical Setup Recommendations
 
 For developers and power users configuring hybrid rooms, follow this implementation sequence:
 
@@ -194,7 +204,7 @@ Different room types need different approaches. Here's a practical breakdown:
 
 For developer-run setups (common in startups), aim for the "5-10 people" category even if you have fewer occupants. The extra capacity provides future flexibility.
 
-## Quick Setup Validation Checklist
+### Step 6: Quick Setup Validation Checklist
 
 After installing your hybrid room setup, validate with this checklist:
 
@@ -230,7 +240,7 @@ After installing your hybrid room setup, validate with this checklist:
 
 Failing any of these signals a configuration problem worth fixing before regular use.
 
-## Budget-Constrained Hybrid Room Setup
+### Step 7: Budget-Constrained Hybrid Room Setup
 
 If budget is tight, prioritize in this order:
 
@@ -252,7 +262,7 @@ If budget is tight, prioritize in this order:
 
 Start at Tier 1 and measure which investment gives best ROI. Often, better lighting gets you 80% of the way there.
 
-## Testing Before Your First Real Meeting
+### Step 8: Test Before Your First Real Meeting
 
 Run these tests before hosting a critical meeting:
 
@@ -338,7 +348,7 @@ if __name__ == "__main__":
 
 Run this 30 minutes before your first real meeting using the setup.
 
-## Ongoing Maintenance
+### Step 9: Ongoing Maintenance
 
 Hybrid rooms require regular care to stay functional:
 
@@ -358,6 +368,21 @@ Hybrid rooms require regular care to stay functional:
 - Review utilization data and adjust setup if needed
 
 A maintained hybrid room consistently outperforms a well-equipped but neglected one.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

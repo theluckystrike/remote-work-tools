@@ -288,6 +288,34 @@ Jira: requires Jira for GitHub app. Works, but not as smooth.
 
 Shortcut: manual linking. You link PR to story manually.
 
+Automate sprint creation and pull velocity data using the Jira REST API:
+
+```bash
+# Create a new sprint in Jira via REST API
+curl -s -X POST "https://your-domain.atlassian.net/rest/agile/1.0/sprint" \
+  -H "Authorization: Basic $(echo -n 'your@email.com:YOUR_API_TOKEN' | base64)" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Sprint 24 — March 22-April 4",
+    "startDate": "2026-03-22T09:00:00.000Z",
+    "endDate": "2026-04-04T17:00:00.000Z",
+    "originBoardId": 42,
+    "goal": "Ship user onboarding v2 and fix auth regression"
+  }' | jq '.id, .state'
+
+# Pull velocity data for the last 5 completed sprints
+BOARD_ID=42
+curl -s "https://your-domain.atlassian.net/rest/agile/1.0/board/${BOARD_ID}/sprint?state=closed&maxResults=5" \
+  -H "Authorization: Basic $(echo -n 'your@email.com:YOUR_API_TOKEN' | base64)" \
+  | jq '.values[] | {name: .name, completed: .completeDate}'
+
+# Get story point totals for a specific sprint
+SPRINT_ID=120
+curl -s "https://your-domain.atlassian.net/rest/agile/1.0/sprint/${SPRINT_ID}/issue?fields=story_points,status" \
+  -H "Authorization: Basic $(echo -n 'your@email.com:YOUR_API_TOKEN' | base64)" \
+  | jq '[.issues[] | select(.fields.status.name == "Done") | .fields.story_points // 0] | add'
+```
+
 ### Slack Integration
 
 Jira: native Slack app. Sprint start/end notifications. Daily standup reminders.

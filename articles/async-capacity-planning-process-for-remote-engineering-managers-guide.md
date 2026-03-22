@@ -51,7 +51,17 @@ Synchronous capacity planning sessions create several problems for distributed t
 
 Async capacity planning addresses all three issues. Team members can respond when they're fresh and focused, contributions are documented for accountability, and everyone has equal opportunity to provide thoughtful input. The process also scales better—adding new team members doesn't require explaining an entire meeting culture; they simply participate in the async workflow.
 
-## Setting Up Your Capacity Data Foundation
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Your Capacity Data Foundation
 
 Before implementing an async process, ensure you have the right data infrastructure in place. Capacity planning requires accurate information about several factors:
 
@@ -69,14 +79,14 @@ Before implementing an async process, ensure you have the right data infrastruct
 - Infrastructure and tech debt: 15-25% buffer
 - On-call rotation impact: Factor in recovery time after incidents
 
-## Designing Your Async Capacity Planning Workflow
+### Step 2: Designing Your Async Capacity Planning Workflow
 
 ### Phase 1: Data Collection (Week 1 of Sprint)
 
 Three days before sprint planning, send a structured async request to your team. Use a shared document or form rather than email so responses are centralized:
 
 ```
-## Sprint [N] Capacity Input
+### Step 3: Sprint [N] Capacity Input
 
 Please complete by [DATE]:
 
@@ -163,7 +173,7 @@ Create a capacity summary document that becomes part of your sprint planning arc
 **Recommendation:** Conservative commitment of 35 points to account for unexpected work
 ```
 
-## Integrating with Sprint Planning
+### Step 4: Integrate with Sprint Planning
 
 Async capacity planning should feed directly into your sprint planning process, whether you're using Scrum, Kanban, or a hybrid approach.
 
@@ -188,7 +198,7 @@ For teams that still need a synchronous planning session (many do for commitment
 
 The async prep work makes the synchronous meeting dramatically more efficient. You're no longer debating availability; you're selecting work that fits the known capacity.
 
-## Handling Common Challenges
+### Step 5: Handling Common Challenges
 
 ### New Team Members
 
@@ -218,7 +228,7 @@ One of the biggest threats to capacity planning is scope change. Establish a cle
 - Changes must be documented in the sprint board
 - Capacity is re-calculated when scope changes
 
-## Automating the Process
+### Step 6: Automate the Process
 
 As your team matures, consider automating parts of the capacity calculation:
 
@@ -245,7 +255,7 @@ jobs:
 
 Integration with tools like Jira, Linear, or GitHub Projects allows capacity data to appear alongside work items, making planning visible to everyone.
 
-## Measuring Your Process
+### Step 7: Measuring Your Process
 
 Track these metrics to improve your async capacity planning over time:
 
@@ -256,7 +266,7 @@ Track these metrics to improve your async capacity planning over time:
 
 Iterate on your process based on feedback. The first version won't be perfect, and that's okay.
 
-## Common Pitfalls to Avoid
+### Step 8: Common Pitfalls to Avoid
 
 **Over-committing** — It's tempting to fill 100% of capacity, but unexpected work always appears. Leave buffer.
 
@@ -265,6 +275,21 @@ Iterate on your process based on feedback. The first version won't be perfect, a
 **Using averages blindly** — Averages hide variance. A team averaging 40 points might have sprints of 25 and 55. Plan for realistic variation.
 
 **Failing to update** — Capacity isn't static. If someone's situation changes mid-sprint, recalculate and communicate.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

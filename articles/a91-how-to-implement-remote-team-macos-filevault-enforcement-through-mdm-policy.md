@@ -431,7 +431,7 @@ Before implementing FileVault enforcement, ensure you have:
 4. **Recovery key escrow** mechanism in place
 5. **User communication plan** for rollout
 
-## MDM Solution Setup for FileVault Enforcement
+### Step 1: MDM Solution Setup for FileVault Enforcement
 
 ### Jamf Pro Configuration
 
@@ -533,7 +533,7 @@ For organizations using Microsoft Intune, configure FileVault through Apple Devi
 }
 ```
 
-## Implementing Recovery Key Escrow
+### Step 2: Implementing Recovery Key Escrow
 
 Recovery key escrow is critical—it allows IT administrators to unlock encrypted drives when users forget their passwords while maintaining security.
 
@@ -563,7 +563,7 @@ Kandji automatically handles recovery key escrow when devices check in. No addit
 kandji device get --device-id <DEVICE_ID> | grep -A 5 "filevault"
 ```
 
-## User Communication and Rollout Strategy
+### Step 3: User Communication and Rollout Strategy
 
 Successful FileVault enforcement requires careful communication with remote team members.
 
@@ -602,7 +602,7 @@ Some users may resist encryption due to concerns about performance or complexity
 - **Privacy**: Emphasize that IT cannot access personal files—only recovery keys for locked devices
 - **Flexibility**: Allow users to choose when to initiate the encryption within a reasonable window
 
-## Enforcement Workflow for Remote Devices
+### Step 4: Enforcement Workflow for Remote Devices
 
 ### Automated Enforcement via MDM
 
