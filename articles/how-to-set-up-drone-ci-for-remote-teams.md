@@ -17,6 +17,8 @@ tags: [remote-work-tools]
 
 Drone CI is a container-native CI system where every pipeline step runs in a Docker container. There's no plugin system to fight with, no shared state between steps by default, and pipeline configs are just YAML that any developer can understand. For remote teams that self-host, Drone's simplicity reduces the operational burden compared to Jenkins.
 
+Remote teams get a specific benefit from Drone: the pipeline definition lives in the repository as `.drone.yml`, so every team member — regardless of time zone — has full visibility into what CI does and can propose changes through a standard pull request. There's no admin-only config hidden in a Jenkins web UI that only one person understands.
+
 ---
 
 ## Architecture
@@ -228,6 +230,51 @@ steps:
       - ssh deploy@prod.yourcompany.com "cd /app && git pull && pm2 restart app"
 ```
 
+For remote teams managing many repositories, organization-level secrets reduce the overhead of keeping secrets synchronized. Add `slack_webhook` and `docker_password` once at the org level, and every repository in the organization can reference them without per-repo configuration.
+
+---
+
+## Pipeline Branch and Event Conditions
+
+Drone's `when` clause controls which builds run for which events. For remote teams with multiple environments, conditional steps map directly to your branching strategy:
+
+```yaml
+steps:
+  - name: deploy-staging
+    image: alpine
+    environment:
+      SSH_KEY: { from_secret: staging_deploy_key }
+    commands:
+      - echo "$SSH_KEY" > /tmp/key && chmod 600 /tmp/key
+      - ssh -i /tmp/key deploy@staging.yourcompany.com "cd /app && ./scripts/deploy.sh"
+    when:
+      branch: staging
+      event: push
+
+  - name: deploy-production
+    image: alpine
+    environment:
+      SSH_KEY: { from_secret: prod_deploy_key }
+    commands:
+      - echo "$SSH_KEY" > /tmp/key && chmod 600 /tmp/key
+      - ssh -i /tmp/key deploy@prod.yourcompany.com "cd /app && ./scripts/deploy.sh"
+    when:
+      branch: main
+      event: push
+
+  - name: run-smoke-tests
+    image: node:20-alpine
+    commands:
+      - npm run test:smoke -- --env=$TARGET_ENV
+    environment:
+      TARGET_ENV: production
+    when:
+      branch: main
+      event: push
+```
+
+This pattern — staging deploy on `staging` branch push, production deploy on `main` branch push — means engineers in any time zone can merge to `staging` to verify their change before promoting to production without any manual coordination.
+
 ---
 
 ## Multi-Architecture Builds
@@ -348,6 +395,114 @@ volumes:
     host:
       path: /tmp/drone-cache
 ```
+
+For Go module caching, mount the module cache directory:
+
+```yaml
+steps:
+  - name: test
+    image: golang:1.22-alpine
+    volumes:
+      - name: go-cache
+        path: /go
+    commands:
+      - go test ./...
+
+volumes:
+  - name: go-cache
+    host:
+      path: /tmp/drone-go-cache
+```
+
+Pipeline caching matters more for remote teams because CI feedback time directly affects async review cycles. A 12-minute pipeline that can be reduced to 4 minutes with caching means the author can address review feedback and get another CI run in before their reviewer goes offline.
+
+---
+
+## Scaling Runners for Distributed Teams
+
+The default `DRONE_RUNNER_CAPACITY=4` means the runner executes 4 pipeline jobs in parallel. For a remote team with engineers across multiple time zones, builds queue at shift overlap times. Add more runners to handle the load:
+
+```yaml
+# docker-compose.yml — add additional runners as separate services
+  drone-runner-02:
+    image: drone/drone-runner-docker:1
+    restart: always
+    depends_on:
+      - drone-server
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - DRONE_RPC_PROTO=https
+      - DRONE_RPC_HOST=drone.yourcompany.com
+      - DRONE_RPC_SECRET=${DRONE_RPC_SECRET}
+      - DRONE_RUNNER_CAPACITY=4
+      - DRONE_RUNNER_NAME=runner-02
+      - DRONE_RUNNER_LABELS=platform:linux,arch:amd64
+```
+
+Alternatively, run runners on separate hosts to distribute the Docker build load. Each runner only needs network access to the Drone server on port 443 — runners do not need to communicate with each other.
+
+For teams with multiple environments (Linux x86, Linux ARM, macOS), label runners by capability and target steps to specific runners:
+
+```yaml
+# .drone.yml — target a specific runner label
+steps:
+  - name: test-on-arm
+    image: golang:1.22-alpine
+    commands:
+      - go test ./...
+    node:
+      arch: arm64
+```
+
+---
+
+## Integrating Drone with Container Registries
+
+After a successful build, push images to your registry immediately. For GHCR (GitHub Container Registry):
+
+```yaml
+steps:
+  - name: push-to-ghcr
+    image: plugins/docker
+    settings:
+      registry: ghcr.io
+      repo: ghcr.io/your-org/your-app
+      username: your-github-username
+      password:
+        from_secret: ghcr_token
+      tags:
+        - latest
+        - ${DRONE_COMMIT_SHA:0:8}
+        - ${DRONE_BRANCH//\//-}
+    when:
+      branch: [main, staging]
+      event: push
+```
+
+For AWS ECR, use the dedicated plugin:
+
+```yaml
+steps:
+  - name: push-to-ecr
+    image: plugins/ecr
+    settings:
+      registry: 123456789.dkr.ecr.us-east-1.amazonaws.com
+      repo: your-app
+      region: us-east-1
+      tags:
+        - latest
+        - ${DRONE_COMMIT_SHA:0:8}
+      access_key:
+        from_secret: aws_access_key
+      secret_key:
+        from_secret: aws_secret_key
+    when:
+      branch: main
+      event: push
+```
+
+Tagging with both `latest` and the short commit SHA is the recommended practice for remote teams. The `latest` tag is what production instances poll for updates via Watchtower or similar tooling; the commit SHA tag is what you reference in post-incident reviews to identify exactly which code was running at the time of a failure.
 
 ---
 
