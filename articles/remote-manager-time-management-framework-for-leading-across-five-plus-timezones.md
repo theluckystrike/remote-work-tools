@@ -17,6 +17,15 @@ tags: [remote-work-tools, remote-work]---
 
 Managing a remote team spread across five or more timezones presents unique scheduling challenges that standard productivity advice fails to address. When your team operates across London, New York, Tokyo, Sydney, and San Francisco, the traditional "find a common slot" approach breaks down completely. This framework provides concrete strategies, scheduling algorithms, and workflow patterns that actually work for globally distributed teams.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **For teams spanning five timezones**: you'll often find that the most practical approach is accepting that true universal overlap doesn't exist and optimizing for pairwise overlaps instead.
+- **Next month**: add the golden hours algorithm to identify your best collaboration windows.
+
 ## The Core Problem: Overlap Collapse
 
 When teams span five or more timezones, direct overlap—the hours when everyone is awake and working—shrinks to nothing or becomes impractical. Here's what that looks like in practice:

@@ -35,6 +35,17 @@ Architecture Decision Records (ADRs) help distributed teams capture technical ch
 
 This guide provides a complete ADR template designed specifically for remote teams conducting technical discussions through written communication.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **We need to reduce**: database load while maintaining sub-200ms response times.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Payment processing service (variable latency**: 100-500ms)
+2.
+- Inventory service (50-200ms)
+3.
+- **Email notification service (200-1000ms)**: This creates a cascading failure pattern where slow external services block the entire order pipeline.
+
 ## Why ADRs Matter for Distributed Teams
 
 Remote engineering teams face a unique challenge: significant technical decisions often get lost in Slack threads, lost Zoom recordings, or individual memory. When team members in Tokyo, London, and San Francisco need to understand why a particular database was chosen or why a microservices architecture was rejected, they need more than a final decision—they need the reasoning that led to it.

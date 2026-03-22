@@ -33,6 +33,15 @@ Remote pair programming requires low latency, shared cursor visibility, and voic
 
 Dedicated pair programming tools solve these problems with direct connections, sub-50ms latency, and independent cursor support. This guide compares the main options in 2026 with setup instructions.
 
+## Key Takeaways
+
+- **$25/person/month (Pro**: unlimited).
+- **Pop**: For cross-platform teams, the browser-based version is fastest because it doesn't require installation.
+- **Healthy pair programming happens**: 20-40% of the time for most teams, not constantly.
+- **Dedicated pair programming tools**: solve these problems with direct connections, sub-50ms latency, and independent cursor support.
+- **Best for**: Teams using VS Code who want free, built-in pairing without installing additional apps.
+- **Pricing**: $35/person/month.
+
 ## VS Code Live Share
 
 Live Share is Microsoft's free pair programming extension for VS Code. Both developers work in their own VS Code instance, sharing a session. The guest can navigate files independently without the host needing to scroll.

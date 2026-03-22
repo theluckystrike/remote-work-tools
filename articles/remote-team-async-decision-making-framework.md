@@ -19,6 +19,15 @@ Remote teams that require real-time meetings for every decision lose productivit
 
 The challenge: Async decisions are slow without structure. Threads get lost in Slack. Approval chains disappear. Context degrades. This framework fixes that by defining decision types, required tools, escalation rules, and timeboxing.
 
+## Key Takeaways
+
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **If no consensus (< 80%)**: escalate to manager for 30-minute sync call.
+- **Recommend**: Option A for Q2, Feature Y planned for Q3 with full design review.
+- **Use Slack + simple**: emoji voting for 4 weeks.
+- **Add Level 3 (sync**: escalation) only when needed.
+- **If 80%+ of implemented**: decisions have positive outcomes, async is working.
+
 ## Core Principle: Decision Classification
 
 Not all decisions should be async. Classify decisions into three categories:

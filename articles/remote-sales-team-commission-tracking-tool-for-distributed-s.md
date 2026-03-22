@@ -31,6 +31,15 @@ voice-checked: true---
 
 Managing commissions across distributed sales teams presents unique challenges that traditional spreadsheet workflows cannot address. When your sales organization spans multiple time zones, currencies, and compensation structures, you need a system that handles real-time calculation, audit trails, and automated payouts. This guide walks through building a commission tracking infrastructure tailored for distributed sales operations.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
+- **Forced adoption without buy-in**: almost always fails.
+
 ## Core Challenges in Distributed Commission Management
 
 Distributed sales operations introduce complexity that breaks conventional commission systems. Each region may have different commission rates, payout schedules, and currency requirements. Sales reps closing deals in their local time need immediate visibility into earned commissions, while finance teams require consolidated reporting across all regions.
