@@ -31,6 +31,15 @@ Remote freelancers can deduct a significant portion of business expenses, but on
 
 This guide covers what remote freelancers can typically deduct, how to track it, and the tools that automate most of the work.
 
+## Key Takeaways
+
+- **This guide covers what**: remote freelancers can typically deduct, how to track it, and the tools that automate most of the work.
+- **Remote freelancers can deduct**: a significant portion of business expenses, but only if those expenses are tracked throughout the year.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+- **Discounts of 25-50% are**: common for qualifying organizations.
+- **Remote freelancers who skip**: quarterly estimates pay a penalty at filing.
+
 ## Common Deductions for Remote Freelancers
 
 The categories below apply to US self-employed individuals. Consult a tax professional for country-specific rules.

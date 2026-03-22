@@ -31,6 +31,18 @@ voice-checked: true---
 
 Remote work offers unprecedented flexibility, but for developers and power users with ADHD, it also presents unique challenges. The absence of external structure — no office hours, no colleague check-ins, no commute to mark time boundaries — can make focused work feel like navigating a maze with no walls. Fortunately, specialized focus apps exist to bridge this gap. This guide covers practical tools, browser extensions, and automation strategies designed specifically for ADHD minds working in distributed environments.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Vimium
+
+If you spend most of your time in the browser, keyboard-driven navigation reduces the friction of reaching for the mouse**: a common distraction trigger.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **The most effective approach**: combines: 1.
+- **Environmental consistency**: Use the same tools and shortcuts across machines
+3.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## Understanding the ADHD Work-From-Home Challenge
 
 ADHD affects executive function — the brain's ability to organize, prioritize, and sustain attention on tasks that don't provide immediate gratification. Coding projects often fall into this category: the payoff comes days or weeks later, not instantly. When you're working from home, the brain faces constant competition from environmental cues — laundry, notifications, the lure of a quick kitchen snack — that wouldn't exist in an office setting.

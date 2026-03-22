@@ -31,6 +31,15 @@ voice-checked: true---
 
 Every freelance developer contract should include these essential clauses: scope of work definition, payment terms with milestones, intellectual property transfer, revision limits, termination conditions, confidentiality obligations, liability caps, and dispute resolution. This guide provides ready-to-use language for each clause with practical examples you can adapt to your agreements.
 
+## Key Takeaways
+
+- **Frame them as standard industry practice**: "Most professional service agreements include this clause to define the scope of our mutual risk.
+- **Document verbal requests in email immediately**: "As discussed in today's call, I will add the CSV export feature as Change Order #001 for $1,000.
+- **Payment terms are almost**: always negotiable. A client proposing 60-day net payment is testing whether you will accept it.
+- **Counter with 30-day net**: and a 2% early payment discount.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+
 ## Scope of Work Definition
 
 The scope of work section forms the foundation of your contract. Vague scopes lead to scope creep, unpaid extra work, and damaged client relationships. Be specific about deliverables, timelines, and what constitutes completion.
