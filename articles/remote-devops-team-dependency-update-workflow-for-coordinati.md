@@ -9,6 +9,7 @@ permalink: /remote-devops-team-dependency-update-workflow-for-coordinati/
 reviewed: true
 score: 8
 categories: [productivity]
+tags: [remote-work-tools, workflow, remote-work]
 ---
 
 
