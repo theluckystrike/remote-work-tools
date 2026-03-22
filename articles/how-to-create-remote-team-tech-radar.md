@@ -285,6 +285,76 @@ Track changes in `CHANGELOG.md` alongside the radar:
 - Bun (Languages) — Node.js alternative, watching for ecosystem maturity.
 ```
 
+## Deciding What Goes on the Radar
+
+Not everything belongs on a tech radar. A common mistake is listing every library, every SaaS tool, and every language variant — the radar becomes noise and engineers stop consulting it. Apply a filter:
+
+**Include if:**
+- The team has made or is considering a deliberate adoption decision
+- There is genuine disagreement or uncertainty about whether to use it
+- The tool/technique has cross-team or multi-project implications
+- An entry would save the next person from relitigating a debate you already had
+
+**Exclude if:**
+- It is a minor dependency with no real decision behind it (e.g., `lodash`)
+- Only one engineer on one project uses it and there is no wider intent
+- The decision is already universally settled (e.g., Git for version control)
+
+When in doubt, write it as an ADR first. If the ADR matters enough to reference repeatedly, promote it to the radar.
+
+## Linking the Radar to ADRs
+
+Tech radar entries gain credibility when backed by an Architectural Decision Record. Add an `adr` field to your CSV:
+
+```csv
+name,ring,quadrant,isNew,description,adr
+Contract Testing (Pact),trial,Techniques,TRUE,"Testing API contracts between services. Reduces integration test flakiness.",ADR-014
+GitOps,adopt,Techniques,FALSE,"ArgoCD for deployment. Git as source of truth.",ADR-009
+AWS Lambda@Edge,hold,Platforms,FALSE,"Complexity too high for our team size. See ADR for alternatives.",ADR-022
+```
+
+When the Backstage plugin renders entries, the `description` field can include a markdown link:
+
+```json
+{
+  "key": "gitops",
+  "title": "GitOps",
+  "description": "ArgoCD for all production deployments. Git as single source of truth for cluster state. [ADR-009](/docs/adr/009-gitops-with-argocd.md)",
+  "timeline": [...]
+}
+```
+
+This creates a traceable audit trail: you can always read the original reasoning behind a ring placement, not just the current recommendation.
+
+## Running Your First Radar Session
+
+The first time a team builds a radar, the session often stalls because nobody is sure what ring to assign to a technology they have mixed feelings about. Use this facilitation format for remote teams:
+
+**Async phase (Week 1 — 45 minutes per person):**
+1. Each engineer independently lists 5–10 technologies they have a strong opinion about
+2. They assign a ring (ADOPT/TRIAL/ASSESS/HOLD) and write 2–3 sentences of reasoning
+3. Submit as draft PRs or a shared spreadsheet
+
+**Synthesis phase (async, Day 1 of Week 2):**
+The radar owner (typically a staff engineer or tech lead) merges duplicates, identifies disagreements, and flags entries where reviewers chose different rings for the same technology.
+
+**Discussion phase (30-min Zoom, Week 2):**
+Skip consensus items. Only discuss the flagged disagreements. Use a simple rule: if two or more engineers who have actually used the technology prefer different rings, the lower ring wins. You move to ADOPT only when the team has enough shared production experience to say "this works for us."
+
+**Publish and celebrate (Week 2):**
+Merge the PR. Post the radar link in `#engineering`. Make the first publication a moment — it signals that the team takes technology decisions seriously enough to write them down.
+
+## Measuring Radar Effectiveness
+
+After two quarters, ask these questions to evaluate whether the radar is working:
+
+- Are engineers referencing the radar in PR reviews or architecture discussions?
+- Have any TRIAL entries graduated to ADOPT based on real experience?
+- Are HOLD entries being respected, or are engineers still reaching for them?
+- Has the radar prevented any "should we use X?" debates that would otherwise have taken a week of Slack messages?
+
+A radar that gets consulted saves time. A radar that gets ignored is a documentation artifact. If nobody uses it, the problem is usually one of: it is not visible enough (add a link to your eng handbook front page), it is not maintained (stale entries), or it does not cover decisions the team actually faces (wrong quadrant choices for your stack).
+
 ## Related Reading
 
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)

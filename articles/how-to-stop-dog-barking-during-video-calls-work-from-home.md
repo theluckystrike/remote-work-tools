@@ -28,6 +28,16 @@ voice-checked: true
 tags: [remote-work-tools, best-of]---
 
 
+| Tool | Video Quality | Screen Sharing | Recording | Pricing |
+|---|---|---|---|---|
+| Zoom | Up to 4K | Desktop + app sharing | Cloud + local | $13.33/user/month |
+| Google Meet | Up to 1080p | Screen + tab sharing | Google Drive | Included with Workspace ($6+) |
+| Microsoft Teams | Up to 1080p | Desktop + PowerPoint Live | OneDrive/SharePoint | Included with M365 ($6+) |
+| Around | Floating window, auto-crop | Screen sharing | No recording | Free / $8.50/user/month |
+| Tuple | HD pair programming | Full screen control | Session recording | $30/user/month |
+
+
+
 Dog barking during video calls is one of the most frustrating interruptions for remote workers. Whether it's the doorbell, a passing squirrel, or simple attention-seeking behavior, a barking dog can derail important meetings, impress clients poorly, and create awkward moments. This guide provides solutions to minimize dog barking during your work video calls, from immediate fixes to long-term training strategies.
 
 ## Key Takeaways

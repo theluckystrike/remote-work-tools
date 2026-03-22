@@ -62,6 +62,48 @@ The visual query builder lets team members click through tables and filters to c
 
 Deploying Metabase takes less than an hour using Docker, and the platform connects to PostgreSQL, MySQL, Snowflake, BigQuery, and most major data warehouses. A small remote team can start with the free open-source version and upgrade to Metabase Cloud if managed infrastructure becomes a burden.
 
+Deploy Metabase with Docker Compose, connecting it to your existing PostgreSQL data warehouse:
+
+```bash
+# docker-compose.yml for Metabase with PostgreSQL backend
+cat > docker-compose.yml << 'COMPOSE'
+version: '3.9'
+services:
+  metabase:
+    image: metabase/metabase:latest
+    ports:
+      - "3000:3000"
+    environment:
+      MB_DB_TYPE: postgres
+      MB_DB_DBNAME: metabase
+      MB_DB_PORT: 5432
+      MB_DB_USER: metabase
+      MB_DB_PASS: ${METABASE_DB_PASSWORD}
+      MB_DB_HOST: postgres
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: metabase
+      POSTGRES_USER: metabase
+      POSTGRES_PASSWORD: ${METABASE_DB_PASSWORD}
+    volumes:
+      - metabase-data:/var/lib/postgresql/data
+
+volumes:
+  metabase-data:
+COMPOSE
+
+# Launch Metabase
+docker compose up -d
+
+# Wait for Metabase to initialize (takes ~60 seconds on first run)
+echo "Metabase starting at http://localhost:3000"
+```
+
 A practical workflow for a remote team: the growth manager creates a weekly dashboard tracking key metrics across channels, schedules it to post in the team Slack every Monday morning, and team members can click through to explore any metric in more detail without needing to request additional reports.
 
 ## Looker Studio: Free and Integrated with Google Ecosystem
@@ -127,6 +169,42 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 Technical teams can implement more sophisticated analytical approaches.
 
 **SQL-based analysis enables deeper insights**: Rather than using UI-based tools, write SQL queries directly against your data warehouse. This allows complex aggregations, window functions, and multi-table joins impossible in visual tools. Trade simplicity for power.
+
+Common SQL patterns for small team BI dashboards in Metabase or Mode:
+
+```sql
+-- Weekly active users with week-over-week growth rate
+WITH weekly_users AS (
+  SELECT
+    date_trunc('week', last_active_at) AS week,
+    COUNT(DISTINCT user_id) AS active_users
+  FROM user_activity
+  WHERE last_active_at >= current_date - interval '12 weeks'
+  GROUP BY 1
+)
+SELECT
+  week,
+  active_users,
+  LAG(active_users) OVER (ORDER BY week) AS prev_week,
+  ROUND(
+    100.0 * (active_users - LAG(active_users) OVER (ORDER BY week))
+    / NULLIF(LAG(active_users) OVER (ORDER BY week), 0), 1
+  ) AS wow_growth_pct
+FROM weekly_users
+ORDER BY week DESC;
+
+-- Revenue by channel with running total for the current month
+SELECT
+  acquisition_channel,
+  SUM(amount) AS channel_revenue,
+  SUM(SUM(amount)) OVER (ORDER BY SUM(amount) DESC) AS running_total,
+  ROUND(100.0 * SUM(amount) / SUM(SUM(amount)) OVER (), 1) AS pct_of_total
+FROM payments p
+JOIN users u ON p.user_id = u.id
+WHERE p.created_at >= date_trunc('month', current_date)
+GROUP BY acquisition_channel
+ORDER BY channel_revenue DESC;
+```
 
 **Automated reporting pipelines generate insights at scale**: Schedule queries to run hourly or daily, with results emailed to stakeholders. This removes manual report generation overhead and keeps stakeholders updated without active checking.
 
