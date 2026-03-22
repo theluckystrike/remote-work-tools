@@ -11,7 +11,8 @@ tags: [remote-work-tools, skip-level-meeting, remote-work, leadership, team-mana
 reviewed: true
 score: 7
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

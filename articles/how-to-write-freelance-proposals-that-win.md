@@ -11,7 +11,8 @@ tags: [remote-work-tools, freelance, proposals, business]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -182,7 +183,8 @@ CLIENT_NAME=$1
 PROJECT_NAME=$2
 DATE=$(date +%Y-%m-%d)
 
-cat > "proposals/${CLIENT_NAME}-${PROJECT_NAME}.md" << EOF---
+cat > "proposals/${CLIENT_NAME}-${PROJECT_NAME}.md" << EOF
+---
 client: ${CLIENT_NAME}
 project: ${PROJECT_NAME}
 date: ${DATE}

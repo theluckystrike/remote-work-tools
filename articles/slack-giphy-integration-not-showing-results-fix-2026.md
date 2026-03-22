@@ -11,7 +11,8 @@ score: 7
 voice-checked: true
 categories: [troubleshooting]
 tags: [remote-work-tools, troubleshooting, integration]
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 

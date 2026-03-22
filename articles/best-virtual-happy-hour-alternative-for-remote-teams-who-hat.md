@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, async-communication, team-culture, option
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

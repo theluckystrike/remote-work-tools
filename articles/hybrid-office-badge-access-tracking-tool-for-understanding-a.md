@@ -11,7 +11,8 @@ tags: [remote-work-tools, hybrid-office, badge-access, desk-utilization, occupan
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

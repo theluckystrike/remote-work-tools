@@ -8,7 +8,8 @@ score: 8
 voice-checked: true
 intent-checked: true
 tags: ["runbooks", "incident response", "remote work", "documentation", "on-call"]
-permalink: /how-to-build-remote-team-runbook-library-2026/---
+permalink: /how-to-build-remote-team-runbook-library-2026/
+---
 
 {% raw %}
 
@@ -146,7 +147,8 @@ Runbook Index (filtered database view)
 **Implementation: 1-2 weeks (with templates)**
 
 Confluence page template:
-```---
+```
+---
 Title: [System] [Incident Type]
 Space: Runbooks
 Owner: [Team Name]

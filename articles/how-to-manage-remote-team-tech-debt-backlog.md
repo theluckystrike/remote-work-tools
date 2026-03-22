@@ -10,7 +10,8 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -76,7 +77,8 @@ gh label create "debt-scheduled" --color "3b82f6" --description "In a sprint or 
 ## Issue Template
 
 ```markdown
-<!-- .github/ISSUE_TEMPLATE/tech-debt.md -->---
+<!-- .github/ISSUE_TEMPLATE/tech-debt.md -->
+---
 name: Tech Debt
 about: Document a technical debt item
 title: '[DEBT] '

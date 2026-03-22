@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, hr, compliance, international-hiring, leg
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -185,7 +186,8 @@ If using an EOR, the offer letter structure differs slightly — you'll receive 
 
 Here's a condensed template you can adapt:
 
-```markdown---
+```markdown
+---
 # Employment Offer Letter Template
 # Customize based on jurisdiction and EOR requirements
 ---

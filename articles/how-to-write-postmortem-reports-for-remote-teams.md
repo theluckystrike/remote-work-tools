@@ -11,7 +11,8 @@ tags: [remote-work-tools, postmortem, incident-management, remote-work]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 Effective postmortem reports for remote teams share three properties: they are written close to the incident while details are fresh, they establish blameless root cause analysis, and they produce specific action items with assigned owners. This guide provides a complete template and workflow for distributed teams working asynchronously across time zones.
@@ -407,7 +408,8 @@ Teams that write good postmortems consistently share one property: the postmorte
 
 Establish the blameless norm explicitly in your postmortem template header:
 
-```markdown---
+```markdown
+---
 This postmortem is blameless. The goal is to understand system and process
 failures so we can prevent recurrence — not to assign fault to individuals.
 Engineers make good decisions with the information available at the time.

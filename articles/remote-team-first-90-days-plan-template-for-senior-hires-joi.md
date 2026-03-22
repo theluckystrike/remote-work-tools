@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote work, onboarding, distributed teams, senior hir
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

@@ -11,7 +11,8 @@ tags: [remote-work-tools, bali, remote-work, internet-speed, digital-nomad, conn
 score: 9
 voice-checked: true
 reviewed: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 

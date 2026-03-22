@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, subcontractor, agency, communication, bou
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

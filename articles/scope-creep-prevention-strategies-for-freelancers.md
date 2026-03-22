@@ -11,7 +11,8 @@ tags: [remote-work-tools, scope-creep, freelance-tips, project-management]
 reviewed: true
 score: 7
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}

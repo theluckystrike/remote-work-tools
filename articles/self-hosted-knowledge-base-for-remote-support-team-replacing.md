@@ -11,7 +11,8 @@ tags: [remote-work-tools, knowledge-base, self-hosted, zendesk-alternative, supp
 reviewed: true
 score: 7
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -145,7 +146,8 @@ This approach catches errors before publication and maintains a history of all c
 
 Support teams depend on fast, accurate search. Most platforms provide built-in search, but tuning improves results significantly. Add relevant keywords to article metadata, structure content with clear headings, and maintain a consistent taxonomy.
 
-```markdown---
+```markdown
+---
 title: "Self-Hosted Knowledge Base for Remote Support Team"
 tags: [vpn, network, remote-access, troubleshooting]
 category: Technical Support

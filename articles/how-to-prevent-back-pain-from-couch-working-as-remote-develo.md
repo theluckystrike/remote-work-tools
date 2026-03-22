@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, ergonomics, health, developer-tools, prod
 intent-checked: true
 voice-checked: true
 reviewed: true
-score: 9---
+score: 9
+---
 
 {% raw %}
 

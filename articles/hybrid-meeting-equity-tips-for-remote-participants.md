@@ -11,7 +11,8 @@ tags: [remote-work-tools, hybrid-work, remote-work, meeting-equity, video-confer
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

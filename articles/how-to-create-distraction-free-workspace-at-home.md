@@ -11,7 +11,8 @@ tags: [remote-work-tools, workspace, productivity, remote-work, focus]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

@@ -11,7 +11,8 @@ tags: [remote-work-tools, byod, remote-work, security-policy, developer-tools, c
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

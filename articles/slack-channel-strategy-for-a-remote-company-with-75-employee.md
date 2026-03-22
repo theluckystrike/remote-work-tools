@@ -11,7 +11,8 @@ tags: [remote-work-tools, slack, remote-work, communication]
 reviewed: true
 score: 7
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}

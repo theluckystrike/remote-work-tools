@@ -11,7 +11,8 @@ tags: [remote-work-tools, architecture, adr, technical-decisions, remote-work, d
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 9---
+score: 9
+---
 
 {% raw %}
 
@@ -37,7 +38,8 @@ A practical ADR template for remote teams includes these sections:
 
 Here is a YAML-based template you can use directly:
 
-```yaml---
+```yaml
+---
 adr:
  id: 0015
  date: "2026-03-10"

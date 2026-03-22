@@ -11,7 +11,8 @@ tags: [remote-work-tools, pharmacy, telemedicine, video-conferencing, healthcare
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

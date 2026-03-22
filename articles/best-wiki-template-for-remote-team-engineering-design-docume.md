@@ -11,7 +11,8 @@ tags: [remote-work-tools, engineering, documentation, wiki, design-document, rem
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -246,7 +247,8 @@ architecture/
 
 Use GitHub's review features naturally—design docs are just code to your team:
 
-```markdown---
+```markdown
+---
 adr: 0001
 title: Microservices Architecture Decision
 status: Approved

@@ -11,7 +11,8 @@ tags: [remote-work-tools, tools, remote-work, best-of]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 

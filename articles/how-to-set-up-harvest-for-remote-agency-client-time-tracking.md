@@ -11,7 +11,8 @@ tags: [remote-work-tools, harvest, time-tracking, remote-work, agency-tools]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

@@ -10,7 +10,8 @@ tags: [remote-work-tools, runbooks, on-call, incident-response, devops, document
 reviewed: true
 score: 8
 intent-checked: false
-voice-checked: false---
+voice-checked: false
+---
 
 {% raw %}
 
@@ -245,7 +246,8 @@ Assign ownership to specific engineers or rotate ownership during team transitio
 
 Document the last review date in each runbook:
 
-```markdown---
+```markdown
+---
 last-reviewed: 2026-02-15
 reviewed-by: engineering-team
 next-review: 2026-05-15

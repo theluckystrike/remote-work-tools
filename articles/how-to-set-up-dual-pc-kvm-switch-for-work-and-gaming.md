@@ -11,7 +11,8 @@ tags: [remote-work-tools, kvm-switch, dual-pc, productivity, hardware]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

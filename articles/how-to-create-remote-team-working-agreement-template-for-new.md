@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, team-agreement, async-communication, dist
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

@@ -11,7 +11,8 @@ tags: [remote-work-tools, cable-management, home-office, workspace, desk-setup]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

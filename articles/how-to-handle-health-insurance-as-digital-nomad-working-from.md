@@ -11,7 +11,8 @@ tags: [remote-work-tools, thailand, digital-nomad, health-insurance, remote-work
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

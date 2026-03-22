@@ -11,7 +11,8 @@ reviewed: true
 score: 9
 categories: [guides]
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

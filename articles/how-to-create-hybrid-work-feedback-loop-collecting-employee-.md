@@ -11,7 +11,8 @@ tags: [remote-work-tools, hybrid-work, feedback, policy, employee-input, remote-
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

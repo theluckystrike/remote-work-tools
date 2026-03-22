@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, brainstorming, async, chat, team-collabor
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

@@ -11,7 +11,8 @@ tags: [remote-work-tools, whiteboard, remote-work, collaboration, brainstorming,
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -211,7 +212,8 @@ Create reusable templates to speed up session setup and ensure consistent struct
 ### Product Strategy Session Template
 
 ```yaml
-Miro Board Template: Product Strategy Brainstorm---
+Miro Board Template: Product Strategy Brainstorm
+---
 Layout:
  Section 1: Problem Definition (left)
  - Current state sticky notes

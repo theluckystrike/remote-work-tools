@@ -11,7 +11,8 @@ tags: [remote-work-tools, sprint-demos, async-communication, remote-work, stakeh
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}

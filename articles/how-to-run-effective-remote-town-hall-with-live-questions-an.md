@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-meetings, town-hall, async-communication, virtu
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 ### Q: Can we get better visibility into on-call rotation schedules?
 **Asked by**: DevOps Team | **Category**: Process

@@ -10,7 +10,8 @@ tags: [remote-work-tools, remote-work]
 reviewed: true
 score: 6
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

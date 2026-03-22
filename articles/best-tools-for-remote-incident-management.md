@@ -10,7 +10,8 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 ## Impact
 - Users affected: [number or %]
 - Services affected: [list]
