@@ -17,6 +17,8 @@ voice-checked: true
 
 Grafana dashboards in co-located teams are glanced at on a monitor on the wall. Remote teams need dashboards designed for async consumption: clear annotations, shareable panels, and automated summaries that land in Slack without anyone having to remember to look. This guide covers the setup that makes Grafana useful for distributed teams.
 
+The difference between a useful remote dashboard and a useless one is not the metrics — it is the context. A panel showing "error rate: 0.3%" tells a co-located engineer something because they have been watching it all day. It tells a remote engineer nothing at 9am without a baseline, a threshold, and an indication of whether this is better or worse than yesterday.
+
 ## Installation with Docker Compose
 
 ```yaml
@@ -56,6 +58,8 @@ volumes:
   prometheus_data:
 ```
 
+For remote teams who do not want to self-host, **Grafana Cloud** offers a free tier (10,000 metrics, 50GB logs, 50GB traces, 14-day retention). The free tier covers most small distributed engineering teams without any infra overhead. For larger teams, the Pro tier at $8/user/month adds unlimited retention and SSO.
+
 ## Dashboard Provisioning (Dashboard-as-Code)
 
 Store dashboards in git. This prevents dashboard drift — where production dashboards diverge from what's documented.
@@ -88,6 +92,8 @@ datasources:
       timeInterval: "15s"
 ```
 
+The `allowUiUpdates: true` setting lets engineers iterate on dashboards through the UI, but changes should be exported and committed back to git. Add a comment to the provisioning folder's README: "If you change a dashboard in the UI, export the JSON and commit it — otherwise your changes will be overwritten on next deploy."
+
 ## Team Dashboard Structure
 
 For remote teams, organize dashboards by audience, not by metric type:
@@ -103,6 +109,8 @@ Folders:
 ├── On-Call (optimized for incident response — large panels, clear thresholds)
 └── Deploy (before/after comparison for deploys)
 ```
+
+The Executive folder should have no more than 5 panels per dashboard, all using stat panels with large text. Engineers' dashboards can be dense — on-call dashboards must be scannable in 5 seconds when someone is woken at 3am.
 
 ## The Async-Friendly Dashboard Panel
 
@@ -139,6 +147,13 @@ Key elements:
 - Title includes the context (alert threshold) not just the metric name
 - Description includes the baseline — "currently 0.1%" means nothing without history
 - Thresholds are color-coded directly in the panel
+
+**What to avoid in remote dashboards:**
+
+- Panels titled only "Error Rate" with no threshold reference
+- Time ranges defaulting to "last 1 hour" — use "last 3 hours" so context is visible
+- Stat panels showing a raw number without a trend sparkline
+- Dashboards with more than 20 panels — they become overwhelming to async readers
 
 ## Deploy Annotations
 
@@ -180,6 +195,46 @@ In your GitHub Actions deploy workflow:
       }"
 ```
 
+Beyond deploys, annotate other meaningful events: database migrations, config changes, traffic spikes from marketing campaigns. Each annotation gives future async readers a reference point when reviewing historical metrics.
+
+## Alerting Configuration for Remote Teams
+
+Grafana Alerting (unified alerting, enabled by default since Grafana 9) requires a contact point and notification policy.
+
+**Contact point — Slack:**
+
+In Grafana UI: Alerting → Contact points → Add contact point → Slack
+
+Configure with your webhook URL and a message template that includes a link to the relevant dashboard:
+
+```
+{{ define "slack.message" }}
+*[{{ .Status | toUpper }}] {{ .CommonLabels.alertname }}*
+{{ range .Alerts }}
+• {{ .Annotations.summary }}
+• <{{ .GeneratorURL }}|View in Grafana>
+{{ end }}
+{{ end }}
+```
+
+**Notification policy:**
+
+```
+Default policy:
+  Contact point: #eng-alerts
+  Group by: [alertname, cluster]
+  Group wait: 30s
+  Group interval: 5m
+  Repeat interval: 4h
+
+Nested policy (P1 severity):
+  Matcher: severity = critical
+  Contact point: #eng-incidents + PagerDuty
+  Repeat interval: 30m
+```
+
+The repeat interval for critical alerts should be short enough that an on-call engineer is not waiting 4 hours for a reminder, but long enough that the channel does not flood during a sustained incident.
+
 ## Slack Digest: Daily Health Report
 
 Instead of requiring engineers to check Grafana, send a daily digest to Slack:
@@ -218,22 +273,22 @@ def send_daily_digest():
     )
 
     # Determine emoji for each metric
-    error_emoji = "🟢" if error_rate < 0.005 else "🟡" if error_rate < 0.01 else "🔴"
-    latency_emoji = "🟢" if p95_latency < 0.3 else "🟡" if p95_latency < 0.5 else "🔴"
-    uptime_emoji = "🟢" if uptime > 99.9 else "🟡" if uptime > 99 else "🔴"
+    error_emoji = "green_circle" if error_rate < 0.005 else "yellow_circle" if error_rate < 0.01 else "red_circle"
+    latency_emoji = "green_circle" if p95_latency < 0.3 else "yellow_circle" if p95_latency < 0.5 else "red_circle"
+    uptime_emoji = "green_circle" if uptime > 99.9 else "yellow_circle" if uptime > 99 else "red_circle"
 
     message = {
         "blocks": [
             {
                 "type": "header",
-                "text": {"type": "plain_text", "text": f"📊 Daily Health Report — {datetime.utcnow().strftime('%Y-%m-%d')}"}
+                "text": {"type": "plain_text", "text": f"Daily Health Report — {datetime.utcnow().strftime('%Y-%m-%d')}"}
             },
             {
                 "type": "section",
                 "fields": [
-                    {"type": "mrkdwn", "text": f"{error_emoji} *Error Rate (24h):*\n{error_rate:.3%}"},
-                    {"type": "mrkdwn", "text": f"{latency_emoji} *p95 Latency (24h):*\n{p95_latency*1000:.0f}ms"},
-                    {"type": "mrkdwn", "text": f"{uptime_emoji} *Uptime (24h):*\n{uptime:.2f}%"},
+                    {"type": "mrkdwn", "text": f":{error_emoji}: *Error Rate (24h):*\n{error_rate:.3%}"},
+                    {"type": "mrkdwn", "text": f":{latency_emoji}: *p95 Latency (24h):*\n{p95_latency*1000:.0f}ms"},
+                    {"type": "mrkdwn", "text": f":{uptime_emoji}: *Uptime (24h):*\n{uptime:.2f}%"},
                 ]
             },
             {
@@ -275,7 +330,7 @@ TO=$(date +%s%3N)  # now in ms
 echo "${GRAFANA_URL}/d/${DASHBOARD_UID}?orgId=1&viewPanel=${PANEL_ID}&from=${FROM}&to=${TO}"
 ```
 
-Add this to your incident response bot: when an alert fires, automatically include a pre-linked panel URL showing the 30 minutes around the alert time.
+Add this to your incident response bot: when an alert fires, automatically include a pre-linked panel URL showing the 30 minutes around the alert time. This removes a meaningful friction point for remote engineers — instead of navigating to Grafana and manually adjusting the time range, they click a link and immediately see the relevant window.
 
 ## Dashboard-as-Code with Grafonnet
 
@@ -318,6 +373,20 @@ jsonnet dashboards/api-overview.libsonnet > grafana/dashboards/api-overview.json
 # Add to CI to validate dashboards on every push
 jsonnet --lint dashboards/*.libsonnet
 ```
+
+An alternative to Grafonnet is **grizzly**, a CLI tool that manages Grafana dashboards declaratively from YAML or JSON files and can apply them via CI. It is simpler than Grafonnet for teams that do not want to learn Jsonnet, and works well with Grafana Cloud.
+
+## Grafana vs. Alternatives for Remote Teams
+
+| Tool | Strength | Weakness | Best for |
+|---|---|---|---|
+| Grafana | Flexible, open source, massive plugin ecosystem | Complex to configure well | Teams with Prometheus/Loki already running |
+| Datadog | Excellent APM, easy setup | $15-23/host/month | Teams willing to pay for convenience |
+| New Relic | Strong distributed tracing | Per-user pricing adds up | APM-focused teams |
+| Honeycomb | Best-in-class for distributed tracing and high-cardinality queries | Expensive at scale | Microservices-heavy teams |
+| CloudWatch | Native for AWS workloads | Poor UX, vendor lock-in | AWS-only shops |
+
+For most remote engineering teams self-hosting on Hetzner, DigitalOcean, or similar, Grafana with Prometheus and Loki is the right default. The tooling is mature, free, and integrates with everything.
 
 ## Related Reading
 
