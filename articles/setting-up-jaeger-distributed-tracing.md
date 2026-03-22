@@ -473,11 +473,81 @@ spec:
 
 The operator manages rolling updates and handles schema migration for Elasticsearch indices automatically, which is a significant operational advantage over managing the collector and query components separately.
 
-## Related Reading
+## Alerting on Trace Anomalies
 
-- [Setting Up Loki for Remote Log Aggregation](/remote-work-tools/setting-up-loki-remote-log-aggregation/)
-- [Best Observability Platform for Remote Teams](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
-- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+Jaeger itself does not ship alerting, but you can build lightweight trace-based alerts by querying the Jaeger HTTP API from a scheduled script and routing results to PagerDuty or Slack. A practical pattern for remote teams:
+
+```python
+#!/usr/bin/env python3
+# scripts/jaeger-alert.py — run every 5 minutes via cron
+import requests, json, os, sys
+from datetime import datetime, timedelta
+
+JAEGER_URL = os.getenv("JAEGER_URL", "http://localhost:16686")
+SLACK_WEBHOOK = os.getenv("SLACK_WEBHOOK")
+ERROR_THRESHOLD = int(os.getenv("ERROR_THRESHOLD", "10"))
+SERVICES = ["order-service", "payment-service", "user-service"]
+
+now = datetime.utcnow()
+five_min_ago = now - timedelta(minutes=5)
+start_us = int(five_min_ago.timestamp() * 1_000_000)
+end_us   = int(now.timestamp() * 1_000_000)
+
+alerts = []
+for service in SERVICES:
+    resp = requests.get(
+        f"{JAEGER_URL}/api/traces",
+        params={
+            "service": service,
+            "tags": '{"error":"true"}',
+            "start": start_us,
+            "end": end_us,
+            "limit": 100,
+        },
+        timeout=10,
+    )
+    traces = resp.json().get("data", [])
+    if len(traces) >= ERROR_THRESHOLD:
+        alerts.append(f"*{service}*: {len(traces)} error traces in the last 5 minutes")
+
+if alerts and SLACK_WEBHOOK:
+    payload = {"text": "Jaeger trace alert:\n" + "\n".join(alerts)}
+    requests.post(SLACK_WEBHOOK, json=payload, timeout=5)
+    sys.exit(1)
+
+print("No anomalies detected.")
+```
+
+Add this to a cron job on your monitoring host or run it as a Kubernetes CronJob. It keeps alerting logic simple and avoids the complexity of a full APM platform for teams that only need error rate signals from traces.
+
+## Correlating Traces with Logs
+
+The highest-value Jaeger integration for most teams is log correlation: clicking a span in Jaeger and jumping directly to the logs that span generated, without copying trace IDs manually. This requires two things: your services must include the trace ID in log output, and Grafana must link the Jaeger trace ID to Loki.
+
+Inject the trace ID into structured logs automatically using the OpenTelemetry logging bridge:
+
+```python
+# logging_config.py
+import logging
+from opentelemetry._logs import set_logger_provider
+from opentelemetry.sdk._logs import LoggerProvider, LoggingHandler
+from opentelemetry.sdk._logs.export import BatchLogRecordProcessor
+from opentelemetry.exporter.otlp.proto.grpc._log_exporter import OTLPLogExporter
+
+def configure_logging(service_name: str):
+    logger_provider = LoggerProvider()
+    otlp_exporter = OTLPLogExporter(endpoint="http://jaeger-collector:4317", insecure=True)
+    logger_provider.add_log_record_processor(BatchLogRecordProcessor(otlp_exporter))
+    set_logger_provider(logger_provider)
+
+    handler = LoggingHandler(level=logging.DEBUG, logger_provider=logger_provider)
+
+    # Add trace context fields to every log record
+    logging.basicConfig(handlers=[handler], level=logging.INFO)
+    return logging.getLogger(service_name)
+```
+
+With this in place, every `logger.info(...)` call automatically includes `trace_id` and `span_id` fields in the OTLP payload. Loki receives these via a Promtail pipeline, and Grafana's trace-to-logs linking uses the `trace_id` field to jump between the two data sources with a single click.
 
 ---
 
