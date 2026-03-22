@@ -33,6 +33,15 @@ Remote work offers flexibility but can create emotional distance between team me
 
 This guide provides practical gratitude exercises specifically designed for remote developer teams. You'll find ready-to-use formats, automation ideas, and examples you can implement immediately.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Keep it to 30-60**: seconds per person 3.
+- **"Our team is too**: large for round-robins" Limit to one representative per sub-team, or use the chat-based "two-sentence" format.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Why Gratitude Practices Matter for Remote Teams
 
 Remote work accelerates a dangerous pattern: people feel invisible. Developers ship code that gets no acknowledgment. Designers create work that disappears into products without recognition. Support team members handle difficult customers alone, with no one noticing their patience.

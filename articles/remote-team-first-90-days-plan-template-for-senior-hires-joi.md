@@ -15,8 +15,16 @@ voice-checked: true---
 
 {% raw %}
 
-
 Joining a distributed team as a senior hire presents unique challenges that differ significantly from office-based onboarding. Without the ability to casually meet colleagues in hallways or observe team dynamics in person, you need a structured approach to ramp up quickly and start delivering value. This 90-day plan template provides a framework for senior developers and leads to integrate effectively into remote teams while building the relationships and context necessary for long-term success.
+
+## Key Takeaways
+
+- **Most remote teams appreciate**: new hires who set clear availability patterns rather than appearing online 24/7.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+- **Discounts of 25-50% are**: common for qualifying organizations.
+- **This 90-day plan template**: provides a framework for senior developers and leads to integrate effectively into remote teams while building the relationships and context necessary for long-term success.
+- **Use async communication for**: everything else.
 
 ## Understanding the Remote Onboarding Challenge
 

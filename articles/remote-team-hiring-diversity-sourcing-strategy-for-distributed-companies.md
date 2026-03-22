@@ -451,6 +451,15 @@ intent-checked: true---
 
 Building diverse remote teams requires more than good intentions—it demands systematic approaches to sourcing, evaluating, and welcoming talent across geographic and cultural boundaries. This guide provides practical strategies for distributed companies committed to building inclusive teams in 2026.
 
+## Key Takeaways
+
+- **Remote onboarding requires extra**: attention to inclusion because new employees miss informal interactions that help integration.
+- **McKinsey's analysis of executive**: teams found that organizations in the top quartile for ethnic diversity outperform those in the bottom quartile by 36% in profitability.
+- **Remote interviews require even**: more structure than in-person meetings because subtle cues like body language are harder to read.
+- **Small improvements compound—moving from**: 15% to 20% diverse hires over two years represents significant organizational change.
+- **Most hiring teams unconsciously**: source from similar channels, resulting in homogeneous teams despite best intentions.
+- **Practical changes to implement**: immediately: - Replace "10 years experience required" with specific skill demonstrations.
+
 ## Why Diversity Sourcing Matters for Remote Teams
 
 Remote work removes geographic barriers that historically limited talent pools. A company based in San Francisco can now hire engineers from Lagos, designers from Buenos Aires, and product managers from Berlin. This expanded access brings both opportunity and responsibility. Companies that implement thoughtful diversity sourcing strategies access wider talent pools, build products for diverse user bases, and create more resilient organizations.

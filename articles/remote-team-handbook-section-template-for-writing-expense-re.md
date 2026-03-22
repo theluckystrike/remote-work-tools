@@ -13,7 +13,17 @@ score: 9
 intent-checked: true
 voice-checked: true---
 
+
 Copy this expense reimbursement template directly into your handbook: list eligible expenses (home office equipment, software, internet, travel, professional development), define submission process (expense tool + receipt within 30 days), set approval tiers by amount ($0-$100 manager-approved, $100-$500 CFO approval, $500+ founder), require specific documentation (date, business purpose, receipt), and commit to reimbursement within 15 days of approval. This structure eliminates the guesswork that otherwise eats up finance team time fielding clarification questions across time zones.
+
+## Key Takeaways
+
+- **A standing desk used**: 80% for work and 20% for personal gaming is 80% reimbursable ($120 of $150).
+- **Manager approval is required**: for receipts over $50.
+- **Approval Workflow | Amount**: | Approver | |--------|----------| | $0 - $100 | Auto-approved (system) | | $101 - $500 | Direct manager | | $501+ | Director + Finance | ### 4.
+- **Document this estimate in**: your submission." ### Software Trial Periods and Refunds Problem: Employee submits receipt for software ($99/year), but cancels after 30 days and gets a refund.
+- **Use the company expense**: system (Name) or email finance@company.com 4.
+- **" + "Submit at**: https://expenses.company.com or email finance@company.com" }; ``` Most modern expense platforms (Expensify, Brex, Rydoo) offer API access for custom integrations.
 
 ## Policy Structure Overview
 

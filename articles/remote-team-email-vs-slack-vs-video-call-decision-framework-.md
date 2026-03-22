@@ -33,6 +33,15 @@ Choose the right communication channel by matching message urgency, complexity, 
 
 Choosing the right communication channel for remote teams directly impacts productivity, response times, and team cohesion. This framework provides engineering managers with a systematic approach to selecting between email, Slack, and video calls based on message urgency, complexity, and team context.
 
+## Key Takeaways
+
+- **Mid-size engineering team (10-50 people**: mostly overlapping hours): Slack becomes more valuable here because enough people are online simultaneously to make synchronous chat productive.
+- **For leadership communication**: recorded video announcements (Loom, Vidyard) scale better than all-hands calls that require hundreds of people across time zones to attend live.
+- **Track your team's meeting**: load weekly—if meetings exceed 25% of core hours, shift more communication to async channels.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+- **If you work with**: sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
+- **Use a decision matrix**: aligned with your team's availability to avoid notification fatigue while maintaining the async-first communication that enables distributed work.
+
 ## The Communication Channel Matrix
 
 Remote teams need clear criteria for channel selection. A poorly chosen medium leads to miscommunication, delayed responses, or unnecessary interruptions. The following matrix helps you match communication type to the appropriate channel:

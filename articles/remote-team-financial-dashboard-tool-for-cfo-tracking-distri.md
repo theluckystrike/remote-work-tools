@@ -31,6 +31,15 @@ score: 9---
 
 Building a financial dashboard for a distributed company requires careful consideration of data sources, real-time processing, and multi-currency handling. This guide covers implementation patterns for CFOs who need accurate, up-to-the-minute visibility into team expenses across multiple locations and time zones.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Set budget thresholds that**: trigger alerts at 75%, 90%, and 100% of allocated amounts.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Vendor Concentration**: Monitor spending distribution across vendors to assess risk and negotiate use.
+
 ## Why Real-Time Expense Tracking Matters for Distributed Companies
 
 Remote and distributed teams generate expenses across numerous categories: contractor payments, software subscriptions, cloud infrastructure, travel, and office allowances. Traditional monthly reconciliation cycles leave CFOs blind to spending trends until it's too late. A well-designed real-time financial dashboard transforms expense management from a reactive chore into a proactive strategic function.

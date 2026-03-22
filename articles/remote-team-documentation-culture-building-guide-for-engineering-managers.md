@@ -33,6 +33,15 @@ Documentation culture doesn't happen by accident. In remote teams, where waterco
 
 This guide provides engineering managers with a practical framework for establishing documentation as a core team practice, not an afterthought.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Outdated docs are worse**: than no docs because they mislead readers.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Teams with strong documentation**: cultures ship faster because they spend less time rediscovering what they already know.
+
 ## Why Documentation Culture Matters for Remote Teams
 
 Remote work amplifies knowledge silos that exist in any organization. When your team spans time zones, the informal knowledge transfer that happens in office hallways simply doesn't occur. New team members spend weeks rather than days getting up to speed. Key decisions live only in the memories—and then the Slack DMs—of whoever participated.

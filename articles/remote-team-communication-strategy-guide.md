@@ -20,6 +20,15 @@ Start by defining a tiered channel hierarchy that separates urgent messages from
 
 This guide provides the specific frameworks, templates, and automation examples you need to implement both strategies immediately.
 
+## Key Takeaways
+
+- **an useful rule**: create new channels only when you have at least 3 distinct conversations that don't fit any existing tier.
+- **Status sharing almost never**: needs synchronous time, and forcing everyone onto a call for it wastes hours weekly across the team.
+- **Use synchronous communication for**: sensitive topics rather than leaving room for misinterpretation 2.
+- **Pick up the phone**: or start a video call when written communication creates confusion 3.
+- **These two foundational practices**: solve the most common remote communication failures: treating every message as urgent and losing decisions in ephemeral chat.
+- **This doesn't mean less communication**: it means better-documented communication.
+
 ## Establishing Communication Channels
 
 Every remote team needs clear channel definitions. Without physical proximity cues, team members must understand exactly where to post different types of information. The cost of ambiguity here is high — when developers don't know where to post something, they either default to DMs (which fragments knowledge) or post everything in the most active channel (which creates noise that drowns out real urgency).

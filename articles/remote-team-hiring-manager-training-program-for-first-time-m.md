@@ -28,7 +28,19 @@ intent-checked: true
 tags: [remote-work-tools, remote-work]---
 
 {% raw %}
+
 Transitioning from individual contributor to hiring manager in a distributed company requires mastering new skills that rarely come up in technical work. Remote hiring involves different tools, communication patterns, and evaluation methods than in-person processes. This guide provides a structured training program to help first-time managers build effective hiring practices for distributed teams.
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **A senior engineer in**: San Francisco might earn $280k while the same level in Austin earns $220k.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **A practical four-stage pipeline**: for technical roles: Stage 1: Portfolio and Written Response Request candidates submit their best work and answer three questions about their approach.
+- **Stage 2**: Async Technical Assessment
+Use take-home challenges or recorded responses to technical questions.
+- **Stage 3**: Synchronous Cultural Fit
+One or two live conversations focused on collaboration style, remote work preferences, and career goals.
 
 ## The Remote Hiring Manager Skill Set
 
