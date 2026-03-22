@@ -100,6 +100,33 @@ Run on a schedule:
   --autodiscover-filter=your-org/*
 ```
 
+**Renovate for Monorepos**
+
+When your team uses a monorepo, Renovate handles multiple package managers in a single run. Set `enabledManagers` to keep things explicit:
+
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "enabledManagers": ["npm", "docker", "github-actions", "terraform"],
+  "ignorePaths": ["**/node_modules/**", "**/fixtures/**"],
+  "packageRules": [
+    {
+      "matchPaths": ["services/api/**"],
+      "groupName": "API service dependencies",
+      "assignees": ["backend-team"]
+    },
+    {
+      "matchPaths": ["services/frontend/**"],
+      "groupName": "Frontend dependencies",
+      "assignees": ["frontend-team"]
+    }
+  ]
+}
+```
+
+This ensures PRs land in front of the right team without everyone getting notified for changes outside their domain.
+
 ---
 
 ## Dependabot (GitHub Native)
@@ -258,6 +285,30 @@ Create `suppression.xml` to suppress false positives:
 </suppressions>
 ```
 
+**Running OWASP Dependency-Check Locally**
+
+For local scans before pushing, run the CLI directly:
+
+```bash
+# Download and run the CLI scanner
+VERSION="9.0.9"
+curl -sL "https://github.com/jeremylong/DependencyCheck/releases/download/v${VERSION}/dependency-check-${VERSION}-release.zip" -o dc.zip
+unzip dc.zip -d /opt/dependency-check
+
+# Scan a Node project
+/opt/dependency-check/bin/dependency-check.sh \
+  --project "myapp" \
+  --scan ./node_modules \
+  --format HTML \
+  --out ./reports \
+  --failOnCVSS 7
+
+# Update the NVD database cache (do this weekly)
+/opt/dependency-check/bin/dependency-check.sh --updateonly
+```
+
+The NVD database download takes several minutes the first time. After that, incremental updates are fast. Cache it on your CI runner to avoid re-downloading on every job.
+
 ---
 
 ## Snyk (Security-First)
@@ -299,6 +350,33 @@ jobs:
           args: --severity-threshold=high --fail-on=upgradable
 ```
 
+**Snyk for Container Images**
+
+Snyk also scans Docker images for OS-level CVEs, which OWASP Dependency-Check misses:
+
+```bash
+# Scan a container image
+snyk container test your-org/your-app:latest \
+  --file=Dockerfile \
+  --severity-threshold=high
+
+# Monitor an image in the Snyk dashboard
+snyk container monitor your-org/your-app:latest \
+  --project-name="production-api"
+```
+
+Add container scanning to your CI pipeline after the image build step:
+
+```yaml
+- name: Scan container image
+  uses: snyk/actions/docker@master
+  env:
+    SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+  with:
+    image: your-org/your-app:${{ github.sha }}
+    args: --severity-threshold=high
+```
+
 ---
 
 ## License Compliance
@@ -329,6 +407,49 @@ go install github.com/google/go-licenses@latest
 go-licenses check ./... --disallowed_types=restricted,forbidden
 ```
 
+**Automating License Reports in CI**
+
+Generate a license report on every PR so legal review can happen before merge rather than after:
+
+```yaml
+# .github/workflows/license-check.yml
+name: License Compliance
+on: [pull_request]
+
+jobs:
+  licenses:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate license report
+        run: |
+          npm install -g license-checker
+          license-checker \
+            --failOn "GPL-2.0;GPL-3.0;AGPL-3.0;LGPL-2.0;LGPL-3.0" \
+            --excludePrivatePackages \
+            --csv \
+            --out licenses.csv
+
+      - name: Upload license report
+        uses: actions/upload-artifact@v4
+        with:
+          name: license-report
+          path: licenses.csv
+```
+
+Keep a `license-allowlist.txt` in your repo with approved licenses. Run `license-checker` against the allowlist on every merge to main:
+
+```bash
+# Strict allowlist approach
+license-checker \
+  --onlyAllow "MIT;ISC;BSD-2-Clause;BSD-3-Clause;Apache-2.0;0BSD;CC0-1.0" \
+  --excludePrivatePackages
+```
+
 ---
 
 ## Tool Comparison
@@ -341,6 +462,74 @@ go-licenses check ./... --disallowed_types=restricted,forbidden
 | Snyk | Security + fixes | No | Security-first teams |
 
 Use Renovate or Dependabot for updates, OWASP or Snyk for vulnerability scanning — they complement each other.
+
+## Dependency Update Workflow for Async Remote Teams
+
+The biggest failure mode for remote teams isn't tooling — it's process. PRs opened by Renovate or Dependabot sit unreviewed for days because no one owns them. Fix this with explicit ownership rules.
+
+Set a standing agenda item in your weekly async update (Loom, Notion, or Slack thread) for dependency PR status. The assigned reviewer for the week checks pending dependency PRs each Monday and either merges, comments with a block reason, or escalates to the full team. This simple rotation prevents dependency debt from silently accumulating.
+
+Use branch protection rules to enforce that dependency PRs pass CI before merge:
+
+```yaml
+# .github/branch-protection.json (configure via gh CLI or Terraform)
+{
+  "required_status_checks": {
+    "strict": true,
+    "contexts": [
+      "test",
+      "lint",
+      "security-scan"
+    ]
+  },
+  "required_pull_request_reviews": {
+    "dismiss_stale_reviews": true,
+    "required_approving_review_count": 1
+  }
+}
+```
+
+For dependency PRs specifically, one approval is usually sufficient — the CI pipeline is the real gatekeeper. Reserve two-approval requirements for application code changes.
+
+---
+
+## Tracking Dependency Health Over Time
+
+Point-in-time scans don't tell you whether your dependency posture is improving or degrading. Add a weekly dependency health report to your team dashboard:
+
+```bash
+#!/bin/bash
+# dependency-health.sh — outputs a summary suitable for Slack or Notion
+echo "=== Dependency Health Report $(date +%Y-%m-%d) ==="
+
+# Count open Dependabot/Renovate PRs
+echo "Open dependency PRs:"
+gh pr list \
+  --label dependencies \
+  --state open \
+  --json number,title,createdAt \
+  --jq '.[] | "\(.number): \(.title) (opened \(.createdAt[:10]))"'
+
+echo ""
+echo "PRs older than 14 days:"
+gh pr list \
+  --label dependencies \
+  --state open \
+  --json number,title,createdAt \
+  --jq '.[] | select((.createdAt | fromdateiso8601) < (now - 1209600)) | "\(.number): \(.title)"'
+```
+
+Post this report to a `#dependency-updates` Slack channel every Monday. The act of making the backlog visible reduces it — teams that track open dependency PRs consistently close them faster than teams that rely on email notifications alone.
+
+---
+
+## Choosing the Right Stack for Your Team Size
+
+For a team of 1–5 engineers, Dependabot plus Snyk free tier covers the essentials with zero infrastructure overhead. Add license-checker to CI and you have full coverage.
+
+For teams of 6–20 engineers working across multiple repos or a monorepo, Renovate's grouping and scheduling control saves significant review time. Self-host it on a small VM or run it via GitHub Actions on a cron schedule.
+
+For teams of 20+ or those in regulated industries (fintech, healthcare), add OWASP Dependency-Check for offline CVE scanning and generate formal license reports quarterly using go-licenses or pip-licenses depending on your stack. Snyk's paid tier adds policy enforcement, so security requirements can be defined once and applied across all repos automatically.
 
 ---
 
