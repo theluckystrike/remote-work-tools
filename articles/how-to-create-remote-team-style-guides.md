@@ -305,6 +305,99 @@ The key to a style guide that engineers follow is: automate what you enforce str
 
 Trying to enforce naming conventions with AST tools leads to engineer frustration. Document them clearly, mention them in onboarding, and leave them for code review feedback.
 
+## Onboarding New Engineers to the Style Guide
+
+The style guide is useless if new engineers don't know it exists. A structured onboarding checklist is the difference between absorbing conventions in week one versus discovering them through painful PR feedback over three months.
+
+**Onboarding checklist for style guide:**
+
+```markdown
+## Engineering Onboarding — Style Guide Checklist
+
+- [ ] Read CONTRIBUTING.md top to bottom
+- [ ] Run the linter locally: `make lint` passes on your machine
+- [ ] Install pre-commit hooks: `pre-commit install`
+- [ ] Read the commit message guide — make your first commit pass commitlint
+- [ ] Shadow one code review: observe how comments are structured
+- [ ] Submit a PR using the PR template
+- [ ] Read the naming conventions doc once (not memorize, just read)
+```
+
+**Pre-commit hooks** catch issues locally before they reach CI, which is faster and less demoralizing than a failed CI run:
+
+```bash
+# Install pre-commit
+pip install pre-commit
+
+# .pre-commit-config.yaml
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.3.0
+    hooks:
+      - id: ruff
+      - id: ruff-format
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.9.0
+    hooks:
+      - id: mypy
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v3.16.0
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]
+```
+
+Running `pre-commit install` once sets up the hooks. Every commit gets validated before it leaves the developer's machine.
+
+## Style Guide Tooling Comparison
+
+Different team setups warrant different tool choices. Here is a comparison of the most common options across the stack:
+
+| Tool | Language | Enforces | CI Speed | Notes |
+|---|---|---|---|---|
+| Ruff | Python | Format + lint | Fast | Replaces flake8, isort, black |
+| Mypy | Python | Types | Moderate | Strict mode catches most type bugs |
+| ESLint | TypeScript/JS | Lint | Fast | Plugin ecosystem is large |
+| Prettier | TypeScript/JS | Format | Very fast | Zero config for most projects |
+| commitlint | Any | Commit msg | Fast | Requires npm even in Python repos |
+| golangci-lint | Go | Lint + format | Fast | Wraps 50+ Go linters |
+| RuboCop | Ruby | Lint + format | Moderate | Large rule set, tune carefully |
+| Clippy | Rust | Lint | Fast | Built into the Rust toolchain |
+
+For most Python projects, Ruff + Mypy covers 95% of automated enforcement. For TypeScript, ESLint + Prettier + commitlint is the standard setup.
+
+## API Design Conventions in Practice
+
+API consistency problems compound in remote teams. When engineers are not in the same room, they implement endpoints independently and the inconsistencies multiply across services. Document these conventions in the style guide and include worked examples of right versus wrong:
+
+**Error response format — be explicit:**
+
+```json
+// Correct: structured error with machine-readable code
+{
+  "error": {
+    "code": "PAYMENT_DECLINED",
+    "message": "Payment was declined by the card issuer.",
+    "details": {
+      "decline_code": "insufficient_funds"
+    }
+  }
+}
+
+// Wrong: freeform string, unstructured
+{
+  "error": "Something went wrong with your payment"
+}
+```
+
+**Versioning strategy — pick one and document it:**
+
+- URL versioning (`/v1/users`, `/v2/users`) — most common, easy to route
+- Header versioning (`Accept: application/vnd.company.v2+json`) — clean URLs, harder to test in a browser
+- Query param (`?version=2`) — avoid; hard to cache and inconsistent
+
+Document which approach your team uses. Engineers creating new endpoints need to know without asking.
+
 ## Related Reading
 
 - [Async Code Review Process Without Zoom Calls](/async-code-review-process-without-zoom-calls-step-by-step/)
