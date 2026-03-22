@@ -40,7 +40,17 @@ Remote work doesn't require the 1 Gbps fiber connection you'd think. Most tasks 
 - **Most tasks run on**: 25-50 Mbps with proper bandwidth management.
 - **A 50ms latency won't**: affect Docker pull speed.
 
-## Understanding Bandwidth vs. Latency vs. Jitter
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Bandwidth vs. Latency vs. Jitter
 
 Before examining specific tasks, clarify three network metrics:
 
@@ -235,7 +245,7 @@ If you stream your development work (coding tutorials, pair programming):
 
 **Observation:** Most home ISPs have terrible upload speeds. If you stream, test upload with `speedtest.net`. If upload is < 5 Mbps, streaming at 720p will be choppy.
 
-## Real-World Scenarios
+### Step 2: Real-World Scenarios
 
 **Scenario 1: Typical Knowledge Worker**
 - Task: Email, Slack, one 720p video call, screen sharing, Google Docs
@@ -256,7 +266,7 @@ If you stream your development work (coding tutorials, pair programming):
 - ISP requirement: 100 Mbps down to avoid congestion
 - Budget for WiFi: Use 5 GHz band, position close to router
 
-## Testing Your Connection
+### Step 3: Test Your Connection
 
 **Step 1: Test bandwidth**
 ```bash
@@ -304,7 +314,7 @@ ping -c 10 8.8.8.8
 # If WiFi is significantly slower, use Ethernet for critical work
 ```
 
-## Recommendations by ISP Speed Tier
+### Step 4: Recommendations by ISP Speed Tier
 
 **25 Mbps down / 3 Mbps up (basic broadband):**
 - Suitable for: Email, Slack, audio calls, light web browsing
@@ -324,7 +334,7 @@ ping -c 10 8.8.8.8
 - Suitable for: Everything, including 4K video streaming, large file transfers, no bottleneck
 - Overkill for: Solo remote work (not necessary)
 
-## Minimizing Bandwidth Usage
+### Step 5: Minimizing Bandwidth Usage
 
 If your ISP connection is limited (< 25 Mbps), optimize:
 
@@ -345,6 +355,21 @@ If your ISP connection is limited (< 25 Mbps), optimize:
 **For cloud IDEs:**
 - Use local VS Code with remote SSH if latency is high (better responsiveness)
 - Avoid large file operations in cloud IDE; use local git instead
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

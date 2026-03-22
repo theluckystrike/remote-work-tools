@@ -40,7 +40,17 @@ This guide covers the complete Terraform setup for remote teams: S3 backend with
 - **Mastering advanced features takes**: 1-2 weeks of regular use.
 - **This guide covers the**: complete Terraform setup for remote teams: S3 backend with DynamoDB locking, workspace separation, reusable modules, and GitHub Actions integration.
 
-## Remote State with S3 and DynamoDB Locking
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Remote State with S3 and DynamoDB Locking
 
 Local `terraform.tfstate` files break immediately in a team. Two people cannot run `terraform apply` simultaneously without corrupting state. S3 + DynamoDB gives you shared state with pessimistic locking.
 
@@ -77,7 +87,7 @@ aws dynamodb create-table \
   --billing-mode PAY_PER_REQUEST
 ```
 
-## Backend Configuration
+### Step 2: Backend Configuration
 
 ```hcl
 # backend.tf — add to every Terraform project
@@ -103,7 +113,7 @@ terraform {
 
 Each project uses a unique `key` path. Convention: `project/environment/terraform.tfstate`.
 
-## Workspace Strategy for Environment Separation
+### Step 3: Workspace Strategy for Environment Separation
 
 ```bash
 # Create workspaces for each environment
@@ -149,7 +159,7 @@ resource "aws_instance" "app" {
 }
 ```
 
-## Reusable Module Structure
+### Step 4: Reusable Module Structure
 
 Modules prevent copy-paste infrastructure across environments and projects.
 
@@ -229,7 +239,7 @@ module "compute" {
 }
 ```
 
-## Variables and Secrets
+### Step 5: Variables and Secrets
 
 ```hcl
 # variables.tf
@@ -274,7 +284,7 @@ resource "aws_db_instance" "main" {
 }
 ```
 
-## GitHub Actions CI/CD
+### Step 6: GitHub Actions CI/CD
 
 ```yaml
 # .github/workflows/terraform.yml
@@ -385,7 +395,7 @@ jobs:
 
 The plan runs on every PR (showing the diff as a comment). The apply runs only on merge to `main`, and the `environment: production` gate requires manual approval from a configured reviewer.
 
-## State Import: Bring Existing Infrastructure Under Control
+### Step 7: State Import: Bring Existing Infrastructure Under Control
 
 ```bash
 # Import existing AWS resources into Terraform state
@@ -403,6 +413,21 @@ terraform import aws_db_instance.main mydb
 # After import, run plan — should show no changes if config matches reality
 terraform plan -var-file="production.tfvars"
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

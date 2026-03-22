@@ -71,7 +71,17 @@ Total: 580-1020W
 
 To estimate runtime, divide the UPS capacity (in VA or Wh) by your total wattage. A 1000VA UPS running at 50% load (a good practice for longevity) powering a 300W workstation gives you roughly 15-25 minutes of runtime—enough to save your work and shut down cleanly.
 
-## Choosing the Right UPS Type for 2026
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Choose the Right UPS Type for 2026
 
 Three UPS topologies dominate the consumer and prosumer market. Here's how they compare for home office use:
 
@@ -83,7 +93,7 @@ Three UPS topologies dominate the consumer and prosumer market. Here's how they 
 
 For most developers in 2026, a **line-interactive UPS in the 1000-1500VA range** hits the best balance of protection, runtime, and cost. Brands like APC (now Schneider Electric), CyberPower, and Eaton offer reliable units with USB connectivity for computer-controlled shutdown.
 
-## Practical Integration: Connecting Your Setup
+### Step 2: Practical Integration: Connecting Your Setup
 
 Modern UPS units include USB or network management cards that allow your computer to communicate with the UPS. This enables automatic shutdown scripts, runtime monitoring, and controlled power cycling.
 
@@ -141,7 +151,7 @@ Get-CimInstance -Namespace root/wmi -ClassName BatteryStatus |
 
 This integrates with your monitoring stack if you run Prometheus/Grafana for system metrics.
 
-## Runtime Testing and Maintenance
+### Step 3: Run time Testing and Maintenance
 
 Buying an UPS is only the beginning. Proper setup requires testing and ongoing maintenance:
 
@@ -151,7 +161,7 @@ Buying an UPS is only the beginning. Proper setup requires testing and ongoing m
 
 **Battery Replacement Cycle** — Lead-acid batteries in consumer UPS units last 3-5 years. Lithium-ion options in premium units can last 8-10 years but cost more upfront. Replace batteries when runtime drops below 50% of original specs, or when the UPS signals battery failure.
 
-## Smart Power Management for Development Workflows
+### Step 4: Smart Power Management for Development Workflows
 
 Beyond simple shutdown, you can integrate UPS status into your development practices:
 
@@ -188,7 +198,7 @@ services:
 
 **Skipping the user manual** — Each UPS model has specific load limits, runtime curves, and compatibility requirements. The manual takes 10 minutes to read and prevents costly mistakes.
 
-## UPS Product Recommendations and Pricing (2026)
+### Step 5: UPS Product Recommendations and Pricing (2026)
 
 **Best Budget Option: CyberPower CP1500PFCLCD ($70-90)**
 - Capacity: 1500VA (865W)
@@ -248,7 +258,7 @@ Add-on: **Extra battery pack** ($80-120) if you need 40+ minutes runtime
 - Doubles runtime to 40-50 minutes
 - Useful if you run services you need to cleanly shut down
 
-## Installation and Testing Procedure
+### Step 6: Install ation and Testing Procedure
 
 **Step 1: Physical Setup (15 minutes)**
 1. Unpack UPS, remove shipping bolts/brackets
@@ -336,7 +346,7 @@ Result: ✓ Within expected range
  - Graceful shutdown executed
 4. Reconnect, verify nothing was corrupted
 
-## Monitoring and Maintenance
+### Step 7: Monitor and Maintenance
 
 **Monthly Check**
 - Verify UPS powers on (LED lights, beep)
@@ -421,6 +431,21 @@ services:
 ```
 
 When UPS battery is low, containers have 30 seconds to commit in-flight transactions before being shut down.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

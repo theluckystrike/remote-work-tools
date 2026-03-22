@@ -58,13 +58,23 @@ Middle management positions fail most often in remote organizations because:
 
 The antidote is structure. Clear scope, explicit authority, phased responsibility expansion, and executive alignment all reduce failure risk.
 
-## Understanding the Middle Layer Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Middle Layer Challenge
 
 The position of middle manager in a remote organization carries inherent tensions that don't exist in traditional management tracks. You're simultaneously expected to advocate for your team upward while driving organizational objectives downward. Your former peers now report to you, creating awkward dynamics that require deliberate navigation. And you sit far enough from executive decisions that you'll constantly face the challenge of translating strategic direction into tactical guidance.
 
 Remote environments amplify these challenges. Without the benefit of casual hallway conversations or in-person observation, middle managers must be more deliberate about staying informed and visible. The async-first communication culture that works for ICs requires adaptation when you're responsible for team health and output.
 
-## Defining the Role Before You Hire
+### Step 2: Defining the Role Before You Hire
 
 Most middle management failures start with unclear scope. Before hiring or promoting into the role, answer these questions:
 
@@ -92,7 +102,7 @@ Most middle management failures start with unclear scope. Before hiring or promo
 
 Document this explicitly. Your new middle manager can't succeed if they don't know the boundaries of their authority or what success looks like in their role.
 
-## Pre-Start Preparation: Setting Up Systems
+### Step 3: Pre-Start Preparation: Setting Up Systems
 
 Before your new middle manager's first day, prepare the technical and informational infrastructure they'll need. This isn't optional overhead—it's foundational to their success.
 
@@ -116,7 +126,7 @@ Ensure access to the following systems is provisioned in advance:
 # Create onboarding ticket template for new middle managers
 # This should be completed 1 week before start date
 
-## Required Access清单
+### Step 4: Required Access清单
 - [ ] Primary project management tool (Jira/Linear/Asana)
 - [ ] Code review platform (GitHub/GitLab/Bitbucket)
 - [ ] Communication tools (Slack/Teams with appropriate channels)
@@ -137,7 +147,7 @@ Prepare a context document containing:
 4. **Key stakeholders** with their communication preferences and time zones
 5. **Current priorities** and why they were chosen
 
-## First Week: Observation and Orientation
+### Step 5: First Week: Observation and Orientation
 
 The first week should prioritize learning over contributing. Your new middle manager needs to absorb context before they can add value.
 
@@ -171,7 +181,7 @@ Not all meetings carry equal value. Prioritize these in the first week:
 
 Avoid the temptation to make changes in week one. Resist offering opinions until you've built sufficient context.
 
-## Weeks Two and Three: Relationship Building
+### Step 6: Weeks Two and Three: Relationship Building
 
 The middle management role succeeds or fails based on relationships. Remote managers must be intentional about creating connection without the benefit of physical proximity.
 
@@ -182,18 +192,18 @@ Establish a 1:1 schedule with each direct report within the first two weeks. Use
 ```markdown
 # 1:1 Meeting Template
 
-## Check-in (5 min)
+### Step 7: Check-in (5 min)
 - How are you feeling about work this week?
 - Any blockers I can help remove?
 
-## Updates (10 min)
+### Step 8: Updates (10 min)
 - What did you accomplish since our last meeting?
 - What are you working on next?
 
-## Discussion (15 min)
+### Step 9: Discussion (15 min)
 - Topic: [pre-arranged or spontaneous]
 
-## Action Items
+### Step 10: Action Items
 - [ ] Action owner: deadline
 ```
 
@@ -206,7 +216,7 @@ Create a stakeholders document answering these questions about each person you'l
 - What information do they need that I can provide?
 - What boundaries should I respect?
 
-## Weeks Four Through Eight: Gradual Ownership
+### Step 11: Weeks Four Through Eight: Gradual Ownership
 
 Begin taking ownership of specific responsibilities while maintaining close alignment with your director.
 
@@ -215,7 +225,7 @@ Begin taking ownership of specific responsibilities while maintaining close alig
 When assuming responsibilities from a director or predecessor, use this approach:
 
 ```markdown
-## Responsibility Handoff: [Area Name]
+### Step 12: Responsibility Handoff: [Area Name]
 
 ### Current State
 - How is this currently handled?
@@ -244,7 +254,7 @@ One of the highest-value early deliverables is establishing your communication p
 - What's your expected response time for async messages?
 - How will you share upward updates with leadership?
 
-## Common Pitfalls to Avoid
+### Step 13: Common Pitfalls to Avoid
 
 ### Trying to Prove Yourself as a Manager
 
@@ -260,7 +270,7 @@ The relationship with former peers requires deliberate reconstruction. They may 
 
 While async communication is essential in remote teams, new middle managers sometimes lean too heavily on it. Some conversations—difficult feedback, conflict resolution, sensitive personnel matters—benefit from synchronous discussion, even if that means coordinating across time zones.
 
-## Measuring Success in the First 90 Days
+### Step 14: Measuring Success in the First 90 Days
 
 Establish clear success criteria with your director during onboarding:
 
@@ -292,6 +302,21 @@ Many new managers struggle most between months 4-6, when initial honeymoon fades
 - Plan 6-month improvements: Where will you focus next?
 
 The first year of middle management determines whether the role succeeds. Ongoing support from your director matters far more than initial onboarding. Ask for regular check-ins (monthly or bi-weekly) throughout year one.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

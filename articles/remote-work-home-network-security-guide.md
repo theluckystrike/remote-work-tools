@@ -54,7 +54,17 @@ Total investment: $150-379 one-time + $2/month
 
 Your company likely spends $10,000+ per year protecting the office network.
 
-## Layer 1: Router Hardening (Prerequisite)
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Layer 1: Router Hardening (Prerequisite)
 
 Before VLANs, DNS filtering, or any advanced setup, start here.
 
@@ -126,7 +136,7 @@ Before VLANs, DNS filtering, or any advanced setup, start here.
 
 ---
 
-## Layer 2: VLAN Segmentation (Isolate IoT/Guests)
+### Step 2: Layer 2: VLAN Segmentation (Isolate IoT/Guests)
 
 VLANs create virtual networks on the same physical router. Different VLANs can't communicate unless explicitly allowed.
 
@@ -222,7 +232,7 @@ vs. replacement of compromised work laptop: $1200+
 
 ---
 
-## Layer 3: DNS Filtering (Block Malware at Query Level)
+### Step 3: Layer 3: DNS Filtering (Block Malware at Query Level)
 
 DNS filtering intercepts domain lookups and blocks known malicious sites before connection happens.
 
@@ -315,7 +325,7 @@ Use **Cloudflare 1.1.1.2** (free) as default, upgrade to **NextDNS** ($1.99/mont
 
 ---
 
-## Layer 4: VPN for Work Devices (Defense in Depth)
+### Step 4: Layer 4: VPN for Work Devices (Defense in Depth)
 
 Even with network segmentation, your work laptop should have a VPN. This provides encryption for work traffic.
 
@@ -363,7 +373,7 @@ Even with network segmentation, your work laptop should have a VPN. This provide
 
 ---
 
-## Layer 5: Guest Network (Isolate Visitors)
+### Step 5: Layer 5: Guest Network (Isolate Visitors)
 
 Most routers have guest networks. Enable it.
 
@@ -404,7 +414,7 @@ Password generation:
 
 ---
 
-## Layer 6: Firewall Rules (Block Unnecessary Connections)
+### Step 6: Layer 6: Firewall Rules (Block Unnecessary Connections)
 
 Modern routers have built-in firewalls. Configure them properly.
 
@@ -447,7 +457,7 @@ Deny:  Guest → Work (prevents visitor device attacks)
 
 ---
 
-## Complete Setup Costs
+### Step 7: Complete Setup Costs
 
 ### Budget Option (Using Existing Router)
 
@@ -501,7 +511,7 @@ Benefits:
 
 ---
 
-## Implementation Checklist
+### Step 8: Implementation Checklist
 
 **Week 1: Basic Hardening**
 - [ ] Change router admin password
@@ -558,7 +568,7 @@ Solution:
 
 ---
 
-## Monitoring and Maintenance
+### Step 9: Monitor and Maintenance
 
 ### Monthly Tasks
 ```bash
@@ -618,7 +628,7 @@ Solution:
 
 ---
 
-## Bottom Line
+### Step 10: Bottom Line
 
 A well-configured home network is critical for remote work security:
 
@@ -634,7 +644,7 @@ Your company likely spends $10,000+ per year protecting the office network. Your
 
 ---
 
-## Tool Quick Reference
+### Step 11: Tool Quick Reference
 
 | Tool | Purpose | Cost | Setup |
 |------|---------|------|-------|

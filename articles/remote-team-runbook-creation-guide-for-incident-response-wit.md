@@ -30,7 +30,17 @@ This front-matter style approach allows teams to scan the critical path quickly.
 1.
 - **If step 3 requires**: SSH access and you don't have keys configured, you'll discover this during a game day, not during a real incident.
 
-## Building the Response Workflow
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Build the Response Workflow
 
 Every runbook should follow a clear sequence: Detect, Assess, Act, Escalate, Communicate. Let's break each step for distributed teams.
 
@@ -73,7 +83,7 @@ Account for time zone gaps explicitly. Your escalation matrix should look like:
 
 This clarity prevents the "should I wake someone up?" paralysis that plagues distributed teams.
 
-## Handling Handoffs Between Time Zones
+### Step 2: Handling Handoffs Between Time Zones
 
 The trickiest part of distributed on-call is the transition period. When the San Francisco engineer hands off to the London engineer, critical context often gets lost. Build explicit handoff requirements:
 
@@ -84,7 +94,7 @@ The trickiest part of distributed on-call is the transition period. When the San
 Here's a simple handoff template:
 
 ```markdown
-## On-Call Handoff - [Date]
+### Step 3: On-Call Handoff - [Date]
 
 ### Active Issues
 - JIRA-1234: Memory leak in payment service, monitoring closely
@@ -101,7 +111,7 @@ Here's a simple handoff template:
 ### Handoff Acknowledged By: ___________
 ```
 
-## Testing Your Runbooks
+### Step 4: Test Your Runbooks
 
 A runbook that hasn't been tested is just documentation. Build testing into your routine:
 
@@ -111,7 +121,7 @@ Game days: Deliberately trigger non-production incidents and follow the runbook 
 
 Chaos engineering: If you use tools like Chaos Monkey or Gremlin, use the same runbooks you'd use in production. The real test is whether your documentation survives real conditions.
 
-## Automating Runbook Steps
+### Step 5: Automate Runbook Steps
 
 Where possible, reduce manual steps to commands. If your runbook says "restart the service and check logs," consider wrapping this into a script:
 
@@ -140,7 +150,7 @@ exit 1
 
 This script returns a clear exit code that your monitoring can interpret. The runbook becomes: "Run `./restart-and-verify.sh api production`" instead of a multi-step manual process.
 
-## Maintaining Runbooks Over Time
+### Step 6: Maintaining Runbooks Over Time
 
 Runbooks decay. Systems change, commands become outdated, and escalation contacts shift. Build review cadence into your workflow:
 
@@ -150,7 +160,7 @@ Runbooks decay. Systems change, commands become outdated, and escalation contact
 
 Track changes with version control. When someone proposes a runbook update, the diff shows exactly what changed—this matters when you're trusting this document during a stressful incident.
 
-## Common Pitfalls to Avoid
+### Step 7: Common Pitfalls to Avoid
 
 Several patterns reduce runbook effectiveness in distributed teams:
 
@@ -159,14 +169,14 @@ Several patterns reduce runbook effectiveness in distributed teams:
 - Single points of failure: If one person wrote all your runbooks and leaves, you have a knowledge gap. Distribute runbook ownership across the team.
 - Perfectionism: A good runbook that exists beats a perfect runbook that doesn't. Start with the basics and iterate.
 
-## Runbook Template and Examples
+### Step 8: Run book Template and Examples
 
 Here's a complete runbook template optimized for distributed teams:
 
 ```markdown
 # [Service Name] Incident Runbook
 
-## Quick Facts
+### Step 9: Quick Facts
 - **Owner**: [Team name]
 - **On-Call**: [Name] (until [timezone]/time)
 - **Escalation**: [Manager name] if owner unreachable
@@ -175,19 +185,19 @@ Here's a complete runbook template optimized for distributed teams:
  - Metrics: [Link]
  - Deployment history: [Link]
 
-## Detection Symptoms
+### Step 10: Detection Symptoms
 - Error rate above X% for more than 2 minutes
 - P99 latency exceeds Yms consistently
 - Specific error message pattern: [example]
 
-## Immediate Actions (First 60 Seconds)
+### Step 11: Immediate Actions (First 60 Seconds)
 1. Acknowledge alert in PagerDuty
 2. Check deployment status: `./scripts/check-deploy-status.sh`
 3. Review last 10 commits: `git log --oneline -10`
 4. Measure current error rate and latency
 5. Decide: Is this a rollback situation?
 
-## Decision Tree
+### Step 12: Decision Tree
 ```
 IF error_rate > 10%:
   THEN follow: Quick Rollback procedure
@@ -202,7 +212,7 @@ ELSE IF latency high BUT error_rate normal:
   THEN check: Resource utilization, recent deploys
 ```
 
-## Rollback Procedure
+### Step 13: Rollback Procedure
 ```bash
 # On-call engineer with deploy access runs:
 # Verify current state
@@ -220,17 +230,17 @@ kubectl rollout status deployment/[service] -n production
 curl https://api.example.com/health
 ```
 
-## Database Issues Procedure
+### Step 14: Database Issues Procedure
 - Check connection pool: `SELECT count(*) FROM pg_stat_activity;`
 - Look for long-running queries: `SELECT query, duration FROM pg_stat_statements;`
 - If queue building: Scale read replicas or restart pool
 
-## Cache Issues Procedure
+### Step 15: Cache Issues Procedure
 - Redis: Check memory with `redis-cli INFO memory`
 - Memcached: Review eviction rate and hit ratio
 - If full: Flush non-critical cache or scale up
 
-## Escalation Checklist
+### Step 16: Escalation Checklist
 Before escalating, complete:
 - [ ] Deployed most recent stable version
 - [ ] Checked dependency health (database, cache, external APIs)
@@ -242,7 +252,7 @@ If still unresolved after 15 minutes, escalate to:
 [Manager name] or [CTO name] based on severity and time of day
 ```
 
-## Infrastructure Documentation System
+### Step 17: Infrastructure Documentation System
 
 Many teams fail to maintain runbooks because documentation feels like overhead. Instead, integrate runbooks into daily workflow:
 
@@ -275,7 +285,7 @@ runbooks/
 
 This approach ensures runbooks stay current because they're treated like production code, not separate documentation.
 
-## Tools That Support Runbook Integration
+### Step 18: Tools That Support Runbook Integration
 
 | Tool | Strength | Cost | Best For |
 |------|----------|------|----------|
@@ -310,7 +320,7 @@ False Alarm Rate:
 - Runbooks should include false-alarm-specific steps
 ```
 
-## Example: Complete Service Runbook
+### Step 19: Example: Complete Service Runbook
 
 ```markdown
 # Payment Service Incident Runbook
@@ -319,7 +329,7 @@ False Alarm Rate:
 Processes customer transactions. Handles ~1000 requests/second peak.
 Data loss is critical—always check database consistency before restart.
 
-## Symptoms → Actions
+### Step 20: Symptoms → Actions
 1. "Payment declined" errors increasing
  → Check Stripe API status (external issue likely)
  → Check our service health dashboard
@@ -335,13 +345,13 @@ Data loss is critical—always check database consistency before restart.
  → Restart replica sync if lag doesn't clear
  → If persists, escalate to database team
 
-## Critical Checks
+### Step 21: Critical Checks
 Before ANY restart or config change, verify:
 - [ ] No active transactions in database: `SELECT count(*) FROM transactions WHERE status = 'processing'`
 - [ ] Recent backups present: `ls -la /backups/payment/`
 - [ ] Slack notification posted to #payment-incidents
 
-## Rollback Decision
+### Step 22: Rollback Decision
 Rollback if:
 - Error rate jumped >50% after recent deploy
 - Payment success rate dropped below 98%
@@ -352,14 +362,14 @@ DO NOT rollback if:
 - Issue is in external dependency (Stripe API)
 - Database migrations are involved (rollback only on instruction)
 
-## Escalation
+### Step 23: Escalation
 After 10 minutes if unresolved:
 - Notify [Team Lead] in Slack @mention
 - After 15 minutes: Page [Manager]
 - After 25 minutes: Page [CTO] if tier-1 revenue impact
 ```
 
-## Post-Incident Runbook Review Process
+### Step 24: Post-Incident Runbook Review Process
 
 After every incident, improve your runbooks:
 
@@ -382,6 +392,21 @@ Action items from review:
 Update runbook same week while incident is fresh.
 ```
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

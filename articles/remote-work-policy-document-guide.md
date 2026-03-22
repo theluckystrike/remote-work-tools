@@ -41,7 +41,17 @@ This guide walks through writing a complete remote work policy and provides a te
 - **Approved Work Locations ###**: Primary Location Employees must designate a primary work address and notify HR of changes within 10 business days.
 - **Urgent issues marked with**: [URGENT] in Slack require response within 1 hour during the employee's working day.
 
-## What a Remote Work Policy Covers
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: What a Remote Work Policy Covers
 
 A complete policy addresses seven areas:
 
@@ -53,10 +63,10 @@ A complete policy addresses seven areas:
 6. Performance standards — how remote work is evaluated
 7. Policy violations — what happens when rules are not followed
 
-## Section 1: Eligibility
+### Step 2: Section 1: Eligibility
 
 ```markdown
-## 1. Eligibility
+### Step 3: 1. Eligibility
 
 Remote work is available to permanent employees who have completed their 90-day
 onboarding period and whose role can be performed remotely without significant
@@ -71,10 +81,10 @@ Employees on a performance improvement plan are not eligible for remote work
 until the plan is successfully completed.
 ```
 
-## Section 2: Work Location
+### Step 4: Section 2: Work Location
 
 ```markdown
-## 2. Approved Work Locations
+### Step 5: 2. Approved Work Locations
 
 ### Primary Location
 Employees must designate a primary work address and notify HR of changes within
@@ -106,10 +116,10 @@ Short-term travel (under 14 days) does not require pre-approval but must not
 conflict with attendance requirements.
 ```
 
-## Section 3: Availability and Communication
+### Step 6: Section 3: Availability and Communication
 
 ```markdown
-## 3. Availability Expectations
+### Step 7: 3. Availability Expectations
 
 ### Core Hours
 All remote employees are expected to be available for synchronous communication
@@ -136,10 +146,10 @@ Employees must update their calendar with working hours and vacation days so
 teammates can see availability without asking.
 ```
 
-## Section 4: Equipment and Expenses
+### Step 8: Section 4: Equipment and Expenses
 
 ```markdown
-## 4. Equipment and Expense Policy
+### Step 9: 4. Equipment and Expense Policy
 
 ### Company-Provided Equipment
 The company provides:
@@ -165,7 +175,7 @@ approval and a receipt. Monthly co-working memberships up to $300/month require
 advance manager approval.
 ```
 
-## Section 5: Security
+### Step 10: Section 5: Security
 
 ```markdown
 ## 5. Security Requirements
@@ -195,10 +205,10 @@ Lost or stolen devices must be reported to IT within 2 hours of discovery.
 IT will initiate a remote wipe. Reporting delays may result in disciplinary action.
 ```
 
-## Section 6: Performance Standards
+### Step 11: Section 6: Performance Standards
 
 ```markdown
-## 6. Performance and Accountability
+### Step 12: 6. Performance and Accountability
 
 Remote work does not change performance expectations. Employees are evaluated
 on outcomes, deliverables, and team collaboration — not hours online.
@@ -221,10 +231,10 @@ Employees must complete:
 - Quarterly goal review with manager
 ```
 
-## Section 7: Policy Violations
+### Step 13: Section 7: Policy Violations
 
 ```markdown
-## 7. Policy Violations
+### Step 14: 7. Policy Violations
 
 Violations of this policy are handled through the company's standard progressive
 discipline process:
@@ -239,7 +249,7 @@ Employees are encouraged to raise concerns about policy clarity with their
 manager or HR before violations occur.
 ```
 
-## Distribution and Acknowledgment
+### Step 15: Distribution and Acknowledgment
 
 ```bash
 # After drafting the policy, distribute for acknowledgment
@@ -262,6 +272,21 @@ Keep the policy under 3,000 words. Long policies get skimmed and ignored. If a s
 Avoid vague language like "reasonable" or "appropriate" without defining what those mean. A phrase like "respond to messages in a reasonable time" is unenforceable. "Respond within 4 business hours" is not.
 
 Review the policy with a lawyer before publishing if your team spans multiple countries. Employment law varies significantly — a policy clause that is standard in the US may conflict with local labor law in Germany, France, or Brazil.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

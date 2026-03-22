@@ -40,7 +40,17 @@ Coordinating penetration testing across distributed security teams presents uniq
 - **Mastering advanced features takes**: 1-2 weeks of regular use.
 - **Public channels expose your**: methodology; mixed channels confuse status updates.
 
-## Establishing Secure Communication Channels
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Establishing Secure Communication Channels
 
 Before any testing begins, your team needs a dedicated communication infrastructure that doesn't leak information about ongoing assessments. Public channels expose your methodology; mixed channels confuse status updates.
 
@@ -52,7 +62,7 @@ Coordinate penetration testing for distributed systems by defining clear testing
 
 All coordination happens in dedicated rooms with end-to-end encryption enabled. Penetration test findings never enter public project management tools until remediation begins. Use randomly generated room codes rather than predictable naming conventions that could leak information.
 
-## Scope Definition and Rules of Engagement
+### Step 2: Scope Definition and Rules of Engagement
 
 Remote coordination demands explicit scope documentation that prevents both over-testing and gaps in coverage. Your rules of engagement document should answer these questions before testing starts:
 
@@ -86,7 +96,7 @@ rules:
  critical_notification_threshold: CVSS 9.0
 ```
 
-## Task Distribution Across Time Zones
+### Step 3: Task Distribution Across Time Zones
 
 Effective distribution requires understanding your team's geographic spread and aligning testing activities accordingly. The goal is maintaining continuous coverage without requiring anyone to work unreasonable hours.
 
@@ -132,7 +142,7 @@ def assign_testing_windows():
 
 Rotate primary testing responsibility weekly so no single region consistently bears the burden of odd-hour testing.
 
-## Real-Time Status Tracking
+### Step 4: Real-Time Status Tracking
 
 Remote coordination fails without visibility into what's happening and what has been tested. Implement a lightweight status dashboard that updates in near real-time.
 
@@ -160,12 +170,12 @@ A minimal status tracking approach using a shared JSON structure:
 
 Host this on an internal server with access restricted to the testing team. Update status every 30 minutes or immediately upon finding critical vulnerabilities.
 
-## Finding Documentation Standards
+### Step 5: Finding Documentation Standards
 
 When testers document findings asynchronously, consistency becomes critical. Establish a standardized finding template that all team members use:
 
 ```markdown
-## Finding: [Brief Title]
+### Step 6: Finding: [Brief Title]
 
 **Severity:** [Critical|High|Medium|Low|Info]
 **CVSS Score:** [X.X]
@@ -191,7 +201,7 @@ When testers document findings asynchronously, consistency becomes critical. Est
 
 Store findings in a structured format that allows automated report generation later. Markdown files in a git repository work well for version control and conflict resolution.
 
-## Handoff Procedures Between Testers
+### Step 7: Handoff Procedures Between Testers
 
 When shifting testing responsibility between team members or time zones, documented handoffs prevent duplication and ensure continuity.
 
@@ -215,7 +225,7 @@ echo "## Handoff Checklist
 
 Require explicit acknowledgment from the incoming tester before the outgoing tester signs off.
 
-## Post-Test Coordination and Reporting
+### Step 8: Post-Test Coordination and Reporting
 
 After active testing concludes, compile findings through a structured reporting process:
 
@@ -235,11 +245,26 @@ pandoc finding.md -o finding.pdf \
  --pdf-engine=xelatex
 ```
 
-## Key Coordination Principles
+### Step 9: Key Coordination Principles
 
 Success in distributed penetration testing boils down to three practices. First, over-communicate status—assume others don't know what you're working on unless you've explicitly told them. Second, document everything—oral handoffs and Slack messages disappear; written documentation remains. Third, respect boundaries—testing windows exist to protect team wellbeing; honor them.
 
 Remote penetration testing coordination requires more deliberate structure than collocated testing, but the distributed model offers advantages: broader testing hour coverage, diverse security perspectives, and resilience against single points of failure. With proper workflows in place, your distributed team can execute assessments as effectively as any in-person red team.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

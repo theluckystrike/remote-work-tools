@@ -25,7 +25,17 @@ Balancing remote software development work with caring for a child who has speci
 2.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Establishing Core Boundaries
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Establishing Core Boundaries
 
 Remote work offers flexibility that office environments cannot match, but this flexibility requires deliberate structure when you have a child with special needs. The key is creating predictable rhythms that your child can rely on while protecting deep work blocks.
 
@@ -56,7 +66,7 @@ const familySchedule = {
 
 This schedule becomes your reference point when discussing availability with your team. Share these boundaries early rather than constantly renegotiating.
 
-## Communication Frameworks That Work
+### Step 2: Communication Frameworks That Work
 
 Transparent communication with distributed teams requires more than saying "I have a kid." Specify what that means for your availability.
 
@@ -92,7 +102,7 @@ When something unexpected occurs, a quick async message prevents confusion:
 "Running 20 minutes late to our 2 PM pairing session - family situation requiring attention. Will join by 2:20 or reschedule if that's easier for you?"
 ```
 
-## Technical Systems for Buffer Management
+### Step 3: Technical Systems for Buffer Management
 
 Developers and power users can use automation to create buffers against interruptions.
 
@@ -154,7 +164,7 @@ esac
 cat ~/workspace-status
 ```
 
-## Managing Expectations Around Flexibility
+### Step 4: Manage Expectations Around Flexibility
 
 Remote work with a special needs child means your availability will fluctuate more than the typical employee. Address this proactively with your manager and team.
 
@@ -186,7 +196,7 @@ When estimating delivery timelines, explicitly account for potential disruptions
 
 This approach builds trust by delivering on realistic estimates rather than overpromising and underdelivering.
 
-## Emergency Protocols
+### Step 5: Emergency Protocols
 
 Establish clear protocols for your team for unexpected situations:
 
@@ -201,7 +211,7 @@ Establish clear protocols for your team for unexpected situations:
 - Level 3 (Extended): 1+ hour → phone call to manager, coordinate coverage
 ```
 
-## Building Sustainable Practices
+### Step 6: Build Sustainable Practices
 
 This work requires sustainable systems, not just crisis management. Schedule recurring reviews:
 
@@ -211,6 +221,21 @@ This work requires sustainable systems, not just crisis management. Schedule rec
 
 Remote work accommodations for special needs children aren't about working less—they're about working differently. The flexibility of distributed teams makes this possible when you build the right systems and communicate transparently.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions
@@ -235,12 +260,12 @@ Yes, the underlying concepts transfer to other stacks, though the specific imple
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Workplace Accommodation Request Template
+### Step 7: Workplace Accommodation Request Template
 
 When formalizing your arrangement, provide written documentation:
 
 ```markdown
-## Formal Accommodation Request: Special Needs Caregiving
+### Step 8: Formal Accommodation Request: Special Needs Caregiving
 
 **Employee:** [Your name]
 **Date:** [Date]
@@ -275,12 +300,12 @@ I can commit to delivering [X deliverables] on schedule using these hours. Core 
 This formal request creates documentation if there are ever questions about your arrangement.
 ```
 
-## Scaling: From One Child to Multiple Children or Aging Parents
+### Step 9: Scaling: From One Child to Multiple Children or Aging Parents
 
 If caregiving demands increase:
 
 ```markdown
-## Escalation Trigger Points
+### Step 10: Escalation Trigger Points
 
 **Current Load:** 1 child with special needs, therapy 2x/week
 **Current Impact:** 2-3 hours flexibility per week
@@ -308,7 +333,7 @@ If caregiving demands increase:
 - Explore FMLA if available in your country
 ```
 
-## Building Your Support Network
+### Step 11: Build Your Support Network
 
 You cannot do this alone. Build an explicit support system:
 
@@ -349,31 +374,31 @@ const supportNetwork = {
 // Review quarterly and add/adjust as needs change
 ```
 
-## Disability Accommodations vs. Performance Expectations
+### Step 12: Disability Accommodations vs. Performance Expectations
 
 An important distinction to maintain:
 
 ```markdown
-## Accommodations Are Not Permissions to Underperform
+### Step 13: Accommodations Are Not Permissions to Underperform
 
 Clear boundary:
 - Your accommodation allows you to manage both responsibilities
 - You still deliver on all commitments made to your team
 - Your work quality doesn't change
 
-## If You're Struggling to Deliver:
+### Step 14: If You're Struggling to Deliver:
 1. Don't hide it—communicate early
 2. Adjust the arrangement (fewer hours, different role)
 3. Consider if the job is sustainable right now
 4. Explore temporary leave if needed (FMLA, parental leave, disability leave)
 
-## If Accommodation Is Becoming Insufficient:
+### Step 15: If Accommodation Is Becoming Insufficient:
 1. Data: Document specific instances where accommodation is inadequate
 2. Proposal: Suggest modification based on data
 3. Timeline: Give reasonable notice before asking for changes
 4. Alternatives: If accommodation can't expand, explore role changes
 
-## If Your Manager Pushes Back on Accommodation:
+### Step 16: If Your Manager Pushes Back on Accommodation:
 - This may be illegal depending on your jurisdiction
 - Document the pushback in writing
 - Escalate to HR
@@ -381,12 +406,12 @@ Clear boundary:
 - NEVER accept informal arrangement if you need legal protection
 ```
 
-## Planning for Major Life Transitions
+### Step 17: Planning for Major Life Transitions
 
 As your child grows, demands change:
 
 ```markdown
-## Timeline: Adjusting Accommodations Over Time
+### Step 18: Timeline: Adjusting Accommodations Over Time
 
 ### Years 0-5: Intensive Therapy Phase
 - Highest schedule demands
@@ -416,7 +441,7 @@ As your child grows, demands change:
 This isn't about abandoning your child—it's about recognizing that intensive needs phases are often time-limited, and you can adjust accordingly.
 ```
 
-## Financial Realities: Therapy Costs and Time
+### Step 19: Financial Realities: Therapy Costs and Time
 
 Special needs care often requires financial planning:
 

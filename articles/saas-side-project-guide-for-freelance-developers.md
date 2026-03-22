@@ -44,7 +44,17 @@ Avoid withdrawing profits until reaching $5000+ MRR, where you have runway to ha
 - **Product development (50-60% of revenue)**: New features, bug fixes, performance optimization
 2.
 
-## Finding Your SaaS Idea
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Finding Your SaaS Idea
 
 The most sustainable SaaS products solve problems you encounter repeatedly in your freelance work. Every client project contains potential product seeds—internal tools you've built, repetitive workflows you've automated, or gaps in existing tooling that keep appearing.
 
@@ -52,7 +62,7 @@ Start by documenting recurring frustrations across your client engagements. A pr
 
 Validate demand before writing any code. Create a simple landing page describing your proposed solution and drive traffic to it through relevant communities, Twitter/X posts, or targeted Reddit threads. Measure actual signups or waitlist registrations rather than collecting email addresses through generic "interest" forms. If you cannot generate 50-100 interested signups within two weeks, reconsider the problem scope or target audience.
 
-## Choosing Your Technology Stack
+### Step 2: Choose Your Technology Stack
 
 For side projects, choose technologies that minimize maintenance burden and maximize learning efficiency. Your stack should enable rapid prototyping while remaining sustainable for long-term operation.
 
@@ -85,7 +95,7 @@ PostgreSQL handles most SaaS use cases reliably. For simpler applications with s
 
 React with Next.js provides excellent developer experience and SEO benefits out of the box. For faster prototyping, consider Tailwind CSS with vanilla JavaScript or Alpine.js—these reduce build complexity while maintaining professional appearance.
 
-## Building the Minimum Viable Product
+### Step 3: Build the Minimum Viable Product
 
 Your MVP should solve exactly one problem well. Resist the temptation to add features based on hypothetical future needs. Focus on delivering core value to early adopters who will provide feedback for iteration.
 
@@ -96,7 +106,7 @@ Structure your development in two-week sprints:
 
 This cadence prevents building features nobody wants while maintaining momentum toward launch.
 
-## Pricing Strategy for Freelancer SaaS
+### Step 4: Pricing Strategy for Freelancer SaaS
 
 Freelance developers often underprice their products. Research competitors offering similar solutions and price accordingly. Starting too low signals lower quality and makes future price increases difficult.
 
@@ -145,7 +155,7 @@ For best results, optimize your free tier to convert at 2-5% to paid:
 - Pro tier should address specific pain points from free tier usage
 - Target metric: 50+ free tier users before launching paid tier
 
-## Launch Strategies
+### Step 5: Launch Strategies
 
 Launch on Product Hunt, Hacker News, and relevant subreddits. Prepare these assets beforehand:
 
@@ -155,7 +165,7 @@ Launch on Product Hunt, Hacker News, and relevant subreddits. Prepare these asse
 
 Engage genuinely with feedback in comments. Early users remember developers who respond to their suggestions—this community support drives word-of-mouth growth.
 
-## Managing Time Between Clients
+### Step 6: Manage Time Between Clients
 
 Freelance work creates unpredictable schedules. Protect your side project time by:
 
@@ -165,7 +175,7 @@ Freelance work creates unpredictable schedules. Protect your side project time b
 
 Tools like GitHub Actions for CI/CD, Vercel or Railway for hosting, and Supabase for backend services minimize operational time investment.
 
-## Financial Planning and Long-Term Sustainability
+### Step 7: Financial Planning and Long-Term Sustainability
 
 Plan for the business side from the start. Separate your SaaS finances from freelance income in accounting. Set aside money for taxes on SaaS revenue. Consider forming an LLC or similar structure to separate business liability from personal assets.
 
@@ -209,7 +219,7 @@ Avoid withdrawing profits until reaching $5000+ MRR, where you have runway to ha
 
 This staged approach prevents premature hiring while maintaining momentum.
 
-## Growth Metrics and Targets
+### Step 8: Growth Metrics and Targets
 
 Track these metrics monthly to evaluate your SaaS health:
 
@@ -256,7 +266,7 @@ To improve K:
 3. Gamify adoption (bonus features for getting 3 teammates)
 ```
 
-## Customer Feedback Loop
+### Step 9: Customer Feedback Loop
 
 The difference between abandoned SaaS and successful ones: customer feedback integration.
 
@@ -269,7 +279,7 @@ The difference between abandoned SaaS and successful ones: customer feedback int
 ```markdown
 # Weekly Feedback Summary Template
 
-## Date Range: [Week]
+### Step 10: Date Range: [Week]
 
 ### Themes This Week
 1. **Feature request**: Export to CSV (3 mentions) - HIGH PRIORITY
@@ -286,7 +296,7 @@ Priority 1: Fix Safari bug (customer experience)
 Priority 2: Build CSV export feature (addresses demand)
 ```
 
-## Launch Checklist for Your First SaaS
+### Step 11: Launch Checklist for Your First SaaS
 
 When ready to launch to the public:
 
@@ -317,7 +327,7 @@ When ready to launch to the public:
 - [ ] Prepare paid tier based on user feedback
 - [ ] Plan Month 2 roadmap
 
-## SaaS Failures: Common Patterns
+### Step 12: SaaS Failures: Common Patterns
 
 Understanding why SaaS projects fail helps you avoid pitfalls:
 
@@ -346,7 +356,7 @@ Understanding why SaaS projects fail helps you avoid pitfalls:
 - Prevention: Research market size and willingness to pay
 - Fix: Pivot to different market or different problem
 
-## From SaaS to Acquisition
+### Step 13: From SaaS to Acquisition
 
 If your SaaS reaches $5000+ MRR, acquisition becomes possible:
 
@@ -373,6 +383,21 @@ $10,000 MRR, 5% monthly growth, 10% churn
 ```
 
 Most indie SaaS acquisitions range $100K-500K. Larger acquisitions happen at $20K+ MRR.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

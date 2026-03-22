@@ -39,13 +39,23 @@ As remote teams grow from a handful of collaborators to dozens or hundreds acros
 - **For remote teams**: this becomes especially important because asynchronous communication replaces real-time clarification.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Recognizing the Signs of Information Architecture Breakdown
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Recognizing the Signs of Information Architecture Breakdown
 
 Scaling remote teams creates predictable friction points in how information flows. You will notice specific symptoms before a complete overhaul becomes necessary. Channel proliferation in Slack or Teams becomes unmanageable, with new channels spawning daily without clear ownership or purpose. Documentation exists in multiple locations—some in Notion, some in Google Docs, some in private wikis, and some lost in Slack threads. Search becomes ineffective because content lacks consistent tagging or structure. New team members spend weeks rather than days onboarding because information retrieval requires tribal knowledge.
 
 These symptoms indicate that your current information architecture cannot scale. The solution is not simply adding more tools or creating more folders. You need a fundamental reorganization that accounts for how information is created, accessed, and maintained across distributed teams.
 
-## Audit Your Current Tool Ecosystem
+### Step 2: Audit Your Current Tool Ecosystem
 
 Before implementing changes, document your current state. Create an inventory of every tool your team uses, categorized by function. This audit should capture not just the tool names but also which teams use them, approximate storage volume, and most importantly, where information redundancy exists.
 
@@ -81,7 +91,7 @@ A practical approach uses a simple CSV or JSON structure to map your tool market
 
 This inventory reveals where information silos exist and where consolidation opportunities appear. The goal is not necessarily reducing tool count but ensuring each tool has a clear, non-overlapping purpose.
 
-## Establish Clear Information Ownership
+### Step 3: Establish Clear Information Ownership
 
 One of the most effective changes you can make is assigning explicit ownership to information categories. Each piece of documentation, each communication channel, and each data repository should have a responsible owner who ensures content stays current and accessible.
 
@@ -116,7 +126,7 @@ communication:
 
 This approach creates accountability without requiring constant manual coordination.
 
-## Implement Structured Taxonomy for Tool Organization
+### Step 4: Implement Structured Taxonomy for Tool Organization
 
 A consistent taxonomy across tools dramatically improves discoverability. Develop a tagging schema that works across your primary tools and enforce it through automation where possible.
 
@@ -171,7 +181,7 @@ if __name__ == '__main__':
 
 This script ensures documentation maintains consistent metadata, making it easier to search and organize automatically.
 
-## Create Gateways and Entry Points
+### Step 5: Create Gateways and Entry Points
 
 As your information ecosystem grows, you need clear entry points that help team members find what they need without knowing where it lives. Create centralized indexes that link to relevant information across tools.
 
@@ -214,17 +224,32 @@ updateTeamIndex().catch(console.error);
 
 This automation keeps the team informed about new and updated resources without requiring manual announcements.
 
-## Document Your Information Architecture
+### Step 6: Document Your Information Architecture
 
 The final step is creating documentation that describes your information architecture itself. This metadata about your metadata helps future team members understand how information is organized and why certain decisions were made.
 
 This architecture documentation should live in a dedicated location and include your taxonomy definitions, tool purpose assignments, ownership records, and decision rationale. Treat it as living documentation that evolves as your team changes.
 
-## Measuring Improvement
+### Step 7: Measuring Improvement
 
 After implementing these changes, track specific metrics to confirm improvement. Measure time-to-find for common information types through periodic surveys. Track documentation contribution rates. Monitor channel creation rates and channel cleanup activity. New team member onboarding time should decrease measurably when information architecture works correctly.
 
 An information architecture overhaul is not an one-time project but an ongoing practice. As your team continues scaling, revisit these structures quarterly and adjust based on usage patterns and emerging needs.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

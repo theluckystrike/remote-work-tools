@@ -40,7 +40,17 @@ A surge protector for home office equipment is essential infrastructure for any 
 - **This guide covers the**: technical specifications that matter, how to calculate the protection you need, and which configurations work best for modern developer setups.
 - **For a typical developer**: home office with a laptop, two monitors, and peripheral devices, look for at least 2000 joules of protection.
 
-## Understanding Power Surge Risks for Developers
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Power Surge Risks for Developers
 
 Power surges occur more frequently than most people realize. They originate from multiple sources: lightning strikes (the most dramatic but rarest), utility grid switching, cycling of high-power appliances like air conditioners and refrigerators, and even the normal operation of devices in your home. A single powerful surge can instantly destroy sensitive electronics, while smaller repeated surges gradually degrade circuit boards and reduce equipment lifespan.
 
@@ -48,7 +58,7 @@ For developers, the stakes are particularly high. Your home office likely contai
 
 The average home experiences dozens of small surges daily. While these won't immediately destroy equipment, they cause cumulative damage that shortens the lifespan of electronics. Over time, you'll notice monitors developing dead pixels, laptops experiencing random crashes, and external drives failing prematurely—all often traced back to inadequate surge protection.
 
-## Key Specifications Explained
+### Step 2: Key Specifications Explained
 
 ### Joule Rating
 
@@ -76,7 +86,7 @@ Surge protectors need time to detect and respond to voltage spikes. Response tim
 
 Beyond surge protection, many units offer electromagnetic and radio frequency interference filtering. This reduces electrical noise that can cause monitor flicker, audio static, and subtle performance issues with sensitive equipment. If you notice electrical noise problems, look for units with dedicated EMI/RFI filtration.
 
-## Building Your Home Office Protection Setup
+### Step 3: Build Your Home Office Protection Setup
 
 ### The Basic Setup
 
@@ -120,7 +130,7 @@ Your network equipment needs protection too. Cable, DSL, and fiber connections c
 
 Modern network switches and routers often include some surge protection, but it's rarely adequate for areas with frequent electrical storms. Adding dedicated protection at the network entry point and using shielded ethernet cables provides much better security for your networked equipment.
 
-## Smart Surge Protection Solutions
+### Step 4: Smart Surge Protection Solutions
 
 ### Monitoring and Automation
 
@@ -167,7 +177,7 @@ const smartSurgeProtector = {
 };
 ```
 
-## Choosing the Right Configuration
+### Step 5: Choose the Right Configuration
 
 ### For Remote Workers with Basic Needs
 
@@ -181,7 +191,7 @@ Developers running multiple monitors, external storage arrays, mechanical keyboa
 
 If you have particularly valuable or irreplaceable equipment—custom-built workstations, vintage hardware, or equipment with sentimental value—invest in the highest-rated protection available. Consider professional installation of whole-house protection and use isolated circuit protection for your most sensitive equipment.
 
-## Maintenance and Replacement
+### Step 6: Perform Maintenance and Replacement
 
 Surge protectors wear out. Each surge they absorb degrades their protection capacity. After a major surge event (particularly one from a lightning strike), consider replacing your point-of-use protectors even if they appear to still work.
 
@@ -196,7 +206,7 @@ High-surge area: Replace every 1-2 years
 After major event: Always replace point-of-use units
 ```
 
-## Specific Surge Protector Product Recommendations (2026)
+### Step 7: Specific Surge Protector Product Recommendations (2026)
 
 Based on price and protection level, here are real options developers should consider:
 
@@ -227,7 +237,7 @@ Based on price and protection level, here are real options developers should con
 
 **Reality Check**: Don't overthink this. A $40-50 surge protector with 2500-3000 joules protects 95% of home office setups adequately. The $80-100 premium options add marginal benefit unless you have particularly valuable or sensitive equipment.
 
-## Testing Your Surge Protector: How to Know If It's Working
+### Step 8: Test Your Surge Protector: How to Know If It's Working
 
 Surge protectors degrade silently. Regular testing helps:
 
@@ -266,7 +276,7 @@ echo ""
 echo "If all tests pass, your surge protector is functional."
 ```
 
-## When Power Issues Are NOT Surge Protector Problems
+### Step 9: When Power Issues Are NOT Surge Protector Problems
 
 Sometimes equipment fails and people blame surge protection. Understanding when surge protectors can't help:
 
@@ -286,7 +296,7 @@ Sometimes equipment fails and people blame surge protection. Understanding when 
 - Symptom: Equipment turns off, data loss if not saved
 - Solution: UPS with battery backup
 
-## Calculating Actual Power Needs (Watts and Amps)
+### Step 10: Calculating Actual Power Needs (Watts and Amps)
 
 Many developers under-specify their surge protectors. Calculate your actual needs:
 
@@ -344,7 +354,7 @@ print(f"Safety margin: {calc.calculate_outlet_safety_margin()}")
 
 Most home office setups draw 150-300W simultaneously, well under a single circuit capacity. Multiple surge protectors on the same circuit is more about organization than necessity.
 
-## Documentation: Track Your Surge Protection Setup
+### Step 11: Documentation: Track Your Surge Protection Setup
 
 Keep a record of what's protected where:
 
@@ -354,7 +364,7 @@ Keep a record of what's protected where:
 **Installed**: [Date]
 **Last Replaced**: [Date]
 
-## Surge Protector 1
+### Step 12: Surge Protector 1
 - Location: Under desk, right side
 - Model: CyberPower CSP604S
 - Joule Rating: 3600
@@ -365,7 +375,7 @@ Keep a record of what's protected where:
   - External SSD
   - USB hub
 
-## Surge Protector 2
+### Step 13: Surge Protector 2
 - Location: Shelf above desk
 - Model: Belkin 12-outlet Pivot Power
 - Joule Rating: 4320
@@ -377,18 +387,18 @@ Keep a record of what's protected where:
   - Speaker
   - Microphone
 
-## Network Protection
+### Step 14: Network Protection
 - Location: Router area
 - Model: Tripp Lite ISOBAR Network
 - Protected: Ethernet cable to modem
 
-## Whole-House Protection
+### Step 15: Whole-House Protection
 - Installed: [Year]
 - Electrician: [Name/Company]
 - Type: [MOV-based or other]
 - Service area: Entire house
 
-## Incident Log
+### Step 16: Incident Log
 | Date | Description | Action Taken |
 |------|-------------|--------------|
 | 2026-03-15 | Storm caused brief flicker | No damage detected |
@@ -396,6 +406,21 @@ Keep a record of what's protected where:
 ```
 
 Maintain this record. It helps with warranty claims, identifies patterns (which circuits are vulnerable?), and ensures replacements happen on schedule.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
