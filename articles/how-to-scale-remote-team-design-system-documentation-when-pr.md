@@ -13,6 +13,8 @@ score: 8
 voice-checked: true
 intent-checked: true
 ---
+{% raw %}
+
 
 Design system documentation is one of those things that works fine when your remote team is small and everyone knows each other. Then you hire your 20th engineer, bring on a second design team in a different timezone, and suddenly nobody can find the button component spec. This guide covers how to scale design system documentation for remote teams — from tooling choices to governance processes that actually hold up under growth.
 
@@ -596,3 +598,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Tools for Remote Team Design System Documentation 2026](/remote-work-tools/best-tools-for-remote-team-design-system-documentation-2026/)
 - [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
