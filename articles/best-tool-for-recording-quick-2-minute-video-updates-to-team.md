@@ -9,7 +9,7 @@ permalink: /best-tool-for-recording-quick-2-minute-video-updates-to-team/
 categories: [guides]
 tags: [remote-work-tools, video, async-communication, remote-work, tools, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
