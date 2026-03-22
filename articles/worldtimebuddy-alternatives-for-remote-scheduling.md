@@ -7,7 +7,7 @@ last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /worldtimebuddy-alternatives-for-remote-scheduling/
 reviewed: true
-score: 8
+score: 9
 categories: [comparisons]
 intent-checked: true
 voice-checked: true

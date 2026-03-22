@@ -8,7 +8,7 @@ permalink: /a100-remote-hr-employee-recognition-platform-for-distributed-team/
 categories: [guides]
 tags: [remote-work-tools, employee-recognition, remote-hr, distributed-teams, hr-tools, employee-engagement, remote-work]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 ---
