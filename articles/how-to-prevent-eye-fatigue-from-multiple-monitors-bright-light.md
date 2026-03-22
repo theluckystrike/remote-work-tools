@@ -217,6 +217,198 @@ Use this checklist to ensure your multi-monitor setup is eye-friendly:
 
 **Does dark mode actually help?** Dark mode reduces the total light emitted by your display when viewing text-heavy content, which can reduce eyestrain in low-ambient-light environments. In bright rooms, dark mode's lower contrast may cause the eye to work harder, not less. Use dark mode when your room is dim; switch to light mode during the day.
 
+## Multi-Monitor Calibration Workflow
+
+Ensure all monitors display colors and brightness consistently:
+
+```yaml
+# Monitor Calibration Plan
+monitors:
+  primary:
+    model: "Dell UltraSharp"
+    brightness_target: 70%
+    contrast_target: 50%
+    color_temp: 6500K
+    rgb_balance: "Red 50, Green 50, Blue 50"
+
+  secondary:
+    model: "LG 27UP"
+    brightness_target: 65%  # Slightly less to avoid left/right imbalance
+    contrast_target: 50%
+    color_temp: 6500K
+    rgb_balance: "Red 50, Green 50, Blue 50"
+
+  tertiary:
+    model: "ASUS PA279CV"
+    brightness_target: 60%  # Even less - peripheral monitor
+    contrast_target: 50%
+    color_temp: 6500K
+    rgb_balance: "Red 50, Green 50, Blue 50"
+
+calibration_tools:
+  - SpyderX Elite ($180) - professional-grade calibration
+  - i1Display Pro ($400) - high-end reference-grade
+  - Basic visual match - free but less accurate
+
+calibration_frequency:
+  - Initial: before multi-monitor setup
+  - Recurring: every 3-6 months (monitors drift)
+  - Emergency: if you notice color shifts
+```
+
+Run this calibration once, document the settings, then reference them if monitors ever display color differences again.
+
+## Eye Strain Symptom Tracking
+
+Identify which specific setup changes most improve your eye comfort:
+
+```markdown
+# Eye Strain Tracking Log
+
+## Baseline (Before Changes)
+Date: March 15, 2026
+Setup: 3 monitors, 100% brightness, no filters
+End-of-day symptoms:
+  - Headache: moderate (4/10)
+  - Eye dryness: moderate (4/10)
+  - Blurred vision: mild (2/10)
+  - General fatigue: moderate (4/10)
+
+## After Change 1: Reduce brightness to 60%
+Date: March 17, 2026
+End-of-day symptoms:
+  - Headache: mild (2/10)  ← Improved!
+  - Eye dryness: moderate (4/10)
+  - Blurred vision: mild (2/10)
+  - General fatigue: mild (2/10)  ← Improved!
+
+## After Change 2: Add blue light filter (Night Shift)
+Date: March 19, 2026
+End-of-day symptoms:
+  - Headache: mild (2/10)
+  - Eye dryness: mild (3/10)  ← Improved!
+  - Blurred vision: mild (2/10)
+  - General fatigue: mild (2/10)
+
+## After Change 3: Implement 20-20-20 rule
+Date: March 24, 2026
+End-of-day symptoms:
+  - Headache: minimal (1/10)  ← Major improvement!
+  - Eye dryness: mild (2/10)  ← Improved!
+  - Blurred vision: minimal (1/10)
+  - General fatigue: minimal (1/10)  ← Major improvement!
+
+Conclusion: Brightness + blue light + regular breaks = 75% symptom reduction
+Best ROI changes: brightness reduction and 20-20-20 rule
+```
+
+Track symptoms to identify which changes actually help your specific situation.
+
+## Gaming Monitor vs Productivity Monitor for Multi-Screen Setup
+
+Counter-intuitive: gaming monitors sometimes better for eye health:
+
+| Specification | Gaming Monitor | Productivity Monitor | Eye Health Winner |
+|---|---|---|---|
+| Refresh rate | 144-240Hz | 60Hz | Gaming (less flicker) |
+| Response time | 1-3ms | 5-10ms | Gaming (sharper motion) |
+| Blue light | Same | Same | Tie (use filter either way) |
+| Color accuracy | ±3 Delta E | ±1 Delta E | Productivity |
+| Brightness | 350-400 nits | 200-300 nits | Productivity (lower is better) |
+| Contrast | 3000:1 | 1000:1 | Productivity |
+| Flicker-free rating | Often rated | Often rated | Check spec sheet |
+| Price | $300-500 | $400-800 | Gaming (cheaper) |
+
+For multi-monitor eye comfort, 144Hz+ gaming monitors with flicker-free certification actually win on the most important factor: refresh rate eliminates the subtle screen flicker that causes eye fatigue. Sacrifice color accuracy (use sRGB mode if available) to reduce eye strain.
+
+## Automated Brightness Adjustment Script
+
+Set different brightness levels throughout your workday:
+
+```python
+#!/usr/bin/env python3
+# Auto-adjust monitor brightness based on time of day
+# Works on macOS; adapt for Linux/Windows
+
+import subprocess
+import schedule
+import time
+from datetime import datetime
+
+def set_brightness(percent):
+    """Set screen brightness (macOS)"""
+    script = f'tell application "System Events" to set brightness to {percent}'
+    subprocess.run(['osascript', '-e', script])
+    print(f"Brightness set to {percent}%")
+
+def adjust_brightness():
+    """Adjust brightness based on time of day"""
+    hour = datetime.now().hour
+
+    # Morning (9am-12pm): 75% brightness
+    if 9 <= hour < 12:
+        set_brightness(75)
+    # Afternoon (12pm-5pm): 70% brightness
+    elif 12 <= hour < 17:
+        set_brightness(70)
+    # Evening (5pm-9pm): 60% brightness
+    elif 17 <= hour < 21:
+        set_brightness(60)
+    # Night (9pm-9am): 40% brightness (+ blue light filter)
+    else:
+        set_brightness(40)
+
+if __name__ == "__main__":
+    # Run adjustment every 30 minutes
+    schedule.every(30).minutes.do(adjust_brightness)
+
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
+```
+
+This script reduces brightness gradually as the day progresses, matching your circadian rhythm and preventing evening eye fatigue.
+
+## Three-Monitor Positioning Ergonomics
+
+Arrange physical layout to minimize eye strain:
+
+```
+        CENTER (Primary)
+            ↑↑↑
+       75% of viewing
+
+  LEFT ←→←→→ CENTER ←→←→→ RIGHT
+  15%  |              | 10%
+  viewing|            |viewing
+```
+
+**Positioning rules:**
+
+1. **Primary monitor**: Center, directly in front, top of screen at eye level
+2. **Secondary monitor**: 30-45 degrees to one side, slightly below primary
+3. **Tertiary monitor**: 30-45 degrees to opposite side, same height as secondary
+4. **All screens**: 20-26 inches viewing distance (roughly arm's length)
+5. **Angle inward**: Outer monitors tilted 15-30 degrees inward so they face you
+
+This positioning reduces the side-to-side eye movement required to scan between monitors.
+
+## Monthly Eye Health Audit Checklist
+
+Perform this audit every month to catch emerging problems:
+
+- [ ] Are monitors all at the same brightness level?
+- [ ] Is the brightness noticeably lower than 1 month ago?
+- [ ] Are monitor cables loose or creating glare?
+- [ ] Is room lighting adequate (avoid backlighting on screens)?
+- [ ] Are you taking 20-20-20 breaks consistently?
+- [ ] Have your symptoms improved, worsened, or stayed same?
+- [ ] Are monitors still clean (dust reduces visibility, increases strain)?
+- [ ] Is your posture still correct (slouching increases strain)?
+- [ ] Are you blinking enough (screen-focused work reduces blink rate)?
+- [ ] Has your sleeping patterns changed (affects daytime eye health)?
+
+Address any "no" answers immediately. Eye health degrades quickly if ignored.
 
 ## Related Articles
 

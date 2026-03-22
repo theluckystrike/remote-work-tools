@@ -318,6 +318,162 @@ PersistentKeepalive = 25
 ```
 
 The `PersistentKeepalive = 25` setting sends a keepalive packet every 25 seconds, which maintains NAT table entries through connection switches. After failover, WireGuard reconnects within one keepalive interval—typically under 30 seconds—without requiring any user action.
+## Failover Testing Methodology
+
+Systematic testing ensures your failover setup works when it matters most—during actual internet disruption.
+
+```bash
+# Step 1: Baseline connectivity test
+ping -c 10 8.8.8.8 | grep -E "min|avg|max"  # Record these numbers
+
+# Step 2: Simulate primary WAN failure
+# For GL.iNet Flint 2: SSH into the router
+ssh root@192.168.8.1
+# Disable WAN interface
+ifconfig wan down
+
+# Step 3: Monitor failover transition
+mtr -r 8.8.8.8 --report-cycles 100 &
+sleep 2
+# Count packets lost during transition
+# Watch for packet loss spike followed by recovery
+
+# Step 4: Verify secondary WAN is handling traffic
+# Check gateway routing
+ip route
+# Should show 4G/5G interface as active route
+
+# Step 5: Re-enable primary WAN
+ifconfig wan up
+# Verify automatic fallback within your configured threshold
+```
+
+Document your actual failover time. Most remote workers accept up to 30 seconds; calls and SSH sessions will drop briefly but reconnect. Document whether your setup achieves this target.
+
+## Carrier Coverage Comparison for Backup Internet
+
+Choose your backup ISP based on coverage in your specific location, not generic ratings:
+
+| Carrier | Technology | Coverage | Speed Test | Typical Latency |
+|---------|-----------|----------|-----------|-----------------|
+| AT&T | 5G mmWave + LTE | 90%+ | 400-1000 Mbps | 20-30ms |
+| Verizon | 5G UWB + LTE | 85%+ | 300-800 Mbps | 25-35ms |
+| T-Mobile | 5G + LTE | 88%+ | 200-600 Mbps | 30-40ms |
+| US Cellular | LTE (4G) | 60%+ | 30-100 Mbps | 40-50ms |
+| Xfinity Mobile | Verizon backbone | 85%+ | Same as Verizon | Same as Verizon |
+
+Test actual coverage and speed at your specific location before committing. Visit carrier stores with your phone model or rent a dedicated hotspot for a week to verify speed. Generic coverage maps are notoriously inaccurate—you may have "5G coverage" that's actually fallback LTE.
+
+## Monitoring Failover Health Over Time
+
+Beyond individual tests, track failover behavior continuously to catch degradation:
+
+```bash
+# Extended monitoring script for weekly failover health check
+#!/bin/bash
+LOG_FILE="/var/log/failover-health.log"
+
+# Test primary WAN
+echo "Testing primary WAN..." >> $LOG_FILE
+PRIMARY_TIME=$(ping -c 5 8.8.8.8 | grep avg | awk '{print $4}' | cut -d'/' -f2)
+echo "$(date): Primary WAN latency: ${PRIMARY_TIME}ms" >> $LOG_FILE
+
+# Test secondary WAN
+echo "Testing secondary WAN..." >> $LOG_FILE
+# Disable primary temporarily
+sudo ifconfig wan down
+sleep 2
+SECONDARY_TIME=$(ping -c 5 8.8.8.8 | grep avg | awk '{print $4}' | cut -d'/' -f2)
+echo "$(date): Secondary WAN latency: ${SECONDARY_TIME}ms" >> $LOG_FILE
+
+# Re-enable primary
+sudo ifconfig wan up
+
+# Calculate failover time
+FAILOVER_START=$(date +%s%N)
+sleep 5
+FAILOVER_END=$(date +%s%N)
+FAILOVER_TIME=$(( ($FAILOVER_END - $FAILOVER_START) / 1000000 ))
+echo "$(date): Failover transition time: ${FAILOVER_TIME}ms" >> $LOG_FILE
+
+# Alert if exceeds threshold
+if [ $FAILOVER_TIME -gt 30000 ]; then
+    echo "$(date): WARNING: Failover time exceeds 30 seconds!" >> $LOG_FILE
+fi
+```
+
+Run this script weekly and monitor trends. If failover times creep up from 15 seconds to 45 seconds, your configuration has drifted and needs adjustment.
+
+## Mosh Configuration for Persistent Remote Sessions
+
+Mosh improves on SSH by maintaining your session through network transitions:
+
+```bash
+# Install mosh
+brew install mosh  # macOS
+apt install mosh   # Linux
+
+# Basic mosh connection
+mosh user@server.example.com
+
+# Mosh with custom port (if default ports blocked)
+mosh --ssh="ssh -p 2222" user@server.example.com
+
+# Mosh connection profile in ~/.ssh/config
+Host production-server
+    HostName production.example.com
+    User deployuser
+    # Mosh automatically detects this and uses it
+```
+
+Mosh is invaluable when your primary ISP fails mid-SSH session. Traditional SSH drops the connection immediately, requiring you to reconnect and re-authenticate. Mosh keeps the session alive, automatically resumes once connectivity is restored, and handles the reconnection transparently.
+
+## Application-Level Failover Configuration Template
+
+Document your application's failover behavior in a configuration file:
+
+```yaml
+# failover-config.yaml - Application failover settings
+services:
+  api_server:
+    timeout: 5s
+    retry_count: 3
+    retry_delay: 2s
+    fallback_endpoint: https://backup-api.example.com
+
+  database:
+    timeout: 10s
+    connection_pool_size: 5
+    failover_mode: active-standby
+    replica_endpoint: standby.db.example.com
+
+  cache:
+    timeout: 3s
+    fallback_to_source: true
+
+  monitoring:
+    health_check_interval: 5s
+    failure_threshold: 3
+    alert_on_failover: true
+```
+
+Configure your actual services to use this. Many frameworks support configuration files that define reconnection behavior and timeouts automatically.
+
+## Practical Failover Checklist
+
+Before deploying your failover setup, verify each component:
+
+- [ ] Dual WAN router is configured with both ISPs connected
+- [ ] Health checks point to reliable endpoints (Google DNS and Cloudflare DNS)
+- [ ] Failover threshold is set appropriately (3 failures to trigger, 8 successes to recover)
+- [ ] Secondary ISP has adequate monthly quota (unlimited or 500GB+)
+- [ ] Mosh is installed on all remote servers you SSH into
+- [ ] VPN client is configured to use both WAN interfaces
+- [ ] Database connection pooler is set to reconnect automatically
+- [ ] Monitoring is active and alerts on failover events
+- [ ] You've tested failover manually and documented actual times
+- [ ] Team knows that calls may briefly drop during failover
+- [ ] Backup internet is active and paid (not test account)
 
 ## Related Reading
 
