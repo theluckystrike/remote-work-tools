@@ -10,20 +10,12 @@ tags: [remote-work-tools, remote-work]
 reviewed: true
 score: 6
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 A single ISP connection is a single point of failure. For engineers on customer calls, async video reviews, or live deployments, a dropped connection at the wrong moment costs trust and time. This guide covers a practical dual-ISP failover setup for home offices that achieves automatic failover in under 30 seconds.
-
-## Key Takeaways
-
-- **Most remote workers accept**: up to 30 seconds; calls and SSH sessions will drop briefly but reconnect.
-- **WireGuard handles this better**: than OpenVPN or IPSec because it uses UDP and re-establishes connections quickly after an IP change.
-- **If failover times creep**: up from 15 seconds to 45 seconds, your configuration has drifted and needs adjustment.
-- **This guide covers a**: practical dual-ISP failover setup for home offices that achieves automatic failover in under 30 seconds.
-- **Acceptable**: under 30 seconds.
-- **Unacceptable**: over 90 seconds (indicates health check intervals are too long or recovery threshold is too high).
 
 ## Prerequisites
 
@@ -516,4 +508,4 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

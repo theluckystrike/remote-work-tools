@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work, collaboration]
 ---
----
-layout: default
-title: "Best Design Collaboration Tools for Remote Teams"
-description: "A practical guide to the best design collaboration tools for remote teams, tailored for developers and power users who need design workflows"
-date: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /best-design-collaboration-tools-for-remote-teams/
-categories: [best-of]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, best-of, remote-work, collaboration]
----
 
 {% raw %}
 

@@ -10,26 +10,12 @@ tags: [remote-work-tools, remote-work, keyboards, ergonomics, productivity, tool
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
 Your loud mechanical keyboard echoes through your home office during client calls. Colleagues on Zoom meetings hear every keystroke while you're presenting. Remote work means your workspace shares walls with family, roommates, or quiet coworkers in shared offices. Mechanical keyboard switches designed for silence exist—Cherry MX Silent Red, Gateron Silent Brown, and others reduce noise by 20-30dB while preserving the tactile feedback that makes mechanical keyboards addictive. This guide compares actual switches and keyboards with decibel measurements, real-world testing, and pricing for remote developers who need silence without sacrificing feel.
-
-## Key Takeaways
-
-- **A $40 headset microphone**: captures your voice clearly while suppressing keyboard noise better than positioning an USB mic optimally.
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Price**: $0.70-$1.20 per switch (120-switch keyboard would cost $84-$144 in switch costs alone)
-
-Tactile feedback: None.
-- **Price**: $0.35-$0.65 per switch (significantly cheaper than Cherry)
-
-Tactile feedback: 65cN bump force creates noticeable tactile sensation.
-- **Price**: $0.10-$0.20 per switch
-
-Verdict: Budget-friendly for testing mechanical keyboards, but long-term durability questionable for full-time remote developers typing 50+ hours per week.
-- **Leopold resells on secondary**: markets for $150-$200.
 
 ## Understanding Keyboard Noise: Decibels and Perception
 
@@ -340,7 +326,6 @@ For remote developers, keyboard investment pays dividends. You're typing 8+ hour
 
 Invest in silence. Your team will thank you.
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 ---
 

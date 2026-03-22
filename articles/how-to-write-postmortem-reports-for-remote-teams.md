@@ -11,15 +11,12 @@ tags: [remote-work-tools, postmortem, incident-management, remote-work]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Effective postmortem reports for remote teams share three properties: they are written close to the incident while details are fresh, they establish blameless root cause analysis, and they produce specific action items with assigned owners. This guide provides a complete template and workflow for distributed teams working asynchronously across time zones.
-
-## Key Takeaways
-
-- **Before this incident**: Redis was hitting memory limits because..."
 
 ## Prerequisites
 
@@ -488,4 +485,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -10,7 +10,8 @@ tags: [remote-work-tools, contracts, freelance, legal, developer-tools, best-of]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -71,7 +72,7 @@ Includes up to [X] revision rounds. Additional revisions billed at $[hourly rate
 
 Best for: Ongoing work, undefined scope, or retainer arrangements
 
-When project scope evolves, an hourly contract provides flexibility. Clients pay for actual time spent, accommodating changes without renegotiation.
+When project scope evolves, a hourly contract provides flexibility. Clients pay for actual time spent, accommodating changes without renegotiation.
 
 ```markdown
 ## Compensation

@@ -17,18 +17,6 @@ tags: [remote-work-tools]
 
 Runbooks turn undocumented institutional knowledge into step-by-step procedures anyone on the team can follow at 3am. Good runbooks are opinionated, tested, and short — they list commands to run, not theory to understand. This guide builds the templates and tooling for a remote engineering team's runbook library.
 
-## Key Takeaways
-
-- **Create test database: ```bash**: createdb -U postgres test_restore_$(date +%Y%m%d) ``` 4.
-- **Restore backup: ```bash DB_NAME="test_restore_$(date**: +%Y%m%d)" gunzip -c /tmp/test-restore.sql.gz | psql -U postgres "$DB_NAME" ``` 5.
-- **Restart with rolling update**: (preferred): ```bash kubectl rollout restart deployment/your-service -n production ``` 4.
-- **Topics covered**: runbook structure standard, purpose, prerequisites
-
-### Step 1: Run book Structure Standard
-
-Every runbook must have these sections:
-
-```markdown
 # [Operation Name] Runbook
 
 **Owner:** @team-name
@@ -85,7 +73,7 @@ Safely restart a production service without extended downtime.
    ```bash
    kubectl get pods -n production -l app=your-service
    ```
-   Expected: All pods in `Running` state before proceeding.
+ Expected: All pods in `Running` state before proceeding.
 
 2. Scale down to zero (optional for critical services):
    ```bash
@@ -102,7 +90,7 @@ Safely restart a production service without extended downtime.
    ```bash
    kubectl rollout status deployment/your-service -n production --timeout=120s
    ```
-   Expected output: `deployment "your-service" successfully rolled out`
+ Expected output: `deployment "your-service" successfully rolled out`
 
 ### Docker / systemd
 
@@ -318,21 +306,21 @@ Test runbook commands don't drift from reality:
 name: Test Runbook Commands
 
 on:
-  schedule:
-    - cron: '0 6 * * 1'  # Weekly Monday
-  pull_request:
-    paths: ['runbooks/**']
+ schedule:
+ - cron: '0 6 * * 1' # Weekly Monday
+ pull_request:
+ paths: ['runbooks/**']
 
 jobs:
-  test-cert-check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Test certificate check command
-        run: |
-          echo | openssl s_client -servername google.com \
-            -connect google.com:443 2>/dev/null \
-            | openssl x509 -noout -dates
+ test-cert-check:
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/checkout@v4
+ - name: Test certificate check command
+ run: |
+ echo | openssl s_client -servername google.com \
+ -connect google.com:443 2>/dev/null \
+ | openssl x509 -noout -dates
 ```
 
 ### Step 26: Run book Index Template
@@ -416,7 +404,7 @@ Scale production to handle traffic spikes without service degradation.
    ```bash
    psql -U postgres -c "SELECT count(*), state FROM pg_stat_activity GROUP BY state;"
    ```
-   If active connections > 80% of max_connections: enable PgBouncer connection pooling.
+ If active connections > 80% of max_connections: enable PgBouncer connection pooling.
 
 2. Enable read replicas for read-heavy traffic:
    ```bash
@@ -462,17 +450,17 @@ A runbook nobody can find in an incident is useless. Three places every runbook 
 **1. The repo (source of truth):**
 ```
 runbooks/
-  incident/
-    service-restart.md
-    db-failover.md
-    high-traffic.md
-  deployments/
-    deploy-hotfix.md
-    rollback.md
-  maintenance/
-    ssl-renewal.md
-    backup-verify.md
-    server-patching.md
+ incident/
+ service-restart.md
+ db-failover.md
+ high-traffic.md
+ deployments/
+ deploy-hotfix.md
+ rollback.md
+ maintenance/
+ ssl-renewal.md
+ backup-verify.md
+ server-patching.md
 ```
 
 **2. Your internal docs tool** (Notion, Confluence, or a static site built from the same markdown). Mirror the repo structure exactly so links in Slack messages to runbooks do not break when people navigate around the docs site.
@@ -506,5 +494,5 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+```
 {% endraw %}

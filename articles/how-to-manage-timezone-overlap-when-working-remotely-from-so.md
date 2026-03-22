@@ -11,34 +11,12 @@ tags: [remote-work-tools, timezone, remote-work, southeast-asia, async-communica
 score: 9
 voice-checked: true
 reviewed: true
-intent-checked: true---
+intent-checked: true
 ---
-layout: default
-title: "How to Manage Timezone Overlap When Working Remotely"
-description: "A practical guide for developers in Southeast Asia managing timezone differences with US-based remote teams. Learn strategies, tools, and workflows"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /how-to-manage-timezone-overlap-when-working-remotely-from-so/
-categories: [guides]
-tags: [remote-work-tools, timezone, remote-work, southeast-asia, async-communication, developer-tools]
-score: 9
-voice-checked: true
-reviewed: true
-intent-checked: true---
 
 {% raw %}
 
 Working remotely for an US-based company from Southeast Asia presents unique challenges around timezone management. When you're in Bangkok, Singapore, or Manila, your typical working hours might span 12 PM to 9 PM IST, while your US colleagues operate in PST or EST. The key to success lies not in fighting these differences, but in building systems that turn timezone gaps into advantages.
-
-## Key Takeaways
-
-- **Better yet**: use a tool like TimeandDate.com that maintains DST-aware conversion.
-- **Use Timezone-Aware Scheduling Tools**: Tools like World Time Buddy, When2meet, or Evenflow help visualize overlap windows.
-- **Document Decisions Before Meetings**: Never use synchronous time to discuss options.
-- **Use shared documents or**: RFCs (Request for Comments) that your US team can review during their day.
-- **Define your core hours**: Choose your overlap window and protect it.
-- **Use status indicators**: Set your Slack/Teams status to indicate your hours.
 
 ## Prerequisites
 

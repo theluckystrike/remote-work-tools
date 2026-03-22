@@ -8,33 +8,10 @@ reviewed: true
 score: 9
 voice-checked: true
 intent-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
 
-
-title: "How to Set up Remote Work Emergency Communication Plan"
-description: "Emergency communication strategies when primary tools fail. Backup channels, phone trees, status page monitoring, incident response for distributed teams, and"
-author: Remote Work Tools Guide
-date: 2026-03-21
-permalink: /remote-work-tools/how-to-set-up-remote-work-emergency-communication-plan-2026/
-reviewed: true
-score: 9
-voice-checked: true
-intent-checked: true
-tags: [remote-work-tools, remote-work]---
-
 {% raw %}
-
-## Key Takeaways
-
-- **14:35 — Root cause identified**: Redis cluster failed
-14:40 — Fix deployed.
-- **Set Redis memory alert at 70% (was 90%) — Owner**: [name] — Due: 3/28
-2.
-- **Use public status pages (Twitter**: status pages, SMS).
-- **Status Page Setup Use**: a status page to communicate with customers, partners, and team during infrastructure outages.
-- **Workaround**: Use the web app directly until resolved.
-- **SMS Tree for Critical**: Alerts Use Twilio or Amazon SNS for SMS to a small critical group.
 
 ## Why You Need an Emergency Plan
 

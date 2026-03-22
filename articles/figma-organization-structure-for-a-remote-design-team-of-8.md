@@ -17,16 +17,6 @@ voice-checked: true---
 
 A team of eight designers working remotely faces unique challenges: maintaining consistency across time zones, keeping files discoverable, and ensuring everyone can contribute without stepping on each other's work. The right Figma organization structure transforms chaos into collaboration. This guide provides a practical framework for structuring your Figma workspace, files, and workflows specifically for a remote team of eight.
 
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Does Figma offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Use frames for feedback**: Add specific comment threads on individual frames
-3.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-
 ## Team Structure and Role-Based Organization
 
 With eight designers, you likely have a mix of roles: leads, senior designers, and mid-level or junior designers. Map these roles to Figma's permission structure from the start.
@@ -286,4 +276,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -10,7 +10,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 ---
 layout: default
 title: "CI/CD Pipeline for Solo Developers: GitHub Actions"
@@ -23,22 +24,14 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
 A solo developer CI/CD pipeline does one thing: make sure you never manually deploy again. Every push to `main` runs your tests, builds your artifact, and ships it. If anything breaks, the deploy stops.
 
 This guide builds a full pipeline using GitHub Actions: test on every PR, build a Docker image on merge to `main`, push to a registry, and deploy to a VPS via SSH. The same pattern works for static sites, Node apps, Python services, or Go binaries.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Does GitHub offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **Check GitHub's current pricing**: page for the latest free tier details, as these change frequently.
 
 ## What the Pipeline Does
 

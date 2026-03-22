@@ -11,34 +11,12 @@ tags: [remote-work-tools, tools]
 reviewed: true
 score: 8
 voice-checked: true
-intent-checked: true---
+intent-checked: true
 ---
-layout: default
-title: "Chrome Extension Compress Images Before Upload"
-description: "Learn how to build a Chrome extension that automatically compresses images before upload. Perfect for developers and power users who need to optimize"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /chrome-extension-compress-images-before-upload/
-categories: [guides]
-tags: [remote-work-tools, tools]
-reviewed: true
-score: 8
-voice-checked: true
-intent-checked: true---
 
 {% raw %}
 
 Build a Chrome extension using the Canvas API to compress images before upload, reducing file sizes by 70-90% and dramatically speeding up upload times across all websites. Large image files create slow uploads, consume unnecessary bandwidth, and hit file size limits—a local browser solution avoids external services while keeping data private. This guide walks you through creating an extension that intercepts file inputs, compresses using Canvas, and replaces the original file with an optimized version that works across any website.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Build a Chrome extension**: using the Canvas API to compress images before upload, reducing file sizes by 70-90% and dramatically speeding up upload times across all websites.
-- **The extension includes dimension**: limits to help prevent this, but you can adjust these based on your typical use case.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
 
 ## Why Client-Side Compression Matters
 

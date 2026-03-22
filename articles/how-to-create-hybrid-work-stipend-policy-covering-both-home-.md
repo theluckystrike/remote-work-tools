@@ -11,7 +11,8 @@ score: 8
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 ---
 layout: default
 title: "Everyone gets home office base"
@@ -25,7 +26,8 @@ score: 8
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
@@ -35,26 +37,7 @@ As remote and hybrid work becomes the standard for engineering teams, organizati
 
 This guide walks you through creating a stipend policy that covers both home office costs and commute expenses, tailored for developers and technical teams.
 
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Collect receipts for all**: expenses over $25 2.
-- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
-
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Understand the Two Categories of Hybrid Work Expenses
+## Understanding the Two Categories of Hybrid Work Expenses
 
 Before designing your policy, recognize that hybrid work creates two distinct expense categories:
 
@@ -63,7 +46,7 @@ Before designing your policy, recognize that hybrid work creates two distinct ex
 
 Each category affects different employees differently, depending on their work arrangement. A policy that only covers home office costs disadvantages those who come to the office more frequently, while a policy that only covers commuting disadvantages remote workers.
 
-### Step 2: Structuring Your Stipend Policy
+## Structuring Your Stipend Policy
 
 ### The Fixed Stipend Model
 
@@ -146,7 +129,7 @@ const stipendCategories: StipendCategory[] = [
 ];
 ```
 
-### Step 3: Key Policy Components
+## Key Policy Components
 
 ### 1. Define Eligible Expenses Clearly
 
@@ -189,7 +172,7 @@ Consult with your finance team on tax implications:
 - Equipment purchases may have different tax treatments
 - Consider working with an accountant to structure the policy tax-efficiently
 
-### Step 4: Implementing the Policy
+## Implementing the Policy
 
 ### Communication Template
 
@@ -206,38 +189,38 @@ When announcing the policy, include:
 ```markdown
 # Hybrid Work Stipend Policy
 
-### Step 5: Purpose
+## Purpose
 To provide equitable compensation for work-related expenses incurred by employees in hybrid work arrangements.
 
-### Step 6: Eligibility
+## Eligibility
 - All full-time employees working in hybrid arrangements
 - Part-time employees: Pro-rated based on FTE status
 
-### Step 7: Stipend Amounts
+## Stipend Amounts
 - Home Office: $150/month
 - Commute: $50/day of expected office attendance
 - Maximum: $600/month
 
-### Step 8: Eligible Expenses
+## Eligible Expenses
 [List specific items for each category]
 
-### Step 9: Submission Process
+## Submission Process
 1. Collect receipts for all expenses over $25
 2. Submit via [expense system] by the 5th of each month
 3. Reimbursement processed within 15 business days
 
-### Step 10: Review Cycle
+## Review Cycle
 This policy will be reviewed annually and adjusted based on cost-of-living changes and employee feedback.
 ```
 
-### Step 11: Common Pitfalls to Avoid
+## Common Pitfalls to Avoid
 
 1. Over-complicating the policy: Complexity leads to confusion and administrative burden
 2. Ignoring equity: A flat stipend may disadvantage lower-paid employees who live farther from the office
 3. Not budgeting for growth: As your team scales, stipend costs multiply; plan accordingly
 4. Forgetting to communicate: Ensure every employee understands their entitlements and the submission process
 
-### Step 12: Measuring Policy Effectiveness
+## Measuring Policy Effectiveness
 
 Track these metrics to evaluate your policy:
 
@@ -245,21 +228,6 @@ Track these metrics to evaluate your policy:
 - Average reimbursement amount: Are you over or under budget?
 - Employee satisfaction: Include questions in your quarterly engagement survey
 - Equity indicators: Analyze usage patterns across different employee demographics
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Frequently Asked Questions
 

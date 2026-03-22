@@ -11,36 +11,14 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Slack Workflow: Weekly Learning Share"
-description: "A practical framework and assessment tool for measuring and improving psychological safety in remote engineering teams across time zones"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools"
-permalink: /remote-team-psychological-safety-assessment-tool-for-distrib/
-reviewed: true
-score: 9
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Building psychological safety in distributed engineering teams requires deliberate measurement and continuous improvement. Unlike co-located teams where managers can observe body language and team dynamics in person, remote teams demand structured approaches to understand how comfortable team members feel sharing ideas, asking questions, and admitting mistakes.
 
 This guide provides an assessment framework that engineering managers can implement immediately to measure psychological safety across their remote teams.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Typeform**: $25-99/month.
-- **Lattice/15Five**: $7-15/user/month.
-- **CultureAmp**: $10,000+/year.
-- **Does Slack offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
 ## Understanding Psychological Safety in Remote Contexts
 

@@ -11,22 +11,11 @@ tags: [remote-work-tools, digital-nomad-visa, south-korea-visa, remote-work-visa
 reviewed: true
 score: 7
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 South Korea launched its digital nomad visa program in 2024, offering remote workers a pathway to live and work in the country for up to two years. This guide covers the complete application requirements, eligibility criteria, and practical steps for developers and power users seeking to work remotely from South Korea.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Open bank account
- - Required**: ARC, passport, proof of address
- - Recommended: KEB Hana Bank (English-friendly, international services)
-3.
-- **Get Korean phone number**: - Buy at any convenience store or phone shop - Cost: $20-40 for basic plan 4.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **This income must be**: verifiable through bank statements, employment contracts, or freelance agreements.
-- **You must provide a**: criminal background check certificate issued within the past six months, apostilled or authenticated for use in South Korea.
 
 ## What Is the South Korea Digital Nomad Visa
 

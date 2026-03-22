@@ -11,34 +11,12 @@ tags: [remote-work-tools, compensation, remote-work, salary, benchmarking, hr-te
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Create Remote Team Compensation Benchmarking Report"
-description: "A practical guide for developers and power users on building compensation benchmarking reports for remote teams using international salary survey data"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-create-remote-team-compensation-benchmarking-report-u/
-categories: [guides]
-tags: [remote-work-tools, compensation, remote-work, salary, benchmarking, hr-tech, data-analysis]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 To create a compensation benchmarking report for remote teams, gather salary data from Stack Overflow Developer Survey, GitHub Octoverse, and Glassdoor, then normalize it by cost-of-living adjustments, currency fluctuations, and your chosen compensation philosophy (location-agnostic, location-adjusted, or market-based). This approach ensures your pay structure remains competitive across international talent markets while reflecting the real compensation costs in each region.
-
-## Key Takeaways
-
-- **The final recommendation**: Position this role at $50,000-60,000 (US dollars) or equivalent local currency with PPP adjustment.
-- **A developer earning $80,000**: in San Francisco has different purchasing power than one earning $80,000 in Lisbon.
-- **First, gather data**: Stack Overflow shows $40,000-65,000 for this profile globally.
-- GitHub data suggests $45,000-70,000.
-- Local Argentine surveys show $25,000-40,000.
-- **Second, apply PPP**: Argentina's PPP factor is approximately 0.4, meaning $1 in the US equals roughly 0.4 Argentine pesos in purchasing power.
 
 ## Prerequisites
 

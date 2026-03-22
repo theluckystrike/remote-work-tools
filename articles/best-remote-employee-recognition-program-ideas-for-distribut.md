@@ -11,19 +11,11 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 {% raw %}
 
 Start with Slack #kudos channels for peer-to-peer recognition, add Loom video shoutouts from managers, and implement GitHub-based recognition workflows for developer teams. Remote teams lack the casual office interactions that naturally create recognition moments, so distributed teams need structured programs that celebrate contributions without requiring significant budgets. This guide covers practical employee recognition program ideas that work well for remote teams with limited resources and code examples you can implement immediately.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **A $10-20 monthly budget**: per person can cover digital gifts, charitable donations in their name, or small physical items shipped to their home.
-- **A thoughtful message beats**: a $5 gift card every time.
-- **Does Slack offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
 
 ## Peer Recognition Channels in Slack
 
@@ -307,4 +299,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

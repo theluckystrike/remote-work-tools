@@ -11,7 +11,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 ---
 layout: default
 title: "Home Office Network Setup for Video Calls"
@@ -25,20 +26,14 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
 Poor network quality during video calls is the most common complaint about remote work. Pixelated video, dropped audio, and "you're breaking up" are almost always solvable network problems — usually with a wired connection, better router placement, or QoS configuration rather than a faster ISP plan.
 
 This guide covers the network changes that actually improve video call quality, in order of impact.
-
-## Key Takeaways
-
-- **Check for packet loss**: ping -c 50 8.8.8.8 | tail -5 # Any packet loss (> 0%) causes audio drops # 2.
-- **Poor network quality during**: video calls is the most common complaint about remote work.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
-- **Topics covered**: step 1: measure your actual problem, step 2: switch to wired (ethernet), step 3: configure router qos
 
 ## Step 1: Measure Your Actual Problem
 

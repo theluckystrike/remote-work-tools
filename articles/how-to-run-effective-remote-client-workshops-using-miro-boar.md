@@ -11,36 +11,14 @@ tags: [remote-work-tools, remote-work, client-management, miro, workshop-facilit
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Run Effective Remote Client Workshops Using Miro"
-description: "Remote client workshops present unique challenges that in-person sessions never address. You cannot lean over a whiteboard together, cannot point at a sticky"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /how-to-run-effective-remote-client-workshops-using-miro-boar/
-categories: [guides]
-tags: [remote-work-tools, remote-work, client-management, miro, workshop-facilitation, virtual-collaboration]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Remote client workshops present unique challenges that in-person sessions never address. You cannot lean over a whiteboard together, cannot point at a sticky note without talking over someone, and cannot read the room when everyone is a small video thumbnail. Miro boards solve these problems when you approach them with the right strategy.
 
 This guide walks through setting up and helping productive remote client workshops using Miro, with practical templates you can adapt immediately.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Does Miro offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Use Miro's follow mode**: to have that person drive while others observe: 1.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
 
 ## Prerequisites
 

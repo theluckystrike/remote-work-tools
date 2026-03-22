@@ -11,22 +11,14 @@ score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
 Resolve conflicts asynchronously through chat by pausing 15-30 minutes before responding, acknowledging the other person's concerns, stating your position clearly with facts, and proposing specific next steps—creating written records that prevent escalation while maintaining team cohesion across time zones. This approach prevents hot-headed responses that destroy relationships while using async communication's advantage of thoughtful replies.
 
 Conflict in remote teams is inevitable. When video calls aren't feasible due to time zones, bandwidth limitations, or scheduling conflicts, resolving disagreements through chat becomes a critical skill. This guide provides developers and power users with actionable strategies for navigating difficult conversations asynchronously.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Does GitHub offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Be specific about facts**: rather than generalizations: ``` The current endpoint responds in 450ms for 95% of requests.
-- **The proposed change would**: add 200ms for cache invalidation, but it prevents stale data issues we've seen in production.
-- **Before we commit to a full rewrite**: could we profile the current code to identify the actual bottlenecks? A targeted optimization might give us 80% of the benefit with less risk.
 
 ## Why Chat-Based Conflict Resolution Matters
 
@@ -353,4 +345,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -11,35 +11,12 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, security, remote-work]---
+tags: [remote-work-tools, security, remote-work]
 ---
-layout: default
-title: "Remote Work Security Hardening Checklist"
-description: "Security hardening checklist for remote workers: SSH key setup, MFA, disk encryption, DNS-over-HTTPS, secrets management, and network security for developers."
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: theluckystrike
-permalink: /remote-work-security-hardening-checklist/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, security, remote-work]---
 
 {% raw %}
 
 Remote work expands your attack surface. Your home network, personal laptop, and public WiFi hotspots are all less controlled than a corporate office environment. This checklist covers the practical security hardening steps every remote developer should have in place, with commands to verify and implement each one.
-
-## Key Takeaways
-
-- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
-- **GitHub / GitLab**: use TOTP or hardware key
-2.
-- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
-- **Small teams can often**: implement changes faster because there are fewer people to coordinate.
-- **Adapt the specifics to**: your team size—a 5-person team does not need the same formal processes as a 50-person organization.
-- **Track them weekly for**: at least a month to see trends.
 
 ## SSH Key Security
 

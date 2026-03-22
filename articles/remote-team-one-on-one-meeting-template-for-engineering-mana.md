@@ -11,37 +11,14 @@ tags: [remote-work-tools, one-on-one, remote-work, engineering-management, direc
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8---
+score: 8
 ---
-layout: default
-title: "Remote Team One on One Meeting Template for Engineering"
-description: "A practical template and framework for engineering managers running effective one-on-one meetings with remote direct reports. Includes async options"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /remote-team-one-on-one-meeting-template-for-engineering-mana/
-categories: [guides]
-tags: [remote-work-tools, one-on-one, remote-work, engineering-management, direct-reports, check-ins]
-reviewed: true
-intent-checked: true
-voice-checked: true
-score: 8---
 
 {% raw %}
 
 Engineering managers overseeing remote teams face a unique challenge: building genuine connection and providing meaningful guidance without the benefit of in-person interactions. A well-structured one-on-one meeting template becomes your primary tool for maintaining engagement, catching issues early, and helping your direct reports grow professionally.
 
 This guide provides a template you can implement immediately, along with the reasoning behind each section and practical code snippets for automating meeting prep.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Schedule a 15-minute synchronous**: call only when specific topics require real-time discussion.
-- **The manager-dominated conversation**: If you're talking more than 30% of the time, your direct report isn't getting value.
-- **Send async prep 24 hours before**: Use the template above
-3.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
 
 ## The Core One-on-One Template Structure
 

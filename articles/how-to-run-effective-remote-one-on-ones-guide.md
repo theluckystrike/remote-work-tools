@@ -11,7 +11,8 @@ tags: [remote-work-tools, management, meetings, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
@@ -20,20 +21,6 @@ One-on-one meetings are the strongest tool managers have to develop their teams,
 Yet many managers wing their 1:1s: no agenda, no notes, no continuity week-to-week. Result: shallow conversations that don't move the needle on career development or team dynamics.
 
 This guide provides frameworks, templates, and cadence recommendations for 1:1s that actually work.
-
-## Key Takeaways
-
-- **I'm in 22 hours of meetings this week**: and most of them aren't critical.
-- **This guide provides frameworks**: templates, and cadence recommendations for 1:1s that actually work.
-- **Spend 40% of the time on their agenda**: not yours.
-- **Feedback within 1–2 days**: of the event lands better than retroactive.
-- **Spending 100% on Your Agenda
-
-Wrong**: Preparing five feedback items and expecting the report to absorb them in 30 min.
-- **Treating 1:1s as Negotiable
-
-Wrong**: Canceling every other week because meetings are "piling up."
-Right: 1:1s are sacred.
 
 ## Core Principle: Psychological Safety First
 
@@ -463,4 +450,4 @@ Yes, the underlying concepts transfer to other stacks, though the specific imple
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
+{% endraw %}

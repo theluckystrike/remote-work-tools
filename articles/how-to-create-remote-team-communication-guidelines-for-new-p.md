@@ -11,7 +11,8 @@ score: 8
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 ---
 layout: default
 title: "ADR-003: Use PostgreSQL for Primary Data Store"
@@ -25,23 +26,14 @@ score: 8
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools, remote-work]---
-
+tags: [remote-work-tools, remote-work]
+---
 
 Establish remote team communication guidelines for new projects by creating a channel selection matrix, defining async writing standards, setting meeting protocols with time zone rules, and capturing documentation artifacts like ADRs. This framework prevents communication friction, reduces coordination overhead, and ensures important information survives beyond individual conversations—critical for distributed teams across time zones.
 
 Remote team communication doesn't magically work itself out. When a new project launches in 2026 with distributed team members across time zones, the absence of clear guidelines creates friction, delays, and frustration. The difference between a smooth remote project launch and a chaotic one often comes down to communication norms established on day one.
 
 This guide provides a framework for creating communication guidelines tailored to new remote projects. You'll find practical templates, code-based solutions, and implementation strategies that work for developer teams and technical power users.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Does PostgreSQL offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Reduce coordination overhead by**: specifying which communication method to use for which situation 2.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
 
 ## Why Communication Guidelines Matter for New Remote Projects
 
@@ -53,17 +45,7 @@ Effective communication guidelines solve three specific challenges for new remot
 2. **Set realistic response time expectations** across time zones
 3. **Create documentation artifacts** that survive beyond any single conversation
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Core Components of Remote Team Communication Guidelines
+## Core Components of Remote Team Communication Guidelines
 
 Every new remote project needs guidelines covering five categories. Adapt these to your team size and project complexity.
 
@@ -82,7 +64,7 @@ Define which tools handle which communication types. This prevents the common pr
 For developer teams, integrate this matrix into your project README:
 
 ```markdown
-### Step 2: Communication Channels
+## Communication Channels
 
 - **Code Discussion**: GitHub Issues and PRs only
 - **Quick Questions**: #project-name Slack channel
@@ -107,7 +89,7 @@ Key standards to document:
 **Example of a well-structured async update:**
 
 ```markdown
-### Step 3: Feature: User Authentication Flow
+## Feature: User Authentication Flow
 
 **Status**: In Progress
 **Blockers**: None
@@ -180,26 +162,26 @@ New projects generate accumulating knowledge that must be captured. Your guideli
 ```markdown
 # ADR-003: Use PostgreSQL for Primary Data Store
 
-### Step 4: Status: Accepted
+## Status: Accepted
 
-### Step 5: Context
+## Context
 Need persistent storage for user data and session state.
 
-### Step 6: Decision
+## Decision
 We will use PostgreSQL running on AWS RDS.
 
-### Step 7: Consequences
+## Consequences
 - Team needs PostgreSQL experience
 - Migration scripts required for existing data
 - Monthly cost estimate: $X
 
-### Step 8: Reviewers
+## Reviewers
 - @lead-engineer (approved)
 - @devops (approved)
 - @product-manager (approved)
 ```
 
-### Step 9: Implementing Guidelines for 2026 Projects
+## Implementing Guidelines for 2026 Projects
 
 With remote work tools evolving, incorporate these 2026-specific considerations into your guidelines:
 
@@ -246,28 +228,13 @@ communication:
     - related issue links
 ```
 
-### Step 10: Adapting Guidelines Over Time
+## Adapting Guidelines Over Time
 
 Communication guidelines for new projects should include a built-in review cadence. Schedule explicit discussions to adjust norms as the project matures.
 
 Week 1: Confirm guidelines work, make quick adjustments
 End of Month 1: Full review, incorporate lessons learned
 Quarterly: Compare with other projects, share what works
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Frequently Asked Questions
 

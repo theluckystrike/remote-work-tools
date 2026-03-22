@@ -10,22 +10,14 @@ tags: [remote-work-tools, onboarding, remote-work, surveys, new-hire, hr, team-d
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Remote onboarding requires intentional measurement. Unlike office environments where managers observe new hires daily, distributed teams must rely on structured check-ins to understand how newcomers are adjusting. A well-designed 30-60-90 day survey framework captures qualitative and quantitative data that drives meaningful improvements to your onboarding process.
 
 This guide provides practical templates you can implement immediately, along with code examples for automating survey distribution and analysis.
-
-## Key Takeaways
-
-- **as $hire | [(now**: | strftime("%Y-%m-%d") | strptime("%Y-%m-%d") | mktime) - ($hire.start_date | strptime("%Y-%m-%d") | mktime)] / 86400 | tostring | .
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **What has been your**: biggest challenge in the past two weeks? [Open text] ### Support Needed 8.
-- **Who are the people**: you interact with most? Who should you interact with more? [Open text] ### Feedback and Growth 7.
-- **What support do you**: need from your manager in the next quarter? [Open text] ### Onboarding Program Assessment 7.
 
 ## Why Measure Remote Onboarding at Specific Milestones
 
@@ -454,4 +446,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

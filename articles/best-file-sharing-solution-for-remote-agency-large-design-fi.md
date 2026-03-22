@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
 ---
----
-layout: default
-title: "Upload large file with chunked upload"
-description: "Remote design agencies face a unique challenge: moving massive creative assets across distributed teams without bottlenecks. When your team spans multiple"
-date: 2026-03-16
-author: theluckystrike
-permalink: /best-file-sharing-solution-for-remote-agency-large-design-fi/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]
----
 
 {% raw %}
 

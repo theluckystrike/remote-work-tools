@@ -11,20 +11,12 @@ tags: [remote-work-tools, wifi, networking, home-office, router, best-of]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Setting up reliable WiFi for a second floor home office requires understanding how radio waves propagate through your living space. Most routers broadcast in a roughly spherical pattern, which means ground floor placement often leaves upper floors with weak signals. This guide covers practical strategies for developers and power users who need consistent, low-latency connections for video calls, code deployments, and remote collaboration.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **The 2.4 GHz band**: penetrates obstacles better than 5 GHz, but offers lower speeds.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **Most routers broadcast in**: a roughly spherical pattern, which means ground floor placement often leaves upper floors with weak signals.
-- **For a two-story home**: with a second-floor office, place the primary node on the first floor and at least one satellite on the second floor.
 
 ## Understanding Signal Propagation in Multi-Story Homes
 
@@ -343,4 +335,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

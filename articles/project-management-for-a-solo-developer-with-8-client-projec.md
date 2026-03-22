@@ -11,34 +11,12 @@ tags: [remote-work-tools, project-management, solo-developer, productivity, work
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Project Management for a Solo Developer with 8 Client"
-description: "Practical strategies and tools for managing 8 client projects simultaneously. Learn time-blocking, task isolation, and workflow automation techniques"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /project-management-for-a-solo-developer-with-8-client-projec/
-categories: [guides]
-tags: [remote-work-tools, project-management, solo-developer, productivity, workflow]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Managing eight client projects simultaneously as a solo developer requires disciplined systems rather than relying on memory or willpower. The key lies in creating clear boundaries between projects, automating repetitive tasks, and building a workflow that prevents context-switching costs from destroying your productivity.
-
-## Key Takeaways
-
-- **Best, [Your name] ```**: Store these in your note-taking app or a dedicated text expansion tool like TextExpander (macOS) or Espanso (cross-platform, free).
-- **Use tools like Wave (free invoicing)**: FreshBooks, or simple templates in Notion or Airtable.
-- **Free tier is sufficient**: for most solo developers.
-- **Linear's free tier supports up to 250 issues**: which may feel tight across eight clients.
-- **The best tool is**: one you'll actually use consistently.
-- **Most clients are reasonable**: when they understand your process.
 
 ## The Core Challenge
 

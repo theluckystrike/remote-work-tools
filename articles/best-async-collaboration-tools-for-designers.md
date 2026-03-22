@@ -10,20 +10,12 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Design collaboration in remote teams breaks down at two specific points: feedback collection (endless comment threads, contradicting feedback) and design-to-development handoff (engineers missing specs, designers explaining the same thing twice). The right async tooling eliminates both. This guide covers the tools that work and the specific workflows that make them effective.
-
-## Key Takeaways
-
-- **It is expensive ($149/month**: for teams) but eliminates the stale-docs problem for mature design systems.
-- **Free tier covers most**: small teams.
-- **Async comments in Whimsical**: work better than FigJam for structured decision-making because the canvas stays smaller and focused.
-- $12/month per editor.
-- **Its async collaboration features**: are often underused.
-- **The free alternative is**: Notion + manual Figma embeds, which works but requires manual updates.
 
 ## The Two Failure Modes
 

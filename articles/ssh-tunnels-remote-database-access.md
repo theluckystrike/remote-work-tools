@@ -11,36 +11,14 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "SSH Tunnels for Remote Database Access"
-description: "Set up SSH tunnels to securely access remote databases without exposing ports. Covers local forwarding, dynamic SOCKS, autossh, and GUI tool configs."
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: theluckystrike
-permalink: /ssh-tunnels-remote-database-access/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Exposing database ports directly to the internet is a security risk. SSH tunnels let you access remote databases as if they were running locally — all traffic is encrypted through SSH, and the database port never needs to be opened in your firewall.
 
 This guide covers local port forwarding for databases, jump hosts, persistent tunnels with autossh, and configuring GUI database tools to use them.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **In the Data Sources panel**: select your data source, open the SSH/SSL tab, and check "Use SSH tunnel." Specify the SSH host, port 22, and your private key.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **This guide covers local**: port forwarding for databases, jump hosts, persistent tunnels with autossh, and configuring GUI database tools to use them.
 
 ## How SSH Local Port Forwarding Works
 

@@ -19,15 +19,6 @@ The chat platform your engineering team uses shapes how information flows, how f
 
 This guide compares the main chat platforms for remote engineering teams in 2026 with an honest look at what each one actually costs in practice and where each one breaks down.
 
-## Key Takeaways
-
-- $7.25/user/month Pro (unlimited history).
-- **$6.67/user/month (cloud**: unlimited).
-- $12.50/user/month Business+.
-- **Best for**: Open source projects, developer communities, and small teams who want free unlimited message history and don't need enterprise integrations.
-- $10/user/month for cloud.
-- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
-
 ## Slack
 
 Slack is the default choice for most companies, which means your team probably already knows it and most of your tools already integrate with it.

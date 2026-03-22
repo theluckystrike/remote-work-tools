@@ -7,27 +7,16 @@ last_modified_at: 2026-03-22
 author: "Remote Work Tools"
 permalink: /slack-giphy-integration-not-showing-results-fix-2026/
 reviewed: true
-score: 7
+score: 9
 voice-checked: true
 categories: [troubleshooting]
 tags: [remote-work-tools, troubleshooting, integration]
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
 Giphy integration in Slack brings animated reactions and searchable GIFs to your team conversations. When this integration stops working, remote teams lose a valuable way to add personality and humor to async communication. This guide covers the most common reasons Giphy fails in Slack and provides practical fixes you can apply immediately.
-
-## Key Takeaways
-
-- **Open your file browser**: and navigate to the Slack cache directory - On Mac: `~/Library/Application Support/Slack/Cache` - On Windows: `%APPDATA%\Slack\Cache` 3.
-- **Alternatively**: manually clear the cache directory:
- - Mac: `~/Library/Application Support/Slack/`
- - Windows: `%APPDATA%\Slack\`
-3.
-- **Most teams prefer "popular**: now" as it reduces awkward results.
-- **Workspace-level restrictions are the**: most frequent culprit.
-- **Workspace administrators can disable**: Giphy or restrict its use to specific channels.
-- **Network and firewall restrictions**: are the most time-consuming to resolve but affect the smallest percentage of users.
 
 ## Common Causes of Giphy Not Working in Slack
 
@@ -355,4 +344,4 @@ A clean reinstall sometimes resolves persistent issues caused by corrupted cache
 - [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

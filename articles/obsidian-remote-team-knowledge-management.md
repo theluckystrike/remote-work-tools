@@ -10,22 +10,14 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
 Obsidian is a local-first Markdown editor built around a networked notes model. Most teams use it for personal knowledge management — but with the right setup, a shared Obsidian vault becomes a team knowledge base that is faster to write in than Notion, version-controlled via Git, and works offline by default.
 
 This guide covers: shared vault setup, folder conventions for teams, note templates, linking strategy, and publishing internal docs.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Does Obsidian offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Obsidian's built-in Quick Switcher**: (`Cmd+O`) and global search (`Cmd+Shift+F`) cover most needs.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
 
 ## Why Obsidian for a Team Vault
 
@@ -406,4 +398,4 @@ Start with a small pilot group of willing early adopters. Let them use it for 2-
 **What is the learning curve like?**
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-
+{% endraw %}

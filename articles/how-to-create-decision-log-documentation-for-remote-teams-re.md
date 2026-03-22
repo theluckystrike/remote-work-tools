@@ -19,24 +19,7 @@ Remote teams face a unique challenge: knowledge that would naturally transfer in
 
 This guide covers practical approaches to building decision log documentation that works for distributed teams. You'll find templates, tooling recommendations, and workflows designed for async collaboration.
 
-## Key Takeaways
-
-- **You'll find templates**: tooling recommendations, and workflows designed for async collaboration.
-- **Use consistent terminology and**: key terms that team members would naturally search for.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
-- **Topics covered**: what belongs in a decision log, a practical decision log template, problem statement
-
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: What Belongs in a Decision Log
+## What Belongs in a Decision Log
 
 A decision log captures the reasoning behind choices, not just the outcomes. Unlike ADRs (Architecture Decision Records) which focus on technical architecture, decision logs cover a broader range: process changes, tool selections, team structure modifications, and policy updates.
 
@@ -49,7 +32,7 @@ Each entry should answer four questions:
 
 The goal is future readability. When someone encounters this decision in six months, they should understand the full context without needing to reconstruct it from scattered conversations.
 
-### Step 2: A Practical Decision Log Template
+## A Practical Decision Log Template
 
 Structure your decision logs consistently so they're searchable and skimmable. Here's a markdown template that works well for remote teams:
 
@@ -61,12 +44,12 @@ Structure your decision logs consistently so they're searchable and skimmable. H
 **Status:** [Proposed | Accepted | Rejected | Superseded]
 **Related:** [Links to related decisions, issues, or PRs]
 
-### Step 3: Problem Statement
+## Problem Statement
 
 What issue or question prompted this decision? Include any relevant context
 about the team, project, or constraints that existed at the time.
 
-### Step 4: Options Considered
+## Options Considered
 
 ### Option A: [Name]
 - **Pros:** [Benefit 1], [Benefit 2]
@@ -78,11 +61,11 @@ about the team, project, or constraints that existed at the time.
 - **Cons:** [Downside 1], [Downside 2]
 - **Estimate:** [Effort/cost if relevant]
 
-### Step 5: Decision
+## Decision
 
 What was decided and why? Be specific about the reasoning that led to this choice.
 
-### Step 6: Consequences
+## Consequences
 
 ### Expected Benefits
 - [Positive outcome 1]
@@ -95,7 +78,7 @@ What was decided and why? Be specific about the reasoning that led to this choic
 - When this takes effect
 - When it will be revisited
 
-### Step 7: Feedback Period
+## Feedback Period
 
 **Open from:** YYYY-MM-DD
 **Close on:** YYYY-MM-DD
@@ -107,7 +90,7 @@ What was decided and why? Be specific about the reasoning that led to this choic
 
 The feedback period section is critical for remote teams. It explicitly states when comments are welcome and how to provide them, reducing confusion about whether a decision is still open for discussion.
 
-### Step 8: Store Decision Logs in Your Repository
+## Storing Decision Logs in Your Repository
 
 For engineering teams, storing decision logs alongside code provides several advantages: they're version-controlled, searchable via GitHub's interface, and naturally discovered during code review.
 
@@ -129,7 +112,7 @@ The README should list all decisions for easy browsing:
 | 002 | Adopt trunk-based development | Accepted | 2026-02-01 |
 | 003 | Implement feature flags for rollouts | Proposed | 2026-03-10 |
 
-### Step 9: Contributing
+## Contributing
 
 To add a new decision:
 1. Copy the template from `template.md`
@@ -137,7 +120,7 @@ To add a new decision:
 3. Submit as a PR with `[decision]` prefix
 ```
 
-### Step 10: Use GitHub Issues for Async Discussion
+## Using GitHub Issues for Async Discussion
 
 Pull requests work well for landing decisions, but GitHub Issues provide a better workflow for the async discussion phase. Here's a practical workflow:
 
@@ -158,7 +141,7 @@ decision-superseded # Replaced by another decision
 
 Link issues to PRs and code references so decisions connect to their implementation. This creates a traceable path from problem to solution.
 
-### Step 11: Automate Decision Log Creation
+## Automating Decision Log Creation
 
 Reduce friction by providing templates and automation. Create a CLI script that scaffolds new decisions:
 
@@ -178,11 +161,11 @@ cat > "docs/decisions/$(date +%Y%m%d)-${SLUG}.md" << EOF
 **Status:** Proposed
 **Related:**
 
-### Step 12: Problem Statement
+## Problem Statement
 
 [Describe the issue or question]
 
-### Step 13: Options Considered
+## Options Considered
 
 ### Option A: [Name]
 - **Pros:**
@@ -192,11 +175,11 @@ cat > "docs/decisions/$(date +%Y%m%d)-${SLUG}.md" << EOF
 - **Pros:**
 - **Cons:**
 
-### Step 14: Decision
+## Decision
 
 [What was decided]
 
-### Step 15: Consequences
+## Consequences
 
 ### Expected Benefits
 -
@@ -204,7 +187,7 @@ cat > "docs/decisions/$(date +%Y%m%d)-${SLUG}.md" << EOF
 ### Potential Risks
 -
 
-### Step 16: Feedback Period
+## Feedback Period
 
 **Open from:** ${DATE}
 **Close on:**
@@ -220,13 +203,13 @@ echo "Created decision: docs/decisions/$(date +%Y%m%d)-${SLUG}.md"
 
 Run it with `./new-decision.sh "Adopt Vue.js for frontend"` to generate a properly formatted decision ready for editing.
 
-### Step 17: Cross-Referencing Decisions
+## Cross-Referencing Decisions
 
 Decision logs gain value when connected. Link related decisions, superseded entries, and implementation details:
 
 ```markdown
 
-### Step 18: Establishing Team Conventions
+## Establishing Team Conventions
 
 Decision logs only work if the team actually uses them. Establish clear conventions:
 
@@ -238,7 +221,7 @@ Decision logs only work if the team actually uses them. Establish clear conventi
 
 Include decision log links in PR descriptions when relevant. When someone proposes a change, link to the relevant decision so reviewers understand the context.
 
-### Step 19: Alternatives Worth Considering
+## Alternatives Worth Considering
 
 Not every team needs the same approach. Consider these alternatives based on your workflow:
 
@@ -251,7 +234,7 @@ Not every team needs the same approach. Consider these alternatives based on you
 
 The best system is one your team actually uses. Start simple with markdown files and evolve based on your needs.
 
-### Step 20: Making Decisions Discoverable
+## Making Decisions Discoverable
 
 A decision log only helps if people can find it. Add your decision log to:
 
@@ -263,21 +246,6 @@ A decision log only helps if people can find it. Add your decision log to:
 Include a search-friendly summary in each decision so GitHub's search functionality works effectively. Use consistent terminology and key terms that team members would naturally search for.
 
 ---
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Frequently Asked Questions
 
@@ -312,4 +280,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

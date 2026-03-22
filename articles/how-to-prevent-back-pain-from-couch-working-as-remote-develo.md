@@ -11,23 +11,14 @@ tags: [remote-work-tools, remote-work, ergonomics, health, developer-tools, prod
 intent-checked: true
 voice-checked: true
 reviewed: true
-score: 9---
+score: 9
+---
 
 {% raw %}
 
 Working from your couch seems convenient. You wake up, grab your laptop, and settle into your comfortable living room for another day of coding. But that comfort comes with a hidden cost. After months of couch working, many remote developers experience chronic back pain that sneaks up gradually and then becomes difficult to ignore.
 
 The couch was never designed for 8-hour coding sessions. The soft cushions, lack of lumbar support, and hunched positions create perfect conditions for spinal stress. This guide provides actionable strategies to protect your back while still enjoying the flexibility of remote work.
-
-## Key Takeaways
-
-- **Research indicates that improper**: sitting posture increases disc pressure by up to 40% compared to standing.
-- **Even standing for 60**: seconds provides meaningful relief.
-- **Aim for at least**: 5-10 minutes of standing per hour.
-- **The most effective approach**: combines: 1.
-- **Hold 30 seconds**: repeat 3x per leg
-4.
-- **Phase 2 (Week 3-4)**: Add external keyboard/mouse.
 
 ## Why Couch Working Hurts Your Back
 
@@ -359,4 +350,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Prevent Burnout as Remote Developer](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -11,34 +11,12 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Recommended recording setup for user research"
-description: "A practical guide to conducting remote user research sessions for distributed UX teams跨越时区. Includes scheduling strategies, async workflows, and tool"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-run-remote-user-research-sessions-for-ux-designers-ac/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Running remote user research sessions across time zones presents unique challenges for UX designers working in distributed teams. When your participants span Tokyo, Berlin, and San Francisco, traditional synchronous research methods break down. This guide provides practical strategies for conducting effective remote user research without requiring everyone to attend exhausting early-morning or late-night sessions.
-
-## Key Takeaways
-
-- **Use the 2-3 hour**: overlap for synthesis sessions, stakeholder presentations, and sensitive interviews that require real-time rapport building.
-- **Use screening surveys with**: timezone availability fields 3.
-- **Use the async time for research execution**: and reserve synchronous time for collaborative analysis where real-time discussion accelerates insight generation.
-- **Maintain a participant database**: with availability preferences ``` Screen participants for willingness to participate in async formats.
-- **Some users prefer recorded**: sessions because they can pause and think before responding.
-- **Match your methodology to**: participant preferences when possible.
 
 ## Prerequisites
 

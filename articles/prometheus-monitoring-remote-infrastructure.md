@@ -10,35 +10,14 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Prometheus Monitoring Setup for Remote Infrastructure"
-description: "Set up Prometheus and Grafana to monitor remote servers, containers, and services. Covers exporters, alerting rules, and dashboard config for distributed infra."
-date: 2026-03-21
-author: theluckystrike
-permalink: /prometheus-monitoring-remote-infrastructure/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Remote infrastructure needs observability. Without it, you find out about a crashed service when a client emails you, not when it goes down at 3am. Prometheus scrapes metrics from your servers and containers every 15 seconds. Grafana turns those metrics into dashboards. Alertmanager sends you a page before the client notices.
 
 This guide builds a complete monitoring stack: Prometheus, Grafana, and Node Exporter on a dedicated monitoring server, with targets across your fleet.
-
-## Key Takeaways
-
-- **What is a good**: scrape interval for production? 15 seconds is the standard default and works for most workloads.
-- **Increase to 5 seconds only for high-frequency trading or real-time alerting requirements**: it significantly increases storage costs.
-- **Step 5**: Import the starter dashboards. Dashboard ID 1860 (Node Exporter Full) and ID 3662 (Prometheus 2.0 Overview) cover 90% of what you need immediately.
-- **Prometheus scrapes metrics from**: your servers and containers every 15 seconds.
-- **Step 1**: Provision the monitoring server. Use a dedicated instance (2 vCPU, 4 GB RAM handles 50 targets comfortably).
-- **Drop to 30 seconds**: if your Prometheus instance CPU spikes during scrapes across large fleets.
 
 ## Architecture
 

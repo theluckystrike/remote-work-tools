@@ -10,7 +10,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 ---
 layout: default
 title: "Tax Deduction Tracking Tools for Remote Freelancers"
@@ -23,22 +24,14 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
 Remote freelancers can deduct a significant portion of business expenses, but only if those expenses are tracked throughout the year. Reconstructing a year of receipts in April is painful and leads to missed deductions. The goal is a system that captures expenses at the moment they occur.
 
 This guide covers what remote freelancers can typically deduct, how to track it, and the tools that automate most of the work.
-
-## Key Takeaways
-
-- **This guide covers what**: remote freelancers can typically deduct, how to track it, and the tools that automate most of the work.
-- **Remote freelancers can deduct**: a significant portion of business expenses, but only if those expenses are tracked throughout the year.
-- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
-- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
-- **Discounts of 25-50% are**: common for qualifying organizations.
-- **Remote freelancers who skip**: quarterly estimates pay a penalty at filing.
 
 ## Common Deductions for Remote Freelancers
 

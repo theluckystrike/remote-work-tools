@@ -17,13 +17,6 @@ tags: [remote-work-tools]
 
 A tech radar is a snapshot of your team's technology decisions: what you're adopting, actively trialing, holding off on, and avoiding. For remote teams it replaces hallway conversations about "should we try X?" with a documented, searchable record. This guide builds one using a CSV + static generator approach your whole team can contribute to via pull requests.
 
-## Key Takeaways
-
-- **Topics covered**: the four quadrants and rings, option a: static generator (no infrastructure), option b: backstage tech radar plugin
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-- **Trade-off analysis**: Strengths and limitations of each option discussed
-
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

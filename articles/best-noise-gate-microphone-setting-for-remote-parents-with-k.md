@@ -10,22 +10,14 @@ tags: [remote-work-tools, audio, microphone, noise gate, remote work, parents, k
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Remote parents face a unique audio challenge: maintaining professional call quality while children play, laugh, and occasionally scream in the background. A properly configured noise gate can mean the difference between a crystal-clear presentation and an embarrassing moment where your team hears your toddler's dinosaur roar.
 
 This guide provides specific noise gate settings tailored for remote parents managing kids nearby. You'll find practical configurations that balance noise suppression with natural voice transmission.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **They recommend threshold values like -40 dB**: which works well for empty home offices.
-- **The -35 dB threshold**: sits above typical ambient house noise but below your speaking voice.
-- **Most conferencing apps support**: keyboard shortcuts for this.
-- **Configure with settings from**: "Recommended Settings for Parents" 5.
 
 ## Why Standard Noise Gate Settings Fail Parents
 
@@ -350,4 +342,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Example: Calculating appropriate microphone gain](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -11,34 +11,12 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
 ---
-layout: default
-title: "Test upload/download speed to common video call servers"
-description: "A technical guide for upgrading hybrid office network infrastructure to handle increased video call bandwidth. Includes practical examples, network"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]---
 
 {% raw %}
 
 Hybrid office network upgrades require symmetric business-class internet (100+ Mbps upload for 50-person offices), Quality of Service (QoS) rules prioritizing video ports (443, 3478-3480, 5000-6000), and gigabit or multi-gig switched infrastructure. WiFi 6E/7 access points with band steering handle concurrent connections better than older standards. Monitor bandwidth continuously using tools like vnstat with Prometheus metrics and Grafana dashboards to catch saturation before video calls degrade. Start by calculating concurrent capacity at 40% occupancy × 2 Mbps per participant plus 30% headroom.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Video calls consume significant bandwidth**: and most platforms recommend 1.5-3 Mbps per participant for HD quality.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **WiFi 6E/7 access points**: with band steering handle concurrent connections better than older standards.
-- **Start by calculating concurrent**: capacity at 40% occupancy × 2 Mbps per participant plus 30% headroom.
-- **Deploy WiFi 6E or**: WiFi 7 access points for better handling of concurrent connections 2.
 
 ## Prerequisites
 

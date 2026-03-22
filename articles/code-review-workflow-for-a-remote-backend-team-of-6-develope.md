@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Review assignment logic (example)"
-description: "Code review workflow for a 6-person remote backend team: PR size limits, reviewer rotation, async feedback loops, and merge queue configuration."
+description: "A practical guide to implementing efficient code review processes for distributed backend teams of 6 developers"
 date: 2026-03-16
 last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -11,7 +11,8 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, workflow, remote-work]---
+tags: [remote-work-tools, workflow, remote-work]
+---
 ---
 layout: default
 title: "Review assignment logic (example)"
@@ -25,19 +26,10 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, workflow, remote-work]---
-
+tags: [remote-work-tools, workflow, remote-work]
+---
 
 Implement a rotation-based review assignment system to prevent bottlenecks, split reviews into feature (two approvals) and hotfix (one approval) categories, and use async code review practices with timezone-aware SLAs. Set up GitHub branch protection rules to enforce review requirements and automate notifications through Slack to maintain responsiveness across distributed team schedules.
-
-## Key Takeaways
-
-- **For occasional use**: consider whether a free alternative covers enough of your needs.
-- **Free and basic plans**: typically get community forum support and documentation.
-- **For instance**: if you use Go, include items about goroutine management and context usage.
-- **This frees reviewers to**: focus on logic and architecture rather than style violations.
-- **Use phrases like "This**: approach could cause..." rather than "You made a mistake here..." Rotate PR review assignments deliberately.
-- **If you use this product daily for core tasks**: the cost usually pays for itself through time savings.
 
 ## The Foundation: Review Cadence and Assignment
 

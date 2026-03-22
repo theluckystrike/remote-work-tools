@@ -11,25 +11,12 @@ tags: [remote-work-tools, remote-hiring, employee-referrals, distributed-teams, 
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Employee referral programs remain one of the most cost-effective hiring channels, with referral hires typically showing higher retention rates and faster onboarding. For distributed companies, designing a referral program that works across time zones and legal jurisdictions requires thoughtful structure and clear communication. This guide provides a template you can adapt for your remote team, with practical implementation details and code examples for tracking referrals.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Flat $1.5K bonus or**: revenue-share (pay $500 now, $500 after 6 months).
-- **A $5K bonus for**: someone in San Francisco is less meaningful than $5K for someone in Sofia.
-- **A $5K bonus becomes**: $3,500 after-tax.
-- **If they get an offer**: Get $X bonus (paid within 30 days)
-4.
-- **After 90 days**: Get $Y bonus (confirming they're a good fit)
-
-Questions? Ask [email/Slack channel]
-
-Help us build a team we love!
 
 ## Defining Referral Program Tiers
 
@@ -375,4 +362,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

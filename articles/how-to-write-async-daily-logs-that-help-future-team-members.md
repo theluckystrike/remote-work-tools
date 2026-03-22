@@ -11,20 +11,12 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
 Write effective async daily logs by recording decisions with reasoning, capturing context that would otherwise be lost, linking to supporting evidence (PRs, tickets, Slack threads), and including learnings that benefit the team. Daily logs create searchable institutional knowledge that accelerates onboarding and prevents repeated problem-solving.
-
-## Key Takeaways
-
-- **Here's what actually works**: in practice: ### Notion (Pricing: Free - $12/month per user) Notion's database features make it ideal for teams wanting searchable logs with rich filtering.
-- **What migration patterns work**: best (with links to past PRs) 3.
-- **Many teams find this**: replaces 50% of their formal onboarding docs.
-- **Best for**: Teams already invested in Notion; engineering teams wanting to correlate decisions with code changes.
-- **Best for**: Engineering teams, especially those using GitHub for issue tracking.
-- **Best for**: Distributed teams comfortable with Git, or teams wanting maximum control.
 
 ## Why Daily Logs Matter for Team Knowledge
 
@@ -366,4 +358,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Write Async Technical RFCs That Get Meaningful](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

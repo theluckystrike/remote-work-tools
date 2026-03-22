@@ -17,13 +17,6 @@ tags: [remote-work-tools]
 
 Running a shared Kubernetes dev cluster lets remote teams test against a real cluster without local resource constraints. This guide uses k3s for lightweight deployment, Helm for app management, and kubeconfig sharing patterns for distributed teams.
 
-## Key Takeaways
-
-- **Full Kubernetes (kubeadm-based) requires**: significantly more overhead: a dedicated etcd cluster, manual CNI installation, and node configuration scripts that take 20-30 minutes to stabilize.
-- **Self-hosted Harbor is the**: most capable option, but for smaller teams a cloud registry with a shared robot account works fine.
-- **Topics covered**: why k3s over full kubernetes, server requirements, install k3s server node
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-
 ## Why k3s Over Full Kubernetes
 
 k3s uses under 512MB RAM at idle, installs in 30 seconds, and handles everything a remote dev team needs. It runs containerd, CoreDNS, Traefik ingress, and local storage provisioner out of the box.

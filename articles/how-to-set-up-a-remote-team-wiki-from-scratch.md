@@ -11,34 +11,12 @@ tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
 ---
-layout: default
-title: "How to Set Up a Remote Team Wiki from Scratch"
-description: "Step-by-step guide to building a remote team wiki. Compares Notion, Confluence, GitBook, and Outline with structure templates and permission models"
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: "Remote Work Tools Guide"
-permalink: /how-to-set-up-a-remote-team-wiki-from-scratch/
-categories: [guides]
-tags: [remote-work-tools, tools, remote-work]
-reviewed: true
-score: 9
-voice-checked: true
-intent-checked: true---
 
 {% raw %}
 
 A team wiki is the difference between asking "who knows how we do X?" and having documented answers ready. Building one correctly prevents information silos, reduces onboarding time, and creates accountability for processes. This guide walks through choosing a platform, structuring content, implementing permissions, and maintaining quality over time.
-
-## Key Takeaways
-
-- **Choose platform - Team**: preferences → Notion (easiest), Confluence (best for large teams), Outline (privacy) 2.
-- **Run deployment script $**: ./scripts/deploy.sh --env=production --dry-run Expected: Script outputs what will change (should match PR) 3.
-- **Run deployment $ ./scripts/deploy.sh**: --env=production Expected: Script output shows "Deployment complete" 5.
-- **Run smoke tests $**: curl https://app.example.com/api/health Expected: Returns {"status":"healthy"} 6.
-- **It's free and open-source**: but requires hosting.
-- **Create structure - Copy**: the recommended structure above - Create main sections but don't fill them yet 3.
 
 ## Why Your Remote Team Needs a Wiki
 

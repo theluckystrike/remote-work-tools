@@ -11,34 +11,10 @@ intent-checked: true
 voice-checked: true
 score: 9
 categories: [guides]
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
 
-
-layout: default
-title: "Example: HIPAA-compliant data handling"
-description: "A technical guide for developers and power users building patient intake solutions for distributed healthcare networks transitioning to paperless"
-date: 2026-03-15
-last_modified_at: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /remote-healthcare-patient-intake-form-tool-for-distributed-c/
-reviewed: true
-intent-checked: true
-voice-checked: true
-score: 9
-categories: [guides]
-tags: [remote-work-tools, remote-work]---
-
 {% raw %}
-
-## Key Takeaways
-
-- **Modern implementations use JSON**: Schema for dynamic form generation, enabling non-technical staff to modify intake questions without code changes.
-- Consider integration points for:
-
-1.
-- **Store consent form content**: in a localization file keyed by language code, and present the appropriate version based on the patient's preferred language field.
-- **Topics covered**: patient intake digitization for distributed healthcare networks, core requirements for distributed patient intake, building the intake form engine
 
 ## Patient Intake Digitization for Distributed Healthcare Networks
 

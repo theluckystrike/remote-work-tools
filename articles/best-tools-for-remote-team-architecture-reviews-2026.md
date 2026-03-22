@@ -18,14 +18,6 @@ tags: [remote-work-tools, architecture, diagramming, collaboration, team-tools, 
 
 Miro excels at collaborative async architecture reviews with real-time feedback, comments, and version history. Lucidchart produces publication-quality diagrams but requires more synchronous interaction. Excalidraw prioritizes simplicity and works offline-first, perfect for rapid sketches during design discussions. For enterprise distributed teams needing audit trails and permission management, Lucidchart wins. For fast-moving teams prioritizing collaboration over perfection, Miro is best. Excalidraw suits small teams and open-source projects where cost is critical.
 
-## Key Takeaways
-
-- **Miro**: Best for collaborative async reviews. 500+ diagramming templates, real-time cursor tracking, comment threads tied to diagram elements. $132/year base.
-- **Lucidchart**: Best for publication quality. Professional templates, version control, comprehensive shape libraries. $89/year. Enterprise compliance features.
-- **Excalidraw**: Best for rapid sketching. Open-source, free, works offline. No real-time sync. Perfect for brainstorming, not formal documentation.
-- **Pricing**: Miro ($11/month base, $25/month unlimited), Lucidchart ($7.95/month, $199/month team), Excalidraw (free, open-source).
-- **Team choice**: Distributed async-first teams choose Miro. Formal documentation teams choose Lucidchart. Lean teams choose Excalidraw.
-
 ## The Remote Architecture Review Challenge
 
 Architecture decisions require visual communication. Team members across time zones need to understand system design, data flows, service dependencies, and deployment topology without synchronous meetings. This creates unique challenges:

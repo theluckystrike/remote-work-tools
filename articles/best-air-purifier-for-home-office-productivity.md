@@ -18,15 +18,6 @@ tags: [remote-work-tools, best-of, productivity]
 
 The best air purifier for home office productivity is a HEPA-equipped unit with a CADR rating appropriate for your room size, real-time air quality monitoring, and smart home integration capabilities. For developers working 8+ hours daily, an air purifier reduces airborne allergens, dust, and volatile organic compounds (VOCs) that contribute to brain fog and decreased concentration. This guide covers the technical specifications that matter, how to integrate air quality monitoring into your smart home setup, and which units deliver the best performance for coding environments.
 
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
-- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
-- **The best air purifier**: for home office productivity is a HEPA-equipped unit with a CADR rating appropriate for your room size, real-time air quality monitoring, and smart home integration capabilities.
-- **This guide covers the**: technical specifications that matter, how to integrate air quality monitoring into your smart home setup, and which units deliver the best performance for coding environments.
-- **Research shows that poor**: indoor air quality can reduce cognitive function by up to 15%.
-
 ## Why Air Quality Matters for Developers
 
 Your home office likely contains multiple sources of air pollution that degrade cognitive performance. New furniture, paints, and electronics emit VOCs that cause headaches and reduced focus. Dust accumulation on keyboards and monitors affects both equipment longevity and respiratory health. During allergy seasons, airborne pollen and particles trigger congestion that makes afternoon coding sessions miserable.
@@ -40,7 +31,8 @@ Research shows that poor indoor air quality can reduce cognitive function by up 
 Clean Air Delivery Rate (CADR) measures how quickly an air purifier cleans air, expressed in cubic feet per minute (CFM). For a home office of 150-250 square feet, look for a CADR of at least 200 CDM. Larger spaces require proportionally higher ratings.
 
 ```
-Room Size    | Minimum CADR | Recommended CADR---
+Room Size    | Minimum CADR | Recommended CADR
+---
 ----------|--------------|-----------------
 150 sq ft | 180 CFM | 250+ CFM
 200 sq ft | 240 CFM | 350+ CFM

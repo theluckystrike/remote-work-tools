@@ -11,7 +11,8 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 ---
 layout: default
 title: "Client Project Status Dashboard Setup for Remote Agency"
@@ -25,20 +26,12 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
 Build a custom dashboard using Node.js, Express, and GitHub/Linear APIs to display real-time project status, active tasks, time tracking, and deliverable links. Alternatively, use Basecamp or Monday.com for out-of-the-box solutions with client visibility settings. This guide shows you how to consolidate scattered Slack, email, and spreadsheet updates into a single source of truth for distributed agency teams.
-
-## Key Takeaways
-
-- **Many teams use n8n**: or Zapier to create no-code integrations that push updates to a dashboard without custom development.
-- **A small DigitalOcean or**: Fly.io instance runs under $10/month.
-- **"This dashboard reflects our**: GitHub state and refreshes every 15 minutes" is much better than letting clients think it is real-time when it is not.
-- **Use read-only tokens or**: generate shareable links that expire.
-- **Alternatively**: use Basecamp or Monday.com for out-of-the-box solutions with client visibility settings.
-- **Pricing is per seat**: but guest users are typically free or discounted.
 
 ## Core Requirements for Remote Agency Dashboards
 
@@ -52,17 +45,7 @@ Before selecting tools or writing code, define the essential features your dashb
 
 Remote teams need dashboards that update automatically. Manual updates quickly become outdated and create additional overhead that defeats the purpose of consolidation.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Build a Custom Dashboard with Existing Tools
+## Building a Custom Dashboard with Existing Tools
 
 Rather than purchasing expensive enterprise solutions, many agencies construct dashboards from APIs they already use. Here's a practical implementation using Node.js, Express, and the GitHub API.
 
@@ -151,7 +134,7 @@ loadDashboard();
 
 This minimal example demonstrates the core pattern: aggregate data from your existing tools into an unified view.
 
-### Step 2: Integrate Project Management Platforms
+## Integrating Project Management Platforms
 
 If your agency uses tools like Linear, Jira, or Notion, use their APIs to pull project data into a central dashboard. Many teams use n8n or Zapier to create no-code integrations that push updates to a dashboard without custom development.
 
@@ -178,7 +161,7 @@ async function getProjectStatus(databaseId) {
 }
 ```
 
-### Step 3: No-Code and Low-Code Dashboard Alternatives
+## No-Code and Low-Code Dashboard Alternatives
 
 Not every agency has the bandwidth for custom development. Several platforms offer substantial project visibility out of the box with minimal configuration.
 
@@ -190,7 +173,7 @@ Not every agency has the bandwidth for custom development. Several platforms off
 
 **Linear** has a recently added "project updates" feature that generates shareable status pages. If your engineering team already uses Linear for issue tracking, this is the lowest-friction path to a client-facing view — the data is already there, and you just enable sharing.
 
-### Step 4: Remote Team Patterns for Dashboard Success
+## Remote Team Patterns for Dashboard Success
 
 The technology choice matters less than the team habits you build around it. Here are the patterns that separate agencies with effective dashboards from those where dashboards go stale.
 
@@ -202,7 +185,7 @@ The technology choice matters less than the team habits you build around it. Her
 
 **Set expectations about refresh frequency.** Tell clients explicitly what the dashboard shows and how often it updates. "This dashboard reflects our GitHub state and refreshes every 15 minutes" is much better than letting clients think it is real-time when it is not. Managing expectations prevents the dashboard from becoming a trust issue when data is temporarily stale.
 
-### Step 5: Client-Facing Versus Internal Views
+## Client-Facing Versus Internal Views
 
 Remote agencies must balance transparency with security. Create separate views for different audiences:
 
@@ -222,7 +205,7 @@ function renderDashboard(userRole) {
 }
 ```
 
-### Step 6: Deploy ment Considerations
+## Deployment Considerations
 
 Host your dashboard where team members can access it reliably. Common options include:
 
@@ -234,7 +217,7 @@ Set up HTTPS through Let's Encrypt or your hosting provider. Remote teams access
 
 Configure health checks and uptime monitoring. A dashboard that goes offline defeats its purpose — team members will revert to checking email and Slack.
 
-### Step 7: Automate Status Updates
+## Automating Status Updates
 
 Reduce manual entry by automating status changes:
 
@@ -258,7 +241,7 @@ jobs:
           -d '{"event": "pr_merged", "project": "${{ github.repository }}"}'
 ```
 
-### Step 8: Measuring Dashboard Effectiveness
+## Measuring Dashboard Effectiveness
 
 Track whether your dashboard actually improves team workflow:
 
@@ -268,21 +251,6 @@ Track whether your dashboard actually improves team workflow:
 - Team feedback: Collect input on dashboard usefulness
 
 Iterate based on usage patterns. Remove features nobody uses, and add integrations for tools your team adopts.
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Frequently Asked Questions
 

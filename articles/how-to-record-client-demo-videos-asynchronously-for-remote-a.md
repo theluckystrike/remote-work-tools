@@ -11,24 +11,13 @@ tags: [remote-work-tools, async-communication, remote-work, client-demo, video-r
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}
 
 Async demo videos let clients review features on their schedule without time zone coordination, while your team preserves deep work focus. Screen recordings with voiceover narration via Loom, Screenflow, or OBS plus timestamped feedback links create structured review cycles. This guide covers recording workflows, editing automation, and client feedback collection for remote agencies.
-
-## Key Takeaways
-
-- **Loom provides faster setup for quick updates**: though the free tier limits video length to 5 minutes.
-- **Act Three**: Summary and Next Steps (30 seconds)
-
-Recap what you showed and specify what you need from the client.
-- **$(ls demos/processed/*.mp4 | wc**: -l) demos ready." ``` Thursday afternoon (30 min notification) 1.
-- **Use a naming convention**: `client-project-date.mp4`
-3.
-- **If you're demonstrating a complex flow**: pause the recording, perform the action, then resume.
-- Use your cursor deliberately.
 
 ## Why Asynchronous Demos Work Better
 
@@ -341,4 +330,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

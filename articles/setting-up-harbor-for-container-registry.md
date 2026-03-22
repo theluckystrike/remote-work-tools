@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /setting-up-harbor-for-container-registry/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
@@ -16,13 +16,6 @@ tags: [remote-work-tools]
 {% raw %}
 
 Harbor is an open-source container registry that goes beyond basic storage: built-in Trivy image scanning, replication to cloud registries, robot accounts for CI, LDAP/OIDC auth, and a web UI. Remote teams get one registry their entire pipeline can trust, with audit logs showing who pushed what.
-
-## Key Takeaways
-
-- **Harbor is an open-source**: container registry that goes beyond basic storage: built-in Trivy image scanning, replication to cloud registries, robot accounts for CI, LDAP/OIDC auth, and a web UI.
-- **Topics covered**: prerequisites, installation, configuration
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
 
 ## Prerequisites
 

@@ -26,14 +26,6 @@ A daily health check for remote teams isn't just asking "how is everyone?" — i
 | AWS Cost Explorer | Cloud spend monitoring | Daily cost anomaly alerts | AWS, Slack via Lambda | Included with AWS |
 | Grafana | Metrics and alerting | Threshold-based health alerts | Prometheus, Loki, Slack | Free OSS; Cloud plans |
 
-## Key Takeaways
-
-- Daily health checks combine service monitoring, deployment status, cloud cost alerts, and team standup into one consolidated morning digest
-- Uptime Kuma handles service monitoring with a self-hosted option that avoids per-monitor SaaS fees at scale
-- Geekbot replaces synchronous standups while collecting team health signals like blocker status and energy levels
-- The GitHub morning digest script surfaces stale PRs and overnight deployment results without any manual review
-- A consolidated bash script can pull all health signals into a single Slack message, giving remote teams a shared daily starting point
-
 ## The Daily Health Check Framework
 
 ```

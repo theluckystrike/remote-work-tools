@@ -11,34 +11,12 @@ tags: [remote-work-tools, remote-work, productivity, home-office]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Childproof Home Office When Toddler Interrupts"
-description: "Practical solutions for developers and remote workers to childproof their home office and handle toddler interruptions during video calls. Includes"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-childproof-home-office-when-toddler-interrupts-meetin/
-categories: [guides]
-tags: [remote-work-tools, remote-work, productivity, home-office]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Childproof your home office in three layers: physical barriers (pressure-mounted gate, cable management sleeves, enclosed charging station), technical safeguards (push-to-mute keybindings, aggressive noise cancellation, automated Slack status scripts), and a practiced emergency protocol for when your toddler appears on camera mid-call. Start with cable management and a door latch, then add meeting automation as needed. Below are the specific solutions for each layer, with code examples for the automation pieces.
-
-## Key Takeaways
-
-- **A door sweep costs**: under $20 and eliminates most noise that travels under the door.
-- **The Pro plan at**: around $8/month is reasonable for daily use.
-- **The free tier limits**: usage to 60 minutes per day, which may be insufficient for heavy meeting schedules.
-- **A $5 door latch**: you install today beats an elaborate system you plan to set up next weekend.
-- **Use only short cables**: that don't dangle ``` This setup keeps cables out of reach while maintaining convenient charging for your devices.
-- **You do not need to cover every surface**: the wall adjacent to the play area matters most.
 
 ## Prerequisites
 

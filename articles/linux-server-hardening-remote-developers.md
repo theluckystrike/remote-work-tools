@@ -10,33 +10,14 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Linux Server Hardening Guide for Remote Developers"
-description: "Harden a Linux VPS or home lab server for remote development use. Covers SSH key auth, UFW firewall, fail2ban, unattended upgrades, and audit logging setup."
-date: 2026-03-21
-author: theluckystrike
-permalink: /linux-server-hardening-remote-developers/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 A freshly provisioned VPS or home lab server is exposed to the internet with default settings — password authentication enabled, all ports open, no rate limiting. Within minutes of provisioning, automated scanners are probing it. This guide hardens an Ubuntu 22.04/24.04 server to a baseline that remote developers can use with confidence.
 
 All commands run as root or with sudo unless otherwise noted.
-
-## Key Takeaways
-
-- **This guide hardens an**: Ubuntu 22.04/24.04 server to a baseline that remote developers can use with confidence.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
-- **Topics covered**: step 1: create a non-root user, step 2: harden ssh configuration, step 3: configure ufw firewall
-- **Practical guidance included**: Step-by-step setup and configuration instructions
 
 ## Step 1: Create a Non-Root User
 

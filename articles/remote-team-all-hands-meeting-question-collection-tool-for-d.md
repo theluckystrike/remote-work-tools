@@ -11,34 +11,12 @@ tags: [remote-work-tools, remote-work, all-hands-meeting, distributed-teams, que
 reviewed: true
 score: 8
 voice-checked: true
-intent-checked: true---
+intent-checked: true
 ---
-layout: default
-title: "FastAPI-based question collection endpoint"
-description: "A guide to building and implementing question collection tools for remote all hands meetings in distributed organizations. Includes"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /remote-team-all-hands-meeting-question-collection-tool-for-d/
-categories: [guides]
-tags: [remote-work-tools, remote-work, all-hands-meeting, distributed-teams, question-collection, async-communication, meeting-tools]
-reviewed: true
-score: 8
-voice-checked: true
-intent-checked: true---
 
 {% raw %}
 
 Implement remote all-hands question collection tools using GitHub Issues, custom APIs, or Slack Block Kit that enable anonymous submissions, community upvoting, and duplicate question merging. Open collection 48 hours before meetings to accommodate all time zones, and allow at least 24 hours for leaders to prepare answers. Measure success through submission rates (20-40% participation), answer quality surveys, and time-to-answer metrics. Anonymous submission removes barriers for sensitive questions while upvoting surfaces genuine concerns rather than leadership assumptions.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Open collection 48 hours**: before meetings to accommodate all time zones, and allow at least 24 hours for leaders to prepare answers.
-- **Measure success through submission**: rates (20-40% participation), answer quality surveys, and time-to-answer metrics.
-- **A healthy rate falls**: between 20-40% for regular meetings.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
 
 ## Why Question Collection Matters for Remote All Hands
 

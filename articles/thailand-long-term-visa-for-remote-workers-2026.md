@@ -11,37 +11,12 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Thailand Long Term Visa for Remote Workers 2026"
-description: "Everything developers and digital nomads need to know about Thailand's visa options for remote work in 2026. Compare requirements, application processes"
-date: 2026-03-15
-last_modified_at: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /thailand-long-term-visa-for-remote-workers-2026/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 The LTR (Long-Term Resident) visa is the best option for remote workers in Thailand in 2026, offering up to 10 years of legal stay, no local employer requirement, and exemption from 90-day reporting. You need at least $80,000 USD annual income ($40,000 with a STEM degree), health insurance with $50,000 minimum coverage, and proof of remote employment outside Thailand. Below, we compare the LTR with the Smart Visa and other pathways, covering eligibility, application steps, costs, and practical setup tips for developers.
-
-## Key Takeaways
-
-- **You need at least**: $80,000 USD annual income ($40,000 with a STEM degree), health insurance with $50,000 minimum coverage, and proof of remote employment outside Thailand.
-- **Income threshold**: Earn at least $80,000 USD annually (or $40,000 if you have a STEM degree from a recognized institution)
-2.
-- **Health insurance**: Coverage of at least $50,000 USD
-3.
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **The LTR (Long-Term Resident)**: visa is the best option for remote workers in Thailand in 2026, offering up to 10 years of legal stay, no local employer requirement, and exemption from 90-day reporting.
-- **Salary**: Minimum 100,000 THB (approximately $2,800 USD) monthly
-2.
 
 ## Understanding Thailand's Visa ecosystem for Remote Workers
 

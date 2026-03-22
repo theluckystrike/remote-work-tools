@@ -11,34 +11,12 @@ tags: [remote-work-tools, remote-work, management, underperformance, team-leader
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Handle Remote Employee Underperformance"
-description: "Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-handle-remote-employee-underperformance-conversation-/
-categories: [guides]
-tags: [remote-work-tools, remote-work, management, underperformance, team-leadership]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with the employee. Managing remote teams makes addressing underperformance both more critical and complex because you lack visual cues and must gather objective data instead of relying on gut feelings. This guide provides new managers with a structured approach including conversation scripts, documentation frameworks, and tips specifically adapted for distributed work environments.
-
-## Key Takeaways
-
-- **Managing remote teams makes**: addressing underperformance both more critical and complex because you lack visual cues and must gather objective data instead of relying on gut feelings.
-- **Use async-first communication for**: everything that doesn't require real-time discussion.
-- **Track deliverables**: commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with the employee.
-- **Avoid generalizations like "your**: work has been declining." Instead, use concrete examples with dates and outcomes.
-- **I'd like to schedule**: a 1:1 to talk through some support options.
-- **My goal is to**: support you in succeeding in this role." ### Observations (10 minutes) Present your documented observations factually.
 
 ## Prerequisites
 

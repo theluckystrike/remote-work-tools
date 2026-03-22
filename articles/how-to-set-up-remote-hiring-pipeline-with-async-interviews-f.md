@@ -11,37 +11,14 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Example: GitHub Actions workflow for assessment tracking"
-description: "A practical guide to building a remote hiring pipeline with async interviews. Step-by-step implementation for evaluating distributed candidates across"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Building a hiring pipeline for distributed candidates requires a different approach than traditional in-person recruitment. When your team spans multiple time zones and your candidate pool is global, synchronous interviews become a logistics nightmare. An async interview pipeline solves this by removing the need for real-time scheduling while maintaining rigorous candidate evaluation.
 
 This guide walks through setting up a complete remote hiring pipeline that works for distributed teams. You'll learn how to design stages, create assessments, and manage communication without ever requiring candidates and interviewers to be online simultaneously.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Does GitHub offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Stage 4**: Async Cultural Fit Discussion
-A written or recorded response to questions about collaboration preferences, work style, and career goals.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
 
 ## Why Async Interviews Suit Distributed Hiring
 

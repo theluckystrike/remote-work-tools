@@ -11,23 +11,12 @@ tags: [remote-work-tools, remote-work, management, engineering-managers, leaders
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
 Remote one-on-one meetings feel different. The manager and engineer sit in separate rooms, separated by a screen, with zero incidental hallway conversations to fill in context. A two-week gap between 1:1s means you've forgotten the status from last time. Without deliberate structure, remote 1:1s become status update calls where your engineer recites completed tickets instead of surfacing blockers, growth opportunities, or career concerns. Engineering managers need frameworks for async preparation, conversation templates that work over video, and systematic approaches to career development that don't depend on accidentally running into people at the coffee machine. This guide walks through everything from pre-1:1 async prep to feedback delivery to career planning conversations.
-
-## Key Takeaways
-
-- **Instead of "You need**: better communication," reference a specific moment: "In Wednesday's design review, you didn't ask clarifying questions on the async request.
-- **Git history (30 seconds)**: Open your repo on GitHub/GitLab, filter commits by the engineer.
-- **Slack history (60 seconds)**: Search for their name in your workspace's last week of Slack.
-- **Project board (60 seconds)**: Check Jira, Linear, or Asana.
-- **Here's the breakdown:
-
-0:00-2:00**: Warm-up (Async-free time)
-"How was your week? Anything outside work I should know about?" Give space for human connection.
-- **Most engineers have something—a**: technical problem, unclear requirements, blocked by another team.
 
 ## Why Remote 1:1s Require Different Tactics
 
@@ -358,7 +347,6 @@ Remote 1:1s won't feel the same as in-office conversations. They're structured, 
 
 Make your 1:1s non-negotiable. Your engineers will grow faster, stay longer, and feel invested in. That's the whole game.
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 ---
 

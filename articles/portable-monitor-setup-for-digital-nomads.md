@@ -11,20 +11,12 @@ intent-checked: true
 voice-checked: true
 reviewed: true
 score: 9
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
 Working as a developer on the move transforms your productivity when you add a portable monitor to your setup. A second screen means more space for code, documentation, and debugging without crowding your laptop display. This guide walks you through building a reliable portable monitor setup that works across咖啡馆, coworking spaces, and hotel rooms worldwide.
-
-## Key Takeaways
-
-- **A 2-year-old ASUS MB16UC**: still sells for $150-200 on eBay (60% of original price).
-- **After two years**: your actual cost is $100-150, or $0.14/day.
-- **Most modern laptops offer**: USB-C with DisplayPort Alt Mode, which delivers both power and video through a single cable.
-- **Older laptops may require HDMI**: and some ultra-thin models only have USB-C ports.
-- **Not all USB-C cables**: transmit video—look for cables labeled "USB-C to USB-C" with video capability or use a dedicated USB-C to HDMI adapter from a reputable manufacturer.
-- **Use the "Arrangement" tab**: to verify the layout matches your physical desk setup.
 
 ## Understanding Connectivity Requirements
 
@@ -334,4 +326,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [eSIM vs Local SIM Card for Digital Nomads](/remote-work-tools/esim-vs-local-sim-card-for-digital-nomads/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

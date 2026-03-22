@@ -10,27 +10,12 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Most remote engineering standups are either pointless status reports or anxiety-inducing performance theater. The goal of a standup is coordination — surfacing blockers and dependencies so the team can help. This guide covers both async and synchronous formats that achieve that goal without wasting time.
-
-## Key Takeaways
-
-- **Most teams under 6**: can make synchronous work.
-- **Keep it to 30**: seconds each.
-- **Status report theater**: Engineers summarize work no one needs to hear
-   Fix: Only share info the team needs to act on
-
-2.
-- **Most remote engineering standups**: are either pointless status reports or anxiety-inducing performance theater.
-- **Any blockers or help**: needed? Optional add-on for remote teams: 4.
-- **Blocker**: waiting for QA to confirm
-       test environment is set up."
-
-Bad: "Meetings"
-Good: "Mostly in planning sessions.
 
 ## Prerequisites
 
@@ -187,16 +172,16 @@ If it takes more than 30 seconds, say "let's take that to a thread."
 **Common synchronous standup failure modes:**
 
 1. **Status report theater**: Engineers summarize work no one needs to hear
-   Fix: Only share info the team needs to act on
+ Fix: Only share info the team needs to act on
 
 2. **Problem-solving in standup**: Someone raises a bug and the team starts debugging
-   Fix: "Let's take that to a follow-up — who else needs to be involved?"
+ Fix: "Let's take that to a follow-up — who else needs to be involved?"
 
 3. **Waiting for latecomers**: Starting 3-5 minutes late becomes the norm
-   Fix: Start at the scheduled time, latecomers join where you are
+ Fix: Start at the scheduled time, latecomers join where you are
 
 4. **Rotating facilitator confusion**: No one knows who runs it
-   Fix: Alphabetical rotation, posted in the team channel every Monday
+ Fix: Alphabetical rotation, posted in the team channel every Monday
 
 ### Step 5: Hybrid Format for Mixed Timezones
 
@@ -431,4 +416,4 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

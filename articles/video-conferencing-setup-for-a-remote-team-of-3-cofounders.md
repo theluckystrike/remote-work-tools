@@ -11,35 +11,12 @@ tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Video Conferencing Setup for a Remote Team of 3 Cofounders"
-description: "Set up video conferencing for three remote cofounders by equipping each home office with a 1080p webcam at eye level, an USB condenser or headset microphone"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /video-conferencing-setup-for-a-remote-team-of-3-cofounders/
-categories: [guides]
-tags: [remote-work-tools, tools, remote-work]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Set up video conferencing for three remote cofounders by equipping each home office with a 1080p webcam at eye level, an USB condenser or headset microphone, and a key light at 45 degrees from the camera. Use a wired Ethernet connection with QoS rules prioritizing video traffic, then pick one platform (Zoom for reliability, Google Meet if you already use Workspace) and configure it for join-before-host, cloud recording, and automatic transcription. This guide covers the hardware, network optimization, platform configuration, and automation scripts that make daily cofounder calls.
-
-## Key Takeaways
-
-- **A simple three-point setup**: works in most home offices: Position a key light (any diffused LED panel or softbox) at 45 degrees from the camera axis, slightly above eye level.
-- **Platform selection**: Choose one primary platform based on existing tool ecosystem
-3.
-- **The core components remain**: consistent regardless of which platform you choose.
-- **Use a back light**: sparingly to separate the subject from the background.
-- **A minimum of 10**: Mbps upload bandwidth supports 1080p video calls for three participants.
-- **Route video traffic outside**: VPN tunnels when possible, or use split tunneling to exclude conferencing domains.
 
 ## Why 3-Person Teams Have Unique Requirements
 

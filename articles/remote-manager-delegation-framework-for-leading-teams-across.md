@@ -11,7 +11,8 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 ## The Core Challenge of Delegating Across Time Zones
@@ -23,16 +24,6 @@ Most remote managers either over-correct by maintaining tight synchronous schedu
 
 This guide provides a concrete framework you can implement immediately, whether you're managing three people or thirty.
 
-
-## Key Takeaways
-
-- **Reserve for coordination only**: Use overlap for things that truly need sync—complex discussions, 1:1s, crisis response
-3.
-- **If reversals >10%**: your tier definitions need clarity.
-- **Over time**: your team becomes faster because they're not waiting for you, and you become more valuable because you're solving Tier 3 and Tier 4 problems instead of drowning in Tier 1 decisions.
-- **Not for its own sake**: but because documentation is what makes async delegation possible.
-- **When they make mistakes—and**: they will—use those as coaching moments, not reasons to reclaim authority.
-- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
 
 ## The Four Tiers of Delegation
 
@@ -293,4 +284,4 @@ Trying to change everything at once. Pick one or two practices, implement them w
 - [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

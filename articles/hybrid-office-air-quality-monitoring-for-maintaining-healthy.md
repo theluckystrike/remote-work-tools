@@ -11,34 +11,12 @@ score: 9
 voice-checked: true
 categories: [guides]
 intent-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
 ---
-layout: default
-title: "Hybrid Office Air Quality Monitoring for Maintaining"
-description: "Learn how to implement air quality monitoring systems for hybrid offices with variable occupancy. Includes sensor integration, occupancy-aware"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /hybrid-office-air-quality-monitoring-for-maintaining-healthy/
-reviewed: true
-score: 9
-voice-checked: true
-categories: [guides]
-intent-checked: true
-tags: [remote-work-tools]---
 
 {% raw %}
 
 Integrate door counter or badge API data with CO2 sensors to calculate occupancy-adjusted thresholds (base 600 ppm + 15 ppm per person) instead of fixed alerts, reducing false positives during low-occupancy periods while catching real ventilation problems when the office fills up. Publish occupancy and CO2 readings to MQTT/WebSocket so your building automation system can adjust HVAC fan speed proportionally rather than binary on/off control. This approach—dynamic thresholds accounting for actual occupancy—prevents excessive alerts on Tuesdays when 8 people work alone while remaining sensitive to genuine ventilation shortfalls when 40 people occupy the same space.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **These devices cost under**: $50 each and require no occupant cooperation.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **Consider a typical Tuesday in a hybrid office**: morning brings 15 people, midday peaks at 35, and by afternoon only 8 remain.
-- **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
 
 ## The Variable Occupancy Challenge
 

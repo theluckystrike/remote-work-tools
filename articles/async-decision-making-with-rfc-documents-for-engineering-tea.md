@@ -10,31 +10,12 @@ tags: [remote-work-tools, async, rfc, decision-making, engineering, remote-work,
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 9---
+score: 9
 ---
-layout: default
-title: "Async Decision Making with RFC Documents for Engineering"
-description: "A practical guide to implementing async decision making using RFC documents. Includes templates, workflows, and best practices for distributed"
-date: 2026-03-16
-author: theluckystrike
-permalink: /async-decision-making-with-rfc-documents-for-engineering-teams/
-categories: [guides]
-tags: [remote-work-tools, async, rfc, decision-making, engineering, remote-work, collaboration]
-reviewed: true
-intent-checked: true
-voice-checked: true
-score: 9---
 
 {% raw %}
 
 Request for Comments (RFC) documents serve as the backbone of asynchronous decision making in distributed engineering organizations. When implemented effectively, RFCs enable teams to make thoughtful, documented decisions without requiring real-time synchronization, which proves especially valuable across time zones.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Stay on PostgreSQL 13**: with extended support: Costs $5,000/year, delays access to new features 2.
-- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
-- **Migrate to managed database service**: Exceeds current budget by 40%
 
 ## Implementation Plan
 1.

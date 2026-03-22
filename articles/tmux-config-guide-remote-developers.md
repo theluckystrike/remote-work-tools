@@ -11,34 +11,14 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "tmux Config Guide for Remote Developers"
-description: "A practical tmux configuration guide for remote developers: sessions, windows, panes, plugins, and SSH persistence that survives dropped connections"
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: theluckystrike
-permalink: /tmux-config-guide-remote-developers/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 tmux is the single most important tool for remote developers who work over SSH. When your connection drops, your tmux session keeps running on the server. When you reconnect, you reattach and pick up exactly where you left off — no lost work, no killed processes, no interrupted builds.
 
 This guide covers practical tmux configuration: a solid `~/.tmux.conf`, session and window management patterns, plugin setup with tpm, and SSH persistence workflows.
-
-## Key Takeaways
-
-- **tmux is the single**: most important tool for remote developers who work over SSH.
-- **When you reconnect, you reattach and pick up exactly where you left off**: no lost work, no killed processes, no interrupted builds.
-- **If your distro ships an older version**: build from source or use a package manager like asdf.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Prerequisites
 

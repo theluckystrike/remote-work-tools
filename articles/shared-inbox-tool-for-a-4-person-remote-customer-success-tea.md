@@ -9,22 +9,14 @@ permalink: /shared-inbox-tool-for-a-4-person-remote-customer-success-tea/
 categories: [guides]
 tags: [remote-work-tools, customer-success, shared-inbox, remote-work, automation]
 reviewed: true
-score: 7
+score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 For a four-person remote customer success team, HelpScout is the strongest shared inbox option, balancing features and simplicity without enterprise-grade overhead. If you already use Gmail, shared labels with assignment conventions work as a free starting point, while teams with development capacity can build a custom inbox with Slack integration for full control. Whichever approach you choose, the key requirements are real-time visibility into queue status, clear ticket ownership, internal notes, and automated routing that categorizes messages by customer tier and topic.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Front**: $99/month ($25/agent).
-- **Gmail shared account**: $0.
-- **Custom solution (self-hosted)**: $50-100 one-time (VPS), $0 ongoing.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **If you need better visibility and reporting**: a helpdesk tool pays for itself quickly.
 
 ## The Core Problem
 
@@ -335,4 +327,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

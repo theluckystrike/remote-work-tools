@@ -11,7 +11,8 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 ---
 layout: default
 title: "Escalation Protocols for Remote Engineering Teams"
@@ -25,22 +26,12 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
 Build your escalation protocol around three levels -- on-call engineer (15-minute response), technical lead (30-minute response), and engineering manager (60-minute response) -- with automated triggers that page the next level when the current one does not acknowledge. Define explicit criteria for what constitutes each severity level and document them in a file your whole team can reference. This guide provides the escalation matrix, handoff templates, runbook structure, and PagerDuty automation code to implement this across time zones.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Check current connection count**: psql -h $DB_HOST -U $DB_USER -c \ "SELECT count(*) FROM pg_stat_activity WHERE state = 'active';" # 2.
-- **Here's a comparison:
-
-PagerDuty**: $50-100+/month (pricing scales with team size).
-- **OpsGenie (Atlassian)**: $6-40/user/month.
-- Paid tier $10/user/month.
-- **Check which service is**: consuming connections: ```bash # SSH to bastion, then: psql $DB_HOST -c "SELECT datname, count(*) FROM pg_stat_activity GROUP BY datname;" ``` 3.
 
 ## Why Escalation Protocols Break in Remote Settings
 

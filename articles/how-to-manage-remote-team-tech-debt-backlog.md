@@ -16,27 +16,7 @@ voice-checked: true---
 
 Tech debt without a system becomes invisible until it causes an incident. For remote teams without hallway conversations, the invisibility problem is worse: engineers work around problems silently, never surfacing them to the people who could allocate time to fix them. This guide covers a practical async system for capturing, scoring, and allocating time to tech debt in a distributed team.
 
-## Key Takeaways
-
-- **Establish a policy: ```markdown**: ## Tech Debt Time Budget Policy Every sprint allocates 15% of engineering capacity to tech debt.
-- **For a team of**: 6 engineers × 80h sprint = 72h × 15% = ~10h/sprint.
-- **No more than 50%**: of debt budget on any single item 4.
-- **For remote teams without**: hallway conversations, the invisibility problem is worse: engineers work around problems silently, never surfacing them to the people who could allocate time to fix them.
-- **The result**: engineers work around problems individually without a shared picture of the worst offenders.
-- **Score 7.1**: [DEBT] Search uses full table scan (#412) — scoring complete, needs owner
-3.
-
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: The Core Problem with Remote Tech Debt Management
+## The Core Problem with Remote Tech Debt Management
 
 In co-located teams, tech debt often gets discussed in passing ("this module is a nightmare, we should really fix it"). Remote teams lose that informal channel. The result: engineers work around problems individually without a shared picture of the worst offenders.
 
@@ -46,7 +26,7 @@ A good remote tech debt system needs:
 - Visibility (any engineer can see the current backlog and its priority)
 - Time allocation that's explicit, not ad-hoc
 
-### Step 2: Tool Choice: GitHub Issues with Labels
+## Tool Choice: GitHub Issues with Labels
 
 GitHub Issues works better than Jira or Linear for tech debt because it lives in the same repository as the code. When an engineer notices debt while working on a PR, they can file an issue in seconds.
 
@@ -93,7 +73,7 @@ gh label create "debt-scored" --color "f59e0b" --description "Scored, awaiting s
 gh label create "debt-scheduled" --color "3b82f6" --description "In a sprint or quarter plan"
 ```
 
-### Step 3: Issue Template
+## Issue Template
 
 ```markdown
 <!-- .github/ISSUE_TEMPLATE/tech-debt.md -->---
@@ -107,35 +87,35 @@ assignees: ''
 ## What is the problem?
 <!-- Describe what's broken, slow, hard to maintain, or risky -->
 
-### Step 4: Where is it?
+## Where is it?
 <!-- File paths, modules, services, or layers affected -->
 Module:
 Files:
 
-### Step 5: Business Impact
+## Business Impact
 <!-- What happens when this debt causes a problem? Who is affected? -->
 
-### Step 6: Frequency
+## Frequency
 <!-- How often do engineers encounter this? -->
 - [ ] Daily
 - [ ] Weekly
 - [ ] Monthly
 - [ ] Rare but high risk
 
-### Step 7: Proposed Fix
+## Proposed Fix
 <!-- High-level approach. Does not need to be detailed. -->
 
-### Step 8: Effort Estimate
+## Effort Estimate
 - [ ] Days (1-5)
 - [ ] Weeks (1-3)
 - [ ] Months (multi-sprint)
 
-### Step 9: Score (filled in during async review)
+## Score (filled in during async review)
 <!-- Impact (1-5) × Frequency (1-5) ÷ Effort (1-5) -->
 Score: TBD
 ```
 
-### Step 10: Scoring System (Async, No Meeting Required)
+## Scoring System (Async, No Meeting Required)
 
 Use a simple formula: **Score = (Impact × Frequency) ÷ Effort**
 
@@ -185,14 +165,14 @@ I'll aggregate scores after 48 hours.`
  });
 ```
 
-### Step 11: Weekly Async Review (No Meeting)
+## Weekly Async Review (No Meeting)
 
 Instead of a debt review meeting, use a structured async thread:
 
 ```markdown
 <!-- Posted every Monday in #eng-tech-debt Slack channel -->
 
-### Step 12: Tech Debt Weekly Review — Week of 2026-03-22
+## Tech Debt Weekly Review — Week of 2026-03-22
 
 ### New items (score by Wednesday EOD)
 - [DEBT] Payment service uses deprecated Stripe API (#451) — @maria
@@ -212,12 +192,12 @@ Current allocation: [#398 auth tests — 4h] [#412 search — 4h pending]
 React ✅ to confirm you've read this.
 ```
 
-### Step 13: Time Allocation Policy
+## Time Allocation Policy
 
 Without explicit time allocation, tech debt never gets done. Establish a policy:
 
 ```markdown
-### Step 14: Tech Debt Time Budget Policy
+## Tech Debt Time Budget Policy
 
 Every sprint allocates 15% of engineering capacity to tech debt.
 For a team of 6 engineers × 80h sprint = 72h × 15% = ~10h/sprint.
@@ -234,7 +214,7 @@ For a team of 6 engineers × 80h sprint = 72h × 15% = ~10h/sprint.
 - Oldest open item: should be < 3 months for scored items
 ```
 
-### Step 15: GitHub Project Board Setup
+## GitHub Project Board Setup
 
 ```bash
 # Create a project board for tech debt
@@ -250,7 +230,7 @@ gh project create --owner @org --title "Tech Debt Backlog" --format table
 # This is the primary view for weekly review
 ```
 
-### Step 16: Metrics to Track Monthly
+## Metrics to Track Monthly
 
 ```bash
 # GitHub CLI: count debt items by status
@@ -272,21 +252,6 @@ gh issue list --label "tech-debt" --state all \
 
 If additions consistently exceed closures, increase the debt budget or reduce feature velocity until the trend reverses.
 
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
-
 ## Related Reading
 
 - [Async Decision Making with RFC Documents for Engineering Teams](/async-decision-making-with-rfc-documents-for-engineering-tea/)
@@ -296,4 +261,4 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

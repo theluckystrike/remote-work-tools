@@ -11,29 +11,12 @@ tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
 ---
-layout: default
-title: "How to Build a Remote Team Handbook from Scratch"
-description: "Step-by-step guide to building a remote team handbook. Covers structure, policies, communication norms, tool documentation, and onboarding sections."
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: "Remote Work Tools Guide"
-permalink: /how-to-build-a-remote-team-handbook-from-scratch/
-categories: [guides]
-tags: [remote-work-tools, tools, remote-work]
-reviewed: true
-score: 9
-voice-checked: true
-intent-checked: true---
 
 {% raw %}
 
 A remote team handbook is a living document that codifies communication norms, work expectations, and tool configurations into a searchable reference. Unlike office environments where norms develop through osmosis, remote teams must be explicit. This guide walks through building a handbook from scratch, structuring it for discoverability, and maintaining it as your team grows.
-
-## Key Takeaways
-
-- **Example**: "We use React (decided 2024-Q2, see decision log)"
 
 ## Prerequisites
 
@@ -378,38 +361,38 @@ A stale handbook is worse than no handbook. Assign ownership:
 # Remote Team Handbook
 
 1. Welcome & Quick Start
-   1.1 Your First Day
-   1.2 Your First Week
-   1.3 FAQ
+ 1.1 Your First Day
+ 1.2 Your First Week
+ 1.3 FAQ
 
 2. Communication
-   2.1 Communication Channels
-   2.2 Synchronous vs Asynchronous
-   2.3 Time Zone Norms
-   2.4 Meeting Culture
+ 2.1 Communication Channels
+ 2.2 Synchronous vs Asynchronous
+ 2.3 Time Zone Norms
+ 2.4 Meeting Culture
 
 3. Tools & Setup
-   3.1 Slack
-   3.2 GitHub
-   3.3 Calendar & Scheduling
-   3.4 Email
-   3.5 Project Management
+ 3.1 Slack
+ 3.2 GitHub
+ 3.3 Calendar & Scheduling
+ 3.4 Email
+ 3.5 Project Management
 
 4. Work Policies
-   4.1 Work Hours & Flexibility
-   4.2 Time Off & Vacation
-   4.3 Hardware & Equipment
-   4.4 Expenses
+ 4.1 Work Hours & Flexibility
+ 4.2 Time Off & Vacation
+ 4.3 Hardware & Equipment
+ 4.4 Expenses
 
 5. Technical Standards
-   5.1 Development Practices
-   5.2 Code Review Process
-   5.3 Deployment & Release
-   5.4 Infrastructure & Security
+ 5.1 Development Practices
+ 5.2 Code Review Process
+ 5.3 Deployment & Release
+ 5.4 Infrastructure & Security
 
 6. Decision Making
-   6.1 Decision Framework
-   6.2 Decision Log
+ 6.1 Decision Framework
+ 6.2 Decision Log
 
 7. Onboarding Checklist
 ```
@@ -469,4 +452,5 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+```
 {% endraw %}

@@ -11,38 +11,12 @@ tags: [remote-work-tools, freelance, career]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "First 90 Days as a Freelance Developer: A Complete Guide"
-description: "A practical roadmap for developers transitioning to freelance work. Covers legal setup, client acquisition, pricing strategies, and building"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /first-90-days-as-freelance-developer-guide/
-categories: [guides]
-tags: [remote-work-tools, freelance, career]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Your first 90 days as a freelance developer should follow three phases: weeks 1-2 for legal and financial setup (LLC formation, business banking, insurance), weeks 3-4 for positioning and landing your first clients, and months 2-3 for establishing delivery processes and building systems that scale. This guide breaks down each phase with actionable steps, tools, and checklists you can implement immediately.
-
-## Key Takeaways
-
-- **Open Source Contributions**: Fix bugs, add features to tools you use
-2.
-- **Specializing deeper**: Pick your best client type, study their problems obsessively
-2.
-- **Costs $50-800 to form**: depending on your state.
-- **Use a business checking**: account and credit card exclusively for work expenses.
-- **Freelance Platforms**: Upwork, Toptal, Gun.io (build profiles, expect initial low rates)
-3.
-- **Expense Tracking**: Use receipt scanning apps (Expensify, Shoeboxed)
-3.
 
 ## Prerequisites
 

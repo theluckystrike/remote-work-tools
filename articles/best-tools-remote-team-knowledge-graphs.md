@@ -26,13 +26,6 @@ Knowledge graphs connect related information in ways that flat wikis can't. For 
 | Luminoodle Bias Lighting | USB-powered strip | 6500K daylight | 39.4 in | $12 |
 | Govee Flow Pro | Smart lightbar | 2200K-6500K sync | 15.7 in each | $70 (2-pack) |
 
-## Key Takeaways
-
-- **&& git commit -m**: "Auto-sync $(date +%H:%M)" && git push 2>/dev/null ``` ## 3.
-- **For remote teams**: they surface undiscovered relationships: which microservices share a database, which team members have overlapping expertise, which incidents trace back to the same root cause.
-- **This guide covers the**: best tools from personal note graphs to team-scale graph databases.
-- **Topics covered**: when to use knowledge graphs vs wikis, 1. obsidian (best for individual + small teams), 2. logseq (best open source option)
-
 ## When to Use Knowledge Graphs vs Wikis
 
 ```

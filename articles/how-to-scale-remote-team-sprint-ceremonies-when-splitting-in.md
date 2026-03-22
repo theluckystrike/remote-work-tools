@@ -11,31 +11,11 @@ tags: [remote-work-tools, remote-work, sprint-ceremonies, squad-splitting]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Scale Remote Team Sprint Ceremonies When Splitting"
-description: "Learn practical strategies for scaling sprint ceremonies when your remote team splits into multiple squads. Includes async formats, scheduling scripts"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/
-categories: [guides]
-tags: [remote-work-tools, remote-work, sprint-ceremonies, squad-splitting]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true---
 {% raw %}
 
 When your remote engineering team grows beyond eight to ten people, splitting into multiple squads becomes necessary. The challenge is maintaining sprint coordination without scheduling overlapping meetings across five time zones. This guide provides practical patterns for scaling your sprint ceremonies while preserving team autonomy and alignment.
-
-## Key Takeaways
-
-- **Each developer reviews the**: sprint backlog beforehand and adds comments to tickets they intend to pick up.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
-- **Topics covered**: why sprint ceremonies break down at scale, squad-specific ceremonies: keep them lean, async standups using threaded updates
-- **Practical guidance included**: Step-by-step setup and configuration instructions
 
 ## Why Sprint Ceremonies Break Down at Scale
 

@@ -11,20 +11,12 @@ tags: [remote-work-tools, remote-work, project-management, kickoff-meeting, cros
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Cross-functional projects bring together diverse expertise from engineering, design, product, and operations—but coordinating these teams remotely without a structured kickoff creates chaos. A well-designed kickoff meeting sets the foundation for clear communication, aligned expectations, and measurable success criteria. This guide provides actionable templates and practices for running effective remote cross-functional project kickoffs.
-
-## Key Takeaways
-
-- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
-- **Limitations**: Miro requires all participants to have accounts; free tier limits board count.
-- **Use a shared document**: tool that supports comments so participants can add questions or concerns before the meeting.
-- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
-- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
-- **Use Miro's voting feature**: to prioritize uncertain items for discussion.
 
 ## Why Kickoff Agendas Fail in Remote Settings
 
@@ -471,4 +463,4 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Remote Team Cross Timezone Collaboration Protocol When Scali](/remote-work-tools/remote-team-cross-timezone-collaboration-protocol-when-scali/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

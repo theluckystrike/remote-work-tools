@@ -11,21 +11,8 @@ tags: [remote-work-tools, lightning-talks, remote-work, presentations, team-coll
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Run Remote Team Lightning Talks Keeping"
-description: "A practical guide for running effective lightning talks with remote teams. Learn how to structure five-minute presentations, manage time constraints"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-run-remote-team-lightning-talks-keeping-presentations/
-categories: [guides]
-tags: [remote-work-tools, lightning-talks, remote-work, presentations, team-collaboration, knowledge-sharing]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
@@ -34,16 +21,6 @@ Run effective remote team lightning talks by limiting presentations to exactly f
 Lightning talks have become a staple of remote team communication. These brief, focused presentations—typically limited to five minutes—let team members share discoveries, demonstrate techniques, and spread knowledge without consuming hours of meeting time. Running them effectively in a remote environment requires structure, the right tools, and clear expectations.
 
 This guide provides a practical framework for implementing lightning talks that actually work for distributed teams.
-
-## Key Takeaways
-
-- **If a presenter needs**: more than thirty seconds to explain why their topic matters, it might work better as a longer session or async writeup.
-- **Opening (30 seconds)**: "I'll show you how to search codebases ten times faster."
-2.
-- **The Problem (30 seconds)**: Demonstrate waiting for grep on a large repo.
-- **Closing (30 seconds)**: Link to documentation and Slack channel for questions.
-- **Opening (30 seconds)**: "Our last incident took two hours.
-- **The Issue (30 seconds)**: Brief context on recent incident timeline.
 
 ## Why Five Minutes Works
 

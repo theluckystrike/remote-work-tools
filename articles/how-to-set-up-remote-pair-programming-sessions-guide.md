@@ -11,34 +11,12 @@ tags: [remote-work-tools, remote-work, development-tools, collaboration]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
 ---
-layout: default
-title: "How to Set Up Remote Pair Programming Sessions"
-description: "Tools, workflows, and best practices for remote pair programming. Compare VS Code Live Share, Tuple, Mobius, and SSH solutions with real setup instructions."
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: "Remote Work Tools Guide"
-permalink: /how-to-set-up-remote-pair-programming-sessions-guide/
-categories: [guides]
-tags: [remote-work-tools, remote-work, development-tools, collaboration]
-reviewed: true
-score: 9
-voice-checked: true
-intent-checked: true---
 
 {% raw %}
 
 Remote pair programming combines code editing, debugging, and debugging across time zones. VS Code Live Share (free, built-in) works for most teams with low latency. Tuple ($300/month) optimizes for real-time collaboration with better lag handling. SSH tunneling (free, requires setup) works for terminal-heavy work. This guide compares tools, walks through complete setup workflows, and covers best practices for sustainable pair programming sessions.
-
-## Key Takeaways
-
-- **Tuple ($300/month) optimizes for**: real-time collaboration with better lag handling.
-- **VS Code Live Share (free**: built-in) works for most teams with low latency.
-- **Lower latency**: better UI for shared editing, true mouse control.
-- **SSH tunneling (free**: requires setup) works for terminal-heavy work.
-- **The free tier and**: VS Code integration make it standard.
-- **Works well on high-latency**: connections (60ms+ is fine).
 
 ## Why Pair Programming Matters for Remote Teams
 

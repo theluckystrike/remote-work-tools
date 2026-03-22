@@ -11,20 +11,12 @@ tags: [remote-work-tools, harvest, time-tracking, remote-work, agency-tools]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Remote agencies face unique challenges when tracking time across distributed teams and multiple clients. Harvest provides a solution for capturing billable hours, managing client projects, and generating invoices. This guide covers practical setup steps for agencies working with remote clients, with emphasis on remote-specific workflows and time zone management.
-
-## Key Takeaways
-
-- **Healthy agency use typically**: falls between 60-75% accounting for non-billable work like meetings and admin.
-- **Tailor thresholds based on**: project size—smaller projects might warrant 75% alerts while larger engagements use 90%.
-- **Design work might bill**: at $175/hour while development rates are $150/hour.
-- **API rate limits**: Harvest allows 100 requests per 15 seconds per account.
-- Recommend syncing at least daily.
-- **Use a consistent format**: like `CLIENT-001 Project Name` for easy sorting and reporting.
 
 ## Prerequisites
 
@@ -306,4 +298,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

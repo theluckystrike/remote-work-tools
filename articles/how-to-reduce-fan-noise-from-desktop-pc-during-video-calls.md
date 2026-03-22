@@ -11,36 +11,14 @@ tags: [remote-work-tools, hardware, noise-reduction, video-calls, remote-work, b
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Reduce Fan Noise from Desktop PC During Video Calls"
-description: "Practical techniques to minimize desktop PC fan noise during video calls. Includes software tweaks, fan curve configurations, and hardware"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/
-categories: [guides]
-tags: [remote-work-tools, hardware, noise-reduction, video-calls, remote-work, best-of]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Desktop PCs generate heat, and that heat requires active cooling. When you're on video calls, your machine often works harder than you realize—video encoding, background processes, and browser tabs all contribute to CPU and GPU load. The result: fans spin faster, and your colleagues hear that distracting whirring in the background.
 
 This guide covers practical methods to reduce fan noise during video calls without sacrificing performance for your actual work. You'll find software tweaks, configuration examples, and hardware adjustments that work well for developers and power users.
-
-## Key Takeaways
-
-- **For developers on Mac or without RTX**: Krisp free tier ($0) covers 60 minutes monthly—sufficient for a few calls weekly.
-- **Set process priorities (Windows**: via PowerShell) Get-Process zoom | % { $_.PriorityClass = "BelowNormal" } # 3.
-- **A $150 CPU cooler**: upgrade is worth it only if you're in calls daily for years.
-- **Run a quick script**: to pause Docker or other background services 5.
-- **Pause background tasks systemctl**: stop docker # Stop containers # Or pause Dropbox/OneDrive sync via UI # 4.
-- **Test audio before call**: # Quick 10-second recording to verify noise isn't audible ``` Running this 2-minute routine prevents 95% of "hey, your fan is really loud" messages from colleagues.
 
 ## Why Your PC Gets Loud During Video Calls
 

@@ -11,36 +11,14 @@ tags: [remote-work-tools, home-office, remote-work, air-circulation, productivit
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Home Office Air Circulation Fan That Is Quiet for Calls"
-description: "For a home office fan that stays quiet during calls, target a tower fan rated under 25 dB with 50-150 CFM airflow, positioned to create a cross-breeze without"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /home-office-air-circulation-fan-that-is-quiet-for-calls/
-categories: [guides]
-tags: [remote-work-tools, home-office, remote-work, air-circulation, productivity]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 For a home office fan that stays quiet during calls, target a tower fan rated under 25 dB with 50-150 CFM airflow, positioned to create a cross-breeze without pointing directly at your microphone. Fans with fewer, wider blades and DC motors run quieter at equivalent airflow. Place the fan to your left or right at desk height or in a corner -- never facing your mic -- and you get comfortable air circulation without colleagues hearing it on calls.
 
 This guide covers how to evaluate quiet air circulation solutions, position them effectively, and even monitor your room's airflow with code.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Use a dB meter app**: Download a free decibel meter app (iOS: Decibel Pro, Android: SoundMeter).
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **Decibel rating (dB) is**: the most obvious metric.
-- **For calls where you**: need to sound professional, target fans under 25 dB—roughly equivalent to a quiet library.
 
 ## Understanding Fan Noise Specifications
 

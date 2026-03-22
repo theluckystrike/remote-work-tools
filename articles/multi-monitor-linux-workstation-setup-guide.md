@@ -10,35 +10,14 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
 ---
-layout: default
-title: "Multi-Monitor Linux Workstation Setup Guide"
-description: "Configure a multi-monitor Linux workstation for remote development. Covers xrandr, Wayland, i3, per-monitor DPI, and workspace assignment across displays."
-date: 2026-03-21
-author: theluckystrike
-permalink: /multi-monitor-linux-workstation-setup-guide/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]---
 
 {% raw %}
 
 A multi-monitor Linux workstation requires configuration that Windows and macOS handle automatically. The payoff is total control: workspaces pinned to specific monitors, per-display scaling, hotkey-driven layout switching, and no proprietary drivers needed for most hardware.
 
 This guide covers the complete setup: detecting displays, configuring layouts, handling mixed DPI, setting up workspace assignment in i3/Sway, and persisting everything across reboots.
-
-## Key Takeaways
-
-- **Best choice for a**: hassle-free multi-monitor setup.
-- **The payoff is total control**: workspaces pinned to specific monitors, per-display scaling, hotkey-driven layout switching, and no proprietary drivers needed for most hardware.
-- **A 4K@200% monitor next**: to a 1080p@100% monitor works cleanly.
-- **Use Sway or Hyprland**: for the cleanest result.
-- **Use Sway if you**: want stability; use Hyprland if you want the latest Wayland features.
-- **GNOME and KDE Plasma**: handle multi-monitor DPI cleanly on Wayland if you prefer a full desktop environment.
 
 ## Prerequisites
 

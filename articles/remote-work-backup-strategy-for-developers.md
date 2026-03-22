@@ -17,13 +17,6 @@ tags: [remote-work-tools, remote-work]
 
 A developer's backup strategy needs to cover more than documents. Code history lives in git but local work-in-progress, environment configs, credentials managers, and databases need separate protection. This guide builds a 3-2-1 strategy: 3 copies, 2 different media, 1 offsite.
 
-## Key Takeaways
-
-- **Topics covered**: what needs backing up, dotfiles: git as backup, macos: time machine + rsync offsite
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-- **Trade-off analysis**: Strengths and limitations of each option discussed
-
 ## What Needs Backing Up
 
 Map your risk before picking tools:

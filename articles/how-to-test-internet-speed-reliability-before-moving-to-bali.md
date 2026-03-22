@@ -11,20 +11,12 @@ tags: [remote-work-tools, bali, remote-work, internet-speed, digital-nomad, conn
 score: 9
 voice-checked: true
 reviewed: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
 Moving to Bali as a remote worker requires careful consideration of one critical factor: internet connectivity. Unlike tourist hotspots with fiber connections, many areas in Bali offer varying levels of reliability. This guide provides practical methods to evaluate internet speed and stability before committing to a relocation.
-
-## Key Takeaways
-
-- **A connection averaging 30**: Mbps with 80ms latency and zero packet loss supports most development workflows effectively.
-- **Grab a SIM at**: the airport and load it with a monthly data package—30-50 GB runs around IDR 100,000-200,000 (roughly $6-12 USD).
-- **Your connection may show**: 100 Mbps on a local speed test but perform poorly for GitHub pushes or AWS console access because the routing path to US or European data centers adds significant latency.
-- **Packet loss exceeding 2%**: indicates unreliable infrastructure.
-- **Telkomsel's Orbit router provides**: home broadband over 4G, which many remote workers use as a backup or primary connection in areas without fiber.
-- **This two-connection strategy—primary fiber**: plus 4G backup—eliminates most connectivity emergencies.
 
 ## Why Internet Reliability Matters More Than Raw Speed
 
@@ -294,4 +286,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

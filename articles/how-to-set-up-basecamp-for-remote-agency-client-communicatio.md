@@ -11,19 +11,13 @@ tags: [remote-work-tools, basecamp, remote-work, client-communication, agency-to
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 {% raw %}
 
 Remote agencies face unique communication challenges that traditional tools struggle to address. Clients expect transparency, timely updates, and easy access to project progress—but email threads become chaotic, and real-time meetings are hard to schedule across time zones. Basecamp offers a structured solution that keeps everyone aligned without the overwhelm.
 
 This guide walks through setting up Basecamp specifically for remote agency client communication, with practical configurations that actually work in production environments.
-
-## Key Takeaways
-
-- **Configure check-ins to run**: twice weekly—Tuesday and Thursday mornings work well for most agencies: ``` Check-in Questions: 1.
-- **Use the permission settings**: to keep those private.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
-- **Topics covered**: creating your agency workspace, configuring client access properly, setting up automated check-ins
 
 ## Prerequisites
 
@@ -287,4 +281,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -19,30 +19,7 @@ Hiring international remote employees introduces legal complexities that domesti
 
 This guide provides a practical framework for creating compliant international offer letters. You'll find template structures, key clauses, and specific considerations for different employment classifications.
 
-## Key Takeaways
-
-- **Most companies either: -**: Pay in local currency with annual adjustments - Pay in home currency with periodic reviews - Use a third-party employer of record (EOR) service ### 3.
-- **In most countries**: termination requires cause, notice, and often severance.
-- **TERMINATION
- - Notice Period**: [X] days/weeks
- - Severance: Per [Country] requirements
-
-6.
-- **Using an US-style at-will**: termination clause internationally. At-will employment is largely an US concept.
-- **Including an at-will clause**: in an offer letter for a German or Brazilian employee may be unenforceable and signals a lack of compliance awareness.
-- **Can I use one**: standard offer letter template for all countries? No.
-
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Understand Employment Classification
+## Understanding Employment Classification
 
 Before drafting any offer letter, you must determine how the worker will be classified. This distinction affects everything from tax withholding to benefits eligibility.
 
@@ -76,7 +53,7 @@ def classify_worker(relationship_type, schedule_control, equipment_use, exclusiv
 
 If you're unsure, err on the side of employment classification. Many jurisdictions impose heavy fines for misclassification, and the burden often falls on the company to prove the worker was properly classified.
 
-### Step 2: Essential Offer Letter Components
+## Essential Offer Letter Components
 
 Every international offer letter should include these sections:
 
@@ -132,7 +109,7 @@ Severance: As required by [Country] labor law
 Immediate termination: For cause as defined by [Country] employment law
 ```
 
-### Step 3: Country-Specific Considerations
+## Country-Specific Considerations
 
 ### European Union Countries
 
@@ -184,7 +161,7 @@ Brazil's CLT (Consolidation of Labor Laws) is one of the most labor frameworks i
 
 Many foreign companies choose to engage Brazilian workers through an EOR specifically to avoid navigating CLT complexity without a local entity.
 
-### Step 4: Use an Employer of Record (EOR)
+## Using an Employer of Record (EOR)
 
 For companies without local entities, an EOR service often simplifies compliance. The EOR becomes the legal employer, handling:
 
@@ -204,7 +181,7 @@ For companies without local entities, an EOR service often simplifies compliance
 
 If using an EOR, the offer letter structure differs slightly — you'll receive documentation from the EOR rather than issuing your own. The EOR's contract must be compliant with local law, but you should still review the document for alignment with your agreed compensation terms and role description.
 
-### Step 5: Practical Template Structure
+## Practical Template Structure
 
 Here's a condensed template you can adapt:
 
@@ -274,21 +251,6 @@ _______________________ ____________
 
 **Denominating everything in USD for a non-US hire.** While USD can work as a payment currency, it creates ambiguity about what happens if exchange rates move significantly. Spell out the currency, how payments are made, and who bears the exchange rate risk.
 
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
-
 ## Frequently Asked Questions
 
 **Do I need a separate employment contract in addition to the offer letter?**
@@ -309,4 +271,4 @@ There's no universal answer. Paying in local currency protects the employee from
 - [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

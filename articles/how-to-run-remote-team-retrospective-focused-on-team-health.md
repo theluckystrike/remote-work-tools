@@ -11,21 +11,13 @@ tags: [remote-work-tools, retrospective, remote-work, team-health, agile, psycho
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}
 
 Team health retrospectives prioritize psychological safety, burnout prevention, and interpersonal connection over velocity metrics—directly improving retention and performance. Focused retros address isolation, clarify communication norms, and surface team tensions before they become problems. This guide covers health-focused retro formats, facilitation techniques, and follow-up actions for remote team resilience.
-
-## Key Takeaways
-
-- **Use a hard rule**: no more than 60% of retro time on problem identification, at least 40% on solutions and owners.
-- **Use written responses first.**: Before opening verbal discussion, give everyone 5-10 minutes to write their thoughts individually.
-- **Time-box aggressively. In remote settings**: discussions without clear time limits drift or get dominated by the most verbose participants.
-- **Both have free tiers**: sufficient for teams of 5-10.
-- **Remote developers in particular**: often respond better to concrete analogies than open-ended personal questions.
-- **A visible timer on**: screen (using tools like Cuckoo Timer or a shared browser timer) creates natural pause points and signals when to move on.
 
 ## Why Team Health Deserves Its Own Retrospective
 
@@ -286,4 +278,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Asynchronous Team Retrospective Tools Methods Process](/remote-work-tools/asynchronous-team-retrospective-tools-methods-process/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

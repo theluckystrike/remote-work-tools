@@ -11,7 +11,8 @@ score: 9
 voice-checked: true
 categories: [guides]
 tags: [remote-work-tools]
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
@@ -20,15 +21,6 @@ Canary tokens are one of the most effective early warning systems available for 
 This guide walks through setting up canary tokens specifically for remote work environments where traditional perimeter security provides limited protection.
 
 {% endraw %}
-
-## Key Takeaways
-
-- **For self-hosted deployments**: the Canarytokens.org project (from Thinkst Applied Research) offers a free hosted version you can use immediately or deploy your own instance.
-- **Remote environments present unique**: challenges because your attack surface spans multiple locations, devices, and networks.
-- **To create a token**: using the free service: 1.
-- **Perhaps you need better network segmentation**: better endpoint protection, or stronger access controls.
-- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
-- **Canary tokens are one**: of the most effective early warning systems available for detecting unauthorized access.
 
 ## What Are Canary Tokens
 

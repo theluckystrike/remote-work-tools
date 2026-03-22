@@ -10,19 +10,12 @@ tags: [remote-work-tools, best-of, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Deployment pipelines for co-located teams often rely on implicit coordination: people see each other, know who's deploying what, and can tap someone on the shoulder if something goes wrong. Remote teams need that coordination made explicit in the pipeline itself. This guide covers the patterns that make deployments safe for distributed teams across multiple time zones.
-
-## Key Takeaways
-
-- **Enable for internal users or a 1% canary**: gather real traffic data
-3.
-- **Ramp to 100% during**: business hours when your on-call engineer is awake This eliminates the pressure to deploy and verify everything in a single sitting.
-- **If something is wrong**: at the 10% rollout stage, you toggle the flag off without a rollback.
-- **Topics covered**: the core problem: implicit coordination made explicit, deployment window policy, async deployment approval
 
 ## The Core Problem: Implicit Coordination Made Explicit
 
@@ -351,4 +344,4 @@ GitHub Actions covers most small-to-mid-size remote teams with less operational 
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

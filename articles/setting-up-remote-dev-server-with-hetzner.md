@@ -8,24 +8,16 @@ permalink: /setting-up-remote-dev-server-with-hetzner/
 categories: [guides]
 tags: [remote-work-tools, remote-work]
 reviewed: true
-score: 6
+score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Hetzner offers the best price-to-performance ratio for cloud dev servers in Europe and the US. A CX22 (2 vCPU, 4GB RAM) costs €3.79/month. A CCX33 (8 dedicated vCPU, 32GB RAM) costs €27.49/month. Compare that to AWS or GCP equivalents at 3-5x the price. For remote developers who want a persistent, fast dev environment accessible from any machine, Hetzner plus code-server is hard to beat.
 
 The core idea is simple: instead of lugging a powerful laptop everywhere, or trying to sync dev environments across multiple machines, you run everything on a single cloud server. Your local machine becomes a thin client. Any laptop — even a base MacBook Air or a cheap Chromebook — can be your full workstation via browser or SSH.
-
-## Key Takeaways
-
-- **Compare to GitHub Codespaces at $0.18/hour for a 4-core instance**: that's $130/month if you work 720 hours.
-- **For extensions that don't**: work well in the browser (debuggers for some languages, for example), Remote-SSH is the better option and is covered in Step 4.
-- **The recommended final state is**: no public-facing ports at all except UDP 41641 for Tailscale's WireGuard traffic.
-- **Hetzner offers the best**: price-to-performance ratio for cloud dev servers in Europe and the US.
-- **And because the server**: is on Hetzner's network, git operations, Docker pulls, and package downloads are significantly faster than on a home connection.
-- **Pick the one closest to your primary clients or CI systems, not closest to you**: latency to the server over SSH is negligible; latency between your server and external services matters more.
 
 ## Architecture
 
@@ -169,7 +161,7 @@ With `--ssh` flag, Tailscale manages SSH keys automatically. You can remove the 
 
 ## Step 5: Dev Environment Setup with mise
 
-mise (formerly rtx) is a unified tool version manager that replaces nvm, rbenv, pyenv, and goenv with a single tool. It reads `.mise.toml` files in project directories and switches versions automatically.
+mise (formerly rtx) is an unified tool version manager that replaces nvm, rbenv, pyenv, and goenv with a single tool. It reads `.mise.toml` files in project directories and switches versions automatically.
 
 ```bash
 # SSH into the server as dev user
@@ -340,4 +332,4 @@ For developers in Europe or with European client bases, Hetzner is the clear def
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

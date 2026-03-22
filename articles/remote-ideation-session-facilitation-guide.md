@@ -11,32 +11,12 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Remote Ideation Session Facilitation Guide"
-description: "A practical guide to running effective remote ideation sessions for developers and power users. Learn help techniques, tools, and code examples"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /remote-ideation-session-facilitation-guide/
-reviewed: true
-score: 8
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Start every remote ideation session with a "silent start" -- send the problem prompt 24-48 hours in advance and have participants contribute ideas asynchronously before any live discussion. This eliminates the loudest-voice-wins problem and produces higher-quality input from the entire team. This guide covers the full help toolkit, including round-robin generation, the 6-3-5 method, SCAMPER frameworks, and post-session follow-through workflows.
-
-## Key Takeaways
-
-- **Use a shared timer**: of 2-3 minutes per person.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
-- **Topics covered**: setting up your ideation environment, essential setup checklist, session: feature brainstorm
-- **Practical guidance included**: Step-by-step setup and configuration instructions
 
 ## Prerequisites
 

@@ -11,36 +11,12 @@ tags: [remote-work-tools, remote-work, team-building, miro, collaboration, value
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Create a Remote Team Values Wall Using Miro Board"
-description: "A step-by-step guide to building a collaborative team values wall using Miro. Perfect for remote teams wanting to define and visualize their core"
-date: 2026-03-17
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-create-remote-team-values-wall-using-miro-board/
-categories: [guides]
-tags: [remote-work-tools, remote-work, team-building, miro, collaboration, values, culture]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Miro values walls help distributed teams collaboratively define shared principles for decision-making, conflict resolution, and cultural cohesion across time zones. A visual, interactive values wall captures everyone's input asynchronously, surfaces alignment, and creates accountability for living those values. This guide covers Miro setup, help techniques, and strategies for translating values into team norms and decision frameworks.
-
-## Key Takeaways
-
-- **Typical sessions run 60-90**: minutes and should be scheduled during overlap hours when most team members are working.
-- **Use a timer and**: announce "2 minutes remaining" to help people finalize their contributions.
-- **Each team member gets**: a limited number of votes, perhaps three to five, to place on the values they consider most important.
-- **Other times**: you might need to discuss edge cases or values that almost made the cut.
-- **Organizing sections**: Use Miro's frame tool to create three labeled sections: "Brainstorming," "Clustering," "Our Core Values"
-3.
-- **Setting up voting**: After clustering, use Miro's dot voting feature or add voting stickers in the "Our Core Values" section
-5.
 
 ## Why Use Miro for Remote Team Values
 

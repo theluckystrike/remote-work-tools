@@ -11,7 +11,8 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 ---
 layout: default
 title: "Example: project-update.yml - Scheduled updates structure"
@@ -25,19 +26,10 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
-
+tags: [remote-work-tools]
+---
 
 Async remote teams maintain client trust by setting explicit response time expectations, scheduling predictable check-ins, and providing status transparency without requiring instant replies. Template agreements, regular updates, and escalation protocols keep clients informed while protecting team productivity across time zones. This guide covers communication frameworks and client onboarding strategies for async work.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **A Calendly link that**: only shows slots during overlap hours is even better because clients can self-serve scheduling without waiting for you to check availability.
-- **The clients who cause**: the most friction are almost always the ones who were never given a clear picture of how your team operates.
-- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Most async teams operate**: within 24-48 hour response windows for non-urgent matters.
 
 ## Why Async Work Creates Expectation Gaps
 
@@ -45,24 +37,14 @@ Clients typically expect instant responses — a holdover from traditional offic
 
 The solution isn't demanding 24/7 availability from your team. Instead, establish transparent systems that keep clients informed without burning out your developers. The clients who cause the most friction are almost always the ones who were never given a clear picture of how your team operates. Set expectations before problems arise, and most of that friction disappears.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Set Clear Response Time Expectations Upfront
+## Set Clear Response Time Expectations Upfront
 
 Define and communicate explicit response windows before projects begin. Most async teams operate within 24-48 hour response windows for non-urgent matters.
 
 Include this in your client onboarding:
 
 ```markdown
-### Step 2: Communication Guidelines
+## Communication Guidelines
 
 - **Non-urgent messages**: Response within 24-48 hours (business days)
 - **Urgent issues**: Response within 8 hours during team operating hours
@@ -76,7 +58,7 @@ This manages expectations immediately. Clients who agree to these terms cannot r
 
 One practical tip: frame your response windows in terms of business value rather than team preference. "We maintain 24-hour response windows because it gives us time to research your question thoroughly and get the right person to answer it" lands better than "we don't work nights."
 
-### Step 3: Use Status Pages and Public Calendars
+## Use Status Pages and Public Calendars
 
 Transparency reduces anxiety. When clients can see your team's availability, they make informed decisions about timing their requests.
 
@@ -108,7 +90,7 @@ Share this via a simple internal tool or Notion page. Clients appreciate seeing 
 
 You don't need to build a custom tool. A Notion page with a simple table — team member name, time zone, working hours, and a link to their calendar — accomplishes the same thing. Update it quarterly when daylight saving time changes shift the overlaps. A Calendly link that only shows slots during overlap hours is even better because clients can self-serve scheduling without waiting for you to check availability.
 
-### Step 4: Implement Async-First Communication Channels
+## Implement Async-First Communication Channels
 
 Establish which channels serve which purposes:
 
@@ -123,7 +105,7 @@ Document these channel expectations in your project charter. Reference them when
 
 When a client does use the wrong channel for a non-urgent request, respond on the correct channel and briefly note why: "Moving this to email since it's a good reference for the whole project." This reinforces the norms without making the client feel criticized.
 
-### Step 5: Create Scheduled Update Rhythms
+## Create Scheduled Update Rhythms
 
 Rather than responding to client queries ad-hoc, establish predictable update cadences:
 
@@ -147,7 +129,7 @@ biweekly_calls:
 
 Clients who receive consistent updates feel informed and reduce their impulse to check in constantly. The Friday update rhythm is particularly effective because it gives clients something to review over the weekend when they're thinking about the project, and they arrive at Monday with their questions already prepared rather than firing them off throughout the week.
 
-### Step 6: Use Async Video for Rich Updates
+## Use Async Video for Rich Updates
 
 Text updates feel impersonal and can misinterpret tone. Async video tools like Loom solve this — team members record brief updates that convey context text cannot.
 
@@ -157,7 +139,7 @@ The format that works best: start with an one-sentence summary of what the video
 
 Create a shared folder (Google Drive, Notion, or Loom workspace) where all project videos accumulate. Clients can review past updates, share them with stakeholders who missed the original send, and reference decisions that were explained weeks ago. This archive prevents the common situation where a client claims they didn't know about a decision that was clearly communicated.
 
-### Step 7: Onboarding Clients to Async Work
+## Onboarding Clients to Async Work
 
 The most effective expectation management happens before the project starts, not after problems arise. A structured client onboarding process reduces friction for the entire engagement.
 
@@ -166,7 +148,7 @@ Send a brief welcome document within 24 hours of signing:
 ```markdown
 # Welcome to [Project Name]
 
-### Step 8: How We Work Together
+## How We Work Together
 
 We're a distributed async-first team. Here's what that means for you:
 
@@ -182,7 +164,7 @@ than describe, we'll record a short video instead of writing a long message.
 **Our response window is 24 hours.** For genuine emergencies, use the
 escalation path below.
 
-### Step 9: Escalation Path
+## Escalation Path
 
 1. Slack DM to your project manager
 2. If no response in 4 hours: [emergency email]
@@ -191,12 +173,12 @@ escalation path below.
 
 Clients who read this document before the project starts arrive with calibrated expectations. Those who don't get a copy often develop misconceptions in the first few weeks that are much harder to correct later.
 
-### Step 10: Handle Urgent Requests Professionally
+## Handle Urgent Requests Professionally
 
 Sometimes genuine emergencies occur. Define what constitutes urgency and how to handle it:
 
 ```markdown
-### Step 11: Emergency Protocol
+## Emergency Protocol
 
 **What qualifies as urgent:**
 - Production downtime
@@ -213,7 +195,7 @@ Sometimes genuine emergencies occur. Define what constitutes urgency and how to 
 
 This protects your team from constant "urgent" requests that actually aren't. When you receive an "urgent" request that doesn't meet the criteria, acknowledge it promptly within your normal window and explain when it will be addressed. Prompt acknowledgment of non-urgent issues prevents clients from escalating prematurely.
 
-### Step 12: Build Trust Through Consistent Delivery
+## Build Trust Through Consistent Delivery
 
 Ultimately, expectation management succeeds through reliability. Deliver on commitments consistently, and clients will trust your async process.
 
@@ -227,7 +209,7 @@ When clients see measurable results, they care less about response times and mor
 
 Be proactive about sharing negative news. When a delay is likely, communicate it before the deadline passes — not after. A client who learns about a slip two days before a milestone and is given a revised plan feels like a partner. One who discovers a missed deadline after the fact feels managed rather than respected.
 
-### Step 13: Tools That Help
+## Tools That Help
 
 Several tools support async client communication:
 
@@ -239,21 +221,6 @@ Several tools support async client communication:
 - **Calendly** — Self-serve scheduling within defined availability windows
 
 These aren't required, but each reduces a specific friction point in async client relationships. Start with the one that addresses your most common problem. If clients frequently ping you outside hours, start with a status page. If they complain that text updates feel impersonal, start with Loom.
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Frequently Asked Questions
 

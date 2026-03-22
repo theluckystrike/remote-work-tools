@@ -11,7 +11,8 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 ---
 layout: default
 title: "Required security configurations for company laptops"
@@ -25,20 +26,11 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
-
 Create a remote-specific acceptable use policy covering personal software installation, shared family networks, and approved cloud storage to protect company data while respecting employee privacy. Employees working from home often use the same machines for personal and professional tasks, creating security risks that traditional office policies cannot address. An AUP designed for remote teams establishes clear boundaries, protects sensitive data, and ensures everyone understands their responsibilities. This guide provides a practical template with concrete examples you can adapt for your organization immediately.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Most organizations prefer company-owned**: devices for security compliance.
-- **Pricing starts at roughly**: $4/device/month for Jamf Now (SMB) and scales to custom enterprise contracts for Jamf Pro.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **When employees use personal devices**: the AUP must address the privacy tension directly.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
 
 ## Why Remote Device Policies Differ from Office Policies
 
@@ -51,24 +43,14 @@ In a traditional office environment, IT teams have direct control over hardware,
 
 Your policy needs to be explicit about what is allowed, what is prohibited, and what requires approval.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Core Components of an Effective AUP
+## Core Components of an Effective AUP
 
 ### 1. Device Assignment and Ownership
 
 Define whether employees receive company-owned devices or are expected to use personal hardware (BYOD). Most organizations prefer company-owned devices for security compliance.
 
 ```markdown
-### Step 2: Device Assignment
+## Device Assignment
 
 All remote team members will receive company-issued laptops configured with standard security tooling. Personal devices are not permitted for accessing company systems unless explicitly approved in writing.
 ```
@@ -78,14 +60,14 @@ All remote team members will receive company-issued laptops configured with stan
 Clearly enumerate permitted and prohibited activities. For developers, this includes specific guidance on software installation, command-line access, and container usage.
 
 ```markdown
-### Step 3: Permitted Uses
+## Permitted Uses
 
 - Development work using approved IDEs and tooling
 - Running company-provided containers and virtual machines
 - Accessing internal documentation and repositories
 - Communication via approved messaging platforms
 
-### Step 4: Prohibited Uses
+## Prohibited Uses
 
 - Installing unauthorized software or browser extensions
 - Executing untrusted scripts from the internet
@@ -106,7 +88,7 @@ Remote work often involves varied network conditions. Specify minimum security s
 - Network segmentation is recommended for developers working with sensitive systems
 ```
 
-### Step 5: Technical Implementation Examples
+## Technical Implementation Examples
 
 For technical teams, your AUP should include configuration specifics. Here's how to document endpoint protection requirements:
 
@@ -149,12 +131,12 @@ prohibited_technologies:
   - unverified_container_images: false
 ```
 
-### Step 6: Data Handling and Privacy
+## Data Handling and Privacy
 
 Specify exactly how employees should handle company data on remote devices:
 
 ```markdown
-### Step 7: Data Handling Guidelines
+## Data Handling Guidelines
 
 ### Acceptable
 - Storing code in company GitHub/GitLab organizations
@@ -168,12 +150,12 @@ Specify exactly how employees should handle company data on remote devices:
 - Storing unencrypted backups locally
 ```
 
-### Step 8: Plan Incident Response Procedures
+## Incident Response Procedures
 
 Your policy must explain what happens when something goes wrong:
 
 ```markdown
-### Step 9: Security Incident Response
+## Security Incident Response
 
 If a company device is lost, stolen, or potentially compromised:
 
@@ -183,7 +165,7 @@ If a company device is lost, stolen, or potentially compromised:
 4. Do not attempt to investigate the incident yourself
 ```
 
-### Step 10: Enforcement and Acknowledgment
+## Enforcement and Acknowledgment
 
 An AUP only works if employees understand and agree to it. Implement a system for acknowledgment:
 
@@ -210,7 +192,7 @@ def acknowledge_policy(employee_id, policy_version):
 
 Require re-acknowledgment whenever the policy updates.
 
-### Step 11: MDM Tools for Enforcing Your AUP
+## MDM Tools for Enforcing Your AUP
 
 Writing policy language is only half the job. You need tooling that enforces the rules automatically. Three platforms dominate enterprise remote device management:
 
@@ -222,7 +204,7 @@ Writing policy language is only half the job. You need tooling that enforces the
 
 Regardless of which MDM you choose, configure at minimum: mandatory screen lock after 5 minutes of inactivity, full disk encryption enforcement, and automatic OS update installation within 30 days of release.
 
-### Step 12: Handling Personal Device Exceptions (BYOD)
+## Handling Personal Device Exceptions (BYOD)
 
 Some roles or budget situations make BYOD unavoidable. When employees use personal devices, the AUP must address the privacy tension directly. You cannot demand full MDM enrollment on a personal device without creating legal and morale problems.
 
@@ -230,7 +212,7 @@ A practical BYOD section addresses three things: what data may be accessed on pe
 
 State clearly in your policy that the company will not monitor personal device usage outside of work applications. Employees are more likely to comply fully when they trust the policy is not designed to surveil them.
 
-### Step 13: Practical Policy Review Checklist
+## Practical Policy Review Checklist
 
 Before finalizing your acceptable use policy, verify it addresses these points:
 
@@ -245,13 +227,13 @@ Before finalizing your acceptable use policy, verify it addresses these points:
 - [ ] MDM enrollment requirements and scope
 - [ ] BYOD handling and privacy boundaries
 
-### Step 14: Policy Review Cadence
+## Policy Review Cadence
 
 A policy that is never updated becomes a liability. Schedule a formal review every 12 months at minimum, and trigger an unscheduled review whenever any of the following occur: a security incident involving a remote device, a significant change to the technology stack, new compliance requirements in your jurisdiction, or a shift in team structure (merger, acquisition, rapid headcount growth).
 
 Document every revision with a version number and changelog entry. Store historical versions so you can demonstrate to auditors that you maintained a reasonable standard of care over time.
 
-### Step 15: Making Policy Accessible
+## Making Policy Accessible
 
 Avoid creating a document that nobody reads. For technical teams, consider a condensed version:
 
@@ -273,28 +255,13 @@ DON'T:
 
 Post this reference in your team wiki, pin it in your main Slack channel, and include it in new-hire onboarding. The more visible the quick-reference version, the less likely employees are to claim they were unaware of a rule.
 
-### Step 16: Common Mistakes When Writing Remote AUPs
+## Common Mistakes When Writing Remote AUPs
 
 The most common mistake is copying a template written for office environments without adapting it to the realities of distributed work. Generic language like "do not misuse company equipment" fails to address home network sharing, personal browser profiles, or the fact that a spouse might use the same WiFi router for streaming video.
 
 A second mistake is making the policy so restrictive that engineers work around it. If your AUP prohibits all software installation without a ticket, developers will find ways to bypass it rather than wait a week for approval. Build a fast-track approval path for common developer tools, and maintain a pre-approved software list that employees can install without going through IT.
 
 Finally, many organizations fail to address what happens to data when an employee leaves. Your AUP should explicitly state the offboarding process: device return timelines, remote wipe procedures, and access revocation steps. Document this in the policy itself rather than leaving it to an undocumented offboarding checklist that may not be consistently applied.
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Frequently Asked Questions
 

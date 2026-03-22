@@ -9,23 +9,15 @@ permalink: /slack-channel-strategy-for-a-remote-company-with-75-employee/
 categories: [guides]
 tags: [remote-work-tools, slack, remote-work, communication]
 reviewed: true
-score: 7
+score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}
 
 Structure your 75-person Slack workspace into four tiers: company-wide channels (#announcements, #general, #help-*), departmental channels with a `dept-` prefix, project channels with `proj-` or `squad-` prefixes, and temporary channels for events and incidents. Use consistent prefix-based naming conventions so channels stay discoverable, set retention policies per tier, and implement a notification matrix that separates critical alerts from low-priority chatter. This hierarchy prevents important messages from getting buried while keeping signal-to-noise manageable at your company size.
-
-## Key Takeaways
-
-- **Use threads for everything**: - Keep main channel feeds for announcements only 2.
-- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
-- **Use emoji reactions -**: Acknowledge messages without replying 4.
-- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
-- **The recommended structure uses four tiers**: company-wide, departmental, project-based, and temporary channels.
-- **Use Slack's built-in tools**: and some automation.
 
 ## The Core Channel Hierarchy
 
@@ -295,4 +287,4 @@ Trying to change everything at once. Pick one or two practices, implement them w
 - [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

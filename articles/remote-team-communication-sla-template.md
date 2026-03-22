@@ -17,14 +17,6 @@ tags: [remote-work-tools]
 
 A communication SLA removes ambiguity about response expectations. Remote teams that operate across timezones need written agreements: which channel for what urgency, how long before you can expect a reply, and when escalation is appropriate. This guide provides templates and the tooling to enforce them.
 
-## Key Takeaways
-
-- A communication SLA defines channel purpose, expected response time, and escalation paths — not just etiquette, but operational agreements
-- Different channels warrant different urgency levels: #incidents requires 5-minute response; #general is best-effort same day
-- Timezone coverage matrices and async-first writing practices prevent SLA violations caused by geography rather than negligence
-- Bots and GitHub Actions can automate SLA enforcement for PR review queues and unanswered Slack mentions
-- Quarterly reviews keep the SLA aligned with team growth, timezone shifts, and channel changes
-
 ## Core Concepts
 
 A communication SLA defines:

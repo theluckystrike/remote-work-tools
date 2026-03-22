@@ -10,7 +10,8 @@ permalink: /articles/how-to-set-up-async-decision-making-framework-guide/
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 
 Synchronous decision-making (meetings, calls, real-time discussions) becomes increasingly expensive in remote teams across time zones. A 30-minute decision meeting with 8 people costs the organization 4 hours of productivity. In 2026, leading remote-first organizations have moved to asynchronous decision-making frameworks where decisions are made faster, with better documentation, and full team visibility.
@@ -18,10 +19,6 @@ Synchronous decision-making (meetings, calls, real-time discussions) becomes inc
 This guide provides a step-by-step framework for implementing async decision-making in remote teams, including tools, templates, and real-world examples.
 
 {% raw %}
-
-## Key Takeaways
-
-- **If we only migrate ML**: savings are $110k."
 
 ## Input from DevOps
 "We can use Google Cloud Migrate to transfer existing VMs
@@ -750,4 +747,4 @@ Establish a shared overlap window of at least 2-3 hours for synchronous work. Us
 **What is the biggest mistake people make when applying these practices?**
 
 Trying to change everything at once. Pick one or two practices, implement them well, and let the team adjust before adding more. Gradual adoption sticks better than wholesale transformation, which often overwhelms people and gets abandoned.
-
+{% endraw %}

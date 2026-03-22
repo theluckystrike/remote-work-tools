@@ -26,14 +26,6 @@ A design system managed in isolation fails distributed teams. Remote designers a
 | Chromatic | Visual testing + hosting | Screenshot diffs on PRs | GitHub, GitLab, Storybook | Free tier; $149+/month |
 | Tokens Studio | Figma ↔ token sync | Bridges Figma Variables and Style Dictionary | GitHub, GitLab, Figma | Free; Pro $14/month |
 
-## Key Takeaways
-
-- A remote design system requires a connected toolchain: Figma for design, Style Dictionary for tokens, Storybook for documentation, and Chromatic for visual review
-- Token pipelines eliminate manual handoff — changes in Figma flow automatically into CSS and component code
-- Visual regression testing with Chromatic gives distributed designers a structured review workflow without synchronous calls
-- Versioning with semantic versioning and migration guides is essential when multiple product teams consume the same design system
-- Publishing as an npm package with automated CI keeps every consuming project in sync without manual copy-paste
-
 ## The Core Problem for Remote Teams
 
 ```

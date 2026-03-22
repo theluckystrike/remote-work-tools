@@ -10,33 +10,14 @@ tags: [remote-work-tools, async-communication, remote-work, github, standup-alte
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Async Standup Alternative Using GitHub Commit Summaries"
-description: "A practical guide to replacing synchronous standups with automated GitHub commit summaries. Learn how to set up workflows that keep remote teams"
-date: 2026-03-16
-author: theluckystrike
-permalink: /async-standup-alternative-using-github-commit-summaries-automatically/
-categories: [guides]
-tags: [remote-work-tools, async-communication, remote-work, github, standup-alternative, automation, developer-workflow]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Daily standups were designed for co-located teams to quickly synchronize their work. For remote teams spread across time zones, these synchronous meetings often mean someone is joining at 7 AM or 8 PM, and the rapid-fire updates rarely provide actionable information. What if you could replace these meetings with an automated system that generates meaningful progress summaries directly from your team's actual work?
 
 Using GitHub commit summaries as a standup alternative gives your team visibility into real progress without the time zone conflicts or meeting fatigue. This guide shows you how to implement this approach step by step.
-
-## Key Takeaways
-
-- **It sits between the**: two approaches but requires another SaaS account and costs $3–5 per user per month.
-- **Here are the team**: patterns where it delivers the most value.
-- **Use Slack's Block Kit**: Builder (api.slack.com/block-kit/building) to design rich message layouts.
-- **This guide covers why**: commit-based standups work, quick comparison, setting up the github actions workflow, with specific setup instructions
 
 ## Why Commit-Based Standups Work
 

@@ -11,7 +11,8 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 ---
 layout: default
 title: "Generate weekly team activity report from GitHub"
@@ -25,31 +26,12 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
-
+tags: [remote-work-tools]
+---
 
 Hybrid teams with split remote and in-office members need explicit communication norms, video-first meetings, and documentation-first workflows to prevent information silos. Establish core hours for synchronous overlap, implement async-first standups using GitHub Actions or Slack, and make all meeting rooms video-conference ready with equal participation cues. This guide provides practical systems and code examples for managing teams that work across locations without enterprise tools.
 
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Does GitHub offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **Implement these rules systematically:**: ### The No-Office-Only Rule Any meeting that involves decision-making or problem-solving must include remote participants by default.
-
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: The Asynchronous-First Foundation
+## The Asynchronous-First Foundation
 
 When your team splits between permanent remote and office locations, synchronous collaboration becomes expensive. Office-based team members can naturally collaborate in real-time, but remote members face timezone constraints, technology friction, and isolation. The solution is building asynchronous workflows that treat all locations equally.
 
@@ -91,7 +73,7 @@ const communicationNorms: TeamCommunicationNorm[] = [
 
 This explicitly defines expectations so remote team members aren't expected to respond instantly while office workers don't feel ignored.
 
-### Step 2: Build Transparent Work Visibility
+## Build Transparent Work Visibility
 
 Remote team members suffer from reduced visibility into what others are working on. Rather than relying on status updates or frequent check-ins, implement systems that make work visible through existing tools.
 
@@ -137,7 +119,7 @@ def generate_team_activity_report(github_token, org, team_slug):
 
 This script generates a factual, objective view of contribution without requiring anyone to manually report their work.
 
-### Step 3: Create Location-Agnostic Meeting Rules
+## Create Location-Agnostic Meeting Rules
 
 Meetings are where hybrid teams most frequently fail remote participants. Implement these rules systematically:
 
@@ -170,7 +152,7 @@ jobs:
 
 Rotate meeting help between remote and office team members to ensure both perspectives get equal airtime.
 
-### Step 4: Implement Pair Programming Across Locations
+## Implement Pair Programming Across Locations
 
 Remote developers miss the spontaneous pair programming that happens in offices. Actively create opportunities:
 
@@ -199,7 +181,7 @@ function findOptimalPairingSlots(members) {
 }
 ```
 
-### Step 5: Handle Knowledge Transfer Proactively
+## Handle Knowledge Transfer Proactively
 
 Office workers absorb knowledge through overheard conversations and informal chats. Remote workers miss this entirely. Close the gap through deliberate documentation:
 
@@ -210,7 +192,7 @@ Every significant decision should be documented before or immediately after it's
 ```markdown
 # Decision Record Template
 
-### Step 6: [Title]
+## [Title]
 **Date:** YYYY-MM-DD
 **Deciders:** @person1, @person2
 **Status:** [Proposed | Decided | Deprecated]
@@ -231,7 +213,7 @@ What happens next?
 
 Use GitHub Discussions, Notion, or a dedicated channel to maintain this log. Make it searchable so remote team members can find past decisions without asking.
 
-### Step 7: Establish Clear Documentation Locations
+## Establish Clear Documentation Locations
 
 Create a single source of truth for team knowledge:
 
@@ -245,7 +227,7 @@ Create a single source of truth for team knowledge:
 
 Resist the temptation to spread knowledge across multiple tools. The more places you have, the harder it is for remote members to find information.
 
-### Step 8: Practical Remote Team Health Checks
+## Practical Remote Team Health Checks
 
 Monitor team health through automated surveys that don't create busywork:
 
@@ -280,7 +262,7 @@ function analyzeByLocation(responses) {
 
 Compare scores between remote and office team members quarterly. If remote members consistently score lower on collaboration questions, investigate why.
 
-### Step 9: Onboarding Permanent Remote Members
+## Onboarding Permanent Remote Members
 
 Onboarding remote employees requires extra structure:
 
@@ -290,21 +272,6 @@ Onboarding remote employees requires extra structure:
 4. Monthly: Check-in with manager on integration, tools, and process effectiveness
 
 Document the entire onboarding process so remote hires can reference it later.
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Frequently Asked Questions
 

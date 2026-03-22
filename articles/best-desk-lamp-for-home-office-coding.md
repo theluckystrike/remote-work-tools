@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]
 ---
----
-layout: default
-title: "Best Desk Lamp for Home Office Coding: A Developer's Guide"
-description: "Find the ideal desk lamp for coding with our guide covering color temperature, brightness, smart integration, and ergonomic placement"
-date: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /best-desk-lamp-for-home-office-coding/
-reviewed: true
-score: 9
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, best-of]
----
 
 {% raw %}
 

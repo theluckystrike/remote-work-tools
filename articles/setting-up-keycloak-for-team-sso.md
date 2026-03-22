@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /setting-up-keycloak-for-team-sso/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
@@ -16,13 +16,6 @@ tags: [remote-work-tools]
 {% raw %}
 
 Keycloak gives remote teams a self-hosted identity provider. One login for Gitea, Grafana, BookStack, SonarQube, and any other internal tool. This guide covers Docker deployment, realm setup, OIDC app clients, Google federation, and MFA enforcement.
-
-## Key Takeaways
-
-- **Topics covered**: docker compose deployment, nginx reverse proxy, realm configuration
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-- **Trade-off analysis**: Strengths and limitations of each option discussed
 
 ## Docker Compose Deployment
 

@@ -11,35 +11,11 @@ tags: [remote-work-tools, remote-work, guilds, communities-of-practice, knowledg
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Set Up Remote Team Guilds and Communities of Practice"
-description: "A practical guide to building and scaling remote team guilds and communities of practice that drive knowledge sharing and skill development across"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /how-to-set-up-remote-team-guilds-and-communities-of-practice/
-categories: [guides]
-tags: [remote-work-tools, remote-work, guilds, communities-of-practice, knowledge-sharing, developer-productivity]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 
 Launch remote team guilds by defining a guild purpose and membership, setting up a dedicated communication channel and regular meeting cadence, and creating a knowledge base for guild-specific resources. Guilds connect people across teams who share interests or expertise, strengthening organizational culture in distributed environments.
-
-## Key Takeaways
-
-- **What does the guild**: need to discuss synchronously? ``` Post this update every week, preferably on the same day.
-- **Tooling decisions**: Guilds recommend tools; teams adopt through normal procurement
-3.
-- **Most organizations over 30**: engineers benefit from all four structures.
-- **Set expectations early—guild membership**: requires 2-4 hours weekly 4.
-- **Some use Redux**: others use context, and some fetch directly in components.
-- **RFC review**: Require guild input on RFCs touching their domain
-2.
 
 ## Understanding Guilds Versus Communities of Practice
 

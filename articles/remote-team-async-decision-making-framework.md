@@ -11,22 +11,14 @@ tags: [remote-work-tools, tools, best-of, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
 Remote teams that require real-time meetings for every decision lose productivity. Async decision-making lets team members contribute on their schedule, across time zones, without synchronous overhead.
 
 The challenge: Async decisions are slow without structure. Threads get lost in Slack. Approval chains disappear. Context degrades. This framework fixes that by defining decision types, required tools, escalation rules, and timeboxing.
-
-## Key Takeaways
-
-- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
-- **If no consensus (< 80%)**: escalate to manager for 30-minute sync call.
-- **Recommend**: Option A for Q2, Feature Y planned for Q3 with full design review.
-- **Use Slack + simple**: emoji voting for 4 weeks.
-- **Add Level 3 (sync**: escalation) only when needed.
-- **If 80%+ of implemented**: decisions have positive outcomes, async is working.
 
 ## Core Principle: Decision Classification
 
@@ -525,4 +517,4 @@ Trying to change everything at once. Pick one or two practices, implement them w
 - [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

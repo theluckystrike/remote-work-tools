@@ -11,36 +11,14 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Zellij Terminal Config for Remote Developers"
-description: "Configure Zellij as your terminal multiplexer for remote development: layouts, plugins, keybindings, session persistence, and SSH workflow setup guide."
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: theluckystrike
-permalink: /zellij-terminal-config-remote-developers/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Zellij is a terminal multiplexer written in Rust, designed as a more approachable alternative to tmux. It has a built-in UI with visible keybinding hints at the bottom of the screen, sensible defaults that work without a config file, and a plugin system based on WebAssembly.
 
 For remote developers, Zellij offers session persistence like tmux, but with less configuration overhead and a layout system that uses KDL files (a readable config format) instead of shell scripts.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
-- **Forced adoption without buy-in**: almost always fails.
 
 ## Install Zellij
 

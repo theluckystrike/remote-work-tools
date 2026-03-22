@@ -10,7 +10,8 @@ tags: [remote-work-tools, lisbon, fiber-internet, remote-work, Portugal, low-lat
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

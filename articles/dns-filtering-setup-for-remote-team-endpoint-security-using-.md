@@ -11,7 +11,8 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, security, remote-work]---
+tags: [remote-work-tools, security, remote-work]
+---
 ---
 layout: default
 title: "DNS Filtering Setup for Remote Team Endpoint Security"
@@ -25,17 +26,10 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, security, remote-work]---
-
+tags: [remote-work-tools, security, remote-work]
+---
 
 Configure Cloudflare Gateway to intercept malicious DNS queries before reaching remote team devices, blocking phishing domains and malware without VPN requirements. Remote team security demands first-line defense beyond traditional VPNs—DNS filtering protects distributed endpoints working from home offices, coffee shops, and co-working spaces by blocking dangerous domain resolutions at Cloudflare's edge network. This guide walks through the complete implementation process, including SSO integration, policy configuration, and deployment strategies for distributed teams.
-
-## Key Takeaways
-
-- **This becomes especially valuable**: for meeting compliance requirements around data protection and acceptable use policies.
-- **Create separate policies for**: different team segments or use cases.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
-- **Topics covered**: why dns filtering matters for remote teams, prerequisites and initial setup, configuring your first dns policy
 
 ## Why DNS Filtering Matters for Remote Teams
 
@@ -81,7 +75,7 @@ Navigate to **Gateway > DNS Policies** and create a new policy. The policy build
 
 This policy automatically blocks DNS resolutions matching Cloudflare's threat intelligence categories. The categories include malware distribution, phishing sites, and known command-and-control infrastructure used by attackers.
 
-### Step 1: Set Up the Cloudflare WARP Client
+## Setting Up the Cloudflare WARP Client
 
 Your remote team members need the Cloudflare WARP client installed on their devices to route DNS queries through Cloudflare Gateway. The client creates an encrypted tunnel, ensuring all DNS lookups pass through your organization's policies regardless of network conditions.
 
@@ -120,7 +114,7 @@ warp-cli status
 
 You should see blocked queries appearing in the logs with details about which policy matched and why the domain was flagged. This feedback loop helps refine policies as your team encounters new threats.
 
-### Step 2: Create Granular DNS Policies
+## Creating Granular DNS Policies
 
 Beyond basic malicious domain blocking, Cloudflare Gateway supports sophisticated policy building. Create separate policies for different team segments or use cases.
 
@@ -186,7 +180,7 @@ For team members handling customer data or financial information, create stricte
 
 This prevents downloads of unapproved software and blocks access to risky categories that could introduce vulnerabilities.
 
-### Step 3: Monitor and Alerting
+## Monitoring and Alerting
 
 Effective security requires visibility. Configure Cloudflare Gateway logging to capture DNS query data for analysis. Set up alerts for concerning patterns:
 
@@ -205,7 +199,7 @@ ACCOUNT_ID/gateway/dns_logs" \
   --data '{"limit": 100, "filter": {"action": "block"}}'
 ```
 
-### Step 4: Test Your Configuration
+## Testing Your Configuration
 
 Before deploying to your entire team, validate policies against known test domains. Cloudflare maintains safe test domains for verification:
 
@@ -232,7 +226,7 @@ Remote employees occasionally encounter connectivity issues. Common problems inc
 - Policies not applying: Confirm the device is enrolled in your organization and the correct profile is selected. Review policy precedence—lower precedence policies may match first.
 - Slow DNS resolution: Cloudflare Gateway typically provides fast resolution, but geographic distance matters. Ensure clients connect from supported regions.
 
-### Step 5: Scaling Your Deployment
+## Scaling Your Deployment
 
 As your remote team grows, maintain policy consistency through automation. Use Terraform or the Cloudflare API to manage policies as code:
 
@@ -259,7 +253,7 @@ resource "cloudflare_gateway_dns_policy" "block_malware" {
 
 This approach enables version control for security policies, peer review of changes, and consistent deployment across environments.
 
-### Step 6: Moving Forward
+## Moving Forward
 
 DNS filtering forms a foundational security layer, but works best combined with other endpoint protections. Integrate with EDR solutions, maintain software update policies, and train your team on recognizing social engineering attempts. Cloudflare Gateway continues expanding its threat intelligence, automatically protecting against new threats as they emerge.
 

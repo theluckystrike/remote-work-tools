@@ -11,11 +11,11 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 
 {% raw %}
 ## The Problem with Untracked On-Call Burden
-
 
 Distributed engineering teams often treat on-call as an informal arrangement where engineers rotate through scheduled shifts and everyone assumes the load is roughly equal. It rarely is. One engineer working in a timezone that overlaps with the system's peak traffic hours absorbs significantly more incidents than someone in a quieter timezone. A senior engineer who owns legacy components catches more escalations than a junior team member. Without data, these imbalances are invisible until someone burns out or leaves.
 
@@ -23,24 +23,14 @@ Tracking on-call burden isn't about surveillance. It's about having the numbers 
 
 This guide covers the tools and approaches that work best for remote distributed teams—from teams running everything through GitHub to those using dedicated incident management platforms.
 
-
-## Key Takeaways
-
-- **PagerDuty Business tier (approximately**: $41/user/month as of 2026) unlocks the full analytics suite including time-of-day breakdowns, which is where the real fairness data lives.
-- **This guide covers the**: tools and approaches that work best for remote distributed teams—from teams running everything through GitHub to those using dedicated incident management platforms.
-- **Require shift reports as**: non-optional documentation after each rotation 3.
-- **Set explicit thresholds**: define what constitutes an overloaded shift before problems emerge
-
-The "best" tool ultimately depends on what you already have.
-- **Teams with PagerDuty can**: use existing analytics.
-
 ## Starting with GitHub Issues: Low Overhead, High Visibility
 
 For teams already using GitHub, the fastest path to burden tracking is a shift report template stored in `.github/ISSUE_TEMPLATE/oncall-shift.md`. Each engineer opens an issue at the start of their shift and closes it when handing off. The issue captures incidents, sleep impact, and general notes.
 
 A practical template:
 
-```markdown---
+```markdown
+---
 name: On-Call Shift Report
 about: Document your on-call shift for burden tracking
 title: "[ON-CALL] [Engineer Name] - [Date Range]"
@@ -291,4 +281,4 @@ Some organizations pay an on-call stipend per shift. Others offer compensatory t
 - [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -11,20 +11,12 @@ tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 8
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
 Move design system documentation from informal wikis to structured component libraries with versioning, usage examples, and ownership assignments at the 20-person threshold, assigning domain owners per component family who maintain docs and answer questions. Informal Slack channels and shared Figma files create documentation gaps that explode at scale—repetitive questions flood chat and your docs fall out of sync with reality. This guide provides practical strategies for teams that have outgrown their documentation and need a structured path forward.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **Automated documentation keeps itself**: current because it derives from your actual code.
-- **Slack integration - Bot**: that searches documentation when questions are asked 4.
 
 ## Prerequisites
 
@@ -324,4 +316,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Scale Remote Team From 5 to 20 Without Losing](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

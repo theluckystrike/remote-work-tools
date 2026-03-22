@@ -11,19 +11,10 @@ score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools, best-of, remote-work]---
-
+tags: [remote-work-tools, best-of, remote-work]
+---
 
 Remote social work requires structured case management systems, automated administrative task handling, and clear client communication boundaries to prevent burnout. Time blocking, secure messaging protocols, and virtual rapport-building techniques enable effective service delivery from home. This guide provides actionable best practices for social workers managing distributed caseloads, including case organization systems, automation strategies, and boundary management.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Mandatory Reporting Considerations -**: Determine if abuse meets reporting threshold - Know your state's mandatory reporting requirements - Contact your supervisor immediately 2.
-- **Does Python offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **All communications must use**: encrypted channels that comply with HIPAA or applicable privacy regulations.
-- **Follow-up - Schedule next**: session within 24-48 hours - Contact client if they don't show - Brief supervisor on status ## When a Client Discloses Abuse 1.
 
 ## Establishing a Structured Case Management System
 

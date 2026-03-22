@@ -10,7 +10,8 @@ tags: [remote-work-tools, crm, solo-consultant, remote-work, client-management, 
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
