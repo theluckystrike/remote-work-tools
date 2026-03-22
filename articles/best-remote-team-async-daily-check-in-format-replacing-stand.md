@@ -9,7 +9,7 @@ permalink: /best-remote-team-async-daily-check-in-format-replacing-standup-meeti
 categories: [guides]
 tags: [remote-work-tools, remote-work, async-communication, daily-standup, team-collaboration, productivity, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
