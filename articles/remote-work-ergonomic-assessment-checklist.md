@@ -18,6 +18,16 @@ intent-checked: true
 
 Poor ergonomics in home offices causes musculoskeletal disorders that accumulate silently over months, resulting in chronic pain that derails productivity. Unlike office environments with HR oversight, remote workers often optimize for cost rather than health. This guide walks through a complete ergonomic assessment with specific measurements, product recommendations, and budget options.
 
+## Table of Contents
+
+- [The Core Ergonomic Problem](#the-core-ergonomic-problem)
+- [The Ergonomic Assessment (15 minutes)](#the-ergonomic-assessment-15-minutes)
+- [Complete Ergonomic Checklist](#complete-ergonomic-checklist)
+- [Common Ergonomic Mistakes and Fixes](#common-ergonomic-mistakes-and-fixes)
+- [Budget Ergonomic Setup](#budget-ergonomic-setup)
+- [When to See a Doctor](#when-to-see-a-doctor)
+- [Implementation Plan](#implementation-plan)
+
 ## The Core Ergonomic Problem
 
 Remote workers spend 40+ hours weekly at their desk but rarely adjust setup for proper posture. Common mistakes:
@@ -351,11 +361,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Slack Workflow: Weekly Learning Share](/remote-work-tools/remote-team-psychological-safety-assessment-tool-for-distrib/)
-- [Remote Team Technical Assessment Platform for Evaluating](/remote-work-tools/remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/)
-- [Remote Team Third Party Vendor Security Assessment Template](/remote-work-tools/remote-team-third-party-vendor-security-assessment-template-/)
-
+- [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
+- [Travel Ergonomic Setup for Remote Workers Guide](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
+- [Remote Worker Ergonomic Equipment Reimbursement](/remote-work-tools/remote-worker-ergonomic-equipment-reimbursement-legal-obliga/)
+- [Best Remote Work Monitor Under 300 Dollars 2026](/remote-work-tools/best-remote-work-monitor-under-300-dollars-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

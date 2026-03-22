@@ -18,6 +18,14 @@ voice-checked: true
 
 Remote client workshops require careful planning and the right digital tools to maintain engagement and collaboration. Miro Board provides a powerful platform for helping interactive virtual sessions that rival in-person meetings in effectiveness. This guide walks you through the process of setting up and running productive remote client workshops using Miro.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Technical Setup and Best Practices](#technical-setup-and-best-practices)
+- [Advanced Miro Features for Facilitators](#advanced-miro-features-for-facilitators)
+- [Advanced Workshop Designs for Specific Outcomes](#advanced-workshop-designs-for-specific-outcomes)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -374,10 +382,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
-- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [How to help Remote Team Workshops Using Miro with Structured Communication](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
 - [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
+- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
-- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

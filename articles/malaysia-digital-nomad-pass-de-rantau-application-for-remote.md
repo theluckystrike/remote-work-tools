@@ -18,6 +18,15 @@ voice-checked: true
 
 Malaysia introduced the DE Rantau Digital Nomad Pass in 2022 as part of its efforts to attract remote workers and strengthen its position as a hub for digital professionals in Southeast Asia. The program offers a long-term residency option for remote workers who want to live in Malaysia while continuing to work for employers or clients outside the country. This guide covers the application process with practical details for developers and tech workers planning to relocate in 2026.
 
+## Table of Contents
+
+- [What is the DE Rantau Digital Nomad Pass?](#what-is-the-de-rantau-digital-nomad-pass)
+- [Eligibility Requirements](#eligibility-requirements)
+- [Required Documents](#required-documents)
+- [Application Process Timeline and Details](#application-process-timeline-and-details)
+- [Practical Tips for Developers](#practical-tips-for-developers)
+- [Cost of Living Considerations](#cost-of-living-considerations)
+
 ## What is the DE Rantau Digital Nomad Pass?
 
 The DE Rantau pass is Malaysia's official digital nomad visa program, designed specifically for remote workers who wish to live in the country without requiring local employment. The pass allows holders to stay in Malaysia for up to one year, with the possibility of renewal. Unlike tourist visas, the DE Rantau pass legally permits you to work remotely for overseas employers or clients during your stay.
@@ -346,11 +355,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
 - [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-
+- [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -13,21 +13,6 @@ voice-checked: true
 intent-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Meeting Room Video Conferencing Equipment Setup for Hybrid"
-description: "Build a hybrid meeting room for $180-500 by prioritizing audio quality, choosing reliable cameras like the Logitech C920, adding proper lighting, and"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /meeting-room-video-conferencing-equipment-setup-for-hybrid-t/
-categories: [guides]
-reviewed: true
-score: 8
-voice-checked: true
-intent-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 
@@ -280,11 +265,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Video Conferencing Setup for Hybrid Rooms: A](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
+- [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
+- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
 - [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
-- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
-- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

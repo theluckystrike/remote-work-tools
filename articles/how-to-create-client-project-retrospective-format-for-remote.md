@@ -18,6 +18,16 @@ voice-checked: true
 
 Client project retrospectives provide a structured opportunity to reflect on what worked, what didn't, and how to improve future collaborations. For remote teams working with clients across different locations and time zones, the traditional in-person retrospective doesn't translate well. This guide covers how to create effective client project retrospective formats designed specifically for distributed teams.
 
+## Table of Contents
+
+- [Why Client Retrospectives Need Different Formats for Remote Work](#why-client-retrospectives-need-different-formats-for-remote-work)
+- [Prerequisites](#prerequisites)
+- [Executive Summary](#executive-summary)
+- [Client Feedback Summary](#client-feedback-summary)
+- [Best Practices for Remote Client Retrospectives](#best-practices-for-remote-client-retrospectives)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Client Retrospectives Need Different Formats for Remote Work
 
 When you're working in the same office as your client, retrospectives happen organically—casual conversations in the hallway, quick syncs after meetings, or informal chats over coffee. Remote work eliminates these spontaneous touchpoints, which means you need intentional structures to capture the same value.
@@ -374,11 +384,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 - [How to Create Asynchronous Client Update Format for Remote P](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
-- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
 - [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
-- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
-- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
-
+- [Remote Agency Client Satisfaction Survey Template](/remote-work-tools/remote-agency-client-satisfaction-survey-template-and-automa/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

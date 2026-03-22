@@ -18,6 +18,21 @@ voice-checked: true
 
 Demo days transform isolated project work into shared organizational knowledge. For remote teams, these sessions serve a dual purpose: they keep everyone informed about progress across the company and they create natural opportunities for collaboration to emerge. When multiple teams present their joint work, the demo becomes a forcing function for visibility and a catalyst for future partnerships.
 
+## Table of Contents
+
+- [Why Cross-Team Demo Days Matter](#why-cross-team-demo-days-matter)
+- [Structuring the Demo Day Format](#structuring-the-demo-day-format)
+- [Demo Day Preparation Checklist](#demo-day-preparation-checklist)
+- [Selecting and Ordering Cross-Team Projects](#selecting-and-ordering-cross-team-projects)
+- [Technical Setup for Remote Demos](#technical-setup-for-remote-demos)
+- [Making Demos Actionable for Viewers](#making-demos-actionable-for-viewers)
+- [Handling Q&An Effectively](#handling-qan-effectively)
+- [Question Handling Template](#question-handling-template)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Demo Day Success](#measuring-demo-day-success)
+- [Post-Demo Day Survey](#post-demo-day-survey)
+- [Building a Sustainable Cadence](#building-a-sustainable-cadence)
+
 This guide provides a practical framework for running remote demo days that genuinely showcase cross-team project work, not just individual team accomplishments.
 
 ## Why Cross-Team Demo Days Matter
@@ -261,10 +276,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
-- [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
 - [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
-- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
-- [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
-
+- [How to Run Effective Remote Team Demos and Showcases 2026](/remote-work-tools/how-to-run-effective-remote-team-demos-and-showcases-2026/)
+- [How to Record Client Demo Videos Asynchronously for Remote](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
+- [How to Build Cross-Team Relationships in Large Remote](/remote-work-tools/how-to-build-cross-team-relationships-in-large-remote-organi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

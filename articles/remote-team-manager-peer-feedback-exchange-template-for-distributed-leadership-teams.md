@@ -2,17 +2,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 layout: default
 title: "Remote Team Manager Peer Feedback Exchange Template"
 description: "A practical peer feedback exchange template designed for remote team managers leading distributed leadership teams. Includes JSON templates, async"
@@ -25,20 +14,17 @@ tags: [remote-work-tools, peer-feedback, remote-management, distributed-teams, l
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
 
 
 
+<<<<<<< HEAD
 
 
-
-
-
-
-
-
-
+<<<<<<< HEAD
+=======
+>>>>>>> d4fc9ccedd956730946d8ecd77b7c1fc784dac40
 
 
 layout: default
@@ -59,6 +45,24 @@ voice-checked: true---
 {% raw %}
 
 Implement async peer feedback exchanges for remote leadership teams using structured requests with specific questions, deadline-bound responses, explicit acknowledgment of feedback, and committed follow-up actions—creating documentation that builds trust while replacing the informal hallway conversations that don't exist in distributed settings. This process reduces emotional friction while producing clear expectations about behavior change and growth.
+
+## Table of Contents
+
+- [Why Distributed Leadership Teams Need Structured Feedback](#why-distributed-leadership-teams-need-structured-feedback)
+- [The Template Structure](#the-template-structure)
+- [Implementing the Template in Your Team](#implementing-the-template-in-your-team)
+- [Timing and Frequency](#timing-and-frequency)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Detailed Peer Feedback Form for Leadership Teams](#detailed-peer-feedback-form-for-leadership-teams)
+- [Aggregation and Analysis Process](#aggregation-and-analysis-process)
+- [[Manager] Feedback Summary - 2026 Q1](#manager-feedback-summary-2026-q1)
+- [Feedback Delivery Conversation for Managers](#feedback-delivery-conversation-for-managers)
+- [Monthly Check-In Template for Accountability](#monthly-check-in-template-for-accountability)
+- [Progress This Month](#progress-this-month)
+- [Evidence of Progress](#evidence-of-progress)
+- [Obstacles](#obstacles)
+- [Next Month's Focus](#next-months-focus)
+- [Support Needed](#support-needed)
 
 Managing peer feedback in distributed leadership environments requires deliberate structure. When your team spans time zones and communication happens asynchronously, the informal hallway conversations that build trust in co-located settings simply do not exist. This guide provides a peer feedback exchange template specifically designed for remote team managers operating in distributed leadership structures.
 
@@ -527,11 +531,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
-- [How to Set Up Remote Team Peer Feedback Process Without](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
-- [Remote Manager One on One Question Template for Distributed](/remote-work-tools/remote-manager-one-on-one-question-template-for-distributed-team-check-ins/)
-- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
-- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
-
+- [How to Set Up Remote Team Peer Feedback Process](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [Best Practice for Remote Team Documentation Feedback Loop](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
+- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

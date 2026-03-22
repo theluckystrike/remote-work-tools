@@ -18,6 +18,25 @@ voice-checked: true
 
 For a four-person remote customer success team, HelpScout is the strongest shared inbox option, balancing features and simplicity without enterprise-grade overhead. If you already use Gmail, shared labels with assignment conventions work as a free starting point, while teams with development capacity can build a custom inbox with Slack integration for full control. Whichever approach you choose, the key requirements are real-time visibility into queue status, clear ticket ownership, internal notes, and automated routing that categorizes messages by customer tier and topic.
 
+## Table of Contents
+
+- [The Core Problem](#the-core-problem)
+- [Essential Features for a Four-Person Remote CS Team](#essential-features-for-a-four-person-remote-cs-team)
+- [Implementation Approaches](#implementation-approaches)
+- [Automation Patterns That Scale](#automation-patterns-that-scale)
+- [Team Workflow Conventions](#team-workflow-conventions)
+- [What to Avoid](#what-to-avoid)
+- [Choosing Your Approach](#choosing-your-approach)
+- [Pricing Breakdown for Your Four-Person Team](#pricing-breakdown-for-your-four-person-team)
+- [Building a Workflow That Actually Works](#building-a-workflow-that-actually-works)
+- [Red Flags That Your Current System Is Failing](#red-flags-that-your-current-system-is-failing)
+- [Implementation Roadmap for This Month](#implementation-roadmap-for-this-month)
+- [Template Examples That Work](#template-examples-that-work)
+- [Measuring Success for Your Four-Person Team](#measuring-success-for-your-four-person-team)
+- [Seasonal Patterns and Workload Management](#seasonal-patterns-and-workload-management)
+- [Escalation Processes](#escalation-processes)
+- [Long-term Evolution](#long-term-evolution)
+
 ## The Core Problem
 
 When four customer success managers handle support requests from a shared email address or chat channel, several issues emerge: messages get overlooked during handoffs, customers receive conflicting responses, and tracking response times becomes impossible. A well-designed shared inbox solves these problems by providing clear ownership, visibility into queue status, and audit trails for every interaction.
@@ -323,8 +342,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
 - [Shared Inbox Setup for Remote Agency Client Support Emails](/remote-work-tools/shared-inbox-setup-for-remote-agency-client-support-emails/)
 - [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
-- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
-
+- [Best All-in-One Tool for a 5 Person Remote Nonprofit](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,22 @@ score: 9
 
 Japan introduced its Digital Nomad Visa in 2024, and the program has evolved significantly for 2026. If you're a software engineer working remotely for a company outside Japan, this guide walks you through the current requirements, application process, and practical considerations for living and working in Japan legally.
 
+## Table of Contents
+
+- [Eligibility Criteria for Software Engineers](#eligibility-criteria-for-software-engineers)
+- [Required Documentation](#required-documentation)
+- [Application Process Step by Step](#application-process-step-by-step)
+- [Income Calculation for Software Engineers](#income-calculation-for-software-engineers)
+- [Practical Considerations for Remote Engineers](#practical-considerations-for-remote-engineers)
+- [Renewal and Extension](#renewal-and-extension)
+- [Cost Breakdown for Your Japan Stay](#cost-breakdown-for-your-japan-stay)
+- [Navigating Common Application Challenges](#navigating-common-application-challenges)
+- [Advanced Planning: Tax Residency and Remote Work](#advanced-planning-tax-residency-and-remote-work)
+- [Practical Resources and Tools](#practical-resources-and-tools)
+- [Comparison with Other Asian Digital Nomad Visas](#comparison-with-other-asian-digital-nomad-visas)
+- [Moving to Japan: Beyond the Visa](#moving-to-japan-beyond-the-visa)
+- [Renewal and Extension](#renewal-and-extension)
+
 ## Eligibility Criteria for Software Engineers
 
 The Japan Digital Nomad Visa targets remote workers employed by companies outside Japan. Unlike the standard work visa, you cannot work for Japanese companies with this visa type. The key eligibility requirements for 2026 include:
@@ -324,11 +340,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
 - [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
-- [Sri Lanka Digital Nomad Visa Requirements and Coworking](/remote-work-tools/sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/)
-- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
-- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
-
+- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

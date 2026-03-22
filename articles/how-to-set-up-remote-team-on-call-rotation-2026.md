@@ -18,6 +18,13 @@ tags: [remote-work-tools, on-call, incident-management, devops]
 
 PagerDuty ($1,499/month for small teams) is the industry standard with the best escalation logic and mobile app, justified for teams managing critical infrastructure. OpsGenie ($29/user/month, roughly $290-870/month for most teams) provides nearly equivalent features at half the cost with excellent Jira/Slack integration. Grafana OnCall (free/open-source to $60/month) excels for teams already using Grafana stack but lacks PagerDuty's enterprise escalation depth. Most remote teams should start with OpsGenie for cost-effective on-call management and escalation policies that reduce burnout. Implement a rotation schedule preventing any single person from being on-call more than once per month, use escalation policies timing at 15-30 minutes to ensure someone always responds, and measure on-call load monthly to catch burnout early.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [PagerDuty: The Enterprise Standard](#pagerduty-the-enterprise-standard)
+- [Feature Comparison](#feature-comparison)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -357,12 +364,11 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ## Related Articles
 
-- [Best Incident Management Platforms for DevOps Teams](/remote-work-tools/best-incident-management-platforms-devops/)
-- [How to Prevent On-Call Burnout in Distributed Teams](/remote-work-tools/how-to-prevent-on-call-burnout-distributed-teams/)
-- [Monitoring and Observability Tools for Remote Infrastructure Teams](/remote-work-tools/monitoring-observability-tools-remote-infrastructure/)
-- [Slack for Remote Team Incident Communication](/remote-work-tools/slack-remote-team-incident-communication/)
-- [Post-Incident Review Best Practices for Remote Teams](/remote-work-tools/post-incident-review-best-practices-remote-teams/)
-
+- [On-Call Burden Tracking Tools for Remote Teams](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
+- [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

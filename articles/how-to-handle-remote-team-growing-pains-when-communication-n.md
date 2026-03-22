@@ -18,6 +18,29 @@ score: 8
 
 Every remote team reaches a tipping point. The communication norms that worked with five people suddenly fracture when you add fifteen more. Decisions that once happened in organic hallway conversations now require explicit coordination. The "just ask in Slack" approach that felt efficient becomes a noise problem that drives people to mute channels entirely.
 
+## Table of Contents
+
+- [Recognizing When Your Communication Norms Are Breaking](#recognizing-when-your-communication-norms-are-breaking)
+- [Building Communication Norms That Scale](#building-communication-norms-that-scale)
+- [Context](#context)
+- [Approach](#approach)
+- [Testing](#testing)
+- [Screenshots (if applicable)](#screenshots-if-applicable)
+- [Problem](#problem)
+- [Proposed Solution](#proposed-solution)
+- [Questions for Reviewer](#questions-for-reviewer)
+- [Response Time Expectations](#response-time-expectations)
+- [When to Escalate](#when-to-escalate)
+- [Tools and Automation for Communication at Scale](#tools-and-automation-for-communication-at-scale)
+- [Documenting Decisions and Creating Institutional Memory](#documenting-decisions-and-creating-institutional-memory)
+- [[Date] - [Short Title]](#date-short-title)
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+- [Rollback Command](#rollback-command)
+- [Tool Selection for Async Communication at Scale](#tool-selection-for-async-communication-at-scale)
+- [Managing the Transition Period](#managing-the-transition-period)
+- [Calibrating Communication as You Continue Growing](#calibrating-communication-as-you-continue-growing)
+
 This is the scaling problem every distributed team faces. Communication norms that emerge naturally in small teams rarely survive contact with growth. Here's how to recognize the warning signs and rebuild your communication infrastructure for scale.
 
 ## Recognizing When Your Communication Norms Are Breaking
@@ -283,11 +306,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
-- [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
-- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
-- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
-- [How to Handle Remote Team Tool Consolidation When Rapid](/remote-work-tools/how-to-handle-remote-team-tool-consolidation-when-rapid-grow/)
-
+- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
+- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

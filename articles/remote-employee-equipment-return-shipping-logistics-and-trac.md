@@ -337,11 +337,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
-- [Remote Team Retreat Planning Guide Budget and Logistics](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
 - [Remote Worker Ergonomic Equipment Reimbursement](/remote-work-tools/remote-worker-ergonomic-equipment-reimbursement-legal-obliga/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 - [How to Create Hybrid Work Equipment Checkout System for Shar](/remote-work-tools/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)
-
+- [Best Tool for Tracking Remote Employee Work Permits](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
+- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
+- [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,23 @@ voice-checked: true
 
 Mexico has become a premier destination for remote workers seeking a balance between professional productivity and lifestyle quality. The temporary resident visa represents the most practical path for developers, designers, and tech professionals who want to establish a longer-term base while continuing to work for clients or employers abroad. This guide covers everything you need to know about obtaining this visa in 2026.
 
+## Table of Contents
+
+- [Understanding Mexico's Temporary Resident Visa](#understanding-mexicos-temporary-resident-visa)
+- [Income Requirements for 2026](#income-requirements-for-2026)
+- [Required Documentation](#required-documentation)
+- [Application Process](#application-process)
+- [Practical Tips for Developers](#practical-tips-for-developers)
+- [Extending Your Stay](#extending-your-stay)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Complete Cost of Living Analysis for Remote Workers](#complete-cost-of-living-analysis-for-remote-workers)
+- [Visa Application Checklist and Timeline](#visa-application-checklist-and-timeline)
+- [Banking and Financial Setup for Remote Workers](#banking-and-financial-setup-for-remote-workers)
+- [Healthcare Access and Insurance Options](#healthcare-access-and-insurance-options)
+- [Comparison with Other Latin American Digital Nomad Visas](#comparison-with-other-latin-american-digital-nomad-visas)
+- [Advanced: Tax Planning for US Citizens and Expats](#advanced-tax-planning-for-us-citizens-and-expats)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+
 ## Understanding Mexico's Temporary Resident Visa
 
 The Temporary Resident Visa (Visa de Residente Temporal) allows you to stay in Mexico for up to four years. Unlike the tourist visa, which limits stays to 180 days, this visa provides legal residency and eliminates the need for border runs. For remote workers earning income from foreign clients, this visa type specifically accommodates your situation without requiring a job offer from a Mexican employer.
@@ -316,11 +333,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
-- [Barbados Welcome Stamp Visa for Remote Workers](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
-- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
+- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
+- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
 - [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
-- [Example NHI enrollment at a local district office](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)
-
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

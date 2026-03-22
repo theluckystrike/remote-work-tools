@@ -18,6 +18,24 @@ tags: [remote-work-tools]
 
 Write effective async daily logs by recording decisions with reasoning, capturing context that would otherwise be lost, linking to supporting evidence (PRs, tickets, Slack threads), and including learnings that benefit the team. Daily logs create searchable institutional knowledge that accelerates onboarding and prevents repeated problem-solving.
 
+## Table of Contents
+
+- [Why Daily Logs Matter for Team Knowledge](#why-daily-logs-matter-for-team-knowledge)
+- [What Makes a Daily Log Helpful](#what-makes-a-daily-log-helpful)
+- [March 18, 2026](#march-18-2026)
+- [March 18, 2026](#march-18-2026)
+- [March 18, 2026](#march-18-2026)
+- [March 18, 2026](#march-18-2026)
+- [Daily Log Template](#daily-log-template)
+- [[Date]](#date)
+- [Tools and Platforms for Daily Logs](#tools-and-platforms-for-daily-logs)
+- [Best Practices](#best-practices)
+- [Detailed Tool Comparison for Daily Logs](#detailed-tool-comparison-for-daily-logs)
+- [March 18, 2026](#march-18-2026)
+- [Real-World Onboarding Example](#real-world-onboarding-example)
+- [Integration Strategies with Existing Workflows](#integration-strategies-with-existing-workflows)
+- [March 18, 2026](#march-18-2026)
+
 ## Why Daily Logs Matter for Team Knowledge
 
 When you write daily logs with future readers in mind, you're building institutional knowledge that outlasts any single project or role. Here's what happens when teams adopt this practice:
@@ -327,10 +345,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
-- [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
-- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
-- [How to Write Async Technical RFCs That Get Meaningful](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
-
+- [Best Tools for Remote Team Daily Health Checks](/remote-work-tools/best-tools-remote-team-daily-health-checks/)
+- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

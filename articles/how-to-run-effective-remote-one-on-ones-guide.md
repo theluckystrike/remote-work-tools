@@ -36,6 +36,27 @@ One-on-ones are theirs to shape. Spend 40% of the time on their agenda, not your
 
 ## Cadence: How Often?
 
+## Table of Contents
+
+- [Cadence: How Often?](#cadence-how-often)
+- [The Effective Remote 1:1 Structure (30 Minutes)](#the-effective-remote-11-structure-30-minutes)
+- [Template: 1:1 Agenda Document](#template-11-agenda-document)
+- [REPORT AGENDA (Their topics)](#report-agenda-their-topics)
+- [MANAGER AGENDA (Your topics)](#manager-agenda-your-topics)
+- [NOTES](#notes)
+- [ACTION ITEMS](#action-items)
+- [FOLLOW-UP FOR NEXT WEEK](#follow-up-for-next-week)
+- [Conversation Framework: The Four Pillars](#conversation-framework-the-four-pillars)
+- [Sample 1:1 Dialogue (Real Scenario)](#sample-11-dialogue-real-scenario)
+- [Remote-Specific Tips](#remote-specific-tips)
+- [Red Flags: When 1:1s Reveal Problems](#red-flags-when-11s-reveal-problems)
+- [Common Mistakes Managers Make](#common-mistakes-managers-make)
+- [Tools for Remote 1:1s](#tools-for-remote-11s)
+- [Quarterly Deep-Dive: Career Planning Session](#quarterly-deep-dive-career-planning-session)
+- [Scaling to Multiple Reports](#scaling-to-multiple-reports)
+- [Final Checklist: Running 1:1s That Work](#final-checklist-running-11s-that-work)
+- [Verdict](#verdict)
+
 **Individual Contributor (IC), standard responsibility:**
 - Weekly 30-minute 1:1. Non-negotiable.
 - Biweekly is insufficient for remote teams. Issues fester.
@@ -398,10 +419,11 @@ Start this week with a shared 1:1 agenda doc. Invite your report to contribute. 
 
 ## Related Articles
 
-- [How to Run Effective Remote One-on-One Meetings](/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
-- [How to Run Effective Remote Brainstorming Session](/how-to-run-effective-remote-brainstorming-session-using-chat/)
-- [Run Effective Remote Client Workshops Using Miro](/how-to-run-effective-remote-client-workshops-using-miro-boar/)
-
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
+- [How to Run Effective Remote Team Demos and Showcases 2026](/remote-work-tools/how-to-run-effective-remote-team-demos-and-showcases-2026/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

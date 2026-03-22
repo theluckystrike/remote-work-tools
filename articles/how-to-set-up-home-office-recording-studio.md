@@ -17,6 +17,26 @@ voice-checked: true
 
 Async video is the primary communication format for serious remote teams. If your recordings sound tinny or your room echoes, colleagues watch at 1.5x speed with one eye on something else. This guide covers a practical recording setup for engineers who need to record demos, technical walkthroughs, and team updates — without building a professional studio.
 
+## Table of Contents
+
+- [The Priority Order](#the-priority-order)
+- [Room Acoustics: The Foundation](#room-acoustics-the-foundation)
+- [Microphone Selection](#microphone-selection)
+- [Camera](#camera)
+- [Lighting](#lighting)
+- [Recording Software](#recording-software)
+- [Complete Budget Breakdown](#complete-budget-breakdown)
+- [Advanced Room Acoustics: Professional Treatment](#advanced-room-acoustics-professional-treatment)
+- [Screen Recording Workflow for Engineers](#screen-recording-workflow-for-engineers)
+- [Microphone Technique for Better Recordings](#microphone-technique-for-better-recordings)
+- [Audio Level Management](#audio-level-management)
+- [Recording Software Comparison](#recording-software-comparison)
+- [Post-Recording Audio Cleanup](#post-recording-audio-cleanup)
+- [Video Format and Compression Standards](#video-format-and-compression-standards)
+- [Accessibility Considerations](#accessibility-considerations)
+- [Video Accessibility Checklist](#video-accessibility-checklist)
+- [Related Reading](#related-reading)
+
 ## The Priority Order
 
 Most engineers spend money in the wrong order. Fix in this sequence:
@@ -425,7 +445,15 @@ Make async videos accessible to your whole team:
 - [Best Screen Recording Async Communication](/best-screen-recording-async-communication/)
 - [Best Open Source Screen Recording Tool for Remote Team Async](/best-open-source-screen-recording-tool-for-remote-team-async.)
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
 ---
 
+## Related Articles
+
+- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
+- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
+- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
+- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

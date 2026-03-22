@@ -13,25 +13,22 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Test upload/download speed to common video call servers"
-description: "A technical guide for upgrading hybrid office network infrastructure to handle increased video call bandwidth. Includes practical examples, network"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 
 Hybrid office network upgrades require symmetric business-class internet (100+ Mbps upload for 50-person offices), Quality of Service (QoS) rules prioritizing video ports (443, 3478-3480, 5000-6000), and gigabit or multi-gig switched infrastructure. WiFi 6E/7 access points with band steering handle concurrent connections better than older standards. Monitor bandwidth continuously using tools like vnstat with Prometheus metrics and Grafana dashboards to catch saturation before video calls degrade. Start by calculating concurrent capacity at 40% occupancy × 2 Mbps per participant plus 30% headroom.
+
+## Table of Contents
+
+- [Assessing Your Current Network Capacity](#assessing-your-current-network-capacity)
+- [Upgrading Your Internet Connection](#upgrading-your-internet-connection)
+- [Implementing Quality of Service (QoS)](#implementing-quality-of-service-qos)
+- [Optimizing Local Network Architecture](#optimizing-local-network-architecture)
+- [Monitoring and Maintaining Performance](#monitoring-and-maintaining-performance)
+- [Practical Upgrade Checklist](#practical-upgrade-checklist)
+- [Network Configuration Templates](#network-configuration-templates)
+- [Network Capacity Planning Example](#network-capacity-planning-example)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
 
 ## Assessing Your Current Network Capacity
 
@@ -432,11 +429,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Test UDP latency to Slack's media servers](/remote-work-tools/remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/)
-- [Hybrid Office Access Control System Upgrade for Flexible](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
 - [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
-- [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
-- [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
-
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
+- [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
+- [Veed API - Upload and process video](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

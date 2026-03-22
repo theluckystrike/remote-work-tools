@@ -17,6 +17,20 @@ intent-checked: true
 
 Remote new managers need three core elements: a formal 2-hour handoff from the predecessor, a team briefing document covering each direct report's performance and context, and 1-on-1s scheduled before day one to signal accessibility. Transitioning to management in a remote-first company multiplies complexity—you lose hallway building blocks that create trust at co-located companies. This checklist structures the first weeks and months for remote-first promotion success.
 
+## Table of Contents
+
+- [Pre-Start Preparation (Before Day One)](#pre-start-preparation-before-day-one)
+- [First Week: Foundation Building](#first-week-foundation-building)
+- [First Month: Skill Development](#first-month-skill-development)
+- [First Quarter: Establishing Leadership Identity](#first-quarter-establishing-leadership-identity)
+- [Ongoing Support Structures](#ongoing-support-structures)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Tools and Resources to Support New Remote Managers](#tools-and-resources-to-support-new-remote-managers)
+- [Measuring New Manager Success](#measuring-new-manager-success)
+- [Handling New Manager Crises](#handling-new-manager-crises)
+- [Remote-Specific Management Skills](#remote-specific-management-skills)
+- [Creating Sustainable Onboarding](#creating-sustainable-onboarding)
+
 ## Pre-Start Preparation (Before Day One)
 
 Before your new manager's first day in their leadership role, ensure several foundational elements are in place.
@@ -293,10 +307,9 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
+- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
 - [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
 - [Remote Team Middle Management Onboarding Guide for New](/remote-work-tools/remote-team-middle-management-onboarding-guide-for-new-layer/)
-- [communication-preferences.yaml](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
-
+- [Remote Manager One on One Question Template for Distributed](/remote-work-tools/remote-manager-one-on-one-question-template-for-distributed-team-check-ins/)
+- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -17,6 +17,21 @@ tags: [remote-work-tools, best-of]
 
 Choosing the right business bank account ranks among the most consequential financial decisions for freelance developers. Your business banking directly impacts how efficiently you get paid, track expenses, handle taxes, and scale your operations. Unlike traditional employees, freelancers must manage cash flow, client payments, and financial planning without the safety net of a steady paycheck.
 
+## Table of Contents
+
+- [What Freelance Developers Need from Business Banking](#what-freelance-developers-need-from-business-banking)
+- [Types of Business Bank Accounts for Freelancers](#types-of-business-bank-accounts-for-freelancers)
+- [Key Features Developers Should Evaluate](#key-features-developers-should-evaluate)
+- [Practical Recommendations by Use Case](#practical-recommendations-by-use-case)
+- [Automating Your Freelance Banking Workflow](#automating-your-freelance-banking-workflow)
+- [Making Your Decision](#making-your-decision)
+- [Detailed Feature Comparison of Top Banks](#detailed-feature-comparison-of-top-banks)
+- [Advanced Account Setup for Multi-Currency Freelancers](#advanced-account-setup-for-multi-currency-freelancers)
+- [Tax Planning Integration with Business Banking](#tax-planning-integration-with-business-banking)
+- [Setting Up Freelance-Specific Banking Workflows](#setting-up-freelance-specific-banking-workflows)
+- [January 2026 Financial Summary](#january-2026-financial-summary)
+- [Common Banking Mistakes Freelancers Make](#common-banking-mistakes-freelancers-make)
+
 This guide evaluates business bank accounts through a developer lens, focusing on automation potential, API integrations, fee structures, and workflow compatibility.
 
 ## What Freelance Developers Need from Business Banking
@@ -454,11 +469,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
+- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
+- [How to Separate Business and Personal Finances](/remote-work-tools/how-to-separate-business-and-personal-finances-freelance/)
 - [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
-- [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)
-- [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
-- [How to Set Up Thai Bank Account as Digital Nomad Working](/remote-work-tools/how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/)
-- [Automation Tools for Freelance Business Operations: A](/remote-work-tools/automation-tools-for-freelance-business-operations/)
-
+- [How to Build a Location Independent Business](/remote-work-tools/how-to-build-a-location-independent-business/)
+- [How to Incorporate as a Freelance Developer](/remote-work-tools/how-to-incorporate-as-a-freelance-developer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

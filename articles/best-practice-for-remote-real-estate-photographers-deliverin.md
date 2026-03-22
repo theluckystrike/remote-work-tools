@@ -28,6 +28,16 @@ voice-checked: true
 
 Remote real estate photographers can scale their delivery by implementing automation for batch image processing, standardized tour generation, and cloud-based delivery infrastructure. This guide provides proven technical strategies and code examples that enable photographers to deliver high-quality virtual tours faster while managing multiple properties across distributed locations. Automation at each stage—from image optimization through client access—separates sustainable operations from burnout.
 
+## Table of Contents
+
+- [The Remote Photography Delivery Challenge](#the-remote-photography-delivery-challenge)
+- [Workflow Automation Fundamentals](#workflow-automation-fundamentals)
+- [Cloud Storage and Delivery Architecture](#cloud-storage-and-delivery-architecture)
+- [Quality Assurance Automation](#quality-assurance-automation)
+- [Measuring and Optimizing Performance](#measuring-and-optimizing-performance)
+- [Automating Client Notifications on Tour Delivery](#automating-client-notifications-on-tour-delivery)
+- [Handling High-Demand Periods with a Job Queue](#handling-high-demand-periods-with-a-job-queue)
+
 ## The Remote Photography Delivery Challenge
 
 Remote real estate photographers often face unique challenges that differ from traditional on-site photographers. Properties may be located hundreds of miles away, access arrangements vary, and clients expect professional-grade virtual tours delivered within tight timelines. The key to success lies in automation, standardized processes, and reliable tooling.
@@ -526,11 +536,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Run Remote Real Estate Closings with Digital](/remote-work-tools/how-to-run-remote-real-estate-closings-with-digital-notariza/)
-- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
-- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
-- [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [Best Practice for Measuring Remote Team Alignment](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
 - [Best Practice for Remote Accountants Handling Client Tax](/remote-work-tools/best-practice-for-remote-accountants-handling-client-tax-doc/)
-
+- [Best Grocery Delivery Service Strategy for Remote Working](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,23 @@ tags: [remote-work-tools, best-of]
 
 Finding the right freelance platform directly impacts your ability to secure consistent work and command fair rates as a software developer. With numerous options available, understanding which platforms align with your specialization, workflow, and business goals helps you make informed decisions about where to invest your time.
 
+## Table of Contents
+
+- [Understanding Platform Types](#understanding-platform-types)
+- [Top Platforms for Software Developers](#top-platforms-for-software-developers)
+- [Platform Comparison at a Glance](#platform-comparison-at-a-glance)
+- [Practical Strategies for Platform Success](#practical-strategies-for-platform-success)
+- [Avoiding Common Pitfalls](#avoiding-common-pitfalls)
+- [Making Your Choice](#making-your-choice)
+- [Real-World Income Expectations by Platform](#real-world-income-expectations-by-platform)
+- [Building an Income-Focused Freelancing Strategy](#building-an-income-focused-freelancing-strategy)
+- [Contract and Payment Security](#contract-and-payment-security)
+- [Avoiding Platform Burnout](#avoiding-platform-burnout)
+- [Building a Personal Freelance Brand](#building-a-personal-freelance-brand)
+- [Timing Your Platform Transitions](#timing-your-platform-transitions)
+- [Platform Selection by Career Stage](#platform-selection-by-career-stage)
+- [The Real Cost of Freelancing](#the-real-cost-of-freelancing)
+
 ## Understanding Platform Types
 
 Freelance platforms fall into three main categories, each with distinct advantages for developers.
@@ -313,11 +330,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
-- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
 - [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
 - [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
-- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
-
+- [Slack Communities for Freelance Remote Developers](/remote-work-tools/slack-communities-for-freelance-remote-developers/)
+- [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
+- [Remote HR Onboarding Platform Comparison for Hiring](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

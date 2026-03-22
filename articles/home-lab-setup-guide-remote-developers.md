@@ -12,24 +12,23 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Home Lab Setup Guide for Remote Developers"
-description: "Build a home lab for remote development: hardware selection, hypervisor setup, network segmentation, DNS, and services worth running locally for development"
-date: 2026-03-21
-author: theluckystrike
-permalink: /home-lab-setup-guide-remote-developers/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
 A home lab gives you a real infrastructure environment to experiment with, a place to run services locally for development, and a learning ground for infrastructure skills that are difficult to practice on cloud free tiers alone. For remote developers, it also means always-available compute and storage that you own.
+
+## Table of Contents
+
+- [Hardware: What to Buy in 2026](#hardware-what-to-buy-in-2026)
+- [Hypervisor: Proxmox VE](#hypervisor-proxmox-ve)
+- [Create Your First VM](#create-your-first-vm)
+- [Network: VLANs for Isolation](#network-vlans-for-isolation)
+- [DNS: pi-hole + Unbound](#dns-pi-hole-unbound)
+- [Services Worth Running in a Home Lab](#services-worth-running-in-a-home-lab)
+- [SSH Config for Lab Access](#ssh-config-for-lab-access)
+- [Remote Access via Tailscale](#remote-access-via-tailscale)
+- [Backups: The Step Most People Skip](#backups-the-step-most-people-skip)
+- [Related Reading](#related-reading)
 
 This guide covers: hardware choice, hypervisor installation, network setup, and the services worth running in a home lab for development work.
 
@@ -315,7 +314,15 @@ For offsite backup, Restic against a Backblaze B2 bucket costs roughly $0.006/GB
 - [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
 - [How to Set Up WireGuard VPN Server for Small Remote Development Teams](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
 - [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
+- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
 
+## Related Articles
+
+- [Remote Work VoIP Setup for Home Offices](/remote-work-tools/remote-work-voip-setup-for-home-offices/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

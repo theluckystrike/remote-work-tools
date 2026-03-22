@@ -27,6 +27,27 @@ voice-checked: true
 
 Metabase is the strongest pick for most four-person remote growth teams -- it offers self-service query building for non-technical teammates, full SQL access for developers, and scheduled alerts that work across time zones, all on an open-source model. Choose Grafana instead if you need real-time operational metrics alongside business data, or stick with Supabase's built-in analytics if your stack already runs on it and you only need basic visibility.
 
+## Table of Contents
+
+- [What a Four-Person Remote Growth Team Actually Needs](#what-a-four-person-remote-growth-team-actually-needs)
+- [Metabase: Open-Source Flexibility with SQL Access](#metabase-open-source-flexibility-with-sql-access)
+- [Grafana: Operational Metrics with Strong Visualization](#grafana-operational-metrics-with-strong-visualization)
+- [Supabase Dashboards: Built-In Analytics for Postgres Users](#supabase-dashboards-built-in-analytics-for-postgres-users)
+- [Choosing the Right Dashboard](#choosing-the-right-dashboard)
+- [Building Dashboard Habits That Work Remotely](#building-dashboard-habits-that-work-remotely)
+- [Building Your First Growth Dashboard](#building-your-first-growth-dashboard)
+- [Advanced Metric Definitions for Growth Teams](#advanced-metric-definitions-for-growth-teams)
+- [DAU (Daily Active Users)](#dau-daily-active-users)
+- [Conversion Rate (Signup to Paid)](#conversion-rate-signup-to-paid)
+- [Churn Rate](#churn-rate)
+- [LTV (Lifetime Value)](#ltv-lifetime-value)
+- [Connecting Dashboards to Decision-Making](#connecting-dashboards-to-decision-making)
+- [Weekly Metrics Review](#weekly-metrics-review)
+- [Monthly Business Review](#monthly-business-review)
+- [Avoiding Common Growth Team Dashboard Mistakes](#avoiding-common-growth-team-dashboard-mistakes)
+- [Scaling the Dashboard as You Grow](#scaling-the-dashboard-as-you-grow)
+- [Real-World Implementation Timeline](#real-world-implementation-timeline)
+
 ## What a Four-Person Remote Growth Team Actually Needs
 
 Before examining tools, clarify what your team actually needs. A remote growth team of four usually operates with someone focused on top-of-funnel acquisition, another on product-led growth and onboarding, a third on engagement and retention, and a fourth owning monetization and experiments. Each persona needs different data views, but they all share common requirements: low-latency data refresh, collaborative annotation, and programmable data pipelines.
@@ -386,11 +407,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
-- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
-- [Remote Team Financial Dashboard Tool for CFO](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
-- [Upload to your analytics backend](/remote-work-tools/best-occupancy-analytics-platform-for-hybrid-offices-trackin/)
-- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
-
+- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Measuring Remote Team Alignment](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

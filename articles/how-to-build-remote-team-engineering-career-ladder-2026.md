@@ -18,6 +18,19 @@ intent-checked: true
 
 ## Overview
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Why Remote Teams Need Explicit Career Ladders](#why-remote-teams-need-explicit-career-ladders)
+- [Career Ladder Framework](#career-ladder-framework)
+- [Detailed Level Rubric](#detailed-level-rubric)
+- [Compensation Bands (2026 Market Rates)](#compensation-bands-2026-market-rates)
+- [Promotion Process (Quarterly Calibration)](#promotion-process-quarterly-calibration)
+- [Promotion Packet: Jane Smith (Mid-Level → Senior Engineer)](#promotion-packet-jane-smith-mid-level-senior-engineer)
+- [Remote-Specific Challenges + Solutions](#remote-specific-challenges-solutions)
+- [Detailed Role Descriptions (Example: Senior Engineer)](#detailed-role-descriptions-example-senior-engineer)
+- [Promotion Frequency + Ratios](#promotion-frequency-ratios)
+
 Career progression is harder to assess in remote teams. Without in-office visibility, junior engineers feel invisible; seniors question their value. Clear career ladders solve this. This guide provides a repeatable framework for building transparent, fair engineering career paths across distributed teams, with specific promotion criteria and calibration playbooks.
 
 ## Why Remote Teams Need Explicit Career Ladders
@@ -278,27 +291,27 @@ Adjustments:
 **Responsibilities:**
 
 1. **Technical Ownership (40%)**
-   - Own 2–3 systems end-to-end (architecture, reliability, performance)
-   - Write RFCs for major changes; lead architecture reviews
-   - Take on-call for critical systems
-   - Mentor code, propose refactors for team scalability
+ - Own 2–3 systems end-to-end (architecture, reliability, performance)
+ - Write RFCs for major changes; lead architecture reviews
+ - Take on-call for critical systems
+ - Mentor code, propose refactors for team scalability
 
 2. **Mentorship (30%)**
-   - Formally mentor 2–3 engineers
-   - Weekly 1:1 pairing or code review sessions
-   - Help juniors debug complex issues
-   - Document patterns, best practices
+ - Formally mentor 2–3 engineers
+ - Weekly 1:1 pairing or code review sessions
+ - Help juniors debug complex issues
+ - Document patterns, best practices
 
 3. **Collaboration (20%)**
-   - Participate in hiring (screens, interviews)
-   - Drive cross-team initiatives
-   - Lead technical discussions, estimation
-   - Communicate status + blockers proactively
+ - Participate in hiring (screens, interviews)
+ - Drive cross-team initiatives
+ - Lead technical discussions, estimation
+ - Communicate status + blockers proactively
 
 4. **Growth (10%)**
-   - Level up technical skills (new languages, systems)
-   - Contribute to company knowledge (docs, tech talks, handbook)
-   - Explore new technologies
+ - Level up technical skills (new languages, systems)
+ - Contribute to company knowledge (docs, tech talks, handbook)
+ - Explore new technologies
 
 **Success Metrics:**
 - Shipped 2–4 major features per quarter
@@ -340,13 +353,11 @@ A: Career ladders support this. L4/L5 is pure IC; no management required.
 
 ## Related Articles
 
-- [Best Tools for Remote Team Design System Documentation 2026](/remote-work-tools)
-- [Remote Team Compensation Benchmarking 2026](/remote-work-tools)
-- [Engineering Org Scaling Patterns](/remote-work-tools)
-- [Async Code Review Best Practices](/remote-work-tools)
-
----
-
+- [How to Create Remote Team Career Ladder Documentation](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [Remote Employee Career Development Plan Template](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
+- [How to Create Remote Team Promotion Criteria Transparent](/remote-work-tools/how-to-create-remote-team-promotion-criteria-transparent-and/)
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

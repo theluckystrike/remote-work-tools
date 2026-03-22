@@ -17,6 +17,25 @@ voice-checked: true
 
 When you're on back-to-back video calls in an open office, your keyboard noise becomes a shared experience with your entire team. That satisfying mechanical click that you love at home suddenly feels inappropriate when your teammates are trying to focus on a product demo or code review. Finding the right quiet keyboard isn't about sacrificing typing feel—it's about choosing tools that work for collaborative environments.
 
+## Table of Contents
+
+- [Understanding Keyboard Noise Sources](#understanding-keyboard-noise-sources)
+- [Mechanical Switches Designed for Quiet Operation](#mechanical-switches-designed-for-quiet-operation)
+- [Membrane and Low-Profile Alternatives](#membrane-and-low-profile-alternatives)
+- [Keyboard Modifications for Noise Reduction](#keyboard-modifications-for-noise-reduction)
+- [Configuration Tips for Shared Workspaces](#configuration-tips-for-shared-workspaces)
+- [Product Recommendations by Budget and Preference](#product-recommendations-by-budget-and-preference)
+- [Noise Level Comparison](#noise-level-comparison)
+- [Customization Strategies for Existing Mechanical Keyboards](#customization-strategies-for-existing-mechanical-keyboards)
+- [Making the Switch](#making-the-switch)
+- [Extended Adjustment Strategies](#extended-adjustment-strategies)
+- [Team Dynamics Around Keyboard Noise](#team-dynamics-around-keyboard-noise)
+- [When Quiet Keyboards Aren't Enough](#when-quiet-keyboards-arent-enough)
+- [Keyboard Choice by Role and Use Case](#keyboard-choice-by-role-and-use-case)
+- [Budget Allocation Over Time](#budget-allocation-over-time)
+- [Keyboard Maintenance and Longevity](#keyboard-maintenance-and-longevity)
+- [Testing Keyboards Before You Buy](#testing-keyboards-before-you-buy)
+
 This guide covers the keyboard options that keep you productive while being considerate to those around you. We'll look at mechanical switches designed for quiet operation, alternative keyboard designs, and practical configurations you can apply today.
 
 ## Understanding Keyboard Noise Sources
@@ -294,10 +313,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Best Mechanical Keyboard for Remote Developers](/remote-work-tools/best-mechanical-keyboard-for-remote-developers-quiet-switches-2026/)
-- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
-
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
+- [Best Remote Work Mechanical Keyboard 2026](/remote-work-tools/best-remote-work-mechanical-keyboard-2026/)
+- [How to Reduce Fan Noise from Desktop PC During Video Calls](/remote-work-tools/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
+- [Best Mechanical Keyboard for Remote Developers: Discover](/remote-work-tools/best-mechanical-keyboard-for-remote-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

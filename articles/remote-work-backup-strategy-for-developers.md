@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /remote-work-backup-strategy-for-developers/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
@@ -16,6 +16,21 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 
 A developer's backup strategy needs to cover more than documents. Code history lives in git but local work-in-progress, environment configs, credentials managers, and databases need separate protection. This guide builds a 3-2-1 strategy: 3 copies, 2 different media, 1 offsite.
+
+## Table of Contents
+
+- [What Needs Backing Up](#what-needs-backing-up)
+- [Dotfiles: Git as Backup](#dotfiles-git-as-backup)
+- [macOS: Time Machine + rsync Offsite](#macos-time-machine-rsync-offsite)
+- [Linux: Restic to S3/B2](#linux-restic-to-s3b2)
+- [Local Database Backups](#local-database-backups)
+- [Backup Verification (Critical)](#backup-verification-critical)
+- [SSH Keys: Special Handling](#ssh-keys-special-handling)
+- [Cloud Sync Is Not a Backup](#cloud-sync-is-not-a-backup)
+- [Secrets and Environment Files](#secrets-and-environment-files)
+- [Windows and WSL2 Considerations](#windows-and-wsl2-considerations)
+- [Testing Your Full Recovery Scenario](#testing-your-full-recovery-scenario)
+- [Related Reading](#related-reading)
 
 ## What Needs Backing Up
 
@@ -405,9 +420,17 @@ The goal is to know, not guess, how long recovery takes. Teams that have done th
 - [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
 - [How to Set Up MinIO for Team Object Storage](/remote-work-tools/how-to-set-up-minio-team-object-storage/)
 - [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
+- [Podcast Guesting Strategy for Freelance Developers](/remote-work-tools/podcast-guesting-strategy-for-freelance-developers/)
 
 ---
 
+## Related Articles
+
+- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
+- [Manage Dotfiles Across Remote Machines](/remote-work-tools/manage-dotfiles-across-remote-machines/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
+- [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
+- [Git Branching Strategy for Remote Teams](/remote-work-tools/git-branching-strategy-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

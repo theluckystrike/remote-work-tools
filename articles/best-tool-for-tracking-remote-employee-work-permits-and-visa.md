@@ -18,6 +18,22 @@ voice-checked: true
 
 Managing work permits and visa expirations for remote employees across multiple jurisdictions presents a unique challenge. Unlike traditional HR systems focused on a single location, remote teams require tracking documents that expire at different rates, depend on varying legal requirements, and need proactive renewal workflows. This guide explores practical approaches for developers and power users building custom tracking systems or evaluating existing solutions.
 
+## Table of Contents
+
+- [The Core Problem](#the-core-problem)
+- [Building a Custom Tracking System with Python and Notion](#building-a-custom-tracking-system-with-python-and-notion)
+- [Using Airtable for Visual Tracking](#using-airtable-for-visual-tracking)
+- [Enterprise Solutions: Rippling and Deel](#enterprise-solutions-rippling-and-deel)
+- [Key Features Every Tracking System Needs](#key-features-every-tracking-system-needs)
+- [Running Automated Checks in CI/CD](#running-automated-checks-in-cicd)
+- [Choosing Your Approach](#choosing-your-approach)
+- [Tool Comparison Matrix (2026)](#tool-comparison-matrix-2026)
+- [Visa Compliance by Country (Key Requirements to Track)](#visa-compliance-by-country-key-requirements-to-track)
+- [Audit Trail Requirements for Compliance](#audit-trail-requirements-for-compliance)
+- [Integration with HR Systems and Payroll](#integration-with-hr-systems-and-payroll)
+- [International Compliance Considerations](#international-compliance-considerations)
+- [Emergency Response: What to Do When Visa Expiration Is Missed](#emergency-response-what-to-do-when-visa-expiration-is-missed)
+
 ## The Core Problem
 
 When your team spans countries, each employee may hold different visa types with distinct expiration rules. A German employee on a Blue Card has different renewal timelines than a contractor on an H-1B in the US or someone on a working holiday visa in Australia. Missed expirations mean legal non-compliance, potential fines, or worse—employees suddenly unable to work.
@@ -372,10 +388,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 ## Related Articles
 
 - [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
-- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
-- [How to Create Hybrid Work Feedback Loop Collecting Employee](/remote-work-tools/how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/)
-- [Barbados Welcome Stamp Visa for Remote Workers](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
-- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
-
+- [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
+- [Best Compliance Tool for Managing Remote Employees](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
+- [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
+- [Best Tool for Tracking Remote Worker Tax Obligations](/remote-work-tools/best-tool-for-tracking-remote-worker-tax-obligations-across-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -19,6 +19,21 @@ voice-checked: true
 
 Use Koala Samurai or Escape Quest for browser-native escape rooms with 8-50 person scalability and customizable difficulty, or host custom escape rooms using Miro templates if your team wants full control over puzzle design. Choose platforms that work reliably for your team size and offer asynchronous participation options to accommodate different time zones.
 
+## Table of Contents
+
+- [What Technical Teams Need From Virtual Escape Rooms](#what-technical-teams-need-from-virtual-escape-rooms)
+- [Platform Categories for Remote Teams](#platform-categories-for-remote-teams)
+- [Evaluating Platform Capabilities](#evaluating-platform-capabilities)
+- [Practical Implementation Tips](#practical-implementation-tips)
+- [Platform Pricing Comparison](#platform-pricing-comparison)
+- [Detailed Platform Evaluation Framework](#detailed-platform-evaluation-framework)
+- [Evaluation Checklist](#evaluation-checklist)
+- [Running a Successful Event: Detailed Timeline](#running-a-successful-event-detailed-timeline)
+- [Asynchronous Escape Room Strategies](#asynchronous-escape-room-strategies)
+- [Troubleshooting Common Event Issues](#troubleshooting-common-event-issues)
+- [Decision Tree: Which Platform to Choose](#decision-tree-which-platform-to-choose)
+- [Making the Decision](#making-the-decision)
+
 ## What Technical Teams Need From Virtual Escape Rooms
 
 Remote engineering teams have specific requirements that generic team-building platforms often fail to address. You need a solution that handles 8-50 participants reliably, works in browser tabs alongside your daily tools, and provides enough complexity to challenge developers without becoming frustrating.
@@ -291,9 +306,8 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 - [Virtual Escape Room Platforms for Remote Engineering Team](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
 - [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Virtual Offsite Planning Platform for Remote Teams 2026](/remote-work-tools/best-virtual-offsite-planning-platform-for-remote-teams-2026/)
 - [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
-- [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
-- [Virtual Team Building Activities That Developers Actually — Enjoy](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
-
+- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

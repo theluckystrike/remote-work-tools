@@ -18,6 +18,19 @@ voice-checked: true
 
 Remote support teams increasingly seek alternatives to SaaS platforms like Zendesk for their knowledge base needs. Data sovereignty concerns, cost optimization, and customization requirements drive teams to explore self-hosted solutions. This guide covers practical approaches to building and deploying a self-hosted knowledge base tailored for remote support teams.
 
+## Table of Contents
+
+- [Why Self-Hosted Knowledge Bases Matter](#why-self-hosted-knowledge-bases-matter)
+- [Open-Source Knowledge Base Platforms](#open-source-knowledge-base-platforms)
+- [Architecture Patterns for Remote Teams](#architecture-patterns-for-remote-teams)
+- [Content Management Strategies](#content-management-strategies)
+- [Common Issues](#common-issues)
+- [Migration Considerations](#migration-considerations)
+- [Performance and Monitoring](#performance-and-monitoring)
+- [Onboarding Remote Support Agents to the Knowledge Base](#onboarding-remote-support-agents-to-the-knowledge-base)
+- [Knowledge Base Onboarding Steps](#knowledge-base-onboarding-steps)
+- [Content Governance for Distributed Teams](#content-governance-for-distributed-teams)
+
 ## Why Self-Hosted Knowledge Bases Matter
 
 Zendesk provides a strong SaaS solution, but self-hosting offers advantages that matter to technical teams. You retain full control over your data, avoiding vendor lock-in and recurring subscription costs. Custom integrations become straightforward when you own the infrastructure. For teams handling sensitive customer information, self-hosted solutions provide clearer compliance pathways.
@@ -251,10 +264,11 @@ find /backups -mtime +30 -delete
 
 ## Related Articles
 
-- [Best Knowledge Base Platform for Remote Support Team](/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
-- [Best Knowledge Base Tool for Remote Team That Works Offline](/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
-- [Best Tools for Remote Team Knowledge Base 2026](/best-tools-for-remote-team-knowledge-base-2026/)
-
+- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [Best Knowledge Base Tool for Remote Team That Works Offline](/remote-work-tools/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

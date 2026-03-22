@@ -17,6 +17,25 @@ intent-checked: true
 
 Async video messaging replaces endless Zoom calls with focused video walkthroughs recorded once and watched asynchronously. A senior engineer explains a complex feature once on video instead of repeating the same explanation in four different meetings across time zones. This approach scales better, respects people's calendars, and creates permanent documentation.
 
+## Table of Contents
+
+- [Why Async Video Matters](#why-async-video-matters)
+- [Loom](#loom)
+- [Codeshot](#codeshot)
+- [Google Meet Screen Recording + Google Drive](#google-meet-screen-recording-google-drive)
+- [Microsoft Stream](#microsoft-stream)
+- [Building an Async Video Workflow](#building-an-async-video-workflow)
+- [Opening (30 seconds)](#opening-30-seconds)
+- [Context (1-2 minutes)](#context-1-2-minutes)
+- [Main Explanation (3-5 minutes)](#main-explanation-3-5-minutes)
+- [Conclusion (30 seconds)](#conclusion-30-seconds)
+- [Post-Recording](#post-recording)
+- [Architecture Overview](#architecture-overview)
+- [Comparison Matrix](#comparison-matrix)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Measuring Impact](#measuring-impact)
+- [Recommendation by Company Stage](#recommendation-by-company-stage)
+
 This guide evaluates leading async video tools and shows how to integrate them into your team's workflow to eliminate unnecessary synchronous meetings.
 
 ## Why Async Video Matters
@@ -350,11 +369,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
-- [Async Team Building Activities for Distributed Teams Across](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Best Async Video Messaging Tools for Remote Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-remote-teams-2026/)
 - [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
-
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [How to Move from Loom to Claap for Remote Team Async Video](/remote-work-tools/how-to-move-from-loom-to-claap-for-remote-team-async-video-m/)
+- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

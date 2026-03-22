@@ -220,6 +220,13 @@ Views to create:
 ### Context
 [What is the situation and why is a decision needed?]
 
+## Table of Contents
+
+- [Comparison](#comparison)
+- [The Right Choice](#the-right-choice)
+- [Running the Async Review Process](#running-the-async-review-process)
+- [Related Reading](#related-reading)
+
 ### Options Considered
 Option A: ...
 Option B: ...
@@ -284,8 +291,16 @@ The most common gap in ADR processes is step 4 — dissent gets handled in Slack
 - [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
 - [Async Decision Making with RFC Documents for Engineering Teams](/async-decision-making-with-rfc-documents-for-engineering-tea/)
 - [Async Engineering Proposal Process Using GitHub Discussions](/async-engineering-proposal-process-using-github-discussions-/)
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
 ---
 
+## Related Articles
+
+- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
+- [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

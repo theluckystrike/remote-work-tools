@@ -17,6 +17,28 @@ voice-checked: true
 
 Coordinating daily standups across nine mobile developers working in different time zones creates unnecessary friction. Most teams default to synchronous meetings because that's what they've always done, but an async standup format for a remote mobile dev team of 9 can actually improve communication quality while respecting everyone's time and timezone differences.
 
+## Table of Contents
+
+- [Why Async Standups Work for Mobile Teams](#why-async-standups-work-for-mobile-teams)
+- [Structuring Your Async Standup](#structuring-your-async-standup)
+- [[Date] Update](#date-update)
+- [Recommended Tools](#recommended-tools)
+- [Implementation Workflow](#implementation-workflow)
+- [Mobile-Specific Considerations](#mobile-specific-considerations)
+- [Example Daily Update](#example-daily-update)
+- [2026-03-16 Update](#2026-03-16-update)
+- [Timezone Distribution Strategy](#timezone-distribution-strategy)
+- [Measuring Success](#measuring-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Tool Recommendations for Nine-Person Teams](#tool-recommendations-for-nine-person-teams)
+- [Running Effective Standup Reviews](#running-effective-standup-reviews)
+- [Weekly Blocker Summary - Week of March 16](#weekly-blocker-summary-week-of-march-16)
+- [Handling Nine People Across Time Zones](#handling-nine-people-across-time-zones)
+- [Scaling Beyond Nine People](#scaling-beyond-nine-people)
+- [Review vs. Just-in-Time Communication](#review-vs-just-in-time-communication)
+- [Handling Async Standup in Peak Crunch Periods](#handling-async-standup-in-peak-crunch-periods)
+- [Example: 9-Person Mobile Team Weekly Standup Cycle](#example-9-person-mobile-team-weekly-standup-cycle)
+
 This guide provides a practical implementation of async standups specifically tailored for a nine-person mobile development team.
 
 ## Why Async Standups Work for Mobile Teams
@@ -357,11 +379,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Practice for Hybrid Team Standup Format Accommodating M](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
 - [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
+- [Best Practice for Hybrid Team Standup Format Accommodating M](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
 - [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-- [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
-- [GeekBot vs Standuply: Async Standup Tools Compared](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

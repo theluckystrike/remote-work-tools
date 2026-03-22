@@ -18,6 +18,23 @@ voice-checked: true
 
 Remote system design sessions require whiteboarding tools that handle complex architecture diagrams, support real-time collaboration across time zones, and integrate with your existing workflow. After testing the leading options throughout 2025 and early 2026, here's a practical comparison for architects running distributed design sessions.
 
+## Table of Contents
+
+- [What Remote Architects Need from Whiteboarding Tools](#what-remote-architects-need-from-whiteboarding-tools)
+- [Excalidraw: The Developer-Favorite Choice](#excalidraw-the-developer-favorite-choice)
+- [Miro: Enterprise-Grade Collaboration](#miro-enterprise-grade-collaboration)
+- [Mermaid.js: Code-First Diagramming](#mermaidjs-code-first-diagramming)
+- [Figma: Design-to-Architecture Workflow](#figma-design-to-architecture-workflow)
+- [Comparing the Options](#comparing-the-options)
+- [Practical Recommendation for Remote Architecture Teams](#practical-recommendation-for-remote-architecture-teams)
+- [Running Effective Remote System Design Sessions](#running-effective-remote-system-design-sessions)
+- [Workflow Integration: From Sketch to Production](#workflow-integration-from-sketch-to-production)
+- [Caching Architecture Design](#caching-architecture-design)
+- [Keyboard Shortcuts That Save Time](#keyboard-shortcuts-that-save-time)
+- [Handling Large Architecture Diagrams](#handling-large-architecture-diagrams)
+- [Collaborating Across Time Zones](#collaborating-across-time-zones)
+- [Versioning Architecture Diagrams](#versioning-architecture-diagrams)
+
 ## What Remote Architects Need from Whiteboarding Tools
 
 System design sessions differ from typical brainstorming. You need precise diagramming capabilities for:
@@ -335,11 +352,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
+- [Best Tools for Remote Team Architecture Reviews 2026](/remote-work-tools/best-tools-for-remote-team-architecture-reviews-2026/)
 - [Best Remote Collaboration Tool for Technical Architects](/remote-work-tools/best-remote-collaboration-tool-for-technical-architects-docu/)
-- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
-- [Buddy System for Onboarding Remote Junior Developers Guide](/remote-work-tools/buddy-system-for-onboarding-remote-junior-developers-guide/)
-- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
-- [Install Storybook for your design system package](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
-
+- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
+- [Best Tools for Remote Design System Management](/remote-work-tools/best-tools-remote-design-system-management/)
+- [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,20 @@ voice-checked: true
 
 Remote engineering teams need async standups that respect time zones, reduce meeting fatigue, and surface blockers before they become problems. Standup bots automate the daily check-in process, collecting updates via chat platforms and presenting them in digestible formats. This guide compares the leading options across features, pricing, integrations, and implementation complexity.
 
+## Table of Contents
+
+- [Why Standup Bots Matter for Distributed Teams](#why-standup-bots-matter-for-distributed-teams)
+- [GeekBot: The Veteran Option](#geekbot-the-veteran-option)
+- [Standuply: Feature-Rich and Flexible](#standuply-feature-rich-and-flexible)
+- [Cyclops: Lightweight and Open Source](#cyclops-lightweight-and-open-source)
+- [DailyStandup: Simple and Focused](#dailystandup-simple-and-focused)
+- [Comparing the Options](#comparing-the-options)
+- [Detailed Pricing Breakdown](#detailed-pricing-breakdown)
+- [Real-World Deployment Scenarios](#real-world-deployment-scenarios)
+- [Advanced Configuration Examples](#advanced-configuration-examples)
+- [Implementation Recommendations by Team Size and Maturity](#implementation-recommendations-by-team-size-and-maturity)
+- [Making Async Standups Work](#making-async-standups-work)
+
 ## Why Standup Bots Matter for Distributed Teams
 
 Traditional daily standups work poorly across time zones. Someone always joins late at night or early morning, context gets lost in real-time chatter, and the meeting eats into deep work time. Standup bots solve this by letting engineers answer questions on their own schedule, typically through Slack or Teams. The bot then compiles responses into a thread or dashboard that the whole team reads asynchronously.
@@ -269,11 +283,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
+- [Remote Team Standup Automation Bot Comparison: Geekbot vs](/remote-work-tools/remote-team-standup-automation-bot-comparison-geekbot-vs-sta/)
 - [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [Best Chat Platforms for Remote Engineering Teams](/remote-work-tools/best-chat-platforms-remote-engineering-teams/)
-- [Best GitBook Alternative for Remote Engineering Teams](/remote-work-tools/best-gitbook-alternative-for-remote-engineering-teams-publis/)
-- [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
-
+- [Best Tools for Remote Team Standup Meetings 2026](/remote-work-tools/best-tools-for-remote-team-standup-meetings-2026/)
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

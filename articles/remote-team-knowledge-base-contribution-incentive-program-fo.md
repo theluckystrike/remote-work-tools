@@ -18,6 +18,26 @@ voice-checked: true
 
 Create a knowledge base contribution program that incentivizes documentation through recognition, rewards, or learning time allocations, making contribution frictionless via simple templates, and celebrating high-quality submissions publicly. Incentives shift knowledge management from a burden to a valued activity.
 
+## Table of Contents
+
+- [The Problem with Unstructured Knowledge Sharing](#the-problem-with-unstructured-knowledge-sharing)
+- [Designing Your Incentive Program Structure](#designing-your-incentive-program-structure)
+- [Sample Promotion Criteria: Senior Engineer](#sample-promotion-criteria-senior-engineer)
+- [Implementation Strategies That Actually Work](#implementation-strategies-that-actually-work)
+- [Quick Start](#quick-start)
+- [Common Issues](#common-issues)
+- [Measuring Success](#measuring-success)
+- [Avoiding Common Pitfalls](#avoiding-common-pitfalls)
+- [Implementation Timeline](#implementation-timeline)
+- [Measuring Program Success: Beyond Vanity Metrics](#measuring-program-success-beyond-vanity-metrics)
+- [Real Examples: What's Working](#real-examples-whats-working)
+- [Advanced Strategies for Mature Programs](#advanced-strategies-for-mature-programs)
+- [Real Incentive Program Examples](#real-incentive-program-examples)
+- [Addressing Common Objections](#addressing-common-objections)
+- [Preventing Program Fatigue](#preventing-program-fatigue)
+- [Team Maturity and Program Design](#team-maturity-and-program-design)
+- [Measuring Program Impact: Beyond Metrics](#measuring-program-impact-beyond-metrics)
+
 ## The Problem with Unstructured Knowledge Sharing
 
 Remote teams lose the informal knowledge transfer that happens in physical offices. When someone discovers a solution to a tricky bug or learns a new tool, that knowledge stays in their head unless you create systems that make sharing the default behavior. A well-designed incentive program addresses the core issues: time constraints, lack of recognition, and unclear expectations.
@@ -382,10 +402,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
-- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
-- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
-- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
-- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
-
+- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
+- [Self-Hosted Knowledge Base for Remote Support Team](/remote-work-tools/self-hosted-knowledge-base-for-remote-support-team-replacing/)
+- [Remote Employee Belonging and Inclusion Program Ideas](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

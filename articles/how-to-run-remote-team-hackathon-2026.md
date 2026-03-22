@@ -10,22 +10,29 @@ permalink: /how-to-run-remote-team-hackathon-2026/
 description: "Follow this guide to how to run remote team hackathon 2026 with practical examples, tips, and step-by-step instructions for getting the best results."
 tags: [remote-work-tools, remote-work]
 ---
----
-title: "How to Run a Remote Team Hackathon 2026"
-date: 2026-03-21
-author: "Remote Work Tools Guide"
-reviewed: true
-score: 9
-voice-checked: true
-intent-checked: true
-permalink: /how-to-run-remote-team-hackathon-2026/
-description: "Follow this guide to how to run remote team hackathon 2026 with practical examples, tips, and step-by-step instructions for getting the best results."
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
 Remote hackathons are high-energy events where distributed teams compete to ship features, fixes, or side projects in 24-72 hours. Unlike in-person hackathons with energy from physical proximity, remote versions require deliberate structure: clear judging criteria, persistent communication channels, and async-friendly formats. This guide covers the complete playbook.
+
+## Table of Contents
+
+- [Why Run a Remote Hackathon?](#why-run-a-remote-hackathon)
+- [Pre-Hackathon Planning (4 Weeks Out)](#pre-hackathon-planning-4-weeks-out)
+- [Hackathon Schedule (48-Hour Example)](#hackathon-schedule-48-hour-example)
+- [Judging Rubric](#judging-rubric)
+- [Tooling Setup](#tooling-setup)
+- [Team: [Names]](#team-names)
+- [What we built](#what-we-built)
+- [How to try it](#how-to-try-it)
+- [Technical approach](#technical-approach)
+- [What we learned](#what-we-learned)
+- [If we had more time](#if-we-had-more-time)
+- [Real Example: Slack Bot Hackathon](#real-example-slack-bot-hackathon)
+- [Common Failures and Fixes](#common-failures-and-fixes)
+- [Async Hacks for Distributed Teams](#async-hacks-for-distributed-teams)
+- [Post-Hackathon (2 Days After)](#post-hackathon-2-days-after)
+- [Hackathon Ideas Bank](#hackathon-ideas-bank)
 
 ## Why Run a Remote Hackathon?
 
@@ -395,10 +402,11 @@ Rotating themes keep it fresh.
 
 ## Related Articles
 
-- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [How to Run Book Clubs for a Remote Engineering Team of 40](/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
-- [How to Run Remote Developer Hackathon for Distributed](/how-to-run-remote-developer-hackathon-for-distributed-engine/)
-
+- [How to Run Remote Developer Hackathon for Distributed](/remote-work-tools/how-to-run-remote-developer-hackathon-for-distributed-engine/)
+- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

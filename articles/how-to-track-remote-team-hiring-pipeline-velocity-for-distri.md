@@ -18,6 +18,21 @@ tags: [remote-work-tools, remote-work]
 
 Track remote team hiring pipeline velocity by measuring time-to-first-contact, stage transition times, scheduling deltas, and offer acceptance ratios—using SQL queries and automation to identify timezone-related bottlenecks. Distributed hiring pipelines should complete in 21-28 days end-to-end; exceeding this reveals process friction that async assessment stages and timezone-aware scheduling can fix.
 
+## Table of Contents
+
+- [What Is Pipeline Velocity?](#what-is-pipeline-velocity)
+- [Building a Pipeline Tracker](#building-a-pipeline-tracker)
+- [Key Metrics for Distributed Hiring](#key-metrics-for-distributed-hiring)
+- [Implementing Velocity Tracking](#implementing-velocity-tracking)
+- [Automating Velocity Alerts](#automating-velocity-alerts)
+- [Visualizing the Pipeline](#visualizing-the-pipeline)
+- [Optimizing for Remote Velocity](#optimizing-for-remote-velocity)
+- [Candidate Handoff: Jane Doe](#candidate-handoff-jane-doe)
+- [Comparing ATS Tools for Distributed Hiring Velocity](#comparing-ats-tools-for-distributed-hiring-velocity)
+- [Detecting Timezone Bottlenecks Programmatically](#detecting-timezone-bottlenecks-programmatically)
+- [Building a Pipeline Velocity Scorecard](#building-a-pipeline-velocity-scorecard)
+- [Measuring Success](#measuring-success)
+
 
 Tracking hiring pipeline velocity becomes critical when your recruiting team spans multiple time zones. Unlike co-located teams, distributed recruiting teams face unique challenges: asynchronous communication, timezone gaps, and coordination overhead that can silently slow down hiring. This guide shows you how to measure, visualize, and improve pipeline velocity for remote hiring.
 
@@ -292,11 +307,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Remote Team Story Point Velocity Trend Analysis Tool](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
 - [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Remote Team Financial Dashboard Tool for CFO](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
-- [Remote Team Story Point Velocity Trend Analysis Tool for](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
-
+- [How to Secure Remote Team CI/CD Pipeline From Supply Chain](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
+- [Remote Team Deployment Pipeline Best Practices](/remote-work-tools/remote-team-deployment-pipeline-best-practices/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

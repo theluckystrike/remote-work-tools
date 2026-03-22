@@ -18,6 +18,20 @@ intent-checked: true
 
 Choose Brain.fm if you prefer structured, research-backed instrumental music with consistent patterns for coding sessions ($6.99/month). Choose Endel if you want adaptive atmospheric soundscapes that shift based on time of day, weather, and wearable data ($5.99/month). Brain.fm generates predictable electronic compositions that condition your brain for focus over time, while Endel creates evolving ambient environments using synthesis and natural sounds.
 
+## Table of Contents
+
+- [Platform Overview](#platform-overview)
+- [Audio Generation Technology](#audio-generation-technology)
+- [Developer Features and Integrations](#developer-features-and-integrations)
+- [Pricing Structure](#pricing-structure)
+- [Practical Considerations for Developers](#practical-considerations-for-developers)
+- [Which Should You Choose?](#which-should-you-choose)
+- [Research Behind Focus Music](#research-behind-focus-music)
+- [Developer Testimonials](#developer-testimonials)
+- [Setup Workflows for Different Preferences](#setup-workflows-for-different-preferences)
+- [Measuring Your Productivity Improvement](#measuring-your-productivity-improvement)
+- [Budget Decision Framework](#budget-decision-framework)
+
 ## Platform Overview
 
 **Brain.fm** uses patented "functional music" technology backed by research partnerships with academic institutions. The service generates audio that synchronizes with neural patterns, theoretically promoting specific mental states like focus, relaxation, or sleep. The algorithm produces music rather than selecting from a static playlist.
@@ -366,10 +380,9 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 ## Related Articles
 
 - [Best Music for Coding and Focus: A Developer's Guide](/remote-work-tools/best-music-for-coding-and-focus/)
-- [How to Set Up Second Brain for Developers](/remote-work-tools/how-to-set-up-second-brain-for-developers/)
-- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
-- [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
+- [How to Create Team Agreements Around Meeting-Free Focus Time](/remote-work-tools/how-to-create-team-agreements-around-meeting-free-focus-time/)
 - [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
-
+- [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
+- [Jitsi Meet vs Zoom: Privacy Comparison for Developers](/remote-work-tools/jitsi-meet-vs-zoom-privacy-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

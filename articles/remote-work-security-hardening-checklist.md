@@ -13,25 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, security, remote-work]
 ---
----
-layout: default
-title: "Remote Work Security Hardening Checklist"
-description: "Security hardening checklist for remote workers: SSH key setup, MFA, disk encryption, DNS-over-HTTPS, secrets management, and network security for developers."
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: theluckystrike
-permalink: /remote-work-security-hardening-checklist/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, security, remote-work]
----
 
 {% raw %}
 
 Remote work expands your attack surface. Your home network, personal laptop, and public WiFi hotspots are all less controlled than a corporate office environment. This checklist covers the practical security hardening steps every remote developer should have in place, with commands to verify and implement each one.
+
+## Table of Contents
+
+- [SSH Key Security](#ssh-key-security)
+- [Multi-Factor Authentication (MFA)](#multi-factor-authentication-mfa)
+- [Disk Encryption](#disk-encryption)
+- [Firewall Configuration](#firewall-configuration)
+- [DNS-over-HTTPS (DoH)](#dns-over-https-doh)
+- [Secrets Management](#secrets-management)
+- [Public WiFi Precautions](#public-wifi-precautions)
+- [Security Audit Script](#security-audit-script)
 
 ## SSH Key Security
 
@@ -355,11 +351,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
-- [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
-- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
-- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
-
+- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

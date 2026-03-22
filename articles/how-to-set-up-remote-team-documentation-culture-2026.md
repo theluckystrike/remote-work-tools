@@ -17,6 +17,38 @@ tags: [remote-work-tools, documentation, async-communication, knowledge-manageme
 
 Remote teams without documentation default to synchronous communication. Someone asks a question on Slack, a colleague responds, the answer disappears in chat history. Six months later, a new hire asks the same question and gets a different answer. Documentation-first culture prevents this—decisions, processes, and knowledge live in searchable repositories, not ephemeral chat. This guide covers implementation, tools, templates, and the async decision-making patterns that make documentation sustainable.
 
+## Table of Contents
+
+- [Why Documentation Failures Happen in Remote Teams](#why-documentation-failures-happen-in-remote-teams)
+- [Core Documentation System Architecture](#core-documentation-system-architecture)
+- [Tool Recommendations by Use Case](#tool-recommendations-by-use-case)
+- [Database Views:](#database-views)
+- [Permissions:](#permissions)
+- [API Design Decisions](#api-design-decisions)
+- [File structure:](#file-structure)
+- [Documentation Templates](#documentation-templates)
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Related Decisions](#related-decisions)
+- [Prerequisites](#prerequisites)
+- [Pre-Deployment Checklist](#pre-deployment-checklist)
+- [Deployment Steps](#deployment-steps)
+- [Rollback Procedure (if needed)](#rollback-procedure-if-needed)
+- [Verification](#verification)
+- [Troubleshooting](#troubleshooting)
+- [Week 1: Environment & Access](#week-1-environment-access)
+- [Week 2: First Feature](#week-2-first-feature)
+- [Week 3-4: Autonomy](#week-3-4-autonomy)
+- [End of Month Evaluation](#end-of-month-evaluation)
+- [Building Async Decision-Making](#building-async-decision-making)
+- [Maintaining Documentation (The Hardest Part)](#maintaining-documentation-the-hardest-part)
+- [Real-World Setup Timeline](#real-world-setup-timeline)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Integration with Slack](#integration-with-slack)
+
 ## Why Documentation Failures Happen in Remote Teams
 
 Most teams understand documentation matters. They fail in execution because:
@@ -169,8 +201,8 @@ docker push 12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3
 ### 2. Update Kubernetes Deployment
 ```bash
 kubectl set image deployment/myservice \
-  myservice=12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3 \
-  -n production
+ myservice=12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3 \
+ -n production
 ```
 
 ### 3. Monitor Rollout
@@ -384,11 +416,10 @@ This makes help passive—docs surface when people naturally ask questions.
 
 ## Related Articles
 
-- [Remote Team Async Communication Best Practices](/remote-team-async-communication-best-practices-2026/)
-- [Building Effective Remote Team Knowledge Bases](/remote-team-knowledge-bases-2026/)
-- [How to Conduct Effective Async Code Reviews](/async-code-reviews-best-practices-2026/)
-- [Setting Up Remote Team Wikis and FAQs](/remote-team-wikis-faqs-2026/)
-- [Remote Team Decision-Making Frameworks](/remote-team-decision-making-frameworks-2026/)
-
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [How to Build Remote Team Documentation Culture Guide](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
+- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

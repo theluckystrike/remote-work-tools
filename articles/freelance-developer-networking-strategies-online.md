@@ -197,6 +197,20 @@ Effective freelance developer networking combines strategic presence, genuine co
 
 ## Frequently Asked Questions
 
+## Table of Contents
+
+- [Networking Metrics That Matter](#networking-metrics-that-matter)
+- [Content Strategy for Developer Networking](#content-strategy-for-developer-networking)
+- [12-Month Content Plan for Freelance Developer](#12-month-content-plan-for-freelance-developer)
+- [Building a Personal Brand as a Freelancer](#building-a-personal-brand-as-a-freelancer)
+- [Systematizing Network Maintenance](#systematizing-network-maintenance)
+- [Networking for Different Freelance Specialties](#networking-for-different-freelance-specialties)
+- [Outreach Message Templates That Work](#outreach-message-templates-that-work)
+- [Template 1: Re-engagement (Someone you used to know)](#template-1-re-engagement-someone-you-used-to-know)
+- [Template 2: Community connection (Someone from a community you participate in)](#template-2-community-connection-someone-from-a-community-you-participate-in)
+- [Template 3: Referral follow-up](#template-3-referral-follow-up)
+- [Paid Outreach vs Organic Networking](#paid-outreach-vs-organic-networking)
+
 **Are there any hidden costs I should know about?**
 
 Watch for overage charges, API rate limit fees, and costs for premium features not included in base plans. Some tools charge extra for storage, team seats, or advanced integrations. Read the full pricing page including footnotes before signing up.
@@ -526,11 +540,10 @@ as secondary if you want more leads. Most successful freelancers
 
 ## Related Articles
 
-- [Best Tools for Managing Client Contracts Invoices Freelance](/remote-work-tools/best-tools-for-managing-client-contracts-invoices-freelance-developer/)
-- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
-- [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
-- [Freelance Developer Portfolio Website Builders 2026](/remote-work-tools/freelance-developer-portfolio-website-builders-2026/)
-- [Freelance Developer to Product Builder Transition: A](/remote-work-tools/freelance-developer-to-product-builder-transition/)
-
+- [Nomad Networking Events Guide 2026](/remote-work-tools/nomad-networking-events-guide-2026/)
+- [Slack Communities for Freelance Remote Developers](/remote-work-tools/slack-communities-for-freelance-remote-developers/)
+- [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
+- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
+- [SaaS Side Project Guide for Freelance Developers](/remote-work-tools/saas-side-project-guide-for-freelance-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -333,9 +333,17 @@ nginx -t && systemctl reload nginx
 - [How to Set Up Traefik Reverse Proxy](/remote-work-tools/how-to-set-up-traefik-reverse-proxy/)
 - [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
 - [How to Create Automated Status Pages](/remote-work-tools/how-to-create-automated-status-pages/)
+- [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
 
 ---
 
+## Related Articles
+
+- [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
+- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
+- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
+- [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
+- [Bermuda Work From Bermuda Certificate](/remote-work-tools/bermuda-work-from-bermuda-certificate-application-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

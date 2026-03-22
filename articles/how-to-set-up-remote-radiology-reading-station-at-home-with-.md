@@ -18,6 +18,13 @@ score: 8
 
 A compliant home radiology reading station requires medical-grade DICOM displays (5-6MP), dedicated GPU hardware (NVIDIA RTX 4090 recommended), symmetric fiber internet (100+ Mbps), and HIPAA-compliant VPN access to hospital PACS servers. Display calibration must meet American College of Radiology standards, and full-disk encryption protects patient data during transmission. This guide provides the complete technical foundation for building a production-ready remote radiology reading workstation.
 
+## Table of Contents
+
+- [Understanding the Technical Requirements](#understanding-the-technical-requirements)
+- [Prerequisites](#prerequisites)
+- [Security and Compliance](#security-and-compliance)
+- [Troubleshooting](#troubleshooting)
+
 ## Understanding the Technical Requirements
 
 A remote radiology workstation must meet clinical-grade standards for diagnostic accuracy. The American College of Radiology (ACR) establishes guidelines that apply equally to hospital-based and home installations. Your setup must support primary diagnosis capabilities, maintain HIPAA compliance, and integrate smoothly with your facility's PACS infrastructure.
@@ -272,10 +279,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [Remote Work VoIP Setup for Home Offices](/remote-work-tools/remote-work-voip-setup-for-home-offices/)
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
+- [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
 - [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [How to Set Up Home Office in Bali Rental Apartment with](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
-- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
-- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

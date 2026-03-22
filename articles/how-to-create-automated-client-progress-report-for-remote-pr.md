@@ -19,6 +19,20 @@ voice-checked: true
 
 Automated client progress reports aggregate task completion, sprint metrics, and timeline data without manual compilation, saving hours weekly. You can script reports from Linear, Jira, or GitHub APIs, format them as PDF or email, and schedule weekly/monthly delivery. This guide covers reporting pipeline architecture, template examples, and integrations for remote project teams.
 
+## Table of Contents
+
+- [Understanding the Reporting Pipeline](#understanding-the-reporting-pipeline)
+- [Choosing the Right Data Sources](#choosing-the-right-data-sources)
+- [Building the Data Collection Layer](#building-the-data-collection-layer)
+- [Pulling Data from Linear](#pulling-data-from-linear)
+- [Creating the Report Template](#creating-the-report-template)
+- [Automating Delivery](#automating-delivery)
+- [Scheduling the Automation](#scheduling-the-automation)
+- [Report Format Options: Choosing What Works for Each Client](#report-format-options-choosing-what-works-for-each-client)
+- [Enhancing Reports with Additional Context](#enhancing-reports-with-additional-context)
+- [Security and Access Considerations](#security-and-access-considerations)
+- [Measuring Report Effectiveness](#measuring-report-effectiveness)
+
 ## Understanding the Reporting Pipeline
 
 An automated reporting system consists of three core components:
@@ -323,11 +337,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
+- [Remote Agency Client Data Security Compliance Checklist](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
 - [How to Create Remote Team Compensation Benchmarking Report](/remote-work-tools/how-to-create-remote-team-compensation-benchmarking-report-u/)
-- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
-- [How to Create Asynchronous Client Update Format for Remote P](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
-- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-
+- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
+- [AI Project Status Generator for Remote Teams Pulling](/remote-work-tools/ai-project-status-generator-for-remote-teams-pulling-data-fr/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

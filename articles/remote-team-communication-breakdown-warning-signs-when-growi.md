@@ -18,6 +18,26 @@ voice-checked: true
 
 Remote teams often hit a communication wall around the 15-person mark. Before this threshold, informal chats and ad-hoc synchronization work reasonably well. Beyond it, the same approaches that once functioned smoothly start creating friction, misunderstandings, and lost context. Recognizing the warning signs early prevents productivity loss and team burnout.
 
+## Table of Contents
+
+- [The 15-Person Threshold: Why It Happens](#the-15-person-threshold-why-it-happens)
+- [Warning Sign 1: Response Time Creep](#warning-sign-1-response-time-creep)
+- [Warning Sign 2: Increased Meeting Frequency](#warning-sign-2-increased-meeting-frequency)
+- [Warning Sign 3: Context Fragmentation](#warning-sign-3-context-fragmentation)
+- [Warning Sign 4: Silent Team Members](#warning-sign-4-silent-team-members)
+- [Warning Sign 5: Assumption-Based Coordination](#warning-sign-5-assumption-based-coordination)
+- [Warning Sign 6: Channel Proliferation](#warning-sign-6-channel-proliferation)
+- [Practical Countermeasures](#practical-countermeasures)
+- [Decision Record: [Brief Title]](#decision-record-brief-title)
+- [Detecting Warning Signs: Practical Metrics](#detecting-warning-signs-practical-metrics)
+- [Implementing Fixes: Concrete Steps](#implementing-fixes-concrete-steps)
+- [Response Time Expectations](#response-time-expectations)
+- [Channel Usage](#channel-usage)
+- [Synchronous Meeting Guidelines](#synchronous-meeting-guidelines)
+- [Communication Latency Guidelines](#communication-latency-guidelines)
+- [ADR-042: Migrating from REST to GraphQL](#adr-042-migrating-from-rest-to-graphql)
+- [Measuring Improvement](#measuring-improvement)
+
 This guide helps you identify when your remote team's communication is breaking down and provides actionable strategies to address each symptom before it compounds.
 
 ## The 15-Person Threshold: Why It Happens
@@ -356,11 +376,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
-- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-- [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
-- [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
-
+- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+- [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
+- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

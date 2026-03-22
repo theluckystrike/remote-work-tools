@@ -1,21 +1,6 @@
 ---
 layout: default
-title: "Share with client"
-description: "A technical comparison of client document sharing portals for remote agencies. Features, API access, security, integrations, and implementation"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /client-document-sharing-portal-comparison-for-remote-agencie/
-categories: [comparisons]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
----
-layout: default
-title: "Share with client"
+title: "Client Document Sharing Portals for Remote Teams"
 description: "A technical comparison of client document sharing portals for remote agencies. Features, API access, security, integrations, and implementation"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -32,6 +17,17 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 
 Remote agencies face unique challenges when sharing client deliverables. Unlike in-house teams, you need portals that work across time zones, handle sensitive client data securely, and integrate with your existing development workflow. This comparison evaluates the leading solutions from a developer's perspective—focusing on API capabilities, authentication options, and automation potential.
+
+## Table of Contents
+
+- [Core Requirements for Remote Agency Document Portals](#core-requirements-for-remote-agency-document-portals)
+- [Google Drive: The Flexible Default](#google-drive-the-flexible-default)
+- [Dropbox: The Developer-Friendly Option](#dropbox-the-developer-friendly-option)
+- [Box: Enterprise-Grade Security](#box-enterprise-grade-security)
+- [SharePoint: Microsoft Ecosystem Integration](#sharepoint-microsoft-ecosystem-integration)
+- [Structuring Folders for Multi-Client Agencies](#structuring-folders-for-multi-client-agencies)
+- [Onboarding Clients to Your Chosen Portal](#onboarding-clients-to-your-chosen-portal)
+- [Decision Framework](#decision-framework)
 
 ## Core Requirements for Remote Agency Document Portals
 
@@ -279,11 +275,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Remote Law Firm Client Portal Comparison (2026)](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
-- [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)
-- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
-- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
-- [Clio API authentication](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
-
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
+- [Best Container Registry Tool for Remote Teams Sharing](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
+- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

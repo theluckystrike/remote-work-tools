@@ -18,6 +18,19 @@ intent-checked: true
 
 Remote team performance management requires tools that work asynchronously across time zones. Email-based feedback gets buried; spreadsheets fragment data; annual reviews miss opportunities to course-correct throughout the year. Dedicated performance review platforms centralize feedback, track goals, and provide data-driven insights. For distributed teams, choosing the right platform directly impacts culture and retention.
 
+## Table of Contents
+
+- [Why Remote Teams Need Performance Tools](#why-remote-teams-need-performance-tools)
+- [Lattice: Modern Performance Infrastructure](#lattice-modern-performance-infrastructure)
+- [15Five: Culture and Engagement Focus](#15five-culture-and-engagement-focus)
+- [Culture Amp: Employee Experience Platform](#culture-amp-employee-experience-platform)
+- [BambooHR: All-in-One HR Platform](#bamboohr-all-in-one-hr-platform)
+- [Leapsome: Team Engagement and Development](#leapsome-team-engagement-and-development)
+- [Comparison Matrix](#comparison-matrix)
+- [Choosing by Company Size](#choosing-by-company-size)
+- [Remote-Specific Best Practices](#remote-specific-best-practices)
+- [Implementation Checklist](#implementation-checklist)
+
 ## Why Remote Teams Need Performance Tools
 
 Traditional performance management fails for distributed teams:
@@ -448,11 +461,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Usage: python pip_tracker.py employee-pip.json](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
-- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
-- [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
-- [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
+- [Remote HR Performance Review Tools Comparison for Managing](/remote-work-tools/remote-hr-performance-review-tools-comparison-for-managing-d/)
 - [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
-
+- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [Best Tool for Async Performance Feedback Collection for Dist](/remote-work-tools/best-tool-for-async-performance-feedback-collection-for-dist/)
+- [Remote Employee Performance Improvement Plan Guide](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

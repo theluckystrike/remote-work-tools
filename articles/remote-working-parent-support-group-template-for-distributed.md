@@ -9,7 +9,7 @@ permalink: /remote-working-parent-support-group-template-for-distributed/
 categories: [guides]
 tags: [remote-work-tools, remote-work, parent-support, distributed-teams, community-building, async-communication]
 reviewed: true
-score: 7
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -17,6 +17,35 @@ voice-checked: true
 {% raw %}
 
 Building a genuine support network for working parents in distributed teams requires more than creating a Slack channel and hoping people engage. Successful parent support groups in remote companies combine asynchronous communication patterns, timezone-aware scheduling, and structured peer support systems that respect the unpredictable nature of childcare. This guide provides a template you can adapt for your organization.
+
+## Table of Contents
+
+- [Why Remote Parent Support Groups Work](#why-remote-parent-support-groups-work)
+- [Core Template: Slack Channel Structure](#core-template-slack-channel-structure)
+- [Weekly Async Check-In System](#weekly-async-check-in-system)
+- [Monthly Virtual Coffee Format](#monthly-virtual-coffee-format)
+- [Monthly Virtual Coffee Structure](#monthly-virtual-coffee-structure)
+- [Onboarding New Parents](#onboarding-new-parents)
+- [Welcome to the Parents Channel!](#welcome-to-the-parents-channel)
+- [Handling Sensitive Topics](#handling-sensitive-topics)
+- [Community Guidelines](#community-guidelines)
+- [Metrics for Success](#metrics-for-success)
+- [Template: Emergency Childcare Support Network](#template-emergency-childcare-support-network)
+- [How It Works](#how-it-works)
+- [Emergency Scenarios Covered](#emergency-scenarios-covered)
+- [Resources Shared](#resources-shared)
+- [Example Conversation](#example-conversation)
+- [Quarterly Parent Town Halls](#quarterly-parent-town-halls)
+- [Agenda (60 minutes)](#agenda-60-minutes)
+- [Creating Policy Based on Parent Feedback](#creating-policy-based-on-parent-feedback)
+- [Process](#process)
+- [Example: Async Standup Policy](#example-async-standup-policy)
+- [Potential Areas for Improvement](#potential-areas-for-improvement)
+- [Integration with Company Culture](#integration-with-company-culture)
+- [Scaling as the Group Grows](#scaling-as-the-group-grows)
+- [Stage 1: Startup (< 30 people)](#stage-1-startup-30-people)
+- [Stage 2: Growth (30-100 people)](#stage-2-growth-30-100-people)
+- [Stage 3: Mature (100+ people)](#stage-3-mature-100-people)
 
 ## Why Remote Parent Support Groups Work
 
@@ -360,11 +389,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
-- [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
 - [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
-- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
-
+- [Remote Working Parent Burnout Prevention Checklist](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
+- [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
+- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

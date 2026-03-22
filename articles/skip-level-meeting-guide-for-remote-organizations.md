@@ -18,6 +18,21 @@ voice-checked: true
 
 A skip level meeting is an one-on-one where a senior leader meets directly with individual contributors, bypassing their immediate manager, to surface hidden blockers, gauge team culture, and retain top talent. In remote organizations, hold them monthly for 30 minutes, rotating through ICs so each person gets face time with senior leadership every 2-3 months.
 
+## Table of Contents
+
+- [Why Skip Level Meetings Matter](#why-skip-level-meetings-matter)
+- [Setting Up Your Skip Level Meeting Framework](#setting-up-your-skip-level-meeting-framework)
+- [Running Effective Skip Level Meetings](#running-effective-skip-level-meetings)
+- [Skip Level Meeting Notes - [Date]](#skip-level-meeting-notes-date)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Async Alternatives for Distributed Teams](#async-alternatives-for-distributed-teams)
+- [Measuring Effectiveness](#measuring-effectiveness)
+- [Technology and Tools for Skip Level Meetings](#technology-and-tools-for-skip-level-meetings)
+- [Structured Metrics for Skip Level Programs](#structured-metrics-for-skip-level-programs)
+- [Handling Sensitive Disclosures](#handling-sensitive-disclosures)
+- [Scaling Skip Levels to Large Organizations](#scaling-skip-levels-to-large-organizations)
+- [Building a Culture of Open Communication](#building-a-culture-of-open-communication)
+
 ## Why Skip Level Meetings Matter
 
 Remote work creates communication gaps. When teams are distributed across time zones and communicate primarily through Slack, email, or video calls, important feedback gets filtered or lost. Skip level meetings address three specific problems. ICs often don't share blockers with their direct manager out of fear of appearing incompetent, so hidden issues accumulate. Leadership loses touch with how teams actually operate day-to-day, causing cultural drift. And high performers leave when they feel unheard or unseen by senior leadership.
@@ -300,11 +315,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Remote Team Skip Level Meeting Program As](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
 - [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
-- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
-- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
-
+- [How to Create Remote Team Skip Level Meeting Program](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
+- [How to Run Effective Remote Team Skip Level Meetings 2026](/remote-work-tools/how-to-run-effective-remote-team-skip-level-meetings-2026/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

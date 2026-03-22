@@ -18,6 +18,33 @@ voice-checked: true
 
 Daily standups were designed for co-located teams with short feedback loops. When everyone sits in the same room, a 15-minute morning sync makes sense. For distributed teams spanning multiple time zones, these synchronous meetings often mean someone joins at 7 AM or 9 PM local time—hardly the foundation for sustainable productivity.
 
+## Table of Contents
+
+- [The Core Problem with Synchronous Standups](#the-core-problem-with-synchronous-standups)
+- [Structuring Effective Async Standups](#structuring-effective-async-standups)
+- [Yesterday](#yesterday)
+- [Today](#today)
+- [Blockers](#blockers)
+- [Notes](#notes)
+- [Tools and Platforms](#tools-and-platforms)
+- [Weekly Update - Week of March 16](#weekly-update-week-of-march-16)
+- [Making Async Standups Stick](#making-async-standups-stick)
+- [When Synchronous Check-ins Still Work](#when-synchronous-check-ins-still-work)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Tool Comparison: Platforms for Async Standups](#tool-comparison-platforms-for-async-standups)
+- [Advanced Template Variations](#advanced-template-variations)
+- [Key Metrics](#key-metrics)
+- [Completed](#completed)
+- [In Progress](#in-progress)
+- [Blockers](#blockers)
+- [Shipped Impact](#shipped-impact)
+- [In Motion](#in-motion)
+- [Blocked](#blocked)
+- [Status [Your Timezone - UTC+0]](#status-your-timezone-utc0)
+- [Context for Other Timezones](#context-for-other-timezones)
+- [Measuring Success](#measuring-success)
+- [Implementation Checklist](#implementation-checklist)
+
 Async text updates solve this problem. Instead of gathering everyone simultaneously, team members share their status in writing at a time that works for them. Others read updates when their day begins. This approach respects time zones, preserves deep work blocks, and creates a searchable record of progress.
 
 This guide covers practical strategies for making async standups work for your team.
@@ -265,11 +292,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
-- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
-- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
-- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
+- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
 - [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-
+- [How to Run Remote Engineering Standups That Work](/remote-work-tools/how-to-run-remote-engineering-standups/)
+- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

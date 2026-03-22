@@ -18,6 +18,18 @@ intent-checked: true
 
 Moving to Bali as a remote worker requires careful consideration of one critical factor: internet connectivity. Unlike tourist hotspots with fiber connections, many areas in Bali offer varying levels of reliability. This guide provides practical methods to evaluate internet speed and stability before committing to a relocation.
 
+## Table of Contents
+
+- [Why Internet Reliability Matters More Than Raw Speed](#why-internet-reliability-matters-more-than-raw-speed)
+- [Understanding Bali's Internet Space](#understanding-balis-internet-space)
+- [Essential Speed Test Methods](#essential-speed-test-methods)
+- [Coworking Space Evaluation](#coworking-space-evaluation)
+- [Testing Your Specific Work Tools](#testing-your-specific-work-tools)
+- [Long-Term Monitoring Strategies](#long-term-monitoring-strategies)
+- [Interpreting Your Results](#interpreting-your-results)
+- [Backup Connectivity Planning](#backup-connectivity-planning)
+- [Making the Decision](#making-the-decision)
+
 ## Why Internet Reliability Matters More Than Raw Speed
 
 Speed test results show bandwidth capacity, but reliability determines whether you can maintain a productive workflow. A connection averaging 50 Mbps with consistent latency proves more valuable than 100 Mbps with frequent drops. For remote developers, latency affects git operations, video calls, and collaborative coding sessions. Packet loss and jitter can derail real-time communication tools like Zoom or Slack calls.
@@ -254,11 +266,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
-- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
 - [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
+- [Best Fiber Internet Providers in Lisbon for Remote](/remote-work-tools/best-fiber-internet-providers-in-lisbon-for-remote-developer/)
 - [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
-- [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
-
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
+- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

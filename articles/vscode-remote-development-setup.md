@@ -13,25 +13,17 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "VS Code Remote Development Setup Guide"
-description: "Set up VS Code for remote development over SSH, in containers, and with WSL. Extension configs, settings sync, and dev container workflow for distributed teams"
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: theluckystrike
-permalink: /vscode-remote-development-setup/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
 VS Code's Remote Development extensions let you run your editor UI locally while the code, terminal, debugger, and extensions all run on a remote server. You get the performance of a powerful remote machine and the latency of a local editor window.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Remote IDE Comparison](#remote-ide-comparison)
+- [Performance Tips for Remote Development](#performance-tips-for-remote-development)
+- [Troubleshooting](#troubleshooting)
 
 This guide covers the SSH remote extension, dev containers, settings sync, and per-project configuration that makes remote development practical for teams.
 
@@ -391,11 +383,10 @@ With `terminal.integrated.enablePersistentSessions: true`, VS Code reconnects an
 
 ## Related Articles
 
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
-- [Code Review Workflow for a Remote Backend Team](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
-- [How to Scale Remote Team Code Review Process](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
-- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-
+- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
+- [How to Optimize macOS for Remote Development](/remote-work-tools/how-to-optimize-macos-for-remote-development/)
+- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
+- [How to Set Up Remote Pair Programming Sessions in 2026](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-2026/)
+- [How to Set Up Remote Pair Programming Workflow Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-workflow-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

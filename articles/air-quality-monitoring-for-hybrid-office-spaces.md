@@ -7,7 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /air-quality-monitoring-for-hybrid-office-spaces/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
@@ -16,6 +16,23 @@ tags: [remote-work-tools]
 {% raw %}
 
 To implement air quality monitoring in hybrid offices, deploy ESP32-based sensors measuring CO2, PM2.5, VOCs, and humidity, connected via MQTT to a time-series database and dashboard with threshold-based alerts. Hybrid office spaces require balancing variable occupancy patterns while providing real-time visibility into air quality metrics that directly impact employee health and productivity. This guide covers the complete technical implementation—from sensor selection and data pipelines to automation rules and practical deployment strategies.
+
+## Table of Contents
+
+- [Understanding Air Quality Metrics](#understanding-air-quality-metrics)
+- [Hardware Selection for Office Deployment](#hardware-selection-for-office-deployment)
+- [Data Collection and Storage](#data-collection-and-storage)
+- [Building Real-Time Dashboards](#building-real-time-dashboards)
+- [Alerting and Automation](#alerting-and-automation)
+- [Hybrid Space Considerations](#hybrid-space-considerations)
+- [Practical Deployment Tips](#practical-deployment-tips)
+- [Sensor Technology Recommendations](#sensor-technology-recommendations)
+- [Building a Response Playbook](#building-a-response-playbook)
+- [Air Quality Response Playbook](#air-quality-response-playbook)
+- [Building Historical Trends Dashboard](#building-historical-trends-dashboard)
+- [Employee Communication Around Air Quality](#employee-communication-around-air-quality)
+- [Integration with Employee Wellness Programs](#integration-with-employee-wellness-programs)
+- [Holistic Office Environment Checklist](#holistic-office-environment-checklist)
 
 ## Understanding Air Quality Metrics
 
@@ -401,9 +418,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Hybrid Office Air Quality Monitoring for Maintaining](/remote-work-tools/hybrid-office-air-quality-monitoring-for-maintaining-healthy/)
 - [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
-- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
-- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
-- [How to Cool Home Office Without Air Conditioning During](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
-
+- [Home Office Ventilation Solutions When Room Has No Window](/remote-work-tools/home-office-ventilation-solutions-when-room-has-no-window/)
+- [Hybrid Office Space Planning Tool for Facilities Managers](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
+- [Hybrid Work Productivity Comparison Study](/remote-work-tools/hybrid-work-productivity-comparison-study-remote-vs-office-vs-hybrid-days-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

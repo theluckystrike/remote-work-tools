@@ -17,6 +17,25 @@ tags: [remote-work-tools]
 
 Manual invoicing is a tax on your time. If you spend 15 minutes creating and sending each invoice and you bill 10 clients a month, that is 2.5 hours of admin per month — roughly 30 hours a year. Automating invoice generation brings that to under 30 seconds per invoice.
 
+## Table of Contents
+
+- [The Stack](#the-stack)
+- [Install invoice-cli](#install-invoice-cli)
+- [Project Structure](#project-structure)
+- [Your Business Config](#your-business-config)
+- [Client Config](#client-config)
+- [Automation Script](#automation-script)
+- [Install Dependencies](#install-dependencies)
+- [Send an Invoice](#send-an-invoice)
+- [Mark an Invoice Paid](#mark-an-invoice-paid)
+- [Automate Monthly Recurring Invoices](#automate-monthly-recurring-invoices)
+- [Self-Hosted Alternative: Invoice Ninja](#self-hosted-alternative-invoice-ninja)
+- [Adding Tax Calculation](#adding-tax-calculation)
+- [Late Payment Follow-Up Automation](#late-payment-follow-up-automation)
+- [Generating Annual Revenue Reports](#generating-annual-revenue-reports)
+- [Comparison of Invoice Automation Approaches](#comparison-of-invoice-automation-approaches)
+- [Related Reading](#related-reading)
+
 This guide builds a practical invoice automation system using scripts: a CLI tool that generates numbered PDFs, sends them by email, and logs payment status in a CSV.
 
 ## The Stack
@@ -312,7 +331,15 @@ The CLI approach works best for developers who want full control and already hav
 - [Best Invoicing Tools for Freelancers 2026](/remote-work-tools/best-invoicing-tools-for-freelancers-2026/)
 - [Best Accounting Software for Freelancers 2026](/remote-work-tools/best-accounting-software-for-freelancers-2026/)
 - [Freelancer Tax Deduction Tracking Tools 2026](/remote-work-tools/freelancer-tax-deduction-tracking-2026/)
+- [How to Automate Changelog Generation](/remote-work-tools/how-to-automate-changelog-generation/)
 
+## Related Articles
+
+- [Best Payment Collection Automation for Remote Businesses](/remote-work-tools/best-payment-collection-automation-for-remote-businesses-sending-invoice-reminders-2026/)
+- [Best Tools for Managing Client Contracts Invoices Freelance](/remote-work-tools/best-tools-for-managing-client-contracts-invoices-freelance-developer/)
+- [Best Invoicing Tools for Freelancers 2026](/remote-work-tools/best-invoicing-tools-for-freelancers-2026/)
+- [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)
+- [Payment Terms Best Practices for Freelancers](/remote-work-tools/payment-terms-best-practices-for-freelancers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

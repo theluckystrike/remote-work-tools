@@ -1,402 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 layout: default
 title: "Remote Manager Time Management Framework for Leading"
 description: "A practical framework for remote engineering managers leading distributed teams across five or more time zones. Includes scheduling strategies, async"
@@ -411,6 +13,7 @@ score: 9
 intent-checked: true
 voice-checked: true
 ---
+<<<<<<< HEAD
 
 
 
@@ -803,6 +406,8 @@ voice-checked: true
 
 
 
+=======
+>>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
 
 
 {% raw %}
@@ -947,12 +552,19 @@ Quarterly surveys can help you understand how well your async communication is w
 ---
 
 
-
-
-
-
-
 Leading across five or more time zones requires fundamentally rethinking how work gets done. The framework above provides a starting point, but every team will need to adapt these principles to their specific composition and culture. Start with async-first communication, build documentation practices, and protect both your own and your team's time. The investment in building these systems pays dividends in team sustainability and effectiveness.
+
+## Table of Contents
+
+- [Real-World Time Zone Stack Examples](#real-world-time-zone-stack-examples)
+- [Manager Daily Time Block Template (Global Team)](#manager-daily-time-block-template-global-team)
+- [Asynchronous Decision Log Template](#asynchronous-decision-log-template)
+- [Decision: [Title]](#decision-title)
+- [Background](#background)
+- [Alternatives Considered](#alternatives-considered)
+- [Implications](#implications)
+- [Timeline](#timeline)
+- [Questions?](#questions)
 
 ## Real-World Time Zone Stack Examples
 
@@ -1169,11 +781,11 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Convert to UTC range](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
-- [Remote Manager Delegation Framework for Leading Teams Across](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)
-- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
-- [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
-- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
-
+- [Time Management for Remote Managers Across Zones](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+- [Remote Manager Delegation Framework for Leading Teams](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)
+- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
+- [Remote Team Collaboration Quality Framework (2026)](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

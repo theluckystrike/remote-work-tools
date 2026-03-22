@@ -13,25 +13,25 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Calculate pod count based on floor space and team size"
-description: "Learn how to redesign open plan offices for hybrid work by adding focus pods. Includes space planning, acoustic treatment, booking systems, and code"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 
 Hybrid offices require focus pods providing acoustic isolation (30+ dB reduction), proper ventilation, adjustable lighting, and power connectivity placed within 3 minutes of any desk. Calculate pod requirements at 1 per 4-5 active employees using 50% occupancy as baseline, implement WebSocket-backed booking systems to manage availability, and add ambient acoustic treatment throughout open areas. Success metrics include 60-80% use rates, improved employee satisfaction surveys, and increased hybrid office attendance when pods are available.
+
+## Table of Contents
+
+- [The Hybrid Work Space Problem](#the-hybrid-work-space-problem)
+- [What Makes a Focus Pod Effective](#what-makes-a-focus-pod-effective)
+- [Space Planning for Pod Placement](#space-planning-for-pod-placement)
+- [Building a Pod Booking System](#building-a-pod-booking-system)
+- [Acoustic Treatment Beyond Pods](#acoustic-treatment-beyond-pods)
+- [Measuring Success](#measuring-success)
+- [Implementation Checklist](#implementation-checklist)
+- [Evaluating Focus Pod Vendors](#evaluating-focus-pod-vendors)
+- [Booking System Deep Dive](#booking-system-deep-dive)
+- [Beyond Pods: Complementary Office Redesign](#beyond-pods-complementary-office-redesign)
+- [Training and Adoption](#training-and-adoption)
+- [Measuring Hybrid Office Success](#measuring-hybrid-office-success)
 
 ## The Hybrid Work Space Problem
 
@@ -333,11 +333,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
-- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
-- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
 - [Hybrid Office Space Planning Tool for Facilities Managers](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
-- [Useful Thai search terms](/remote-work-tools/how-to-find-apartments-with-dedicated-office-space-in-chiang-mai-for-remote-work/)
-
+- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

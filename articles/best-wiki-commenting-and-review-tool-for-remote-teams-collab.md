@@ -28,6 +28,22 @@ voice-checked: true
 
 Remote teams need structured documentation workflows with effective commenting and review capabilities. When your team spans multiple time zones, asynchronous review processes become essential for maintaining documentation quality without creating bottlenecks. This guide evaluates practical approaches and tools for wiki-based documentation review.
 
+## Table of Contents
+
+- [Why Commenting Systems Matter for Distributed Documentation](#why-commenting-systems-matter-for-distributed-documentation)
+- [Core Features to Evaluate](#core-features-to-evaluate)
+- [Practical Implementation Patterns](#practical-implementation-patterns)
+- [Authentication](#authentication)
+- [Comparing Tool Categories](#comparing-tool-categories)
+- [Advanced Commenting Features to Evaluate](#advanced-commenting-features-to-evaluate)
+- [Common Documentation Review Mistakes to Avoid](#common-documentation-review-mistakes-to-avoid)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Measuring Review Effectiveness](#measuring-review-effectiveness)
+- [Documentation Review Workflows by Team Size](#documentation-review-workflows-by-team-size)
+- [Common Documentation Review Mistakes to Avoid (Extended)](#common-documentation-review-mistakes-to-avoid-extended)
+- [Integration Patterns for Developers](#integration-patterns-for-developers)
+- [Choosing Your Starting Point](#choosing-your-starting-point)
+
 ## Why Commenting Systems Matter for Distributed Documentation
 
 Documentation drafts require more than simple text editing. Technical writers, developers, and product managers need to discuss specific sections, suggest changes, and track revisions without derailing the writing process. A commenting system enables these conversations to happen in context—directly alongside the content being discussed.
@@ -305,11 +321,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Tools for Async Annotation and Commenting on Design](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)
-- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
-- [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
-- [Best Practice for Remote Team Onboarding Wiki](/remote-work-tools/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
-- [Best Wiki Template for Remote Team Engineering Design](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
-
+- [Best Documentation Linting Tool for Remote Teams](/remote-work-tools/best-documentation-linting-tool-for-remote-teams-enforcing-w/)
+- [Best Knowledge Base Search Tool for Remote Teams with Docs](/remote-work-tools/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
+- [Best Tool for Remote Teams Recording and Transcribing](/remote-work-tools/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Best Container Registry Tool for Remote Teams Sharing](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -19,6 +19,22 @@ voice-checked: true
 
 The three-two hybrid work model means three days remote and two days in the office, with remote days reserved for deep focus work and office days dedicated to collaboration, pair programming, and meetings. To implement it successfully, you need a containerized development environment that runs identically in both locations, async-first communication channels, and intentional scheduling that matches work type to location. This guide covers the technical setup, weekly structure, and security considerations for developers adopting this model.
 
+## Table of Contents
+
+- [Setting Up Your Development Environment](#setting-up-your-development-environment)
+- [Essential Tools for Hybrid Collaboration](#essential-tools-for-hybrid-collaboration)
+- [Structuring Your Week](#structuring-your-week)
+- [Managing Work-Life Boundaries](#managing-work-life-boundaries)
+- [Security Considerations](#security-considerations)
+- [Measuring Success](#measuring-success)
+- [Real-World Implementation Challenges and Solutions](#real-world-implementation-challenges-and-solutions)
+- [Tools That Support the 3-2 Model Specifically](#tools-that-support-the-3-2-model-specifically)
+- [Common Pitfalls and How to Avoid Them](#common-pitfalls-and-how-to-avoid-them)
+- [Measuring the 3-2 Model's Success](#measuring-the-3-2-models-success)
+- [3-2 Model Effectiveness Check](#3-2-model-effectiveness-check)
+- [Variant Hybrid Models and When to Use Them](#variant-hybrid-models-and-when-to-use-them)
+- [Transitioning Your Team to 3-2](#transitioning-your-team-to-3-2)
+
 ## Setting Up Your Development Environment
 
 The biggest challenge in a hybrid setup is ensuring your coding environment works identically whether you're at your home desk or in the office. This means your tools, configurations, and access must travel with you.
@@ -284,11 +300,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
-- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
-- [API Idempotency Implementation Guide for Distributed Systems](/remote-work-tools/a11-api-idempotency-implementation/)
-- [List all markdown files in your docs directory](/remote-work-tools/how-to-set-up-documentation-ownership-model-for-remote-teams/)
-- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-
+- [Hybrid Work Productivity Comparison Study](/remote-work-tools/hybrid-work-productivity-comparison-study-remote-vs-office-vs-hybrid-days-2026/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
+- [Collaboration Zones in Hybrid Office Layout](/remote-work-tools/collaboration-zones-in-hybrid-office-layout/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

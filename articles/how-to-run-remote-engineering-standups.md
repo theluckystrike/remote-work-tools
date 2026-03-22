@@ -162,16 +162,16 @@ If it takes more than 30 seconds, say "let's take that to a thread."
 **Common synchronous standup failure modes:**
 
 1. **Status report theater**: Engineers summarize work no one needs to hear
-   Fix: Only share info the team needs to act on
+ Fix: Only share info the team needs to act on
 
 2. **Problem-solving in standup**: Someone raises a bug and the team starts debugging
-   Fix: "Let's take that to a follow-up — who else needs to be involved?"
+ Fix: "Let's take that to a follow-up — who else needs to be involved?"
 
 3. **Waiting for latecomers**: Starting 3-5 minutes late becomes the norm
-   Fix: Start at the scheduled time, latecomers join where you are
+ Fix: Start at the scheduled time, latecomers join where you are
 
 4. **Rotating facilitator confusion**: No one knows who runs it
-   Fix: Alphabetical rotation, posted in the team channel every Monday
+ Fix: Alphabetical rotation, posted in the team channel every Monday
 
 ## Hybrid Format for Mixed Timezones
 
@@ -249,6 +249,18 @@ Today: #457 - Building invoice export feature (~30% done), should finish EOD
 Blockers: Need clarity on invoice CSV schema from @product
 FYI: PR #455 ready for review, straightforward auth fix
 ```
+
+## Table of Contents
+
+- [Async Standup Failure Modes and Fixes](#async-standup-failure-modes-and-fixes)
+- [Engineering Standups at Different Team Sizes](#engineering-standups-at-different-team-sizes)
+- [Daily](#daily)
+- [Weekly](#weekly)
+- [Creating a Standup Dashboard](#creating-a-standup-dashboard)
+- [Standup Anti-Patterns in Remote Teams](#standup-anti-patterns-in-remote-teams)
+- [Integration with Incident Response](#integration-with-incident-response)
+- [Standup Intelligence Review](#standup-intelligence-review)
+- [Related Reading](#related-reading)
 
 Provide this in your onboarding docs so new engineers learn the format immediately.
 
@@ -387,8 +399,16 @@ Yes — Tuesday's standup would have highlighted pattern
 - [Best Tools for Remote Team Standup Meetings 2026](/best-tools-for-remote-team-standup-meetings-2026/)
 - [Geekbot vs Standuply Async Standup Comparison](/geekbot-vs-standuply-async-standup-comparison/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [How to Run Remote Lightning Talks Effectively](/remote-work-tools/how-to-run-remote-lightning-talks-effectively/)
 
 ---
 
+## Related Articles
+
+- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

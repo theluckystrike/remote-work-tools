@@ -17,6 +17,30 @@ voice-checked: true
 
 Design collaboration in remote teams breaks down at two specific points: feedback collection (endless comment threads, contradicting feedback) and design-to-development handoff (engineers missing specs, designers explaining the same thing twice). The right async tooling eliminates both. This guide covers the tools that work and the specific workflows that make them effective.
 
+## Table of Contents
+
+- [The Two Failure Modes](#the-two-failure-modes)
+- [Tool 1: Figma for Async Design Review](#tool-1-figma-for-async-design-review)
+- [Tool 2: Loom for Design Walkthroughs](#tool-2-loom-for-design-walkthroughs)
+- [Tool 3: Notion for Design Documentation](#tool-3-notion-for-design-documentation)
+- [Problem Statement](#problem-statement)
+- [Success Metrics](#success-metrics)
+- [Constraints](#constraints)
+- [Design Decisions Log](#design-decisions-log)
+- [Links](#links)
+- [States](#states)
+- [Usage Guidelines](#usage-guidelines)
+- [Figma source: [link]](#figma-source-link)
+- [Storybook: [link]](#storybook-link)
+- [Related decisions: [ADR link]](#related-decisions-adr-link)
+- [Developer Handoff Without a Handoff Meeting](#developer-handoff-without-a-handoff-meeting)
+- [Handoff Checklist for [Feature]](#handoff-checklist-for-feature)
+- [Additional Tools Worth Evaluating](#additional-tools-worth-evaluating)
+- [Comparison Matrix](#comparison-matrix)
+- [Setting Up the Full Async Design Workflow](#setting-up-the-full-async-design-workflow)
+- [Common Async Design Failures and Fixes](#common-async-design-failures-and-fixes)
+- [Related Reading](#related-reading)
+
 ## The Two Failure Modes
 
 **Failure mode 1: The feedback pile-up**
@@ -300,7 +324,16 @@ Fix: After each implementation review, the designer checks whether any deviation
 - [Best Design Collaboration Tools for Remote Teams](/best-design-collaboration-tools-for-remote-teams/)
 - [Async Design Critique Process for Remote UX Teams](/async-design-critique-process-for-remote-ux-teams-step-by-st.)
 - [Best Remote Design Collaboration Tool for UX Teams Using Figma](/best-remote-design-collaboration-tool-for-ux-teams-using-fig.)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 ---
+
+## Related Articles
+
+- [Best Tools for Async Annotation and Commenting on Design](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)
+- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

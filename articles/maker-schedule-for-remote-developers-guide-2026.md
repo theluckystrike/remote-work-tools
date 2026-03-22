@@ -18,6 +18,13 @@ voice-checked: true
 
 The traditional 9-to-5 workday was designed for factory floors, not for software development. As a remote developer, you've likely experienced the frustration of context switching—those productivity-killing transitions between deep coding sessions and shallow tasks like Slack messages and email. The maker schedule, a time-blocking methodology originally popularized by Paul Graham, offers a structured approach to protect your most valuable asset: focused attention.
 
+## Table of Contents
+
+- [What Is the Maker Schedule?](#what-is-the-maker-schedule)
+- [Prerequisites](#prerequisites)
+- [Advanced: Combining with Other Methodologies](#advanced-combining-with-other-methodologies)
+- [Troubleshooting](#troubleshooting)
+
 This guide shows you how to adapt the maker schedule specifically for remote development work in 2026, with practical implementations you can start using today.
 
 ## What Is the Maker Schedule?
@@ -358,11 +365,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
-- [GDPR Compliance Tools for Developers 2026: A Practical Guide](/remote-work-tools/gdpr-compliance-tools-for-developers-2026/)
-- [Meeting Schedule Template for a 30 Person Remote Product Org](/remote-work-tools/meeting-schedule-template-for-a-30-person-remote-product-org/)
-- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
-
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [How to Prevent Burnout as Remote Developer](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
+- [How to Reduce Slack Notification Fatigue for Remote](/remote-work-tools/how-to-reduce-slack-notification-fatigue-for-remote-develope/)
+- [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

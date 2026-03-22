@@ -18,6 +18,14 @@ voice-checked: true
 
 Set up video conferencing for three remote cofounders by equipping each home office with a 1080p webcam at eye level, an USB condenser or headset microphone, and a key light at 45 degrees from the camera. Use a wired Ethernet connection with QoS rules prioritizing video traffic, then pick one platform (Zoom for reliability, Google Meet if you already use Workspace) and configure it for join-before-host, cloud recording, and automatic transcription. This guide covers the hardware, network optimization, platform configuration, and automation scripts that make daily cofounder calls.
 
+## Table of Contents
+
+- [Why 3-Person Teams Have Unique Requirements](#why-3-person-teams-have-unique-requirements)
+- [Prerequisites](#prerequisites)
+- [Network and Connectivity Requirements](#network-and-connectivity-requirements)
+- [Platform Configuration and Best Practices](#platform-configuration-and-best-practices)
+- [Troubleshooting Common Setup Issues](#troubleshooting-common-setup-issues)
+
 ## Why 3-Person Teams Have Unique Requirements
 
 Three-person remote teams face specific challenges that larger teams do not. Every meeting includes all team members—no one sits out. Communication happens multiple times daily, not weekly. Decisions require immediate visual feedback. These patterns demand equipment that prioritizes clarity and reliability over conference-room features.
@@ -370,11 +378,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Video Conferencing Setup for Hybrid Rooms: A](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [How to Move from Loom to Claap for Remote Team Async Video](/remote-work-tools/how-to-move-from-loom-to-claap-for-remote-team-async-video-m/)
 - [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
-- [Veed API - Upload and process video](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
-
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

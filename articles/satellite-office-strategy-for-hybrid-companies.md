@@ -19,6 +19,22 @@ voice-checked: true
 
 A satellite office strategy for hybrid companies extends your physical presence beyond headquarters by establishing mini-hubs with 3-8 people, dedicated equipment, and network infrastructure that provides full parity with the main office. The key requirements are a site-to-site VPN or SD-WAN connection, business-grade WiFi with VLAN support, and asynchronous-first communication protocols. This guide covers network architecture, hardware setup, security considerations, and coordination patterns for building and managing satellite offices.
 
+## Table of Contents
+
+- [What Makes a Satellite Office Work](#what-makes-a-satellite-office-work)
+- [Network Architecture for Satellite Offices](#network-architecture-for-satellite-offices)
+- [Hardware Setup for Satellite Offices](#hardware-setup-for-satellite-offices)
+- [Team Coordination Patterns](#team-coordination-patterns)
+- [Security Considerations](#security-considerations)
+- [Measuring Satellite Office Success](#measuring-satellite-office-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Getting Started](#getting-started)
+- [Cost Breakdown: Satellite Office vs. Remote Only](#cost-breakdown-satellite-office-vs-remote-only)
+- [Satellite Office Failure Modes and Prevention](#satellite-office-failure-modes-and-prevention)
+- [Implementation Roadmap: Launching Your First Satellite Office](#implementation-roadmap-launching-your-first-satellite-office)
+- [Hiring Strategy Around Satellite Offices](#hiring-strategy-around-satellite-offices)
+- [Measuring Satellite Office Success](#measuring-satellite-office-success)
+
 ## What Makes a Satellite Office Work
 
 A satellite office differs from a remote team in one critical way: it functions as a mini-hub with dedicated space, equipment, and enough team members to operate independently for daily work while remaining connected to the main organization.
@@ -240,11 +256,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
-- [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
-- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
-- [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
-- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
-
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [Best Virtual Office Platforms for Remote Teams 2026](/remote-work-tools/best-virtual-office-platforms-for-remote-teams-2026/)
+- [Home Office Setup in Closet: Converted Workspace Guide 2026](/remote-work-tools/home-office-setup-in-closet-converted-workspace-guide-2026/)
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

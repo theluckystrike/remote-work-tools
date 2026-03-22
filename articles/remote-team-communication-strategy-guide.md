@@ -19,6 +19,18 @@ tags: [remote-work-tools, remote-work]
 
 Start by defining a tiered channel hierarchy that separates urgent messages from async updates, then default to asynchronous-first documentation so team members across time zones can collaborate without blocking each other. These two foundational practices solve the most common remote communication failures: treating every message as urgent and losing decisions in ephemeral chat.
 
+## Table of Contents
+
+- [Establishing Communication Channels](#establishing-communication-channels)
+- [Asynchronous-First Documentation](#asynchronous-first-documentation)
+- [Meeting: [Title]](#meeting-title)
+- [Status Updates That Actually Work](#status-updates-that-actually-work)
+- [Context-Rich Communication](#context-rich-communication)
+- [Handling Sensitive Discussions](#handling-sensitive-discussions)
+- [Building Team Communication Norms](#building-team-communication-norms)
+- [Measurement and Iteration](#measurement-and-iteration)
+- [Tools Integration](#tools-integration)
+
 This guide provides the specific frameworks, templates, and automation examples you need to implement both strategies immediately.
 
 ## Establishing Communication Channels
@@ -255,11 +267,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
-- [Remote Team Employer Branding Strategy for Attracting](/remote-work-tools/remote-team-employer-branding-strategy-for-attracting-distributed-talent-at-scale-guide-2026/)
-- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
-- [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
-- [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
-
+- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
+- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,22 @@ tags: [remote-work-tools, remote-work]
 
 Authentic remote team celebration requires specific contributions (not generic praise), acknowledging the process not just outcomes, and connecting individual work to team goals using the SEW framework (Situation-Effort-Win). Post celebrations in public channels for amplification, time announcements for global team zones, and follow up with private messages for intimacy. Avoid comparisons and delayed recognition, instead building recognition culture by consistently modeling authentic acknowledgment while respecting that remote workers rely on written messages as their entire emotional delivery mechanism.
 
+## Table of Contents
+
+- [Why Authenticity Matters in Remote Celebration Messages](#why-authenticity-matters-in-remote-celebration-messages)
+- [Core Principles for Writing Authentic Celebration Messages](#core-principles-for-writing-authentic-celebration-messages)
+- [Practical Framework: The SEW Method](#practical-framework-the-sew-method)
+- [Automating Thoughtful Recognition](#automating-thoughtful-recognition)
+- [Timing and Channel Selection](#timing-and-channel-selection)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building a Recognition Culture](#building-a-recognition-culture)
+- [Templates for Different Achievement Types](#templates-for-different-achievement-types)
+- [Celebration Message Timing Strategy](#celebration-message-timing-strategy)
+- [Recognition Across Different Team Structures](#recognition-across-different-team-structures)
+- [Measuring Recognition Impact](#measuring-recognition-impact)
+- [Anti-Patterns: What NOT to Do](#anti-patterns-what-not-to-do)
+- [Building Your Celebration Practice](#building-your-celebration-practice)
+
 ## Why Authenticity Matters in Remote Celebration Messages
 
 In distributed teams, words carry more weight. Without face-to-face interaction, your message becomes the entire emotional delivery mechanism. Generic congratulations feel hollow when team members cannot see facial expressions or hear tonal cues. Authentic acknowledgment reinforces psychological safety and motivates continued high performance.
@@ -396,11 +412,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
-- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
-- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
 - [Distributed Team Holiday Celebration Ideas Across Cultures](/remote-work-tools/distributed-team-holiday-celebration-ideas-across-cultures-a/)
-- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-
+- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
+- [How to Celebrate Employee Anniversaries on Fully Remote](/remote-work-tools/how-to-celebrate-employee-anniversaries-on-fully-remote-team/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

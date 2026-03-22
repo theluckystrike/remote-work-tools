@@ -13,24 +13,20 @@ reviewed: true
 intent-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Track all critical accounts requiring phone verification"
-description: "A practical guide for developers and power users on keeping your US phone number while working remotely from Portugal or Spain. Includes code examples"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-maintain-us-phone-number-while-working-remotely-from-/
-categories: [guides]
-score: 9
-voice-checked: true
-reviewed: true
-intent-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 Maintaining an US phone number while living in Portugal or Spain is essential for many developers and remote workers. Whether you need it for banking, two-factor authentication, or staying in touch with US-based clients, keeping your American number provides continuity and avoids the hassle of updating contacts and services across international boundaries.
+
+## Table of Contents
+
+- [Why Keep Your US Number](#why-keep-your-us-number)
+- [Option 1: VoIP Services with SMS Support](#option-1-voip-services-with-sms-support)
+- [Option 2: eSIM Solutions ($50-200 initial + ongoing plan)](#option-2-esim-solutions-50-200-initial-ongoing-plan)
+- [Option 3: US Carrier International Plans ($30-100/month)](#option-3-us-carrier-international-plans-30-100month)
+- [Option 4: Google Fi Wireless ($10-50/month)](#option-4-google-fi-wireless-10-50month)
+- [Recommendation Matrix by Use Case](#recommendation-matrix-by-use-case)
+- [Practical Considerations](#practical-considerations)
+- [Monthly Cost Comparison by Strategy](#monthly-cost-comparison-by-strategy)
 
 ## Why Keep Your US Number
 
@@ -314,10 +310,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Install Twilio CLI](/remote-work-tools/how-to-set-up-local-phone-number-for-business-calls-while-wo/)
-- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
-- [How to Handle Mail and Legal Address When Working Remotely](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
-- [How to Handle Social Security Contributions When Working](/remote-work-tools/how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/)
-- [How to Manage Timezone Overlap When Working Remotely from](/remote-work-tools/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
-
+- [How to Handle Two Factor Authentication Apps When Changing](/remote-work-tools/how-to-handle-two-factor-authentication-apps-when-changing-s/)
+- [Best SIP Phone Software for Remote Workers: A Technical](/remote-work-tools/best-sip-phone-software-for-remote-workers/)
+- [RescueTime vs Toggl Track](/remote-work-tools/rescue-time-vs-toggl-track-productivity-comparison/)
+- [How to Track Project Dependencies Remote Team](/remote-work-tools/how-to-track-project-dependencies-remote-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

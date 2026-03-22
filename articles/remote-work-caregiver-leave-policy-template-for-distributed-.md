@@ -18,6 +18,16 @@ voice-checked: true
 
 A caregiver leave policy for distributed companies should provide 10-15 days annually, allow unpaid leave options, and include flexible scheduling for elder care without requiring advance notice. This policy template specifically addresses the "sandwich generation"—employees balancing children and aging parents—while maintaining productivity in async-first environments. It includes implementation guidance, communication templates, and return-to-work procedures for your remote organization.
 
+## Table of Contents
+
+- [Understanding the Sandwich Generation in Remote Work](#understanding-the-sandwich-generation-in-remote-work)
+- [Core Policy Components](#core-policy-components)
+- [Implementation Patterns for Distributed Teams](#implementation-patterns-for-distributed-teams)
+- [Practical Policy Examples](#practical-policy-examples)
+- [Policy Communication and Adoption](#policy-communication-and-adoption)
+- [Measuring Policy Effectiveness](#measuring-policy-effectiveness)
+- [Legal Compliance Considerations](#legal-compliance-considerations)
+
 ## Understanding the Sandwich Generation in Remote Work
 
 The sandwich generation typically refers to adults in their 30s to 50s who provide care for both their children and elderly parents or relatives. In distributed teams, these employees often work across multiple time zones, attending to children's remote learning during morning hours while handling medical appointments or care coordination for parents in different geographic locations.
@@ -239,11 +249,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
-- [Remote Work Employer Childcare Stipend Policy Template for](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
 - [Remote Work Lactation Room Policy Template for Employees on](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
-- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
-- [Remote Team Vulnerability Disclosure Policy Template for](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
-
+- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
+- [Remote Team Vulnerability Disclosure Policy Template](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
+- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
+- [Remote Work Employer Childcare Stipend Policy Template](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

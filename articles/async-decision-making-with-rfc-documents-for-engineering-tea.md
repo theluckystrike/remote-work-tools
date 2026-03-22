@@ -17,6 +17,45 @@ score: 9
 
 Request for Comments (RFC) documents serve as the backbone of asynchronous decision making in distributed engineering organizations. When implemented effectively, RFCs enable teams to make thoughtful, documented decisions without requiring real-time synchronization, which proves especially valuable across time zones.
 
+## Table of Contents
+
+- [Implementation Plan](#implementation-plan)
+- [What Makes RFCs Effective for Async Decision Making](#what-makes-rfcs-effective-for-async-decision-making)
+- [Structuring an RFC Document](#structuring-an-rfc-document)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Alternatives Considered](#alternatives-considered)
+- [Implementation Plan](#implementation-plan)
+- [Open Questions](#open-questions)
+- [Success Metrics](#success-metrics)
+- [Timeline](#timeline)
+- [Implementing an RFC Workflow](#implementing-an-rfc-workflow)
+- [Decision](#decision)
+- [Practical Example: Database Migration Decision](#practical-example-database-migration-decision)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Alternatives Considered](#alternatives-considered)
+- [Implementation Plan](#implementation-plan)
+- [Success Metrics](#success-metrics)
+- [Managing RFC Review Effectively](#managing-rfc-review-effectively)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [RFC Tools and Workflow Integration](#rfc-tools-and-workflow-integration)
+- [Real RFC Examples](#real-rfc-examples)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Alternatives Considered](#alternatives-considered)
+- [Timeline](#timeline)
+- [Risks & Mitigation](#risks-mitigation)
+- [Success Metrics](#success-metrics)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Implementation Details](#implementation-details)
+- [Risks & Mitigation](#risks-mitigation)
+- [Success Metrics](#success-metrics)
+- [Timeline](#timeline)
+- [Running Efficient RFC Review Periods](#running-efficient-rfc-review-periods)
+- [Learning from Decisions](#learning-from-decisions)
+
 ## Implementation Plan
 1.
 - **A reasonable SLA**: - Initial feedback: 48 hours
@@ -361,11 +400,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
 - [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
-- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [Async Team Retrospective Using Shared Documents and](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
 - [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
-
+- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [How to Write Async Technical RFCs That Get Meaningful](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
+- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

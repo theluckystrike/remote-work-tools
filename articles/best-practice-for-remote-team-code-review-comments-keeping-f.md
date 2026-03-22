@@ -18,6 +18,22 @@ voice-checked: true
 
 Code reviews in remote teams carry unique challenges. Without face-to-face interaction, written comments become the primary channel for technical feedback—and tone gets lost in translation. A comment meant as helpful guidance can read as harsh criticism, creating friction that accumulates over time. Building a culture of constructive code review comments requires intentional practices and clear frameworks that work across distributed teams.
 
+## Table of Contents
+
+- [Why Constructive Feedback Matters More in Remote Settings](#why-constructive-feedback-matters-more-in-remote-settings)
+- [The SBI Framework for Code Review Comments](#the-sbi-framework-for-code-review-comments)
+- [Practical Comment Templates for Common Review Scenarios](#practical-comment-templates-for-common-review-scenarios)
+- [Establishing Team Review Norms](#establishing-team-review-norms)
+- [Modeling Constructive Feedback at Scale](#modeling-constructive-feedback-at-scale)
+- [Handling Pushback on Comments](#handling-pushback-on-comments)
+- [Measuring Review Comment Quality](#measuring-review-comment-quality)
+- [Building Psychological Safety Through Review Practices](#building-psychological-safety-through-review-practices)
+- [Tools and Automation for Review Quality](#tools-and-automation-for-review-quality)
+- [Establishing Team Review Agreements](#establishing-team-review-agreements)
+- [Our Code Review Agreement](#our-code-review-agreement)
+- [Mentoring Through Code Reviews](#mentoring-through-code-reviews)
+- [Measuring Review Culture Over Time](#measuring-review-culture-over-time)
+
 ## Why Constructive Feedback Matters More in Remote Settings
 
 In co-located teams, developers can clarify intent through quick hallway conversations or observe body language that signals receptiveness. Remote teams lack these cues entirely. Every comment exists in a vacuum, interpreted through the reader's current mood, stress level, and past experiences.
@@ -291,11 +307,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
-- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
-- [How to Run Remote Team Lightning Talks Keeping](/remote-work-tools/how-to-run-remote-team-lightning-talks-keeping-presentations/)
-- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
-
+- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [Scale Code Reviews for Growing Remote Teams (2026)](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

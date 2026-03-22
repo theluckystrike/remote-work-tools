@@ -18,6 +18,42 @@ voice-checked: true
 
 Weekly sync meetings are the heartbeat of remote team coordination, but they can quickly become time sinks that drain productivity. A poorly structured 30-minute meeting can stretch to an hour, while a well-designed one can accomplish more in less time. This guide provides a battle-tested agenda template specifically crafted for remote development teams who need to stay aligned without sacrificing deep work time.
 
+## Table of Contents
+
+- [The Problem with Unstructured Weekly Syncs](#the-problem-with-unstructured-weekly-syncs)
+- [The 30-Minute Meeting Agenda Template](#the-30-minute-meeting-agenda-template)
+- [1. Quick Wins & Celebrations (3 minutes)](#1-quick-wins-celebrations-3-minutes)
+- [2. Blockers & Risks (5 minutes)](#2-blockers-risks-5-minutes)
+- [3. This Week's Priorities (10 minutes)](#3-this-weeks-priorities-10-minutes)
+- [4. Coordination & Decisions (7 minutes)](#4-coordination-decisions-7-minutes)
+- [5. Action Items & Close (5 minutes)](#5-action-items-close-5-minutes)
+- [How to Implement This Template Effectively](#how-to-implement-this-template-effectively)
+- [Weekly Update - [Name]](#weekly-update-name)
+- [Practical Examples for Development Teams](#practical-examples-for-development-teams)
+- [Opening (2 min)](#opening-2-min)
+- [Status Round (8 min)](#status-round-8-min)
+- [Discussion: Blockers (5 min)](#discussion-blockers-5-min)
+- [Planning: Next Steps (8 min)](#planning-next-steps-8-min)
+- [Close (2 min)](#close-2-min)
+- [Tools That Support Efficient Weekly Syncs](#tools-that-support-efficient-weekly-syncs)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Adapting the Template for Your Team](#adapting-the-template-for-your-team)
+- [Tools and Automation for Meeting Efficiency](#tools-and-automation-for-meeting-efficiency)
+- [Pre-Meeting Workflow: Template to Copy](#pre-meeting-workflow-template-to-copy)
+- [Real Meeting Example: Sprint Planning Variant](#real-meeting-example-sprint-planning-variant)
+- [1. Wins (2 min)](#1-wins-2-min)
+- [2. Blockers (4 min)](#2-blockers-4-min)
+- [3. This Sprint (5 min)](#3-this-sprint-5-min)
+- [4. Next Week Priorities (2 min)](#4-next-week-priorities-2-min)
+- [5. Decisions (3 min)](#5-decisions-3-min)
+- [6. Action Items (2 min)](#6-action-items-2-min)
+- [Meeting Facilitation Checklist](#meeting-facilitation-checklist)
+- [Weekly Sync Facilitation Checklist](#weekly-sync-facilitation-checklist)
+- [Async-First Weekly Syncs: For Distributed Teams](#async-first-weekly-syncs-for-distributed-teams)
+- [Sprint Week N Summary](#sprint-week-n-summary)
+- [Scaling Meeting Templates as Team Grows](#scaling-meeting-templates-as-team-grows)
+- [Measuring Meeting Effectiveness](#measuring-meeting-effectiveness)
+
 ## The Problem with Unstructured Weekly Syncs
 
 Remote teams often fall into two traps: either the weekly sync becomes a status report marathon where each person recites what they did, or it devolves into free-form discussion that misses critical coordination points. Neither approach maximizes the value of synchronous time together.
@@ -373,11 +409,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
-- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
-- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
+- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
 - [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
-
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [How to Write Good Remote Meeting Agendas](/remote-work-tools/how-to-write-good-remote-meeting-agendas/)
+- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

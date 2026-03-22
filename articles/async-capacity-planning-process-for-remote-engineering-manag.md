@@ -17,6 +17,23 @@ tags: [remote-work-tools, remote-work]
 
 Build async capacity planning by collecting weekly availability reports from each engineer, tracking velocity or throughput metrics over time, and running the numbers in a shared capacity template -- all without scheduling a single meeting. This process replaces synchronous planning sessions with structured written inputs that produce more accurate forecasts, better documentation, and fewer time zone conflicts.
 
+## Table of Contents
+
+- [Why Async Capacity Planning Matters for Remote Teams](#why-async-capacity-planning-matters-for-remote-teams)
+- [Step 1: Gather Team Availability Data](#step-1-gather-team-availability-data)
+- [Capacity Report: [Name] - [Period]](#capacity-report-name-period)
+- [Step 2: Track Velocity and Throughput](#step-2-track-velocity-and-throughput)
+- [Team Velocity History](#team-velocity-history)
+- [Monthly Throughput](#monthly-throughput)
+- [Step 3: Build a Capacity Planning Template](#step-3-build-a-capacity-planning-template)
+- [Capacity Plan: [Team Name] - [Quarter/Month]](#capacity-plan-team-name-quartermonth)
+- [Step 4: Establish the Async Workflow](#step-4-establish-the-async-workflow)
+- [Step 5: Handle Common Remote Team Challenges](#step-5-handle-common-remote-team-challenges)
+- [Capacity Buffer Calculation](#capacity-buffer-calculation)
+- [Team Overlap Analysis](#team-overlap-analysis)
+- [Context Switching Multiplier](#context-switching-multiplier)
+- [Practical Example: Quarterly Planning](#practical-example-quarterly-planning)
+
 ## Why Async Capacity Planning Matters for Remote Teams
 
 Traditional capacity planning often relies on synchronous planning meetings—sprint planning, quarterly planning sessions, or resource allocation meetings where everyone gathers (or in person) to discuss bandwidth. While these sessions serve a purpose, they create several problems for distributed teams:
@@ -273,11 +290,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Async Capacity Planning Process for Remote: Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 - [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
-- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
-- [Async Engineering Proposal Process Using Github Discussions](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
-
+- [Best Tools for Remote Team Capacity Planning](/remote-work-tools/best-tools-remote-team-capacity-planning-2026/)
+- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
+- [Best Practice for Remote Team Quarterly Planning Process](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

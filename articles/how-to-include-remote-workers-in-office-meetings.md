@@ -18,6 +18,31 @@ voice-checked: true
 
 When your team includes both in-office and remote participants, running effective meetings requires deliberate technical setup and process design. Remote workers often feel disconnected when meetings prioritize in-room attendees, leading to reduced engagement and missed contributions. This guide covers the practical steps developers and power users can take to create genuinely inclusive hybrid meetings.
 
+## Table of Contents
+
+- [Technical Foundation for Hybrid Meeting Setup](#technical-foundation-for-hybrid-meeting-setup)
+- [Meeting Process Design for Inclusion](#meeting-process-design-for-inclusion)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Questions for Reviewers](#questions-for-reviewers)
+- [Remote Participant Notes](#remote-participant-notes)
+- [Real-Time Collaboration Tools](#real-time-collaboration-tools)
+- [Establishing Meeting Norms](#establishing-meeting-norms)
+- [Attendees](#attendees)
+- [Discussion Notes](#discussion-notes)
+- [Action Items](#action-items)
+- [Remote Participant Check](#remote-participant-check)
+- [Measuring Inclusion Success](#measuring-inclusion-success)
+- [Building Inclusive Culture](#building-inclusive-culture)
+- [Automated Meeting Intelligence](#automated-meeting-intelligence)
+- [Equipment and Software Stack Recommendations](#equipment-and-software-stack-recommendations)
+- [Post-Meeting Follow-up Protocol](#post-meeting-follow-up-protocol)
+- [Meeting Summary (2-3 sentences)](#meeting-summary-2-3-sentences)
+- [Decisions Made](#decisions-made)
+- [Action Items](#action-items)
+- [Remote Participant Questions Addressed](#remote-participant-questions-addressed)
+- [Next Steps](#next-steps)
+
 ## Technical Foundation for Hybrid Meeting Setup
 
 The first step involves configuring your meeting space to treat remote participants as first-class attendees. This means investing in proper audio and video infrastructure rather than relying on a single laptop camera pointed at a conference room.
@@ -280,9 +305,9 @@ For best hybrid meeting experience, consider this practical setup:
 **Audio/Video Hardware ($800-2000 investment):**
 - Logitech MeetUp (all-in-one solution for small rooms, $1,500)
 - Alternatively: Separate components ($500-800 total)
-  - Polycom SoundStructure speaker ($400)
-  - USB camera with wide angle (Microsoft LifeCam Studio, $150)
-  - Ceiling-mounted microphone (Shure boundary mic, $300)
+ - Polycom SoundStructure speaker ($400)
+ - USB camera with wide angle (Microsoft LifeCam Studio, $150)
+ - Ceiling-mounted microphone (Shure boundary mic, $300)
 
 **Software Configuration:**
 - Zoom/Teams meeting recorder with cloud transcription
@@ -363,11 +388,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example NHI enrollment at a local district office](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)
-- [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
-- [Best Tools for Remote Team Standup Meetings 2026.](/remote-work-tools/best-tools-for-remote-team-standup-meetings-2026/)
-- [Best Virtual Icebreaker Tool for Remote Team Meetings That](/remote-work-tools/best-virtual-icebreaker-tool-for-remote-team-meetings-that-f/)
-- [Best Webcam for Remote Meetings 2026: A Technical Guide](/remote-work-tools/best-webcam-for-remote-meetings-2026/)
-
+- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

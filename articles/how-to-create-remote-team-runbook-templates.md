@@ -17,6 +17,16 @@ tags: [remote-work-tools]
 
 Runbooks turn undocumented institutional knowledge into step-by-step procedures anyone on the team can follow at 3am. Good runbooks are opinionated, tested, and short — they list commands to run, not theory to understand. This guide builds the templates and tooling for a remote engineering team's runbook library.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
+- [Troubleshooting](#troubleshooting)
+- [Related Reading](#related-reading)
+
 # [Operation Name] Runbook
 
 **Owner:** @team-name
@@ -490,9 +500,17 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [How to Write Runbooks for Remote Engineering Teams](/remote-work-tools/how-to-write-runbooks-remote-engineering-teams/)
 - [Best Practice for Remote Team Escalation Paths](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
 - [Best Practices for Remote Incident Communication](/remote-work-tools/best-practices-for-remote-incident-communication/)
+- [How to Create Remote Team Playbook Templates](/remote-work-tools/how-to-create-remote-team-playbook-templates/)
 
 ---
 
+## Related Articles
+
+- [How to Build a Remote Team Runbook Library 2026](/remote-work-tools/how-to-build-remote-team-runbook-library-2026/)
+- [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Create Remote Team Playbook Templates](/remote-work-tools/how-to-create-remote-team-playbook-templates/)
+- [How to Write Runbooks for Remote Engineering Teams](/remote-work-tools/how-to-write-runbooks-remote-engineering-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```
 {% endraw %}

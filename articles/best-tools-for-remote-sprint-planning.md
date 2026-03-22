@@ -17,6 +17,27 @@ voice-checked: true
 
 Sprint planning in remote teams fails when it tries to replicate in-person planning ceremonies over video. A 2-hour Zoom call with 8 engineers estimating stories one by one is exhausting and ineffective. Async-first sprint planning — with a short synchronous alignment call at the end — works better. This guide covers the tools and the workflow.
 
+## Table of Contents
+
+- [The Async-First Sprint Planning Workflow](#the-async-first-sprint-planning-workflow)
+- [Tool 1: Linear](#tool-1-linear)
+- [Sprint Start Checklist](#sprint-start-checklist)
+- [Tool 2: Jira](#tool-2-jira)
+- [Tool 3: Notion for Sprint Documentation](#tool-3-notion-for-sprint-documentation)
+- [Team Capacity](#team-capacity)
+- [Sprint Scope (committed)](#sprint-scope-committed)
+- [Sprint Decision Log](#sprint-decision-log)
+- [Post-Sprint Review (filled in after sprint)](#post-sprint-review-filled-in-after-sprint)
+- [Tool Comparison: Linear vs Jira vs Height](#tool-comparison-linear-vs-jira-vs-height)
+- [Estimation Anti-Patterns](#estimation-anti-patterns)
+- [PlanningPoker.com for Async Estimation](#planningpokercom-for-async-estimation)
+- [Async Estimation Challenges and Solutions](#async-estimation-challenges-and-solutions)
+- [Velocity Anti-Patterns and Fixes](#velocity-anti-patterns-and-fixes)
+- [Scaling Sprint Planning Across Multiple Teams](#scaling-sprint-planning-across-multiple-teams)
+- [Multi-Team Sprint Planning Process](#multi-team-sprint-planning-process)
+- [Cross-team dependency tracking](#cross-team-dependency-tracking)
+- [Related Reading](#related-reading)
+
 ## The Async-First Sprint Planning Workflow
 
 The pattern that works for most remote teams:
@@ -386,7 +407,16 @@ If a blocking story slips, all dependent stories slip. Escalate blocking stories
 - [Best Sprint Planning Tools for Remote Scrum Masters](/best-sprint-planning-tools-for-remote-scrum-masters/)
 - [Best Tools for Remote Team Sprint Planning 2026](/best-tools-for-remote-team-sprint-planning-2026/)
 - [Remote Team Sprint Planning Communication Template](/remote-team-sprint-planning-communication-template-for-distr.)
+- [Remote Team Story Point Velocity Trend Analysis Tool](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
 ---
+
+## Related Articles
+
+- [Best Tools for Remote Team Sprint Planning (2026)](/remote-work-tools/best-tools-for-remote-team-sprint-planning-2026/)
+- [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
+- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
+- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [Best Tools for Remote Design Sprints: A Practical Guide](/remote-work-tools/best-tools-for-remote-design-sprints/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

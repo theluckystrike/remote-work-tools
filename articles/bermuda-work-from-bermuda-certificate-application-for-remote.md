@@ -17,6 +17,25 @@ voice-checked: true
 
 Bermuda's Work From Bermuda certificate program continues to be one of the most attractive options for remote tech professionals seeking a tax-efficient base in 2026. Unlike traditional work visas that require employer sponsorship, this certificate allows you to work remotely for non-Bermudian companies while residing in Bermuda. This guide covers the application process, eligibility requirements, tax implications, and practical considerations for developers and power users.
 
+## Table of Contents
+
+- [What Is the Bermuda Work From Bermuda Certificate?](#what-is-the-bermuda-work-from-bermuda-certificate)
+- [Eligibility Requirements](#eligibility-requirements)
+- [Application Process](#application-process)
+- [Tax Considerations for Remote Tech Professionals](#tax-considerations-for-remote-tech-professionals)
+- [Practical Considerations for Tech Professionals](#practical-considerations-for-tech-professionals)
+- [Code Snippet: Setting Up Your Remote Work Environment](#code-snippet-setting-up-your-remote-work-environment)
+- [Renewal and Long-Term Options](#renewal-and-long-term-options)
+- [Detailed Document Checklist with File Names](#detailed-document-checklist-with-file-names)
+- [Income Verification Letter Template](#income-verification-letter-template)
+- [Tax Planning Considerations by Country](#tax-planning-considerations-by-country)
+- [Complete Monthly Budget for Bermuda Remote Worker](#complete-monthly-budget-for-bermuda-remote-worker)
+- [Step-by-Step Application Process with Timelines](#step-by-step-application-process-with-timelines)
+- [Week 1: Initial Submission](#week-1-initial-submission)
+- [Week 2-4: Processing](#week-2-4-processing)
+- [Week 5-6: Decision](#week-5-6-decision)
+- [Post-Approval: Arrival Preparation](#post-approval-arrival-preparation)
+
 ## What Is the Bermuda Work From Bermuda Certificate?
 
 The Work From Bermuda certificate is a residency permit designed specifically for remote workers employed by overseas companies. Introduced originally as the "Work From Bermuda" initiative, it has evolved into a structured program offering a pathway to Bermuda residency for digital nomads, freelancers, and employed tech professionals.
@@ -481,11 +500,10 @@ Here's exactly what happens when you apply:
 
 ## Related Articles
 
-- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
 - [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
-
+- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
+- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

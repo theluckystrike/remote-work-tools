@@ -328,9 +328,17 @@ Add live status badges to service READMEs:
 - [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
 - [How to Automate SSL Certificate Renewal](/remote-work-tools/how-to-automate-ssl-certificate-renewal/)
 - [How to Automate Infrastructure Cost Alerts](/remote-work-tools/how-to-automate-infrastructure-cost-alerts/)
+- [How to Create Automated Canary Deployments](/remote-work-tools/how-to-create-automated-canary-deployments/)
 
 ---
 
+## Related Articles
+
+- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
+- [AI Project Status Generator for Remote Teams Pulling](/remote-work-tools/ai-project-status-generator-for-remote-teams-pulling-data-fr/)
+- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
+- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -18,6 +18,13 @@ voice-checked: true
 
 Remote internships present unique challenges that in-person programs simply don't face. Without casual hallway conversations or the ability to tap someone on the shoulder, remote interns often feel isolated during their first weeks. A structured mentorship program solves this by creating clear expectations, regular touchpoints, and measurable milestones that keep both mentors and interns accountable.
 
+## Table of Contents
+
+- [Why Structured Mentorship Matters for Remote Teams](#why-structured-mentorship-matters-for-remote-teams)
+- [Prerequisites](#prerequisites)
+- [Mentorship Best Practices for Remote Contexts](#mentorship-best-practices-for-remote-contexts)
+- [Troubleshooting](#troubleshooting)
+
 This guide provides a practical framework for engineering teams to onboard remote interns effectively.
 
 ## Why Structured Mentorship Matters for Remote Teams
@@ -352,11 +359,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Remote Team Mentorship Program Setup Guide](/remote-work-tools/how-to-set-up-remote-team-mentorship-program-matching-mentor/)
 - [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)
-- [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
-- [How to Onboard Remote Contractors in 48 Hours](/remote-work-tools/how-to-onboard-remote-contractors-in-48-hours-guide/)
-- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
-- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
-
+- [How to Create Remote Team Internal Mobility Program for Grow](/remote-work-tools/how-to-create-remote-team-internal-mobility-program-for-grow/)
+- [How to Create Remote Onboarding Buddy Program Template](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

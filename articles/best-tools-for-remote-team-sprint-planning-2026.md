@@ -17,6 +17,21 @@ permalink: /best-tools-for-remote-team-sprint-planning-2026/
 
 ## Sprint Planning Across Time Zones
 
+## Table of Contents
+
+- [Sprint Planning Across Time Zones](#sprint-planning-across-time-zones)
+- [Jira (Atlassian)](#jira-atlassian)
+- [Linear (Linear.app)](#linear-linearapp)
+- [Shortcut (Shortcut.io)](#shortcut-shortcutio)
+- [ClickUp](#clickup)
+- [Comparative Benchmark: Remote Team Sprint Planning](#comparative-benchmark-remote-team-sprint-planning)
+- [Estimation Patterns Across Tools](#estimation-patterns-across-tools)
+- [Capacity Planning in Distributed Teams](#capacity-planning-in-distributed-teams)
+- [Velocity Metrics & Trend Analysis](#velocity-metrics-trend-analysis)
+- [Integration Considerations](#integration-considerations)
+- [Production Validation](#production-validation)
+- [Recommendation Matrix](#recommendation-matrix)
+
 Sprint planning is where distributed teams stumble. Your frontend team is in California, backend in Berlin, QA in Singapore. Synchronous planning meetings exclude someone. Async planning tools prevent participation. You need a tool that supports both synchronous ceremony and async contribution.
 
 The right tool lets engineers estimate independently, see estimates from teammates instantly, adjust capacity based on availability, and track velocity without scheduling 14 people in a room at 6am.
@@ -390,10 +405,11 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Sprint Planning Tools for Remote Scrum Masters](/best-sprint-planning-tools-for-remote-scrum-masters/)
-- [Best Tools for Remote Team Offsite Planning 2026](/best-tools-for-remote-team-offsite-planning-2026/)
-- [Sprint {{ sprint_number }} Preparation](/remote-team-sprint-planning-communication-template-for-distr/)
-
+- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
+- [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
+- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
+- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -18,6 +18,28 @@ tags: [remote-work-tools, best-of]
 
 Hybrid teams can bridge the whiteboard-to-remote gap through structured async updates following consistent templates like markdown-based formats capturing decisions, action items, and questions for remote participants. Automating distribution with GitHub Actions or similar tools ensures remote team members see updates promptly without polling constantly. The best approach combines simple photo documentation for quick reference with written summaries that create persistent records and signal inclusion of remote perspectives.
 
+## Table of Contents
+
+- [The Hybrid Communication Gap](#the-hybrid-communication-gap)
+- [Approaches to Async Updates in Hybrid Teams](#approaches-to-async-updates-in-hybrid-teams)
+- [Implementation Strategy](#implementation-strategy)
+- [Async Update: [Topic]](#async-update-topic)
+- [Automating Update Distribution](#automating-update-distribution)
+- [Practical Workflow Example](#practical-workflow-example)
+- [Tool Selection Considerations](#tool-selection-considerations)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Specific Tool Implementations](#specific-tool-implementations)
+- [Measuring Async Update Effectiveness](#measuring-async-update-effectiveness)
+- [Hybrid Team Communication Norms Template](#hybrid-team-communication-norms-template)
+- [What Gets Updated](#what-gets-updated)
+- [What Doesn't Need Updates](#what-doesnt-need-updates)
+- [Update Timing](#update-timing)
+- [Remote Team Involvement](#remote-team-involvement)
+- [Tool Use](#tool-use)
+- [Async Updates as Remote Inclusion Mechanism](#async-updates-as-remote-inclusion-mechanism)
+- [Proposed: Migrate to Service A from Service B](#proposed-migrate-to-service-a-from-service-b)
+- [Handling Disagreement in Async Updates](#handling-disagreement-in-async-updates)
+
 ## The Hybrid Communication Gap
 
 When your team splits between office and remote work, the physical whiteboard becomes both a collaboration asset and a knowledge silo. Team members present in the office can quickly sketch diagrams, organize ideas, and iterate together in real time. Remote workers, however, often miss these spontaneous sessions entirely.
@@ -292,11 +314,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
-- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
-- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
-- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
-- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
-
+- [Best Tool for Remote Team Async Introductions](/remote-work-tools/best-tool-for-remote-team-async-introductions-connecting-new/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

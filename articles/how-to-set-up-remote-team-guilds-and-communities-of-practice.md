@@ -17,6 +17,36 @@ voice-checked: true
 
 Launch remote team guilds by defining a guild purpose and membership, setting up a dedicated communication channel and regular meeting cadence, and creating a knowledge base for guild-specific resources. Guilds connect people across teams who share interests or expertise, strengthening organizational culture in distributed environments.
 
+## Table of Contents
+
+- [Understanding Guilds Versus Communities of Practice](#understanding-guilds-versus-communities-of-practice)
+- [Step 1: Define Clear Scope and Purpose](#step-1-define-clear-scope-and-purpose)
+- [Step 2: Recruit Active Members](#step-2-recruit-active-members)
+- [Step 3: Establish Regular Async Cadence](#step-3-establish-regular-async-cadence)
+- [Step 4: Create Structured Documentation](#step-4-create-structured-documentation)
+- [ADR-023: Use React Query for Server State Management](#adr-023-use-react-query-for-server-state-management)
+- [Step 5: Run Synchronous Sessions Strategically](#step-5-run-synchronous-sessions-strategically)
+- [Step 6: Connect Guilds to Team Workflows](#step-6-connect-guilds-to-team-workflows)
+- [Step 7: Measure and Iterate](#step-7-measure-and-iterate)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Practical Starting Point](#practical-starting-point)
+- [Guild Template for Your First Guild Launch](#guild-template-for-your-first-guild-launch)
+- [Guild Identification](#guild-identification)
+- [Mission Statement](#mission-statement)
+- [Scope](#scope)
+- [Membership](#membership)
+- [Deliverables](#deliverables)
+- [Meeting Cadence](#meeting-cadence)
+- [Success Metrics (Review quarterly)](#success-metrics-review-quarterly)
+- [Escalation Path](#escalation-path)
+- [Modification History](#modification-history)
+- [Guild Lifecycle: When to Sunset, Merge, or Evolve](#guild-lifecycle-when-to-sunset-merge-or-evolve)
+- [Integrating Guilds into Org Structure](#integrating-guilds-into-org-structure)
+- [Guild Reviews](#guild-reviews)
+- [Measuring Guild ROI](#measuring-guild-roi)
+- [Guild Communication Channels and Tooling](#guild-communication-channels-and-tooling)
+- [When Guild Coverage Isn't Enough](#when-guild-coverage-isnt-enough)
+
 ## Understanding Guilds Versus Communities of Practice
 
 Before implementing, distinguish between these two structures. A guild is typically a cross-team group organized around a technical domain or skill area—think frontend architecture, DevOps practices, or testing strategies. Guilds focus on building shared standards, reducing duplication of effort, and advancing the organization's technical capabilities in specific areas.
@@ -422,10 +452,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Slack Communities for Freelance Remote Developers](/remote-work-tools/slack-communities-for-freelance-remote-developers/)
-- [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
-- [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
-- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Best Practice for Measuring Remote Team Alignment](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

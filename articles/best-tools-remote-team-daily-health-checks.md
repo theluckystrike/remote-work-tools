@@ -17,6 +17,18 @@ tags: [remote-work-tools]
 
 A daily health check for remote teams isn't just asking "how is everyone?" — it's a structured review of whether services are healthy, deployments succeeded, budgets are on track, and team members are unblocked. The best tools automate this and post results to Slack so the whole team starts from shared context.
 
+## Table of Contents
+
+- [The Daily Health Check Framework](#the-daily-health-check-framework)
+- [1. Uptime Kuma (Service Health)](#1-uptime-kuma-service-health)
+- [2. Geekbot (Async Standup)](#2-geekbot-async-standup)
+- [3. GitHub Morning Digest](#3-github-morning-digest)
+- [4. AWS Cost Health Check](#4-aws-cost-health-check)
+- [5. Grafana Alerting Summary](#5-grafana-alerting-summary)
+- [Consolidated Morning Digest Script](#consolidated-morning-digest-script)
+- [Tool Comparison: Async Standup Options](#tool-comparison-async-standup-options)
+- [Related Reading](#related-reading)
+
 
 | Tool | Key Feature | Remote Team Fit | Integration | Pricing |
 |---|---|---|---|---|
@@ -393,9 +405,17 @@ For teams already on Slack, Geekbot and Standuply are the practical choices. For
 - [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
 - [Best Remote Team Async Daily Check-in Format](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-stand/)
 - [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [Best Pulse Survey Tool for Measuring Remote Employee](/remote-work-tools/best-pulse-survey-tool-for-measuring-remote-employee-engagem/)
 
 ---
 
+## Related Articles
+
+- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
+- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [Best Tools for Remote Team Standup Meetings 2026](/remote-work-tools/best-tools-for-remote-team-standup-meetings-2026/)
+- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

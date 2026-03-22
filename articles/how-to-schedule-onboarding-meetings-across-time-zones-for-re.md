@@ -18,6 +18,21 @@ tags: [remote-work-tools]
 
 Scheduling onboarding meetings across time zones presents unique challenges for remote teams. When your new hires span San Francisco, London, and Tokyo, finding meeting times that work for everyone requires strategy and the right tools. This guide provides practical approaches for developers and technical users who need to coordinate onboarding sessions across global distributions.
 
+## Table of Contents
+
+- [Understanding the Time Zone Problem](#understanding-the-time-zone-problem)
+- [Finding Optimal Meeting Times](#finding-optimal-meeting-times)
+- [Tools That Handle Time Zone Complexity](#tools-that-handle-time-zone-complexity)
+- [Structuring Onboarding Meetings by Time Zone Constraints](#structuring-onboarding-meetings-by-time-zone-constraints)
+- [Practical Onboarding Meeting Schedule Example](#practical-onboarding-meeting-schedule-example)
+- [Handling Emergency Onboardings](#handling-emergency-onboardings)
+- [Tools That Work Well](#tools-that-work-well)
+- [Common Scheduling Mistakes](#common-scheduling-mistakes)
+- [Async Onboarding Materials (Complement to Meetings)](#async-onboarding-materials-complement-to-meetings)
+- [Onboarding Timeline Template](#onboarding-timeline-template)
+- [Success Metrics for Distributed Onboarding](#success-metrics-for-distributed-onboarding)
+- [Scaling Onboarding for Growth](#scaling-onboarding-for-growth)
+
 ## Understanding the Time Zone Problem
 
 Remote engineering teams often span three or more time zones, making synchronous meetings difficult to schedule. A meeting time that works for your San Francisco office at 9 AM PST translates to 5 PM in London and midnight in Tokyo. For onboarding, this creates friction: new team members need face-time with mentors and teammates, but forcing everyone into inconvenient hours damages morale and engagement.
@@ -330,11 +345,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Manage Remote Team Handoffs Across Time Zones: A](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
-- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
-- [How to Schedule Meetings Across 8 Hour Timezone Difference](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
-- [Example on-call schedule that uses timezone difference](/remote-work-tools/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
-- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
-
+- [Remote HR Onboarding Platform Comparison for Hiring](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
+- [Remote Work Time Zone Overlap Calculator Tools 2026](/remote-work-tools/remote-work-time-zone-overlap-calculator-tools-2026/)
+- [Remote-First Onboarding Automation Pipeline 2026](/remote-work-tools/remote-first-onboarding-automation-pipeline-2026/)
+- [How to Manage Remote Team Across 5 Plus Time Zones Guide](/remote-work-tools/how-to-manage-remote-team-across-5-plus-time-zones-guide/)
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

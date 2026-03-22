@@ -17,6 +17,21 @@ intent-checked: true
 
 Combining an aluminum laptop stand with an 80mm cooling fan, closing your laptop lid to disable the hot display backlight, scheduling CPU-intensive tasks during cooler morning hours, and applying a conservative -100mV undervolt reduces laptop temperatures 15-20°C below unmanaged configurations. In 32°C ambient conditions with this multi-pronged approach, your development environment stays responsive while React builds and Docker operations complete in reasonable times instead of taking 3x longer due to thermal throttling.
 
+## Table of Contents
+
+- [Understanding Thermal Throttling in Tropical Conditions](#understanding-thermal-throttling-in-tropical-conditions)
+- [Active Cooling Solutions](#active-cooling-solutions)
+- [Passive Cooling Strategies](#passive-cooling-strategies)
+- [Software-Level Thermal Management](#software-level-thermal-management)
+- [Hardware Considerations for Tropical Work](#hardware-considerations-for-tropical-work)
+- [Building Your Tropical Workstation](#building-your-tropical-workstation)
+- [Monitoring Your Setup](#monitoring-your-setup)
+- [Product Comparison: Cooling Solutions](#product-comparison-cooling-solutions)
+- [Temperature Profiling: Establishing Your Baseline](#temperature-profiling-establishing-your-baseline)
+- [Workflow Optimization for Thermal Constraints](#workflow-optimization-for-thermal-constraints)
+- [Advanced: DIY Cooling System](#advanced-diy-cooling-system)
+- [Measuring Cooling Effectiveness](#measuring-cooling-effectiveness)
+
 ## Understanding Thermal Throttling in Tropical Conditions
 
 Tropical climates create a double thermal burden. Ambient temperatures often exceed 30°C (86°F) with humidity levels between 70-90%. Your laptop must dissipate both its internal heat generation and fight against the surrounding warm, moist air.
@@ -475,11 +490,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [On Android, enable tethering via settings](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)
-- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
-- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
 - [Ergonomic Laptop Stand for Remote Workers](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
-- [Best Backup Solution for Remote Employee Laptops](/remote-work-tools/best-backup-solution-for-remote-employee-laptops-automatic-a/)
-
+- [Roost Stand vs Nexstand Laptop Stand Comparison](/remote-work-tools/roost-stand-vs-nexstand-laptop-stand-comparison/)
+- [How to Prevent Laptop Overheating During Long Video Call](/remote-work-tools/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
+- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

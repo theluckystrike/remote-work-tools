@@ -89,6 +89,22 @@ What was decided and why? Be specific about the reasoning that led to this choic
 *This decision was made by [Team Name] through async review.*
 ```
 
+## Table of Contents
+
+- [Storing Decision Logs in Your Repository](#storing-decision-logs-in-your-repository)
+- [Contributing](#contributing)
+- [Using GitHub Issues for Async Discussion](#using-github-issues-for-async-discussion)
+- [Automating Decision Log Creation](#automating-decision-log-creation)
+- [Problem Statement](#problem-statement)
+- [Options Considered](#options-considered)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Feedback Period](#feedback-period)
+- [Cross-Referencing Decisions](#cross-referencing-decisions)
+- [Establishing Team Conventions](#establishing-team-conventions)
+- [Alternatives Worth Considering](#alternatives-worth-considering)
+- [Making Decisions Discoverable](#making-decisions-discoverable)
+
 The feedback period section is critical for remote teams. It explicitly states when comments are welcome and how to provide them, reducing confusion about whether a decision is still open for discussion.
 
 ## Storing Decision Logs in Your Repository
@@ -272,12 +288,11 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
 - [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
-
+- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+- [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
+- [How to Create Remote Team Decision Making Framework for Dist](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

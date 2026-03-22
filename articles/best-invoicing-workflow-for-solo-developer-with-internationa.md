@@ -18,6 +18,27 @@ intent-checked: true
 
 Use Wise as your primary payment account, invoice in your home currency with automated templates, and track everything in a single spreadsheet or Notion database. That combination handles currency conversion, minimizes fees, and keeps international tax documentation organized. This guide walks through the full invoicing workflow designed specifically for solo developers managing international client relationships.
 
+## Table of Contents
+
+- [The Core Challenge](#the-core-challenge)
+- [Structuring Your Invoicing System](#structuring-your-invoicing-system)
+- [Client Information Template](#client-information-template)
+- [Currency and Payment Strategy](#currency-and-payment-strategy)
+- [Automating the Workflow](#automating-the-workflow)
+- [Tax Considerations for International Work](#tax-considerations-for-international-work)
+- [Client Communication Templates](#client-communication-templates)
+- [Tool Comparison for Solo Developers](#tool-comparison-for-solo-developers)
+- [Real-World Payment Flow](#real-world-payment-flow)
+- [Negotiating Payment Terms with International Clients](#negotiating-payment-terms-with-international-clients)
+- [Building Client Relationships That Reduce Friction](#building-client-relationships-that-reduce-friction)
+- [Tax Documentation for Annual Filing](#tax-documentation-for-annual-filing)
+- [Cash Flow Management for International Payments](#cash-flow-management-for-international-payments)
+- [Receivables Aging - March 20, 2026](#receivables-aging-march-20-2026)
+- [Handling Disputes and Late Payments](#handling-disputes-and-late-payments)
+- [Multi-Currency Risk Management](#multi-currency-risk-management)
+- [Annual Tax Reporting for International Invoicing](#annual-tax-reporting-for-international-invoicing)
+- [Final Recommendations](#final-recommendations)
+
 ## The Core Challenge
 
 International invoicing introduces complexity that domestic work avoids. You need to convert your rates into client currencies, handle VAT or GST registration in some regions, track which payments have cleared, and follow up on invoices across time zones. A disorganized approach means lost hours on administrative work and delayed payments that hurt your business operations.
@@ -389,11 +410,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Daily Workflow for a Solo Remote Technical Writer 2026](/remote-work-tools/daily-workflow-for-a-solo-remote-technical-writer-2026/)
-- [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
-- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
+- [Best Invoicing Tools for Freelancers 2026](/remote-work-tools/best-invoicing-tools-for-freelancers-2026/)
 - [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
-- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-
+- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
+- [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)
+- [Best Practice for Remote Team Vendor Payment Terms](/remote-work-tools/best-practice-for-remote-team-vendor-payment-terms-negotiati/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

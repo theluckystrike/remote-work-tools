@@ -17,6 +17,24 @@ voice-checked: true
 
 Slack Workflow Builder has become an essential tool for remote teams automating routine communications, approvals, and notifications. When your workflows suddenly stop running, it can disrupt critical processes across your distributed team. This guide provides practical troubleshooting steps to get your Slack automations back on track.
 
+## Table of Contents
+
+- [Common Reasons Why Slack Workflows Stop Running](#common-reasons-why-slack-workflows-stop-running)
+- [Step-by-Step Troubleshooting Guide](#step-by-step-troubleshooting-guide)
+- [Prevention Strategies for Remote Teams](#prevention-strategies-for-remote-teams)
+- [External Integration Considerations](#external-integration-considerations)
+- [Getting Additional Help](#getting-additional-help)
+- [Advanced Workflow Builder Patterns for Remote Teams](#advanced-workflow-builder-patterns-for-remote-teams)
+- [Workflow Migration Strategies](#workflow-migration-strategies)
+- [Workflow Integration Patterns with External Services](#workflow-integration-patterns-with-external-services)
+- [Slack Workflow Optimization for Distributed Teams](#slack-workflow-optimization-for-distributed-teams)
+- [Slack Workflow Monitoring and Maintenance](#slack-workflow-monitoring-and-maintenance)
+- [Slack Workflow Templates for Common Remote Work Scenarios](#slack-workflow-templates-for-common-remote-work-scenarios)
+- [Advanced Slack Workflow Diagnostics](#advanced-slack-workflow-diagnostics)
+- [Slack Workflow Performance Optimization](#slack-workflow-performance-optimization)
+- [Slack Workflow Integration Patterns](#slack-workflow-integration-patterns)
+- [Slack Admin Best Practices for Workflow Management](#slack-admin-best-practices-for-workflow-management)
+
 ## Common Reasons Why Slack Workflows Stop Running
 
 Before examining solutions, understanding why workflows fail helps you prevent future issues. Several factors commonly cause Slack Workflow Builder automations to stop working.
@@ -243,10 +261,11 @@ Workspace administrators should implement these practices.
 
 ## Related Articles
 
-- [How to Create Async Standup Templates in Slack](/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
-- [Best Onboarding Automation Workflow for Remote Companies](/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
-- [Simple Slack kudos automation using Slack API](/best-remote-employee-recognition-program-ideas-for-distribut/)
-
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
+- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+- [How to Create Async Standup Templates in Slack](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
+- [Slack List View Sorting Not Saving Preference Fix 2026](/remote-work-tools/slack-list-view-sorting-not-saving-preference-fix-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

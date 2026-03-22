@@ -17,6 +17,24 @@ voice-checked: true
 
 Remote parents face a unique audio challenge: maintaining professional call quality while children play, laugh, and occasionally scream in the background. A properly configured noise gate can mean the difference between a crystal-clear presentation and an embarrassing moment where your team hears your toddler's dinosaur roar.
 
+## Table of Contents
+
+- [Why Standard Noise Gate Settings Fail Parents](#why-standard-noise-gate-settings-fail-parents)
+- [Understanding the Key Parameters](#understanding-the-key-parameters)
+- [Recommended Settings for Parents](#recommended-settings-for-parents)
+- [Testing Your Settings](#testing-your-settings)
+- [Practical Implementation Examples](#practical-implementation-examples)
+- [Additional Strategies for Parents](#additional-strategies-for-parents)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [When to Go Beyond Noise Gates](#when-to-go-beyond-noise-gates)
+- [Microphone Hardware Recommendations](#microphone-hardware-recommendations)
+- [Practical Implementation by Software](#practical-implementation-by-software)
+- [Testing Protocol Before Important Calls](#testing-protocol-before-important-calls)
+- [Fine-Tuning for Your Specific Situation](#fine-tuning-for-your-specific-situation)
+- [Measuring Success Metrics](#measuring-success-metrics)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Parent-Specific Advanced Strategies](#parent-specific-advanced-strategies)
+
 This guide provides specific noise gate settings tailored for remote parents managing kids nearby. You'll find practical configurations that balance noise suppression with natural voice transmission.
 
 ## Why Standard Noise Gate Settings Fail Parents
@@ -337,9 +355,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
 - [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
-- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/remote-work-tools/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
-- [Best Remote Work Headset with Microphone 2026](/remote-work-tools/best-remote-work-headset-with-microphone-2026/)
-- [Example: Calculating appropriate microphone gain](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
-
+- [Best Noise Cancelling Microphones for Home Offices Busy](/remote-work-tools/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
+- [Best Noise Canceling Earbuds for Remote Work 2026](/remote-work-tools/best-noise-canceling-earbuds-for-remote-work-2026/)
+- [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

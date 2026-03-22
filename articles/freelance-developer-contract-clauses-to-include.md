@@ -18,6 +18,36 @@ voice-checked: true
 
 Every freelance developer contract should include these essential clauses: scope of work definition, payment terms with milestones, intellectual property transfer, revision limits, termination conditions, confidentiality obligations, liability caps, and dispute resolution. This guide provides ready-to-use language for each clause with practical examples you can adapt to your agreements.
 
+## Table of Contents
+
+- [Scope of Work Definition](#scope-of-work-definition)
+- [Scope of Work](#scope-of-work)
+- [Out of Scope](#out-of-scope)
+- [Payment Terms and Milestones](#payment-terms-and-milestones)
+- [Payment Terms](#payment-terms)
+- [Additional Work](#additional-work)
+- [Intellectual Property Transfer](#intellectual-property-transfer)
+- [Intellectual Property](#intellectual-property)
+- [Revision and Change Request Process](#revision-and-change-request-process)
+- [Revisions and Changes](#revisions-and-changes)
+- [Termination Clauses](#termination-clauses)
+- [Termination](#termination)
+- [Confidentiality and Non-Disclosure](#confidentiality-and-non-disclosure)
+- [Confidentiality](#confidentiality)
+- [Limitation of Liability](#limitation-of-liability)
+- [Limitation of Liability](#limitation-of-liability)
+- [Dispute Resolution](#dispute-resolution)
+- [Dispute Resolution](#dispute-resolution)
+- [Communication and Response Times](#communication-and-response-times)
+- [Communication](#communication)
+- [Practical Example: Complete Clauses Section](#practical-example-complete-clauses-section)
+- [3. Project Timeline](#3-project-timeline)
+- [4. Acceptance Criteria](#4-acceptance-criteria)
+- [Negotiating Contract Terms as a Freelancer](#negotiating-contract-terms-as-a-freelancer)
+- [Managing Contract Changes Mid-Project](#managing-contract-changes-mid-project)
+- [Change Order #001](#change-order-001)
+- [Common Contract Disputes and How to Prevent Them](#common-contract-disputes-and-how-to-prevent-them)
+
 ## Scope of Work Definition
 
 The scope of work section forms the foundation of your contract. Vague scopes lead to scope creep, unpaid extra work, and damaged client relationships. Be specific about deliverables, timelines, and what constitutes completion.
@@ -367,11 +397,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [Freelance Developer Toolkit: Essential Apps 2026](/remote-work-tools/freelance-developer-toolkit-essential-apps-2026/)
 - [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
 - [Best Tools for Managing Client Contracts Invoices Freelance](/remote-work-tools/best-tools-for-managing-client-contracts-invoices-freelance-developer/)
-- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
-- [Freelance Developer Networking Strategies Online: A](/remote-work-tools/freelance-developer-networking-strategies-online/)
-
+- [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
+- [Payment Terms Best Practices for Freelancers](/remote-work-tools/payment-terms-best-practices-for-freelancers/)
+- [Freelance Developer Toolkit: Essential Apps 2026](/remote-work-tools/freelance-developer-toolkit-essential-apps-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

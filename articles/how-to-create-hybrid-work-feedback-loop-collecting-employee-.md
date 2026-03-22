@@ -247,6 +247,16 @@ A feedback loop that runs continuously becomes part of how your organization ope
 
 ## Real-World Feedback Loop Example: Case Study
 
+## Table of Contents
+
+- [Real-World Feedback Loop Example: Case Study](#real-world-feedback-loop-example-case-study)
+- [Feedback Metrics That Actually Matter](#feedback-metrics-that-actually-matter)
+- [Feedback Integration with Payroll and HR Systems](#feedback-integration-with-payroll-and-hr-systems)
+- [Closed-Loop Feedback: Showing Results to Employees](#closed-loop-feedback-showing-results-to-employees)
+- [Post-Feedback Communication Template](#post-feedback-communication-template)
+- [Advanced: Sentiment Analysis on Qualitative Feedback](#advanced-sentiment-analysis-on-qualitative-feedback)
+- [Common Feedback Loop Mistakes and How to Avoid Them](#common-feedback-loop-mistakes-and-how-to-avoid-them)
+
 A 45-person SaaS company implemented a hybrid feedback system after returning to the office post-pandemic. Here's how it worked and what changed:
 
 **Initial Policy**: "Tuesdays and Thursdays in-office, Mon/Wed/Fri remote"
@@ -544,11 +554,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [Client Feedback Collection Tool for Remote Development](/remote-work-tools/client-feedback-collection-tool-for-remote-development-agenc/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [Best Practice for Remote Team Documentation Feedback Loop](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
-- [How to Create Hybrid Work Equipment Checkout System for Shar](/remote-work-tools/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)
-- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
-- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
-- [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

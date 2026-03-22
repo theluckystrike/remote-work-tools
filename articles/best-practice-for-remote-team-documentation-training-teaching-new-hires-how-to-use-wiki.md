@@ -15,6 +15,42 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Teach new hires to use your wiki by giving them a "Getting Started" page on day one covering naming conventions, section structure, and linking habits. Then assign them a hands-on practice task: find three specific answers in your wiki (e.g., "How do we deploy to staging?" or "Where are AWS credentials stored?"). Have them report back what they found and how long it took—this identifies navigation problems immediately. Finally, require them to contribute one new page or update two existing pages during their first sprint, which both embeds wiki habits and catches outdated content.
 
+## Table of Contents
+
+- [Establishing Wiki Conventions Early](#establishing-wiki-conventions-early)
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+- [Hands-On Training Session](#hands-on-training-session)
+- [Structured Practice Assignments](#structured-practice-assignments)
+- [Search Optimization for Wiki Pages](#search-optimization-for-wiki-pages)
+- [Encouraging Contribution Habits](#encouraging-contribution-habits)
+- [Measuring Wiki Adoption](#measuring-wiki-adoption)
+- [Onboarding Checklist for Wiki Mastery](#onboarding-checklist-for-wiki-mastery)
+- [Tools That Support Wiki Training](#tools-that-support-wiki-training)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Wiki Platform Selection](#wiki-platform-selection)
+- [Training Timeline and Effort](#training-timeline-and-effort)
+- [Content Strategy for Different Document Types](#content-strategy-for-different-document-types)
+- [Prerequisites](#prerequisites)
+- [Step-by-Step](#step-by-step)
+- [Troubleshooting](#troubleshooting)
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Overview](#overview)
+- [Configuration](#configuration)
+- [Common Operations](#common-operations)
+- [Troubleshooting](#troubleshooting)
+- [Monitoring](#monitoring)
+- [Habit Building: Integration with Daily Workflow](#habit-building-integration-with-daily-workflow)
+- [Measuring Wiki Adoption](#measuring-wiki-adoption)
+- [Scaling Documentation as Team Grows](#scaling-documentation-as-team-grows)
+- [Common Documentation Training Pitfalls](#common-documentation-training-pitfalls)
+- [Quick-Start Implementation](#quick-start-implementation)
+
 ## Establishing Wiki Conventions Early
 
 Before training begins, your team needs documented conventions. New hires should find a "Getting Started" or "Wiki Guidelines" page within their first day. This page should cover:
@@ -408,10 +444,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
+- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
 - [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
-- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
 - [Best Practice for Remote Team Onboarding Wiki](/remote-work-tools/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
-- [Hybrid Work Onboarding Process for New Hires](/remote-work-tools/hybrid-work-onboarding-process-for-new-hires/)
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
-
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

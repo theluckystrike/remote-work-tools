@@ -13,25 +13,22 @@ categories: [guides]
 intent-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "How to Manage Remote Team When Multiple Parents Have"
-description: "Practical strategies for managing remote teams when team members have children in different schools with overlapping holiday schedules. Includes"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-manage-remote-team-when-multiple-parents-have-overlap/
-reviewed: true
-score: 8
-voice-checked: true
-categories: [guides]
-intent-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
 Build a shared "School Breaks" calendar showing each parent's childcare gaps, then use a Python script to calculate realistic sprint capacity accounting for 50% productivity during break periods. Default to asynchronous standups and async check-ins during high-conflict weeks, document coverage requests explicitly in a dedicated Slack channel, and set expectations upfront that parents handle their own school schedule coordination—most parents will be satisfied knowing you understand the reality rather than expecting them to ignore school holidays for work.
+
+## Table of Contents
+
+- [Understanding the Overlap Problem](#understanding-the-overlap-problem)
+- [Build a Parental Schedule Calendar](#build-a-parental-schedule-calendar)
+- [Implement Staggered Sprint Planning](#implement-staggered-sprint-planning)
+- [Create a Parent-Cover Protocol](#create-a-parent-cover-protocol)
+- [Coverage Request](#coverage-request)
+- [Use Asynchronous Check-Ins as Default](#use-asynchronous-check-ins-as-default)
+- [Weekly Async Update](#weekly-async-update)
+- [Plan for Overlap as a Team](#plan-for-overlap-as-a-team)
+- [Setting Team Norms Around School Schedules](#setting-team-norms-around-school-schedules)
 
 ## Understanding the Overlap Problem
 
@@ -287,11 +284,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
-- [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
-- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
-- [How to Manage Timezone Overlap When Working Remotely from](/remote-work-tools/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
-- [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
-
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

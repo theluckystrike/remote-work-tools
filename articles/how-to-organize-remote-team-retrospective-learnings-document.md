@@ -144,6 +144,13 @@ status: implemented
 ---
 ```
 
+## Table of Contents
+
+- [Establishing Review Cadence](#establishing-review-cadence)
+- [Retrospective Action Item Tracking](#retrospective-action-item-tracking)
+- [Preserving Context for Future Reference](#preserving-context-for-future-reference)
+- [Creating a Searchable Archive](#creating-a-searchable-archive)
+
 A simple Python script can then generate useful summaries:
 
 ```python
@@ -229,10 +236,11 @@ The goal is that any team member can type a keyword related to a challenge they 
 
 ## Related Articles
 
-- [Best Document Collaboration for a Remote Legal Team of 12](/best-document-collaboration-for-a-remote-legal-team-of-12/)
-- [Best Remote Legal Team Document Collaboration Tool](/best-remote-legal-team-document-collaboration-tool-for-contr/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
-
+- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Remote Team Scaling Retrospective Template for Reflecting](/remote-work-tools/remote-team-scaling-retrospective-template-for-reflecting-on/)
+- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
+- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

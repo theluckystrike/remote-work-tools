@@ -18,6 +18,23 @@ intent-checked: true
 
 ## The Problem: Home Networks Are Security Weak Points
 
+## Table of Contents
+
+- [The Problem: Home Networks Are Security Weak Points](#the-problem-home-networks-are-security-weak-points)
+- [Layer 1: Router Hardening (Prerequisite)](#layer-1-router-hardening-prerequisite)
+- [Layer 2: VLAN Segmentation (Isolate IoT/Guests)](#layer-2-vlan-segmentation-isolate-iotguests)
+- [Layer 3: DNS Filtering (Block Malware at Query Level)](#layer-3-dns-filtering-block-malware-at-query-level)
+- [Layer 4: VPN for Work Devices (Defense in Depth)](#layer-4-vpn-for-work-devices-defense-in-depth)
+- [Layer 5: Guest Network (Isolate Visitors)](#layer-5-guest-network-isolate-visitors)
+- [Layer 6: Firewall Rules (Block Unnecessary Connections)](#layer-6-firewall-rules-block-unnecessary-connections)
+- [Complete Setup Costs](#complete-setup-costs)
+- [Implementation Checklist](#implementation-checklist)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Monitoring and Maintenance](#monitoring-and-maintenance)
+- [Security Best Practices](#security-best-practices)
+- [Bottom Line](#bottom-line)
+- [Tool Quick Reference](#tool-quick-reference)
+
 Your company's VPN protects your traffic. But:
 - Family members' devices compromise WiFi security
 - IoT devices (smart speakers, cameras) run outdated firmware
@@ -646,11 +663,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
 - [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
-- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
-- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
-- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
-
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

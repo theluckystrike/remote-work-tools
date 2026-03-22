@@ -202,6 +202,19 @@ Even well-intentioned teams stumble with recurring problems. Recognizing these p
 "Hey, so we have a pretty serious issue with the API. Performance got way worse. I think it's the database doing too many queries. We should probably fix that before it gets worse. Let me know what you think."
 ```
 
+## Table of Contents
+
+- [Building Asynchronous Feedback Loops](#building-asynchronous-feedback-loops)
+- [Feedback Timeline Example](#feedback-timeline-example)
+- [The Art of Async Disagreement](#the-art-of-async-disagreement)
+- [RFC Discussion: Move to GraphQL](#rfc-discussion-move-to-graphql)
+- [Real-World Async Message Examples](#real-world-async-message-examples)
+- [Architecture Decision: PostgreSQL for Audit Log Storage](#architecture-decision-postgresql-for-audit-log-storage)
+- [Design Review Request: New Dashboard Layout](#design-review-request-new-dashboard-layout)
+- [Async Communication Tools Comparison](#async-communication-tools-comparison)
+- [Building Async Communication Guidelines for Your Team](#building-async-communication-guidelines-for-your-team)
+- [Our Async Communication Guidelines](#our-async-communication-guidelines)
+
 **Vague action items**: "Can you review this?" leaves the reviewer confused about urgency, deadline, or scope. Replace with: "Can you review this PR for security issues by Thursday? I'm targeting Friday deployment."
 
 **Sensitive content without context**: Sharing performance metrics, bugs, or personnel issues without framing them appropriately creates anxiety. Always open sensitive messages with intent: "I'm sharing this to improve our process, not to blame anyone."
@@ -426,11 +439,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
 - [Avoid Miscommunication in Async Written Messages for Remote](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remo/)
-- [How to Avoid Miscommunication in Async Written Messages for](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remote-teams/)
-- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
-- [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
-
+- [How to Avoid Miscommunication in Async Written Messages](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remote-teams/)
+- [How to Make Async Communication Inclusive for Non-Native](/remote-work-tools/how-to-make-async-communication-inclusive-for-non-native-eng/)
+- [Best Async Voice Message Tools for Remote Teams 2026](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
+- [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

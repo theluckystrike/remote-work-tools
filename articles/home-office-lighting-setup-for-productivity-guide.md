@@ -234,9 +234,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
 - [Best Smart Lighting for Home Office Developers](/remote-work-tools/best-smart-lighting-for-home-office-developers/)
-- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
-- [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
-- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
-
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
+- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

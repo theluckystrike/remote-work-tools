@@ -18,6 +18,21 @@ voice-checked: true
 
 Promotion criteria in remote teams often suffer from ambiguity. Without the visibility that comes from physical office presence, developers and technical staff need crystal-clear expectations to advance their careers. A well-designed promotion framework eliminates guesswork, reduces bias, and helps your team understand exactly what they need to demonstrate to move up.
 
+## Table of Contents
+
+- [Why Remote Teams Need Explicit Promotion Criteria](#why-remote-teams-need-explicit-promotion-criteria)
+- [Core Components of a Promotion Framework](#core-components-of-a-promotion-framework)
+- [Promotion Rubric Example: Technical Excellence](#promotion-rubric-example-technical-excellence)
+- [Practical Implementation Steps](#practical-implementation-steps)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Framework Effectiveness](#measuring-framework-effectiveness)
+- [Implementation Tools and Templates](#implementation-tools-and-templates)
+- [Avoiding Common Pitfalls in Remote Teams](#avoiding-common-pitfalls-in-remote-teams)
+- [Quarterly Promotion Readiness Checkpoints](#quarterly-promotion-readiness-checkpoints)
+- [Promotion Readiness Checkpoint (Quarterly)](#promotion-readiness-checkpoint-quarterly)
+- [Handling Promotion Disagreement](#handling-promotion-disagreement)
+- [Scaling the Framework as Teams Grow](#scaling-the-framework-as-teams-grow)
+
 This guide walks through building a promotion framework specifically tailored for remote technical teams—ones that are transparent, equitable, and actually usable.
 
 ## Why Remote Teams Need Explicit Promotion Criteria
@@ -297,11 +312,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)
+- [How to Create Remote Team Career Ladder Documentation](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [How to Build Remote Team Engineering Career Ladder 2026](/remote-work-tools/how-to-build-remote-team-engineering-career-ladder-2026/)
+- [How to Create Remote Team Decision Making Framework for Dist](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 - [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
-- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
-- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-
+- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

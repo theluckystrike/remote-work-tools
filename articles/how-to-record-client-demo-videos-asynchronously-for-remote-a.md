@@ -19,6 +19,18 @@ voice-checked: true
 
 Async demo videos let clients review features on their schedule without time zone coordination, while your team preserves deep work focus. Screen recordings with voiceover narration via Loom, Screenflow, or OBS plus timestamped feedback links create structured review cycles. This guide covers recording workflows, editing automation, and client feedback collection for remote agencies.
 
+## Table of Contents
+
+- [Why Asynchronous Demos Work Better](#why-asynchronous-demos-work-better)
+- [Recording Setup: The Minimal Viable Studio](#recording-setup-the-minimal-viable-studio)
+- [Structuring Your Demo Videos](#structuring-your-demo-videos)
+- [Automation Workflows for Volume Agencies](#automation-workflows-for-volume-agencies)
+- [Handling Client Feedback on Videos](#handling-client-feedback-on-videos)
+- [Common Pitfalls and Fixes](#common-pitfalls-and-fixes)
+- [Recording Equipment Recommendations](#recording-equipment-recommendations)
+- [Workflow Example: Weekly Demo Cycle](#workflow-example-weekly-demo-cycle)
+- [Measuring Demo Impact](#measuring-demo-impact)
+
 ## Why Asynchronous Demos Work Better
 
 Synchronous demos force everyone into real-time availability. A 30-minute demo actually costs an hour when you account for setup time, context switching, and the inevitable small talk. With asynchronous recordings, clients watch when convenient, pause to review tricky sections, and respond with thoughtful feedback instead of reactive "looks good."
@@ -298,11 +310,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Give Constructive Feedback Asynchronously Without](/remote-work-tools/how-to-give-constructive-feedback-asynchronously-without-mis/)
-- [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
-- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
 - [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
-- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-
+- [How to Run a Remote Team Demo Day Showcasing Cross-Team](/remote-work-tools/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
+- [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
+- [How to Run Effective Remote Team Demos and Showcases 2026](/remote-work-tools/how-to-run-effective-remote-team-demos-and-showcases-2026/)
+- [Async Sales Demo Recordings for Remote Enterprise Sales Team](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "How to Track Project Dependencies Remote Team"
-description: "Track project dependencies in a remote team by maintaining a central YAML dependency registry that maps inter-service relationships and ownership, generating"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-track-project-dependencies-remote-team/
-reviewed: true
-score: 8
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 Track project dependencies in a remote team by maintaining a central YAML dependency registry that maps inter-service relationships and ownership, generating dependency graphs with tools like dependency-cruiser or Nx, and automating updates with Dependabot or Renovate. Pair these with a PR template requiring dependency change documentation and cross-team Slack notifications triggered when shared services change. This guide covers each method with concrete code examples you can implement immediately.
 
@@ -276,10 +261,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
+- [Remote DevOps Team Dependency Update Workflow for](/remote-work-tools/remote-devops-team-dependency-update-workflow-for-coordinati/)
+- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
 - [How to Track Remote Team Use Rate Without Invasive](/remote-work-tools/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
-- [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
-- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
-- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
-
+- [Best Tools for Remote Team Dependency Tracking](/remote-work-tools/best-tools-remote-team-dependency-tracking/)
+- [Best Remote Collaboration Tool for Technical Architects](/remote-work-tools/best-remote-collaboration-tool-for-technical-architects-docu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -17,6 +17,20 @@ voice-checked: true
 
 Async weekly recap emails keep distributed teams aligned without synchronous meetings, eliminating information silos across time zones. A well-structured recap documents progress, highlights blockers, and reduces the need for status meetings—saving time for deep work. This guide provides ready-to-use templates, automation scripts for pulling data from Linear/GitHub, and best practices for different team sizes.
 
+## Table of Contents
+
+- [Why Weekly Recap Emails Matter for Remote Teams](#why-weekly-recap-emails-matter-for-remote-teams)
+- [Anatomy of an Effective Weekly Recap Email](#anatomy-of-an-effective-weekly-recap-email)
+- [Template: Basic Weekly Recap](#template-basic-weekly-recap)
+- [Week of [Date Range] Recap](#week-of-date-range-recap)
+- [Template: Team Lead Focus](#template-team-lead-focus)
+- [Team Lead Weekly Update — [Date Range]](#team-lead-weekly-update-date-range)
+- [Automating Your Weekly Recap](#automating-your-weekly-recap)
+- [Best Practices for Remote Team Leads](#best-practices-for-remote-team-leads)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Adapting for Different Team Sizes](#adapting-for-different-team-sizes)
+- [Measuring Effectiveness](#measuring-effectiveness)
+
 ## Why Weekly Recap Emails Matter for Remote Teams
 
 Remote work removes the ambient awareness that comes from physically working together. When you're distributed across time zones, you can't glance at a colleague's screen or overhear a quick status update. This creates information silos where team members work in isolation, unaware of what others are accomplishing or struggling with.
@@ -284,11 +298,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
 - [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
-- [Async QA Signoff Process for Remote Teams Releasing Weekly](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
-- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
-- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
-- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
-
+- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Best Tool for Remote Team Async Introductions](/remote-work-tools/best-tool-for-remote-team-async-introductions-connecting-new/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,22 @@ tags: [remote-work-tools, best-of, remote-work]
 {% raw %}
 For remote teams, use markdown-based runbooks with embedded copy-to-clipboard commands stored in Git—this is the best balance of security, version control, and usability. Tools like Runwayml or custom scripts can display these in an UI with step-by-step validation; the copy-to-terminal model keeps commands out of unauthorized environments while still providing one-click access. Store runbooks in the same repo as infrastructure code so they stay synchronized, and embed variable substitution placeholders (e.g., `$ENVIRONMENT`) that team members fill in before executing commands.
 
+## Table of Contents
+
+- [What Makes Runbooks Interactive](#what-makes-runbooks-interactive)
+- [Choosing the Right Tool for Your Team](#choosing-the-right-tool-for-your-team)
+- [Practical Example: Database Migration Runbook](#practical-example-database-migration-runbook)
+- [Terminal Integration Patterns](#terminal-integration-patterns)
+- [Security Considerations](#security-considerations)
+- [Building a Runbook Library](#building-a-runbook-library)
+- [Measuring Runbook Effectiveness](#measuring-runbook-effectiveness)
+- [Runbook Platform Comparison: Tools for Interactive Execution](#runbook-platform-comparison-tools-for-interactive-execution)
+- [Emergency: Production Database Under Load](#emergency-production-database-under-load)
+- [Steps](#steps)
+- [Rollback (if needed)](#rollback-if-needed)
+- [Runbook Template Library for Common Operations](#runbook-template-library-for-common-operations)
+- [Integrating Runbooks into Incident Response Workflow](#integrating-runbooks-into-incident-response-workflow)
+
 ## What Makes Runbooks Interactive
 
 Traditional runbooks read like documentation—they explain what to do but require manual execution. Interactive runbooks embed executable commands directly into the workflow, allowing team members to run them with a single click or copy action that preserves context.
@@ -580,11 +596,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
+- [How to Build a Remote Team Runbook Library 2026](/remote-work-tools/how-to-build-remote-team-runbook-library-2026/)
+- [How to Write Runbooks for Remote Engineering Teams](/remote-work-tools/how-to-write-runbooks-remote-engineering-teams/)
 - [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
-- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
-- [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
-- [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
-- [Remote Team Runbook Template for Deploying Hotfix to](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
-
+- [How to Create Remote Team Runbook Templates](/remote-work-tools/how-to-create-remote-team-runbook-templates/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

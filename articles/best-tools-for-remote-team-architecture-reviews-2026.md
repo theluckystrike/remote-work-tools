@@ -18,6 +18,17 @@ tags: [remote-work-tools, architecture, diagramming, collaboration, team-tools, 
 
 Miro excels at collaborative async architecture reviews with real-time feedback, comments, and version history. Lucidchart produces publication-quality diagrams but requires more synchronous interaction. Excalidraw prioritizes simplicity and works offline-first, perfect for rapid sketches during design discussions. For enterprise distributed teams needing audit trails and permission management, Lucidchart wins. For fast-moving teams prioritizing collaboration over perfection, Miro is best. Excalidraw suits small teams and open-source projects where cost is critical.
 
+## Table of Contents
+
+- [The Remote Architecture Review Challenge](#the-remote-architecture-review-challenge)
+- [Miro: Real-Time Async Collaboration](#miro-real-time-async-collaboration)
+- [Lucidchart: Publication-Quality Diagrams](#lucidchart-publication-quality-diagrams)
+- [Excalidraw: Rapid Sketching and Open Source](#excalidraw-rapid-sketching-and-open-source)
+- [Feature Comparison Matrix](#feature-comparison-matrix)
+- [Practical Workflow Recommendations](#practical-workflow-recommendations)
+- [Cost Comparison for Teams](#cost-comparison-for-teams)
+- [Real Team Implementation: Case Study](#real-team-implementation-case-study)
+
 ## The Remote Architecture Review Challenge
 
 Architecture decisions require visual communication. Team members across time zones need to understand system design, data flows, service dependencies, and deployment topology without synchronous meetings. This creates unique challenges:
@@ -383,12 +394,11 @@ Results:
 
 ## Related Articles
 
-- [Lucidchart vs Miro: Diagramming and Whiteboarding Comparison](/remote-work-tools/lucidchart-vs-miro-diagramming-comparison/)
-- [Best Async Design Tools for Distributed Product Teams](/remote-work-tools/best-async-design-tools-distributed-teams/)
-- [How to Structure Architecture Reviews Across Time Zones](/remote-work-tools/how-to-structure-architecture-reviews-async/)
-- [Using Confluence for Distributed Team Documentation](/remote-work-tools/using-confluence-distributed-team-documentation/)
-- [Remote Whiteboarding Tools Compared 2026](/remote-work-tools/remote-whiteboarding-tools-compared-2026/)
-
+- [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [Best Tools for Remote Team Documentation Reviews 2026](/remote-work-tools/best-tools-for-remote-team-documentation-reviews-2026/)
+- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
+- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/remote-work-tools/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
+- [Remote Team Information Architecture Overhaul Guide When](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
 {% endraw %}
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

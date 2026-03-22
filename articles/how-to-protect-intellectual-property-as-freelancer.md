@@ -18,6 +18,14 @@ voice-checked: true
 
 Every freelance developer has faced this scenario: you build something remarkable, hand it over to a client, and later discover they've reused your code without permission—or worse, claimed they own work you created. Intellectual property disputes are common in the freelance world, but they're entirely preventable with the right contracts, licensing strategies, and documentation practices.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Client Communication Best Practices](#client-communication-best-practices)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Git and Version Control Best Practices](#git-and-version-control-best-practices)
+- [Troubleshooting](#troubleshooting)
+
 This guide covers practical steps to protect your IP as a freelancer, with concrete examples and templates you can use immediately.
 
 ## Prerequisites
@@ -410,11 +418,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
 - [Remote Employee Intellectual Property Assignment Clause](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
-- [Best Practice for Remote Appraisers Conducting Property](/remote-work-tools/best-practice-for-remote-appraisers-conducting-property-valu/)
-- [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
+- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
 - [How to Transition From Employee to Freelancer](/remote-work-tools/how-to-transition-from-employee-to-freelancer/)
-- [Notion Setup for Solo Freelancer Managing 5 Clients: A](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
-
+- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

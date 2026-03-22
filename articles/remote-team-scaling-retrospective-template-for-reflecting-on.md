@@ -18,6 +18,24 @@ voice-checked: true
 
 Scaling a remote team introduces unique challenges that differ significantly from growing an office-based team. Communication gaps widen, processes that worked for five people break at twenty, and cultural cohesion strains across time zones. Without structured reflection, teams often repeat the same mistakes quarter after quarter. A well-designed retrospective template helps remote teams identify these patterns, acknowledge wins, and plot concrete improvements for the next quarter.
 
+## Table of Contents
+
+- [Action Item**: Reduce Cross-Timezone Dependencies](#action-item-reduce-cross-timezone-dependencies)
+- [Why Standard Retrospectives Fall Short for Scaling Teams](#why-standard-retrospectives-fall-short-for-scaling-teams)
+- [The Remote Team Scaling Retrospective Framework](#the-remote-team-scaling-retrospective-framework)
+- [Q1 2026 Growth Metrics](#q1-2026-growth-metrics)
+- [Running the Retrospective Async](#running-the-retrospective-async)
+- [Action Item: Reduce Cross-Timezone Dependencies](#action-item-reduce-cross-timezone-dependencies)
+- [Template You Can Copy](#template-you-can-copy)
+- [1. Growth Metrics](#1-growth-metrics)
+- [2. Communication & Information Flow](#2-communication-information-flow)
+- [3. Process Evolution](#3-process-evolution)
+- [4. Onboarding](#4-onboarding)
+- [5. Culture & Connection](#5-culture-connection)
+- [Action Items](#action-items)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Retrospective Effectiveness](#measuring-retrospective-effectiveness)
+
 This guide provides a complete retrospective framework specifically designed for remote teams experiencing rapid growth. It includes categories tailored to distributed work challenges, help tips for async environments, and a copy-paste template your team can use immediately.
 
 ## Action Item**: Reduce Cross-Timezone Dependencies
@@ -249,11 +267,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
-- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
-- [Remote Team Information Architecture Overhaul Guide When](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
-- [Remote Team Org Chart Restructuring Guide](/remote-work-tools/remote-team-org-chart-restructuring-guide-when-scaling-from-/)
+- [How to Organize Remote Team Retrospective Learnings](/remote-work-tools/how-to-organize-remote-team-retrospective-learnings-document/)
 - [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
-
+- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

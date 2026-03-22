@@ -16,6 +16,16 @@ tags: [remote-work-tools, best-of]
 {% raw %}
 Microsoft Graph API integration enables desk booking systems to automatically sync with Azure Active Directory user accounts, pulling availability from Outlook calendars and Teams presence to suggest optimal desk assignments without manual provisioning. Leading solutions like Robin, iOffice, and WhereCloud authenticate users via Microsoft SSO, sync organizational hierarchies for team-based seating, and trigger desk reservations through Teams bots or Outlook calendar integrations. This eliminates the friction of maintaining separate identity systems, enables auto-release of desks when calendars indicate remote work, and provides analytics through Microsoft 365 to optimize floor plan layouts—making Microsoft 365-integrated desk booking systems the practical default for enterprise hybrid offices seeking frictionless management.
 
+## Table of Contents
+
+- [Why Microsoft 365 Integration Matters for Desk Booking](#why-microsoft-365-integration-matters-for-desk-booking)
+- [Technical Integration Patterns with Microsoft Graph API](#technical-integration-patterns-with-microsoft-graph-api)
+- [Key Features for Developers and Power Users](#key-features-for-developers-and-power-users)
+- [Comparing the Top Desk Booking Apps for Microsoft 365](#comparing-the-top-desk-booking-apps-for-microsoft-365)
+- [Auto-Release and Ghost Desk Prevention](#auto-release-and-ghost-desk-prevention)
+- [Implementation Considerations](#implementation-considerations)
+- [Rollout Strategy for Hybrid Offices](#rollout-strategy-for-hybrid-offices)
+
 ## Why Microsoft 365 Integration Matters for Desk Booking
 
 When employees already authenticate using Microsoft 365 accounts, desk booking systems that require separate login credentials create friction and reduce adoption. Microsoft 365 integration delivers several practical benefits:
@@ -284,11 +294,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Desk Reservation App for Hybrid Workplace](/remote-work-tools/desk-reservation-app-for-hybrid-workplace/)
-- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
 - [Hot Desk Booking Software Comparison 2026](/remote-work-tools/hot-desk-booking-software-comparison-2026/)
-- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Desk Reservation App for Hybrid Workplace](/remote-work-tools/desk-reservation-app-for-hybrid-workplace/)
 - [Best Hot Desking Software for Hybrid Offices with Under 100](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
-
+- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
+- [L-Shaped Desk vs Straight Desk for Home Office](/remote-work-tools/l-shaped-desk-vs-straight-desk-for-home-office/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

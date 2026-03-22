@@ -18,6 +18,17 @@ voice-checked: true
 
 Changing SIM cards frequently while traveling internationally creates a specific problem for two-factor authentication (2FA). Your phone number changes, and many 2FA systems link directly to that number—whether it's SMS codes or authenticator apps tied to a specific device. If you rely on phone-based 2FA without preparation, you risk losing access to critical accounts at the worst possible moment.
 
+## Table of Contents
+
+- [Understanding the Core Problem](#understanding-the-core-problem)
+- [Strategy 1: Use Authenticator Apps with Cloud Backup](#strategy-1-use-authenticator-apps-with-cloud-backup)
+- [Strategy 2: Export and Store Recovery Codes Properly](#strategy-2-export-and-store-recovery-codes-properly)
+- [Strategy 3: Use Hardware Tokens as Primary 2FA](#strategy-3-use-hardware-tokens-as-primary-2fa)
+- [Strategy 4: Keep a Static Number Through VoIP](#strategy-4-keep-a-static-number-through-voip)
+- [Strategy 5: Prepare Before You Travel](#strategy-5-prepare-before-you-travel)
+- [What to Do If You're Locked Out](#what-to-do-if-youre-locked-out)
+- [Building Your Long-Term Setup](#building-your-long-term-setup)
+
 This guide covers practical strategies for developers and power users who switch SIM cards regularly. The focus is on maintaining access to your accounts without creating security vulnerabilities.
 
 ## Understanding the Core Problem
@@ -229,11 +240,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)
 - [Best Two-Factor Authentication Setup for Remote Team Shared](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
-- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
-- [Clio API authentication](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
-- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
-- [Project Tracking Tool for Two Person Design Agency 2026](/remote-work-tools/project-tracking-tool-for-two-person-design-agency-2026/)
-
+- [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
+- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
+- [Best Grocery Delivery Service Strategy for Remote Working](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

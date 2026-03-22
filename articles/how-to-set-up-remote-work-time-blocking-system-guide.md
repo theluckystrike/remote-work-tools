@@ -18,6 +18,23 @@ intent-checked: true
 
 ## Overview
 
+## Table of Contents
+
+- [Overview](#overview)
+- [The Remote Work Problem](#the-remote-work-problem)
+- [Core System Architecture](#core-system-architecture)
+- [Step 1: Calendar Foundation Setup](#step-1-calendar-foundation-setup)
+- [Step 2: Automation - Slack Integration](#step-2-automation-slack-integration)
+- [Step 3: Focus Tools Integration](#step-3-focus-tools-integration)
+- [Step 4: Communication Tool Setup](#step-4-communication-tool-setup)
+- [Step 5: Task Capture System](#step-5-task-capture-system)
+- [Step 6: Complete Automation Example](#step-6-complete-automation-example)
+- [Real-World Weekly Time Budget](#real-world-weekly-time-budget)
+- [Implementation Checklist](#implementation-checklist)
+- [Troubleshooting](#troubleshooting)
+- [Metrics to Track](#metrics-to-track)
+- [Advanced: Team-Wide Implementation](#advanced-team-wide-implementation)
+
 Remote work enables flexibility but destroys boundaries. Without structure, deep work time gets hijacked by Slack, meetings, and interruptions. Time blocking—protecting specific calendar blocks for focused work—is the most effective productivity system for remote workers. This guide builds a complete time blocking system using Google Calendar, Slack automation, and focus tools.
 
 ## The Remote Work Problem
@@ -505,10 +522,11 @@ Individual time blocking is good. Team-wide adoption is better.
 
 ## Related Articles
 
-- [How to Set Up Dual Monitor Arms on Remote Work Desk](/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
-- [How to Set Up Harvest for Remote Agency Client Time Tracking](/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
-- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
-
+- [Best Whiteboarding Tool for Remote Architects Doing System](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
+- [Best Calendar Tool for a Remote Executive Team of 5](/remote-work-tools/best-calendar-tool-for-a-remote-executive-team-of-5/)
+- [Best Tools for Remote Design System Management](/remote-work-tools/best-tools-remote-design-system-management/)
+- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

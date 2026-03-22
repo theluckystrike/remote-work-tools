@@ -18,6 +18,22 @@ voice-checked: true
 
 Childcare benefit policies for hybrid employees should offer multiple benefit types (monthly stipods, on-site childcare partnerships, flexible spending), define clear eligibility criteria and office day requirements, and implement documentation workflows tracking benefit requests. Include required proof of guardianship, establish quarterly policy reviews monitoring use rates and retention impact, and provide consistent communication through onboarding, annual enrollment, and quarterly verification. Design policies that genuinely remove barriers for working parents rather than creating compliance burdens.
 
+## Table of Contents
+
+- [Why Childcare Benefits Matter for Hybrid Teams](#why-childcare-benefits-matter-for-hybrid-teams)
+- [Policy Template Structure](#policy-template-structure)
+- [Eligibility](#eligibility)
+- [Available Benefits](#available-benefits)
+- [Office Day Requirements](#office-day-requirements)
+- [Required Documentation](#required-documentation)
+- [Policy Review Process](#policy-review-process)
+- [Implementation Checklist](#implementation-checklist)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Tracking Benefit Utilization with a Dashboard](#tracking-benefit-utilization-with-a-dashboard)
+- [Adjusting Stipend Amounts for Cost-of-Living Variation](#adjusting-stipend-amounts-for-cost-of-living-variation)
+- [Handling Policy Changes During Open Enrollment](#handling-policy-changes-during-open-enrollment)
+- [Childcare Benefit Change Notice](#childcare-benefit-change-notice)
+
 ## Why Childcare Benefits Matter for Hybrid Teams
 
 Hybrid work introduces unique challenges for working parents. Office days require additional logistics: coordinating childcare, managing commute times, and ensuring coverage during in-person requirements. Without support, organizations risk losing experienced employees who cannot reconcile these demands.
@@ -332,10 +348,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
-- [Remote Work Employer Childcare Stipend Policy Template for](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
-- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
-- [Example: HIPAA-compliant data handling](/remote-work-tools/remote-healthcare-patient-intake-form-tool-for-distributed-c/)
-- [Migration runbook example structure](/remote-work-tools/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
-
+- [Remote Work Employer Childcare Stipend Policy Template](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
+- [Transit Benefits for Hybrid Employees Guide](/remote-work-tools/transit-benefits-for-hybrid-employees-guide/)
+- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

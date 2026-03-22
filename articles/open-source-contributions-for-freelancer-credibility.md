@@ -13,25 +13,29 @@ reviewed: true
 score: 9
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Open Source Contributions for Freelancer Credibility"
-description: "Learn how strategic open source contributions build freelancer credibility. Practical strategies, GitHub workflows, and code examples for developers"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /open-source-contributions-for-freelancer-credibility/
-categories: [guides]
-intent-checked: true
-voice-checked: true
-reviewed: true
-score: 9
-tags: [remote-work-tools]
----
 
 {% raw %}
 
 When potential clients evaluate freelancers, they face a fundamental problem: how to verify technical competence from a portfolio of potentially inflated claims. Open source contributions solve this problem by providing verifiable evidence of your skills. Unlike testimonials or portfolio pieces that exist behind NDA walls, your contributions to public repositories are inspectable, runnable, and judgeable by anyone with technical knowledge.
+
+## Table of Contents
+
+- [Why Open Source Matters for Freelance Work](#why-open-source-matters-for-freelance-work)
+- [Starting with Existing Projects](#starting-with-existing-projects)
+- [Choosing Projects That Align with Your Niche](#choosing-projects-that-align-with-your-niche)
+- [Open Source Contributions](#open-source-contributions)
+- [Building Your Own Tools](#building-your-own-tools)
+- [Documenting Your Work](#documenting-your-work)
+- [Making Contributions Visible](#making-contributions-visible)
+- [Contribution Timeline and Realistic Expectations](#contribution-timeline-and-realistic-expectations)
+- [Contribution Strategy by Career Stage](#contribution-strategy-by-career-stage)
+- [Platform Strategy: Where to Build Presence](#platform-strategy-where-to-build-presence)
+- [What makes this different](#what-makes-this-different)
+- [For Freelance Clients](#for-freelance-clients)
+- [Monetizing Open Source Credibility](#monetizing-open-source-credibility)
+- [Professional Support](#professional-support)
+- [Starting Your Contribution Journey](#starting-your-contribution-journey)
+- [Quick-Start Checklist](#quick-start-checklist)
 
 This guide covers how to use open source contributions strategically to build credibility as a freelance developer.
 
@@ -371,10 +375,9 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 ## Related Articles
 
 - [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)
-- [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
-- [How to Handle Social Security Contributions When Working](/remote-work-tools/how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/)
+- [Best Open Source Screen Recording Tools for Remote Team](/remote-work-tools/best-open-source-screen-recording-tool-for-remote-team-async/)
 - [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
 - [How to Transition From Employee to Freelancer](/remote-work-tools/how-to-transition-from-employee-to-freelancer/)
-
+- [How to Handle Social Security Contributions When Working](/remote-work-tools/how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

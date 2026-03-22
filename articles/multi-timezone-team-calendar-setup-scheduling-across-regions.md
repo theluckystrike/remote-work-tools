@@ -17,6 +17,19 @@ intent-checked: true
 
 Scheduling meetings across timezones is the unsolved problem of distributed teams. Someone is always at 6 AM or 10 PM. Teams resort to rotating inconvenient times (unfair) or skip synchronous meetings entirely (isolating). This guide shows the exact calendar configurations, tools, and scheduling strategies used by high-performance distributed teams across 8+ timezones.
 
+## Table of Contents
+
+- [The Core Problem: Why Standard Calendars Fail](#the-core-problem-why-standard-calendars-fail)
+- [Step 1: Map Your Timezone Overlap](#step-1-map-your-timezone-overlap)
+- [Step 2: Configure Calendar Tools for Timezone Clarity](#step-2-configure-calendar-tools-for-timezone-clarity)
+- [Step 3: Implement Timezone Rotation Strategy](#step-3-implement-timezone-rotation-strategy)
+- [Step 4: Create "Core Hours" Overlap Window](#step-4-create-core-hours-overlap-window)
+- [Step 5: Structure Meetings to Respect Timezone Costs](#step-5-structure-meetings-to-respect-timezone-costs)
+- [Step 6: Async-First Meeting Alternatives](#step-6-async-first-meeting-alternatives)
+- [Step 7: Tools for Scheduling Across Timezones](#step-7-tools-for-scheduling-across-timezones)
+- [Real-World Scenario: 7-Person Team Across 4 Timezones](#real-world-scenario-7-person-team-across-4-timezones)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+
 ## The Core Problem: Why Standard Calendars Fail
 
 When your team spans Pacific (UTC-8), Europe (UTC+1), and India (UTC+5:30), a "9 AM meeting" needs clarification. Calendar apps show wall-clock times, not the sacrifice required. A 9 AM Pacific call means 12:30 AM India time—unworkable.
@@ -420,10 +433,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
-- [Best eSIM Data Plans for Digital Nomads Working Across](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
-- [How to Schedule Meetings Across 8 Hour Timezone Difference](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
-- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
-- [Best Calendar Tool for a Remote Executive Team of 5](/remote-work-tools/best-calendar-tool-for-a-remote-executive-team-of-5/)
-
+- [Best Timezone Management Tool for Distributed Teams](/remote-work-tools/best-timezone-management-tool-for-distributed-teams-spanning-four-or-more-continents-2026/)
+- [Remote Team Interview Scheduling Tool for Coordinating](/remote-work-tools/remote-team-interview-scheduling-tool-for-coordinating-acros/)
+- [Best Time Zone Management Tools for Distributed Engineering](/remote-work-tools/best-time-zone-management-tools-for-distributed-engineering-teams-2026/)
+- [Best Calendar Scheduling Tools for Remote Teams 2026](/remote-work-tools/calendar-scheduling-tools-remote-teams-2026/)
+- [WorldTimeBuddy Alternatives for Remote Scheduling](/remote-work-tools/worldtimebuddy-alternatives-for-remote-scheduling/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

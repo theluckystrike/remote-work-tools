@@ -171,6 +171,13 @@ Message thread: Replies are threaded, keeping channel organized
 
 ### 2. Standuply (Slack-Native with Advanced Analytics)
 
+## Table of Contents
+
+- [Comparison Table: Async Standup Tools](#comparison-table-async-standup-tools)
+- [Implementation Playbook: 5-Step Rollout](#implementation-playbook-5-step-rollout)
+- [Handling Common Async Standup Challenges](#handling-common-async-standup-challenges)
+- [Advanced: Connecting Standup to Jira/GitHub](#advanced-connecting-standup-to-jiragithub)
+
 **Platform:** Slack
 **Price:** Free tier; paid starts at $2.50/member/month
 **Setup time:** 5 minutes
@@ -638,11 +645,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
-- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
-- [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
-- [GeekBot vs Standuply: Async Standup Tools Compared](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
-
+- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
+- [How to Create Async Standup Templates in Slack](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [How to Run Remote Engineering Standups That Work](/remote-work-tools/how-to-run-remote-engineering-standups/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

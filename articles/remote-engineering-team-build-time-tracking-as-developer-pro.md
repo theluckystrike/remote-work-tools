@@ -13,25 +13,25 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Get recent workflow run durations"
-description: "A technical guide for measuring and analyzing build times to identify developer productivity bottlenecks in remote engineering teams. Includes CI/CD"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /remote-engineering-team-build-time-tracking-as-developer-pro/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
 Build times directly impact developer productivity. When a remote engineering team waits 30 minutes for a CI pipeline to complete, that's 30 minutes of lost focus, context switching, and frustrated developers. Tracking build times systematically helps identify bottlenecks, optimize workflows, and measure the real impact of tooling decisions on team velocity.
+
+## Table of Contents
+
+- [Why Build Time Tracking Matters for Remote Teams](#why-build-time-tracking-matters-for-remote-teams)
+- [Collecting Build Time Data](#collecting-build-time-data)
+- [Analyzing Build Time Trends](#analyzing-build-time-trends)
+- [Common Build Time Bottlenecks](#common-build-time-bottlenecks)
+- [Setting Up Alerts](#setting-up-alerts)
+- [Measuring Productivity Impact](#measuring-productivity-impact)
+- [Comparing CI Platforms for Remote Teams](#comparing-ci-platforms-for-remote-teams)
+- [Visualizing Build Time Data Over Time](#visualizing-build-time-data-over-time)
+- [Establishing Build Time SLOs](#establishing-build-time-slos)
+- [Sharing Build Time Reports with Non-Technical Stakeholders](#sharing-build-time-reports-with-non-technical-stakeholders)
+- [Actionable Recommendations](#actionable-recommendations)
+- [Related Reading](#related-reading)
 
 This guide covers practical approaches to measuring, analyzing, and acting on build time data for distributed engineering teams.
 
@@ -380,5 +380,13 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
 - [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 - [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+
+## Related Articles
+
+- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
+- [How to Build Remote Team Documentation Culture Guide](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
+- [How to Build Trust on Fully Remote Teams](/remote-work-tools/how-to-build-trust-on-fully-remote-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

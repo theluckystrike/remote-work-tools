@@ -18,6 +18,13 @@ voice-checked: true
 
 Hybrid meetings present a unique challenge when visual collaboration tools like whiteboards are involved. You have participants in a physical room looking at a real whiteboard, while remote participants see something completely different through their screens. This asymmetry creates friction, reduces engagement, and often leaves remote team members at a disadvantage. Getting this right requires deliberate tooling choices, clear help protocols, and sometimes a complete rethinking of how visual collaboration happens.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Next Steps](#next-steps)
+- [Troubleshooting Hybrid Whiteboard Issues in Real Time](#troubleshooting-hybrid-whiteboard-issues-in-real-time)
+
 This guide provides practical strategies for handling the hybrid whiteboard challenge, with specific examples tailored for developers and technical teams who need precise, efficient collaboration tools.
 
 ## Prerequisites
@@ -407,11 +414,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
 - [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [Best Practice for Hybrid Team Meeting Scheduling Respecting](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
-- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
-
+- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

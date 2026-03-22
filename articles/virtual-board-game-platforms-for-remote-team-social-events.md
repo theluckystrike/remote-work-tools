@@ -279,12 +279,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
 - [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
-- [How to Scale Remote Team Social Events From Informal Chats](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
-- [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
-- [Virtual Escape Room Platforms for Remote Engineering Team](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
-- [Teleparty supports these streaming platforms:](/remote-work-tools/virtual-movie-watch-party-tools-for-remote-team-friday-event/)
-
+- [Best Virtual Office Platforms for Remote Teams 2026](/remote-work-tools/best-virtual-office-platforms-for-remote-teams-2026/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Virtual Happy Hour Alternatives for Remote Teams](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

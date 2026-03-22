@@ -19,6 +19,24 @@ tags: [remote-work-tools]
 
 Managing multiple clients as a solo freelancer requires structure. Without a proper system, you juggle deadlines in your head, lose track of conversations, and miss billable hours. Notion provides a flexible foundation for building a client management system that scales with your workload. This guide walks through a practical setup designed specifically for developers and power users handling around 5 concurrent clients.
 
+## Table of Contents
+
+- [Database Architecture](#database-architecture)
+- [Views That Actually Help](#views-that-actually-help)
+- [Templates for Consistency](#templates-for-consistency)
+- [Advanced: API Integration for Developers](#advanced-api-integration-for-developers)
+- [Maintenance and Evolution](#maintenance-and-evolution)
+- [Automating Invoicing from Notion](#automating-invoicing-from-notion)
+- [Client Profitability Analysis](#client-profitability-analysis)
+- [Client Communication Workflow](#client-communication-workflow)
+- [What Was Completed](#what-was-completed)
+- [What's Planned for Next Week](#whats-planned-for-next-week)
+- [Blockers or Questions](#blockers-or-questions)
+- [Billable Hours This Week](#billable-hours-this-week)
+- [Next Steps](#next-steps)
+- [Scaling Beyond 5 Clients](#scaling-beyond-5-clients)
+- [Sample Client Rates by Specialty (2026)](#sample-client-rates-by-specialty-2026)
+
 The core principle is simple: separate client data from project data, link them together, and create views that show you what needs attention now.
 
 ## Database Architecture
@@ -387,10 +405,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Best CRM for Solo Consultant Managing 30 Active Clients](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
-- [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
 - [Notion Database Templates for a Solo Recruiter Working Remot](/remote-work-tools/notion-database-templates-for-a-solo-recruiter-working-remot/)
-- [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
-- [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
-
+- [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
+- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
+- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

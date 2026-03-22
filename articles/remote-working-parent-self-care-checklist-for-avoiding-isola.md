@@ -9,7 +9,7 @@ permalink: /remote-working-parent-self-care-checklist-for-avoiding-isolation-in-
 categories: [guides]
 tags: [remote-work-tools, remote-work, parent, self-care, isolation, mental-health, developer-tools]
 reviewed: true
-score: 7
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -18,6 +18,22 @@ voice-checked: true
 {% raw %}
 
 Remote working parents prevent isolation by scheduling weekly 1:1 coffee chats with colleagues, joining async communities aligned with their interests, and protecting one evening per week for adult-only social interaction outside work. This checklist provides concrete, actionable strategies for developers and power users to maintain mental health, stay professionally connected, and build sustainable remote work habits despite the inherent isolation of distributed parenting.
+
+## Table of Contents
+
+- [The Reality of Remote Parent Isolation](#the-reality-of-remote-parent-isolation)
+- [Daily Self Care Checklist for Remote Parents](#daily-self-care-checklist-for-remote-parents)
+- [Weekly Actions to Combat Isolation](#weekly-actions-to-combat-isolation)
+- [Technical Strategies for Connection](#technical-strategies-for-connection)
+- [Mental Health Indicators to Monitor](#mental-health-indicators-to-monitor)
+- [Building Your Support Infrastructure](#building-your-support-infrastructure)
+- [Implementation Checklist](#implementation-checklist)
+- [Tools That Support Remote Parent Connectivity](#tools-that-support-remote-parent-connectivity)
+- [When to Escalate to Your Manager](#when-to-escalate-to-your-manager)
+- [Seasonal Patterns for Remote Parents](#seasonal-patterns-for-remote-parents)
+- [Creating Accountability Partnerships](#creating-accountability-partnerships)
+- [Advanced Self-Care Practices for Remote Parents](#advanced-self-care-practices-for-remote-parents)
+- [When Remote Working Parenthood Isn't Sustainable](#when-remote-working-parenthood-isnt-sustainable)
 
 ## The Reality of Remote Parent Isolation
 
@@ -321,11 +337,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
-- [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
-- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
-- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
-
+- [Remote Working Parent Burnout Prevention Checklist](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [Elder Care and Remote Work: A Practical Guide](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
+- [Remote Working Parent Support Group Template for Distributed](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
+- [Best Meal Delivery Service Comparison for Remote Working](/remote-work-tools/best-meal-delivery-service-comparison-for-remote-working-fam/)
+- [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

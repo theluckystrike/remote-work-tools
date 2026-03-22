@@ -19,6 +19,19 @@ voice-checked: true
 
 Record a screen walkthrough under 10 minutes following a consistent structure -- 30-second sprint overview, 2-5 minutes per feature demo, optional technical highlights, and 30-second next-steps summary -- then distribute it with timestamps and a written summary so stakeholders can review on their own schedule. This eliminates the time zone conflicts of live demos while creating a permanent searchable record of sprint progress.
 
+## Table of Contents
+
+- [Why Async Demos Work Better for Distributed Teams](#why-async-demos-work-better-for-distributed-teams)
+- [Recording Your Sprint Demo](#recording-your-sprint-demo)
+- [Structuring Your Walkthrough](#structuring-your-walkthrough)
+- [Automating Demo Video Generation](#automating-demo-video-generation)
+- [Distributing to Stakeholders](#distributing-to-stakeholders)
+- [Sprint 24 Demo Recording](#sprint-24-demo-recording)
+- [Handling Feedback Async](#handling-feedback-async)
+- [Feedback Request — Sprint 24 Demo](#feedback-request-sprint-24-demo)
+- [Tools Worth Considering](#tools-worth-considering)
+- [Measuring Success](#measuring-success)
+
 ## Why Async Demos Work Better for Distributed Teams
 
 Traditional sprint demos force everyone into a single meeting time, often meaning someone joins at 7 AM or 10 PM. Async recordings eliminate this constraint entirely. Stakeholders can watch during their productive hours, pause to review complex sections, and revisit recordings later when questions arise.
@@ -293,11 +306,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
 - [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
-- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [Async Team Retrospective Using Shared Documents and](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
-- [How to Do Async Code Pairing with Recorded Screen Share](/remote-work-tools/how-to-do-async-code-pairing-with-recorded-screen-share-sessions/)
-
+- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
+- [Async Sales Demo Recordings for Remote Enterprise Sales Team](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
+- [Best Async Video Messaging Tools for Distributed Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

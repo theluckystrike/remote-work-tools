@@ -13,6 +13,10 @@ intent-checked: true
 voice-checked: true
 score: 7
 ---
+<<<<<<< HEAD
+=======
+
+>>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
 {% raw %}
 
 As organizations prepare for potential return-to-office policy changes in 2026, gathering employee sentiment before implementing changes becomes critical. A well-designed employee survey helps HR teams and leadership understand concerns, preferences, and practical barriers before rolling out new workplace policies. This guide provides a practical survey template with code examples for developers building internal tooling.
@@ -287,11 +291,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Pulse Survey Tool for Measuring Remote Employee](/remote-work-tools/best-pulse-survey-tool-for-measuring-remote-employee-engagem/)
+- [Install Storybook for your design system package](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
+- [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
+- [Remote Developer Documentation Collaboration Tools for Maint](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
 - [Best Onboarding Survey Template for Measuring Remote New](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
-- [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
-- [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
-- [Remote Employee Equipment Return](/remote-work-tools/remote-employee-equipment-return-shipping-logistics-and-trac/)
-
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}

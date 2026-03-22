@@ -27,6 +27,15 @@ intent-checked: true
 
 Automating employee onboarding for remote teams eliminates repetitive manual tasks, ensures consistency across hires, and helps new team members feel welcomed from day one. By combining Slack bots with Notion templates, you can create a workflow that guides employees through paperwork, introduces them to company culture, and provides easy access to essential resources—all without burdening your HR or operations team.
 
+## Table of Contents
+
+- [Why Slack + Notion for Onboarding](#why-slack-notion-for-onboarding)
+- [Setting Up Your Notion Onboarding Database](#setting-up-your-notion-onboarding-database)
+- [Building the Slack Bot Workflow](#building-the-slack-bot-workflow)
+- [Integrating Notion Templates](#integrating-notion-templates)
+- [Connecting the Pieces](#connecting-the-pieces)
+- [Measuring Onboarding Success](#measuring-onboarding-success)
+
 This guide walks through building a practical onboarding automation system using Slack's API and Notion's database capabilities. You'll find code examples that work with existing tools, making this approach accessible for teams with moderate technical capacity.
 
 ## Why Slack + Notion for Onboarding
@@ -293,11 +302,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
+- [Best Tool for Remote Team Async Onboarding with Self Paced L](/remote-work-tools/best-tool-for-remote-team-async-onboarding-with-self-paced-l/)
 - [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
 - [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
-- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
-- [Remote-First Onboarding Automation Pipeline 2026](/remote-work-tools/remote-first-onboarding-automation-pipeline-2026/)
-- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

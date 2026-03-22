@@ -16,6 +16,22 @@ voice-checked: true
 
 The Barbados Welcome Stamp lets remote workers live and work for 12 months in Barbados while earning from overseas clients, with no local income tax, fiber-optic internet speeds up to 100 Mbps, and an entirely digital application process. The USD $50,000 annual income requirement is straightforward for most developers, and the USD $2,000 application fee buys you legal residency in a stable English-speaking Caribbean nation with reliable banking, healthcare, and coworking infrastructure.
 
+## Table of Contents
+
+- [Program Overview and Eligibility](#program-overview-and-eligibility)
+- [Application Process: Step by Step](#application-process-step-by-step)
+- [Financial Considerations for Developers](#financial-considerations-for-developers)
+- [Internet Infrastructure: A Developer's Perspective](#internet-infrastructure-a-developers-perspective)
+- [Accommodation Options and Costs for Welcome Stamp Holders](#accommodation-options-and-costs-for-welcome-stamp-holders)
+- [Visa Extension and Long-Term Considerations](#visa-extension-and-long-term-considerations)
+- [Common Challenges and Solutions for Welcome Stamp Holders](#common-challenges-and-solutions-for-welcome-stamp-holders)
+- [Financial Planning for a 12-Month Stay](#financial-planning-for-a-12-month-stay)
+- [Practical Onboarding Timeline for New Welcome Stamp Arrivals](#practical-onboarding-timeline-for-new-welcome-stamp-arrivals)
+- [Support Resources for Welcome Stamp Holders](#support-resources-for-welcome-stamp-holders)
+- [Practical Tips for a Successful Stay](#practical-tips-for-a-successful-stay)
+- [Extending Your Stay](#extending-your-stay)
+- [Is the Barbados Welcome Stamp Right for You?](#is-the-barbados-welcome-stamp-right-for-you)
+
 ## Program Overview and Eligibility
 
 The Barbados Welcome Stamp is a visa program that allows remote workers to live in Barbados for up to 12 months while continuing to work for employers or clients outside the country. The program is designed specifically for individuals who can perform their work remotely without being physically present in their employer's office.
@@ -276,10 +292,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
-- [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
-- [Mexico Temporary Resident Visa for Remote Workers Earning](/remote-work-tools/mexico-temporary-resident-visa-for-remote-workers-earning-fo/)
-- [Example NHI enrollment at a local district office](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)
 - [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
-
+- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
+- [Mexico Temporary Resident Visa for Remote Workers Earning](/remote-work-tools/mexico-temporary-resident-visa-for-remote-workers-earning-fo/)
+- [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
+- [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

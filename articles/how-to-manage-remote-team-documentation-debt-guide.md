@@ -18,6 +18,36 @@ intent-checked: true
 
 ## How to Manage Remote Team Documentation Debt: Complete Guide (2026)
 
+## Table of Contents
+
+- [How to Manage Remote Team Documentation Debt: Complete Guide (2026)](#how-to-manage-remote-team-documentation-debt-complete-guide-2026)
+- [Understanding Documentation Debt](#understanding-documentation-debt)
+- [Step 1: Audit Your Current Documentation](#step-1-audit-your-current-documentation)
+- [Step 2: Measure Documentation Debt Quantitatively](#step-2-measure-documentation-debt-quantitatively)
+- [Step 3: Create a Documentation Strategy](#step-3-create-a-documentation-strategy)
+- [Step 4: Tools Comparison for Remote Documentation](#step-4-tools-comparison-for-remote-documentation)
+- [Tools Comparison Table](#tools-comparison-table)
+- [Step 5: Documentation Templates](#step-5-documentation-templates)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Verification](#verification)
+- [Next Steps](#next-steps)
+- [Troubleshooting](#troubleshooting)
+- [Parameters](#parameters)
+- [Request Example](#request-example)
+- [Response Example](#response-example)
+- [Error Handling](#error-handling)
+- [Rate Limits](#rate-limits)
+- [Context](#context)
+- [Options Considered](#options-considered)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [References](#references)
+- [Step 6: Establish Documentation Maintenance Schedule](#step-6-establish-documentation-maintenance-schedule)
+- [Step 7: Automation and Integration](#step-7-automation-and-integration)
+- [Real Example: Reducing Documentation Debt](#real-example-reducing-documentation-debt)
+- [Measuring Success](#measuring-success)
+
 Documentation debt accumulates silently in remote teams. Unlike in-office settings where knowledge passes through casual conversations and hallway interactions, distributed teams depend entirely on written documentation. When documentation lags behind product changes, onboarding becomes painful, context gets lost, and knowledge silos form. This guide provides frameworks to identify, quantify, and systematically reduce documentation debt.
 
 ## Understanding Documentation Debt
@@ -671,11 +701,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)
-- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
-- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
-- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
-- [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
-
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
+- [How to Build Remote Team Documentation Culture Guide](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

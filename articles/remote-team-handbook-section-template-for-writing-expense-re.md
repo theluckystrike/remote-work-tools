@@ -17,6 +17,23 @@ voice-checked: true
 
 Copy this expense reimbursement template directly into your handbook: list eligible expenses (home office equipment, software, internet, travel, professional development), define submission process (expense tool + receipt within 30 days), set approval tiers by amount ($0-$100 manager-approved, $100-$500 CFO approval, $500+ founder), require specific documentation (date, business purpose, receipt), and commit to reimbursement within 15 days of approval. This structure eliminates the guesswork that otherwise eats up finance team time fielding clarification questions across time zones.
 
+## Table of Contents
+
+- [Policy Structure Overview](#policy-structure-overview)
+- [Template: Expense Reimbursement Policy](#template-expense-reimbursement-policy)
+- [Expense Reimbursement Policy](#expense-reimbursement-policy)
+- [Implementation Tips for Remote Teams](#implementation-tips-for-remote-teams)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Final Checklist Before Publishing](#final-checklist-before-publishing)
+- [Comparing Expense Management Platforms](#comparing-expense-management-platforms)
+- [Implementing Smart Approval Workflows](#implementing-smart-approval-workflows)
+- [Handling Edge Cases That Slow Down Finance Teams](#handling-edge-cases-that-slow-down-finance-teams)
+- [Building a Finance Team Playbook](#building-a-finance-team-playbook)
+- [Finance Team Decision Guide (Internal)](#finance-team-decision-guide-internal)
+- [Preventing Fraud Without Seeming Paranoid](#preventing-fraud-without-seeming-paranoid)
+- [Annual Reconciliation Process](#annual-reconciliation-process)
+- [Training Finance and Managers](#training-finance-and-managers)
+
 ## Policy Structure Overview
 
 Every expense policy needs six core components:
@@ -388,10 +405,9 @@ Your policy only works if the people implementing it understand it. Create short
 
 ## Related Articles
 
-- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
-- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
 - [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [How to Set Up Remote Finance Team Approval Workflow](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
+- [Best Expense Management Platform for Remote Teams with Recei](/remote-work-tools/best-expense-management-platform-for-remote-teams-with-recei/)
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
-
+- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

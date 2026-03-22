@@ -18,6 +18,24 @@ voice-checked: true
 
 Track meeting effectiveness using four core metrics: meeting frequency vs. output ratio, time-to-outcome, participant engagement, and agenda adherence. Use meeting analytics features in Slack, Google Workspace, or Calendly combined with manual sprint reviews to identify and eliminate low-value meetings. This guide shows you how to reduce meeting waste while maintaining alignment.
 
+## Table of Contents
+
+- [Why Meeting Metrics Matter for Remote Teams](#why-meeting-metrics-matter-for-remote-teams)
+- [Core Metrics for Meeting Effectiveness](#core-metrics-for-meeting-effectiveness)
+- [Implementing Measurement Without Overhead](#implementing-measurement-without-overhead)
+- [Meeting: [Title] - [Date]](#meeting-title-date)
+- [Reducing Meeting Waste](#reducing-meeting-waste)
+- [The Tool Recommendation](#the-tool-recommendation)
+- [Measuring Improvement](#measuring-improvement)
+- [Building a Meeting-Healthy Culture](#building-a-meeting-healthy-culture)
+- [Tool Comparison for Meeting Tracking](#tool-comparison-for-meeting-tracking)
+- [Implementing Meeting Bankruptcy](#implementing-meeting-bankruptcy)
+- [Quarterly Meeting Audits](#quarterly-meeting-audits)
+- [Q2 2026 Meeting Audit](#q2-2026-meeting-audit)
+- [Using Meeting Data to Improve Specific Meetings](#using-meeting-data-to-improve-specific-meetings)
+- [Presenting Findings to Leadership](#presenting-findings-to-leadership)
+- [Monitoring for Meeting Creep](#monitoring-for-meeting-creep)
+
 ## Why Meeting Metrics Matter for Remote Teams
 
 Developers often cite meetings as the biggest productivity disruptor in remote work. The problem isn't meetings themselves—some meetings are necessary for alignment, decision-making, and team cohesion. The problem is meetings that continue out of habit, lack clear agendas, or produce no actionable outcomes.
@@ -325,11 +343,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
-- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
-- [Best Tool for Remote Team Mood Tracking and Sentiment](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
-- [Parse: Accomplished X. Next: Y. Blockers: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
-- [.github/ISSUE_TEMPLATE/oncall-shift.md](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
-
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
+- [Meeting Schedule Template for a 30 Person Remote Product Org](/remote-work-tools/meeting-schedule-template-for-a-30-person-remote-product-org/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

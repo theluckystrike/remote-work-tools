@@ -18,6 +18,18 @@ voice-checked: true
 
 Feature delivery predictability measures how accurately your team estimates and delivers planned work on schedule. For distributed product organizations, this metric becomes critical because coordination overhead, time zone gaps, and async communication create inherent variability that traditional estimation methods struggle to capture.
 
+## Table of Contents
+
+- [Why Predictability Matters for Distributed Teams](#why-predictability-matters-for-distributed-teams)
+- [Core Predictability Metrics](#core-predictability-metrics)
+- [Implementing Automated Tracking](#implementing-automated-tracking)
+- [Interpreting Results](#interpreting-results)
+- [Setting Realistic Targets](#setting-realistic-targets)
+- [Jira Integration for Automated Metrics](#jira-integration-for-automated-metrics)
+- [Tools Comparison: Delivery Metrics Platforms](#tools-comparison-delivery-metrics-platforms)
+- [The Predictability Improvement Playbook](#the-predictability-improvement-playbook)
+- [Building Predictability Over Time](#building-predictability-over-time)
+
 This guide covers the key predictability metrics, provides Python code for calculation, and shows how to integrate measurement into your existing GitHub or Jira workflows.
 
 ## Why Predictability Matters for Distributed Teams
@@ -328,11 +340,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
-- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
-- [Best Grocery Delivery Service Strategy for Remote Working](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
-- [Best Meal Delivery Service Comparison for Remote Working](/remote-work-tools/best-meal-delivery-service-comparison-for-remote-working-fam/)
-- [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
-
+- [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [Remote Team Metrics Collection Strategy for Measuring](/remote-work-tools/remote-team-metrics-collection-strategy-for-measuring-deploy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,21 +1,6 @@
 ---
 layout: default
-title: "Node.js and npm"
-description: "A guide for developers on using Claude Code to develop, test, and publish NPM packages. Includes workflows, code examples, and best"
-date: 2026-03-17
-last_modified_at: 2026-03-17
-author: "Remote Work Tools Guide"
-permalink: /claude-code-npm-package-development-guide/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, claude-ai]
----
----
-layout: default
-title: "Node.js and npm"
+title: "Claude Code NPM Package Development Guide"
 description: "A guide for developers on using Claude Code to develop, test, and publish NPM packages. Includes workflows, code examples, and best"
 date: 2026-03-17
 last_modified_at: 2026-03-17
@@ -31,6 +16,19 @@ tags: [remote-work-tools, claude-ai]
 
 {% raw %}
 Use Claude Code to automate npm package boilerplate generation, enforce TypeScript/linting configurations, and manage the entire publish workflow from testing to npm registry. Claude Code integrates with your development environment to generate package scaffolds, run tests, and handle versioning automatically. This guide shows you how to use these capabilities for faster, higher-quality package development.
+
+## Table of Contents
+
+- [Setting Up Your Development Environment](#setting-up-your-development-environment)
+- [Using Claude Code for Package Scaffolding](#using-claude-code-for-package-scaffolding)
+- [Implementing Core Package Features](#implementing-core-package-features)
+- [Writing Tests with Claude Code](#writing-tests-with-claude-code)
+- [Setting Up CI/CD Pipeline](#setting-up-cicd-pipeline)
+- [Publishing Your Package](#publishing-your-package)
+- [Maintaining Your Package](#maintaining-your-package)
+- [Handling Backward Compatibility as Your Package Evolves](#handling-backward-compatibility-as-your-package-evolves)
+- [Publishing Dual Packages: ESM and CommonJS](#publishing-dual-packages-esm-and-commonjs)
+- [Automating Package Quality with Claude Code](#automating-package-quality-with-claude-code)
 
 ## Setting Up Your Development Environment
 
@@ -445,11 +443,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
 - [Claude Code for Faker.js Test Data Workflow Guide](/remote-work-tools/claude-code-for-faker-js-test-data-workflow-guide/)
+- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
+- [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
 - [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Best Practice for Hybrid Office Mail and Package Handling](/remote-work-tools/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
-- [Install Storybook for your design system package](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
-
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

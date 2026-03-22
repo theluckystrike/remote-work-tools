@@ -17,6 +17,24 @@ tags: [remote-work-tools, how-to, troubleshooting]
 
 Choppy Zoom calls from your home office are frustrating when you are trying to communicate with your team or clients. The good news is that most WiFi-related audio and video quality problems have identifiable causes and practical solutions. This guide walks you through a systematic troubleshooting process designed specifically for remote workers and distributed teams using consumer-grade home networks.
 
+## Table of Contents
+
+- [Understanding Why Home WiFi Causes Choppy Calls](#understanding-why-home-wifi-causes-choppy-calls)
+- [Step 1: Run a Speed Test to Establish Baseline Performance](#step-1-run-a-speed-test-to-establish-baseline-performance)
+- [Step 2: Position Your Router Optimally](#step-2-position-your-router-optimally)
+- [Step 3: Reduce WiFi Congestion During Calls](#step-3-reduce-wifi-congestion-during-calls)
+- [Step 4: Switch to 5GHz WiFi Band](#step-4-switch-to-5ghz-wifi-band)
+- [Step 5: Update Router Firmware and Zoom App](#step-5-update-router-firmware-and-zoom-app)
+- [Step 6: Configure Zoom Settings for Low Bandwidth](#step-6-configure-zoom-settings-for-low-bandwidth)
+- [Step 6.75: Test Your Setup Before Important Calls](#step-675-test-your-setup-before-important-calls)
+- [Step 7: Consider Wired Ethernet Connection](#step-7-consider-wired-ethernet-connection)
+- [Step 8: Upgrade Your Internet Plan if Necessary](#step-8-upgrade-your-internet-plan-if-necessary)
+- [Advanced Network Diagnostics](#advanced-network-diagnostics)
+- [Hardware Upgrades for Persistent Problems](#hardware-upgrades-for-persistent-problems)
+- [Long-Term Solutions for Remote Workers](#long-term-solutions-for-remote-workers)
+- [Emergency Solutions When You're on a Call](#emergency-solutions-when-youre-on-a-call)
+- [Troubleshooting for Different Call Types](#troubleshooting-for-different-call-types)
+
 ## Understanding Why Home WiFi Causes Choppy Calls
 
 Before looking at fixes, it helps to understand what creates choppy calls in the first place. Zoom and similar video conferencing platforms transmit audio and video data in real-time, which requires a consistent network connection with low latency. When your home WiFi network experiences interference, congestion, or signal degradation, packets of audio and video data arrive out of order or arrive too late, resulting in the choppy playback you hear and see.
@@ -313,10 +331,9 @@ A clean reinstall sometimes resolves persistent issues caused by corrupted cache
 
 ## Related Articles
 
-- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
-- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
-- [Test UDP latency to Slack's media servers](/remote-work-tools/remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/)
-- [Best Baby Monitor with WiFi That Works Alongside Home](/remote-work-tools/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
 - [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
-
+- [Best Baby Monitor with WiFi That Works Alongside Home](/remote-work-tools/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
+- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
+- [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
+- [Switching from Zoom to Around for Lightweight Remote Team](/remote-work-tools/switching-from-zoom-to-around-for-lightweight-remote-team-vi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

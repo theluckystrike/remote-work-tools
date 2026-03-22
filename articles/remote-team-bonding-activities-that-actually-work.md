@@ -168,6 +168,20 @@ Successful remote bonding happens consistently, voluntarily, and with low barrie
 
 Start with one activity that fits your team size and culture. Try it for a month before evaluating. Small consistent efforts beat elaborate quarterly events every time.
 
+## Table of Contents
+
+- [Bonding Activities by Team Dynamics](#bonding-activities-by-team-dynamics)
+- [Energy-Based Activity Selection](#energy-based-activity-selection)
+- [Avoiding Forced Fun While Building Real Connection](#avoiding-forced-fun-while-building-real-connection)
+- [Measuring Bonding Success Without Survey Fatigue](#measuring-bonding-success-without-survey-fatigue)
+- [Bonding Activity Calendar for Full-Year Coverage](#bonding-activity-calendar-for-full-year-coverage)
+- [Budget Allocation for Bonding Activities](#budget-allocation-for-bonding-activities)
+- [Creating Team Bonding Documentation](#creating-team-bonding-documentation)
+- [Before Session (Organizer)](#before-session-organizer)
+- [During Session](#during-session)
+- [Documentation](#documentation)
+- [Success Metrics](#success-metrics)
+
 ## Bonding Activities by Team Dynamics
 
 ### For Fully Async Teams (High Timezone Spread)
@@ -356,10 +370,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
-- [Virtual Team Building Activities That Developers Actually — Enjoy](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
-- [Remote Work Productivity Metrics That Actually Matter](/remote-work-tools/remote-work-productivity-metrics-that-actually-matter/)
-- [How to Run Remote Team Cooking Class as Bonding Activity](/remote-work-tools/how-to-run-remote-team-cooking-class-as-bonding-activity/)
-- [Async Team Building Activities for Distributed Teams Across](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
-
+- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

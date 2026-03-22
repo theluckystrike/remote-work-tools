@@ -18,6 +18,13 @@ intent-checked: true
 
 Remote one-on-one meetings feel different. The manager and engineer sit in separate rooms, separated by a screen, with zero incidental hallway conversations to fill in context. A two-week gap between 1:1s means you've forgotten the status from last time. Without deliberate structure, remote 1:1s become status update calls where your engineer recites completed tickets instead of surfacing blockers, growth opportunities, or career concerns. Engineering managers need frameworks for async preparation, conversation templates that work over video, and systematic approaches to career development that don't depend on accidentally running into people at the coffee machine. This guide walks through everything from pre-1:1 async prep to feedback delivery to career planning conversations.
 
+## Table of Contents
+
+- [Why Remote 1:1s Require Different Tactics](#why-remote-11s-require-different-tactics)
+- [Prerequisites](#prerequisites)
+- [Performance Observations (this week)](#performance-observations-this-week)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Remote 1:1s Require Different Tactics
 
 In-office management has built-in context. You overhear problems, notice someone's stressed, see who's collaborating. Remote work removes these signals. You only get explicit communication. This means:
@@ -390,10 +397,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
 - [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
-- [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
-- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
-- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
-
+- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
+- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

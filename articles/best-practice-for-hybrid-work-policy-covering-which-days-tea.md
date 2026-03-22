@@ -18,6 +18,22 @@ tags: [remote-work-tools, best-of]
 
 Effective hybrid work policies balance collaboration with flexibility by defining 2-3 in-office days with guaranteed team overlap, using patterns like staggered schedules, team cohorts, or sprint-synchronized days. Core hours (10:00-15:00) ensure real-time collaboration windows while allowing autonomy over specific days. Policies should build in "2-of-3" or "3-of-5" flexibility, handle exceptions transparently, and adjust seasonally. Stagger attendance through team cohorts or pairs rather than requiring everyone present simultaneously.
 
+## Table of Contents
+
+- [The Core Question: Which Days Should Teams Come to Office?](#the-core-question-which-days-should-teams-come-to-office)
+- [Effective In-Office Day Patterns](#effective-in-office-day-patterns)
+- [Key Principles for Defining Office Days](#key-principles-for-defining-office-days)
+- [Exception Request Process](#exception-request-process)
+- [Practical Implementation Steps](#practical-implementation-steps)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Tools for Enforcing and Tracking Office Attendance](#tools-for-enforcing-and-tracking-office-attendance)
+- [Real-World Examples from Three Different Team Sizes](#real-world-examples-from-three-different-team-sizes)
+- [Communication and Documentation](#communication-and-documentation)
+- [Handling the Friction of Policy Changes](#handling-the-friction-of-policy-changes)
+- [Adjusting for Seasonal and Project Patterns](#adjusting-for-seasonal-and-project-patterns)
+- [Preventing the "Dual-Track" Problem](#preventing-the-dual-track-problem)
+- [Special Accommodations and Medical Situations](#special-accommodations-and-medical-situations)
+
 ## The Core Question: Which Days Should Teams Come to Office?
 
 The question of which days teams should come to office sits at the heart of any hybrid work policy. There's no universal answer—the right approach depends on your team's collaboration patterns, meeting schedules, and individual work styles. However, research and practical experience point to several effective patterns that work well for technical teams.
@@ -309,11 +325,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
-- [Example: Policy comparison scoring for digital nomads](/remote-work-tools/best-travel-insurance-for-digital-nomads-covering-laptop-the/)
-- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
-- [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
+- [How to Set Up Hybrid Team Anchor Days When Subteams Have](/remote-work-tools/how-to-set-up-hybrid-team-anchor-days-when-subteams-have-dif/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 - [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
-
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

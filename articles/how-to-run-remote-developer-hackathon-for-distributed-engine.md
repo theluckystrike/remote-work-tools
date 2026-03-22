@@ -18,6 +18,28 @@ voice-checked: true
 
 Remote hackathons have evolved significantly. What started as crude video call marathons with shared screens has transformed into well-orchestrated events that can match—or exceed—the productivity of in-person equivalents. Running a successful remote hackathon for distributed engineering teams requires attention to coordination, tooling, and most importantly, creating an environment where remote participants can collaborate effectively.
 
+## Table of Contents
+
+- [Setting Up Your Hackathon Infrastructure](#setting-up-your-hackathon-infrastructure)
+- [Structuring the Event Timeline](#structuring-the-event-timeline)
+- [Team Formation Strategies](#team-formation-strategies)
+- [Project Proposal Template](#project-proposal-template)
+- [Managing Remote Collaboration](#managing-remote-collaboration)
+- [helping the Event](#helping-the-event)
+- [Judging and Awards](#judging-and-awards)
+- [Post-Hackathon Follow-Up](#post-hackathon-follow-up)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Detailed Schedule for 48-Hour Remote Hackathon](#detailed-schedule-for-48-hour-remote-hackathon)
+- [Mandatory Rest Period: Hour 24-32](#mandatory-rest-period-hour-24-32)
+- [Pre-Hackathon Preparation Checklist](#pre-hackathon-preparation-checklist)
+- [Technical Infrastructure Automation](#technical-infrastructure-automation)
+- [Advanced: Multi-Track Hackathons](#advanced-multi-track-hackathons)
+- [Post-Hackathon Project Sustainability](#post-hackathon-project-sustainability)
+- [Post-Hackathon Triage](#post-hackathon-triage)
+- [Remote Hackathon Success Metrics](#remote-hackathon-success-metrics)
+- [Hackathon Quality Metrics](#hackathon-quality-metrics)
+- [Handling Common Remote Hackathon Issues](#handling-common-remote-hackathon-issues)
+
 This guide provides a practical framework for organizing and executing remote developer hackathons that deliver real value.
 
 ## Setting Up Your Hackathon Infrastructure
@@ -499,11 +521,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
-- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
-- [How to Run Remote Accounting Firm with Distributed Staff](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
-- [How to Run Remote Tax Preparation Business with Distributed](/remote-work-tools/how-to-run-remote-tax-preparation-business-with-distributed-/)
-- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-
+- [How to Run a Remote Team Hackathon 2026](/remote-work-tools/how-to-run-remote-team-hackathon-2026/)
+- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Remote Work Tools: All Guides and Reviews](/remote-work-tools/guides-hub/)
+- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

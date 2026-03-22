@@ -18,6 +18,13 @@ voice-checked: true
 
 Managing multiple GitHub accounts on a single machine is a common challenge for developers working on personal projects alongside client work or full-time employment. Whether you maintain a personal repository, contribute to open-source projects, and push code to a corporate organization—all from the same laptop—this guide covers the practical setup you need.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [When to Use HTTPS Instead](#when-to-use-https-instead)
+- [Related Reading](#related-reading)
+
 The core solution involves generating separate SSH keys for each account and configuring Git to use the right identity based on the repository you're working with. Here's how to set this up from scratch.
 
 ## Prerequisites
@@ -339,6 +346,13 @@ Place this in `.git/hooks/pre-commit` and make it executable with `chmod +x .git
 - [How to Manage Work-Life Balance as a Remote Developer](/remote-work-tools/how-to-manage-work-life-balance-remote-developer/)
 - [Best Business Bank Accounts for Freelancers 2026: A](/remote-work-tools/best-business-bank-accounts-for-freelancers-2026/)
 
+## Related Articles
+
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Best Project Management Tools with GitHub Integration](/remote-work-tools/best-project-management-tools-with-github-integration/)
+- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

@@ -18,6 +18,21 @@ voice-checked: true
 
 Working remotely from Thailand offers an attractive lifestyle—affordable cost of living, excellent food, and a welcoming culture. However, one practical challenge often catches remote developers and digital nomads off guard: securing reliable health insurance for long-term stays. Unlike short-term tourists, long-term residents need a sustainable approach to healthcare coverage.
 
+## Table of Contents
+
+- [Understanding Thailand's Healthcare Field](#understanding-thailands-healthcare-field)
+- [Your Health Insurance Options](#your-health-insurance-options)
+- [Key Considerations for Developers and Remote Workers](#key-considerations-for-developers-and-remote-workers)
+- [Practical Steps to Secure Coverage](#practical-steps-to-secure-coverage)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Cost Example: Real-World Scenarios](#cost-example-real-world-scenarios)
+- [Managing Claims and Reimbursement](#managing-claims-and-reimbursement)
+- [Coverage Gaps and Exclusions](#coverage-gaps-and-exclusions)
+- [Multi-Country Considerations](#multi-country-considerations)
+- [Building a Health Baseline](#building-a-health-baseline)
+- [Integration with Remote Work Taxes](#integration-with-remote-work-taxes)
+- [Returning Home: Transition Planning](#returning-home-transition-planning)
+
 This guide walks through your options, practical steps, and cost considerations to help you make informed decisions about health insurance while working from Thailand.
 
 ## Understanding Thailand's Healthcare Field
@@ -286,10 +301,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
-- [How to Set Up Thai Bank Account as Digital Nomad Working](/remote-work-tools/how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/)
-- [Health Insurance Options for Freelancers 2026: A](/remote-work-tools/health-insurance-options-for-freelancers-2026/)
-- [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
+- [Best Travel Insurance for Digital Nomads 2026](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
+- [Health Insurance Options for Freelancers 2026](/remote-work-tools/health-insurance-options-for-freelancers-2026/)
 - [Example: Policy comparison scoring for digital nomads](/remote-work-tools/best-travel-insurance-for-digital-nomads-covering-laptop-the/)
-
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,19 @@ tags: [remote-work-tools]
 
 Remote teams need dashboards that surface the right metrics without requiring everyone to dig through tools manually. This guide covers the best options for engineering metrics, ops dashboards, and business KPIs — with setup configs for each.
 
+## Table of Contents
+
+- [5.](#5)
+- [What to Measure](#what-to-measure)
+- [1. Grafana (Best All-Around)](#1-grafana-best-all-around)
+- [2. Metabase (Best for Non-Technical Teams)](#2-metabase-best-for-non-technical-teams)
+- [3. GitHub Insights + Custom Dashboards](#3-github-insights-custom-dashboards)
+- [4. LinearB (Purpose-Built Engineering Metrics)](#4-linearb-purpose-built-engineering-metrics)
+- [5. Custom Prometheus + Grafana DORA Stack](#5-custom-prometheus-grafana-dora-stack)
+- [Dashboard Layout for Remote Teams](#dashboard-layout-for-remote-teams)
+- [6. Making Dashboards Actually Useful for Remote Teams](#6-making-dashboards-actually-useful-for-remote-teams)
+- [Related Reading](#related-reading)
+
 
 | Tool | Key Feature | Remote Team Fit | Integration | Pricing |
 |---|---|---|---|---|
@@ -468,8 +481,17 @@ curl -X POST \
 - [Setting Up Loki for Remote Log Aggregation](/remote-work-tools/setting-up-loki-remote-log-aggregation/)
 - [Setting Up Jaeger for Distributed Tracing](/remote-work-tools/setting-up-jaeger-distributed-tracing/)
 - [Best Observability Platform for Remote Teams](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
+- [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
 
 ---
+
+## Related Articles
+
+- [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
+- [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
+- [Best Remote Work Tools for Java Teams Migrating from](/remote-work-tools/best-remote-work-tools-for-java-teams-migrating-from-monolit/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Best Tool for Remote Teams Recording and Transcribing](/remote-work-tools/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

@@ -18,6 +18,23 @@ voice-checked: true
 
 An USB switch lets you share one keyboard and mouse between two computers without swapping cables. For developers running both a work laptop and personal desktop, an USB switch provides transitions between machines without the desk clutter of multiple peripherals or the complexity of software-based solutions. This guide covers USB switch basics, hardware selection criteria, setup procedures, and automation options for power users.
 
+## Table of Contents
+
+- [Understanding USB Switch Basics](#understanding-usb-switch-basics)
+- [Hardware Selection Criteria](#hardware-selection-criteria)
+- [Popular USB Switch Options](#popular-usb-switch-options)
+- [Setup and Configuration](#setup-and-configuration)
+- [Software Automation for Developers](#software-automation-for-developers)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Advanced Configuration: Collaboration Integration](#advanced-configuration-collaboration-integration)
+- [Price Comparison and ROI](#price-comparison-and-roi)
+- [Common Gotchas and Solutions](#common-gotchas-and-solutions)
+- [Real-World Testing Recommendations](#real-world-testing-recommendations)
+- [Desktop Setup Integration Patterns](#desktop-setup-integration-patterns)
+- [Maintenance and Longevity](#maintenance-and-longevity)
+- [Migration Path: Upgrading Your Setup](#migration-path-upgrading-your-setup)
+- [When NOT to Use a USB Switch](#when-not-to-use-a-usb-switch)
+
 ## Understanding USB Switch Basics
 
 USB switches work at the hardware level, routing USB signals between connected computers. When you press a button or hotkey, the switch sends your keyboard and mouse inputs to the selected machine. Unlike KVM switches that also handle video, pure USB switches assume you already have a shared monitor setup or are using a separate KVM for video switching.
@@ -305,10 +322,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [How to Set Up Dual PC KVM Switch for Work and Gaming](/remote-work-tools/how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/)
-- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
-- [Example: Checking monitor USB-C capabilities](/remote-work-tools/best-ultrawide-monitor-for-programming-remote-work/)
-- [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)
-- [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
-
+- [Best Mechanical Keyboard for Remote Developers: Discover](/remote-work-tools/best-mechanical-keyboard-for-remote-developers/)
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
+- [Best Mechanical Keyboard for Remote Developers](/remote-work-tools/best-mechanical-keyboard-for-remote-developers-quiet-switches-2026/)
+- [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

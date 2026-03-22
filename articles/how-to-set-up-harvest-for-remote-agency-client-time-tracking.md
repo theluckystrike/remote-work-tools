@@ -18,6 +18,21 @@ voice-checked: true
 
 Remote agencies face unique challenges when tracking time across distributed teams and multiple clients. Harvest provides a solution for capturing billable hours, managing client projects, and generating invoices. This guide covers practical setup steps for agencies working with remote clients, with emphasis on remote-specific workflows and time zone management.
 
+## Table of Contents
+
+- [Creating Your Agency Workspace](#creating-your-agency-workspace)
+- [Setting Up Clients and Projects](#setting-up-clients-and-projects)
+- [Configuring Hourly Rates and Billing](#configuring-hourly-rates-and-billing)
+- [Time Tracking Workflows for Remote Teams](#time-tracking-workflows-for-remote-teams)
+- [Generating Reports and Invoices](#generating-reports-and-invoices)
+- [Integrating with Project Management Tools](#integrating-with-project-management-tools)
+- [Best Practices for Remote Agency Time Tracking](#best-practices-for-remote-agency-time-tracking)
+- [Automating Administrative Tasks](#automating-administrative-tasks)
+- [Mobile Time Tracking for Distributed Teams](#mobile-time-tracking-for-distributed-teams)
+- [Client Communication and Transparency](#client-communication-and-transparency)
+- [Handling Multiple Currencies and Tax Compliance](#handling-multiple-currencies-and-tax-compliance)
+- [Troubleshooting Common Remote Agency Issues](#troubleshooting-common-remote-agency-issues)
+
 ## Creating Your Agency Workspace
 
 Start by creating a Harvest account tailored to agency operations. The workspace structure determines how you organize client work and report on productivity.
@@ -281,11 +296,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
 - [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
+- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
+- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
 - [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
-- [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,18 @@ voice-checked: true
 
 For a home office fan that stays quiet during calls, target a tower fan rated under 25 dB with 50-150 CFM airflow, positioned to create a cross-breeze without pointing directly at your microphone. Fans with fewer, wider blades and DC motors run quieter at equivalent airflow. Place the fan to your left or right at desk height or in a corner -- never facing your mic -- and you get comfortable air circulation without colleagues hearing it on calls.
 
+## Table of Contents
+
+- [Understanding Fan Noise Specifications](#understanding-fan-noise-specifications)
+- [Positioning Strategies for Maximum Effect](#positioning-strategies-for-maximum-effect)
+- [Smart Fan Control for Developers](#smart-fan-control-for-developers)
+- [Alternative Approaches to Air Circulation](#alternative-approaches-to-air-circulation)
+- [Product Recommendations by Use Case](#product-recommendations-by-use-case)
+- [Microphone Filter Solutions](#microphone-filter-solutions)
+- [Monitoring and Testing Protocol](#monitoring-and-testing-protocol)
+- [Integration with Home Automation](#integration-with-home-automation)
+- [Making Your Decision](#making-your-decision)
+
 This guide covers how to evaluate quiet air circulation solutions, position them effectively, and even monitor your room's airflow with code.
 
 ## Understanding Fan Noise Specifications
@@ -321,9 +333,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Air Purifier for Home Office Productivity](/best-air-purifier-for-home-office-productivity/)
-- [Best Baby Monitor with WiFi That Works Alongside Home](/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
-- [Best External Display for MacBook Air M4 Home Office Setup](/best-external-display-for-macbook-air-m4-home-office-setup/)
-
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Home Office Ventilation Solutions When Room Has No Window](/remote-work-tools/home-office-ventilation-solutions-when-room-has-no-window/)
+- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
+- [How to Cool Home Office Without Air Conditioning During](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

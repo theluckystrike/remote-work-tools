@@ -17,6 +17,22 @@ voice-checked: true
 
 Hybrid sprint ceremonies require deliberate infrastructure and cultural changes to ensure remote and in-office participants have equal standing. Mandate video-on for all participants, use round-robin speaking protocols to guarantee equal airtime, and implement async-first standups with synchronous discussion only for blockers. Retrospectives should start with anonymous async input before synchronous discussion, and documentation should be a rotating responsibility including remote team members to signal equal value.
 
+## Table of Contents
+
+- [The Core Problem: Participation Asymmetry](#the-core-problem-participation-asymmetry)
+- [Infrastructure Setup: Equalize the Experience](#infrastructure-setup-equalize-the-experience)
+- [Sprint Ceremony-Specific Strategies](#sprint-ceremony-specific-strategies)
+- [Cultural Norms That Make or Break Hybrid Ceremonies](#cultural-norms-that-make-or-break-hybrid-ceremonies)
+- [When to Go Fully Async](#when-to-go-fully-async)
+- [Measuring Success](#measuring-success)
+- [Implementation Checklist](#implementation-checklist)
+- [Equipment Purchasing Guide and Budget](#equipment-purchasing-guide-and-budget)
+- [Meeting Room Preparation Checklist](#meeting-room-preparation-checklist)
+- [Scaling Hybrid Ceremonies to Multiple Rooms](#scaling-hybrid-ceremonies-to-multiple-rooms)
+- [Asynchronous Ceremony Variants for Extreme Time Zones](#asynchronous-ceremony-variants-for-extreme-time-zones)
+- [Common Hybrid Ceremony Pitfalls and Fixes](#common-hybrid-ceremony-pitfalls-and-fixes)
+- [Measuring Hybrid Ceremony Health Beyond Participation Time](#measuring-hybrid-ceremony-health-beyond-participation-time)
+
 ## The Core Problem: Participation Asymmetry
 
 When half your team joins from a conference room and the other half from their home offices, several things go wrong quickly. Remote participants struggle to interject during sidebar conversations. In-office team members unconsciously default to speaking with whoever is physically nearby. The facilitator naturally makes eye contact with the room rather than the camera. Over time, remote developers disengage, speak less frequently in retrospectives, and feel like second-class citizens in their own team's ceremonies.
@@ -310,11 +326,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Scale Remote Team Sprint Ceremonies When Splitting](/remote-work-tools/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
-- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
-- [Barco ClickShare API: Starting a presentation session](/remote-work-tools/best-wireless-presentation-system-for-hybrid-meeting-rooms-supporting-byod-laptops-2026/)
-- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [Speakerphone for Hybrid Meeting Rooms Comparison: A](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
-
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Speakerphone for Hybrid Meeting Rooms Comparison](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
+- [Best Practice for Hybrid Team Meeting Scheduling Respecting](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
+- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

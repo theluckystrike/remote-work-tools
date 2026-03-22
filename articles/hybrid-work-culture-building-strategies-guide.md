@@ -19,6 +19,30 @@ intent-checked: true
 
 Hybrid work culture breaks down when in-office employees accumulate more information, opportunities, and social capital than remote team members. The fix is treating culture infrastructure like your codebase: unified async communication channels, equitable meeting design where every participant joins by video, and documented decision records with async feedback periods. This guide provides five concrete strategies with implementation examples for technical teams.
 
+## Table of Contents
+
+- [The Hybrid Culture Challenge](#the-hybrid-culture-challenge)
+- [Strategy One: Unified Communication Channels](#strategy-one-unified-communication-channels)
+- [Strategy Two: Equitable Meeting Design](#strategy-two-equitable-meeting-design)
+- [Strategy Three: Intentional In-Person Time](#strategy-three-intentional-in-person-time)
+- [Strategy Four: Transparent Decision Documentation](#strategy-four-transparent-decision-documentation)
+- [ADR-042: Adoption of Feature Flag System](#adr-042-adoption-of-feature-flag-system)
+- [Strategy Five: Culture Documentation and Evolution](#strategy-five-culture-documentation-and-evolution)
+- [How We Work](#how-we-work)
+- [Measuring Culture Health](#measuring-culture-health)
+- [Putting It All Together](#putting-it-all-together)
+- [Practical Tools for Culture Implementation](#practical-tools-for-culture-implementation)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Async Review Period: 7 days](#async-review-period-7-days)
+- [Measuring Culture Health: Specific Metrics](#measuring-culture-health-specific-metrics)
+- [Recovery Strategies If Culture Is Breaking](#recovery-strategies-if-culture-is-breaking)
+- [Seasonal Culture Activities](#seasonal-culture-activities)
+- [Documenting Culture Evolution](#documenting-culture-evolution)
+- [Red Flags That Hybrid Culture Is Failing](#red-flags-that-hybrid-culture-is-failing)
+- [Quick Wins to Improve Right Now](#quick-wins-to-improve-right-now)
+
 ## The Hybrid Culture Challenge
 
 Hybrid work creates a fundamental tension: team members physically present in the office develop stronger relationships through spontaneous interactions, while remote workers often feel out of the loop. Left unaddressed, this gap widens over time, leading to two-tier team dynamics where in-office employees receive more information, opportunities, and social capital.
@@ -351,10 +375,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
-- [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
-
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

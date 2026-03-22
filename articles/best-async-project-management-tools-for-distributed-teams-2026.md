@@ -16,6 +16,18 @@ intent-checked: true
 
 Distributed teams spanning 8+ timezones need project management tools that don't require synchronous meetings to function. Linear optimizes for developer speed and lightweight workflows; Notion provides flexible customization for any team structure; Height balances both with beautiful async-first UI; Shortcut integrates deeply with engineering workflows. The difference between these tools determines whether your team waits for meetings to make progress or ships asynchronously. This comparison focuses on timezone handling, notification design, and whether teams can actually work without daily standups.
 
+## Table of Contents
+
+- [The Async PM Problem](#the-async-pm-problem)
+- [Linear: Speed + Developer-Centric Async](#linear-speed-developer-centric-async)
+- [Notion: Ultimate Flexibility, Custom Async Workflows](#notion-ultimate-flexibility-custom-async-workflows)
+- [Height: Purpose-Built for Async](#height-purpose-built-for-async)
+- [Shortcut (fka Clubhouse): Engineering-Focused Async](#shortcut-fka-clubhouse-engineering-focused-async)
+- [Comparison Table: Async PM Tools](#comparison-table-async-pm-tools)
+- [Choosing Your Tool Based on Team Size](#choosing-your-tool-based-on-team-size)
+- [Implementation: Converting to Async PM](#implementation-converting-to-async-pm)
+- [Real Metrics: Async PM Adoption](#real-metrics-async-pm-adoption)
+
 ## The Async PM Problem
 
 Traditional project management assumes people work at the same time. When your team is:
@@ -469,10 +481,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
-- [Best Time Zone Management Tools for Distributed Engineering](/remote-work-tools/best-time-zone-management-tools-for-distributed-engineering-teams-2026/)
-- [Best Timezone Management Tool for Distributed Teams](/remote-work-tools/best-timezone-management-tool-for-distributed-teams-spanning-four-or-more-continents-2026/)
-- [Time Zone Management Tools for Distributed Teams](/remote-work-tools/time-zone-management-tools-distributed-teams/)
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
-
+- [Best Project Management Tools with GitHub Integration](/remote-work-tools/best-project-management-tools-with-github-integration/)
+- [Best Async Video Messaging Tools for Distributed Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
+- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [Best Remote Work Project Management Tools Under 10](/remote-work-tools/best-remote-work-project-management-tools-under-10-per-user-2026/)
+- [Asynchronous Team Retrospective Tools Methods Process](/remote-work-tools/asynchronous-team-retrospective-tools-methods-process/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

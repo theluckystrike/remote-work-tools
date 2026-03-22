@@ -18,6 +18,14 @@ voice-checked: true
 
 Managing a hybrid team requires a distinct skill set that combines traditional leadership practices with remote management capabilities. Unlike fully remote teams where everyone operates under the same conditions, hybrid managers must handle the challenges of supporting employees who work from home alongside those who come into a physical office. This creates unique challenges around equity, communication, and coordination that most manager training programs never address.
 
+## Table of Contents
+
+- [Core Competencies for Hybrid Team Leaders](#core-competencies-for-hybrid-team-leaders)
+- [Training Program Structure](#training-program-structure)
+- [Status Update Template](#status-update-template)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Measuring Success](#measuring-success)
+
 This training program template provides a structured approach to developing hybrid leadership skills. You can adapt it for your organization's specific needs, team sizes, and tools.
 
 ## Core Competencies for Hybrid Team Leaders
@@ -242,10 +250,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
-- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
-- [Remote Team Manager Peer Feedback Exchange Template for](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
-- [Remote Manager Delegation Framework for Leading Teams Across](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)
-- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
-
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [Remote Team Referral Program Template for Distributed](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
+- [Remote Employee Belonging and Inclusion Program Ideas](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,16 @@ voice-checked: true
 
 Choose the right communication channel by matching message urgency, complexity, and documentation needs to tools: email for low-urgency, documented decisions; Slack for medium-urgency team coordination; video calls for high-urgency problems and relationship-building. Use a decision matrix aligned with your team's availability to avoid notification fatigue while maintaining the async-first communication that enables distributed work.
 
+## Table of Contents
+
+- [The Communication Channel Matrix](#the-communication-channel-matrix)
+- [Decision Criteria by Channel](#decision-criteria-by-channel)
+- [Implementing the Framework](#implementing-the-framework)
+- [Tool Recommendations by Team Type](#tool-recommendations-by-team-type)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Framework Effectiveness](#measuring-framework-effectiveness)
+- [Writing a Team Communication Charter](#writing-a-team-communication-charter)
+
 Choosing the right communication channel for remote teams directly impacts productivity, response times, and team cohesion. This framework provides engineering managers with a systematic approach to selecting between email, Slack, and video calls based on message urgency, complexity, and team context.
 
 ## The Communication Channel Matrix
@@ -230,11 +240,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
-- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
-- [Test UDP latency to Slack's media servers](/remote-work-tools/remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/)
-- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
-
+- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
+- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Remote Team Communication SLA Template](/remote-work-tools/remote-team-communication-sla-template/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

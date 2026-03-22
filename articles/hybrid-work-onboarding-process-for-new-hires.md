@@ -18,6 +18,20 @@ tags: [remote-work-tools]
 
 Hybrid work models present unique onboarding challenges. New employees need to build relationships with colleagues they've never met in person while also learning remote-first workflows that may differ from their previous experience. A well-designed hybrid onboarding process bridges this gap, ensuring new hires feel connected regardless of where they work.
 
+## Table of Contents
+
+- [Pre-Start Preparation: Setting the Foundation](#pre-start-preparation-setting-the-foundation)
+- [First Week: Building Connections Across Locations](#first-week-building-connections-across-locations)
+- [Week 1 Schedule](#week-1-schedule)
+- [First Month: Deep Integration and Skill Building](#first-month-deep-integration-and-skill-building)
+- [Week 1-2: Foundation](#week-1-2-foundation)
+- [Week 3-4: Practical Work](#week-3-4-practical-work)
+- [Documentation: The Backbone of Hybrid Onboarding](#documentation-the-backbone-of-hybrid-onboarding)
+- [Quick Links](#quick-links)
+- [Your First Week](#your-first-week)
+- [Getting Help](#getting-help)
+- [Continuous Improvement](#continuous-improvement)
+
 This guide provides practical strategies, automation scripts, and templates for implementing hybrid onboarding that works for developer teams and technical power users.
 
 ## Pre-Start Preparation: Setting the Foundation
@@ -258,11 +272,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
-- [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
-- [Best Onboarding Survey Template for Measuring Remote New](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
-- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-
+- [Remote-First Onboarding Automation Pipeline 2026](/remote-work-tools/remote-first-onboarding-automation-pipeline-2026/)
+- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
+- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
+- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

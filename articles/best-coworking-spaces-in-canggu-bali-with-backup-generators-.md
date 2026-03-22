@@ -17,6 +17,23 @@ tags: [remote-work-tools, best-of]
 
 Canggu has evolved into one of Southeast Asia's most concentrated digital nomad hubs, but power outages and unreliable internet remain genuine operational risks for developers and remote engineers. This guide evaluates coworking spaces that address these concerns directly: backup generator infrastructure, redundant internet connections, and facilities designed for serious technical work.
 
+## Table of Contents
+
+- [Why Infrastructure Matters for Developers](#why-infrastructure-matters-for-developers)
+- [Top Coworking Spaces with Backup Generators](#top-coworking-spaces-with-backup-generators)
+- [Technical Evaluation Framework](#technical-evaluation-framework)
+- [What Actually Matters](#what-actually-matters)
+- [Hidden Factors](#hidden-factors)
+- [Bottom Line](#bottom-line)
+- [Complete Space Comparison Matrix](#complete-space-comparison-matrix)
+- [Backup Power Deep Dive](#backup-power-deep-dive)
+- [Month-to-Month Rental Strategies](#month-to-month-rental-strategies)
+- [Accommodation + Coworking Bundles](#accommodation-coworking-bundles)
+- [Evaluating Actual Uptime Records](#evaluating-actual-uptime-records)
+- [Ambient Factors and Productivity](#ambient-factors-and-productivity)
+- [Decision Tree for Choosing Your Space](#decision-tree-for-choosing-your-space)
+- [Testing Your Space After Commitment](#testing-your-space-after-commitment)
+
 ## Why Infrastructure Matters for Developers
 
 When you're running CI/CD pipelines, debugging production issues, or maintaining synchronous communication with global teams, internet reliability isn't a convenience—it's infrastructure. Canggu's grid experiences regular load shedding, particularly during peak tourist season. Spaces with genuine backup power (not just UPS for graceful shutdowns) and fiber-based internet with failover capability let you maintain productivity without anxiety.
@@ -375,11 +392,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
+- [How to Test Internet Speed and Reliability Before Moving](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
 - [Coworking Space Day Pass Guide](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
-- [How to Find Coworking Spaces in Medellín Colombia with](/remote-work-tools/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
-- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
-- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
-- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
-
+- [Coworking Space Finder Apps for Nomads](/remote-work-tools/coworking-space-finder-apps-for-nomads/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

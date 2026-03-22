@@ -13,25 +13,23 @@ reviewed: true
 score: 9
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Meeting Schedule Template for a 30 Person Remote Product Org"
-description: "A practical meeting schedule template designed for 30-person remote product organizations. Includes code snippets for automation and calendar management"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /meeting-schedule-template-for-a-30-person-remote-product-org/
-categories: [guides]
-intent-checked: true
-voice-checked: true
-reviewed: true
-score: 9
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
 Managing meetings across a 30-person remote product organization requires structure without becoming a meeting factory. The goal is maintaining alignment while preserving focus time—something that breaks down quickly when meetings pile up without intentional scheduling.
+
+## Table of Contents
+
+- [The Core Meeting Structure](#the-core-meeting-structure)
+- [Calculating Your Meeting Load](#calculating-your-meeting-load)
+- [Practical Implementation](#practical-implementation)
+- [Time Zone Considerations](#time-zone-considerations)
+- [What to Avoid](#what-to-avoid)
+- [Calendar Management Tools Comparison](#calendar-management-tools-comparison)
+- [Template: Core Meetings for a 30-Person Product Org](#template-core-meetings-for-a-30-person-product-org)
+- [Automation: Meeting Reminder and Blocking Script](#automation-meeting-reminder-and-blocking-script)
+- [Monitoring Effectiveness](#monitoring-effectiveness)
+- [Current Meeting Load (Week of March 18)](#current-meeting-load-week-of-march-18)
 
 This guide provides a tested meeting template framework with practical implementation details. The principles apply whether you use Google Calendar, Outlook, or other scheduling tools.
 
@@ -337,11 +335,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Remote Team Runbook Template for Deploying Hotfix to](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
-- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
-- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
-- [How to Build Trust with Clients Who Prefer In-Person](/remote-work-tools/how-to-build-trust-with-clients-who-prefer-in-person-meeting/)
-
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

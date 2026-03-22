@@ -9,7 +9,7 @@ permalink: /remote-working-parent-productivity-hack-using-time-blocking-/
 categories: [guides]
 tags: [remote-work-tools, productivity, time-management, remote-work, parenting, calendar]
 reviewed: true
-score: 7
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -17,6 +17,20 @@ voice-checked: true
 {% raw %}
 
 The school bus schedule—6-7 hours of uninterrupted time—is the most valuable productivity anchor available to remote parents; using time blocking during these windows can increase focused work output by 300-400% compared to interrupt-driven work. This guide shows you how to lock your calendar during school hours, batch similar tasks, and use automation to eliminate context switching so you capture the full potential of this predictable time window.
+
+## Table of Contents
+
+- [Why the School Bus Schedule Works as a Productivity Anchor](#why-the-school-bus-schedule-works-as-a-productivity-anchor)
+- [Building Your School Bus Time Block System](#building-your-school-bus-time-block-system)
+- [Automating Your Calendar Workflow](#automating-your-calendar-workflow)
+- [Protecting Your Time Blocks from Meeting Invites](#protecting-your-time-blocks-from-meeting-invites)
+- [Handling Exceptions: Snow Days and Early Release](#handling-exceptions-snow-days-and-early-release)
+- [Building a School-Year Productivity Tracker](#building-a-school-year-productivity-tracker)
+- [Seasonal Adjustments](#seasonal-adjustments)
+- [Advanced: Integrated Family Calendar](#advanced-integrated-family-calendar)
+- [Team Communication Around School Schedule](#team-communication-around-school-schedule)
+- [Measuring Your Success](#measuring-your-success)
+- [The Compound Effect](#the-compound-effect)
 
 This guide shows you how to transform those predictable windows into productivity powerhouses using time blocking techniques tailored specifically for developers and power users who work from home.
 
@@ -359,11 +373,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [How to Set Up Remote Work Time Blocking System Guide](/remote-work-tools/how-to-set-up-remote-work-time-blocking-system-guide/)
+- [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
 - [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [How to Handle School Snow Day When Both Parents Work](/remote-work-tools/how-to-handle-school-snow-day-when-both-parents-work-remotel/)
 - [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
-- [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
-- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
-
+- [How to Handle School Snow Day When Both Parents Work](/remote-work-tools/how-to-handle-school-snow-day-when-both-parents-work-remotel/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

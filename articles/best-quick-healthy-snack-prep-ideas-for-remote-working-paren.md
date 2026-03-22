@@ -28,6 +28,19 @@ voice-checked: true
 
 The fastest healthy snacks for remote parents take 2-5 minutes to assemble and sustain energy without sugar crashes during calls: protein-fat combos like nuts with cheese, veggie trays with hummus, and overnight oats prepared weekly. This guide provides batch-prep strategies that use 30-minute weekend sessions to build your snack foundation, plus assembly-only recipes for the 10-15 minute gaps between meetings throughout your day.
 
+## Table of Contents
+
+- [Batch Prep Strategies for Sunday Afternoons](#batch-prep-strategies-for-sunday-afternoons)
+- [Five-Minute Assembly Snacks](#five-minute-assembly-snacks)
+- [Notification-Based Snack Reminders](#notification-based-snack-reminders)
+- [Strategic Snack Placement](#strategic-snack-placement)
+- [What to Avoid](#what-to-avoid)
+- [The Minimum Viable Snack Strategy](#the-minimum-viable-snack-strategy)
+- [Advanced Batch Preparation Workflows](#advanced-batch-preparation-workflows)
+- [Nutritional Science Behind Snack Choices](#nutritional-science-behind-snack-choices)
+- [Handling Kids' Snack Demands](#handling-kids-snack-demands)
+- [Making It Work Long-Term](#making-it-work-long-term)
+
 The key to successful snack prep as a remote working parent lies in three principles: advance preparation, minimal assembly time, and nutritional density. You need foods that sustain energy without causing the post-sugar crash that ruins focus during important calls.
 
 ## Batch Prep Strategies for Sunday Afternoons
@@ -343,11 +356,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)
-- [Hybrid Office Air Quality Monitoring for Maintaining](/remote-work-tools/hybrid-office-air-quality-monitoring-for-maintaining-healthy/)
-- [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
-- [Best Quick Exercise Routine for Remote Parents With Only 15](/remote-work-tools/best-quick-exercise-routine-for-remote-parents-with-only-15-/)
-- [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
-
+- [Best Grocery Delivery Service Strategy for Remote Working](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Best Neighborhoods in Lisbon for Remote Workers with Fast](/remote-work-tools/best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [Best Practice for Remote Real Estate Photographers](/remote-work-tools/best-practice-for-remote-real-estate-photographers-deliverin/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

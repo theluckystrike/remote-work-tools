@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "calendar_manager.py - Manage childcare-aware calendar blocks"
+title: "Calendar Blocking for Remote Working Parents (2026)"
 description: "The asymmetric blocking framework—creating multiple 90-minute protected blocks with 15-minute buffers instead of hoping for a single 4-hour block—accommodates"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -17,6 +17,16 @@ voice-checked: true
 {% raw %}
 
 The asymmetric blocking framework—creating multiple 90-minute protected blocks with 15-minute buffers instead of hoping for a single 4-hour block—accommodates childcare interruptions without losing your entire deep work window. Combined with a secondary "Gaps" calendar that signals to colleagues your availability may shift, plus a Python script that auto-creates focus blocks in any calendar gap, this strategy protects your productivity against the unpredictable reality of parenting while working remotely.
+
+## Table of Contents
+
+- [Understanding the Childcare Gap Problem](#understanding-the-childcare-gap-problem)
+- [The Asymmetric Blocking Framework](#the-asymmetric-blocking-framework)
+- [Communication Framework for Async Teams](#communication-framework-for-async-teams)
+- [Automation for Calendar Management](#automation-for-calendar-management)
+- [Protecting Deep Work Through Expectation Management](#protecting-deep-work-through-expectation-management)
+- [Handling Emergency Childcare Situations](#handling-emergency-childcare-situations)
+- [Measuring and Iterating](#measuring-and-iterating)
 
 ## Understanding the Childcare Gap Problem
 
@@ -252,11 +262,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
-- [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
-- [Example: Simple calendar reminder script for kit deployment](/remote-work-tools/best-activity-kit-subscription-for-kids-of-remote-working-pa/)
-- [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)
-- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
-
+- [Best Calendar Tool for a Remote Executive Team of 5](/remote-work-tools/best-calendar-tool-for-a-remote-executive-team-of-5/)
+- [How to Set Up Remote Work Time Blocking System Guide](/remote-work-tools/how-to-set-up-remote-work-time-blocking-system-guide/)
+- [Reclaim AI vs Clockwise: Calendar Tools (2026)](/remote-work-tools/reclaim-ai-vs-clockwise-calendar-optimization/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [Best Calendar Scheduling Tools for Remote Teams 2026](/remote-work-tools/calendar-scheduling-tools-remote-teams-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

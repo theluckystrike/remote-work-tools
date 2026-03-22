@@ -18,6 +18,14 @@ voice-checked: true
 
 Run effective remote team lightning talks by limiting presentations to exactly five minutes, establishing consistent weekly schedules, using visible timers and timekeepers, and ensuring clear, immediately applicable topics. This structure drives frequent knowledge sharing across distributed teams while respecting everyone's time and encouraging more participation than longer presentation formats.
 
+## Table of Contents
+
+- [Why Five Minutes Works](#why-five-minutes-works)
+- [Prerequisites](#prerequisites)
+- [Practical Examples](#practical-examples)
+- [Platform Options and Features Comparison](#platform-options-and-features-comparison)
+- [Troubleshooting](#troubleshooting)
+
 Lightning talks have become a staple of remote team communication. These brief, focused presentations—typically limited to five minutes—let team members share discoveries, demonstrate techniques, and spread knowledge without consuming hours of meeting time. Running them effectively in a remote environment requires structure, the right tools, and clear expectations.
 
 This guide provides a practical framework for implementing lightning talks that actually work for distributed teams.
@@ -365,11 +373,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
-- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
-- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-
+- [How to Run Remote Lightning Talks Effectively](/remote-work-tools/how-to-run-remote-lightning-talks-effectively/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

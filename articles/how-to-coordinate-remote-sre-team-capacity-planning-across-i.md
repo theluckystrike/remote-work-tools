@@ -1,21 +1,6 @@
 ---
 layout: default
-title: "infrastructure-pods.yaml"
-description: "A practical guide to coordinating capacity planning for remote SRE teams working across infrastructure pods. Includes code examples and actionable"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools"
-permalink: /how-to-coordinate-remote-sre-team-capacity-planning-across-i/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
----
-layout: default
-title: "infrastructure-pods.yaml"
+title: "Remote SRE Capacity Planning Across Infra Pods"
 description: "A practical guide to coordinating capacity planning for remote SRE teams working across infrastructure pods. Includes code examples and actionable"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -31,6 +16,24 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 Map your infrastructure pods and on-call responsibilities, then use a capacity planning spreadsheet or tool to align remote SRE members with their zones—preventing overallocation in some areas while leaving expertise gaps in others. Capacity planning for remote SRE teams requires careful coordination across distributed infrastructure pods and time zones. This guide provides practical, step-by-step methods for aligning remote SRE capacity with infrastructure demands, including automation examples and coverage verification strategies.
+
+## Table of Contents
+
+- [Understanding Infrastructure Pods and SRE Responsibilities](#understanding-infrastructure-pods-and-sre-responsibilities)
+- [Step 1: Map Your Pod Structure and Dependencies](#step-1-map-your-pod-structure-and-dependencies)
+- [Step 2: Establish Capacity Visibility](#step-2-establish-capacity-visibility)
+- [Pod: networking-pod](#pod-networking-pod)
+- [Pod: data-pod](#pod-data-pod)
+- [Current Gaps](#current-gaps)
+- [Step 3: Implement Cross-Pod Coverage Agreements](#step-3-implement-cross-pod-coverage-agreements)
+- [Step 4: Schedule Capacity Planning Sessions](#step-4-schedule-capacity-planning-sessions)
+- [Step 5: Build Graduated On-Call Transitions](#step-5-build-graduated-on-call-transitions)
+- [Step 6: Handle Capacity Emergencies](#step-6-handle-capacity-emergencies)
+- [Trigger: Pod has zero available SRE coverage](#trigger-pod-has-zero-available-sre-coverage)
+- [Trigger: On-call hours exceed maximum](#trigger-on-call-hours-exceed-maximum)
+- [Measuring Capacity Planning Success](#measuring-capacity-planning-success)
+- [Practical Tips for Remote SRE Capacity Coordination](#practical-tips-for-remote-sre-capacity-coordination)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 
 ## Understanding Infrastructure Pods and SRE Responsibilities
 
@@ -304,11 +307,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
 - [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
-- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [Best Tools for Remote Team Capacity Planning](/remote-work-tools/best-tools-remote-team-capacity-planning-2026/)
 - [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
-- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
-
+- [Async Capacity Planning Process for Remote: Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

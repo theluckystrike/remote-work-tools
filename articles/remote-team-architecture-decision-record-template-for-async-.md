@@ -13,25 +13,57 @@ voice-checked: true
 categories: [guides]
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Remote Team Architecture Decision Record Template for Async"
-description: "A practical ADR template and workflow for distributed teams making technical decisions asynchronously. Includes code examples and implementation guide"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools"
-permalink: /remote-team-architecture-decision-record-template-for-async-/
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-categories: [guides]
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
 Use Architecture Decision Records (ADRs) for remote team technical discussions by documenting context, decision, consequences, and considered alternatives—with a 48-72 hour async review period allowing team members across time zones to provide structured feedback. This creates searchable institutional knowledge of technical choices, enabling future team members to understand not just what was decided but why.
+
+## Table of Contents
+
+- [Why ADRs Matter for Distributed Teams](#why-adrs-matter-for-distributed-teams)
+- [The ADR Template](#the-adr-template)
+- [Status](#status)
+- [Date](#date)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Reviewers](#reviewers)
+- [Notes](#notes)
+- [Async Workflow for ADR Creation](#async-workflow-for-adr-creation)
+- [Status](#status)
+- [Date](#date)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Feedback from @sarah-engineer](#feedback-from-sarah-engineer)
+- [Response from @proposal-author](#response-from-proposal-author)
+- [Status](#status)
+- [Notes](#notes)
+- [Practical Tips for Remote Teams](#practical-tips-for-remote-teams)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Real-World ADR Examples](#real-world-adr-examples)
+- [Status](#status)
+- [Date](#date)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Reviewers](#reviewers)
+- [Notes](#notes)
+- [Status](#status)
+- [Date](#date)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Reviewers](#reviewers)
+- [Notes](#notes)
+- [Building ADR Search and Navigation](#building-adr-search-and-navigation)
+- [Architecture (10 ADRs)](#architecture-10-adrs)
+- [Infrastructure (8 ADRs)](#infrastructure-8-adrs)
+- [Data (6 ADRs)](#data-6-adrs)
+- [Deprecated (3 ADRs)](#deprecated-3-adrs)
 
 Architecture Decision Records (ADRs) help distributed teams capture technical choices with context, reasoning, and consequences. When your team spans time zones and relies on async communication, a well-structured ADR template becomes essential for maintaining decision quality without requiring synchronous meetings.
 
@@ -406,10 +438,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
-- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
-- [Async Decision Making with RFC Documents for Engineering](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
-- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
-
+- [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
+- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [Best Tools for Remote Architecture Decision Records](/remote-work-tools/best-tools-for-remote-architecture-decision-records/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

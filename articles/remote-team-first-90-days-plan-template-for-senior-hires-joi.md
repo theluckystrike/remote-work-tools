@@ -19,6 +19,15 @@ voice-checked: true
 
 Joining a distributed team as a senior hire presents unique challenges that differ significantly from office-based onboarding. Without the ability to casually meet colleagues in hallways or observe team dynamics in person, you need a structured approach to ramp up quickly and start delivering value. This 90-day plan template provides a framework for senior developers and leads to integrate effectively into remote teams while building the relationships and context necessary for long-term success.
 
+## Table of Contents
+
+- [Understanding the Remote Onboarding Challenge](#understanding-the-remote-onboarding-challenge)
+- [Phase One: Foundation Week (Days 1-7)](#phase-one-foundation-week-days-1-7)
+- [Phase Two: Exploration Sprint (Days 8-30)](#phase-two-exploration-sprint-days-8-30)
+- [Phase Three: Contribution Period (Days 31-90)](#phase-three-contribution-period-days-31-90)
+- [Example 60-Day Goals Template](#example-60-day-goals-template)
+- [Remote-Specific Considerations](#remote-specific-considerations)
+
 ## Understanding the Remote Onboarding Challenge
 
 Remote onboarding for senior hires requires intentional effort that would otherwise happen organically in co-located settings. You cannot simply shadow a colleague, grab coffee with team members, or absorb organizational culture through passive observation. Every connection must be scheduled, every piece of context must be actively sought, and every norm must be explicitly communicated.
@@ -229,11 +238,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
-- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
 - [Remote Team Change Management Communication Plan Template](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
-- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [Remote Employee Career Development Plan Template for](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
-
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

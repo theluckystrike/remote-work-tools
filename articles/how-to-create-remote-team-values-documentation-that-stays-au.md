@@ -18,6 +18,21 @@ intent-checked: true
 
 Document your team values through concrete behavior examples—not abstract principles—and include decision-making frameworks, pull request review norms, and failure stories that show what "transparency" or "ownership" actually looks like in practice. Most values documentation fails because leadership drafts generic words handed down without input from people who embody them daily. This guide provides a practical framework for creating living documentation that maintains authenticity as you scale from five people to a distributed organization.
 
+## Table of Contents
+
+- [Why Most Team Values Documentation Fails at Scale](#why-most-team-values-documentation-fails-at-scale)
+- [Building Values Documentation That Survives Growth](#building-values-documentation-that-survives-growth)
+- [Observed Behaviors Week 1](#observed-behaviors-week-1)
+- [Applying Our Values to Common Decisions](#applying-our-values-to-common-decisions)
+- [PR Description](#pr-description)
+- [Maintaining Authenticity as You Scale](#maintaining-authenticity-as-you-scale)
+- [Measuring Whether Your Documentation Works](#measuring-whether-your-documentation-works)
+- [Building Culture Documentation Across Tools](#building-culture-documentation-across-tools)
+- [Week 1 Onboarding Tasks](#week-1-onboarding-tasks)
+- [Managing Values Drift at Scale](#managing-values-drift-at-scale)
+- [Practical Tools for Values Collaboration](#practical-tools-for-values-collaboration)
+- [The Long Game](#the-long-game)
+
 ## Why Most Team Values Documentation Fails at Scale
 
 The typical approach to team values goes something like this: leadership drafts a list of five to seven inspiring words, decorates the office (or Slack header), and considers the work done. Six months later, nobody remembers what those values actually mean in practice.
@@ -311,11 +326,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
-- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
-- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

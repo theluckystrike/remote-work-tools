@@ -82,6 +82,21 @@ Monitor usage patterns and costs during your initial implementation period. Most
 
 ## Popular Provisioning Platforms for Remote Teams
 
+## Table of Contents
+
+- [Popular Provisioning Platforms for Remote Teams](#popular-provisioning-platforms-for-remote-teams)
+- [Cost Analysis for Environment Provisioning](#cost-analysis-for-environment-provisioning)
+- [Deployment Pipelines for Provisioned Environments](#deployment-pipelines-for-provisioned-environments)
+- [Troubleshooting Common Provisioning Issues](#troubleshooting-common-provisioning-issues)
+- [Integration with Existing Workflows](#integration-with-existing-workflows)
+- [Building Sustainable Environment Standards](#building-sustainable-environment-standards)
+- [Scaling Environment Provisioning](#scaling-environment-provisioning)
+- [Provisioning Tool Feature Matrix](#provisioning-tool-feature-matrix)
+- [Dockerfile for Remote Development Environment](#dockerfile-for-remote-development-environment)
+- [Environment Provisioning Request Workflow](#environment-provisioning-request-workflow)
+- [Cost Monitoring and Optimization](#cost-monitoring-and-optimization)
+- [Environment Onboarding Checklist](#environment-onboarding-checklist)
+
 Several solutions serve distributed teams well. Understanding the space helps you choose the right fit for your infrastructure.
 
 **Gitpod** specializes in cloud development environments tied directly to your Git repository. Opening a pull request automatically creates a development environment. When the PR closes, the environment disappears. Developers work from browser-based VS Code instances that feel identical to local development. Excellent for reducing onboarding friction and enabling PR reviewers to test code instantly. Pricing: free tier available, paid plans from $9/month per user. Great for open-source projects.
@@ -183,9 +198,11 @@ Remote team environment provisioning tools have matured significantly, offering 
 
 ## Related Articles
 
-- [Best Budget Tool Stack for a Bootstrapped Remote Team of 2](/best-budget-tool-stack-for-a-bootstrapped-remote-team-of-2/)
-- [Best Calendar Tool for a Remote Executive Team of 5](/best-calendar-tool-for-a-remote-executive-team-of-5/)
-- [Best Knowledge Base Tool for Remote Team That Works Offline](/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
+- [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
+- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
+- [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
 The time you invest setting up provisioning infrastructure pays dividends through improved developer experience, faster onboarding, and more consistent deployments. Your distributed team will work more productively when environment setup is no longer a friction point.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

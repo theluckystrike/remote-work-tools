@@ -18,6 +18,21 @@ voice-checked: true
 
 Use Miro for API-driven integration and extensive templates, FigJam for lightweight collaboration with Figma integration, or Mural if you prefer a simpler interface with help coaching. Choose based on real-time sync latency, API availability, export formats, and whether you need enterprise security features for client brainstorming sessions.
 
+## Table of Contents
+
+- [What Makes a Whiteboard Tool Suitable for Remote Client Sessions](#what-makes-a-whiteboard-tool-suitable-for-remote-client-sessions)
+- [Miro: The Feature-Rich Enterprise Option](#miro-the-feature-rich-enterprise-option)
+- [FigJam: Figma's Collaborative Whiteboard](#figjam-figmas-collaborative-whiteboard)
+- [Miro vs. FigJam: Implementation Trade-offs](#miro-vs-figjam-implementation-trade-offs)
+- [Excalidraw: The Developer-Favorite Open-Source Option](#excalidraw-the-developer-favorite-open-source-option)
+- [Selecting the Right Tool for Your Client Workflow](#selecting-the-right-tool-for-your-client-workflow)
+- [Automating Session Follow-ups](#automating-session-follow-ups)
+- [Pricing and Scaling Analysis](#pricing-and-scaling-analysis)
+- [Whiteboard Template Library for Client Brainstorming](#whiteboard-template-library-for-client-brainstorming)
+- [Export and Automation Workflows](#export-and-automation-workflows)
+- [Platform-Specific Client Workflows](#platform-specific-client-workflows)
+- [Measuring Brainstorm Session Effectiveness](#measuring-brainstorm-session-effectiveness)
+
 ## What Makes a Whiteboard Tool Suitable for Remote Client Sessions
 
 Before examining specific tools, establish criteria that matter for developer-centric remote collaboration:
@@ -579,11 +594,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
-- [Best Virtual Whiteboard for Remote Team Brainstorming and](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
-- [Remote Team Retrospective Silent Brainstorming Technique](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)
-- [Best Session Recording Tool for Remote Team Privileged.](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
-- [Remote Ideation Session Facilitation Guide](/remote-work-tools/remote-ideation-session-facilitation-guide/)
-
+- [Best Virtual Whiteboard for Remote Team Brainstorming](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
+- [Best Whiteboard Tool for a Remote Team of 10 Product](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
+- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [Miro vs FigJam for Remote Team Collaboration](/remote-work-tools/miro-vs-figjam-for-remote-team-collaboration/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

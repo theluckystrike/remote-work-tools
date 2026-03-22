@@ -18,6 +18,14 @@ voice-checked: true
 
 Configure Zoom with breakout rooms or separate observer channels to keep participants comfortable while giving stakeholders visibility into research sessions. Running remote UX research sessions with multiple observers requires infrastructure that balances participant comfort with stakeholder visibility—you need separate video streams for the research and observer groups. This guide covers practical approaches for running effective remote UX research sessions with product managers, designers, developers, and client observers, with implementation details.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Session Requirements](#session-requirements)
+- [Advanced Session Configurations for Larger Teams](#advanced-session-configurations-for-larger-teams)
+- [Recording and Privacy Compliance](#recording-and-privacy-compliance)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -438,11 +446,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Best Data Collection Tools for Remote User Research Teams](/remote-work-tools/best-data-collection-tool-for-remote-user-research-teams-gat/)
+- [Best Remote User Research Tools 2026](/remote-work-tools/remote-user-research-tools-2026/)
 - [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
-- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
-- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
-- [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
 - [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
-
+- [Best Session Recording Tool for Remote Team Privileged](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

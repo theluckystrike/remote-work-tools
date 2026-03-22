@@ -18,6 +18,23 @@ voice-checked: true
 
 Building diverse teams remotely requires intentional sourcing strategies that go beyond traditional job postings. Distributed companies must actively reach into underrepresented communities, remove geographic biases, and create evaluation systems that focus on demonstrated skills rather than credentials or connections. This guide provides actionable techniques for implementing diversity sourcing in your remote hiring pipeline.
 
+## Table of Contents
+
+- [Why Diversity Sourcing Matters for Remote Teams](#why-diversity-sourcing-matters-for-remote-teams)
+- [Expanding Your Sourcing Channels](#expanding-your-sourcing-channels)
+- [Technical Implementation: Building a Sourcing Pipeline](#technical-implementation-building-a-sourcing-pipeline)
+- [Removing Bias from Remote Screening](#removing-bias-from-remote-screening)
+- [Building Inclusive Remote Onboarding](#building-inclusive-remote-onboarding)
+- [Measuring Diversity Progress](#measuring-diversity-progress)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Long-Term Retention and Career Growth](#long-term-retention-and-career-growth)
+- [Building a Diversity Roadmap](#building-a-diversity-roadmap)
+- [Legal and Compliance Considerations](#legal-and-compliance-considerations)
+- [Measuring and Communicating Diversity Progress](#measuring-and-communicating-diversity-progress)
+- [Building Internal Diversity Culture](#building-internal-diversity-culture)
+- [Hiring for Neurodiversity](#hiring-for-neurodiversity)
+- [Scaling Diversity Sourcing Across Multiple Hiring Managers](#scaling-diversity-sourcing-across-multiple-hiring-managers)
+
 ## Why Diversity Sourcing Matters for Remote Teams
 
 Remote work removes physical barriers that historically limited talent pools, but it introduces new challenges. Without intentional effort, remote hiring tends to replicate existing networks—companies end up hiring people who resemble current employees geographically, culturally, and professionally. Intentional diversity sourcing counters this tendency by expanding reach and redesigning evaluation criteria.
@@ -295,10 +312,9 @@ Trying to change everything at once. Pick one or two practices, implement them w
 ## Related Articles
 
 - [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
-- [Async Team Building Activities for Distributed Teams Across](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [Remote Team Hiring Rubric Template for Consistent](/remote-work-tools/remote-team-hiring-rubric-template-for-consistent-evaluation/)
+- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
 - [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
-- [Satellite Office Strategy for Hybrid Companies](/remote-work-tools/satellite-office-strategy-for-hybrid-companies/)
-- [Remote Team Employer Branding Strategy for Attracting](/remote-work-tools/remote-team-employer-branding-strategy-for-attracting-distributed-talent-at-scale-guide-2026/)
-
+- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

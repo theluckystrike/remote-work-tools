@@ -18,6 +18,14 @@ intent-checked: true
 
 Remote pair programming combines code editing, debugging, and debugging across time zones. VS Code Live Share (free, built-in) works for most teams with low latency. Tuple ($300/month) optimizes for real-time collaboration with better lag handling. SSH tunneling (free, requires setup) works for terminal-heavy work. This guide compares tools, walks through complete setup workflows, and covers best practices for sustainable pair programming sessions.
 
+## Table of Contents
+
+- [Why Pair Programming Matters for Remote Teams](#why-pair-programming-matters-for-remote-teams)
+- [Tool Comparison: VS Code Live Share vs Tuple vs SSH](#tool-comparison-vs-code-live-share-vs-tuple-vs-ssh)
+- [Prerequisites](#prerequisites)
+- [Best Practices for Sustainable Pair Programming](#best-practices-for-sustainable-pair-programming)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+
 ## Why Pair Programming Matters for Remote Teams
 
 Pair programming accelerates learning, reduces bugs, and strengthens team cohesion. One person drives (writes code), the other navigates (thinks ahead, reviews). Every 15 minutes, roles switch. Real-time collaboration catches mistakes before they land in repos.
@@ -391,11 +399,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
-- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
+- [How to Set Up Remote Pair Programming Sessions in 2026](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-2026/)
 - [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
 - [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-
+- [How to Set Up Remote Pair Programming Workflow Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-workflow-guide/)
+- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

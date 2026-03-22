@@ -18,6 +18,36 @@ voice-checked: true
 
 Preserve async communication in hybrid environments through explicit guidelines defining when synchronous communication is appropriate, protecting deep work time with core hours that don't penalize remote workers, and creating equitable artifacts from every meeting. Maintain async standups, code review practices, and feedback loops to ensure in-office proximity doesn't create two-tier advantages. Measure async health monthly by tracking response times, meeting prevalence, documentation coverage, and remote participation to catch culture degradation early.
 
+## Table of Contents
+
+- [Understanding the Hybrid Communication Challenge](#understanding-the-hybrid-communication-challenge)
+- [Establishing Async-First Guidelines for Hybrid Teams](#establishing-async-first-guidelines-for-hybrid-teams)
+- [Communication Channel Selection](#communication-channel-selection)
+- [Protecting Deep Work Time](#protecting-deep-work-time)
+- [Creating Equitable Async Artifacts](#creating-equitable-async-artifacts)
+- [Meeting Output Template](#meeting-output-template)
+- [Implementing Async Standups That Work](#implementing-async-standups-that-work)
+- [Designing Async Code Collaboration Workflows](#designing-async-code-collaboration-workflows)
+- [Context](#context)
+- [Approach](#approach)
+- [Testing](#testing)
+- [Screenshots (if applicable)](#screenshots-if-applicable)
+- [Review Checklist](#review-checklist)
+- [Notes for Reviewers](#notes-for-reviewers)
+- [Building Async Feedback Loops](#building-async-feedback-loops)
+- [Async Retrospective Format](#async-retrospective-format)
+- [Measuring Async Culture Health](#measuring-async-culture-health)
+- [Specific Metrics for Hybrid Teams](#specific-metrics-for-hybrid-teams)
+- [Protecting Remote Workers From Disadvantage](#protecting-remote-workers-from-disadvantage)
+- [Onboarding New People Into Async Culture](#onboarding-new-people-into-async-culture)
+- [How we work](#how-we-work)
+- [Your first week](#your-first-week)
+- [Common pitfalls](#common-pitfalls)
+- [Handling the In-Office Social Advantage](#handling-the-in-office-social-advantage)
+- [Quarterly Async Health Retrospective](#quarterly-async-health-retrospective)
+- [Q2 Async Culture Retrospective](#q2-async-culture-retrospective)
+- [Common Mistakes in Hybrid Async Transformation](#common-mistakes-in-hybrid-async-transformation)
+
 ## Understanding the Hybrid Communication Challenge
 
 Hybrid work creates a two-tier system where in-office employees enjoy real-time communication advantages that remote workers cannot access. A quick question to a colleague sitting three desks away requires zero coordination, while the same question to a remote team member demands a Slack message, an async video, or worse—a scheduled call. Without deliberate safeguards, async communication becomes the exception rather than the norm.
@@ -325,11 +355,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
-- [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
-- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
 - [How to Make Async Communication Inclusive for Non-Native](/remote-work-tools/how-to-make-async-communication-inclusive-for-non-native-eng/)
-- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
-
+- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,15 @@ tags: [remote-work-tools]
 
 Running a shared Kubernetes dev cluster lets remote teams test against a real cluster without local resource constraints. This guide uses k3s for lightweight deployment, Helm for app management, and kubeconfig sharing patterns for distributed teams.
 
+## Table of Contents
+
+- [Why k3s Over Full Kubernetes](#why-k3s-over-full-kubernetes)
+- [Server Requirements](#server-requirements)
+- [Prerequisites](#prerequisites)
+- [Debugging Common Issues](#debugging-common-issues)
+- [Troubleshooting](#troubleshooting)
+- [Related Reading](#related-reading)
+
 ## Why k3s Over Full Kubernetes
 
 k3s uses under 512MB RAM at idle, installs in 30 seconds, and handles everything a remote dev team needs. It runs containerd, CoreDNS, Traefik ingress, and local storage provisioner out of the box.
@@ -520,9 +529,17 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [How to Secure Remote Team Kubernetes Clusters](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
 - [Best Container Registry Tool for Remote Teams](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
 - [Setting Up Harbor for Container Registry](/remote-work-tools/setting-up-harbor-for-container-registry/)
+- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
 
 ---
 
+## Related Articles
+
+- [Setting Up a Remote Dev Server with Hetzner](/remote-work-tools/setting-up-remote-dev-server-with-hetzner/)
+- [How to Secure Remote Team Kubernetes Clusters with Network P](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
+- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
+- [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
+- [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

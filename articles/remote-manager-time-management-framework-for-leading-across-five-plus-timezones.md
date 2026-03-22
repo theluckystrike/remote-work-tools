@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Convert to UTC range"
+title: "Time Management for Remote Managers Across Zones"
 description: "A practical framework for remote managers handling distributed teams across five or more timezones. Includes scheduling algorithms, async workflows"
 date: 2026-03-15
 last_modified_at: 2026-03-15
@@ -223,12 +223,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Manager Time Management Framework for Leading Across](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
-- [Remote Manager Delegation Framework for Leading Teams Across](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)
-- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 - [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
-- [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
-
+- [Remote Manager Time Management Framework for Leading](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+- [How to Manage Remote Team Across 5 Plus Time Zones Guide](/remote-work-tools/how-to-manage-remote-team-across-5-plus-time-zones-guide/)
+- [How to Manage Remote Team Handoffs Across Time Zones](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
+- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

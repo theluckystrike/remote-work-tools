@@ -16,6 +16,16 @@ tags: [remote-work-tools, remote-work]
 
 Single sign-on (SSO) has become essential for remote teams managing multiple SaaS applications. When your team spans time zones and uses dozens of tools, managing individual credentials creates security risks and login fatigue. This guide walks through implementing SSO for your remote team's SaaS stack using industry-standard protocols.
 
+## Table of Contents
+
+- [Understanding SSO Protocols](#understanding-sso-protocols)
+- [Setting Up Your Identity Provider](#setting-up-your-identity-provider)
+- [Configuring SaaS Applications](#configuring-saas-applications)
+- [Implementing Custom SSO for Internal Tools](#implementing-custom-sso-for-internal-tools)
+- [Security Considerations for Remote Teams](#security-considerations-for-remote-teams)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Best Practices for Distributed Teams](#best-practices-for-distributed-teams)
+
 ## Understanding SSO Protocols
 
 Three protocols dominate modern SSO implementations: SAML 2.0, OAuth 2.0, and OpenID Connect (OIDC). Each serves different use cases and offers varying levels of complexity.
@@ -267,10 +277,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
-- [Best Encrypted Messaging App for Remote Team Sensitive](/remote-work-tools/best-encrypted-messaging-app-for-remote-team-sensitive-commu/)
-- [How to Register as Self-Employed Remote Worker in Portugal](/remote-work-tools/how-to-register-as-self-employed-remote-worker-in-portugal-f/)
-- [Best Cloud Access Security Broker for Remote Teams Using](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
-
+- [Remote Team Password Sharing Best Practices Without Using](/remote-work-tools/remote-team-password-sharing-best-practices-without-using-sh/)
+- [Best Cloud Access Security Broker for Remote Teams](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Remote Team Password Sharing Best Practices for Shared](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
+- [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

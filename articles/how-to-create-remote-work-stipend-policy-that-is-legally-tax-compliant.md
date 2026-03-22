@@ -18,6 +18,25 @@ voice-checked: true
 
 Tax-compliant remote work stipend policies must distinguish between tax-free accountable plans and taxable income—with proper documentation, substantiation, and return-of-excess provisions. IRS regulations allow up to $1,200/year for home office equipment tax-free if structured correctly. This guide covers legal framework, policy templates, and implementation strategies to keep stipends compliant.
 
+## Table of Contents
+
+- [Understanding the Tax Framework](#understanding-the-tax-framework)
+- [Why Accountable Plans Matter for Your Bottom Line](#why-accountable-plans-matter-for-your-bottom-line)
+- [Building Your Compliant Policy](#building-your-compliant-policy)
+- [Purpose](#purpose)
+- [Eligible Expenses](#eligible-expenses)
+- [Documentation Requirements](#documentation-requirements)
+- [Excess Advance Returns](#excess-advance-returns)
+- [Eligibility](#eligibility)
+- [Expense Categories: What Qualifies and What Doesn't](#expense-categories-what-qualifies-and-what-doesnt)
+- [Practical Implementation Examples](#practical-implementation-examples)
+- [Internet Reimbursement Calculation](#internet-reimbursement-calculation)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Regional Considerations](#regional-considerations)
+- [Documenting for Audit Protection](#documenting-for-audit-protection)
+- [Annual Compliance Checklist](#annual-compliance-checklist)
+- [Making the Policy Work](#making-the-policy-work)
+
 ## Understanding the Tax Framework
 
 The IRS treats remote work stipends differently depending on how they're structured. Under current tax law, there are two primary paths:
@@ -298,11 +317,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
-- [Remote Work Employer Childcare Stipend Policy Template for](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
-- [How to Create Remote Work Nanny Cam Policy That Respects](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
-- [How to Create Compliant Offer Letter for International](/remote-work-tools/how-to-create-compliant-offer-letter-for-international-remot/)
-- [Remote Work Tax Deductions: Home Office Guide 2026 (US.](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
-
+- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
+- [Remote Work Employer Childcare Stipend Policy Template](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
+- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,23 @@ voice-checked: true
 
 Mexico City has become one of the top destinations for remote workers, offering a compelling mix of affordable living, vibrant culture, and a growing tech scene. With over 300 coworking spaces, reliable internet in most areas, and a time zone that aligns with US Central Time, Mexico City digital nomad life works well for developers collaborating with North American teams.
 
+## Table of Contents
+
+- [Best Neighborhoods for Remote Workers](#best-neighborhoods-for-remote-workers)
+- [Setting Up Internet in Your Apartment](#setting-up-internet-in-your-apartment)
+- [Coworking Spaces](#coworking-spaces)
+- [Development Workflow Tips](#development-workflow-tips)
+- [Essential Apps for Mexico City Life](#essential-apps-for-mexico-city-life)
+- [Cost of Living Breakdown](#cost-of-living-breakdown)
+- [Practical Tips](#practical-tips)
+- [Getting Started](#getting-started)
+- [Mexico City Neighborhood Detailed Comparison](#mexico-city-neighborhood-detailed-comparison)
+- [Internet Providers Detailed Comparison](#internet-providers-detailed-comparison)
+- [Apartment Hunting Checklist for Remote Workers](#apartment-hunting-checklist-for-remote-workers)
+- [Internet Verification Checklist](#internet-verification-checklist)
+- [Backup Internet Setup for Remote Workers](#backup-internet-setup-for-remote-workers)
+- [Mexico City Power Outage Preparedness](#mexico-city-power-outage-preparedness)
+
 ## Best Neighborhoods for Remote Workers
 
 Choosing the right neighborhood impacts your daily productivity.
@@ -368,11 +385,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
 - [Mexico Temporary Resident Visa for Remote Workers Earning](/remote-work-tools/mexico-temporary-resident-visa-for-remote-workers-earning-fo/)
-- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-
+- [Best Neighborhoods in Lisbon for Remote Workers with Fast](/remote-work-tools/best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/)
+- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
+- [Pet Friendly Digital Nomad Destinations 2026](/remote-work-tools/pet-friendly-digital-nomad-destinations-2026/)
+- [Malaysia Digital Nomad Pass De Rantau Application for Remote](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

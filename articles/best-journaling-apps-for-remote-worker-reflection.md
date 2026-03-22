@@ -18,6 +18,21 @@ tags: [remote-work-tools, best-of, remote-work]
 
 The best journaling apps for remote worker reflection are **Obsidian** for developers who want a linked knowledge graph with local markdown storage, **Logseq** for outliner-style thinkers who prefer block-level queries, and **jrnl** for terminal-first developers who want zero-friction capture from the command line. Obsidian's Daily Notes plugin and bidirectional linking make it ideal for connecting reflections across time, Logseq's hierarchical outliner suits developers who think in bullet points, and jrnl stores entries as plain text files that integrate naturally with git for versioned, private journaling.
 
+## Table of Contents
+
+- [What Remote Workers Need in a Journaling App](#what-remote-workers-need-in-a-journaling-app)
+- [Terminal-Based Solutions](#terminal-based-solutions)
+- [Markdown-First Applications](#markdown-first-applications)
+- [Developer-Focused Features](#developer-focused-features)
+- [Syncing Considerations](#syncing-considerations)
+- [Selecting Your Journaling Workflow](#selecting-your-journaling-workflow)
+- [Advanced Journaling Workflows](#advanced-journaling-workflows)
+- [TDL-2026-001: PostgreSQL over MongoDB for Analytics](#tdl-2026-001-postgresql-over-mongodb-for-analytics)
+- [Comparing Journaling Approaches for Teams](#comparing-journaling-approaches-for-teams)
+- [Exporting and Backing Up Your Journal](#exporting-and-backing-up-your-journal)
+- [Moving Between Journaling Tools](#moving-between-journaling-tools)
+- [Reflection as a Professional Skill](#reflection-as-a-professional-skill)
+
 ## What Remote Workers Need in a Journaling App
 
 Before examining specific applications, consider the requirements that matter most for remote developers:
@@ -334,11 +349,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Tool for Tracking Remote Worker Tax Obligations Across](/remote-work-tools/best-tool-for-tracking-remote-worker-tax-obligations-across-/)
-- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
-- [How to Register as Self-Employed Remote Worker in Portugal](/remote-work-tools/how-to-register-as-self-employed-remote-worker-in-portugal-f/)
-- [Remote Worker Ergonomic Equipment Reimbursement](/remote-work-tools/remote-worker-ergonomic-equipment-reimbursement-legal-obliga/)
-- [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
-
+- [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
+- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

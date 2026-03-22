@@ -18,6 +18,22 @@ voice-checked: true
 
 Costa Rica launched its Digital Nomad Visa (Rentista) in 2021, offering remote workers a pathway to live in one of Central America's most stable democracies. For developers and tech professionals earning foreign income, understanding the tax implications prevents costly mistakes and ensures compliance with both Costa Rican and home-country tax authorities.
 
+## Table of Contents
+
+- [Digital Nomad Visa Basics](#digital-nomad-visa-basics)
+- [Costa Rica's Tax Residence Rules](#costa-ricas-tax-residence-rules)
+- [Foreign Income Reporting Requirements](#foreign-income-reporting-requirements)
+- [Home Country Tax Obligations](#home-country-tax-obligations)
+- [Social Security and Pension Contributions](#social-security-and-pension-contributions)
+- [Practical Compliance Steps](#practical-compliance-steps)
+- [State Considerations for Remote Contractors](#state-considerations-for-remote-contractors)
+- [Practical Tax Planning Examples](#practical-tax-planning-examples)
+- [Investment and Pension Planning for Nomads](#investment-and-pension-planning-for-nomads)
+- [Healthcare and Insurance Compliance](#healthcare-and-insurance-compliance)
+- [Quarterly Compliance Calendar](#quarterly-compliance-calendar)
+- [Professional Tax Help: Cost Benefit](#professional-tax-help-cost-benefit)
+- [Long-Term Visa Planning Beyond Costa Rica](#long-term-visa-planning-beyond-costa-rica)
+
 This guide covers what remote tech workers need to know about tax obligations under Costa Rica's digital nomad visa framework.
 
 ## Digital Nomad Visa Basics
@@ -271,11 +287,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
-- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
-
+- [Brazil Digital Nomad Visa Process and Tax Implications](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

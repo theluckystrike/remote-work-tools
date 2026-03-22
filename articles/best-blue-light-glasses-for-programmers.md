@@ -17,6 +17,26 @@ tags: [remote-work-tools, best-of]
 
 For programmers, the best blue light glasses block 90-99% of light in the 400-420nm range, use clear lenses to preserve color accuracy in your IDE, and weigh under 30g for all-day comfort during long coding sessions. Skip the marketing hype and prioritize those three specs when choosing a pair. This guide breaks down why those features matter and how to evaluate your options.
 
+## Table of Contents
+
+- [Understanding Blue Light and Eye Strain](#understanding-blue-light-and-eye-strain)
+- [What Actually Matters When Choosing Glasses](#what-actually-matters-when-choosing-glasses)
+- [Practical Setup: Beyond Just Glasses](#practical-setup-beyond-just-glasses)
+- [Product Recommendations by Budget](#product-recommendations-by-budget)
+- [Technical Deep Dive: Lens Technology](#technical-deep-dive-lens-technology)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Effective Blue Light Reduction Strategy](#effective-blue-light-reduction-strategy)
+- [When to Replace Your Glasses](#when-to-replace-your-glasses)
+- [Integration with Your Development Setup](#integration-with-your-development-setup)
+- [Deep Dive: Lens Coating Technology](#deep-dive-lens-coating-technology)
+- [Measuring Your Blue Light Exposure: Data-Driven Approach](#measuring-your-blue-light-exposure-data-driven-approach)
+- [Real-World Programmer Scenarios: When Glasses Definitely Help](#real-world-programmer-scenarios-when-glasses-definitely-help)
+- [The Case Against Blue Light Glasses (If You're Skeptical)](#the-case-against-blue-light-glasses-if-youre-skeptical)
+- [Prescription Integration: When You Already Wear Glasses](#prescription-integration-when-you-already-wear-glasses)
+- [Lifecycle and Maintenance](#lifecycle-and-maintenance)
+- [Integration with Mechanical Keyboard Ergonomics](#integration-with-mechanical-keyboard-ergonomics)
+- [Final Recommendation by Situation](#final-recommendation-by-situation)
+
 ## Understanding Blue Light and Eye Strain
 
 Your monitor emits visible light across the spectrum, but high-energy visible (HEV) blue light (wavelengths around 400-500nm) penetrates deeper into your eyes. Research indicates prolonged exposure contributes to digital eye strain—characterized by dry eyes, blurred vision, and headaches.
@@ -389,11 +409,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Natural Light Optimization for Home Office](/remote-work-tools/natural-light-optimization-for-home-office/)
+- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Remote Work Monitor Light Bar 2026](/remote-work-tools/best-remote-work-monitor-light-bar-2026/)
+- [Ring Light vs Panel Light for Video Calls: A Developer Guide](/remote-work-tools/ring-light-vs-panel-light-for-video-calls/)
 - [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
-- [Best Headset for Wearing with Glasses All Day Remote Work](/remote-work-tools/best-headset-for-wearing-with-glasses-all-day-remote-work/)
-- [Best Monitor Height for Bifocal Glasses Wearing Developers](/remote-work-tools/best-monitor-height-for-bifocal-glasses-wearing-developers-setup/)
-- [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
-- [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

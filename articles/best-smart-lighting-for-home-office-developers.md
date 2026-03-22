@@ -18,6 +18,14 @@ voice-checked: true
 
 As developers, we spend hours in front of screens in spaces that often receive poor natural light. The right smart lighting setup transforms your home office from a dim cave into a productivity-enhancing environment that adapts to your workflow throughout the day.
 
+## Table of Contents
+
+- [Why Smart Lighting Matters for Developers](#why-smart-lighting-matters-for-developers)
+- [Top Smart Lighting Options with Pricing](#top-smart-lighting-options-with-pricing)
+- [Integration Examples for Developers](#integration-examples-for-developers)
+- [Practical Implementation Strategy](#practical-implementation-strategy)
+- [Budget Tiers and Expected ROI](#budget-tiers-and-expected-roi)
+
 ## Why Smart Lighting Matters for Developers
 
 Your office lighting affects more than just visibility. Poor lighting causes eye strain, impacts circadian rhythms, and can drain your energy by midday. Smart lighting addresses these issues by allowing precise control over color temperature, brightness, and automation triggers that align with your work patterns.
@@ -244,11 +252,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
 - [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
-- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
-- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
-- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
-
+- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

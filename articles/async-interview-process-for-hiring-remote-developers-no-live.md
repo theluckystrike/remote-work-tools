@@ -17,6 +17,23 @@ tags: [remote-work-tools, remote-work]
 
 Building an async interview process for hiring remote developers removes the friction of scheduling across time zones while giving candidates flexibility to demonstrate their skills without performative pressure. Many remote-first companies have replaced live coding interviews with asynchronous assessments that evaluate problem-solving ability, communication skills, and technical depth through written responses, recorded explanations, and pull request reviews.
 
+## Table of Contents
+
+- [Why Async Interviews Work for Remote Hiring](#why-async-interviews-work-for-remote-hiring)
+- [Step 1: Design Your Assessment Stages](#step-1-design-your-assessment-stages)
+- [Step 2: Create the Technical Challenge](#step-2-create-the-technical-challenge)
+- [Technical Challenge: API Implementation](#technical-challenge-api-implementation)
+- [Step 3: Build the Code Review Exercise](#step-3-build-the-code-review-exercise)
+- [Code Review Exercise](#code-review-exercise)
+- [Step 4: Design the Architectural Discussion](#step-4-design-the-architectural-discussion)
+- [Architectural Discussion: Notification Service](#architectural-discussion-notification-service)
+- [Step 5: Set Clear Evaluation Criteria](#step-5-set-clear-evaluation-criteria)
+- [Step 6: Manage Candidate Communication](#step-6-manage-candidate-communication)
+- [Application Status: Technical Assessment](#application-status-technical-assessment)
+- [Step 7: Handle Edge Cases](#step-7-handle-edge-cases)
+- [Practical Tips for Implementation](#practical-tips-for-implementation)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+
 ## Why Async Interviews Work for Remote Hiring
 
 Traditional live interviews create several problems for distributed teams. Candidates must clear time during specific windows, often taking time off work. Engineers must coordinate schedules across continents. The performative pressure of live coding under observation rarely reflects actual day-to-day work.
@@ -253,11 +270,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [How to Create Remote Employee Exit Interview Process](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
+- [Async Product Discovery Process for Remote Teams](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Best Tools for Remote Team Technical Interviews 2026](/remote-work-tools/best-tools-for-remote-team-technical-interviews-2026/)
 - [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
-- [How to Create Remote Employee Exit Interview Process for](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
-- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
-- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
-
+- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

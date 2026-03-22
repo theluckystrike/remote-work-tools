@@ -17,6 +17,28 @@ voice-checked: true
 
 Slack in a 10-person team is manageable. Slack in a 200-person remote team without structure becomes a noise machine that creates anxiety, buries decisions, and wastes hours. This guide covers the structural changes that make Slack work at scale: channel taxonomy, notification policies, Workflow Builder automations, and async-first norms.
 
+## Table of Contents
+
+- [Channel Taxonomy](#channel-taxonomy)
+- [Notification Policy](#notification-policy)
+- [Required Channels](#required-channels)
+- [Workflow Builder Automations](#workflow-builder-automations)
+- [Channel Description Template](#channel-description-template)
+- [Async-First Norms to Codify](#async-first-norms-to-codify)
+- [Slack Norms](#slack-norms)
+- [Reducing Notification Anxiety at Scale](#reducing-notification-anxiety-at-scale)
+- [Slack Alternatives Worth Knowing](#slack-alternatives-worth-knowing)
+- [Analytics: Identifying Noise Channels](#analytics-identifying-noise-channels)
+- [Advanced Workflow Builder Patterns](#advanced-workflow-builder-patterns)
+- [Notification Audit Framework](#notification-audit-framework)
+- [Slack Notification Audit Checklist](#slack-notification-audit-checklist)
+- [Slack Bot Strategy for Engineering Teams](#slack-bot-strategy-for-engineering-teams)
+- [Building a Distributed Thread Culture](#building-a-distributed-thread-culture)
+- [Slack Threading Culture](#slack-threading-culture)
+- [Slack Workspace Scaling Milestones](#slack-workspace-scaling-milestones)
+- [Common Slack Mistakes to Avoid](#common-slack-mistakes-to-avoid)
+- [Related Reading](#related-reading)
+
 The failure mode is not that engineers use Slack wrong. It is that nobody ever defined what right looks like. Teams grow, channels multiply, and notification defaults stay at "everything." Twelve months later you have 400 channels, engineers with badges in the hundreds, and a team that treats Slack like an always-on meeting room.
 
 ## Channel Taxonomy
@@ -371,9 +393,9 @@ One major cause of Slack noise is thread-ignorance. New team members often don't
 ✅ Good (channel stays clean):
 ```
 @alice: We should use Rust for this service
-  ↳ @bob: I agree, here's why [in thread]
-    ↳ @charlie: Performance context [in thread]
-      ↳ @alice: Great, let's do it [in thread]
+ ↳ @bob: I agree, here's why [in thread]
+ ↳ @charlie: Performance context [in thread]
+ ↳ @alice: Great, let's do it [in thread]
 Decision summary posted to channel: "Decided: Rust for service X. See thread for context."
 ```
 
@@ -445,7 +467,15 @@ Slack alerts should never be your primary incident notification. Use a real aler
 - [Best Practice for Remote Team Slack Do Not Disturb Schedules](/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 - [Best Practice for Remote Team Slack Emoji Reactions Replacing Verbal Responses](/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
 - [How to Create Async Standup Templates in Slack with Workflow Builder](/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
 ---
 
+## Related Articles
+
+- [Slack Workflow Builder Automation Stopped Running Fix 2026](/remote-work-tools/slack-workflow-builder-automation-stopped-running-fix-2026/)
+- [How to Reduce Slack Notification Fatigue for Remote](/remote-work-tools/how-to-reduce-slack-notification-fatigue-for-remote-develope/)
+- [Best Slack Alternatives for Small Teams in 2026](/remote-work-tools/best-slack-alternatives-for-small-teams/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [Slack Workspace Structure for a 50 Person Remote](/remote-work-tools/slack-workspace-structure-for-a-50-person-remote-engineering/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

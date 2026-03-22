@@ -18,6 +18,21 @@ voice-checked: true
 
 Quarterly OKR workshops are one of the most high-impact meetings a product manager can help. When done well, they align teams around clear priorities and measurable outcomes. When done poorly, they produce vague goals that no one remembers or tracks. This guide provides a practical framework for running remote OKR definition workshops that produce real results.
 
+## Table of Contents
+
+- [Why Remote OKR Workshops Need Structure](#why-remote-okr-workshops-need-structure)
+- [Pre-Workshop Setup](#pre-workshop-setup)
+- [Workshop Help Steps](#workshop-help-steps)
+- [Post-Workshop Follow-Up](#post-workshop-follow-up)
+- [OKR Template for Different Team Functions](#okr-template-for-different-team-functions)
+- [Tools and Templates](#tools-and-templates)
+- [Pre-Workshop Checklist](#pre-workshop-checklist)
+- [48 Hours Before](#48-hours-before)
+- [24 Hours Before](#24-hours-before)
+- [15 Minutes Before](#15-minutes-before)
+- [Post-Workshop: The Critical Follow-Up](#post-workshop-the-critical-follow-up)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+
 ## Why Remote OKR Workshops Need Structure
 
 Distributed teams face unique challenges when defining OKRs. Without visual cues and spontaneous hallway conversations, the process can easily drift into ambiguity. A structured workshop format keeps participants focused and ensures every voice gets heard.
@@ -339,11 +354,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
-- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
-- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
+- [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
+- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
 - [Virtual Craft Workshop Ideas for Remote Team Creative](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
-- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-
+- [How to help Remote Team Workshops Using Miro with Structured Communication](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

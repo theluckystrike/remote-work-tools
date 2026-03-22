@@ -18,6 +18,13 @@ voice-checked: true
 
 Presenting sprint demos to non-technical clients over video calls presents unique challenges. Your audience cannot see the code, doesn't understand technical terminology, and may lose interest quickly if you focus on implementation details. The difference between a successful demo and a confusing one often comes down to preparation and communication style.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Advanced: Using Storytelling to Engage Clients](#advanced-using-storytelling-to-engage-clients)
+- [Troubleshooting](#troubleshooting)
+
 This guide provides practical strategies for delivering effective sprint demos that keep clients engaged, build trust, and demonstrate real progress.
 
 ## Prerequisites
@@ -343,10 +350,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [How to Run Async Sprint Demos with Recorded Walkthroughs](/remote-work-tools/how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/)
-- [How to Present Remote Team Credentials to Prospective Agency](/remote-work-tools/how-to-present-remote-team-credentials-to-prospective-agency/)
-- [How to Make Async Communication Inclusive for Non-Native](/remote-work-tools/how-to-make-async-communication-inclusive-for-non-native-eng/)
-- [Video Walkthrough Tools for Presenting Code Changes to](/remote-work-tools/video-walkthrough-tools-for-presenting-code-changes-to-non-t/)
-- [Best Annotation Tool for Remote Design Review with Clients](/remote-work-tools/best-annotation-tool-for-remote-design-review-with-clients-2/)
-
+- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
+- [How to Run Effective Remote Team Demos and Showcases 2026](/remote-work-tools/how-to-run-effective-remote-team-demos-and-showcases-2026/)
+- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

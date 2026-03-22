@@ -18,6 +18,36 @@ voice-checked: true
 
 Writing clear async project briefs is one of the most valuable skills you can develop in a remote work environment. Unlike synchronous meetings where you can immediately clarify questions, async briefs must stand alone—complete, unambiguous, and actionable. When done well, they eliminate the back-and-forth that drains productivity and create a single source of truth your entire team can reference.
 
+## Table of Contents
+
+- [Why Project Briefs Fail in Async Environments](#why-project-briefs-fail-in-async-environments)
+- [The BRIEF Framework for Async Project Briefs](#the-brief-framework-for-async-project-briefs)
+- [Requirements](#requirements)
+- [Implementation Notes](#implementation-notes)
+- [Action Items](#action-items)
+- [Success Criteria](#success-criteria)
+- [Practical Examples](#practical-examples)
+- [Background](#background)
+- [Requirements](#requirements)
+- [Technical Constraints](#technical-constraints)
+- [Dependencies](#dependencies)
+- [Action Items](#action-items)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Impact](#impact)
+- [Root Cause](#root-cause)
+- [Requirements](#requirements)
+- [Code Context](#code-context)
+- [Testing Plan](#testing-plan)
+- [Success Criteria](#success-criteria)
+- [Tools and Templates](#tools-and-templates)
+- [Background](#background)
+- [Requirements](#requirements)
+- [Technical Notes](#technical-notes)
+- [Action Items](#action-items)
+- [Success Criteria](#success-criteria)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Building Briefs That Scale](#building-briefs-that-scale)
+
 This guide provides frameworks, templates, and practical examples specifically designed for developers and technical teams working across time zones.
 
 ## Why Project Briefs Fail in Async Environments
@@ -257,9 +287,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
 - [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
-- [How to Write Postmortem Reports for Remote Teams](/remote-work-tools/how-to-write-postmortem-reports-for-remote-teams/)
-- [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
-
+- [Async Decision-Making Framework for Remote Teams](/remote-work-tools/articles/how-to-set-up-async-decision-making-framework-guide/)
+- [Best Async Voice Message Tools for Remote Teams 2026](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
+- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

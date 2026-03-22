@@ -17,6 +17,22 @@ voice-checked: true
 
 Deployment pipelines for co-located teams often rely on implicit coordination: people see each other, know who's deploying what, and can tap someone on the shoulder if something goes wrong. Remote teams need that coordination made explicit in the pipeline itself. This guide covers the patterns that make deployments safe for distributed teams across multiple time zones.
 
+## Table of Contents
+
+- [The Core Problem: Implicit Coordination Made Explicit](#the-core-problem-implicit-coordination-made-explicit)
+- [Deployment Window Policy](#deployment-window-policy)
+- [Async Deployment Approval](#async-deployment-approval)
+- [Deployment Announcement Template](#deployment-announcement-template)
+- [Rollback Automation](#rollback-automation)
+- [Deployment Checklist (Async)](#deployment-checklist-async)
+- [Pre-Deploy Checklist — [description] — [date]](#pre-deploy-checklist-description-date)
+- [On-Call Handoff for Deploys](#on-call-handoff-for-deploys)
+- [Deploy Handoff Note — [datetime]](#deploy-handoff-note-datetime)
+- [Feature Flags as a Deployment Safety Net](#feature-flags-as-a-deployment-safety-net)
+- [Deploy Metrics to Track](#deploy-metrics-to-track)
+- [Pipeline Tool Comparison](#pipeline-tool-comparison)
+- [Related Reading](#related-reading)
+
 ## The Core Problem: Implicit Coordination Made Explicit
 
 In a co-located team:
@@ -341,7 +357,16 @@ GitHub Actions covers most small-to-mid-size remote teams with less operational 
 - [How to Secure Remote Team CI/CD Pipeline from Supply Chain Attacks](/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend Developers](/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-develope/)
+- [Hybrid Team Social Events: Best Practices (2026)](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
 ---
+
+## Related Articles
+
+- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
+- [Remote Team Metrics Collection Strategy for Measuring](/remote-work-tools/remote-team-metrics-collection-strategy-for-measuring-deploy/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [Remote Team Runbook Template for Deploying Hotfix](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

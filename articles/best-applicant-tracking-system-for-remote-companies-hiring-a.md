@@ -16,6 +16,22 @@ intent-checked: true
 
 Lever TRM and Greenhouse lead the market for remote hiring, with Lever excelling at candidate relationship management across timezones and Greenhouse providing superior structured interview frameworks for distributed teams. Remote companies need ATS tools built for distributed hiring—traditional systems don't handle multi-country compliance, timezone-aware scheduling, or international payments. This guide compares the top systems designed specifically for teams hiring globally.
 
+## Table of Contents
+
+- [Why Standard ATS Tools Fall Short for Remote Hiring](#why-standard-ats-tools-fall-short-for-remote-hiring)
+- [Top Applicant Tracking Systems for Remote Companies](#top-applicant-tracking-systems-for-remote-companies)
+- [Implementing an ATS for Multi-Country Remote Hiring](#implementing-an-ats-for-multi-country-remote-hiring)
+- [Best Practices for Remote ATS Implementation](#best-practices-for-remote-ats-implementation)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Making Your Decision](#making-your-decision)
+- [Deep Pricing and Feature Comparison](#deep-pricing-and-feature-comparison)
+- [Remote-Specific ATS Features Comparison](#remote-specific-ats-features-comparison)
+- [Regional Compliance Configuration Guide](#regional-compliance-configuration-guide)
+- [Interview Scorecard Architecture for Remote Roles](#interview-scorecard-architecture-for-remote-roles)
+- [Automation Recipes for Remote Hiring](#automation-recipes-for-remote-hiring)
+- [Common Configuration Mistakes](#common-configuration-mistakes)
+- [Migration Strategy from Spreadsheets](#migration-strategy-from-spreadsheets)
+
 ## Why Standard ATS Tools Fall Short for Remote Hiring
 
 Most traditional applicant tracking systems assume a single-location hiring model. When you're hiring across borders, you quickly encounter limitations:
@@ -470,10 +486,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
-- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
-- [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
-- [Multi Timezone Team Calendar Setup Scheduling Across Regions](/remote-work-tools/multi-timezone-team-calendar-setup-scheduling-across-regions/)
-
+- [Best Calendar Scheduling Tools for Remote Teams 2026](/remote-work-tools/calendar-scheduling-tools-remote-teams-2026/)
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [Remote Team Interview Scheduling Tool for Coordinating](/remote-work-tools/remote-team-interview-scheduling-tool-for-coordinating-acros/)
+- [Remote Team Hiring Rubric Template for Consistent](/remote-work-tools/remote-team-hiring-rubric-template-for-consistent-evaluation/)
+- [Remote Team Hiring Diversity Sourcing Strategy](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

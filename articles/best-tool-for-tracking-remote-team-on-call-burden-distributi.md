@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ".GitHub/ISSUE_TEMPLATE/oncall-shift.md"
+title: "On-Call Burden Tracking Tools for Remote Teams"
 description: "A practical guide for developers and power users comparing tools and methods to track and balance on-call burden across distributed remote teams"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -16,6 +16,23 @@ tags: [remote-work-tools, best-of, remote-work]
 
 {% raw %}
 ## The Problem with Untracked On-Call Burden
+
+## Table of Contents
+
+- [The Problem with Untracked On-Call Burden](#the-problem-with-untracked-on-call-burden)
+- [Starting with GitHub Issues: Low Overhead, High Visibility](#starting-with-github-issues-low-overhead-high-visibility)
+- [Shift Summary](#shift-summary)
+- [Incidents Handled](#incidents-handled)
+- [Notes](#notes)
+- [Sleep Quality Impact](#sleep-quality-impact)
+- [Using PagerDuty for Built-in Analytics](#using-pagerduty-for-built-in-analytics)
+- [OpsGenie as a PagerDuty Alternative](#opsgenie-as-a-pagerduty-alternative)
+- [Building Fair Rotation Logic](#building-fair-rotation-logic)
+- [Grafana On-Call for Open-Source Teams](#grafana-on-call-for-open-source-teams)
+- [Comparing Tools Side by Side](#comparing-tools-side-by-side)
+- [Key Metrics to Track Monthly](#key-metrics-to-track-monthly)
+- [Handling Time Zone Fairness for Distributed Teams](#handling-time-zone-fairness-for-distributed-teams)
+- [Practical Steps to Implement Today](#practical-steps-to-implement-today)
 
 Distributed engineering teams often treat on-call as an informal arrangement where engineers rotate through scheduled shifts and everyone assumes the load is roughly equal. It rarely is. One engineer working in a timezone that overlaps with the system's peak traffic hours absorbs significantly more incidents than someone in a quieter timezone. A senior engineer who owns legacy components catches more escalations than a junior team member. Without data, these imbalances are invisible until someone burns out or leaves.
 
@@ -274,11 +291,10 @@ Some organizations pay an on-call stipend per shift. Others offer compensatory t
 
 ## Related Articles
 
-- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
-- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
-- [Shortcut vs Linear: Issue Tracking Comparison for](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
-
+- [How to Set Up Remote Team On-Call Rotation 2026](/remote-work-tools/how-to-set-up-remote-team-on-call-rotation-2026/)
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
+- [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
+- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
+- [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,16 @@ voice-checked: true
 
 Remote work has become the standard for many development teams, and allowing employees to use their personal devices increases flexibility while reducing hardware costs. However, without a proper legal framework, your organization faces significant risks around data security, liability, and regulatory compliance. This guide walks you through creating a legally sound Bring Your Own Device (BYOD) policy tailored for remote technical teams.
 
+## Table of Contents
+
+- [Why Your Remote Team Needs a BYOD Policy](#why-your-remote-team-needs-a-byod-policy)
+- [Core Components of a Legal BYOD Policy](#core-components-of-a-legal-byod-policy)
+- [Incident Response: Lost or Stolen BYOD Device](#incident-response-lost-or-stolen-byod-device)
+- [Offboarding Procedure for BYOD](#offboarding-procedure-for-byod)
+- [Regional Legal Considerations](#regional-legal-considerations)
+- [Enforcement and Policy Updates](#enforcement-and-policy-updates)
+- [Building Your Policy](#building-your-policy)
+
 ## Why Your Remote Team Needs a BYOD Policy
 
 When developers access company systems from personal laptops, tablets, or phones, your organization loses visibility into device security. A single compromised personal device can expose sensitive customer data, intellectual property, or internal communications. Beyond security concerns, regulatory frameworks like GDPR, HIPAA, and SOC 2 require documented controls over data access and storage.
@@ -253,10 +263,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
+- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
 - [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
-- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
-- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
-- [How to Create Remote Work Nanny Cam Policy That Respects](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
-
+- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
+- [Remote Team Vulnerability Disclosure Policy Template](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

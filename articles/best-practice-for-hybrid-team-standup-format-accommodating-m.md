@@ -15,6 +15,25 @@ tags: [remote-work-tools, best-of]
 
 The "all-remote standup format" where even in-office participants dial in from individual desks prevents asymmetric participation and ensures remote attendees don't become invisible second-class participants. By breaking standups into 60-second individual updates instead of conversational round-robins, using async Slack updates with dedicated response threads, and rotating standup help to distributed team members, hybrid teams ensure information flows equally and remote voices get heard. This inverts the default problem—rather than fitting remote workers into an in-office meeting structure, designing standups for distributed-first participation paradoxically improves engagement for co-located teams while ensuring equity across your entire distributed workforce.
 
+## Table of Contents
+
+- [The Core Problem: Asymmetric Participation](#the-core-problem-asymmetric-participation)
+- [Recommended Format: Round-Robin with Async Buffer](#recommended-format-round-robin-with-async-buffer)
+- [Yesterday](#yesterday)
+- [Today](#today)
+- [Blockers](#blockers)
+- [Alternative Standup Formats for Different Team Dynamics](#alternative-standup-formats-for-different-team-dynamics)
+- [Room Setup for Hybrid Success](#room-setup-for-hybrid-success)
+- [Help Techniques](#help-techniques)
+- [Tools That Support Hybrid Standups](#tools-that-support-hybrid-standups)
+- [Example Standup Agenda (15 Minutes)](#example-standup-agenda-15-minutes)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [When to Go Fully Async Instead](#when-to-go-fully-async-instead)
+- [Advanced Facilitation Techniques](#advanced-facilitation-techniques)
+- [Scaling Standups with Growing Teams](#scaling-standups-with-growing-teams)
+- [Measuring Standup Effectiveness](#measuring-standup-effectiveness)
+- [Common Standup Anti-Patterns to Avoid](#common-standup-anti-patterns-to-avoid)
+
 ## The Core Problem: Asymmetric Participation
 
 In a hybrid setup, in-room participants naturally dominate discussions. They can see each other, interrupt each other, pick up on non-verbal cues, and have sidebar conversations. Remote participants, by contrast, often feel like they're watching a livestream rather than participating in a meeting. The solution isn't to force everyone into the same modality, but to design your standup format that inherently balances participation.
@@ -310,10 +329,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
-- [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
-- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [Best Practice for Hybrid Team Knowledge Transfer Between](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
-
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
+- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

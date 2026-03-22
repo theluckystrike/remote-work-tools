@@ -13,25 +13,20 @@ categories: [guides]
 intent-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Hybrid Office Air Quality Monitoring for Maintaining"
-description: "Learn how to implement air quality monitoring systems for hybrid offices with variable occupancy. Includes sensor integration, occupancy-aware"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /hybrid-office-air-quality-monitoring-for-maintaining-healthy/
-reviewed: true
-score: 9
-voice-checked: true
-categories: [guides]
-intent-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 
 Integrate door counter or badge API data with CO2 sensors to calculate occupancy-adjusted thresholds (base 600 ppm + 15 ppm per person) instead of fixed alerts, reducing false positives during low-occupancy periods while catching real ventilation problems when the office fills up. Publish occupancy and CO2 readings to MQTT/WebSocket so your building automation system can adjust HVAC fan speed proportionally rather than binary on/off control. This approach—dynamic thresholds accounting for actual occupancy—prevents excessive alerts on Tuesdays when 8 people work alone while remaining sensitive to genuine ventilation shortfalls when 40 people occupy the same space.
+
+## Table of Contents
+
+- [The Variable Occupancy Challenge](#the-variable-occupancy-challenge)
+- [Integrating Occupancy Sensors](#integrating-occupancy-sensors)
+- [Calculating Dynamic Thresholds](#calculating-dynamic-thresholds)
+- [Building the Monitoring Pipeline](#building-the-monitoring-pipeline)
+- [Implementing Occupancy-Aware Automation](#implementing-occupancy-aware-automation)
+- [Dashboard Design for Variable Occupancy](#dashboard-design-for-variable-occupancy)
+- [Deployment Strategy](#deployment-strategy)
 
 ## The Variable Occupancy Challenge
 
@@ -305,11 +300,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
+- [Air Quality Monitoring for Hybrid Office Spaces](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
+- [Hybrid Office Fire Safety and Evacuation Plan Update](/remote-work-tools/hybrid-office-fire-safety-and-evacuation-plan-update-for-var/)
 - [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
-- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
-- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
-- [How to Cool Home Office Without Air Conditioning During](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
-
+- [Home Office Ventilation Solutions When Room Has No Window](/remote-work-tools/home-office-ventilation-solutions-when-room-has-no-window/)
+- [Hybrid Office Space Planning Tool for Facilities Managers](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

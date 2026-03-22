@@ -18,6 +18,30 @@ voice-checked: true
 
 Moving from a fully remote setup to a hybrid model introduces unique challenges for team culture. Some team members work from the office several days per week while others remain remote full-time. This asymmetry creates new friction points that, if unaddressed, can fragment your team into two separate groups with divergent experiences. The goal is to ensure that remote participants have equal access to information, social connection, and decision-making processes—not as an afterthought, but as a core design principle.
 
+## Table of Contents
+
+- [The Core Problem: Asymmetric Experience](#the-core-problem-asymmetric-experience)
+- [Document Everything: The Async-First Foundation](#document-everything-the-async-first-foundation)
+- [Discussion: [Topic]](#discussion-topic)
+- [Attendees](#attendees)
+- [Agenda](#agenda)
+- [Notes](#notes)
+- [Action Items](#action-items)
+- [Rethink Meeting Logistics](#rethink-meeting-logistics)
+- [Establish "No-Documenting" Time for Remote Workers](#establish-no-documenting-time-for-remote-workers)
+- [Implement Rotating In-Office Days](#implement-rotating-in-office-days)
+- [Measure What Matters](#measure-what-matters)
+- [Hybrid Models: Comparison and Trade-offs](#hybrid-models-comparison-and-trade-offs)
+- [Implementation Roadmap: 90 Days to Hybrid Culture](#implementation-roadmap-90-days-to-hybrid-culture)
+- [Hybrid Preparation Checklist](#hybrid-preparation-checklist)
+- [Monthly Hybrid Retrospective](#monthly-hybrid-retrospective)
+- [Tools and Technology Stack](#tools-and-technology-stack)
+- [Measuring Hybrid Success: Metrics Framework](#measuring-hybrid-success-metrics-framework)
+- [Inclusion Metrics](#inclusion-metrics)
+- [Productivity Metrics](#productivity-metrics)
+- [Culture Metrics](#culture-metrics)
+- [Building Culture That Scales](#building-culture-that-scales)
+
 ## The Core Problem: Asymmetric Experience
 
 In a fully remote team, everyone shares the same baseline experience. Everyone attends video calls from their own workspace, everyone uses the same digital tools, and everyone navigates the same asynchronous workflows. Hybrid work breaks this symmetry. When some team members share a physical space, they naturally develop informal connections, have sidebar conversations, and pick up context that remote participants miss entirely.
@@ -426,11 +450,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
-- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
-- [How to Build Remote Team Culture Without Mandatory Fun](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
 - [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
-- [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
-
+- [Preserving Remote Team Culture When Doubling in Size](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubling-in-size/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,22 @@ intent-checked: true
 
 Cable clutter kills desk productivity. A typical home office desk has 8-15 cables: monitor, keyboard, mouse, external drive, desk lamp, phone charger, headphones, and more. Without organization, cables tangle, connect in the wrong ports, and create visual stress. The best solution combines three approaches: cable trays for bulk routing, velcro ties for flexible bundling, and channel covers for hidden runs.
 
+## Table of Contents
+
+- [The Cable Problem](#the-cable-problem)
+- [J Channel: The Cable Raceway Foundation](#j-channel-the-cable-raceway-foundation)
+- [Under-Desk Cable Tray: Bulk Routing](#under-desk-cable-tray-bulk-routing)
+- [Velcro Cable Ties: Flexibility and Control](#velcro-cable-ties-flexibility-and-control)
+- [Cable Clips and Desk Grommets](#cable-clips-and-desk-grommets)
+- [Power Strip Organization](#power-strip-organization)
+- [Complete Setup Examples](#complete-setup-examples)
+- [Installation Timeline](#installation-timeline)
+- [Before and After](#before-and-after)
+- [Material Comparison](#material-comparison)
+- [Advanced Organization Techniques](#advanced-organization-techniques)
+- [Maintenance and Adjustments](#maintenance-and-adjustments)
+- [Investment ROI](#investment-roi)
+
 This guide covers tested products, installation methods, and before/after setups. Budget $50-150 for a complete home office solution.
 
 ## The Cable Problem
@@ -337,10 +353,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)
 - [Cable Management Under Desk for Home Office With Standing](/remote-work-tools/cable-management-under-desk-for-home-office-with-standing-de/)
+- [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)
 - [Best Under Desk Cable Tray for Clean Home Office Setup 2026](/remote-work-tools/best-under-desk-cable-tray-for-clean-home-office-setup-2026/)
-- [Home Office Ventilation Solutions When Room Has No Window](/remote-work-tools/home-office-ventilation-solutions-when-room-has-no-window/)
-- [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
-
+- [Best Remote Work Cable Management Solutions 2026](/remote-work-tools/best-remote-work-cable-management-solutions-2026/)
+- [How to Organize Cables in Home Office Setup](/remote-work-tools/how-to-organize-cables-in-home-office-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

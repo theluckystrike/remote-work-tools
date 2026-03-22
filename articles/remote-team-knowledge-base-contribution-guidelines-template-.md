@@ -16,6 +16,16 @@ score: 9
 
 Remote teams lose the informal knowledge transfer that happens in offices. Clear contribution guidelines reduce friction so people know exactly how to contribute, what format works, and where documentation belongs. This template gives you a ready-to-use framework for knowledge base governance.
 
+## Table of Contents
+
+- [Why Documentation Guidelines Matter](#why-documentation-guidelines-matter)
+- [Prerequisites](#prerequisites)
+- [Common Issues](#common-issues)
+- [Advanced](#advanced)
+- [When to Escalate](#when-to-escalate)
+- [Next Steps](#next-steps)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Documentation Guidelines Matter
 
 Remote teams lose the informal knowledge transfer that happens in offices. When teammates sit near each other, expertise spreads naturally through nearby conversations. Remote teams need intentional systems that make knowledge sharing the default behavior. Clear contribution guidelines reduce friction: people know exactly how to contribute, what format works, and where documentation belongs.
@@ -402,11 +412,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Knowledge Base Contribution Incentive Program](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
-- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
-- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
-- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
+- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
 - [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
-
+- [Self-Hosted Knowledge Base for Remote Support Team](/remote-work-tools/self-hosted-knowledge-base-for-remote-support-team-replacing/)
+- [Remote Team Knowledge Base Contribution Incentive Program](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

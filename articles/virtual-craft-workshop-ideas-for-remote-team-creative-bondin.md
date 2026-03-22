@@ -18,6 +18,27 @@ voice-checked: true
 
 Remote teams often struggle to build genuine connections beyond video calls and standups. Virtual craft workshops provide a refreshing break from screen-heavy work while giving team members a shared experience that sparks conversation and creativity. This guide presents practical virtual craft workshop ideas designed specifically for remote developer teams and power users who want meaningful team-building activities.
 
+## Table of Contents
+
+- [Why Virtual Craft Workshops Work for Remote Teams](#why-virtual-craft-workshops-work-for-remote-teams)
+- [Workshop Idea 1: Collaborative Pixel Art Sessions](#workshop-idea-1-collaborative-pixel-art-sessions)
+- [Workshop Idea 2: Code-Themed origami](#workshop-idea-2-code-themed-origami)
+- [Workshop Idea 3: Virtual Pottery with Tinkercad](#workshop-idea-3-virtual-pottery-with-tinkercad)
+- [Workshop Idea 4: Collaborative Story Building](#workshop-idea-4-collaborative-story-building)
+- [Story Branch: The Mysterious Production Outage](#story-branch-the-mysterious-production-outage)
+- [Workshop Idea 5: Custom Emoji Design Session](#workshop-idea-5-custom-emoji-design-session)
+- [Practical Tips for Running Virtual Craft Workshops](#practical-tips-for-running-virtual-craft-workshops)
+- [Measuring Success](#measuring-success)
+- [Workshop Idea 6: Collaborative Music Creation](#workshop-idea-6-collaborative-music-creation)
+- [Workshop Idea 7: Virtual Escape Room Design](#workshop-idea-7-virtual-escape-room-design)
+- [Workshop Idea 8: Collaborative Cooking Session](#workshop-idea-8-collaborative-cooking-session)
+- [Workshop Idea 9: Photo Challenge and Gallery](#workshop-idea-9-photo-challenge-and-gallery)
+- [Workshop Idea 10: Collaborative Worldbuilding](#workshop-idea-10-collaborative-worldbuilding)
+- [Managing Participant Anxiety](#managing-participant-anxiety)
+- [Measuring Workshop Engagement Long-Term](#measuring-workshop-engagement-long-term)
+- [Scaling Craft Workshops for Large Teams](#scaling-craft-workshops-for-large-teams)
+- [Advanced: Building a Craft Workshop Calendar](#advanced-building-a-craft-workshop-calendar)
+
 ## Why Virtual Craft Workshops Work for Remote Teams
 
 Traditional team-building events often feel forced or awkward in virtual settings. Craft workshops solve this problem by giving everyone a concrete task to focus on, which actually reduces social anxiety and creates natural conversation starters. When someone asks "How do I fold this?" or "What color should I use?", you're already engaging in the kind of casual interaction that builds team rapport.
@@ -343,11 +364,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Virtual Team Events Ideas for Developers in 2026](/remote-work-tools/virtual-team-events-ideas-for-developers-2026/)
 - [How to Run Remote Workshop for Product Managers Defining](/remote-work-tools/how-to-run-remote-workshop-for-product-managers-defining-qua/)
-- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
-- [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
-- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-
+- [How to help Remote Team Workshops Using Miro with Structured Communication](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Virtual Whiteboard for Remote Team Brainstorming](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

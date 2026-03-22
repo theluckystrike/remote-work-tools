@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ".GitHub/workflows/conflict-escalation.yaml"
+title: "Remote Conflict Resolution via Chat Guide (2026)"
 description: "Learn practical strategies for resolving team conflicts asynchronously via chat. Perfect for developers and remote teams dealing with time zone"
 date: 2026-03-15
 last_modified_at: 2026-03-15
@@ -17,6 +17,26 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 
 Resolve conflicts asynchronously through chat by pausing 15-30 minutes before responding, acknowledging the other person's concerns, stating your position clearly with facts, and proposing specific next steps—creating written records that prevent escalation while maintaining team cohesion across time zones. This approach prevents hot-headed responses that destroy relationships while using async communication's advantage of thoughtful replies.
+
+## Table of Contents
+
+- [Why Chat-Based Conflict Resolution Matters](#why-chat-based-conflict-resolution-matters)
+- [A Framework for Async Conflict Resolution](#a-framework-for-async-conflict-resolution)
+- [Practical Examples](#practical-examples)
+- [Using Code for Conflict Documentation](#using-code-for-conflict-documentation)
+- [Creating Team Protocols](#creating-team-protocols)
+- [Conflict Resolution Protocol](#conflict-resolution-protocol)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [When to Switch to Video](#when-to-switch-to-video)
+- [Building Conflict Resolution Skills](#building-conflict-resolution-skills)
+- [Handling Technical Disagreements Across Experience Levels](#handling-technical-disagreements-across-experience-levels)
+- [Using Threads to Prevent Public Conflicts](#using-threads-to-prevent-public-conflicts)
+- [Cross-Cultural Communication in Conflict](#cross-cultural-communication-in-conflict)
+- [Establishing Conflict as Growth Opportunity](#establishing-conflict-as-growth-opportunity)
+- [Conflict Resolution Culture](#conflict-resolution-culture)
+- [Technical Conflicts: Code vs. Coder](#technical-conflicts-code-vs-coder)
+- [Managing Unresolved Conflicts](#managing-unresolved-conflicts)
+- [Building Async Communication Norms](#building-async-communication-norms)
 
 Conflict in remote teams is inevitable. When video calls aren't feasible due to time zones, bandwidth limitations, or scheduling conflicts, resolving disagreements through chat becomes a critical skill. This guide provides developers and power users with actionable strategies for navigating difficult conversations asynchronously.
 
@@ -340,9 +360,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Remote Team Conflict Resolution Framework for Managers](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
 - [Remote Team Conflict Resolution Framework Guide](/remote-work-tools/remote-team-conflict-resolution-framework-guide/)
-- [.github/ISSUE_TEMPLATE/oncall-shift.md](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
-- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
-- [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
-
+- [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
+- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

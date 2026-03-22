@@ -18,6 +18,25 @@ voice-checked: true
 
 Managing code reviews across time zones that never align creates unique challenges for distributed development teams. When your team spans San Francisco, London, and Tokyo, finding a single hour where everyone is awake—let alone focused on code review—becomes impractical. This guide covers the tools and workflows that make async code reviews effective for teams without synchronous overlap.
 
+## Table of Contents
+
+- [The Business Impact of Async Code Review](#the-business-impact-of-async-code-review)
+- [The Core Challenge of Async Code Reviews](#the-core-challenge-of-async-code-reviews)
+- [Choosing Between Git Platforms for Async Teams](#choosing-between-git-platforms-for-async-teams)
+- [GitHub Pull Requests as the Foundation](#github-pull-requests-as-the-foundation)
+- [What Problem Does This Solve](#what-problem-does-this-solve)
+- [Approach Taken](#approach-taken)
+- [Changes Overview](#changes-overview)
+- [Testing Performed](#testing-performed)
+- [Screenshots (if applicable)](#screenshots-if-applicable)
+- [Improving Reviews with Automation](#improving-reviews-with-automation)
+- [Async-Specific Review Tools](#async-specific-review-tools)
+- [Practical Workflow for Time-Zone-Dispersed Teams](#practical-workflow-for-time-zone-dispersed-teams)
+- [Handling Disagreements Asynchronously](#handling-disagreements-asynchronously)
+- [Measuring Review Effectiveness](#measuring-review-effectiveness)
+- [February Code Review Metrics](#february-code-review-metrics)
+- [Scaling Code Review](#scaling-code-review)
+
 ## The Business Impact of Async Code Review
 
 Code review bottlenecks directly impact ship velocity. In synchronous teams, a developer might have to wait 2-4 hours for review (meeting core hours), then wait another 2-4 hours for feedback on revisions. That's 4-8 hours of delay within a single day, magnified across a week.
@@ -295,11 +314,10 @@ Check the export options before committing. Most tools let you export your data,
 
 ## Related Articles
 
-- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
 - [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Claude Code for Faker.js Test Data Workflow Guide](/remote-work-tools/claude-code-for-faker-js-test-data-workflow-guide/)
-- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-
+- [Scale Code Reviews for Growing Remote Teams (2026)](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
+- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [Best Collaborative Coding Tools for Remote Teams](/remote-work-tools/best-collaborative-coding-tools-for-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,24 @@ voice-checked: true
 
 Remote agencies face a unique challenge: gathering detailed client information without the benefit of in-person conversations. A well-designed client intake form serves as the foundation for successful project outcomes, replacing casual hallway conversations with structured data collection that your distributed team can access instantly.
 
+## Table of Contents
+
+- [Why Intake Forms Matter for Remote Agencies](#why-intake-forms-matter-for-remote-agencies)
+- [Evaluating Form Builders for Remote Agency Needs](#evaluating-form-builders-for-remote-agency-needs)
+- [Practical Form Structure for Remote Agency Onboarding](#practical-form-structure-for-remote-agency-onboarding)
+- [Essential Contact Fields](#essential-contact-fields)
+- [Project Definition Questions](#project-definition-questions)
+- [Technical Background](#technical-background)
+- [Automating the Intake Workflow](#automating-the-intake-workflow)
+- [Decision Framework: Choosing Your Form Builder](#decision-framework-choosing-your-form-builder)
+- [Intake Form Builder Comparison with Pricing](#intake-form-builder-comparison-with-pricing)
+- [Advanced Intake Features: Progressive Profiling](#advanced-intake-features-progressive-profiling)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Real-World Workflow: From Submission to Project Start](#real-world-workflow-from-submission-to-project-start)
+- [Conditional Logic Examples](#conditional-logic-examples)
+- [Post-Submission Client Experience](#post-submission-client-experience)
+- [Measuring Intake Form Effectiveness](#measuring-intake-form-effectiveness)
+
 This guide examines client intake form builders that excel in remote agency environments, focusing on integration capabilities, automation potential, and the specific workflow needs of distributed teams.
 
 ## Why Intake Forms Matter for Remote Agencies
@@ -295,11 +313,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: HIPAA-compliant data handling](/remote-work-tools/remote-healthcare-patient-intake-form-tool-for-distributed-c/)
+- [Remote Agency Client NDA and Contract Signing Workflow](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 - [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
-- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
-- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
-- [Best Digital Signature Tool for Remote Agency Client](/remote-work-tools/best-digital-signature-tool-for-remote-agency-client-contrac/)
-
+- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

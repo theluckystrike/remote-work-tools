@@ -18,6 +18,23 @@ intent-checked: true
 
 Brazil's Vitem XIV visa requires $1,500 monthly income proof, valid health insurance, and passport validity of 6+ months, processed through a straightforward application that typically approves within 4-6 weeks at a cost of approximately $350-450. As a popular pathway for remote developers in South America, this visa legitimizes your stay while you work for international clients, but you'll owe Brazilian income tax on worldwide income once established as a resident. This guide covers the complete application process and tax implications before making the move.
 
+## Table of Contents
+
+- [Eligibility Requirements for Brazil's Digital Nomad Visa](#eligibility-requirements-for-brazils-digital-nomad-visa)
+- [Application Process Step by Step](#application-process-step-by-step)
+- [Tax Implications for Remote Developers in Brazil](#tax-implications-for-remote-developers-in-brazil)
+- [Practical Tips for Remote Developers](#practical-tips-for-remote-developers)
+- [Advanced Tax Planning for Brazil Digital Nomads](#advanced-tax-planning-for-brazil-digital-nomads)
+- [Practical Financial Setup in Brazil](#practical-financial-setup-in-brazil)
+- [Regional Cost Comparison for Remote Workers](#regional-cost-comparison-for-remote-workers)
+- [Checklist Before Moving to Brazil](#checklist-before-moving-to-brazil)
+- [60 Days Before](#60-days-before)
+- [30 Days Before](#30-days-before)
+- [2 Weeks Before](#2-weeks-before)
+- [Week Before](#week-before)
+- [On Arrival](#on-arrival)
+- [Is Brazil Right for You in 2026?](#is-brazil-right-for-you-in-2026)
+
 ## Eligibility Requirements for Brazil's Digital Nomad Visa
 
 The Brazilian government designed the Vitem XIV visa specifically for foreign nationals who work remotely for entities outside Brazil. To qualify, you must meet several key requirements.
@@ -470,11 +487,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 - [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
-- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
-- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
-- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
+- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

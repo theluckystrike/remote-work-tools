@@ -18,6 +18,23 @@ tags: [remote-work-tools, comparison]
 
 Choose GitBook if you want Git-based version control, explicit release versioning, and structured API reference documentation generated from OpenAPI specs. Choose Notion if your team needs rapid collaborative editing, flexible page structures, and a knowledge base that spans beyond technical docs. GitBook treats documentation as code with PR-based review workflows; Notion treats documentation as living pages with real-time co-editing and block-level comments.
 
+## Table of Contents
+
+- [Platform Architecture](#platform-architecture)
+- [Content Structure and Navigation](#content-structure-and-navigation)
+- [Code Handling and Developer Features](#code-handling-and-developer-features)
+- [Versioning and Releases](#versioning-and-releases)
+- [Search and Discovery](#search-and-discovery)
+- [Collaboration and Review Workflows](#collaboration-and-review-workflows)
+- [Export and Portability](#export-and-portability)
+- [Which Platform Suits Your Team](#which-platform-suits-your-team)
+- [Implementation Workflows: Real Team Examples](#implementation-workflows-real-team-examples)
+- [Team Size and Growth Impact on Platform Choice](#team-size-and-growth-impact-on-platform-choice)
+- [Migration Paths and Hybrid Strategies](#migration-paths-and-hybrid-strategies)
+- [Automation and CI/CD Integration](#automation-and-cicd-integration)
+- [Content Organization at Scale](#content-organization-at-scale)
+- [Performance at Scale](#performance-at-scale)
+
 ## Platform Architecture
 
 GitBook treats documentation as code. Content lives in git repositories, typically Markdown or AsciiDoc files that version control tracks. This approach means documentation inherits familiar developer workflows: pull requests for changes, code reviews for content, and branching strategies for releases. The platform renders these files into searchable, styled documentation sites with built-in search, versioning, and customization options.
@@ -489,11 +506,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Best Tools for Remote Team Documentation 2026: Notion vs.](/remote-work-tools/best-remote-team-documentation-tools-2026/)
 - [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
-- [Best GitBook Alternative for Remote Engineering Teams](/remote-work-tools/best-gitbook-alternative-for-remote-engineering-teams-publis/)
-- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [Notion vs Confluence for Remote Documentation](/remote-work-tools/notion-vs-confluence-remote-documentation/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

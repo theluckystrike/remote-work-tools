@@ -17,6 +17,18 @@ intent-checked: true
 
 VPN security should be transparent—remote workers shouldn't notice it's running. Yet setting up a reliable corporate VPN frustrates IT teams because of configuration complexity, split-brain DNS issues, and client compatibility across Windows, Mac, and Linux. This guide provides production-ready VPN setups for teams of 5-500 people, with specific configuration fixes for common failure modes.
 
+## Table of Contents
+
+- [VPN Architecture: What You Actually Need](#vpn-architecture-what-you-actually-need)
+- [VPN Protocol Comparison](#vpn-protocol-comparison)
+- [Hardware Requirements](#hardware-requirements)
+- [Step-by-Step: WireGuard VPN Setup](#step-by-step-wireguard-vpn-setup)
+- [Client Setup (macOS Example)](#client-setup-macos-example)
+- [Common VPN Issues and Fixes](#common-vpn-issues-and-fixes)
+- [Monitoring and Troubleshooting](#monitoring-and-troubleshooting)
+- [Alternative: Tailscale (Faster Setup)](#alternative-tailscale-faster-setup)
+- [Cost Comparison](#cost-comparison)
+
 ## VPN Architecture: What You Actually Need
 
 A corporate VPN needs:
@@ -481,10 +493,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best VPN Alternative for Remote Developers Needing Secure](/remote-work-tools/best-vpn-alternative-for-remote-developers-needing-secure-cl/)
-- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
-- [Return to Office Mental Health Support Resources for](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
-- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
-- [Secure File Transfer Protocol Setup for Remote Teams](/remote-work-tools/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
-
+- [WireGuard VPN Setup for Remote Dev Teams (2026)](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
+- [Best Mobile VPN Configuration for Remote Workers Accessing](/remote-work-tools/best-mobile-vpn-configuration-for-remote-workers-accessing-d/)
+- [Best VPN for Remote Development Teams with Split Tunneling](/remote-work-tools/best-vpn-for-remote-development-teams-with-split-tunneling-2/)
+- [Best VPN for Remote Workers in Thailand Avoiding Geo](/remote-work-tools/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)
+- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -17,6 +17,13 @@ intent-checked: true
 
 A remote team charter serves as the foundational document for distributed teams, establishing clear expectations, communication protocols, and operational guidelines. This guide provides actionable templates and examples for developers and power users building or managing remote teams in 2026.
 
+## Table of Contents
+
+- [Why Your Remote Team Needs a Charter](#why-your-remote-team-needs-a-charter)
+- [Prerequisites](#prerequisites)
+- [Performance Expectations](#performance-expectations)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Your Remote Team Needs a Charter
 
 Without explicit agreements, remote teams face friction in communication, decision-making, and accountability. A well-crafted charter prevents misunderstandings by documenting:
@@ -371,10 +378,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-- [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [Remote Team Communication Charter Template (2026)](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
 - [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [Buddy Responsibilities Charter](/remote-work-tools/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

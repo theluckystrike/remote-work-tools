@@ -18,6 +18,13 @@ intent-checked: true
 
 The best video conferencing setup for hybrid rooms combines a PTZ camera with auto-tracking, consistent front-lighting at 45-degree angles, and eye-level displays for remote participants. These three components solve the core hybrid challenge: serving both in-room and remote audiences with equal quality. This guide covers camera selection, lighting strategies, and software integration for each room size.
 
+## Table of Contents
+
+- [Core Video Requirements for Hybrid Spaces](#core-video-requirements-for-hybrid-spaces)
+- [Prerequisites](#prerequisites)
+- [Hardware Specifications Comparison](#hardware-specifications-comparison)
+- [Troubleshooting](#troubleshooting)
+
 ## Core Video Requirements for Hybrid Spaces
 
 The foundation of any hybrid room video setup rests on three pillars: camera coverage, display placement, and lighting consistency. Each affects how effectively remote participants engage with in-room activity.
@@ -387,10 +394,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 ## Related Articles
 
 - [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
+- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
 - [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
-- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
-
+- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
+- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

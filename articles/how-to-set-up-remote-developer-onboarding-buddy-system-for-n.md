@@ -13,24 +13,24 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Buddy Responsibilities Charter"
-description: "Learn how to build an effective remote developer onboarding buddy system. Practical setup guide with code snippets and implementation examples"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /how-to-set-up-remote-developer-onboarding-buddy-system-for-n/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 A well-structured buddy system transforms remote developer onboarding from a chaotic scramble into a predictable, supportive process. New hires who receive consistent guidance from an assigned buddy integrate faster, report higher satisfaction, and reach productivity benchmarks sooner than those left to figure things out alone.
+
+## Table of Contents
+
+- [Why Remote Developers Need a Buddy System](#why-remote-developers-need-a-buddy-system)
+- [Step 1: Define Buddy Responsibilities](#step-1-define-buddy-responsibilities)
+- [Key Touchpoints](#key-touchpoints)
+- [What Buddies Should NOT Do](#what-buddies-should-not-do)
+- [Step 2: Choose Buddy Assignment Strategy](#step-2-choose-buddy-assignment-strategy)
+- [Step 3: Automate Buddy Assignment](#step-3-automate-buddy-assignment)
+- [Step 4: Create Buddy Onboarding Materials](#step-4-create-buddy-onboarding-materials)
+- [Step 5: Track Buddy System Effectiveness](#step-5-track-buddy-system-effectiveness)
+- [New Hire Feedback Survey (Day 30)](#new-hire-feedback-survey-day-30)
+- [Step 6: Prevent Buddy Burnout](#step-6-prevent-buddy-burnout)
+- [Practical Implementation Checklist](#practical-implementation-checklist)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 
 This guide walks through setting up a buddy system specifically designed for remote developer teams. You'll find practical implementation steps, template code, and configuration examples you can adapt to your team's existing tools.
 
@@ -259,10 +259,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Buddy System for Onboarding Remote Junior Developers Guide](/remote-work-tools/buddy-system-for-onboarding-remote-junior-developers-guide/)
+- [How to Create Remote Onboarding Buddy Program Template](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
 - [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
-- [How to Create Remote Onboarding Buddy Program Template for](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
-- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
-- [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
-
+- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
+- [communication-preferences.yaml](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

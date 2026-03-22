@@ -13,25 +13,18 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Hybrid Office Space Planning Tool for Facilities Managers"
-description: "Build a hybrid office space planning tool using pressure sensors, infrared motion sensors, or ultrasonic distance sensors deployed across desks, connected via"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools"
-permalink: /hybrid-office-space-planning-tool-for-facilities-managers-op/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 
 Build a hybrid office space planning tool using pressure sensors, infrared motion sensors, or ultrasonic distance sensors deployed across desks, connected via MQTT to a time-series database, with analytics dashboards showing peak use hours and efficiency scores. This reveals actual desk usage patterns driving informed space optimization decisions rather than guesswork.
+
+## Table of Contents
+
+- [Core Components of a Desk Use System](#core-components-of-a-desk-use-system)
+- [Data Collection Architecture](#data-collection-architecture)
+- [Occupancy Analytics and Insights](#occupancy-analytics-and-insights)
+- [Integration with Space Planning Tools](#integration-with-space-planning-tools)
+- [Deployment Considerations](#deployment-considerations)
 
 Hybrid office space planning requires accurate data about how employees actually use physical workspace. Without real occupancy insights, facilities managers rely on guesswork for desk allocation, leading to either overcrowded spaces or wasted real estate. Building a desk use tracking system provides the data needed to optimize space allocation, reduce costs, and improve the employee experience. This guide covers the technical implementation of a hybrid office space planning tool—from sensor deployment to analytics dashboards.
 
@@ -367,11 +360,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+- [Hybrid Office Badge Access Tracking Tool for Understanding](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
 - [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
-- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Useful Thai search terms](/remote-work-tools/how-to-find-apartments-with-dedicated-office-space-in-chiang-mai-for-remote-work/)
-- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
-
+- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

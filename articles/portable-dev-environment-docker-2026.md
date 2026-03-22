@@ -13,25 +13,23 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Portable Dev Environment with Docker 2026"
-description: "Build a portable development environment with Docker that works identically on any machine. Covers Dockerfile, Compose, volume mounts, and dev container setup."
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: theluckystrike
-permalink: /portable-dev-environment-docker-2026/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 {% raw %}
 
 A portable dev environment solves the biggest friction in remote development: getting a new machine, a new teammate, or a new CI environment up and running in minutes instead of hours. Docker makes the environment a file that you check into version control alongside your code.
+
+## Table of Contents
+
+- [The Goal: One Command Setup](#the-goal-one-command-setup)
+- [Writing a Good Dev Dockerfile](#writing-a-good-dev-dockerfile)
+- [Docker Compose for Full Stack Dev](#docker-compose-for-full-stack-dev)
+- [Dev Environment Scripts](#dev-environment-scripts)
+- [Persisting Data and Dotfiles](#persisting-data-and-dotfiles)
+- [Managing Multiple Projects](#managing-multiple-projects)
+- [Multi-Architecture Builds (Apple Silicon + Linux CI)](#multi-architecture-builds-apple-silicon-linux-ci)
+- [CI/CD Integration](#cicd-integration)
+- [Choosing a Base Image: Comparison](#choosing-a-base-image-comparison)
+- [Keeping Images Up to Date](#keeping-images-up-to-date)
 
 This guide builds a complete portable dev environment: a base Dockerfile, a Docker Compose setup with services, and a VS Code dev container config — all usable from any machine with Docker installed.
 
@@ -496,10 +494,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
+- [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
 - [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
-- [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
-- [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
-- [Asana vs Linear for a 10-Person Dev Team Comparison](/remote-work-tools/asana-vs-linear-for-a-10-person-dev-team-comparison/)
-
+- [Optimize Docker for Slow Connections When Working Remotely](/remote-work-tools/docker-optimize-slow-connection-remote-work/)
+- [Setting Up a Remote Dev Server with Hetzner](/remote-work-tools/setting-up-remote-dev-server-with-hetzner/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

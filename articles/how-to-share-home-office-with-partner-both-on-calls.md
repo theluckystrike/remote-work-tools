@@ -18,6 +18,13 @@ voice-checked: true
 
 When you and your partner both work remotely and share a single home office, back-to-back video calls can quickly become a logistical nightmare. The good news is that with the right setup, acoustic treatment, and scheduling systems, you can create a harmonious workspace where both of you stay productive and professional on calls. This guide covers practical solutions for developers and power users who want to transform their shared office into a call-friendly environment.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Detailed Scheduling System with Code](#detailed-scheduling-system-with-code)
+- [Noise Suppression Tool Comparison for Couples](#noise-suppression-tool-comparison-for-couples)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -412,11 +419,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
-- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
+- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
 - [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
-- [How to Stop Dog Barking During Video Calls: A Complete](/remote-work-tools/how-to-stop-dog-barking-during-video-calls-work-from-home/)
-
+- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
+- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

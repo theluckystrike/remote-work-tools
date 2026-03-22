@@ -18,6 +18,22 @@ voice-checked: true
 
 Every digital nomad has a horror story: laptop dead in a Bangkok cafe, no way to charge during a layover in Frankfurt, or a fried charger because someone grabbed the wrong voltage. Building a proper power adapter kit before your first international trip isn't optional—it's infrastructure. This guide walks through assembling a kit that actually works across regions, with technical details developers and power users need to know.
 
+## Table of Contents
+
+- [Understanding Global Voltage Standards](#understanding-global-voltage-standards)
+- [The Plug Type Problem](#the-plug-type-problem)
+- [USB Charging Architecture](#usb-charging-architecture)
+- [Regional Considerations](#regional-considerations)
+- [Code-Aware Power Management](#code-aware-power-management)
+- [What Not to Pack](#what-not-to-pack)
+- [Maintenance and Replacement](#maintenance-and-replacement)
+- [Regional Outlet Voltage Reference Map](#regional-outlet-voltage-reference-map)
+- [Specific Product Recommendations](#specific-product-recommendations)
+- [Usage Patterns and Recommendations](#usage-patterns-and-recommendations)
+- [Voltage Converter Decisions: When You Actually Need One](#voltage-converter-decisions-when-you-actually-need-one)
+- [Cable Testing Protocol Before Travel](#cable-testing-protocol-before-travel)
+- [Cost Per Day Analysis](#cost-per-day-analysis)
+
 ## Understanding Global Voltage Standards
 
 The world divides into two main voltage zones. North America, Japan, and parts of South America operate on 100-127V, while Europe, Asia, Africa, and most of Oceania use 220-240V. Your charger either handles both (universal input) or specifically requires one range.
@@ -357,11 +373,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best eSIM Data Plans for Digital Nomads Working Across](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
-- [Best Portable WiFi Hotspot for Digital Nomads: A](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
-- [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
-- [Example: Policy comparison scoring for digital nomads](/remote-work-tools/best-travel-insurance-for-digital-nomads-covering-laptop-the/)
-- [eSIM vs Local SIM Card for Digital Nomads](/remote-work-tools/esim-vs-local-sim-card-for-digital-nomads/)
-
+- [Best Power Strip for Developer Desk Setup: A Practical Guide](/remote-work-tools/best-power-strip-for-developer-desk-setup/)
+- [Best Travel Insurance for Digital Nomads 2026](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
+- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
+- [How to Set Up Home Office in Bali Rental Apartment](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
+- [Remote Work Power Backup and UPS Guide](/remote-work-tools/remote-work-power-backup-ups-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

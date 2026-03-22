@@ -18,6 +18,30 @@ voice-checked: true
 
 Managing eight client projects simultaneously as a solo developer requires disciplined systems rather than relying on memory or willpower. The key lies in creating clear boundaries between projects, automating repetitive tasks, and building a workflow that prevents context-switching costs from destroying your productivity.
 
+## Table of Contents
+
+- [The Core Challenge](#the-core-challenge)
+- [Time-Blocking by Client](#time-blocking-by-client)
+- [Task Isolation Techniques](#task-isolation-techniques)
+- [The Single Source of Truth](#the-single-source-of-truth)
+- [Automating Repetitive Tasks](#automating-repetitive-tasks)
+- [Choosing the Right Project Management Tool](#choosing-the-right-project-management-tool)
+- [Project Management Tool Comparison](#project-management-tool-comparison)
+- [Database Schema for Managing Multiple Clients in Airtable](#database-schema-for-managing-multiple-clients-in-airtable)
+- [Weekly Review Template](#weekly-review-template)
+- [Client Status Updates](#client-status-updates)
+- [Time Allocation Summary](#time-allocation-summary)
+- [Deliverables Completed](#deliverables-completed)
+- [Scheduled Events Next Week](#scheduled-events-next-week)
+- [Risks or Concerns](#risks-or-concerns)
+- [Action Items for Next Week](#action-items-for-next-week)
+- [Invoice and Billing Automation](#invoice-and-billing-automation)
+- [Context Switching Cost Tracking](#context-switching-cost-tracking)
+- [Weekly Review Practice](#weekly-review-practice)
+- [Managing Client Expectations](#managing-client-expectations)
+- [Essential Tools](#essential-tools)
+- [Related Reading](#related-reading)
+
 ## The Core Challenge
 
 When you juggle eight clients, you're not just managing eight projects — you're managing eight different communication channels, eight sets of expectations, eight timelines, and potentially eight different technology stacks. Without a solid system, you'll either burn out trying to keep everything in your head or lose track of deliverables.
@@ -421,5 +445,12 @@ Yes. Clients generally accept this when you're upfront about it. What they don't
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 - [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
 
+## Related Articles
+
+- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
+- [Notion Setup for Solo Freelancer Managing 5 Clients](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
+- [Best CRM for Solo Consultant Managing 30 Active Clients](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
+- [Project Management for Husband and Wife Freelance](/remote-work-tools/project-management-for-husband-and-wife-freelance-developmen/)
+- [Best Invoicing Workflow for Solo Developer](/remote-work-tools/best-invoicing-workflow-for-solo-developer-with-international-clients/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

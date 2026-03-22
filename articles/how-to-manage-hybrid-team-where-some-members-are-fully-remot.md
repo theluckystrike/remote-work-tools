@@ -13,23 +13,20 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
----
-layout: default
-title: "Generate weekly team activity report from GitHub"
-description: "A practical guide for developers and power users on managing hybrid teams with permanent remote members. Includes automation scripts, workflow"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /how-to-manage-hybrid-team-where-some-members-are-fully-remot/
-reviewed: true
-score: 8
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]
----
 
 Hybrid teams with split remote and in-office members need explicit communication norms, video-first meetings, and documentation-first workflows to prevent information silos. Establish core hours for synchronous overlap, implement async-first standups using GitHub Actions or Slack, and make all meeting rooms video-conference ready with equal participation cues. This guide provides practical systems and code examples for managing teams that work across locations without enterprise tools.
+
+## Table of Contents
+
+- [The Asynchronous-First Foundation](#the-asynchronous-first-foundation)
+- [Build Transparent Work Visibility](#build-transparent-work-visibility)
+- [Create Location-Agnostic Meeting Rules](#create-location-agnostic-meeting-rules)
+- [Implement Pair Programming Across Locations](#implement-pair-programming-across-locations)
+- [Handle Knowledge Transfer Proactively](#handle-knowledge-transfer-proactively)
+- [[Title]](#title)
+- [Establish Clear Documentation Locations](#establish-clear-documentation-locations)
+- [Practical Remote Team Health Checks](#practical-remote-team-health-checks)
+- [Onboarding Permanent Remote Members](#onboarding-permanent-remote-members)
 
 ## The Asynchronous-First Foundation
 
@@ -297,10 +294,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
-- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
-- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
-- [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
-- [How to Use AI Tools to Generate Remote Team Meeting.](/remote-work-tools/how-to-use-ai-tool-to-generate-remote-team-meeting-agendas-f/)
-
+- [How to Track Remote Team Use Rate Without Invasive](/remote-work-tools/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

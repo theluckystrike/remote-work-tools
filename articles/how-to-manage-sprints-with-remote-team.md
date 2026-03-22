@@ -274,24 +274,6 @@ Remote sprint retrospectives fail when they become status meetings. Structure th
 
 Rotate retrospective facilitation and time zones. If your team spans three time zones, each retro should be hosted by someone from a different zone over the course of the sprint rotation.
 
-## Key Takeaways
-
-Managing sprints with remote teams succeeds when you:
-
-1. Replace synchronous ceremonies with async alternatives — Use GitHub Issues and Actions for standups and documentation-first planning.
-
-2. Account for communication overhead — Build 15-20% buffer into capacity calculations for async communication costs.
-
-3. Make blockers visible immediately — Automated escalation ensures no one waits days for unblocking.
-
-4. Track progress simply — Velocity projections based on percentage complete work better than burndown charts for distributed teams.
-
-5. Rotate facilitation — Ensure no single time zone owns the retrospective process.
-
-Start with async standups this week, add capacity planning next sprint, and iterate from there.
----
-
-
 ## Frequently Asked Questions
 
 **How long does it take to manage sprints with remote team: a practical?**
@@ -316,12 +298,11 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Tools for Remote Design Sprints: A Practical Guide](/remote-work-tools/best-tools-for-remote-design-sprints/)
-- [How to Run Sprints with a Remote Team of 4 Engineers: A](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
-- [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)
-- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
-- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
-
+- [Best Tools for Remote Team Capacity Planning](/remote-work-tools/best-tools-remote-team-capacity-planning-2026/)
+- [How to Run Sprints with a Remote Team of 4 Engineers](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
+- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

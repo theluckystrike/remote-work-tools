@@ -281,10 +281,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Node.js and npm](/remote-work-tools/claude-code-npm-package-development-guide/)
-- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
-- [How to Test Internet Speed and Reliability Before Moving to](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
-
+- [Code Review Guidelines](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
+- [Remote Agency Client Data Security Compliance Checklist](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+- [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

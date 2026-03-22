@@ -18,6 +18,19 @@ voice-checked: true
 
 Async team building activities eliminate scheduling conflicts across time zones while creating more inclusive, thoughtful connections than synchronous events. Async activities let team members participate on their own schedule, reduce performance anxiety, and generate searchable documentation that strengthens team culture. This guide covers seven proven async activities—from collaborative playlists to async games—with implementation patterns you can adapt to your team's size and culture.
 
+## Table of Contents
+
+- [Why Async Activities Outperform Synchronous Ones for Global Teams](#why-async-activities-outperform-synchronous-ones-for-global-teams)
+- [Activity 1: Async Coffee Chat Roulette](#activity-1-async-coffee-chat-roulette)
+- [Activity 2: Weekly Async Wins Share](#activity-2-weekly-async-wins-share)
+- [Week of [DATE]](#week-of-date)
+- [Activity 3: Async Book Club for Engineering Teams](#activity-3-async-book-club-for-engineering-teams)
+- [Week 3 Discussion: Chapter 4 - Async Patterns](#week-3-discussion-chapter-4-async-patterns)
+- [Activity 4: Shared Hobby Channels](#activity-4-shared-hobby-channels)
+- [Activity 5: Async Retro Games](#activity-5-async-retro-games)
+- [Activity 6: Skill Exchange Program](#activity-6-skill-exchange-program)
+- [Implementation Checklist](#implementation-checklist)
+
 ## Why Async Activities Outperform Synchronous Ones for Global Teams
 
 When your team spans San Francisco, Berlin, and Tokyo, scheduling any synchronous activity means someone is always meeting outside their working hours. Async team building eliminates this problem entirely while adding benefits synchronous activities cannot match:
@@ -237,11 +250,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
-- [Virtual Team Building Activities That Developers Actually — Enjoy](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
-- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Best Tool for Remote Team Async Introductions](/remote-work-tools/best-tool-for-remote-team-async-introductions-connecting-new/)
 - [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-
+- [Async Team Retrospective Using Shared Documents and Recorded](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

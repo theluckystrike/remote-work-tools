@@ -18,6 +18,28 @@ voice-checked: true
 
 As a solo freelance UX designer working remotely, you juggle research, wireframing, prototyping, and client communication—all without the support infrastructure of an agency. When it comes to winning projects, your proposal process needs to be fast, professional, and persuasive. The right proposal tool can mean the difference between a week of back-and-forth emails and a signed contract in hours.
 
+## Table of Contents
+
+- [What Solo UX Designers Actually Need in a Proposal Tool](#what-solo-ux-designers-actually-need-in-a-proposal-tool)
+- [Comparing the Best Proposal Tools](#comparing-the-best-proposal-tools)
+- [Making Your Proposal Stand Out](#making-your-proposal-stand-out)
+- [Understanding Your Challenge](#understanding-your-challenge)
+- [Proposed Solution](#proposed-solution)
+- [Project Scope](#project-scope)
+- [Automating Your Workflow](#automating-your-workflow)
+- [Decision Framework](#decision-framework)
+- [Advanced Proposal Strategy: The Multi-Proposal Approach](#advanced-proposal-strategy-the-multi-proposal-approach)
+- [Handling Proposal Objections](#handling-proposal-objections)
+- [Proposal Psychology: What Actually Converts](#proposal-psychology-what-actually-converts)
+- [Creating Evergreen Case Studies](#creating-evergreen-case-studies)
+- [The Proposal Follow-Up Sequence](#the-proposal-follow-up-sequence)
+- [Negotiating Scope Creep Before It Starts](#negotiating-scope-creep-before-it-starts)
+- [What's Included](#whats-included)
+- [What's NOT Included](#whats-not-included)
+- [Building a Personal Brand in Proposals](#building-a-personal-brand-in-proposals)
+- [Automation: Reducing Proposal Creation Time](#automation-reducing-proposal-creation-time)
+- [Tracking Proposal Performance](#tracking-proposal-performance)
+
 This guide evaluates proposal tools specifically for solo remote UX designers who need efficiency without enterprise complexity.
 
 ## What Solo UX Designers Actually Need in a Proposal Tool
@@ -379,10 +401,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 ## Related Articles
 
 - [Freelance Proposal Template for Developers in 2026](/remote-work-tools/freelance-proposal-template-for-developers-2026/)
-- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
-- [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
-- [Async Engineering Proposal Process Using Github Discussions](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
 - [Best Proposal Software for Remote Web Development Agency](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-202/)
-
+- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
+- [Best Proposal Software for Remote Web Development: 2026](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-2026/)
+- [How to Write Freelance Proposals That Win](/remote-work-tools/how-to-write-freelance-proposals-that-win/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

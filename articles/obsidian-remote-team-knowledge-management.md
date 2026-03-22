@@ -17,6 +17,43 @@ tags: [remote-work-tools, remote-work]
 
 Obsidian is a local-first Markdown editor built around a networked notes model. Most teams use it for personal knowledge management — but with the right setup, a shared Obsidian vault becomes a team knowledge base that is faster to write in than Notion, version-controlled via Git, and works offline by default.
 
+## Table of Contents
+
+- [Why Obsidian for a Team Vault](#why-obsidian-for-a-team-vault)
+- [Vault Sync Options](#vault-sync-options)
+- [Vault Folder Structure](#vault-folder-structure)
+- [Templates with Templater](#templates-with-templater)
+- [Agenda](#agenda)
+- [Notes](#notes)
+- [Decisions](#decisions)
+- [Action Items](#action-items)
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+- [Verification](#verification)
+- [Rollback](#rollback)
+- [Backlinks and Linking Strategy](#backlinks-and-linking-strategy)
+- [Dataview Queries](#dataview-queries)
+- [Active Projects](#active-projects)
+- [Recent Decisions](#recent-decisions)
+- [Runbooks Untested in 90 Days](#runbooks-untested-in-90-days)
+- [Publish Internal Docs with Obsidian Publish](#publish-internal-docs-with-obsidian-publish)
+- [Search and Discovery at Team Scale](#search-and-discovery-at-team-scale)
+- [Active Runbooks](#active-runbooks)
+- [Key Decisions](#key-decisions)
+- [Reference](#reference)
+- [Onboarding New Team Members](#onboarding-new-team-members)
+- [First: Read These](#first-read-these)
+- [Your First Week](#your-first-week)
+- [Where Things Live](#where-things-live)
+- [How to Contribute](#how-to-contribute)
+- [Conflict Resolution with Git](#conflict-resolution-with-git)
+- [Tool Comparison: Obsidian vs. Alternatives for Team Knowledge Management](#tool-comparison-obsidian-vs-alternatives-for-team-knowledge-management)
+- [Related Reading](#related-reading)
+
 This guide covers: shared vault setup, folder conventions for teams, note templates, linking strategy, and publishing internal docs.
 
 ## Why Obsidian for a Team Vault
@@ -374,6 +411,15 @@ Notion and Confluence win on onboarding ease and collaborative editing. Obsidian
 - [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
 - [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [Best Practice for Hybrid Team Knowledge Transfer](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
+
+## Related Articles
+
+- [Best Tools for Remote Team Knowledge Graphs](/remote-work-tools/best-tools-remote-team-knowledge-graphs/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
+- [Obsidian vs Notion for Personal Knowledge Management](/remote-work-tools/obsidian-vs-notion-for-personal-knowledge-management/)
+- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -32,6 +32,16 @@ External cameras with autofocus, larger sensors, and wider angles fix all of thi
 
 ## Top Webcams Under $100
 
+## Table of Contents
+
+- [Top Webcams Under $100](#top-webcams-under-100)
+- [Specification Comparison Table](#specification-comparison-table)
+- [Real-World Scenario Comparison](#real-world-scenario-comparison)
+- [Field of View Visual Guide](#field-of-view-visual-guide)
+- [Setup & Optimization Tips](#setup-optimization-tips)
+- [Buying Checklist](#buying-checklist)
+- [Where to Buy](#where-to-buy)
+
 ### 1. Logitech C920 HD
 
 **Price**: $40-50 (frequently on sale)
@@ -385,11 +395,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Best Remote Work Desk Accessories Under 50 Dollars 2026](/remote-work-tools/best-remote-work-desk-accessories-under-50-dollars-2026/)
-- [Best Remote Work Monitor Under 300 Dollars 2026](/remote-work-tools/best-remote-work-monitor-under-300-dollars-2026/)
-- [Best Remote Work Standing Desk Converter Under $200 2026](/remote-work-tools/best-remote-work-standing-desk-converter-under-200-dollars-2026/)
-
+- [Best External Webcams for Remote Work in 2026](/remote-work-tools/articles/best-remote-work-external-webcam-2026/)
+- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
+- [Best Webcam for Remote Meetings 2026: A Technical Guide](/remote-work-tools/best-webcam-for-remote-meetings-2026/)
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Chrome Extension Webcam Settings Adjuster Guide](/remote-work-tools/chrome-extension-webcam-settings-adjuster/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

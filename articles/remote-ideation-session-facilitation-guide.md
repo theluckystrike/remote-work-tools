@@ -13,25 +13,26 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
----
-layout: default
-title: "Remote Ideation Session Facilitation Guide"
-description: "A practical guide to running effective remote ideation sessions for developers and power users. Learn help techniques, tools, and code examples"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /remote-ideation-session-facilitation-guide/
-reviewed: true
-score: 8
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]
----
 
 {% raw %}
 
 Start every remote ideation session with a "silent start" -- send the problem prompt 24-48 hours in advance and have participants contribute ideas asynchronously before any live discussion. This eliminates the loudest-voice-wins problem and produces higher-quality input from the entire team. This guide covers the full help toolkit, including round-robin generation, the 6-3-5 method, SCAMPER frameworks, and post-session follow-through workflows.
+
+## Table of Contents
+
+- [Setting Up Your Ideation Environment](#setting-up-your-ideation-environment)
+- [Session: Feature Brainstorm](#session-feature-brainstorm)
+- [Help Techniques That Work Remotely](#help-techniques-that-work-remotely)
+- [Structured Ideation Frameworks](#structured-ideation-frameworks)
+- [Tools for Remote Ideation](#tools-for-remote-ideation)
+- [Post-Session Workflow](#post-session-workflow)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Advanced Facilitation: Running Large-Scale Ideation](#advanced-facilitation-running-large-scale-ideation)
+- [5-Team Parallel Ideation (2 hours total)](#5-team-parallel-ideation-2-hours-total)
+- [Problem Statement](#problem-statement)
+- [Submission Guidelines](#submission-guidelines)
+- [Top Ideas After Voting](#top-ideas-after-voting)
+- [What Happened to Other Ideas](#what-happened-to-other-ideas)
 
 ## Setting Up Your Ideation Environment
 
@@ -330,11 +331,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
-- [Weekly Wins Channel Setup and Facilitation for Remote Team](/remote-work-tools/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
-- [Best Session Recording Tool for Remote Team Privileged.](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
-- [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
-- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
-
+- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
+- [How to Run Effective Remote Brainstorming Session](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Best Session Recording Tool for Remote Team Privileged](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
+- [Best Remote User Research Tools 2026](/remote-work-tools/remote-user-research-tools-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

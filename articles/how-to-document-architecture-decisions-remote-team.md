@@ -18,6 +18,32 @@ voice-checked: true
 
 Document architecture decisions in your remote team using Architecture Decision Records (ADRs)--structured Markdown files stored in your codebase under `docs/adr/` that capture the context, decision, and consequences of each significant technical choice. Use a three-phase async workflow: one person drafts the ADR, the team reviews over 48-72 hours across time zones, then the status is finalized and the record is merged. This creates a searchable trail of reasoning that survives personnel changes and eliminates reliance on memory or Slack history.
 
+## Table of Contents
+
+- [The ADR Standard](#the-adr-standard)
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Remote Collaboration Workflow](#remote-collaboration-workflow)
+- [Reviewers](#reviewers)
+- [Practical ADR Management](#practical-adr-management)
+- [Status](#status)
+- [Supersedes](#supersedes)
+- [Context](#context)
+- [Tags](#tags)
+- [Decision Templates Beyond ADRs](#decision-templates-beyond-adrs)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Open Questions](#open-questions)
+- [Timeline](#timeline)
+- [What Happened](#what-happened)
+- [Why](#why)
+- [Corrective Actions](#corrective-actions)
+- [Tools That Support Remote Decision Documentation](#tools-that-support-remote-decision-documentation)
+- [Common Pitfalls](#common-pitfalls)
+- [Building the Habit](#building-the-habit)
+
 ## The ADR Standard
 
 Architecture Decision Records (ADRs) provide a structured format for capturing significant technical choices. An ADR documents the context, the decision, and the consequences. Unlike meeting notes that capture what was discussed, an ADR captures what was decided and why.
@@ -247,11 +273,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
-- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
-- [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
-- [Best Remote Legal Team Document Collaboration Tool for](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
-- [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
-
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+- [Best Tools for Remote Architecture Decision Records](/remote-work-tools/best-tools-for-remote-architecture-decision-records/)
+- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
+- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

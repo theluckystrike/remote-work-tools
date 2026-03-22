@@ -28,6 +28,17 @@ voice-checked: true
 
 When your distributed team needs a shared experience that does not require video calls or synchronous scheduling, virtual trivia nights deliver high engagement with minimal friction. This review evaluates platforms based on API capabilities, customization options, integration potential, and developer experience. The goal: help you select the right tool for your remote social events without wasting time on platforms that break under production load.
 
+## Table of Contents
+
+- [Criteria for Evaluation](#criteria-for-evaluation)
+- [Platform Comparison](#platform-comparison)
+- [Implementation Example](#implementation-example)
+- [Advanced Scoring and Engagement Mechanics](#advanced-scoring-and-engagement-mechanics)
+- [Building Custom Question Sets for Technical Teams](#building-custom-question-sets-for-technical-teams)
+- [Hybrid Model: Async + Sync Trivia](#hybrid-model-async-sync-trivia)
+- [Measuring Engagement and ROI](#measuring-engagement-and-roi)
+- [Technical Setup: Self-Hosting Trivia](#technical-setup-self-hosting-trivia)
+
 ## Criteria for Evaluation
 
 For developers and power users, the evaluation focuses on technical differentiators rather than surface-level features:
@@ -404,11 +415,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)
-- [How to Scale Remote Team Social Events From Informal Chats](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
-- [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
-- [Virtual Team Events Ideas for Developers in 2026](/remote-work-tools/virtual-team-events-ideas-for-developers-2026/)
-- [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
-
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Best Virtual Coffee Chat Tool for Remote Teams Building](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
+- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Measuring Remote Team Alignment](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

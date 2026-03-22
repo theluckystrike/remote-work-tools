@@ -17,6 +17,35 @@ voice-checked: true
 
 Style guides solve a specific remote work problem: code review comments about formatting and naming conventions. In a co-located team, a junior engineer can sit next to a senior and absorb conventions through proximity. In a remote team, they discover them through review feedback at PR time — which is slow and demoralizing. A style guide with automated enforcement eliminates 80% of stylistic review comments, freeing code review time for actual logic.
 
+## Table of Contents
+
+- [What Belongs in a Style Guide](#what-belongs-in-a-style-guide)
+- [Code Style: Automate Everything](#code-style-automate-everything)
+- [Naming Conventions Document](#naming-conventions-document)
+- [Python](#python)
+- [API Endpoints](#api-endpoints)
+- [Database](#database)
+- [Commit Message Convention](#commit-message-convention)
+- [PR Description Template](#pr-description-template)
+- [Summary](#summary)
+- [Type of change](#type-of-change)
+- [Testing](#testing)
+- [Database changes](#database-changes)
+- [Checklist](#checklist)
+- [Notes for reviewers](#notes-for-reviewers)
+- [Publishing the Style Guide](#publishing-the-style-guide)
+- [Quick Start](#quick-start)
+- [Style Guide](#style-guide)
+- [Branching Strategy](#branching-strategy)
+- [PR Process](#pr-process)
+- [ADR Process](#adr-process)
+- [Enforcement Without Being Annoying](#enforcement-without-being-annoying)
+- [Onboarding New Engineers to the Style Guide](#onboarding-new-engineers-to-the-style-guide)
+- [Engineering Onboarding — Style Guide Checklist](#engineering-onboarding-style-guide-checklist)
+- [Style Guide Tooling Comparison](#style-guide-tooling-comparison)
+- [API Design Conventions in Practice](#api-design-conventions-in-practice)
+- [Related Reading](#related-reading)
+
 ## What Belongs in a Style Guide
 
 An engineering style guide for remote teams should cover:
@@ -219,11 +248,6 @@ docs(api): document rate limiting headers in OpenAPI spec
 
 ```markdown
 <!-- .github/PULL_REQUEST_TEMPLATE.md -->
-## Summary
-<!-- What does this PR do? 2-3 sentences. Link to the issue or Jira ticket. -->
-
-Closes: #
-
 ## Type of change
 - [ ] Bug fix (non-breaking change that fixes an issue)
 - [ ] New feature (non-breaking change that adds functionality)
@@ -403,7 +427,15 @@ Document which approach your team uses. Engineers creating new endpoints need to
 - [Async Code Review Process Without Zoom Calls](/async-code-review-process-without-zoom-calls-step-by-step/)
 - [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
 - [Remote Team Deployment Pipeline Best Practices](/remote-team-deployment-pipeline-best-practices/)
+- [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 ---
 
+## Related Articles
+
+- [How to Set Up Remote Team Code Standards Enforcement (2026)](/remote-work-tools/how-to-set-up-remote-team-code-standards-enforcement-2026/)
+- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
+- [Remote Team Code Review Checklist Template](/remote-work-tools/remote-team-code-review-checklist-template/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

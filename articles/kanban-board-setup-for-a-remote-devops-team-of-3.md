@@ -18,6 +18,20 @@ voice-checked: true
 
 A well-configured Kanban board transforms how a small remote DevOps team manages infrastructure tasks, incident response, and deployment workflows. For a team of three engineers spread across time zones, the board becomes the single source of truth for what needs attention, what is in progress, and what is waiting on dependencies. This guide walks through setting up a practical Kanban board tailored specifically for a three-person remote DevOps team.
 
+## Table of Contents
+
+- [Why Kanban Works for Small DevOps Teams](#why-kanban-works-for-small-devops-teams)
+- [Core Board Structure](#core-board-structure)
+- [Setting WIP Limits](#setting-wip-limits)
+- [Swimlanes and Priority Triage](#swimlanes-and-priority-triage)
+- [Automation Rules That Reduce Friction](#automation-rules-that-reduce-friction)
+- [Example Board Configuration](#example-board-configuration)
+- [Handling Incidents Separately](#handling-incidents-separately)
+- [Daily Workflow for Remote Teams](#daily-workflow-for-remote-teams)
+- [Measuring Flow](#measuring-flow)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Adapting as Your Team Grows](#adapting-as-your-team-grows)
+
 ## Why Kanban Works for Small DevOps Teams
 
 Kanban's core principles—visualizing work, limiting work in progress, and managing flow—align naturally with DevOps responsibilities. Unlike traditional project management where you assign tasks to individuals, Kanban focuses on keeping work moving through stages. This approach suits remote teams because it makes status visible without requiring synchronous check-ins.
@@ -238,9 +252,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Best Kanban Board Tools for Remote Developers](/remote-work-tools/best-kanban-board-tools-for-remote-developers/)
 - [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
-- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
 - [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

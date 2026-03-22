@@ -17,6 +17,38 @@ voice-checked: true
 
 Use Loom for async-first 1:1s across multiple time zones with automatic transcription and GitHub integration, or combine Slack, Google Meet, and Notion for lightweight workflows without dedicated tools. The key is supporting both live meetings for relationship-building and async video updates for efficient information sharing.
 
+## Table of Contents
+
+- [What Engineering Managers Actually Need from 1:1 Tools](#what-engineering-managers-actually-need-from-11-tools)
+- [Zoom: The Enterprise Standard](#zoom-the-enterprise-standard)
+- [This Week's Topics](#this-weeks-topics)
+- [Action Items](#action-items)
+- [Notes](#notes)
+- [Google Meet: Integration Advantage](#google-meet-integration-advantage)
+- [Slack Huddles: Asynchronous-First Alternative](#slack-huddles-asynchronous-first-alternative)
+- [Notion: The Note-Taking Foundation](#notion-the-note-taking-foundation)
+- [Pre-Meeting Prep (Manager)](#pre-meeting-prep-manager)
+- [Pre-Meeting Prep (Employee)](#pre-meeting-prep-employee)
+- [Meeting Notes](#meeting-notes)
+- [Action Items](#action-items)
+- [Follow-Up](#follow-up)
+- [Code Review Integration: The Engineering Manager Advantage](#code-review-integration-the-engineering-manager-advantage)
+- [This Week's Technical Focus](#this-weeks-technical-focus)
+- [Notes from Code Review](#notes-from-code-review)
+- [Choosing the Right Tool for Your Team](#choosing-the-right-tool-for-your-team)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Advanced 1:1 Workflow for Engineering Teams](#advanced-11-workflow-for-engineering-teams)
+- [Handling Different Communication Styles in 1:1s](#handling-different-communication-styles-in-11s)
+- [Managing Growing Teams: 1:1 Scaling](#managing-growing-teams-11-scaling)
+- [Post-1:1 Action Item Tracking](#post-11-action-item-tracking)
+- [@engineer-name](#engineer-name)
+- [Measuring 1:1 Effectiveness](#measuring-11-effectiveness)
+- [Common 1:1 Pitfalls and Solutions](#common-11-pitfalls-and-solutions)
+- [Different Engineering Roles Require Different 1:1 Structures](#different-engineering-roles-require-different-11-structures)
+- [Technical Discussions in 1:1s](#technical-discussions-in-11s)
+- [Handling Difficult Conversations in 1:1s](#handling-difficult-conversations-in-11s)
+- [Scaling 1:1 Practices as Team Grows](#scaling-11-practices-as-team-grows)
+
 ## What Engineering Managers Actually Need from 1:1 Tools
 
 Before examining specific tools, consider what makes one-on-ones effective for engineering teams. You need reliable video and audio quality for face-to-face connection. You need integrated note-taking that doesn't require switching apps. You need the ability to share code snippets or technical artifacts during discussions. You need meeting transcripts or recordings for reference later. You need scheduling that works across time zones without endless back-and-forth emails.
@@ -400,11 +432,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [Remote 1 on 1 Meeting Tool Comparison for Distributed](/remote-work-tools/remote-1-on-1-meeting-tool-comparison-for-distributed-manage/)
 - [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
-- [Remote Team Walking Meeting Format for One-on-One](/remote-work-tools/remote-team-walking-meeting-format-for-one-on-one-connection/)
-- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

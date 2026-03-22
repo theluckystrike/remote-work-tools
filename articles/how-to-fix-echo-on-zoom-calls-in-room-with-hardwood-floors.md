@@ -13,25 +13,23 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, troubleshooting]
 ---
----
-layout: default
-title: "How to Fix Echo on Zoom Calls in Room with Hardwood Floors"
-description: "A technical guide for developers and power users to eliminate echo on Zoom calls in rooms with hardwood floors. Covers acoustic solutions, microphone"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, troubleshooting]
----
 
 {% raw %}
 
 To fix echo on Zoom calls in a hardwood-floor room, start by reducing your microphone input gain to 70-80% and enabling Zoom's built-in echo suppression, then place an area rug in the primary sound reflection path between you and the floor. For persistent echo, position a directional (cardioid) microphone 6-12 inches from your mouth and add acoustic foam panels at the first reflection points on nearby walls. Most users resolve the issue by combining these software settings with basic acoustic treatment, without significant investment.
+
+## Table of Contents
+
+- [Why Hardwood Floors Cause Echo](#why-hardwood-floors-cause-echo)
+- [Software-Level Solutions](#software-level-solutions)
+- [Hardware Solutions](#hardware-solutions)
+- [Acoustic Treatment for Hardwood Floors](#acoustic-treatment-for-hardwood-floors)
+- [Advanced: Digital Signal Processing](#advanced-digital-signal-processing)
+- [Echo Testing Protocol](#echo-testing-protocol)
+- [Equipment Recommendations by Budget](#equipment-recommendations-by-budget)
+- [Common Echo Myths Debunked](#common-echo-myths-debunked)
+- [Troubleshooting: When Nothing Works](#troubleshooting-when-nothing-works)
+- [Quick Reference Card](#quick-reference-card)
 
 ## Why Hardwood Floors Cause Echo
 
@@ -343,10 +341,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Google Meet Echo When Using External Speakers Fix (2026)](/remote-work-tools/google-meet-echo-when-using-external-speakers-fix-2026/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+- [Zoom Companion Mode Not Connecting to Room System Fix (2026)](/remote-work-tools/zoom-companion-mode-not-connecting-to-room-system-fix-2026/)
 - [Zoom Phone Call Quality Choppy on Home WiFi Fix (2026)](/remote-work-tools/zoom-phone-call-quality-choppy-on-home-wifi-fix-2026/)
-- [Zoom CLI example for updating PMI settings](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
-
+- [Zoom Transcription Missing Words and Inaccurate Fix (2026)](/remote-work-tools/zoom-transcription-missing-words-and-inaccurate-fix-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

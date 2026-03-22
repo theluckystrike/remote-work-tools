@@ -17,6 +17,26 @@ tags: [remote-work-tools]
 
 Hybrid conference rooms present unique audio challenges. Remote participants must hear in-room speakers clearly, while in-room participants need to capture voices from people moving around the space. Poor audio quality immediately degrades meeting effectiveness—you cannot collaborate effectively when you cannot hear colleagues. This guide covers the core components of a functional hybrid conference room audio system, from microphone selection to digital signal processing, with configuration examples for common software stacks.
 
+## Table of Contents
+
+- [Understanding the Acoustic Challenges](#understanding-the-acoustic-challenges)
+- [Microphone Selection and Placement](#microphone-selection-and-placement)
+- [Digital Signal Processing](#digital-signal-processing)
+- [Acoustic Treatment Basics](#acoustic-treatment-basics)
+- [Gain Staging and Level Management](#gain-staging-and-level-management)
+- [Network Considerations for Audio](#network-considerations-for-audio)
+- [Putting It All Together](#putting-it-all-together)
+- [Audio Equipment Recommendations by Room Size](#audio-equipment-recommendations-by-room-size)
+- [Troubleshooting Common Audio Issues](#troubleshooting-common-audio-issues)
+- [Documenting Your Audio Setup](#documenting-your-audio-setup)
+- [Quick Start](#quick-start)
+- [Audio Control Panel](#audio-control-panel)
+- [Troubleshooting](#troubleshooting)
+- [To Report Issues](#to-report-issues)
+- [Preventive Maintenance](#preventive-maintenance)
+- [Network Prioritization for Audio Quality](#network-prioritization-for-audio-quality)
+- [Maintenance and Ongoing Optimization](#maintenance-and-ongoing-optimization)
+
 ## Understanding the Acoustic Challenges
 
 Hybrid rooms combine two acoustic environments that rarely work well together. The room itself has reverberation, ambient noise from HVAC systems, and unpredictable sound propagation. Meanwhile, remote participants connect through compressed audio codecs that lose detail. Your goal is minimizing degradation at every stage: source, capture, transmission, and playback.
@@ -355,11 +375,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Video Conferencing Setup for Hybrid Rooms: A](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
-- [Example: Calculating appropriate microphone gain](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
-- [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Speakerphone for Hybrid Meeting Rooms Comparison](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
 - [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
-
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

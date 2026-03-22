@@ -17,6 +17,13 @@ voice-checked: true
 
 Hybrid meetings have become the standard for distributed teams, yet remote participants frequently report feeling like second-class citizens. Cameras pointed at whiteboards exclude those joining from home. Side conversations in meeting rooms happen without captions or chat transcripts. Decision-making happens in hallways before remote attendees even learn there was a discussion.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Platform Comparison for Hybrid Equity](#platform-comparison-for-hybrid-equity)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Troubleshooting](#troubleshooting)
+
 This guide provides concrete techniques to ensure remote participants are genuinely included—not just technically present.
 
 ## Prerequisites
@@ -310,11 +317,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Virtual Meeting Etiquette Best Practices: A Developer Guide](/remote-work-tools/virtual-meeting-etiquette-best-practices/)
 - [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
-- [Best Cafe Work Etiquette for Remote Workers](/remote-work-tools/best-cafe-work-etiquette-for-remote-workers/)
-- [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
-- [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
-
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [How to Handle Hybrid Meeting Whiteboard Challenge](/remote-work-tools/how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,19 @@ voice-checked: true
 
 Idempotency is a fundamental concept in API design that ensures the same request can be executed multiple times without producing different results. When implementing distributed systems, network failures, timeouts, and client retries can cause the same operation to be processed accidentally multiple times. Without proper idempotency handling, this leads to duplicate records, double charges, inconsistent state, and frustrated users.
 
+## Table of Contents
+
+- [Understanding Idempotency](#understanding-idempotency)
+- [Idempotency Key Pattern](#idempotency-key-pattern)
+- [Idempotency with Database Transactions](#idempotency-with-database-transactions)
+- [Idempotency for Payment Processing](#idempotency-for-payment-processing)
+- [Handling Idempotency Key Collisions](#handling-idempotency-key-collisions)
+- [Best Practices](#best-practices)
+- [Testing Idempotency](#testing-idempotency)
+- [Idempotency in Distributed Systems and Microservices](#idempotency-in-distributed-systems-and-microservices)
+- [Choosing Your Idempotency Storage Backend](#choosing-your-idempotency-storage-backend)
+- [Idempotency Key Generation on the Client](#idempotency-key-generation-on-the-client)
+
 This guide walks you through implementing idempotent APIs that gracefully handle retries while maintaining data integrity.
 
 ## Understanding Idempotency
@@ -437,11 +450,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
-- [Three-Two Hybrid Work Model Implementation Guide](/remote-work-tools/three-two-hybrid-work-model-implementation-guide/)
-- [Badge Access Systems for Hybrid Workplace 2026: A](/remote-work-tools/badge-access-systems-for-hybrid-workplaces-2026/)
+- [Example: HIPAA-compliant data handling](/remote-work-tools/remote-healthcare-patient-intake-form-tool-for-distributed-c/)
+- [Remote Legal Billing Software Comparison for Distributed](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
 - [Remote Accountability Systems Guide 2026](/remote-work-tools/remote-accountability-systems-guide-2026/)
-- [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
-
+- [Notion API Integration Returning 502 Errors Fix (2026)](/remote-work-tools/notion-api-integration-returning-502-errors-fix-2026/)
+- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

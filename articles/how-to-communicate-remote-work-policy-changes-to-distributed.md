@@ -18,6 +18,14 @@ tags: [remote-work-tools, remote-work]
 
 Remote work policy change communication should follow the RISE framework: Release previews before finalizing anything, Include specifics and rationale avoiding ambiguity, Schedule announcements across time zones (8 AM - 6 PM local), and Enable two-way dialogue through Q&A sessions or async feedback channels. Use consistent message frameworks with clear action items, acknowledge employee input was considered, and respond to every question. This approach transforms potentially anxiety-inducing announcements into trust-building moments by respecting that remote workers base life decisions on current policies.
 
+## Table of Contents
+
+- [Why Policy Changes Trigger Anxiety](#why-policy-changes-trigger-anxiety)
+- [The RISE Framework for Policy Announcements](#the-rise-framework-for-policy-announcements)
+- [Practical Communication Templates](#practical-communication-templates)
+- [What to Avoid](#what-to-avoid)
+- [Measuring Success](#measuring-success)
+
 ## Why Policy Changes Trigger Anxiety
 
 Before implementing any communication strategy, understanding why these announcements cause such strong reactions helps you address the root concerns.
@@ -248,11 +256,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
+- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
+- [Remote Team Vulnerability Disclosure Policy Template](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
+- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
 - [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
-- [Example: Tracking exchange rates for optimal conversion](/remote-work-tools/best-currency-exchange-strategy-for-remote-workers-paid-in-u/)
-- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
-
+- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -19,6 +19,16 @@ voice-checked: true
 
 Monthly virtual game nights build team bonding through optional, low-pressure social time that developers actually enjoy—replacing forced mandatory fun. Games like Among Us, Jackbox, and online trivia work across time zones when scheduled at rotating times. This guide covers scheduling strategies, game selection, help techniques, and tools for running engaging remote game nights.
 
+## Table of Contents
+
+- [Setting Up the Foundation](#setting-up-the-foundation)
+- [Selecting Games That Work Well Remotely](#selecting-games-that-work-well-remotely)
+- [Help and Engagement](#help-and-engagement)
+- [Practical Examples from Real Teams](#practical-examples-from-real-teams)
+- [Tracking and Improving Your Game Nights](#tracking-and-improving-your-game-nights)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building Team Culture Through Play](#building-team-culture-through-play)
+
 ## Setting Up the Foundation
 
 Successful virtual game nights require minimal infrastructure but consistent organization. The goal is low-friction participation that feels optional but becomes a team staple through repetition.
@@ -252,10 +262,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
 - [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
-- [Virtual Team Building Activities That Developers Actually — Enjoy](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
-- [Virtual Team Events Ideas for Developers in 2026](/remote-work-tools/virtual-team-events-ideas-for-developers-2026/)
-- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
-
+- [Best Virtual Coffee Chat Tool for Remote Teams Building](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
+- [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -27,6 +27,17 @@ voice-checked: true
 
 When your remote team brings in three new hires every month, manual onboarding processes quickly become a bottleneck. Each new team member needs access to dozens of tools, access to multiple repositories, orientation materials, and mentorship pairing. Automating this workflow saves hours of repetitive work and ensures consistency across hires.
 
+## Table of Contents
+
+- [The Core Onboarding Pipeline](#the-core-onboarding-pipeline)
+- [Notion: Centralized Knowledge Base with Access Control](#notion-centralized-knowledge-base-with-access-control)
+- [Environment Setup](#environment-setup)
+- [GitHub: Automating Repository Access](#github-automating-repository-access)
+- [Slack: Structured Welcome Channels](#slack-structured-welcome-channels)
+- [Linear: Task Management Integration](#linear-task-management-integration)
+- [Combining Tools: an Unified Approach](#combining-tools-an-unified-approach)
+- [Evaluation Criteria for Your Team](#evaluation-criteria-for-your-team)
+
 This guide evaluates onboarding tools that handle the specific challenges of consistent, repeatable remote team scaling. The focus is on tools that integrate with developer workflows, support async documentation, and reduce coordination overhead.
 
 ## The Core Onboarding Pipeline
@@ -294,11 +305,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
-- [Remote HR Onboarding Platform Comparison for Hiring](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
-- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
-- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
-- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
-
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
+- [Best Tool for Remote Team Async Onboarding with Self Paced L](/remote-work-tools/best-tool-for-remote-team-async-onboarding-with-self-paced-l/)
+- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
+- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

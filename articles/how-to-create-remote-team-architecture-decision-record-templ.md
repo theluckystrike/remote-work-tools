@@ -56,6 +56,28 @@ adr:
 
 ## Context
 
+## Table of Contents
+
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Notes](#notes)
+- [Adapting the Template for Async Workflows](#adapting-the-template-for-async-workflows)
+- [Async Review Process](#async-review-process)
+- [Tracking Decision Status Over Time](#tracking-decision-status-over-time)
+- [Status History](#status-history)
+- [Practical Tips for Remote ADR Implementation](#practical-tips-for-remote-adr-implementation)
+- [Example Workflow for a Remote Team Decision](#example-workflow-for-a-remote-team-decision)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building ADR Culture Remotely](#building-adr-culture-remotely)
+- [Implementing ADRs in Your Repository](#implementing-adrs-in-your-repository)
+- [Tools for Managing ADRs at Scale](#tools-for-managing-adrs-at-scale)
+- [Common ADR Anti-Patterns to Avoid](#common-adr-anti-patterns-to-avoid)
+- [Integrating ADRs with Your Workflow](#integrating-adrs-with-your-workflow)
+- [Real-World Example: Complete ADR Workflow](#real-world-example-complete-adr-workflow)
+- [Scaling ADRs Across Multiple Teams](#scaling-adrs-across-multiple-teams)
+
 Our current authentication system uses JWT tokens stored in localStorage. Security review flagged XSS vulnerability concerns. We need a more secure token storage mechanism without significantly impacting user experience.
 
 ## Decision
@@ -312,10 +334,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
-- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
 - [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
+- [Best Tools for Remote Architecture Decision Records](/remote-work-tools/best-tools-for-remote-architecture-decision-records/)
 - [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

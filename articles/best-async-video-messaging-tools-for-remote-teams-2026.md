@@ -15,6 +15,19 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Async video messaging replaces endless Slack threads and meetings. Instead of writing 500-word explanations, you record a 2-minute video. Recipients watch when they have context. Here's what works.
 
+## Table of Contents
+
+- [Why Async Video Matters](#why-async-video-matters)
+- [1. Loom (Best Overall)](#1-loom-best-overall)
+- [2. Vimeo Record (Best for Privacy)](#2-vimeo-record-best-for-privacy)
+- [3. Tella (Best for Simplicity)](#3-tella-best-for-simplicity)
+- [4. Screencastify (Best for Local Ownership)](#4-screencastify-best-for-local-ownership)
+- [Feature Comparison Matrix](#feature-comparison-matrix)
+- [Integration Comparison](#integration-comparison)
+- [Recommended Choices](#recommended-choices)
+- [Practical Team Setup](#practical-team-setup)
+- [Setup Checklist](#setup-checklist)
+
 ## Why Async Video Matters
 
 Text explanations for complex processes:
@@ -507,9 +520,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Async Video Messaging Tools for Distributed Teams 2026](/best-async-video-messaging-tools-for-distributed-teams-2026/)
-- [How to Move from Loom to Claap for Remote Team Async Video Messaging](/how-to-move-from-loom-to-claap-for-remote-team-async-video-m/)
-- [Best Voice Memo Apps for Quick Async Communication Remote](/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
-
+- [Best Async Video Messaging Tools for Distributed Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
+- [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
+- [How to Move from Loom to Claap for Remote Team Async Video](/remote-work-tools/how-to-move-from-loom-to-claap-for-remote-team-async-video-m/)
+- [Best Async Voice Message Tools for Remote Teams 2026](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
+- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

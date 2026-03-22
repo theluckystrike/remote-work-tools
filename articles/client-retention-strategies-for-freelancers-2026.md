@@ -18,6 +18,28 @@ voice-checked: true
 
 Freelancers often spend too much time acquiring new clients while neglecting the strategies that turn one-time projects into recurring revenue. Client retention matters because it costs significantly less to serve existing clients than to find new ones, and satisfied clients often refer others. In 2026, the freelancers who thrive have systems in place that make client relationships sustainable and predictable.
 
+## Table of Contents
+
+- [Establish Clear Communication cadences](#establish-clear-communication-cadences)
+- [Use Project Retainers to Create Predictability](#use-project-retainers-to-create-predictability)
+- [Retainer Terms](#retainer-terms)
+- [Automate Client Onboarding and Offboarding](#automate-client-onboarding-and-offboarding)
+- [Build a Knowledge Base for Each Client](#build-a-knowledge-base-for-each-client)
+- [Implement Value-Adding Touchpoints](#implement-value-adding-touchpoints)
+- [Create Systematic Follow-Up Processes](#create-systematic-follow-up-processes)
+- [Handle Difficult Conversations Early](#handle-difficult-conversations-early)
+- [Measure Your Retention Metrics](#measure-your-retention-metrics)
+- [Client Management Tools for Freelancers](#client-management-tools-for-freelancers)
+- [Retainer Pricing Strategies](#retainer-pricing-strategies)
+- [Included Hours](#included-hours)
+- [Unused Hours](#unused-hours)
+- [Response Times](#response-times)
+- [Additional Work](#additional-work)
+- [Minimum Commitment](#minimum-commitment)
+- [Deliverables](#deliverables)
+- [Automated Client Touchpoint System](#automated-client-touchpoint-system)
+- [Value-Add Touchpoint Ideas](#value-add-touchpoint-ideas)
+
 This guide covers practical strategies you can implement immediately, with examples tailored for developers and power users who prefer actionable systems over generic advice.
 
 ## Establish Clear Communication cadences
@@ -377,11 +399,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [Scope Creep Prevention Strategies for Freelancers](/remote-work-tools/scope-creep-prevention-strategies-for-freelancers/)
-- [Best Notification Batching Strategies for Async-First](/remote-work-tools/best-notification-batching-strategies-for-async-first-remote-teams/)
-- [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
-- [Freelance Developer Networking Strategies Online: A](/remote-work-tools/freelance-developer-networking-strategies-online/)
-- [Hybrid Work Culture Building Strategies Guide](/remote-work-tools/hybrid-work-culture-building-strategies-guide/)
-
+- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
+- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
+- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Handle Client Calls Across 8 Hour Time Difference](/remote-work-tools/how-to-handle-client-calls-across-8-hour-time-difference/)
+- [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,26 @@ voice-checked: true
 
 Building a remote-first company requires more than just adopting video conferencing tools. Startups need structured playbooks that define how communication flows, how decisions get made, and how team members stay aligned without constant synchronous check-ins. This guide provides a practical template you can adapt for your team, with concrete examples that work for engineering organizations.
 
+## Table of Contents
+
+- [Core Components of a Remote Work Playbook](#core-components-of-a-remote-work-playbook)
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Implementation Patterns](#implementation-patterns)
+- [Adapting the Template to Your Size](#adapting-the-template-to-your-size)
+- [Continuous Improvement](#continuous-improvement)
+- [Tool Stack Pricing and Comparison](#tool-stack-pricing-and-comparison)
+- [Practical Configuration: Daily Standup Automation](#practical-configuration-daily-standup-automation)
+- [Implementation Timeline: First Month](#implementation-timeline-first-month)
+- [Onboarding New Remote Hires Using Your Playbook](#onboarding-new-remote-hires-using-your-playbook)
+- [Real Cost of Playbook Maintenance](#real-cost-of-playbook-maintenance)
+- [Scaling Beyond 10 People](#scaling-beyond-10-people)
+- [Red Flags: When Your Playbook Isn't Working](#red-flags-when-your-playbook-isnt-working)
+- [Playbook Repository Setup](#playbook-repository-setup)
+- [Playbook Maintenance Cadence](#playbook-maintenance-cadence)
+
 ## Core Components of a Remote Work Playbook
 
 A functional remote work playbook addresses four key areas: asynchronous communication norms, meeting efficiency, documentation standards, and tooling infrastructure. Each section should include specific guidelines your team can reference rather than vague principles.
@@ -324,10 +344,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
-- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
-- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
-- [Remote Work Employer Childcare Stipend Policy Template for](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
-- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
-
+- [How to Organize Remote Team Playbook Documentation for](/remote-work-tools/how-to-organize-remote-team-playbook-documentation-for-repea/)
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [How to Create Remote Team Playbook Templates](/remote-work-tools/how-to-create-remote-team-playbook-templates/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
