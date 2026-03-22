@@ -120,6 +120,7 @@
 
 
 
+
 layout: default
 title: "Best Knowledge Base Search Tool for Remote Teams with Docs"
 description: "Find the best knowledge base search tool for remote teams managing documentation across multiple platforms. Compare search capabilities, integrations, and"
@@ -133,6 +134,7 @@ score: 8
 intent-checked: true
 voice-checked: true---
 ---
+
 
 
 
