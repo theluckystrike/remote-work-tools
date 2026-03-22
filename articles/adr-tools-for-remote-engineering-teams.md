@@ -238,6 +238,186 @@ Start with a small pilot group of willing early adopters. Let them use it for 2-
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
+## ADR Naming and Versioning Strategy
+
+Establish consistent naming conventions across your ADR collection. Use sequential numbering and descriptive slugs:
+
+```
+docs/adr/
+├── 001-postgresql-primary-datastore.md
+├── 002-graphql-api-strategy.md
+├── 003-lambda-image-processing.md
+├── 004-dynamodb-caching-layer.md
+└── 005-kubernetes-orchestration.md
+```
+
+Within each ADR, include version history tracking:
+
+```markdown
+# ADR-005: Use Kubernetes for Container Orchestration
+
+## Status
+Accepted (Updated 2026-03-15)
+
+## Previous Status History
+- Proposed: 2026-02-01
+- Under Review: 2026-02-10
+- Accepted: 2026-03-01
+- Updated: 2026-03-15 (Added EKS cost optimization guidance)
+```
+
+This approach lets future team members understand decision evolution without opening git history.
+
+## ADR Lifecycle and Status Management
+
+Create a clear status model for ADR maturity:
+
+- **Proposed**: New decision under team discussion
+- **Accepted**: Team consensus reached, implementation in progress
+- **Implemented**: Already live in production code
+- **Superseded**: Replaced by a newer ADR with explicit reference
+- **Deprecated**: No longer relevant to current projects
+
+Track status transitions with dates. This provides context for code reviewers who encounter legacy decisions.
+
+## Team Discussion Framework
+
+When an important decision needs documentation:
+
+1. **Draft**: Engineer creates ADR in Proposed status with problem context and initial proposal
+2. **Async Review (48-72 hours)**: Team reviews in Slack or via PR comments. Focus on consequences and tradeoffs, not bikeshedding.
+3. **Refinement**: Author incorporates feedback, revises decision statement if needed
+4. **Acceptance**: When consensus emerges, a tech lead or designated decision-maker accepts the ADR
+5. **Implementation**: Engineers reference the ADR in related PRs so intent stays visible
+
+This workflow respects time zones while maintaining decision velocity.
+
+## Integration with Code Review
+
+Link ADRs directly in pull request descriptions so reviewers understand the "why" behind code:
+
+```markdown
+## PR Description
+
+Implements ADR-004: DynamoDB Caching Layer
+
+**Related ADR**: [004-dynamodb-caching-layer.md](docs/adr/004-dynamodb-caching-layer.md)
+
+### Changes
+- Adds Redis-compatible DynamoDB query wrapper
+- Implements TTL-based cache invalidation
+- Adds monitoring dashboard for cache hit rates
+
+### How This Aligns with ADR-004
+- Uses DynamoDB (decided in ADR) instead of ElastiCache
+- Implements the proposed TTL strategy described in consequences
+- Fulfills the cost optimization goal outlined in context
+```
+
+This pattern ensures new team members can quickly understand architectural intent behind code changes.
+
+## Automation: Schedule ADR Reviews
+
+Set up quarterly ADR reviews to identify superseded decisions and stale assumptions:
+
+```bash
+#!/bin/bash
+# quarterly-adr-review.sh
+find docs/adr -name "*.md" -type f | while read adr; do
+    echo "Review due: $adr"
+    last_modified=$(git log -1 --format="%ai" -- "$adr" | cut -d' ' -f1)
+    age_days=$(( ($(date +%s) - $(date -d "$last_modified" +%s)) / 86400 ))
+
+    if [ $age_days -gt 90 ]; then
+        echo "⚠️  $adr hasn't been reviewed in ${age_days} days"
+    fi
+done
+```
+
+Run this quarterly and schedule 1-hour team review sessions to update outdated ADRs.
+
+## Real-World ADR Examples
+
+### Example 1: Database Choice
+```markdown
+# ADR-001: Use PostgreSQL for Primary Data Store
+
+## Context
+Growing data complexity requires ACID compliance. Current MySQL version 5.6 lacks proper JSON support.
+Team familiarity skews toward PostgreSQL. RDS pricing equivalent across engines.
+
+## Decision
+Adopt PostgreSQL 14+ as primary relational database.
+
+## Consequences
+**Positive:**
+- ACID guarantees simplify transaction logic
+- Native JSONB support eliminates middleware parsing
+- Better query performance for complex joins
+
+**Negative:**
+- Requires migration of existing 500GB dataset (estimated 8 hours downtime)
+- Two engineers need PostgreSQL performance tuning training
+```
+
+### Example 2: API Style
+```markdown
+# ADR-002: Use REST Over GraphQL for Public APIs
+
+## Context
+Considering GraphQL for frontend flexibility. Evaluated 3-month trial on dashboard team.
+Team concerns: caching complexity, N+1 query debugging, new mental model for clients.
+
+## Decision
+Continue REST with thoughtful endpoint design. Revisit GraphQL in 12 months.
+
+## Consequences
+**Positive:**
+- Simpler client caching (HTTP standards)
+- Easier monitoring and rate limiting
+- Lower cognitive load for contractors
+
+**Negative:**
+- Over-fetching data for some clients
+- Version management responsibility on API design
+- May need to split endpoints as clients request
+```
+
+## Decision Metrics and Monitoring
+
+Track adoption of key decisions:
+
+```python
+# Track ADR adoption in codebase
+import subprocess
+import json
+
+def check_adr_adoption(adr_slug, implementation_pattern):
+    """Check how many commits reference an ADR"""
+    result = subprocess.run(
+        ['git', 'log', '--all', f'--grep={adr_slug}', '--format=%H'],
+        capture_output=True,
+        text=True
+    )
+
+    referenced_commits = len(result.stdout.strip().split('\n')) if result.stdout else 0
+
+    # Search code for implementation pattern
+    code_result = subprocess.run(
+        ['grep', '-r', implementation_pattern, 'src/', '--include=*.py'],
+        capture_output=True
+    )
+    code_occurrences = len(code_result.stdout.strip().split('\n')) if code_result.stdout else 0
+
+    return {
+        'adr': adr_slug,
+        'referenced_in_commits': referenced_commits,
+        'implementation_occurrences': code_occurrences
+    }
+```
+
+Use these metrics to validate that accepted decisions actually guide development.
+
 ## Related Articles
 
 - [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)

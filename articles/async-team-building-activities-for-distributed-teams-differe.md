@@ -219,8 +219,100 @@ Start with one activity and prove it works before adding more:
 6. **Add more activities** once the first becomes habitual
 
 The goal isn't to fill every moment with structured interaction. Rather, create touchpoints that help team members see each other as complete humans. Even one or two consistent async activities can meaningfully improve team cohesion across time zones.
----
 
+## Activity 7: Async Show & Tell Sessions
+
+Technical teams benefit from asynchronous knowledge sharing where members present work, discoveries, or tools via recorded video or detailed write-ups. Unlike synchronous show & tells that require real-time attendance, async versions let distributed teams participate fully.
+
+**Setup process:**
+
+```markdown
+## Show & Tell Schedule
+
+**Week of March 23** — Scheduled Presenter: [Name]
+- Topic: [5-10 word description]
+- Format: [Video/Blog Post/Code Review]
+- Submission deadline: Friday EOD
+- Discussion window: Monday-Friday next week
+
+## Submission Template
+1. Title (10 words max)
+2. What problem does this solve?
+3. Key takeaway (2-3 sentences)
+4. Links to code, blog, or video
+5. Follow-up questions for discussion
+```
+
+Participants submit their show & tell and the team engages in threaded discussion throughout the following week. This format works especially well for engineering teams learning internal tools, architecture patterns, or new technologies.
+
+## Measuring Engagement and Impact
+
+Track async activity success with simple metrics:
+
+- **Participation rate**: % of team members contributing per cycle
+- **Time distribution**: Do people across all time zones participate?
+- **Engagement depth**: Comments per post, follow-up questions, idea elaboration
+- **Sustainability**: Do the same activities maintain participation month-to-month?
+
+```python
+# Simple engagement tracking
+activities = {
+    'coffee_chat': {'participants': 12, 'responses': 24},
+    'wins_share': {'participants': 14, 'responses': 42},
+    'book_club': {'participants': 7, 'responses': 15},
+}
+
+for activity, stats in activities.items():
+    engagement = stats['responses'] / stats['participants']
+    print(f"{activity}: {engagement:.1f} responses per person")
+```
+
+If an activity drops below 50% participation two cycles in a row, it's not resonating. Replace it rather than forcing engagement. Some activities work for certain team cultures and not others.
+
+## Scaling Beyond Small Teams
+
+When a team grows from 10 to 50+ people, async activities require structural changes:
+
+**Create activity tracks.** Don't expect everyone to participate in everything. A 50-person team might have:
+- #wins-engineering
+- #wins-design
+- #wins-operations
+- #general-wins (cross-functional)
+
+This prevents notification fatigue while maintaining connection within functional teams.
+
+**Assign facilitators.** For activities like book clubs or skill exchanges, designate a person responsible for:
+- Posing discussion questions
+- Summarizing key insights
+- Encouraging quieter participants
+- Keeping discussions on track
+
+Rotating facilitator roles prevents burnout and distributes leadership.
+
+**Use automation for logistics.** Script your coffee chat pairings, schedule wins rotations, and send automated reminders. This reduces manual coordination overhead as team size grows.
+
+```bash
+#!/bin/bash
+# Coffee chat pairing reminder script
+WEEK=$(date +%W)
+PAIR=$(python3 generate_pairs.py $WEEK)
+
+echo "This week's coffee chat: $PAIR" | \
+  mail -s "Coffee Chat Pairing" "$PAIR"
+```
+
+## Maintaining Momentum During Low-Engagement Periods
+
+Async activities lose momentum during high-crunch periods when team members are busy. This is expected. When engagement drops:
+
+1. **Don't guilt people.** Low participation during crunch is normal, not failure.
+2. **Simplify participation.** Switch from full responses to emoji reactions or quick comments.
+3. **Extend timelines.** Give people longer windows to engage when capacity is limited.
+4. **Maintain optionality.** Keep activities voluntary—forcing participation during crunch damages morale.
+
+The pattern: crunch periods → reduced engagement → recovery to normal levels once crunch ends. Teams that maintain this pattern see sustained engagement over years. Teams that force participation during crunch struggle to restart activities afterward.
+
+---
 
 ## Frequently Asked Questions
 
