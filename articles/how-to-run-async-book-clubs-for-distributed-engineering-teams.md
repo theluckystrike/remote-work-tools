@@ -1,6 +1,7 @@
 ---
 
 
+
 layout: default
 title: "How to Run Async Book Clubs for Distributed Engineering"
 description: "Running a book club in a distributed engineering team presents unique challenges. Without the luxury of spontaneous hallway conversations or easy after-work"
@@ -327,6 +328,7 @@ Here's your quick-start checklist:
 ---
 
 
+
 **
 
 ## Troubleshooting
@@ -375,4 +377,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+
