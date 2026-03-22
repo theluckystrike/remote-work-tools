@@ -11,7 +11,8 @@ tags: [remote-work-tools, device-security, remote-work, endpoint-security, compl
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -69,7 +70,8 @@ ssh admin@$hostname "profiles status -type enrollment"
 **Linux: Ansible for Configuration Auditing**
 
 ```yaml
-# ansible-playbook device_audit.yml---
+# ansible-playbook device_audit.yml
+---
 - name: Remote Device Security Audit
  hosts: remote_linux_hosts
  gather_facts: true

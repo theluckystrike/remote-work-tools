@@ -11,7 +11,8 @@ tags: [remote-work-tools, documentation, remote-work, data-science, knowledge-ma
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 - [Remote Work Guides Hub](/remote-work-tools/)
 - [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)

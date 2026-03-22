@@ -11,7 +11,8 @@ tags: [remote-work-tools, hybrid-meetings, conference-room, owl-labs, video-conf
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -189,7 +190,8 @@ Keep the Owl firmware updated for performance improvements:
 
 For IT teams managing multiple rooms, here's an example Ansible playbook for Owl configuration:
 
-```yaml---
+```yaml
+---
 - hosts: meeting_owls
  vars:
  owl_firmware_version: "4.2.1"

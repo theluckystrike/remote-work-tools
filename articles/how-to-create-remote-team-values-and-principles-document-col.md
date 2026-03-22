@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, team-culture, collaboration]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -109,7 +110,8 @@ Share the synthesized draft for another async review. Ask specific questions:
 
 Use GitHub issues or PRs for this phase:
 
-```yaml---
+```yaml
+---
 name: Values Feedback
 title: "Values Review: [Category]"
 labels: team-values

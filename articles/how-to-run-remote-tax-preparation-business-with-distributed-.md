@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, tax-preparation, seasonal-staff, distribu
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -36,7 +37,8 @@ When your team accesses sensitive tax data from home offices, you need to enforc
 You can automate VPN configuration deployment using configuration management tools. Here's an example using Ansible to ensure consistent OpenVPN client setup across seasonal staff machines:
 
 ```yaml
-# ansible-playbook for tax-prep-vpn-setup.yml---
+# ansible-playbook for tax-prep-vpn-setup.yml
+---
 - hosts: seasonal_workers
  become: yes
  vars:
