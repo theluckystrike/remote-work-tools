@@ -31,6 +31,15 @@ voice-checked: true---
 
 Two-person backend teams face unique automation challenges. You have enough code to benefit from continuous integration and deployment, but not the overhead to manage complex enterprise tooling. The right CI/CD pipeline tools can automate testing, catch bugs early, and deploy your applications with confidence—all without requiring dedicated DevOps resources.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **The free tier includes**: 400 pipeline minutes monthly with unlimited CI/CD minutes on self-hosted runners—a significant advantage for teams wanting more control.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Their free tier includes**: 6,000 build minutes monthly—generous for two-person teams.
+- **Keeping pipeline times under**: 5 minutes resolves most of this friction.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## What Small Remote Teams Actually Need
 
 Before examining specific tools, consider what matters most for a two-person backend team working remotely:

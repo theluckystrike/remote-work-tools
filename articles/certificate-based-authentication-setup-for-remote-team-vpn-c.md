@@ -31,6 +31,13 @@ voice-checked: true---
 
 Implement certificate-based VPN authentication using a two-tier PKI hierarchy: offline root CA issuing intermediate CAs that sign user certificates. Configure WireGuard or OpenVPN with client certificate validation for password-free VPN access. This guide shows you how to automate certificate distribution, set expiration policies for automatic revocation, and implement secure hardware key storage for production environments.
 
+## Key Takeaways
+
+- **Configure WireGuard or OpenVPN**: with client certificate validation for password-free VPN access.
+- **For most teams**: a simple PKI using EasyRSA or a dedicated CA certificate works well.
+- **Use hardware security modules**: or air-gapped machines for CA operations.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Understanding Certificate-Based VPN Authentication
 
 Certificate-based authentication uses public key infrastructure (PKI) to verify client identity. Instead of sharing passwords, each remote worker receives an uniquely signed certificate. When the client connects, it presents this certificate, and the server validates it against a trusted certificate authority (CA).

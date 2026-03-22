@@ -27,7 +27,17 @@ score: 9
 intent-checked: true
 voice-checked: true---
 
+
 Choose camera on if you are in a small meeting (under 5 people), giving or receiving feedback, or meeting a client where visual presence matters. Choose camera off if you are in a large all-hands, primarily listening, or dealing with bandwidth constraints and home interruptions. This guide covers the practical tradeoffs, provides code-level solutions for managing camera settings, and includes a ready-to-adopt team policy template.
+
+## Key Takeaways
+
+- **A $30 ring light positioned in front of you produces better results than a $200 webcam in poor lighting**: position lights at eye level, slightly to the side.
+- **This delivers better results**: than spending $200 on a single premium camera.
+- **Choose camera on if**: you are in a small meeting (under 5 people), giving or receiving feedback, or meeting a client where visual presence matters.
+- **The AirPods Pro**: Jabra Elite, or a dedicated USB mic like the Blue Yeti will serve you better than a 4K webcam.
+- **Use async video tools**: like Loom for updates that don't require live interaction.
+- **On video**: you're working 20% harder to interpret the same information.
 
 ## The Core Tradeoffs
 

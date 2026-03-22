@@ -17,6 +17,15 @@ intent-checked: true---
 
 Brazil's Vitem XIV visa requires $1,500 monthly income proof, valid health insurance, and passport validity of 6+ months, processed through a straightforward application that typically approves within 4-6 weeks at a cost of approximately $350-450. As a popular pathway for remote developers in South America, this visa legitimizes your stay while you work for international clients, but you'll owe Brazilian income tax on worldwide income once established as a resident. This guide covers the complete application process and tax implications before making the move.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Income Threshold**: You need to demonstrate a minimum monthly income of $1,500 USD from remote work activities.
+- **company registration) - Advance**: tax payment (DARF) requirements Expect to pay 300-500 BRL (approximately $60-100 USD) for annual tax filing if you structure it properly.
+- **For 2026**: the exclusion amount is approximately $126,500 USD.
+- **Private health insurance costs**: range from $50-150 USD monthly depending on coverage.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+
 ## Eligibility Requirements for Brazil's Digital Nomad Visa
 
 The Brazilian government designed the Vitem XIV visa specifically for foreign nationals who work remotely for entities outside Brazil. To qualify, you must meet several key requirements.
