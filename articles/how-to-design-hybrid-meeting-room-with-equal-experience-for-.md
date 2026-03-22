@@ -40,7 +40,17 @@ Hybrid meeting rooms require ceiling-mounted panoramic cameras capturing the ent
 - **Mastering advanced features takes**: 1-2 weeks of regular use.
 - **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
 
-## The Equal Experience Principle
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Equal Experience Principle
 
 The core principle behind effective hybrid meeting design is simple: every participant should have comparable visibility, audibility, and participation capability regardless of physical location. This isn't just about buying expensive equipment—it requires deliberate architectural decisions in both hardware selection and software configuration.
 
@@ -50,7 +60,7 @@ When designing your hybrid meeting room, consider these foundational requirement
 - Visual equality: Remote participants should see the same materials and participants that in-room attendees see
 - Participation equality: Both groups must be able to contribute equally to discussions and presentations
 
-## Audio System Architecture
+### Step 2: Audio System Architecture
 
 Audio is typically the weakest link in hybrid meetings. Here's a practical approach to achieving clear two-way audio.
 
@@ -116,7 +126,7 @@ const dspConfig = {
 };
 ```
 
-## Visual Setup for Remote Visibility
+### Step 3: Visual Setup for Remote Visibility
 
 Remote participants need to see more than just faces on a screen. They need to see whiteboard content, presentations, and physical documents being discussed.
 
@@ -141,7 +151,7 @@ When selecting a document camera, prioritize:
 - Wide capture area for large documents
 - Compatibility with your video conferencing platform
 
-## Network and Bandwidth Considerations
+### Step 4: Network and Bandwidth Considerations
 
 Hybrid meeting quality depends heavily on network reliability. Both the room equipment and remote participants need adequate bandwidth.
 
@@ -163,7 +173,7 @@ qos-map video
 
 Ensure the meeting room has a minimum of 25 Mbps upload bandwidth for high-quality video transmission. Redundant internet connections provide resilience against outages.
 
-## Software Integration Layer
+### Step 5: Software Integration Layer
 
 The hardware is only half the equation. Proper software configuration ensures that hybrid meeting features work correctly.
 
@@ -228,7 +238,7 @@ def check_room_availability(room_id, start_time, duration):
     return available and room["bookings"][start_time] is None
 ```
 
-## Practical Implementation Checklist
+### Step 6: Practical Implementation Checklist
 
 Before deploying a hybrid meeting room, verify these items:
 
@@ -241,7 +251,7 @@ Before deploying a hybrid meeting room, verify these items:
 - [ ] Recording functionality captures both audio streams
 - [ ] Backup procedures documented for common failure scenarios
 
-## Testing Your Hybrid Setup
+### Step 7: Test Your Hybrid Setup
 
 Regular testing ensures consistent quality. Create automated test scenarios:
 
@@ -270,7 +280,7 @@ ping_test --target video-server --max_latency 150ms
 echo "Tests complete. Review results in dashboard."
 ```
 
-## Common Pitfalls to Avoid
+### Step 8: Common Pitfalls to Avoid
 
 Even well-designed hybrid rooms fail when teams overlook these issues:
 
@@ -278,6 +288,21 @@ Even well-designed hybrid rooms fail when teams overlook these issues:
 - Insufficient lighting: Remote participants cannot see faces in dark rooms. Ensure even lighting on all participants
 - Single point of failure: Have backup options for critical components like the primary camera or network connection
 - No dedicated operator: For important meetings, assign someone to manage the hybrid experience in real-time
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

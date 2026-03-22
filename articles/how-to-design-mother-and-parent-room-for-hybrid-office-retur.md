@@ -46,7 +46,17 @@ When employees return to the office part-time, they often face the challenge of 
 
 The design choices you make affect adoption rates. A poorly designed room gets ignored; a thoughtful one becomes essential infrastructure.
 
-## Space Planning Fundamentals
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Space Planning Fundamentals
 
 ### Minimum Space Requirements
 
@@ -62,7 +72,7 @@ Place the parent room on the same floor as popular work areas—never in a basem
 
 Avoid placing parent rooms next to loud meeting rooms or server rooms. Sound privacy is critical.
 
-## Technology Integration
+### Step 2: Technology Integration
 
 ### Smart Lock and Access Control
 
@@ -163,7 +173,7 @@ automation:
           hvac_mode: auto
 ```
 
-## Essential Furniture and Equipment
+### Step 3: Essential Furniture and Equipment
 
 ### Seating Options
 
@@ -216,7 +226,7 @@ def apply_sound_schedule(current_time):
 
 If using a booking system, store minimal personal data. Don't track who books for what purpose. Access logs should auto-purge after 30 days.
 
-## Maintenance and Operations
+### Step 4: Perform Maintenance and Operations
 
 ### Cleaning Schedule
 
@@ -245,7 +255,7 @@ app.post('/api/supplies/low', async (req, res) => {
 });
 ```
 
-## Measuring Success
+### Step 5: Measuring Success
 
 Track these metrics to improve the parent room experience:
 
@@ -255,6 +265,21 @@ Track these metrics to improve the parent room experience:
 - Maintenance requests: Track issues by category
 
 A well-used parent room often sees 3-5 bookings daily in offices with 50+ employees. If usage is lower, survey employees to understand barriers.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

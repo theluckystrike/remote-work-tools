@@ -31,7 +31,17 @@ This guide covers practical techniques for helping remote team workshops using M
 - **Action planning (10 min)**: Pick 1-2 experiments to try
 6.
 
-## Setting Up Your Miro Workshop Environment
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Your Miro Workshop Environment
 
 Before starting any workshop, prepare your canvas with clear sections. Create distinct zones for different phases of your session:
 
@@ -47,7 +57,7 @@ Before starting any workshop, prepare your canvas with clear sections. Create di
 
 Use color-coded sticky notes to differentiate participant inputs. Assign specific colors to team members or input types (questions, ideas, blockers). This visual organization helps participants quickly scan the canvas and find relevant content.
 
-## Structured Communication Exercise: The Round-Robin Protocol
+### Step 2: Structured Communication Exercise: The Round-Robin Protocol
 
 One of the most effective techniques for remote workshops is the round-robin protocol. This ensures every participant has equal speaking time and reduces the dominance of vocal team members.
 
@@ -60,7 +70,7 @@ One of the most effective techniques for remote workshops is the round-robin pro
 
 For developers, this structure works well during code review discussions, architecture planning, and incident post-mortems. The fixed time allocation prevents discussions from spiraling while ensuring all perspectives get heard.
 
-## Icebreaker Exercise: Async Brainstorm Mapping
+### Step 3: Icebreaker Exercise: Async Brainstorm Mapping
 
 For distributed teams spanning multiple time zones, async workshops require different help approaches. Use this structured exercise to gather input before synchronous sessions:
 
@@ -81,7 +91,7 @@ const workshopFrame = {
 
 Participants add sticky notes to appropriate sections before the sync meeting. During the live session, the facilitator reviews patterns and clusters similar ideas together using Miro's grouping feature.
 
-## The停车场 (Parking Lot) Technique
+### Step 4: The停车场 (Parking Lot) Technique
 
 Remote workshops often generate tangents—valuable discussions that deserve attention but fall outside the session's scope. Create a dedicated "Parking Lot" section on your canvas:
 
@@ -92,7 +102,7 @@ Remote workshops often generate tangents—valuable discussions that deserve att
 
 This technique maintains session focus while validating contributions that warrant future discussion.
 
-## Real-Time Collaboration: Voting and Prioritization
+### Step 5: Real-Time Collaboration: Voting and Prioritization
 
 Miro's voting features enable democratic decision-making in real-time workshops. Use dot voting for prioritizing features, selecting approaches, or identifying the most important blockers.
 
@@ -106,7 +116,7 @@ Miro's voting features enable democratic decision-making in real-time workshops.
 
 For engineering teams, this works exceptionally well for tech debt prioritization, RFC review, and sprint planning. The visual result immediately shows team consensus without lengthy debate.
 
-## Breakout Exercise: Pair Mapping
+### Step 6: Breakout Exercise: Pair Mapping
 
 For complex problems, divide participants into smaller groups for focused discussion. Miro's breakout frames feature allows simultaneous collaboration in separate canvas sections.
 
@@ -129,7 +139,7 @@ For complex problems, divide participants into smaller groups for focused discus
 
 After breakout sessions, reconvene and have each group present their findings. Use the timer widget to enforce strict time limits per group.
 
-## Documentation and Follow-Up
+### Step 7: Documentation and Follow-Up
 
 The value of a well-helped workshop diminishes without proper documentation. After each session:
 
@@ -184,7 +194,7 @@ While Miro dominates collaborative whiteboarding, several alternatives offer dis
 
 For small teams (5-10 people), FigJam or free options often provide better ROI than dedicated whiteboarding software. For larger teams or heavy workshop users, Miro's investment pays off through time saved and better outcomes.
 
-## Facilitator Checklists for Different Workshop Types
+### Step 8: Facilitator Checklists for Different Workshop Types
 
 **Architecture Review Workshop (90 minutes):**
 
@@ -217,7 +227,7 @@ For small teams (5-10 people), FigJam or free options often provide better ROI t
 6. **Commitment (3 min):** Team agrees on what to measure
 7. **Post-workshop:** Track follow-ups in dedicated retro document
 
-## Technical Setup for Large Group Workshops (20+ participants)
+### Step 9: Technical Setup for Large Group Workshops (20+ participants)
 
 Miro performance degrades with many simultaneous editors. For larger groups:
 
@@ -243,7 +253,7 @@ echo "Optimizing Miro board for large group..."
 echo "Miro optimization complete"
 ```
 
-## Documentation and Institutional Memory
+### Step 10: Documentation and Institutional Memory
 
 A workshop's value extends far beyond the 90 minutes if properly documented:
 
@@ -269,6 +279,21 @@ A workshop's value extends far beyond the 90 minutes if properly documented:
 
 This creates a searchable archive that new team members can review to understand how decisions were made and why current practices exist.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

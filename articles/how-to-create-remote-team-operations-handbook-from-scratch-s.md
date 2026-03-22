@@ -42,7 +42,7 @@ This guide walks you through creating a practical remote team operations handboo
 - **This includes response time expectations**: which channels to use for which purposes, and meeting conventions.
 - **This is where developers**: spend the most time writing and maintaining content.
 
-## Start With Your Core Operating Documents
+### Step 1: Start With Your Core Operating Documents
 
 Before writing anything, identify the documents that genuinely run your team. Most remote teams operate on three levels: communication norms, process definitions, and technical references. Each requires different treatment.
 
@@ -52,7 +52,7 @@ Process definitions cover how work gets done. Onboarding procedures, deployment 
 
 Technical references include environment setup guides, architecture decision records, and runbooks for common operational tasks. This is where developers spend the most time writing and maintaining content.
 
-## Structure Your Handbook for Navigation
+### Step 2: Structure Your Handbook for Navigation
 
 A handbook that's hard to navigate won't get used. Use a flat directory structure with descriptive filenames rather than deeply nested folders. Group related content under consistent naming conventions.
 
@@ -81,7 +81,7 @@ handbook/
 
 The numbering prefix keeps alphabetical sorting in your favor while the descriptive filenames make finding content intuitive. Include an index file that links to all major sections—this becomes your table of contents.
 
-## Document Your Onboarding Process First
+### Step 3: Document Your Onboarding Process First
 
 Onboarding documentation reveals gaps in your team's operational knowledge faster than anything else. When new hires try to follow your docs, they immediately identify missing steps, outdated screenshots, and unclear instructions.
 
@@ -90,19 +90,19 @@ Create a checklist-style onboarding document that new team members can work thro
 ```markdown
 # Engineering Onboarding Checklist
 
-## Day 1
+### Step 4: Day 1
 - [ ] Set up GitHub account and request org access
 - [ ] Configure 2FA on all critical services
 - [ ] Join #engineering, #incidents, and #standup Slack channels
 - [ ] Complete HR paperwork through BambooHR
 
-## Day 2
+### Step 5: Day 2
 - [ ] Clone production repositories
 - [ ] Run local development environment setup
 - [ ] Complete security training module
 - [ ] Meet with your onboarding buddy (schedule 30-min intro)
 
-## Day 3-5
+### Step 6: Day 3-5
 - [ ] Complete first trivial PR (docs fix or dependency update)
 - [ ] Review codebase architecture documentation
 - [ ] Shadow a code review session
@@ -111,12 +111,12 @@ Create a checklist-style onboarding document that new team members can work thro
 
 The checkbox format gives new hires a sense of progress and ensures nothing gets skipped. Update this checklist whenever someone gets stuck during their first week.
 
-## Define Communication Standards Explicitly
+### Step 7: Define Communication Standards Explicitly
 
 Remote teams suffer most when communication expectations remain implicit. Write down exactly what you expect:
 
 ```markdown
-## Response Time Expectations
+### Step 8: Response Time Expectations
 
 | Channel Type | Expected Response | Maximum Response |
 |--------------|-------------------|-------------------|
@@ -137,7 +137,7 @@ Remote teams suffer most when communication expectations remain implicit. Write 
 
 These specifics eliminate ambiguity. When someone asks "how quickly should I respond to X," you link to the handbook instead of explaining again.
 
-## Create Process Runbooks for Common Tasks
+### Step 9: Create Process Runbooks for Common Tasks
 
 Developers should never have to guess how to handle routine operational tasks. Create runbooks that walk through procedures step by step:
 
@@ -149,7 +149,7 @@ Developers should never have to guess how to handle routine operational tasks. C
 - At least one approving code review
 - No blocking GitHub issues tagged for this release
 
-## Deployment Steps
+### Step 10: Deploy ment Steps
 
 1. Ensure you're on the main branch and have pulled latest:
    ```bash
@@ -170,7 +170,7 @@ Developers should never have to guess how to handle routine operational tasks. C
 5. Test critical user flows on staging environment
 6. Merge release branch back to main
 
-## Rollback Procedure
+### Step 11: Rollback Procedure
 
 If issues are detected after staging deployment:
 
@@ -182,7 +182,7 @@ If issues are detected after staging deployment:
 
 Runbooks reduce support burden and enable team members to handle tasks independently. Review and test these quarterly—outdated runbooks are worse than none at all.
 
-## Automate Handbook Maintenance
+### Step 12: Automate Handbook Maintenance
 
 A handbook that rots becomes useless. Set up automated checks to catch issues:
 
@@ -219,7 +219,7 @@ jobs:
 
 This workflow catches broken links and outdated references automatically. Without automation, maintaining documentation feels like additional work that always gets deprioritized.
 
-## Version Control Your Handbook
+### Step 13: Version Control Your Handbook
 
 Treat your handbook like code. Store it in the same repository as your projects, use branches for updates, and require reviews before merging changes. This approach brings several advantages:
 
@@ -239,6 +239,21 @@ git push origin handbook/update-onboarding-process
 ```
 
 This makes documentation a team responsibility rather than a solo burden.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

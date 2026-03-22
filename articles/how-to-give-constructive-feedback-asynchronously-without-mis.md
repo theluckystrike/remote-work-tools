@@ -53,7 +53,17 @@ This problem intensifies when teams span cultures. Directness reads as efficient
 
 The solution is not to water down your feedback or add excessive qualifiers. It is to make your intent visible through structure and explicit framing.
 
-## The SBI Feedback Framework Adapted for Async
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The SBI Feedback Framework Adapted for Async
 
 The Situation-Behavior-Impact (SBI) model provides a reliable structure for feedback that reduces ambiguity. Translate it to async contexts by adding explicit framing:
 
@@ -67,7 +77,7 @@ The Situation-Behavior-Impact (SBI) model provides a reliable structure for feed
 
 This format tells the reader exactly what to expect: you are providing a constructive technical suggestion, not criticizing their competence. The structure separates observation from interpretation, which prevents readers from assuming negative intent where you meant neutral or positive feedback.
 
-## Tone Indicators: Explicit Signals That Replace Vocal Cues
+### Step 2: Tone Indicators: Explicit Signals That Replace Vocal Cues
 
 Tone indicators (originally from online communities) work as explicit signals in professional communication. Add these at the start or end of feedback to remove ambiguity:
 
@@ -86,7 +96,7 @@ This is a /j — I definitely wrote worse code when I was new to the codebase. T
 
 Pair tone indicators with intent statements. A simple "I'm sharing this to help the code, not to critique your work" at the start of a code review removes the psychological friction that makes people defensive.
 
-## Structured Code Review Templates
+### Step 3: Structured Code Review Templates
 
 Code review comments benefit from consistent structure. When every comment follows a predictable format, readers know exactly how to interpret each one.
 
@@ -122,7 +132,7 @@ Example:
 
 Consistent templates mean readers do not have to infer whether a comment is a blocker, a preference, or a learning opportunity. The format communicates priority directly.
 
-## Example: Before and After Reframing
+### Step 4: Example: Before and After Reframing
 
 **Before (ambiguous tone):**
 
@@ -144,7 +154,7 @@ This function is too long. Split it up.
 
 The second version contains more words but causes less friction. The reader understands exactly what you mean, why it matters, and how urgent the change is.
 
-## Emotional Check: Pause Before Sending
+### Step 5: Emotional Check: Pause Before Sending
 
 Written feedback lacks the realtime feedback of conversation. You cannot see the reader's reaction and adjust. Build a short buffer into your process:
 
@@ -156,7 +166,7 @@ Written feedback lacks the realtime feedback of conversation. You cannot see the
 
 This habit prevents the majority of tone misunderstandings. The pause gives you space to catch moments where your technical accuracy exceeded your communication kindness.
 
-## Building Team Conventions
+### Step 6: Build Team Conventions
 
 Individual techniques help, but team norms multiply their effectiveness. Establish shared conventions for async feedback:
 
@@ -167,7 +177,7 @@ Individual techniques help, but team norms multiply their effectiveness. Establi
 
 Document these conventions in your team handbook or contributing guide. New team members then have explicit rules for giving and receiving async feedback, rather than learning through painful ambiguity.
 
-## Tools for Async Feedback Management
+### Step 7: Tools for Async Feedback Management
 
 Several platforms help structure and store feedback systematically:
 
@@ -186,7 +196,7 @@ Several platforms help structure and store feedback systematically:
 - **Gerrit** (self-hosted) — Emphasizes collaborative review; excellent for teams with complex merge workflows
 - **ReviewBoard** (free self-hosted or $100-500/month cloud) — Purpose-built for detailed code review feedback
 
-## Training Teams on Async Feedback
+### Step 8: Training Teams on Async Feedback
 
 Most teams struggle with async feedback not because individuals are unkind, but because they lack structure. Create a brief training:
 
@@ -206,7 +216,7 @@ Have team members practice giving feedback using templates. Review 2-3 examples 
 
 Deliver this once annually, and reference it whenever tone misunderstandings occur. Most teams see dramatic improvements in a month.
 
-## Specific Feedback Scenarios
+### Step 9: Specific Feedback Scenarios
 
 ### Scenario 1: Difficult Performance Feedback
 
@@ -278,7 +288,7 @@ Interpersonal feedback is the hardest. Example:
 
 This format owns your interpretation ("which might be wrong") and frames the feedback as collaborative, not corrective.
 
-## Measuring Feedback Culture Health
+### Step 10: Measuring Feedback Culture Health
 
 Track these indicators to know if your async feedback practices are working:
 
@@ -295,6 +305,21 @@ Track these indicators to know if your async feedback practices are working:
 - Callback-free discussions (discussions where people avoid the topic suggest fear)
 
 If these trends are declining, revisit training. If they're improving, reinforce what's working.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

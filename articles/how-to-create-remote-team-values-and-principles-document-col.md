@@ -30,7 +30,17 @@ This guide walks through a practical workflow for creating remote team values us
 
 Values documents fail when leadership drafts them in isolation and presents them as done. Team members who never contributed to the discussion treat them as performative artifacts. Collaborative creation serves two purposes: the final document benefits from diverse perspectives, and the process itself builds shared understanding about what the team stands for.
 
-## Phase 1: Gathering Initial Input
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Phase 1: Gathering Initial Input
 
 Start with a structured async brainstorm rather than a live meeting. This gives everyone equal opportunity to contribute regardless of timezone.
 
@@ -55,20 +65,20 @@ FILENAME="$TEAM_DIR/input-$(date +%s).md"
 cat > "$FILENAME" << EOF
 # Values Brainstorm - $DATE
 
-## What behavior do you most appreciate from teammates?
+### Step 2: What behavior do you most appreciate from teammates?
 
-## What frustrates you about remote collaboration?
+### Step 3: What frustrates you about remote collaboration?
 
-## What principles should guide our decisions?
+### Step 4: What principles should guide our decisions?
 
-## What does great teamwork look like?
+### Step 5: What does great teamwork look like?
 
 EOF
 
 echo "Created brainstorm template: $FILENAME"
 ```
 
-## Phase 2: Synthesis and Categorization
+### Step 6: Phase 2: Synthesis and Categorization
 
 Designate a facilitator to synthesize the responses. They cluster similar themes, identify patterns, and draft an initial framework.
 
@@ -85,28 +95,28 @@ Create a structured document:
 ```markdown
 # Team Values Draft
 
-## Communication
+### Step 7: Communication
 - **Over-communicate context**: Share the why behind decisions
 - **Async by default**: Reserve sync time for complex discussions
 - **Document decisions**: If it wasn't written down, it didn't happen
 
-## Ownership
+### Step 8: Ownership
 - **Raise blockers early**: Better to ask for help than miss deadlines silently
 - **Take initiative**: If you see something broken, fix it
 
-## Respect
+### Step 9: Respect
 - **Assume good intent**: Text lacks tone—give colleagues the benefit
 - **Respect time zones**: Record meetings, use async video
 
-## Growth
+### Step 10: Growth
 - **Learn from mistakes**: Blameless post-mortems make everyone safer
 - **Share knowledge**: Teaching reinforces your own understanding
 
-## Results
+### Step 11: Results
 - **Outcome over output**: Working more hours doesn't equal more value
 ```
 
-## Phase 3: Collaborative Refinement
+### Step 12: Phase 3: Collaborative Refinement
 
 Share the synthesized draft for another async review. Ask specific questions:
 
@@ -121,14 +131,14 @@ name: Values Feedback
 title: "Values Review: [Category]"
 labels: team-values
 
-## Your feedback on this value:
-## A real example from your experience:
-## Suggested change:
+### Step 13: Your feedback on this value:
+### Step 14: A real example from your experience:
+### Step 15: Suggested change:
 ```
 
 Values should emerge with strong consensus. If three or more team members strongly disagree with a value, revise it or remove it.
 
-## Phase 4: Finalization and Version Control
+### Step 16: Phase 4: Finalization and Version Control
 
 Commit the document to version control. Treat it like code:
 
@@ -148,7 +158,7 @@ docs/
 └── onboarding.md # New team member guide
 ```
 
-## Phase 5: Living the Document
+### Step 17: Phase 5: Living the Document
 
 A values document only matters if the team uses it. Build reference points into workflows:
 
@@ -167,14 +177,14 @@ Review quarterly. Teams evolve, and values should reflect current priorities.
 - [ ] Any values feel outdated?
 ```
 
-## Example Values Document
+### Step 18: Example Values Document
 
 ```markdown
 # Our Team Values
 
 **Last updated**: March 2026
 
-## Communication
+### Step 19: Communication
 ### Over-communicate Context
 Include the reasoning behind decisions, not just the what.
 
@@ -184,28 +194,28 @@ Default to async. Use sync time only for complex discussions.
 ### Bad News Travels Fast
 Share problems early. Hiding issues removes options.
 
-## Ownership
+### Step 20: Ownership
 ### Take Initiative
 If you see something broken, fix it or assign it.
 
 ### Raise Blockers Early
 Asking for help is a strength. Blockers unraised become crises.
 
-## Respect
+### Step 21: Respect
 ### Assume Good Intent
 Written communication lacks tone. Give colleagues the benefit.
 
 ### Respect Time Zones
 Record meetings. Don't expect immediate responses outside core hours.
 
-## Growth
+### Step 22: Growth
 ### Learn from Mistakes
 Blameless post-mortems. The goal is systemic improvement.
 
 ### Share Knowledge
 Writing things down helps the team scale.
 
-## Results
+### Step 23: Results
 ### Outcome Over Output
 Focus on what actually moves the needle.
 
@@ -213,7 +223,7 @@ Focus on what actually moves the needle.
 Burnout destroys long-term productivity.
 ```
 
-## Tools
+### Step 24: Tools
 
 Remote teams use various tools:
 
@@ -223,7 +233,7 @@ Remote teams use various tools:
 
 Choose tools your team already uses.
 
-## Common Pitfalls
+### Step 25: Common Pitfalls
 
 Avoid these mistakes:
 
@@ -231,6 +241,21 @@ Avoid these mistakes:
 - Generic language: Be specific about what values look like in practice
 - Written once, never revisited: Treat values as living documents
 - No accountability: Reference values in feedback and decisions
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

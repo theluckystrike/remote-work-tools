@@ -504,7 +504,17 @@ Traditional user research interviews require scheduling coordination, which crea
 - Review depth: Team members can watch and analyze responses together asynchronously
 - Cost efficiency: No need for scheduling overhead or live meeting tools
 
-## Choosing Your Async Research Platform
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Choose Your Async Research Platform
 
 Several platforms specialize in async user research interviews. Each has distinct features suited for different research needs.
 
@@ -538,7 +548,7 @@ Best for: Quick customer feedback collection
 - Conditional follow-up questions
 - Pricing: Free tier available, paid from $29/month
 
-## Structuring Your Interview Questions
+### Step 2: Structuring Your Interview Questions
 
 The success of async user research depends heavily on how you structure your questions. Without the ability to probe in real-time, each question must be self-explanatory and sufficiently open.
 
@@ -572,7 +582,7 @@ Example: "If you could wave a magic wand and change anything about [process], wh
 - Include examples when helpful
 - Leave space for unexpected responses
 
-## Recording Guidelines for Quality Responses
+### Step 3: Recording Guidelines for Quality Responses
 
 Help participants create high-quality video responses that provide practical recommendations.
 
@@ -614,7 +624,7 @@ The interview should take about 15-20 minutes total. You can complete it in one 
 Questions? Reply to this email and I'm happy to help.
 ```
 
-## Analyzing Async Interview Responses
+### Step 4: Analyzing Async Interview Responses
 
 Async interviews generate substantial video content. Systematic analysis ensures you extract practical recommendations efficiently.
 
@@ -652,7 +662,7 @@ Use Dovetail, Notion, or Miro to organize and share insights across your team. C
 - Theme clusters
 - Action recommendations
 
-## Integrating with Product Discovery
+### Step 5: Integrate with Product Discovery
 
 Async user research interviews work best when integrated into your regular product discovery cadence.
 
@@ -682,7 +692,7 @@ Async user research interviews work best when integrated into your regular produ
 - Identify follow-up research needs
 - Document learnings for future studies
 
-## Common Challenges and Solutions
+### Step 6: Common Challenges and Solutions
 
 ### Challenge: Low Response Rates
 
@@ -707,6 +717,21 @@ Async user research interviews work best when integrated into your regular produ
 - Create highlight reels for slack sharing
 - Assign individual analysis tasks
 - Make findings visible in team workspace
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -35,7 +35,17 @@ When your team operates across time zones, the natural boundaries that exist in 
 
 The cost accumulates quickly: context switching consumes 20-40% of productivity, and deep work typically requires 60-90 minutes to reach flow state. A 30-minute interrupt can easily destroy an hour of focused output.
 
-## Starting with Team Buy-In
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Starting with Team Buy-In
 
 Focus time agreements only work when the entire team commits to them. Start by presenting the problem clearly:
 
@@ -45,7 +55,7 @@ Focus time agreements only work when the entire team commits to them. Start by p
 
 Frame the conversation around outcomes rather than complaints. Instead of "too many meetings," use "we lose approximately 8 hours per week to context switching from ad-hoc calls."
 
-## Designing Your Focus Time Policy
+### Step 2: Designing Your Focus Time Policy
 
 Effective focus time agreements address three dimensions: when, how, and enforcement.
 
@@ -102,7 +112,7 @@ response_expectations:
   during_core_hours: "within 2 hours"
 ```
 
-## Implementing Calendar Blocking
+### Step 3: Implementing Calendar Blocking
 
 Make focus time visible through calendar management. Create recurring focus blocks that teammates can see and respect:
 
@@ -130,7 +140,7 @@ done
 
 Encourage developers to block focus time before booking meetings. Many calendar tools support this through browser extensions or native features.
 
-## Slack Integration Patterns
+### Step 4: Slack Integration Patterns
 
 Remote teams often use Slack as their primary communication hub. Set up automations that reinforce focus time:
 
@@ -159,29 +169,29 @@ cron.schedule('0 14 * * Wednesday', async () => {
 });
 ```
 
-## Documenting and Enforcing Agreements
+### Step 5: Documenting and Enforcing Agreements
 
 Write your focus time agreements into a shared document that everyone references:
 
 ```markdown
 # Team Focus Time Agreement
 
-## Core Principles
+### Step 6: Core Principles
 1. Deep work requires 60+ minutes of uninterrupted time
 2. Focus time is respected as seriously as external meetings
 3. Async communication is preferred during focus blocks
 
-## Schedule
+### Step 7: Schedule
 - **Focus Days**: Wednesdays (all day), Friday afternoons
 - **Core Meeting Hours**: 3pm-6pm UTC
 - **Response SLA**: Non-urgent messages answered within 4 hours
 
-## Enforcement
+### Step 8: Enforcement
 - Calendar blocks are visible to all team members
 - Meeting requests during focus time require explicit acceptance
 - Recurring focus blocks are auto-created each week
 
-## Exceptions
+### Step 9: Exceptions
 - P0 incidents always take priority
 - Customer-critical bugs may interrupt
 - Pre-scheduled 1:1s are exempt
@@ -189,7 +199,7 @@ Write your focus time agreements into a shared document that everyone references
 
 Place this document in your team wiki or repo and reference it during onboarding.
 
-## Handling Pushback
+### Step 10: Handling Pushback
 
 Not everyone will immediately embrace focus time. Common objections and responses:
 
@@ -202,7 +212,7 @@ This is exactly the problem focus time solves. Start by declining just one recur
 **"Clients won't accept it."**
 Most clients prefer working with teams that deliver quality output. Frame focus time as a feature, not a limitation.
 
-## Measuring Success
+### Step 11: Measuring Success
 
 Track whether your focus time agreements actually improve productivity:
 
@@ -237,7 +247,7 @@ def weekly_focus_summary(sessions: list[FocusSession]) -> dict:
     return by_dev
 ```
 
-## Making It Stick
+### Step 12: Making It Stick
 
 Focus time agreements require ongoing attention:
 
@@ -248,6 +258,21 @@ Focus time agreements require ongoing attention:
 
 The goal isn't rigid enforcement but creating a culture where deep work is valued as much as collaboration. When your team consistently delivers quality code without burnout, you've built something sustainable.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

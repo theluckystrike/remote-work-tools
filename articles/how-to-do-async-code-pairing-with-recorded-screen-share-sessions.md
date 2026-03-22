@@ -496,7 +496,17 @@ Traditional synchronous pair programming requires both developers to be availabl
 - Documentation: Sessions become recorded artifacts teams can reference later
 - Focused work: Developers can dive deep into problems without interrupting others' flow
 
-## Setting Up Your Recording Environment
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Your Recording Environment
 
 Before starting async code pairing sessions, ensure your recording setup produces clear, professional content.
 
@@ -532,7 +542,7 @@ Clear audio distinguishes useful recordings from frustrating ones:
 - Speak clearly and at a consistent volume
 - Consider using a pop filter to reduce plosive sounds
 
-## Structuring Your Async Code Pairing Session
+### Step 2: Structuring Your Async Code Pairing Session
 
 Effective async code sessions follow a deliberate structure that helps reviewers follow along and provide meaningful feedback.
 
@@ -597,7 +607,7 @@ When you make mistakes, don't edit them out—show the debugging process. It's o
 
 Aim for 15-30 minute recordings. Longer sessions become difficult to review; break complex topics into multiple shorter sessions.
 
-## Code Examples: Async Code Pairing Workflow
+### Step 3: Code Examples: Async Code Pairing Workflow
 
 Here's how to structure an async code pairing workflow using common tools:
 
@@ -635,7 +645,7 @@ const asyncCodePairingWorkflow = {
 
 ```yaml
 # GitHub PR description template
-## Async Code Pairing Session
+### Step 4: Async Code Pairing Session
 
 **Goal:** Implement user session refresh token handling
 
@@ -660,7 +670,7 @@ const asyncCodePairingWorkflow = {
 - `tests/auth/token-service.test.ts`
 ```
 
-## Tools for Async Collaboration
+### Step 5: Tools for Async Collaboration
 
 Beyond recording, several tools enhance the async code pairing workflow:
 
@@ -679,7 +689,7 @@ Link recordings in:
 - Onboarding documentation for team processes
 - Ticket comments for complex implementations
 
-## Common Challenges and Solutions
+### Step 6: Common Challenges and Solutions
 
 ### Challenge: Recordings Feel One-Way
 
@@ -697,7 +707,7 @@ Solution: Maintain a central index of async code pairing recordings. Use consist
 
 Solution: Create a brief recording guide for your team. Share examples of effective sessions as models.
 
-## Measuring Async Code Pairing Success
+### Step 7: Measuring Async Code Pairing Success
 
 Track these metrics to improve your async collaboration:
 
@@ -718,6 +728,21 @@ Before your first async code pairing session:
 - [ ] Set up a channel or folder for sharing recordings
 - [ ] Share the workflow with your team
 - [ ] Schedule your first async code pairing session
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
