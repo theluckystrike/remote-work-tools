@@ -33,6 +33,15 @@ Implement zero-trust remote access by requiring multi-factor authentication for 
 
 This guide walks through implementing zero trust remote access for small engineering teams without enterprise budgets or complex infrastructure.
 
+## Key Takeaways
+
+- **The user experience improves**: because traffic doesn't hairpin through a corporate VPN server, and security improves because a compromised laptop doesn't grant access to your entire infrastructure.
+- **For small engineering teams**: you can combine these components using open-source tools or cloud services.
+- **Hardware keys (YubiKeys) provide**: the strongest protection, but authenticator apps work well for most teams.
+- **Small engineering teams can**: deploy practical zero trust using open-source tools like Pomerium, Teleport, and Tailscale.
+- **The key is starting**: with your most sensitive resources and iterating systematically.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Understanding Zero Trust for Engineering Teams
 
 Zero trust operates on three core principles: verify explicitly, use least privilege access, and assume breach. Every connection request gets authenticated and authorized based on identity, device health, location, and request context. For engineering teams accessing code repositories, internal tools, and cloud resources, this means granular access controls rather than broad network permissions.

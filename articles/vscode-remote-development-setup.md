@@ -33,6 +33,17 @@ VS Code's Remote Development extensions let you run your editor UI locally while
 
 This guide covers the SSH remote extension, dev containers, settings sync, and per-project configuration that makes remote development practical for teams.
 
+## Key Takeaways
+
+- **Step 3**: Add the host to `~/.ssh/config`. Use the format shown in the SSH Config section above.
+- **VS Code will install its server component on the remote machine**: this takes about 30 seconds the first time.
+- **Step 6**: Open your project folder. Use `File → Open Folder` and navigate to your project directory on the remote machine.
+- **Step 7**: Install project-recommended extensions. VS Code will prompt you to install the extensions listed in `.vscode/extensions.json`.
+- **Dev containers are better**: for reproducibility across teammates; Remote SSH is better when you need access to a specific persistent server with specific data or resources.
+- **The forwarded URL appears in the panel**: click to open in browser
+
+For persistent forwarding in `.devcontainer/devcontainer.json`, use `forwardPorts`.
+
 ## Install the Remote Development Extension Pack
 
 ```bash

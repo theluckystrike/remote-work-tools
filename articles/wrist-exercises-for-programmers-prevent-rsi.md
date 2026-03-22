@@ -33,6 +33,17 @@ Repetitive Strain Injury (RSI) is one of the most common occupational hazards fo
 
 This guide provides practical wrist exercises you can perform at your desk, ergonomic adjustments for your workspace, and code snippets to remind you to take breaks.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Increase break frequency and**: consider physical therapy." elif [ "$exercise_days" -lt 4 ]; then echo "📈 Inconsistent exercise routine.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Finger Spreads
+
+How to do it**: Spread your fingers wide apart, hold for 5 seconds, then make a tight fist.
+- **Hold for 15-20 seconds**: then switch arms.
+
 ## Understanding RSI in Programming
 
 RSI encompasses a range of conditions affecting muscles, tendons, and nerves—most commonly carpal tunnel syndrome and tendinitis. For programmers, the primary culprits are:

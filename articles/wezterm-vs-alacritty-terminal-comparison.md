@@ -27,7 +27,17 @@ score: 9
 intent-checked: true
 voice-checked: true---
 
+
 Choose Wezterm if you want built-in tabs, split panes, and Lua-powered configuration without relying on tmux. Choose Alacritty if raw performance and minimalism are your top priorities and you already use tmux for multiplexing. Both are GPU-accelerated Rust terminals, but Wezterm bundles more features while Alacritty stays deliberately lean -- this guide covers the practical tradeoffs across performance, configuration, and workflow integration.
+
+## Key Takeaways
+
+- **Use AI-generated tests as a starting point**: then add cases that cover your unique requirements and failure modes.
+- **Choose based on features**: and workflow integration, not benchmark numbers.
+- **Copy color scheme preferences**: from Alacritty YAML to Wezterm Lua config 3.
+- **Remove tmux configuration for**: tabs/splits (use Wezterm built-in instead) 4.
+- **Use a GPU-accelerated font**: renderer for smoother text 2.
+- **Use multiplexing (whether built-in**: or tmux) to organize workspaces 5.
 
 ## Understanding the Core Philosophies
 

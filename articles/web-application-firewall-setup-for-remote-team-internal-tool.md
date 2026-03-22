@@ -31,6 +31,15 @@ voice-checked: true---
 
 Protect internal tools used by remote teams with a WAF that blocks common attacks without requiring VPN, implements rate limiting to prevent brute force attempts, and logs all access for security audits. A WAF adds a protective layer between your app and the public internet.
 
+## Key Takeaways
+
+- **API endpoints that power**: internal dashboards frequently lack proper rate limiting, making them vulnerable to abuse.
+- **ModSecurity is a mature**: open-source WAF that integrates with Nginx, Apache, and IIS.
+- **However**: organizations with strict data residency requirements or those preferring self-hosted solutions can achieve comparable security with ModSecurity.
+- **This is the most**: secure approach but adds latency and requires VPN client management.
+- **Geo-restriction with anomaly scoring**: If your team operates within a few countries, use WAF geo-filtering to block traffic from unexpected regions.
+- **Common threats to internal**: tools include credential stuffing attacks, where attackers use leaked credentials to gain unauthorized access.
+
 ## Understanding the Threat Ecosystem for Internal Tools
 
 Internal tools face unique challenges that differ from public-facing applications. Remote workers access these tools from diverse locations, using various networks and devices. This expanded attack surface means traditional perimeter security often falls short.

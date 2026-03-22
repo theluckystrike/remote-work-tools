@@ -27,7 +27,18 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]---
 
+
 If your team's reaction to "virtual happy hour" involves eye rolls and silent prayers for a sudden calendar conflict, you're not alone. Many remote developers and technical teams have discovered that forcing social interaction through scheduled drinking sessions creates more awkwardness than connection. The good news: there are better ways to build team cohesion that don't feel like mandatory fun.
+
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Slack offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **You either exclude people**: or choose a time that's 2 AM for someone.
+- **Average attendance**: 60-70%.
+- **Example 6**: Open source contribution days (Engineering teams)
+Paid time to work on open source projects of your choice.
 
 ## Why Virtual Happy Hours Fail for Technical Teams
 

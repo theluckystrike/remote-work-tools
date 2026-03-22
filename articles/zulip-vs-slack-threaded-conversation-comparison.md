@@ -27,7 +27,17 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison]---
 
+
 Choose Zulip if your team needs persistent, organized conversation archives with topic-based threading and unlimited free-tier message history. Choose Slack if your team prioritizes real-time chat flow, extensive third-party integrations, and ephemeral discussions over long-term archival. This comparison breaks down how each platform's threading model affects context retention, notifications, search, and API integration for developer teams.
+
+## Key Takeaways
+
+- **Choose Zulip if your team needs persistent**: organized conversation archives with topic-based threading and unlimited free-tier message history.
+- **For teams of 10 people on Slack Pro**: switching to Zulip free tier saves roughly $900 per year while gaining rather than losing functionality.
+- **Choose Slack if your**: team prioritizes real-time chat flow, extensive third-party integrations, and ephemeral discussions over long-term archival.
+- **Unlike Slack's free-form replies**: Zulip requires every message to belong to a topic—a named thread that persists indefinitely.
+- **The same team using**: Slack's free tier has 90 days of message history.
+- **The unlimited free tier**: makes it particularly attractive for nonprofits and small businesses.
 
 ## Why Threading Models Matter for Remote Teams
 
