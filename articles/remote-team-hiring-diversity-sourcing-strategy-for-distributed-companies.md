@@ -5,6 +5,19 @@
 
 
 
+
+
+<<<<<<< HEAD
+
+
+
+<<<<<<< HEAD
+=======
+>>>>>>> 10d8e417f (fix: final YAML/Liquid cleanup pass)
+
+
+
+
 layout: default
 title: "Diversity Sourcing Strategy for Remote Teams"
 description: "Building diverse remote teams requires more than good intentions—it demands systematic approaches to sourcing, evaluating, and welcoming talent across"
@@ -25,12 +38,20 @@ intent-checked: true
 
 
 
+
+
+
 <<<<<<< HEAD
+
 
 
 <<<<<<< HEAD
 =======
->>>>>>> d4fc9ccedd956730946d8ecd77b7c1fc784dac40
+>>>>>>> 10d8e417f (fix: final YAML/Liquid cleanup pass)
+
+
+
+
 
 
 layout: default

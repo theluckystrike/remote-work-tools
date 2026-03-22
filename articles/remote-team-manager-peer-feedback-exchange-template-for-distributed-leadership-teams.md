@@ -5,6 +5,19 @@
 
 
 
+
+
+<<<<<<< HEAD
+
+
+
+<<<<<<< HEAD
+=======
+>>>>>>> 10d8e417f (fix: final YAML/Liquid cleanup pass)
+
+
+
+
 layout: default
 title: "Remote Team Manager Peer Feedback Exchange Template"
 description: "A practical peer feedback exchange template designed for remote team managers leading distributed leadership teams. Includes JSON templates, async"
@@ -25,12 +38,20 @@ voice-checked: true
 
 
 
+
+
+
 <<<<<<< HEAD
+
 
 
 <<<<<<< HEAD
 =======
->>>>>>> d4fc9ccedd956730946d8ecd77b7c1fc784dac40
+>>>>>>> 10d8e417f (fix: final YAML/Liquid cleanup pass)
+
+
+
+
 
 
 layout: default

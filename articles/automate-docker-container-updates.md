@@ -18,6 +18,8 @@ tags: [remote-work-tools]
 
 Manually SSHing into servers to run `docker pull && docker restart` is a maintenance tax that compounds across a distributed team. Automating container updates with proper health checks and rollback paths means new images ship without anyone touching a terminal.
 
+For remote teams, manual update procedures are especially costly. An update that should take 5 minutes becomes a 30-minute coordination task when the engineer who owns the server is asleep and the engineer who needs the fix is wide awake. Automated updates with notifications solve the coordination problem: images deploy, Slack confirms, and no one needs to wake anyone up.
+
 ---
 
 ## Approach 1: Watchtower (Pull-Based Auto-Update)
@@ -78,6 +80,8 @@ labels:
   - "com.centurylinklabs.watchtower.enable=false"
 ```
 
+Watchtower's label-based opt-in (`WATCHTOWER_LABEL_ENABLE: "true"`) is important in mixed environments. Databases and stateful services should never auto-update without explicit human approval. Apply the enable label only to stateless application containers.
+
 ---
 
 ## Approach 2: Diun (Notification Only, Manual Pull)
@@ -109,6 +113,8 @@ services:
 ```
 
 Diun posts to Slack when `ghcr.io/yourorg/myapp:latest` gets a new digest. Your team can then decide when to pull.
+
+For regulated environments or services with strict change management requirements, Diun-plus-manual-approval is the correct model. The notification lands in `#infra-updates`, an engineer reviews the changelog and schedules the update during a maintenance window, and the actual deployment remains under explicit human control.
 
 ---
 
@@ -197,6 +203,8 @@ SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/HOOK
 0 2 * * * root /usr/local/bin/update-container.sh myapp /opt/myapp/docker-compose.yml >> /var/log/container-updates.log 2>&1
 ```
 
+The 2 AM UTC scheduling works well for teams with North America and Europe coverage — it's overnight for both regions. For teams with Asia-Pacific engineers who need updates during their workday, adjust to a time that avoids everyone's peak hours.
+
 ---
 
 ## Approach 4: GitHub Actions Webhook Trigger
@@ -230,6 +238,48 @@ jobs:
 
 ---
 
+## Healthcheck Configuration in Docker Images
+
+The shell script rollback approach depends on containers having a proper `HEALTHCHECK` in their Dockerfile. Without it, Docker always reports status as `none` and the script can't detect a failed update:
+
+```dockerfile
+FROM node:20-alpine
+
+WORKDIR /app
+COPY . .
+RUN npm ci --only=production
+
+# Application must respond 200 on /health within 5 seconds
+HEALTHCHECK --interval=10s --timeout=5s --start-period=30s --retries=3 \
+  CMD wget -qO- http://localhost:3000/health || exit 1
+
+EXPOSE 3000
+CMD ["node", "server.js"]
+```
+
+For Go services:
+
+```dockerfile
+FROM golang:1.22-alpine AS builder
+WORKDIR /app
+COPY . .
+RUN CGO_ENABLED=0 go build -o server ./cmd/server
+
+FROM alpine:3.19
+RUN apk add --no-cache curl
+COPY --from=builder /app/server /server
+
+HEALTHCHECK --interval=10s --timeout=3s --start-period=20s --retries=3 \
+  CMD curl -f http://localhost:8080/health || exit 1
+
+EXPOSE 8080
+CMD ["/server"]
+```
+
+The `--start-period` parameter is critical: it gives the container time to initialize before health checks begin counting failures. Set it to your typical startup time plus a safety margin. An app that takes 15 seconds to warm up should have `--start-period=30s` to avoid false rollbacks immediately after a good deployment.
+
+---
+
 ## Registry Authentication
 
 For private registries, configure Docker credential helpers before running any update tooling:
@@ -246,6 +296,15 @@ aws ecr get-login-password --region us-east-1 | \
 # The resulting ~/.docker/config.json is mounted into Watchtower
 ```
 
+For ECR specifically, credentials expire every 12 hours. Run the login command on a cron schedule before Watchtower's poll interval:
+
+```bash
+# /etc/cron.d/ecr-auth — refresh ECR credentials every 6 hours
+0 */6 * * * root aws ecr get-login-password --region us-east-1 | \
+  docker login --username AWS --password-stdin \
+  123456789.dkr.ecr.us-east-1.amazonaws.com >> /var/log/ecr-auth.log 2>&1
+```
+
 ---
 
 ## Keeping a Changelog of Updates
@@ -258,6 +317,34 @@ echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) | $SERVICE_NAME | $CURRENT_DIGEST -> $NEW_D
 # Query last 20 updates
 tail -20 /var/log/image-changelog.log
 ```
+
+Post the changelog to Slack weekly so the team has visibility into what changed without checking server logs manually:
+
+```bash
+#!/bin/bash
+# Weekly image update summary
+UPDATES=$(grep "$(date -d '7 days ago' +%Y-%m)" /var/log/image-changelog.log | tail -20)
+if [[ -n "$UPDATES" ]]; then
+  curl -s -X POST "$SLACK_WEBHOOK_URL" \
+    -H "Content-Type: application/json" \
+    -d "{\"text\": \"Weekly container update log:\n\`\`\`$UPDATES\`\`\`\"}"
+fi
+```
+
+---
+
+## Choosing the Right Approach
+
+Each approach in this guide has a different risk profile and automation level:
+
+| Approach | Automation Level | Human Approval | Best For |
+|----------|-----------------|----------------|----------|
+| Watchtower | Fully automatic | None | Staging environments, non-critical services |
+| Diun | Notification only | Required | Production, regulated services |
+| Shell script | Configurable (cron) | Optional | Teams wanting full control and custom logic |
+| CI/CD webhook | Triggered by code merge | Via PR process | Teams already using GitHub Actions or Drone |
+
+For most remote teams, a two-tier approach works well: Watchtower handles staging automatically so engineers always have a fresh environment to test against, while production uses the CI/CD webhook approach that requires a merge to `main` to trigger a deployment. This preserves the PR review process as the approval gate for production changes without adding a separate manual deployment step.
 
 ---
 
