@@ -16,6 +16,15 @@ tags: [remote-work-tools]---
 
 Hybrid workplaces require badge access systems that handle flexible schedules, multiple entry points, and distributed teams. Modern systems go beyond simple physical entry—they integrate with identity management, time tracking, and security automation. This guide covers technical implementation details for developers building or integrating badge access solutions in 2026.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Pricing runs around $10**: to $15 per door per month for cloud-managed plans.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+- **Most enterprise badge systems**: expose REST APIs for integration.
+- **Licensing costs more than**: most competitors, but the API coverage justifies the premium for teams building custom integrations.
+- **For most hybrid workplaces**: with fewer than 500 employees, Kisi or Avigilon Alta provide the best balance of features, API quality, and cost.
+
 ## Understanding Badge Access System Architecture
 
 A badge access system consists of three primary components: hardware readers, credential management, and backend integration. Hardware readers include NFC, RFID, and Bluetooth LE devices installed at doors, turnstiles, and secure areas. Credential management handles badge provisioning, revocation, and scheduling. Backend integration connects physical access events to broader workplace systems.

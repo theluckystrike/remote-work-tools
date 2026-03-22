@@ -25,9 +25,19 @@ intent-checked: true
 voice-checked: true
 score: 8---
 
+
 Engineering teams working across time zones cannot rely on synchronous meetings to make technical decisions. A proposal left pending until everyone is online means decisions blocked for days. GitHub Discussions solves this by giving engineering proposals a permanent, searchable home where reviewers engage on their own schedules and decisions are documented where the code lives.
 
 This guide walks through setting up a complete async engineering proposal process using GitHub Discussions — from repository configuration to automation and day-to-day workflow.
+
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does GitHub offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+- **A healthy process typically**: sees decisions within 7 days and participation from at least half the core team on significant proposals.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
 
 ## Why GitHub Discussions for Engineering Proposals
 

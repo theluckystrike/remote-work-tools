@@ -31,6 +31,20 @@ Capacity planning is one of the most challenging responsibilities for engineerin
 
 This guide walks you through implementing an async capacity planning process that reduces meeting fatigue, produces accurate forecasts, and keeps your team aligned without forcing everyone into yet another video call.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+- **Use a shared document**: or form rather than email so responses are centralized: ``` ## Sprint [N] Capacity Input Please complete by [DATE]: 1.
+- **Apply a ramp-up factor**: - Week 1: 25% capacity
+- Week 2: 50% capacity
+- Week 3: 75% capacity
+- Week 4+: 100% capacity
+
+Adjust these based on your onboarding complexity.
+- **Some teams find that**: 50% capacity for the first two sprints is more realistic.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## Why Async Capacity Planning Works Better for Remote Teams
 
 Synchronous capacity planning sessions create several problems for distributed teams. First, finding a time that works across multiple time zones often means someone joins at 7 AM or midnight—situations that inevitably lead to fatigue and rushed decisions. Second, verbal discussions happen once and disappear; there's no artifact to reference when questions arise later. Third, some team members contribute better in writing than in spoken conversations, and synchronous meetings inadvertently silence those voices.

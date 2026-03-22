@@ -29,6 +29,15 @@ tags: [remote-work-tools, comparison, remote-work]---
 
 Choosing between Basecamp and ClickUp for a 25-person remote creative agency requires understanding how each tool handles the unique challenges of creative workflows, client collaboration, and distributed team coordination. Both platforms serve the project management space but take fundamentally different approaches. This comparison breaks down the practical differences for power users and developers building integrations.
 
+## Key Takeaways
+
+- **This comparison breaks down**: the practical differences for power users and developers building integrations.
+- **You can configure custom statuses**: fields, views, automations, and integrations.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+- **If you work with**: sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
+- **ClickUp takes the opposite approach**: an almost overwhelming feature set with deep customization options.
+- **Basecamp works well when**: your team prefers minimal status management.
+
 ## Platform Philosophy
 
 Basecamp embraces simplicity through its "everything in one place" philosophy. The platform offers a fixed set of tools: to-do lists, schedules, documents, automatic check-ins, and message boards. There's minimal customization, which means less setup time but also less flexibility for complex workflows.

@@ -31,6 +31,15 @@ Idempotency is a fundamental concept in API design that ensures the same request
 
 This guide walks you through implementing idempotent APIs that gracefully handle retries while maintaining data integrity.
 
+## Key Takeaways
+
+- **The best strategy**: generate the key when the user initiates an action, not when the request is sent.
+- **Use appropriate TTL**: Store idempotency keys long enough to handle delayed retries (typically 24-48 hours for payments, shorter for other operations).
+- **Return proper status codes**: Use 201 for successful creation, 200 for successful updates, and return the original response for duplicates.
+- **Document idempotent endpoints**: Clearly indicate which endpoints support idempotency and how to use the idempotency key.
+- **Poorly generated keys cause**: either unintended duplicates (too short, possible collision) or unnecessary uniqueness (new key per retry, defeating the purpose).
+- **When implementing distributed systems**: network failures, timeouts, and client retries can cause the same operation to be processed accidentally multiple times.
+
 ## Understanding Idempotency
 
 An idempotent operation produces the same result regardless of how many times it's executed. GET, PUT, and DELETE requests should be idempotent by design. POST and PATCH requests are typically non-idempotent but can be made idempotent with proper implementation.

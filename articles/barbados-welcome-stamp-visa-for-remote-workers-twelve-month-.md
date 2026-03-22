@@ -15,6 +15,17 @@ voice-checked: true---
 
 The Barbados Welcome Stamp lets remote workers live and work for 12 months in Barbados while earning from overseas clients, with no local income tax, fiber-optic internet speeds up to 100 Mbps, and an entirely digital application process. The USD $50,000 annual income requirement is straightforward for most developers, and the USD $2,000 application fee buys you legal residency in a stable English-speaking Caribbean nation with reliable banking, healthcare, and coworking infrastructure.
 
+## Key Takeaways
+
+- **Step 3**: Pay application fee
+
+The application fee is USD $2,000 for individuals and $3,000 for families (spouse and dependent children).
+- **Public buses (public transport)**: are affordable at $2 USD per trip but operate on less predictable schedules.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Michael or Christ Church ranges from $1**:500-$2,500 USD monthly.
+- **Co-working spaces typically charge**: $200-$400 USD monthly for hot desks.
+- **Internet speeds**: Fiber connections commonly offer 100 Mbps symmetrical speeds for residential users.
+
 ## Program Overview and Eligibility
 
 The Barbados Welcome Stamp is a visa program that allows remote workers to live in Barbados for up to 12 months while continuing to work for employers or clients outside the country. The program is designed specifically for individuals who can perform their work remotely without being physically present in their employer's office.

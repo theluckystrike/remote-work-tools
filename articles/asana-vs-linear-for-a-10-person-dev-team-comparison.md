@@ -29,6 +29,15 @@ tags: [remote-work-tools, comparison]---
 
 Choose Linear if your 10-person dev team wants fast, keyboard-driven issue tracking with tight GitHub integration at $8/user/month. Choose Asana if you need custom approval workflows, portfolio-level visibility, or non-technical stakeholders accessing tasks -- though you will pay roughly $25/user/month for those features. Linear wins on developer experience and speed, while Asana wins on organizational flexibility across mixed work types.
 
+## Key Takeaways
+
+- **Choose Linear if your**: 10-person dev team wants fast, keyboard-driven issue tracking with tight GitHub integration at $8/user/month.
+- **Choose Asana if you**: need custom approval workflows, portfolio-level visibility, or non-technical stakeholders accessing tasks -- though you will pay roughly $25/user/month for those features.
+- **The Asana Connect framework handles authentication differently**: your app needs to request specific scopes, and users must authorize each integration.
+- **Linear keeps everything in**: a single stream, which some teams prefer and others find limiting.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+- **If you work with**: sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
+
 ## Task Management Philosophy
 
 Linear operates on a cycling metaphor—teams work in focused cycles (similar to sprints) with limited work-in-progress. This constraint-based approach works well for teams that want to reduce context switching. Each issue lives in a cycle, and when the cycle ends, unfinished work rolls forward or gets re-planned.

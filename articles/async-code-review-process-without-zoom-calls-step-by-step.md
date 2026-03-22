@@ -31,6 +31,15 @@ Code reviews are the backbone of software quality, but scheduling synchronous re
 
 An async code review process eliminates these problems by enabling thorough, written code reviews that work around everyone's schedule. This guide shows you how to implement this workflow step by step.
 
+## Key Takeaways
+
+- **For occasional use**: consider whether a free alternative covers enough of your needs.
+- **SQL Injection vulnerability in**: user query 2.
+- **Free and basic plans**: typically get community forum support and documentation.
+- **This hybrid approach combines**: the best of both worlds.
+- **Document what caused the**: blockage ``` This prevents the demoralization of PRs sitting for a week waiting for reviews.
+- **This matches the pattern**: we use in other parts of the codebase ``` This prevents every comment from feeling like a blocker.
+
 ## Setting Up Your Async Code Review Workflow
 
 The foundation of async code reviews is clear communication through structured pull request descriptions. Before requesting review, ensure your PR includes:

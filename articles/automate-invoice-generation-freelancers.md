@@ -31,6 +31,15 @@ Manual invoicing is a tax on your time. If you spend 15 minutes creating and sen
 
 This guide builds a practical invoice automation system using scripts: a CLI tool that generates numbered PDFs, sends them by email, and logs payment status in a CSV.
 
+## Key Takeaways
+
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+- **Automating invoice generation brings**: that to under 30 seconds per invoice.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **Discounts of 25-50% are**: common for qualifying organizations.
+- **Can I change plans**: later without losing my data? Most tools allow plan changes at any time.
+- **Your data and settings**: are preserved across plan changes in most cases, but verify this with the specific tool.
+
 ## The Stack
 
 - **invoice-cli** — Node.js CLI that generates PDF invoices from YAML data

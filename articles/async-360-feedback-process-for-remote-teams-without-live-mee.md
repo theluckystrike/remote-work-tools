@@ -18,6 +18,17 @@ Traditional 360-degree feedback requires everyone to gather in a room or hop on 
 
 This guide walks through implementing a complete async 360 feedback workflow that your team can run entirely through written responses and asynchronous tools.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+- **What one skill would**: most benefit from their attention? 6.
+- **Use this structure**: ```
+Opening (5 minutes):
+"I want to share feedback from your 360 review.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## Why Async 360 Feedback Works Better for Remote Teams
 
 Synchronous feedback sessions suffer from several problems in remote environments. Finding a single time slot that works for a team spread across multiple time zones often means someone joins at 7 AM or 10 PM. Video calls also pressure participants to respond quickly rather than think through their feedback carefully.

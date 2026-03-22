@@ -31,6 +31,13 @@ Daily standups were designed for co-located teams to quickly synchronize their w
 
 Using GitHub commit summaries as a standup alternative gives your team visibility into real progress without the time zone conflicts or meeting fatigue. This guide shows you how to implement this approach step by step.
 
+## Key Takeaways
+
+- **It sits between the**: two approaches but requires another SaaS account and costs $3–5 per user per month.
+- **Here are the team**: patterns where it delivers the most value.
+- **Use Slack's Block Kit**: Builder (api.slack.com/block-kit/building) to design rich message layouts.
+- **This guide covers why**: commit-based standups work, quick comparison, setting up the github actions workflow, with specific setup instructions
+
 ## Why Commit-Based Standups Work
 
 Traditional standups suffer from several problems that commit summaries solve:

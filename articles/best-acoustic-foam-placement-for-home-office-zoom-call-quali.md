@@ -29,6 +29,15 @@ tags: [remote-work-tools, best-of]---
 
 Place acoustic foam behind your microphone first, then at side wall reflection points, then on the ceiling above your seat, and finally behind your monitor. For most home offices, 6-10 panels of 2-inch foam (NRC 0.70+) across these four zones eliminates the echo and boxy quality that degrades Zoom call audio. This guide covers each placement zone with room geometry considerations, mounting approaches, and validation steps for developers working from home.
 
+## Key Takeaways
+
+- **Treating the most reflective**: 40-50% of surfaces (behind mic, side walls, ceiling) solves 80%+ of problems Myth: Thicker foam is always better - Partially true.
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **The goal is not**: to eliminate all reflections but to reduce the most problematic ones reaching your mic's pickup pattern.
+- **Hang and adjust angle**: as needed ### Acoustic Panel Frames (Professional, $40-80) Metal or plastic frames designed to hold foam panels provide cleaner aesthetics and easier repositioning.
+- **Buy one or two**: 2-inch foam panels ($15-30 total) and place them in the zones you're considering.
+- **A $20 test is**: far cheaper than buying $200 in foam that doesn't address your actual problem.
+
 ## How Acoustic Foam Works
 
 Acoustic foam absorbs sound energy through friction. When sound waves hit foam, they travel into the porous material and convert to trace heat. This process reduces reflected sound that would otherwise reach your microphone and create coloration in your voice. The foam does not block sound transmission through walls—neighbors will still hear you—but it controls what your microphone captures.
