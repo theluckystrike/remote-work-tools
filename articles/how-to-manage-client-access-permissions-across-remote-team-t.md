@@ -9,7 +9,7 @@ permalink: /how-to-manage-client-access-permissions-across-remote-team-t/
 categories: [guides]
 tags: [remote-work-tools, access-control, permissions, remote-work, security]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

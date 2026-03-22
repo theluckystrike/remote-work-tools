@@ -9,7 +9,7 @@ permalink: /how-to-handle-two-factor-authentication-apps-when-changing-s/
 categories: [guides]
 tags: [remote-work-tools, 2fa, security, remote-work, authentication, digital-nomad]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
