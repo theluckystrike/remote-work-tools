@@ -8,6 +8,7 @@ permalink: /best-wiki-tool-for-remote-team-with-version-history-and-appr/
 reviewed: true
 score: 8
 categories: [best-of]
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 {% raw %}
