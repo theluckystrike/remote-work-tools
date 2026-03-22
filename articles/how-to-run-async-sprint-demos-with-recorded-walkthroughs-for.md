@@ -9,7 +9,7 @@ permalink: /how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/
 categories: [guides]
 tags: [remote-work-tools, sprint-demos, async-communication, remote-work, stakeholders]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

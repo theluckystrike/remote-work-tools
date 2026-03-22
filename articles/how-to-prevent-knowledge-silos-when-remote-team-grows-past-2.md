@@ -11,7 +11,7 @@ tags: [remote-work-tools, knowledge-management, remote-teams, scaling-engineerin
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 
 {% raw %}

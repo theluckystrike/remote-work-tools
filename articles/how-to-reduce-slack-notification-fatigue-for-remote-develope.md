@@ -9,7 +9,7 @@ permalink: /how-to-reduce-slack-notification-fatigue-for-remote-develope/
 categories: [guides]
 tags: [remote-work-tools, slack, productivity, remote-work, notifications, focus-time, developer-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -152,7 +152,7 @@ tags: [remote-work-tools, async, book-club, remote-work, distributed-teams, engi
 intent-checked: true
 voice-checked: true
 reviewed: true
-score: 8
+score: 9
 ---
 
 

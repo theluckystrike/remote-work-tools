@@ -9,7 +9,7 @@ permalink: /how-to-prevent-laptop-overheating-during-long-video-call-ses/
 categories: [guides]
 tags: [remote-work-tools, performance, video-calls, hardware, remote-work, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
