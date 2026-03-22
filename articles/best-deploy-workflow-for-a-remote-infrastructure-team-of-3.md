@@ -10,7 +10,8 @@ tags: [remote-work-tools, devops, ci-cd, remote-work, infrastructure, best-of, w
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

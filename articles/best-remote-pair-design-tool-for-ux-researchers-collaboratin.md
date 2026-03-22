@@ -13,21 +13,6 @@ voice-checked: true
 categories: [guides]
 tags: [remote-work-tools, best-of, remote-work]
 ---
----
-layout: default
-title: "Best Remote Pair Design Tool for UX Researchers"
-description: "Remote UX researchers need tools that support real-time sticky note collaboration, card clustering, and async affinity mapping across time zones. Miro leads"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools"
-permalink: /best-remote-pair-design-tool-for-ux-researchers-collaboratin/
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-categories: [guides]
-tags: [remote-work-tools, best-of, remote-work]
----
 
 {% raw %}
 

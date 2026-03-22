@@ -11,7 +11,8 @@ score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
@@ -19,14 +20,6 @@ Track remote team hiring pipeline velocity by measuring time-to-first-contact, s
 
 
 Tracking hiring pipeline velocity becomes critical when your recruiting team spans multiple time zones. Unlike co-located teams, distributed recruiting teams face unique challenges: asynchronous communication, timezone gaps, and coordination overhead that can silently slow down hiring. This guide shows you how to measure, visualize, and improve pipeline velocity for remote hiring.
-
-## Key Takeaways
-
-- **Track the average scheduling**: delta: ``` Scheduling Delta = Interview Start Time - Candidate Preferred Time ``` If this number grows beyond 24 hours, your scheduling process needs adjustment.
-- **If your actual times**: exceed targets by more than 20%, investigate the bottleneck stage.
-- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
-- **Teams with engineering resources**: often prefer a lightweight Notion database + custom API pipeline, giving complete control over the metrics you surface.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## What Is Pipeline Velocity?
 
@@ -331,4 +324,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

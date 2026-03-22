@@ -21,13 +21,6 @@ This guide covers installation, configuration, alerting, and exposing Netdata se
 
 ---
 
-## Key Takeaways
-
-- **Netdata gives you per-second metrics across CPU, memory, disk, network, and hundreds of application plugins**: with zero configuration for most use cases.
-- **Topics covered**: install netdata, core configuration, configure health alerts
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-
 ## Install Netdata
 
 The quickest path on Debian/Ubuntu:

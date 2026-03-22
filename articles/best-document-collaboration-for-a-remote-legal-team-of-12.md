@@ -10,7 +10,8 @@ tags: [remote-work-tools, legal-tech, document-collaboration, remote-work, legal
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}

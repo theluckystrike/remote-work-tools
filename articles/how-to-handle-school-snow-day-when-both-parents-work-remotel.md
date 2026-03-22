@@ -11,20 +11,12 @@ tags: [remote-work-tools, remote-work, work-life-balance, productivity, parentin
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 When both parents work remotely and schools close, the solution is pre-planning: designate staggered work windows, prepare activity kits the night before, and use asynchronous communication to reduce meeting pressure on snow days. This guide provides specific scheduling templates, activity lists, and communication strategies that let dual-remote households maintain 70-80% productivity while keeping children engaged and supervised throughout the day.
-
-## Key Takeaways
-
-- **Set microphone sensitivity to**: 40% (prevents picking up kid sounds) 5.
-- **Use high-quality noise-canceling headphones**: (Sony WH-1000XM5 or Bose QC) 2.
-- **Speak closer to your**: microphone (reduces ambient pickup) 4.
-- **Most remote-first teams have**: normalized these interruptions, but explicit communication prevents misunderstandings.
-- **Rather than fighting it**: use educational content strategically.
-- **Is that prioritization okay**: with you? ``` ## Acoustic Setup for Video Calls During Snow Days When you absolutely must take video calls with kids home: Noise Isolation Technique: ``` 1.
 
 ## Prerequisites
 
@@ -202,7 +194,7 @@ If your region experiences 5-10 snow days annually, planning for this reduction 
 
 Calculate your realistic capacity before the snow hits:
 
-| Time Block | Parent A Activity | Parent B Activity | Notes |
+| Time Block | Parent An Activity | Parent B Activity | Notes |
 |-----------|-------------------|-------------------|-------|
 | 6:00-9:00 AM | Deep work hours | Breakfast + kids routine | 3 hours focus |
 | 9:00-12:00 PM | Kid supervision | Meetings + documentation | 3 hours focus |
@@ -390,4 +382,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

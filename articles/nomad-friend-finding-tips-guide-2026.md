@@ -11,21 +11,12 @@ tags: [remote-work-tools, digital-nomad, remote-work, nomad, friend-finding, tra
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
 Building meaningful connections as a digital nomad requires different strategies than traditional social networking. This guide provides practical approaches for developers and power users to find genuine friendships while working remotely.
-
-## Key Takeaways
-
-- **Choose your primary platform (Nomad List**: Meetup, or a city-specific Slack)
-2.
-- **Follow up with at**: least one person per event within 48 hours 4.
-- **"Let's hang out" has**: 20% response rate.
-- **"Interested in working from**: [café] Friday 2-5pm?" has 60% response rate.
-- **Meetup.com remains effective for**: finding tech meetups, language exchanges, and hobby groups in most major nomad destinations.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Why Nomad Friendship Differs From Regular Social Networking
 
@@ -355,4 +346,4 @@ Yes, the underlying concepts transfer to other stacks, though the specific imple
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
+{% endraw %}

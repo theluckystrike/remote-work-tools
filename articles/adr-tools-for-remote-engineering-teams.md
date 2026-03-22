@@ -10,20 +10,12 @@ tags: [remote-work-tools, adr, documentation, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Use Log4brains if you want ADRs stored directly in your codebase with a browsable web interface, Notion if your team already documents there and needs relational linking between decisions, or plain GitHub markdown files with a CI validation workflow if you want full control with zero extra tooling. Each approach supports async review across time zones, version-controlled decision history, and searchable architectural records. This guide walks through setup, configuration, and tradeoffs for each option.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **One limitation**: Log4brains focuses on viewing and creating ADRs.
-- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
-- **The best ADR tools**: for remote teams share several characteristics: they integrate with your existing workflow, support async review processes, and keep decisions discoverable over time.
-- **Teams commonly use either**: the repository wiki or dedicated markdown files in the docs folder.
 
 ## Why ADR Tools Matter for Distributed Teams
 

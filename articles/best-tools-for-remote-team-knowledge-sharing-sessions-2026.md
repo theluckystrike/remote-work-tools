@@ -18,15 +18,6 @@ tags: [remote-work-tools, knowledge-sharing, async-video, documentation]
 
 Loom dominates knowledge sharing for distributed teams due to superior search, instant transcription, and seamless sharing—$120/year for unlimited recording and searchable transcripts. Grain records meetings directly with auto-highlighted moments and speaker identification, costing $600/year for unlimited recordings. Scribe excels for process documentation with step-by-step screenshots and annotations, free tier includes 5 captures monthly. Tango generates interactive step-by-step guides from live actions without video recording. Choose Loom for broad knowledge capture and async learning, Grain for meeting analysis with automatic moment detection, Scribe for detailed process documentation, or Tango for interactive how-to guides. Most teams use a combination: Loom for general knowledge sessions, Scribe for repeatable processes, Tango for step-by-step guides, and Grain for strategic meetings requiring analysis.
 
-## Key Takeaways
-
-- **For small teams on tight budgets**: Use Loom's free tier for general recording plus Scribe's free tier for the 5 most critical processes.
-- **Pro costs $29/month (annually**: $290/year) for unlimited captures, custom branding, and Zapier integration.
-- **Add Scribe free tier**: (5 captures monthly) for the 3-4 most critical processes.
-- **This $410/year combination covers**: most distributed teams.
-- **For customer-facing organizations**: Use Tango Pro ($900/year) for interactive customer onboarding guides.
-- **Loom dominates knowledge sharing**: for distributed teams due to superior search, instant transcription, and seamless sharing—$120/year for unlimited recording and searchable transcripts.
-
 ## The Shift to Asynchronous Knowledge Transfer
 
 Remote teams eliminate synchronous training sessions. No one wants to schedule meetings across time zones for knowledge transfer that could be consumed asynchronously. The challenge: tools must make asynchronous content searchable, transcribed, and organized—not just recorded. A 45-minute recording with no transcript wastes hours when employees search for specific information buried in video.
@@ -154,7 +145,7 @@ Solution:
 - Use Loom for the monthly reconciliation meeting. Finance lead records walkthrough of monthly numbers. Auto-transcription lets colleagues search "headcount ratio" and jump to that discussion. Cost: $120/year for unlimited recording.
 - Use Scribe for the 3 repeatable processes (close, expenses, budget). Step-by-step guides let new accountants complete processes independently. Cost: $290/year for unlimited captures.
 - Use Grain to record quarterly close strategy meetings. Auto-highlighted moments capture decisions ("We'll accelerate audit timeline") with timestamps. Cost: $600/year.
-- Total: $1,010/year for comprehensive knowledge capture across meetings, processes, and analysis.
+- Total: $1,010/year for knowledge capture across meetings, processes, and analysis.
 
 Without these tools: quarterly training sessions across time zones, email chains explaining processes, repeated verbal walkthroughs for new hires, and lost insights from meetings. With them: asynchronous knowledge accessible, searchable, and formalized.
 
@@ -274,7 +265,7 @@ Subscribed to 4 knowledge tools and nobody knows if they're creating value. Meas
 
 For generalist remote teams: Start with Loom Pro ($120/year). Search transcripts handle 80% of async knowledge needs. Add Scribe Pro ($290/year) when you have 3+ repeatable processes. This $410/year combination covers most distributed teams.
 
-For meeting-heavy organizations: Add Grain ($600/year) for strategy meetings and decisions. Use Loom for general knowledge. Use Scribe for processes. Total: $1,010/year for comprehensive coverage.
+For meeting-heavy organizations: Add Grain ($600/year) for strategy meetings and decisions. Use Loom for general knowledge. Use Scribe for processes. Total: $1,010/year for coverage.
 
 For customer-facing organizations: Use Tango Pro ($900/year) for interactive customer onboarding guides. Combine with Loom for internal knowledge sharing. Total: $1,020/year.
 

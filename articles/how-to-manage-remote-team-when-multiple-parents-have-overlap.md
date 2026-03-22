@@ -11,36 +11,12 @@ score: 8
 voice-checked: true
 categories: [guides]
 intent-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "How to Manage Remote Team When Multiple Parents Have"
-description: "Practical strategies for managing remote teams when team members have children in different schools with overlapping holiday schedules. Includes"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-manage-remote-team-when-multiple-parents-have-overlap/
-reviewed: true
-score: 8
-voice-checked: true
-categories: [guides]
-intent-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Build a shared "School Breaks" calendar showing each parent's childcare gaps, then use a Python script to calculate realistic sprint capacity accounting for 50% productivity during break periods. Default to asynchronous standups and async check-ins during high-conflict weeks, document coverage requests explicitly in a dedicated Slack channel, and set expectations upfront that parents handle their own school schedule coordination—most parents will be satisfied knowing you understand the reality rather than expecting them to ignore school holidays for work.
-
-## Key Takeaways
-
-- **Build a shared "School**: Breaks" calendar showing each parent's childcare gaps, then use a Python script to calculate realistic sprint capacity accounting for 50% productivity during break periods.
-- **We're committing 60% of**: normal velocity and treating the remaining items as stretch goals." Stakeholders respect transparency.
-- **What they don't respect**: is a sprint that closes at 40% completion with no warning.
-- **If one person has covered 80% of requests**: they should get the first pass at high-visibility projects or flexible scheduling as a counterbalance.
-- Use this information to:
-
-1.
-- **Front-load critical work before**: known break periods 2.
 
 ## Prerequisites
 

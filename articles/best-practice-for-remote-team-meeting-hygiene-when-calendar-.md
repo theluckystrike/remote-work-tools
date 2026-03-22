@@ -10,7 +10,8 @@ tags: [remote-work-tools, remote-work, meeting-hygiene, calendar-management, tea
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

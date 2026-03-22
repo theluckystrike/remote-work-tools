@@ -11,45 +11,12 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "How to Manage Standups for a Remote QA Team of 7"
-description: "Practical strategies for running effective daily standups with a remote QA team of 7. Includes schedule templates, async alternatives, and automation tips"
-date: 2026-03-15
-last_modified_at: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /how-to-manage-standups-for-a-remote-qa-team-of-7/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 A 7-person remote QA team needs 10-15 minute standups that balance sync collaboration with async work across time zones, rotating meeting times quarterly. Split async standup posts in Slack with sync meetings only for blockers, pair testing coordination, or complex discussions. This guide covers standup formats, schedule templates, and async alternatives for remote QA coordination.
-
-## Key Takeaways
-
-- **Priority shifts or scope**: changes (5 min) ``` This focus prevents standup from becoming a status reporting session and ensures synchronous time addresses only what needs human discussion.
-- **Use a simple template:
-
-```
-Name**: [Name]
-Yesterday: [1-2 sentences]
-Today: [1-2 sentences]
-Blocker: [Yes/No + brief note if Yes]
-```
-
-This works well when your team documents work in tickets anyway.
-- **Tests pass 80% of the time**: fail 20% randomly.
-- **Move blockers to separate channel**: only discuss critical ones
-3.
-- **Blockers (5 min max)**: Critical issues only
-2.
-- **Follow-ups (2 min max)**: Decisions from yesterday's standup
 
 ## Prerequisites
 

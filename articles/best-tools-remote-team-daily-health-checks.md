@@ -26,21 +26,6 @@ A daily health check for remote teams isn't just asking "how is everyone?" — i
 | Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
 | 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
 
-## Key Takeaways
-
-- **Geekbot (Async Standup)
-
-Cost**: $2.50/user/month
-Best for: Replacing synchronous standups with async check-ins
-
-```
-Geekbot question template for daily health check:
-
-1.
-- +{pct_change:.0f}% above average.
-- **The best tools automate**: this and post results to Slack so the whole team starts from shared context.
-- **Topics covered**: the daily health check framework, 1. uptime kuma (service health), 2. geekbot (async standup)
-
 ## The Daily Health Check Framework
 
 ```

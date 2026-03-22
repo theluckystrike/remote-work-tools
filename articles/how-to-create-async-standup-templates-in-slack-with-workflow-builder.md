@@ -11,38 +11,14 @@ tags: [remote-work-tools, slack, async-standup, workflow-builder, remote-work, p
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Create Async Standup Templates in Slack"
-description: "Slack Workflow Builder provides a powerful no-code solution for automating asynchronous standups. Rather than relying on live meetings or manual Slack"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /how-to-create-async-standup-templates-in-slack-with-workflow-builder/
-categories: [guides]
-tags: [remote-work-tools, slack, async-standup, workflow-builder, remote-work, productivity, workflow]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Slack Workflow Builder provides a powerful no-code solution for automating asynchronous standups. Rather than relying on live meetings or manual Slack messages, you can create structured prompts that fire on schedules you define, collect responses in a consistent format, and aggregate results for team visibility.
 
 This guide walks through building a complete async standup system that your team can use regardless of time zone or work schedule.
-
-## Key Takeaways
-
-- **Many teams use 9 AM or 10 AM local time**: which allows team members in other time zones to respond before their day starts.
-- **What did you accomplish yesterday?**: Use a multi-line text field
-2.
-- **What will you work on today?**: Use a multi-line text field
-3.
-- **This guide walks through**: building a complete async standup system that your team can use regardless of time zone or work schedule.
-- **Name it something descriptive**: like "Daily Async Standup" or "Engineering Check-in." Choose a trigger type.
-- **For standups**: Scheduled works best—select days of the week and a time that gives everyone enough buffer before their workday begins.
 
 ## Why Use Slack Workflow Builder for Async Standups
 

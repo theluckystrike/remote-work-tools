@@ -11,39 +11,12 @@ tags: [remote-work-tools, communication, async-work, feedback, remote-work]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Give Constructive Feedback Asynchronously"
-description: "Master asynchronous feedback techniques for remote teams. Learn structured frameworks, tone indicators, and code examples that prevent tone"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-give-constructive-feedback-asynchronously-without-mis/
-categories: [guides]
-tags: [remote-work-tools, communication, async-work, feedback, remote-work]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Give async feedback without tone misunderstandings by using the SBI framework (Situation-Behavior-Impact), adding explicit tone indicators like /srs or /nm to your messages, and structuring every code review comment with Suggestion/Reason/Optionality fields. These three techniques make your intent visible so readers interpret your words as constructive rather than critical. Written feedback loses vocal cues, but consistent structure and explicit framing replace them reliably.
-
-## Key Takeaways
-
-- **Situation**: Over the last 4 weeks, pull requests on the user auth module have been merged with test coverage below our 80% standard.
-- **Specific Examples:
-- PR #2847**: 65% coverage
-- PR #2912: 58% coverage
-- PR #3001: 72% coverage
-
-Path Forward: I'd like to understand if there are blockers.
-- **This is a /j**: I definitely wrote worse code when I was new to the codebase.
-- **The pause gives you**: space to catch moments where your technical accuracy exceeded your communication kindness.
-- **Most teams see dramatic**: improvements in a month.
-- **Use this template: ```**: Peer Code Review Comment Observation: I noticed the database queries in user_service.py don't use parameterized queries.
 
 ## Why Written Feedback Loses Tone
 

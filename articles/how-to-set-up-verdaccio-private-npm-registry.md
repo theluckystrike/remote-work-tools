@@ -17,13 +17,6 @@ tags: [remote-work-tools]
 
 Verdaccio is a lightweight Node.js private npm registry that proxies the public npm registry and lets your team publish internal packages. It supports scoped packages, htpasswd auth, S3 storage, and all package managers (npm, yarn, pnpm, bun). This guide deploys it with Docker and configures team publishing workflows.
 
-## Key Takeaways
-
-- **It supports scoped packages**: htpasswd auth, S3 storage, and all package managers (npm, yarn, pnpm, bun).
-- **Topics covered**: docker deployment, verdaccio configuration, user management
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

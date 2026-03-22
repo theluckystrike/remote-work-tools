@@ -11,40 +11,13 @@ tags: [slack, slack-troubleshooting, slack-list-view, slack-preferences, slack-s
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Slack List View Sorting Not Saving Preference Fix 2026"
-description: "Fix Slack list view sorting not saving preferences. Step-by-step troubleshooting for remote workers and distributed teams using Slack in 2026."
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools"
-permalink: /slack-list-view-sorting-not-saving-preference-fix-2026/
-categories: [guides]
-tags: [slack, slack-troubleshooting, slack-list-view, slack-preferences, slack-sorting, remote-work-tools, distributed-teams, troubleshooting]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true---
 {% raw %}
 
 # Slack List View Sorting Not Saving Preference Fix 2026
 
 If you've ever clicked on a Slack channel, sorted your messages by newest first, and then returned later only to find Slack reverted to its default sorting, you're not alone. This persistent issue affects remote workers and distributed teams who rely on consistent message organization across multiple devices and sessions. In this guide, we'll walk through practical solutions to fix Slack list view sorting not saving your preference.
-
-## Key Takeaways
-
-- **Navigate to the Slack data directory:
- - macOS**: `~/Library/Application Support/Slack/`
- - Windows: `%APPDATA%\Slack\`
- - Linux: `~/.config/Slack/`
-3.
-- **Tap "Update" if a**: new version is available ### Step 2: Clear Browser Cache and App Data (Desktop) Cached data corruption often causes preference reset issues.
-- **Press Windows+R and type**: %APPDATA%\Slack\
-3.
-- **Hard refresh the page**: (Ctrl+Shift+R or Cmd+Shift+R) ### Step 3: Check Your Workspace Permissions Sometimes workspace administrators impose settings that override individual preferences.
-- **Test whether sorting preferences**: save correctly 3.
-- **If you need consistent sorting across a team**: your best option is to establish sidebar section conventions and document them in your team handbook.
 
 ## Understanding the Slack Sorting Issue
 

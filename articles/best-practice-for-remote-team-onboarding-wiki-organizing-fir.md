@@ -10,7 +10,8 @@ tags: [remote-work-tools, remote-onboarding, team-wiki, remote-work, onboarding-
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

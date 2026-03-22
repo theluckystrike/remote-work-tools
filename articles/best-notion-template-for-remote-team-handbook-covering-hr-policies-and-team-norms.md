@@ -12,20 +12,6 @@ voice-checked: true
 categories: [guides]
 tags: [remote-work-tools, best-of, remote-work]
 ---
----
-layout: default
-title: "Best Notion Template for Remote Team Handbook"
-description: "The most effective remote team handbook template in Notion combines searchable HR policies, interactive team norms, and automated onboarding checklists in a"
-date: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-categories: [guides]
-tags: [remote-work-tools, best-of, remote-work]
----
 
 {% raw %}
 

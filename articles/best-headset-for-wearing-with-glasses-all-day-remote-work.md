@@ -10,7 +10,8 @@ tags: [remote-work-tools, headsets, remote-work, glasses, ergonomic, best-of]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

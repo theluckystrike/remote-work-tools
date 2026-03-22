@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 {% raw %}
 Managing sprints with a remote team requires rethinking every ceremony and assumption built around co-location. Stand-ups that take 10 minutes in person can consume an hour of async back-and-forth without the right structure. This guide covers practical techniques for sprint management across distributed teams—from async standups and capacity planning to blocker escalation and retrospectives that actually surface actionable improvements.
 
@@ -310,24 +311,6 @@ Remote sprint retrospectives fail when they become status meetings. Structure th
 
 Rotate retrospective facilitation and time zones. If your team spans three time zones, each retro should be hosted by someone from a different zone over the course of the sprint rotation.
 
-## Key Takeaways
-
-Managing sprints with remote teams succeeds when you:
-
-1. Replace synchronous ceremonies with async alternatives — Use GitHub Issues and Actions for standups and documentation-first planning.
-
-2. Account for communication overhead — Build 15-20% buffer into capacity calculations for async communication costs.
-
-3. Make blockers visible immediately — Automated escalation ensures no one waits days for unblocking.
-
-4. Track progress simply — Velocity projections based on percentage complete work better than burndown charts for distributed teams.
-
-5. Rotate facilitation — Ensure no single time zone owns the retrospective process.
-
-Start with async standups this week, add capacity planning next sprint, and iterate from there.
----
-
-
 ## Troubleshooting
 
 **Configuration changes not taking effect**
@@ -376,4 +359,5 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+```
+{% endraw %}

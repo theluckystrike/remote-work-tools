@@ -10,7 +10,8 @@ tags: [remote-work-tools, laptop-cooling, remote-work, tropical-climate, hardwar
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 

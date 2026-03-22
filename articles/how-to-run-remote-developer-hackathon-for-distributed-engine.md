@@ -11,22 +11,14 @@ tags: [remote-work-tools, remote-work, hackathons, distributed-teams, engineerin
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Remote hackathons have evolved significantly. What started as crude video call marathons with shared screens has transformed into well-orchestrated events that can match—or exceed—the productivity of in-person equivalents. Running a successful remote hackathon for distributed engineering teams requires attention to coordination, tooling, and most importantly, creating an environment where remote participants can collaborate effectively.
 
 This guide provides a practical framework for organizing and executing remote developer hackathons that deliver real value.
-
-## Key Takeaways
-
-- **Use WorldTimeBuddy or similar**: tools to find the best 4-6 hour window for synchronous collaboration.
-- **Use a simple voting**: system (emoji reactions work well) to prioritize team formation around popular ideas.
-- **Ask if they need**: help in #hackathon-help 2.
-- **Developers choose their track**: based on interest.
-- **Judging happens within tracks**: then a "best overall" winner is selected.
-- **This prevents "infrastructure projects**: never win because they're less visible" bias and lets developers work where they're excited.
 
 ## Prerequisites
 
@@ -539,4 +531,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

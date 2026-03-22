@@ -11,35 +11,12 @@ tags: [remote-work-tools, remote-work, agile, sprints]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Run Sprints with a Remote Team of 4 Engineers"
-description: "Learn practical strategies for running effective sprints with a remote team of 4 engineers. Includes async ceremonies, GitHub templates, capacity"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-run-sprints-with-a-remote-team-of-4-engineers/
-categories: [guides]
-tags: [remote-work-tools, remote-work, agile, sprints]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Running sprints with a remote team of 4 engineers requires different defaults than what most Agile frameworks assume. The ceremonies and artifacts designed for co-located teams of 8-12 add friction without delivering proportional value at smaller scales. This guide covers async-first sprint patterns, capacity planning for small teams, dependency management, and tooling choices that actually work when your four engineers are spread across time zones.
-
-## Key Takeaways
-
-- **Running sprints with a**: remote team of 4 engineers requires different defaults than what most Agile frameworks assume.
-- **Every hour spent in**: a poorly run ceremony affects 100% of your engineering capacity.
-- **Estimate together (30 min)**: Use Planning Poker or t-shirt sizes directly in the call
-3.
-- **Linear is the better**: default for small remote engineering teams: it's fast, opinionated, and has GitHub integration that keeps issues linked to PRs automatically.
-- **It has native sprint support**: good GitHub integration, and an UI that most engineers find less frustrating than Jira.
-- **With 4 engineers**: one person going on leave, dealing with a production incident, or getting pulled into an interview loop can shift your velocity by 25%.
 
 ## Why Small Remote Teams Need a Different Sprint Model
 

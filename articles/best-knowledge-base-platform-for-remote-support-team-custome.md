@@ -11,20 +11,12 @@ score: 8
 categories: [best-of]
 tags: [remote-work-tools, best-of, remote-work]
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Remote support teams face unique challenges when creating and maintaining customer-facing documentation. When your team is distributed across different time zones and working asynchronously, having the right knowledge base platform becomes critical for delivering consistent, high-quality support content to customers.
-
-## Key Takeaways
-
-- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
-- **The best platform ultimately**: depends on your specific team structure, content type, and integration requirements.
-- **If 20% of support**: tickets involve a specific edge case, document that edge case explicitly rather than relying on support to explain repeatedly.
-- **If 40% of customers speak Spanish**: Spanish documentation becomes essential.
-- **Remote teams should use**: asynchronous review workflows, using pull request-style approvals or dedicated review cycles that don't require simultaneous availability.
-- **Most platforms support custom**: metadata fields where you can record the owning team member, the product version the article applies to, and the scheduled review date.
 
 ## Why Knowledge Base Selection Matters for Remote Support
 

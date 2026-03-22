@@ -11,36 +11,12 @@ tags: [remote-work-tools, indonesia, second-home-visa, remote-work, digital-noma
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Indonesia Second Home Visa for Remote Workers"
-description: "A practical guide for developers and power users on Indonesia's Second Home Visa for remote workers. Complete application process, requirements, financial"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /indonesia-second-home-visa-for-remote-workers-application-an/
-categories: [guides]
-tags: [remote-work-tools, indonesia, second-home-visa, remote-work, digital-nomad, visa-guide, indonesian-visa]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Indonesia introduced the Second Home Visa (Visa Tinggal Terbatas dengan注 sponsor Tinggal Tetap) specifically to attract remote workers, digital nomads, and long-term visitors who want to live in Indonesia without requiring local employment. Unlike the B211A tourist/business visa that requires periodic extensions, the Second Home Visa offers validity for 5 to 10 years with multiple entry privileges. This guide covers the complete application process, financial requirements, document preparation, and practical tools for developers planning a move to Indonesia.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Financial proof**: Bank statements showing IDR 1.5 billion (approximately $93,000 USD) in savings, OR proof of monthly income equivalent to IDR 250 million ($15,500 USD)
-3.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Rental Agreement (most common)**: Month-to-month or long-term lease with your name and an Indonesian landlord signature
-2.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
 
 ## Eligibility Criteria for the Second Home Visa
 

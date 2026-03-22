@@ -11,37 +11,12 @@ tags: [remote-work-tools, home-office, soundproofing, remote-work, productivity]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Add Sound Dampening to Home Office Door Cheaply"
-description: "A practical guide for developers and power users to reduce noise transmission through office doors using affordable materials and smart techniques"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /how-to-add-sound-dampening-to-home-office-door-cheaply/
-categories: [guides]
-tags: [remote-work-tools, home-office, soundproofing, remote-work, productivity]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Whether you're on calls with clients, debugging code in deep focus mode, or participating in async video reviews, unwanted noise leaking through your office door disrupts productivity. Professional soundproofing can cost thousands, but developers and power users know that strategic, inexpensive interventions often work better than expensive solutions. This guide covers practical methods to dampen sound transmission through your home office door without breaking your budget.
-
-## Key Takeaways
-
-- **The first $30-40 in**: materials (weather stripping + door blanket) provides 80% of the benefit.
-- **Better than blankets because**: they're always perfectly positioned and easily removed when needed.
-- **A 4x8 foot sheet**: costs $40-60 and can be cut to size.
-- **Between layers**: Apply acoustic damping compound ($20-30 for a tube)
-
-The compound creates a "constrained layer damping" system that absorbs resonant frequencies that pass through simple mass barriers.
-- **This combination can achieve**: STC (Sound Transmission Class) ratings of 35-40, comparable to solid core doors costing $300+.
-- **Seal all gaps (weather stripping + door sweep)**: $15-25
-2.
 
 ## Prerequisites
 

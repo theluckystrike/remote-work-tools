@@ -11,7 +11,8 @@ score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
@@ -20,16 +21,6 @@ Run effective remote workshops in Miro by combining structured communication exe
 Running productive remote workshops presents unique challenges. Without the benefit of physical presence, facilitators must work harder to maintain engagement, ensure equal participation, and drive meaningful outcomes. Miro provides a powerful collaborative canvas, but the tool alone doesn't guarantee successful workshops. Combining Miro's features with structured communication exercises creates a framework that transforms async collaboration into focused,高效 sessions.
 
 This guide covers practical techniques for helping remote team workshops using Miro, with emphasis on structured communication exercises that developers and power users can implement immediately.
-
-## Key Takeaways
-
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Use dot voting for prioritizing features**: selecting approaches, or identifying the most important blockers.
-- **Does Miro offer a**: free tier? Most major tools offer some form of free tier or trial period.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Use the timer widget**: to enforce strict time limits per group.
-- **Action planning (10 min)**: Pick 1-2 experiments to try
-6.
 
 ## Prerequisites
 
@@ -327,4 +318,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

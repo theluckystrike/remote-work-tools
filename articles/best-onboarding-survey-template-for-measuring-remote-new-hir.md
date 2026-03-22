@@ -10,7 +10,8 @@ tags: [remote-work-tools, onboarding, remote-work, surveys, new-hire, hr, team-d
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

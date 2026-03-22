@@ -11,33 +11,12 @@ tags: [remote-work-tools, architecture-documentation, diagrams-as-code, remote-t
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Create Remote Team Architecture Documentation"
-description: "The best approach for remote teams is using Mermaid or PlantUML to store diagrams as text files in your repository, enabling Git-based collaboration and"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-create-remote-team-architecture-documentation-using-d/
-categories: [guides]
-tags: [remote-work-tools, architecture-documentation, diagrams-as-code, remote-teams, mermaid, plantuml, technical-writing, remote-work]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 The best approach for remote teams is using Mermaid or PlantUML to store diagrams as text files in your repository, enabling Git-based collaboration and eliminating merge conflicts that plague binary diagram tools. This guide shows you how to implement diagrams as code with practical examples, CI/CD integration strategies, and workflows that scale across time zones without requiring real-time synchronization.
-
-## Key Takeaways
-
-- **This broad platform support**: means your diagrams travel with your documentation regardless of where your team prefers to work.
-- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
-- **For most remote teams**: starting with Mermaid provides immediate value without additional tooling.
-- **Use consistent styling. Establish**: naming conventions, color schemes, and layout patterns.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Why Diagrams as Code for Remote Teams
 

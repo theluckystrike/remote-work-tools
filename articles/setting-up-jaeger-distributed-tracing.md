@@ -17,13 +17,6 @@ tags: [remote-work-tools]
 
 Distributed tracing shows you where time goes across service boundaries. Jaeger collects OpenTelemetry spans and lets your team trace a request from API gateway through microservices to database. This guide deploys Jaeger all-in-one for development and a production-ready setup with Elasticsearch for persistence.
 
-## Key Takeaways
-
-- **Topics covered**: development: jaeger all-in-one, production: docker compose with elasticsearch, instrumenting a python service
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-- **Trade-off analysis**: Strengths and limitations of each option discussed
-
 ## Development: Jaeger All-in-One
 
 ```bash

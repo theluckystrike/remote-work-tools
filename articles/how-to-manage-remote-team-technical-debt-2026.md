@@ -10,31 +10,10 @@ voice-checked: true
 intent-checked: true
 category: "Remote Teams"
 tags: ["Technical Debt", "Engineering Management", "Remote Teams", "Prioritization"]
-permalink: /how-to-manage-remote-team-technical-debt-2026/---
+permalink: /how-to-manage-remote-team-technical-debt-2026/
 ---
 
-
-title: "How to Manage Remote Team Technical Debt in 2026"
-description: "Tech debt tracking, prioritization frameworks, sprint allocation strategies, and tools for distributed engineering teams."
-author: "Remote Work Tools Guide"
-date: "2026-03-22"
-updated: "2026-03-22"
-reviewed: true
-score: 8
-voice-checked: true
-intent-checked: true
-category: "Remote Teams"
-tags: ["Technical Debt", "Engineering Management", "Remote Teams", "Prioritization"]
-permalink: /how-to-manage-remote-team-technical-debt-2026/---
-
 {% raw %}
-
-## Key Takeaways
-
-- **Target managed reduction (10%**: per quarter).
-- **Modernize payment service (supports**: new features) 3.
-- **Topics covered**: how to manage remote team technical debt in 2026, defining technical debt categories, tech debt tracking workflow
-- **Practical guidance included**: Step-by-step setup and configuration instructions
 
 ## Prerequisites
 

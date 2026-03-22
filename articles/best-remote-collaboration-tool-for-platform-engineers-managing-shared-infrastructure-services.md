@@ -11,32 +11,12 @@ tags: [remote-work-tools, platform-engineering, infrastructure, shared-services,
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "incident-response.sh - Simple incident escalation script"
-description: "A practical guide for platform engineers working remotely to manage shared infrastructure services. Compare tools, see code examples, and implement"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/
-categories: [guides]
-tags: [remote-work-tools, platform-engineering, infrastructure, shared-services, remote-work, collaboration, best-of]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Platform engineers managing shared infrastructure from a remote or distributed team need collaboration tools that handle both the async communication side and the technical coordination of shared services. The best setup combines an internal developer portal (IDP) for service discovery, structured incident response workflows, and documented runbooks that work across time zones. This guide covers practical tooling and patterns for each layer.
-
-## Key Takeaways
-
-- **Backstage is the most**: widely adopted open-source IDP.
-- **The best setup combines**: an internal developer portal (IDP) for service discovery, structured incident response workflows, and documented runbooks that work across time zones.
-- **How do you handle**: on-call handoff across time zones? Use a written handoff template posted in your incidents channel at the start of each shift.
-- **Should platform documentation live**: in Confluence or GitHub? Prefer GitHub when your team already reviews infrastructure changes there.
 
 ## Internal Developer Portals for Service Discovery
 

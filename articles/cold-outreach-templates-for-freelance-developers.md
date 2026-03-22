@@ -11,20 +11,12 @@ tags: [remote-work-tools, freelance, business-development, client-acquisition]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Cold outreach templates for freelance developers include mutual connection introductions, problem-specific emails, portfolio-based pitches, LinkedIn messages, and follow-up sequences. Each template follows a four-part framework: personalization, credibility, a clear value proposition, and a low-friction call to action. Below are ready-to-use scripts you can customize for your niche and start sending today.
-
-## Key Takeaways
-
-- **I'm a freelance [your specialty**: e.g., full-stack developer] who's helped teams like [Similar Company A] and [Similar Company B] [specific outcome, e.g., reduce their deployment time by 60%].
-- **Verify email works with**: free tools (use simple outreach first) ## Email Copy Testing Framework Not all cold outreach converts equally.
-- **Would you be open**: to a 10-minute call next week? Best, [Your Name] Why it works: The mutual connection provides social proof.
-- **Curious if this is**: on your radar for Q2? Cheers, [Your Name] Why it works: This positions you as a domain expert rather than a generic freelancer.
-- **A well-timed follow-up captures**: the 30-40% of leads who convert on subsequent touches.
-- **Small improvements compound—a 5%**: increase in response rate can double your client pipeline.
 
 ## The Anatomy of a High-Converting Cold Outreach Message
 
@@ -456,4 +448,4 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 - [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

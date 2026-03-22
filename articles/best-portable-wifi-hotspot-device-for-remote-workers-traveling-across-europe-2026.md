@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, wifi, europe, travel, connectivity, hardw
 score: 9
 voice-checked: true
 reviewed: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 

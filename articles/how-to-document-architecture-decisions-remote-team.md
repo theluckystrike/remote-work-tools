@@ -11,22 +11,12 @@ tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Document architecture decisions in your remote team using Architecture Decision Records (ADRs)--structured Markdown files stored in your codebase under `docs/adr/` that capture the context, decision, and consequences of each significant technical choice. Use a three-phase async workflow: one person drafts the ADR, the team reviews over 48-72 hours across time zones, then the status is finalized and the record is merged. This creates a searchable trail of reasoning that survives personnel changes and eliminates reliance on memory or Slack history.
-
-## Key Takeaways
-
-- **Use a three-phase async workflow**: one person drafts the ADR, the team reviews over 48-72 hours across time zones, then the status is finalized and the record is merged.
-- **Root cause**: database
-connection pool configured with max 10 connections, insufficient for
-concurrent request load.
-- **The entire team benefits**: from accumulated wisdom that would otherwise live only in people's heads—or worse, in Slack channels that disappear.
-- **What monitoring do we**: need? 3.
-- **Tag issues as RFCs**: use the issue template, and convert to ADR once accepted.
-- **Pick one approach and**: follow it.
 
 ## Prerequisites
 
@@ -289,4 +279,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

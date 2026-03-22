@@ -10,18 +10,12 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Mob programming — the whole team working on one thing together — sounds counterintuitive for remote teams, but it solves specific problems that async work can't: onboarding new engineers, tackling genuinely hard problems that need multiple perspectives simultaneously, and transferring knowledge across the team. Done well, a 90-minute remote mob session on a hard problem beats a week of back-and-forth async comments.
-
-## Key Takeaways
-
-- **Everyone else joins as**: read-only observers # 4.
-- **Live Share is a**: reasonable free alternative for occasional mob sessions.
-- **Topics covered**: the core structure, tool setup, tool comparison: live share vs tuple vs gitpod
-- **Practical guidance included**: Step-by-step setup and configuration instructions
 
 ## Prerequisites
 
@@ -308,4 +302,4 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

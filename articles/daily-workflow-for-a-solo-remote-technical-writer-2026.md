@@ -11,33 +11,12 @@ tags: [remote-work-tools, technical-writing, remote-work, productivity, workflow
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Daily Workflow for a Solo Remote Technical Writer 2026"
-description: "A practical daily workflow for solo remote technical writers in 2026. Includes time blocking, documentation pipelines, automation scripts, and tools"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /daily-workflow-for-a-solo-remote-technical-writer-2026/
-categories: [guides]
-tags: [remote-work-tools, technical-writing, remote-work, productivity, workflow]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Working as a solo remote technical writer means you juggle multiple documentation projects without a team to lean on. Your workflow directly impacts how much you accomplish and how well you maintain work-life boundaries when your home is also your office. This guide walks through a practical daily structure that scales with your workload and keeps momentum steady across weeks and months.
-
-## Key Takeaways
-
-- **For API documentation specifically**: follow this sequence: what the endpoint does, when you'd use it, what it requires, what it returns, what can go wrong, and a complete working example.
-- **This rhythm works because**: your mental energy naturally dips after lunch.
-- **Each week**: resolve at least one high-priority item before starting new content.
-- **This prevents your docs**: from becoming systematically outdated over time, which is the most common failure mode for solo writer documentation sets.
-- **Then classify each item**: as must-document (blocks user success), should-document (reduces support burden), or nice-to-document (completeness).
 
 ## Morning: Context Switching and Priority Setting
 

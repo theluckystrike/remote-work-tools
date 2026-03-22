@@ -10,7 +10,8 @@ tags: [remote-work-tools, invoicing, freelance, international, payments, finance
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 
 {% raw %}

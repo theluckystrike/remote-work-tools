@@ -11,32 +11,11 @@ score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "List all markdown files in your docs directory"
-description: "Learn how to establish clear documentation ownership in remote teams by assigning page maintainers, creating accountability, and improving content quality"
-date: 2026-03-15
-last_modified_at: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /how-to-set-up-documentation-ownership-model-for-remote-teams/
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-categories: [guides]
-tags: [remote-work-tools, remote-work]---
 
 
 The most effective documentation ownership model for remote teams assigns a primary maintainer to each page who reviews updates quarterly, updates metadata automatically, and serves as the async point of contact for related questions. This approach solves outdated content, prevents knowledge silos, and scales documentation responsibility across the entire team without overloading a few contributors. This guide walks you through implementing a documentation ownership model that works across time zones.
-
-## Key Takeaways
-
-- **Reassign primary ownership to**: the team member with the most domain context 3.
-- **When anyone can edit everything**: responsibility becomes diffuse.
-- **A well-designed ownership model**: solves three critical problems: 1.
-- **Use the same SQL query that surfaces stale content to surface orphaned sections**: any section whose primary owner no longer appears in your HR system is a documentation liability.
-- **The engineer who wrote**: the API may not be the best person to own the getting-started guide for it.
 
 ## Why Documentation Ownership Matters for Remote Teams
 

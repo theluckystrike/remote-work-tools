@@ -10,20 +10,11 @@ score: 9
 categories: [troubleshooting]
 tags: [remote-work-tools, troubleshooting]
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 Custom emoji bring personality and clarity to Slack conversations. When they stop uploading, it disrupts team communication and slows down workflows. This guide walks you through the most common causes of Slack custom emoji upload failures and provides practical solutions you can try right now.
-
-## Key Takeaways
-
-- **Free Slack plans have limited emoji slots**: while paid plans offer more flexibility.
-- **As of 2026**: free workspaces are capped at a total of 5 custom emoji.
-- **Remove unused ones to free up space**: especially on free plans with limited emoji slots.
-- **Free plans allow unlimited**: emoji uploads but display is limited.
-- **Is the uploaded emoji**: appearing in the picker?** - No: Wait 5 minutes for sync.
-- **Can others use your uploaded emoji?**
-- No**: Check workspace emoji limit.
 
 ## Common Error Messages and What They Mean
 

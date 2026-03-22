@@ -10,7 +10,8 @@ tags: [remote-work-tools, one-on-ones, remote-work, engineering-management, tool
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

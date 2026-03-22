@@ -11,7 +11,8 @@ tags: [remote-work-tools, standing-desk, home-office, ergonomics, remote-work, b
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}

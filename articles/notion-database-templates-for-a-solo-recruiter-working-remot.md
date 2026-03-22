@@ -11,20 +11,12 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
 Building a personal ATS (Applicant Tracking System) with Notion databases gives solo recruiters working remotely a powerful, customizable tool without enterprise software costs. Notion's relational database structure maps naturally to recruitment workflows, and this guide shows you how to construct templates that scale from 10 candidates to 200+ while maintaining data integrity and workflow clarity.
-
-## Key Takeaways
-
-- **Cost comparison**: Enterprise ATS tools (Workable, Greenhouse, Lever) cost $500-2000/month minimum.
-- **Notion costs $10/month for**: all unlimited databases.
-- **Use Zapier to maintain**: a read-only Notion copy as a backup view, but recognize that ATS tools provide better candidate management at scale.
-- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
-- **Use an ATS if**: you're recruiting at scale (50+ open positions) or need to coordinate with 20+ hiring managers across an organization.
-- **Integration with ATS**: If volume reaches 50+ active candidates, consider upgrading to a dedicated ATS like Workable or Greenhouse.
 
 ## Why Notion Works for Solo Recruiters
 
@@ -300,4 +292,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -11,37 +11,14 @@ intent-checked: true
 voice-checked: true
 reviewed: true
 score: 9
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Meeting Schedule Template for a 30 Person Remote Product Org"
-description: "A practical meeting schedule template designed for 30-person remote product organizations. Includes code snippets for automation and calendar management"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /meeting-schedule-template-for-a-30-person-remote-product-org/
-categories: [guides]
-intent-checked: true
-voice-checked: true
-reviewed: true
-score: 9
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Managing meetings across a 30-person remote product organization requires structure without becoming a meeting factory. The goal is maintaining alignment while preserving focus time—something that breaks down quickly when meetings pile up without intentional scheduling.
 
 This guide provides a tested meeting template framework with practical implementation details. The principles apply whether you use Google Calendar, Outlook, or other scheduling tools.
-
-## Key Takeaways
-
-- **Here's what works: Google**: Calendar with Admin Console: Free or $6-18/user/month via Google Workspace.
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Meeting-free days**: Aim for at least 2 half-days of no meetings per week
-3.
-- **Calendly**: $10-25/user/month.
-- **Outlook (Microsoft 365)**: $6-12.50/user/month.
-- **Notion Calendar + Coda**: $10-20/month for Notion Team plan.
 
 ## The Core Meeting Structure
 

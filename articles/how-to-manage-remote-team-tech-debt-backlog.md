@@ -10,21 +10,12 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Tech debt without a system becomes invisible until it causes an incident. For remote teams without hallway conversations, the invisibility problem is worse: engineers work around problems silently, never surfacing them to the people who could allocate time to fix them. This guide covers a practical async system for capturing, scoring, and allocating time to tech debt in a distributed team.
-
-## Key Takeaways
-
-- **Establish a policy: ```markdown**: ## Tech Debt Time Budget Policy Every sprint allocates 15% of engineering capacity to tech debt.
-- **For a team of**: 6 engineers × 80h sprint = 72h × 15% = ~10h/sprint.
-- **No more than 50%**: of debt budget on any single item 4.
-- **For remote teams without**: hallway conversations, the invisibility problem is worse: engineers work around problems silently, never surfacing them to the people who could allocate time to fix them.
-- **The result**: engineers work around problems individually without a shared picture of the worst offenders.
-- **Score 7.1**: [DEBT] Search uses full table scan (#412) — scoring complete, needs owner
-3.
 
 ## Prerequisites
 
@@ -296,4 +287,4 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -11,22 +11,14 @@ tags: [remote-work-tools, remote-work, brainstorming, async, chat, team-collabor
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Video meetings have become the default for remote collaboration, but they come with significant drawbacks. Camera fatigue, scheduling conflicts across time zones, and the pressure of immediate responses can stifle creativity. Text-based chat brainstorming offers a powerful alternative that actually leads to better ideas and more inclusive participation.
 
 This guide shows you how to run effective remote brainstorming sessions using chat tools, specifically tailored for developers and technical teams.
-
-## Key Takeaways
-
-- **Currently**: it takes 5 clicks and 12 seconds.
-- **🎯 GOAL**: Reduce to 2 clicks or less, under 4 seconds total.
-- **Current**: 5 clicks, 12 seconds.
-- **Goal**: 1 click, 2 seconds.
-- **Text-based chat brainstorming offers**: a powerful alternative that actually leads to better ideas and more inclusive participation.
-- **Participants can think deeply**: before responding, research asynchronously, and contribute when they have their best ideas—regardless of the time of day.
 
 ## Why Choose Chat Over Video for Brainstorming
 
@@ -370,4 +362,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

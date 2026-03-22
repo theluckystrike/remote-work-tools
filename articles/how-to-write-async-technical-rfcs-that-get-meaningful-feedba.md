@@ -11,34 +11,12 @@ tags: [remote-work-tools, rfc, async, technical-writing, remote-work]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Write Async Technical RFCs That Get Meaningful"
-description: "Learn practical techniques for writing async technical RFCs that generate meaningful feedback from distributed teams. Includes templates and examples"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-write-async-technical-rfcs-that-get-meaningful-feedba/
-categories: [guides]
-tags: [remote-work-tools, rfc, async, technical-writing, remote-work]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Structure your RFC with a 2-3 sentence summary, a concrete problem statement with real data, a detailed proposed solution with code examples, explicitly rejected alternatives, numbered open questions for reviewers, and a clear feedback deadline. Assign 2-3 specific reviewers by name with targeted questions for each, and frame your decisions as current thinking rather than final verdicts. This approach converts vague "looks good" responses into actionable technical feedback across time zones.
-
-## Key Takeaways
-
-- **Use these sections in**: order: ## Writing Techniques That Generate Better Feedback ### Use Concrete Examples Abstract proposals invite abstract responses.
-- **They might agree or disagree**: but they can't provide meaningful technical feedback because there's nothing specific to evaluate.
-- **Instead**: your RFC should frame every claim with evidence, every decision with context, and every recommendation with clear alternatives considered.
-- **Is the additional complexity**: worth it for our use case?" This invites reviewers to challenge your assumptions without feeling like they're rejecting your entire proposal.
-- **Use headers**: bullet points, and code blocks to create visual breaks.
-- **Use Slack's Block Kit**: Builder (api.slack.com/block-kit/building) to design rich message layouts.
 
 ## Prerequisites
 

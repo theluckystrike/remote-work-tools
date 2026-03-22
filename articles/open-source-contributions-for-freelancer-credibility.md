@@ -11,39 +11,14 @@ intent-checked: true
 voice-checked: true
 reviewed: true
 score: 9
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
 ---
-layout: default
-title: "Open Source Contributions for Freelancer Credibility"
-description: "Learn how strategic open source contributions build freelancer credibility. Practical strategies, GitHub workflows, and code examples for developers"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /open-source-contributions-for-freelancer-credibility/
-categories: [guides]
-intent-checked: true
-voice-checked: true
-reviewed: true
-score: 9
-tags: [remote-work-tools]---
 
 {% raw %}
 
 When potential clients evaluate freelancers, they face a fundamental problem: how to verify technical competence from a portfolio of potentially inflated claims. Open source contributions solve this problem by providing verifiable evidence of your skills. Unlike testimonials or portfolio pieces that exist behind NDA walls, your contributions to public repositories are inspectable, runnable, and judgeable by anyone with technical knowledge.
 
 This guide covers how to use open source contributions strategically to build credibility as a freelance developer.
-
-## Key Takeaways
-
-- **This guide covers how**: to use open source contributions strategically to build credibility as a freelance developer.
-- **Instead**: convert credibility to freelance revenue:
-
-### Direct Client Work
-Clients who use your open source tools often convert to consulting.
-- **Pick one tool you**: use and encounter a real problem with 2.
-- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
-- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
-- **Discounts of 25-50% are**: common for qualifying organizations.
 
 ## Why Open Source Matters for Freelance Work
 

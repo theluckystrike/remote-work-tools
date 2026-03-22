@@ -11,26 +11,12 @@ tags: [remote-work-tools, tools, best-of, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
 The average remote worker can deduct $1,200-3,600 annually in home office expenses. Yet 82% of remote workers don't claim any deductions. This guide covers what qualifies, how much you can deduct, calculation methods for each country, and tools to track expenses.
-
-## Key Takeaways
-
-- **Wealthsimple Tax - Free (easiest**: recommended)
-2.
-- **The average remote worker**: can deduct $1,200-3,600 annually in home office expenses.
-- **QuickBooks Self-Employed ($15/month) -**: Receipt scanning - Automatic categorization (AI-powered) - Mileage tracking - Estimated tax calculator 2.
-- **Wave Accounting (Free) -**: Receipt uploading - Expense categorization - Automated P&L - No subscription needed 3.
-- **FreshBooks ($8-30/month) - Expense**: tracking - Receipt digitization - Tax summary reports - Invoice creation (if client billing) 4.
-- **HMRC Home Office Tool (Free**: gov.uk)
- - Official calculator
- - Generates form entry
- - No sign-up required
-
-2.
 
 ## Prerequisites
 

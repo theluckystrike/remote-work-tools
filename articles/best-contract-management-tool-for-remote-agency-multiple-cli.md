@@ -10,7 +10,8 @@ tags: [remote-work-tools, contracts, remote-work, agency, client-management, too
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}

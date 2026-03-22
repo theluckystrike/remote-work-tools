@@ -11,24 +11,13 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 
 {% raw %}
 
 Structure your async all-hands around five consistent sections (company overview, department highlights, recognition, upcoming events, and Q&A), automate collection from department heads with a deadline-driven script, and distribute on the same weekday each month with a clear read-acknowledgment call-to-action. This format replaces the scheduling nightmare of synchronous all-hands for 100 employees while keeping engagement measurable through view counts, question volume, and acknowledgment rates. Below is the full step-by-step system including templates, automation code, and common pitfalls to avoid.
-
-## Key Takeaways
-
-- **Include specific asks**: "Engineering team: review the Q3 roadmap by Friday."
-
-Inconsistent timing — Erratic schedules cause people to stop checking.
-- **Name (optional**: for anonymity if preferred)
-2.
-- **At 100 employees**: you have limited attention budget—brevity signals respect for their time.
-- **Choose a consistent day**: each month.
-- **The asynchronous nature actually**: handles this better than synchronous meetings would—team members control when they consume information.
-- **Key question or clarification**: needed 4.
 
 ## Why Async All-Hands Works at Scale
 
@@ -305,4 +294,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

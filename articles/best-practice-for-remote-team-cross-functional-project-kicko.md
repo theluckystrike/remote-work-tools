@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, project-management, kickoff-meeting, cros
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

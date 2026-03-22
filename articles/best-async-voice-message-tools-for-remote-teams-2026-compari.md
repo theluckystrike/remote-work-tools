@@ -10,7 +10,8 @@ tags: [remote-work-tools, async-communication, remote-work, voice-tools, best-of
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 ## Frequently Asked Questions

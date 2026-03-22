@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]
 ---
----
-layout: default
-title: "Best LED Bias Lighting Strip Behind Monitor for Eye Strain"
-description: "Discover the best LED bias lighting strips to reduce eye strain during long hours of screen time. Learn about color temperature, brightness, smart"
-date: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /best-led-bias-lighting-strip-behind-monitor-for-eye-strain/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, best-of]
----
 
 {% raw %}
 

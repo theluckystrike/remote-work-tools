@@ -15,20 +15,6 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Async video messaging replaces endless Slack threads and meetings. Instead of writing 500-word explanations, you record a 2-minute video. Recipients watch when they have context. Here's what works.
 
-## Key Takeaways
-
-- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
-- **Across 12 engineering sync-ups/month**: 38 hours saved, $1,400+ value.
-- **Loom dominates the async**: video space because it's fast and integrates everywhere.
-- **Choose**: save locally, upload to Google Drive, or upload to YouTube
-
-Loom workflow:
-1.
-- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
-- **Loom (Best Overall)
-
-Ideal for**: Product teams, customer success, engineering walkthroughs.
-
 ## Why Async Video Matters
 
 Text explanations for complex processes:

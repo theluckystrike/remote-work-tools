@@ -10,7 +10,8 @@ tags: [remote-work-tools, portable-wifi, mobile-hotspot, remote-work, europe-tra
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

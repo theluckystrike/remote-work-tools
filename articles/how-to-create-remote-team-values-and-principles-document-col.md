@@ -11,20 +11,14 @@ tags: [remote-work-tools, remote-work, team-culture, collaboration]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Remote teams need explicit documentation of values and principles that guide behavior, decision-making, and collaboration. Without the organic interactions of a physical office, building this document through a collaborative process ensures buy-in from everyone and creates a foundation that actually reflects how the team operates.
 
 This guide walks through a practical workflow for creating remote team values using async-first processes, version control, and structured help techniques.
-
-## Key Takeaways
-
-- **Use sync time only**: for complex discussions.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
-- **Topics covered**: why collaborative creation matters, phase 1: gathering initial input, what behavior do you most appreciate from teammates?
-- **Practical guidance included**: Step-by-step setup and configuration instructions
 
 ## Why Collaborative Creation Matters
 

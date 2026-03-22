@@ -11,7 +11,8 @@ tags: [remote-work-tools, async-introductions, remote-onboarding, new-hire-intro
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

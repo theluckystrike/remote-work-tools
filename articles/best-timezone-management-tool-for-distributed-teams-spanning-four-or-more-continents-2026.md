@@ -11,7 +11,8 @@ tags: [remote-work-tools, timezone, distributed-teams, remote-work, productivity
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8---
+score: 8
+---
 
 {% raw %}
 

@@ -11,7 +11,8 @@ tags: [remote-work-tools, hardware, desk-accessories, best-of, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 

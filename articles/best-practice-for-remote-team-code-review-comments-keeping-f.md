@@ -11,7 +11,8 @@ tags: [remote-work-tools, code-review, remote-work, feedback, team-collaboration
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

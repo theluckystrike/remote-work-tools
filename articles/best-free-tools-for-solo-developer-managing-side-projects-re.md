@@ -10,7 +10,8 @@ tags: [remote-work-tools, tools, solo-developer, side-projects, remote-work, pro
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}

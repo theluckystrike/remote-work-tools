@@ -11,7 +11,8 @@ tags: [remote-work-tools, portfolio, freelance, developer, website-builder]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -106,15 +107,6 @@ Hugo's templating system uses Go's text/template package. Create a project list 
 </div>
 {{ end }}
 ```
-
-## Key Takeaways
-
-- **Aim for: - Largest**: Contentful Paint under 1.5 seconds - Zero layout shift (CLS score of 0) - Perfect accessibility score on Lighthouse Astro achieves these benchmarks with minimal configuration.
-- **For most freelance developers in 2026**: Astro with a markdown-based workflow provides the optimal balance.
-- **Clients evaluating remote freelancers**: pay close attention to your thinking process because they cannot observe you working directly.
-- **What domain should I**: use? Your name as a `.dev` or `.com` domain remains the clearest choice for freelancers.
-- **Use a Decap CMS**: or Sanity dashboard to add the project from any device, including mobile 3.
-- **Stale portfolios**: last updated 2022 — suggest a developer who is either too busy to maintain their own site or no longer actively freelancing.
 
 ## Headless CMS Options
 
@@ -367,4 +359,4 @@ Your name as a `.dev` or `.com` domain remains the clearest choice for freelance
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

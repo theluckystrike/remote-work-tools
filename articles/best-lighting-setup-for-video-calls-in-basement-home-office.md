@@ -10,7 +10,8 @@ tags: [remote-work-tools, lighting, video-calls, home-office, remote-work, best-
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

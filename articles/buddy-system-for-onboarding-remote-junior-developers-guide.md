@@ -11,21 +11,12 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
 A buddy system transforms remote onboarding from a solitary experience into a guided journey. When junior developers join a distributed team, they face a unique challenge: figuring out unwritten rules, discovering tools, and building relationships without the casual hallway conversations that office workers take for granted. A well-structured buddy system addresses these gaps by pairing new hires with experienced team members who serve as guides, advocates, and first points of contact.
-
-## Key Takeaways
-
-- **Monetary incentives**: For contractors or organizations with flexible budgets, offer an one-time bonus ($500-1000) upon successful completion of a buddy program with a new hire.
-- **This doesn't require being**: the most senior engineer—mid-level engineers often excel here.
-- **A mid-career engineer who**: joined 3 years ago often makes a better buddy than a 10-year veteran who's forgotten what confusion feels like.
-- **Week 1**: Intensive Orientation
-Daily check-ins, preferably 15-minute video calls at a consistent time.
-- **Treating buddies as free**: support. Recognize buddy contributions in performance reviews or team acknowledgments.
-- **This separation matters because**: it creates a safe space for questions that might feel inappropriate to ask a supervisor.
 
 ## Prerequisites
 
@@ -337,4 +328,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

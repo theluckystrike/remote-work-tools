@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
 ---
----
-layout: default
-title: "Best Notion Template for Remote Team Handbook Covering HR"
-description: "A remote team handbook serves as the single source of truth for how your distributed team operates. Notion provides the flexibility to build handbooks that"
-date: 2026-03-16
-author: theluckystrike
-permalink: /best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/
-reviewed: true
-score: 8
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]
----
 
 {% raw %}
 

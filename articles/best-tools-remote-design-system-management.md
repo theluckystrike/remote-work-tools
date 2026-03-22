@@ -26,13 +26,6 @@ A design system managed in isolation fails distributed teams. Remote designers a
 | Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
 | 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
 
-## Key Takeaways
-
-- **Topics covered**: the core problem for remote teams, 1. figma (design source of truth), 2. style dictionary (token pipeline)
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-- **Trade-off analysis**: Strengths and limitations of each option discussed
-
 ## The Core Problem for Remote Teams
 
 ```

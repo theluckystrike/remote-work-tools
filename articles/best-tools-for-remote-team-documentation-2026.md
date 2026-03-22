@@ -11,23 +11,14 @@ tags: [remote-work-tools, tools, best-of, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
 The average knowledge worker spends 19 minutes per day searching for information. Remote teams lose 2+ hours per week per person to scattered documentation. A good doc platform saves time, onboards faster, and prevents the "only Alice knows this" syndrome.
 
 This guide compares five platforms optimized for distributed teams, with pricing, search quality, and async-first features.
-
-## Key Takeaways
-
-- **Pricing**: Free (unlimited pages, shared hosting), $150-299/month (private docs, custom domain, analytics).
-- **Pricing**: Free (personal), $10/user/month (teams).
-- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
-- **Set page sharing (view-only for most**: edit for owners)
-5.
-- **Pricing**: $50/month (up to 10), $80/month (up to 250 people).
-- **Pricing**: $8/user/month (Starter), $16/user/month (Business).
 
 ## Quick Comparison Table
 

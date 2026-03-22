@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Remote Lightning Talks Effectively"
-description: "Structure, schedule, and facilitate remote lightning talks that keep presenters brief and audiences engaged across time zones with async follow-up"
+description: "Structure, schedule, and help remote lightning talks that keep presenters brief and audiences engaged across time zones with async follow-up"
 date: 2026-03-22
 author: theluckystrike
 permalink: /how-to-run-remote-lightning-talks-effectively/
@@ -17,15 +17,12 @@ tags: [remote-work-tools]
 
 Lightning talks are 5-minute presentations where a team member demos something, shares a finding, or teaches a concept. For remote teams, they're one of the best ways to transfer knowledge without long meetings. Done right, they fit in a 30-minute slot with 4-5 talks, recordings, and async Q&A. This guide covers the full workflow.
 
-## Key Takeaways
-
-- **Timer (visible to all)**: use a web timer shared via screen
-# https://www.bigtimer.net/?minutes=5  # Full-screen 5-minute timer
+# https://www.bigtimer.net/?minutes=5 # Full-screen 5-minute timer
 
 # 2.
 - **Wrap up in 10 seconds."
-  → Wait 10 seconds for speaker to land
-  → "Questions for Bob**: post in the Slack thread.
+ → Wait 10 seconds for speaker to land
+ → "Questions for Bob**: post in the Slack thread.
 - **Carlos**: Shell aliases I use daily [0:12]
 4.
 - **For remote teams**: they're one of the best ways to transfer knowledge without long meetings.
@@ -151,7 +148,7 @@ Zoom settings to configure before session:
    Submit your talk at [link]. Thanks everyone!"
 ```
 
-## Async Q&A in Slack
+## Async Q&An in Slack
 
 ```
 # In #lightning-talks after the session:

@@ -11,29 +11,12 @@ tags: [remote-work-tools, remote-work, team-agreement, async-communication, dist
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Remote team working agreements define response times, communication channels, meeting norms, and async-first expectations that prevent confusion and frustration. Clear agreements specify when Slack responses are required, whether meetings need videos, how to handle time zone overlaps, and escalation processes. This guide provides ready-to-customize templates and help steps for new distributed teams.
-
-## Key Takeaways
-
-- **The goal isn't voting**: on preferences but understanding different needs and finding overlaps that work for everyone.
-- **Outside core hours**: team members have flexibility to work when most productive.
-- **Decision Records**: All significant decisions require a brief RFC or decision log entry
-   - Template: [Context] → [Decision] → [Rationale] → [Alternatives Considered]
-
-2.
-- **Process Docs**: Any repeated workflow needs written documentation
-   - Update within 48 hours of process changes
-
-3.
-- **Code Documentation**: Public APIs and complex logic require inline comments
-   - README files for all repositories
-
-4.
-- **Start with the most**: contentious areas.
 
 ## Why Your Remote Team Needs a Working Agreement
 
@@ -299,4 +282,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

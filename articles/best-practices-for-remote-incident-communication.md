@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
 ---
----
-layout: default
-title: "Best Practices for Remote Incident Communication"
-description: "Learn practical strategies for communicating during incidents when working remotely. Includes status page templates, Slack workflows, escalation"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /best-practices-for-remote-incident-communication/
-reviewed: true
-score: 8
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]
----
 
 {% raw %}
 

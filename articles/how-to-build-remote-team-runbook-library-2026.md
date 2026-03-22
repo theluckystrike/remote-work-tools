@@ -8,26 +8,14 @@ score: 8
 voice-checked: true
 intent-checked: true
 tags: ["runbooks", "incident response", "remote work", "documentation", "on-call"]
-permalink: /how-to-build-remote-team-runbook-library-2026/---
+permalink: /how-to-build-remote-team-runbook-library-2026/
+---
 
 {% raw %}
 
 # How to Build a Remote Team Runbook Library 2026
 
 A runbook is the difference between a 2-minute incident response and a 2-hour chaos scramble. For remote teams, runbooks are even more critical—you can't tap someone's shoulder in person. This guide walks through building a runbook library from scratch, choosing the right tool, and integrating it with your incident response workflow.
-
-## Key Takeaways
-
-- **Page your manager if**: pool resets more than 2x in 24 hours (root cause needed) 9.
-- **Confirm pool usage back**: to <70% 8.
-- **Onboarding acceleration**: New engineers get up to speed 10x faster with written procedures.
-- **Start with 5-10 covering**: your most frequent incidents.
-- **Alert fires in PagerDuty**: API latency p99 > 500ms for 2 minutes
-2.
-- **Step 2
-
-Option B**: [Less common cause]
-  1.
 
 ## What Is a Runbook?
 
@@ -356,12 +344,12 @@ LINKS
 ## Remediation
 ```
 Option A: [Most common cause]
-  1. Step 1
-  2. Step 2
+ 1. Step 1
+ 2. Step 2
 
 Option B: [Less common cause]
-  1. Step 1
-  2. Step 2
+ 1. Step 1
+ 2. Step 2
 ```
 
 ## Testing (Practice in staging)
@@ -504,4 +492,4 @@ Compare to:
 5. [Monitoring and Alerting: When to Page On-Call](/articles/monitoring-alerting-oncall/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

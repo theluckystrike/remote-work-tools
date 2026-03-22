@@ -10,35 +10,14 @@ tags: [remote-work-tools, pair-programming, remote-work, async, github, develope
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Async Pair Programming Workflow Using Recorded Walkthroughs"
-description: "A guide to implementing async pair programming for distributed teams using screen recordings, GitHub, and collaborative workflows"
-date: 2026-03-18
-author: theluckystrike
-permalink: /async-pair-programming-workflow-using-recorded-walkthroughs-and-github/
-categories: [guides]
-tags: [remote-work-tools, pair-programming, remote-work, async, github, developer-tools, team-collaboration, workflow]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Pair programming has long been celebrated as a powerful technique for knowledge sharing, code quality improvement, and team cohesion. But for distributed teams spread across time zones, traditional synchronous pair programming sessions can feel impossible to schedule. Enter async pair programming—a methodology that captures the benefits of pairing while respecting everyone's timezone, focus time, and work style.
 
 This guide walks you through implementing an async pair programming workflow using screen recordings and GitHub that maintains the collaborative spirit of traditional pairing while eliminating the scheduling headaches.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Specific code sections**: Highlight the most important or complex parts of your implementation.
 
 ## Why Async Pair Programming Matters
 

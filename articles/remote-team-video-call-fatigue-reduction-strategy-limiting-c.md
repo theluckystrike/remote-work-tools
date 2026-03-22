@@ -11,20 +11,14 @@ reviewed: true
 score: 7
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
 Camera-on meetings have become the default for remote teams, but the constant visibility creates real cognitive load. Research shows that sustained video conferencing leads to "Zoom fatigue"—a phenomenon where the combination of self-view, close-up faces, and reduced mobility drains mental energy faster than in-person interactions. For development teams running multiple standups, code reviews, and planning sessions daily, this fatigue compounds.
 
 The solution is not eliminating video entirely, but implementing intentional camera-on requirements that balance connection with cognitive preservation. Here is how to structure those requirements for your remote team in 2026.
-
-## Key Takeaways
-
-- **What changes should we**: consider for next month? ``` Use this feedback loop to calibrate requirements.
-- **Here is how to**: structure those requirements for your remote team in 2026.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
-- **Topics covered**: understanding camera fatigue mechanics, establishing camera-on requirements by meeting type, standups (daily, 15 min)
 
 ## Understanding Camera Fatigue Mechanics
 
@@ -263,4 +257,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

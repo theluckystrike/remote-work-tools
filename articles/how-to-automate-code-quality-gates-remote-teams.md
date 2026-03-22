@@ -17,13 +17,6 @@ tags: [remote-work-tools]
 
 Remote teams can't rely on a team lead catching every style issue in review. Automated quality gates enforce standards consistently: lint, test coverage, security scanning, and complexity checks all block merges when they fail. This guide sets up a complete gate pipeline for GitHub teams.
 
-## Key Takeaways
-
-- **Consider splitting into smaller**: PRs." fi if [ "$TOTAL" -gt 1000 ]; then echo "::error::PR exceeds 1000 line changes.
-- **Topics covered**: layer 1: pre-commit hooks (local, fast), layer 2: sonarqube for code analysis, layer 3: github actions quality gate
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

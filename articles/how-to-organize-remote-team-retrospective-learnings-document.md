@@ -11,22 +11,14 @@ score: 8
 categories: [guides]
 tags: [remote-work-tools, remote-work]
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 # How to Organize Remote Team Retrospective Learnings Documentation
 
 Remote team retrospectives generate valuable insights that vanish without proper documentation. Teams invest significant time discussing what worked, what failed, and how to improve — only to lose that institutional knowledge when projects end or team members depart. This guide provides a systematic approach to organizing retrospective learnings so your team can reference past decisions, avoid repeated mistakes, and build on previous successes.
-
-## Key Takeaways
-
-- **Future deploys of changes**: touching the payments flow should use feature flags by default." Specific, contextual learnings age better than vague recommendations.
-- **Update status fields**: Track which recommendations were implemented
-4.
-- **Most retrospective templates focus**: on what went well or poorly, but the decisions made during or after the discussion are what actually produce change.
-- **If you use GitHub**: the built-in code search across your retrospective repository provides immediate value.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Why Structured Retrospective Documentation Matters
 
@@ -289,4 +281,4 @@ Yes, the underlying concepts transfer to other stacks, though the specific imple
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
+{% endraw %}

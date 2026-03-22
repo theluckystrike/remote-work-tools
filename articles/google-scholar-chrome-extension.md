@@ -11,21 +11,13 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 
 {% raw %}
 
 Build a Google Scholar Chrome extension by creating a Manifest V3 project with a content script that targets `https://scholar.google.com/*`, then use a MutationObserver to extract paper metadata (title, authors, citation count) from the `.gs_r` result containers after dynamic loading completes. This guide provides the complete implementation: manifest configuration, DOM selectors for Scholar's result structure, external API integration with Semantic Scholar, Chrome storage for user preferences, and distribution through the Chrome Web Store.
-
-## Key Takeaways
-
-- **You need a developer**: account ($5 one-time fee) and must comply with their policies.
-- **Use console.log statements freely**: in content scripts—they appear in the page's developer tools, not the extension's.
-- **Manifest V3 requires you**: to declare these scripts explicitly and handle the dynamic nature of the content.
-- **Rate limiting and authentication**: requirements vary.
-- **For background script debugging**: use the extension's own devtools panel.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Understanding the Google Scholar Interface
 
@@ -350,4 +342,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -10,7 +10,8 @@ tags: [remote-work-tools, documentation, gitbook, remote-work, internal-docs, be
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 ## Frequently Asked Questions

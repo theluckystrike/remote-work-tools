@@ -10,21 +10,12 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Sprint planning in remote teams fails when it tries to replicate in-person planning ceremonies over video. A 2-hour Zoom call with 8 engineers estimating stories one by one is exhausting and ineffective. Async-first sprint planning — with a short synchronous alignment call at the end — works better. This guide covers the tools and the workflow.
-
-## Key Takeaways
-
-- **Use labels for confidence**: "needs-discussion", "ready-to-ship"
-4.
-- **Bugs and operational tasks (security updates, dependency bumps) don't need estimation**: they go into a time budget (e.g., "10% of sprint capacity for ops").
-- **Review results**: if all votes within one Fibonacci value → use average
-   If wide spread → discussion comment required on the issue
-5.
-- **It should be "here's the sprint**: does anyone have objections or concerns?"
 
 ## Tool 1: Linear
 
@@ -404,4 +395,4 @@ If a blocking story slips, all dependent stories slip. Escalate blocking stories
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

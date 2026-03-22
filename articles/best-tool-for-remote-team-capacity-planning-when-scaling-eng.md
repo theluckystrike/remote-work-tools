@@ -11,7 +11,8 @@ tags: [remote-work-tools, capacity-planning, remote-teams, engineering-managemen
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

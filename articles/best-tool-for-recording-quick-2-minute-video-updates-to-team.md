@@ -11,7 +11,8 @@ tags: [remote-work-tools, video, async-communication, remote-work, tools, best-o
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

@@ -11,20 +11,12 @@ tags: [remote-work-tools, coworking, medellin, remote-work, colombia, video-call
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Medellín has become a premier destination for digital nomads and remote workers, offering a vibrant ecosystem of coworking spaces. For developers and power users who need reliable video call capabilities, finding spaces with dedicated video call booths can significantly improve your daily workflow. This guide provides practical strategies to locate the best coworking options in Medellín with video call facilities.
-
-## Key Takeaways
-
-- **Expect to pay between**: $150-300 USD monthly for hot desks.
-- **Prices typically range from**: $100-200 USD monthly.
-- **Start with El Poblado for the best selection**: use community groups for real-time advice, and always test the space before committing to a longer lease.
-- **Day pass**: $20-25, Monthly: $250-350.
-- **Premium pricing**: $35 day pass, $300-400 monthly.
-- **Best option if you**: have critical video calls daily.
 
 ## Why Video Call Booths Matter for Developers
 
@@ -337,4 +329,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

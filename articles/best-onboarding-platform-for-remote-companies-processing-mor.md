@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
 ---
----
-layout: default
-title: "Example: Trigger BambooHR onboarding workflow via API"
-description: "A technical comparison of onboarding platforms designed for high-volume remote hiring. Features, APIs, automation capabilities, and integration"
-date: 2026-03-16
-author: theluckystrike
-permalink: /best-onboarding-platform-for-remote-companies-processing-mor/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]
----
 
 {% raw %}
 Scaling remote onboarding beyond 20 new hires per month introduces operational challenges that basic checklists cannot solve. Manual processes break down when you're welcoming dozens of employees across multiple time zones, countries, and departments weekly. This guide examines onboarding platforms built for high-volume remote hiring, comparing their APIs, automation capabilities, and developer-friendly features.

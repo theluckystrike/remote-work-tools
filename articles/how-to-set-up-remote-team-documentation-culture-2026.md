@@ -10,26 +10,12 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, documentation, async-communication, knowledge-management, onboarding, team-processes, distributed-teams, documentation-tools]---
+tags: [remote-work-tools, documentation, async-communication, knowledge-management, onboarding, team-processes, distributed-teams, documentation-tools]
+---
 
 {% raw %}
 
 Remote teams without documentation default to synchronous communication. Someone asks a question on Slack, a colleague responds, the answer disappears in chat history. Six months later, a new hire asks the same question and gets a different answer. Documentation-first culture prevents this—decisions, processes, and knowledge live in searchable repositories, not ephemeral chat. This guide covers implementation, tools, templates, and the async decision-making patterns that make documentation sustainable.
-
-## Key Takeaways
-
-- **They fail in execution**: because: 1.
-- **REST v2 with OpenAPI—rejected**: because doesn't solve n+1 problem 2.
-- **gRPC—rejected because mobile clients**: don't use gRPC 3.
-- **Context Document (24 hours**: 3pm UTC)
-   - Problem statement
-   - Options with pros/cons
-   - Owner's recommendation
-   - Questions for feedback
-
-2.
-- **Architecture Decision Record (ADR)**: Use this for major technical decisions.
-- **Performance issues with n+1**: queries required query optimization.
 
 ## Why Documentation Failures Happen in Remote Teams
 
@@ -183,8 +169,8 @@ docker push 12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3
 ### 2. Update Kubernetes Deployment
 ```bash
 kubectl set image deployment/myservice \
-  myservice=12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3 \
-  -n production
+ myservice=12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3 \
+ -n production
 ```
 
 ### 3. Monitor Rollout
@@ -405,4 +391,4 @@ This makes help passive—docs surface when people naturally ask questions.
 - [Remote Team Decision-Making Frameworks](/remote-team-decision-making-frameworks-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -11,34 +11,12 @@ tags: [remote-work-tools, remote-work, timezone, meeting-scheduling, async, deve
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "How to Schedule Meetings Across 8 Hour Timezone Difference"
-description: "A practical guide for developers and power users managing team meetings across 8-hour timezone differences. Learn async strategies, overlapping hours"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-schedule-meetings-across-8-hour-timezone-difference-w/
-categories: [guides]
-tags: [remote-work-tools, remote-work, timezone, meeting-scheduling, async, developer-productivity, team-management]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 With an 8-hour timezone difference, find your 2-4 hour overlap window (typically early morning for the western team and evening for the eastern team) and use that for synchronous meetings, then rotate meeting times weekly to equitably distribute inconvenient times. For non-overlapping communication, establish asynchronous decision-making processes using RFC documents and async standups recorded as Loom videos, so teams in different time windows can participate and make progress without forcing anyone into extreme working hours.
-
-## Key Takeaways
-
-- **An 8-hour difference doesn't**: mean zero overlap—it means you need to find the hours that work for both groups.
-- **Critical decisions with time**: pressure 4.
-- **Onboarding new team members**: Everything else—status updates, code reviews, planning—works better async.
-- **Default async for everything**: except what truly requires sync 4.
-- **Planning for "least bad"**: time is more realistic than seeking perfect overlap.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Prerequisites
 

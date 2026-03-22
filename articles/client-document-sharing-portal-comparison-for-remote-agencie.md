@@ -11,34 +11,12 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Share with client"
-description: "A technical comparison of client document sharing portals for remote agencies. Features, API access, security, integrations, and implementation"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /client-document-sharing-portal-comparison-for-remote-agencie/
-categories: [comparisons]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Remote agencies face unique challenges when sharing client deliverables. Unlike in-house teams, you need portals that work across time zones, handle sensitive client data securely, and integrate with your existing development workflow. This comparison evaluates the leading solutions from a developer's perspective—focusing on API capabilities, authentication options, and automation potential.
-
-## Key Takeaways
-
-- **Cost**: Free for basic use; Google Workspace starts at $12/user/month.
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Unlike in-house teams**: you need portals that work across time zones, handle sensitive client data securely, and integrate with your existing development workflow.
-- **Cost**: Professional plans start at $15/user/month.
-- **Cost**: Business plans start at $25/user/month.
-- **Cost**: Microsoft 365 Business Basic ($12/user/month) includes SharePoint.
 
 ## Core Requirements for Remote Agency Document Portals
 

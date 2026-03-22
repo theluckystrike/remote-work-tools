@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
 ---
----
-layout: default
-title: "Best Practice for Remote Team Documentation Training"
-description: "A practical guide to training remote team members on wiki documentation systems, with examples and strategies for developer teams"
-date: 2026-03-16
-author: "Remote Work Tools Guide"
-permalink: /best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/
-reviewed: true
-score: 9
-categories: [guides]
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]
----
 
 Teach new hires to use your wiki by giving them a "Getting Started" page on day one covering naming conventions, section structure, and linking habits. Then assign them a hands-on practice task: find three specific answers in your wiki (e.g., "How do we deploy to staging?" or "Where are AWS credentials stored?"). Have them report back what they found and how long it took—this identifies navigation problems immediately. Finally, require them to contribute one new page or update two existing pages during their first sprint, which both embeds wiki habits and catches outdated content.
 

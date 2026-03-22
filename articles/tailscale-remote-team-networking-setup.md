@@ -11,36 +11,14 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Tailscale for Remote Team Networking Setup"
-description: "Set up Tailscale for remote team networking: install on all devices, configure ACLs, set up subnet routes and exit nodes, and replace your VPN with a mesh"
-date: 2026-03-21
-last_modified_at: 2026-03-21
-author: theluckystrike
-permalink: /tailscale-remote-team-networking-setup/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Tailscale turns every device your team uses into a node on a private network, without requiring a central VPN server, NAT traversal rules, or certificate management. Each device gets a stable IP in the `100.64.0.0/10` range, reachable from any other device on the tailnet regardless of what network either is on.
 
 For remote teams, Tailscale replaces the classic VPN setup with something that works in 10 minutes, handles firewall traversal automatically, and scales to hundreds of devices without extra configuration.
-
-## Key Takeaways
-
-- **At 10 engineers, that's $720/year**: well below the cost of a single on-call incident caused by a down VPN gateway.
-- **Use ephemeral keys for**: CI so runners automatically deregister after the job completes.
-- **Apply the `tag:ci` tag so ACLs grant CI runners access only to what they need**: staging servers but not production.
-- **If relayed**: the most common causes are symmetric NAT on both endpoints (common on mobile carriers and some corporate firewalls) or mismatched UDP port availability.
-- Use device posture checks.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Prerequisites
 

@@ -11,34 +11,12 @@ tags: [remote-work-tools, malaysia, digital-nomad, de-rantau, visa, remote-work,
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Malaysia Digital Nomad Pass De Rantau Application for Remote"
-description: "Malaysia Digital Nomad Pass DE Rantau Application for. — practical guide for remote teams and distributed workers with tools, tips, and workflows for 2026"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /malaysia-digital-nomad-pass-de-rantau-application-for-remote/
-categories: [guides]
-tags: [remote-work-tools, malaysia, digital-nomad, de-rantau, visa, remote-work, southeast-asia]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Malaysia introduced the DE Rantau Digital Nomad Pass in 2022 as part of its efforts to attract remote workers and strengthen its position as a hub for digital professionals in Southeast Asia. The program offers a long-term residency option for remote workers who want to live in Malaysia while continuing to work for employers or clients outside the country. This guide covers the application process with practical details for developers and tech workers planning to relocate in 2026.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **This income must come**: from remote work outside Malaysia, whether through employment with an overseas company, freelance client work, or business operations.
-- **Your passport must be**: valid for at least six months beyond your intended stay in Malaysia.
-- **Create an account on**: the portal (use your email, set strong password) 2.
-- **Income documentation unclear →**: Use clear invoices and statements; highlight deposits in bank statements 2.
 
 ## What is the DE Rantau Digital Nomad Pass?
 

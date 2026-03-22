@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, workload-management, distributed-teams, t
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

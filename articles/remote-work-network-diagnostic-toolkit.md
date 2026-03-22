@@ -17,13 +17,6 @@ tags: [remote-work-tools, remote-work]
 
 Network issues kill remote work productivity. When your video call drops or VPN slows to a crawl, you need tools to diagnose fast without calling IT. This guide covers the essential diagnostic toolkit: from simple ping checks to traffic analysis, covering macOS, Linux, and Windows.
 
-## Key Takeaways
-
-- **192.168.1.1 0.0% 20 1.2**: 0.9 2.1 0.3 ← router: fine 2.
-- **10.20.30.1 0.0% 20 8.4**: 7.1 12.0 1.1 ← ISP: fine 3.
-- **72.14.215.100 0.0% 20 10.2**: 9.8 11.0 0.3 ← ISP backbone: fine 4.
-- **??? 100% 20 0.0**: 0.0 0.0 0.0 ← filtered, normal 5.
-
 ## Baseline: Know Your Normal Numbers
 
 Run these on a good day and save the output for comparison:

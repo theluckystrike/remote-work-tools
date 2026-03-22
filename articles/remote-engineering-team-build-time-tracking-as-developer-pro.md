@@ -11,36 +11,14 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Get recent workflow run durations"
-description: "A technical guide for measuring and analyzing build times to identify developer productivity bottlenecks in remote engineering teams. Includes CI/CD"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /remote-engineering-team-build-time-tracking-as-developer-pro/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 Build times directly impact developer productivity. When a remote engineering team waits 30 minutes for a CI pipeline to complete, that's 30 minutes of lost focus, context switching, and frustrated developers. Tracking build times systematically helps identify bottlenecks, optimize workflows, and measure the real impact of tooling decisions on team velocity.
 
 This guide covers practical approaches to measuring, analyzing, and acting on build time data for distributed engineering teams.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Use tools like pytest-xdist**: for Python: ```bash # Run tests in 4 parallel processes pytest -n 4 ``` For JavaScript projects, jest supports parallel execution by default.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Configure maxWorkers: ```javascript //**: jest.config.js module.exports = { maxWorkers: "50%", // ...
-- **Setting a formal SLO—say**: 95% of builds complete within 8 minutes—creates a shared standard the team owns together.
-- **Parallelize test execution—can reduce**: test suite time by 60-80% 3.
 
 ## Why Build Time Tracking Matters for Remote Teams
 

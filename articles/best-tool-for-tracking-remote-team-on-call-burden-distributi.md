@@ -29,7 +29,8 @@ For teams already using GitHub, the fastest path to burden tracking is a shift r
 
 A practical template:
 
-```markdown---
+```markdown
+---
 name: On-Call Shift Report
 about: Document your on-call shift for burden tracking
 title: "[ON-CALL] [Engineer Name] - [Date Range]"

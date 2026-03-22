@@ -10,27 +10,12 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Async video is the primary communication format for serious remote teams. If your recordings sound tinny or your room echoes, colleagues watch at 1.5x speed with one eye on something else. This guide covers a practical recording setup for engineers who need to record demos, technical walkthroughs, and team updates — without building a professional studio.
-
-## Key Takeaways
-
-- **Camera ($80-200**: modest improvement over most laptop cameras)
-4.
-- **Lighting ($30-100**: the multiplier on camera quality)
-
-A $50 mic in a treated room sounds better than a $400 mic in an untreated one.
-- **Microphone ($50-150**: biggest quality jump per dollar)
-3.
-- **Bad lighting makes a**: $200 camera look like a $20 camera.
-- **The fastest improvement**: face a window
-
-Natural light from a window in front of you (not behind) is free and better than most ring lights.
-- **Room acoustics (free to cheap**: panels, position changes)
-2.
 
 ## Prerequisites
 
@@ -468,4 +453,4 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

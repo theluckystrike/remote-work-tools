@@ -10,7 +10,8 @@ tags: [remote-work-tools, audio, microphone, noise gate, remote work, parents, k
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

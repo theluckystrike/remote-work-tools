@@ -10,7 +10,8 @@ tags: [remote-work-tools, noise cancelling, remote work, bali, digital nomad, fo
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

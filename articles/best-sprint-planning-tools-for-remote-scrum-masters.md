@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
 ---
----
-layout: default
-title: "Best Sprint Planning Tools for Remote Scrum Masters"
-description: "Discover sprint planning tools that help remote Scrum Masters run effective ceremonies, estimate accurately, and keep distributed teams synchronized"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /best-sprint-planning-tools-for-remote-scrum-masters/
-categories: [best-of]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]
----
 
 {% raw %}
 

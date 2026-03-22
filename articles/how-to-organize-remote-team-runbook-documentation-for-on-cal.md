@@ -10,19 +10,12 @@ tags: [remote-work-tools, runbooks, on-call, incident-response, devops, document
 reviewed: true
 score: 8
 intent-checked: false
-voice-checked: false---
+voice-checked: false
+---
 
 {% raw %}
 
 When a production incident hits at 3 AM, on-call engineers need immediate answers. They do not have time to search through disorganized wikis, read through lengthy incident postmortems, or piece together clues from scattered Slack messages. Well-organized runbook documentation transforms incident response from a stressful scramble into a systematic process. This guide provides practical strategies for creating and maintaining runbook documentation that remote teams can actually use.
-
-## Key Takeaways
-
-- **When a production incident hits at 3 AM**: on-call engineers need immediate answers.
-- **This guide provides practical**: strategies for creating and maintaining runbook documentation that remote teams can actually use.
-- **Remote teams face unique**: challenges that make runbook organization even more critical.
-- **Connect to bastion and**: check active connections: ```bash psql -h prod-db.example.com -U readonly -c \ "SELECT count(*) FROM pg_stat_activity WHERE datname='main';" ``` 2.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Prerequisites
 
@@ -324,4 +317,4 @@ Yes, the underlying concepts transfer to other stacks, though the specific imple
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
+{% endraw %}

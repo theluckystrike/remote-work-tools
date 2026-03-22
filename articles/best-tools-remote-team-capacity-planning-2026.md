@@ -17,13 +17,6 @@ tags: [remote-work-tools]
 
 Capacity planning for remote teams is harder than in-office: you can't glance across the office to see who is overloaded. The tools that work surface workload data without requiring managers to chase status updates. This guide covers the best options by team type, plus the spreadsheet formulas and automations that tie them together.
 
-## Key Takeaways
-
-- **This guide covers the**: best options by team type, plus the spreadsheet formulas and automations that tie them together.
-- **Topics covered**: the capacity planning model, 1. linear (best for engineering teams), 2. notion capacity tracker
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-
 ## The Capacity Planning Model
 
 ```

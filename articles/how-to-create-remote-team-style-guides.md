@@ -10,19 +10,12 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Style guides solve a specific remote work problem: code review comments about formatting and naming conventions. In a co-located team, a junior engineer can sit next to a senior and absorb conventions through proximity. In a remote team, they discover them through review feedback at PR time — which is slow and demoralizing. A style guide with automated enforcement eliminates 80% of stylistic review comments, freeing code review time for actual logic.
-
-## Key Takeaways
-
-- **A style guide with**: automated enforcement eliminates 80% of stylistic review comments, freeing code review time for actual logic.
-- **PR description requirements**: template-enforced
-6.
-- **One approving review required**: (two for production-critical paths) 4.
-- **Topics covered**: what belongs in a style guide, code style: automate everything, naming conventions document
 
 ## Prerequisites
 
@@ -236,45 +229,6 @@ docs(api): document rate limiting headers in OpenAPI spec
 
 ```markdown
 <!-- .github/PULL_REQUEST_TEMPLATE.md -->
-## Summary
-<!-- What does this PR do? 2-3 sentences. Link to the issue or Jira ticket. -->
-
-Closes: #
-
-### Step 9: Type of change
-- [ ] Bug fix (non-breaking change that fixes an issue)
-- [ ] New feature (non-breaking change that adds functionality)
-- [ ] Breaking change (fix or feature that causes existing functionality to break)
-- [ ] Refactoring (no functional changes)
-- [ ] Infrastructure / CI change
-
-### Step 10: Test
-<!-- How was this tested? -->
-- [ ] Unit tests added/updated
-- [ ] Integration tests added/updated
-- [ ] Tested locally against staging data
-- [ ] Manual QA steps (describe below if applicable)
-
-### Step 11: Database changes
-- [ ] No database changes
-- [ ] Migration included — migration is backward compatible
-- [ ] Migration included — requires deployment coordination (explain below)
-
-### Step 12: Checklist
-- [ ] Code follows the team style guide
-- [ ] Self-review completed
-- [ ] Documentation updated (if applicable)
-- [ ] No secrets or credentials in code
-
-### Step 13: Notes for reviewers
-<!-- Anything specific you want reviewers to focus on? -->
-```
-
-### Step 14: Publish the Style Guide
-
-Store the style guide in your documentation repo (or in CONTRIBUTING.md in the main repo):
-
-```markdown
 # CONTRIBUTING.md structure
 
 ### Step 15: Quick Start
@@ -438,4 +392,4 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

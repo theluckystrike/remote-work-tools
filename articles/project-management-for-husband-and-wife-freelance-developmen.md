@@ -11,34 +11,12 @@ tags: [remote-work-tools, project-management, freelance, workflows]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Project Management for Husband and Wife Freelance"
-description: "Practical project management strategies for husband and wife freelance development teams. Learn workflow optimization, communication patterns, and tool"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /project-management-for-husband-and-wife-freelance-developmen/
-categories: [guides]
-tags: [remote-work-tools, project-management, freelance, workflows]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Running a freelance development business with your spouse combines the challenges of client work with the unique dynamics of a family partnership. The right project management approach can mean the difference between a smooth-running operation and one that bleeds into your personal life. This guide covers practical strategies for managing projects when you're both developers working from home.
-
-## Key Takeaways
-
-- **Running a freelance development**: business with your spouse combines the challenges of client work with the unique dynamics of a family partnership.
-- **Determine whether you charge**: clients per hour (typically $75-200 for development depending on specialization and location) or fixed-price projects.
-- **Fixed pricing rewards efficiency—if**: you complete a $5000 project in 100 hours instead of 150, you've effectively increased your hourly rate to $50/hour.
-- **Couples who work 24/7**: because "we're always nearby" suffer relationship erosion and business burnout simultaneously.
-- **Knowledge transfer**: Document each client's setup, preferences, and history so either partner can support in emergencies.
-- **Set aside 15-20% of**: revenue for business expenses and taxes, even if you're not yet a formal entity.
 
 ## Establishing Clear Work Boundaries
 

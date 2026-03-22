@@ -11,26 +11,14 @@ tags: [remote-work-tools, freelance, proposals, business]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Freelance proposals are your first real conversation with a potential client. Before you send code, before you hop on a call, the proposal decides whether you get a chance to prove your value. Most developers treat proposals as paperwork—a formality to endure before getting to the "real work." That mindset costs you clients.
 
 A winning proposal is not a generic pitch. It is a tailored solution to a specific problem, framed in a way that makes the client feel understood and confident in choosing you. This guide breaks down the anatomy of proposals that convert, with practical examples you can adapt immediately.
-
-## Key Takeaways
-
-- **Clients want to know three things**: Can you solve my problem? Can I trust you? Is the price reasonable?
-
-Here is the framework I use for technical freelance work:
-
-1.
-- **This structure appears in**: every successful freelance business because it mirrors how clients evaluate purchases.
-- **Would Thursday at 2pm**: EST work for you? ``` Or: ``` If this approach makes sense, I can send a contract today with a 50% deposit to reserve your slot in my schedule.
-- **Freelance proposals are your**: first real conversation with a potential client.
-- **Most developers treat proposals**: as paperwork—a formality to endure before getting to the "real work." That mindset costs you clients.
-- **This takes thirty seconds**: but transforms your email from "generic freelancer" to "someone who actually gets it." ``` Hi [Client Name], Thanks for reaching out about your e-commerce platform.
 
 ## Prerequisites
 
@@ -487,4 +475,4 @@ Protects you from unlimited revision cycles.
 - [How to Write Async Technical RFCs That Get Meaningful](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

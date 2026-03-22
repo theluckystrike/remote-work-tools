@@ -11,28 +11,12 @@ tags: [remote-work-tools, tools, remote-work, best-of]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
+---
 
 {% raw %}
 
 Built-in laptop cameras are blurry, have narrow angles, and perform poorly in low light. External webcams transform your video presence in meetings. This guide compares specific models under $100, covering resolution, low-light performance, autofocus speed, audio quality, field of view, and real-world video call performance across Zoom, Teams, and Google Meet.
-
-## Key Takeaways
-
-- **Best Option**: Elgato Facecam ($80-90)
-
-Why: 1440p @ 60fps, largest sensor, integrates with Stream Deck and Key Light.
-- **Verdict**: The best webcam under $100.
-- **Best Option**: Logitech C922 ($60-75)
-
-Why: Autofocus at 2-3 feet, good auto-white-balance with natural light, 78° FOV captures you and your monitor.
-- **Best Option**: Logitech Brio ($80-95)
-
-Why: 90° wider FOV, exceptional low-light performance via 1/3" sensor, auto light correction handles dark rooms.
-- **Best Option**: Anker C200 or Logitech C920
-
-Why: Anker C200 offers autofocus at $45-55.
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
 
 ## Why Upgrade Your Webcam
 
@@ -407,4 +391,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Remote Work Standing Desk Converter Under $200 2026](/remote-work-tools/best-remote-work-standing-desk-converter-under-200-dollars-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

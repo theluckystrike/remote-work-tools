@@ -10,27 +10,14 @@ tags: [remote-work-tools, remote-work]
 reviewed: true
 score: 6
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Grafana dashboards in co-located teams are glanced at on a monitor on the wall. Remote teams need dashboards designed for async consumption: clear annotations, shareable panels, and automated summaries that land in Slack without anyone having to remember to look. This guide covers the setup that makes Grafana useful for distributed teams.
 
-The difference between a useful remote dashboard and a useless one is not the metrics — it is the context. A panel showing "error rate: 0.3%" tells a co-located engineer something because they have been watching it all day. It tells a remote engineer nothing at 9am without a baseline, a threshold, and an indication of whether this is better or worse than yesterday.
-
-## Key Takeaways
-
-- **A panel showing "error rate**: 0.3%" tells a co-located engineer something because they have been watching it all day.
-- **For larger teams**: the Pro tier at $8/user/month adds unlimited retention and SSO.
-- **The free tier covers**: most small distributed engineering teams without any infra overhead.
-- **Engineers' dashboards can be dense**: on-call dashboards must be scannable in 5 seconds when someone is woken at 3am.
-- **It tells a remote**: engineer nothing at 9am without a baseline, a threshold, and an indication of whether this is better or worse than yesterday.
-- **Good panel structure:
-
-```json
-{
-  "title"**: "API Error Rate — 5m avg (alert at >1%)",
-  "description": "HTTP 5xx errors as % of total requests.
+The difference between a useful remote dashboard and an useless one is not the metrics — it is the context. A panel showing "error rate: 0.3%" tells a co-located engineer something because they have been watching it all day. It tells a remote engineer nothing at 9am without a baseline, a threshold, and an indication of whether this is better or worse than yesterday.
 
 ## Installation with Docker Compose
 
@@ -409,4 +396,4 @@ For most remote engineering teams self-hosting on Hetzner, DigitalOcean, or simi
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

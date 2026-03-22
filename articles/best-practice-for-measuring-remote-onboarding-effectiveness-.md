@@ -12,20 +12,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
 ---
----
-layout: default
-title: "Find the first commit by a specific author"
-description: "Measuring remote onboarding effectiveness requires metrics that actually tell you whether new developers are becoming productive members of your team. Time to"
-date: 2026-03-16
-author: theluckystrike
-permalink: /best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]
----
 
 {% raw %}
 Measuring remote onboarding effectiveness requires metrics that actually tell you whether new developers are becoming productive members of your team. Time to first commit (TTFC) stands out as one of the most actionable metrics—it measures the elapsed time from a developer's first day to their first merged pull request. This metric directly reflects how quickly a new hire can navigate your development environment, understand your codebase, and contribute meaningful work.

@@ -13,21 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]
 ---
----
-layout: default
-title: "Best Practice for Hybrid Office Kitchen and Shared Space"
-description: "A practical guide to establishing hybrid office kitchen and shared space etiquette. Includes signage templates, scheduling systems, and automation"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /best-practice-for-hybrid-office-kitchen-and-shared-space-eti/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, best-of]
----
 
 {% raw %}
 

@@ -11,37 +11,12 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, troubleshooting]---
+tags: [remote-work-tools, troubleshooting]
 ---
-layout: default
-title: "How to Fix Echo on Zoom Calls in Room with Hardwood Floors"
-description: "A technical guide for developers and power users to eliminate echo on Zoom calls in rooms with hardwood floors. Covers acoustic solutions, microphone"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, troubleshooting]---
 
 {% raw %}
 
 To fix echo on Zoom calls in a hardwood-floor room, start by reducing your microphone input gain to 70-80% and enabling Zoom's built-in echo suppression, then place an area rug in the primary sound reflection path between you and the floor. For persistent echo, position a directional (cardioid) microphone 6-12 inches from your mouth and add acoustic foam panels at the first reflection points on nearby walls. Most users resolve the issue by combining these software settings with basic acoustic treatment, without significant investment.
-
-## Key Takeaways
-
-- **A $500 microphone in**: a reflective room still sounds echoy.
-- **Configure Zoom to use**: VoiceMeeter Output as its input 3.
-- **Test with different video**: conferencing apps: - Some platforms have better echo cancellation than others - Try Google Meet or Microsoft Teams to see if the issue is Zoom-specific 3.
-- **Check speaker placement: -**: If your computer speakers are pointed at your microphone, they create feedback echo - Speakers should be behind or at least 3 feet away from the microphone 4.
-- **Reduce microphone input to**: 70% | 2.
-- **Use directional mic
-
-Symptom**: Persistent echo despite software fixes
-Solution: 1.
 
 ## Why Hardwood Floors Cause Echo
 

@@ -17,14 +17,6 @@ tags: [remote-work-tools]
 
 A communication SLA removes ambiguity about response expectations. Remote teams that operate across timezones need written agreements: which channel for what urgency, how long before you can expect a reply, and when escalation is appropriate. This guide provides templates and the tooling to enforce them.
 
-## Key Takeaways
-
-- **Escalation**: If no response in 2h, use @mention in relevant channel.
-- Use Slack for same-day needs.
-- **Write messages that don't**: require immediate response 2.
-- **Set explicit deadlines**: "Need this by Friday 5pm ET"
-4.
-
 ## Core Concepts
 
 A communication SLA defines:

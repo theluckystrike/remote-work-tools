@@ -11,7 +11,8 @@ tags: [remote-work-tools, project-management, hardware-engineering, remote-work,
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 ## Frequently Asked Questions

@@ -11,16 +11,13 @@ tags: [remote-work-tools, remote-work, ergonomics, health, developer-tools, lowe
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Lower back pain from prolonged coding requires ergonomic desk setup (monitor height, keyboard position), movement breaks every 30-60 minutes, and targeted strengthening exercises for core stability. Standing desks, lumbar support cushions, and automated movement reminders prevent pain before it develops. This guide covers ergonomic setup standards, exercises, and tools for remote developers.
 
-## Key Takeaways
-
-- **When you sit**: pressure on intervertebral discs increases by 40-90% compared to standing.
-- **Arch back up (cat)**: hold 3 seconds
 # 3.
 - **Drop belly down (cow)**: hold 3 seconds
 # 4.
@@ -419,4 +416,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Open Back Headphones for Remote Developers Review](/remote-work-tools/open-back-headphones-for-remote-developers-review/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -11,20 +11,14 @@ tags: [remote-work-tools, decision-log, documentation, remote-work, knowledge-ma
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Remote teams face a unique challenge: knowledge that would naturally transfer in office settings evaporates across time zones and chat channels. Someone makes a critical choice in a late-night PR review, and six months later, the reasoning disappears into Slack archives. Decision logs solve this by creating a searchable, version-controlled record of why choices were made.
 
 This guide covers practical approaches to building decision log documentation that works for distributed teams. You'll find templates, tooling recommendations, and workflows designed for async collaboration.
-
-## Key Takeaways
-
-- **You'll find templates**: tooling recommendations, and workflows designed for async collaboration.
-- **Use consistent terminology and**: key terms that team members would naturally search for.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
-- **Topics covered**: what belongs in a decision log, a practical decision log template, problem statement
 
 ## Prerequisites
 
@@ -312,4 +306,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

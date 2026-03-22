@@ -17,13 +17,6 @@ tags: [remote-work-tools]
 
 Outdated dependencies are a security liability and a technical debt accumulation point. Renovate automates dependency updates by opening PRs, grouping related updates, and auto-merging safe patches — so remote teams get current without drowning in manual update work.
 
-## Key Takeaways
-
-- **Topics covered**: installation options, option 1: github app (easiest), option 2: self-hosted with github actions
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-- **Trade-off analysis**: Strengths and limitations of each option discussed
-
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

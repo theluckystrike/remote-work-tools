@@ -11,34 +11,12 @@ tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true---
+intent-checked: true
 ---
-layout: default
-title: "Format: INV-2026-0001"
-description: "Open a Portuguese business bank account as a remote freelancer by registering as a trabalhador independente (sole trader) with your NIF, then presenting your"
-date: 2026-03-16
-last_modified_at: 2026-03-16
-author: theluckystrike
-permalink: /how-to-open-business-bank-account-as-remote-freelancer-livin/
-categories: [guides]
-tags: [remote-work-tools, tools, remote-work]
-reviewed: true
-score: 9
-voice-checked: true
-intent-checked: true---
 
 {% raw %}
 
 Open a Portuguese business bank account as a remote freelancer by registering as a trabalhador independente (sole trader) with your NIF, then presenting your passport, tax registration, and proof of residence to any Portuguese bank—the entire process takes 2-3 weeks and costs nothing for most banks. Whether operating as a sole trader or limited company, a dedicated business account separates personal from professional income and simplifies your annual tax filing. This guide walks you through the process with practical details for developers and tech professionals.
-
-## Key Takeaways
-
-- **Start with a digital**: bank like Bunq ($10/month, 1 hour setup) or Wise ($0 + 0.5% transfer fee) for quick setup and parallel operation with a traditional Portuguese bank.
-- **Use Portuguese invoicing software**: like Softland (€7-15/month), Ploomes (€35+/month), or free Invoicex to generate compliant invoices that integrate with your bank and auto-report to authorities.
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Sole trader is correct**: for 95% of freelancers starting out.
-- **Most remote freelancers in**: Portugal operate as trabalhadores independentes (sole traders), which is the simplest setup for individual contractors.
-- **Automate invoicing and payments**: using your bank's API (Millennium BCP, Novo Banco) or connect through Zapier ($20/month) for real-time expense tracking.
 
 ## Understanding Your Business Structure
 

@@ -19,15 +19,6 @@ Live retrospectives are often the hardest meeting to schedule well for distribut
 
 This guide covers the tools and process for async retrospectives that actually lead to team change.
 
-## Key Takeaways
-
-- **Pricing**: Free (unlimited for up to 2 users).
-- $6/user/month for teams.
-- $5/month per facilitator (unlimited boards).
-- **Pricing**: Free (3 boards).
-- **New Board → choose**: template (Start/Stop/Continue, 4Ls, Mad/Sad/Glad, etc.) 3.
-- **Async retrospectives solve the**: timezone problem but only work if you have a structure that surfaces real issues instead of producing a board full of "+1s" and no action.
-
 ## Why Async Retros Fail (and How to Prevent It)
 
 **They fail because:**

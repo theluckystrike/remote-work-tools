@@ -11,26 +11,13 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 
 {% raw %}
 
 Element is an open-source team messenger built on the Matrix protocol that gives development teams self-hosted, end-to-end encrypted communication with full Bot API access and bridging to Slack, IRC, and GitHub. It is the best option for teams that need complete control over data residency, custom bot workflows, and decentralized architecture without vendor lock-in. This guide covers setup, room management, bot integration, encryption considerations, and performance tuning for running Element Matrix as your team's primary communication platform.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **It is the best**: option for teams that need complete control over data residency, custom bot workflows, and decentralized architecture without vendor lock-in.
-- **For public channels or**: less sensitive communications, you may choose to disable encryption to allow bot integration.
-- **Slack's message history cutoff**: (3,000 messages on free plan) forces paid upgrades for growing teams.
-- **Access control
-   - Public rooms**: Open to discovery, useful for cross-company collab
-   - Private rooms: Invite-only, default for team channels
-   - Restricted: Internal company network only
-
-3.
 
 ## Why Developers Choose Matrix for Team Chat
 
@@ -449,4 +436,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

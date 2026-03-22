@@ -10,7 +10,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
@@ -18,29 +19,6 @@ A runbook is a document that an engineer unfamiliar with a system can follow to 
 
 Remote teams are especially dependent on good runbooks — there is no one to turn to in the next cubicle. This guide covers how to write runbooks that actually work.
 
-## Key Takeaways
-
-- **If your runbooks require**: institutional knowledge, slack messages to get context, or judgment calls that are not documented, they will fail exactly when you need them most.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
-- **Topics covered**: what a runbook is not, runbook structure, prerequisites
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-
-### Step 1: What a Runbook Is Not
-
-Before writing, clarify the distinction:
-
-- **Runbook**: step-by-step procedure for a specific operational task (deploy a hotfix, restart a service, rotate a certificate)
-- **Architecture doc**: how the system is designed
-- **Postmortem**: what went wrong and why
-- **Playbook**: collection of runbooks and decision guides for an incident type
-
-Runbooks are narrow and task-specific. "Deploy to production" is a runbook. "How our deployment architecture works" is not.
-
-### Step 2: Run book Structure
-
-Every runbook follows the same structure regardless of the task:
-
-```markdown
 # [Task Name]
 
 **Owner**: [team or person responsible for keeping this current]
@@ -322,4 +300,5 @@ Yes, the underlying concepts transfer to other stacks, though the specific imple
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
+```
+{% endraw %}

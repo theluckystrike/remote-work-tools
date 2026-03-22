@@ -10,18 +10,12 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Incident management for remote teams has different requirements than co-located ones. You can't shout across the office. Your on-call engineer might be in a different timezone. The post-mortem happens over two days of async Slack threads rather than a 30-minute meeting. The tool you choose needs to handle all of this without the benefit of physical proximity.
-
-## Key Takeaways
-
-- **Several practices reduce alert**: fatigue specifically for distributed on-call rotations: Alert deduplication: Most incident tools can suppress repeated alerts from the same root cause.
-- **The tool you choose**: needs to handle all of this without the benefit of physical proximity.
-- **The same alert at**: 2 AM should either wait until morning or escalate only if it crosses a higher severity threshold.
-- **Topics covered**: the core requirements, pagerduty, opsgenie (atlassian)
 
 ## The Core Requirements
 
@@ -195,22 +189,22 @@ Regardless of tool, store runbooks where they're accessible during an incident:
 
 1. Check if this is a deploy-related issue:
    ```
-   kubectl rollout history deployment/api-service -n production
+ kubectl rollout history deployment/api-service -n production
    ```
    If last deploy was within 30 minutes → rollback:
    ```
-   ./scripts/rollback.sh production
+ ./scripts/rollback.sh production
    ```
 
 2. Check error breakdown:
    ```
-   kubectl logs -l app=api-service -n production --tail=100 | grep ERROR
+ kubectl logs -l app=api-service -n production --tail=100 | grep ERROR
    ```
 
 3. Check downstream dependencies:
    ```
-   # In Grafana: open Platform Overview → Dependency Health panel
-   # Or: curl https://status.stripe.com/api/v2/status.json
+ # In Grafana: open Platform Overview → Dependency Health panel
+ # Or: curl https://status.stripe.com/api/v2/status.json
    ```
 
 ## If Error Rate Doesn't Improve After 10 Minutes
@@ -361,4 +355,4 @@ Define standard update intervals in your runbooks: every 15 minutes for active P
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

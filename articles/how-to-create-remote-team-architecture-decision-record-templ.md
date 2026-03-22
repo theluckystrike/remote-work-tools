@@ -11,23 +11,14 @@ tags: [remote-work-tools, architecture, adr, technical-decisions, remote-work, d
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 9---
+score: 9
+---
 
 {% raw %}
 
 Remote engineering teams face a unique challenge: capturing the reasoning behind technical decisions when team members span multiple time zones and communicate asynchronously. Without a structured approach, technical choices become tribal knowledge—understood by the person who made them but lost on everyone else. Architecture Decision Records (ADRs) solve this problem by providing a standardized format for documenting why decisions were made, what alternatives were considered, and what tradeoffs were accepted.
 
 This guide shows you how to create an effective ADR template specifically designed for remote team workflows, with practical examples you can adapt to your organization's needs.
-
-## Key Takeaways
-
-- **Session-based authentication - Rejected**: because our SPA architecture benefits from stateless tokens 2.
-- **Month 6**: A better caching library emerges.
-- **Two approvals required from**: non-authors 5.
-- **ADR merged to main**: documentation branch ``` This structure works because everyone knows exactly when to respond.
-- **Many teams use tooling**: like `adr-tools` or custom scripts to generate documentation sites from their ADR collection.
-- **Proposal (Day 1)**: Developer identifies need for a caching layer, posts draft ADR to Slack channel with `[ADR Draft]` prefix
-2.
 
 ## Why Remote Teams Need Structured ADR Templates
 
@@ -47,7 +38,8 @@ A practical ADR template for remote teams includes these sections:
 
 Here is a YAML-based template you can use directly:
 
-```yaml---
+```yaml
+---
 adr:
  id: 0015
  date: "2026-03-10"
@@ -351,4 +343,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -11,20 +11,12 @@ tags: [remote-work-tools, zoom, remote-work, video-conferencing, company-meeting
 reviewed: true
 score: 7
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Running a quarterly all-hands meeting with 200 participants requires different infrastructure and planning than your typical team standup. The technical setup, moderation strategy, and engagement mechanisms all need careful consideration. This guide walks you through a practical approach to executing large-scale quarterly meetings on Zoom.
-
-## Key Takeaways
-
-- **The standard Business or**: Enterprise plan supports up to 300 participants by default in some tiers, but reliably check your contract because limits vary.
-- **The Large Meeting add-on**: ($50/month as of 2026) expands any qualifying plan to 500 participants, giving headroom above your 200-person count.
-- **Assign a moderator whose**: only job is signaling presenters when they hit 30 seconds remaining.
-- **Run a Zoom connection**: test from the presenter's actual location (not the office, if they're remote) at least 48 hours in advance so bandwidth issues can be resolved.
-- **For a 200-person all-hands**: the Slido approach consistently produces better Q&A quality than open chat.
-- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
 
 ## Understanding Zoom's 200-Person Limits
 
@@ -331,4 +323,4 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 - [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

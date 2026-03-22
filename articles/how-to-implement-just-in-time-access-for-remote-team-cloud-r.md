@@ -11,22 +11,14 @@ tags: [remote-work-tools, cloud-security, just-in-time-access, iam, security, aw
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: false---
+voice-checked: false
+---
 
 {% raw %}
 
 Managing access to cloud resources for remote teams presents a unique security challenge. Team members need sufficient permissions to do their work, but standing privileges create persistent attack vectors. Just-in-time (JIT) access solves this problem by granting temporary credentials only when needed and automatically revoking them afterward.
 
 This guide walks you through implementing JIT access for remote teams across major cloud providers.
-
-## Key Takeaways
-
-- **The open-source tier handles**: most small team needs; the enterprise version adds hardware key enforcement and SAML integration.
-- **Teleport is the most**: widely adopted open-source JIT access platform.
-- **Just-in-time (JIT) access solves**: this problem by granting temporary credentials only when needed and automatically revoking them afterward.
-- **This approach dramatically reduces**: the blast radius of compromised credentials and helps organizations meet compliance requirements like SOC 2, ISO 27001, and PCI-DSS.
-- **Access Enforcement – Enforcement**: of time-limited access 5.
-- **The most common approach**: uses IAM roles with session policies and the AWS Security Token Service (STS).
 
 ## What is Just-in-Time Access?
 

@@ -11,20 +11,12 @@ score: 8
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools, productivity]---
+tags: [remote-work-tools, productivity]
+---
 
 {% raw %}
 
 A productive home office lighting setup uses three layers: ambient room illumination, a monitor-mounted light bar (300-500 lumens) for task lighting, and accent lighting behind your screen to reduce contrast strain. Set color temperature between 4000K-5500K during the day and shift to 2700K-3000K after sunset to support your circadian rhythm. This guide covers color temperature schedules, brightness guidelines by room type, three-point video call lighting, and smart automation integrations for developers.
-
-## Key Takeaways
-
-- **The best lighting setup**: is one you'll actually use consistently.
-- **The recommended brightness for**: task lighting at a desk ranges from 300 to 800 lumens, depending on ambient conditions.
-- **Usually 50-75% of key**: light brightness.
-- **Position your key light**: at 45 degrees to your face for the most flattering angle.
-- **If you must use overhead lighting**: install diffusers or switch to LED panels with soft-white bulbs.
-- **Set color temperature between**: 4000K-5500K during the day and shift to 2700K-3000K after sunset to support your circadian rhythm.
 
 ## Understanding Light Requirements for Coding
 
@@ -406,4 +398,4 @@ Result: Broadcast-quality lighting, full circadian automation, integrates with d
 - [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

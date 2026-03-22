@@ -11,7 +11,8 @@ tags: [remote-work-tools, proposals, web-development, remote-work, software, age
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 

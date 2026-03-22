@@ -31,7 +31,7 @@ This guide compares the best tools, focusing on real factors: psychological safe
 **Cost**: Free tier (3 projects), $12/month Standard, $120/month Enterprise
 **Best for**: Visual-first teams, multi-format retros (Start/Stop/Continue, Sailboat, Happy/Sad), distributed timezones
 
-Miro is a visual workspace. Retrospectives on Miro feel like physical board remixing: drag cards, build themes, vote in real-time. The interface is intuitive enough that facilitators spend less time explaining tooling and more time facilitating.
+Miro is a visual workspace. Retrospectives on Miro feel like physical board remixing: drag cards, build themes, vote in real-time. The interface is intuitive enough that facilitators spend less time explaining tooling and more time helping.
 
 **Real workflow**:
 1. Facilitator creates a "Start/Stop/Continue" template

@@ -18,15 +18,6 @@ tags: [remote-work-tools, on-call, incident-management, devops]
 
 PagerDuty ($1,499/month for small teams) is the industry standard with the best escalation logic and mobile app, justified for teams managing critical infrastructure. OpsGenie ($29/user/month, roughly $290-870/month for most teams) provides nearly equivalent features at half the cost with excellent Jira/Slack integration. Grafana OnCall (free/open-source to $60/month) excels for teams already using Grafana stack but lacks PagerDuty's enterprise escalation depth. Most remote teams should start with OpsGenie for cost-effective on-call management and escalation policies that reduce burnout. Implement a rotation schedule preventing any single person from being on-call more than once per month, use escalation policies timing at 15-30 minutes to ensure someone always responds, and measure on-call load monthly to catch burnout early.
 
-## Key Takeaways
-
-- **PagerDuty ($1,499/month for small**: teams) is the industry standard with the best escalation logic and mobile app, justified for teams managing critical infrastructure.
-- **OpsGenie ($29/user/month**: roughly $290-870/month for most teams) provides nearly equivalent features at half the cost with excellent Jira/Slack integration.
-- **Grafana OnCall (free/open-source to**: $60/month) excels for teams already using Grafana stack but lacks PagerDuty's enterprise escalation depth.
-- **Limitations**: PagerDuty costs $1,500+/month (expensive for smaller teams).
-- **Integration only works within**: Grafana ecosystem; if you use other monitoring tools (Datadog, New Relic), you need different routing.
-- **Invest in the tool**: that prevents a key engineer from leaving due to burnout (cost: $150k+ replacement) or a critical incident from going unresponded (cost: $millions in customer impact).
-
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -341,7 +332,7 @@ This structure ensures post-incident learning actually prevents recurrence. With
 
 ### Step 12: Making Your Choice
 
-Use OpsGenie for most teams. It costs half of PagerDuty, provides nearly equivalent functionality, and integrates seamlessly with Jira/Slack. The Jira integration justifies the choice alone if your team uses Jira.
+Use OpsGenie for most teams. It costs half of PagerDuty, provides nearly equivalent functionality, and integrates with Jira/Slack. The Jira integration justifies the choice alone if your team uses Jira.
 
 Use PagerDuty if you're a 50+ engineer organization where advanced escalation, business continuity, and compliance reporting justify the cost. For smaller teams, PagerDuty's complexity and cost exceed your needs.
 

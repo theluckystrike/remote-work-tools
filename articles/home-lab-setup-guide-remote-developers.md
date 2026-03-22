@@ -10,35 +10,14 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "Home Lab Setup Guide for Remote Developers"
-description: "Build a home lab for remote development: hardware selection, hypervisor setup, network segmentation, DNS, and services worth running locally for development"
-date: 2026-03-21
-author: theluckystrike
-permalink: /home-lab-setup-guide-remote-developers/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
 A home lab gives you a real infrastructure environment to experiment with, a place to run services locally for development, and a learning ground for infrastructure skills that are difficult to practice on cloud free tiers alone. For remote developers, it also means always-available compute and storage that you own.
 
 This guide covers: hardware choice, hypervisor installation, network setup, and the services worth running in a home lab for development work.
-
-## Key Takeaways
-
-- **Most managed switches (TP-Link TL-SG108E**: ~$30) support VLANs.
-- **The Beelink mini PC draws around 15-25W under load**: roughly $2-3/month in electricity at average US rates.
-- **Compare that to a**: full tower workstation at 150W+ idle, which runs $15-20/month continuously.
-- **Tailscale's free tier supports**: up to 3 users and 100 devices, more than enough for a personal lab.
-- **A 500GB backup set costs about $3/month**: worth it to protect weeks of configuration work.
-- **It runs KVM virtual**: machines and LXC containers, has a web UI, and is free with optional paid support.
 
 ## Prerequisites
 

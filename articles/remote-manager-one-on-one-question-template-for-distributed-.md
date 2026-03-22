@@ -11,36 +11,14 @@ tags: [remote-work-tools, one-on-one, remote-work, management, distributed-teams
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
 ---
-layout: default
-title: "Remote Manager One on One Question Template for Distributed"
-description: "Running effective one-on-one meetings with a distributed team requires more than copying your in-office habits into a video call. The asynchronous nature of"
-date: 2026-03-16
-last_modified_at: 2026-03-22
-author: theluckystrike
-permalink: /remote-manager-one-on-one-question-template-for-distributed-team-check-ins/
-categories: [guides]
-tags: [remote-work-tools, one-on-one, remote-work, management, distributed-teams, check-ins]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true---
 
 {% raw %}
 
 Running effective one-on-one meetings with a distributed team requires more than copying your in-office habits into a video call. The asynchronous nature of remote work, the lack of hallway conversations, and the time zone differences all demand a more intentional approach to check-ins.
 
 This guide provides a practical question template you can adapt for your distributed team, along with implementation strategies that actually work for developers and technical power users.
-
-## Key Takeaways
-
-- **If poor one-on-ones cause**: one unnecessary departure per year in a team of 10, that's $50,000-$200,000 in hidden cost.
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Support Needs What would**: help you move faster or more effectively? - - ### 4.
-- **Better to have 15-minute**: weekly one-on-ones that actually happen than 60-minute monthly ones that get cancelled.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
 
 ## The Hidden Cost of Poor One-on-Ones
 

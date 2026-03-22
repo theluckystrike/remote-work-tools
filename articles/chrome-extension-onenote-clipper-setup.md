@@ -11,34 +11,12 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
 ---
-layout: default
-title: "Chrome Extension OneNote Clipper Setup: Complete Guide"
-description: "Learn how to set up and configure the OneNote Web Clipper Chrome extension for efficient note-taking, research organization, and content archiving"
-date: 2026-03-15
-last_modified_at: 2026-03-15
-author: "Remote Work Tools Guide"
-permalink: /chrome-extension-onenote-clipper-setup/
-categories: [guides]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools]---
 
 {% raw %}
 
 Set up the OneNote Web Clipper to capture web content directly into your personal knowledge base with automatic organization and full-text search capability. Whether you're researching technical documentation, saving developer tutorials, or archiving articles, proper configuration transforms this free extension into an improved content capture system. This guide walks through complete setup, keyboard shortcuts, and configuration options tailored for developers and power users who need instant content archiving.
-
-## Key Takeaways
-
-- **Wait 30-60 seconds for**: content to propagate.
-- **Switch to Full Page mode for these sites**: or use Selection mode to capture only the visible content.
-- **Whether you're researching technical**: documentation, saving developer tutorials, or archiving articles, proper configuration transforms this free extension into an improved content capture system.
-- **Confirm the permissions request**: (the extension needs access to all websites to capture content) 4.
-- **OneDrive notebook list fetched**: and cached ``` The extension supports both personal Microsoft accounts and work/school accounts associated with Office 365.
-- **If you use multiple accounts**: the extension will prompt you to choose which notebook destination to use by default.
 
 ## Why Web Clipping Matters for Remote Workers
 

@@ -17,13 +17,6 @@ tags: [remote-work-tools]
 
 Harbor is an open-source container registry that goes beyond basic storage: built-in Trivy image scanning, replication to cloud registries, robot accounts for CI, LDAP/OIDC auth, and a web UI. Remote teams get one registry their entire pipeline can trust, with audit logs showing who pushed what.
 
-## Key Takeaways
-
-- **Harbor is an open-source**: container registry that goes beyond basic storage: built-in Trivy image scanning, replication to cloud registries, robot accounts for CI, LDAP/OIDC auth, and a web UI.
-- **Topics covered**: prerequisites, installation, configuration
-- **Practical guidance included**: Step-by-step setup and configuration instructions
-- **Use-case recommendations**: Specific guidance based on team size and requirements
-
 ## Prerequisites
 
 - Docker and Docker Compose installed

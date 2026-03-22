@@ -11,18 +11,12 @@ tags: [remote-work-tools, hybrid-work, onboarding, remote-work, team-management,
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Hybrid team onboarding starts fully remote on Day 1 to signal remote is first-class, then rotates office days in Week 2 so new hires experience both scenarios. Key deliverables include dev environment setup scripts, mixed virtual/in-person meeting schedules, async communication pattern training, and modest first-task assignments requiring codebase understanding and cross-functional collaboration. Track success through first-code-merge timelines (by Day 7), tool access completion rates, confidence levels (7/10+ by Week 4), and team relationship counts. Adapt templates based on your team's actual office days and time zone distribution.
-
-## Key Takeaways
-
-- **Add a new preference**: field to the user model 3.
-- **This feature adds a**: simple toggle to save preferences.
-- **If no one else reports it**: your local environment configuration is likely the cause.
-- **Topics covered**: week 1: foundation and setup, day 1: remote-first orientation, day 2-3: development environment and tooling
 
 ## Week 1: Foundation and Setup
 
@@ -301,4 +295,4 @@ A clean reinstall sometimes resolves persistent issues caused by corrupted cache
 - [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

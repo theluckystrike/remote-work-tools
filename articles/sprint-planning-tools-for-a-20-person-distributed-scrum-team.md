@@ -11,22 +11,14 @@ tags: [remote-work-tools, sprint-planning, scrum, remote-work, project-managemen
 reviewed: true
 score: 7
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Running sprint planning for 20 developers across multiple time zones presents distinct challenges. The coordination overhead multiplies, async preparation becomes essential, and traditional meeting-heavy approaches simply do not scale. The right tooling reduces friction, keeps everyone aligned, and makes the planning ceremony valuable rather than a time sink.
 
 This guide examines sprint planning tools and approaches suited for larger distributed Scrum teams, focusing on practical implementation rather than abstract theory.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **Use labels for sprint**: assignment and milestones for time-boxing.
-- **The limitation**: capacity planning and velocity tracking require manual calculation or additional scripts.
 
 ## The 20 Person Sprint Planning Challenge
 
@@ -258,4 +250,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

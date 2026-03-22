@@ -11,33 +11,11 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
 ---
-layout: default
-title: "How to Set Up HIPAA Compliant Home Office for Remote"
-description: "A technical guide for setting up a HIPAA compliant home office for remote healthcare workers. Covers physical security, network configuration, access"
-date: 2026-03-15
-last_modified_at: 2026-03-22
-author: "Remote Work Tools Guide"
-permalink: /how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/
-categories: [guides]
-reviewed: true
-score: 9
-intent-checked: true
-voice-checked: true
-tags: [remote-work-tools, remote-work]---
 
 
 Set up a HIPAA-compliant home office by combining physical security (locked devices, monitor privacy), network encryption (VPN without split tunneling), endpoint management (MDM enrollment, antivirus), and secure practices (MFA, encrypted communication, session timeouts). Remote healthcare workers must implement the same privacy controls required in clinical settings when accessing patient data from home. This guide covers technical requirements and practical implementation for creating a compliant remote workspace.
-
-## Key Takeaways
-
-- **Encrypted Communication**: Use only encrypted communication tools approved by your organization.
-- **Use HIPAA-compliant video platform**: (Zoom for Healthcare) # 3.
-- **Use this guide to**: understand the underlying principles and verify that your setup addresses each HIPAA requirement.
-- **Use full-disk encryption (FileVault on macOS**: BitLocker on Windows) to protect data if the device is lost or stolen.
-- **Store devices in a**: locked space when not in use—many remote healthcare workers use a small safe or locked office.
-- **Never reuse credentials across**: healthcare and personal accounts.
 
 ## Physical Security Requirements
 

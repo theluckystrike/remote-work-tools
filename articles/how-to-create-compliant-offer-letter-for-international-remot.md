@@ -11,26 +11,14 @@ tags: [remote-work-tools, remote-work, hr, compliance, international-hiring, leg
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
 Hiring international remote employees introduces legal complexities that domestic hires don't require. Each country has its own employment laws, tax obligations, and mandatory benefits. A poorly drafted offer letter can expose your company to legal risk, regulatory penalties, or costly disputes down the line.
 
 This guide provides a practical framework for creating compliant international offer letters. You'll find template structures, key clauses, and specific considerations for different employment classifications.
-
-## Key Takeaways
-
-- **Most companies either: -**: Pay in local currency with annual adjustments - Pay in home currency with periodic reviews - Use a third-party employer of record (EOR) service ### 3.
-- **In most countries**: termination requires cause, notice, and often severance.
-- **TERMINATION
- - Notice Period**: [X] days/weeks
- - Severance: Per [Country] requirements
-
-6.
-- **Using an US-style at-will**: termination clause internationally. At-will employment is largely an US concept.
-- **Including an at-will clause**: in an offer letter for a German or Brazilian employee may be unenforceable and signals a lack of compliance awareness.
-- **Can I use one**: standard offer letter template for all countries? No.
 
 ## Prerequisites
 
@@ -309,4 +297,4 @@ There's no universal answer. Paying in local currency protects the employee from
 - [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

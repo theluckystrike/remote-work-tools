@@ -11,7 +11,8 @@ score: 8
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
@@ -20,15 +21,6 @@ Run distributed sprint planning using async preparation phases in dedicated Slac
 Sprint planning in distributed Scrum teams presents unique communication challenges. When your team spans multiple time zones, synchronous planning sessions become expensive, and informal hallway conversations disappear. A well-structured Slack-based communication template can bridge this gap, enabling async preparation, focused synchronous sessions, and clear handoffs across time zones.
 
 This guide provides production-ready templates and workflows for running effective sprint planning communications in distributed teams using Slack.
-
-## Key Takeaways
-
-- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
-- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-- **Send form to team**: members requesting: - Capacity for upcoming sprint - Issues planning to pick up - Any blockers or questions 2.
-- **Let them use it for 2-3 weeks**: then gather their honest feedback.
-- **Mastering advanced features takes**: 1-2 weeks of regular use.
-- **Use this channel to**: share context about upcoming sprint goals.
 
 ## Pre-Sprint: Async Preparation Phase
 
@@ -258,4 +250,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}
