@@ -31,6 +31,18 @@ Hybrid meetings have become the standard for distributed teams, yet remote parti
 
 This guide provides concrete techniques to ensure remote participants are genuinely included—not just technically present.
 
+## Key Takeaways
+
+- **The asymmetric audio and**: video experience means remote participants must work harder to interrupt, and most choose silence.
+- **@alex**: what are your thoughts on this approach?"
+```
+
+This simple practice forces the room to pause and creates explicit space for remote voices.
+- **Many facilitators resist it**: because it feels artificial, but the alternative—waiting for remote participants to organically break in—consistently fails.
+- **Accessibility for team members**: who process information better visually Most video conferencing platforms offer built-in transcription.
+- **In-room attendees who want**: to discuss something privately should use a breakout room or save it for after the meeting.
+- **Making decisions informally after the call ends**: The most damaging exclusion happens when in-room attendees continue discussing—and deciding—after remote participants have dropped.
+
 ## The Fundamental Problem: Asymmetric Experience
 
 In-person attendees naturally default to behaviors that work for co-located groups. They can see facial expressions, hear ambient context, and participate in spontaneous exchanges. Remote participants depend entirely on the meeting infrastructure and the intentional behaviors of in-room attendees.

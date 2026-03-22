@@ -29,6 +29,15 @@ voice-checked: true---
 
 Fully remote companies face a unique challenge: traditional security perimeters no longer apply when your workforce accesses systems from hundreds of different locations and devices. Insider threats—malicious or negligent employees—become harder to detect when you cannot monitor physical behavior or network traffic at office endpoints. This review examines detection approaches and tools that actually work for distributed teams, with practical implementation guidance for developers and security engineers.
 
+## Key Takeaways
+
+- **A self-built stack using**: open source tools and cloud provider logs costs $10,000-30,000 in infrastructure and ~0.5-1 FTE in staffing.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Look for platforms with**: per-user pricing ($5-15/user/month) that scale with your team.
+- **Enable log retention for**: at least 12 months and stream logs to a centralized SIEM or log aggregation platform.
+- Most jurisdictions require this.
+- **Target**: 70%+ (acknowledges false positives are normal).
+
 ## Understanding the Remote Insider Threat Environment
 
 Insider threats in remote environments fall into three categories: malicious insiders who deliberately exfiltrate data, negligent employees who accidentally expose sensitive information, and compromised credentials where attackers gain access through phishing or stolen passwords. Remote work amplifies each category because employees access cloud services from personal devices, share screens in video calls without awareness of what's visible, and operate without the peer review that office environments naturally provide.

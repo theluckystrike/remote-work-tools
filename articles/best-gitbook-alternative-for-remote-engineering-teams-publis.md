@@ -16,6 +16,15 @@ voice-checked: true---
 
 The best GitBook alternatives for remote engineering teams are Mkdocs, Confluence, and Slite. These platforms excel at supporting asynchronous collaboration, integrating with developer workflows, and managing access controls for sensitive documentation across distributed organizations. This guide evaluates practical alternatives with implementation details and code examples to help you choose the right documentation platform for your team.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **The best choice depends**: on your team's existing tooling, deployment infrastructure, and content structure preferences.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Why Look Beyond GitBook for Internal Documentation
 
 GitBook provides solid documentation infrastructure, but remote engineering teams often encounter friction around three areas: permission management for internal-only content, real-time collaboration across time zones, and integration with existing developer tools. Teams operating across multiple regions benefit from documentation platforms that treat docs as code, support version control natively, and integrate with their CI/CD pipelines.

@@ -31,6 +31,17 @@ Use Lattice or 15Five for dedicated OKR management with quarterly tracking and a
 
 This guide covers the essential components of an OKR system for remote teams, evaluates practical tooling options, and provides implementation patterns you can adapt regardless of your tech stack.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Use Lattice or 15Five**: for dedicated OKR management with quarterly tracking and async updates, or implement OKRs in Notion with GitHub Integration if your team prefers lightweight tools.
+- **"Increase documentation page views**: by 50%" is measurable.
+- **Use whatever tool integrates**: with your existing workflow.
+- **Anti-pattern 3**: "OKRs become a tool for punishment"
+
+Managers use OKR performance as ammunition in performance reviews.
+- **Yet teams rigidly stick**: with Q1 OKRs through Q3 because they were committed to them.
+
 ## Why OKRs Work Particularly Well for Remote Teams
 
 OKRs bring clarity to distributed work through their hierarchical structure. An objective states what you want to achieve; key results define how you'll measure success. This separation matters for remote teams because it makes progress visible without requiring synchronous check-ins.
