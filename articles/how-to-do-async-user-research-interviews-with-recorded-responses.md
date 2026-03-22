@@ -97,12 +97,13 @@
 
 
 
+
 layout: default
 title: "How to Do Async User Research Interviews with Recorded"
 description: "Learn how to conduct effective async user research interviews using recorded responses. Complete 2026 guide for remote product teams and UX researchers"
 date: 2026-03-16
 last_modified_at: 2026-03-22
-author: "Remote Work Tools"
+author: "Remote Work Tools Guide"
 categories:
  - remote-work
  - product
@@ -120,6 +121,7 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+
 
 
 
