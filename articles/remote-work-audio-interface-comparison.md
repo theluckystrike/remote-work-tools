@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /remote-work-audio-interface-comparison/
 categories: [guides]
 reviewed: true
-score: 7
+score: 8
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
