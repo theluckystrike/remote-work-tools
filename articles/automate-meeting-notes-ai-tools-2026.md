@@ -10,7 +10,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, artificial-intelligence]---
+tags: [remote-work-tools, artificial-intelligence]
+---
 
 {% raw %}
 
@@ -300,4 +301,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

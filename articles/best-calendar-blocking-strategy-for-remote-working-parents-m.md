@@ -237,16 +237,6 @@ The goal is not perfection—it is building a sustainable system that accounts f
 
 This framework gives remote working parents a practical approach to calendar management that adapts to unpredictable schedules. The combination of asymmetric blocking, automation scripts, and clear team communication creates a system resilient to childcare disruptions.
 
-
-| Tool | Time Zone Handling | Group Scheduling | Calendar Sync | Pricing |
-|---|---|---|---|---|
-| Calendly | Auto-detect attendee TZ | Round-robin, collective | Google, Outlook, iCal | Free / $10/seat/month |
-| SavvyCal | Overlay multiple calendars | Ranked availability | Google, Outlook | $12/user/month |
-| Cal.com | Open-source, self-hostable | Team scheduling | Google, Outlook, Apple | Free / $12/user/month |
-| Reclaim.ai | AI-optimized scheduling | Smart 1:1s | Google Calendar | Free / $8/user/month |
-| Doodle | Poll-based group scheduling | Group polls | Google, Outlook | Free / $6.95/user/month |
-
-
 ## Frequently Asked Questions
 
 **Who is this article written for?**
@@ -278,4 +268,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

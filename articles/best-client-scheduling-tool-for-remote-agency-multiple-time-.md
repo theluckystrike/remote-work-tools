@@ -10,7 +10,8 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 ---
 layout: default
 title: "Example: Create a booking via API"
@@ -23,7 +24,8 @@ score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 
 
 Use Calendly for simple client scheduling with timezone conversion, build a custom solution with open-source tools if you need API-driven automation, or combine Outlook with third-party plugins for enterprise workflows. This guide covers solutions for coordinating meetings across multiple time zones without manual math errors or calendar conflicts.

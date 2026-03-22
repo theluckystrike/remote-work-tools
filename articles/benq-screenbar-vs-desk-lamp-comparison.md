@@ -10,7 +10,8 @@ score: 9
 categories: [comparisons]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, comparison]---
+tags: [remote-work-tools, comparison]
+---
 ---
 layout: default
 title: "BenQ ScreenBar vs Desk Lamp Comparison: A Developer"
@@ -23,7 +24,8 @@ score: 9
 categories: [comparisons]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, comparison]---
+tags: [remote-work-tools, comparison]
+---
 
 {% raw %}
 

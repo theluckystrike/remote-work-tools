@@ -10,7 +10,8 @@ intent-checked: true
 voice-checked: true
 reviewed: true
 score: 9
-tags: [remote-work-tools, best-of]---
+tags: [remote-work-tools, best-of]
+---
 
 {% raw %}
 
@@ -374,4 +375,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

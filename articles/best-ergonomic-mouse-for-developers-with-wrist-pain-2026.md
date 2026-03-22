@@ -217,6 +217,71 @@ Most developers report that after initial adaptation, an ergonomic mouse becomes
 
 Pair an ergonomic mouse with an ergonomic setup and good work habits, and you can expect to code pain-free for decades. Developers who ignore ergonomics often face forced career changes by their 40s due to chronic RSI. That's preventable with the right equipment and habits.
 
+## Real-World Transition Stories
+
+Developers switching to ergonomic mice report surprisingly consistent patterns. The first week feels awkward—cursor control feels imprecise, clicking feels unnatural, and you wonder if you made a mistake. This is completely normal and entirely temporary. Week two, muscle memory starts forming and the awkwardness begins fading. By week three, most developers have adapted fully and wonder how they ever used a flat mouse.
+
+Notably, developers with serious existing RSI often see dramatic improvements within the same timeline. One developer reports: "After two years of wrist pain that affected my typing, I switched to a vertical mouse. Within three weeks, I could code for 8 hours without pain. That's not an exaggeration—it changed my career trajectory."
+
+The key insight: if adaptation discomfort is severe, you may have the wrong mouse type for your hand. Pain during adaptation (sharp, joint-localized) is different from discomfort (muscle tiredness). Distinguish between these—if you feel sharp pain, switch back.
+
+## Monitoring Your Wrist Health
+
+Beyond equipment, develop a habit of noticing your wrist state. Track:
+
+- **Pain level:** 0-10 scale at end of day
+- **Fatigue:** How tired does your wrist feel?
+- **Swelling:** Visible puffiness or tightness?
+- **Range of motion:** Any movements that trigger pain?
+
+Use a simple spreadsheet to monitor these over weeks. Trends matter more than single days. Consistent improvement over 3-4 weeks validates your setup. Plateaus or deterioration indicate you need to adjust something (ergonomic mouse alone may not be sufficient).
+
+```
+Date    | Pain | Fatigue | Notes
+--------|------|---------|--------
+3/22    | 6    | 7       | Default mouse
+3/23    | 6    | 7       | First day vertical
+3/24    | 7    | 8       | Adaptation soreness
+3/25    | 7    | 8       | Still adapting
+3/26    | 6    | 7       | Starting to ease
+3/27    | 5    | 6       | Improvement
+3/28    | 5    | 5       | Sustained
+```
+
+If your tracking shows no improvement after 3 weeks, the mouse alone isn't solving your problem. This signals need for additional equipment (wrist rest, monitor arm) or professional evaluation.
+
+## Financial Considerations: When Investment is Worth It
+
+An ergonomic mouse costs $35-200 depending on type. A wrist rest adds $15-30. A monitor arm runs $20-150. Total investment: $70-380. This seems expensive until you calculate the alternative.
+
+A forced career change due to severe RSI costs:
+- Lost income during job transition: $20,000-50,000
+- Career advancement delay: immeasurable
+- Chronic pain management: ongoing medical costs
+
+Viewed this way, $300 for a complete ergonomic setup is the most cost-effective decision a developer can make. Prevention is 100x cheaper than treatment. Most developers who invest in ergonomics by their mid-20s report never dealing with RSI later. Those who don't often face limitations by their 40s.
+
+## When Professional Help Is Necessary
+
+If you experience any of these, see a physical therapist specializing in RSI before trying ergonomic equipment:
+
+- **Numbness or tingling** in fingers (possible nerve compression)
+- **Pain that wakes you at night** (advanced inflammation)
+- **Weakness** in grip or dexterity (potential nerve damage)
+- **Pain that spreads** up the arm (systemic involvement)
+
+These symptoms indicate RSI requiring professional evaluation. An ergonomic mouse helps with prevention and mild cases, but cannot address advanced conditions. Physical therapy, medical intervention, or temporary work modifications may be necessary. Starting ergonomic equipment simultaneously with PT accelerates recovery.
+
+## Regional Differences in Mouse Availability
+
+Ergonomic mice have different availability by region. US and EU markets carry most options, but some require special ordering:
+
+- **Wide availability (Amazon, local retailers):** Logitech MX Vertical, Anker models, standard Kensington
+- **Special order (international retailers):** Elecom Huge Trackball (Japan-sourced), Evoluent VerticalMouse 4
+- **Professional/Gaming stores:** Higher-end vertical mice, gaming ergonomic options
+
+Check your local market before committing to a specific model. Import costs and shipping time affect purchasing decisions for region-locked products.
+
 ## Footer
 
 Ergonomic mice are a necessary but not sufficient solution for RSI. Pair mouse selection with proper desk setup, regular breaks (10 minutes per hour), and strengthening exercises. Developers who combine ergonomic hardware with stretching routines and proper posture see the most significant improvement. If wrist pain persists after 6 weeks with an ergonomic mouse and proper setup, consult a physical therapist—some RSI conditions require professional treatment beyond equipment changes.

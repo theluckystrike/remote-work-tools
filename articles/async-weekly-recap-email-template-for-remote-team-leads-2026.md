@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Weekly Recap Email Template for Remote Team Leads 2026"
-description: "Async weekly recap email templates for remote leads: status formatting, metrics inclusion, action item tracking, and send-time optimization tips."
+description: "A guide to async weekly recap emails for remote team leads. Includes templates, best practices, and automation tips for 2026"
 date: 2026-03-18
 author: theluckystrike
 permalink: /async-weekly-recap-email-template-for-remote-team-leads-2026/
@@ -301,4 +301,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

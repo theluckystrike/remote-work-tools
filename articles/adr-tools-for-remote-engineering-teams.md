@@ -8,7 +8,7 @@ permalink: /adr-tools-for-remote-engineering-teams/
 categories: [guides]
 tags: [remote-work-tools, adr, documentation, remote-work]
 reviewed: true
-score: 7
+score: 8
 intent-checked: true
 voice-checked: true---
 
@@ -247,4 +247,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

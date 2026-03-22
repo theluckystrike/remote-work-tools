@@ -12,6 +12,17 @@ reviewed: true
 intent-checked: true
 voice-checked: true
 score: 9---
+
+Remote teams lose the informal knowledge transfer that happens in offices. Clear contribution guidelines reduce friction so people know exactly how to contribute, what format works, and where documentation belongs. This template gives you a ready-to-use framework for knowledge base governance.
+
+## Key Takeaways
+
+- **Guidelines prevent documentation chaos**: Without standards, your knowledge base becomes inconsistent formats, terminology, and quality levels
+- **Contribution friction kills adoption**: People need to know exactly how to contribute, what format to use, and where docs belong
+- **Template included**: A complete, customizable contribution guidelines document ready for your team's wiki or repo
+- **Covers the full lifecycle**: Writing standards, review process, ownership, archival, and quality expectations
+- **Reduces onboarding time**: New hires ramp up faster when documentation is consistent and discoverable
+
 ## Why Documentation Guidelines Matter
 
 Remote teams lose the informal knowledge transfer that happens in offices. When teammates sit near each other, expertise spreads naturally through nearby conversations. Remote teams need intentional systems that make knowledge sharing the default behavior. Clear contribution guidelines reduce friction: people know exactly how to contribute, what format works, and where documentation belongs.

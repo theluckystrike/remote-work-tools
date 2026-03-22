@@ -10,7 +10,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 
 {% raw %}
 
@@ -283,4 +284,4 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

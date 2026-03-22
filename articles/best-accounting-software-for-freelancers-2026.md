@@ -10,7 +10,8 @@ intent-checked: true
 voice-checked: true
 reviewed: true
 score: 9
-tags: [remote-work-tools, best-of]---
+tags: [remote-work-tools, best-of]
+---
 
 {% raw %}
 
@@ -282,4 +283,4 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Best Time Tracking Tools for Remote Freelancers](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

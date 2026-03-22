@@ -263,6 +263,140 @@ Yes, the underlying concepts transfer to other stacks, though the specific imple
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
+## Measuring Your Current Setup
+
+Before investing in new lighting, audit your existing environment using free tools:
+
+**Lumens and Color Temperature Test:**
+1. Download a light meter app (LUX Light Meter Pro, Lux Light Meter)
+2. Measure brightness at desk surface during your typical work hours
+3. Record values at morning (8am), midday (12pm), and evening (6pm)
+4. Compare against recommended 300-500 lux for desk work
+5. Photograph the color temperature indicator if available
+
+This baseline helps you identify gaps and prioritize upgrades.
+
+**Energy Consumption Calculator:**
+Track what you're currently running:
+- Overhead ceiling light: 40-60W per bulb × quantity
+- Desk lamp: 10-20W (LED) or 60W+ (incandescent)
+- Monitor backlight: 10-15W (built-in)
+
+Calculate monthly energy cost: (Watts × Hours Used Per Day × 30 days) / 1000 × $0.12/kWh
+
+Most developers spend $10-30/month on lighting. LED upgrades often pay for themselves in reduced energy bills within 12 months.
+
+## Implementing Circadian Lighting Without Smart Bulbs
+
+If you don't have smart home capability, manually adjust lighting using these simple strategies:
+
+**Morning (6am-12pm): 5000K-5500K (Cool/Bright)**
+- Use all available lights
+- Prioritize cool white (blue-tinted) bulbs
+- Open curtains fully if you have windows
+- Position task light to minimize shadows
+
+**Afternoon (12pm-6pm): 4000K-5000K (Neutral)**
+- Gradually reduce brightness to 75% of morning level
+- Shift color temperature slightly warmer
+- Close curtains if sun creates glare
+
+**Evening (6pm-11pm): 3000K-3500K (Warm)**
+- Reduce to 50% brightness
+- Switch to warm white bulbs or add amber/orange filters
+- Dim overhead lights completely
+- Keep task light minimal
+
+You can achieve this with a simple spreadsheet reminder system that pings you to adjust lights at each transition time.
+
+## Productivity Lighting by Task Type
+
+Different tasks benefit from different lighting approaches:
+
+| Task | Brightness | Color Temp | Key Light Position | Notes |
+|------|-----------|------------|------------------|-------|
+| Code review | 400-500 lux | 4500K | Slightly above eye level | Reduce eye strain during detail work |
+| Video calls | 300-400 lux | 5000K | 45° angle to face | Flatters appearance on camera |
+| Documentation writing | 300-400 lux | 4000K | Overhead or angled | Natural-feeling for reading/writing |
+| Creative ideation | 200-300 lux | 3500K | Softer, diffuse | Warmer light supports creative thinking |
+| Debugging/Focus work | 500+ lux | 5000K | Directly on screen | High contrast helps spot errors |
+
+Adjust your setup based on your primary daily task. If you spend 70% coding and 30% in calls, optimize for the coding case.
+
+## Budget Expansion Strategy
+
+Start minimal and expand intelligently:
+
+**Phase 1 ($30-60): Foundation**
+- Identify one quality desk lamp with adjustable temperature (or buy separate warm/cool bulbs)
+- Position it 18 inches from your monitor, 12 inches above desk surface
+- Use for 2 weeks and note eye fatigue/discomfort
+
+**Phase 2 ($50-100): Add Ambient**
+- If overhead lights feel too harsh, add one dimmable bulb in ceiling fixture
+- If too dim, add bias lighting (strip light) behind monitor
+- Test both and keep whichever improves comfort
+
+**Phase 3 ($100-200): Smart Control**
+- If phases 1-2 work, invest in smart bulbs for automatic scheduling
+- Start with 2 smart bulbs (key light + one accent)
+- Automate based on time of day and calendar events
+
+**Phase 4 ($200+): Professional Polish**
+- Add quality monitor light bar
+- Upgrade to high-CRI (color rendering index 95+) bulbs for accurate colors
+- Consider desk-mounted accent lighting for better ambiance
+
+This graduated approach prevents overspending on a setup that might not work for your specific needs.
+
+## Home Office Lighting Maintenance
+
+Once you invest in good lighting, maintain it:
+
+**Monthly:**
+- Clean light fixtures and diffusers (dust reduces output by 10-20%)
+- Check that bulbs are securely seated
+
+**Quarterly:**
+- Test color temperature with phone app to verify no color shift
+- Replace any bulbs showing reduced brightness
+
+**Annually:**
+- Replace all smart bulbs' batteries (if applicable)
+- Review and update automation settings based on seasonal daylight changes
+- Consider upgrading the oldest fixture if available new options
+
+Good lighting systems last 3-5 years with basic maintenance.
+
+## Real-World Setup Examples
+
+**Setup A: Minimal ($60)**
+- One 40W equivalent LED desk lamp (5000K): $25
+- One additional 5000K bulb for overhead fixture: $8
+- Two white poster boards for bouncing light: $5
+- Total: $38 + existing furniture
+
+Result: Professional-looking video calls, adequate desk lighting, zero automation.
+
+**Setup B: Moderate ($150)**
+- IKEA Hektar desk lamp with smart bulb: $40
+- One Neewer LED panel (300W equivalent): $60
+- Basic light stand: $20
+- Diffusion filter: $15
+- Timer for automation (mechanical): $15
+- Total: $150
+
+Result: Excellent video call setup, good task lighting, basic time-based automation.
+
+**Setup C: Complete ($400)**
+- BenQ e-Reading Lamp: $80
+- Elgato Key Light Air: $150
+- Elgato Key Light Air (second, for fill): $150
+- Home Assistant setup for smart scheduling: $20
+- Total: $400
+
+Result: Broadcast-quality lighting, full circadian automation, integrates with desk setup.
+
 ## Related Articles
 
 - [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)

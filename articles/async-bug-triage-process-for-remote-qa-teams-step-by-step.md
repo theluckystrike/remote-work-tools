@@ -1,16 +1,17 @@
 ---
 layout: default
 title: "Async Bug Triage Process for Remote QA Teams: Step-by-Step"
-description: "Run async bug triage in remote QA teams: severity frameworks, Jira/Linear automation, SLA timers, and escalation workflows step by step."
+description: "Learn how to run effective asynchronous bug triage with remote QA teams. Practical examples and code snippets included"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /async-bug-triage-process-for-remote-qa-teams-step-by-step/
 categories: [guides]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 ---
 layout: default
 title: "Async Bug Triage Process for Remote QA Teams: Step-by-Step"
@@ -23,7 +24,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 

@@ -10,7 +10,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 
 {% raw %}
 
@@ -243,4 +244,4 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 - [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

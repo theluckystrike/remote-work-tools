@@ -10,7 +10,8 @@ score: 9
 categories: [comparisons]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 
 
 {% raw %}
@@ -361,4 +362,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

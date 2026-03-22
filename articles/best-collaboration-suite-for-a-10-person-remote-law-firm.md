@@ -10,7 +10,8 @@ score: 8
 categories: [best-of]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work, collaboration]---
+tags: [remote-work-tools, best-of, remote-work, collaboration]
+---
 ---
 layout: default
 title: "Best Collaboration Suite for a 10 Person Remote Law Firm"
@@ -23,7 +24,8 @@ score: 8
 categories: [best-of]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work, collaboration]---
+tags: [remote-work-tools, best-of, remote-work, collaboration]
+---
 
 {% raw %}
 

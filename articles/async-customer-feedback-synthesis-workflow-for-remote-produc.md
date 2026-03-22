@@ -7,10 +7,11 @@ author: "Remote Work Tools Guide"
 permalink: /async-customer-feedback-synthesis-workflow-for-remote-produc/
 categories: [guides]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, workflow, remote-work]---
+tags: [remote-work-tools, workflow, remote-work]
+---
 ---
 layout: default
 title: "Example: Feedback webhook handler"
@@ -23,7 +24,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, workflow, remote-work]---
+tags: [remote-work-tools, workflow, remote-work]
+---
 
 {% raw %}
 

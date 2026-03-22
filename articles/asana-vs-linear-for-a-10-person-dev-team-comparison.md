@@ -7,10 +7,11 @@ author: theluckystrike
 permalink: /asana-vs-linear-for-a-10-person-dev-team-comparison/
 categories: [comparisons]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, comparison]---
+tags: [remote-work-tools, comparison]
+---
 ---
 layout: default
 title: "Asana vs Linear for a 10-Person Dev Team Comparison"
@@ -23,7 +24,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, comparison]---
+tags: [remote-work-tools, comparison]
+---
 
 {% raw %}
 

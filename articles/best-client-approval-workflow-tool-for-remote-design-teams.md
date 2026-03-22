@@ -10,7 +10,8 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, workflow, remote-work]---
+tags: [remote-work-tools, best-of, workflow, remote-work]
+---
 ---
 layout: default
 title: "Best Client Approval Workflow Tool for Remote Design Teams"
@@ -23,7 +24,8 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, workflow, remote-work]---
+tags: [remote-work-tools, best-of, workflow, remote-work]
+---
 
 {% raw %}
 

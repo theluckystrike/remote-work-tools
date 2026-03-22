@@ -10,7 +10,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, comparison, remote-work]---
+tags: [remote-work-tools, comparison, remote-work]
+---
 ---
 layout: default
 title: "Basecamp vs ClickUp for a 25-Person Remote Creative Agency"
@@ -23,7 +24,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, comparison, remote-work]---
+tags: [remote-work-tools, comparison, remote-work]
+---
 
 {% raw %}
 

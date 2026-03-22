@@ -262,6 +262,9 @@
 
 
 
+
+
+
 layout: default
 title: "How to Run Async Book Clubs for Distributed Engineering"
 description: "Running a book club in a distributed engineering team presents unique challenges. Without the luxury of spontaneous hallway conversations or easy after-work"
@@ -827,6 +830,9 @@ Here's your quick-start checklist:
 - [ ] Schedule first discussion post for next Monday
 - [ ] Assign Week 1 discussion lead
 ---
+
+
+
 
 
 

@@ -10,7 +10,8 @@ score: 9
 voice-checked: true
 categories: [best-of]
 intent-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 ---
 layout: default
 title: "Test WiFi speed using speedtest-cli"
@@ -23,7 +24,8 @@ score: 9
 voice-checked: true
 categories: [best-of]
 intent-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 
 
 Cafe Santiago offers the best combination of fast WiFi (consistently 50+ Mbps), abundant power outlets, and quiet upper-floor seating for focused work, making it the top choice for developers working full 8-hour days. The ground floor provides a lively networking environment if you want community, while the upper section isolates you from distractions—Porto's other developer-friendly cafes offer competitive WiFi but lack Santiago's consistency and outlet availability.

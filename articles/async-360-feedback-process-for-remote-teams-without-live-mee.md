@@ -8,7 +8,7 @@ permalink: /async-360-feedback-process-for-remote-teams-without-live-mee/
 categories: [guides]
 tags: [remote-work-tools, feedback, remote-work, 360-feedback, async, team-development]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true---
 
@@ -450,4 +450,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

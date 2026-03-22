@@ -10,7 +10,8 @@ score: 9
 categories: [best-of]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 
 
 {% raw %}
@@ -379,4 +380,4 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Best Standing Desk for Home Office Coding](/remote-work-tools/best-standing-desk-for-home-office-coding/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

@@ -10,7 +10,8 @@ intent-checked: true
 voice-checked: true
 reviewed: true
 score: 9
-tags: [remote-work-tools, best-of]---
+tags: [remote-work-tools, best-of]
+---
 
 {% raw %}
 
@@ -314,4 +315,4 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 - [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

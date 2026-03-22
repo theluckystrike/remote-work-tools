@@ -10,7 +10,8 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 ---
 layout: default
 title: "Best Budget Tool Stack for a Bootstrapped Remote Team of 2"
@@ -23,7 +24,8 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]---
+tags: [remote-work-tools, best-of, remote-work]
+---
 
 {% raw %}
 

@@ -10,7 +10,8 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 ---
 layout: default
 title: "AWS Cost Management for Remote Teams"
@@ -23,7 +24,8 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
@@ -40,17 +42,7 @@ This guide covers practical cost control for remote AWS teams: budget alerts, an
 - **If your production fleet**: runs consistently at $300/month but spikes to $400/month twice a year, commit to $210-240/month in Savings Plans.
 - **An instance with 10% average CPU but 90% of max connections isn't over-provisioned on compute**: it's under-provisioned on connections.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Set Up Budget Alerts First
+## Set Up Budget Alerts First
 
 Before anything else, configure billing alerts so you know when spending deviates.
 
@@ -88,7 +80,7 @@ aws budgets create-budget \
 
 Consider creating per-project budgets in addition to the overall monthly cap. If your team runs five active projects, give each a budget envelope — this exposes overspend at the project level before it rolls up into the total.
 
-### Step 2: Enable Cost Anomaly Detection
+## Enable Cost Anomaly Detection
 
 AWS Anomaly Detection uses ML to flag unexpected spending spikes before they become large bills.
 
@@ -118,7 +110,7 @@ The `Threshold: 50` means you get alerted when an anomaly exceeds $50 above expe
 
 You can also create service-specific monitors. Separate monitors for EC2 and RDS give finer granularity — a spike in one service doesn't get masked by normal variance in another.
 
-### Step 3: Tag Every Resource
+## Tag Every Resource
 
 Tags are the foundation of cost attribution in remote teams. Without them, you cannot tell which project or developer generated a bill.
 
@@ -149,7 +141,7 @@ Enforce tagging at the IAM level using AWS Organizations tag policies. A policy 
 
 For teams using Terraform or CloudFormation, add required tags as a module-level default rather than asking developers to add them per-resource. This reduces friction and ensures consistency.
 
-### Step 4: Find Idle and Underutilized Resources
+## Find Idle and Underutilized Resources
 
 ```bash
 # Find EC2 instances with < 5% average CPU over 14 days
@@ -193,7 +185,7 @@ aws elbv2 describe-load-balancers \
 
 Run this audit monthly and post results to a #aws-costs Slack channel. Making idle resource data visible to the whole team creates peer accountability without requiring a dedicated FinOps function.
 
-### Step 5: Stop Dev Instances Outside Business Hours
+## Stop Dev Instances Outside Business Hours
 
 ```bash
 # Lambda function to stop non-prod instances at 8pm, start at 8am
@@ -239,7 +231,7 @@ This alone can cut EC2 costs by 60% for dev environments — they run 12 hours i
 
 For remote teams distributed across time zones, use the team's primary timezone for scheduling and communicate the schedule clearly in your engineering handbook. Developers who need an instance outside hours can tag it with `SkipShutdown=true` — the Lambda should respect that tag, but auto-remove it after 24 hours to prevent permanent bypass.
 
-### Step 6: S3 Lifecycle Policies
+## S3 Lifecycle Policies
 
 S3 costs accumulate through log archives and backups with no expiry. Set lifecycle rules on every bucket.
 
@@ -278,7 +270,7 @@ Logs move from Standard ($0.023/GB) to Standard-IA at 30 days ($0.0125/GB), to G
 
 Apply separate policies for different data types. Application logs can expire at 1 year, but audit logs may need 7-year retention for compliance. Terraform module outputs — build artifacts, deployment packages — typically need only 90 days. Define a lifecycle policy template per data category in your infrastructure-as-code repo so every new bucket starts with the right policy by default.
 
-### Step 7: Right-Size RDS Instances
+## Right-Size RDS Instances
 
 ```bash
 # Check RDS CPU and connection utilization
@@ -307,7 +299,7 @@ Look at both CPU and `DatabaseConnections` metrics together. An instance with 10
 
 RDS Aurora Serverless v2 is worth evaluating for staging and lower-traffic production workloads. It scales from 0.5 ACUs to 128 ACUs in seconds, which eliminates the over-provisioning problem for variable workloads. A staging database that runs $150/month as a fixed instance often costs $20-40/month on Aurora Serverless v2 with realistic usage patterns.
 
-### Step 8: Use Savings Plans for Predictable Workloads
+## Use Savings Plans for Predictable Workloads
 
 For any EC2 or Fargate workload running 24/7, Savings Plans deliver 40-60% savings over on-demand.
 
@@ -326,7 +318,7 @@ Buy Compute Savings Plans (not EC2 instance plans) — they apply across instanc
 
 Purchase at 70-80% of your sustained baseline, not your peak. If your production fleet runs consistently at $300/month but spikes to $400/month twice a year, commit to $210-240/month in Savings Plans. The remaining usage runs on-demand, which is acceptable. Over-committing creates wasted spend if workloads shrink.
 
-### Step 9: Cost Explorer Report by Tag
+## Cost Explorer Report by Tag
 
 ```bash
 # Monthly cost by Project tag
@@ -344,7 +336,7 @@ Run this weekly and share it with the team in Slack. Visibility into which proje
 
 Consider building a simple weekly cost digest using this query in a Lambda function triggered by EventBridge. Format the output as a Slack message with project names, current month spend, and month-over-month delta. Teams that see their infrastructure costs weekly develop cost-aware habits without requiring a dedicated FinOps process.
 
-### Step 10: Build a Cost Review Cadence
+## Building a Cost Review Cadence
 
 Cost control works best when it's part of engineering culture, not a periodic audit. Structure a lightweight monthly review:
 
@@ -355,21 +347,6 @@ Cost control works best when it's part of engineering culture, not a periodic au
 5. Share the month-over-month total with the team
 
 This review takes 30 minutes, can be done async over a shared doc, and prevents the quarterly bill surprise that's common in remote teams where no one owns infrastructure costs explicitly.
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Related Reading
 

@@ -10,7 +10,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 ---
 layout: default
 title: "Automate Expense Reports for Remote Workers"
@@ -23,7 +24,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]---
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 

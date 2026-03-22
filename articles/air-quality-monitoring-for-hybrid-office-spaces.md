@@ -7,10 +7,11 @@ author: "Remote Work Tools Guide"
 permalink: /air-quality-monitoring-for-hybrid-office-spaces/
 categories: [guides]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 ---
 layout: default
 title: "Air Quality Monitoring for Hybrid Office Spaces"
@@ -23,7 +24,8 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
