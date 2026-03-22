@@ -10,24 +10,13 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
 Mob programming — the whole team working on one thing together — sounds counterintuitive for remote teams, but it solves specific problems that async work can't: onboarding new engineers, tackling genuinely hard problems that need multiple perspectives simultaneously, and transferring knowledge across the team. Done well, a 90-minute remote mob session on a hard problem beats a week of back-and-forth async comments.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: The Core Structure
+## The Core Structure
 
 Remote mob programming needs more explicit structure than in-person because there's no shared physical space to anchor coordination.
 
@@ -43,7 +32,7 @@ Remote mob programming needs more explicit structure than in-person because ther
 
 **The golden rule**: The driver types only what the navigator says. No initiative, no "I think we should also..." — that goes through the navigator.
 
-### Step 2: Tool Setup
+## Tool Setup
 
 **Option 1: VS Code Live Share + Video Call**
 
@@ -142,7 +131,7 @@ Picking the wrong tool is the fastest way to kill engagement in a remote mob ses
 
 Tuple is the best pure mob experience if your team is on macOS and you can justify the cost — the latency difference is noticeable in active coding sessions. Live Share is a reasonable free alternative for occasional mob sessions. Gitpod becomes the right answer when local environment inconsistency is causing mob sessions to lose 20 minutes at the start to setup issues.
 
-### Step 3: Session Structure (90 minutes)
+## Session Structure (90 minutes)
 
 ```
 :00 — Check-in (5 min)
@@ -173,7 +162,7 @@ Tuple is the best pure mob experience if your team is on macOS and you can justi
 :77 — Final commit, push, and PR (10 min)
 ```
 
-### Step 4: WIP Commits for Rotation
+## WIP Commits for Rotation
 
 Push a WIP commit on every rotation so the incoming driver starts with current code:
 
@@ -188,7 +177,7 @@ echo "Handoff complete. Next driver: pull and open VS Code"
 
 The mob session branch is squash-merged at the end with a proper commit message.
 
-### Step 5: Navigator Anti-Patterns
+## Navigator Anti-Patterns
 
 The most common failure mode in mob programming is navigator breakdown:
 
@@ -200,7 +189,7 @@ The most common failure mode in mob programming is navigator breakdown:
 
 **Too much detail** — "Type async def create_user open paren user: UserCreate close paren arrow UserResponse colon" — overly granular. Navigate at intention level: "Let's create the async endpoint for user creation with the standard signature."
 
-### Step 6: Keeping the Mob Engaged
+## Keeping the Mob Engaged
 
 The biggest practical challenge in remote mob sessions is maintaining mob engagement. Mob members who aren't driving or navigating can zone out within minutes — and in-person cues like someone leaning forward or reaching for the keyboard don't translate over video.
 
@@ -214,7 +203,7 @@ Concrete techniques that help:
 
 **Run shorter sessions more often.** A 60-minute mob session with full engagement is more productive than a 2-hour session where the second hour is low-quality. Schedule 60-90 minutes maximum and book follow-up sessions for complex problems. Ending while the team is still energized is a reliable way to build momentum for the next session.
 
-### Step 7: When Mob Programming Is Worth It
+## When Mob Programming Is Worth It
 
 **High value:**
 - Onboarding a new engineer to a complex area
@@ -228,7 +217,7 @@ Concrete techniques that help:
 - Anything where one engineer is significantly more experienced (becomes tutoring)
 - Work requiring deep focus with no collaboration benefits
 
-### Step 8: Tools for the Timer
+## Tools for the Timer
 
 ```bash
 # Terminal timer (visible to driver who shares screen)
@@ -252,10 +241,10 @@ countdown 900
 - [mobti.me](https://mobti.me) — free, shows timer to all participants if shared on screen
 - [leantimer.com](https://www.leantimer.com) — mob-specific timer with role display
 
-### Step 9: Session Notes Template
+## Session Notes Template
 
 ```markdown
-### Step 10: Mob Session — [date]
+## Mob Session — [date]
 
 **Goal:** [one sentence]
 **Attendees:** @alice (nav1), @bob (driver1), @carol (driver2), @david (nav2)
@@ -278,21 +267,6 @@ countdown 900
 ### Next session goal (if applicable):
 [what we'd tackle in a follow-up session]
 ```
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Related Reading
 

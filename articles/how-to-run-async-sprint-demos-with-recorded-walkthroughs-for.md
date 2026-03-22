@@ -11,8 +11,7 @@ tags: [remote-work-tools, sprint-demos, async-communication, remote-work, stakeh
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 
 {% raw %}
@@ -32,17 +31,7 @@ The key benefits include:
 
 Research consistently shows that distributed teams lose significant productivity to scheduling overhead. When your sprint demo requires a 60-minute synchronous block, you spend a full workday equivalent every quarter just aligning calendars across time zones. Async demos convert that overhead into five minutes of distribution effort.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Recording Your Sprint Demo
+## Recording Your Sprint Demo
 
 ### Option 1: CLI-Based Screen Recording with ffmpeg
 
@@ -108,7 +97,7 @@ Specialized tools add features useful for sprint demos specifically:
 
 Loom is the most common choice for sprint demos because the link-sharing workflow integrates cleanly with Slack, Linear, and GitHub notifications.
 
-### Step 2: Structuring Your Walkthrough
+## Structuring Your Walkthrough
 
 A good async demo walkthrough follows a consistent structure. Stakeholders should know what to expect and where to find key information.
 
@@ -142,7 +131,7 @@ A good async demo walkthrough follows a consistent structure. Stakeholders shoul
 
 One underrated practice: record a silent run-through first, then delete it and record the real version. The first pass reveals timing issues and awkward transitions that you can fix before the final take.
 
-### Step 3: Automate Demo Video Generation
+## Automating Demo Video Generation
 
 For teams building CI/CD pipelines, you can automate demo video creation using tools like Capture It. Here's a GitHub Actions workflow that records test runs:
 
@@ -183,7 +172,7 @@ For headless environments, use `Xvfb` on Linux runners to create a virtual displ
       -t 120 -c:v libx264 -preset fast demo.mp4
 ```
 
-### Step 4: Distributing to Stakeholders
+## Distributing to Stakeholders
 
 Once recorded, get the video to stakeholders effectively:
 
@@ -204,7 +193,7 @@ Choose based on your stakeholders. Product managers and executives often prefer 
 Always include a written summary with your video:
 
 ```markdown
-### Step 5: Sprint 24 Demo Recording
+## Sprint 24 Demo Recording
 
 **Duration**: 8:32
 
@@ -224,7 +213,7 @@ Always include a written summary with your video:
 
 The written summary serves a second purpose: it gets indexed by search. In six months when someone asks "when did we ship the export feature," the sprint demo description surfaces in Notion search or Confluence. This is the "permanent searchable record" benefit that makes async demos more valuable than synchronous ones long-term.
 
-### Step 6: Handling Feedback Async
+## Handling Feedback Async
 
 The demo isn't complete until you've gathered feedback. Set up a clear async feedback loop:
 
@@ -238,7 +227,7 @@ For engineering demos specifically, consider linking the recording to a GitHub i
 A lightweight template for collecting structured feedback:
 
 ```markdown
-### Step 7: Feedback Request — Sprint 24 Demo
+## Feedback Request — Sprint 24 Demo
 
 Please review by **Thursday, March 27 EOD**.
 
@@ -250,7 +239,7 @@ React with:
 Leave questions as replies in this thread.
 ```
 
-### Step 8: Tools Worth Considering
+## Tools Worth Considering
 
 Several tools specialize in async presentations:
 
@@ -262,7 +251,7 @@ Several tools specialize in async presentations:
 
 Choose based on your team's existing tools and workflow. The best tool is one your team will actually use consistently.
 
-### Step 9: Measuring Success
+## Measuring Success
 
 Track whether async demos are working for your team:
 
@@ -278,21 +267,6 @@ Iterate on your approach based on these metrics.
 ---
 
 Running async sprint demos requires upfront investment in recording habits and workflows, but pays dividends in team flexibility and stakeholder engagement. Start with simple recordings, gather feedback, and refine your process over time.
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Frequently Asked Questions
 

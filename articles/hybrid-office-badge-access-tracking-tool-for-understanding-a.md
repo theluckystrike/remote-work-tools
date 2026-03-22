@@ -11,8 +11,7 @@ tags: [remote-work-tools, hybrid-office, badge-access, desk-utilization, occupan
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -226,98 +225,7 @@ System limitations: Badge systems record entry, not actual desk usage. Someone b
 
 API rate limits: Most commercial badge systems impose API limits. Cache data locally and sync incrementally rather than pulling full datasets repeatedly.
 
-## Visualizing Occupancy Data
-
-Raw occupancy numbers are hard to act on. Visualizations make patterns immediately obvious to facilities teams, HR, and executives who do not work with data directly.
-
-A minimal dashboard using Python and matplotlib:
-
-```python
-import matplotlib.pyplot as plt
-import pandas as pd
-
-def plot_weekly_heatmap(badge_data):
-    """Plot hourly occupancy by day of week as a heatmap."""
-    df = pd.DataFrame(badge_data)
-    df["hour"] = pd.to_datetime(df["timestamp"]).dt.hour
-    df["day"] = pd.to_datetime(df["timestamp"]).dt.day_name()
-
-    pivot = df.groupby(["day", "hour"]).size().unstack(fill_value=0)
-
-    # Reorder days
-    day_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-    pivot = pivot.reindex(day_order)
-
-    fig, ax = plt.subplots(figsize=(14, 5))
-    im = ax.imshow(pivot.values, cmap="YlOrRd", aspect="auto")
-
-    ax.set_xticks(range(len(pivot.columns)))
-    ax.set_xticklabels([f"{h}:00" for h in pivot.columns], rotation=45)
-    ax.set_yticks(range(len(day_order)))
-    ax.set_yticklabels(day_order)
-
-    plt.colorbar(im, label="Badge-ins")
-    plt.title("Office Occupancy by Day and Hour")
-    plt.tight_layout()
-    plt.savefig("occupancy_heatmap.png", dpi=150)
-```
-
-This generates a heatmap showing which day-hour combinations see the highest traffic. Facilities managers can immediately see that Wednesday mornings need more resources, or that Friday afternoons are consistently empty.
-
-## Storing and Querying Historical Data
-
-Batch badge event processing works for weekly reports, but ongoing analytics require a queryable historical store. A lightweight approach uses SQLite:
-
-```python
-import sqlite3
-
-def init_db(db_path="badge_analytics.db"):
-    """Create tables for badge events and daily summaries."""
-    conn = sqlite3.connect(db_path)
-    conn.execute("""
-        CREATE TABLE IF NOT EXISTS badge_events (
-            event_id TEXT PRIMARY KEY,
-            timestamp TEXT,
-            employee_id TEXT,
-            door_id TEXT,
-            direction TEXT
-        )
-    """)
-    conn.execute("""
-        CREATE TABLE IF NOT EXISTS daily_summaries (
-            date TEXT PRIMARY KEY,
-            unique_visitors INTEGER,
-            total_desks INTEGER,
-            occupancy_rate REAL,
-            no_show_rate REAL
-        )
-    """)
-    conn.commit()
-    return conn
-
-def insert_events(conn, events):
-    """Bulk insert badge events with conflict handling."""
-    conn.executemany(
-        "INSERT OR IGNORE INTO badge_events VALUES (?,?,?,?,?)",
-        [(e["event_id"], e["timestamp"], e["employee_id"],
-          e["door_id"], e["direction"]) for e in events]
-    )
-    conn.commit()
-```
-
-With events in SQLite, you can query trends across months without re-fetching from the badge API:
-
-```sql
--- 30-day rolling average occupancy
-SELECT date,
-       AVG(occupancy_rate) OVER (ORDER BY date ROWS 29 PRECEDING) AS rolling_avg
-FROM daily_summaries
-ORDER BY date;
-```
-
-This rolling average smooths out holiday distortions and one-off spikes, giving facilities leadership a cleaner trend line for space planning decisions.
-
-## Practical Recommendations from Badge Analytics
+## Practical recommendations from Badge Analytics
 
 Once you have the data, translate it into workplace decisions:
 

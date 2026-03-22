@@ -13,6 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
+---
+layout: default
+title: "Hybrid Office Fire Safety and Evacuation Plan Update"
+description: "Learn how to update fire safety and evacuation plans for hybrid offices with variable occupancy. Covers smart occupancy tracking, dynamic evacuation"
+date: 2026-03-16
+last_modified_at: 2026-03-22
+author: theluckystrike
+permalink: /hybrid-office-fire-safety-and-evacuation-plan-update-for-var/
+categories: [guides]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools]
+---
 
 {% raw %}
 

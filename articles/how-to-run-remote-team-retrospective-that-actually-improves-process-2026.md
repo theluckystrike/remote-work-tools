@@ -33,17 +33,7 @@ Remote retros collapse without intentional structure because:
 
 The fix is async-first with lightweight sync, clear roles, and ruthless closure.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: The Proven Structure: 5-Day Async Retro
+## The Proven Structure: 5-Day Async Retro
 
 Instead of a 1-hour meeting, spread the retro across 5 business days with clear phases and deadlines.
 
@@ -214,7 +204,7 @@ Sync Retro Closure (20 minutes):
 
 Then close the sync and facilitator writes formal action items in tickets. Sync is for clarification, not decision-making.
 
-### Step 2: Tools: Miro vs. FigJam vs. Notion
+## Tools: Miro vs. FigJam vs. Notion
 
 ### Miro (Best for Visual Remote Teams)
 
@@ -271,13 +261,13 @@ Sprint Dates: 2026-03-10 → 2026-03-21
 Facilitator: @bob
 Input Deadline: Wed 5 PM UTC
 
-### Step 3: Previous Sprint Action Items
+## Previous Sprint Action Items
 | Item | Owner | Status | Link |
 |------|-------|--------|------|
 | Code review SLA | carol | In Progress | [Linear] |
 ---
 
-### Step 4: What Went Well
+## What Went Well
 Add your comments below. Due: Wednesday 5 PM UTC
 
 - Fast payment feature shipped
@@ -285,12 +275,12 @@ Add your comments below. Due: Wednesday 5 PM UTC
  - New developer @mike picked it up quickly
 - Team showed up at 9 AM standup consistently
 
-### Step 5: What to Improve
+## What to Improve
 - Code reviews still slow
 - On-call alerts woke me up 4 times Wednesday
 - Tech debt in auth module is frustrating
 
-### Step 6: Action Items for Next Sprint
+## Action Items for Next Sprint
 | Action | Owner | Due | Status |
 |--------|-------|-----|--------|
 | | | |
@@ -300,7 +290,7 @@ Add your comments below. Due: Wednesday 5 PM UTC
 
 **Downsides:** Less visual than Miro. Voting requires comment tallying (manual work).
 
-### Step 7: Facilitation Script: The Quiet-Nudging Approach
+## Facilitation Script: The Quiet-Nudging Approach
 
 Some people don't contribute to retros because they're not sure what's valuable to say. As facilitator, you nudge them without putting them on the spot.
 
@@ -341,7 +331,7 @@ This approach:
 - Gives them time to think (DM vs. live response)
 - Gets better input from thoughtful people
 
-### Step 8: Common Mistakes That Kill Remote Retro Effectiveness
+## Common Mistakes That Kill Remote Retro Effectiveness
 
 **Mistake 1: Same retro format every sprint.**
 Variety prevents fatigue. Alternate between:
@@ -367,7 +357,7 @@ If you generate 8+ action items, you'll complete 1-2. Pick 3-4 max. Quality over
 **Mistake 5: No written decision-making.**
 If action items aren't in tickets with owners and due dates, they disappear. Write them down.
 
-### Step 9: Measuring Retro Impact
+## Measuring Retro Impact
 
 Effective retros change behavior. Track:
 
@@ -387,7 +377,7 @@ Effective retros change behavior. Track:
  - Simple check: ask team "Do you feel heard in retros?"
  - If <70% say yes, your facilitation needs work
 
-### Step 10: Template Scripts for Facilitators
+## Template Scripts for Facilitators
 
 **Opening message (day 1):**
 ```
@@ -428,7 +418,7 @@ Each has an owner and deadline. We review progress in next sprint's retro.
 Thanks for the honest feedback. It makes us better.
 ```
 
-### Step 11: Async Retro Success Metrics
+## Async Retro Success Metrics
 
 You know your remote retro is working when:
 
@@ -445,21 +435,6 @@ You know your remote retro is working when:
 The most effective remote retros are boring—they follow the same structure every sprint, same facilitator, and quietly produce process improvements that compound. Exciting, innovative retros are often theater. Stick with what works.
 
 ---
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Frequently Asked Questions
 

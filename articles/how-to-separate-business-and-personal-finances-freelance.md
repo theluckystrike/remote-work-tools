@@ -13,6 +13,21 @@ reviewed: true
 score: 8
 tags: [remote-work-tools]
 ---
+---
+layout: default
+title: "How to Separate Business and Personal Finances"
+description: "Running your own business means every financial decision lands on your desk. When you're a freelance developer, the line between 'buying a new laptop for"
+date: 2026-03-15
+last_modified_at: 2026-03-22
+author: theluckystrike
+permalink: /how-to-separate-business-and-personal-finances-freelance/
+categories: [guides]
+intent-checked: true
+voice-checked: true
+reviewed: true
+score: 8
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
@@ -20,17 +35,7 @@ Running your own business means every financial decision lands on your desk. Whe
 
 This guide provides concrete systems for maintaining clean separation between your business and personal finances—approaches that work for developers who prefer terminal-based workflows and automation over spreadsheets.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: The Case for Strict Separation
+## The Case for Strict Separation
 
 Before exploring implementation, understand why separation matters:
 
@@ -40,7 +45,7 @@ Before exploring implementation, understand why separation matters:
 
 The goal isn't just accounting hygiene—it's business intelligence. You need to know your true hourly rate after expenses, not just what you billed.
 
-### Step 2: Bank Account Strategy
+## Bank Account Strategy
 
 The foundation of financial separation starts with your banking setup. You don't need a complicated business structure, but you do need dedicated accounts.
 
@@ -64,7 +69,7 @@ For US-based freelancers, most banks offer business checking accounts with no mo
 
 Transferring money from business to personal works like a payroll system. Pick a regular schedule—monthly or bi-weekly—and transfer a set "salary" amount. This creates a predictable rhythm and prevents spontaneous personal spending from business funds.
 
-### Step 3: Tracking Expenses with Plain Text
+## Tracking Expenses with Plain Text
 
 Developers who embrace plain-text accounting gain several advantages: version control over financial data, powerful querying capabilities, and complete data ownership. Two tools excel at this approach: Ledger CLI and Beancount.
 
@@ -142,7 +147,7 @@ fava expenses.beancount
 
 Both approaches store your financial data in plain text files that live in your repository. You get Git history of every change, searchability, and backup simplicity.
 
-### Step 4: Automate Transaction Categorization
+## Automating Transaction Categorization
 
 Manual categorization gets tedious. Build a simple rule engine to handle the bulk of transactions automatically:
 
@@ -193,7 +198,7 @@ Run this weekly against your bank export:
 python categorize.py bank_export.csv > categorized_expenses.csv
 ```
 
-### Step 5: Handling Mixed Expenses
+## Handling Mixed Expenses
 
 Some purchases benefit both business and personal use. The IRS allows proportional deductions in many cases. Track these explicitly:
 
@@ -222,7 +227,7 @@ def calculate_deduction():
 print(f"Business mileage deduction: ${calculate_deduction():.2f}")
 ```
 
-### Step 6: Monthly Review System
+## Monthly Review System
 
 Set up a recurring calendar block for financial review. A 30-minute monthly session keeps everything manageable:
 
@@ -234,7 +239,7 @@ Set up a recurring calendar block for financial review. A 30-minute monthly sess
 
 This rhythm prevents end-of-year panic and keeps your books always ready for quarterly tax estimates.
 
-### Step 7: Quarterly Tax Estimation Script
+## Quarterly Tax Estimation Script
 
 Freelancers in the US pay estimated taxes quarterly. Automate the calculation:
 
@@ -283,21 +288,6 @@ Run this before IRS deadlines (April 15, June 15, September 15, January 15).
 | Wave | SaaS | Free | Non-technical freelancers |
 | FreshBooks | SaaS | $17+/month | Invoicing-heavy businesses |
 | QuickBooks | SaaS | $15/month | Tax categorization |
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Frequently Asked Questions
 

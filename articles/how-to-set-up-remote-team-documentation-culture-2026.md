@@ -29,7 +29,7 @@ Most teams understand documentation matters. They fail in execution because:
 
 Documentation succeeds when you make it the path of least resistance—writing a doc is faster than answering the same question three times.
 
-### Step 1: Core Documentation System Architecture
+## Core Documentation System Architecture
 
 A three-tier system separates temporary, working, and persistent knowledge:
 
@@ -50,7 +50,7 @@ Captured decisions, technical choices, active projects. Lives in a shared drive 
 
 Setup guides, API specs, architectural decisions, process manuals. Updated alongside code/process changes.
 
-### Step 2: Tool Recommendations by Use Case
+## Tool Recommendations by Use Case
 
 ### Primary Documentation Repository
 
@@ -59,13 +59,13 @@ Setup guides, API specs, architectural decisions, process manuals. Updated along
 ```markdown
 # Notion Doc Structure for Remote Teams
 
-### Step 3: Database Views:
+## Database Views:
 - All Docs (master list)
 - By Category (Onboarding, API, Operations)
 - By Last Updated (find stale docs)
 - By Owner (who maintains this)
 
-### Step 4: Permissions:
+## Permissions:
 - Team can read all docs
 - Department can edit own docs
 - Tech lead reviews before publish
@@ -80,13 +80,13 @@ Setup guides, API specs, architectural decisions, process manuals. Updated along
 ```markdown
 # /docs/architecture
 
-### Step 5: API Design Decisions
+## API Design Decisions
 - Folder structure mirrors projects
 - Each decision gets an ADR file (see templates below)
 - Pull requests required before publishing
 - Auto-syncs to internal wiki
 
-### Step 6: File structure:
+## File structure:
 docs/
 ├── adr/ (Architecture Decision Records)
 ├── api/ (API reference)
@@ -104,7 +104,7 @@ docs/
 **Cost**: $5-10/person/month
 **Use when**: Your company already uses Jira, need complex permission models, large teams (100+)
 
-### Step 7: Documentation Templates
+## Documentation Templates
 
 ### 1. Architecture Decision Record (ADR)
 
@@ -113,29 +113,29 @@ Use this for major technical decisions. One document per decision, kept for hist
 ```markdown
 # ADR-042: Use GraphQL Instead of REST API
 
-### Step 8: Status
+## Status
 ACCEPTED (2026-03-22)
 
-### Step 9: Context
+## Context
 The API was becoming fragmented with multiple versioning schemes.
 Mobile app needed different data than web frontend.
 Performance issues with n+1 queries required query optimization.
 
-### Step 10: Decision
+## Decision
 We will build all new API endpoints using GraphQL with Apollo Server.
 Existing REST endpoints will be maintained for 12 months, then deprecated.
 
-### Step 11: Consequences
+## Consequences
 - Positive: Reduces over-fetching, single endpoint, self-documenting schema
 - Negative: Learning curve for team, CDN caching more complex
 - Risk: GraphQL can enable expensive queries—need rate limiting
 
-### Step 12: Alternatives Considered
+## Alternatives Considered
 1. REST v2 with OpenAPI—rejected because doesn't solve n+1 problem
 2. gRPC—rejected because mobile clients don't use gRPC
 3. Hybrid REST/GraphQL—rejected as more complex to maintain
 
-### Step 13: Related Decisions
+## Related Decisions
 - ADR-038: Schema versioning strategy
 - ADR-041: Query complexity analysis implementation
 ```
@@ -152,13 +152,13 @@ Use this template for every decision, store in `/docs/adr/`. Keep them brief (1-
 - AWS CLI configured with production credentials
 - Slack notification channel: #deployments
 
-### Step 14: Pre-Deployment Checklist
+## Pre-Deployment Checklist
 - [ ] All tests pass: `npm test`
 - [ ] Code reviewed and approved
 - [ ] Changelog updated
 - [ ] Database migrations tested on staging
 
-### Step 15: Deploy ment Steps
+## Deployment Steps
 
 ### 1. Build and Push Docker Image
 ```bash
@@ -169,8 +169,8 @@ docker push 12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3
 ### 2. Update Kubernetes Deployment
 ```bash
 kubectl set image deployment/myservice \
- myservice=12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3 \
- -n production
+  myservice=12345678.dkr.ecr.us-east-1.amazonaws.com/myservice:1.2.3 \
+  -n production
 ```
 
 ### 3. Monitor Rollout
@@ -180,12 +180,12 @@ kubectl rollout status deployment/myservice -n production
 kubectl logs -f deployment/myservice -n production --all-containers=true
 ```
 
-### Step 16: Rollback Procedure (if needed)
+## Rollback Procedure (if needed)
 ```bash
 kubectl rollout undo deployment/myservice -n production
 ```
 
-### Step 17: Verification
+## Verification
 - [ ] Health check endpoint returns 200
 - [ ] Key logs show no errors in first 5 minutes
 - [ ] Database connections healthy
@@ -210,7 +210,7 @@ Keep runbooks concise but complete. Include exact commands copy-pasteable into t
 ```markdown
 # Onboarding: New Engineer
 
-### Step 18: Week 1: Environment & Access
+## Week 1: Environment & Access
 
 ### Day 1
 - [ ] Laptop provisioned and configured
@@ -236,7 +236,7 @@ Keep runbooks concise but complete. Include exact commands copy-pasteable into t
 - [ ] Attend team standup, tech sync
 - [ ] Code review one existing PR (don't merge)
 
-### Step 19: Week 2: First Feature
+## Week 2: First Feature
 
 - [ ] Pick a small feature from backlog
 - [ ] Pair with engineer for 1 hour on design
@@ -245,14 +245,14 @@ Keep runbooks concise but complete. Include exact commands copy-pasteable into t
 - [ ] Deploy to staging, test end-to-end
 - [ ] Merge and deploy to production
 
-### Step 20: Week 3-4: Autonomy
+## Week 3-4: Autonomy
 
 - [ ] Work on features independently
 - [ ] Own one small service/module
 - [ ] Shadow one deploy, then own one deploy
 - [ ] Document one internal process you discovered
 
-### Step 21: End of Month Evaluation
+## End of Month Evaluation
 - [ ] Can run the entire test suite and debug failures
 - [ ] Can deploy code independently
 - [ ] Can review pull requests from peers
@@ -261,7 +261,7 @@ Keep runbooks concise but complete. Include exact commands copy-pasteable into t
 
 Customize this per role, but keep the structure: access → setup → paired work → independent work.
 
-### Step 22: Build Async Decision-Making
+## Building Async Decision-Making
 
 Synchronous decision-making (meetings, Slack threads) doesn't scale across time zones. Shift to async by default:
 
@@ -289,7 +289,7 @@ Synchronous decision-making (meetings, Slack threads) doesn't scale across time 
 
 This workflow respects time zones—no one has to wake up early for a meeting. Decisions ship faster because people have time to think deeply.
 
-### Step 23: Maintaining Documentation (The Hardest Part)
+## Maintaining Documentation (The Hardest Part)
 
 Documentation rots because no one owns staleness. Prevent decay:
 
@@ -340,7 +340,7 @@ class BatchProcessor {
 
 When code changes, developers see the doc link and update it.
 
-### Step 24: Real-World Setup Timeline
+## Real-World Setup Timeline
 
 **Week 1**: Choose tool, create folder structure, write 5 core docs
 **Week 2**: Onboard team, establish review process, write runbooks
@@ -356,7 +356,7 @@ When code changes, developers see the doc link and update it.
 4. **Wrong tool**: Wiki software is fine; choosing the wrong one kills adoption.
 5. **No time allocation**: "Document in your spare time" → never happens. Budget 5-10% of sprint.
 
-### Step 25: Integration with Slack
+## Integration with Slack
 
 Make docs discoverable in Slack:
 

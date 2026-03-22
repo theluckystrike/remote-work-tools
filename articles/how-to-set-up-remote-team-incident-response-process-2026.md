@@ -13,21 +13,8 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
+
 Production incidents don't wait for business hours. Distributed teams need defined processes for alert routing, on-call escalation, runbook execution, and post-incident reviews. Here's what works without chaos.
-
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Lessons Learned
-1.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Why Distributed Teams Need Structure
 
@@ -51,7 +38,7 @@ With structure:
 - Post-mortem identifies root cause and prevention
 - Next incident response is faster
 
-### Step 2: 1. Alert Routing: PagerDuty vs OpsGenie
+## 1. Alert Routing: PagerDuty vs OpsGenie
 
 ### PagerDuty (Better for Large Teams)
 
@@ -151,7 +138,7 @@ Most teams use PagerDuty for established operations, OpsGenie for startups.
 This guide focuses on PagerDuty but concepts apply to OpsGenie equally.
 ---
 
-### Step 3: 2. On-Call Rotation Schedule
+## 2. On-Call Rotation Schedule
 
 ### Simple Weekly Rotation
 
@@ -214,7 +201,7 @@ This prevents burnout (on-call is stressful; middle-of-night wakeups are worse).
 
 ---
 
-### Step 4: 3. Runbook Template
+## 3. Runbook Template
 
 A runbook is "what to do when X breaks." 1-page maximum.
 
@@ -223,19 +210,19 @@ A runbook is "what to do when X breaks." 1-page maximum.
 ```
 # Incident Runbook: Database Connection Pool Exhaustion
 
-### Step 5: Symptoms
+## Symptoms
 - API returns "Connection timeout" errors
 - Database connection count maxed
 - Latency spikes on all endpoints
 
-### Step 6: Diagnosis (< 2 minutes)
+## Diagnosis (< 2 minutes)
 1. Log in to Datadog dashboard (link: https://...)
 2. Check metric: "postgres_active_connections"
 3. If > 90, proceed to resolution
 4. Check metric: "query_duration_p99"
 5. If > 5s, database is slow (add to slow query runbook)
 
-### Step 7: Quick Fix (5 minutes)
+## Quick Fix (5 minutes)
 1. SSH into app-server-1: `ssh ubuntu@app-1.internal`
 2. Check connection status: `curl localhost:8080/health`
 3. Restart app container: `docker restart app`
@@ -243,21 +230,21 @@ A runbook is "what to do when X breaks." 1-page maximum.
 
 If not recovered in 2 minutes, escalate to database team.
 
-### Step 8: Root Cause Investigation (post-incident)
+## Root Cause Investigation (post-incident)
 - Check logs: `grep "Connection pool" /var/log/app.log | tail -100`
 - Look for: Query hangs, connection leaks, traffic spike
 - Common causes: Slow query, missing index, upstream service failure
 
-### Step 9: Escalation
+## Escalation
 If database team on-call unreachable after 3 min, escalate to VP Eng
 
-### Step 10: Verification Metrics
+## Verification Metrics
 - Connection count: < 50 (normal)
 - Query latency p99: < 200ms
 - Error rate: < 0.1%
 - All checks green: Incident resolved
 
-### Step 11: Post-Incident
+## Post-Incident
 - Schedule follow-up meeting to investigate root cause
 - Implement prevention (e.g., connection pool monitoring)
 ```
@@ -269,17 +256,17 @@ Example: Disk Space Exhaustion
 ```
 # Incident Runbook: Production Disk Space Critical
 
-### Step 12: Symptoms
+## Symptoms
 - File writes failing (500 errors)
 - Datadog alert: "Disk > 95%"
 - Log streaming stopping
 
-### Step 13: Diagnosis (< 2 minutes)
+## Diagnosis (< 2 minutes)
 SSH: ssh ubuntu@prod-1
 Check disk: `df -h /data`
 Identify large files: `du -sh /data/* | sort -h`
 
-### Step 14: Quick Fix
+## Quick Fix
 # Delete old logs (safe)
 find /data/logs -type f -mtime +30 -delete
 
@@ -290,11 +277,11 @@ systemctl restart rsyslog
 df -h /data (should drop to < 80%)
 curl localhost:8080/health (should return 200)
 
-### Step 15: If Still Critical
+## If Still Critical
 Delete container cache: `docker system prune -a`
 This is more aggressive, requires verification after
 
-### Step 16: Escalation
+## Escalation
 If above steps don't free space, page infra team
 ```
 
@@ -303,31 +290,31 @@ Example: Payment Service Failure
 ```
 # Incident Runbook: Payment Processing Down
 
-### Step 17: Symptoms
+## Symptoms
 - Checkout fails with "Payment gateway error"
 - Stripe webhook queue backing up
 - Customer emails arriving
 
-### Step 18: Diagnosis (< 2 minutes)
+## Diagnosis (< 2 minutes)
 Check Stripe API status: https://status.stripe.com/
 Check internal status page: https://internal/status/stripe-integration
 Check logs: `grep "stripe_error" app.log | tail -20`
 
-### Step 19: Quick Fix Option 1: Stripe is Down
+## Quick Fix Option 1: Stripe is Down
 Wait for Stripe recovery, display banner to customers
 Enable "maintenance mode" to prevent orders during outage
 https://internal/admin/maintenance-mode
 
-### Step 20: Quick Fix Option 2: Our Integration is Broken
+## Quick Fix Option 2: Our Integration is Broken
 Restart Stripe sync: `kubectl rollout restart deployment/stripe-sync`
 Verify: `curl https://internal/api/stripe-health`
 Check queue size: `redis-cli GET stripe:queue:length`
 
-### Step 21: If Queue Backing Up > 1 hour
+## If Queue Backing Up > 1 hour
 Page payments team, consider manual order approval
 Escalate to CTO
 
-### Step 22: Post-Incident
+## Post-Incident
 - Review Stripe API logs for error patterns
 - Add more detailed error logging to catch next time
 - Improve monitoring on queue depth
@@ -344,7 +331,7 @@ Escalate to CTO
 
 ---
 
-### Step 23: 4. Incident Communication During Active Incident
+## 4. Incident Communication During Active Incident
 
 ### Slack Channel Setup
 
@@ -405,7 +392,7 @@ Full technical post-mortem: https://...
 
 ---
 
-### Step 24: 5. Post-Mortem Template
+## 5. Post-Mortem Template
 
 Conducted within 48 hours, while details are fresh.
 
@@ -414,7 +401,7 @@ Conducted within 48 hours, while details are fresh.
 ```
 # Post-Mortem: Database Connection Pool Exhaustion (INC-2026-3421)
 
-### Step 25: Timeline
+## Timeline
 02:30 UTC — Prometheus alert fires (DB connections 95%)
 02:31 UTC — PagerDuty notifies Alice (on-call engineer)
 02:32 UTC — Alice acknowledges, starts investigation
@@ -423,13 +410,13 @@ Conducted within 48 hours, while details are fresh.
 02:37 UTC — Connections drop, latency recovers
 02:45 UTC — All systems stable, incident declared resolved
 
-### Step 26: Impact
+## Impact
 - Duration: 7 minutes
 - Affected: ~2% of payment transactions (450 failed)
 - Customer-facing: Payment page returned errors
 - Team effort: 1 engineer, ~15 min response + fix
 
-### Step 27: Root Cause
+## Root Cause
 Bulk user export feature added Friday, no performance testing on production dataset.
 Query performed full table scan (50M users) instead of indexed lookup.
 Query took 45+ seconds per request, exhausted connection pool within minutes.
@@ -440,18 +427,18 @@ Query took 45+ seconds per request, exhausted connection pool within minutes.
 3. No performance test against production-scale data
 4. No index on table, even though query required it
 
-### Step 28: Lessons Learned
+## Lessons Learned
 1. All new queries should have EXPLAIN ANALYZE review
 2. Staging environment doesn't match production scale
 3. Index recommendations should be automated in code review
 
-### Step 29: Action Items (Who / When)
+## Action Items (Who / When)
 1. [Alice] Add database.md runbook for connection pool exhaustion (by Friday)
 2. [Bob] Create script to compare staging vs prod data volumes (by next week)
 3. [Charlie] Set up automated EXPLAIN ANALYZE checks in CI (by sprint end)
 4. [Dave] Review all bulk query code for index coverage (by next week)
 
-### Step 30: Follow-Up
+## Follow-Up
 - Review in 1 week (are action items complete?)
 - Monitor bulk export performance daily for next 2 weeks
 - Mention in team standup (everyone learns from this)
@@ -472,7 +459,7 @@ Query took 45+ seconds per request, exhausted connection pool within minutes.
 
 ---
 
-### Step 31: 6. Complete Setup Checklist
+## 6. Complete Setup Checklist
 
 ### Week 1: Foundation
 
@@ -507,7 +494,7 @@ Query took 45+ seconds per request, exhausted connection pool within minutes.
 
 ---
 
-### Step 32: Real Metrics to Track
+## Real Metrics to Track
 
 After 2 weeks of process:
 
@@ -531,7 +518,7 @@ Customer Impact Severity:
 
 ---
 
-### Step 33: Common Mistakes
+## Common Mistakes
 
 **Mistake 1: Runbook too long (3+ pages)**
 - People don't read it during incident
@@ -554,21 +541,6 @@ Customer Impact Severity:
 - Update runbook every time you fix an incident
 
 ---
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Related Articles
 

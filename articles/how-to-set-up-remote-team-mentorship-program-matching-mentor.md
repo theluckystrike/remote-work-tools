@@ -15,7 +15,6 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-
 Building a remote mentorship program requires more than pairing people arbitrarily. The matching process determines whether your mentorship relationships flourish or fade within weeks. A well-designed matching system considers skills, goals, time zones, communication preferences, and availability—then produces pairs that set both mentors and mentees up for success.
 
 This guide covers practical approaches to matching mentors and mentees in remote teams, with concrete examples you can implement immediately.

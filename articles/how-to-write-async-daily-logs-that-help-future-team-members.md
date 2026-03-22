@@ -29,17 +29,7 @@ When you write daily logs with future readers in mind, you're building instituti
 
 The key insight is this: you're not writing for today. You're writing for someone who needs to understand your work six months from now, possibly while you're on vacation or have left the team.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: What Makes a Daily Log Helpful
+## What Makes a Daily Log Helpful
 
 Not all daily logs are created equal. After reviewing hundreds of team documentation systems, these elements consistently distinguish useful logs from noise:
 
@@ -48,7 +38,7 @@ Not all daily logs are created equal. After reviewing hundreds of team documenta
 Future readers need to understand not just what you did, but why. Record the context that led to your choices:
 
 ```
-### Step 2: March 18, 2026
+## March 18, 2026
 
 ### Decision: Chose PostgreSQL over MongoDB for user data storage
 
@@ -66,7 +56,7 @@ Status: Implemented in PR #234
 Capture information that exists only in your head or Slack messages:
 
 ```
-### Step 3: March 18, 2026
+## March 18, 2026
 
 ### API Rate Limiting Implementation
 
@@ -83,7 +73,7 @@ Recommendation for future: Test actual limits before implementing aggressive thr
 Every claim should be traceable. Link to PRs, tickets, Slack conversations, or documentation:
 
 ```
-### Step 4: March 18, 2026
+## March 18, 2026
 
 ### Investigated memory leak in production
 
@@ -98,7 +88,7 @@ Every claim should be traceable. Link to PRs, tickets, Slack conversations, or d
 Record things you learned that others might find useful:
 
 ```
-### Step 5: March 18, 2026
+## March 18, 2026
 
 ### Discovery: Vercel's ISR has a 60-second timeout
 
@@ -110,12 +100,12 @@ Learned while debugging deployment failures:
 This could affect other pages with large datasets - recommend auditing before launch
 ```
 
-### Step 6: Daily Log Template
+## Daily Log Template
 
 Here's a practical template you can adapt for your team:
 
 ```
-### Step 7: [Date]
+## [Date]
 
 ### What I Worked On
 - [Task 1]: Brief description with ticket/issue reference
@@ -136,7 +126,7 @@ Here's a practical template you can adapt for your team:
 - [Any context that would be helpful in 6 months]
 ```
 
-### Step 8: Tools and Platforms for Daily Logs
+## Tools and Platforms for Daily Logs
 
 Different teams prefer different systems. Here are options that work well:
 
@@ -197,7 +187,7 @@ For engineering teams already on GitHub, using Discussions as a daily log platfo
 Title: "Q1 Sprint 3 Daily Logs - Arch Team"
 
 Each day, reply with:
-### Step 9: March 18, 2026
+## March 18, 2026
 
 **Decision:** API caching strategy changed from Redis to in-process LRU cache
 
@@ -269,7 +259,7 @@ Thread:
 
 **Best for:** Small, fast-moving teams; good as a starting point before migrating to formal documentation.
 
-### Step 10: Real-World Onboarding Example
+## Real-World Onboarding Example
 
 Here's how daily logs accelerate onboarding. A new backend engineer joining the team can search "database decisions 2026" and find:
 
@@ -280,14 +270,14 @@ Here's how daily logs accelerate onboarding. A new backend engineer joining the 
 
 Compare this to traditional onboarding: asking three people separately the same questions, getting inconsistent answers, and taking weeks to build this knowledge. Daily logs compress that to days.
 
-### Step 11: Integration Strategies with Existing Workflows
+## Integration Strategies with Existing Workflows
 
 ### CI/CD Integration
 
 Pair daily logs with automated PR summaries. When a PR merges, add a note to your log:
 
 ```
-### Step 12: March 18, 2026
+## March 18, 2026
 
 ### Merged: Stripe webhook signature verification
 
@@ -310,21 +300,6 @@ Example: If three daily log entries mention "confusion around acceptance criteri
 
 Include "review daily logs from your first sprint" in your onboarding checklist. Point new team members to logs from the past 3 months as their first learning resource. Many teams find this replaces 50% of their formal onboarding docs.
 ---
-
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

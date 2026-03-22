@@ -12,6 +12,20 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Linux Server Hardening Guide for Remote Developers"
+description: "Harden a Linux VPS or home lab server for remote development use. Covers SSH key auth, UFW firewall, fail2ban, unattended upgrades, and audit logging setup."
+date: 2026-03-21
+author: theluckystrike
+permalink: /linux-server-hardening-remote-developers/
+categories: [guides]
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 

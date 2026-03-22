@@ -19,6 +19,22 @@ A runbook is a document that an engineer unfamiliar with a system can follow to 
 
 Remote teams are especially dependent on good runbooks — there is no one to turn to in the next cubicle. This guide covers how to write runbooks that actually work.
 
+## What a Runbook Is Not
+
+Before writing, clarify the distinction:
+
+- **Runbook**: step-by-step procedure for a specific operational task (deploy a hotfix, restart a service, rotate a certificate)
+- **Architecture doc**: how the system is designed
+- **Postmortem**: what went wrong and why
+- **Playbook**: collection of runbooks and decision guides for an incident type
+
+Runbooks are narrow and task-specific. "Deploy to production" is a runbook. "How our deployment architecture works" is not.
+
+## Runbook Structure
+
+Every runbook follows the same structure regardless of the task:
+
+```markdown
 # [Task Name]
 
 **Owner**: [team or person responsible for keeping this current]
@@ -33,7 +49,7 @@ What the executor needs before starting:
 - [ ] [Tool] installed and configured
 - [ ] Notify [#channel] before starting
 
-### Step 3: Steps
+## Steps
 
 ### 1. [First major action]
 
@@ -55,7 +71,7 @@ If you see [error], do [specific action]. If you see [other error], STOP and esc
 
 ...
 
-### Step 4: Verification
+## Verification
 
 How to confirm the task completed successfully:
 
@@ -66,7 +82,7 @@ curl -s https://yourservice.com/health | jq '.status'
 
 Expected: `"ok"` — if not, see Rollback.
 
-### Step 5: Rollback
+## Rollback
 
 If the task needs to be reversed:
 
@@ -75,7 +91,7 @@ If the task needs to be reversed:
 exact-rollback-command
 ```
 
-### Step 6: Escalation
+## Escalation
 
 If this runbook does not resolve the situation:
 - Ping [person/team] in [#channel]
@@ -83,7 +99,7 @@ If this runbook does not resolve the situation:
 - Link to postmortem template: [link]
 ```
 
-### Step 7: Write for the Worst Case
+## Write for the Worst Case
 
 The person executing your runbook may be:
 - Junior, unfamiliar with the system
@@ -94,14 +110,14 @@ The person executing your runbook may be:
 Write accordingly. Every step should answer: "What do I type, what do I see if it worked, what do I do if it doesn't?"
 
 ```markdown
-### Step 8: BAD: Ambiguous step
+## BAD: Ambiguous step
 
 ### 3. Restart the application
 
 Restart the app server.
 ---
 
-### Step 9: GOOD: Explicit step
+## GOOD: Explicit step
 
 ### 3. Restart the application server
 
@@ -135,12 +151,12 @@ Expected: status shows `Active: active (running)` for at least 10 seconds. Logs 
 If the service fails to start after restart, STOP. Do not retry. Escalate to [#on-call] immediately.
 ```
 
-### Step 10: Decision Trees for Non-Linear Procedures
+## Decision Trees for Non-Linear Procedures
 
 Some procedures have branching paths — the right steps depend on what you observe. Decision trees prevent silent wrong choices.
 
 ```markdown
-### Step 11: Diagnose Database Connection Failures
+## Diagnose Database Connection Failures
 
 Start here:
 
@@ -155,16 +171,16 @@ psql -h db.internal -U appuser -d myapp -c "SELECT 1"
 → NO (timeout): Network issue. Go to [Step 5: Check Network](#step-5).
 ```
 
-### Step 12: Embed Exact Commands, Not Descriptions
+## Embed Exact Commands, Not Descriptions
 
 ```markdown
-### Step 13: BAD: Description only
+## BAD: Description only
 
 Check the disk usage and free up space if needed.
 
 ---
 
-### Step 14: GOOD: Exact commands
+## GOOD: Exact commands
 
 Check disk usage:
 ```bash
@@ -184,7 +200,7 @@ df -h /
 
 Never use `...` or `etc.` in a runbook. Every step is fully specified.
 
-### Step 15: Keep Commands Copy-Pasteable
+## Keep Commands Copy-Pasteable
 
 Remote engineers executing a runbook at 3am should not be transcribing commands. Every command block should be:
 
@@ -193,7 +209,7 @@ Remote engineers executing a runbook at 3am should not be transcribing commands.
 3. Correct for the target OS — do not mix macOS and Linux commands without labeling them
 
 ```markdown
-### Step 16: BAD: Requires substitution mid-command
+## BAD: Requires substitution mid-command
 
 ```bash
 kubectl rollout restart deployment/[APP_NAME] -n [NAMESPACE]
@@ -201,7 +217,7 @@ kubectl rollout restart deployment/[APP_NAME] -n [NAMESPACE]
 
 ---
 
-### Step 17: GOOD: Variables declared explicitly before commands
+## GOOD: Variables declared explicitly before commands
 
 Set these variables for your deployment:
 ```bash
@@ -216,19 +232,19 @@ kubectl rollout status deployment/${APP_NAME} -n ${NAMESPACE} --timeout=120s
 ```
 ```
 
-### Step 18: Perform Maintenance : Keep Runbooks Current
+## Maintenance: Keep Runbooks Current
 
 A runbook that is six months out of date is worse than no runbook — the engineer follows it with confidence and hits unexpected errors.
 
 ```markdown
 # Runbook Maintenance Process
 
-### Step 19: When a runbook must be updated:
+## When a runbook must be updated:
 - After any system change that affects the procedure
 - After an incident where following the runbook led to unexpected results
 - After each quarterly review
 
-### Step 20: Quarterly review checklist:
+## Quarterly review checklist:
 - [ ] Test the procedure end-to-end in staging
 - [ ] Update all screenshots (if any)
 - [ ] Verify all command outputs still match expected
@@ -238,7 +254,7 @@ A runbook that is six months out of date is worse than no runbook — the engine
 
 Assign runbook ownership explicitly. An owner without a name gets updated by nobody.
 
-### Step 21: Run book Inventory
+## Runbook Inventory
 
 Track all runbooks in a single index:
 
@@ -255,21 +271,6 @@ Track all runbooks in a single index:
 ```
 
 The index should live in the same location as the runbooks (Obsidian vault, Confluence space, or Notion database) and be the first page an on-call engineer opens.
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Related Reading
 
@@ -300,5 +301,4 @@ Yes, the underlying concepts transfer to other stacks, though the specific imple
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-```
 {% endraw %}

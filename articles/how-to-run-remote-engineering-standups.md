@@ -10,24 +10,13 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
 Most remote engineering standups are either pointless status reports or anxiety-inducing performance theater. The goal of a standup is coordination — surfacing blockers and dependencies so the team can help. This guide covers both async and synchronous formats that achieve that goal without wasting time.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: First Decision: Async or Synchronous
+## First Decision: Async or Synchronous
 
 **Choose async if:**
 - Your team spans 4+ timezones
@@ -43,7 +32,7 @@ Before you begin, make sure you have the following ready:
 
 Most teams over 6 people default to async. Most teams under 6 can make synchronous work.
 
-### Step 2: Async Format 1: Geekbot or Standuply
+## Async Format 1: Geekbot or Standuply
 
 Geekbot and Standuply both integrate with Slack to send each engineer a DM at a configured time, collect responses, and post a summary to the team channel.
 
@@ -89,7 +78,7 @@ Blockers: [none | specific blocker + who can unblock]
 
 Engineers should not be expected to respond to standup messages in real time. The standup is a status snapshot, not a conversation. If someone has a blocker, the IC or team lead follows up in a thread — not in the standup post.
 
-### Step 3: Async Format 2: GitHub-Based Standup
+## Async Format 2: GitHub-Based Standup
 
 For engineering teams that prefer keeping everything in GitHub:
 
@@ -146,7 +135,7 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_STANDUP_WEBHOOK }}
 ```
 
-### Step 4: Synchronous Format: The 15-Minute Rule
+## Synchronous Format: The 15-Minute Rule
 
 If you run synchronous standups, they must end in 15 minutes. No exceptions. When they run long, it's because they're solving problems in real time — which should happen in a different channel.
 
@@ -172,18 +161,18 @@ If it takes more than 30 seconds, say "let's take that to a thread."
 **Common synchronous standup failure modes:**
 
 1. **Status report theater**: Engineers summarize work no one needs to hear
- Fix: Only share info the team needs to act on
+   Fix: Only share info the team needs to act on
 
 2. **Problem-solving in standup**: Someone raises a bug and the team starts debugging
- Fix: "Let's take that to a follow-up — who else needs to be involved?"
+   Fix: "Let's take that to a follow-up — who else needs to be involved?"
 
 3. **Waiting for latecomers**: Starting 3-5 minutes late becomes the norm
- Fix: Start at the scheduled time, latecomers join where you are
+   Fix: Start at the scheduled time, latecomers join where you are
 
 4. **Rotating facilitator confusion**: No one knows who runs it
- Fix: Alphabetical rotation, posted in the team channel every Monday
+   Fix: Alphabetical rotation, posted in the team channel every Monday
 
-### Step 5: Hybrid Format for Mixed Timezones
+## Hybrid Format for Mixed Timezones
 
 When part of the team can meet synchronously but others can't:
 
@@ -202,7 +191,7 @@ Action items from standup go into the Slack thread,
 not a separate meeting.
 ```
 
-### Step 6: Measuring Standup Health
+## Measuring Standup Health
 
 Signs your standup is working:
 - Blockers get resolved within 2 hours of being raised
@@ -232,7 +221,7 @@ Different tools handle async standups differently. Choose based on your team's e
 
 For small teams (under 10 engineers), a manual Slack Workflow Builder setup is free and sufficient. For teams 10-50, Geekbot or Standuply provide reliable scaling without overhead. For 50+ teams, 15Five offers analytics that justify per-user costs.
 
-### Step 7: Standup Response Quality Template
+## Standup Response Quality Template
 
 Engineers often struggle to write useful standup responses. Provide this template in your #team-standup pinned messages:
 
@@ -262,7 +251,7 @@ FYI: PR #455 ready for review, straightforward auth fix
 
 Provide this in your onboarding docs so new engineers learn the format immediately.
 
-### Step 8: Async Standup Failure Modes and Fixes
+## Async Standup Failure Modes and Fixes
 
 | Problem | Symptom | Fix |
 |---------|---------|-----|
@@ -272,7 +261,7 @@ Provide this in your onboarding docs so new engineers learn the format immediate
 | Survey fatigue | Declining response rate over months | Switch to 3x/week or "blockers only" format |
 | Timezone misalignment | Some timezones never see their updates | Send survey at same UTC time, not local time |
 
-### Step 9: Engineering Standups at Different Team Sizes
+## Engineering Standups at Different Team Sizes
 
 **5-8 person teams:** Daily async via Slack works best. Synchronous standup once per week if timezone overlap allows.
 
@@ -297,18 +286,18 @@ Summary format: @username's update → [yesterday] [today] [blockers]
 ```markdown
 # Three-team structure (Platform, Frontend, Backend)
 
-### Step 10: Daily
+## Daily
 - Each sub-team: async standup in their Slack channel
 - Format: Same template, local timezone
 
-### Step 11: Weekly
+## Weekly
 - Blocker-only async in #eng-blockers (posted by each tech lead)
 - Cross-team sync (45 min): One rep from each sub-team
  - Reps rotate monthly
  - Agenda: blockers, metrics, upcoming priorities
 ```
 
-### Step 12: Create a Standup Dashboard
+## Creating a Standup Dashboard
 
 For teams using GitHub, create a simple dashboard showing standup health:
 
@@ -356,7 +345,7 @@ def standup_health(org_name, team_name):
  }
 ```
 
-### Step 13: Standup Anti-Patterns in Remote Teams
+## Standup Anti-Patterns in Remote Teams
 
 **Standup as Performance Review:** Engineers feel watched, responses become defensive and political. Fix: Explicitly state that standups track coordination, not performance.
 
@@ -366,7 +355,7 @@ def standup_health(org_name, team_name):
 
 **Same Blocker Every Day:** Engineer reports the same blocker 3 days in a row with no resolution. Fix: Any blocker reported twice gets escalated to tech lead immediately.
 
-### Step 14: Integration with Incident Response
+## Integration with Incident Response
 
 Standups provide early warning of systemic issues. When analyzing incidents, check:
 
@@ -377,7 +366,7 @@ Standups provide early warning of systemic issues. When analyzing incidents, che
 Document standup insights in postmortems:
 
 ```markdown
-### Step 15: Standup Intelligence Review
+## Standup Intelligence Review
 
 ### Week of [date]
 **Reported blockers:**
@@ -391,21 +380,6 @@ Yes — Tuesday's standup would have highlighted pattern
 - Add automated alerting for response time degradation
 - Require standup-level metrics dashboard
 ```
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Related Reading
 
