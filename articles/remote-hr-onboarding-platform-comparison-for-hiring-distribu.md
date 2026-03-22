@@ -31,6 +31,17 @@ voice-checked: true---
 
 Hiring across time zones introduces friction that traditional onboarding tools were never designed to handle. When your new hire starts in Tokyo while your HR team operates from San Francisco, the first-day orientation that works for co-located teams becomes a coordination nightmare. This review evaluates HR onboarding platforms based on their ability to support async workflows, developer-friendly integrations, and automation capabilities that matter to technical teams building distributed organizations.
 
+## Key Takeaways
+
+- **Limitations**: Document handling requires external integrations, limited time zone flexibility in task scheduling.
+- **ATS and hiring**: Leverate Workable or Greenhouse for candidate management
+2.
+- **Onboarding automation**: Use Zapier or Make (formerly Integromat) to trigger workflows
+3.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+- **If you work with**: sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
+- **However**: the async document collection features are more limited—you'll need third-party tools like DocuSign for actual paperwork completion.
+
 ## Evaluation Criteria for Remote-Onboarding Platforms
 
 Before examining specific platforms, establish the technical requirements that distinguish remote-capable onboarding tools from basic HR software:
