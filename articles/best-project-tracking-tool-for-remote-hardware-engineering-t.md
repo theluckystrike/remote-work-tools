@@ -16,6 +16,20 @@ voice-checked: true
 
 ## Hardware Engineering Project Tracking: Unique Challenges
 
+## Table of Contents
+
+- [Hardware Engineering Project Tracking: Unique Challenges](#hardware-engineering-project-tracking-unique-challenges)
+- [Hardware Project Tracking Tools: Feature Comparison](#hardware-project-tracking-tools-feature-comparison)
+- [Hardware Project Tracking Essentials](#hardware-project-tracking-essentials)
+- [Notion: The Flexible Hardware Tracker](#notion-the-flexible-hardware-tracker)
+- [Airtable: Purpose-Built for Hardware BOMs](#airtable-purpose-built-for-hardware-boms)
+- [Jira with Custom Hardware Tracking](#jira-with-custom-hardware-tracking)
+- [Decision Framework: Which Tool for Your Hardware Team](#decision-framework-which-tool-for-your-hardware-team)
+- [Hardware Project Template: Start Here](#hardware-project-template-start-here)
+- [Remote Hardware Team Challenges: Solutions](#remote-hardware-team-challenges-solutions)
+- [Real Example: 20-Unit Hardware Run Timeline in Notion](#real-example-20-unit-hardware-run-timeline-in-notion)
+- [Team Exercise: Design Your Hardware Tracker (90 minutes)](#team-exercise-design-your-hardware-tracker-90-minutes)
+
 Hardware projects differ from software. You can't hotfix manufacturing after deployment. Dependencies are physical (waiting for PCB fab, enclosure supplier) not just code. Progress isn't binary (shipped/not shipped)—it's prototyping phases (prototype → first run → pilot → production).
 
 Software tools assume fast iterations. Hardware needs to track long-lead dependencies, supplier timelines, physical inventory, and critical path items that delay everything.

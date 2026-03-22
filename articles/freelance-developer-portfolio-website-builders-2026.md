@@ -303,3 +303,4 @@ Avoid over-engineering. A simple, fast, honest portfolio with three well-documen
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+```

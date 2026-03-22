@@ -18,6 +18,53 @@ voice-checked: true
 
 Running effective meetings across distributed teams requires more than just showing up on a video call. Without a clear agenda, remote meetings either become unproductive status updates or spiral into unfocused discussions that waste everyone's time. A well-structured meeting agenda template for engineering teams addresses this challenge by providing a consistent format that keeps meetings focused, inclusive, and actionable.
 
+## Table of Contents
+
+- [Core Components of an Engineering Meeting Agenda](#core-components-of-an-engineering-meeting-agenda)
+- [Daily Standup Template for Remote Engineering](#daily-standup-template-for-remote-engineering)
+- [Previous Day Accomplishments](#previous-day-accomplishments)
+- [Today's Priorities](#todays-priorities)
+- [Blockers](#blockers)
+- [Async Updates (for those unable to attend)](#async-updates-for-those-unable-to-attend)
+- [Sprint Planning Meeting Template](#sprint-planning-meeting-template)
+- [Sprint Goal](#sprint-goal)
+- [Capacity Planning](#capacity-planning)
+- [Backlog Review](#backlog-review)
+- [Sprint Commitment](#sprint-commitment)
+- [Action Items](#action-items)
+- [Technical Design Review Template](#technical-design-review-template)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Architecture Changes](#architecture-changes)
+- [API Changes](#api-changes)
+- [Data Model Changes](#data-model-changes)
+- [Security Considerations](#security-considerations)
+- [Testing Strategy](#testing-strategy)
+- [Rollback Plan](#rollback-plan)
+- [Open Questions](#open-questions)
+- [Decisions Made During Review](#decisions-made-during-review)
+- [Retrospective Template for Remote Teams](#retrospective-template-for-remote-teams)
+- [What Went Well](#what-went-well)
+- [What Could Improve](#what-could-improve)
+- [Action Items for Next Sprint](#action-items-for-next-sprint)
+- [Team Health Metrics](#team-health-metrics)
+- [Async Feedback (collected before meeting)](#async-feedback-collected-before-meeting)
+- [Best Practices for Remote Meeting Agendas](#best-practices-for-remote-meeting-agendas)
+- [Additional Template: Code Review Session](#additional-template-code-review-session)
+- [PRs for Review](#prs-for-review)
+- [Pre-Meeting Setup](#pre-meeting-setup)
+- [During Session](#during-session)
+- [Action Items](#action-items)
+- [Template: Security and Compliance Review](#template-security-and-compliance-review)
+- [What We're Reviewing](#what-were-reviewing)
+- [Threat Model](#threat-model)
+- [Security Checklist](#security-checklist)
+- [Compliance Requirements](#compliance-requirements)
+- [Decision](#decision)
+- [Follow-up Items](#follow-up-items)
+- [Implementation: Converting Your Existing Meetings](#implementation-converting-your-existing-meetings)
+- [Meeting Improvement Process](#meeting-improvement-process)
+
 ## Core Components of an Engineering Meeting Agenda
 
 Every effective remote meeting agenda needs five essential elements: the meeting goal, required participants, pre-reading materials, a time-boxed agenda with specific topics, and clear action items with owners. When any of these components is missing, meetings tend to drift away from their purpose.
@@ -335,9 +382,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
-- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
-- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
 - [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
-- [Meeting Schedule Template for a 30 Person Remote Product Org](/remote-work-tools/meeting-schedule-template-for-a-30-person-remote-product-org/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [Best Wiki Template for Remote Team Engineering Design](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
+- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

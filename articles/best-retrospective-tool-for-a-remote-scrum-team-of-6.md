@@ -17,6 +17,22 @@ voice-checked: true
 
 ## Why Retrospective Tools Matter for Small Teams
 
+## Table of Contents
+
+- [Why Retrospective Tools Matter for Small Teams](#why-retrospective-tools-matter-for-small-teams)
+- [The Five Core Features You Need](#the-five-core-features-you-need)
+- [Dedicated Retro Tools vs. Generic Alternatives](#dedicated-retro-tools-vs-generic-alternatives)
+- [Step-by-Step Setup for a 6-Person Team](#step-by-step-setup-for-a-6-person-team)
+- [Common Retro Formats and When to Use Them](#common-retro-formats-and-when-to-use-them)
+- [Integration with Your Development Workflow](#integration-with-your-development-workflow)
+- [Managing Remote Team Dynamics](#managing-remote-team-dynamics)
+- [Measuring Retro Effectiveness](#measuring-retro-effectiveness)
+- [Real-World Retro Scripts: Word-for-Word Examples](#real-world-retro-scripts-word-for-word-examples)
+- [Running Retros Asynchronously for Maximum Engagement](#running-retros-asynchronously-for-maximum-engagement)
+- [Tool Deep Dives](#tool-deep-dives)
+- [Scaling From 6 People to 12+](#scaling-from-6-people-to-12)
+- [Common Failure Modes and Fixes](#common-failure-modes-and-fixes)
+
 A 6-person remote team is at the sweet spot where manual processes break and tooling becomes critical. Without a dedicated retrospective tool, your team either:
 
 1. Uses generic meeting notes (everyone forgets what was discussed)
@@ -367,11 +383,11 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Project Tracking Tool for Remote Hardware Engineering](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
-- [Best Kanban Board Tools for Remote Developers](/remote-work-tools/best-kanban-board-tools-for-remote-developers/)
-- [Best Proposal Software for Remote Web Development: 2026](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-2026/)
-- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
 - [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [How to Organize Remote Team Retrospective Learnings](/remote-work-tools/how-to-organize-remote-team-retrospective-learnings-document/)
+- [Best Tool for Remote Team Async Introductions](/remote-work-tools/best-tool-for-remote-team-async-introductions-connecting-new/)
+- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
+- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

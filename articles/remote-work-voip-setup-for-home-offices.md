@@ -151,11 +151,11 @@ Settings to configure in Linphone:
 ```
 Preferences > SIP Accounts > Add Account
 
-SIP Address:       sip:101@your-pbx.example.com
+SIP Address: "sip:101@your-pbx.example.com"
 SIP Password:      str0ng-ext-password
-SIP Server:        your-pbx.example.com:5060
+SIP Server: "your-pbx.example.com:5060"
 Transport:         TLS (recommended)
-STUN server:       stun.l.google.com:19302
+STUN server: "stun.l.google.com:19302"
 Enable ICE:        Yes
 SRTP:              Mandatory
 ```
@@ -194,10 +194,10 @@ iptables -t mangle -A PREROUTING -p udp --dport 10000:20000 -j DSCP --set-dscp-c
 
 # Apply QoS with HTB
 tc qdisc add dev eth0 root handle 1: htb default 30
-tc class add dev eth0 parent 1: classid 1:1 htb rate 100mbit
+tc class add dev eth0 parent 1: "classid 1:1 htb rate 100mbit"
 tc class add dev eth0 parent 1:1 classid 1:10 htb rate 5mbit ceil 10mbit prio 1  # VoIP
 tc class add dev eth0 parent 1:1 classid 1:30 htb rate 90mbit ceil 100mbit prio 3 # Default
-tc filter add dev eth0 parent 1: protocol ip handle 0x2e fw classid 1:10
+tc filter add dev eth0 parent 1: "protocol ip handle 0x2e fw classid 1:10"
 ```
 
 ## Fail2ban for SIP Security
@@ -297,4 +297,4 @@ asterisk -rx "sip show registry"
 - [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

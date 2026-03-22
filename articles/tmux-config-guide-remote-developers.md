@@ -33,6 +33,18 @@ tags: [remote-work-tools, remote-work]
 
 tmux is the single most important tool for remote developers who work over SSH. When your connection drops, your tmux session keeps running on the server. When you reconnect, you reattach and pick up exactly where you left off — no lost work, no killed processes, no interrupted builds.
 
+## Table of Contents
+
+- [Install tmux](#install-tmux)
+- [A Practical ~/.tmux.conf](#a-practical-tmuxconf)
+- [Install tmux Plugin Manager (TPM)](#install-tmux-plugin-manager-tpm)
+- [Session Management Patterns](#session-management-patterns)
+- [Window and Pane Layouts](#window-and-pane-layouts)
+- [SSH Persistence with tmux](#ssh-persistence-with-tmux)
+- [Useful Key Bindings Reference](#useful-key-bindings-reference)
+- [Copy Mode and Clipboard](#copy-mode-and-clipboard)
+- [Performance Tuning for Slow Connections](#performance-tuning-for-slow-connections)
+
 This guide covers practical tmux configuration: a solid `~/.tmux.conf`, session and window management patterns, plugin setup with tpm, and SSH persistence workflows.
 
 ## Install tmux
@@ -326,8 +338,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Zellij Terminal Config for Remote Developers](/remote-work-tools/zellij-terminal-config-remote-developers/)
 - [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
 - [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
+- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
 - [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -41,8 +41,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
 - [Remote Developer Documentation Collaboration Tools for Maint](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
-- [Documentation Platform for a 15 Person Remote Data Science T](/remote-work-tools/documentation-platform-for-a-15-person-remote-data-science-t/)
 - [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
-- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
+- [Best Tools for Remote Design System Management](/remote-work-tools/best-tools-remote-design-system-management/)
+- [Best Tools for Remote Team Design System Documentation 2026](/remote-work-tools/best-tools-for-remote-team-design-system-documentation-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

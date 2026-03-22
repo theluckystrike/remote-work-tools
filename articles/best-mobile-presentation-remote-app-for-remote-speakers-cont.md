@@ -221,8 +221,8 @@ For distributed teams where synchronous communication often happens through vide
 - [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 - [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
 - [Mobile Hotspot vs Tethering for Remote Work Reliability in](/remote-work-tools/remote-work-mobile-hotspot-vs-tethering-which-is-better-for-/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
 - [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
+- [Best Sim Card and Mobile Data Plan for Remote Workers](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

@@ -343,7 +343,6 @@ nginx -t && systemctl reload nginx
 - [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
 - [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
 - [Bermuda Work From Bermuda Certificate](/remote-work-tools/bermuda-work-from-bermuda-certificate-application-for-remote/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

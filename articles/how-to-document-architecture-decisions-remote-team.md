@@ -18,6 +18,32 @@ voice-checked: true
 
 Document architecture decisions in your remote team using Architecture Decision Records (ADRs)--structured Markdown files stored in your codebase under `docs/adr/` that capture the context, decision, and consequences of each significant technical choice. Use a three-phase async workflow: one person drafts the ADR, the team reviews over 48-72 hours across time zones, then the status is finalized and the record is merged. This creates a searchable trail of reasoning that survives personnel changes and eliminates reliance on memory or Slack history.
 
+## Table of Contents
+
+- [The ADR Standard](#the-adr-standard)
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Remote Collaboration Workflow](#remote-collaboration-workflow)
+- [Reviewers](#reviewers)
+- [Practical ADR Management](#practical-adr-management)
+- [Status](#status)
+- [Supersedes](#supersedes)
+- [Context](#context)
+- [Tags](#tags)
+- [Decision Templates Beyond ADRs](#decision-templates-beyond-adrs)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Open Questions](#open-questions)
+- [Timeline](#timeline)
+- [What Happened](#what-happened)
+- [Why](#why)
+- [Corrective Actions](#corrective-actions)
+- [Tools That Support Remote Decision Documentation](#tools-that-support-remote-decision-documentation)
+- [Common Pitfalls](#common-pitfalls)
+- [Building the Habit](#building-the-habit)
+
 ## The ADR Standard
 
 Architecture Decision Records (ADRs) provide a structured format for capturing significant technical choices. An ADR documents the context, the decision, and the consequences. Unlike meeting notes that capture what was discussed, an ADR captures what was decided and why.

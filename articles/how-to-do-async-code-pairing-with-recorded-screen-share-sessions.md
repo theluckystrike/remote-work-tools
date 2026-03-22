@@ -13,6 +13,12 @@
 
 
 
+
+
+
+
+
+
 layout: article
 title: "How to Do Async Code Pairing with Recorded Screen Share"
 description: "Learn how to conduct effective async code pairing sessions using recorded screen shares. Complete 2026 guide for remote development teams"
@@ -38,6 +44,51 @@ voice-checked: true
 ---
 
 
+
+
+
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+layout: article
+title: "How to Do Async Code Pairing with Recorded Screen Share"
+description: "Learn how to conduct effective async code pairing sessions using recorded screen shares. Complete 2026 guide for remote development teams"
+date: 2026-03-18
+last_modified_at: 2026-03-22
+author: "Remote Work Tools Guide"
+categories:
+ - remote-work
+ - collaboration
+ - development
+tags:
+ - async code pairing
+ - remote pair programming
+ - screen recording
+ - async collaboration
+ - code review
+ - developer productivity
+permalink: /how-to-do-async-code-pairing-with-recorded-screen-share-sessions/
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true---
+
+
+=======
+>>>>>>> ee0c965ee12a5fe6ea604c409db62573b2d3274b
 categories: [guides]
 
 {% raw %}

@@ -18,6 +18,20 @@ score: 9
 
 Working from your couch seems convenient. You wake up, grab your laptop, and settle into your comfortable living room for another day of coding. But that comfort comes with a hidden cost. After months of couch working, many remote developers experience chronic back pain that sneaks up gradually and then becomes difficult to ignore.
 
+## Table of Contents
+
+- [Why Couch Working Hurts Your Back](#why-couch-working-hurts-your-back)
+- [The Better Setup: Laptop Stands and Ergonomic Positioning](#the-better-setup-laptop-stands-and-ergonomic-positioning)
+- [Movement Routines That Counteract Sitting Damage](#movement-routines-that-counteract-sitting-damage)
+- [When to Reconsider Your Setup](#when-to-reconsider-your-setup)
+- [Building Sustainable Habits](#building-sustainable-habits)
+- [Equipment Recommendations and Pricing](#equipment-recommendations-and-pricing)
+- [Stretches and Exercises Specifically for Couch Workers](#stretches-and-exercises-specifically-for-couch-workers)
+- [When to Seek Professional Help](#when-to-seek-professional-help)
+- [Building a Couch-to-Desk Transition Plan](#building-a-couch-to-desk-transition-plan)
+- [Creating Sustainable Long-Term Habits](#creating-sustainable-long-term-habits)
+- [The Couch Isn't Inherently Bad](#the-couch-isnt-inherently-bad)
+
 The couch was never designed for 8-hour coding sessions. The soft cushions, lack of lumbar support, and hunched positions create perfect conditions for spinal stress. This guide provides actionable strategies to protect your back while still enjoying the flexibility of remote work.
 
 ## Why Couch Working Hurts Your Back

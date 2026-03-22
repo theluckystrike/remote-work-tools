@@ -18,6 +18,21 @@ intent-checked: true
 
 Dubai has positioned itself as a premier destination for remote workers, offering several visa pathways that cater specifically to tech professionals. Whether you're a freelance developer, a remote engineer working for a company abroad, or a startup founder looking to base yourself in the UAE, understanding your options can help you make an informed decision.
 
+## Table of Contents
+
+- [Visa Options for Remote Workers in Dubai](#visa-options-for-remote-workers-in-dubai)
+- [Cost Breakdown for Tech Professionals](#cost-breakdown-for-tech-professionals)
+- [Benefits for Tech Professionals](#benefits-for-tech-professionals)
+- [Application Process for Remote Workers](#application-process-for-remote-workers)
+- [Visa Application Checklist](#visa-application-checklist)
+- [Considerations Before Making the Move](#considerations-before-making-the-move)
+- [Complete Cost Analysis: 6-Month vs 1-Year Stay](#complete-cost-analysis-6-month-vs-1-year-stay)
+- [Tax Implications for Remote Workers](#tax-implications-for-remote-workers)
+- [Neighborhood Selection for Remote Workers](#neighborhood-selection-for-remote-workers)
+- [Banking and Financial Setup](#banking-and-financial-setup)
+- [Visa Extensions and Long-Term Planning](#visa-extensions-and-long-term-planning)
+- [Work-Life Balance Considerations](#work-life-balance-considerations)
+
 ## Visa Options for Remote Workers in Dubai
 
 Dubai offers multiple visa categories for remote workers, each with distinct requirements and benefits:

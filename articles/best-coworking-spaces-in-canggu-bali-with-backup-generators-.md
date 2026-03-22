@@ -394,7 +394,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
 - [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
-- [How to Find Coworking Spaces in Medellín Colombia](/remote-work-tools/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
+- [How to Test Internet Speed and Reliability Before Moving](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
 - [Coworking Space Day Pass Guide](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
 - [Coworking Space Finder Apps for Nomads](/remote-work-tools/coworking-space-finder-apps-for-nomads/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

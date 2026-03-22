@@ -361,9 +361,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
+- [Just-in-Time Database Access for Remote Teams](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 - [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
 - [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 - [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
-- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

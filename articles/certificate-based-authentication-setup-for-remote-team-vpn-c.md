@@ -304,8 +304,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
 - [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
+- [WireGuard VPN Setup for Remote Dev Teams (2026)](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
 - [Best Two-Factor Authentication Setup for Remote Team Shared](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
-- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Tailscale for Remote Team Networking Setup](/remote-work-tools/tailscale-remote-team-networking-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

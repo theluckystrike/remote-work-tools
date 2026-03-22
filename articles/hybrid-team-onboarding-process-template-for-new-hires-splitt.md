@@ -39,10 +39,10 @@ A clean reinstall sometimes resolves persistent issues caused by corrupted cache
 
 ## Related Articles
 
+- [Best Project Management Tools with GitHub Integration](/remote-work-tools/best-project-management-tools-with-github-integration/)
 - [.GitHub/ISSUE_TEMPLATE/oncall-shift.md](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
-- [Best Project Management CLI Tools 2026](/remote-work-tools/best-project-management-cli-tools-2026/)
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [Best Project Management CLI Tools 2026](/remote-work-tools/best-project-management-cli-tools-2026/)
 - [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
-- [Async Engineering Proposal Process Using GitHub Discussions](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

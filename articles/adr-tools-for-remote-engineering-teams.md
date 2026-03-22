@@ -235,7 +235,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Tools for Remote Architecture Decision Records](/remote-work-tools/best-tools-for-remote-architecture-decision-records/)
 - [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
 - [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Remote Work Tools: All Guides and Reviews](/remote-work-tools/guides-hub/)
 - [Best Chat Platforms for Remote Engineering Teams](/remote-work-tools/best-chat-platforms-remote-engineering-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

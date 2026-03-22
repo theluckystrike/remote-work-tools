@@ -17,6 +17,22 @@ voice-checked: true
 
 Deployment pipelines for co-located teams often rely on implicit coordination: people see each other, know who's deploying what, and can tap someone on the shoulder if something goes wrong. Remote teams need that coordination made explicit in the pipeline itself. This guide covers the patterns that make deployments safe for distributed teams across multiple time zones.
 
+## Table of Contents
+
+- [The Core Problem: Implicit Coordination Made Explicit](#the-core-problem-implicit-coordination-made-explicit)
+- [Deployment Window Policy](#deployment-window-policy)
+- [Async Deployment Approval](#async-deployment-approval)
+- [Deployment Announcement Template](#deployment-announcement-template)
+- [Rollback Automation](#rollback-automation)
+- [Deployment Checklist (Async)](#deployment-checklist-async)
+- [Pre-Deploy Checklist — [description] — [date]](#pre-deploy-checklist-description-date)
+- [On-Call Handoff for Deploys](#on-call-handoff-for-deploys)
+- [Deploy Handoff Note — [datetime]](#deploy-handoff-note-datetime)
+- [Feature Flags as a Deployment Safety Net](#feature-flags-as-a-deployment-safety-net)
+- [Deploy Metrics to Track](#deploy-metrics-to-track)
+- [Pipeline Tool Comparison](#pipeline-tool-comparison)
+- [Related Reading](#related-reading)
+
 ## The Core Problem: Implicit Coordination Made Explicit
 
 In a co-located team:

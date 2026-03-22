@@ -17,6 +17,30 @@ voice-checked: true
 
 Remote Solidity development teams face unique challenges when coordinating smart contract audits.分散在多个时区的开发者需要高效的沟通渠道、结构化的代码审查流程，以及能够跟踪审计进度的项目管理工具。本文介绍帮助远程Solidity团队协调智能合约审计的实际工具。
 
+## Table of Contents
+
+- [Communication and Synchronization Tools](#communication-and-synchronization-tools)
+- [Code Collaboration and Review](#code-collaboration-and-review)
+- [Contract Scope](#contract-scope)
+- [Audit Phase](#audit-phase)
+- [Security Considerations](#security-considerations)
+- [Test Coverage](#test-coverage)
+- [Project Management for Audit Workflows](#project-management-for-audit-workflows)
+- [Testing and Security Analysis Tools](#testing-and-security-analysis-tools)
+- [Documentation and Reporting](#documentation-and-reporting)
+- [Practical Workflow Example](#practical-workflow-example)
+- [Setting Up Your Audit Tool Workflow](#setting-up-your-audit-tool-workflow)
+- [Communication and Collaboration Patterns](#communication-and-collaboration-patterns)
+- [Price Comparison of Audit Tools](#price-comparison-of-audit-tools)
+- [Building Your Audit Checklist](#building-your-audit-checklist)
+- [Code Quality Review](#code-quality-review)
+- [Security Review](#security-review)
+- [Testing Coverage](#testing-coverage)
+- [Documentation](#documentation)
+- [Deployment Readiness](#deployment-readiness)
+- [Tool Selection Considerations](#tool-selection-considerations)
+- [Training and Onboarding](#training-and-onboarding)
+
 ## Communication and Synchronization Tools
 
 ### Discord with Threaded Channels
@@ -337,10 +361,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
 - [Best Collaborative Coding Tools for Remote Teams](/remote-work-tools/best-collaborative-coding-tools-for-remote-teams/)
 - [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 - [Best Tools for Remote React Native Teams Coordinating iOS](/remote-work-tools/best-tools-for-remote-react-native-teams-coordinating-ios-an/)
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [Remote Work Tools: All Guides and Reviews](/remote-work-tools/guides-hub/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

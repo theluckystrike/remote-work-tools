@@ -18,6 +18,27 @@ voice-checked: true
 
 Retrospectives are essential for continuous improvement, but traditional synchronous meetings often favor vocal team members and create timezone headaches for distributed teams. Silent brainstorming with digital stickies solves these problems by shifting the ideation phase to async, then following up with a focused synchronous discussion.
 
+## Table of Contents
+
+- [Why Silent Brainstorming Works Better for Remote Teams](#why-silent-brainstorming-works-better-for-remote-teams)
+- [Setting Up Your Digital Sticky Board](#setting-up-your-digital-sticky-board)
+- [What went well](#what-went-well)
+- [What could improve](#what-could-improve)
+- [Action items](#action-items)
+- [The Silent Brainstorming Process](#the-silent-brainstorming-process)
+- [Practical Example: Tech Team Sprint Retrospective](#practical-example-tech-team-sprint-retrospective)
+- [Tools for Digital Stickies](#tools-for-digital-stickies)
+- [Making It Work: Best Practices](#making-it-work-best-practices)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Automating Follow-Up](#automating-follow-up)
+- [Detailed Setup Guides for Each Platform](#detailed-setup-guides-for-each-platform)
+- [What went well](#what-went-well)
+- [What could improve](#what-could-improve)
+- [Action items](#action-items)
+- [Facilitation Techniques Beyond the Basics](#facilitation-techniques-beyond-the-basics)
+- [Scaling Silent Brainstorm to Large Teams](#scaling-silent-brainstorm-to-large-teams)
+- [Measuring Retrospective Effectiveness](#measuring-retrospective-effectiveness)
+
 ## Why Silent Brainstorming Works Better for Remote Teams
 
 In live retrospective meetings, several dynamics reduce effectiveness. Team members in different time zones struggle to attend at reasonable hours. Introverted developers often stay quiet while extroverts dominate the conversation. Quick thinkers with fast typing skills get their ideas recorded first, anchoring subsequent discussion.
@@ -335,10 +356,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
-- [How to Organize Remote Team Retrospective Learnings](/remote-work-tools/how-to-organize-remote-team-retrospective-learnings-document/)
 - [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [How to Organize Remote Team Retrospective Learnings](/remote-work-tools/how-to-organize-remote-team-retrospective-learnings-document/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [Remote Team Scaling Retrospective Template for Reflecting](/remote-work-tools/remote-team-scaling-retrospective-template-for-reflecting-on/)
 - [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
-- [Best Virtual Whiteboard for Remote Team Brainstorming](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

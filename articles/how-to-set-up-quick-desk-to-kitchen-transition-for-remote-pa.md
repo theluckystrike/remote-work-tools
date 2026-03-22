@@ -398,8 +398,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Quick inventory script to scan network for dormant machines](/remote-work-tools/return-to-office-it-checklist-for-reactivating-dormant-works/)
 - [ClickUp Automations for Developer Workflows: A Practical](/remote-work-tools/clickup-automations-for-developer-workflows/)
+- [How to Create Distraction Free Workspace at Home](/remote-work-tools/how-to-create-distraction-free-workspace-at-home/)
 - [Install OpenConnect (common in enterprise environments)](/remote-work-tools/remote-employee-digital-workspace-setup-guide-for-first-day-/)
 - [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
-- [Best Quick Healthy Snack Prep Ideas for Remote Working](/remote-work-tools/best-quick-healthy-snack-prep-ideas-for-remote-working-parents/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

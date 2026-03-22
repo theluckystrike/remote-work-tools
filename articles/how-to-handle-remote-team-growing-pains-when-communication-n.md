@@ -18,6 +18,29 @@ score: 8
 
 Every remote team reaches a tipping point. The communication norms that worked with five people suddenly fracture when you add fifteen more. Decisions that once happened in organic hallway conversations now require explicit coordination. The "just ask in Slack" approach that felt efficient becomes a noise problem that drives people to mute channels entirely.
 
+## Table of Contents
+
+- [Recognizing When Your Communication Norms Are Breaking](#recognizing-when-your-communication-norms-are-breaking)
+- [Building Communication Norms That Scale](#building-communication-norms-that-scale)
+- [Context](#context)
+- [Approach](#approach)
+- [Testing](#testing)
+- [Screenshots (if applicable)](#screenshots-if-applicable)
+- [Problem](#problem)
+- [Proposed Solution](#proposed-solution)
+- [Questions for Reviewer](#questions-for-reviewer)
+- [Response Time Expectations](#response-time-expectations)
+- [When to Escalate](#when-to-escalate)
+- [Tools and Automation for Communication at Scale](#tools-and-automation-for-communication-at-scale)
+- [Documenting Decisions and Creating Institutional Memory](#documenting-decisions-and-creating-institutional-memory)
+- [[Date] - [Short Title]](#date-short-title)
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+- [Rollback Command](#rollback-command)
+- [Tool Selection for Async Communication at Scale](#tool-selection-for-async-communication-at-scale)
+- [Managing the Transition Period](#managing-the-transition-period)
+- [Calibrating Communication as You Continue Growing](#calibrating-communication-as-you-continue-growing)
+
 This is the scaling problem every distributed team faces. Communication norms that emerge naturally in small teams rarely survive contact with growth. Here's how to recognize the warning signs and rebuild your communication infrastructure for scale.
 
 ## Recognizing When Your Communication Norms Are Breaking

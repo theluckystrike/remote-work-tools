@@ -18,6 +18,22 @@ voice-checked: true
 
 Remote work has blurred the lines between home and office, leading many professionals to consider surveillance cameras for child care, pet monitoring, or home security while they focus on work. However, implementing nanny cams without thoughtful policy creates legal risk, trust erosion, and potential ethical violations. This guide provides developers and power users with a practical framework for creating remote work nanny cam policies that respect caregiver privacy while maintaining household security.
 
+## Table of Contents
+
+- [Understanding the Legal and Ethical Landscape](#understanding-the-legal-and-ethical-landscape)
+- [Core Policy Components](#core-policy-components)
+- [Consent Documentation Best Practices](#consent-documentation-best-practices)
+- [Annual Consent Review Checklist](#annual-consent-review-checklist)
+- [Technical Recommendations for Privacy-Conscious Setup](#technical-recommendations-for-privacy-conscious-setup)
+- [Building Trust Through Transparency](#building-trust-through-transparency)
+- [State-by-State Legal Overview](#state-by-state-legal-overview)
+- [Hardware Recommendations](#hardware-recommendations)
+- [Creating a Caregiver Handbook](#creating-a-caregiver-handbook)
+- [Measuring Success](#measuring-success)
+- [Retention and Deletion](#retention-and-deletion)
+- [Alternatives to Nanny Cams](#alternatives-to-nanny-cams)
+- [Handling Camera-Related Conflict](#handling-camera-related-conflict)
+
 ## Understanding the Legal and Ethical Landscape
 
 Before deploying any camera system, understand that caregiver privacy laws vary significantly by jurisdiction. In many US states, recording someone without consent in private spaces constitutes wiretapping or privacy violation. Even in states with single-party consent, informing caregivers about cameras remains both legally prudent and ethically necessary.
@@ -303,8 +319,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
-- [Remote Team Vulnerability Disclosure Policy Template](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
 - [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
 - [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
 - [Remote Work Lactation Room Policy Template for Employees on](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

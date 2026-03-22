@@ -18,6 +18,16 @@ voice-checked: true
 
 Remote work has become the standard for many development teams, and allowing employees to use their personal devices increases flexibility while reducing hardware costs. However, without a proper legal framework, your organization faces significant risks around data security, liability, and regulatory compliance. This guide walks you through creating a legally sound Bring Your Own Device (BYOD) policy tailored for remote technical teams.
 
+## Table of Contents
+
+- [Why Your Remote Team Needs a BYOD Policy](#why-your-remote-team-needs-a-byod-policy)
+- [Core Components of a Legal BYOD Policy](#core-components-of-a-legal-byod-policy)
+- [Incident Response: Lost or Stolen BYOD Device](#incident-response-lost-or-stolen-byod-device)
+- [Offboarding Procedure for BYOD](#offboarding-procedure-for-byod)
+- [Regional Legal Considerations](#regional-legal-considerations)
+- [Enforcement and Policy Updates](#enforcement-and-policy-updates)
+- [Building Your Policy](#building-your-policy)
+
 ## Why Your Remote Team Needs a BYOD Policy
 
 When developers access company systems from personal laptops, tablets, or phones, your organization loses visibility into device security. A single compromised personal device can expose sensitive customer data, intellectual property, or internal communications. Beyond security concerns, regulatory frameworks like GDPR, HIPAA, and SOC 2 require documented controls over data access and storage.

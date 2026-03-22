@@ -17,6 +17,28 @@ voice-checked: true
 
 Slack in a 10-person team is manageable. Slack in a 200-person remote team without structure becomes a noise machine that creates anxiety, buries decisions, and wastes hours. This guide covers the structural changes that make Slack work at scale: channel taxonomy, notification policies, Workflow Builder automations, and async-first norms.
 
+## Table of Contents
+
+- [Channel Taxonomy](#channel-taxonomy)
+- [Notification Policy](#notification-policy)
+- [Required Channels](#required-channels)
+- [Workflow Builder Automations](#workflow-builder-automations)
+- [Channel Description Template](#channel-description-template)
+- [Async-First Norms to Codify](#async-first-norms-to-codify)
+- [Slack Norms](#slack-norms)
+- [Reducing Notification Anxiety at Scale](#reducing-notification-anxiety-at-scale)
+- [Slack Alternatives Worth Knowing](#slack-alternatives-worth-knowing)
+- [Analytics: Identifying Noise Channels](#analytics-identifying-noise-channels)
+- [Advanced Workflow Builder Patterns](#advanced-workflow-builder-patterns)
+- [Notification Audit Framework](#notification-audit-framework)
+- [Slack Notification Audit Checklist](#slack-notification-audit-checklist)
+- [Slack Bot Strategy for Engineering Teams](#slack-bot-strategy-for-engineering-teams)
+- [Building a Distributed Thread Culture](#building-a-distributed-thread-culture)
+- [Slack Threading Culture](#slack-threading-culture)
+- [Slack Workspace Scaling Milestones](#slack-workspace-scaling-milestones)
+- [Common Slack Mistakes to Avoid](#common-slack-mistakes-to-avoid)
+- [Related Reading](#related-reading)
+
 The failure mode is not that engineers use Slack wrong. It is that nobody ever defined what right looks like. Teams grow, channels multiply, and notification defaults stay at "everything." Twelve months later you have 400 channels, engineers with badges in the hundreds, and a team that treats Slack like an always-on meeting room.
 
 ## Channel Taxonomy
@@ -449,11 +471,10 @@ Slack alerts should never be your primary incident notification. Use a real aler
 
 ## Related Articles
 
-- [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+- [Slack Workflow Builder Automation Stopped Running Fix 2026](/remote-work-tools/slack-workflow-builder-automation-stopped-running-fix-2026/)
+- [How to Reduce Slack Notification Fatigue for Remote](/remote-work-tools/how-to-reduce-slack-notification-fatigue-for-remote-develope/)
+- [Best Slack Alternatives for Small Teams in 2026](/remote-work-tools/best-slack-alternatives-for-small-teams/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 - [Slack Workspace Structure for a 50 Person Remote](/remote-work-tools/slack-workspace-structure-for-a-50-person-remote-engineering/)
-- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
-- [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
-- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

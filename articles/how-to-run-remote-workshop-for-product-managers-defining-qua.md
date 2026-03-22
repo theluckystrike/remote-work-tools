@@ -358,6 +358,6 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
 - [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
 - [Virtual Craft Workshop Ideas for Remote Team Creative](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
-- [Remote Team OKR and Goal Tracking 2026](/remote-work-tools/remote-team-okr-goal-tracking-2026/)
+- [How to Facilitate Remote Team Workshops Using Miro with Structured Communication](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

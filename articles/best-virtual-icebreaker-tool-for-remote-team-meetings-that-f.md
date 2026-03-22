@@ -18,6 +18,29 @@ voice-checked: true
 
 Remote meetings often start with awkward silences or forced small talk that nobody genuinely enjoys. The right icebreaker transforms these moments into genuine connection without feeling like corporate theater. This guide covers approaches and tools that help remote teams have natural, low-friction opening interactions.
 
+## Table of Contents
+
+- [What Makes an Icebreaker Feel Natural](#what-makes-an-icebreaker-feel-natural)
+- [Quick-Start Approaches for Any Remote Team](#quick-start-approaches-for-any-remote-team)
+- [Check-in (2 min)](#check-in-2-min)
+- [Opening Question](#opening-question)
+- [Tools That Support Natural Icebreakers](#tools-that-support-natural-icebreakers)
+- [Quick Team Poll](#quick-team-poll)
+- [Running Effective Icebreakers: Practical Tips](#running-effective-icebreakers-practical-tips)
+- [When to Skip the Icebreaker](#when-to-skip-the-icebreaker)
+- [Tool Comparison: Software Solutions](#tool-comparison-software-solutions)
+- [Icebreaker Question Library](#icebreaker-question-library)
+- [Implementation by Meeting Type](#implementation-by-meeting-type)
+- [Weekly Sync Agenda](#weekly-sync-agenda)
+- [1-on-1 Conversation Starters](#1-on-1-conversation-starters)
+- [Sprint Kick-off Icebreaker](#sprint-kick-off-icebreaker)
+- [Building Your Team's Icebreaker Practice](#building-your-teams-icebreaker-practice)
+- [Documenting Your Team's Icebreaker Culture](#documenting-your-teams-icebreaker-culture)
+- [Our Philosophy](#our-philosophy)
+- [Weekly Questions Rotation](#weekly-questions-rotation)
+- [Tools We Use](#tools-we-use)
+- [What We've Learned](#what-weve-learned)
+
 ## What Makes an Icebreaker Feel Natural
 
 The difference between a natural icebreaker and an awkward one comes down to three factors: **voluntary participation**, **minimal preparation**, and **genuine curiosity**. When team members feel pressured to share personal details or prepare in advance, the activity becomes another meeting obligation rather than a genuine connection moment.

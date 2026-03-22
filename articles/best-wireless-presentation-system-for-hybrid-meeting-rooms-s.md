@@ -18,6 +18,20 @@ intent-checked: true
 {% raw %}
 Wireless presentation systems like Cisco Webex Room Navigator, Crestron AirMedia, and Extron XTP transform BYOD laptops into shared displays without dongles, with automatic detection of presenter OS (Windows, Mac, iPad) and handoff to video conferencing software. By eliminating hardware requirements and enabling one-tap screen sharing directly from laptops into meeting room displays, these systems reduce friction for both in-room and remote presenters while ensuring video conferencing software captures presentations for recording and integration. This eliminates the manual switching and compatibility headaches that plague hybrid meetings, allowing remote participants to see what's on screen in real-time while simplifying the presenter experience across all operating systems.
 
+## Table of Contents
+
+- [Core Requirements for BYOD Wireless Presentation](#core-requirements-for-byod-wireless-presentation)
+- [Leading Wireless Presentation Solutions](#leading-wireless-presentation-solutions)
+- [Technical Implementation Patterns](#technical-implementation-patterns)
+- [Security Considerations](#security-considerations)
+- [Deployment Recommendations](#deployment-recommendations)
+- [Pricing and Budget Considerations](#pricing-and-budget-considerations)
+- [Implementation Timeline and Rollout Strategy](#implementation-timeline-and-rollout-strategy)
+- [Rollout Pitfalls to Avoid](#rollout-pitfalls-to-avoid)
+- [Integration with Zoom, Teams, and Google Meet](#integration-with-zoom-teams-and-google-meet)
+- [Comparison: BYOD vs. Fixed Setup](#comparison-byod-vs-fixed-setup)
+- [Troubleshooting Connection Issues](#troubleshooting-connection-issues)
+
 Wireless presentation systems have become essential infrastructure for hybrid meeting rooms. The best solutions enable screen mirroring from any laptop without requiring dedicated software installations, support multiple presentation formats, and integrate with existing video conferencing platforms. This guide evaluates leading systems and provides implementation patterns for development teams building meeting room solutions.
 
 ## Core Requirements for BYOD Wireless Presentation

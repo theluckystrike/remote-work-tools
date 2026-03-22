@@ -33,6 +33,22 @@ tags: [remote-work-tools]
 
 Building a SaaS side project while freelancing represents one of the most effective paths to recurring revenue for developers. Unlike client work where you trade hours for money, a successful SaaS product generates income while you sleep. This guide covers practical strategies for freelance developers to validate, build, and launch SaaS side projects without disrupting their existing income.
 
+## Table of Contents
+
+- [Finding Your SaaS Idea](#finding-your-saas-idea)
+- [Choosing Your Technology Stack](#choosing-your-technology-stack)
+- [Building the Minimum Viable Product](#building-the-minimum-viable-product)
+- [Pricing Strategy for Freelancer SaaS](#pricing-strategy-for-freelancer-saas)
+- [Launch Strategies](#launch-strategies)
+- [Managing Time Between Clients](#managing-time-between-clients)
+- [Financial Planning and Long-Term Sustainability](#financial-planning-and-long-term-sustainability)
+- [Growth Metrics and Targets](#growth-metrics-and-targets)
+- [Customer Feedback Loop](#customer-feedback-loop)
+- [Date Range: [Week]](#date-range-week)
+- [Launch Checklist for Your First SaaS](#launch-checklist-for-your-first-saas)
+- [SaaS Failures: Common Patterns](#saas-failures-common-patterns)
+- [From SaaS to Acquisition](#from-saas-to-acquisition)
+
 ## Finding Your SaaS Idea
 
 The most sustainable SaaS products solve problems you encounter repeatedly in your freelance work. Every client project contains potential product seeds—internal tools you've built, repetitive workflows you've automated, or gaps in existing tooling that keep appearing.
@@ -390,7 +406,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
 - [Slack Communities for Freelance Remote Developers](/remote-work-tools/slack-communities-for-freelance-remote-developers/)
 - [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
-- [How to Scope Freelance Development Projects](/remote-work-tools/how-to-scope-freelance-development-projects/)
 - [Llc vs Sole Proprietor for Freelance Developers](/remote-work-tools/llc-vs-sole-proprietor-for-freelance-developers/)
+- [Project Management for Husband and Wife Freelance](/remote-work-tools/project-management-for-husband-and-wife-freelance-developmen/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

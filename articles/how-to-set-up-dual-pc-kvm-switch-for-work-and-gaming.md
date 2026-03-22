@@ -18,6 +18,25 @@ voice-checked: true
 
 Connect both PCs to a hardware KVM switch using one video cable (HDMI or DisplayPort) and one USB-B cable per machine, plug your monitor, keyboard, and mouse into the KVM's output ports, then switch between computers with a double-tap of Scroll Lock. For the most reliable dual-PC setup, choose a hardware KVM that matches your video connections and includes USB passthrough for peripherals like external drives and hardware tokens. This guide covers KVM selection, physical installation, hotkey configuration, and troubleshooting for a developer work-and-gaming setup.
 
+## Table of Contents
+
+- [Understanding Your KVM Options](#understanding-your-kvm-options)
+- [Selecting the Right KVM for Your Setup](#selecting-the-right-kvm-for-your-setup)
+- [Physical Installation Steps](#physical-installation-steps)
+- [Configuring Keyboard and Mouse Passthrough](#configuring-keyboard-and-mouse-passthrough)
+- [Using Keyboard Shortcuts for Fast Switching](#using-keyboard-shortcuts-for-fast-switching)
+- [Software KVM Alternatives for Advanced Users](#software-kvm-alternatives-for-advanced-users)
+- [Troubleshooting Common KVM Issues](#troubleshooting-common-kvm-issues)
+- [Practical Setup Example](#practical-setup-example)
+- [Advanced Configuration: Automatic Switching](#advanced-configuration-automatic-switching)
+- [Top KVM Models for Developers (2026)](#top-kvm-models-for-developers-2026)
+- [Advanced Peripheral Management](#advanced-peripheral-management)
+- [Troubleshooting Advanced Issues](#troubleshooting-advanced-issues)
+- [Cable Management Best Practices](#cable-management-best-practices)
+- [Performance Testing: Gaming vs Work](#performance-testing-gaming-vs-work)
+- [Building Your Ideal Setup Incrementally](#building-your-ideal-setup-incrementally)
+- [Switching Between Work and Gaming Mindsets](#switching-between-work-and-gaming-mindsets)
+
 ## Understanding Your KVM Options
 
 KVM switches come in several forms, each with distinct advantages for different use cases.

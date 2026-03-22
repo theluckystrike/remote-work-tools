@@ -17,6 +17,35 @@ voice-checked: true
 
 Style guides solve a specific remote work problem: code review comments about formatting and naming conventions. In a co-located team, a junior engineer can sit next to a senior and absorb conventions through proximity. In a remote team, they discover them through review feedback at PR time — which is slow and demoralizing. A style guide with automated enforcement eliminates 80% of stylistic review comments, freeing code review time for actual logic.
 
+## Table of Contents
+
+- [What Belongs in a Style Guide](#what-belongs-in-a-style-guide)
+- [Code Style: Automate Everything](#code-style-automate-everything)
+- [Naming Conventions Document](#naming-conventions-document)
+- [Python](#python)
+- [API Endpoints](#api-endpoints)
+- [Database](#database)
+- [Commit Message Convention](#commit-message-convention)
+- [PR Description Template](#pr-description-template)
+- [Summary](#summary)
+- [Type of change](#type-of-change)
+- [Testing](#testing)
+- [Database changes](#database-changes)
+- [Checklist](#checklist)
+- [Notes for reviewers](#notes-for-reviewers)
+- [Publishing the Style Guide](#publishing-the-style-guide)
+- [Quick Start](#quick-start)
+- [Style Guide](#style-guide)
+- [Branching Strategy](#branching-strategy)
+- [PR Process](#pr-process)
+- [ADR Process](#adr-process)
+- [Enforcement Without Being Annoying](#enforcement-without-being-annoying)
+- [Onboarding New Engineers to the Style Guide](#onboarding-new-engineers-to-the-style-guide)
+- [Engineering Onboarding — Style Guide Checklist](#engineering-onboarding-style-guide-checklist)
+- [Style Guide Tooling Comparison](#style-guide-tooling-comparison)
+- [API Design Conventions in Practice](#api-design-conventions-in-practice)
+- [Related Reading](#related-reading)
+
 ## What Belongs in a Style Guide
 
 An engineering style guide for remote teams should cover:

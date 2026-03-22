@@ -32,6 +32,23 @@ tags: [remote-work-tools]
 {% raw %}
 Freelance developers can reduce taxable income through deductions for home office ($750-$1,500), equipment, software subscriptions, professional development, and retirement contributions (SEP IRA up to $69,000). This guide covers the 2026 deductions with practical examples and tracking strategies to maximize your savings while staying IRS-compliant.
 
+## Table of Contents
+
+- [Home Office Deduction](#home-office-deduction)
+- [Equipment and Hardware](#equipment-and-hardware)
+- [Software and Subscriptions](#software-and-subscriptions)
+- [Professional Development](#professional-development)
+- [Internet and Phone](#internet-and-phone)
+- [Business Travel](#business-travel)
+- [Professional Services](#professional-services)
+- [Marketing and Advertising](#marketing-and-advertising)
+- [Office Supplies](#office-supplies)
+- [Retirement Contributions](#retirement-contributions)
+- [Health Insurance](#health-insurance)
+- [Record-Keeping Tips](#record-keeping-tips)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Estimated Tax Payments](#estimated-tax-payments)
+
 ## Home Office Deduction
 
 If you work from home, you can deduct a portion of your housing costs. The simplified method lets you deduct $5 per square foot of your home office, up to 300 square feet—that's $1,500 maximum. The regular method requires calculating the percentage of your home used for business.

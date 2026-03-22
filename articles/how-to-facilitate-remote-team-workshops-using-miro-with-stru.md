@@ -16,6 +16,17 @@ tags: [remote-work-tools, remote-work, miro, workshops, facilitation]
 
 ## Remote Workshops in Miro: The Challenge
 
+## Table of Contents
+
+- [Remote Workshops in Miro: The Challenge](#remote-workshops-in-miro-the-challenge)
+- [Pre-Workshop Preparation: Set Teams Up to Succeed](#pre-workshop-preparation-set-teams-up-to-succeed)
+- [Workshop Structures: Proven Formats](#workshop-structures-proven-formats)
+- [Engagement Techniques: Keep Remote Teams Active](#engagement-techniques-keep-remote-teams-active)
+- [Real Miro Workshop: Customer Problem Discovery (90 minutes)](#real-miro-workshop-customer-problem-discovery-90-minutes)
+- [Facilitation Tips: Make It Feel Smooth](#facilitation-tips-make-it-feel-smooth)
+- [Exporting Workshop Output: Miro API](#exporting-workshop-output-miro-api)
+- [Team Exercise: Running Your First Workshop (2 hours)](#team-exercise-running-your-first-workshop-2-hours)
+
 Running workshops on Zoom sucks: cameras off, participants muted, one person talking, others not engaged. Miro changes this by giving everyone a shared whiteboard where they can simultaneously contribute.
 
 The key is structure. Blank canvas paralyzes teams. Guided exercises with clear prompts, time boxes, and visible progress keep energy high and output focused.

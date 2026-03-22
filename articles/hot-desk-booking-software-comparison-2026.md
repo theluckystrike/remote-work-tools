@@ -18,6 +18,18 @@ voice-checked: true
 
 Hot desk booking software helps organizations manage flexible workspace usage. For development teams and power users, the key differentiator isn't just the user interface—it's the API quality, integration depth, and automation capabilities. This guide examines the technical aspects that matter when implementing desk booking into your workflow.
 
+## Table of Contents
+
+- [What Developers Need From Desk Booking Systems](#what-developers-need-from-desk-booking-systems)
+- [Quick Comparison](#quick-comparison)
+- [Teem: API-First Desk Management](#teem-api-first-desk-management)
+- [Robin: Floor Plan Integration](#robin-floor-plan-integration)
+- [Envys: Developer-Friendly API](#envys-developer-friendly-api)
+- [Custom Implementation Options](#custom-implementation-options)
+- [Key Evaluation Criteria](#key-evaluation-criteria)
+- [Integration Patterns for Power Users](#integration-patterns-for-power-users)
+- [Making Your Choice](#making-your-choice)
+
 ## What Developers Need From Desk Booking Systems
 
 When evaluating desk booking software, developers typically prioritize several technical criteria: REST or GraphQL API availability, webhook support for real-time updates, SSO integration with existing identity providers, and the ability to embed booking functionality into custom internal tools.

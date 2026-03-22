@@ -19,6 +19,19 @@ voice-checked: true
 
 Team health retrospectives prioritize psychological safety, burnout prevention, and interpersonal connection over velocity metrics—directly improving retention and performance. Focused retros address isolation, clarify communication norms, and surface team tensions before they become problems. This guide covers health-focused retro formats, facilitation techniques, and follow-up actions for remote team resilience.
 
+## Table of Contents
+
+- [Why Team Health Deserves Its Own Retrospective](#why-team-health-deserves-its-own-retrospective)
+- [Structuring a Health-Focused Retrospective](#structuring-a-health-focused-retrospective)
+- [Facilitation Techniques That Work Remotely](#facilitation-techniques-that-work-remotely)
+- [Example: Async Health Retro Format](#example-async-health-retro-format)
+- [Measuring Health Over Time](#measuring-health-over-time)
+- [Action Items That Actually Improve Health](#action-items-that-actually-improve-health)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Integrating Health Focus Into Existing Retros](#integrating-health-focus-into-existing-retros)
+- [Tool Recommendations for Remote Health Retros](#tool-recommendations-for-remote-health-retros)
+- [When to Escalate](#when-to-escalate)
+
 ## Why Team Health Deserves Its Own Retrospective
 
 Traditional sprint retrospectives examine what went wrong and what went right during a two-week cycle. These sessions naturally emphasize work output—features shipped, bugs fixed, deadlines met. Team health gets mentioned only when something has already gone wrong: a resignation, a conflict, or visible burnout.
@@ -247,9 +260,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [How to Organize Remote Team Retrospective Learnings](/remote-work-tools/how-to-organize-remote-team-retrospective-learnings-document/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 - [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 - [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
-- [Remote Team Retrospective Silent Brainstorming Technique](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)
+- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

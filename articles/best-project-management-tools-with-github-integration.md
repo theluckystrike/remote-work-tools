@@ -16,6 +16,20 @@ tags: [remote-work-tools, best-of, integration]
 
 ## GitHub Integration: Why It Matters for Engineering Teams
 
+## Table of Contents
+
+- [GitHub Integration: Why It Matters for Engineering Teams](#github-integration-why-it-matters-for-engineering-teams)
+- [GitHub Integration Comparison](#github-integration-comparison)
+- [Linear: The Gold Standard for GitHub Integration](#linear-the-gold-standard-for-github-integration)
+- [GitHub Projects V2: Zero-Cost Integration](#github-projects-v2-zero-cost-integration)
+- [Shortcut: The Agile+GitHub Middle Ground](#shortcut-the-agilegithub-middle-ground)
+- [Jira + GitHub Plugin: The Enterprise Path](#jira-github-plugin-the-enterprise-path)
+- [Integration Setup Guide: Get Linear → GitHub Working in 30 Minutes](#integration-setup-guide-get-linear-github-working-in-30-minutes)
+- [Integration Comparison: Real-World Scenario](#integration-comparison-real-world-scenario)
+- [Automation Patterns: Reduce Manual Work](#automation-patterns-reduce-manual-work)
+- [Team Exercise: Planning Your GitHub Integration (60 minutes)](#team-exercise-planning-your-github-integration-60-minutes)
+- [Cost Analysis: GitHub Integration for 10-Person Team](#cost-analysis-github-integration-for-10-person-team)
+
 Engineering teams live in GitHub. PRs, reviews, commits, releases—all there. A project management tool that doesn't integrate tightly with GitHub forces double-entry: create issue in tool, create PR in GitHub, manually sync status.
 
 The best tools make this seamless: create issue in tool → GitHub PR auto-links → PR merge auto-closes issue → no manual updates needed.

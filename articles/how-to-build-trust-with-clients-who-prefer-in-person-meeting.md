@@ -19,6 +19,18 @@ voice-checked: true
 
 Identify the root cause of their in-person preference through direct conversation, then use strategic in-person touchpoints (kickoff meetings, major milestones) while maintaining remote work for execution. Supplement in-person moments with high-quality async communication: video updates, detailed progress documentation, and quick response times on async channels. This hybrid approach gives clients the relationship foundation they need while preserving your remote work efficiency.
 
+## Table of Contents
+
+- [Understanding the Psychology Behind In-Person Preferences](#understanding-the-psychology-behind-in-person-preferences)
+- [Strategic In-Person Touchpoints](#strategic-in-person-touchpoints)
+- [Compensating for Physical Absence](#compensating-for-physical-absence)
+- [Building Personal Connection Remotely](#building-personal-connection-remotely)
+- [Handling Pushback on Remote Work](#handling-pushback-on-remote-work)
+- [Tools for Client Relationship and Communication Management](#tools-for-client-relationship-and-communication-management)
+- [Long-Term Relationship Building System](#long-term-relationship-building-system)
+- [Communication Strategy Template by Client Type](#communication-strategy-template-by-client-type)
+- [Practical Next Steps](#practical-next-steps)
+
 ## Understanding the Psychology Behind In-Person Preferences
 
 Clients who prefer in-person meetings often cite trust as the primary reason. They want to see your expressions, gauge your reactions, and feel your presence in the room. This isn't irrational—human brains evolved to trust faces we can see and voices we can hear in real-time.

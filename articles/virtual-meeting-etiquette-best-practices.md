@@ -31,6 +31,14 @@ tags: [remote-work-tools, best-of]
 
 The three highest-impact virtual meeting practices are: test your audio and video before every call, mute when not speaking, and always review the agenda beforehand. These habits alone eliminate the most common meeting friction for remote developer teams. This guide goes deeper with platform-specific shortcuts, automation scripts for meeting prep, and etiquette guidelines for screen sharing, camera use, and post-meeting follow-up.
 
+## Table of Contents
+
+- [Pre-Meeting Preparation](#pre-meeting-preparation)
+- [During the Meeting: Core Etiquette Rules](#during-the-meeting-core-etiquette-rules)
+- [Automation for Meeting Efficiency](#automation-for-meeting-efficiency)
+- [Platform-Specific Tips](#platform-specific-tips)
+- [Post-Meeting Etiquette](#post-meeting-etiquette)
+
 ## Pre-Meeting Preparation
 
 The foundation of meeting etiquette begins before the meeting starts. Taking a few minutes to prepare significantly improves meeting quality for everyone involved.

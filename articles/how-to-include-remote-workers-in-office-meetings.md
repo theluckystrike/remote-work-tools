@@ -18,6 +18,31 @@ voice-checked: true
 
 When your team includes both in-office and remote participants, running effective meetings requires deliberate technical setup and process design. Remote workers often feel disconnected when meetings prioritize in-room attendees, leading to reduced engagement and missed contributions. This guide covers the practical steps developers and power users can take to create genuinely inclusive hybrid meetings.
 
+## Table of Contents
+
+- [Technical Foundation for Hybrid Meeting Setup](#technical-foundation-for-hybrid-meeting-setup)
+- [Meeting Process Design for Inclusion](#meeting-process-design-for-inclusion)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Questions for Reviewers](#questions-for-reviewers)
+- [Remote Participant Notes](#remote-participant-notes)
+- [Real-Time Collaboration Tools](#real-time-collaboration-tools)
+- [Establishing Meeting Norms](#establishing-meeting-norms)
+- [Attendees](#attendees)
+- [Discussion Notes](#discussion-notes)
+- [Action Items](#action-items)
+- [Remote Participant Check](#remote-participant-check)
+- [Measuring Inclusion Success](#measuring-inclusion-success)
+- [Building Inclusive Culture](#building-inclusive-culture)
+- [Automated Meeting Intelligence](#automated-meeting-intelligence)
+- [Equipment and Software Stack Recommendations](#equipment-and-software-stack-recommendations)
+- [Post-Meeting Follow-up Protocol](#post-meeting-follow-up-protocol)
+- [Meeting Summary (2-3 sentences)](#meeting-summary-2-3-sentences)
+- [Decisions Made](#decisions-made)
+- [Action Items](#action-items)
+- [Remote Participant Questions Addressed](#remote-participant-questions-addressed)
+- [Next Steps](#next-steps)
+
 ## Technical Foundation for Hybrid Meeting Setup
 
 The first step involves configuring your meeting space to treat remote participants as first-class attendees. This means investing in proper audio and video infrastructure rather than relying on a single laptop camera pointed at a conference room.
@@ -364,9 +389,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
-- [Best Noise Canceling Earbuds for Remote Work 2026](/remote-work-tools/best-noise-canceling-earbuds-for-remote-work-2026/)
-- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
-- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
-- [Best Webcam for Remote Meetings 2026: A Technical Guide](/remote-work-tools/best-webcam-for-remote-meetings-2026/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

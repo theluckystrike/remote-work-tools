@@ -301,6 +301,5 @@ The most common gap in ADR processes is step 4 — dissent gets handled in Slack
 - [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 - [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
 - [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

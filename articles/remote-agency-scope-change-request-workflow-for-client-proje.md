@@ -19,6 +19,13 @@ voice-checked: true
 
 Build a scope change workflow that requires written change requests documenting what's being added, estimating impact on timeline and budget, and requiring approval before execution. This prevents scope creep and keeps client expectations aligned with deliverables.
 
+## Table of Contents
+
+- [The Core Problem](#the-core-problem)
+- [The Scope Change Request Workflow](#the-scope-change-request-workflow)
+- [Automation Opportunities](#automation-opportunities)
+- [Key Principles for Success](#key-principles-for-success)
+
 ## The Core Problem
 
 Without a formal process, scope changes create friction. Your team drops everything to accommodate "small" requests. The client assumes changes are included in the original quote. Tension builds because neither side has a clear framework for evaluating and approving new work. The solution is not avoiding changes—they're often legitimate—but building a transparent system that handles them professionally.

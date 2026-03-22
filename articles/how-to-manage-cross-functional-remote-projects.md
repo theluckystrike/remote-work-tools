@@ -16,6 +16,20 @@ tags: [remote-work-tools, remote-work]
 
 ## Cross-Functional Projects: Why Remote Increases Friction
 
+## Table of Contents
+
+- [Cross-Functional Projects: Why Remote Increases Friction](#cross-functional-projects-why-remote-increases-friction)
+- [The Cross-Functional Project Anatomy](#the-cross-functional-project-anatomy)
+- [Tool Setup: Notion for Cross-Functional Coordination](#tool-setup-notion-for-cross-functional-coordination)
+- [Real Workflow: Managing Cross-Functional Project in Notion](#real-workflow-managing-cross-functional-project-in-notion)
+- [Stakeholder Communication: Weekly Status Template](#stakeholder-communication-weekly-status-template)
+- [Decision-Making Framework: Async Decisions](#decision-making-framework-async-decisions)
+- [Critical Path: Identify What Blocks Everything](#critical-path-identify-what-blocks-everything)
+- [Communication Cadence: What Meetings Are Actually Needed](#communication-cadence-what-meetings-are-actually-needed)
+- [Red Flags: When Project Health Is Declining](#red-flags-when-project-health-is-declining)
+- [Post-Launch: Close the Loop](#post-launch-close-the-loop)
+- [Team Exercise: Plan Your Cross-Functional Project (2 hours)](#team-exercise-plan-your-cross-functional-project-2-hours)
+
 Cross-functional means: engineering + design + product + marketing + operations all contributing. Synchronously coordinating 20+ people across 5 departments in different time zones is impossible.
 
 The solution is structured async: clear goals, explicit handoffs, visible progress, no surprise blockers.

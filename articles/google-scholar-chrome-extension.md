@@ -16,6 +16,18 @@ tags: [remote-work-tools]
 
 ## Chrome Extensions for Google Scholar: Why Build One
 
+## Table of Contents
+
+- [Chrome Extensions for Google Scholar: Why Build One](#chrome-extensions-for-google-scholar-why-build-one)
+- [What Your Scholar Extension Should Do](#what-your-scholar-extension-should-do)
+- [Architecture: Building Your Scholar Extension](#architecture-building-your-scholar-extension)
+- [Publishing Your Extension](#publishing-your-extension)
+- [Testing Before Publishing](#testing-before-publishing)
+- [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
+- [Real Workflow: Using Your Scholar Extension](#real-workflow-using-your-scholar-extension)
+- [Building Additional Features: Export to Zotero](#building-additional-features-export-to-zotero)
+- [Team Exercise: Planning Your Extension (60 minutes)](#team-exercise-planning-your-extension-60-minutes)
+
 Google Scholar is the default for academic/research lookups. Building a Chrome extension can enhance Scholar with features it lacks: highlight papers you've read, export citations in one click, show related papers, link to free PDF versions, track papers you've saved.
 
 For remote researchers, librarians, and academics, a well-built Scholar extension saves hours per month.

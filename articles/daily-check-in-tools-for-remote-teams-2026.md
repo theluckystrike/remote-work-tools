@@ -16,6 +16,22 @@ voice-checked: true
 
 ## Why Daily Check-Ins Matter for Remote Teams
 
+## Table of Contents
+
+- [Why Daily Check-Ins Matter for Remote Teams](#why-daily-check-ins-matter-for-remote-teams)
+- [Daily Check-In Tools: Quick Comparison](#daily-check-in-tools-quick-comparison)
+- [Slack Workflow: Zero-Friction Check-Ins for Slack Teams](#slack-workflow-zero-friction-check-ins-for-slack-teams)
+- [15Five: Structured with 1:1 Context](#15five-structured-with-11-context)
+- [Ally: Mobile-First with Team Morale Focus](#ally-mobile-first-with-team-morale-focus)
+- [Geekbot: The Lightweight Slack Alternative](#geekbot-the-lightweight-slack-alternative)
+- [Marco Polo: Voice Check-Ins for Async Teams](#marco-polo-voice-check-ins-for-async-teams)
+- [Implementation Roadmap: Rolling Out Check-Ins in 2 Weeks](#implementation-roadmap-rolling-out-check-ins-in-2-weeks)
+- [Check-In Question Templates](#check-in-question-templates)
+- [Data Integration: Slack Digest from Standup Responses](#data-integration-slack-digest-from-standup-responses)
+- [Team Exercise: Designing Your Check-In Format (30 minutes)](#team-exercise-designing-your-check-in-format-30-minutes)
+- [Measuring Check-In Health](#measuring-check-in-health)
+- [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
+
 Synchronous standups break distributed work. You schedule a call for 9 AM Pacific = 12 PM Eastern = 5 PM London = 2 AM Sydney. Someone's always miserable.
 
 Async check-ins solve this: each person posts their update once a day, whenever their morning is. Manager reads them during their morning coffee. Team sees progress without scheduling a meeting.

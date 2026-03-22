@@ -18,6 +18,30 @@ voice-checked: true
 
 Ask for referrals immediately after a client expresses satisfaction with your work -- right after successful delivery, during a positive review moment, or at project closure. Use a direct but low-pressure phrasing like "If you know anyone who might need similar help, I'd appreciate an introduction." Then build a repeatable system by adding referral requests to your invoice follow-ups, project retrospectives, and quarterly check-ins.
 
+## Table of Contents
+
+- [Why Referrals Work Better Than Cold Outreach](#why-referrals-work-better-than-cold-outreach)
+- [When to Ask for Referrals](#when-to-ask-for-referrals)
+- [The Art of the Ask](#the-art-of-the-ask)
+- [Creating a Referral System](#creating-a-referral-system)
+- [What to Do When You Get a Referral](#what-to-do-when-you-get-a-referral)
+- [Handling Rejection Gracefully](#handling-rejection-gracefully)
+- [Measuring Your Referral Success](#measuring-your-referral-success)
+- [Building Long-Term Referral Relationships](#building-long-term-referral-relationships)
+- [Building a Referral-First Client Acquisition System](#building-a-referral-first-client-acquisition-system)
+- [Project Retrospective](#project-retrospective)
+- [Advanced Referral Tracking System](#advanced-referral-tracking-system)
+- [Incentivizing Referrals Appropriately](#incentivizing-referrals-appropriately)
+- [Special Strategies for Different Client Types](#special-strategies-for-different-client-types)
+- [Maintaining Referral Relationships Over Time](#maintaining-referral-relationships-over-time)
+- [Parties](#parties)
+- [Referral Terms](#referral-terms)
+- [Reciprocation](#reciprocation)
+- [Success Metrics](#success-metrics)
+- [Renewal](#renewal)
+- [Measuring Referral Program Health](#measuring-referral-program-health)
+- [When NOT to Ask for Referrals](#when-not-to-ask-for-referrals)
+
 ## Why Referrals Work Better Than Cold Outreach
 
 A referred client arrives with built-in social proof. Your ideal client's friend or colleague has already vouched for your skills and professionalism. This eliminates the trust-building phase that typically takes weeks with cold prospects.

@@ -33,6 +33,21 @@ tags: [remote-work-tools, remote-work]
 
 Tailscale turns every device your team uses into a node on a private network, without requiring a central VPN server, NAT traversal rules, or certificate management. Each device gets a stable IP in the `100.64.0.0/10` range, reachable from any other device on the tailnet regardless of what network either is on.
 
+## Table of Contents
+
+- [Install on All Platforms](#install-on-all-platforms)
+- [Authenticate and Start](#authenticate-and-start)
+- [Enable MagicDNS and HTTPS](#enable-magicdns-and-https)
+- [Configure ACLs (Access Control Lists)](#configure-acls-access-control-lists)
+- [Set Up Subnet Routes](#set-up-subnet-routes)
+- [Exit Nodes](#exit-nodes)
+- [Tailscale SSH (Replace SSH Key Management)](#tailscale-ssh-replace-ssh-key-management)
+- [Running Tailscale on Servers at Boot](#running-tailscale-on-servers-at-boot)
+- [Tailscale vs. Traditional VPN for Remote Teams](#tailscale-vs-traditional-vpn-for-remote-teams)
+- [Integrating Tailscale with CI/CD Pipelines](#integrating-tailscale-with-cicd-pipelines)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Pro Tips for Team Administration](#pro-tips-for-team-administration)
+
 For remote teams, Tailscale replaces the classic VPN setup with something that works in 10 minutes, handles firewall traversal automatically, and scales to hundreds of devices without extra configuration.
 
 ## Install on All Platforms
@@ -380,7 +395,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Remote Work VPN for Teams Comparison 2026: Tailscale](/remote-work-tools/remote-work-vpn-for-teams-comparison-2026/)
 - [DNS Filtering Setup for Remote Team Endpoint Security](/remote-work-tools/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 - [How to Run a Remote Team Hackathon 2026](/remote-work-tools/how-to-run-remote-team-hackathon-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

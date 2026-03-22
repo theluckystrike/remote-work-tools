@@ -16,6 +16,21 @@ tags: [remote-work-tools, comparison]
 
 ## Notion vs Fibery: Two Flexible Workspaces, Different Philosophies
 
+## Table of Contents
+
+- [Notion vs Fibery: Two Flexible Workspaces, Different Philosophies](#notion-vs-fibery-two-flexible-workspaces-different-philosophies)
+- [Side-by-Side Comparison](#side-by-side-comparison)
+- [Notion: Composable Flexibility (Start Small, Grow Organically)](#notion-composable-flexibility-start-small-grow-organically)
+- [Fibery: Pre-Built Structure (Customize from a Foundation)](#fibery-pre-built-structure-customize-from-a-foundation)
+- [Feature Comparison: Core Capabilities](#feature-comparison-core-capabilities)
+- [Cost Analysis: Team Scaling](#cost-analysis-team-scaling)
+- [Use Case: Small Product Team (5-10 people)](#use-case-small-product-team-5-10-people)
+- [Use Case: Mid-Size SaaS Company (20-50 people)](#use-case-mid-size-saas-company-20-50-people)
+- [Migration Paths: Switching Between Them](#migration-paths-switching-between-them)
+- [Decision Framework: Choose Notion If...](#decision-framework-choose-notion-if)
+- [Decision Framework: Choose Fibery If...](#decision-framework-choose-fibery-if)
+- [Team Exercise: Evaluating Tools (2 hours)](#team-exercise-evaluating-tools-2-hours)
+
 Both Notion and Fibery position themselves as all-in-one workspaces. Create databases, docs, wikis, and project management in one place. But they approach flexibility differently.
 
 Notion is bottom-up: simple blocks, pages, databases. You compose your own system from basic pieces. Fibery is top-down: comes with built-in CRM, project management, product roadmap. You customize from a richer starting point.
@@ -295,10 +310,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
-- [Notion vs ClickUp for a Remote Startup Under 10 Employees](/remote-work-tools/notion-vs-clickup-for-a-remote-startup-under-10-employees/)
-- [Best Project Tracking Tool for Remote Hardware Engineering](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
 - [Best Tools for Remote Team Documentation 2026: Notion](/remote-work-tools/best-remote-team-documentation-tools-2026/)
-- [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
+- [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
+- [Notion vs ClickUp for Engineering Teams: A Practical](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+- [Notion Database Templates for a Solo Recruiter Working Remot](/remote-work-tools/notion-database-templates-for-a-solo-recruiter-working-remot/)
+- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

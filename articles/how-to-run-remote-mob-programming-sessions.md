@@ -17,6 +17,21 @@ voice-checked: true
 
 Mob programming — the whole team working on one thing together — sounds counterintuitive for remote teams, but it solves specific problems that async work can't: onboarding new engineers, tackling genuinely hard problems that need multiple perspectives simultaneously, and transferring knowledge across the team. Done well, a 90-minute remote mob session on a hard problem beats a week of back-and-forth async comments.
 
+## Table of Contents
+
+- [The Core Structure](#the-core-structure)
+- [Tool Setup](#tool-setup)
+- [Tool Comparison: Live Share vs Tuple vs Gitpod](#tool-comparison-live-share-vs-tuple-vs-gitpod)
+- [Session Structure (90 minutes)](#session-structure-90-minutes)
+- [WIP Commits for Rotation](#wip-commits-for-rotation)
+- [Navigator Anti-Patterns](#navigator-anti-patterns)
+- [Keeping the Mob Engaged](#keeping-the-mob-engaged)
+- [When Mob Programming Is Worth It](#when-mob-programming-is-worth-it)
+- [Tools for the Timer](#tools-for-the-timer)
+- [Session Notes Template](#session-notes-template)
+- [Mob Session — [date]](#mob-session-date)
+- [Related Reading](#related-reading)
+
 ## The Core Structure
 
 Remote mob programming needs more explicit structure than in-person because there's no shared physical space to anchor coordination.
@@ -280,9 +295,8 @@ countdown 900
 
 - [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
 - [How to Set Up Remote Pair Programming Sessions in 2026](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-2026/)
-- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
+- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
 - [How to Set Up Remote Pair Programming Workflow Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-workflow-guide/)
 - [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

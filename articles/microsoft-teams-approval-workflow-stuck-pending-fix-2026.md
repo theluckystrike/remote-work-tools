@@ -16,6 +16,29 @@ voice-checked: true
 
 Microsoft Teams approval workflows help remote teams automate document reviews, expense submissions, time-off requests, and other business processes. When these workflows get stuck in pending status, it disrupts operations for distributed teams across time zones. This guide provides practical troubleshooting steps to get your Teams approval workflows moving again.
 
+## Table of Contents
+
+- [Understanding Microsoft Teams Approval Workflows](#understanding-microsoft-teams-approval-workflows)
+- [Common Causes of Approval Workflows Stuck in Pending](#common-causes-of-approval-workflows-stuck-in-pending)
+- [Step-by-Step Troubleshooting Process](#step-by-step-troubleshooting-process)
+- [Preventative Measures for Remote Teams](#preventative-measures-for-remote-teams)
+- [When to Escalate to Microsoft Support](#when-to-escalate-to-microsoft-support)
+- [Advanced Power Automate Configuration for Approval Workflows](#advanced-power-automate-configuration-for-approval-workflows)
+- [Approval Workflow Integration Patterns](#approval-workflow-integration-patterns)
+- [Common Approval Workflow Failure Scenarios](#common-approval-workflow-failure-scenarios)
+- [Teams Approval Workflow Specific Issues](#teams-approval-workflow-specific-issues)
+- [Setting Up Approval Request Templates](#setting-up-approval-request-templates)
+- [Monitoring Approval Workflow Health](#monitoring-approval-workflow-health)
+- [Approval Workflow Migration Best Practices](#approval-workflow-migration-best-practices)
+- [Performance Optimization for High-Volume Approvals](#performance-optimization-for-high-volume-approvals)
+- [Teams Adaptive Cards Best Practices](#teams-adaptive-cards-best-practices)
+- [Alternative Approval Workflows When Power Automate Fails](#alternative-approval-workflows-when-power-automate-fails)
+- [Approval Workflow Resilience Patterns](#approval-workflow-resilience-patterns)
+- [Troubleshooting Specific Teams Approval Errors](#troubleshooting-specific-teams-approval-errors)
+- [Approval Workflow Documentation Template](#approval-workflow-documentation-template)
+- [Real-World Success: Remote Team Approval Optimization](#real-world-success-remote-team-approval-optimization)
+- [Quick Reference: Resolution Checklist](#quick-reference-resolution-checklist)
+
 ## Understanding Microsoft Teams Approval Workflows
 
 Teams approval workflows integrate with Microsoft Power Automate to create smoothed out request-and-approval processes. These workflows typically involve a requestor submitting a form or document, which then routes to one or more approvers for review. The status can show as pending, approved, or rejected.

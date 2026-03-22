@@ -9,7 +9,7 @@ permalink: /remote-team-information-architecture-overhaul-guide-when-scaling-req
 categories: [guides]
 tags: [remote-work-tools, remote-team, information-architecture, tool-organization, scaling, developer-tools, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

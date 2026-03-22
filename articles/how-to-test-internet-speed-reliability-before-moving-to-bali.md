@@ -18,6 +18,18 @@ intent-checked: true
 
 Moving to Bali as a remote worker requires careful consideration of one critical factor: internet connectivity. Unlike tourist hotspots with fiber connections, many areas in Bali offer varying levels of reliability. This guide provides practical methods to evaluate internet speed and stability before committing to a relocation.
 
+## Table of Contents
+
+- [Why Internet Reliability Matters More Than Raw Speed](#why-internet-reliability-matters-more-than-raw-speed)
+- [Understanding Bali's Internet Space](#understanding-balis-internet-space)
+- [Essential Speed Test Methods](#essential-speed-test-methods)
+- [Coworking Space Evaluation](#coworking-space-evaluation)
+- [Testing Your Specific Work Tools](#testing-your-specific-work-tools)
+- [Long-Term Monitoring Strategies](#long-term-monitoring-strategies)
+- [Interpreting Your Results](#interpreting-your-results)
+- [Backup Connectivity Planning](#backup-connectivity-planning)
+- [Making the Decision](#making-the-decision)
+
 ## Why Internet Reliability Matters More Than Raw Speed
 
 Speed test results show bandwidth capacity, but reliability determines whether you can maintain a productive workflow. A connection averaging 50 Mbps with consistent latency proves more valuable than 100 Mbps with frequent drops. For remote developers, latency affects git operations, video calls, and collaborative coding sessions. Packet loss and jitter can derail real-time communication tools like Zoom or Slack calls.

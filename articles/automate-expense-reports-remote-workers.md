@@ -371,8 +371,7 @@ echo "2026-03-15,Ikea,89.99,hardware,Standing desk riser,desk-riser-receipt.jpg"
 - [Remote Team Handbook Section Template for Writing Expense Re](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
 - [Best SIP Phone Software for Remote Workers: A Technical](/remote-work-tools/best-sip-phone-software-for-remote-workers/)
 - [How to Set Up Remote Finance Team Approval Workflow](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
-- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
-
+- [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

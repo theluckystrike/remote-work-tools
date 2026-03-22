@@ -387,8 +387,7 @@ drone secret ls --repository your-org/your-repo
 - [Best Tools for Remote Team Feature Flags](/remote-work-tools/best-tools-remote-team-feature-flags/)
 - [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
 - [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
-
+- [Best Password Sharing Solution for Remote Teams 2026](/remote-work-tools/best-password-sharing-solution-for-remote-teams-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}
