@@ -53,7 +53,17 @@ For remote developers, this translates to two primary modes:
 
 The key insight is that coding requires sustained concentration. When you context-switch between a coding task and a Slack message, you don't just lose the time spent reading the message—you lose approximately 20-25 minutes getting back into the flow state.
 
-## Implementing the Maker Schedule
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Implementing the Maker Schedule
 
 ### Block 1: Morning Deep Work (Primary Maker Block)
 
@@ -91,7 +101,7 @@ Schedule Example:
 17:30 - 18:00  │ Wrap up, tomorrow's plan
 ```
 
-## Practical Tools and Techniques
+### Step 2: Practical Tools and Techniques
 
 ### Time Blocking in Your Calendar
 
@@ -136,7 +146,7 @@ Example Slack status:
 💬 Response time: 2-4 hours during work day
 ```
 
-## Common Challenges and Solutions
+### Step 3: Common Challenges and Solutions
 
 ### Challenge 1: Unplanned Urgent Issues
 
@@ -176,7 +186,7 @@ For example, here's a hybrid approach combining maker schedule with Pomodoro:
 10:30          │ Check messages, email
 ```
 
-## Measuring Success
+### Step 4: Measuring Success
 
 Track these metrics to see if the maker schedule improves your output:
 
@@ -187,7 +197,7 @@ Track these metrics to see if the maker schedule improves your output:
 
 After two weeks, compare your output and energy levels. Adjust block lengths based on when you're most productive.
 
-## Real-World Maker Schedule Examples by Role
+### Step 5: Real-World Maker Schedule Examples by Role
 
 Different types of developers benefit from different maker schedule structures. Here are tested patterns by specialization:
 
@@ -238,7 +248,7 @@ Frontend developers need a balance of deep work and collaborative time since des
 
 DevOps engineers need structured on-call time and monitoring visibility integrated throughout the day.
 
-## Context Switching Cost in Real Numbers
+### Step 6: Context Switching Cost in Real Numbers
 
 To understand why maker schedule matters, quantify what context switching actually costs:
 
@@ -252,7 +262,7 @@ To understand why maker schedule matters, quantify what context switching actual
 
 A 3-hour deep work block has approximately 40-minute "tax" at the beginning to re-enter flow state. That's 14% of your time lost before you even start coding. Add a single 5-minute interruption mid-session, and you've lost 45 minutes total. This is why maker schedule blocks must be protected—the payoff in actual productive coding time is massive.
 
-## Tool Configuration for Deep Work Enforcement
+### Step 7: Tool Configuration for Deep Work Enforcement
 
 Make it technically difficult to get distracted during maker blocks:
 
@@ -294,7 +304,7 @@ launchctl load ~/Library/LaunchAgents/com.deepwork.plist
 
 On Linux or Windows, similar automations exist. The point: automate the enforcement of your deep work blocks so willpower doesn't have to carry you.
 
-## Managing Maker Schedule in Distributed Teams
+### Step 8: Manage Maker Schedule in Distributed Teams
 
 The maker schedule works even in distributed teams if you're intentional about communication:
 
@@ -306,7 +316,7 @@ The maker schedule works even in distributed teams if you're intentional about c
 
 **Overlap windows for sync**: During your coordination hours, sync communication happens. By consistently keeping these hours meeting-free, you enable better collaboration.
 
-## Measuring Your Maker Schedule Success
+### Step 9: Measuring Your Maker Schedule Success
 
 Track these metrics over a 4-week period before and after implementing the maker schedule:
 
@@ -330,6 +340,21 @@ Output Metrics:
 ```
 
 After implementing maker schedule, you should see improved deep work minutes, reduced context switches, and higher quality output. If not, your blocks may be too short, too fragmented, or the team culture may need adjustment.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -35,9 +35,19 @@ When evaluating vendors for remote team tools, you face unique challenges that d
 
 The procurement process for remote work tools often involves multiple stakeholders—IT security, finance, team leads, and end users. Documentation ensures everyone has access to the same information and can contribute feedback asynchronously.
 
-## Components of Effective Vendor Evaluation Documentation
+## Prerequisites
 
-## Evaluation Process Framework
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Components of Effective Vendor Evaluation Documentation
+
+### Step 2: Evaluation Process Framework
 
 ### Phase 1: Initial Screening
 
@@ -53,7 +63,7 @@ Filter vendors based on basic requirements before detailed evaluation. Create a 
 Conduct thorough evaluations using your documented criteria. Where possible, involve actual end users in testing:
 
 ```markdown
-## Evaluation Session Template
+### Step 3: Evaluation Session Template
 
 ### Vendor: [Name]
 ### Evaluator: [Name]
@@ -89,7 +99,7 @@ Maintain version control for your evaluation documents. As new information becom
 
 Avoid generic evaluations that could apply to any vendor. Specific, measurable criteria produce better outcomes than subjective assessments. Instead of "good security," document "SOC 2 Type II certified with annual audits."
 
-## Vendor Evaluation Template You Can Use
+### Step 4: Vendor Evaluation Template You Can Use
 
 Here's a complete template your team can adapt immediately:
 
@@ -118,7 +128,7 @@ Here's a complete template your team can adapt immediately:
 
 ---
 
-## Security Deep Dive
+### Step 5: Security Deep Dive
 
 **Compliance Certifications:**
 - [ ] SOC 2 Type II
@@ -139,7 +149,7 @@ Here's a complete template your team can adapt immediately:
 
 ---
 
-## Cost Analysis (3-Year TCO)
+### Step 6: Cost Analysis (3-Year TCO)
 
 | Item | Year 1 | Year 2 | Year 3 | Total |
 |---|---|---|---|---|
@@ -154,7 +164,7 @@ Here's a complete template your team can adapt immediately:
 
 ---
 
-## Integration Assessment
+### Step 7: Integration Assessment
 
 **Available Integrations:**
 - Slack: [ ] Yes [ ] No [ ] Partial
@@ -177,7 +187,7 @@ Here's a complete template your team can adapt immediately:
 
 ---
 
-## Evaluation Sessions
+### Step 8: Evaluation Sessions
 
 ### Session 1: [Evaluator], [Date]
 
@@ -189,7 +199,7 @@ Here's a complete template your team can adapt immediately:
 
 ---
 
-## Final Recommendation
+### Step 9: Final Recommendation
 
 **Recommended**: [Yes/No/Conditional]
 **Key Advantages**:
@@ -207,7 +217,7 @@ Here's a complete template your team can adapt immediately:
 
 Save this template in a shared folder and fill it out collaboratively. Version control (keep dated copies) creates a record of how your requirements and vendor capabilities evolved.
 
-## Handling Vendor Changes and Price Increases
+### Step 10: Handling Vendor Changes and Price Increases
 
 Software vendors change offerings and pricing regularly. Build review processes:
 
@@ -220,7 +230,7 @@ Software vendors change offerings and pricing regularly. Build review processes:
 
 Document these reviews. If a vendor becomes unsuitable, you'll have evidence to justify switching costs.
 
-## Decision-Making Framework When Torn Between Options
+### Step 11: Decision-Making Framework When Torn Between Options
 
 When you can't definitively choose between vendors:
 
@@ -246,7 +256,7 @@ expensive option.
 
 Document your weighting assumptions upfront. Changing weights mid-evaluation signals you're trying to force a preferred outcome.
 
-## Red Flags During Vendor Evaluation
+### Step 12: Red Flags During Vendor Evaluation
 
 Stop further evaluation if you see these warning signs:
 
@@ -260,6 +270,21 @@ Stop further evaluation if you see these warning signs:
 - **Pricing "upon request"**: Usually signals premium pricing that doesn't scale
 
 Any of these warrants serious caution. Multiple red flags means exploring alternatives is warranted.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

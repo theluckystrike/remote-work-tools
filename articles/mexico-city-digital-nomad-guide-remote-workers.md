@@ -26,7 +26,17 @@ Mexico City has become one of the top destinations for remote workers, offering 
 - **More expensive ($1,200-2,000/month) but**: reliable infrastructure.
 - **Day passes around $25**: monthly memberships $200-350.
 
-## Best Neighborhoods for Remote Workers
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Best Neighborhoods for Remote Workers
 
 Choosing the right neighborhood impacts your daily productivity.
 
@@ -38,7 +48,7 @@ Choosing the right neighborhood impacts your daily productivity.
 
 **Polanco** — Upscale area with fast internet and good restaurants. More expensive ($1,200-2,000/month) but reliable infrastructure. Ideal for shorter stays when you need consistency.
 
-## Setting Up Internet in Your Apartment
+### Step 2: Set Up Internet in Your Apartment
 
 Mexico City internet speeds have improved dramatically. Most areas now have access to 100-300 Mbps fiber from providers like Telmex (Infinitum), Izzi, and Totalplay.
 
@@ -69,7 +79,7 @@ fi
 
 Purchase a SIM card at the airport or any OXXO convenience store. You'll need your passport for registration. Most plans cost $15-30/month for 20-50GB of data.
 
-## Coworking Spaces
+### Step 3: Coworking Spaces
 
 Mexico City has excellent coworking options across all price ranges:
 
@@ -86,7 +96,7 @@ Many cafes also work well for remote work:
 - **Café Punta del Cielo** — WiFi available, quieter atmosphere
 - **Starbucks Reserve** — Better WiFi than standard locations
 
-## Development Workflow Tips
+### Step 4: Development Workflow Tips
 
 Working with US-based teams from Mexico City requires some adjustments:
 
@@ -159,7 +169,7 @@ rm "$BACKUP_DIR/repos-$DATE.tar.gz"
 
 Push to remote git hosting daily. Consider using a cloud storage service with automatic sync for additional redundancy.
 
-## Essential Apps for Mexico City Life
+### Step 5: Essential Apps for Mexico City Life
 
 **Navigation and Transit:**
 - **Google Maps** — Accurate for public transit (Metro and Metrobús)
@@ -176,7 +186,7 @@ Push to remote git hosting daily. Consider using a cloud storage service with au
 - **Slack/Discord** — For team collaboration
 - **Telegram** — Good for local groups and communities
 
-## Cost of Living Breakdown
+### Step 6: Cost of Living Breakdown
 
 Monthly budget for a digital nomad in Mexico City:
 
@@ -193,7 +203,7 @@ Monthly budget for a digital nomad in Mexico City:
 
 Prices in USD. apartment prices vary significantly by neighborhood and amenities.
 
-## Practical Tips
+### Step 7: Practical Tips
 
 Stick to bottled or filtered water — tap water is not reliably safe. Mexico uses Type A/B plugs (same as the US), so no adapter is needed. Basic Spanish helps immensely; most daily interactions require it even though many in the tech scene speak English. SIM registration requires your passport by law. For health coverage, SafetyWing and World Nomads both offer digital nomad plans.
 
@@ -254,12 +264,12 @@ provider_comparison:
 recommendation: "Get Telmex + mobile hotspot backup (Telcel). Telmex covers most areas, hotspot covers gaps."
 ```
 
-## Apartment Hunting Checklist for Remote Workers
+### Step 8: Apartment Hunting Checklist for Remote Workers
 
 Before signing a lease, verify:
 
 ```markdown
-## Internet Verification Checklist
+### Step 9: Internet Verification Checklist
 
 BEFORE viewing:
 - [ ] Call provider to confirm service available at address
@@ -288,7 +298,7 @@ Red flags:
 - Previous tenant left because of internet issues
 ```
 
-## Backup Internet Setup for Remote Workers
+### Step 10: Backup Internet Setup for Remote Workers
 
 ```bash
 #!/bin/bash
@@ -327,7 +337,7 @@ check_internet_loop() {
 check_internet_loop &
 ```
 
-## Mexico City Power Outage Preparedness
+### Step 11: Mexico City Power Outage Preparedness
 
 Power outages (apagones) happen occasionally, especially during summer heat waves:
 
@@ -350,6 +360,21 @@ During outage:
 - Push all commits when power/internet restores
 ```
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

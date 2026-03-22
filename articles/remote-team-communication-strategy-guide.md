@@ -29,7 +29,17 @@ This guide provides the specific frameworks, templates, and automation examples 
 - **These two foundational practices**: solve the most common remote communication failures: treating every message as urgent and losing decisions in ephemeral chat.
 - **This doesn't mean less communication**: it means better-documented communication.
 
-## Establishing Communication Channels
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Establishing Communication Channels
 
 Every remote team needs clear channel definitions. Without physical proximity cues, team members must understand exactly where to post different types of information. The cost of ambiguity here is high — when developers don't know where to post something, they either default to DMs (which fragments knowledge) or post everything in the most active channel (which creates noise that drowns out real urgency).
 
@@ -52,7 +62,7 @@ Teams growing from 5 to 15 people often create channels reactively, ending up wi
 
 For technical teams, you'll also want automation-specific channels — #ci-cd-alerts, #deploys, #monitoring — that pipe machine-generated noise away from human conversation. The discipline of separating automated alerts from human discussion is underrated and prevents alert fatigue from eroding your team's ability to notice genuinely critical signals.
 
-## Asynchronous-First Documentation
+### Step 2: Asynchronous-First Documentation
 
 Synchronous communication has its place, but remote teams thrive when they default to asynchronous patterns. This doesn't mean less communication — it means better-documented communication.
 
@@ -61,7 +71,7 @@ Synchronous communication has its place, but remote teams thrive when they defau
 Create a standard template for all meeting notes that captures decisions and action items:
 
 ```markdown
-## Meeting: [Title]
+### Step 3: Meeting: [Title]
 **Date:** YYYY-MM-DD
 **Attendees:** @name1, @name2
 
@@ -85,7 +95,7 @@ Most teams argue about synchronous versus asynchronous the wrong way — debatin
 
 Async-first means making async the default path, with synchronous available for situations that genuinely benefit from it. Teams that get this distinction right end the sync-or-async debate entirely — they just pick the tool that serves the outcome.
 
-## Status Updates That Actually Work
+### Step 4: Status Updates That Actually Work
 
 Traditional daily standups often become repetitive rituals that provide little value. Consider replacing them with asynchronous status updates.
 
@@ -106,7 +116,7 @@ A team of four can run effective standups almost informally. A team of twelve ha
 
 Some teams shift from daily async updates to twice-weekly substantive updates with a lightweight daily blocker-only post. The blocker-only approach keeps the daily habit alive without forcing people to generate artificial content on quiet days. If nothing is blocking you and your plan is unchanged from yesterday, a simple "✓ On plan" is more honest than fabricating progress points.
 
-## Context-Rich Communication
+### Step 5: Context-Rich Communication
 
 Vague messages create unnecessary back-and-forth. Train your team to provide sufficient context in initial communications.
 
@@ -132,7 +142,7 @@ The investment in writing context-rich messages pays back immediately in reduced
 
 For technical teams, add a fifth element to RESH: **Links**. Always include direct links to the relevant PR, ticket, documentation, or log output. Never ask someone to "check the thing in Jenkins" without linking to it. This seems obvious, but teams fail at it constantly and each failure adds minutes to a task that should take seconds.
 
-## Handling Sensitive Discussions
+### Step 6: Handling Sensitive Discussions
 
 Some conversations require more care in remote settings. Written tone can be easily misinterpreted.
 
@@ -155,7 +165,7 @@ Build an explicit trigger for escalating from async to sync: if an async thread 
 
 Document the call outcome in writing immediately afterward, then close the async thread with a link to the notes. This closes the loop for anyone following the thread who wasn't on the call.
 
-## Building Team Communication Norms
+### Step 7: Build Team Communication Norms
 
 Establish explicit team agreements about communication. Document these and revisit them quarterly.
 
@@ -188,7 +198,7 @@ Communication agreements only work if new hires internalize them before adopting
 
 Teams that treat communication norms as culture documentation rather than administrative paperwork find that new members integrate faster and the norms actually hold over time. Norms documented but never modeled decay within weeks.
 
-## Measurement and Iteration
+### Step 8: Measurement and Iteration
 
 Communication strategies require ongoing refinement. Establish feedback loops to identify what's working.
 
@@ -212,7 +222,7 @@ Don't wait for quarterly surveys to spot communication problems. Watch for these
 - **Late PR review cycles**: If reviews consistently sit for more than 24 hours, your response time agreements aren't working for code review specifically. Add explicit SLAs for review turnaround.
 - **Meeting creep**: If your "No meeting Wednesday" rule develops exceptions that become habits, your meeting-free protection isn't actually protected. Reaffirm the boundary publicly.
 
-## Tools Integration
+### Step 9: Tools Integration
 
 For technical teams, integrating communication tools with development workflows reduces context switching.
 
@@ -238,6 +248,21 @@ The deeper integration opportunity is bi-directional: configure your project man
 ---
 
 The goal isn't constant connectivity — it's ensuring the right information reaches the right people at the right time. A tiered channel model, async-first defaults, and a quarterly health check give you the mechanisms to get there and adjust as your team grows.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

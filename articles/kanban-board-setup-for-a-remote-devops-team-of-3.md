@@ -30,7 +30,17 @@ Kanban's core principles—visualizing work, limiting work in progress, and mana
 
 For three-person teams, the main advantage is transparency. When everyone can see the board, you reduce the overhead of status update meetings. Each engineer knows what others are working on, which prevents duplicate efforts and highlights blockers quickly.
 
-## Core Board Structure
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Board Structure
 
 A DevOps Kanban board needs columns that reflect your actual workflow. For a small team managing infrastructure and deployments, use these columns:
 
@@ -45,7 +55,7 @@ A DevOps Kanban board needs columns that reflect your actual workflow. For a sma
 
 Adjust column names based on your workflow. Some teams separate "Review" from "Testing" when they involve different people or tools.
 
-## Setting WIP Limits
+### Step 2: Setting WIP Limits
 
 WIP limits prevent overloading individual engineers and keep work flowing. For a three-person team, start with these guidelines:
 
@@ -66,7 +76,7 @@ Configure WIP limits in your tool of choice. Most Kanban tools support column-le
 }
 ```
 
-## Swimlanes and Priority Triage
+### Step 3: Swimlanes and Priority Triage
 
 With only three people, you might consider swimlanes by category rather than assignee:
 
@@ -84,7 +94,7 @@ Prioritize within each swimlane using labels:
 - P3: Medium—backlog, address this week
 - P4: Low—fill gaps between priorities
 
-## Automation Rules That Reduce Friction
+### Step 4: Automation Rules That Reduce Friction
 
 Automation keeps the board accurate without manual updates. Set up these rules for a three-person remote DevOps team:
 
@@ -129,7 +139,7 @@ Require checklist items before moving to Done:
 - Monitoring/alerts verified
 - Rollback plan documented (for deployments)
 
-## Example Board Configuration
+### Step 5: Example Board Configuration
 
 Here's a practical setup using GitHub Projects:
 
@@ -165,7 +175,7 @@ labels:
 
 This configuration enforces WIP limits while keeping the board flexible. The color-coded labels let you scan quickly and identify work type at a glance.
 
-## Handling Incidents Separately
+### Step 6: Handling Incidents Separately
 
 Standard Kanban boards struggle with incident response because incidents are time-sensitive and interrupt planned work. Consider a separate "Incident Board" or a dedicated swimlane with different rules:
 
@@ -176,7 +186,7 @@ Standard Kanban boards struggle with incident response because incidents are tim
 
 This separation ensures incidents get immediate attention while routine work continues uninterrupted.
 
-## Daily Workflow for Remote Teams
+### Step 7: Daily Workflow for Remote Teams
 
 With a three-person team across time zones, establish a lightweight daily ritual:
 
@@ -186,7 +196,7 @@ With a three-person team across time zones, establish a lightweight daily ritual
 
 The board replaces most status questions. When someone asks "what are you working on?" the answer is on the board.
 
-## Measuring Flow
+### Step 8: Measuring Flow
 
 Track these metrics to improve your process:
 
@@ -197,7 +207,7 @@ Track these metrics to improve your process:
 
 Review these weekly. If lead time increases, look for bottlenecks. If blockage frequency rises, investigate what's causing stalls.
 
-## Common Pitfalls to Avoid
+### Step 9: Common Pitfalls to Avoid
 
 Avoid these mistakes when setting up your board:
 
@@ -206,7 +216,7 @@ Avoid these mistakes when setting up your board:
 - Over-labeling: Labels help, but too many become noise. Stick to 5-8 meaningful ones.
 - Forgetting archived items: Old completed cards clutter views. Archive or delete them periodically.
 
-## Adapting as Your Team Grows
+### Step 10: Adapting as Your Team Grows
 
 A three-person team may eventually become four or five. Your Kanban setup should scale:
 
@@ -216,6 +226,21 @@ A three-person team may eventually become four or five. Your Kanban setup should
 
 The principles remain the same: visualize work, limit WIP, manage flow. The specifics adjust to your new reality.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

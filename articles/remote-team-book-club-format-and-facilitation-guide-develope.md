@@ -44,18 +44,28 @@ Running a book club for a distributed developer team requires more than sharing 
 - **Next book suggestion**: [Free text]
 ```
 
-## Sustaining Momentum
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Sustaining Momentum
 
 Book clubs often lose energy after the first few cycles.
 
-## Establishing the Foundation
+### Step 2: Establishing the Foundation
 
 Before looking at discussion formats, establish clear expectations about commitment level, meeting frequency, and reading pace. A developer book club typically works best with a 2-4 week cycle per book chapter or section, depending on complexity. For technical books covering dense material like system design patterns or advanced algorithms, allow more time. For leadership or process-focused books, you can move faster.
 
 Create a simple signup process using your existing tooling. A GitHub issue or Notion database works well for tracking participants and their reading progress. Here's a minimal template for signups:
 
 ```markdown
-## Book Club Cycle: [Book Title]
+### Step 3: Book Club Cycle: [Book Title]
 
 **Reading window:** [Start Date] - [End Date]
 **Discussion date:** [Date] at [Time UTC]
@@ -72,7 +82,7 @@ Add your status as a comment:
 - [ ] Need more time
 ```
 
-## Discussion Format Options
+### Step 4: Discussion Format Options
 
 ### The Rotating Facilitator Model
 
@@ -81,7 +91,7 @@ Assign a different facilitator for each session. This distributes preparation wo
 A facilitator script might look like this:
 
 ```markdown
-## Facilitation Script
+### Step 5: Facilitation Script
 
 ### Opening (2 min)
 - Welcome everyone
@@ -120,7 +130,7 @@ How might we apply [concept] to our current [project/system/codebase]?
 What aspects of this approach do you think won't work for our team?
 ```
 
-## Technical Deep-Dives for Developer Books
+### Step 6: Technical Deep-Dives for Developer Books
 
 When your book club covers technical material, incorporate hands-on elements that go beyond abstract discussion. Code examples and practical exercises transform a passive reading activity into active learning.
 
@@ -154,7 +164,7 @@ Ask questions like: "What happens if we increase buffer_size?" or "How would thi
 
 For books with programming exercises, pair team members to work through problems together. Use VS Code Live Share or similar collaborative editing tools to code together in real-time. This approach works particularly well for books covering algorithms, system design, or new programming patterns.
 
-## helping Difficult Discussions
+### Step 7: helping Difficult Discussions
 
 Some books spark debates about opinions, philosophical approaches, or controversial topics. Good help keeps discussions productive without shutting down disagreement.
 
@@ -185,14 +195,14 @@ actually failed? [Name], what's a case where approach B succeeded?"
 What do we all agree on about [specific aspect]?"
 ```
 
-## Tracking Progress and Measuring Value
+### Step 8: Tracking Progress and Measuring Value
 
 Maintain a simple metrics system to demonstrate the book club's value and identify areas for improvement.
 
 ### Simple Tracking Template
 
 ```markdown
-## Book Club Metrics
+### Step 9: Book Club Metrics
 
 ### Cycle [N]: [Book Title]
 - Participants: [Number]
@@ -218,7 +228,7 @@ Quick feedback on [Book Title]:
 4. Next book suggestion: [Free text]
 ```
 
-## Sustaining Momentum
+### Step 10: Sustaining Momentum
 
 Book clubs often lose energy after the first few cycles. Combat this by:
 
@@ -228,7 +238,7 @@ Book clubs often lose energy after the first few cycles. Combat this by:
 - **Rotate leadership** — Fresh facilitators bring new energy
 - **Build a backlog** — Maintain a list of future books to maintain anticipation
 
-## Tools That Work Well
+### Step 11: Tools That Work Well
 
 For remote developer book clubs, these tools integrate well with existing workflows:
 
@@ -238,6 +248,21 @@ For remote developer book clubs, these tools integrate well with existing workfl
 - **Zoom/Meet** — Live discussion sessions
 - **VS Code Live Share** — Collaborative code exploration
 - **Excalidraw** — Visual diagrams for system design discussions
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

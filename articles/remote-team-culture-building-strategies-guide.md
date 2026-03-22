@@ -42,7 +42,17 @@ Start with three foundational moves: establish a daily async check-in ritual tha
 
 The most successful remote teams treat culture as a system to be built, not an accident to be hoped for. This means creating deliberate rituals, establishing clear values, and building infrastructure that enables human connection despite physical distance.
 
-## Strategy One: Establish Core Team Rituals
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Strategy One: Establish Core Team Rituals
 
 Rituals create predictability and shared experiences that bind remote teams together. Effective rituals span synchronous and asynchronous formats to accommodate global time zones.
 
@@ -98,7 +108,7 @@ console.log("This week's coffee buddies:", weeklyPairs);
 
 Running this weekly creates organic connections across the team that translate into better collaboration during work hours.
 
-## Strategy Two: Document and Live Your Values
+### Step 2: Strategy Two: Document and Live Your Values
 
 Remote teams need explicit values that guide decision-making when face-to-face conversation cannot fill in the gaps. Document values as specific behavioral expectations rather than abstract concepts.
 
@@ -129,7 +139,7 @@ Use code review as a culture-defining practice. Establish review norms that rein
 ```bash
 # .github/CODE_REVIEW_GUIDELINES.md example
 
-## Review Style Guide
+### Step 3: Review Style Guide
 
 - Lead with questions, not commands: "What if we considered..." instead of "Fix this"
 - Praise good patterns: Call out smart solutions, not just problems
@@ -140,7 +150,7 @@ Use code review as a culture-defining practice. Establish review norms that rein
 
 This transforms code review from a quality gate into a teaching practice that builds shared knowledge and mutual respect.
 
-## Strategy Three: Build Knowledge Systems That Scale
+### Step 4: Strategy Three: Build Knowledge Systems That Scale
 
 Remote teams cannot rely on tribal knowledge passed through office proximity. Documentation becomes the backbone of team culture, preserving institutional memory and enabling new members to contribute quickly.
 
@@ -151,32 +161,32 @@ Record not just what was decided, but why alternatives were rejected:
 ```markdown
 # ADR-042: Adopt pnpm over npm
 
-## Status: Accepted
+### Step 5: Status: Accepted
 
-## Context
+### Step 6: Context
 Our monorepo build times exceeded 10 minutes on CI, causing developer frustration
 and blocking deployments.
 
-## Decision
+### Step 7: Decision
 We will migrate from npm to pnpm with workspace support.
 
-## Consequences
+### Step 8: Consequences
 - Expected 3-5x improvement in install times
 - Team needs to learn pnpm-specific patterns
 - Existing npm scripts remain compatible through npm alias
 
-## Alternatives Considered
+### Step 9: Alternatives Considered
 - **Yarn Berry**: Good performance but additional complexity with PnP mode
 - **npm workspaces**: Would require less migration but performance gains uncertain
 - **Turborepo**: Worth revisiting after monorepo grows; premature optimization now
 
-## Date: 2026-02-15
-## Review: After 3 months of production use
+### Step 10: Date: 2026-02-15
+### Step 11: Review: After 3 months of production use
 ```
 
 This practice preserves the reasoning behind decisions, enabling future developers to understand context without hunting down original authors across time zones.
 
-## Strategy Four: Create Onboarding That Builds Culture
+### Step 12: Strategy Four: Create Onboarding That Builds Culture
 
 New team members should absorb culture through intentional onboarding, not accidental exposure. Design onboarding that transmits values while building relationships.
 
@@ -199,7 +209,7 @@ onboarding_buddy_program:
 
 The buddy relationship often becomes the new employee's strongest connection to the team, creating mentorship pathways that strengthen culture over time.
 
-## Measuring Culture Health
+### Step 13: Measuring Culture Health
 
 Track culture through qualitative and quantitative signals. Conduct regular surveys, analyze meeting participation, and monitor documentation contributions.
 
@@ -216,7 +226,7 @@ TEAM_HEALTH_METRICS = {
 
 The numbers tell part of the story. The rest comes from listening to team feedback and observing how members interact in channels and meetings.
 
-## Strategy Five: Documentation as Culture Artifact
+### Step 14: Strategy Five: Documentation as Culture Artifact
 
 Great remote cultures are documented cultures. When new team members can read the history of how decisions were made, what was tried and failed, and why the team operates a certain way, they absorb culture through reading rather than requiring constant verbal transmission.
 
@@ -227,7 +237,7 @@ Create a team wiki or knowledge base specifically dedicated to culture:
 ```markdown
 # Our Culture and Operations
 
-## What We Value (Not Just Words)
+### Step 15: What We Value (Not Just Words)
 
 ### Default to Async
 We write decisions in permanent channels so people in different timezones can catch up.
@@ -244,7 +254,7 @@ We celebrate asking for help as a sign of good judgment.
 - Consequence: New engineers ask questions freely rather than getting stuck
 - Tool: Dedicated #questions channel, same visibility as #announcements
 
-## How We Operate
+### Step 16: How We Operate
 
 ### Meeting Policies
 - No meetings on Tuesdays or Thursdays (deep work days)
@@ -298,7 +308,7 @@ monthly_culture_rituals:
 
 These rituals create predictability and show that culture is intentional, not accidental.
 
-## Culture in Moments of Crisis
+### Step 17: Culture in Moments of Crisis
 
 True culture reveals itself during stressful moments. When a production incident happens or a project slips, how does your team respond?
 
@@ -316,11 +326,26 @@ True culture reveals itself during stressful moments. When a production incident
 
 Build your culture explicitly around how you handle bad moments, not just good ones.
 
-## Building Culture Takes Work, But Pays Dividends
+### Step 18: Build Culture Takes Work, But Pays Dividends
 
 Start with one ritual, one documented value, or one process improvement. Culture compounds over time — small consistent efforts create the kind of team environment that makes remote work genuinely rewarding.
 
 The teams that maintain strong culture across distributed timezones share a common approach: they treat culture as infrastructure, not as a nice-to-have. They invest in documentation, rituals, and systems the same way they invest in CI/CD pipelines and code review processes. This investment pays dividends in retention, innovation, and team happiness.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

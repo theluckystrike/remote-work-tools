@@ -26,7 +26,17 @@ The core principle is simple: separate client data from project data, link them 
 - **Topics covered**: database architecture, clients database, projects database
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Database Architecture
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Database Architecture
 
 A well-designed Notion setup relies on three interconnected databases: Clients, Projects, and Tasks. Each serves a distinct purpose and connects through relations.
 
@@ -76,7 +86,7 @@ Your granular work items live here:
 
 This structure lets you track time at the task level and roll it up for invoicing.
 
-## Views That Actually Help
+### Step 2: Views That Actually Help
 
 Databases are useless without views that surface the right information. Build views based on when you need the data.
 
@@ -98,7 +108,7 @@ Filter Tasks by Status = Done, Billable = checked, and a date range matching you
 
 Create a separate page that uses a linked view of Clients. For each client, show their active projects and upcoming deadlines. This gives you a 30-second status check for every client.
 
-## Templates for Consistency
+### Step 3: Templates for Consistency
 
 Templates reduce repeated setup work. Create template pages for common project types.
 
@@ -174,7 +184,7 @@ jobs:
 
 This approach works for tracking completed work, though you may want to filter for meaningful commit messages to avoid cluttering your task database.
 
-## Maintenance and Evolution
+### Step 4: Perform Maintenance and Evolution
 
 Your Notion system requires periodic maintenance. Schedule monthly reviews:
 
@@ -187,7 +197,7 @@ The system should serve your workflow, not constrain it. If a view feels unneces
 
 Start with the three-database structure, add your five clients, and build views as you need them. This foundation scales beyond five clients when your business grows.
 
-## Automating Invoicing from Notion
+### Step 5: Automate Invoicing from Notion
 
 Connect your billable hours to automated invoicing:
 
@@ -246,7 +256,7 @@ def generate_invoice(client_id, billing_period_start, billing_period_end):
 
 Export this data to a PDF invoice template (use tools like WeasyPrint or send to Stripe Invoicing).
 
-## Client Profitability Analysis
+### Step 6: Client Profitability Analysis
 
 Track which clients are actually profitable:
 
@@ -280,7 +290,7 @@ function analyzeClientProfitability(clientId, allTasks) {
 
 If a client's effective hourly rate drops below your minimum (after accounting for non-billable time), it's time to either raise rates or end the relationship.
 
-## Client Communication Workflow
+### Step 7: Client Communication Workflow
 
 Use Notion as your communication hub:
 
@@ -302,18 +312,18 @@ Use Notion as your communication hub:
 ```markdown
 # Weekly Update - [Client Name] - Week of [Date]
 
-## What Was Completed
+### Step 8: What Was Completed
 - [ ] Task 1: [description] (4.5 hours)
 - [ ] Task 2: [description] (2 hours)
 
-## What's Planned for Next Week
+### Step 9: What's Planned for Next Week
 - [ ] Task 3: [description] (6 hours estimated)
 - [ ] Task 4: [description] (2 hours estimated)
 
-## Blockers or Questions
+### Step 10: Blockers or Questions
 None this week — we're on track.
 
-## Billable Hours This Week
+### Step 11: Billable Hours This Week
 - Total: 6.5 hours
 - Rate: $[rate]/hour
 - Amount: $[total]
@@ -325,7 +335,7 @@ None this week — we're on track.
 
 Copy this template every Monday and fill in details from your Tasks database.
 
-## Scaling Beyond 5 Clients
+### Step 12: Scaling Beyond 5 Clients
 
 When approaching 10 clients, introduce these changes:
 
@@ -350,7 +360,7 @@ FROM tasks WHERE monthCompleted = current_month
 
 Use Notion's Rollup property to calculate these automatically.
 
-## Sample Client Rates by Specialty (2026)
+### Step 13: Sample Client Rates by Specialty (2026)
 
 Use these benchmarks when setting client rates:
 
@@ -365,6 +375,21 @@ Use these benchmarks when setting client rates:
 
 Regional variation: Add 20-40% for San Francisco/NYC, subtract 20-30% for lower cost-of-living areas.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

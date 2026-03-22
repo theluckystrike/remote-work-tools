@@ -48,7 +48,17 @@ Effective remote accountability focuses on outputs rather than inputs. Instead o
 
 The 2026 distributed workforce has a high tolerance for autonomy but a low tolerance for ambiguity. Accountability systems that feel like surveillance will be quietly undermined. Systems that make progress visible without judgment will be embraced — because they protect team members from unfair performance reviews as much as they protect managers from surprise delays.
 
-## Core Components of Accountability Systems
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Components of Accountability Systems
 
 A remote accountability system includes three fundamental elements: clear commitments, regular check-ins, and visible progress tracking.
 
@@ -171,7 +181,7 @@ Choosing the right tool depends on your team's existing workflow and the level o
 
 For small engineering teams (under 20 people), Geekbot or a GitHub Actions workflow gives you 80% of the value at minimal cost. Larger organizations with HR requirements benefit from Lattice's integration with performance review cycles. The custom approach using Linear and GitHub Actions requires more setup but gives you complete control over the data.
 
-## Building Custom Accountability Tools
+### Step 2: Build Custom Accountability Tools
 
 For teams wanting full control, building custom accountability systems provides maximum flexibility. Here's a minimal implementation using a GitHub Actions workflow that tracks issue progress:
 
@@ -201,7 +211,7 @@ jobs:
             console.log('Created issue:', issue.data.number)
 ```
 
-## Key Principles for Effective Implementation
+### Step 3: Key Principles for Effective Implementation
 
 Start small and iterate. Implementing accountability overnight overwhelms teams. Begin with weekly check-ins, then gradually add more frequent updates as the culture adapts.
 
@@ -231,7 +241,7 @@ async function generateWeeklyProgressReport(teamId, db) {
 }
 ```
 
-## Common Pitfalls to Avoid
+### Step 4: Common Pitfalls to Avoid
 
 Over-monitoring creates resentment. Tracking every keystroke or requiring constant status updates signals distrust. Respect team members' autonomy by measuring outcomes instead of activities.
 
@@ -243,7 +253,7 @@ Setting unreachable goals undermines accountability. When team members consisten
 
 **Duplicate update fatigue.** If a developer updates Jira, then posts in Slack, then fills in Geekbot, and then updates a Notion sprint board, they are spending 20 minutes a day on status theater. The best accountability systems pull from a single source of truth — usually the issue tracker — and distribute that information automatically.
 
-## Accountability for Different Work Styles
+### Step 5: Accountability for Different Work Styles
 
 Not every team member responds to the same accountability structure. Recognize these common patterns and design accordingly:
 
@@ -253,7 +263,7 @@ Not every team member responds to the same accountability structure. Recognize t
 
 A one-size-fits-all accountability cadence is a common failure mode. Build a system flexible enough that different team members can operate at different check-in frequencies while still feeding into the same shared visibility layer.
 
-## Measuring Success
+### Step 6: Measuring Success
 
 Track these metrics to evaluate your accountability system:
 
@@ -265,6 +275,21 @@ Track these metrics to evaluate your accountability system:
 Adjust your approach based on these signals. The best accountability system feels like a helpful framework rather than a bureaucratic burden.
 
 A quarterly retrospective specifically focused on the accountability system itself — separate from project retrospectives — helps catch friction before it causes attrition. Ask directly: "Is this system helping you or costing you time?" The answers often surface improvements that no manager would have thought to implement.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

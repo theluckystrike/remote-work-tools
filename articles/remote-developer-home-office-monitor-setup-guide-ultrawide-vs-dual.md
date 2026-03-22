@@ -45,7 +45,17 @@ Developers spend 70-80% of their work day staring at code. Better monitor setups
 
 The real productivity gains come from reducing context loss. When you can see your code editor, terminal, API docs, and test runner simultaneously, you stay in flow. Every alt-tab or window drag breaks cognitive context.
 
-## Ultrawide Monitors: Single Large Display
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Ultrawide Monitors: Single Large Display
 
 An ultrawide monitor (21:9 aspect ratio, typically 3440 x 1440 or 5120 x 1440) gives you the width of dual 27-inch monitors in a single panel. You eliminate the physical center bezel that interrupts your view.
 
@@ -102,7 +112,7 @@ The 160Hz makes window dragging, scrolling, and mouse movement feel silky. If yo
 - Desk width: 40-45 inches minimum (ultrawides are 33-34 inches wide)
 - Arm space: 6 inches on each side for keyboard/mouse
 
-## Dual 27-Inch Monitors: Maximum Flexibility
+### Step 2: Dual 27-Inch Monitors: Maximum Flexibility
 
 Two 27-inch monitors give you pixel-for-pixel the same total resolution as ultrawide (approximately 5760 x 2160 combined if dual 4K), but with independent scaling, easier positioning, and better upgrade flexibility.
 
@@ -199,7 +209,7 @@ Both setups require GPU VRAM to drive displays smoothly:
 | **Flexibility for upgrades** | Locked in | Swap one monitor at a time |
 | **Productivity boost** | 15-18% | 18-22% |
 
-## Productivity Research: Real Numbers
+### Step 3: Productivity Research: Real Numbers
 
 A 2024 study by The Productivity Institute tracked developers using:
 1. Single 27-inch monitor (baseline)
@@ -216,7 +226,7 @@ The dual setup won because two independent monitors allowed better task organiza
 
 Key finding: **vertical space matters as much as horizontal for development**. Developers working with long files, split panes, or terminals benefit more from two full-height monitors.
 
-## Real-World Setup Examples
+### Step 4: Real-World Setup Examples
 
 **Setup 1: Budget ultrawide developer ($500-600)**
 - LG 34UP550 (3440 x 1440) - $500-600
@@ -246,7 +256,7 @@ Key finding: **vertical space matters as much as horizontal for development**. D
 - Total: $1250-1550
 - Use case: Developers wanting ultrawide primary + dedicated secondary for chat/monitoring
 
-## Practical Buying Advice
+### Step 5: Practical Buying Advice
 
 1. **Measure your desk first** - Know your actual depth and width before buying. Ultrawides need deeper desks.
 
@@ -260,7 +270,7 @@ Key finding: **vertical space matters as much as horizontal for development**. D
 
 6. **Check your office lighting** - Matte panel monitors reduce glare better than glossy. In bright offices, this matters.
 
-## The Ergonomic Factor
+### Step 6: The Ergonomic Factor
 
 Both setups can strain your neck and eyes if positioned incorrectly:
 
@@ -271,7 +281,7 @@ Both setups can strain your neck and eyes if positioned incorrectly:
 
 With dual monitors, position them in a shallow V-shape (10-15 degrees apart) rather than side-by-side straight. This reduces neck strain.
 
-## Decision Framework
+### Step 7: Decision Framework
 
 **Choose ultrawide if:**
 - You have limited desk depth (under 24 inches)
@@ -306,6 +316,21 @@ xrandr --output HDMI-1 --mode 2560x1440 --rate 144
 # Check if DisplayPort cable supports the target refresh rate
 # DP 1.4 = up to 4K@120Hz; DP 1.2 = up to 4K@60Hz or 1440p@165Hz
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
