@@ -15,7 +15,7 @@ tags: [remote-work-tools, remote-work]
 ---
 ---
 layout: default
-title: "Share with client"
+title: "Client Document Sharing Portals for Remote Teams"
 description: "A technical comparison of client document sharing portals for remote agencies. Features, API access, security, integrations, and implementation"
 date: 2026-03-16
 last_modified_at: 2026-03-16

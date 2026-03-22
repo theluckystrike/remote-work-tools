@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Example: project-update.yml - Scheduled updates structure"
+title: "Manage Client Expectations with Async Remote Teams"
 description: "Practical strategies for setting clear communication boundaries and managing client expectations when your team works across different time zones"
 date: 2026-03-16
 last_modified_at: 2026-03-16

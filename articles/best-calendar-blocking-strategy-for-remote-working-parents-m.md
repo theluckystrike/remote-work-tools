@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "calendar_manager.py - Manage childcare-aware calendar blocks"
+title: "Calendar Blocking for Remote Working Parents (2026)"
 description: "The asymmetric blocking framework—creating multiple 90-minute protected blocks with 15-minute buffers instead of hoping for a single 4-hour block—accommodates"
 date: 2026-03-15
 author: "Remote Work Tools Guide"

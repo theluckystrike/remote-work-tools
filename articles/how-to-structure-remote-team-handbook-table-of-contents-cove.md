@@ -15,7 +15,7 @@ tags: [remote-work-tools, remote-work]
 ---
 ---
 layout: default
-title: "Remote Team Handbook"
+title: "Remote Team Handbook: Structure and Template"
 description: "Structure your remote handbook with these 10 core sections in order: Welcome & Mission → Communication Norms → Work Schedule & Time Tracking → Performance"
 date: 2026-03-16
 last_modified_at: 2026-03-16

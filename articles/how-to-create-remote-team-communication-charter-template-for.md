@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ".communication-charter.yml - add to your project repo"
+title: "Remote Team Communication Charter Template"
 description: "A practical guide to building a communication charter for remote development teams. Includes templates, code examples, and implementation steps"
 date: 2026-03-16
 last_modified_at: 2026-03-16

@@ -15,7 +15,7 @@ tags: [remote-work-tools, remote-work]
 ---
 ---
 layout: default
-title: "infrastructure-pods.yaml"
+title: "Remote SRE Capacity Planning Across Infra Pods"
 description: "A practical guide to coordinating capacity planning for remote SRE teams working across infrastructure pods. Includes code examples and actionable"
 date: 2026-03-16
 last_modified_at: 2026-03-16

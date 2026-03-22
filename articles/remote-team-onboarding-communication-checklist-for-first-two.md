@@ -15,7 +15,7 @@ tags: [remote-work-tools, remote-work]
 ---
 ---
 layout: default
-title: "communication-preferences.yaml"
+title: "Remote Onboarding Communication Checklist (2026)"
 description: "A practical communication checklist to help new remote hires integrate smoothly during their first two weeks. Includes templates, tools, and best"
 date: 2026-03-15
 last_modified_at: 2026-03-15

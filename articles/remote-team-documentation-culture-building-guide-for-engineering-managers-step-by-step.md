@@ -15,7 +15,7 @@ tags: [remote-work-tools, remote-work]
 ---
 ---
 layout: default
-title: "Code Review Guide"
+title: "Remote Team Documentation Culture Guide (2026)"
 description: "A practical step-by-step guide for engineering managers to build documentation culture in remote teams. Includes templates, workflows, and code examples"
 date: 2026-03-16
 last_modified_at: 2026-03-16
