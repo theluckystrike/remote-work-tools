@@ -503,5 +503,12 @@ Individual time blocking is good. Team-wide adoption is better.
 
 **Result:** Productivity increase across entire team (35-45%).
 
+
+## Related Articles
+
+- [How to Set Up Dual Monitor Arms on Remote Work Desk](/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

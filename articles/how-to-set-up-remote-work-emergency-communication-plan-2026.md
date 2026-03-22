@@ -495,5 +495,12 @@ Print this and send it to all employees. Make it an one-pager so people actually
 
 Test your plan once per quarter. Update phone numbers and escalation paths quarterly. You'll never regret being over-prepared for communication breakdowns.
 
+
+## Related Articles
+
+- [How to Set Up Dual Monitor Arms on Remote Work Desk](/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Set Up Linux Workstation for Remote Work](/how-to-set-up-linux-workstation-for-remote-work/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

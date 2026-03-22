@@ -397,5 +397,12 @@ Treat them as non-negotiable. Prepare minimally, listen actively, and invest in 
 
 Start this week with a shared 1:1 agenda doc. Invite your report to contribute. Watch the conversation depth improve immediately.
 
+
+## Related Articles
+
+- [How to Run Effective Remote One-on-One Meetings](/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Run Effective Remote Brainstorming Session](/how-to-run-effective-remote-brainstorming-session-using-chat/)
+- [Run Effective Remote Client Workshops Using Miro](/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

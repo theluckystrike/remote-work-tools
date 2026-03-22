@@ -265,5 +265,12 @@ The best-run book system fails if engineers do not use it. Foster a culture wher
 
 Recognize contributors who maintain documentation. Documentation work often goes unnoticed but directly impacts team effectiveness.
 
+
+## Related Articles
+
+- [How to Organize Remote Team Playbook Documentation for](/how-to-organize-remote-team-playbook-documentation-for-repea/)
+- [Example OpenAPI specification snippet](/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Best Practice for Remote Team Documentation Feedback Loop](/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

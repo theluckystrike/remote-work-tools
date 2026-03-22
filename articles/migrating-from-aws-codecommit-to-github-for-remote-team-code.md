@@ -218,5 +218,12 @@ Verify the migration completed successfully with this verification process:
 
 5. **CI/CD status**: Confirm automated tests and deployments function correctly
 
+
+## Related Articles
+
+- [Migrating from Google Forms to Typeform for Remote Team](/migrating-from-google-forms-to-typeform-for-remote-team-surv/)
+- [Best Practice for Remote Team Code Review Comments](/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [Find all GitHub repositories where user is admin](/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

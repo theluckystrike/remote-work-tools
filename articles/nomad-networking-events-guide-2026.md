@@ -331,5 +331,12 @@ Constant social networking burns out introverts (and many developers). Create su
 - Online communities you care about (post meaningful responses, 1-2x weekly)
 - Contributing to open source (passive networking through code contributions)
 
+
+## Related Articles
+
+- [Best Backpack for Digital Nomad Developers: A Practical](/best-backpack-for-digital-nomad-developers/)
+- [conversation-prompts.yaml - Example prompt rotation system](/best-practice-for-hybrid-team-social-events-including-both-r/)
+- [Best Virtual Team Trivia Platform for Remote Social Events](/best-virtual-team-trivia-platform-for-remote-social-events-2/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

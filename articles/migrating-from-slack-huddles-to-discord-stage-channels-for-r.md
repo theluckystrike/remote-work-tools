@@ -188,5 +188,12 @@ Following these practices ensures productive stage channel discussions:
 - **Record important sessions** – Discord supports session recording for team members in different time zones
 - **Create recurring stage events** – Use Discord's event scheduler for regular standups and meetings
 
+
+## Related Articles
+
+- [Migrating from HipChat Legacy to Slack for Remote Teams](/migrating-from-hipchat-legacy-to-slack-for-remote-teams-still-on-old-platform/)
+- [Best Remote Work Tools for Java Teams Migrating from](/best-remote-work-tools-for-java-teams-migrating-from-monolit/)
+- [How to Create Interest-Based Slack Channels for Remote](/how-to-create-interest-based-slack-channels-for-remote-cultu/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

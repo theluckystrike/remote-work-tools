@@ -295,5 +295,12 @@ These conversations feel awkward but prevent disappointment when someone suddenl
 - [Remote Team Conflict Resolution Framework for Managers](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
 - [How to Set Up Remote Hiring Pipeline with Async Interviews](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 
+
+## Related Articles
+
+- [Best Backpack for Digital Nomad Developers: A Practical](/best-backpack-for-digital-nomad-developers/)
+- [Brazil Digital Nomad Visa Process and Tax Implications](/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [Document checklist with recommended file names](/colombia-digital-nomad-visa-application-process-for-software/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -387,5 +387,12 @@ tmux send-keys -t pair "npm test" Enter
 - [ ] Create PR with pairing notes ("Pair with Jane on feature X")
 - [ ] Close session gracefully (don't leave hanging connections)
 
+
+## Related Articles
+
+- [How to Set Up Remote Pair Programming Sessions](/how-to-set-up-remote-pair-programming-sessions-guide/)
+- [How to Set Up Remote Design Handoff Workflow](/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [How to Set Up Remote Finance Team Approval Workflow](/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
