@@ -53,7 +53,6 @@ voice-checked: true
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -93,8 +92,6 @@ intent-checked: true
 voice-checked: true---
 
 
-=======
->>>>>>> ee0c965ee12a5fe6ea604c409db62573b2d3274b
 categories: [guides]
 
 categories: [guides]

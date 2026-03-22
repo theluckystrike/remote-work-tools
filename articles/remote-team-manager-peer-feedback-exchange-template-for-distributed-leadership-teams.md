@@ -44,7 +44,6 @@ voice-checked: true
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -75,8 +74,6 @@ intent-checked: true
 voice-checked: true---
 
 
-=======
->>>>>>> ee0c965ee12a5fe6ea604c409db62573b2d3274b
 {% raw %}
 
 Implement async peer feedback exchanges for remote leadership teams using structured requests with specific questions, deadline-bound responses, explicit acknowledgment of feedback, and committed follow-up actions—creating documentation that builds trust while replacing the informal hallway conversations that don't exist in distributed settings. This process reduces emotional friction while producing clear expectations about behavior change and growth.
