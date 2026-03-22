@@ -29,6 +29,15 @@ voice-checked: true---
 
 Occupancy analytics platforms combine hardware sensors with software dashboards to track desk use, room occupancy, and space density in hybrid offices. These platforms provide RESTful APIs, real-time sensor data streaming, historical trend analysis, and webhook support for integrating with workplace tools. Best implementations buffer sensor events, calculate actual vs. booked usage ratios, offer WebSocket APIs for live dashboards, and export data for custom analytics.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **The best occupancy analytics**: platforms combine hardware sensors with software dashboards to deliver practical recommendations.
+- **Most vendors achieving SOC**: 2 or ISO 27001 certification now default to on-device processing with only metadata transmitted.
+- **For most organizations doing**: their first occupancy analytics deployment, the recommended path is ultrasonic sensors at the desk level combined with camera-based counting at room entrances.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **They have better accuracy**: for sedentary occupants but are more expensive and require careful placement to avoid interference from HVAC air currents or ceiling-mounted diffusers.
+
 ## Understanding Occupancy Analytics Requirements
 
 Modern hybrid offices need to track three primary metrics: desk use, room occupancy, and overall space density. The best occupancy analytics platforms combine hardware sensors with software dashboards to deliver practical recommendations. When evaluating solutions, prioritize API accessibility, data granularity, and integration flexibility.

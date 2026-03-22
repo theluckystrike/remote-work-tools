@@ -14,8 +14,20 @@ voice-checked: true---
 
 {% raw %}
 
-
 Working from Bali's vibrant cafe scene offers an incredible lifestyle, but the constant buzz of conversation, music, and café activity can destroy your productivity. Whether you're debugging complex code in a Canggu coffee shop or taking client calls in a busy Seminyak café, a solid noise cancelling setup transforms these environments into viable workspaces. This guide covers the technical approach to achieving focus in chaotic acoustic environments, combining hardware, software, and environmental strategies that actually work.
+
+## Key Takeaways
+
+- **Use dedicated microphone -**: A boom arm microphone ($30-50) improves signal-to-noise ratio dramatically 4.
+- **Angle Rule**: Cardioid pattern exploitation
+# Most microphones have cardioid patterns (heart-shaped pickup)
+# Position so cafe noise is at the side/back, your mouth is in front
+
+# 3.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Most developers make the**: mistake of focusing only on ANC headphones, ignoring the other two-thirds of the problem.
+- **Morning sessions (before 11am)**: typically offer quieter conditions across most Bali cafes.
+- **Holiday Periods**: July-August peak tourism causes 40% increase in cafe noise levels.
 
 ## The Bali Café Acoustic Challenge
 

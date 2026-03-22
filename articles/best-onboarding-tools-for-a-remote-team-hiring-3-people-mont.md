@@ -31,6 +31,15 @@ When your remote team brings in three new hires every month, manual onboarding p
 
 This guide evaluates onboarding tools that handle the specific challenges of consistent, repeatable remote team scaling. The focus is on tools that integrate with developer workflows, support async documentation, and reduce coordination overhead.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Teams already using Notion**: GitHub, Slack, and Linear gain the most from the integrations described above.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+- **A week-long trial with**: actual work gives better signal than feature comparison charts.
+- **The best choice depends**: on your team's specific communication patterns and size.
+
 ## The Core Onboarding Pipeline
 
 Before evaluating specific tools, understand the four stages every remote onboarding process needs:
