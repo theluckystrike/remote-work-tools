@@ -330,20 +330,92 @@ tar xzf "/backups/verdaccio-20260322_020000.tar.gz"
 docker compose restart verdaccio
 ```
 
-## Troubleshooting
+## Verdaccio Plugins for Team Workflows
 
-**Configuration changes not taking effect**
+Verdaccio's plugin system extends its capabilities well beyond basic auth and storage. The most useful plugins for remote teams are:
 
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+**verdaccio-github-oauth-ui** — Replaces htpasswd with GitHub OAuth login, so developers authenticate with their GitHub accounts and token rotation is automatic. Configuration is minimal: set the GitHub OAuth app credentials and the registry handles the rest.
 
-**Permission denied errors**
+**verdaccio-audit** — Enables `npm audit` against your private registry by proxying the npm audit endpoint. Developers running `npm audit` in a project that uses private packages get results from both the public advisory database and your registry's metadata.
 
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+**verdaccio-ldap** — Connects to an existing corporate LDAP or Active Directory for authentication, which avoids managing a separate htpasswd user database when you already have an identity provider.
 
-**Connection or network-related failures**
+Installing a plugin requires placing it in the plugins volume directory and referencing it in config:
 
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+```bash
+# Add plugin to running container (for testing)
+docker exec verdaccio npm install verdaccio-github-oauth-ui
 
+# Or add to Dockerfile for a custom image
+FROM verdaccio/verdaccio:5
+RUN npm install -g verdaccio-github-oauth-ui
+```
+
+```yaml
+# config.yaml — GitHub OAuth auth section
+auth:
+  github-oauth-ui:
+    client-id: your-github-app-client-id
+    client-secret: your-github-app-client-secret
+    org: your-github-org
+```
+
+## Scoped Package Strategy for Large Teams
+
+Flat package names in a private registry become hard to manage as teams grow. A scoped namespace strategy keeps packages discoverable and enforces ownership:
+
+```
+@acme/ui-*        — Frontend design system and shared components (owned by UI team)
+@acme/api-*       — Shared API clients and SDK wrappers (owned by Platform team)
+@acme/config-*    — Shared ESLint, TypeScript, and build configs
+@acme/shared-*    — Cross-team utilities (any team can publish, PR required)
+```
+
+Enforce this in Verdaccio config by giving each scope a separate access rule:
+
+```yaml
+packages:
+  "@acme/ui-*":
+    access: authenticated
+    publish: ui-team
+    unpublish: ui-team
+
+  "@acme/api-*":
+    access: authenticated
+    publish: platform-team
+    unpublish: platform-team
+
+  "@acme/config-*":
+    access: authenticated
+    publish: platform-team
+    unpublish: platform-team
+
+  "@acme/*":
+    access: authenticated
+    publish: authenticated
+    unpublish: authenticated
+```
+
+This requires using `verdaccio-htpasswd-groups` or a plugin that understands user groups. With plain htpasswd, all authenticated users can publish to any scope — the pattern above enforces per-scope ownership only with group-aware auth.
+
+## Monitoring Verdaccio
+
+Verdaccio exposes basic metrics at `/-/ping` and logs HTTP traffic to stdout. For production, ship logs to your observability stack and set up an uptime check:
+
+```yaml
+# docker-compose.yml — add healthcheck
+services:
+  verdaccio:
+    image: verdaccio/verdaccio:5
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:4873/-/ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+```
+
+For richer metrics, pair Verdaccio with a Loki log aggregation setup: Verdaccio's `http`-level logs capture every install, publish, and auth event with timestamps. A simple Grafana dashboard tracking publish frequency, install rates, and auth failures gives your platform team visibility into registry health without custom instrumentation.
 
 ## Related Reading
 

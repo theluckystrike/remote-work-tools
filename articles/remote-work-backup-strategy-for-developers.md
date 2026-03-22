@@ -319,6 +319,94 @@ gpg --decrypt ~/.ssh/id_ed25519.gpg > ~/.ssh/id_ed25519
 chmod 600 ~/.ssh/id_ed25519
 ```
 
+## Cloud Sync Is Not a Backup
+
+iCloud, Dropbox, and Google Drive sync deletions instantly. If you accidentally `rm -rf ~/projects/critical-work`, the deletion propagates to every device within seconds. These services are useful for active-file access across devices, but they are not backups.
+
+The key distinction: **sync replicates your current state**; **backup preserves historical states**. Use both, and make sure they are independent.
+
+For Dropbox and Google Drive, enable extended version history (Dropbox Plus gives 180 days; Google Drive keeps 30 days of versions). This helps with accidental overwrites but does not protect against ransomware or account compromise.
+
+## Secrets and Environment Files
+
+`.env` files and credential JSON files are the most dangerous things to lose — and the most dangerous to back up carelessly. A structured approach:
+
+```bash
+# Audit what secrets you have locally
+find ~ -name ".env" -o -name "*.env" -o -name "credentials.json" \
+  -o -name "service-account.json" 2>/dev/null | grep -v node_modules | grep -v .git
+
+# For each critical secrets file, store an encrypted copy
+# Use age (modern, simpler than GPG) for file encryption
+
+brew install age
+
+# Generate a key pair (store the private key in your password manager)
+age-keygen -o ~/.age/key.txt
+# Public key: age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9aq
+
+# Encrypt a secrets file
+age -r age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9aq \
+  -o ~/.secrets-backup/myproject.env.age \
+  ~/projects/myproject/.env
+
+# Decrypt on restore
+age -d -i ~/.age/key.txt \
+  ~/.secrets-backup/myproject.env.age > ~/projects/myproject/.env
+```
+
+Add the `.secrets-backup/` directory to your restic or rsync offsite backup. Keep the age private key in your password manager (1Password, Bitwarden) with a backup export.
+
+## Windows and WSL2 Considerations
+
+Remote developers on Windows using WSL2 have a split filesystem. Back up both sides:
+
+```bash
+# WSL2 home directory (inside the Linux layer)
+# Access from Windows PowerShell:
+# \\wsl$\Ubuntu\home\yourname
+
+# Back up WSL2 with export (creates a tarball)
+wsl --export Ubuntu C:\Backups\ubuntu-wsl-$(Get-Date -Format "yyyyMMdd").tar
+
+# Or use restic from inside WSL2 (same script as Linux)
+# Install restic in WSL2:
+sudo apt install restic
+
+# Windows Documents folder is mounted at /mnt/c/Users/yourname/Documents
+# Include it in your restic backup:
+restic -r "$REPO" backup \
+  ~/Documents \
+  /mnt/c/Users/yourname/Documents \
+  ~/.ssh \
+  ~/.config
+```
+
+For Windows-side tooling, WinSCP supports rsync-like sync to remote SSH targets. Robocopy handles local redundancy well:
+
+```powershell
+# Mirror Documents to external drive (Windows)
+robocopy C:\Users\yourname\Documents E:\Backup\Documents /MIR /R:3 /W:5 /LOG:C:\Logs\backup.log
+```
+
+## Testing Your Full Recovery Scenario
+
+Running the verification script monthly is good. Running a full recovery drill quarterly is better. Document the scenario:
+
+```
+Recovery Drill Checklist (run on a fresh machine or VM):
+[ ] Restore dotfiles from git bare repo
+[ ] Decrypt and restore SSH keys from backup
+[ ] Restore .env files from encrypted backup
+[ ] Clone critical repos (verify SSH keys work)
+[ ] Restore dev database from latest backup
+[ ] Verify app starts and connects to local DB
+[ ] Confirm shell aliases, editor config, git config all present
+[ ] Total time to full working environment: ______ minutes
+```
+
+The goal is to know, not guess, how long recovery takes. Teams that have done this drill typically discover that their database restore script has a bug, or that a critical .env file was never added to the backup scope. Find these gaps during drills, not during an actual incident.
+
 ## Related Reading
 
 - [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)

@@ -290,6 +290,110 @@ kubectl create secret docker-registry harbor-secret \
   --namespace=production
 ```
 
+## Tag Retention Policies
+
+Unmanaged registries accumulate thousands of untagged image layers and stale feature-branch tags. Harbor's retention policies let you declaratively control what stays and what gets pruned.
+
+```bash
+# Create retention policy via API
+curl -X POST "https://registry.example.com/api/v2.0/retentions" \
+  -H "Content-Type: application/json" \
+  -u "admin:your-admin-password" \
+  -d '{
+    "algorithm": "or",
+    "rules": [
+      {
+        "priority": 1,
+        "disabled": false,
+        "action": "retain",
+        "template": "latestPushedK",
+        "params": {"latestPushedK": 10},
+        "tag_selectors": [{"kind": "doublestar", "decoration": "matches", "pattern": "v*"}],
+        "scope_selectors": {"repository": [{"kind": "doublestar", "decoration": "repoMatches", "pattern": "**"}]}
+      },
+      {
+        "priority": 2,
+        "disabled": false,
+        "action": "retain",
+        "template": "nDaysSinceLastPush",
+        "params": {"nDaysSinceLastPush": 7},
+        "tag_selectors": [{"kind": "doublestar", "decoration": "matches", "pattern": "main-*"}],
+        "scope_selectors": {"repository": [{"kind": "doublestar", "decoration": "repoMatches", "pattern": "**"}]}
+      }
+    ],
+    "scope": {"level": "project", "ref": 1},
+    "trigger": {
+      "kind": "Schedule",
+      "settings": {"cron": "0 3 * * *"}
+    }
+  }'
+```
+
+This policy retains the 10 most recently pushed version-tagged images indefinitely and keeps `main-*` tags for 7 days. Everything else is eligible for garbage collection during the nightly GC run. Run GC after the retention job to actually reclaim disk space — retention only unlinks tags; GC deletes the blobs.
+
+## Webhook Notifications for Scan Results
+
+Harbor can fire webhooks on push, scan completion, and policy violations, making it straightforward to integrate with Slack or PagerDuty for security alerting:
+
+```bash
+# Create webhook for Slack notification on scan completion
+curl -X POST "https://registry.example.com/api/v2.0/projects/production/webhook/policies" \
+  -H "Content-Type: application/json" \
+  -u "admin:your-admin-password" \
+  -d '{
+    "name": "slack-scan-alerts",
+    "description": "Notify Slack when image scan finds critical CVEs",
+    "event_types": ["SCANNING_COMPLETED", "SCANNING_FAILED"],
+    "targets": [
+      {
+        "type": "http",
+        "address": "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK",
+        "auth_header": "",
+        "skip_cert_verify": false
+      }
+    ],
+    "enabled": true
+  }'
+```
+
+The webhook payload includes the image name, tag, digest, scan status, and a URL to the vulnerability report in Harbor's UI. A lightweight AWS Lambda or Cloud Function can parse this payload and send a formatted Slack message with only the critical and high findings, avoiding notification fatigue from informational-level CVEs.
+
+## Backup Strategy
+
+Harbor's data lives in three places: the PostgreSQL database (project metadata, users, policies, replication rules), the Redis cache (session state, job queues), and the image blob storage under `data_volume`. A complete backup covers all three:
+
+```bash
+#!/bin/bash
+# scripts/backup-harbor.sh
+set -e
+DATE=$(date +%Y%m%d_%H%M%S)
+HARBOR_DIR="/opt/harbor"
+BACKUP_DIR="/backups/harbor/${DATE}"
+mkdir -p "$BACKUP_DIR"
+
+# Stop Harbor gracefully (optional — for consistency)
+# docker compose -f "${HARBOR_DIR}/docker-compose.yml" stop
+
+# Dump PostgreSQL
+docker exec harbor-db pg_dumpall -U postgres > "${BACKUP_DIR}/harbor-db.sql"
+
+# Copy blob storage
+rsync -a /data/harbor/registry/ "${BACKUP_DIR}/registry/"
+
+# Copy config
+cp "${HARBOR_DIR}/harbor.yml" "${BACKUP_DIR}/harbor.yml"
+
+# Compress and ship
+tar czf "/backups/harbor-${DATE}.tar.gz" -C "/backups/harbor" "${DATE}"
+rm -rf "$BACKUP_DIR"
+
+# Upload to S3
+aws s3 cp "/backups/harbor-${DATE}.tar.gz" "s3://your-backup-bucket/harbor/"
+echo "Harbor backup complete: harbor-${DATE}.tar.gz"
+```
+
+Restore by extracting the archive, restoring the database dump with `psql`, syncing the registry blobs back to `data_volume`, and restarting Harbor. Test restores quarterly — a backup you have never restored is a backup you cannot trust.
+
 ## Related Reading
 
 - [How to Set Up Kubernetes Dev Cluster Remotely](/remote-work-tools/how-to-set-up-kubernetes-dev-cluster-remotely/)

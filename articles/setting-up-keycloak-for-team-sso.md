@@ -289,6 +289,106 @@ docker exec keycloak_db pg_dump \
 echo "Keycloak backup complete: $BACKUP_DIR"
 ```
 
+## Token Session Tuning
+
+Default Keycloak session settings are generous. For a remote team where security matters, tighten them:
+
+```bash
+# Shorten access token lifetime (default 5 minutes is fine; refresh token is the session)
+docker exec keycloak /opt/keycloak/bin/kcadm.sh update realms/company \
+  -s accessTokenLifespan=300 \
+  -s ssoSessionIdleTimeout=3600 \
+  -s ssoSessionMaxLifespan=36000 \
+  -s offlineSessionIdleTimeout=2592000
+
+# Force re-authentication after idle (important for unattended shared machines)
+# ssoSessionIdleTimeout=3600 means: log out after 1 hour of inactivity
+# ssoSessionMaxLifespan=36000 means: force full re-login after 10 hours regardless
+```
+
+For tools like Grafana or Gitea that embed long-lived tokens in cookies, make sure your OIDC client has `accessType=CONFIDENTIAL` and that the application refresh-token logic is enabled. Otherwise users will get silent 401 errors when the short-lived access token expires.
+
+## Role-Based Access with Client Roles
+
+Map Keycloak roles to application-level permissions:
+
+```bash
+# Create a client role on the Grafana client
+CLIENT_ID=$(docker exec keycloak /opt/keycloak/bin/kcadm.sh get clients \
+  -r company -q clientId=grafana --fields id | jq -r '.[0].id')
+
+docker exec keycloak /opt/keycloak/bin/kcadm.sh create \
+  clients/$CLIENT_ID/roles \
+  -r company \
+  -s name=grafana-admins \
+  -s description="Grafana administrator access"
+
+docker exec keycloak /opt/keycloak/bin/kcadm.sh create \
+  clients/$CLIENT_ID/roles \
+  -r company \
+  -s name=grafana-editors \
+  -s description="Grafana editor access"
+
+# Assign role to a user
+USER_ID=$(docker exec keycloak /opt/keycloak/bin/kcadm.sh get users \
+  -r company -q username=alice --fields id | jq -r '.[0].id')
+
+docker exec keycloak /opt/keycloak/bin/kcadm.sh add-roles \
+  -r company \
+  --uid $USER_ID \
+  --cclientid grafana \
+  --rolename grafana-editors
+```
+
+Then in `grafana.ini`, the `role_attribute_path` JMESPath expression maps the token's `resource_access.grafana.roles` array to Grafana role strings — this is already shown in the OIDC client section above.
+
+## Keycloak Events and Audit Logging
+
+Track who logged in, what failed, and when tokens were issued:
+
+```bash
+# Enable event logging on the realm
+docker exec keycloak /opt/keycloak/bin/kcadm.sh update realms/company \
+  -s eventsEnabled=true \
+  -s eventsExpiration=2592000 \
+  -s 'enabledEventTypes=["LOGIN","LOGIN_ERROR","LOGOUT","REGISTER","REGISTER_ERROR",
+    "CODE_TO_TOKEN","CLIENT_LOGIN","CLIENT_LOGIN_ERROR","TOKEN_EXCHANGE",
+    "REFRESH_TOKEN","REFRESH_TOKEN_ERROR"]' \
+  -s adminEventsEnabled=true \
+  -s adminEventsDetailsEnabled=true
+
+# Query recent login events via API
+curl -s "https://auth.example.com/admin/realms/company/events?type=LOGIN_ERROR&max=50" \
+  -H "Authorization: Bearer $ADMIN_TOKEN" | jq '.[] | {user: .userId, ip: .ipAddress, time: .time}'
+```
+
+Forward events to a SIEM or logging platform by configuring the Keycloak Event Listener SPI. The built-in `jboss-logging` listener writes to container stdout, which your log aggregator (Loki, CloudWatch, Datadog) can pick up automatically. For structured output, add the `event-listener-email` or a custom HTTP listener via the admin console under Realm Settings > Events > Event Listeners.
+
+## Upgrading Keycloak
+
+Keycloak's `start --optimized` mode requires rebuilding the image when you add providers or change build-time options. For version upgrades:
+
+```bash
+# 1. Backup first (always)
+./scripts/backup-keycloak.sh
+
+# 2. Update image tag in docker-compose.yml
+# image: quay.io/keycloak/keycloak:24.0.1
+
+# 3. Pull and restart — Keycloak runs DB migrations automatically
+docker compose pull keycloak
+docker compose up -d keycloak
+
+# 4. Watch logs for migration completion
+docker compose logs -f keycloak | grep -E "migration|started|error"
+
+# 5. Verify admin console is accessible
+curl -s -o /dev/null -w "%{http_code}" https://auth.example.com/admin/
+# Should return 200
+```
+
+Between major versions (e.g., 22 → 23 → 24), review the Keycloak migration guide. Breaking changes are rare but do affect custom themes and deprecated grant types. Running a staging Keycloak instance that mirrors production is strongly recommended for teams with more than 10 connected applications.
+
 ## Related Reading
 
 - [Best Password Manager for a Remote Startup of 15 Employees](/remote-work-tools/best-password-manager-for-a-remote-startup-of-15-employees/)

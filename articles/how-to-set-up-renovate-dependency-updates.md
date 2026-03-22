@@ -337,20 +337,123 @@ RENOVATE_TOKEN=your-token \
 renovate mycompany/api
 ```
 
-## Troubleshooting
+## Dependency Dashboard and Visibility
 
-**Configuration changes not taking effect**
+The Dependency Dashboard is a GitHub issue Renovate keeps updated with a full picture of pending and blocked updates across your repo. Enable it selectively:
 
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+```json
+{
+  "dependencyDashboard": true,
+  "dependencyDashboardTitle": "Renovate Dependency Dashboard",
+  "dependencyDashboardHeader": "This dashboard lists all pending, blocked, and rate-limited updates.",
+  "dependencyDashboardAutoclose": true,
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboard": true,
+      "dependencyDashboardApproval": true
+    }
+  ]
+}
+```
 
-**Permission denied errors**
+With `dependencyDashboardApproval: true`, Renovate will only open a PR for a major update after a team member checks the corresponding checkbox in the dashboard issue. This gives you a lightweight approval gate without a full review workflow.
 
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+## Stabilization Period and Release Age
 
-**Connection or network-related failures**
+Avoid being the first team to hit a broken release by requiring packages to age before Renovate acts on them:
 
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+```json
+{
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "minimumReleaseAge": "3 days",
+      "internalChecksFilter": "strict"
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "minimumReleaseAge": "1 day"
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "minimumReleaseAge": "7 days"
+    }
+  ]
+}
+```
 
+The `internalChecksFilter: "strict"` setting tells Renovate to wait for its own internal age check to pass before opening the PR, even if the package satisfies other rules. Three days is a reasonable default that filters out yanked or immediately hotfixed releases without adding meaningful delay.
+
+## Ignoring and Pinning Specific Packages
+
+Some packages need to stay pinned due to compatibility constraints or pending migration work:
+
+```json
+{
+  "packageRules": [
+    {
+      "matchPackageNames": ["webpack", "webpack-cli"],
+      "enabled": false,
+      "description": "Pinned at v4 until webpack 5 migration completes"
+    },
+    {
+      "matchPackageNames": ["typescript"],
+      "allowedVersions": "<5.4.0",
+      "description": "Block TS 5.4 until tsconfig audit done"
+    },
+    {
+      "matchPackagePatterns": ["^@internal/"],
+      "enabled": false,
+      "description": "Internal packages managed manually via changesets"
+    }
+  ]
+}
+```
+
+You can also pin the current version of a package from the Dependency Dashboard by checking its pin checkbox — Renovate will add a `// renovate: pinned` comment to `package.json` and stop proposing updates for it.
+
+## Debugging and Testing Renovate Config
+
+Before deploying to a live repo, validate your configuration locally:
+
+```bash
+# Validate renovate.json schema
+npm install -g renovate
+renovate-config-validator renovate.json
+
+# Dry run against a repository (no PRs created)
+LOG_LEVEL=debug \
+RENOVATE_TOKEN=your-github-token \
+renovate --dry-run=lookup yourorg/yourrepo 2>&1 | tee renovate-dry-run.log
+
+# Check which packages would be updated
+grep "packageName\|newVersion\|currentVersion" renovate-dry-run.log | head -40
+```
+
+The dry-run output shows every package Renovate evaluated, which update it would propose, and why it was skipped (version constraint, minimum release age, disabled rule, etc.). Run this before pushing config changes to catch misconfigured package rules.
+
+## Renovate with GitLab CI
+
+Self-hosted Renovate on GitLab uses a pipeline schedule rather than GitHub Actions:
+
+```yaml
+# .gitlab-ci.yml
+renovate:
+  image: renovate/renovate:latest
+  stage: maintenance
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+  variables:
+    RENOVATE_TOKEN: $RENOVATE_GITLAB_TOKEN
+    RENOVATE_PLATFORM: gitlab
+    RENOVATE_ENDPOINT: https://gitlab.example.com/api/v4
+    LOG_LEVEL: info
+  script:
+    - renovate yourgroup/yourrepo
+```
+
+Create a GitLab CI/CD schedule that runs this pipeline daily at 5 AM. Store the Renovate token — a GitLab personal access token with `api` scope — as a masked CI/CD variable named `RENOVATE_GITLAB_TOKEN`.
 
 ## Related Reading
 
