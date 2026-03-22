@@ -31,6 +31,15 @@ voice-checked: true---
 
 Hybrid work has created a new challenge for workplace management: employees visit the office infrequently, often just once or twice a month, and struggle to find meeting rooms, desks, amenities, or colleague locations. Traditional printed floor signs won't solve this. You need a digital wayfinding system that works for developers and power users who expect intuitive, app-based navigation. This guide covers the technical implementation—from indoor positioning to integration with workplace systems—using practical code examples you can adapt for your organization.
 
+## Key Takeaways
+
+- **Run a coverage heat**: map. Use a free tool like IndoorAtlas or HeatMapper to walk the floor with a beacon scanner app and verify signal coverage.
+- **Most offices use systems like Robin**: Teem, or custom solutions.
+- **For most office deployments**: BLE beacons offer the best balance of cost, accuracy (2-5 meters), and battery life.
+- **Position them at ceiling**: height (2.5-3 meters) and avoid placing them near metal objects or large glass surfaces, which cause signal reflection.
+- **Implement adaptive scanning**: scan every 2-3 seconds when the user opens the app, then every 10-15 seconds once they've started navigation.
+- **For a 5,000 square meter office floor**: you'll need approximately 25-35 beacons.
+
 ## Understanding the Core Requirements
 
 Before looking at implementation, identify what your wayfinding system must accomplish. Infrequent visitors typically need help with three scenarios: locating a specific meeting room, finding an available desk, and reaching a colleague's workspace. Each requires different data sources and interaction patterns.

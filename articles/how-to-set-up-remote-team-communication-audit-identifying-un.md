@@ -35,6 +35,13 @@ Remote teams often accumulate communication debt over time. What starts as a han
 
 This guide provides a practical framework for auditing remote team communication, with scripts and methodologies you can apply immediately.
 
+## Key Takeaways
+
+- **Critical同步 - Requires real-time**: discussion (incidents, urgent decisions) 2.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: why your remote team needs a communication audit, step 1: map your current communication ecosystem, export slack channel data
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Why Your Remote Team Needs a Communication Audit
 
 Most remote teams fall into communication patterns without intentional design. New tools get added when someone suggests them, new channels spawn for projects that later get abandoned, and meetings accumulate because "we've always had this sync." The result is notification fatigue, context switching, and lost hours every week.

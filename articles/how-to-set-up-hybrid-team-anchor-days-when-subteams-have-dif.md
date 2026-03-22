@@ -31,6 +31,13 @@ voice-checked: true---
 
 Hybrid work models with anchor days—designated in-office days for team collaboration—work well until your organization scales into subteams with conflicting schedules. A frontend team in Europe, a backend team in the US, and a DevOps team spread across Asia face fundamentally different constraints when coordinating physical presence. This guide provides a practical framework for establishing anchor day schedules that actually work when subteams have different operational windows.
 
+## Key Takeaways
+
+- **Wednesday becomes your natural**: cross-team day because only the mobile team has a strong preference against it—and mobile can rotate that obligation monthly.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: understanding the core challenge, building your tiered anchor day framework, mapping subteam constraints
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Understanding the Core Challenge
 
 The fundamental tension in multi-subteam hybrid coordination is overlap availability: the time window when everyone can realistically be in the same physical location. If your backend team operates from 9 AM to 6 PM PST and your frontend team works 9 AM to 6 PM CET, you have roughly a 2-hour overlap in working hours—and that's before accounting for personal schedules, commute times, and timezone differences during summer months.

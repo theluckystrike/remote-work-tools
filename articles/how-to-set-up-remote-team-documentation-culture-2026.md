@@ -16,6 +16,21 @@ tags: [remote-work-tools, documentation, async-communication, knowledge-manageme
 
 Remote teams without documentation default to synchronous communication. Someone asks a question on Slack, a colleague responds, the answer disappears in chat history. Six months later, a new hire asks the same question and gets a different answer. Documentation-first culture prevents this—decisions, processes, and knowledge live in searchable repositories, not ephemeral chat. This guide covers implementation, tools, templates, and the async decision-making patterns that make documentation sustainable.
 
+## Key Takeaways
+
+- **They fail in execution**: because: 1.
+- **REST v2 with OpenAPI—rejected**: because doesn't solve n+1 problem 2.
+- **gRPC—rejected because mobile clients**: don't use gRPC 3.
+- **Context Document (24 hours**: 3pm UTC)
+   - Problem statement
+   - Options with pros/cons
+   - Owner's recommendation
+   - Questions for feedback
+
+2.
+- **Architecture Decision Record (ADR)**: Use this for major technical decisions.
+- **Performance issues with n+1**: queries required query optimization.
+
 ## Why Documentation Failures Happen in Remote Teams
 
 Most teams understand documentation matters. They fail in execution because:
