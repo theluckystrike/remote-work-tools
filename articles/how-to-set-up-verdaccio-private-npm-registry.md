@@ -417,6 +417,59 @@ services:
 
 For richer metrics, pair Verdaccio with a Loki log aggregation setup: Verdaccio's `http`-level logs capture every install, publish, and auth event with timestamps. A simple Grafana dashboard tracking publish frequency, install rates, and auth failures gives your platform team visibility into registry health without custom instrumentation.
 
+## Caching Strategy and Offline Resilience
+
+One of the most underused Verdaccio features for remote teams is its aggressive caching of public registry packages. When a developer installs a package routed through Verdaccio, the tarball is stored locally under `verdaccio/storage`. Subsequent installs of the same version — from any developer's machine or CI runner — hit the local cache without reaching npmjs.org.
+
+This matters for three reasons. First, it eliminates dependency on npm's CDN uptime; a registry outage does not break your builds. Second, it makes CI pipelines faster: a cold runner installing `react` from a Verdaccio cache on your LAN is faster than pulling from a remote CDN. Third, it freezes public package versions at the point they were first installed, so you cannot silently get a different tarball for the same version string later.
+
+Configure the uplink timeout aggressively to prefer cache over network:
+
+```yaml
+uplinks:
+  npmjs:
+    url: https://registry.npmjs.org/
+    cache: true
+    timeout: 10s
+    max_fails: 2
+    fail_timeout: 10m
+    maxage: 30m    # Cache metadata for 30 minutes before re-fetching
+```
+
+To pre-warm the cache for critical packages before a deploy, install them through Verdaccio from a script:
+
+```bash
+#!/bin/bash
+# scripts/warm-verdaccio-cache.sh
+REGISTRY=https://npm.example.com
+PACKAGES=(
+  "react@18.2.0"
+  "react-dom@18.2.0"
+  "@types/react@18.2.0"
+  "typescript@5.3.3"
+  "vite@5.1.0"
+)
+
+for pkg in "${PACKAGES[@]}"; do
+  npm pack "${pkg}" --registry "${REGISTRY}" --dry-run
+  echo "Cached: ${pkg}"
+done
+```
+
+The `npm pack --dry-run` forces Verdaccio to fetch and cache the tarball without writing anything locally. After this runs, CI runners pulling those exact versions will get them from the local cache consistently.
+
+## Verdaccio vs. Alternatives
+
+Verdaccio is the right choice for teams that want a self-hosted registry with zero vendor dependency and minimal infrastructure cost. It runs on a single Docker container, uses local filesystem storage by default, and has no external service dependencies for basic operation.
+
+The trade-off compared to managed alternatives:
+
+- **vs. npm Organizations (npmjs.com)**: npm Orgs is simpler to set up and requires no infrastructure, but you pay per seat and all packages live on the public internet. Verdaccio keeps packages fully private with no external exposure.
+- **vs. GitHub Packages (GHCR for npm)**: GitHub Packages is convenient if you are already on GitHub, but package visibility is tied to repo visibility, and download bandwidth costs can add up at scale. Verdaccio has no per-download cost.
+- **vs. Artifactory/Nexus**: Both support npm registries with enterprise features (LDAP, HA, auditing), but they are significantly heavier and require paid licenses for production features. Verdaccio covers 90% of what most teams need without the operational burden.
+
+For a team of 5-50 developers publishing a handful of internal packages, Verdaccio is the practical choice. When you need HA, cross-format support (Maven, PyPI, Docker in one tool), and enterprise RBAC, Nexus or Artifactory become worth the complexity.
+
 ## Related Reading
 
 - [How to Set Up Gitea for Self-Hosted Git](/remote-work-tools/how-to-set-up-gitea-self-hosted-git/)
