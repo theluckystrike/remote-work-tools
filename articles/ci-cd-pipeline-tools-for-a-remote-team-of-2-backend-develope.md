@@ -9,7 +9,7 @@ permalink: /ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/
 categories: [guides]
 tags: [remote-work-tools, ci-cd, devops, automation, backend-development, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
