@@ -8,7 +8,7 @@ permalink: /best-practice-for-remote-team-product-demo-day-format-that-s/
 categories: [guides]
 tags: [remote-work-tools, product-demo, remote-work, engineering, team-collaboration, scaling, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

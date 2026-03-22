@@ -9,7 +9,7 @@ permalink: /best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/
 categories: [guides]
 tags: [remote-work-tools, proposals, freelance, ux-design, remote-work, tools, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

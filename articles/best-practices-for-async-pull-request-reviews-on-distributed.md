@@ -9,7 +9,7 @@ permalink: /best-practices-for-async-pull-request-reviews-on-distributed/
 categories: [guides]
 tags: [remote-work-tools, pull-requests, code-review, distributed-teams, async-communication, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
