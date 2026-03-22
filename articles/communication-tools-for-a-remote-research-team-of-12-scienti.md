@@ -18,6 +18,26 @@ voice-checked: true
 
 Managing communication for a distributed research team of 12 scientists requires balancing synchronous collaboration needs with the asynchronous nature of scientific work. Unlike typical software teams, research groups often deal with long-running experiments, complex data analysis, and publications that require extended periods of focused work interrupted by brief but critical collaboration windows. This guide covers practical tool selection and implementation strategies for research teams operating across multiple locations.
 
+## Table of Contents
+
+- [Understanding Research Team Communication Patterns](#understanding-research-team-communication-patterns)
+- [Synchronous Communication: Video and Chat](#synchronous-communication-video-and-chat)
+- [Asynchronous Documentation Systems](#asynchronous-documentation-systems)
+- [Specialized Scientific Communication Tools](#specialized-scientific-communication-tools)
+- [Weekly Meeting Rhythm for Research Teams](#weekly-meeting-rhythm-for-research-teams)
+- [Time Zone Coordination Strategies](#time-zone-coordination-strategies)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Communication Tools Cost Breakdown](#communication-tools-cost-breakdown)
+- [Time Zone Coordination in Practice](#time-zone-coordination-in-practice)
+- [Core Hours (Everyone Available)](#core-hours-everyone-available)
+- [Secondary Overlap Windows](#secondary-overlap-windows)
+- [Regional Hours (Use for Regional Discussions)](#regional-hours-use-for-regional-discussions)
+- [Async Communication Rules](#async-communication-rules)
+- [Measuring Communication Health](#measuring-communication-health)
+- [Sample Communication Setup for 12-Person Research Team](#sample-communication-setup-for-12-person-research-team)
+- [Building Scientific Collaboration Culture](#building-scientific-collaboration-culture)
+- [Handling Remote Lab Equipment](#handling-remote-lab-equipment)
+
 ## Understanding Research Team Communication Patterns
 
 Scientific teams exhibit distinct communication patterns that differ from other remote groups. Researchers typically work in extended focus blocks when conducting experiments or analyzing data, then require quick synchronization during brief discussion windows. A team of 12 distributed across 3-4 time zones creates coordination challenges that generic team chat tools often fail to address.
@@ -310,11 +330,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
-- [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
-- [Remote Legal Research Tool Comparison for Distributed Law](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
-- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
-- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-
+- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
+- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+- [Best Data Collection Tools for Remote User Research Teams](/remote-work-tools/best-data-collection-tool-for-remote-user-research-teams-gat/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

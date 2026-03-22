@@ -18,6 +18,21 @@ voice-checked: true
 
 Choose over-ear noise cancelling headphones if you need maximum isolation for long focus sessions (4+ hours) and work in a noisy home environment. Choose ANC earbuds if you prioritize portability, multi-device switching, and a lower profile on video calls. For most remote developers, over-ear headphones at the desk plus backup earbuds for calls covers all scenarios — this guide breaks down the technical trade-offs in noise cancellation, comfort, and microphone quality to help you decide.
 
+## Table of Contents
+
+- [Understanding Noise Cancellation Technology](#understanding-noise-cancellation-technology)
+- [Headphones: The Over-Ear Advantage](#headphones-the-over-ear-advantage)
+- [Earbuds: The Compact Alternative](#earbuds-the-compact-alternative)
+- [Microphone Quality: The Remote Work Differentiator](#microphone-quality-the-remote-work-differentiator)
+- [Use Case Recommendations for Developers](#use-case-recommendations-for-developers)
+- [Real-World Noise Reduction Comparisons](#real-world-noise-reduction-comparisons)
+- [Specific Product Recommendations by Use Case](#specific-product-recommendations-by-use-case)
+- [Workspace Noise Assessment Framework](#workspace-noise-assessment-framework)
+- [Maintenance and Long-Term Cost Considerations](#maintenance-and-long-term-cost-considerations)
+- [Making Your Decision](#making-your-decision)
+- [Testing Before Commitment](#testing-before-commitment)
+- [Emergency Alternatives When Your Audio Fails](#emergency-alternatives-when-your-audio-fails)
+
 ## Understanding Noise Cancellation Technology
 
 Active noise cancellation (ANC) works by using microphones to capture ambient sound, then generating inverse sound waves that cancel out the original noise. The effectiveness varies significantly between headphones and earbuds due to physics—over-ear headphones create a natural seal that blocks sound physically before ANC even activates.

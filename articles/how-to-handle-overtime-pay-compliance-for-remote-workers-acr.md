@@ -18,6 +18,13 @@ voice-checked: true
 
 Managing overtime pay for remote workers introduces complexity that most HR systems weren't designed to handle. When your team spans California, Texas, New York, and beyond, each state has different thresholds, rules, and overtime calculation methods. This guide provides practical approaches for developers building remote work tools and power users managing distributed teams.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Managing Multi-State Compliance](#managing-multi-state-compliance)
+- [Advanced Compliance Considerations](#advanced-compliance-considerations)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -297,11 +304,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Run Remote Accounting Firm with Distributed Staff](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
-- [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
-- [Best Compliance Tool for Managing Remote Employees Across](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
-- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [Best Compliance Tool for Managing Remote Employees](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
 - [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
-
+- [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
+- [How to Handle Employment Law Differences for Remote Teams](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
+- [Response Time Expectations for Remote Workers Guide](/remote-work-tools/response-time-expectations-for-remote-workers-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

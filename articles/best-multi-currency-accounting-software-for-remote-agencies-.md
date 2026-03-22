@@ -16,6 +16,21 @@ tags: [remote-work-tools, best-of, remote-work]
 {% raw %}
 The best multi-currency accounting software for remote agencies billing in both EUR and USD is Xero or QuickBooks Online, which offer real-time exchange rate conversion, multi-currency nominal ledgers, and API integration for automated invoicing. These platforms track foreign currency gains/losses automatically and integrate with banks and accounting systems in multiple countries, letting you maintain separate accounts per currency while generating unified financial reports.
 
+## Table of Contents
+
+- [Why Multi-Currency Matters for Remote Agencies](#why-multi-currency-matters-for-remote-agencies)
+- [Key Technical Requirements](#key-technical-requirements)
+- [Practical Implementation Examples](#practical-implementation-examples)
+- [Comparing Solutions by Integration Approach](#comparing-solutions-by-integration-approach)
+- [Real-World Considerations](#real-world-considerations)
+- [Making Your Decision](#making-your-decision)
+- [Setting Up Your Accounting Workflow for EUR/USD Billing](#setting-up-your-accounting-workflow-for-eurusd-billing)
+- [Pricing Comparison for 5-Person Agencies](#pricing-comparison-for-5-person-agencies)
+- [Advanced Scenario: Agency with Multiple Currencies](#advanced-scenario-agency-with-multiple-currencies)
+- [Common Mistakes and How to Avoid Them](#common-mistakes-and-how-to-avoid-them)
+- [When to Consider Hiring a Bookkeeper](#when-to-consider-hiring-a-bookkeeper)
+- [Tools That Integrate with Your Accounting System](#tools-that-integrate-with-your-accounting-system)
+
 ## Why Multi-Currency Matters for Remote Agencies
 
 When you bill an US client $10,000 and your expenses are in euros, every invoice creates a foreign exchange exposure. Your bank might convert at 1.08 EUR/USD today, but by the time payment arrives 30 days later, the rate could shift significantly. Proper multi-currency accounting tracks these gains and losses accurately in your books.
@@ -292,10 +307,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Example: Tracking exchange rates for optimal conversion](/remote-work-tools/best-currency-exchange-strategy-for-remote-workers-paid-in-u/)
-- [Best Accounting Software for Freelancers 2026: A](/remote-work-tools/best-accounting-software-for-freelancers-2026/)
+- [Best Accounting Software for Freelancers 2026](/remote-work-tools/best-accounting-software-for-freelancers-2026/)
 - [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
-- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-
+- [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)
+- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

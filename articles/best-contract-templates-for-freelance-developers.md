@@ -17,6 +17,34 @@ voice-checked: true
 
 Every freelance developer faces a critical moment: a client asks you to start working, but the paperwork isn't ready yet. You might think a quick email agreement is enough. It's not. A solid contract protects your time, defines scope, and gives you legal recourse if things go sideways. This guide covers the best contract templates for freelance developers, with practical clauses you can adapt immediately.
 
+## Table of Contents
+
+- [Why Freelance Developers Need Written Contracts](#why-freelance-developers-need-written-contracts)
+- [Essential Contract Elements Every Developer Should Include](#essential-contract-elements-every-developer-should-include)
+- [Top Contract Templates for Freelance Developers](#top-contract-templates-for-freelance-developers)
+- [Scope of Work](#scope-of-work)
+- [Revisions](#revisions)
+- [Compensation](#compensation)
+- [Maximum Budget](#maximum-budget)
+- [Project Management](#project-management)
+- [Confidentiality](#confidentiality)
+- [Intellectual Property](#intellectual-property)
+- [Practical Examples: Adapting Templates to Real Projects](#practical-examples-adapting-templates-to-real-projects)
+- [Technical Specifications](#technical-specifications)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Retainer Terms](#retainer-terms)
+- [Availability](#availability)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Selecting the Right Template](#selecting-the-right-template)
+- [Free Resources for Contract Templates](#free-resources-for-contract-templates)
+- [Advanced Contract Strategies](#advanced-contract-strategies)
+- [Escrow Agreement Addendum](#escrow-agreement-addendum)
+- [Scope Management](#scope-management)
+- [Milestone Structure and Acceptance](#milestone-structure-and-acceptance)
+- [Template Customization Checklist](#template-customization-checklist)
+- [Next Steps Before Signing](#next-steps-before-signing)
+- [Common Disputes and How Contracts Prevent Them](#common-disputes-and-how-contracts-prevent-them)
+
 ## Why Freelance Developers Need Written Contracts
 
 You might handle small projects without formal agreements, but that approach creates risk. Without clear terms, clients can change scope mid-project, delay payments indefinitely, or claim ownership of code you wrote. A written contract establishes mutual understanding and legal protection.
@@ -354,11 +382,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [Cold Outreach Templates for Freelance Developers](/remote-work-tools/cold-outreach-templates-for-freelance-developers/)
 - [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
-- [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
+- [Best Tools for Managing Client Contracts Invoices Freelance](/remote-work-tools/best-tools-for-managing-client-contracts-invoices-freelance-developer/)
+- [Cold Outreach Templates for Freelance Developers](/remote-work-tools/cold-outreach-templates-for-freelance-developers/)
 - [Best Freelance Platforms for Software Developers](/remote-work-tools/best-freelance-platforms-for-software-developers/)
-- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
-
+- [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

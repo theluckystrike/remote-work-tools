@@ -18,6 +18,19 @@ intent-checked: true
 
 Remote team announcement channels maintain high signal-to-noise ratio through clear governance rules, designated channel guardians who enforce standards, and consistent message frameworks like P.A.R.A. (Purpose, Action, Relevant details, Acknowledgment). Implement bot-based moderation for prefix requirements, schedule digests for non-urgent content, and create tiered channels matching notification intensity to message urgency. Measure SNR weekly and trigger reviews when quality drops below 0.7, ensuring critical information never gets lost in noise.
 
+## Table of Contents
+
+- [Understanding Signal-to-Noise Ratio in Communication Channels](#understanding-signal-to-noise-ratio-in-communication-channels)
+- [Channel Governance: The Foundation of High SNR](#channel-governance-the-foundation-of-high-snr)
+- [Purpose](#purpose)
+- [NOT for this channel](#not-for-this-channel)
+- [Posting Rules](#posting-rules)
+- [Message Frameworks That Respect Team Attention](#message-frameworks-that-respect-team-attention)
+- [Automation Strategies for Maintaining Channel Quality](#automation-strategies-for-maintaining-channel-quality)
+- [Implementing Channel Hierarchy](#implementing-channel-hierarchy)
+- [Measuring and Maintaining SNR Over Time](#measuring-and-maintaining-snr-over-time)
+- [Practical Implementation Checklist](#practical-implementation-checklist)
+
 ## Understanding Signal-to-Noise Ratio in Communication Channels
 
 Signal-to-noise ratio (SNR) measures the proportion of valuable information (signal) against irrelevant or distracting content (noise). In team announcement channels, high SNR means every message deserves attention, while low SNR means team members must filter through clutter to find what matters.
@@ -273,11 +286,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
-- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
-- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
+- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
+- [Weekly Wins Channel Setup and Facilitation for Remote Team](/remote-work-tools/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
 - [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
-- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
-
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

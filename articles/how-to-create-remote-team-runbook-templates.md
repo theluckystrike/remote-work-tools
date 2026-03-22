@@ -17,6 +17,16 @@ tags: [remote-work-tools]
 
 Runbooks turn undocumented institutional knowledge into step-by-step procedures anyone on the team can follow at 3am. Good runbooks are opinionated, tested, and short — they list commands to run, not theory to understand. This guide builds the templates and tooling for a remote engineering team's runbook library.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
+- [Troubleshooting](#troubleshooting)
+- [Related Reading](#related-reading)
+
 # [Operation Name] Runbook
 
 **Owner:** @team-name

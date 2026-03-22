@@ -17,6 +17,27 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 Coordinating remote frontend developers across multiple teams on a shared component library presents unique challenges. Without proper systems in place, you'll encounter version conflicts, duplicated effort, and inconsistent implementations. This guide provides actionable strategies to keep your distributed team synchronized and your component library healthy.
 
+## Table of Contents
+
+- [Why Shared Component Libraries Need Special Coordination](#why-shared-component-libraries-need-special-coordination)
+- [Establish Clear Component Ownership](#establish-clear-component-ownership)
+- [Implement a Structured Contribution Workflow](#implement-a-structured-contribution-workflow)
+- [Component Modified](#component-modified)
+- [Ownership Approval](#ownership-approval)
+- [Testing](#testing)
+- [Breaking Changes](#breaking-changes)
+- [Version and Release Strategically](#version-and-release-strategically)
+- [Create Documentation Standards](#create-documentation-standards)
+- [Establish Communication Channels](#establish-communication-channels)
+- [Implement Automated Quality Gates](#implement-automated-quality-gates)
+- [Practical Example: Adding a New Component](#practical-example-adding-a-new-component)
+- [Putting It All Together](#putting-it-all-together)
+- [Managing Cross-Team Dependencies](#managing-cross-team-dependencies)
+- [Handling Disagreement on Component Design](#handling-disagreement-on-component-design)
+- [Testing Strategies for Remote Component Development](#testing-strategies-for-remote-component-development)
+- [Version Compatibility Windows](#version-compatibility-windows)
+- [Monitoring Component Library Health](#monitoring-component-library-health)
+
 ## Why Shared Component Libraries Need Special Coordination
 
 Shared component libraries serve as the foundation for multiple applications and teams. When frontend developers work remotely across different time zones, the lack of spontaneous hallway conversations creates gaps in knowledge sharing. A button component modified in Tokyo might break a form in New York if no coordination exists.
@@ -268,10 +289,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 - [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
-- [How to Coordinate Remote Mobile Developers Releasing Apps](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Best Tools for Remote Team Design System Documentation 2026](/remote-work-tools/best-tools-for-remote-team-design-system-documentation-2026/)
+- [Best Tools for Remote Design System Management](/remote-work-tools/best-tools-remote-design-system-management/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

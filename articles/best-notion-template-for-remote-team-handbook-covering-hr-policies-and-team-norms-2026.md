@@ -17,6 +17,33 @@ tags: [remote-work-tools, best-of, remote-work]
 
 A remote team handbook serves as the single source of truth for how your distributed team operates. Notion provides the flexibility to build handbooks that combine HR policies, team norms, and operational documentation in one searchable workspace. This guide covers practical templates and implementation strategies for teams building their first handbook or improving existing documentation.
 
+## Table of Contents
+
+- [Core Handbook Structure](#core-handbook-structure)
+- [Company Overview](#company-overview)
+- [Key Dates](#key-dates)
+- [HR Policy Frameworks for Remote Teams](#hr-policy-frameworks-for-remote-teams)
+- [Core Hours Policy](#core-hours-policy)
+- [Equipment Policy](#equipment-policy)
+- [Team Norms Documentation](#team-norms-documentation)
+- [Response Time Expectations](#response-time-expectations)
+- [Meeting Standards](#meeting-standards)
+- [Building the Template in Notion](#building-the-template-in-notion)
+- [[Section Title]](#section-title)
+- [Implementation Best Practices](#implementation-best-practices)
+- [Change Log](#change-log)
+- [Practical Example: Complete Handbook Database](#practical-example-complete-handbook-database)
+- [Building Decision Trees for Common Questions](#building-decision-trees-for-common-questions)
+- [Decision Tree: Should I attend this meeting?](#decision-tree-should-i-attend-this-meeting)
+- [Handbook Compliance and Onboarding](#handbook-compliance-and-onboarding)
+- [Onboarding Checklist](#onboarding-checklist)
+- [Maintaining Handbook Health Long-Term](#maintaining-handbook-health-long-term)
+- [Handbook Personalization by Role](#handbook-personalization-by-role)
+- [Crisis-Specific Handbook Sections](#crisis-specific-handbook-sections)
+- [During System Outage](#during-system-outage)
+- [During Security Incident](#during-security-incident)
+- [Handbook Metrics and Feedback](#handbook-metrics-and-feedback)
+
 ## Core Handbook Structure
 
 A functional remote team handbook needs five primary sections: Welcome & Culture, HR Policies, Team Norms, Tools & Access, and Escalation Paths. Each section should be accessible within two clicks from the main dashboard. The goal is reducing重复 questions while giving employees clear answers about expectations and processes.
@@ -352,10 +379,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Handbook](/remote-work-tools/how-to-structure-remote-team-handbook-table-of-contents-cove/)
+- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
+- [How to Structure Remote Team Handbook: Policies, Processes](/remote-work-tools/how-to-structure-remote-team-handbook-covering-policies-proc/)
 - [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
-- [Remote Team Handbook Section Template for Writing Expense Re](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
-- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
-- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

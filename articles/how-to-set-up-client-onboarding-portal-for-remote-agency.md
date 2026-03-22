@@ -18,6 +18,16 @@ voice-checked: true
 
 Set up a client onboarding portal by creating a structured workflow in your chosen tool (Notion, ClickUp, or custom web app), populating it with templated forms and checklists, and integrating email notifications to guide clients through each phase. This standardizes your onboarding experience and frees your team from manual follow-ups.
 
+## Table of Contents
+
+- [Why Your Remote Agency Needs a Dedicated Onboarding Portal](#why-your-remote-agency-needs-a-dedicated-onboarding-portal)
+- [Core Components of an Effective Onboarding Portal](#core-components-of-an-effective-onboarding-portal)
+- [Selecting Your Technology Stack](#selecting-your-technology-stack)
+- [Building Your Portal: Step-by-Step Implementation](#building-your-portal-step-by-step-implementation)
+- [Essential Integrations](#essential-integrations)
+- [Testing and Deployment](#testing-and-deployment)
+- [Measuring Portal Effectiveness](#measuring-portal-effectiveness)
+
 ## Why Your Remote Agency Needs a Dedicated Onboarding Portal
 
 Without a standardized onboarding system, remote agencies waste countless hours answering repetitive questions, chasing down paperwork, and explaining basic processes to each new client. A portal transforms this chaos into a smooth, self-service experience that impresses clients from day one.
@@ -337,10 +347,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
-- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
 - [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
-- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
-
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -955,6 +955,18 @@ Quarterly surveys can help you understand how well your async communication is w
 
 Leading across five or more time zones requires fundamentally rethinking how work gets done. The framework above provides a starting point, but every team will need to adapt these principles to their specific composition and culture. Start with async-first communication, build documentation practices, and protect both your own and your team's time. The investment in building these systems pays dividends in team sustainability and effectiveness.
 
+## Table of Contents
+
+- [Real-World Time Zone Stack Examples](#real-world-time-zone-stack-examples)
+- [Manager Daily Time Block Template (Global Team)](#manager-daily-time-block-template-global-team)
+- [Asynchronous Decision Log Template](#asynchronous-decision-log-template)
+- [Decision: [Title]](#decision-title)
+- [Background](#background)
+- [Alternatives Considered](#alternatives-considered)
+- [Implications](#implications)
+- [Timeline](#timeline)
+- [Questions?](#questions)
+
 ## Real-World Time Zone Stack Examples
 
 Understanding how to group your team creates the foundation for sustainable management. Here are three real configurations:

@@ -18,6 +18,13 @@ voice-checked: true
 
 Interest-based Slack channels transform remote teams from purely functional workgroups into genuine communities. When team members connect around shared hobbies, skills, and passions, they build relationships that make collaboration smoother and turnover lower. This guide provides a practical framework for creating and maintaining these channels in your remote organization.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Channel Creation Best Practices](#channel-creation-best-practices)
+- [Practical Examples](#practical-examples)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -420,10 +427,9 @@ seasonal_channels:
 ## Related Articles
 
 - [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
-- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
-- [How to Create Async Standup Templates in Slack With](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
-- [How to Create Team Norms Around Emoji Reactions in Slack](/remote-work-tools/how-to-create-team-norms-around-emoji-reactions-in-slack/)
-- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
-
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
+- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
+- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

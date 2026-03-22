@@ -18,6 +18,26 @@ voice-checked: true
 
 Create a knowledge base contribution program that incentivizes documentation through recognition, rewards, or learning time allocations, making contribution frictionless via simple templates, and celebrating high-quality submissions publicly. Incentives shift knowledge management from a burden to a valued activity.
 
+## Table of Contents
+
+- [The Problem with Unstructured Knowledge Sharing](#the-problem-with-unstructured-knowledge-sharing)
+- [Designing Your Incentive Program Structure](#designing-your-incentive-program-structure)
+- [Sample Promotion Criteria: Senior Engineer](#sample-promotion-criteria-senior-engineer)
+- [Implementation Strategies That Actually Work](#implementation-strategies-that-actually-work)
+- [Quick Start](#quick-start)
+- [Common Issues](#common-issues)
+- [Measuring Success](#measuring-success)
+- [Avoiding Common Pitfalls](#avoiding-common-pitfalls)
+- [Implementation Timeline](#implementation-timeline)
+- [Measuring Program Success: Beyond Vanity Metrics](#measuring-program-success-beyond-vanity-metrics)
+- [Real Examples: What's Working](#real-examples-whats-working)
+- [Advanced Strategies for Mature Programs](#advanced-strategies-for-mature-programs)
+- [Real Incentive Program Examples](#real-incentive-program-examples)
+- [Addressing Common Objections](#addressing-common-objections)
+- [Preventing Program Fatigue](#preventing-program-fatigue)
+- [Team Maturity and Program Design](#team-maturity-and-program-design)
+- [Measuring Program Impact: Beyond Metrics](#measuring-program-impact-beyond-metrics)
+
 ## The Problem with Unstructured Knowledge Sharing
 
 Remote teams lose the informal knowledge transfer that happens in physical offices. When someone discovers a solution to a tricky bug or learns a new tool, that knowledge stays in their head unless you create systems that make sharing the default behavior. A well-designed incentive program addresses the core issues: time constraints, lack of recognition, and unclear expectations.

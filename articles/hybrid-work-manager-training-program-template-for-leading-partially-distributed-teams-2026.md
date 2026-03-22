@@ -18,6 +18,14 @@ voice-checked: true
 
 Managing a hybrid team requires a distinct skill set that combines traditional leadership practices with remote management capabilities. Unlike fully remote teams where everyone operates under the same conditions, hybrid managers must handle the challenges of supporting employees who work from home alongside those who come into a physical office. This creates unique challenges around equity, communication, and coordination that most manager training programs never address.
 
+## Table of Contents
+
+- [Core Competencies for Hybrid Team Leaders](#core-competencies-for-hybrid-team-leaders)
+- [Training Program Structure](#training-program-structure)
+- [Status Update Template](#status-update-template)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Measuring Success](#measuring-success)
+
 This training program template provides a structured approach to developing hybrid leadership skills. You can adapt it for your organization's specific needs, team sizes, and tools.
 
 ## Core Competencies for Hybrid Team Leaders

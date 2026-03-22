@@ -18,6 +18,27 @@ voice-checked: true
 
 Remote parenting comes with unique challenges. You juggle conference calls, help kids with homework, answer Slack messages, and somewhere in there—your own health gets neglected. Finding time to exercise when you have only 15 minutes between meetings feels impossible, but it does not have to be.
 
+## Table of Contents
+
+- [Why 15 Minutes Matters](#why-15-minutes-matters)
+- [The 15-Minute Desk-to-Movement Routine](#the-15-minute-desk-to-movement-routine)
+- [Integrating Exercise Into Your Meeting Schedule](#integrating-exercise-into-your-meeting-schedule)
+- [Adapting the Routine for Different Energy Levels](#adapting-the-routine-for-different-energy-levels)
+- [Tracking Your Progress](#tracking-your-progress)
+- [Weekly Movement Log](#weekly-movement-log)
+- [Overcoming Common Barriers](#overcoming-common-barriers)
+- [Building Long-Term Habits](#building-long-term-habits)
+- [Advanced Routine Variations for Different Fitness Levels](#advanced-routine-variations-for-different-fitness-levels)
+- [Scheduling Strategies: Calendar Optimization](#scheduling-strategies-calendar-optimization)
+- [Accountability and Habit Formation](#accountability-and-habit-formation)
+- [Scaling for Different Family Situations](#scaling-for-different-family-situations)
+- [Tracking Performance and Adapting](#tracking-performance-and-adapting)
+- [Week 1 Baseline](#week-1-baseline)
+- [Month 1 (vs Baseline)](#month-1-vs-baseline)
+- [Nutrition Timing Around Exercise](#nutrition-timing-around-exercise)
+- [Managing Common Barriers Revisited with Advanced Strategies](#managing-common-barriers-revisited-with-advanced-strategies)
+- [Long-Term Habit Success: The 90-Day Protocol](#long-term-habit-success-the-90-day-protocol)
+
 This guide provides a practical exercise routine specifically designed for remote parents who need quick, effective movement without special equipment or a gym membership. The routines work in your home office, require no changing of clothes, and can be done while your child is occupied or during a conference call that permits movement.
 
 ## Why 15 Minutes Matters

@@ -18,6 +18,23 @@ tags: [remote-work-tools, best-of, remote-work]
 
 When you're working from home full-time, your keyboard becomes your primary interface with your computer. For remote workers who spend 8+ hours daily typing code, emails, and documentation, the built-in laptop keyboard often falls short in both comfort and durability. An external keyboard transforms your setup, reducing strain and boosting productivity.
 
+## Table of Contents
+
+- [Why Laptop Keyboards Fall Short](#why-laptop-keyboards-fall-short)
+- [Switch Types: What Developers Need to Know](#switch-types-what-developers-need-to-know)
+- [Key Features for Developers](#key-features-for-developers)
+- [Ergonomics and Health Considerations](#ergonomics-and-health-considerations)
+- [Setting Up Your Keyboard on Linux and macOS](#setting-up-your-keyboard-on-linux-and-macos)
+- [Maintenance and Durability](#maintenance-and-durability)
+- [Making Your Choice](#making-your-choice)
+- [Keyboard Comparison: Popular Models for Remote Workers](#keyboard-comparison-popular-models-for-remote-workers)
+- [Setup Guides for Popular Keyboards](#setup-guides-for-popular-keyboards)
+- [Keyboard Macro Examples for Development](#keyboard-macro-examples-for-development)
+- [Durability and Replacement Parts](#durability-and-replacement-parts)
+- [Budget Decision Framework](#budget-decision-framework)
+- [Common Keyboard Mistakes and How to Avoid Them](#common-keyboard-mistakes-and-how-to-avoid-them)
+- [Keyboard vs. Laptop Keyboard: Speed and Accuracy Gains](#keyboard-vs-laptop-keyboard-speed-and-accuracy-gains)
+
 This guide focuses on what matters for developers and power users: switch types, ergonomics, connectivity, and practical features that integrate with development workflows.
 
 ## Why Laptop Keyboards Fall Short

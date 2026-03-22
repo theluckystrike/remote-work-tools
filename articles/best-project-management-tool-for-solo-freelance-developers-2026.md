@@ -18,6 +18,18 @@ intent-checked: true
 
 Solo freelance developers juggle multiple client projects, invoicing deadlines, and scope creep—all without a project manager. The ideal tool balances task tracking, time logging, and invoicing without bloat. This guide compares Todoist, Linear, Notion, GitHub Projects, and ClickUp's free tier, covering simplicity, time tracking, invoicing integration, and true cost per developer.
 
+## Table of Contents
+
+- [The Solo Developer's PM Challenge](#the-solo-developers-pm-challenge)
+- [Todoist: Simple, Fast, Affordable](#todoist-simple-fast-affordable)
+- [Linear: Engineering-Focused, Professional](#linear-engineering-focused-professional)
+- [Notion: Flexible, Customizable, All-in-One](#notion-flexible-customizable-all-in-one)
+- [GitHub Projects: Free, Lightweight, Already There](#github-projects-free-lightweight-already-there)
+- [ClickUp: Free Tier for Freelancers](#clickup-free-tier-for-freelancers)
+- [Comparison Table](#comparison-table)
+- [Recommended Freelance Stack by Budget](#recommended-freelance-stack-by-budget)
+- [My Recommendation for Solo Freelancers](#my-recommendation-for-solo-freelancers)
+
 ## The Solo Developer's PM Challenge
 
 Unlike teams using enterprise PM tools, solo developers need:
@@ -380,9 +392,8 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 - [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
 - [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
-- [Project Management for Husband and Wife Freelance](/remote-work-tools/project-management-for-husband-and-wife-freelance-developmen/)
-- [SaaS Side Project Guide for Freelance Developers](/remote-work-tools/saas-side-project-guide-for-freelance-developers/)
-- [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
-
+- [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
+- [Project Management Tools for Freelancers 2026](/remote-work-tools/project-management-tools-for-freelancers-2026/)
+- [Best Remote Work Project Management Tools Under 10](/remote-work-tools/best-remote-work-project-management-tools-under-10-per-user-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

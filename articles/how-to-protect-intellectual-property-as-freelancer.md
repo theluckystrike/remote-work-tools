@@ -18,6 +18,14 @@ voice-checked: true
 
 Every freelance developer has faced this scenario: you build something remarkable, hand it over to a client, and later discover they've reused your code without permission—or worse, claimed they own work you created. Intellectual property disputes are common in the freelance world, but they're entirely preventable with the right contracts, licensing strategies, and documentation practices.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Client Communication Best Practices](#client-communication-best-practices)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Git and Version Control Best Practices](#git-and-version-control-best-practices)
+- [Troubleshooting](#troubleshooting)
+
 This guide covers practical steps to protect your IP as a freelancer, with concrete examples and templates you can use immediately.
 
 ## Prerequisites

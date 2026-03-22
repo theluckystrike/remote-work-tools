@@ -18,6 +18,24 @@ voice-checked: true
 
 Documentation transforms vague interview processes into repeatable, fair hiring systems. When your team spans multiple time zones, hiring managers need clear playbooks that eliminate guesswork and ensure consistent candidate experiences. This guide provides a template you can adapt for your remote team's handbook.
 
+## Table of Contents
+
+- [Why Structured Interview Documentation Matters](#why-structured-interview-documentation-matters)
+- [Template: Remote Interview Process Documentation](#template-remote-interview-process-documentation)
+- [Role: [Job Title]](#role-job-title)
+- [Technical Competency Scoring (1-4 Scale)](#technical-competency-scoring-1-4-scale)
+- [Remote Interview Guidelines](#remote-interview-guidelines)
+- [Candidate Experience Commitments](#candidate-experience-commitments)
+- [What Not to Do](#what-not-to-do)
+- [Adapting This Template for Your Team](#adapting-this-template-for-your-team)
+- [Implementation Checklist](#implementation-checklist)
+- [Advanced Interview Documentation Patterns](#advanced-interview-documentation-patterns)
+- [STAR Format Scoring Guide](#star-format-scoring-guide)
+- [Remote Work Competencies](#remote-work-competencies)
+- [Three-Stage Pipeline for Remote Engineering Roles](#three-stage-pipeline-for-remote-engineering-roles)
+- [Template Management and Versioning](#template-management-and-versioning)
+- [Measuring Interview Process Effectiveness](#measuring-interview-process-effectiveness)
+
 ## Why Structured Interview Documentation Matters
 
 Remote hiring introduces unique challenges. Candidates cannot observe your office culture. Managers cannot read body language during video calls. Without written processes, each interviewer improvises—leading to inconsistent evaluations and potential bias.
@@ -392,11 +410,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Handbook Section Template for Writing Expense Re](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
-- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [Remote Team Hiring Rubric Template for Consistent](/remote-work-tools/remote-team-hiring-rubric-template-for-consistent-evaluation/)
 - [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
-- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
-
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

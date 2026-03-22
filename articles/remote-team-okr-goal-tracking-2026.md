@@ -18,6 +18,18 @@ intent-checked: true
 
 Distributed teams lose goal alignment when they're out of physical proximity. An office team naturally talks about quarterly goals in the hallway. A remote team needs intentional structure and clear visibility.
 
+## Table of Contents
+
+- [Understanding OKRs](#understanding-okrs)
+- [Why OKRs Work for Remote Teams](#why-okrs-work-for-remote-teams)
+- [Tools for OKR Management](#tools-for-okr-management)
+- [Implementing OKRs in Your Remote Team](#implementing-okrs-in-your-remote-team)
+- [Example: Distributed Engineering Team OKRs](#example-distributed-engineering-team-okrs)
+- [Common Pitfalls in Remote OKR Management](#common-pitfalls-in-remote-okr-management)
+- [Connecting OKRs to Individual Development](#connecting-okrs-to-individual-development)
+- [Async OKR Discussion Workflow](#async-okr-discussion-workflow)
+- [Measuring Success of Your OKR System](#measuring-success-of-your-okr-system)
+
 This guide walks through implementing OKRs (Objectives and Key Results) for distributed teams, including tool selection, process design, and how to make goals visible and measurable without constant meetings.
 
 ## Understanding OKRs

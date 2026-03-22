@@ -16,7 +16,28 @@ voice-checked: true---
 
 A single ISP connection is a single point of failure. For engineers on customer calls, async video reviews, or live deployments, a dropped connection at the wrong moment costs trust and time. This guide covers a practical dual-ISP failover setup for home offices that achieves automatic failover in under 30 seconds.
 
+<<<<<<< Updated upstream
 ## The Core Setup
+=======
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Carrier Coverage Comparison for Backup Internet](#carrier-coverage-comparison-for-backup-internet)
+- [Troubleshooting](#troubleshooting)
+- [Related Reading](#related-reading)
+
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Setup
+>>>>>>> Stashed changes
 
 The goal is two independent internet connections that switch automatically when the primary fails:
 
@@ -480,6 +501,14 @@ Before deploying your failover setup, verify each component:
 - [Best Portable WiFi Hotspot for Digital Nomads](/best-portable-wifi-hotspot-for-digital-nomads/)
 - [Best Ethernet Over Powerline Adapter for Home Office Far from Router](/best-ethernet-over-powerline-adapter-for-home-office-far-fro/)
 ---
+
+## Related Articles
+
+- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
+- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
+- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
+- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

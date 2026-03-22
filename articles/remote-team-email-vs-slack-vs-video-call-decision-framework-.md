@@ -18,6 +18,16 @@ voice-checked: true
 
 Choose the right communication channel by matching message urgency, complexity, and documentation needs to tools: email for low-urgency, documented decisions; Slack for medium-urgency team coordination; video calls for high-urgency problems and relationship-building. Use a decision matrix aligned with your team's availability to avoid notification fatigue while maintaining the async-first communication that enables distributed work.
 
+## Table of Contents
+
+- [The Communication Channel Matrix](#the-communication-channel-matrix)
+- [Decision Criteria by Channel](#decision-criteria-by-channel)
+- [Implementing the Framework](#implementing-the-framework)
+- [Tool Recommendations by Team Type](#tool-recommendations-by-team-type)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Framework Effectiveness](#measuring-framework-effectiveness)
+- [Writing a Team Communication Charter](#writing-a-team-communication-charter)
+
 Choosing the right communication channel for remote teams directly impacts productivity, response times, and team cohesion. This framework provides engineering managers with a systematic approach to selecting between email, Slack, and video calls based on message urgency, complexity, and team context.
 
 ## The Communication Channel Matrix

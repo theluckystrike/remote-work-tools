@@ -17,6 +17,21 @@ tags: [remote-work-tools]
 {% raw %}
 Building a personal ATS (Applicant Tracking System) with Notion databases gives solo recruiters working remotely a powerful, customizable tool without enterprise software costs. Notion's relational database structure maps naturally to recruitment workflows, and this guide shows you how to construct templates that scale from 10 candidates to 200+ while maintaining data integrity and workflow clarity.
 
+## Table of Contents
+
+- [Why Notion Works for Solo Recruiters](#why-notion-works-for-solo-recruiters)
+- [Core Database Architecture](#core-database-architecture)
+- [Formula Examples for Automation](#formula-examples-for-automation)
+- [Template Button Workflows](#template-button-workflows)
+- [View Configurations for Daily Use](#view-configurations-for-daily-use)
+- [Integration with Communication Tools](#integration-with-communication-tools)
+- [Scaling Your System](#scaling-your-system)
+- [What to Avoid](#what-to-avoid)
+- [Advanced Automation with Zapier and Make](#advanced-automation-with-zapier-and-make)
+- [Communication Management Within Notion](#communication-management-within-notion)
+- [Scaling from Solo Recruiter to Team](#scaling-from-solo-recruiter-to-team)
+- [Recruiting Metrics Dashboard](#recruiting-metrics-dashboard)
+
 ## Why Notion Works for Solo Recruiters
 
 Solo recruiters face unique challenges: managing multiple pipelines simultaneously, tracking communication across platforms, and maintaining candidate relationships without a dedicated ATS team. Notion solves this through three core features: relational databases, formula properties, and template buttons.
@@ -284,11 +299,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Notion Setup for Solo Freelancer Managing 5 Clients: A](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
-- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
-- [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
-- [SSH Tunnels for Remote Database Access](/remote-work-tools/ssh-tunnels-remote-database-access/)
-- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
-
+- [Notion Setup for Solo Freelancer Managing 5 Clients](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
+- [Notion API Integration Returning 502 Errors Fix (2026)](/remote-work-tools/notion-api-integration-returning-502-errors-fix-2026/)
+- [Fibery vs Notion: All-in-One Workspace Comparison](/remote-work-tools/fibery-vs-notion-all-in-one-workspace-comparison/)
+- [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
+- [Notion Habit Tracker Template for Developers](/remote-work-tools/notion-habit-tracker-template-for-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

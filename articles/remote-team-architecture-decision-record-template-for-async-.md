@@ -33,6 +33,53 @@ tags: [remote-work-tools, remote-work]
 
 Use Architecture Decision Records (ADRs) for remote team technical discussions by documenting context, decision, consequences, and considered alternatives—with a 48-72 hour async review period allowing team members across time zones to provide structured feedback. This creates searchable institutional knowledge of technical choices, enabling future team members to understand not just what was decided but why.
 
+## Table of Contents
+
+- [Why ADRs Matter for Distributed Teams](#why-adrs-matter-for-distributed-teams)
+- [The ADR Template](#the-adr-template)
+- [Status](#status)
+- [Date](#date)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Reviewers](#reviewers)
+- [Notes](#notes)
+- [Async Workflow for ADR Creation](#async-workflow-for-adr-creation)
+- [Status](#status)
+- [Date](#date)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Feedback from @sarah-engineer](#feedback-from-sarah-engineer)
+- [Response from @proposal-author](#response-from-proposal-author)
+- [Status](#status)
+- [Notes](#notes)
+- [Practical Tips for Remote Teams](#practical-tips-for-remote-teams)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Real-World ADR Examples](#real-world-adr-examples)
+- [Status](#status)
+- [Date](#date)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Reviewers](#reviewers)
+- [Notes](#notes)
+- [Status](#status)
+- [Date](#date)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Reviewers](#reviewers)
+- [Notes](#notes)
+- [Building ADR Search and Navigation](#building-adr-search-and-navigation)
+- [Architecture (10 ADRs)](#architecture-10-adrs)
+- [Infrastructure (8 ADRs)](#infrastructure-8-adrs)
+- [Data (6 ADRs)](#data-6-adrs)
+- [Deprecated (3 ADRs)](#deprecated-3-adrs)
+
 Architecture Decision Records (ADRs) help distributed teams capture technical choices with context, reasoning, and consequences. When your team spans time zones and relies on async communication, a well-structured ADR template becomes essential for maintaining decision quality without requiring synchronous meetings.
 
 This guide provides a complete ADR template designed specifically for remote teams conducting technical discussions through written communication.

@@ -18,6 +18,21 @@ voice-checked: true
 
 Implement a structured peer feedback process using a rotating feedback schedule, templated forms that guide specific observations, and async delivery through shared documents to reduce awkwardness. This systematizes feedback-giving and removes real-time pressure that often derails meaningful conversations.
 
+## Table of Contents
+
+- [Why Peer Feedback Fails in Remote Settings](#why-peer-feedback-fails-in-remote-settings)
+- [Step 1: Establish a Feedback Framework](#step-1-establish-a-feedback-framework)
+- [Peer Feedback Categories](#peer-feedback-categories)
+- [Step 2: Use Async Templates That Guide Responders](#step-2-use-async-templates-that-guide-responders)
+- [Peer Feedback for [Name]](#peer-feedback-for-name)
+- [Step 3: Implement a Rotation System](#step-3-implement-a-rotation-system)
+- [Step 4: Automate Collection Without Losing Personalization](#step-4-automate-collection-without-losing-personalization)
+- [Step 5: Set Clear Expectations and Boundaries](#step-5-set-clear-expectations-and-boundaries)
+- [Step 6: Handle Difficult Responses Graceantly](#step-6-handle-difficult-responses-graceantly)
+- [Measuring Success](#measuring-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building a Feedback Culture](#building-a-feedback-culture)
+
 The solution is not to avoid peer feedback but to structure it in a way that removes the social friction. This guide shows you how to implement a peer feedback process that feels natural, produces practical recommendations, and keeps your remote team engaged.
 
 ## Why Peer Feedback Fails in Remote Settings
@@ -231,11 +246,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Remote Team Manager Peer Feedback Exchange Template](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
 - [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Remote Team Manager Peer Feedback Exchange Template for](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
-- [How to Give Constructive Feedback Asynchronously Without](/remote-work-tools/how-to-give-constructive-feedback-asynchronously-without-mis/)
-- [How to Give Constructive Feedback Remotely Over Text](/remote-work-tools/how-to-give-constructive-feedback-remotely-over-text-without/)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-
+- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
+- [Client Feedback Collection Tool for Remote Development](/remote-work-tools/client-feedback-collection-tool-for-remote-development-agenc/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

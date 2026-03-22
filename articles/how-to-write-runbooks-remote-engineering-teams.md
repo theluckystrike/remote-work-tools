@@ -17,6 +17,32 @@ tags: [remote-work-tools, remote-work]
 
 A runbook is a document that an engineer unfamiliar with a system can follow to complete an operational task correctly, alone, under time pressure, at 3am. That is the test. If your runbooks require institutional knowledge, slack messages to get context, or judgment calls that are not documented, they will fail exactly when you need them most.
 
+## Table of Contents
+
+- [What a Runbook Is Not](#what-a-runbook-is-not)
+- [Runbook Structure](#runbook-structure)
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+- [Verification](#verification)
+- [Rollback](#rollback)
+- [Escalation](#escalation)
+- [Write for the Worst Case](#write-for-the-worst-case)
+- [BAD: Ambiguous step](#bad-ambiguous-step)
+- [GOOD: Explicit step](#good-explicit-step)
+- [Decision Trees for Non-Linear Procedures](#decision-trees-for-non-linear-procedures)
+- [Diagnose Database Connection Failures](#diagnose-database-connection-failures)
+- [Embed Exact Commands, Not Descriptions](#embed-exact-commands-not-descriptions)
+- [BAD: Description only](#bad-description-only)
+- [GOOD: Exact commands](#good-exact-commands)
+- [Keep Commands Copy-Pasteable](#keep-commands-copy-pasteable)
+- [BAD: Requires substitution mid-command](#bad-requires-substitution-mid-command)
+- [GOOD: Variables declared explicitly before commands](#good-variables-declared-explicitly-before-commands)
+- [Maintenance: Keep Runbooks Current](#maintenance-keep-runbooks-current)
+- [When a runbook must be updated:](#when-a-runbook-must-be-updated)
+- [Quarterly review checklist:](#quarterly-review-checklist)
+- [Runbook Inventory](#runbook-inventory)
+- [Related Reading](#related-reading)
+
 Remote teams are especially dependent on good runbooks — there is no one to turn to in the next cubicle. This guide covers how to write runbooks that actually work.
 
 ## What a Runbook Is Not
@@ -277,6 +303,14 @@ The index should live in the same location as the runbooks (Obsidian vault, Conf
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
 - [Obsidian for Remote Team Knowledge Management](/remote-work-tools/obsidian-remote-team-knowledge-management/)
 - [Async Decision Making with RFC Documents for Engineering Teams](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
+
+## Related Articles
+
+- [Migration runbook example structure](/remote-work-tools/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
+- [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
+- [How to Build a Remote Team Runbook Library 2026](/remote-work-tools/how-to-build-remote-team-runbook-library-2026/---)
+- [Best GitBook Alternative for Remote Engineering Teams](/remote-work-tools/best-gitbook-alternative-for-remote-engineering-teams-publis/)
+- [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

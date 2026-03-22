@@ -31,6 +31,24 @@ tags: [remote-work-tools, remote-work]
 
 Set up your home office network by running a wired Ethernet connection to your desk, segmenting work devices onto a separate VLAN or SSID from IoT gadgets, and configuring QoS rules to prioritize video conferencing and VPN traffic. These three steps eliminate the dropped calls, latency spikes, and security gaps that undermine remote work productivity.
 
+## Table of Contents
+
+- [Assessing Your Current Setup](#assessing-your-current-setup)
+- [Choosing Between Wired and Wireless](#choosing-between-wired-and-wireless)
+- [Segmenting Your Network](#segmenting-your-network)
+- [Setting Up VPN Access](#setting-up-vpn-access)
+- [Implementing Quality of Service](#implementing-quality-of-service)
+- [Securing Your Network](#securing-your-network)
+- [Monitoring and Maintenance](#monitoring-and-maintenance)
+- [Optimizing DNS Performance](#optimizing-dns-performance)
+- [Hardware Recommendations and Pricing](#hardware-recommendations-and-pricing)
+- [Cable Infrastructure Strategy](#cable-infrastructure-strategy)
+- [Backup Connectivity Options](#backup-connectivity-options)
+- [Testing and Validation Framework](#testing-and-validation-framework)
+- [Monitoring and Alerting Setup](#monitoring-and-alerting-setup)
+- [Advanced Configuration Examples](#advanced-configuration-examples)
+- [Final Recommendations](#final-recommendations)
+
 ## Assessing Your Current Setup
 
 Before buying equipment, understand what you already have and identify the bottlenecks. Run a speed test during your typical working hours to establish a baseline. Note the difference between your advertised speeds and actual throughput—this reveals whether your ISP delivers on promises and whether your local network limits performance.
@@ -345,10 +363,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
-- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
 - [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
-- [How to Set Up Home Office in Bali Rental Apartment with](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
-- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
-
+- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
+- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
+- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

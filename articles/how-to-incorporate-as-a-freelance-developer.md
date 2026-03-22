@@ -18,6 +18,15 @@ voice-checked: true
 
 Incorporating as a freelance developer transforms your side hustle or solo practice into a legitimate business entity. Beyond the psychological shift of calling yourself a business owner, incorporation provides legal protection, potential tax advantages, and increased credibility with clients. This guide walks you through the practical steps of incorporation from a developer's perspective.
 
+## Table of Contents
+
+- [Why Incorporate Your Freelance Development Work](#why-incorporate-your-freelance-development-work)
+- [Prerequisites](#prerequisites)
+- [When to Involve a Professional](#when-to-involve-a-professional)
+- [Tax Deduction Strategy for Incorporated Developers](#tax-deduction-strategy-for-incorporated-developers)
+- [When to Hire Professional Help](#when-to-hire-professional-help)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Incorporate Your Freelance Development Work
 
 Working as a sole proprietor is simple—you file a Schedule C with your personal tax return, and that's it. But this simplicity comes with risks. As a sole proprietor, your personal assets (house, car, savings) are directly exposed to lawsuits related to your business. If a client sues you for a buggy deployment that caused their business loss, your personal wealth is on the line.

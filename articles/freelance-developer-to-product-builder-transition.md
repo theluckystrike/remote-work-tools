@@ -33,6 +33,22 @@ tags: [remote-work-tools]
 
 To transition from freelance developer to product builder, start by identifying a recurring problem from your client work, validate demand with a landing page before writing code, build the smallest viable product that demonstrates value, and develop business skills around marketing, pricing, and user research. The shift requires moving from a time-for-money model to investing upfront effort for long-term recurring value.
 
+## Table of Contents
+
+- [Understanding the Fundamental Shift](#understanding-the-fundamental-shift)
+- [Identifying Viable Product Opportunities](#identifying-viable-product-opportunities)
+- [Building Your First Minimum Viable Product](#building-your-first-minimum-viable-product)
+- [Developing the Product Builder Mindset](#developing-the-product-builder-mindset)
+- [Acquiring Essential Business Skills](#acquiring-essential-business-skills)
+- [Managing the Transition Financially](#managing-the-transition-financially)
+- [Building in Public and Finding Your Community](#building-in-public-and-finding-your-community)
+- [Pricing Strategy for Your First Product](#pricing-strategy-for-your-first-product)
+- [Managing Your Product's Evolution](#managing-your-products-evolution)
+- [Common Failure Patterns for First-Time Product Builders](#common-failure-patterns-for-first-time-product-builders)
+- [Detailed Revenue Metrics to Track](#detailed-revenue-metrics-to-track)
+- [Transitioning from Freelance Project Mind to Product Mind](#transitioning-from-freelance-project-mind-to-product-mind)
+- [Financial Planning for the Transition](#financial-planning-for-the-transition)
+
 ## Understanding the Fundamental Shift
 
 Freelance development operates on a time-for-money model. You exchange hours directly for compensation, with each project typically having a defined scope and endpoint. Product building inverts this equation—you invest significant upfront time with uncertain returns, but the outcome can generate value continuously after the initial development effort.

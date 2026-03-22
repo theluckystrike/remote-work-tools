@@ -18,6 +18,20 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Front is the best shared inbox for remote support teams that need deep API customization and real-time collision detection to prevent duplicate responses. HelpScout is the fastest path to value for teams wanting straightforward shared inbox functionality without enterprise complexity. Zendesk suits organizations requiring enterprise-scale features, extensive integrations, and the ability to handle millions of tickets daily. This guide compares all three with API integration examples, automation patterns, and practical implementation details for developers building support workflows.
 
+## Table of Contents
+
+- [Front: Purpose-Built for Support Operations](#front-purpose-built-for-support-operations)
+- [HelpScout: Simplifying Customer Communication](#helpscout-simplifying-customer-communication)
+- [Zendesk: Enterprise-Grade Support Infrastructure](#zendesk-enterprise-grade-support-infrastructure)
+- [Choosing the Right Platform for Your Remote Team](#choosing-the-right-platform-for-your-remote-team)
+- [Implementation Recommendations](#implementation-recommendations)
+- [SLA Management Across Time Zones](#sla-management-across-time-zones)
+- [Building Effective Support Workflows](#building-effective-support-workflows)
+- [Analytics and Performance Metrics](#analytics-and-performance-metrics)
+- [Preventing Agent Burnout in Remote Support](#preventing-agent-burnout-in-remote-support)
+- [Choosing Based on Team Maturity](#choosing-based-on-team-maturity)
+- [Implementation Timeline and Migration](#implementation-timeline-and-migration)
+
 ## Front: Purpose-Built for Support Operations
 
 Front positions itself as a collaborative inbox that blends email, chat, and customer data into an unified interface. The platform excels at eliminating the confusion that plagues shared email accounts where multiple team members might respond to the same inquiry.

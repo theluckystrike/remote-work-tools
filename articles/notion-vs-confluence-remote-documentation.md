@@ -31,6 +31,27 @@ tags: [remote-work-tools, comparison, remote-work]
 
 Remote teams need documentation that non-technical contributors can write, that engineers can query quickly, and that scales past 500 pages without becoming a graveyard. Notion and Confluence are the two most common choices at small-to-mid-size companies. They are built on different philosophies and the right choice depends on your team's workflow.
 
+## Table of Contents
+
+- [The Core Difference](#the-core-difference)
+- [Editing Experience](#editing-experience)
+- [Structure and Navigation](#structure-and-navigation)
+- [Search](#search)
+- [Permissions](#permissions)
+- [Integrations with Remote Work Tools](#integrations-with-remote-work-tools)
+- [Pricing (2026)](#pricing-2026)
+- [Which to Choose](#which-to-choose)
+- [Migrating Between the Two](#migrating-between-the-two)
+- [Content Lifecycle: How Notion and Confluence Handle Documentation Decay](#content-lifecycle-how-notion-and-confluence-handle-documentation-decay)
+- [Permission Model Complexity: When Simple Doesn't Work](#permission-model-complexity-when-simple-doesnt-work)
+- [The Search Problem at Scale](#the-search-problem-at-scale)
+- [Expense Approval Documentation: Use Case Example](#expense-approval-documentation-use-case-example)
+- [Integration Ecosystem: Choosing Based on Your Tech Stack](#integration-ecosystem-choosing-based-on-your-tech-stack)
+- [Total Cost of Ownership (TCO) Over 3 Years](#total-cost-of-ownership-tco-over-3-years)
+- [Training and Onboarding Time](#training-and-onboarding-time)
+- [Making the Final Decision: Decision Matrix](#making-the-final-decision-decision-matrix)
+- [Related Reading](#related-reading)
+
 This is not a feature list comparison. It is an evaluation of how each tool performs in the specific conditions of remote work.
 
 ## The Core Difference
@@ -393,6 +414,14 @@ If scores are close (within 0.5 points), choose the one your team is most famili
 - [Best Tools for Remote Team Documentation 2026](/remote-work-tools/best-remote-team-documentation-tools-2026/)
 - [GitBook vs Notion for Technical Documentation](/remote-work-tools/gitbook-vs-notion-for-technical-documentation/)
 - [How to Manage Remote Team Documentation Debt](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
+
+## Related Articles
+
+- [Best Tools for Remote Team Documentation 2026: Notion](/remote-work-tools/best-remote-team-documentation-tools-2026/)
+- [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
+- [Best Knowledge Base Search Tool for Remote Teams with Docs](/remote-work-tools/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

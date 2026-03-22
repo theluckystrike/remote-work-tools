@@ -18,6 +18,14 @@ voice-checked: true
 
 Desktop PCs generate heat, and that heat requires active cooling. When you're on video calls, your machine often works harder than you realize—video encoding, background processes, and browser tabs all contribute to CPU and GPU load. The result: fans spin faster, and your colleagues hear that distracting whirring in the background.
 
+## Table of Contents
+
+- [Why Your PC Gets Loud During Video Calls](#why-your-pc-gets-loud-during-video-calls)
+- [Prerequisites](#prerequisites)
+- [Software Noise Suppression Tools: Detailed Comparison](#software-noise-suppression-tools-detailed-comparison)
+- [When to Invest vs When to Accept Noise](#when-to-invest-vs-when-to-accept-noise)
+- [Troubleshooting](#troubleshooting)
+
 This guide covers practical methods to reduce fan noise during video calls without sacrificing performance for your actual work. You'll find software tweaks, configuration examples, and hardware adjustments that work well for developers and power users.
 
 ## Why Your PC Gets Loud During Video Calls
@@ -372,11 +380,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
-- [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [How to Prevent Laptop Overheating During Long Video Call](/remote-work-tools/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
+- [How to Stop Dog Barking During Video Calls: A Complete](/remote-work-tools/how-to-stop-dog-barking-during-video-calls-work-from-home/)
+- [How to Hide Messy Room During Video Calls: Practical](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
+- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
 - [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

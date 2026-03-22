@@ -18,6 +18,27 @@ voice-checked: true
 
 Running a successful all-hands meeting when you have a mix of in-person and remote attendees requires careful planning and the right technical setup. This guide provides practical patterns for hybrid all-hands meetings, focusing on tools and techniques that work for developer teams and power users.
 
+## Table of Contents
+
+- [The Hybrid All-Hands Challenge](#the-hybrid-all-hands-challenge)
+- [Pre-Meeting Technical Setup](#pre-meeting-technical-setup)
+- [Structuring the Meeting Agenda](#structuring-the-meeting-agenda)
+- [Tools and Platforms](#tools-and-platforms)
+- [Help Techniques](#help-techniques)
+- [Facilitation Pro Tips for Developer Teams](#facilitation-pro-tips-for-developer-teams)
+- [Recording and Async Follow-Up](#recording-and-async-follow-up)
+- [Advanced Hybrid Meeting Dynamics](#advanced-hybrid-meeting-dynamics)
+- [Before the Meeting](#before-the-meeting)
+- [During the Meeting](#during-the-meeting)
+- [Remote Participant Accessibility Enhancements](#remote-participant-accessibility-enhancements)
+- [Engagement Metrics for Hybrid Meetings](#engagement-metrics-for-hybrid-meetings)
+- [Policy Documentation for Hybrid All-Hands](#policy-documentation-for-hybrid-all-hands)
+- [Equipment Standards](#equipment-standards)
+- [Facilitation Standards](#facilitation-standards)
+- [Accessibility Standards](#accessibility-standards)
+- [Equity Standards](#equity-standards)
+- [Troubleshooting Common Hybrid Meeting Failures](#troubleshooting-common-hybrid-meeting-failures)
+
 ## The Hybrid All-Hands Challenge
 
 All-hands meetings serve as a critical touchpoint for company-wide communication. When your team spans multiple locations and work arrangements, ensuring every attendee has an equitable experience becomes essential. The core challenge is simple: remote participants must feel as included as those physically present, and in-person attendees should not be disadvantaged by the technology bridging the gap.

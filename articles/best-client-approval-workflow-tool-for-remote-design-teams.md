@@ -17,6 +17,17 @@ tags: [remote-work-tools, best-of, workflow, remote-work]
 
 Remote design teams need solid approval workflows that accommodate asynchronous collaboration, version control, and clear communication channels. Unlike traditional in-office setups where stakeholders can walk over to a designer's desk, distributed teams require structured processes that keep projects moving forward without requiring real-time presence.
 
+## Table of Contents
+
+- [Core Requirements for Remote Design Approval](#core-requirements-for-remote-design-approval)
+- [Tool Comparison: Leading Platforms in 2026](#tool-comparison-leading-platforms-in-2026)
+- [Implementation Patterns](#implementation-patterns)
+- [Measuring Workflow Efficiency](#measuring-workflow-efficiency)
+- [API-First Considerations](#api-first-considerations)
+- [Building Your Custom Solution](#building-your-custom-solution)
+- [Setting SLAs and Escalation Paths](#setting-slas-and-escalation-paths)
+- [Integrating Approval Records with Project Management](#integrating-approval-records-with-project-management)
+
 This guide examines the essential features of client approval workflow tools and provides practical implementation strategies for remote design teams of varying sizes.
 
 ## Core Requirements for Remote Design Approval

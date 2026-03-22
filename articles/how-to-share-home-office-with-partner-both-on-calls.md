@@ -18,6 +18,13 @@ voice-checked: true
 
 When you and your partner both work remotely and share a single home office, back-to-back video calls can quickly become a logistical nightmare. The good news is that with the right setup, acoustic treatment, and scheduling systems, you can create a harmonious workspace where both of you stay productive and professional on calls. This guide covers practical solutions for developers and power users who want to transform their shared office into a call-friendly environment.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Detailed Scheduling System with Code](#detailed-scheduling-system-with-code)
+- [Noise Suppression Tool Comparison for Couples](#noise-suppression-tool-comparison-for-couples)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

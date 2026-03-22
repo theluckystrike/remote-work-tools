@@ -33,6 +33,17 @@ tags: [remote-work-tools, best-of, remote-work]
 
 The best tools for managing remote internship programs are Notion for onboarding documentation and progress tracking, Linear for issue-based project management with cycle milestones, GitHub for code collaboration with protected branch guardrails, and Slack for structured async communication across time zones. Together, these four tools cover the full intern lifecycle -- onboarding, mentorship, project tracking, and evaluation -- and this guide includes setup examples, automation scripts, and integration patterns for each.
 
+## Table of Contents
+
+- [The Remote Internship Management Stack](#the-remote-internship-management-stack)
+- [Notion: Flexible Documentation and Onboarding](#notion-flexible-documentation-and-onboarding)
+- [Linear: Issue Tracking for Intern Projects](#linear-issue-tracking-for-intern-projects)
+- [GitHub: Code Collaboration and Learning](#github-code-collaboration-and-learning)
+- [Slack: Structured Communication](#slack-structured-communication)
+- [Automating Program Administration](#automating-program-administration)
+- [Measuring Success](#measuring-success)
+- [Building Your Program](#building-your-program)
+
 ## The Remote Internship Management Stack
 
 Managing remote interns effectively requires solving several distinct problems: onboarding documentation, project tracking, mentor coordination, and progress evaluation. Rather than relying on generic tools, consider a stack built from solutions that speak to developer workflows.

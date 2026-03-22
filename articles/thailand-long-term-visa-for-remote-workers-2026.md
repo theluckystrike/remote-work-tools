@@ -33,6 +33,23 @@ tags: [remote-work-tools, remote-work]
 
 The LTR (Long-Term Resident) visa is the best option for remote workers in Thailand in 2026, offering up to 10 years of legal stay, no local employer requirement, and exemption from 90-day reporting. You need at least $80,000 USD annual income ($40,000 with a STEM degree), health insurance with $50,000 minimum coverage, and proof of remote employment outside Thailand. Below, we compare the LTR with the Smart Visa and other pathways, covering eligibility, application steps, costs, and practical setup tips for developers.
 
+## Table of Contents
+
+- [Understanding Thailand's Visa ecosystem for Remote Workers](#understanding-thailands-visa-ecosystem-for-remote-workers)
+- [LTR Visa: The Primary Choice for Remote Workers](#ltr-visa-the-primary-choice-for-remote-workers)
+- [Smart Visa: For Tech Professionals](#smart-visa-for-tech-professionals)
+- [Practical Tips for Developers](#practical-tips-for-developers)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Financial Planning for Long-Term Stay](#financial-planning-for-long-term-stay)
+- [When to Consider Alternative Destinations](#when-to-consider-alternative-destinations)
+- [Accommodation and Cost of Living](#accommodation-and-cost-of-living)
+- [Housing and Apartment Hunting](#housing-and-apartment-hunting)
+- [Coworking and Digital Nomad Infrastructure](#coworking-and-digital-nomad-infrastructure)
+- [Internet Backup and Reliability](#internet-backup-and-reliability)
+- [Tax and Legal Considerations](#tax-and-legal-considerations)
+- [Practical First Month Checklist](#practical-first-month-checklist)
+- [When to Renew, Extend, or Move On](#when-to-renew-extend-or-move-on)
+
 ## Understanding Thailand's Visa ecosystem for Remote Workers
 
 Thailand offers several visa pathways for long-term stays, but not all are suitable for remote workers. The key options in 2026 include:
@@ -380,11 +397,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
-- [Best VPN for Remote Workers in Thailand Avoiding Geo](/remote-work-tools/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)
-- [Barbados Welcome Stamp Visa for Remote Workers](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
-- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
+- [Mexico Temporary Resident Visa for Remote Workers Earning](/remote-work-tools/mexico-temporary-resident-visa-for-remote-workers-earning-fo/)
+- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
 - [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
-
+- [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

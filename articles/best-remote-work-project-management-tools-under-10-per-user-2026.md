@@ -18,6 +18,24 @@ intent-checked: true
 
 Choosing a project management tool for remote teams under $10 per user per month requires balancing feature depth, ease of adoption, and actual team usage patterns. Five tools dominate this space: Linear, Notion, ClickUp, Asana, and Monday.com. Each targets different workflows—Linear excels for software development, Notion for flexible documentation and dashboards, ClickUp for power-user customization, Asana for structured workflows, and Monday.com for visual status tracking.
 
+## Table of Contents
+
+- [The $10 Budget Constraint](#the-10-budget-constraint)
+- [Linear: Best for Software Teams](#linear-best-for-software-teams)
+- [Notion: Best for Flexible, All-in-One Documentation](#notion-best-for-flexible-all-in-one-documentation)
+- [ClickUp: Best for Highly Customizable Workflows](#clickup-best-for-highly-customizable-workflows)
+- [Asana: Best for Traditional Project Management](#asana-best-for-traditional-project-management)
+- [Monday.com: Best for Visual Status Tracking](#mondaycom-best-for-visual-status-tracking)
+- [Comparison Table: Head-to-Head](#comparison-table-head-to-head)
+- [Decision Framework: Which Tool to Choose](#decision-framework-which-tool-to-choose)
+- [Real Cost Scenarios](#real-cost-scenarios)
+- [Migration Guide: Switching Between Tools](#migration-guide-switching-between-tools)
+- [Implementation Timeline: First 30 Days](#implementation-timeline-first-30-days)
+- [Common Implementation Mistakes](#common-implementation-mistakes)
+- [Integration Ecosystem for $10 Budget](#integration-ecosystem-for-10-budget)
+- [Annual Cost Comparison: 5-Year Projection](#annual-cost-comparison-5-year-projection)
+- [Recommendation by Team Profile](#recommendation-by-team-profile)
+
 ## The $10 Budget Constraint
 
 Most remote teams have 5-50 people. At $10/user/month, that's $50-500/month team spend. This budget eliminates enterprise-only tools (Jira at $7/user enters range but with limited features). The tools competing here offer:

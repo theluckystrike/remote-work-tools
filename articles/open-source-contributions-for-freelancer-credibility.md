@@ -33,6 +33,25 @@ tags: [remote-work-tools]
 
 When potential clients evaluate freelancers, they face a fundamental problem: how to verify technical competence from a portfolio of potentially inflated claims. Open source contributions solve this problem by providing verifiable evidence of your skills. Unlike testimonials or portfolio pieces that exist behind NDA walls, your contributions to public repositories are inspectable, runnable, and judgeable by anyone with technical knowledge.
 
+## Table of Contents
+
+- [Why Open Source Matters for Freelance Work](#why-open-source-matters-for-freelance-work)
+- [Starting with Existing Projects](#starting-with-existing-projects)
+- [Choosing Projects That Align with Your Niche](#choosing-projects-that-align-with-your-niche)
+- [Open Source Contributions](#open-source-contributions)
+- [Building Your Own Tools](#building-your-own-tools)
+- [Documenting Your Work](#documenting-your-work)
+- [Making Contributions Visible](#making-contributions-visible)
+- [Contribution Timeline and Realistic Expectations](#contribution-timeline-and-realistic-expectations)
+- [Contribution Strategy by Career Stage](#contribution-strategy-by-career-stage)
+- [Platform Strategy: Where to Build Presence](#platform-strategy-where-to-build-presence)
+- [What makes this different](#what-makes-this-different)
+- [For Freelance Clients](#for-freelance-clients)
+- [Monetizing Open Source Credibility](#monetizing-open-source-credibility)
+- [Professional Support](#professional-support)
+- [Starting Your Contribution Journey](#starting-your-contribution-journey)
+- [Quick-Start Checklist](#quick-start-checklist)
+
 This guide covers how to use open source contributions strategically to build credibility as a freelance developer.
 
 ## Why Open Source Matters for Freelance Work

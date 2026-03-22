@@ -31,6 +31,21 @@ tags: [remote-work-tools, comparison, productivity]
 
 Choose **RescueTime** if you want passive, zero-friction tracking that reveals how you actually spend time across apps and websites without changing your habits. Choose **Toggl Track** if you need precise, project-level time tracking with CLI integration, billable-hour support, and full control over what gets logged. RescueTime runs silently in the background and categorizes everything automatically, making it ideal for discovering hidden time sinks. Toggl Track requires manual start/stop but gives you exact task-level data, a CLI for terminal workflows, and built-in invoicing features for client work.
 
+## Table of Contents
+
+- [The Core Difference](#the-core-difference)
+- [Automatic Tracking with RescueTime](#automatic-tracking-with-rescuetime)
+- [Manual Control with Toggl Track](#manual-control-with-toggl-track)
+- [Comparing Features Side by Side](#comparing-features-side-by-side)
+- [Which Should You Choose?](#which-should-you-choose)
+- [Combining Both Tools](#combining-both-tools)
+- [Getting Started](#getting-started)
+- [Detailed Pricing Comparison](#detailed-pricing-comparison)
+- [Advanced Integrations for Developers](#advanced-integrations-for-developers)
+- [Tracking Patterns for Different Developer Workflows](#tracking-patterns-for-different-developer-workflows)
+- [Building Your Personal Time Audit](#building-your-personal-time-audit)
+- [Choosing Based on Your Primary Goal](#choosing-based-on-your-primary-goal)
+
 ## The Core Difference
 
 RescueTime operates as a passive time tracker that automatically records how you spend time on your computer. It runs in the background, categorizes applications and websites, and provides detailed reports on your daily activity without requiring manual input.
@@ -432,10 +447,9 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
-- [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
 - [How to Track Deep Work Hours as a Developer: A Practical](/remote-work-tools/how-to-track-deep-work-hours-as-developer/)
-- [How to Track Project Dependencies in a Remote Team: A](/remote-work-tools/how-to-track-project-dependencies-remote-team/)
-- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
-
+- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
+- [How to Track Project Dependencies Remote Team](/remote-work-tools/how-to-track-project-dependencies-remote-team/)
+- [Shortcut vs Linear Issue Tracking Comparison](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

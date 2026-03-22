@@ -18,6 +18,16 @@ voice-checked: true
 
 Portugal launched its digital nomad visa in 2022, becoming one of the first European countries to formalize residency pathways for remote workers. The visa allows non-EU citizens to live in Portugal while working remotely for employers or clients outside the country. This guide walks through the application process with practical details for developers and power users who want to relocate.
 
+## Table of Contents
+
+- [Eligibility Requirements](#eligibility-requirements)
+- [Required Documents](#required-documents)
+- [Application Process](#application-process)
+- [Key Considerations for Developers](#key-considerations-for-developers)
+- [Timeline Estimate — Realistic Process Duration](#timeline-estimate-realistic-process-duration)
+- [Common Pitfalls to Avoid (And How to Prevent Them)](#common-pitfalls-to-avoid-and-how-to-prevent-them)
+- [Moving Forward — Your Action Checklist](#moving-forward-your-action-checklist)
+
 ## Eligibility Requirements
 
 The Portugal digital nomad visa targets remote workers who meet specific criteria. You need to prove you have stable monthly income above Portugal's minimum wage threshold. The current requirement is at least four times the Portuguese minimum wage, approximately €3,700 per month as of 2026. This can come from employment contracts, freelance income, or business revenue.

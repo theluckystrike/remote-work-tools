@@ -33,6 +33,14 @@ tags: [remote-work-tools, remote-work]
 
 Distributed law firms face unique challenges when it comes to legal research. Team members work across different time zones, need secure access to sensitive documents, and require AI-powered tools that can search massive case law databases in seconds rather than hours. This guide compares the leading remote legal research platforms from a developer's perspective, focusing on API capabilities, integration patterns, and implementation considerations for building legal research workflows.
 
+## Table of Contents
+
+- [Core Requirements for Distributed Legal Research](#core-requirements-for-distributed-legal-research)
+- [Platform Comparison](#platform-comparison)
+- [Head-to-Head Feature Comparison](#head-to-head-feature-comparison)
+- [Implementation Patterns for Distributed Teams](#implementation-patterns-for-distributed-teams)
+- [Emerging Considerations for 2026](#emerging-considerations-for-2026)
+
 ## Core Requirements for Distributed Legal Research
 
 Before examining specific tools, establish your baseline requirements. Distributed law firms need:

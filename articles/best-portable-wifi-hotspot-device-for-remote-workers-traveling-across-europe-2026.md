@@ -18,6 +18,20 @@ intent-checked: true
 
 Working remotely from European cafes, coworking spaces, and countryside villages requires reliable internet. Relying solely on hotel WiFi or public networks introduces security risks and inconsistency. A personal portable WiFi hotspot gives you control over your connection, predictable performance, and the ability to connect multiple devices simultaneously.
 
+## Table of Contents
+
+- [Understanding European Carrier Field](#understanding-european-carrier-field)
+- [Key Technical Specifications to Evaluate](#key-technical-specifications-to-evaluate)
+- [Mobile Router Options for Power Users](#mobile-router-options-for-power-users)
+- [Setting Up Reliable Connectivity](#setting-up-reliable-connectivity)
+- [Practical Considerations for European Travel](#practical-considerations-for-european-travel)
+- [Device Comparison: Complete Decision Matrix](#device-comparison-complete-decision-matrix)
+- [Carrier Selection Strategy for Europe](#carrier-selection-strategy-for-europe)
+- [Connectivity Troubleshooting Framework](#connectivity-troubleshooting-framework)
+- [Real-World Usage Patterns](#real-world-usage-patterns)
+- [Testing Your Setup Before Relying on It](#testing-your-setup-before-relying-on-it)
+- [Building Your Connectivity Stack](#building-your-connectivity-stack)
+
 This guide evaluates portable WiFi solutions from a developer's perspective, focusing on technical specifications, carrier compatibility, and practical deployment strategies for working across European borders.
 
 ## Understanding European Carrier Field

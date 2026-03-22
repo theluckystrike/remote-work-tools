@@ -17,6 +17,23 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Remote design agencies face a unique challenge: moving massive creative assets across distributed teams without bottlenecks. When your team spans multiple time zones and your files routinely exceed gigabytes, traditional cloud storage often falls short. This guide evaluates solutions that actually work for agencies handling large design files, with technical implementation details for developers integrating these tools into existing workflows.
 
+## Table of Contents
+
+- [The Core Problem: Latency and Version Control](#the-core-problem-latency-and-version-control)
+- [Dropbox: Selective Sync at Scale](#dropbox-selective-sync-at-scale)
+- [Google Drive: Native Integration, Moderate Limits](#google-drive-native-integration-moderate-limits)
+- [Box: Enterprise-Grade Security](#box-enterprise-grade-security)
+- [Rclone: The Developer-First Approach](#rclone-the-developer-first-approach)
+- [Which Solution Fits Your Agency?](#which-solution-fits-your-agency)
+- [SFTP-Based File Sharing for Maximum Control](#sftp-based-file-sharing-for-maximum-control)
+- [Handling Oversized Files (10GB+)](#handling-oversized-files-10gb)
+- [Version Control for Design Files](#version-control-for-design-files)
+- [Multi-Cloud Redundancy Strategy](#multi-cloud-redundancy-strategy)
+- [Bandwidth Optimization for Global Teams](#bandwidth-optimization-for-global-teams)
+- [Security: Permission Granularity](#security-permission-granularity)
+- [Measuring File Sharing Efficiency](#measuring-file-sharing-efficiency)
+- [Transition Strategy: Migrating Between Providers](#transition-strategy-migrating-between-providers)
+
 ## The Core Problem: Latency and Version Control
 
 Design files differ fundamentally from code. A Figma export might be 500MB; a video render could hit 10GB. Standard cloud drives attempt to sync these files globally, often resulting in team members working with stale versions or burning bandwidth on constant re-uploads. The best solutions for remote agencies address three concerns: selective sync for bandwidth management, version history, and direct integration with creative tools.

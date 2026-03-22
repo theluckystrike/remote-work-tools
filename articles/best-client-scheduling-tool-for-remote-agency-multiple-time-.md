@@ -16,6 +16,22 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Use Calendly for simple client scheduling with timezone conversion, build a custom solution with open-source tools if you need API-driven automation, or combine Outlook with third-party plugins for enterprise workflows. This guide covers solutions for coordinating meetings across multiple time zones without manual math errors or calendar conflicts.
 
+## Table of Contents
+
+- [The Technical Challenge of Cross-Time Zone Scheduling](#the-technical-challenge-of-cross-time-zone-scheduling)
+- [Building a Custom Scheduling Solution](#building-a-custom-scheduling-solution)
+- [Key Features Power Users Should Evaluate](#key-features-power-users-should-evaluate)
+- [Comparison of Scheduling Approaches](#comparison-of-scheduling-approaches)
+- [Integrating Scheduling with Your Development Workflow](#integrating-scheduling-with-your-development-workflow)
+- [Practical Recommendations](#practical-recommendations)
+- [Advanced Scheduling Automation for Agencies](#advanced-scheduling-automation-for-agencies)
+- [Calendar Integration Patterns](#calendar-integration-patterns)
+- [Analyzing Meeting Effectiveness Across Time Zones](#analyzing-meeting-effectiveness-across-time-zones)
+- [Policy Documentation for Global Scheduling](#policy-documentation-for-global-scheduling)
+- [Time Zone Fairness Principles](#time-zone-fairness-principles)
+- [Core Hours Definition](#core-hours-definition)
+- [Meeting Logistics](#meeting-logistics)
+
 ## The Technical Challenge of Cross-Time Zone Scheduling
 
 Remote agencies face compounding complexity when scheduling across time zones. Consider a scenario: your development team in Berlin (CET) collaborates with a design team in San Francisco (PST) and clients in Sydney (AEST). A simple 30-minute call requires calculating three different time zones—and that's before accounting for daylight saving time transitions.

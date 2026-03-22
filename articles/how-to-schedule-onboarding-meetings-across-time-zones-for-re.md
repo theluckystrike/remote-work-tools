@@ -18,6 +18,21 @@ tags: [remote-work-tools]
 
 Scheduling onboarding meetings across time zones presents unique challenges for remote teams. When your new hires span San Francisco, London, and Tokyo, finding meeting times that work for everyone requires strategy and the right tools. This guide provides practical approaches for developers and technical users who need to coordinate onboarding sessions across global distributions.
 
+## Table of Contents
+
+- [Understanding the Time Zone Problem](#understanding-the-time-zone-problem)
+- [Finding Optimal Meeting Times](#finding-optimal-meeting-times)
+- [Tools That Handle Time Zone Complexity](#tools-that-handle-time-zone-complexity)
+- [Structuring Onboarding Meetings by Time Zone Constraints](#structuring-onboarding-meetings-by-time-zone-constraints)
+- [Practical Onboarding Meeting Schedule Example](#practical-onboarding-meeting-schedule-example)
+- [Handling Emergency Onboardings](#handling-emergency-onboardings)
+- [Tools That Work Well](#tools-that-work-well)
+- [Common Scheduling Mistakes](#common-scheduling-mistakes)
+- [Async Onboarding Materials (Complement to Meetings)](#async-onboarding-materials-complement-to-meetings)
+- [Onboarding Timeline Template](#onboarding-timeline-template)
+- [Success Metrics for Distributed Onboarding](#success-metrics-for-distributed-onboarding)
+- [Scaling Onboarding for Growth](#scaling-onboarding-for-growth)
+
 ## Understanding the Time Zone Problem
 
 Remote engineering teams often span three or more time zones, making synchronous meetings difficult to schedule. A meeting time that works for your San Francisco office at 9 AM PST translates to 5 PM in London and midnight in Tokyo. For onboarding, this creates friction: new team members need face-time with mentors and teammates, but forcing everyone into inconvenient hours damages morale and engagement.

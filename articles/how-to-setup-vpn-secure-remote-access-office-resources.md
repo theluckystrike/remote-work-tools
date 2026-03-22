@@ -17,6 +17,18 @@ intent-checked: true
 
 VPN security should be transparent—remote workers shouldn't notice it's running. Yet setting up a reliable corporate VPN frustrates IT teams because of configuration complexity, split-brain DNS issues, and client compatibility across Windows, Mac, and Linux. This guide provides production-ready VPN setups for teams of 5-500 people, with specific configuration fixes for common failure modes.
 
+## Table of Contents
+
+- [VPN Architecture: What You Actually Need](#vpn-architecture-what-you-actually-need)
+- [VPN Protocol Comparison](#vpn-protocol-comparison)
+- [Hardware Requirements](#hardware-requirements)
+- [Step-by-Step: WireGuard VPN Setup](#step-by-step-wireguard-vpn-setup)
+- [Client Setup (macOS Example)](#client-setup-macos-example)
+- [Common VPN Issues and Fixes](#common-vpn-issues-and-fixes)
+- [Monitoring and Troubleshooting](#monitoring-and-troubleshooting)
+- [Alternative: Tailscale (Faster Setup)](#alternative-tailscale-faster-setup)
+- [Cost Comparison](#cost-comparison)
+
 ## VPN Architecture: What You Actually Need
 
 A corporate VPN needs:

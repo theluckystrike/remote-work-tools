@@ -17,6 +17,23 @@ tags: [remote-work-tools, best-of]
 
 Split keyboards with tented setups have become increasingly popular among developers who spend long hours coding. The ergonomic benefits of separating the keyboard halves and tilting them inward are well-documented—reduced shoulder pronation, improved wrist alignment, and more natural arm positioning. However, finding the right wrist rest for a tented split keyboard setup presents unique challenges that standard wrist rests cannot address.
 
+## Table of Contents
+
+- [Why Standard Wrist Rests Fail with Tented Split Keyboards](#why-standard-wrist-rests-fail-with-tented-split-keyboards)
+- [Key Criteria for Split Keyboard Wrist Rests](#key-criteria-for-split-keyboard-wrist-rests)
+- [Recommended Wrist Rest Options with Pricing](#recommended-wrist-rest-options-with-pricing)
+- [DIY Solutions for Tented Setups](#diy-solutions-for-tented-setups)
+- [Positioning Guidelines](#positioning-guidelines)
+- [Height and Angle Verification](#height-and-angle-verification)
+- [Integration with Split Keyboard Workflow](#integration-with-split-keyboard-workflow)
+- [Ergonomics Foundation: Why Wrist Rests Matter for Split Keyboards](#ergonomics-foundation-why-wrist-rests-matter-for-split-keyboards)
+- [Material Deep-Dive: Pros and Cons](#material-deep-dive-pros-and-cons)
+- [Fine-Tuning Your Tented Setup](#fine-tuning-your-tented-setup)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Integrating Wrist Rests with Ergonomic Accessories](#integrating-wrist-rests-with-ergonomic-accessories)
+- [The Whole-Body Ergonomic Setup](#the-whole-body-ergonomic-setup)
+- [Long-Term Maintenance](#long-term-maintenance)
+
 ## Why Standard Wrist Rests Fail with Tented Split Keyboards
 
 When you tilt a split keyboard to a 30-45 degree angle, the keyboard surface rises significantly on the内侧 (inner) side. A traditional flat wrist rest either sits too low to provide support at this angle or forces your wrist into an unnatural flexion. The geometry simply does not work.
@@ -295,11 +312,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best VPN for Remote Development Teams with Split Tunneling](/remote-work-tools/best-vpn-for-remote-development-teams-with-split-tunneling-2/)
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
 - [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
-- [Best Mouse Pad for Wrist Support During Long Coding Sessions](/remote-work-tools/best-mouse-pad-for-wrist-support-during-long-coding-sessions/)
+- [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
 - [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
 - [Wrist Exercises for Programmers](/remote-work-tools/wrist-exercises-for-programmers-prevent-rsi/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

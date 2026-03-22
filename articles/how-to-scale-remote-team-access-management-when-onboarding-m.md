@@ -19,6 +19,19 @@ tags: [remote-work-tools, remote-work]
 
 Scaling access management becomes critical when your remote team grows from a handful of employees to dozens or hundreds. Each new hire needs access to dozens of tools—project management software, code repositories, communication platforms, cloud infrastructure, and internal documentation. Manual provisioning creates bottlenecks, while inconsistent access controls introduce security vulnerabilities. This guide provides practical strategies for automating and scaling your access management workflow when onboarding many employees across tools.
 
+## Table of Contents
+
+- [Understanding the Access Management Challenge](#understanding-the-access-management-challenge)
+- [Building a Tool Inventory and Access Matrix](#building-a-tool-inventory-and-access-matrix)
+- [Implementing Directory Sync and SCIM](#implementing-directory-sync-and-scim)
+- [Automating with Identity Providers](#automating-with-identity-providers)
+- [Using Group-Based Access Control](#using-group-based-access-control)
+- [Secret Management for Shared Credentials](#secret-management-for-shared-credentials)
+- [Automating Cloud Infrastructure Access](#automating-cloud-infrastructure-access)
+- [Offboarding Automation](#offboarding-automation)
+- [Measuring and Optimizing Your Process](#measuring-and-optimizing-your-process)
+- [Building Your Scalable Access Management System](#building-your-scalable-access-management-system)
+
 ## Understanding the Access Management Challenge
 
 Remote teams onboarding multiple employees face a compounding problem. A single new hire might need accounts across 15-20 different tools. When you're bringing on 10 employees in a single month, that's potentially 200 individual account provisioning tasks. Each tool has its own user management interface, permission model, and integration points. Without automation, your operations team becomes a bottleneck, and delays in access provisioning directly impact new hire productivity.

@@ -17,6 +17,21 @@ tags: [remote-work-tools, best-of]
 
 Position your monitor center 3-6 inches lower than standard ergonomic guidelines so your natural gaze passes through the intermediate zone of your bifocal lenses rather than the distance portion. Measure your seated eye height, calculate the vertical offset based on your bifocal segment placement, and adjust your monitor stand or arm to that target. This eliminates the constant head tilting and chin lifting that causes neck strain, headaches, and reduced productivity during long coding sessions.
 
+## Table of Contents
+
+- [Understanding Bifocal Lens Zones](#understanding-bifocal-lens-zones)
+- [Calculating Your Optimal Monitor Height](#calculating-your-optimal-monitor-height)
+- [Practical Setup Examples](#practical-setup-examples)
+- [Ergonomic Chair and Desk Considerations](#ergonomic-chair-and-desk-considerations)
+- [Verification and Fine-Tuning](#verification-and-fine-tuning)
+- [Monitor Stand Options for Bifocal Wearers](#monitor-stand-options-for-bifocal-wearers)
+- [Height Adjustment vs. Head Posture Corrections](#height-adjustment-vs-head-posture-corrections)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Testing Your Setup](#testing-your-setup)
+- [Bifocals vs. Progressive Lenses for Coding](#bifocals-vs-progressive-lenses-for-coding)
+- [When to Get Your Eyes Tested](#when-to-get-your-eyes-tested)
+- [Final Recommendations](#final-recommendations)
+
 ## Understanding Bifocal Lens Zones
 
 Bifocal glasses contain two distinct optical zones separated by a visible line. The larger upper portion corrects distance vision, while the smaller lower segment handles near vision. Progressive lenses offer a more gradual transition between zones, but traditional bifocals present a sharp boundary that demands precise head positioning.

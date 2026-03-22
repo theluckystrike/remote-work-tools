@@ -15,6 +15,13 @@ voice-checked: true
 
 Text-based async communication works well for structured updates, but it breaks down in specific situations: nuanced feedback on someone's work, sensitive performance conversations, technical explanations that require tone to land correctly, and quick answers to questions where typing would take five times as long as speaking.
 
+## Table of Contents
+
+- [Why Async Voice Messaging Works for Remote Teams](#why-async-voice-messaging-works-for-remote-teams)
+- [The Tools](#the-tools)
+- [Integrating Async Voice into Your Existing Stack](#integrating-async-voice-into-your-existing-stack)
+- [Decision Guide](#decision-guide)
+
 Remote teams increasingly reach for async voice messages as a middle layer between synchronous meetings and written Slack threads. Voice messages let team members communicate with the warmth and nuance of spoken language while respecting the asynchronous nature of distributed work. No one has to be online at the same time. No one has to block their calendar for a call.
 
 This guide covers the best async voice messaging tools available in 2026, who each fits best, and how to integrate them into a remote team's existing communication stack.
@@ -139,9 +146,8 @@ Switching costs are real: learning curves, workflow disruption, and team adoptio
 ## Related Articles
 
 - [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
-- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
-- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
-
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Best Async Video Messaging Tools for Remote Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-remote-teams-2026/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

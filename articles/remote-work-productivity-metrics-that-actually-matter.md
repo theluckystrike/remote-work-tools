@@ -18,6 +18,16 @@ intent-checked: true
 
 Remote work kills productivity metrics that worked in offices. Hours at desk, meetings attended, and presence (being seen working) become meaningless when your team spans timezones and works async. Traditional activity monitoring (keystroke tracking, screenshot capture) causes burnout and actually reduces output.
 
+## Table of Contents
+
+- [The Metrics That Don't Work (But Everyone Still Uses)](#the-metrics-that-dont-work-but-everyone-still-uses)
+- [Metrics That Actually Work](#metrics-that-actually-work)
+- [Tools for Remote Productivity Metrics](#tools-for-remote-productivity-metrics)
+- [Building a Metrics Dashboard](#building-a-metrics-dashboard)
+- [Rules for Using Metrics Well](#rules-for-using-metrics-well)
+- [What Not to Measure](#what-not-to-measure)
+- [Implementation Roadmap](#implementation-roadmap)
+
 Real remote productivity metrics measure outcomes, not activity. Better metrics reveal team health, collaboration quality, and whether work is accelerating or stalling. This guide covers which metrics matter, how to measure them, and which tools do it well.
 
 ## The Metrics That Don't Work (But Everyone Still Uses)
@@ -382,11 +392,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Bonding Activities That Actually Work](/remote-work-tools/remote-team-bonding-activities-that-actually-work/)
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
+- [Remote Team Metrics Collection Strategy for Measuring](/remote-work-tools/remote-team-metrics-collection-strategy-for-measuring-deploy/)
+- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [How to Measure Remote Team Productivity Without Surveillance](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
 - [Hybrid Work Productivity Comparison Study](/remote-work-tools/hybrid-work-productivity-comparison-study-remote-vs-office-vs-hybrid-days-2026/)
-- [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
-- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
-- [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

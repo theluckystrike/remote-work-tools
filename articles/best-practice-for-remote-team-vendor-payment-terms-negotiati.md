@@ -18,6 +18,24 @@ intent-checked: true
 
 Negotiate international vendor payment terms by specifying a single invoicing currency (usually USD or EUR), agreeing on who absorbs exchange rate fluctuations, setting NET-30 or NET-45 payment windows with early payment discounts, and including tax withholding clauses that account for cross-border obligations. Use platforms like Wise Business or Payoneer for lower transfer fees, and structure contracts with clear payment milestones tied to deliverables rather than time-based billing to reduce disputes across jurisdictions.
 
+## Table of Contents
+
+- [Understanding the International Vendor Payment ecosystem](#understanding-the-international-vendor-payment-ecosystem)
+- [Currency and Exchange Rate Strategies](#currency-and-exchange-rate-strategies)
+- [Payment Term Structures](#payment-term-structures)
+- [Payment Schedule](#payment-schedule)
+- [Tax Compliance Requirements](#tax-compliance-requirements)
+- [Payment Method Considerations](#payment-method-considerations)
+- [Contract Documentation Essentials](#contract-documentation-essentials)
+- [Practical Negotiation Approaches](#practical-negotiation-approaches)
+- [Real Negotiation Scenarios and Outcomes](#real-negotiation-scenarios-and-outcomes)
+- [Payment Method Comparison with Real Costs](#payment-method-comparison-with-real-costs)
+- [Currency Risk Management Framework](#currency-risk-management-framework)
+- [International Payment Best Practices Checklist](#international-payment-best-practices-checklist)
+- [Tax Documentation Examples](#tax-documentation-examples)
+- [Template: International Vendor Agreement](#template-international-vendor-agreement)
+- [INTERNATIONAL VENDOR SERVICES AGREEMENT](#international-vendor-services-agreement)
+
 ## Understanding the International Vendor Payment ecosystem
 
 When you pay a vendor in the same country, the transaction typically involves one currency, one banking system, and one set of tax regulations. Cross-border payments require navigating multiple currencies, intermediary banks, and compliance frameworks that vary by jurisdiction. The key to successful negotiation is understanding these variables before you begin discussions.

@@ -18,6 +18,16 @@ voice-checked: true
 
 Every deploy has a price tag. Compute hours, storage I/O, network transfers, managed service fees — they all add up, and in distributed teams where multiple engineers deploy independently, these costs can spiral unnoticed. Tracking infrastructure cost per deploy gives your team visibility into spending patterns, enables data-driven decisions about optimization, and creates accountability across your remote engineering organization.
 
+## Table of Contents
+
+- [Why Cost Per Deploy Tracking Matters for Remote Teams](#why-cost-per-deploy-tracking-matters-for-remote-teams)
+- [Key Metrics to Track](#key-metrics-to-track)
+- [Implementing Cost Tracking in Your Deploy Pipeline](#implementing-cost-tracking-in-your-deploy-pipeline)
+- [Choosing the Right Tooling](#choosing-the-right-tooling)
+- [Dashboard and Alerting](#dashboard-and-alerting)
+- [Cost Attribution for Multi-Region Deployments](#cost-attribution-for-multi-region-deployments)
+- [Best Practices for Distributed Teams](#best-practices-for-distributed-teams)
+
 This guide shows you how to implement cost-per-deploy tracking that works for distributed DevOps teams operating across time zones.
 
 ## Why Cost Per Deploy Tracking Matters for Remote Teams
@@ -235,10 +245,9 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 ## Related Articles
 
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
-- [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
-- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
-- [How to Track Project Dependencies in a Remote Team: A](/remote-work-tools/how-to-track-project-dependencies-remote-team/)
-- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
-
+- [AWS Cost Management for Remote Teams](/remote-work-tools/aws-cost-management-remote-teams-guide/)
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
+- [Best Chat Platforms for Remote Engineering Teams](/remote-work-tools/best-chat-platforms-remote-engineering-teams/)
+- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

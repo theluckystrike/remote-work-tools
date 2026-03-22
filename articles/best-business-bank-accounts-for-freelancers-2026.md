@@ -17,6 +17,21 @@ tags: [remote-work-tools, best-of]
 
 Choosing the right business bank account ranks among the most consequential financial decisions for freelance developers. Your business banking directly impacts how efficiently you get paid, track expenses, handle taxes, and scale your operations. Unlike traditional employees, freelancers must manage cash flow, client payments, and financial planning without the safety net of a steady paycheck.
 
+## Table of Contents
+
+- [What Freelance Developers Need from Business Banking](#what-freelance-developers-need-from-business-banking)
+- [Types of Business Bank Accounts for Freelancers](#types-of-business-bank-accounts-for-freelancers)
+- [Key Features Developers Should Evaluate](#key-features-developers-should-evaluate)
+- [Practical Recommendations by Use Case](#practical-recommendations-by-use-case)
+- [Automating Your Freelance Banking Workflow](#automating-your-freelance-banking-workflow)
+- [Making Your Decision](#making-your-decision)
+- [Detailed Feature Comparison of Top Banks](#detailed-feature-comparison-of-top-banks)
+- [Advanced Account Setup for Multi-Currency Freelancers](#advanced-account-setup-for-multi-currency-freelancers)
+- [Tax Planning Integration with Business Banking](#tax-planning-integration-with-business-banking)
+- [Setting Up Freelance-Specific Banking Workflows](#setting-up-freelance-specific-banking-workflows)
+- [January 2026 Financial Summary](#january-2026-financial-summary)
+- [Common Banking Mistakes Freelancers Make](#common-banking-mistakes-freelancers-make)
+
 This guide evaluates business bank accounts through a developer lens, focusing on automation potential, API integrations, fee structures, and workflow compatibility.
 
 ## What Freelance Developers Need from Business Banking

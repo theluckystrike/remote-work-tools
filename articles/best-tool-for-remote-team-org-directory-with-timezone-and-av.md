@@ -23,6 +23,16 @@ intent-checked: true
 | Spacetime | Slack-native timezone bot | Auto from Slack profile | Direct scheduling | $2/user/month |
 | Timeanddate.com | Meeting planner tool | IP-based detection | iCal export | Free |
 
+## Table of Contents
+
+- [Why Timezone-Aware Directories Matter](#why-timezone-aware-directories-matter)
+- [Building a Custom Org Directory with Notion](#building-a-custom-org-directory-with-notion)
+- [People API Solutions for Enterprise Teams](#people-api-solutions-for-enterprise-teams)
+- [Dedicated Directory Tools with Availability Features](#dedicated-directory-tools-with-availability-features)
+- [Building a Slack-Centric Availability System](#building-a-slack-centric-availability-system)
+- [Calculating Overlap Windows Programmatically](#calculating-overlap-windows-programmatically)
+- [Implementation Recommendations](#implementation-recommendations)
+
 
 Notion excels as the best remote team org directory tool, offering timezone tracking, availability status integration, and self-service updates without expensive enterprise tools. A timezone-aware directory transforms coordination across distributed teams—without it, you're constantly calculating whether it's 2 AM for your Tokyo teammate. This guide evaluates approaches and tools for building org directories that keep remote teams synchronized.
 

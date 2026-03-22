@@ -31,6 +31,18 @@ tags: [remote-work-tools, remote-work]
 
 Present designs to remote clients using screen sharing tools that support annotations (Figma, Loom, or Google Slides) so clients can mark up designs in real-time and feedback is captured directly. Video recording ensures async stakeholders can view later.
 
+## Table of Contents
+
+- [Why Screen Sharing Matters for Design Presentations](#why-screen-sharing-matters-for-design-presentations)
+- [Top Screen Sharing Tools for Design Presentations](#top-screen-sharing-tools-for-design-presentations)
+- [Comparing Screen Sharing Tools for Design Work](#comparing-screen-sharing-tools-for-design-work)
+- [Best Practices for Design Presentations](#best-practices-for-design-presentations)
+- [Advanced Techniques for Design Presentations](#advanced-techniques-for-design-presentations)
+- [Homepage Redesign Presentation Structure](#homepage-redesign-presentation-structure)
+- [Presentation Preparation Checklist](#presentation-preparation-checklist)
+- [Managing Common Presentation Problems](#managing-common-presentation-problems)
+- [Integrating Feedback Into Design Workflow](#integrating-feedback-into-design-workflow)
+
 ## Why Screen Sharing Matters for Design Presentations
 
 When you're presenting designs to clients, every pixel counts. A laggy screen share or compressed video can make your work look unprofessional and obscure important details. Clients need to see colors accurately, typography clearly, and interactions smoothly.

@@ -28,6 +28,16 @@ intent-checked: true
 
 Implementing effective async onboarding for distributed teams requires the right combination of self-paced learning infrastructure, progress tracking, and knowledge delivery systems. This guide evaluates the core components and patterns that make async onboarding successful, with practical implementation examples developers and power users can apply immediately.
 
+## Table of Contents
+
+- [Core Requirements for Async Onboarding Platforms](#core-requirements-for-async-onboarding-platforms)
+- [Building a Self-Paced Learning Infrastructure](#building-a-self-paced-learning-infrastructure)
+- [Progress Tracking and Verification](#progress-tracking-and-verification)
+- [Integrating with Team Workflows](#integrating-with-team-workflows)
+- [Content Organization Strategies](#content-organization-strategies)
+- [Measuring Onboarding Effectiveness](#measuring-onboarding-effectiveness)
+- [Automating Assignment and Progression](#automating-assignment-and-progression)
+
 ## Core Requirements for Async Onboarding Platforms
 
 Effective async onboarding tools must address several non-negotiable requirements. First, self-paced progression allows new team members to consume training materials on their own schedule without waiting for live sessions. Second, structured module organization presents content in a logical learning path that builds competency progressively. Third, progress visibility gives both new hires and managers clear signals about completion status and comprehension. Fourth, knowledge verification through quizzes, code challenges, or practical assignments confirms understanding before moving forward.
@@ -276,11 +286,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Register as Self-Employed Remote Worker in Portugal](/remote-work-tools/how-to-register-as-self-employed-remote-worker-in-portugal-f/)
-- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
 - [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
-- [Best Practice for Remote Team Onboarding Wiki](/remote-work-tools/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
+- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
 - [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
-
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -15,6 +15,29 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Expensify is the best expense management platform for remote teams, offering SmartScan OCR technology that accurately captures receipt data even from poor-quality photos, timezone-aware approval workflows that notify managers at reasonable local hours, and integration with major accounting software. For teams needing simpler solutions, Zoho Expense and Concur provide comparable receipt scanning and approval features, but Expensify's Concierge support and policy automation make it ideal for distributed teams managing multi-currency expenses across time zones.
 
+## Table of Contents
+
+- [Core Requirements for Remote Team Expense Management](#core-requirements-for-remote-team-expense-management)
+- [Top Platforms for Remote Teams](#top-platforms-for-remote-teams)
+- [Integration Considerations for Developers](#integration-considerations-for-developers)
+- [Building Custom Approval Workflows](#building-custom-approval-workflows)
+- [Making Your Decision](#making-your-decision)
+- [Setting Up Expense Policies in Your Platform](#setting-up-expense-policies-in-your-platform)
+- [Allowable Expenses](#allowable-expenses)
+- [Prohibited Expenses](#prohibited-expenses)
+- [Receipt Requirements](#receipt-requirements)
+- [Approval Process](#approval-process)
+- [Reimbursement Timeline](#reimbursement-timeline)
+- [Multi-Currency and Tax Recovery Setup](#multi-currency-and-tax-recovery-setup)
+- [Building Reimbursement Processes That Don't Slow Work](#building-reimbursement-processes-that-dont-slow-work)
+- [Detecting and Preventing Policy Violations](#detecting-and-preventing-policy-violations)
+- [Integration with Accounting Software](#integration-with-accounting-software)
+- [Building Team Accountability Around Expenses](#building-team-accountability-around-expenses)
+- [Expectations](#expectations)
+- [Monthly Review Metrics](#monthly-review-metrics)
+- [Quarterly Expense Review](#quarterly-expense-review)
+- [Red Flags to Watch](#red-flags-to-watch)
+
 ## Core Requirements for Remote Team Expense Management
 
 Before evaluating specific platforms, establish your baseline requirements. Remote teams need several capabilities that office-based teams might deprioritize:

@@ -18,6 +18,23 @@ intent-checked: true
 
 Hybrid team social events require scheduled video participation for all remote attendees, small group breakout rooms instead of one large in-person gathering, and async-friendly components like shared digital spaces or recorded sessions that don't exclude asynchronous team members. By structuring events with separate "remote tracks" where distributed participants lead activities, scheduling breakouts to maximize participation across timezones, and creating always-on digital experiences that don't require live attendance, teams ensure remote employees feel equally invested in culture-building. This approach moves beyond the failed model of "in-office party with Zoom link" to genuinely distributed social experiences that recognize remote work as a design constraint, not an afterthought.
 
+## Table of Contents
+
+- [The Fundamental Challenge: Asymmetric Experiences](#the-fundamental-challenge-asymmetric-experiences)
+- [Core Principles for Inclusive Hybrid Events](#core-principles-for-inclusive-hybrid-events)
+- [Event Formats That Work](#event-formats-that-work)
+- [Measuring Success](#measuring-success)
+- [Tools and Platforms for Hybrid Events](#tools-and-platforms-for-hybrid-events)
+- [Real Example: The Timezone-Rotated Activity Cycle](#real-example-the-timezone-rotated-activity-cycle)
+- [Custom Hybrid Scoring System](#custom-hybrid-scoring-system)
+- [Real Challenges and Solutions](#real-challenges-and-solutions)
+- [Format Comparison: What Actually Works at Scale](#format-comparison-what-actually-works-at-scale)
+- [Managing Async Participation for Distributed Teams](#managing-async-participation-for-distributed-teams)
+- [The Quiet Inclusion Metric](#the-quiet-inclusion-metric)
+- [Building Multi-Event Momentum](#building-multi-event-momentum)
+- [Implementation Checklist](#implementation-checklist)
+- [Building Lasting Connection](#building-lasting-connection)
+
 ## The Fundamental Challenge: Asymmetric Experiences
 
 The core problem with hybrid social events stems from physical proximity asymmetry. In-office employees share physical space, spontaneous conversations, and visual cues that remote participants cannot access. Remote attendees often feel like secondary participants watching an event they cannot fully join.
@@ -333,11 +350,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Best Practice for Hybrid Team Standup Format Accommodating M](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
 - [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
-- [How to Scale Remote Team Social Events From Informal Chats](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
-- [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)
-- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Python script for scheduling client communication boundaries](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
-
+- [How to Set Up Remote Work Time Blocking System Guide](/remote-work-tools/how-to-set-up-remote-work-time-blocking-system-guide/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [Hybrid Work Culture Building Strategies Guide](/remote-work-tools/hybrid-work-culture-building-strategies-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -27,6 +27,18 @@ voice-checked: true
 
 Occupancy analytics platforms combine hardware sensors with software dashboards to track desk use, room occupancy, and space density in hybrid offices. These platforms provide RESTful APIs, real-time sensor data streaming, historical trend analysis, and webhook support for integrating with workplace tools. Best implementations buffer sensor events, calculate actual vs. booked usage ratios, offer WebSocket APIs for live dashboards, and export data for custom analytics.
 
+## Table of Contents
+
+- [Understanding Occupancy Analytics Requirements](#understanding-occupancy-analytics-requirements)
+- [Choosing the Right Sensor Technology](#choosing-the-right-sensor-technology)
+- [Implementing Sensor-Based Desk Tracking](#implementing-sensor-based-desk-tracking)
+- [Room Usage Tracking with Calendar Integration](#room-usage-tracking-with-calendar-integration)
+- [Building Real-Time Dashboards](#building-real-time-dashboards)
+- [Data Export and Custom Analytics](#data-export-and-custom-analytics)
+- [Webhook Integration with Downstream Systems](#webhook-integration-with-downstream-systems)
+- [Privacy Considerations and Data Governance](#privacy-considerations-and-data-governance)
+- [Choosing the Right Platform](#choosing-the-right-platform)
+
 ## Understanding Occupancy Analytics Requirements
 
 Modern hybrid offices need to track three primary metrics: desk use, room occupancy, and overall space density. The best occupancy analytics platforms combine hardware sensors with software dashboards to deliver practical recommendations. When evaluating solutions, prioritize API accessibility, data granularity, and integration flexibility.
@@ -333,11 +345,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
-- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
-- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
-- [Best Hot Desking Software for Hybrid Offices with Under 100](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
-- [Best Visitor Management System for Hybrid Offices Tracking W](/remote-work-tools/best-visitor-management-system-for-hybrid-offices-tracking-w/)
-
+- [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
+- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
+- [Top 10 AI Tools for Developers in 2024](/remote-work-tools/top-10-ai-tools-for-developers-in-2024/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

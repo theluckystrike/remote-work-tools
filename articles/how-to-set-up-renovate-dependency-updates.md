@@ -17,6 +17,18 @@ tags: [remote-work-tools]
 
 Outdated dependencies are a security liability and a technical debt accumulation point. Renovate automates dependency updates by opening PRs, grouping related updates, and auto-merging safe patches — so remote teams get current without drowning in manual update work.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Dependency Dashboard and Visibility](#dependency-dashboard-and-visibility)
+- [Stabilization Period and Release Age](#stabilization-period-and-release-age)
+- [Ignoring and Pinning Specific Packages](#ignoring-and-pinning-specific-packages)
+- [Debugging and Testing Renovate Config](#debugging-and-testing-renovate-config)
+- [Renovate with GitLab CI](#renovate-with-gitlab-ci)
+- [Using Presets for Cross-Repo Consistency](#using-presets-for-cross-repo-consistency)
+- [Measuring Renovate's Impact](#measuring-renovates-impact)
+- [Related Reading](#related-reading)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

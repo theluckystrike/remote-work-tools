@@ -18,6 +18,13 @@ intent-checked: true
 
 Remote one-on-one meetings feel different. The manager and engineer sit in separate rooms, separated by a screen, with zero incidental hallway conversations to fill in context. A two-week gap between 1:1s means you've forgotten the status from last time. Without deliberate structure, remote 1:1s become status update calls where your engineer recites completed tickets instead of surfacing blockers, growth opportunities, or career concerns. Engineering managers need frameworks for async preparation, conversation templates that work over video, and systematic approaches to career development that don't depend on accidentally running into people at the coffee machine. This guide walks through everything from pre-1:1 async prep to feedback delivery to career planning conversations.
 
+## Table of Contents
+
+- [Why Remote 1:1s Require Different Tactics](#why-remote-11s-require-different-tactics)
+- [Prerequisites](#prerequisites)
+- [Performance Observations (this week)](#performance-observations-this-week)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Remote 1:1s Require Different Tactics
 
 In-office management has built-in context. You overhear problems, notice someone's stressed, see who's collaborating. Remote work removes these signals. You only get explicit communication. This means:

@@ -28,6 +28,14 @@ voice-checked: true
 
 Distributed teams spanning multiple time zones need async feedback tools that work independent of real-time coordination. Platforms like Lattice, 15Five, and Culture Amp offer structured templates, time zone awareness, and analytics to capture meaningful performance data. This guide compares the best tools and provides implementation strategies for teams that need quarterly reviews without synchronous meetings.
 
+## Table of Contents
+
+- [Why Async Feedback Collection Matters for Distributed Teams](#why-async-feedback-collection-matters-for-distributed-teams)
+- [Core Features to Evaluate](#core-features-to-evaluate)
+- [Tool Comparison for Distributed Teams](#tool-comparison-for-distributed-teams)
+- [Implementation Best Practices](#implementation-best-practices)
+- [Making Your Selection](#making-your-selection)
+
 ## Why Async Feedback Collection Matters for Distributed Teams
 
 Traditional performance review processes assume everyone operates in the same time zone or can easily convene for meetings. Distributed teams break this assumption. When your engineering team spans San Francisco, Berlin, and Tokyo, scheduling a synchronous feedback session becomes a logistical nightmare.
@@ -330,11 +338,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Client Feedback Collection Tool for Remote Development](/remote-work-tools/client-feedback-collection-tool-for-remote-development-agenc/)
-- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
-- [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
 - [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
-
+- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
+- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

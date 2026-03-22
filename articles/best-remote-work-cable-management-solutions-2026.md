@@ -18,6 +18,19 @@ intent-checked: true
 
 Cable clutter destroys desk aesthetics and makes troubleshooting connections a nightmare. Between monitors, charging cables, external drives, and network lines, a typical home office has 12-18 cables running everywhere. Real solutions exist—cable trays, raceways, and grommets—but they're not all equal. This guide compares the practical options with pricing and installation difficulty.
 
+## Table of Contents
+
+- [The Problem with Cable Clutter](#the-problem-with-cable-clutter)
+- [Cable Tray Systems](#cable-tray-systems)
+- [Raceways (Cable Concealment Tubes)](#raceways-cable-concealment-tubes)
+- [Desk Grommets (Desktop Pass-Through)](#desk-grommets-desktop-pass-through)
+- [Comparison Table](#comparison-table)
+- [Real-World Installation Guide](#real-world-installation-guide)
+- [Cost-Benefit Breakdown](#cost-benefit-breakdown)
+- [Cable Management Pro Tips](#cable-management-pro-tips)
+- [Recommendation by Setup Type](#recommendation-by-setup-type)
+- [Verdict](#verdict)
+
 ## The Problem with Cable Clutter
 
 Messy cables:

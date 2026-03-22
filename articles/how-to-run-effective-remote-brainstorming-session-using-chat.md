@@ -180,6 +180,17 @@ Reserve video for when you need real-time prototyping, heated discussions requir
 
 Chat-based brainstorming transforms how remote teams generate ideas. By embracing text-first collaboration, you build a more inclusive, documented, and ultimately more creative process. The best ideas don't always come from the loudest voices—they come from those given the time and space to think deeply.
 
+## Table of Contents
+
+- [Chat Brainstorming Tool Comparison](#chat-brainstorming-tool-comparison)
+- [Facilitator Toolkit](#facilitator-toolkit)
+- [Brainstorming Success Metrics](#brainstorming-success-metrics)
+- [Hybrid Approach: Async + Sync Brainstorming](#hybrid-approach-async-sync-brainstorming)
+- [Converting Ideas to Specifications](#converting-ideas-to-specifications)
+- [Idea: One-Click Settings Shortcut](#idea-one-click-settings-shortcut)
+- [Building a Brainstorm Archive](#building-a-brainstorm-archive)
+- [When NOT to Use Chat Brainstorming](#when-not-to-use-chat-brainstorming)
+
 ## Chat Brainstorming Tool Comparison
 
 Different chat platforms offer different brainstorming features:
@@ -354,11 +365,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Best Virtual Whiteboard for Remote Team Brainstorming](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
+- [Remote Team Retrospective Silent Brainstorming Technique](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)
 - [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
-- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
-- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
-- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
-- [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
-
+- [Remote Ideation Session Facilitation Guide](/remote-work-tools/remote-ideation-session-facilitation-guide/)
+- [Best Session Recording Tool for Remote Team Privileged](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,14 @@ voice-checked: true
 
 Remote client workshops require careful planning and the right digital tools to maintain engagement and collaboration. Miro Board provides a powerful platform for helping interactive virtual sessions that rival in-person meetings in effectiveness. This guide walks you through the process of setting up and running productive remote client workshops using Miro.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Technical Setup and Best Practices](#technical-setup-and-best-practices)
+- [Advanced Miro Features for Facilitators](#advanced-miro-features-for-facilitators)
+- [Advanced Workshop Designs for Specific Outcomes](#advanced-workshop-designs-for-specific-outcomes)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

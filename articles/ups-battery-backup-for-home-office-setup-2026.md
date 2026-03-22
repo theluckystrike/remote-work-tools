@@ -18,6 +18,14 @@ voice-checked: true
 
 Power outages disrupt more than just your workflow—they can corrupt unfinished code, destroy hours of design work, and interrupt critical deployments. For developers and power users who spend 8+ hours daily at a home office desk, an UPS battery backup isn't a luxury; it's infrastructure. This guide covers how to assess your power needs, select the right UPS for 2026, and integrate battery backup into your setup without overcomplicating things.
 
+## Table of Contents
+
+- [Calculating Your Power Requirements](#calculating-your-power-requirements)
+- [Prerequisites](#prerequisites)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Advanced Configurations](#advanced-configurations)
+- [Troubleshooting](#troubleshooting)
+
 ## Calculating Your Power Requirements
 
 Before purchasing an UPS, you need to understand what you're actually powering. Most home office setups fall into three tiers:

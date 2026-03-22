@@ -13,6 +13,7 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]
 ---
+<<<<<<< Updated upstream
 ---
 layout: default
 title: "Virtual Meeting Etiquette Best Practices: A Developer Guide"
@@ -28,6 +29,26 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]
 ---
+=======
+
+
+| Tool | Video Quality | Screen Sharing | Recording | Pricing |
+|---|---|---|---|---|
+| Zoom | Up to 4K | Desktop + app sharing | Cloud + local | $13.33/user/month |
+| Google Meet | Up to 1080p | Screen + tab sharing | Google Drive | Included with Workspace ($6+) |
+| Microsoft Teams | Up to 1080p | Desktop + PowerPoint Live | OneDrive/SharePoint | Included with M365 ($6+) |
+| Around | Floating window, auto-crop | Screen sharing | No recording | Free / $8.50/user/month |
+| Tuple | HD pair programming | Full screen control | Session recording | $30/user/month |
+
+## Table of Contents
+
+- [Pre-Meeting Preparation](#pre-meeting-preparation)
+- [During the Meeting: Core Etiquette Rules](#during-the-meeting-core-etiquette-rules)
+- [Automation for Meeting Efficiency](#automation-for-meeting-efficiency)
+- [Platform-Specific Tips](#platform-specific-tips)
+- [Post-Meeting Etiquette](#post-meeting-etiquette)
+
+>>>>>>> Stashed changes
 
 The three highest-impact virtual meeting practices are: test your audio and video before every call, mute when not speaking, and always review the agenda beforehand. These habits alone eliminate the most common meeting friction for remote developer teams. This guide goes deeper with platform-specific shortcuts, automation scripts for meeting prep, and etiquette guidelines for screen sharing, camera use, and post-meeting follow-up.
 
@@ -268,10 +289,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
 - [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
-- [Zoom CLI example for updating PMI settings](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
-- [Best Cafe Work Etiquette for Remote Workers](/remote-work-tools/best-cafe-work-etiquette-for-remote-workers/)
-- [Best Practices for Async Pull Request Reviews on](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
-
+- [Meeting Schedule Template for a 30 Person Remote Product Org](/remote-work-tools/meeting-schedule-template-for-a-30-person-remote-product-org/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

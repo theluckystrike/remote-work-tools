@@ -18,6 +18,24 @@ voice-checked: true
 
 Building genuine connection in distributed teams requires more than happy hours and virtual coffee chats. In 2026, organizations with remote employees need structured belonging programs that address the unique challenges of asynchronous collaboration, timezone isolation, and cultural fragmentation. This guide provides actionable program ideas with implementation patterns you can adapt for teams of any size.
 
+## Table of Contents
+
+- [The Belonging Gap in Remote Work](#the-belonging-gap-in-remote-work)
+- [Program 1: Buddy System with Structured Check-ins](#program-1-buddy-system-with-structured-check-ins)
+- [Program 2: Async Show-and-Tell Sessions](#program-2-async-show-and-tell-sessions)
+- [Program 3: Skills Exchange Program](#program-3-skills-exchange-program)
+- [Program 4: Inclusive Language and Pronoun Integration](#program-4-inclusive-language-and-pronoun-integration)
+- [Program 5: Remote Onsite Stipend with Guided Experiences](#program-5-remote-onsite-stipend-with-guided-experiences)
+- [Program 6: ERG Participation Recognition](#program-6-erg-participation-recognition)
+- [Measuring Belonging](#measuring-belonging)
+- [Implementation Priorities](#implementation-priorities)
+- [Budget Considerations and Resource Allocation](#budget-considerations-and-resource-allocation)
+- [Program Customization for Different Team Sizes](#program-customization-for-different-team-sizes)
+- [Technical Implementation: Tools and Automation](#technical-implementation-tools-and-automation)
+- [Metrics That Actually Matter](#metrics-that-actually-matter)
+- [Avoiding Common Program Failures](#avoiding-common-program-failures)
+- [Next Steps for Implementation](#next-steps-for-implementation)
+
 ## The Belonging Gap in Remote Work
 
 Remote employees frequently report lower levels of organizational belonging compared to their in-office counterparts. A 2025 survey found that 43% of remote workers felt disconnected from their company's culture, with the figure rising to 61% for employees across three or more time zones. The consequences are measurable: teams with high belonging scores show 56% lower turnover and 27% higher productivity.

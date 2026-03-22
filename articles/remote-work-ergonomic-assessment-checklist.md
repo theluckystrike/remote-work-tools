@@ -18,6 +18,16 @@ intent-checked: true
 
 Poor ergonomics in home offices causes musculoskeletal disorders that accumulate silently over months, resulting in chronic pain that derails productivity. Unlike office environments with HR oversight, remote workers often optimize for cost rather than health. This guide walks through a complete ergonomic assessment with specific measurements, product recommendations, and budget options.
 
+## Table of Contents
+
+- [The Core Ergonomic Problem](#the-core-ergonomic-problem)
+- [The Ergonomic Assessment (15 minutes)](#the-ergonomic-assessment-15-minutes)
+- [Complete Ergonomic Checklist](#complete-ergonomic-checklist)
+- [Common Ergonomic Mistakes and Fixes](#common-ergonomic-mistakes-and-fixes)
+- [Budget Ergonomic Setup](#budget-ergonomic-setup)
+- [When to See a Doctor](#when-to-see-a-doctor)
+- [Implementation Plan](#implementation-plan)
+
 ## The Core Ergonomic Problem
 
 Remote workers spend 40+ hours weekly at their desk but rarely adjust setup for proper posture. Common mistakes:

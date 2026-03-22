@@ -18,6 +18,13 @@ voice-checked: true
 
 Accurate project scoping separates successful freelance developers from those who constantly battle scope creep and unpaid overtime. When you master the art of defining what gets built, how long it takes, and what it will cost, you transform unpredictable engagements into sustainable income. This guide walks you through practical techniques for scoping freelance development work that works for developers and power users alike.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Overview](#overview)
+- [Problem Summary](#problem-summary)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

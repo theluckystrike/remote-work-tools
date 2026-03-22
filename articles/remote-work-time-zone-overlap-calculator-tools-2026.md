@@ -18,6 +18,16 @@ intent-checked: true---
 
 Distributed teams span continents. Scheduling a meeting across New York, London, Singapore, and Sydney requires finding overlapping work hours—a task that kills productivity if done manually. Time zone tools eliminate the guesswork by showing real-time overlaps, suggesting optimal meeting times, and integrating with your calendar and Slack. This guide compares specific tools, features, and workflows for remote team scheduling.
 
+## Table of Contents
+
+- [The Time Zone Problem](#the-time-zone-problem)
+- [Tool Comparison](#tool-comparison)
+- [Feature Comparison Matrix](#feature-comparison-matrix)
+- [Recommended Workflows by Team Size](#recommended-workflows-by-team-size)
+- [Decision Framework](#decision-framework)
+- [Implementation Checklist](#implementation-checklist)
+- [Real Example: 24/7 Team Coverage](#real-example-247-team-coverage)
+
 ## The Time Zone Problem
 
 Without tools, you calculate: NYC is EST (UTC-5), London is GMT (UTC+0), Singapore is SGT (UTC+8), Sydney is AEDT (UTC+11). A 9am EST call is 2pm GMT, 10pm SGT, and 1am next day Sydney. Is that workable? Someone's sleeping. You repeat this math for every meeting, every week, wasting 5-10 minutes per decision. Distributed teams need automated solutions.

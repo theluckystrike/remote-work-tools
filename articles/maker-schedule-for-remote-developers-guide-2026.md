@@ -18,6 +18,13 @@ voice-checked: true
 
 The traditional 9-to-5 workday was designed for factory floors, not for software development. As a remote developer, you've likely experienced the frustration of context switching—those productivity-killing transitions between deep coding sessions and shallow tasks like Slack messages and email. The maker schedule, a time-blocking methodology originally popularized by Paul Graham, offers a structured approach to protect your most valuable asset: focused attention.
 
+## Table of Contents
+
+- [What Is the Maker Schedule?](#what-is-the-maker-schedule)
+- [Prerequisites](#prerequisites)
+- [Advanced: Combining with Other Methodologies](#advanced-combining-with-other-methodologies)
+- [Troubleshooting](#troubleshooting)
+
 This guide shows you how to adapt the maker schedule specifically for remote development work in 2026, with practical implementations you can start using today.
 
 ## What Is the Maker Schedule?

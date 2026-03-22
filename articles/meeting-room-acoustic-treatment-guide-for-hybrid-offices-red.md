@@ -32,6 +32,23 @@ tags: [remote-work-tools]
 {% raw %}
 Installing soft furnishings (acoustic panels, baffles, curtains) on bare walls and carpeting hard floors reduces the echo that makes hybrid calls fatiguing for remote participants, while ceiling-mounted directional microphones with acoustic echo cancellation eliminate feedback from speakerphones. Moving meetings away from completely reflective rooms into spaces with mixed hard and soft surfaces, adding acoustic foam panels behind display screens where audio reflects, and using sound-absorbing desk materials prevents the "bathroom reverberation" that forces remote participants to ask speakers to repeat themselves. This combination of passive treatment (soft materials to absorb sound) and active cancellation (directional mics, echo suppression in video conferencing settings) transforms disruptive echo-filled calls into clear communications, dramatically improving productivity for distributed teams who spend hours daily in hybrid meetings.
 
+## Table of Contents
+
+- [Understanding the Acoustic Problem](#understanding-the-acoustic-problem)
+- [Treatment Strategy: The ABCs of Meeting Room Acoustics](#treatment-strategy-the-abcs-of-meeting-room-acoustics)
+- [Identifying Reflection Points in Your Meeting Room](#identifying-reflection-points-in-your-meeting-room)
+- [Practical Treatment Implementations](#practical-treatment-implementations)
+- [Microphone Placement and Room Layout](#microphone-placement-and-room-layout)
+- [Budget-Friendly Treatment Approaches](#budget-friendly-treatment-approaches)
+- [Testing and Validation](#testing-and-validation)
+- [Material Comparison and Sourcing](#material-comparison-and-sourcing)
+- [Acoustic Testing and Measurement](#acoustic-testing-and-measurement)
+- [Implementation by Meeting Room Type](#implementation-by-meeting-room-type)
+- [Active Acoustic Solutions (Electronics)](#active-acoustic-solutions-electronics)
+- [Acoustic Measurement Standards](#acoustic-measurement-standards)
+- [Cost-Benefit Analysis for Different Organization Types](#cost-benefit-analysis-for-different-organization-types)
+- [Implementation Timeline](#implementation-timeline)
+
 ## Understanding the Acoustic Problem
 
 Hybrid office meeting rooms present unique challenges. Hard surfaces—glass walls, concrete floors, exposed ceilings—create sound reflections that reach microphones and create echo. The problem intensifies in rooms with high ceilings or rectangular layouts where sound bounces between parallel surfaces.
@@ -433,11 +450,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
 - [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
 - [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
-- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
-
+- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

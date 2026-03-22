@@ -17,6 +17,23 @@ voice-checked: true
 
 South Korea launched its digital nomad visa program in 2024, offering remote workers a pathway to live and work in the country for up to two years. This guide covers the complete application requirements, eligibility criteria, and practical steps for developers and power users seeking to work remotely from South Korea.
 
+## Table of Contents
+
+- [What Is the South Korea Digital Nomad Visa](#what-is-the-south-korea-digital-nomad-visa)
+- [Eligibility Requirements](#eligibility-requirements)
+- [Required Documents](#required-documents)
+- [Application Process](#application-process)
+- [Practical Tips for Developers](#practical-tips-for-developers)
+- [Common Application Mistakes](#common-application-mistakes)
+- [Extension Requirements](#extension-requirements)
+- [Application Timeline and Checklist](#application-timeline-and-checklist)
+- [Embassy Application Process by Region](#embassy-application-process-by-region)
+- [Income Documentation Strategies](#income-documentation-strategies)
+- [Living Costs and Budget Planning](#living-costs-and-budget-planning)
+- [Post-Arrival Practical Steps](#post-arrival-practical-steps)
+- [Visa Extension Planning](#visa-extension-planning)
+- [Common Questions from Remote Workers](#common-questions-from-remote-workers)
+
 ## What Is the South Korea Digital Nomad Visa
 
 The South Korea digital nomad visa (officially called the "Digital Nomad Visa" or "Long-term Stay Visa for Remote Workers") allows foreign nationals to reside in South Korea while working remotely for employers or clients outside the country. Unlike traditional work visas, this category does not require sponsorship from a Korean employer.

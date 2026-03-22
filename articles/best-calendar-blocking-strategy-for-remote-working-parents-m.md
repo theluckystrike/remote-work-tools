@@ -18,6 +18,16 @@ voice-checked: true
 
 The asymmetric blocking framework—creating multiple 90-minute protected blocks with 15-minute buffers instead of hoping for a single 4-hour block—accommodates childcare interruptions without losing your entire deep work window. Combined with a secondary "Gaps" calendar that signals to colleagues your availability may shift, plus a Python script that auto-creates focus blocks in any calendar gap, this strategy protects your productivity against the unpredictable reality of parenting while working remotely.
 
+## Table of Contents
+
+- [Understanding the Childcare Gap Problem](#understanding-the-childcare-gap-problem)
+- [The Asymmetric Blocking Framework](#the-asymmetric-blocking-framework)
+- [Communication Framework for Async Teams](#communication-framework-for-async-teams)
+- [Automation for Calendar Management](#automation-for-calendar-management)
+- [Protecting Deep Work Through Expectation Management](#protecting-deep-work-through-expectation-management)
+- [Handling Emergency Childcare Situations](#handling-emergency-childcare-situations)
+- [Measuring and Iterating](#measuring-and-iterating)
+
 ## Understanding the Childcare Gap Problem
 
 Childcare gaps differ from typical schedule interruptions. Unlike a meeting that you can plan around, a childcare gap often appears with little notice. Your toddler wakes up sick. The babysitter canceled. School released early due to a staff development day.

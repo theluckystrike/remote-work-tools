@@ -18,6 +18,21 @@ tags: [remote-work-tools, best-of, remote-work]
 
 The best journaling apps for remote worker reflection are **Obsidian** for developers who want a linked knowledge graph with local markdown storage, **Logseq** for outliner-style thinkers who prefer block-level queries, and **jrnl** for terminal-first developers who want zero-friction capture from the command line. Obsidian's Daily Notes plugin and bidirectional linking make it ideal for connecting reflections across time, Logseq's hierarchical outliner suits developers who think in bullet points, and jrnl stores entries as plain text files that integrate naturally with git for versioned, private journaling.
 
+## Table of Contents
+
+- [What Remote Workers Need in a Journaling App](#what-remote-workers-need-in-a-journaling-app)
+- [Terminal-Based Solutions](#terminal-based-solutions)
+- [Markdown-First Applications](#markdown-first-applications)
+- [Developer-Focused Features](#developer-focused-features)
+- [Syncing Considerations](#syncing-considerations)
+- [Selecting Your Journaling Workflow](#selecting-your-journaling-workflow)
+- [Advanced Journaling Workflows](#advanced-journaling-workflows)
+- [TDL-2026-001: PostgreSQL over MongoDB for Analytics](#tdl-2026-001-postgresql-over-mongodb-for-analytics)
+- [Comparing Journaling Approaches for Teams](#comparing-journaling-approaches-for-teams)
+- [Exporting and Backing Up Your Journal](#exporting-and-backing-up-your-journal)
+- [Moving Between Journaling Tools](#moving-between-journaling-tools)
+- [Reflection as a Professional Skill](#reflection-as-a-professional-skill)
+
 ## What Remote Workers Need in a Journaling App
 
 Before examining specific applications, consider the requirements that matter most for remote developers:

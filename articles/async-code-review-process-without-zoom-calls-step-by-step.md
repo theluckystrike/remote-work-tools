@@ -17,6 +17,29 @@ voice-checked: true
 
 Code reviews are the backbone of software quality, but scheduling synchronous review sessions across time zones creates constant friction. Teams waste hours in meetings discussing changes that could be reviewed asynchronously, and developers often feel pressured to approve or reject code quickly rather than providing thoughtful feedback.
 
+## Table of Contents
+
+- [Setting Up Your Async Code Review Workflow](#setting-up-your-async-code-review-workflow)
+- [Approach](#approach)
+- [Testing](#testing)
+- [Screenshots](#screenshots)
+- [Defining Clear Review Guidelines](#defining-clear-review-guidelines)
+- [Approval Criteria](#approval-criteria)
+- [Feedback Types](#feedback-types)
+- [Response Time Expectations](#response-time-expectations)
+- [Implementing the Review Process](#implementing-the-review-process)
+- [Handling Complex Discussions](#handling-complex-discussions)
+- [Tools That Support Async Reviews](#tools-that-support-async-reviews)
+- [Measuring Async Review Effectiveness](#measuring-async-review-effectiveness)
+- [Creating a Feedback Culture](#creating-a-feedback-culture)
+- [Scaling Async Reviews Across Time Zones](#scaling-async-reviews-across-time-zones)
+- [PR Escalation Process](#pr-escalation-process)
+- [Advanced Review Techniques](#advanced-review-techniques)
+- [Blocking Issues](#blocking-issues)
+- [Conversational Concerns](#conversational-concerns)
+- [Measuring Review Quality](#measuring-review-quality)
+- [When to Escalate to Synchronous Review](#when-to-escalate-to-synchronous-review)
+
 An async code review process eliminates these problems by enabling thorough, written code reviews that work around everyone's schedule. This guide shows you how to implement this workflow step by step.
 
 ## Setting Up Your Async Code Review Workflow

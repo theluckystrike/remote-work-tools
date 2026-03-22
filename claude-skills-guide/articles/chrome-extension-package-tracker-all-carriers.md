@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Build a Chrome Extension Package Tracker for All Carriers"
+title: "Build a Chrome Extension Package Tracker (2026)"
 description: "A comprehensive guide for developers and power users to create a Chrome extension that tracks packages across multiple shipping carriers."
 date: 2026-03-15
 author: theluckystrike

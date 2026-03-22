@@ -17,6 +17,21 @@ tags: [remote-work-tools, team-management, process, remote-work]
 
 Most remote retrospectives fail because teams treat them like box-checking exercises instead of actual problem-solving sessions. You run a 1-hour sync call, everyone mumbles something positive, the facilitator captures three generic action items that nobody remembers, and you're done. Nothing changes.
 
+## Table of Contents
+
+- [Why Remote Retros Fail](#why-remote-retros-fail)
+- [The Proven Structure: 5-Day Async Retro](#the-proven-structure-5-day-async-retro)
+- [Tools: Miro vs. FigJam vs. Notion](#tools-miro-vs-figjam-vs-notion)
+- [Previous Sprint Action Items](#previous-sprint-action-items)
+- [What Went Well](#what-went-well)
+- [What to Improve](#what-to-improve)
+- [Action Items for Next Sprint](#action-items-for-next-sprint)
+- [Facilitation Script: The Quiet-Nudging Approach](#facilitation-script-the-quiet-nudging-approach)
+- [Common Mistakes That Kill Remote Retro Effectiveness](#common-mistakes-that-kill-remote-retro-effectiveness)
+- [Measuring Retro Impact](#measuring-retro-impact)
+- [Template Scripts for Facilitators](#template-scripts-for-facilitators)
+- [Async Retro Success Metrics](#async-retro-success-metrics)
+
 This guide shows you how to run retrospectives that actually produce process improvements and behavior change. The difference is format, pacing, and ruthless follow-up.
 
 ## Why Remote Retros Fail

@@ -18,6 +18,19 @@ intent-checked: true
 
 Remote onboarding is chaotic without automation. New hires need software access, legal paperwork, equipment setup, training, and team introductions—tasks scattered across email, spreadsheets, Slack, and individual managers.
 
+## Table of Contents
+
+- [Comparison Table](#comparison-table)
+- [BambooHR for Remote Onboarding](#bamboohr-for-remote-onboarding)
+- [Gusto for Remote Onboarding](#gusto-for-remote-onboarding)
+- [Rippling for Remote Onboarding](#rippling-for-remote-onboarding)
+- [Process Street for Remote Onboarding](#process-street-for-remote-onboarding)
+- [Trainual for Remote Onboarding](#trainual-for-remote-onboarding)
+- [Real-World Comparison: Company Size](#real-world-comparison-company-size)
+- [Implementation Checklist](#implementation-checklist)
+- [Cost Comparison: 100 Employees](#cost-comparison-100-employees)
+- [Onboarding Time Reduction](#onboarding-time-reduction)
+
 Onboarding automation platforms consolidate workflows: automated task assignment, document collection, policy acknowledgment, and integration with payroll, identity management, and communication tools. This reduces onboarding time from 2-3 weeks to 2-3 days.
 
 This guide compares five leading platforms: BambooHR, Gusto, Rippling, Process Street, and Trainual.

@@ -17,6 +17,20 @@ score: 9
 
 Finding the right productivity platform for a small remote nonprofit is about balancing functionality with budget constraints. A 5-person team needs tools that cover project management, communication, document collaboration, and donor tracking without requiring expensive enterprise licenses. This guide evaluates the top all-in-one solutions and helps you choose the best fit for your remote nonprofit workflow.
 
+## Table of Contents
+
+- [What a 5-Person Remote Nonprofit Actually Needs](#what-a-5-person-remote-nonprofit-actually-needs)
+- [Top Contenders Reviewed](#top-contenders-reviewed)
+- [Comparison at a Glance](#comparison-at-a-glance)
+- [Making Your Decision](#making-your-decision)
+- [Implementation Tips](#implementation-tips)
+- [Nonprofit-Specific Feature Deep Dive](#nonprofit-specific-feature-deep-dive)
+- [Free Tier Limitation Reality Check](#free-tier-limitation-reality-check)
+- [Implementation Checklist for First 30 Days](#implementation-checklist-for-first-30-days)
+- [Cost of Switching Later](#cost-of-switching-later)
+- [Hybrid Approach for Specific Needs](#hybrid-approach-for-specific-needs)
+- [Trial Process for Final Selection](#trial-process-for-final-selection)
+
 ## What a 5-Person Remote Nonprofit Actually Needs
 
 Before comparing tools, define your team's actual requirements. A typical 5-person remote nonprofit handles several core functions: coordinating programs, communicating with volunteers and donors, managing documents, and tracking outreach. You don't need complex enterprise features designed for hundred-person companies.
@@ -309,10 +323,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 ## Related Articles
 
 - [Monday vs Asana for a Nonprofit Remote Team of 30](/remote-work-tools/monday-vs-asana-for-a-nonprofit-remote-team-of-30/)
-- [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
-- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
-- [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
-- [Remote Manager One on One Question Template for Distributed](/remote-work-tools/remote-manager-one-on-one-question-template-for-distributed-team-check-ins/)
-
+- [Remote Team Grant and Funding Tracking Tool for Distributed](/remote-work-tools/remote-team-grant-and-funding-tracking-tool-for-distributed-/)
+- [Documentation Platform for a 15 Person Remote Data Science T](/remote-work-tools/documentation-platform-for-a-15-person-remote-data-science-t/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Best Project Tracking Tool for Remote Hardware Engineering](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

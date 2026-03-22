@@ -31,6 +31,14 @@ tags: [remote-work-tools, remote-work]
 
 A remote work policy answers the questions employees ask repeatedly: What hours do I need to be available? Who pays for my home office equipment? What happens if I want to work from another country? Writing it once prevents confusion, reduces manager overhead, and protects the company legally.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [5. Security Requirements](#5-security-requirements)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Troubleshooting](#troubleshooting)
+- [Related Reading](#related-reading)
+
 This guide walks through writing a complete remote work policy and provides a template you can adapt.
 
 ## What a Remote Work Policy Covers

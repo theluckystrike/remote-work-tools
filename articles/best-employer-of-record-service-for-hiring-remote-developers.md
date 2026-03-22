@@ -17,6 +17,22 @@ voice-checked: true
 
 Employer of Record (EOR) services eliminate the need to establish legal entities in each hiring country by handling payroll, benefits, taxes, and compliance for remote developers. Deel, Remote, Oyster, and Pilot offer coverage in 50-180+ countries starting at $39/user/month to custom enterprise rates. This guide compares pricing models, global coverage, compliance features, and API integration options for tech teams building distributed engineering teams.
 
+## Table of Contents
+
+- [What Is an Employer of Record?](#what-is-an-employer-of-record)
+- [Why Use an EOR for Remote Developer Hiring](#why-use-an-eor-for-remote-developer-hiring)
+- [Key Features to Evaluate](#key-features-to-evaluate)
+- [Comparing Top EOR Services for Engineering Teams](#comparing-top-eor-services-for-engineering-teams)
+- [Making Your Decision](#making-your-decision)
+- [Implementation Example](#implementation-example)
+- [Regional Deep Dive: Eastern Europe](#regional-deep-dive-eastern-europe)
+- [Regional Deep Dive: Latin America](#regional-deep-dive-latin-america)
+- [Regional Deep Dive: Asia-Pacific](#regional-deep-dive-asia-pacific)
+- [Evaluating Salary Ranges by Country](#evaluating-salary-ranges-by-country)
+- [Common EOR Pitfalls to Avoid](#common-eor-pitfalls-to-avoid)
+- [API and Integration Deep Dive](#api-and-integration-deep-dive)
+- [Questions to Ask Before Selecting an EOR](#questions-to-ask-before-selecting-an-eor)
+
 ## What Is an Employer of Record?
 
 An Employer of Record is a third-party organization that legally employs workers on behalf of your company. The EOR becomes the legal employer of your remote developers, handling:

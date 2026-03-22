@@ -32,6 +32,26 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 Starting a remote project without proper kickoff documentation creates immediate friction. When team members across different time zones cannot quickly understand project goals, stakeholder responsibilities, or milestone timelines, you lose momentum before you begin. A well-structured project kickoff document serves as the single source of truth that keeps distributed teams aligned.
 
+## Table of Contents
+
+- [Why Kickoff Documentation Matters for Remote Teams](#why-kickoff-documentation-matters-for-remote-teams)
+- [Core Components of Your Kickoff Document](#core-components-of-your-kickoff-document)
+- [Project Overview](#project-overview)
+- [Stakeholder Matrix](#stakeholder-matrix)
+- [Timeline and Milestones](#timeline-and-milestones)
+- [Communication Protocols](#communication-protocols)
+- [Technical Overview](#technical-overview)
+- [Risk Assessment](#risk-assessment)
+- [Practical Implementation Tips](#practical-implementation-tips)
+- [Example Kickoff Document Structure](#example-kickoff-document-structure)
+- [Executive Summary](#executive-summary)
+- [Objectives](#objectives)
+- [Stakeholders](#stakeholders)
+- [Timeline](#timeline)
+- [Communication](#communication)
+- [Technical Notes](#technical-notes)
+- [Risks](#risks)
+
 This guide provides a practical template for creating remote team project kickoff documentation that addresses stakeholder mapping, timeline planning, and communication expectations. You can adapt these components directly for your next distributed project.
 
 ## Why Kickoff Documentation Matters for Remote Teams
@@ -257,10 +277,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
-- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
-- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
-- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
-
+- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
+- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
+- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [How to Create Shared Project Timeline With Remote Agency Cli](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

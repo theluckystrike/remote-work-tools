@@ -18,6 +18,23 @@ intent-checked: true
 
 Digital nomad insurance from SafetyWing or Genki World provides the coverage you actually need: full electronics replacement (laptops, external drives), $50,000+ emergency medical with evacuation, and no country restrictions—unlike standard travel policies that cap electronics at $500 and exclude professional equipment. When traveling internationally for remote work, standard insurance fails because it excludes your MacBook and provides inadequate medical coverage. This guide covers evaluation criteria and real scenarios developers face when choosing nomad insurance in 2026.
 
+## Table of Contents
+
+- [Why Standard Travel Insurance Fails Digital Nomads](#why-standard-travel-insurance-fails-digital-nomads)
+- [What Digital Nomad Insurance Must Cover](#what-digital-nomad-insurance-must-cover)
+- [Evaluating Policies: A Practical Framework](#evaluating-policies-a-practical-framework)
+- [Common Exclusions to Watch For](#common-exclusions-to-watch-for)
+- [Practical Steps Before You Travel](#practical-steps-before-you-travel)
+- [The Bottom Line](#the-bottom-line)
+- [Insurance Provider Deep Dive and 2026 Pricing](#insurance-provider-deep-dive-and-2026-pricing)
+- [Insurance Scoring Framework Explained](#insurance-scoring-framework-explained)
+- [Real Claim Process Walkthrough](#real-claim-process-walkthrough)
+- [Coverage Comparison Matrix: Realistic Scenarios](#coverage-comparison-matrix-realistic-scenarios)
+- [Supplementary Insurance Options](#supplementary-insurance-options)
+- [Pre-Travel Insurance Documentation Checklist](#pre-travel-insurance-documentation-checklist)
+- [Making the Decision](#making-the-decision)
+- [Final Recommendations by Profile](#final-recommendations-by-profile)
+
 ## Why Standard Travel Insurance Fails Digital Nomads
 
 Traditional travel insurance targets short vacation trips. You get medical coverage capped at $50,000-$100,000, personal liability protection, and trip cancellation. These policies explicitly exclude "valuable personal property" — which means your MacBook Pro, external drives, and work monitors are not covered.

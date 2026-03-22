@@ -17,6 +17,24 @@ voice-checked: true
 
 Choosing the right portable WiFi hotspot can make or break your productivity while working remotely across Europe. Unlike hotel WiFi or public networks, a dedicated mobile hotspot gives you control over your connection, consistent speeds, and security for sensitive developer work. This guide covers the technical specifications that matter, configuration strategies, and practical considerations for maintaining connectivity across European borders.
 
+## Table of Contents
+
+- [Understanding European Cellular Bands and Coverage](#understanding-european-cellular-bands-and-coverage)
+- [Key Technical Specifications for Developer Work](#key-technical-specifications-for-developer-work)
+- [Setting Up Your Hotspot for Maximum Reliability](#setting-up-your-hotspot-for-maximum-reliability)
+- [Data Plan Considerations for Multi-Country Travel](#data-plan-considerations-for-multi-country-travel)
+- [Security Considerations for Remote Work](#security-considerations-for-remote-work)
+- [Practical Testing Protocol](#practical-testing-protocol)
+- [Common Pitfalls and How to Avoid Them](#common-pitfalls-and-how-to-avoid-them)
+- [Device Recommendations by Use Case](#device-recommendations-by-use-case)
+- [Setup Checklist Before Traveling](#setup-checklist-before-traveling)
+- [Real-World Data Usage Benchmarks](#real-world-data-usage-benchmarks)
+- [Switching Between Carriers Mid-Trip](#switching-between-carriers-mid-trip)
+- [Troubleshooting Connection Issues](#troubleshooting-connection-issues)
+- [Performance Optimization Strategies](#performance-optimization-strategies)
+- [eSIM vs Physical SIM: The Practical Tradeoff](#esim-vs-physical-sim-the-practical-tradeoff)
+- [Multi-Country Data Planning](#multi-country-data-planning)
+
 ## Understanding European Cellular Bands and Coverage
 
 Europe operates on different cellular frequencies than North America and Asia. Before purchasing any portable hotspot device, verify it supports the relevant LTE bands and 5G frequencies used by European carriers.

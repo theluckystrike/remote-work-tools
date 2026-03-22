@@ -17,6 +17,21 @@ intent-checked: true
 
 Monitors with local AI processing (like Nanit Pro) detect crying and motion onboard, minimizing bandwidth to 1 Mbps during monitoring—critical when your 100 Mbps connection is already handling Zoom calls, deployments, and IDE operations. Placing monitors on a separate VLAN isolates them from your development network, preventing a compromised device from reaching your workstations, while integration with Home Assistant via ONVIF/MQTT standards lets you build custom alerts that fit your development workflow rather than forcing you into a single app ecosystem.
 
+## Table of Contents
+
+- [Understanding WiFi Monitor Network Requirements](#understanding-wifi-monitor-network-requirements)
+- [Critical Features for Developer Workstations](#critical-features-for-developer-workstations)
+- [Technical Comparison of Leading Options](#technical-comparison-of-leading-options)
+- [Network Optimization Strategies](#network-optimization-strategies)
+- [Security Considerations](#security-considerations)
+- [Making Your Decision](#making-your-decision)
+- [Network Bandwidth Management Detailed](#network-bandwidth-management-detailed)
+- [Router Selection for Home Office + IoT](#router-selection-for-home-office-iot)
+- [Camera Hardware Recommendations with Developer Features](#camera-hardware-recommendations-with-developer-features)
+- [Complete Network Architecture Diagram for Power Users](#complete-network-architecture-diagram-for-power-users)
+- [Advanced Home Assistant Integration](#advanced-home-assistant-integration)
+- [Troubleshooting Common Monitor/Network Issues](#troubleshooting-common-monitornetwork-issues)
+
 ## Understanding WiFi Monitor Network Requirements
 
 WiFi baby monitors transmit video and audio data over your local network, which means they compete for bandwidth with your work applications. The average 1080p WiFi monitor streams at 2-4 Mbps, while 4K models can consume 8-15 Mbps. For a home office setup, you need to account for this additional traffic alongside Zoom calls, code commits, and CI/CD pipeline downloads.

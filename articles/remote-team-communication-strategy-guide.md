@@ -19,6 +19,18 @@ tags: [remote-work-tools, remote-work]
 
 Start by defining a tiered channel hierarchy that separates urgent messages from async updates, then default to asynchronous-first documentation so team members across time zones can collaborate without blocking each other. These two foundational practices solve the most common remote communication failures: treating every message as urgent and losing decisions in ephemeral chat.
 
+## Table of Contents
+
+- [Establishing Communication Channels](#establishing-communication-channels)
+- [Asynchronous-First Documentation](#asynchronous-first-documentation)
+- [Meeting: [Title]](#meeting-title)
+- [Status Updates That Actually Work](#status-updates-that-actually-work)
+- [Context-Rich Communication](#context-rich-communication)
+- [Handling Sensitive Discussions](#handling-sensitive-discussions)
+- [Building Team Communication Norms](#building-team-communication-norms)
+- [Measurement and Iteration](#measurement-and-iteration)
+- [Tools Integration](#tools-integration)
+
 This guide provides the specific frameworks, templates, and automation examples you need to implement both strategies immediately.
 
 ## Establishing Communication Channels

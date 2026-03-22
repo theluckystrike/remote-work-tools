@@ -33,6 +33,21 @@ tags: [remote-work-tools]
 
 Hybrid offices require focus pods providing acoustic isolation (30+ dB reduction), proper ventilation, adjustable lighting, and power connectivity placed within 3 minutes of any desk. Calculate pod requirements at 1 per 4-5 active employees using 50% occupancy as baseline, implement WebSocket-backed booking systems to manage availability, and add ambient acoustic treatment throughout open areas. Success metrics include 60-80% use rates, improved employee satisfaction surveys, and increased hybrid office attendance when pods are available.
 
+## Table of Contents
+
+- [The Hybrid Work Space Problem](#the-hybrid-work-space-problem)
+- [What Makes a Focus Pod Effective](#what-makes-a-focus-pod-effective)
+- [Space Planning for Pod Placement](#space-planning-for-pod-placement)
+- [Building a Pod Booking System](#building-a-pod-booking-system)
+- [Acoustic Treatment Beyond Pods](#acoustic-treatment-beyond-pods)
+- [Measuring Success](#measuring-success)
+- [Implementation Checklist](#implementation-checklist)
+- [Evaluating Focus Pod Vendors](#evaluating-focus-pod-vendors)
+- [Booking System Deep Dive](#booking-system-deep-dive)
+- [Beyond Pods: Complementary Office Redesign](#beyond-pods-complementary-office-redesign)
+- [Training and Adoption](#training-and-adoption)
+- [Measuring Hybrid Office Success](#measuring-hybrid-office-success)
+
 ## The Hybrid Work Space Problem
 
 Traditional open offices assume everyone works simultaneously in the same space. Hybrid models break this assumption. On any given day, you might have 40% occupancy, but that 40% needs access to the same collaboration zones as 100% occupancy would require. The result is wasted collaboration space and insufficient focus areas.

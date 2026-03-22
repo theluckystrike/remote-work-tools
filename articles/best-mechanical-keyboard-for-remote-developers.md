@@ -17,6 +17,22 @@ tags: [remote-work-tools, best-of, remote-work]
 
 For most remote developers, a mid-range TKL (tenkeyless) keyboard with tactile switches and QMK/VIA programmability is the best starting point -- it balances desk space, typing feel, and deep customization for coding workflows. Add hot-swappable sockets so you can experiment with switches without soldering, and prioritize PBT keycaps for durability through years of daily use.
 
+## Table of Contents
+
+- [Understanding Switch Types for Coding](#understanding-switch-types-for-coding)
+- [Layout Considerations](#layout-considerations)
+- [Programmability: Why It Matters for Developers](#programmability-why-it-matters-for-developers)
+- [Build Quality and Durability](#build-quality-and-durability)
+- [Wireless Considerations](#wireless-considerations)
+- [Price Tiers and Value](#price-tiers-and-value)
+- [Recommendations by Use Case](#recommendations-by-use-case)
+- [Popular Mechanical Keyboards for Remote Developers (with Pricing)](#popular-mechanical-keyboards-for-remote-developers-with-pricing)
+- [Switch Selection Guide for Coding](#switch-selection-guide-for-coding)
+- [Build Your Own Keyboard: Workflow](#build-your-own-keyboard-workflow)
+- [Keycap Profile Matters More Than Most Developers Think](#keycap-profile-matters-more-than-most-developers-think)
+- [Sound Dampening for Video Calls](#sound-dampening-for-video-calls)
+- [Maintenance and Longevity](#maintenance-and-longevity)
+
 ## Understanding Switch Types for Coding
 
 Mechanical keyboards offer three primary switch categories, each suited to different coding workflows.
@@ -312,10 +328,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Best Mechanical Keyboard for Remote Developers](/remote-work-tools/best-mechanical-keyboard-for-remote-developers-quiet-switches-2026/)
-- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
+- [Best Remote Work Mechanical Keyboard 2026](/remote-work-tools/best-remote-work-mechanical-keyboard-2026/)
 - [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)
-- [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
-- [Best Keyboard Wrist Rest for Split Keyboard Tenting Setup](/remote-work-tools/best-keyboard-wrist-rest-for-split-keyboard-tenting-setup/)
-
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
+- [Best VPN Alternative for Remote Developers Needing Secure](/remote-work-tools/best-vpn-alternative-for-remote-developers-needing-secure-cl/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

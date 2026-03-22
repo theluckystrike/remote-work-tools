@@ -28,6 +28,18 @@ voice-checked: true
 
 Remote work eliminates the casual hallway conversations that build relationships in office environments. Without spontaneous interactions, teams risk becoming purely transactional groups that collaborate only on tasks. Slack social channels can fill this gap when implemented with intention and structure.
 
+## Table of Contents
+
+- [Why Social Channels Matter for Distributed Teams](#why-social-channels-matter-for-distributed-teams)
+- [Why Social Channels Fail (And How to Fix Them)](#why-social-channels-fail-and-how-to-fix-them)
+- [Channel Categories That Build Connection](#channel-categories-that-build-connection)
+- [Channel Setup for Power Users](#channel-setup-for-power-users)
+- [Measuring Channel Health](#measuring-channel-health)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Implementation Checklist](#implementation-checklist)
+- [Troubleshooting Dead Social Channels](#troubleshooting-dead-social-channels)
+- [Measuring Cultural Impact](#measuring-cultural-impact)
+
 This guide covers practical social channel ideas that actually work for remote developer teams, with automation examples you can deploy immediately.
 
 ## Why Social Channels Matter for Distributed Teams

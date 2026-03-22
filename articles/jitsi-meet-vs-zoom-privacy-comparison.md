@@ -33,6 +33,18 @@ tags: [remote-work-tools, comparison, privacy]
 
 Choose Jitsi Meet if you need full data sovereignty, self-hosting capability, and open-source transparency for your video calls. Choose Zoom if you need advanced features like breakout rooms, webinars, and enterprise integrations where privacy trade-offs are acceptable. This comparison breaks down the specific differences in encryption standards, data collection practices, self-hosting capabilities, and practical implementation details to help you decide.
 
+## Table of Contents
+
+- [Who This Decision Actually Affects](#who-this-decision-actually-affects)
+- [Quick Comparison](#quick-comparison)
+- [Encryption Standards](#encryption-standards)
+- [Data Collection and Handling](#data-collection-and-handling)
+- [Self-Hosting and Control](#self-hosting-and-control)
+- [Real-World Team Scenarios](#real-world-team-scenarios)
+- [Technical Implementation Considerations](#technical-implementation-considerations)
+- [Security Hardening Tips](#security-hardening-tips)
+- [Making the Right Call for Your Team](#making-the-right-call-for-your-team)
+
 ## Who This Decision Actually Affects
 
 Before exploring technical specs, consider which category describes your situation. Privacy concerns are not uniform across remote teams.
@@ -285,11 +297,10 @@ The decision between Jitsi and Zoom ultimately comes down to your threat model a
 
 ## Related Articles
 
-- [Cheapest Video Call Tool for Weekly 50 Person All Hands](/remote-work-tools/cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/)
-- [Google Meet Echo When Using External Speakers Fix (2026)](/remote-work-tools/google-meet-echo-when-using-external-speakers-fix-2026/)
+- [Switching from Zoom to Around for Lightweight Remote Team](/remote-work-tools/switching-from-zoom-to-around-for-lightweight-remote-team-vi/)
+- [Shortcut vs Linear Issue Tracking Comparison](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
+- [Remote HR Performance Review Tools Comparison for Managing](/remote-work-tools/remote-hr-performance-review-tools-comparison-for-managing-d/)
+- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
 - [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -22,6 +22,22 @@ voice-checked: true
 | Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
 | 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
 
+## Table of Contents
+
+- [Why Lisbon Remains a Top Remote Work Destination in 2026](#why-lisbon-remains-a-top-remote-work-destination-in-2026)
+- [Alfama: Historic Charm with Reliable Connections](#alfama-historic-charm-with-reliable-connections)
+- [Principe Real: The Tech Hub Choice](#principe-real-the-tech-hub-choice)
+- [Baixa and Rossio: Central Convenience](#baixa-and-rossio-central-convenience)
+- [Santos: The Up-and-Coming Alternative](#santos-the-up-and-coming-alternative)
+- [Practical Tips for Remote Working in Lisbon](#practical-tips-for-remote-working-in-lisbon)
+- [Additional Neighborhoods Worth Exploring](#additional-neighborhoods-worth-exploring)
+- [Accommodation and Monthly Costs](#accommodation-and-monthly-costs)
+- [Seasonal Considerations](#seasonal-considerations)
+- [Networking and Remote Worker Community](#networking-and-remote-worker-community)
+- [Visa and Legal Considerations](#visa-and-legal-considerations)
+- [Transportation and Logistics](#transportation-and-logistics)
+- [Monthly Budget Breakdown for Remote Workers](#monthly-budget-breakdown-for-remote-workers)
+
 
 Lisbon has firmly established itself as one of Europe's top destinations for remote workers, combining affordable living, a thriving tech scene, and an enviable quality of life. For developers and digital nomads seeking neighborhoods with reliable fast WiFi cafes, the city offers diverse options ranging from historic Alfama to trendy Principe Real. This guide evaluates the best neighborhoods in Lisbon for remote workers in 2026, focusing on internet reliability, coworking density, and cafe culture.
 

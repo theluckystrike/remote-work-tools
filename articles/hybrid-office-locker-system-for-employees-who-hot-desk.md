@@ -18,6 +18,16 @@ voice-checked: true
 
 When employees hot desk, they need secure storage for personal belongings, equipment, and valuables throughout the workday. A well-designed locker system integrates with existing badge access, provides real-time availability tracking, and offers programmatic control for custom workplace workflows. This guide covers the technical implementation of a hybrid office locker system built for hot-desking environments.
 
+## Table of Contents
+
+- [Why Hot-Desking Requires Smart Locker Systems](#why-hot-desking-requires-smart-locker-systems)
+- [Core Locker System Architecture](#core-locker-system-architecture)
+- [Building the Locker API Service](#building-the-locker-api-service)
+- [Integrating with Desk Booking Systems](#integrating-with-desk-booking-systems)
+- [Badge Access Integration](#badge-access-integration)
+- [Locker Fleet Management](#locker-fleet-management)
+- [Deployment Considerations](#deployment-considerations)
+
 ## Why Hot-Desking Requires Smart Locker Systems
 
 Traditional lockers with combination locks or physical keys don't work in hot-desking scenarios. Employees can't remember codes, keys get lost, and there's no way to track which lockers are available or who currently has which locker assigned. Smart locker systems solve these problems by providing badge-controlled access, automatic assignment, and integration with desk booking platforms.

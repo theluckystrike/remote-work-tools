@@ -27,6 +27,27 @@ voice-checked: true
 
 Scaling a remote team creates an obvious tension: more people means more coordination needs, which typically translates to more meetings. But there is a better way. The key is building meeting structures that use asynchronous communication, clear ownership patterns, and automated workflows so your team grows without drowning in calendar invites.
 
+## Table of Contents
+
+- [The Fundamental Principle: Replace Before You Add](#the-fundamental-principle-replace-before-you-add)
+- [The Three-Layer Meeting Architecture](#the-three-layer-meeting-architecture)
+- [Implementing Async-First Updates](#implementing-async-first-updates)
+- [Week of [Date]](#week-of-date)
+- [The Representation Rotation Model](#the-representation-rotation-model)
+- [Meeting-Free Focus Blocks](#meeting-free-focus-blocks)
+- [Decision Documentation](#decision-documentation)
+- [Decision Log](#decision-log)
+- [Measuring Meeting Effectiveness](#measuring-meeting-effectiveness)
+- [Putting It All Together](#putting-it-all-together)
+- [Scaling Meeting Architecture by Team Size](#scaling-meeting-architecture-by-team-size)
+- [Meeting Effectiveness Metrics](#meeting-effectiveness-metrics)
+- [Anti-Patterns That Destroy Remote Meeting Culture](#anti-patterns-that-destroy-remote-meeting-culture)
+- [Documentation Templates for Meeting Governance](#documentation-templates-for-meeting-governance)
+- [Required Documents](#required-documents)
+- [Meeting Types](#meeting-types)
+- [Handling Timezone-Distributed Teams](#handling-timezone-distributed-teams)
+- [Meeting Calendar Templates](#meeting-calendar-templates)
+
 This guide provides practical frameworks for building meeting structures that scale, specifically designed for technical teams and developers who value focused work time.
 
 ## The Fundamental Principle: Replace Before You Add

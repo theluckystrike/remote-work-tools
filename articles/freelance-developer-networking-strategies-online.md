@@ -196,6 +196,20 @@ Effective freelance developer networking combines strategic presence, genuine co
 
 ## Frequently Asked Questions
 
+## Table of Contents
+
+- [Networking Metrics That Matter](#networking-metrics-that-matter)
+- [Content Strategy for Developer Networking](#content-strategy-for-developer-networking)
+- [12-Month Content Plan for Freelance Developer](#12-month-content-plan-for-freelance-developer)
+- [Building a Personal Brand as a Freelancer](#building-a-personal-brand-as-a-freelancer)
+- [Systematizing Network Maintenance](#systematizing-network-maintenance)
+- [Networking for Different Freelance Specialties](#networking-for-different-freelance-specialties)
+- [Outreach Message Templates That Work](#outreach-message-templates-that-work)
+- [Template 1: Re-engagement (Someone you used to know)](#template-1-re-engagement-someone-you-used-to-know)
+- [Template 2: Community connection (Someone from a community you participate in)](#template-2-community-connection-someone-from-a-community-you-participate-in)
+- [Template 3: Referral follow-up](#template-3-referral-follow-up)
+- [Paid Outreach vs Organic Networking](#paid-outreach-vs-organic-networking)
+
 **Are there any hidden costs I should know about?**
 
 Watch for overage charges, API rate limit fees, and costs for premium features not included in base plans. Some tools charge extra for storage, team seats, or advanced integrations. Read the full pricing page including footnotes before signing up.

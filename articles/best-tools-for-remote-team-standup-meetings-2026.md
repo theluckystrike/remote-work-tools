@@ -16,6 +16,23 @@ intent-checked: true
 {% raw %}
 ## Overview
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Geekbot](#geekbot)
+- [Standuply](#standuply)
+- [Range](#range)
+- [DailyBot](#dailybot)
+- [Slack Workflows (Native)](#slack-workflows-native)
+- [Comparison Table](#comparison-table)
+- [Real-World Scenarios](#real-world-scenarios)
+- [Engagement Metrics (Typical Deployments)](#engagement-metrics-typical-deployments)
+- [Integration Deep Dive](#integration-deep-dive)
+- [Time Cost Analysis](#time-cost-analysis)
+- [Decision Framework](#decision-framework)
+- [Adoption Tips](#adoption-tips)
+- [Bottom Line](#bottom-line)
+
 
 Synchronous standups drain 5-10 hours per week from distributed teams. Async standup tools automate collection, summarization, and reporting. This comparison covers the five most-deployed platforms: Geekbot, Standuply, Range, DailyBot, and Slack workflows (native). Each handles response rates, template customization, and team size differently.
 

@@ -18,6 +18,14 @@ voice-checked: true
 
 When a remote developer leaves your team, the knowledge they've accumulated over months or years can feel like it's walking out the door with them. Unlike office environments where informal conversations fill knowledge gaps, remote work relies heavily on explicit documentation. This guide provides a practical framework for managing knowledge base handoff that preserves institutional knowledge and ensures continuity.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Knowledge Transfer Tools Comparison](#knowledge-transfer-tools-comparison)
+- [Screen Recording Best Practices for Knowledge Handoff](#screen-recording-best-practices-for-knowledge-handoff)
+- [Advanced Handoff Documentation: Runbooks](#advanced-handoff-documentation-runbooks)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

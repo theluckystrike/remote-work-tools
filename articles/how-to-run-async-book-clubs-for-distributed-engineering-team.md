@@ -32,6 +32,26 @@ tags: [remote-work-tools]
 {% raw %}
 Running a book club across distributed engineering teams presents unique challenges. Without the benefit of physical proximity, traditional synchronous discussions become difficult to schedule. However, asynchronous book clubs offer a practical alternative that accommodates multiple time zones and individual reading paces while still fostering meaningful technical discussions.
 
+## Table of Contents
+
+- [Why Async Book Clubs Work for Engineering Teams](#why-async-book-clubs-work-for-engineering-teams)
+- [Step 1: Choose Your Reading Format and Cadence](#step-1-choose-your-reading-format-and-cadence)
+- [Step 2: Set Up Your Discussion Infrastructure](#step-2-set-up-your-discussion-infrastructure)
+- [Week 3 Discussion: Chapters 5-6](#week-3-discussion-chapters-5-6)
+- [Step 3: help Engagement Without Meetings](#step-3-help-engagement-without-meetings)
+- [Step 4: Connect Reading to Real Work](#step-4-connect-reading-to-real-work)
+- [Step 5: Maintain Long-Term Momentum](#step-5-maintain-long-term-momentum)
+- [Platform Comparison for Async Book Clubs](#platform-comparison-for-async-book-clubs)
+- [Recommended Reading Schedules by Book Type](#recommended-reading-schedules-by-book-type)
+- [Discussion Format That Drives Deep Engagement](#discussion-format-that-drives-deep-engagement)
+- [Quick Context (Read this first)](#quick-context-read-this-first)
+- [Your 2-Minute Reflection](#your-2-minute-reflection)
+- [Deep Dives (Choose one to contribute to)](#deep-dives-choose-one-to-contribute-to)
+- [Tie to Work](#tie-to-work)
+- [Sample Implementation Checklist](#sample-implementation-checklist)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Making It Work for Your Team](#making-it-work-for-your-team)
+
 This guide covers practical strategies for implementing async book clubs that actually work for engineering teams. You'll find concrete examples, tool configurations, and discussion formats you can adapt to your team's specific needs.
 
 ## Why Async Book Clubs Work for Engineering Teams

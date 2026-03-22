@@ -17,6 +17,21 @@ tags: [remote-work-tools, remote-work]
 
 Run async bug triage by standardizing a bug report template with required fields (environment, reproduction steps, severity, priority), configuring your tracker to enforce those fields, and assigning a rotating triager who reviews and prioritizes incoming bugs within 24-48 hours. This removes the synchronous meeting bottleneck that breaks down across time zones while producing better-documented, more consistent triage decisions.
 
+## Table of Contents
+
+- [What Makes Async Bug Triage Effective](#what-makes-async-bug-triage-effective)
+- [Step 1: Standardize Your Bug Report Template](#step-1-standardize-your-bug-report-template)
+- [Bug Report: [Short Title]](#bug-report-short-title)
+- [Step 2: Establish Clear Triage Workflow](#step-2-establish-clear-triage-workflow)
+- [Step 3: Configure Bug Tracker Fields](#step-3-configure-bug-tracker-fields)
+- [Step 4: Define Severity Guidelines](#step-4-define-severity-guidelines)
+- [Step 5: Conduct Async Triage Reviews](#step-5-conduct-async-triage-reviews)
+- [Step 6: Handle Edge Cases](#step-6-handle-edge-cases)
+- [Step 7: Close the Loop](#step-7-close-the-loop)
+- [Practical Tips for Remote QA Teams](#practical-tips-for-remote-qa-teams)
+- [Triage Checklist](#triage-checklist)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+
 ## What Makes Async Bug Triage Effective
 
 The foundation of successful async bug triage lies in **structured information capture**. When bug reports arrive without clear reproduction steps, severity ratings, or context, triagers spend excessive time investigating missing details. Async triage requires submitters to provide complete information upfront, reducing back-and-forth communication.
@@ -254,11 +269,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [Async QA Signoff Process for Remote Teams Releasing Weekly](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
-
+- [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
+- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
+- [Async Product Discovery Process for Remote Teams](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

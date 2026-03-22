@@ -16,6 +16,13 @@ intent-checked: true
 
 If your team has been using Loom for asynchronous video messaging but you're considering a switch to Claap, this guide walks you through the migration process step by step. Whether you're a developer integrating video workflows into your tooling or a team lead optimizing communication patterns, you'll find practical strategies for making the transition smooth and effective.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Migrating Your Video Content](#migrating-your-video-content)
+- [Advanced Integration: Automating Video Distribution](#advanced-integration-automating-video-distribution)
+- [Troubleshooting Common Integration Issues](#troubleshooting-common-integration-issues)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

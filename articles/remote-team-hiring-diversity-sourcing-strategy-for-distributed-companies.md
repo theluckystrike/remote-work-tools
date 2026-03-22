@@ -62,6 +62,15 @@ intent-checked: true---
 
 Building diverse remote teams requires more than good intentions—it demands systematic approaches to sourcing, evaluating, and welcoming talent across geographic and cultural boundaries. This guide provides practical strategies for distributed companies committed to building inclusive teams in 2026.
 
+## Table of Contents
+
+- [Why Diversity Sourcing Matters for Remote Teams](#why-diversity-sourcing-matters-for-remote-teams)
+- [Expanding Your Sourcing Channels](#expanding-your-sourcing-channels)
+- [Structured Interview Processes That Reduce Bias](#structured-interview-processes-that-reduce-bias)
+- [Onboarding That Retains Diverse Talent](#onboarding-that-retains-diverse-talent)
+- [Onboarding Week Structure for Remote Hires](#onboarding-week-structure-for-remote-hires)
+- [Measuring Your Progress](#measuring-your-progress)
+
 ## Why Diversity Sourcing Matters for Remote Teams
 
 Remote work removes geographic barriers that historically limited talent pools. A company based in San Francisco can now hire engineers from Lagos, designers from Buenos Aires, and product managers from Berlin. This expanded access brings both opportunity and responsibility. Companies that implement thoughtful diversity sourcing strategies access wider talent pools, build products for diverse user bases, and create more resilient organizations.
@@ -271,11 +280,10 @@ Share these metrics internally with the full team, not just leadership. Transpar
 
 ## Related Articles
 
-- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
-- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
-- [Satellite Office Strategy for Hybrid Companies](/remote-work-tools/satellite-office-strategy-for-hybrid-companies/)
-- [Remote Team Employer Branding Strategy for Attracting](/remote-work-tools/remote-team-employer-branding-strategy-for-attracting-distributed-talent-at-scale-guide-2026/)
-- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
-
+- [Remote Team Hiring Diversity Sourcing Strategy](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Best Content Performance Analytics for Remote Editorial](/remote-work-tools/best-content-performance-analytics-for-remote-editorial-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

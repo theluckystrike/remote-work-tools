@@ -17,6 +17,21 @@ voice-checked: true
 
 Use Lattice or 15Five for dedicated OKR management with quarterly tracking and async updates, or implement OKRs in Notion with GitHub Integration if your team prefers lightweight tools. The key is choosing a system that integrates with your existing development workflow so goals feel like part of daily work, not a separate tracking system.
 
+## Table of Contents
+
+- [Why OKRs Work Particularly Well for Remote Teams](#why-okrs-work-particularly-well-for-remote-teams)
+- [Core Components of an Effective OKR System](#core-components-of-an-effective-okr-system)
+- [Tool Options for Implementing OKRs](#tool-options-for-implementing-okrs)
+- [Implementing OKRs with Check-ins](#implementing-okrs-with-check-ins)
+- [Week of [Date]](#week-of-date)
+- [Common OKR Mistakes to Avoid](#common-okr-mistakes-to-avoid)
+- [Choosing the Right Tool for Your Team](#choosing-the-right-tool-for-your-team)
+- [Dedicated OKR Tools Comparison](#dedicated-okr-tools-comparison)
+- [OKR Anti-Patterns in Remote Teams](#okr-anti-patterns-in-remote-teams)
+- [Building OKR Discipline Over Time](#building-okr-discipline-over-time)
+- [Integrating OKRs with Performance Reviews](#integrating-okrs-with-performance-reviews)
+- [Technical Implementation: Auto-Updating KRs from Data](#technical-implementation-auto-updating-krs-from-data)
+
 This guide covers the essential components of an OKR system for remote teams, evaluates practical tooling options, and provides implementation patterns you can adapt regardless of your tech stack.
 
 ## Why OKRs Work Particularly Well for Remote Teams
@@ -335,11 +350,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Remote Manager Delegation Framework for Leading Teams Across](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)
-- [Best Noise Gate Microphone Setting for Remote Parents With](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
 - [Remote Team OKR and Goal Tracking 2026](/remote-work-tools/remote-team-okr-goal-tracking-2026/)
-- [analyze_review_distribution.py](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
-- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
-
+- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
+- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

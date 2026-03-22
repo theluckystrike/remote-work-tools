@@ -18,6 +18,19 @@ voice-checked: true
 
 Async team building activities eliminate scheduling conflicts across time zones while creating more inclusive, thoughtful connections than synchronous events. Async activities let team members participate on their own schedule, reduce performance anxiety, and generate searchable documentation that strengthens team culture. This guide covers seven proven async activities—from collaborative playlists to async games—with implementation patterns you can adapt to your team's size and culture.
 
+## Table of Contents
+
+- [Why Async Activities Outperform Synchronous Ones for Global Teams](#why-async-activities-outperform-synchronous-ones-for-global-teams)
+- [Activity 1: Async Coffee Chat Roulette](#activity-1-async-coffee-chat-roulette)
+- [Activity 2: Weekly Async Wins Share](#activity-2-weekly-async-wins-share)
+- [Week of [DATE]](#week-of-date)
+- [Activity 3: Async Book Club for Engineering Teams](#activity-3-async-book-club-for-engineering-teams)
+- [Week 3 Discussion: Chapter 4 - Async Patterns](#week-3-discussion-chapter-4-async-patterns)
+- [Activity 4: Shared Hobby Channels](#activity-4-shared-hobby-channels)
+- [Activity 5: Async Retro Games](#activity-5-async-retro-games)
+- [Activity 6: Skill Exchange Program](#activity-6-skill-exchange-program)
+- [Implementation Checklist](#implementation-checklist)
+
 ## Why Async Activities Outperform Synchronous Ones for Global Teams
 
 When your team spans San Francisco, Berlin, and Tokyo, scheduling any synchronous activity means someone is always meeting outside their working hours. Async team building eliminates this problem entirely while adding benefits synchronous activities cannot match:

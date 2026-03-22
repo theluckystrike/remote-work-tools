@@ -18,6 +18,23 @@ voice-checked: true
 
 Working from Bali's vibrant cafe scene offers an incredible lifestyle, but the constant buzz of conversation, music, and café activity can destroy your productivity. Whether you're debugging complex code in a Canggu coffee shop or taking client calls in a busy Seminyak café, a solid noise cancelling setup transforms these environments into viable workspaces. This guide covers the technical approach to achieving focus in chaotic acoustic environments, combining hardware, software, and environmental strategies that actually work.
 
+## Table of Contents
+
+- [The Bali Café Acoustic Challenge](#the-bali-caf-acoustic-challenge)
+- [Building Your Hardware Layer](#building-your-hardware-layer)
+- [Software Solutions for Enhanced Isolation](#software-solutions-for-enhanced-isolation)
+- [Environmental Strategies](#environmental-strategies)
+- [The Developer-Specific Setup](#the-developer-specific-setup)
+- [Managing the Microphone Challenge](#managing-the-microphone-challenge)
+- [Building Your Portable Kit](#building-your-portable-kit)
+- [When to Work Elsewhere](#when-to-work-elsewhere)
+- [Headphone and Earbud Comparison for Bali Work](#headphone-and-earbud-comparison-for-bali-work)
+- [Building a Noise Profile Database](#building-a-noise-profile-database)
+- [Advanced: Ambient Sound Configuration](#advanced-ambient-sound-configuration)
+- [Voice Call Survival in Loud Cafes](#voice-call-survival-in-loud-cafes)
+- [Seasonal Noise Variations in Bali](#seasonal-noise-variations-in-bali)
+- [Microphone Technique for Developers](#microphone-technique-for-developers)
+
 ## The Bali Café Acoustic Challenge
 
 Bali cafes present a unique noise profile that differs from typical office environments. The combination of hard surfaces (common in tropical café designs), overlapping conversations, bass-heavy playlist music, and unpredictable disturbances creates an acoustic challenge that basic earplugs cannot address. Understanding what you're fighting against helps you build the right defense.
@@ -421,10 +438,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 ## Related Articles
 
 - [Best Noise Cancelling Microphones for Home Offices Busy](/remote-work-tools/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
+- [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
 - [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
-- [Best Noise Canceling Earbuds for Remote Work 2026](/remote-work-tools/best-noise-canceling-earbuds-for-remote-work-2026/)
-- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
-
+- [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
+- [Best Noise Gate Microphone Setting for Remote Parents](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

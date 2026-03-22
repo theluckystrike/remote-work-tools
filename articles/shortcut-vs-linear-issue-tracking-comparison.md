@@ -33,6 +33,23 @@ tags: [remote-work-tools, comparison]
 
 Choose Linear if your team values speed, keyboard-first workflows, and a minimal interface with flat issue tracking and cycles. Choose Shortcut if your team works in story-driven Agile methodologies and needs deeper epic and milestone management with flexible workflow customization. This comparison breaks down how their different philosophies play out in practice across UI, project structure, APIs, and workflow management.
 
+## Table of Contents
+
+- [Understanding the Core Difference](#understanding-the-core-difference)
+- [Quick Comparison](#quick-comparison)
+- [User Interface and Keyboard Workflows](#user-interface-and-keyboard-workflows)
+- [Project Structure and Hierarchy](#project-structure-and-hierarchy)
+- [API and Developer Integration](#api-and-developer-integration)
+- [Workflow and State Management](#workflow-and-state-management)
+- [Performance and Real-Time Updates](#performance-and-real-time-updates)
+- [Which Should You Choose?](#which-should-you-choose)
+- [Migration Considerations](#migration-considerations)
+- [Real-World Scenario: Which Tool Wins?](#real-world-scenario-which-tool-wins)
+- [Workflow Comparison: Feature Launch](#workflow-comparison-feature-launch)
+- [Integration Ecosystem](#integration-ecosystem)
+- [Long-Term Maintainability](#long-term-maintainability)
+- [Decision Framework: Linear or Shortcut?](#decision-framework-linear-or-shortcut)
+
 ## Understanding the Core Difference
 
 **Linear** was built with a focus on speed and keyboard-centric workflows. It mimics the feel of a local desktop application while operating entirely in the browser. The interface is minimal, the keyboard shortcuts are extensive, and everything is designed to keep your hands on the keyboard.

@@ -19,6 +19,18 @@ tags: [remote-work-tools, remote-work]
 
 Open back headphones deliver more natural, spacious sound and better comfort for 8+ hour coding sessions thanks to their vented design that reduces heat and pressure buildup. The tradeoff is sound leakage in both directions, making them best suited for private home offices rather than shared spaces or coffee shops. This review covers sound quality for developer workflows, comfort during extended wear, impedance and source matching considerations, and practical use-case scenarios to help you decide whether open back headphones fit your remote setup.
 
+## Table of Contents
+
+- [What Makes Open Back Headphones Different](#what-makes-open-back-headphones-different)
+- [Recommended Open Back Headphones for Developers](#recommended-open-back-headphones-for-developers)
+- [Sound Quality for Developer Workflows](#sound-quality-for-developer-workflows)
+- [Amplification Guide for High-Impedance Models](#amplification-guide-for-high-impedance-models)
+- [Comfort and Extended Wear](#comfort-and-extended-wear)
+- [Practical Examples: Typical Use Cases](#practical-examples-typical-use-cases)
+- [Technical Considerations for Developers](#technical-considerations-for-developers)
+- [Building Your Audio Setup](#building-your-audio-setup)
+- [Making the Decision](#making-the-decision)
+
 ## What Makes Open Back Headphones Different
 
 The core distinction lies in the headphone housing design. Closed back headphones create a sealed chamber between the driver and your ear, trapping sound and preventing external noise from entering. Open back headphones feature vented housings that allow air and sound to pass through freely. This fundamental difference affects three key areas relevant to developers: sound signature, environmental awareness, and comfort during extended wear.

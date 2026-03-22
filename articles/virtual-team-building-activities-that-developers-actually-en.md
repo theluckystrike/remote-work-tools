@@ -33,6 +33,20 @@ tags: [remote-work-tools]
 
 Team building activities developers enjoy typically involve optional participation, hands-on problem-solving (coding challenges, puzzle hunts), or activities with obvious purpose (hackathons for learning). Avoid forced storytelling or trust exercises.
 
+## Table of Contents
+
+- [Code Review Games That Build Community](#code-review-games-that-build-community)
+- [Pair Programming Social Sessions](#pair-programming-social-sessions)
+- [Async Show-and-Tell with Git Demos](#async-show-and-tell-with-git-demos)
+- [Technical Book Clubs with Implementation Focus](#technical-book-clubs-with-implementation-focus)
+- [Retro Games: Blame-Free Post-Mortem Format](#retro-games-blame-free-post-mortem-format)
+- [What went well?](#what-went-well)
+- [What could improve?](#what-could-improve)
+- [Action items (specific, measurable)](#action-items-specific-measurable)
+- [Hackathon Side Projects](#hackathon-side-projects)
+- [Virtual Co-Working Sessions with Ambient Audio](#virtual-co-working-sessions-with-ambient-audio)
+- [Building Your Own Rotation](#building-your-own-rotation)
+
 The secret lies in activities that respect developer mindsets, use technical skills, and work across time zones without requiring everyone to be online simultaneously.
 
 ## Code Review Games That Build Community

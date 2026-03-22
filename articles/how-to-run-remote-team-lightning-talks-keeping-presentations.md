@@ -18,6 +18,14 @@ voice-checked: true
 
 Run effective remote team lightning talks by limiting presentations to exactly five minutes, establishing consistent weekly schedules, using visible timers and timekeepers, and ensuring clear, immediately applicable topics. This structure drives frequent knowledge sharing across distributed teams while respecting everyone's time and encouraging more participation than longer presentation formats.
 
+## Table of Contents
+
+- [Why Five Minutes Works](#why-five-minutes-works)
+- [Prerequisites](#prerequisites)
+- [Practical Examples](#practical-examples)
+- [Platform Options and Features Comparison](#platform-options-and-features-comparison)
+- [Troubleshooting](#troubleshooting)
+
 Lightning talks have become a staple of remote team communication. These brief, focused presentations—typically limited to five minutes—let team members share discoveries, demonstrate techniques, and spread knowledge without consuming hours of meeting time. Running them effectively in a remote environment requires structure, the right tools, and clear expectations.
 
 This guide provides a practical framework for implementing lightning talks that actually work for distributed teams.

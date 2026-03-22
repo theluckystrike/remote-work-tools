@@ -18,6 +18,13 @@ voice-checked: true
 
 Managing multiple GitHub accounts on a single machine is a common challenge for developers working on personal projects alongside client work or full-time employment. Whether you maintain a personal repository, contribute to open-source projects, and push code to a corporate organization—all from the same laptop—this guide covers the practical setup you need.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [When to Use HTTPS Instead](#when-to-use-https-instead)
+- [Related Reading](#related-reading)
+
 The core solution involves generating separate SSH keys for each account and configuring Git to use the right identity based on the repository you're working with. Here's how to set this up from scratch.
 
 ## Prerequisites

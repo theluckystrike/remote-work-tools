@@ -17,6 +17,16 @@ tags: [remote-work-tools]
 
 Gitea is a 60MB binary that gives your team GitHub-like features: repos, issues, pull requests, webhooks, and Gitea Actions (compatible with GitHub Actions syntax). Run it on a $6/month VPS and own your code. This guide covers a production Docker deployment with SSH, SMTP, and backup.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Gitea API Automation](#gitea-api-automation)
+- [Upgrading Gitea](#upgrading-gitea)
+- [Monitoring Gitea Health](#monitoring-gitea-health)
+- [Managing Multiple Runners and Labels](#managing-multiple-runners-and-labels)
+- [Pull Request Review Workflow](#pull-request-review-workflow)
+- [Related Reading](#related-reading)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

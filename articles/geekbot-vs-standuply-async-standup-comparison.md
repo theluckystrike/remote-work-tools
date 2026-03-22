@@ -33,6 +33,28 @@ tags: [remote-work-tools, comparison]
 
 Choose GeekBot if your team values simplicity, needs a lean Slack-native standup bot with minimal configuration, and works within similar time zones. Choose Standuply if you need per-user scheduling across multiple time zones, advanced question types like scale ratings and date pickers, richer analytics dashboards, or deeper integrations with Jira, GitHub, and Microsoft Teams. Both run inside Slack and offer free tiers for small teams -- this comparison breaks down the practical differences in scheduling, customization, reporting, and pricing.
 
+## Table of Contents
+
+- [Core Functionality Overview](#core-functionality-overview)
+- [Question Types and Customization](#question-types-and-customization)
+- [Scheduling and Time Zone Handling](#scheduling-and-time-zone-handling)
+- [Response Aggregation and History](#response-aggregation-and-history)
+- [Pricing Structure](#pricing-structure)
+- [Integration Ecosystem](#integration-ecosystem)
+- [Pricing Comparison and Free Tier Details](#pricing-comparison-and-free-tier-details)
+- [Real-World Implementation Scenarios](#real-world-implementation-scenarios)
+- [Common Configuration Mistakes to Avoid](#common-configuration-mistakes-to-avoid)
+- [Which Tool Should You Choose?](#which-tool-should-you-choose)
+- [Implementation Checklist: Getting Started](#implementation-checklist-getting-started)
+- [Advanced Implementation Strategies](#advanced-implementation-strategies)
+- [Deep Dive: Standuply's Advanced Features](#deep-dive-standuplys-advanced-features)
+- [Deep Dive: GeekBot's Strengths](#deep-dive-geekbots-strengths)
+- [Building Your Own Standup System](#building-your-own-standup-system)
+- [Choosing Based on Team Evolution](#choosing-based-on-team-evolution)
+- [Migration Path Between Tools](#migration-path-between-tools)
+- [Advanced Standup Strategies for Distributed Teams](#advanced-standup-strategies-for-distributed-teams)
+- [Making the Final Decision: Decision Matrix](#making-the-final-decision-decision-matrix)
+
 ## Core Functionality Overview
 
 Both GeekBot and Standuply operate within Slack, sending scheduled questions to team members and compiling responses into a consolidated view. The fundamental similarity ends there. GeekBot emphasizes simplicity and direct integration, while Standuply provides additional features like polling, trivia, and more complex scheduling options.
@@ -447,11 +469,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [How to Create Async Standup Templates in Slack With](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [Best Tools for Remote Team Standup Meetings 2026](/remote-work-tools/best-tools-for-remote-team-standup-meetings-2026/)
+- [Remote Team Standup Automation Bot Comparison: Geekbot vs](/remote-work-tools/remote-team-standup-automation-bot-comparison-geekbot-vs-sta/)
 - [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
-- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
-
+- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
+- [Standup Bot Comparison for Remote Engineering Teams](/remote-work-tools/standup-bot-comparison-for-remote-engineering-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

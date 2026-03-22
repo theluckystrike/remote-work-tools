@@ -18,6 +18,17 @@ voice-checked: true
 
 Revenue intelligence platforms have become essential infrastructure for distributed sales teams. As remote work continues to dominate the sales space, understanding how conversation analytics and AI-powered insights transform deal execution becomes critical for engineering leaders and product managers building sales tech stacks.
 
+## Table of Contents
+
+- [What is Revenue Intelligence?](#what-is-revenue-intelligence)
+- [Core Capabilities of Revenue Intelligence Platforms](#core-capabilities-of-revenue-intelligence-platforms)
+- [Gong vs. Competitors: Platform Comparison](#gong-vs-competitors-platform-comparison)
+- [Implementation Patterns for Remote Teams](#implementation-patterns-for-remote-teams)
+- [Real-World Workflows for Remote Sales Managers](#real-world-workflows-for-remote-sales-managers)
+- [Data Privacy and Compliance Considerations](#data-privacy-and-compliance-considerations)
+- [Performance Metrics and ROI](#performance-metrics-and-roi)
+- [Related Reading](#related-reading)
+
 ## What is Revenue Intelligence?
 
 Revenue intelligence combines machine learning, natural language processing, and analytics to transform customer interactions into practical recommendations. These platforms record, transcribe, and analyze sales conversations across Zoom, Google Meet, Microsoft Teams, and other communication channels.
@@ -244,6 +255,14 @@ When a prospect declines recording, Gong's bot leaves the call automatically. Re
 - [Remote Sales Team Deal Room with Shared Documents](/remote-work-tools/how-to-set-up-remote-sales-team-deal-room-with-shared-docume/)
 - [Remote Sales Team Commission Tracking Tool for Distributed Teams](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
 - [Remote Sales Team CRM Workflow Optimization](/remote-work-tools/remote-sales-team-crm-workflow-optimization-for-distributed-/)
+
+## Related Articles
+
+- [Best Remote Sales Enablement Platform for Distributed BDRs](/remote-work-tools/best-remote-sales-enablement-platform-for-distributed-bdrs-a/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Remote Sales Team Forecasting Tool Comparison for Distribute](/remote-work-tools/remote-sales-team-forecasting-tool-comparison-for-distribute/)
+- [Best CRM Data Entry Automation for Remote Sales Teams](/remote-work-tools/best-crm-data-entry-automation-for-remote-sales-teams-loggin/)
+- [Best Content Performance Analytics for Remote Editorial](/remote-work-tools/best-content-performance-analytics-for-remote-editorial-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

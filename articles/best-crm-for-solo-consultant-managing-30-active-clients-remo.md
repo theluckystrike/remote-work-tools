@@ -17,6 +17,18 @@ voice-checked: true
 
 Managing 30 active clients as a solo consultant working remotely presents a unique challenge. You lack the team support that larger operations have, yet your client expectations remain high. A well-chosen CRM becomes your second brain—tracking communications, automating follow-ups, and ensuring no client falls through the cracks.
 
+## Table of Contents
+
+- [What Solo Consultants Actually Need](#what-solo-consultants-actually-need)
+- [Option 1: HubSpot Free CRM](#option-1-hubspot-free-crm)
+- [Option 2: Pipedrive](#option-2-pipedrive)
+- [Option 3: Notion as Lightweight CRM](#option-3-notion-as-lightweight-crm)
+- [Option 4: Airtable](#option-4-airtable)
+- [Building Your Client Management System](#building-your-client-management-system)
+- [Client Profile](#client-profile)
+- [Integration Patterns That Matter](#integration-patterns-that-matter)
+- [Making Your Decision](#making-your-decision)
+
 This guide evaluates CRM solutions based on what actually matters for your scale: automation capabilities, mobile experience, pricing, and integration flexibility.
 
 ## What Solo Consultants Actually Need
@@ -251,11 +263,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Notion Setup for Solo Freelancer Managing 5 Clients: A](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
-- [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
-- [Industry match (40% weight)](/remote-work-tools/remote-sales-team-crm-workflow-optimization-for-distributed-/)
-- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
-- [Avoid Miscommunication in Async Written Messages for Remote](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remo/)
-
+- [Notion Setup for Solo Freelancer Managing 5 Clients](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
+- [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
+- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
+- [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
+- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

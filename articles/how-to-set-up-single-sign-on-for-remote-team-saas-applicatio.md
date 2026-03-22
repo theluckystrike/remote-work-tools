@@ -16,6 +16,16 @@ tags: [remote-work-tools, remote-work]
 
 Single sign-on (SSO) has become essential for remote teams managing multiple SaaS applications. When your team spans time zones and uses dozens of tools, managing individual credentials creates security risks and login fatigue. This guide walks through implementing SSO for your remote team's SaaS stack using industry-standard protocols.
 
+## Table of Contents
+
+- [Understanding SSO Protocols](#understanding-sso-protocols)
+- [Setting Up Your Identity Provider](#setting-up-your-identity-provider)
+- [Configuring SaaS Applications](#configuring-saas-applications)
+- [Implementing Custom SSO for Internal Tools](#implementing-custom-sso-for-internal-tools)
+- [Security Considerations for Remote Teams](#security-considerations-for-remote-teams)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Best Practices for Distributed Teams](#best-practices-for-distributed-teams)
+
 ## Understanding SSO Protocols
 
 Three protocols dominate modern SSO implementations: SAML 2.0, OAuth 2.0, and OpenID Connect (OIDC). Each serves different use cases and offers varying levels of complexity.

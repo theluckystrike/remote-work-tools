@@ -18,6 +18,24 @@ voice-checked: true
 
 Running an all-hands meeting for a team of 10 is straightforward. Everyone speaks, discussions happen organically, and you can read the room. Scale that to 100 people across multiple time zones, and the same approach collapses under its own weight. The meeting becomes a broadcast rather than a gathering, engagement drops, and valuable time gets wasted.
 
+## Table of Contents
+
+- [Why Traditional All-Hands Formats Break at Scale](#why-traditional-all-hands-formats-break-at-scale)
+- [The Hybrid All-Hands Framework](#the-hybrid-all-hands-framework)
+- [Engineering Update — Week of March 16](#engineering-update-week-of-march-16)
+- [Time Zone Strategies for Global Teams](#time-zone-strategies-for-global-teams)
+- [Tools That Enable Scale](#tools-that-enable-scale)
+- [Measuring Effectiveness](#measuring-effectiveness)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Putting It All Together](#putting-it-all-together)
+- [Tools and Platforms for Scaling All-Hands](#tools-and-platforms-for-scaling-all-hands)
+- [Sample 30-Day All-Hands Rollout Plan](#sample-30-day-all-hands-rollout-plan)
+- [Content Creation Process: Who Does What](#content-creation-process-who-does-what)
+- [Recognition Segments: Making All-Hands Matter](#recognition-segments-making-all-hands-matter)
+- [Asynchronous Feedback Loops](#asynchronous-feedback-loops)
+- [Scaling Beyond 100 People](#scaling-beyond-100-people)
+- [Measuring Success Beyond Attendance](#measuring-success-beyond-attendance)
+
 This guide covers practical formats and help strategies for running all-hands meetings that actually work when your team grows beyond the point where everyone can participate in a traditional synchronous discussion.
 
 ## Why Traditional All-Hands Formats Break at Scale

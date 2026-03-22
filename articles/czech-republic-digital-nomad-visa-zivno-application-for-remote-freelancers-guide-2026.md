@@ -18,6 +18,23 @@ intent-checked: true
 
 The Zivno trade license gives you Czech residency with EU healthcare access and business registration without requiring minimum investment or local company partnership—just proof of active client work and ~5,000 EUR in savings. The application involves gathering a criminal background certificate, getting apostille stamps, applying at a Czech embassy (30-90 days), then registering locally for the trade license, health insurance, and tax obligations. Monthly costs total roughly 5,000 CZK (~$200) including insurance and accounting, making it one of Europe's most affordable legal residency pathways for freelance developers.
 
+## Table of Contents
+
+- [Understanding the Zivno Pathway](#understanding-the-zivno-pathway)
+- [Eligibility Requirements for Remote Freelancers](#eligibility-requirements-for-remote-freelancers)
+- [Required Documents](#required-documents)
+- [Step-by-Step Application Process](#step-by-step-application-process)
+- [Financial Obligations and Costs](#financial-obligations-and-costs)
+- [Practical Tips for Developers](#practical-tips-for-developers)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Practical Setup Timeline and Budget Planning](#practical-setup-timeline-and-budget-planning)
+- [Understanding Czech Tax System for Remote Workers](#understanding-czech-tax-system-for-remote-workers)
+- [Banking and Financial Management](#banking-and-financial-management)
+- [Visa Extension and Long-Term Planning](#visa-extension-and-long-term-planning)
+- [Setting Up Your First Days in Czech Republic](#setting-up-your-first-days-in-czech-republic)
+- [Common Questions About Zivno for Freelancers](#common-questions-about-zivno-for-freelancers)
+- [Renewal Process](#renewal-process)
+
 ## Understanding the Zivno Pathway
 
 The Zivno is not specifically a "digital nomad visa" — it's a Czech trade license that foreign nationals can obtain to operate as self-employed individuals. When combined with a long-term residency permit, it becomes a viable option for remote freelancers wanting to live in Prague or other Czech cities while working for international clients.
@@ -304,11 +321,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
+- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 - [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-- [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
-
+- [Brazil Digital Nomad Visa Process and Tax Implications](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,14 @@ voice-checked: true
 
 Build your remote work morning routine around three phases: wake and ground (20-30 minutes of movement, hydration, and intention-setting), prepare your environment (15-20 minutes of workspace setup and dev tool initialization), and launch into deep work (15 minutes selecting your highest-value task and warming up with low-stakes coding). This structure prevents the reactive drift that kills remote productivity -- checking Slack and email before you have decided what matters today.
 
+## Table of Contents
+
+- [Why Your Morning Matters More When Working Remotely](#why-your-morning-matters-more-when-working-remotely)
+- [Prerequisites](#prerequisites)
+- [Troubleshooting Common Routine Breakdowns](#troubleshooting-common-routine-breakdowns)
+- [Advanced Morning Routine Techniques](#advanced-morning-routine-techniques)
+- [Troubleshooting When You Fall Off](#troubleshooting-when-you-fall-off)
+
 This guide walks you through building a morning routine tailored specifically for developers and power users who need sustained cognitive performance.
 
 ## Why Your Morning Matters More When Working Remotely

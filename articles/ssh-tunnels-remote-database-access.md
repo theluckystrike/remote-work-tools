@@ -33,6 +33,18 @@ tags: [remote-work-tools, remote-work]
 
 Exposing database ports directly to the internet is a security risk. SSH tunnels let you access remote databases as if they were running locally — all traffic is encrypted through SSH, and the database port never needs to be opened in your firewall.
 
+## Table of Contents
+
+- [How SSH Local Port Forwarding Works](#how-ssh-local-port-forwarding-works)
+- [Common Database Tunnels](#common-database-tunnels)
+- [Database on a Private Network (Jump Host)](#database-on-a-private-network-jump-host)
+- [Persistent Tunnels with autossh](#persistent-tunnels-with-autossh)
+- [Shell Aliases for Quick Tunnel Management](#shell-aliases-for-quick-tunnel-management)
+- [Configure GUI Database Tools](#configure-gui-database-tools)
+- [Using SSH Tunnels with ORMs and Application Code](#using-ssh-tunnels-with-orms-and-application-code)
+- [Tunnel Comparison: Manual SSH vs autossh vs GUI Built-in](#tunnel-comparison-manual-ssh-vs-autossh-vs-gui-built-in)
+- [Verify and Debug Tunnels](#verify-and-debug-tunnels)
+
 This guide covers local port forwarding for databases, jump hosts, persistent tunnels with autossh, and configuring GUI database tools to use them.
 
 ## How SSH Local Port Forwarding Works
@@ -348,11 +360,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 - [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
-- [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
-- [Notion Database Templates for a Solo Recruiter Working Remot](/remote-work-tools/notion-database-templates-for-a-solo-recruiter-working-remot/)
-- [Best Cloud Access Security Broker for Remote Teams Using](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
-
+- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
+- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Clio API authentication"
+title: "Remote Law Firm Client Portal Comparison (2026)"
 description: "Distributed law firms need client communication portals with end-to-end encryption, two-factor authentication, and audit logging for HIPAA and attorney-client"
 date: 2026-03-15
 last_modified_at: 2026-03-15
@@ -31,6 +31,21 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 Distributed law firms need client communication portals with end-to-end encryption, two-factor authentication, and audit logging for HIPAA and attorney-client privilege compliance. Clio, MyCase, and Filevine offer different balances of API capabilities, customization, and pricing—from $39/user/month to custom enterprise rates. This comparison evaluates leading solutions based on API capabilities, security features, and integration patterns for remote law firm operations.
+
+## Table of Contents
+
+- [Core Requirements for Legal Communication Portals](#core-requirements-for-legal-communication-portals)
+- [Platform Comparison](#platform-comparison)
+- [Head-to-Head Feature Comparison](#head-to-head-feature-comparison)
+- [Building a Custom Portal Integration](#building-a-custom-portal-integration)
+- [Security Considerations for Distributed Teams](#security-considerations-for-distributed-teams)
+- [API Rate Limits and Throttling](#api-rate-limits-and-throttling)
+- [Compliance and Legal Considerations](#compliance-and-legal-considerations)
+- [Client Onboarding Best Practices for Remote Firms](#client-onboarding-best-practices-for-remote-firms)
+- [Integration with Practice Management Systems](#integration-with-practice-management-systems)
+- [Cost Analysis](#cost-analysis)
+- [Evaluating Portals for Specific Practice Areas](#evaluating-portals-for-specific-practice-areas)
+- [Implementation Checklist](#implementation-checklist)
 
 ## Core Requirements for Legal Communication Portals
 

@@ -17,6 +17,36 @@ voice-checked: true
 
 Launch remote team guilds by defining a guild purpose and membership, setting up a dedicated communication channel and regular meeting cadence, and creating a knowledge base for guild-specific resources. Guilds connect people across teams who share interests or expertise, strengthening organizational culture in distributed environments.
 
+## Table of Contents
+
+- [Understanding Guilds Versus Communities of Practice](#understanding-guilds-versus-communities-of-practice)
+- [Step 1: Define Clear Scope and Purpose](#step-1-define-clear-scope-and-purpose)
+- [Step 2: Recruit Active Members](#step-2-recruit-active-members)
+- [Step 3: Establish Regular Async Cadence](#step-3-establish-regular-async-cadence)
+- [Step 4: Create Structured Documentation](#step-4-create-structured-documentation)
+- [ADR-023: Use React Query for Server State Management](#adr-023-use-react-query-for-server-state-management)
+- [Step 5: Run Synchronous Sessions Strategically](#step-5-run-synchronous-sessions-strategically)
+- [Step 6: Connect Guilds to Team Workflows](#step-6-connect-guilds-to-team-workflows)
+- [Step 7: Measure and Iterate](#step-7-measure-and-iterate)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Practical Starting Point](#practical-starting-point)
+- [Guild Template for Your First Guild Launch](#guild-template-for-your-first-guild-launch)
+- [Guild Identification](#guild-identification)
+- [Mission Statement](#mission-statement)
+- [Scope](#scope)
+- [Membership](#membership)
+- [Deliverables](#deliverables)
+- [Meeting Cadence](#meeting-cadence)
+- [Success Metrics (Review quarterly)](#success-metrics-review-quarterly)
+- [Escalation Path](#escalation-path)
+- [Modification History](#modification-history)
+- [Guild Lifecycle: When to Sunset, Merge, or Evolve](#guild-lifecycle-when-to-sunset-merge-or-evolve)
+- [Integrating Guilds into Org Structure](#integrating-guilds-into-org-structure)
+- [Guild Reviews](#guild-reviews)
+- [Measuring Guild ROI](#measuring-guild-roi)
+- [Guild Communication Channels and Tooling](#guild-communication-channels-and-tooling)
+- [When Guild Coverage Isn't Enough](#when-guild-coverage-isnt-enough)
+
 ## Understanding Guilds Versus Communities of Practice
 
 Before implementing, distinguish between these two structures. A guild is typically a cross-team group organized around a technical domain or skill area—think frontend architecture, DevOps practices, or testing strategies. Guilds focus on building shared standards, reducing duplication of effort, and advancing the organization's technical capabilities in specific areas.

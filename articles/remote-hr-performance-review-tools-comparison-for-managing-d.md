@@ -18,6 +18,17 @@ voice-checked: true
 
 Managing performance reviews for distributed teams requires a fundamentally different approach than traditional in-office reviews. The tools you choose must support asynchronous workflows, timezone-agnostic feedback collection, calibration at scale, and integration with your existing development infrastructure. This guide evaluates the most practical options for engineering managers and HR teams who need both programmatic control and a smooth employee experience.
 
+## Table of Contents
+
+- [Core Requirements for Distributed Team Reviews](#core-requirements-for-distributed-team-reviews)
+- [Tool Comparison](#tool-comparison)
+- [Comparison Table](#comparison-table)
+- [Building Your Own Review System](#building-your-own-review-system)
+- [Step-by-Step Implementation Guide](#step-by-step-implementation-guide)
+- [Choosing the Right Approach](#choosing-the-right-approach)
+- [Common Pitfalls and Troubleshooting](#common-pitfalls-and-troubleshooting)
+- [Related Reading](#related-reading)
+
 ## Core Requirements for Distributed Team Reviews
 
 Before evaluating specific tools, establish your baseline requirements. Remote performance review tools must handle several key capabilities:
@@ -284,6 +295,14 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 - [Async 360 Feedback Process for Remote Teams Without Live Meetings](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [Best Tool for Async Performance Feedback Collection for Distributed Teams](/remote-work-tools/best-tool-for-async-performance-feedback-collection-for-dist/)
 - [Remote Employee Output-Based Performance Measurement Framework](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
+
+## Related Articles
+
+- [Remote Work Performance Review Tools Comparison 2026](/remote-work-tools/remote-work-performance-review-tools-comparison-2026/)
+- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
+- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
+- [Best Data Collection Tools for Remote User Research Teams](/remote-work-tools/best-data-collection-tool-for-remote-user-research-teams-gat/)
+- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

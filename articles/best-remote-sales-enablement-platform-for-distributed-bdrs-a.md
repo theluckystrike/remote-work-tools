@@ -18,6 +18,17 @@ voice-checked: true
 
 Remote sales teams need enablement tools that work across time zones, integrate with existing stacks, and provide real-time visibility into rep performance. The right platform combines content management, playbooks, training, and analytics into an unified system that keeps distributed BDRs and account executives aligned without constant synchronous communication.
 
+## Table of Contents
+
+- [Core Requirements for Remote Sales Enablement](#core-requirements-for-remote-sales-enablement)
+- [HubSpot Sales Hub: Tight CRM Integration](#hubspot-sales-hub-tight-crm-integration)
+- [Salesforce Sales Cloud: Enterprise-Grade Enablement](#salesforce-sales-cloud-enterprise-grade-enablement)
+- [Gong: Conversation Intelligence for Remote Teams](#gong-conversation-intelligence-for-remote-teams)
+- [Lavender: Email Enablement for BDRs](#lavender-email-enablement-for-bdrs)
+- [Chorus: Deal Inspection and Coaching](#chorus-deal-inspection-and-coaching)
+- [Building Your Stack: Integration Patterns](#building-your-stack-integration-patterns)
+- [Selecting the Right Platform](#selecting-the-right-platform)
+
 This guide evaluates platforms based on API capabilities, automation potential, and fit for remote-first sales workflows.
 
 ## Core Requirements for Remote Sales Enablement

@@ -22,6 +22,17 @@ This guide compares the leading external webcams for remote work, including real
 
 ## Why Upgrade Your Webcam
 
+## Table of Contents
+
+- [Why Upgrade Your Webcam](#why-upgrade-your-webcam)
+- [Top External Webcams for Remote Work](#top-external-webcams-for-remote-work)
+- [Specifications Comparison Table](#specifications-comparison-table)
+- [Lighting Condition Performance](#lighting-condition-performance)
+- [Real-World Benchmarks](#real-world-benchmarks)
+- [Best Practices for Remote Work Webcams](#best-practices-for-remote-work-webcams)
+- [Recommendations by Use Case](#recommendations-by-use-case)
+- [Related Reading](#related-reading)
+
 Integrated webcams limit your professional presence:
 - Poor low-light performance (grainy, blue-tinted video)
 - Fixed framing (can't adjust viewing angle mid-call)

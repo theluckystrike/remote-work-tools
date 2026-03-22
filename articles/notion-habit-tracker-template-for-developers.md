@@ -33,6 +33,20 @@ tags: [remote-work-tools]
 
 Build a developer habit tracker in Notion using two connected databases: a Habits database (name, category, frequency, streak) and a Daily Log database (date, habit relation, completed checkbox, notes). Start with three or fewer habits tied to your development goals -- like daily commits, code reviews, or learning time -- and connect them via a Relation property for automatic streak tracking. This guide walks through the full setup with database configurations and automation examples you can use immediately.
 
+## Table of Contents
+
+- [Why Developers Need Structured Habit Tracking](#why-developers-need-structured-habit-tracking)
+- [Core Database Structure](#core-database-structure)
+- [Implementing the Tracker](#implementing-the-tracker)
+- [Advanced Configuration for Developer Workflows](#advanced-configuration-for-developer-workflows)
+- [Automating with Notion Automations](#automating-with-notion-automations)
+- [Integration with Other Tools](#integration-with-other-tools)
+- [Practical Tips for Success](#practical-tips-for-success)
+- [Measuring Habit Success](#measuring-habit-success)
+- [Troubleshooting Common Habit Failures](#troubleshooting-common-habit-failures)
+- [Advanced: Creating Accountability](#advanced-creating-accountability)
+- [When to Restart Your Tracker](#when-to-restart-your-tracker)
+
 ## Why Developers Need Structured Habit Tracking
 
 Developers operate in complex environments requiring sustained focus across multiple projects. Unlike traditional task management, habit tracking focuses on consistency rather than completion. The distinction matters because developers who write code daily build muscle memory faster than those who code in bursts.
@@ -369,11 +383,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [Notion Database Templates for a Solo Recruiter Working Remot](/remote-work-tools/notion-database-templates-for-a-solo-recruiter-working-remot/)
+- [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-- [Freelance Proposal Template for Developers in 2026](/remote-work-tools/freelance-proposal-template-for-developers-2026/)
-- [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
-- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
-
+- [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
+- [Notion API Integration Returning 502 Errors Fix (2026)](/remote-work-tools/notion-api-integration-returning-502-errors-fix-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

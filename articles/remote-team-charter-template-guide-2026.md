@@ -17,6 +17,13 @@ intent-checked: true
 
 A remote team charter serves as the foundational document for distributed teams, establishing clear expectations, communication protocols, and operational guidelines. This guide provides actionable templates and examples for developers and power users building or managing remote teams in 2026.
 
+## Table of Contents
+
+- [Why Your Remote Team Needs a Charter](#why-your-remote-team-needs-a-charter)
+- [Prerequisites](#prerequisites)
+- [Performance Expectations](#performance-expectations)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Your Remote Team Needs a Charter
 
 Without explicit agreements, remote teams face friction in communication, decision-making, and accountability. A well-crafted charter prevents misunderstandings by documenting:

@@ -17,6 +17,39 @@ tags: [remote-work-tools, remote-work]
 
 Run effective async design critiques with five key steps: prepare designs with context and specific questions, set 24-48 hour review deadlines, collect feedback in a structured format (threaded comments, Markdown, or issues), synthesize and respond to all input, and close the loop by sharing implemented changes. This removes time zone friction while maintaining design quality through structured documentation and clear feedback prompts that produce practical recommendations.
 
+## Table of Contents
+
+- [What Makes Async Design Critique Effective](#what-makes-async-design-critique-effective)
+- [Step 1: Prepare Your Design for Review](#step-1-prepare-your-design-for-review)
+- [Design Review: [Feature Name]](#design-review-feature-name)
+- [Step 2: Define Your Review Timeline](#step-2-define-your-review-timeline)
+- [Step 3: Organize Feedback Collection](#step-3-organize-feedback-collection)
+- [Feedback for: Login Screen Redesign](#feedback-for-login-screen-redesign)
+- [Step 4: Respond and Iterate](#step-4-respond-and-iterate)
+- [Feedback Summary](#feedback-summary)
+- [Step 5: Close the Loop](#step-5-close-the-loop)
+- [Practical Tips for Remote UX Teams](#practical-tips-for-remote-ux-teams)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Design Critique Tool Comparison](#design-critique-tool-comparison)
+- [Real-World Critique Template](#real-world-critique-template)
+- [Context](#context)
+- [Specific Questions](#specific-questions)
+- [What's NOT up for critique this round](#whats-not-up-for-critique-this-round)
+- [Review deadline](#review-deadline)
+- [Provide feedback in format:](#provide-feedback-in-format)
+- [Automation: Keeping Critique On Schedule](#automation-keeping-critique-on-schedule)
+- [Feedback Synthesis Workflow](#feedback-synthesis-workflow)
+- [Critique Summary - [Feature Name]](#critique-summary-feature-name)
+- [Measuring Critique Quality Over Time](#measuring-critique-quality-over-time)
+- [Scaling Async Critique in Growing Teams](#scaling-async-critique-in-growing-teams)
+- [Tools Comparison Deep Dive](#tools-comparison-deep-dive)
+- [Handling Difficult Feedback Scenarios](#handling-difficult-feedback-scenarios)
+- [Conflicting Feedback Resolution](#conflicting-feedback-resolution)
+- [Handling Reviewer Burnout](#handling-reviewer-burnout)
+- [Cross-Time-Zone Critique](#cross-time-zone-critique)
+- [Measuring Process Health Beyond Participation Rate](#measuring-process-health-beyond-participation-rate)
+- [Async Critique for Non-Design Decisions](#async-critique-for-non-design-decisions)
+
 ## What Makes Async Design Critique Effective
 
 The core principle behind async design critique is **structured documentation**. Unlike synchronous sessions where feedback happens in real-time and often gets lost in conversation, async critique requires participants to write down their thoughts deliberately. This produces a permanent record that team members can reference later.
@@ -394,11 +427,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 - [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [Async QA Signoff Process for Remote Teams Releasing Weekly](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
-
+- [Best Tools for Async Annotation and Commenting on Design](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)
+- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [Best Annotation Tool for Remote Design Review with Clients](/remote-work-tools/best-annotation-tool-for-remote-design-review-with-clients-2/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

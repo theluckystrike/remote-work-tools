@@ -17,6 +17,21 @@ voice-checked: true
 
 Team retrospectives are the heartbeat of continuous improvement in software development. Yet for remote and distributed teams, the traditional synchronous retrospective often becomes a burden—scheduling conflicts across time zones, participants who disengage during lengthy video calls, and valuable insights that get lost in real-time discussion. An async team retrospective using shared documents and recorded summaries solves these problems while often producing more thoughtful, detailed results.
 
+## Table of Contents
+
+- [Why Async Retrospectives Work](#why-async-retrospectives-work)
+- [Setting Up Your Async Retrospective Structure](#setting-up-your-async-retrospective-structure)
+- [What Went Well](#what-went-well)
+- [What Could Improve](#what-could-improve)
+- [Action Items](#action-items)
+- [Collecting Input Across Time Zones](#collecting-input-across-time-zones)
+- [Using Recorded Summaries Effectively](#using-recorded-summaries-effectively)
+- [Aggregating and Prioritizing Insights](#aggregating-and-prioritizing-insights)
+- [Summary of Themes](#summary-of-themes)
+- [Driving Action Through Follow-Through](#driving-action-through-follow-through)
+- [Scaling Async Retrospectives Across Your Organization](#scaling-async-retrospectives-across-your-organization)
+- [Measuring Retro Effectiveness](#measuring-retro-effectiveness)
+
 This guide shows you how to implement a fully async retrospective workflow that your team can complete on their own schedules, without sacrificing the depth and actionability that make retrospectives valuable.
 
 ## Why Async Retrospectives Work
@@ -251,11 +266,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async Decision Making with RFC Documents for Engineering](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [How to Do Async Code Pairing with Recorded Screen Share](/remote-work-tools/how-to-do-async-code-pairing-with-recorded-screen-share-sessions/)
-- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
-
+- [Asynchronous Team Retrospective Tools Methods Process](/remote-work-tools/asynchronous-team-retrospective-tools-methods-process/)
+- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [How to Organize Remote Team Retrospective Learnings](/remote-work-tools/how-to-organize-remote-team-retrospective-learnings-document/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Async Retrospective Tools and Process Guide](/remote-work-tools/async-retrospective-tools-and-process/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

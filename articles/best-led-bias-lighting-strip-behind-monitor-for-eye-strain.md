@@ -17,6 +17,16 @@ tags: [remote-work-tools, best-of]
 
 Install 2700K-3000K LED bias lighting behind your monitor to reduce eye strain by up to 50% during extended work sessions. The key is matching your bias light's color temperature to your screen to minimize pupil adjustment. This guide covers the best affordable bias lighting strips, smart lighting options with app control, and setup patterns for reducing digital eye fatigue.
 
+## Table of Contents
+
+- [What is Bias Lighting and Why Does It Matter?](#what-is-bias-lighting-and-why-does-it-matter)
+- [Key Features to Look for in an LED Bias Light Strip](#key-features-to-look-for-in-an-led-bias-light-strip)
+- [Top LED Bias Lighting Strips for Eye Strain Relief](#top-led-bias-lighting-strips-for-eye-strain-relief)
+- [How to Install LED Bias Lighting Behind Your Monitor](#how-to-install-led-bias-lighting-behind-your-monitor)
+- [Optimal Settings for Eye Strain Reduction](#optimal-settings-for-eye-strain-reduction)
+- [Automating Color Temperature with Home Assistant](#automating-color-temperature-with-home-assistant)
+- [Additional Tips for Reducing Eye Strain](#additional-tips-for-reducing-eye-strain)
+
 ## What is Bias Lighting and Why Does It Matter?
 
 Bias lighting is a light source placed behind your monitor that illuminates the wall or surface behind it. Unlike the bright overhead lights or screen glare that can cause additional eye strain, bias lighting creates a gentle, ambient glow that reduces the contrast between your bright screen and the darker surroundings.
@@ -255,9 +265,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
 - [How to Reduce Eye Strain as a Remote Developer](/remote-work-tools/how-to-reduce-eye-strain-remote-developer/)
-- [How to Mount Monitor on Wall Behind Standing Desk Setup](/remote-work-tools/how-to-mount-monitor-on-wall-behind-standing-desk-setup/)
-- [Best Power Strip for Developer Desk Setup: A Practical Guide](/remote-work-tools/best-power-strip-for-developer-desk-setup/)
-- [Best Power Strip With Surge Protector for Home Office Desk](/remote-work-tools/best-power-strip-with-surge-protector-for-home-office-desk-2/)
-
+- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [Screen Brightness Settings for Eye Health](/remote-work-tools/screen-brightness-settings-for-eye-health-developers/)
+- [Best Remote Work Monitor Light Bar 2026](/remote-work-tools/best-remote-work-monitor-light-bar-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

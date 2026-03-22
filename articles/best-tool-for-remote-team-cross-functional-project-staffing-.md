@@ -71,6 +71,13 @@ voice-checked: true---
 
 As remote teams scale beyond 50 employees, assigning the right people to cross-functional projects becomes exponentially harder. The challenge isn't just finding available engineers—it's identifying who possesses the specific skills needed, understanding timezone coverage, accounting for current workload, and ensuring diversity of perspective across the project team. This guide evaluates the best tools for cross-functional project staffing in 2026, with practical implementation patterns for developers and power users.
 
+## Table of Contents
+
+- [The Staffing Challenge at Scale](#the-staffing-challenge-at-scale)
+- [Tool Comparison: Core Capabilities](#tool-comparison-core-capabilities)
+- [Recommended Solution: Custom Pipeline with Notion + API Integration](#recommended-solution-custom-pipeline-with-notion-api-integration)
+- [Implementation Recommendations](#implementation-recommendations)
+
 ## The Staffing Challenge at Scale
 
 When your organization had 15 people, staffing decisions happened organically. You knew who worked on what, who had bandwidth, and who complemented each other's skills. At 150 people across 12 time zones, that informal knowledge breaks down completely.

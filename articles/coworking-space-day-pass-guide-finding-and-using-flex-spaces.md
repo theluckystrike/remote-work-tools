@@ -18,6 +18,13 @@ voice-checked: true
 
 Day passes for coworking spaces represent one of the most flexible options for remote developers and digital nomads who need professional workspace occasionally without committing to monthly memberships. This guide covers practical strategies for finding, evaluating, and maximizing day passes at flex spaces in 2026.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Coworking Platform Comparison: Features and Pricing](#coworking-platform-comparison-features-and-pricing)
+- [Advanced Strategies for Power Users](#advanced-strategies-for-power-users)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

@@ -17,6 +17,26 @@ tags: [remote-work-tools]
 
 Harbor is an open-source container registry that goes beyond basic storage: built-in Trivy image scanning, replication to cloud registries, robot accounts for CI, LDAP/OIDC auth, and a web UI. Remote teams get one registry their entire pipeline can trust, with audit logs showing who pushed what.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Nginx Frontend (if using existing nginx)](#nginx-frontend-if-using-existing-nginx)
+- [OIDC Authentication (Keycloak)](#oidc-authentication-keycloak)
+- [Project Structure](#project-structure)
+- [Robot Accounts for CI/CD](#robot-accounts-for-cicd)
+- [Image Scanning Policies](#image-scanning-policies)
+- [Replication to AWS ECR](#replication-to-aws-ecr)
+- [Daily Garbage Collection](#daily-garbage-collection)
+- [Pull Images](#pull-images)
+- [Tag Retention Policies](#tag-retention-policies)
+- [Webhook Notifications for Scan Results](#webhook-notifications-for-scan-results)
+- [Backup Strategy](#backup-strategy)
+- [Enforcing Content Trust with Cosign](#enforcing-content-trust-with-cosign)
+- [Monitoring Harbor Health](#monitoring-harbor-health)
+- [Related Reading](#related-reading)
+
 ## Prerequisites
 
 - Docker and Docker Compose installed

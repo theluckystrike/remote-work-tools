@@ -18,6 +18,17 @@ intent-checked: true
 
 Remote team offsites require coordinating travel, accommodations, activities, and budgets across multiple time zones and preferences. Managing these details through email creates chaos: conflicting flight bookings, double-booked accommodations, hidden cost overruns, and attendees learning about activities last-minute. Dedicated offsite planning tools integrate travel booking, expense management, and group coordination in one place.
 
+## Table of Contents
+
+- [Why Dedicated Offsite Tools Matter](#why-dedicated-offsite-tools-matter)
+- [Airbnb for Work: Housing-Focused Platform](#airbnb-for-work-housing-focused-platform)
+- [TravelPerk: Full-Service Enterprise Travel](#travelperk-full-service-enterprise-travel)
+- [TroopTravel: Specialized Offsite Coordinator](#trooptravel-specialized-offsite-coordinator)
+- [Navan: Enterprise Travel and Expensing Platform](#navan-enterprise-travel-and-expensing-platform)
+- [Comparison Matrix](#comparison-matrix)
+- [Choosing the Right Tool](#choosing-the-right-tool)
+- [Offsite Planning Checklist](#offsite-planning-checklist)
+
 ## Why Dedicated Offsite Tools Matter
 
 Traditional approaches break down when managing offsites:

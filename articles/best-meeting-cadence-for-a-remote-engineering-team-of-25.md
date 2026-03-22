@@ -17,6 +17,27 @@ voice-checked: true
 
 Running meetings for a 25-person remote engineering team requires deliberate structure. Too many meetings and you destroy focused work time. Too few and alignment breaks down. The sweet spot balances synchronous collaboration with asynchronous communication, respecting both deep work needs and team cohesion.
 
+## Table of Contents
+
+- [The Core Meeting Structure](#the-core-meeting-structure)
+- [Meeting-Free Days](#meeting-free-days)
+- [Async Alternatives to Reduce Meeting Load](#async-alternatives-to-reduce-meeting-load)
+- [Status: Proposed](#status-proposed)
+- [Author: @engineer](#author-engineer)
+- [Reviewers: @team-leads](#reviewers-team-leads)
+- [Tools That Support Meeting Efficiency](#tools-that-support-meeting-efficiency)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Detailed Meeting Schedule for 25-Person Teams](#detailed-meeting-schedule-for-25-person-teams)
+- [Async Standup Implementation](#async-standup-implementation)
+- [Special Meeting Types and Their Frequency](#special-meeting-types-and-their-frequency)
+- [Meeting-Free Time Policies](#meeting-free-time-policies)
+- [Policy](#policy)
+- [Exceptions](#exceptions)
+- [Enforcement](#enforcement)
+- [Measuring Meeting Effectiveness](#measuring-meeting-effectiveness)
+- [Meeting Cadence Survey](#meeting-cadence-survey)
+- [Common Meeting Schedule Mistakes](#common-meeting-schedule-mistakes)
+
 This guide provides a tested meeting cadence for mid-sized remote engineering teams, with practical schedules and tools you can implement immediately.
 
 ## The Core Meeting Structure
@@ -370,10 +391,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
-- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
-- [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
-- [Remote Agency Client Communication Cadence Template for](/remote-work-tools/remote-agency-client-communication-cadence-template-for-proj/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -168,6 +168,15 @@ Replace bracketed placeholders with specific, researched details. Generic templa
 
 Start with one template, customize it for your target clients, and track your results. Adjust based on what converts. The goal isn't perfection—it's consistent execution with continuous optimization.
 
+## Table of Contents
+
+- [Advanced Targeting Strategies](#advanced-targeting-strategies)
+- [Email Copy Testing Framework](#email-copy-testing-framework)
+- [Outreach Campaign Sequences](#outreach-campaign-sequences)
+- [Pricing and Value Discussion Templates](#pricing-and-value-discussion-templates)
+- [Tracking and Optimization Dashboard](#tracking-and-optimization-dashboard)
+- [Industry-Specific Outreach Angles](#industry-specific-outreach-angles)
+
 ## Advanced Targeting Strategies
 
 ### Prospecting Research Framework

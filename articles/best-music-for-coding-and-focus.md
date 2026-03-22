@@ -27,6 +27,21 @@ voice-checked: true
 
 The best music for coding and focus is **ambient electronic** or **lo-fi hip hop** for routine tasks like debugging and unit tests, **Baroque classical** (Bach, Vivaldi) for complex problem-solving, and **video game soundtracks** (Journey, Hollow Knight) for extended deep-work sessions. Stick to lyric-free music at 40-50% volume to avoid competing with verbal processing, and create separate playlists for different task types so your brain builds context-switching associations. Below you'll find genre breakdowns, playlist recommendations, automation scripts, and guidance on when silence works better.
 
+## Table of Contents
+
+- [Why Music Affects Developer Productivity](#why-music-affects-developer-productivity)
+- [Cognitive Load and Music Complexity](#cognitive-load-and-music-complexity)
+- [Best Music Genres for Coding](#best-music-genres-for-coding)
+- [Building Your Own Focus Playlist System](#building-your-own-focus-playlist-system)
+- [Using Music as a Task Context Marker](#using-music-as-a-task-context-marker)
+- [Music Streaming Platforms Comparison for Developers](#music-streaming-platforms-comparison-for-developers)
+- [Automation: Smart Music Switching by Task](#automation-smart-music-switching-by-task)
+- [Integrating Focus Music with tmux Workflows](#integrating-focus-music-with-tmux-workflows)
+- [Headphone Hardware for Optimal Music Experience](#headphone-hardware-for-optimal-music-experience)
+- [Advanced Playlist Recommendations by Language/Framework](#advanced-playlist-recommendations-by-languageframework)
+- [When to Avoid Music](#when-to-avoid-music)
+- [Quick Start Recommendations](#quick-start-recommendations)
+
 ## Why Music Affects Developer Productivity
 
 Music influences cognitive performance through multiple mechanisms. Upbeat tempo can increase energy during tedious tasks like code reviews, while repetitive, ambient soundscapes create a "flow state" ideal for complex problem-solving. The key is matching your music choice to your current task type.

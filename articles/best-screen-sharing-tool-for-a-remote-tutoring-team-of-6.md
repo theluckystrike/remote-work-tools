@@ -20,6 +20,23 @@ tags: [remote-work-tools, best-of, remote-work]
 
 **Zoom** is the best screen sharing tool for a remote tutoring team of 6, offering built-in annotation, breakout rooms for one-on-one sessions, and reliable low-latency sharing at $15.99 per host monthly. For budget-constrained teams, Google Meet covers essentials for free, while Discord provides the most cost-effective option at $9.99 total with strong community features. Programming-focused teams should consider VS Code Live Share for real-time collaborative editing instead of passive screen viewing.
 
+## Table of Contents
+
+- [Understanding Tutoring-Specific Requirements](#understanding-tutoring-specific-requirements)
+- [Zoom: The Industry Standard for Education](#zoom-the-industry-standard-for-education)
+- [Google Meet: Free Tier Advantage](#google-meet-free-tier-advantage)
+- [Discord: Community and Flexibility](#discord-community-and-flexibility)
+- [Where Specialized Tutoring Tools Fit](#where-specialized-tutoring-tools-fit)
+- [Network and Infrastructure Recommendations](#network-and-infrastructure-recommendations)
+- [Recommendation for Six-Person Teams](#recommendation-for-six-person-teams)
+- [Advanced Zoom Configuration for Tutoring Operations](#advanced-zoom-configuration-for-tutoring-operations)
+- [Detailed Pricing Comparison with Operational Costs](#detailed-pricing-comparison-with-operational-costs)
+- [Tutor-to-Student Workflow Patterns](#tutor-to-student-workflow-patterns)
+- [Advanced Annotation and Whiteboarding Techniques](#advanced-annotation-and-whiteboarding-techniques)
+- [Recording and Asynchronous Learning Integration](#recording-and-asynchronous-learning-integration)
+- [Backup and Redundancy Strategy for Six-Tutor Teams](#backup-and-redundancy-strategy-for-six-tutor-teams)
+- [Data Storage and Compliance Considerations](#data-storage-and-compliance-considerations)
+
 ## Understanding Tutoring-Specific Requirements
 
 Remote tutoring creates unique screen sharing demands compared to general business meetings. You need the ability to switch between viewing student screens and demonstrating on your own, often within seconds. Annotation overlays that persist during explanations help reinforce concepts. Recording capabilities allow students to review sessions later. For a team of six tutors, you'll also want reasonable per-seat pricing and administrative controls for managing team access.
@@ -446,11 +463,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
+- [Best Container Registry Tool for Remote Teams Sharing](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
 - [Best Screen Sharing Tools for Presenting Designs to Clients](/remote-work-tools/screen-sharing-tool-for-presenting-designs-to-clients-remote/)
-- [Screen Sharing Solutions for Hybrid Meetings](/remote-work-tools/screen-sharing-solutions-for-hybrid-meetings/)
-- [Remote Team Password Sharing Best Practices for Shared](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
-- [Best Collaboration Tool for Remote Machine Learning Teams](/remote-work-tools/best-collaboration-tool-for-remote-machine-learning-teams-sharing-experiment-results/)
-- [Upload large file with chunked upload](/remote-work-tools/best-file-sharing-solution-for-remote-agency-large-design-fi/)
-
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [How to Monitor Remote Team Tool Response Times for](/remote-work-tools/how-to-monitor-remote-team-tool-response-times-for-identifyi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

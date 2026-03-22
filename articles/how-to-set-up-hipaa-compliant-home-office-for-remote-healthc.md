@@ -31,6 +31,21 @@ tags: [remote-work-tools, remote-work]
 
 Set up a HIPAA-compliant home office by combining physical security (locked devices, monitor privacy), network encryption (VPN without split tunneling), endpoint management (MDM enrollment, antivirus), and secure practices (MFA, encrypted communication, session timeouts). Remote healthcare workers must implement the same privacy controls required in clinical settings when accessing patient data from home. This guide covers technical requirements and practical implementation for creating a compliant remote workspace.
 
+## Table of Contents
+
+- [Physical Security Requirements](#physical-security-requirements)
+- [Network Security Configuration](#network-security-configuration)
+- [Endpoint Device Management](#endpoint-device-management)
+- [Access Control and Authentication](#access-control-and-authentication)
+- [Secure Communication and File Handling](#secure-communication-and-file-handling)
+- [Audit Logging and Compliance Verification](#audit-logging-and-compliance-verification)
+- [Vendor Selection Guide for HIPAA-Compliant Tools](#vendor-selection-guide-for-hipaa-compliant-tools)
+- [Specific Clinical Workflows and Compliance](#specific-clinical-workflows-and-compliance)
+- [Compliance Verification Checklist](#compliance-verification-checklist)
+- [Common Mistakes That Break Compliance](#common-mistakes-that-break-compliance)
+- [Legal Liability and Risk Assessment](#legal-liability-and-risk-assessment)
+- [Building Your Compliant Setup](#building-your-compliant-setup)
+
 ## Physical Security Requirements
 
 HIPAA's Physical Safeguards section (164.310) requires you to protect electronic PHI (ePHI) from unauthorized physical access, tampering, or theft. Your home office must implement controls that a covered entity would apply in any facility.

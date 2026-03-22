@@ -18,6 +18,31 @@ voice-checked: true
 
 Showing code changes to non-technical clients presents a unique communication challenge. Your client needs to understand what changed, why it matters, and how it affects their project—without getting lost in syntax, file structures, or developer jargon. Video walkthroughs bridge this gap by combining visual demonstration with verbal explanation, letting you control the narrative and pace.
 
+## Table of Contents
+
+- [Why Video Walkthroughs Work Better Than Screenshots](#why-video-walkthroughs-work-better-than-screenshots)
+- [Essential Tools for Code Change Presentations](#essential-tools-for-code-change-presentations)
+- [Creating Effective Code Walkthroughs](#creating-effective-code-walkthroughs)
+- [Introduction (30 seconds)](#introduction-30-seconds)
+- [Main Demonstration (2-4 minutes)](#main-demonstration-2-4-minutes)
+- [Client-Facing Summary (30 seconds)](#client-facing-summary-30-seconds)
+- [Practical Example: Presenting a Bug Fix](#practical-example-presenting-a-bug-fix)
+- [Tools Comparison at a Glance](#tools-comparison-at-a-glance)
+- [Best Practices for Client Communication](#best-practices-for-client-communication)
+- [Automating Documentation with Video Links](#automating-documentation-with-video-links)
+- [Video Explanation](#video-explanation)
+- [Changes Made](#changes-made)
+- [Advanced Recording Tools Comparison](#advanced-recording-tools-comparison)
+- [Setting Up Your Recording Environment](#setting-up-your-recording-environment)
+- [Scripting and Automation for Video Walkthroughs](#scripting-and-automation-for-video-walkthroughs)
+- [INTRO (30 seconds)](#intro-30-seconds)
+- [TECHNICAL WALKTHROUGH (2-3 minutes)](#technical-walkthrough-2-3-minutes)
+- [CLIENT-FACING SUMMARY (30 seconds)](#client-facing-summary-30-seconds)
+- [CLOSING](#closing)
+- [Recording with Automation](#recording-with-automation)
+- [Interactive HTML Presentation Alternative](#interactive-html-presentation-alternative)
+- [Video Storage and Organization](#video-storage-and-organization)
+
 This guide covers the tools and techniques you need to create effective video explanations of code changes for non-technical stakeholders.
 
 ## Why Video Walkthroughs Work Better Than Screenshots
@@ -572,11 +597,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
-- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
-- [Best Screen Sharing Tools for Presenting Designs to Clients](/remote-work-tools/screen-sharing-tool-for-presenting-designs-to-clients-remote/)
-- [How to Make Async Communication Inclusive for Non-Native](/remote-work-tools/how-to-make-async-communication-inclusive-for-non-native-eng/)
-- [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
-
+- [Best Async Video Messaging Tools for Distributed Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
+- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
+- [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
+- [Best Async Video Messaging Tools for Remote Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-remote-teams-2026/)
+- [Best Whiteboard Tools for Video Calls](/remote-work-tools/best-whiteboard-tools-for-video-calls/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

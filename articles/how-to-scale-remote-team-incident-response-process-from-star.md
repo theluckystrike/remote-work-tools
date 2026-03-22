@@ -32,6 +32,27 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 Scaling incident response for remote teams requires evolving from informal ad-hoc processes to structured, documented workflows as your team grows. The key is recognizing which processes work at each stage and when to introduce new structure without creating unnecessary bureaucracy.
 
+## Table of Contents
+
+- [Understanding the Growth Challenge](#understanding-the-growth-challenge)
+- [Phase 1: Startup (1-10 Engineers)](#phase-1-startup-1-10-engineers)
+- [Incident Ownership Matrix](#incident-ownership-matrix)
+- [Phase 2: Growth (10-30 Engineers)](#phase-2-growth-10-30-engineers)
+- [Symptoms](#symptoms)
+- [Diagnosis](#diagnosis)
+- [Resolution](#resolution)
+- [Post-Incident](#post-incident)
+- [Severity Definitions](#severity-definitions)
+- [Phase 3: Mid-Size (30-100+ Engineers)](#phase-3-mid-size-30-100-engineers)
+- [Incident Commander Responsibilities](#incident-commander-responsibilities)
+- [Incident Summary](#incident-summary)
+- [Timeline](#timeline)
+- [Root Cause](#root-cause)
+- [What Went Well](#what-went-well)
+- [What Could Improve](#what-could-improve)
+- [Action Items](#action-items)
+- [Key Principles for All Stages](#key-principles-for-all-stages)
+
 ## Understanding the Growth Challenge
 
 Remote teams face unique incident response challenges that amplify as you scale. At startup size, a Slack message to the engineering channel gets immediate attention. At mid-size, that same approach creates chaos—too many people notified, unclear ownership, and response times that balloon as coordination overhead increases.
@@ -373,11 +394,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
-- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [How to Scale Remote Team From 5 to 20 Without Losing](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
-- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
-
+- [How to Scale Remote Team Incident Response Process](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [Remote Team Security Incident Response Plan Template](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [How to Set Up Remote Team Incident Response Process 2026](/remote-work-tools/how-to-set-up-remote-team-incident-response-process-2026/)
+- [Best Tools for Remote Team Incident Postmortems in 2026](/remote-work-tools/best-tools-for-remote-team-incident-postmortems-2026/)
+- [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

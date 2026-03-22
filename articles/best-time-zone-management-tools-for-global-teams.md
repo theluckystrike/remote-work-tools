@@ -17,6 +17,19 @@ tags: [remote-work-tools, best-of]
 
 Use World Time Buddy for quick visual meeting scheduling, Timezone.io for always-on team availability dashboards, and Cronofy when you need API-driven calendar integration across providers. For teams already on Slack, its built-in time zone features handle basic coordination without adding another tool. This guide breaks down each option with API examples, automation scripts, and implementation patterns so you can pick the right combination for your distributed team.
 
+## Table of Contents
+
+- [Why Time Zone Management Matters for Developers](#why-time-zone-management-matters-for-developers)
+- [World Time Buddy: Visual Coordination](#world-time-buddy-visual-coordination)
+- [Every Time Zone: Simplicity First](#every-time-zone-simplicity-first)
+- [Timezone.io: Team Availability Dashboard](#timezoneio-team-availability-dashboard)
+- [Slack Built-in Time Zone Support](#slack-built-in-time-zone-support)
+- [Cronofy: Calendar Integration](#cronofy-calendar-integration)
+- [World Clock API: Programmatic Time Lookups](#world-clock-api-programmatic-time-lookups)
+- [Moment Timezone: JavaScript Library](#moment-timezone-javascript-library)
+- [Practical Implementation Patterns](#practical-implementation-patterns)
+- [Selecting Your Tools](#selecting-your-tools)
+
 ## Why Time Zone Management Matters for Developers
 
 Global teams that span multiple time zones operate with asynchronous communication as the default mode. The tools you choose directly impact:

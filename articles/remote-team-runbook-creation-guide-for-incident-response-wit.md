@@ -15,6 +15,35 @@ tags: [remote-work-tools, remote-work]
 ---
 ```
 
+## Table of Contents
+
+- [Building the Response Workflow](#building-the-response-workflow)
+- [Handling Handoffs Between Time Zones](#handling-handoffs-between-time-zones)
+- [On-Call Handoff - [Date]](#on-call-handoff-date)
+- [Testing Your Runbooks](#testing-your-runbooks)
+- [Automating Runbook Steps](#automating-runbook-steps)
+- [Maintaining Runbooks Over Time](#maintaining-runbooks-over-time)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Runbook Template and Examples](#runbook-template-and-examples)
+- [Quick Facts](#quick-facts)
+- [Detection Symptoms](#detection-symptoms)
+- [Immediate Actions (First 60 Seconds)](#immediate-actions-first-60-seconds)
+- [Decision Tree](#decision-tree)
+- [Rollback Procedure](#rollback-procedure)
+- [Database Issues Procedure](#database-issues-procedure)
+- [Cache Issues Procedure](#cache-issues-procedure)
+- [Escalation Checklist](#escalation-checklist)
+- [Infrastructure Documentation System](#infrastructure-documentation-system)
+- [Tools That Support Runbook Integration](#tools-that-support-runbook-integration)
+- [Performance Metrics for Your Runbooks](#performance-metrics-for-your-runbooks)
+- [Example: Complete Service Runbook](#example-complete-service-runbook)
+- [Overview](#overview)
+- [Symptoms → Actions](#symptoms-actions)
+- [Critical Checks](#critical-checks)
+- [Rollback Decision](#rollback-decision)
+- [Escalation](#escalation)
+- [Post-Incident Runbook Review Process](#post-incident-runbook-review-process)
+
 This front-matter style approach allows teams to scan the critical path quickly. Each section answers a specific question: What does this problem look like? What should I do first? Who do I call? What if I make things worse?
 
 ## Building the Response Workflow
@@ -396,11 +425,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Migration runbook example structure](/remote-work-tools/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
-- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
-- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
-
+- [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
+- [How to Write Runbooks for Remote Engineering Teams](/remote-work-tools/how-to-write-runbooks-remote-engineering-teams/)
+- [How to Build a Remote Team Runbook Library 2026](/remote-work-tools/how-to-build-remote-team-runbook-library-2026/---)
+- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

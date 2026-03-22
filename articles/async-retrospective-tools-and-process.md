@@ -17,6 +17,28 @@ tags: [remote-work-tools]
 
 Live retrospectives are often the hardest meeting to schedule well for distributed teams. Async retrospectives solve the timezone problem but only work if you have a structure that surfaces real issues instead of producing a board full of "+1s" and no action.
 
+## Table of Contents
+
+- [Why Async Retros Fail (and How to Prevent It)](#why-async-retros-fail-and-how-to-prevent-it)
+- [Tool Options](#tool-options)
+- [Previous Action Items](#previous-action-items)
+- [What Went Well](#what-went-well)
+- [What to Improve](#what-to-improve)
+- [Ideas / Experiments](#ideas-experiments)
+- [Voted Priority Items](#voted-priority-items)
+- [Action Items](#action-items)
+- [Facilitation Checklist](#facilitation-checklist)
+- [Before (1 week before sprint end)](#before-1-week-before-sprint-end)
+- [During input phase (48h window)](#during-input-phase-48h-window)
+- [After input closes](#after-input-closes)
+- [After voting closes](#after-voting-closes)
+- [Integrating Action Items with Your Task Tracker](#integrating-action-items-with-your-task-tracker)
+- [Retro Formats That Work Async](#retro-formats-that-work-async)
+- [Decision Frameworks for Prioritizing Retro Items](#decision-frameworks-for-prioritizing-retro-items)
+- [Preventing Retro Fatigue](#preventing-retro-fatigue)
+- [Retro Participation Strategies for Distributed Teams](#retro-participation-strategies-for-distributed-teams)
+- [Sample Retro Schedule for Engineering Teams](#sample-retro-schedule-for-engineering-teams)
+
 This guide covers the tools and process for async retrospectives that actually lead to team change.
 
 ## Why Async Retros Fail (and How to Prevent It)
@@ -313,10 +335,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Asynchronous Team Retrospective Tools Methods Process](/remote-work-tools/asynchronous-team-retrospective-tools-methods-process/)
-- [Async Team Retrospective Using Shared Documents and](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
-- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
-
+- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
+- [Async Team Retrospective Using Shared Documents and Recorded](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

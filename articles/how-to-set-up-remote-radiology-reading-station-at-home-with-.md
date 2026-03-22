@@ -18,6 +18,13 @@ score: 8
 
 A compliant home radiology reading station requires medical-grade DICOM displays (5-6MP), dedicated GPU hardware (NVIDIA RTX 4090 recommended), symmetric fiber internet (100+ Mbps), and HIPAA-compliant VPN access to hospital PACS servers. Display calibration must meet American College of Radiology standards, and full-disk encryption protects patient data during transmission. This guide provides the complete technical foundation for building a production-ready remote radiology reading workstation.
 
+## Table of Contents
+
+- [Understanding the Technical Requirements](#understanding-the-technical-requirements)
+- [Prerequisites](#prerequisites)
+- [Security and Compliance](#security-and-compliance)
+- [Troubleshooting](#troubleshooting)
+
 ## Understanding the Technical Requirements
 
 A remote radiology workstation must meet clinical-grade standards for diagnostic accuracy. The American College of Radiology (ACR) establishes guidelines that apply equally to hospital-based and home installations. Your setup must support primary diagnosis capabilities, maintain HIPAA compliance, and integrate smoothly with your facility's PACS infrastructure.

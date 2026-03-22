@@ -17,6 +17,20 @@ intent-checked: true
 
 Your loud mechanical keyboard echoes through your home office during client calls. Colleagues on Zoom meetings hear every keystroke while you're presenting. Remote work means your workspace shares walls with family, roommates, or quiet coworkers in shared offices. Mechanical keyboard switches designed for silence exist—Cherry MX Silent Red, Gateron Silent Brown, and others reduce noise by 20-30dB while preserving the tactile feedback that makes mechanical keyboards addictive. This guide compares actual switches and keyboards with decibel measurements, real-world testing, and pricing for remote developers who need silence without sacrificing feel.
 
+## Table of Contents
+
+- [Understanding Keyboard Noise: Decibels and Perception](#understanding-keyboard-noise-decibels-and-perception)
+- [Silent Switch Types and Specifications](#silent-switch-types-and-specifications)
+- [Keyboard Comparison: Silent Switch Boards](#keyboard-comparison-silent-switch-boards)
+- [Silent vs. Standard Mechanical Comparison](#silent-vs-standard-mechanical-comparison)
+- [Sound Testing Methodology](#sound-testing-methodology)
+- [Remote Work Considerations: Microphone Pickup](#remote-work-considerations-microphone-pickup)
+- [Real-World Remote Work Scenarios](#real-world-remote-work-scenarios)
+- [Switch Lifespan and Durability](#switch-lifespan-and-durability)
+- [Budget Allocation for Remote Keyboard](#budget-allocation-for-remote-keyboard)
+- [Recommendation by Use Case](#recommendation-by-use-case)
+- [Final Word](#final-word)
+
 ## Understanding Keyboard Noise: Decibels and Perception
 
 Mechanical keyboards produce noise from two sources: the switch activation and key bottoming out. Silent switches address the switch mechanism. Case damping reduces bottoming noise.
@@ -376,10 +390,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Mechanical Keyboard for Remote Developers: A](/remote-work-tools/best-mechanical-keyboard-for-remote-developers/)
+- [Best Remote Work Mechanical Keyboard 2026](/remote-work-tools/best-remote-work-mechanical-keyboard-2026/)
+- [Best Mechanical Keyboard for Remote Developers: Discover](/remote-work-tools/best-mechanical-keyboard-for-remote-developers/)
 - [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
-- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
-- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
+- [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)
 - [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

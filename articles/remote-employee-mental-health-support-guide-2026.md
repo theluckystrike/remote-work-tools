@@ -18,6 +18,14 @@ intent-checked: true
 
 Remote work has become the standard for many development teams, and 2026 brings new challenges and opportunities for supporting employee mental health. This guide provides actionable strategies, real tool recommendations, and practical implementation examples for organizations and individuals who want to build healthier remote work environments.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Mental Health Support Tool Comparison](#mental-health-support-tool-comparison)
+- [Common Pitfalls and Troubleshooting](#common-pitfalls-and-troubleshooting)
+- [Troubleshooting](#troubleshooting)
+- [Related Reading](#related-reading)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:

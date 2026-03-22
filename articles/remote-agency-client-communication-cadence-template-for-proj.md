@@ -33,6 +33,29 @@ tags: [remote-work-tools, remote-work]
 
 Establish a client communication cadence that includes weekly status emails, bi-weekly check-in calls, and immediate escalation for blockers to keep stakeholders aligned without creating communication fatigue. Your cadence should balance asynchronous updates for efficiency with synchronous touchpoints for relationship-building.
 
+## Table of Contents
+
+- [Why Communication Cadence Matters](#why-communication-cadence-matters)
+- [The Core Cadence Framework](#the-core-cadence-framework)
+- [A Practical Template](#a-practical-template)
+- [Project Status: {{ project_name }}](#project-status-projectname)
+- [Automating Your Cadence](#automating-your-cadence)
+- [Adapting Cadence to Client Type](#adapting-cadence-to-client-type)
+- [Setting Cadence Expectations at Project Start](#setting-cadence-expectations-at-project-start)
+- [Handling Communication Breakdowns](#handling-communication-breakdowns)
+- [Measuring Cadence Effectiveness](#measuring-cadence-effectiveness)
+- [Client Segmentation and Pricing Strategy](#client-segmentation-and-pricing-strategy)
+- [Automation: Status Report Generation](#automation-status-report-generation)
+- [Communication Tools for Different Cadence Needs](#communication-tools-for-different-cadence-needs)
+- [Real Example: 12-Week Project Cadence](#real-example-12-week-project-cadence)
+- [Phase 1: Discovery (Weeks 1-2)](#phase-1-discovery-weeks-1-2)
+- [Phase 2: Design & Planning (Weeks 3-4)](#phase-2-design-planning-weeks-3-4)
+- [Phase 3: Development (Weeks 5-9)](#phase-3-development-weeks-5-9)
+- [Phase 4: Testing & Refinement (Weeks 10-11)](#phase-4-testing-refinement-weeks-10-11)
+- [Phase 5: Launch & Handoff (Week 12)](#phase-5-launch-handoff-week-12)
+- [Post-Launch Maintenance](#post-launch-maintenance)
+- [Detecting Cadence Breakdown Early](#detecting-cadence-breakdown-early)
+
 ## Why Communication Cadence Matters
 
 Client expectations in remote engagements differ significantly from traditional agency relationships. When your team works across different time zones, clients need confidence that progress is being made even when they cannot see activity in real time. A well-defined communication cadence accomplishes three critical things:

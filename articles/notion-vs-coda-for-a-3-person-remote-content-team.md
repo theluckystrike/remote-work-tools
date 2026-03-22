@@ -33,6 +33,27 @@ tags: [remote-work-tools, comparison, remote-work]
 
 Choose Notion if your content team values flexible pages, rich media support, and a clean writing experience with minimal setup. Choose Coda if you need powerful relational databases, formula-driven workflows, and the ability to build document-database hybrids that automatically update based on data changes. For three-person remote content teams, the decision typically comes down to whether you want a flexible wiki-like space or a programmable content operations hub.
 
+## Table of Contents
+
+- [Data Architecture](#data-architecture)
+- [Database Capabilities](#database-capabilities)
+- [Automation and Workflows](#automation-and-workflows)
+- [API and Developer Access](#api-and-developer-access)
+- [Real-Time Collaboration](#real-time-collaboration)
+- [Pricing for a 3-Person Team](#pricing-for-a-3-person-team)
+- [When to Choose Notion](#when-to-choose-notion)
+- [When to Choose Coda](#when-to-choose-coda)
+- [Making the Decision](#making-the-decision)
+- [Implementation Guide: Getting Started with Each Tool](#implementation-guide-getting-started-with-each-tool)
+- [Real-World Scenario: Running a Content Team with Each Tool](#real-world-scenario-running-a-content-team-with-each-tool)
+- [Tool Migration: Moving from One to the Other](#tool-migration-moving-from-one-to-the-other)
+- [Feature Comparison Deep Dive](#feature-comparison-deep-dive)
+- [Cost Analysis for 3-Person Content Team](#cost-analysis-for-3-person-content-team)
+- [Extensibility and Integrations](#extensibility-and-integrations)
+- [Migration Scenarios and Recommendations](#migration-scenarios-and-recommendations)
+- [Decision Flowchart](#decision-flowchart)
+- [Final Recommendation](#final-recommendation)
+
 ## Data Architecture
 
 Notion organizes content in a hierarchical page structure. Each page can contain blocks—text, images, databases, embeds, and more. Pages can be nested infinitely, creating a tree-like organization. This structure works naturally for documentation and wikis but can become unwieldy when you need complex relationships between pieces of content.

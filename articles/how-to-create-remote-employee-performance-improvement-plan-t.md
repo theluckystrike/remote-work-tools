@@ -16,6 +16,19 @@ tags: [remote-work-tools, remote-work]
 
 Remote performance improvement plans (PIPs) require different structure than office-based PIPs because you lose real-time observation of work. Build PIPs with weekly check-ins, clearly documented metrics pulled from actual tools (GitHub PR times, Slack activity), and explicit communication expectations. This guide provides JSON templates and tracking scripts to implement fair, measurable PIPs for distributed teams.
 
+## Table of Contents
+
+- [Why Remote PIPs Need Different Structure](#why-remote-pips-need-different-structure)
+- [Core Components of a Remote Performance Improvement Plan](#core-components-of-a-remote-performance-improvement-plan)
+- [A Practical Template for Distributed Teams](#a-practical-template-for-distributed-teams)
+- [Setting Up Tracking in Your Project Management Tool](#setting-up-tracking-in-your-project-management-tool)
+- [Weekly Check-in Template](#weekly-check-in-template)
+- [Best Practices for Distributed Managers](#best-practices-for-distributed-managers)
+- [When to Escalate](#when-to-escalate)
+- [Sample PIPs Across Roles](#sample-pips-across-roles)
+- [Handling PIP Conversations Sensitively](#handling-pip-conversations-sensitively)
+- [Scenarios Where PIPs Fail](#scenarios-where-pips-fail)
+
 ## Why Remote PIPs Need Different Structure
 
 In a physical office, managers can observe work in real-time—catching issues during standups, noticing when someone seems stuck, or providing immediate feedback on deliverables. Remote work removes these organic check-in moments. A PIP for a distributed employee must compensate for this visibility gap by building in more frequent checkpoints and clearer documentation mechanisms.
@@ -346,10 +359,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
 - [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
-- [Remote Employee Career Development Plan Template for](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
-- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
-- [How to Create Remote Employee Exit Interview Process for](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
-
+- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
+- [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
+- [Remote Work Performance Review Tools Comparison 2026](/remote-work-tools/remote-work-performance-review-tools-comparison-2026/)
+- [How to Handle Remote Employee Underperformance](/remote-work-tools/how-to-handle-remote-employee-underperformance-conversation-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -178,6 +178,17 @@ The goal is finding the structure that matches your team's current needs—not c
 
 Building the right org structure for a growing remote team takes experimentation. Start with the minimum viable hierarchy, measure results, and adjust. Your team will tell you what works.
 
+## Table of Contents
+
+- [Real-World Org Chart Examples by Team Size](#real-world-org-chart-examples-by-team-size)
+- [Communication Infrastructure for Each Structure](#communication-infrastructure-for-each-structure)
+- [Tools for Managing Org Structure Changes](#tools-for-managing-org-structure-changes)
+- [Managing the Politics of Restructuring](#managing-the-politics-of-restructuring)
+- [Restructuring Communication Checklist](#restructuring-communication-checklist)
+- [Evaluating Org Structure Decisions: Questions to Ask](#evaluating-org-structure-decisions-questions-to-ask)
+- [Handling Distributed Remote Teams: Time Zone Considerations](#handling-distributed-remote-teams-time-zone-considerations)
+- [Metrics That Indicate Your Org Structure Is Working](#metrics-that-indicate-your-org-structure-is-working)
+
 ## Real-World Org Chart Examples by Team Size
 
 ### At 10-15 People: Still Flat

@@ -81,6 +81,21 @@ Monitor usage patterns and costs during your initial implementation period. Most
 
 ## Popular Provisioning Platforms for Remote Teams
 
+## Table of Contents
+
+- [Popular Provisioning Platforms for Remote Teams](#popular-provisioning-platforms-for-remote-teams)
+- [Cost Analysis for Environment Provisioning](#cost-analysis-for-environment-provisioning)
+- [Deployment Pipelines for Provisioned Environments](#deployment-pipelines-for-provisioned-environments)
+- [Troubleshooting Common Provisioning Issues](#troubleshooting-common-provisioning-issues)
+- [Integration with Existing Workflows](#integration-with-existing-workflows)
+- [Building Sustainable Environment Standards](#building-sustainable-environment-standards)
+- [Scaling Environment Provisioning](#scaling-environment-provisioning)
+- [Provisioning Tool Feature Matrix](#provisioning-tool-feature-matrix)
+- [Dockerfile for Remote Development Environment](#dockerfile-for-remote-development-environment)
+- [Environment Provisioning Request Workflow](#environment-provisioning-request-workflow)
+- [Cost Monitoring and Optimization](#cost-monitoring-and-optimization)
+- [Environment Onboarding Checklist](#environment-onboarding-checklist)
+
 Several solutions serve distributed teams well. Understanding the space helps you choose the right fit for your infrastructure.
 
 **Gitpod** specializes in cloud development environments tied directly to your Git repository. Opening a pull request automatically creates a development environment. When the PR closes, the environment disappears. Developers work from browser-based VS Code instances that feel identical to local development. Excellent for reducing onboarding friction and enabling PR reviewers to test code instantly. Pricing: free tier available, paid plans from $9/month per user. Great for open-source projects.

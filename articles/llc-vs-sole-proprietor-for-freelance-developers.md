@@ -33,6 +33,25 @@ tags: [remote-work-tools, comparison]
 
 Choosing the right business structure is one of the first significant decisions you'll make as a freelance developer. While the internet is full of generic advice about LLCs versus sole proprietorships, the reality for developers involves specific considerations around liability, taxes, client contracts, and growth potential that deserve closer examination.
 
+## Table of Contents
+
+- [Understanding the Two Structures](#understanding-the-two-structures)
+- [Liability Protection: What Actually Happens](#liability-protection-what-actually-happens)
+- [Tax Implications: More Complex Than You Might Expect](#tax-implications-more-complex-than-you-might-expect)
+- [Cost and Paperwork: The Hidden Differences](#cost-and-paperwork-the-hidden-differences)
+- [What Clients Actually Care About](#what-clients-actually-care-about)
+- [Making Your Decision](#making-your-decision)
+- [Transitioning Between Structures](#transitioning-between-structures)
+- [Real Numbers: Tax Comparison Example](#real-numbers-tax-comparison-example)
+- [State-Specific LLC Considerations](#state-specific-llc-considerations)
+- [Client Perception and Credibility Analysis](#client-perception-and-credibility-analysis)
+- [Retirement Savings Advantages by Structure](#retirement-savings-advantages-by-structure)
+- [Insurance Considerations](#insurance-considerations)
+- [Hiring Employees or Subcontractors](#hiring-employees-or-subcontractors)
+- [The Paperwork Reality Check](#the-paperwork-reality-check)
+- [Making the Final Decision with a Framework](#making-the-final-decision-with-a-framework)
+- [Transitioning Between Structures](#transitioning-between-structures)
+
 This guide breaks down the practical differences between LLCs and sole proprietorships specifically for freelance developers, with concrete examples to help you make an informed decision.
 
 ## Understanding the Two Structures

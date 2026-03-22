@@ -18,6 +18,18 @@ voice-checked: true
 
 Remote property appraisal through virtual inspection has transformed how appraisers value residential and commercial properties. This guide covers technical implementations, workflow optimization, and integration patterns for teams building or operating virtual inspection systems.
 
+## Table of Contents
+
+- [Understanding Virtual Inspection Architecture](#understanding-virtual-inspection-architecture)
+- [Core Technology Stack Requirements](#core-technology-stack-requirements)
+- [Asynchronous Inspection Workflows](#asynchronous-inspection-workflows)
+- [Data Integration with Appraisal Systems](#data-integration-with-appraisal-systems)
+- [Security and Compliance Considerations](#security-and-compliance-considerations)
+- [Measuring Virtual Inspection Effectiveness](#measuring-virtual-inspection-effectiveness)
+- [Building an Automated Follow-Up System for Incomplete Submissions](#building-an-automated-follow-up-system-for-incomplete-submissions)
+- [Handling Connectivity Issues During Synchronous Inspections](#handling-connectivity-issues-during-synchronous-inspections)
+- [Compliance Documentation for Remote Inspections](#compliance-documentation-for-remote-inspections)
+
 ## Understanding Virtual Inspection Architecture
 
 Virtual inspection systems replace physical property visits with synchronous video walks, asynchronous media collection, or hybrid approaches. The choice between these methods significantly impacts valuation accuracy, client experience, and operational costs.

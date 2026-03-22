@@ -18,6 +18,15 @@ voice-checked: true
 
 Malaysia introduced the DE Rantau Digital Nomad Pass in 2022 as part of its efforts to attract remote workers and strengthen its position as a hub for digital professionals in Southeast Asia. The program offers a long-term residency option for remote workers who want to live in Malaysia while continuing to work for employers or clients outside the country. This guide covers the application process with practical details for developers and tech workers planning to relocate in 2026.
 
+## Table of Contents
+
+- [What is the DE Rantau Digital Nomad Pass?](#what-is-the-de-rantau-digital-nomad-pass)
+- [Eligibility Requirements](#eligibility-requirements)
+- [Required Documents](#required-documents)
+- [Application Process Timeline and Details](#application-process-timeline-and-details)
+- [Practical Tips for Developers](#practical-tips-for-developers)
+- [Cost of Living Considerations](#cost-of-living-considerations)
+
 ## What is the DE Rantau Digital Nomad Pass?
 
 The DE Rantau pass is Malaysia's official digital nomad visa program, designed specifically for remote workers who wish to live in the country without requiring local employment. The pass allows holders to stay in Malaysia for up to one year, with the possibility of renewal. Unlike tourist visas, the DE Rantau pass legally permits you to work remotely for overseas employers or clients during your stay.

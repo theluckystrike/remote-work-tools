@@ -16,6 +16,36 @@ tags: [remote-work-tools, best-of, remote-work]
 
 The best bug tracking setup for a seven-person remote QA team combines Jira or Linear with mandatory ticket templates, explicit workflow states (New through Verified), and automation that connects your tracker to Slack and your CI/CD pipeline. You also need feature-based ownership so every bug has a clear assignee, plus twice-weekly 15-minute triage sessions to keep the backlog from growing stale. The tools matter less than the discipline around structured tickets, defined states, and tight development integration.
 
+## Table of Contents
+
+- [Choose the Right Tool First](#choose-the-right-tool-first)
+- [Define Clear Ticket Structures](#define-clear-ticket-structures)
+- [Steps to Reproduce](#steps-to-reproduce)
+- [Environment](#environment)
+- [Severity](#severity)
+- [Evidence](#evidence)
+- [Establish Workflow States That Match Your Process](#establish-workflow-states-that-match-your-process)
+- [Implement Triage Rituals](#implement-triage-rituals)
+- [Assign Ownership Strategically](#assign-ownership-strategically)
+- [Integrate With Development Workflow](#integrate-with-development-workflow)
+- [Measure What Matters](#measure-what-matters)
+- [Avoid Common Pitfalls](#avoid-common-pitfalls)
+- [Tool Comparison for 7-Person QA Teams](#tool-comparison-for-7-person-qa-teams)
+- [Advanced Automation Setup (Jira Example)](#advanced-automation-setup-jira-example)
+- [Sample Ticket Template with Expected Fields](#sample-ticket-template-with-expected-fields)
+- [Steps to Reproduce](#steps-to-reproduce)
+- [Environment](#environment)
+- [Severity Assessment](#severity-assessment)
+- [Attachments](#attachments)
+- [Expected Result](#expected-result)
+- [Actual Result](#actual-result)
+- [Additional Context](#additional-context)
+- [Feature-Based Ownership Model](#feature-based-ownership-model)
+- [Daily Triage Workflow](#daily-triage-workflow)
+- [Measuring QA Team Performance](#measuring-qa-team-performance)
+- [Integration with Development Workflow](#integration-with-development-workflow)
+- [Handling Edge Cases in QA](#handling-edge-cases-in-qa)
+
 ## Choose the Right Tool First
 
 Your bug tracking tool is the foundation. For a team of seven, you need something that supports role-based workflows, integrates with your development pipeline, and provides clear ownership. Jira remains the industry standard for a reason—it handles custom workflows, sprint integration, and permission schemes well. However, Linear offers a cleaner interface that many remote teams prefer. GitHub Issues works if your codebase is already GitHub-centric and you don't need complex hierarchies.

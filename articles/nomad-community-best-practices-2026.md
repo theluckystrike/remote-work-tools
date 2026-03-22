@@ -31,6 +31,32 @@ tags: [remote-work-tools, best-of]
 
 Digital nomad communities have evolved significantly. What started as scattered Facebook groups and Reddit threads has matured into sophisticated networks of professionals who collaborate across continents. Whether you are building a community or actively participating in one, applying the right practices ensures meaningful connections and valuable knowledge exchange.
 
+## Table of Contents
+
+- [Why Community Matters for Nomads](#why-community-matters-for-nomads)
+- [Establishing Communication Norms](#establishing-communication-norms)
+- [Building Inclusive Community Spaces](#building-inclusive-community-spaces)
+- [Practical Community Tools for Nomads](#practical-community-tools-for-nomads)
+- [Creating Value Through Community Events](#creating-value-through-community-events)
+- [Managing Community Health](#managing-community-health)
+- [Code of Conduct Example](#code-of-conduct-example)
+- [Our Pledge](#our-pledge)
+- [Acceptable Behavior](#acceptable-behavior)
+- [Unacceptable Behavior](#unacceptable-behavior)
+- [Enforcement](#enforcement)
+- [Tool Comparison for Community Platforms](#tool-comparison-for-community-platforms)
+- [Creating Welcoming Onboarding for Newcomers](#creating-welcoming-onboarding-for-newcomers)
+- [Regional Cluster Events for Global Communities](#regional-cluster-events-for-global-communities)
+- [Community Budget and Operations](#community-budget-and-operations)
+- [Sample Community Operating Manual](#sample-community-operating-manual)
+- [Our Mission](#our-mission)
+- [Core Values](#core-values)
+- [Moderator Expectations](#moderator-expectations)
+- [Member Expectations](#member-expectations)
+- [Escalation Path](#escalation-path)
+- [Feedback Loop](#feedback-loop)
+- [Measuring Community Health](#measuring-community-health)
+
 ## Why Community Matters for Nomads
 
 Working remotely from different locations creates unique challenges. Isolation ranks as the top concern for nomads, followed by difficulty finding reliable collaborators and accessing practical local knowledge. A strong community addresses these pain points by providing:

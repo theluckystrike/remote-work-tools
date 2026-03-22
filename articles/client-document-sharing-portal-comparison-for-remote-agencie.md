@@ -33,6 +33,17 @@ tags: [remote-work-tools, remote-work]
 
 Remote agencies face unique challenges when sharing client deliverables. Unlike in-house teams, you need portals that work across time zones, handle sensitive client data securely, and integrate with your existing development workflow. This comparison evaluates the leading solutions from a developer's perspective—focusing on API capabilities, authentication options, and automation potential.
 
+## Table of Contents
+
+- [Core Requirements for Remote Agency Document Portals](#core-requirements-for-remote-agency-document-portals)
+- [Google Drive: The Flexible Default](#google-drive-the-flexible-default)
+- [Dropbox: The Developer-Friendly Option](#dropbox-the-developer-friendly-option)
+- [Box: Enterprise-Grade Security](#box-enterprise-grade-security)
+- [SharePoint: Microsoft Ecosystem Integration](#sharepoint-microsoft-ecosystem-integration)
+- [Structuring Folders for Multi-Client Agencies](#structuring-folders-for-multi-client-agencies)
+- [Onboarding Clients to Your Chosen Portal](#onboarding-clients-to-your-chosen-portal)
+- [Decision Framework](#decision-framework)
+
 ## Core Requirements for Remote Agency Document Portals
 
 Before examining specific tools, identify what matters most for distributed teams:
@@ -280,10 +291,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
-- [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)
-- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
-- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
 - [Clio API authentication](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
-
+- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
+- [Remote Agency Client Data Security Compliance Checklist](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -16,6 +16,16 @@ score: 9
 
 Remote teams lose the informal knowledge transfer that happens in offices. Clear contribution guidelines reduce friction so people know exactly how to contribute, what format works, and where documentation belongs. This template gives you a ready-to-use framework for knowledge base governance.
 
+## Table of Contents
+
+- [Why Documentation Guidelines Matter](#why-documentation-guidelines-matter)
+- [Prerequisites](#prerequisites)
+- [Common Issues](#common-issues)
+- [Advanced](#advanced)
+- [When to Escalate](#when-to-escalate)
+- [Next Steps](#next-steps)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Documentation Guidelines Matter
 
 Remote teams lose the informal knowledge transfer that happens in offices. When teammates sit near each other, expertise spreads naturally through nearby conversations. Remote teams need intentional systems that make knowledge sharing the default behavior. Clear contribution guidelines reduce friction: people know exactly how to contribute, what format works, and where documentation belongs.

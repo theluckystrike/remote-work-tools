@@ -19,6 +19,20 @@ tags: [remote-work-tools]
 
 Working as a developer on the move transforms your productivity when you add a portable monitor to your setup. A second screen means more space for code, documentation, and debugging without crowding your laptop display. This guide walks you through building a reliable portable monitor setup that works across咖啡馆, coworking spaces, and hotel rooms worldwide.
 
+## Table of Contents
+
+- [Understanding Connectivity Requirements](#understanding-connectivity-requirements)
+- [Power Management for Portable Displays](#power-management-for-portable-displays)
+- [Display Configuration Across Operating Systems](#display-configuration-across-operating-systems)
+- [Software Tools for Multi-Monitor Workflow](#software-tools-for-multi-monitor-workflow)
+- [Practical Setup Tips for Nomads](#practical-setup-tips-for-nomads)
+- [Recommended Portable Monitor Models](#recommended-portable-monitor-models)
+- [Comparison: Portable Monitor vs. Second Laptop](#comparison-portable-monitor-vs-second-laptop)
+- [Setting Up in Challenging Environments](#setting-up-in-challenging-environments)
+- [Packing and Travel Considerations](#packing-and-travel-considerations)
+- [Performance Impact on Your Laptop](#performance-impact-on-your-laptop)
+- [Selling When You Upgrade](#selling-when-you-upgrade)
+
 ## Understanding Connectivity Requirements
 
 The first step involves identifying how your laptop connects to external displays. Most modern laptops offer USB-C with DisplayPort Alt Mode, which delivers both power and video through a single cable. Older laptops may require HDMI, and some ultra-thin models only have USB-C ports.
@@ -295,11 +309,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Portable WiFi Hotspot for Digital Nomads: A](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
-- [Best eSIM Data Plans for Digital Nomads Working Across](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
-- [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
-- [Example: Policy comparison scoring for digital nomads](/remote-work-tools/best-travel-insurance-for-digital-nomads-covering-laptop-the/)
-- [eSIM vs Local SIM Card for Digital Nomads](/remote-work-tools/esim-vs-local-sim-card-for-digital-nomads/)
-
+- [Best Portable WiFi Hotspot for Digital Nomads](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
+- [How to Set Up a Portable Coding Workstation](/remote-work-tools/how-to-set-up-portable-coding-workstation/)
+- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
+- [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
+- [Productivity Tips for Digital Nomads on the Road](/remote-work-tools/productivity-tips-for-digital-nomads-on-the-road/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

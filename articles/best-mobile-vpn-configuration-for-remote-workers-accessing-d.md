@@ -22,6 +22,23 @@ voice-checked: true
 | TP-Link M7650 | Up to 600 Mbps (4G+) | 32 devices | 15 hours | $200 + SIM |
 | Google Fi hotspot | Up to 5G speeds | Via Pixel phone | Phone battery | $65/month unlimited |
 
+## Table of Contents
+
+- [Understanding the Core Challenges](#understanding-the-core-challenges)
+- [Essential VPN Protocol Selection](#essential-vpn-protocol-selection)
+- [Configuration for Multi-Country Access](#configuration-for-multi-country-access)
+- [Real-World Workflow Examples](#real-world-workflow-examples)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Security Best Practices](#security-best-practices)
+- [Building Your Personal Configuration](#building-your-personal-configuration)
+- [VPN Configuration Checklists by Protocol](#vpn-configuration-checklists-by-protocol)
+- [Country-Specific VPN Considerations](#country-specific-vpn-considerations)
+- [Device-Specific VPN Implementation](#device-specific-vpn-implementation)
+- [Troubleshooting VPN Performance Issues](#troubleshooting-vpn-performance-issues)
+- [Building a Personal VPN Configuration Playbook](#building-a-personal-vpn-configuration-playbook)
+- [Cost-Benefit Analysis for Different Remote Work Scenarios](#cost-benefit-analysis-for-different-remote-work-scenarios)
+- [Long-Term VPN Strategy and Migration](#long-term-vpn-strategy-and-migration)
+
 
 When you work remotely across multiple countries, accessing your company network securely becomes a daily challenge. Different regions present unique obstacles—from bandwidth throttling to server availability and protocol restrictions. This guide walks you through practical mobile VPN configurations that actually work for remote workers who need consistent access to office resources across borders.
 

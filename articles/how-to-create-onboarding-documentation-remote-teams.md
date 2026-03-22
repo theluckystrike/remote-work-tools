@@ -18,6 +18,20 @@ tags: [remote-work-tools, remote-work]
 
 Effective onboarding documentation serves as the backbone of successful remote team integration. When your team spans multiple time zones and communicates primarily through asynchronous channels, well-structured documentation determines whether new hires become productive quickly or spend weeks digging for basic information.
 
+## Table of Contents
+
+- [Core Components of Remote Onboarding Documentation](#core-components-of-remote-onboarding-documentation)
+- [Team Processes and Workflows](#team-processes-and-workflows)
+- [Pull Request Template](#pull-request-template)
+- [Description](#description)
+- [Type of Change](#type-of-change)
+- [Testing](#testing)
+- [Screenshots (if applicable)](#screenshots-if-applicable)
+- [Project-Specific Knowledge](#project-specific-knowledge)
+- [Implementation Strategy](#implementation-strategy)
+- [Onboarding Feedback](#onboarding-feedback)
+- [Tools and Platforms](#tools-and-platforms)
+
 This guide covers the essential components of onboarding documentation, practical templates you can adapt, and implementation strategies that work for distributed developer teams.
 
 ## Core Components of Remote Onboarding Documentation

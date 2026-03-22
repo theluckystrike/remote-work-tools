@@ -31,6 +31,19 @@ tags: [remote-work-tools, remote-work]
 
 Remote team Friday events need reliable synchronization to recreate the cinema experience across distances. Whether you're unwinding after a sprint or celebrating a milestone, the right virtual movie watch party tools transform isolated viewing into shared experiences. This guide covers practical solutions for developers and power users who want minimal friction and maximum compatibility.
 
+## Table of Contents
+
+- [Understanding Sync Play Requirements](#understanding-sync-play-requirements)
+- [Browser Extensions: Quick Setup, Limited Features](#browser-extensions-quick-setup-limited-features)
+- [Dedicated Platforms: Full-Featured Solutions](#dedicated-platforms-full-featured-solutions)
+- [Self-Hosted Options: Maximum Control](#self-hosted-options-maximum-control)
+- [Practical Recommendations by Use Case](#practical-recommendations-by-use-case)
+- [Optimizing the Remote Movie Night Experience](#optimizing-the-remote-movie-night-experience)
+- [Advanced Setup: Multi-Screen Theater Experience](#advanced-setup-multi-screen-theater-experience)
+- [Troubleshooting Common Watch Party Issues](#troubleshooting-common-watch-party-issues)
+- [Integrating Movie Nights Into Your Remote Culture](#integrating-movie-nights-into-your-remote-culture)
+- [Cost-Benefit Analysis by Platform](#cost-benefit-analysis-by-platform)
+
 ## Understanding Sync Play Requirements
 
 Real-time synchronization demands three components: video playback control, audio mixing, and network latency management. The best tools handle these transparently, letting your team focus on the movie rather than troubleshooting technical issues.

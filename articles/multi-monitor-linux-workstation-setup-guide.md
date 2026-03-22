@@ -31,6 +31,23 @@ tags: [remote-work-tools]
 
 A multi-monitor Linux workstation requires configuration that Windows and macOS handle automatically. The payoff is total control: workspaces pinned to specific monitors, per-display scaling, hotkey-driven layout switching, and no proprietary drivers needed for most hardware.
 
+## Table of Contents
+
+- [Check What Linux Sees](#check-what-linux-sees)
+- [Set Display Layout with xrandr](#set-display-layout-with-xrandr)
+- [Persist Layout with autorandr](#persist-layout-with-autorandr)
+- [Handle Mixed DPI (HiDPI + 1080p)](#handle-mixed-dpi-hidpi-1080p)
+- [i3 Config: Assign Workspaces to Monitors](#i3-config-assign-workspaces-to-monitors)
+- [Sway Config for Wayland](#sway-config-for-wayland)
+- [Font Rendering at Mixed DPI](#font-rendering-at-mixed-dpi)
+- [Wallpaper Per Monitor](#wallpaper-per-monitor)
+- [Status Bar Per Monitor](#status-bar-per-monitor)
+- [Test Layout Without Committing](#test-layout-without-committing)
+- [Hardware: What Actually Works](#hardware-what-actually-works)
+- [Hyprland Configuration (Modern Wayland Alternative)](#hyprland-configuration-modern-wayland-alternative)
+- [Compositor and Display Server Comparison](#compositor-and-display-server-comparison)
+- [Related Reading](#related-reading)
+
 This guide covers the complete setup: detecting displays, configuring layouts, handling mixed DPI, setting up workspace assignment in i3/Sway, and persisting everything across reboots.
 
 ## Check What Linux Sees
@@ -345,6 +362,14 @@ For a pure development workstation where you want tiling and keyboard control, i
 - [How to Set Up a Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
 - [Best Ultrawide Monitor for Programming Remote Work](/remote-work-tools/best-ultrawide-monitor-for-programming-remote-work/)
 - [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
+
+## Related Articles
+
+- [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
+- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
+- [Portable Monitor Setup for Digital Nomads](/remote-work-tools/portable-monitor-setup-for-digital-nomads/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
+- [Remote Work Internet Redundancy Setup Guide](/remote-work-tools/remote-work-internet-redundancy-setup-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

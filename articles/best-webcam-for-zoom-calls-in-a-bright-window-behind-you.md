@@ -18,6 +18,22 @@ voice-checked: true
 
 When you position your desk facing away from a window, that beautiful natural light becomes your worst enemy on video calls. Your face turns into a silhouette while the window behind you blows out to pure white. This common scenario affects remote developers, designers, and anyone who values good lighting but works near windows. The solution requires understanding what makes webcams struggle with backlit scenarios and knowing which hardware or software approaches actually solve the problem.
 
+## Table of Contents
+
+- [Understanding the Backlight Problem](#understanding-the-backlight-problem)
+- [Key Specifications to Look For](#key-specifications-to-look-for)
+- [Hardware Solutions That Work](#hardware-solutions-that-work)
+- [Software Solutions That Fix the Problem](#software-solutions-that-fix-the-problem)
+- [Practical Setup Recommendations](#practical-setup-recommendations)
+- [Testing Your Setup](#testing-your-setup)
+- [Webcam Comparison with Real Pricing](#webcam-comparison-with-real-pricing)
+- [Software-Only Solutions for Existing Webcams](#software-only-solutions-for-existing-webcams)
+- [DIY Reflector and Diffuser Solutions](#diy-reflector-and-diffuser-solutions)
+- [Zoom-Specific Configuration](#zoom-specific-configuration)
+- [Testing Your Final Configuration](#testing-your-final-configuration)
+- [Advanced Hardware Solutions for Extreme Situations](#advanced-hardware-solutions-for-extreme-situations)
+- [When to Accept the Tradeoff](#when-to-accept-the-tradeoff)
+
 ## Understanding the Backlight Problem
 
 Webcams operate similarly to human eyes when handling bright and dark areas simultaneously. A typical webcam sensor has limited dynamic range—the ratio between the darkest and brightest tones it can capture in a single frame. When your window outputs 50,000 lux on a sunny day and your face receives only 500 lux, the camera must choose: expose for your face (making the window a white blob) or expose for the window (making you a dark outline).
@@ -321,11 +337,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
-- [Base brightness decreases with more monitors](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
-- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
-- [How to Mount Monitor on Wall Behind Standing Desk Setup](/remote-work-tools/how-to-mount-monitor-on-wall-behind-standing-desk-setup/)
-
+- [Chrome Extension Window Resizer Testing](/remote-work-tools/chrome-extension-window-resizer-testing/)
+- [Best Window Management Tools for Developers](/remote-work-tools/best-window-management-tools-for-developers/)
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Chrome Extension Webcam Settings Adjuster Guide](/remote-work-tools/chrome-extension-webcam-settings-adjuster/)
+- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

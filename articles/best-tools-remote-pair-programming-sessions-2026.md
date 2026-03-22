@@ -17,6 +17,19 @@ intent-checked: true
 
 Remote pair programming should feel like sitting side-by-side at a desk. Yet lag, inconsistent control handoff, and audio quality issues make most tools feel awkward. Testing six leading pair programming tools in March 2026 reveals that latency, code execution environment, and audio integration determine success more than screen sharing quality.
 
+## Table of Contents
+
+- [The Pair Programming Problem](#the-pair-programming-problem)
+- [Tool Comparison Matrix](#tool-comparison-matrix)
+- [Detailed Tool Analysis](#detailed-tool-analysis)
+- [Real-World Scenario Comparison](#real-world-scenario-comparison)
+- [Recommendations by Team Size and Work Style](#recommendations-by-team-size-and-work-style)
+- [Setup Recommendation by Language](#setup-recommendation-by-language)
+- [Audio Comparison (Critical for Pair Programming)](#audio-comparison-critical-for-pair-programming)
+- [Cost Comparison (Annual)](#cost-comparison-annual)
+- [Pro Tips for Remote Pair Programming](#pro-tips-for-remote-pair-programming)
+- [Pair Session: Bug #1234](#pair-session-bug-1234)
+
 This guide benchmarks real tools in production scenarios and provides workflow recommendations for different pair programming styles.
 
 ## The Pair Programming Problem

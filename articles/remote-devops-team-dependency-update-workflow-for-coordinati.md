@@ -17,6 +17,27 @@ voice-checked: true
 
 Managing dependency updates across multiple repositories becomes significantly more complex when your DevOps team works across different time zones. Remote teams face unique challenges: coordinating review schedules, handling merge conflicts that span repositories, and maintaining communication without the benefit of casual hallway conversations. This guide provides practical workflows for keeping your dependency updates organized and your distributed team synchronized.
 
+## Table of Contents
+
+- [The Multi-Repository Dependency Challenge](#the-multi-repository-dependency-challenge)
+- [Establishing a Dependency Update Cadence](#establishing-a-dependency-update-cadence)
+- [Implementing Cross-Repository Update Workflows](#implementing-cross-repository-update-workflows)
+- [Real-World Workflow Example](#real-world-workflow-example)
+- [Practical Tips for Remote Teams](#practical-tips-for-remote-teams)
+- [Dependency Update Prioritization Matrix](#dependency-update-prioritization-matrix)
+- [Coordinated Rollout Strategy for Shared Libraries](#coordinated-rollout-strategy-for-shared-libraries)
+- [Shared Auth Library v2.0 Migration Timeline](#shared-auth-library-v20-migration-timeline)
+- [Automation for Multi-Repository Dependency Management](#automation-for-multi-repository-dependency-management)
+- [Communication Templates for Remote Teams](#communication-templates-for-remote-teams)
+- [Dependency Update Proposal: [Package Name]](#dependency-update-proposal-package-name)
+- [Metrics for Healthy Dependency Management](#metrics-for-healthy-dependency-management)
+- [Managing Breaking Changes in Distributed Systems](#managing-breaking-changes-in-distributed-systems)
+- [Configuring Renovate for Multi-Repository Remote Teams](#configuring-renovate-for-multi-repository-remote-teams)
+- [Security Vulnerability Prioritization Framework](#security-vulnerability-prioritization-framework)
+- [Dependency Update Metrics Worth Tracking](#dependency-update-metrics-worth-tracking)
+- [Major Breaking Change: [Package] v[X] → v[Y]](#major-breaking-change-package-vx-vy)
+- [Post-Update Monitoring](#post-update-monitoring)
+
 ## The Multi-Repository Dependency Challenge
 
 Modern applications rarely live in a single repository. A typical distributed system might include a frontend application, backend API services, shared utility libraries, infrastructure-as-code definitions, and documentation repositories. Each of these typically depends on dozens of external packages, and keeping those dependencies current requires systematic coordination.

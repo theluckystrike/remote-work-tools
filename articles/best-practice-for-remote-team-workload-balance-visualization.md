@@ -18,6 +18,27 @@ voice-checked: true
 
 Managing workload balance across distributed team members presents unique challenges that traditional office environments never faced. When your team spans multiple time zones, communication gaps naturally emerge, and without proper visibility into individual workloads, burnout and disengagement follow. This guide provides practical approaches to visualize and maintain equitable work distribution in remote teams.
 
+## Table of Contents
+
+- [Understanding the Visualization Problem](#understanding-the-visualization-problem)
+- [Core Metrics for Workload Visualization](#core-metrics-for-workload-visualization)
+- [Building a Workload Dashboard](#building-a-workload-dashboard)
+- [Visual Approaches That Work](#visual-approaches-that-work)
+- [Implementing Without Special Tools](#implementing-without-special-tools)
+- [Practical Example: Two-Week Rebalancing Cycle](#practical-example-two-week-rebalancing-cycle)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building Sustainable Remote Work Practices](#building-sustainable-remote-work-practices)
+- [Tools for Workload Visualization](#tools-for-workload-visualization)
+- [Real Example: A 12-Person Engineering Team's Process](#real-example-a-12-person-engineering-teams-process)
+- [The Capacity Variance Metric](#the-capacity-variance-metric)
+- [Warning Signs of Workload Imbalance](#warning-signs-of-workload-imbalance)
+- [Advanced: Predictive Workload Planning](#advanced-predictive-workload-planning)
+- [Practical Integration: Adding Workload Tracking to Existing Tools](#practical-integration-adding-workload-tracking-to-existing-tools)
+- [The Overload Recovery Plan](#the-overload-recovery-plan)
+- [Workload Balance by Role](#workload-balance-by-role)
+- [Seasonal and Project-Based Adjustments](#seasonal-and-project-based-adjustments)
+- [The Psychological Safety Component](#the-psychological-safety-component)
+
 ## Understanding the Visualization Problem
 
 Remote work eliminates the passive awareness that comes from seeing colleagues at their desks. You cannot glance across the office to notice someone drowning in tasks or sitting idle. This visibility gap creates two common failure modes: some team members become overwhelmed while others remain underutilized. Effective workload visualization bridges this gap by making invisible work patterns visible and actionable.

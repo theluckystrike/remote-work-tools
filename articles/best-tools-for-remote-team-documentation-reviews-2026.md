@@ -18,6 +18,17 @@ voice-checked: true
 
 Asynchronous document review is critical for distributed teams across time zones. Google Docs dominates for simplicity but lacks power-user features; Notion excels for integrated workflows with databases and permissions; Dropbox Paper provides lightweight collaboration; Almanac specialized handles SOPs and runbooks. Choose Google Docs for quick team feedback, Notion for complex documentation systems, Dropbox Paper for minimal friction, or Almanac for compliance-heavy processes. All support comments, suggestions, and real-time edits, but differ in permission granularity, integration ecosystems, and handling of version control workflows.
 
+## Table of Contents
+
+- [Asynchronous Documentation Review Challenges](#asynchronous-documentation-review-challenges)
+- [Google Docs: The Baseline Tool](#google-docs-the-baseline-tool)
+- [Notion: Documentation Ecosystem Management](#notion-documentation-ecosystem-management)
+- [Dropbox Paper: Lightweight Collaboration](#dropbox-paper-lightweight-collaboration)
+- [Almanac: Process and Compliance Documentation](#almanac-process-and-compliance-documentation)
+- [Comparison and Decision Framework](#comparison-and-decision-framework)
+- [Recommended Workflows by Use Case](#recommended-workflows-by-use-case)
+- [Integration with Async Workflows](#integration-with-async-workflows)
+
 ## Asynchronous Documentation Review Challenges
 
 Remote teams cannot gather synchronously to review documents. Feedback must be clear, tracked, resolved independently, and threaded so contributors understand context. Traditional tools (Word with Track Changes) create version chaos; modern tools emphasize threaded comments, mention notifications, and transparent resolution workflows.

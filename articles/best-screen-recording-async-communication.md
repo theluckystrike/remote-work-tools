@@ -18,6 +18,18 @@ tags: [remote-work-tools, best-of]
 
 A 90-second screen recording of a bug is worth ten paragraphs of text. Async screen recording lets distributed teams share context without scheduling calls — you record a walkthrough of the problem, the PR, or the design, and teammates watch it when they're available.
 
+## Table of Contents
+
+- [Loom](#loom)
+- [Screen Studio](#screen-studio)
+- [OBS Studio (Open Source)](#obs-studio-open-source)
+- [Quick Recordings with ffmpeg (No GUI)](#quick-recordings-with-ffmpeg-no-gui)
+- [Self-Hosting Video with Cloudflare Stream](#self-hosting-video-with-cloudflare-stream)
+- [Tool Selection Guide](#tool-selection-guide)
+- [Async Video Norms That Actually Work](#async-video-norms-that-actually-work)
+- [Integrating Recordings into Your Workflow](#integrating-recordings-into-your-workflow)
+- [When Not to Use Screen Recording](#when-not-to-use-screen-recording)
+
 This guide covers the best screen recording tools for async communication in 2026, how to set them up, and how to build a distribution workflow that doesn't require Slack uploads or cloud subscriptions for every recording.
 
 ## Loom

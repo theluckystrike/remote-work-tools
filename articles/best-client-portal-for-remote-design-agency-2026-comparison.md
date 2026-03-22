@@ -17,6 +17,15 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Remote design agencies face unique challenges when managing client communications. Unlike traditional agencies, distributed design teams need client portals that support asynchronous collaboration, file sharing, feedback collection, and project tracking without requiring real-time presence. This comparison evaluates the leading client portal solutions available in 2026 for remote design agencies of various sizes.
 
+## Table of Contents
+
+- [Core Requirements for Design Agency Client Portals](#core-requirements-for-design-agency-client-portals)
+- [Top Client Portal Solutions for Remote Design Agencies](#top-client-portal-solutions-for-remote-design-agencies)
+- [Decision Matrix](#decision-matrix)
+- [Integration Considerations](#integration-considerations)
+- [How to Evaluate Before Committing](#how-to-evaluate-before-committing)
+- [Making Your Selection](#making-your-selection)
+
 ## Core Requirements for Design Agency Client Portals
 
 Before exploring specific tools, identify the essential features your agency needs:

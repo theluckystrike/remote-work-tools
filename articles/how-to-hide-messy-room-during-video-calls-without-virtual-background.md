@@ -17,6 +17,22 @@ tags: [remote-work-tools]
 {% raw %}
 Virtual backgrounds can be unreliable—they glitch, blur your edges, or make you look like a floating head. If you've dealt with these frustrations or work in an environment where virtual backgrounds aren't an option, here are practical ways to hide a messy room without them.
 
+## Table of Contents
+
+- [1. Rearrange Your Camera Angle](#1-rearrange-your-camera-angle)
+- [2. Use a Physical Backdrop](#2-use-a-physical-backdrop)
+- [3. Master Lighting to Hide Clutter](#3-master-lighting-to-hide-clutter)
+- [4. Declutter the Camera's View Only](#4-declutter-the-cameras-view-only)
+- [5. use Depth of Field](#5-use-depth-of-field)
+- [6. Choose the Right Background Objects](#6-choose-the-right-background-objects)
+- [Quick Setup Checklist](#quick-setup-checklist)
+- [7. Camera Distance and Framing](#7-camera-distance-and-framing)
+- [8. Strategic Décor Positioning](#8-strategic-dcor-positioning)
+- [9. Quick Setup Routine Before Video Calls](#9-quick-setup-routine-before-video-calls)
+- [10. Seasonal Background Changes](#10-seasonal-background-changes)
+- [11. Multi-Call Daily Setup Strategy](#11-multi-call-daily-setup-strategy)
+- [12. Emergency Backup Solutions](#12-emergency-backup-solutions)
+
 ## 1. Rearrange Your Camera Angle
 
 The simplest solution is to point your camera at the cleanest part of your space. Most rooms have at least one wall or corner that's relatively tidy.

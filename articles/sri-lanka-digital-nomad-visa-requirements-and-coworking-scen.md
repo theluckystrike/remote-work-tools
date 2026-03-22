@@ -17,6 +17,22 @@ voice-checked: true
 
 Sri Lanka's ETA (electronic travel authorization) costs just $35 for 30 days and extends up to 6 months total, letting you stay legally without a dedicated nomad visa program. Foreign-earned income remains untaxed for non-residents, coworking spaces cost $50-110/month with reliable 100 Mbps fiber connections in Colombo and Kandy, and the UTC+5:30 timezone overlaps perfectly with India and the Middle East while offering reasonable async windows for US collaboration. For developers seeking an alternative to saturated Bali/Chiang Mai destinations, Sri Lanka combines affordable living ($400-800/month accommodation), excellent food, and stable infrastructure without the tourist density of Southeast Asia's nomad hubs.
 
+## Table of Contents
+
+- [Sri Lanka Digital Nomad Visa Options](#sri-lanka-digital-nomad-visa-options)
+- [Income and Tax Considerations](#income-and-tax-considerations)
+- [Internet and Connectivity](#internet-and-connectivity)
+- [Coworking Spaces in Sri Lanka](#coworking-spaces-in-sri-lanka)
+- [Practical Tips for Remote Workers](#practical-tips-for-remote-workers)
+- [Setting Up Your Development Environment](#setting-up-your-development-environment)
+- [Accommodation and Living Options](#accommodation-and-living-options)
+- [Daily Expenses Breakdown](#daily-expenses-breakdown)
+- [Visa Extension Process in Detail](#visa-extension-process-in-detail)
+- [Medical and Insurance Considerations](#medical-and-insurance-considerations)
+- [Social Scene and Remote Worker Community](#social-scene-and-remote-worker-community)
+- [Practical Tips for Your First Month](#practical-tips-for-your-first-month)
+- [When to Consider Extending vs. Moving](#when-to-consider-extending-vs-moving)
+
 ## Sri Lanka Digital Nomad Visa Options
 
 Sri Lanka does not currently have a dedicated "digital nomad visa" program like Estonia or Portugal. However, remote workers can use several visa categories to stay legally in the country for extended periods.

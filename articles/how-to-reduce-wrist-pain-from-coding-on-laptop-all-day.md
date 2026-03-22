@@ -28,6 +28,13 @@ voice-checked: true
 
 To reduce wrist pain from coding on a laptop all day, elevate your laptop to eye level with a stand and use an external keyboard positioned at elbow height so your wrists stay straight -- not bent up or down. Supplement this with keyboard shortcuts and code snippets to reduce total keystrokes, take breaks every 20 minutes with wrist circles and flexor stretches, and consider a split or ergonomic keyboard if pain persists. The combination of cramped laptop keyboard layouts, unnatural hand positions, and repetitive motions creates conditions for carpal tunnel syndrome and tendonitis, but these targeted changes address each strain factor directly.
 
+## Table of Contents
+
+- [Why Laptops Are Hard on Your Wrists](#why-laptops-are-hard-on-your-wrists)
+- [Prerequisites](#prerequisites)
+- [When to Seek Professional Help](#when-to-seek-professional-help)
+- [Troubleshooting](#troubleshooting)
+
 ## Why Laptops Are Hard on Your Wrists
 
 Laptop keyboards are designed for portability, not ergonomic comfort. The keys are often closer together than on full-size keyboards, and the lack of a separate numeric keypad means your hands stay centered in a tighter zone. When you're coding all day, this constant micro-movement adds up.

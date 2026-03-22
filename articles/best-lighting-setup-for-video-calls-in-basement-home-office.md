@@ -17,6 +17,18 @@ voice-checked: true
 
 Basements present unique challenges for video calls. Without windows or natural light sources, you're working with a blank canvas that can either make you look like a news anchor or a suspect in a crime drama. This guide covers the technical approach to achieving professional-quality lighting in your basement home office without breaking the bank.
 
+## Table of Contents
+
+- [The Basement Lighting Challenge](#the-basement-lighting-challenge)
+- [Understanding Color Temperature](#understanding-color-temperature)
+- [The Three-Point Lighting Foundation](#the-three-point-lighting-foundation)
+- [Budget-Friendly Equipment Options](#budget-friendly-equipment-options)
+- [Smart Lighting Automation](#smart-lighting-automation)
+- [Practical Setup Tips](#practical-setup-tips)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Automating Color Temperature by Time of Day](#automating-color-temperature-by-time-of-day)
+- [Final Recommendations](#final-recommendations)
+
 ## The Basement Lighting Challenge
 
 Most basements have two problems: insufficient light and unflattering light direction. Ceiling lights cast harsh shadows downward onto your face, creating dark eye sockets and an uninviting appearance. Without natural light to balance the scene, your video feed can appear flat and lifeless.
@@ -232,11 +244,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
 - [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
-- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
-- [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation/)
-- [Home Office Dehumidifier for Basement Workspace — Recommendation](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation-2026/)
-
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Ring Light vs Panel Light for Video Calls: A Developer Guide](/remote-work-tools/ring-light-vs-panel-light-for-video-calls/)
+- [Best Smart Lighting for Home Office Developers](/remote-work-tools/best-smart-lighting-for-home-office-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

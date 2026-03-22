@@ -33,6 +33,24 @@ tags: [remote-work-tools, comparison]
 
 Choose Linear if your team prioritizes speed, a keyboard-driven workflow, and a clean interface for fast-moving software development. Choose Jira if you need extensive customization, complex multi-stage workflows, and deep integration with the Atlassian ecosystem. Both handle issue tracking well, but they take fundamentally different approaches -- this guide breaks down the practical differences.
 
+## Table of Contents
+
+- [The Core Philosophy](#the-core-philosophy)
+- [Feature Comparison](#feature-comparison)
+- [Integration Ecosystem](#integration-ecosystem)
+- [Pricing Considerations](#pricing-considerations)
+- [When to Choose Each Tool](#when-to-choose-each-tool)
+- [Migration Considerations](#migration-considerations)
+- [Which One to Choose](#which-one-to-choose)
+- [Complete Pricing Comparison (2026)](#complete-pricing-comparison-2026)
+- [Implementation Effort Comparison](#implementation-effort-comparison)
+- [Workflow Complexity Examples](#workflow-complexity-examples)
+- [Integration Ecosystem](#integration-ecosystem)
+- [Team Size Recommendations](#team-size-recommendations)
+- [Migration Path](#migration-path)
+- [Keyboard Shortcut Comparison](#keyboard-shortcut-comparison)
+- [Real-World Workflow Comparison](#real-world-workflow-comparison)
+
 ## The Core Philosophy
 
 Jira, developed by Atlassian, has been the enterprise standard for nearly two decades. It offers extensive customization, complex workflows, and deep integration with the Atlassian ecosystem. Linear, a newer entrant, focuses on speed, simplicity, and an improved user experience designed specifically for modern software teams.

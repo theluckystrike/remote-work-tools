@@ -27,6 +27,13 @@ tags: [remote-work-tools, remote-work]
 
 ## Why You Need an Emergency Plan
 
+## Table of Contents
+
+- [Why You Need an Emergency Plan](#why-you-need-an-emergency-plan)
+- [The Three Tiers of Communication Breakdown](#the-three-tiers-of-communication-breakdown)
+- [Emergency Communication Plan Template](#emergency-communication-plan-template)
+- [Final Recommendations](#final-recommendations)
+
 Slack is down. Zoom won't connect. Your primary communication infrastructure fails silently. For remote teams, this is chaos. Without a pre-planned emergency protocol, decisions pile up, stakeholders panic, and recovery takes hours longer than necessary.
 
 This guide covers building an emergency communication plan that keeps your remote team operational when primary tools fail.

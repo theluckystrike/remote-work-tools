@@ -26,6 +26,18 @@ voice-checked: true
 score: 8
 ---
 
+## Table of Contents
+
+- [Why GitHub Discussions for Engineering Proposals](#why-github-discussions-for-engineering-proposals)
+- [Step 1: Enable and Configure GitHub Discussions](#step-1-enable-and-configure-github-discussions)
+- [Step 2: Create the Proposal Template](#step-2-create-the-proposal-template)
+- [Step 3: Set Up Review Workflow Automation](#step-3-set-up-review-workflow-automation)
+- [Step 4: Running the Proposal Process](#step-4-running-the-proposal-process)
+- [Decision Summary](#decision-summary)
+- [Step 5: Automate Status Updates](#step-5-automate-status-updates)
+- [Best Practices for Effective Async Proposals](#best-practices-for-effective-async-proposals)
+- [Measuring Proposal Process Effectiveness](#measuring-proposal-process-effectiveness)
+
 
 Engineering teams working across time zones cannot rely on synchronous meetings to make technical decisions. A proposal left pending until everyone is online means decisions blocked for days. GitHub Discussions solves this by giving engineering proposals a permanent, searchable home where reviewers engage on their own schedules and decisions are documented where the code lives.
 

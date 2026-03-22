@@ -159,6 +159,27 @@ Last Updated: [Auto]
 - Threshold
 - Who gets paged
 
+## Table of Contents
+
+- [Detection](#detection)
+- [Procedure](#procedure)
+- [Escalation](#escalation)
+- [Testing](#testing)
+- [Related](#related)
+- [Building Your First Runbook](#building-your-first-runbook)
+- [Template: Copy and Customize](#template-copy-and-customize)
+- [Detection](#detection)
+- [Diagnosis (5 minutes)](#diagnosis-5-minutes)
+- [Remediation](#remediation)
+- [Testing (Practice in staging)](#testing-practice-in-staging)
+- [Escalation](#escalation)
+- [Related](#related)
+- [Integrating Runbooks with Incident Response](#integrating-runbooks-with-incident-response)
+- [Runbook Maintenance: The Hard Part](#runbook-maintenance-the-hard-part)
+- [Real-World Runbook Library: 50-Person Company](#real-world-runbook-library-50-person-company)
+- [Cost Analysis](#cost-analysis)
+- [Anti-Patterns to Avoid](#anti-patterns-to-avoid)
+
 ## Procedure
 1. Step
 2. Step
@@ -484,6 +505,11 @@ Compare to:
 
 ## Related Articles
 
+- [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
+- [Migration runbook example structure](/remote-work-tools/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
+- [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
+- [How to Create Remote Team Runbook Templates](/remote-work-tools/how-to-create-remote-team-runbook-templates/)
+- [How to Build a Remote Team Troubleshooting Guide from Past](/remote-work-tools/how-to-build-remote-team-troubleshooting-guide-from-past-inc/)
 1. [On-Call Rotation Best Practices for Remote Teams](/articles/oncall-rotation-remote/)
 2. [Incident Response Playbooks: From Detection to Resolution](/articles/incident-response-playbooks/)
 3. [Chaos Engineering: Testing Your Runbooks at Scale](/articles/chaos-engineering-testing/)

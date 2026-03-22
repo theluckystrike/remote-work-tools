@@ -18,6 +18,27 @@ voice-checked: true
 
 Remote work offers flexibility but blurs the boundaries between professional and personal life. Without a physical commute, many developers find themselves working longer hours, feeling perpetually "on," and struggling to disconnect. Fake commutes and transition rituals solve this problem by creating psychological separation between work mode and rest mode.
 
+## Table of Contents
+
+- [Why Transition Rituals Matter for Remote Workers](#why-transition-rituals-matter-for-remote-workers)
+- [The 15-Minute Fake Commute Framework](#the-15-minute-fake-commute-framework)
+- [Automating Your Transition with Scripts](#automating-your-transition-with-scripts)
+- [Physical Setup: Creating Work Boundaries](#physical-setup-creating-work-boundaries)
+- [Building Long-Term Habits](#building-long-term-habits)
+- [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
+- [Advanced: Context-Aware Automation](#advanced-context-aware-automation)
+- [Tools That Support Fake Commute Rituals](#tools-that-support-fake-commute-rituals)
+- [Real Example: A Developer's Weekly Ritual Stack](#real-example-a-developers-weekly-ritual-stack)
+- [The Science: Why 15 Minutes Works](#the-science-why-15-minutes-works)
+- [Rituals for Different Work Contexts](#rituals-for-different-work-contexts)
+- [Troubleshooting Common Ritual Failures](#troubleshooting-common-ritual-failures)
+- [Ritual Templates by Work Schedule](#ritual-templates-by-work-schedule)
+- [The Energy Management Perspective](#the-energy-management-perspective)
+- [Real Failure Case Study: Why Skipping Rituals Hurts](#real-failure-case-study-why-skipping-rituals-hurts)
+- [Measuring Ritual Effectiveness](#measuring-ritual-effectiveness)
+- [Advanced: Seasonal Ritual Adjustments](#advanced-seasonal-ritual-adjustments)
+- [Building Your Personal Ritual Toolkit](#building-your-personal-ritual-toolkit)
+
 ## Why Transition Rituals Matter for Remote Workers
 
 When you walk into an office, your brain registers the environment shift. The commute itself serves as a buffer—a time to process the day ahead or decompress after work. Remote work eliminates this natural transition, and your brain never receives the signal that work has ended.
@@ -387,11 +408,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
-- [Best Cafe Work Etiquette for Remote Workers](/remote-work-tools/best-cafe-work-etiquette-for-remote-workers/)
-- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
-- [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
-- [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
-
+- [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
+- [Time Audit for Remote Workers: A Practical How-To Guide](/remote-work-tools/time-audit-for-remote-workers-how-to-guide-2026/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
+- [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
+- [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/remote-work-tools/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -31,6 +31,29 @@ tags: [remote-work-tools, remote-work]
 
 Showcase technical certifications, security compliance (SOC 2, GDPR), industry credentials, and customer success stories in a dedicated credentials dashboard to win agency contracts. When agencies evaluate remote development teams, credentials signal reliability, competence, and professionalism because they cannot visit your office or meet developers in person. This guide shows you how to present your remote team's credentials effectively, including what to include, how to organize credentials, and strategies to emphasize what agencies care about.
 
+## Table of Contents
+
+- [The Remote Team Credibility Gap](#the-remote-team-credibility-gap)
+- [Why Credentials Matter for Remote Teams](#why-credentials-matter-for-remote-teams)
+- [Essential Credentials to Showcase](#essential-credentials-to-showcase)
+- [Building Your Credential Dashboard](#building-your-credential-dashboard)
+- [Presenting Credentials in Proposals](#presenting-credentials-in-proposals)
+- [Team Qualifications](#team-qualifications)
+- [Credential Verification Strategies](#credential-verification-strategies)
+- [Documenting Team Member Credentials](#documenting-team-member-credentials)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Building Long-Term Credential Strategy](#building-long-term-credential-strategy)
+- [Building a Credential Portfolio Site](#building-a-credential-portfolio-site)
+- [Credential Documentation for Due Diligence](#credential-documentation-for-due-diligence)
+- [Team Certifications](#team-certifications)
+- [Verification Instructions](#verification-instructions)
+- [Compliance Certifications](#compliance-certifications)
+- [Insurance and Bonding](#insurance-and-bonding)
+- [Presentation Strategies for Different Agency Types](#presentation-strategies-for-different-agency-types)
+- [Maintaining Credential Accuracy](#maintaining-credential-accuracy)
+- [using Credentials in Business Development](#using-credentials-in-business-development)
+- [Why We're Qualified for This Project](#why-were-qualified-for-this-project)
+
 ## The Remote Team Credibility Gap
 
 When evaluating a co-located development team, agency decision-makers can visit the office, observe team dynamics, and meet developers in person. These interactions build credibility through direct observation. For remote teams, these advantages disappear. Instead, agencies rely on documented evidence—credentials—to evaluate your team's capabilities and reliability.

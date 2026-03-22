@@ -18,6 +18,19 @@ voice-checked: true
 
 As remote teams scale past 30 members, communication patterns that worked for a tight-knit group of 10 suddenly break down. Messages get lost in Slack channels, meetings multiply exponentially, and the once-clear async workflows become a maze of @mentions and fragmented conversations. A structured communication audit helps you identify these bottlenecks before they compound into serious productivity drains.
 
+## Table of Contents
+
+- [Why 30 People Marks a Critical Threshold](#why-30-people-marks-a-critical-threshold)
+- [Step 1: Map Your Current Communication Channels](#step-1-map-your-current-communication-channels)
+- [Step 2: Analyze Meeting Load and Purpose](#step-2-analyze-meeting-load-and-purpose)
+- [Step 3: Identify Async Communication Breakdowns](#step-3-identify-async-communication-breakdowns)
+- [Step 4: Quantify Cross-Team Dependencies](#step-4-quantify-cross-team-dependencies)
+- [Step 5: Implement Targeted Fixes](#step-5-implement-targeted-fixes)
+- [Real Audit Results: 40-Person Tech Team](#real-audit-results-40-person-tech-team)
+- [Quarterly Communication Audits](#quarterly-communication-audits)
+- [Communication Norms That Scale](#communication-norms-that-scale)
+- [Scaling Beyond 50 People](#scaling-beyond-50-people)
+
 This guide provides developers and power users with practical methods to audit communication flows, quantify friction points, and implement targeted fixes using tools you already have.
 
 ## Why 30 People Marks a Critical Threshold
@@ -349,10 +362,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
-- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
-- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
-- [Standup Bot Comparison for Remote Engineering Teams](/remote-work-tools/standup-bot-comparison-for-remote-engineering-teams/)
-
+- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
+- [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
+- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
+- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

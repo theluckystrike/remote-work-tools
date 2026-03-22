@@ -18,6 +18,20 @@ tags: [remote-work-tools]
 
 Hybrid work models present unique onboarding challenges. New employees need to build relationships with colleagues they've never met in person while also learning remote-first workflows that may differ from their previous experience. A well-designed hybrid onboarding process bridges this gap, ensuring new hires feel connected regardless of where they work.
 
+## Table of Contents
+
+- [Pre-Start Preparation: Setting the Foundation](#pre-start-preparation-setting-the-foundation)
+- [First Week: Building Connections Across Locations](#first-week-building-connections-across-locations)
+- [Week 1 Schedule](#week-1-schedule)
+- [First Month: Deep Integration and Skill Building](#first-month-deep-integration-and-skill-building)
+- [Week 1-2: Foundation](#week-1-2-foundation)
+- [Week 3-4: Practical Work](#week-3-4-practical-work)
+- [Documentation: The Backbone of Hybrid Onboarding](#documentation-the-backbone-of-hybrid-onboarding)
+- [Quick Links](#quick-links)
+- [Your First Week](#your-first-week)
+- [Getting Help](#getting-help)
+- [Continuous Improvement](#continuous-improvement)
+
 This guide provides practical strategies, automation scripts, and templates for implementing hybrid onboarding that works for developer teams and technical power users.
 
 ## Pre-Start Preparation: Setting the Foundation

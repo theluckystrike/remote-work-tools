@@ -18,6 +18,14 @@ intent-checked: true
 
 Canary tokens are one of the most effective early warning systems available for detecting unauthorized access. Unlike traditional intrusion detection that relies on network signatures or behavioral analysis, canary tokens exploit the fundamental principle that attackers cannot resist interesting-looking targets. When someone accesses a canary token, you get an immediate alert, giving you precious time to respond before damage escalates.
 
+## Table of Contents
+
+- [What Are Canary Tokens](#what-are-canary-tokens)
+- [Prerequisites](#prerequisites)
+- [Advanced Configuration with Custom Alerts](#advanced-configuration-with-custom-alerts)
+- [Advanced Token Deployment Strategies](#advanced-token-deployment-strategies)
+- [Troubleshooting](#troubleshooting)
+
 This guide walks through setting up canary tokens specifically for remote work environments where traditional perimeter security provides limited protection.
 
 {% endraw %}

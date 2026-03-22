@@ -18,6 +18,23 @@ voice-checked: true
 
 Managing Objectives and Key Results (OKRs) across a distributed team of 12 people requires deliberate structure. Unlike co-located teams that can rely on hallway conversations and visual dashboards, remote product teams need explicit processes and tooling to keep everyone aligned. This guide covers practical approaches to tracking OKRs that actually work for mid-sized remote product teams.
 
+## Table of Contents
+
+- [Structuring OKRs for a 12-Person Product Team](#structuring-okrs-for-a-12-person-product-team)
+- [Choosing Your OKR Tracking Tool](#choosing-your-okr-tracking-tool)
+- [Weekly Check-In cadence](#weekly-check-in-cadence)
+- [Week of [Date] OKR Updates](#week-of-date-okr-updates)
+- [Automating Progress Updates](#automating-progress-updates)
+- [Quarterly OKR Cycle Timeline](#quarterly-okr-cycle-timeline)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Integrating OKRs with Daily Work](#integrating-okrs-with-daily-work)
+- [Detailed Implementation Timeline for Your First OKR Cycle](#detailed-implementation-timeline-for-your-first-okr-cycle)
+- [Real OKR Example for a 12-Person Product Team](#real-okr-example-for-a-12-person-product-team)
+- [Weekly OKR Update Template](#weekly-okr-update-template)
+- [Weekly OKR Update - [Name]](#weekly-okr-update-name)
+- [Avoiding the "Weight of OKRs" Problem](#avoiding-the-weight-of-okrs-problem)
+- [Feedback Loop: Quarterly Review Meeting](#feedback-loop-quarterly-review-meeting)
+
 ## Structuring OKRs for a 12-Person Product Team
 
 With 12 people, you likely have enough complexity to warrant clear ownership but not so much that coordination becomes overwhelming. A three-tier structure typically works well:

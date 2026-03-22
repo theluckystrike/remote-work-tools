@@ -17,6 +17,26 @@ voice-checked: true---
 
 Building a remote-first company requires more than just adopting video conferencing tools. Startups need structured playbooks that define how communication flows, how decisions get made, and how team members stay aligned without constant synchronous check-ins. This guide provides a practical template you can adapt for your team, with concrete examples that work for engineering organizations.
 
+## Table of Contents
+
+- [Core Components of a Remote Work Playbook](#core-components-of-a-remote-work-playbook)
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Implementation Patterns](#implementation-patterns)
+- [Adapting the Template to Your Size](#adapting-the-template-to-your-size)
+- [Continuous Improvement](#continuous-improvement)
+- [Tool Stack Pricing and Comparison](#tool-stack-pricing-and-comparison)
+- [Practical Configuration: Daily Standup Automation](#practical-configuration-daily-standup-automation)
+- [Implementation Timeline: First Month](#implementation-timeline-first-month)
+- [Onboarding New Remote Hires Using Your Playbook](#onboarding-new-remote-hires-using-your-playbook)
+- [Real Cost of Playbook Maintenance](#real-cost-of-playbook-maintenance)
+- [Scaling Beyond 10 People](#scaling-beyond-10-people)
+- [Red Flags: When Your Playbook Isn't Working](#red-flags-when-your-playbook-isnt-working)
+- [Playbook Repository Setup](#playbook-repository-setup)
+- [Playbook Maintenance Cadence](#playbook-maintenance-cadence)
+
 ## Core Components of a Remote Work Playbook
 
 A functional remote work playbook addresses four key areas: asynchronous communication norms, meeting efficiency, documentation standards, and tooling infrastructure. Each section should include specific guidelines your team can reference rather than vague principles.

@@ -18,6 +18,13 @@ voice-checked: true
 
 Communicate project delays remotely to stakeholders by providing clear, structured notifications that include what changed, why it happened, your resolution plan, and a revised timeline—delivered early and specifically rather than with vague language or excessive apologies. This template-driven approach builds trust and manages expectations even when delivering bad news.
 
+## Table of Contents
+
+- [Why Transparency Matters More in Remote Settings](#why-transparency-matters-more-in-remote-settings)
+- [Prerequisites](#prerequisites)
+- [Best Practices for Remote Delay Communication](#best-practices-for-remote-delay-communication)
+- [Troubleshooting](#troubleshooting)
+
 Every developer faces it eventually: a project timeline that slips, dependencies that fail, or scope creep that derails the best-laid plans. When this happens remotely, the challenge intensifies. You cannot walk into a stakeholder's office for a quick chat. Every communication must be deliberate, clear, and trustworthy. This guide provides actionable templates, code examples, and workflows for communicating project delays to stakeholders while maintaining credibility and transparency.
 
 ## Why Transparency Matters More in Remote Settings
@@ -274,11 +281,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
-- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
-- [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
-- [How to Give Constructive Feedback Remotely Over Text](/remote-work-tools/how-to-give-constructive-feedback-remotely-over-text-without/)
-- [How to Handle Mail and Legal Address When Working Remotely](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
-
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
+- [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
+- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
+- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

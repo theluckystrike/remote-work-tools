@@ -19,6 +19,27 @@ voice-checked: true
 
 Buy a used Herman Miller Aeron Gen2 ($400-700) for the best combination of durability and ergonomic support -- its Pellicle mesh does not compress over time, so even 3-5 year old units retain their supportive properties. For a lower budget, the Steelcase Leap V2 ($300-550) offers excellent adjustability, though check that the foam seat cushion has not flattened. Haworth Zody ($250-450) is the value pick with replaceable cushions that extend its usable life. All three brands build chairs rated for 10-15 years, so buying used at 40-60% off retail saves hundreds while delivering the same ergonomic benefits developers need for 8+ hour coding sessions.
 
+## Table of Contents
+
+- [Why Buy Second-Hand Ergonomic Chairs](#why-buy-second-hand-ergonomic-chairs)
+- [Brands Worth Buying Used](#brands-worth-buying-used)
+- [What to Inspect Before Buying](#what-to-inspect-before-buying)
+- [Where to Find Quality Used Chairs](#where-to-find-quality-used-chairs)
+- [Making the Purchase Decision](#making-the-purchase-decision)
+- [Building Your Setup](#building-your-setup)
+- [Evaluation Spreadsheet for Chair Shopping](#evaluation-spreadsheet-for-chair-shopping)
+- [Price Negotiation for Used Chairs](#price-negotiation-for-used-chairs)
+- [Setup and Adjustment Guide](#setup-and-adjustment-guide)
+- [Height adjustment](#height-adjustment)
+- [Lumbar support](#lumbar-support)
+- [Armrest positioning](#armrest-positioning)
+- [Tilt settings](#tilt-settings)
+- [Footrest (if included)](#footrest-if-included)
+- [Troubleshooting Common Issues with Used Chairs](#troubleshooting-common-issues-with-used-chairs)
+- [Long-Term Maintenance for Used Chairs](#long-term-maintenance-for-used-chairs)
+- [Chair Setup for Different Desk Heights](#chair-setup-for-different-desk-heights)
+- [Long-Term Value Analysis](#long-term-value-analysis)
+
 ## Why Buy Second-Hand Ergonomic Chairs
 
 The math is straightforward. A new Herman Miller Aeron costs around $1,400. The same chair in good condition, 2-3 years old, often appears on resale platforms for $500-700. That's a savings of 50-65% for the same ergonomic benefits.
@@ -411,11 +432,10 @@ Used chairs offer the best value: 60-70% discount from new, 90%+ of the comfort 
 
 ## Related Articles
 
-- [How to Fit Ergonomic Chair and Standing Desk in Tiny Room](/remote-work-tools/how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/)
-- [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
-- [Home Office Chair Mat for Carpet vs Hardwood Floor](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-compariso/)
-- [Home Office Chair Mat for Carpet vs Hardwood Floor — Comparison](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-comparison/)
-- [How to Set Up Second Brain for Developers](/remote-work-tools/how-to-set-up-second-brain-for-developers/)
-
+- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
+- [Herman Miller vs Steelcase for Remote Developers](/remote-work-tools/herman-miller-vs-steelcase-for-remote-developers/)
+- [How to Set Up Ergonomic Workspace in Airbnb for Month-Long](/remote-work-tools/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
+- [How to Reduce Lower Back Pain from Sitting 8 Hours Coding](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

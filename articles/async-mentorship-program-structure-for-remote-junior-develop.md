@@ -17,6 +17,29 @@ tags: [remote-work-tools, remote-work]
 
 Structure an async mentorship program for remote junior developers around three communication layers: weekly written check-ins using a shared document, bi-weekly video calls for complex discussions, and monthly goal reviews against defined objectives. This cadence creates predictable rhythms and clear expectations across time zones, letting mentees compose thoughtful questions without interruption pressure while building a searchable record of decisions and guidance they can reference later.
 
+## Table of Contents
+
+- [Why Async Mentorship Works for Remote Junior Developers](#why-async-mentorship-works-for-remote-junior-developers)
+- [Setting Up Your Program Structure](#setting-up-your-program-structure)
+- [The Weekly Async Check-In Template](#the-weekly-async-check-in-template)
+- [Week of [Date]](#week-of-date)
+- [Providing Effective Async Feedback](#providing-effective-async-feedback)
+- [Handling Questions in Async Formats](#handling-questions-in-async-formats)
+- [Tracking Progress and Goals](#tracking-progress-and-goals)
+- [Q1 2026 Goals](#q1-2026-goals)
+- [Tools That Support Async Mentorship](#tools-that-support-async-mentorship)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Scaling to Multiple Mentees](#scaling-to-multiple-mentees)
+- [Measuring Program Success](#measuring-program-success)
+- [Handling Different Learning Styles](#handling-different-learning-styles)
+- [Visual Learning Resources](#visual-learning-resources)
+- [Handling Time Zone Challenges](#handling-time-zone-challenges)
+- [Building a Mentee-to-Mentee Learning Culture](#building-a-mentee-to-mentee-learning-culture)
+- [Mentee Cohort Best Practices](#mentee-cohort-best-practices)
+- [Measuring Mentee Success Beyond Velocity](#measuring-mentee-success-beyond-velocity)
+- [When Async Mentorship Isn't Working](#when-async-mentorship-isnt-working)
+- [Exiting the Mentorship Gracefully](#exiting-the-mentorship-gracefully)
+
 ## Why Async Mentorship Works for Remote Junior Developers
 
 Traditional mentorship assumes mentors can glance over a mentee's shoulder, answer quick questions in passing, and provide immediate feedback on code. Remote work breaks this model, but async mentorship actually offers advantages that in-person mentorship lacks.
@@ -316,11 +339,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [matching_weights.py](/remote-work-tools/how-to-set-up-remote-team-mentorship-program-matching-mentor/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
+- [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
 - [How to Structure an Async All Hands Update for 100 Employees](/remote-work-tools/how-to-structure-an-async-all-hands-update-for-100-employees/)
-- [Example: Using Slack webhooks for deployment notifications](/remote-work-tools/best-client-communication-tool-comparison-for-remote-develop/)
-- [Buddy System for Onboarding Remote Junior Developers Guide](/remote-work-tools/buddy-system-for-onboarding-remote-junior-developers-guide/)
-- [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

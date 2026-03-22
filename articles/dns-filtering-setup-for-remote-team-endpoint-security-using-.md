@@ -31,6 +31,18 @@ tags: [remote-work-tools, security, remote-work]
 
 Configure Cloudflare Gateway to intercept malicious DNS queries before reaching remote team devices, blocking phishing domains and malware without VPN requirements. Remote team security demands first-line defense beyond traditional VPNs—DNS filtering protects distributed endpoints working from home offices, coffee shops, and co-working spaces by blocking dangerous domain resolutions at Cloudflare's edge network. This guide walks through the complete implementation process, including SSO integration, policy configuration, and deployment strategies for distributed teams.
 
+## Table of Contents
+
+- [Why DNS Filtering Matters for Remote Teams](#why-dns-filtering-matters-for-remote-teams)
+- [Prerequisites and Initial Setup](#prerequisites-and-initial-setup)
+- [Setting Up the Cloudflare WARP Client](#setting-up-the-cloudflare-warp-client)
+- [Creating Granular DNS Policies](#creating-granular-dns-policies)
+- [Monitoring and Alerting](#monitoring-and-alerting)
+- [Testing Your Configuration](#testing-your-configuration)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Scaling Your Deployment](#scaling-your-deployment)
+- [Moving Forward](#moving-forward)
+
 ## Why DNS Filtering Matters for Remote Teams
 
 When your team works from home offices, coffee shops, and co-working spaces, they lose the protection of your corporate network perimeter. Every DNS query from their devices travels directly to the internet, potentially exposing them to phishing domains, malware distribution networks, and command-and-control servers. DNS filtering inspects these queries at Cloudflare's edge network, blocking dangerous resolutions before malicious connections establish.
@@ -283,10 +295,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Endpoint Security Solution for Remote Employees Using](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [How to Run a Remote Team Hackathon 2026](/remote-work-tools/how-to-run-remote-team-hackathon-2026/)
+- [Remote Team Shadow IT Discovery and Management Guide for IT](/remote-work-tools/remote-team-shadow-it-discovery-and-management-guide-for-it-/)
 - [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
-- [FastAPI-based question collection endpoint](/remote-work-tools/remote-team-all-hands-meeting-question-collection-tool-for-d/)
-- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
-- [How to Implement Hardware Security Keys for Remote Team](/remote-work-tools/how-to-implement-hardware-security-keys-for-remote-team-auth/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

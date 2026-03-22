@@ -18,6 +18,19 @@ voice-checked: true
 
 Opening a Thai bank account as a digital nomad requires understanding the country's banking regulations and preparing the right documentation. This guide walks you through the practical steps to get a working Thai bank account while conducting remote work for international clients.
 
+## Table of Contents
+
+- [Understanding Thai Banking Requirements for Foreigners](#understanding-thai-banking-requirements-for-foreigners)
+- [Required Documents](#required-documents)
+- [Step-by-Step Process](#step-by-step-process)
+- [Practical Considerations for Remote Workers](#practical-considerations-for-remote-workers)
+- [Common Challenges and Solutions](#common-challenges-and-solutions)
+- [Maximizing Your Thai Banking Experience](#maximizing-your-thai-banking-experience)
+- [Thai Bank Selection Comparison](#thai-bank-selection-comparison)
+- [First 30-Day Financial Setup Priorities](#first-30-day-financial-setup-priorities)
+- [Visa Requirements and Banking: Integration Points](#visa-requirements-and-banking-integration-points)
+- [Tax Filing Considerations for Remote Developers](#tax-filing-considerations-for-remote-developers)
+
 ## Understanding Thai Banking Requirements for Foreigners
 
 Thai banks have specific requirements for non-residents opening accounts. The good news is that several major Thai banks—包括Krungsri、SCB（暹罗商业银行）和KBANK（开泰银行）—actively welcome foreign clients with proper documentation.
@@ -240,11 +253,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
-- [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
-- [How to Handle Health Insurance as Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
-- [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
-- [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
-
+- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
+- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Best Business Bank Accounts for Freelancers 2026](/remote-work-tools/best-business-bank-accounts-for-freelancers-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

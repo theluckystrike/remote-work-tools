@@ -18,6 +18,20 @@ intent-checked: true
 
 Remote team retrospectives require tools that help asynchronous input, reduce meeting friction, and preserve action items across sprints. Unlike in-person retros where you can use physical whiteboards, distributed teams need platforms that support real-time collaboration, voting on action items, and persistent documentation. This guide compares the leading retro tools with practical comparisons for teams of 5-50 people.
 
+## Table of Contents
+
+- [Why Dedicated Retro Tools Matter](#why-dedicated-retro-tools-matter)
+- [Retrium: Best for Structured Team Retros](#retrium-best-for-structured-team-retros)
+- [EasyRetro: Best for Budget-Conscious Teams](#easyretro-best-for-budget-conscious-teams)
+- [Parabol: Best for Agile Team Integration](#parabol-best-for-agile-team-integration)
+- [Metro Retro: Best for Facilitation and Engagement](#metro-retro-best-for-facilitation-and-engagement)
+- [FunRetro: Best for Lightweight and Fast Retros](#funretro-best-for-lightweight-and-fast-retros)
+- [Comparison Table](#comparison-table)
+- [Async Retrospectives: When Everyone Can't Meet](#async-retrospectives-when-everyone-cant-meet)
+- [Common Retrospective Anti-Patterns](#common-retrospective-anti-patterns)
+- [Recommended Setup by Team Size](#recommended-setup-by-team-size)
+- [Implementation Checklist](#implementation-checklist)
+
 ## Why Dedicated Retro Tools Matter
 
 Teams often resort to generic tools like Google Docs or Miro for retrospectives. This approach creates problems:
@@ -449,11 +463,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to help Engaging Remote Retrospectives](/remote-work-tools/how-to-help-engaging-remote-retrospectives/)
+- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
 - [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
-- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
-- [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-
+- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/remote-work-tools/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
+- [Asynchronous Team Retrospective Tools Methods Process](/remote-work-tools/asynchronous-team-retrospective-tools-methods-process/)
+- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

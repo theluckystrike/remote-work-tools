@@ -31,6 +31,18 @@ tags: [remote-work-tools, remote-work]
 
 Managing project timelines across distributed teams and external agencies presents unique challenges. When your collaborators span multiple time zones and use different tools, keeping everyone aligned requires a systematic approach. This guide covers practical methods for creating and sharing project timelines using command-line tools that integrate with your existing workflow.
 
+## Table of Contents
+
+- [Why CLI-Based Timelines Work for Remote Collaboration](#why-cli-based-timelines-work-for-remote-collaboration)
+- [Method 1: Using Taskwarrior with Export](#method-1-using-taskwarrior-with-export)
+- [Method 2: Markdown + Mermaid Diagrams](#method-2-markdown-mermaid-diagrams)
+- [Phase Overview](#phase-overview)
+- [Method 3: CSV Export from Spreadsheets](#method-3-csv-export-from-spreadsheets)
+- [Handling Scope Changes and Timeline Updates](#handling-scope-changes-and-timeline-updates)
+- [Automating Weekly Status Reports](#automating-weekly-status-reports)
+- [Choosing the Right Method for Your Client](#choosing-the-right-method-for-your-client)
+- [Best Practices for Shared Timelines](#best-practices-for-shared-timelines)
+
 ## Why CLI-Based Timelines Work for Remote Collaboration
 
 Command-line tools offer several advantages for remote agency work. They version-control naturally through Git, they integrate into automation pipelines, and they produce output in formats that sync across devices. Unlike GUI-based tools that require manual export and import, CLI-generated timelines maintain consistency across every team member's environment.
@@ -270,12 +282,11 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
-- [Best Contract Management Tool for Remote Agency Multiple](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
-- [Best Project Management CLI Tools 2026](/remote-work-tools/best-project-management-cli-tools-2026/)
-- [Shared Inbox Setup for Remote Agency Client Support Emails](/remote-work-tools/shared-inbox-setup-for-remote-agency-client-support-emails/)
 - [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
-
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
+- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
+- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

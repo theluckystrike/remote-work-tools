@@ -17,6 +17,18 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Dotfiles form the backbone of your development environment. When working remotely across multiple machines or frequently setting up new development environments, managing these configuration files becomes essential. This guide evaluates the best dotfiles managers for remote developer setups, with practical implementation examples and workflow patterns.
 
+## Table of Contents
+
+- [Why Dotfiles Management Matters for Remote Developers](#why-dotfiles-management-matters-for-remote-developers)
+- [GNU Stow: The Simple, Effective Choice](#gnu-stow-the-simple-effective-choice)
+- [YADM: Git-Based Configuration with Special Features](#yadm-git-based-configuration-with-special-features)
+- [Chezmoi: dotfiles as Code](#chezmoi-dotfiles-as-code)
+- [Dotbot: Automation-First Approach](#dotbot-automation-first-approach)
+- [Comparison Table: Dotfiles Managers at a Glance](#comparison-table-dotfiles-managers-at-a-glance)
+- [Handling Secrets in Your Dotfiles](#handling-secrets-in-your-dotfiles)
+- [Quick Bootstrap for a New Machine](#quick-bootstrap-for-a-new-machine)
+- [Choosing the Right Manager](#choosing-the-right-manager)
+
 ## Why Dotfiles Management Matters for Remote Developers
 
 Remote developers often toggle between a laptop at a coffee shop, a desktop at home, and cloud development environments. Each machine needs consistent shell configurations, editor settings, and tool preferences. Without a proper dotfiles manager, you face the tedious process of manually replicating configurations or dealing with inconsistent environments that break your muscle memory.
@@ -298,12 +310,11 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
-- [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
 - [Manage Dotfiles Across Remote Machines](/remote-work-tools/manage-dotfiles-across-remote-machines/)
-- [Best Power Strip for Developer Desk Setup: A Practical Guide](/remote-work-tools/best-power-strip-for-developer-desk-setup/)
-- [Best Speakers for Home Office Setup 2026: A Developer Guide](/remote-work-tools/best-speakers-for-home-office-setup-2026/)
-
+- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
+- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Three-Two Hybrid Work Model Implementation Guide](/remote-work-tools/three-two-hybrid-work-model-implementation-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 ```

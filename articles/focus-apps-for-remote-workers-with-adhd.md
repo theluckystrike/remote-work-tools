@@ -18,6 +18,23 @@ voice-checked: true
 
 Remote work offers unprecedented flexibility, but for developers and power users with ADHD, it also presents unique challenges. The absence of external structure — no office hours, no colleague check-ins, no commute to mark time boundaries — can make focused work feel like navigating a maze with no walls. Fortunately, specialized focus apps exist to bridge this gap. This guide covers practical tools, browser extensions, and automation strategies designed specifically for ADHD minds working in distributed environments.
 
+## Table of Contents
+
+- [Understanding the ADHD Work-From-Home Challenge](#understanding-the-adhd-work-from-home-challenge)
+- [Essential Focus Apps for ADHD Remote Workers](#essential-focus-apps-for-adhd-remote-workers)
+- [Browser Extensions for ADHD Developers](#browser-extensions-for-adhd-developers)
+- [Automating Focus Context](#automating-focus-context)
+- [Building Your Personal Focus Stack](#building-your-personal-focus-stack)
+- [Building Your Personal ADHD-Friendly Focus Stack](#building-your-personal-adhd-friendly-focus-stack)
+- [Complete Setup Guide for macOS](#complete-setup-guide-for-macos)
+- [Comparison Table: Focus Apps for ADHD](#comparison-table-focus-apps-for-adhd)
+- [Troubleshooting Common ADHD Work-From-Home Issues](#troubleshooting-common-adhd-work-from-home-issues)
+- [Issue: Can't start tasks even with tools](#issue-cant-start-tasks-even-with-tools)
+- [Issue: Tools become another distraction](#issue-tools-become-another-distraction)
+- [Issue: Procrastinating on focus apps](#issue-procrastinating-on-focus-apps)
+- [Issue: Focus sessions feel empty/lonely](#issue-focus-sessions-feel-emptylonely)
+- [Issue: Afternoon energy crash](#issue-afternoon-energy-crash)
+
 ## Understanding the ADHD Work-From-Home Challenge
 
 ADHD affects executive function — the brain's ability to organize, prioritize, and sustain attention on tasks that don't provide immediate gratification. Coding projects often fall into this category: the payoff comes days or weeks later, not instantly. When you're working from home, the brain faces constant competition from environmental cues — laundry, notifications, the lure of a quick kitchen snack — that wouldn't exist in an office setting.
@@ -427,11 +444,10 @@ Use this guide to diagnose and fix focus problems:
 
 ## Related Articles
 
-- [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
 - [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
-- [Best Music for Coding and Focus: A Developer's Guide](/remote-work-tools/best-music-for-coding-and-focus/)
-- [Brain.fm vs Endel: Focus Music Comparison for Developers](/remote-work-tools/brain-fm-vs-endel-focus-music-comparison/)
 - [How to Create Team Agreements Around Meeting-Free Focus Time](/remote-work-tools/how-to-create-team-agreements-around-meeting-free-focus-time/)
-
+- [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
+- [Fake Commute for Remote Workers](/remote-work-tools/fake-commute-for-remote-workers-transition-rituals-that-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

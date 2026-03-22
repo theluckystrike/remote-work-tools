@@ -170,6 +170,13 @@ Message thread: Replies are threaded, keeping channel organized
 
 ### 2. Standuply (Slack-Native with Advanced Analytics)
 
+## Table of Contents
+
+- [Comparison Table: Async Standup Tools](#comparison-table-async-standup-tools)
+- [Implementation Playbook: 5-Step Rollout](#implementation-playbook-5-step-rollout)
+- [Handling Common Async Standup Challenges](#handling-common-async-standup-challenges)
+- [Advanced: Connecting Standup to Jira/GitHub](#advanced-connecting-standup-to-jiragithub)
+
 **Platform:** Slack
 **Price:** Free tier; paid starts at $2.50/member/month
 **Setup time:** 5 minutes

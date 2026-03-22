@@ -28,6 +28,30 @@ voice-checked: true
 
 Synchronous daily standups were designed for co-located teams walking to a whiteboard. For distributed teams spanning time zones, these meetings often mean someone joins at 7 AM or 10 PM, and the "quick update" spirals into problem-solving sessions that could happen asynchronously. The solution is an async daily check-in format that captures the same information without scheduling conflicts.
 
+## Table of Contents
+
+- [Why Async Daily Check Ins Work Better for Remote Teams](#why-async-daily-check-ins-work-better-for-remote-teams)
+- [The Async Daily Check In Format](#the-async-daily-check-in-format)
+- [Today I'm Working On](#today-im-working-on)
+- [Yesterday I Completed](#yesterday-i-completed)
+- [Blockers](#blockers)
+- [Notes](#notes)
+- [Implementing With Slack](#implementing-with-slack)
+- [Implementing With a GitHub Issue Template](#implementing-with-a-github-issue-template)
+- [Today I'm working on](#today-im-working-on)
+- [Yesterday I completed](#yesterday-i-completed)
+- [Blockers](#blockers)
+- [Notes](#notes)
+- [Automating Reminders With a Simple Bot](#automating-reminders-with-a-simple-bot)
+- [Best Practices for Async Check-ins](#best-practices-for-async-check-ins)
+- [Measuring Success](#measuring-success)
+- [Transitioning From Synchronous Standups](#transitioning-from-synchronous-standups)
+- [Advanced Async Check-In Techniques](#advanced-async-check-in-techniques)
+- [Detecting Unhealthy Patterns in Async Check-Ins](#detecting-unhealthy-patterns-in-async-check-ins)
+- [Measuring True Impact](#measuring-true-impact)
+- [When Async Check-Ins Aren't Enough](#when-async-check-ins-arent-enough)
+- [Variations for Different Team Types](#variations-for-different-team-types)
+
 This guide provides a practical async daily check-in format that remote teams can implement immediately. You'll find templates, examples, and implementation tips tailored for developers and technical teams.
 
 ## Why Async Daily Check Ins Work Better for Remote Teams

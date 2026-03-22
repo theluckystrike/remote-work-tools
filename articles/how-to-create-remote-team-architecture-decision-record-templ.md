@@ -54,6 +54,28 @@ adr:
 
 ## Context
 
+## Table of Contents
+
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Notes](#notes)
+- [Adapting the Template for Async Workflows](#adapting-the-template-for-async-workflows)
+- [Async Review Process](#async-review-process)
+- [Tracking Decision Status Over Time](#tracking-decision-status-over-time)
+- [Status History](#status-history)
+- [Practical Tips for Remote ADR Implementation](#practical-tips-for-remote-adr-implementation)
+- [Example Workflow for a Remote Team Decision](#example-workflow-for-a-remote-team-decision)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building ADR Culture Remotely](#building-adr-culture-remotely)
+- [Implementing ADRs in Your Repository](#implementing-adrs-in-your-repository)
+- [Tools for Managing ADRs at Scale](#tools-for-managing-adrs-at-scale)
+- [Common ADR Anti-Patterns to Avoid](#common-adr-anti-patterns-to-avoid)
+- [Integrating ADRs with Your Workflow](#integrating-adrs-with-your-workflow)
+- [Real-World Example: Complete ADR Workflow](#real-world-example-complete-adr-workflow)
+- [Scaling ADRs Across Multiple Teams](#scaling-adrs-across-multiple-teams)
+
 Our current authentication system uses JWT tokens stored in localStorage. Security review flagged XSS vulnerability concerns. We need a more secure token storage mechanism without significantly impacting user experience.
 
 ## Decision

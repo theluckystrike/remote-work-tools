@@ -18,6 +18,18 @@ voice-checked: true
 
 Echo in Google Meet meetings disrupts communication and creates frustrating experiences for everyone on the call. When you use external speakers with your computer, audio from the speakers can feed back into your microphone, creating that annoying repeating sound. This guide provides practical solutions to eliminate echo and restore clear audio to your Google Meet calls.
 
+## Table of Contents
+
+- [Understanding Why Echo Occurs](#understanding-why-echo-occurs)
+- [Step-by-Step Troubleshooting Solutions](#step-by-step-troubleshooting-solutions)
+- [Quick Fix Checklist](#quick-fix-checklist)
+- [Device-Specific Echo Troubleshooting](#device-specific-echo-troubleshooting)
+- [Preventing Future Echo Issues](#preventing-future-echo-issues)
+- [Diagnosing Echo: Understanding the Type You're Experiencing](#diagnosing-echo-understanding-the-type-youre-experiencing)
+- [Advanced: Audio Software Solutions for Persistent Echo](#advanced-audio-software-solutions-for-persistent-echo)
+- [Preventing Echo in Your Workspace Setup](#preventing-echo-in-your-workspace-setup)
+- [When to Seek Additional Help](#when-to-seek-additional-help)
+
 ## Understanding Why Echo Occurs
 
 Echo happens when sound from your speakers enters your microphone and gets transmitted back to other participants. This creates a feedback loop where your voice (or others' voices) repeats continuously. External speakers amplify this problem because they project sound farther than built-in laptop speakers, making it more likely that your microphone picks up the audio.

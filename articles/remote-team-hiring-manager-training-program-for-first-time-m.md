@@ -32,6 +32,31 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 Transitioning from individual contributor to hiring manager in a distributed company requires mastering new skills that rarely come up in technical work. Remote hiring involves different tools, communication patterns, and evaluation methods than in-person processes. This guide provides a structured training program to help first-time managers build effective hiring practices for distributed teams.
 
+## Table of Contents
+
+- [The Remote Hiring Manager Skill Set](#the-remote-hiring-manager-skill-set)
+- [Step 1: Writing Remote-Friendly Job Descriptions](#step-1-writing-remote-friendly-job-descriptions)
+- [About This Role](#about-this-role)
+- [What We're Looking For](#what-were-looking-for)
+- [Remote Work Expectations](#remote-work-expectations)
+- [How We Hire](#how-we-hire)
+- [Step 2: Building Your Interview Pipeline](#step-2-building-your-interview-pipeline)
+- [Step 3: Coordinating Across Time Zones](#step-3-coordinating-across-time-zones)
+- [Step 4: Evaluating Async Work Samples](#step-4-evaluating-async-work-samples)
+- [Step 5: Managing the Offer Process](#step-5-managing-the-offer-process)
+- [Offer Timeline Template](#offer-timeline-template)
+- [Common Pitfalls for First-Time Remote Hiring Managers](#common-pitfalls-for-first-time-remote-hiring-managers)
+- [Building Your Hiring Playbook](#building-your-hiring-playbook)
+- [Building Your Hiring Team and Delegation](#building-your-hiring-team-and-delegation)
+- [Sourcing and Pipeline Building](#sourcing-and-pipeline-building)
+- [Eligible Roles](#eligible-roles)
+- [Referral Bonus](#referral-bonus)
+- [Referrer Expectations](#referrer-expectations)
+- [Process](#process)
+- [Sample intro email](#sample-intro-email)
+- [Competitive Compensation for Remote Talent](#competitive-compensation-for-remote-talent)
+- [Retention: The Forgotten Half of Hiring](#retention-the-forgotten-half-of-hiring)
+
 ## The Remote Hiring Manager Skill Set
 
 First-time managers often assume hiring is just about evaluating candidates. In distributed companies, your responsibilities expand significantly. You need to write job descriptions that attract remote-friendly candidates, coordinate interviews across time zones, evaluate async work samples, and maintain candidate experience without face-to-face interaction.

@@ -17,6 +17,19 @@ voice-checked: true
 
 Remote employee laptops need automatic, encrypted backups that protect against theft, ransomware, and accidental deletion without requiring user intervention. Standard cloud sync tools like Dropbox lack the encryption at rest, version controls, and bandwidth awareness that enterprise backup solutions provide. This guide covers commercial and open-source options with concrete implementation examples, so you can choose and deploy the right solution for your team's size and risk tolerance.
 
+## Table of Contents
+
+- [Why Standard Cloud Sync Falls Short](#why-standard-cloud-sync-falls-short)
+- [Tool Comparison](#tool-comparison)
+- [The Core Requirements](#the-core-requirements)
+- [Self-Hosted Option: Restic with Backblaze B2](#self-hosted-option-restic-with-backblaze-b2)
+- [Advanced Option: Borg Backup for Linux Teams](#advanced-option-borg-backup-for-linux-teams)
+- [Step-by-Step Implementation Guide](#step-by-step-implementation-guide)
+- [Key Management for Distributed Teams](#key-management-for-distributed-teams)
+- [Monitoring and Validation](#monitoring-and-validation)
+- [Common Pitfalls and Troubleshooting](#common-pitfalls-and-troubleshooting)
+- [Related Reading](#related-reading)
+
 ## Why Standard Cloud Sync Falls Short
 
 Most teams start with Dropbox, Google Drive, or OneDrive for file sync. These tools propagate changes quickly but lack several critical features for enterprise data protection:
@@ -293,6 +306,14 @@ Yes, for most 10-person teams it is the simplest option. At $99 per device per y
 - [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
 - [Bitwarden Vault Export Backup Guide](https://theluckystrike.github.io/privacy-tools-guide/bitwarden-vault-export-backup-guide/)
 - [VPN Authentication Methods Compared Certificate Vs](https://theluckystrike.github.io/privacy-tools-guide/vpn-authentication-methods-compared-certificate-vs-username-password-security/)
+
+## Related Articles
+
+- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
+- [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
+- [Secure Remote Desktop Solution Comparison for Distributed](/remote-work-tools/secure-remote-desktop-solution-comparison-for-distributed-te/)
+- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

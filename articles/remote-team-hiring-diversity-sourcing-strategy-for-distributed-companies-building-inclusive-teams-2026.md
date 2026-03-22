@@ -18,6 +18,23 @@ voice-checked: true
 
 Building diverse teams remotely requires intentional sourcing strategies that go beyond traditional job postings. Distributed companies must actively reach into underrepresented communities, remove geographic biases, and create evaluation systems that focus on demonstrated skills rather than credentials or connections. This guide provides actionable techniques for implementing diversity sourcing in your remote hiring pipeline.
 
+## Table of Contents
+
+- [Why Diversity Sourcing Matters for Remote Teams](#why-diversity-sourcing-matters-for-remote-teams)
+- [Expanding Your Sourcing Channels](#expanding-your-sourcing-channels)
+- [Technical Implementation: Building a Sourcing Pipeline](#technical-implementation-building-a-sourcing-pipeline)
+- [Removing Bias from Remote Screening](#removing-bias-from-remote-screening)
+- [Building Inclusive Remote Onboarding](#building-inclusive-remote-onboarding)
+- [Measuring Diversity Progress](#measuring-diversity-progress)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Long-Term Retention and Career Growth](#long-term-retention-and-career-growth)
+- [Building a Diversity Roadmap](#building-a-diversity-roadmap)
+- [Legal and Compliance Considerations](#legal-and-compliance-considerations)
+- [Measuring and Communicating Diversity Progress](#measuring-and-communicating-diversity-progress)
+- [Building Internal Diversity Culture](#building-internal-diversity-culture)
+- [Hiring for Neurodiversity](#hiring-for-neurodiversity)
+- [Scaling Diversity Sourcing Across Multiple Hiring Managers](#scaling-diversity-sourcing-across-multiple-hiring-managers)
+
 ## Why Diversity Sourcing Matters for Remote Teams
 
 Remote work removes physical barriers that historically limited talent pools, but it introduces new challenges. Without intentional effort, remote hiring tends to replicate existing networks—companies end up hiring people who resemble current employees geographically, culturally, and professionally. Intentional diversity sourcing counters this tendency by expanding reach and redesigning evaluation criteria.

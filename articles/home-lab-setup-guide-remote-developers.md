@@ -31,6 +31,19 @@ tags: [remote-work-tools, remote-work]
 
 A home lab gives you a real infrastructure environment to experiment with, a place to run services locally for development, and a learning ground for infrastructure skills that are difficult to practice on cloud free tiers alone. For remote developers, it also means always-available compute and storage that you own.
 
+## Table of Contents
+
+- [Hardware: What to Buy in 2026](#hardware-what-to-buy-in-2026)
+- [Hypervisor: Proxmox VE](#hypervisor-proxmox-ve)
+- [Create Your First VM](#create-your-first-vm)
+- [Network: VLANs for Isolation](#network-vlans-for-isolation)
+- [DNS: pi-hole + Unbound](#dns-pi-hole-unbound)
+- [Services Worth Running in a Home Lab](#services-worth-running-in-a-home-lab)
+- [SSH Config for Lab Access](#ssh-config-for-lab-access)
+- [Remote Access via Tailscale](#remote-access-via-tailscale)
+- [Backups: The Step Most People Skip](#backups-the-step-most-people-skip)
+- [Related Reading](#related-reading)
+
 This guide covers: hardware choice, hypervisor installation, network setup, and the services worth running in a home lab for development work.
 
 ## Hardware: What to Buy in 2026

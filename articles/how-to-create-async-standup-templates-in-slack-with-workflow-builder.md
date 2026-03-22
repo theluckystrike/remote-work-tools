@@ -18,6 +18,18 @@ voice-checked: true
 
 Slack Workflow Builder provides a powerful no-code solution for automating asynchronous standups. Rather than relying on live meetings or manual Slack messages, you can create structured prompts that fire on schedules you define, collect responses in a consistent format, and aggregate results for team visibility.
 
+## Table of Contents
+
+- [Why Use Slack Workflow Builder for Async Standups](#why-use-slack-workflow-builder-for-async-standups)
+- [Building Your First Async Standup Template](#building-your-first-async-standup-template)
+- [Advanced Template Configurations](#advanced-template-configurations)
+- [Example: Complete Standup Workflow YAML](#example-complete-standup-workflow-yaml)
+- [Best Practices for Implementation](#best-practices-for-implementation)
+- [Async Standup Tools Comparison](#async-standup-tools-comparison)
+- [Standup Response Analysis and Reporting](#standup-response-analysis-and-reporting)
+- [Standup Response Templates for Different Roles](#standup-response-templates-for-different-roles)
+- [Integration with Other Tools](#integration-with-other-tools)
+
 This guide walks through building a complete async standup system that your team can use regardless of time zone or work schedule.
 
 ## Why Use Slack Workflow Builder for Async Standups

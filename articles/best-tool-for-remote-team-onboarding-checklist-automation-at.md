@@ -18,6 +18,20 @@ voice-checked: true
 
 Automating onboarding checklists for remote teams becomes critical when scaling beyond ten employees. Manual tracking through spreadsheets or wikis breaks down quickly—tasks slip through gaps, new hires miss critical steps, and managers spend hours chasing status updates. Role-based templates solve this by defining standardized workflows for different positions, while automation handles the repetitive coordination work.
 
+## Table of Contents
+
+- [Why Checklist Automation Matters for Remote Teams](#why-checklist-automation-matters-for-remote-teams)
+- [Dedicated Onboarding Platforms](#dedicated-onboarding-platforms)
+- [Integration Approach Using HR Systems](#integration-approach-using-hr-systems)
+- [Custom Automation with No-Code Tools](#custom-automation-with-no-code-tools)
+- [Role Template Design Patterns](#role-template-design-patterns)
+- [Measuring Onboarding Effectiveness](#measuring-onboarding-effectiveness)
+- [Choosing Your Approach](#choosing-your-approach)
+- [Advanced Role Template Architecture](#advanced-role-template-architecture)
+- [Real-Time Progress Monitoring and Escalation](#real-time-progress-monitoring-and-escalation)
+- [Cost Analysis and Tool Selection Framework](#cost-analysis-and-tool-selection-framework)
+- [Onboarding for Distributed Teams (Async-First)](#onboarding-for-distributed-teams-async-first)
+
 This guide evaluates approaches for building automated onboarding checklist systems that scale, with practical implementation patterns for engineering teams and power users.
 
 ## Why Checklist Automation Matters for Remote Teams
@@ -478,11 +492,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
 - [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
-- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
-- [communication-preferences.yaml](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
 - [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
 - [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
-
+- [Best Tool for Remote Team Async Onboarding with Self Paced L](/remote-work-tools/best-tool-for-remote-team-async-onboarding-with-self-paced-l/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,17 @@ voice-checked: true
 
 When your remote team relies on external vendors for critical services, each vendor becomes a potential entry point for attackers. A structured third-party vendor security assessment template helps IT admins systematically evaluate vendor security posture before granting access to sensitive systems or data.
 
+## Table of Contents
+
+- [Why Remote Teams Need Vendor Security Assessments](#why-remote-teams-need-vendor-security-assessments)
+- [Core Assessment Categories](#core-assessment-categories)
+- [Building Your Assessment Scorecard](#building-your-assessment-scorecard)
+- [Ongoing Vendor Security Monitoring](#ongoing-vendor-security-monitoring)
+- [Implementation Checklist](#implementation-checklist)
+- [Real-World Assessment Scenarios](#real-world-assessment-scenarios)
+- [Remediating Security Gaps](#remediating-security-gaps)
+- [Keeping the Process Manageable](#keeping-the-process-manageable)
+
 This guide provides a practical assessment template you can customize for your organization's needs.
 
 ## Why Remote Teams Need Vendor Security Assessments
@@ -307,10 +318,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
-- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [Teleparty supports these streaming platforms:](/remote-work-tools/virtual-movie-watch-party-tools-for-remote-team-friday-event/)
-- [Best Practice for Remote Team Vendor Payment Terms](/remote-work-tools/best-practice-for-remote-team-vendor-payment-terms-negotiati/)
-- [Slack Workflow: Weekly Learning Share](/remote-work-tools/remote-team-psychological-safety-assessment-tool-for-distrib/)
-
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [Remote Team Security Incident Response Plan Template](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
