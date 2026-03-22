@@ -7,7 +7,7 @@ last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /best-tools-for-remote-team-design-system-documentation-2026/
 categories: [guides]
-tags: [remote-work-tools, tools]
+tags: [remote-work-tools, tools, best-of, remote-work]
 reviewed: true
 score: 8
 voice-checked: true
