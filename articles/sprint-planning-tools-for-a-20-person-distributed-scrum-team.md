@@ -19,6 +19,15 @@ Running sprint planning for 20 developers across multiple time zones presents di
 
 This guide examines sprint planning tools and approaches suited for larger distributed Scrum teams, focusing on practical implementation rather than abstract theory.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Use labels for sprint**: assignment and milestones for time-boxing.
+- **The limitation**: capacity planning and velocity tracking require manual calculation or additional scripts.
+
 ## The 20 Person Sprint Planning Challenge
 
 A 20-person team typically means 3-5 Scrum teams working toward a shared product goal. Each team has its own sprint cadence, but dependency management across teams requires coordination. When team members span US, European, and Asian time zones, finding a single meeting time that works for everyone becomes impossible.

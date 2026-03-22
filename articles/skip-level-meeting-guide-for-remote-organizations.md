@@ -17,6 +17,17 @@ voice-checked: true---
 
 A skip level meeting is an one-on-one where a senior leader meets directly with individual contributors, bypassing their immediate manager, to surface hidden blockers, gauge team culture, and retain top talent. In remote organizations, hold them monthly for 30 minutes, rotating through ICs so each person gets face time with senior leadership every 2-3 months.
 
+## Key Takeaways
+
+- **Cost**: Free tier / $12+/month for features like custom branding.
+- **Cost**: $9.99-$29.99/month depending on tier.
+- **To make the most of our 30 minutes**: could you think about:
+
+1.
+- **Select based on your**: team's infrastructure: ### Calendar and Scheduling Tools Calendly: Free tier allows unlimited one-on-one meetings.
+- **If this drops below 50%**: your skip level program is creating frustration rather than value.
+- **Prioritize ICs who have**: been with the team for 6+ months, are high performers at risk of leaving, work on critical projects, or have recently taken on new responsibilities.
+
 ## Why Skip Level Meetings Matter
 
 Remote work creates communication gaps. When teams are distributed across time zones and communicate primarily through Slack, email, or video calls, important feedback gets filtered or lost. Skip level meetings address three specific problems. ICs often don't share blockers with their direct manager out of fear of appearing incompetent, so hidden issues accumulate. Leadership loses touch with how teams actually operate day-to-day, causing cultural drift. And high performers leave when they feel unheard or unseen by senior leadership.

@@ -1,0 +1,341 @@
+---
+layout: default
+title: "Setting Up Jaeger for Distributed Tracing"
+description: "Deploy Jaeger for distributed tracing across microservices with OpenTelemetry instrumentation, Elasticsearch storage, and Grafana dashboards"
+date: 2026-03-22
+author: theluckystrike
+permalink: /setting-up-jaeger-distributed-tracing/
+categories: [guides]
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools]
+---
+
+{% raw %}
+
+Distributed tracing shows you where time goes across service boundaries. Jaeger collects OpenTelemetry spans and lets your team trace a request from API gateway through microservices to database. This guide deploys Jaeger all-in-one for development and a production-ready setup with Elasticsearch for persistence.
+
+## Key Takeaways
+
+- **Topics covered**: development: jaeger all-in-one, production: docker compose with elasticsearch, instrumenting a python service
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+- **Use-case recommendations**: Specific guidance based on team size and requirements
+- **Trade-off analysis**: Strengths and limitations of each option discussed
+
+## Development: Jaeger All-in-One
+
+```bash
+# Quick start for development — all components in one container
+docker run -d \
+  --name jaeger \
+  -e COLLECTOR_OTLP_ENABLED=true \
+  -p 5775:5775/udp \
+  -p 6831:6831/udp \
+  -p 6832:6832/udp \
+  -p 5778:5778 \
+  -p 16686:16686 \   # Jaeger UI
+  -p 14250:14250 \
+  -p 14268:14268 \
+  -p 14269:14269 \
+  -p 4317:4317 \     # OTLP gRPC
+  -p 4318:4318 \     # OTLP HTTP
+  --restart unless-stopped \
+  jaegertracing/all-in-one:1.55
+
+# Open Jaeger UI
+open http://localhost:16686
+```
+
+## Production: Docker Compose with Elasticsearch
+
+```yaml
+# docker-compose.yml
+version: "3.8"
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.1
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    restart: unless-stopped
+    networks:
+      - tracing
+
+  jaeger-collector:
+    image: jaegertracing/jaeger-collector:1.55
+    container_name: jaeger-collector
+    environment:
+      - SPAN_STORAGE_TYPE=elasticsearch
+      - ES_SERVER_URLS=http://elasticsearch:9200
+      - COLLECTOR_OTLP_ENABLED=true
+      - LOG_LEVEL=info
+    ports:
+      - "4317:4317"   # OTLP gRPC
+      - "4318:4318"   # OTLP HTTP
+      - "14268:14268" # HTTP collector
+      - "14250:14250" # gRPC collector
+    depends_on:
+      - elasticsearch
+    restart: unless-stopped
+    networks:
+      - tracing
+
+  jaeger-query:
+    image: jaegertracing/jaeger-query:1.55
+    container_name: jaeger-query
+    environment:
+      - SPAN_STORAGE_TYPE=elasticsearch
+      - ES_SERVER_URLS=http://elasticsearch:9200
+      - LOG_LEVEL=info
+    ports:
+      - "16686:16686"  # Jaeger UI
+      - "16687:16687"  # Admin port
+    depends_on:
+      - elasticsearch
+    restart: unless-stopped
+    networks:
+      - tracing
+
+networks:
+  tracing:
+    driver: bridge
+
+volumes:
+  es_data:
+```
+
+```bash
+docker compose up -d
+# Wait for Elasticsearch to start (~30 seconds)
+docker compose logs -f jaeger-collector
+```
+
+## Instrumenting a Python Service
+
+```bash
+pip install opentelemetry-api opentelemetry-sdk \
+  opentelemetry-exporter-otlp-proto-grpc \
+  opentelemetry-instrumentation-fastapi \
+  opentelemetry-instrumentation-httpx \
+  opentelemetry-instrumentation-sqlalchemy
+```
+
+```python
+# tracing.py
+from opentelemetry import trace
+from opentelemetry.sdk.trace import TracerProvider
+from opentelemetry.sdk.trace.export import BatchSpanProcessor
+from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import OTLPSpanExporter
+from opentelemetry.sdk.resources import SERVICE_NAME, Resource
+from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
+from opentelemetry.instrumentation.httpx import HTTPXClientInstrumentor
+from opentelemetry.instrumentation.sqlalchemy import SQLAlchemyInstrumentor
+
+def configure_tracing(service_name: str, otlp_endpoint: str = "http://jaeger-collector:4317"):
+    resource = Resource(attributes={
+        SERVICE_NAME: service_name,
+        "service.version": "1.0.0",
+        "deployment.environment": "production",
+    })
+
+    provider = TracerProvider(resource=resource)
+
+    otlp_exporter = OTLPSpanExporter(endpoint=otlp_endpoint, insecure=True)
+    provider.add_span_processor(BatchSpanProcessor(otlp_exporter))
+
+    trace.set_tracer_provider(provider)
+
+    # Auto-instrument frameworks
+    FastAPIInstrumentor().instrument()
+    HTTPXClientInstrumentor().instrument()
+
+    return trace.get_tracer(service_name)
+```
+
+```python
+# main.py
+from fastapi import FastAPI
+from tracing import configure_tracing
+import httpx
+
+app = FastAPI()
+tracer = configure_tracing("order-service")
+
+@app.get("/orders/{order_id}")
+async def get_order(order_id: str):
+    # Manual span for custom operations
+    with tracer.start_as_current_span("fetch-order-details") as span:
+        span.set_attribute("order.id", order_id)
+
+        # This HTTP call will be auto-instrumented
+        async with httpx.AsyncClient() as client:
+            user = await client.get(f"http://user-service/users/{order_id}")
+
+        span.set_attribute("user.id", user.json()["id"])
+        return {"order_id": order_id, "user": user.json()}
+```
+
+## Instrumenting a Node.js Service
+
+```bash
+npm install @opentelemetry/sdk-node \
+  @opentelemetry/auto-instrumentations-node \
+  @opentelemetry/exporter-trace-otlp-grpc
+```
+
+```javascript
+// tracing.js (must be required before other modules)
+const { NodeSDK } = require('@opentelemetry/sdk-node');
+const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-grpc');
+const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumentations-node');
+const { Resource } = require('@opentelemetry/resources');
+const { SemanticResourceAttributes } = require('@opentelemetry/semantic-conventions');
+
+const sdk = new NodeSDK({
+  resource: new Resource({
+    [SemanticResourceAttributes.SERVICE_NAME]: 'payment-service',
+    [SemanticResourceAttributes.SERVICE_VERSION]: '2.1.0',
+    'deployment.environment': process.env.NODE_ENV || 'development',
+  }),
+  traceExporter: new OTLPTraceExporter({
+    url: process.env.OTLP_ENDPOINT || 'http://jaeger-collector:4317',
+  }),
+  instrumentations: [
+    getNodeAutoInstrumentations({
+      '@opentelemetry/instrumentation-fs': { enabled: false }, // Too noisy
+    }),
+  ],
+});
+
+sdk.start();
+process.on('SIGTERM', () => sdk.shutdown());
+```
+
+```json
+// package.json start script
+{
+  "scripts": {
+    "start": "node -r ./tracing.js server.js"
+  }
+}
+```
+
+## Manual Span Creation
+
+```python
+# Python: add custom spans for business logic
+from opentelemetry import trace
+
+tracer = trace.get_tracer(__name__)
+
+def process_payment(payment_id: str, amount: float):
+    with tracer.start_as_current_span("process-payment") as span:
+        span.set_attribute("payment.id", payment_id)
+        span.set_attribute("payment.amount", amount)
+        span.set_attribute("payment.currency", "USD")
+
+        try:
+            result = charge_card(payment_id, amount)
+            span.set_attribute("payment.status", "success")
+            span.set_attribute("payment.transaction_id", result.transaction_id)
+            return result
+        except PaymentDeclinedException as e:
+            span.set_attribute("payment.status", "declined")
+            span.record_exception(e)
+            span.set_status(trace.Status(trace.StatusCode.ERROR, str(e)))
+            raise
+```
+
+## Jaeger Query API for Automation
+
+```bash
+# Find traces with errors
+curl "http://localhost:16686/api/traces?service=order-service&tags=%7B%22error%22%3A%22true%22%7D&limit=20"
+
+# Get trace by ID
+curl "http://localhost:16686/api/traces/abcdef1234567890"
+
+# List all services
+curl "http://localhost:16686/api/services"
+
+# Search slow traces (>1 second)
+curl "http://localhost:16686/api/traces?service=order-service&minDuration=1000ms&limit=50"
+```
+
+## Grafana Integration
+
+Add Jaeger as a Grafana data source:
+
+```yaml
+# grafana/provisioning/datasources/jaeger.yml
+apiVersion: 1
+
+datasources:
+  - name: Jaeger
+    type: jaeger
+    access: proxy
+    url: http://jaeger-query:16686
+    jsonData:
+      tracesToLogs:
+        datasourceUid: loki
+        filterByTraceID: true
+        mapTagNamesEnabled: true
+        mappedTags:
+          - key: service.name
+            value: service
+      nodeGraph:
+        enabled: true
+```
+
+In Grafana dashboards, add a trace panel:
+
+```
+Panel Type: Traces
+Data Source: Jaeger
+Query: { service="order-service" }
+```
+
+## Trace Sampling Configuration
+
+For high-traffic production services, sample selectively:
+
+```python
+from opentelemetry.sdk.trace.sampling import (
+    TraceIdRatioBased,
+    ParentBased,
+    ALWAYS_ON,
+    ALWAYS_OFF,
+)
+
+# Sample 10% of traces in production
+sampler = ParentBased(
+    root=TraceIdRatioBased(0.1),
+    remote_parent_sampled=ALWAYS_ON,    # Always sample if parent was sampled
+    remote_parent_not_sampled=ALWAYS_OFF,
+)
+
+provider = TracerProvider(resource=resource, sampler=sampler)
+```
+
+## Related Reading
+
+- [Setting Up Loki for Remote Log Aggregation](/remote-work-tools/setting-up-loki-remote-log-aggregation/)
+- [Best Observability Platform for Remote Teams](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
+- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+
+---
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
+{% endraw %}

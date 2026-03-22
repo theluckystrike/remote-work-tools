@@ -18,6 +18,15 @@ Hetzner offers the best price-to-performance ratio for cloud dev servers in Euro
 
 The core idea is simple: instead of lugging a powerful laptop everywhere, or trying to sync dev environments across multiple machines, you run everything on a single cloud server. Your local machine becomes a thin client. Any laptop — even a base MacBook Air or a cheap Chromebook — can be your full workstation via browser or SSH.
 
+## Key Takeaways
+
+- **Compare to GitHub Codespaces at $0.18/hour for a 4-core instance**: that's $130/month if you work 720 hours.
+- **For extensions that don't**: work well in the browser (debuggers for some languages, for example), Remote-SSH is the better option and is covered in Step 4.
+- **The recommended final state is**: no public-facing ports at all except UDP 41641 for Tailscale's WireGuard traffic.
+- **Hetzner offers the best**: price-to-performance ratio for cloud dev servers in Europe and the US.
+- **And because the server**: is on Hetzner's network, git operations, Docker pulls, and package downloads are significantly faster than on a home connection.
+- **Pick the one closest to your primary clients or CI systems, not closest to you**: latency to the server over SSH is negligible; latency between your server and external services matters more.
+
 ## Architecture
 
 ```
