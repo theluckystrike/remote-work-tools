@@ -18,6 +18,23 @@ tags: [remote-work-tools]
 
 Nginx Unit is an application server that handles multiple languages (Python, Node.js, Go, PHP, Ruby) through a single unified REST API. Unlike traditional Nginx, you reconfigure it with HTTP calls instead of editing files and reloading — which means zero-downtime deployments become a single `curl` command.
 
+This guide covers installation, deploying Python and Node.js apps, TLS termination, routing multiple apps, Go deployment, process tuning, CI/CD integration via SSH tunnel, health checks, and logging.
+
+---
+
+## Why Nginx Unit Instead of a Traditional App Server
+
+The standard deployment stack for Python or Node.js usually involves Gunicorn or PM2 sitting behind Nginx with a proxy_pass configuration. That works, but it means maintaining two separate configuration systems (Nginx config files and the app server config), two separate reload mechanisms, and two separate places where deployments can break.
+
+Nginx Unit collapses this into one system with one configuration API. Some specific advantages:
+
+- **API-driven config**: Deployments are HTTP PUT requests to a Unix socket. No file editing, no `systemctl reload`, no process restarts that drop connections.
+- **Language isolation**: Each app runs in its own process pool with its own user. A memory leak in one Python app doesn't affect the Node.js app on the same host.
+- **Atomic path swaps**: Point Unit at a new directory and in-flight requests finish against the old code while new requests go to the new code. No brief window of 502 errors.
+- **No glue code**: Unit handles process management, signal handling, logging, and TLS. You do not need to write a systemd service for each app.
+
+The tradeoff: Unit's community is smaller than Gunicorn's or PM2's. When something breaks, the debugging path is less well-documented. This guide includes a troubleshooting section to cover the common cases.
+
 ---
 
 ## Installation
@@ -44,6 +61,8 @@ sudo curl --unix-socket /var/run/control.unit.sock http://localhost/
 # Returns current config as JSON
 ```
 
+The `unit-python3.12`, `unit-nodejs`, and `unit-go` packages install language-specific modules. Install only the modules you need — each adds a small binary that Unit loads dynamically.
+
 ---
 
 ## Core Concepts
@@ -55,6 +74,8 @@ Unit uses a JSON config tree with three main sections:
 - **applications**: Process pools for each app
 
 All changes go through the control API socket. No files to edit, no service restarts.
+
+The config is persistent — Unit stores its state and restores it on restart. You do not need to re-apply your config after a host reboot.
 
 ---
 
@@ -116,6 +137,8 @@ curl http://localhost:8000/health
 # {"status":"ok"}
 ```
 
+The `processes` block sets dynamic scaling. Unit starts with `spare` processes and scales up to `max` under load, then scales back down after `idle_timeout` seconds.
+
 ---
 
 ## Deploying a Node.js App
@@ -148,6 +171,61 @@ curl -X PUT --unix-socket /var/run/control.unit.sock \
   -d '{"pass": "applications/nodeapp"}'
 ```
 
+For Express apps, the `main` file should export the Express `app` object rather than call `app.listen()`. Unit manages the listener — calling `listen()` inside the app causes a conflict:
+
+```javascript
+// express-app.js
+const express = require("express");
+const app = express();
+
+app.get("/health", (req, res) => res.json({ status: "ok" }));
+
+module.exports = app; // export, do NOT call app.listen()
+```
+
+---
+
+## Deploying a Go App
+
+Go apps compile to a static binary that Unit runs as an external application. No language module is required:
+
+```go
+// main.go
+package main
+
+import (
+    "encoding/json"
+    "net/http"
+)
+
+func main() {
+    http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
+        json.NewEncoder(w).Encode(map[string]string{"status": "ok"})
+    })
+    http.ListenAndServe(":0", nil)
+}
+```
+
+```bash
+go build -o /var/www/goapp/server /var/www/goapp/
+
+curl -X PUT --unix-socket /var/run/control.unit.sock \
+  http://localhost/config/applications/goapp \
+  -H "Content-Type: application/json" \
+  -d '{
+    "type": "external",
+    "executable": "/var/www/goapp/server",
+    "processes": 2,
+    "user": "unit",
+    "group": "unit"
+  }'
+
+curl -X PUT --unix-socket /var/run/control.unit.sock \
+  'http://localhost/config/listeners/*:8002' \
+  -H "Content-Type: application/json" \
+  -d '{"pass": "applications/goapp"}'
+```
+
 ---
 
 ## TLS Termination
@@ -174,6 +252,14 @@ curl -X PUT --unix-socket /var/run/control.unit.sock \
   }'
 ```
 
+Certificate rotation does not require a restart. Upload a new certificate bundle and update the listener — Unit swaps the certificate in-place:
+
+```bash
+curl -X PUT --unix-socket /var/run/control.unit.sock \
+  http://localhost/certificates/example-com \
+  --data-binary @/tmp/new-bundle.pem
+```
+
 ---
 
 ## Zero-Downtime Deployments
@@ -191,6 +277,17 @@ curl -X PUT --unix-socket /var/run/control.unit.sock \
 # Check application status
 curl --unix-socket /var/run/control.unit.sock \
   http://localhost/status/applications/fastapi/
+```
+
+Unit processes in-flight requests with the old code, then starts new requests against the new path. There is no connection drop.
+
+To roll back, swap the path back:
+
+```bash
+curl -X PUT --unix-socket /var/run/control.unit.sock \
+  http://localhost/config/applications/fastapi/path \
+  -H "Content-Type: application/json" \
+  -d '"/var/www/fastapi-app"'
 ```
 
 ---
@@ -223,9 +320,13 @@ curl -X PUT --unix-socket /var/run/control.unit.sock \
   }'
 ```
 
+Routes can also match on request headers, HTTP method, or source IP. This replaces most Nginx location block logic without needing a separate proxy server.
+
 ---
 
 ## Exposing the Control API for CI/CD
+
+Never expose Unit's control socket directly over the network — it has no authentication layer. Tunnel from the CI runner:
 
 ```bash
 # Tunnel from CI runner to the Unix socket
@@ -235,6 +336,27 @@ ssh -L 9000:/var/run/control.unit.sock user@prod-host -N &
 curl -X PUT http://localhost:9000/config/applications/fastapi/path \
   -H "Content-Type: application/json" \
   -d '"/var/www/fastapi-app-v3"'
+```
+
+**Full GitHub Actions deployment job:**
+
+```yaml
+deploy:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Deploy to Unit via SSH tunnel
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/deploy_key
+        chmod 600 ~/.ssh/deploy_key
+        ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no \
+          -L 9000:/var/run/control.unit.sock \
+          deploy@prod-host -N &
+        sleep 2
+        rsync -az --delete dist/ deploy@prod-host:/var/www/fastapi-app-v${{ github.sha }}/
+        curl -sf -X PUT http://localhost:9000/config/applications/fastapi/path \
+          -H "Content-Type: application/json" \
+          -d '"/var/www/fastapi-app-v${{ github.sha }}"'
 ```
 
 ---
@@ -259,6 +381,20 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 ```
+
+---
+
+## Troubleshooting Common Issues
+
+**"Unable to apply new configuration" with no detail**: Check `/var/log/unit.log` for the actual error. Unit's API response is terse but the log file has the full stack trace.
+
+**App returns 502 immediately**: The application module may not be installed. Verify with `dpkg -l | grep unit` that `unit-python3.12` (or the relevant module) is installed.
+
+**Python app can't find packages**: Ensure the `home` field points to the virtualenv directory, not the site-packages directory. Unit infers the Python path from the virtualenv.
+
+**Port conflicts**: If another process is already listening on the port, Unit logs a bind error. Check with `ss -tlnp | grep :8000`.
+
+**Permission denied on Unix socket**: The control socket at `/var/run/control.unit.sock` is owned by root by default. Run `curl` with `sudo`, or add your user to the group that owns the socket.
 
 ---
 
