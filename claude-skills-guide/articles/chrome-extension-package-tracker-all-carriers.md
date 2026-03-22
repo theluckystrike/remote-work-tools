@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /chrome-extension-package-tracker-all-carriers/
 ---
 
-Building a Chrome extension that tracks packages across all major shipping carriers requires understanding carrier APIs, manifest configuration, and cross-origin request handling. This guide walks through the technical implementation for developers looking to create a robust multi-carrier tracking solution.
+Building a Chrome extension that tracks packages across all major shipping carriers requires understanding carrier APIs, manifest configuration, and cross-origin request handling. This guide walks through the technical implementation for developers looking to create a strong multi-carrier tracking solution.
 
 ## Understanding the Challenge
 

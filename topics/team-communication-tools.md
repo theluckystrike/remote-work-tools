@@ -85,6 +85,6 @@ Effective team communication is the difference between a productive remote team 
 - [Standup Bot Comparison for Remote Engineering Teams](/standup-bot-comparison-for-remote-engineering-teams/)
 - [Test UDP latency to Slack's media servers](/remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/)
 - [Weekly Wins Channel Setup and Facilitation for Remote Team](/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
-- [Zulip vs Slack: A Deep Dive into Threaded Conversation](/zulip-vs-slack-threaded-conversation-comparison/)
+- [Zulip vs Slack: A Deep Examine Threaded Conversation](/zulip-vs-slack-threaded-conversation-comparison/)
 - [communication-preferences.yaml](/remote-team-onboarding-communication-checklist-for-first-two/)
 - [slack_workflow_async_checkin.py](/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
