@@ -343,4 +343,15 @@ Sprint planning in distributed teams requires async-friendly tools. Linear is th
 
 The difference between great sprint planning and bottlenecked planning is tool design. Async estimation, capacity visibility, and velocity tracking must be frictionless. Linear and Shortcut provide this. Invest time in setup. Your team will plan faster.
 
+
+
+## Related Articles
+
+- [Best Sprint Planning Tools for Remote Scrum Masters](/best-sprint-planning-tools-for-remote-scrum-masters/)
+- [Best Tools for Remote Team Offsite Planning 2026](/best-tools-for-remote-team-offsite-planning-2026/)
+- [Sprint {{ sprint_number }} Preparation](/remote-team-sprint-planning-communication-template-for-distr/)
+
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}
