@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Keyboard for Quiet Typing During Video Calls in Open Office
 
 When you're on back-to-back video calls in an open office, your keyboard noise becomes a shared experience with your entire team. That satisfying mechanical click that you love at home suddenly feels inappropriate when your teammates are trying to focus on a product demo or code review. Finding the right quiet keyboard isn't about sacrificing typing feel—it's about choosing tools that work for collaborative environments.
 

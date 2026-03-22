@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Harvest for Remote Agency Client Time Tracking"
 description: "A practical guide for setting up Harvest time tracking for remote agencies. Configure projects, set up client billing rates, and automate reporting"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-harvest-for-remote-agency-client-time-tracking/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Set Up Harvest for Remote Agency Client Time Tracking
 
 Remote agencies face unique challenges when tracking time across distributed teams and multiple clients. Harvest provides a solution for capturing billable hours, managing client projects, and generating invoices. This guide covers practical setup steps for agencies working with remote clients, with emphasis on remote-specific workflows and time zone management.
 
@@ -257,7 +256,6 @@ Teams using Harvest encounter predictable problems:
 **Budget Overages**: When projects exceed budget, Harvest flags them but doesn't stop time entry. Have a process where project managers investigate overages immediately, assess whether the client approved additional work, and either adjust budgets or discuss costs with clients before invoicing.
 
 ---
-
 
 
 ## Frequently Asked Questions

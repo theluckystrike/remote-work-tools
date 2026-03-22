@@ -3,7 +3,7 @@ layout: default
 title: "How to Write Async Project Proposals That Get Approved"
 description: "A practical guide to crafting async project proposals that get approved in remote teams. Learn frameworks, templates, and strategies for winning async"
 date: 2026-03-18
-last_modified_at: 2026-03-18
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-write-async-project-proposals-that-get-approved-remotely/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Write Async Project Proposals That Get Approved Remotely
 
 Getting buy-in on projects without the benefit of face-to-face conversation or real-time discussion is one of the hardest skills to develop in remote work. When you can't walk into a manager's office, can't read body language, and can't immediately address questions, your proposal document needs to do all the heavy lifting. Async project proposals that get approved remotely share common characteristics: they're clear, anticipate objections, provide all necessary context, and make decision-making easy for reviewers.
 
@@ -360,7 +359,6 @@ Fewer reviewers = faster decisions. More cooks spoil the approval.
 - Day 4: (If no response) Ping with "checking in on timeline"
 - Day 6: (If still no response) Offer to sync 15-min call vs. more questions needed
 - Day 7: Escalate if critical path item blocked
-
 
 
 ## Frequently Asked Questions

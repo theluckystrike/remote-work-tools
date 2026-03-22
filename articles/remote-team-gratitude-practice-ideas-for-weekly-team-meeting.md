@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Gratitude Practice Ideas for Weekly Team"
 description: "Practical gratitude exercises and digital tools to build connection in your distributed team. Examples include shoutout boards, appreciation scripts"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-gratitude-practice-ideas-for-weekly-team-meeting/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Gratitude Practice Ideas for Weekly Team Meetings
 
 Remote work offers flexibility but can create emotional distance between team members. When you never share physical space, it's easy to forget that colleagues are real people doing challenging work. Implementing gratitude practices in your weekly meetings counteracts this isolation and builds genuine connection.
 
@@ -229,7 +228,6 @@ Start slowly. Try written-only appreciation boards for a month before adding liv
 
 **"We already have too many meetings"**
 Integrate gratitude into existing meetings rather than creating new ones. Replace 5 minutes of status updates with appreciation instead.
-
 
 
 ## Frequently Asked Questions

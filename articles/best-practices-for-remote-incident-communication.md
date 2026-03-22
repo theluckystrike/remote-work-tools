@@ -3,7 +3,7 @@ layout: default
 title: "Best Practices for Remote Incident Communication"
 description: "Learn practical strategies for communicating during incidents when working remotely. Includes status page templates, Slack workflows, escalation"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /best-practices-for-remote-incident-communication/
 reviewed: true
@@ -15,7 +15,6 @@ tags: [remote-work-tools, best-of, remote-work]
 ---
 
 {% raw %}
-# Best Practices for Remote Incident Communication
 
 Assign an Incident Commander for every incident, post status updates on a fixed 15-minute cadence, and run an async post-mortem within 72 hours -- these three practices form the backbone of effective remote incident communication. Start with explicit role assignments, a reusable status page template, and dedicated Slack channels before your next outage hits. This guide provides the templates, escalation thresholds, and automation patterns you can implement immediately.
 
@@ -222,7 +221,6 @@ def notify_status_page(incident: Incident):
 ```
 
 The goal isn't to eliminate human communication—it's to eliminate the communication tasks that can be automated so humans focus on what matters: fixing the problem.
-
 
 
 ## Frequently Asked Questions

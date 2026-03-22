@@ -3,7 +3,7 @@ layout: default
 title: "Video Walkthrough Tools for Presenting Code Changes"
 description: "A practical guide to video walkthrough tools that help developers present code changes clearly to non-technical clients. Learn about screen recording"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /video-walkthrough-tools-for-presenting-code-changes-to-non-t/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Video Walkthrough Tools for Presenting Code Changes to Non-Technical Clients
 
 Showing code changes to non-technical clients presents a unique communication challenge. Your client needs to understand what changed, why it matters, and how it affects their project—without getting lost in syntax, file structures, or developer jargon. Video walkthroughs bridge this gap by combining visual demonstration with verbal explanation, letting you control the narrative and pace.
 

@@ -3,7 +3,7 @@ layout: default
 title: "Remote Working Parent Self Care Checklist for Avoiding"
 description: "A practical self care checklist for remote working parents to avoid isolation in distributed teams. Includes automation scripts, communication"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# Remote Working Parent Self Care Checklist for Avoiding Isolation in Distributed Teams
 
 Remote working parents prevent isolation by scheduling weekly 1:1 coffee chats with colleagues, joining async communities aligned with their interests, and protecting one evening per week for adult-only social interaction outside work. This checklist provides concrete, actionable strategies for developers and power users to maintain mental health, stay professionally connected, and build sustainable remote work habits despite the inherent isolation of distributed parenting.
 
@@ -297,7 +296,6 @@ These are signals to escalate:
 There's no shame in finding that a particular work arrangement doesn't work. Companies that truly support working parents help you find a better path, not guilt you into unsustainable productivity.
 
 ---
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "How to Handle Health Insurance as Digital Nomad Working"
 description: "A practical guide for developers and remote workers on navigating health insurance options while living and working in Thailand long term"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-handle-health-insurance-as-digital-nomad-working-from/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Handle Health Insurance as Digital Nomad Working From Thailand Long Term
 
 Working remotely from Thailand offers an attractive lifestyle—affordable cost of living, excellent food, and a welcoming culture. However, one practical challenge often catches remote developers and digital nomads off guard: securing reliable health insurance for long-term stays. Unlike short-term tourists, long-term residents need a sustainable approach to healthcare coverage.
 
@@ -261,7 +260,6 @@ When you leave Thailand, your international insurance typically continues if you
 If returning to the US, ensure you have ACA coverage or employer insurance before your international plan ends. If returning to Europe, register with your home country's healthcare system 30 days before arrival. Some countries have waiting periods, so plan your transition months in advance.
 
 ---
-
 
 
 ## Frequently Asked Questions

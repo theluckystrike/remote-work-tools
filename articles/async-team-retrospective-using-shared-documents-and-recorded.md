@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Async Team Retrospective Using Shared Documents and Recorded Summaries
 
 Team retrospectives are the heartbeat of continuous improvement in software development. Yet for remote and distributed teams, the traditional synchronous retrospective often becomes a burden—scheduling conflicts across time zones, participants who disengage during lengthy video calls, and valuable insights that get lost in real-time discussion. An async team retrospective using shared documents and recorded summaries solves these problems while often producing more thoughtful, detailed results.
 
@@ -228,7 +227,6 @@ Track these metrics to understand if your async retrospectives are working:
 - **Team satisfaction** — Do team members find the process valuable?
 
 Iterate on your format based on feedback. Every team evolves their retrospective practice—yours should too.
-
 
 
 ## Frequently Asked Questions

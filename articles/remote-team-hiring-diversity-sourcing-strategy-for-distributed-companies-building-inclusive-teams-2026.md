@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Hiring Diversity Sourcing Strategy"
 description: "Building diverse teams remotely requires intentional sourcing strategies that go beyond traditional job postings. Distributed companies must actively reach"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Hiring: Diversity Sourcing Strategy for Distributed Companies Building Inclusive Teams 2026
 
 Building diverse teams remotely requires intentional sourcing strategies that go beyond traditional job postings. Distributed companies must actively reach into underrepresented communities, remove geographic biases, and create evaluation systems that focus on demonstrated skills rather than credentials or connections. This guide provides actionable techniques for implementing diversity sourcing in your remote hiring pipeline.
 

@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Dual PC KVM Switch for Work and Gaming"
 description: "A practical guide for developers and power users setting up a dual PC KVM switch. Covers hardware selection, cable management, software configuration"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Set Up Dual PC KVM Switch for Work and Gaming
 
 Connect both PCs to a hardware KVM switch using one video cable (HDMI or DisplayPort) and one USB-B cable per machine, plug your monitor, keyboard, and mouse into the KVM's output ports, then switch between computers with a double-tap of Scroll Lock. For the most reliable dual-PC setup, choose a hardware KVM that matches your video connections and includes USB passthrough for peripherals like external drives and hardware tokens. This guide covers KVM selection, physical installation, hotkey configuration, and troubleshooting for a developer work-and-gaming setup.
 
@@ -286,7 +285,6 @@ Many developers find that a dual PC setup improves work quality because the phys
 This psychological aspect often justifies the setup more than the technical benefits alone.
 
 ---
-
 
 
 ## Frequently Asked Questions

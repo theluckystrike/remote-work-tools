@@ -3,7 +3,7 @@ layout: default
 title: "Communication Tools for a Remote Research Team of 12"
 description: "Discover the best communication tools and strategies for a remote research team of 12 scientists. Compare implementations, code examples, and workflows"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /communication-tools-for-a-remote-research-team-of-12-scienti/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Communication Tools for a Remote Research Team of 12 Scientists
 
 Managing communication for a distributed research team of 12 scientists requires balancing synchronous collaboration needs with the asynchronous nature of scientific work. Unlike typical software teams, research groups often deal with long-running experiments, complex data analysis, and publications that require extended periods of focused work interrupted by brief but critical collaboration windows. This guide covers practical tool selection and implementation strategies for research teams operating across multiple locations.
 
@@ -287,7 +286,6 @@ If your research team has shared equipment (mass spectrometers, microscopes, com
 **Equipment failures:** Create dedicated Slack channel (#equipment-issues) for reporting breakdowns. Equipment custodian monitors this channel and responds within 2 hours. This prevents delays where researchers work around broken equipment instead of reporting.
 
 **Data from equipment:** Establish protocols for data management. Where do raw instrument outputs get stored? Who has access? Who backs them up? These questions matter more for remote teams where you can't just walk over to the lab.
-
 
 
 ## Frequently Asked Questions

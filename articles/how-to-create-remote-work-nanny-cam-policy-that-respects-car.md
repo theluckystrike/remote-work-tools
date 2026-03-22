@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Remote Work Nanny Cam Policy That Respects"
 description: "A practical guide for developers and power users on creating remote work nanny cam policies that balance home security with caregiver privacy and consent"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-remote-work-nanny-cam-policy-that-respects-car/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Create Remote Work Nanny Cam Policy That Respects Caregiver Privacy Guide
 
 Remote work has blurred the lines between home and office, leading many professionals to consider surveillance cameras for child care, pet monitoring, or home security while they focus on work. However, implementing nanny cams without thoughtful policy creates legal risk, trust erosion, and potential ethical violations. This guide provides developers and power users with a practical framework for creating remote work nanny cam policies that respect caregiver privacy while maintaining household security.
 
@@ -278,7 +277,6 @@ If a caregiver objects to cameras:
 The best policies result from negotiation, not unilateral decisions.
 
 ---
-
 
 
 ## Frequently Asked Questions

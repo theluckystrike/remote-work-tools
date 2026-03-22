@@ -3,7 +3,7 @@ layout: default
 title: "How to Build Cross-Team Relationships in Large Remote"
 description: "Practical strategies for building meaningful cross-team relationships in large remote organizations. Learn communication patterns, tooling, and processes"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools"
 permalink: /how-to-build-cross-team-relationships-in-large-remote-organi/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Build Cross-Team Relationships in Large Remote Organizations
 
 Make team work visible through shared documentation, create formal cross-team pairing rotations, and establish async-first communication channels for collaboration. Avoid relying on unstructured all-hands meetings. Instead, design intentional touchpoints like quarterly tech talks from other teams, cross-team code reviews on critical projects, and documentation-sharing workflows that make everyone's work discoverable without requiring more synchronous meetings.
 
@@ -317,7 +316,6 @@ Sometimes teams develop adversarial relationships—especially over shared syste
 4. **Rebuild through project collaboration**: Assign a small project where teams must work together
 
 Often the issue is structural rather than interpersonal. Teams competing for on-call burden or infrastructure resources naturally develop friction. Reorganize the system so teams share the burden fairly.
-
 
 
 ## Frequently Asked Questions

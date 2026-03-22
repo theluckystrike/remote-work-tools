@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Remote Team Operations Handbook From Scratch"
 description: "A practical guide for developers and power users to build a remote team operations handbook from the ground up"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Create Remote Team Operations Handbook From Scratch Step by Step
 
 A well-crafted operations handbook serves as the single source of truth for how your remote team functions. Without one, you end up repeating the same explanations across Slack, losing institutional knowledge when team members leave, and creating inconsistent experiences for everyone. Building this handbook from scratch requires a systematic approach that focuses on documentation that actually gets used.
 
@@ -218,7 +217,6 @@ git push origin handbook/update-onboarding-process
 ```
 
 This makes documentation a team responsibility rather than a solo burden.
-
 
 
 ## Frequently Asked Questions

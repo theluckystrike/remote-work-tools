@@ -3,7 +3,7 @@ layout: default
 title: "How to Handle Health Insurance as a Digital Nomad Working"
 description: "A practical guide for developers and remote workers on managing health insurance while living in Thailand long term. Covers visa options, local vs"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Handle Health Insurance as a Digital Nomad Working from Thailand Long Term
 
 Thailand has become one of the most popular destinations for digital nomads, offering a low cost of living, excellent healthcare, and a welcoming culture. However, navigating health insurance as a long-term remote worker in Thailand requires careful planning. This guide provides practical strategies for developers and power users who plan to stay in Thailand for extended periods.
 
@@ -286,7 +285,6 @@ Health insurance renewal in Thailand differs from the US. Plan your renewal care
 - Some providers discontinue plans without notice — track industry changes via digital nomad communities
 
 Join groups like Bangkok Nomads or Thailand Digital Nomads on Facebook to hear about other people's real experiences with insurance claims and renewals.
-
 
 
 ## Frequently Asked Questions

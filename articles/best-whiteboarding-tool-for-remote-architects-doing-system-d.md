@@ -3,7 +3,7 @@ layout: default
 title: "Best Whiteboarding Tool for Remote Architects Doing System"
 description: "Remote system design sessions require whiteboarding tools that handle complex architecture diagrams, support real-time collaboration across time zones, and"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-whiteboarding-tool-for-remote-architects-doing-system-d/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Whiteboarding Tool for Remote Architects Doing System Design Sessions 2026
 
 Remote system design sessions require whiteboarding tools that handle complex architecture diagrams, support real-time collaboration across time zones, and integrate with your existing workflow. After testing the leading options throughout 2025 and early 2026, here's a practical comparison for architects running distributed design sessions.
 
@@ -311,7 +310,6 @@ This enables you to reference specific versions in ADRs: "See caching-architectu
 For teams using Miro, use version control through Miro's built-in "version history" feature. Restore previous versions if needed for historical reference.
 
 ---
-
 
 
 ## Frequently Asked Questions

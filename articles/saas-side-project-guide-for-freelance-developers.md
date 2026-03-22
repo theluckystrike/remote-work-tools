@@ -3,7 +3,7 @@ layout: default
 title: "SaaS Side Project Guide for Freelance Developers"
 description: "A practical guide for freelance developers looking to build and launch their own SaaS side projects. Learn validation strategies, tech stack choices"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /saas-side-project-guide-for-freelance-developers/
 reviewed: true
@@ -15,7 +15,6 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-# SaaS Side Project Guide for Freelance Developers
 
 Building a SaaS side project while freelancing represents one of the most effective paths to recurring revenue for developers. Unlike client work where you trade hours for money, a successful SaaS product generates income while you sleep. This guide covers practical strategies for freelance developers to validate, build, and launch SaaS side projects without disrupting their existing income.
 

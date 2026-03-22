@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Goal Setting Framework Tool for Remote Teams Using OKRs
 
 Use Lattice or 15Five for dedicated OKR management with quarterly tracking and async updates, or implement OKRs in Notion with GitHub Integration if your team prefers lightweight tools. The key is choosing a system that integrates with your existing development workflow so goals feel like part of daily work, not a separate tracking system.
 
@@ -311,7 +310,6 @@ update_okr_kr("okr-page-123", "api_latency_p99_ms", api_latency)
 ```
 
 This automation ensures your KRs always reflect current reality. Team doesn't have to manually update every week.
-
 
 
 ## Frequently Asked Questions

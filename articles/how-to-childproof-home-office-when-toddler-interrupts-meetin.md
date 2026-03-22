@@ -3,7 +3,7 @@ layout: default
 title: "How to Childproof Home Office When Toddler Interrupts"
 description: "Practical solutions for developers and remote workers to childproof their home office and handle toddler interruptions during video calls. Includes"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-childproof-home-office-when-toddler-interrupts-meetin/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# How to Childproof Home Office When Toddler Interrupts Meetings
 
 Childproof your home office in three layers: physical barriers (pressure-mounted gate, cable management sleeves, enclosed charging station), technical safeguards (push-to-mute keybindings, aggressive noise cancellation, automated Slack status scripts), and a practiced emergency protocol for when your toddler appears on camera mid-call. Start with cable management and a door latch, then add meeting automation as needed. Below are the specific solutions for each layer, with code examples for the automation pieces.
 

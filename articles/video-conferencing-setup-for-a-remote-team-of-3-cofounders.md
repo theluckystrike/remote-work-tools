@@ -3,7 +3,7 @@ layout: default
 title: "Video Conferencing Setup for a Remote Team of 3 Cofounders"
 description: "Set up video conferencing for three remote cofounders by equipping each home office with a 1080p webcam at eye level, an USB condenser or headset microphone"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /video-conferencing-setup-for-a-remote-team-of-3-cofounders/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Video Conferencing Setup for a Remote Team of 3 Cofounders
 
 Set up video conferencing for three remote cofounders by equipping each home office with a 1080p webcam at eye level, an USB condenser or headset microphone, and a key light at 45 degrees from the camera. Use a wired Ethernet connection with QoS rules prioritizing video traffic, then pick one platform (Zoom for reliability, Google Meet if you already use Workspace) and configure it for join-before-host, cloud recording, and automatic transcription. This guide covers the hardware, network optimization, platform configuration, and automation scripts that make daily cofounder calls.
 

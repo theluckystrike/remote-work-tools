@@ -3,7 +3,7 @@ layout: default
 title: "How to Scope Freelance Development Projects"
 description: "Learn how to scope freelance development projects with practical examples, estimation techniques, and code-based deliverables"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-scope-freelance-development-projects/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Scope Freelance Development Projects
 
 Accurate project scoping separates successful freelance developers from those who constantly battle scope creep and unpaid overtime. When you master the art of defining what gets built, how long it takes, and what it will cost, you transform unpredictable engagements into sustainable income. This guide walks you through practical techniques for scoping freelance development work that works for developers and power users alike.
 

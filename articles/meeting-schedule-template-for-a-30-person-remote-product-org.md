@@ -3,7 +3,7 @@ layout: default
 title: "Meeting Schedule Template for a 30 Person Remote Product Org"
 description: "A practical meeting schedule template designed for 30-person remote product organizations. Includes code snippets for automation and calendar management"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /meeting-schedule-template-for-a-30-person-remote-product-org/
 categories: [guides]
@@ -15,7 +15,6 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-# Meeting Schedule Template for a 30 Person Remote Product Org
 
 Managing meetings across a 30-person remote product organization requires structure without becoming a meeting factory. The goal is maintaining alignment while preserving focus time—something that breaks down quickly when meetings pile up without intentional scheduling.
 
@@ -298,7 +297,6 @@ If either metric drifts unfavorably, audit your meeting list and eliminate the l
 - Which meetings have no clear decision or output?
 
 Those are candidates for cancellation or conversion to async formats.
-
 
 
 ## Frequently Asked Questions

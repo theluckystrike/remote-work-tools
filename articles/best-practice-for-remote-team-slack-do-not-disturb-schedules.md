@@ -3,7 +3,7 @@ layout: default
 title: "Best Practice for Remote Team Slack Do Not Disturb"
 description: "Remote teams spanning multiple time zones face a unique challenge: staying connected without sacrificing work-life balance. Slack's Do Not Disturb (DND)"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-practice-for-remote-team-slack-do-not-disturb-schedules/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Practice for Remote Team Slack Do Not Disturb Schedules Respecting Time Zones
 
 Remote teams spanning multiple time zones face a unique challenge: staying connected without sacrificing work-life balance. Slack's Do Not Disturb (DND) feature, when configured thoughtfully, becomes a powerful tool for respecting personal boundaries while maintaining asynchronous collaboration. This guide covers practical strategies for implementing DND schedules that work across time zones.
 
@@ -298,7 +297,6 @@ Track whether your DND policies actually work using these metrics:
 3. **Quick pulse survey**: "Do you feel respected during your DND hours?" (1-5 scale monthly)
 
 Share results quarterly with the team. If people report not respecting DND, revisit your emergency protocols or consider team norms discussions.
-
 
 
 ## Frequently Asked Questions

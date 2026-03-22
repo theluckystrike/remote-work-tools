@@ -3,7 +3,7 @@ layout: default
 title: "How to Get Paid Internationally as Digital Nomad"
 description: "A practical guide for developers and power users on receiving international payments while working remotely. Covers payment platforms, currency"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-get-paid-internationally-as-digital-nomad/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Get Paid Internationally as Digital Nomad
 
 Working remotely from anywhere in the world creates unique challenges when it comes to getting paid. Banks block transactions, currency conversion eats your earnings, and tax compliance becomes a multi-jurisdictional puzzle. This guide covers practical solutions for receiving international payments as a digital nomad developer or power user.
 
@@ -197,7 +196,6 @@ Based on common digital nomad workflows, here's a recommended setup:
 3. Crypto Allocation: 10-20% of income in stablecoins for emergencies and international flexibility
 4. Local Banking: Open a local bank account in your most frequent country for ATM withdrawals and local expenses
 5. Documentation: Keep detailed records of income sources, locations, and visa status for tax purposes
-
 
 
 ## Frequently Asked Questions

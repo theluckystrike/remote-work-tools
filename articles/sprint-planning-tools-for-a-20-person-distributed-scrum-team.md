@@ -3,7 +3,7 @@ layout: default
 title: "Sprint Planning Tools for a 20 Person Distributed Scrum Team"
 description: "Running sprint planning for 20 developers across multiple time zones presents distinct challenges. The coordination overhead multiplies, async preparation"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /sprint-planning-tools-for-a-20-person-distributed-scrum-team/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Sprint Planning Tools for a 20 Person Distributed Scrum Team
 
 Running sprint planning for 20 developers across multiple time zones presents distinct challenges. The coordination overhead multiplies, async preparation becomes essential, and traditional meeting-heavy approaches simply do not scale. The right tooling reduces friction, keeps everyone aligned, and makes the planning ceremony valuable rather than a time sink.
 
@@ -219,7 +218,6 @@ Record decisions in a shared document accessible to all time zones:
 This approach scales to 20+ person organizations while maintaining alignment. Tools help coordination, but the process remains human-driven.
 
 ---
-
 
 
 ## Frequently Asked Questions

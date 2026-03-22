@@ -3,7 +3,7 @@ layout: default
 title: "How to Include Remote Workers in Office Meetings"
 description: "A practical guide for developers and power users on making office meetings inclusive for remote workers. Includes code snippets, automation examples"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-include-remote-workers-in-office-meetings/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Include Remote Workers in Office Meetings
 
 When your team includes both in-office and remote participants, running effective meetings requires deliberate technical setup and process design. Remote workers often feel disconnected when meetings prioritize in-room attendees, leading to reduced engagement and missed contributions. This guide covers the practical steps developers and power users can take to create genuinely inclusive hybrid meetings.
 
@@ -198,7 +197,6 @@ When remote workers contribute valuable insights, highlight those contributions 
 The goal is creating meetings where location becomes irrelevant—where every participant has equal ability to contribute, listen, and collaborate toward team objectives.
 
 ---
-
 
 
 ## Frequently Asked Questions

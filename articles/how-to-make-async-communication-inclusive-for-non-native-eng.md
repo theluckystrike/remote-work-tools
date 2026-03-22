@@ -3,7 +3,7 @@ layout: default
 title: "How to Make Async Communication Inclusive for Non-Native"
 description: "A practical guide to writing async communication that works for global teams with diverse language backgrounds. Includes templates, tools, and concrete"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-make-async-communication-inclusive-for-non-native-eng/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Make Async Communication Inclusive for Non-Native English Speakers
 
 Async communication has become the backbone of remote work. Written discussions, Slack messages, GitHub comments, and shared documents replace the instant feedback of office life. For teams spread across continents, this shift offers flexibility—but it also creates barriers for team members who communicate in English as a second or third language.
 
@@ -355,7 +354,6 @@ As a manager or senior engineer, you set the tone:
 5. **Never mock language mistakes**: People should feel safe trying
 
 Your behavior creates psychological safety around communication. When you ask for clarification without judgment, the whole team does.
-
 
 
 ## Frequently Asked Questions

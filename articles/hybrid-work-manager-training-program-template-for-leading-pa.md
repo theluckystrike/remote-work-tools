@@ -3,7 +3,7 @@ layout: default
 title: "Hybrid Work Manager Training Program Template"
 description: "Managing a team where some members work remotely while others are in-office requires a distinct skill set that traditional management training rarely"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /hybrid-work-manager-training-program-template-for-leading-pa/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Hybrid Work Manager Training Program Template for Leading Partially Distributed Teams 2026
 
 Managing a team where some members work remotely while others are in-office requires a distinct skill set that traditional management training rarely addresses. This guide provides a structured training program template you can adapt for your organization, designed specifically for managers leading partially distributed teams in 2026.
 
@@ -242,7 +241,6 @@ Before launching this training program:
 3. **Prepare materials** - Create team-specific exercises using actual team data
 4. **Plan follow-up** - Schedule monthly coaching sessions for graduates
 5. **Measure impact** - Track team engagement scores and manager confidence ratings
-
 
 
 ## Frequently Asked Questions

@@ -13,7 +13,6 @@ intent-checked: true
 voice-checked: true
 ---
 {% raw %}
-# How to Structure Remote Team Handbook: Policies, Processes, and Culture
 
 A well-structured remote team handbook transforms distributed teams from a collection of isolated workers into a cohesive unit with shared understanding. For developers and technical teams, the handbook serves as the single source of truth—when someone asks "how do we handle incident response?" or "what's our stance on async communication?", the answer lives in one place.
 

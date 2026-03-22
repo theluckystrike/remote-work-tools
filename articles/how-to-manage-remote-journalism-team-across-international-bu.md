@@ -3,7 +3,7 @@ layout: default
 title: "How to Manage Remote Journalism Team Across International"
 description: "A practical technical guide for managing distributed journalism teams across global bureaus with async workflows, shared tools, and time zone optimization"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-manage-remote-journalism-team-across-international-bu/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Manage Remote Journalism Team Across International Bureaus and Time Zones
 
 Managing a journalism team spread across New York, London, Tokyo, and Sydney requires more than scheduling wizardry. It demands a fundamentally different approach to communication, workflow design, and tool selection. This guide provides actionable strategies for editors and technical leads managing distributed newsrooms.
 
@@ -328,7 +327,6 @@ Track these metrics to understand if your async workflows are actually working:
 - **Editor satisfaction:** Quarterly survey on how smoothly stories flow through bureaus
 
 If cycle times increase or blocking incidents spike, your async infrastructure isn't working. Tighten your handoff checklist, add more specific story templates, or increase overlap sync calls.
-
 
 
 ## Frequently Asked Questions

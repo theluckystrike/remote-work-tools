@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Third Party Vendor Security Assessment Template"
 description: "A practical security assessment template for evaluating third-party vendors who need access to your remote team's systems and data"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-third-party-vendor-security-assessment-template-/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Third Party Vendor Security Assessment Template for IT Admins
 
 When your remote team relies on external vendors for critical services, each vendor becomes a potential entry point for attackers. A structured third-party vendor security assessment template helps IT admins systematically evaluate vendor security posture before granting access to sensitive systems or data.
 
@@ -282,7 +281,6 @@ Assessment can become a bottleneck if not managed efficiently. To scale:
 - Set SLAs: Critical vendors assessed in 1 week, high-risk in 2 weeks, medium in 3 weeks
 
 The goal is making assessment routine, not exceptional.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "CI/CD Pipeline Tools for a Remote Team of 2 Backend"
 description: "Practical guide to CI/CD pipeline tools for small remote backend teams. Compare GitHub Actions, GitLab CI, CircleCI, and build automation strategies"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# CI/CD Pipeline Tools for a Remote Team of 2 Backend Developers
 
 Two-person backend teams face unique automation challenges. You have enough code to benefit from continuous integration and deployment, but not the overhead to manage complex enterprise tooling. The right CI/CD pipeline tools can automate testing, catch bugs early, and deploy your applications with confidence—all without requiring dedicated DevOps resources.
 
@@ -353,7 +352,6 @@ resource "aws_codebuild_project" "backend_ci" {
 ```
 
 Storing your CI/CD configuration in version control alongside application code ensures both developers can see, review, and modify pipeline behavior through the same pull request workflow used for feature development. This eliminates the "who configured CI?" ambiguity that commonly creates bottlenecks in small teams when one developer is unavailable.
-
 
 
 ## Frequently Asked Questions

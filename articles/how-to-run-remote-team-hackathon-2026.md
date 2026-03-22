@@ -13,7 +13,6 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-# How to Run a Remote Team Hackathon 2026
 
 Remote hackathons are high-energy events where distributed teams compete to ship features, fixes, or side projects in 24-72 hours. Unlike in-person hackathons with energy from physical proximity, remote versions require deliberate structure: clear judging criteria, persistent communication channels, and async-friendly formats. This guide covers the complete playbook.
 

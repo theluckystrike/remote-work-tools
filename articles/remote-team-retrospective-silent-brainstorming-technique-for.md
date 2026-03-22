@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Retrospective Silent Brainstorming Technique"
 description: "A practical guide to running effective async retrospectives with digital stickies. Learn how silent brainstorming levels the playing field for remote"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-retrospective-silent-brainstorming-technique-for/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Retrospective Silent Brainstorming Technique for Distributed Teams Using Digital Stickies
 
 Retrospectives are essential for continuous improvement, but traditional synchronous meetings often favor vocal team members and create timezone headaches for distributed teams. Silent brainstorming with digital stickies solves these problems by shifting the ideation phase to async, then following up with a focused synchronous discussion.
 
@@ -312,7 +311,6 @@ Track these metrics to improve your process:
 **Silent phase participation:** Did all team members contribute stickies? Target: 90%+. If someone consistently doesn't contribute, either they don't feel safe, they're unclear on the process, or they're overloaded.
 
 **Team sentiment trend:** Ask a simple question at the end of each retro: "On a scale of 1-5, how are you feeling about the team and our work?" Track this trend. Retros should increase this score over time if they're working.
-
 
 
 ## Frequently Asked Questions

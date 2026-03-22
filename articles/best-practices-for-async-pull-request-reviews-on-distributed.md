@@ -3,7 +3,7 @@ layout: default
 title: "Best Practices for Async Pull Request Reviews on"
 description: "Master async pull request reviews on distributed teams with practical strategies, code review templates, and time zone-friendly workflows"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-practices-for-async-pull-request-reviews-on-distributed/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Practices for Async Pull Request Reviews on Distributed Teams
 
 Async pull request reviews form the backbone of effective collaboration when engineering teams span multiple time zones. Unlike synchronous code reviews, async reviews require intentional structuring to maintain velocity while ensuring thorough feedback. This guide covers practical strategies you can implement immediately.
 

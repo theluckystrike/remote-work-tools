@@ -3,7 +3,7 @@ layout: default
 title: "How to Run Async Sprint Demos with Recorded Walkthroughs"
 description: "Learn practical methods for recording sprint demos asynchronously. This guide covers tools, workflows, and code snippets for effective async presentations"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# How to Run Async Sprint Demos with Recorded Walkthroughs for Stakeholders
 
 Record a screen walkthrough under 10 minutes following a consistent structure -- 30-second sprint overview, 2-5 minutes per feature demo, optional technical highlights, and 30-second next-steps summary -- then distribute it with timestamps and a written summary so stakeholders can review on their own schedule. This eliminates the time zone conflicts of live demos while creating a permanent searchable record of sprint progress.
 
@@ -270,7 +269,6 @@ Iterate on your approach based on these metrics.
 ---
 
 Running async sprint demos requires upfront investment in recording habits and workflows, but pays dividends in team flexibility and stakeholder engagement. Start with simple recordings, gather feedback, and refine your process over time.
-
 
 
 ## Frequently Asked Questions

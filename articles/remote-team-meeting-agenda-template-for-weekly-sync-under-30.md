@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Meeting Agenda Template for Weekly Sync Under"
 description: "A practical guide and ready-to-use template for running efficient 30-minute weekly sync meetings with remote development teams"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-meeting-agenda-template-for-weekly-sync-under-30/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes
 
 Weekly sync meetings are the heartbeat of remote team coordination, but they can quickly become time sinks that drain productivity. A poorly structured 30-minute meeting can stretch to an hour, while a well-designed one can accomplish more in less time. This guide provides a battle-tested agenda template specifically crafted for remote development teams who need to stay aligned without sacrificing deep work time.
 
@@ -349,7 +348,6 @@ Track these metrics to identify when your meeting format needs adjustment:
 | Team satisfaction | 4/5 or higher | Monthly 2-question survey |
 
 If participation drops below 80% or blocker resolution stalls, something's wrong with your format. Usually: meeting is too long (fatigue), agenda isn't clear (people unprepared), or blockers aren't real (people stopped bringing genuine issues).
-
 
 
 ## Frequently Asked Questions

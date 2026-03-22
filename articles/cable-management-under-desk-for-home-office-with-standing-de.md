@@ -3,7 +3,7 @@ layout: default
 title: "Cable Management Under Desk for Home Office With Standing"
 description: "A practical guide to cable management under desk for home office with standing desk. Learn routing techniques, mounting solutions, and automation tips"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /cable-management-under-desk-for-home-office-with-standing-de/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Cable Management Under Desk for Home Office With Standing Desk
 
 Setting up a standing desk in your home office introduces a unique challenge: managing cables that need to move with your desk as it rises and lowers. Unlike a fixed desk where you can route cables once and forget about them, a standing desk setup demands a more dynamic approach. This guide covers practical solutions for keeping your workspace organized, safe, and functional.
 
@@ -263,7 +262,6 @@ A typical developer standing desk setup with solid cable management includes:
 | Ethernet | 1 (optional) | Cable sleeve |
 
 This totals 3-6 cables depending on wireless adoption, all routed cleanly and hidden from view.
-
 
 
 ## Frequently Asked Questions

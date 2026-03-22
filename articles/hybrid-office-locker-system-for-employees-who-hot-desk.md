@@ -3,7 +3,7 @@ layout: default
 title: "Hybrid Office Locker System for Employees Who Hot Desk"
 description: "Build a hybrid office locker system for employees who hot desk with API integrations, access control patterns, and implementation code for developers"
 date: 2026-03-18
-last_modified_at: 2026-03-18
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /hybrid-office-locker-system-for-employees-who-hot-desk/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Hybrid Office Locker System for Employees Who Hot Desk
 
 When employees hot desk, they need secure storage for personal belongings, equipment, and valuables throughout the workday. A well-designed locker system integrates with existing badge access, provides real-time availability tracking, and offers programmatic control for custom workplace workflows. This guide covers the technical implementation of a hybrid office locker system built for hot-desking environments.
 
@@ -379,7 +378,6 @@ Maintenance Access: Build in maintenance modes for battery replacement, hardware
 User Communication: Set clear expectations about what can and cannot be stored. Most systems prohibit valuables, perishables, and prohibited items. Display policies on locker doors and include in employee onboarding.
 
 A well-integrated locker system removes one of the friction points in hot-desking, making it effortless for employees to store belongings securely while they work from any desk in the office.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Remote Radiology Reading Station at Home"
 description: "A technical guide for radiologists and healthcare IT professionals setting up home PACS workstations. Covers hardware requirements, network"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-radiology-reading-station-at-home-with-/
 categories: [guides]
@@ -15,7 +15,6 @@ score: 8
 ---
 
 {% raw %}
-# How to Set Up Remote Radiology Reading Station at Home with Proper Equipment
 
 A compliant home radiology reading station requires medical-grade DICOM displays (5-6MP), dedicated GPU hardware (NVIDIA RTX 4090 recommended), symmetric fiber internet (100+ Mbps), and HIPAA-compliant VPN access to hospital PACS servers. Display calibration must meet American College of Radiology standards, and full-disk encryption protects patient data during transmission. This guide provides the complete technical foundation for building a production-ready remote radiology reading workstation.
 
@@ -222,7 +221,6 @@ Challenge: Display calibration drift
 Challenge: Family member internet usage impacting performance
 
 *Solution*: Create separate network segments. Run a dedicated ethernet cable to your office if possible.
-
 
 
 ## Frequently Asked Questions

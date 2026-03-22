@@ -3,7 +3,7 @@ layout: default
 title: "Zoom Plan for a Company with 200 Person Quarterly Meetings"
 description: "A practical technical guide for running efficient 200-person quarterly meetings on Zoom. Includes room configuration, automation scripts, and best"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /zoom-plan-for-a-company-with-200-person-quarterly-meetings/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Zoom Plan for a Company with 200 Person Quarterly Meetings
 
 Running a quarterly all-hands meeting with 200 participants requires different infrastructure and planning than your typical team standup. The technical setup, moderation strategy, and engagement mechanisms all need careful consideration. This guide walks you through a practical approach to executing large-scale quarterly meetings on Zoom.
 
@@ -293,7 +292,6 @@ This index lets employees who missed the live meeting jump directly to the secti
 ---
 
 Running a 200-person quarterly meeting is a logistical exercise as much as a technical one. The Zoom configuration is the foundation, but the meeting structure, moderator preparation, and follow-up distribution determine whether participants leave informed and engaged or wondering why they didn't just read a summary email.
-
 
 
 ## Frequently Asked Questions

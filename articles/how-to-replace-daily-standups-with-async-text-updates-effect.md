@@ -3,7 +3,7 @@ layout: default
 title: "How to Replace Daily Standups with Async Text Updates"
 description: "Learn practical strategies for replacing daily standups with async text updates. Discover templates, tools, and workflows for remote teams"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-replace-daily-standups-with-async-text-updates-effect/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Replace Daily Standups with Async Text Updates Effectively
 
 Daily standups were designed for co-located teams with short feedback loops. When everyone sits in the same room, a 15-minute morning sync makes sense. For distributed teams spanning multiple time zones, these synchronous meetings often mean someone joins at 7 AM or 9 PM local time—hardly the foundation for sustainable productivity.
 
@@ -242,7 +241,6 @@ After two weeks, gather feedback and refine your process. There's no perfect tem
 ---
 
 Async text updates transform daily standups from a mandatory meeting into a flexible, asynchronous practice that respects time zones, preserves focus time, and creates useful documentation. Start simple, stay consistent, and adjust based on what your team actually needs.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Best Sim Card and Mobile Data Plan for Remote Workers"
 description: "A practical guide to the best SIM cards and mobile data plans for remote workers in Portugal. Compare carriers, data allowances, 5G coverage, and eSIM"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best SIM Card and Mobile Data Plan for Remote Workers in Portugal 2026
 
 Remote work in Portugal has exploded in recent years, with Lisbon, Porto, and smaller cities like Braga and Coimbra becoming hubs for digital nomads and remote developers. Choosing the right mobile data plan impacts your daily productivity, especially when working from co-working spaces, coffee shops, or traveling between cities. This guide cuts through the marketing noise and provides practical recommendations for developers and power users who need reliable connectivity.
 
@@ -295,7 +294,6 @@ print(f"Recommended plan: {target*4:.0f}GB/month")
 ```
 
 For developers averaging 15GB/month, a 20GB plan costs €15 with buffer for occasional peaks. Jumping to 30GB (+€5) might be wasteful—stick with 20GB and buy supplemental packs on high-usage months.
-
 
 
 ## Frequently Asked Questions

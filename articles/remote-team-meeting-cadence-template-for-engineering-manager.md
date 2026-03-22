@@ -3,7 +3,7 @@ layout: default
 title: "Remote Team Meeting Cadence Template for Engineering"
 description: "Design a meeting cadence that includes daily async standups, weekly team syncs for alignment, and bi-weekly one-on-ones for deeper conversations to balance"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /remote-team-meeting-cadence-template-for-engineering-manager/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# Remote Team Meeting Cadence Template for Engineering Managers Leading Distributed Teams
 
 Design a meeting cadence that includes daily async standups, weekly team syncs for alignment, and bi-weekly one-on-ones for deeper conversations to balance communication without drowning in meetings. Effective cadences adapt to team size and complexity.
 
@@ -221,7 +220,6 @@ A meeting cadence only works if the team respects it. Announce the cadence in yo
 The most successful distributed teams treat their meeting cadence as an evolving contract. Review it quarterly. Remove meetings that aren't providing value. Add structure where coordination breaks down.
 
 Start with the template above, observe what works for your specific time zone distribution and team dynamics, then refine from there.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "How to Run Async Architecture Reviews for Distributed"
 description: "Learn practical strategies for conducting async architecture reviews in distributed engineering teams. Includes templates, workflows, and code examples"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-run-async-architecture-reviews-for-distributed-engine/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Run Async Architecture Reviews for Distributed Engineering Teams
 
 Async architecture reviews replace the traditional conference room whiteboard session with a structured, time-zone-independent process that lets distributed engineering teams collaborate on significant technical decisions without scheduling conflicts. Instead of coordinating a live meeting across six time zones, teams use an async workflow where proposals circulate through review stages, allowing each participant to contribute thoughtful feedback on their own schedule.
 
@@ -333,7 +332,6 @@ Anti-Patterns to Prevent:
 ```
 
 Async processes work well when boundaries are clear and decision authority is explicit.
-
 
 
 ## Frequently Asked Questions

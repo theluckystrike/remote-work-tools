@@ -3,7 +3,7 @@ layout: default
 title: "How to Scale Remote Team Sprint Ceremonies When Splitting"
 description: "Learn practical strategies for scaling sprint ceremonies when your remote team splits into multiple squads. Includes async formats, scheduling scripts"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 {% raw %}
 
-# How to Scale Remote Team Sprint Ceremonies When Splitting Into Multiple Squads: A Practical Guide
 
 When your remote engineering team grows beyond eight to ten people, splitting into multiple squads becomes necessary. The challenge is maintaining sprint coordination without scheduling overlapping meetings across five time zones. This guide provides practical patterns for scaling your sprint ceremonies while preserving team autonomy and alignment.
 
@@ -247,7 +246,6 @@ def calculate_optimal_meeting_times(timezones: list[str], squads: list[dict]) ->
 ```
 
 This script helps you generate a rotation schedule where no single time zone consistently takes inconvenient meeting times.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Kanban Board Setup for a Remote DevOps Team of 3"
 description: "Learn how to configure an effective Kanban board for a remote DevOps team of 3. Includes board structure, WIP limits, automation rules, and practical"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /kanban-board-setup-for-a-remote-devops-team-of-3/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Kanban Board Setup for a Remote DevOps Team of 3
 
 A well-configured Kanban board transforms how a small remote DevOps team manages infrastructure tasks, incident response, and deployment workflows. For a team of three engineers spread across time zones, the board becomes the single source of truth for what needs attention, what is in progress, and what is waiting on dependencies. This guide walks through setting up a practical Kanban board tailored specifically for a three-person remote DevOps team.
 
@@ -212,7 +211,6 @@ A three-person team may eventually become four or five. Your Kanban setup should
 The principles remain the same: visualize work, limit WIP, manage flow. The specifics adjust to your new reality.
 
 ---
-
 
 
 ## Frequently Asked Questions

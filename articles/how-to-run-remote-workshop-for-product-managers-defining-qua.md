@@ -3,7 +3,7 @@ layout: default
 title: "How to Run Remote Workshop for Product Managers Defining"
 description: "A practical guide for product managers running remote workshops to define quarterly OKRs. Includes templates, help scripts, and actionable steps"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-run-remote-workshop-for-product-managers-defining-qua/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Run Remote Workshop for Product Managers Defining Quarterly OKRs Guide
 
 Quarterly OKR workshops are one of the most high-impact meetings a product manager can help. When done well, they align teams around clear priorities and measurable outcomes. When done poorly, they produce vague goals that no one remembers or tracks. This guide provides a practical framework for running remote OKR definition workshops that produce real results.
 

@@ -3,7 +3,7 @@ layout: default
 title: "How to Write Freelance Proposals That Win"
 description: "Learn how to write freelance proposals that win clients. Practical templates, code examples, and strategies for developers to close more deals"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-write-freelance-proposals-that-win/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Write Freelance Proposals That Win
 
 Freelance proposals are your first real conversation with a potential client. Before you send code, before you hop on a call, the proposal decides whether you get a chance to prove your value. Most developers treat proposals as paperwork—a formality to endure before getting to the "real work." That mindset costs you clients.
 
@@ -209,7 +208,6 @@ echo "Created proposal for ${CLIENT_NAME}"
 ```
 
 This saves time on formatting so you can focus on customizing the content.
-
 
 
 ## Frequently Asked Questions

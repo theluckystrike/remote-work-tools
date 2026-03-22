@@ -3,7 +3,7 @@ layout: default
 title: "How to Manage Cross-Functional Remote Projects"
 description: "A practical guide for developers and power users managing cross-functional remote projects. Covers coordination, communication patterns, and workflow"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-cross-functional-remote-projects/
 reviewed: true
@@ -17,7 +17,6 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-# How to Manage Cross-Functional Remote Projects: A Developer's Guide
 
 Manage cross-functional remote projects by assigning single-owner accountability to every task using a RACI matrix, tracking inter-team dependencies explicitly in your project management tool, and running structured async updates so progress stays visible without requiring everyone online at once. These three practices--clear ownership, dependency tracking, and async coordination--prevent the handoff failures and blocked work that derail distributed teams.
 

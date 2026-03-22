@@ -3,7 +3,7 @@ layout: default
 title: "Hybrid Office Space Planning Tool for Facilities Managers"
 description: "Build a hybrid office space planning tool using pressure sensors, infrared motion sensors, or ultrasonic distance sensors deployed across desks, connected via"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools"
 permalink: /hybrid-office-space-planning-tool-for-facilities-managers-op/
 categories: [guides]
@@ -18,7 +18,6 @@ tags: [remote-work-tools]
 
 Build a hybrid office space planning tool using pressure sensors, infrared motion sensors, or ultrasonic distance sensors deployed across desks, connected via MQTT to a time-series database, with analytics dashboards showing peak use hours and efficiency scores. This reveals actual desk usage patterns driving informed space optimization decisions rather than guesswork.
 
-# Hybrid Office Space Planning Tool for Facilities Managers: Optimizing Desk Use in 2026
 
 Hybrid office space planning requires accurate data about how employees actually use physical workspace. Without real occupancy insights, facilities managers rely on guesswork for desk allocation, leading to either overcrowded spaces or wasted real estate. Building a desk use tracking system provides the data needed to optimize space allocation, reduce costs, and improve the employee experience. This guide covers the technical implementation of a hybrid office space planning tool—from sensor deployment to analytics dashboards.
 
@@ -329,7 +328,6 @@ Desk occupancy tracking involves employee privacy considerations. Anonymize data
 ### Scaling Strategy
 
 Start with a pilot floor covering 20-50 desks. Validate your sensor reliability, data pipeline stability, and analytics accuracy before expanding. Plan for horizontal scaling by designing your MQTT topic structure and database schema to accommodate additional floors without refactoring.
-
 
 
 ## Frequently Asked Questions

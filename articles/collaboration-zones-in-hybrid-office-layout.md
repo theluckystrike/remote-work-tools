@@ -3,7 +3,7 @@ layout: default
 title: "Collaboration Zones in Hybrid Office Layout"
 description: "Design effective collaboration zones in hybrid office layouts with practical implementation patterns, zoning strategies, and code-based scheduling"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /collaboration-zones-in-hybrid-office-layout/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Collaboration Zones in Hybrid Office Layout
 
 Hybrid offices require intentional design decisions to support both remote and in-person collaboration. Unlike traditional offices where spontaneous conversations happen naturally, hybrid environments need structured collaboration zones that bridge the gap between distributed team members. This guide provides actionable strategies for designing and implementing collaboration zones that work for developers and technical teams.
 
@@ -387,7 +386,6 @@ Schedule annual professional maintenance:
 - Acoustic panel effectiveness assessment
 
 Budget 10-15% of initial zone setup cost annually for maintenance. Neglecting this extends maintenance eventually to expensive replacements.
-
 
 
 ## Frequently Asked Questions

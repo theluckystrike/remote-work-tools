@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Shared Notion Workspace with Remote Agency"
 description: "A practical guide for developers and power users setting up shared Notion workspaces for remote agency client collaboration. Includes workspace"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-shared-notion-workspace-with-remote-agency-cli/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# How to Set Up Shared Notion Workspace with Remote Agency Clients
 
 Configure a shared Notion workspace for client collaboration by establishing clear permission boundaries for client accounts, creating client-specific database views with templated pages, and setting up integration triggers for status updates. This gives clients a polished interface for feedback and visibility without exposing internal operations.
 
@@ -236,7 +235,6 @@ When sharing workspace access with external clients, implement these security pr
 5. Use encryption for any stored API keys or access tokens
 
 Notion's enterprise plan offers additional security features like SAML SSO and domain-wide sharing controls that larger agencies may require.
-
 
 
 ## Frequently Asked Questions

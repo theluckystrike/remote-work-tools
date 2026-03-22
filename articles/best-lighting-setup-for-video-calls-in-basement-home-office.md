@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Lighting Setup for Video Calls in Basement Home Office
 
 Basements present unique challenges for video calls. Without windows or natural light sources, you're working with a blank canvas that can either make you look like a news anchor or a suspect in a crime drama. This guide covers the technical approach to achieving professional-quality lighting in your basement home office without breaking the bank.
 
@@ -208,7 +207,6 @@ The best lighting setup is one you actually use. Complex automation is worthless
 Your basement home office can produce professional-quality video calls. The key is treating lighting as a technical problem with measurable solutions—color temperature, direction, and intensity—that you can control and replicate consistently.
 
 ---
-
 
 
 ## Frequently Asked Questions

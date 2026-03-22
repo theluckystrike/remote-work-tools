@@ -3,7 +3,7 @@ layout: default
 title: "How to Run Remote Team Retrospective Focused on Team Health"
 description: "A practical guide for developers on running remote retrospectives that prioritize psychological safety, burnout prevention, and team cohesion"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-team-retrospective-focused-on-team-health/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# How to Run Remote Team Retrospective Focused on Team Health
 
 Team health retrospectives prioritize psychological safety, burnout prevention, and interpersonal connection over velocity metrics—directly improving retention and performance. Focused retros address isolation, clarify communication norms, and surface team tensions before they become problems. This guide covers health-focused retro formats, facilitation techniques, and follow-up actions for remote team resilience.
 
@@ -223,7 +222,6 @@ When individual team members consistently score their own health significantly b
 ---
 
 A team that regularly examines its health builds resilience against the inevitable challenges of remote work. The practices outlined here create space for honest conversation, concrete improvements, and stronger interpersonal bonds. Start small—add one health question to your next retro and see what emerges. The insights might surprise you.
-
 
 
 ## Frequently Asked Questions

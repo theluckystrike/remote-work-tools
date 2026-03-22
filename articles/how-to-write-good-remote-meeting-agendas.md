@@ -3,7 +3,7 @@ layout: default
 title: "How to Write Good Remote Meeting Agendas"
 description: "Learn how to write effective meeting agendas for remote teams. Includes templates, code snippets for automation, and practical examples for developers"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-good-remote-meeting-agendas/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Write Good Remote Meeting Agendas
 
 A good remote meeting agenda states the meeting's purpose, assigns time limits and owners to each topic, specifies the decisions needed, and links to any required prep materials. Send it at least 24 hours before the meeting so participants can prepare. Without these elements, remote meetings drift into unfocused discussions that waste everyone's time.
 
@@ -422,7 +421,6 @@ Implement a pre-meeting QA check:
 
 If you check "no" on "meeting is necessary" — cancel and send the info async instead.
 ```
-
 
 
 ## Frequently Asked Questions

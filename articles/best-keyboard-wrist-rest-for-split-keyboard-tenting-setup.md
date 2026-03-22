@@ -14,7 +14,6 @@ tags: [remote-work-tools, best-of]
 ---
 
 {% raw %}
-# Best Keyboard Wrist Rest for Split Keyboard Tenting Setup
 
 Split keyboards with tented setups have become increasingly popular among developers who spend long hours coding. The ergonomic benefits of separating the keyboard halves and tilting them inward are well-documented—reduced shoulder pronation, improved wrist alignment, and more natural arm positioning. However, finding the right wrist rest for a tented split keyboard setup presents unique challenges that standard wrist rests cannot address.
 
@@ -271,7 +270,6 @@ Wrist rests wear over time. Plan for replacement:
 - Resin: 3-5 years before yellowing or cracking
 
 Once you find a wrist rest you love, consider buying a backup or extra set. Many small makers stop producing specific designs, and replacement can be frustrating if your setup becomes unavailable.
-
 
 
 ## Frequently Asked Questions

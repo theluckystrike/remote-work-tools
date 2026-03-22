@@ -3,7 +3,7 @@ layout: default
 title: "Weekly Wins Channel Setup and Facilitation for Remote Team"
 description: "A practical guide to setting up and running a weekly wins channel that boosts morale in remote teams. Includes Slack configuration, automation tips"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /weekly-wins-channel-setup-and-facilitation-for-remote-team-m/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# Weekly Wins Channel Setup and Help for Remote Team Morale
 
 Launch a weekly wins channel by setting a consistent posting day and format, making participation easy with simple templates, and celebrating wins visibly to build team morale. Weekly wins channels combat the invisibility of remote work achievements.
 
@@ -352,7 +351,6 @@ Solution: If managers or senior people start using wins to judge others, announc
 Then demonstrate: post wins about failures you learned from, wins about asking for help, wins about admitting you were wrong.
 
 ---
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Remote Work Caregiver Leave Policy Template for Distributed"
 description: "A caregiver leave policy template designed for distributed companies supporting employees balancing work, children, and aging parents"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /remote-work-caregiver-leave-policy-template-for-distributed-/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# Remote Work Caregiver Leave Policy Template for Distributed Companies Supporting Sandwich Generation
 
 A caregiver leave policy for distributed companies should provide 10-15 days annually, allow unpaid leave options, and include flexible scheduling for elder care without requiring advance notice. This policy template specifically addresses the "sandwich generation"—employees balancing children and aging parents—while maintaining productivity in async-first environments. It includes implementation guidance, communication templates, and return-to-work procedures for your remote organization.
 

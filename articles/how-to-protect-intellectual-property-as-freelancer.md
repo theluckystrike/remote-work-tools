@@ -3,7 +3,7 @@ layout: default
 title: "How to Protect Intellectual Property as a Freelancer"
 description: "A practical guide for developers and freelancers on protecting intellectual property with contracts, licensing, and code ownership strategies"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-protect-intellectual-property-as-freelancer/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Protect Intellectual Property as a Freelancer
 
 Every freelance developer has faced this scenario: you build something remarkable, hand it over to a client, and later discover they've reused your code without permission—or worse, claimed they own work you created. Intellectual property disputes are common in the freelance world, but they're entirely preventable with the right contracts, licensing strategies, and documentation practices.
 
@@ -361,7 +360,6 @@ Make IP protection routine, not reactive:
 3. **Get it signed before starting** — Never start work without a signed agreement
 4. **Archive everything** — Keep signed contracts in cloud storage with version control
 5. **Document creation dates** — Use Git commits and file timestamps as evidence
-
 
 
 ## Frequently Asked Questions

@@ -13,7 +13,6 @@ intent-checked: true
 voice-checked: true
 ---
 {% raw %}
-# Slack List View Sorting Not Saving Preference Fix 2026
 
 If you've ever clicked on a Slack channel, sorted your messages by newest first, and then returned later only to find Slack reverted to its default sorting, you're not alone. This persistent issue affects remote workers and distributed teams who rely on consistent message organization across multiple devices and sessions. In this guide, we'll walk through practical solutions to fix Slack list view sorting not saving your preference.
 

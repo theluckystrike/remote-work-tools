@@ -3,7 +3,7 @@ layout: default
 title: "How to Run Remote Team Lightning Talks Keeping"
 description: "A practical guide for running effective lightning talks with remote teams. Learn how to structure five-minute presentations, manage time constraints"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-team-lightning-talks-keeping-presentations/
 categories: [guides]
@@ -19,7 +19,6 @@ voice-checked: true
 
 Run effective remote team lightning talks by limiting presentations to exactly five minutes, establishing consistent weekly schedules, using visible timers and timekeepers, and ensuring clear, immediately applicable topics. This structure drives frequent knowledge sharing across distributed teams while respecting everyone's time and encouraging more participation than longer presentation formats.
 
-# How to Run Remote Team Lightning Talks Keeping Presentations Under Five Minutes Guide
 
 Lightning talks have become a staple of remote team communication. These brief, focused presentations—typically limited to five minutes—let team members share discoveries, demonstrate techniques, and spread knowledge without consuming hours of meeting time. Running them effectively in a remote environment requires structure, the right tools, and clear expectations.
 
@@ -318,7 +317,6 @@ Some lightning talks spark enough interest that a longer session makes sense. Ha
 2. Deep dive on mechanics (15 minutes)
 3. Interactive Q&A (5-10 minutes)
 4. Schedule separately, not part of lightning talk series
-
 
 
 ## Frequently Asked Questions

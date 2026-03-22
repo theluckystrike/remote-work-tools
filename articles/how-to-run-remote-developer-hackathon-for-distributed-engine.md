@@ -3,7 +3,7 @@ layout: default
 title: "How to Run Remote Developer Hackathon for Distributed"
 description: "A practical guide to running successful remote developer hackathons for distributed engineering teams. Includes setup steps, tooling recommendations"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-run-remote-developer-hackathon-for-distributed-engine/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Run Remote Developer Hackathon for Distributed Engineering Teams 2026 Guide
 
 Remote hackathons have evolved significantly. What started as crude video call marathons with shared screens has transformed into well-orchestrated events that can match—or exceed—the productivity of in-person equivalents. Running a successful remote hackathon for distributed engineering teams requires attention to coordination, tooling, and most importantly, creating an environment where remote participants can collaborate effectively.
 
@@ -475,7 +474,6 @@ Share these metrics in the post-hackathon summary. Teams appreciate transparency
 **Solution:** Cap work hours at 30 actual coding hours per person (spread over 48-hour period with breaks). This prevents the all-nighter culture that destroys morale.
 
 ---
-
 
 
 ## Frequently Asked Questions

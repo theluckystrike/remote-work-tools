@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Practice for Remote Team Onboarding Wiki: Organizing First Week Tasks by Role
 
 A well-structured onboarding wiki transforms the chaotic first week of a new remote hire into a clear, actionable journey. Instead of scattered Slack messages and endless email chains, your team gets a single source of truth that scales across roles and time zones. This guide covers practical patterns for organizing first week tasks by role, with implementation details developers and power users can apply immediately.
 
@@ -214,7 +213,6 @@ Suggestions for improvement: ___________
 This approach transforms onboarding from a chaotic introduction into a structured, supportive experience that respects both the new hire's time and the team's resources.
 
 ---
-
 
 
 ## Frequently Asked Questions

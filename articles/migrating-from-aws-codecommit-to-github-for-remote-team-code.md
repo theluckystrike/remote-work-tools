@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Migrating from AWS CodeCommit to GitHub for Remote Team Code Hosting Guide
 
 Remote teams increasingly need collaboration features that AWS CodeCommit cannot fully provide. While CodeCommit served many organizations well, GitHub's pull request workflows, Actions automation, and ecosystem integrations make it a stronger choice for distributed development teams. This guide walks through the migration process with practical commands and configuration examples you can apply immediately.
 

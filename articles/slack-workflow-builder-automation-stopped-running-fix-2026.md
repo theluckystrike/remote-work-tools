@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Slack Workflow Builder Automation Stopped Running Fix 2026
 
 Slack Workflow Builder has become an essential tool for remote teams automating routine communications, approvals, and notifications. When your workflows suddenly stop running, it can disrupt critical processes across your distributed team. This guide provides practical troubleshooting steps to get your Slack automations back on track.
 

@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Thai Bank Account as Digital Nomad Working"
 description: "A practical guide for remote workers and digital nomads on opening a Thai bank account. Covers requirements, processes, and tips for foreigners"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Set Up Thai Bank Account as Digital Nomad Working Remotely
 
 Opening a Thai bank account as a digital nomad requires understanding the country's banking regulations and preparing the right documentation. This guide walks you through the practical steps to get a working Thai bank account while conducting remote work for international clients.
 
@@ -216,7 +215,6 @@ Thailand uses a calendar year (Jan 1-Dec 31) tax year. For digital nomads, under
 - Standard filing fee: 0 THB (free), but professional tax prep costs 500-2,000 THB
 
 Most remote developers remain non-residents by maintaining absences from Thailand during the year. Those planning 12+ month stays should consult with Thai tax professionals (available through expatriate accountants, $500-1,000 for full year planning).
-
 
 
 ## Frequently Asked Questions

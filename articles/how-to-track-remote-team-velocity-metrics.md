@@ -3,7 +3,7 @@ layout: default
 title: "How to Track Remote Team Velocity Metrics"
 description: "Learn practical methods for tracking remote team velocity metrics. Discover code examples, calculation approaches, and tools for measuring developer"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-track-remote-team-velocity-metrics/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Track Remote Team Velocity Metrics
 
 Track remote team velocity by measuring three complementary metrics: **sprint velocity** (story points completed per sprint), **cycle time** (days from work-item start to completion), and **throughput** (count of items completed per week). Collect this data automatically from your existing tools--GitHub Issues, Jira, or Linear--using webhook-triggered pipelines, then aggregate weekly to establish a reliable baseline after 4-6 sprints. Focus on completed deliverables rather than activity metrics like commits or hours online, which encourage performative work. This guide provides the Python calculation scripts, GitHub Actions pipeline, and dashboard setup to implement velocity tracking with minimal overhead.
 
@@ -221,7 +220,6 @@ For most remote teams, a minimal setup includes:
 4. Hold a monthly review to spot trends and discuss improvements
 
 You don't need expensive tools to track velocity effectively. A spreadsheet with the formulas above works well for teams under 20 people. As you scale, graduate to dedicated analytics tools that integrate with your existing workflow.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Time Tracking for Contractors and Freelancers Guide"
 description: "A practical guide to time tracking for contractors and freelancers. Learn setup methods, automation techniques, and tools for accurate billing"
 date: 2026-03-15
-last_modified_at: 2026-03-15
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /time-tracking-for-contractors-and-freelancers-guide/
 categories: [guides]
@@ -16,7 +16,6 @@ voice-checked: true
 
 
 {% raw %}
-# Time Tracking for Contractors and Freelancers Guide
 
 The most effective time tracking methods for contractors and freelancers are plain-text log files with a parsing script for simplicity, ActivityWatch for automatic activity detection, Git Time Metric for development-integrated tracking, and CLI tools like timetrap for quick session timers. Combine multiple methods for maximum accuracy, and use a reconciliation script weekly to catch unbilled hours before invoicing.
 
@@ -260,7 +259,6 @@ This outputs a clean invoice ready to send to clients.
 Start with the simplest method that fits your workflow. If you already use Git for development, add GTM and get time tracking with minimal behavior change. If you work across many applications, automatic tracking with ActivityWatch provides coverage. For pure simplicity, a CLI timer or even a text file works perfectly.
 
 The best time tracking system is the one you actually use consistently. Experiment with different approaches until you find the rhythm that works for your specific situation.
-
 
 
 ## Frequently Asked Questions

@@ -3,7 +3,7 @@ layout: default
 title: "Best Remote Team Async Daily Check In Format Replacing"
 description: "Learn the most effective async daily check-in format for remote teams. Replace synchronous standups with structured asynchronous updates that boost"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-remote-team-async-daily-check-in-format-replacing-standup-meetings/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# Best Remote Team Async Daily Check In Format Replacing Standup Meetings
 
 Synchronous daily standups were designed for co-located teams walking to a whiteboard. For distributed teams spanning time zones, these meetings often mean someone joins at 7 AM or 10 PM, and the "quick update" spirals into problem-solving sessions that could happen asynchronously. The solution is an async daily check-in format that captures the same information without scheduling conflicts.
 

@@ -14,7 +14,6 @@ tags: [remote-work-tools, best-of]
 ---
 
 {% raw %}
-# Best External Display for MacBook Air M4 Home Office Setup
 
 The MacBook Air M4 delivers impressive performance in a thin, lightweight design. However, for developers and remote workers who spend 8+ hours coding, a single 13-inch screen quickly becomes a productivity bottleneck. Adding an external display transforms your workspace, giving you room to spread out code, reference documentation, and manage communications simultaneously.
 
@@ -250,7 +249,6 @@ xrandr --output HDMI-1 --mode 2560x1440 --rate 144
 # Check if DisplayPort cable supports the target refresh rate
 # DP 1.4 = up to 4K@120Hz; DP 1.2 = up to 4K@60Hz or 1440p@165Hz
 ```
-
 
 
 ## Frequently Asked Questions

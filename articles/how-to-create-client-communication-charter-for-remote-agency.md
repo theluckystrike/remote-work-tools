@@ -3,7 +3,7 @@ layout: default
 title: "How to Create Client Communication Charter for Remote"
 description: "A practical guide to building a client communication charter that scales your remote agency. Includes templates, code examples, and implementation steps"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-client-communication-charter-for-remote-agency/
 categories: [guides]
@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# How to Create Client Communication Charter for Remote Agency Team
 
 Remote agencies face a unique challenge: clients expect the responsiveness of an in-house team but your team operates across time zones with asynchronous workflows. A client communication charter bridges this gap by establishing clear expectations, response times, and communication rhythms before projects begin.
 
@@ -276,7 +275,6 @@ Real-world projects have predictable disruptions. Build these into your charter 
 - **Team member absences**: Specify that PTO doesn't mean you abandon the client, but does mean someone covers with potentially longer response times
 
 Addressing these predictable events prevents clients from being surprised and frustrated when they occur.
-
 
 
 ## Frequently Asked Questions

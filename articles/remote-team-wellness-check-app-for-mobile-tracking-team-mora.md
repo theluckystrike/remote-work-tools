@@ -14,7 +14,6 @@ intent-checked: true
 voice-checked: true
 ---
 
-# Remote Team Wellness Check App for Mobile: Tracking Team Morale Anonymously in 2026
 
 Remote work has transformed how teams collaborate, but it has also created new challenges in understanding how team members actually feel. When you're not sharing physical space, subtle signs of burnout, disengagement, or declining morale can go unnoticed for weeks or months. This is where a remote team wellness check app becomes valuable—especially one designed for mobile use that allows team members to share their feelings anonymously.
 

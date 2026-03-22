@@ -3,7 +3,7 @@ layout: default
 title: "Slack Workspace Structure for a 50 Person Remote"
 description: "A practical guide to organizing Slack channels, access controls, and integrations for a 50-person distributed engineering team. Includes naming"
 date: 2026-03-16
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /slack-workspace-structure-for-a-50-person-remote-engineering/
 reviewed: true
@@ -16,7 +16,6 @@ tags: [remote-work-tools, remote-work]
 
 
 {% raw %}
-# Slack Workspace Structure for a 50 Person Remote Engineering Org
 
 Structure your 50-person engineering Slack workspace into three tiers: company-wide channels (#engineering, #incidents, #announcements), team channels with a `team-` prefix (#team-backend, #team-frontend), and temporary project channels with a `proj-` prefix. Default every channel to public, integrate GitHub and PagerDuty notifications, and enforce consistent naming conventions from day one. This guide covers the full setup with access controls, integration configs, and retention policies.
 
@@ -298,7 +297,6 @@ Phase 3: Norms and Governance
 [ ] Create #readme or #guide channel for Slack onboarding
 [ ] Schedule quarterly channel audits
 ```
-
 
 
 ## Frequently Asked Questions

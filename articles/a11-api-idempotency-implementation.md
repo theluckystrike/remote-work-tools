@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 {% raw %}
-# API Idempotency Implementation Guide for Distributed Systems
 
 Idempotency is a fundamental concept in API design that ensures the same request can be executed multiple times without producing different results. When implementing distributed systems, network failures, timeouts, and client retries can cause the same operation to be processed accidentally multiple times. Without proper idempotency handling, this leads to duplicate records, double charges, inconsistent state, and frustrated users.
 
@@ -416,7 +415,6 @@ class PaymentForm {
 ```
 
 This pattern ensures that button-spam and network retries all use the same idempotency key, while explicit user actions (clicking "cancel" and starting over) generate a fresh key.
-
 
 
 ## Frequently Asked Questions
