@@ -10,7 +10,7 @@ tags: [remote-work-tools, productivity, remote-work, automation, time-management
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 
 {% raw %}
