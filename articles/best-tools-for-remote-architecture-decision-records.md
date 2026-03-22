@@ -16,6 +16,18 @@ voice-checked: true---
 
 Architecture Decision Records (ADRs) solve a specific remote work problem: when you make a technical decision asynchronously, the reasoning evaporates unless it's written down. In 8 months, nobody remembers why you chose Kafka over RabbitMQ. This guide compares the three practical approaches for async ADR workflows in remote teams.
 
+## Key Takeaways
+
+- **Use GitHub Discussions if**: you want zero-setup, your team is already in GitHub all day, and you don't need structured browsing.
+- **Use Notion if**: non-technical stakeholders need to read or comment on ADRs, or your team already uses Notion for all documentation.
+- **A practical async review workflow:
+
+Step 1**: Author publishes the ADR as "Proposed" and posts in Slack with a clear deadline: "ADR-043: Use Redis for session storage.
+- **Use the "Deciders" field**: to track who needs to respond.
+- **The most common gap in ADR processes is step 4**: dissent gets handled in Slack and the ADR stays unchanged.
+- **Aurora Serverless v2 is compatible**: we can
+migrate to it if connection management becomes a burden.
+
 ## Option 1: Log4brains (In-Repo, Browsable)
 
 Log4brains stores ADRs as Markdown files in your repository and generates a browsable web interface. The decision history is version-controlled alongside the code that implements it.

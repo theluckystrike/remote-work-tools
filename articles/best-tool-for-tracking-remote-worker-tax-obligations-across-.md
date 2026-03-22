@@ -31,6 +31,15 @@ voice-checked: true---
 
 Remote workers across multiple US states create tax Nexus obligations that trigger withholding requirements, unemployment tax, and quarterly filing—varying by state. Tools like Skipped, Remotepal, and ADP Workforce Now automate state Nexus tracking and withholding calculations, with APIs for programmatic integration. This guide covers tax compliance automation, state-specific requirements, and implementation strategies for distributed payroll teams.
 
+## Key Takeaways
+
+- **Before the widespread shift**: to distributed work, most companies only needed to withhold taxes in states where they had physical presence.
+- **Several commercial and open-source**: solutions address these needs, each with different trade-offs around cost, accuracy, and integration complexity.
+- **The trade-off is reduced**: control and PEO pricing, which typically runs 2-8% of total payroll.
+- **For startups with remote**: workers in 5 or fewer states, Gusto provides the best cost-to-coverage ratio.
+- **Most states require employer**: registration before the first paycheck is issued to an employee in that state.
+- **Penalties typically range from**: 5% to 25% of the tax owed, plus interest.
+
 ## Understanding the Tax Compliance Challenge
 
 Remote work fundamentally changes how businesses approach state tax withholding. Before the widespread shift to distributed work, most companies only needed to withhold taxes in states where they had physical presence. Now, employees working from home in states where the employer has no presence can create tax Nexus—triggering withholding requirements, unemployment tax obligations, and quarterly filing responsibilities.

@@ -28,7 +28,17 @@ voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]---
 
 {% raw %}
+
 For remote teams, use markdown-based runbooks with embedded copy-to-clipboard commands stored in Git—this is the best balance of security, version control, and usability. Tools like Runwayml or custom scripts can display these in an UI with step-by-step validation; the copy-to-terminal model keeps commands out of unauthorized environments while still providing one-click access. Store runbooks in the same repo as infrastructure code so they stay synchronized, and embed variable substitution placeholders (e.g., `$ENVIRONMENT`) that team members fill in before executing commands.
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **For remote teams**: use markdown-based runbooks with embedded copy-to-clipboard commands stored in Git—this is the best balance of security, version control, and usability.
+- **Limitations**: Steeper learning curve; requires infrastructure changes (agent deployment on servers); free tier limited to single cluster.
+- **Run Migration ```bash psql**: -h $DB_HOST -U $DB_USER -d $DB_NAME < migrations/001_add_users_table.sql ``` Success: Table created, no errors in output.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Environment variables**: integration with secret managers, and scoped credentials all matter for production use.
 
 ## What Makes Runbooks Interactive
 
