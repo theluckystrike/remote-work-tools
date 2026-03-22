@@ -11,8 +11,7 @@ tags: [remote-work-tools, freelance, networking, career, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 
 {% raw %}

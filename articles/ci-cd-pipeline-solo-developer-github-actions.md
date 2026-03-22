@@ -12,6 +12,20 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
+---
+layout: default
+title: "CI/CD Pipeline for Solo Developers: GitHub Actions"
+description: "Set up a complete CI/CD pipeline as a solo developer using GitHub Actions. Covers linting, testing, Docker builds, and automated deploys to a VPS or cloud."
+date: 2026-03-21
+author: theluckystrike
+permalink: /ci-cd-pipeline-solo-developer-github-actions/
+categories: [guides]
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools]
+---
 
 {% raw %}
 

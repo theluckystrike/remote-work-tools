@@ -11,8 +11,7 @@ tags: [remote-work-tools, vpn, remote-work, thailand, geo-restrictions, security
 score: 8
 voice-checked: true
 reviewed: true
-intent-checked: true
----
+intent-checked: true---
 
 {% raw %}
 

@@ -10,8 +10,7 @@ tags: [remote-work-tools, solidity, smart-contracts, remote-work, audits, blockc
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

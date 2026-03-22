@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Review assignment logic (example)"
-description: "Code review workflow for a 6-person remote backend team: PR size limits, reviewer rotation, async feedback loops, and merge queue configuration."
+description: "A practical guide to implementing efficient code review processes for distributed backend teams of 6 developers"
 date: 2026-03-16
 last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -13,7 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, workflow, remote-work]
 ---
-
+---
+layout: default
+title: "Review assignment logic (example)"
+description: "A practical guide to implementing efficient code review processes for distributed backend teams of 6 developers"
+date: 2026-03-16
+last_modified_at: 2026-03-16
+author: "Remote Work Tools Guide"
+permalink: /code-review-workflow-for-a-remote-backend-team-of-6-develope/
+reviewed: true
+score: 9
+categories: [guides]
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, workflow, remote-work]
+---
 
 Implement a rotation-based review assignment system to prevent bottlenecks, split reviews into feature (two approvals) and hotfix (one approval) categories, and use async code review practices with timezone-aware SLAs. Set up GitHub branch protection rules to enforce review requirements and automate notifications through Slack to maintain responsiveness across distributed team schedules.
 

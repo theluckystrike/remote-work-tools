@@ -11,8 +11,7 @@ tags: [remote-work-tools, figma, design-systems, remote-work, collaboration]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

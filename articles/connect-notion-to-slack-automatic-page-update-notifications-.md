@@ -15,7 +15,6 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-
 Connecting Notion to Slack for automatic page update notifications keeps your team informed when important documents change without requiring manual checks. This guide walks through three practical approaches: using Notion's native Slack integration, building a custom solution with the Notion API, and using webhook-based automation tools. Each method suits different technical requirements and team workflows.
 
 ## Why Connect Notion to Slack

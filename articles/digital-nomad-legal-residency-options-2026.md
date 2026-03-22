@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Digital Nomad Legal Residency Options 2026: Complete Guide"
-description: "Digital nomad visa and residency programs in 2026: Portugal, Estonia, Thailand, and 12 more countries with tax rules and application timelines."
+description: "A guide to legal residency options for digital nomads in 2026. Explore visa programs, tax implications, and practical pathways for location-independent"
 date: 2026-03-15
 last_modified_at: 2026-03-15
 author: "theluckystrike"

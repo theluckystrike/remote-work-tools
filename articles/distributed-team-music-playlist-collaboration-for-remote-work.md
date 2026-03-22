@@ -13,6 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work, collaboration]
 ---
+---
+layout: default
+title: "Post new team playlist additions to Slack every 4 hours"
+description: "Discover the best tools and strategies for creating shared music playlists that remote teams can enjoy together, boosting morale and connection across"
+date: 2026-03-17
+last_modified_at: 2026-03-17
+author: "Remote Work Tools Guide"
+permalink: /distributed-team-music-playlist-collaboration-for-remote-work/
+reviewed: true
+score: 9
+categories: [guides]
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work, collaboration]
+---
 
 {% raw %}
 

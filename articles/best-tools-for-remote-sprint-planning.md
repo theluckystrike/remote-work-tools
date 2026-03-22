@@ -10,18 +10,11 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
 Sprint planning in remote teams fails when it tries to replicate in-person planning ceremonies over video. A 2-hour Zoom call with 8 engineers estimating stories one by one is exhausting and ineffective. Async-first sprint planning — with a short synchronous alignment call at the end — works better. This guide covers the tools and the workflow.
-
-## Tool 1: Linear
-
-Linear is the best choice for engineering-focused remote teams that want speed and simplicity.
-- **Async planning in Jira:**: Use Jira's Planning Board (formerly Backlog view): ``` Before sprint start: 1.
-- **Use Jira's Story Points**: field for estimates 5.
 
 ## The Async-First Sprint Planning Workflow
 

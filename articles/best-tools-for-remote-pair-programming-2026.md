@@ -11,12 +11,11 @@ tags: [remote-work-tools, tools, best-of, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true
----
+intent-checked: true---
 
 {% raw %}
-## The Pair Programming Problem
 
+## The Pair Programming Problem
 
 Remote pair programming is harder than in-office. You need:
 - **Low-latency code sharing** (millisecond updates)
@@ -26,7 +25,6 @@ Remote pair programming is harder than in-office. You need:
 
 Most tools claim to solve this. Most fail at scale. This guide separates the winners from the pretenders.
 ---
-
 
 ## VS Code Live Share: Free, Solid, Works Everywhere
 
