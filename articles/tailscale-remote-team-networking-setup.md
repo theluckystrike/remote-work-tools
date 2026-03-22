@@ -42,7 +42,17 @@ For remote teams, Tailscale replaces the classic VPN setup with something that w
 - Use device posture checks.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Install on All Platforms
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Install on All Platforms
 
 ```bash
 # macOS
@@ -72,7 +82,7 @@ docker run -d \
   tailscale/tailscale
 ```
 
-## Authenticate and Start
+### Step 2: Authenticate and Start
 
 ```bash
 # Start Tailscale and open browser to authenticate
@@ -96,7 +106,7 @@ ssh ubuntu@100.64.0.5
 ssh ubuntu@my-dev-server
 ```
 
-## Enable MagicDNS and HTTPS
+### Step 3: Enable MagicDNS and HTTPS
 
 MagicDNS assigns each device a DNS name like `device-name.tail1234.ts.net`:
 
@@ -116,7 +126,7 @@ tailscale cert staging-app.tail1234.ts.net
 # Outputs cert.pem and key.pem in current directory
 ```
 
-## Configure ACLs (Access Control Lists)
+### Step 4: Configure ACLs (Access Control Lists)
 
 ACLs control which devices can reach which. By default, all devices on a tailnet can reach each other. For teams, restrict access:
 
@@ -183,7 +193,7 @@ Tag a device when authenticating:
 sudo tailscale up --authkey tskey-auth-XXXXXX --advertise-tags tag:dev-server
 ```
 
-## Set Up Subnet Routes
+### Step 5: Set Up Subnet Routes
 
 Subnet routes let Tailscale nodes access private subnets — for example, your AWS VPC or office LAN — without installing Tailscale on every machine in the subnet.
 
@@ -207,7 +217,7 @@ tailscale status
 # Shows subnet routers with the routes they advertise
 ```
 
-## Exit Nodes
+### Step 6: Exit Nodes
 
 An exit node routes all internet traffic for a device through a Tailscale node — equivalent to a VPN exit point.
 
@@ -229,7 +239,7 @@ sudo tailscale up --exit-node=
 curl https://ipinfo.io
 ```
 
-## Tailscale SSH (Replace SSH Key Management)
+### Step 7: Tailscale SSH (Replace SSH Key Management)
 
 Tailscale SSH uses your Tailscale identity instead of SSH keys. No more distributing authorized_keys files:
 
@@ -268,7 +278,7 @@ Enable Tailscale SSH in ACL policy:
 }
 ```
 
-## Running Tailscale on Servers at Boot
+### Step 8: Run Tailscale on Servers at Boot
 
 ```bash
 # systemd service is installed automatically via the install script
@@ -283,7 +293,7 @@ sudo tailscale up --authkey tskey-auth-XXXXXX --advertise-tags tag:dev-server
 sudo tailscale up --authkey tskey-auth-XXXXXX --ephemeral
 ```
 
-## Tailscale vs. Traditional VPN for Remote Teams
+### Step 9: Tailscale vs. Traditional VPN for Remote Teams
 
 Many teams migrate from OpenVPN or WireGuard to Tailscale for good reasons, but understanding the tradeoffs before committing helps you avoid surprises.
 
@@ -295,7 +305,7 @@ For a remote team of 10–50 people, Tailscale's Teams plan (around $6/user/mont
 
 One area where traditional VPNs still win: regulatory environments that require traffic inspection. Tailscale encrypts end-to-end with WireGuard, so a middlebox cannot inspect payloads. If your compliance posture requires deep packet inspection of internal traffic, complement Tailscale with application-layer logging rather than relying on network-layer inspection.
 
-## Integrating Tailscale with CI/CD Pipelines
+### Step 10: Integrate Tailscale with CI/CD Pipelines
 
 One underused pattern is adding Tailscale to CI runners so they can reach private staging infrastructure without opening firewall ports to the internet.
 
@@ -350,7 +360,7 @@ MagicDNS injects `100.100.100.100` as a DNS resolver. Some Linux distributions o
 
 Run `tailscale ping --until-direct <hostname>` to check whether the connection is direct or relayed through DERP. If relayed, the most common causes are symmetric NAT on both endpoints (common on mobile carriers and some corporate firewalls) or mismatched UDP port availability. Check that UDP port 41641 is allowed outbound on both firewalls.
 
-## Pro Tips for Team Administration
+### Step 11: Pro Tips for Team Administration
 
 Keep auth keys short-lived. Generate separate auth keys for each device class (workstations, servers, CI) with expirations of 30–90 days. This limits blast radius if a key leaks and forces periodic re-authentication, which is good hygiene regardless of security incidents.
 

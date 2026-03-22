@@ -42,7 +42,17 @@ This guide provides concrete strategies to build employer branding that attracts
 - **Take as long as**: you need within a 7-day window.
 - **Best of luck in**: your search, [Your Name] ``` This investment in feedback spreads positive word-of-mouth—even among candidates you don't hire.
 
-## Understanding Employer Brand in a Remote Context
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Employer Brand in a Remote Context
 
 Employer brand encompasses how potential candidates perceive your company as a workplace. For remote teams, this extends beyond benefits and salary. It includes your async communication culture, documentation quality, tooling choices, and how you handle distributed collaboration.
 
@@ -56,7 +66,7 @@ Developers evaluate remote employers through visible signals:
 
 Your brand exists whether you actively build it or not. Every PR review comment, every Slack message, every decision your team makes publicly contributes to your employer brand.
 
-## Strategy 1: Make Your Engineering Culture Visible
+### Step 2: Strategy 1: Make Your Engineering Culture Visible
 
 Developers want to see how your team actually works before applying. Create transparent windows into your engineering culture through multiple channels.
 
@@ -65,7 +75,7 @@ Developers want to see how your team actually works before applying. Create tran
 Start with your README files. Every repository should include:
 
 ```markdown
-## Development Environment Setup
+### Step 3: Development Environment Setup
 
 This project requires:
 - Node.js 20.x
@@ -101,7 +111,7 @@ Publish regularly about technical decisions, challenges, and learnings. Topics t
 - **Tool comparisons** documenting your tech stack choices
 - **Career path frameworks** showing growth opportunities
 
-## Strategy 2: Build a Talent Attraction Engine
+### Step 4: Strategy 2: Build a Talent Attraction Engine
 
 Reactive hiring—posting jobs and waiting for applicants—fails at scale. Build systems that attract talent proactively.
 
@@ -126,7 +136,7 @@ Create content where developers already spend time:
 
 Each piece of content extends your reach and signals expertise.
 
-## Strategy 3: Create Compelling Candidate Experiences
+### Step 5: Strategy 3: Create Compelling Candidate Experiences
 
 Your interview process is part of your employer brand. Every interaction shapes how candidates perceive your company.
 
@@ -135,7 +145,7 @@ Your interview process is part of your employer brand. Every interaction shapes 
 Publish your complete interview process:
 
 ```markdown
-## Engineering Interview Process
+### Step 6: Engineering Interview Process
 
 ### Stage 1: Portfolio Review (30 min)
 We review your GitHub profile, open source contributions, and any published technical content. No call needed—we evaluate asynchronously.
@@ -180,7 +190,7 @@ Best of luck in your search,
 
 This investment in feedback spreads positive word-of-mouth—even among candidates you don't hire.
 
-## Strategy 4: Measure Your Employer Brand
+### Step 7: Strategy 4: Measure Your Employer Brand
 
 You cannot improve what you don't measure. Build metrics into your talent acquisition funnel.
 
@@ -229,7 +239,7 @@ Every quarter, review these signals:
 3. **Interview drop-off rates** - Identify process friction
 4. **Competing offers** - Track which companies candidates choose instead
 
-## Strategy 5: Build Internal Brand Advocates
+### Step 8: Strategy 5: Build Internal Brand Advocates
 
 Your current employees are your most powerful recruitment tool. Give them resources to represent your brand authentically.
 
@@ -238,7 +248,7 @@ Your current employees are your most powerful recruitment tool. Give them resour
 Create a public advocacy guide:
 
 ```markdown
-## Speaking and Sharing Guidelines
+### Step 9: Speaking and Sharing Guidelines
 
 We encourage team members to:
 - Write about technical challenges and learnings
@@ -263,7 +273,7 @@ We encourage team members to:
 
 This enablement generates authentic content that no marketing team can replicate.
 
-## Implementation Roadmap
+### Step 10: Implementation Roadmap
 
 Building employer brand takes time. Prioritize actions by impact:
 
@@ -283,6 +293,21 @@ Building employer brand takes time. Prioritize actions by impact:
 - Set up developer community presence
 - Build 12-month content calendar
 - Track cNPS and iterate on interview process
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

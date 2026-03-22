@@ -41,7 +41,17 @@ Transit benefits for hybrid employees let you pay for commuting costs with pre-t
 - **Hybrid schedules break that**: assumption—a two-day-per-week schedule means you use the transit system 8-10 times per month instead of 20-22 times.
 - **Employers also save 7.65%**: in employer FICA contributions on the benefit amount, which is why many employers actively encourage enrollment—it reduces their payroll tax obligation as well.
 
-## Understanding Transit Benefit Programs
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Transit Benefit Programs
 
 Most organizations with hybrid policies offer some form of commuter benefits, typically through pre-tax deduction programs. These programs let you allocate a portion of your paycheck before taxes to qualified transit expenses, reducing your taxable income while covering work-related commuting costs.
 
@@ -61,7 +71,7 @@ This shift matters because some transit systems price passes based on the assump
 
 The pre-tax benefit remains valuable regardless of which pass format you choose. The savings come from avoiding income tax on the dollars used for transit, not from the pass type itself.
 
-## Calculating Your Actual Savings
+### Step 2: Calculating Your Actual Savings
 
 Understanding your real savings requires a simple calculation that accounts for your marginal tax rate. The math matters because benefit amounts appear smaller than actual value when you factor in tax avoidance.
 
@@ -118,7 +128,7 @@ Most employees focus on income tax savings when evaluating transit benefits, but
 
 For a developer at $130,000 income, this brings total monthly savings on a $300 transit benefit closer to $90-95 per month, not the $75 estimate based on income tax alone. Employers also save 7.65% in employer FICA contributions on the benefit amount, which is why many employers actively encourage enrollment—it reduces their payroll tax obligation as well.
 
-## Maximizing Your Transit Benefit
+### Step 3: Maximizing Your Transit Benefit
 
 ### 1. Choose the Right Pass Type
 
@@ -176,7 +186,7 @@ log_expense "March 2026 Monthly Pass" "127.00"
 log_expense "Vanpool February" "85.00"
 ```
 
-## Optimizing Your Commute for Productivity
+### Step 4: Optimizing Your Commute for Productivity
 
 Transit time represents "found hours" that developers can use productively. Here's how to make the most of your commute:
 
@@ -230,7 +240,7 @@ If you occasionally need to drive, check whether your parking expenses qualify f
 **5. Letting unused balances expire**
 Some benefit programs have rollover limits or use-it-or-lose-it rules at year-end. Check your program's rules and adjust your monthly contribution in Q4 if you have accumulated balances that will not be used before the reset date.
 
-## Regional Considerations
+### Step 5: Regional Considerations
 
 Transit benefits vary significantly by location:
 
@@ -242,7 +252,7 @@ Transit benefits vary significantly by location:
 
 International examples include London's Oyster card (contactless), Paris's Navigo, and Germany's Deutschlandticket—all potentially eligible depending on your employer's program. The Deutschlandticket at approximately €49/month is particularly compelling for hybrid workers in Germany because it covers all local and regional transit nationwide, meaning occasional trips to other cities for team meetups are covered under the same benefit.
 
-## Implementation Checklist
+### Step 6: Implementation Checklist
 
 Before your next open enrollment period:
 
@@ -254,6 +264,21 @@ Before your next open enrollment period:
 - [ ] Set up mobile apps for your transit system
 - [ ] Create expense tracking system for documentation
 - [ ] Check for rollover limits and year-end balance rules in your specific program
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

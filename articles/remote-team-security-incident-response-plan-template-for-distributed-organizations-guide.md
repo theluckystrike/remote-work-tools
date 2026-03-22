@@ -55,7 +55,17 @@ A distributed organization needs an incident response plan that:
 
 Without this structure, incidents escalate because nobody knows who's responsible, or worse—multiple people duplicate efforts while critical tasks fall through the cracks.
 
-## Incident Severity Classification
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Incident Severity Classification
 
 Before defining workflows, establish clear severity levels. This prevents over-response to minor issues and under-response to critical incidents.
 
@@ -99,7 +109,7 @@ severity_levels:
       - "Security scan findings"
 ```
 
-## The Incident Response Workflow
+### Step 2: The Incident Response Workflow
 
 ### Phase 1: Detection and Triage (0-15 minutes)
 
@@ -187,7 +197,7 @@ Next: Awaiting forensics assignment." | \
 For remote teams, investigation documentation is critical because your teammates might be asleep when you discover the issue. Everything should be traceable from the incident record.
 
 ```
-## Incident Investigation Template
+### Step 3: Incident Investigation Template
 
 ### What We Know So Far
 [Document confirmed facts with timestamps]
@@ -217,7 +227,7 @@ For remote teams, investigation documentation is critical because your teammates
 After containment and investigation, document the resolution and conduct a post-incident review. For distributed teams, this review should happen asynchronously to give everyone time to contribute thoughtful input.
 
 ```markdown
-## Post-Incident Review Template
+### Step 4: Post-Incident Review Template
 
 ### Incident Overview
 **What happened?**
@@ -252,7 +262,7 @@ After containment and investigation, document the resolution and conduct a post-
 [Any process or tooling improvements that emerged]
 ```
 
-## Communication Templates for Distributed Teams
+### Step 5: Communication Templates for Distributed Teams
 
 ### Initial Alert Message
 
@@ -284,7 +294,7 @@ Updates will be posted here. Full details in incident doc: [Link]
 **Questions?**: Reply in thread or DM @responder
 ```
 
-## Key Automation Recommendations
+### Step 6: Key Automation Recommendations
 
 For remote teams, automation reduces the burden of incident response and ensures consistent handling:
 
@@ -293,13 +303,28 @@ For remote teams, automation reduces the burden of incident response and ensures
 3. Runbook linking: Map alerts to relevant runbooks so responders know what to do immediately
 4. Timeline logging: Automatically log all actions to the incident timeline to maintain the audit trail
 
-## Testing Your Plan
+### Step 7: Test Your Plan
 
 A plan that isn't tested is just a document. For distributed teams, test your incident response through:
 
 - Tabletop exercises: Run through scenarios async in your incident channel, with team members responding as they would during an actual incident
 - On-call rotations: Actually page people at odd hours to test your escalation paths
 - Automation drills: Verify that your automated workflows actually trigger correctly
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

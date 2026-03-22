@@ -38,7 +38,17 @@ This guide covers the complete team setup: server installation, peer key managem
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 - **Topics covered**: architecture, server setup, peer management script
 
-## Architecture
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Architecture
 
 ```
 VPS / Server (wg server)
@@ -56,7 +66,7 @@ Access control:
   Split tunnel: only 10.8.0.0/24 routes through VPN (not all internet traffic)
 ```
 
-## Server Setup
+### Step 2: Server Setup
 
 ```bash
 # Install WireGuard on Ubuntu 22.04
@@ -104,7 +114,7 @@ sudo systemctl start wg-quick@wg0
 sudo wg show
 ```
 
-## Peer Management Script
+### Step 3: Peer Management Script
 
 Managing keys manually gets error-prone at team scale. This script generates peer configs and appends them to the server config:
 
@@ -177,7 +187,7 @@ sudo /opt/wireguard/add-peer.sh alex-laptop 10.8.0.4
 sudo /opt/wireguard/add-peer.sh ci-runner 10.8.0.5
 ```
 
-## Revoke a Peer
+### Step 4: Revoke a Peer
 
 ```bash
 #!/bin/bash
@@ -219,7 +229,7 @@ sudo mv "${PEERS_DIR}" "${PEERS_DIR}.revoked"
 echo "Peer '${PEER_NAME}' removed. Access revoked immediately."
 ```
 
-## Client Setup: macOS
+### Step 5: Client Setup: macOS
 
 ```bash
 # Install WireGuard
@@ -238,7 +248,7 @@ sudo wg-quick down wg0
 sudo wg show
 ```
 
-## Client Setup: Linux
+### Step 6: Client Setup: Linux
 
 ```bash
 # Install WireGuard
@@ -260,7 +270,7 @@ sudo wg-quick down wg0
 sudo systemctl enable wg-quick@wg0
 ```
 
-## Client Setup: Windows
+### Step 7: Client Setup: Windows
 
 ```
 1. Download WireGuard installer from wireguard.com
@@ -269,7 +279,7 @@ sudo systemctl enable wg-quick@wg0
 4. Click "Activate" to connect
 ```
 
-## Split Tunnel vs Full Tunnel
+### Step 8: Split Tunnel vs Full Tunnel
 
 The `AllowedIPs` setting in the client config controls what traffic routes through the VPN:
 
@@ -293,7 +303,7 @@ AllowedIPs = 0.0.0.0/0, ::/0
 - All outbound traffic must originate from a fixed IP (client requirements, third-party services)
 - Security policy requires all traffic to be inspected
 
-## Monitor Active Connections
+### Step 9: Monitor Active Connections
 
 ```bash
 # On the server: show connected peers and last handshake
@@ -309,6 +319,21 @@ sudo wg show
 # List all peers with names (from comments in wg0.conf)
 grep -A1 "# " /etc/wireguard/wg0.conf | grep -E "# |PublicKey"
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

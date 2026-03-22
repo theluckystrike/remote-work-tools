@@ -40,7 +40,17 @@ This guide covers practical tmux configuration: a solid `~/.tmux.conf`, session 
 - **If your distro ships an older version**: build from source or use a package manager like asdf.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Install tmux
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Install tmux
 
 On most Linux servers:
 
@@ -60,7 +70,7 @@ tmux -V
 
 tmux 3.3+ adds popup windows and better mouse handling. If your distro ships an older version, build from source or use a package manager like asdf.
 
-## A Practical ~/.tmux.conf
+### Step 2: A Practical ~/.tmux.conf
 
 Start with a configuration that makes daily use comfortable. Create or replace `~/.tmux.conf`:
 
@@ -144,7 +154,7 @@ set -g @continuum-save-interval '15'
 run '~/.tmux/plugins/tpm/tpm'
 ```
 
-## Install tmux Plugin Manager (TPM)
+### Step 3: Install tmux Plugin Manager (TPM)
 
 ```bash
 # Clone TPM
@@ -163,7 +173,7 @@ tmux new-session -s main
 # Ctrl-a + alt-u
 ```
 
-## Session Management Patterns
+### Step 4: Session Management Patterns
 
 For remote development, organize work into named sessions per project:
 
@@ -191,7 +201,7 @@ tmux kill-session -t infra
 tmux kill-session -a
 ```
 
-## Window and Pane Layouts
+### Step 5: Window and Pane Layouts
 
 A typical development layout uses 3 panes: editor, terminal, and logs.
 
@@ -225,7 +235,7 @@ EOF
 chmod +x ~/bin/dev-layout.sh
 ```
 
-## SSH Persistence with tmux
+### Step 6: SSH Persistence with tmux
 
 The core benefit for remote developers: sessions survive disconnects.
 
@@ -249,7 +259,7 @@ ssh -t user@server.example.com "tmux attach -t work || tmux new-session -s work"
 
 With `tmux-resurrect` and `tmux-continuum` installed, your sessions also survive server reboots — the plugin saves pane contents and running processes, then restores them on `tmux attach`.
 
-## Useful Key Bindings Reference
+### Step 7: Useful Key Bindings Reference
 
 With the config above (prefix = `Ctrl-a`):
 
@@ -268,7 +278,7 @@ With the config above (prefix = `Ctrl-a`):
 | Search in buffer | `prefix + [` then `/` |
 | Reload config | `prefix + r` |
 
-## Copy Mode and Clipboard
+### Step 8: Copy Mode and Clipboard
 
 For copying text from the terminal buffer with `tmux-yank`:
 
@@ -304,6 +314,21 @@ setw -g monitor-activity off
 # set -g mouse off
 # This reduces the amount of data sent between server and client
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

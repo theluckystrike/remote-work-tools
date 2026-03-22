@@ -40,13 +40,23 @@ The most effective time tracking methods for contractors and freelancers are pla
 - **Tools like ActivityWatch (open**: source) run in the background and log window titles, active applications, and idle time.
 - **Use automatic activity tracking**: as a background safety net, manual timers for billable client work, and Git-based tracking for development tasks.
 
-## The Business Case for Precise Time Tracking
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Business Case for Precise Time Tracking
 
 Every hour you fail to track is an hour you cannot bill. For contractors and freelancers, time equals revenue directly. Unlike salaried employees where hours blend together, your time has explicit monetary value. Clients expect detailed invoices with breakdown by task or project. Accurate time records protect both you and your client from disputes about billed hours.
 
 Beyond invoicing, time tracking reveals patterns in your work. You discover which tasks consume more time than estimated, identify your peak productivity hours, and make data-driven decisions about pricing and project scoping.
 
-## Manual Time Tracking Methods
+### Step 2: Manual Time Tracking Methods
 
 For developers who prefer simplicity, plain text files work surprisingly well. Create a timestamped log using a simple format:
 
@@ -82,7 +92,7 @@ print(f"Total hours: {parse_time_log('time.log'):.2f}")
 
 This approach requires discipline but gives you complete control over your data. No subscriptions, no cloud services, no vendor lock-in.
 
-## Automated Time Tracking with Activity Detection
+### Step 3: Automated Time Tracking with Activity Detection
 
 For developers who forget to start timers, automatic activity tracking fills the gap. Tools like ActivityWatch (open source) run in the background and log window titles, active applications, and idle time.
 
@@ -117,7 +127,7 @@ The watcher captures window titles which you can map to projects. Create a mappi
 
 This generates detailed reports showing exactly where your time goes. Export data weekly to generate client-ready invoices.
 
-## Git-Based Time Tracking for Developers
+### Step 4: Git-Based Time Tracking for Developers
 
 Since developers already use Git constantly, tracking time through commit messages integrates naturally into existing workflows. Tools like Git Time Metric (GTM) attach time spent to each file automatically.
 
@@ -163,7 +173,7 @@ Output shows time spent per file:
 
 Combine this with client or project-based repositories to separate billing categories cleanly.
 
-## Command-Line Timers for Quick Sessions
+### Step 5: Command-Line Timers for Quick Sessions
 
 When you need a quick timer without full automation, command-line tools provide instant feedback. The `timer` command (available via Homebrew) offers simple countdown and stopwatch functionality:
 
@@ -238,7 +248,7 @@ for issue in issues:
 
 Run this weekly to ensure your billing stays accurate.
 
-## Data Export and Invoice Generation
+### Step 6: Data Export and Invoice Generation
 
 Once tracking is in place, generate invoices from your data. Most tools support CSV or JSON export. Create a simple invoice generator:
 
@@ -275,11 +285,26 @@ print(generate_invoice(entries, 150, "Acme Corp"))
 
 This outputs a clean invoice ready to send to clients.
 
-## Choosing Your Tracking Approach
+### Step 7: Choose Your Tracking Approach
 
 Start with the simplest method that fits your workflow. If you already use Git for development, add GTM and get time tracking with minimal behavior change. If you work across many applications, automatic tracking with ActivityWatch provides coverage. For pure simplicity, a CLI timer or even a text file works perfectly.
 
 The best time tracking system is the one you actually use consistently. Experiment with different approaches until you find the rhythm that works for your specific situation.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

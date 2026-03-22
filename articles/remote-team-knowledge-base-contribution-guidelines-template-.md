@@ -18,14 +18,24 @@ Remote teams lose the informal knowledge transfer that happens in offices. When 
 
 Guidelines also maintain consistency. Without them, your knowledge base becomes a collection of inconsistent formats, terminology, and quality levels. The engineer who writes 1000-word deep dives creates different expectations than one who writes quick 200-word tips. Guidelines create a coherent user experience.
 
-## Template Overview: Documentation Contribution Guidelines
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Template Overview: Documentation Contribution Guidelines
 
 This section provides a customizable template your team can adapt:
 
 ```markdown
 # Knowledge Base Contribution Guidelines
 
-## Purpose and Scope
+### Step 2: Purpose and Scope
 
 This knowledge base documents [your team/org/project] technical knowledge, procedures, and decision records. It's the single source of truth for how we work, why we made certain choices, and how to handle common situations.
 
@@ -33,14 +43,14 @@ Good contributions answer: "How do we do X?" or "Why did we choose Y?" or "What 
 
 Avoid: Personal opinions, outdated procedures, or information that belongs in project management tools.
 
-## Before You Contribute
+### Step 3: Before You Contribute
 
 1. Check if documentation already exists (search the KB or ask #tech-questions)
 2. Identify the right category for your content
 3. Review one existing article in that category to match style and format
 4. Draft your content—don't worry about perfection
 
-## Article Structure
+### Step 4: Article Structure
 
 Every article should follow this structure:
 
@@ -60,7 +70,7 @@ A concrete example that shows the concept in action.
 What errors do people make? What shouldn't they do?
 
 #
-## Style Guidelines
+### Step 5: Style Guidelines
 
 - Write in active voice: "Click the button" not "The button should be clicked"
 - Use second person: "You can fix this by..." not "Developers can fix this by..."
@@ -69,7 +79,7 @@ What errors do people make? What shouldn't they do?
 - Code examples should be copy-paste ready and tested
 - Avoid jargon unless essential; if essential, define it
 
-## Naming Conventions
+### Step 6: Naming Conventions
 
 Articles use clear, action-oriented titles:
 - Good: "How to Configure Environment Variables for Local Development"
@@ -79,7 +89,7 @@ Use hyphens for article filenames, lowercase:
 - `how-to-debug-api-errors-with-curl-requests.md`
 - `setup-steps-for-postgres-development-environment.md`
 
-## Front Matter Template
+### Step 7: Front Matter Template
 
 Every article needs metadata:
 
@@ -94,7 +104,7 @@ estimated_read_time: "5 minutes"
 ---
 ```
 
-## Review and Publishing Process
+### Step 8: Review and Publishing Process
 
 1. Write your draft in a shared doc or branch
 2. Post in #documentation with "Review requested" label
@@ -105,7 +115,7 @@ estimated_read_time: "5 minutes"
 
 The review should take 15 minutes. Don't block on perfection—good documentation published is better than perfect documentation never written.
 
-## Categories and When to Use Them
+### Step 9: Categories and When to Use Them
 
 | Category | Purpose | Example |
 |----------|---------|---------|
@@ -115,7 +125,7 @@ The review should take 15 minutes. Don't block on perfection—good documentatio
 | Reference | Tools, APIs, configurations | "Slack Integration API Reference" |
 | Onboarding | Getting new people productive | "First Day Setup Checklist" |
 
-## Content Decay and Updates
+### Step 10: Content Decay and Updates
 
 Articles need maintenance. If you're reading an article and something's outdated:
 
@@ -126,7 +136,7 @@ Articles need maintenance. If you're reading an article and something's outdated
 Every 6 months, the documentation owner audits articles and marks which need updating. If no one updates it within 2 weeks, it gets archived.
 ```
 
-## Handling Contribution Obstacles
+### Step 11: Handling Contribution Obstacles
 
 ### "I Don't Have Time to Write"
 
@@ -152,7 +162,7 @@ This is a real demotivator. Create visibility: in your weekly team updates, high
 
 Build feedback loops. Comment on articles you found helpful: "This saved me an hour yesterday, thanks." This recognition matters more than you might expect.
 
-## Building Feedback Loops
+### Step 12: Build Feedback Loops
 
 Recognition matters more than you might expect. Consider implementing simple systems that acknowledge contributions:
 
@@ -172,7 +182,7 @@ Strategies to increase visibility:
 - Reference articles in retrospectives when discussing how to prevent recurring issues
 - Post new articles in a #documentation-updates channel for visibility
 
-## Common Organizational Pitfalls
+### Step 13: Common Organizational Pitfalls
 
 **Over-categorization** creates 20+ categories that mirrors your org chart but confuses users. Start with 5-7 broad categories and let content naturally gravitate toward themes.
 
@@ -182,14 +192,14 @@ Strategies to increase visibility:
 
 **Ignoring search patterns**. Most wiki platforms log search queries. Review "no results" searches monthly—these show documentation gaps. If three people search for "database backup procedure" and find nothing, you need that article.
 
-## Practical Templates: Starting Points
+### Step 14: Practical Templates: Starting Points
 
 ### Quick Reference Template (Use for procedural docs)
 
 ```markdown
 # [Tool/Process Name]
 
-## Quick Start
+### Step 15: Quick Start
 [3 steps maximum to get started]
 
 ## Common Issues
@@ -206,14 +216,14 @@ Strategies to increase visibility:
 ```markdown
 # Fixing [Problem]
 
-## Symptoms
+### Step 16: Symptoms
 [What does the problem look like?]
 
-## Root Causes (Quick Diagnosis)
+### Step 17: Root Causes (Quick Diagnosis)
 - Cause A: Check for [signal]
 - Cause B: Check for [signal]
 
-## Fixes by Cause
+### Step 18: Fixes by Cause
 
 ### Cause A
 [Steps to fix]
@@ -230,27 +240,27 @@ Strategies to increase visibility:
 ```markdown
 # How to [Action] for [Context]
 
-## Before You Start
+### Step 19: Before You Start
 [Prerequisites, things to have ready]
 
-## Step-by-Step
+### Step 20: Step-by-Step
 
 1. [First step]
 2. [Second step]
    - [Substep if needed]
 3. [Continue...]
 
-## Real World Example
+### Step 21: Real World Example
 [Screenshot or code showing real usage]
 
-## What to Do If Something Goes Wrong
+### Step 22: What to Do If Something Goes Wrong
 [Troubleshooting specific to this process]
 
 ## Next Steps
 [What to do after completing this]
 ```
 
-## Tools for Managing Contribution Guidelines
+### Step 23: Tools for Managing Contribution Guidelines
 
 ### Platform-Specific Implementation
 
@@ -291,19 +301,19 @@ Create a database with:
 - Search Keywords: Text field
 ```
 
-## Real Examples: Before and After
+### Step 24: Real Examples: Before and After
 
 ### Example 1: Deployment Documentation
 
 **Before** (vague):
 ```
-## Deploying to Production
+### Step 25: Deploy to Production
 Push your code and run the script. Make sure to test first.
 ```
 
 **After** (actionable):
 ```
-## How to Deploy Code to Production
+### Step 26: How to Deploy Code to Production
 
 ### Prerequisites
 - Code reviewed and merged
@@ -326,7 +336,7 @@ Push your code and run the script. Make sure to test first.
 [Walk through specific deployment]
 
 #
-## Measuring Success
+### Step 27: Measuring Success
 
 Track these signals to understand if your documentation culture is working:
 
@@ -348,6 +358,21 @@ Set up a simple monthly tracking:
 - Most-viewed articles
 
 Review monthly. If search quality is declining, contribution is dropping, or certain people dominate contributions, investigate and adjust.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

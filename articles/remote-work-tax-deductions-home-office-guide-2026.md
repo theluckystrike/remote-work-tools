@@ -32,7 +32,17 @@ The average remote worker can deduct $1,200-3,600 annually in home office expens
 
 2.
 
-## USA: Two Deduction Methods
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: USA: Two Deduction Methods
 
 The IRS allows two methods: **Simplified** and **Actual Expense**. Choose whichever gives the larger deduction.
 
@@ -170,7 +180,7 @@ GRAND TOTAL: $4,603/yr in home office deductions
 
 ---
 
-## UK: Simplest Approach (Flat Rate)
+### Step 2: UK: Simplest Approach (Flat Rate)
 
 The UK has the simplest home office deduction in the world.
 
@@ -245,7 +255,7 @@ If < £1,350/yr, stick with flat rate (easier).
 
 ---
 
-## Germany (EU): Strict But Clear
+### Step 3: Germany (EU): Strict But Clear
 
 **Home Office Deduction:** €1,000/year maximum
 
@@ -298,7 +308,7 @@ Limited to €1,000/year ceiling.
 
 ---
 
-## France (EU): Complex Rules
+### Step 4: France (EU): Complex Rules
 
 **Home Office Deduction:** Up to €3,000/year (or 10% of rent)
 
@@ -344,7 +354,7 @@ Capped at €3,000/year by French law.
 
 ---
 
-## Canada: Simpler Than US
+### Step 5: Canada: Simpler Than US
 
 **Home Office Deduction:** Up to home office % of household expenses
 
@@ -389,7 +399,7 @@ Deductible Expenses:
 
 ---
 
-## Expense Categories (All Countries)
+### Step 6: Expense Categories (All Countries)
 
 **Universally Deductible:**
 
@@ -511,7 +521,7 @@ Examples:
 
 ---
 
-## Country-Specific Audit Risk
+### Step 7: Country-Specific Audit Risk
 
 **Audit Risk Assessment (Out of 10):**
 
@@ -541,7 +551,7 @@ Examples:
 
 ---
 
-## Tax Software Recommendations by Country
+### Step 8: Tax Software Recommendations by Country
 
 **USA:**
 1. **TaxAct** - $15-60 (cheap, accurate home office form)
@@ -599,6 +609,21 @@ Examples:
 ```
 
 ---
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -27,7 +27,17 @@ Most engineers treat UPS as a luxury. It is not. If you are working on a deploym
 - **Third-party replacements (BB Battery**: Yuasa) are 30-50% cheaper and generally comparable quality.
 - **Most engineers treat UPS**: as a luxury.
 
-## What a UPS Actually Does
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: What a UPS Actually Does
 
 A UPS has three functions:
 1. **Provides battery backup** when power cuts out (runtime: 5-60 minutes depending on load)
@@ -38,7 +48,7 @@ Most engineers only need function 1 and 2. Function 3 matters if you run a local
 
 Power conditioning is underappreciated. Voltage fluctuations — particularly in older buildings or areas with aging grid infrastructure — degrade power supplies and can cause intermittent hardware failures. A good UPS eliminates this category of problem entirely.
 
-## Sizing Your UPS
+### Step 2: Sizing Your UPS
 
 The critical calculation is **VA (volt-amperes)** and **watts**. UPS rating is in VA; your devices draw watts.
 
@@ -80,7 +90,7 @@ For most remote engineers, 15-20 minutes of runtime is enough to finish what you
 
 **Why the 0.7 derating rule matters**: Running a UPS at 100% capacity continuously degrades the battery faster and generates more heat. The battery also cannot deliver rated power at full discharge — capacity curves non-linearly. The 0.7 factor keeps you in the efficient part of the discharge curve.
 
-## Recommended UPS Models
+### Step 3: Recommended UPS Models
 
 **Budget ($100-150): APC Back-UPS 1100VA**
 - 1100VA / 660W
@@ -118,7 +128,7 @@ Cheap UPS units output stepped approximation waveforms. Most laptops and desktop
 
 APC's software (PowerChute) is the most mature and has the widest NAS/server integration. CyberPower (PowerPanel) is a close second and the better value. For a home office, either brand at the 1500VA tier is a safe choice.
 
-## What to Put on Battery vs. Surge-Only
+### Step 4: What to Put on Battery vs. Surge-Only
 
 **Battery-protected outlets:**
 - Router/modem
@@ -137,7 +147,7 @@ Prioritize networking gear first — your internet connection is more critical t
 
 If you have a 4G or 5G backup modem (see the internet redundancy guide), it must also be on the UPS. A backup internet connection that loses power at the same moment as your primary is useless.
 
-## UPS Software Configuration
+### Step 5: UPS Software Configuration
 
 **APC: PowerChute Personal Edition**
 
@@ -199,7 +209,7 @@ apt install nut
 
 NUT is the right choice if you have a home lab with multiple machines and only one physical UPS.
 
-## Monitoring Battery Health
+### Step 6: Monitor Battery Health
 
 UPS batteries last 3-5 years. Signs of degraded battery:
 - Runtime noticeably shorter than rated
@@ -220,10 +230,10 @@ apcaccess status | grep -E "BCHARGE|TIMELEFT|BATTDATE"
 
 Set a calendar reminder to replace the battery at year 3 regardless of apparent health. The cost of an unexpected UPS failure (battery dies mid-power-outage with no warning) is higher than the cost of a proactive replacement.
 
-## Power Outage Response Runbook
+### Step 7: Power Outage Response Runbook
 
 ```markdown
-## Power Outage Protocol
+### Step 8: Power Outage Protocol
 
 1. UPS activates — note the time
 2. Immediately: check if router/modem is on UPS (test: ping 8.8.8.8)
@@ -244,7 +254,7 @@ Set a calendar reminder to replace the battery at year 3 regardless of apparent 
 
 The "wait 2 minutes after power restores" step is important. Power grid restoration is sometimes followed by a second brief interruption as the grid stabilizes. Waiting 2 minutes avoids an immediate second UPS activation and gives the building's electrical system time to normalize.
 
-## Budget Recommendation
+### Step 9: Budget Recommendation
 
 For a typical remote engineering setup (laptop + 2 monitors + router + switch):
 
@@ -258,7 +268,7 @@ At $48/year, a UPS is cheaper than most SaaS tools and eliminates the most unpre
 
 If budget is a constraint, a used APC Back-UPS 1500 from eBay with a new third-party battery costs around $40-60 total and provides equivalent protection. UPS hardware is robust — the battery is the only consumable component.
 
-## Comparing UPS Models: Feature Matrix
+### Step 10: Comparing UPS Models: Feature Matrix
 
 When evaluating UPS systems, use this comparison table to match features to your needs:
 
@@ -276,7 +286,7 @@ When evaluating UPS systems, use this comparison table to match features to your
 
 Key decision factors: If you run local infrastructure (NAS, dev servers), prioritize pure sine wave output. If you only need to protect laptops and networking gear, stepped approximation is acceptable.
 
-## Configuration Deep Dive: Linux/Unix Systems
+### Step 11: Configuration Deep Dive: Linux/Unix Systems
 
 For engineers running Linux servers or NAS devices, apcupsd provides comprehensive UPS management:
 
@@ -320,7 +330,7 @@ apcaccess status | grep "TIMELEFT\|BCHARGE\|LINEFAIL"
 tail -f /var/log/apcupsd.events
 ```
 
-## Networking Redundancy Integration
+### Step 12: Networking Redundancy Integration
 
 A UPS only buys time if your internet connection stays up. For critical remote work:
 
@@ -384,12 +394,12 @@ systemctl restart apcupsd
 apcaccess status | head -5
 ```
 
-## Multi-Zone Setup for Distributed Teams
+### Step 13: Multi-Zone Setup for Distributed Teams
 
 For teams spanning time zones, document your UPS strategy in your incident runbook:
 
 ```markdown
-## UPS Status During Incidents
+### Step 14: UPS Status During Incidents
 
 When a team member reports a power outage:
 

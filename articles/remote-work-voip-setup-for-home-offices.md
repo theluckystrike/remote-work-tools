@@ -16,7 +16,17 @@ tags: [remote-work-tools, remote-work]
 
 A proper VoIP setup replaces desk phones with software-based calling that works from any home office. This guide covers a self-hosted FreePBX deployment, softphone configuration, QoS tuning, and failover so remote workers maintain business call quality.
 
-## Architecture Overview
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Architecture Overview
 
 ```
 Internet
@@ -32,7 +42,7 @@ FreePBX Server (cloud VM or on-prem)
     └── Extension 103 → Hardware IP phone
 ```
 
-## FreePBX Installation
+### Step 2: FreePBX Installation
 
 Deploy on Ubuntu 22.04 (2 vCPU, 2GB RAM minimum):
 
@@ -49,7 +59,7 @@ sudo systemctl status asterisk
 fwconsole sa
 ```
 
-## Firewall Rules
+### Step 3: Firewall Rules
 
 ```bash
 # UFW rules for SIP and RTP
@@ -66,7 +76,7 @@ sudo ufw deny 80/tcp
 sudo ufw deny 443/tcp
 ```
 
-## SIP Trunk Configuration
+### Step 4: SIP Trunk Configuration
 
 In FreePBX admin (Connectivity > Trunks):
 
@@ -98,7 +108,7 @@ For Twilio SIP Trunking:
 # Secret: your_twilio_auth_token
 ```
 
-## Extension Configuration
+### Step 5: Extension Configuration
 
 ```ini
 # /etc/asterisk/sip_custom.conf
@@ -131,7 +141,7 @@ disallow=all
 allow=ulaw,g722
 ```
 
-## Linphone Softphone Setup
+### Step 6: Linphone Softphone Setup
 
 Install on Linux/Mac/Windows:
 
@@ -160,7 +170,7 @@ Enable ICE:        Yes
 SRTP:              Mandatory
 ```
 
-## Zoiper Mobile Configuration
+### Step 7: Zoiper Mobile Configuration
 
 ```
 Account Type: SIP
@@ -173,7 +183,7 @@ SRTP: Required
 STUN: stun.l.google.com
 ```
 
-## Router QoS Configuration
+### Step 8: Router QoS Configuration
 
 QoS prevents audio dropouts when bandwidth is shared. Access your router admin panel:
 
@@ -200,7 +210,7 @@ tc class add dev eth0 parent 1:1 classid 1:30 htb rate 90mbit ceil 100mbit prio 
 tc filter add dev eth0 parent 1: protocol ip handle 0x2e fw classid 1:10
 ```
 
-## Fail2ban for SIP Security
+### Step 9: Fail2ban for SIP Security
 
 ```bash
 # /etc/fail2ban/filter.d/asterisk.conf
@@ -229,7 +239,7 @@ sudo systemctl restart fail2ban
 sudo fail2ban-client status asterisk
 ```
 
-## Call Quality Testing
+### Step 10: Call Quality Testing
 
 ```bash
 # Test codec performance
@@ -247,7 +257,7 @@ ping -i 0.2 -c 50 your-pbx.example.com | tail -1
 # Target: avg < 80ms, max < 150ms
 ```
 
-## Hunt Groups and IVR
+### Step 11: Hunt Groups and IVR
 
 ```bash
 # In FreePBX: Applications > Ring Groups
@@ -263,7 +273,7 @@ ping -i 0.2 -c 50 your-pbx.example.com | tail -1
 # Press 0 -> Ring Group 600 (General)
 ```
 
-## Monitoring and Uptime
+### Step 12: Monitor and Uptime
 
 ```bash
 # Check Asterisk status
@@ -280,6 +290,21 @@ sudo systemctl restart asterisk
 asterisk -rx "sip show registry"
 # Output: Host: atlanta1.voip.ms    State: Registered
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

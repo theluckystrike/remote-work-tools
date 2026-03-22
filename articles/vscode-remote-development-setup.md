@@ -44,7 +44,17 @@ This guide covers the SSH remote extension, dev containers, settings sync, and p
 
 For persistent forwarding in `.devcontainer/devcontainer.json`, use `forwardPorts`.
 
-## Install the Remote Development Extension Pack
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Install the Remote Development Extension Pack
 
 ```bash
 # Install via CLI
@@ -61,7 +71,7 @@ code --list-extensions | grep remote
 
 Alternatively, open VS Code, press `Ctrl+Shift+X`, and search for "Remote Development".
 
-## Remote SSH Setup
+### Step 2: Remote SSH Setup
 
 ### Configure SSH Access
 
@@ -115,7 +125,7 @@ Extensions run either locally (UI extensions like themes) or on the remote serve
 }
 ```
 
-## Dev Containers
+### Step 3: Dev Containers
 
 Dev containers define the full development environment in a `.devcontainer/devcontainer.json` file. Everyone on the team gets the same toolchain, runtimes, and extensions — no "works on my machine" issues.
 
@@ -204,7 +214,7 @@ volumes:
 }
 ```
 
-## Settings Sync for Remote Teams
+### Step 4: Settings Sync for Remote Teams
 
 Settings Sync keeps your VS Code configuration consistent across machines. Enable it:
 
@@ -241,7 +251,7 @@ For teams, use a shared `settings.json` committed to the repo instead of relying
 }
 ```
 
-## Useful Remote Development Settings
+### Step 5: Useful Remote Development Settings
 
 Add to your user `settings.json` (`Ctrl+Shift+P` → `Open User Settings JSON`):
 
@@ -274,7 +284,7 @@ Add to your user `settings.json` (`Ctrl+Shift+P` → `Open User Settings JSON`):
 }
 ```
 
-## Port Forwarding
+### Step 6: Port Forwarding
 
 VS Code automatically detects ports your remote process opens and offers to forward them. You can also set up port forwarding manually:
 
@@ -308,7 +318,7 @@ For persistent forwarding in `.devcontainer/devcontainer.json`, use `forwardPort
 }
 ```
 
-## Debugging on Remote Hosts
+### Step 7: Debugging on Remote Hosts
 
 Launch configurations work the same whether local or remote. The debug adapter runs on the remote machine:
 
@@ -354,7 +364,7 @@ VS Code is not the only option for remote development. Understanding the trade-o
 
 VS Code Remote SSH wins on cost and control for teams with existing infrastructure. GitHub Codespaces or Gitpod make sense when you want zero-config onboarding for contributors who shouldn't need a local dev environment at all.
 
-## Step-by-Step: First-Time Remote SSH Setup
+### Step 8: Step-by-Step: First-Time Remote SSH Setup
 
 **Step 1 — Generate an SSH key pair on your local machine.** Run `ssh-keygen -t ed25519 -C "your.email@example.com"`. Ed25519 keys are smaller and faster than RSA.
 
@@ -397,6 +407,21 @@ Remote SSH connects to an existing server and uses whatever is installed there. 
 
 **What happens to my terminal if my internet drops?**
 With `terminal.integrated.enablePersistentSessions: true`, VS Code reconnects and your terminal session resumes. For long-running processes you cannot afford to lose, use `tmux` or `screen` on the remote server — these survive SSH disconnections regardless of VS Code settings.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Articles
 

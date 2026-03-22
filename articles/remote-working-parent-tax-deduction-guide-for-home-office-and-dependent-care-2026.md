@@ -42,7 +42,17 @@ If your mortgage is $2,500 and you claim $1,500 in home office rent allocation, 
 - **The space doesn't need**: to be a separate room—a dedicated corner with a desk, monitor, and ergonomic setup qualifies if you use it only for work.
 - **The simplified method lets**: you deduct $5 per square foot of your home office, up to 300 square feet ($1,500 maximum).
 
-## Home Office Deduction for Remote Workers
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Home Office Deduction for Remote Workers
 
 The home office deduction remains available to self-employed individuals and employees who use part of their home exclusively and regularly for business. For parents running side businesses or freelancing alongside their primary job, this deduction can significantly reduce taxable income.
 
@@ -87,7 +97,7 @@ The IRS requires contemporaneous records—documents created at the time of the 
 - **Equipment receipts** with purchase dates
 - **Usage logs** if you have any dual-use items
 
-## Dependent Care Tax Credits
+### Step 2: Dependent Care Tax Credits
 
 If you pay for childcare or dependent care to enable you to work, the Child and Dependent Care Credit can reduce your tax liability. This credit applies to care for dependents under 13, or a spouse or dependent who cannot care for themselves.
 
@@ -124,7 +134,7 @@ print(f"Estimated credit: ${credit:.2f}")
 
 Many employers offer dependent care flexible spending accounts (FSAs) that let you set aside pre-tax dollars for childcare. For 2026, you can contribute up to $5,000 to a dependent care FSA. If your employer offers this benefit, it reduces your taxable income dollar-for-dollar—often a better deal than the credit if you're in a higher tax bracket.
 
-## Home Office + Dependent Care: Combined Strategies
+### Step 3: Home Office + Dependent Care: Combined Strategies
 
 Remote working parents face unique challenges when optimizing tax benefits. Here are practical strategies that work:
 
@@ -157,7 +167,7 @@ If you're an employee but also do freelance development work on the side, the ho
 
 Self-employed remote workers may qualify for the Section 199A deduction—up to 20% of qualified business income. This stacks with home office deductions, potentially reducing your effective tax rate significantly. Consult a tax professional to verify your qualification, as income limits apply.
 
-## What Doesn't Qualify
+### Step 4: What Doesn't Qualify
 
 Avoid common mistakes that trigger audits:
 
@@ -166,7 +176,7 @@ Avoid common mistakes that trigger audits:
 - **Childcare while not working**—dependent care must enable your work; summer camp costs may not qualify unless tied to working hours
 - **Dependents over 13**—the credit doesn't apply to children 13 and older unless they are disabled
 
-## Action Items for Remote Working Parents
+### Step 5: Action Items for Remote Working Parents
 
 Before tax day 2026, complete these steps:
 
@@ -178,7 +188,7 @@ Before tax day 2026, complete these steps:
 
 The tax benefits for remote working parents are real but require active documentation. Start tracking now, and you'll have everything ready when it's time to file.
 
-## Real Examples: Three Remote Working Parent Scenarios
+### Step 6: Real Examples: Three Remote Working Parent Scenarios
 
 ### Scenario 1: Freelance Developer with Home Office
 
@@ -216,7 +226,7 @@ When filing joint taxes, they each report home office expenses on individual Sch
 
 Additionally, they use dependent care FSA with $5,000 each (or $10,000 combined if married filing jointly), providing immediate tax savings through reduced payroll deductions.
 
-## Tools That Actually Work for Tax Tracking
+### Step 7: Tools That Actually Work for Tax Tracking
 
 Beyond spreadsheets, consider these tools favored by remote working parents:
 
@@ -228,7 +238,7 @@ Beyond spreadsheets, consider these tools favored by remote working parents:
 
 **FreshBooks**: Invoice generation, expense categorization, and time tracking combined. Useful if you bill clients and track time spent on projects. Cost: $15–$55/month depending on features.
 
-## Documentation Strategies That Survive Audits
+### Step 8: Documentation Strategies That Survive Audits
 
 The IRS typically audits 1–2% of individual returns, and home office deductions are a known audit trigger. Strengthen your audit defense:
 
@@ -247,7 +257,7 @@ The IRS typically audits 1–2% of individual returns, and home office deduction
 
 This contemporaneous documentation demonstrates intent and creates a clear record if questioned.
 
-## Pitfalls That Trigger Audits
+### Step 9: Pitfalls That Trigger Audits
 
 Avoid these common mistakes:
 
@@ -261,7 +271,7 @@ Avoid these common mistakes:
 
 **Overestimating utility percentages**: Utility deductions should align with your square footage percentage. If your office is 10% of your home, utilities should be roughly 10% of total costs. Claiming 20% draws scrutiny.
 
-## Tax Strategy: Timing Equipment Purchases
+### Step 10: Tax Strategy: Timing Equipment Purchases
 
 Strategic equipment purchases can optimize your tax outcome:
 
@@ -273,7 +283,7 @@ Buying a $4,000 standing desk in December instead of January moves the full dedu
 
 Timing larger purchases to maximize these deductions requires planning. If you're expecting a strong freelance income year, consider purchasing equipment before year-end to offset those earnings.
 
-## Audit Red Flags: What Triggers IRS Attention
+### Step 11: Audit Red Flags: What Triggers IRS Attention
 
 Understanding what triggers audits helps you avoid them:
 
@@ -297,7 +307,7 @@ Very small businesses with large home office deductions are scrutinized. The mat
 
 If you can't produce receipts, photos, or measurements, the deduction gets disallowed immediately. Documentation is not optional.
 
-## State-Specific Tax Considerations
+### Step 12: State-Specific Tax Considerations
 
 Home office deductions work federally, but state tax treatment varies:
 
@@ -311,7 +321,7 @@ Home office deductions work federally, but state tax treatment varies:
 
 If you work remotely for a company headquartered in a state different from where you live, consult a tax professional. Remote work creates nexus issues that vary by state.
 
-## Dependent Care and HSA Coordination
+### Step 13: Dependent Care and HSA Coordination
 
 If you have a Health Savings Account (HSA), recognize that dependent care doesn't qualify:
 
@@ -321,7 +331,7 @@ If you have a Health Savings Account (HSA), recognize that dependent care doesn'
 
 Don't confuse the dependent care credit with HSA-eligible care. Many remote parents mistakenly try to use HSAs for childcare and trigger corrections.
 
-## Required Actions Before Tax Filing
+### Step 14: Required Actions Before Tax Filing
 
 One month before filing your return:
 
@@ -331,6 +341,21 @@ One month before filing your return:
 4. **Check all receipts have business purpose noted** if not obvious from the expense description
 5. **Confirm your dependent care provider** has your correct taxpayer ID (for FSA reimbursement claims)
 6. **Review last year's filing** to ensure consistent claims and add explanatory notes for any changes
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

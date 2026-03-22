@@ -46,7 +46,17 @@ Commercial cloud storage platforms work well for documents and moderate-sized fi
 
 SFTP (SSH File Transfer Protocol) solves these problems by giving your team a dedicated server where file size limits are what you set, bandwidth is your own, and authentication integrates with the same SSH keys developers already use for server access. Every transfer is encrypted, authenticated, and logged.
 
-## Setting Up the SFTP Server
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up the SFTP Server
 
 Most Linux distributions ship with OpenSSH, which includes SFTP support out of the box. If you need to install or verify:
 
@@ -93,7 +103,7 @@ Restart the SSH service to apply changes:
 sudo systemctl restart sshd
 ```
 
-## Configuring Key-Based Authentication
+### Step 2: Configure Key-Based Authentication
 
 Password-based SFTP access creates security risks and operational friction. Key-based authentication eliminates both while making automation straightforward.
 
@@ -122,7 +132,7 @@ command="/usr/lib/openssh/sftp-server" ssh-ed25519 AAAA... user@workstation
 
 This forces SFTP-only access even if someone obtains the key, preventing interactive shell access.
 
-## Managing Large File Transfers
+### Step 3: Manage Large File Transfers
 
 SFTP handles large files well, but remote teams benefit from optimized transfer strategies. Here are practical approaches for different scenarios.
 
@@ -194,7 +204,7 @@ Schedule it with cron for automated deployments:
 0 2 * * * /home/developer/scripts/sync-builds.sh >> /var/log/sftp-sync.log 2>&1
 ```
 
-## Security Hardening for Production
+### Step 4: Security Hardening for Production
 
 Beyond basic configuration, apply these hardening measures to protect your SFTP server.
 
@@ -278,7 +288,7 @@ sudo edquota -u developer1
 
 Set soft and hard limits appropriate to your storage capacity and use cases.
 
-## Choosing the Right Transfer Tool
+### Step 5: Choose the Right Transfer Tool
 
 Your team has several client options depending on workflow:
 
@@ -297,6 +307,21 @@ with pysftp.Connection('sftp.example.com', username='deploy',
     sftp.put('/local/build/app.tar.gz', '/remote/builds/app.tar.gz')
     sftp.get('/remote/logs/transfer.log', '/local/logs/transfer.log')
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

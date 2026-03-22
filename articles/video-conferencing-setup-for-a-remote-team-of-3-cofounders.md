@@ -47,7 +47,17 @@ Three-person remote teams face specific challenges that larger teams do not. Eve
 
 The ideal setup for three cofounders working remotely combines individual home office configurations with a shared meeting platform that supports quick calls and scheduled meetings equally well.
 
-## Essential Hardware Components
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Essential Hardware Components
 
 Each cofounder needs a baseline setup that delivers professional video quality without excessive investment. The core components remain consistent regardless of which platform you choose.
 
@@ -166,7 +176,7 @@ function createMeetingWithMeet() {
 }
 ```
 
-## Automation and Workflow Integration
+### Step 2: Automation and Workflow Integration
 
 For three-person teams, automation reduces friction in daily operations. Quick meeting creation, automatic recordings, and shared notes improve team coordination.
 
@@ -203,7 +213,7 @@ Establish consistent recording practices for important discussions:
 3. Set up shared Drive/OneDrive folders for automatic upload
 4. Create naming conventions: `[Date]_[MeetingType]_[Participants]`
 
-## Practical Setup Checklist
+### Step 3: Practical Setup Checklist
 
 For a new three-person cofounder team, follow this implementation sequence:
 
@@ -259,7 +269,7 @@ Background noise (HVAC, keyboard clicks, traffic) is more noticeable on budget m
 - Add acoustic foam to walls around microphone
 - Move meetings to quieter times of day
 
-## Backup Plan for Network Failures
+### Step 4: Backup Plan for Network Failures
 
 Even with good connectivity, internet issues happen. Establish a backup:
 
@@ -278,7 +288,7 @@ setInterval(() => {
 }, 10000);
 ```
 
-## Video Call Etiquette for Three-Person Teams
+### Step 5: Video Call Etiquette for Three-Person Teams
 
 With constant communication, establish norms:
 
@@ -297,7 +307,7 @@ With constant communication, establish norms:
 - Store recordings in shared drive immediately after call
 - Delete recordings after 30 days unless marked for archival
 
-## Handling Time Zone Challenges for Three Cofounders
+### Step 6: Handling Time Zone Challenges for Three Cofounders
 
 Even three people can span significant time zones. Optimize this:
 
@@ -314,7 +324,7 @@ Even three people can span significant time zones. Optimize this:
 
 This distributes early mornings and late evenings fairly.
 
-## Equipment Upgrade Path
+### Step 7: Equipment Upgrade Path
 
 Don't buy everything at once. Upgrade incrementally:
 
@@ -332,7 +342,7 @@ Don't buy everything at once. Upgrade incrementally:
 
 Most three-person teams find Phase 1 sufficient for good calls. Phase 2 improves audio quality noticeably. Phase 3 is optional for frequent client-facing presentations.
 
-## Monitoring Call Quality Metrics
+### Step 8: Monitor Call Quality Metrics
 
 Track these metrics to ensure your setup is working:
 

@@ -25,7 +25,17 @@ A single ISP connection is a single point of failure. For engineers on customer 
 - **Acceptable**: under 30 seconds.
 - **Unacceptable**: over 90 seconds (indicates health check intervals are too long or recovery threshold is too high).
 
-## The Core Setup
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Setup
 
 The goal is two independent internet connections that switch automatically when the primary fails:
 
@@ -40,7 +50,7 @@ Secondary ISP (4G/5G cellular)
 
 Hardware that supports this natively: Firewalla Gold Plus, GL.iNet Flint 2, Peplink Balance One (prosumer), or a Mikrotik RouterOS setup.
 
-## Hardware Option 1: GL.iNet Flint 2 (Budget)
+### Step 2: Hardware Option 1: GL.iNet Flint 2 (Budget)
 
 The GL-MT6000 runs OpenWrt and supports WAN failover out of the box for ~$100.
 
@@ -113,7 +123,7 @@ EOF
 service mwan3 restart
 ```
 
-## Hardware Option 2: Peplink Balance One ($299)
+### Step 3: Hardware Option 2: Peplink Balance One ($299)
 
 Purpose-built for dual-WAN failover with a simpler UI. Plug in both connections, enable SpeedFusion health checks, done.
 
@@ -124,7 +134,7 @@ Purpose-built for dual-WAN failover with a simpler UI. Plug in both connections,
 
 The 3-miss / 8-success asymmetry prevents flapping on an unstable primary connection.
 
-## 4G/5G Backup Modem Recommendations
+### Step 4: 4G/5G Backup Modem Recommendations
 
 | Device | Band Coverage | Speed | Monthly |
 |---|---|---|---|
@@ -135,7 +145,7 @@ The 3-miss / 8-success asymmetry prevents flapping on an unstable primary connec
 
 For most remote engineers, phone USB tethering is the cheapest backup — most carrier plans include tethering at no extra cost. The latency is higher than fiber but sufficient for SSH, async video, and Slack.
 
-## Testing Failover Behavior
+### Step 5: Test Failover Behavior
 
 ```bash
 # Install mtr for continuous path monitoring
@@ -151,7 +161,7 @@ sudo mtr 8.8.8.8 --report-cycles 1000 --interval 0.5
 
 Monitor the transition time. Acceptable: under 30 seconds. Unacceptable: over 90 seconds (indicates health check intervals are too long or recovery threshold is too high).
 
-## Application-Level Failover Gaps
+### Step 6: Application-Level Failover Gaps
 
 Automatic failover at the router level doesn't fix everything. Stateful connections break:
 
@@ -171,7 +181,7 @@ mosh user@server.example.com
 # mosh keeps your session alive through IP changes and reconnects transparently
 ```
 
-## Monitoring Connection Health
+### Step 7: Monitor Connection Health
 
 ```bash
 # Simple cron-based uptime logger
@@ -193,7 +203,7 @@ echo "* * * * * /usr/local/bin/check-internet.sh >> /var/log/internet-uptime.log
 awk '/DOWN/ {down++} /OK/ {up++} END {print "Uptime: " up/(up+down)*100 "%"}' /var/log/internet-uptime.log
 ```
 
-## Budget Breakdown
+### Step 8: Budget Breakdown
 
 | Component | Cost |
 |---|---|
@@ -204,7 +214,7 @@ awk '/DOWN/ {down++} /OK/ {up++} END {print "Uptime: " up/(up+down)*100 "%"}' /v
 
 For a $40/month total add-on, you eliminate the most common cause of remote work disruption.
 
-## Configuring DNS Resilience Alongside Internet Redundancy
+### Step 9: Configure DNS Resilience Alongside Internet Redundancy
 
 Dual-WAN failover handles the physical link layer, but DNS failures can make the internet appear down even when your connection is working. Remote workers operating from home offices with a single DNS resolver (typically provided by the ISP) experience DNS outages during partial connectivity issues even when raw packet routing is functional.
 
@@ -257,7 +267,7 @@ networksetup -setdnsservers "Wi-Fi" 127.0.0.1
 
 This setup means DNS queries succeed as long as either your primary or secondary internet connection works, and they are encrypted against ISP inspection regardless of which connection is active.
 
-## Automating Failover Notifications
+### Step 10: Automate Failover Notifications
 
 Knowing when failover occurred is valuable for diagnosing patterns—if you fail over to cellular every day between 9 and 10 AM, that signals a recurring ISP issue worth reporting. Build a simple notification system that alerts you when the active WAN changes:
 
@@ -301,7 +311,7 @@ echo "*/2 * * * * /usr/local/bin/wan-monitor.sh" | crontab -
 
 This gives you a historical log of failover events and real-time mobile notifications. After a week, review `/var/log/wan-failover.log` to identify patterns in your ISP's reliability.
 
-## WireGuard VPN Across Dual-WAN
+### Step 11: WireGuard VPN Across Dual-WAN
 
 Remote engineers often use VPNs for accessing office infrastructure. Standard VPN connections bind to a specific IP address and drop when that address changes during failover. WireGuard handles this better than OpenVPN or IPSec because it uses UDP and re-establishes connections quickly after an IP change.
 
@@ -326,7 +336,7 @@ PersistentKeepalive = 25
 ```
 
 The `PersistentKeepalive = 25` setting sends a keepalive packet every 25 seconds, which maintains NAT table entries through connection switches. After failover, WireGuard reconnects within one keepalive interval—typically under 30 seconds—without requiring any user action.
-## Failover Testing Methodology
+### Step 12: Failover Testing Methodology
 
 Systematic testing ensures your failover setup works when it matters most—during actual internet disruption.
 
@@ -372,7 +382,7 @@ Choose your backup ISP based on coverage in your specific location, not generic 
 
 Test actual coverage and speed at your specific location before committing. Visit carrier stores with your phone model or rent a dedicated hotspot for a week to verify speed. Generic coverage maps are notoriously inaccurate—you may have "5G coverage" that's actually fallback LTE.
 
-## Monitoring Failover Health Over Time
+### Step 13: Monitor Failover Health Over Time
 
 Beyond individual tests, track failover behavior continuously to catch degradation:
 
@@ -412,7 +422,7 @@ fi
 
 Run this script weekly and monitor trends. If failover times creep up from 15 seconds to 45 seconds, your configuration has drifted and needs adjustment.
 
-## Mosh Configuration for Persistent Remote Sessions
+### Step 14: Mosh Configuration for Persistent Remote Sessions
 
 Mosh improves on SSH by maintaining your session through network transitions:
 
@@ -436,7 +446,7 @@ Host production-server
 
 Mosh is invaluable when your primary ISP fails mid-SSH session. Traditional SSH drops the connection immediately, requiring you to reconnect and re-authenticate. Mosh keeps the session alive, automatically resumes once connectivity is restored, and handles the reconnection transparently.
 
-## Application-Level Failover Configuration Template
+### Step 15: Application-Level Failover Configuration Template
 
 Document your application's failover behavior in a configuration file:
 
@@ -467,7 +477,7 @@ services:
 
 Configure your actual services to use this. Many frameworks support configuration files that define reconnection behavior and timeouts automatically.
 
-## Practical Failover Checklist
+### Step 16: Practical Failover Checklist
 
 Before deploying your failover setup, verify each component:
 
@@ -482,6 +492,21 @@ Before deploying your failover setup, verify each component:
 - [ ] You've tested failover manually and documented actual times
 - [ ] Team knows that calls may briefly drop during failover
 - [ ] Backup internet is active and paid (not test account)
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

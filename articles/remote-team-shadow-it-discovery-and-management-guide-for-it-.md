@@ -41,13 +41,23 @@ This guide provides practical methods for discovering, assessing, and managing s
 - **Remote work has fundamentally**: changed how teams acquire and use technology.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Understanding Shadow IT in Remote Contexts
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Shadow IT in Remote Contexts
 
 Shadow IT isn't inherently malicious. Developers and power users often adopt tools because official options are slow, restrictive, or simply don't meet their needs. A remote team member might sign up for a SaaS productivity tool, use a personal cloud storage account for work files, or run development tools on their personal machine because the approved alternatives won't work with their setup.
 
 The challenge for IT administrators is twofold: you need visibility into what's running, and you need processes that channel this energy constructively rather than simply banning everything.
 
-## Detection Methods for Remote Teams
+### Step 2: Detection Methods for Remote Teams
 
 ### Network-Based Discovery
 
@@ -132,7 +142,7 @@ def find_unauthorized_oauth(access_logs):
     return unauthorized
 ```
 
-## Risk Assessment Framework
+### Step 3: Risk Assessment Framework
 
 Not all shadow IT carries equal risk. Use a simple assessment matrix to prioritize your response:
 
@@ -155,7 +165,7 @@ Create a `shadow_it_register.md` to track discovered tools:
 | Personal S3 | 2026-03-01 | DevOps | Backups | High | Migrate to company bucket |
 ```
 
-## Building Constructive Governance
+### Step 4: Build Constructive Governance
 
 ### Establish a Tool Request Process
 
@@ -164,25 +174,25 @@ Instead of blocking tool adoption, create a clear path for approval:
 ```markdown
 # Tool Request Template
 
-## Requestor Information
+### Step 5: Requestor Information
 - Name:
 - Team:
 - Role:
 
-## Proposed Tool
+### Step 6: Proposed Tool
 - Name:
 - Vendor:
 - Website:
 
-## Use Case
+### Step 7: Use Case
 What problem does this solve? Why do existing tools not work?
 
-## Data Handling
+### Step 8: Data Handling
 - What data will be stored/accessed?
 - Who will have access?
 - What's the retention policy?
 
-## Security Questions
+### Step 9: Security Questions
 - [ ] Does vendor provide SOC2 certification?
 - [ ] Is data encrypted at rest and in transit?
 - [ ] What's the vendor's incident response process?
@@ -195,21 +205,21 @@ Publish an internal list of approved tools with categories:
 ```markdown
 # Approved Tool Catalog
 
-## Development
+### Step 10: Development
 - GitHub (code hosting)
 - VS Code (editor)
 - Docker (containers)
 
-## Communication
+### Step 11: Communication
 - Slack (team chat)
 - Zoom (video calls)
 - Loom (async video)
 
-## Project Management
+### Step 12: Project Management
 - Linear (issue tracking)
 - Notion (documentation)
 
-## Submit Request
+### Step 13: Submit Request
 To propose a new tool: [Internal form link]
 ```
 
@@ -241,7 +251,7 @@ access_controls:
     require: mdm_enrolled
 ```
 
-## Practical Response Workflow
+### Step 14: Practical Response Workflow
 
 When you discover shadow IT, follow this practical workflow:
 
@@ -251,7 +261,7 @@ When you discover shadow IT, follow this practical workflow:
 4. Categorize: Approve, migrate, or decommission
 5. Iterate: Update your approved catalog based on findings
 
-## Monitoring and Continuous Discovery
+### Step 15: Monitor and Continuous Discovery
 
 Shadow IT is never "solved" once—it's an ongoing challenge. Set up recurring scans:
 
@@ -259,6 +269,21 @@ Shadow IT is never "solved" once—it's an ongoing challenge. Set up recurring s
 - Monthly endpoint software inventory
 - Quarterly OAuth permission audit
 - Annual tool catalog review
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

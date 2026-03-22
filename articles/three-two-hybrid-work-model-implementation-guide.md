@@ -28,7 +28,17 @@ Office days often attract meeting additions: "Let's meet Tuesday because people 
 - **Give the model at**: least 6 weeks before deciding it's not working.
 - **This reduces the pressure**: of instant responses and lets people work during their most productive hours.
 
-## Setting Up Your Development Environment
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Your Development Environment
 
 The biggest challenge in a hybrid setup is ensuring your coding environment works identically whether you're at your home desk or in the office. This means your tools, configurations, and access must travel with you.
 
@@ -68,7 +78,7 @@ ln -sf "$DOTFILES_DIR/.tmux.conf" "$HOME/.tmux.conf"
 
 Commit this to a private repository and you can reproduce your environment on any machine in minutes.
 
-## Essential Tools for Hybrid Collaboration
+### Step 2: Essential Tools for Hybrid Collaboration
 
 Remote days work better when your team uses asynchronous-first communication. This reduces the pressure of instant responses and lets people work during their most productive hours.
 
@@ -95,7 +105,7 @@ Create a shared document for team norms—when should you expect responses? What
 
 Test your access before your first remote day. Nothing kills productivity faster than realizing you can't reach your staging database.
 
-## Structuring Your Week
+### Step 3: Structuring Your Week
 
 The three-two model works best when you intentionally plan which work happens where.
 
@@ -117,7 +127,7 @@ The three-two model works best when you intentionally plan which work happens wh
 
 This separation isn't rigid—adjust based on your team's needs. Some teams swap the days or add a rotating third office day. The key is intentionality: don't just default to whichever location feels convenient.
 
-## Managing Work-Life Boundaries
+### Step 4: Manage Work-Life Boundaries
 
 Hybrid work blurs boundaries more than pure remote or pure office work. Without a commute to mark transitions, you need other signals.
 
@@ -138,7 +148,7 @@ Working across locations introduces security concerns worth addressing:
 
 For developers with access to sensitive systems, your company likely has specific requirements. Review and follow them.
 
-## Measuring Success
+### Step 5: Measuring Success
 
 After implementing your hybrid setup, assess whether it's working:
 
@@ -149,7 +159,7 @@ After implementing your hybrid setup, assess whether it's working:
 
 Adjust based on what you learn. The three-two model isn't one-size-fits-all—your implementation should evolve.
 
-## Real-World Implementation Challenges and Solutions
+### Step 6: Real-World Implementation Challenges and Solutions
 
 **Problem: Office days feel like back-to-back meetings**
 
@@ -171,7 +181,7 @@ Solution: Set up office day pair programming sessions. This actually improves pr
 
 Solution: For distributed teams, shift toward async pair programming using recorded code walkthroughs and detailed PR comments. Save synchronous pairing for team members who share significant timezone overlap.
 
-## Tools That Support the 3-2 Model Specifically
+### Step 7: Tools That Support the 3-2 Model Specifically
 
 **Calendar management**: Tools like Fantastical or Google Calendar let you block office days distinctly. Create separate calendars for "in-office" and "remote" to see your week at a glance.
 
@@ -183,7 +193,7 @@ Solution: For distributed teams, shift toward async pair programming using recor
 
 **Code pairing tools**: VS Code Live Share or CodeTogether enable pair programming across office and remote days.
 
-## Common Pitfalls and How to Avoid Them
+### Step 8: Common Pitfalls and How to Avoid Them
 
 **Pitfall 1: The "Commute Problem"**
 
@@ -205,12 +215,12 @@ Notifications and chat messages fragment remote days, destroying deep work time.
 
 Remote days lack synchronous pairing, so code reviews become async. Slow reviews block shipping. Solution: Establish code review SLAs—48 hour maximum for non-blocking reviews, same-day for blocking issues. Assign code reviewers explicitly.
 
-## Measuring the 3-2 Model's Success
+### Step 9: Measuring the 3-2 Model's Success
 
 After 6-8 weeks of implementation, evaluate whether it's working:
 
 ```markdown
-## 3-2 Model Effectiveness Check
+### Step 10: 3-2 Model Effectiveness Check
 
 **Metrics to track:**
 - Code shipped per week (compare to previous month)
@@ -233,7 +243,7 @@ After 6-8 weeks of implementation, evaluate whether it's working:
 
 The goal isn't rigid adherence to 3-2—it's finding a rhythm that maximizes deep work time while maintaining team cohesion.
 
-## Variant Hybrid Models and When to Use Them
+### Step 11: Variant Hybrid Models and When to Use Them
 
 The 3-2 model isn't one-size-fits-all. Consider these variations:
 
@@ -249,7 +259,7 @@ The 3-2 model isn't one-size-fits-all. Consider these variations:
 
 The 3-2 model balances collaboration needs with deep work time for most software teams. Adjust based on your specific team composition and work characteristics.
 
-## Transitioning Your Team to 3-2
+### Step 12: Transitioning Your Team to 3-2
 
 Moving from fully remote or fully office to hybrid requires careful planning:
 
@@ -267,6 +277,21 @@ Review metrics. Are people shipping more? Collaborating better? Are they satisfi
 
 Give the model at least 6 weeks before deciding it's not working. People need time to adjust to any new schedule.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

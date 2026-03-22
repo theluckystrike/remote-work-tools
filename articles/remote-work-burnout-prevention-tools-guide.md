@@ -57,7 +57,17 @@ DeskTime is transparent: you see exactly what it tracks.
 Action**: Cut meeting times by 25% → Save 4.5 hours/week → More deep work time.
 - **Generic "productivity" tools**: Task management tools (Asana, Monday) don't prevent burnout
 
-## The Hard Truth
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Hard Truth
 
 Tools are 20% of solution.
 - **Burnout prevention requires three**: layers: 1.
@@ -74,7 +84,7 @@ Tools are 20% of solution.
 | Slack Do Not Disturb | Quick fix | Free | Everyone | Basic | None |
 | Notion wellness tracker | Custom tracking | Free | Custom workflows | None | Manual |
 
-## Reclaim.ai for Calendar Optimization
+### Step 2: Reclaim.ai for Calendar Optimization
 
 Reclaim.ai uses AI to automatically reschedule meetings, protect focus time, and synchronize team calendars. It's the most advanced calendar management tool for remote teams.
 
@@ -188,7 +198,7 @@ Outcome: Time to grab water, switch context, reset
 - **Can't block very senior people**: Executives might override
 - **Doesn't limit total meetings**: Just optimizes timing
 
-## Clockwise for Team Calendar Coordination
+### Step 3: Clockwise for Team Calendar Coordination
 
 Clockwise is similar to Reclaim.ai but emphasizes team synchronization. Instead of just protecting personal focus time, it finds optimal meeting times for entire teams.
 
@@ -259,7 +269,7 @@ Meeting scheduled 4pm (everyone tired, context-switching)
 - **Less aggressive**: Doesn't forcefully move meetings like Reclaim.ai
 - **Same monthly cost**: More expensive than Reclaim for individuals
 
-## DeskTime for Work Pattern Analytics
+### Step 4: DeskTime for Work Pattern Analytics
 
 DeskTime is an application that tracks your computer activity: what apps you use, how long you focus, when you take breaks.
 
@@ -357,7 +367,7 @@ DeskTime is transparent: you see exactly what it tracks. Company version require
 - **Doesn't fix anything**: Just shows the problem (need other tools to address)
 - **Requires client install**: Not all devices/OS supported equally
 
-## Toggl Track for Detailed Time Tracking
+### Step 5: Toggl Track for Detailed Time Tracking
 
 Toggl Track is manual time tracking: you start a timer for each task, see where time goes.
 
@@ -405,7 +415,7 @@ Action: Cut meeting times by 25% → Save 4.5 hours/week → More deep work time
 - **Self-reported bias**: People underestimate time (procrastination, breaks)
 - **No alerts**: Just shows data, doesn't prevent burnout
 
-## Wellness Apps and Practices
+### Step 6: Wellness Apps and Practices
 
 Beyond calendar and tracking, burnout prevention requires active wellness practices.
 
@@ -450,7 +460,7 @@ Sounds silly, but if it's on your calendar, you're more likely to honor it.
 
 Track workouts, sleep, recovery. Alert when you're overtraining (sign of work stress bleeding into fitness).
 
-## Real-World Burnout Prevention Program
+### Step 7: Real-World Burnout Prevention Program
 
 ### Month 1: Visibility
 
@@ -481,7 +491,7 @@ Track workouts, sleep, recovery. Alert when you're overtraining (sign of work st
 
 Team working 40 hours effectively instead of 50 hours chaotically.
 
-## Metrics to Track
+### Step 8: Metrics to Track
 
 | Metric | Target | Tool |
 |--------|--------|------|
@@ -491,7 +501,7 @@ Team working 40 hours effectively instead of 50 hours chaotically.
 | Evenings/weekends work | Zero | Calendar blocking |
 | Voluntary turnover | <10%/year | Exit interviews |
 
-## Cost for Team of 10
+### Step 9: Cost for Team of 10
 
 ### Budget Option (Focus on Calendar)
 
@@ -511,14 +521,14 @@ Outcome: 2-3 hours focus time/day, fewer meeting conflicts.
 
 Outcome: Calendar optimized, burnout early warning, wellness culture.
 
-## Tools That Don't Help (Don't Waste Money)
+### Step 10: Tools That Don't Help (Don't Waste Money)
 
 1. **Meditation apps** (Calm, Headspace): Nice to have, but won't reduce work hours
 2. **Background music** (Brain.fm): Placebo for focus time; need actual blocking
 3. **Posture trackers**: Gadget-ware; won't fix overwork
 4. **Generic "productivity" tools**: Task management tools (Asana, Monday) don't prevent burnout
 
-## The Hard Truth
+### Step 11: The Hard Truth
 
 Tools are 20% of solution. The other 80% is **management culture**:
 
@@ -530,6 +540,21 @@ Tools are 20% of solution. The other 80% is **management culture**:
 **No tool fixes a culture that glorifies overwork.**
 
 Before buying tools, ask: Does leadership respect work-life boundaries? If no, tools won't matter.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -40,7 +40,17 @@ Planning a retreat for a distributed team requires more coordination than an in-
 - **A bootstrapped startup might**: choose a "workcation" model with Airbnb rentals and co-working space day passes.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Budget Framework for Remote Team Retreats
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Budget Framework for Remote Team Retreats
 
 The first step in retreat planning is establishing a realistic budget. Many teams underestimate total costs by 30-50% because they forget line items beyond the obvious venue and travel expenses.
 
@@ -96,7 +106,7 @@ Organize your retreat budget into these primary categories:
 
 This works out to approximately $1,430 per person for a three-day retreat. Smaller teams often see higher per-person costs due to fixed venue minimums, while larger teams (20+) can negotiate better group rates.
 
-## Logistics Planning Checklist
+### Step 2: Logistics Planning Checklist
 
 Once you have a budget, the logistics require systematic tracking. Use this checklist organized by timeline.
 
@@ -154,7 +164,7 @@ Once you have a budget, the logistics require systematic tracking. Use this chec
 - Set up shared documents for real-time collaboration
 - Ensure backup connectivity options
 
-## Sample Retreat Agenda Template
+### Step 3: Sample Retreat Agenda Template
 
 A well-structured agenda balances work sessions with relationship-building time. Here's a framework for a three-day retreat:
 
@@ -179,7 +189,7 @@ A well-structured agenda balances work sessions with relationship-building time.
 - Morning: Brunch option for those with late flights
 - Departures throughout the day
 
-## Practical Considerations for Developer Teams
+### Step 4: Practical Considerations for Developer Teams
 
 Remote developer teams have specific needs beyond standard corporate retreat planning.
 
@@ -215,7 +225,7 @@ If your team has members who cannot travel, plan for inclusive hybrid sessions:
 - Record sessions for async viewing
 - Build in check-ins specifically for remote attendees
 
-## Post-Retreat Follow-Up
+### Step 5: Post-Retreat Follow-Up
 
 The retreat doesn't end when everyone flies home. Successful teams follow up systematically:
 
@@ -226,11 +236,26 @@ The retreat doesn't end when everyone flies home. Successful teams follow up sys
 5. **Process expense reports** within one week
 6. **Bookmark venue** for potential future visits
 
-## Adapting the Template
+### Step 6: Adapting the Template
 
 This template scales to different team sizes and budgets. A bootstrapped startup might choose a "workcation" model with Airbnb rentals and co-working space day passes. A larger team might need dedicated event coordinators. The key principles remain constant: document your budget line items, track logistics systematically, and build in contingency time and funds.
 
 The specific numbers and venues matter less than the discipline of planning. Use this framework as a starting point, adjust based on your team's specific needs, and iterate on future retreats based on post-event feedback.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
