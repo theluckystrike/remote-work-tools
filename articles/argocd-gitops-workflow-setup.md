@@ -277,6 +277,85 @@ argocd app wait myapp-production --health --timeout 300
 
 ---
 
+## Multi-Cluster Setup
+
+For organizations with multiple clusters (staging on one cloud, production on another), ArgoCD can manage them all from a single control plane:
+
+```bash
+# Add a remote cluster to ArgoCD
+# First, get the cluster's context name from kubeconfig
+kubectl config get-contexts
+
+# Add the cluster (ArgoCD creates a ServiceAccount with cluster-admin in the remote cluster)
+argocd cluster add production-eks-cluster --name production-eks
+
+# Verify
+argocd cluster list
+# NAME                     SERVER                                    STATUS
+# in-cluster               https://kubernetes.default.svc            Successful
+# production-eks           https://123456789.gr7.us-east-1.eks.amazonaws.com  Successful
+```
+
+Now reference the remote cluster in your Application manifests:
+
+```yaml
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: myapp-production
+  namespace: argocd
+spec:
+  destination:
+    server: https://123456789.gr7.us-east-1.eks.amazonaws.com  # remote cluster
+    namespace: production
+  source:
+    repoURL: https://github.com/yourorg/gitops-config.git
+    path: production/myapp
+    targetRevision: main
+```
+
+---
+
+## Notifications Setup
+
+ArgoCD Notifications send alerts to Slack, PagerDuty, or email when sync succeeds, fails, or a health check degrades:
+
+```bash
+# Install ArgoCD Notifications
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj-labs/argocd-notifications/stable/manifests/install.yaml
+```
+
+Configure Slack in the `argocd-notifications-cm` ConfigMap:
+
+```yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: argocd-notifications-cm
+  namespace: argocd
+data:
+  service.slack: |
+    token: $slack-token
+  template.app-deployed: |
+    message: |
+      Application {{.app.metadata.name}} deployed to {{.app.spec.destination.namespace}}.
+      Revision: {{.app.status.sync.revision}}
+  trigger.on-deployed: |
+    - description: Application deployed
+      send:
+      - app-deployed
+      when: app.status.operationState.phase in ['Succeeded'] and app.status.health.status == 'Healthy'
+  trigger.on-sync-failed: |
+    - description: Sync failed
+      send:
+      - app-sync-failed
+      when: app.status.operationState.phase in ['Error', 'Failed']
+```
+
+Subscribe applications to notifications via annotations (already shown in the Application manifests above with `notifications.argoproj.io/subscribe.*`).
+
+---
+
 ## ArgoCD CLI Cheatsheet
 
 ```bash

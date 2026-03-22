@@ -258,6 +258,124 @@ echo "Labels created in $REPO"
 
 ---
 
+## Approach 4: Composite Labeling (Files + Size + Convention)
+
+Combine all three approaches in one workflow that runs a single script:
+
+```yaml
+name: Smart PR Labels
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@v5
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          configuration-path: .github/labeler.yml
+          sync-labels: false  # don't remove size labels
+
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const pr = context.payload.pull_request;
+            const title = pr.title.toLowerCase();
+            const total = pr.additions + pr.deletions;
+            const labelsToAdd = [];
+
+            // Size label
+            const sizeMap = [
+              ["size/XS", total <= 10],
+              ["size/S", total > 10 && total <= 100],
+              ["size/M", total > 100 && total <= 500],
+              ["size/L", total > 500 && total <= 1000],
+              ["size/XL", total > 1000],
+            ];
+            const sizeLabel = sizeMap.find(([, match]) => match)?.[0];
+            if (sizeLabel) labelsToAdd.push(sizeLabel);
+
+            // Type label from title
+            const typeMap = {
+              feat: "feature", fix: "bug", chore: "chore",
+              docs: "documentation", refactor: "refactor",
+              perf: "performance", test: "tests", ci: "ci/cd",
+            };
+            for (const [prefix, label] of Object.entries(typeMap)) {
+              if (title.startsWith(prefix + ":") || title.startsWith(prefix + "(")) {
+                labelsToAdd.push(label);
+                break;
+              }
+            }
+
+            // Breaking change
+            if (title.includes("!:") || title.includes("breaking")) {
+              labelsToAdd.push("breaking-change");
+            }
+
+            // Apply labels (ignore duplicates)
+            if (labelsToAdd.length > 0) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                labels: labelsToAdd,
+              });
+            }
+```
+
+---
+
+## Enforcing Labels as a PR Merge Requirement
+
+Require at least one type label before a PR can merge using a status check:
+
+```yaml
+name: Label Check
+on:
+  pull_request:
+    types: [opened, labeled, unlabeled, synchronize]
+
+jobs:
+  check-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const requiredTypes = [
+              "feature", "bug", "chore", "documentation",
+              "refactor", "tests", "ci/cd", "performance"
+            ];
+
+            const { data: labels } = await github.rest.issues.listLabelsOnIssue({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+            });
+
+            const labelNames = labels.map(l => l.name);
+            const hasType = requiredTypes.some(t => labelNames.includes(t));
+
+            if (!hasType) {
+              core.setFailed(
+                `PR must have a type label. Add one of: ${requiredTypes.join(", ")}`
+              );
+            }
+```
+
+Add this as a required status check in your repo's branch protection rules (Settings > Branches > Require status checks to pass before merging).
+
+---
+
 ## Using Labels in Changelog Generation
 
 ```yaml

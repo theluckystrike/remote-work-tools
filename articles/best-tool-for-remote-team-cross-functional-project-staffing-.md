@@ -246,6 +246,10 @@ voice-checked: true
 
 
 
+
+
+
+
 | Tool | Key Feature | Remote Team Fit | Integration | Pricing |
 |---|---|---|---|---|
 | Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
