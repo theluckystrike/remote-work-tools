@@ -9,7 +9,7 @@ permalink: /south-korea-digital-nomad-visa-application-requirements-for-/
 categories: [guides, workflows]
 tags: [remote-work-tools, digital-nomad-visa, south-korea-visa, remote-work-visa, korea-visa-requirements, nomad-visa]
 reviewed: true
-score: 7
+score: 9
 intent-checked: true
 voice-checked: true
 ---
