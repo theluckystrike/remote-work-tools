@@ -33,6 +33,15 @@ Freelancers often spend too much time acquiring new clients while neglecting the
 
 This guide covers practical strategies you can implement immediately, with examples tailored for developers and power users who prefer actionable systems over generic advice.
 
+## Key Takeaways
+
+- **In 2026**: the freelancers who thrive have systems in place that make client relationships sustainable and predictable.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+- **Discounts of 25-50% are**: common for qualifying organizations.
+- **Freelancers often spend too**: much time acquiring new clients while neglecting the strategies that turn one-time projects into recurring revenue.
+- **Client retention matters because**: it costs significantly less to serve existing clients than to find new ones, and satisfied clients often refer others.
+
 ## Establish Clear Communication cadences
 
 Consistent communication prevents misunderstandings and keeps you top-of-mind between projects. Rather than waiting for clients to reach out, set up predictable touchpoints.

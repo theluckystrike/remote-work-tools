@@ -33,6 +33,15 @@ Costa Rica launched its Digital Nomad Visa (Rentista) in 2021, offering remote w
 
 This guide covers what remote tech workers need to know about tax obligations under Costa Rica's digital nomad visa framework.
 
+## Key Takeaways
+
+- **Annual income**: £100,000 (~$125,000 USD).
+- **Annual income**: CAD $140,000.
+- **Above $100,000**: professional help typically pays for itself through tax reduction strategies.
+- **Costa Rica launched its**: Digital Nomad Visa (Rentista) in 2021, offering remote workers a pathway to live in one of Central America's most stable democracies.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+
 ## Digital Nomad Visa Basics
 
 Costa Rica's Digital Nomad Visa allows foreign nationals to live and work remotely in the country for up to two years (renewable). Key eligibility requirements include:
