@@ -202,13 +202,64 @@ Maintain security hygiene when using VPNs for professional work:
 - Rotate credentials on a regular schedule
 - Monitor connection logs for unexpected behavior
 
+## Commercial VPN Comparison for Thailand-Based Developers
+
+For developers who prefer not to manage their own infrastructure, several commercial providers stand out for Thailand-specific use cases:
+
+| Provider | WireGuard | Dedicated IP | Nearest Exit Node | Split Tunneling | Price/mo |
+|---|---|---|---|---|---|
+| Mullvad | Yes | No (rotating) | Singapore | App-level | $5 flat |
+| IVPN | Yes | No | Singapore, HK | Yes | $6 standard |
+| ExpressVPN | Lightway (WG-like) | Yes (add-on) | Singapore, Bangkok | Yes | $8 |
+| ProtonVPN | Yes | Yes (add-on) | Singapore | Yes | $4 free / $10 pro |
+| AirVPN | Yes + OpenVPN | No | Singapore | Yes | $5 |
+
+**Notes for developers specifically:**
+
+- **Mullvad** is the best choice for developers who want no account linking and flat pricing. No email required to sign up — just a random account number. This matters for privacy hygiene with work credentials.
+- **ProtonVPN's free tier** is genuinely usable for testing geo-restrictions before committing to paid, but speeds throttle under load.
+- **Dedicated IPs** reduce the risk that your exit IP is already blocked by a corporate VPN gateway or payment processor. Worth the add-on cost if you use payment APIs.
+- **Split tunneling** lets you route only restricted services through the VPN while keeping local traffic (Slack, email, file syncing) direct. This preserves bandwidth and avoids unnecessary latency on tools that don't need it.
+
+## Multi-Hop and Obfuscation for Challenging Networks
+
+Some networks in Thailand — hotel wifi, co-working spaces, and certain ISPs — perform deep packet inspection that can block standard VPN protocols. When WireGuard gets blocked, two fallback options work well:
+
+**Shadowsocks over any provider:**
+
+Shadowsocks disguises VPN traffic as ordinary HTTPS. Both Outline (server) and Shadowrocket (iOS client) / Shadowsocks-NG (macOS client) support it. Configure with your existing server:
+
+```bash
+# Install shadowsocks-libev
+sudo apt install shadowsocks-libev
+
+# /etc/shadowsocks-libev/config.json
+{
+  "server": "0.0.0.0",
+  "server_port": 443,
+  "password": "your_password",
+  "timeout": 300,
+  "method": "chacha20-ietf-poly1305"
+}
+
+sudo systemctl enable shadowsocks-libev
+sudo systemctl start shadowsocks-libev
+```
+
+Running Shadowsocks on port 443 makes it indistinguishable from HTTPS traffic to most inspection systems.
+
+**V2Ray with WebSocket transport:**
+
+V2Ray wraps traffic in WebSocket frames over port 443, making it look like a regular web connection. More complex to set up than Shadowsocks but resistant to stricter DPI environments. Useful if Shadowsocks gets blocked.
+
 ## Choosing Your Solution
 
 The optimal VPN depends on your technical requirements and resources:
 
 - **Self-hosted WireGuard** provides best performance with moderate configuration effort
 - **Outline** offers simplicity with built-in obfuscation for challenging networks
-- **Commercial services** suit quick deployment without infrastructure management
+- **Mullvad or ProtonVPN** suit quick deployment without infrastructure management, with strong privacy defaults
+- **Shadowsocks or V2Ray** serve as fallbacks for networks that block standard VPN protocols
 
 Test your actual toolchain with trial deployments before long-term commitment. Many services offer refund periods, and self-hosted solutions can run temporarily to evaluate real-world performance before infrastructure investment.
 
