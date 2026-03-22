@@ -9,6 +9,7 @@ permalink: /best-monitor-refresh-rate-for-remote-workers-reducing-eye-strain-dur
 reviewed: true
 score: 8
 categories: [best-of]
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 

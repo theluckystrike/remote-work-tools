@@ -9,6 +9,7 @@ permalink: /best-open-source-screen-recording-tool-for-remote-team-async/
 reviewed: true
 score: 8
 categories: [best-of]
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 
