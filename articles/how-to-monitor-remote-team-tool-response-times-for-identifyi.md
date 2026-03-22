@@ -9,6 +9,7 @@ permalink: /how-to-monitor-remote-team-tool-response-times-for-identifyi/
 reviewed: true
 score: 8
 categories: [guides]
+tags: [remote-work-tools, remote-work]
 ---
 
 

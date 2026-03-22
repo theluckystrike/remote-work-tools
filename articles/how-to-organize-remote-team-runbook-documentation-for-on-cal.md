@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-organize-remote-team-runbook-documentation-for-on-cal/
 categories: [guides]
-tags: [remote-work-tools, runbooks, on-call, incident-response, devops, documentation, site-reliability]
+tags: [remote-work-tools, runbooks, on-call, incident-response, devops, documentation, site-reliability, remote-work]
 reviewed: true
 score: 8
 intent-checked: false
