@@ -32,7 +32,17 @@ In distributed teams, words carry more weight. Without face-to-face interaction,
 
 The difference between a generic "Great job!" and an authentic recognition message often determines whether team members feel truly seen or simply appreciated by obligation.
 
-## Core Principles for Writing Authentic Celebration Messages
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Principles for Writing Authentic Celebration Messages
 
 ### 1. Reference Specific Contributions
 
@@ -62,7 +72,7 @@ Show how the achievement fits into larger objectives. This helps remote workers 
 **Example:**
 > "Your documentation overhaul means new team members can self-serve onboarding instead of pinging the whole team. That directly supports our Q2 goal of reducing engineering distractions."
 
-## Practical Framework: The SEW Method
+### Step 2: Practical Framework: The SEW Method
 
 Use this three-part structure for consistent, authentic messages:
 
@@ -98,7 +108,7 @@ This produces:
 >
 > This directly led to eliminating the data leakage vulnerability we identified in the security audit.
 
-## Automating Thoughtful Recognition
+### Step 3: Automate Thoughtful Recognition
 
 For teams that want systematic recognition without losing authenticity, consider building lightweight tools.
 
@@ -137,7 +147,7 @@ const celebrateWithContext = (user, prUrl, reviewCount, testingNotes) => {
 
 The key is adding context that automated systems cannot generate. Always include a human-written note about effort or context.
 
-## Timing and Channel Selection
+### Step 4: Timing and Channel Selection
 
 **Async-first approach:** Post celebration messages in public channels where the entire team can see them. This amplifies recognition and creates an archive of team wins.
 
@@ -149,7 +159,7 @@ The key is adding context that automated systems cannot generate. Always include
 
 > "Also wanted to say personally — I know this sprint was particularly demanding. Really appreciate your dedication."
 
-## Common Pitfalls to Avoid
+### Step 5: Common Pitfalls to Avoid
 
 **Avoid comparison:** Never frame recognition as "finally, someone got this right" or contrast with others' failures.
 
@@ -159,7 +169,7 @@ The key is adding context that automated systems cannot generate. Always include
 
 **Avoid delayed recognition:** Celebrate soon after achievements. Delayed recognition feels like an afterthought.
 
-## Building a Recognition Culture
+### Step 6: Build a Recognition Culture
 
 Start modeling the behavior you want to see. When you write authentic celebration messages consistently, team members learn the pattern and begin replicating it.
 
@@ -168,7 +178,7 @@ Consider creating a shared document or Slack channel specifically for team wins.
 The goal is not performative praise but genuine acknowledgment that helps remote team members feel connected despite physical distance.
 ---
 
-## Templates for Different Achievement Types
+### Step 7: Templates for Different Achievement Types
 
 Different accomplishments deserve different celebration styles:
 
@@ -219,7 +229,7 @@ That's resourcefulness and composure under pressure.
 
 Use these as starting points, always customizing with specific details from actual work.
 
-## Celebration Message Timing Strategy
+### Step 8: Celebration Message Timing Strategy
 
 When you celebrate matters as much as how:
 
@@ -243,7 +253,7 @@ When you celebrate matters as much as how:
 
 Rule of thumb: Don't wait for perfect information. Celebrate progress, then celebrate outcomes when data comes in.
 
-## Recognition Across Different Team Structures
+### Step 9: Recognition Across Different Team Structures
 
 Adjust celebration style for your team setup:
 
@@ -270,7 +280,7 @@ Adjust celebration style for your team setup:
 - Specific about deliverables (they need this for portfolio)
 - Include client perspectives if applicable
 
-## Measuring Recognition Impact
+### Step 10: Measuring Recognition Impact
 
 Track whether recognition actually matters:
 
@@ -335,7 +345,7 @@ metrics.quarterly_recognition_health()
 
 If people aren't retained after recognition, your celebration isn't addressing what they actually value. Adjust approach.
 
-## Anti-Patterns: What NOT to Do
+### Step 11: Anti-Patterns: What NOT to Do
 
 **❌ Comparing achievements across people**
 ```
@@ -367,7 +377,7 @@ Bad: Copy-paste the same message for different people
 Better: Customize every message with specific details
 ```
 
-## Building Your Celebration Practice
+### Step 12: Build Your Celebration Practice
 
 Start small and compound:
 
@@ -379,6 +389,21 @@ Start small and compound:
 By month 2, you'll have established a visible pattern. Team members will start replicating it. By month 3, celebration becomes part of your culture.
 
 The best recognition systems feel effortless because they're habitual. But they require intentional practice to build.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

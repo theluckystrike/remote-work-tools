@@ -47,7 +47,17 @@ This guide covers the essential components for setting up incident management th
 - **Without clear protocols**: a production issue at 2 AM means scrambling to find who is on-call, digging through scattered documentation, and making critical decisions in a vacuum.
 - **Start with the five**: most common incident types your team faces, then expand as you encounter new scenarios.
 
-## Defining Incident Severity Levels
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Defining Incident Severity Levels
 
 Establishing clear severity levels upfront prevents over-escalation and ensures appropriate response times. For a team of five, use a four-tier system:
 
@@ -58,7 +68,7 @@ Establishing clear severity levels upfront prevents over-escalation and ensures 
 
 Document these levels in your team wiki and ensure every team member can reference them quickly during an incident.
 
-## Building the On-Call Rotation
+### Step 2: Build the On-Call Rotation
 
 With five team members, a simple weekly rotating on-call schedule works well. Each person takes one week, then rotates. Here is a basic schedule structure in YAML:
 
@@ -84,7 +94,7 @@ rotation:
 
 The primary on-call handles all initial alerts. The secondary on-call provides backup if the primary is unavailable or overwhelmed. Define clear handoff procedures: the outgoing on-call should summarize active issues and any pending changes to the incoming person.
 
-## Creating Effective Runbooks
+### Step 3: Create Effective Runbooks
 
 Runbooks are step-by-step guides for handling specific incidents. They reduce cognitive load during stressful situations and ensure consistent responses regardless of who handles the incident.
 
@@ -102,36 +112,36 @@ Here is an example runbook for high CPU usage:
 ```markdown
 # Runbook: High CPU Usage
 
-## Trigger
+### Step 4: Trigger
 - CPU usage exceeds 90% on any production server for more than 5 minutes
 
-## Immediate Actions
+### Step 5: Immediate Actions
 1. Check if this is expected (batch job, heavy load)
 2. Identify affected servers: `kubectl top nodes`
 
-## Diagnosis
+### Step 6: Diagnosis
 1. Identify processes: `top -c` (Linux) or `Get-Process` (Windows)
 2. Check for recent deployments: `kubectl rollout history deployment/your-app`
 3. Review logs: `kubectl logs -l app=your-app --tail=100`
 
-## Resolution
+### Step 7: Resolution
 1. If deployment issue: `kubectl rollout undo deployment/your-app`
 2. If runaway process: `kill -15 <PID>` (graceful) or `kill -9 <PID>` (force)
 3. Scale up temporarily: `kubectl scale deployment/your-app --replicas=6`
 
-## Verification
+### Step 8: Verification
 - CPU drops below 70% on affected servers
 - Response times return to normal
 - No error spikes in logs
 
-## Follow-up
+### Step 9: Follow-up
 - Document root cause in incident report
 - Schedule post-mortem within 48 hours
 ```
 
 Build runbooks incrementally. Start with the five most common incident types your team faces, then expand as you encounter new scenarios.
 
-## Setting Up Alert Routing
+### Step 10: Set Up Alert Routing
 
 Alert routing ensures the right person receives the right notifications. Use a tiered approach:
 
@@ -176,7 +186,7 @@ receivers:
       to: 'platform-team@example.com'
 ```
 
-## Incident Communication Templates
+### Step 11: Incident Communication Templates
 
 During an incident, clear communication prevents confusion. Prepare templates for common scenarios:
 
@@ -207,7 +217,7 @@ Follow-up: {{ticket_links}}
 Post-mortem: {{date}}
 ```
 
-## Post-Incident Review Process
+### Step 12: Post-Incident Review Process
 
 After resolving any SEV1 or SEV2 incident, conduct a blameless post-mortem within 48 hours. The goal is identifying systemic improvements, not assigning blame.
 
@@ -222,13 +232,28 @@ Use this template:
 
 Track action items in your project management tool and assign clear owners. Review open action items in each team meeting until resolved.
 
-## Putting It All Together
+### Step 13: Putting It All Together
 
 Start by defining your severity levels and documenting them. Build runbooks for your top five most common incidents. Configure alert routing to notify the right people. Practice your incident response in a tabletop exercise before you need it.
 
 With five team members, you have enough scale to provide good coverage without the complexity of larger on-call rotations. The key is consistency: follow your defined processes, update your runbooks after each incident, and continuously improve.
 
 The goal is not eliminating incidents—they will happen. The goal is responding to them calmly, efficiently, and learning from each one.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -40,7 +40,17 @@ Build a hybrid meeting room for $180-500 by prioritizing audio quality, choosing
 - **The Konftel Ego ($180)**: can connect to another unit, extending coverage to medium-sized meeting rooms.
 - **Position the microphone within**: 6 feet of speakers for best results.
 
-## Core Components You Actually Need
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Components You Actually Need
 
 The three pillars of any video conferencing setup are audio, video, and lighting. Skip the marketing fluff—focus on specifications that matter for real meeting quality.
 
@@ -123,7 +133,7 @@ Poor lighting makes even expensive cameras look terrible. A few targeted lights 
 
 The Elgato Key Light Air ($200) offers app control, but budget alternatives like the Neewer LED panels ($40) work equally well for the technical user who doesn't need software integration.
 
-## Automation and Integration
+### Step 2: Automation and Integration
 
 For power users, automating the meeting room experience adds significant value beyond the basic setup.
 
@@ -206,7 +216,7 @@ if __name__ == "__main__":
     configure_room(room)
 ```
 
-## Network Considerations
+### Step 3: Network Considerations
 
 Don't overlook network infrastructure. Even the best equipment fails with poor connectivity:
 
@@ -214,7 +224,7 @@ Don't overlook network infrastructure. Even the best equipment fails with poor c
 - Dedicated VLAN: Isolate meeting traffic from general office network
 - Bandwidth Planning: 1080p video calls need 3-4 Mbps per stream; plan capacity accordingly
 
-## Practical Recommendations by Room Size
+### Step 4: Practical Recommendations by Room Size
 
 | Room Size | Camera | Audio | Estimated Cost |
 |-----------|--------|-------|----------------|
@@ -222,7 +232,7 @@ Don't overlook network infrastructure. Even the best equipment fails with poor c
 | Medium (4-8) | Logitech Brio | 2x daisy-chained | $300-400 |
 | Large (8+) | PTZ Pro 2 + DIY array | Ceiling mics | $500+ |
 
-## Maintenance and Monitoring
+### Step 5: Perform Maintenance and Monitoring
 
 Set up basic monitoring to catch issues before meetings:
 
@@ -262,6 +272,21 @@ if __name__ == "__main__":
         msg["Subject"] = "Meeting Room Alert"
         # Send notification to IT team
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

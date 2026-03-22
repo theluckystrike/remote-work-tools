@@ -46,7 +46,17 @@ This automation pings reviewers automatically without requiring a project manage
 - **Mastering advanced features takes**: 1-2 weeks of regular use.
 - **At 3-5 writers**: The workflow works with minimal overhead.
 
-## Branch-Based Content Workflow
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Branch-Based Content Workflow
 
 Create feature branches for each piece of content. This isolates work, enables parallel writing, and provides clear merge history.
 
@@ -67,12 +77,12 @@ Target word count: 1200
 Due date: 2026-03-20"
 ```
 
-## Async Editorial Review Process
+### Step 2: Async Editorial Review Process
 
 Pull requests serve as the editorial review mechanism. Use issue templates to standardize feedback:
 
 ```markdown
-## Content Review Checklist
+### Step 3: Content Review Checklist
 
 - [ ] Target keyword in title, first 100 words, and meta description
 - [ ] Keyword density between 1-2%
@@ -82,14 +92,14 @@ Pull requests serve as the editorial review mechanism. Use issue templates to st
 - [ ] Readability score above 60 (Flesch-Kincaid)
 - [ ] Meta description under 160 characters
 
-## Editorial Notes
+### Step 4: Editorial Notes
 
 <!-- Add feedback here -->
 ```
 
 Reviewers comment directly on specific lines, just like code reviews. This creates actionable, context-specific feedback rather than vague editorial notes.
 
-## Content Pipeline Automation
+### Step 5: Content Pipeline Automation
 
 Automate repetitive tasks using CI/CD principles. This example uses GitHub Actions to validate content before publication:
 
@@ -126,7 +136,7 @@ TITLE=$(head -20 ${{ github.event.pull_request.title }})
 
 This catches SEO issues before human review, reducing editorial cycle time.
 
-## Writer Onboarding Protocol
+### Step 6: Writer Onboarding Protocol
 
 New distributed writers need clear onboarding. Provide a standardized setup:
 
@@ -149,7 +159,7 @@ git config user.email "you@email.com"
 
 Create a `WRITERS.md` guide that covers your content standards, keyword research process, and editorial voice guidelines. Store this in the repository so it's version-controlled alongside your content.
 
-## Time Zone Coordination
+### Step 7: Time Zone Coordination
 
 Distributed teams need explicit coordination protocols. Use scheduled labels and automation:
 
@@ -197,7 +207,7 @@ lastUpdated: 2026-03-18
 
 Pull this data periodically to identify which content performs well and inform future topic selection.
 
-## Scaling the Workflow as Your Team Grows
+### Step 8: Scaling the Workflow as Your Team Grows
 
 The git-based content workflow scales differently than a traditional CMS. Understanding where friction appears helps you address it before it slows throughput.
 
@@ -232,7 +242,7 @@ content/tech/ @tech-editor
 
 Each reviewer only sees PRs for their vertical, preventing review queue overwhelm.
 
-## Automating Content Quality Scoring
+### Step 9: Automate Content Quality Scoring
 
 Manual quality checks slow down editorial workflows. Automate the parts that follow consistent rules. The validation workflow already checks for keyword presence — extend it with readability and word count checks:
 
@@ -271,7 +281,7 @@ if __name__ == "__main__":
 
 Add this script to your CI pipeline so every PR gets quality feedback automatically before it reaches editorial review.
 
-## Managing Editorial Deadlines Across Time Zones
+### Step 10: Manage Editorial Deadlines Across Time Zones
 
 Distributed content teams face review bottlenecks when a reviewer in UTC+9 cannot respond to a writer in UTC-5 until the next morning. Set explicit SLAs for each review stage and automate deadline reminders:
 
@@ -310,6 +320,21 @@ jobs:
 ```
 
 This automation pings reviewers automatically without requiring a project manager to track every open PR manually. Pair it with a written SLA document specifying response time expectations per review stage.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

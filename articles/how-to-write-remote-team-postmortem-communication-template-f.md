@@ -56,7 +56,17 @@ In distributed teams, communication happens through written channels. Without te
 2. **Speed** — responders spend less time composing, more time fixing
 3. **Completeness** — templates prompt for details that might otherwise be forgotten
 
-## Core Components of an Incident Announcement
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Components of an Incident Announcement
 
 Every incident announcement should contain these elements:
 
@@ -67,12 +77,12 @@ Every incident announcement should contain these elements:
 - **Next steps** — what the team is doing
 - **Timeline** — key events in resolution
 
-## Ready-to-Use Template
+### Step 2: Ready-to-Use Template
 
 Create a file named `incident-template.md` in your team's documentation:
 
 ```markdown
-## Incident Announcement: [Brief Title]
+### Step 3: Incident Announcement: [Brief Title]
 
 **Severity:** [SEV-1/SEV-2/SEV-3]
 **Status:** [Investigating / Identified / Monitoring / Resolved]
@@ -104,7 +114,7 @@ Create a file named `incident-template.md` in your team's documentation:
 | HH:MM | Fix deployed |
 ```
 
-## Postmortem Publication Template
+### Step 4: Postmortem Publication Template
 
 After incident resolution, publish a detailed postmortem using this structure:
 
@@ -114,19 +124,19 @@ After incident resolution, publish a detailed postmortem using this structure:
 **Authors:** [Names of investigators]
 **Status:** [Published / Draft / Review]
 
-## Impact
+### Step 5: Impact
 - **Duration:** [Start] to [End]
 - **Affected Users:** [Percentage or count]
 - **Services Affected:** [List]
 
-## Root Cause
+### Step 6: Root Cause
 [Technical explanation of what actually went wrong. Be specific.]
 
-## Detection
+### Step 7: Detection
 - How was the incident detected?
 - Time from occurrence to detection: [X minutes]
 
-## Response
+### Step 8: Response
 ### Timeline
 | Timestamp | Action |
 |-----------|--------|
@@ -140,7 +150,7 @@ After incident resolution, publish a detailed postmortem using this structure:
 - **Primary responder:** [Name]
 - **Communications lead:** [Name]
 
-## Lessons Learned
+### Step 9: Lessons Learned
 
 ### What Went Well
 - [Specific positive outcome]
@@ -148,7 +158,7 @@ After incident resolution, publish a detailed postmortem using this structure:
 ### What Could Be Improved
 - [Specific actionable improvement]
 
-## Action Items
+### Step 10: Action Items
 | ID | Description | Owner | Due Date |
 |----|-------------|-------|----------|
 | 1 | [Task description] | @username | YYYY-MM-DD |
@@ -160,7 +170,7 @@ After incident resolution, publish a detailed postmortem using this structure:
 ### Example 1: Database Connection Pool Exhaustion
 
 ```markdown
-## Incident Announcement: API 503 Errors
+### Step 11: Incident Announcement: API 503 Errors
 
 **Severity:** SEV-1
 **Status:** Identified
@@ -187,7 +197,7 @@ Expected within 30 minutes at 15:40 UTC.
 ### Example 2: Successful Detection and Fast Recovery
 
 ```markdown
-## Postmortem: CDN Cache Invalidation Failure
+### Step 12: Postmortem: CDN Cache Invalidation Failure
 
 ### Root Cause
 The new CDN provider API returned HTTP 200 for invalidation requests even when the underlying request was malformed. Our monitoring only checked for HTTP error codes, missing this edge case.
@@ -227,7 +237,7 @@ If this incident relates to previous ones, create explicit connections:
 
 This pattern helps identify systemic issues that require coordinated remediation.
 
-## Automating Template Distribution
+### Step 13: Automate Template Distribution
 
 Store templates in a centralized location and version control:
 
@@ -244,7 +254,7 @@ Store templates in a centralized location and version control:
 
 Many teams integrate these templates directly into their incident management tools (PagerDuty, Opsgenie, or custom Slack bots) to auto-populate fields when incidents are declared.
 
-## Auto-Generating Postmortem Drafts from Incident Data
+### Step 14: Auto-Generating Postmortem Drafts from Incident Data
 
 Most teams lose 30-60 minutes after an incident reconstructing the timeline from Slack threads and alert logs. Automate the first draft by pulling data programmatically before the review meeting:
 
@@ -282,20 +292,20 @@ class PostmortemDraftGenerator:
 **Status:** Draft — complete before publishing
 **Generated:** {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}
 
-## Impact
+### Step 15: Impact
 - **Duration:** [fill from timeline below]
 - **Affected Users:** [fill]
 - **Services Affected:** [fill]
 
-## Root Cause
+### Step 16: Root Cause
 [To be determined during review meeting]
 
-## Timeline
+### Step 17: Timeline
 | Timestamp (UTC) | Event |
 |---|---|
 {chr(10).join(events[:20])}
 
-## Action Items
+### Step 18: Action Items
 | ID | Description | Owner | Due Date |
 |---|---|---|---|
 | 1 | [add during review] | @username | YYYY-MM-DD |
@@ -305,7 +315,7 @@ class PostmortemDraftGenerator:
 
 Running this script immediately after incident resolution gives your team a structured draft with the actual timeline populated. The review meeting focuses on root cause and action items rather than reconstructing "what happened when."
 
-## Distributing Postmortems to the Right Audiences
+### Step 19: Distributing Postmortems to the Right Audiences
 
 A single postmortem serves multiple audiences with different information needs. Rather than writing separate documents, use section tagging to create targeted summaries:
 
@@ -315,17 +325,17 @@ On [date], [service] experienced an outage lasting [duration] affecting [X%] of 
 The root cause was [one-sentence explanation]. We have deployed a fix and implemented
 [number] preventive measures to avoid recurrence.
 
-## Technical Root Cause [audience: engineering]
+### Step 20: Technical Root Cause [audience: engineering]
 [Full technical explanation with system diagrams, code references, and failure chain]
 
-## Customer Communication [audience: support, customer success]
+### Step 21: Customer Communication [audience: support, customer success]
 During the incident, customers experienced [specific symptoms].
 No data was lost. Customers who [specific action] during the window should [specific remediation].
 ```
 
 Distribute sections by audience using your documentation platform's permission system. Customers get the executive summary and customer communication sections through your status page. Engineering gets the full technical document internally. Leadership gets a condensed version with cost impact added.
 
-## Learning-Focused Language in Postmortems
+### Step 22: Learning-Focused Language in Postmortems
 
 Postmortem quality degrades when teams use blame-focused language. This happens subtly — "the engineer failed to" versus "the system allowed," or "human error" versus "missing guardrail." Use these language substitutions to keep postmortems psychologically safe and more actionable:
 
@@ -337,6 +347,21 @@ Postmortem quality degrades when teams use blame-focused language. This happens 
 | "X made a mistake" | "The system permitted X without a confirmation step" |
 
 The shift from person to system is deliberate: action items that fix systems prevent the same class of error regardless of who's on the keyboard next time. Action items that blame individuals don't generalize.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

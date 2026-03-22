@@ -40,7 +40,17 @@ Remote onboarding has evolved significantly. The tools, processes, and expectati
 - **Remote teams must ship equipment**: which can take 5-10 business days internationally.
 - **New hires are your**: best source of signal on where your onboarding has drifted from reality—experienced team members become blind to gaps they've long since internalized.
 
-## Pre-Arrival Preparation
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Pre-Arrival Preparation
 
 Successful remote onboarding begins before the new hire's first day. Engineering teams should prepare infrastructure access, development environments, and documentation in advance.
 
@@ -106,7 +116,7 @@ WORKDIR /workspace
 
 Provide new team members with pre-configured environments. Docker Desktop, OrbStack, or Rancher Desktop enable quick local setup.
 
-## First Week Structure
+### Step 2: First Week Structure
 
 The first week sets expectations and builds momentum. Structure onboarding to balance information absorption with meaningful contribution.
 
@@ -153,7 +163,7 @@ onboarding/
 
 Keep documentation current. Assign documentation owners who review and update content quarterly.
 
-## Asynchronous Communication Integration
+### Step 3: Asynchronous Communication Integration
 
 Remote teams span time zones. Effective onboarding prepares developers for asynchronous workflows.
 
@@ -162,22 +172,22 @@ Remote teams span time zones. Effective onboarding prepares developers for async
 Asynchronous communication lacks the immediate feedback of face-to-face conversation. Teach new hires to provide context:
 
 ```markdown
-## Problem Description
+### Step 4: Problem Description
 The payment processing endpoint returns 500 errors when handling
 transactions over $10,000.
 
-## Steps to Reproduce
+### Step 5: Steps to Reproduce
 1. Authenticate as a user with admin privileges
 2. POST to /api/v1/payments with amount: 15000
 3. Observe 500 response
 
-## Expected Behavior
+### Step 6: Expected Behavior
 Transaction should be processed or return validation error.
 
-## Actual Behavior
+### Step 7: Actual Behavior
 Server returns 500 Internal Server Error
 
-## Environment
+### Step 8: Environment
 - API Version: 2.3.1
 - Database: PostgreSQL 15
 - Payment Gateway: Stripe v3
@@ -207,7 +217,7 @@ Explicitly document your team's async communication norms and share them during 
 
 New hires from office environments sometimes over-rely on real-time messaging to compensate for feeling disconnected. Coaching them into async patterns early prevents them from becoming a bottleneck when time zones diverge.
 
-## Mentorship Programs
+### Step 9: Mentorship Programs
 
 Structured mentorship accelerates integration. Pair new hires with experienced developers who can provide guidance.
 
@@ -265,7 +275,7 @@ Set measurable objectives for each milestone:
 
 Document progress and address concerns proactively.
 
-## Tools for Remote Onboarding
+### Step 10: Tools for Remote Onboarding
 
 Select tools that support asynchronous collaboration and reduce friction.
 
@@ -281,7 +291,7 @@ Select tools that support asynchronous collaboration and reduce friction.
 
 Evaluate tools based on team needs. Avoid adopting trendy solutions that don't solve specific problems.
 
-## Measuring Onboarding Success
+### Step 11: Measuring Onboarding Success
 
 Track metrics to improve the onboarding process continuously.
 
@@ -303,6 +313,21 @@ After each new hire completes their 90-day period, schedule a 30-minute onboardi
 - What would have made your first month faster?
 
 Feed these answers directly into documentation updates. New hires are your best source of signal on where your onboarding has drifted from reality—experienced team members become blind to gaps they've long since internalized.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

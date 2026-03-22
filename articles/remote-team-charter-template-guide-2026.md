@@ -49,19 +49,29 @@ Without explicit agreements, remote teams face friction in communication, decisi
 
 Unlike a traditional employee handbook, a team charter is a living agreement shaped by the team itself. It evolves as the team matures and circumstances change.
 
-## Essential Sections of a Remote Team Charter
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Essential Sections of a Remote Team Charter
 
 ### 1. Team Purpose and Objectives
 
 Start with clarity on why the team exists and what it aims to achieve. This section connects daily work to larger organizational goals.
 
 ```markdown
-## Team Purpose
+### Step 2: Team Purpose
 
 The Platform Team ensures reliable deployment pipelines and maintains infrastructure
 supporting 99.9% uptime for customer-facing services.
 
-## 2026 Objectives
+### Step 3: 2026 Objectives
 - Reduce deployment failure rate to under 2%
 - Achieve MTTR (Mean Time To Recovery) under 30 minutes
 - Migrate remaining services to Kubernetes
@@ -72,7 +82,7 @@ supporting 99.9% uptime for customer-facing services.
 Remote teams spanning multiple time zones must define core hours when everyone should be online simultaneously.
 
 ```markdown
-## Operating Hours
+### Step 4: Operating Hours
 
 - Core overlap hours: 10:00-14:00 UTC (all team members required)
 - Flexible hours: 06:00-10:00 UTC and 14:00-18:00 UTC
@@ -90,7 +100,7 @@ Team member time zones:
 Specify which tools to use for different communication types and expected response times.
 
 ```markdown
-## Communication Channels
+### Step 5: Communication Channels
 
 | Type | Channel | Response Time | Examples |
 |------|---------|---------------|----------|
@@ -99,7 +109,7 @@ Specify which tools to use for different communication types and expected respon
 | Async | Notion/GitHub | 24 hours | RFCs, documentation |
 | Formal | Email | 48 hours | Contracts, HR matters |
 
-## Meeting Guidelines
+### Step 6: Meeting Guidelines
 - No meetings on Wednesdays (deep work day)
 - Maximum 30-minute daily standups
 - All meetings require agendas 24 hours in advance
@@ -111,7 +121,7 @@ Specify which tools to use for different communication types and expected respon
 Prevent bottlenecks by documenting who has authority to make what types of decisions.
 
 ```markdown
-## Decision-Making Authority
+### Step 7: Decision-Making Authority
 
 ### Team Lead Decisions (immediate)
 - Sprint planning and task assignment
@@ -134,7 +144,7 @@ Prevent bottlenecks by documenting who has authority to make what types of decis
 Document the team's technical stack and how work flows through the system.
 
 ```markdown
-## Tool Stack
+### Step 8: Tool Stack
 
 - **Project Management**: Linear
 - **Code Review**: GitHub PRs with required approvals
@@ -142,7 +152,7 @@ Document the team's technical stack and how work flows through the system.
 - **Async Updates**: Loom video updates
 - **Incident Response**: PagerDuty + Slack
 
-## Workflow
+### Step 9: Workflow
 
 1. Tasks created in Linear with acceptance criteria
 2. Branch naming: `type/TICKET-123-description`
@@ -176,7 +186,7 @@ Establish clear expectations for how team members are evaluated and how feedback
 Support growth by allocating time and resources for learning.
 
 ```markdown
-## Development and Growth
+### Step 10: Development and Growth
 
 - 4 hours per week for learning and experimentation (Friday afternoons)
 - Annual conference budget: $2,000 per person
@@ -184,14 +194,14 @@ Support growth by allocating time and resources for learning.
 - Mentorship pairing for new team members
 ```
 
-## Implementing Your Charter
+### Step 11: Implementing Your Charter
 
 ### Initial Creation Process
 
 Bring the team together to draft the charter collaboratively. This creates buy-in and ensures all perspectives are represented.
 
 ```markdown
-## Charter Creation Timeline
+### Step 12: Charter Creation Timeline
 
 Day 1: Brainstorm session - What works well? What causes friction?
 Day 2: Draft sections based on discussion
@@ -205,52 +215,52 @@ Day 5+: Implement and iterate
 Treat the charter as a living document. Schedule quarterly reviews to ensure it remains relevant.
 
 ```markdown
-## Charter Review Process
+### Step 13: Charter Review Process
 
 - Monthly: Review during retrospectives, note needed changes
 - Quarterly: Formal review session, update sections as needed
 - Annually: Full revision, align with company goals
 ```
 
-## Example: Complete Team Charter Template
+### Step 14: Example: Complete Team Charter Template
 
 ```markdown
 # Team Charter: [Team Name]
 
-## Purpose
+### Step 15: Purpose
 [Brief description of team mission and value]
 
-## Membership
+### Step 16: Membership
 | Name | Role | Time Zone | Primary Skills |
 |------|------|-----------|----------------|
 | [Name] | [Role] | [TZ] | [Skills] |
 
-## Operating Hours
+### Step 17: Operating Hours
 - Core: [UTC times]
 - Flexible: [UTC times]
 - On-call rotation: [schedule]
 
-## Communication
+### Step 18: Communication
 - [Channel matrix table]
 
-## Decision Rights
+### Step 19: Decision Rights
 - [Authority matrix]
 
-## Workflow
+### Step 20: Workflow
 1. [Step 1]
 2. [Step 2]
 3. [Step 3]
 
-## Norms
+### Step 21: Norms
 - [Behavioral expectations]
 
-## Signatures
+### Step 22: Signatures
 - [ ] Team Lead: _______________
 - [ ] Team Member: _______________
 - [ ] Team Member: _______________
 ```
 
-## Common Pitfalls to Avoid
+### Step 23: Common Pitfalls to Avoid
 
 **Making it too rigid.** A charter should guide behavior, not replace judgment. Allow flexibility for exceptional circumstances.
 
@@ -262,7 +272,7 @@ Treat the charter as a living document. Schedule quarterly reviews to ensure it 
 
 **Copy-pasting templates.** A generic charter won't address your team's specific challenges. Customize for your context.
 
-## Version-Controlling Your Team Charter
+### Step 24: Version-Controlling Your Team Charter
 
 Storing a charter in a shared Google Doc or Confluence page creates accountability problems. There's no audit trail for who changed what, no way to revert contentious edits, and no mechanism for the team to formally approve changes.
 
@@ -287,12 +297,12 @@ git push origin charter/update-meeting-norms
 
 This creates a full history of every charter change, who proposed it, and what feedback was raised. When a team member questions a norm, you can trace it to the original discussion rather than arguing about what was "always the rule."
 
-## Handling Onboarding: Charter as the First Day Document
+### Step 25: Handling Onboarding: Charter as the First Day Document
 
 New team members should receive the charter before their first day. Structure the onboarding section to answer the questions a new hire can't ask without feeling intrusive:
 
 ```markdown
-## Onboarding Section (read this first)
+### Step 26: Onboarding Section (read this first)
 
 ### What "async-first" actually means for day-to-day work
 
@@ -321,7 +331,7 @@ Come prepared to flag any tickets you think are under-estimated.
 
 The specificity matters. Vague onboarding sections ("we value communication") tell new hires nothing actionable. Explicit examples eliminate the guesswork that causes friction in the first 60 days.
 
-## Quarterly Charter Reviews: What to Actually Revisit
+### Step 27: Quarterly Charter Reviews: What to Actually Revisit
 
 Not all charter sections age at the same rate. Focus quarterly reviews on sections with operational impact rather than aspirational statements:
 
@@ -341,6 +351,21 @@ Not all charter sections age at the same rate. Focus quarterly reviews on sectio
 - Signature page (it's a record, don't alter it)
 
 Run the quarterly review as a 60-minute async session: post specific questions about each high-priority section in Notion or Confluence, let team members comment asynchronously over two days, then hold a 30-minute synchronous call to resolve disagreements and merge the updated version.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

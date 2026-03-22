@@ -38,7 +38,17 @@ Start every remote ideation session with a "silent start" -- send the problem pr
 - **Topics covered**: setting up your ideation environment, essential setup checklist, session: feature brainstorm
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Setting Up Your Ideation Environment
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Set Up Your Ideation Environment
 
 Before starting any ideation session, ensure your technical infrastructure supports collaboration without friction. A poorly configured environment kills momentum faster than weak ideas.
 
@@ -55,7 +65,7 @@ Before starting any ideation session, ensure your technical infrastructure suppo
 For text-based asyncIdeation, consider using a shared document with structured sections. Google Docs or Notion works well, but you can also use a simple markdown-based approach:
 
 ```markdown
-## Session: Feature Brainstorm
+### Step 2: Session: Feature Brainstorm
 **Date:** 2026-03-15
 **Participants:** @alice, @bob, @charlie
 
@@ -73,7 +83,7 @@ How might we reduce onboarding time for new developers?
 - [ ] @bob to research video hosting options
 ```
 
-## Help Techniques That Work Remotely
+### Step 3: Help Techniques That Work Remotely
 
 ### The Silent Start Method
 
@@ -108,7 +118,7 @@ Inspired by improv comedy, the yes-and technique encourages participants to buil
 
 This creates psychological safety and often leads to unexpected innovations that wouldn't emerge from individual brainstorming.
 
-## Structured Ideation Frameworks
+### Step 4: Structured Ideation Frameworks
 
 ### SCAMPER for Technical Problems
 
@@ -142,7 +152,7 @@ Round 2 (5 min): Each person reviews adjacent column, adds improvements
 Round 3 (5 min): Final improvements and cross-pollination
 ```
 
-## Tools for Remote Ideation
+### Step 5: Tools for Remote Ideation
 
 ### Synchronous Collaboration
 
@@ -182,7 +192,7 @@ def vote(idea_id):
 sorted_ideas = sorted(ideas, key=lambda x: x["votes"], reverse=True)
 ```
 
-## Post-Session Workflow
+### Step 6: Post-Session Workflow
 
 Effective ideation doesn't end when the meeting closes. Structure your follow-up process:
 
@@ -206,7 +216,7 @@ ideas:
     next_review: "2026-03-29"
 ```
 
-## Common Pitfalls to Avoid
+### Step 7: Common Pitfalls to Avoid
 
 Avoid these mistakes that reduce ideation session effectiveness:
 
@@ -225,7 +235,7 @@ For teams larger than 8 people or complex problems requiring diverse input, use 
 Running ideation in parallel tracks prevents group dominance and surfaces diverse perspectives:
 
 ```markdown
-## 5-Team Parallel Ideation (2 hours total)
+### Step 8: 5-Team Parallel Ideation (2 hours total)
 
 ### Wave 1: Individual Generation (20 min)
 - Each person documents 5 ideas solo
@@ -292,24 +302,39 @@ For teams that can't synchronously meet:
 **Voting closes:** 2026-03-24 at 17:00 UTC
 **Selected ideas reviewed:** 2026-03-25
 
-## Problem Statement
+### Step 9: Problem Statement
 [Clear 1-2 sentence problem]
 
-## Submission Guidelines
+### Step 10: Submission Guidelines
 - One idea per comment/entry
 - Format: [Title] — [1 paragraph explanation]
 - Examples welcome, links encouraged
 - React with emoji (👍, 🚀, 💡) to show support
 
-## Top Ideas After Voting
+### Step 11: Top Ideas After Voting
 1. [Idea with X votes] — @owner assigned, deadline 2026-04-05
 2. [Idea with Y votes] — @owner assigned, deadline 2026-04-05
 
-## What Happened to Other Ideas
+### Step 12: What Happened to Other Ideas
 - [Rejected idea]: Blocked by infrastructure limitation
 - [Deferred idea]: Worth revisiting in Q3
 - [Duplicate]: Similar to [winning idea], merged
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

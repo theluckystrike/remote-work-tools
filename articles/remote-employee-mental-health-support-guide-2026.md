@@ -40,7 +40,17 @@ Remote work has become the standard for many development teams, and 2026 brings 
 - **Choosing the right platform**: matters because deployment affects both utilization and employee trust.
 - **For organizations above 50 people**: Spring Health or Lyra Health provides clinical-grade support with measurable utilization data.
 
-## The Remote Work Mental Health Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Remote Work Mental Health Challenge
 
 Unlike office environments, remote work blurs the boundaries between professional and personal life. Without the physical separation of a commute, many developers find themselves working longer hours, experiencing isolation, and struggling to maintain work-life balance. Studies consistently show that remote workers report higher rates of burnout when organizations fail to implement intentional support systems.
 
@@ -60,7 +70,7 @@ Organizations have several dedicated tools to choose from for formal employee me
 
 For smaller teams (under 25 people), a combination of Calm for Business plus one mental health day per month provides a practical starting point without the overhead of a full EAP. For organizations above 50 people, Spring Health or Lyra Health provides clinical-grade support with measurable utilization data.
 
-## Establishing Healthy Communication Patterns
+### Step 2: Establishing Healthy Communication Patterns
 
 Asynchronous communication forms the backbone of successful remote teams. However, poorly implemented async workflows create anxiety and force employees into reactive modes that harm mental health. The fix is making availability expectations explicit and building tooling that enforces them.
 
@@ -110,7 +120,7 @@ Before any tooling, define and publish response time expectations in your team h
 
 These norms, written down and visible, eliminate the ambient anxiety that comes from wondering whether you are expected to respond immediately to every ping.
 
-## Building Support Into Your Workflow
+### Step 3: Build Support Into Your Workflow
 
 Automation handles routine tasks and frees mental energy for meaningful work.
 
@@ -150,7 +160,7 @@ function protectFocusTime() {
 
 Reclaim.ai and Clockwise automate this pattern more fully — they analyze your calendar and automatically schedule focus blocks while keeping meeting availability open for collaboration.
 
-## Step-by-Step Implementation Guide
+### Step 4: Step-by-Step Implementation Guide
 
 Implementing a mental health support system for a remote team requires a sequenced approach. Moving too fast creates performative wellness theater; moving too slowly means people burn out waiting for support.
 
@@ -168,7 +178,7 @@ Implementing a mental health support system for a remote team requires a sequenc
 
 7. **Normalize mental health days** — Add "personal wellness day" as an official time-off category alongside sick days and vacation. The signal this sends — that mental health is treated as real health — is more important than the policy itself.
 
-## Creating Psychological Safety
+### Step 5: Create Psychological Safety
 
 Psychological safety — the belief that one will not be punished for making mistakes or raising concerns — directly impacts mental health outcomes. Remote teams must build this deliberately because the casual visibility that makes office psychological safety easier to maintain does not exist in distributed environments.
 
@@ -177,7 +187,7 @@ Psychological safety — the belief that one will not be punished for making mis
 Code review is a common source of remote work anxiety. Implement a review template that structures feedback constructively:
 
 ```markdown
-## Code Review - [Feature Name]
+### Step 6: Code Review - [Feature Name]
 
 ### What works well
 - Specific positive observations here
@@ -194,7 +204,7 @@ Code review is a common source of remote work anxiety. Implement a review templa
 
 Using structured templates reduces the ambiguity that leads to anxiety. A comment that follows a predictable format is easier to receive than freeform critique, which can read as harsh in text even when intended kindly.
 
-## Managing Burnout Proactively
+### Step 7: Manage Burnout Proactively
 
 Burnout prevention requires monitoring patterns rather than waiting for symptoms. Implement personal analytics to track work patterns:
 
@@ -241,7 +251,7 @@ class WorkPatternTracker:
 
 This tracker helps identify when work hours exceed healthy limits before burnout takes hold. Commercial alternatives include Timing (macOS), RescueTime, and Toggl — all of which produce weekly reports that create awareness without requiring manual logging.
 
-## Practical Daily Habits for Remote Wellbeing
+### Step 8: Practical Daily Habits for Remote Wellbeing
 
 Beyond tooling, these habits provide the foundation that no software can replace:
 
@@ -278,6 +288,21 @@ Address it directly with the individual: "I notice you're regularly online past 
 
 **What metrics should I track to evaluate whether mental health initiatives are working?**
 Track: voluntary turnover rate (quarterly), eNPS (monthly), self-reported workload scores (monthly survey), EAP utilization rate, and average response time to non-urgent messages. Improving trends across three or more of these indicators confirms the interventions are having systemic effect.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 
