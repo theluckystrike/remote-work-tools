@@ -177,4 +177,15 @@ For teams wanting OKRs + performance management bundled: Use 15Five, but underst
 
 Most critical: Pick a tool and commit. OKRs fail not because of software—they fail because teams stop checking in by week 6. Pick something lightweight (Weekdone) and integrate it into your Friday ritual. That matters more than features.
 
+
+
+## Related Articles
+
+- [Example Linear API query for OKR progress](/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
+- [OKR Tracking for a Remote Product Team of 12 People](/okr-tracking-for-a-remote-product-team-of-12-people/)
+- [Remote Team OKR and Goal Tracking 2026](/remote-team-okr-goal-tracking-2026/)
+
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}

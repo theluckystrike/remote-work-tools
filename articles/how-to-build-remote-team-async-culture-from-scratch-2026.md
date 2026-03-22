@@ -363,4 +363,15 @@ Async-first culture is built on four pillars: centralized knowledge base, clear 
 
 Start small. Eliminate daily standups. Document one decision. Record one Loom instead of a meeting. Build the discipline over 2-3 months. By month 4, your team will operate at a completely different velocity, with better decision quality and higher job satisfaction.
 
+
+
+## Related Articles
+
+- [How to Build a Remote Team Handbook from Scratch](/how-to-build-a-remote-team-handbook-from-scratch/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [How to Build a Remote Team Wiki from Scratch](/how-to-build-remote-team-wiki-from-scratch/)
+
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}
