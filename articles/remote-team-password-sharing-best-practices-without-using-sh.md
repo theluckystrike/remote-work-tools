@@ -10,7 +10,7 @@ permalink: /remote-team-password-sharing-best-practices-without-using-sh/
 categories: [guides]
 tags: [remote-work-tools, password-security, team-passwords, secret-management, developer-tools, remote-teams, best-of, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

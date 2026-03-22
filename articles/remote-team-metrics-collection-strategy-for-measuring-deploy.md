@@ -11,7 +11,7 @@ categories: [guides]
 voice-checked: true
 tags: [remote-work-tools, devops, deployment-metrics, dora-metrics, remote-teams, distributed-teams, team-metrics, lead-time]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 ---
 
