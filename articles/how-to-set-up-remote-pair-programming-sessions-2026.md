@@ -4,10 +4,11 @@ description: "Guide to VS Code Live Share, Tuple, Pop, and CodeTogether for pair
 author: Remote Work Tools Guide
 date: 2026-03-22
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 permalink: /how-to-set-up-remote-pair-programming-sessions-2026/
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
