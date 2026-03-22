@@ -9,7 +9,7 @@ permalink: /remote-team-book-club-format-and-facilitation-guide-developers/
 categories: [guides]
 tags: [remote-work-tools, book-club, remote-work, team-building]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
