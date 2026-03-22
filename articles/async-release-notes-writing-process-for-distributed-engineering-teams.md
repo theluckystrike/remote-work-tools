@@ -8,7 +8,7 @@ permalink: /async-release-notes-writing-process-for-distributed-engineering-team
 categories: [guides]
 tags: [remote-work-tools, release-notes, remote-work, async, engineering, team-collaboration, documentation]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
