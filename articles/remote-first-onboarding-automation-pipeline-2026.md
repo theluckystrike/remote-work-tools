@@ -11,10 +11,10 @@ tags: [remote-work-tools, remote-work, automation, onboarding, operations]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true
----
+intent-checked: true---
 
 {% raw %}
+
 
 Manual onboarding in distributed teams means someone remembers to send an invite, maybe. New team members wait for Slack access, then email, then GitHub. Some tasks slip through cracks. Two weeks in, a critical system access is still pending.
 

@@ -15,7 +15,6 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-
 Building a personal ATS (Applicant Tracking System) with Notion databases gives solo recruiters working remotely a powerful, customizable tool without enterprise software costs. Notion's relational database structure maps naturally to recruitment workflows, and this guide shows you how to construct templates that scale from 10 candidates to 200+ while maintaining data integrity and workflow clarity.
 
 ## Why Notion Works for Solo Recruiters

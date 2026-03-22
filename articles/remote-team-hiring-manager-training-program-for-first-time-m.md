@@ -13,9 +13,23 @@ reviewed: true
 intent-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Example: Finding interview slots across time zones"
+description: "A practical training framework for first-time managers leading hiring in remote and distributed companies. Includes templates, workflows, and code"
+date: 2026-03-16
+last_modified_at: 2026-03-16
+author: theluckystrike
+permalink: /remote-team-hiring-manager-training-program-for-first-time-m/
+categories: [guides]
+score: 9
+voice-checked: true
+reviewed: true
+intent-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
-
 Transitioning from individual contributor to hiring manager in a distributed company requires mastering new skills that rarely come up in technical work. Remote hiring involves different tools, communication patterns, and evaluation methods than in-person processes. This guide provides a structured training program to help first-time managers build effective hiring practices for distributed teams.
 
 ## The Remote Hiring Manager Skill Set

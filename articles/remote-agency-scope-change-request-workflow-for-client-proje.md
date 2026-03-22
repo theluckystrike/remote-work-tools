@@ -11,8 +11,7 @@ tags: [remote-work-tools, scope-change, client-communication, remote-agency, wor
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 
 {% raw %}

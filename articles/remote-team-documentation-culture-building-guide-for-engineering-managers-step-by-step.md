@@ -13,28 +13,26 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Code Review Guide"
+description: "A practical step-by-step guide for engineering managers to build documentation culture in remote teams. Includes templates, workflows, and code examples"
+date: 2026-03-16
+last_modified_at: 2026-03-16
+author: "Remote Work Tools Guide"
+permalink: /remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/
+reviewed: true
+score: 8
+categories: [guides]
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
-
 Building documentation culture in a remote engineering team requires deliberate effort, clear systems, and consistent reinforcement. Unlike co-located teams where knowledge transfers happen informally through hallway conversations, remote teams need explicit, written-down processes that team members can discover and follow independently.
 
 This guide provides a step-by-step framework for engineering managers who want to establish sustainable documentation practices. Each step builds on the previous one, creating a foundation that scales as your team grows.
-
-# ADR-001**: Use PostgreSQL for Primary Database
-
-## Status
-Accepted
-
-## Context
-We need a relational database for our user data.
-- Prioritize onboarding documentation because:
-
-1.
-- **Use your version control**: system as the canonical home for technical documentation, and reserve your wiki for process and team information.
-- **The most successful remote**: teams treat documentation as a core engineering practice, not an administrative burden.
-- **Checklist requires**: "Documentation updated: Yes/No"
-3.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Step 1: Audit Your Current Documentation State
 

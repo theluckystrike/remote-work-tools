@@ -11,8 +11,7 @@ tags: [remote-work-tools, office-hoteling, hybrid-work, workspace-management]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

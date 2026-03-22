@@ -11,8 +11,7 @@ tags: [remote-work-tools, nix, docker, devops, development-tools, comparison]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

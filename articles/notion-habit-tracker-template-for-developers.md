@@ -13,6 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
+---
+layout: default
+title: "Notion Habit Tracker Template for Developers"
+description: "A practical guide to building a habit tracker in Notion designed specifically for developers. Includes template structures, database configurations"
+date: 2026-03-15
+last_modified_at: 2026-03-22
+author: "Remote Work Tools Guide"
+permalink: /notion-habit-tracker-template-for-developers/
+categories: [productivity, guides]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools]
+---
 
 {% raw %}
 

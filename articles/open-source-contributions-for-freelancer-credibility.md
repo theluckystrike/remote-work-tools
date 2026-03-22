@@ -13,6 +13,21 @@ reviewed: true
 score: 9
 tags: [remote-work-tools]
 ---
+---
+layout: default
+title: "Open Source Contributions for Freelancer Credibility"
+description: "Learn how strategic open source contributions build freelancer credibility. Practical strategies, GitHub workflows, and code examples for developers"
+date: 2026-03-15
+last_modified_at: 2026-03-22
+author: theluckystrike
+permalink: /open-source-contributions-for-freelancer-credibility/
+categories: [guides]
+intent-checked: true
+voice-checked: true
+reviewed: true
+score: 9
+tags: [remote-work-tools]
+---
 
 {% raw %}
 

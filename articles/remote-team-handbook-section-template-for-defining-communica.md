@@ -11,8 +11,7 @@ tags: [remote-work-tools, remote-work, communication, team-handbook, response-ti
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

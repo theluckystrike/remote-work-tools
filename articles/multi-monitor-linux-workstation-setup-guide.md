@@ -12,6 +12,20 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
+---
+layout: default
+title: "Multi-Monitor Linux Workstation Setup Guide"
+description: "Configure a multi-monitor Linux workstation for remote development. Covers xrandr, Wayland, i3, per-monitor DPI, and workspace assignment across displays."
+date: 2026-03-21
+author: theluckystrike
+permalink: /multi-monitor-linux-workstation-setup-guide/
+categories: [guides]
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
@@ -19,17 +33,7 @@ A multi-monitor Linux workstation requires configuration that Windows and macOS 
 
 This guide covers the complete setup: detecting displays, configuring layouts, handling mixed DPI, setting up workspace assignment in i3/Sway, and persisting everything across reboots.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Check What Linux Sees
+## Check What Linux Sees
 
 ```bash
 # X11 systems
@@ -50,7 +54,7 @@ gnome-randr        # GNOME
 
 The `+0+0` and `+2560+0` are the offsets — they tell you which monitor is to the left or right. A display at `+2560+0` starts at pixel 2560 horizontally, placing it directly to the right of a 2560-wide primary display.
 
-### Step 2: Set Display Layout with xrandr
+## Set Display Layout with xrandr
 
 ```bash
 # Two monitors side by side — HDMI-1 primary, DP-1 to the right
@@ -70,7 +74,7 @@ xrandr --output HDMI-1 --primary --mode 2560x1440 --rate 144 --pos 0x0 \
 xrandr --output HDMI-2 --off
 ```
 
-### Step 3: Persist Layout with autorandr
+## Persist Layout with autorandr
 
 `xrandr` commands reset on reboot. `autorandr` saves named profiles and auto-applies them when the same monitors are connected.
 
@@ -94,7 +98,7 @@ autorandr --change
 
 Add `autorandr --change` to your session startup so it fires whenever monitors change — docking/undocking works automatically.
 
-### Step 4: Handle Mixed DPI (HiDPI + 1080p)
+## Handle Mixed DPI (HiDPI + 1080p)
 
 The most common setup: a 4K laptop screen at 200% scaling plus a 1080p external at 100%. This is the hardest multi-monitor problem on Linux.
 
@@ -126,7 +130,7 @@ output HDMI-A-1 pos 0 0
 output DP-1 pos 1920 0
 ```
 
-### Step 5: i3 Config: Assign Workspaces to Monitors
+## i3 Config: Assign Workspaces to Monitors
 
 i3's workspace-to-output binding keeps code on one monitor and browser on another permanently.
 
@@ -158,7 +162,7 @@ bindsym $mod+Right focus output right
 
 Workspaces 1-4 open on the primary monitor, 5-8 on the secondary. Browser starts on workspace 5 (secondary). Terminal and editor on workspace 1 (primary). No manual dragging.
 
-### Step 6: Sway Config for Wayland
+## Sway Config for Wayland
 
 ```bash
 # ~/.config/sway/config
@@ -186,7 +190,7 @@ workspace 6 output DP-1
 workspace 7 output DP-1
 ```
 
-### Step 7: Font Rendering at Mixed DPI
+## Font Rendering at Mixed DPI
 
 ```bash
 # ~/.config/fontconfig/fonts.conf
@@ -222,7 +226,7 @@ echo "Xft.dpi: 144" >> ~/.Xresources
 xrdb -merge ~/.Xresources
 ```
 
-### Step 8: Wallpaper Per Monitor
+## Wallpaper Per Monitor
 
 ```bash
 # feh — sets different wallpaper per display (X11)
@@ -237,7 +241,7 @@ output HDMI-A-1 background /path/to/left.jpg fill
 output DP-1 background /path/to/right.jpg fill
 ```
 
-### Step 9: Status Bar Per Monitor
+## Status Bar Per Monitor
 
 i3bar and Waybar can show a bar on every monitor:
 
@@ -260,7 +264,7 @@ bar {
 }
 ```
 
-### Step 10: Test Layout Without Committing
+## Test Layout Without Committing
 
 ```bash
 # X11: test a layout change, it reverts on next login
@@ -273,7 +277,7 @@ autorandr --save test-layout
 autorandr previous
 ```
 
-### Step 11: Hardware: What Actually Works
+## Hardware: What Actually Works
 
 Not every GPU and cable combination delivers a clean multi-monitor setup on Linux. Common failure points:
 
@@ -294,7 +298,7 @@ Not every GPU and cable combination delivers a clean multi-monitor setup on Linu
 
 If your 4K monitor is locked to 30Hz, check whether you have an HDMI 1.4 cable. Replacing it with DisplayPort or HDMI 2.0+ resolves this immediately.
 
-### Step 12: Hyprland Configuration (Modern Wayland Alternative)
+## Hyprland Configuration (Modern Wayland Alternative)
 
 Hyprland has become the go-to Wayland compositor for developers who want a tiling workflow without the X11 limitations. Multi-monitor configuration is straightforward:
 
@@ -335,21 +339,6 @@ Hyprland's advantage over i3 is native per-monitor fractional scaling without wo
 | KDE Plasma | Wayland / X11 | Native (Wayland) | Yes (Wayland) | Feature-rich desktop |
 
 For a pure development workstation where you want tiling and keyboard control, i3 (X11) or Sway (Wayland) are the most stable options in 2026. GNOME and KDE Plasma handle multi-monitor DPI cleanly on Wayland if you prefer a full desktop environment.
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Related Reading
 

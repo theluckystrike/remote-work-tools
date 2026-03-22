@@ -11,10 +11,10 @@ tags: [remote-work-tools, legal-billing, remote-work, law-firms, time-tracking, 
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
+
 
 Distributed law firms need billing software with real-time time tracking, multi-jurisdiction trust accounting, and API access for custom integrations. Clio, MyCase, PracticePanther, and CosmoLex offer different feature sets—from $39/user/month starter plans to enterprise solutions. This comparison evaluates leading platforms from a technical perspective, focusing on API capabilities, compliance features, and integration patterns for distributed legal teams tracking hours across multiple jurisdictions.
 

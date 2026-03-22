@@ -12,6 +12,20 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison, remote-work]
 ---
+---
+layout: default
+title: "Notion vs Confluence for Remote Documentation"
+description: "Compare Notion and Confluence for remote team documentation. Covers editing experience, structure, search, permissions, integrations, and price for distributed"
+date: 2026-03-21
+author: theluckystrike
+permalink: /notion-vs-confluence-remote-documentation/
+categories: [guides]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, comparison, remote-work]
+---
 
 {% raw %}
 

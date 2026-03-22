@@ -1,7 +1,22 @@
 ---
 layout: default
 title: "Meeting Room Booking System for Hybrid Office 2026"
-description: "Meeting room booking systems for hybrid offices in 2026: Robin, Envoy, and Skedda compared on calendar sync, occupancy sensors, and pricing."
+description: "A guide to meeting room booking systems for hybrid offices in 2026. Compare top solutions, features, pricing, and implementation tips"
+date: 2026-03-15
+last_modified_at: 2026-03-22
+author: "Remote Work Tools Guide"
+permalink: /meeting-room-booking-system-for-hybrid-office-2026/
+categories: [guides]
+intent-checked: true
+voice-checked: true
+reviewed: true
+score: 9
+tags: [remote-work-tools]
+---
+---
+layout: default
+title: "Meeting Room Booking System for Hybrid Office 2026"
+description: "A guide to meeting room booking systems for hybrid offices in 2026. Compare top solutions, features, pricing, and implementation tips"
 date: 2026-03-15
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"

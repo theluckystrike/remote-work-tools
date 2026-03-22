@@ -15,15 +15,14 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-## The Core Challenge of Delegating Across Time Zones
 
+## The Core Challenge of Delegating Across Time Zones
 
 Delegation in co-located teams relies on quick feedback loops—walk to someone's desk, ask a question, get an answer. When your team spans San Francisco, London, and Sydney, that model breaks down. The average round-trip time for a synchronous question jumps from minutes to hours or days. Waiting for responses during working hours in every time zone becomes a full-time job.
 
 Most remote managers either over-correct by maintaining tight synchronous schedules (burning themselves out) or under-corrected by becoming bottlenecks (slowing everything down). A proper delegation framework solves this by making delegation asynchronous by default while preserving the speed and quality of decisions.
 
 This guide provides a concrete framework you can implement immediately, whether you're managing three people or thirty.
-
 
 ## The Four Tiers of Delegation
 
