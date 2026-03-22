@@ -250,6 +250,51 @@ When teams work in sequence across time zones, clear handoff documentation preve
 
 This template fits naturally into a GitHub issue or pull request comment, making handoffs part of your existing workflow.
 
+## Tool Recommendations by Team Size
+
+Matching tools to your team size avoids over-engineering small teams and under-tooling large ones.
+
+| Team Size | Recommended Tools | Focus |
+|-----------|-------------------|-------|
+| 2–8 people | Slack + Notion + Google Calendar | Simple async norms, shared docs |
+| 8–25 people | Linear + Loom + World Time Buddy | Structured handoffs, video updates |
+| 25–60 people | Clockwise + Almanac + Geekbot | Automated scheduling, SOPs |
+| 60+ people | Guru + Confluence + dedicated time-zone bot | Knowledge management, policy enforcement |
+
+**World Time Buddy** is a practical first tool for any distributed team — it provides a shareable link showing business hours overlap at a glance, which is useful when scheduling the rotating meetings described above.
+
+**Loom** changes the async update format significantly. A 90-second screen recording with voice narration communicates nuance that a written update cannot, and the viewer can watch at their own working-hours pace. Teams that switch from written status updates to Loom recordings report fewer follow-up clarification messages.
+
+**Geekbot** integrates directly with Slack to run asynchronous standups. Team members answer three questions (What did you do? What will you do? Any blockers?) at the start of their local workday. The bot aggregates responses into a Slack channel, giving every timezone a full picture without scheduling a synchronous meeting.
+
+**Clockwise** analyzes calendar patterns and automatically moves meetings to protect focused-work blocks. For cross-timezone teams, this matters because meetings scheduled at the edge of overlap windows frequently slip — Clockwise finds the slots with the highest attendance probability.
+
+## Handling Urgent Issues Across Timezones
+
+Async-first works until it doesn't. Production incidents, client escalations, and security issues require synchronous response regardless of timezone. Build an explicit escalation protocol before you need it.
+
+A practical on-call structure for cross-timezone teams:
+
+1. Define a primary on-call rotation that follows the sun — one region handles incidents during their business hours, handing off to the next region at end of day
+2. Document escalation contacts in a shared runbook accessible to all regions (Notion or Confluence works well)
+3. Set PagerDuty or Opsgenie schedules to respect regional working hours, sending alerts to the active region first
+4. Hold a monthly cross-region incident review where all timezones participate — rotate the call time so each region takes one early or late slot per quarter
+
+Verbal agreements about who covers which timezone break down as teams scale. A documented runbook in the same location as your handoff templates becomes the single source of truth.
+
+## Measuring Whether Your Strategy Is Working
+
+Cross-timezone strategies fail silently. Teams adapt by working longer hours or simply accepting slower velocity — neither is visible until someone burns out or a project slips badly.
+
+Track these leading indicators monthly:
+
+- **Async response time P50 and P95** — median and 95th percentile time to first response in your primary async channels. P95 above 24 hours means messages are getting lost.
+- **Meeting hours per person per week by region** — if one region consistently has more meetings than others, the rotation isn't working.
+- **PR review wait time by region** — if engineers in one timezone wait 2x longer for reviews, you have a coverage gap.
+- **Handoff completion rate** — what percentage of handoffs used the template? Low adoption means people are reverting to informal communication.
+
+A short monthly survey — three questions covering response wait times, unnecessary synchronous meetings, and handoff clarity — provides qualitative signal to accompany the quantitative metrics above.
+
 ## Practical Implementation Steps
 
 Apply these strategies with minimal disruption:
