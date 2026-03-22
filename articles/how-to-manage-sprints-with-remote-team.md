@@ -15,7 +15,17 @@ voice-checked: true---
 {% raw %}
 Managing sprints with a remote team requires rethinking every ceremony and assumption built around co-location. Stand-ups that take 10 minutes in person can consume an hour of async back-and-forth without the right structure. This guide covers practical techniques for sprint management across distributed teams—from async standups and capacity planning to blocker escalation and retrospectives that actually surface actionable improvements.
 
-## Choosing Your Sprint Management Toolchain
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Choose Your Sprint Management Toolchain
 
 Before diving into ceremony design, get your toolchain right. The wrong combination of tools creates more coordination overhead than it solves.
 
@@ -33,23 +43,23 @@ Linear has gained traction with smaller remote teams for its speed and clean UX.
 
 The key principle: pick one system of record for sprint state. Syncing between multiple tools creates drift that destroys trust in the data.
 
-## Async Standups That Replace Synchronous Meetings
+### Step 2: Async Standups That Replace Synchronous Meetings
 
 The daily standup exists to surface blockers early and align the team. For remote teams, synchronous standups penalize engineers in distant time zones. Replace them with structured async updates using GitHub Issues.
 
 Create a standup template in your repository:
 
 ```markdown
-## Yesterday
+### Step 3: Yesterday
 - What did you complete?
 
-## Today
+### Step 4: Today
 - What will you work on?
 
-## Blockers
+### Step 5: Blockers
 - Any impediments?
 
-## PRs Ready for Review
+### Step 6: PRs Ready for Review
 - Links to PRs awaiting review
 ```
 
@@ -87,7 +97,7 @@ jobs:
  --label documentation
 ```
 
-## Sprint Planning for Distributed Teams
+### Step 7: Sprint Planning for Distributed Teams
 
 Effective remote sprint planning requires clear documentation and explicit capacity planning. Avoid the common mistake of treating remote team capacity the same as co-located teams.
 
@@ -161,7 +171,7 @@ print(json.dumps(result, indent=2))
 Your Definition of Done must account for the unique challenges of distributed code review:
 
 ```
-## Definition of Done
+### Step 8: Definition of Done
 
 1. Code written and passing tests
 2. PR created with description explaining:
@@ -175,7 +185,7 @@ Your Definition of Done must account for the unique challenges of distributed co
 7. Product Owner has reviewed and accepted (for features)
 ```
 
-## Tracking Velocity Without Burndown依赖
+### Step 9: Tracking Velocity Without Burndown依赖
 
 Remote teams often struggle with traditional burndown charts because story point estimates become less reliable across time zones. Consider these alternatives.
 
@@ -231,7 +241,7 @@ console.log(sprint.getVelocity());
 // Output: { completed: 16, projected: 21, percentComplete: 57 }
 ```
 
-## Managing Blockers in Async Workflows
+### Step 10: Manage Blockers in Async Workflows
 
 Blockers in remote teams require explicit escalation paths. A "blocker" that would take 30 seconds to resolve in an office can block progress for days without proper systems.
 
@@ -279,14 +289,14 @@ jobs:
  --add-label urgent
 ```
 
-## Sprint Retrospectives That Actually Work
+### Step 11: Sprint Retrospectives That Actually Work
 
 Remote sprint retrospectives fail when they become status meetings. Structure them around outcomes, not activities.
 
 ### Async Retro Format
 
 ```
-## Sprint Retrosective Template
+### Step 12: Sprint Retrosective Template
 
 ### What went well?
 - [Add your items]
@@ -316,6 +326,21 @@ Managing sprints with remote teams succeeds when you:
 
 Start with async standups this week, add capacity planning next sprint, and iterate from there.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

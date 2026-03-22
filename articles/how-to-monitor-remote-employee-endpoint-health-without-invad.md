@@ -29,7 +29,17 @@ Use Prometheus Node Exporter or Grafana agents to monitor disk space, OS patches
 Collect only what you need.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Defining Endpoint Health Without Privacy Violations
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Defining Endpoint Health Without Privacy Violations
 
 Endpoint health monitoring in a privacy-respecting context focuses on technical metrics that support system functionality rather than user behavior. The distinction matters: you monitor whether a device has sufficient disk space, updated security patches, and functional connectivity—not what websites an employee visits or when they step away from their desk.
 
@@ -43,7 +53,7 @@ Key metrics that support operations without invading privacy include:
 
 This approach provides IT teams with actionable information while respecting employee boundaries.
 
-## Agent-Based Monitoring with Open Source Tools
+### Step 2: Agent-Based Monitoring with Open Source Tools
 
 Agent-based monitoring involves installing lightweight software on endpoints that collects and reports specific metrics. The key to privacy-preserving deployment lies in configuring agents to report only operational data, not user activity.
 
@@ -142,7 +152,7 @@ if __name__ == "__main__":
 
 Deploy this script via your existing management infrastructure (Ansible, Chef, or MDM solutions) and schedule it to run periodically. The script collects only technical metrics and transmits them securely.
 
-## Network-Based Monitoring Approaches
+### Step 3: Network-Based Monitoring Approaches
 
 Network monitoring provides another avenue for endpoint visibility without installing software on every device. These approaches work particularly well for organizations with VPN infrastructure or centralized network access.
 
@@ -209,7 +219,7 @@ scrape_configs:
       oid: ['1.3.6.1.2.1.1']
 ```
 
-## Establishing Privacy-Preserving Policies
+### Step 4: Establishing Privacy-Preserving Policies
 
 Technical tools work best within a framework of clear policies that establish expectations. Before deploying any monitoring, define what you will and will not collect.
 
@@ -245,7 +255,7 @@ BLOCKED_METRICS = {
 }
 ```
 
-## Building Trust Through Implementation
+### Step 5: Build Trust Through Implementation
 
 Endpoint monitoring for remote teams requires trust to function effectively. Employees who feel monitored may hide legitimate issues or resist IT support. Build trust through transparent implementation:
 
@@ -256,6 +266,21 @@ Endpoint monitoring for remote teams requires trust to function effectively. Emp
 
 When employees understand that endpoint monitoring helps IT respond quickly to technical problems, they become partners in maintaining device health rather than targets of surveillance.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

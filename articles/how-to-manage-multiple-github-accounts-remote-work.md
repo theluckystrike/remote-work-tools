@@ -42,7 +42,17 @@ The core solution involves generating separate SSH keys for each account and con
 - **This is the most**: frictionless approach for developers managing many repositories across multiple identities.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Generating SSH Keys for Each Account
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Generate SSH Keys for Each Account
 
 First, generate a unique SSH key for each GitHub account. Avoid using the default key for everything—separate keys give you granular control over which account accesses which repository.
 
@@ -72,7 +82,7 @@ Enter file in which to save the key (/Users/you/.ssh/id_ed25519): /Users/you/.ss
 
 This creates four files for each key: the private key (github_personal) and the public key (github_personal.pub), plus the same for your work key.
 
-## Adding Keys to the SSH Agent
+### Step 2: Adding Keys to the SSH Agent
 
 Start the SSH agent and add your keys:
 
@@ -90,7 +100,7 @@ echo 'ssh-add ~/.ssh/github_personal' >> ~/.zshrc
 echo 'ssh-add ~/.ssh/github_work' >> ~/.zshrc
 ```
 
-## Configuring SSH for Account Routing
+### Step 3: Configure SSH for Account Routing
 
 Edit your SSH config file to route connections based on the host:
 
@@ -116,7 +126,7 @@ Host github-work
 
 The `IdentitiesOnly yes` setting ensures SSH uses only the specified key, preventing authentication failures from trying the wrong key.
 
-## Adding Public Keys to GitHub
+### Step 4: Adding Public Keys to GitHub
 
 Copy each public key and add it to the corresponding GitHub account:
 
@@ -132,7 +142,7 @@ cat ~/.ssh/github_work.pub
 
 In GitHub, go to Settings → SSH and GPG keys → New SSH key, paste the public key, and save.
 
-## Cloning Repositories with the Right Identity
+### Step 5: Cloning Repositories with the Right Identity
 
 When cloning repositories, use the custom host alias instead of the default github.com:
 
@@ -146,7 +156,7 @@ git clone git@github-work:organization/repo.git
 
 This works because SSH reads your config and selects the correct key based on the host alias.
 
-## Configuring Git Per Repository
+### Step 6: Configure Git Per Repository
 
 For existing repositories, set the remote URL to use the appropriate host alias:
 
@@ -163,7 +173,7 @@ git remote -v
 # Output: origin  git@github-work:company/project.git (push)
 ```
 
-## Setting Git User Identity Per Repository
+### Step 7: Setting Git User Identity Per Repository
 
 Configure Git user details specifically for each repository:
 
@@ -179,7 +189,7 @@ git config user.email "your-personal-email@example.com"
 
 This ensures commits show the correct author based on which account you're using. The local config overrides your global settings for that specific repository.
 
-## Using Git Config Includes for Cleaner Setup
+### Step 8: Use Git Config Includes for Cleaner Setup
 
 For a more organized approach, use Git config includes. Create a separate config file for each account:
 
@@ -204,7 +214,7 @@ git config --global includeIf.gitdir:~/work/.path "~/gitconfig-work"
 
 This automatically applies the correct identity based on which directory you're in.
 
-## Verifying Your Setup
+### Step 9: Verify Your Setup
 
 Test that SSH connections work for each account:
 
@@ -237,7 +247,7 @@ git config --global url."https://github-work/".insteadOf "git@github-work:"
 
 This approach uses your GitHub personal access token stored in the credential helper, avoiding SSH entirely.
 
-## Managing Three or More Accounts
+### Step 10: Manage Three or More Accounts
 
 Some remote developers juggle three accounts simultaneously: personal, a full-time employer, and one or more freelance clients. The SSH config approach scales cleanly. Add additional Host blocks for each account:
 
@@ -257,7 +267,7 @@ Host github-freelance-clientB
 
 Keep a simple reference file at `~/.ssh/github-accounts.txt` listing which host alias maps to which GitHub username and email. When you have five SSH aliases, that mental overhead adds up quickly.
 
-## Using a Directory Naming Convention
+### Step 11: Use a Directory Naming Convention
 
 A practical workflow that scales well for remote developers is organizing repositories by account in top-level directories:
 
@@ -271,7 +281,7 @@ A practical workflow that scales well for remote developers is organizing reposi
 
 Combined with `includeIf.gitdir` in your `.gitconfig`, every repo automatically gets the correct email and signing key without any per-repository setup. This is the most frictionless approach for developers managing many repositories across multiple identities.
 
-## Handling GitHub CLI with Multiple Accounts
+### Step 12: Handling GitHub CLI with Multiple Accounts
 
 The GitHub CLI (`gh`) supports multiple accounts through its `auth switch` command. Set up each account:
 
@@ -292,7 +302,7 @@ gh issue list --repo company/internal-tool
 
 This keeps your CLI identity in sync with whichever account you are currently working in, preventing pull requests from appearing under the wrong GitHub profile.
 
-## Signed Commits with GPG Keys
+### Step 13: Signed Commits with GPG Keys
 
 Remote teams increasingly require signed commits as a security practice—especially for open-source contributions and regulated industries. You will need a separate GPG signing key for each GitHub account, similar to how you manage SSH keys.
 
@@ -318,7 +328,7 @@ git config commit.gpgsign true
 
 Add the public GPG key to your GitHub account under Settings → SSH and GPG keys → New GPG key. Signed commits appear with a "Verified" badge in GitHub's interface—a trust signal that matters when contributing to security-sensitive projects.
 
-## Quick Reference: Account Switch Checklist
+### Step 14: Quick Reference: Account Switch Checklist
 
 When starting work on a repository for a different account, run through this mental checklist:
 

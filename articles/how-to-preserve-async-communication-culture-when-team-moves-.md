@@ -28,18 +28,28 @@ Preserve async communication in hybrid environments through explicit guidelines 
 
 Async-first philosophy: If a synchronous meeting happens, someone must synthesize findings and post async.
 
-## Understanding the Hybrid Communication Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Hybrid Communication Challenge
 
 Hybrid work creates a two-tier system where in-office employees enjoy real-time communication advantages that remote workers cannot access. A quick question to a colleague sitting three desks away requires zero coordination, while the same question to a remote team member demands a Slack message, an async video, or worse—a scheduled call. Without deliberate safeguards, async communication becomes the exception rather than the norm.
 
 The solution is not to forbid synchronous communication but to establish clear boundaries that protect async work while reserving synchronous time for what truly requires it.
 
-## Establishing Async-First Guidelines for Hybrid Teams
+### Step 2: Establishing Async-First Guidelines for Hybrid Teams
 
 Your team needs explicit documentation defining when synchronous communication is appropriate. Create a living document that specifies which communication channels to use for different scenarios:
 
 ```markdown
-## Communication Channel Selection
+### Step 3: Communication Channel Selection
 
 | Scenario | Primary Channel | When to Escalate |
 |----------|-----------------|------------------|
@@ -53,7 +63,7 @@ Your team needs explicit documentation defining when synchronous communication i
 
 Distribute this document during onboarding and revisit it quarterly. The key principle: if you can send a message and wait for a response, you should.
 
-## Protecting Deep Work Time
+### Step 4: Protecting Deep Work Time
 
 Hybrid environments often introduce spontaneous interruptions that fragment focus time. Implement core hours that overlap with remote time zones, but protect the majority of the day for async work:
 
@@ -80,12 +90,12 @@ def configure_focus_hours():
 
 This approach ensures that in-office days do not become constant meeting marathons. Remote team members should not be penalized with reduced focus time because their colleagues chose to work from the office.
 
-## Creating Equitable Async Artifacts
+### Step 5: Create Equitable Async Artifacts
 
 Every significant discussion should produce written artifacts accessible to all team members regardless of location. When a decision is made in a meeting, document it in a shared location before the meeting ends:
 
 ```markdown
-## Meeting Output Template
+### Step 6: Meeting Output Template
 
 ### Decisions Made
 - [ ] Decision 1: Summary with rationale
@@ -101,7 +111,7 @@ Every significant discussion should produce written artifacts accessible to all 
 
 Require that meeting notes link to any async discussion threads where team members can add input after the meeting. This prevents the in-office default where decisions are made verbally and never documented for remote team members.
 
-## Implementing Async Standups That Work
+### Step 7: Implementing Async Standups That Work
 
 Daily standups often become synchronous meetings in hybrid environments. Transition to async standups that respect everyone's schedule:
 
@@ -127,44 +137,44 @@ standup:
 
 Use a bot or simple form that collects responses and posts a summary at a designated time. This allows team members to contribute when it suits them, whether they are in the office or working remotely.
 
-## Designing Async Code Collaboration Workflows
+### Step 8: Designing Async Code Collaboration Workflows
 
 For developer teams, code collaboration is where async culture shines or fails. Hybrid teams should maintain async code review practices:
 
 ```javascript
 // Example: PR description template for async reviews
 const prTemplate = `
-## Context
+### Step 9: Context
 <!-- What problem does this change solve? -->
 
-## Approach
+### Step 10: Approach
 <!-- How did you implement the solution? -->
 
-## Testing
+### Step 11: Test
 <!-- What testing did you perform? -->
 
-## Screenshots (if applicable)
+### Step 12: Screenshots (if applicable)
 <!-- Add visual context -->
 
-## Review Checklist
+### Step 13: Review Checklist
 - [ ] Code follows project patterns
 - [ ] Tests are included
 - [ ] Documentation updated
 - [ ] No console.logs or debug code
 
-## Notes for Reviewers
+### Step 14: Notes for Reviewers
 <!-- Any context that helps reviewers understand the change -->
 `;
 ```
 
 Require PR authors to provide sufficient context so reviewers can review asynchronously without needing to schedule a call to explain the changes.
 
-## Building Async Feedback Loops
+### Step 15: Build Async Feedback Loops
 
 Performance feedback, project retrospectives, and team feedback should remain async to ensure equity between in-office and remote team members:
 
 ```markdown
-## Async Retrospective Format
+### Step 16: Async Retrospective Format
 
 ### What worked well?
 - [ ] Share specific examples
@@ -181,7 +191,7 @@ Performance feedback, project retrospectives, and team feedback should remain as
 
 Allow anonymous input for sensitive topics. This ensures that quiet team members and those who feel less comfortable speaking in person have equal opportunity to contribute.
 
-## Measuring Async Culture Health
+### Step 17: Measuring Async Culture Health
 
 Track metrics that indicate whether your async culture is thriving or degrading:
 
@@ -192,7 +202,7 @@ Track metrics that indicate whether your async culture is thriving or degrading:
 
 Review these metrics monthly and adjust your practices accordingly.
 
-## Specific Metrics for Hybrid Teams
+### Step 18: Specific Metrics for Hybrid Teams
 
 Set up monitoring that tracks hybrid-specific concerns:
 
@@ -217,7 +227,7 @@ Target: 95%+
 
 Gap >1 meeting/week indicates in-office bias developing. Correct it explicitly.
 
-## Protecting Remote Workers From Disadvantage
+### Step 19: Protecting Remote Workers From Disadvantage
 
 The biggest risk in hybrid teams: remote workers becoming second-class citizens who don't get the casual visibility that in-office workers enjoy.
 
@@ -229,7 +239,7 @@ The biggest risk in hybrid teams: remote workers becoming second-class citizens 
 
 **Remote days for managers**: Managers of hybrid teams should work remote 1-2 days per week. This forces them to experience async communication personally. They understand remote challenges better and design systems accordingly.
 
-## Onboarding New People Into Async Culture
+### Step 20: Onboarding New People Into Async Culture
 
 New hires often default to synchronous habits they learned from past jobs. Teach async explicitly:
 
@@ -237,25 +247,25 @@ New hires often default to synchronous habits they learned from past jobs. Teach
 ```markdown
 # Async Communication Culture at [Company]
 
-## How we work
+### Step 21: How we work
 - Decisions happen in [Slack/Forum/GitHub]
 - We document everything
 - You have 24 hours to respond to async questions (not expected to answer immediately)
 - Synchronous meetings only for high-bandwidth discussions
 
-## Your first week
+### Step 22: Your first week
 - Day 1: Post intro in #introductions channel (async, not meeting)
 - Day 2: Read these 3 docs: [link], [link], [link]
 - Day 3-4: Contribute to existing async discussion thread (don't speak in meetings, observe)
 - Day 5: Join one synchronous team meeting (optional if async update available)
 
-## Common pitfalls
+### Step 23: Common pitfalls
 - Don't schedule 1:1 meetings before asyncing questions
 - Don't repeat urgent async requests synchronously
 - Don't assume silence means disagreement (people may be working async)
 ```
 
-## Handling the In-Office Social Advantage
+### Step 24: Handling the In-Office Social Advantage
 
 The hardest problem in hybrid teams: in-office employees naturally build relationships faster through hallway conversations, lunch, and impromptu collaboration.
 
@@ -269,12 +279,12 @@ You cannot eliminate this entirely, but you can level the playing field:
 
 **1:1 consistency**: Every engineer gets a 1:1 with their manager regardless of office presence. This prevents the "manager hangs out with office people" dynamic.
 
-## Quarterly Async Health Retrospective
+### Step 25: Quarterly Async Health Retrospective
 
 Every quarter, hold an async-first retrospective:
 
 ```markdown
-## Q2 Async Culture Retrospective
+### Step 26: Q2 Async Culture Retrospective
 
 ### What worked well
 - Documented decisions prevented duplicate discussions
@@ -295,7 +305,7 @@ Every quarter, hold an async-first retrospective:
 Review in Q3 retrospective.
 ```
 
-## Common Mistakes in Hybrid Async Transformation
+### Step 27: Common Mistakes in Hybrid Async Transformation
 
 **Mistake 1: "We're async-first" without actually changing behavior**
 Many teams claim async culture but hold synchronous meetings anyway. Action: Cancel synchronous meetings and replace with async equivalents. This forces real change.
@@ -309,6 +319,21 @@ It won't. Assign owners: After each meeting, a specific person has 2 hours to do
 **Mistake 4: Not measuring async health**
 You can't maintain what you don't measure. Pick 2-3 metrics, review monthly, act when trends degrade.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

@@ -40,7 +40,17 @@ To mount a monitor on the wall behind your standing desk, confirm your monitor's
 - **Full-motion mounts are preferred**: if you change postures frequently (every 30-60 minutes).
 - **Drywall-only mounting requires toggle**: bolts or mollies for adequate support.
 
-## Understanding VESA Standards Before You Buy
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand VESA Standards Before You Buy
 
 Every monitor manufactured in the past two decades follows the VESA (Video Electronics Standards Association) mounting standard. Your monitor's VESA pattern—typically 75x75mm or 100x100mm—determines which wall mount or arm is compatible.
 
@@ -65,7 +75,7 @@ To find your monitor's VESA specification:
 
 Knowing your VESA pattern before purchasing prevents wasted money and frustrating returns. Many mounts are VESA-specific and won't accept different patterns.
 
-## Choosing the Right Wall Mount Type and Products
+### Step 2: Choose the Right Wall Mount Type and Products
 
 Three primary wall mount options work well behind standing desks:
 
@@ -87,7 +97,7 @@ Three primary wall mount options work well behind standing desks:
 
 For standing desk setups, a tilting or full-motion mount typically provides the best experience since your eye level changes significantly between sitting and standing positions. Full-motion mounts are preferred if you change postures frequently (every 30-60 minutes).
 
-## Wall Type and Stud Location
+### Step 3: Wall Type and Stud Location
 
 Your wall construction determines mounting strength and method:
 
@@ -111,7 +121,7 @@ for ((i=start_inches; i<=total_distance; i+=stud_spacing)); do
 done
 ```
 
-## Cable Management Strategies
+### Step 4: Cable Management Strategies
 
 Cables dangling from a wall-mounted monitor detract from the clean aesthetic and create maintenance headaches. Several approaches solve this:
 
@@ -123,7 +133,7 @@ Cables dangling from a wall-mounted monitor detract from the clean aesthetic and
 
 For developers running multiple monitors, label your cables at both ends using a label maker. This saves time when troubleshooting connectivity issues.
 
-## Height and Ergonomic Positioning
+### Step 5: Height and Ergonomic Positioning
 
 Proper monitor height prevents neck strain during long coding sessions. The top of your monitor should be at or slightly below eye level when you're in your primary working position.
 
@@ -135,7 +145,7 @@ With a standing desk, you have two viable approaches:
 
 Measure your standing and sitting eye heights to determine which approach suits your workspace. The difference between sitting and standing eye level typically ranges from 6-14 inches depending on your height and desk configuration.
 
-## Power and Connectivity Considerations
+### Step 6: Power and Connectivity Considerations
 
 Wall-mounted monitors need power and video connections. Plan these details before mounting:
 
@@ -262,6 +272,21 @@ Route HDMI/DisplayPort and power cables along the back of the monitor and down t
 | Electrical outlet out of reach | Cable too short | Install new outlet or use in-wall power distribution |
 | Monitor height wrong for sitting | Miscalculation | Measure again; adjust tilt to compensate |
 | Wall damage during installation | Overtightening or hole too large | Patch holes with spackle; use larger toggle bolts |
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
