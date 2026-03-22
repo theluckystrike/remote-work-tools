@@ -57,7 +57,17 @@ The technical foundation relies on indoor positioning. You have several options:
 
 For a standard hybrid office with infrequent visitors, BLE beacons with a companion mobile app provide the right balance of accuracy, cost, and user experience. Wi-Fi triangulation is a viable no-new-hardware option if your office already has dense access point coverage.
 
-## System Architecture Overview
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: System Architecture Overview
 
 A production wayfinding system consists of these components:
 
@@ -100,7 +110,7 @@ class WayfindingService {
 }
 ```
 
-## Beacon Deployment Strategy
+### Step 2: Beacon Deployment Strategy
 
 Proper beacon placement determines system accuracy. Deploy beacons in a grid pattern with 10-15 meter spacing. Position them at ceiling height (2.5-3 meters) and avoid placing them near metal objects or large glass surfaces, which cause signal reflection.
 
@@ -139,7 +149,7 @@ Follow this step-by-step process when deploying beacons to a new floor:
 4. **Run a coverage heat map.** Use a free tool like IndoorAtlas or HeatMapper to walk the floor with a beacon scanner app and verify signal coverage. Gaps larger than 15 meters between detectable beacons require an additional beacon.
 5. **Update the backend registry.** Push the finalized JSON to your backend and confirm the mobile app resolves positions correctly for five distinct test locations on the floor.
 
-## Mobile Application Implementation
+### Step 3: Mobile Application Implementation
 
 The mobile client handles beacon scanning, trilateration for position calculation, and map rendering. Here's a React Native example for beacon ranging:
 
@@ -191,7 +201,7 @@ Infrequent office visitors need simple, landmark-based directions rather than pr
 
 Implement a landmark layer in your floor plan data that annotates key decision points — elevator banks, kitchens, reception desks, and restrooms — and use these as waypoints when generating turn-by-turn directions.
 
-## Integration with Room and Desk Systems
+### Step 4: Integration with Room and Desk Systems
 
 Wayfinding becomes powerful when connected to your existing workplace tools. Most offices use systems like Robin, Teem, or custom solutions. Create an integration layer that pulls real-time availability:
 
@@ -238,7 +248,7 @@ The most impactful wayfinding feature for infrequent visitors is pre-arrival gui
 
 Implement this as a calendar webhook or Google Workspace add-on. When a meeting with a physical room location is accepted, trigger the wayfinding link generation and deliver it via Slack or email.
 
-## Practical Deployment Considerations
+### Step 5: Practical Deployment Considerations
 
 When deploying your wayfinding system, start small. Choose one floor or building section as a pilot. Measure actual accuracy by having test users walk known routes and compare estimated positions against ground truth.
 
@@ -252,6 +262,21 @@ Consider privacy implications. Store location data ephemerally and provide clear
 - **Hardcoding beacon UUIDs in the mobile app.** Use a remote configuration service so you can update the beacon registry without a new app release.
 - **Ignoring elevator shafts.** Metal elevator shafts block BLE signals. Place beacons on both sides of elevator banks, not inside lift lobbies.
 - **Over-promising accuracy.** Set user expectations early: the system shows a 3-5 meter radius, not a pinpoint. Combine positioning with landmark-based directions for the last 10 meters.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -27,7 +27,17 @@ Remote mentoring programs require structured matching, clear goal-setting, and r
 - **DIY approach** (free): Slack automation + Google Forms for matching. Best for <50 people or budget-constrained teams.
 - **Measurement**: Track goal completion rate, skill acquisition velocity, retention impact, and promotion lift.
 
-## The Remote Mentoring Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Remote Mentoring Challenge
 
 Mentoring in distributed teams is harder than colocation. Informal hallway conversations don't happen. Mentors and mentees across timezones struggle to find meeting times. Without structure, mentoring becomes ad-hoc and inconsistent.
 
@@ -41,7 +51,7 @@ Successful remote mentoring requires:
 
 Unstructured mentoring rarely succeeds remotely. Without structure, meetings get canceled, relationships fizzle.
 
-## Mentoring Program Architecture
+### Step 2: Mentoring Program Architecture
 
 ### Tier 1: One-on-One Structured Mentoring (Primary)
 
@@ -105,7 +115,7 @@ Value:
 - Senior: Stays current with technology changes
 ```
 
-## Mentor-Mentee Matching Algorithm
+### Step 3: Mentor-Mentee Matching Algorithm
 
 Successful pairing drives program outcomes. Random matching fails 40% of the time. Algorithmic matching succeeds 85%+ of the time.
 
@@ -323,7 +333,7 @@ HR time: 5 hours/month
 Scalable to: ~30-40 people
 ```
 
-## Measurement and ROI Framework
+### Step 4: Measurement and ROI Framework
 
 ### Metric 1: Program Completion Rate
 
@@ -416,7 +426,7 @@ Mentoring program impact:
 - Lateral move rate: 20% vs 7% (+13 points)
 ```
 
-## Real Program Implementation: Case Study
+### Step 5: Real Program Implementation: Case Study
 
 **Company**: 120-person tech company, distributed across 4 continents
 
@@ -471,7 +481,7 @@ Month 10: Alumni + Cohort 2
 - ROI: 27x
 ```
 
-## Common Pitfalls and How to Avoid Them
+### Step 6: Common Pitfalls and How to Avoid Them
 
 ### Pitfall 1: No Structured Goals
 
@@ -590,6 +600,21 @@ Failure path:
 Default: Program ends after 6 months
 (Clean exit, no indefinite "weak relationship" dragging on)
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Articles
 

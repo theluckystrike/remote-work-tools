@@ -38,7 +38,17 @@ permalink: /how-to-set-up-remote-team-code-standards-enforcement-2026/---
 - **If CI passes at**: 95% and code reviews have zero style comments, you've achieved enforcement.
 - **One prefers functional style**: another object-oriented.
 
-## Code Standards in Distributed Teams
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Code Standards in Distributed Teams
 
 Distributed teams produce inconsistent code. One engineer uses 2-space indentation, another 4-space. One prefers functional style, another object-oriented. Without enforcement, code reviews become style arguments instead of substance discussions.
 
@@ -50,7 +60,7 @@ Effective code standards are:
 
 This guide covers the toolchain for distributed teams: pre-commit hooks, linters, formatters, EditorConfig, CI enforcement, and review guidelines.
 
-## Architecture: Local Enforcement First
+### Step 2: Architecture: Local Enforcement First
 
 The optimal flow:
 
@@ -63,7 +73,7 @@ The optimal flow:
 
 This means most standard violations are caught locally, never pushed. CI is a safety net, not the primary enforcement.
 
-## EditorConfig: The First Layer
+### Step 3: EditorConfig: The First Layer
 
 EditorConfig is a simple format that tells editors how to format code. Create a `.editorconfig` file in your repo root:
 
@@ -99,7 +109,7 @@ When an engineer opens a file, their editor automatically applies these settings
 
 **Setup cost:** 5 minutes. **Benefit:** 90% of formatting differences prevented before linting.
 
-## Prettier: Opinionated Code Formatter
+### Step 4: Prettier: Opinionated Code Formatter
 
 Prettier is the JavaScript/TypeScript formatter. It has no configuration (by design): you use Prettier's opinions.
 
@@ -132,7 +142,7 @@ The power of Prettier: zero arguments about formatting style. You run `prettier 
 
 For distributed teams, this is critical. A Berlin engineer and a San Francisco engineer both run `prettier --write` before committing. Their code formats identically. No review feedback about spacing or bracket placement.
 
-## ESLint: JavaScript Linting
+### Step 5: ESLint: JavaScript Linting
 
 ESLint catches errors: unused variables, unreachable code, type confusion, security issues.
 
@@ -180,7 +190,7 @@ npx eslint . --fix
 
 The `--fix` flag auto-fixes many issues (unused vars removed, `==` changed to `===`). Anything it can't fix requires manual correction.
 
-## Pylint / Flake8: Python Linting
+### Step 6: Pylint / Flake8: Python Linting
 
 For Python, use Flake8 (syntax/logic errors) + Black (formatter, Python's Prettier).
 
@@ -214,7 +224,7 @@ Black enforces 88-character line length, 4-space indents, double quotes. Flake8 
 
 Combined: Black formats, Flake8 catches errors.
 
-## Pre-Commit Hooks: Local Enforcement
+### Step 7: Pre-Commit Hooks: Local Enforcement
 
 Pre-commit hooks run before `git commit`. If they fail, the commit is blocked.
 
@@ -309,7 +319,7 @@ All checks pass, commit succeeds.
 
 For distributed teams, this is essential: no matter your timezone or editor, code meets standards before pushing.
 
-## CI: Final Enforcement Gate
+### Step 8: CI: Final Enforcement Gate
 
 Pre-commit hooks run locally. But if an engineer skips hooks (git commit --no-verify), code reaches remote without checks.
 
@@ -388,7 +398,7 @@ If any check fails, the PR is marked as failing. The PR cannot be merged until a
 
 This is the final gate. Even if someone skips pre-commit hooks locally, CI catches the violations.
 
-## Distributed Team Gotchas
+### Step 9: Distributed Team Gotchas
 
 ### Timezone: When Code Is Reviewed
 
@@ -407,7 +417,7 @@ Why? Their environment is different (Node version 16 vs 18, Python 3.9 vs 3.11).
 **Solution:** Include setup documentation:
 
 ```
-## Development Setup
+### Step 10: Development Setup
 
 1. Clone repo: `git clone ...`
 2. Install dependencies: `npm install` or `pip install -r requirements.txt`
@@ -466,7 +476,7 @@ But exceptions are red flags in code review. If you need to disable a rule, ques
 
 Distribute exceptions sparingly.
 
-## Code Review Guidelines
+### Step 11: Code Review Guidelines
 
 Code review should not mention style. Pre-commit + CI handle all style.
 
@@ -480,7 +490,7 @@ Code review focuses on:
 
 This is what humans should discuss. Style is for machines.
 
-## Remote Team Success Metrics
+### Step 12: Remote Team Success Metrics
 
 After 2 weeks of enforcement:
 
@@ -492,7 +502,7 @@ After 2 weeks of enforcement:
 
 If CI passes at 95% and code reviews have zero style comments, you've achieved enforcement.
 
-## Recommendation Matrix
+### Step 13: Recommendation Matrix
 
 **Use EditorConfig + Prettier + ESLint for JavaScript teams:**
 - Covers formatting, style, and error detection
@@ -515,6 +525,21 @@ If CI passes at 95% and code reviews have zero style comments, you've achieved e
 - New developers must understand the toolchain
 - Include `make setup` command
 - Document exceptions and when they apply
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

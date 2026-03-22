@@ -38,7 +38,17 @@ Integration Points: Your service likely needs to connect with pharmacy managemen
 
 User Experience: Patients accessing pharmacy consultations range from tech-savvy individuals to those uncomfortable with video calls. Your implementation should support both high-tech and low-tech access methods while maintaining clinical effectiveness.
 
-## Video Conferencing Platform Selection
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Video Conferencing Platform Selection
 
 Several video API providers offer the infrastructure needed for healthcare consultations. Each has distinct characteristics worth evaluating:
 
@@ -68,7 +78,7 @@ async function createConsultationRoom(patientId, pharmacistId) {
 
 **Vonage Video API (formerly TokBox)** provides scaling capabilities for larger pharmacy networks. Their architecture handles variable demand well, making them suitable for services expecting high consultation volumes during peak hours.
 
-## System Architecture Design
+### Step 2: System Architecture Design
 
 A pharmacy consultation service consists of several interconnected components beyond the video layer:
 
@@ -131,7 +141,7 @@ Data Retention Policies: Implement automatic deletion of video recordings after 
 
 Access Controls: Implement session timeout, automatic logout after inactivity, and IP-based restrictions where appropriate. Pharmacists accessing consultations from home networks need secure VPN access or equivalent protection.
 
-## Patient Experience Considerations
+### Step 3: Patient Experience Considerations
 
 Technical functionality means nothing if patients cannot effectively use the service. Consider these experience factors:
 
@@ -143,7 +153,7 @@ Accessibility: Ensure the interface supports screen readers, keyboard navigation
 
 Technical Support: Provide clear escalation paths for patients experiencing technical difficulties. Consider offering phone fallback for critical consultations when video technology fails.
 
-## Integration with Pharmacy Operations
+### Step 4: Integration with Pharmacy Operations
 
 A video consultation service should not exist in isolation. Key integration points include:
 
@@ -153,7 +163,7 @@ E-Prescribing: Integrate with e-prescribing networks so pharmacists can transmit
 
 Billing: Connect consultation billing to pharmacy invoicing systems. Track which consultations qualify for insurance reimbursement versus cash payment.
 
-## Scaling Considerations
+### Step 5: Scaling Considerations
 
 As your service grows, the architecture must handle increased demand:
 
@@ -165,7 +175,7 @@ Queue Management: Implement consultation queuing for peak periods. Patients shou
 
 Building a remote pharmacy consultation service demands attention to healthcare-specific requirements beyond standard video conferencing. The technical foundation must support regulatory compliance, integrate with pharmacy operations, and provide reliable access for patients across technical comfort levels. With proper architecture and implementation, video consultations can expand pharmacy services to patients who cannot visit in person while maintaining the security and documentation standards healthcare requires.
 
-## Cost Analysis: Building vs. Buying
+### Step 6: Cost Analysis: Building vs. Buying
 
 **Building custom:** Initial development $50,000–$150,000 depending on scope. Ongoing maintenance $5,000–$10,000 monthly. Time to launch: 4–6 months.
 
@@ -173,7 +183,7 @@ Building a remote pharmacy consultation service demands attention to healthcare-
 
 Most pharmacy networks under $5M annual revenue should adopt existing platforms rather than building custom systems. The ongoing maintenance burden exceeds the value for smaller operations.
 
-## Real-World Implementation: Retail Pharmacy Chain
+### Step 7: Real-World Implementation: Retail Pharmacy Chain
 
 A 12-location pharmacy chain wanted to offer medication consultations to homebound patients. Here's their implementation:
 
@@ -230,7 +240,7 @@ Pharmacists accustomed to in-person consultations need training on remote commun
 
 Expect 4–8 hours of training per pharmacist before handling live consultations.
 
-## Regulatory Considerations by Jurisdiction
+### Step 8: Regulatory Considerations by Jurisdiction
 
 **United States:**
 - HIPAA Business Associate Agreement required with video provider
@@ -251,7 +261,7 @@ Expect 4–8 hours of training per pharmacist before handling live consultations
 
 Research your specific jurisdiction's requirements before implementation. Compliance mistakes can result in fines exceeding implementation costs.
 
-## Scaling to Multiple Pharmacies
+### Step 9: Scaling to Multiple Pharmacies
 
 Once one location runs successfully, scaling involves:
 
@@ -265,7 +275,7 @@ Once one location runs successfully, scaling involves:
 
 At 12 locations with 50 consultations monthly, you're generating meaningful revenue—enough to justify more sophisticated infrastructure than a single-location operation requires.
 
-## Integration with Pharmacy Management Systems
+### Step 10: Integration with Pharmacy Management Systems
 
 The real value emerges when video consultations integrate with existing pharmacy workflows. Rather than creating separate systems, embed consultation capabilities into the PMS:
 
@@ -278,7 +288,7 @@ The real value emerges when video consultations integrate with existing pharmacy
 
 Most modern pharmacy systems (Nexgen, PDX, Rx30) offer APIs for integrating external services. Budget 40–60 hours for API integration if building custom solutions.
 
-## Patient Acquisition and Marketing
+### Step 11: Patient Acquisition and Marketing
 
 Once technical infrastructure is in place, patient adoption becomes critical:
 
@@ -295,7 +305,7 @@ Once technical infrastructure is in place, patient adoption becomes critical:
 
 Early adoption typically comes from homebound/elderly patients and those with mobility issues. Market specifically to these segments.
 
-## Measuring Success Metrics
+### Step 12: Measuring Success Metrics
 
 Track these KPIs to assess program health:
 
@@ -308,6 +318,21 @@ Track these KPIs to assess program health:
 
 If repeat consultation rate is below 20%, investigate whether patient experience issues exist.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

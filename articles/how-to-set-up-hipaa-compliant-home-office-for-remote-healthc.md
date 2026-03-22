@@ -59,7 +59,17 @@ Device Access Controls: Every device accessing ePHI requires authentication. Use
 
 Environment Considerations: Ensure your workspace doors lock. Family members should understand they cannot access your work devices or documents. If you have roommates or frequent visitors, establish clear boundaries around your work area.
 
-## Network Security Configuration
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Secure the Network Configuration
 
 The HIPAA Security Rule requires technical safeguards for ePHI transmission (164.312(e)). Remote workers connecting to healthcare systems need encrypted network paths that prevent interception.
 
@@ -84,7 +94,7 @@ Home Network Hardening: Secure your home router as if it were a corporate edge d
 
 DNS and Filtering: Configure encrypted DNS (DoH or DoT) to prevent query interception. Consider adding DNS-based content filtering to block known malicious domains—many remote security tools provide this as part of their endpoint protection suite.
 
-## Endpoint Device Management
+### Step 2: Endpoint Device Management
 
 Healthcare organizations must ensure devices accessing ePHI meet security configuration standards. This typically involves Mobile Device Management (MDM) or Endpoint Detection and Response (EDR) software.
 
@@ -102,7 +112,7 @@ Software Requirements: Keep operating systems, browsers, and healthcare applicat
 
 Antivirus and Endpoint Protection: Modern HIPAA environments require real-time malware detection. Ensure your organization's endpoint protection is installed, running, and receiving regular signature updates. Verify protection status through the software dashboard or command-line checks.
 
-## Access Control and Authentication
+### Step 3: Access Control and Authentication
 
 The HIPAA Access Control standard (164.312(a)) requires mechanisms to authenticate users and limit ePHI access to authorized personnel.
 
@@ -119,7 +129,7 @@ Password Management: Use a password manager (Bitwarden, 1Password, or your organ
 
 Session Management: Configure automatic session timeouts. Healthcare applications should terminate sessions after periods of inactivity—typically 15-30 minutes. When finished working, explicitly log out rather than just closing browser tabs.
 
-## Secure Communication and File Handling
+### Step 4: Secure Communication and File Handling
 
 Remote healthcare work often involves communicating patient information through various channels. Each transmission method must maintain HIPAA compliance.
 
@@ -151,7 +161,7 @@ Compliance Attestation: Complete required HIPAA training and security awareness 
 
 Incident Reporting: Know how to report security incidents—lost devices, suspected breaches, or unusual system behavior. Quick reporting helps your security team contain potential exposures.
 
-## Vendor Selection Guide for HIPAA-Compliant Tools
+### Step 5: Vendor Selection Guide for HIPAA-Compliant Tools
 
 When choosing software and services for healthcare remote work, verify HIPAA compliance credentials:
 
@@ -281,7 +291,7 @@ Right: Unique 16+ character password generated through password manager, used on
 Wrong: Seeing a login from unknown location and assuming it's a colleague
 Right: Reporting immediately to IT security team, changing passwords, reviewing access logs
 
-## Legal Liability and Risk Assessment
+### Step 6: Legal Liability and Risk Assessment
 
 Understanding your personal liability matters when handling ePHI:
 
@@ -310,11 +320,26 @@ Maintain records proving you took reasonable precautions:
 
 This documentation protects you if there's ever an incident investigation—you can demonstrate reasonable care.
 
-## Building Your Compliant Setup
+### Step 7: Build Your Compliant Setup
 
 Creating a HIPAA-compliant home office requires combining physical security, network hardening, endpoint management, and secure practices into a coherent workflow. Start with the fundamentals: encrypted devices, MFA-protected access, and a secure network connection. Layer additional controls based on your specific role and the types of ePHI you access.
 
 Your IT department should provide specific guidance for your organization's environment. Use this guide to understand the underlying principles and verify that your setup addresses each HIPAA requirement. Compliance isn't an one-time configuration—it's an ongoing commitment to protecting patient information in your remote work environment.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

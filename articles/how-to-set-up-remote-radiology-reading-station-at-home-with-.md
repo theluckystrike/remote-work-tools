@@ -45,7 +45,17 @@ A remote radiology workstation must meet clinical-grade standards for diagnostic
 
 The core components break down into four categories: display systems, computing hardware, network connectivity, and security infrastructure. Each category carries specific requirements that interdependently determine overall system performance.
 
-## Display Systems: The Critical Component
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Display Systems: The Critical Component
 
 Medical-grade displays represent the most significant investment in a radiology workstation. Unlike consumer monitors, medical displays undergo rigorous calibration and certification processes to ensure consistent luminance, color accuracy, and spatial uniformity.
 
@@ -75,7 +85,7 @@ xrandr --output DP-2 --mode 3280x2048 --pos 3280x0
 
 This configuration places your primary interpretation monitor at the center of your visual field with secondary displays for priors, reports, and ancillary tools.
 
-## Computing Hardware Specifications
+### Step 2: Computing Hardware Specifications
 
 Your workstation needs sufficient processing power for real-time image rendering, especially when working with volumetric datasets like CT and MRI scans.
 
@@ -106,7 +116,7 @@ Workstation Specifications:
 
 The GPU deserves particular attention. Modern PACS applications use CUDA and OpenCL for hardware-accelerated rendering. When reviewing your organization's supported workflows, confirm which acceleration technologies they use.
 
-## Network Configuration
+### Step 3: Network Configuration
 
 Network performance directly impacts your ability to read studies efficiently. Latency and bandwidth requirements vary by imaging modality and study type.
 
@@ -193,7 +203,7 @@ Required Security Controls:
 
 Document your security configuration. Many healthcare organizations require attestation or audit documentation for remote workstations. Maintain logs of your security settings, VPN connection times, and any configuration changes.
 
-## Practical Implementation: Step-by-Step
+### Step 4: Practical Implementation: Step-by-Step
 
 ### Phase 1: Infrastructure Preparation
 
@@ -229,7 +239,7 @@ speedtest-cli --server nearest
 
 Validate image quality by comparing home readings against known datasets. Report any discrepancies to your IT department immediately.
 
-## Common Challenges and Solutions
+### Step 5: Common Challenges and Solutions
 
 Challenge: Image lag during peak network usage times
 
@@ -242,6 +252,21 @@ Challenge: Display calibration drift
 Challenge: Family member internet usage impacting performance
 
 *Solution*: Create separate network segments. Run a dedicated ethernet cable to your office if possible.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

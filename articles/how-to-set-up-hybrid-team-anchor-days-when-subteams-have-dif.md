@@ -38,13 +38,23 @@ Hybrid work models with anchor days—designated in-office days for team collabo
 - **Topics covered**: understanding the core challenge, building your tiered anchor day framework, mapping subteam constraints
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Understanding the Core Challenge
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Core Challenge
 
 The fundamental tension in multi-subteam hybrid coordination is overlap availability: the time window when everyone can realistically be in the same physical location. If your backend team operates from 9 AM to 6 PM PST and your frontend team works 9 AM to 6 PM CET, you have roughly a 2-hour overlap in working hours—and that's before accounting for personal schedules, commute times, and timezone differences during summer months.
 
 The solution isn't finding a perfect universal schedule. It's building a **tiered anchor day system** that prioritizes different types of collaboration on different days while giving subteams autonomy within their local constraints.
 
-## Building Your Tiered Anchor Day Framework
+### Step 2: Build Your Tiered Anchor Day Framework
 
 A tiered framework separates collaborative needs into categories, each with its own scheduling logic:
 
@@ -94,7 +104,7 @@ module.exports = anchorSchedule;
 
 This configuration creates predictable rhythms: cross-team alignment on Wednesdays, subteam-specific collaboration on dedicated days, and optional Fridays for catch-up work.
 
-## Mapping Subteam Constraints
+### Step 3: Mapping Subteam Constraints
 
 Before finalizing any schedule, map each subteam's hard constraints:
 
@@ -107,7 +117,7 @@ Before finalizing any schedule, map each subteam's hard constraints:
 
 Notice how spreading anchor days across the week prevents overlap conflicts while still providing each subteam dedicated in-office time. Wednesday becomes your natural cross-team day because only the mobile team has a strong preference against it—and mobile can rotate that obligation monthly.
 
-## Implementing Rotation Policies
+### Step 4: Implementing Rotation Policies
 
 Anchor day schedules degrade over time without rotation mechanisms. Build explicit rotation into your policy:
 
@@ -136,7 +146,7 @@ const rotationPolicy = {
 
 This ensures no single subteam permanently bears the burden of inconvenient cross-team coordination.
 
-## Handling Asynchronous Coordination
+### Step 5: Handling Asynchronous Coordination
 
 Anchor days create information asymmetry: people in the office have richer contextual conversations while remote team members feel disconnected. Bridge this gap with structured async handoffs:
 
@@ -172,7 +182,7 @@ post_anchor_day:
       - due_dates
 ```
 
-## Communication Norms for Hybrid Anchor Days
+### Step 6: Communication Norms for Hybrid Anchor Days
 
 Establish explicit expectations for how information flows during anchor days:
 
@@ -182,7 +192,7 @@ Establish explicit expectations for how information flows during anchor days:
 
 This prevents the common failure mode where anchor days become "in-office only" events that exclude remote participants from decision-making.
 
-## Measuring Anchor Day Effectiveness
+### Step 7: Measuring Anchor Day Effectiveness
 
 Track whether your anchor day system actually improves collaboration:
 
@@ -213,7 +223,7 @@ const metrics = {
 
 If attendance drops below 70% or sentiment scores fall consistently, your anchor day structure needs adjustment.
 
-## Common Pitfalls to Avoid
+### Step 8: Common Pitfalls to Avoid
 
 Several patterns cause hybrid anchor day systems to fail:
 
@@ -224,6 +234,21 @@ Ignoring commute variation: A 90-minute commute for occasional in-office days is
 Making anchor days purely social: If the only value of being in-office is "water cooler moments," teams will question why they can't work remotely. Anchor days should enable work that genuinely benefits from physical co-location: whiteboarding sessions, complex debugging, hiring interviews.
 
 Neglecting async documentation: Without explicit async handoffs, anchor days create information silos that harm remote team members.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

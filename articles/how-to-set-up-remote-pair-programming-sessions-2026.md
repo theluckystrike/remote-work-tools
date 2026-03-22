@@ -38,7 +38,17 @@ Pair programming reduces bugs, accelerates learning, and improves code quality. 
 
 Distributed teams can't casually sit together. Remote pairing keeps knowledge flowing, catches bugs earlier, and accelerates onboarding. Teams using pair programming report 15% fewer bugs in production and 50% faster feature delivery for critical paths.
 
-## VS Code Live Share — Best for Simplicity
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: VS Code Live Share — Best for Simplicity
 
 Live Share is built into VS Code and works with one-click session sharing. Zero learning curve for developers already using VS Code.
 
@@ -99,7 +109,7 @@ Live Share automatically times out after 2 hours of inactivity
 9. Session ends, code ready to commit
 ```
 
-## Tuple — Best for Experienced Pair Programmers
+### Step 2: Tuple — Best for Experienced Pair Programmers
 
 Tuple is purpose-built for pair programming with low-latency HD video and optimized cursor tracking.
 
@@ -152,7 +162,7 @@ Pair works for 90 minutes
 - 3 people × $300/year = $900/year ($75/month)
 - Tuple Premium (better recording, more participants): $600/year per person
 
-## Pop — Best for Video Quality and Presence
+### Step 3: Pop — Best for Video Quality and Presence
 
 Pop emphasizes video presence and screen sharing with lightweight operation. Better for situations where you're not just focused on code.
 
@@ -201,7 +211,7 @@ Use case: Debugging production issue
 
 **Pro tip:** Pop works great for mixed use cases (not pure code pairing) — perfect for pair code reviews.
 
-## CodeTogether — Best for IDE Flexibility
+### Step 4: CodeTogether — Best for IDE Flexibility
 
 CodeTogether works with VS Code, JetBrains IDEs, and web-based editors. True cross-IDE support.
 
@@ -257,7 +267,7 @@ Scenario: Alice uses VS Code, Bob uses PyCharm
 | Pop | 100-200ms | Good | HD | Free-$9/month |
 | CodeTogether | 100-150ms | Good | Good | Free-$8/month |
 
-## Driver/Navigator Workflow Template
+### Step 5: Driver/Navigator Workflow Template
 
 Effective pair programming follows this pattern:
 
@@ -282,7 +292,7 @@ Effective pair programming follows this pattern:
 - 75-110 min: Final driver/navigator for wrap-up
 - 110-120 min: Code review and next steps
 
-## Real Setup Guide: Full Stack Pairing Session
+### Step 6: Real Setup Guide: Full Stack Pairing Session
 
 **Tools needed:**
 - VS Code Live Share (free) or Tuple ($25/month)
@@ -310,7 +320,7 @@ Effective pair programming follows this pattern:
 4. Share recording with team for knowledge transfer
 ```
 
-## Productivity Metrics
+### Step 7: Productivity Metrics
 
 Teams doing consistent remote pair programming report:
 - **Code quality:** 25-40% fewer bugs in production
@@ -319,13 +329,28 @@ Teams doing consistent remote pair programming report:
 - **Morale:** Notably higher in teams pairing weekly
 - **Time cost:** Net positive (faster implementation, fewer bugs)
 
-## Recommendations by Use Case
+### Step 8: Recommendations by Use Case
 
 - **Quick code review:** Pop (free, video-focused)
 - **Onboarding new developer:** VS Code Live Share (free, low friction)
 - **Complex algorithm/architecture:** Tuple (lowest latency)
 - **Mixed IDE team:** CodeTogether
 - **Fast-moving team, daily pairing:** Tuple (best ROI)
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Articles
 

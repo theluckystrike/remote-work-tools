@@ -32,7 +32,17 @@ Natural light from a window in front of you (not behind) is free and better than
 - **Room acoustics (free to cheap**: panels, position changes)
 2.
 
-## The Priority Order
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Priority Order
 
 Most engineers spend money in the wrong order. Fix in this sequence:
 
@@ -43,7 +53,7 @@ Most engineers spend money in the wrong order. Fix in this sequence:
 
 A $50 mic in a treated room sounds better than a $400 mic in an untreated one.
 
-## Room Acoustics: The Foundation
+### Step 2: Room Acoustics: The Foundation
 
 **The problem**: Hard surfaces (windows, walls, desks) reflect sound and create echo. Your voice sounds like you're in a bathroom.
 
@@ -66,7 +76,7 @@ Test: record 30 seconds of yourself talking and listen on headphones.
 Clap once sharply and listen for ringing (reverb tail). Longer = worse.
 ```
 
-## Microphone Selection
+### Step 3: Microphone Selection
 
 **Budget ($50-80): Audio-Technica ATR2100x-USB**
 - USB + XLR combo (upgrade path without replacing the mic)
@@ -106,7 +116,7 @@ Solution for desk vibration: mic arm mount instead of desk stand
 Arms: RØDE PSA1+ ($100) or Elgato Wave Mic Arm ($75)
 ```
 
-## Camera
+### Step 4: Camera
 
 Built-in laptop cameras are 720p at 30fps with small sensors that perform poorly in anything but bright light. A dedicated webcam makes a visible difference.
 
@@ -131,7 +141,7 @@ For most engineers: Logitech C920 or using your iPhone as a webcam via Continuit
 5. Studio Light: software key lighting effect (compensates for bad room lighting)
 ```
 
-## Lighting
+### Step 5: Lighting
 
 Camera sensors need light. Bad lighting makes a $200 camera look like a $20 camera.
 
@@ -158,7 +168,7 @@ Avoid ring lights for desktop recording:
 - Ring lights are designed for vertical phone videos, not horizontal desk recordings
 ```
 
-## Recording Software
+### Step 6: Recording Software
 
 **For screencasts with system audio + camera:**
 
@@ -216,7 +226,7 @@ brew install --cask cap
 # Record screen + camera, generates shareable link automatically
 ```
 
-## Complete Budget Breakdown
+### Step 7: Complete Budget Breakdown
 
 | Setup Tier | Components | Cost |
 |---|---|---|
@@ -259,7 +269,7 @@ Test your improvement before and after:
 # If echo persists longer, add more treatment
 ```
 
-## Screen Recording Workflow for Engineers
+### Step 8: Screen Recording Workflow for Engineers
 
 Typical async demo workflow for technical walkthroughs:
 
@@ -291,7 +301,7 @@ ffmpeg -i raw_recording.mp4 -c:v libx264 -crf 23 -c:a aac output.mp4
 #  (5 min) — shows implementation details and deployment process"
 ```
 
-## Microphone Technique for Better Recordings
+### Step 9: Microphone Technique for Better Recordings
 
 The hardware is only part of the equation. Technique matters equally:
 
@@ -320,7 +330,7 @@ The hardware is only part of the equation. Technique matters equally:
 # Check mic level (should be peaking around -6dB, not -12)
 ```
 
-## Audio Level Management
+### Step 10: Audio Level Management
 
 Improper audio levels ruin otherwise good recordings:
 
@@ -356,7 +366,7 @@ Improper audio levels ruin otherwise good recordings:
 
 For most engineers: Start with Loom (easiest, handles cloud hosting). For more control: OBS Studio (free, unlimited). For quick browser tabs: Screenity.
 
-## Post-Recording Audio Cleanup
+### Step 11: Post-Recording Audio Cleanup
 
 Even with good setup, some cleanup helps:
 
@@ -377,7 +387,7 @@ ffmpeg -i raw.mp4 -af "anlmdn=m=8:h=0.1" output.mp4
 # 6. Export as MP4
 ```
 
-## Video Format and Compression Standards
+### Step 12: Video Format and Compression Standards
 
 For consistency across your team's async videos:
 
@@ -403,12 +413,12 @@ ffmpeg -i input.mov \
 # If file is >500MB, increase CRF (more compression)
 ```
 
-## Accessibility Considerations
+### Step 13: Accessibility Considerations
 
 Make async videos accessible to your whole team:
 
 ```markdown
-## Video Accessibility Checklist
+### Step 14: Video Accessibility Checklist
 
 ### Captions
 - Always include captions (for hearing-impaired + people in noisy environments)
@@ -434,6 +444,21 @@ Make async videos accessible to your whole team:
 - Use clear sections with verbal markers ("Next, we'll look at...")
 - End with key takeaway or next steps
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

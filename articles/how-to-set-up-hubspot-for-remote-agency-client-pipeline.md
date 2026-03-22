@@ -44,7 +44,17 @@ Slack**: Real-time notifications keep distributed teams informed without checkin
 - **Remote agencies often work**: with clients who need internal approval cycles, and a scheduled follow-up ensures nothing falls through the cracks during extended proposal review periods.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Building Your Client Pipeline Stages
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Build Your Client Pipeline Stages
 
 The foundation of any HubSpot setup is the pipeline itself. For a remote agency, your stages should reflect how deals actually progress when team members work across time zones and communicate primarily through written channels.
 
@@ -60,7 +70,7 @@ A practical pipeline for remote agencies includes these stages:
 
 Each stage represents a clear handoff point, which matters when your team isn't physically together to discuss deal status in real time. Avoid overcomplicating stages — the more granular you make them, the more maintenance required to keep deal stages accurate.
 
-## Configuring Properties for Remote Agency Context
+### Step 2: Configure Properties for Remote Agency Context
 
 Standard HubSpot properties work well, but remote agencies benefit from adding custom properties that capture context specific to distributed work.
 
@@ -95,7 +105,7 @@ Add a property called `preferred_async_channel` with options like email, Slack, 
 
 While HubSpot tracks automatic activity, remote agencies benefit from a manual "last meaningful contact" property. When your team member has a substantive async exchange with a client, they update this timestamp. It provides a quick visual indicator of relationship health without relying solely on email open rates.
 
-## Setting Up Deal Automation
+### Step 3: Set Up Deal Automation
 
 Automation in HubSpot should reduce busywork while preserving human judgment on client relationships. For remote agencies, focus automation on notification and data capture rather than auto-advancing deals through stages.
 
@@ -128,7 +138,7 @@ const slackMessage = {
 
 When a deal enters "Proposal Sent" stage, automatically create a follow-up task for 5 business days later. Remote agencies often work with clients who need internal approval cycles, and a scheduled follow-up ensures nothing falls through the cracks during extended proposal review periods.
 
-## Integrating with Your Existing Tools
+### Step 4: Integrate with Your Existing Tools
 
 HubSpot's value increases significantly when connected to your other systems. For remote agencies, the most valuable integrations typically include:
 
@@ -156,7 +166,7 @@ app.post('/webhooks/hubspot-deal-created', (req, res) => {
 });
 ```
 
-## Reporting for Distributed Teams
+### Step 5: Reporting for Distributed Teams
 
 Remote agencies need different reporting approaches than co-located teams. Since you cannot walk around and ask about deal status, your pipeline reports must be self-explanatory.
 
@@ -261,7 +271,7 @@ Score 0-4: Monitor
 
 This approach ensures your limited follow-up time targets deals most likely to close.
 
-## Remote Agency-Specific Workflows
+### Step 6: Remote Agency-Specific Workflows
 
 ### Proposal Review Automation
 
@@ -302,7 +312,7 @@ When scheduling calls, reference these properties to find mutually convenient ti
 
 Use a tool like Calendly with timezone support to let clients book calls without back-and-forth.
 
-## Maintaining Pipeline Hygiene
+### Step 7: Maintaining Pipeline Hygiene
 
 A pipeline only works when data stays current. For remote agencies, this requires intentional habits:
 
@@ -344,6 +354,21 @@ Create HubSpot dashboards that show pipeline health at a glance:
 - Win/loss ratio by industry or deal source (shows which markets work)
 
 These dashboards replace status update meetings—anyone can check pipeline health without asking questions.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

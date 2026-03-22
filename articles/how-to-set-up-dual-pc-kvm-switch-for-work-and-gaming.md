@@ -27,7 +27,17 @@ Use a dedicated USB switch (cheaper than a full KVM) for accessories while keepi
 - **Use KVMs with independent**: USB hubs rather than shared hubs 3.
 - **Configure keyboard settings to**: save to onboard memory rather than software ## Cable Management Best Practices Clean cable routing prevents connection failures and looks professional: 1.
 
-## Understanding Your KVM Options
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Your KVM Options
 
 KVM switches come in several forms, each with distinct advantages for different use cases.
 
@@ -39,7 +49,7 @@ KVM switches come in several forms, each with distinct advantages for different 
 
 For a dual PC setup with a dedicated gaming machine and workstation, a hardware KVM provides the most reliable experience with zero latency switching.
 
-## Selecting the Right KVM for Your Setup
+### Step 2: Select the Right KVM for Your Setup
 
 When choosing a KVM switch, several specifications matter for a developer workflow.
 
@@ -53,7 +63,7 @@ When choosing a KVM switch, several specifications matter for a developer workfl
 
 For developers working with multiple monitors, dual-monitor KVMs exist but cost significantly more. A more common approach uses two KVMs in parallel, one per monitor.
 
-## Physical Installation Steps
+### Step 3: Physical Installation Steps
 
 With your KVM selected, the physical installation follows a straightforward process.
 
@@ -77,7 +87,7 @@ Work Laptop (USB-C OUT) ──────┘      │
 
 Many developers run cables along desk edges or through cable management channels. Velcro ties keep connections organized and make future changes easier.
 
-## Configuring Keyboard and Mouse Passthrough
+### Step 4: Configure Keyboard and Mouse Passthrough
 
 After physical installation, verify your keyboard and mouse work correctly on both machines. Most KVMs enumerate as a standard USB HID (Human Interface Device), so operating systems recognize them without additional drivers.
 
@@ -85,7 +95,7 @@ If you use mechanical keyboards with custom firmware, ensure your keyboard remai
 
 Developers who use KVM-based development environments often keep their primary keyboard layout consistent across machines. If one machine runs Windows and the other Linux, verify that your IDE shortcuts work similarly on both, or consider creating layout-specific keymaps.
 
-## Using Keyboard Shortcuts for Fast Switching
+### Step 5: Use Keyboard Shortcuts for Fast Switching
 
 Most hardware KVMs support keyboard-based switching. Common default hotkeys include:
 
@@ -97,7 +107,7 @@ Check your KVM documentation for the specific combination. You can usually chang
 
 For developers, assigning a consistent hotkey saves time. If you frequently switch between machines while coding, the hotkey should be easy to trigger without accidentally activating other system shortcuts.
 
-## Software KVM Alternatives for Advanced Users
+### Step 6: Software KVM Alternatives for Advanced Users
 
 Software KVMs like Barrier offer capabilities beyond hardware switches. Since Barrier runs on both machines, it can synchronize your clipboard across computers—a significant productivity boost for developers moving code snippets or documentation between machines.
 
@@ -127,7 +137,7 @@ Several issues commonly appear when setting up dual PC KVM switches.
 
 **Slow switching response** might indicate a faulty cable or insufficient power to the KVM. Check that your KVM receives adequate power from its included adapter.
 
-## Practical Setup Example
+### Step 7: Practical Setup Example
 
 A complete developer setup might include:
 
@@ -144,7 +154,7 @@ Some KVM models support automatic switching based on which computer is powered o
 
 You can combine hardware and software approaches. Use the hardware KVM for your primary monitor, keyboard, and mouse, then use Barrier for additional functionality like clipboard sync and file drag-and-drop between machines.
 
-## Top KVM Models for Developers (2026)
+### Step 8: Top KVM Models for Developers (2026)
 
 ### Budget Option: ATEN CS682
 
@@ -269,7 +279,7 @@ glxgears  # On Linux
 
 **Test methodology**: Run the same game or application on both computers, once connected directly to the monitor and once through the KVM. If you see performance differences, the KVM is introducing signal degradation.
 
-## Building Your Ideal Setup Incrementally
+### Step 9: Build Your Ideal Setup Incrementally
 
 Start simple and expand:
 
@@ -281,7 +291,7 @@ Start simple and expand:
 
 This incremental approach prevents overwhelming yourself while building expertise with each component.
 
-## Switching Between Work and Gaming Mindsets
+### Step 10: Switching Between Work and Gaming Mindsets
 
 The psychological benefit of separate machines goes beyond technical separation:
 

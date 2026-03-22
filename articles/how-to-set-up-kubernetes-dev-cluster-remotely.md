@@ -35,7 +35,17 @@ Full Kubernetes (kubeadm-based) requires significantly more overhead: a dedicate
 - Ubuntu 22.04 LTS (2 vCPU, 4GB RAM minimum per node)
 - Open ports: 6443 (API), 80, 443 (ingress), 8472/udp (Flannel VXLAN)
 
-## Install k3s Server Node
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Install k3s Server Node
 
 ```bash
 # Install k3s with Traefik ingress and no local storage (use Longhorn instead)
@@ -55,7 +65,7 @@ sudo k3s kubectl get nodes
 sudo cat /var/lib/rancher/k3s/server/node-token
 ```
 
-## Add Worker Nodes
+### Step 2: Add Worker Nodes
 
 ```bash
 # On each worker node:
@@ -72,7 +82,7 @@ sudo k3s kubectl get nodes
 # dev-worker2  Ready    <none>                 1m
 ```
 
-## Kubeconfig for Team Access
+### Step 3: Kubeconfig for Team Access
 
 ```bash
 # Export kubeconfig from server
@@ -95,7 +105,7 @@ mv ~/.kube/merged.yaml ~/.kube/config
 kubectl config use-context default
 ```
 
-## Namespace-Based Team Isolation
+### Step 4: Namespace-Based Team Isolation
 
 Give each developer or team their own namespace with RBAC:
 
@@ -161,7 +171,7 @@ kubectl apply -f rbac-developer.yaml
 kubectl config set-context --current --namespace=dev-alice
 ```
 
-## Install Helm
+### Step 5: Install Helm
 
 ```bash
 # Install Helm
@@ -177,7 +187,7 @@ helm repo update
 helm search repo bitnami/postgres
 ```
 
-## Deploy PostgreSQL with Helm
+### Step 6: Deploy PostgreSQL with Helm
 
 ```bash
 helm install postgres bitnami/postgresql \
@@ -195,7 +205,7 @@ kubectl run psql-client --rm --tty -i --restart='Never' \
   --command -- psql --host postgres-postgresql --username postgres --port 5432
 ```
 
-## Skaffold for Fast Iteration
+### Step 7: Skaffold for Fast Iteration
 
 Skaffold handles build-push-deploy in a single command:
 
@@ -248,7 +258,7 @@ skaffold run --namespace=dev-alice
 skaffold delete --namespace=dev-alice
 ```
 
-## Traefik Ingress Configuration
+### Step 8: Traefik Ingress Configuration
 
 ```yaml
 # ingress.yaml
@@ -278,7 +288,7 @@ spec:
         - alice.dev.example.com
 ```
 
-## Resource Quotas
+### Step 9: Resource Quotas
 
 Prevent any one namespace from consuming all cluster resources:
 
@@ -305,7 +315,7 @@ kubectl apply -f resource-quota.yaml
 kubectl describe resourcequota dev-quota -n dev-alice
 ```
 
-## Persistent Storage with Longhorn
+### Step 10: Persistent Storage with Longhorn
 
 For dev clusters that need reliable persistent volumes across node restarts, Longhorn provides replicated block storage without the complexity of Ceph:
 
@@ -329,7 +339,7 @@ kubectl patch storageclass longhorn \
 
 Once Longhorn is running, PersistentVolumeClaims automatically get distributed storage. Your Helm deployments that specify `storageClassName: longhorn` (or no class, since it's default) will get volumes that survive node failures and can be snapshotted for backup.
 
-## Cluster Autoscaling for Cost Control
+### Step 11: Cluster Autoscaling for Cost Control
 
 Dev clusters on cloud VMs can burn budget fast. Use a simple cron-based scale-down during off-hours rather than full cluster autoscaler complexity:
 
@@ -387,7 +397,7 @@ kubectl create secret docker-registry regcred \
 #   - name: regcred
 ```
 
-## Shared Container Registry Access
+### Step 12: Shared Container Registry Access
 
 Remote team members need a registry that all developers and the cluster can pull from. Self-hosted Harbor is the most capable option, but for smaller teams a cloud registry with a shared robot account works fine.
 
@@ -411,7 +421,7 @@ done
 
 With this in place, every pod in those namespaces automatically pulls from the private registry without requiring `imagePullSecrets` in each manifest.
 
-## Setting Up Metrics Server for HPA
+### Step 13: Set Up Metrics Server for HPA
 
 Horizontal Pod Autoscaler requires the metrics-server to be running. k3s ships without it by default:
 
@@ -455,7 +465,7 @@ spec:
           averageUtilization: 70
 ```
 
-## Monitoring with k9s
+### Step 14: Monitor with k9s
 
 ```bash
 # Install k9s for terminal cluster management
@@ -467,7 +477,7 @@ k9s --namespace dev-alice
 # Navigate: :pods, :services, :logs, :exec
 ```
 
-## Upgrading k3s
+### Step 15: Upgrading k3s
 
 k3s upgrades are non-disruptive when done node-by-node. The upgrade controller handles this automatically:
 
@@ -496,6 +506,21 @@ EOF
 ```
 
 The controller drains nodes, applies the upgrade, and uncordons them. Worker nodes get upgraded after the control plane is done, ensuring zero downtime for running workloads.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

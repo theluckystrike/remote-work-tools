@@ -59,7 +59,17 @@ The benefits include:
 
 The asymmetry matters too: a fragmented deal is a slow deal. When an account executive needs to pull competitor positioning before a call, they shouldn't be searching through five different Slack threads and a three-week-old email. A well-structured deal room surfaces that information in seconds. That retrieval speed compounds across hundreds of deals per year.
 
-## Choosing Your Deal Room Platform
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Choose Your Deal Room Platform
 
 Before setting up structure and templates, choose the platform that fits your team's existing toolchain.
 
@@ -71,7 +81,7 @@ Before setting up structure and templates, choose the platform that fits your te
 
 **Confluence** works for teams already using Jira and wanting deal documentation adjacent to project tracking. Space-level permissions and page templates make it manageable for sales teams that tolerate some technical overhead.
 
-## Setting Up Your Deal Room Structure
+### Step 2: Set Up Your Deal Room Structure
 
 ### Directory Organization
 
@@ -102,28 +112,28 @@ Every deal should have a standardized brief. Here's a template you can adapt:
 
 Build a remote sales deal room using a shared document platform (Google Drive, SharePoint, or Notion) organized by deal stage, populated with collaboration-ready templates for proposals and contracts, and integrated with your CRM via automation. This centralized space keeps all stakeholders aligned and reduces email clutter during complex sales cycles.
 
-## Stakeholders
+### Step 3: Stakeholders
 | Name | Role | Influence | Notes |
 |------|------|-----------|-------|
 |      |      |           |       |
 
-## Current Situation
+### Step 4: Current Situation
 [Pain points and current state]
 
-## Proposed Solution
+### Step 5: Proposed Solution
 [What we're selling and why]
 
 ## Next Steps
 - [ ] Task 1 - Owner - Due Date
 - [ ] Task 2 - Owner - Due Date
 
-## Blockers
+### Step 6: Blockers
 - [Blocker description]
 ```
 
 The Influence column in the stakeholders table is worth formalizing. Label each stakeholder as Champion, Economic Buyer, Technical Evaluator, or Blocker. This taxonomy forces account executives to think explicitly about deal structure rather than just tracking contact names. When a deal stalls, the first review question is usually: "Where is the economic buyer?" and the deal brief should answer that immediately.
 
-## Automation with GitHub Actions
+### Step 7: Automation with GitHub Actions
 
 For teams comfortable with git, you can automate deal room workflows using GitHub Actions. This approach treats deal documents like code:
 
@@ -151,7 +161,7 @@ You can extend this to:
 
 A practical GitHub Actions workflow for deal rooms uses repository dispatch events triggered by CRM stage changes. When a deal moves from Qualification to Proposal in HubSpot, the webhook fires a repository_dispatch event that creates a new document folder from the Proposal-stage template. This eliminates the manual setup overhead that causes deal room adoption to slip—if the room creates itself, reps use it.
 
-## Real-Time Collaboration Features
+### Step 8: Real-Time Collaboration Features
 
 Modern document tools provide features that make deal rooms effective:
 
@@ -163,7 +173,7 @@ Modern document tools provide features that make deal rooms effective:
 
 **Suggesting Mode:** For proposal documents, require changes to go through suggestion mode rather than direct edits. This preserves the original text and creates a review record, which matters when legal reviews proposal language.
 
-## Integration with Your CRM
+### Step 9: Integration with Your CRM
 
 The deal room should sync with your CRM. Here are practical integration approaches:
 
@@ -207,7 +217,7 @@ HubSpot's CRM allows embedding custom properties that link to deal room document
 
 This keeps the CRM as the system of record for deal status while the deal room handles the collaboration artifacts.
 
-## Async Deal Reviews for Distributed Teams
+### Step 10: Async Deal Reviews for Distributed Teams
 
 Remote sales teams in multiple timezones need deal reviews that don't require everyone online simultaneously. Structured async reviews work for both internal deal coaching and external stakeholder management.
 
@@ -224,7 +234,7 @@ Remote sales teams in multiple timezones need deal reviews that don't require ev
 5. **Access control** - Limit editing to deal owners and coaches
 6. **Link everything** - Every CRM record should link to the deal room; every deal room should link back to the CRM
 
-## Measuring Deal Room Effectiveness
+### Step 11: Measuring Deal Room Effectiveness
 
 Track these metrics to validate your setup:
 
@@ -236,7 +246,7 @@ Track these metrics to validate your setup:
 
 Adoption rate is the most important metric in the first 90 days. A deal room system that 40% of reps use consistently beats a sophisticated system that 80% of reps abandon after week two. Track adoption before tracking deal velocity—the latter is meaningless without the former.
 
-## Common Pitfalls to Avoid
+### Step 12: Common Pitfalls to Avoid
 
 - **Over-complicating templates** - Keep fields actionable, not bureaucratic
 - **Ignoring mobile** - Ensure mobile access for reps on the go
@@ -245,6 +255,21 @@ Adoption rate is the most important metric in the first 90 days. A deal room sys
 - **Skipping the archive step** - Stale active-deal folders degrade searchability for the whole team
 
 Building a deal room with shared documents requires upfront setup but pays dividends in deal visibility and team alignment. Start simple, iterate based on your team's workflow, and treat your deal documentation as a core asset.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

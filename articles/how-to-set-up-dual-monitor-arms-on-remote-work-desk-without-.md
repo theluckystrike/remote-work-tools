@@ -34,7 +34,17 @@ Before purchasing any monitor arm solution, assess your desk setup. Measure your
 
 For developers working with large displays, consider that a 27-inch monitor typically weighs between 15-25 pounds. Dual 32-inch monitors can exceed 40 pounds total, requiring heavy-duty mounting solutions.
 
-## Method 1: Desk Clamp Mounts (Most Popular)
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Method 1: Desk Clamp Mounts (Most Popular)
 
 Desk clamp mounts represent the most stable no-drill option for most desk types. These clamps attach to the desk edge and grip the underside, providing substantial support without holes.
 
@@ -57,7 +67,7 @@ Desk clamp mounts represent the most stable no-drill option for most desk types.
 
 Most quality clamp mounts support monitors up to 32 inches and 20-30 pounds per arm. For dual 27-inch monitors, a sturdy dual-monitor arm with separate clamps or a single wide base works well.
 
-## Method 2: Adhesive Mounting Solutions
+### Step 2: Method 2: Adhesive Mounting Solutions
 
 For glass desks, thin particle board, or situations where clamps won't fit, adhesive mounting plates offer an alternative. These use industrial-strength adhesive strips to create a mounting surface.
 
@@ -70,7 +80,7 @@ For glass desks, thin particle board, or situations where clamps won't fit, adhe
 
 The main drawback: adhesive solutions generally support lighter monitors (under 15 pounds each) and perform best with smaller displays. They're less suitable for heavy professional monitors.
 
-## Method 3: Weighted Base Stands
+### Step 3: Method 3: Weighted Base Stands
 
 Free-standing monitor bases with weighted feet provide complete portability. These sit on your desk surface and don't attach to anything—a perfect solution for renters or those who frequently reconfigure their workspace.
 
@@ -83,7 +93,7 @@ Free-standing monitor bases with weighted feet provide complete portability. The
 
 The trade-off is desk space—they occupy some footprint where a clamp mount would not. For developers with larger desks, this often isn't a concern.
 
-## Method 4: Monitor Arm Adapters for Existing Stands
+### Step 4: Method 4: Monitor Arm Adapters for Existing Stands
 
 If your monitors came with factory stands, consider monitor arm adapters that attach to existing monitor bases. These convert fixed stands into adjustable arms without requiring desk mounting.
 
@@ -108,7 +118,7 @@ console.log(layout);
 // { totalWidth: 56, sidePadding: 2, recommended: false }
 ```
 
-## Ergonomic Positioning for Development Work
+### Step 5: Ergonomic Positioning for Development Work
 
 Proper monitor placement reduces neck strain and eye fatigue—critical for developers spending long hours at the desk.
 
@@ -142,7 +152,7 @@ Developers often have multiple cables running to each monitor. Use:
 
 For heavy monitor combinations, ensure your clamp or base is rated for the total weight. Undersized mounts sag over time or fail suddenly.
 
-## Making the Right Choice
+### Step 6: Making the Right Choice
 
 Consider these factors when selecting your no-drill monitor arm solution:
 
@@ -169,7 +179,7 @@ For most developer setups with 24-27 inch monitors, a quality dual clamp mount p
 
 Most clamp mounts support 17-32 inch monitors. Choose based on your specific monitor weight—larger displays often exceed 25 pounds.
 
-## Desk Preparation and Thickness Verification
+### Step 7: Desk Preparation and Thickness Verification
 
 Before ordering, accurately measure your desk:
 
@@ -189,7 +199,7 @@ Metal frame          Variable            Check clamp compatibility
 
 Measure at least three points along your desk edge to confirm consistency. Particle board desks benefit from felt pads under clamp feet to prevent surface damage.
 
-## Step-by-Step Installation Procedure
+### Step 8: Step-by-Step Installation Procedure
 
 ### For Clamp-Based Mounts
 
@@ -292,7 +302,7 @@ Advantages:
 - Easy to reposition or remove
 ```
 
-## Optimizing Monitor Layout for Development Work
+### Step 9: Optimizing Monitor Layout for Development Work
 
 Developers benefit from specific monitor arrangements:
 
@@ -356,7 +366,7 @@ For pair programming or code review, side-by-side layout allows both developers 
 - For USB data cables, ensure clamp isn't applying pressure to cable connectors
 - Use shielded cables for USB 3.0 if experiencing interference
 
-## Health Benefits of Proper Monitor Positioning
+### Step 10: Health Benefits of Proper Monitor Positioning
 
 Correct monitor arm setup directly impacts remote worker health:
 

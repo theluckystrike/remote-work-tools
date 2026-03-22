@@ -40,13 +40,23 @@ The fastest desk-to-kitchen transitions use three techniques: physical workspace
 - **Lunch goes from "grab**: container" to "eating" in 90 seconds.
 - **Mastering advanced features takes**: 1-2 weeks of regular use.
 
-## Understanding the Transition Cost
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Transition Cost
 
 Every time you leave your workstation, several things happen: you save your current state, physically move to a different room, and mentally shift from work mode to parent mode. For developers and power users, the real inefficiency comes from losing focus and the time cost of resuming complex workflows.
 
 The goal is not to eliminate the transition but to make it intentional and efficient. A well-designed desk-to-kitchen transition reduces cognitive load and lets you enjoy meaningful lunch time with your children without worrying about pending work.
 
-## Physical Workspace Setup
+### Step 2: Physical Workspace Setup
 
 The foundation of a quick transition starts with your physical workspace. Position your desk near a doorway that provides the fastest route to the kitchen. Remove obstacles in this path—folding chairs, toys, rugs—that slow you down.
 
@@ -70,7 +80,7 @@ echo "Workspace state saved"
 
 This script ensures your terminal sessions remain intact when you return, eliminating the need to reconstruct complex development environments.
 
-## Automating Status and Notifications
+### Step 3: Automate Status and Notifications
 
 Before leaving your desk, establish a system that communicates your availability to colleagues without manual effort. A simple shell script can handle this:
 
@@ -96,7 +106,7 @@ echo "Lunch mode activated"
 
 This approach removes the mental overhead of manually updating status across multiple platforms. Configure these scripts with environment variables for your API tokens and run them with a single keyboard shortcut.
 
-## The Five-Minute Preparation System
+### Step 4: The Five-Minute Preparation System
 
 The most efficient remote parents implement a preparation system that works in both directions. Here's a practical framework:
 
@@ -119,7 +129,7 @@ The most efficient remote parents implement a preparation system that works in b
 
 This system works because it externalizes your mental state. Instead of relying on memory, you capture context in written form that takes seconds to create and seconds to recover.
 
-## Kitchen Organization for Speed
+### Step 5: Kitchen Organization for Speed
 
 Your kitchen setup directly impacts how quickly you can prepare lunch. Store frequently-used items at accessible heights. Keep a "lunch station" with everything needed for quick meal assembly:
 
@@ -129,7 +139,7 @@ Your kitchen setup directly impacts how quickly you can prepare lunch. Store fre
 
 For developers who appreciate efficiency metrics, track your lunch preparation time for one week. Aim to reduce it from an average of 10 minutes to under 5 through better organization and preparation.
 
-## Batch Cooking and Strategic Leftovers
+### Step 6: Batch Cooking and Strategic Leftovers
 
 The most effective lunch solutions happen before lunch. Sunday batch cooking provides grab-and-go components throughout the week:
 
@@ -159,19 +169,19 @@ print(f"Shop for: {plan['protein_lbs']}lbs protein, {plan['vegetables_lbs']}lbs 
 
 Prepare components that combine into multiple meals: roasted chicken, grains, and chopped vegetables can become salads, wraps, or bowls throughout the week.
 
-## Managing Family Interruptions During Transitions
+### Step 7: Manage Family Interruptions During Transitions
 
 The transition itself is quick, but family members often don't understand why you can't take a quick call or answer a question during this 30-minute window. A written family agreement prevents constant interruptions:
 
 ```markdown
 # Lunch Break Protocol (Family Agreement)
 
-## When It Starts
+### Step 8: When It Starts
 - Calendar shows "Lunch" block 12:00-12:30 PM
 - Slack status shows "🥪 Lunch with Family"
 - Workspace notification appears: "Do Not Disturb" on monitor
 
-## What This Means
+### Step 9: What This Means
 - No work interruptions for the next 30 minutes
 - I'm fully available for family needs during this time
 - Questions can wait 30 minutes if non-urgent
@@ -183,19 +193,19 @@ The transition itself is quick, but family members often don't understand why yo
 - Protects your meal time as sacred family time
 - Makes afternoon work sessions more productive
 
-## During Lunch
+### Step 10: During Lunch
 - Phone stays away from the table (no work, no scrolling)
 - Kitchen timer limits conversation cleanup to 5 minutes
 - Everyone contributes: kids clear plates, partner puts away food
 
-## After Lunch
+### Step 11: After Lunch
 - 2-minute return transition (coffee, reset workspace)
 - Back to work status immediately when timer rings
 ```
 
 Post this visibly and refer to it when family members test boundaries. Consistency over weeks establishes the norm.
 
-## Meal Prep Deep Dive: The Sustainable Approach
+### Step 12: Meal Prep Deep Dive: The Sustainable Approach
 
 Weekly batch cooking requires planning but eliminates daily cooking stress:
 
@@ -255,35 +265,35 @@ Hour 4 (Cleanup & planning):
 
 **Result:** 15 containers ready, each taking 90 seconds to heat and assemble during lunch.
 
-## Portable Lunch Solutions for Flexible Work
+### Step 13: Portable Lunch Solutions for Flexible Work
 
 If you sometimes work from different rooms or locations, prepare lunch to be mobility-friendly:
 
 ```markdown
 # Portable Lunch Kit Setup
 
-## Pre-staged Container
+### Step 14: Pre-staged Container
 - Insulated lunch box at kitchen prep station
 - Includes: protein portion, vegetable portion, grain portion, utensils
 - Cost: €8-12 per container (reusable for years)
 
-## Condiment Kit
+### Step 15: Condiment Kit
 - Small containers: olive oil, salt, pepper, lemon juice (shelf-stable)
 - Keeps flavors intact when eating away from home
 - Fits in pant pocket or small bag
 
-## No-Cook Options
+### Step 16: No-Cook Options
 - Prepared sandwiches (assemble morning-of)
 - Pasta salad (make Friday, eat Monday-Wednesday)
 - Greek salads with feta (dressing separate)
 - Cured meats + cheese + fruit combinations
 
-## Hybrid Approach
+### Step 17: Hybrid Approach
 Protein already cooked, vegetables already prepped, grain ready to heat.
 Lunch goes from "grab container" to "eating" in 90 seconds.
 ```
 
-## The 5-Minute Return-to-Work Protocol
+### Step 18: The 5-Minute Return-to-Work Protocol
 
 Just as important as the transition away is the return. A failed re-entry destroys your afternoon productivity:
 
@@ -315,7 +325,7 @@ echo "Work session resumed."
 
 The purpose is deliberate transition. Don't try to work while still in "family mode." A 5-minute reset prevents the messy hybrid state where you're partially focused on both.
 
-## Measuring Success: Quantifying Your Time Recovery
+### Step 19: Measuring Success: Quantifying Your Time Recovery
 
 To know if your system works, track baseline metrics:
 
@@ -355,6 +365,21 @@ If you're not seeing improvement by week 3, diagnose the problem. Common issues:
 - Calendar blocking isn't actually protected
 
 Fix the specific bottleneck rather than trying to optimize everything simultaneously.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

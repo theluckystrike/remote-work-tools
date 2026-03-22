@@ -40,7 +40,17 @@ Set up your home office network by running a wired Ethernet connection to your d
 - **Latency test (10 runs)**: Target p95 latency <20ms to your primary cloud services
 2.
 
-## Assessing Your Current Setup
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Assessing Your Current Setup
 
 Before buying equipment, understand what you already have and identify the bottlenecks. Run a speed test during your typical working hours to establish a baseline. Note the difference between your advertised speeds and actual throughput—this reveals whether your ISP delivers on promises and whether your local network limits performance.
 
@@ -57,7 +67,7 @@ mtr -rw 8.8.8.8
 
 Document your current topology. Sketch which devices connect to which access points, where your router sits, and how cables run through your space. This map guides improvements and helps diagnose future issues.
 
-## Choosing Between Wired and Wireless
+### Step 2: Choose Between Wired and Wireless
 
 Ethernet remains the gold standard for stability. If your desk sits within reasonable distance of your router or a network switch, running a cable eliminates an entire category of problems. Modern Cat6 cables support 10Gbps up to 55 meters—more than enough for home office distances.
 
@@ -69,7 +79,7 @@ When running cables isn't practical, WiFi becomes necessary. The WiFi 6 standard
 
 For developers working with large codebases or CI/CD pipelines, wired connections prevent the occasional packet retransmission that can slow file transfers and build processes.
 
-## Segmenting Your Network
+### Step 3: Segmenting Your Network
 
 Network segmentation improves security and performance. Most consumer routers support creating separate SSIDs for different device types. Isolate work devices from smart home gadgets and guest traffic:
 
@@ -87,7 +97,7 @@ Network Segments:
 
 On routers supporting VLANs or guest networks, configure isolation so IoT devices cannot reach your work machines. This limits the blast radius if a smart device gets compromised.
 
-## Setting Up VPN Access
+### Step 4: Set Up VPN Access
 
 A VPN protects your traffic when using untrusted networks and often required for accessing company resources. For home office setups, you have two scenarios:
 
@@ -109,7 +119,7 @@ AllowedIPs = 10.0.0.2/32
 
 For developers, consider routing only specific subnets through the VPN rather than all traffic. This prevents latency to local resources while securing sensitive connections.
 
-## Implementing Quality of Service
+### Step 5: Implementing Quality of Service
 
 When multiple household members stream, game, and work simultaneously, Quality of Service (QoS) settings prevent video calls from stuttering. Most routers offer QoS configuration, though the interface varies significantly between manufacturers.
 
@@ -131,7 +141,7 @@ config eqos_device
 
 If your router lacks QoS, consider traffic shaping at the application level or upgrading to firmware like OpenWrt that provides these features.
 
-## Securing Your Network
+### Step 6: Secure Your Network
 
 Home network security directly impacts your work data. Start with router fundamentals:
 
@@ -144,7 +154,7 @@ For developers with sensitive work, enable the firewall built into your router. 
 
 Consider adding a dedicated firewall device or routing traffic through a personal firewall like OPNsense if your threat model warrants it. This level of scrutiny matters when handling proprietary code or sensitive customer data.
 
-## Monitoring and Maintenance
+### Step 7: Monitor and Maintenance
 
 Set up basic monitoring to catch issues before they impact your work. Simple ping checks from a separate device or service can alert you to outages:
 
@@ -155,7 +165,7 @@ Set up basic monitoring to catch issues before they impact your work. Simple pin
 
 Periodically review connected devices in your router's interface. Unexpected devices often indicate neighbors accessing your network or compromised IoT gadgets. Maintain a MAC address whitelist for your work devices if your router supports it.
 
-## Optimizing DNS Performance
+### Step 8: Optimizing DNS Performance
 
 DNS resolution speed affects everything from website loading to development tool performance. Consider running a local DNS resolver like Pi-hole or AdGuard Home. These cache responses and block tracking domains:
 
@@ -169,7 +179,7 @@ curl -sSL https://install.pi-hole.net | bash
 
 Alternatively, use fast public DNS servers like Cloudflare (1.1.1.1) or Google (8.8.8.8) if local resolution isn't necessary for your setup.
 
-## Hardware Recommendations and Pricing
+### Step 9: Hardware Recommendations and Pricing
 
 Your network's quality depends directly on router and switch quality. Here's a comparison of popular options:
 
@@ -194,7 +204,7 @@ If your router lacks enough Ethernet ports, add a managed switch:
 
 For most remote workers, a good consumer WiFi 6 router ($100-150) plus a basic managed switch ($50-80) covers 95% of real-world needs. Don't overspend on hardware if your network design is solid.
 
-## Cable Infrastructure Strategy
+### Step 10: Cable Infrastructure Strategy
 
 Ethernet cable quality matters less than placement. Cat5e handles gigabit speeds; Cat6 future-proofs for 10Gbps (overkill for residential). The real investment is labor:
 
@@ -205,7 +215,7 @@ Ethernet cable quality matters less than placement. Cat5e handles gigabit speeds
 
 Total cost estimate for a home office with 3-4 wired devices: $100-200 in cable and hardware.
 
-## Backup Connectivity Options
+### Step 11: Backup Connectivity Options
 
 A single internet connection represents a critical failure point. Consider these backup strategies:
 
@@ -218,7 +228,7 @@ If your building has fiber and cable availability, maintain both connections. Ro
 ### Community WiFi Alternatives
 Map nearby coworking spaces and coffee shops offering free WiFi. These serve as fallback venues if your home office becomes unusable.
 
-## Testing and Validation Framework
+### Step 12: Test and Validation Framework
 
 Before relying on your network for critical work, run this validation suite:
 
@@ -230,7 +240,7 @@ Before relying on your network for critical work, run this validation suite:
 
 Document baseline metrics. When problems emerge, compare against this baseline to identify regression.
 
-## Monitoring and Alerting Setup
+### Step 13: Monitor and Alerting Setup
 
 Set up automated monitoring to catch problems before they impact work:
 
@@ -322,13 +332,28 @@ systemctl enable wg-quick@wg0
 systemctl start wg-quick@wg0
 ```
 
-## Final Recommendations
+### Step 14: Final Recommendations
 
 Building a reliable home office network requires balancing cost, complexity, and performance. Start with wired connections where practical, segment your network for security, and prioritize traffic for your most critical applications. Test your setup under realistic conditions before relying on it for important work.
 
 Budget $200-400 total for a solid setup: good router ($100-150), managed switch ($50-80), cable infrastructure ($50-100), and monitoring tools (free). This investment pays for itself in productivity within weeks.
 
 A well-configured network fades into the background—you forget it exists until something breaks.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

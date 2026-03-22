@@ -55,7 +55,17 @@ Daily exercises to prevent RSI (5 min, do every morning):
 - **Lumbar cushion**: Provides back support on unfamiliar chairs
 5.
 
-## Pre-Arrival Research: Know What You're Walking Into
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Pre-Arrival Research: Know What You're Walking Into
 
 Before booking, scan listing photos for desk and chair options. Look for:
 
@@ -74,7 +84,7 @@ Create a quick checklist of items to pack that address common ergonomic gaps:
 - Blue light glasses
 - USB cable extensions (often missing in older rentals)
 
-## The First Hour: Rapid Assessment and Setup
+### Step 2: The First Hour: Rapid Assessment and Setup
 
 Upon arrival, spend the first hour configuring your workspace. This investment pays dividends throughout your stay.
 
@@ -96,7 +106,7 @@ If using a laptop, external monitor, or even a tablet, position the top of the s
 
 For Airbnb setups without a monitor, your laptop screen alone works—but raise it to prevent constantly looking down. A stack of books or a travel laptop stand achieves this effectively.
 
-## Essential Equipment Setup
+### Step 3: Essential Equipment Setup
 
 ### The Minimal Travel Kit
 
@@ -119,7 +129,7 @@ If you forget something or need better options, these items are typically availa
 - **Books or magazines** — Stack as temporary monitor risers
 - **Rubber door stops** — Raise chair height if needed
 
-## Keyboard and Input Setup
+### Step 4: Keyboard and Input Setup
 
 For developers, proper keyboard positioning reduces strain and improves coding speed. When your laptop is on a stand with an external keyboard:
 
@@ -137,7 +147,7 @@ mouse_placement: "same level as keyboard, close by"
 
 If the Airbnb desk is too deep, push the keyboard forward and use the space behind for reference materials or a second monitor.
 
-## Lighting and Environment
+### Step 5: Lighting and Environment
 
 Poor lighting causes eye strain and fatigue. Position your workspace to maximize natural light, but avoid direct glare on your screen. For evening work:
 
@@ -161,7 +171,7 @@ sudo apt-get install redshift
 redshift -O 3000K  # Warm color temperature
 ```
 
-## Movement and Breaks
+### Step 6: Movement and Breaks
 
 Even perfect ergonomics cannot replace movement. Set up reminders to stand, stretch, and walk:
 
@@ -183,7 +193,7 @@ setInterval(takeBreak, 25 * 60 * 1000);
 
 Alternatively, use browser extensions like "Stretchly" or "Time Out" that suggest specific stretches.
 
-## Quick Fixes for Common Problems
+### Step 7: Quick Fixes for Common Problems
 
 ### Hard Chair Surface
 
@@ -208,7 +218,7 @@ If WiFi is insufficient, consider mobile hotspots or local co-working spaces as 
 
 Work from the floor with a lap desk and pillow arrangement. Not ideal for long sessions, but better than hunching over a coffee table for hours.
 
-## Final Checklist Before You Start
+### Step 8: Final Checklist Before You Start
 
 - [ ] Desk at correct height (elbows at 90 degrees)
 - [ ] Monitor at eye level, arm's length away
@@ -322,7 +332,7 @@ Common Wrong Setup:
 - Laptop closed (use external keyboard/mouse)
 - Cost: $100-300 if buying, $0 if borrowing
 
-## Airbnb-Specific Ergonomic Challenges
+### Step 9: Airbnb-Specific Ergonomic Challenges
 
 Different Airbnb types create different problems:
 
@@ -346,7 +356,7 @@ Different Airbnb types create different problems:
 - Solution: Anti-glare screen protector ($15-30) or simple curtain adjustment
 - Position: Sit perpendicular to windows (not facing them)
 
-## Health Metrics to Track
+### Step 10: Health Metrics to Track
 
 Beyond comfort, track objective health markers:
 
@@ -366,7 +376,7 @@ Posture Self-Check:
 If any answer is "No" or score is >3: Adjust setup immediately.
 ```
 
-## Travel-Friendly Ergonomic Gear Recommendation
+### Step 11: Travel-Friendly Ergonomic Gear Recommendation
 
 **Essential (must carry):**
 - Portable laptop stand: Roost ($30) or similar - folds to credit card size
@@ -384,6 +394,21 @@ If any answer is "No" or score is >3: Adjust setup immediately.
 - Monitor arm (too heavy, use books instead)
 
 Total weight for essential gear: ~1 lb. Worth every ounce for health.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

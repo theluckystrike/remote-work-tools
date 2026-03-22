@@ -38,7 +38,17 @@ Setting up a functional home office in a Bali rental apartment requires understa
 - **Request installation 2-3 weeks**: before needed—lead times vary.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Understanding Bali's Power Infrastructure
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Bali's Power Infrastructure
 
 Bali operates on 230V/50Hz electrical current, matching European standards. Most modern apartments in tourist areas like Canggu, Seminyak, and Ubud provide relatively stable power, but older buildings and rural areas may experience fluctuations, outages, or inconsistent grounding.
 
@@ -50,7 +60,7 @@ The primary challenges you'll encounter include:
 
 Before signing a lease, request to test the power quality. A simple voltage meter costs around $15 and provides immediate insights into the electrical stability.
 
-## Essential Equipment for Reliable Power
+### Step 2: Essential Equipment for Reliable Power
 
 ### Uninterruptible Power Supply (UPS)
 
@@ -92,7 +102,7 @@ Bali uses Type C and Type F European plugs (two round pins). Prepare:
 - Type C to Type A/B adapters if bringing US equipment
 - USB-C PD charging hub for mobile devices
 
-## Network Connectivity Solutions
+### Step 3: Network Connectivity Solutions
 
 Reliable power directly impacts network stability. Here's how to ensure continuous connectivity:
 
@@ -127,7 +137,7 @@ iface wlan0 inet dhcp
 
 A mobile hotspot with a local SIM (Telkomsel, XL, or Indosat) provides failover. Local SIM cards with 20-30GB data plans cost approximately $10-15 monthly.
 
-## Workspace Layout and Ergonomics
+### Step 4: Workspace Layout and Ergonomics
 
 ### Power Distribution
 
@@ -157,7 +167,7 @@ Bali's humidity and temperature affect both comfort and equipment longevity. Air
 
 Position your desk away from direct sunlight to reduce monitor glare and minimize cooling requirements.
 
-## Developer-Specific Configurations
+### Step 5: Developer-Specific Configurations
 
 ### Power Loss Protection
 
@@ -197,7 +207,7 @@ def on_power_restore():
 
 Services like Dropbox, Google Drive, or rclone with cloud storage provide automatic file synchronization.
 
-## Practical Checklist
+### Step 6: Practical Checklist
 
 Before moving into your Bali rental:
 
@@ -210,7 +220,7 @@ Before moving into your Bali rental:
 - [ ] Set up automated backup systems
 - [ ] Configure network failover
 
-## Cost Breakdown: Monthly Home Office in Bali
+### Step 7: Cost Breakdown: Monthly Home Office in Bali
 
 | Item | Monthly Cost (USD) | Notes |
 |------|-------------------|-------|
@@ -224,7 +234,7 @@ Before moving into your Bali rental:
 
 A coworking space membership serves as your backup workspace when power or internet problems persist at home.
 
-## Handling Extended Power Outages
+### Step 8: Handling Extended Power Outages
 
 For outages lasting more than 30 minutes:
 
@@ -239,7 +249,7 @@ sudo shutdown -h now
 
 Trigger this automatically when your UPS reports low battery via NUT monitoring.
 
-## Rainy Season Considerations
+### Step 9: Rainy Season Considerations
 
 Bali's rainy season (November through March) brings more frequent power outages. Plan for:
 
@@ -247,6 +257,21 @@ Bali's rainy season (November through March) brings more frequent power outages.
 - Mobile hotspot as primary backup (cell towers often have generators)
 - Schedule critical calls during morning hours when weather is typically clearer
 - Keep a waterproof bag for your laptop when commuting to coworking
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

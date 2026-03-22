@@ -40,7 +40,17 @@ Use a VoIP service like Google Voice, Vonage, or Twilio to provision a local pho
 - **For a business handling 5,000 minutes per month, that difference is roughly $25/month**: enough to justify the additional setup work of VoIP.ms's less polished dashboard.
 - **Twilio's porting UI is**: the most straightforward; Vonage requires submitting a support ticket for international ports.
 
-## Understanding Your Options
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand Your Options
 
 Three main approaches exist for routing international calls to your current location:
 
@@ -50,7 +60,7 @@ Three main approaches exist for routing international calls to your current loca
 
 Each approach has trade-offs around cost, call quality, reliability, and setup complexity.
 
-## VoIP Services: The Quickest Path
+### Step 2: VoIP Services: The Quickest Path
 
 VoIP providers abstract away the telephony infrastructure. You sign up, select a phone number in your target country, and incoming calls route to any device you configure.
 
@@ -116,7 +126,7 @@ Vonage tends to have more competitive rates for UK, German, and French numbers t
 
 For individuals or very small teams, Google Voice remains the simplest option if you need an US number. Sign up at voice.google.com, pick a number, and Google handles all routing. Limitations include: US-only numbers, no API access on the free tier, and call quality that varies more than dedicated VoIP providers. Google Voice works best for solo freelancers who need an US number without technical setup.
 
-## SIP Trunking: Greater Control, Higher Complexity
+### Step 3: SIP Trunking: Greater Control, Higher Complexity
 
 SIP trunking gives you direct access to the telephone network without per-minute markup from VoIP providers. You rent a SIP trunk and connect it to your own PBX or telephony software.
 
@@ -152,7 +162,7 @@ This approach requires more setup but eliminates per-minute costs for high call 
 
 VoIP.ms charges around $0.0035/minute for inbound calls versus Twilio's $0.0085/minute. For a business handling 5,000 minutes per month, that difference is roughly $25/month — enough to justify the additional setup work of VoIP.ms's less polished dashboard. VoIP.ms also supports E911 services and Canadian numbers at competitive rates. Twilio is preferable when you need a developer-friendly API, global number coverage, or SMS alongside voice.
 
-## Call Forwarding: The Simplest Method
+### Step 4: Call Forwarding: The Simplest Method
 
 If you already have a local number (perhaps from a previous residence), most phone carriers offer international call forwarding. However, this option has significant drawbacks:
 
@@ -183,7 +193,7 @@ def forward_call():
     return Response(twiml, mimetype='text/xml')
 ```
 
-## Practical Considerations for Remote Workers
+### Step 5: Practical Considerations for Remote Workers
 
 ### Time Zone Management
 
@@ -279,7 +289,7 @@ def handle_voice():
 
 Toll fraud is a real and expensive problem with VoIP. If someone obtains your Twilio credentials or webhook URL, they can place large volumes of calls at your expense. Always validate the `X-Twilio-Signature` header on incoming webhook requests to confirm the request genuinely came from Twilio.
 
-## Choosing the Right Setup for Your Situation
+### Step 6: Choose the Right Setup for Your Situation
 
 The right configuration depends on your usage pattern:
 
@@ -289,6 +299,21 @@ The right configuration depends on your usage pattern:
 - **Enterprise or regulated industry**: Consider providers like Bandwidth or DialPad that offer HIPAA-compliant calling, E911 support, and dedicated SLAs. These cost more but remove compliance burden from your team.
 
 The common mistake remote workers make is over-engineering early. Start with Twilio or Google Voice, validate that clients can reach you reliably, then optimize for cost or features once you understand your actual usage patterns.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

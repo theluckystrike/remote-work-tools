@@ -24,7 +24,17 @@ Gitea is a 60MB binary that gives your team GitHub-like features: repos, issues,
 - **Topics covered**: docker compose deployment, nginx reverse proxy, ssh configuration for team members
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 
-## Docker Compose Deployment
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Docker Compose Deployment
 
 ```yaml
 # docker-compose.yml
@@ -103,7 +113,7 @@ docker compose logs -f server
 # Or configure everything via docker-compose env vars (recommended)
 ```
 
-## Nginx Reverse Proxy
+### Step 2: Nginx Reverse Proxy
 
 ```nginx
 # /etc/nginx/sites-available/gitea
@@ -137,7 +147,7 @@ sudo certbot --nginx -d git.example.com
 sudo nginx -t && sudo systemctl reload nginx
 ```
 
-## SSH Configuration for Team Members
+### Step 3: SSH Configuration for Team Members
 
 ```bash
 # On your local machine, add to ~/.ssh/config
@@ -154,7 +164,7 @@ git clone gitea:yourorg/yourrepo.git
 git clone ssh://git@git.example.com:2222/yourorg/yourrepo.git
 ```
 
-## Team and Organization Setup
+### Step 4: Team and Organization Setup
 
 ```bash
 # Gitea CLI (tea) for scripted setup
@@ -180,7 +190,7 @@ tea org team user add --org mycompany --team Developers alice
 tea org team user add --org mycompany --team Developers bob
 ```
 
-## Repository Templates
+### Step 5: Repository Templates
 
 Create a template repo then:
 
@@ -198,7 +208,7 @@ curl -X POST "https://git.example.com/api/v1/repos/mycompany/service-template/ge
   }'
 ```
 
-## Gitea Actions (CI/CD)
+### Step 6: Gitea Actions (CI/CD)
 
 Gitea Actions uses the same syntax as GitHub Actions.
 
@@ -244,7 +254,7 @@ jobs:
         uses: golangci/golangci-lint-action@v3
 ```
 
-## Webhooks for Notifications
+### Step 7: Webhooks for Notifications
 
 ```bash
 # Create webhook via API
@@ -264,7 +274,7 @@ curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/hooks" \
   }'
 ```
 
-## Backup Script
+### Step 8: Backup Script
 
 ```bash
 #!/bin/bash
@@ -298,7 +308,7 @@ find "$BACKUP_DIR" -mtime +7 -delete
 echo "Gitea backup complete: gitea-dump-${DATE}.zip"
 ```
 
-## Branch Protection Rules
+### Step 9: Branch Protection Rules
 
 ```bash
 # Via API: protect main branch
@@ -317,6 +327,21 @@ curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/branch_prote
     "dismiss_stale_approvals": true
   }'
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 

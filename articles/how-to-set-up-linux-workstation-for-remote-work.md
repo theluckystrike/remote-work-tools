@@ -40,7 +40,17 @@ Setting up a Linux workstation for remote work requires more than installing a d
 - **This matters for remote**: work because network interruptions shouldn't kill your development environment.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Choosing Your Distribution
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Choose Your Distribution
 
 The distribution you choose sets the foundation for your entire setup. For remote work stability, you want something with long-term support and a predictable release cycle.
 
@@ -48,7 +58,7 @@ Ubuntu LTS provides the broadest hardware compatibility and the largest knowledg
 
 For most remote workers, Ubuntu 24.04 LTS or Fedora 40 strike the right balance between stability and modern tooling. Install with the full desktop environment—you can always strip down unnecessary packages later.
 
-## Desktop Environment Selection
+### Step 2: Desktop Environment Selection
 
 Your desktop environment determines how you interact with your system daily. Three options work well for remote work scenarios:
 
@@ -60,7 +70,7 @@ i3 or Sway suit users comfortable with keyboard-driven workflows. These tiling w
 
 Install your preferred environment and stick with it for at least a month before switching. Context switching between environments fragments your muscle memory and reduces productivity.
 
-## Essential Security Configuration
+### Step 3: Essential Security Configuration
 
 Remote work means your machine connects through various networks, making security critical from day one.
 
@@ -107,7 +117,7 @@ Host github
 
 If you work with sensitive data, enable LUKS encryption during installation. For existing systems, you can encrypt home directories, though full-disk encryption provides stronger guarantees.
 
-## Development Environment Setup
+### Step 4: Development Environment Setup
 
 A consistent development environment accelerates remote work productivity.
 
@@ -155,7 +165,7 @@ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 
 These tools let you switch between project dependencies without system-wide changes.
 
-## Remote Work Productivity Tools
+### Step 5: Remote Work Productivity Tools
 
 ### Communication Stack
 
@@ -205,7 +215,7 @@ sudo apt install keepassxc
 
 Generate unique passwords for every service and store them in your password manager.
 
-## Network and Connectivity
+### Step 6: Network and Connectivity
 
 Remote work requires reliable network configuration.
 
@@ -231,7 +241,7 @@ nmcli device wifi connect "YourNetwork" password "YourPassword"
 
 Make it executable and keep it in your path.
 
-## Backup Strategy
+### Step 7: Backup Strategy
 
 Remote work increases your machine's importance—you are your own data center.
 
@@ -258,7 +268,7 @@ rclone config  # Initial setup
 rclone sync ~/Documents remote:documents
 ```
 
-## System Maintenance
+### Step 8: System Maintenance
 
 A well-maintained system stays reliable.
 
@@ -289,6 +299,21 @@ Create aliases for quick access:
 # ~/.bashrc
 alias top='bpytop'
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

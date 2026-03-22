@@ -51,7 +51,17 @@ Effective remote pairing requires:
 - **Session history**: Saves you from losing unsaved work if connection drops
 - **Lag-tolerant architecture**: Works on moderate bandwidth (>2Mbps sufficient)
 
-## VS Code Live Share: Instant Pairing Without Setup
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: VS Code Live Share: Instant Pairing Without Setup
 
 Live Share is built into VS Code and requires no additional download. One person starts a session and shares a link; the other opens the link in a browser or VS Code. Both see the same file, can edit simultaneously, and see each other's cursors.
 
@@ -169,7 +179,7 @@ To let a guest type in the terminal:
 
 **Bandwidth requirement:** 2-5Mbps is comfortable; 1Mbps is minimum
 
-## JetBrains Code With Me: IDE-Native Pairing
+### Step 2: JetBrains Code With Me: IDE-Native Pairing
 
 If you're using PyCharm, IntelliJ IDEA, or other JetBrains IDEs, Code With Me is built in. It offers deeper IDE integration than Live Share: full debugging support, shared run configurations, and language-aware code completion across both participants.
 
@@ -262,7 +272,7 @@ Guests can run commands on the host's machine directly. Useful for:
 
 **Bandwidth requirement:** 3-8Mbps recommended
 
-## Terminal Pairing: tmux + SSH for Zero Dependencies
+### Step 3: Terminal Pairing: tmux + SSH for Zero Dependencies
 
 For server-side development or when you need maximum control, tmux (terminal multiplexer) + SSH is the simplest approach. Both developers SSH into the same server and share a tmux session. No GUI, no latency, perfect for remote server work.
 
@@ -389,7 +399,7 @@ tmux send-keys -t pair "npm test" Enter
 | Pair review of large codebase | Code With Me | Better performance on large files |
 | Async pairing (not real-time) | None; use comments in PR | Not live pairing; use code review instead |
 
-## Session Management Checklist
+### Step 4: Session Management Checklist
 
 **Before each session:**
 - [ ] Test audio/video (if using Live Share audio)
@@ -408,6 +418,21 @@ tmux send-keys -t pair "npm test" Enter
 - [ ] Push code changes to branch
 - [ ] Create PR with pairing notes ("Pair with Jane on feature X")
 - [ ] Close session gracefully (don't leave hanging connections)
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Articles
 

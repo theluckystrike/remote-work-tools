@@ -177,7 +177,17 @@ Limitations:
 
 Best for: Terminal-heavy teams, infrastructure/DevOps work, low-bandwidth scenarios.
 
-## Complete Setup Workflow: VS Code Live Share + Discord
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Complete Setup Workflow: VS Code Live Share + Discord
 
 This is the most common setup for distributed teams:
 
@@ -227,7 +237,7 @@ Host:   "We're debugging test failures. I'll write the fix, you review."
 # Guest: Automatically disconnected
 ```
 
-## Real-World Scenarios and Workflows
+### Step 2: Real-World Scenarios and Workflows
 
 ### Scenario 1: Code Review + Implementation
 
@@ -312,7 +322,7 @@ Good navigator behavior:
 - **Use good quality mic/headphones** (Discord/Zoom quality matters more than code visibility)
 - **Take breaks every 55 minutes** (pairing fatigue is real)
 
-## Choosing the Right Tool for Your Team
+### Step 3: Choose the Right Tool for Your Team
 
 | Tool | Price | Latency | Mouse Control | Best For |
 |------|-------|---------|---------------|----------|
@@ -355,7 +365,7 @@ Good navigator behavior:
 - If latency >300ms, consider recording session and reviewing async instead
 ```
 
-## Asynchronous Pair Programming: Recording Sessions
+### Step 4: Asynchronous Pair Programming: Recording Sessions
 
 If real-time pairing isn't possible (time zones, schedules), record sessions for async review:
 

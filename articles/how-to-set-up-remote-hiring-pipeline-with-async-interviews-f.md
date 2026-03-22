@@ -51,7 +51,17 @@ Async interviews eliminate scheduling conflicts entirely. A candidate in Tokyo c
 
 Beyond logistics, async formats often produce better evaluation data. Candidates who struggle with live coding under observation can still demonstrate strong problem-solving abilities through written responses. Reviewers can take time to thoroughly examine code rather than making snap judgments during a time-boxed interview.
 
-## Designing Your Pipeline Stages
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Designing Your Pipeline Stages
 
 A well-structured async hiring pipeline typically consists of four distinct stages:
 
@@ -69,14 +79,14 @@ A written or recorded response to questions about collaboration preferences, wor
 
 This four-stage pipeline provides evaluation without any real-time components.
 
-## Implementing Stage 2: The Technical Assessment
+### Step 2: Implementing Stage 2: The Technical Assessment
 
 The technical assessment forms the core of your evaluation. Design challenges that reflect actual work rather than algorithmic puzzles unrelated to the job.
 
 Here's a practical challenge template:
 
 ```markdown
-## Backend Developer Technical Assessment
+### Step 3: Backend Developer Technical Assessment
 
 ### Challenge: Task Management API
 
@@ -107,12 +117,12 @@ Build a RESTful API for a simple task management system with the following requi
 
 This challenge evaluates practical skills while remaining completable in a reasonable timeframe.
 
-## Building the Code Review Exercise
+### Step 4: Build the Code Review Exercise
 
 Code review ability indicates senior-level thinking. Include a structured review exercise as your third stage:
 
 ```markdown
-## Async Code Review Exercise
+### Step 5: Async Code Review Exercise
 
 ### Background
 Review the following pull request that implements a user referral system.
@@ -144,12 +154,12 @@ Provide feedback using this structure:
 
 This exercise reveals how candidates think about code quality and their communication style when providing feedback.
 
-## Managing Candidate Communication
+### Step 6: Manage Candidate Communication
 
 Clear communication prevents candidate drop-off and confusion. Use templates for each stage:
 
 ```markdown
-## Stage Transition Email Template
+### Step 7: Stage Transition Email Template
 
 Subject: Next Steps - [Position Name] Application
 
@@ -175,7 +185,7 @@ Hiring Team
 
 Set clear expectations about timeline, effort, and next steps at each transition.
 
-## Setting Up Evaluation Infrastructure
+### Step 8: Set Up Evaluation Infrastructure
 
 Consistent evaluation requires rubrics and tooling. Create a scoring framework for each stage:
 
@@ -198,7 +208,7 @@ Consistent evaluation requires rubrics and tooling. Create a scoring framework f
 
 Use a shared spreadsheet or hiring platform to track scores across reviewers. Calibrate by having multiple team members evaluate the same sample candidates before going live.
 
-## Handling Time Zones and Flexibility
+### Step 9: Handling Time Zones and Flexibility
 
 Your pipeline should accommodate global candidates without requiring special arrangements:
 
@@ -208,7 +218,7 @@ Your pipeline should accommodate global candidates without requiring special arr
 
 When candidates request accommodations, handle them consistently by documenting your policy in advance.
 
-## Automation and Pipeline Management
+### Step 10: Automation and Pipeline Management
 
 Reduce manual work with pipeline automation:
 
@@ -232,7 +242,7 @@ jobs:
 
 Automate stage transitions, deadline reminders, and status updates. This prevents candidates from falling through cracks during high-volume periods.
 
-## Measuring Pipeline Effectiveness
+### Step 11: Measuring Pipeline Effectiveness
 
 Track key metrics to improve your process over time:
 
@@ -243,7 +253,7 @@ Track key metrics to improve your process over time:
 
 Review these metrics quarterly and iterate on your pipeline stages.
 
-## Common Pitfalls to Avoid
+### Step 12: Common Pitfalls to Avoid
 
 **Assessment too long:** A challenge requiring 10+ hours kills completion rates. Keep it focused on essentials.
 
@@ -252,6 +262,21 @@ Review these metrics quarterly and iterate on your pipeline stages.
 **Slow response times:** Extended delays signal disorganization. Aim for 3-5 business days between stage notifications.
 
 **No cultural assessment:** Technical skills matter, but collaboration style predicts team success. Include non-technical evaluation.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

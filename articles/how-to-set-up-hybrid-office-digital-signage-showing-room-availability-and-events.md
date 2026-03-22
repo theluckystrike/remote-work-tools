@@ -49,7 +49,17 @@ Before writing code, identify what your signage needs to show:
 
 The challenge is pulling data from your calendar system, processing it into display-friendly content, and pushing it to screens at regular intervals. Most organizations use either Google Calendar or Microsoft 365, so this guide covers both.
 
-## Building the Calendar Integration
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Build the Calendar Integration
 
 ### Google Calendar Approach
 
@@ -148,7 +158,7 @@ def get_room_free_busy(graph_token, room_id):
     return response.json()
 ```
 
-## Creating the Display Content
+### Step 2: Create the Display Content
 
 Once you have the calendar data, transform it into display-friendly content. A simple approach uses HTML templates rendered server-side:
 
@@ -194,7 +204,7 @@ def generate_room_display_html(room_data):
 
 This generates static HTML you can serve to any display endpoint. For dynamic updates without page refreshes, consider adding WebSocket connections or polling from the display client.
 
-## Building the Event Aggregation Layer
+### Step 3: Build the Event Aggregation Layer
 
 Beyond individual room status, many offices want a dashboard showing company-wide events and highlights. Create an aggregation endpoint that pulls from multiple calendar sources:
 
@@ -225,7 +235,7 @@ def aggregate_office_events(calendar_services, config):
 
 This gives you a single feed combining room bookings with team events—useful for lobby displays showing what's happening in the office today.
 
-## Display Hardware and Client Options
+### Step 4: Display Hardware and Client Options
 
 For the display endpoint, you have several approaches:
 
@@ -281,7 +291,7 @@ A simple Chromium-based client works for most scenarios:
 
 The meta refresh tag provides a simple fallback if JavaScript fails, while the interval ensures content updates every minute.
 
-## Deployment Considerations
+### Step 5: Deploy ment Considerations
 
 When deploying room availability signage, consider these operational factors:
 
@@ -292,6 +302,21 @@ Update frequency: Fetch calendar data every 1-5 minutes. Calendar systems rate-l
 Fallback content: Always have a default view showing static information (building map, company values, or a clock) when the API is unreachable. Displays showing "loading" or blank screens look broken.
 
 Timezone handling: Meeting rooms often display times in the local timezone, but your API server may run in UTC. Explicitly handle timezone conversion so meeting times match what users expect.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

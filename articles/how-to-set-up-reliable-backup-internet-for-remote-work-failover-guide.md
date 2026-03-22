@@ -49,7 +49,17 @@ Backup internet is inexpensive insurance. A basic mobile hotspot plan costs $15-
 
 The psychological benefit is significant too. Knowing you have backup connectivity reduces stress and allows you to work more effectively, even on unreliable primary connections.
 
-## Mobile Hotspot as Primary Backup
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Mobile Hotspot as Primary Backup
 
 A mobile hotspot on your smartphone provides emergency backup that requires no new equipment. Most developers already have phones with data plans.
 
@@ -74,7 +84,7 @@ On your laptop, add the hotspot as a remembered WiFi network. Test the connectio
 
 **Best for:** Emergency-only backup; adequate for unexpected 2-3 hour outages.
 
-## Mobile Hotspot Enhancement: Dedicated Hotspot Device
+### Step 2: Mobile Hotspot Enhancement: Dedicated Hotspot Device
 
 A dedicated mobile hotspot device (not your primary phone) provides more reliable, always-ready backup with dedicated battery and data plan.
 
@@ -110,7 +120,7 @@ Most dedicated hotspot devices can trigger automatic failover through a custom m
 
 **Best for:** Remote workers who need reliable backup with automatic failover capability.
 
-## Secondary Wired ISP (Best Reliability)
+### Step 3: Secondary Wired ISP (Best Reliability)
 
 Installing a second fiber or cable connection from a different provider (if available) provides the most reliable backup. This approach requires new infrastructure but offers superior performance.
 
@@ -149,7 +159,7 @@ Least desirable combination (satellite has high latency), but better than no bac
 
 **Best for:** Businesses or developers whose income depends on continuous connectivity (freelancers, customer support, streaming).
 
-## Dual-WAN Router for Automatic Failover
+### Step 4: Dual-WAN Router for Automatic Failover
 
 A dual-WAN router manages multiple internet connections and switches between them automatically when the primary fails. This is essential for true backup reliability.
 
@@ -210,7 +220,7 @@ This configuration routes traffic through WAN1 (primary ISP), but automatically 
 
 **Best for:** Developers with secondary ISP or mobile hotspot who want automatic failover without manual intervention.
 
-## Load Balancing Configuration (Advanced)
+### Step 5: Load Balancing Configuration (Advanced)
 
 Beyond simple failover, some routers support load balancing: distributing traffic across multiple connections simultaneously. This increases available bandwidth for backup connectivity.
 
@@ -231,7 +241,7 @@ This distributes traffic based on source IP, so devices 192.168.0.2 and 192.168.
 
 **Trade-off:** Load balancing reduces latency consistency (some packets take different routes). For video calls, simple failover is better than load balancing because consistent latency matters more than total bandwidth.
 
-## Backup Power: Uninterruptible Power Supply (UPS)
+### Step 6: Backup Power: Uninterruptible Power Supply (UPS)
 
 Backup internet is useless if your modem and router lose power. An UPS keeps equipment running during power failures.
 
@@ -258,7 +268,7 @@ Plug modem and primary router into UPS. Leave WiFi router on backup power only i
 
 **Best for:** All remote workers. Backup power ensures backup internet remains available during power failures.
 
-## Practical Implementation Roadmap
+### Step 7: Practical Implementation Roadmap
 
 **Phase 1 (Week 1):** Enable mobile hotspot on your phone. Test connection immediately by actually using it for email and Slack. Verify it works in your office.
 
@@ -270,7 +280,7 @@ Plug modem and primary router into UPS. Leave WiFi router on backup power only i
 
 **Phase 5 (Month 3+):** Add an UPS to keep modem and router running during power failures.
 
-## Testing Your Backup Setup
+### Step 8: Test Your Backup Setup
 
 Create a regular testing schedule (monthly):
 
@@ -291,7 +301,7 @@ Create a regular testing schedule (monthly):
 
 Choose based on your income level and remote work criticality. A $5,000/month freelancer should implement complete backup ($300 investment + $130/month cost is negligible insurance). A part-time remote worker might start with mobile hotspot only.
 
-## Real-World Outage Scenarios
+### Step 9: Real-World Outage Scenarios
 
 **Scenario 1: ISP Fiber Cut**
 Primary fiber line damaged during construction. Time to detect: 15 seconds. With dual-WAN router, failover to secondary cable connection is automatic. User experiences brief (5 second) audio drop on Zoom call but continues working. Issue resolved by ISP in 6 hours. Total impact: minimal.
@@ -308,7 +318,7 @@ Primary ISP has widespread outage affecting thousands of users. Secondary ISP is
 
 This scenario happens 1-2 times per decade and creates significant competitive advantage for prepared workers.
 
-## Monitoring Your Backup Internet Quality
+### Step 10: Monitor Your Backup Internet Quality
 
 Beyond testing, continuously monitor your backup connection quality. Track these metrics monthly:
 
@@ -331,6 +341,21 @@ For business-critical setups, implement automatic monitoring:
 3. Use mobile hotspot with data monitoring app to track emergency data consumption
 
 Most dual-WAN routers log failover events. Check logs quarterly to confirm failover is working as expected (if no failovers in 3 months, test manually to ensure functionality).
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

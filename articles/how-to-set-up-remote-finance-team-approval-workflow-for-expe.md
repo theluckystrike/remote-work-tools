@@ -41,7 +41,17 @@ An async approval workflow solves this by establishing clear stages, automated n
 2.
 - **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
-## Understanding the Approval Pipeline
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Approval Pipeline
 
 Before building your workflow, map out the decision points in your expense approval process. Most organizations have several stages:
 
@@ -52,7 +62,7 @@ Before building your workflow, map out the decision points in your expense appro
 
 For remote teams, each stage needs clear ownership, response time expectations, and automated handoffs. Without these elements, expenses stall in inboxes and Slack mentions get lost.
 
-## Designing Your Workflow Structure
+### Step 2: Designing Your Workflow Structure
 
 Create a status-based workflow that tracks each expense report through its lifecycle. Here's a practical schema:
 
@@ -80,7 +90,7 @@ type ExpenseStatus =
 
 This structure lets you build automations around status transitions. When an expense moves to `pending_manager`, the system automatically notifies the appropriate approver and sets an expected response deadline.
 
-## Implementing Automated Notifications
+### Step 3: Implementing Automated Notifications
 
 The key to keeping async workflows moving is timely notifications. Set up triggers that alert approvers when action is needed:
 
@@ -131,7 +141,7 @@ function notifyApprover(expenseReport) {
 
 This integration sends a rich message with approve/reject buttons directly to the approver. They can act without leaving their communication tool.
 
-## Setting Clear Response Time Expectations
+### Step 4: Setting Clear Response Time Expectations
 
 Async workflows only work when everyone understands expectations. Define explicit SLAs for each stage:
 
@@ -162,7 +172,7 @@ function checkApprovalTimeouts() {
 
 Run this check hourly via a scheduled job. When someone misses their SLA, the system escalates to their manager or a backup approver.
 
-## Building Policy Enforcement
+### Step 5: Build Policy Enforcement
 
 Expense policies exist to ensure compliance, but manually checking every expense is tedious. Build policy rules into your workflow:
 
@@ -198,12 +208,12 @@ function validateExpense(expense) {
 
 Run validation when an expense is submitted. If violations exist, reject it immediately with clear feedback rather than letting it progress through the approval pipeline.
 
-## Creating Approval Templates
+### Step 6: Create Approval Templates
 
 Standardize your approval requests to help reviewers work efficiently. When employees submit expenses with consistent formatting, approvers can scan reports quickly:
 
 ```markdown
-## Expense Report #{{id}}
+### Step 7: Expense Report #{{id}}
 
 **Employee:** {{employee_name}}
 **Date:** {{submission_date}}
@@ -224,7 +234,7 @@ Standardize your approval requests to help reviewers work efficiently. When empl
 
 Provide this template through your expense submission form so employees know what information approvers need.
 
-## Handling Rejections and Appeals
+### Step 8: Handling Rejections and Appeals
 
 Rejections frustrate employees, especially when feedback is vague. Structure rejection responses:
 
@@ -252,7 +262,7 @@ function rejectExpense(expense, approver, reason) {
 
 When approvers select from standardized rejection reasons, the system provides policy context automatically. Employees understand what went wrong and how to fix it.
 
-## Measuring Workflow Performance
+### Step 9: Measuring Workflow Performance
 
 Track metrics to continuously improve your process:
 
@@ -278,6 +288,21 @@ function generateWeeklyReport() {
 ```
 
 Review these metrics weekly. If approval times spike, investigate whether team capacity or policy confusion is causing delays.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -23,7 +23,17 @@ A portable coding workstation lets you work from home, a co-working space, or an
 - **Practical guidance included**: Step-by-step setup and configuration instructions
 - **Use-case recommendations**: Specific guidance based on team size and requirements
 
-## The Core Constraint: 5-Minute Setup
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: The Core Constraint: 5-Minute Setup
 
 If your portable setup takes 20 minutes to assemble, you'll stop using it. The goal is: open bag, plug in one or two cables, open laptop, start working.
 
@@ -33,7 +43,7 @@ If your portable setup takes 20 minutes to assemble, you'll stop using it. The g
 - Keyboard and mouse via USB dongle (not Bluetooth — pairing takes time)
 - Everything in one dedicated bag that's always packed
 
-## Laptop
+### Step 2: Laptop
 
 For most engineers in 2026, a MacBook Pro M3 or M4 is the default choice for portable development. The M4 Pro's battery life (14-18 hours under load) means you can work all day without a charger at a cafe.
 
@@ -44,7 +54,7 @@ For most engineers in 2026, a MacBook Pro M3 or M4 is the default choice for por
 
 Windows alternatives: ThinkPad X1 Carbon Gen 12 or Dell XPS 13 with 32GB RAM. Both are 1.1-1.2kg.
 
-## The Hub: The Center of the Setup
+### Step 3: The Hub: The Center of the Setup
 
 A quality Thunderbolt hub is the most important component:
 
@@ -71,7 +81,7 @@ Hub (CalDigit TS4 or OWC Thunderbolt Dock)
 
 For most engineers, the Anker or Plugable gives the right balance of ports and portability. The CalDigit is excellent but heavy for travel.
 
-## Portable Monitor
+### Step 4: Portable Monitor
 
 A secondary monitor doubles productivity for most engineers. The portable monitor market has improved dramatically:
 
@@ -108,7 +118,7 @@ EOF
 chmod +x ~/bin/arrange-displays.sh
 ```
 
-## Keyboard and Mouse
+### Step 5: Keyboard and Mouse
 
 For portable work, the keyboard you carry determines your productivity:
 
@@ -124,7 +134,7 @@ For a mouse: Logitech MX Anywhere 3 ($60) — works on any surface including gla
 
 **Tip**: Use the Logi Bolt USB receiver (not Bluetooth) for keyboard + mouse. Plug the receiver into your hub — one less pairing to do at each new location.
 
-## Software: Making Any Machine Home
+### Step 6: Software: Making Any Machine Home
 
 The second half of a portable setup is your environment being identical everywhere you go.
 
@@ -170,7 +180,7 @@ git config --global core.sshCommand "ssh"
 # 1Password handles authentication via SSH agent
 ```
 
-## The Bag
+### Step 7: The Bag
 
 The bag is part of the setup. Everything should fit in one carry-on sized bag:
 
@@ -195,7 +205,7 @@ What NOT to include:
 
 **Bag recommendation**: Peak Design Everyday Backpack 20L or Knomo Harpsden 14". Both have laptop sleeves with padding and organized pockets.
 
-## Location Setup Checklist
+### Step 8: Location Setup Checklist
 
 ```bash
 # Script to verify your setup works at a new location
@@ -217,7 +227,7 @@ EOF
 chmod +x ~/bin/check-setup.sh
 ```
 
-## Power Management on Portable Setups
+### Step 9: Power Management on Portable Setups
 
 Battery life is critical for true portability. Optimize your system:
 
@@ -254,7 +264,7 @@ function travel-mode() {
 EOF
 ```
 
-## Display Configuration for Different Scenarios
+### Step 10: Display Configuration for Different Scenarios
 
 Portable setups often involve different display arrangements (hotel room, coffee shop, office). Automate display configuration:
 
@@ -283,7 +293,7 @@ alias dsp-dual='displayplacer "id:37D8832A res:1728x1117 hz:60" "id:6CF5E21E res
 EOF
 ```
 
-## Network Optimization for Portable Work
+### Step 11: Network Optimization for Portable Work
 
 Different networks have different characteristics. Prepare your system:
 
@@ -320,7 +330,7 @@ EOF
 chmod +x ~/bin/network-check.sh
 ```
 
-## Portable Setup Productivity Tips
+### Step 12: Portable Setup Productivity Tips
 
 **Context switching overhead:** Moving between locations takes mental energy. Minimize it:
 
@@ -355,7 +365,7 @@ EOF
 chmod +x ~/bin/setup-work.sh
 ```
 
-## Handling Common Portable Work Issues
+### Step 13: Handling Common Portable Work Issues
 
 | Issue | Symptom | Solution |
 |-------|---------|----------|
@@ -406,6 +416,21 @@ Working from different networks and locations introduces security risks:
 3. If VPN drops, kill internet-dependent apps
 4. Reconnect VPN before resuming
 ```
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Related Reading
 
