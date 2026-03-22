@@ -437,7 +437,8 @@ Teams that write good postmortems consistently share one property: the postmorte
 
 Establish the blameless norm explicitly in your postmortem template header:
 
-```markdown---
+```markdown
+---
 This postmortem is blameless. The goal is to understand system and process
 failures so we can prevent recurrence — not to assign fault to individuals.
 Engineers make good decisions with the information available at the time.

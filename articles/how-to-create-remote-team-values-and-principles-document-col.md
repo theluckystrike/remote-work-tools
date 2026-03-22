@@ -110,7 +110,8 @@ Share the synthesized draft for another async review. Ask specific questions:
 
 Use GitHub issues or PRs for this phase:
 
-```yaml---
+```yaml
+---
 name: Values Feedback
 title: "Values Review: [Category]"
 labels: team-values

@@ -12,6 +12,8 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+<<<<<<< HEAD
+=======
 
 A production incident at 2am is not a good time to discover that your on-call rotation spreadsheet is three months out of date, that nobody knows who owns the payment service, or that your runbooks live in a Notion doc that requires VPN access to read. Remote DevOps teams face an additional layer of complexity: the informal coordination that happens when engineers are in the same office — walking to someone's desk, reading the room, making eye contact — does not exist. Everything must be explicit, tooled, and async-friendly.
 
@@ -217,6 +219,7 @@ Every significant incident should produce a written post-mortem. The goal is cap
 **Severity:** SEV-[1/2/3]
 **Duration:** [start time UTC] to [end time UTC] — [X] minutes total
 
+>>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
 ## Impact
 - Users affected: [number or %]
 - Services affected: [list]

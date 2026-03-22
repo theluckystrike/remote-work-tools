@@ -195,7 +195,8 @@ If using an EOR, the offer letter structure differs slightly — you'll receive 
 
 Here's a condensed template you can adapt:
 
-```markdown---
+```markdown
+---
 # Employment Offer Letter Template
 # Customize based on jurisdiction and EOR requirements
 ---

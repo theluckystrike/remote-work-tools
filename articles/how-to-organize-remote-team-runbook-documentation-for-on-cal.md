@@ -246,7 +246,8 @@ Assign ownership to specific engineers or rotate ownership during team transitio
 
 Document the last review date in each runbook:
 
-```markdown---
+```markdown
+---
 last-reviewed: 2026-02-15
 reviewed-by: engineering-team
 next-review: 2026-05-15

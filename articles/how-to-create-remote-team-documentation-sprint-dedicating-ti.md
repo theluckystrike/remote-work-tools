@@ -134,7 +134,8 @@ Review cycles: Schedule quarterly documentation reviews for high-traffic pages. 
 
 Outdated banners: Add visible banners to pages that haven't been reviewed in over six months:
 
-```markdown---
+```markdown
+---
 last-reviewed: 2025-08-15
 review-status: needs-review
 ---

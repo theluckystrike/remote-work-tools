@@ -13,6 +13,7 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, integration]
 ---
+{% raw %}
 
 ## GitHub Integration: Why It Matters for Engineering Teams
 
@@ -308,34 +309,130 @@ Action: Post to Slack: "Team completed 45 points this cycle"
 | GitHub Projects | $0 | 2 hours | 8 hours | Free |
 
 *Assumes 40 hours setup is $16.67/hour opportunity cost.
+## Linear: Best for Engineering-First Teams
 
-## Frequently Asked Questions
+Linear's GitHub integration is tight enough that many developers treat it as their primary interface for both code and work tracking. When you create a branch from a Linear issue, the issue transitions to "In Progress" automatically. When the PR merges, the issue closes. No manual updates required.
 
-**Are free tiers good enough for production use?**
-
-For teams under 5 people, the free tiers of Linear, Shortcut, and ClickUp cover most needs. At 10+ people, the free tiers hit limits on automation rules, integrations, and history retention. Budget $7–10 per user per month as the realistic floor for a team using GitHub integration seriously.
-
-**How do I evaluate which tool fits my workflow?**
+```bash
+# Linear branch naming convention (auto-created from issue)
+# Issue ENG-247: "Fix rate limiter on auth endpoint"
+git checkout -b eng-247-fix-rate-limiter-on-auth-endpoint
+# Linear detects this branch, links it to the issue, and transitions status
+# The branch name format: [team-prefix]-[issue-number]-[slugified-title]
+```
 
 Take a real two-week sprint and run it in parallel in your current tool and one candidate. Track how many times you switch to GitHub to check something that should have been visible in the PM tool. That number should drop toward zero with a genuinely integrated tool.
-
-**Do these tools work offline?**
+Linear's API lets you create issues programmatically from CI/CD events:
 
 No PM tool in this comparison works meaningfully offline. GitHub itself requires a connection. Plan accordingly — if your team works in areas with unreliable internet, the git workflow (local commits, push when connected) is the reliable layer, not the PM tool.
-
-**Can I use these tools with a distributed team across time zones?**
+jobs:
+  create-bug:
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Linear bug
+        run: |
+          curl -X POST \
+            -H "Authorization: ${{ secrets.LINEAR_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "query": "mutation { issueCreate(input: { title: \"CI Failure: ${{ github.event.workflow_run.name }}\", teamId: \"${{ secrets.LINEAR_TEAM_ID }}\", priority: 2 }) { success } }"
+            }' \
+            https://api.linear.app/graphql
+```
 
 All of them support async workflows. The asynchronous value of GitHub integration is actually highest for distributed teams: a developer in Tokyo can see that their PR passed CI and auto-transitioned the task without waiting for anyone in another timezone to confirm it.
+## Shortcut (formerly Clubhouse): Best for Story-Centric Teams
 
-**Should I switch tools if something better comes out?**
+Shortcut structures work around stories, epics, and iterations — terminology that maps well to product-centric teams that think in user stories rather than engineering tasks. The GitHub integration links pull requests to stories and shows PR status in the story detail view.
 
-Switching costs are real. Migration typically takes a sprint's worth of engineering time plus the learning curve. Only switch if you are hitting a concrete wall with your current tool — not because a new tool has a feature you might use someday.
+```bash
+# Shortcut branch naming triggers automatic story linking
+# Story sc-1234: "User can reset password via email"
+git checkout -b sc-1234/user-password-reset
+
+# Shortcut detects the sc-XXXX prefix and links the branch to the story
+```
+
+Shortcut's GitHub integration is reliable but less automatic than Linear — story status doesn't auto-transition; developers need to move cards manually or use branch naming conventions. The tradeoff is more flexibility: you control when transitions happen.
+
+**Best for:** product teams with designers and PMs who need a visual board.
+
+**Pricing:** $8.50/user/month (Business). Free for teams up to 10.
+
+## ClickUp: Best for Automation-Heavy Teams
+
+ClickUp's GitHub integration enables automation rules that other tools can't match: "When PR is opened → assign reviewer from rotation," "When PR is merged → mark subtasks complete," "When issue is labeled 'blocked' → notify team lead via email."
+
+```javascript
+// ClickUp API: Create task from GitHub PR webhook
+app.post('/github-webhook', async (req, res) => {
+  const { action, pull_request } = req.body;
+
+  if (action === 'opened') {
+    await clickup.createTask({
+      listId: process.env.CLICKUP_LIST_ID,
+      name: `Review: ${pull_request.title}`,
+      description: pull_request.body,
+      custom_fields: [
+        { id: 'pr_url', value: pull_request.html_url },
+        { id: 'author', value: pull_request.user.login },
+      ],
+      assignees: [process.env.CLICKUP_REVIEWER_ID],
+    });
+  }
+
+  res.sendStatus(200);
+});
+```
+
+The complexity tradeoff: ClickUp's flexibility means more setup time. A Linear team is productive day one. A ClickUp team with well-configured automations is more powerful, but getting there takes 2-3 weeks of configuration.
+
+**Best for:** operations, marketing, or mixed teams that need project tracking beyond engineering.
+
+**Pricing:** $7/user/month (Unlimited). Free tier available.
+
+## GitHub Projects: Best for GitHub-Native Teams
+
+For teams that live in GitHub and don't want to maintain a separate PM tool, GitHub Projects (v2) has matured significantly. You can create custom fields, filter by PR status, and build board views that pull directly from GitHub issues and PRs.
+
+```bash
+# Create issue with project linking via GitHub CLI
+gh issue create \
+  --title "Add retry logic to webhook handler" \
+  --body "Current implementation drops webhooks on 500 errors" \
+  --label "backend,reliability" \
+  --project "Q2 Engineering" \
+  --milestone "v2.3"
+```
+
+GitHub Projects lacks the workflow automation depth of Linear or ClickUp, but it has zero switching cost for teams already using GitHub Issues. For teams under 10 engineers who don't need cross-team visibility, it's the right default.
+
+**Best for:** open source projects, small engineering teams, teams that want to minimize tooling overhead.
+
+**Pricing:** Free with GitHub (feature set depends on plan).
+
+## Integration Depth Comparison
+
+| Feature | Linear | Shortcut | ClickUp | GitHub Projects |
+|---|---|---|---|---|
+| Auto-close on PR merge | Yes | No (manual) | Via automation | Yes |
+| Branch → issue auto-link | Yes | Naming convention | Via webhook | Yes |
+| CI/CD status in PM | Yes | Yes | Yes | Native |
+| Custom automation rules | Limited | Limited | Extensive | Limited |
+| Mobile app quality | Good | Good | Good | Basic |
+| Price/user/month | $8 | $8.50 | $7 | Free |
+
+## Choosing the Right Tool
+
+- **Under 10 engineers, GitHub-heavy:** GitHub Projects — zero overhead
+- **Engineering team, speed culture:** Linear — best developer experience
+- **Product+engineering+design:** Shortcut — story-centric structure works across roles
+- **Multi-department or complex automation needs:** ClickUp — most powerful automations
 
 ## Related Articles
 
-- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
-- [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)
-- [Best Project Management Tool for 3 Person Startup 2026](/remote-work-tools/best-project-management-tool-for-3-person-startup-2026/)
-- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-- [Hybrid Team Onboarding Process Template (2026)](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+- [Best Async Project Management Tools for Distributed Teams](/best-async-project-management-tools-for-distributed-teams-2026/)
+- [Best Project Management CLI Tools 2026](/best-project-management-cli-tools-2026/)
+- [Best Remote Work Project Management Tools Under $10/user](/best-remote-work-project-management-tools-under-10-per-user-2026/)
+{% endraw %}

@@ -108,7 +108,8 @@ A troubleshooting guide is only useful if people can find it. Consider these app
 
 Store each troubleshooting entry as a markdown file with structured front matter:
 
-```yaml---
+```yaml
+---
 title: "Redis Connection Pool Exhaustion"
 category: "infrastructure"
 symptoms:
@@ -189,7 +190,8 @@ function generateRunbookFromTicket(ticket) {
  prevention: ticket.customfield_prevention
  };
 
- return `---
+ return `
+---
 title: "${runbook.title}"
 symptoms: ${JSON.stringify(runbook.symptoms)}
 ---

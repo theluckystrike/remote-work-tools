@@ -135,7 +135,8 @@ Retrospective documents gain tremendous value when properly categorized. Impleme
 
 Use front matter in your Markdown files to enable programmatic filtering:
 
-```markdown---
+```markdown
+---
 date: 2026-02-15
 tags: [communication, async, tooling]
 category: process-improvement

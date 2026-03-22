@@ -147,7 +147,8 @@ Runbook Index (filtered database view)
 **Implementation: 1-2 weeks (with templates)**
 
 Confluence page template:
-```---
+```
+---
 Title: [System] [Incident Type]
 Space: Runbooks
 Owner: [Team Name]

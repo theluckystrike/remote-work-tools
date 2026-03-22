@@ -13,7 +13,10 @@ score: 9
 intent-checked: true
 voice-checked: true
 ---
+<<<<<<< HEAD
+=======
 {% raw %}
+>>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
 
 
 Change management fails on remote teams for a specific and predictable reason: information arrives at different times, in different contexts, with different levels of completeness, depending on who happens to be online when the announcement goes out. A Slack message at 9 AM Pacific reaches your US West Coast team at the start of their day and your European team at the end of theirs. Half the team processes the news immediately; the other half sees it the next morning after sleeping on it, long after the initial discussion thread has gone quiet.

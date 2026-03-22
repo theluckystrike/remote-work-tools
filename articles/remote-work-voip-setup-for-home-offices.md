@@ -12,7 +12,10 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+<<<<<<< HEAD
+=======
 
+>>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
 {% raw %}
 
 A proper VoIP setup replaces desk phones with software-based calling that works from any home office. This guide covers a self-hosted FreePBX deployment, softphone configuration, QoS tuning, and failover so remote workers maintain business call quality.

@@ -70,7 +70,8 @@ ssh admin@$hostname "profiles status -type enrollment"
 **Linux: Ansible for Configuration Auditing**
 
 ```yaml
-# ansible-playbook device_audit.yml---
+# ansible-playbook device_audit.yml
+---
 - name: Remote Device Security Audit
  hosts: remote_linux_hosts
  gather_facts: true

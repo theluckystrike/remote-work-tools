@@ -302,7 +302,8 @@ Track onboarding effectiveness:
 ```
 Dashboard (Google Sheets):
 
-Metric | Target | Actual | Status---
+Metric | Target | Actual | Status
+---
 ---|--------|--------|-------
 Time to first PR merge | 3 days | 3.2 days | ✓
 Time to first deployed code | 10 days | 11 days | ⚠
