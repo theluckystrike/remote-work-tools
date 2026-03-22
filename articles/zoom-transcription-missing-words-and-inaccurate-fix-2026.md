@@ -7,7 +7,7 @@ last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /zoom-transcription-missing-words-and-inaccurate-fix-2026/
 reviewed: true
-score: 9
+score: 8
 categories: [troubleshooting]
 intent-checked: true
 voice-checked: true

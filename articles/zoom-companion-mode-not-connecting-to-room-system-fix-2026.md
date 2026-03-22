@@ -8,6 +8,7 @@ permalink: /zoom-companion-mode-not-connecting-to-room-system-fix-2026/
 reviewed: true
 score: 8
 categories: [troubleshooting]
+tags: [remote-work-tools, troubleshooting]
 ---
 
 # Zoom Companion Mode Not Connecting to Room System Fix (2026)
