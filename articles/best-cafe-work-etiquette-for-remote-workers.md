@@ -215,13 +215,169 @@ echo "Network status:"
 # If failed, switch to mobile hotspot or find alternative
 ```
 
+## Cafe Fitness Assessment Checklist
+
+Before settling into a cafe for a work session, evaluate it systematically:
+
+```markdown
+# Cafe Assessment Checklist
+
+## Technical Requirements
+- [ ] Wi-Fi speed adequate? (test with speedtest.net)
+- [ ] Connection stable? (try loading page 5x without dropping)
+- [ ] Power outlets accessible and near seating?
+- [ ] Backup hotspot on if Wi-Fi unreliable?
+
+## Environment Quality
+- [ ] Noise level tolerable without headphones?
+- [ ] Lighting sufficient for screen work?
+- [ ] Seating comfortable for 2+ hour sessions?
+- [ ] Temperature reasonable?
+
+## Social Compatibility
+- [ ] Staff seem receptive to laptop workers?
+- [ ] Other laptop workers present? (signals acceptance)
+- [ ] Crowd density manageable?
+- [ ] Consistent clientele (regulars)? vs (transient)?
+
+## Business Model Alignment
+- [ ] Food/drink prices reasonable for long stays?
+- [ ] Ordering frequency expected (every 90 min)?
+- [ ] Bathrooms available?
+- [ ] General vibe aligns with your work style?
+
+## Scoring
+- 9-10 checks: Excellent cafe for regular work
+- 7-8 checks: Good option, accept some constraints
+- 5-6 checks: Backup option only
+- <5 checks: Try another cafe
+```
+
+Use this rubric to find and remember good cafes. Quality consistent spots matter more than variety.
+
+## Managing Distractions
+
+Cafes offer benefits but also introduce distractions. Here's how to manage them:
+
+```bash
+#!/bin/bash
+# cafe-focus-mode.sh — Minimize distractions during cafe work
+
+# Disable notifications
+defaults write com.apple.controlcenter DoNotDisturb -bool true
+
+# Close distracting apps
+pkill Slack
+pkill Mail
+pkill News
+
+# Open focus tools
+open "/Applications/Focus@Will.app"
+open "/Applications/Todoist.app"
+
+# Set loud timer for breaks
+at now + 90 minutes <<< 'osascript -e "beep"'
+
+# Print focused tasks
+echo "Current focus tasks:" && cat ~/.cafe_tasks
+
+# Restore settings after work
+trap "defaults write com.apple.controlcenter DoNotDisturb -bool false" EXIT
+```
+
+Automation creates structure that prevents constant decision-making.
+
+### Audio Setup for Cafe Work
+
+Sound is critical for cafe productivity. Here's the layered approach:
+
+| Layer | Tool | Purpose | Cost |
+|-------|------|---------|------|
+| **1** | Noise-canceling headphones | Block ambient noise | $100-400 |
+| **2** | Focus music service | Provide optimal sound | $5-15/mo |
+| **3** | Brown noise app | Masking layer backup | Free-$5 |
+| **4** | Understanding manager | Accept occasional audio | Free |
+
+Invest in a good noise-canceling headphone once. The long-term productivity gain justifies the cost.
+
 ### When It's Too Noisy
 
-Relocate to a quieter corner or outdoor seating, or put on noise-canceling headphones with focus music. If conditions are genuinely unworkable, leave gracefully and find an alternative.
+First, try interventions in this order:
+1. Move to a quieter corner or outdoor seating
+2. Put on noise-canceling headphones with focus music
+3. Switch to work that doesn't require deep concentration
+4. Leave gracefully and find an alternative cafe
+
+If you find yourself frequently saying "this cafe is too noisy," that's signal to find a better regular spot or reconsider cafe work for your role.
 
 ### When Asked to Move or Order More
 
-Stay positive. Say "Absolutely, let me order more" or "No problem, I'll find another spot." Your response affects how cafes view all remote workers.
+Stay positive. Say "Absolutely, let me order more" or "No problem, I'll find another spot." Your response affects how cafes view all remote workers. Complying gracefully maintains the implicit agreement that lets remote workers use cafe space.
+
+Remember: the cafe is running a business. Your 4-hour presence needs to generate revenue—either directly through purchases or indirectly through the vibe you create.
+
+## Building Cafe Relationships
+
+Regular cafes become better over time when you invest in relationships:
+
+```markdown
+# Building Cafe Loyalty
+
+## First Visit Checklist
+- [ ] Ask staff about laptop work policies
+- [ ] Observe how they treat other laptop workers
+- [ ] Buy something, tip reasonably (15-20%)
+- [ ] Acknowledge staff as you leave
+
+## Regular Visits (Week 2-4)
+- [ ] Learn staff names
+- [ ] Order consistently (same order or predictable pattern)
+- [ ] Tip consistently 15-20%
+- [ ] Brief chat with staff about your work (not oversharing)
+
+## Becoming a Regular (Month 2+)
+- [ ] Staff greets you by name
+- [ ] Possibly starts your usual order
+- [ ] Gives you "your" table or preferred spot
+- [ ] Seems genuinely happy to see you
+- [ ] Might warn you of slow Wi-Fi days
+
+## Loyalty Maintenance
+- [ ] Stay predictable in your schedule
+- [ ] Continue to order regularly
+- [ ] Respect their peak hours
+- [ ] Engage in brief conversations but don't overstay
+- [ ] Follow up if you disappear for weeks ("Just took time off")
+```
+
+When staff recognize you and appreciate your presence, they'll subtly improve your experience—better table, fresher pastry, heads up about Wi-Fi issues.
+
+## Ergonomics in Non-Ideal Spaces
+
+Cafe chairs and tables often have suboptimal ergonomics. Mitigate the risks:
+
+```markdown
+# Cafe Ergonomics Fixes
+
+## Posture Setup
+- Laptop on a small book or block to elevate screen to eye level
+- Back of chair supported with rolled towel or cushion
+- Elbows at 90 degrees (adjust chair height with books if needed)
+- Feet flat on floor or footrest
+
+## Tension Relief
+- Every 30 minutes: Shoulder rolls, neck stretch
+- Every 60 minutes: Stand and walk around
+- Hourly: Hand stretches (especially important for typing-heavy work)
+
+## Tools to Pack
+- Portable laptop stand ($20-40)
+- Ergonomic mouse (optional but worth it)
+- Neck pillow (if doing lots of cafe work)
+- Keyboard (only if you're doing hours of typing)
+```
+
+Good posture in a cafe prevents the neck and back pain that creeps up from hours in suboptimal seating.
 
 ## Frequently Asked Questions
 

@@ -205,6 +205,143 @@ For teams seeking quick deployment with reasonable offline capabilities, Notion 
 
 The ideal choice aligns with your team's existing tools and workflows. Teams already using Notion for project management benefit from consolidating knowledge base tools. Teams with strong Git practices will appreciate GitBook or Obsidian. Organizations with compliance requirements may find Wiki.js the only viable option.
 
+## Comparison Table: Offline Capabilities
+
+| Feature | Notion | GitBook | Obsidian | Wiki.js |
+|---------|--------|---------|----------|---------|
+| Local-first | No | No | Yes | No |
+| Mobile app | Yes | Yes | Sync plugin | PWA |
+| Offline editing | Limited | No | Full | No |
+| Search offline | Yes | Yes | Yes | Yes |
+| Sync strategy | Cloud | Cloud | Git-based | Cloud |
+| Setup time | 15 min | 30 min | 1-2 hours | 2-4 hours |
+| Self-hosted option | No | Yes | Self-managed | Yes |
+| Team collaboration | Excellent | Good | Requires Git | Good |
+| Learning curve | Minimal | Low | Moderate | Moderate |
+
+Choose based on your team's technical comfort level and connectivity reliability needs. Notion works best for non-technical teams with reliable internet. GitBook suits developer teams comfortable with Git. Obsidian excels for maximum offline reliability. Wiki.js suits organizations needing full infrastructure control.
+
+## Practical Setup Example: Hybrid Git-Based System
+
+Many teams combine multiple tools for redundancy. Here's a production-tested approach:
+
+```bash
+#!/bin/bash
+# wiki-sync.sh — Keep local Obsidian vault in sync with team repo
+
+WIKI_DIR="$HOME/Documents/team-wiki"
+REPO_URL="git@github.com:team/wiki.git"
+SYNC_INTERVAL="3600"  # 1 hour
+
+function sync_wiki() {
+  cd "$WIKI_DIR" || exit 1
+
+  # Pull latest from remote
+  git fetch origin main
+  if git status -uno --porcelain | grep -q '^'; then
+    git stash  # Save local changes
+  fi
+  git pull origin main
+  git stash pop || true
+
+  # Commit and push any local changes
+  git add -A
+  git commit -m "Vault sync: $(date)" || true
+  git push origin main
+
+  echo "Wiki synchronized: $(date)"
+}
+
+# Run on schedule
+while true; do
+  sync_wiki
+  sleep $SYNC_INTERVAL
+done
+```
+
+This approach gives you:
+- Local editing with Obsidian for offline reliability
+- Git-based version control and team sync
+- Automatic backup to remote repository
+- Ability to view history and revert changes
+
+## Offline Workflows and Recovery
+
+Setting up offline work isn't just about reading cached content—it's about editing offline and syncing when you return online.
+
+### Establishing an Offline Workflow
+
+For teams using Git-backed wikis:
+
+```markdown
+## Working Offline (Obsidian + Git Example)
+
+### Before Going Offline
+1. Pull latest: `git pull origin main`
+2. Verify you have cached copies of critical docs
+3. Note the current branch/commit
+
+### While Offline
+1. Edit files as normal in Obsidian
+2. Commit changes locally: `git commit -m "Offline work: [description]"`
+3. Don't push—save commits locally
+
+### Reconnecting to Internet
+1. Fetch remote changes: `git fetch origin`
+2. Rebase your changes: `git rebase origin/main`
+3. Resolve conflicts if any exist
+4. Push: `git push origin main`
+5. Verify changes in web interface
+```
+
+This workflow prevents the "I edited something offline and now I can't sync" problem.
+
+## Performance Considerations for Large Knowledge Bases
+
+As your documentation grows, offline performance becomes critical. Consider these practices:
+
+### Selective Sync for Large Teams
+
+Don't try to cache your entire knowledge base on every device. Instead, implement selective sync:
+
+```yaml
+# Obsidian selective sync configuration
+sync_config:
+  default: exclude  # By default, don't cache
+
+  include:
+    - onboarding/*        # Always cache onboarding
+    - architecture/*       # Always cache architecture docs
+    - my_team/*/          # Cache my team's docs
+    - runbooks/emergencies/*  # Always cache emergency procedures
+
+  exclude:
+    - archive/**          # Skip archived docs
+    - old_decisions/**     # Skip outdated decisions
+```
+
+This keeps cache sizes manageable (100-500MB) rather than gigabytes.
+
+### Search Performance Offline
+
+Good offline search is critical. Different tools handle this differently:
+
+```bash
+# Obsidian local search (works offline automatically)
+# Good: Full-text search with fuzzy matching
+# Limitation: Can slow on large vaults (10,000+ files)
+
+# GitBook offline search (minimal)
+# Good: Works on cached content
+# Limitation: Basic keyword search only
+
+# Wiki.js offline search (depends on implementation)
+# Good: Can index on server and serve to offline PWA
+# Limitation: Requires upfront indexing
+```
+
+Test search performance on your largest devices. If search becomes slow, split documentation into smaller, focused spaces.
+
 ## Implementation Recommendations
 
 Regardless of which tool you choose, establishing good practices ensures your knowledge base serves your team reliably across all connectivity scenarios.
@@ -213,7 +350,9 @@ Implement a designated "offline champion" responsible for verifying offline func
 
 Establish naming conventions and organization structures that make finding information intuitive on smaller mobile screens. Complex nested hierarchies frustrate mobile users; flatter structures with strong search perform better on mobile devices.
 
-Finally, maintain redundancy. Even the most reliable offline tools occasionally fail. Ensure critical documentation exists in multiple formats—Markdown files on devices, printed quick reference guides for essential procedures, and redundant storage through multiple tools when reliability is paramount.
+Set up automatic syncing where possible. Whether through Git hooks, cloud sync, or scheduled scripts, automation prevents the "I forgot to sync" problem that causes version conflicts.
+
+Finally, maintain redundancy. Even the most reliable offline tools occasionally fail. Ensure critical documentation exists in multiple formats—Markdown files on devices, printed quick reference guides for essential procedures, and redundant storage through multiple tools when reliability is paramount. For truly critical runbooks (disaster recovery, security incidents), keep physical copies accessible.
 
 ## Frequently Asked Questions
 

@@ -214,6 +214,194 @@ A simple Google Sheets template works well for tracking observations:
 | 14:31     | Mike     | Successfully completed task | — | User succeeded | Low      |
 ```
 
+
+## Advanced Session Configurations for Larger Teams
+
+When you have many stakeholders wanting to observe, simple configurations break down. Here are strategies for scaling:
+
+### The Cascade Model for Multiple Sessions
+
+Instead of cramming 15 stakeholders into one session, run 2-3 shorter sessions:
+
+```markdown
+## Session Cascade Planning
+
+Session 1 (Day 1, 10:00 AM):
+- Participant: Early adopter or power user
+- Observers: Product team (PM, lead designer, engineering lead)
+- Focus: Advanced features, edge cases
+
+Session 2 (Day 1, 2:00 PM):
+- Participant: Typical user profile
+- Observers: Marketing, support, additional designers
+- Focus: Core workflow, common friction points
+
+Session 3 (Day 2, 10:00 AM):
+- Participant: New user or struggling user
+- Observers: Onboarding, customer success, stakeholders unable to attend other sessions
+- Focus: Accessibility, clarity of instructions
+
+Debrief: Combine observations from all three sessions the next day
+```
+
+This approach gives more stakeholders visibility while keeping individual sessions focused. Each observer group sees relevant sessions for their domain.
+
+### Observer Bandwidth Management
+
+Too many observers creates performance issues and participant discomfort:
+
+**Technical limits:**
+- Zoom: Maximum 300 participants technically, but quality drops with 30+
+- Google Meet: Recommended max 10 cameras on for good performance
+- Microsoft Teams: Similar constraints
+
+**Psychological limits:**
+- Participants notice camera count and feel more observed with 8+ cameras
+- Sidebar chat becomes distracting with more than 5-7 active participants
+- Screen sharing performance degrades with high observer bandwidth usage
+
+**Solution: Secondary observation stream**
+
+Create a separate meeting link for observers who can't attend live:
+
+```markdown
+## Live Session: Main Research Call
+- Link: zoom.us/j/[main-meeting]
+- Max 7 observers + moderator + participant
+
+## Live Streaming Link: For Additional Stakeholders
+- Link: zoom.us/j/[streaming-meeting]
+- View-only stream from main meeting
+- No camera or audio (observers watch only)
+- Allows 50+ additional stakeholders to observe
+
+## Archived Recording: For Asynchronous Review
+- Available within 2 hours in Slack
+- Optional viewing for stakeholders with timezone conflicts
+```
+
+This three-tier approach accommodates everyone while maintaining session quality.
+
+### Using Breakout Rooms for Distributed Debriefs
+
+For global teams, debrief after the research session can be challenging. Use breakout rooms strategically:
+
+```markdown
+## Post-Session Debrief Structure (30 min total)
+
+Main room (5 min): Quick impressions from moderator
+- "One thing that surprised me: ___"
+- "One thing confirmed: ___"
+
+Breakout rooms by function (15 min each, running in parallel):
+- Room 1 (Product): Feature gaps, priority shifts
+- Room 2 (Design): Usability patterns, inconsistencies
+- Room 3 (Engineering): Technical feasibility concerns
+
+Reconvene main room (5 min): Each lead shares key insights
+
+Slack thread (async): Extended discussion continues post-meeting
+```
+
+This structure ensures synchronous debrief while accommodating different timezones through async follow-up.
+
+## Setting Up Participant Comfort in Research
+
+Beyond logistics, participant comfort directly impacts data quality. Uncomfortable participants perform worse and provide less honest feedback.
+
+### Pre-Session Rapport Building
+
+Send participants more than just a calendar invite:
+
+```markdown
+## Welcome Email (3 days before session)
+
+Hi [Name],
+
+Thanks for agreeing to participate in our research session! We're excited to get your perspective.
+
+**What to expect:**
+- 60 minutes of relaxed conversation (not a test of your ability)
+- We'll ask you to think aloud while using our prototype
+- There are no right or wrong answers—your honest feedback is valuable
+- You'll see my screen and possibly a few observer screens
+
+**What you should do:**
+- Find a quiet space with good internet
+- Have coffee/water nearby
+- Use the Zoom desktop client (mobile app is limited)
+- Test your audio 5 minutes early
+
+**If you have questions:** Reply to this email or call [phone number]
+
+See you [date] at [time]!
+```
+
+This reduces anxiety and sets clear expectations.
+
+### During-Session Comfort Checks
+
+Brief comfort checks improve participant honesty:
+
+```markdown
+## Mid-Session Check-Ins (every 15-20 min)
+
+Moderator: "How are you doing? Any questions or concerns so far?"
+- Listen for hesitation—they might need clarification
+- Watch for fatigue—you might need a 2-minute break
+- Notice if they seem uncomfortable with observers
+  - If so: "We have observers helping us understand your experience better.
+    Everything you say is valuable, whether you like the feature or not."
+```
+
+These check-ins feel natural in conversation and provide early warning of issues.
+
+## Recording and Privacy Compliance
+
+Remote sessions create recordings that require careful handling:
+
+### Informed Consent Process
+
+Get explicit consent before recording:
+
+```markdown
+## Consent Form (sent before session, signed before starting)
+
+I agree that:
+☐ This session may be recorded (audio and video)
+☐ The recording will be used for internal team review only
+☐ The recording will be deleted after [date]
+☐ No identifying information will be shared publicly
+☐ I may ask to stop recording at any time
+
+Participant Signature: _________________ Date: _______
+Researcher Signature: _________________ Date: _______
+```
+
+**Storage best practices:**
+- Keep recordings in password-protected cloud storage
+- Set automatic deletion dates (typical: 90 days)
+- Limit access to core research team only
+- Never share recordings with external stakeholders without consent
+
+### Video Clip Extraction for Stakeholders
+
+Instead of sharing full recordings, extract relevant clips:
+
+```bash
+#!/bin/bash
+# extract-research-clips.sh - Extract specific moments from recorded session
+
+# Usage: ./extract-research-clips.sh input.mp4 start_minute end_minute output.mp4
+# Example: ./extract-research-clips.sh session.mp4 12 18 clip-confusion.mp4
+
+ffmpeg -i "$1" -ss "00:$2:00" -to "00:$3:00" -c copy "$4"
+
+# This preserves quality while reducing file size for sharing
+```
+
+Stakeholders get relevant moments without needing full recording access.
+
 ## Frequently Asked Questions
 
 **How long does it take to run remote client ux research sessions with observers?**

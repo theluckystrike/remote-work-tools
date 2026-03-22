@@ -192,6 +192,177 @@ Average effective rate: $96.67/hour
 
 Client C reveals a problem—you're earning well below your target. Either increase future quotes for similar work or improve your estimation skills.
 
+## Pricing Decision Framework
+
+Use this framework to decide pricing for each opportunity:
+
+```markdown
+# Pricing Decision Tree
+
+## Question 1: Can you define deliverables clearly?
+- Yes → Continue to Q2
+- No → Use hourly pricing
+
+## Question 2: Have you done similar work before?
+- Yes (multiple times) → Continue to Q3
+- No (first time) → Use hourly pricing
+
+## Question 3: How confident is your estimate?
+- Very confident (±20%) → Continue to Q4
+- Somewhat confident (±50%) → Use time-and-materials
+- Uncertain (±100%+) → Use hourly pricing
+
+## Question 4: Is the client likely to request changes?
+- Stable requirements → Use project-based
+- Evolving requirements → Use hourly or time-and-materials
+
+## Recommendation
+If you reach Q4 = Project-based pricing
+If you stop before Q4 = Hourly or time-and-materials
+If unsure at any point = Default to hourly
+```
+
+This framework helps you match pricing to certainty level.
+
+## Contract Language for Each Model
+
+### Hourly Contract Language
+
+```markdown
+## Hourly Rate Agreement
+
+**Rate:** $[X]/hour
+**Minimum billing:** 0.25 hours per work session
+**Time tracking:** Toggl, Harvest, or [tool name]
+**Invoice frequency:** Weekly/Bi-weekly
+
+**What's included in hours:**
+- Development and implementation
+- Code review within 24 hours
+- Communication with client
+- Testing in development environment
+- Documentation of work completed
+
+**What's NOT included (billable extra):**
+- Significant scope changes
+- Client meetings beyond weekly sync
+- Production deployment and monitoring
+- Emergency 24-hour support
+
+**Overtime policy:**
+- Work exceeding estimated 40 hours/week: Standard rate applies
+- Weekend/evening work: Discussed in advance only
+```
+
+Clarity about what's included prevents disputes about billing.
+
+### Project-Based Contract Language
+
+```markdown
+## Fixed Project Fee Agreement
+
+**Total Project Fee:** $[X]
+**Payment Schedule:**
+- 30% upon signing
+- 40% upon delivery to staging
+- 30% upon delivery to production and acceptance
+
+**Scope of Work:**
+[Detailed specification with acceptance criteria]
+
+**Out of Scope (Billable separately):**
+- Features not in specification above
+- Significant changes to existing features (> 4 hours of work)
+- Server administration or DevOps setup
+
+**Change Request Process:**
+Any work outside scope requires written Change Order
+signed by both parties before work begins.
+
+**Timeline:**
+Estimated completion: [Date]
+If significant delays necessary, client will be notified
+and timeline adjusted mutually.
+```
+
+Project contracts must be specific enough to prevent disputes.
+
+## Warning Signs: When Your Pricing Model Is Wrong
+
+| Warning Sign | Likely Problem | Solution |
+|-------------|-----------------|-----------|
+| "I work 60 hours but bill 40" | Hourly rate too low | Raise rate or use project-based |
+| "Every project takes 2x longer than estimated" | Estimation skills weak | Use hourly until skills improve |
+| "Clients constantly ask for changes" | Scope not clear enough | Add detailed specs or switch to hourly |
+| "I'm exhausted and underpaid" | Rate is unsustainable | Calculate real operating costs and raise rate |
+| "Clients disappear mid-project" | Project deal structure unclear | Add milestone-based payments, smaller initial scope |
+
+Listen to these signals. They're telling you something about your pricing or process needs adjustment.
+
+## Hybrid Pricing in Practice
+
+Many successful freelancers use multiple models simultaneously:
+
+```markdown
+## Hybrid Pricing Portfolio Example
+
+**Client A: Retainer ($4,000/month)**
+- 80 hours guaranteed monthly capacity
+- Additional hours at $60/hour
+- 3-month minimum commitment
+- Works well for ongoing maintenance
+
+**Client B: Project-based ($25,000)**
+- Fixed deliverables, clear scope
+- 5 milestones with payments tied to completion
+- Estimated 200 hours
+- High-value project, predictable revenue
+
+**Client C: Hourly ($100/hour)**
+- New client with undefined scope
+- Billed weekly
+- Trial period to assess if project-based makes sense later
+- Flexible, low commitment
+
+**Total Monthly Revenue:**
+- Retainer: $4,000
+- Project (monthly draw): ~$2,500
+- Hourly (~40 hours/month): ~$4,000
+- **Total: ~$10,500/month**
+```
+
+A portfolio approach smooths revenue and lets you optimize for each client type.
+
+## Raising Your Rates Without Losing Clients
+
+Rate increases are normal and necessary. Here's how to execute them:
+
+```markdown
+## Rate Increase Process
+
+### Phase 1: Increase for New Clients (Start Here)
+- Raise rate for new clients immediately
+- Existing clients keep old rate temporarily
+- Signal to existing clients: "New clients pay X, your rate unchanged"
+
+### Phase 2: Strategic Increases for Existing Clients (6 months later)
+- For happy, long-term clients: "I'm increasing rates to $[X] next month"
+- Offer: "If you commit to 6-month retainer, we can lock in $[Y]"
+- Most good clients will accept or renew at old rate through contract end
+
+### Phase 3: Clean Break
+- Let old contracts expire naturally
+- Don't renew at old rates (creates bad anchoring)
+- "My rate is now $[X]; I can offer 10% discount for 6-month commitment"
+
+### Timeline
+- Increase new client rate every 12 months minimum
+- Increase existing client rates every 18-24 months
+- Track: New client rate vs. existing client rate should converge
+```
+
+Gradual increases prevent shocking clients and losing good relationships.
+
 ## Making the Decision
 
 Choose hourly when you're new to freelancing, dealing with undefined scope, or prefer simplicity. Choose project-based when you have experience, clear deliverables, and want income upside from efficiency gains.
@@ -199,6 +370,14 @@ Choose hourly when you're new to freelancing, dealing with undefined scope, or p
 The most successful freelancers aren't dogmatic about either model. They analyze each opportunity, estimate their likely effective rate, and choose the pricing structure that aligns with their income goals and client needs.
 
 Start with hourly if you're uncertain. Build your estimating skills over time. Then gradually shift to project-based pricing where it makes sense. Your rates will increase as your portfolio demonstrates capability, and your effective hourly rate will reflect that growth.
+
+Remember: the goal isn't to find the "right" pricing model universally. The goal is to price work in a way that:
+1. Generates sustainable income for your business
+2. Attracts the kinds of clients you want to work with
+3. Allows you to deliver quality without burning out
+4. Scales as you grow
+
+If your current pricing doesn't meet all four criteria, it's time to experiment.
 
 ---
 

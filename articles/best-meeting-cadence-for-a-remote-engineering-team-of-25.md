@@ -203,15 +203,159 @@ const meetingTemplate = {
 
 **No clear agenda.** Every meeting should have a stated purpose. If you can't articulate why a meeting exists and what outcome you need, cancel it.
 
+## Detailed Meeting Schedule for 25-Person Teams
+
+Here's a complete weekly schedule that accommodates diverse timezone needs:
+
+| Time (UTC) | Monday | Tuesday | Wednesday | Thursday | Friday |
+|-----------|--------|---------|-----------|----------|---------|
+| 08:00-09:00 | — | Focus | — | Focus | — |
+| 09:00-10:00 | Sub-team: Asia Lead | Focus | — | Focus | 1:1s (Rotating) |
+| 10:00-11:00 | Sub-team: EMEA Lead | Focus | All-Hands OR Arch Review | Focus | 1:1s (Rotating) |
+| 11:00-12:00 | Focus | Focus | — | Focus | — |
+| 12:00-13:00 | Focus | Focus | Focus | Focus | Focus |
+| 13:00-14:00 | Focus | Focus | Focus | Focus | Async Standup Report |
+| 14:00-15:00 | Focus | Focus | — | Focus | — |
+| 15:00-16:00 | Focus | Focus | Sub-team: US West | Focus | Optional Social |
+| 16:00+ | Focus | Focus | Focus | Focus | — |
+
+This schedule ensures:
+- Deep work blocks on Tuesday, Thursday, and most of each day
+- All-hands happens at a rotating time to avoid always hitting the same timezones
+- Sub-team syncs happen when those specific timezones have overlap
+- 1:1s distributed throughout the week
+
+The specific times matter less than consistency—team members should know exactly which hours are protected for meetings.
+
+## Async Standup Implementation
+
+Rather than live standups, implement async standups using a simple Slack workflow:
+
+```javascript
+// Slack workflow trigger: /standup command or scheduled bot
+
+const standupPrompt = {
+  trigger: "scheduled",
+  timing: "daily_at_13:00_UTC",
+  channel: "engineering",
+
+  blocks: [
+    {
+      type: "section",
+      text: {
+        type: "mrkdwn",
+        text: "📋 *Daily Standup*\nReply in thread with your status"
+      }
+    },
+    {
+      type: "actions",
+      elements: [
+        {
+          type: "button",
+          text: { type: "plain_text", text: "Share Status" },
+          action_id: "open_standup_form"
+        }
+      ]
+    }
+  ]
+};
+
+// Bot collects responses and posts summary at 14:00 UTC
+// Format highlights blockers that need immediate attention
+```
+
+This approach:
+- Lets people respond on their own schedule
+- Creates permanent documentation of team status
+- Highlights blockers that need escalation
+- Respects timezone differences
+
+## Special Meeting Types and Their Frequency
+
+Different meeting types serve different purposes and should occur at different frequencies:
+
+### Planning Meetings (Monthly)
+- Next month's priorities and capacity
+- Quarterly planning and goal-setting
+- Investment decisions for tooling/process
+
+### Incident Retrospectives (As-Needed)
+- Schedule within 2 days of significant incidents
+- Document what happened, why, and what prevents recurrence
+- Share learnings across the organization
+
+### Architecture Reviews (Quarterly)
+- Major system design decisions
+- Technical debt assessments
+- Technology choices and upgrades
+
+### Hiring and Growth (Monthly)
+- Discuss hiring needs and candidates
+- Career development conversations
+- Promotion and leveling decisions
+
+Only include people actually needed for each meeting type. An architecture review for the database team doesn't need the frontend team present.
+
+## Meeting-Free Time Policies
+
+Protect focus time explicitly in your team calendar. Here's a policy that works:
+
+```markdown
+# Focus Time Guarantee
+
+## Policy
+- Tuesday and Thursday are meeting-free days
+- No back-to-back meetings any day
+- At minimum, every other hour should be meeting-free
+
+## Exceptions
+- Production incidents (always allow escalation)
+- Time-sensitive decisions that can't wait
+- Client meetings with hard external deadlines
+
+## Enforcement
+- Do not schedule meetings on protected days without explicit consent
+- If someone needs to break focus time, offer to switch their calendar
+- Review this weekly in your team meeting
+```
+
+Make this visible in your team values or engineering handbook. When people know meetings are limited, they schedule better.
+
 ## Measuring Meeting Effectiveness
 
 Track a few metrics to ensure your cadence remains healthy:
 
-- Meeting hours per engineer per week: Aim for 2-4 hours maximum
-- Action item completion rate: Are decisions being acted upon?
-- Sentiment feedback: Ask the team if meetings are productive
+- **Meeting hours per engineer per week:** Aim for 2-4 hours maximum
+- **Action item completion rate:** Are decisions being acted upon?
+- **Sentiment feedback:** Ask the team if meetings are productive
+- **Deep work hours available:** Can engineers find 4-hour uninterrupted blocks?
+
+Use a simple quarterly survey:
+
+```markdown
+## Meeting Cadence Survey
+
+1. I have enough time for deep technical work (1-5 scale)
+2. I understand our team's current priorities (1-5 scale)
+3. I'm aligned with the broader organization (1-5 scale)
+4. Meetings are a good use of time (1-5 scale)
+5. One change that would improve meeting effectiveness:
+   [open response]
+```
 
 If engineers report that meetings interrupt their work, reduce the cadence. If teams report misalignment, add more sync points.
+
+## Common Meeting Schedule Mistakes
+
+**Too Many All-Hands:** Weekly all-hands for 25 people creates excessive overhead. Monthly or bi-weekly is sufficient if you have async updates.
+
+**No Meeting-Free Days:** Without protected focus time, engineers context-switch constantly. This destroys deep work and increases burnout.
+
+**All Meetings at Bad Times:** Rotating meeting times so no one always gets early mornings or late nights prevents timezone fatigue.
+
+**Unclear Meeting Agendas:** Meetings without stated purposes often run over and feel unproductive. Always require an agenda before scheduling.
+
+**Missing Decisions:** Meetings that don't result in clear decisions or action items shouldn't happen. Convert them to async updates.
 
 ## Frequently Asked Questions
 
