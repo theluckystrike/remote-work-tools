@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Facilitate Remote Team Workshops Using Miro with Structured Communication"
+title: "Remote Team Workshops with Miro: A Guide (2026)"
 description: "Learn practical techniques for running effective remote workshops in Miro with structured communication exercises that keep teams engaged and productive"
 date: 2026-03-16
 last_modified_at: 2026-03-16
