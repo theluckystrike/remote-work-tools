@@ -276,13 +276,12 @@ kubectl rollout status deployment/myapp -n production
 
 ---
 
-## Related Reading
+## Related Articles
 
-- [How to Set Up Teleport for Secure Access](/remote-work-tools/teleport-secure-access-setup/)
-- [How to Create Automated Security Scan Pipelines](/remote-work-tools/automated-security-scan-pipelines/)
-- [Best Tools for Remote Team Post-Mortems](/remote-work-tools/remote-team-post-mortem-tools/)
-
----
-
+- [Secure Secrets Injection Workflow for Remote Teams](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
+- [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
+- [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
+- [Remote Team Password Sharing Best Practices for Shared](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
+- [Best Password Sharing Solution for Remote Teams 2026](/remote-work-tools/best-password-sharing-solution-for-remote-teams-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

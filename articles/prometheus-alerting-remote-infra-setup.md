@@ -332,13 +332,12 @@ count_over_time(ALERTS{alertstate="firing"}[7d])
 
 ---
 
-## Related Reading
+## Related Articles
 
 - [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
-- [How to Set Up Thanos for Prometheus HA](/remote-work-tools/thanos-prometheus-ha-setup/)
-- [Kubernetes Resource Limits Automation](/remote-work-tools/automate-kubernetes-resource-limits/)
-
----
-
+- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
+- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Best Tools for Remote Team Daily Health Checks](/remote-work-tools/best-tools-remote-team-daily-health-checks/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
