@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /best-wiki-tool-for-remote-team-with-version-history-and-appr/
 reviewed: true
-score: 8
+score: 9
 categories: [best-of]
 tags: [remote-work-tools, best-of, remote-work]
 intent-checked: true
