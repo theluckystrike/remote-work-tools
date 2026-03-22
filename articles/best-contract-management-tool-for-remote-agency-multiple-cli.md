@@ -217,6 +217,93 @@ Many agencies use a hybrid approach: git-backed storage for contract documents w
 Start with your current pain points. If you're constantly searching email threads for signed contracts, prioritize searchability. If renewal deadlines catch you by surprise, prioritize expiration tracking. Build your system around actual workflow gaps rather than features you'll never use.
 
 The right tool is the one your team will actually use consistently. A simple system used daily beats a feature-laden platform that collects dust.
+
+## Contract Lifecycle Automation for Remote Agencies
+
+The most time-consuming contract management tasks are not drafting or signing — they are the ongoing lifecycle activities: tracking renewal windows, chasing signatures, and updating internal systems when a contract status changes. Remote agencies benefit most from automating these recurring steps.
+
+### Expiration and Renewal Automation
+
+Automated renewal alerts eliminate the common scenario where a contract silently lapses because it was buried in a shared folder. A practical approach using a lightweight Python script that reads a CSV of contract dates and sends Slack notifications:
+
+```python
+import csv
+import httpx
+from datetime import date, timedelta
+
+SLACK_WEBHOOK = "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+ALERT_DAYS_BEFORE = [90, 30, 14, 7]
+
+def check_renewals(contracts_csv: str):
+    today = date.today()
+    with open(contracts_csv) as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            expiry = date.fromisoformat(row["expiry_date"])
+            days_left = (expiry - today).days
+            if days_left in ALERT_DAYS_BEFORE:
+                send_slack_alert(row["client"], row["contract_type"], days_left)
+
+def send_slack_alert(client: str, contract_type: str, days_left: int):
+    message = (
+        f":rotating_light: *Contract Renewal Alert*\n"
+        f"Client: {client}\n"
+        f"Type: {contract_type}\n"
+        f"Expires in: {days_left} days"
+    )
+    httpx.post(SLACK_WEBHOOK, json={"text": message})
+
+# Run as a daily cron job: 0 9 * * * python check_renewals.py contracts.csv
+```
+
+Schedule this as a daily cron task. For remote teams across time zones, run it at 9:00 AM UTC so the alert lands in Slack at a reasonable hour for most regions. Maintain the CSV in your git-backed contract repository so changes are tracked and auditable.
+
+### Connecting Contracts to Billing
+
+A common gap for remote agencies is the delay between a signed contract and an invoice being created. Integrating your contract system with your billing tool removes a manual handoff. PandaDoc's webhook system makes this straightforward:
+
+```javascript
+// Express.js webhook handler: contract signed → create invoice in FreshBooks
+app.post("/webhooks/pandadoc", express.json(), async (req, res) => {
+  const { event, data } = req.body;
+  if (event === "document_state_changed" && data.status === "document.completed") {
+    await createFreshBooksInvoice({
+      clientId: data.metadata.freshbooks_client_id,
+      amount: data.metadata.contract_value,
+      dueDate: data.metadata.payment_due_date,
+      description: `Services per ${data.name}`
+    });
+  }
+  res.sendStatus(200);
+});
+```
+
+Store `freshbooks_client_id`, `contract_value`, and `payment_due_date` as custom metadata fields on each PandaDoc template. When a client completes signing, the webhook fires and your billing queue updates automatically — no manual step, no forgotten invoice.
+
+### Audit Trail Hygiene for Remote Teams
+
+Remote agencies face increased audit risk because contract approvals happen over email threads and Slack messages rather than in a conference room with witnesses. Build a lightweight audit log alongside your contracts:
+
+```bash
+# Log all contract events to a append-only audit file
+log_contract_event() {
+  local event="$1"
+  local contract_id="$2"
+  local actor="$3"
+  echo "$(date -u +"%Y-%m-%dT%H:%M:%SZ") | ${event} | ${contract_id} | ${actor}" \
+    >> audit/contract-audit.log
+  git add audit/contract-audit.log
+  git commit -m "audit: ${event} on ${contract_id} by ${actor}"
+}
+
+# Example usage
+log_contract_event "SENT_FOR_SIGNATURE" "acme-corp-2026-msa" "alice@agency.com"
+log_contract_event "SIGNED" "acme-corp-2026-msa" "ceo@acmecorp.com"
+log_contract_event "ARCHIVED" "acme-corp-2026-msa" "alice@agency.com"
+```
+
+Committing each event to git provides a tamper-evident record: the commit timestamps and author metadata are cryptographically linked, making it difficult to retroactively alter the audit trail. This level of documentation becomes valuable if a client disputes contract terms or a regulatory review requires evidence of when an agreement was executed.
+
 ---
 
 

@@ -193,6 +193,82 @@ export VAULT_NAMESPACE=engineering
 
 This isolation ensures teams can manage their own secrets while maintaining organizational oversight.
 
+## Integrating Password Managers with CI/CD Pipelines
+
+One of the highest-value use cases for developer-focused password managers is eliminating hardcoded secrets from CI/CD pipelines. Many teams still store database passwords and API keys as plain-text environment variables in their CI platform — readable by anyone with repository access. A proper integration pulls secrets at runtime from your password manager vault.
+
+### 1Password with GitHub Actions
+
+The 1Password GitHub Actions integration lets workflows pull secrets from your vault without storing them in GitHub's secrets UI:
+
+```yaml
+# .github/workflows/deploy.yml
+name: Deploy to Production
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Load secrets from 1Password
+        uses: 1password/load-secrets-action@v2
+        with:
+          export-env: true
+        env:
+          OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
+          DB_PASSWORD: op://Production/database/password
+          STRIPE_SECRET_KEY: op://Production/stripe/secret_key
+          AWS_SECRET_ACCESS_KEY: op://Production/aws-deploy/secret_access_key
+
+      - name: Run deployment
+        run: ./scripts/deploy.sh
+        # DB_PASSWORD, STRIPE_SECRET_KEY, AWS_SECRET_ACCESS_KEY are now available
+```
+
+Only `OP_SERVICE_ACCOUNT_TOKEN` lives in GitHub Secrets — a service account token with read-only access to specific vaults. All other secrets are fetched at runtime. When you rotate a credential in 1Password, every pipeline using that reference automatically gets the new value on the next run.
+
+### Bitwarden Secrets Manager for Pipelines
+
+Bitwarden's dedicated Secrets Manager product (separate from the password manager) provides a machine-identity-focused secret store designed for CI/CD:
+
+```bash
+# Install Bitwarden Secrets Manager CLI
+npm install -g @bitwarden/sm-cli
+
+# In your pipeline: authenticate with a machine access token
+export BWS_ACCESS_TOKEN="${{ secrets.BWS_ACCESS_TOKEN }}"
+
+# Retrieve a secret by its UUID
+DB_PASSWORD=$(bws secret get 3e6d9b2a-1234-5678-abcd-ef0123456789 | jq -r '.value')
+
+# Or run a command with injected secrets
+bws run -- ./scripts/migrate.sh
+```
+
+The Secrets Manager approach separates machine credentials (API keys, database passwords) from human credentials (employee passwords, personal API keys), which is a meaningful security boundary for larger remote teams.
+
+## Credential Rotation Practices for Remote Teams
+
+Shared credentials that never rotate are a persistent security risk, especially for distributed teams where employees leave or change roles. Establishing a rotation schedule reduces the blast radius of any single compromised credential.
+
+A practical rotation policy for remote development teams:
+
+| Credential Type | Rotation Frequency | Method |
+|---|---|---|
+| Production database passwords | Every 90 days | Automated via HashiCorp Vault dynamic secrets |
+| Third-party API keys | Every 180 days | Manual rotation during scheduled maintenance |
+| SSH keys | Annually or on team member departure | Manual; remove old key before distributing new |
+| Internal service tokens | Every 30 days | Automated via CI/CD pipeline |
+| Developer personal API keys | On role change or departure | Policy-enforced during offboarding checklist |
+
+For remote teams, offboarding is the highest-risk rotation event. When a developer leaves, they may retain access to shared credentials stored in their personal password manager. A proper team vault structure — where all shared credentials live in organization-owned vaults rather than personal vaults — ensures you can revoke access by removing the user from the organization, without needing to know which credentials they personally cached.
+
+Enforce this by making it a condition of onboarding: all credentials used for company projects must live in team vaults, not personal vaults. Document it in your engineering handbook and verify it during quarterly security reviews.
+
 ## Choosing the Right Solution
 
 The best password manager for your remote development team depends on your specific requirements:

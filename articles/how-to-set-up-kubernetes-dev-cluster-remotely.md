@@ -21,6 +21,8 @@ Running a shared Kubernetes dev cluster lets remote teams test against a real cl
 
 k3s uses under 512MB RAM at idle, installs in 30 seconds, and handles everything a remote dev team needs. It runs containerd, CoreDNS, Traefik ingress, and local storage provisioner out of the box.
 
+Full Kubernetes (kubeadm-based) requires significantly more overhead: a dedicated etcd cluster, manual CNI installation, and node configuration scripts that take 20-30 minutes to stabilize. For a shared dev environment, that complexity adds friction without meaningful benefit. k3s also packages SQLite as an embedded datastore for single-node setups, making backup and restore trivial.
+
 ## Server Requirements
 
 - Ubuntu 22.04 LTS (2 vCPU, 4GB RAM minimum per node)
@@ -296,6 +298,156 @@ kubectl apply -f resource-quota.yaml
 kubectl describe resourcequota dev-quota -n dev-alice
 ```
 
+## Persistent Storage with Longhorn
+
+For dev clusters that need reliable persistent volumes across node restarts, Longhorn provides replicated block storage without the complexity of Ceph:
+
+```bash
+# Install Longhorn via Helm
+helm repo add longhorn https://charts.longhorn.io
+helm repo update
+
+helm install longhorn longhorn/longhorn \
+  --namespace longhorn-system \
+  --create-namespace \
+  --set defaultSettings.defaultReplicaCount=2
+
+# Verify Longhorn pods are running
+kubectl -n longhorn-system get pods
+
+# Set Longhorn as the default storage class
+kubectl patch storageclass longhorn \
+  -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
+```
+
+Once Longhorn is running, PersistentVolumeClaims automatically get distributed storage. Your Helm deployments that specify `storageClassName: longhorn` (or no class, since it's default) will get volumes that survive node failures and can be snapshotted for backup.
+
+## Cluster Autoscaling for Cost Control
+
+Dev clusters on cloud VMs can burn budget fast. Use a simple cron-based scale-down during off-hours rather than full cluster autoscaler complexity:
+
+```bash
+# Scale down all deployments in dev namespaces at 10 PM
+# Store replica counts as annotations before scaling
+kubectl get deployments -n dev-alice -o json | jq -r \
+  '.items[] | "\(.metadata.name) \(.spec.replicas)"' | \
+  while read name replicas; do
+    kubectl annotate deployment/$name -n dev-alice \
+      saved-replicas=$replicas --overwrite
+    kubectl scale deployment/$name -n dev-alice --replicas=0
+  done
+
+# Restore in the morning
+kubectl get deployments -n dev-alice -o json | jq -r \
+  '.items[] | "\(.metadata.name) \(.metadata.annotations["saved-replicas"] // "1")"' | \
+  while read name replicas; do
+    kubectl scale deployment/$name -n dev-alice --replicas=$replicas
+  done
+```
+
+Wrap these scripts in a Kubernetes CronJob using the `bitnami/kubectl` image and mount the right ServiceAccount, and you get automatic cost savings with zero manual intervention.
+
+## Debugging Common Issues
+
+### Pods stuck in Pending
+
+The most frequent cause in a resource-constrained dev cluster is insufficient CPU or memory:
+
+```bash
+kubectl describe pod <pod-name> -n dev-alice
+# Look for: "0/2 nodes are available: 2 Insufficient memory"
+
+# Check node resources
+kubectl top nodes
+kubectl describe node dev-worker1 | grep -A5 "Allocated resources"
+```
+
+Either reduce resource requests in the Helm values or apply a node with more capacity.
+
+### ImagePullBackOff
+
+Private registries need a pull secret in each namespace:
+
+```bash
+kubectl create secret docker-registry regcred \
+  --docker-server=your-registry.example.com \
+  --docker-username=robot \
+  --docker-password=your-token \
+  --namespace dev-alice
+
+# Reference in deployment
+# spec.template.spec.imagePullSecrets:
+#   - name: regcred
+```
+
+## Shared Container Registry Access
+
+Remote team members need a registry that all developers and the cluster can pull from. Self-hosted Harbor is the most capable option, but for smaller teams a cloud registry with a shared robot account works fine.
+
+For team setups, create per-namespace pull secrets from a single registry robot account, then patch the default ServiceAccount to always use it:
+
+```bash
+# Create pull secret in every dev namespace
+for ns in dev-alice dev-bob staging; do
+  kubectl create secret docker-registry regcred \
+    --docker-server=registry.example.com \
+    --docker-username=robot \
+    --docker-password=$(cat /path/to/robot-token) \
+    --namespace $ns
+
+  # Patch default service account so all pods auto-use it
+  kubectl patch serviceaccount default \
+    -n $ns \
+    -p '{"imagePullSecrets": [{"name": "regcred"}]}'
+done
+```
+
+With this in place, every pod in those namespaces automatically pulls from the private registry without requiring `imagePullSecrets` in each manifest.
+
+## Setting Up Metrics Server for HPA
+
+Horizontal Pod Autoscaler requires the metrics-server to be running. k3s ships without it by default:
+
+```bash
+# Install metrics-server
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+
+# k3s may need the --kubelet-insecure-tls flag due to self-signed certs
+kubectl patch deployment metrics-server \
+  -n kube-system \
+  --type='json' \
+  -p='[{"op":"add","path":"/spec/template/spec/containers/0/args/-","value":"--kubelet-insecure-tls"}]'
+
+# Verify it works
+kubectl top nodes
+kubectl top pods -n dev-alice
+```
+
+Once metrics-server is running, you can configure HPAs on any deployment:
+
+```yaml
+# hpa.yaml
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: my-app
+  namespace: dev-alice
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: my-app
+  minReplicas: 1
+  maxReplicas: 5
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 70
+```
+
 ## Monitoring with k9s
 
 ```bash
@@ -307,6 +459,36 @@ curl -sS https://webinstall.dev/k9s | bash  # Linux
 k9s --namespace dev-alice
 # Navigate: :pods, :services, :logs, :exec
 ```
+
+## Upgrading k3s
+
+k3s upgrades are non-disruptive when done node-by-node. The upgrade controller handles this automatically:
+
+```bash
+# Install the k3s upgrade controller
+kubectl apply -f https://github.com/rancher/system-upgrade-controller/releases/latest/download/system-upgrade-controller.yaml
+
+# Define an upgrade plan
+cat <<EOF | kubectl apply -f -
+apiVersion: upgrade.cattle.io/v1
+kind: Plan
+metadata:
+  name: k3s-server
+  namespace: system-upgrade
+spec:
+  concurrency: 1
+  cordon: true
+  nodeSelector:
+    matchExpressions:
+      - {key: node-role.kubernetes.io/control-plane, operator: Exists}
+  serviceAccountName: system-upgrade
+  upgrade:
+    image: rancher/k3s-upgrade
+  channel: https://update.k3s.io/v1-release/channels/stable
+EOF
+```
+
+The controller drains nodes, applies the upgrade, and uncordons them. Worker nodes get upgraded after the control plane is done, ensuring zero downtime for running workloads.
 
 ## Related Reading
 

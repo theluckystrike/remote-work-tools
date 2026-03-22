@@ -106,4 +106,91 @@ This rhythm creates predictability. Remote team members know when to focus on de
 Breaking changes require extra coordination in remote environments. When a dependency update introduces breaking changes, involve affected teams early in the planning process. Create a shared timeline that accounts for each team's schedule and technical capacity to implement necessary adaptations.
 
 Consider using feature flags to maintain backward compatibility during transitions. This allows teams to update dependencies incrementally without requiring all dependent services to update simultaneously.
+
+## Configuring Renovate for Multi-Repository Remote Teams
+
+Renovate is one of the most powerful tools for automating dependency updates across many repositories. Unlike Dependabot, which operates per-repository, Renovate supports a centralized configuration that enforces consistent update policies fleet-wide via a shared `renovate.json` stored in a dedicated config repository.
+
+A practical starting configuration for remote teams with multiple repos:
+
+```json
+{
+  "extends": ["config:base"],
+  "schedule": ["every monday"],
+  "timezone": "UTC",
+  "automerge": false,
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
+      "matchUpdateTypes": ["minor", "major"],
+      "reviewers": ["team:platform-eng"],
+      "assignees": ["team:platform-eng"],
+      "addLabels": ["needs-review"]
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "assignees": ["team:security"]
+  }
+}
+```
+
+This configuration automatically merges patch updates and dev dependency updates (which carry low production risk), queues minor and major updates for human review, and routes security advisories to the security team. The Monday schedule batches updates into a single weekly PR burst rather than a daily stream of noise — which is especially valuable for remote teams who check notifications asynchronously.
+
+### Grouping Related Updates
+
+Renovate's `groupName` feature prevents dependency update fatigue by batching related packages into a single PR:
+
+```json
+{
+  "packageRules": [
+    {
+      "matchPackagePrefixes": ["@aws-sdk/"],
+      "groupName": "AWS SDK packages"
+    },
+    {
+      "matchPackagePatterns": ["^eslint", "^@typescript-eslint"],
+      "groupName": "ESLint and TypeScript tooling"
+    }
+  ]
+}
+```
+
+For teams managing microservices, grouping AWS SDK packages, testing frameworks, or linting tools prevents the same upgrade from generating a separate PR in each of twelve repositories simultaneously.
+
+## Security Vulnerability Prioritization Framework
+
+Not all dependency updates carry equal urgency. Remote teams need a clear framework for triaging security advisories without defaulting to either ignoring everything or panic-updating during off-hours.
+
+A practical severity model based on CVSS scores and exploitability:
+
+| Severity | CVSS Score | Response Time | Deployment Window |
+|---|---|---|---|
+| Critical | 9.0–10.0 | Within 4 hours | Any time, including off-hours |
+| High | 7.0–8.9 | Within 24 hours | Next available deployment window |
+| Medium | 4.0–6.9 | Within 7 days | Standard weekly deployment |
+| Low | 0.1–3.9 | Next monthly cycle | Batch with minor updates |
+
+For remote teams, the critical threshold is the most important to codify. Define ahead of time who gets paged outside business hours for a critical CVE. This prevents both the scenario where a critical vulnerability sits unaddressed for days because no one wanted to interrupt a colleague's evening, and the opposite scenario where every advisory triggers panic messages across time zones.
+
+Subscribe your security team to GitHub's security advisories feed and configure Dependabot security alerts at the organization level — not just the repository level. This ensures advisories surface in a single queue rather than requiring each repository owner to monitor independently.
+
+## Dependency Update Metrics Worth Tracking
+
+Sustainable dependency management requires feedback loops. Remote teams should track a handful of metrics to understand whether their update cadence is working:
+
+- **Mean time to update (MTTU)**: How many days between a new version release and your team merging the update. A healthy target is under 14 days for minor updates and under 7 days for security patches.
+- **PR age at merge**: Dependency PRs aging beyond 21 days indicate a review bottleneck — usually unclear ownership or insufficient automation.
+- **Vulnerability exposure window**: The time between a CVE being published and the vulnerable version being removed from production.
+
+Log these metrics monthly in a shared team document. Trends matter more than absolute numbers: a rising MTTU signals that your process needs adjustment before it becomes a liability.
 {% endraw %}
