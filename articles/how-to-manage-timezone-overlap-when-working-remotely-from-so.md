@@ -31,6 +31,15 @@ intent-checked: true---
 
 Working remotely for an US-based company from Southeast Asia presents unique challenges around timezone management. When you're in Bangkok, Singapore, or Manila, your typical working hours might span 12 PM to 9 PM IST, while your US colleagues operate in PST or EST. The key to success lies not in fighting these differences, but in building systems that turn timezone gaps into advantages.
 
+## Key Takeaways
+
+- **Better yet**: use a tool like TimeandDate.com that maintains DST-aware conversion.
+- **Use Timezone-Aware Scheduling Tools**: Tools like World Time Buddy, When2meet, or Evenflow help visualize overlap windows.
+- **Document Decisions Before Meetings**: Never use synchronous time to discuss options.
+- **Use shared documents or**: RFCs (Request for Comments) that your US team can review during their day.
+- **Define your core hours**: Choose your overlap window and protect it.
+- **Use status indicators**: Set your Slack/Teams status to indicate your hours.
+
 ## Understanding Your Overlap Windows
 
 The first step is calculating exactly when you can synchronize with your US team. Most US companies operate between 9 AM and 6 PM in their respective time zones, which means:

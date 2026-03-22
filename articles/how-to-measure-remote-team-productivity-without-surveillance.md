@@ -31,6 +31,16 @@ voice-checked: true---
 
 Measuring productivity in remote teams remains one of the most challenging aspects of distributed work. Many organizations default to surveillance tools that track keystrokes, capture screenshots, or monitor application usage. These approaches damage trust, create anxiety, and often measure busyness rather than actual value delivered. This guide provides practical methods for measuring remote team productivity that respect privacy while giving you the insights needed to support your team effectively.
 
+## Key Takeaways
+
+- **Measuring productivity in remote**: teams remains one of the most challenging aspects of distributed work.
+- **This guide provides practical**: methods for measuring remote team productivity that respect privacy while giving you the insights needed to support your team effectively.
+- **Consider what surveillance actually measures**: time spent at a keyboard, mouse movements, active window titles.
+- **What's working? What needs adjustment?
+
+Month 4+**: Iterate based on team feedback.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## The Problem with Surveillance-Based Monitoring
 
 Surveillance software creates a toxic dynamic where team members feel treated as potential underperformers rather than trusted professionals. Developers, in particular, experience decreased job satisfaction when their every keystroke is logged. The data these tools collect rarely correlates with meaningful business outcomes.

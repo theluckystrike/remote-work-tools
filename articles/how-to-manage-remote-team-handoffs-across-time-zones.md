@@ -27,7 +27,18 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]---
 
+
 Manage remote team handoffs across time zones by implementing structured handoff documents (covering what was completed, what remains, context for the next engineer, and verification steps), scheduling handover conversations during calculated overlap windows, and automating status capture through commit message conventions and bot-assisted checks. These five patterns--structured documents, timezone-aware scheduling, automated status capture, shared async norms, and handing over at natural boundaries--prevent context decay without adding more meetings to your calendar.
+
+## Key Takeaways
+
+- **Team Satisfaction**: Survey question: "Do you have the information you need to pick up someone else's work without asking them?" Target: agreement over 80%.
+- **Use the remaining hours**: for deep work when your team is least interrupted.
+- **Create a single template**: and require all engineers to use it for mid-sprint handoffs.
+- **Structured handoffs preventing even**: 50% of these failures pays for the system overhead many times over.
+- Navigate to /settings/integrations
+3.
+- **Confirm new option appears**: in dropdown ``` Store these documents in a consistent location—preferably alongside the ticket or in a dedicated handoff channel that spans your team's time zones.
 
 ## The Core Problem: Context Decay
 

@@ -31,6 +31,15 @@ intent-checked: true---
 
 Negotiating remote work before accepting a job offer is far easier than requesting it after joining. Most companies have flexibility they don't advertise, especially if you demonstrate clear value and practical arrangements. This guide provides conversation scripts, negotiation frameworks, and fallback positions that have worked for hundreds of remote workers securing work-from-home arrangements in traditionally office-based roles.
 
+## Key Takeaways
+
+- **Once you're hired**: the use reverses—most companies become rigid about location policies to maintain consistency across existing employees.
+- **You've stated your preference**: without ultimatum 2.
+- **Opening (30 seconds): ```**: "Thanks for taking the time.
+- **I've worked remote successfully**: for [X years], and I know I do my best work with that flexibility.
+- **Most companies have flexibility**: they don't advertise, especially if you demonstrate clear value and practical arrangements.
+- **Negotiating early**: when companies are most flexible, is strategically sound.
+
 ## Why Remote Work Negotiation Matters
 
 The difference between "fully remote" and "office required" is often worth $10,000-$30,000 annually when you factor in commute costs, childcare, relocation expenses, and quality-of-life gains. Negotiating early, when companies are most flexible, is strategically sound. Once you're hired, the use reverses—most companies become rigid about location policies to maintain consistency across existing employees.
