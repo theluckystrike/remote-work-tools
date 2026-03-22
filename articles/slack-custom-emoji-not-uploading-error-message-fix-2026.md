@@ -27,6 +27,10 @@ Slack displays specific error messages when emoji uploads fail. Understanding th
 
 **"You don't have permission to add emoji"** appears when your Slack account lacks the necessary workspace permissions to upload custom emoji.
 
+**"Name already exists"** means another emoji in your workspace already uses the exact name you entered. Slack enforces globally unique names within a workspace, so even if you cannot see the conflicting emoji, it is taken.
+
+**"Something went wrong. Please check back later."** typically appears during Slack infrastructure incidents. This is a server-side error rather than a client-side problem, and the only remedy is to wait and try again.
+
 ## Step-by-Step Troubleshooting Guide
 
 ### Step 1: Verify Your Image File
@@ -38,7 +42,7 @@ Before troubleshooting further, confirm your emoji meets Slack's requirements:
 - **Format**: PNG, JPG, or GIF only
 - **File name**: Letters, numbers, hyphens, and underscores only
 
-If your file exceeds the size limit, use free tools like TinyPNG or ImageOptim to compress it without losing quality. For dimensions, most image editors can resize your image quickly.
+If your file exceeds the size limit, use free tools like TinyPNG or ImageOptim to compress it without losing quality. For dimensions, most image editors can resize your image quickly. Squoosh (squoosh.app) is a browser-based option that handles both resizing and compression in one step and previews the output file size before you download.
 
 ### Step 2: Check Your Browser and Connection
 
@@ -50,6 +54,8 @@ Browser issues frequently cause upload failures. Try these solutions:
 4. **Check your internet connection** by loading other websites
 5. **Try incognito or private browsing mode** to rule out extension interference
 
+Corporate proxy servers and VPNs can intercept multipart form uploads—the mechanism Slack uses for emoji files—and strip headers in a way that causes the upload to silently fail. If you are on a company VPN, try disconnecting briefly to test whether the VPN is the cause. If the upload succeeds off-VPN, contact your network team; the fix is usually a proxy exception for slack.com.
+
 ### Step 3: Verify Workspace Permissions
 
 Not all Slack users can add custom emoji. Your workspace admin controls these permissions.
@@ -60,6 +66,8 @@ Not all Slack users can add custom emoji. Your workspace admin controls these pe
 4. Find your account and check if you have emoji permissions
 
 If you lack permissions, contact your workspace admin. They can grant you the "Use custom emoji" permission in workspace settings under "Workspace" > "Slackbot and emojis."
+
+For Enterprise Grid workspaces, emoji permissions can be set at the organization level and may override workspace-level settings. If your admin confirms you have workspace permissions but the error persists, the restriction may originate from the org-level policy—your admin needs to check the Grid admin console rather than the workspace settings.
 
 ### Step 4: Refresh the Slack Interface
 
@@ -73,7 +81,7 @@ Sometimes Slack's interface gets stuck. Refresh your workspace:
 
 Some Slack workspaces restrict custom emoji to specific channels or disable them entirely. This is common in organizations with strict brand guidelines.
 
-Ask your workspace admin if custom emoji are enabled for your workspace plan. Free Slack plans have limited emoji slots, while paid plans offer more flexibility.
+Ask your workspace admin if custom emoji are enabled for your workspace plan. Free Slack plans have limited emoji slots, while paid plans offer more flexibility. As of 2026, free workspaces are capped at a total of 5 custom emoji. If your workspace has reached this limit, new uploads will fail with a generic error rather than a clear capacity message.
 
 ### Step 6: Try Alternative Upload Methods
 
@@ -82,14 +90,30 @@ If the standard upload fails, try these alternatives:
 - **Use the Slack desktop app** instead of the browser
 - **Upload through the mobile app** (iOS or Android)
 - **Use the emoji name field** carefully—avoid special characters and spaces
+- **Use the direct URL**: Navigate to `https://your-workspace.slack.com/customize/emoji` in a browser while signed in. This loads the emoji management page directly, bypassing any navigation state issues in the main Slack interface.
 
 ### Step 7: Confirm the Emoji Name is Available
 
 Slack requires unique names for each custom emoji. If the name is already taken, you'll receive an error. Try a slightly different name, such as adding your team name or initials.
 
+To check existing emoji names before uploading, go to `your-workspace.slack.com/customize/emoji` and use the browser's built-in search (Cmd+F / Ctrl+F) to scan the list. This is faster than guessing alternative names after repeated failed uploads.
+
 ### Step 8: Check for Service Outages
 
-When Slack experiences outages, custom emoji features may be affected. Check Slack's status page at status.slack.com or their @SlackStatus Twitter account for current service information.
+When Slack experiences outages, custom emoji features may be affected. Check Slack's status page at status.slack.com or their @SlackStatus account for current service information. The status page categorizes incidents by feature area—look specifically for entries under "Messaging" or "Workspace Configuration."
+
+## Optimizing Emoji Files for Reliable Uploads
+
+Most upload failures trace back to file specifications. Here is a practical preparation workflow before uploading any custom emoji:
+
+1. Start with the highest-quality source image you have
+2. Crop to a square aspect ratio using any image editor (Preview on macOS, Paint on Windows, or GIMP)
+3. Resize to exactly 128x128 pixels—this is the optimal display size in Slack
+4. Export as PNG with transparency if the image has a non-rectangular shape; this prevents harsh white boxes around emoji in dark mode
+5. Run the file through TinyPNG or Squoosh to reduce file size below 60KB, giving you headroom under the 128KB limit
+6. Verify the final file size before uploading
+
+Animated GIF emoji follow the same process, but file size is harder to control. Use Ezgif (ezgif.com) to optimize animated GIFs—it reduces frame count, color depth, and redundant frame data while preserving the animation loop. Aim for under 100KB for animated emoji to leave margin.
 
 ## Preventing Future Issues
 
@@ -99,7 +123,9 @@ Once you've resolved your upload problem, follow these best practices to avoid r
 
 **Use consistent naming conventions** like `team-emoji-name` or `department-icon` to make emoji easier to find and avoid name conflicts.
 
-**Store original files** somewhere accessible so you can re-upload if needed after compression or formatting changes.
+**Store original files** somewhere accessible so you can re-upload if needed after compression or formatting changes. A shared Google Drive or Notion page works well for team emoji asset libraries.
+
+**Document your emoji conventions** in your team wiki. Include naming patterns, who has permission to add new emoji, and which tools your team uses for preparation. This reduces repeated troubleshooting when new team members encounter the same issues.
 
 ## Quick Reference Checklist
 
@@ -112,8 +138,9 @@ Use this checklist when troubleshooting emoji upload issues:
 - [ ] Browser cache cleared
 - [ ] Tried different browser
 - [ ] Workspace permissions verified
-- [ ] Emoji name is unique
+- [ ] Emoji name is unique (checked at workspace/customize/emoji)
 - [ ] Checked Slack status page
+- [ ] VPN or proxy disconnected to test
 
 ## When to Contact Your Admin
 
@@ -123,6 +150,7 @@ Some issues require administrator intervention:
 - Permission changes for multiple users
 - Plan upgrades for more emoji slots
 - Integration conflicts with third-party tools
+- Enterprise Grid org-level policy overriding workspace settings
 
 Your workspace admin can access additional troubleshooting resources through Slack's admin dashboard and may need to contact Slack support for persistent issues.
 
