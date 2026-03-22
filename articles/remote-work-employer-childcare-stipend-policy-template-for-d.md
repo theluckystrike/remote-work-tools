@@ -33,6 +33,15 @@ Remote work has fundamentally changed how companies approach employee benefits. 
 
 This guide provides a practical policy template you can adapt for your distributed company, along with implementation code and real-world examples from remote-first organizations.
 
+## Key Takeaways
+
+- **A stipend-based approach gives**: employees the flexibility to use funds however their family needs—whether that's in-home childcare, part-time nannies, after-school programs, or elder care support.
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
+- **United Kingdom**: Childcare vouchers were replaced by Tax-Free Childcare.
+- **Small teams can often**: implement changes faster because there are fewer people to coordinate.
+- **Adapt the specifics to**: your team size—a 5-person team does not need the same formal processes as a 50-person organization.
+
 ## Why Childcare Stipends Matter for Remote Teams
 
 When your workforce spans multiple countries, traditional on-site daycare benefits simply do not apply. A stipend-based approach gives employees the flexibility to use funds however their family needs—whether that's in-home childcare, part-time nannies, after-school programs, or elder care support.

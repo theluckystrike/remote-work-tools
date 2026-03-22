@@ -33,6 +33,15 @@ When your distributed company hires multiple new employees at once, treating eac
 
 This guide covers the complete batch onboarding process for remote teams, with practical templates and automation strategies that work across time zones.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **With distributed teams**: this inefficiency compounds because new hires lack organic opportunities to learn from each other.
+- **This session works best**: as a live presentation with recording, allowing real-time Q&A while creating a reusable asset.
+
 ## Why Cohort-Based Hiring Works for Distributed Teams
 
 Traditional one-by-one onboarding forces managers to repeat the same introductions, answer identical questions, and recreate the same documentation for each new hire. With distributed teams, this inefficiency compounds because new hires lack organic opportunities to learn from each other.

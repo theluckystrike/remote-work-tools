@@ -33,6 +33,16 @@ Resolve remote team conflicts using a structured framework of listening sessions
 
 This guide provides managers with a practical framework for resolving conflicts in distributed teams, with specific tactics you can implement immediately.
 
+## Key Takeaways
+
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **Use these prompts to**: clarify: 1.
+- **Recommend next steps**: Suggest specific actions rather than just presenting the problem
+4.
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
+- **A joke may land flat or worse**: seem sarcastic.
+- **These patterns matter more**: than individual conflicts because they indicate where systemic improvements create lasting impact.
+
 ## Understanding Remote Conflict Dynamics
 
 Remote work amplifies certain conflict patterns while creating new challenges. The absence of face-to-face interaction removes many subtle cues we rely on for understanding others. Text-based communication lacks tone, leading to misinterpretation of intent. A message intended as direct may come across as harsh. A joke may land flat or worse, seem sarcastic.

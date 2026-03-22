@@ -17,6 +17,17 @@ voice-checked: true---
 
 Building a remote pharmacy consultation service requires careful attention to both technical infrastructure and regulatory compliance. Unlike general video conferencing applications, pharmacy consultations involve sensitive patient health information and often require integration with pharmacy management systems. This guide walks through the technical architecture and implementation steps for developers building such a service.
 
+## Key Takeaways
+
+- **Most pharmacy networks under**: $5M annual revenue should adopt existing platforms rather than building custom systems.
+- **Buying
+
+Building custom**: Initial development $50,000–$150,000 depending on scope.
+- Ongoing maintenance $5,000–$10,000 monthly.
+- **Using existing platforms with APIs**: Initial setup $10,000–$25,000.
+- **Ongoing costs**: $2,000–$8,000 monthly depending on consultation volume.
+- **Use JWT tokens for**: session management and integrate with existing pharmacy authentication systems.
+
 ## Core Requirements Analysis
 
 Before selecting tools, define the specific requirements your pharmacy consultation service must meet. Consider these factors:

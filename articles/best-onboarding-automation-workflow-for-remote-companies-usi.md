@@ -25,6 +25,16 @@ voice-checked: true
 reviewed: true
 intent-checked: true---
 
+
+| Tool | Onboarding Workflows | Task Automation | Integration | Pricing |
+|---|---|---|---|---|
+| BambooHR | Customizable checklists | Auto-assign by role | Slack, ATS, payroll | Custom pricing |
+| Rippling | IT + HR unified onboarding | Device provisioning | 500+ apps | $8/user/month |
+| Process Street | Template-based workflows | Conditional logic | 1,000+ via Zapier | $25/user/month |
+| Notion | Custom wiki + checklists | Basic automation | API + Zapier | $8/user/month |
+| Trainual | Structured training paths | Progress tracking | Slack, BambooHR | $49/month (10 seats) |
+
+
 {% raw %}
 
 Automating employee onboarding for remote teams eliminates repetitive manual tasks, ensures consistency across hires, and helps new team members feel welcomed from day one. By combining Slack bots with Notion templates, you can create a workflow that guides employees through paperwork, introduces them to company culture, and provides easy access to essential resources—all without burdening your HR or operations team.

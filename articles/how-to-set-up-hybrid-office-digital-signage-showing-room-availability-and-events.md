@@ -31,6 +31,13 @@ tags: [remote-work-tools]---
 
 Digital signage displaying real-time room availability and upcoming events solves a common pain point in hybrid offices: employees walking around looking for available meeting spaces. This guide walks through building a room availability display system using calendar APIs, a content backend, and display hardware. You'll get practical code patterns you can adapt to Google Calendar, Microsoft Graph, or any modern calendar system.
 
+## Key Takeaways
+
+- **Most organizations use either**: Google Calendar or Microsoft 365, so this guide covers both.
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: understanding the core requirements, building the calendar integration, google calendar approach
+
 ## Understanding the Core Requirements
 
 Before writing code, identify what your signage needs to show:

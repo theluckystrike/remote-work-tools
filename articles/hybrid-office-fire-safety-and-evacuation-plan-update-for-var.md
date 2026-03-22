@@ -31,6 +31,15 @@ tags: [remote-work-tools]---
 
 Hybrid work models create unique challenges for building safety. When occupancy fluctuates daily—sometimes reaching full capacity, other times sitting at 20%—static fire safety plans become inadequate. This guide covers technical approaches to dynamic fire safety systems that adapt to variable occupancy, including occupancy tracking, intelligent evacuation routing, and automated alert systems for hybrid office environments.
 
+## Key Takeaways
+
+- **When occupancy fluctuates daily—sometimes**: reaching full capacity, other times sitting at 20%—static fire safety plans become inadequate.
+- **On any given day**: you might have 15 people in a space designed for 75, or you might unexpectedly hit 60% capacity during an all-hands meeting.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+- **Discounts of 25-50% are**: common for qualifying organizations.
+- **Fire marshals calculate egress**: times based on worst-case scenarios: every desk filled, every conference room occupied.
+
 ## The Variable Occupancy Problem
 
 Traditional building safety assumes maximum occupancy for evacuation planning. Fire marshals calculate egress times based on worst-case scenarios: every desk filled, every conference room occupied. Hybrid offices break these assumptions. On any given day, you might have 15 people in a space designed for 75, or you might unexpectedly hit 60% capacity during an all-hands meeting.

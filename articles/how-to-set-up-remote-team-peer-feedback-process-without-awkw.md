@@ -33,6 +33,15 @@ Implement a structured peer feedback process using a rotating feedback schedule,
 
 The solution is not to avoid peer feedback but to structure it in a way that removes the social friction. This guide shows you how to implement a peer feedback process that feels natural, produces practical recommendations, and keeps your remote team engaged.
 
+## Key Takeaways
+
+- **Sending critical feedback via**: Slack or email feels impersonal—or worse, confrontational.
+- **Choose what to act**: on. Not all feedback requires action.
+- **This guide shows you**: how to implement a peer feedback process that feels natural, produces practical recommendations, and keeps your remote team engaged.
+- **When you're physically near colleagues**: you pick up subtle cues about how they receive feedback.
+- **Use tools to automate**: reminders and collection while keeping responses personalized.
+- **Quarterly strikes the right**: balance for most teams.
+
 ## Why Peer Feedback Fails in Remote Settings
 
 Traditional peer feedback assumes a level of interpersonal comfort that develops through in-person interaction. When you're physically near colleagues, you pick up subtle cues about how they receive feedback. You grab coffee together. You have impromptu conversations that build psychological safety.

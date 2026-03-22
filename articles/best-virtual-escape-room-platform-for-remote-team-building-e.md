@@ -18,6 +18,15 @@ voice-checked: true---
 
 Use Koala Samurai or Escape Quest for browser-native escape rooms with 8-50 person scalability and customizable difficulty, or host custom escape rooms using Miro templates if your team wants full control over puzzle design. Choose platforms that work reliably for your team size and offer asynchronous participation options to accommodate different time zones.
 
+## Key Takeaways
+
+- **Small teams (4-8) with**: overlapping work hours can use almost any platform effectively.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Video-integrated options work better**: for teams prioritizing social bonding over cognitive challenge.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Do these tools work**: offline? Most AI-powered tools require an internet connection since they run models on remote servers.
+- **Choose platforms that work**: reliably for your team size and offer asynchronous participation options to accommodate different time zones.
+
 ## What Technical Teams Need From Virtual Escape Rooms
 
 Remote engineering teams have specific requirements that generic team-building platforms often fail to address. You need a solution that handles 8-50 participants reliably, works in browser tabs alongside your daily tools, and provides enough complexity to challenge developers without becoming frustrating.

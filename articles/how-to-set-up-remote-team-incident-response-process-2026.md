@@ -12,8 +12,24 @@ tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
-
 Production incidents don't wait for business hours. Distributed teams need defined processes for alert routing, on-call escalation, runbook execution, and post-incident reviews. Here's what works without chaos.
+
+## Key Takeaways
+
+- **Alert Routing**: PagerDuty vs OpsGenie
+
+### PagerDuty (Better for Large Teams)
+
+Setup flow:
+```
+1.
+- **Feature had integration tests**: on staging data (passed, only 10k test users) 3.
+- **Index recommendations should be**: automated in code review ## Action Items (Who / When) 1.
+- **No index on table**: even though query required it
+
+## Lessons Learned
+1.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Why Distributed Teams Need Structure
 

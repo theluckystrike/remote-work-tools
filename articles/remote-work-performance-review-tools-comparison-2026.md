@@ -31,6 +31,15 @@ intent-checked: true---
 
 Remote team performance management requires tools that work asynchronously across time zones. Email-based feedback gets buried; spreadsheets fragment data; annual reviews miss opportunities to course-correct throughout the year. Dedicated performance review platforms centralize feedback, track goals, and provide data-driven insights. For distributed teams, choosing the right platform directly impacts culture and retention.
 
+## Key Takeaways
+
+- **50-person company**: $5,000-7,500 annually.
+- **Setup and onboarding**: $5,000-15,000.
+- **75-person company**: $3,000-6,000 annually.
+- **Lattice if goal alignment**: matters; 15Five if culture and retention matter most.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+- **If you work with**: sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
+
 ## Why Remote Teams Need Performance Tools
 
 Traditional performance management fails for distributed teams:

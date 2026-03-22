@@ -25,6 +25,16 @@ intent-checked: true
 voice-checked: true
 score: 9---
 
+
+| Tool | Key Feature | Remote Team Fit | Integration | Pricing |
+|---|---|---|---|---|
+| Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
+| Slack | Real-time team messaging | Channels, threads, huddles | 2,600+ apps | $7.25/user/month |
+| Linear | Fast project management | Keyboard-driven, cycles | GitHub, Slack, Figma | $8/user/month |
+| Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
+| 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
+
+
 {% raw %}
 
 Remote working parents face a unique challenge: while the flexibility of working from home should theoretically make errands easier, the constant presence of children and the blurred boundaries between work and personal tasks often create more chaos than convenience. Grocery shopping—traditionally a simple weekly task—becomes a logistic puzzle when you're balancing video calls, helping with homework, and keeping tiny humans fed.

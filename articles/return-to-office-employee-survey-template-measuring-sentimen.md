@@ -261,7 +261,17 @@ Allow two weeks for responses. Follow up with reminders at the one-week mark. Ta
 Consider offering small incentives. Gift cards or charitable donations in employees' names boost participation without compromising data integrity.
 ---
 
+
 Building an effective RTO sentiment survey requires thoughtful question design, secure data collection, and rigorous analysis. The template and code examples above provide a starting point for developers building internal tooling. The key is gathering authentic feedback before making policy changes that affect your team's daily work life.
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
 
 ## Frequently Asked Questions
 

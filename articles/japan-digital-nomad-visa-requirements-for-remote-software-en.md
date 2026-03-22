@@ -31,6 +31,15 @@ score: 9---
 
 Japan introduced its Digital Nomad Visa in 2024, and the program has evolved significantly for 2026. If you're a software engineer working remotely for a company outside Japan, this guide walks you through the current requirements, application process, and practical considerations for living and working in Japan legally.
 
+## Key Takeaways
+
+- **The key eligibility requirements**: for 2026 include: Income Threshold: You must demonstrate an annual income of at least ¥10 million (approximately $67,000 USD).
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Maintain clean records showing**: consistent monthly income exceeding ¥833,333 ($5,500 USD).
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Eligibility Criteria for Software Engineers
 
 The Japan Digital Nomad Visa targets remote workers employed by companies outside Japan. Unlike the standard work visa, you cannot work for Japanese companies with this visa type. The key eligibility requirements for 2026 include:

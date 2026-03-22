@@ -33,6 +33,17 @@ Team building activities developers enjoy typically involve optional participati
 
 The secret lies in activities that respect developer mindsets, use technical skills, and work across time zones without requiring everyone to be online simultaneously.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Many teams report these sessions as their most attended virtual event because they require zero performance**: just showing up and working together.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Keep it genuinely optional, but make watching easy**: post in Slack with a 90-second summary and a direct timestamp link to the most interesting part of the demo.
+- **Choose books with practical applications**: something like "Building Microservices" or "Designing Data-Intensive Applications." The format works like this:
+
+1.
+
 ## Code Review Games That Build Community
 
 Transform code reviews from a necessary chore into an engaging team activity. The key is creating low-stakes competition focused on learning rather than judgment.

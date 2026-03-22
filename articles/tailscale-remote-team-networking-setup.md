@@ -33,6 +33,15 @@ Tailscale turns every device your team uses into a node on a private network, wi
 
 For remote teams, Tailscale replaces the classic VPN setup with something that works in 10 minutes, handles firewall traversal automatically, and scales to hundreds of devices without extra configuration.
 
+## Key Takeaways
+
+- **At 10 engineers, that's $720/year**: well below the cost of a single on-call incident caused by a down VPN gateway.
+- **Use ephemeral keys for**: CI so runners automatically deregister after the job completes.
+- **Apply the `tag:ci` tag so ACLs grant CI runners access only to what they need**: staging servers but not production.
+- **If relayed**: the most common causes are symmetric NAT on both endpoints (common on mobile carriers and some corporate firewalls) or mismatched UDP port availability.
+- Use device posture checks.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Install on All Platforms
 
 ```bash

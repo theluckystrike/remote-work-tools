@@ -33,6 +33,16 @@ Engineering managers overseeing remote teams face a unique challenge: building g
 
 This guide provides a template you can implement immediately, along with the reasoning behind each section and practical code snippets for automating meeting prep.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Schedule a 15-minute synchronous**: call only when specific topics require real-time discussion.
+- **The manager-dominated conversation**: If you're talking more than 30% of the time, your direct report isn't getting value.
+- **Send async prep 24 hours before**: Use the template above
+3.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## The Core One-on-One Template Structure
 
 Effective remote one-on-ones follow a consistent structure that balances multiple objectives: career development, project updates, blockers removal, and relationship building. Here's a template that works for engineering managers:

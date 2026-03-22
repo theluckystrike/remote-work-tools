@@ -33,6 +33,14 @@ Remote work has fundamentally changed how teams acquire and use technology. When
 
 This guide provides practical methods for discovering, assessing, and managing shadow IT in remote team environments. You'll find detection techniques, risk frameworks, and governance approaches that work without stifling team productivity.
 
+## Key Takeaways
+
+- **Developers and power users**: often adopt tools because official options are slow, restrictive, or simply don't meet their needs.
+- **Engage**: Contact the owner to understand the use case
+4.
+- **Remote work has fundamentally**: changed how teams acquire and use technology.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Understanding Shadow IT in Remote Contexts
 
 Shadow IT isn't inherently malicious. Developers and power users often adopt tools because official options are slow, restrictive, or simply don't meet their needs. A remote team member might sign up for a SaaS productivity tool, use a personal cloud storage account for work files, or run development tools on their personal machine because the approved alternatives won't work with their setup.

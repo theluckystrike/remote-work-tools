@@ -16,6 +16,16 @@ tags: [remote-work-tools, how-to, troubleshooting]---
 
 Choppy Zoom calls from your home office are frustrating when you are trying to communicate with your team or clients. The good news is that most WiFi-related audio and video quality problems have identifiable causes and practical solutions. This guide walks you through a systematic troubleshooting process designed specifically for remote workers and distributed teams using consumer-grade home networks.
 
+## Key Takeaways
+
+- **Latency under 50ms is**: ideal for real-time calls, while jitter above 30ms can cause audio artifacts even with adequate bandwidth.
+- **For smooth Zoom calls**: you need at least 3 Mbps download and 3 Mbps upload for standard video quality, though 10 Mbps both directions provides headroom for HD video and screen sharing.
+- **Audio only (disable video)**: 2.5 Mbps, most reliable
+2.
+- **For home offices specifically**: WiFi 6 routers under $150 provide excellent performance.
+- **Works excellently for video**: calls ($250 for 3-pack).
+- **A 3% packet loss**: rate translates directly to noticeably degraded call quality.
+
 ## Understanding Why Home WiFi Causes Choppy Calls
 
 Before looking at fixes, it helps to understand what creates choppy calls in the first place. Zoom and similar video conferencing platforms transmit audio and video data in real-time, which requires a consistent network connection with low latency. When your home WiFi network experiences interference, congestion, or signal degradation, packets of audio and video data arrive out of order or arrive too late, resulting in the choppy playback you hear and see.

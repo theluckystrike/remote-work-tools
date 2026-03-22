@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Secure Remote Team Kubernetes Clusters with Network P"
-description: "A practical guide to implementing Kubernetes network policies to secure your remote team's cluster infrastructure"
+description: "Secure remote team Kubernetes clusters with network policies: namespace isolation, pod-to-pod rules, egress controls, and Calico configuration."
 date: 2026-03-16
 last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"

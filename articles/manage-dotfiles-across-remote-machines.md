@@ -33,6 +33,15 @@ Dotfiles are the configuration files in your home directory that control your te
 
 This guide covers two approaches: GNU Stow (simple, no dependencies beyond git) and Chezmoi (more powerful, handles secrets and machine-specific config).
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
+- **Forced adoption without buy-in**: almost always fails.
+
 ## The Bare Git Repo Approach (No Extra Tools)
 
 Before reaching for a tool, consider the bare git repo approach. It uses only git — no additional software needed:

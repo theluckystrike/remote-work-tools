@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "OpenVPN client configuration snippet"
-description: "A practical guide for developers and power users setting up IT infrastructure that supports hybrid work models"
+description: "Hybrid office IT setup: network segmentation, VPN configs, hot desk booking systems, and AV equipment for seamless remote-to-office transitions."
 date: 2026-03-16
 last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -26,6 +26,16 @@ voice-checked: true
 categories: [guides]
 intent-checked: true
 tags: [remote-work-tools, best-of]---
+
+
+| Device/Service | Speed | Coverage | Battery Life | Price |
+|---|---|---|---|---|
+| Netgear Nighthawk M6 | Up to 2.5 Gbps (5G) | 32 devices | 13 hours | $700 + plan |
+| GlocalMe G4 Pro | Up to 150 Mbps (4G) | 10 devices (eSIM) | 15 hours | $190 + data |
+| Skyroam Solis X | Up to 150 Mbps (4G) | 10 devices | 16 hours | $180 + day pass |
+| TP-Link M7650 | Up to 600 Mbps (4G+) | 32 devices | 15 hours | $200 + SIM |
+| Google Fi hotspot | Up to 5G speeds | Via Pixel phone | Phone battery | $65/month unlimited |
+
 
 
 Hybrid office IT infrastructure should shift from perimeter-based security to identity-centered access using split-tunnel VPNs or Zero Trust Network Access, centralized SSO with MFA, and device compliance policies. Cloud-native file storage replaces traditional servers, development environments provision through cloud infrastructure, and meeting rooms deploy high-quality audio/video equipment. This identity-first architecture enables consistent access control while maintaining security across both remote and in-office locations.

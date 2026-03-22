@@ -13,7 +13,22 @@ score: 9
 voice-checked: true
 intent-checked: true---
 
+
 The difference between looking professional and looking exhausted on video calls comes down to lighting. Poor lighting creates harsh shadows, washes out skin tone, and makes you appear tired—even when you're not. Yet professional lighting rigs cost $500-2000. This guide shows you how to build a broadcast-quality three-point lighting setup for $60-100 that transforms your video presence on Zoom, Teams, or Google Meet.
+
+## Key Takeaways
+
+- **Yet professional lighting rigs**: cost $500-2000.
+- **This guide shows you**: how to build a broadcast-quality three-point lighting setup for $60-100 that transforms your video presence on Zoom, Teams, or Google Meet.
+- **Photo Tripod Stands (if not included)**: $12-18
+ - Heavy-duty light stands (2-pack)
+ - Adjustable height 2-6 feet
+ - Stable base prevents tipping
+
+4.
+- **Use artificial lights exclusively**: positioned at 45° angles.
+- **Watch your preview for**: 30 seconds 3.
+- **Evening (5pm-9pm)**: Warm-toned LED panels look best.
 
 ## The Three-Point Lighting Formula
 

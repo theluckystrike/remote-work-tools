@@ -33,6 +33,13 @@ When your remote engineering team needs to exchange large files—database dumps
 
 This guide walks through configuring SFTP using OpenSSH on Linux, implementing key-based authentication, setting up per-user access controls, and automating large file transfers with scripts your team can integrate into existing workflows.
 
+## Key Takeaways
+
+- **Upload limits typically cap**: single files at 5-15GB.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: why sftp over cloud services for large file exchange, setting up the sftp server, configuring key-based authentication
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Why SFTP Over Cloud Services for Large File Exchange
 
 Commercial cloud storage platforms work well for documents and moderate-sized files, but large file transfers hit several walls. Upload limits typically cap single files at 5-15GB. Bandwidth charges accumulate quickly. Sync clients consume local resources. And sharing links requires managing permissions across yet another platform.

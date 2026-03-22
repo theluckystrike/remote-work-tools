@@ -31,6 +31,15 @@ voice-checked: true---
 
 Building accurate sales forecasts for distributed revenue operations requires tools that handle timezone diversity, asynchronous data entry, and multi-source data aggregation. This guide compares forecasting approaches and tools that work well for remote sales teams, with practical implementation details for developers and power users.
 
+## Key Takeaways
+
+- **Async video updates**: Require AEs to record a 2–3 minute Loom or Notion clip for each deal over a defined threshold (e.g., above $25K) at the start of each week.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+- **If you work with**: sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
+- **Beyond timezone issues**: remote teams often use different tools for the same activities.
+- **This approach makes sense**: when your data sources don't fit standard CRM schemas or when you need forecasts that account for unique business logic.
+- **Use tools to surface**: anomalies and suggest adjustments, but enable your sales leaders to override algorithms when they have deal-specific context that models cannot capture.
+
 ## The Challenge of Forecasting for Remote Sales Teams
 
 Distributed sales teams face unique forecasting challenges that office-based teams rarely encounter. When your sales representatives work across eight time zones, you deal with data that arrives in batches rather than continuously. A deal updated at 9 AM in London won't be visible to the San Francisco team until hours later. This temporal fragmentation breaks traditional forecasting workflows that assume real-time pipeline visibility.

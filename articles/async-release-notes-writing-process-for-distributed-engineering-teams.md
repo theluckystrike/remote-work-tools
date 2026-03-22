@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Release Notes Writing Process for Distributed"
-description: "A guide to creating effective asynchronous release notes workflows for distributed engineering teams across multiple time zones"
+description: "Async release notes workflow for distributed teams: changelog automation, stakeholder review loops, and publishing pipelines with template examples."
 date: 2026-03-20
 author: theluckystrike
 permalink: /async-release-notes-writing-process-for-distributed-engineering-teams/

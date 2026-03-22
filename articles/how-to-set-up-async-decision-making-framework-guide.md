@@ -19,6 +19,24 @@ This guide provides a step-by-step framework for implementing async decision-mak
 
 {% raw %}
 
+## Key Takeaways
+
+- **If we only migrate ML**: savings are $110k."
+
+## Input from DevOps
+"We can use Google Cloud Migrate to transfer existing VMs
+in ~2-3 months.
+- Full migration would
+save ~$120k/year.
+- **ML cost savings ($110k/year)**: are too significant to ignore 2.
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **In 2026**: leading remote-first organizations have moved to asynchronous decision-making frameworks where decisions are made faster, with better documentation, and full team visibility.
+- **Questions from Stakeholders
+[Q**: Why not use X? A: ...]
+[Q: What about budget? A: ...]
+
+## 7.
+
 ## Why Async Decision-Making Matters
 
 Synchronous decision-making problems:

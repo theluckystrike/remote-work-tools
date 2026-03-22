@@ -31,6 +31,19 @@ tags: [remote-work-tools]---
 
 Building a SaaS side project while freelancing represents one of the most effective paths to recurring revenue for developers. Unlike client work where you trade hours for money, a successful SaaS product generates income while you sleep. This guide covers practical strategies for freelance developers to validate, build, and launch SaaS side projects without disrupting their existing income.
 
+## Key Takeaways
+
+- **Reserve (10%)**: Emergency fund for unexpected infrastructure costs
+
+Avoid withdrawing profits until reaching $5000+ MRR, where you have runway to handle growth and maintain quality.
+- **Building a SaaS side**: project while freelancing represents one of the most effective paths to recurring revenue for developers.
+- **Database Selection: PostgreSQL handles**: most SaaS use cases reliably.
+- **Operations (10-20% of revenue)**: Hosting upgrades, analytics tools, compliance needs
+4.
+- **Larger acquisitions happen at**: $20K+ MRR.
+- **Product development (50-60% of revenue)**: New features, bug fixes, performance optimization
+2.
+
 ## Finding Your SaaS Idea
 
 The most sustainable SaaS products solve problems you encounter repeatedly in your freelance work. Every client project contains potential product seeds—internal tools you've built, repetitive workflows you've automated, or gaps in existing tooling that keep appearing.

@@ -33,6 +33,18 @@ When potential clients evaluate freelancers, they face a fundamental problem: ho
 
 This guide covers how to use open source contributions strategically to build credibility as a freelance developer.
 
+## Key Takeaways
+
+- **This guide covers how**: to use open source contributions strategically to build credibility as a freelance developer.
+- **Instead**: convert credibility to freelance revenue:
+
+### Direct Client Work
+Clients who use your open source tools often convert to consulting.
+- **Pick one tool you**: use and encounter a real problem with 2.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+- **Discounts of 25-50% are**: common for qualifying organizations.
+
 ## Why Open Source Matters for Freelance Work
 
 Client work often happens in private repositories. Even when you deliver excellent results, you cannot show that work to future clients. Open source contributions fill this gap by providing a public record of your technical abilities.

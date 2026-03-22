@@ -31,6 +31,17 @@ voice-checked: true---
 
 Indonesia introduced the Second Home Visa (Visa Tinggal Terbatas dengan注 sponsor Tinggal Tetap) specifically to attract remote workers, digital nomads, and long-term visitors who want to live in Indonesia without requiring local employment. Unlike the B211A tourist/business visa that requires periodic extensions, the Second Home Visa offers validity for 5 to 10 years with multiple entry privileges. This guide covers the complete application process, financial requirements, document preparation, and practical tools for developers planning a move to Indonesia.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Financial proof**: Bank statements showing IDR 1.5 billion (approximately $93,000 USD) in savings, OR proof of monthly income equivalent to IDR 250 million ($15,500 USD)
+3.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Rental Agreement (most common)**: Month-to-month or long-term lease with your name and an Indonesian landlord signature
+2.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Eligibility Criteria for the Second Home Visa
 
 The Indonesian Immigration Directorate General has established clear eligibility requirements for Second Home Visa applicants. Understanding these upfront prevents application rejections and wasted processing fees.

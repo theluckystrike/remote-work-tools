@@ -33,6 +33,15 @@ A portable dev environment solves the biggest friction in remote development: ge
 
 This guide builds a complete portable dev environment: a base Dockerfile, a Docker Compose setup with services, and a VS Code dev container config — all usable from any machine with Docker installed.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Docker offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Use Alpine only if**: your project has no native dependencies.
+- **Debian slim images are**: the practical default for most projects: small enough to pull quickly, glibc-compatible for native modules, and based on a well-supported OS with regular security patches.
+
 ## The Goal: One Command Setup
 
 ```bash

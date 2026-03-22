@@ -31,6 +31,15 @@ tags: [remote-work-tools, remote-work]---
 
 Establish a client communication cadence that includes weekly status emails, bi-weekly check-in calls, and immediate escalation for blockers to keep stakeholders aligned without creating communication fatigue. Your cadence should balance asynchronous updates for efficiency with synchronous touchpoints for relationship-building.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **A $10k/month account cannot**: sustain weekly video calls—you'd be underwater on delivery.
+- **Pro tip**: When clients upgrade (e.g., $15k → $60k), explicitly move them to a higher tier.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Why Communication Cadence Matters
 
 Client expectations in remote engagements differ significantly from traditional agency relationships. When your team works across different time zones, clients need confidence that progress is being made even when they cannot see activity in real time. A well-defined communication cadence accomplishes three critical things:

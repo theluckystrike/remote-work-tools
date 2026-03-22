@@ -19,6 +19,15 @@ Resolve conflicts asynchronously through chat by pausing 15-30 minutes before re
 
 Conflict in remote teams is inevitable. When video calls aren't feasible due to time zones, bandwidth limitations, or scheduling conflicts, resolving disagreements through chat becomes a critical skill. This guide provides developers and power users with actionable strategies for navigating difficult conversations asynchronously.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does GitHub offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Be specific about facts**: rather than generalizations: ``` The current endpoint responds in 450ms for 95% of requests.
+- **The proposed change would**: add 200ms for cache invalidation, but it prevents stale data issues we've seen in production.
+- **Before we commit to a full rewrite**: could we profile the current code to identify the actual bottlenecks? A targeted optimization might give us 80% of the benefit with less risk.
+
 ## Why Chat-Based Conflict Resolution Matters
 
 Remote work often spans multiple time zones. A developer in Tokyo and a product manager in New York may never share overlapping working hours. Relying solely on synchronous video calls creates bottlenecks and delays. Teams that master async conflict resolution maintain momentum and avoid the frustration of waiting hours for a response to resolve an urgent issue.

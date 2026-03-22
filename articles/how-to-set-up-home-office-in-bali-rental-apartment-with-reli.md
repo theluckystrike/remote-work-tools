@@ -31,6 +31,13 @@ intent-checked: true---
 
 Setting up a functional home office in a Bali rental apartment requires understanding the local power infrastructure and planning accordingly. Unlike Western properties with stable 220V grids, Bali's electrical systems vary significantly between new developments and traditional villas. This guide provides actionable strategies for developers and power users who need uninterrupted productivity.
 
+## Key Takeaways
+
+- **A simple voltage meter**: costs around $15 and provides immediate insights into the electrical stability.
+- **Local SIM cards with**: 20-30GB data plans cost approximately $10-15 monthly.
+- **Request installation 2-3 weeks**: before needed—lead times vary.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Understanding Bali's Power Infrastructure
 
 Bali operates on 230V/50Hz electrical current, matching European standards. Most modern apartments in tourist areas like Canggu, Seminyak, and Ubud provide relatively stable power, but older buildings and rural areas may experience fluctuations, outages, or inconsistent grounding.

@@ -206,6 +206,16 @@ The best Gantt tool integrates naturally into your existing workflow while provi
 ---
 
 
+
+
+| Tool | Sprint Features | Remote Fit | Integrations | Pricing |
+|---|---|---|---|---|
+| Linear | Cycles, auto-triage, roadmaps | Keyboard-first, fast UI | GitHub, Slack, Figma | $8/user/month |
+| Jira | Sprints, boards, backlog grooming | Mature async workflows | 3,000+ Marketplace apps | $7.75/user/month |
+| ClickUp | Sprint automation, goals | All-in-one workspace | 50+ native integrations | $7/user/month |
+| Shortcut | Stories, milestones, iterations | Clean async interface | GitHub, Slack, Sentry | $8.50/user/month |
+| Notion | Custom sprint databases | Flexible wiki + tasks | API, Zapier, Slack | $8/user/month |
+
 ## Frequently Asked Questions
 
 **Are free AI tools good enough for gantt chart tools for software teams: a practical guide?**

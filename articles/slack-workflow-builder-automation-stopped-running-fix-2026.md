@@ -16,6 +16,15 @@ voice-checked: true---
 
 Slack Workflow Builder has become an essential tool for remote teams automating routine communications, approvals, and notifications. When your workflows suddenly stop running, it can disrupt critical processes across your distributed team. This guide provides practical troubleshooting steps to get your Slack automations back on track.
 
+## Key Takeaways
+
+- Most modern integrations use OAuth.
+- **A workflow for expense**: approvals can route purchases under $500 to team leads while routing over $500 to finance.
+- **Several factors commonly cause**: Slack Workflow Builder automations to stop working.
+- **When calling external APIs through webhooks**: set reasonable timeouts (typically 10-30 seconds).
+- **Access Workflow Builder from**: the Apps section or use the direct link provided by your workspace admin.
+- **External integrations often require**: re-authorization after security updates or password changes.
+
 ## Common Reasons Why Slack Workflows Stop Running
 
 Before examining solutions, understanding why workflows fail helps you prevent future issues. Several factors commonly cause Slack Workflow Builder automations to stop working.

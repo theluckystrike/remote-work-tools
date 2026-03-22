@@ -31,6 +31,15 @@ tags: [remote-work-tools]---
 
 A surge protector for home office equipment is essential infrastructure for any developer working from home. Power surges—brief voltage spikes that can exceed normal household current by hundreds or even thousands of volts—pose a serious threat to your expensive development hardware. A quality surge protector absorbs these spikes, preventing them from reaching your laptop, monitors, external drives, and other critical equipment. This guide covers the technical specifications that matter, how to calculate the protection you need, and which configurations work best for modern developer setups.
 
+## Key Takeaways
+
+- **A $40-50 surge protector**: with 2500-3000 joules protects 95% of home office setups adequately.
+- **They're typically installed by**: an electrician and cost $200-500 including installation.
+- **Consider professional installation of**: whole-house protection and use isolated circuit protection for your most sensitive equipment.
+- **The $80-100 premium options**: add marginal benefit unless you have particularly valuable or sensitive equipment.
+- **This guide covers the**: technical specifications that matter, how to calculate the protection you need, and which configurations work best for modern developer setups.
+- **For a typical developer**: home office with a laptop, two monitors, and peripheral devices, look for at least 2000 joules of protection.
+
 ## Understanding Power Surge Risks for Developers
 
 Power surges occur more frequently than most people realize. They originate from multiple sources: lightning strikes (the most dramatic but rarest), utility grid switching, cycling of high-power appliances like air conditioners and refrigerators, and even the normal operation of devices in your home. A single powerful surge can instantly destroy sensitive electronics, while smaller repeated surges gradually degrade circuit boards and reduce equipment lifespan.

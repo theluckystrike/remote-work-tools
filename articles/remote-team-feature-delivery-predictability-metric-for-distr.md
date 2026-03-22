@@ -19,6 +19,17 @@ Feature delivery predictability measures how accurately your team estimates and 
 
 This guide covers the key predictability metrics, provides Python code for calculation, and shows how to integrate measurement into your existing GitHub or Jira workflows.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **A healthy target for**: distributed teams sits between 75-90%.
+- **Below 60% indicates systematic**: over-commitment; above 95% suggests the team is sandbagging estimates.
+- **Pattern 2**: Good accuracy, long cycle times (accuracy 80%+, cycle time 15+ days)
+
+The team is reliably slow.
+- **Root cause is often review bottlenecks**: PRs sitting for 24-48 hours in async review.
+
 ## Why Predictability Matters for Distributed Teams
 
 When your team spans multiple time zones, predictability enables stakeholders to plan releases, marketing campaigns, and customer commitments with confidence. A team that delivers 8 out of 10 planned features consistently provides far more value than one that delivers anywhere from 3 to 12 features depending on the sprint.

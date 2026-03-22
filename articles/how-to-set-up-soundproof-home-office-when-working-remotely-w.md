@@ -31,6 +31,16 @@ intent-checked: true---
 
 Start with door sealing (sweep + weatherstripping adds 3-5 dB) and quality ANC headphones—these two interventions handle 80% of child noise problems. For additional control, 2 lb/sq ft mass-loaded vinyl reduces wall transmission by 25-30 dB, DIY acoustic panels cost $30 each and absorb mid-high frequencies, and brown noise masking covers remaining unpredictable sounds. This layered approach—physical barriers + absorption + masking—creates predictable acoustic conditions where unexpected squeals and crashes don't derail your focus during critical deep work sessions with young children at home.
 
+## Key Takeaways
+
+- **For most remote workers**: DIY approaches (door sealing, acoustic panels, brown noise) achieve 80% of the benefit at 10% of the cost.
+- **Start with door sealing**: (sweep + weatherstripping adds 3-5 dB) and quality ANC headphones—these two interventions handle 80% of child noise problems.
+- **MLV and panels are**: less critical because crying is often high-frequency and earplugs/headphones handle it effectively.
+- **Recording room**: Use the room farthest from children's active areas
+2.
+- **If you're reading 60-80**: dB during active child play, you need significant intervention.
+- **House with open floor plan**: The challenge is your voice carrying to adjacent spaces.
+
 ## Understanding Your Sound Isolation Requirements
 
 Before purchasing materials or starting construction, assess your specific noise profile. Young children generate unpredictable, high-frequency sounds—squeals, drops, laughter—that travel differently than steady-state noise like HVAC hum.

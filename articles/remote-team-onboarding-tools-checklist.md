@@ -33,6 +33,15 @@ Remote onboarding fails in predictable ways: the new hire waits 2 days for acces
 
 This guide covers the tooling and process for onboarding remote engineers, with actual templates and automation scripts.
 
+## Key Takeaways
+
+- **Add to GitHub org**: and team gh api orgs/your-org/teams/$TEAM/memberships/$GITHUB \ -X PUT -f role=member # 2.
+- **Add to relevant GitHub**: repos for repo in api-service frontend infra-tools; do gh api repos/your-org/$repo/collaborators/$GITHUB \ -X PUT -f permission=push done # 3.
+- **Invite to Slack workspace**: via API curl -X POST https://slack.com/api/users.admin.invite \ -H "Authorization: Bearer $SLACK_ADMIN_TOKEN" \ -d "email=$EMAIL&channels=C01,C02,C03&resend=true" # 5.
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
+- **Small teams can often**: implement changes faster because there are fewer people to coordinate.
+
 ## The Access Provisioning Problem
 
 Most onboarding delays come from access. Someone has to manually add each new hire to GitHub, AWS, Slack, the VPN, and twelve other tools. Automate this:

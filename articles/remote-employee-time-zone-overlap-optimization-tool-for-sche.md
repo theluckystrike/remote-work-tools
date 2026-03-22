@@ -27,7 +27,23 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]---
 
+
 Use a time zone overlap optimization tool to identify shared working hours across distributed teams, schedule critical meetings during windows that include all zones, and adjust work hours when beneficial. Tools like When2Meet or custom spreadsheets solve this common scheduling pain point.
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Rather than manually checking**: each team member's local time, you can build or use a tool that automatically identifies the best possible meeting times.
+- **Use asynchronous communication for**: information transfer, reserve synchronous time for decisions only 3.
+- **US)
+- Critical**: Update recurring meetings that cross DST boundaries
+- Check 2 weeks before to identify conflicts
+
+Best practice: Schedule recurring meetings at an UTC time rather than local time.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Outside core hours**: communication is asynchronous."
+
+Rotate burden: If meetings must occur outside some team members' preferred hours, rotate who bears that burden.
 
 ## The Core Problem
 

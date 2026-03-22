@@ -31,6 +31,15 @@ voice-checked: true---
 
 Create a knowledge base contribution program that incentivizes documentation through recognition, rewards, or learning time allocations, making contribution frictionless via simple templates, and celebrating high-quality submissions publicly. Incentives shift knowledge management from a burden to a valued activity.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Results**: 3-6 new articles per month, ~60% team participation over a year.
+- **Key success factor**: Monthly recognition in standups (5 seconds each) created more motivation than points.
+- **Bronze was accessible (1-2**: articles/month for 10% of team).
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## The Problem with Unstructured Knowledge Sharing
 
 Remote teams lose the informal knowledge transfer that happens in physical offices. When someone discovers a solution to a tricky bug or learns a new tool, that knowledge stays in their head unless you create systems that make sharing the default behavior. A well-designed incentive program addresses the core issues: time constraints, lack of recognition, and unclear expectations.

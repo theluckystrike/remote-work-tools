@@ -33,6 +33,15 @@ Managing a hybrid team requires a distinct skill set that combines traditional l
 
 This training program template provides a structured approach to developing hybrid leadership skills. You can adapt it for your organization's specific needs, team sizes, and tools.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **This creates unique challenges around equity**: communication, and coordination that most manager training programs never address.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Managers who transitioned from**: traditional offices often struggle because they no longer "see" their team working.
+
 ## Core Competencies for Hybrid Team Leaders
 
 Before looking at the program structure, identify the key competencies hybrid managers need. These fall into four categories:

@@ -21,6 +21,22 @@ Async standups require different structure than synchronous ones. They must be c
 
 This guide covers the best async standup platforms, proven templates, and practical implementation workflows.
 
+## Key Takeaways
+
+- **Configure questions (use template**: above) 3.
+- **This guide covers the**: best async standup platforms, proven templates, and practical implementation workflows.
+- **HELP NEEDED Need @alice**: (design) to review new login modal by EOD to unblock frontend integration tomorrow.
+- Contains almost no actionable information.
+- **Any help needed?
+
+Message thread**: Replies are threaded, keeping channel organized
+```
+
+#### Real-World Setup
+
+1.
+- **If team size grows**: transition to fixed UTC time when critical mass is in 2–3 regions.
+
 ## Why Async Standups Beat Synchronous Meetings
 
 A distributed team across 5 time zones:

@@ -17,6 +17,15 @@ voice-checked: true---
 
 Remote support teams increasingly seek alternatives to SaaS platforms like Zendesk for their knowledge base needs. Data sovereignty concerns, cost optimization, and customization requirements drive teams to explore self-hosted solutions. This guide covers practical approaches to building and deploying a self-hosted knowledge base tailored for remote support teams.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Distributed For most remote**: support teams under 50 agents, a single well-configured server suffices.
+- **Most self-hosted platforms support OAuth2**: SAML, or LDAP.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Why Self-Hosted Knowledge Bases Matter
 
 Zendesk provides a strong SaaS solution, but self-hosting offers advantages that matter to technical teams. You retain full control over your data, avoiding vendor lock-in and recurring subscription costs. Custom integrations become straightforward when you own the infrastructure. For teams handling sensitive customer information, self-hosted solutions provide clearer compliance pathways.

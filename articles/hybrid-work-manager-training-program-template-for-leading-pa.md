@@ -31,6 +31,15 @@ voice-checked: true---
 
 Managing a team where some members work remotely while others are in-office requires a distinct skill set that traditional management training rarely addresses. This guide provides a structured training program template you can adapt for your organization, designed specifically for managers leading partially distributed teams in 2026.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **This requires intentional setup**: help techniques, and sometimes accepting that some meetings work better fully remote or fully in-person.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **The flexible model allows**: team members to choose their location daily.
+
 ## Why Partially Distributed Teams Need Different Leadership Approaches
 
 Unlike fully remote or fully in-office teams, partially distributed teams present unique challenges. You must maintain collaboration between colocated subgroups while ensuring remote team members don't feel excluded. Communication rhythms shift, meeting equity becomes critical, and trust-building requires intentional effort across physical distances.

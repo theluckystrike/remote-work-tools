@@ -33,6 +33,22 @@ Payment structure ranks among the most consequential decisions you make when sta
 
 This guide covers how to structure milestone payments for development projects, with concrete examples you can adapt immediately.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Front-loading 40-50% within the**: first third of the project provides this cushion.
+- **A typical formula:
+
+- Discovery/Planning**: 15-20%
+- Core Development: 35-40%
+- Feature Work: 25-30%
+- Testing/Launch: 15-20%
+
+Adjust based on your project type.
+- **When scope changes affect**: an upcoming milestone, use a change order process: 1.
+
 ## Why Milestone Payments Work Better
 
 Traditional hourly billing has fundamental misalignment. The client bears all timeline and budget risk, while the developer has incentive to maximize billable hours. Fixed-price flips this entirely—the developer absorbs scope expansion risk, often resulting in rushed work or disputes.

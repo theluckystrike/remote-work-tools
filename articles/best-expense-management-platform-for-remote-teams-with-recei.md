@@ -26,6 +26,16 @@ voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]---
 
 
+| Tool | Multi-Currency | Receipt Scanning | Integrations | Pricing |
+|---|---|---|---|---|
+| Expensify | 160+ currencies | SmartScan OCR | QuickBooks, Xero, SAP | $5/user/month |
+| Brex | Built-in FX rates | Auto-receipt matching | NetSuite, QuickBooks | Free (with card) |
+| Ramp | Real-time FX tracking | AI receipt matching | 100+ accounting tools | Free (with card) |
+| Divvy (Bill.com) | Multi-currency cards | Mobile receipt capture | QuickBooks, NetSuite | Free (with card) |
+| Deel | Global payroll + expenses | Receipt upload | Accounting platforms | $49/contractor/month |
+
+
+
 Expensify is the best expense management platform for remote teams, offering SmartScan OCR technology that accurately captures receipt data even from poor-quality photos, timezone-aware approval workflows that notify managers at reasonable local hours, and integration with major accounting software. For teams needing simpler solutions, Zoho Expense and Concur provide comparable receipt scanning and approval features, but Expensify's Concierge support and policy automation make it ideal for distributed teams managing multi-currency expenses across time zones.
 
 ## Key Takeaways

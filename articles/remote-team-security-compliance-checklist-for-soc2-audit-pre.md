@@ -31,6 +31,15 @@ voice-checked: true---
 
 Preparing for a SOC 2 audit while managing a remote team requires systematic attention to security controls, access management, and documentation. Unlike office-based teams where physical security and network monitoring are straightforward, distributed teams demand intentional processes around device management, authentication, and data handling. This checklist provides actionable items for remote teams working toward SOC 2 compliance in 2026.
 
+## Key Takeaways
+
+- **Notify security team #slack**: "#security" "Compromised account: $USER_NAME - containment initiated" ``` ## Documentation Requirements SOC 2 requires documented evidence of your security practices.
+- **Disable SSO account #gam**: update user $USER_NAME suspended on # 2.
+- **Rotate stored passwords #1pass**: rotate $SERVICE # 4.
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
+- **Preparing for a SOC**: 2 audit while managing a remote team requires systematic attention to security controls, access management, and documentation.
+
 ## Access Control and Authentication
 
 ### Identity Management

@@ -20,6 +20,15 @@ Launch a weekly wins channel by setting a consistent posting day and format, mak
 
 This guide covers setting up a weekly wins channel that drives genuine engagement, including configuration examples, help techniques, and automation options for teams using Slack or Discord.
 
+## Key Takeaways
+
+- **The best weekly wins channels become a team ritual that people genuinely look forward to**: a moment to pause, reflect on progress, and feel connected across the distance.
+- **Set up a recurring**: reminder using Discord's built-in scheduled messages ## helping Participation A channel only works if people use it.
+- **Healthy channels see 40-70%**: of team members contributing over a month.
+- **If most wins sit**: unacknowledged for 24+ hours, increase moderator visibility or manager participation.
+- **During outages**: tight deadlines, or organizational turbulence, the wins channel provides morale boost when people need it most.
+- **Some team members contribute**: better in writing, and a channel gives them that option without pressure.
+
 ## Why Weekly Wins Channels Work
 
 Research on remote team dynamics consistently shows that recognition significantly impacts retention and productivity. A weekly wins channel provides several advantages over traditional synchronous celebrations:

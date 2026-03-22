@@ -33,6 +33,18 @@ Moving a team from fully remote to hybrid work requires rethinking your establis
 
 This guide provides practical strategies for adapting team rituals to a hybrid format without losing the benefits of remote-first workflows.
 
+## Key Takeaways
+
+- **Use this rule**: at least one person on the leadership team joins remotely each week, even if they're usually in-office.
+- **In-office members build stronger**: relationships, get better visibility, control meeting agenda Month 3+: Remote members feel excluded.
+- **Analyze decision quality**: Are decisions better documented now?
+4.
+- **Check retention**: Did anyone leave because they felt excluded?
+
+Use this review to make substantial adjustments if needed.
+- Different people prefer different days.
+- **Does this require real-time**: collaboration? 2.
+
 ## Why Hybrid Transitions Fail (And How to Avoid It)
 
 Most hybrid transitions fail because companies treat hybrid as "remote with optional office days" rather than fundamentally rethinking how work gets done. The typical failure pattern:

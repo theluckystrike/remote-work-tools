@@ -28,9 +28,19 @@ voice-checked: true
 tags: [remote-work-tools, remote-work]---
 
 {% raw %}
+
 Attracting top distributed talent requires more than posting jobs on LinkedIn. Your employer brand—the story you tell about working at your company—determines whether engineers even apply. Remote teams face a unique challenge: competing for talent against companies worldwide, without the advantage of physical presence.
 
 This guide provides concrete strategies to build employer branding that attracts developers at scale. You'll find actionable frameworks, code examples for measuring brand equity, and systems you can implement immediately.
+
+## Key Takeaways
+
+- **Allocate 10% of engineering**: time to open source contributions 3.
+- **Competing offers - Track**: which companies candidates choose instead ## Strategy 5: Build Internal Brand Advocates Your current employees are your most powerful recruitment tool.
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
+- **Take as long as**: you need within a 7-day window.
+- **Best of luck in**: your search, [Your Name] ``` This investment in feedback spreads positive word-of-mouth—even among candidates you don't hire.
 
 ## Understanding Employer Brand in a Remote Context
 

@@ -19,6 +19,15 @@ The school bus schedule—6-7 hours of uninterrupted time—is the most valuable
 
 This guide shows you how to transform those predictable windows into productivity powerhouses using time blocking techniques tailored specifically for developers and power users who work from home.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Time blocking around school**: bus times works because it creates hard boundaries.
+- **Several strategies help: ###**: Calendar Visibility Mark deep work blocks as "Busy" rather than "Free" in your calendar.
+
 ## Why the School Bus Schedule Works as a Productivity Anchor
 
 The school bus creates something rare in remote work: guaranteed absence. For 7+ hours, your children occupy a different physical space. The challenge becomes capturing this time effectively rather than letting it slip into reactive task handling.

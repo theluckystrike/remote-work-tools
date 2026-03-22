@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Useful Thai search terms"
-description: "A practical guide for developers and digital nomads seeking dedicated workspace apartments in Chiang Mai, Thailand"
+description: "Find apartments with dedicated offices in Chiang Mai for remote work: neighborhoods, rental platforms, coworking backup options, and price ranges."
 date: 2026-03-16
 last_modified_at: 2026-03-16
 author: theluckystrike

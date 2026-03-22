@@ -33,6 +33,21 @@ When an incident hits your production system, the hours and days following requi
 
 This guide provides a framework and ready-to-use templates for announcing incidents and publishing postmortems to your remote team.
 
+## Key Takeaways
+
+- **Add alerting for CDN API non-2xx responses (Owner**: @ops-team, Due: 2024-02-10)
+```
+
+## Best Practices for Remote Team Postmortems
+
+### Use Async-First Formatting
+
+Remote teams span time zones.
+- **Remote teams face a unique challenge**: the lack of spontaneous hallway conversations means every message must stand on its own.
+- **This guide provides a**: framework and ready-to-use templates for announcing incidents and publishing postmortems to your remote team.
+- **The root cause was**: [one-sentence explanation].
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Why Postmortem Communication Templates Matter
 
 In distributed teams, communication happens through written channels. Without templates, each incident response becomes an ad-hoc writing exercise, consuming valuable time and often omitting critical details. Templates solve three problems:

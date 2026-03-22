@@ -33,6 +33,15 @@ Build a hybrid office space planning tool using pressure sensors, infrared motio
 
 Hybrid office space planning requires accurate data about how employees actually use physical workspace. Without real occupancy insights, facilities managers rely on guesswork for desk allocation, leading to either overcrowded spaces or wasted real estate. Building a desk use tracking system provides the data needed to optimize space allocation, reduce costs, and improve the employee experience. This guide covers the technical implementation of a hybrid office space planning tool—from sensor deployment to analytics dashboards.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Hybrid office space planning**: requires accurate data about how employees actually use physical workspace.
+- **Building a desk use**: tracking system provides the data needed to optimize space allocation, reduce costs, and improve the employee experience.
+- **Export your use data**: in formats that integrate with industry tools.
+
 ## Core Components of a Desk Use System
 
 A practical desk use tracking system consists of four main layers: sensing hardware, data collection infrastructure, processing logic, and visualization interfaces. Each component plays a specific role in generating actionable occupancy data.

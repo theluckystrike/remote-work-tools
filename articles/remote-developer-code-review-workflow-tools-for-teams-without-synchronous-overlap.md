@@ -31,6 +31,17 @@ voice-checked: true---
 
 Managing code reviews across time zones that never align creates unique challenges for distributed development teams. When your team spans San Francisco, London, and Tokyo, finding a single hour where everyone is awake—let alone focused on code review—becomes impractical. This guide covers the tools and workflows that make async code reviews effective for teams without synchronous overlap.
 
+## Key Takeaways
+
+- **If it's below 50%**: authors need better PR descriptions
+
+GitHub's native analytics provide baseline metrics; integrate with tools like Stack Overflow for Teams or Notion for custom dashboards.
+- **For occasional use**: consider whether a free alternative covers enough of your needs.
+- **Free and basic plans**: typically get community forum support and documentation.
+- **They create accountability for**: both authors (to write better PRs) and reviewers (to review promptly).
+- **This frees reviewer capacity**: for substantive code review.
+- **If you use Teams daily for core tasks**: the cost usually pays for itself through time savings.
+
 ## The Business Impact of Async Code Review
 
 Code review bottlenecks directly impact ship velocity. In synchronous teams, a developer might have to wait 2-4 hours for review (meeting core hours), then wait another 2-4 hours for feedback on revisions. That's 4-8 hours of delay within a single day, magnified across a week.

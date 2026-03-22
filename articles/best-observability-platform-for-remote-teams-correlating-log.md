@@ -167,11 +167,188 @@ Structure dashboards in layers: a top-level business health view (orders per min
 
 Since remote teams can't pair-program through every incident, document common investigation patterns as runbooks linked directly from alert notifications. Capture the typical sequence of queries and dashboards used for different issue types. A runbook for "database connection pool exhaustion" that links to the right Grafana panels and suggests the first three queries to run cuts mean time to resolution dramatically.
 
+## Comparison of Major Observability Platforms
+
+Choosing the right platform requires understanding how each handles correlation across logs, metrics, and traces. Here's a practical comparison:
+
+| Platform | Log Aggregation | Metrics | Distributed Traces | Correlation Strength | Setup Complexity | Best For |
+|----------|-----------------|---------|-------------------|---------------------|------------------|----------|
+| Datadog | Excellent | Excellent | Native APM | Automatic, ID-based | Medium | Mid-size to enterprise teams |
+| New Relic | Strong | Excellent | Full-stack APM | Strong automatic | Medium | Teams using New Relic agents |
+| ELK Stack | Excellent | Via Metricbeat | Via integration | Manual correlation | High | Engineering-focused organizations |
+| Grafana Cloud | Strong | Native Prometheus | Tempo + Loki | Manual setup required | Low-Medium | Teams comfortable with open-source |
+| Honeycomb | Strong | Via counters | Native Beehive | Excellent real-time | Low | Incident-driven debugging |
+| Splunk | Enterprise-grade | Strong | Via add-on | Powerful but complex | Very High | Large enterprises with budget |
+
+## Implementing Automatic Correlation Across Services
+
+For remote teams, automatic correlation is non-negotiable. Manual correlation takes too long and creates bottlenecks when on-call engineers must wait for teammates in other zones. Here's how to implement it:
+
+### Step 1: Standardize on Trace Context Propagation
+
+Use W3C Trace Context standard across all services:
+
+```javascript
+// Node.js example using OpenTelemetry
+const api = require('@opentelemetry/api');
+const { NodeSDK } = require('@opentelemetry/sdk-node');
+const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumentations-node');
+
+const sdk = new NodeSDK({
+  traceExporter: new OTLPTraceExporter(),
+  instrumentations: [getNodeAutoInstrumentations()],
+});
+
+sdk.start();
+
+// Every service automatically propagates trace context
+app.use((req, res, next) => {
+  const span = api.trace.getActiveSpan();
+  span.setAttributes({
+    'http.method': req.method,
+    'http.url': req.url,
+    'user.id': req.user?.id,
+  });
+  next();
+});
+```
+
+This ensures trace IDs flow through every service boundary automatically.
+
+### Step 2: Embed Correlation IDs in Logs
+
+Every log entry should include the current trace ID:
+
+```python
+# Python logging with correlation ID
+import logging
+import json
+from opentelemetry import trace
+
+class CorrelationFormatter(logging.Formatter):
+    def format(self, record):
+        trace_id = trace.get_current_span().get_span_context().trace_id
+        record.trace_id = trace_id
+        return json.dumps({
+            'timestamp': self.formatTime(record),
+            'level': record.levelname,
+            'message': record.getMessage(),
+            'trace_id': trace_id,
+            'service': record.name
+        })
+
+handler = logging.StreamHandler()
+handler.setFormatter(CorrelationFormatter())
+logger = logging.getLogger()
+logger.addHandler(handler)
+```
+
+Now every log, metric, and trace shares a common identifier across systems.
+
+## Workflow Template: Multi-Zone Incident Investigation
+
+When your on-call engineer in Tokyo is investigating a payment processing failure affecting San Francisco customers, here's the workflow:
+
+### Minute 0: Alert Triggered
+1. Observability platform detects error rate spike (>5% of transactions)
+2. Alert sends to PagerDuty with critical severity
+3. Tokyo engineer receives alert at 11 PM (SF is 3 PM same day)
+
+### Minute 2: Initial Diagnosis
+1. Tokyo engineer opens observability dashboard
+2. Clicks error rate graph, traces spike to payment-gateway service
+3. Searches for transaction ID from customer report
+4. Finds trace spanning 8 services, latency spike in database tier
+
+### Minute 5: Context Gathering
+1. Engineer queries logs filtered by trace ID
+2. Sees 150 failed transactions all timing out on same database query
+3. Checks metrics: connection pool exhausted at 2:45 PM SF time
+4. Posts summary in #incidents channel for SF team to review
+
+### Minute 10: Documentation and Handoff
+1. Engineer documents findings in incident wiki
+2. Posts video walkthrough of investigation steps for team review
+3. Notes: "Connection pool issue appears tied to batch job. Recommend checking scheduler."
+4. SF team wakes up with full context, can immediately investigate batch job
+
+This workflow takes 10 minutes because correlation is automatic. Without it, Tokyo engineer would need to check five different tools, wait for logs to load, and potentially wait for SF team to debug from their side.
+
+## Practical Configuration Examples
+
+### Datadog Configuration for Multi-Zone Teams
+
+```yaml
+# datadog-agent-config.yaml
+api_key: ${DATADOG_API_KEY}
+site: datadoghq.com
+
+apm:
+  enabled: true
+  env: production
+
+logs:
+  enabled: true
+  config_providers:
+    - name: docker
+      polling: true
+
+metrics:
+  use_dogstatsd: true
+  statsd_port: 8125
+
+# Time zone-aware alerting
+monitor:
+  - id: payment_error_rate
+    type: metric_alert
+    query: "avg:payment.errors{*}"
+    threshold: 5
+    alert_message: |
+      Payment error rate spike detected
+      Notify on-call in timezone: {{ service_timezone }}
+```
+
+### ELK Stack with Correlation
+
+```elasticsearch
+# Elasticsearch mapping for trace correlation
+{
+  "mappings": {
+    "properties": {
+      "trace_id": {"type": "keyword"},
+      "span_id": {"type": "keyword"},
+      "parent_span_id": {"type": "keyword"},
+      "service": {"type": "keyword"},
+      "timestamp": {"type": "date"},
+      "message": {"type": "text"},
+      "level": {"type": "keyword"}
+    }
+  }
+}
+```
+
+Logstash pipeline:
+
+```logstash
+filter {
+  if [trace_id] {
+    # Correlate with related spans
+    elasticsearch {
+      hosts => ["elasticsearch:9200"]
+      query => "trace_id:%{[trace_id]}"
+      index => "logs"
+    }
+  }
+}
+```
+
 ## Choosing the Right Platform
 
 The best observability platform depends on your team's size, technical stack, and existing tooling. Smaller teams may prefer fully managed solutions that require minimal setup. Larger organizations might need custom retention policies or self-hosted options for data sovereignty requirements.
 
 For teams already using cloud providers, the native observability offerings often integrate most smoothly with existing infrastructure. Teams running multi-cloud setups may benefit from platform-agnostic solutions that aggregate data regardless of where services run.
+
+**Datadog** excels at automatic correlation and time zone-aware alerting, making it ideal for remote teams prioritizing rapid incident response. **New Relic** offers strong APM with good correlation but often requires more manual configuration. **Grafana Cloud** provides flexibility and cost efficiency for teams comfortable with open-source tooling. **Honeycomb** specializes in high-cardinality data and real-time investigation, perfect for teams debugging complex distributed systems.
 
 Regardless of your choice, prioritize platforms that invest in automatic correlation. The feature provides the biggest productivity gain for remote teams where independent investigation is the norm rather than the exception.
 
@@ -208,7 +385,64 @@ Grafana's SLO plugin and Datadog's SLO feature both offer pre-built views that s
 
 Successful observability for distributed teams requires both good tooling and good practices. Establish incident response runbooks that assume teammates in other time zones may handle initial diagnosis. Use shared Slack channels or incident management tools with chronological summaries so everyone can catch up quickly.
 
+Create team-specific runbooks for common issues:
+
+```markdown
+# Runbook: Database Connection Pool Exhaustion
+
+## Detection
+- Latency spikes across all services
+- Traces show high database acquisition time
+- Connection pool metric near max
+
+## Investigation Steps
+1. Search observability platform for trace ID from alert
+2. Review database metrics for the past 30 minutes
+3. Identify which service initiated the pool exhaustion
+4. Check if batch job was scheduled at that time
+
+## Resolution
+1. Identify and kill connection-hungry query
+2. Review batch job scheduling for conflicts
+3. Increase pool size if legitimately needed
+4. Monitor metrics for 15 minutes post-fix
+```
+
 Regular retrospectives should include observability questions: Could we diagnose the issue quickly? Did we have the right data? Were alerts helpful or noisy? Continuous improvement of your observability setup prevents knowledge silos and keeps your team effective regardless of who's on-call.
+
+## Advanced Correlation Techniques
+
+For teams dealing with particularly complex architectures, implement correlation at the application level:
+
+```go
+// Go service with custom correlation tracking
+package main
+
+import (
+    "context"
+    "log"
+    "net/http"
+    "github.com/google/uuid"
+)
+
+type CorrelationKey string
+
+const RequestIDKey CorrelationKey = "request_id"
+
+func correlationMiddleware(next http.Handler) http.Handler {
+    return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+        requestID := r.Header.Get("X-Request-ID")
+        if requestID == "" {
+            requestID = uuid.New().String()
+        }
+
+        ctx := context.WithValue(r.Context(), RequestIDKey, requestID)
+        log.Printf("Request %s: %s %s", requestID, r.Method, r.URL)
+
+        next.ServeHTTP(w, r.WithContext(ctx))
+    })
+}
+```
 
 The right observability platform transforms incident response for remote teams. When engineers can confidently investigate issues independently, your team maintains reliability without sacrificing work-life balance across time zones.
 

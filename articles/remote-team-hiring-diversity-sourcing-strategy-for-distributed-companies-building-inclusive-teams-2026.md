@@ -31,6 +31,17 @@ voice-checked: true---
 
 Building diverse teams remotely requires intentional sourcing strategies that go beyond traditional job postings. Distributed companies must actively reach into underrepresented communities, remove geographic biases, and create evaluation systems that focus on demonstrated skills rather than credentials or connections. This guide provides actionable techniques for implementing diversity sourcing in your remote hiring pipeline.
 
+## Key Takeaways
+
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **Open source sponsorship**: Fund scholarships or travel grants for underrepresented developers to attend conferences or contribute to open source
+3.
+- **Inclusive documentation**: Ensure company docs use inclusive language and represent diverse perspectives
+4.
+- **Data privacy**: If you track diversity data on candidates, secure it carefully and only use it for aggregate analysis, not individual decision-making.
+- **Compare to industry benchmarks**: If your HBCU hiring is 5% of new engineers while HBCUs produce 25% of Black CS graduates nationally, you have a gap to address.
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
+
 ## Why Diversity Sourcing Matters for Remote Teams
 
 Remote work removes physical barriers that historically limited talent pools, but it introduces new challenges. Without intentional effort, remote hiring tends to replicate existing networks—companies end up hiring people who resemble current employees geographically, culturally, and professionally. Intentional diversity sourcing counters this tendency by expanding reach and redesigning evaluation criteria.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Blue Light Glasses for Programmers: A Practical Guide"
-description: "Discover how blue light glasses can protect your eyes during long coding sessions. Learn what features matter most for developers and power users"
+description: "Blue light glasses for programmers: lens coating types, measured filtering percentages, prescription compatibility, and top picks under $80."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-blue-light-glasses-for-programmers/

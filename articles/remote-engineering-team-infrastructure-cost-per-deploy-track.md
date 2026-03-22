@@ -33,6 +33,15 @@ Every deploy has a price tag. Compute hours, storage I/O, network transfers, man
 
 This guide shows you how to implement cost-per-deploy tracking that works for distributed DevOps teams operating across time zones.
 
+## Key Takeaways
+
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+- **Discounts of 25-50% are**: common for qualifying organizations.
+- **The essential measurements for**: infrastructure cost per deploy include: 1.
+- **Canary and blue-green deployments**: often show higher per-deploy costs because they run two full environments briefly, but they reduce rollback costs significantly.
+- **Can I change plans**: later without losing my data? Most tools allow plan changes at any time.
+
 ## Why Cost Per Deploy Tracking Matters for Remote Teams
 
 Remote engineering teams face unique challenges that make cost tracking essential. When engineers in Tokyo, London, and San Francisco each trigger deployments independently, there's no single person watching the infrastructure bill. Without per-deploy attribution, you lose the ability to answer fundamental questions:

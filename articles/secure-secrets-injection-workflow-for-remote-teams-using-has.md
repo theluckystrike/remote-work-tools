@@ -33,6 +33,15 @@ Managing secrets across distributed teams presents unique challenges. When devel
 
 This guide covers practical implementation patterns for injecting secrets securely into your applications and development environments when your team works remotely.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Use short TTLs -**: Prefer shorter token lifetimes to limit exposure from compromised credentials 4.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Rotate credentials regularly -**: Use dynamic secrets when possible, rotate static secrets on defined schedules 2.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## Understanding Secrets Injection Patterns
 
 Secrets injection involves getting sensitive data—API keys, database passwords, SSH keys, certificates—into your applications without hardcoding them or exposing them in configuration files. For remote teams, this process needs to work across different network environments while maintaining strict access controls.

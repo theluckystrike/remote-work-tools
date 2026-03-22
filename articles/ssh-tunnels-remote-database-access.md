@@ -33,6 +33,15 @@ Exposing database ports directly to the internet is a security risk. SSH tunnels
 
 This guide covers local port forwarding for databases, jump hosts, persistent tunnels with autossh, and configuring GUI database tools to use them.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **In the Data Sources panel**: select your data source, open the SSH/SSL tab, and check "Use SSH tunnel." Specify the SSH host, port 22, and your private key.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **This guide covers local**: port forwarding for databases, jump hosts, persistent tunnels with autossh, and configuring GUI database tools to use them.
+
 ## How SSH Local Port Forwarding Works
 
 A local port forward binds a port on your machine and tunnels all traffic through SSH to a destination:

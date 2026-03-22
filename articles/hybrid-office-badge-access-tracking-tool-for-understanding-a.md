@@ -22,6 +22,15 @@ Building a badge access tracking system provides concrete data about how employe
 
 This guide covers implementation approaches for developers and power users who want to extract meaningful use metrics from badge access systems.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **This provides concrete data**: showing actual office usage (typically 40-45% occupancy) rather than survey estimates, enabling better space planning decisions.
+- **Studies consistently show that**: booked desk use runs between 40-60% in hybrid offices, while actual badge-based occupancy can be significantly different.
+- **For a 100-desk floor**: with 45 unique badge-ins, your occupancy rate is 45%.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+
 ## Why Badge Data Beats Booking Systems
 
 Traditional desk booking tools suffer from a fundamental problem: people reserve desks but do not always show up. Studies consistently show that booked desk use runs between 40-60% in hybrid offices, while actual badge-based occupancy can be significantly different.

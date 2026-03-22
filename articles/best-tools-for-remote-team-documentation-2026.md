@@ -19,6 +19,16 @@ The average knowledge worker spends 19 minutes per day searching for information
 
 This guide compares five platforms optimized for distributed teams, with pricing, search quality, and async-first features.
 
+## Key Takeaways
+
+- **Pricing**: Free (unlimited pages, shared hosting), $150-299/month (private docs, custom domain, analytics).
+- **Pricing**: Free (personal), $10/user/month (teams).
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Set page sharing (view-only for most**: edit for owners)
+5.
+- **Pricing**: $50/month (up to 10), $80/month (up to 250 people).
+- **Pricing**: $8/user/month (Starter), $16/user/month (Business).
+
 ## Quick Comparison Table
 
 | Platform | Setup | Search Quality | Permissions | API | Pricing | Best For |

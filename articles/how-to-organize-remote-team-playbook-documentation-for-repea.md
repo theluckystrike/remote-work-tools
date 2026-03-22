@@ -222,6 +222,274 @@ The core concepts apply across most CI/CD platforms, though specific syntax and 
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
+## Playbook Templates for Common Scenarios
+
+Accelerate new playbook creation by using proven templates. Here are templates for common scenarios:
+
+### Incident Response Playbook Template
+
+```markdown
+---
+title: "[Service Name] Incident Response"
+severity: [Critical/High/Medium/Low]
+owner: @platform-team
+last_reviewed: 2026-03-20
+---
+
+## Trigger
+- Error rate exceeds 5% for 2 minutes
+- Latency > 2 seconds for 10% of requests
+- Health check endpoint returns 5xx
+
+## Initial Assessment (First 5 minutes)
+1. Confirm incident is real (not monitoring false positive)
+2. Page on-call engineer: `/page-oncall --service [name]`
+3. Create incident in StatusPage with "Investigating" status
+4. Post incident thread in #incidents channel
+
+## Investigation Phase
+1. Check service health dashboard
+2. Review recent deployments in the past 30 minutes
+3. Examine error logs filtered by service
+4. Check infrastructure metrics (CPU, memory, disk)
+
+## Common Causes & Fixes
+| Symptom | Likely Cause | Fix | Time |
+|---------|-------------|-----|------|
+| High latency | Database slow | Check DB query logs | 5-10 min |
+| 5xx errors | Out of memory | Restart service | 2-3 min |
+| External API timeouts | Dependency down | Switch to backup | 10-15 min |
+
+## Escalation
+If unresolved after 15 minutes, escalate to:
+1. First: Database team if DB involved
+2. Second: Infrastructure team if infrastructure issue
+3. Third: VP Engineering if ongoing >30 min
+
+## Verification
+- Health checks passing
+- Error rate <1% for 2 consecutive minutes
+- No pending alerts
+- Customer support reports normal operation
+
+## Post-Incident
+- Create retrospective issue
+- Document timeline in incident wiki
+- Update this playbook if process failed
+```
+
+### Deployment Rollback Playbook Template
+
+```markdown
+---
+title: "Deployment Rollback Procedure"
+owner: @devops-team
+approval_required: true
+---
+
+## When to Roll Back
+- Critical functionality broken post-deployment
+- Performance degraded >20% from baseline
+- New errors affecting >1% of users
+- Security vulnerability discovered in release
+
+## Pre-Rollback (1 minute)
+1. Verify this is the actual cause (not unrelated issue)
+2. Notify #deployments channel: "Rolling back [service] to [version]"
+3. Flag customer support: brief explanation for communication
+
+## Rollback Execution (2-5 minutes)
+```bash
+# Step 1: Verify current deployment
+kubectl get deployment backend -o json | jq '.spec.template.spec.containers[0].image'
+
+# Step 2: Get previous image hash
+git log --oneline -5 | grep "backend: release"
+
+# Step 3: Execute rollback
+kubectl set image deployment/backend backend=gcr.io/project/backend:PREVIOUS-HASH
+
+# Step 4: Monitor rollout
+kubectl rollout status deployment/backend
+
+# Step 5: Verify health
+curl -s https://api.example.com/health | jq '.status'
+```
+
+## Verification (Post-Rollback)
+- [ ] Health checks passing
+- [ ] Error rate returned to baseline
+- [ ] Performance metrics normal
+- [ ] No new error patterns in logs
+
+## Communication
+```markdown
+We identified a critical issue in the deployed version and rolled back
+to the previous stable release. Service is now operating normally. We'll
+investigate the root cause and provide an update within 2 hours.
+```
+
+## Post-Rollback Review
+- Create post-incident ticket
+- Document what caused the issue
+- Improve deployment validation to catch issue earlier
+```
+
+## Building Custom Playbooks for Your Team
+
+Every team has unique processes. Use this framework to build playbooks tailored to your workflow:
+
+```markdown
+## [Process Name] Playbook Framework
+
+### Context Section
+What domain expertise does someone need to execute this?
+- Familiarity with [System/Tool]
+- Understanding of [Concept]
+- Access to [Resource]
+
+### Success Criteria
+How do you know this was executed correctly?
+- [ ] Criterion 1
+- [ ] Criterion 2
+- [ ] Criterion 3
+
+### Decision Points
+Where might different teams need different paths?
+- If X is true, follow Path A
+- If Y is true, follow Path B
+
+### Timing
+How long should each section take?
+- Setup: X minutes
+- Execution: X minutes
+- Verification: X minutes
+- Total: X minutes
+
+### Resources
+What tools/links/credentials are needed?
+- [System A] access
+- [Documentation link]
+- [Spreadsheet reference]
+
+### Troubleshooting
+What could go wrong?
+| Problem | Cause | Solution |
+|---------|-------|----------|
+```
+
+## Integration with Development Workflow
+
+Make playbooks discoverable and always accessible:
+
+### GitHub Integration
+
+```bash
+# Add playbook command to team shell config
+function playbook() {
+  # Search playbooks locally stored in git
+  find ~/company/playbooks -name "*$1*" -type f | \
+  head -3 | \
+  xargs -I {} sh -c 'echo "--- {} ---" && head -20 {}'
+}
+
+# Usage: playbook deployment
+```
+
+### Slack Integration
+
+Create a Slack bot that surfaces playbooks:
+
+```javascript
+// slack-playbook-bot.js
+const { App } = require('@slack/bolt');
+
+const app = new App({
+  token: process.env.SLACK_BOT_TOKEN,
+  signingSecret: process.env.SLACK_SIGNING_SECRET
+});
+
+app.command('/playbook', async ({ command, ack, respond }) => {
+  await ack();
+
+  const query = command.text;
+  const playbooks = searchPlaybookIndex(query);
+
+  await respond({
+    blocks: [
+      {
+        type: 'section',
+        text: {
+          type: 'mrkdwn',
+          text: `*Playbooks matching "${query}":*\n${
+            playbooks.map(p => `• <${p.url}|${p.title}>`).join('\n')
+          }`
+        }
+      }
+    ]
+  });
+});
+
+app.start();
+```
+
+Now teams can type `/playbook deployment` and immediately get links to relevant documentation.
+
+## Playbook Versioning and Updates
+
+Treat playbooks like code with versioning:
+
+```yaml
+# playbook metadata template
+version: 1.2.3
+changelog:
+  - version: 1.2.3
+    date: 2026-03-15
+    changes:
+      - Added security consideration section
+      - Updated timeout thresholds
+      - Clarified escalation path
+  - version: 1.2.0
+    date: 2026-02-20
+    changes:
+      - Initial documentation
+
+dependencies:
+  - tool_version: kubectl >= 1.25
+  - access_level: admin
+  - team_notification: required
+
+review_schedule:
+  frequency: quarterly
+  next_review: 2026-06-20
+  last_reviewed: 2026-03-20
+  reviewer: @platform-team
+```
+
+This metadata ensures playbooks stay current and teams know when they need review.
+
+## Frequently Asked Questions
+
+**How long does it take to organize remote team playbook documentation for?**
+
+For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
+
+**What are the most common mistakes to avoid?**
+
+The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
+
+**Do I need prior experience to follow this guide?**
+
+Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
+
+**Will this work with my existing CI/CD pipeline?**
+
+The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ. You may need to adapt file paths, environment variable names, and trigger conditions to match your pipeline tool. The underlying workflow logic stays the same.
+
+**Where can I get help if I run into issues?**
+
+Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
+
 ## Related Articles
 
 - [How to Organize Remote Team Runbook Documentation for On-Call Engineers 2026](/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
@@ -230,3 +498,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

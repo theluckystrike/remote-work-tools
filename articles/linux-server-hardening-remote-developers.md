@@ -31,6 +31,13 @@ A freshly provisioned VPS or home lab server is exposed to the internet with def
 
 All commands run as root or with sudo unless otherwise noted.
 
+## Key Takeaways
+
+- **This guide hardens an**: Ubuntu 22.04/24.04 server to a baseline that remote developers can use with confidence.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: step 1: create a non-root user, step 2: harden ssh configuration, step 3: configure ufw firewall
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Step 1: Create a Non-Root User
 
 Never use the `root` user for routine work. Create a deploy user and disable root login.

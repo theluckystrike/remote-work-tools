@@ -31,6 +31,15 @@ tags: [remote-work-tools]---
 
 Build a hybrid meeting room for $180-500 by prioritizing audio quality, choosing reliable cameras like the Logitech C920, adding proper lighting, and automating setup with shell scripts. Audio quality matters most—use speakerphones or daisy-chained USB mics rather than built-in conference room speakers. This guide covers equipment recommendations by room size and provides automation scripts for one-touch meeting starts.
 
+## Key Takeaways
+
+- **Build a hybrid meeting**: room for $180-500 by prioritizing audio quality, choosing reliable cameras like the Logitech C920, adding proper lighting, and automating setup with shell scripts.
+- **Audio quality matters most—use**: speakerphones or daisy-chained USB mics rather than built-in conference room speakers.
+- **Mid-Range Option ($150-250)**: The Logitech Brio offers 4K resolution with excellent auto-exposure.
+- **The Speakerphone Solution**: For small rooms (2-4 people), a single speakerphone like the Jabra Speak 410 ($100) or even an USB microphone like the Blue Yeti ($130) handles both input and output.
+- **The Konftel Ego ($180)**: can connect to another unit, extending coverage to medium-sized meeting rooms.
+- **Position the microphone within**: 6 feet of speakers for best results.
+
 ## Core Components You Actually Need
 
 The three pillars of any video conferencing setup are audio, video, and lighting. Skip the marketing fluff—focus on specifications that matter for real meeting quality.

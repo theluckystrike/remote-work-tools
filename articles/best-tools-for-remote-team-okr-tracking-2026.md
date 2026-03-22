@@ -25,6 +25,15 @@ OKRs (Objectives and Key Results) work only when every engineer, designer, and m
 
 This article compares five OKR tracking tools head-to-head on setup ease, reporting, cascade mechanisms, and whether they actually keep distributed teams aligned through the quarter.
 
+## Key Takeaways
+
+- **Cost**: Free (if you have Notion), or $10/user/month for full workspace.
+- **Best for**: Enterprise teams (300+ people) that need complex cascade mechanics, compliance tracking, and deep Salesforce/enterprise ERP integration.
+- **Most critical**: Pick a tool and commit.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Best for**: Small-to-medium teams (20-200 people) that want lightweight OKR tracking and don't need complex enterprise reporting.
+- **Cost**: $25-50/user/month (enterprise pricing).
+
 ## Weekdone
 
 Weekdone is lightweight—it prioritizes simplicity over feature bloat. Built explicitly for remote teams and async work, it's strong for teams that want OKR tracking without learning new enterprise software.

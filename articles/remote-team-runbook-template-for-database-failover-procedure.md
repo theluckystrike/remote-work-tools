@@ -31,6 +31,15 @@ voice-checked: true---
 
 When your primary database instance fails at 3 AM while your DBA is eight time zones away, the difference between a 15-minute recovery and a multi-hour outage often comes down to having a well-practiced failover runbook. Database failures don't wait for business hours, and distributed DevOps teams can't rely on synchronous handoffs during critical incidents. This guide provides a runbook template that remote engineering teams can adapt for handling database failovers across distributed staff.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Testing connectivity..." pg_isready -h**: "$NEW_PRIMARY" || exit 1 # 2.
+- **Testing query execution..." psql**: -h "$NEW_PRIMARY" -c "SELECT 1;" | grep -q "1" || exit 1 # 3.
+- **Running application smoke tests..."**: SMOKE=$(curl -s https://api.yourapp.com/health/db) echo "$SMOKE" | grep -q "healthy" || exit 1 # 4.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **A failover that requires**: senior DBA approval can stall for hours simply because the right person is sleeping.
+
 ## The Challenge of Database Failover in Distributed Teams
 
 Traditional database operations assume that the person with the most knowledge about the system is available when problems arise. In distributed teams spanning multiple time zones, this assumption breaks down. A failover that requires senior DBA approval can stall for hours simply because the right person is sleeping.

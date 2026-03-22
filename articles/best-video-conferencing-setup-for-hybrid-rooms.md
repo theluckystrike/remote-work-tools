@@ -31,6 +31,15 @@ intent-checked: true---
 
 The best video conferencing setup for hybrid rooms combines a PTZ camera with auto-tracking, consistent front-lighting at 45-degree angles, and eye-level displays for remote participants. These three components solve the core hybrid challenge: serving both in-room and remote audiences with equal quality. This guide covers camera selection, lighting strategies, and software integration for each room size.
 
+## Key Takeaways
+
+- **Often**: better lighting gets you 80% of the way there.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Most production deployments**: however, use dedicated conferencing hardware that handles these settings automatically.
+- **The best video conferencing**: setup for hybrid rooms combines a PTZ camera with auto-tracking, consistent front-lighting at 45-degree angles, and eye-level displays for remote participants.
+- **Look for models with**: auto-focus and adequate resolution (1080p minimum, 4K preferred).
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+
 ## Core Video Requirements for Hybrid Spaces
 
 The foundation of any hybrid room video setup rests on three pillars: camera coverage, display placement, and lighting consistency. Each affects how effectively remote participants engage with in-room activity.

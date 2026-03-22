@@ -33,6 +33,16 @@ Conflict in remote teams is invisible until it's catastrophic. You don't see the
 
 This guide codifies a conflict resolution framework used by distributed teams (50–500 people) across SaaS and open-source projects. It's designed for async-first environments where synchronous meetings aren't always possible, and decisions need documentation trails.
 
+## Key Takeaways
+
+- **sync - Whether integration**: suffers without sync interaction - Cost tolerance ($200+ per hire) ## Questions for Marcus 1.
+- **This guide codifies a**: conflict resolution framework used by distributed teams (50–500 people) across SaaS and open-source projects.
+- **Send a private message (Slack**: email, whatever you use for 1-on-1s)
+3.
+- **Success rate**: ~70% of remote conflicts resolve here with 1–2 exchanges.
+- **Assign a neutral mediator**: (skip their manager, pick a peer or trusted third party) 2.
+- **If first-month engagement is**: <40% of sync-cohort baseline, we revisit.
+
 ## The Core Problem with Remote Conflict
 
 **Synchronous assumptions break down:**

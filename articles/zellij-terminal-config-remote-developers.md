@@ -33,6 +33,15 @@ Zellij is a terminal multiplexer written in Rust, designed as a more approachabl
 
 For remote developers, Zellij offers session persistence like tmux, but with less configuration overhead and a layout system that uses KDL files (a readable config format) instead of shell scripts.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
+- **Forced adoption without buy-in**: almost always fails.
+
 ## Install Zellij
 
 ```bash

@@ -28,6 +28,16 @@ intent-checked: true
 voice-checked: true---
 
 
+| Tool | Key Feature | Remote Team Fit | Integration | Pricing |
+|---|---|---|---|---|
+| Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
+| Slack | Real-time team messaging | Channels, threads, huddles | 2,600+ apps | $7.25/user/month |
+| Linear | Fast project management | Keyboard-driven, cycles | GitHub, Slack, Figma | $8/user/month |
+| Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
+| 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
+
+
+
 Remote teams that scale successfully share one trait: they stop routing every decision through founders and senior leaders. Building a decision-making framework that works across time zones requires explicit tiers, clear ownership, and documented processes that work asynchronously. This guide covers the structures, tools, and patterns that distributed engineering teams use to move fast without constant synchronous coordination.
 
 ## Key Takeaways

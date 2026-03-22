@@ -33,6 +33,15 @@ Configure a shared Notion workspace for client collaboration by establishing cle
 
 This guide walks through the technical implementation of a shared Notion workspace specifically designed for remote agency-client collaboration.
 
+## Key Takeaways
+
+- **For most agencies managing multiple clients**: the guest invitation model works well because it keeps all client data within your organization's Notion plan while providing appropriate access controls.
+- **Use single-sign-on (SSO) if**: available on your Notion Business plan 3.
+- **Use encryption for any**: stored API keys or access tokens Notion's enterprise plan offers additional security features like SAML SSO and domain-wide sharing controls that larger agencies may require.
+- **Read-only access to project**: dashboard and documentation pages 2.
+- **If you track tasks in Linear**: keep using Linear and use Notion for documentation and specs.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Workspace Architecture for Agency-Client Sharing
 
 The first decision involves choosing between a guest-based model or a multi-workspace approach. For most agencies managing multiple clients, the guest invitation model works well because it keeps all client data within your organization's Notion plan while providing appropriate access controls.

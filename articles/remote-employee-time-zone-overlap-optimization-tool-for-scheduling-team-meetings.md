@@ -33,6 +33,15 @@ Find optimal meeting times for distributed teams using visualization tools that 
 
 This guide walks through building and using such a tool, with practical code examples you can adapt for your team's workflow.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Custom Slack Integration offers**: the most power.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Most scheduling tools simply**: show you time zones without doing the math to identify overlaps that actually work.
+
 ## The Core Problem
 
 Remote teams typically define "working hours" as something like 9 AM to 6 PM in each person's local time zone. When you have team members in PST (UTC-8), GMT (UTC+0), and JST (UTC+9), the only overlap in standard working hours is a narrow 2-hour window around 9 AM PST / 5 PM GMT / midnight JST—and that's already outside normal working hours for Tokyo.

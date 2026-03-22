@@ -31,6 +31,19 @@ tags: [remote-work-tools, remote-work]---
 
 Balance workload across remote teams using tools that visualize capacity across projects, track time allocation by individual, and flag burnout risks before they become problems. Workload visibility prevents the silent burnout that remote work often hides.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **For deep technical work (architecture design**: complex debugging, security reviews), 60% capacity gives headroom for the unpredictable depth that good work requires.
+- **For support-intensive roles**: 70% prevents the reactive work from crowding out proactive improvements.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **For execution-heavy work (bug fixes**: documentation, routine feature development), 75% is a reasonable upper bound.
+- **Document**: Note why the redistribution happened for future planning
+
+Example redistribution message:
+
+> "Hey Marcus, I noticed your load is at 92% this sprint.
+
 ## The Core Problem: Invisible Overload
 
 In co-located teams, you can physically see when someone's desk is buried under papers or when someone leaves early to decompress. Remote work removes these visual cues. A developer in Tokyo might be drowning in tickets while their manager in San Francisco assumes everything is fine because pull requests are still coming in.

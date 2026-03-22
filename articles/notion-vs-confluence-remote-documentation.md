@@ -31,6 +31,15 @@ Remote teams need documentation that non-technical contributors can write, that 
 
 This is not a feature list comparison. It is an evaluation of how each tool performs in the specific conditions of remote work.
 
+## Key Takeaways
+
+- **Notion's free tier is**: limited enough that most teams upgrade quickly.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+- **If you work with**: sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
+- **Remote teams need documentation**: that non-technical contributors can write, that engineers can query quickly, and that scales past 500 pages without becoming a graveyard.
+- **Notion and Confluence are**: the two most common choices at small-to-mid-size companies.
+- **Content looks like internal**: documentation because that is what it is designed for.
+
 ## The Core Difference
 
 Confluence is a structured documentation platform built for enterprises. Pages have a hierarchy — spaces, pages, child pages — and the system enforces it. Content looks like internal documentation because that is what it is designed for.

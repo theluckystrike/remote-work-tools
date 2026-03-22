@@ -20,6 +20,13 @@ Configure a shared inbox for client support by using a platform like Front or Gm
 
 This guide covers practical approaches to setting up shared inboxes specifically for remote agencies handling client support. You'll find configuration examples, automation patterns, and decision criteria for choosing the right setup for your team.
 
+## Key Takeaways
+
+- **In Google Admin**: configure the group to accept emails from external senders and forward them to all members or use the "Who can post" settings to restrict to members only.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: the problem with basic shared email, option 1: google groups with shared labels, initial configuration
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## The Problem with Basic Shared Email
 
 Traditional shared email accounts create several issues for remote teams:

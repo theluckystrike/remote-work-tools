@@ -33,6 +33,15 @@ Building psychological safety in distributed engineering teams requires delibera
 
 This guide provides an assessment framework that engineering managers can implement immediately to measure psychological safety across their remote teams.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Typeform**: $25-99/month.
+- **Lattice/15Five**: $7-15/user/month.
+- **CultureAmp**: $10,000+/year.
+- **Does Slack offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+
 ## Understanding Psychological Safety in Remote Contexts
 
 Psychological safety refers to a shared belief that the team is safe for interpersonal risk-taking. In remote engineering environments, this manifests through behaviors like:

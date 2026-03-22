@@ -29,6 +29,20 @@ tags: [remote-work-tools, capacity-planning, resource-management, project-manage
 
 Distributed teams struggle with visibility into who's available, when capacity exists for new work, and which team members are overallocated. Forecast, Float, Teamdeck, and Resource Guru each solve capacity planning differently—some emphasize billable utilization, others focus on workload balancing. This guide compares pricing, integration ecosystems, and setup complexity so you can pick the right tool for your team size, client model, and project management stack.
 
+## Key Takeaways
+
+- **Let's redistribute that bug**: bounty work to keep utilization at 80-85%." ``` ### Distributed Remote Teams (Accuracy Focus) Use Teamdeck for integrated tracking and planning.
+- **Best for**: Service firms with billable utilization targets (85-90%), client delivery timelines, staffing optimization.
+- **Best for**: Agencies, consulting firms, freelance networks, companies with variable project staffing needs.
+- **Next time**: let's estimate 12 hours up front."
+```
+
+### Agencies with Freelancers
+
+Use Resource Guru for flexible pooling.
+- **This guide compares pricing**: integration ecosystems, and setup complexity so you can pick the right tool for your team size, client model, and project management stack.
+- **Most teams estimate optimistically**: (8 hours for a task that takes 10).
+
 ## Why Capacity Planning Matters for Remote Teams
 
 Without visibility into team capacity, you default to assigning work reactively. This creates:

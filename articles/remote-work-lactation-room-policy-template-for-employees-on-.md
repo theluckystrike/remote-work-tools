@@ -31,6 +31,18 @@ score: 9---
 
 Creating effective lactation room policies for remote employees requires addressing the unique challenges of video-based work environments. Unlike traditional office settings where physical lactation rooms provide privacy, remote work demands thoughtful policy design that respects employees' needs while maintaining professional meeting etiquette. This guide provides a policy template and technical implementation strategies for organizations supporting breastfeeding employees in video-centric workplaces.
 
+## Key Takeaways
+
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
+- **Creating effective lactation room**: policies for remote employees requires addressing the unique challenges of video-based work environments.
+- **Understanding legal requirements**: Knowledge of protected break rights and accommodation obligations
+2.
+- **Confidentiality**: Maintaining privacy around employees' lactation needs
+4.
+- **Technology tutorials**: Offer guides for using scheduling tools and calendar integrations
+4.
+
 ## Understanding the Legal Framework
 
 The Pump Act of 2022 expanded protections for breastfeeding employees in the United States, requiring reasonable break time and a private space (other than a bathroom) for expressing milk. Remote employees are covered under these protections, though implementation differs significantly from in-office scenarios. Organizations must craft policies that acknowledge these legal requirements while providing practical solutions for video call environments.

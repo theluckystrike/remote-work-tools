@@ -18,6 +18,15 @@ Power interruptions are the second most common cause of remote work disruption a
 
 Most engineers treat UPS as a luxury. It is not. If you are working on a deployment, in a video call with a client, or running a long test suite when the power goes out, you will lose time proportional to how unprepared you are. A proper UPS installation costs less than one hour of wasted work at most engineer salaries.
 
+## Key Takeaways
+
+- **Signals software to gracefully**: shut down servers or NAS devices before battery depletes Most engineers only need function 1 and 2.
+- **Power interruptions are the**: second most common cause of remote work disruption after internet failures.
+- **If budget is a constraint**: a used APC Back-UPS 1500 from eBay with a new third-party battery costs around $40-60 total and provides equivalent protection.
+- **Why the 0.7 derating rule matters**: Running a UPS at 100% capacity continuously degrades the battery faster and generates more heat.
+- **Third-party replacements (BB Battery**: Yuasa) are 30-50% cheaper and generally comparable quality.
+- **Most engineers treat UPS**: as a luxury.
+
 ## What a UPS Actually Does
 
 A UPS has three functions:

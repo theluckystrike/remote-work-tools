@@ -17,6 +17,17 @@ voice-checked: true---
 
 Retrospectives are essential for continuous improvement, but traditional synchronous meetings often favor vocal team members and create timezone headaches for distributed teams. Silent brainstorming with digital stickies solves these problems by shifting the ideation phase to async, then following up with a focused synchronous discussion.
 
+## Key Takeaways
+
+- **Cost calculation**: If you're running monthly retros and keeping 12 months of history, you'll eventually need the $10-16/month plan for unlimited boards.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Share the link in**: your team Slack channel with clear instructions For teams preferring open-source solutions, HedgeDoc (formerly CodiMD) provides a straightforward approach.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Here's a practical setup using Miro**: which offers a free tier sufficient for small teams:
+
+1.
+- **Sync meeting outcome**: Team agreed to add "acceptance criteria checklist" to ticket templates and allocated 20% of next sprint to CI/CD optimization.
+
 ## Why Silent Brainstorming Works Better for Remote Teams
 
 In live retrospective meetings, several dynamics reduce effectiveness. Team members in different time zones struggle to attend at reasonable hours. Introverted developers often stay quiet while extroverts dominate the conversation. Quick thinkers with fast typing skills get their ideas recorded first, anchoring subsequent discussion.

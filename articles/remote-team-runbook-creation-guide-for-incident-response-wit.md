@@ -12,9 +12,23 @@ categories: [guides]
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]---
+
+
 ```
 
 This front-matter style approach allows teams to scan the critical path quickly. Each section answers a specific question: What does this problem look like? What should I do first? Who do I call? What if I make things worse?
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Incident owner (20 min)**: Timeline and root cause
+2.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- Build explicit handoff requirements:
+
+1.
+- **If step 3 requires**: SSH access and you don't have keys configured, you'll discover this during a game day, not during a real incident.
 
 ## Building the Response Workflow
 

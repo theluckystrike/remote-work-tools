@@ -31,6 +31,15 @@ voice-checked: true---
 
 Planning a retreat for a distributed team requires more coordination than an in-person team meeting. Between flight bookings, accommodation blocks, activity scheduling, and dietary restrictions, the logistics pile up quickly. Without a clear budget framework and logistics checklist, costs spiral and important details fall through the cracks. This guide provides a reproducible template you can adapt for any remote team retreat size or budget.
 
+## Key Takeaways
+
+- **Many teams underestimate total**: costs by 30-50% because they forget line items beyond the obvious venue and travel expenses.
+- **Smaller teams often see**: higher per-person costs due to fixed venue minimums, while larger teams (20+) can negotiate better group rates.
+- **Use this framework as a starting point**: adjust based on your team's specific needs, and iterate on future retreats based on post-event feedback.
+- **Use this checklist organized**: by timeline.
+- **A bootstrapped startup might**: choose a "workcation" model with Airbnb rentals and co-working space day passes.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Budget Framework for Remote Team Retreats
 
 The first step in retreat planning is establishing a realistic budget. Many teams underestimate total costs by 30-50% because they forget line items beyond the obvious venue and travel expenses.

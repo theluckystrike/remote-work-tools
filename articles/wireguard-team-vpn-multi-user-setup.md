@@ -31,6 +31,13 @@ WireGuard is the fastest, simplest VPN protocol available. Setting it up for a s
 
 This guide covers the complete team setup: server installation, peer key management scripts, client configuration for multiple platforms, and split tunneling to avoid routing all traffic through the VPN.
 
+## Key Takeaways
+
+- **WireGuard is the fastest**: simplest VPN protocol available.
+- **Setting it up for**: a team requires managing peer keys, distributing configs, revoking access, and deciding whether to route all traffic or only internal traffic through the tunnel.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: architecture, server setup, peer management script
+
 ## Architecture
 
 ```

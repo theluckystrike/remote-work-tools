@@ -27,6 +27,16 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work, api]---
 
+
+| Tool | Key Feature | Remote Team Fit | Integration | Pricing |
+|---|---|---|---|---|
+| Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
+| Slack | Real-time team messaging | Channels, threads, huddles | 2,600+ apps | $7.25/user/month |
+| Linear | Fast project management | Keyboard-driven, cycles | GitHub, Slack, Figma | $8/user/month |
+| Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
+| 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
+
+
 {% raw %}
 
 Treat API documentation as code by storing it in version control and automating generation from code annotations using OpenAPI specifications. This approach keeps documentation current with your codebase and lets distributed teams review changes through pull requests, making it the best practice for remote engineering teams. Document every endpoint with exact parameters, example requests/responses, and authentication requirements—then automate deployment of your OpenAPI spec to a tool like Swagger UI so developers can explore it interactively.

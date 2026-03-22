@@ -31,6 +31,17 @@ intent-checked: true---
 
 Remote team retrospectives require tools that help asynchronous input, reduce meeting friction, and preserve action items across sprints. Unlike in-person retros where you can use physical whiteboards, distributed teams need platforms that support real-time collaboration, voting on action items, and persistent documentation. This guide compares the leading retro tools with practical comparisons for teams of 5-50 people.
 
+## Key Takeaways
+
+- **Choose format (Start/Stop/Continue is**: most common) 4.
+- **Choose Tool**: Select based on team size and integrations needed
+2.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Unlike in-person retros where**: you can use physical whiteboards, distributed teams need platforms that support real-time collaboration, voting on action items, and persistent documentation.
+- **Sign up at easyretro.io**: (no credit card required for free plan) 2.
+- **Freeze scope 48h before sprint (Owner**: PM, Due: Next sprint)
+4.
+
 ## Why Dedicated Retro Tools Matter
 
 Teams often resort to generic tools like Google Docs or Miro for retrospectives. This approach creates problems:

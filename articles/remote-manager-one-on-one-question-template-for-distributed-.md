@@ -33,6 +33,15 @@ Running effective one-on-one meetings with a distributed team requires more than
 
 This guide provides a practical question template you can adapt for your distributed team, along with implementation strategies that actually work for developers and technical power users.
 
+## Key Takeaways
+
+- **If poor one-on-ones cause**: one unnecessary departure per year in a team of 10, that's $50,000-$200,000 in hidden cost.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Support Needs What would**: help you move faster or more effectively? - - ### 4.
+- **Better to have 15-minute**: weekly one-on-ones that actually happen than 60-minute monthly ones that get cancelled.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## The Hidden Cost of Poor One-on-Ones
 
 Bad one-on-ones cost companies money. Research shows:

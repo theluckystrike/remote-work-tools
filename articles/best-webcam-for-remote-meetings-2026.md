@@ -19,6 +19,15 @@ Remote meetings have become a staple of professional life, and the difference be
 
 This guide breaks down the technical aspects of modern webcams, helping you make an informed decision without relying on marketing hype.
 
+## Key Takeaways
+
+- **Razer and Logitech both**: have models with Hello support, adding ~$20-30 to the price.
+- **While convenient**: most webcam mics pick up room reverb and keyboard sounds.
+- **Most modern webcams offer**: 1080p (Full HD) as the baseline, with 4K options becoming increasingly common.
+- **For most remote meeting scenarios**: 1080p at 30fps provides excellent results.
+- **Many video conferencing platforms**: now support 4K, though bandwidth considerations may require proper encoding.
+- **If you often have**: multiple people in frame or need to show your whiteboard, wider FOV options serve better.
+
 ## Resolution and Frame Rate: What Actually Matters
 
 The most visible specification is resolution. Most modern webcams offer 1080p (Full HD) as the baseline, with 4K options becoming increasingly common. However, resolution alone doesn't determine image quality.

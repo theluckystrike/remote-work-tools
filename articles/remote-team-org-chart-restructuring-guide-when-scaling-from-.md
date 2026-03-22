@@ -17,6 +17,15 @@ intent-checked: true---
 
 Restructure from flat to layered management at 15-20 people by establishing clear ownership domains, creating tech lead roles that provide decision authority without full P&L management, and defining escalation paths that preserve fast decision-making. Flat structures work until knowledge silos form, decision bottlenecks emerge, and only three people can answer every question. This guide provides a practical framework for org chart transitions without losing the velocity and transparency that made your distributed team effective.
 
+## Key Takeaways
+
+- **Cost**: $4-8/employee/month.
+- **Most distributed teams fail**: at scale because they didn't intentionally design for distribution.
+- **Respect that choice—forcing technical**: people into management loses you their best contribution.
+- **This prevents the "accidental**: manager" problem where your best engineer becomes a mediocre manager.
+- **This structure scales because**: managers aren't also trying to be IC contributors.
+- This is free and scalable.
+
 ## Recognizing the Signs That You Need Structure
 
 Flat organizations work well when everyone can directly coordinate. But certain symptoms indicate you've outgrown that model:

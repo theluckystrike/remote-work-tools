@@ -16,6 +16,13 @@ voice-checked: true---
 
 Incident management for remote teams has different requirements than co-located ones. You can't shout across the office. Your on-call engineer might be in a different timezone. The post-mortem happens over two days of async Slack threads rather than a 30-minute meeting. The tool you choose needs to handle all of this without the benefit of physical proximity.
 
+## Key Takeaways
+
+- **Several practices reduce alert**: fatigue specifically for distributed on-call rotations: Alert deduplication: Most incident tools can suppress repeated alerts from the same root cause.
+- **The tool you choose**: needs to handle all of this without the benefit of physical proximity.
+- **The same alert at**: 2 AM should either wait until morning or escalate only if it crosses a higher severity threshold.
+- **Topics covered**: the core requirements, pagerduty, opsgenie (atlassian)
+
 ## The Core Requirements
 
 For distributed teams, incident management tools need:

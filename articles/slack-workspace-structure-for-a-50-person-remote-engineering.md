@@ -31,6 +31,16 @@ tags: [remote-work-tools, remote-work]---
 
 Structure your 50-person engineering Slack workspace into three tiers: company-wide channels (#engineering, #incidents, #announcements), team channels with a `team-` prefix (#team-backend, #team-frontend), and temporary project channels with a `proj-` prefix. Default every channel to public, integrate GitHub and PagerDuty notifications, and enforce consistent naming conventions from day one. This guide covers the full setup with access controls, integration configs, and retention policies.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Slack offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Keep this read-only for**: most users to reduce noise.
+- **Non-blocking = async**: Use threads, don't expect immediate responses
+4.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## Channel Hierarchy Strategy
 
 The most effective approach for engineering teams at this scale uses a three-tier channel hierarchy: company-wide, team-specific, and project-focused. This mirrors how engineers think about code organization.

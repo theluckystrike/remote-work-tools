@@ -31,6 +31,17 @@ voice-checked: true---
 
 Grading at scale requires API-driven bulk operations, automated scoring through learning management systems (Canvas, Moodle), and GitHub-integrated testing for code submissions. Canvas, Gradescope, and custom Python/JavaScript pipelines enable teachers managing 500+ students to reduce grading time from weeks to days. This guide examines technical approaches and tool capabilities for building efficient automated grading workflows for large online classes.
 
+## Key Takeaways
+
+- **The API rate limits**: (typically 100 requests per minute for unauthenticated requests) require implementing request throttling for large classes.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+- **If you work with**: sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
+- **Grading at scale requires**: API-driven bulk operations, automated scoring through learning management systems (Canvas, Moodle), and GitHub-integrated testing for code submissions.
+- **the first tool and**: the second tool serve different strengths, so combining them can cover more use cases than relying on either one alone.
+- **Which is better for beginners**: the first tool or the second tool?
+
+It depends on your background.
+
 ## Core Technical Requirements
 
 When evaluating grading tools for large-scale remote education, focus on these technical capabilities:

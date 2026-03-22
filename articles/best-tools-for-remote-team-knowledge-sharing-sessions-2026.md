@@ -18,6 +18,15 @@ tags: [remote-work-tools, knowledge-sharing, async-video, documentation]
 
 Loom dominates knowledge sharing for distributed teams due to superior search, instant transcription, and seamless sharing—$120/year for unlimited recording and searchable transcripts. Grain records meetings directly with auto-highlighted moments and speaker identification, costing $600/year for unlimited recordings. Scribe excels for process documentation with step-by-step screenshots and annotations, free tier includes 5 captures monthly. Tango generates interactive step-by-step guides from live actions without video recording. Choose Loom for broad knowledge capture and async learning, Grain for meeting analysis with automatic moment detection, Scribe for detailed process documentation, or Tango for interactive how-to guides. Most teams use a combination: Loom for general knowledge sessions, Scribe for repeatable processes, Tango for step-by-step guides, and Grain for strategic meetings requiring analysis.
 
+## Key Takeaways
+
+- **For small teams on tight budgets**: Use Loom's free tier for general recording plus Scribe's free tier for the 5 most critical processes.
+- **Pro costs $29/month (annually**: $290/year) for unlimited captures, custom branding, and Zapier integration.
+- **Add Scribe free tier**: (5 captures monthly) for the 3-4 most critical processes.
+- **This $410/year combination covers**: most distributed teams.
+- **For customer-facing organizations**: Use Tango Pro ($900/year) for interactive customer onboarding guides.
+- **Loom dominates knowledge sharing**: for distributed teams due to superior search, instant transcription, and seamless sharing—$120/year for unlimited recording and searchable transcripts.
+
 ## The Shift to Asynchronous Knowledge Transfer
 
 Remote teams eliminate synchronous training sessions. No one wants to schedule meetings across time zones for knowledge transfer that could be consumed asynchronously. The challenge: tools must make asynchronous content searchable, transcribed, and organized—not just recorded. A 45-minute recording with no transcript wastes hours when employees search for specific information buried in video.

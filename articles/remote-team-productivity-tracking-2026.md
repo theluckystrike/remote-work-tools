@@ -33,6 +33,15 @@ Productivity tracking for remote teams sits on a spectrum from surveillance tool
 
 This guide covers the practical end of the spectrum: time tracking that helps individuals understand their own work patterns, project-level metrics that help managers spot blockers, and the activity data worth paying attention to versus the data that creates anxiety without insight.
 
+## Key Takeaways
+
+- **$8.40/user/month (Standard**: most features).
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Pricing**: $5.90/user/month (Basic).
+- $16.70/user/month (Premium).
+- **Pricing**: $7/user/month (Starter).
+- **$6.50/month (Premium**: per person).
+
 ## What to Track (and What Not To)
 
 **Worth tracking:**

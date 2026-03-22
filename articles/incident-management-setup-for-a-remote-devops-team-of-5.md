@@ -33,6 +33,20 @@ When your five-person DevOps team is distributed across time zones, incident res
 
 This guide covers the essential components for setting up incident management that works for a small remote DevOps team.
 
+## Key Takeaways
+
+- **For a team of five**: use a four-tier system:
+
+- SEV1: Critical production outage affecting all users.
+- **Immediate actions**: What to do in the first 60 seconds
+3.
+- **Diagnosis steps**: How to identify the root cause
+4.
+- **Root cause**: Technical trigger and contributing factors
+4.
+- **Without clear protocols**: a production issue at 2 AM means scrambling to find who is on-call, digging through scattered documentation, and making critical decisions in a vacuum.
+- **Start with the five**: most common incident types your team faces, then expand as you encounter new scenarios.
+
 ## Defining Incident Severity Levels
 
 Establishing clear severity levels upfront prevents over-escalation and ensures appropriate response times. For a team of five, use a four-tier system:

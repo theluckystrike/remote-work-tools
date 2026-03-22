@@ -31,6 +31,15 @@ Running Terraform on a team requires solving problems that solo use does not fac
 
 This guide covers the complete Terraform setup for remote teams: S3 backend with DynamoDB locking, workspace separation, reusable modules, and GitHub Actions integration.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **This guide covers the**: complete Terraform setup for remote teams: S3 backend with DynamoDB locking, workspace separation, reusable modules, and GitHub Actions integration.
+
 ## Remote State with S3 and DynamoDB Locking
 
 Local `terraform.tfstate` files break immediately in a team. Two people cannot run `terraform apply` simultaneously without corrupting state. S3 + DynamoDB gives you shared state with pessimistic locking.

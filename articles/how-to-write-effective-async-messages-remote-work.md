@@ -17,6 +17,15 @@ voice-checked: true---
 
 Effective async messaging is the backbone of successful remote collaboration. When your team spans multiple time zones, every well-written message saves hours of unnecessary meetings and clarifying back-and-forth. This guide covers practical patterns for writing messages that get results without requiring instant replies.
 
+## Key Takeaways
+
+- **Messages become more thoughtful**: decisions become more documented, and team members gain freedom to work when they're most productive.
+- **Why**: Reduce build times by 40% and simplify maintenance.
+- **Use project management tools**: for work-related tasks that need tracking, assignment, and future reference.
+- **Use email for formal requests**: external communication, and messages requiring documentation.
+- **Use Slack for quick questions**: informal coordination, and time-sensitive items within your immediate team.
+- **When you choose the right channel**: you increase the likelihood of timely responses and reduce the cognitive load on your team.
+
 ## The Core Principles of Async Communication
 
 Async communication works best when you treat each message as a complete unit of work. Unlike chat, where you can iterate in real time, async messages must stand on their own. The sender cannot be available to answer follow-up questions immediately, so the message itself must anticipate and address potential questions.

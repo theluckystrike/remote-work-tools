@@ -204,6 +204,16 @@ Some teams find that hybrid standups are more trouble than they're worth. Consid
 Async standups using tools like Geekbot, Standuply, or simple Slack threads can be equally effective for information sharing while eliminating the coordination overhead.
 ---
 
+
+
+| Tool | Video Quality | Screen Sharing | Recording | Pricing |
+|---|---|---|---|---|
+| Zoom | Up to 4K | Desktop + app sharing | Cloud + local | $13.33/user/month |
+| Google Meet | Up to 1080p | Screen + tab sharing | Google Drive | Included with Workspace ($6+) |
+| Microsoft Teams | Up to 1080p | Desktop + PowerPoint Live | OneDrive/SharePoint | Included with M365 ($6+) |
+| Around | Floating window, auto-crop | Screen sharing | No recording | Free / $8.50/user/month |
+| Tuple | HD pair programming | Full screen control | Session recording | $30/user/month |
+
 ## Advanced Facilitation Techniques
 
 Beyond format and room setup, skilled facilitation dramatically improves hybrid standup effectiveness.

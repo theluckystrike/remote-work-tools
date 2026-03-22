@@ -31,6 +31,15 @@ Remote infrastructure needs observability. Without it, you find out about a cras
 
 This guide builds a complete monitoring stack: Prometheus, Grafana, and Node Exporter on a dedicated monitoring server, with targets across your fleet.
 
+## Key Takeaways
+
+- **What is a good**: scrape interval for production? 15 seconds is the standard default and works for most workloads.
+- **Increase to 5 seconds only for high-frequency trading or real-time alerting requirements**: it significantly increases storage costs.
+- **Step 5**: Import the starter dashboards. Dashboard ID 1860 (Node Exporter Full) and ID 3662 (Prometheus 2.0 Overview) cover 90% of what you need immediately.
+- **Prometheus scrapes metrics from**: your servers and containers every 15 seconds.
+- **Step 1**: Provision the monitoring server. Use a dedicated instance (2 vCPU, 4 GB RAM handles 50 targets comfortably).
+- **Drop to 30 seconds**: if your Prometheus instance CPU spikes during scrapes across large fleets.
+
 ## Architecture
 
 ```

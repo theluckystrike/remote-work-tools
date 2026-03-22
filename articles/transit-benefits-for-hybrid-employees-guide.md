@@ -31,6 +31,16 @@ voice-checked: true---
 
 Transit benefits for hybrid employees let you pay for commuting costs with pre-tax dollars through Section 132(f), saving a typical developer around $75 per month in taxes on a $300 monthly transit pass. Enroll during open enrollment, choose a monthly pass if you commute 8 or more days per month, and stack transit with parking or bike-to-work benefits where your employer allows. This guide covers savings calculations, pass selection strategies, and regional program details.
 
+## Key Takeaways
+
+- **Employees pay 7.65% in**: FICA taxes on wages below the Social Security wage base ($168,600 for 2026).
+- **Use transit apps**: Most metropolitan areas have apps showing real-time arrivals, helping you time departures
+3.
+- **For a developer at $130,000 income**: this brings total monthly savings on a $300 transit benefit closer to $90-95 per month, not the $75 estimate based on income tax alone.
+- **Enroll during open enrollment**: choose a monthly pass if you commute 8 or more days per month, and stack transit with parking or bike-to-work benefits where your employer allows.
+- **Hybrid schedules break that**: assumption—a two-day-per-week schedule means you use the transit system 8-10 times per month instead of 20-22 times.
+- **Employers also save 7.65%**: in employer FICA contributions on the benefit amount, which is why many employers actively encourage enrollment—it reduces their payroll tax obligation as well.
+
 ## Understanding Transit Benefit Programs
 
 Most organizations with hybrid policies offer some form of commuter benefits, typically through pre-tax deduction programs. These programs let you allocate a portion of your paycheck before taxes to qualified transit expenses, reducing your taxable income while covering work-related commuting costs.
