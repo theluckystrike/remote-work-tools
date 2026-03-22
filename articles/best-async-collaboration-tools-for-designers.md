@@ -6,9 +6,9 @@ date: 2026-03-22
 author: theluckystrike
 permalink: /best-async-collaboration-tools-for-designers/
 categories: [guides]
-tags: [remote-work-tools]
+tags: [remote-work-tools, best-of, collaboration]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
