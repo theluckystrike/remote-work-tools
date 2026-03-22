@@ -1,9 +1,10 @@
 ---
+
 layout: default
 title: "Remote Team Metrics Collection Strategy for Measuring Deployment Lead Time Accurately"
 description: "Learn how to collect and analyze deployment lead time metrics across distributed teams. Practical strategies and workflow examples for remote teams measuring DORA metrics."
 date: 2026-03-16
-author: "Remote Work Tools"
+author: "Remote Work Tools Guide"
 permalink: /remote-team-metrics-collection-strategy-for-measuring-deploy/
 categories: [guides]
 voice-checked: true
@@ -11,6 +12,7 @@ tags: [remote-work-tools, devops, deployment-metrics, dora-metrics, remote-teams
 reviewed: true
 score: 8
 ---
+
 
 {% raw %}
 
