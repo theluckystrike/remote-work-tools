@@ -7,7 +7,7 @@ date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /remote-team-wellness-check-app-for-mobile-tracking-team-mora/
 reviewed: true
-score: 8
+score: 9
 categories: [guides]
 tags: [remote-work-tools, remote-work]
 intent-checked: true

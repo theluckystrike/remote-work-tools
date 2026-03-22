@@ -6,6 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-team-metrics-collection-strategy-for-measuring-deploy/
 categories: [guides]
+voice-checked: true
 tags: [remote-work-tools, devops, deployment-metrics, dora-metrics, remote-teams, distributed-teams, team-metrics, lead-time]
 reviewed: true
 score: 8

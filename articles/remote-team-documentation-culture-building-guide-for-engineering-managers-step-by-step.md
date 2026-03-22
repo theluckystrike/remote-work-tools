@@ -199,7 +199,114 @@ Start small, stay consistent, and watch your documentation culture develop natur
 
 
 
-## Frequently Asked Questions
+## Practical Documentation Workflow Template
+
+Implement this structured workflow to ensure documentation stays part of your daily process:
+
+```markdown
+# Documentation Workflow for Engineering Teams
+
+## Code Changes Documentation
+1. Author creates PR with code changes
+2. Checklist requires: "Documentation updated: Yes/No"
+3. If Yes: Specify which docs were updated
+4. If No: Explain why (e.g., internal refactor)
+5. Reviewer checks documentation completeness
+6. Merge only when docs are updated
+
+## Architecture Changes Documentation
+- Trigger: Any change affecting system design
+- Owner: Engineering lead
+- Artifact: New or updated ADR
+- Timeline: ADR must be merged before implementation PR
+- Review: At least 2 senior engineers
+
+## Runbook and Operational Docs
+- Update after every incident
+- Post-mortem generates runbook updates
+- Assign owner for each critical system
+- Quarterly review and refresh
+```
+
+## Documentation Quality Checklist
+
+Use this checklist to maintain documentation quality:
+
+```yaml
+documentation_quality:
+  accuracy:
+    - Code examples execute without modification
+    - Screenshots match current product
+    - Links are not broken
+    - API endpoints are current
+
+  completeness:
+    - Happy path documented
+    - Error cases and edge cases covered
+    - Prerequisites clearly listed
+    - Expected outcomes described
+
+  clarity:
+    - No jargon without explanation
+    - Uses consistent terminology
+    - Step numbers are sequential
+    - Audience is clearly identified
+
+  maintenance:
+    - Last updated date is recent
+    - Owner is clearly assigned
+    - Deprecation warnings if applicable
+    - Migration path if moving to new system
+```
+
+## Building Documentation Into Your Definition of Done
+
+Expand your Definition of Done to explicitly include documentation:
+
+```markdown
+# Enhanced Definition of Done
+
+## Code Quality
+- [ ] Tests pass with >80% coverage
+- [ ] Linters pass with zero warnings
+- [ ] Security review complete
+- [ ] Performance benchmarks acceptable
+
+## Documentation
+- [ ] README updated (if user-facing)
+- [ ] API documentation updated
+- [ ] Runbooks updated (if operational)
+- [ ] Architecture documentation updated
+- [ ] Examples or tutorials created (if needed)
+- [ ] Deprecation warnings added (if removing features)
+
+## Knowledge Transfer
+- [ ] Code comments explain "why" not "what"
+- [ ] Complex algorithms have explanation documents
+- [ ] Dependencies clearly listed
+- [ ] Configuration options documented
+
+## Process
+- [ ] Code review complete
+- [ ] Documentation review complete
+- [ ] Merge requested by author
+- [ ] No merge until docs approved
+```
+
+## Documentation Metrics Worth Tracking
+
+Monitor these metrics to understand documentation health:
+
+| Metric | Measurement | Target | Frequency |
+|--------|-------------|--------|-----------|
+| Page staleness | Days since last update | < 180 days | Monthly |
+| Search effectiveness | % of queries finding answer | > 75% | Quarterly |
+| New hire onboarding time | Hours to first commit | < 40 hours | Per hire |
+| Documentation creation rate | Pages created per sprint | > 2 | Sprint |
+| Update frequency | % of docs updated quarterly | > 80% | Quarterly |
+| Broken links | Count of 404s in docs | 0 | Weekly |
+
+## Related Articles
 
 
 **How long does it take to complete this setup?**

@@ -197,8 +197,249 @@ Grant developers read access to dev and staging, but require additional approval
 
 Most secrets management tools support this pattern through policies or access groups. The key is establishing clear boundaries between environments from the start.
 
----
+## Secrets Management Tool Comparison
 
+Compare these solutions across practical dimensions for remote teams:
+
+| Dimension | Vault | AWS Secrets Manager | Doppler | SOPS |
+|-----------|-------|-------------------|---------|------|
+| Setup complexity | High | Medium | Low | Medium |
+| Self-hosted option | Yes | No | No | Yes (as part of git) |
+| Learning curve | Steep | Medium | Shallow | Steep |
+| Cost for 10 developers | $150-300/mo | $0.40/secret + retrieval | $50-100/mo | Free |
+| Cross-cloud support | Yes | AWS only | Yes | Yes |
+| Audit logging | Yes | Yes | Yes | Via git history |
+| Secret rotation | Yes | Yes (limited) | Yes | Manual via CI |
+| Team access control | Policy-based | IAM-based | Role-based | Git-based |
+| CLI tool quality | Good | Good | Excellent | Good |
+| Integration ecosystem | Extensive | AWS-native | Growing | Git-based |
+| Real-time updates | Yes | Yes | Yes | On-commit |
+| Compliance ready | Yes | Yes | Yes | Yes |
+
+## Environment-Based Access Pattern
+
+Implement this pattern for proper secret segregation:
+
+```hcl
+# Vault policy: developers.hcl
+path "secret/data/myapp/dev/*" {
+  capabilities = ["create", "read", "update", "list"]
+}
+
+path "secret/data/myapp/staging/*" {
+  capabilities = ["read", "list"]
+}
+
+path "secret/data/myapp/production/*" {
+  capabilities = []  # No direct access, require approval
+}
+
+path "secret/metadata/myapp/*" {
+  capabilities = ["list"]
+}
+
+# Apply to team
+vault policy write developers developers.hcl
+vault write auth/ldap/groups/engineers policies=developers
+```
+
+## Vault Implementation for Teams
+
+Here's a practical Vault setup optimized for distributed development teams:
+
+```bash
+# Start Vault server (production should use HA setup)
+vault server -config=vault.hcl
+
+# Initialize and unseal
+vault operator init -key-shares=5 -key-threshold=3
+vault operator unseal <key1>
+vault operator unseal <key2>
+vault operator unseal <key3>
+
+# Setup authentication method for team
+vault auth enable ldap
+vault write auth/ldap/config \
+  url="ldap://ldap.company.com" \
+  userdn="cn=users,dc=company,dc=com" \
+  groupdn="cn=groups,dc=company,dc=com"
+
+# Create policies for different roles
+vault policy write backend-team backend-policy.hcl
+vault policy write frontend-team frontend-policy.hcl
+vault policy write devops-team devops-policy.hcl
+
+# Enable database secret engine for dynamic credentials
+vault secrets enable database
+
+# Configure PostgreSQL connection
+vault write database/config/postgresql \
+  plugin_name=postgresql-database-plugin \
+  allowed_roles="readonly,readwrite" \
+  connection_url="postgresql://{{username}}:{{password}}@db.example.com:5432/postgres" \
+  username="vault_admin" \
+  password="vault_admin_password"
+
+# Create dynamic role that generates new credentials
+vault write database/roles/readonly \
+  db_name=postgresql \
+  creation_statements="CREATE ROLE \"{{name}}\" WITH LOGIN PASSWORD '{{password}}' VALID UNTIL '{{expiration}}'; GRANT CONNECT ON DATABASE myapp TO \"{{name}}\"; GRANT USAGE ON SCHEMA public TO \"{{name}}\"; GRANT SELECT ON ALL TABLES IN SCHEMA public TO \"{{name}}\";" \
+  default_ttl="1h" \
+  max_ttl="24h"
+```
+
+## CI/CD Integration Patterns
+
+Integrate secrets management into your deployment pipeline:
+
+```yaml
+# GitHub Actions example: Retrieve secrets and deploy
+name: Deploy to Production
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # Authenticate with Vault
+      - name: Authenticate to Vault
+        id: vault
+        uses: hashicorp/vault-action@v2
+        with:
+          url: https://vault.company.com
+          method: jwt
+          jwtGithubAudience: https://github.com/company
+          roleId: github-actions
+          path: jwt
+          secretsFilter: |
+            myapp/production/database;database_url
+            myapp/production/api_key;api_key
+            myapp/production/signing_key;signing_key
+
+      # Use retrieved secrets
+      - name: Deploy application
+        env:
+          DATABASE_URL: ${{ steps.vault.outputs.database_url }}
+          API_KEY: ${{ steps.vault.outputs.api_key }}
+          SIGNING_KEY: ${{ steps.vault.outputs.signing_key }}
+        run: |
+          ./scripts/deploy.sh
+```
+
+## Rotation Strategy for Remote Teams
+
+Establish automated secret rotation to minimize breach impact:
+
+```python
+#!/usr/bin/env python3
+"""
+Automated secret rotation for remote teams.
+Rotates database passwords, API keys, and other credentials.
+"""
+
+import hvac
+import boto3
+from datetime import datetime, timedelta
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+class SecretRotationManager:
+    def __init__(self, vault_addr, vault_token):
+        self.client = hvac.Client(url=vault_addr, token=vault_token)
+        self.rds_client = boto3.client('rds')
+
+    def rotate_database_password(self, db_instance_id, secret_path):
+        """Rotate RDS database password through Vault"""
+        try:
+            # Generate new password
+            new_password = self._generate_secure_password()
+
+            # Update RDS
+            self.rds_client.modify_db_instance(
+                DBInstanceIdentifier=db_instance_id,
+                MasterUserPassword=new_password,
+                ApplyImmediately=True
+            )
+
+            # Store in Vault
+            self.client.secrets.kv.v2.create_or_update_secret(
+                path=secret_path,
+                secret_dict={
+                    'password': new_password,
+                    'rotated_at': datetime.utcnow().isoformat(),
+                    'next_rotation': (datetime.utcnow() + timedelta(days=90)).isoformat()
+                }
+            )
+
+            logger.info(f"Successfully rotated password for {db_instance_id}")
+            return True
+
+        except Exception as e:
+            logger.error(f"Failed to rotate password: {e}")
+            return False
+
+    def rotate_api_keys(self, api_provider, secret_path):
+        """Generic API key rotation"""
+        new_key = self._request_new_api_key(api_provider)
+        self.client.secrets.kv.v2.create_or_update_secret(
+            path=secret_path,
+            secret_dict={
+                'key': new_key,
+                'rotated_at': datetime.utcnow().isoformat()
+            }
+        )
+
+    def list_rotation_due(self, days=30):
+        """List secrets that need rotation soon"""
+        secrets = self.client.secrets.kv.v2.list_secrets(path='')
+        due_for_rotation = []
+
+        for secret in secrets['data']['keys']:
+            metadata = self.client.secrets.kv.v2.read_secret_metadata(path=secret)
+            last_rotated = metadata.get('data', {}).get('custom_metadata', {}).get('rotated_at')
+
+            if last_rotated:
+                days_since_rotation = (datetime.utcnow() - datetime.fromisoformat(last_rotated)).days
+                if days_since_rotation > (90 - days):
+                    due_for_rotation.append({
+                        'path': secret,
+                        'days_since_rotation': days_since_rotation
+                    })
+
+        return due_for_rotation
+
+    def _generate_secure_password(self, length=32):
+        """Generate a cryptographically secure password"""
+        import secrets
+        import string
+        alphabet = string.ascii_letters + string.digits + "!@#$%^&*"
+        return ''.join(secrets.choice(alphabet) for i in range(length))
+
+    def _request_new_api_key(self, provider):
+        """Request new API key from provider"""
+        # Implementation depends on provider
+        pass
+
+# Run rotation
+if __name__ == "__main__":
+    rotation = SecretRotationManager(
+        vault_addr="https://vault.company.com",
+        vault_token="your-token"
+    )
+
+    # Check what needs rotation
+    due = rotation.list_rotation_due(days=30)
+    logger.info(f"Secrets due for rotation: {due}")
+
+    # Rotate specific secrets
+    rotation.rotate_database_password('prod-db-instance', 'myapp/production/db-password')
+```
 
 ## Frequently Asked Questions
 

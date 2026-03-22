@@ -200,6 +200,211 @@ For most distributed remote teams, the decision comes down to integration requir
 The best phishing simulation tool ultimately depends on your organization's specific context: team size, remote work density, existing security infrastructure, and compliance requirements. Start with a baseline assessment using your chosen platform, measure results consistently, and iterate your training program based on data rather than assumptions.
 
 
+## Platform Comparison Table
+
+Here's a detailed breakdown of the major platforms across critical dimensions:
+
+| Feature | KnowBe4 | Proofpoint | Cofense | Gophish |
+|---------|---------|-----------|---------|---------|
+| Pricing | $2-4/user/month | Custom quote | Custom quote | Free (self-hosted) |
+| Template library | 17,000+ | Extensive | Community-driven | Limited, customizable |
+| Email simulation | Yes | Yes | Yes | Yes |
+| Slack/Teams simulation | Limited | Yes | Yes | No |
+| SMS phishing | Limited | Advanced | Advanced | No |
+| Automated reports | Yes | Yes | Yes | Yes |
+| LMS integration | Yes (multiple) | Yes | Yes | Manual integration |
+| Custom templates | Yes | Yes | Yes | Yes |
+| Time zone scheduling | Yes | Yes | Yes | Limited |
+| Group targeting | Yes | Yes | Yes | Manual |
+| API access | Yes | Yes | Yes | Yes |
+| Data residency | Flexible | Flexible | Flexible | On-premises |
+| GDPR compliance | Yes | Yes | Yes | Your responsibility |
+| SSO/SAML | Enterprise | Yes | Yes | Manual setup |
+| Webhook notifications | Yes | Yes | Limited | Yes |
+
+## Campaign Workflow Templates
+
+### Template 1: Monthly Awareness Campaign
+
+```yaml
+campaign:
+  name: "March 2026 Security Awareness"
+  duration_days: 30
+  targets:
+    - all_employees
+  phases:
+    phase_1:
+      week: 1
+      template: "Password Reset Phishing"
+      target_click_rate: 15%
+      follow_up_training: "Password Security Best Practices"
+
+    phase_2:
+      week: 2
+      template: "CEO Impersonation"
+      target_click_rate: 10%
+      follow_up_training: "Verify Unusual Requests"
+
+    phase_3:
+      week: 3
+      template: "Invoice Fraud"
+      target_click_rate: 12%
+      follow_up_training: "Vendor Verification Process"
+
+    phase_4:
+      week: 4
+      template: "Fake Update/Installation"
+      target_click_rate: 8%
+      follow_up_training: "Software Security Updates"
+
+  reporting:
+    frequency: weekly
+    metrics:
+      - click_rate
+      - time_to_click
+      - report_rate
+      - training_completion
+```
+
+### Template 2: New Hire Training Campaign
+
+```yaml
+new_hire_campaign:
+  name: "Onboarding Security Training"
+  trigger: "User created in identity system"
+  timeline_days: 30
+
+  week_1:
+    focus: "Email phishing basics"
+    templates:
+      - "Malicious link in email"
+      - "Credential harvesting form"
+    training_modules:
+      - Email security fundamentals
+      - Company-specific threats
+
+  week_2:
+    focus: "Chat and collaboration tools"
+    templates:
+      - "Slack impersonation"
+      - "Teams link injection"
+    training_modules:
+      - Chat safety practices
+      - Verifying user identities
+
+  week_3:
+    focus: "Advanced techniques"
+    templates:
+      - "CEO impersonation with urgency"
+      - "Partner social engineering"
+    training_modules:
+      - Authority exploitation
+      - Financial fraud scenarios
+
+  week_4:
+    focus: "Assessment"
+    templates:
+      - "Combined realistic attack"
+    training_modules:
+      - Review and remediation
+      - Reporting procedures
+```
+
+### Template 3: High-Risk Group Campaign
+
+```yaml
+targeted_campaign:
+  name: "Finance Team Advanced Training"
+  target_group: "Finance, Accounting, Payment Processing"
+  risk_level: "high"
+  duration_days: 60
+
+  phase_1:
+    name: "Baseline Assessment"
+    templates:
+      - Invoice fraud variations
+      - Wire transfer requests
+      - Vendor impersonation
+    sample_size: 100%
+    purpose: "Identify vulnerable individuals"
+
+  phase_2:
+    name: "Personalized Training"
+    based_on: "Phase 1 performance"
+    training:
+      - Intensive for high-risk individuals
+      - Standard for moderate-risk
+      - Reinforcement for low-risk
+    duration_days: 30
+
+  phase_3:
+    name: "Verification"
+    templates:
+      - Advanced scenarios from phase 1
+      - New variations
+    measurement: "Improved reporting behavior"
+```
+
+## Remote Team Integration Best Practices
+
+When implementing phishing training across distributed teams, follow these practices:
+
+**Timezone-aware scheduling**: Schedule campaigns during normal business hours for each timezone. Early morning or late evening sends will be marked as suspicious by employees and reduce training effectiveness.
+
+**Async training components**: Not everyone can attend live training sessions. Provide video alternatives that employees can watch on their schedule.
+
+**Cultural sensitivity**: International teams have different communication norms. Customize email templates to match local business communication styles.
+
+**Mobile optimization**: Remote workers check email on phones frequently. Test phishing templates on mobile to ensure they render correctly and remain engaging.
+
+**Language support**: Translate templates into languages your team uses. A Russian-language phishing email is only effective if Russian speakers are in your target group.
+
+## Measuring Training Effectiveness
+
+Track these metrics over time to demonstrate ROI:
+
+```python
+class PhishingMetricsCalculator:
+    def __init__(self, campaign_data):
+        self.data = campaign_data
+
+    def click_through_rate(self):
+        """Percentage of recipients who clicked"""
+        return (self.data.clicks / self.data.sent) * 100
+
+    def report_rate(self):
+        """Percentage of recipients who reported the email"""
+        return (self.data.reported / self.data.sent) * 100
+
+    def time_to_click(self):
+        """Average minutes before user clicked"""
+        return sum(t.time_to_click for t in self.data.clicked) / len(self.data.clicked)
+
+    def improvement_rate(self):
+        """Campaign-to-campaign improvement"""
+        if not self.data.previous_campaign:
+            return None
+        previous_ctr = self.data.previous_campaign.click_rate
+        current_ctr = self.click_through_rate()
+        return ((previous_ctr - current_ctr) / previous_ctr) * 100
+
+    def training_effectiveness(self):
+        """Compare click rate to click-and-report ratio"""
+        clicks = self.data.clicks
+        reports = self.data.reported
+        if clicks == 0:
+            return 0
+        return (reports / clicks) * 100
+
+    def roi_estimate(self, training_cost, incident_cost_avoided):
+        """Estimate return on training investment"""
+        improvement_percentage = self.improvement_rate()
+        if improvement_percentage and improvement_percentage > 0:
+            incident_risk_reduction = incident_cost_avoided * (improvement_percentage / 100)
+            return incident_risk_reduction - training_cost
+        return None
+```
+
 ## Frequently Asked Questions
 
 
