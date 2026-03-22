@@ -286,6 +286,79 @@ exit $EXIT_CODE
 
 ---
 
+## Approach 4: Dependency Review on PRs
+
+For catching new vulnerable dependencies before they merge, use GitHub's Dependency Review Action:
+
+```yaml
+# .github/workflows/dependency-review.yml
+name: Dependency Review
+on:
+  pull_request:
+    branches: [main, develop]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  dependency-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dependency Review
+        uses: actions/dependency-review-action@v4
+        with:
+          fail-on-severity: high
+          # Post a comment on the PR listing any new vulnerabilities
+          comment-summary-in-pr: on-failure
+          # Allow specific advisories (e.g., false positives)
+          allow-ghsas: GHSA-xxxx-xxxx-xxxx
+```
+
+This runs on every PR and blocks merges that introduce packages with known Critical or High CVEs. It shows the exact package, CVE ID, and severity in a PR comment so developers can act immediately.
+
+For repositories not on GitHub, replicate this with a pre-merge hook:
+
+```bash
+#!/bin/bash
+# hooks/pre-merge-audit.sh
+# Run before merging a feature branch
+
+set -e
+
+echo "Running dependency audit..."
+
+if [[ -f package-lock.json ]]; then
+  AUDIT=$(npm audit --json 2>/dev/null)
+  CRITICAL=$(echo "$AUDIT" | jq '.metadata.vulnerabilities.critical // 0')
+  HIGH=$(echo "$AUDIT" | jq '.metadata.vulnerabilities.high // 0')
+
+  if [[ "$CRITICAL" -gt 0 ]] || [[ "$HIGH" -gt 0 ]]; then
+    echo "BLOCKED: $CRITICAL critical and $HIGH high vulnerabilities in npm dependencies"
+    echo "Run 'npm audit fix' or update the affected packages before merging"
+    exit 1
+  fi
+fi
+
+if [[ -f go.sum ]]; then
+  if command -v govulncheck &>/dev/null; then
+    VULNS=$(govulncheck -json ./... 2>/dev/null | jq '[.vulns? // [] | .[]] | length')
+    if [[ "$VULNS" -gt 0 ]]; then
+      echo "BLOCKED: $VULNS vulnerable Go modules found"
+      govulncheck ./...
+      exit 1
+    fi
+  fi
+fi
+
+echo "Dependency audit passed"
+```
+
+Install as a git hook: `cp hooks/pre-merge-audit.sh .git/hooks/pre-merge`
+
+---
+
 ## Weekly Outdated Report (Not Just CVEs)
 
 CVEs matter most, but staying ahead of major version updates avoids compounding upgrade pain:
