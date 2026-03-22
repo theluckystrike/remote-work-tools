@@ -8,7 +8,7 @@ permalink: /best-noise-cancelling-microphones-for-home-offices-busy-streets/
 categories: [guides]
 tags: [remote-work-tools, microphones, home-office, audio-equipment, remote-work, best-of]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

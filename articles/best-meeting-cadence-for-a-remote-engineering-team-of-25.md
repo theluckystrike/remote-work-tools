@@ -8,7 +8,7 @@ permalink: /best-meeting-cadence-for-a-remote-engineering-team-of-25/
 categories: [guides]
 tags: [remote-work-tools, meetings, remote-work, engineering-management, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
