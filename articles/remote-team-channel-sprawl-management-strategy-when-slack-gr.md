@@ -11,8 +11,7 @@ tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true
----
+intent-checked: true---
 
 Implement a naming convention (prefix-team-topic), establish quarterly channel audits with required ownership, and enforce retirement policies for inactive channels to manage 200+ channel sprawl. Beyond 200 channels, chaos emerges—duplicate topics, lost information, poor discovery. Channel sprawl is a governance problem, not a tool problem. This guide provides actionable automation scripts and policies for developers and power users to regain control without losing important channels.
 
@@ -333,7 +332,6 @@ Archive rather than delete. Archived channels are searchable and can be unarchiv
 
 **Should we enforce the naming convention retroactively on existing channels?**
 Not immediately. Rename channels in batches over several months, prioritizing high-traffic channels first. Announce renames in the channel before making the change so members are not confused when the channel disappears from their list under the old name.
-
 ---
 
 

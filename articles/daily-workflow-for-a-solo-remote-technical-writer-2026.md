@@ -11,8 +11,21 @@ tags: [remote-work-tools, technical-writing, remote-work, productivity, workflow
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
+voice-checked: true---
 ---
+layout: default
+title: "Daily Workflow for a Solo Remote Technical Writer 2026"
+description: "A practical daily workflow for solo remote technical writers in 2026. Includes time blocking, documentation pipelines, automation scripts, and tools"
+date: 2026-03-16
+last_modified_at: 2026-03-22
+author: theluckystrike
+permalink: /daily-workflow-for-a-solo-remote-technical-writer-2026/
+categories: [guides]
+tags: [remote-work-tools, technical-writing, remote-work, productivity, workflow]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true---
 
 {% raw %}
 
@@ -119,28 +132,28 @@ import os
 from pathlib import Path
 
 def check_links():
-    docs_dir = Path(".")
-    broken = []
+ docs_dir = Path(".")
+ broken = []
 
-    for md_file in docs_dir.rglob("*.md"):
-        content = md_file.read_text()
-        # Match relative links like [text](./other-page/)
-        links = re.findall(r'\[.*?\]\(\./([^)]+)\)', content)
+ for md_file in docs_dir.rglob("*.md"):
+ content = md_file.read_text()
+ # Match relative links like [text](./other-page/)
+ links = re.findall(r'\[.*?\]\(\./([^)]+)\)', content)
 
-        for link in links:
-            target = md_file.parent / link
-            if not target.exists() and not target.with_suffix('.md').exists():
-                broken.append(f"{md_file}: {link}")
+ for link in links:
+ target = md_file.parent / link
+ if not target.exists() and not target.with_suffix('.md').exists():
+ broken.append(f"{md_file}: {link}")
 
-    if broken:
-        print("Broken links found:")
-        for b in broken:
-            print(f"  - {b}")
-    else:
-        print("All links valid.")
+ if broken:
+ print("Broken links found:")
+ for b in broken:
+ print(f" - {b}")
+ else:
+ print("All links valid.")
 
 if __name__ == "__main__":
-    check_links()
+ check_links()
 ```
 
 Run this script weekly or integrate it into your CI pipeline.
@@ -203,8 +216,8 @@ Common automation targets:
 
 FILE=$1
 if [ -z "$FILE" ]; then
-  echo "Usage: $0 <markdown-file>"
-  exit 1
+ echo "Usage: $0 <markdown-file>"
+ exit 1
 fi
 
 echo "## Table of Contents"
@@ -221,16 +234,16 @@ When maintaining docs for multiple products or versions, use a directory structu
 ```
 docs/
 ├── product-a/
-│   ├── v2.0/
-│   │   ├── api-reference/
-│   │   ├── guides/
-│   │   └── index.md
-│   └── v2.1/
+│ ├── v2.0/
+│ │ ├── api-reference/
+│ │ ├── guides/
+│ │ └── index.md
+│ └── v2.1/
 ├── product-b/
-│   └── current/
+│ └── current/
 └── shared/
-    ├── templates/
-    └── assets/
+ ├── templates/
+ └── assets/
 ```
 
 This separation prevents version confusion and makes it easy to archive old releases without losing historical reference material.
@@ -261,7 +274,6 @@ Start with an inventory before writing. List every user action related to the fe
 **How do you maintain work-life separation as a solo remote writer?**
 
 A shutdown ritual matters more than a shutdown time. Your end-of-day notes serve this function: writing tomorrow's priority 1 is a deliberate signal to your brain that today's work is complete. Pair this with a physical transition—closing the laptop, changing out of work clothes, or a short walk—to reinforce the boundary that a commute used to create automatically.
-
 
 ## Related Articles
 

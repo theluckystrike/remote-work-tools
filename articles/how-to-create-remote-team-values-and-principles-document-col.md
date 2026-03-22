@@ -11,8 +11,7 @@ tags: [remote-work-tools, remote-work, team-culture, collaboration]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -110,8 +109,7 @@ Share the synthesized draft for another async review. Ask specific questions:
 
 Use GitHub issues or PRs for this phase:
 
-```yaml
----
+```yaml---
 name: Values Feedback
 title: "Values Review: [Category]"
 labels: team-values
@@ -138,9 +136,9 @@ Keep it alongside other team documentation:
 
 ```
 docs/
-├── values.md          # The living values document
-├── decision-log.md    # How we make team decisions
-└── onboarding.md      # New team member guide
+├── values.md # The living values document
+├── decision-log.md # How we make team decisions
+└── onboarding.md # New team member guide
 ```
 
 ## Phase 5: Living the Document
@@ -227,34 +225,27 @@ Avoid these mistakes:
 - Written once, never revisited: Treat values as living documents
 - No accountability: Reference values in feedback and decisions
 
-
 ## Frequently Asked Questions
-
 
 **How long does it take to create remote team values and principles document?**
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-
 **What are the most common mistakes to avoid?**
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
-
 
 **Do I need prior experience to follow this guide?**
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-
 **Can I adapt this for a different tech stack?**
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
 
 ## Related Articles
 
@@ -265,4 +256,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

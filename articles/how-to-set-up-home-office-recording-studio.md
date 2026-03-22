@@ -10,8 +10,7 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -425,9 +424,7 @@ Make async videos accessible to your whole team:
 - [Best Screen Recording Async Communication](/best-screen-recording-async-communication/)
 - [Best Open Source Screen Recording Tool for Remote Team Async](/best-open-source-screen-recording-tool-for-remote-team-async.)
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

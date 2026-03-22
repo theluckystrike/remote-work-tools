@@ -11,8 +11,7 @@ tags: [remote-work-tools, portfolio, freelance, developer, website-builder]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 <article class="project-card">
@@ -344,7 +343,6 @@ A blog helps with search visibility and demonstrates expertise, but it is not re
 **What domain should I use?**
 
 Your name as a `.dev` or `.com` domain remains the clearest choice for freelancers. Avoid clever wordplay that clients will misspell. If your name is common, add your specialty: `janesmith.dev` or `janesmith-rails.dev`.
-
 ---
 
 
@@ -356,8 +354,7 @@ Your name as a `.dev` or `.com` domain remains the clearest choice for freelance
 - [Freelance Developer Networking Strategies Online: A](/remote-work-tools/freelance-developer-networking-strategies-online/)
 - [Freelance Developer to Product Builder Transition: A](/remote-work-tools/freelance-developer-to-product-builder-transition/)
 
-
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

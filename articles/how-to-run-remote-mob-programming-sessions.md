@@ -10,8 +10,7 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -274,9 +273,7 @@ countdown 900
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 - [Async Code Review Process Without Zoom Calls](/async-code-review-process-without-zoom-calls-step-by-step/)
 - [Remote Team Deployment Pipeline Best Practices](/remote-team-deployment-pipeline-best-practices/)
-
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

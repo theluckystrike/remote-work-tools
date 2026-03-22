@@ -11,8 +11,7 @@ tags: [remote-work-tools, knowledge-base, documentation, remote-work, collaborat
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 9
----
+score: 9---
 ## Why Documentation Guidelines Matter
 
 Remote teams lose the informal knowledge transfer that happens in offices. When teammates sit near each other, expertise spreads naturally through nearby conversations. Remote teams need intentional systems that make knowledge sharing the default behavior. Clear contribution guidelines reduce friction: people know exactly how to contribute, what format works, and where documentation belongs.
@@ -84,8 +83,7 @@ Use hyphens for article filenames, lowercase:
 
 Every article needs metadata:
 
-```yaml
----
+```yaml---
 title: "How to [Action] for [Context]"
 description: "Two-sentence summary of what's covered"
 category: [backend|frontend|devops|process|other]
@@ -351,35 +349,27 @@ Set up a simple monthly tracking:
 
 Review monthly. If search quality is declining, contribution is dropping, or certain people dominate contributions, investigate and adjust.
 
-
-
 ## Frequently Asked Questions
-
 
 **How long does it take to lines template?**
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-
 **What are the most common mistakes to avoid?**
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
-
 
 **Do I need prior experience to follow this guide?**
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-
 **Will this work with my existing CI/CD pipeline?**
 
 The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ. You may need to adapt file paths, environment variable names, and trigger conditions to match your pipeline tool. The underlying workflow logic stays the same.
 
-
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
 
 ## Related Articles
 
@@ -390,3 +380,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+```

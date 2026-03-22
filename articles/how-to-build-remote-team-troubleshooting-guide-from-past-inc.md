@@ -11,8 +11,7 @@ tags: [remote-work-tools, remote-work, troubleshooting, postmortems, incident-re
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -32,7 +31,7 @@ Before extracting useful patterns, your postmortems need consistent structure. C
 
 ```markdown
 ## Incident Summary
-- **Date/Time**: 
+- **Date/Time**:
 - **Severity**: SEV1/SEV2/SEV3
 - **Impact Duration**:
 - **Affected Services**:
@@ -75,10 +74,10 @@ from collections import Counter
 def categorize_postmortems(articles_dir):
     """Analyze postmortems and extract common failure patterns."""
     categories = Counter()
-    
+
     for md_file in Path(articles_dir).glob("**/*postmortem*.md"):
         content = md_file.read_text().lower()
-        
+
         # Simple keyword matching for demonstration
         if any(kw in content for kw in ['database', 'query', 'postgres', 'mysql']):
             categories['database'] += 1
@@ -88,7 +87,7 @@ def categorize_postmortems(articles_dir):
             categories['resource'] += 1
         if any(kw in content for kw in ['alert', 'monitoring', 'pagerduty']):
             categories['observability'] += 1
-            
+
     return categories.most_common(10)
 
 if __name__ == "__main__":
@@ -108,25 +107,24 @@ A troubleshooting guide is only useful if people can find it. Consider these app
 
 Store each troubleshooting entry as a markdown file with structured front matter:
 
-```yaml
----
+```yaml---
 title: "Redis Connection Pool Exhaustion"
 category: "infrastructure"
 symptoms:
-  - "ERR max number of clients reached"
-  - "Connection timeouts under load"
-  - "Slow responses on /api/* endpoints"
+ - "ERR max number of clients reached"
+ - "Connection timeouts under load"
+ - "Slow responses on /api/* endpoints"
 causes:
-  - "Missing connection pool limits in application config"
-  - "Long-running queries blocking connections"
-  - "Redis instance undersized for traffic"
+ - "Missing connection pool limits in application config"
+ - "Long-running queries blocking connections"
+ - "Redis instance undersized for traffic"
 solutions:
-  - "Set maxclients in redis.conf"
-  - "Implement connection pooling with合理的 pool size"
-  - "Add circuit breaker for Redis calls"
+ - "Set maxclients in redis.conf"
+ - "Implement connection pooling with合理的 pool size"
+ - "Add circuit breaker for Redis calls"
 related_incidents:
-  - "2025-11-15-payment-service-outage"
-  - "2026-01-22-api-latency-spike"
+ - "2025-11-15-payment-service-outage"
+ - "2026-01-22-api-latency-spike"
 ---
 ```
 
@@ -137,20 +135,20 @@ Add a simple search to your documentation site:
 ```javascript
 // Simple client-side search for static markdown docs
 function searchTroubleshooting(query) {
-  const articles = document.querySelectorAll('.troubleshooting-article');
-  const results = [];
-  
-  articles.forEach(article => {
-    const title = article.dataset.title.toLowerCase();
-    const content = article.textContent.toLowerCase();
-    const score = (title.includes(query) ? 2 : 0) + 
-                  content.split(query).length - 1;
-    if (score > 0) {
-      results.push({ element: article, score });
-    }
-  });
-  
-  return results.sort((a, b) => b.score - a.score).map(r => r.element);
+ const articles = document.querySelectorAll('.troubleshooting-article');
+ const results = [];
+
+ articles.forEach(article => {
+ const title = article.dataset.title.toLowerCase();
+ const content = article.textContent.toLowerCase();
+ const score = (title.includes(query) ? 2 : 0) +
+ content.split(query).length - 1;
+ if (score > 0) {
+ results.push({ element: article, score });
+ }
+ });
+
+ return results.sort((a, b) => b.score - a.score).map(r => r.element);
 }
 ```
 
@@ -161,13 +159,13 @@ Rather than long narrative documents, build decision trees that guide engineers 
 ```
 [Service returns 5xx errors]
 ├── Check /health endpoint
-│   ├── Returns 200 → Application running but failing requests
-│   │   ├── Check recent deploys
-│   │   │   ├── Deploy in last hour → Rollback and investigate
-│   │   │   └── No recent deploy → Check external dependencies
-│   │       ├── Database accessible? → Check application logs
-│   │       └── Database unreachable → Escalate to infrastructure
-│   └── Returns 5xx → Service completely down → Page on-call
+│ ├── Returns 200 → Application running but failing requests
+│ │ ├── Check recent deploys
+│ │ │ ├── Deploy in last hour → Rollback and investigate
+│ │ │ └── No recent deploy → Check external dependencies
+│ │ ├── Database accessible? → Check application logs
+│ │ └── Database unreachable → Escalate to infrastructure
+│ └── Returns 5xx → Service completely down → Page on-call
 └── No /health response → Check load balancer / DNS
 ```
 
@@ -180,17 +178,17 @@ As your team resolves incidents, generate runbooks programmatically from ticket 
 ```javascript
 // Extract troubleshooting steps from resolved Jira tickets
 function generateRunbookFromTicket(ticket) {
-  const runbook = {
-    title: ticket.summary,
-    severity: ticket.customfield_severity,
-    symptoms: extractSymptoms(ticket.description),
-    diagnosis: extractDiagnosis(ticket.comments),
-    resolution: ticket.resolution,
-    commands: extractCommands(ticket.comments),
-    prevention: ticket.customfield_prevention
-  };
-  
-  return `---
+ const runbook = {
+ title: ticket.summary,
+ severity: ticket.customfield_severity,
+ symptoms: extractSymptoms(ticket.description),
+ diagnosis: extractDiagnosis(ticket.comments),
+ resolution: ticket.resolution,
+ commands: extractCommands(ticket.comments),
+ prevention: ticket.customfield_prevention
+ };
+
+ return `---
 title: "${runbook.title}"
 symptoms: ${JSON.stringify(runbook.symptoms)}
 ---
@@ -251,47 +249,32 @@ EOF
 
 # Generate index from all markdown files
 find troubleshooting -name "*.md" -not -name "README.md" | \
-  while read f; do
-    echo "- [$(basename $f .md)]($f)"
-  done >> troubleshooting/README.md
+ while read f; do
+ echo "- [$(basename $f .md)]($f)"
+ done >> troubleshooting/README.md
 ```
 
-## Conclusion
-
-Building a troubleshooting guide from past incident postmortems requires upfront investment but pays dividends in reduced incident resolution time and improved team autonomy. Start with a consistent postmortem format, extract patterns systematically, and maintain the guide as a living document.
-
-The goal is not perfect documentation but searchable, actionable guidance that helps your remote team resolve the next incident faster than the last one.
-
----
-
-
 ## Frequently Asked Questions
-
 
 **How long does it take to build a remote team troubleshooting guide from past?**
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-
 **What are the most common mistakes to avoid?**
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
-
 
 **Do I need prior experience to follow this guide?**
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-
 **Can I adapt this for a different tech stack?**
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
 
 ## Related Articles
 
@@ -300,4 +283,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Build a Remote Team Wiki from Scratch](/how-to-build-remote-team-wiki-from-scratch/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

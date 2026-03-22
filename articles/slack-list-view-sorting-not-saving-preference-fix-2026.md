@@ -11,8 +11,21 @@ tags: [slack, slack-troubleshooting, slack-list-view, slack-preferences, slack-s
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
+voice-checked: true---
 ---
+layout: default
+title: "Slack List View Sorting Not Saving Preference Fix 2026"
+description: "Fix Slack list view sorting not saving preferences. Step-by-step troubleshooting for remote workers and distributed teams using Slack in 2026."
+date: 2026-03-16
+last_modified_at: 2026-03-22
+author: "Remote Work Tools"
+permalink: /slack-list-view-sorting-not-saving-preference-fix-2026/
+categories: [guides]
+tags: [slack, slack-troubleshooting, slack-list-view, slack-preferences, slack-sorting, remote-work-tools, distributed-teams, troubleshooting]
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true---
 {% raw %}
 # Slack List View Sorting Not Saving Preference Fix 2026
 
@@ -102,9 +115,9 @@ If clearing the cache did not help, Slack's local IndexedDB database may be corr
 
 1. Quit Slack
 2. Navigate to the Slack data directory:
-   - macOS: `~/Library/Application Support/Slack/`
-   - Windows: `%APPDATA%\Slack\`
-   - Linux: `~/.config/Slack/`
+ - macOS: `~/Library/Application Support/Slack/`
+ - Windows: `%APPDATA%\Slack\`
+ - Linux: `~/.config/Slack/`
 3. Rename the `IndexedDB` folder to `IndexedDB_backup`
 4. Restart Slack — it will rebuild the database from scratch
 
@@ -329,10 +342,10 @@ Instead of relying on sort order, create custom sidebar sections:
 
 1. Click the "+" next to Sidebar Sections
 2. Create sections like:
-   - Starred (important channels you star)
-   - Priority (channels you visit daily)
-   - Projects (organized by project)
-   - Archive (channels you rarely need)
+ - Starred (important channels you star)
+ - Priority (channels you visit daily)
+ - Projects (organized by project)
+ - Archive (channels you rarely need)
 
 3. Drag channels into sections manually
 4. These sections persist across restarts because they're stored server-side

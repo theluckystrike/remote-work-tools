@@ -6,12 +6,11 @@ date: 2026-03-22
 author: theluckystrike
 permalink: /setting-up-grafana-dashboards-for-remote-teams/
 categories: [guides]
-tags: [remote-work-tools]
+tags: [remote-work-tools, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -393,9 +392,7 @@ For most remote engineering teams self-hosting on Hetzner, DigitalOcean, or simi
 - [Incident Management Setup for a Remote DevOps Team of 5](/incident-management-setup-for-a-remote-devops-team-of-5/)
 - [Remote Engineering Team Infrastructure Cost Per Deploy Tracking](/remote-engineering-team-infrastructure-cost-per-deploy-track/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
-
 ---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

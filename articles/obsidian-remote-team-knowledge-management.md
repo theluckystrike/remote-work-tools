@@ -10,8 +10,7 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]
----
+tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
@@ -100,8 +99,7 @@ The `00-inbox` folder is critical. Notes dumped without structure go there, not 
 Install the **Templater** plugin (community). Templates trigger on new note creation.
 
 ```markdown
-<%* /* templates/meeting.md */ %>
----
+<%* /* templates/meeting.md */ %>---
 date: <% tp.date.now("YYYY-MM-DD") %>
 type: meeting
 attendees: []
@@ -272,10 +270,10 @@ For teams using Dataview, build a tag-based taxonomy early. Consistent frontmatt
 ```yaml
 ---
 date: 2026-03-15
-type: runbook          # meeting | decision | runbook | reference | project
+type: runbook # meeting | decision | runbook | reference | project
 project: project-alpha
 owner: jane-smith
-status: active         # draft | active | deprecated
+status: active # draft | active | deprecated
 tags: [kubernetes, deployment, infrastructure]
 ---
 ```
@@ -378,33 +376,25 @@ Notion and Confluence win on onboarding ease and collaborative editing. Obsidian
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-
 ## Frequently Asked Questions
-
 
 **Who is this article written for?**
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-
 **How current is the information in this article?**
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
-
 
 **Does Obsidian offer a free tier?**
 
 Most major tools offer some form of free tier or trial period. Check Obsidian's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-
 **How do I get my team to adopt a new tool?**
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
-
 
 **What is the learning curve like?**
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-
-{% endraw %}

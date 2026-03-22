@@ -10,8 +10,20 @@ tags: [remote-work-tools, async, github, proposals, engineering, remote-work]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 8---
 ---
+layout: default
+title: "Async Engineering Proposal Process Using GitHub Discussions"
+description: "A practical guide to running async engineering proposals using GitHub Discussions. Includes setup steps, templates, and automation tips for distributed"
+date: 2026-03-16
+author: "Remote Work Tools Guide"
+permalink: /async-engineering-proposal-process-using-github-discussions-/
+categories: [guides]
+tags: [remote-work-tools, async, github, proposals, engineering, remote-work]
+reviewed: true
+intent-checked: true
+voice-checked: true
+score: 8---
 
 Engineering teams working across time zones cannot rely on synchronous meetings to make technical decisions. A proposal left pending until everyone is online means decisions blocked for days. GitHub Discussions solves this by giving engineering proposals a permanent, searchable home where reviewers engage on their own schedules and decisions are documented where the code lives.
 
@@ -265,35 +277,27 @@ Track these metrics to improve your async proposal process over time:
 
 Use GitHub's built-in analytics or export Discussion data via the API for analysis. A healthy process typically sees decisions within 7 days and participation from at least half the core team on significant proposals.
 
-
-
 ## Frequently Asked Questions
-
 
 **Who is this article written for?**
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-
 **How current is the information in this article?**
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
-
 
 **Does GitHub offer a free tier?**
 
 Most major tools offer some form of free tier or trial period. Check GitHub's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-
 **How do I get my team to adopt a new tool?**
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-
 **What is the learning curve like?**
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-
 
 ## Related Articles
 

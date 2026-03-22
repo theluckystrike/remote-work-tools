@@ -11,8 +11,7 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, best-of, remote-work]
----
+tags: [remote-work-tools, best-of, remote-work]---
 
 {% raw %}
 ## The Problem with Untracked On-Call Burden
@@ -29,8 +28,7 @@ For teams already using GitHub, the fastest path to burden tracking is a shift r
 
 A practical template:
 
-```markdown
----
+```markdown---
 name: On-Call Shift Report
 about: Document your on-call shift for burden tracking
 title: "[ON-CALL] [Engineer Name] - [Date Range]"
@@ -234,7 +232,7 @@ Create a simple spreadsheet or dashboard to visualize these numbers. If one engi
 
 ## Handling Time Zone Fairness for Distributed Teams
 
-On-call burden in a globally distributed team has an invisible layer of unfairness baked into standard rotation schedules. An engineer in Bangalore covering a US product's on-call shift is absorbing incidents during their sleep hours. An engineer in Berlin covering the same rotation may handle those same incidents during their afternoon.
+On-call burden in a globally distributed team has an invisible layer of unfairness baked into standard rotation schedules. An engineer in Bangalore covering an US product's on-call shift is absorbing incidents during their sleep hours. An engineer in Berlin covering the same rotation may handle those same incidents during their afternoon.
 
 Equal incident counts across a rotation don't mean equal burden when time zones are involved. Address this by:
 
@@ -272,7 +270,6 @@ Yes. Being available and on standby carries a psychological cost even when no in
 **How do you handle on-call compensation fairly for distributed teams?**
 Some organizations pay an on-call stipend per shift. Others offer compensatory time off after high-burden periods. Document the policy explicitly and apply it consistently—ambiguous policies create more resentment than the burden itself.
 
-
 ## Related Articles
 
 - [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
@@ -282,4 +279,4 @@ Some organizations pay an on-call stipend per shift. Others offer compensatory t
 - [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

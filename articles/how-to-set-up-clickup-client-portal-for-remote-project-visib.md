@@ -11,9 +11,21 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]
+tags: [remote-work-tools, remote-work]---
 ---
-
+layout: default
+title: "Example: Add a client to a specific project list"
+description: "To set up a ClickUp client portal, create a dedicated space with guest access configured to specific lists, then use ClickUp's API to automate guest"
+date: 2026-03-16
+last_modified_at: 2026-03-16
+author: theluckystrike
+permalink: /how-to-set-up-clickup-client-portal-for-remote-project-visib/
+reviewed: true
+score: 8
+categories: [guides]
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]---
 
 To set up a ClickUp client portal, create a dedicated space with guest access configured to specific lists, then use ClickUp's API to automate guest provisioning and filter client-facing views. This approach gives remote development teams visibility into project progress while keeping internal technical discussions private.
 
@@ -229,35 +241,27 @@ Run this monthly to ensure former clients no longer have access and current clie
 
 The client portal setup is not a one-time configuration—treat it as part of your client service infrastructure that evolves based on feedback and usage patterns.
 
-
-
 ## Frequently Asked Questions
-
 
 **Who is this article written for?**
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-
 **How current is the information in this article?**
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
-
 
 **Are there free alternatives available?**
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-
 **Can I trust these tools with sensitive data?**
 
 Review each tool's privacy policy, data handling practices, and security certifications before using it with sensitive data. Look for SOC 2 compliance, encryption in transit and at rest, and clear data retention policies. Enterprise tiers often include stronger privacy guarantees.
 
-
 **What is the learning curve like?**
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
-
 
 ## Related Articles
 
@@ -266,7 +270,6 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
 - [List all markdown files in your docs directory](/remote-work-tools/how-to-set-up-documentation-ownership-model-for-remote-teams/)
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
-
 
 ```
 

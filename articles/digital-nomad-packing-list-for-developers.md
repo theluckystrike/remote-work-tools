@@ -11,8 +11,21 @@ tags: [remote-work-tools, digital-nomad, remote-work, productivity, gear]
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
+voice-checked: true---
 ---
+layout: default
+title: "Digital Nomad Packing List for Developers"
+description: "A practical digital nomad packing list for developers covering tech gear, workflow setup, and portable workstation essentials for remote work"
+date: 2026-03-15
+last_modified_at: 2026-03-22
+author: theluckystrike
+permalink: /digital-nomad-packing-list-for-developers/
+categories: [guides]
+tags: [remote-work-tools, digital-nomad, remote-work, productivity, gear]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true---
 
 {% raw %}
 

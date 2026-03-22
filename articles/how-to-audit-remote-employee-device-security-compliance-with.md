@@ -11,8 +11,7 @@ tags: [remote-work-tools, device-security, remote-work, endpoint-security, compl
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -70,27 +69,26 @@ ssh admin@$hostname "profiles status -type enrollment"
 **Linux: Ansible for Configuration Auditing**
 
 ```yaml
-# ansible-playbook device_audit.yml
----
+# ansible-playbook device_audit.yml---
 - name: Remote Device Security Audit
-  hosts: remote_linux_hosts
-  gather_facts: true
-  tasks:
-    - name: Check UFW firewall status
-      command: ufw status verbose
-      register: firewall_status
+ hosts: remote_linux_hosts
+ gather_facts: true
+ tasks:
+ - name: Check UFW firewall status
+ command: ufw status verbose
+ register: firewall_status
 
-    - name: Check disk encryption
-      command: cryptsetup status
-      register: encryption_status
+ - name: Check disk encryption
+ command: cryptsetup status
+ register: encryption_status
 
-    - name: List enabled services
-      command: systemctl list-units --type=service --state=running
-      register: services
+ - name: List enabled services
+ command: systemctl list-units --type=service --state=running
+ register: services
 
-    - name: Check last security updates
-      command: cat /var/log/dpkg.log | grep -i upgrade | tail -5
-      register: updates
+ - name: Check last security updates
+ command: cat /var/log/dpkg.log | grep -i upgrade | tail -5
+ register: updates
 ```
 
 ### 2. Endpoint Detection and Response (EDR) Integration
@@ -102,25 +100,25 @@ For security visibility, integrate with EDR platforms that provide continuous mo
 import requests
 
 def get_device_compliance_status(api_key, device_id):
-    base_url = "https://api.crowdstrike.com"
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
-    }
+ base_url = "https://api.crowdstrike.com"
+ headers = {
+ "Authorization": f"Bearer {api_key}",
+ "Content-Type": "application/json"
+ }
 
-    # Query device details including compliance state
-    response = requests.get(
-        f"{base_url}/devices/entities/devices/v1?ids={device_id}",
-        headers=headers
-    )
+ # Query device details including compliance state
+ response = requests.get(
+ f"{base_url}/devices/entities/devices/v1?ids={device_id}",
+ headers=headers
+ )
 
-    device_data = response.json()
-    return {
-        "os_version": device_data.get("os_version"),
-        "last_seen": device_data.get("last_seen"),
-        "policy_compliance": device_data.get("policy_id"),
-        "encryption_enabled": device_data.get("disk_encryption")
-    }
+ device_data = response.json()
+ return {
+ "os_version": device_data.get("os_version"),
+ "last_seen": device_data.get("last_seen"),
+ "policy_compliance": device_data.get("policy_id"),
+ "encryption_enabled": device_data.get("disk_encryption")
+ }
 ```
 
 ### 3. MDM/EMM Solutions for Mobile Device Management
@@ -139,8 +137,8 @@ DEVICE_ID=$1
 ACCESS_TOKEN=$2
 
 curl -X GET "https://graph.microsoft.com/beta/deviceManagement/deviceCompliancePolicies" \
-  -H "Authorization: Bearer $ACCESS_TOKEN" \
-  -H "Content-Type: application/json"
+ -H "Authorization: Bearer $ACCESS_TOKEN" \
+ -H "Content-Type: application/json"
 ```
 
 ## Building a Compliance Audit Framework
@@ -172,35 +170,35 @@ import socket
 import hashlib
 
 def collect_device_info():
-    compliance_data = {
-        "hostname": socket.gethostname(),
-        "os": platform.system() + " " + platform.release(),
-        "checks": {}
-    }
+ compliance_data = {
+ "hostname": socket.gethostname(),
+ "os": platform.system() + " " + platform.release(),
+ "checks": {}
+ }
 
-    # Check disk encryption
-    if platform.system() == "Windows":
-        result = subprocess.run(
-            ["powershell", "-Command",
-             "(Get-BitLockerVolume -MountPoint 'C:').ProtectionStatus"],
-            capture_output=True, text=True
-        )
-        compliance_data["checks"]["disk_encryption"] = "On" in result.stdout
+ # Check disk encryption
+ if platform.system() == "Windows":
+ result = subprocess.run(
+ ["powershell", "-Command",
+ "(Get-BitLockerVolume -MountPoint 'C:').ProtectionStatus"],
+ capture_output=True, text=True
+ )
+ compliance_data["checks"]["disk_encryption"] = "On" in result.stdout
 
-    elif platform.system() == "Darwin":
-        result = subprocess.run(
-            ["fdesetup", "status"],
-            capture_output=True, text=True
-        )
-        compliance_data["checks"]["disk_encryption"] = "FileVault is On" in result.stdout
+ elif platform.system() == "Darwin":
+ result = subprocess.run(
+ ["fdesetup", "status"],
+ capture_output=True, text=True
+ )
+ compliance_data["checks"]["disk_encryption"] = "FileVault is On" in result.stdout
 
-    # Check firewall status (similar approach for other checks)
+ # Check firewall status (similar approach for other checks)
 
-    return compliance_data
+ return compliance_data
 
 if __name__ == "__main__":
-    data = collect_device_info()
-    print(json.dumps(data, indent=2))
+ data = collect_device_info()
+ print(json.dumps(data, indent=2))
 ```
 
 ### Step 3: Establish Reporting and Alerting
@@ -211,22 +209,22 @@ Configure your audit system to generate alerts when devices fall out of complian
 # Example: Prometheus alerting rules for compliance
 groups:
 - name: device_compliance
-  rules:
-  - alert: DiskEncryptionDisabled
-    expr: device_encryption_enabled == 0
-    for: 1h
-    labels:
-      severity: critical
-    annotations:
-      summary: "Disk encryption disabled on {{ $labels.hostname }}"
+ rules:
+ - alert: DiskEncryptionDisabled
+ expr: device_encryption_enabled == 0
+ for: 1h
+ labels:
+ severity: critical
+ annotations:
+ summary: "Disk encryption disabled on {{ $labels.hostname }}"
 
-  - alert: OutdatedSecurityPatches
-    expr: days_since_last_update > 30
-    for: 1h
-    labels:
-      severity: warning
-    annotations:
-      summary: "{{ $labels.hostname }} has not been updated in {{ $value }} days"
+ - alert: OutdatedSecurityPatches
+ expr: days_since_last_update > 30
+ for: 1h
+ labels:
+ severity: warning
+ annotations:
+ summary: "{{ $labels.hostname }} has not been updated in {{ $value }} days"
 ```
 
 ### Step 4: Continuous Monitoring vs Periodic Audits
@@ -248,26 +246,26 @@ Combine these tools into an unified view:
 // Fetches compliance data and displays status
 
 const complianceData = {
-  devices: [
-    { hostname: "workstation-001", score: 95, issues: [] },
-    { hostname: "workstation-002", score: 72, issues: ["outdated OS"] },
-    { hostname: "workstation-003", score: 88, issues: ["firewall disabled"] }
-  ]
+ devices: [
+ { hostname: "workstation-001", score: 95, issues: [] },
+ { hostname: "workstation-002", score: 72, issues: ["outdated OS"] },
+ { hostname: "workstation-003", score: 88, issues: ["firewall disabled"] }
+ ]
 };
 
 function renderDashboard(data) {
-  const compliant = data.devices.filter(d => d.score >= 80).length;
-  const total = data.devices.length;
-  const complianceRate = Math.round((compliant / total) * 100);
+ const compliant = data.devices.filter(d => d.score >= 80).length;
+ const total = data.devices.length;
+ const complianceRate = Math.round((compliant / total) * 100);
 
-  console.log(`Overall Compliance: ${complianceRate}%`);
-  console.log(`Compliant: ${compliant}/${total} devices`);
+ console.log(`Overall Compliance: ${complianceRate}%`);
+ console.log(`Compliant: ${compliant}/${total} devices`);
 
-  data.devices.forEach(device => {
-    if (device.issues.length > 0) {
-      console.log(`${device.hostname}: ${device.issues.join(", ")}`);
-    }
-  });
+ data.devices.forEach(device => {
+ if (device.issues.length > 0) {
+ console.log(`${device.hostname}: ${device.issues.join(", ")}`);
+ }
+ });
 }
 
 renderDashboard(complianceData);
@@ -281,34 +279,27 @@ renderDashboard(complianceData);
 4. **Provide remediation paths** - Give employees clear instructions for fixing compliance issues
 5. **Document exceptions** - Maintain records when devices cannot meet baseline requirements
 
-
 ## Frequently Asked Questions
-
 
 **How long does it take to audit remote employee device security compliance?**
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-
 **What are the most common mistakes to avoid?**
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
-
 
 **Do I need prior experience to follow this guide?**
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-
 **Is this approach secure enough for production?**
 
 The patterns shown here follow standard practices, but production deployments need additional hardening. Add rate limiting, input validation, proper secret management, and monitoring before going live. Consider a security review if your application handles sensitive user data.
 
-
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
 
 ## Related Articles
 
@@ -319,4 +310,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Time Audit for Remote Workers: A Practical How-To Guide](/remote-work-tools/time-audit-for-remote-workers-how-to-guide-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

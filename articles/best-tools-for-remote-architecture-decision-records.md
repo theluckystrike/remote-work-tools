@@ -10,8 +10,7 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -215,7 +214,6 @@ Views to create:
 **Date:** 2026-03-22
 **Deciders:** @person, @person
 **Review Deadline:** 2026-03-29
-
 ---
 
 ### Context
@@ -290,4 +288,3 @@ The most common gap in ADR processes is step 4 — dissent gets handled in Slack
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

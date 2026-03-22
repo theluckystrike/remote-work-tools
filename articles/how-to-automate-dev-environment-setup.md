@@ -11,8 +11,7 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
----
+tags: [remote-work-tools]---
 {% raw %}
 
 
@@ -148,59 +147,58 @@ For more complex environments across multiple machines, Ansible provides automat
 
 An Ansible playbook for development machine setup:
 
-```yaml
----
+```yaml---
 - name: Configure development workstation
-  hosts: localhost
-  become: yes
-  vars:
-    developer_username: developer
-    programming_languages:
-      - { name: nodejs, version: "20" }
-      - { name: python, version: "3.11" }
+ hosts: localhost
+ become: yes
+ vars:
+ developer_username: developer
+ programming_languages:
+ - { name: nodejs, version: "20" }
+ - { name: python, version: "3.11" }
 
-  tasks:
-    - name: Update apt cache
-      apt:
-        update_cache: yes
-        cache_valid_time: 3600
+ tasks:
+ - name: Update apt cache
+ apt:
+ update_cache: yes
+ cache_valid_time: 3600
 
-    - name: Install system packages
-      apt:
-        name:
-          - git
-          - curl
-          - wget
-          - vim
-          - unzip
-          - build-essential
-          - docker.io
-        state: present
+ - name: Install system packages
+ apt:
+ name:
+ - git
+ - curl
+ - wget
+ - vim
+ - unzip
+ - build-essential
+ - docker.io
+ state: present
 
-    - name: Configure git global settings
-      git_config:
-        name: "{{ item.name }}"
-        value: "{{ item.value }}"
-        scope: global
-      loop:
-        - { name: "user.name", value: "Developer" }
-        - { name: "user.email", value: "dev@example.com" }
-        - { name: "init.defaultBranch", value: "main" }
+ - name: Configure git global settings
+ git_config:
+ name: "{{ item.name }}"
+ value: "{{ item.value }}"
+ scope: global
+ loop:
+ - { name: "user.name", value: "Developer" }
+ - { name: "user.email", value: "dev@example.com" }
+ - { name: "init.defaultBranch", value: "main" }
 
-    - name: Install pyenv for Python management
-      become_user: "{{ developer_username }}"
-      shell: |
-        curl https://pyenv.run | bash
-      args:
-        creates: "/home/{{ developer_username }}/.pyenv"
+ - name: Install pyenv for Python management
+ become_user: "{{ developer_username }}"
+ shell: |
+ curl https://pyenv.run | bash
+ args:
+ creates: "/home/{{ developer_username }}/.pyenv"
 
-    - name: Install VS Code extensions
-      community.general.vscode_extension:
-        executable: code
-        extension_ids:
-          - ms-python.python
-          - esbenp.prettier-vscode
-          - github.copilot
+ - name: Install VS Code extensions
+ community.general.vscode_extension:
+ executable: code
+ extension_ids:
+ - ms-python.python
+ - esbenp.prettier-vscode
+ - github.copilot
 ```
 
 Run this playbook with `ansible-playbook development.yml` and Ansible ensures your machine matches the specification. The idempotent nature means running the playbook multiple times produces the same result—safe for repeated application or CI/CD pipelines.
@@ -219,7 +217,7 @@ dotfiles/
 ├── .vimrc
 ├── .gitconfig
 └── .config/
-    └── starship.toml
+ └── starship.toml
 ```
 
 The installation script symlinks files to their expected locations:
@@ -229,21 +227,21 @@ The installation script symlinks files to their expected locations:
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 link_file() {
-  local source="$DOTFILES_DIR/$1"
-  local target="$HOME/$1"
+ local source="$DOTFILES_DIR/$1"
+ local target="$HOME/$1"
 
-  if [ -e "$target" ]; then
-    if [ -L "$target" ]; then
-      echo "Skipping $1 (already linked)"
-    else
-      echo "Backing up $1"
-      mv "$target" "$target.backup"
-    fi
-  fi
+ if [ -e "$target" ]; then
+ if [ -L "$target" ]; then
+ echo "Skipping $1 (already linked)"
+ else
+ echo "Backing up $1"
+ mv "$target" "$target.backup"
+ fi
+ fi
 
-  mkdir -p "$(dirname "$target")"
-  ln -sf "$source" "$target"
-  echo "Linked $1"
+ mkdir -p "$(dirname "$target")"
+ ln -sf "$source" "$target"
+ echo "Linked $1"
 }
 
 link_file ".zshrc"
@@ -262,34 +260,27 @@ Documentation matters as much as the scripts themselves. Include README files ex
 
 Start with shell scripts, add Docker for project reproducibility, and layer Ansible for team-wide infrastructure management as your needs grow.
 
-
 ## Frequently Asked Questions
-
 
 **How long does it take to automate dev environment setup: a practical guide?**
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-
 **What are the most common mistakes to avoid?**
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
-
 
 **Do I need prior experience to follow this guide?**
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-
 **Can I adapt this for a different tech stack?**
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-
 **Where can I get help if I run into issues?**
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
-
 
 ## Related Articles
 
@@ -300,4 +291,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

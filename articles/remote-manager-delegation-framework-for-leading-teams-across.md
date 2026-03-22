@@ -11,8 +11,7 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, remote-work]
----
+tags: [remote-work-tools, remote-work]---
 
 {% raw %}
 
@@ -190,7 +189,6 @@ Start by delegating lower-risk work (Tier 1, then Tier 2). Review their decision
 Over time, your team becomes faster because they're not waiting for you, and you become more valuable because you're solving Tier 3 and Tier 4 problems instead of drowning in Tier 1 decisions.
 
 The framework scales: with three people, you know everything they do. With thirty, you can only know the Tier 3 decisions. Documenting your delegation matrix and decision records makes this scale possible without losing control.
-
 ---
 
 ## Measuring Delegation Effectiveness
@@ -253,35 +251,27 @@ The mistake most managers make when scaling: trying to personally approve every 
 
 Next steps: Audit your current workload. Categorize your tasks using the four tiers. Move everything you can to Tier 1 or 2. Document your delegation matrix and share it with your team. Then protect your time for the decisions that actually need you.
 
-
-
 ## Frequently Asked Questions
-
 
 **How do I prioritize which recommendations to implement first?**
 
 Start with changes that require the least effort but deliver the most impact. Quick wins build momentum and demonstrate value to stakeholders. Save larger structural changes for after you have established a baseline and can measure improvement.
 
-
 **Do these recommendations work for small teams?**
 
 Yes, most practices scale down well. Small teams can often implement changes faster because there are fewer people to coordinate. Adapt the specifics to your team size—a 5-person team does not need the same formal processes as a 50-person organization.
-
 
 **How do I measure whether these changes are working?**
 
 Define 2-3 measurable outcomes before you start. Track them weekly for at least a month to see trends. Common metrics include response time, completion rate, team satisfaction scores, and error frequency. Avoid measuring too many things at once.
 
-
 **How do I handle team members in very different time zones?**
 
 Establish a shared overlap window of at least 2-3 hours for synchronous work. Use async communication tools for everything else. Document decisions in writing so people in other time zones can catch up without needing a live recap.
 
-
 **What is the biggest mistake people make when applying these practices?**
 
 Trying to change everything at once. Pick one or two practices, implement them well, and let the team adjust before adding more. Gradual adoption sticks better than wholesale transformation, which often overwhelms people and gets abandoned.
-
 
 ## Related Articles
 
@@ -292,4 +282,4 @@ Trying to change everything at once. Pick one or two practices, implement them w
 - [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+

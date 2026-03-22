@@ -10,8 +10,7 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -233,11 +232,7 @@ Regardless of tool, store runbooks where they're accessible during an incident:
 **Severity:** P1 / P2 / P3
 **IC:** @name
 **Status:** Draft | Under Review | Final
-
 ---
-## Summary
-[2-3 sentences: what happened, impact, how it was resolved]
-
 ## Impact
 - Users affected: [number or %]
 - Services affected: [list]
@@ -297,4 +292,3 @@ Regardless of tool, store runbooks where they're accessible during an incident:
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

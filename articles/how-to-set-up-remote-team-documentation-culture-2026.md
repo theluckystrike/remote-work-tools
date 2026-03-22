@@ -10,8 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, documentation, async-communication, knowledge-management, onboarding, team-processes, distributed-teams, documentation-tools]
----
+tags: [remote-work-tools, documentation, async-communication, knowledge-management, onboarding, team-processes, distributed-teams, documentation-tools]---
 
 {% raw %}
 
@@ -297,7 +296,6 @@ Documentation rots because no one owns staleness. Prevent decay:
 
 ```markdown
 # Doc Metadata (add to every doc)
-
 ---
 owner: Sarah Chen (engineering-platform)
 last_reviewed: 2026-03-22
@@ -315,11 +313,11 @@ Every quarter, go through docs by owner. Takes 2 hours per person, ensures curre
 ```bash
 # Script to find stale docs
 find docs/ -type f -name "*.md" | while read file; do
-  last_update=$(git log -1 --format=%cd --date=short "$file")
-  days_old=$(( $(date +%s) - $(date -d "$last_update" +%s) )) / 86400
-  if [ $days_old -gt 90 ]; then
-    echo "$file (last updated $last_update, $days_old days ago)"
-  fi
+ last_update=$(git log -1 --format=%cd --date=short "$file")
+ days_old=$(( $(date +%s) - $(date -d "$last_update" +%s) )) / 86400
+ if [ $days_old -gt 90 ]; then
+ echo "$file (last updated $last_update, $days_old days ago)"
+ fi
 done
 ```
 
@@ -333,9 +331,9 @@ Put doc links in code comments and pull requests:
 // ADR: /docs/adr/adr-028-batch-job-framework.md
 
 class BatchProcessor {
-  async process(items) {
-    // Details in architecture doc...
-  }
+ async process(items) {
+ // Details in architecture doc...
+ }
 }
 ```
 
@@ -368,32 +366,20 @@ const { App } = require('@slack/bolt');
 const app = new App({ token: process.env.SLACK_BOT_TOKEN });
 
 app.message(/how.*deploy/i, async ({ message, say }) => {
-  say(`Found docs about deploying:\n
-    • Staging: https://notion.so/deploy-staging
-    • Production: https://notion.so/deploy-prod
-    Ask if you need more help!`);
+ say(`Found docs about deploying:\n
+ • Staging: https://notion.so/deploy-staging
+ • Production: https://notion.so/deploy-prod
+ Ask if you need more help!`);
 });
 
 app.message(/n\+1|database|query/i, async ({ message, say }) => {
-  say(`Found docs about database optimization:\n
-    • DataLoader patterns: https://notion.so/dataloader
-    • Query profiling: https://notion.so/query-debug`);
+ say(`Found docs about database optimization:\n
+ • DataLoader patterns: https://notion.so/dataloader
+ • Query profiling: https://notion.so/query-debug`);
 });
 ```
 
 This makes help passive—docs surface when people naturally ask questions.
-
-## Key Takeaways
-
-- Documentation-first culture requires tool choice + ownership + review cycle
-- Async decision records (ADRs) reduce sync meetings by 50%+
-- Runbooks prevent tribal knowledge and reduce incident time
-- Notion works for most teams; GitHub for pure engineering teams
-- Ownership model with quarterly reviews prevents staleness
-- Link documentation from code and Slack to ensure discoverability
-- Budget 5-10% of sprint for documentation work—it's not overhead
-
-The best documentation system feels like the path of least resistance. If writing a doc takes same time as answering Slack, people choose docs.
 
 ## Related Articles
 
@@ -405,4 +391,3 @@ The best documentation system feels like the path of least resistance. If writin
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-{% endraw %}

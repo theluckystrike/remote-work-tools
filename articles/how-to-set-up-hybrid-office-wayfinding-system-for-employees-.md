@@ -11,8 +11,21 @@ tags: [remote-work-tools, hybrid-work, office-wayfinding, indoor-navigation, wor
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
+voice-checked: true---
 ---
+layout: default
+title: "How to Set Up Hybrid Office Wayfinding System for Employees"
+description: "A technical guide to building a wayfinding system for hybrid offices that helps infrequent visitors navigate your workplace. Includes code examples"
+date: 2026-03-16
+last_modified_at: 2026-03-22
+author: theluckystrike
+permalink: /how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/
+categories: [guides]
+tags: [remote-work-tools, hybrid-work, office-wayfinding, indoor-navigation, workplace-tools, developer-tools]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true---
 
 {% raw %}
 
@@ -244,7 +257,6 @@ Monitor beacon health via your beacon management platform, which reports RSSI si
 
 **Can this system integrate with Slack or Teams for colleague location?**
 Yes, but require explicit opt-in. A Slack slash command like `/whereis @colleague` that returns their current floor (not exact position) is well-received. Exact location sharing should always be voluntary and never the default.
-
 
 ## Related Articles
 
