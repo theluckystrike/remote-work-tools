@@ -33,6 +33,19 @@ tags: [remote-work-tools]
 
 Set up the OneNote Web Clipper to capture web content directly into your personal knowledge base with automatic organization and full-text search capability. Whether you're researching technical documentation, saving developer tutorials, or archiving articles, proper configuration transforms this free extension into an improved content capture system. This guide walks through complete setup, keyboard shortcuts, and configuration options tailored for developers and power users who need instant content archiving.
 
+## Table of Contents
+
+- [Why Web Clipping Matters for Remote Workers](#why-web-clipping-matters-for-remote-workers)
+- [Installing the OneNote Web Clipper](#installing-the-onenote-web-clipper)
+- [Initial Account Connection](#initial-account-connection)
+- [Core Configuration Options](#core-configuration-options)
+- [Advanced Setup for Developers](#advanced-setup-for-developers)
+- [Advanced Use Cases for Power Users](#advanced-use-cases-for-power-users)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Optimizing Your Clipping Workflow](#optimizing-your-clipping-workflow)
+- [Extension Limitations to Understand](#extension-limitations-to-understand)
+- [Building a Personal Knowledge System with Clips](#building-a-personal-knowledge-system-with-clips)
+
 ## Why Web Clipping Matters for Remote Workers
 
 Remote developers and knowledge workers face information overload. You research solutions across 20 websites, read 5 Stack Overflow threads, review 3 GitHub discussions, and check 2 documentation sites—all in a single debugging session. Without a system, this knowledge is lost. You'll search for the same solution again next month.
@@ -331,11 +344,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Chrome Extension Window Resizer Testing: Complete Guide for](/remote-work-tools/chrome-extension-window-resizer-testing/)
-- [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
-- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
+- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
-- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
-
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Install OpenConnect (common in enterprise environments)](/remote-work-tools/remote-employee-digital-workspace-setup-guide-for-first-day-/)
+- [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

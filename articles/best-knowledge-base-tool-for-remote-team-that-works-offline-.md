@@ -17,6 +17,19 @@ voice-checked: false
 
 Remote teams face a persistent challenge: accessing critical documentation when internet connectivity fails. Whether you're on a flight, working from a rural location, or dealing with unreliable cafe WiFi, having a knowledge base that works offline on mobile devices becomes essential for maintaining productivity. This guide evaluates the best knowledge base tools that deliver strong offline capabilities, mobile-friendly interfaces, and developer-centric features for distributed teams.
 
+## Table of Contents
+
+- [Why Offline Knowledge Base Access Matters](#why-offline-knowledge-base-access-matters)
+- [Essential Features for Offline Knowledge Base Tools](#essential-features-for-offline-knowledge-base-tools)
+- [Top Offline Knowledge Base Solutions](#top-offline-knowledge-base-solutions)
+- [Choosing the Right Solution for Your Team](#choosing-the-right-solution-for-your-team)
+- [Comparison Table: Offline Capabilities](#comparison-table-offline-capabilities)
+- [Practical Setup Example: Hybrid Git-Based System](#practical-setup-example-hybrid-git-based-system)
+- [Offline Workflows and Recovery](#offline-workflows-and-recovery)
+- [Working Offline (Obsidian + Git Example)](#working-offline-obsidian-git-example)
+- [Performance Considerations for Large Knowledge Bases](#performance-considerations-for-large-knowledge-bases)
+- [Implementation Recommendations](#implementation-recommendations)
+
 ## Why Offline Knowledge Base Access Matters
 
 Developers and power users understand that connectivity should never be a barrier to accessing technical documentation, API references, or team processes. Offline knowledge base tools address several critical scenarios that remote workers encounter regularly.
@@ -366,9 +379,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Knowledge Base Platform for Remote Support Team Customer Facing Articles 2026](/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
-- [Best Tools for Remote Team Knowledge Base 2026](/best-tools-for-remote-team-knowledge-base-2026/)
-- [How to Manage Remote Team Knowledge Base: Complete Guide](/how-to-manage-remote-team-knowledge-base-guide/)
-
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
+- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [Self-Hosted Knowledge Base for Remote Support Team](/remote-work-tools/self-hosted-knowledge-base-for-remote-support-team-replacing/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

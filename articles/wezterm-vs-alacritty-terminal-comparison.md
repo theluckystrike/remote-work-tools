@@ -17,6 +17,26 @@ voice-checked: true
 
 Choose Wezterm if you want built-in tabs, split panes, and Lua-powered configuration without relying on tmux. Choose Alacritty if raw performance and minimalism are your top priorities and you already use tmux for multiplexing. Both are GPU-accelerated Rust terminals, but Wezterm bundles more features while Alacritty stays deliberately lean -- this guide covers the practical tradeoffs across performance, configuration, and workflow integration.
 
+## Table of Contents
+
+- [Understanding the Core Philosophies](#understanding-the-core-philosophies)
+- [Performance Characteristics](#performance-characteristics)
+- [Configuration and Customization](#configuration-and-customization)
+- [Built-in Features](#built-in-features)
+- [Cross-Platform Support](#cross-platform-support)
+- [Which Should You Choose?](#which-should-you-choose)
+- [Integration with Development Workflows](#integration-with-development-workflows)
+- [Real-World Performance Testing](#real-world-performance-testing)
+- [Terminal Feature Comparison Table](#terminal-feature-comparison-table)
+- [Migration Path: From One to the Other](#migration-path-from-one-to-the-other)
+- [Advanced Configurations: Power User Setup](#advanced-configurations-power-user-setup)
+- [Performance Tips](#performance-tips)
+- [When to Reconsider Your Choice](#when-to-reconsider-your-choice)
+- [Debugging and Troubleshooting: When Something Goes Wrong](#debugging-and-troubleshooting-when-something-goes-wrong)
+- [Advanced Use Cases](#advanced-use-cases)
+- [Accessibility Features](#accessibility-features)
+- [Future Development and Maintenance](#future-development-and-maintenance)
+
 ## Understanding the Core Philosophies
 
 Wezterm and Alacritty represent different approaches to terminal emulation. Alacritty focuses on raw performance, using GPU acceleration to achieve minimal latency. It started as a project to demonstrate that terminals could be blazing fast without sacrificing simplicity. Wezterm, on the other hand, aims to provide a more feature-rich experience while still maintaining excellent performance.
@@ -452,10 +472,9 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
-- [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
-- [Zellij Terminal Config for Remote Developers](/remote-work-tools/zellij-terminal-config-remote-developers/)
-- [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
-- [Best Blue Light Glasses for Programmers: A Practical Guide](/remote-work-tools/best-blue-light-glasses-for-programmers/)
-
+- [Remote HR Performance Review Tools Comparison for Managing](/remote-work-tools/remote-hr-performance-review-tools-comparison-for-managing-d/)
+- [Remote Team Terminal Emulator Comparison 2026](/remote-work-tools/remote-team-terminal-emulator-comparison/)
+- [Remote Work Performance Review Tools Comparison 2026](/remote-work-tools/remote-work-performance-review-tools-comparison-2026/)
+- [Shortcut vs Linear Issue Tracking Comparison](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
+- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

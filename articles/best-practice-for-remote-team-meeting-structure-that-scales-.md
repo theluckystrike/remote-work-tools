@@ -27,6 +27,27 @@ voice-checked: true
 
 Scaling a remote team creates an obvious tension: more people means more coordination needs, which typically translates to more meetings. But there is a better way. The key is building meeting structures that use asynchronous communication, clear ownership patterns, and automated workflows so your team grows without drowning in calendar invites.
 
+## Table of Contents
+
+- [The Fundamental Principle: Replace Before You Add](#the-fundamental-principle-replace-before-you-add)
+- [The Three-Layer Meeting Architecture](#the-three-layer-meeting-architecture)
+- [Implementing Async-First Updates](#implementing-async-first-updates)
+- [Week of [Date]](#week-of-date)
+- [The Representation Rotation Model](#the-representation-rotation-model)
+- [Meeting-Free Focus Blocks](#meeting-free-focus-blocks)
+- [Decision Documentation](#decision-documentation)
+- [Decision Log](#decision-log)
+- [Measuring Meeting Effectiveness](#measuring-meeting-effectiveness)
+- [Putting It All Together](#putting-it-all-together)
+- [Scaling Meeting Architecture by Team Size](#scaling-meeting-architecture-by-team-size)
+- [Meeting Effectiveness Metrics](#meeting-effectiveness-metrics)
+- [Anti-Patterns That Destroy Remote Meeting Culture](#anti-patterns-that-destroy-remote-meeting-culture)
+- [Documentation Templates for Meeting Governance](#documentation-templates-for-meeting-governance)
+- [Required Documents](#required-documents)
+- [Meeting Types](#meeting-types)
+- [Handling Timezone-Distributed Teams](#handling-timezone-distributed-teams)
+- [Meeting Calendar Templates](#meeting-calendar-templates)
+
 This guide provides practical frameworks for building meeting structures that scale, specifically designed for technical teams and developers who value focused work time.
 
 ## The Fundamental Principle: Replace Before You Add
@@ -436,11 +457,10 @@ Friday:
 
 ## Related Articles
 
-- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 - [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
-- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
 - [Best Practice for Hybrid Team Meeting Scheduling Respecting](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-
+- [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,23 @@ voice-checked: true
 
 Managing a distributed team means you're probably working with parents who juggle professional responsibilities with childcare—especially when working from home. Remote working parent burnout isn't just about feeling tired; it's a systematic issue that manifests through changed work patterns, declining engagement, and eventual attrition. This checklist helps distributed team managers recognize early warning signs and take preventive action before talented team members burn out.
 
+## Table of Contents
+
+- [Why Remote Working Parents Face Unique Burnout Risks](#why-remote-working-parents-face-unique-burnout-risks)
+- [The Recognition Checklist](#the-recognition-checklist)
+- [Practical Intervention Strategies](#practical-intervention-strategies)
+- [Building a Sustainable Culture](#building-a-sustainable-culture)
+- [Creating a Parent-Inclusive Estimation Framework](#creating-a-parent-inclusive-estimation-framework)
+- [The Four-Hour Core Hours Model](#the-four-hour-core-hours-model)
+- [Workload Adjustment for School Calendar Events](#workload-adjustment-for-school-calendar-events)
+- [One-on-One Conversation Template for Managers](#one-on-one-conversation-template-for-managers)
+- [Metrics Dashboard for Parent Team Health](#metrics-dashboard-for-parent-team-health)
+- [Explicit Language Around Parental Leave and Coverage](#explicit-language-around-parental-leave-and-coverage)
+- [Sick Child Days](#sick-child-days)
+- [School Appointments](#school-appointments)
+- [Unexpected Childcare (Daycare Closed, School Events)](#unexpected-childcare-daycare-closed-school-events)
+- [School Pickup/Morning Routine Time](#school-pickupmorning-routine-time)
+
 ## Why Remote Working Parents Face Unique Burnout Risks
 
 Remote work offers flexibility, but it also blurs boundaries between work and family life. When your office is your home, there's no physical separation that signals "workday over." Parents working remotely often start earlier, work later, and sacrifice breaks to accommodate school runs, pediatrician visits, and childcare disruptions.
@@ -367,10 +384,9 @@ Trying to change everything at once. Pick one or two practices, implement them w
 ## Related Articles
 
 - [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
-- [Remote Work Burnout Prevention Tools Guide](/remote-work-tools/remote-work-burnout-prevention-tools/)
-- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
-- [Remote Working Parent Support Group Template for](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
-
+- [How to Detect and Prevent Burnout in Remote Employees](/remote-work-tools/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
+- [Remote Working Parent Support Group Template for Distributed](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
+- [How to Create Remote Team Working Agreement Template for New](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+- [Best Meal Delivery Service Comparison for Remote Working](/remote-work-tools/best-meal-delivery-service-comparison-for-remote-working-fam/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,17 @@ voice-checked: true
 
 Distributed Revit teams can collaborate using cloud-based central file storage (Autodesk Construction Cloud, Azure Blob Storage), VPN-based workset synchronization, or web-based BIM viewers for stakeholder access. Real-time workset monitoring and conflict detection systems help prevent simultaneous editing conflicts. This guide examines technical approaches, cloud integration patterns, and implementation strategies enabling distributed architecture teams to work on Revit projects collaboratively across time zones.
 
+## Table of Contents
+
+- [Understanding the Remote BIM Challenge](#understanding-the-remote-bim-challenge)
+- [Technical Approaches for Remote Revit Collaboration](#technical-approaches-for-remote-revit-collaboration)
+- [Implementing Real-Time Collaboration](#implementing-real-time-collaboration)
+- [Best Practices for Distributed Revit Teams](#best-practices-for-distributed-revit-teams)
+- [Tool Comparison: Remote BIM Collaboration Platforms](#tool-comparison-remote-bim-collaboration-platforms)
+- [Network Latency Optimization for Remote Revit](#network-latency-optimization-for-remote-revit)
+- [Workset Ownership by Time Zone](#workset-ownership-by-time-zone)
+- [Evaluating Your Collaboration Stack](#evaluating-your-collaboration-stack)
+
 ## Understanding the Remote BIM Challenge
 
 Revit, Autodesk's industry-standard BIM platform, was designed primarily for single-user, on-premises workflows. The software's reliance on workset-based collaboration and local file access creates significant challenges for remote teams. Each team member typically needs direct access to the central model, which introduces latency when team members are geographically distributed.
@@ -336,10 +347,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
-- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
-- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
-- [Remote Content Team Collaboration Workflow for Distributed](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)
-- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-
+- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
+- [Best Collaboration Tool for Remote Machine Learning Teams](/remote-work-tools/best-collaboration-tool-for-remote-machine-learning-teams-sharing-experiment-results/)
+- [CodePen vs CodeSandbox for Remote Collaboration](/remote-work-tools/codepen-vs-codesandbox-for-remote-collaboration/)
+- [Miro vs FigJam for Remote Team Collaboration](/remote-work-tools/miro-vs-figjam-for-remote-team-collaboration/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

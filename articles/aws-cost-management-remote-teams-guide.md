@@ -17,6 +17,20 @@ tags: [remote-work-tools, remote-work]
 
 AWS bills grow quietly. A dev environment EC2 left running over a holiday weekend, an S3 bucket with no lifecycle policy accumulating five years of logs, an RDS instance sized for peak traffic that never arrived — these add up. Remote teams with multiple developers provisioning infrastructure independently need guardrails.
 
+## Table of Contents
+
+- [Set Up Budget Alerts First](#set-up-budget-alerts-first)
+- [Enable Cost Anomaly Detection](#enable-cost-anomaly-detection)
+- [Tag Every Resource](#tag-every-resource)
+- [Find Idle and Underutilized Resources](#find-idle-and-underutilized-resources)
+- [Stop Dev Instances Outside Business Hours](#stop-dev-instances-outside-business-hours)
+- [S3 Lifecycle Policies](#s3-lifecycle-policies)
+- [Right-Size RDS Instances](#right-size-rds-instances)
+- [Use Savings Plans for Predictable Workloads](#use-savings-plans-for-predictable-workloads)
+- [Cost Explorer Report by Tag](#cost-explorer-report-by-tag)
+- [Building a Cost Review Cadence](#building-a-cost-review-cadence)
+- [Related Reading](#related-reading)
+
 This guide covers practical cost control for remote AWS teams: budget alerts, anomaly detection, right-sizing, reserved capacity, and automated cleanup of abandoned resources.
 
 ## Set Up Budget Alerts First
@@ -330,6 +344,14 @@ This review takes 30 minutes, can be done async over a shared doc, and prevents 
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 - [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
 - [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
+
+## Related Articles
+
+- [How to Automate Infrastructure Cost Alerts](/remote-work-tools/how-to-automate-infrastructure-cost-alerts/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
+- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -15,8 +15,8 @@ intent-checked: true
 ---
 
 {% raw %}
-## The Problem: Home Networks Are Security Weak Points
 
+## The Problem: Home Networks Are Security Weak Points
 
 Your company's VPN protects your traffic. But:
 - Family members' devices compromise WiFi security
@@ -30,18 +30,7 @@ A compromised IoT device on your WiFi can see unencrypted traffic. A malware-inf
 This guide shows how to segment, isolate, and secure home networks for remote work.
 ---
 
-
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Layer 1: Router Hardening (Prerequisite)
+## Layer 1: Router Hardening (Prerequisite)
 
 Before VLANs, DNS filtering, or any advanced setup, start here.
 
@@ -113,7 +102,7 @@ Before VLANs, DNS filtering, or any advanced setup, start here.
 
 ---
 
-### Step 2: Layer 2: VLAN Segmentation (Isolate IoT/Guests)
+## Layer 2: VLAN Segmentation (Isolate IoT/Guests)
 
 VLANs create virtual networks on the same physical router. Different VLANs can't communicate unless explicitly allowed.
 
@@ -209,7 +198,7 @@ vs. replacement of compromised work laptop: $1200+
 
 ---
 
-### Step 3: Layer 3: DNS Filtering (Block Malware at Query Level)
+## Layer 3: DNS Filtering (Block Malware at Query Level)
 
 DNS filtering intercepts domain lookups and blocks known malicious sites before connection happens.
 
@@ -302,7 +291,7 @@ Use **Cloudflare 1.1.1.2** (free) as default, upgrade to **NextDNS** ($1.99/mont
 
 ---
 
-### Step 4: Layer 4: VPN for Work Devices (Defense in Depth)
+## Layer 4: VPN for Work Devices (Defense in Depth)
 
 Even with network segmentation, your work laptop should have a VPN. This provides encryption for work traffic.
 
@@ -350,7 +339,7 @@ Even with network segmentation, your work laptop should have a VPN. This provide
 
 ---
 
-### Step 5: Layer 5: Guest Network (Isolate Visitors)
+## Layer 5: Guest Network (Isolate Visitors)
 
 Most routers have guest networks. Enable it.
 
@@ -391,7 +380,7 @@ Password generation:
 
 ---
 
-### Step 6: Layer 6: Firewall Rules (Block Unnecessary Connections)
+## Layer 6: Firewall Rules (Block Unnecessary Connections)
 
 Modern routers have built-in firewalls. Configure them properly.
 
@@ -434,7 +423,7 @@ Deny:  Guest → Work (prevents visitor device attacks)
 
 ---
 
-### Step 7: Complete Setup Costs
+## Complete Setup Costs
 
 ### Budget Option (Using Existing Router)
 
@@ -488,7 +477,7 @@ Benefits:
 
 ---
 
-### Step 8: Implementation Checklist
+## Implementation Checklist
 
 **Week 1: Basic Hardening**
 - [ ] Change router admin password
@@ -545,7 +534,7 @@ Solution:
 
 ---
 
-### Step 9: Monitor and Maintenance
+## Monitoring and Maintenance
 
 ### Monthly Tasks
 ```bash
@@ -605,7 +594,7 @@ Solution:
 
 ---
 
-### Step 10: Bottom Line
+## Bottom Line
 
 A well-configured home network is critical for remote work security:
 
@@ -621,7 +610,7 @@ Your company likely spends $10,000+ per year protecting the office network. Your
 
 ---
 
-### Step 11: Tool Quick Reference
+## Tool Quick Reference
 
 | Tool | Purpose | Cost | Setup |
 |------|---------|------|-------|
@@ -657,11 +646,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
 - [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
-- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
-- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
-- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
-
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

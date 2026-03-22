@@ -18,6 +18,16 @@ voice-checked: true
 
 Run asynchronous wellness challenges using step tracking apps (Google Fit, Apple Health, Fitbit), group meditation sessions with Calm or Headspace, and hydration tracking through simple Slack bots. Choose async-first challenges that don't require real-time participation and respect individual time zones. This guide shows you how to build team accountability for health habits without mandatory synchronous meetings.
 
+## Table of Contents
+
+- [Why Wellness Challenges Matter for Distributed Teams](#why-wellness-challenges-matter-for-distributed-teams)
+- [Step Tracking Challenges That Drive Engagement](#step-tracking-challenges-that-drive-engagement)
+- [Meditation Practices for Remote Team Focus](#meditation-practices-for-remote-team-focus)
+- [Water Tracking: The Underrated Wellness Metric](#water-tracking-the-underrated-wellness-metric)
+- [Combining All Three: The Integrated Wellness Week](#combining-all-three-the-integrated-wellness-week)
+- [Tips for Success](#tips-for-success)
+- [Building a Culture of Wellness](#building-a-culture-of-wellness)
+
 ## Why Wellness Challenges Matter for Distributed Teams
 
 Remote work removes the natural movement that happens in an office environment. Walking to meeting rooms, commuting, and casual interactions all contribute to daily activity. When team members work from home, these movement opportunities disappear. Studies show remote workers are 30% less likely to meet daily step goals compared to office workers.
@@ -234,10 +244,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [Remote Team Wellness Check App for Mobile: Tracking Team](/remote-work-tools/remote-team-wellness-check-app-for-mobile-tracking-team-mora/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [Remote Team Grant and Funding Tracking Tool for Distributed](/remote-work-tools/remote-team-grant-and-funding-tracking-tool-for-distributed-/)
 - [Distributed Team Holiday Celebration Ideas Across Cultures](/remote-work-tools/distributed-team-holiday-celebration-ideas-across-cultures-a/)
-- [How to Handle Hybrid Meeting Whiteboard Challenge with](/remote-work-tools/how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/)
-- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
-- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

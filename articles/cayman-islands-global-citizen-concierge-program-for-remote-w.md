@@ -18,6 +18,19 @@ voice-checked: true
 
 The Cayman Islands Global Citizen Concierge Program (GCCP) offers a legitimate pathway for remote workers, freelancers, and digital nomads to establish tax residency in one of the most financially stable jurisdictions in the Caribbean. Unlike traditional visa programs, the GCCP functions more like a concierge service that helps high-net-worth individuals navigate residency, banking, and tax obligations while working remotely for overseas employers.
 
+## Table of Contents
+
+- [What Is the Global Citizen Concierge Program?](#what-is-the-global-citizen-concierge-program)
+- [Eligibility Requirements for 2026](#eligibility-requirements-for-2026)
+- [Application Process](#application-process)
+- [Tax Implications](#tax-implications)
+- [Practical Considerations for Remote Workers](#practical-considerations-for-remote-workers)
+- [Is the GCCP Right for You?](#is-the-gccp-right-for-you)
+- [Comparing GCCP to Other Digital Nomad Programs](#comparing-gccp-to-other-digital-nomad-programs)
+- [Tax Planning for Cayman Islands Residency](#tax-planning-for-cayman-islands-residency)
+- [Financial Logistics for GCCP Holders](#financial-logistics-for-gccp-holders)
+- [Next Steps](#next-steps)
+
 This guide covers eligibility requirements, application procedures, tax implications, and practical considerations for developers and power users evaluating the program in 2026.
 
 ## What Is the Global Citizen Concierge Program?
@@ -319,11 +332,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
-- [Remote HR Benefits Administration Platform for Distributed](/remote-work-tools/remote-hr-benefits-administration-platform-for-distributed-global-teams-2026-review/)
-- [Best Time Zone Management Tools for Global Teams: A](/remote-work-tools/best-time-zone-management-tools-for-global-teams/)
-- [Async Mentorship Program Structure for Remote Junior Develop](/remote-work-tools/async-mentorship-program-structure-for-remote-junior-develop/)
-- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
-
+- [Remote Employee Belonging and Inclusion Program Ideas](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Malaysia Digital Nomad Pass De Rantau Application for Remote](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
+- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
+- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

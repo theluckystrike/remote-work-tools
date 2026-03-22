@@ -243,11 +243,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Story Point Velocity Trend Analysis Tool for](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
+- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
 - [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
 - [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
-- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-- [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)
-
+- [Best Tools for Remote Team Sprint Planning (2026)](/remote-work-tools/best-tools-for-remote-team-sprint-planning-2026/)
+- [Best Tools for Remote Design Sprints: A Practical Guide](/remote-work-tools/best-tools-for-remote-design-sprints/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

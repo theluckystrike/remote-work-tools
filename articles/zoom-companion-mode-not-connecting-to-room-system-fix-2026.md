@@ -16,6 +16,25 @@ voice-checked: true
 
 If you are working remotely or managing a distributed team, you have likely encountered situations where Zoom Companion Mode fails to connect to your room system. This issue can disrupt meetings, cause unnecessary delays, and affect productivity across multiple locations. Understanding how to diagnose and resolve these connectivity problems is essential for maintaining smooth virtual collaboration.
 
+## Table of Contents
+
+- [Understanding Zoom Companion Mode and Room System Connectivity](#understanding-zoom-companion-mode-and-room-system-connectivity)
+- [Step-by-Step Troubleshooting Guide](#step-by-step-troubleshooting-guide)
+- [Preventing Future Connection Issues](#preventing-future-connection-issues)
+- [Common Causes Summary](#common-causes-summary)
+- [Network Architecture Deep Dive](#network-architecture-deep-dive)
+- [Zoom Room System vs. Third-Party Hardware](#zoom-room-system-vs-third-party-hardware)
+- [Companion Mode Connection Methods](#companion-mode-connection-methods)
+- [Advanced Troubleshooting for IT Administrators](#advanced-troubleshooting-for-it-administrators)
+- [Mobile Device Considerations](#mobile-device-considerations)
+- [Hybrid Meeting Scenarios](#hybrid-meeting-scenarios)
+- [Zoom Account Licensing for Companion Mode Features](#zoom-account-licensing-for-companion-mode-features)
+- [Comparing Companion Mode to Alternative Room System Features](#comparing-companion-mode-to-alternative-room-system-features)
+- [Mobile Companion Mode Specifics](#mobile-companion-mode-specifics)
+- [Zoom Account Permissions Configuration](#zoom-account-permissions-configuration)
+- [Escalation Path for Persistent Issues](#escalation-path-for-persistent-issues)
+- [Preventative Maintenance Schedule](#preventative-maintenance-schedule)
+
 This guide provides practical troubleshooting steps specifically designed for remote workers and distributed teams experiencing Zoom Companion Mode connection issues in 2026.
 
 ## Understanding Zoom Companion Mode and Room System Connectivity
@@ -323,8 +342,9 @@ A clean reinstall sometimes resolves persistent issues caused by corrupted cache
 
 ## Related Articles
 
-- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
-- [Zoom Meeting Password Not Accepted by Participants Fix 2026](/zoom-meeting-password-not-accepted-by-participants-fix-2026/)
-- [Zoom CLI example for updating PMI settings](/best-virtual-meeting-room-for-recurring-remote-client-check-/)
-
+- [Zoom Meeting Password Not Accepted by Participants Fix 2026](/remote-work-tools/zoom-meeting-password-not-accepted-by-participants-fix-2026/)
+- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
+- [Zoom CLI example for updating PMI settings](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
+- [Zoom Transcription Missing Words and Inaccurate Fix (2026)](/remote-work-tools/zoom-transcription-missing-words-and-inaccurate-fix-2026/)
+- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

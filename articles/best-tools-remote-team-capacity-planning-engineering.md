@@ -17,6 +17,28 @@ tags: [remote-work-tools]
 
 Lightning talks are 5-minute presentations where a team member demos something, shares a finding, or teaches a concept. For remote teams, they're one of the best ways to transfer knowledge without long meetings. Done right, they fit in a 30-minute slot with 4-5 talks, recordings, and async Q&A. This guide covers the full workflow.
 
+## Table of Contents
+
+- [Format That Works for Remote Teams](#format-that-works-for-remote-teams)
+- [Talk Submission Process](#talk-submission-process)
+- [April 3, 2026 — Session 12](#april-3-2026-session-12)
+- [Backlog (signed up for future sessions)](#backlog-signed-up-for-future-sessions)
+- [Technical Setup](#technical-setup)
+- [Host Script](#host-script)
+- [Async Q&An in Slack](#async-qan-in-slack)
+- [Making it Async-Friendly for Multiple Timezones](#making-it-async-friendly-for-multiple-timezones)
+- [Loom-Based Async Lightning Talks](#loom-based-async-lightning-talks)
+- [Metrics: Are Lightning Talks Working?](#metrics-are-lightning-talks-working)
+- [Handling Timezone Variance in Lightning Talks](#handling-timezone-variance-in-lightning-talks)
+- [What I covered:](#what-i-covered)
+- [Try it yourself:](#try-it-yourself)
+- [References:](#references)
+- [Measuring Lightning Talk Impact](#measuring-lightning-talk-impact)
+- [Common Pitfalls and How to Avoid Them](#common-pitfalls-and-how-to-avoid-them)
+- [Remote-Specific Lightning Talk Workflows](#remote-specific-lightning-talk-workflows)
+- [Building a Lightning Talk Culture](#building-a-lightning-talk-culture)
+- [Related Reading](#related-reading)
+
 # https://www.bigtimer.net/?minutes=5 # Full-screen 5-minute timer
 
 # 2.
@@ -370,6 +392,14 @@ Teams with strong lightning talk cultures report better knowledge distribution, 
 - [Best Remote Team Social Channel Ideas](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
 
 ---
+
+## Related Articles
+
+- [How to Run Remote Team Lightning Talks Keeping](/remote-work-tools/how-to-run-remote-team-lightning-talks-keeping-presentations/)
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
+- [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
+- [Setting Up Grafana Dashboards for Remote Teams](/remote-work-tools/setting-up-grafana-dashboards-for-remote-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

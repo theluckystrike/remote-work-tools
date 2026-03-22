@@ -16,6 +16,17 @@ tags: [remote-work-tools, best-of, remote-work]
 {% raw %}
 Measuring remote onboarding effectiveness requires metrics that actually tell you whether new developers are becoming productive members of your team. Time to first commit (TTFC) stands out as one of the most actionable metrics—it measures the elapsed time from a developer's first day to their first merged pull request. This metric directly reflects how quickly a new hire can navigate your development environment, understand your codebase, and contribute meaningful work.
 
+## Table of Contents
+
+- [Why Time to First Commit Works](#why-time-to-first-commit-works)
+- [Setting Up Time to First Commit Tracking](#setting-up-time-to-first-commit-tracking)
+- [Establishing Benchmarks](#establishing-benchmarks)
+- [Complementary Metrics](#complementary-metrics)
+- [Using TTFC to Improve Your Onboarding Process](#using-ttfc-to-improve-your-onboarding-process)
+- [Onboarding Improvements Based on Q1 TTFC Analysis](#onboarding-improvements-based-on-q1-ttfc-analysis)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Implementation Checklist](#implementation-checklist)
+
 ## Why Time to First Commit Works
 
 Unlike survey-based metrics that capture feelings rather than actions, TTFC provides concrete, observable data. A developer who commits code has necessarily completed several onboarding steps: cloned the repository, set up their local environment, understood enough of the codebase to make a change, and navigated your code review process. When you track this metric across hires, you gain insight into whether your onboarding process enables productivity or creates unnecessary friction.
@@ -231,11 +242,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Onboarding Survey Template for Measuring Remote New](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
-- [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
-- [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
-- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
-- [Remote-First Onboarding Automation Pipeline 2026](/remote-work-tools/remote-first-onboarding-automation-pipeline-2026/)
-
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
+- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
+- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
+- [Hybrid Work Onboarding Process for New Hires](/remote-work-tools/hybrid-work-onboarding-process-for-new-hires/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

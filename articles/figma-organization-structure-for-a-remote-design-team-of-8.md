@@ -11,7 +11,8 @@ tags: [remote-work-tools, figma, design-systems, remote-work, collaboration]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -269,11 +270,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
-- [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
-- [Remote Team Information Architecture Overhaul Guide When](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
-- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
 - [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
-
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

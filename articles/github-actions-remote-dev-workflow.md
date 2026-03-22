@@ -33,6 +33,16 @@ tags: [remote-work-tools, workflow, remote-work]
 
 Remote teams can't do "walk over and ask if the build is broken." Automation fills that gap: every PR gets tested automatically, deploys run without a human initiating them, and Slack notifications keep the team informed without requiring anyone to watch CI dashboards.
 
+## Table of Contents
+
+- [PR Validation Workflow](#pr-validation-workflow)
+- [Automated Deploy Workflow](#automated-deploy-workflow)
+- [Branch Preview Environments](#branch-preview-environments)
+- [Slack Notification for Failed Builds](#slack-notification-for-failed-builds)
+- [Secrets Management in GitHub Actions](#secrets-management-in-github-actions)
+- [Caching Dependencies for Speed](#caching-dependencies-for-speed)
+- [Workflow Reuse with Composite Actions](#workflow-reuse-with-composite-actions)
+
 This guide covers GitHub Actions workflows that make async remote development reliable: PR validation, branch preview environments, automated deploys, and Slack integration.
 
 ## PR Validation Workflow
@@ -469,11 +479,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 - [GitHub Pull Request Workflow for Distributed Teams](/remote-work-tools/github-pull-request-workflow-for-distributed-teams/)
-- [Example GitHub Actions quality gates](/remote-work-tools/how-to-coordinate-remote-frontend-developers-on-shared-compo/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Slack Workflow Builder Automation Stopped Running Fix 2026](/remote-work-tools/slack-workflow-builder-automation-stopped-running-fix-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

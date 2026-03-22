@@ -196,28 +196,6 @@ When rebuilding stuck workflows or upgrading to new versions, follow structured 
 
 **Export flow definitions** as JSON for version control and documentation. Save your flow definitions in a shared repository. This enables quick recreation if a flow becomes corrupted and provides audit history of changes.
 
-Export and back up Power Automate flow definitions using the Microsoft Graph API:
-
-```bash
-# Get an access token for the Power Automate management API
-ACCESS_TOKEN=$(curl -s -X POST \
-  "https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/token" \
-  -d "client_id=$CLIENT_ID" \
-  -d "scope=https://graph.microsoft.com/.default" \
-  -d "client_secret=$CLIENT_SECRET" \
-  -d "grant_type=client_credentials" | jq -r '.access_token')
-
-# List all flows and their current status
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" \
-  "https://api.flow.microsoft.com/providers/Microsoft.ProcessSimple/environments/$ENV_ID/flows?api-version=2016-11-01" \
-  | jq '.value[] | {name: .properties.displayName, state: .properties.state}'
-
-# Export a specific flow definition for version control
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" \
-  "https://api.flow.microsoft.com/providers/Microsoft.ProcessSimple/environments/$ENV_ID/flows/$FLOW_ID?api-version=2016-11-01" \
-  | jq '.properties.definition' > "flow_backup_$(date +%Y%m%d).json"
-```
-
 **Test with realistic data** before production rollout. Use actual approval requests, not minimal test data. Test edge cases: partial information, special characters, maximum-length inputs. Failures in production often stem from insufficient test coverage.
 
 ## Performance Optimization for High-Volume Approvals
@@ -258,7 +236,7 @@ If Power Automate approvals consistently fail, alternatives exist.
 
 ## Approval Workflow Resilience Patterns
 
-Building strong approval systems that survive failures.
+Building robust approval systems that survive failures.
 
 **Always have manual fallback**: If workflow fails completely, approver and requester should have way to manually document the approval. This prevents business process blocking.
 
@@ -341,10 +319,11 @@ Microsoft Teams approval workflows remain essential infrastructure for remote an
 
 ## Related Articles
 
-- [Best Client Approval Workflow Tool for Remote Design Teams](/best-client-approval-workflow-tool-for-remote-design-teams/)
-- [GitHub Actions Workflow for Remote Dev Teams](/github-actions-remote-dev-workflow/)
-- [GitHub Pull Request Workflow for Distributed Teams](/github-pull-request-workflow-for-distributed-teams/)
-
+- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
+- [How to Set Up Remote Finance Team Approval Workflow](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
+- [Best Expense Management Platform for Remote Teams with Recei](/remote-work-tools/best-expense-management-platform-for-remote-teams-with-recei/)
+- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
+- [Best Slack Alternatives for Small Teams in 2026](/remote-work-tools/best-slack-alternatives-for-small-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

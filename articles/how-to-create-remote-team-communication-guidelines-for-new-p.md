@@ -31,6 +31,20 @@ tags: [remote-work-tools, remote-work]
 
 Establish remote team communication guidelines for new projects by creating a channel selection matrix, defining async writing standards, setting meeting protocols with time zone rules, and capturing documentation artifacts like ADRs. This framework prevents communication friction, reduces coordination overhead, and ensures important information survives beyond individual conversations—critical for distributed teams across time zones.
 
+## Table of Contents
+
+- [Why Communication Guidelines Matter for New Remote Projects](#why-communication-guidelines-matter-for-new-remote-projects)
+- [Core Components of Remote Team Communication Guidelines](#core-components-of-remote-team-communication-guidelines)
+- [Communication Channels](#communication-channels)
+- [Feature: User Authentication Flow](#feature-user-authentication-flow)
+- [Status: Accepted](#status-accepted)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Reviewers](#reviewers)
+- [Implementing Guidelines for 2026 Projects](#implementing-guidelines-for-2026-projects)
+- [Adapting Guidelines Over Time](#adapting-guidelines-over-time)
+
 Remote team communication doesn't magically work itself out. When a new project launches in 2026 with distributed team members across time zones, the absence of clear guidelines creates friction, delays, and frustration. The difference between a smooth remote project launch and a chaotic one often comes down to communication norms established on day one.
 
 This guide provides a framework for creating communication guidelines tailored to new remote projects. You'll find practical templates, code-based solutions, and implementation strategies that work for developer teams and technical power users.
@@ -260,10 +274,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
-- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
-- [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
-- [How to Create Remote Team Working Agreement Template for](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
-- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-
+- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
+- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

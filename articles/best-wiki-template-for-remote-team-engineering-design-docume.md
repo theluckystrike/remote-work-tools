@@ -11,7 +11,8 @@ tags: [remote-work-tools, engineering, documentation, wiki, design-document, rem
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -256,6 +257,16 @@ reviewer: @architect, @devops-lead
 
 # Microservices Architecture
 
+## Table of Contents
+
+- [Problem](#problem)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Real-World Implementation Examples](#real-world-implementation-examples)
+- [Template Customization Checklist](#template-customization-checklist)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+
 ## Problem
 Monolithic codebase has become unwieldy at scale.
 
@@ -378,11 +389,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
 - [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
-- [Deal Brief: [Company Name]](/remote-work-tools/how-to-set-up-remote-sales-team-deal-room-with-shared-docume/)
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
-- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
-
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

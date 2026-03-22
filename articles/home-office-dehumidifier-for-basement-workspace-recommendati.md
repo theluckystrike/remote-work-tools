@@ -33,6 +33,17 @@ tags: [remote-work-tools]
 
 For most basement home offices, a 30-50 pint Energy Star compressor dehumidifier with WiFi and continuous drain is the best choice -- it handles spaces up to 2,500 square feet while keeping humidity in the ideal 40-50% range for both your health and your equipment. Desiccant units are better for cold basements where temperatures drop below 60 degrees F, and thermoelectric (Peltier) units suit small problem areas under 500 square feet. This guide covers sizing, smart home integration, and automation strategies to help you select the right dehumidifier for your basement workspace.
 
+## Table of Contents
+
+- [Understanding Basement Humidity Dynamics](#understanding-basement-humidity-dynamics)
+- [Dehumidifier Types and Technical Specifications](#dehumidifier-types-and-technical-specifications)
+- [Smart Home Integration Strategies](#smart-home-integration-strategies)
+- [Building a Monitoring Dashboard](#building-a-monitoring-dashboard)
+- [Practical Deployment Recommendations](#practical-deployment-recommendations)
+- [Product Recommendations by Use Case](#product-recommendations-by-use-case)
+- [Comparison Table: Popular Dehumidifiers for Home Office](#comparison-table-popular-dehumidifiers-for-home-office)
+- [Automation Workflows](#automation-workflows)
+
 ## Understanding Basement Humidity Dynamics
 
 Basements naturally accumulate moisture through foundation seepage, groundwater pressure, and limited air circulation. Unlike above-ground rooms, basement humidity levels can fluctuate dramatically based on seasonal changes, rainfall patterns, and HVAC operation.
@@ -310,11 +321,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Home Office Dehumidifier for Basement Workspace — Recommendation](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation-2026/)
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Home Office Dehumidifier for Basement Workspace: 2026](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation-2026/)
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
+- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
 - [Home Office Setup in Closet: Converted Workspace Guide 2026](/remote-work-tools/home-office-setup-in-closet-converted-workspace-guide-2026/)
-- [How to Create Distraction Free Workspace at Home](/remote-work-tools/how-to-create-distraction-free-workspace-at-home/)
-- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

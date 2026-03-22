@@ -11,7 +11,8 @@ tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -246,11 +247,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
-- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
-- [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
-- [Best Remote Legal Team Document Collaboration Tool for](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
-- [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
-
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+- [Best Tools for Remote Architecture Decision Records](/remote-work-tools/best-tools-for-remote-architecture-decision-records/)
+- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
+- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

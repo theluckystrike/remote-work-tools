@@ -31,6 +31,18 @@ tags: [remote-work-tools, capacity-planning, resource-management, project-manage
 
 Distributed teams struggle with visibility into who's available, when capacity exists for new work, and which team members are overallocated. Forecast, Float, Teamdeck, and Resource Guru each solve capacity planning differently—some emphasize billable utilization, others focus on workload balancing. This guide compares pricing, integration ecosystems, and setup complexity so you can pick the right tool for your team size, client model, and project management stack.
 
+## Table of Contents
+
+- [Why Capacity Planning Matters for Remote Teams](#why-capacity-planning-matters-for-remote-teams)
+- [Forecast — Best for Billable Services and Client Projects](#forecast-best-for-billable-services-and-client-projects)
+- [Float — Best for Visual Capacity Planning at Scale](#float-best-for-visual-capacity-planning-at-scale)
+- [Teamdeck — Best for Remote Team Visibility and Time Tracking](#teamdeck-best-for-remote-team-visibility-and-time-tracking)
+- [Resource Guru — Best for Freelance and Agency Flexibility](#resource-guru-best-for-freelance-and-agency-flexibility)
+- [Capacity Planning Tool Comparison](#capacity-planning-tool-comparison)
+- [Implementation Strategy by Company Type](#implementation-strategy-by-company-type)
+- [Onboarding and Data Migration](#onboarding-and-data-migration)
+- [Real-World Setup Checklist](#real-world-setup-checklist)
+
 ## Why Capacity Planning Matters for Remote Teams
 
 Without visibility into team capacity, you default to assigning work reactively. This creates:
@@ -320,12 +332,11 @@ Typical timeline:
 
 ## Related Articles
 
-- [Best Remote Team Communication Tools for Async Work](/best-remote-team-communication-tools-async-2026/)
-- [How to Structure Remote Team Workflows for Maximum Productivity](/remote-team-workflows-productivity-2026/)
-- [Building Remote Team Trust Without Micromanagement](/remote-team-trust-without-micromanagement-2026/)
-- [Remote Team Onboarding Best Practices Guide](/remote-team-onboarding-best-practices-2026/)
-- [Distributed Team Sync Meeting Best Practices](/distributed-team-sync-meeting-best-practices-2026/)
-
+- [Best Tools for Remote Team Capacity Planning](/remote-work-tools/best-tools-remote-team-capacity-planning-2026/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
+- [Async Capacity Planning Process for Remote: Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Best Tools for Remote Team Sprint Planning (2026)](/remote-work-tools/best-tools-for-remote-team-sprint-planning-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -14,63 +14,52 @@ voice-checked: true
 tags: [remote-work-tools]
 ---
 
-Google Scholar is invaluable for researchers, but its default interface lacks features that power users need: bulk citation export, automated saved-search alerts, PDF auto-download, and formatting citations in custom styles. A Chrome extension built specifically for Scholar fills all of these gaps. This guide walks through building one from scratch using Manifest V3, the current Chrome extension standard.
+## Chrome Extensions for Google Scholar: Why Build One
 
-## Why Build a Google Scholar Extension
+Google Scholar is the default for academic/research lookups. Building a Chrome extension can enhance Scholar with features it lacks: highlight papers you've read, export citations in one click, show related papers, link to free PDF versions, track papers you've saved.
 
-Off-the-shelf Scholar tools exist — Unpaywall, Zotero Connector, Google Scholar Button — but they each solve one narrow problem. A custom extension lets you combine features, scrape exactly the fields you care about, and pipe data into your own systems.
+For remote researchers, librarians, and academics, a well-built Scholar extension saves hours per month.
 
-Common use cases that justify building your own:
+## What Your Scholar Extension Should Do
 
-- **Automated citation collection**: pull all results from a search query into a structured JSON or CSV file
-- **Custom citation formatting**: generate citations in your lab's house style, not just APA/MLA/Chicago
-- **Saved search alerting**: poll Scholar periodically and notify you of new papers matching keywords
-- **PDF auto-fetch**: attempt Unpaywall and Sci-Hub fallbacks automatically on every result page
-- **Cross-reference checking**: highlight papers already in your Zotero or Mendeley library
+**Core features**:
+1. **One-click citation export** (BibTeX, APA, MLA)
+2. **Mark papers read/interesting** (persist across sessions)
+3. **Find free PDF links** (integrate with unpaywall.org)
+4. **Show author reputation** (h-index, citations)
+5. **Quick notes** (annotate results directly)
 
-## Prerequisites
+**Nice-to-have features**:
+1. **Related papers widget** (show similar research)
+2. **Institutional access check** (highlight papers your library has)
+3. **Save to Notion/Zotero** (one-click sync)
+4. **Citation count tracker** (graph citation growth over time)
 
-You need Chrome 88 or later (Manifest V3 requires it), Node.js 18+ for build tooling, and a basic understanding of JavaScript. No server infrastructure is required — the extension runs entirely in the browser.
+## Architecture: Building Your Scholar Extension
 
-## Project Structure
+### Manifest V3 Setup
 
-```
-scholar-extension/
-├── manifest.json
-├── background.js
-├── content.js
-├── popup/
-│   ├── popup.html
-│   └── popup.js
-├── icons/
-│   ├── icon16.png
-│   ├── icon48.png
-│   └── icon128.png
-└── styles/
-    └── content.css
-```
-
-Keep the extension lean. A bloated extension slows down every Scholar page load.
-
-## Manifest V3 Configuration
-
-Manifest V3 is not optional for new extensions submitted to the Chrome Web Store after January 2023. The biggest changes from V2: service workers replace background pages, and `chrome.scripting.executeScript` replaces `chrome.tabs.executeScript`.
+Chrome moved to Manifest V3 in January 2024. Older V2 extensions no longer work. Every new Scholar extension must use V3.
 
 ```json
 {
   "manifest_version": 3,
-  "name": "Scholar Tools",
+  "name": "Scholar Plus",
   "version": "1.0.0",
-  "description": "Enhanced citation and search tools for Google Scholar",
+  "description": "Enhance Google Scholar with citation export and saved papers",
   "permissions": [
-    "activeTab",
     "storage",
-    "alarms",
-    "notifications"
+    "activeTab",
+    "scripting",
+    "host_permissions"
   ],
   "host_permissions": [
     "https://scholar.google.com/*"
   ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Scholar Plus"
+  },
   "background": {
     "service_worker": "background.js"
   },
@@ -78,212 +67,374 @@ Manifest V3 is not optional for new extensions submitted to the Chrome Web Store
     {
       "matches": ["https://scholar.google.com/*"],
       "js": ["content.js"],
-      "css": ["styles/content.css"]
+      "css": ["content.css"]
     }
-  ],
-  "action": {
-    "default_popup": "popup/popup.html",
-    "default_icon": {
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
-    }
-  }
+  ]
 }
 ```
 
-The `host_permissions` field scoping to `scholar.google.com` is important — it keeps your extension from touching other sites and speeds up permissions review if you submit to the store.
+### Content Script: Enhance Scholar Pages
 
-## Content Script: Scraping Scholar Results
-
-The content script runs on every Scholar page and is responsible for reading the DOM and injecting UI elements. Scholar's HTML structure changes occasionally, so build your selectors defensively.
+Content scripts run on Scholar pages and inject buttons/UI.
 
 ```javascript
 // content.js
+// Runs on Google Scholar results pages
 
-const SELECTORS = {
-  result: '.gs_r.gs_or.gs_scl',
-  title: '.gs_rt a',
-  authors: '.gs_a',
-  citedBy: '.gs_fl a[href*="cites"]',
-  pdfLink: '.gs_or_ggsm a',
-  abstract: '.gs_rs'
-};
+function enhanceScholarResults() {
+  // Find all result containers
+  const results = document.querySelectorAll('div[data-cid]');
 
-function parseResults() {
-  const results = [];
-  document.querySelectorAll(SELECTORS.result).forEach(el => {
-    const titleEl = el.querySelector(SELECTORS.title);
-    const authorsEl = el.querySelector(SELECTORS.authors);
-    const citeEl = el.querySelector(SELECTORS.citedBy);
-    const pdfEl = el.querySelector(SELECTORS.pdfLink);
-    const abstractEl = el.querySelector(SELECTORS.abstract);
+  results.forEach(result => {
+    const paperId = result.getAttribute('data-cid');
+    const titleElement = result.querySelector('h3 a');
+    const title = titleElement?.textContent || 'Unknown';
 
-    if (!titleEl) return; // skip ads and non-result elements
+    // Create enhancement UI
+    const controls = document.createElement('div');
+    controls.className = 'scholar-plus-controls';
+    controls.innerHTML = `
+      <button class="scholar-btn save-btn" data-id="${paperId}">
+        ⭐ Save
+      </button>
+      <button class="scholar-btn cite-btn" data-id="${paperId}">
+        📋 Cite
+      </button>
+      <button class="scholar-btn pdf-btn" data-id="${paperId}">
+        📄 Find PDF
+      </button>
+    `;
 
-    results.push({
-      title: titleEl.textContent.trim(),
-      url: titleEl.href,
-      authors: authorsEl ? authorsEl.textContent.trim() : '',
-      citedBy: citeEl ? parseInt(citeEl.textContent.replace(/\D/g, '')) || 0 : 0,
-      pdfUrl: pdfEl ? pdfEl.href : null,
-      abstract: abstractEl ? abstractEl.textContent.trim() : ''
+    // Insert controls below title
+    titleElement?.parentElement?.appendChild(controls);
+
+    // Add event listeners
+    controls.querySelector('.save-btn').addEventListener('click', () => {
+      savePaper(paperId, title);
+    });
+
+    controls.querySelector('.cite-btn').addEventListener('click', () => {
+      showCitationFormats(paperId, title);
+    });
+
+    controls.querySelector('.pdf-btn').addEventListener('click', () => {
+      findFreeFullText(paperId, title);
     });
   });
-  return results;
 }
 
-// Inject export button into Scholar's toolbar
-function injectExportButton() {
-  const toolbar = document.querySelector('#gs_top_tb');
-  if (!toolbar || document.querySelector('#scholar-tools-export')) return;
-
-  const btn = document.createElement('button');
-  btn.id = 'scholar-tools-export';
-  btn.textContent = 'Export Results';
-  btn.className = 'scholar-tools-btn';
-  btn.addEventListener('click', () => {
-    const data = parseResults();
-    chrome.runtime.sendMessage({ action: 'exportCSV', data });
+// Save paper to local storage
+function savePaper(paperId, title) {
+  chrome.storage.local.get('savedPapers', (result) => {
+    const saved = result.savedPapers || [];
+    if (!saved.find(p => p.id === paperId)) {
+      saved.push({
+        id: paperId,
+        title: title,
+        savedAt: new Date().toISOString(),
+        notes: ''
+      });
+      chrome.storage.local.set({ savedPapers: saved });
+      showNotification('Paper saved!');
+    }
   });
-  toolbar.appendChild(btn);
 }
 
-// Run on initial load and on Scholar's dynamic navigation
-injectExportButton();
-const observer = new MutationObserver(injectExportButton);
-observer.observe(document.body, { childList: true, subtree: true });
+// Show citation formats popup
+function showCitationFormats(paperId, title) {
+  const formats = {
+    bibtex: generateBibTeX(paperId, title),
+    apa: generateAPA(title),
+    mla: generateMLA(title)
+  };
+
+  chrome.runtime.sendMessage({
+    action: 'showCitation',
+    formats: formats
+  });
+}
+
+// Find free PDF via unpaywall.org
+async function findFreeFullText(paperId, title) {
+  try {
+    const doi = extractDOI(paperId);
+    if (!doi) {
+      showNotification('Could not extract DOI');
+      return;
+    }
+
+    const response = await fetch(`https://api.unpaywall.org/v2/${doi}?email=user@example.com`);
+    const data = await response.json();
+
+    if (data.is_oa && data.oa_locations[0]?.url_for_pdf) {
+      window.open(data.oa_locations[0].url_for_pdf, '_blank');
+    } else {
+      showNotification('No free version found');
+    }
+  } catch (error) {
+    console.error('PDF search error:', error);
+  }
+}
+
+// Run enhancement when page loads
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', enhanceScholarResults);
+} else {
+  enhanceScholarResults();
+}
+
+// Watch for new results (infinite scroll)
+const observer = new MutationObserver(enhanceScholarResults);
+observer.observe(document.body, {
+  childList: true,
+  subtree: true
+});
 ```
 
-The `MutationObserver` handles Scholar's partial-page navigation — when you click through to the next results page, the URL changes but the full page does not reload.
+### Citation Generation
 
-## Background Service Worker: Export and Alarms
-
-The service worker handles tasks that don't need direct DOM access: file downloads, alarms for periodic searches, and cross-tab coordination.
+Generate citations in common formats:
 
 ```javascript
-// background.js
+// Generate BibTeX
+function generateBibTeX(paperId, title) {
+  const authors = extractAuthors(); // Parse from page
+  const year = extractYear(); // Parse from page
+  const key = `${authors[0]}_${year}`.replace(/[^a-z0-9]/gi, '');
 
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  if (message.action === 'exportCSV') {
-    const csv = convertToCSV(message.data);
-    const blob = new Blob([csv], { type: 'text/csv' });
-    const url = URL.createObjectURL(blob);
-    chrome.downloads.download({
-      url,
-      filename: `scholar-export-${Date.now()}.csv`,
-      saveAs: false
-    });
-    sendResponse({ success: true });
-  }
-  return true; // keep message channel open for async response
-});
-
-function convertToCSV(results) {
-  const headers = ['Title', 'URL', 'Authors', 'Cited By', 'PDF URL', 'Abstract'];
-  const rows = results.map(r => [
-    `"${r.title.replace(/"/g, '""')}"`,
-    r.url,
-    `"${r.authors.replace(/"/g, '""')}"`,
-    r.citedBy,
-    r.pdfUrl || '',
-    `"${r.abstract.replace(/"/g, '""')}"`
-  ]);
-  return [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+  return `@article{${key},
+    title={${title}},
+    author={${authors.join(' and ')}},
+    year={${year}}
+  }`;
 }
 
-// Saved search alarm: check Scholar daily for new results
-chrome.alarms.onAlarm.addListener(async (alarm) => {
-  if (alarm.name.startsWith('savedSearch:')) {
-    const query = alarm.name.replace('savedSearch:', '');
-    const result = await fetch(
-      `https://scholar.google.com/scholar?q=${encodeURIComponent(query)}&as_ylo=${new Date().getFullYear()}`
-    );
-    // Parse and compare against stored results
-    // Notify user if new papers found
-  }
-});
+// Generate APA
+function generateAPA(title) {
+  const authors = extractAuthors();
+  const year = extractYear();
+  return `${authors.join(', ')} (${year}). ${title}.`;
+}
+
+// Generate MLA
+function generateMLA(title) {
+  const authors = extractAuthors();
+  const year = extractYear();
+  return `${authors.join(', ')}. "${title}." ${year}.`;
+}
 ```
 
-Note that `chrome.downloads` requires the `downloads` permission in `manifest.json` if you use it. Add it to the permissions array.
-
-## Popup UI: Quick Actions
-
-The popup appears when a user clicks the extension icon. Keep it focused — two or three actions maximum.
+### Popup UI: Show Saved Papers
 
 ```html
-<!-- popup/popup.html -->
+<!-- popup.html -->
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <style>
-    body { width: 280px; padding: 12px; font-family: system-ui, sans-serif; }
-    button { width: 100%; margin: 4px 0; padding: 8px; cursor: pointer; }
-    #status { font-size: 12px; color: #666; margin-top: 8px; }
+    body {
+      width: 400px;
+      padding: 10px;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .tab-buttons {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    button {
+      padding: 8px 12px;
+      border: none;
+      background: #f0f0f0;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button.active {
+      background: #007bff;
+      color: white;
+    }
+    .paper-item {
+      padding: 10px;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+    .paper-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .paper-notes {
+      font-size: 12px;
+      color: #666;
+      margin-top: 5px;
+    }
   </style>
 </head>
 <body>
-  <h3>Scholar Tools</h3>
-  <button id="exportBtn">Export Current Results</button>
-  <button id="saveSearchBtn">Save This Search (Daily Alert)</button>
-  <button id="viewSavedBtn">View Saved Searches</button>
-  <div id="status"></div>
+  <h2>Scholar Plus</h2>
+
+  <div class="tab-buttons">
+    <button class="tab-btn active" data-tab="saved">Saved Papers</button>
+    <button class="tab-btn" data-tab="settings">Settings</button>
+  </div>
+
+  <div id="saved-papers"></div>
+  <div id="settings" style="display: none;"></div>
+
   <script src="popup.js"></script>
 </body>
 </html>
 ```
 
 ```javascript
-// popup/popup.js
+// popup.js
+function loadSavedPapers() {
+  chrome.storage.local.get('savedPapers', (result) => {
+    const papers = result.savedPapers || [];
+    const container = document.getElementById('saved-papers');
 
-document.getElementById('exportBtn').addEventListener('click', async () => {
-  const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-  chrome.tabs.sendMessage(tab.id, { action: 'triggerExport' });
-  document.getElementById('status').textContent = 'Exporting...';
-});
+    if (papers.length === 0) {
+      container.innerHTML = '<p>No saved papers yet</p>';
+      return;
+    }
 
-document.getElementById('saveSearchBtn').addEventListener('click', async () => {
-  const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-  const url = new URL(tab.url);
-  const query = url.searchParams.get('q');
-  if (!query) {
-    document.getElementById('status').textContent = 'No search query found.';
-    return;
-  }
-  await chrome.alarms.create(`savedSearch:${query}`, { periodInMinutes: 1440 }); // daily
-  document.getElementById('status').textContent = `Saved: "${query}"`;
-});
+    container.innerHTML = papers.map(paper => `
+      <div class="paper-item">
+        <div class="paper-title">${paper.title}</div>
+        <div class="paper-notes">${paper.notes || 'No notes'}</div>
+        <small>${new Date(paper.savedAt).toLocaleDateString()}</small>
+        <button onclick="removePaper('${paper.id}')">Remove</button>
+      </div>
+    `).join('');
+  });
+}
+
+function removePaper(paperId) {
+  chrome.storage.local.get('savedPapers', (result) => {
+    const papers = result.savedPapers || [];
+    const filtered = papers.filter(p => p.id !== paperId);
+    chrome.storage.local.set({ savedPapers: filtered });
+    loadSavedPapers();
+  });
+}
+
+// Load papers when popup opens
+loadSavedPapers();
 ```
 
-## Handling Scholar's Anti-Scraping Measures
+## Publishing Your Extension
 
-Scholar rate-limits aggressive requests. If your extension makes multiple rapid requests, users will hit CAPTCHAs. Design around this:
+1. **Create developer account** ($5 one-time, Chrome Web Store)
+2. **Create extension ZIP**: Exclude `.git`, `node_modules`
+3. **Upload to Chrome Web Store** with screenshots, description, privacy policy
+4. **Review takes 1-3 days**
+5. **Once approved**, appears in Chrome Web Store (anyone can install)
 
-- Never fetch more than one Scholar URL per 3–5 seconds in background tasks
-- Use `chrome.storage` to cache results and avoid re-fetching unchanged pages
-- For alarm-based polling, use a jittered delay: `Math.random() * 60000` added to the alarm interval
-- Respect the `Retry-After` header if Scholar returns a 429
+## Testing Before Publishing
 
-The extension scrapes only pages the user has already loaded — it does not make independent background requests to Scholar unless the user explicitly enables saved search alerts.
+```bash
+# 1. Open Chrome Extensions page
+# chrome://extensions/
 
-## Loading for Development
+# 2. Enable "Developer mode" (top right)
 
-1. Open `chrome://extensions/`
-2. Enable "Developer mode" (top right toggle)
-3. Click "Load unpacked" and select your extension directory
-4. Navigate to any Scholar search page to test
+# 3. Click "Load unpacked"
 
-After any code change, click the reload icon on the extensions page. The content script will reload on the next Scholar page navigation; the service worker reloads immediately.
+# 4. Select your extension folder
 
-## Publishing to the Chrome Web Store
+# 5. Extension loads (any changes require refresh)
 
-The review process typically takes 3–7 business days. Reviewers check that your extension only uses the permissions it declares, that the description matches what it actually does, and that it does not exfiltrate user data.
+# 6. Test on Google Scholar (scholar.google.com)
+```
 
-For a Scholar-specific extension:
-- Justify `activeTab` in the permissions justification field — explain that it reads search results only when the user is on Scholar
-- Include a privacy policy if you collect any data, even locally cached search queries
-- Use the minimum permissions necessary — drop anything you are not actively using
+## Common Pitfalls and Solutions
+
+**Pitfall 1: Extension doesn't load**
+- Manifest V3 syntax incorrect
+- Invalid JSON in manifest.json
+
+*Solution*: Validate manifest.json at jsonlint.com. Ensure all permissions are array.
+
+**Pitfall 2: Content script doesn't run**
+- host_permissions not set correctly
+- Domain doesn't match `matches` pattern
+
+*Solution*: Check `matches` field. Scholar URLs must be exact: `https://scholar.google.com/*`
+
+**Pitfall 3: Storage data doesn't persist**
+- Using session storage instead of chrome.storage
+- Not handling async properly
+
+*Solution*: Use `chrome.storage.local` (persists across sessions). All chrome APIs are async (use callbacks or promises).
+
+**Pitfall 4: Extension slows down Scholar**
+- Content script running inefficiently
+- DOM mutations causing repeated queries
+
+*Solution*: Use `requestAnimationFrame` to batch DOM updates. Cache selectors. Use MutationObserver sparingly.
+
+## Real Workflow: Using Your Scholar Extension
+
+1. **Morning**: Search Scholar for "machine learning papers 2025"
+2. **Find interesting paper**: Click "Save" button
+3. **Read paper later**: Open extension popup, see saved list
+4. **Export for thesis**: Click "Cite" on saved paper, copy BibTeX
+5. **Find free version**: Click "Find PDF", opens free version from unpaywall
+
+**Time saved per paper**: 3-5 minutes (vs manual citation lookup, PDF search)
+
+## Building Additional Features: Export to Zotero
+
+Add button to export saved papers to Zotero (research management tool):
+
+```javascript
+// Add to content.js
+async function exportToZotero(paperId, title) {
+  const zoteroWebAPIKey = await getZoteroAPIKey();
+
+  const response = await fetch('https://api.zotero.org/users/[userID]/items', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${zoteroWebAPIKey}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      items: [{
+        itemType: 'journalArticle',
+        title: title,
+        url: `https://scholar.google.com/scholar?q=${paperId}`
+      }]
+    })
+  });
+
+  if (response.ok) {
+    showNotification('Added to Zotero!');
+  }
+}
+```
+
+## Team Exercise: Planning Your Extension (60 minutes)
+
+**Part 1: Needs (15 min)**
+1. What annoys you most about Google Scholar?
+2. What repetitive task do you do every time you search?
+3. What would save you most time?
+
+**Part 2: Feature Spec (20 min)**
+1. Pick top 3 features
+2. Sketch UI for each feature
+3. How would each feature work? (Step by step)
+
+**Part 3: Technical Design (15 min)**
+1. Which data must persist? (saved papers, settings)
+2. Need API access? (unpaywall, Zotero, etc.)
+3. Which APIs require user authentication?
+
+**Part 4: Roadmap (10 min)**
+1. MVP (minimum viable): Just save papers + basic export
+2. V1.1: Find free PDFs
+3. V1.2: Export to Zotero
 
 ## Frequently Asked Questions
 
@@ -309,10 +460,9 @@ The Chrome Developers documentation at developer.chrome.com is the authoritative
 
 ## Related Articles
 
-- [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
-- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
-- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
-- [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
-
+- [How to Manage Cross-Functional Remote Projects](/remote-work-tools/how-to-manage-cross-functional-remote-projects/)
+- [Chrome Extension OneNote Clipper Setup: Complete Guide](/remote-work-tools/chrome-extension-onenote-clipper-setup/)
+- [Chrome Extension Compress Images Before Upload](/remote-work-tools/chrome-extension-compress-images-before-upload/)
+- [Chrome Extension Currency Converter Shopping](/remote-work-tools/chrome-extension-currency-converter-shopping/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

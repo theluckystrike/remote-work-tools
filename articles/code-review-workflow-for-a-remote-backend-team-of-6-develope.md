@@ -31,6 +31,34 @@ tags: [remote-work-tools, workflow, remote-work]
 
 Implement a rotation-based review assignment system to prevent bottlenecks, split reviews into feature (two approvals) and hotfix (one approval) categories, and use async code review practices with timezone-aware SLAs. Set up GitHub branch protection rules to enforce review requirements and automate notifications through Slack to maintain responsiveness across distributed team schedules.
 
+## Table of Contents
+
+- [The Foundation: Review Cadence and Assignment](#the-foundation-review-cadence-and-assignment)
+- [Time Zone Coordination](#time-zone-coordination)
+- [PR Description Template](#pr-description-template)
+- [What Changed](#what-changed)
+- [Why This Change](#why-this-change)
+- [How to Test](#how-to-test)
+- [Screenshots/Logs](#screenshotslogs)
+- [Review Checklist for Backend Code](#review-checklist-for-backend-code)
+- [Handling Disagreements Professionally](#handling-disagreements-professionally)
+- [Automating the Mechanical Parts](#automating-the-mechanical-parts)
+- [Metrics That Matter](#metrics-that-matter)
+- [Emergency Procedures](#emergency-procedures)
+- [Building Your Team's Culture](#building-your-teams-culture)
+- [Tool Selection for Code Review](#tool-selection-for-code-review)
+- [Scaling Review Workflow to 6+ Developers](#scaling-review-workflow-to-6-developers)
+- [Asynchronous Code Review Best Practices](#asynchronous-code-review-best-practices)
+- [What Changed](#what-changed)
+- [Why This Change](#why-this-change)
+- [Type of Change](#type-of-change)
+- [How to Test](#how-to-test)
+- [Verification](#verification)
+- [Checklist](#checklist)
+- [Performance Bottlenecks and Solutions](#performance-bottlenecks-and-solutions)
+- [Measuring Success and Iteration](#measuring-success-and-iteration)
+- [Building Review Culture](#building-review-culture)
+
 ## The Foundation: Review Cadence and Assignment
 
 With a team of six developers working remotely, you need structured guidelines for who reviews what and when. A simple rotation system prevents bottlenecks and ensures everyone stays familiar with different parts of your codebase.
@@ -444,10 +472,9 @@ Check the export options before committing. Most tools let you export your data,
 
 ## Related Articles
 
-- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
-- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [Claude Code for Faker.js Test Data Workflow Guide](/remote-work-tools/claude-code-for-faker-js-test-data-workflow-guide/)
-- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
-- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
-
+- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
+- [Remote Employee Intellectual Property Assignment Clause](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
+- [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

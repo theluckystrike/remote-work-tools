@@ -17,6 +17,28 @@ voice-checked: true
 
 Choose camera on if you are in a small meeting (under 5 people), giving or receiving feedback, or meeting a client where visual presence matters. Choose camera off if you are in a large all-hands, primarily listening, or dealing with bandwidth constraints and home interruptions. This guide covers the practical tradeoffs, provides code-level solutions for managing camera settings, and includes a ready-to-adopt team policy template.
 
+## Table of Contents
+
+- [The Core Tradeoffs](#the-core-tradeoffs)
+- [When to Default to Camera On](#when-to-default-to-camera-on)
+- [When Camera Off Makes Sense](#when-camera-off-makes-sense)
+- [Browser-Level Camera Control](#browser-level-camera-control)
+- [Optimizing Your Video Setup](#optimizing-your-video-setup)
+- [Team Policy Recommendations](#team-policy-recommendations)
+- [Video Meeting Guidelines](#video-meeting-guidelines)
+- [The Middle Path: Selective Video](#the-middle-path-selective-video)
+- [Making the Call](#making-the-call)
+- [The Neuroscience of Video Calls](#the-neuroscience-of-video-calls)
+- [Video Setup Investment: Cost vs. Benefit](#video-setup-investment-cost-vs-benefit)
+- [Video Fatigue Research and Mitigation](#video-fatigue-research-and-mitigation)
+- [Advanced Video Tools and Alternatives](#advanced-video-tools-and-alternatives)
+- [Meeting Type Decision Tree](#meeting-type-decision-tree)
+- [Measuring Your Team's Video Culture](#measuring-your-teams-video-culture)
+- [Cultural Considerations for Camera Policies](#cultural-considerations-for-camera-policies)
+- [The Leadership Approach: Default Flexibility](#the-leadership-approach-default-flexibility)
+- [Remote Meeting Camera Guidelines](#remote-meeting-camera-guidelines)
+- [Implementing Camera Policy Change Successfully](#implementing-camera-policy-change-successfully)
+
 ## The Core Tradeoffs
 
 Camera-on meetings create a sense of presence. You see reactions, catch non-verbal cues, and build rapport faster. Studies consistently show that video calls with cameras on lead to stronger team cohesion and faster trust-building.
@@ -308,10 +330,9 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
 - [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
-- [Best Tools for Remote Team Standup Meetings 2026.](/remote-work-tools/best-tools-for-remote-team-standup-meetings-2026/)
-- [Best Virtual Icebreaker Tool for Remote Team Meetings That](/remote-work-tools/best-virtual-icebreaker-tool-for-remote-team-meetings-that-f/)
-- [Best Webcam for Remote Meetings 2026: A Technical Guide](/remote-work-tools/best-webcam-for-remote-meetings-2026/)
-
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
+- [How to Hide Messy Room During Video Calls Without Virtual](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-background/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

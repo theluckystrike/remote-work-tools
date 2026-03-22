@@ -18,6 +18,13 @@ score: 8
 
 Building an effective decision-making framework for distributed teams requires deliberate structure. Without clear processes, remote organizations face analysis paralysis, inconsistent choices, and frustrated team members who feel unheard. This guide provides a practical approach to creating decision-making frameworks that work across time zones and async communication channels.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Why Distributed Teams Need Explicit Decision Frameworks](#why-distributed-teams-need-explicit-decision-frameworks)
+- [Background](#background)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -273,9 +280,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
 - [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
-- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
-- [Async Decision Making with RFC Documents for Engineering](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
 - [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-
+- [Async Decision-Making Framework for Remote Teams](/remote-work-tools/articles/how-to-set-up-async-decision-making-framework-guide/)
+- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

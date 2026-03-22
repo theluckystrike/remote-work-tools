@@ -18,6 +18,23 @@ voice-checked: true
 
 Managing Objectives and Key Results (OKRs) across a distributed team of 12 people requires deliberate structure. Unlike co-located teams that can rely on hallway conversations and visual dashboards, remote product teams need explicit processes and tooling to keep everyone aligned. This guide covers practical approaches to tracking OKRs that actually work for mid-sized remote product teams.
 
+## Table of Contents
+
+- [Structuring OKRs for a 12-Person Product Team](#structuring-okrs-for-a-12-person-product-team)
+- [Choosing Your OKR Tracking Tool](#choosing-your-okr-tracking-tool)
+- [Weekly Check-In cadence](#weekly-check-in-cadence)
+- [Week of [Date] OKR Updates](#week-of-date-okr-updates)
+- [Automating Progress Updates](#automating-progress-updates)
+- [Quarterly OKR Cycle Timeline](#quarterly-okr-cycle-timeline)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Integrating OKRs with Daily Work](#integrating-okrs-with-daily-work)
+- [Detailed Implementation Timeline for Your First OKR Cycle](#detailed-implementation-timeline-for-your-first-okr-cycle)
+- [Real OKR Example for a 12-Person Product Team](#real-okr-example-for-a-12-person-product-team)
+- [Weekly OKR Update Template](#weekly-okr-update-template)
+- [Weekly OKR Update - [Name]](#weekly-okr-update-name)
+- [Avoiding the "Weight of OKRs" Problem](#avoiding-the-weight-of-okrs-problem)
+- [Feedback Loop: Quarterly Review Meeting](#feedback-loop-quarterly-review-meeting)
+
 ## Structuring OKRs for a 12-Person Product Team
 
 With 12 people, you likely have enough complexity to warrant clear ownership but not so much that coordination becomes overwhelming. A three-tier structure typically works well:
@@ -370,10 +387,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Remote Team OKR and Goal Tracking 2026](/remote-work-tools/remote-team-okr-goal-tracking-2026/)
-- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
-- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
-- [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
+- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
+- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/remote-work-tools/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
 - [Best Whiteboard Tool for a Remote Team of 10 Product](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
-
+- [How to Run Remote Workshop for Product Managers Defining](/remote-work-tools/how-to-run-remote-workshop-for-product-managers-defining-qua/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

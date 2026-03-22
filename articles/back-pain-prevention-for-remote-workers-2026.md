@@ -17,6 +17,23 @@ voice-checked: true
 
 Remote work gives you control over your environment, but that freedom comes with a hidden cost. Without office ergonomics standards, many developers spend years hunched over keyboards, paying the price in chronic back pain. This guide provides actionable strategies specifically designed for developers and power users who spend 8+ hours daily at a desk.
 
+## Table of Contents
+
+- [Understanding the Problem](#understanding-the-problem)
+- [Ergonomic Setup Without Breaking the Bank](#ergonomic-setup-without-breaking-the-bank)
+- [Movement Routines That Actually Work](#movement-routines-that-actually-work)
+- [Code Your Own Health Reminders](#code-your-own-health-reminders)
+- [Standing Desk Considerations](#standing-desk-considerations)
+- [Sleep and Recovery](#sleep-and-recovery)
+- [When to Seek Help](#when-to-seek-help)
+- [The Minimal Investment List](#the-minimal-investment-list)
+- [Build Your Prevention System](#build-your-prevention-system)
+- [Desk Setup Troubleshooting Guide](#desk-setup-troubleshooting-guide)
+- [Scientific Basis for Prevention (Short Version)](#scientific-basis-for-prevention-short-version)
+- [Home Office Ergonomics Checklist (Professional Level)](#home-office-ergonomics-checklist-professional-level)
+- [Ergonomic Setup Cost Breakdown](#ergonomic-setup-cost-breakdown)
+- [Preventing Pain From Existing Positions](#preventing-pain-from-existing-positions)
+
 ## Understanding the Problem
 
 Developers are particularly vulnerable to back issues. The combination of prolonged sitting, poor posture during deep focus sessions, and inadequate break patterns creates a perfect storm for spinal stress. Research shows that sitting for more than 6 hours daily increases the risk of chronic back pain by over 40%.
@@ -403,11 +420,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Prevent Back Pain from Couch Working as a Remote](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
+- [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
+- [Travel Ergonomic Setup for Remote Workers Guide](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
+- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
 - [How to Reduce Lower Back Pain from Sitting 8 Hours Coding](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
-- [Open Back Headphones for Remote Developers Review](/remote-work-tools/open-back-headphones-for-remote-developers-review/)
-- [Remote Work Burnout Prevention Tools Guide](/remote-work-tools/remote-work-burnout-prevention-tools/)
-- [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

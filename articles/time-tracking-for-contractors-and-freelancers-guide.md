@@ -9,7 +9,7 @@ permalink: /time-tracking-for-contractors-and-freelancers-guide/
 categories: [guides]
 tags: [remote-work-tools, time-tracking, freelancers, contractors, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
@@ -310,9 +310,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Best Time Tracking Tools for Remote Freelancers](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
 - [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
-- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
-- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
-- [Remote Team Support Ticket First Response Time Tracking for](/remote-work-tools/remote-team-support-ticket-first-response-time-tracking-for-/)
-
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
+- [Project Management Tools for Freelancers 2026](/remote-work-tools/project-management-tools-for-freelancers-2026/)
+- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

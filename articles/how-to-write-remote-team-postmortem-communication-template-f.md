@@ -18,6 +18,16 @@ voice-checked: true
 
 When an incident hits your production system, the hours and days following require clear, structured communication. Remote teams face a unique challenge: the lack of spontaneous hallway conversations means every message must stand on its own. A well-crafted postmortem communication template ensures stakeholders receive consistent, actionable information without requiring follow-up questions.
 
+## Table of Contents
+
+- [Best Practices for Remote Team Postmortems](#best-practices-for-remote-team-postmortems)
+- [Why Postmortem Communication Templates Matter](#why-postmortem-communication-templates-matter)
+- [Prerequisites](#prerequisites)
+- [Practical Examples from Real Scenarios](#practical-examples-from-real-scenarios)
+- [Best Practices for Remote Team Postmortems](#best-practices-for-remote-team-postmortems)
+- [Executive Summary [audience: leadership, customers]](#executive-summary-audience-leadership-customers)
+- [Troubleshooting](#troubleshooting)
+
 This guide provides a framework and ready-to-use templates for announcing incidents and publishing postmortems to your remote team.
 
 ## Best Practices for Remote Team Postmortems
@@ -369,11 +379,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
+- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
 - [How to Write Postmortem Reports for Remote Teams](/remote-work-tools/how-to-write-postmortem-reports-for-remote-teams/)
-- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-- [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)
-- [Remote Team Change Management Communication Plan Template](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
-- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

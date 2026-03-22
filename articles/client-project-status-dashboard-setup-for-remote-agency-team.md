@@ -33,6 +33,18 @@ tags: [remote-work-tools, remote-work]
 
 Build a custom dashboard using Node.js, Express, and GitHub/Linear APIs to display real-time project status, active tasks, time tracking, and deliverable links. Alternatively, use Basecamp or Monday.com for out-of-the-box solutions with client visibility settings. This guide shows you how to consolidate scattered Slack, email, and spreadsheet updates into a single source of truth for distributed agency teams.
 
+## Table of Contents
+
+- [Core Requirements for Remote Agency Dashboards](#core-requirements-for-remote-agency-dashboards)
+- [Building a Custom Dashboard with Existing Tools](#building-a-custom-dashboard-with-existing-tools)
+- [Integrating Project Management Platforms](#integrating-project-management-platforms)
+- [No-Code and Low-Code Dashboard Alternatives](#no-code-and-low-code-dashboard-alternatives)
+- [Remote Team Patterns for Dashboard Success](#remote-team-patterns-for-dashboard-success)
+- [Client-Facing Versus Internal Views](#client-facing-versus-internal-views)
+- [Deployment Considerations](#deployment-considerations)
+- [Automating Status Updates](#automating-status-updates)
+- [Measuring Dashboard Effectiveness](#measuring-dashboard-effectiveness)
+
 ## Core Requirements for Remote Agency Dashboards
 
 Before selecting tools or writing code, define the essential features your dashboard must provide:
@@ -268,11 +280,10 @@ Accuracy depends almost entirely on automation rather than manual effort. If you
 
 ## Related Articles
 
-- [Shared Inbox Setup for Remote Agency Client Support Emails](/remote-work-tools/shared-inbox-setup-for-remote-agency-client-support-emails/)
-- [AI Project Status Generator for Remote Teams Pulling.](/remote-work-tools/ai-project-status-generator-for-remote-teams-pulling-data-fr/)
-- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
-- [macOS](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
-- [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
-
+- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Create Shared Project Timeline With Remote Agency Cli](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
+- [Remote Agency Client Communication Cadence Template](/remote-work-tools/remote-agency-client-communication-cadence-template-for-proj/)
+- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

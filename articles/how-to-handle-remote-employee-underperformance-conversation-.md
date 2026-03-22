@@ -18,6 +18,16 @@ voice-checked: true
 
 Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with the employee. Managing remote teams makes addressing underperformance both more critical and complex because you lack visual cues and must gather objective data instead of relying on gut feelings. This guide provides new managers with a structured approach including conversation scripts, documentation frameworks, and tips specifically adapted for distributed work environments.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Performance Notes - [Employee Name]](#performance-notes-employee-name)
+- [Performance Improvement Plan - [Date]](#performance-improvement-plan-date)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Performance Improvement Plans (PIPs) Done Right](#performance-improvement-plans-pips-done-right)
+- [Performance Issues](#performance-issues)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -436,11 +446,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
-- [Zulip vs Slack: A Deep Explore Threaded Conversation](/remote-work-tools/zulip-vs-slack-threaded-conversation-comparison/)
-- [How to Handle Client Revision Rounds in Remote Design Agency](/remote-work-tools/how-to-handle-client-revision-rounds-in-remote-design-agency/)
-- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
-- [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
-
+- [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
+- [Remote Employee Mental Health Support Guide 2026](/remote-work-tools/remote-employee-mental-health-support-guide-2026/)
+- [How to Celebrate Employee Anniversaries on Fully Remote](/remote-work-tools/how-to-celebrate-employee-anniversaries-on-fully-remote-team/)
+- [Remote Work Performance Review Tools Comparison 2026](/remote-work-tools/remote-work-performance-review-tools-comparison-2026/)
+- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

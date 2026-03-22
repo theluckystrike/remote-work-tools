@@ -18,6 +18,21 @@ voice-checked: true
 
 Cross-functional projects bring together diverse expertise from engineering, design, product, and operations—but coordinating these teams remotely without a structured kickoff creates chaos. A well-designed kickoff meeting sets the foundation for clear communication, aligned expectations, and measurable success criteria. This guide provides actionable templates and practices for running effective remote cross-functional project kickoffs.
 
+## Table of Contents
+
+- [Why Kickoff Agendas Fail in Remote Settings](#why-kickoff-agendas-fail-in-remote-settings)
+- [Pre-Meeting Preparation: The Async Foundation](#pre-meeting-preparation-the-async-foundation)
+- [The 90-Minute Kickoff Agenda Template](#the-90-minute-kickoff-agenda-template)
+- [Team Roster Template](#team-roster-template)
+- [Async Follow-Up: Cementing Agreements](#async-follow-up-cementing-agreements)
+- [Kickoff Summary: [Project Name]](#kickoff-summary-project-name)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Kickoff Effectiveness](#measuring-kickoff-effectiveness)
+- [Tools for Remote Kickoff Execution: Comparison and Configuration](#tools-for-remote-kickoff-execution-comparison-and-configuration)
+- [Pre-Read Template in Notion](#pre-read-template-in-notion)
+- [Decision Record Template (Video + Async)](#decision-record-template-video-async)
+- [Advanced Kickoff Workflows for Complex Projects](#advanced-kickoff-workflows-for-complex-projects)
+
 ## Why Kickoff Agendas Fail in Remote Settings
 
 Most remote kickoff meetings fall apart because they treat the meeting as a status update rather than an alignment session. Team members join without clear ownership, deliverables remain vague, and dependencies get discovered weeks later. The cost compounds quickly: rework, missed deadlines, and frustrated stakeholders.
@@ -456,11 +471,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
+- [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
 - [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
-- [How to Manage Cross-Functional Remote Projects](/remote-work-tools/how-to-manage-cross-functional-remote-projects/)
-- [How to Build Cross-Team Relationships in Large Remote](/remote-work-tools/how-to-build-cross-team-relationships-in-large-remote-organi/)
-- [How to Run a Remote Team Demo Day Showcasing Cross-Team](/remote-work-tools/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
-- [Remote Team Cross Timezone Collaboration Protocol When Scali](/remote-work-tools/remote-team-cross-timezone-collaboration-protocol-when-scali/)
-
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

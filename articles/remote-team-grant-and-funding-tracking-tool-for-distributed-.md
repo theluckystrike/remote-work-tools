@@ -18,6 +18,14 @@ voice-checked: true
 
 Airtable and Nonprofit Cloud (a Salesforce solution) are the best grant and funding tracking tools for distributed nonprofits, offering relational database structures that map fund accounting requirements (restricted vs. unrestricted funds), multi-currency support, and role-based access control for remote team members. Airtable provides the fastest implementation for small organizations and allows custom automation, while Nonprofit Cloud integrates with full financial software for larger organizations managing complex donor reporting across multiple time zones.
 
+## Table of Contents
+
+- [Core Challenges for Distributed Nonprofit Budget Management](#core-challenges-for-distributed-nonprofit-budget-management)
+- [Purpose-Built Nonprofit Platforms](#purpose-built-nonprofit-platforms)
+- [Open-Source Solutions for Full Control](#open-source-solutions-for-full-control)
+- [Integration Patterns for Multi-Tool Workflows](#integration-patterns-for-multi-tool-workflows)
+- [Implementation Recommendations](#implementation-recommendations)
+
 ## Core Challenges for Distributed Nonprofit Budget Management
 
 Nonprofit organizations operating remotely encounter specific obstacles that generic budgeting tools fail to address. Grant restrictions often require separate fund accounting, where money must be tracked by source and purpose. Reporting deadlines vary by funder, creating complex scheduling demands. Team members in different regions may have varying levels of access to financial systems, requiring role-based permissions that work across time zones.
@@ -445,11 +453,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Best All-in-One Tool for a 5 Person Remote Nonprofit](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
 - [Remote Sales Team Commission Tracking Tool for Distributed](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
-- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
-- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
+- [Monday vs Asana for a Nonprofit Remote Team of 30](/remote-work-tools/monday-vs-asana-for-a-nonprofit-remote-team-of-30/)
 - [Best Tool for Remote Team Mood Tracking and Sentiment](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
-- [Parse: Accomplished X. Next: Y. Blockers: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
-
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,20 @@ tags: [remote-work-tools, remote-work]
 
 Effective onboarding documentation serves as the backbone of successful remote team integration. When your team spans multiple time zones and communicates primarily through asynchronous channels, well-structured documentation determines whether new hires become productive quickly or spend weeks digging for basic information.
 
+## Table of Contents
+
+- [Core Components of Remote Onboarding Documentation](#core-components-of-remote-onboarding-documentation)
+- [Team Processes and Workflows](#team-processes-and-workflows)
+- [Pull Request Template](#pull-request-template)
+- [Description](#description)
+- [Type of Change](#type-of-change)
+- [Testing](#testing)
+- [Screenshots (if applicable)](#screenshots-if-applicable)
+- [Project-Specific Knowledge](#project-specific-knowledge)
+- [Implementation Strategy](#implementation-strategy)
+- [Onboarding Feedback](#onboarding-feedback)
+- [Tools and Platforms](#tools-and-platforms)
+
 This guide covers the essential components of onboarding documentation, practical templates you can adapt, and implementation strategies that work for distributed developer teams.
 
 ## Core Components of Remote Onboarding Documentation
@@ -288,11 +302,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
-- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
-- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
-
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

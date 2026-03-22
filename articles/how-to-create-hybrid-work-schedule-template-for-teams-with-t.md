@@ -31,6 +31,18 @@ tags: [remote-work-tools]
 
 Three-office-day hybrid schedules balance collaboration needs with focused individual work by using rotating assignment patterns that ensure 3 days in office, minimum team overlap, and no more than 60% office capacity on any day. Python scripts can generate valid rotation schedules, YAML configurations specify which days teams are in-office, and calendar sync tooling (Google Calendar API) makes schedules accessible where teams live. Desk booking systems prevent overbooking, communication protocols clarify when to prefer in-person versus async, and monthly reviews adapt schedules to actual team patterns.
 
+## Table of Contents
+
+- [Understanding the Three-Office-Day Pattern](#understanding-the-three-office-day-pattern)
+- [Building the Schedule Template](#building-the-schedule-template)
+- [Integrating with Calendar Tools](#integrating-with-calendar-tools)
+- [Setting Up Communication Norms](#setting-up-communication-norms)
+- [Office Days (Mon/Wed/Fri for Group A)](#office-days-monwedfri-for-group-a)
+- [Remote Days (Tue/Thu for Group A)](#remote-days-tuethu-for-group-a)
+- [Cross-Mode Communication](#cross-mode-communication)
+- [Managing Desk and Resource Booking](#managing-desk-and-resource-booking)
+- [Review and Iterate](#review-and-iterate)
+
 ## Understanding the Three-Office-Day Pattern
 
 A three-day office schedule works well when your team has specific needs that require physical presence. Engineering teams doing hardware debugging, design teams collaborating on physical prototypes, or teams with frequent client meetings often find two office days insufficient. The three-day pattern provides enough overlap for meaningful collaboration while still granting team members two days for focused, uninterrupted work.
@@ -349,10 +361,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
 - [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
-- [How to Create Hybrid Work Equipment Checkout System for Shar](/remote-work-tools/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)
-- [How to Create Hybrid Work Feedback Loop Collecting Employee](/remote-work-tools/how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/)
-
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
+- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [Digital Signage for Hybrid Office Communication](/remote-work-tools/digital-signage-for-hybrid-office-communication/)
+- [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -17,6 +17,21 @@ voice-checked: true
 
 Finding reliable high-speed internet ranks among the top concerns for remote developers working from Lisbon. Whether you're pushing code to GitHub, participating in video calls, or maintaining real-time connections to development servers, your internet provider directly impacts your productivity. This guide evaluates the major fiber internet providers in Lisbon with a focus on latency, upload speeds, and practical performance for development workflows.
 
+## Table of Contents
+
+- [Understanding Your Internet Requirements as a Developer](#understanding-your-internet-requirements-as-a-developer)
+- [Major Fiber Providers in Lisbon](#major-fiber-providers-in-lisbon)
+- [Measuring Your Connection Performance](#measuring-your-connection-performance)
+- [Practical Recommendations by Use Case](#practical-recommendations-by-use-case)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Complete Provider Pricing and Performance Table](#complete-provider-pricing-and-performance-table)
+- [Real-World Performance Analysis](#real-world-performance-analysis)
+- [Setup and Optimization Procedures](#setup-and-optimization-procedures)
+- [Provider-Specific Optimization Tips](#provider-specific-optimization-tips)
+- [Performance Testing Benchmarks](#performance-testing-benchmarks)
+- [Long-Term Reliability Expectations](#long-term-reliability-expectations)
+- [Choosing Between Providers: Decision Matrix](#choosing-between-providers-decision-matrix)
+
 ## Understanding Your Internet Requirements as a Developer
 
 Developers have different needs than typical home users. While streaming and browsing require moderate bandwidth, active development work demands consistent upload speeds, low jitter, and minimal packet loss. Here are the key metrics that matter:
@@ -383,11 +398,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Neighborhoods in Lisbon for Remote Workers with Fast](/remote-work-tools/best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/)
-- [On Android, enable tethering via settings](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)
 - [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
-- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
 - [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
-
+- [How to Test Internet Speed and Reliability Before Moving](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
+- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
+- [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

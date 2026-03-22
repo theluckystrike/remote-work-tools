@@ -11,7 +11,8 @@ tags: [remote-work-tools, documentation, remote-work, wiki, team-collaboration, 
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 To fix your outdated wiki, run a 2-week documentation sprint: audit stale pages using `git log --since="180 days ago"`, categorize them as critical/useful/deprecated, assign each person 2-4 pages to update (not write new ones), and use a shared tracking spreadsheet to show progress daily. Start with critical pages affecting onboarding or production, then let team members tackle their specialties. This structured time-box prevents wiki maintenance from disappearing back into the backlog indefinitely.
@@ -141,6 +142,17 @@ review-status: needs-review
 > ⚠️ **This page was last reviewed in August 2025.**
 > Some information may be outdated. Please verify before following any instructions.
 ```
+
+## Table of Contents
+
+- [Measuring Sprint Success](#measuring-sprint-success)
+- [Documentation Sprint Formats That Work](#documentation-sprint-formats-that-work)
+- [Weekly Documentation Sprint Checklist](#weekly-documentation-sprint-checklist)
+- [Creating Accountability Without Burnout](#creating-accountability-without-burnout)
+- [Real Example: API Documentation Sprint](#real-example-api-documentation-sprint)
+- [Tooling Recommendations for Sprint Success](#tooling-recommendations-for-sprint-success)
+- [Overcoming Common Sprint Obstacles](#overcoming-common-sprint-obstacles)
+- [Measuring Documentation Quality, Not Just Quantity](#measuring-documentation-quality-not-just-quantity)
 
 Ownership mapping: Maintain a simple mapping of which team member "owns" each documentation category. When processes change, the owner knows to update the relevant pages.
 
@@ -312,11 +324,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Best Practice for Remote Team Documentation Training](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
+- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
+- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 - [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
 - [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
-- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
-- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

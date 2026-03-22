@@ -28,6 +28,21 @@ voice-checked: true
 
 Remote teams face a unique challenge: without daily in-person interactions, how do you know everyone understands and supports the team's direction? Synchronous all-hands meetings create real-time alignment but drain productivity and exclude time-zone-constrained team members. An async strategy update cadence solves this by creating a structured, measurable approach to keeping remote teams aligned.
 
+## Table of Contents
+
+- [Why Async Strategy Updates Work for Alignment](#why-async-strategy-updates-work-for-alignment)
+- [Building Your Async Strategy Update Cadence](#building-your-async-strategy-update-cadence)
+- [Strategy Update: [Date]](#strategy-update-date)
+- [Measuring Alignment: Practical Approaches](#measuring-alignment-practical-approaches)
+- [Implementing the Cadence](#implementing-the-cadence)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Measuring Improvement Over Time](#measuring-improvement-over-time)
+- [Building a Measurement Dashboard](#building-a-measurement-dashboard)
+- [Real-World Alignment Failure Case Study](#real-world-alignment-failure-case-study)
+- [Advanced: Semantic Alignment Scoring](#advanced-semantic-alignment-scoring)
+- [Seasonal Alignment Patterns](#seasonal-alignment-patterns)
+- [Alignment vs. Agreement](#alignment-vs-agreement)
+
 This guide covers practical methods to measure remote team alignment using async strategy updates, with code examples and implementation frameworks you can apply immediately.
 
 ## Why Async Strategy Updates Work for Alignment
@@ -396,11 +411,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
-- [Best Onboarding Survey Template for Measuring Remote New](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
-- [Best Pulse Survey Tool for Measuring Remote Employee](/remote-work-tools/best-pulse-survey-tool-for-measuring-remote-employee-engagem/)
-- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
-- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
-
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

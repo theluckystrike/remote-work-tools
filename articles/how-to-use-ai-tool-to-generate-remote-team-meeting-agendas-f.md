@@ -303,11 +303,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Write Good Remote Meeting Agendas](/remote-work-tools/how-to-write-good-remote-meeting-agendas/)
-- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
-- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
+- [Automate Meeting Notes with AI Tools 2026](/remote-work-tools/automate-meeting-notes-ai-tools-2026/)
+- [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
-- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
-
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

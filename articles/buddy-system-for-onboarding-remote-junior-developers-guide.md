@@ -17,6 +17,28 @@ tags: [remote-work-tools, remote-work]
 {% raw %}
 A buddy system transforms remote onboarding from a solitary experience into a guided journey. When junior developers join a distributed team, they face a unique challenge: figuring out unwritten rules, discovering tools, and building relationships without the casual hallway conversations that office workers take for granted. A well-structured buddy system addresses these gaps by pairing new hires with experienced team members who serve as guides, advocates, and first points of contact.
 
+## Table of Contents
+
+- [What Makes a Buddy System Effective](#what-makes-a-buddy-system-effective)
+- [Setting Up the Program](#setting-up-the-program)
+- [New Developer Information](#new-developer-information)
+- [Team Context](#team-context)
+- [Check-in Schedule](#check-in-schedule)
+- [First Week Priorities](#first-week-priorities)
+- [Communication Strategies for Remote Pairs](#communication-strategies-for-remote-pairs)
+- [Weekly Check-in: [Week of date]](#weekly-check-in-week-of-date)
+- [Common Buddy Program Challenges and Solutions](#common-buddy-program-challenges-and-solutions)
+- [Measuring Program Success](#measuring-program-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Tools and Resources for Buddy Programs](#tools-and-resources-for-buddy-programs)
+- [Compensating Buddies](#compensating-buddies)
+- [Building Long-term Connection](#building-long-term-connection)
+- [Measuring Buddy Program Success](#measuring-buddy-program-success)
+- [Scaling Buddy Systems for Multiple Simultaneous New Hires](#scaling-buddy-systems-for-multiple-simultaneous-new-hires)
+- [Remote Buddy Program Logistics](#remote-buddy-program-logistics)
+- [Advanced: Buddy Program Metrics](#advanced-buddy-program-metrics)
+- [Building Culture Through Mentoring](#building-culture-through-mentoring)
+
 ## What Makes a Buddy System Effective
 
 The core principle is simple: assign each new developer a peer-level mentor who is not their manager. This separation matters because it creates a safe space for questions that might feel inappropriate to ask a supervisor. The buddy helps the new hire navigate team culture, explains why things work the way they do, and provides contextual help that documentation cannot cover.
@@ -296,10 +318,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [How to Create Remote Onboarding Buddy Program Template](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
 - [Buddy Responsibilities Charter](/remote-work-tools/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
-- [How to Create Remote Onboarding Buddy Program Template for](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
-- [Async Mentorship Program Structure for Remote Junior Develop](/remote-work-tools/async-mentorship-program-structure-for-remote-junior-develop/)
-- [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
-
+- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
+- [Remote Employee Belonging and Inclusion Program Ideas](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

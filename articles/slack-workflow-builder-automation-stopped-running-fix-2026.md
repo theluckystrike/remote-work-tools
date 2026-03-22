@@ -17,6 +17,24 @@ voice-checked: true
 
 Slack Workflow Builder has become an essential tool for remote teams automating routine communications, approvals, and notifications. When your workflows suddenly stop running, it can disrupt critical processes across your distributed team. This guide provides practical troubleshooting steps to get your Slack automations back on track.
 
+## Table of Contents
+
+- [Common Reasons Why Slack Workflows Stop Running](#common-reasons-why-slack-workflows-stop-running)
+- [Step-by-Step Troubleshooting Guide](#step-by-step-troubleshooting-guide)
+- [Prevention Strategies for Remote Teams](#prevention-strategies-for-remote-teams)
+- [External Integration Considerations](#external-integration-considerations)
+- [Getting Additional Help](#getting-additional-help)
+- [Advanced Workflow Builder Patterns for Remote Teams](#advanced-workflow-builder-patterns-for-remote-teams)
+- [Workflow Migration Strategies](#workflow-migration-strategies)
+- [Workflow Integration Patterns with External Services](#workflow-integration-patterns-with-external-services)
+- [Slack Workflow Optimization for Distributed Teams](#slack-workflow-optimization-for-distributed-teams)
+- [Slack Workflow Monitoring and Maintenance](#slack-workflow-monitoring-and-maintenance)
+- [Slack Workflow Templates for Common Remote Work Scenarios](#slack-workflow-templates-for-common-remote-work-scenarios)
+- [Advanced Slack Workflow Diagnostics](#advanced-slack-workflow-diagnostics)
+- [Slack Workflow Performance Optimization](#slack-workflow-performance-optimization)
+- [Slack Workflow Integration Patterns](#slack-workflow-integration-patterns)
+- [Slack Admin Best Practices for Workflow Management](#slack-admin-best-practices-for-workflow-management)
+
 ## Common Reasons Why Slack Workflows Stop Running
 
 Before examining solutions, understanding why workflows fail helps you prevent future issues. Several factors commonly cause Slack Workflow Builder automations to stop working.
@@ -151,31 +169,6 @@ Many workflows connect to external tools like project management platforms, HR s
 
 **Use OAuth tokens properly** when connecting external apps. OAuth provides security by not requiring you to share passwords. Most modern integrations use OAuth. Ensure your OAuth tokens have appropriate scopes—many workflow failures stem from insufficient permissions granted to the connected app.
 
-Diagnose token and permission issues by testing your Slack bot credentials directly:
-
-```bash
-# Verify your Slack bot token is still valid
-curl -s -X POST https://slack.com/api/auth.test \
-  -H "Authorization: Bearer xoxb-your-bot-token" | jq .
-
-# Check which permission scopes your token has
-curl -s -X POST https://slack.com/api/auth.test \
-  -H "Authorization: Bearer xoxb-your-bot-token" \
-  | jq '.response_metadata.scopes'
-
-# Test posting a message to verify channel access
-curl -s -X POST https://slack.com/api/chat.postMessage \
-  -H "Authorization: Bearer xoxb-your-bot-token" \
-  -H "Content-Type: application/json" \
-  -d '{"channel":"C0123TESTCH","text":"Workflow diagnostic test"}' | jq .
-
-# Test a webhook endpoint to confirm it accepts payloads
-curl -s -w "\nHTTP Status: %{http_code}\n" \
-  -X POST https://hooks.slack.com/triggers/T00000/12345/abcdef \
-  -H "Content-Type: application/json" \
-  -d '{"test": true}'
-```
-
 **Handle webhook timeouts gracefully**. When calling external APIs through webhooks, set reasonable timeouts (typically 10-30 seconds). If the external service takes longer to respond, the workflow times out. Add retry logic for transient failures.
 
 **Monitor external service status** as part of your workflow health checks. If your workflow depends on a third-party API and that service experiences outages, your workflow fails silently. Check third-party status pages as part of routine troubleshooting.
@@ -268,10 +261,11 @@ Workspace administrators should implement these practices.
 
 ## Related Articles
 
-- [How to Create Async Standup Templates in Slack](/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
-- [Best Onboarding Automation Workflow for Remote Companies](/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
-- [Simple Slack kudos automation using Slack API](/best-remote-employee-recognition-program-ideas-for-distribut/)
-
+- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+- [How to Create Async Standup Templates in Slack](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
+- [Slack List View Sorting Not Saving Preference Fix 2026](/remote-work-tools/slack-list-view-sorting-not-saving-preference-fix-2026/)
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

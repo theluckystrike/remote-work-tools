@@ -17,6 +17,23 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Start with Slack #kudos channels for peer-to-peer recognition, add Loom video shoutouts from managers, and implement GitHub-based recognition workflows for developer teams. Remote teams lack the casual office interactions that naturally create recognition moments, so distributed teams need structured programs that celebrate contributions without requiring significant budgets. This guide covers practical employee recognition program ideas that work well for remote teams with limited resources and code examples you can implement immediately.
 
+## Table of Contents
+
+- [Peer Recognition Channels in Slack](#peer-recognition-channels-in-slack)
+- [Async Video Recognition with Loom](#async-video-recognition-with-loom)
+- [GitHub-Based Recognition Systems](#github-based-recognition-systems)
+- [Digital Badge Systems](#digital-badge-systems)
+- [Virtual Coffee or Lunch Sessions](#virtual-coffee-or-lunch-sessions)
+- [Skill-Sharing Recognition](#skill-sharing-recognition)
+- [Anniversary and Milestone Celebrations](#anniversary-and-milestone-celebrations)
+- [Recognition Budget Allocation](#recognition-budget-allocation)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Budget Breakdown for Distributed Teams](#budget-breakdown-for-distributed-teams)
+- [Recognition Program Implementation Roadmap](#recognition-program-implementation-roadmap)
+- [Recognition Program for Distributed Teams Across Time Zones](#recognition-program-for-distributed-teams-across-time-zones)
+- [Measuring Recognition Program Success](#measuring-recognition-program-success)
+- [Common Recognition Program Mistakes](#common-recognition-program-mistakes)
+
 ## Peer Recognition Channels in Slack
 
 Creating a dedicated Slack channel for shoutouts costs nothing and builds a culture of appreciation. Set up a channel like `#kudos` or `#wins` where team members can recognize each other's contributions throughout the week.
@@ -292,11 +309,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Employee Belonging and Inclusion Program Ideas for](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
-- [Simple Slack webhook for probation check-ins](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
 - [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
-- [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
-- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
-
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [Slack Workflow Builder Automation Stopped Running Fix 2026](/remote-work-tools/slack-workflow-builder-automation-stopped-running-fix-2026/)
+- [Best Slack Alternatives for Small Teams in 2026](/remote-work-tools/best-slack-alternatives-for-small-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

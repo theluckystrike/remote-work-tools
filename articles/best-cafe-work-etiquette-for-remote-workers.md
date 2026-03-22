@@ -17,6 +17,32 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Order a drink every 60-90 minutes, keep your footprint to one seat, and use noise-canceling headphones for all audio -- these three rules form the foundation of good cafe work etiquette for remote workers. Follow them consistently and you stay welcome; ignore them and cafes start posting "no laptops" signs. This guide covers the full playbook for technical setup, communication etiquette, and building long-term relationships with cafe staff.
 
+## Table of Contents
+
+- [Understanding the Cafe Work Agreement](#understanding-the-cafe-work-agreement)
+- [Optimizing Your Technical Setup](#optimizing-your-technical-setup)
+- [Communicating Professionally](#communicating-professionally)
+- [Respecting the Space](#respecting-the-space)
+- [Building Long-Term Relationships](#building-long-term-relationships)
+- [Practical Example: A Cafe Work Session](#practical-example-a-cafe-work-session)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Cafe Fitness Assessment Checklist](#cafe-fitness-assessment-checklist)
+- [Technical Requirements](#technical-requirements)
+- [Environment Quality](#environment-quality)
+- [Social Compatibility](#social-compatibility)
+- [Business Model Alignment](#business-model-alignment)
+- [Scoring](#scoring)
+- [Managing Distractions](#managing-distractions)
+- [Building Cafe Relationships](#building-cafe-relationships)
+- [First Visit Checklist](#first-visit-checklist)
+- [Regular Visits (Week 2-4)](#regular-visits-week-2-4)
+- [Becoming a Regular (Month 2+)](#becoming-a-regular-month-2)
+- [Loyalty Maintenance](#loyalty-maintenance)
+- [Ergonomics in Non-Ideal Spaces](#ergonomics-in-non-ideal-spaces)
+- [Posture Setup](#posture-setup)
+- [Tension Relief](#tension-relief)
+- [Tools to Pack](#tools-to-pack)
+
 ## Understanding the Cafe Work Agreement
 
 Every cafe that welcomes remote workers operates on an implicit social contract. You consume products, occupy space for extended periods, and use resources (Wi-Fi, power) that benefit their business model. Understanding this exchange forms the foundation of good cafe etiquette.
@@ -382,11 +408,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
-- [Fake Commute for Remote Workers](/remote-work-tools/fake-commute-for-remote-workers-transition-rituals-that-work/)
-- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
-- [Virtual Meeting Etiquette Best Practices: A Developer Guide](/remote-work-tools/virtual-meeting-etiquette-best-practices/)
-- [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
-
+- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
+- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
+- [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
+- [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

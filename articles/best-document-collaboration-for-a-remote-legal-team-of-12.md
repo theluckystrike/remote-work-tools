@@ -18,6 +18,17 @@ voice-checked: true
 
 For a remote legal team of 12, use a Git-backed document management system paired with a real-time collaboration layer like Etherpad or Google Docs for active drafting sessions. This hybrid approach gives you the version history and audit trails that legal compliance demands, while still supporting concurrent editing across matters. Teams already in the Microsoft ecosystem should use SharePoint with Information Rights Management instead.
 
+## Table of Contents
+
+- [Core Requirements for Legal Document Collaboration](#core-requirements-for-legal-document-collaboration)
+- [Git-Based Version Control for Legal Documents](#git-based-version-control-for-legal-documents)
+- [Real-Time Collaboration Layer](#real-time-collaboration-layer)
+- [Access Control and Permissions](#access-control-and-permissions)
+- [Compliance and Audit Trails](#compliance-and-audit-trails)
+- [Workflow Automation for Common Tasks](#workflow-automation-for-common-tasks)
+- [Choosing Your Collaboration Stack](#choosing-your-collaboration-stack)
+- [Implementation Priority](#implementation-priority)
+
 ## Core Requirements for Legal Document Collaboration
 
 Before evaluating tools, establish your baseline requirements. A legal team of 12 typically handles multiple concurrent matters, each involving contracts, briefs, correspondence, and research documents. Your collaboration system must handle:
@@ -301,11 +312,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Remote Legal Team Document Collaboration Tool for](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
-- [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
-- [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
-- [analyze_review_distribution.py](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
-- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
-
+- [Best Remote Legal Team Document Collaboration Tool](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [Best Remote Workflow Tool for Distributed Legal Assistants](/remote-work-tools/best-remote-workflow-tool-for-distributed-legal-assistants-m/)
+- [Best Collaboration Suite for a 10 Person Remote Law Firm](/remote-work-tools/best-collaboration-suite-for-a-10-person-remote-law-firm/)
+- [Miro vs FigJam for Remote Team Collaboration](/remote-work-tools/miro-vs-figjam-for-remote-team-collaboration/)
+- [CodePen vs CodeSandbox for Remote Collaboration](/remote-work-tools/codepen-vs-codesandbox-for-remote-collaboration/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

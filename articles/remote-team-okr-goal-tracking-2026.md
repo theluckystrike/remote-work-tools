@@ -18,6 +18,18 @@ intent-checked: true
 
 Distributed teams lose goal alignment when they're out of physical proximity. An office team naturally talks about quarterly goals in the hallway. A remote team needs intentional structure and clear visibility.
 
+## Table of Contents
+
+- [Understanding OKRs](#understanding-okrs)
+- [Why OKRs Work for Remote Teams](#why-okrs-work-for-remote-teams)
+- [Tools for OKR Management](#tools-for-okr-management)
+- [Implementing OKRs in Your Remote Team](#implementing-okrs-in-your-remote-team)
+- [Example: Distributed Engineering Team OKRs](#example-distributed-engineering-team-okrs)
+- [Common Pitfalls in Remote OKR Management](#common-pitfalls-in-remote-okr-management)
+- [Connecting OKRs to Individual Development](#connecting-okrs-to-individual-development)
+- [Async OKR Discussion Workflow](#async-okr-discussion-workflow)
+- [Measuring Success of Your OKR System](#measuring-success-of-your-okr-system)
+
 This guide walks through implementing OKRs (Objectives and Key Results) for distributed teams, including tool selection, process design, and how to make goals visible and measurable without constant meetings.
 
 ## Understanding OKRs
@@ -370,11 +382,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/remote-work-tools/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
+- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
 - [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
 - [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
-- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/remote-work-tools/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
-- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
-- [Best Tool for Remote Team Mood Tracking and Sentiment](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
-
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

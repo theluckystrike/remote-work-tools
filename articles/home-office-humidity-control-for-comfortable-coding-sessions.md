@@ -18,6 +18,18 @@ voice-checked: true
 
 The ideal relative humidity for a home office coding environment is between 30% and 50%, with 45% as the optimal target for most climates. Below 30%, you risk static discharge on electronics and dry eyes during long sessions; above 60%, mold growth and sluggishness become problems. A basic hygrometer ($15-20), an ultrasonic humidifier, and a smart plug with automation give you consistent control with minimal effort. This guide covers measurement tools, automation strategies, and seasonal adjustments to keep your coding sessions comfortable year-round.
 
+## Table of Contents
+
+- [Why Humidity Matters for Developers](#why-humidity-matters-for-developers)
+- [Measuring Your Current Humidity](#measuring-your-current-humidity)
+- [Automating Humidity Control](#automating-humidity-control)
+- [Practical Setup Recommendations](#practical-setup-recommendations)
+- [Monitoring Long-Term Trends](#monitoring-long-term-trends)
+- [Quick Win: Humidity Alerts](#quick-win-humidity-alerts)
+- [Remote Work Scenarios Where Humidity Becomes a Crisis](#remote-work-scenarios-where-humidity-becomes-a-crisis)
+- [Comparing Humidity Control Approaches](#comparing-humidity-control-approaches)
+- [Integrating Humidity Data Into Your Productivity Tracking](#integrating-humidity-data-into-your-productivity-tracking)
+
 ## Why Humidity Matters for Developers
 
 The ideal relative humidity range for indoor spaces is between 30% and 50%. Below 30%, you experience dry skin, irritated eyes, and increased static electricity that can fry components. Above 60%, mold growth becomes a concern and you feel sluggish. For programmers spending 8+ hours daily in a home office, maintaining this balance prevents:
@@ -242,11 +254,10 @@ Room-level humidity can be within range while the micro-environment near your mo
 
 ## Related Articles
 
-- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
-- [Best Standing Desk for Home Office Coding](/remote-work-tools/best-standing-desk-for-home-office-coding/)
-- [Best Mouse Pad for Wrist Support During Long Coding Sessions](/remote-work-tools/best-mouse-pad-for-wrist-support-during-long-coding-sessions/)
-- [Seat Cushion for Long Coding Sessions Review 2026](/remote-work-tools/seat-cushion-for-long-coding-sessions-review-2026/)
-- [Hybrid Office Access Control System Upgrade for Flexible](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
-
+- [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation/)
+- [How to Cool Home Office Without Air Conditioning During](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

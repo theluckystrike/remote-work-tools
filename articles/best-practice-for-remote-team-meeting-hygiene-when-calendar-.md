@@ -17,6 +17,20 @@ voice-checked: true
 
 As remote engineering teams grow from 10 to 50+ members, calendar bloat becomes a silent productivity killer. What starts as a few daily standups evolves into overlapping syncs, redundant reviews, and meeting sprawl that consumes deep work time. This guide provides actionable strategies to maintain meeting hygiene during rapid scaling, with practical examples developers can implement immediately.
 
+## Table of Contents
+
+- [Understanding Calendar Bloat in Scaling Teams](#understanding-calendar-bloat-in-scaling-teams)
+- [Establishing Meeting Standards Early](#establishing-meeting-standards-early)
+- [Meeting Tier System](#meeting-tier-system)
+- [Calendar Hygiene Automation for Developers](#calendar-hygiene-automation-for-developers)
+- [Pre-Meeting Async Input (complete before meeting)](#pre-meeting-async-input-complete-before-meeting)
+- [Meeting Notes](#meeting-notes)
+- [Scaling Strategies for Meeting Hygiene](#scaling-strategies-for-meeting-hygiene)
+- [Measuring Meeting Hygiene Success](#measuring-meeting-hygiene-success)
+- [The Meeting Debt Audit: Running a Quarterly Calendar Review](#the-meeting-debt-audit-running-a-quarterly-calendar-review)
+- [Using Async Video to Replace Low-Value Status Meetings](#using-async-video-to-replace-low-value-status-meetings)
+- [Handling the "But I Like Meetings" Resistance](#handling-the-but-i-like-meetings-resistance)
+
 ## Understanding Calendar Bloat in Scaling Teams
 
 Calendar bloat occurs when the number of meetings grows faster than the team size, creating exponential overlap and context-switching costs. A 2024 study found that engineers at scaling startups spend an average of 38% of their workweek in meetings—a figure that jumps to 52% during rapid growth phases.
@@ -345,11 +359,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 - [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
-- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
 - [Best Practice for Hybrid Team Meeting Scheduling Respecting](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-
+- [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -13,6 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Manage Dotfiles Across Remote Machines"
+description: "Set up dotfile management with GNU Stow or Chezmoi to sync shell configs, editor settings, and aliases across remote servers, laptops, and dev containers."
+date: 2026-03-21
+last_modified_at: 2026-03-21
+author: theluckystrike
+permalink: /manage-dotfiles-across-remote-machines/
+categories: [guides]
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
@@ -306,11 +321,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
-- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
-- [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
-- [How to Manage Remote Team Handoffs Across Time Zones: A](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
+- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
 - [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
-
+- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
+- [Three-Two Hybrid Work Model Implementation Guide](/remote-work-tools/three-two-hybrid-work-model-implementation-guide/)
+- [Git Branching Strategy for Remote Teams](/remote-work-tools/git-branching-strategy-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

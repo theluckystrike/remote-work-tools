@@ -18,6 +18,23 @@ tags: [remote-work-tools, best-of]
 
 The best home office setup for software developers starts with a 60-inch height-adjustable desk, a 27-inch 4K primary monitor on an arm mount, an ergonomic chair with full lumbar support (such as the Herman Miller Aeron or Secretlab Titan), and a mechanical keyboard with Cherry MX Brown switches. These core pieces support dual-monitor workflows, extended coding sessions, and healthy posture throughout the workday. This guide walks through every component--desk, chair, monitors, lighting, peripherals, cable management, and software environment--with specific product recommendations and configuration tips drawn from real-world developer setups.
 
+## Table of Contents
+
+- [The Foundation: Desk and Chair Selection](#the-foundation-desk-and-chair-selection)
+- [Monitor Configuration: More Screen Real Estate](#monitor-configuration-more-screen-real-estate)
+- [Lighting: Eliminating Eye Strain](#lighting-eliminating-eye-strain)
+- [Keyboard and Input: Your Primary Tools](#keyboard-and-input-your-primary-tools)
+- [Cable Management and Power](#cable-management-and-power)
+- [Acoustic Environment](#acoustic-environment)
+- [The Software Side: Development Environment](#the-software-side-development-environment)
+- [Putting It Together: A Sample Configuration](#putting-it-together-a-sample-configuration)
+- [Complete Equipment Specification Guide](#complete-equipment-specification-guide)
+- [Office Lighting: The Overlooked Productivity Factor](#office-lighting-the-overlooked-productivity-factor)
+- [Power Management and UPS Backup](#power-management-and-ups-backup)
+- [Network Infrastructure for Development](#network-infrastructure-for-development)
+- [Monitor and Display Calibration](#monitor-and-display-calibration)
+- [Acoustic Treatment for Video Calls](#acoustic-treatment-for-video-calls)
+
 ## The Foundation: Desk and Chair Selection
 
 Your desk forms the command center of your development environment. The minimum viable desk provides enough surface area for your primary monitor, keyboard, and a secondary device for documentation or communication. However, practical experience shows that a 60-inch desk comfortably accommodates a dual-monitor setup with room for a mechanical keyboard and trackpad without feeling cramped.
@@ -426,11 +443,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
 - [Best Blue Light Glasses for Programmers: A Practical Guide](/remote-work-tools/best-blue-light-glasses-for-programmers/)
+- [Cable Management Under Desk for Home Office With Standing](/remote-work-tools/cable-management-under-desk-for-home-office-with-standing-de/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
 - [Natural Light Optimization for Home Office](/remote-work-tools/natural-light-optimization-for-home-office/)
-- [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
-- [Best Smart Lighting for Home Office Developers](/remote-work-tools/best-smart-lighting-for-home-office-developers/)
-
+- [Best Remote Work Monitor Light Bar 2026](/remote-work-tools/best-remote-work-monitor-light-bar-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

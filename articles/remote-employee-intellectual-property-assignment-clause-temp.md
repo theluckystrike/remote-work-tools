@@ -235,11 +235,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
-- [Best Practice for Remote Appraisers Conducting Property](/remote-work-tools/best-practice-for-remote-appraisers-conducting-property-valu/)
 - [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
-- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
-- [Remote Team Retreat Planning Guide Budget and Logistics](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
-
+- [Best Compliance Tool for Managing Remote Employees](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
+- [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

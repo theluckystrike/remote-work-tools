@@ -17,6 +17,13 @@ intent-checked: true
 
 Scale code review from 10 to 30 developers by assigning ownership-based reviewers per code area, establishing clear review guidelines with pass/fail criteria, and automating trivial checks (formatting, type errors) to free humans for architectural feedback. Tripling your team breaks informal "hey can you review?" processes—PRs wait 2-3 days and quality slips. The solution distributes review load by domain ownership, not by adding more people, while defining explicit pass/fail criteria that reduce debate overhead. This guide provides concrete implementation approaches you can use immediately.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Strategy 2: Implement Tiered Review Requirements](#strategy-2-implement-tiered-review-requirements)
+- [Troubleshooting](#troubleshooting)
+- [Detailed Reviewer Assignment Strategy](#detailed-reviewer-assignment-strategy)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -380,10 +387,9 @@ async function getReviewMetrics(org, repo, days = 30) {
 
 ## Related Articles
 
-- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
-- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
 - [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
-
+- [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [How to Set Up Remote Team Code Standards Enforcement (2026)](/remote-work-tools/how-to-set-up-remote-team-code-standards-enforcement-2026/)
+- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

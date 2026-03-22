@@ -17,6 +17,20 @@ intent-checked: true
 
 Coworking day passes solve the "where to work today" problem. Instead of monthly memberships, day pass apps let you book hot desks, private rooms, or meeting spaces by the hour. This is ideal for remote workers who travel, need meeting rooms occasionally, or want variety.
 
+## Table of Contents
+
+- [Desana](#desana)
+- [Croissant](#croissant)
+- [Deskpass](#deskpass)
+- [LiquidSpace](#liquidspace)
+- [WeWork On Demand](#wework-on-demand)
+- [Pricing Comparison Table](#pricing-comparison-table)
+- [Comparison: Booking Speed and UX](#comparison-booking-speed-and-ux)
+- [Use Case Scenarios](#use-case-scenarios)
+- [Enterprise Decision Matrix](#enterprise-decision-matrix)
+- [Implementation Tips](#implementation-tips)
+- [Recommendation](#recommendation)
+
 We compare five apps: Desana, Croissant, Deskpass, LiquidSpace, and WeWork On Demand. Each has different coverage, pricing models, and booking UX.
 
 ## Desana
@@ -364,8 +378,7 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Coworking Space Day Pass Guide](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
 - [Coworking Space Membership vs Day Pass Comparison](/remote-work-tools/coworking-space-membership-vs-day-pass-comparison/)
 - [Coworking Space Finder Apps for Nomads](/remote-work-tools/coworking-space-finder-apps-for-nomads/)
-- [Malaysia Digital Nomad Pass DE Rantau Application for](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
-- [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
-
+- [How to Find Coworking Spaces in Medellín Colombia](/remote-work-tools/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
+- [Hot Desk Booking Software Comparison 2026](/remote-work-tools/hot-desk-booking-software-comparison-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

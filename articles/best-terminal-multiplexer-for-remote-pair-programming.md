@@ -18,6 +18,19 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Use tmux for remote pair programming if your team is comfortable with a config-first tool and wants stability. Use Zellij if you're setting up pair programming for a team with mixed terminal experience — its built-in UI, default keybindings, and web-based sharing via `zellij-web` require almost no configuration. Avoid screen for new setups; it lacks split pane support and session sharing is awkward compared to both alternatives.
 
+## Table of Contents
+
+- [How Remote Pair Programming Over SSH Actually Works](#how-remote-pair-programming-over-ssh-actually-works)
+- [tmux: Full Configuration for Pair Programming](#tmux-full-configuration-for-pair-programming)
+- [Multi-User tmux: Read-Only Observer Mode](#multi-user-tmux-read-only-observer-mode)
+- [Zellij: Pair Programming with Minimal Setup](#zellij-pair-programming-with-minimal-setup)
+- [tmate: The Simplest SSH Sharing (No Server Required)](#tmate-the-simplest-ssh-sharing-no-server-required)
+- [Performance Comparison](#performance-comparison)
+- [Handling Conflicts: When Both People Type](#handling-conflicts-when-both-people-type)
+- [Persisting Session State Across Reconnects](#persisting-session-state-across-reconnects)
+- [Security Considerations for Shared SSH Sessions](#security-considerations-for-shared-ssh-sessions)
+- [Comparing tmux vs Zellij for Pair Programming](#comparing-tmux-vs-zellij-for-pair-programming)
+
 ## How Remote Pair Programming Over SSH Actually Works
 
 The core mechanic: both developers SSH into the same server, attach to the same multiplexer session. Both see identical output and can type simultaneously. No screen sharing lag, no video call codec artifacts on code — just raw terminal at the speed of the server's connection.
@@ -344,11 +357,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
-- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
-- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
 - [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-
+- [How to Set Up Remote Pair Programming Sessions in 2026](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-2026/)
+- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
+- [How to Set Up Remote Pair Programming Workflow Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-workflow-guide/)
+- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

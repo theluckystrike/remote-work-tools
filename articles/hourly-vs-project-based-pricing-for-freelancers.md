@@ -17,6 +17,31 @@ tags: [remote-work-tools, comparison]
 
 Choose hourly pricing if your project scope is undefined, you lack estimating experience, or the client needs flexibility. Choose project-based pricing if deliverables are clearly defined, you have experience estimating similar work, and you want income upside from efficiency gains. A hybrid approach -- time-and-materials with a cap -- works well when you need elements of both.
 
+## Table of Contents
+
+- [Understanding the Two Models](#understanding-the-two-models)
+- [Quick Comparison](#quick-comparison)
+- [When Hourly Pricing Works Best](#when-hourly-pricing-works-best)
+- [When Project-Based Pricing Works Best](#when-project-based-pricing-works-best)
+- [Hybrid Approaches Worth Considering](#hybrid-approaches-worth-considering)
+- [Real-World Examples](#real-world-examples)
+- [Tracking Your Effective Rate](#tracking-your-effective-rate)
+- [Pricing Decision Framework](#pricing-decision-framework)
+- [Question 1: Can you define deliverables clearly?](#question-1-can-you-define-deliverables-clearly)
+- [Question 2: Have you done similar work before?](#question-2-have-you-done-similar-work-before)
+- [Question 3: How confident is your estimate?](#question-3-how-confident-is-your-estimate)
+- [Question 4: Is the client likely to request changes?](#question-4-is-the-client-likely-to-request-changes)
+- [Recommendation](#recommendation)
+- [Contract Language for Each Model](#contract-language-for-each-model)
+- [Hourly Rate Agreement](#hourly-rate-agreement)
+- [Fixed Project Fee Agreement](#fixed-project-fee-agreement)
+- [Warning Signs: When Your Pricing Model Is Wrong](#warning-signs-when-your-pricing-model-is-wrong)
+- [Hybrid Pricing in Practice](#hybrid-pricing-in-practice)
+- [Hybrid Pricing Portfolio Example](#hybrid-pricing-portfolio-example)
+- [Raising Your Rates Without Losing Clients](#raising-your-rates-without-losing-clients)
+- [Rate Increase Process](#rate-increase-process)
+- [Making the Decision](#making-the-decision)
+
 ## Understanding the Two Models
 
 Hourly pricing means you charge for every hour worked. You track time, submit timesheets or invoices, and get paid proportionally to effort invested.
@@ -406,10 +431,9 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Project Management Tools for Freelancers 2026: A](/remote-work-tools/project-management-tools-for-freelancers-2026/)
-- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
-- [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
-- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
-- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
-
+- [Project Management Tools for Freelancers 2026](/remote-work-tools/project-management-tools-for-freelancers-2026/)
+- [Project Tracking Tool for Two Person Design Agency 2026](/remote-work-tools/project-tracking-tool-for-two-person-design-agency-2026/)
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [Scope Creep Prevention Strategies for Freelancers](/remote-work-tools/scope-creep-prevention-strategies-for-freelancers/)
+- [Freelance Proposal Template for Developers in 2026](/remote-work-tools/freelance-proposal-template-for-developers-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

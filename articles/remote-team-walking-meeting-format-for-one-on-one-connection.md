@@ -18,6 +18,17 @@ voice-checked: true
 
 Use virtual walking meetings via video call while walking alone to maintain connection with direct reports while both parties get movement and fresh air. This casual format often produces more candid conversations than formal desk-based one-on-ones.
 
+## Table of Contents
+
+- [Why Walking Meetings Work for Remote One-on-Ones](#why-walking-meetings-work-for-remote-one-on-ones)
+- [Core Format: The 30-Minute Structure](#core-format-the-30-minute-structure)
+- [Technical Setup: Audio and Connectivity](#technical-setup-audio-and-connectivity)
+- [Scheduling and Calendar Integration](#scheduling-and-calendar-integration)
+- [Practical Examples: Meeting Templates](#practical-examples-meeting-templates)
+- [Environment Considerations](#environment-considerations)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Implementation Checklist](#implementation-checklist)
+
 ## Why Walking Meetings Work for Remote One-on-Ones
 
 Research consistently shows that walking improves cognitive function and creative thinking. When applied to remote one-on-ones, walking meetings solve several problems that plague video calls: the fatigue from staring at screens, the stiffness of sitting for extended periods, and the transactional feel that develops when every conversation happens in the same virtual room.
@@ -247,11 +258,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
 - [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
-- [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
-
+- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

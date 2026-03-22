@@ -18,6 +18,16 @@ voice-checked: true
 
 Thailand has become one of the most popular destinations for digital nomads, offering a low cost of living, excellent healthcare, and a welcoming culture. However, navigating health insurance as a long-term remote worker in Thailand requires careful planning. This guide provides practical strategies for developers and power users who plan to stay in Thailand for extended periods.
 
+## Table of Contents
+
+- [Understanding Your Visa Status and Insurance Requirements](#understanding-your-visa-status-and-insurance-requirements)
+- [Prerequisites](#prerequisites)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Detailed Provider Comparison for Thailand Digital Nomads](#detailed-provider-comparison-for-thailand-digital-nomads)
+- [Visa-Specific Insurance Requirements](#visa-specific-insurance-requirements)
+- [Tax and Compliance Considerations](#tax-and-compliance-considerations)
+- [Troubleshooting](#troubleshooting)
+
 ## Understanding Your Visa Status and Insurance Requirements
 
 Your visa type significantly impacts your insurance options. Thailand offers several long-term visa options for remote workers:
@@ -336,10 +346,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [How to Handle Health Insurance as Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
 - [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
-- [How to Set Up Thai Bank Account as Digital Nomad Working](/remote-work-tools/how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/)
-- [Health Insurance Options for Freelancers 2026: A](/remote-work-tools/health-insurance-options-for-freelancers-2026/)
-- [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
-
+- [Brazil Digital Nomad Visa Process and Tax Implications](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [Best Travel Insurance for Digital Nomads 2026](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

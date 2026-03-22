@@ -18,6 +18,21 @@ voice-checked: true
 
 Loom is the best tool for recording quick 2-minute video updates for most remote teams, offering one-click recording, automatic transcription, and shareable links with view tracking. Choose OBS Studio if you need free, open-source recording with full customization. Choose the built-in macOS/Windows screen recorder if you want zero setup and share via Slack or email. This guide compares each option with automation tips and workflow integration examples.
 
+## Table of Contents
+
+- [Why 2-Minute Video Updates Work for Remote Teams](#why-2-minute-video-updates-work-for-remote-teams)
+- [Loom: The Quickest Path from Recording to Sharing](#loom-the-quickest-path-from-recording-to-sharing)
+- [OBS Studio: Maximum Control for Power Users](#obs-studio-maximum-control-for-power-users)
+- [Screen Studio: Mac Users' Quickest Option](#screen-studio-mac-users-quickest-option)
+- [ShareX: The Windows Power User Choice](#sharex-the-windows-power-user-choice)
+- [CLI Alternatives for Automation](#cli-alternatives-for-automation)
+- [Choosing the Right Tool](#choosing-the-right-tool)
+- [Automating Your Update Workflow](#automating-your-update-workflow)
+- [What I accomplished](#what-i-accomplished)
+- [What I'm working on](#what-im-working-on)
+- [Blockers](#blockers)
+- [Notes](#notes)
+
 ## Why 2-Minute Video Updates Work for Remote Teams
 
 Text updates get buried in Slack channels and email threads. A 30-second video update often communicates more than a thousand words of written status. When your team spans time zones, async video updates let everyone consume information on their own schedule while still feeling connected to the team's rhythm.
@@ -251,11 +266,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Session Recording Tool for Remote Team Privileged.](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
-- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
-- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
-- [Test UDP latency to Slack's media servers](/remote-work-tools/remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/)
 - [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
-
+- [Veed API - Upload and process video](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
+- [How to Move from Loom to Claap for Remote Team Async Video](/remote-work-tools/how-to-move-from-loom-to-claap-for-remote-team-async-video-m/)
+- [Best Tool for Remote Teams Recording and Transcribing](/remote-work-tools/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

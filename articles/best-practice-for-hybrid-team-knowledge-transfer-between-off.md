@@ -18,6 +18,31 @@ voice-checked: true
 
 Hybrid work models create a unique challenge: ensuring team members working different schedules stay aligned and informed. When some teammates are in the office while others work remotely, knowledge can easily fragment across these two contexts. This guide provides practical patterns for maintaining continuous knowledge flow in hybrid teams, focusing on developer and power user workflows.
 
+## Table of Contents
+
+- [The Hybrid Knowledge Gap Problem](#the-hybrid-knowledge-gap-problem)
+- [Establish a Single Source of Truth](#establish-a-single-source-of-truth)
+- [Implement Structured Async Standups](#implement-structured-async-standups)
+- [Use Contextual Documentation Patterns](#use-contextual-documentation-patterns)
+- [ADR: Use PostgreSQL for Primary Data Store](#adr-use-postgresql-for-primary-data-store)
+- [Create Explicit Handoff Protocols](#create-explicit-handoff-protocols)
+- [use Code Review as Knowledge Transfer](#use-code-review-as-knowledge-transfer)
+- [Description](#description)
+- [Context](#context)
+- [Testing](#testing)
+- [Notes for Reviewers](#notes-for-reviewers)
+- [Record Key Meetings Async](#record-key-meetings-async)
+- [Build Cultural Norms Around Knowledge Sharing](#build-cultural-norms-around-knowledge-sharing)
+- [Measuring Knowledge Transfer Effectiveness](#measuring-knowledge-transfer-effectiveness)
+- [Hybrid Knowledge Transfer Workflow Examples](#hybrid-knowledge-transfer-workflow-examples)
+- [Knowledge Gap Assessment Template](#knowledge-gap-assessment-template)
+- [Knowledge Transfer Audit](#knowledge-transfer-audit)
+- [Tools for Async Knowledge Transfer](#tools-for-async-knowledge-transfer)
+- [Creating an Async-First Decision Process](#creating-an-async-first-decision-process)
+- [Decision-Making Process](#decision-making-process)
+- [Measuring Knowledge Transfer Effectiveness](#measuring-knowledge-transfer-effectiveness)
+- [Real Example: Before/After Knowledge Transfer Improvement](#real-example-beforeafter-knowledge-transfer-improvement)
+
 ## The Hybrid Knowledge Gap Problem
 
 Hybrid teams face a subtle but persistent issue. Information shared verbally in office hallways or during impromptu meetings never reaches remote team members. Conversely, async updates from remote workers may miss the context that comes from in-person collaboration. The result is an uneven knowledge base where decisions feel opaque to those who weren't present.
@@ -451,11 +476,10 @@ Payoff: Better remote retention, faster onboarding, fewer repeated mistakes
 
 ## Related Articles
 
-- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [Best Practice for Hybrid Team Meeting Scheduling Respecting](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-- [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
-- [Best Practice for Hybrid Team Standup Format Accommodating M](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
-
+- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+- [Best Tools for Remote Team Knowledge Sharing Sessions 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-sharing-sessions-2026/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
+- [How to Prevent Knowledge Silos When Remote Team Grows Past](/remote-work-tools/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
+- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

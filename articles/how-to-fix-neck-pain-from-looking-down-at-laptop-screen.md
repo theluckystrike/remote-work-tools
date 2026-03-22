@@ -31,6 +31,20 @@ tags: [remote-work-tools, troubleshooting, best-of]
 
 Raise your laptop screen to eye level using a stand, stack of books, or external monitor, then use a separate keyboard at elbow height — this single change eliminates the primary cause of neck pain from laptop use. Combine that with chin tucks and neck stretches two to three times daily to reverse the muscular damage from forward head posture. Most developers experience significant relief within days of making these adjustments, addressing the "tech neck" caused by looking down at a screen positioned well below eye level.
 
+## Table of Contents
+
+- [Why Laptops Cause Neck Pain](#why-laptops-cause-neck-pain)
+- [Immediate Changes You Can Make Today](#immediate-changes-you-can-make-today)
+- [Exercises and Stretches for Relief](#exercises-and-stretches-for-relief)
+- [Building Sustainable Habits](#building-sustainable-habits)
+- [When to Seek Professional Help](#when-to-seek-professional-help)
+- [Making It Stick](#making-it-stick)
+- [Product Recommendations for Fixing Tech Neck](#product-recommendations-for-fixing-tech-neck)
+- [Building Ergonomic Habits](#building-ergonomic-habits)
+- [Ergonomic Workstations by Budget](#ergonomic-workstations-by-budget)
+- [Ergonomic Assessment Checklist](#ergonomic-assessment-checklist)
+- [When to See a Physical Therapist](#when-to-see-a-physical-therapist)
+
 ## Why Laptops Cause Neck Pain
 
 Your head weighs approximately 10-12 pounds. For every inch your head tilts forward, the strain on your neck muscles increases exponentially. When you look down at a laptop placed on a standard desk, your neck bends forward anywhere from 2 to 4 inches — multiplying the effective weight your neck must support to 30-40 pounds or more.
@@ -337,10 +351,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Ergonomic Laptop Stand for Remote Workers](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
 - [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
-- [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
+- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
+- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
 - [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
-- [Google Meet Echo When Using External Speakers Fix (2026)](/remote-work-tools/google-meet-echo-when-using-external-speakers-fix-2026/)
-- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

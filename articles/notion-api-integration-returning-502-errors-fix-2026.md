@@ -18,6 +18,16 @@ voice-checked: true
 
 If you're working with a distributed team and using Notion as your central knowledge base, encountering 502 Bad Gateway errors can bring your workflows to a standstill. These errors typically indicate that your integration cannot reach Notion's servers or that there's a problem with how requests are being handled. This guide provides practical troubleshooting steps specifically designed for remote workers and distributed teams using Notion API integrations.
 
+## Table of Contents
+
+- [Understanding 502 Errors in Notion API Contexts](#understanding-502-errors-in-notion-api-contexts)
+- [Step-by-Step Troubleshooting Process](#step-by-step-troubleshooting-process)
+- [Common Scenarios for Remote Teams](#common-scenarios-for-remote-teams)
+- [Prevention Best Practices](#prevention-best-practices)
+- [When to Seek Additional Help](#when-to-seek-additional-help)
+- [Monitoring and Alerting for 502 Errors](#monitoring-and-alerting-for-502-errors)
+- [Advanced Debugging Techniques](#advanced-debugging-techniques)
+
 ## Understanding 502 Errors in Notion API Contexts
 
 A 502 Bad Gateway error means that the server acting as a gateway received an invalid response from the upstream server. In the case of Notion API integrations, this usually occurs when your middleware, proxy, or application cannot establish a proper connection with Notion's API endpoints.
@@ -327,11 +337,10 @@ A clean reinstall sometimes resolves persistent issues caused by corrupted cache
 
 ## Related Articles
 
-- [Slack Giphy Integration Not Showing Results Fix 2026](/remote-work-tools/slack-giphy-integration-not-showing-results-fix-2026/)
-- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
-- [Best Project Management Tools with GitHub Integration](/remote-work-tools/best-project-management-tools-with-github-integration/)
-- [Google Meet Echo When Using External Speakers Fix (2026)](/remote-work-tools/google-meet-echo-when-using-external-speakers-fix-2026/)
-- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
-
+- [Best Tools for Remote Team Documentation 2026: Notion](/remote-work-tools/best-remote-team-documentation-tools-2026/)
+- [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
+- [Connect Notion to Slack Automatic Page Update Notifications](/remote-work-tools/connect-notion-to-slack-automatic-page-update-notifications-/)
+- [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
+- [Notion vs Confluence for Remote Documentation](/remote-work-tools/notion-vs-confluence-remote-documentation/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

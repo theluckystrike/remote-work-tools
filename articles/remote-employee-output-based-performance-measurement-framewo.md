@@ -18,6 +18,15 @@ voice-checked: true
 
 Traditional time-based tracking fails remote teams. When your developers span six time zones, measuring "hours at desk" becomes meaningless. Output-based performance measurement focuses on what gets delivered, not when someone sits at their keyboard. This guide provides a practical framework for measuring remote employee performance through tangible outcomes.
 
+## Table of Contents
+
+- [Why Hours-Based Tracking Fails Remote Work](#why-hours-based-tracking-fails-remote-work)
+- [Core Principles of Output-Based Measurement](#core-principles-of-output-based-measurement)
+- [Implementing the Framework](#implementing-the-framework)
+- [Tool Comparison: Output Tracking Platforms for Remote Teams](#tool-comparison-output-tracking-platforms-for-remote-teams)
+- [Incorporating Qualitative Signals](#incorporating-qualitative-signals)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+
 ## Why Hours-Based Tracking Fails Remote Work
 
 Time tracking assumes correlation between hours worked and value delivered. For knowledge workers, this correlation is weak at best. A developer might spend four hours solving a complex bug or eight hours in meetings with minimal产出. Remote work amplifies this disconnect—you cannot observe when someone is "working" versus thinking in the shower or debugging mentally during a walk.
@@ -265,11 +274,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Usage: python pip_tracker.py employee-pip.json](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
 - [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
-- [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
-- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
-- [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
-
+- [Best Tool for Tracking Remote Employee Work Permits](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
+- [Remote Work Performance Review Tools Comparison 2026](/remote-work-tools/remote-work-performance-review-tools-comparison-2026/)
+- [How to Handle Remote Employee Underperformance](/remote-work-tools/how-to-handle-remote-employee-underperformance-conversation-/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

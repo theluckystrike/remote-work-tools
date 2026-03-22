@@ -18,6 +18,20 @@ voice-checked: true
 
 Remote work in Portugal has exploded in recent years, with Lisbon, Porto, and smaller cities like Braga and Coimbra becoming hubs for digital nomads and remote developers. Choosing the right mobile data plan impacts your daily productivity, especially when working from co-working spaces, coffee shops, or traveling between cities. This guide cuts through the marketing noise and provides practical recommendations for developers and power users who need reliable connectivity.
 
+## Table of Contents
+
+- [Major Mobile Carriers in Portugal](#major-mobile-carriers-in-portugal)
+- [Comparing Data Plans: What Remote Workers Actually Need](#comparing-data-plans-what-remote-workers-actually-need)
+- [Recommended Plans for Different Use Cases](#recommended-plans-for-different-use-cases)
+- [Practical Tips for Remote Workers](#practical-tips-for-remote-workers)
+- [Portugal's Mobile Data Regulations](#portugals-mobile-data-regulations)
+- [Speed and Network Technology Comparison](#speed-and-network-technology-comparison)
+- [Activation and Account Management Tips](#activation-and-account-management-tips)
+- [Backup Connectivity Strategies](#backup-connectivity-strategies)
+- [Troubleshooting Common Issues](#troubleshooting-common-issues)
+- [Seasonal Considerations](#seasonal-considerations)
+- [Cost Optimization Over 6-12 Months](#cost-optimization-over-6-12-months)
+
 ## Major Mobile Carriers in Portugal
 
 Portugal's mobile market is dominated by three major carriers: NOS, Vodafone Portugal, and MEO (Altice Portugal). Each offers prepaid and postpaid plans with varying data allowances, 5G coverage, and eSIM support. Understanding their network infrastructure helps you make an informed decision based on your specific location and usage patterns.
@@ -319,11 +333,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [eSIM vs Local SIM Card for Digital Nomads](/remote-work-tools/esim-vs-local-sim-card-for-digital-nomads/)
-- [Example NHI enrollment at a local district office](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)
-- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [How to Coordinate Remote Mobile Developers Releasing Apps](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
-
+- [Mobile Hotspot vs Tethering for Remote Work Reliability in](/remote-work-tools/remote-work-mobile-hotspot-vs-tethering-which-is-better-for-/)
+- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
+- [Best eSIM Data Plans for Digital Nomads Working](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
+- [Best Mobile VPN Configuration for Remote Workers Accessing](/remote-work-tools/best-mobile-vpn-configuration-for-remote-workers-accessing-d/)
+- [Best Portable WiFi Hotspot Device for Remote Workers](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

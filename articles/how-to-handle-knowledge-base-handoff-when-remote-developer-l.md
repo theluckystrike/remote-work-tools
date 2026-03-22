@@ -18,6 +18,14 @@ voice-checked: true
 
 When a remote developer leaves your team, the knowledge they've accumulated over months or years can feel like it's walking out the door with them. Unlike office environments where informal conversations fill knowledge gaps, remote work relies heavily on explicit documentation. This guide provides a practical framework for managing knowledge base handoff that preserves institutional knowledge and ensures continuity.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Knowledge Transfer Tools Comparison](#knowledge-transfer-tools-comparison)
+- [Screen Recording Best Practices for Knowledge Handoff](#screen-recording-best-practices-for-knowledge-handoff)
+- [Advanced Handoff Documentation: Runbooks](#advanced-handoff-documentation-runbooks)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -378,11 +386,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
+- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
 - [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [Self-Hosted Knowledge Base for Remote Support Team](/remote-work-tools/self-hosted-knowledge-base-for-remote-support-team-replacing/)
 - [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
-- [Remote Team Knowledge Base Contribution Incentive Program](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
-- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

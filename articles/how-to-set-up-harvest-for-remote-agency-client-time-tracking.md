@@ -18,17 +18,7 @@ voice-checked: true
 
 Remote agencies face unique challenges when tracking time across distributed teams and multiple clients. Harvest provides a solution for capturing billable hours, managing client projects, and generating invoices. This guide covers practical setup steps for agencies working with remote clients, with emphasis on remote-specific workflows and time zone management.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Create Your Agency Workspace
+## Creating Your Agency Workspace
 
 Start by creating a Harvest account tailored to agency operations. The workspace structure determines how you organize client work and report on productivity.
 
@@ -54,7 +44,7 @@ After account creation, invite team members through the team settings. Assign ap
 
 For remote teams, ensure everyone downloads the mobile app for time tracking on the go. The browser extension provides one-click tracking from any webpage.
 
-### Step 2: Set Up Clients and Projects
+## Setting Up Clients and Projects
 
 Client setup forms the foundation of your time tracking structure. Each client should have:
 
@@ -87,7 +77,7 @@ Configure these project-level settings:
 
 Task budgets help teams understand how much time remains for each project phase. Review these regularly during sprint planning or weekly check-ins.
 
-### Step 3: Configure Hourly Rates and Billing
+## Configuring Hourly Rates and Billing
 
 Agencies typically manage multiple rate structures: internal team member rates, client-facing rates, and potentially different rates for specific project phases.
 
@@ -103,7 +93,7 @@ Fixed Fee Projects: For defined scope work, set a fixed price. Track time agains
 
 Retainer Billing: Set up recurring invoices for ongoing client work. Track time against retainer projects, and Harvest applies hours against the prepaid amount.
 
-### Step 4: Time Tracking Workflows for Remote Teams
+## Time Tracking Workflows for Remote Teams
 
 Establish clear time tracking habits that work across time zones. The key is consistency rather than complex processes.
 
@@ -136,7 +126,7 @@ Integrate this with your development workflow using GitHub Actions or a custom S
 
 **Retention and archival**: Harvest stores unlimited historical data. After projects complete, archive them to keep active project lists clean. Create an "Archived Projects" view separate from active work. This improves team usability without losing historical profitability data.
 
-### Step 5: Generate Reports and Invoices
+## Generating Reports and Invoices
 
 Harvest reporting helps agencies understand profitability, forecast workload, and bill clients accurately.
 
@@ -155,7 +145,7 @@ For client invoicing, create invoice templates with your agency branding. Includ
 
 Send invoices directly from Harvest or export to your accounting software. The integration with QuickBooks and Xero simplifies financial reconciliation.
 
-### Step 6: Integrate with Project Management Tools
+## Integrating with Project Management Tools
 
 Connect Harvest with your existing project management stack for improved workflows.
 
@@ -204,7 +194,7 @@ Implement these practices to maintain accurate time records:
 
 5. Separate billable from non-billable: Track all time, but distinguish between client work and internal projects.
 
-### Step 7: Automate Administrative Tasks
+## Automating Administrative Tasks
 
 Reduce manual overhead with Harvest's automation features:
 
@@ -214,7 +204,7 @@ Reduce manual overhead with Harvest's automation features:
 
 Set up these automations in the Settings > Notifications section. Tailor thresholds based on project size—smaller projects might warrant 75% alerts while larger engagements use 90%.
 
-### Step 8: Mobile Time Tracking for Distributed Teams
+## Mobile Time Tracking for Distributed Teams
 
 Remote agencies often have team members across time zones or working from varied locations. Harvest's mobile app becomes critical infrastructure:
 
@@ -227,7 +217,7 @@ Remote agencies often have team members across time zones or working from varied
 
 **GPS location tracking**: For agencies with field work or client site visits, enable location tracking (with appropriate privacy policies and consent). This validates that time entries match where work actually occurred.
 
-### Step 9: Client Communication and Transparency
+## Client Communication and Transparency
 
 Harvest integrates with client-facing tools to maintain transparency:
 
@@ -291,11 +281,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
 - [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
+- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
 - [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
-- [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
-
+- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

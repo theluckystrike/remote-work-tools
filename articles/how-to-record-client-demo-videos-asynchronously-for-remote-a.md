@@ -25,17 +25,7 @@ Synchronous demos force everyone into real-time availability. A 30-minute demo a
 
 The format also improves documentation. A recorded demo becomes part of your project archive. Clients can share it with stakeholders who couldn't attend the live call. Your team avoids repeating the same demo for every new person who joins a client meeting.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Recording Setup: The Minimal Viable Studio
+## Recording Setup: The Minimal Viable Studio
 
 You don't need expensive equipment. A clean audio setup matters more than video quality. Clients forgive mediocre visuals but abandon recordings with bad audio.
 
@@ -59,7 +49,7 @@ osascript -e 'tell application "OBS" to start recording'
 
 The ability to start and stop recording instantly prevents the awkward "let me restart and get the audio right" moments that make demos feel amateur.
 
-### Step 2: Structuring Your Demo Videos
+## Structuring Your Demo Videos
 
 A good demo video follows a consistent structure that clients learn to expect. Consistency reduces cognitive load and helps clients find what they need.
 
@@ -83,7 +73,7 @@ Recap what you showed and specify what you need from the client.
 
 > "That's the analytics dashboard. I'd like your feedback on the date range selector before we finalize it. Please add comments by Thursday so we can include changes in Friday's release."
 
-### Step 3: Automation Workflows for Volume Agencies
+## Automation Workflows for Volume Agencies
 
 If your agency produces multiple demos per week, automate the mechanical parts of the workflow.
 
@@ -153,7 +143,7 @@ for file in demos/*.mp4; do
 done
 ```
 
-### Step 4: Handling Client Feedback on Videos
+## Handling Client Feedback on Videos
 
 Asynchronous demos require thoughtful feedback loops. Without real-time clarification, ambiguous feedback wastes cycles.
 
@@ -178,7 +168,7 @@ Include clear turnaround times in your demo video description:
 
 This prevents demos from floating in limbo while clients assume you'll wait indefinitely.
 
-### Step 5: Common Pitfalls and Fixes
+## Common Pitfalls and Fixes
 
 **Recording runs too long.** Set a hard limit of 10 minutes per feature. Break longer features into multiple videos. Clients zone out past that threshold.
 
@@ -188,7 +178,7 @@ This prevents demos from floating in limbo while clients assume you'll wait inde
 
 **Feedback gets lost in email threads.** Use a dedicated feedback tool or at minimum, a shared document where all video feedback lives in one place.
 
-### Step 6: Recording Equipment Recommendations
+## Recording Equipment Recommendations
 
 ### Essential Setup (Budget: $150-300)
 
@@ -217,7 +207,7 @@ Add to professional:
 
 Most agencies find the Essential to Professional tier hits the sweet spot—tangible quality improvement without the complexity of a full studio.
 
-### Step 7: Workflow Example: Weekly Demo Cycle
+## Workflow Example: Weekly Demo Cycle
 
 Here's how a SaaS agency records demos for multiple clients efficiently:
 
@@ -268,7 +258,7 @@ echo "Processing complete. $(ls demos/processed/*.mp4 | wc -l) demos ready."
 
 This cycle produces 4-8 polished demos per week with minimal manual effort.
 
-### Step 8: Measuring Demo Impact
+## Measuring Demo Impact
 
 Track whether async demos are working:
 
@@ -282,21 +272,6 @@ Track whether async demos are working:
 
 If metrics aren't improving after 4 weeks of using async demos, the problem might be your feedback loop (unclear client feedback), not the recording itself. Tighten the feedback process rather than abandon the format.
 ---
-
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions
@@ -323,11 +298,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Give Constructive Feedback Asynchronously Without](/remote-work-tools/how-to-give-constructive-feedback-asynchronously-without-mis/)
-- [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
-- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
 - [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
-- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-
+- [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
+- [How to Run a Remote Team Demo Day Showcasing Cross-Team](/remote-work-tools/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
+- [Async Sales Demo Recordings for Remote Enterprise Sales Team](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
+- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

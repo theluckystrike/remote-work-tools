@@ -19,6 +19,42 @@ tags: [remote-work-tools]
 
 To build a Zettelkasten for software engineering, create one atomic markdown note per concept (a single pattern, API detail, or debugging insight), give each note a unique ID and explicit tags, then link every new note to at least one existing note so connections compound over time. Use a local-first tool like Obsidian or Logseq (or plain markdown with git) to store notes, and organize them into three types: fleeting notes for quick capture, permanent notes for well-researched concepts, and project notes that get archived when work wraps up. This guide covers the atomic note structure, linking strategies for code patterns and problem-solution pairs, directory layout, query-based workflows, and the daily habits that make a Zettelkasten actually useful for engineers.
 
+## Table of Contents
+
+- [Atomic Notes: The Foundation](#atomic-notes-the-foundation)
+- [Use Case](#use-case)
+- [The Three Note Types](#the-three-note-types)
+- [Linking Strategies](#linking-strategies)
+- [Implementation with Plain Text Tools](#implementation-with-plain-text-tools)
+- [Query-Based Workflows](#query-based-workflows)
+- [Building the Habit](#building-the-habit)
+- [Example: Tracking API Patterns](#example-tracking-api-patterns)
+- [Tool Comparison: Zettelkasten Apps for Engineers](#tool-comparison-zettelkasten-apps-for-engineers)
+- [Step-by-Step: Setting Up an Engineering Zettelkasten in Obsidian](#step-by-step-setting-up-an-engineering-zettelkasten-in-obsidian)
+- [Integrating Your Zettelkasten with Engineering Workflows](#integrating-your-zettelkasten-with-engineering-workflows)
+- [Getting Started](#getting-started)
+- [Zettelkasten Template Examples](#zettelkasten-template-examples)
+- [Why This Matters](#why-this-matters)
+- [How It Works](#how-it-works)
+- [Code Example](#code-example)
+- [Related Concepts](#related-concepts)
+- [Trade-offs](#trade-offs)
+- [Common Pitfalls](#common-pitfalls)
+- [Symptoms](#symptoms)
+- [Root Cause](#root-cause)
+- [Solution](#solution)
+- [Prevention](#prevention)
+- [References](#references)
+- [Querying Your Knowledge Base](#querying-your-knowledge-base)
+- [Zettelkasten Maintenance Schedule](#zettelkasten-maintenance-schedule)
+- [Integration with Development Workflows](#integration-with-development-workflows)
+- [Cross-Domain Linking Pattern](#cross-domain-linking-pattern)
+- [Zettelkasten for Team Knowledge](#zettelkasten-for-team-knowledge)
+- [Individual Zettelkastens](#individual-zettelkastens)
+- [Team Wiki](#team-wiki)
+- [Flows](#flows)
+- [Tool Recommendations for Different Team Sizes](#tool-recommendations-for-different-team-sizes)
+
 ## Atomic Notes: The Foundation
 
 The core principle of a Zettelkasten is atomicity — each note should contain one idea, one concept, or one piece of information. This makes notes reusable and linkable across contexts.
@@ -432,11 +468,10 @@ This approach gets the benefits of personal knowledge capture without the chaos 
 
 ## Related Articles
 
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
+- [Notion vs ClickUp for Engineering Teams: A Practical](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+- [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
+- [Best Project Tracking Tool for Remote Hardware Engineering](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
 - [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
-- [Best Practice for Remote Team Documentation Scaling](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
-- [Best Virtual Coffee Chat Tool for Remote Teams Building](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

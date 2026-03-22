@@ -18,6 +18,23 @@ voice-checked: true
 
 Remote development teams face unique challenges when managing sensitive credentials across distributed environments. When your team spans multiple time zones and works across various cloud providers, the risk of exposed secrets increases significantly. This guide covers practical approaches to secrets management that work well for remote teams using cloud infrastructure.
 
+## Table of Contents
+
+- [Approach 1: HashiCorp Vault](#approach-1-hashicorp-vault)
+- [The Problem: Secrets Management in Distributed Environments](#the-problem-secrets-management-in-distributed-environments)
+- [Core Requirements for Remote Teams](#core-requirements-for-remote-teams)
+- [Approach 1: HashiCorp Vault](#approach-1-hashicorp-vault)
+- [Approach 2: AWS Secrets Manager](#approach-2-aws-secrets-manager)
+- [Approach 3: Doppler](#approach-3-doppler)
+- [Approach 4: GitOps with SOPS](#approach-4-gitops-with-sops)
+- [Choosing the Right Tool for Your Team](#choosing-the-right-tool-for-your-team)
+- [Implementation Example: Environment-Based Access](#implementation-example-environment-based-access)
+- [Secrets Management Tool Comparison](#secrets-management-tool-comparison)
+- [Environment-Based Access Pattern](#environment-based-access-pattern)
+- [Vault Implementation for Teams](#vault-implementation-for-teams)
+- [CI/CD Integration Patterns](#cicd-integration-patterns)
+- [Rotation Strategy for Remote Teams](#rotation-strategy-for-remote-teams)
+
 ## Approach 1: HashiCorp Vault
 
 HashiCorp Vault stands out as a mature, open-source solution for secrets management.
@@ -473,11 +490,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Secure Secrets Injection Workflow for Remote Teams Using](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
+- [Secure Secrets Injection Workflow for Remote Teams](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
 - [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
-- [Best Password Manager for Remote Development Teams](/remote-work-tools/best-password-manager-for-remote-development-teams/)
-- [Best VPN for Remote Development Teams with Split Tunneling](/remote-work-tools/best-vpn-for-remote-development-teams-with-split-tunneling-2/)
+- [Best Design Token Management Tool for Remote Teams](/remote-work-tools/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
 - [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

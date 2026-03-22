@@ -16,6 +16,21 @@ tags: [remote-work-tools, best-of, remote-work]
 {% raw %}
 The best currency exchange strategy for remote workers paid in USD living in Thailand is to use Wise (formerly TransferWise) for transfers under $5,000 and DeeMoney or Bangkok Bank's New York branch for larger amounts, achieving rates within 0.3-0.5% of the mid-market rate versus the 2-4% markup from standard Thai bank transfers. Open a Bangkok Bank account (one of the few accepting foreigners easily), set up Wise with baht as the target currency, and transfer on Tuesdays or Wednesdays when forex spreads tend to be tightest. This approach saves 3-5% compared to using ATM withdrawals or standard international wire transfers.
 
+## Table of Contents
+
+- [Understanding the Thailand Banking ecosystem](#understanding-the-thailand-banking-ecosystem)
+- [Recommended Multi-Account Strategy](#recommended-multi-account-strategy)
+- [Automation for Regular Income](#automation-for-regular-income)
+- [Avoiding Common Mistakes](#avoiding-common-mistakes)
+- [Tax Considerations](#tax-considerations)
+- [Practical Recommendation](#practical-recommendation)
+- [Advanced Conversion Strategies for Tech Professionals](#advanced-conversion-strategies-for-tech-professionals)
+- [Detailed Comparison: Every Conversion Method](#detailed-comparison-every-conversion-method)
+- [Accounting and Tax Record Keeping](#accounting-and-tax-record-keeping)
+- [Currency Risk Management](#currency-risk-management)
+- [When to Get Professional Help](#when-to-get-professional-help)
+- [The Bottom Line](#the-bottom-line)
+
 ## Understanding the Thailand Banking ecosystem
 
 Thailand imposes strict capital controls on foreign currency. You cannot simply wire USD to a Thai bank and expect favorable rates. Most Thai banks offer poor exchange rates, typically 2-4% below the market rate, and charge additional transfer fees.
@@ -346,10 +361,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Example: Create invoice with automatic currency conversion](/remote-work-tools/best-multi-currency-accounting-software-for-remote-agencies-/)
-- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
-- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
-
+- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
+- [How to Set Up Thai Bank Account as Digital Nomad Working](/remote-work-tools/how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/)
+- [How to Set Freelance Developer Rates in 2026](/remote-work-tools/how-to-set-freelance-developer-rates-2026/)
+- [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

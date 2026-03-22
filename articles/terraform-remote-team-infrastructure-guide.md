@@ -12,6 +12,20 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Terraform for Remote Teams: State, Modules, and CI"
+description: "Set up Terraform for distributed remote teams with remote state, reusable modules, workspace separation, and CI/CD integration. Includes practical config"
+date: 2026-03-21
+author: theluckystrike
+permalink: /terraform-remote-team-infrastructure-guide/
+categories: [guides]
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
@@ -19,17 +33,7 @@ Running Terraform on a team requires solving problems that solo use does not fac
 
 This guide covers the complete Terraform setup for remote teams: S3 backend with DynamoDB locking, workspace separation, reusable modules, and GitHub Actions integration.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Remote State with S3 and DynamoDB Locking
+## Remote State with S3 and DynamoDB Locking
 
 Local `terraform.tfstate` files break immediately in a team. Two people cannot run `terraform apply` simultaneously without corrupting state. S3 + DynamoDB gives you shared state with pessimistic locking.
 
@@ -66,7 +70,7 @@ aws dynamodb create-table \
   --billing-mode PAY_PER_REQUEST
 ```
 
-### Step 2: Backend Configuration
+## Backend Configuration
 
 ```hcl
 # backend.tf — add to every Terraform project
@@ -92,7 +96,7 @@ terraform {
 
 Each project uses a unique `key` path. Convention: `project/environment/terraform.tfstate`.
 
-### Step 3: Workspace Strategy for Environment Separation
+## Workspace Strategy for Environment Separation
 
 ```bash
 # Create workspaces for each environment
@@ -138,7 +142,7 @@ resource "aws_instance" "app" {
 }
 ```
 
-### Step 4: Reusable Module Structure
+## Reusable Module Structure
 
 Modules prevent copy-paste infrastructure across environments and projects.
 
@@ -218,7 +222,7 @@ module "compute" {
 }
 ```
 
-### Step 5: Variables and Secrets
+## Variables and Secrets
 
 ```hcl
 # variables.tf
@@ -263,7 +267,7 @@ resource "aws_db_instance" "main" {
 }
 ```
 
-### Step 6: GitHub Actions CI/CD
+## GitHub Actions CI/CD
 
 ```yaml
 # .github/workflows/terraform.yml
@@ -374,7 +378,7 @@ jobs:
 
 The plan runs on every PR (showing the diff as a comment). The apply runs only on merge to `main`, and the `environment: production` gate requires manual approval from a configured reviewer.
 
-### Step 7: State Import: Bring Existing Infrastructure Under Control
+## State Import: Bring Existing Infrastructure Under Control
 
 ```bash
 # Import existing AWS resources into Terraform state
@@ -393,26 +397,19 @@ terraform import aws_db_instance.main mydb
 terraform plan -var-file="production.tfvars"
 ```
 
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
-
 ## Related Reading
 
 - [AWS Cost Management for Remote Teams](/remote-work-tools/aws-cost-management-remote-teams-guide/)
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 - [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
+
+## Related Articles
+
+- [How to Automate DNS Management with Terraform](/remote-work-tools/how-to-automate-dns-management-with-terraform/)
+- [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

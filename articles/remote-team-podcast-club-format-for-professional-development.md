@@ -18,6 +18,25 @@ voice-checked: true
 
 Remote teams often struggle to find learning opportunities that don't require synchronous attendance across time zones. A podcast club solves this problem by using asynchronous audio content that team members can consume on their own schedules, then reconvene for structured discussions.
 
+## Table of Contents
+
+- [Setting Up Your Podcast Club Infrastructure](#setting-up-your-podcast-club-infrastructure)
+- [Episode Selection Criteria](#episode-selection-criteria)
+- [Discussion Format That Works](#discussion-format-that-works)
+- [Time Zone Friendly Scheduling](#time-zone-friendly-scheduling)
+- [Recommended Podcasts for Developer Teams](#recommended-podcasts-for-developer-teams)
+- [Measuring Success](#measuring-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Starting Your First Session](#starting-your-first-session)
+- [Podcast Club Platform Comparison](#podcast-club-platform-comparison)
+- [Episode Selection Framework](#episode-selection-framework)
+- [Async-Heavy Participation Model](#async-heavy-participation-model)
+- [Format for Comments](#format-for-comments)
+- [Example Good Response](#example-good-response)
+- [Discussion Lead's Role](#discussion-leads-role)
+- [Measuring Impact](#measuring-impact)
+- [Action Item Translation](#action-item-translation)
+
 This format transforms passive listening into active professional development, building technical knowledge while strengthening team bonds through shared learning experiences.
 
 ## Setting Up Your Podcast Club Infrastructure
@@ -369,11 +388,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
-- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
-- [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
-
+- [Remote Team Book Club Format and Facilitation Guide](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
+- [Podcast Guesting Strategy for Freelance Developers](/remote-work-tools/podcast-guesting-strategy-for-freelance-developers/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [How to Set Up Remote Team Learning and Development Program](/remote-work-tools/how-to-set-up-remote-team-learning-and-development-program-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

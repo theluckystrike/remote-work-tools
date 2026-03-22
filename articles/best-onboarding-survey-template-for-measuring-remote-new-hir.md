@@ -17,6 +17,28 @@ voice-checked: true
 
 Remote onboarding requires intentional measurement. Unlike office environments where managers observe new hires daily, distributed teams must rely on structured check-ins to understand how newcomers are adjusting. A well-designed 30-60-90 day survey framework captures qualitative and quantitative data that drives meaningful improvements to your onboarding process.
 
+## Table of Contents
+
+- [Why Measure Remote Onboarding at Specific Milestones](#why-measure-remote-onboarding-at-specific-milestones)
+- [Designing Effective Survey Questions](#designing-effective-survey-questions)
+- [30-Day Survey Template](#30-day-survey-template)
+- [30-Day Onboarding Check-in](#30-day-onboarding-check-in)
+- [60-Day Survey Template](#60-day-survey-template)
+- [60-Day Onboarding Check-in](#60-day-onboarding-check-in)
+- [90-Day Survey Template](#90-day-survey-template)
+- [90-Day Onboarding Check-in](#90-day-onboarding-check-in)
+- [Automating Survey Distribution](#automating-survey-distribution)
+- [Analyzing Survey Data](#analyzing-survey-data)
+- [Implementing Continuous Improvement](#implementing-continuous-improvement)
+- [Processing and Acting on Survey Results](#processing-and-acting-on-survey-results)
+- [Creating a Feedback Loop](#creating-a-feedback-loop)
+- [Onboarding Feedback Loop Process](#onboarding-feedback-loop-process)
+- [Adapting Surveys for Different Roles](#adapting-surveys-for-different-roles)
+- [30-Day Survey for Product Manager](#30-day-survey-for-product-manager)
+- [30-Day Survey for Sales](#30-day-survey-for-sales)
+- [Measuring Onboarding Impact on Retention](#measuring-onboarding-impact-on-retention)
+- [Common Pitfalls When Implementing Surveys](#common-pitfalls-when-implementing-surveys)
+
 This guide provides practical templates you can implement immediately, along with code examples for automating survey distribution and analysis.
 
 ## Why Measure Remote Onboarding at Specific Milestones
@@ -417,6 +439,11 @@ Fix: Use named surveys (it's safe — 30 days in, people trust the process). All
 
 ## Related Articles
 
+- [Remote Agency Client Satisfaction Survey Template](/remote-work-tools/remote-agency-client-satisfaction-survey-template-and-automa/)
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
+- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+- [How to Create Remote Onboarding Buddy Program Template](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
 **Who is this article written for?**
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.

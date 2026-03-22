@@ -18,6 +18,18 @@ voice-checked: true
 
 Platform engineers managing shared infrastructure from a remote or distributed team need collaboration tools that handle both the async communication side and the technical coordination of shared services. The best setup combines an internal developer portal (IDP) for service discovery, structured incident response workflows, and documented runbooks that work across time zones. This guide covers practical tooling and patterns for each layer.
 
+## Table of Contents
+
+- [Internal Developer Portals for Service Discovery](#internal-developer-portals-for-service-discovery)
+- [Incident Response Coordination](#incident-response-coordination)
+- [Incident Update Template](#incident-update-template)
+- [Cross-Team Communication Channels](#cross-team-communication-channels)
+- [Documentation That Works Remotely](#documentation-that-works-remotely)
+- [Change Management for Shared Services](#change-management-for-shared-services)
+- [Infra Change Calendar — Week of 2026-03-17](#infra-change-calendar-week-of-2026-03-17)
+- [Async Runbook Reviews](#async-runbook-reviews)
+- [Choosing the Right Tool Stack](#choosing-the-right-tool-stack)
+
 ## Internal Developer Portals for Service Discovery
 
 When engineers across multiple time zones need to find who owns the Postgres cluster or how to use the internal API gateway, an internal developer portal eliminates the need to ping people directly.
@@ -241,11 +253,10 @@ Prefer GitHub when your team already reviews infrastructure changes there. Co-lo
 
 ## Related Articles
 
-- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
-- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
-- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [Example: Simple calendar reminder script for kit deployment](/remote-work-tools/best-activity-kit-subscription-for-kids-of-remote-working-pa/)
-
+- [Best Practices for Remote Incident Communication](/remote-work-tools/best-practices-for-remote-incident-communication/)
+- [Remote Team Security Incident Response Plan Template](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [How to Scale Remote Team Incident Response Process](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [How to Set Up Remote Team Incident Response Process 2026](/remote-work-tools/how-to-set-up-remote-team-incident-response-process-2026/)
+- [Best Tools for Remote Team Incident Postmortems in 2026](/remote-work-tools/best-tools-for-remote-team-incident-postmortems-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

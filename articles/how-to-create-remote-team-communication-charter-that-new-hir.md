@@ -16,6 +16,26 @@ tags: [remote-work-tools, remote-work]
 
 A communication charter serves as the connective tissue for distributed teams. Without one, new hires scramble to understand when to use Slack versus email, how quickly they should respond to messages, and where critical information lives. Building a charter that actually gets adopted during onboarding requires more than documenting rules—it demands making those rules accessible, contextual, and reinforced through the first weeks of employment.
 
+## Table of Contents
+
+- [Why Most Communication Charters Fail](#why-most-communication-charters-fail)
+- [Building Blocks of an Effective Communication Charter](#building-blocks-of-an-effective-communication-charter)
+- [Quick Communication Guide](#quick-communication-guide)
+- [What this PR changes](#what-this-pr-changes)
+- [How to test](#how-to-test)
+- [Screenshots (if applicable)](#screenshots-if-applicable)
+- [Yesterday](#yesterday)
+- [Today](#today)
+- [Blockers](#blockers)
+- [FYI](#fyi)
+- [Attendees](#attendees)
+- [Decisions Made](#decisions-made)
+- [Action Items](#action-items)
+- [Open Questions](#open-questions)
+- [Week 1 Communication Tasks](#week-1-communication-tasks)
+- [Making Your Charter Living Documentation](#making-your-charter-living-documentation)
+- [Testing Charter Adoption](#testing-charter-adoption)
+
 This guide walks through creating a remote team communication charter that new hires naturally adopt during their onboarding journey. You'll find practical templates, implementation strategies, and code-based approaches that work for developer teams and technical power users.
 
 ## Why Most Communication Charters Fail
@@ -254,10 +274,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
-- [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
-- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
 - [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-
+- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -13,10 +13,49 @@ reviewed: true
 intent-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Example: Finding interview slots across time zones"
+description: "A practical training framework for first-time managers leading hiring in remote and distributed companies. Includes templates, workflows, and code"
+date: 2026-03-16
+last_modified_at: 2026-03-16
+author: theluckystrike
+permalink: /remote-team-hiring-manager-training-program-for-first-time-m/
+categories: [guides]
+score: 9
+voice-checked: true
+reviewed: true
+intent-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
-
 Transitioning from individual contributor to hiring manager in a distributed company requires mastering new skills that rarely come up in technical work. Remote hiring involves different tools, communication patterns, and evaluation methods than in-person processes. This guide provides a structured training program to help first-time managers build effective hiring practices for distributed teams.
+
+## Table of Contents
+
+- [The Remote Hiring Manager Skill Set](#the-remote-hiring-manager-skill-set)
+- [Step 1: Writing Remote-Friendly Job Descriptions](#step-1-writing-remote-friendly-job-descriptions)
+- [About This Role](#about-this-role)
+- [What We're Looking For](#what-were-looking-for)
+- [Remote Work Expectations](#remote-work-expectations)
+- [How We Hire](#how-we-hire)
+- [Step 2: Building Your Interview Pipeline](#step-2-building-your-interview-pipeline)
+- [Step 3: Coordinating Across Time Zones](#step-3-coordinating-across-time-zones)
+- [Step 4: Evaluating Async Work Samples](#step-4-evaluating-async-work-samples)
+- [Step 5: Managing the Offer Process](#step-5-managing-the-offer-process)
+- [Offer Timeline Template](#offer-timeline-template)
+- [Common Pitfalls for First-Time Remote Hiring Managers](#common-pitfalls-for-first-time-remote-hiring-managers)
+- [Building Your Hiring Playbook](#building-your-hiring-playbook)
+- [Building Your Hiring Team and Delegation](#building-your-hiring-team-and-delegation)
+- [Sourcing and Pipeline Building](#sourcing-and-pipeline-building)
+- [Eligible Roles](#eligible-roles)
+- [Referral Bonus](#referral-bonus)
+- [Referrer Expectations](#referrer-expectations)
+- [Process](#process)
+- [Sample intro email](#sample-intro-email)
+- [Competitive Compensation for Remote Talent](#competitive-compensation-for-remote-talent)
+- [Retention: The Forgotten Half of Hiring](#retention-the-forgotten-half-of-hiring)
 
 ## The Remote Hiring Manager Skill Set
 
@@ -354,11 +393,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Manage Remote Team Handoffs Across Time Zones: A](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
-- [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
-- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
-- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
-- [Remote Manager Time Management Framework for Leading Across](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
-
+- [Remote Team Hiring Rubric Template for Consistent](/remote-work-tools/remote-team-hiring-rubric-template-for-consistent-evaluation/)
+- [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
+- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [How to Manage Remote Team Handoffs Across Time Zones](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

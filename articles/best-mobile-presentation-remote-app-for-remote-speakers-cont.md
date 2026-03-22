@@ -17,6 +17,34 @@ voice-checked: true
 
 Remote speakers face a unique challenge: how to control presentation slides effectively while appearing natural and confident on camera. Whether you're delivering a sales pitch to clients across the globe or presenting quarterly results to a distributed team, the ability to control your slides from your phone transforms your presentation delivery. This guide explores the best mobile presentation remote apps and shows you practical workflows for simple remote presentations.
 
+## Table of Contents
+
+- [Why Mobile Remote Control Matters for Remote Speakers](#why-mobile-remote-control-matters-for-remote-speakers)
+- [Essential Features to Look For](#essential-features-to-look-for)
+- [Top Mobile Presentation Remote Apps](#top-mobile-presentation-remote-apps)
+- [Real-World Workflow Examples](#real-world-workflow-examples)
+- [Practical Tips for Mobile Remote Presentations](#practical-tips-for-mobile-remote-presentations)
+- [Choosing the Right Solution for Your Needs](#choosing-the-right-solution-for-your-needs)
+- [Advanced Mobile Presentation Techniques](#advanced-mobile-presentation-techniques)
+- [Presentation Delivery Tips for Remote Speakers](#presentation-delivery-tips-for-remote-speakers)
+- [Setting Up Your Physical Presentation Environment](#setting-up-your-physical-presentation-environment)
+- [Troubleshooting Mobile Remote Control Issues](#troubleshooting-mobile-remote-control-issues)
+- [Integration with Video Conference Platforms](#integration-with-video-conference-platforms)
+- [Building Presentation Skills Through Remote Speaking](#building-presentation-skills-through-remote-speaking)
+- [Choosing and Perfecting Your Approach](#choosing-and-perfecting-your-approach)
+- [Presentation Remote Feature Comparison](#presentation-remote-feature-comparison)
+- [Technical Setup Checklist for Live Presentations](#technical-setup-checklist-for-live-presentations)
+- [30 Minutes Before](#30-minutes-before)
+- [15 Minutes Before](#15-minutes-before)
+- [5 Minutes Before](#5-minutes-before)
+- [During Presentation](#during-presentation)
+- [Presentation Remote Failure Recovery](#presentation-remote-failure-recovery)
+- [Integration with Video Conferencing Platforms](#integration-with-video-conferencing-platforms)
+- [Advanced Presentation Techniques with Mobile Control](#advanced-presentation-techniques-with-mobile-control)
+- [Video Presentation Recording with Mobile Control](#video-presentation-recording-with-mobile-control)
+- [Presentation Delivery Metrics to Track](#presentation-delivery-metrics-to-track)
+- [Mobile Presentation App Ecosystem](#mobile-presentation-app-ecosystem)
+
 ## Why Mobile Remote Control Matters for Remote Speakers
 
 When you're presenting remotely, your physical setup often differs significantly from traditional in-person presentations. You might be working from a home office where reaching a keyboard or mouse feels awkward on camera. Perhaps you're walking around to maintain energy and engagement, making it impractical to return to a desk for every slide transition.
@@ -190,10 +218,11 @@ For distributed teams where synchronous communication often happens through vide
 
 ## Related Articles
 
-- [Remote Team Wellness Check App for Mobile: Tracking Team](/remote-team-wellness-check-app-for-mobile-tracking-team-mora/)
-- [Best Mobile Device Management for Enterprise Remote Teams](/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
+- [Mobile Hotspot vs Tethering for Remote Work Reliability in](/remote-work-tools/remote-work-mobile-hotspot-vs-tethering-which-is-better-for-/)
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

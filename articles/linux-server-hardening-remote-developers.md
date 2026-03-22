@@ -12,6 +12,20 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Linux Server Hardening Guide for Remote Developers"
+description: "Harden a Linux VPS or home lab server for remote development use. Covers SSH key auth, UFW firewall, fail2ban, unattended upgrades, and audit logging setup."
+date: 2026-03-21
+author: theluckystrike
+permalink: /linux-server-hardening-remote-developers/
+categories: [guides]
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
@@ -324,6 +338,14 @@ sudo nmap -sV --open -p- localhost 2>/dev/null | grep "open"
 - [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
 - [Linux Desktop Privacy Hardening Guide](https://theluckystrike.github.io/privacy-tools-guide/linux-desktop-privacy-hardening-guide/)
 - [macOS Privacy Hardening Checklist 2026](https://theluckystrike.github.io/privacy-tools-guide/macos-privacy-hardening-checklist-2026/)
+
+## Related Articles
+
+- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
+- [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
+- [SSH Tunnels for Remote Database Access](/remote-work-tools/ssh-tunnels-remote-database-access/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

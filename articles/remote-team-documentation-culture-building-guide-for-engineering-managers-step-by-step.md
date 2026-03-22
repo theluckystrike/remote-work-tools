@@ -13,28 +13,60 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Code Review Guide"
+description: "A practical step-by-step guide for engineering managers to build documentation culture in remote teams. Includes templates, workflows, and code examples"
+date: 2026-03-16
+last_modified_at: 2026-03-16
+author: "Remote Work Tools Guide"
+permalink: /remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/
+reviewed: true
+score: 8
+categories: [guides]
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
-
 Building documentation culture in a remote engineering team requires deliberate effort, clear systems, and consistent reinforcement. Unlike co-located teams where knowledge transfers happen informally through hallway conversations, remote teams need explicit, written-down processes that team members can discover and follow independently.
 
+## Table of Contents
+
+- [Step 1: Audit Your Current Documentation State](#step-1-audit-your-current-documentation-state)
+- [Step 2: Define Documentation Categories](#step-2-define-documentation-categories)
+- [Step 3: Establish Documentation Standards](#step-3-establish-documentation-standards)
+- [Prerequisites](#prerequisites)
+- [Review Checklist](#review-checklist)
+- [Timeline Expectations](#timeline-expectations)
+- [Motivation](#motivation)
+- [Detailed Design](#detailed-design)
+- [Alternatives Considered](#alternatives-considered)
+- [Timeline](#timeline)
+- [Step 4: Implement Documentation-Tracking Workflows](#step-4-implement-documentation-tracking-workflows)
+- [Documentation](#documentation)
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Step 5: Create Accountability and Recognition Systems](#step-5-create-accountability-and-recognition-systems)
+- [Step 6: Build Onboarding Documentation First](#step-6-build-onboarding-documentation-first)
+- [Step 7: Maintain and Evolve Documentation](#step-7-maintain-and-evolve-documentation)
+- [Building Long-Term Culture](#building-long-term-culture)
+- [Practical Documentation Workflow Template](#practical-documentation-workflow-template)
+- [Code Changes Documentation](#code-changes-documentation)
+- [Architecture Changes Documentation](#architecture-changes-documentation)
+- [Runbook and Operational Docs](#runbook-and-operational-docs)
+- [Documentation Quality Checklist](#documentation-quality-checklist)
+- [Building Documentation Into Your Definition of Done](#building-documentation-into-your-definition-of-done)
+- [Code Quality](#code-quality)
+- [Documentation](#documentation)
+- [Knowledge Transfer](#knowledge-transfer)
+- [Process](#process)
+- [Documentation Metrics Worth Tracking](#documentation-metrics-worth-tracking)
+
 This guide provides a step-by-step framework for engineering managers who want to establish sustainable documentation practices. Each step builds on the previous one, creating a foundation that scales as your team grows.
-
-# ADR-001**: Use PostgreSQL for Primary Database
-
-## Status
-Accepted
-
-## Context
-We need a relational database for our user data.
-- Prioritize onboarding documentation because:
-
-1.
-- **Use your version control**: system as the canonical home for technical documentation, and reserve your wiki for process and team information.
-- **The most successful remote**: teams treat documentation as a core engineering practice, not an administrative burden.
-- **Checklist requires**: "Documentation updated: Yes/No"
-3.
-- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Step 1: Audit Your Current Documentation State
 
@@ -322,6 +354,11 @@ Monitor these metrics to understand documentation health:
 
 ## Related Articles
 
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Build Remote Team Documentation Culture Guide](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
 **How long does it take to complete this setup?**
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.

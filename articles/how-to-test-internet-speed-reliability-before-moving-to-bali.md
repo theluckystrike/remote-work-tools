@@ -24,17 +24,7 @@ Speed test results show bandwidth capacity, but reliability determines whether y
 
 Bali's internet infrastructure has improved significantly, with fiber availability expanding in areas like Seminyak, Canggu, and Ubud. However, rural areas and newer coworking spaces may rely on satellite or limited cable infrastructure. Thorough testing before your move prevents productivity disruption.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Understand Bali's Internet Space
+## Understanding Bali's Internet Space
 
 Bali's connectivity varies sharply by neighborhood. Canggu and Seminyak have become digital nomad hubs with multiple ISPs competing for business, resulting in reasonably reliable fiber connections at many coworking spaces. Ubud offers good connectivity in the central area near Monkey Forest Road, with quality dropping as you move toward the rice fields.
 
@@ -42,7 +32,7 @@ The main ISPs operating across Bali include Telkom Indonesia (IndiHome fiber), B
 
 International routing is a separate concern from raw download speed. Your connection may show 100 Mbps on a local speed test but perform poorly for GitHub pushes or AWS console access because the routing path to US or European data centers adds significant latency. Always test against servers in your actual cloud region.
 
-### Step 2: Essential Speed Test Methods
+## Essential Speed Test Methods
 
 ### Using CLI Speed Test Tools
 
@@ -127,7 +117,7 @@ echo -e "\n--- Bandwidth Test with iperf3 ---" | tee -a $LOGFILE
 iperf3 -c iperf.he.net -R >> $LOGFILE 2>&1
 ```
 
-### Step 3: Coworking Space Evaluation
+## Coworking Space Evaluation
 
 Bali offers numerous coworking spaces with varying internet setups. Before signing a membership, request a trial day and conduct your own tests:
 
@@ -140,7 +130,7 @@ Request the specific bandwidth allocation from space management. A space claimin
 
 The best coworking spaces in Canggu—such as Dojo, Outpost, and Samadi—invest in redundant ISP connections and automatic failover. Ask specifically whether the space has two independent ISPs or a 4G backup. Spaces that can answer this question confidently are usually the ones worth paying a premium for.
 
-### Step 4: Test Your Specific Work Tools
+## Testing Your Specific Work Tools
 
 Generic speed tests miss tool-specific performance issues. Run tests that mirror your actual workflow before committing to a location.
 
@@ -160,7 +150,7 @@ ping -c 20 ec2.ap-southeast-1.amazonaws.com
 
 Singapore is typically the lowest-latency AWS region from Bali, usually 30-50ms under good conditions.
 
-### Step 5: Long-Term Monitoring Strategies
+## Long-Term Monitoring Strategies
 
 For accurate reliability data, monitor the connection over several days:
 
@@ -211,7 +201,7 @@ with open('bali_connection_log.csv', 'a', newline='') as f:
 
 This script runs continuously, logging hourly measurements. Leave it running for a week to capture weekly patterns before making relocation decisions.
 
-### Step 6: Interpreting Your Results
+## Interpreting Your Results
 
 Evaluate your data against your work requirements:
 
@@ -224,7 +214,7 @@ Evaluate your data against your work requirements:
 
 If your test results consistently fall below these thresholds, consider alternative locations or coworking arrangements.
 
-### Step 7: Backup Connectivity Planning
+## Backup Connectivity Planning
 
 Even with good primary connectivity, build a backup plan before relying on Bali as your sole remote work base.
 
@@ -232,27 +222,12 @@ A local SIM with a generous data plan is your first line of defense. Telkomsel's
 
 A portable 4G router lets you tether from your phone data plan when coworking WiFi fails. Keep your phone charged and your data plan active. This two-connection strategy—primary fiber plus 4G backup—eliminates most connectivity emergencies.
 
-### Step 8: Making the Decision
+## Making the Decision
 
 After collecting data, evaluate whether the tested location meets your specific needs. For developers, prioritize low latency to your codebase's hosting location (GitHub, GitLab, Bitbucket) and any cloud infrastructure you manage. A connection averaging 30 Mbps with 80ms latency and zero packet loss supports most development workflows effectively.
 
 Document your findings. Share test results with your team to validate your remote work setup. This data also helps future remote workers planning Bali relocations.
 ---
-
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions
@@ -279,11 +254,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
-- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
 - [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
+- [Best Fiber Internet Providers in Lisbon for Remote](/remote-work-tools/best-fiber-internet-providers-in-lisbon-for-remote-developer/)
 - [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
-- [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
-
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
+- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

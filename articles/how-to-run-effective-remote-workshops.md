@@ -283,10 +283,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
 - [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
-- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
-- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Run Remote Workshop for Product Managers Defining](/remote-work-tools/how-to-run-remote-workshop-for-product-managers-defining-qua/)
+- [How to Write Good Remote Meeting Agendas](/remote-work-tools/how-to-write-good-remote-meeting-agendas/)
 - [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
-
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

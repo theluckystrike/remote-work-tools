@@ -15,6 +15,33 @@ tags: [remote-work-tools, best-of, remote-work]
 
 ## Why Handoff Documentation Matters
 
+## Table of Contents
+
+- [Why Handoff Documentation Matters](#why-handoff-documentation-matters)
+- [Complete Handoff Checklist](#complete-handoff-checklist)
+- [Notion Template: Project Handoff Master](#notion-template-project-handoff-master)
+- [30-Second Overview](#30-second-overview)
+- [What Does This Project Do?](#what-does-this-project-do)
+- [Architecture Diagram](#architecture-diagram)
+- [Access & Credentials](#access-credentials)
+- [Day-to-Day Tasks](#day-to-day-tasks)
+- [Recurring Tasks Schedule](#recurring-tasks-schedule)
+- [Common Issues & Solutions](#common-issues-solutions)
+- [Video Walkthrough](#video-walkthrough)
+- [Knowledge Base Articles](#knowledge-base-articles)
+- [Who to Contact](#who-to-contact)
+- [Monitoring & Alerts](#monitoring-alerts)
+- [Transition Notes](#transition-notes)
+- [Handoff Sign-Off](#handoff-sign-off)
+- [Confluence Template: Structured Handoff](#confluence-template-structured-handoff)
+- [Async Video Walkthrough Best Practices](#async-video-walkthrough-best-practices)
+- [Async Handoff Workflow](#async-handoff-workflow)
+- [Google Sheets: Rapid Handoff Tracker](#google-sheets-rapid-handoff-tracker)
+- [Remote Handoff Dos and Don'ts](#remote-handoff-dos-and-donts)
+- [Critical Documents to Always Include](#critical-documents-to-always-include)
+- [Measuring Handoff Success](#measuring-handoff-success)
+- [Final Framework](#final-framework)
+
 Project handoffs between remote team members fail silently. Without written documentation, critical context disappears. The outgoing person knows the system. The incoming person inherits a black box. This gap costs time, mistakes, and team morale. Handoff documentation prevents this drain.
 
 ## Complete Handoff Checklist
@@ -269,10 +296,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Coda vs Notion for Project Documentation](/coda-vs-notion-for-project-documentation/)
-- [.communication-charter.yml - add to your project repo](/how-to-create-remote-team-communication-charter-template-for/)
-- [Project Kickoff: [Project Name]](/how-to-create-remote-team-project-kickoff-documentation-temp/)
-
+- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [Remote Agency Client Offboarding Checklist and Handoff Docum](/remote-work-tools/remote-agency-client-offboarding-checklist-and-handoff-docum/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 {% endraw %}
 ```
 

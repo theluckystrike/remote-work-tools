@@ -336,11 +336,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
-- [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
 - [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
-- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
+- [Remote Team Password Sharing Best Practices for Shared](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

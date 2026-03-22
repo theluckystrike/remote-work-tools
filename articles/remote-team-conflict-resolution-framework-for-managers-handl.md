@@ -18,6 +18,23 @@ voice-checked: true
 
 Resolve remote team conflicts using a structured framework of listening sessions with each party, identifying underlying interests (not just positions), and helping a solution discussion that both parties help craft. This approach works well async and prevents escalation to senior leadership.
 
+## Table of Contents
+
+- [Understanding Remote Conflict Dynamics](#understanding-remote-conflict-dynamics)
+- [The SCARF-Based Framework for Remote Conflict](#the-scarf-based-framework-for-remote-conflict)
+- [Communication Norms That Prevent Conflict](#communication-norms-that-prevent-conflict)
+- [Decision: [Title]](#decision-title)
+- [Handling Escalations](#handling-escalations)
+- [Escalation Summary: [Topic]](#escalation-summary-topic)
+- [When Conflicts Signal Deeper Team Problems](#when-conflicts-signal-deeper-team-problems)
+- [Tool Recommendations for Remote Conflict Management](#tool-recommendations-for-remote-conflict-management)
+- [Measuring Conflict Resolution Success](#measuring-conflict-resolution-success)
+- [Conflict Prevention Beats Conflict Resolution](#conflict-prevention-beats-conflict-resolution)
+- [When Conflicts Need Executive Involvement](#when-conflicts-need-executive-involvement)
+- [The SCARF Model in Conflict Resolution (Extended)](#the-scarf-model-in-conflict-resolution-extended)
+- [Documenting Conflict Learnings](#documenting-conflict-learnings)
+- [Conflict Learning Log](#conflict-learning-log)
+
 This guide provides managers with a practical framework for resolving conflicts in distributed teams, with specific tactics you can implement immediately.
 
 ## Understanding Remote Conflict Dynamics
@@ -299,10 +316,9 @@ Trying to change everything at once. Pick one or two practices, implement them w
 ## Related Articles
 
 - [Remote Team Conflict Resolution Framework Guide](/remote-work-tools/remote-team-conflict-resolution-framework-guide/)
-- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
-- [analyze_review_distribution.py](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
+- [.GitHub/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
 - [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
-- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

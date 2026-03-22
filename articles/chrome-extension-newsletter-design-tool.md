@@ -32,6 +32,20 @@ tags: [remote-work-tools]
 
 The best Chrome extensions for newsletter design are **Inliner** for automatic inline CSS conversion, **Email on Acid** or **Litmus** for cross-client preview testing, and **Emailology** for generating email-safe HTML boilerplate templates. These tools let you build, test, and deploy newsletter HTML directly in the browser without switching to standalone email design software. Below, this guide covers each category of extension along with practical workflows for combining them into a reliable newsletter design pipeline.
 
+## Table of Contents
+
+- [Understanding Newsletter Design Constraints](#understanding-newsletter-design-constraints)
+- [Essential Chrome Extensions for Newsletter Design](#essential-chrome-extensions-for-newsletter-design)
+- [Building a Newsletter Design Workflow](#building-a-newsletter-design-workflow)
+- [Advanced Tips for Power Users](#advanced-tips-for-power-users)
+- [Common Newsletter Design Mistakes to Avoid](#common-newsletter-design-mistakes-to-avoid)
+- [Email Client Compatibility Matrix](#email-client-compatibility-matrix)
+- [Complete Newsletter Design Workflow with Tools](#complete-newsletter-design-workflow-with-tools)
+- [Dark Mode Handling Strategies](#dark-mode-handling-strategies)
+- [Building a Reusable Template Library](#building-a-reusable-template-library)
+- [Spam Filter Optimization](#spam-filter-optimization)
+- [Performance Metrics for Newsletters](#performance-metrics-for-newsletters)
+
 ## Understanding Newsletter Design Constraints
 
 Newsletter design is challenging because of how email clients handle HTML. Email clients like Gmail, Outlook, and Apple Mail each handle HTML differently. Most clients strip out `<style>` tags in the `<head>`, require inline CSS, and have limited support for modern properties like Flexbox or Grid.
@@ -385,11 +399,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
-- [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
-- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
-- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
-- [Chrome Extension OneNote Clipper Setup: Complete Guide](/remote-work-tools/chrome-extension-onenote-clipper-setup/)
-
+- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
+- [Best Annotation Tool for Remote Design Review with Clients](/remote-work-tools/best-annotation-tool-for-remote-design-review-with-clients-2/)
+- [Best Tools for Async Annotation and Commenting on Design](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
+- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

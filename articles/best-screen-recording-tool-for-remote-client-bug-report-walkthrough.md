@@ -85,10 +85,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
-- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
-- [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
-- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
-- [macOS](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
-
+- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
+- [Best Open Source Screen Recording Tools for Remote Team](/remote-work-tools/best-open-source-screen-recording-tool-for-remote-team-async/)
+- [Best Session Recording Tool for Remote Team Privileged](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
+- [How to Record Client Demo Videos Asynchronously for Remote](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

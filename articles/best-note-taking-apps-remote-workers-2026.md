@@ -17,6 +17,25 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Remote workers need note-taking tools that handle meeting notes, async documentation, knowledge capture, and quick capture without getting in the way. The difference between apps often comes down to where your data lives, how fast search is, and whether your team can share notes or if it's purely personal.
 
+## Table of Contents
+
+- [Obsidian](#obsidian)
+- [Notion](#notion)
+- [Logseq](#logseq)
+- [Apple Notes](#apple-notes)
+- [Bear](#bear)
+- [Quick Comparison](#quick-comparison)
+- [Recommendation by Use Case](#recommendation-by-use-case)
+- [Meeting Notes Template (Works in Any App)](#meeting-notes-template-works-in-any-app)
+- [Context](#context)
+- [Decisions](#decisions)
+- [Action Items](#action-items)
+- [Notes](#notes)
+- [Advanced Obsidian Setup for Remote Teams](#advanced-obsidian-setup-for-remote-teams)
+- [Notion Power User Configuration](#notion-power-user-configuration)
+- [Comparison: When to Switch Tools](#comparison-when-to-switch-tools)
+- [Implementation: Choose Your Path](#implementation-choose-your-path)
+
 This guide compares the top note-taking apps for remote workers in 2026 with honest assessments of their strengths and where they fall short.
 
 ## Obsidian
@@ -295,11 +314,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
-- [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
-- [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
+- [Obsidian for Remote Team Knowledge Management](/remote-work-tools/obsidian-remote-team-knowledge-management/)
+- [How to Use AI Tools to Generate Remote Team Meeting](/remote-work-tools/how-to-use-ai-tool-to-generate-remote-team-meeting-agendas-f/)
 - [Best Journaling Apps for Remote Worker Reflection](/remote-work-tools/best-journaling-apps-for-remote-worker-reflection/)
-- [How to Coordinate Remote Mobile Developers Releasing Apps](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
-
+- [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
+- [Best Neighborhoods in Lisbon for Remote Workers with Fast](/remote-work-tools/best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

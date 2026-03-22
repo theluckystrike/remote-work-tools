@@ -10,7 +10,8 @@ tags: [remote-work-tools]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -445,6 +446,14 @@ Slack alerts should never be your primary incident notification. Use a real aler
 - [Best Practice for Remote Team Slack Emoji Reactions Replacing Verbal Responses](/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
 - [How to Create Async Standup Templates in Slack with Workflow Builder](/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
 ---
+
+## Related Articles
+
+- [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+- [Slack Workspace Structure for a 50 Person Remote](/remote-work-tools/slack-workspace-structure-for-a-50-person-remote-engineering/)
+- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
+- [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

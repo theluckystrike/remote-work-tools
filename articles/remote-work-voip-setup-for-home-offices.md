@@ -16,17 +16,7 @@ tags: [remote-work-tools, remote-work]
 
 A proper VoIP setup replaces desk phones with software-based calling that works from any home office. This guide covers a self-hosted FreePBX deployment, softphone configuration, QoS tuning, and failover so remote workers maintain business call quality.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Architecture Overview
+## Architecture Overview
 
 ```
 Internet
@@ -42,7 +32,7 @@ FreePBX Server (cloud VM or on-prem)
     └── Extension 103 → Hardware IP phone
 ```
 
-### Step 2: FreePBX Installation
+## FreePBX Installation
 
 Deploy on Ubuntu 22.04 (2 vCPU, 2GB RAM minimum):
 
@@ -59,7 +49,7 @@ sudo systemctl status asterisk
 fwconsole sa
 ```
 
-### Step 3: Firewall Rules
+## Firewall Rules
 
 ```bash
 # UFW rules for SIP and RTP
@@ -76,7 +66,7 @@ sudo ufw deny 80/tcp
 sudo ufw deny 443/tcp
 ```
 
-### Step 4: SIP Trunk Configuration
+## SIP Trunk Configuration
 
 In FreePBX admin (Connectivity > Trunks):
 
@@ -108,7 +98,7 @@ For Twilio SIP Trunking:
 # Secret: your_twilio_auth_token
 ```
 
-### Step 5: Extension Configuration
+## Extension Configuration
 
 ```ini
 # /etc/asterisk/sip_custom.conf
@@ -141,7 +131,7 @@ disallow=all
 allow=ulaw,g722
 ```
 
-### Step 6: Linphone Softphone Setup
+## Linphone Softphone Setup
 
 Install on Linux/Mac/Windows:
 
@@ -161,16 +151,16 @@ Settings to configure in Linphone:
 ```
 Preferences > SIP Accounts > Add Account
 
-SIP Address: "sip:101@your-pbx.example.com"
+SIP Address:       sip:101@your-pbx.example.com
 SIP Password:      str0ng-ext-password
-SIP Server: "your-pbx.example.com:5060"
+SIP Server:        your-pbx.example.com:5060
 Transport:         TLS (recommended)
-STUN server: "stun.l.google.com:19302"
+STUN server:       stun.l.google.com:19302
 Enable ICE:        Yes
 SRTP:              Mandatory
 ```
 
-### Step 7: Zoiper Mobile Configuration
+## Zoiper Mobile Configuration
 
 ```
 Account Type: SIP
@@ -183,7 +173,7 @@ SRTP: Required
 STUN: stun.l.google.com
 ```
 
-### Step 8: Router QoS Configuration
+## Router QoS Configuration
 
 QoS prevents audio dropouts when bandwidth is shared. Access your router admin panel:
 
@@ -204,13 +194,13 @@ iptables -t mangle -A PREROUTING -p udp --dport 10000:20000 -j DSCP --set-dscp-c
 
 # Apply QoS with HTB
 tc qdisc add dev eth0 root handle 1: htb default 30
-tc class add dev eth0 parent 1: "classid 1:1 htb rate 100mbit"
+tc class add dev eth0 parent 1: classid 1:1 htb rate 100mbit
 tc class add dev eth0 parent 1:1 classid 1:10 htb rate 5mbit ceil 10mbit prio 1  # VoIP
 tc class add dev eth0 parent 1:1 classid 1:30 htb rate 90mbit ceil 100mbit prio 3 # Default
-tc filter add dev eth0 parent 1: "protocol ip handle 0x2e fw classid 1:10"
+tc filter add dev eth0 parent 1: protocol ip handle 0x2e fw classid 1:10
 ```
 
-### Step 9: Fail2ban for SIP Security
+## Fail2ban for SIP Security
 
 ```bash
 # /etc/fail2ban/filter.d/asterisk.conf
@@ -239,7 +229,7 @@ sudo systemctl restart fail2ban
 sudo fail2ban-client status asterisk
 ```
 
-### Step 10: Call Quality Testing
+## Call Quality Testing
 
 ```bash
 # Test codec performance
@@ -257,7 +247,7 @@ ping -i 0.2 -c 50 your-pbx.example.com | tail -1
 # Target: avg < 80ms, max < 150ms
 ```
 
-### Step 11: Hunt Groups and IVR
+## Hunt Groups and IVR
 
 ```bash
 # In FreePBX: Applications > Ring Groups
@@ -273,7 +263,7 @@ ping -i 0.2 -c 50 your-pbx.example.com | tail -1
 # Press 0 -> Ring Group 600 (General)
 ```
 
-### Step 12: Monitor and Uptime
+## Monitoring and Uptime
 
 ```bash
 # Check Asterisk status
@@ -291,21 +281,6 @@ asterisk -rx "sip show registry"
 # Output: Host: atlanta1.voip.ms    State: Registered
 ```
 
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
-
 ## Related Reading
 
 - [Best Headset for Remote Work Video Calls](/remote-work-tools/best-headset-for-remote-work-video-calls/)
@@ -313,6 +288,13 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [Best Remote Work Network Diagnostic Toolkit](/remote-work-tools/remote-work-network-diagnostic-toolkit/)
 ---
 
+## Related Articles
+
+- [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

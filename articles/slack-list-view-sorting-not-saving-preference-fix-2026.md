@@ -17,6 +17,20 @@ voice-checked: true
 
 # Slack List View Sorting Not Saving Preference Fix 2026
 
+## Table of Contents
+
+- [Understanding the Slack Sorting Issue](#understanding-the-slack-sorting-issue)
+- [Step-by-Step Troubleshooting Solutions](#step-by-step-troubleshooting-solutions)
+- [Comparing Slack Sorting Options](#comparing-slack-sorting-options)
+- [Preventing Future Issues](#preventing-future-issues)
+- [Alternative Workarounds](#alternative-workarounds)
+- [Slack Preference Troubleshooting Decision Tree](#slack-preference-troubleshooting-decision-tree)
+- [Slack Workspace Configuration for Preferences](#slack-workspace-configuration-for-preferences)
+- [Browser Developer Tools Debugging](#browser-developer-tools-debugging)
+- [Alternative Workarounds While Troubleshooting](#alternative-workarounds-while-troubleshooting)
+- [Slack App Version Compatibility Matrix](#slack-app-version-compatibility-matrix)
+- [Reporting to Slack Support Effectively](#reporting-to-slack-support-effectively)
+
 If you've ever clicked on a Slack channel, sorted your messages by newest first, and then returned later only to find Slack reverted to its default sorting, you're not alone. This persistent issue affects remote workers and distributed teams who rely on consistent message organization across multiple devices and sessions. In this guide, we'll walk through practical solutions to fix Slack list view sorting not saving your preference.
 
 ## Understanding the Slack Sorting Issue
@@ -408,9 +422,10 @@ Detailed reports get faster resolution than generic "it doesn't work" submission
 
 ## Related Articles
 
-- [Slack Custom Emoji Not Uploading: Error Message Fix (2026)](/slack-custom-emoji-not-uploading-error-message-fix-2026/)
-- [Slack Giphy Integration Not Showing Results Fix 2026](/slack-giphy-integration-not-showing-results-fix-2026/)
-- [Best Practice for Remote Team Slack Do Not Disturb](/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
-
+- [Slack Workflow Builder Automation Stopped Running Fix 2026](/remote-work-tools/slack-workflow-builder-automation-stopped-running-fix-2026/)
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
+- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
+- [Best Slack Alternatives for Small Teams in 2026](/remote-work-tools/best-slack-alternatives-for-small-teams/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

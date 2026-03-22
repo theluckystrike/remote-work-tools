@@ -18,6 +18,15 @@ voice-checked: true
 
 Getting buy-in on projects without the benefit of face-to-face conversation or real-time discussion is one of the hardest skills to develop in remote work. When you can't walk into a manager's office, can't read body language, and can't immediately address questions, your proposal document needs to do all the heavy lifting. Async project proposals that get approved remotely share common characteristics: they're clear, anticipate objections, provide all necessary context, and make decision-making easy for reviewers.
 
+## Table of Contents
+
+- [Why Async Proposals Are Different From In-Person Pitches](#why-async-proposals-are-different-from-in-person-pitches)
+- [Prerequisites](#prerequisites)
+- [Proposal Management Tools Comparison](#proposal-management-tools-comparison)
+- [Executive Summary](#executive-summary)
+- [Resource Requirements](#resource-requirements)
+- [Troubleshooting](#troubleshooting)
+
 This guide walks through the anatomy of effective async project proposals, frameworks that work across different team structures, and practical tips for improving your approval rates without ever scheduling a meeting.
 
 ## Why Async Proposals Are Different From In-Person Pitches
@@ -408,11 +417,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Write Async Technical RFCs That Get Meaningful](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
 - [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
+- [Async Engineering Proposal Process Using GitHub Discussions](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
 - [How to Write Freelance Proposals That Win](/remote-work-tools/how-to-write-freelance-proposals-that-win/)
-- [How to Communicate Project Delays Remotely to Stakeholders](/remote-work-tools/how-to-communicate-project-delays-remotely-to-stakeholders-w/)
-- [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

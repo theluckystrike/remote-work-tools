@@ -17,6 +17,28 @@ tags: [remote-work-tools, best-of, remote-work]
 
 To maintain a healthy emoji and GIF culture in remote teams, establish clear channel-specific guidelines that distinguish between professional channels (emojis for acknowledgment only) and social channels (full expression allowed), while respecting cultural differences and ensuring diverse team members feel included. Creating an inclusive emoji culture improves team connection and communication clarity while preventing miscommunication or discomfort.
 
+## Table of Contents
+
+- [Why Emoji and GIF Culture Matters in Remote Work](#why-emoji-and-gif-culture-matters-in-remote-work)
+- [Establishing Channel-Specific Guidelines](#establishing-channel-specific-guidelines)
+- [Creating Inclusive Emoji Guidelines](#creating-inclusive-emoji-guidelines)
+- [Implementing Slack Workflows for Emoji Usage](#implementing-slack-workflows-for-emoji-usage)
+- [Establishing Reaction Norms](#establishing-reaction-norms)
+- [Handling Misuses](#handling-misuses)
+- [Measuring Success](#measuring-success)
+- [Building Sustainable Culture](#building-sustainable-culture)
+- [Implementation Tools and Automation](#implementation-tools-and-automation)
+- [Real-World Case Studies](#real-world-case-studies)
+- [Advanced Slack Workflows for Emoji Management](#advanced-slack-workflows-for-emoji-management)
+- [Measuring Emoji Culture Health](#measuring-emoji-culture-health)
+- [Practical Guidelines Document Template](#practical-guidelines-document-template)
+- [Professional Channels (#code-review, #bugs, #engineering)](#professional-channels-code-review-bugs-engineering)
+- [Work Channels (#general, #announcements)](#work-channels-general-announcements)
+- [Social Channels (#watercooler, #random, #wins)](#social-channels-watercooler-random-wins)
+- [Timezone-Specific Considerations](#timezone-specific-considerations)
+- [Conflict Resolution](#conflict-resolution)
+- [Building Culture Without Overdoing Emoji](#building-culture-without-overdoing-emoji)
+
 ## Why Emoji and GIF Culture Matters in Remote Work
 
 Text-based communication lacks the nonverbal cues present in face-to-face interactions. A simple message like "thanks for the update" can come across as curt or genuine depending on context. Emoji and GIFs fill this gap by adding emotional nuance to async communication.
@@ -354,11 +376,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Instead of:](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
-- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
-- [How to Run Remote Team Lightning Talks Keeping](/remote-work-tools/how-to-run-remote-team-lightning-talks-keeping-presentations/)
-
+- [How to Create Team Norms Around Emoji Reactions in Slack](/remote-work-tools/how-to-create-team-norms-around-emoji-reactions-in-slack/)
+- [Best Practice for Remote Team Slack Emoji Reactions](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
+- [Slack Custom Emoji Not Uploading: Error Message Fix (2026)](/remote-work-tools/slack-custom-emoji-not-uploading-error-message-fix-2026/)
+- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
+- [Preserving Remote Team Culture When Doubling in Size](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubling-in-size/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

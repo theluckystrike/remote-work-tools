@@ -23,6 +23,32 @@ voice-checked: true
 | LG 27UK850-W | 3840x2160 | IPS | 60Hz | $400-$500 | 4K text clarity, HDR |
 | ASUS ProArt PA278QV | 2560x1440 | IPS | 75Hz | $280-$350 | Budget professional display |
 
+## Table of Contents
+
+- [What Refresh Rate Actually Means](#what-refresh-rate-actually-means)
+- [The Eye Strain Connection](#the-eye-strain-connection)
+- [Minimum Recommendations by Use Case](#minimum-recommendations-by-use-case)
+- [The Video Call Factor](#the-video-call-factor)
+- [Implementation Tips](#implementation-tips)
+- [Beyond Refresh Rate: Complementary Factors](#beyond-refresh-rate-complementary-factors)
+- [Making the Decision](#making-the-decision)
+- [Monitor Refresh Rate by the Numbers](#monitor-refresh-rate-by-the-numbers)
+- [Monitor Selection Criteria Beyond Refresh Rate](#monitor-selection-criteria-beyond-refresh-rate)
+- [Recommended Monitor Setups by Work Style](#recommended-monitor-setups-by-work-style)
+- [Testing Before Buying](#testing-before-buying)
+- [Specific Monitor Recommendations for Common Remote Work Scenarios](#specific-monitor-recommendations-for-common-remote-work-scenarios)
+- [Future Monitor Technology](#future-monitor-technology)
+- [Making Your Final Decision](#making-your-final-decision)
+- [Display Technologies and Their Impact on Eye Strain](#display-technologies-and-their-impact-on-eye-strain)
+- [Color Accuracy and Eye Strain Connection](#color-accuracy-and-eye-strain-connection)
+- [Ergonomics Beyond Monitor Specifications](#ergonomics-beyond-monitor-specifications)
+- [Software Features for Eye Strain Reduction](#software-features-for-eye-strain-reduction)
+- [The Science Behind Refresh Rate and Eye Strain](#the-science-behind-refresh-rate-and-eye-strain)
+- [Testing and Evaluation Framework](#testing-and-evaluation-framework)
+- [Monitor Positioning and Setup Optimization](#monitor-positioning-and-setup-optimization)
+- [Integration With Break Schedules](#integration-with-break-schedules)
+- [Advanced Refresh Rate Technologies](#advanced-refresh-rate-technologies)
+
 
 Monitor refresh rate is one of those specifications that gets thrown around in marketing materials but rarely gets explained in terms of actual user experience. For remote workers spending 4+ hours daily in video calls, the refresh rate affects more than just motion smoothness—it impacts eye strain, fatigue, and ultimately your productivity. This guide breaks down what refresh rate actually means for your workflow and helps you make an informed decision without getting caught up in spec wars.
 
@@ -202,9 +228,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Keyboard for Quiet Typing During Video Calls in Open](/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
-- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
-- [How to Hide Messy Room During Video Calls: Practical](/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
+- [Best Remote Work Monitor Under 300 Dollars 2026](/remote-work-tools/best-remote-work-monitor-under-300-dollars-2026/)
+- [Best Remote Work Monitor Light Bar 2026](/remote-work-tools/best-remote-work-monitor-light-bar-2026/)
+- [How to Reduce Eye Strain as a Remote Developer](/remote-work-tools/how-to-reduce-eye-strain-remote-developer/)
+- [How to Set Up Dual Monitor Arms on Remote Work Desk](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
+- [Best 4K Monitor for Programming 2026: A Developer Guide](/remote-work-tools/best-4k-monitor-for-programming-2026/)
 Consider your total workstation setup. The best monitor means little if positioned incorrectly or paired with poor lighting. Optimize the complete picture, and your eyes will thank you during those marathon remote work days.
 
 ## Display Technologies and Their Impact on Eye Strain

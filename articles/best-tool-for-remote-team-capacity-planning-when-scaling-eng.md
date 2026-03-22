@@ -242,11 +242,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
 - [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
-- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
-
+- [Best Tools for Remote Team Capacity Planning](/remote-work-tools/best-tools-remote-team-capacity-planning-2026/)
+- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
+- [Async Capacity Planning Process for Remote: Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Best Tools for Remote Team Sprint Planning (2026)](/remote-work-tools/best-tools-for-remote-team-sprint-planning-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

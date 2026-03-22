@@ -230,11 +230,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
-- [Remote Agency Client Offboarding Checklist and Handoff Docum](/remote-work-tools/remote-agency-client-offboarding-checklist-and-handoff-docum/)
+- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
 - [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
-- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [Share with client](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
+- [Best Cloud Access Security Broker for Remote Teams](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -56,6 +56,13 @@ Define what you're reviewing:
 {% raw %}
 Subject: Retro Tomorrow 10am PT — Sprint Ends Friday
 
+## Table of Contents
+
+- [Why Remote Retros Fail (And How to Fix Them)](#why-remote-retros-fail-and-how-to-fix-them)
+- [Prerequisites](#prerequisites)
+- [Tools Deep Dive: Setup & Best Practices](#tools-deep-dive-setup-best-practices)
+- [Troubleshooting](#troubleshooting)
+
 Hi team,
 
 Our retro covers Sprint 47 (March 15-29). We'll discuss:
@@ -700,9 +707,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
+- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
+- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/remote-work-tools/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
 - [How to help Engaging Remote Retrospectives](/remote-work-tools/how-to-help-engaging-remote-retrospectives/)
-- [How to Use AI Tools to Generate Remote Team Meeting.](/remote-work-tools/how-to-use-ai-tool-to-generate-remote-team-meeting-agendas-f/)
-- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-
+- [Async Retrospective Tools and Process Guide](/remote-work-tools/async-retrospective-tools-and-process/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

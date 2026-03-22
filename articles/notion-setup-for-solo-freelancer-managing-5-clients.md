@@ -16,21 +16,30 @@ tags: [remote-work-tools]
 
 {% raw %}
 
+
 Managing multiple clients as a solo freelancer requires structure. Without a proper system, you juggle deadlines in your head, lose track of conversations, and miss billable hours. Notion provides a flexible foundation for building a client management system that scales with your workload. This guide walks through a practical setup designed specifically for developers and power users handling around 5 concurrent clients.
+
+## Table of Contents
+
+- [Database Architecture](#database-architecture)
+- [Views That Actually Help](#views-that-actually-help)
+- [Templates for Consistency](#templates-for-consistency)
+- [Advanced: API Integration for Developers](#advanced-api-integration-for-developers)
+- [Maintenance and Evolution](#maintenance-and-evolution)
+- [Automating Invoicing from Notion](#automating-invoicing-from-notion)
+- [Client Profitability Analysis](#client-profitability-analysis)
+- [Client Communication Workflow](#client-communication-workflow)
+- [What Was Completed](#what-was-completed)
+- [What's Planned for Next Week](#whats-planned-for-next-week)
+- [Blockers or Questions](#blockers-or-questions)
+- [Billable Hours This Week](#billable-hours-this-week)
+- [Next Steps](#next-steps)
+- [Scaling Beyond 5 Clients](#scaling-beyond-5-clients)
+- [Sample Client Rates by Specialty (2026)](#sample-client-rates-by-specialty-2026)
 
 The core principle is simple: separate client data from project data, link them together, and create views that show you what needs attention now.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Database Architecture
+## Database Architecture
 
 A well-designed Notion setup relies on three interconnected databases: Clients, Projects, and Tasks. Each serves a distinct purpose and connects through relations.
 
@@ -80,7 +89,7 @@ Your granular work items live here:
 
 This structure lets you track time at the task level and roll it up for invoicing.
 
-### Step 2: Views That Actually Help
+## Views That Actually Help
 
 Databases are useless without views that surface the right information. Build views based on when you need the data.
 
@@ -102,7 +111,7 @@ Filter Tasks by Status = Done, Billable = checked, and a date range matching you
 
 Create a separate page that uses a linked view of Clients. For each client, show their active projects and upcoming deadlines. This gives you a 30-second status check for every client.
 
-### Step 3: Templates for Consistency
+## Templates for Consistency
 
 Templates reduce repeated setup work. Create template pages for common project types.
 
@@ -178,7 +187,7 @@ jobs:
 
 This approach works for tracking completed work, though you may want to filter for meaningful commit messages to avoid cluttering your task database.
 
-### Step 4: Perform Maintenance and Evolution
+## Maintenance and Evolution
 
 Your Notion system requires periodic maintenance. Schedule monthly reviews:
 
@@ -191,7 +200,7 @@ The system should serve your workflow, not constrain it. If a view feels unneces
 
 Start with the three-database structure, add your five clients, and build views as you need them. This foundation scales beyond five clients when your business grows.
 
-### Step 5: Automate Invoicing from Notion
+## Automating Invoicing from Notion
 
 Connect your billable hours to automated invoicing:
 
@@ -250,7 +259,7 @@ def generate_invoice(client_id, billing_period_start, billing_period_end):
 
 Export this data to a PDF invoice template (use tools like WeasyPrint or send to Stripe Invoicing).
 
-### Step 6: Client Profitability Analysis
+## Client Profitability Analysis
 
 Track which clients are actually profitable:
 
@@ -284,7 +293,7 @@ function analyzeClientProfitability(clientId, allTasks) {
 
 If a client's effective hourly rate drops below your minimum (after accounting for non-billable time), it's time to either raise rates or end the relationship.
 
-### Step 7: Client Communication Workflow
+## Client Communication Workflow
 
 Use Notion as your communication hub:
 
@@ -306,18 +315,18 @@ Use Notion as your communication hub:
 ```markdown
 # Weekly Update - [Client Name] - Week of [Date]
 
-### Step 8: What Was Completed
+## What Was Completed
 - [ ] Task 1: [description] (4.5 hours)
 - [ ] Task 2: [description] (2 hours)
 
-### Step 9: What's Planned for Next Week
+## What's Planned for Next Week
 - [ ] Task 3: [description] (6 hours estimated)
 - [ ] Task 4: [description] (2 hours estimated)
 
-### Step 10: Blockers or Questions
+## Blockers or Questions
 None this week — we're on track.
 
-### Step 11: Billable Hours This Week
+## Billable Hours This Week
 - Total: 6.5 hours
 - Rate: $[rate]/hour
 - Amount: $[total]
@@ -329,7 +338,7 @@ None this week — we're on track.
 
 Copy this template every Monday and fill in details from your Tasks database.
 
-### Step 12: Scaling Beyond 5 Clients
+## Scaling Beyond 5 Clients
 
 When approaching 10 clients, introduce these changes:
 
@@ -354,7 +363,7 @@ FROM tasks WHERE monthCompleted = current_month
 
 Use Notion's Rollup property to calculate these automatically.
 
-### Step 13: Sample Client Rates by Specialty (2026)
+## Sample Client Rates by Specialty (2026)
 
 Use these benchmarks when setting client rates:
 
@@ -369,21 +378,6 @@ Use these benchmarks when setting client rates:
 
 Regional variation: Add 20-40% for San Francisco/NYC, subtract 20-30% for lower cost-of-living areas.
 ---
-
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions
@@ -411,10 +405,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Best CRM for Solo Consultant Managing 30 Active Clients](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
-- [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
 - [Notion Database Templates for a Solo Recruiter Working Remot](/remote-work-tools/notion-database-templates-for-a-solo-recruiter-working-remot/)
-- [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
-- [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
-
+- [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
+- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
+- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,13 @@ voice-checked: true
 
 Capacity planning is one of the most challenging responsibilities for engineering managers, especially when leading distributed teams across time zones. Traditional approaches rely heavily on synchronous planning sessions where everyone shares their availability, discusses bandwidth, and commits to sprint goals in real-time. While this worked in co-located settings, remote teams need a different approach that respects asynchronous workflows and provides documentation for future reference.
 
+## Table of Contents
+
+- [Why Async Capacity Planning Works Better for Remote Teams](#why-async-capacity-planning-works-better-for-remote-teams)
+- [Prerequisites](#prerequisites)
+- [Sprint [N] Capacity Summary](#sprint-n-capacity-summary)
+- [Troubleshooting](#troubleshooting)
+
 This guide walks you through implementing an async capacity planning process that reduces meeting fatigue, produces accurate forecasts, and keeps your team aligned without forcing everyone into yet another video call.
 
 ## Why Async Capacity Planning Works Better for Remote Teams
@@ -291,9 +298,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
 - [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
-- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
-- [Async Engineering Proposal Process Using Github Discussions](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
-
+- [Best Tools for Remote Team Capacity Planning](/remote-work-tools/best-tools-remote-team-capacity-planning-2026/)
+- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
+- [Best Practice for Remote Team Quarterly Planning Process](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

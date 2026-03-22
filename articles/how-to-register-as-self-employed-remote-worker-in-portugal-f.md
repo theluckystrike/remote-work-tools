@@ -18,6 +18,27 @@ voice-checked: true
 
 Portugal has become a premier destination for remote workers seeking tax-efficient setups within the European Union. Registering as a self-employed worker (trabalhador independente) in Portugal involves several administrative steps, each with specific requirements that differ from traditional employment. This guide walks through the complete registration process with practical details developers and freelancers need to handle their Portuguese tax obligations correctly.
 
+## Table of Contents
+
+- [Understanding Your Tax Status in Portugal](#understanding-your-tax-status-in-portugal)
+- [Step 1: Obtain Your NIF (Número de Identificação Fiscal)](#step-1-obtain-your-nif-nmero-de-identificao-fiscal)
+- [Step 2: Register as Trabalhador Independente](#step-2-register-as-trabalhador-independente)
+- [Step 3: Understanding IRS Tax Categories](#step-3-understanding-irs-tax-categories)
+- [Step 4: VAT (IVA) Registration and Obligations](#step-4-vat-iva-registration-and-obligations)
+- [Step 5: Setting Up Invoice Compliance](#step-5-setting-up-invoice-compliance)
+- [Step 6: Social Security Contributions](#step-6-social-security-contributions)
+- [Practical Example: First-Year Tax Calculation](#practical-example-first-year-tax-calculation)
+- [Maintaining Compliance](#maintaining-compliance)
+- [Portuguese Accounting Software Comparison](#portuguese-accounting-software-comparison)
+- [Quarterly Payment Schedule and Planning](#quarterly-payment-schedule-and-planning)
+- [Quarterly Advance Payments (Pagamentos por Conta)](#quarterly-advance-payments-pagamentos-por-conta)
+- [Annual Settlement (Acerto Final)](#annual-settlement-acerto-final)
+- [IRS Declaration (Declaração de Rendimentos)](#irs-declaration-declarao-de-rendimentos)
+- [Step-by-Step First Year Timeline](#step-by-step-first-year-timeline)
+- [Real-World Tax Calculation Examples](#real-world-tax-calculation-examples)
+- [Non-Resident vs. Resident Tax Treatment](#non-resident-vs-resident-tax-treatment)
+- [Hiring an Accountant vs. DIY](#hiring-an-accountant-vs-diy)
+
 ## Understanding Your Tax Status in Portugal
 
 Before beginning registration, you need to determine which category applies to your situation. Portugal offers two primary paths for self-employed remote workers: the simplificado regime (simplified regime) or regime geral (general regime).
@@ -330,11 +351,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Register OAuth app on GitHub](/remote-work-tools/how-to-set-up-single-sign-on-for-remote-team-saas-applicatio/)
-- [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
-- [Best Tool for Remote Team Async Onboarding with Self Paced L](/remote-work-tools/best-tool-for-remote-team-async-onboarding-with-self-paced-l/)
-- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
-- [Best Journaling Apps for Remote Worker Reflection](/remote-work-tools/best-journaling-apps-for-remote-worker-reflection/)
-
+- [Best Tool for Tracking Remote Worker Tax Obligations](/remote-work-tools/best-tool-for-tracking-remote-worker-tax-obligations-across-/)
+- [How to Run Remote Tax Preparation Business with Distributed](/remote-work-tools/how-to-run-remote-tax-preparation-business-with-distributed-/)
+- [Tax Deduction Tracking Tools for Remote Freelancers](/remote-work-tools/freelancer-tax-deduction-tracking-2026/)
+- [Best Sim Card and Mobile Data Plan for Remote Workers](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
+- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

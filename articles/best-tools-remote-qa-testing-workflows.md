@@ -17,6 +17,20 @@ tags: [remote-work-tools]
 
 Remote QA teams can't rely on face-to-face handoffs or shared physical test devices. The tools that work are CI-integrated, async-friendly, and produce artifacts (screenshots, videos, reports) that developers can review without a live session. This guide covers the best tools by test type.
 
+## Table of Contents
+
+- [Test Management: TestRail vs Plane vs Spreadsheets](#test-management-testrail-vs-plane-vs-spreadsheets)
+- [Browser Testing: Playwright (Best)](#browser-testing-playwright-best)
+- [CI Integration with Playwright](#ci-integration-with-playwright)
+- [API Testing: Bruno in CI](#api-testing-bruno-in-ci)
+- [Visual Regression: Chromatic](#visual-regression-chromatic)
+- [Mobile Testing: BrowserStack](#mobile-testing-browserstack)
+- [Bug Reporting: Screen Recording + Templates](#bug-reporting-screen-recording-templates)
+- [Load Testing: k6](#load-testing-k6)
+- [Contract Testing: Pact for API Compatibility](#contract-testing-pact-for-api-compatibility)
+- [Async QA Workflows for Distributed Teams](#async-qa-workflows-for-distributed-teams)
+- [Related Reading](#related-reading)
+
 
 | Tool | Key Feature | Remote Team Fit | Integration | Pricing |
 |---|---|---|---|---|
@@ -427,6 +441,14 @@ jq '[.suites[].specs[] | select(.tests[].results | map(.status) | unique | lengt
 - [How to Automate Code Quality Gates for Remote Teams](/remote-work-tools/how-to-automate-code-quality-gates-remote-teams/)
 
 ---
+
+## Related Articles
+
+- [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
+- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [Best Remote Work Tools for Java Teams Migrating from](/remote-work-tools/best-remote-work-tools-for-java-teams-migrating-from-monolit/)
+- [Best Remote Work Project Management Tools Under 10](/remote-work-tools/best-remote-work-project-management-tools-under-10-per-user-2026/)
+- [Top 10 AI Tools for Developers in 2024](/remote-work-tools/top-10-ai-tools-for-developers-in-2024/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -273,11 +273,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
-- [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
-- [Example ndss configuration snippet](/remote-work-tools/how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/)
-- [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Hybrid Office Space Planning Tool for Facilities Managers](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
+- [Speakerphone for Hybrid Meeting Rooms Comparison](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
 - [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
-
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

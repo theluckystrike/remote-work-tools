@@ -18,6 +18,27 @@ tags: [remote-work-tools, comparison]
 
 Choose Obsidian if you want local-first data ownership, markdown-native editing, wiki-style linking with a knowledge graph, and deep plugin extensibility--your notes are plain `.md` files you fully control. Choose Notion if you need cross-device sync without configuration, database views (kanban, gallery, calendar), collaborative editing with non-technical stakeholders, and rich external integrations with Slack and GitHub. Here is how they compare across architecture, editor experience, linking, plugins, mobile, and pricing.
 
+## Table of Contents
+
+- [Architecture: Local-First vs Cloud-Native](#architecture-local-first-vs-cloud-native)
+- [Quick Comparison](#quick-comparison)
+- [Editor Experience and Markdown](#editor-experience-and-markdown)
+- [Linking and Knowledge Graph](#linking-and-knowledge-graph)
+- [Plugin Ecosystem](#plugin-ecosystem)
+- [Data Ownership and Portability](#data-ownership-and-portability)
+- [Mobile Experience](#mobile-experience)
+- [Real-World Usage Patterns](#real-world-usage-patterns)
+- [Endpoints](#endpoints)
+- [Code Example](#code-example)
+- [Pricing](#pricing)
+- [Decision Framework](#decision-framework)
+- [Feature Comparison Table](#feature-comparison-table)
+- [Real-World Scenarios](#real-world-scenarios)
+- [Sync Strategies for Cross-Device Use](#sync-strategies-for-cross-device-use)
+- [Plugin Ecosystem Deep Dive](#plugin-ecosystem-deep-dive)
+- [Cost-Benefit Analysis](#cost-benefit-analysis)
+- [Migration Path](#migration-path)
+
 ## Architecture: Local-First vs Cloud-Native
 
 Obsidian stores everything as plain markdown files on your local filesystem. Your vault is a folder. Every note is a `.md` file. This architecture provides several advantages: your notes work offline, you own your data completely, and version control integrates naturally with Git.
@@ -359,11 +380,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
+- [Obsidian for Remote Team Knowledge Management](/remote-work-tools/obsidian-remote-team-knowledge-management/)
 - [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
-- [Best USB Switch for Sharing Keyboard and Mouse Between Work](/remote-work-tools/best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/)
-- [How to Separate Business and Personal Finances as a](/remote-work-tools/how-to-separate-business-and-personal-finances-freelance/)
-- [Best Practice for Hybrid Team Knowledge Transfer Between](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
-
+- [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
+- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
+- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

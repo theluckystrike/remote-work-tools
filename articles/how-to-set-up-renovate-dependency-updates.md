@@ -17,6 +17,18 @@ tags: [remote-work-tools]
 
 Outdated dependencies are a security liability and a technical debt accumulation point. Renovate automates dependency updates by opening PRs, grouping related updates, and auto-merging safe patches — so remote teams get current without drowning in manual update work.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Dependency Dashboard and Visibility](#dependency-dashboard-and-visibility)
+- [Stabilization Period and Release Age](#stabilization-period-and-release-age)
+- [Ignoring and Pinning Specific Packages](#ignoring-and-pinning-specific-packages)
+- [Debugging and Testing Renovate Config](#debugging-and-testing-renovate-config)
+- [Renovate with GitLab CI](#renovate-with-gitlab-ci)
+- [Using Presets for Cross-Repo Consistency](#using-presets-for-cross-repo-consistency)
+- [Measuring Renovate's Impact](#measuring-renovates-impact)
+- [Related Reading](#related-reading)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -524,6 +536,14 @@ A healthy Renovate setup for a mid-sized JS project typically generates 5-15 mer
 - [Best DevsSecOps Toolchain for Remote Teams](/remote-work-tools/best-devsecops-toolchain-for-remote-teams-integrating-securi/)
 
 ---
+
+## Related Articles
+
+- [Best Tools for Remote Team Dependency Tracking](/remote-work-tools/best-tools-remote-team-dependency-tracking/)
+- [Remote DevOps Team Dependency Update Workflow for](/remote-work-tools/remote-devops-team-dependency-update-workflow-for-coordinati/)
+- [Best Remote Collaboration Tool for Technical Architects](/remote-work-tools/best-remote-collaboration-tool-for-technical-architects-docu/)
+- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
+- [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

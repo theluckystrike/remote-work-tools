@@ -302,10 +302,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
-- [Best Secure Web Gateway for Remote Teams Browsing Untrusted](/remote-work-tools/best-secure-web-gateway-for-remote-teams-browsing-untrusted-networks-2026/)
-- [Secure File Transfer Protocol Setup for Remote Teams](/remote-work-tools/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
-- [Secure Secrets Injection Workflow for Remote Teams Using](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
-- [slack_workflow_async_checkin.py](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
-
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
+- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
+- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
+- [Slack Workspace Structure for a 50 Person Remote](/remote-work-tools/slack-workspace-structure-for-a-50-person-remote-engineering/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

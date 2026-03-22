@@ -31,6 +31,24 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Use Miro for template libraries and enterprise integrations, MURAL for more intuitive interface with help coaching, or Figma if your team already uses it for design. Choose based on template variety, real-time sync performance, async contribution support, and existing workflow integration for running strategic sessions across time zones.
 
+## Table of Contents
+
+- [What Makes a Virtual Offsite Platform Effective](#what-makes-a-virtual-offsite-platform-effective)
+- [Platform Comparison](#platform-comparison)
+- [Pre-work (Async)](#pre-work-async)
+- [Live Session Agenda](#live-session-agenda)
+- [Post-session](#post-session)
+- [Feature Comparison Table](#feature-comparison-table)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Avoiding Common Pitfalls](#avoiding-common-pitfalls)
+- [Advanced Implementation for Engineering Teams](#advanced-implementation-for-engineering-teams)
+- [Day 1: Preparation (Async)](#day-1-preparation-async)
+- [Day 2: Live Synthesis (90 min meeting across 3 time zones)](#day-2-live-synthesis-90-min-meeting-across-3-time-zones)
+- [Day 3: Voting and Decision (Async)](#day-3-voting-and-decision-async)
+- [Outcomes](#outcomes)
+- [Cost Optimization for Large Teams](#cost-optimization-for-large-teams)
+- [Measuring Offsite Success](#measuring-offsite-success)
+
 ## What Makes a Virtual Offsite Platform Effective
 
 Before comparing tools, understand the key requirements for successful remote offsites:
@@ -347,9 +365,8 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 ## Related Articles
 
 - [Best Tools for Remote Team Offsite Planning 2026](/remote-work-tools/best-tools-for-remote-team-offsite-planning-2026/)
-- [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
+- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
 - [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-- [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
-- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
-
+- [Best Virtual Coffee Chat Tool for Remote Teams Building](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
+- [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

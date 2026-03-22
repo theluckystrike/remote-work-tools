@@ -18,6 +18,14 @@ voice-checked: true
 
 Build your remote work morning routine around three phases: wake and ground (20-30 minutes of movement, hydration, and intention-setting), prepare your environment (15-20 minutes of workspace setup and dev tool initialization), and launch into deep work (15 minutes selecting your highest-value task and warming up with low-stakes coding). This structure prevents the reactive drift that kills remote productivity -- checking Slack and email before you have decided what matters today.
 
+## Table of Contents
+
+- [Why Your Morning Matters More When Working Remotely](#why-your-morning-matters-more-when-working-remotely)
+- [Prerequisites](#prerequisites)
+- [Troubleshooting Common Routine Breakdowns](#troubleshooting-common-routine-breakdowns)
+- [Advanced Morning Routine Techniques](#advanced-morning-routine-techniques)
+- [Troubleshooting When You Fall Off](#troubleshooting-when-you-fall-off)
+
 This guide walks you through building a morning routine tailored specifically for developers and power users who need sustained cognitive performance.
 
 ## Why Your Morning Matters More When Working Remotely
@@ -289,11 +297,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
-- [How to Create Remote Work Nanny Cam Policy That Respects](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
-- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
-- [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
-- [Using Microsoft Graph API to create named locations](/remote-work-tools/how-to-implement-conditional-access-policies-for-remote-work/)
-
+- [Best Quick Exercise Routine for Remote Parents With Only 15](/remote-work-tools/best-quick-exercise-routine-for-remote-parents-with-only-15-/)
+- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
+- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
+- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

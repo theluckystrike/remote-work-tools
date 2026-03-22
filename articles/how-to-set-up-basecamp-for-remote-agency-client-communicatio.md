@@ -15,21 +15,12 @@ voice-checked: true
 ---
 {% raw %}
 
+
 Remote agencies face unique communication challenges that traditional tools struggle to address. Clients expect transparency, timely updates, and easy access to project progress—but email threads become chaotic, and real-time meetings are hard to schedule across time zones. Basecamp offers a structured solution that keeps everyone aligned without the overwhelm.
 
 This guide walks through setting up Basecamp specifically for remote agency client communication, with practical configurations that actually work in production environments.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Create Your Agency Workspace
+## Creating Your Agency Workspace
 
 The first step is establishing a clean workspace structure. Log into Basecamp and create a new project for each client relationship. Name it consistently—something like "ClientName - ProjectName" keeps things searchable.
 
@@ -45,7 +36,7 @@ Within each project, enable the features that matter for client work:
 
 The Hill Chart feature deserves special attention. It provides clients with a visual representation of project momentum without requiring them to understand technical details. When work is "on the hill" (figuring things out), clients see upward movement. Once the path clears, progress accelerates toward the summit (launch).
 
-### Step 2: Configure Client Access Properly
+## Configuring Client Access Properly
 
 One of Basecamp's strongest features is granular permission control. Never give clients full access—they don't need to see internal discussions or administrative controls.
 
@@ -75,7 +66,7 @@ Here's what clients see versus team members:
 | Automatic Updates| Receive     | Configure   |
 ```
 
-### Step 3: Set Up Automated Check-Ins
+## Setting Up Automated Check-Ins
 
 Manual status updates waste everyone's time. Basecamp's automatic check-ins solve this by prompting your team for updates on a schedule, then automatically sending summaries to clients.
 
@@ -103,7 +94,7 @@ For added automation, use Basecamp's integration with Slack or email to forward 
 }
 ```
 
-### Step 4: Organizing Project Structure
+## Organizing Project Structure
 
 A well-organized Basecamp project reduces confusion and search time. Create consistent structures across all client projects:
 
@@ -127,7 +118,7 @@ Each to-do list should contain granular tasks with:
 - Attachments for relevant files
 - Dependencies noted in descriptions
 
-### Step 5: Improving File Sharing
+## Improving File Sharing
 
 Clients often need to review deliverables—design mockups, documentation, video recordings. Basecamp's Docs & Files section handles this, but structure it intentionally:
 
@@ -148,7 +139,7 @@ Clients often need to review deliverables—design mockups, documentation, video
 
 The key insight: use separate folders for client-accessible content. This prevents accidental exposure of internal discussions while keeping everything in one place.
 
-### Step 6: Integrate with Your Existing Workflow
+## Integrating with Your Existing Workflow
 
 Basecamp works best when connected to your development pipeline. Common integrations include:
 
@@ -208,7 +199,7 @@ Once Basecamp is configured, success comes down to consistent habits:
 - Archive old messages after project phase ends
 - Keep active work visible, historical work accessible
 
-### Step 7: Common Pitfalls to Avoid
+## Common Pitfalls to Avoid
 
 Many agencies set up Basecamp but fail to get client adoption. Watch for these issues:
 
@@ -222,7 +213,7 @@ Many agencies set up Basecamp but fail to get client adoption. Watch for these i
 
 5. Outdated to-dos: Review and clean up to-dos weekly. Stale items reduce trust.
 
-### Step 8: Measuring Success
+## Measuring Success
 
 Track these metrics to ensure your Basecamp setup is working:
 
@@ -233,21 +224,6 @@ Track these metrics to ensure your Basecamp setup is working:
 
 If clients still rely on email for primary communication, that's a sign the Basecamp setup needs adjustment. The goal is Basecamp as the single source of truth.
 ---
-
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions
@@ -274,11 +250,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
+- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
-- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
-- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
+- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [Remote Agency Client Satisfaction Survey Template](/remote-work-tools/remote-agency-client-satisfaction-survey-template-and-automa/)
 - [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,22 @@ intent-checked: true
 
 Organizing hot desking floors into neighborhood zones by team or function (Engineering, Product, Design, etc.) allows flexible seating while keeping relevant colleagues in proximity for collaboration, with dedicated quiet zones and phone booths separate from open collaboration spaces. Using desk booking data to identify which teams overlap in-office on specific days, then reserving entire zones for those teams, optimizes daily seating efficiency while preventing the isolation that pure hot desking creates. This hybrid approach maintains flexibility while preserving the team cohesion that drives innovation, solving the core problem that unstructured hot desking eliminates both territorial ownership and functional collaboration simultaneously.
 
+## Table of Contents
+
+- [Understanding Neighborhood Zones in Hot Desking](#understanding-neighborhood-zones-in-hot-desking)
+- [Step 1: Survey Team Requirements](#step-1-survey-team-requirements)
+- [Step 2: Map Your Physical Space](#step-2-map-your-physical-space)
+- [Step 3: Define Desk Attributes](#step-3-define-desk-attributes)
+- [Step 4: Implement Zone Assignment Logic](#step-4-implement-zone-assignment-logic)
+- [Step 5: Calculate Zone Capacities](#step-5-calculate-zone-capacities)
+- [Step 6: Visualize the Floor Plan](#step-6-visualize-the-floor-plan)
+- [Best Practices for Hybrid Office Neighborhood Zones](#best-practices-for-hybrid-office-neighborhood-zones)
+- [Advanced: Predicting Zone Utilization](#advanced-predicting-zone-utilization)
+- [Desk Assignment Algorithms](#desk-assignment-algorithms)
+- [Measurement and Optimization](#measurement-and-optimization)
+- [Team Engagement with Zone System](#team-engagement-with-zone-system)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+
 This guide walks through the process of creating a data-driven floor plan with neighborhood zones, including practical examples and code structures that developers can use to build seating management systems.
 
 ## Understanding Neighborhood Zones in Hot Desking
@@ -344,11 +360,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [Collaboration Zones in Hybrid Office Layout](/remote-work-tools/collaboration-zones-in-hybrid-office-layout/)
 - [Best Hot Desking Software for Hybrid Offices with Under 100](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
-- [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
-- [Hybrid Office Fire Safety and Evacuation Plan Update for](/remote-work-tools/hybrid-office-fire-safety-and-evacuation-plan-update-for-var/)
 - [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
-
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

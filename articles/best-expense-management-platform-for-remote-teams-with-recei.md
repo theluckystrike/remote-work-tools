@@ -15,6 +15,29 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Expensify is the best expense management platform for remote teams, offering SmartScan OCR technology that accurately captures receipt data even from poor-quality photos, timezone-aware approval workflows that notify managers at reasonable local hours, and integration with major accounting software. For teams needing simpler solutions, Zoho Expense and Concur provide comparable receipt scanning and approval features, but Expensify's Concierge support and policy automation make it ideal for distributed teams managing multi-currency expenses across time zones.
 
+## Table of Contents
+
+- [Core Requirements for Remote Team Expense Management](#core-requirements-for-remote-team-expense-management)
+- [Top Platforms for Remote Teams](#top-platforms-for-remote-teams)
+- [Integration Considerations for Developers](#integration-considerations-for-developers)
+- [Building Custom Approval Workflows](#building-custom-approval-workflows)
+- [Making Your Decision](#making-your-decision)
+- [Setting Up Expense Policies in Your Platform](#setting-up-expense-policies-in-your-platform)
+- [Allowable Expenses](#allowable-expenses)
+- [Prohibited Expenses](#prohibited-expenses)
+- [Receipt Requirements](#receipt-requirements)
+- [Approval Process](#approval-process)
+- [Reimbursement Timeline](#reimbursement-timeline)
+- [Multi-Currency and Tax Recovery Setup](#multi-currency-and-tax-recovery-setup)
+- [Building Reimbursement Processes That Don't Slow Work](#building-reimbursement-processes-that-dont-slow-work)
+- [Detecting and Preventing Policy Violations](#detecting-and-preventing-policy-violations)
+- [Integration with Accounting Software](#integration-with-accounting-software)
+- [Building Team Accountability Around Expenses](#building-team-accountability-around-expenses)
+- [Expectations](#expectations)
+- [Monthly Review Metrics](#monthly-review-metrics)
+- [Quarterly Expense Review](#quarterly-expense-review)
+- [Red Flags to Watch](#red-flags-to-watch)
+
 ## Core Requirements for Remote Team Expense Management
 
 Before evaluating specific platforms, establish your baseline requirements. Remote teams need several capabilities that office-based teams might deprioritize:
@@ -402,10 +425,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Identity and Access Management Platform Comparison for](/remote-work-tools/identity-and-access-management-platform-comparison-for-remot/)
-- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
-- [Best Virtual Offsite Planning Platform for Remote Teams 2026](/remote-work-tools/best-virtual-offsite-planning-platform-for-remote-teams-2026/)
-- [Remote HR Benefits Administration Platform for Distributed](/remote-work-tools/remote-hr-benefits-administration-platform-for-distributed-global-teams-2026-review/)
 - [Remote Team Handbook Section Template for Writing Expense Re](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
-
+- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
+- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
+- [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

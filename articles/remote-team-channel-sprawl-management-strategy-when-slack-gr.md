@@ -17,6 +17,25 @@ intent-checked: true
 
 Implement a naming convention (prefix-team-topic), establish quarterly channel audits with required ownership, and enforce retirement policies for inactive channels to manage 200+ channel sprawl. Beyond 200 channels, chaos emerges—duplicate topics, lost information, poor discovery. Channel sprawl is a governance problem, not a tool problem. This guide provides actionable automation scripts and policies for developers and power users to regain control without losing important channels.
 
+## Table of Contents
+
+- [Understanding Channel Sprawl at Scale](#understanding-channel-sprawl-at-scale)
+- [Implementing a Channel Naming Convention](#implementing-a-channel-naming-convention)
+- [Establishing Channel Ownership](#establishing-channel-ownership)
+- [Automating Channel Cleanup](#automating-channel-cleanup)
+- [Creating Channel Tiers](#creating-channel-tiers)
+- [Building a Channel Request Process](#building-a-channel-request-process)
+- [Using Slack's Built-in Features](#using-slacks-built-in-features)
+- [Practical Cleanup Workflow](#practical-cleanup-workflow)
+- [Maintaining Order Long-Term](#maintaining-order-long-term)
+- [Measuring the Health of Your Workspace](#measuring-the-health-of-your-workspace)
+- [Handling Private Channel Proliferation](#handling-private-channel-proliferation)
+- [Integrating Channel Governance with Offboarding](#integrating-channel-governance-with-offboarding)
+- [Advanced Cleanup Automation](#advanced-cleanup-automation)
+- [Measuring Cleanup Success](#measuring-cleanup-success)
+- [Slack Organization Models for Large Teams](#slack-organization-models-for-large-teams)
+- [When to Consider Alternatives](#when-to-consider-alternatives)
+
 ## Understanding Channel Sprawl at Scale
 
 When your Slack workspace exceeds 200 channels, several predictable problems emerge. Team members create duplicate channels for similar topics, important announcements get buried in inactive channels, and new hires spend hours trying to find relevant information. The root cause isn't malicious—it's usually a lack of clear ownership, naming conventions, and retirement policies.
@@ -340,9 +359,8 @@ Not immediately. Rename channels in batches over several months, prioritizing hi
 ## Related Articles
 
 - [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
-- [Simple Slack webhook for probation check-ins](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 - [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
-
+- [Weekly Wins Channel Setup and Facilitation for Remote Team](/remote-work-tools/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -17,6 +17,22 @@ tags: [remote-work-tools]
 {% raw %}
 Virtual backgrounds can be unreliable—they glitch, blur your edges, or make you look like a floating head. If you've dealt with these frustrations or work in an environment where virtual backgrounds aren't an option, here are practical ways to hide a messy room without them.
 
+## Table of Contents
+
+- [1. Rearrange Your Camera Angle](#1-rearrange-your-camera-angle)
+- [2. Use a Physical Backdrop](#2-use-a-physical-backdrop)
+- [3. Master Lighting to Hide Clutter](#3-master-lighting-to-hide-clutter)
+- [4. Declutter the Camera's View Only](#4-declutter-the-cameras-view-only)
+- [5. use Depth of Field](#5-use-depth-of-field)
+- [6. Choose the Right Background Objects](#6-choose-the-right-background-objects)
+- [Quick Setup Checklist](#quick-setup-checklist)
+- [7. Camera Distance and Framing](#7-camera-distance-and-framing)
+- [8. Strategic Décor Positioning](#8-strategic-dcor-positioning)
+- [9. Quick Setup Routine Before Video Calls](#9-quick-setup-routine-before-video-calls)
+- [10. Seasonal Background Changes](#10-seasonal-background-changes)
+- [11. Multi-Call Daily Setup Strategy](#11-multi-call-daily-setup-strategy)
+- [12. Emergency Backup Solutions](#12-emergency-backup-solutions)
+
 ## 1. Rearrange Your Camera Angle
 
 The simplest solution is to point your camera at the cleanest part of your space. Most rooms have at least one wall or corner that's relatively tidy.
@@ -299,11 +315,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Hide Messy Room During Video Calls Without Virtual](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
+- [How to Hide Messy Room During Video Calls: Practical](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
 - [Best Virtual Background for Professional Video Calls 2026](/remote-work-tools/best-virtual-background-for-professional-video-calls-2026/)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
-- [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
-
+- [How to Stop Dog Barking During Video Calls: A Complete](/remote-work-tools/how-to-stop-dog-barking-during-video-calls-work-from-home/)
+- [Camera On vs Camera Off Debate in Remote Meetings](/remote-work-tools/camera-on-vs-camera-off-debate-remote-meetings/)
+- [How to Reduce Fan Noise from Desktop PC During Video Calls](/remote-work-tools/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

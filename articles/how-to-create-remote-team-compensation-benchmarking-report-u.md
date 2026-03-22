@@ -489,10 +489,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
-- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
-- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Remote Team Skip Level Meeting Program](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
 - [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
-- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
-
+- [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

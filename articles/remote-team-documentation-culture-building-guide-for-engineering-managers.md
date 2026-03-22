@@ -18,6 +18,36 @@ voice-checked: true
 
 Documentation culture doesn't happen by accident. In remote teams, where watercooler conversations don't exist and Slack threads disappear into the void, intentional documentation practices determine whether knowledge stays with your team or walks out the door with the next departure. Building a documentation culture requires more than telling people to "write more docs"—it needs systems, templates, and sustained leadership attention.
 
+## Table of Contents
+
+- [Why Documentation Culture Matters for Remote Teams](#why-documentation-culture-matters-for-remote-teams)
+- [Step 1: Establish Document Types and Ownership](#step-1-establish-document-types-and-ownership)
+- [Step 2: Create Templates That Make Documentation Easy](#step-2-create-templates-that-make-documentation-easy)
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+- [Consequences](#consequences)
+- [Alternatives Considered](#alternatives-considered)
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+- [Troubleshooting](#troubleshooting)
+- [Step 3: Integrate Documentation Into Existing Workflows](#step-3-integrate-documentation-into-existing-workflows)
+- [Step 4: Use Tools That Reduce Documentation Burden](#step-4-use-tools-that-reduce-documentation-burden)
+- [Step 5: Lead by Example and Recognize Documentation Contributions](#step-5-lead-by-example-and-recognize-documentation-contributions)
+- [Measuring Documentation Health](#measuring-documentation-health)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building Sustainable Practices](#building-sustainable-practices)
+- [Tool Recommendations for Different Team Sizes](#tool-recommendations-for-different-team-sizes)
+- [Measuring Documentation Success](#measuring-documentation-success)
+- [Creating Content That Actually Gets Read](#creating-content-that-actually-gets-read)
+- [The 80/20 of Documentation](#the-8020-of-documentation)
+- [Establishing Review Cycles](#establishing-review-cycles)
+- [Documentation That Saves Money](#documentation-that-saves-money)
+- [Common Implementation Mistakes](#common-implementation-mistakes)
+- [Slack Automation with Workflows and Webhooks](#slack-automation-with-workflows-and-webhooks)
+- [Slack Search Operators for Remote Teams](#slack-search-operators-for-remote-teams)
+
 This guide provides engineering managers with a practical framework for establishing documentation as a core team practice, not an afterthought.
 
 ## Why Documentation Culture Matters for Remote Teams
@@ -384,11 +414,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
+- [How to Build Remote Team Documentation Culture Guide](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
 - [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
-- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
-- [Hybrid Work Culture Building Strategies Guide](/remote-work-tools/hybrid-work-culture-building-strategies-guide/)
-- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
-
+- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

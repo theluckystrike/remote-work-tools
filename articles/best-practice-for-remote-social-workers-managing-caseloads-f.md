@@ -16,6 +16,25 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Remote social work requires structured case management systems, automated administrative task handling, and clear client communication boundaries to prevent burnout. Time blocking, secure messaging protocols, and virtual rapport-building techniques enable effective service delivery from home. This guide provides actionable best practices for social workers managing distributed caseloads, including case organization systems, automation strategies, and boundary management.
 
+## Table of Contents
+
+- [Establishing a Structured Case Management System](#establishing-a-structured-case-management-system)
+- [Automating Routine Administrative Tasks](#automating-routine-administrative-tasks)
+- [Implementing Secure Communication Protocols](#implementing-secure-communication-protocols)
+- [Time Blocking for Remote Case Management](#time-blocking-for-remote-case-management)
+- [Managing Client Boundaries Remotely](#managing-client-boundaries-remotely)
+- [Building Virtual Rapport](#building-virtual-rapport)
+- [Supervision and Self-Care Integration](#supervision-and-self-care-integration)
+- [using Asynchronous Communication](#using-asynchronous-communication)
+- [Measuring Productivity Without Micromanagement](#measuring-productivity-without-micromanagement)
+- [Technology Stack Recommendations for Remote Social Workers](#technology-stack-recommendations-for-remote-social-workers)
+- [Advanced Case Management Patterns](#advanced-case-management-patterns)
+- [When a Client Mentions Suicidal Ideation](#when-a-client-mentions-suicidal-ideation)
+- [When a Client Discloses Abuse](#when-a-client-discloses-abuse)
+- [Managing Compassion Fatigue](#managing-compassion-fatigue)
+- [Performance Metrics That Matter](#performance-metrics-that-matter)
+- [Creating Sustainable Remote Social Work](#creating-sustainable-remote-social-work)
+
 ## Establishing a Structured Case Management System
 
 The foundation of effective remote case management lies in a well-organized system. Without the physical infrastructure of an office, digital tools become essential for tracking client interactions, documentation, and deadlines.
@@ -396,9 +415,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Remote Agency Subcontractor Client Communication Boundaries](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)
-- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
-- [Simple office hours scheduler (Python)](/remote-work-tools/how-to-maintain-direct-communication-with-leadership-as-remo/)
-- [Simple volume check script for testing headphones](/remote-work-tools/best-kid-safe-headphones-for-children-of-remote-workers-need/)
-- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
-
+- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
+- [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
+- [Remote Agency Client Communication Cadence Template](/remote-work-tools/remote-agency-client-communication-cadence-template-for-proj/)
+- [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

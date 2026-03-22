@@ -18,6 +18,14 @@ voice-checked: true
 
 Performance reviews are one of the most challenging processes to run remotely. The traditional approach of gathering everyone in a room or scheduling a series of video calls doesn't scale well for distributed teams. Yet skipping performance reviews means losing critical opportunities for employee growth and team alignment.
 
+## Table of Contents
+
+- [Why Async Reviews Work Better for Engineering Teams](#why-async-reviews-work-better-for-engineering-teams)
+- [Prerequisites](#prerequisites)
+- [Best Practices for Remote Engineering Reviews](#best-practices-for-remote-engineering-reviews)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Troubleshooting](#troubleshooting)
+
 An async performance review process solves these challenges while actually producing better outcomes. When done right, async reviews give employees more time to reflect, reduce the stress of real-time conversations, and create a permanent record you can track over time.
 
 This guide covers the complete framework for running async performance reviews tailored specifically for remote engineering teams.
@@ -263,10 +271,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
-- [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [Best Practices for Async Pull Request Reviews on](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
 - [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
-
+- [Best Practices for Async Pull Request Reviews on](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
+- [How to Run Remote Engineering Standups That Work](/remote-work-tools/how-to-run-remote-engineering-standups/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

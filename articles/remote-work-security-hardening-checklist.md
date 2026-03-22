@@ -13,6 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, security, remote-work]
 ---
+---
+layout: default
+title: "Remote Work Security Hardening Checklist"
+description: "Security hardening checklist for remote workers: SSH key setup, MFA, disk encryption, DNS-over-HTTPS, secrets management, and network security for developers."
+date: 2026-03-21
+last_modified_at: 2026-03-21
+author: theluckystrike
+permalink: /remote-work-security-hardening-checklist/
+categories: [guides]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, security, remote-work]
+---
 
 {% raw %}
 
@@ -340,11 +355,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
-- [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
-- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
-- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
-
+- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
+- [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [SSH Tunnels for Remote Database Access](/remote-work-tools/ssh-tunnels-remote-database-access/)
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

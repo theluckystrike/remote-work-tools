@@ -18,6 +18,25 @@ intent-checked: true
 
 Remote workers live on their keyboards. Eight hours of typing daily means mechanical keyboards matter—but not all mechanical keyboards suit remote work. Some are designed for gaming. Others for typing bureaus. You need a keyboard that's quiet enough for video calls, wireless for flexibility, and durable enough for years of use.
 
+## Table of Contents
+
+- [Why Mechanical > Rubber Dome](#why-mechanical-rubber-dome)
+- [Best Keyboards for Remote Work 2026](#best-keyboards-for-remote-work-2026)
+- [Comparison Table](#comparison-table)
+- [Switches Explained](#switches-explained)
+- [Wireless Reliability](#wireless-reliability)
+- [Stabilizer Tuning (The Secret)](#stabilizer-tuning-the-secret)
+- [Setup for Remote Work](#setup-for-remote-work)
+- [Real Talk: Do You Need Mechanical?](#real-talk-do-you-need-mechanical)
+- [Budget Guide](#budget-guide)
+- [Where to Buy and What to Watch For](#where-to-buy-and-what-to-watch-for)
+- [Warranty and Support](#warranty-and-support)
+- [Ergonomic Progression Path](#ergonomic-progression-path)
+- [Acoustic Performance in Real Meetings](#acoustic-performance-in-real-meetings)
+- [Switch Customization Deep Dive](#switch-customization-deep-dive)
+- [Avoiding Expensive Mistakes](#avoiding-expensive-mistakes)
+- [Making Your Decision](#making-your-decision)
+
 This guide focuses on mechanical keyboards that won't annoy coworkers, colleagues, or family in your home office.
 
 ## Why Mechanical > Rubber Dome
@@ -320,5 +339,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Best Mechanical Keyboard for Remote Developers](/remote-work-tools/best-mechanical-keyboard-for-remote-developers-quiet-switches-2026/)
+- [Best Mechanical Keyboard for Remote Developers: Discover](/remote-work-tools/best-mechanical-keyboard-for-remote-developers/)
+- [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)
+- [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

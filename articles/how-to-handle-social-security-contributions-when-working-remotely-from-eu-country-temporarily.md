@@ -18,6 +18,14 @@ voice-checked: true
 
 Working remotely from an EU country for a few months creates complex social security questions that many developers and power users overlook. The rules around contributions, coverage, and compliance can significantly impact your financial obligations and access to healthcare. This guide provides actionable steps to handle social security contributions when working temporarily in EU countries.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [When to Seek Professional Help](#when-to-seek-professional-help)
+- [Documentation Checklist for Compliance](#documentation-checklist-for-compliance)
+- [Hidden Costs of Non-Compliance](#hidden-costs-of-non-compliance)
+- [Troubleshooting](#troubleshooting)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -351,11 +359,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Handle Mail and Legal Address When Working Remotely](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
-- [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)
-- [How to Manage Timezone Overlap When Working Remotely from](/remote-work-tools/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
-- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
-- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
-
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [How to Handle Employment Law Differences for Remote Teams](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
+- [Chrome Security Headers Extension](/remote-work-tools/chrome-security-headers-extension/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

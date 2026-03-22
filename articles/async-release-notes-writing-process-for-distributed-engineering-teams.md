@@ -17,6 +17,17 @@ voice-checked: true
 
 Release notes are critical for keeping stakeholders informed about what changed in your product, but coordinating their creation across time zones can become a logistical nightmare. When your engineering team spans San Francisco, London, and Bangalore, scheduling a synchronous meeting to review release notes becomes impractical. An async release notes process solves this by enabling collaborative writing and review that respects everyone's time zone and work hours.
 
+## Table of Contents
+
+- [Why Async Release Notes Work Better for Distributed Teams](#why-async-release-notes-work-better-for-distributed-teams)
+- [Setting Up Your Async Release Notes Workflow](#setting-up-your-async-release-notes-workflow)
+- [Release Version: [X.Y.Z]](#release-version-xyz)
+- [Implementing the Process](#implementing-the-process)
+- [Tools and Integrations](#tools-and-integrations)
+- [Handling Common Challenges](#handling-common-challenges)
+- [Example Timeline for a Two-Week Release Cycle](#example-timeline-for-a-two-week-release-cycle)
+- [Measuring Success](#measuring-success)
+
 This guide provides a complete framework for implementing async release notes workflows that work for distributed engineering teams of any size.
 
 ## Why Async Release Notes Work Better for Distributed Teams
@@ -240,11 +251,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
-- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Async Engineering Proposal Process Using Github Discussions](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
-- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-
+- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
+- [Best Async Video Messaging Tools for Distributed Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
+- [Async Capacity Planning Process for Remote: Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

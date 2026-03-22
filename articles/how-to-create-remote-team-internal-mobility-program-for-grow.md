@@ -18,6 +18,19 @@ voice-checked: true
 
 Internal mobility has become one of the most powerful retention tools for remote teams. When employees see clear paths for growth, they stay longer, contribute more, and become advocates for your organization. Yet many remote companies struggle to build mobility programs that actually work across time zones and async workflows.
 
+## Table of Contents
+
+- [Why Remote Teams Need Structured Internal Mobility](#why-remote-teams-need-structured-internal-mobility)
+- [Core Components of an Internal Mobility Program](#core-components-of-an-internal-mobility-program)
+- [Senior Engineer Competency Framework](#senior-engineer-competency-framework)
+- [Internal Job Post Template](#internal-job-post-template)
+- [Implementing the Program](#implementing-the-program)
+- [Mentorship Matching Process](#mentorship-matching-process)
+- [Remote-Specific Considerations](#remote-specific-considerations)
+- [Measuring Program Success](#measuring-program-success)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building a Culture of Growth](#building-a-culture-of-growth)
+
 This guide provides a framework for creating an internal mobility program specifically designed for remote teams—one that creates real growth opportunities without requiring co-located mentorship or in-person career conversations.
 
 ## Why Remote Teams Need Structured Internal Mobility
@@ -258,11 +271,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Remote Team Skip Level Meeting Program As](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
-- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
-- [How to Create Remote Onboarding Buddy Program Template for](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
-- [How to Handle Remote Team Tool Consolidation When Rapid](/remote-work-tools/how-to-handle-remote-team-tool-consolidation-when-rapid-grow/)
+- [Remote Employee Belonging and Inclusion Program Ideas](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
 - [Web Application Firewall Setup for Remote Team Internal](/remote-work-tools/web-application-firewall-setup-for-remote-team-internal-tool/)
-
+- [How to Create Remote Team Skip Level Meeting Program](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
+- [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
+- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

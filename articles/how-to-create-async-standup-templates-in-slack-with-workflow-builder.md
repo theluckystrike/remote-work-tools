@@ -18,6 +18,18 @@ voice-checked: true
 
 Slack Workflow Builder provides a powerful no-code solution for automating asynchronous standups. Rather than relying on live meetings or manual Slack messages, you can create structured prompts that fire on schedules you define, collect responses in a consistent format, and aggregate results for team visibility.
 
+## Table of Contents
+
+- [Why Use Slack Workflow Builder for Async Standups](#why-use-slack-workflow-builder-for-async-standups)
+- [Building Your First Async Standup Template](#building-your-first-async-standup-template)
+- [Advanced Template Configurations](#advanced-template-configurations)
+- [Example: Complete Standup Workflow YAML](#example-complete-standup-workflow-yaml)
+- [Best Practices for Implementation](#best-practices-for-implementation)
+- [Async Standup Tools Comparison](#async-standup-tools-comparison)
+- [Standup Response Analysis and Reporting](#standup-response-analysis-and-reporting)
+- [Standup Response Templates for Different Roles](#standup-response-templates-for-different-roles)
+- [Integration with Other Tools](#integration-with-other-tools)
+
 This guide walks through building a complete async standup system that your team can use regardless of time zone or work schedule.
 
 ## Why Use Slack Workflow Builder for Async Standups
@@ -370,11 +382,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [slack_workflow_async_checkin.py](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
+- [Best Tools for Remote Team Standup Meetings 2026](/remote-work-tools/best-tools-for-remote-team-standup-meetings-2026/)
+- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
 - [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
-- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
-- [Slack Workflow: Weekly Learning Share](/remote-work-tools/remote-team-psychological-safety-assessment-tool-for-distrib/)
-- [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
-
+- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

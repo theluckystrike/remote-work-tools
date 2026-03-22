@@ -18,6 +18,18 @@ voice-checked: true
 
 Hybrid offices present unique challenges when team members split their time between remote work and in-office days. Managing mail and packages becomes significantly more complex when occupants are not consistently present. This guide provides practical strategies for developers and power users building systems to handle this logistics puzzle.
 
+## Table of Contents
+
+- [The Part Time Occupant Challenge](#the-part-time-occupant-challenge)
+- [Designing Notification Systems](#designing-notification-systems)
+- [Handling Variable Office Schedules](#handling-variable-office-schedules)
+- [Implementing Smart Holding Policies](#implementing-smart-holding-policies)
+- [Building Retrieval Workflows](#building-retrieval-workflows)
+- [Managing Shared Package Locations](#managing-shared-package-locations)
+- [Integrating with Calendar Systems](#integrating-with-calendar-systems)
+- [Security Considerations for Part Time Access](#security-considerations-for-part-time-access)
+- [Measuring System Effectiveness](#measuring-system-effectiveness)
+
 ## The Part Time Occupant Challenge
 
 When employees work in the office only 2-3 days per week, traditional package handling breaks down. A package arriving on Monday might sit unclaimed until Thursday when the recipient returns. Critical mail may miss time-sensitive windows. The core problem is the mismatch between delivery timing and occupancy patterns.
@@ -286,11 +298,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Practice for Remote Accountants Handling Client Tax](/remote-work-tools/best-practice-for-remote-accountants-handling-client-tax-doc/)
-- [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
 - [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
-- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [Best Practice for Hybrid Team Knowledge Transfer Between](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
-
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
+- [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
+- [Office Hoteling Software for Hybrid Teams 2026](/remote-work-tools/office-hoteling-software-for-hybrid-teams-2026/)
+- [Hybrid Office Access Control System Upgrade for Flexible](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

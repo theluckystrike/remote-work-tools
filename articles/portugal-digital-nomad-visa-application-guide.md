@@ -18,6 +18,16 @@ voice-checked: true
 
 Portugal launched its digital nomad visa in 2022, becoming one of the first European countries to formalize residency pathways for remote workers. The visa allows non-EU citizens to live in Portugal while working remotely for employers or clients outside the country. This guide walks through the application process with practical details for developers and power users who want to relocate.
 
+## Table of Contents
+
+- [Eligibility Requirements](#eligibility-requirements)
+- [Required Documents](#required-documents)
+- [Application Process](#application-process)
+- [Key Considerations for Developers](#key-considerations-for-developers)
+- [Timeline Estimate — Realistic Process Duration](#timeline-estimate-realistic-process-duration)
+- [Common Pitfalls to Avoid (And How to Prevent Them)](#common-pitfalls-to-avoid-and-how-to-prevent-them)
+- [Moving Forward — Your Action Checklist](#moving-forward-your-action-checklist)
+
 ## Eligibility Requirements
 
 The Portugal digital nomad visa targets remote workers who meet specific criteria. You need to prove you have stable monthly income above Portugal's minimum wage threshold. The current requirement is at least four times the Portuguese minimum wage, approximately €3,700 per month as of 2026. This can come from employment contracts, freelance income, or business revenue.
@@ -314,11 +324,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
-
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
+- [Brazil Digital Nomad Visa Process and Tax Implications](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

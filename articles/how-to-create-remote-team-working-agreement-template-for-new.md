@@ -11,7 +11,8 @@ tags: [remote-work-tools, remote-work, team-agreement, async-communication, dist
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -184,6 +185,19 @@ Write your agreement in a format that's easy to update. Treat it as a living doc
 *This agreement was created collaboratively by the team and will be reviewed quarterly.*
 ```
 
+## Table of Contents
+
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Practical Template You Can Use Today](#practical-template-you-can-use-today)
+- [Communication Channels](#communication-channels)
+- [Response Times](#response-times)
+- [Availability](#availability)
+- [Meetings](#meetings)
+- [Code Reviews](#code-reviews)
+- [Documentation](#documentation)
+- [Agreement Review](#agreement-review)
+- [Making It Work](#making-it-work)
+
 ### Step 4: Trial and Refine
 
 Your first version won't be perfect. Schedule a check-in after two weeks to discuss what's working and what needs adjustment. The agreement should make your team more effective, not add bureaucracy.
@@ -274,11 +288,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
-- [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
-- [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
-- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
-- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
-
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

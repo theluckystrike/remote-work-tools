@@ -16,6 +16,13 @@ intent-checked: true
 
 If your team has been using Loom for asynchronous video messaging but you're considering a switch to Claap, this guide walks you through the migration process step by step. Whether you're a developer integrating video workflows into your tooling or a team lead optimizing communication patterns, you'll find practical strategies for making the transition smooth and effective.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Migrating Your Video Content](#migrating-your-video-content)
+- [Advanced Integration: Automating Video Distribution](#advanced-integration-automating-video-distribution)
+- [Troubleshooting Common Integration Issues](#troubleshooting-common-integration-issues)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -319,8 +326,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Async Video Messaging Tools for Distributed Teams 2026](/best-async-video-messaging-tools-for-distributed-teams-2026/)
-- [Best Async Video Messaging Tools for Remote Teams 2026](/best-async-video-messaging-tools-for-remote-teams-2026/)
-- [Veed API - Upload and process video](/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
-
+- [Best Async Video Messaging Tools for Remote Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-remote-teams-2026/)
+- [Best Async Video Messaging Tools for Distributed Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [Veed API - Upload and process video](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

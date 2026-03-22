@@ -18,6 +18,24 @@ intent-checked: true
 
 A desk mat transforms your workspace: it protects your desk surface, defines your work zone, reduces wrist strain, and improves mouse tracking accuracy. Remote workers spend 40+ hours per week at their desk—investing in a quality mat pays dividends in comfort and longevity.
 
+## Table of Contents
+
+- [The Essentials: What Makes a Quality Desk Mat](#the-essentials-what-makes-a-quality-desk-mat)
+- [Premium Leather: Hermanmiller × Cognac (Recommended)](#premium-leather-hermanmiller-cognac-recommended)
+- [Budget Leather: Logicool (Logitech) Pro Desk Mat](#budget-leather-logicool-logitech-pro-desk-mat)
+- [Extended Cloth: SteelSeries QcK Prism Cloth (Gaming-Grade, Works for Work)](#extended-cloth-steelseries-qck-prism-cloth-gaming-grade-works-for-work)
+- [Minimalist: Bellroy Desk Mat (Aesthetic-First)](#minimalist-bellroy-desk-mat-aesthetic-first)
+- [XL Extended: FULLY Desk Pad (Standing Desk Optimized)](#xl-extended-fully-desk-pad-standing-desk-optimized)
+- [Comparison Table](#comparison-table)
+- [Sizing Guide: What Width Do You Need?](#sizing-guide-what-width-do-you-need)
+- [Ergonomics: Do You Need a Wrist Rest?](#ergonomics-do-you-need-a-wrist-rest)
+- [Material Longevity Comparison](#material-longevity-comparison)
+- [Real-World Setup Examples](#real-world-setup-examples)
+- [Maintenance Checklist](#maintenance-checklist)
+- [Budget Tiers](#budget-tiers)
+- [Verdict: Best Desk Mat for Remote Work 2026](#verdict-best-desk-mat-for-remote-work-2026)
+- [Final Recommendation](#final-recommendation)
+
 This guide compares desk mats across material, size, price, and durability. Real options, tested against actual workflows.
 
 ## The Essentials: What Makes a Quality Desk Mat
@@ -338,9 +356,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Standing Desk Mat for Bare Feet Review: A Developer's Guide](/standing-desk-mat-for-bare-feet-review/)
-- [BenQ ScreenBar vs Desk Lamp Comparison: A Developer](/benq-screenbar-vs-desk-lamp-comparison/)
-- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
-
+- [Best Remote Work Desk Accessories Under 50 Dollars 2026](/remote-work-tools/best-remote-work-desk-accessories-under-50-dollars-2026/)
+- [Standing Desk Mat for Bare Feet Review: A Developer's Guide](/remote-work-tools/standing-desk-mat-for-bare-feet-review/)
+- [L-Shaped Desk vs Straight Desk for Home Office](/remote-work-tools/l-shaped-desk-vs-straight-desk-for-home-office/)
+- [Best Remote Work Standing Desk Converter Under $200 2026](/remote-work-tools/best-remote-work-standing-desk-converter-under-200-dollars-2026/)
+- [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

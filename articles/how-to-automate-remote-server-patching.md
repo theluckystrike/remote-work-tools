@@ -17,6 +17,13 @@ tags: [remote-work-tools]
 
 Manual patching across dozens of servers is how you miss a critical CVE. Automated patching ensures all servers run current packages, schedules reboots during maintenance windows, and notifies your team of what changed — without manual SSH sessions.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Patch Compliance Reporting](#patch-compliance-reporting)
+- [Troubleshooting](#troubleshooting)
+- [Related Reading](#related-reading)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -503,6 +510,14 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [Best Practice for Remote Team Escalation Paths](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
 
 ---
+
+## Related Articles
+
+- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
+- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
+- [Remote Onboarding Best Practices Guide 2026](/remote-work-tools/remote-onboarding-best-practices-guide-2026/)
+- [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

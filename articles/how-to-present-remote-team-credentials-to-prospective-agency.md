@@ -31,6 +31,29 @@ tags: [remote-work-tools, remote-work]
 
 Showcase technical certifications, security compliance (SOC 2, GDPR), industry credentials, and customer success stories in a dedicated credentials dashboard to win agency contracts. When agencies evaluate remote development teams, credentials signal reliability, competence, and professionalism because they cannot visit your office or meet developers in person. This guide shows you how to present your remote team's credentials effectively, including what to include, how to organize credentials, and strategies to emphasize what agencies care about.
 
+## Table of Contents
+
+- [The Remote Team Credibility Gap](#the-remote-team-credibility-gap)
+- [Why Credentials Matter for Remote Teams](#why-credentials-matter-for-remote-teams)
+- [Essential Credentials to Showcase](#essential-credentials-to-showcase)
+- [Building Your Credential Dashboard](#building-your-credential-dashboard)
+- [Presenting Credentials in Proposals](#presenting-credentials-in-proposals)
+- [Team Qualifications](#team-qualifications)
+- [Credential Verification Strategies](#credential-verification-strategies)
+- [Documenting Team Member Credentials](#documenting-team-member-credentials)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Building Long-Term Credential Strategy](#building-long-term-credential-strategy)
+- [Building a Credential Portfolio Site](#building-a-credential-portfolio-site)
+- [Credential Documentation for Due Diligence](#credential-documentation-for-due-diligence)
+- [Team Certifications](#team-certifications)
+- [Verification Instructions](#verification-instructions)
+- [Compliance Certifications](#compliance-certifications)
+- [Insurance and Bonding](#insurance-and-bonding)
+- [Presentation Strategies for Different Agency Types](#presentation-strategies-for-different-agency-types)
+- [Maintaining Credential Accuracy](#maintaining-credential-accuracy)
+- [using Credentials in Business Development](#using-credentials-in-business-development)
+- [Why We're Qualified for This Project](#why-were-qualified-for-this-project)
+
 ## The Remote Team Credibility Gap
 
 When evaluating a co-located development team, agency decision-makers can visit the office, observe team dynamics, and meet developers in person. These interactions build credibility through direct observation. For remote teams, these advantages disappear. Instead, agencies rely on documented evidence—credentials—to evaluate your team's capabilities and reliability.
@@ -348,10 +371,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
-- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
-- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
-- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
-- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
-
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

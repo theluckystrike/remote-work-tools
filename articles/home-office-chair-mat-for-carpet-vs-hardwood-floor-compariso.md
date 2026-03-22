@@ -18,6 +18,21 @@ voice-checked: true
 
 If you spend 8+ hours daily at a desk, the interaction between your chair casters and your flooring determines both comfort and long-term floor preservation. A well-chosen chair mat prevents premature wear, enables smooth chair movement, and reduces strain on your joints. This guide examines the critical differences between mats designed for carpet versus hardwood, helping you make an informed decision for your workspace.
 
+## Table of Contents
+
+- [The Fundamental Problem: Surface Incompatibility](#the-fundamental-problem-surface-incompatibility)
+- [Material Comparison](#material-comparison)
+- [Thickness: The Critical Specification](#thickness-the-critical-specification)
+- [Practical Selection Criteria](#practical-selection-criteria)
+- [Automated Comparison Script](#automated-comparison-script)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Maintenance and Longevity](#maintenance-and-longevity)
+- [Advanced Selection Framework](#advanced-selection-framework)
+- [Measuring Mat Performance Over Time](#measuring-mat-performance-over-time)
+- [The Physics of Caster-Surface Interaction](#the-physics-of-caster-surface-interaction)
+- [Budget-Conscious Approach: Two-Zone Strategy](#budget-conscious-approach-two-zone-strategy)
+- [Making Your Decision](#making-your-decision)
+
 ## The Fundamental Problem: Surface Incompatibility
 
 Chair casters (the wheels on your office chair) are designed for specific surface types. Standard carpet casters feature larger, softer wheels that distribute weight across carpet fibers. Hard floor casters use smaller, harder wheels optimized for smooth surfaces. Using the wrong mat creates friction, causes rolling resistance, and accelerates wear on both your chair and flooring.
@@ -363,11 +378,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Home Office Chair Mat for Carpet vs Hardwood Floor — Comparison](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-comparison/)
+- [Home Office Chair Mat for Carpet vs Hardwood: Comparison](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-comparison/)
+- [Best Remote Work Desk Mat 2026](/remote-work-tools/best-remote-work-desk-mat-2026/)
+- [How to Build a Productive Home Office for Under $500](/remote-work-tools/how-to-build-a-productive-home-office-for-under-500/)
 - [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
-- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
-- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
-- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
-
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

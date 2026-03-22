@@ -26,6 +26,18 @@ voice-checked: true
 score: 8
 ---
 
+## Table of Contents
+
+- [Why GitHub Discussions for Engineering Proposals](#why-github-discussions-for-engineering-proposals)
+- [Step 1: Enable and Configure GitHub Discussions](#step-1-enable-and-configure-github-discussions)
+- [Step 2: Create the Proposal Template](#step-2-create-the-proposal-template)
+- [Step 3: Set Up Review Workflow Automation](#step-3-set-up-review-workflow-automation)
+- [Step 4: Running the Proposal Process](#step-4-running-the-proposal-process)
+- [Decision Summary](#decision-summary)
+- [Step 5: Automate Status Updates](#step-5-automate-status-updates)
+- [Best Practices for Effective Async Proposals](#best-practices-for-effective-async-proposals)
+- [Measuring Proposal Process Effectiveness](#measuring-proposal-process-effectiveness)
+
 
 Engineering teams working across time zones cannot rely on synchronous meetings to make technical decisions. A proposal left pending until everyone is online means decisions blocked for days. GitHub Discussions solves this by giving engineering proposals a permanent, searchable home where reviewers engage on their own schedules and decisions are documented where the code lives.
 
@@ -303,10 +315,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
-- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
-- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-
+- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
+- [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

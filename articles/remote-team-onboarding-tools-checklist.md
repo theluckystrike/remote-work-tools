@@ -13,10 +13,47 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Remote Team Onboarding Tools and Checklist"
+description: "Build a remote team onboarding system with the right tools: access provisioning, documentation, buddy programs, and a 30-60-90 day checklist for new remote"
+date: 2026-03-21
+last_modified_at: 2026-03-21
+author: theluckystrike
+permalink: /remote-team-onboarding-tools-checklist/
+categories: [guides]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
 Remote onboarding fails in predictable ways: the new hire waits 2 days for access to be provisioned, nobody tells them how to find anything, and the buddy system is just a name on a doc with no clear expectations. Good remote onboarding is a system, not a checklist.
+
+## Table of Contents
+
+- [The Access Provisioning Problem](#the-access-provisioning-problem)
+- [Tool Stack by Category](#tool-stack-by-category)
+- [The 30-60-90 Day Framework](#the-30-60-90-day-framework)
+- [First Week Checklist (New Hire)](#first-week-checklist-new-hire)
+- [Day 1: Access and Orientation](#day-1-access-and-orientation)
+- [Day 2: Dev Environment Working](#day-2-dev-environment-working)
+- [Day 3-4: First Contribution](#day-3-4-first-contribution)
+- [Day 5: Week 1 Retrospective](#day-5-week-1-retrospective)
+- [First Week Checklist (Manager/Buddy)](#first-week-checklist-managerbuddy)
+- [Before Day 1](#before-day-1)
+- [Day 1](#day-1)
+- [Day 3-5](#day-3-5)
+- [End of Week 1](#end-of-week-1)
+- [Buddy System Setup](#buddy-system-setup)
+- [Buddy responsibilities (first 4 weeks)](#buddy-responsibilities-first-4-weeks)
+- [What the buddy is NOT](#what-the-buddy-is-not)
+- [Time commitment](#time-commitment)
+- [Buddy meeting agenda (first week)](#buddy-meeting-agenda-first-week)
+- [Automating the Onboarding Progress Check](#automating-the-onboarding-progress-check)
 
 This guide covers the tooling and process for onboarding remote engineers, with actual templates and automation scripts.
 
@@ -286,11 +323,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
 - [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
-- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
-- [communication-preferences.yaml](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
+- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
 - [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

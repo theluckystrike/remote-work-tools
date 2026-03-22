@@ -17,6 +17,18 @@ voice-checked: true
 
 Multi-state remote employee benefits require state-specific health insurance, unemployment insurance, workers' compensation, and tax compliance tracking keyed to employee location. Payroll APIs and benefits management platforms automate state requirement mapping and benefit eligibility. This guide covers technical architecture, state requirement matrices, and integration patterns for distributed payroll systems.
 
+## Table of Contents
+
+- [The Compliance Challenge](#the-compliance-challenge)
+- [Data Model for Multi-State Benefits](#data-model-for-multi-state-benefits)
+- [State Benefits Rules Engine](#state-benefits-rules-engine)
+- [Tax Withholding Configuration](#tax-withholding-configuration)
+- [Workers' Compensation Classification](#workers-compensation-classification)
+- [Practical Implementation Steps](#practical-implementation-steps)
+- [Key Considerations](#key-considerations)
+- [Integrating with Payroll APIs](#integrating-with-payroll-apis)
+- [Handling Paid Sick Leave Mandates](#handling-paid-sick-leave-mandates)
+
 ## The Compliance Challenge
 
 When employees work from different states, you must comply with each state's specific requirements. California, New York, Texas, and other states have different:
@@ -414,10 +426,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
-- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
 - [Remote HR Benefits Administration Platform for Distributed](/remote-work-tools/remote-hr-benefits-administration-platform-for-distributed-global-teams-2026-review/)
-- [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
-- [Example: HIPAA-compliant data handling](/remote-work-tools/remote-healthcare-patient-intake-form-tool-for-distributed-c/)
-
+- [Best Compliance Tool for Managing Remote Employees](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
+- [Best Tool for Tracking Remote Employee Work Permits](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
+- [Remote Employee Mental Health Support Guide 2026](/remote-work-tools/remote-employee-mental-health-support-guide-2026/)
+- [How to Handle Mandatory Paid Leave Laws for Remote](/remote-work-tools/how-to-handle-mandatory-paid-leave-laws-for-remote-employees/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -17,6 +17,31 @@ intent-checked: true
 
 Remote teams without centralized knowledge bases experience 40% longer onboarding times and 60% higher duplicate work repetition. New hires spend their first month asking the same questions across Slack, creating systemic inefficiency. A well-maintained knowledge base reduces onboarding from 4 weeks to 2 weeks, eliminates recurring Slack questions, and creates searchable institutional memory. This guide covers building and maintaining team knowledge bases for remote workers—evaluating tools (Notion, Confluence, GitBook, Slite), document standards, searchability optimization, and keeping content current in distributed teams.
 
+## Table of Contents
+
+- [Why Remote Teams Need Knowledge Bases](#why-remote-teams-need-knowledge-bases)
+- [Knowledge Base Platform Comparison](#knowledge-base-platform-comparison)
+- [Document Structure and Standards](#document-structure-and-standards)
+- [Searchability Optimization](#searchability-optimization)
+- [Prerequisites](#prerequisites)
+- [Step 1: Prepare Release Branch](#step-1-prepare-release-branch)
+- [Step 2: Run Production Deployment](#step-2-run-production-deployment)
+- [Maintaining Knowledge Base Currency](#maintaining-knowledge-base-currency)
+- [Knowledge Base for Async Work](#knowledge-base-for-async-work)
+- [Context](#context)
+- [Alternatives Considered](#alternatives-considered)
+- [Rationale](#rationale)
+- [Implementation Timeline](#implementation-timeline)
+- [Related](#related)
+- [Day 1: Setup (4 hours)](#day-1-setup-4-hours)
+- [Day 2: Codebase Orientation (3 hours)](#day-2-codebase-orientation-3-hours)
+- [Week 1: Infrastructure Access (2 hours)](#week-1-infrastructure-access-2-hours)
+- [Knowledge Base Governance](#knowledge-base-governance)
+- [Tools Integration Strategy](#tools-integration-strategy)
+- [Documentation](#documentation)
+- [Content Quality Standards](#content-quality-standards)
+- [Related Reading](#related-reading)
+
 ## Why Remote Teams Need Knowledge Bases
 
 Remote workers operate without the organic knowledge transfer that occurs in physical offices. In offices, new hires overhear conversations, observe workflows, and ask desk neighbors questions. Remote teams lack these informal transfer mechanisms entirely.
@@ -490,6 +515,14 @@ Does this change require documentation updates?
 - [Best All-in-One Tool for Remote Team Collaboration](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
 - [Best Async Project Management Tools for Distributed Teams 2026](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
 - [Remote Work Tools Guides Hub](/remote-work-tools/)
+
+## Related Articles
+
+- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [Self-Hosted Knowledge Base for Remote Support Team](/remote-work-tools/self-hosted-knowledge-base-for-remote-support-team-replacing/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [Best Knowledge Base Tool for Remote Team That Works Offline](/remote-work-tools/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
+- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

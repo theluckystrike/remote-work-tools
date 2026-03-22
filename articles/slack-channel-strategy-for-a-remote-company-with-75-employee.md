@@ -9,7 +9,7 @@ permalink: /slack-channel-strategy-for-a-remote-company-with-75-employee/
 categories: [guides]
 tags: [remote-work-tools, slack, remote-work, communication]
 reviewed: true
-score: 8
+score: 7
 intent-checked: true
 voice-checked: true
 ---
@@ -280,11 +280,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
+- [Slack Workspace Structure for a 50 Person Remote](/remote-work-tools/slack-workspace-structure-for-a-50-person-remote-engineering/)
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 - [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
-- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
-- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
-- [Simple Slack webhook for probation check-ins](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-
+- [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
+- [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

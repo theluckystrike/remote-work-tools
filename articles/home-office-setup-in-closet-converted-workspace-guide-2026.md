@@ -31,6 +31,21 @@ tags: [remote-work-tools]
 
 To convert a closet into a home office, start by confirming minimum dimensions (42 inches wide, 24 inches deep, 72 inches tall), then install a wall-mounted floating desk, surge-protected power strip, and dimmable LED lighting. Add an USB fan or door ventilation grille to manage heat buildup from enclosed equipment. A converted closet office separates your work life from your living area without requiring a separate room—this guide covers the full transformation process for developers and power users.
 
+## Table of Contents
+
+- [Why a Closet Office Works](#why-a-closet-office-works)
+- [Electrical and Connectivity Planning](#electrical-and-connectivity-planning)
+- [Lighting Solutions](#lighting-solutions)
+- [Ventilation and Temperature Control](#ventilation-and-temperature-control)
+- [Desk and Seating Configuration](#desk-and-seating-configuration)
+- [Equipment Mounting and Organization](#equipment-mounting-and-organization)
+- [Cable Management Strategy](#cable-management-strategy)
+- [Final Setup Checklist](#final-setup-checklist)
+- [Closet Office Equipment Budget Breakdown](#closet-office-equipment-budget-breakdown)
+- [Closet Office: Success Metrics and Maintenance](#closet-office-success-metrics-and-maintenance)
+- [Closet Office Success Stories and Failure Points](#closet-office-success-stories-and-failure-points)
+- [Comparison: Closet Office vs. Alternatives](#comparison-closet-office-vs-alternatives)
+
 ## Why a Closet Office Works
 
 Closets provide natural boundaries that standard desk setups lack. The walls already exist, providing acoustic separation and visual isolation from the rest of your home. Most closets include built-in shelving that adapts well to monitor arms and equipment mounting. The enclosed nature also helps contain cable management and keeps your work visually separated from living spaces—a key factor for maintaining work-life boundaries when you cannot dedicate an entire room to an office.
@@ -272,10 +287,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation/)
-- [Home Office Dehumidifier for Basement Workspace — Recommendation](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation-2026/)
-- [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
-- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
-- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
-
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
+- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -18,6 +18,24 @@ voice-checked: true
 
 Indonesia introduced the Second Home Visa (Visa Tinggal Terbatas dengan注 sponsor Tinggal Tetap) specifically to attract remote workers, digital nomads, and long-term visitors who want to live in Indonesia without requiring local employment. Unlike the B211A tourist/business visa that requires periodic extensions, the Second Home Visa offers validity for 5 to 10 years with multiple entry privileges. This guide covers the complete application process, financial requirements, document preparation, and practical tools for developers planning a move to Indonesia.
 
+## Table of Contents
+
+- [Eligibility Criteria for the Second Home Visa](#eligibility-criteria-for-the-second-home-visa)
+- [Application Process: Step-by-Step](#application-process-step-by-step)
+- [Financial Planning Tools](#financial-planning-tools)
+- [Practical Considerations for Remote Workers](#practical-considerations-for-remote-workers)
+- [Common Application Issues and Solutions](#common-application-issues-and-solutions)
+- [Alternative Visa Options](#alternative-visa-options)
+- [Banking and Money Transfer Strategy](#banking-and-money-transfer-strategy)
+- [Accommodation Proof and Housing Options](#accommodation-proof-and-housing-options)
+- [Building Your Financial Case Presentation](#building-your-financial-case-presentation)
+- [Primary Income Source](#primary-income-source)
+- [Secondary Income (if applicable)](#secondary-income-if-applicable)
+- [Bank Statements (Last 3 months)](#bank-statements-last-3-months)
+- [Work Arrangements and Internet Setup](#work-arrangements-and-internet-setup)
+- [Tax Planning for Indonesia Residents](#tax-planning-for-indonesia-residents)
+- [Visa Extension and Renewal](#visa-extension-and-renewal)
+
 ## Eligibility Criteria for the Second Home Visa
 
 The Indonesian Immigration Directorate General has established clear eligibility requirements for Second Home Visa applicants. Understanding these upfront prevents application rejections and wasted processing fees.
@@ -389,11 +407,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example NHI enrollment at a local district office](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
-
+- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
+- [Mexico Temporary Resident Visa for Remote Workers Earning](/remote-work-tools/mexico-temporary-resident-visa-for-remote-workers-earning-fo/)
+- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,26 @@ intent-checked: true
 
 Freelance developers lose thousands annually to scope creep, unpaid invoices, and tax disorganization. Professional contract and invoicing tools reduce this by automating agreements, tracking time, and generating compliance reports. This guide covers the best solutions for developers managing multiple clients.
 
+## Table of Contents
+
+- [Why Contract + Invoice Integration Matters](#why-contract-invoice-integration-matters)
+- [The Ideal Freelance Workflow](#the-ideal-freelance-workflow)
+- [Top Tools for Developers](#top-tools-for-developers)
+- [Tool Comparison Table](#tool-comparison-table)
+- [Recommended Stack by Developer Type](#recommended-stack-by-developer-type)
+- [Scope](#scope)
+- [Timeline](#timeline)
+- [Rate](#rate)
+- [Payment Terms](#payment-terms)
+- [Scope Changes](#scope-changes)
+- [Termination](#termination)
+- [Confidentiality](#confidentiality)
+- [Code Sample: Automated Invoice Generator (Python)](#code-sample-automated-invoice-generator-python)
+- [Contract Best Practices for Developers](#contract-best-practices-for-developers)
+- [Avoiding Late Payments](#avoiding-late-payments)
+- [Tax Preparation with These Tools](#tax-preparation-with-these-tools)
+- [Decision Tree: Which Tool?](#decision-tree-which-tool)
+
 ## Why Contract + Invoice Integration Matters
 
 Most developers use separate tools: contracts in Google Drive, invoices in Excel, time tracking in another app. This creates gaps where:
@@ -436,10 +456,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
-- [Python script for scheduling client communication boundaries](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
-- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
+- [Automation Tools for Freelance Business Operations](/remote-work-tools/automation-tools-for-freelance-business-operations/)
+- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
+- [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
+- [Remote Agency Client NDA and Contract Signing Workflow](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
 - [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
-- [Freelance Developer Networking Strategies Online: A](/remote-work-tools/freelance-developer-networking-strategies-online/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

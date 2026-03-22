@@ -18,6 +18,26 @@ voice-checked: true
 
 A meeting free day policy gives remote teams dedicated focus time by blocking calendars for deep work. When implemented correctly, it reduces context switching, improves code quality, and gives developers time to tackle complex problems without interruption. This guide covers practical implementation strategies, scheduling tools, and policy templates specifically designed for distributed engineering teams.
 
+## Table of Contents
+
+- [The Problem with Meeting Overload in Remote Work](#the-problem-with-meeting-overload-in-remote-work)
+- [Implementing a Meeting Free Day](#implementing-a-meeting-free-day)
+- [Practical Examples from Remote Teams](#practical-examples-from-remote-teams)
+- [Supporting Async Communication](#supporting-async-communication)
+- [Measuring Success](#measuring-success)
+- [Common Pitfalls](#common-pitfalls)
+- [Tooling and Implementation Options](#tooling-and-implementation-options)
+- [Implementation Timeline and Rollout](#implementation-timeline-and-rollout)
+- [Policy Template for Your Team](#policy-template-for-your-team)
+- [Goal](#goal)
+- [The Policy](#the-policy)
+- [Approved Exceptions](#approved-exceptions)
+- [Enforcement](#enforcement)
+- [Feedback](#feedback)
+- [Measuring Impact: Metrics Framework](#measuring-impact-metrics-framework)
+- [Scaling to Multiple Teams or Company-Wide](#scaling-to-multiple-teams-or-company-wide)
+- [Getting Started Today](#getting-started-today)
+
 ## The Problem with Meeting Overload in Remote Work
 
 Remote work eliminates commute time but often creates a different problem: calendar fragmentation. Back-to-back video calls fragment your day into unusable chunks. Research consistently shows it takes 23 minutes to regain focus after an interruption. For developers, this means fewer completed features, more bugs, and increased frustration.
@@ -359,11 +379,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Team Agreements Around Meeting-Free Focus Time](/remote-work-tools/how-to-create-team-agreements-around-meeting-free-focus-time/)
-- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
-- [Password Rotation Policy Setup for Remote Teams Using](/remote-work-tools/password-rotation-policy-setup-for-remote-teams-using-shared/)
-- [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
-
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
+- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

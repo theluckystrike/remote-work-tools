@@ -15,15 +15,30 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
+
 ## The Core Challenge of Delegating Across Time Zones
 
+## Table of Contents
+
+- [The Core Challenge of Delegating Across Time Zones](#the-core-challenge-of-delegating-across-time-zones)
+- [The Four Tiers of Delegation](#the-four-tiers-of-delegation)
+- [Engineering Delegation Matrix](#engineering-delegation-matrix)
+- [Async Decision Documentation](#async-decision-documentation)
+- [Decision: [Short Title]](#decision-short-title)
+- [Decision: Migrate authentication from JWT to session cookies](#decision-migrate-authentication-from-jwt-to-session-cookies)
+- [The Manager's Async Workflow](#the-managers-async-workflow)
+- [Delegation Check: Know When to Intervene](#delegation-check-know-when-to-intervene)
+- [Time Zone Overlap Optimization](#time-zone-overlap-optimization)
+- [Building Delegation Confidence](#building-delegation-confidence)
+- [Measuring Delegation Effectiveness](#measuring-delegation-effectiveness)
+- [Scaling Delegation to 30+ Reports](#scaling-delegation-to-30-reports)
+- [Delegation Readiness Checklist for New Managers](#delegation-readiness-checklist-for-new-managers)
 
 Delegation in co-located teams relies on quick feedback loops—walk to someone's desk, ask a question, get an answer. When your team spans San Francisco, London, and Sydney, that model breaks down. The average round-trip time for a synchronous question jumps from minutes to hours or days. Waiting for responses during working hours in every time zone becomes a full-time job.
 
 Most remote managers either over-correct by maintaining tight synchronous schedules (burning themselves out) or under-corrected by becoming bottlenecks (slowing everything down). A proper delegation framework solves this by making delegation asynchronous by default while preserving the speed and quality of decisions.
 
 This guide provides a concrete framework you can implement immediately, whether you're managing three people or thirty.
-
 
 ## The Four Tiers of Delegation
 
@@ -277,11 +292,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Remote Manager Time Management Framework for Leading Across](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
-- [Convert to UTC range](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
-- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
-- [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
-- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
-
+- [Remote Manager Time Management Framework for Leading](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+- [Async Decision-Making Framework for Remote Teams](/remote-work-tools/articles/how-to-set-up-async-decision-making-framework-guide/)
+- [How to Create Remote Team Decision Making Framework for Dist](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

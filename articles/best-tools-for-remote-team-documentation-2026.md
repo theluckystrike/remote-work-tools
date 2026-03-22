@@ -18,6 +18,19 @@ intent-checked: true
 
 The average knowledge worker spends 19 minutes per day searching for information. Remote teams lose 2+ hours per week per person to scattered documentation. A good doc platform saves time, onboards faster, and prevents the "only Alice knows this" syndrome.
 
+## Table of Contents
+
+- [Quick Comparison Table](#quick-comparison-table)
+- [Notion: Maximum Flexibility, Requires Care](#notion-maximum-flexibility-requires-care)
+- [Confluence: Enterprise-Grade Permissions](#confluence-enterprise-grade-permissions)
+- [GitBook: Polished, Beautiful, Public-Ready](#gitbook-polished-beautiful-public-ready)
+- [Slite: Async-Optimized for Distributed Teams](#slite-async-optimized-for-distributed-teams)
+- [Slab: Simple Wiki, Great Search](#slab-simple-wiki-great-search)
+- [Feature Comparison: Deep Dive](#feature-comparison-deep-dive)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Cost Comparison: 1 Year](#cost-comparison-1-year)
+- [Migration Checklists](#migration-checklists)
+
 This guide compares five platforms optimized for distributed teams, with pricing, search quality, and async-first features.
 
 ## Quick Comparison Table
@@ -872,11 +885,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
-- [GitBook vs Notion for Technical Documentation](/remote-work-tools/gitbook-vs-notion-for-technical-documentation/)
+- [Notion vs Confluence for Remote Documentation](/remote-work-tools/notion-vs-confluence-remote-documentation/)
 - [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
-- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

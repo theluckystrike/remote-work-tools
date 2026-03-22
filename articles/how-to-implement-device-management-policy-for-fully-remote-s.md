@@ -285,11 +285,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
 - [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
-- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
 - [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
-- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-
+- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

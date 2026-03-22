@@ -17,6 +17,19 @@ tags: [remote-work-tools, best-of, remote-work]
 
 To maximize mileage and transportation deductions for remote teams, use the 2026 IRS standard mileage rate of 67 cents per mile for business travel and track contemporaneous records (date, purpose, starting/ending locations, miles driven) for each trip—either manually in a spreadsheet or with automated GPS apps like MileIQ or Stride Health. For self-employed remote workers and business owners reimbursing employees, maintaining detailed documentation at the time of travel is critical to defend your deductions in an audit.
 
+## Table of Contents
+
+- [Understanding Transportation Deductions for Remote Workers](#understanding-transportation-deductions-for-remote-workers)
+- [Key Documentation Requirements](#key-documentation-requirements)
+- [Building a Mileage Tracking System](#building-a-mileage-tracking-system)
+- [Automating Receipt Processing](#automating-receipt-processing)
+- [Setting Up Reimbursement Policies for Remote Teams](#setting-up-reimbursement-policies-for-remote-teams)
+- [Mileage Reimbursement Policy](#mileage-reimbursement-policy)
+- [Best Practices for Maximum Deductions](#best-practices-for-maximum-deductions)
+- [Managing Multi-State Remote Teams](#managing-multi-state-remote-teams)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Looking Ahead: 2026 Considerations](#looking-ahead-2026-considerations)
+
 ## Understanding Transportation Deductions for Remote Workers
 
 The Internal Revenue Service (IRS) allows deductions for business-related transportation expenses, but the rules differ significantly between traditional employees and self-employed individuals or business owners with remote teams.
@@ -240,11 +253,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
-- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
-- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
-
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Run a Remote Team Hackathon 2026](/remote-work-tools/how-to-run-remote-team-hackathon-2026/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

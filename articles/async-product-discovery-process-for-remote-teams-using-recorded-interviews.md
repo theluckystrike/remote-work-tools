@@ -17,6 +17,38 @@ tags: [remote-work-tools, remote-work]
 
 Building an async product discovery process for remote teams using recorded interviews transforms how distributed product teams gather user insights. Rather than requiring everyone to attend live calls across time zones, teams can record discovery sessions, share them asynchronously, and extract practical recommendations from the comfort of their own schedules.
 
+## Table of Contents
+
+- [Why Async Discovery with Recorded Interviews Works](#why-async-discovery-with-recorded-interviews-works)
+- [Step 1: Set Up Your Recording Infrastructure](#step-1-set-up-your-recording-infrastructure)
+- [Step 2: Structure Your Discovery Interview](#step-2-structure-your-discovery-interview)
+- [Interview Guide: Feature Discovery Session](#interview-guide-feature-discovery-session)
+- [Step 3: Create Your Async Review Workflow](#step-3-create-your-async-review-workflow)
+- [Interview #14 - Enterprise User Discovery](#interview-14-enterprise-user-discovery)
+- [Step 4: Synthesize Findings Async](#step-4-synthesize-findings-async)
+- [Step 5: Iterate and Improve Your Process](#step-5-iterate-and-improve-your-process)
+- [Practical Example: Weekly Discovery Cycle](#practical-example-weekly-discovery-cycle)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Tools That Support Async Discovery](#tools-that-support-async-discovery)
+- [Moving Forward](#moving-forward)
+- [Async Discovery Tools Comparison](#async-discovery-tools-comparison)
+- [Interview Preparation Checklist](#interview-preparation-checklist)
+- [1 Week Before](#1-week-before)
+- [1 Day Before](#1-day-before)
+- [15 Minutes Before](#15-minutes-before)
+- [Recording Setup](#recording-setup)
+- [Post-Interview](#post-interview)
+- [Detailed Observation Template](#detailed-observation-template)
+- [Interview Observation Form](#interview-observation-form)
+- [Async Synthesis Meeting Alternative](#async-synthesis-meeting-alternative)
+- [Day 1-3: Individual Review](#day-1-3-individual-review)
+- [Day 4-5: Clustering](#day-4-5-clustering)
+- [Day 6-7: Refinement](#day-6-7-refinement)
+- [Day 8: Synthesis Document](#day-8-synthesis-document)
+- [Day 9: Alignment Check](#day-9-alignment-check)
+- [Timeline: 2 weeks from interviews to decisions](#timeline-2-weeks-from-interviews-to-decisions)
+- [Metrics for Async Discovery Process](#metrics-for-async-discovery-process)
+
 This approach works particularly well for remote product teams with members across multiple time zones, freelance product managers working with clients globally, or distributed startups that cannot afford to synchronize everyone for live interviews.
 
 ## Why Async Discovery with Recorded Interviews Works
@@ -443,11 +475,10 @@ class DiscoveryMetrics:
 
 ## Related Articles
 
-- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
+- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
+- [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
 - [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
-- [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
-- [Async QA Signoff Process for Remote Teams Releasing Weekly](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
-
+- [Best Async Voice Message Tools for Remote Teams 2026](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
+- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

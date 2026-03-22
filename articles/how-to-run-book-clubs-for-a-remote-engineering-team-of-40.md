@@ -18,6 +18,13 @@ voice-checked: true
 
 Running a book club for a team of 40 engineers across multiple time zones presents unique challenges that differ significantly from in-person groups. The key to success lies in embracing asynchronous participation, respecting everyone's time, and creating structures that make discussion possible without requiring everyone to be online simultaneously.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Practical Example: One Quarter Cycle](#practical-example-one-quarter-cycle)
+- [Getting Started](#getting-started)
+- [Troubleshooting](#troubleshooting)
+
 This guide walks you through setting up a book club that scales to 40 remote engineers while maintaining engagement and avoiding meeting fatigue.
 
 ## Prerequisites
@@ -324,11 +331,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Remote Team Book Club Format and Facilitation Guide](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [How to Run Async Book Clubs for Distributed Engineering](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 - [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
-- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
-- [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
-
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

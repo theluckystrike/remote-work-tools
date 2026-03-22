@@ -18,6 +18,19 @@ intent-checked: true
 
 Cable clutter destroys desk aesthetics and makes troubleshooting connections a nightmare. Between monitors, charging cables, external drives, and network lines, a typical home office has 12-18 cables running everywhere. Real solutions exist—cable trays, raceways, and grommets—but they're not all equal. This guide compares the practical options with pricing and installation difficulty.
 
+## Table of Contents
+
+- [The Problem with Cable Clutter](#the-problem-with-cable-clutter)
+- [Cable Tray Systems](#cable-tray-systems)
+- [Raceways (Cable Concealment Tubes)](#raceways-cable-concealment-tubes)
+- [Desk Grommets (Desktop Pass-Through)](#desk-grommets-desktop-pass-through)
+- [Comparison Table](#comparison-table)
+- [Real-World Installation Guide](#real-world-installation-guide)
+- [Cost-Benefit Breakdown](#cost-benefit-breakdown)
+- [Cable Management Pro Tips](#cable-management-pro-tips)
+- [Recommendation by Setup Type](#recommendation-by-setup-type)
+- [Verdict](#verdict)
+
 ## The Problem with Cable Clutter
 
 Messy cables:
@@ -287,9 +300,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Cable Management Solutions for Home Office Desk](/best-cable-management-solutions-for-home-office-desk/)
-- [Cable Management Solutions for Home Office Setup](/cable-management-solutions-for-home-office-setup/)
-- [Cable Management Under Desk for Home Office With Standing](/cable-management-under-desk-for-home-office-with-standing-de/)
-
+- [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)
+- [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)
+- [Best Under Desk Cable Tray for Clean Home Office Setup 2026](/remote-work-tools/best-under-desk-cable-tray-for-clean-home-office-setup-2026/)
+- [Cable Management Under Desk for Home Office With Standing](/remote-work-tools/cable-management-under-desk-for-home-office-with-standing-de/)
+- [How to Organize Cables in Home Office Setup](/remote-work-tools/how-to-organize-cables-in-home-office-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

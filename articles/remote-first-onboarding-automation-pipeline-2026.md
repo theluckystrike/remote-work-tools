@@ -16,7 +16,23 @@ intent-checked: true
 
 {% raw %}
 
+
 Manual onboarding in distributed teams means someone remembers to send an invite, maybe. New team members wait for Slack access, then email, then GitHub. Some tasks slip through cracks. Two weeks in, a critical system access is still pending.
+
+## Table of Contents
+
+- [The Cost of Manual Onboarding](#the-cost-of-manual-onboarding)
+- [Building Your Onboarding Stack](#building-your-onboarding-stack)
+- [Complete Automation Example: First Week Flow](#complete-automation-example-first-week-flow)
+- [Tools to Build This System](#tools-to-build-this-system)
+- [Onboarding Documentation Template](#onboarding-documentation-template)
+- [Your First 24 Hours](#your-first-24-hours)
+- [Week 1: Get Oriented](#week-1-get-oriented)
+- [This Quarter](#this-quarter)
+- [Important Links](#important-links)
+- [Need Help?](#need-help)
+- [Common Mistakes](#common-mistakes)
+- [Measuring Onboarding Success](#measuring-onboarding-success)
 
 A well-designed automation pipeline ensures every new employee gets consistent, complete onboarding—regardless of who's managing it. This guide walks through building an end-to-end onboarding system that reduces admin burden and improves new employee experience.
 
@@ -491,10 +507,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
-- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
 - [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
-- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
-- [communication-preferences.yaml](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
-
+- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

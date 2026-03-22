@@ -18,6 +18,20 @@ voice-checked: true
 
 Repetitive Strain Injury (RSI) is one of the most common occupational hazards for developers. Hours of typing, mouse navigation, and repetitive motions take a toll on your wrists, hands, and forearms. The good news: proactive habits and regular wrist exercises can significantly reduce your risk of developing chronic pain or career-limiting injuries.
 
+## Table of Contents
+
+- [Understanding RSI in Programming](#understanding-rsi-in-programming)
+- [Essential Wrist Exercises for Developers](#essential-wrist-exercises-for-developers)
+- [Ergonomic Adjustments for Your Workspace](#ergonomic-adjustments-for-your-workspace)
+- [Break Reminders: Code Snippets](#break-reminders-code-snippets)
+- [Building a Prevention Routine](#building-a-prevention-routine)
+- [When to Seek Professional Help](#when-to-seek-professional-help)
+- [Advanced Prevention: The 20-20-20 Rule and Beyond](#advanced-prevention-the-20-20-20-rule-and-beyond)
+- [Measuring Your Progress](#measuring-your-progress)
+- [Ergonomic Keyboard and Mouse Selection](#ergonomic-keyboard-and-mouse-selection)
+- [Exercises for Specific Programming Tasks](#exercises-for-specific-programming-tasks)
+- [Long-Term RSI Prevention Strategy](#long-term-rsi-prevention-strategy)
+
 This guide provides practical wrist exercises you can perform at your desk, ergonomic adjustments for your workspace, and code snippets to remind you to take breaks.
 
 ## Understanding RSI in Programming
@@ -335,11 +349,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Blue Light Glasses for Programmers: A Practical Guide](/remote-work-tools/best-blue-light-glasses-for-programmers/)
-- [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)
 - [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
-- [Best Keyboard Wrist Rest for Split Keyboard Tenting Setup](/remote-work-tools/best-keyboard-wrist-rest-for-split-keyboard-tenting-setup/)
 - [Best Mouse Pad for Wrist Support During Long Coding Sessions](/remote-work-tools/best-mouse-pad-for-wrist-support-during-long-coding-sessions/)
-
+- [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
+- [Best Keyboard Wrist Rest for Split Keyboard Tenting Setup](/remote-work-tools/best-keyboard-wrist-rest-for-split-keyboard-tenting-setup/)
+- [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,21 @@ voice-checked: true
 
 Use a four-stage pipeline — local validation, CI testing, staged deployment, and production approval gate — with GitHub Actions environment protection requiring one peer approval before any production push. This workflow gives a three-person remote infrastructure team enough automation to deploy safely across time zones while keeping human oversight where it matters. Pair it with weekly deployment rotation and async runbooks stored in your infrastructure repo so the on-call engineer can execute confidently without hunting for context in Slack.
 
+## Table of Contents
+
+- [Core Principles for Small Remote Teams](#core-principles-for-small-remote-teams)
+- [Structuring Your Deployment Pipeline](#structuring-your-deployment-pipeline)
+- [Time Zone Coordination Strategies](#time-zone-coordination-strategies)
+- [Prerequisites](#prerequisites)
+- [Pre-deployment](#pre-deployment)
+- [Execution](#execution)
+- [Rollback](#rollback)
+- [Post-deployment](#post-deployment)
+- [Handling Emergency Deployments](#handling-emergency-deployments)
+- [Tooling Comparison for Small Infrastructure Teams](#tooling-comparison-for-small-infrastructure-teams)
+- [Secret and Credential Management Across Time Zones](#secret-and-credential-management-across-time-zones)
+- [Continuous Improvement](#continuous-improvement)
+
 ## Core Principles for Small Remote Teams
 
 Before exploring implementation, establish the principles that guide your workflow. Small teams benefit from explicit conventions that larger teams might handle through process overhead.
@@ -297,10 +312,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
-- [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
-- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
-- [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)
-- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
-
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Remote Team Deployment Pipeline Best Practices](/remote-work-tools/remote-team-deployment-pipeline-best-practices/)
+- [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

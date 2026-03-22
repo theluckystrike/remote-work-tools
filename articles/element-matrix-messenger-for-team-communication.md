@@ -19,6 +19,24 @@ tags: [remote-work-tools]
 
 Element is an open-source team messenger built on the Matrix protocol that gives development teams self-hosted, end-to-end encrypted communication with full Bot API access and bridging to Slack, IRC, and GitHub. It is the best option for teams that need complete control over data residency, custom bot workflows, and decentralized architecture without vendor lock-in. This guide covers setup, room management, bot integration, encryption considerations, and performance tuning for running Element Matrix as your team's primary communication platform.
 
+## Table of Contents
+
+- [Why Developers Choose Matrix for Team Chat](#why-developers-choose-matrix-for-team-chat)
+- [Setting Up Your Matrix Space](#setting-up-your-matrix-space)
+- [Room Management for Development Teams](#room-management-for-development-teams)
+- [End-to-End Encryption Considerations](#end-to-end-encryption-considerations)
+- [Performance at Scale](#performance-at-scale)
+- [Practical Team Workflows](#practical-team-workflows)
+- [Migration Considerations](#migration-considerations)
+- [Next Steps](#next-steps)
+- [Element vs. Slack vs. Discord: Cost and Feature Comparison](#element-vs-slack-vs-discord-cost-and-feature-comparison)
+- [Self-Hosting Matrix: Infrastructure and Setup](#self-hosting-matrix-infrastructure-and-setup)
+- [Slack Bridge Implementation](#slack-bridge-implementation)
+- [Bot Development for Common Workflows](#bot-development-for-common-workflows)
+- [Room Organization for Development Teams](#room-organization-for-development-teams)
+- [Performance Tuning for Growing Teams](#performance-tuning-for-growing-teams)
+- [Security Considerations](#security-considerations)
+
 ## Why Developers Choose Matrix for Team Chat
 
 Traditional team communication tools lock you into their ecosystem. Matrix operates as an open protocol, meaning your messages can travel between servers rather than being trapped in a single provider. Element provides the polished interface while maintaining this flexibility.
@@ -429,11 +447,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
+- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
 - [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
-- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
-- [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
-- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
-
+- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

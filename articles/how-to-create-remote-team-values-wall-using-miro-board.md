@@ -386,11 +386,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
-- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
 - [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
 - [How to Create Remote Team Values Documentation That Stays](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
 - [Miro vs FigJam for Remote Team Collaboration](/remote-work-tools/miro-vs-figjam-for-remote-team-collaboration/)
-
+- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/remote-work-tools/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

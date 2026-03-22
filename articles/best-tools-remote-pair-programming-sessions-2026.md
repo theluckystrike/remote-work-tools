@@ -17,6 +17,19 @@ intent-checked: true
 
 Remote pair programming should feel like sitting side-by-side at a desk. Yet lag, inconsistent control handoff, and audio quality issues make most tools feel awkward. Testing six leading pair programming tools in March 2026 reveals that latency, code execution environment, and audio integration determine success more than screen sharing quality.
 
+## Table of Contents
+
+- [The Pair Programming Problem](#the-pair-programming-problem)
+- [Tool Comparison Matrix](#tool-comparison-matrix)
+- [Detailed Tool Analysis](#detailed-tool-analysis)
+- [Real-World Scenario Comparison](#real-world-scenario-comparison)
+- [Recommendations by Team Size and Work Style](#recommendations-by-team-size-and-work-style)
+- [Setup Recommendation by Language](#setup-recommendation-by-language)
+- [Audio Comparison (Critical for Pair Programming)](#audio-comparison-critical-for-pair-programming)
+- [Cost Comparison (Annual)](#cost-comparison-annual)
+- [Pro Tips for Remote Pair Programming](#pro-tips-for-remote-pair-programming)
+- [Pair Session: Bug #1234](#pair-session-bug-1234)
+
 This guide benchmarks real tools in production scenarios and provides workflow recommendations for different pair programming styles.
 
 ## The Pair Programming Problem
@@ -534,10 +547,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
-- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
-- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
 - [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-
+- [How to Set Up Remote Pair Programming Sessions in 2026](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-2026/)
+- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
+- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
+- [How to Set Up Remote Pair Programming Workflow Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-workflow-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

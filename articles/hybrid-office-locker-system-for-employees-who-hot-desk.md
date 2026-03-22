@@ -18,6 +18,16 @@ voice-checked: true
 
 When employees hot desk, they need secure storage for personal belongings, equipment, and valuables throughout the workday. A well-designed locker system integrates with existing badge access, provides real-time availability tracking, and offers programmatic control for custom workplace workflows. This guide covers the technical implementation of a hybrid office locker system built for hot-desking environments.
 
+## Table of Contents
+
+- [Why Hot-Desking Requires Smart Locker Systems](#why-hot-desking-requires-smart-locker-systems)
+- [Core Locker System Architecture](#core-locker-system-architecture)
+- [Building the Locker API Service](#building-the-locker-api-service)
+- [Integrating with Desk Booking Systems](#integrating-with-desk-booking-systems)
+- [Badge Access Integration](#badge-access-integration)
+- [Locker Fleet Management](#locker-fleet-management)
+- [Deployment Considerations](#deployment-considerations)
+
 ## Why Hot-Desking Requires Smart Locker Systems
 
 Traditional lockers with combination locks or physical keys don't work in hot-desking scenarios. Employees can't remember codes, keys get lost, and there's no way to track which lockers are available or who currently has which locker assigned. Smart locker systems solve these problems by providing badge-controlled access, automatic assignment, and integration with desk booking platforms.
@@ -403,11 +413,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
-- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
-- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
 - [Hybrid Office Access Control System Upgrade for Flexible](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
-- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
-
+- [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
+- [Hybrid Office Badge Access Tracking Tool for Understanding](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
+- [Office Hoteling Software for Hybrid Teams 2026](/remote-work-tools/office-hoteling-software-for-hybrid-teams-2026/)
+- [Badge Access Systems for Hybrid Workplaces 2026](/remote-work-tools/badge-access-systems-for-hybrid-workplaces-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -33,6 +33,20 @@ tags: [remote-work-tools, remote-work]
 
 Run async performance reviews by structuring a two-week cycle: self-reviews in days 1-5, peer feedback in days 6-7, manager synthesis in days 8-10, and employee response in days 11-14. Use structured templates that capture technical contributions, code review activity, and collaboration rather than generic forms. Automate phase transitions and reminders through Slack or your project management tool so nothing stalls across time zones.
 
+## Table of Contents
+
+- [Why Async Performance Reviews Work Better for Distributed Teams](#why-async-performance-reviews-work-better-for-distributed-teams)
+- [Setting Up Your Async Review Infrastructure](#setting-up-your-async-review-infrastructure)
+- [Review Status Board (Notion/Jira Template)](#review-status-board-notionjira-template)
+- [Creating Effective Review Templates](#creating-effective-review-templates)
+- [Self-Review Template](#self-review-template)
+- [Peer Feedback for [Engineer Name]](#peer-feedback-for-engineer-name)
+- [Running the Review Cycle](#running-the-review-cycle)
+- [Handling Difficult Conversations](#handling-difficult-conversations)
+- [Escalation Protocol](#escalation-protocol)
+- [Measuring Review Effectiveness](#measuring-review-effectiveness)
+- [Post-Review Survey](#post-review-survey)
+
 ## Why Async Performance Reviews Work Better for Distributed Teams
 
 Traditional synchronous performance reviews create real problems in distributed engineering teams. Scheduling an one-hour conversation across three time zones means someone always attends at an inconvenient hour. Engineers in different regions receive different quality conversations depending on when they're scheduled. And the pressure of a live discussion often leads to surface-level answers rather than the reflective thinking that produces useful feedback.
@@ -293,10 +307,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
-- [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [Best Practices for Async Pull Request Reviews on](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
+- [Best Tool for Async Performance Feedback Collection for Dist](/remote-work-tools/best-tool-for-async-performance-feedback-collection-for-dist/)
 - [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
-
+- [Remote Work Performance Review Tools Comparison 2026](/remote-work-tools/remote-work-performance-review-tools-comparison-2026/)
+- [Best Async Voice Message Tools for Remote Teams 2026](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,6 +17,18 @@ voice-checked: true
 
 Remote teams juggle dozens of tools—Slack for communication, Jira for tracking, GitHub for code, Notion for documentation, and Google Calendar for meetings. Generating a coherent project status update means manually checking each platform, copying data, and synthesizing it into something useful. This process wastes hours every week.
 
+## Table of Contents
+
+- [Architecture Overview](#architecture-overview)
+- [Building Data Connectors](#building-data-connectors)
+- [Normalizing and Aggregating Data](#normalizing-and-aggregating-data)
+- [AI-Powered Synthesis](#ai-powered-synthesis)
+- [Complete Integration](#complete-integration)
+- [Deployment Considerations](#deployment-considerations)
+- [Adding Notion and Linear Connectors](#adding-notion-and-linear-connectors)
+- [Caching API Responses to Stay Within Rate Limits](#caching-api-responses-to-stay-within-rate-limits)
+- [Delivering Reports to Multiple Channels](#delivering-reports-to-multiple-channels)
+
 An AI project status generator automates this workflow by pulling data from multiple tools and using large language models to synthesize the information into a readable status report. This guide shows you how to build one from scratch.
 
 ## Architecture Overview
@@ -487,11 +499,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
 - [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
-- [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
-- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
-
+- [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Best Remote Work Project Management Tools Under 10](/remote-work-tools/best-remote-work-project-management-tools-under-10-per-user-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

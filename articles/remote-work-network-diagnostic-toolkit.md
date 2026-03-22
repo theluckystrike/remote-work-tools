@@ -17,6 +17,22 @@ tags: [remote-work-tools, remote-work]
 
 Network issues kill remote work productivity. When your video call drops or VPN slows to a crawl, you need tools to diagnose fast without calling IT. This guide covers the essential diagnostic toolkit: from simple ping checks to traffic analysis, covering macOS, Linux, and Windows.
 
+## Table of Contents
+
+- [Baseline: Know Your Normal Numbers](#baseline-know-your-normal-numbers)
+- [Layer 1: Physical and Link](#layer-1-physical-and-link)
+- [Layer 2: Connectivity](#layer-2-connectivity)
+- [Layer 3: Traceroute](#layer-3-traceroute)
+- [Layer 4: DNS Diagnostics](#layer-4-dns-diagnostics)
+- [VPN Diagnostics](#vpn-diagnostics)
+- [Bandwidth and Latency Under Load](#bandwidth-and-latency-under-load)
+- [Port and Firewall Checks](#port-and-firewall-checks)
+- [Packet Capture](#packet-capture)
+- [Quick Diagnostic Checklist Script](#quick-diagnostic-checklist-script)
+- [Diagnosing Video Call Degradation Specifically](#diagnosing-video-call-degradation-specifically)
+- [Reading ISP Problem Patterns](#reading-isp-problem-patterns)
+- [Related Reading](#related-reading)
+
 ## Baseline: Know Your Normal Numbers
 
 Run these on a good day and save the output for comparison:
@@ -361,6 +377,14 @@ Run this during your work day for a week, then share the log with your ISP when 
 - [Remote Work VoIP Setup for Home Offices](/remote-work-tools/remote-work-voip-setup-for-home-offices/)
 
 ---
+
+## Related Articles
+
+- [How to Secure Remote Team Kubernetes Clusters with Network P](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
+- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
+- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -18,6 +18,14 @@ voice-checked: false
 
 Managing access to cloud resources for remote teams presents a unique security challenge. Team members need sufficient permissions to do their work, but standing privileges create persistent attack vectors. Just-in-time (JIT) access solves this problem by granting temporary credentials only when needed and automatically revoking them afterward.
 
+## Table of Contents
+
+- [What is Just-in-Time Access?](#what-is-just-in-time-access)
+- [Prerequisites](#prerequisites)
+- [Best Practices for Remote Teams](#best-practices-for-remote-teams)
+- [Troubleshooting](#troubleshooting)
+- [Related Reading](#related-reading)
+
 This guide walks you through implementing JIT access for remote teams across major cloud providers.
 
 ## What is Just-in-Time Access?
@@ -284,6 +292,14 @@ Yes, and it is especially valuable for external parties. Contractors often recei
 - [Best Cloud Access Security Broker for Remote Teams Using](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
 - [Using Microsoft Graph API to create named locations](/remote-work-tools/how-to-implement-conditional-access-policies-for-remote-work/)
 - [How to Secure Remote Team Database Access with Just-in-Time](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
+
+## Related Articles
+
+- [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
+- [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
+- [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
+- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
+- [Best Privileged Access Management Tool for Remote IT Admins](/remote-work-tools/best-privileged-access-management-tool-for-remote-it-admins-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

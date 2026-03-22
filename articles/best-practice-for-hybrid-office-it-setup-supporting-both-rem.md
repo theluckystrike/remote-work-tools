@@ -244,10 +244,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
 - [Example ndss configuration snippet](/remote-work-tools/how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
-- [Pin configuration](/remote-work-tools/how-to-design-mother-and-parent-room-for-hybrid-office-retur/)
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
-- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
-
+- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
+- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
+- [Zero Trust Remote Access Setup Guide for Small Engineering](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

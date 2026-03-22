@@ -18,6 +18,16 @@ voice-checked: true
 
 Running weekly all-hands meetings with 50 attendees quickly adds up in cost. If you're paying per-user for a tool that doesn't scale, you're burning budget on meetings that could be handled more efficiently. This guide evaluates the most affordable video call tools for regular 50-person all-hands meetings, with practical considerations for developer teams and power users who need automation, recording, and integration support.
 
+## Table of Contents
+
+- [Understanding Your Cost Requirements](#understanding-your-cost-requirements)
+- [Top Budget-Friendly Options](#top-budget-friendly-options)
+- [Cost Comparison at Scale](#cost-comparison-at-scale)
+- [Integration Considerations for Developer Teams](#integration-considerations-for-developer-teams)
+- [Advanced: Video Call Configuration for Developer Powerusers](#advanced-video-call-configuration-for-developer-powerusers)
+- [Real-World Scenarios and Pricing Impact](#real-world-scenarios-and-pricing-impact)
+- [Recommendations by Use Case](#recommendations-by-use-case)
+
 ## Understanding Your Cost Requirements
 
 Before evaluating tools, calculate your actual annual cost. A $15/user/month plan for 50 users costs $9,000 annually. For a weekly all-hands, you only need 50 simultaneous participants—but many tools price based on total seat count, not meeting size. The sweet spot you're looking for is generous participant limits with per-host or per-room pricing rather than per-user licensing.
@@ -333,11 +343,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
+- [Zoom Plan for a Company with 200 Person Quarterly Meetings](/remote-work-tools/zoom-plan-for-a-company-with-200-person-quarterly-meetings/)
+- [Best Project Management Tool for 3 Person Startup 2026](/remote-work-tools/best-project-management-tool-for-3-person-startup-2026/)
+- [Best Async Video Messaging Tools for Distributed Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
+- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
 - [How to Prevent Laptop Overheating During Long Video Call](/remote-work-tools/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
-- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
-- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
-- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
-- [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

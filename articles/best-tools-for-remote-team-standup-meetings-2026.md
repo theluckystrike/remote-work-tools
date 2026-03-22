@@ -16,6 +16,23 @@ intent-checked: true
 {% raw %}
 ## Overview
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Geekbot](#geekbot)
+- [Standuply](#standuply)
+- [Range](#range)
+- [DailyBot](#dailybot)
+- [Slack Workflows (Native)](#slack-workflows-native)
+- [Comparison Table](#comparison-table)
+- [Real-World Scenarios](#real-world-scenarios)
+- [Engagement Metrics (Typical Deployments)](#engagement-metrics-typical-deployments)
+- [Integration Deep Dive](#integration-deep-dive)
+- [Time Cost Analysis](#time-cost-analysis)
+- [Decision Framework](#decision-framework)
+- [Adoption Tips](#adoption-tips)
+- [Bottom Line](#bottom-line)
+
 
 Synchronous standups drain 5-10 hours per week from distributed teams. Async standup tools automate collection, summarization, and reporting. This comparison covers the five most-deployed platforms: Geekbot, Standuply, Range, DailyBot, and Slack workflows (native). Each handles response rates, template customization, and team size differently.
 
@@ -374,11 +391,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/remote-work-tools/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [Remote Team Standup Automation Bot Comparison: Geekbot vs](/remote-work-tools/remote-team-standup-automation-bot-comparison-geekbot-vs-sta/)
+- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
 - [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
-- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
-- [Best Virtual Icebreaker Tool for Remote Team Meetings That](/remote-work-tools/best-virtual-icebreaker-tool-for-remote-team-meetings-that-f/)
-
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [GeekBot vs Standuply: Async Standup Tools Compared](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

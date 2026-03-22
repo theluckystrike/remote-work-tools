@@ -18,6 +18,19 @@ voice-checked: true
 
 Running effective one-on-one meetings with a distributed team requires more than copying your in-office habits into a video call. The asynchronous nature of remote work, the lack of hallway conversations, and the time zone differences all demand a more intentional approach to check-ins.
 
+## Table of Contents
+
+- [The Hidden Cost of Poor One-on-Ones](#the-hidden-cost-of-poor-one-on-ones)
+- [Why Standard One-on-One Questions Fail Remotely](#why-standard-one-on-one-questions-fail-remotely)
+- [The BASE Framework for Distributed One-on-Ones](#the-base-framework-for-distributed-one-on-ones)
+- [Weekly One-on-One Check-In](#weekly-one-on-one-check-in)
+- [Frequency and Duration Guidelines](#frequency-and-duration-guidelines)
+- [Async-First One-on-One Format](#async-first-one-on-one-format)
+- [Code Snippet: Automated Reminders](#code-snippet-automated-reminders)
+- [Adapting the Template for Different Team Sizes](#adapting-the-template-for-different-team-sizes)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Building the Habit](#building-the-habit)
+
 This guide provides a practical question template you can adapt for your distributed team, along with implementation strategies that actually work for developers and technical power users.
 
 ## The Hidden Cost of Poor One-on-Ones
@@ -306,11 +319,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Manager Peer Feedback Exchange Template for](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
-- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
-- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
 - [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
-- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
-
+- [Remote Team Manager Peer Feedback Exchange Template](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
+- [Remote Team Referral Program Template for Distributed](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
+- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

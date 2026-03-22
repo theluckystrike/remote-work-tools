@@ -33,6 +33,16 @@ tags: [remote-work-tools]
 
 Poor network quality during video calls is the most common complaint about remote work. Pixelated video, dropped audio, and "you're breaking up" are almost always solvable network problems — usually with a wired connection, better router placement, or QoS configuration rather than a faster ISP plan.
 
+## Table of Contents
+
+- [Step 1: Measure Your Actual Problem](#step-1-measure-your-actual-problem)
+- [Step 2: Switch to Wired (Ethernet)](#step-2-switch-to-wired-ethernet)
+- [Step 3: Configure Router QoS](#step-3-configure-router-qos)
+- [Step 4: Eliminate Wi-Fi Interference](#step-4-eliminate-wi-fi-interference)
+- [Step 5: Separate Work Traffic with a VLAN (Optional, High Value)](#step-5-separate-work-traffic-with-a-vlan-optional-high-value)
+- [Step 6: ISP Upgrade Decision](#step-6-isp-upgrade-decision)
+- [Quick Diagnostics When Calls Are Degrading](#quick-diagnostics-when-calls-are-degrading)
+
 This guide covers the network changes that actually improve video call quality, in order of impact.
 
 ## Step 1: Measure Your Actual Problem
@@ -277,11 +287,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
-- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
-- [How to Stop Dog Barking During Video Calls: A Complete](/remote-work-tools/how-to-stop-dog-barking-during-video-calls-work-from-home/)
 - [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-
+- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -31,6 +31,19 @@ tags: [remote-work-tools, remote-work]
 
 A home lab gives you a real infrastructure environment to experiment with, a place to run services locally for development, and a learning ground for infrastructure skills that are difficult to practice on cloud free tiers alone. For remote developers, it also means always-available compute and storage that you own.
 
+## Table of Contents
+
+- [Hardware: What to Buy in 2026](#hardware-what-to-buy-in-2026)
+- [Hypervisor: Proxmox VE](#hypervisor-proxmox-ve)
+- [Create Your First VM](#create-your-first-vm)
+- [Network: VLANs for Isolation](#network-vlans-for-isolation)
+- [DNS: pi-hole + Unbound](#dns-pi-hole-unbound)
+- [Services Worth Running in a Home Lab](#services-worth-running-in-a-home-lab)
+- [SSH Config for Lab Access](#ssh-config-for-lab-access)
+- [Remote Access via Tailscale](#remote-access-via-tailscale)
+- [Backups: The Step Most People Skip](#backups-the-step-most-people-skip)
+- [Related Reading](#related-reading)
+
 This guide covers: hardware choice, hypervisor installation, network setup, and the services worth running in a home lab for development work.
 
 ## Hardware: What to Buy in 2026
@@ -315,6 +328,14 @@ For offsite backup, Restic against a Backblaze B2 bucket costs roughly $0.006/GB
 - [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
 - [How to Set Up WireGuard VPN Server for Small Remote Development Teams](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
 - [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
+
+## Related Articles
+
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [Remote Work VoIP Setup for Home Offices](/remote-work-tools/remote-work-voip-setup-for-home-offices/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

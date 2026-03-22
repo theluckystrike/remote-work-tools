@@ -243,11 +243,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
+- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
+- [Best Tools for Remote Team Sprint Planning (2026)](/remote-work-tools/best-tools-for-remote-team-sprint-planning-2026/)
 - [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
 - [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
-- [Remote Team Story Point Velocity Trend Analysis Tool for](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
-
+- [How to Scale Remote Team Sprint Ceremonies When Splitting](/remote-work-tools/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -19,6 +19,13 @@ voice-checked: true
 
 Launch a weekly wins channel by setting a consistent posting day and format, making participation easy with simple templates, and celebrating wins visibly to build team morale. Weekly wins channels combat the invisibility of remote work achievements.
 
+## Table of Contents
+
+- [Why Weekly Wins Channels Work](#why-weekly-wins-channels-work)
+- [Prerequisites](#prerequisites)
+- [Advanced Automation Options](#advanced-automation-options)
+- [Troubleshooting](#troubleshooting)
+
 This guide covers setting up a weekly wins channel that drives genuine engagement, including configuration examples, help techniques, and automation options for teams using Slack or Discord.
 
 ## Why Weekly Wins Channels Work
@@ -33,17 +40,7 @@ Research on remote team dynamics consistently shows that recognition significant
 
 **Optional engagement** — Not everyone wants to speak up in meetings. Some team members contribute better in writing, and a channel gives them that option without pressure.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Set Up the Channel
+## Setting Up the Channel
 
 ### Slack Configuration
 
@@ -90,7 +87,7 @@ For teams using Discord, the setup follows similar principles:
 3. Create a forum channel instead for threaded discussions on individual wins
 4. Set up a recurring reminder using Discord's built-in scheduled messages
 
-### Step 2: helping Participation
+## helping Participation
 
 A channel only works if people use it. Help makes the difference between a ghost town and a thriving community.
 
@@ -118,7 +115,7 @@ When someone posts a win, acknowledge it. A simple reaction (🎉, 🚀, ✅) or
 
 Encourage team members to reply to wins with questions or additional context. This creates conversation rather than just a list of statements.
 
-### Step 3: Automation Options
+## Automation Options
 
 For teams wanting more structure, several automation approaches add value.
 
@@ -149,7 +146,7 @@ Use a Slack form or Google Form to collect wins throughout the week, then post a
 }
 ```
 
-### Step 4: What to Share
+## What to Share
 
 Provide examples so contributors understand the scope. Effective wins include:
 
@@ -161,7 +158,7 @@ Provide examples so contributors understand the scope. Effective wins include:
 
 Avoid making the channel feel like a performance review. The goal is celebration, not justification.
 
-### Step 5: Common Pitfalls
+## Common Pitfalls
 
 **Making it mandatory** — Forced participation feels performative. Keep it optional and welcoming.
 
@@ -173,7 +170,7 @@ Avoid making the channel feel like a performance review. The goal is celebration
 
 **One-sided participation** — If only certain people post, others may feel excluded. Gently encourage quieter members without pressure.
 
-### Step 6: Measuring Impact
+## Measuring Impact
 
 Track engagement over time to understand if the channel delivers value:
 
@@ -184,7 +181,7 @@ Track engagement over time to understand if the channel delivers value:
 
 A healthy weekly wins channel typically sees 40-60% team participation after the first month. Adjust help if numbers drop consistently.
 
-### Step 7: Build the Habit
+## Building the Habit
 
 Successfully integrating a weekly wins channel requires patience. Expect low engagement initially. Focus on consistency, acknowledge every contribution, and adjust based on your team's specific culture and preferences.
 
@@ -220,7 +217,7 @@ jobs:
             }
 ```
 
-### Step 8: Recognition Levels: Beyond Simple Reactions
+## Recognition Levels: Beyond Simple Reactions
 
 Create a multi-tier recognition system that reflects significance of wins:
 
@@ -233,7 +230,7 @@ Create a multi-tier recognition system that reflects significance of wins:
 **Team Recognition**: Weekly recap thread featuring standout wins. Call out specific contributions and explain why each mattered. Some teams do this as a separate Friday message:
 
 ```markdown
-### Step 9: This Week's Top Wins
+## This Week's Top Wins
 
 🏆 **@alex**: Shipped database performance optimization reducing query time by 40%
 🏆 **@sarah**: Completed accessibility audit and filed 12 actionable fixes
@@ -241,7 +238,7 @@ Create a multi-tier recognition system that reflects significance of wins:
 🏆 **@casey**: Fixed the flaky CI test suite—98% pass rate now!
 ```
 
-### Step 10: Preventing the Performance Review Trap
+## Preventing the Performance Review Trap
 
 A common mistake: using the wins channel as a performance evaluation tool. This kills authentic participation. Set clear boundaries:
 
@@ -253,7 +250,7 @@ A common mistake: using the wins channel as a performance evaluation tool. This 
 
 If wins Channel data informs performance discussions, keep that connection hidden. You're gathering morale metrics and cultural insights, not building an evidence file.
 
-### Step 11: Measuring Real Impact
+## Measuring Real Impact
 
 Track these metrics to understand whether your wins channel is working:
 
@@ -267,7 +264,7 @@ Track these metrics to understand whether your wins channel is working:
 
 Review these metrics quarterly. If any metric declines, address it immediately. A dying wins channel is worse than no wins channel.
 
-### Step 12: Example Wins Channel Lifecycle
+## Example Wins Channel Lifecycle
 
 Here's what a thriving wins channel looks like over a month:
 
@@ -297,7 +294,7 @@ Here's what a thriving wins channel looks like over a month:
 
 This progression is normal. Don't expect high engagement week one. Consistency is the key variable.
 
-### Step 13: Crisis Wins
+## Crisis Wins
 
 Unexpected bonus: wins channels become especially valuable during stressful periods.
 
@@ -309,7 +306,7 @@ During outages, tight deadlines, or organizational turbulence, the wins channel 
 
 Don't cancel wins channel during crisis. Expand it. Add more frequent celebrations during high-stress periods.
 
-### Step 14: Seasonal Variations in Wins Channel Activity
+## Seasonal Variations in Wins Channel Activity
 
 Like other team practices, wins channels have seasonal rhythm:
 
@@ -321,7 +318,7 @@ Like other team practices, wins channels have seasonal rhythm:
 
 Expect this variation. Plan wins channel facilitation accordingly. Summer might need lighter touch (more lenient participation expectations). Fall might need more active moderation (more wins to celebrate).
 
-### Step 15: Converting Wins Channel Data Into Manager Feedback
+## Converting Wins Channel Data Into Manager Feedback
 
 The wins channel creates a permanent record of what people accomplish. Use this in performance conversations:
 
@@ -338,7 +335,7 @@ Or: "You haven't posted any wins recently. Is everything okay? Are you feeling b
 
 The wins channel becomes a lightweight performance visibility tool without feeling like surveillance.
 
-### Step 16: Avoiding Common Pitfalls (Revisited with Practical Solutions)
+## Avoiding Common Pitfalls (Revisited with Practical Solutions)
 
 **Pitfall: "My wins feel too small"**
 Solution: Frame "small" wins explicitly. Post wins like:
@@ -360,21 +357,6 @@ Solution: If managers or senior people start using wins to judge others, announc
 
 Then demonstrate: post wins about failures you learned from, wins about asking for help, wins about admitting you were wrong.
 ---
-
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions
@@ -401,11 +383,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
-- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
 - [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
-
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
+- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/remote-work-tools/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

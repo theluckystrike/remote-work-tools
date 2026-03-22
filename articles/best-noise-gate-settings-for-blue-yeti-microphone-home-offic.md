@@ -27,6 +27,22 @@ voice-checked: true
 
 For a Blue Yeti in a quiet home office, set your noise gate threshold to -40 dB, attack to 5 ms, hold to 100 ms, release to 150 ms, and range to -60 dB. For noisy environments with street noise or HVAC, raise the threshold to -35 dB and increase hold and release to 200 ms each. These settings work in OBS Studio, Voicemeeter, or any noise gate plugin, and they eliminate background noise while keeping your voice clean and natural.
 
+## Table of Contents
+
+- [Understanding How Noise Gates Work](#understanding-how-noise-gates-work)
+- [Recommended Software for Noise Gate Processing](#recommended-software-for-noise-gate-processing)
+- [Optimal Settings for Different Scenarios](#optimal-settings-for-different-scenarios)
+- [Implementing Noise Gate in OBS](#implementing-noise-gate-in-obs)
+- [Integrating Voicemeeter with Blue Yeti](#integrating-voicemeeter-with-blue-yeti)
+- [Practical Testing and Fine-tuning](#practical-testing-and-fine-tuning)
+- [Beyond Noise Gates: Complementary Techniques](#beyond-noise-gates-complementary-techniques)
+- [Advanced Parameter Tuning Guide](#advanced-parameter-tuning-guide)
+- [Microphone Placement and Positioning](#microphone-placement-and-positioning)
+- [Troubleshooting Common Noise Gate Problems](#troubleshooting-common-noise-gate-problems)
+- [Software Gate vs. Hardware Gate](#software-gate-vs-hardware-gate)
+- [Real-World Profiles for Different Users](#real-world-profiles-for-different-users)
+- [Integration with Complete Audio Chain](#integration-with-complete-audio-chain)
+
 ## Understanding How Noise Gates Work
 
 A noise gate is an audio processor that mutes signals below a certain threshold while allowing louder sounds to pass through. When your voice drops below the threshold, the gate closes and silences the signal — including background noise that would otherwise creep into your audio.
@@ -500,11 +516,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Noise Gate Microphone Setting for Remote Parents With](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
-- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
+- [Best Noise Gate Microphone Setting for Remote Parents](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
 - [Best Noise Cancelling Microphones for Home Offices Busy](/remote-work-tools/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
+- [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
 - [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
-- [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
-
+- [Best Noise Canceling Earbuds for Remote Work 2026](/remote-work-tools/best-noise-canceling-earbuds-for-remote-work-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

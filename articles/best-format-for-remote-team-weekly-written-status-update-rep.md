@@ -17,6 +17,32 @@ score: 9
 
 Daily standups work well when teams share a physical space, but remote teams often find that synchronous meetings create more problems than they solve. Timezone conflicts, meeting fatigue, and the overhead of coordinating schedules lead many teams to explore written alternatives. The best format for a remote team weekly written status update replacing standup meetings focuses on clarity, async-first communication, and practical recommendations.
 
+## Table of Contents
+
+- [Why Weekly Written Updates Outperform Daily Standups](#why-weekly-written-updates-outperform-daily-standups)
+- [Core Components of an Effective Weekly Status Format](#core-components-of-an-effective-weekly-status-format)
+- [Accomplishments](#accomplishments)
+- [Current Focus](#current-focus)
+- [Upcoming Plans](#upcoming-plans)
+- [Notes](#notes)
+- [Implementing the Format in Your Team](#implementing-the-format-in-your-team)
+- [Weekly Status Update - [Name]](#weekly-status-update-name)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Adapting for Different Team Sizes](#adapting-for-different-team-sizes)
+- [Measuring Success](#measuring-success)
+- [Advanced Update Formats for Specialized Teams](#advanced-update-formats-for-specialized-teams)
+- [Team Health Indicators](#team-health-indicators)
+- [Strategic Notes](#strategic-notes)
+- [Pipeline Update](#pipeline-update)
+- [Blockers](#blockers)
+- [Integrating Weekly Updates with Project Management Tools](#integrating-weekly-updates-with-project-management-tools)
+- [Accomplishments](#accomplishments)
+- [Current Focus](#current-focus)
+- [Blockers](#blockers)
+- [The Meta-Update: Measuring Update Effectiveness](#the-meta-update-measuring-update-effectiveness)
+- [Troubleshooting Common Problems](#troubleshooting-common-problems)
+- [Customizing for Your Team's Work Style](#customizing-for-your-teams-work-style)
+
 This guide provides a practical structure for implementing weekly written status updates that keep your team aligned without the daily meeting overhead.
 
 ## Why Weekly Written Updates Outperform Daily Standups
@@ -382,11 +408,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Create Asynchronous Client Update Format for Remote P](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
-- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
-- [Veed API - Upload and process video](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
 - [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+- [How to Create Asynchronous Client Update Format for Remote P](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
+- [How to Run Sprints with a Remote Team of 4 Engineers](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
 - [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-
+- [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

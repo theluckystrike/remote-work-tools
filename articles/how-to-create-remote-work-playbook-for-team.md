@@ -33,6 +33,20 @@ tags: [remote-work-tools, remote-work]
 
 A remote work playbook is the single source of truth for how your distributed team operates day-to-day. Without one, new hires spend weeks reconstructing informal knowledge, decisions get made inconsistently, and team culture drifts. With a good one, everyone from a new contractor to a senior engineer can answer operational questions without pinging a colleague.
 
+## Table of Contents
+
+- [What a Remote Work Playbook Should Cover](#what-a-remote-work-playbook-should-cover)
+- [Starting Template](#starting-template)
+- [Communication](#communication)
+- [Tooling](#tooling)
+- [Workflow Definitions](#workflow-definitions)
+- [Incident Response](#incident-response)
+- [Automation Examples That Save Time](#automation-examples-that-save-time)
+- [Implementation Strategy](#implementation-strategy)
+- [Choosing Where to Host the Playbook](#choosing-where-to-host-the-playbook)
+- [Making It Stick: Adoption Patterns That Work](#making-it-stick-adoption-patterns-that-work)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+
 This guide walks through building a playbook that your team will actually use—not a static wiki that rots in a shared drive.
 
 ## What a Remote Work Playbook Should Cover
@@ -261,11 +275,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
 - [Remote Work Playbook Template for Startups](/remote-work-tools/remote-work-playbook-template-for-startups/)
-- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
-- [How to Create a Morning Routine for Remote Work](/remote-work-tools/how-to-create-morning-routine-for-remote-work/)
-- [How to Create Remote Work Nanny Cam Policy That Respects](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
-
+- [How to Organize Remote Team Playbook Documentation for](/remote-work-tools/how-to-organize-remote-team-playbook-documentation-for-repea/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

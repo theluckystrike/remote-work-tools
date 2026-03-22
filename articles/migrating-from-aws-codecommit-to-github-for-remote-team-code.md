@@ -18,6 +18,16 @@ voice-checked: true
 
 Remote teams increasingly need collaboration features that AWS CodeCommit cannot fully provide. While CodeCommit served many organizations well, GitHub's pull request workflows, Actions automation, and ecosystem integrations make it a stronger choice for distributed development teams. This guide walks through the migration process with practical commands and configuration examples you can apply immediately.
 
+## Table of Contents
+
+- [Why Remote Teams Choose GitHub Over CodeCommit](#why-remote-teams-choose-github-over-codecommit)
+- [Pre-Migration Preparation](#pre-migration-preparation)
+- [Migration Strategy: Mirror Git Repositories](#migration-strategy-mirror-git-repositories)
+- [Updating Developer Workflows](#updating-developer-workflows)
+- [Handling AWS-Specific Integrations](#handling-aws-specific-integrations)
+- [Preserving Code Review History](#preserving-code-review-history)
+- [Post-Migration Checklist](#post-migration-checklist)
+
 ## Why Remote Teams Choose GitHub Over CodeCommit
 
 CodeCommit offers secure Git hosting within AWS, but remote teams often encounter friction with its limited collaboration features. GitHub provides code review tools, project management boards, and a marketplace of integrations that remote teams rely on for async communication.
@@ -269,10 +279,11 @@ After two to four weeks of stable operation on GitHub, archive or delete the Cod
 
 ## Related Articles
 
-- [Migrating from Google Forms to Typeform for Remote Team](/migrating-from-google-forms-to-typeform-for-remote-team-surv/)
-- [Best Practice for Remote Team Code Review Comments](/best-practice-for-remote-team-code-review-comments-keeping-f/)
-- [Find all GitHub repositories where user is admin](/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
-
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [Best Remote Work Tools for Java Teams Migrating from](/remote-work-tools/best-remote-work-tools-for-java-teams-migrating-from-monolit/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

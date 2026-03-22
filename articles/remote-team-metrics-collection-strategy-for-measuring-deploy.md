@@ -20,6 +20,21 @@ intent-checked: true
 
 Deployment lead time stands as one of the most critical metrics for distributed software teams. When your team spans multiple time zones, understanding how long code changes take to reach production becomes essential for identifying bottlenecks, improving processes, and maintaining healthy deployment cadences. This guide provides a practical approach to collecting deployment lead time metrics specifically tailored for remote and distributed teams.
 
+## Table of Contents
+
+- [Understanding Deployment Lead Time for Remote Teams](#understanding-deployment-lead-time-for-remote-teams)
+- [Setting Up Your Metrics Collection Pipeline](#setting-up-your-metrics-collection-pipeline)
+- [Real-World Workflow Examples](#real-world-workflow-examples)
+- [Tools for Collecting Lead Time Metrics](#tools-for-collecting-lead-time-metrics)
+- [Practical Tips for Remote Teams](#practical-tips-for-remote-teams)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Building Dashboards for Visibility](#building-dashboards-for-visibility)
+- [Comparative Analysis Across Teams](#comparative-analysis-across-teams)
+- [Handling Variability in Distributed Teams](#handling-variability-in-distributed-teams)
+- [Actionable Improvements from Lead Time Data](#actionable-improvements-from-lead-time-data)
+- [Integration with Development Workflow](#integration-with-development-workflow)
+- [Moving Forward](#moving-forward)
+
 ## Understanding Deployment Lead Time for Remote Teams
 
 Deployment lead time measures the elapsed time from code commit to production deployment. For distributed teams, this metric carries additional weight since communication delays and asynchronous workflows naturally extend the time between code submission and deployment. The key lies not in eliminating these delays but in measuring them accurately and identifying opportunities for improvement.
@@ -318,12 +333,11 @@ There's no universal target. Start by tracking baseline data for 4-6 weeks, then
 
 ## Related Articles
 
-- [DORA Metrics for Distributed Engineering Teams](/remote-work-tools/dora-metrics-for-distributed-engineering-teams/)
-- [CI/CD Pipeline Optimization for Remote Teams](/remote-work-tools/ci-cd-pipeline-optimization-for-remote-teams/)
-- [Code Review Processes for Async Teams](/remote-work-tools/code-review-processes-for-async-teams/)
-- [Deployment Safety Systems for Remote DevOps](/remote-work-tools/deployment-safety-systems-for-remote-devops/)
-- [Monitoring Deployment Quality Across Time Zones](/remote-work-tools/monitoring-deployment-quality-across-time-zones/)
-
+- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
+- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Run Remote Team Quarterly Business Review](/remote-work-tools/how-to-run-remote-team-quarterly-business-review-for-distrib/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

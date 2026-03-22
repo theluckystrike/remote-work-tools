@@ -10,7 +10,8 @@ tags: [remote-work-tools, documentation, playbooks, workflows, team-collaboratio
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 {% raw %}
 
@@ -120,6 +121,16 @@ dependencies:
 ---
 ```
 
+## Table of Contents
+
+- [Linking Playbooks Together](#linking-playbooks-together)
+- [Related Playbooks](#related-playbooks)
+- [Automating Playbook Access](#automating-playbook-access)
+- [Keeping Playbooks Concise](#keeping-playbooks-concise)
+- [Testing Your Playbooks](#testing-your-playbooks)
+- [Maintaining Playbooks Over Time](#maintaining-playbooks-over-time)
+- [Onboarding New Team Members with Playbooks](#onboarding-new-team-members-with-playbooks)
+
 ## Linking Playbooks Together
 
 Complex processes rarely exist in isolation. A deployment playbook might link to a rollback playbook, which in turn links to a communication template for notifying stakeholders. Create a network of related playbooks rather than isolated documents.
@@ -215,9 +226,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Organize Remote Team Runbook Documentation for On-Call Engineers 2026](/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
-- [Best Documentation Linting Tool for Remote Teams](/best-documentation-linting-tool-for-remote-teams-enforcing-w/)
-- [Example OpenAPI specification snippet](/best-practice-for-remote-team-api-documentation-keeping-inte/)
-
+- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
+- [Remote Work Playbook Template for Startups](/remote-work-tools/remote-work-playbook-template-for-startups/)
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
+- [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

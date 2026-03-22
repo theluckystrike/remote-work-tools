@@ -17,6 +17,26 @@ voice-checked: true
 
 Remote design review with clients requires tools that bridge visual communication gaps effectively. When you're working with stakeholders across different time zones, the right annotation tool transforms vague feedback into actionable design changes. This guide examines the essential features and practical implementations for annotation tools in client-facing design workflows.
 
+## Table of Contents
+
+- [Core Requirements for Client Design Reviews](#core-requirements-for-client-design-reviews)
+- [Practical Annotation Workflows](#practical-annotation-workflows)
+- [Tool Evaluation Criteria](#tool-evaluation-criteria)
+- [Implementation Recommendations](#implementation-recommendations)
+- [Common Challenges and Solutions](#common-challenges-and-solutions)
+- [Annotation Tool Comparison Chart](#annotation-tool-comparison-chart)
+- [Tool-Specific Implementation Guides](#tool-specific-implementation-guides)
+- [Client Annotation Guidelines Document](#client-annotation-guidelines-document)
+- [How to Leave Feedback](#how-to-leave-feedback)
+- [Feedback Types We Accept](#feedback-types-we-accept)
+- [Review Timeline](#review-timeline)
+- [What Happens Next](#what-happens-next)
+- [Extracting Feedback Into Development Tickets](#extracting-feedback-into-development-tickets)
+- [From Design Review Comment #47](#from-design-review-comment-47)
+- [Async Review Workflow Template](#async-review-workflow-template)
+- [Mobile Design Annotation Best Practices](#mobile-design-annotation-best-practices)
+- [Measuring Annotation Effectiveness](#measuring-annotation-effectiveness)
+
 ## Core Requirements for Client Design Reviews
 
 Before evaluating specific tools, you need to understand what makes annotation effective for client collaboration. The primary goal is converting client feedback into precise, actionable design changes without requiring synchronous meetings.
@@ -430,10 +450,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 ## Related Articles
 
 - [Best Tools for Async Annotation and Commenting on Design](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)
-- [Best Email Clients for Remote Productivity 2026](/remote-work-tools/best-email-clients-remote-productivity-2026/)
-- [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
-- [Best Screen Sharing Tools for Presenting Designs to Clients](/remote-work-tools/screen-sharing-tool-for-presenting-designs-to-clients-remote/)
-- [Best CRM for Solo Consultant Managing 30 Active Clients](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
-
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
+- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
+- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
+- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

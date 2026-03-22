@@ -374,10 +374,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [How to Prevent Burnout as Remote Developer](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
+- [Remote Working Parent Burnout Prevention Checklist](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
 - [Remote Work Burnout Prevention Tools Guide](/remote-work-tools/remote-work-burnout-prevention-tools/)
-- [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
-- [How to Prevent Back Pain from Couch Working as a Remote](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
-- [How to Prevent Knowledge Silos When Remote Team Grows Past](/remote-work-tools/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
-
+- [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
+- [Remote Team Shadow IT Discovery and Management Guide for IT](/remote-work-tools/remote-team-shadow-it-discovery-and-management-guide-for-it-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -12,10 +12,41 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Prometheus Monitoring Setup for Remote Infrastructure"
+description: "Set up Prometheus and Grafana to monitor remote servers, containers, and services. Covers exporters, alerting rules, and dashboard config for distributed infra."
+date: 2026-03-21
+author: theluckystrike
+permalink: /prometheus-monitoring-remote-infrastructure/
+categories: [guides]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
 Remote infrastructure needs observability. Without it, you find out about a crashed service when a client emails you, not when it goes down at 3am. Prometheus scrapes metrics from your servers and containers every 15 seconds. Grafana turns those metrics into dashboards. Alertmanager sends you a page before the client notices.
+
+## Table of Contents
+
+- [Architecture](#architecture)
+- [Install on the Monitoring Server](#install-on-the-monitoring-server)
+- [Prometheus Scrape Config](#prometheus-scrape-config)
+- [Install Node Exporter on Each Target](#install-node-exporter-on-each-target)
+- [Firewall Rules](#firewall-rules)
+- [Alerting Rules](#alerting-rules)
+- [Alertmanager Config](#alertmanager-config)
+- [Grafana Dashboard Provisioning](#grafana-dashboard-provisioning)
+- [Start the Stack](#start-the-stack)
+- [Query Examples](#query-examples)
+- [Monitoring Stack Comparison](#monitoring-stack-comparison)
+- [Step-by-Step Implementation Guide for Remote Teams](#step-by-step-implementation-guide-for-remote-teams)
+- [Additional Exporters for Remote Infrastructure](#additional-exporters-for-remote-infrastructure)
+- [Related Reading](#related-reading)
 
 This guide builds a complete monitoring stack: Prometheus, Grafana, and Node Exporter on a dedicated monitoring server, with targets across your fleet.
 
@@ -404,6 +435,14 @@ Yes — and you should. Use a Prometheus client library (`prometheus-client` for
 - [How to Secure Your Remote Team CI/CD Pipeline from Supply Chain Attacks](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
 - [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
 - [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
+
+## Related Articles
+
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Setting Up Grafana Dashboards for Remote Teams](/remote-work-tools/setting-up-grafana-dashboards-for-remote-teams/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [How to Monitor Remote Employee Endpoint Health](/remote-work-tools/how-to-monitor-remote-employee-endpoint-health-without-invad/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

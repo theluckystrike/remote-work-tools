@@ -17,6 +17,16 @@ tags: [remote-work-tools]
 
 Gitea is a 60MB binary that gives your team GitHub-like features: repos, issues, pull requests, webhooks, and Gitea Actions (compatible with GitHub Actions syntax). Run it on a $6/month VPS and own your code. This guide covers a production Docker deployment with SSH, SMTP, and backup.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Gitea API Automation](#gitea-api-automation)
+- [Upgrading Gitea](#upgrading-gitea)
+- [Monitoring Gitea Health](#monitoring-gitea-health)
+- [Managing Multiple Runners and Labels](#managing-multiple-runners-and-labels)
+- [Pull Request Review Workflow](#pull-request-review-workflow)
+- [Related Reading](#related-reading)
+
 ## Prerequisites
 
 Before you begin, make sure you have the following ready:
@@ -484,6 +494,14 @@ Configure `default_delete_branch_after_merge: true` to keep the branch list clea
 - [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
 
 ---
+
+## Related Articles
+
+- [SSH Tunnels for Remote Database Access](/remote-work-tools/ssh-tunnels-remote-database-access/)
+- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
+- [How to Set Up Woodpecker CI for Self-Hosted](/remote-work-tools/how-to-set-up-woodpecker-ci-for-self-hosted/)
+- [Setting Up Keycloak for Team SSO](/remote-work-tools/setting-up-keycloak-for-team-sso/)
+- [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

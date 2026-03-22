@@ -18,6 +18,24 @@ voice-checked: true
 
 Hungary introduced its digital nomad visa in 2021, officially called the "White Card" (Fehér Kártya), making it one of the more accessible European options for remote workers. The White Card allows non-EU citizens to live in Hungary for up to two years while working remotely for employers or clients outside the country. This guide covers the application process, requirements, and practical considerations for developers and power users.
 
+## Table of Contents
+
+- [Eligibility Requirements](#eligibility-requirements)
+- [Required Documents](#required-documents)
+- [Application Process](#application-process)
+- [Key Considerations for Developers](#key-considerations-for-developers)
+- [Timeline Estimate](#timeline-estimate)
+- [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
+- [Cost-of-Living Analysis for Digital Nomads](#cost-of-living-analysis-for-digital-nomads)
+- [Visa Comparison: Hungary vs Alternatives](#visa-comparison-hungary-vs-alternatives)
+- [Hungarian Banking Setup Guide](#hungarian-banking-setup-guide)
+- [Remote Work Documentation Requirements](#remote-work-documentation-requirements)
+- [Tax Residency Clarification](#tax-residency-clarification)
+- [Post-Approval Logistics](#post-approval-logistics)
+- [Internet and Infrastructure Assessment](#internet-and-infrastructure-assessment)
+- [Moving Forward](#moving-forward)
+- [Pre-Departure Checklist](#pre-departure-checklist)
+
 ## Eligibility Requirements
 
 The Hungary digital nomad visa targets remote workers who meet specific income and employment criteria. You must demonstrate stable monthly income of at least €2,000 (approximately $2,150 USD) from remote work activities. This threshold applies regardless of whether you're employed or self-employed, though the documentation differs slightly between the two categories.
@@ -342,11 +360,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 - [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-- [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
-
+- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

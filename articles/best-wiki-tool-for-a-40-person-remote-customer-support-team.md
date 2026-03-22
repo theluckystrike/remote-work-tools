@@ -18,6 +18,22 @@ voice-checked: true
 
 Use Notion for flexible formatting and permission controls, Confluence if your team prefers native Jira integration, or implement a lightweight wiki in GitHub if agents can use Markdown. The key is integration with your support platform (Zendesk, Intercom), fast search performance, granular permissions for sensitive escalation procedures, and async contribution across time zones.
 
+## Table of Contents
+
+- [Key Requirements for Customer Support Wikis](#key-requirements-for-customer-support-wikis)
+- [Solution 1: Notion — The Flexible All-Rounder](#solution-1-notion-the-flexible-all-rounder)
+- [Solution 2: GitBook — Developer-Friendly Documentation](#solution-2-gitbook-developer-friendly-documentation)
+- [Solution 3: Confluence — Enterprise Scale](#solution-3-confluence-enterprise-scale)
+- [Solution 4: Outline — Open-Source Wiki](#solution-4-outline-open-source-wiki)
+- [Decision Framework](#decision-framework)
+- [Integrating Your Wiki with Zendesk](#integrating-your-wiki-with-zendesk)
+- [Structuring Your Knowledge Base for a Support Team](#structuring-your-knowledge-base-for-a-support-team)
+- [Keeping Content Fresh Across Time Zones](#keeping-content-fresh-across-time-zones)
+- [Handling Multiple Languages in a Global Support Team](#handling-multiple-languages-in-a-global-support-team)
+- [Implementation Checklist](#implementation-checklist)
+- [Measuring Success](#measuring-success)
+- [Related Reading](#related-reading)
+
 ## Key Requirements for Customer Support Wikis
 
 A 40-person remote support team has distinct needs that differ from engineering or marketing wikis:
@@ -270,6 +286,14 @@ A well-implemented wiki reduces agent onboarding time by 40% and improves first-
 - [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
 - [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 - [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
+
+## Related Articles
+
+- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
+- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
+- [Front vs HelpScout for Remote Customer Support](/remote-work-tools/front-vs-helpscout-for-remote-customer-support/)
+- [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

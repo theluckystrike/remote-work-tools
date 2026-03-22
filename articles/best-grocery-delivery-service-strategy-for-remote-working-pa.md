@@ -27,6 +27,22 @@ score: 9
 
 Remote working parents face a unique challenge: while the flexibility of working from home should theoretically make errands easier, the constant presence of children and the blurred boundaries between work and personal tasks often create more chaos than convenience. Grocery shopping—traditionally a simple weekly task—becomes a logistic puzzle when you're balancing video calls, helping with homework, and keeping tiny humans fed.
 
+## Table of Contents
+
+- [The Core Problem: Shopping Burns Focus Time](#the-core-problem-shopping-burns-focus-time)
+- [Strategy One: Recurring Orders with Scheduled Deliveries](#strategy-one-recurring-orders-with-scheduled-deliveries)
+- [Strategy Two: Script Your Order Management](#strategy-two-script-your-order-management)
+- [Strategy Three: Time-Block Delivery Windows](#strategy-three-time-block-delivery-windows)
+- [Strategy Four: Build a Household Command Center](#strategy-four-build-a-household-command-center)
+- [Strategy Five: Batch Menu Planning](#strategy-five-batch-menu-planning)
+- [Strategy Six: Optimize Your Delivery Service Settings](#strategy-six-optimize-your-delivery-service-settings)
+- [Putting It All Together](#putting-it-all-together)
+- [Service Comparison for Remote Working Parents](#service-comparison-for-remote-working-parents)
+- [Managing Nutritional Preferences and Dietary Restrictions](#managing-nutritional-preferences-and-dietary-restrictions)
+- [Reducing Packaging Waste](#reducing-packaging-waste)
+- [Long-Term System Evolution](#long-term-system-evolution)
+- [Avoiding Common Implementation Failures](#avoiding-common-implementation-failures)
+
 This guide provides a practical strategy for optimizing grocery delivery that works specifically for remote working parents who need to protect their focus time while ensuring their household runs smoothly.
 
 ## The Core Problem: Shopping Burns Focus Time
@@ -294,10 +310,9 @@ Trying to change everything at once. Pick one or two practices, implement them w
 ## Related Articles
 
 - [Best Meal Delivery Service Comparison for Remote Working](/remote-work-tools/best-meal-delivery-service-comparison-for-remote-working-fam/)
-- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
-- [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
-- [Remote Team Feature Delivery Predictability Metric for](/remote-work-tools/remote-team-feature-delivery-predictability-metric-for-distr/)
-- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
-
+- [Best Practice for Remote Real Estate Photographers](/remote-work-tools/best-practice-for-remote-real-estate-photographers-deliverin/)
+- [Best Practice for Measuring Remote Team Alignment](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Best Quick Healthy Snack Prep Ideas for Remote Working](/remote-work-tools/best-quick-healthy-snack-prep-ideas-for-remote-working-parents/)
+- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -13,6 +13,7 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+{% raw %}
 title: [Action-oriented title: "Configure PostgreSQL Connection Pooling"]
 last_verified: YYYY-MM-DD
 verified_by: @username
@@ -139,12 +140,11 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
+- [Best Practice for Remote Team Documentation Training](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
 - [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
-- [How to Create Remote Team Operations Handbook From Scratch](/remote-work-tools/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
-- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
-- [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
-
+- [Best Practice for Remote Team Onboarding Wiki](/remote-work-tools/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
+- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
+{% endraw %}

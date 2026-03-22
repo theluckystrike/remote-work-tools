@@ -17,6 +17,19 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Keep your remote team of 2 operating under $50/month by combining free tiers and affordable tools. Use Slack free, Google Drive, Linear or GitHub, and Airtable to replace expensive all-in-one platforms. This guide shows you the exact tool combinations bootstrapped teams use to stay productive without breaking the bank.
 
+## Table of Contents
+
+- [Making the Most of Your Budget Stack](#making-the-most-of-your-budget-stack)
+- [What Makes a Tool Stack "Budget-Friendly" for a Team of Two](#what-makes-a-tool-stack-budget-friendly-for-a-team-of-two)
+- [Communication Tools: Staying Connected Without the Cost](#communication-tools-staying-connected-without-the-cost)
+- [Project Management: Keeping Tasks Organized](#project-management-keeping-tasks-organized)
+- [File Storage and Document Collaboration](#file-storage-and-document-collaboration)
+- [Time Tracking and Invoicing](#time-tracking-and-invoicing)
+- [Video Conferencing](#video-conferencing)
+- [Building Your Stack: Recommended Combinations](#building-your-stack-recommended-combinations)
+- [Implementation: Setting Up Your Stack](#implementation-setting-up-your-stack)
+- [Making the Most of Your Budget Stack](#making-the-most-of-your-budget-stack)
+
 ## Making the Most of Your Budget Stack
 
 To maximize your budget tool stack:
@@ -428,11 +441,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Remote Team Retreat Planning Guide Budget and Logistics](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
-- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
-- [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
-
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
+- [How to Monitor Remote Team Tool Response Times for](/remote-work-tools/how-to-monitor-remote-team-tool-response-times-for-identifyi/)
+- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [How to Handle Remote Team Tool Consolidation When Rapid](/remote-work-tools/how-to-handle-remote-team-tool-consolidation-when-rapid-grow/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

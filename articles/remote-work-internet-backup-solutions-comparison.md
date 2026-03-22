@@ -18,6 +18,17 @@ intent-checked: true
 
 Mobile hotspot provides the cheapest backup ($10-30/month) but high latency unsuitable for video calls. Starlink offers fast backup connectivity (50-100 Mbps) at premium pricing ($120/month equipment + service). Fixed wireless access (FWA) delivers consistent speeds (100-300 Mbps) at moderate cost ($50-80/month). Dual WAN routers automate failover, transparent to connected devices, but require compatible internet sources. For remote workers, the optimal choice depends on outage frequency, acceptable latency, and budget. Testing reveals Starlink most reliable but expensive; fixed wireless best value; mobile hotspot acceptable only for asynchronous work.
 
+## Table of Contents
+
+- [Why Backup Internet Matters for Remote Workers](#why-backup-internet-matters-for-remote-workers)
+- [Solution 1: Mobile Hotspot Backup](#solution-1-mobile-hotspot-backup)
+- [Solution 2: Starlink Satellite Internet](#solution-2-starlink-satellite-internet)
+- [Solution 3: Fixed Wireless Access (FWA)](#solution-3-fixed-wireless-access-fwa)
+- [Solution 4: Dual WAN Router with Automatic Failover](#solution-4-dual-wan-router-with-automatic-failover)
+- [Comparison Table](#comparison-table)
+- [Recommended Combinations](#recommended-combinations)
+- [Implementation Tips](#implementation-tips)
+
 ## Why Backup Internet Matters for Remote Workers
 
 A single internet outage costs a remote worker hours of lost productivity. Conference calls drop, video recordings stop, file syncing pauses. Unlike traditional offices where internet outages affect a building, remote workers face home internet reliability issues frequently. ISP outages average 4-8 hours annually in many regions; line-of-sight issues, weather, or hardware failures create unexpected gaps.
@@ -249,10 +260,9 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 ## Related Articles
 
 - [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
-- [On Android, enable tethering via settings](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
+- [Remote Work Internet Redundancy Setup Guide](/remote-work-tools/remote-work-internet-redundancy-setup-guide/)
 - [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
-- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
-- [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
-
+- [Best Fiber Internet Providers in Lisbon for Remote](/remote-work-tools/best-fiber-internet-providers-in-lisbon-for-remote-developer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,6 +18,19 @@ intent-checked: true
 
 ## The Remote Retrospective Challenge
 
+## Table of Contents
+
+- [The Remote Retrospective Challenge](#the-remote-retrospective-challenge)
+- [Miro (Miro Inc.)](#miro-miro-inc)
+- [RetroTool (RetroTool)](#retrotool-retrotool)
+- [FunRetro (Funretro)](#funretro-funretro)
+- [Confluence + Atlassian Ecosystem (Atlassian)](#confluence-atlassian-ecosystem-atlassian)
+- [Google Jamboard + Docs (Google)](#google-jamboard-docs-google)
+- [Comparison Table](#comparison-table)
+- [Real-World Workflow: Planning a Remote Retro](#real-world-workflow-planning-a-remote-retro)
+- [Production-Grade Retro Best Practices](#production-grade-retro-best-practices)
+- [Facilitator Tips](#facilitator-tips)
+
 Retrospectives are where teams improve. In-person retros thrive on energy: sticky notes get tossed, ideas build on each other, group vibe reveals unspoken frustrations. Remote retros collapse into passive silence. Cameras off, chat messages buried, no psychological safety to voice real concerns.
 
 Most distributed teams use generic tools—Google Docs, Miro, Figma—and end up with blank boards. Participants wait for the facilitator to type. Anonymous feedback goes missing. Action items from last sprint vanish.
@@ -376,14 +389,11 @@ This works for distributed timezones but loses real-time energy.
 
 ## Related Articles
 
-- [How to Run Effective Remote Team Skip Level Meetings](/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
-- [Best Project Management Tools for Distributed Teams](/remote-work-tools/)
-- [Building Psychological Safety in Remote Teams](/remote-work-tools/)
-- [Agile Frameworks for Remote-First Organizations](/remote-work-tools/)
-- [How to Track Action Items Across Teams](/remote-work-tools/)
-
----
-
+- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
+- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
+- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}
