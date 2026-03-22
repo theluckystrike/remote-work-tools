@@ -276,6 +276,16 @@ For a 5-person agency crossing six figures in revenue, this is a worthwhile inve
 ---
 
 
+
+
+| Tool | Multi-Currency | Receipt Scanning | Integrations | Pricing |
+|---|---|---|---|---|
+| Expensify | 160+ currencies | SmartScan OCR | QuickBooks, Xero, SAP | $5/user/month |
+| Brex | Built-in FX rates | Auto-receipt matching | NetSuite, QuickBooks | Free (with card) |
+| Ramp | Real-time FX tracking | AI receipt matching | 100+ accounting tools | Free (with card) |
+| Divvy (Bill.com) | Multi-currency cards | Mobile receipt capture | QuickBooks, NetSuite | Free (with card) |
+| Deel | Global payroll + expenses | Receipt upload | Accounting platforms | $49/contractor/month |
+
 ## Frequently Asked Questions
 
 **Who is this article written for?**

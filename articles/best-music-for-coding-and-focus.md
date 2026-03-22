@@ -25,6 +25,16 @@ score: 9
 intent-checked: true
 voice-checked: true---
 
+
+| Tool | Key Feature | Remote Team Fit | Integration | Pricing |
+|---|---|---|---|---|
+| Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
+| Slack | Real-time team messaging | Channels, threads, huddles | 2,600+ apps | $7.25/user/month |
+| Linear | Fast project management | Keyboard-driven, cycles | GitHub, Slack, Figma | $8/user/month |
+| Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
+| 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
+
+
 {% raw %}
 
 The best music for coding and focus is **ambient electronic** or **lo-fi hip hop** for routine tasks like debugging and unit tests, **Baroque classical** (Bach, Vivaldi) for complex problem-solving, and **video game soundtracks** (Journey, Hollow Knight) for extended deep-work sessions. Stick to lyric-free music at 40-50% volume to avoid competing with verbal processing, and create separate playlists for different task types so your brain builds context-switching associations. Below you'll find genre breakdowns, playlist recommendations, automation scripts, and guidance on when silence works better.
