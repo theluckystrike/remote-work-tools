@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /return-to-office-it-checklist-for-reactivating-dormant-works/
 categories: [guides]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]

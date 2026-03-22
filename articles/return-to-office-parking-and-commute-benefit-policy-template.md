@@ -9,7 +9,7 @@ permalink: /return-to-office-parking-and-commute-benefit-policy-template/
 categories: [guides]
 tags: [remote-work-tools, parking, commute, benefits, hybrid-work, policy-template]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 ---
