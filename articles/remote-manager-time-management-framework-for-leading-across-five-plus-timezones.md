@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Convert to UTC range"
+title: "Time Management for Remote Managers Across Zones"
 description: "A practical framework for remote managers handling distributed teams across five or more timezones. Includes scheduling algorithms, async workflows"
 date: 2026-03-15
 last_modified_at: 2026-03-15

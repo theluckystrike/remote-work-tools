@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Code Review Guidelines"
+title: "Scale Code Reviews for Growing Remote Teams (2026)"
 description: "Practical strategies for scaling your code review process when your remote engineering team grows from 10 to 30 developers"
 date: 2026-03-16
 last_modified_at: 2026-03-16

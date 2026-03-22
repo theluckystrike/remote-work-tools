@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Format: INV-2026-0001"
+title: "Open a Business Bank Account as a Remote Freelancer"
 description: "Open a Portuguese business bank account as a remote freelancer by registering as a trabalhador independente (sole trader) with your NIF, then presenting your"
 date: 2026-03-16
 last_modified_at: 2026-03-16

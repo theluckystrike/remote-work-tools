@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Pin configuration"
+title: "Parent Room Design for Hybrid Offices (2026)"
 description: "A practical guide for developers and power users on designing dedicated mother and parent rooms in hybrid offices. Includes space planning, technology"
 date: 2026-03-16
 last_modified_at: 2026-03-16

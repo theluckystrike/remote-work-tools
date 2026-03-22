@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Clio API authentication"
+title: "Remote Law Firm Client Portal Comparison (2026)"
 description: "Distributed law firms need client communication portals with end-to-end encryption, two-factor authentication, and audit logging for HIPAA and attorney-client"
 date: 2026-03-15
 last_modified_at: 2026-03-15
