@@ -9,7 +9,7 @@ permalink: /how-to-secure-slack-and-teams-channels-for-remote-team-confi/
 categories: [guides]
 tags: [remote-work-tools, security, remote-work, slack, microsoft-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

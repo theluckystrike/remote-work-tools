@@ -9,7 +9,7 @@ permalink: /focus-apps-for-remote-workers-with-adhd/
 categories: [guides]
 tags: [remote-work-tools, adhd, focus, productivity, remote work, tools, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /best-remote-sales-enablement-platform-for-distributed-bdrs-a/
 categories: [guides]
 tags: [remote-work-tools, sales, remote-work, bdr, sales-enablement, distributed-teams, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

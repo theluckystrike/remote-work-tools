@@ -9,7 +9,7 @@ permalink: /best-tool-for-remote-teams-recording-and-transcribing-tribal/
 categories: [guides]
 tags: [remote-work-tools, tribal-knowledge, remote-work, documentation, wiki, transcription, automation, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

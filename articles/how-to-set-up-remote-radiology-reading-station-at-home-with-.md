@@ -11,7 +11,7 @@ tags: [remote-work-tools, radiology, healthcare-it, pacs, telemedicine, remote-w
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 
 {% raw %}

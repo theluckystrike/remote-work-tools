@@ -11,7 +11,7 @@ tags: [remote-work-tools, remote-work, async-communication, productivity, miscom
 reviewed: true
 voice-checked: true
 intent-checked: true
-score: 8
+score: 9
 ---
 
 {% raw %}

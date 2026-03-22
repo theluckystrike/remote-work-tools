@@ -9,7 +9,7 @@ permalink: /kanban-board-setup-for-a-remote-devops-team-of-3/
 categories: [guides]
 tags: [remote-work-tools, kanban, remote-work, devops, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

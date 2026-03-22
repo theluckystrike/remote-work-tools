@@ -8,7 +8,7 @@ permalink: /best-practice-for-remote-team-meeting-structure-that-scales-/
 categories: [guides]
 tags: [remote-work-tools, meetings, remote-work, async-communication, team-management, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

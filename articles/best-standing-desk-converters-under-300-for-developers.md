@@ -9,7 +9,7 @@ permalink: /best-standing-desk-converters-under-300-for-developers/
 categories: [guides]
 tags: [remote-work-tools, ergonomics, remote-work, health, equipment, best-of]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

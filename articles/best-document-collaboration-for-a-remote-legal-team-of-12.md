@@ -8,7 +8,7 @@ permalink: /best-document-collaboration-for-a-remote-legal-team-of-12/
 categories: [guides]
 tags: [remote-work-tools, legal-tech, document-collaboration, remote-work, legal-operations, best-of, collaboration]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

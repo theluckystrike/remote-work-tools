@@ -9,7 +9,7 @@ permalink: /how-to-network-as-a-digital-nomad-developer/
 categories: [guides]
 tags: [remote-work-tools, networking, digital-nomad, remote-work, career]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

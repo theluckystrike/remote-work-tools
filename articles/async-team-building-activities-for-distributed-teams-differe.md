@@ -8,7 +8,7 @@ permalink: /async-team-building-activities-for-distributed-teams-differe/
 categories: [guides]
 tags: [remote-work-tools, async, remote-work, team-building, time-zones, distributed-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

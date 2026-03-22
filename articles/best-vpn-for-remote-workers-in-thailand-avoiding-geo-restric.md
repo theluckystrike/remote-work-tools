@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/
 categories: [guides]
 tags: [remote-work-tools, vpn, remote-work, thailand, geo-restrictions, security, best-of]
-score: 8
+score: 9
 voice-checked: true
 reviewed: true
 intent-checked: true

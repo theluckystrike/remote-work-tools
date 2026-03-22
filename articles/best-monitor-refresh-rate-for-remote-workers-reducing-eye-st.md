@@ -7,7 +7,7 @@ date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-monitor-refresh-rate-for-remote-workers-reducing-eye-strain-during-video-calls/
 reviewed: true
-score: 8
+score: 9
 categories: [best-of]
 tags: [remote-work-tools, best-of, remote-work]
 intent-checked: true

@@ -8,7 +8,7 @@ permalink: /best-tools-for-remote-solidity-teams-coordinating-smart-cont/
 categories: [guides]
 tags: [remote-work-tools, solidity, smart-contracts, remote-work, audits, blockchain-development, security, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

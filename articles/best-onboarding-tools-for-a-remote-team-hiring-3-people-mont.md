@@ -8,7 +8,7 @@ permalink: /best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/
 categories: [guides]
 tags: [remote-work-tools, onboarding, remote-work, hiring, automation, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

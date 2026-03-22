@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-sprint-planning-tools-for-remote-scrum-masters/
 categories: [best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]

@@ -8,7 +8,7 @@ permalink: /how-to-structure-remote-team-handbook-covering-policies-proc/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-handbook, remote-policies, async-communication, remote-culture, documentation]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /home-office-dehumidifier-for-basement-workspace-recommendation/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]

@@ -9,7 +9,7 @@ permalink: /best-remote-team-social-channel-ideas-for-building-genuine-c/
 categories: [guides]
 tags: [remote-work-tools, slack, remote-culture, team-building, social-channels, connections, best-of, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

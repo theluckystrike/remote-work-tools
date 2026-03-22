@@ -7,7 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /async-customer-feedback-synthesis-workflow-for-remote-produc/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, workflow, remote-work]

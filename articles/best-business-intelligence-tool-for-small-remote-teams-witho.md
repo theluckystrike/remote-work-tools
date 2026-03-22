@@ -8,7 +8,7 @@ permalink: /best-business-intelligence-tool-for-small-remote-teams-witho/
 categories: [guides]
 tags: [remote-work-tools, business-intelligence, bi-tools, data-analytics, remote-work, small-teams, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

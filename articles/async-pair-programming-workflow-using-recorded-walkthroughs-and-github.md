@@ -8,7 +8,7 @@ permalink: /async-pair-programming-workflow-using-recorded-walkthroughs-and-gith
 categories: [guides]
 tags: [remote-work-tools, pair-programming, remote-work, async, github, developer-tools, team-collaboration, workflow]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

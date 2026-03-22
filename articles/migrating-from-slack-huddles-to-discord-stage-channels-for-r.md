@@ -8,7 +8,7 @@ permalink: /migrating-from-slack-huddles-to-discord-stage-channels-for-r/
 categories: [guides]
 tags: [remote-work-tools, discord, slack, audio-communication, team-collaboration, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /best-tool-for-remote-team-onboarding-checklist-automation-at/
 categories: [guides]
 tags: [remote-work-tools, remote-onboarding, checklist-automation, hr-tools, team-onboarding, onboarding-automation, role-templates, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

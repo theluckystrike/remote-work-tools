@@ -9,7 +9,7 @@ permalink: /weekly-wins-channel-setup-and-facilitation-for-remote-team-m/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-culture, morale, slack, discord, async-communication]
 reviewed: true
-score: 7
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /best-second-hand-ergonomic-chair-brands-to-buy-used-2026/
 categories: [guides]
 tags: [remote-work-tools, ergonomics, remote-work, hardware, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

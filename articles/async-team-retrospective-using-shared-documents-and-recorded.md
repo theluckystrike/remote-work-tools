@@ -8,7 +8,7 @@ permalink: /async-team-retrospective-using-shared-documents-and-recorded/
 categories: [guides]
 tags: [remote-work-tools, retrospective, remote-work, async, team-processes, continuous-improvement]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

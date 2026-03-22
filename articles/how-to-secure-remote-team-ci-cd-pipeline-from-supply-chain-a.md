@@ -9,7 +9,7 @@ permalink: /how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/
 categories: [guides]
 tags: [remote-work-tools, ci-cd, security, devsecops, supply-chain, pipeline-security, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /how-to-set-up-shared-notion-workspace-with-remote-agency-cli/
 categories: [guides]
 tags: [remote-work-tools, remote-work, client-management, notion, collaboration-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

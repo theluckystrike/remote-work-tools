@@ -9,7 +9,7 @@ permalink: /how-to-build-trust-on-fully-remote-teams/
 categories: [guides]
 tags: [remote-work-tools, remote-work, trust, team-building, communication]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

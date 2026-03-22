@@ -4,10 +4,10 @@ description: "Runbook templates, tools (Notion, Confluence, GitBook), incident r
 author: "Remote Work Tools Guide"
 date: 2026-03-22
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
-tags: ["runbooks", "incident response", "remote work", "documentation", "on-call"]
+tags: [remote-work-tools, runbooks, incident response, remote work, documentation, on-call, remote-work]
 permalink: /how-to-build-remote-team-runbook-library-2026/
 ---
 

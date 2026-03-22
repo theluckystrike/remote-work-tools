@@ -9,7 +9,7 @@ permalink: /how-to-set-up-client-onboarding-portal-for-remote-agency/
 categories: [guides]
 tags: [remote-work-tools, client-onboarding, remote-work, portal, agency, workflow, automation]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

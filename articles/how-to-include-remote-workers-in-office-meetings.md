@@ -9,7 +9,7 @@ permalink: /how-to-include-remote-workers-in-office-meetings/
 categories: [guides]
 tags: [remote-work-tools, remote-work, hybrid-meetings, video-conferencing, developer-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /how-to-scale-remote-team-incident-response-process-from-startup-to-m
 categories: [guides]
 tags: [remote-work-tools, incident-response, remote-work, devops, scaling, team-collaboration, on-call]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

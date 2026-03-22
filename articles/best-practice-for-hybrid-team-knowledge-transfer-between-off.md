@@ -9,7 +9,7 @@ permalink: /best-practice-for-hybrid-team-knowledge-transfer-between-off/
 categories: [guides]
 tags: [remote-work-tools, hybrid-work, knowledge-management, remote-work, async-communication, team-collaboration, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

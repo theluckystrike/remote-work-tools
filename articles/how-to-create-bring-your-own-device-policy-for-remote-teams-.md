@@ -9,7 +9,7 @@ permalink: /how-to-create-bring-your-own-device-policy-for-remote-teams-/
 categories: [guides]
 tags: [remote-work-tools, byod, remote-work, security-policy, developer-tools, compliance]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

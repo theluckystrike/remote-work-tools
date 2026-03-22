@@ -9,7 +9,7 @@ permalink: /best-tool-for-async-performance-feedback-collection-for-dist/
 categories: [guides]
 tags: [remote-work-tools, async-feedback, performance-reviews, distributed-teams, remote-work, team-management, quarterly-reviews, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

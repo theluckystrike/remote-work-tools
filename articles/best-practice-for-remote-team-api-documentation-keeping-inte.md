@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-team-api-documentation-keeping-inte/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work, api]

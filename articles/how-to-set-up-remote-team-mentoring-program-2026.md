@@ -8,10 +8,10 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-team-mentoring-program-2026/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, mentoring, team-development, employee-development, distributed-teams, hr-tools, leadership]
+tags: [remote-work-tools, mentoring, team-development, employee-development, distributed-teams, hr-tools, leadership, remote-work]
 ---
 
 {% raw %}

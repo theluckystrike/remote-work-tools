@@ -8,6 +8,7 @@ score: 8
 voice-checked: true
 intent-checked: true
 permalink: /best-tools-for-remote-team-async-standups-2026/
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 {% raw %}

@@ -9,7 +9,7 @@ permalink: /how-to-create-remote-team-operations-handbook-from-scratch-step-by-s
 categories: [guides]
 tags: [remote-work-tools, remote-work, operations-handbook, team-collaboration, documentation, developer-productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

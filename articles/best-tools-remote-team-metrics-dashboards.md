@@ -7,10 +7,10 @@ author: theluckystrike
 permalink: /best-tools-remote-team-metrics-dashboards/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 {% raw %}

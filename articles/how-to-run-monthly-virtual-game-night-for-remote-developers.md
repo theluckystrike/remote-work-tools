@@ -9,7 +9,7 @@ permalink: /how-to-run-monthly-virtual-game-night-for-remote-developers/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-building, virtual-events]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

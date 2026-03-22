@@ -9,7 +9,7 @@ permalink: /remote-meeting-agenda-template-for-engineering-teams/
 categories: [guides]
 tags: [remote-work-tools, remote-work, meetings, engineering, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

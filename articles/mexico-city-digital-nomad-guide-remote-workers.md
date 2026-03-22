@@ -9,7 +9,7 @@ permalink: /mexico-city-digital-nomad-guide-remote-workers/
 categories: [guides]
 tags: [remote-work-tools, digital-nomad, mexico-city, remote-work, coworking]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

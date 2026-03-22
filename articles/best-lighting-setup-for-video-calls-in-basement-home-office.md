@@ -8,7 +8,7 @@ permalink: /best-lighting-setup-for-video-calls-in-basement-home-office/
 categories: [guides]
 tags: [remote-work-tools, lighting, video-calls, home-office, remote-work, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

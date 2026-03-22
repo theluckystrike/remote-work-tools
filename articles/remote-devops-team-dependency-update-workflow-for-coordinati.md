@@ -6,9 +6,9 @@ date: 2026-03-21
 author: theluckystrike
 permalink: /remote-devops-team-dependency-update-workflow-for-coordinati/
 categories: [guides]
-tags: [devops, remote-work, dependency-management, repositories, distributed-teams, coordination, workflows]
+tags: [remote-work-tools, devops, remote-work, dependency-management, repositories, distributed-teams, coordination, workflows]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /best-practice-for-remote-team-announcement-channel-keeping-s/
 categories: [guides]
 tags: [remote-work-tools, remote-work, communication, team-management, slack, discord, best-of]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

@@ -7,7 +7,7 @@ date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /migrating-from-aws-codecommit-to-github-for-remote-team-code/
 reviewed: true
-score: 8
+score: 9
 categories: [guides]
 tags: [remote-work-tools, remote-work]
 intent-checked: true

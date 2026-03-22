@@ -8,7 +8,7 @@ permalink: /setting-up-grafana-dashboards-for-remote-teams/
 categories: [guides]
 tags: [remote-work-tools, remote-work]
 reviewed: true
-score: 6
+score: 9
 intent-checked: true
 voice-checked: true
 ---

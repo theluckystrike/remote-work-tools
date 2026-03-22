@@ -8,7 +8,7 @@ permalink: /best-observability-platform-for-remote-teams-correlating-log/
 categories: [guides]
 tags: [observability, remote-work-tools, distributed-teams, logging, metrics, traces, devops, debugging]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

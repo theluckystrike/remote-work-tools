@@ -9,7 +9,7 @@ permalink: /how-to-run-remote-client-ux-research-sessions-with-observers/
 categories: [guides]
 tags: [remote-work-tools, ux-research, remote-work, usability-testing]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

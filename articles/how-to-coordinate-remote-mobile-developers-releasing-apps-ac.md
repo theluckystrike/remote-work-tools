@@ -9,7 +9,7 @@ permalink: /how-to-coordinate-remote-mobile-developers-releasing-apps-ac/
 categories: [guides]
 tags: [remote-work-tools, mobile-development, remote-work, ios, android, ci-cd, app-release, coordinate-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

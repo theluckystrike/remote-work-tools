@@ -9,7 +9,7 @@ permalink: /slack-channel-strategy-for-a-remote-company-with-75-employee/
 categories: [guides]
 tags: [remote-work-tools, slack, remote-work, communication]
 reviewed: true
-score: 7
+score: 8
 intent-checked: true
 voice-checked: true
 ---

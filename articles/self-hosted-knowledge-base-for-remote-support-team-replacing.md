@@ -9,7 +9,7 @@ permalink: /self-hosted-knowledge-base-for-remote-support-team-replacing/
 categories: [guides]
 tags: [remote-work-tools, knowledge-base, self-hosted, zendesk-alternative, support-tools, remote-work]
 reviewed: true
-score: 7
+score: 9
 intent-checked: true
 voice-checked: true
 ---

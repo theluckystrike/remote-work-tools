@@ -11,7 +11,7 @@ tags: [remote-work-tools, iam, least-privilege, cloud-security, access-control, 
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 
 {% raw %}

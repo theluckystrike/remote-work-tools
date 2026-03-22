@@ -7,10 +7,10 @@ author: theluckystrike
 permalink: /best-tools-remote-qa-testing-workflows/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
+tags: [remote-work-tools, best-of, workflow, remote-work]
 ---
 
 {% raw %}

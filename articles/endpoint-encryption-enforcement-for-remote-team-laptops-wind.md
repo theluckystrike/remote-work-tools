@@ -9,7 +9,7 @@ permalink: /endpoint-encryption-enforcement-for-remote-team-laptops-wind/
 categories: [guides]
 tags: [remote-work-tools, security, encryption, endpoint-protection, remote-work, windows, macos]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

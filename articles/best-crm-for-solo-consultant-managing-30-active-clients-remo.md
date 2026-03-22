@@ -8,7 +8,7 @@ permalink: /best-crm-for-solo-consultant-managing-30-active-clients-remo/
 categories: [guides]
 tags: [remote-work-tools, crm, solo-consultant, remote-work, client-management, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

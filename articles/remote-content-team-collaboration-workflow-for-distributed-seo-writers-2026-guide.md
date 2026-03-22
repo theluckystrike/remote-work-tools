@@ -9,7 +9,7 @@ permalink: /remote-content-team-collaboration-workflow-for-distributed-seo-write
 categories: [guides]
 tags: [remote-work-tools, remote-work, content, seo, collaboration, workflow]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

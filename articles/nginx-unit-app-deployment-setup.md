@@ -384,19 +384,112 @@ WantedBy=multi-user.target
 
 ---
 
-## Troubleshooting Common Issues
+## Health Checks and Process Monitoring
 
-**"Unable to apply new configuration" with no detail**: Check `/var/log/unit.log` for the actual error. Unit's API response is terse but the log file has the full stack trace.
+Unit tracks application process state via the status endpoint. Poll it to confirm healthy startup before updating your load balancer:
 
-**App returns 502 immediately**: The application module may not be installed. Verify with `dpkg -l | grep unit` that `unit-python3.12` (or the relevant module) is installed.
+```bash
+# Wait for application to report running processes
+check_unit_health() {
+  local app="$1"
+  local retries=10
+  local delay=3
 
-**Python app can't find packages**: Ensure the `home` field points to the virtualenv directory, not the site-packages directory. Unit infers the Python path from the virtualenv.
+  for i in $(seq 1 $retries); do
+    STATUS=$(curl -s --unix-socket /var/run/control.unit.sock \
+      "http://localhost/status/applications/${app}/processes" 2>/dev/null)
+    RUNNING=$(echo "$STATUS" | python3 -c "import sys,json; print(json.load(sys.stdin).get('running', 0))")
+    if [ "${RUNNING:-0}" -gt 0 ]; then
+      echo "App $app: $RUNNING process(es) running"
+      return 0
+    fi
+    echo "Waiting for $app... (attempt $i/$retries)"
+    sleep "$delay"
+  done
+  echo "ERROR: $app failed to start"
+  return 1
+}
 
-**Port conflicts**: If another process is already listening on the port, Unit logs a bind error. Check with `ss -tlnp | grep :8000`.
+check_unit_health fastapi
+```
 
-**Permission denied on Unix socket**: The control socket at `/var/run/control.unit.sock` is owned by root by default. Run `curl` with `sudo`, or add your user to the group that owns the socket.
+Unit log messages go to `/var/log/unit.log` — tail it during deployments to catch startup errors before they reach users:
 
----
+```bash
+# Watch for errors during deployment
+tail -f /var/log/unit.log | grep -E "(error|warning|NOTICE)"
+
+# Common startup errors:
+# "failed to apply new conf" — JSON syntax error in config
+# "unable to open ... module" — language module not installed
+# "system error: permission denied" — wrong user/group for app files
+```
+
+For automated rollback, capture the current config before deploying and restore if the health check fails:
+
+```bash
+# Save current config
+PREV_CONFIG=$(curl -s --unix-socket /var/run/control.unit.sock \
+  http://localhost/config/applications/fastapi)
+
+# Deploy
+curl -X PUT --unix-socket /var/run/control.unit.sock \
+  http://localhost/config/applications/fastapi/path \
+  -d '"/var/www/fastapi-app-v3"'
+
+# Health check
+if ! check_unit_health fastapi; then
+  echo "Rollback triggered"
+  echo "$PREV_CONFIG" | curl -X PUT --unix-socket /var/run/control.unit.sock \
+    http://localhost/config/applications/fastapi -H "Content-Type: application/json" -d @-
+fi
+```
+
+## Go App Deployment
+
+Unit supports Go apps compiled as shared libraries. Unlike Python or Node, Go apps need to be compiled with Unit's Go module:
+
+```bash
+# Install Go module for Unit
+go get unit.nginx.org/go
+
+# main.go — wrap your handler with Unit's ListenAndServe
+package main
+
+import (
+    "fmt"
+    "net/http"
+    "unit.nginx.org/go"
+)
+
+func handler(w http.ResponseWriter, r *http.Request) {
+    fmt.Fprintf(w, `{"status":"ok","path":"%s"}`, r.URL.Path)
+}
+
+func main() {
+    http.HandleFunc("/", handler)
+    unit.ListenAndServe(":0", nil)
+}
+```
+
+```bash
+# Build as a shared library
+go build -buildmode=c-shared -o /var/www/goapp/app.so
+
+# Configure Unit
+curl -X PUT --unix-socket /var/run/control.unit.sock \
+  http://localhost/config/applications/goapp \
+  -H "Content-Type: application/json" \
+  -d '{
+    "type": "go",
+    "executable": "/var/www/goapp/app.so",
+    "processes": 4,
+    "user": "unit",
+    "group": "unit"
+  }'
+```
+
+Go apps in Unit run as native shared libraries — no interpreter overhead, no port conflicts between apps. Each app uses Unit's shared process pool management regardless of language.
 
 ## Related Reading
 

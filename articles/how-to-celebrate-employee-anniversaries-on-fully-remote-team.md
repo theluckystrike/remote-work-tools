@@ -9,7 +9,7 @@ permalink: /how-to-celebrate-employee-anniversaries-on-fully-remote-team/
 categories: [guides]
 tags: [remote-work-tools, remote-work, employee-engagement, automation]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

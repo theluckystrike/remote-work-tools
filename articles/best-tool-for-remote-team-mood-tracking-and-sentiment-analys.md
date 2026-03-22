@@ -9,7 +9,7 @@ permalink: /best-tool-for-remote-team-mood-tracking-and-sentiment-analys/
 categories: [guides]
 tags: [remote-work-tools, remote-work, sentiment-analysis, mood-tracking, team-health, developer-tools, analytics, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

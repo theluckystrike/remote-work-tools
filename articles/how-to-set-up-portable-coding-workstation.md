@@ -8,7 +8,7 @@ permalink: /how-to-set-up-portable-coding-workstation/
 categories: [guides]
 tags: [remote-work-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

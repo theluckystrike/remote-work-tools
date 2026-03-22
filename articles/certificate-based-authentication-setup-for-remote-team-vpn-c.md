@@ -9,7 +9,7 @@ permalink: /certificate-based-authentication-setup-for-remote-team-vpn-c/
 categories: [guides]
 tags: [remote-work-tools, vpn, security, authentication, remote-work, certificates]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

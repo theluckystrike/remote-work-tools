@@ -8,7 +8,7 @@ permalink: /bermuda-work-from-bermuda-certificate-application-for-remote/
 categories: [guides]
 tags: [remote-work-tools, bermuda, remote-work, digital-nomad, tax-residency, work-permit, remote-work-visa]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
