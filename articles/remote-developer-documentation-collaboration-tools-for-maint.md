@@ -253,6 +253,202 @@ Documentation access is a surprisingly sharp edge for remote teams. Engineers ne
 - External stakeholders: separate space or separate tool (do not mix internal technical docs with external-facing documentation)
 
 Audit permissions quarterly. Former employees with lingering access is a common and avoidable problem on remote teams.
+## Documentation Collaboration in Distributed Engineering Teams
+
+Remote engineering teams face a unique documentation challenge: knowledge needs to be centralized and discoverable, but creation and maintenance is inherently distributed. When your team spans multiple time zones and asynchronous work is the default, the documentation tool becomes a critical infrastructure component. A poorly chosen tool creates friction that leads to documentation drift, duplicate information, and lost knowledge when people leave the team.
+
+The core problem is that documentation tools designed for individual use don't scale to teams. Single-user wikis force collaboration through comment threads and approval workflows that slow productivity. Tools optimized for search make creation difficult. Platform designed for marketing content management don't handle code examples or technical depth. Finding the right balance between ease of creation, collaborative editing, and long-term maintainability is difficult.
+
+For remote teams specifically, the stakes are higher. You can't casually ask someone "how does this system work?" You need documentation available 24/7. When you do synchronously pair with someone, you should be able to reference written documentation simultaneously. Team members in different time zones need to be able to clarify misunderstandings asynchronously within hours, not wait for the next sync meeting.
+
+## Evaluation Criteria for Documentation Tools
+
+Before comparing specific tools, understand what matters for remote engineering teams:
+
+**Collaborative Editing:** Multiple people editing the same document simultaneously without conflicts or version confusion. When two engineers contribute to a runbook during an incident, edits need to sync in real-time.
+
+**Code Snippet Support:** Native support for code blocks with syntax highlighting. Documentation without readable code examples is incomplete. Look for tools that treat code as a first-class content type, not an afterthought.
+
+**Discoverability:** Strong full-text search across all documentation. With 500+ pages of technical documentation, browsing hierarchies becomes impractical. Search should find relevant content within seconds.
+
+**Access Control:** Ability to share some documentation publicly while keeping other sections restricted. Internal architecture docs shouldn't be in production-facing documentation. Permission management should be flexible without creating admin overhead.
+
+**Integration Depth:** Connect with your development workflow. Can developers link from code comments to documentation? Can pull requests automatically reference related docs? Does your incident management system easily link to runbooks?
+
+**Offline Access:** Can documentation be accessed without internet, or at minimum cached for offline reference? For infrastructure engineers dealing with network outages, offline access is critical.
+
+**Archival:** How do you handle outdated documentation? Can you archive old versions while keeping historical reference? As systems evolve, old documentation becomes liability if it's not clearly marked as deprecated.
+
+**Version Control:** Can you track who wrote what, when changes happened, and why? When a procedure changes, you need audit trail understanding decisions.
+
+## Top Tools for Remote Engineering Documentation
+
+### Confluence
+
+Confluence positions itself as the enterprise documentation platform. It emphasizes team collaboration, integrations with development tools, and enterprise governance.
+
+**Key capabilities:**
+- Simultaneous multi-user editing with real-time sync
+- Inline commenting on specific paragraphs
+- Integrated version history showing changes over time
+- Rich text and code block support with syntax highlighting
+- Database feature for structured content (runbooks, decision logs)
+- Powerful search across all spaces
+- Permission control down to page level
+- Export to PDF and other formats
+- Integrations with Jira, Slack, GitHub, and development tools
+
+**Real workflow example:** A 20-person engineering team uses Confluence for all operational documentation. Architecture decisions get captured in a decision log (Confluence database) with links to relevant RFC documents in GitHub. Runbooks for common incidents are organized by system, with on-call team members updating them during and after incidents. When an engineer encounters a problem, they search Confluence first. If documentation exists, they reference it. If not, they document the resolution immediately so the next occurrence is faster. Code examples in runbooks are syntax-highlighted and kept up-to-date alongside actual code changes by using explicit link checks during code review.
+
+**Pricing:** Free tier for small teams (up to 10 users). Cloud at $225/month for 50 users, or self-hosted licensing.
+
+**Best for:** Teams already in the Atlassian ecosystem (Jira, Bitbucket) who want integrated governance and don't mind the complexity.
+
+### GitBook
+
+GitBook positions itself as documentation for modern teams, with emphasis on beautiful design, developer workflow integration, and collaborative authoring.
+
+**Key capabilities:**
+- Write documentation in an online editor or sync from Git repositories
+- Beautiful published sites with customizable themes
+- Git sync keeping documentation in version control alongside code
+- Multi-language support
+- Search and AI-powered recommendations
+- Collaborative editing with approval workflows
+- API integrations
+- Analytics showing which docs are accessed
+- Public and private documentation in same space
+
+**Real workflow example:** A 15-person backend engineering team uses GitBook synced with GitHub. Documentation lives in a /docs folder in their main repository. When a developer updates documentation, it's part of the pull request and reviewed alongside code changes. Architecture diagrams, API specifications, and runbooks are all in Git, providing audit trail and version control. The published GitBook site is searched by developers, with analytics showing which documentation gaps need attention.
+
+**Pricing:** Free tier with limited features. Teams plan at $200-500/month depending on features.
+
+**Best for:** Teams already using Git for code who want documentation to have similar workflow and version control.
+
+### Notion
+
+Notion positions itself as an all-in-one workspace. For documentation specifically, it's becoming popular with technical teams who want flexible structure without rigid hierarchies.
+
+**Key capabilities:**
+- Flexible page structure without strict hierarchy
+- Database views for organizing structured content
+- Collaborative editing with inline comments
+- Linked records connecting related pages (runbook to service to team)
+- Full-text search
+- Embeds for code, diagrams, and external content
+- Templates for standardized content types
+- Public sharing with customizable permissions
+- Free and paid tiers
+
+**Real workflow example:** A 12-person SaaS engineering team uses Notion for all documentation. They maintain a "Services" database with a page for each system, including description, owner, architecture, runbooks, and links to monitoring. An "Incidents" database tracks incident details and links to relevant runbooks. An "Onboarding" section guides new hires through setup. Because everything is a Notion page, they can link between concepts. A runbook links to the service page, which links to the monitoring dashboard, which is embedded in the Notion page.
+
+**Pricing:** Free for small teams. Plus plan at $10/month per user for advanced features.
+
+**Best for:** Teams wanting flexibility and ease of creation over rigid structure, especially smaller teams without need for enterprise governance.
+
+### Internal Wiki + Git Repository
+
+For teams comfortable with command-line tools, maintaining documentation in Git with a static site generator is powerful and gives you complete control.
+
+**Key capabilities:**
+- Documentation as code—all changes in Git with full version history
+- Review documentation changes just like code changes
+- Automatic publishing via CI/CD on commit
+- Complete control over structure and formatting
+- No vendor lock-in
+- Search via static site generators
+- Offline access via local checkout
+
+**Real workflow example:** A 8-person infrastructure team maintains documentation in a private GitHub repository using MkDocs. Each system component has a folder with README, runbooks, and architecture diagrams. Changes go through pull request review. CI/CD builds the documentation and publishes to an internal domain. Engineers can clone the repository locally and search offline. When something breaks and internet is down, they still have documentation available.
+
+**Pricing:** Free (except hosting costs)
+
+**Best for:** Small teams with technical comfort and strong preference for version control and code-like workflows.
+
+## Comparison Table
+
+| Factor | Confluence | GitBook | Notion | Git-based |
+|--------|-----------|---------|--------|-----------|
+| Setup time | 2-4 hours | 1-2 hours | < 1 hour | 4-8 hours |
+| Collaborative editing | Excellent | Good | Excellent | Good (via PR) |
+| Code support | Good | Excellent | Good | Excellent |
+| Search | Excellent | Good | Good | Basic |
+| Learning curve | Moderate | Easy | Easy | Steep |
+| Team size | 5-500+ | 2-100 | 1-50 | 2-20 |
+| Offline access | No | Partial | No | Yes |
+| Version control | Built-in | Git sync option | Limited | Full |
+| Best for | Enterprise teams | Modern teams | Flexible teams | Technical teams |
+
+## Migration Strategy Between Tools
+
+As your team grows, you may outgrow your first documentation tool. Rather than losing all documentation, plan a migration:
+
+**Export strategy:** Before adopting a tool, verify you can export all content in a portable format. Confluence allows Markdown exports. Notion has CSV and Markdown exports. Git-based tools are inherently portable.
+
+**Gradual migration:** Don't try to migrate everything at once. Start with critical documentation—runbooks, architecture, onboarding. Once the new tool is trusted, expand to less critical docs.
+
+**Parallel operation:** Run old and new tools simultaneously during transition. Point people to new tool but maintain old for reference. Once search shows people aren't using old tool, you can decommission it.
+
+**Documentation quality improvement:** During migration, use the opportunity to improve documentation. Remove outdated content, reorganize for better discoverability, add missing sections.
+
+## Team Exercise: Documentation Audit
+
+Spend 30 minutes answering these questions about your current documentation:
+
+1. Where is your documentation currently spread? (Google Drive, confluence, GitHub, Slack threads, individual wikis)
+2. When a new developer needs information on system X, how long does it take them to find it?
+3. Which documentation is accurate vs. outdated?
+4. What critical knowledge exists only in someone's head?
+5. How often do engineers ask the same question repeatedly because they can't find documented answers?
+6. Can remote team members access all documentation they need without real-time help?
+
+Calculate the cost: if each developer spends 2 hours per week searching for documentation or asking questions, that's 80 hours per quarter per developer. For a 15-person team, that's 1,200 hours per quarter—expensive time better spent building.
+
+## Implementation Workflow
+
+### For Confluence Adoption
+
+1. Create initial structure with spaces for each major system/team
+2. Migrate critical runbooks and architecture docs
+3. Set up Jira integrations so documentation links from relevant issues
+4. Configure search optimization for common terms
+5. Establish naming conventions so people can predict where documentation lives
+6. Train team on editing and commenting
+7. Assign documentation owners for each space to maintain currency
+
+### For GitBook Adoption
+
+1. Set up GitHub repository with /docs folder structure
+2. Create GitBook workspace with Git sync configured
+3. Migrate existing documentation to new structure
+4. Configure CI/CD to publish changes automatically
+5. Set up custom domain for published site
+6. Train team on Git workflow for documentation
+7. Establish that documentation changes need review before merge
+
+### For Notion Adoption
+
+1. Create workspace structure with top-level sections
+2. Create databases for services, incidents, runbooks
+3. Set up relationships between databases
+4. Migrate critical documentation
+5. Configure sharing and permissions
+6. Train team on Notion interface and database usage
+7. Establish ownership for database templates and structure
+
+## Maintaining Documentation Over Time
+
+Documentation quality degrades without active maintenance. Plan for this:
+
+**Assign ownership:** Each major section should have one person responsible for keeping it current. They're not required to write everything, but they maintain currency and remove outdated content.
+
+**Link from code:** When code references specific documentation, link from inline comments. When documentation link breaks, developers will surface the issue.
+
+**Archive old docs:** Don't delete outdated documentation. Mark it clearly as archived with date and reason. Future team members may need historical context.
+
+**Update during incidents:** When you respond to an incident, document the fix. When you improve a process, document the change. Don't wait for scheduled documentation days.
+
+**Measure usage:** Track which documentation gets viewed. Low-view docs may be outdated or poorly discoverable. High-view docs might need expansion.
 
 ## Frequently Asked Questions
 

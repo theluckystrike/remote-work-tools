@@ -171,6 +171,246 @@ This feedback improves the process for the next hire and signals to the develope
 **Mistake: No written documentation of verbal agreements.** If the manager and developer agree in a meeting that the developer will take on a specific project, that needs to be written somewhere. Verbal agreements made in-person evaporate for the developer the moment they switch to a home day.
 
 **Mistake: Treating hybrid as a scheduling problem.** Hybrid is a communication design problem. The schedule (which days office, which days home) is the easy part. The hard part is building norms and tools so that the developer has equal access to information and relationships regardless of which environment they are in on any given day.
+## The Hybrid Onboarding Challenge
+
+Hybrid work creates a unique onboarding problem. You can't rely on new hires being in the office every day, but you also can't treat them as fully remote. Many critical onboarding activities happen synchronously in physical spaces—getting equipment, setting up workstations, connecting with your team in person, understanding office culture. But most technical knowledge transfer, company processes, and tool training happen better asynchronously where new hires can review at their own pace.
+
+The result is a complex schedule: some weeks the hire is in office for equipment setup and relationship building, other weeks they're remote needing self-directed learning. Team members responsible for onboarding work different schedules than the new hire. Key information exists in multiple places—some in wiki documentation, some in video recordings, some only in people's heads.
+
+Without a structured hybrid onboarding process, new developers spend their first month bouncing between different people asking for information, getting inconsistent guidance, and feeling lost about where to focus. More experienced team members spend 20-30% of their time answering basic questions that should be documented. Worse, some critical knowledge gets missed entirely because nobody was responsible for sharing it in a way the new hire could access.
+
+## What Hybrid Onboarding Requires
+
+Successful hybrid onboarding needs three distinct layers:
+
+**Asynchronous Self-Directed Learning:** Video walkthroughs, written documentation, and interactive tutorials that new hires complete on their own schedule. This covers company history, tools setup, process documentation, and core technical concepts. The new hire learns at their own pace without requiring real-time support.
+
+**Synchronous In-Office Activities:** Physical onboarding that only works face-to-face. Equipment configuration, ID badge issuance, office tour, team lunch. This builds relationship and ensures smooth technical environment setup.
+
+**Structured Mentoring and Pairing:** Scheduled 1-on-1 sessions with domain experts, pairing sessions on real code, and manager check-ins. These ensure the new hire has personal connection and can ask clarifying questions about documentation.
+
+The hybrid model integrates these three layers into a cohesive schedule that respects both the new hire's need for independence and the team's need to maintain productivity.
+
+## Week-by-Week Hybrid Onboarding Template
+
+### Week 1: Preparation and Office Time
+
+Before the new hire arrives, complete these tasks:
+
+**Monday (before new hire arrives):**
+- Order equipment, schedule IT setup appointment
+- Create accounts in all required systems
+- Prepare onboarding materials—videos, documentation links, setup checklists
+- Notify team of new hire arrival and assign mentor
+- Prepare office space including desk, monitor, peripherals
+
+**Tuesday: New Hire's First Day (In Office)**
+- 8:30 AM: Meet with People Ops for badge and equipment
+- 9:00 AM: IT workstation setup—computer, phone, VPN, network access
+- 10:00 AM: Tour of office spaces, restrooms, parking, food options
+- 11:00 AM: Meet with direct manager for company overview and role clarity
+- 12:00 PM: Lunch with manager and mentor
+- 1:00 PM: Meet with assigned mentor for technical environment introduction
+- 2:00 PM: Start of environment setup—clone repositories, run build, verify tools work
+- 4:00 PM: Team introduction meeting
+
+**Wednesday-Friday: Asynchronous Learning (Remote Days)**
+- Morning: Watch recorded video series on company products, architecture, and key processes
+- Mid-morning: Follow written onboarding checklist for development environment configuration
+- Afternoon: Read and bookmark key documentation, review team structure and reporting
+- Evening: Self-directed learning on technology stack or product-specific knowledge
+- Daily: 30-minute async standup via text documenting progress and blockers
+
+### Week 2: Deep Technical Learning and Mentoring
+
+**Office Days (Tuesday/Thursday or your team's sync days):**
+- 9:00 AM: Pairing session with mentor on a small, contained task
+- 10:30 AM: Code review walkthrough—mentor shows real examples of code review standards
+- 11:30 AM: Architecture discussion with tech lead
+- 1:00 PM: Team lunch or casual connection time
+- 2:00 PM: Pairing on environment troubleshooting or tool setup
+- 3:00 PM: Manager check-in on progress and blockers
+
+**Remote Days (Monday/Wednesday/Friday):**
+- Follow asynchronous learning modules specific to your tech stack
+- Set up and run automated test suite locally
+- Review pull requests as a learning exercise (no approvals yet)
+- Complete coding exercise to practice development workflow
+- Read through recent commit history to understand recent team changes
+- Async documentation—begin documenting things that confused you
+
+### Week 3: Ramp-Up and Initial Contribution
+
+**Office Days:**
+- Pairing on real project tasks with increasing complexity
+- Sit in planning meeting or sprint standup
+- Code review session with another team member
+- 1-on-1 with manager discussing progress and concerns
+
+**Remote Days:**
+- Begin working on first real task under mentor guidance
+- Daily async video updates showing progress on task
+- Self-directed learning continues on areas of initial confusion
+
+### Week 4: Independence and Integration
+
+**Office Days:**
+- Collaborative pairing on more complex features
+- Attendance in team meetings and ceremonies
+- Casual relationship building with team
+
+**Remote Days:**
+- Working independently on assigned task with mentor available for pairing blocks
+- Pair programming sessions scheduled for specific issues
+- Documentation of learnings and process improvements
+
+**Week 4 Review:**
+- Manager and mentor assess readiness
+- Decision on whether new hire needs extended ramp-up in specific areas
+
+## Hybrid Onboarding Workflow Template
+
+This template can be implemented in GitHub Issues, Notion, or your project management tool:
+
+```
+# Onboarding for [Name]
+Start Date: [Date]
+
+## Phase 1: Pre-Arrival (Week before start)
+- [ ] Order equipment
+- [ ] Create accounts in CRM, project tool, Slack, email
+- [ ] Prepare onboarding videos and documentation
+- [ ] Assign mentor and notify team
+- [ ] Set up office workstation
+
+## Phase 2: First Day (In Office)
+- [ ] 8:30 AM - Badge and equipment with People Ops
+- [ ] 9:00 AM - IT workstation setup
+- [ ] 10:00 AM - Office tour
+- [ ] 11:00 AM - Manager orientation
+- [ ] 12:00 PM - Team lunch
+- [ ] 1:00 PM - Mentor technical intro
+- [ ] 2:00 PM - Environment setup pairing
+- [ ] 4:00 PM - Team introduction
+
+## Phase 2: Asynchronous Learning (Days 2-5)
+- [ ] Watch company history video (YouTube link)
+- [ ] Watch architecture overview (YouTube link)
+- [ ] Read product documentation
+- [ ] Complete dev environment setup checklist
+- [ ] Read team handbook
+
+## Phase 3: Technical Ramp-Up (Weeks 2-4)
+- [ ] Pairing session 1: Small contained task
+- [ ] Pairing session 2: Testing and quality process
+- [ ] First real task assignment with mentor support
+- [ ] Code review training
+- [ ] Architecture deep-dive
+
+## Week 4 Check-In
+- [ ] Manager review of progress
+- [ ] Mentor feedback on technical capability
+- [ ] Self-assessment of confidence areas
+- [ ] Plan for next phase
+```
+
+## Creating Asynchronous Onboarding Content
+
+The foundation of hybrid onboarding is high-quality asynchronous content that new hires can review at their own pace. Prioritize these content types:
+
+**Video Walkthroughs:** Record 5-10 minute videos covering:
+- Company history and mission (record once annually)
+- Product overview and key features
+- Architecture diagram walkthrough
+- Development environment setup procedure
+- Testing and code review process
+- Common tools and where to find help
+
+Keep videos under 10 minutes, scripted, and edited. Avoid "let me just pull up this document and read it"—write a script and speak clearly. New hires will rewind and rewatch, so clarity matters more than casual conversation.
+
+**Checklists:** Create a linear checklist new hires follow for environment setup:
+- Clone repositories (with links and specific branches)
+- Install dependencies
+- Run build and tests locally
+- Configure IDE extensions and settings
+- Set up git hooks
+- Verify local development server starts
+- Create test account for development database
+
+Include expected outputs so they know when each step succeeds.
+
+**Documentation:** Links to existing documentation organized by topic. Create an onboarding documentation page that links to:
+- Development environment setup guide
+- Code style guide and formatting
+- Testing requirements and practices
+- Deployment process and safeguards
+- On-call rotation and incident response
+- Tools and passwords (in secure wiki, not general docs)
+
+**Interactive Exercises:** Small coding tasks that let new hires practice development workflow:
+- Clone repository, create branch, write a failing test, implement code to pass test, create pull request
+- Fix a known issue from the backlog
+- Add a simple feature using existing patterns
+
+These exercises use real tools but on isolated branches, so mistakes don't affect production.
+
+## Mentor Assignment and Responsibilities
+
+Each new hire needs one assigned mentor for the first month. The mentor is responsible for:
+
+- 30 minutes per day during Week 1, declining to 30 minutes 2x per week by Week 3
+- Pairing sessions on assigned tasks
+- Code review of the new hire's pull requests
+- Being available via Slack for quick blockers that derail progress
+- Tracking progress and identifying areas where new hire is struggling
+- Providing feedback to manager at week 2 and week 4 checkpoints
+
+Mentor time is dedicated and scheduled, not squeezed in around other work. A new hire who spends half their time blocked waiting for mentor response will be frustrated and slow to ramp.
+
+## Manager Responsibilities
+
+The manager (typically the new hire's direct report) owns the onboarding process:
+
+- Pre-arrival: ensure all setup is complete
+- First day: company overview and role clarity
+- Weekly check-ins: progress discussion, blocker removal, confidence assessment
+- Week 2 and 4: structured reviews with mentor feedback
+- Ongoing: ensure new hire has appropriate task difficulty and is building confidence
+
+## Team Preparation
+
+Hybrid onboarding succeeds when the whole team supports it:
+
+- Asynchronous communication during onboarding weeks—less real-time meeting dependency
+- Willingness to answer questions from new hire even if documented—documentation isn't a substitute for human help
+- Code review focus on teaching, not just correctness
+- Pairing sessions treated as critical, not movable
+- Celebration of new hire completion of milestones
+
+## Common Pitfalls
+
+**Too Much Synchronous Dependency:** Scheduling onboarding activities that all require the new hire, mentor, and manager at the same time creates blockers. Design for flexibility.
+
+**Inconsistent Mentoring:** Mentor disappears or becomes unavailable. New hire gets stuck. Protect mentor time on calendar.
+
+**Documentation in Multiple Places:** New hire finds conflicting information in old wiki vs. new documentation. Maintain single source of truth and retire old content.
+
+**No Async Fallback:** Assuming new hire will wait until mentor is available for questions. Provide ways to unblock async.
+
+**Generic Documentation:** One-size-fits-all guides miss product-specific context. Customize documentation for your team.
+
+## Measuring Onboarding Success
+
+Track these metrics to understand if your hybrid onboarding process works:
+
+- Time to first pull request (target: 1-2 weeks)
+- Time to first approved pull request (target: 2-3 weeks)
+- Time to unpairing on real tasks (target: 4-6 weeks)
+- New hire confidence scores at week 2 and week 4
+- Mentor time spent (should trend down over 4 weeks)
+- Blockers encountered and time to resolution
+- Weeks until new hire productivity matches experienced team member (target: 8-12 weeks)
+- Retention at 6 months and 1 year
 
 ## Frequently Asked Questions
 

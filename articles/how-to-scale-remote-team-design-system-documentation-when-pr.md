@@ -334,6 +334,237 @@ Create a "start here" page that is explicitly for people new to the system. It s
 This page should link out to deeper documentation rather than duplicating it. Keep it short enough that someone reads it in its entirety rather than skimming for the answer they need.
 
 The test for good onboarding documentation is simple: give it to a new remote hire without any verbal explanation. If they can find and use the right button component without asking for help, the documentation is working.
+## The Design System Documentation Problem at Scale
+
+As remote teams grow beyond 20 people, design system documentation becomes increasingly fragmented. Individual contributors spread across time zones maintain incomplete documentation in their local setups. New team members spend weeks discovering which components exist, how to use them, and where the source-of-truth documentation lives. Pull request reviews slow down because reviewers can't quickly verify component behavior or see visual diffs. When you operate across distributed teams without a centralized, always-available component reference, productivity suffers.
+
+Traditional documentation approaches break down with scale. Maintaining a static documentation site requires dedicated effort and discipline to keep it in sync with code changes. Keeping one developer's Storybook instance running locally for reference doesn't scale beyond a few people. Spreadsheets and wikis diverge from reality within months. Remote teams specifically need documentation that lives as close to the code as possible, updates automatically with each change, and remains accessible 24/7 without manual deployment overhead.
+
+## Why Design System Documentation Matters for Remote Teams
+
+When your team works asynchronously across time zones, synchronous knowledge transfer doesn't happen naturally. Developers can't lean over to ask "what's this component for?" or "can I use this button variant here?" They rely entirely on documentation. Ambiguous or missing documentation creates two bad outcomes: developers either implement workarounds that fragment your design system, or they get stuck waiting for answers that might take hours to arrive.
+
+Additionally, design system compliance becomes impossible without clear documentation. Product managers, designers, and developers each need to understand component constraints. Designers need to know which button variants exist and when to use each one. Developers need implementation guidance and edge cases. Product managers need to understand how components affect user experience. Centralized documentation serves all three audiences simultaneously.
+
+## Storybook as the Foundation
+
+Storybook has become the standard for component documentation in web development. It's an isolated environment where each component renders independently with all its variants visible. Developers see visual output without running the full application. Documentation lives alongside the code, making it easier to keep in sync.
+
+For remote teams, Storybook solves several critical problems simultaneously:
+
+**Visual Source of Truth:** Every component variant displays with actual rendered output, not screenshots that drift. Remote team members see exactly what the component produces without ambiguity.
+
+**Always Accessible:** A deployed Storybook instance is available 24/7. Any team member can review components at any time without waiting for someone to provide access or information.
+
+**Interactive Component Testing:** Developers can test component behavior directly in the browser—clicking buttons, typing into inputs, viewing responsive behavior at different screen sizes.
+
+**Change Documentation:** When a component changes, the Storybook page updates automatically. Designers and product managers see the change without needing email notification.
+
+**Searchable Reference:** As your component library grows to 50+ components, discoverability becomes critical. Storybook's search and category organization help teams find relevant components quickly.
+
+## Expanding Storybook Beyond Basic Component Display
+
+Basic Storybook installations display components but fall short of comprehensive documentation. To truly scale documentation for remote teams, extend Storybook with these capabilities:
+
+### Documentation Pages
+
+Add Docs pages that explain design thinking, usage patterns, and constraints beyond what code comments provide. For each component, include:
+
+- **When to use this component:** The specific use cases where this component solves a problem
+- **When not to use:** Common mistakes where developers try to use the component in ways it doesn't support
+- **Accessibility notes:** Screen reader behavior, keyboard navigation, ARIA attributes
+- **Responsive behavior:** How the component changes at different screen sizes
+- **Related components:** Other components that work with this one
+
+### Design Tokens Documentation
+
+Create a dedicated section documenting color palettes, spacing scales, typography hierarchy, and animation timing. Link each design token to actual usage examples in components.
+
+### API Reference
+
+For component variants, props, and callbacks, document the expected behavior for each. For example, a Button component documentation should show each size variant, color variant, disabled state, loading state, and the actual props with descriptions.
+
+### Code Examples
+
+Embed runnable code examples showing common patterns. When developers see how to compose components together or handle complex scenarios, they adopt patterns faster.
+
+### Version History
+
+Track component changes across releases. Document which components changed, what changed, and migration guidance for breaking changes.
+
+## Platform Comparison for Scaled Design System Documentation
+
+| Platform | Best For | Setup Effort | Team Size | Pricing |
+|----------|----------|-------------|-----------|---------|
+| Storybook | Developer-centric documentation | 2-4 hours initial | 2-50 | Free (open source) |
+| Zeroheight | Designer + developer collaboration | 1-2 hours | 2-30 | $29-99/month |
+| Chromatic | Visual regression testing + docs | 1 hour | 3-40+ | Free tier, $50+/month paid |
+| Figma Dev Mode | Design handoff + specs | Already in Figma | 1-20 | Included with Figma |
+| Stencil | Web component documentation | 4-8 hours | 5-50+ | Free or commercial |
+
+## Implementation Workflow for Adding Design Documentation
+
+### Phase 1: Initial Storybook Setup (Week 1)
+
+1. Install Storybook in your design system package
+2. Create basic stories for your top 10 most-used components
+3. Deploy Storybook to a stable URL (Chromatic handles this automatically)
+4. Share the URL with your team
+5. Gather feedback on missing components and clarity issues
+
+### Phase 2: Enhance with Documentation (Weeks 2-3)
+
+1. Identify the 20% of components that 80% of developers use
+2. For each, write comprehensive docs including usage patterns and common mistakes
+3. Create a design tokens reference page with colors, spacing, typography
+4. Add code examples showing component composition
+5. Document accessibility considerations for interactive components
+
+### Phase 3: Integrate with PR Review (Week 4)
+
+1. Require component PR descriptions to reference Storybook pages
+2. Add Storybook URLs to PR comments when components change
+3. Use visual regression testing to catch unintended visual changes
+4. Link from commit messages to component documentation
+
+### Phase 4: Rollout and Adoption (Weeks 5-6)
+
+1. Train team on how to use Storybook for discovering components
+2. Point designers and product managers to component pages
+3. Update onboarding documentation to reference Storybook
+4. Establish ownership for keeping documentation current
+
+## Decision Framework: When to Extend Beyond Basic Storybook
+
+Basic Storybook addresses component discovery. More advanced implementations address collaboration between disciplines. Decide based on your team composition:
+
+**Use basic Storybook if:** Your team is primarily developers, design changes are infrequent, and component variants are stable. The overhead of comprehensive documentation outweighs benefits.
+
+**Add documentation pages if:** Your team includes designers and product managers who need to understand component behavior and constraints. Developers are spending time answering "what component should I use?" questions repeatedly.
+
+**Add visual regression testing if:** Your component library serves multiple products, you need to catch unintended visual changes in PR review, or visual consistency is a competitive advantage.
+
+**Integrate design tokens if:** You're enforcing a specific design language and want to prevent teams from creating inconsistent variations.
+
+## Team Exercise: Audit Your Current Documentation
+
+Spend 30 minutes answering these questions about your design system documentation:
+
+1. Where does your team look for components? (Google Drive, Figma, Slack channel, someone's laptop?)
+2. How long does onboarding take for a new developer to understand available components?
+3. How often do developers ask "does this component exist?" in Slack or email?
+4. What components are documented in your code vs. documented only in Figma vs. not documented?
+5. When you change a component, how many places need to be updated to reflect the change?
+6. Can a developer at 3 AM in a different time zone find the component they need without asking anyone?
+
+Count the hours spent per month answering documentation questions or searching for components. Centralized, always-accessible documentation saves that time while improving code quality.
+
+## Advanced Storybook Configuration
+
+### Adding TypeScript Support
+
+For teams using TypeScript, configure Storybook to extract type information from components:
+
+**Setup:** Storybook's TypeScript configuration automatically generates prop controls from TypeScript interfaces. When you define a Button component with props, Storybook generates UI controls for each prop. Developers see what props are available without reading code.
+
+### Performance Monitoring
+
+Large component libraries (100+ components) can become slow. Optimize by:
+
+- Splitting components into lazy-loaded groups
+- Measuring build time and addressing bottlenecks
+- Using code splitting for different component categories
+- Caching build artifacts to speed up deploys
+
+### Accessibility Testing in Storybook
+
+Each component story can include automated accessibility testing:
+
+```javascript
+export const Primary = Template.bind({});
+Primary.parameters = {
+  a11y: {
+    config: {
+      rules: [
+        {
+          id: 'color-contrast',
+          enabled: true,
+        },
+      ],
+    },
+  },
+};
+```
+
+Storybook highlights accessibility violations for each component variant, catching issues before they reach production.
+
+### Integrating Design Tokens
+
+Design tokens (colors, spacing, typography) should power both design tools and component library. Storybook can display which tokens each component uses, creating traceability.
+
+### Living Documentation with Tests
+
+The best component documentation is tested. Storybook + visual testing tools (Chromatic) catch when component behavior changes unintentionally.
+
+## Migration From Ad-hoc Documentation to Storybook
+
+If you already have documentation scattered across tools, migration takes time:
+
+**Phase 1 (Week 1-2):** Export existing documentation. Identify which components have existing docs vs. which are undocumented.
+
+**Phase 2 (Week 2-3):** Create Storybook stories for top 20 most-used components. These get full documentation.
+
+**Phase 3 (Week 4):** Add stories for remaining components. Documentation can be minimal initially.
+
+**Phase 4 (Ongoing):** Gradually improve documentation quality as team works with components. Each PR that touches a component improves its documentation.
+
+## Training Team Members on Documentation Contribution
+
+New team members should be able to add component documentation without hours of training.
+
+**Documentation template:** Create a standard structure for component docs. Each component doc includes sections for: what it is, when to use it, variants/props, accessibility notes, related components.
+
+**Examples:** Point to 2-3 well-documented components as examples. New team members copy structure.
+
+**Code review focus:** When reviewing PRs that add or modify components, require documentation updates. Make it non-negotiable.
+
+## Measuring Documentation Quality
+
+Track metrics to understand if documentation is working:
+
+**Search success rate:** What % of searches find relevant components in under 30 seconds?
+
+**Question volume:** How many "does this component exist?" questions appear in Slack/email? Should trend down as documentation improves.
+
+**New hire onboarding time:** How long until new developers feel confident using design system? Target: 1-2 weeks instead of 3-4.
+
+**Component reuse rate:** Do teams actually reuse existing components, or do they build similar components repeatedly? High reuse = good documentation.
+
+**Documentation freshness:** What % of components are up-to-date? Aim for 90%+.
+
+## Deployment Options for Storybook
+
+Your team needs 24/7 access to Storybook without manual deployment effort. Choose based on your infrastructure:
+
+**Chromatic:** Official Storybook cloud provider. Automatically deploys on every commit, handles performance optimization, includes visual regression testing, and provides PR integration showing visual changes. Best for teams wanting minimal DevOps overhead.
+
+**GitHub Pages:** Free hosting for static sites. Requires manual build and push to gh-pages branch or GitHub Actions automation. Suitable for simpler setups without visual regression testing needs.
+
+**Vercel:** Fast static hosting integrated with GitHub. Deploys automatically on push, handles branching, and provides preview URLs for pull requests. Good for teams already using Vercel.
+
+**Self-hosted:** Deploy Storybook to your own infrastructure for maximum control. Requires DevOps effort to maintain servers and CI/CD pipelines.
+
+## Common Pitfalls to Avoid
+
+**Incomplete Examples:** Code examples that don't run or show unrealistic scenarios reduce documentation credibility. Make every example copy-paste ready.
+
+**Documentation Drift:** Components change but documentation doesn't. Require documentation updates as part of code review for component changes.
+
+**Missing Props Documentation:** Developers waste time reading component code to understand what props are available. Document every prop and its expected values.
+
+**No Search Mechanism:** With 50+ components, browsing categories becomes frustrating. Implement search or good categorization.
+
+**Screenshots Instead of Interactive:** Screenshots go stale. Use Storybook's interactive preview so developers see the actual rendered component.
 
 ## Frequently Asked Questions
 

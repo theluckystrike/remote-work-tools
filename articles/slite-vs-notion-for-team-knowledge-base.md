@@ -186,6 +186,206 @@ Whichever tool you choose, the structure decisions made in the first month shape
 **Schedule a quarterly documentation audit.** Block one hour per quarter where the team reviews their own section for outdated content. Mark-and-delete is less painful than letting the library grow indefinitely.
 
 **Write documentation while doing the thing, not after.** The best runbooks are written during the second time you do a process, when you still remember why the first time was confusing. Documentation written from memory weeks later misses the friction points.
+## The Knowledge Base Challenge for Remote Teams
+
+Remote teams need somewhere to store information that will be referenced repeatedly: onboarding guides, product knowledge, process documentation, troubleshooting guides. Without a centralized knowledge base, information scatters across emails, Slack threads, Google Docs, and individual wikis. New team members spend weeks discovering what the company knows. When something breaks, people search for the last time it happened instead of finding documented solutions.
+
+The traditional wiki approach (static HTML, difficult to edit, hard to search) has been replaced by modern document tools. Slite and Notion have emerged as the two most popular modern knowledge base platforms. Both organize information in accessible ways, both support collaborative editing, both emphasize search and discoverability. But they have very different philosophies and trade-offs.
+
+## When to Use Slite for Knowledge Base
+
+Slite positions itself specifically as a team knowledge base tool. It emphasizes discoverability, clean design, and ease of use for non-technical users.
+
+**Key capabilities:**
+- Simplified document editing focused on clarity over customization
+- Powerful search with AI-powered suggestions of related documents
+- Collections organizing documents by topic (engineering, sales, onboarding)
+- Comments and discussion on documents without creating threads
+- Integrations with Slack and other tools
+- Straightforward permissions and sharing
+- Mobile app for accessing knowledge on the go
+
+**Slite strengths:**
+- Minimal learning curve—non-technical users can contribute immediately
+- Search is optimized for finding what you need, not scrolling through categories
+- Clean, distraction-free editing interface
+- Mobile experience is thoughtfully designed
+- Strong integration with Slack for surfacing knowledge in chat context
+
+**Real-world example:** A 20-person SaaS company uses Slite for all documentation. Their engineering team maintains technical runbooks, their product team documents feature knowledge, their marketing team keeps brand guidelines. When a support representative encounters an issue, they search Slite. If the answer exists, they find it in under 30 seconds. If it doesn't exist, they create the document while solving the issue so next time is faster. The Slack integration means common questions can be answered by posting Slite links directly in Slack.
+
+**Pricing:** Starting at $7/user/month for a small team, scaling to $12/user/month for larger teams.
+
+**Best for:** Non-technical teams, smaller companies (5-30 people), teams that prioritize search and ease of use over extensive customization.
+
+## When to Use Notion for Knowledge Base
+
+Notion positions itself as an all-in-one workspace. For knowledge bases, Notion shines when you want flexible structure, relational data, or integration with other team processes.
+
+**Key capabilities:**
+- Flexible page structure—organize information however makes sense for your team
+- Databases with properties and relations—create structured information (employee directory, service directory)
+- Templates for standardized document types
+- Rich editing with embeds, code blocks, and media
+- Advanced permissions with page-level access control
+- API for custom integrations
+- Public pages for sharing documentation outside the company
+
+**Notion strengths:**
+- Extreme flexibility—structure knowledge however you want
+- Database relations allow connecting concepts (service links to runbooks links to team)
+- Templates reduce duplicative work
+- Easy to move between different use cases (if you start with a knowledge base and later add project management, same tool works)
+- Can embed Notion content in external websites
+
+**Real-world example:** A 30-person engineering team uses Notion for documentation. They maintain a "Services" database where each service is a page containing architecture, deployment instructions, runbooks, and monitoring links. An "Incidents" database tracks incidents and links to relevant service pages. When an engineer encounters a new issue, they search for similar incidents and reference the solution. Because everything is relational, they navigate from issue to service to runbook quickly.
+
+**Pricing:** Free for personal use, $10/user/month for team workspaces, scaling to $20/user/month with advanced features.
+
+**Best for:** Technical teams, larger companies (20-100 people), teams that want flexible structure and relational data.
+
+## Detailed Comparison
+
+### Search and Discoverability
+
+**Slite:** Optimized for finding information. Full-text search works well. AI-powered "related documents" suggestions help explore connected knowledge. Search defaults are sensible.
+
+**Notion:** Basic search functionality that searches document titles and content, but lacks AI-powered suggestions. Large workspaces can feel hard to navigate without clear categorization.
+
+**Verdict:** Slite wins for pure discoverability, especially for larger knowledge bases. Notion requires better structure to be equally searchable.
+
+### Editing Experience
+
+**Slite:** Simplified editing focused on readability. Limited formatting options (headings, lists, bold, italic, code blocks). The constraint forces clear writing.
+
+**Notion:** Rich editing with extensive formatting options, embeds, databases, and custom properties. More powerful but steeper learning curve.
+
+**Verdict:** Slite for simplicity and fast document creation. Notion for technical documentation needing code blocks, embeds, and complex formatting.
+
+### Knowledge Structure
+
+**Slite:** Collections organize documents into topics. Simple hierarchy. Useful for straightforward organization (Sales, Engineering, HR).
+
+**Notion:** Databases with properties and relations. Complex relationships. Useful for interconnected knowledge (service links to team links to runbooks).
+
+**Verdict:** Notion for interconnected knowledge. Slite for straightforward topic organization.
+
+### Team Size Suitability
+
+**Slite:** Works well for 5-40 person teams. Search remains effective even as knowledge grows.
+
+**Notion:** Works well for 10-200 person teams. Requires more upfront structure as team grows, but scales with organization.
+
+**Verdict:** Slite for smaller teams, Notion for growing teams.
+
+### Integration Depth
+
+**Slite:** Strong Slack integration. Can post documents in Slack threads. Webhooks for custom integrations.
+
+**Notion:** Zapier integration and public API for custom development. Can embed Notion content in websites. Slack integration through bots.
+
+**Verdict:** Notion for teams needing deep customization. Slite for standard Slack-first workflows.
+
+## Comparison Table
+
+| Factor | Slite | Notion |
+|--------|-------|--------|
+| Learning curve | Beginner | Intermediate |
+| Search quality | Excellent | Good |
+| Editing simplicity | High | Flexible |
+| Relational data | Limited | Excellent |
+| Team size sweet spot | 5-40 | 20-200 |
+| Mobile experience | Good | Basic |
+| Custom integrations | Limited | Extensive |
+| Pricing | $7-12/user | Free-20/user |
+| Best for | Discoverability | Flexibility |
+
+## Implementation Workflow: Slite
+
+1. Create collections for each team or topic (Engineering, Product, Sales, HR)
+2. Document top 10 most important processes first
+3. Enable Slack integration to post documentation links in #help channel
+4. Set up on-call schedule to document on-call handoff
+5. Create process for making documentation updates when processes change
+6. Train team on how to search and contribute
+
+Expected adoption timeline: 2-3 weeks until team uses Slite as default reference.
+
+## Implementation Workflow: Notion
+
+1. Define your knowledge structure: flat (all pages in one folder) or relational (databases with links)
+2. Create master database for key concepts if using relational approach
+3. Set up templates for common document types
+4. Migrate critical documentation from existing systems
+5. Document cross-links between related pages
+6. Configure permissions if different teams need privacy
+7. Train team on navigation and contribution
+
+Expected adoption timeline: 3-4 weeks. More setup but more powerful if structured well.
+
+## Decision Framework
+
+**Choose Slite if:**
+- Your team is 5-40 people
+- Search and discoverability are priorities
+- You want minimal overhead to get started
+- You prefer a tool that does one thing exceptionally well
+- Your knowledge base is straightforward (onboarding, processes, FAQ)
+
+**Choose Notion if:**
+- Your team is 20-200 people
+- You want flexible structure that can evolve
+- Your knowledge is interconnected (services link to teams link to runbooks)
+- You might eventually use the same tool for other team functions
+- You have technical team members comfortable with databases and templates
+
+## Team Exercise: Knowledge Audit
+
+Before choosing between Slite and Notion, understand your knowledge base needs:
+
+1. How many documents do you need in your knowledge base? (fewer than 50? more than 500?)
+2. Is knowledge straightforward and independent, or is it interconnected?
+3. How often do you search for information? (daily or multiple times per week?)
+4. How many team members will contribute? (just one person or whole team?)
+5. What information do you currently keep in which tools? (emails, Google Drive, wiki, Slack threads)
+
+Use these answers to guide your choice. If your primary need is "find information fast," Slite. If your primary need is "organize knowledge flexibly," Notion.
+
+## Migration Path Between Slite and Notion
+
+If you start with Slite and later need more flexibility, you can migrate to Notion:
+
+1. Export all Slite content as Markdown
+2. Create corresponding pages in Notion
+3. Update permissions as needed
+4. Redirect team to Notion documentation
+5. Keep Slite around as archive until you're confident migration is complete
+
+The reverse (Notion to Slite) is harder because you lose database structure in migration.
+
+## Hybrid Approach: Slite + Notion
+
+Some teams use both tools:
+- Slite for customer-facing knowledge base (product help, troubleshooting)
+- Notion for internal knowledge (architecture, processes, team information)
+
+This works when customer docs and internal docs have different audiences and structure needs.
+
+## Content Strategy for Either Tool
+
+Regardless of which tool you choose, successful knowledge bases share common practices:
+
+**Establish ownership:** Assign one person responsible for keeping each section current. They're not required to write everything, but they maintain accuracy.
+
+**Document while doing:** Don't write documentation after you've done something. Document as you solve the problem so knowledge captures while you're thinking about it.
+
+**Link related documents:** If one document references another, create the link. This helps people navigate from general to specific information.
+
+**Remove outdated content:** Don't keep old procedures just in case. Mark them as archived with a date, then remove. Outdated documentation is worse than no documentation.
+
+**Update from questions:** Every time someone asks a question, ask: "Should this be in the knowledge base?" If yes, add it. If it's already documented but hard to find, reorganize.
+
+**Celebrate contributors:** When team members contribute to knowledge base, acknowledge it. Knowledge base maintenance is invisible work that deserves appreciation.
 
 ## Frequently Asked Questions
 
