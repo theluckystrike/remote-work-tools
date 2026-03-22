@@ -216,6 +216,303 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific pain point you experience regularly. Marginal improvements rarely justify the transition overhead.
 
+## Container Registry Implementation Template
+
+Set up your first registry with this structured approach:
+
+```yaml
+# registry-setup.yaml - Configuration for container registry deployment
+registry:
+  provider: "AWS ECR"  # or your chosen provider
+  regions:
+    primary: "us-east-1"
+    secondary: "eu-west-1"
+
+  repositories:
+    - name: "api-service"
+      environment: "all"  # dev, staging, prod
+      lifecycle_policy:
+        untagged_images:
+          expire_after_days: 7
+        old_versions:
+          keep_recent: 10
+          expire_after_days: 30
+
+    - name: "worker-service"
+      environment: "prod-only"
+      lifecycle_policy:
+        untagged_images:
+          expire_after_days: 14
+        old_versions:
+          keep_recent: 5
+          expire_after_days: 60
+
+    - name: "frontend"
+      environment: "all"
+      lifecycle_policy:
+        untagged_images:
+          expire_after_days: 3  # Short-lived frontend builds
+        old_versions:
+          keep_recent: 20
+          expire_after_days: 14
+
+  security:
+    image_scanning: true
+    vulnerability_threshold: "CRITICAL"  # Block CRITICAL, allow MEDIUM/HIGH
+    require_signing: true
+    allowed_registrars:
+      - "github.com/ourcompany"
+      - "trusted-ci.example.com"
+
+  access:
+    push_permissions:
+      - service_account: "github-actions"
+        repositories: "*"  # All repositories
+      - service_account: "manual-deploy"
+        repositories: "specific"  # Only production services
+
+    pull_permissions:
+      - deployment: "staging"
+        repositories: "*"
+      - deployment: "production"
+        repositories: "prod-services"
+```
+
+This configuration prevents uncontrolled image accumulation, enforces security scanning, and ensures only authorized sources push images.
+
+## CI/CD Pipeline Integration
+
+Integrate your registry into deployment pipelines:
+
+```yaml
+# GitHub Actions workflow: Build, scan, and push to registry
+name: Build and Push Docker Image
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Log in to Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=ref,event=branch
+            type=semver,pattern={{version}}
+            type=sha
+
+      - name: Build and push
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Scan image for vulnerabilities
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: ${{ steps.meta.outputs.tags }}
+          format: 'sarif'
+          output: 'trivy-results.sarif'
+
+      - name: Upload scanning results
+        uses: github/codeql-action/upload-sarif@v2
+        with:
+          sarif_file: 'trivy-results.sarif'
+```
+
+This pipeline automatically builds images, scans for vulnerabilities, and pushes only to the registry—zero manual intervention required.
+
+## Multi-Region Registry Replication
+
+For globally distributed teams, replicate images to nearby regions:
+
+```bash
+#!/bin/bash
+# Script to replicate images between regions
+
+PRIMARY_REGISTRY="123456789.dkr.ecr.us-east-1.amazonaws.com"
+SECONDARY_REGISTRY="123456789.dkr.ecr.eu-west-1.amazonaws.com"
+IMAGE_NAME="myapp"
+VERSION="v1.2.3"
+
+# Pull from primary
+docker pull $PRIMARY_REGISTRY/$IMAGE_NAME:$VERSION
+
+# Tag for secondary
+docker tag $PRIMARY_REGISTRY/$IMAGE_NAME:$VERSION \
+           $SECONDARY_REGISTRY/$IMAGE_NAME:$VERSION
+
+# Push to secondary
+docker push $SECONDARY_REGISTRY/$IMAGE_NAME:$VERSION
+
+echo "Image replicated: $IMAGE_NAME:$VERSION"
+```
+
+Run this before major deployments to ensure all regions have current images cached locally, eliminating cross-region transfer latency.
+
+## Registry Access Control Configuration
+
+Define role-based access for different team members:
+
+```json
+{
+  "roles": {
+    "developer": {
+      "permissions": [
+        "ecr:GetDownloadUrlForLayer",
+        "ecr:BatchGetImage",
+        "ecr:DescribeImages"
+      ],
+      "resources": ["arn:aws:ecr:*:*:repository/dev-*"]
+    },
+    "ci_pipeline": {
+      "permissions": [
+        "ecr:GetDownloadUrlForLayer",
+        "ecr:BatchGetImage",
+        "ecr:PutImage",
+        "ecr:InitiateLayerUpload",
+        "ecr:UploadLayerPart",
+        "ecr:CompleteLayerUpload"
+      ],
+      "resources": ["arn:aws:ecr:*:*:repository/*"]
+    },
+    "deployment": {
+      "permissions": [
+        "ecr:GetDownloadUrlForLayer",
+        "ecr:BatchGetImage"
+      ],
+      "resources": [
+        "arn:aws:ecr:*:*:repository/prod-*"
+      ]
+    },
+    "security_scanning": {
+      "permissions": [
+        "ecr:DescribeImages",
+        "ecr:DescribeImageScanFindings"
+      ],
+      "resources": ["arn:aws:ecr:*:*:repository/*"]
+    }
+  }
+}
+```
+
+This principle of least privilege prevents accidental or malicious image tampering.
+
+## Image Size Optimization Checklist
+
+Large images waste bandwidth for remote teams. Optimize systematically:
+
+- [ ] Use multi-stage builds (discarding build tools from final image)
+- [ ] Choose minimal base images (alpine, distroless, or scratch)
+- [ ] Remove unnecessary files before building final layer
+- [ ] Don't add large files (databases, ML models) to images
+- [ ] Compress vendored dependencies
+- [ ] Cache layer aggressively (order layers from least to most frequently changed)
+- [ ] Scan for unnecessary binaries in final image
+- [ ] Test final image size with `docker images`
+
+Example multi-stage Dockerfile:
+
+```dockerfile
+# Stage 1: Builder
+FROM node:18 as builder
+WORKDIR /build
+COPY package*.json ./
+RUN npm ci && npm run build
+
+# Stage 2: Runtime
+FROM node:18-alpine
+WORKDIR /app
+COPY --from=builder /build/dist ./dist
+COPY package*.json ./
+RUN npm ci --production
+CMD ["node", "dist/index.js"]
+```
+
+The final image contains only production dependencies, not build tools or source code.
+
+## Registry Monitoring and Alerting
+
+Monitor registry health continuously:
+
+```python
+# Script to monitor registry metrics and send alerts
+import boto3
+import json
+from datetime import datetime, timedelta
+
+def monitor_ecr_registry():
+    ecr = boto3.client('ecr')
+    cloudwatch = boto3.client('cloudwatch')
+
+    repositories = ecr.describe_repositories()['repositories']
+
+    alerts = []
+
+    for repo in repositories:
+        name = repo['repositoryName']
+
+        # Check for image accumulation
+        images = ecr.describe_images(repositoryName=name)
+        untagged = [img for img in images['imageDetails'] if not img.get('imageTags')]
+
+        if len(untagged) > 50:
+            alerts.append(f"{name}: {len(untagged)} untagged images (cleanup recommended)")
+
+        # Check for old images
+        old_images = [img for img in images['imageDetails']
+                      if (datetime.now(img['imagePushedAt'].tzinfo) - img['imagePushedAt']).days > 90]
+
+        if len(old_images) > 100:
+            alerts.append(f"{name}: {len(old_images)} images older than 90 days")
+
+        # Check storage usage
+        if repo.get('repositorySizeBytes', 0) > 50e9:  # 50GB threshold
+            size_gb = repo['repositorySizeBytes'] / 1e9
+            alerts.append(f"{name}: {size_gb:.1f}GB used (approaching limit)")
+
+    if alerts:
+        # Send to Slack or email
+        print("Registry Alerts:")
+        for alert in alerts:
+            print(f"  - {alert}")
+
+    return alerts
+```
+
+Run this daily to catch registry issues before they impact the team.
 
 ## Related Articles
 

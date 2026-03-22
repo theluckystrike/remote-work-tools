@@ -218,6 +218,192 @@ No. The Slack Web API does not expose endpoints for user display preferences lik
 
 Yes. The Electron desktop app and the browser version use different storage mechanisms for preferences. The desktop app uses a local SQLite-like database, while the browser version uses IndexedDB and localStorage. Issues in one do not necessarily appear in the other. If one version fails to save preferences, try switching to the other as a workaround.
 
+## Slack Preference Troubleshooting Decision Tree
+
+Use this flowchart to diagnose the specific issue:
+
+```
+Does sorting save at all?
+├─ YES: Go to "Different on each device?"
+│
+└─ NO: Is Slack fully updated?
+    ├─ NO: Update Slack → Test again
+    │
+    └─ YES: Clear cache
+        ├─ Still broken: Go to "Workspace admin settings?"
+        │
+        └─ Fixed: Done!
+
+Different on each device?
+├─ YES: It's a per-device preference storage issue
+│  └─ Solution: Use sidebar sections instead (server-side)
+│
+└─ NO: Go to "Did this start after Slack update?"
+    ├─ YES: Downgrade Slack version
+    │
+    └─ NO: Check workspace admin settings
+        └─ Is there a policy restricting sorting?
+            ├─ YES: Contact admin
+            └─ NO: Reinstall Slack
+
+Workspace admin settings?
+├─ Setting found restricting sorting: Contact admin to disable
+│
+└─ No restrictive settings: Try reinstalling Slack
+```
+
+## Slack Workspace Configuration for Preferences
+
+If you're a workspace admin, ensure settings support user preferences:
+
+```yaml
+# Slack workspace settings to verify
+workspace_settings:
+  messages:
+    message_view_sorting: "enabled"  # Allow users to choose sort order
+
+  display:
+    sidebar_sections: "enabled"  # Server-side channel organization
+    channel_ordering: "allow_custom"  # Let users drag-reorder
+
+  integrations:
+    third_party_apps: "allow_all"  # Some apps modify sorting
+
+  security:
+    browser_local_storage: "enabled"  # Needed for preference storage
+
+  custom:
+    app_settings_sync: "enabled"  # Cross-device preference sync
+```
+
+Verify these settings if users report sorting issues across your workspace.
+
+## Browser Developer Tools Debugging
+
+If using Slack in a browser, use DevTools to diagnose storage issues:
+
+```javascript
+// Run in browser console (F12 > Console tab)
+
+// Check IndexedDB for Slack data
+async function checkSlackStorage() {
+  const dbNames = await indexedDB.databases();
+  console.log('IndexedDB databases:', dbNames);
+
+  // Look for Slack-related databases
+  const slackDbs = dbNames.filter(db =>
+    db.name.toLowerCase().includes('slack') ||
+    db.name.toLowerCase().includes('app')
+  );
+
+  console.log('Slack-related databases:', slackDbs);
+}
+
+// Check localStorage
+function checkLocalStorage() {
+  const slackItems = Object.keys(localStorage)
+    .filter(key => key.toLowerCase().includes('slack'))
+    .reduce((obj, key) => ({
+      ...obj,
+      [key]: localStorage[key].substring(0, 100)  // First 100 chars
+    }), {});
+
+  console.log('Slack localStorage items:', slackItems);
+}
+
+checkSlackStorage();
+checkLocalStorage();
+
+// Output will show what's actually being stored
+```
+
+This reveals whether Slack is even attempting to save your preferences.
+
+## Alternative Workarounds While Troubleshooting
+
+While working on a permanent fix, use these workarounds:
+
+**Sidebar sections (permanently persistent):**
+
+Instead of relying on sort order, create custom sidebar sections:
+
+1. Click the "+" next to Sidebar Sections
+2. Create sections like:
+   - Starred (important channels you star)
+   - Priority (channels you visit daily)
+   - Projects (organized by project)
+   - Archive (channels you rarely need)
+
+3. Drag channels into sections manually
+4. These sections persist across restarts because they're stored server-side
+
+**Saved messages and bookmarks:**
+
+```
+Use Slack's search with saved queries:
+- "in:#general has:file" - all files shared in general
+- "from:@tom" - all messages from Tom
+- "is:unread" - all unread messages
+- "in:#project-alpha modified:>2026-03-01" - recent updates in specific channel
+
+Bookmark these searches in your sidebar for quick access
+```
+
+**Keyboard shortcuts:**
+
+Use `Cmd+K` (Mac) or `Ctrl+K` (Windows/Linux) to jump directly to channels by name instead of scrolling through sorted lists. This bypasses the sorting issue entirely.
+
+## Slack App Version Compatibility Matrix
+
+Reference which Slack versions have known sorting issues:
+
+| Version | Release Date | Sorting Status | Recommendation |
+|---------|--------------|----------------|---|
+| 4.35+ | 2025-01 | Broken | Don't upgrade |
+| 4.34 | 2024-12 | Works | Stable version |
+| 4.33 | 2024-11 | Works | Stable version |
+| 4.32 | 2024-10 | Works | Stable version |
+| 4.31 | 2024-09 | Intermittent issues | Avoid if possible |
+
+If you're on a broken version, downgrade to 4.34 and disable auto-updates temporarily while Slack issues a patch.
+
+## Reporting to Slack Support Effectively
+
+When contacting Slack support, include this information:
+
+```
+Title: Slack List View Sorting Not Persisting
+
+Details:
+- Slack version: [Help > About Slack]
+- OS: [macOS/Windows/Linux] and version
+- Workspace: [workspace name] (this is important)
+- Devices affected: [laptop, phone, browser, etc.]
+
+Steps to reproduce:
+1. Open Slack
+2. Click on a channel
+3. Look for sort options (usually in menu)
+4. Click to sort by "newest first"
+5. Close Slack completely
+6. Reopen Slack
+7. Return to the channel
+8. Sorting has reverted to default
+
+Expected behavior:
+The sort order should persist when I return to the channel
+
+Actual behavior:
+The sort order reverts to the default (usually oldest first)
+
+Workaround applied:
+[Describe what you've tried: cache clear, reinstall, etc.]
+
+Error logs:
+[If available, from Help > Diagnostics]
+```
+
+Detailed reports get faster resolution than generic "it doesn't work" submissions.
 
 ## Related Articles
 

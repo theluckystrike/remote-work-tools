@@ -226,5 +226,200 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific pain point you experience regularly. Marginal improvements rarely justify the transition overhead.
 
+## Presentation Remote Feature Comparison
+
+Evaluate mobile presentation remotes across the capabilities that matter:
+
+| Feature | PowerPoint Mobile | Google Slides | Keynote Remote | Descript | Presentation Remote (3rd party) |
+|---------|---|---|---|---|---|
+| **Slide control** | Excellent | Excellent | Excellent | Good | Excellent |
+| **Presenter notes** | Yes | Yes | Yes | Yes | Some apps |
+| **Timer display** | Yes | No | Yes | No | Some apps |
+| **Laser pointer** | No | No | Yes | No | Yes |
+| **Speaker view** | Slide + next + notes | Slide + next | Slide + next | Limited | Varies |
+| **Wireless range** | Same network | Same network | Same network | Same network | Same network |
+| **Gesture controls** | Tap + swipe | Tap | Swipe | Tap | Varies |
+| **Setup time** | <1 minute | <1 minute | <1 minute | 2-3 minutes | Varies |
+| **Cost** | Free | Free | Free | $10-24/mo | $0-20 one-time |
+
+PowerPoint and Google Slides nail the fundamentals, while Keynote adds polish for Apple users. Third-party apps excel at advanced features but introduce technical risk for critical presentations.
+
+## Technical Setup Checklist for Live Presentations
+
+Verify everything works before your audience arrives:
+
+```markdown
+# Pre-Presentation Technical Checklist
+
+## 30 Minutes Before
+- [ ] Phone is fully charged (or plugged in)
+- [ ] Laptop is fully charged or plugged into power
+- [ ] Presentation is open in the app (PowerPoint, Slides, Keynote)
+- [ ] Mobile app is installed and logged in
+- [ ] WiFi connection is stable (speedtest shows >5Mbps)
+- [ ] Airplane mode is OFF (or explicitly enable WiFi in airplane mode)
+
+## 15 Minutes Before
+- [ ] Open presentation on laptop
+- [ ] Launch presentation mode (full screen)
+- [ ] Open mobile app on phone
+- [ ] Establish remote control connection
+- [ ] Test: Advance one slide with the mobile remote
+- [ ] Test: Go back one slide with the mobile remote
+- [ ] Verify slide transitions appear instantly (no lag)
+
+## 5 Minutes Before
+- [ ] Phone is positioned where you can see it without looking away from camera
+- [ ] Phone screen brightness is adequate to see in your room lighting
+- [ ] Do a full dry run: advance through 3-5 slides
+- [ ] Verify speaker notes are visible (if you're using them)
+- [ ] Test the camera positioning (you don't want phone visible on camera if possible)
+- [ ] Take three deep breaths
+
+## During Presentation
+- [ ] Have your laptop within arm's reach (fallback if phone fails)
+- [ ] Know the keyboard shortcut for advancing slides on your laptop
+- [ ] Monitor latency: is there noticeable delay between tap and slide change?
+```
+
+Use this checklist for every important presentation, even if you've presented before.
+
+## Presentation Remote Failure Recovery
+
+Technical failures happen. Here's how to recover:
+
+**If the mobile remote stops responding during a presentation:**
+
+```
+Immediate: Stay calm, keep talking
+Within 5 seconds: Tap the app to bring it to foreground
+Within 10 seconds: If still unresponsive, use laptop keyboard (Right arrow)
+Within 15 seconds: If still broken, acknowledge the issue to the audience
+             ("Small technical hiccup, just a moment")
+Recovery: Pull up laptop, continue with keyboard control
+After: Don't rely on mobile remote for next slide - regain
+       confidence with keyboard control before trying again
+```
+
+**If your WiFi drops:**
+
+Switching to airplane mode with WiFi enabled creates a more stable local connection. This is especially important if your presentation venue has multiple WiFi networks or interference.
+
+**If the presentation file won't open:**
+
+Keep a PDF version of your presentation in your phone. While not interactive-remote-controlled, you can still present from your phone as fallback (though not ideal).
+
+## Integration with Video Conferencing Platforms
+
+Test your specific platform combination before important presentations:
+
+**Platform: Zoom**
+- Screen share the presentation app
+- Mobile remote controls the local application
+- Audience sees the presentation, not your desktop
+- Works flawlessly
+
+**Platform: Google Meet**
+- Share specific window (Google Slides)
+- Mobile remote controls Slides simultaneously
+- Audience sees shared window content
+- Small lag sometimes observed
+
+**Platform: Microsoft Teams**
+- Share PowerPoint directly through Teams
+- Mobile PowerPoint app controls the shared version
+- Real-time sync works well
+- Recommended for Teams organizations
+
+**Platform: Generic video conference (Whereby, Jitsi, etc.)**
+- Screen share the presentation window
+- Control your local copy with mobile remote
+- Audience sees what's on your screen
+- Usually works fine, but test beforehand
+
+Test your exact combination (Zoom + Google Slides on your laptop + Google Slides app on your phone, for example) before a critical presentation.
+
+## Advanced Presentation Techniques with Mobile Control
+
+Once you've mastered basics, these advanced techniques elevate your presentations:
+
+**Gesture-based navigation:**
+Develop muscle memory for advancing slides with your phone gesture of choice (swipe, tap specific zone, button press). Practice until it's automatic—you should advance without consciously thinking about the gesture.
+
+**Pacing and timing:**
+Use your phone's timer (visible only to you) to track presentation progress. Knowing you're running long or ahead of schedule lets you adjust depth of coverage in real-time.
+
+**Speaker notes on your phone:**
+If your app shows speaker notes, glance at them for talking points. Your audience sees only your face and slides, not your notes.
+
+**Audience engagement through slides:**
+Design slides with embedded questions or calls to action, then advance based on audience response. "Take 30 seconds to discuss this with someone next to you, then we'll move forward." Mobile control lets you set the pacing.
+
+**Dynamic presentation flow:**
+Because you control transitions, you can pause on a slide longer if audience asks a detailed question. No need to "go back" to a previous slide—just keep discussing and advance when you're ready.
+
+## Video Presentation Recording with Mobile Control
+
+Record presentations to share asynchronously with your team:
+
+```bash
+#!/bin/bash
+# macOS: Record presentation with audio and slides
+
+# Use QuickTime to record video + audio while presenting
+# Use mobile remote to control slides during recording
+# Result: recording shows slides + your video feed
+
+# Simple screen record (no video of yourself):
+ffmpeg -f avfoundation -i "1:0" -r 30 output.mov
+
+# More complex: record full screen + audio
+ffmpeg -f avfoundation -i "1:0" \
+       -f avfoundation -i ":0" \
+       -c:v libx264 -preset medium \
+       -c:a aac output.mp4
+```
+
+Recorded presentations with mobile-controlled slides enable async viewing for team members who can't attend live.
+
+## Presentation Delivery Metrics to Track
+
+Track your presentation effectiveness to improve over time:
+
+```yaml
+metrics_to_track:
+  technical:
+    - mobile_remote_failures: "Did the remote work consistently?"
+    - connection_latency: "Was there lag between tap and slide change?"
+    - battery_drain: "How much battery did the phone lose?"
+
+  presentation:
+    - speaking_pace: "Did you speak too fast or too slowly?"
+    - slide_time_per_slide: "Did you spend appropriate time per slide?"
+    - audience_engagement: "Did people ask questions?"
+    - camera_professionalism: "Did I maintain good eye contact?"
+
+  feedback:
+    - audience_comments: "What worked well?"
+    - technical_issues: "What broke?"
+    - improvements: "What would I do differently next time?"
+
+# Track these for each presentation over time
+# Plot improvements quarter-by-quarter
+```
+
+Record yourself presenting (with permission from your audience or just for training) and review the recording. Your on-camera presence will improve dramatically with practice and feedback.
+
+## Mobile Presentation App Ecosystem
+
+Beyond the major platforms, emerging tools offer specialized capabilities:
+
+- **Presentation Clicker** - Simple, lightweight, works with any PDF or slide app
+- **SpeakerDeck** - Slides designed for presentations, clean mobile remote
+- **Slidebean** - AI-assisted slide design with excellent mobile controls
+- **Beautiful.ai** - Design-first presentation builder with remote support
+- **Pitch** - Collaborative slides with strong mobile features
+
+Experiment with one or two beyond your primary tool to find which feels most natural for your presentation style.
 
 {% endraw %}

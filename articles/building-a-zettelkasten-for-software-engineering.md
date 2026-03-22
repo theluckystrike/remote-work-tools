@@ -210,6 +210,225 @@ Shared Zettelkastens work for teams of two to four people using a git repo as th
 
 Choose a tool (Obsidian, Logseq, or plain markdown with git), commit to capturing one atomic note per day, and resist the urge to organize prematurely. The connections matter more than the structure. Over months and years, you'll have a knowledge graph that accelerates problem-solving and preserves hard-won technical insights.
 
+## Zettelkasten Template Examples
+
+Use these templates as starting points for different note types:
+
+**Permanent note template:**
+
+```markdown
+---
+id: YYYYMMDD-slug
+tags: [category, language, pattern-type]
+created: YYYY-MM-DD
+status: active
+---
+
+# [Concept Title]
+
+[1-2 sentence definition of what this is]
+
+## Why This Matters
+
+[Problem it solves or capability it enables]
+
+## How It Works
+
+[Mechanism or implementation]
+
+## Code Example
+
+[Runnable snippet showing real usage]
+
+## Related Concepts
+
+- [[concept1]] - how this relates to concept 1
+- [[concept2]] - when to choose this over concept 2
+
+## Trade-offs
+
+[What you give up by using this]
+
+## Common Pitfalls
+
+[Mistakes people make with this]
+```
+
+**Problem-solution note template:**
+
+```markdown
+---
+id: YYYYMMDD-problem-slug
+tags: [problem, debugging, [specific-tech]]
+created: YYYY-MM-DD
+---
+
+# [Problem Statement]
+
+## Symptoms
+
+[What does the problem look like?]
+
+## Root Cause
+
+[Why does this happen?]
+
+## Solution
+
+[How to fix it]
+
+## Prevention
+
+[How to avoid this in future projects]
+
+## References
+
+[[solution-concept]] — the underlying pattern
+[[tool-version]] — version specifics matter
+```
+
+## Querying Your Knowledge Base
+
+Once you've built 100+ notes, querying becomes powerful:
+
+**Find all notes about performance:**
+
+```dataview
+LIST file.name
+FROM "permanent"
+WHERE contains(tags, "performance")
+SORT file.name ASC
+```
+
+**Find unlinked notes (orphans):**
+
+```dataview
+LIST file.name
+FROM "permanent"
+WHERE length(file.inlinks) = 0
+SORT file.name DESC
+```
+
+**Find your most-linked concepts:**
+
+```dataview
+TABLE length(file.outlinks) as outgoing_links
+FROM "permanent"
+SORT length(file.outlinks) DESC
+LIMIT 20
+```
+
+These queries reveal patterns in your knowledge base—frequently-linked concepts are foundational, unlinked notes need context, and your knowledge graph structure emerges.
+
+## Zettelkasten Maintenance Schedule
+
+Don't let your knowledge base become a graveyard of half-finished notes:
+
+```yaml
+Daily:
+  - Capture one permanent note from work
+  - Link it to at least one existing note
+  - Time: 15-20 minutes
+
+Weekly (Friday):
+  - Review fleeting notes from the week
+  - Convert 3-5 into permanent notes
+  - Prune notes that became obsolete
+  - Time: 45 minutes
+
+Monthly:
+  - Query your knowledge graph for clusters
+  - Identify gaps (areas with few notes)
+  - Archive project-specific notes
+  - Time: 1 hour
+
+Quarterly:
+  - Review entire graph structure
+  - Refactor overly broad notes into atomic ones
+  - Merge duplicate concepts
+  - Time: 2 hours
+```
+
+This schedule keeps your Zettelkasten healthy without becoming a time sink.
+
+## Integration with Development Workflows
+
+Make your Zettelkasten part of actual work, not a separate task:
+
+**Post-standup note:**
+After your daily standup, write a permanent note about a technical decision or problem discussed. Takes 5 minutes but compounds into a searchable team knowledge base.
+
+**PR review notes:**
+When reviewing code, convert interesting patterns or gotchas into permanent notes. Link them to related architectural concepts.
+
+**Bug fix documentation:**
+When fixing a bug, write a note titled with the error message. Include root cause, fix, and how to prevent recurrence. Future you will find this invaluable.
+
+**Architecture decision capture:**
+When the team decides on an architectural approach, write a permanent note explaining:
+- The decision made
+- Why this approach (vs. alternatives)
+- Trade-offs accepted
+- Link to the actual ADR in the repo
+
+## Cross-Domain Linking Pattern
+
+As your Zettelkasten grows, connections across domains emerge:
+
+```
+[[caching-strategies]]
+  ├── [[redis-cache-pattern]]
+  ├── [[browser-cache-headers]]
+  └── [[cdn-edge-caching]]
+
+[[api-design]]
+  ├── [[rest-principles]]
+  ├── [[rate-limiting]] ← also links from caching-strategies
+  └── [[idempotency]]
+
+[[database-performance]]
+  ├── [[n+1-query-problem]]
+  ├── [[query-optimization]]
+  └── [[caching-strategies]] ← makes explicit that caching solves db perf
+```
+
+These cross-domain connections often spark insights: "wait, I could apply the caching pattern from APIs to my database layer."
+
+## Zettelkasten for Team Knowledge
+
+While personal Zettelkastens work best, teams can use similar structures:
+
+```markdown
+# Team Knowledge Base Structure
+
+## Individual Zettelkastens
+- Each engineer maintains personal notes (not shared)
+- Captures individual learning and insights
+
+## Team Wiki
+- Extracted from individual notes
+- Shared understanding of systems and patterns
+- Higher bar for quality (peer reviewed)
+
+## Flows
+1. Engineer learns something valuable
+2. Writes permanent note in personal Zettelkasten
+3. Links to team wiki as reference
+4. Highlights exceptional insights for team discussion
+5. Team wiki gets updated with consensus understanding
+```
+
+This approach gets the benefits of personal knowledge capture without the chaos of shared note-taking.
+
+## Tool Recommendations for Different Team Sizes
+
+| Team Size | Best Tool | Reason |
+|-----------|-----------|--------|
+| Solo (1) | Obsidian or plain markdown | Maximum flexibility, personal workflow |
+| Small (2-4) | Logseq | Outline-first thinking works well, git-friendly |
+| Growing (5-10) | Separate personal + shared wiki | Personal Zettelkastens stay atomic, wiki handles shared understanding |
+| Large (10+) | Personal Obsidian + team Confluence | Scale requires separation of personal and organizational knowledge |
+
 ---
 
 

@@ -142,6 +142,207 @@ Your client dashboard is the nerve center for eight active projects. The tool ne
 
 **Airtable** gives you relational database power with a spreadsheet feel. Build a master client table with linked tables for tasks, invoices, and contacts. This approach scales well and makes reporting easy.
 
+## Project Management Tool Comparison
+
+Compare tools across the key dimensions that matter for managing eight concurrent client projects:
+
+| Dimension | Notion | Linear | GitHub Projects | Airtable |
+|-----------|--------|--------|-----------------|----------|
+| **Cross-project dashboard** | Excellent | Good | Limited | Excellent |
+| **Learning curve** | Steep (2-4 weeks) | Gentle (2-3 days) | Minimal (familiar) | Steep (1 week) |
+| **Mobile app quality** | Good | Excellent | Adequate | Excellent |
+| **API for automation** | Yes, complex | Yes, GraphQL | Yes, REST | Yes, REST |
+| **Free tier limits** | Generous | 250 issues | 10 projects | Limited |
+| **Best for** | Flexibility seekers | Speed-focused devs | GitHub-native teams | Relational data |
+| **Monthly cost** | $0-10 | $0-7/mo per user | $0 | $0-20 |
+
+## Database Schema for Managing Multiple Clients in Airtable
+
+If using Airtable, structure your base with these linked tables:
+
+```yaml
+# Airtable Base Schema
+base: "Eight Clients Manager"
+
+tables:
+  clients:
+    fields:
+      - Name (text)
+      - Status (select: active, paused, completed)
+      - Hourly_Rate (currency)
+      - Monthly_Budget (currency)
+      - Contact (linked to contacts)
+      - Active_Projects (linked to projects)
+      - Next_Call (date)
+      - Retainer_End_Date (date)
+
+  projects:
+    fields:
+      - Name (text)
+      - Client (linked to clients)
+      - Status (select: planning, in-progress, review, completed)
+      - Start_Date (date)
+      - Deadline (date)
+      - Budget_Hours (number)
+      - Hours_Used (rollup from tasks)
+      - Tasks (linked to tasks)
+      - Repository_URL (url)
+
+  tasks:
+    fields:
+      - Title (text)
+      - Project (linked to projects)
+      - Status (select: todo, in-progress, done)
+      - Priority (select: low, medium, high, urgent)
+      - Assigned_Date (date)
+      - Due_Date (date)
+      - Estimated_Hours (number)
+      - Actual_Hours (number)
+      - Subtasks (linked to tasks)
+
+  invoices:
+    fields:
+      - Invoice_Number (text)
+      - Client (linked to clients)
+      - Project (linked to projects)
+      - Amount (currency)
+      - Status (select: draft, sent, paid, overdue)
+      - Due_Date (date)
+      - Items (linked to invoice_items)
+
+  contacts:
+    fields:
+      - Name (text)
+      - Email (email)
+      - Phone (phone)
+      - Role (text)
+      - Client (linked to clients)
+```
+
+## Weekly Review Template
+
+Every Friday, work through this structured review:
+
+```markdown
+# Weekly Review - Week Ending [DATE]
+
+## Client Status Updates
+
+### Client A - [Status: On-track | At-risk | Behind]
+- **Completed this week:** [2-3 bullet points]
+- **Current focus:** [What they're waiting for or working toward]
+- **Next week:** [What you'll deliver]
+- **Blockers:** [Any dependencies or clarifications needed]
+- **Hours this week:** [X of Y budgeted]
+
+### Client B - [Status]
+[Same structure...]
+
+## Time Allocation Summary
+- Client A: 15 hours (on track)
+- Client B: 12 hours (ahead of schedule)
+- Client C: 8 hours (deferred work accumulating)
+- Shared/admin: 3 hours
+- Total: 38 hours
+
+## Deliverables Completed
+- [ ] [Specific deliverable for Client X]
+- [ ] [Specific deliverable for Client Y]
+- [ ] [Bug fix or maintenance for Client Z]
+
+## Scheduled Events Next Week
+- Monday 2pm: Client A call
+- Wednesday 10am: Client C check-in
+- Thursday 3pm: Client B demo
+
+## Risks or Concerns
+[List anything about to derail a client or project]
+
+## Action Items for Next Week
+1. [Specific, time-bound task]
+2. [Specific, time-bound task]
+3. [Specific, time-bound task]
+```
+
+Complete this review every Friday, store in your project management system, and refer to it during the week when context-switching costs make you forget where you left off.
+
+## Invoice and Billing Automation
+
+Reduce time spent on invoicing—use templates and automation.
+
+**Airtable automation for invoice generation:**
+
+```javascript
+// Airtable script: Generate invoice line items from tasks
+const table = base.getTable("invoices");
+const tasksTable = base.getTable("tasks");
+
+// Find all completed tasks for this client this month
+const taskRecords = await tasksTable.selectRecordsAsync();
+let totalAmount = 0;
+
+for (const record of taskRecords.records) {
+    if (record.getCellValue("status") === "done" &&
+        record.getCellValue("client") === clientId &&
+        isThisMonth(record.getCellValue("actual_hours"))) {
+        const hours = record.getCellValue("actual_hours");
+        const rate = record.getCellValue("hourly_rate");
+        totalAmount += hours * rate;
+    }
+}
+
+// Create invoice record
+await table.createRecordAsync({
+    "Client": [{ id: clientId }],
+    "Amount": totalAmount,
+    "Status": "draft",
+    "Due_Date": getNextMonthDate()
+});
+```
+
+This script auto-calculates invoice amounts from completed task hours, eliminating manual calculation errors and saving 30+ minutes per invoice.
+
+## Context Switching Cost Tracking
+
+Monitor how much time switching between clients actually costs:
+
+```python
+# Script to calculate context switching overhead
+import json
+from datetime import datetime
+
+def calculate_switch_cost(switches_per_day=8, cost_per_switch_minutes=5):
+    """Calculate annual time cost from context switching"""
+    working_days_per_year = 250
+    total_switches = switches_per_day * working_days_per_year
+    total_wasted_minutes = total_switches * cost_per_switch_minutes
+    total_wasted_hours = total_wasted_minutes / 60
+    total_wasted_days = total_wasted_hours / 8
+
+    return {
+        "switches_per_day": switches_per_day,
+        "cost_per_switch": f"{cost_per_switch_minutes} minutes",
+        "annual_switches": total_switches,
+        "annual_wasted_time": f"{total_wasted_hours} hours ({total_wasted_days} days)",
+        "equivalent_billable_cost": f"${int(total_wasted_hours * 150)}"  # at $150/hour
+    }
+
+# Calculate cost
+cost = calculate_switch_cost(switches_per_day=8, cost_per_switch_minutes=5)
+print(json.dumps(cost, indent=2))
+
+# Output:
+# {
+#   "switches_per_day": 8,
+#   "cost_per_switch": "5 minutes",
+#   "annual_switches": 2000,
+#   "annual_wasted_time": "166.67 hours (20.83 days)",
+#   "equivalent_billable_cost": "$25000"
+# }
+```
+
+This visualization shows that context switching is worth thousands of dollars annually. Investing in separation and automation pays for itself quickly.
+
 ## Weekly Review Practice
 
 Every Friday, spend 30 minutes reviewing the week:

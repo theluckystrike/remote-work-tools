@@ -221,6 +221,329 @@ Miro has a larger template library and is better suited for structured facilitat
 **What's the most cost-effective option for a 5-person UX team?**
 Penpot's free cloud tier handles teams up to about 10 people effectively. Lunacy is free with no team size limit but lacks real-time collaboration. Miro's free tier limits boards to 3, which constrains active projects.
 
+## Design Tool Workflow Setup by Team Size
+
+Tailor your design system infrastructure to your team:
+
+**2-3 person team:**
+- Primary tool: Lunacy (free) or Figma free tier
+- Secondary: Miro free tier for sketches/research
+- Critique: Email with marked-up screenshots
+- Handoff: Export SVG/PNG for developers
+
+**5-10 person team:**
+- Primary tool: Figma Professional ($12/mo per person) or Penpot self-hosted
+- Secondary: Miro standard plan ($8/mo per person)
+- Critique: Figma's review mode or third-party review tool
+- Design system: Shared Figma libraries + auto-sync to code
+- Handoff: Figma inspect panel + component documentation
+
+**10-30 person team:**
+- Primary tool: Figma Enterprise or Penpot cloud
+- Secondary: Miro pro for complex research/workshops
+- Critique: Structured design review process + async feedback
+- Design system: Dedicated design tokens library (Tokens Studio or Penpot API)
+- Handoff: Automated design-to-code pipeline (Framer, Builder.io, or custom)
+
+**30+ person team:**
+- Primary tool: Figma + Multi-file design system
+- Secondary platforms: Penpot for sensitive projects (data residency)
+- Critique: Design review committee + formal approval process
+- Design system: Custom token management + automated Figma sync
+- Handoff: Custom API integrations to development pipeline
+
+## Setting Up a Figma Design System
+
+Structure your Figma files for scalability:
+
+```
+Figma Team / Organization
+│
+├─ Design System
+│  ├─ 🎨 Components (Master file)
+│  │  ├─ Buttons
+│  │  │  ├─ Primary
+│  │  │  ├─ Secondary
+│  │  │  └─ Disabled
+│  │  ├─ Forms
+│  │  │  ├─ Text Input
+│  │  │  ├─ Dropdown
+│  │  │  └─ Checkbox
+│  │  ├─ Cards
+│  │  └─ Navigation
+│  │
+│  ├─ 🌈 Color Tokens (Shared library)
+│  │  ├─ Primary colors
+│  │  ├─ Semantic colors (success, error, warning)
+│  │  └─ Status colors
+│  │
+│  ├─ 📝 Typography (Shared library)
+│  │  ├─ Heading styles
+│  │  ├─ Body styles
+│  │  └─ Code styles
+│  │
+│  └─ 📐 Layout Grid (Shared library)
+│     ├─ Desktop 8px grid
+│     ├─ Tablet 4px grid
+│     └─ Mobile 4px grid
+│
+├─ Projects
+│  ├─ Project Alpha
+│  │  ├─ 📱 Mobile screens (uses components library)
+│  │  ├─ 🖥️ Desktop screens (uses components library)
+│  │  └─ 🔤 Copy & content (shared for all team members)
+│  │
+│  └─ Project Beta
+│     ├─ 📱 Mobile screens
+│     ├─ 🖥️ Desktop screens
+│     └─ 🔤 Copy & content
+│
+└─ Archive
+   ├─ Old projects (after launch)
+   └─ Abandoned explorations
+```
+
+This structure enables:
+- Global design changes propagate to all projects
+- New designers can find components quickly
+- Version history is traceable
+- Archive keeps the active workspace clean
+
+## Design Token Export Configuration
+
+Export design tokens to sync with development:
+
+```json
+{
+  "design_tokens": {
+    "color": {
+      "primary": {
+        "$value": "#0066CC",
+        "$type": "color",
+        "$extensions": {
+          "category": "brand",
+          "description": "Primary brand color used for main CTAs"
+        }
+      },
+      "success": {
+        "$value": "#00B341",
+        "$type": "color",
+        "$extensions": {
+          "category": "semantic",
+          "description": "Success state for positive actions"
+        }
+      },
+      "error": {
+        "$value": "#E84C3D",
+        "$type": "color",
+        "$extensions": {
+          "category": "semantic",
+          "description": "Error state for destructive actions"
+        }
+      }
+    },
+    "typography": {
+      "heading_1": {
+        "font_family": "$value": "Inter",
+        "font_size": "$value": "32px",
+        "line_height": "$value": "40px",
+        "font_weight": "$value": "700"
+      },
+      "body": {
+        "font_family": "$value": "Inter",
+        "font_size": "$value": "16px",
+        "line_height": "$value": "24px",
+        "font_weight": "$value": "400"
+      }
+    },
+    "spacing": {
+      "xs": "$value": "4px",
+      "sm": "$value": "8px",
+      "md": "$value": "16px",
+      "lg": "$value": "24px",
+      "xl": "$value": "32px"
+    }
+  }
+}
+```
+
+Export this JSON and sync it to your codebase via CI/CD pipeline, ensuring design and code always stay aligned.
+
+## Async Design Review Workflow Template
+
+Structured async reviews replace time-consuming meetings:
+
+```markdown
+# Design Review Template (Async Process)
+
+## Phase 1: Designer Shares (Day 1, morning)
+
+1. Post design in Figma/Penpot with clear link
+2. Record a 5-minute walkthrough video (Loom):
+   - What problem does this solve?
+   - Key design decisions made
+   - Tradeoffs considered
+   - Specific feedback wanted
+
+3. Post video + Figma link to team (Slack)
+4. Message: "Design review open through end of day Wednesday"
+
+## Phase 2: Team Reviews (Day 1-2)
+
+Each reviewer spends 20 minutes:
+1. Watch the designer's walkthrough video
+2. Review the design in Figma
+3. Comment on Figma with specific feedback:
+   - What works well (be specific)
+   - Concerns or suggestions
+   - Questions for clarification
+
+Comment format:
+```
+[Area]: [Specific concern]
+- Current: [What you see]
+- Issue: [Why it's a problem]
+- Suggestion: [Specific alternative if you have one]
+```
+
+## Phase 3: Designer Responds (Day 3, morning)
+
+1. Review all comments (20 min)
+2. Identify patterns (similar feedback = stronger signal)
+3. Respond to each comment:
+   - Agree/disagree (with reasoning)
+   - Update design if accepting feedback
+   - Ask clarifying questions if needed
+
+## Phase 4: Group Sync (Optional, 30 min)
+
+Only if major disagreement or complex decisions remain.
+This sync is focused on resolving specific points, not re-reviewing.
+
+## Metrics
+
+Track to improve the process:
+- Review turnaround time: target <48 hours
+- Comment count: 3-5 per reviewer is healthy (too many = scope creep)
+- Implementation time: how long to make agreed changes?
+```
+
+This workflow compresses what would be 90-minute synchronous reviews into ~4 hours total team time spread across 2 days.
+
+## Component Library Maintenance Schedule
+
+Keep your shared design system current:
+
+```yaml
+maintenance_schedule:
+  daily:
+    - Monitor Figma for component usage
+    - Flag broken component instances
+    - Track team questions about components
+
+  weekly:
+    - Team syncs on new components ready for library (Friday)
+    - Publish updated components to shared library
+    - Archive deprecated components
+
+  monthly:
+    - Full audit: which components are actually used?
+    - Delete unused components
+    - Update documentation for complex components
+    - Version bump (v1.2.3 format)
+
+  quarterly:
+    - Design system review with full team
+    - Plan next generation updates
+    - Deprecate technical debt components
+    - Update style guide documentation
+```
+
+Unmaintained design systems become worse than no system. Allocate time regularly.
+
+## Developer Handoff Checklist
+
+Make handoff smooth when designs move to development:
+
+```markdown
+# Design Handoff Checklist
+
+## Before Handoff
+- [ ] All components use the shared design system library
+- [ ] Margins and padding are consistent and documented
+- [ ] Color values are semantic (use design tokens, not hex)
+- [ ] Typography uses defined styles (not custom sizes)
+- [ ] All interactive states documented (hover, active, disabled)
+- [ ] Responsive breakpoints clearly labeled (mobile/tablet/desktop)
+- [ ] Animations/transitions documented with timing (300ms, 600ms, etc.)
+- [ ] Copy/content finalized and not subject to change
+- [ ] Edge cases handled (empty state, error state, loading state)
+
+## Figma Inspect Panel Setup
+- [ ] Export settings configured (PNG, SVG, PDF as needed)
+- [ ] Component variants clearly labeled in Figma
+- [ ] Layer names match the component names developers will use
+- [ ] No unnamed or placeholder layers visible in inspect mode
+- [ ] Pixel dimensions accurate (developers copy measurements)
+
+## Documentation
+- [ ] Design rationale documented for major decisions
+- [ ] Link to design system specs for components
+- [ ] Link to style guide for brand guidelines
+- [ ] Known limitations or temporary compromises noted
+
+## Communication
+- [ ] Schedule brief handoff call (30 min) with dev team
+- [ ] Walk through most complex screens
+- [ ] Answer questions about edge cases
+- [ ] Provide contact info for questions during implementation
+```
+
+Thorough handoff prevents the "looks different in code" surprises.
+
+## Cost Analysis: DIY vs Tool-Based Design System
+
+Compare the true cost of different approaches:
+
+```
+Approach: Self-hosted Penpot + Custom Tokens
+─────────────────────────────────────────────
+Setup (one-time):
+  - Penpot server: $100-200 (initial setup)
+  - Team training: 8 hours = $800 (4 devs × $100/hr)
+  - Documentation: 20 hours = $2000
+  Total: $2,900-3,000
+
+Recurring (annual, 5-person team):
+  - Hosting: $50-100/month = $600-1200
+  - Maintenance: 1-2 hours/month = ~$1000/year
+  - Design tokens dev time: 4-5 hours/quarter = ~$2000/year
+  Total: $3600-4200/year
+
+
+Approach: Figma + Tokens Studio Plugin
+──────────────────────────────────────
+Setup (one-time):
+  - Figma setup: 4 hours = $400
+  - Plugin setup: 2 hours = $200
+  - Team training: 6 hours = $600
+  - Documentation: 10 hours = $1000
+  Total: $2,200
+
+Recurring (annual, 5-person team):
+  - Figma Professional: $12/mo × 5 users × 12 = $720
+  - Tokens Studio: $120/year
+  - Maintenance: minimal (vendor-managed)
+  Total: $840/year
+
+5-Year Total Cost:
+  Self-hosted: $3000 + (4200 × 4) = $19,800
+  Figma: $2200 + (840 × 4) = $5,560
+
+Figma saves $14,240 over 5 years for this team.
+```
+
+For small-medium teams, managed tools like Figma are typically more cost-effective than self-hosting.
 
 ## Related Articles
 

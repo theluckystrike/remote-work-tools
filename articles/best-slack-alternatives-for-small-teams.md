@@ -212,8 +212,202 @@ Consider starting with free tiers where available. Most platforms allow adequate
 
 **Can we migrate our Slack history?** Slack exports are available on paid plans in JSON format. Mattermost has a Slack import tool, and Zulip also accepts Slack exports. Plan the migration before canceling Slack — exporting first is essential.
 
----
+## Communication Platform Comparison Matrix
 
+Choose based on your team's primary pain point:
+
+| Priority | Best Option | Monthly Cost (10 users) | Key Advantage |
+|----------|-------------|------------------------|-----------------|
+| **Free tier** | Discord or Zulip | $0 | Unlimited message history |
+| **Self-hosted** | Mattermost or Rocket.Chat | $0 + hosting | Complete data control |
+| **Enterprise integration** | Microsoft Teams | $4-6/user | Office 365 ecosystem |
+| **Async workflows** | Zulip | $67 | Topic-based threading |
+| **Compliance** | Mattermost | $0 + hosting | On-premise deployment |
+| **Low cost + features** | Discord | $0 | Free tier with all features |
+
+## Channel Organization Templates for Each Tool
+
+**Mattermost channel structure:**
+
+```
+# Core Channels
+- #announcements - critical company updates only
+- #general - off-topic and casual conversation
+- #help - getting help from teammates
+
+# Team Channels
+- #engineering - engineering decisions and discussion
+- #product - product roadmap and feedback
+- #sales - sales updates and client feedback
+
+# Project Channels
+- #project-alpha
+- #project-beta
+- #project-support
+
+# Integration Channels
+- #github-notifications - automated pull requests
+- #deployments - deployment logs and alerts
+- #monitoring - uptime and performance alerts
+
+# Private Channels
+- #leadership - executive team discussions
+- #hiring - recruitment candidates
+- #finance - budget and spending
+```
+
+**Discord server structure:**
+
+```
+# Categories
+→ General
+  ├─ #announcements
+  ├─ #general
+  └─ #random
+
+→ Teams
+  ├─ #engineering
+  ├─ #design
+  └─ #product
+
+→ Projects
+  ├─ #alpha-dev
+  ├─ #beta-dev
+  └─ #support-tickets
+
+→ Voice Channels (for real-time standups)
+  ├─ #daily-standup
+  ├─ #pair-programming
+  └─ #all-hands
+```
+
+## Migration Checklist
+
+Moving from Slack to an alternative requires planning:
+
+**Pre-migration (2 weeks before):**
+
+- [ ] Export all Slack messages (if on paid plan) to JSON
+- [ ] Archive Slack workspace (don't delete)
+- [ ] Set up new chat platform with same channel structure
+- [ ] Invite all team members to new platform
+- [ ] Configure integrations (GitHub, monitoring, etc.)
+- [ ] Run parallel operation for 1 week (both tools active)
+
+**During migration (1 week):**
+
+- [ ] Use new platform for all new conversations
+- [ ] Keep Slack as read-only reference for history
+- [ ] Monitor for missed messages or lost connections
+- [ ] Help team members adjust to new workflows
+
+**Post-migration (after 1 week):**
+
+- [ ] Archive Slack workspace officially
+- [ ] Store Slack export in cold storage (for 3-year retention)
+- [ ] Document how to find information in new platform
+- [ ] Gather feedback and refine organization
+
+## Bot Integration Configuration
+
+Every alternative needs notification bots for productivity:
+
+**GitHub notifications in Zulip:**
+
+```python
+# Zulip bot configuration
+import zulip
+import json
+
+client = zulip.Client(config_file="zuliprc")
+
+def post_github_event(event_type, repo, message):
+    """Post GitHub events to Zulip"""
+    request = {
+        "type": "stream",
+        "to": "engineering",
+        "topic": f"GitHub - {repo}",
+        "content": f"{event_type}: {message}"
+    }
+    result = client.send_message(request)
+    return result
+```
+
+**Mattermost webhook for deployments:**
+
+```bash
+#!/bin/bash
+# Post deployment status to Mattermost
+
+WEBHOOK_URL="https://mattermost.example.com/hooks/webhook-id"
+DEPLOYMENT=$1
+STATUS=$2
+TIMESTAMP=$(date)
+
+curl -i -X POST -d '{"text":"Deployment: '$DEPLOYMENT' - Status: '$STATUS' - '$TIMESTAMP'"}' \
+  $WEBHOOK_URL
+```
+
+These integrations keep your team informed without drowning in notifications.
+
+## Workspace Admin Configuration
+
+Set up permissions correctly to prevent chaos:
+
+**User roles in Mattermost:**
+
+```yaml
+roles:
+  Admin:
+    permissions:
+      - can_create_teams
+      - can_manage_users
+      - can_edit_system_settings
+      - can_manage_integrations
+
+  Moderator:
+    permissions:
+      - can_manage_channel
+      - can_delete_messages
+      - can_pin_messages
+      - can_kick_users
+
+  Member:
+    permissions:
+      - can_post_messages
+      - can_upload_files
+      - can_mention_users
+
+  Guest:
+    permissions:
+      - can_view_channels
+      - can_post_messages (in assigned channels only)
+      - cannot_edit_profile
+```
+
+Assign roles carefully. Too many admins create configuration chaos; too few creates bottlenecks.
+
+## Slack to Alternative Migration Decision Framework
+
+Use this framework to decide whether migration is worth it:
+
+**Calculate cost difference:**
+
+```
+Slack annual cost:     $7.25/user × 12 months × 10 users = $870/year
+Alternative cost:      $0 (free tier) or $67/year (Zulip)
+Migration overhead:    ~40 hours × $50/hr = $2,000
+Time zone alignment:   Slack migration task scheduling cost ~$300
+
+Year 1 financial benefit:  $870 - $67 - $2,000 = -$1,197 (negative)
+Year 2+ financial benefit: $870 - $67 = $803/year
+
+Break-even:            2.5 years
+```
+
+Only migrate if break-even timeline fits your financial situation.
+
+---
 
 ## Related Articles
 
