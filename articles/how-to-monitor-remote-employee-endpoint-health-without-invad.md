@@ -17,6 +17,18 @@ tags: [remote-work-tools, remote-work]---
 
 Use Prometheus Node Exporter or Grafana agents to monitor disk space, OS patches, and network connectivity—without collecting behavior data or screen activity. Maintaining visibility into remote employee device health without surveillance requires deliberate balance: IT teams need operational metrics to support employees and protect assets, while employees deserve privacy and trust. This guide provides practical methods to monitor endpoint health for remote teams using self-hosted, open-source tools that emphasize transparency, consent, and data minimization across Windows, macOS, and Linux.
 
+## Key Takeaways
+
+- **How you use data**: Explain that monitoring supports IT operations, not performance evaluation
+4.
+- **Use Prometheus Node Exporter**: or Grafana agents to monitor disk space, OS patches, and network connectivity—without collecting behavior data or screen activity.
+- **Employee rights**: Allow employees to request their data or opt out of non-essential collection
+
+### Data Minimization Practices
+
+Collect only what you need.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Defining Endpoint Health Without Privacy Violations
 
 Endpoint health monitoring in a privacy-respecting context focuses on technical metrics that support system functionality rather than user behavior. The distinction matters: you monitor whether a device has sufficient disk space, updated security patches, and functional connectivity—not what websites an employee visits or when they step away from their desk.

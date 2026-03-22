@@ -31,6 +31,15 @@ voice-checked: true---
 
 Opening a Thai bank account as a digital nomad requires understanding the country's banking regulations and preparing the right documentation. This guide walks you through the practical steps to get a working Thai bank account while conducting remote work for international clients.
 
+## Key Takeaways
+
+- **Most hotels provide this**: free of charge for guests.
+- **Those planning 12+ month**: stays should consult with Thai tax professionals (available through expatriate accountants, $500-1,000 for full year planning).
+- **Valid passport with at**: least 6 months remaining validity 2.
+- **Thai phone number –**: Required for OTP verification and account notifications 4.
+- **For better rates**: consider using Wise or Revolut to convert USD/EUR to THB before transferring to your Thai account.
+- **Interior branches sometimes refuse**: accounts to non-residents.
+
 ## Understanding Thai Banking Requirements for Foreigners
 
 Thai banks have specific requirements for non-residents opening accounts. The good news is that several major Thai banks—包括Krungsri、SCB（暹罗商业银行）和KBANK（开泰银行）—actively welcome foreign clients with proper documentation.

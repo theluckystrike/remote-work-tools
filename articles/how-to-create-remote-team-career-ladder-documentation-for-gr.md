@@ -33,6 +33,18 @@ Career ladder documentation serves as the foundation for talent development in r
 
 This guide provides practical steps for creating career ladder documentation tailored to remote engineering teams, with concrete examples you can adapt for your organization.
 
+## Key Takeaways
+
+- Compensation increased 15%.
+- **Promotion rate**: Are engineers progressing at reasonable pace? (target: 5-10% of engineers per year)
+2.
+- **Satisfaction**: "Do you understand what it takes to advance?" (target: >80% agree/strongly agree)
+
+If promotion rates are too low, your ladder may be too stringent.
+- **Some prefer deep specialization**: others prefer expanding scope.
+- **We don't use performance**: ratings to adjust individual compensation—promotion is the primary mechanism for meaningful raises.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Why Remote Engineering Teams Need Explicit Career Ladders
 
 Remote work eliminates the informal mentorship opportunities that happen in physical offices. In a traditional office, junior engineers observe senior engineers, absorb organizational knowledge through osmosis, and receive real-time feedback. Remote teams lack these organic interactions, making explicit documentation critical.

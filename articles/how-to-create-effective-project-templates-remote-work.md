@@ -31,6 +31,15 @@ voice-checked: true---
 
 Create effective project templates for remote work by building three core components: a standardized directory structure (with `.github/`, `docs/`, `scripts/`, and `src/` folders), pre-configured environment files with `.env.example`, and automated setup scripts that handle dependencies and database initialization in a single command. These templates encode your team's best practices into reusable structures so new projects launch with consistent workflows, CI/CD pipelines, and documentation from day one.
 
+## Key Takeaways
+
+- **Use cross-platform tools (Node.js**: scripts instead of shell-only scripts when possible) or explicitly document the required environment.
+- **These templates encode your**: team's best practices into reusable structures so new projects launch with consistent workflows, CI/CD pipelines, and documentation from day one.
+- **The `scripts` folder holds**: automation scripts developers use frequently.
+- **Empty placeholder files with**: prompt comments are better than missing files; they remind contributors what documentation is expected.
+- **Use version control to**: track changes and allow teams to upgrade templates incrementally.
+- **This mirrors how major**: open-source projects handle template updates and avoids forcing disruptive changes on teams mid-sprint.
+
 ## Why Project Templates Matter for Distributed Teams
 
 In a remote environment, you cannot simply walk over to a colleague's desk to ask about the standard folder structure or which conventions to follow. Every piece of implicit knowledge must be made explicit. Project templates capture these decisions — from directory layouts to CI/CD configurations — and make them available to everyone, regardless of timezone.

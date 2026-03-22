@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example celebration message generator (Python)"
-description: "A practical guide for developers and power users on crafting genuine celebration messages for distributed teams"
+description: "Write authentic remote team celebration messages: templates for milestones, peer recognition, and project wins that feel genuine across time zones."
 date: 2026-03-16
 last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"

@@ -33,6 +33,17 @@ A remote work playbook is the single source of truth for how your distributed te
 
 This guide walks through building a playbook that your team will actually use—not a static wiki that rots in a shared drive.
 
+## Key Takeaways
+
+- **Getting the team to**: use it requires deliberate effort.
+- **Include a "getting started"**: section with the most critical paths—account setup, first-week milestones, and key contacts.
+- **This guide walks through**: building a playbook that your team will actually use—not a static wiki that rots in a shared drive.
+- **This section has the**: highest ROI because it's consulted during high-stress moments when informal knowledge breaks down.
+- **Week 2**: Identify gaps
+
+Compare documented behavior against team needs.
+- **Use templates and code**: examples where they reduce ambiguity.
+
 ## What a Remote Work Playbook Should Cover
 
 A playbook isn't a policy document. It answers practical questions: How do we start a PR review? Who gets paged when the API goes down? Which Slack channel do I use for design feedback?

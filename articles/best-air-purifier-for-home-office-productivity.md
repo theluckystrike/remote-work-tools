@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Air Purifier for Home Office Productivity"
-description: "Discover how air quality affects coding performance and learn which air purifiers can improve focus, reduce fatigue, and create a healthier home office"
+description: "Air purifiers for home office productivity: HEPA vs activated carbon, noise levels at desk distance, and models tested for small room coverage."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-air-purifier-for-home-office-productivity/

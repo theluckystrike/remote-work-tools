@@ -33,6 +33,27 @@ When your remote engineering team is small—five people or fewer—incident res
 
 Scaling incident response for a remote team requires deliberate process design. This guide walks through the transformation from startup chaos to a mature, mid-size incident response framework that actually works across distributed teams.
 
+## Key Takeaways
+
+- **This is when you**: need to introduce structured incident response before things get worse.
+- **For each recurring failure mode**: write a runbook:
+
+```markdown
+# Runbook: High CPU on API Servers
+
+## Symptoms
+- API latency > 2 seconds
+- 5xx error rate > 5%
+- CPU usage > 90%
+
+## Diagnosis
+1.
+- **When your remote engineering**: team is small—five people or fewer—incident response feels almost natural.
+- **Everyone knows the codebase**: Slack alerts reach everyone instantly, and a quick voice call resolves most issues.
+- **Your US-based team handles daytime incidents**: but your European or Asian team members wake up to cascading failures they didn't cause and can't easily diagnose.
+- **If traffic spike**: Enable auto-scaling or rate limit
+2.
+
 ## The Startup Phase: Informal but Fast
 
 In the early stages, your incident response likely looks like this: something breaks, someone notices in Slack, and the team hops on a quick call or shares screens to debug. This works when there are fewer than five engineers and everyone knows the system intimately.

@@ -33,6 +33,14 @@ When your remote engineering team crosses the 25-person threshold, something shi
 
 These are the symptoms of knowledge silos forming in your remote team. Without deliberate intervention, productivity stalls and team cohesion frays. This guide provides practical strategies for engineering leaders and developers to prevent and break down knowledge silos as remote teams scale.
 
+## Key Takeaways
+
+- **Developers solve the same**: problems independently because they do not know who holds relevant expertise.
+- **Month 2**: Implement runbook template for critical systems
+3.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: recognizing knowledge silo warning signs, strategy 1: structured documentation practices, living documentation with code examples
+
 ## Recognizing Knowledge Silo Warning Signs
 
 Knowledge silos develop gradually, but certain indicators signal their emergence. Watch for these patterns in remote engineering teams:

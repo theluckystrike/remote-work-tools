@@ -31,6 +31,15 @@ tags: [remote-work-tools, remote-work]---
 
 Build a custom dashboard using Node.js, Express, and GitHub/Linear APIs to display real-time project status, active tasks, time tracking, and deliverable links. Alternatively, use Basecamp or Monday.com for out-of-the-box solutions with client visibility settings. This guide shows you how to consolidate scattered Slack, email, and spreadsheet updates into a single source of truth for distributed agency teams.
 
+## Key Takeaways
+
+- **Many teams use n8n**: or Zapier to create no-code integrations that push updates to a dashboard without custom development.
+- **A small DigitalOcean or**: Fly.io instance runs under $10/month.
+- **"This dashboard reflects our**: GitHub state and refreshes every 15 minutes" is much better than letting clients think it is real-time when it is not.
+- **Use read-only tokens or**: generate shareable links that expire.
+- **Alternatively**: use Basecamp or Monday.com for out-of-the-box solutions with client visibility settings.
+- **Pricing is per seat**: but guest users are typically free or discounted.
+
 ## Core Requirements for Remote Agency Dashboards
 
 Before selecting tools or writing code, define the essential features your dashboard must provide:

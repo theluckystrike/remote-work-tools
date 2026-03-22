@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Base brightness decreases with more monitors"
-description: "A practical guide to setting up multiple monitors while preventing eye strain and fatigue from bright light exposure"
+description: "Prevent eye fatigue from multiple monitors: brightness calibration, blue light settings, 20-20-20 rule automation, and monitor placement geometry."
 date: 2026-03-15
 last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -30,6 +30,15 @@ tags: [remote-work-tools]---
 {% raw %}
 
 Reduce monitor brightness to match ambient lighting, use blue light filters, and position monitors at arm's length to prevent eye strain from multiple displays. Multiple monitors increase productivity but combined brightness causes digital eye strain, headaches, and disrupted sleep from blue light exposure. This guide provides practical solutions for setting up a multi-monitor configuration that's easy on your eyes, including brightness calculations, filter recommendations, and workspace positioning strategies.
+
+## Key Takeaways
+
+- **A humidifier targeting 40-60%**: relative humidity creates a more comfortable environment for prolonged screen use.
+- **Press Ctrl+C to stop.")**: remind_20_20_20() ``` The 20-20-20 rule works because it forces the ciliary muscles in your eye to relax.
+- **Use a colorimeter tool**: like the Datacolor Spyder or X-Rite i1Display to calibrate all monitors to a common target.
+- **Prescription inserts or computer glasses**: If you wear corrective lenses, your general prescription may not be optimized for the 20-26 inch viewing distance typical of computer use.
+- **Reduce monitor brightness to**: match ambient lighting, use blue light filters, and position monitors at arm's length to prevent eye strain from multiple displays.
+- **For a practical calibration**: use your phone's light meter app to measure ambient lux in your workspace at different times of day, then set brightness accordingly.
 
 ## Understanding the Problem
 

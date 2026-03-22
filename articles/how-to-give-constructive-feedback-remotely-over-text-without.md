@@ -33,6 +33,15 @@ Delivering feedback through text removes the nuance of tone, facial expressions,
 
 This guide provides actionable frameworks, templates, and code examples for giving constructive feedback remotely that land well and drive actual improvement.
 
+## Key Takeaways
+
+- **In yesterday's deploy**: the rollback took 45 minutes because we had to trace through logs manually.
+- **Reconnect to team goals**: Example: ``` Hey Jordan, Your API refactor in PR #456 is excellent—the new error handling reduces timeout cascades by 50%.
+- **This made debugging the**: login timeout issue harder because I couldn't trace where the failure occurred." The second version is specific, actionable, and focused on the work—not the person.
+- **During this pause**: read it as if you were receiving it from someone less familiar with your intentions.
+- **Use synchronous channels for truly sensitive matters**: If you've tried text-based feedback repeatedly without improvement, a quick video call often resolves faster than more async threads.
+- Respecting preferences builds psychological safety.
+
 ## The Core Problem: Missing Context
 
 When you give feedback in person, your tone, pace, and facial expressions provide context. Text strips all that away. Research from Harvard Business Review shows that text-based communication is more likely to be perceived negatively, especially when the reader is already defensive about the topic.

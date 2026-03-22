@@ -17,6 +17,16 @@ tags: [remote-work-tools]---
 
 Working in a windowless home office doesn't mean sacrificing air quality. Whether you've converted a basement, closet, or interior room into your workspace, proper ventilation is essential for maintaining focus, health, and productivity. This guide covers practical solutions ranging from budget-friendly DIY approaches to professional-grade systems.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Layer solutions**: Combined approaches often work best—a quality air purifier plus door gap ventilation plus periodic fan use.
+- **Q**: How much does professional installation cost?
+A: HRV installation runs $1500-3000+ depending on ducting complexity and your local labor rates.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Studies show that CO2**: levels above 1000 ppm lead to decreased cognitive function, while poor air quality can cause headaches, fatigue, and long-term respiratory issues.
+- **Maintain 30-60% humidity for**: optimal comfort and health.
+
 ## Understanding the Challenge
 
 Rooms without windows lack natural air exchange, which means stale air, elevated CO2 levels, and potential buildup of indoor pollutants accumulate throughout your workday. Studies show that CO2 levels above 1000 ppm lead to decreased cognitive function, while poor air quality can cause headaches, fatigue, and long-term respiratory issues.

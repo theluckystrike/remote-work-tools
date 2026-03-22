@@ -31,6 +31,15 @@ voice-checked: true---
 
 Running a remote accounting firm with distributed staff across time zones presents unique challenges that go beyond typical remote work setup. The nature of accounting work—tight deadlines, regulatory compliance, and client confidentiality—demands careful coordination systems. This guide provides technical strategies and practical implementations for managing a geographically dispersed accounting team effectively.
 
+## Key Takeaways
+
+- **Letting different team members**: use different document management tools is the most common source of lost workpapers in distributed accounting firms.
+- **When your firm spans New York**: London, and Manila, you have roughly 3-4 hours of daily overlap between Eastern and GMT, and almost none between Eastern and Philippine Time during standard hours.
+- **Some teams use a**: Slack bot that pings the outgoing team member 30 minutes before their shift end to confirm handoff submission.
+- **A 48-hour review turnaround**: is standard for most engagements; anything longer creates bottlenecks during deadline season.
+- **Most work—reconciliation**: financial statement preparation, tax return drafting—can proceed asynchronously.
+- **Incomplete handoffs are the**: number-one cause of client delays in distributed accounting firms.
+
 ## Understanding the Time Zone Challenge in Accounting
 
 Accounting work follows predictable cycles: month-end close, quarterly filings, tax deadlines, and audit seasons. When your team spans time zones, you must design workflows that respect these cycles while enabling continuous progress.

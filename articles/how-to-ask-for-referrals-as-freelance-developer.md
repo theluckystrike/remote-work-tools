@@ -17,6 +17,17 @@ voice-checked: true---
 
 Ask for referrals immediately after a client expresses satisfaction with your work -- right after successful delivery, during a positive review moment, or at project closure. Use a direct but low-pressure phrasing like "If you know anyone who might need similar help, I'd appreciate an introduction." Then build a repeatable system by adding referral requests to your invoice follow-ups, project retrospectives, and quarterly check-ins.
 
+## Key Takeaways
+
+- **Invoice follow-up**: When sending the final invoice, include a brief note: "If you know anyone who could use similar work, I'd appreciate the introduction."
+
+2.
+- **Developers who build genuine**: relationships with clients rarely need to "ask" for referrals—clients volunteer them because they want to help someone they respect.
+- **If over 40%**: you're doing great—maintain relationships.
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+- **They've just experienced your**: best work and are feeling positive about the relationship.
+- **If you ever see**: someone asking for developer recommendations in your network, I'd be grateful for a mention.
+
 ## Why Referrals Work Better Than Cold Outreach
 
 A referred client arrives with built-in social proof. Your ideal client's friend or colleague has already vouched for your skills and professionalism. This eliminates the trust-building phase that typically takes weeks with cold prospects.

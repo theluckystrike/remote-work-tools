@@ -31,6 +31,20 @@ voice-checked: true---
 
 Use a single motorized sit-stand desk (48 inches wide minimum) with a compact ergonomic chair, placed against the longest wall opposite the door -- this eliminates the need for two separate surfaces and requires only 60 inches of clear wall space. Position the desk in a corner for diagonal depth, mount your monitor on an arm to reclaim surface area, and keep at least 36 inches of clearance behind the chair for rolling. Below are detailed measurement strategies, layout patterns, and a space planning tool to help you optimize rooms under 100 square feet.
 
+## Key Takeaways
+
+- **Problem**: Cable clutter makes the space feel smaller
+Solution: Use a cable management box ($15-30) that hides power strips and cable adapters entirely.
+- **Keyboard and Mouse Positioning**: Compact mechanical keyboards (60-65% size) take 12-14 inches of width versus 18+ for full-size keyboards.
+- **Desk placement in a corner**: using diagonal space
+
+## Layout Strategies That Actually Work
+
+The most effective small-room layouts use vertical space and corner positioning.
+- **A single incident of**: serious back or neck pain can cost $5,000-15,000 in physical therapy or medical treatment.
+- **Quality ergonomic equipment ($1,200-2,000**: initial investment) pays for itself within 12 months if it prevents one significant injury.
+- **Your eyes naturally work**: better with slightly off-center positioning, and it frees desk depth for other uses.
+
 ## Understanding Your Space Constraints
 
 Before purchasing any equipment, you need accurate measurements of your room. A tiny room typically means anything under 100 square feet, or a space where the desk area competes with storage, other furniture, or movement paths.

@@ -29,6 +29,15 @@ intent-checked: true---
 
 Remote teams without centralized knowledge bases experience 40% longer onboarding times and 60% higher duplicate work repetition. New hires spend their first month asking the same questions across Slack, creating systemic inefficiency. A well-maintained knowledge base reduces onboarding from 4 weeks to 2 weeks, eliminates recurring Slack questions, and creates searchable institutional memory. This guide covers building and maintaining team knowledge bases for remote workers—evaluating tools (Notion, Confluence, GitBook, Slite), document standards, searchability optimization, and keeping content current in distributed teams.
 
+## Key Takeaways
+
+- **Cost**: Free (up to 10 members), $12/member/month (team plan).
+- **Cost**: Free (public docs), $10/user/month (team plans).
+- **Cost**: $8/user/month or ~$90/month for unlimited members.
+- **Cost**: $5-10/user/month (cloud), self-hosted ~$50k/year licensing.
+- **Remote teams without centralized**: knowledge bases experience 40% longer onboarding times and 60% higher duplicate work repetition.
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+
 ## Why Remote Teams Need Knowledge Bases
 
 Remote workers operate without the organic knowledge transfer that occurs in physical offices. In offices, new hires overhear conversations, observe workflows, and ask desk neighbors questions. Remote teams lack these informal transfer mechanisms entirely.

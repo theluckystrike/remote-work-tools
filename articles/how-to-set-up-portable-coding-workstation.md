@@ -16,6 +16,13 @@ voice-checked: true---
 
 A portable coding workstation lets you work from home, a co-working space, or anywhere else without losing productivity. The key constraint is setup time: a good portable setup goes from bag to working in under 5 minutes, not 20. This guide covers the hardware choices and software configuration to achieve that.
 
+## Key Takeaways
+
+- **Tip**: Use the Logi Bolt USB receiver (not Bluetooth) for keyboard + mouse.
+- **Topics covered**: the core constraint: 5-minute setup, laptop, the hub: the center of the setup
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+- **Use-case recommendations**: Specific guidance based on team size and requirements
+
 ## The Core Constraint: 5-Minute Setup
 
 If your portable setup takes 20 minutes to assemble, you'll stop using it. The goal is: open bag, plug in one or two cables, open laptop, start working.

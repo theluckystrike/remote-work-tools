@@ -31,6 +31,17 @@ tags: [remote-work-tools, remote-work]---
 
 Build a shared "School Breaks" calendar showing each parent's childcare gaps, then use a Python script to calculate realistic sprint capacity accounting for 50% productivity during break periods. Default to asynchronous standups and async check-ins during high-conflict weeks, document coverage requests explicitly in a dedicated Slack channel, and set expectations upfront that parents handle their own school schedule coordination—most parents will be satisfied knowing you understand the reality rather than expecting them to ignore school holidays for work.
 
+## Key Takeaways
+
+- **Build a shared "School**: Breaks" calendar showing each parent's childcare gaps, then use a Python script to calculate realistic sprint capacity accounting for 50% productivity during break periods.
+- **We're committing 60% of**: normal velocity and treating the remaining items as stretch goals." Stakeholders respect transparency.
+- **What they don't respect**: is a sprint that closes at 40% completion with no warning.
+- **If one person has covered 80% of requests**: they should get the first pass at high-visibility projects or flexible scheduling as a counterbalance.
+- Use this information to:
+
+1.
+- **Front-load critical work before**: known break periods 2.
+
 ## Understanding the Overlap Problem
 
 The core challenge isn't just about calendar conflicts. When multiple team members have children in different schools, you face:

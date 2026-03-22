@@ -31,6 +31,15 @@ voice-checked: true---
 
 Managing communication for a distributed research team of 12 scientists requires balancing synchronous collaboration needs with the asynchronous nature of scientific work. Unlike typical software teams, research groups often deal with long-running experiments, complex data analysis, and publications that require extended periods of focused work interrupted by brief but critical collaboration windows. This guide covers practical tool selection and implementation strategies for research teams operating across multiple locations.
 
+## Key Takeaways
+
+- **Pricing note**: Slack Standard tier $10.50/user/month, Zoom Pro $15.99/month for host, Jitsi free or $5-50/month for cloud hosting, Loom $14.99/month for premium features.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **This breaks down to**: $40-85 per person monthly—expensive relative to typical office expenses but essential for remote research collaboration.
+- **Jitsi offers self-hosting options**: if your institution requires data residency, while Zoom provides better integration with calendar systems.
+- **"Can you find information**: you need in documented channels?" (Target: 80%+ yes) 2.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+
 ## Understanding Research Team Communication Patterns
 
 Scientific teams exhibit distinct communication patterns that differ from other remote groups. Researchers typically work in extended focus blocks when conducting experiments or analyzing data, then require quick synchronization during brief discussion windows. A team of 12 distributed across 3-4 time zones creates coordination challenges that generic team chat tools often fail to address.

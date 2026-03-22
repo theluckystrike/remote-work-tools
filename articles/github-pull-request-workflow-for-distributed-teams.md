@@ -31,6 +31,17 @@ tags: [remote-work-tools, workflow]---
 
 Use trunk-based development with short-lived feature branches, structured PR templates with checklists, and CODEOWNERS files for automatic reviewer assignment--this combination eliminates most coordination friction for distributed teams. Set explicit review SLAs (1 hour for hotfixes, 24 hours for features) and label feedback as "nitpick," "suggestion," or "requirement" so authors across time zones know exactly what blocks a merge without waiting for synchronous clarification.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Distributed teams need structured**: PRs because synchronous clarification becomes expensive across time zones.
+- **Weekly sync**: Discuss complex PRs that need discussion
+
+Use GitHub's review request features to batch reviews.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## Branch Strategy Fundamentals
 
 The foundation of any pull request workflow starts with your branching strategy. For distributed teams, simplicity wins. A trunk-based development approach with short-lived feature branches works best across multiple time zones.

@@ -33,6 +33,17 @@ Remote agencies face unique challenges when managing client relationships. Your 
 
 This guide walks through configuring HubSpot specifically for remote agency operations, focusing on pipeline stages, properties, and automation that support asynchronous client management.
 
+## Key Takeaways
+
+- **For remote agencies, the most valuable integrations typically include:
+
+Slack**: Real-time notifications keep distributed teams informed without checking HubSpot constantly.
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+- **Some clients prefer everything**: in writing; others want quick Slack messages.
+- **Capturing this preference prevents**: misaligned communication expectations.
+- **Remote agencies often work**: with clients who need internal approval cycles, and a scheduled follow-up ensures nothing falls through the cracks during extended proposal review periods.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Building Your Client Pipeline Stages
 
 The foundation of any HubSpot setup is the pipeline itself. For a remote agency, your stages should reflect how deals actually progress when team members work across time zones and communicate primarily through written channels.

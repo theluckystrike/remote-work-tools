@@ -33,6 +33,14 @@ Coordinating releases across iOS and Android with a distributed mobile developme
 
 This guide provides actionable strategies for remote mobile teams releasing apps on both platforms.
 
+## Key Takeaways
+
+- **Maintain backward compatibility for**: at least one previous API version 4.
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+- **Most successful mobile teams**: adopt either a time-based release schedule (bi-weekly or monthly) or a milestone-based approach tied to feature completion.
+- **For most teams**: separate repositories with a coordination repository works best.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Establishing a Shared Release cadence
 
 The foundation of coordinated mobile releases is a predictable release cadence. When everyone knows when releases happen, coordination becomes significantly easier. Most successful mobile teams adopt either a time-based release schedule (bi-weekly or monthly) or a milestone-based approach tied to feature completion.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Grant and Funding Tracking Tool for Distributed"
-description: "A guide to grant and funding tracking tools for distributed nonprofit organizations. Compare solutions, implementation patterns, and code"
+description: "Grant tracking tools for distributed nonprofits: Submittable, Fluxx, and Airtable compared on deadline management, reporting, and team access."
 date: 2026-03-15
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"

@@ -17,6 +17,15 @@ voice-checked: true---
 
 Tax-compliant remote work stipend policies must distinguish between tax-free accountable plans and taxable income—with proper documentation, substantiation, and return-of-excess provisions. IRS regulations allow up to $1,200/year for home office equipment tax-free if structured correctly. This guide covers legal framework, policy templates, and implementation strategies to keep stipends compliant.
 
+## Key Takeaways
+
+- **IRS regulations allow up**: to $1,200/year for home office equipment tax-free if structured correctly.
+- **For example**: "Full-time remote employees working 100% from home receive $200/month.
+- **The tax benefits are material**: employees receiving $2,400/year in tax-free stipends save $600-$1,000 annually depending on their tax bracket.
+- **Under a non-accountable plan**: after taxes, they might only see $350.
+- **The difference is stark**: a $500 monthly stipend under an accountable plan costs your employee $500 in take-home value.
+- **Hybrid employees working 2-3**: days remote receive $100/month.
+
 ## Understanding the Tax Framework
 
 The IRS treats remote work stipends differently depending on how they're structured. Under current tax law, there are two primary paths:

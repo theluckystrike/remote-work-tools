@@ -17,6 +17,17 @@ voice-checked: true---
 
 Preserve async communication in hybrid environments through explicit guidelines defining when synchronous communication is appropriate, protecting deep work time with core hours that don't penalize remote workers, and creating equitable artifacts from every meeting. Maintain async standups, code review practices, and feedback loops to ensure in-office proximity doesn't create two-tier advantages. Measure async health monthly by tracking response times, meeting prevalence, documentation coverage, and remote participation to catch culture degradation early.
 
+## Key Takeaways
+
+- **A quick question to**: a colleague sitting three desks away requires zero coordination, while the same question to a remote team member demands a Slack message, an async video, or worse—a scheduled call.
+- **Most hybrid teams start**: seeing meeting creep within 2-3 months of office reopening.
+- **Pick 2-3 metrics**: review monthly, act when trends degrade.
+- **Remote team members should**: not be penalized with reduced focus time because their colleagues chose to work from the office.
+- **Explicit policy**: "Decisions made in person must be documented in Slack/async channel within 2 hours for remote team members to respond.
+- **No decisions are final until 24 hours pass**: allowing async input."
+
+Async-first philosophy: If a synchronous meeting happens, someone must synthesize findings and post async.
+
 ## Understanding the Hybrid Communication Challenge
 
 Hybrid work creates a two-tier system where in-office employees enjoy real-time communication advantages that remote workers cannot access. A quick question to a colleague sitting three desks away requires zero coordination, while the same question to a remote team member demands a Slack message, an async video, or worse—a scheduled call. Without deliberate safeguards, async communication becomes the exception rather than the norm.

@@ -19,6 +19,13 @@ Remote teams face a unique challenge: knowledge that would naturally transfer in
 
 This guide covers practical approaches to building decision log documentation that works for distributed teams. You'll find templates, tooling recommendations, and workflows designed for async collaboration.
 
+## Key Takeaways
+
+- **You'll find templates**: tooling recommendations, and workflows designed for async collaboration.
+- **Use consistent terminology and**: key terms that team members would naturally search for.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: what belongs in a decision log, a practical decision log template, problem statement
+
 ## What Belongs in a Decision Log
 
 A decision log captures the reasoning behind choices, not just the outcomes. Unlike ADRs (Architecture Decision Records) which focus on technical architecture, decision logs cover a broader range: process changes, tool selections, team structure modifications, and policy updates.

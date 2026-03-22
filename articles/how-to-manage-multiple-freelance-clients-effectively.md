@@ -33,6 +33,17 @@ Managing multiple freelance clients without losing your sanity requires systems,
 
 This guide covers practical systems for tracking client work, automating repetitive communication tasks, and protecting your time from the chaos of context-switching.
 
+## Key Takeaways
+
+- **Most freelance developers fall**: into three categories: Tier 1 (Retainers): Monthly recurring work, predictable scope, highest revenue contribution.
+- **For most freelance developers**: managing 3-5 clients, a simple structure works: Per-client Kanban board in Trello, Notion, or Linear with three columns: To Do, In Progress, Done.
+- **What would you prefer?"
+
+Buffer time**: When quoting, add 20% buffer for unknowns.
+- **The best tracking system**: is one you'll actually use.
+- **Managing multiple freelance clients**: without losing your sanity requires systems, not just willpower.
+- **It's to maintain 80%**: utilization with clients you enjoy, on projects that align with your goals, at rates that reflect your expertise.
+
 ## Client Segments: The Foundation of Freelance Stability
 
 Before implementing any tools, segment your clients into tiers based on revenue, strategic value, and communication intensity. Most freelance developers fall into three categories:

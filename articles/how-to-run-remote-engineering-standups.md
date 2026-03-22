@@ -16,6 +16,22 @@ voice-checked: true---
 
 Most remote engineering standups are either pointless status reports or anxiety-inducing performance theater. The goal of a standup is coordination — surfacing blockers and dependencies so the team can help. This guide covers both async and synchronous formats that achieve that goal without wasting time.
 
+## Key Takeaways
+
+- **Most teams under 6**: can make synchronous work.
+- **Keep it to 30**: seconds each.
+- **Status report theater**: Engineers summarize work no one needs to hear
+   Fix: Only share info the team needs to act on
+
+2.
+- **Most remote engineering standups**: are either pointless status reports or anxiety-inducing performance theater.
+- **Any blockers or help**: needed? Optional add-on for remote teams: 4.
+- **Blocker**: waiting for QA to confirm
+       test environment is set up."
+
+Bad: "Meetings"
+Good: "Mostly in planning sessions.
+
 ## First Decision: Async or Synchronous
 
 **Choose async if:**

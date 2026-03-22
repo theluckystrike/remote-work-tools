@@ -33,6 +33,20 @@ Continuous Slack notifications fragment your attention and destroy deep work ses
 
 Reducing Slack notification fatigue requires a strategic approach combining built-in Slack features, workflow adjustments, and boundary-setting practices. This guide provides actionable techniques you can implement immediately.
 
+## Key Takeaways
+
+- **Team members think twice**: before pinging someone marked "In flow state." ### Use Scheduled Messages for Non-Urgent Items When you need to send a message but don't want to interrupt someone: 1.
+- **Use keyboard shortcuts:
+
+- Mac**: `Cmd + Shift + K`
+- Windows/Linux: `Ctrl + Shift + K`
+
+This toggles notification pausing instantly.
+- **Choose a time that**: works (typically during their working hours) This respects recipients' focus time while ensuring your message gets delivered.
+- **Disable notifications from apps**: you don't actively use.
+- **Use these for catching**: up after focus sessions.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Understanding Notification Fatigue in Remote Work
 
 Remote developers receive an average of 50-100 Slack notifications daily across multiple channels and direct messages. Each notification triggers a micro-interruption that breaks your mental context. Research shows it takes approximately 23 minutes to regain full focus after an interruption. Multiply this by the number of notifications you receive, and you lose hours of productive time each day.

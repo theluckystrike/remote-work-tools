@@ -13,7 +13,20 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]---
 
+
 Structure client updates with Status Summary, Progress This Week, Blockers, Next Steps, and Decision Needed sections to enable async collaboration across time zones. When teams span multiple time zones, the way you format client updates determines whether information flows smoothly or gets lost in translation—synchronous communication patterns break down in distributed environments. This guide walks you through creating async update formats with concrete examples, templates, and implementation patterns for remote project teams.
+
+## Key Takeaways
+
+- **Recommend path forward**: Your professional opinion on best choice
+6.
+- **An HTML-formatted email with**: clear headings and a status color badge (green/yellow/red) performs well because it renders consistently across clients and requires no account setup from the stakeholder.
+- **Always use UTC in**: machine-readable formats and convert to local time only when displaying to humans.
+- **Explain root cause**: What led to this situation? (analysis, not blame)
+4.
+- **Root cause**: the vendor's API is throttling requests at 100/sec, but our caching approach generates 200+/sec during peak usage.
+- **Switch to alternative vendor (5 days**: better pricing long-term, different data model)
+> 3.
 
 ## Understanding the Core Problem
 

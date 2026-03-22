@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Reclaim AI vs Clockwise"
-description: "A technical comparison of Reclaim AI and Clockwise calendar optimization tools for developers and power users"
+description: "Reclaim AI vs Clockwise for calendar optimization: smart scheduling, focus time protection, meeting defragmentation, and Slack sync features tested."
 date: 2026-03-15
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"

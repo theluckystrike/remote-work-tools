@@ -31,6 +31,18 @@ Developers spend 6-10 hours a day at a desk. A poorly configured workstation cau
 
 This guide covers the measurements, adjustments, and equipment choices that eliminate the most common developer ergonomics problems.
 
+## Key Takeaways
+
+- **You do not need**: a $1,500 chair.
+- **It lets you move**: the monitor to the exact position needed in seconds, and it frees desk space underneath.
+- **This guide covers the measurements**: adjustments, and equipment choices that eliminate the most common developer ergonomics problems.
+- **Lumbar support**: positioned in the small of the back (not mid-back)
+   → should feel like gentle pressure, not a poke
+
+4.
+- **side-by-side layout ``` ##**: Keyboard and Mouse Position Keyboards and mice at desk level force the shoulders to rise and the wrists to extend.
+- **Wide keyboards with number pads force the mouse far to the right**: a TKL (tenkeyless) keyboard solves this by removing the numpad.
+
 ## The Right Posture: Four Reference Points
 
 Before buying anything, understand the position you are optimizing toward. These are the target measurements for seated work:

@@ -18,6 +18,15 @@ tags: [remote-work-tools]---
 
 To build a Zettelkasten for software engineering, create one atomic markdown note per concept (a single pattern, API detail, or debugging insight), give each note a unique ID and explicit tags, then link every new note to at least one existing note so connections compound over time. Use a local-first tool like Obsidian or Logseq (or plain markdown with git) to store notes, and organize them into three types: fleeting notes for quick capture, permanent notes for well-researched concepts, and project notes that get archived when work wraps up. This guide covers the atomic note structure, linking strategies for code patterns and problem-solution pairs, directory layout, query-based workflows, and the daily habits that make a Zettelkasten actually useful for engineers.
 
+## Key Takeaways
+
+- **These three cover 90%**: of Zettelkasten workflows.
+- **Step 3**: Create your inbox template. Use Templater to define a fleeting-note template that pre-fills the date and a `status: fleeting` tag.
+- **These need processing within**: 24-48 hours.
+- **This approach gives you version control**: portability, and freedom from vendor lock-in.
+- **Every new note should**: link to at least one existing note.
+- **Step 2**: Install essential plugins. Open Settings, then Community Plugins, and install: Dataview (for queries), Templater (for note templates), and Calendar (for daily notes).
+
 ## Atomic Notes: The Foundation
 
 The core principle of a Zettelkasten is atomicity — each note should contain one idea, one concept, or one piece of information. This makes notes reusable and linkable across contexts.

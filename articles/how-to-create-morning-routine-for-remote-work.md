@@ -33,6 +33,15 @@ Build your remote work morning routine around three phases: wake and ground (20-
 
 This guide walks you through building a morning routine tailored specifically for developers and power users who need sustained cognitive performance.
 
+## Key Takeaways
+
+- **If you must check**: use a specific time limit—15 minutes maximum—and batch responses rather than staying reactive.
+- **The most successful developers**: maintain roughly 70% consistency long-term, not 100% perfection.
+- **Each phase should take**: roughly 20-45 minutes depending on your preferences and responsibilities.
+- **Task selection**: Identify the one task that requires your best cognitive energy.
+- **Use a text-based barrier—you**: must manually authenticate before checking.
+- **Some developers perform better**: with earlier morning starts when it's dark; others need daylight.
+
 ## Why Your Morning Matters More When Working Remotely
 
 In an office, you have natural interruptions—the commute, hallway conversations, scheduled standups—that create cognitive transitions. Remote work compresses these transitions. You wake up and potentially start coding within minutes. This sounds efficient, but it often leads to fragmented attention and premature fatigue.

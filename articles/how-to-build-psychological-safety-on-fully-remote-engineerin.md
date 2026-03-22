@@ -33,6 +33,13 @@ Psychological safety—the belief that one can speak up without fear of punishme
 
 This guide provides concrete patterns for building psychological safety in fully remote engineering environments, with examples you can implement today.
 
+## Key Takeaways
+
+- **What I learned**: I need better visual differentiation between my local and staging configs.
+- **When developers feel safe to ask questions**: admit mistakes, and propose unconventional ideas, your team solves problems faster and builds better software.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: why remote work changes the safety equation, pattern 1: normalize asking questions publicly, pattern 2: structure feedback around growth, not judgment
+
 ## Why Remote Work Changes the Safety Equation
 
 In physical offices, psychological safety builds through informal interactions—grabbing coffee, chatting at the whiteboard, noticing when a colleague seems stressed. Remote work removes these signals. Text-based communication strips tone, timing creates gaps that feel like silence, and async workflows can make feedback feel like judgment rather than guidance.

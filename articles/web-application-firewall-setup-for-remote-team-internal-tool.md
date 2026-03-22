@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Web Application Firewall Setup for Remote Team Internal"
-description: "A practical guide to implementing web application firewall protection for internal tools used by remote teams in 2026"
+description: "Deploy a WAF for remote team internal tools: Cloudflare Access, AWS WAF, and ModSecurity rules for protecting dashboards and admin panels."
 date: 2026-03-15
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"

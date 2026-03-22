@@ -31,6 +31,16 @@ voice-checked: true---
 
 Remote team QBRs use async documentation, recorded updates, and focused sync discussions to align distributed leadership on metrics, wins, and next-quarter goals. Async-first QBRs let geographically scattered teams participate fully while avoiding exhausting all-hands marathon meetings. This guide covers QBR structure, templates, metrics selection, and help for distributed organizations.
 
+## Key Takeaways
+
+- **Cloud infrastructure costs - Up 18%**: requires optimization review
+2.
+- **Ship feature X -**: Expected $500K new revenue impact 2.
+- **Fix**: Limit presentations to 20% of sync time.
+- **These sessions work best**: with a strict agenda: 1.
+- **Synthesis and presentation**: Use a tool that supports structured layouts.
+- **Shipping velocity - 23%**: increase from last quarter 2.
+
 ## Why Traditional QBRs Fail for Distributed Teams
 
 Most QBR methodologies assume synchronous, co-located participation. You gather everyone in a room, walk through slides, discuss metrics, and align on next steps. For distributed teams, this approach creates several problems:

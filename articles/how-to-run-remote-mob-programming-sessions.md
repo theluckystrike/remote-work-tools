@@ -16,6 +16,13 @@ voice-checked: true---
 
 Mob programming — the whole team working on one thing together — sounds counterintuitive for remote teams, but it solves specific problems that async work can't: onboarding new engineers, tackling genuinely hard problems that need multiple perspectives simultaneously, and transferring knowledge across the team. Done well, a 90-minute remote mob session on a hard problem beats a week of back-and-forth async comments.
 
+## Key Takeaways
+
+- **Everyone else joins as**: read-only observers # 4.
+- **Live Share is a**: reasonable free alternative for occasional mob sessions.
+- **Topics covered**: the core structure, tool setup, tool comparison: live share vs tuple vs gitpod
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## The Core Structure
 
 Remote mob programming needs more explicit structure than in-person because there's no shared physical space to anchor coordination.

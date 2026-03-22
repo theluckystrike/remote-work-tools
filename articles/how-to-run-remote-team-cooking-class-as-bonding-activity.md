@@ -31,6 +31,16 @@ voice-checked: true---
 
 Choose live synchronous cooking with accessible recipes that use common ingredients to maximize bonding across remote teams. Remote teams struggle to create meaningful connections outside work meetings—virtual cooking classes provide skill-building, creativity, and shared experience without leaving home. This guide covers everything you need to organize a successful remote team cooking event that actually builds relationships, including format selection, recipe criteria, help techniques, and tech setup.
 
+## Key Takeaways
+
+- **Add 25% more time**: than you think you need.
+- **This creates the most**: shared experience but requires participants to commit to a specific time.
+- **For most teams**: the live synchronous format produces the strongest bonding experience, even if it requires some calendar flexibility.
+- **Announce theme (e.g., "Best vegetable stir-fry")**: Share week in advance
+2.
+- **Choose live synchronous cooking**: with accessible recipes that use common ingredients to maximize bonding across remote teams.
+- **The best sessions feel intentional**: accessible, and genuinely interactive.
+
 ## Planning Your Virtual Cooking Class
 
 Successful virtual cooking events require more than sending out a Zoom link and a recipe. The best sessions feel intentional, accessible, and genuinely interactive. Here's how to plan one that your team will actually want to attend.

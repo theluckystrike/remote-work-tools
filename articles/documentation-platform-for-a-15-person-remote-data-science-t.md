@@ -13,7 +13,22 @@ score: 9
 intent-checked: true
 voice-checked: true---
 
+
 A 15-person remote data science team has documentation needs that differ from software engineering teams. Models have training data, evaluation metrics, and deployment dependencies that need tracking. Experiments need reproducibility notes. Feature pipelines need schema documentation. This guide covers building a documentation platform that serves these specific needs without overwhelming the team.
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Random Forest**: 84% accuracy, too slow for real-time scoring
+
+## Decision
+Choose XGBoost for production.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **XGBoost**: 87% accuracy, 50ms latency, well-understood, mature
+2.
+- **LightGBM**: 86.8% accuracy, 35ms latency, faster training, fewer production deployments
+3.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
 
 ## Choosing Your Documentation Stack
 

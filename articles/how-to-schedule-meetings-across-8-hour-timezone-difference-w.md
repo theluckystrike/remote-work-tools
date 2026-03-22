@@ -31,6 +31,15 @@ voice-checked: true---
 
 With an 8-hour timezone difference, find your 2-4 hour overlap window (typically early morning for the western team and evening for the eastern team) and use that for synchronous meetings, then rotate meeting times weekly to equitably distribute inconvenient times. For non-overlapping communication, establish asynchronous decision-making processes using RFC documents and async standups recorded as Loom videos, so teams in different time windows can participate and make progress without forcing anyone into extreme working hours.
 
+## Key Takeaways
+
+- **An 8-hour difference doesn't**: mean zero overlap—it means you need to find the hours that work for both groups.
+- **Critical decisions with time**: pressure 4.
+- **Onboarding new team members**: Everything else—status updates, code reviews, planning—works better async.
+- **Default async for everything**: except what truly requires sync 4.
+- **Planning for "least bad"**: time is more realistic than seeking perfect overlap.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Calculate Your Actual Overlap Hours
 
 Before scheduling anything, you need to know your true overlap window. An 8-hour difference doesn't mean zero overlap—it means you need to find the hours that work for both groups.

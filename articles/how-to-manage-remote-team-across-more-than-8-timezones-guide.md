@@ -27,7 +27,24 @@ score: 9
 voice-checked: true
 intent-checked: true---
 
+
 Managing teams across 8+ timezones requires fundamentally different operational models than co-located or time-overlapped teams. With no common waking hours, synchronous communication becomes a bottleneck. The winning approach is async-first culture where decisions are made asynchronously with clear escalation paths, documentation is exhaustive, and real-time meetings are scheduled for specific value rather than routine updates. Teams executing this well move faster than single-timezone teams because context is captured, decisions are documented, and knowledge compounds. Teams that force synchronous alignment across 8+ timezones experience constant delays, dropped context, and burnout.
+
+## Key Takeaways
+
+- **in Slack?
+ - Target**: 100% of decisions documented, Slack for discussion only
+
+5.
+- **Best practice:
+- Core hours per region**: SF has 9am-5pm SF, London has 9am-5pm London, etc.
+- **Overlap meeting attendance**: What % of team attends meetings at bad times?
+ - Target: No individual should attend meetings outside core hours more than 1x/week
+
+3.
+- **Managing teams across 8+**: timezones requires fundamentally different operational models than co-located or time-overlapped teams.
+- **Teams executing this well**: move faster than single-timezone teams because context is captured, decisions are documented, and knowledge compounds.
+- **Decision process for non-critical**: decisions (turnaround time: 48 hours): 1.
 
 ## The 8+ Timezone Reality
 

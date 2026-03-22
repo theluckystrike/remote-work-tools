@@ -31,6 +31,15 @@ Remote teams need a branching strategy that works asynchronously — no one stan
 
 This guide covers the three dominant strategies (trunk-based development, GitHub Flow, and Gitflow), when each applies, and how to enforce consistency with tooling.
 
+## Key Takeaways
+
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
+- **Small teams can often**: implement changes faster because there are fewer people to coordinate.
+- **Adapt the specifics to**: your team size—a 5-person team does not need the same formal processes as a 50-person organization.
+- **Track them weekly for**: at least a month to see trends.
+- **Use async communication tools**: for everything else.
+
 ## The Core Problem Git Branching Solves
 
 Without a defined strategy, remote teams develop inconsistently: some developers push directly to `main`, others have branches that live for weeks, and merge conflicts accumulate. A branching strategy is a shared contract about how code moves from idea to production.

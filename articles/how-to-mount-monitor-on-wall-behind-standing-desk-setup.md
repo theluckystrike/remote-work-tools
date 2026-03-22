@@ -31,6 +31,15 @@ voice-checked: true---
 
 To mount a monitor on the wall behind your standing desk, confirm your monitor's VESA pattern (typically 100x100mm), locate wall studs with a stud finder, attach a tilting or full-motion mount plate at eye level, and hang the monitor. Use a full-motion mount rather than a fixed mount so you can adjust height between sitting and standing positions. This guide covers VESA standards, wall types, cable management, and ergonomic positioning for developers and power users.
 
+## Key Takeaways
+
+- **Full-motion mounts ($80-150)**: Provide the most flexibility, allowing tilt, swivel, and extension.
+- **Tilting mounts ($50-100)**: Add vertical angle adjustment—useful if you need to tilt the monitor up when standing and down when sitting.
+- **This is sufficient for**: most people—you're only adjusting 2-4 inches of height, so tilt handles the difference.
+- **Monitor arms ($60-150)**: Clamped to desk rather than wall-mounted, but worth mentioning.
+- **Full-motion mounts are preferred**: if you change postures frequently (every 30-60 minutes).
+- **Drywall-only mounting requires toggle**: bolts or mollies for adequate support.
+
 ## Understanding VESA Standards Before You Buy
 
 Every monitor manufactured in the past two decades follows the VESA (Video Electronics Standards Association) mounting standard. Your monitor's VESA pattern—typically 75x75mm or 100x100mm—determines which wall mount or arm is compatible.

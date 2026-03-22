@@ -33,6 +33,13 @@ Remote teams rely heavily on automated CI/CD pipelines to ship software efficien
 
 Understanding the threat environment forms the foundation for building effective defenses.
 
+## Key Takeaways
+
+- **Use branch protection rules**: and require pull request reviews for changes to CI/CD configuration files.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: understanding supply chain risks in ci/cd, practical steps to secure your pipeline, 1. implement dependency pinning and verification
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Understanding Supply Chain Risks in CI/CD
 
 Supply chain attacks targeting CI/CD pipelines exploit the trust relationships between your pipeline stages, external services, and dependencies. Attackers compromise build tools, dependency registries, or pipeline configurations to inject malicious code into your software delivery process.

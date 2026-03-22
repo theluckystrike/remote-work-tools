@@ -31,6 +31,15 @@ intent-checked: true---
 
 Use VS Code Live Share if your team already works in VS Code and needs instant pair programming with shared editing, cursor visibility, and integrated audio (free, included with VS Code). Use JetBrains Code With Me if you're in PyCharm, IntelliJ, or Goland and need IDE-native pairing with full language tooling (paid, $8.99/month or $89.99/year per participant). Use tmux + SSH if you need zero-dependency terminal-based pairing across Unix systems or need to pair on remote servers directly. This guide walks through setup, session management, and best practices for each tool.
 
+## Key Takeaways
+
+- **Use JetBrains Code With**: Me if you're in PyCharm, IntelliJ, or Goland and need IDE-native pairing with full language tooling (paid, $8.99/month or $89.99/year per participant).
+- **Use VS Code Live**: Share if your team already works in VS Code and needs instant pair programming with shared editing, cursor visibility, and integrated audio (free, included with VS Code).
+- **Use tmux + SSH**: if you need zero-dependency terminal-based pairing across Unix systems or need to pair on remote servers directly.
+- **This guide walks through setup**: session management, and best practices for each tool.
+- **The best tools give**: both participants equal control of the code, synchronized cursor visibility, and smooth audio for discussion.
+- **Sign in with GitHub**: or Microsoft account (required for session management) 2.
+
 ## Why Pair Programming Works Better Remote
 
 In-office pairing is natural: you share a screen and keyboard effortlessly. Remote pairing requires intentional tooling. The best tools give both participants equal control of the code, synchronized cursor visibility, and smooth audio for discussion. They also let the "driver" stay focused while the "observer" navigates and thinks strategically.

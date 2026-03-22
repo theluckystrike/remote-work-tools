@@ -33,6 +33,14 @@ Running your own business means every financial decision lands on your desk. Whe
 
 This guide provides concrete systems for maintaining clean separation between your business and personal finances—approaches that work for developers who prefer terminal-based workflows and automation over spreadsheets.
 
+## Key Takeaways
+
+- **Verify tax buffer is**: at 25-30% of quarter income This rhythm prevents end-of-year panic and keeps your books always ready for quarterly tax estimates.
+- **When you're a freelance developer**: the line between "buying a new laptop for client work" and "upgrading my personal rig" gets blurry fast.
+- **Credit unions often provide**: better rates and fewer fees.
+- **Pick a regular schedule—monthly**: or bi-weekly—and transfer a set "salary" amount.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## The Case for Strict Separation
 
 Before exploring implementation, understand why separation matters:

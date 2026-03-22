@@ -33,6 +33,15 @@ Remote client workshops present unique challenges that in-person sessions never 
 
 This guide walks through setting up and helping productive remote client workshops using Miro, with practical templates you can adapt immediately.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Miro offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Use Miro's follow mode**: to have that person drive while others observe: 1.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Preparing Your Miro Board Before the Workshop
 
 Success starts before anyone joins the call. A well-prepared board gives clients confidence in your professionalism and gives you a clear roadmap for the session.

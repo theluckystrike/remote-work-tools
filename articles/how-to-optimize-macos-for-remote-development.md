@@ -31,6 +31,13 @@ tags: [remote-work-tools, remote-work]---
 
 Working remotely as a developer demands a finely tuned macOS environment. When your office is anywhere with an internet connection, every second saved and every workflow optimization compounds over time. This guide covers practical steps to optimize macOS for remote development, from terminal enhancements to network configurations that keep you productive regardless of location.
 
+## Key Takeaways
+
+- **SSH keepalive packets are**: tiny and sent infrequently (every 60 seconds).
+- **Which Apple Silicon Macs**: are best for remote development? The MacBook Pro 14-inch with M3 Pro or M4 Pro provides the best balance of performance and battery life.
+- **How should I handle**: VPN performance issues while working remotely? Split tunneling is the most effective solution.
+- **Topics covered**: terminal configuration and shell optimization, switching to zsh with oh my zsh, recommended shell plugins for remote developers
+
 ## Terminal Configuration and Shell Optimization
 
 The terminal serves as your primary workspace. Optimizing it directly impacts daily productivity.

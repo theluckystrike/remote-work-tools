@@ -31,6 +31,19 @@ intent-checked: true---
 
 Support neurodivergent remote workers by implementing async-first communication with clear response windows, structuring tasks into small steps with explicit completion criteria, providing home office equipment stipends, designing accessible meetings with agendas and recordings, and using outcome-based performance evaluation. These accommodations reduce barriers for workers with ADHD, autism, dyslexia, and other neurological variations while improving productivity for the entire team.
 
+## Key Takeaways
+
+- **Turnover costs for engineers**: average $150,000–$250,000 per person.
+- **(Target**: ≥95% after first year)
+
+Engagement: Survey neurodivergent employees quarterly on support effectiveness and accommodation adequacy.
+- **"I need you to**: work on this feature" is better than "this feature is important, maybe you could prioritize it?" Reduced social meetings: If video calls are draining, offer attendance options.
+- **Preference documentation**: Capture individual preferences in writing: "I prefer email over Slack for non-urgent items" or "Text me before calling." This removes the need to negotiate in the moment.
+- **Counter with data:
+
+Retention**: Accommodated neurodivergent employees show 40% higher retention rates than those without accommodations.
+- **For the digital workspace**: organize the desktop, minimize visual clutter, and use a window management tool.
+
 ## Understanding Neurodivergent Work Patterns
 
 Neurodivergent individuals frequently exhibit working patterns that differ from neurotypical expectations. These differences are not deficiencies but rather alternative cognitive styles that offer genuine advantages in technical work.

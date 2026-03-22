@@ -33,6 +33,15 @@ Exit interviews provide invaluable insights into employee experience, team dynam
 
 This guide walks through building a complete remote exit interview workflow tailored for distributed teams.
 
+## Key Takeaways
+
+- **What was the best**: part of working here? 12.
+- **Would you recommend this**: company to a friend? Why or why not? 14.
+- **You likely already use written documentation**: async code reviews, and RFCs—exit interviews should follow the same pattern.
+- **Structure questions from general to specific**: and save the most sensitive topics for later when trust has been established.
+- **Did you have the**: tools and resources needed to do your job effectively? 2.
+- **Were your career goals**: supported by the team and organization? ## Management and Leadership 6.
+
 ## Why Async Exit Interviews Work Better for Remote Teams
 
 Traditional exit interviews require coordinating schedules across time zones, often resulting in awkward timing for some participants. More importantly, video calls create social pressure that discourages honest feedback about problematic managers, toxic culture, or compensation issues.

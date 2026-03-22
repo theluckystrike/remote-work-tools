@@ -31,6 +31,20 @@ intent-checked: true---
 
 A remote team handbook is a living document that codifies communication norms, work expectations, and tool configurations into a searchable reference. Unlike office environments where norms develop through osmosis, remote teams must be explicit. This guide walks through building a handbook from scratch, structuring it for discoverability, and maintaining it as your team grows.
 
+## Key Takeaways
+
+- **Example**: "We use React (decided 2024-Q2, see decision log)"
+
+## Example Handbook Outline
+
+```
+# Remote Team Handbook
+
+1.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: why remote teams need handbooks, building the structure, part 1: essential first week
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Why Remote Teams Need Handbooks
 
 Office-based teams develop culture implicitly. New hires observe meeting rituals, overhear communication patterns, and absorb expectations through proximity. Remote teams lack this osmosis. Without explicit documentation, every new hire requires extensive onboarding, and communication norms drift over time.

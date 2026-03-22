@@ -19,6 +19,19 @@ Demo days transform isolated project work into shared organizational knowledge. 
 
 This guide provides a practical framework for running remote demo days that genuinely showcase cross-team project work, not just individual team accomplishments.
 
+## Key Takeaways
+
+- **Start with highest impact**: Your most collaborative project first captures attention
+2.
+- **How do I use this?**: Provide concrete steps for adopting or extending the work
+3.
+- **Better to have 4 excellent demos than 8 terrible ones
+
+No follow-through**: Demo days without action items create cynicism.
+- **Which demo was most**: valuable and why? 3.
+- **The format forces presenters**: to articulate not just what they built, but why it matters and how other teams can use it.
+- **Use a question queue**: Designate someone to collect questions in chat and present them to presenters in order.
+
 ## Why Cross-Team Demo Days Matter
 
 Remote work naturally creates information silos. Engineers on one team often have no visibility into what engineers on another team are building, even when their projects directly intersect. Without deliberate exposure to other team's work, teams duplicate effort, miss opportunities to share reusable components, and struggle to understand how their contributions fit the larger picture.

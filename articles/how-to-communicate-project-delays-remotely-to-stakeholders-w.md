@@ -33,6 +33,19 @@ Communicate project delays remotely to stakeholders by providing clear, structur
 
 Every developer faces it eventually: a project timeline that slips, dependencies that fail, or scope creep that derails the best-laid plans. When this happens remotely, the challenge intensifies. You cannot walk into a stakeholder's office for a quick chat. Every communication must be deliberate, clear, and trustworthy. This guide provides actionable templates, code examples, and workflows for communicating project delays to stakeholders while maintaining credibility and transparency.
 
+## Key Takeaways
+
+- **>
+> Why this matters**: We need to refactor approximately 2,400 lines of code to use v3 endpoints.
+- **>
+> What I need from you**: Approval to reallocate developer time from the user dashboard improvements to this critical path work."
+
+This example demonstrates several best practices.
+- **Every developer faces it eventually**: a project timeline that slips, dependencies that fail, or scope creep that derails the best-laid plans.
+- **Stakeholders prefer hearing about**: problems early, even with incomplete information, rather than learning about them after the original deadline has passed.
+- **If you use Jira**: include issue links.
+- **If you use Linear**: reference the relevant items.
+
 ## Why Transparency Matters More in Remote Settings
 
 Remote work removes the informal check-ins that used to catch problems early. In an office, a quick conversation at the coffee machine might reveal a blocker before it becomes a delay. Remote teams lack these organic touchpoints, which means stakeholders often hear about problems only when they become crises.

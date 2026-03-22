@@ -31,6 +31,15 @@ Async-first culture is a force multiplier for distributed teams. It eliminates t
 
 Building async culture requires intentional tool choices, clear communication protocols, and documented processes. This guide covers the stack, practices, and templates to go from chaotic async (Slack overload, lost context) to functional async (clear decisions, deep work, high velocity).
 
+## Key Takeaways
+
+- **If it's mostly listening**: use Loom.
+- **Slack Huddles (built-in)**: Small teams use Slack Huddles for optional, 10-minute quick syncs.
+- **Typical attendance**: 20-30% of the team.
+- **Saves 80% of the**: meeting time.
+- **Recommended**: Confluence, GitBook, or Outline (depending on team size and technical level; see the companion article on knowledge bases).
+- **Slack setup for async:**: - Use threads aggressively.
+
 ## The Async Mindset
 
 Async-first means:

@@ -17,6 +17,15 @@ voice-checked: true---
 
 Remote agencies face unique challenges when tracking time across distributed teams and multiple clients. Harvest provides a solution for capturing billable hours, managing client projects, and generating invoices. This guide covers practical setup steps for agencies working with remote clients, with emphasis on remote-specific workflows and time zone management.
 
+## Key Takeaways
+
+- **Healthy agency use typically**: falls between 60-75% accounting for non-billable work like meetings and admin.
+- **Tailor thresholds based on**: project size—smaller projects might warrant 75% alerts while larger engagements use 90%.
+- **Design work might bill**: at $175/hour while development rates are $150/hour.
+- **API rate limits**: Harvest allows 100 requests per 15 seconds per account.
+- Recommend syncing at least daily.
+- **Use a consistent format**: like `CLIENT-001 Project Name` for easy sorting and reporting.
+
 ## Creating Your Agency Workspace
 
 Start by creating a Harvest account tailored to agency operations. The workspace structure determines how you organize client work and report on productivity.

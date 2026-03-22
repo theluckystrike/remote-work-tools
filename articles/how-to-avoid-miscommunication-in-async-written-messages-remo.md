@@ -31,6 +31,16 @@ score: 8---
 
 Prevent async miscommunication by adding explicit context before every request, marking your intent (action needed, decision, or FYI), and including deadlines with time zones. These three changes address the root causes — missing context, ambiguous intent, and unclear expectations — that turn async messages into sources of rework and frustration. The patterns below give you copy-paste templates and formatting conventions your remote team can adopt immediately.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Use code blocks for**: any technical content: ```markdown ## Context The user authentication flow returns 401 unexpectedly.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Information:
+FYI**: The third-party integration will be down for maintenance from 2am-4am UTC on Sunday.
+
 ## The Root Causes of Async Miscommunication
 
 Most async miscommunication stems from three problems: missing context, ambiguous intent, and unclear expectations. When you send a message in Slack, email, or a project management tool, you know exactly what you mean. The person reading your message does not. They fill gaps with assumptions, which often lead to incorrect conclusions.

@@ -19,6 +19,13 @@ Effective onboarding documentation serves as the backbone of successful remote t
 
 This guide covers the essential components of onboarding documentation, practical templates you can adapt, and implementation strategies that work for distributed developer teams.
 
+## Key Takeaways
+
+- **Also document what happens when someone is unavailable**: how does the team handle urgent issues when the on-call developer is in a different timezone? If you use PagerDuty or a rotation, explain it.
+- **This creates a self-improving**: documentation system where every onboarding cycle makes the docs better.
+- **These change most frequently**: and become dangerous when stale.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Core Components of Remote Onboarding Documentation
 
 Every remote team's onboarding documentation should address four fundamental areas: access and accounts, development environment setup, team processes and workflows, and project-specific knowledge. Skipping any of these creates gaps that slow down new team members.

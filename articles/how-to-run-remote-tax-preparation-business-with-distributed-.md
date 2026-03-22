@@ -17,6 +17,16 @@ voice-checked: true---
 
 Run a remote tax preparation business with seasonal staff by implementing secure infrastructure (VPN, encryption, role-based access), automated workflows (document intake, status routing, reviewer assignment), and performance tracking. Distributing seasonal preparers across time zones extends coverage through tax season while automation eliminates manual bottlenecks. This guide covers the technical infrastructure, compliance frameworks, and management strategies needed to scale tax operations remotely.
 
+## Key Takeaways
+
+- **A common effective distribution**: places 40% of staff in Pacific, 35% in Central/Eastern, and 25% in other regions.
+- **You cannot simply use**: consumer-grade tools when handling sensitive financial data.
+- **These platforms integrate with**: your document management system and enable role-based access controls where preparers can only see their assigned clients.
+- **Document management requires at**: minimum 256-bit encryption at rest and in transit.
+- **Security training covering data handling**: password requirements, and incident reporting
+2.
+- **Use scheduling tools like**: When I Work or Deputy that handle shift bidding and time-off requests across time zones.
+
 ## Building Your Remote Tax Preparation Infrastructure
 
 The foundation of a remote tax preparation business starts with secure, compliant infrastructure. You cannot simply use consumer-grade tools when handling sensitive financial data.

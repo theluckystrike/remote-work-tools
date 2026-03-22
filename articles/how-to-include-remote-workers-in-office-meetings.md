@@ -17,6 +17,15 @@ voice-checked: true---
 
 When your team includes both in-office and remote participants, running effective meetings requires deliberate technical setup and process design. Remote workers often feel disconnected when meetings prioritize in-room attendees, leading to reduced engagement and missed contributions. This guide covers the practical steps developers and power users can take to create genuinely inclusive hybrid meetings.
 
+## Key Takeaways
+
+- **These norms should address:
+
+Speaking order**: Use hand-raise features or explicit verbal cues so remote participants can signal when they want to speak.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: technical foundation for hybrid meeting setup, audio configuration, video layout strategies
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Technical Foundation for Hybrid Meeting Setup
 
 The first step involves configuring your meeting space to treat remote participants as first-class attendees. This means investing in proper audio and video infrastructure rather than relying on a single laptop camera pointed at a conference room.

@@ -14,7 +14,17 @@ intent-checked: true
 voice-checked: true---
 
 {% raw %}
+
 To fix your outdated wiki, run a 2-week documentation sprint: audit stale pages using `git log --since="180 days ago"`, categorize them as critical/useful/deprecated, assign each person 2-4 pages to update (not write new ones), and use a shared tracking spreadsheet to show progress daily. Start with critical pages affecting onboarding or production, then let team members tackle their specialties. This structured time-box prevents wiki maintenance from disappearing back into the backlog indefinitely.
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Pick one." Most teams**: find that two weeks of documentation work saves dozens of hours in support later.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Instead of feeling responsible**: for constant maintenance, team members can focus intensely for a short period and then return to their regular work with the confidence that the wiki is in better shape.
+- **Update ECS service (via**: Terraform or console) ``` Note the specific version requirements, the use of placeholders, and the step-by-step structure.
 
 ## Why Documentation Sprints Work
 

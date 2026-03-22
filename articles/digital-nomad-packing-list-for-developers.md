@@ -31,6 +31,15 @@ voice-checked: true---
 
 The lifestyle appeals to many developers, but packing for indefinite travel while maintaining productivity requires deliberate choices. This guide covers the practical essentials developers need when working from anywhere, focusing on items that genuinely impact your ability to code, debug, and deploy regardless of location.
 
+## Key Takeaways
+
+- **For developer use**: prioritize machines with strong build quality, excellent keyboards, and Linux compatibility.
+- **European city-hopping (2–8 weeks).**: Most major European cities have coworking spaces with reliable gigabit internet.
+- **You can travel lighter**: because backup connectivity gear is less critical.
+- **Configure your system to**: use DNS over HTTPS via Cloudflare (1.1.1.1) or NextDNS.
+- **A ruggedized laptop bag**: or backpack handles humidity better than canvas options.
+- **US developers face no**: adapter issues in Mexico and most of Central America.
+
 ## The Core Tech Kit
 
 ### Laptop and Accessories

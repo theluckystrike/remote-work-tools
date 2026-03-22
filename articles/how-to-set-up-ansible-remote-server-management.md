@@ -10,11 +10,19 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]---
+tags: [remote-work-tools]
+---
 
 {% raw %}
 
 Ansible lets remote teams manage hundreds of servers without manual SSH sessions. This guide covers a production-ready setup: inventory structure, roles, vaults for secrets, and CI integration so your distributed team can push config changes safely.
+
+## Key Takeaways
+
+- **Topics covered**: prerequisites, directory structure, ansible.cfg
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+- **Use-case recommendations**: Specific guidance based on team size and requirements
+- **Trade-off analysis**: Strengths and limitations of each option discussed
 
 ## Prerequisites
 
@@ -122,63 +130,64 @@ app_port: 8080
 ## Common Role
 
 ```yaml
-# roles/common/tasks/main.yml---
+# roles/common/tasks/main.yml
+---
 - name: Update apt cache
- ansible.builtin.apt:
- update_cache: true
- cache_valid_time: 3600
- when: ansible_os_family == "Debian"
+  ansible.builtin.apt:
+    update_cache: true
+    cache_valid_time: 3600
+  when: ansible_os_family == "Debian"
 
 - name: Install common packages
- ansible.builtin.package:
- name:
- - curl
- - git
- - htop
- - unzip
- - fail2ban
- - ufw
- state: present
+  ansible.builtin.package:
+    name:
+      - curl
+      - git
+      - htop
+      - unzip
+      - fail2ban
+      - ufw
+    state: present
 
 - name: Set timezone
- community.general.timezone:
- name: UTC
+  community.general.timezone:
+    name: UTC
 
 - name: Configure NTP
- ansible.builtin.template:
- src: ntp.conf.j2
- dest: /etc/ntp.conf
- owner: root
- group: root
- mode: '0644'
- notify: restart ntp
+  ansible.builtin.template:
+    src: ntp.conf.j2
+    dest: /etc/ntp.conf
+    owner: root
+    group: root
+    mode: '0644'
+  notify: restart ntp
 
 - name: Create deploy user
- ansible.builtin.user:
- name: "{{ deploy_user }}"
- shell: /bin/bash
- groups: sudo
- append: true
- create_home: true
+  ansible.builtin.user:
+    name: "{{ deploy_user }}"
+    shell: /bin/bash
+    groups: sudo
+    append: true
+    create_home: true
 
 - name: Add SSH authorized key for deploy user
- ansible.posix.authorized_key:
- user: "{{ deploy_user }}"
- key: "{{ lookup('file', '~/.ssh/id_ed25519.pub') }}"
- state: present
+  ansible.posix.authorized_key:
+    user: "{{ deploy_user }}"
+    key: "{{ lookup('file', '~/.ssh/id_ed25519.pub') }}"
+    state: present
 ```
 
 ```yaml
 # roles/common/handlers/main.yml
 ---
 - name: restart ntp
- ansible.builtin.service:
- name: ntp
- state: restarted
+  ansible.builtin.service:
+    name: ntp
+    state: restarted
 
 - name: reload ufw
- community.general.ufw:
- state: reloaded
+  community.general.ufw:
+    state: reloaded
 ```
 
 ## Ansible Vault for Secrets
@@ -215,12 +224,12 @@ Reference vault variables in tasks:
 
 ```yaml
 - name: Configure database connection
- ansible.builtin.template:
- src: database.conf.j2
- dest: /etc/app/database.conf
- mode: '0600'
- vars:
- password: "{{ db_password }}"
+  ansible.builtin.template:
+    src: database.conf.j2
+    dest: /etc/app/database.conf
+    mode: '0600'
+  vars:
+    password: "{{ db_password }}"
 ```
 
 ## Main Playbook
@@ -229,25 +238,25 @@ Reference vault variables in tasks:
 # playbooks/site.yml
 ---
 - name: Apply common configuration to all servers
- hosts: all
- become: true
- vars_files:
- - ../vault/secrets.yml
- roles:
- - common
+  hosts: all
+  become: true
+  vars_files:
+    - ../vault/secrets.yml
+  roles:
+    - common
 
 - name: Configure web servers
- hosts: webservers
- become: true
- roles:
- - nginx
- - app
+  hosts: webservers
+  become: true
+  roles:
+    - nginx
+    - app
 
 - name: Configure database servers
- hosts: dbservers
- become: true
- roles:
- - postgres
+  hosts: dbservers
+  become: true
+  roles:
+    - postgres
 ```
 
 ## Running Playbooks
@@ -300,39 +309,39 @@ ansible web-01.example.com -m setup | grep ansible_distribution
 name: Ansible Deploy
 
 on:
- push:
- branches: [main]
- paths:
- - 'ansible/**'
+  push:
+    branches: [main]
+    paths:
+      - 'ansible/**'
 
 jobs:
- deploy:
- runs-on: ubuntu-latest
- steps:
- - uses: actions/checkout@v4
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
- - name: Install Ansible
- run: pip install ansible ansible-lint
+      - name: Install Ansible
+        run: pip install ansible ansible-lint
 
- - name: Write vault password
- run: echo "${{ secrets.VAULT_PASSWORD }}" > ~/.vault_pass && chmod 600 ~/.vault_pass
+      - name: Write vault password
+        run: echo "${{ secrets.VAULT_PASSWORD }}" > ~/.vault_pass && chmod 600 ~/.vault_pass
 
- - name: Write SSH key
- run: |
- mkdir -p ~/.ssh
- echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
- chmod 600 ~/.ssh/id_ed25519
+      - name: Write SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
 
- - name: Lint playbooks
- run: ansible-lint ansible/playbooks/site.yml
+      - name: Lint playbooks
+        run: ansible-lint ansible/playbooks/site.yml
 
- - name: Run check mode
- run: ansible-playbook ansible/playbooks/site.yml --check --diff
+      - name: Run check mode
+        run: ansible-playbook ansible/playbooks/site.yml --check --diff
 
- - name: Deploy to production
- run: ansible-playbook ansible/playbooks/site.yml
- env:
- ANSIBLE_HOST_KEY_CHECKING: "False"
+      - name: Deploy to production
+        run: ansible-playbook ansible/playbooks/site.yml
+        env:
+          ANSIBLE_HOST_KEY_CHECKING: "False"
 ```
 
 ## Testing Roles with Molecule
@@ -350,10 +359,10 @@ molecule test
 # molecule/default/converge.yml
 ---
 - name: Converge
- hosts: all
- become: true
- roles:
- - role: nginx
+  hosts: all
+  become: true
+  roles:
+    - role: nginx
 ```
 
 ## Idempotency Checks
@@ -367,6 +376,173 @@ ansible-playbook playbooks/site.yml | grep -E "changed|failed"
 # Second run should show: changed=0 failed=0
 ```
 
+## Dynamic Inventory for Cloud Environments
+
+Static inventory files work for fixed infrastructure, but cloud environments with auto-scaling groups require dynamic inventory. Ansible ships plugins for AWS, GCP, and Azure:
+
+```bash
+# Install AWS collection
+ansible-galaxy collection install amazon.aws
+
+# aws_ec2 inventory plugin configuration
+# inventory/production/aws_ec2.yml
+plugin: amazon.aws.aws_ec2
+regions:
+  - us-east-1
+  - eu-west-1
+filters:
+  tag:Environment: production
+  instance-state-name: running
+keyed_groups:
+  - key: tags.Role
+    prefix: role
+  - key: placement.region
+    prefix: region
+hostnames:
+  - private-ip-address
+compose:
+  ansible_host: private_ip_address
+```
+
+```bash
+# Test dynamic inventory
+ansible-inventory -i inventory/production/aws_ec2.yml --list
+
+# Use dynamic inventory in playbooks
+ansible-playbook -i inventory/production/aws_ec2.yml playbooks/site.yml
+```
+
+This approach means newly launched instances automatically appear in the correct host groups based on their tags, without any manual inventory updates.
+
+## Ansible Callback Plugins for Better Logging
+
+Remote teams need visibility into what Ansible does across multiple playbook runs. The `profile_tasks` and `log_plays` callback plugins help:
+
+```ini
+# ansible.cfg
+[defaults]
+callback_whitelist = profile_tasks, log_plays, yaml
+
+[callback_log_plays]
+log_folder = /var/log/ansible/plays/
+```
+
+For central logging, pipe Ansible output to a shared location or use the `ara` (Ansible Run Analysis) tool which provides a web UI showing every task, its result, and the diff:
+
+```bash
+pip install ara[server]
+
+# Configure Ansible to use ara callback
+export ANSIBLE_CALLBACK_PLUGINS="$(python3 -m ara.setup.callback_plugins)"
+export ANSIBLE_ACTION_PLUGINS="$(python3 -m ara.setup.action_plugins)"
+export ANSIBLE_LOOKUP_PLUGINS="$(python3 -m ara.setup.lookup_plugins)"
+
+# Start the ara web UI
+ara-manage runserver 0.0.0.0:8000
+```
+
+With ara, every team member can browse the history of Ansible runs in a browser, inspect task outputs, and compare diffs between runs — no SSH access to the control node required.
+
+## Handling Drift in Long-Running Infrastructure
+
+Servers that have been running for months accumulate manual changes that drift from what Ansible expects. The `--check` flag combined with `--diff` produces a drift report:
+
+```bash
+# Generate drift report for all servers
+ansible-playbook playbooks/site.yml --check --diff 2>&1 | tee drift-report-$(date +%Y%m%d).txt
+
+# Count changed tasks per host
+grep "^TASK\|changed:" drift-report-*.txt | grep changed | sort | uniq -c | sort -rn
+```
+
+Running this weekly as a scheduled CI job creates an audit trail of infrastructure drift. When the count climbs, it signals that manual changes are accumulating and need to be folded back into roles.
+
+## Using Tags for Selective Playbook Runs
+
+Tags let teams run subsets of a playbook without applying the full configuration. This is especially useful in CI pipelines where you want to deploy only the application layer without re-running base OS hardening:
+
+```yaml
+# playbooks/site.yml with tags
+- name: Apply common configuration
+  hosts: all
+  become: true
+  roles:
+    - role: common
+      tags: [common, base]
+    - role: security-hardening
+      tags: [security, base]
+
+- name: Configure web servers
+  hosts: webservers
+  become: true
+  roles:
+    - role: nginx
+      tags: [nginx, web]
+    - role: app
+      tags: [app, deploy]
+```
+
+```bash
+# Deploy only the app layer
+ansible-playbook playbooks/site.yml --tags deploy
+
+# Run everything except security hardening (useful for rapid iteration)
+ansible-playbook playbooks/site.yml --skip-tags security
+
+# List all available tags
+ansible-playbook playbooks/site.yml --list-tags
+```
+
+Tags also help new team members understand which parts of the playbook affect which systems, making the codebase more approachable for engineers who aren't Ansible experts.
+
+## Rolling Updates for Zero-Downtime Deployments
+
+Deploying to a fleet of web servers without downtime requires updating servers in batches and checking health before proceeding:
+
+```yaml
+# playbooks/deploy.yml
+---
+- name: Rolling application deploy
+  hosts: webservers
+  serial: "25%"          # Update 25% of hosts at a time
+  max_fail_percentage: 0 # Abort if any host fails
+  become: true
+
+  pre_tasks:
+    - name: Remove host from load balancer
+      community.general.haproxy:
+        state: disabled
+        host: "{{ inventory_hostname }}"
+        socket: /var/run/haproxy/admin.sock
+      delegate_to: "{{ item }}"
+      loop: "{{ groups['loadbalancers'] }}"
+
+    - name: Wait for connections to drain
+      ansible.builtin.wait_for:
+        timeout: 30
+
+  roles:
+    - app
+
+  post_tasks:
+    - name: Verify app is healthy
+      ansible.builtin.uri:
+        url: "http://localhost:{{ app_port }}/health"
+        status_code: 200
+      retries: 5
+      delay: 5
+
+    - name: Re-enable host in load balancer
+      community.general.haproxy:
+        state: enabled
+        host: "{{ inventory_hostname }}"
+        socket: /var/run/haproxy/admin.sock
+      delegate_to: "{{ item }}"
+      loop: "{{ groups['loadbalancers'] }}"
+```
+
+The `serial` parameter controls the batch size — 25% means on an 8-server fleet, Ansible updates 2 servers at a time. If the health check fails on any server in the batch, `max_fail_percentage: 0` halts the entire playbook before the bad deploy reaches the remaining hosts.
+
 ## Related Reading
 
 - [Terraform Remote Team Infrastructure Guide](/remote-work-tools/terraform-remote-team-infrastructure-guide/)
@@ -377,3 +553,4 @@ ansible-playbook playbooks/site.yml | grep -E "changed|failed"
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

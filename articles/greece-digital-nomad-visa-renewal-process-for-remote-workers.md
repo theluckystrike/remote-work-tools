@@ -31,6 +31,16 @@ voice-checked: true---
 
 Greece introduced its digital nomad visa in 2021, offering a pathway for non-EU remote workers to live in the country while continuing work for employers or clients outside Greece. The initial visa is valid for one year, and you can renew it for additional two-year periods, with a maximum stay of five years. This guide covers the renewal process, required documents, timelines, and practical automation tips for developers managing their visa status.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **The income requirement remains**: at least €3,500 monthly (or €42,000 annually).
+- **Some months you invoice $5,000 (€4,600)**: other months $2,000 (€1,840).
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Use cloud storage with**: automatic synchronization to ensure you always have access to required paperwork.
+- **If freelance**: provide client contract showing ongoing arrangement
+4.
+
 ## Understanding the Renewal Framework
 
 The Greece digital nomad visa operates under Law 4825/2021. After your first year, you can apply for renewal in two-year increments. To qualify for renewal, you must continue meeting the original eligibility criteria: proof of remote work for a non-Greek entity, sufficient income (at least €3,500 monthly), health insurance coverage, and no criminal record in Greece.

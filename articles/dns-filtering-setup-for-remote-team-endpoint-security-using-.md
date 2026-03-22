@@ -27,7 +27,15 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, security, remote-work]---
 
+
 Configure Cloudflare Gateway to intercept malicious DNS queries before reaching remote team devices, blocking phishing domains and malware without VPN requirements. Remote team security demands first-line defense beyond traditional VPNs—DNS filtering protects distributed endpoints working from home offices, coffee shops, and co-working spaces by blocking dangerous domain resolutions at Cloudflare's edge network. This guide walks through the complete implementation process, including SSO integration, policy configuration, and deployment strategies for distributed teams.
+
+## Key Takeaways
+
+- **This becomes especially valuable**: for meeting compliance requirements around data protection and acceptable use policies.
+- **Create separate policies for**: different team segments or use cases.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: why dns filtering matters for remote teams, prerequisites and initial setup, configuring your first dns policy
 
 ## Why DNS Filtering Matters for Remote Teams
 

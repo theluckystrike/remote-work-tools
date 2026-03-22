@@ -33,6 +33,13 @@ Running meetings for a global remote team presents unique challenges that most i
 
 This guide provides actionable strategies for creating meeting practices that work across any time zone configuration, with practical code examples you can implement immediately.
 
+## Key Takeaways
+
+- **Running meetings for a**: global remote team presents unique challenges that most in-office practices simply don't address.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: understanding time zone equity, async-first meeting culture, meeting proposal
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Understanding Time Zone Equity
 
 The first step toward inclusive meetings is recognizing that "meeting in the middle" isn't actually fair. When a team spans three time zones, the person joining at 7 AM or 9 PM often experiences that as inconvenient regardless of where the meeting is scheduled. True equity means rotating meeting times so everyone shares the burden approximately equally.

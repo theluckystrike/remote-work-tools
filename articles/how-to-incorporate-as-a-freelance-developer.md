@@ -31,6 +31,15 @@ voice-checked: true---
 
 Incorporating as a freelance developer transforms your side hustle or solo practice into a legitimate business entity. Beyond the psychological shift of calling yourself a business owner, incorporation provides legal protection, potential tax advantages, and increased credibility with clients. This guide walks you through the practical steps of incorporation from a developer's perspective.
 
+## Key Takeaways
+
+- **For developers earning over**: $80,000 annually from freelance work, the tax savings often justify this complexity.
+- **Formation costs typically range**: from $50 to $800 depending on your state.
+- **For simplicity**: most freelancers incorporate in their state of residence.
+- **At minimum**: use accounting software like Wave (free) or QuickBooks to track income and expenses.
+- **Professional can do this**: for $200-400.
+- **At $150k+ income**: S-corp savings can exceed $10,000 annually.
+
 ## Why Incorporate Your Freelance Development Work
 
 Working as a sole proprietor is simple—you file a Schedule C with your personal tax return, and that's it. But this simplicity comes with risks. As a sole proprietor, your personal assets (house, car, savings) are directly exposed to lawsuits related to your business. If a client sues you for a buggy deployment that caused their business loss, your personal wealth is on the line.

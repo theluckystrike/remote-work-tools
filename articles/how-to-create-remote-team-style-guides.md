@@ -16,6 +16,14 @@ voice-checked: true---
 
 Style guides solve a specific remote work problem: code review comments about formatting and naming conventions. In a co-located team, a junior engineer can sit next to a senior and absorb conventions through proximity. In a remote team, they discover them through review feedback at PR time — which is slow and demoralizing. A style guide with automated enforcement eliminates 80% of stylistic review comments, freeing code review time for actual logic.
 
+## Key Takeaways
+
+- **A style guide with**: automated enforcement eliminates 80% of stylistic review comments, freeing code review time for actual logic.
+- **PR description requirements**: template-enforced
+6.
+- **One approving review required**: (two for production-critical paths) 4.
+- **Topics covered**: what belongs in a style guide, code style: automate everything, naming conventions document
+
 ## What Belongs in a Style Guide
 
 An engineering style guide for remote teams should cover:

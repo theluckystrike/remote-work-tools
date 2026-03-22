@@ -19,6 +19,15 @@ Remote hackathons have evolved significantly. What started as crude video call m
 
 This guide provides a practical framework for organizing and executing remote developer hackathons that deliver real value.
 
+## Key Takeaways
+
+- **Use WorldTimeBuddy or similar**: tools to find the best 4-6 hour window for synchronous collaboration.
+- **Use a simple voting**: system (emoji reactions work well) to prioritize team formation around popular ideas.
+- **Ask if they need**: help in #hackathon-help 2.
+- **Developers choose their track**: based on interest.
+- **Judging happens within tracks**: then a "best overall" winner is selected.
+- **This prevents "infrastructure projects**: never win because they're less visible" bias and lets developers work where they're excited.
+
 ## Setting Up Your Hackathon Infrastructure
 
 Before the event begins, you need proper infrastructure. A hackathon fails quickly when developers spend more time fighting tools than writing code.

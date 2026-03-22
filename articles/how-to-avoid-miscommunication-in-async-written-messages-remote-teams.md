@@ -19,6 +19,14 @@ Async written communication forms the backbone of modern remote work. Without th
 
 This guide provides concrete frameworks, templates, and practices you can implement immediately to reduce miscommunication in your remote team's written exchanges.
 
+## Key Takeaways
+
+- **Assume positive intent**: Most miscommunication stems from unclear messaging, not malice
+2.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: why async written communication creates unique challenges, the clear framework for async messages, c — context
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Why Async Written Communication Creates Unique Challenges
 
 When you send a Slack message or email, you lose several communication channels that humans naturally rely on. Your recipient can't hear your tone of voice, see your facial expression, or ask clarifying questions in the moment. They interpret your words through their own context, mood, and past experiences.

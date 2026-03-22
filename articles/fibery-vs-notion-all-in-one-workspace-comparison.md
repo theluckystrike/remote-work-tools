@@ -18,6 +18,15 @@ tags: [remote-work-tools, comparison]---
 
 Choose Notion if you want faster adoption, a generous free tier, and a large third-party integration ecosystem for documentation and knowledge bases. Choose Fibery if your team needs complex entity relationships, native built-in automation rules, and a GraphQL API for advanced integrations. Notion is page-centric and easier to learn; Fibery is entity-centric and more powerful for teams willing to model their workflows precisely--think product management, development tracking, and interconnected data systems.
 
+## Key Takeaways
+
+- **Choose Notion if you want faster adoption**: a generous free tier, and a large third-party integration ecosystem for documentation and knowledge bases.
+- **Choose Fibery if your**: team needs complex entity relationships, native built-in automation rules, and a GraphQL API for advanced integrations.
+- **Choose Fibery when complex**: entity relationships drive your workflow, native automation is essential, GraphQL fits your integration strategy, or product management features are prominent.
+- **The query language is**: accessible but limited for advanced use cases.
+- **Rate limits (3 requests**: per second on average) require batching for bulk operations.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+
 ## Platform Architecture
 
 Notion started as a note-taking app and evolved into a workspace platform. Its block-based system lets you combine text, databases, media, and embeddings into flexible pages. The architecture emphasizes visual flexibility—you can restructure information without technical constraints.

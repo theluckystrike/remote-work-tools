@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Checking monitor USB-C capabilities"
-description: "A guide to choosing the best ultrawide monitor for programming and remote work. Learn what specs matter most for developers who need"
+description: "Ultrawide monitors for programming and remote work: Dell, LG, and Samsung panels compared on resolution, input lag, and split-screen features."
 date: 2026-03-15
 last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"

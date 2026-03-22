@@ -27,7 +27,18 @@ voice-checked: true
 reviewed: true
 intent-checked: true---
 
+
 Team reorganizations are challenging in any context, but remote and distributed organizations face unique obstacles. When your team spans multiple time zones, lacks face-to-face interaction, and relies heavily on asynchronous communication, restructuring can quickly become a communication nightmare. Without careful planning, rumors spread faster than official announcements, anxiety spikes, and productivity drops. This guide provides actionable frameworks for handling remote team reorg communication in growing distributed organizations.
+
+## Key Takeaways
+
+- **Focusing only on leadership messages**: The most important conversations happen in team 1:1s.
+- **Target**: 70% reduction by week 4.
+- **Productivity metrics**: Are teams delivering their normal output, or is there a measurable dip? Expected: 10-20% temporary dip, recovery by week 4.
+- **Attrition**: Are affected employees staying through the transition period? Target: <5% voluntary attrition during reorg month.
+- **Assess information sensitivity**: Who needs to know what, and when?
+3.
+- **What information do we**: still need? 4.
 
 ## Understanding the Remote Reorg Challenge
 

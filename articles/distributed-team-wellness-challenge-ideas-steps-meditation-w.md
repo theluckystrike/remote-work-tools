@@ -31,6 +31,15 @@ voice-checked: true---
 
 Run asynchronous wellness challenges using step tracking apps (Google Fit, Apple Health, Fitbit), group meditation sessions with Calm or Headspace, and hydration tracking through simple Slack bots. Choose async-first challenges that don't require real-time participation and respect individual time zones. This guide shows you how to build team accountability for health habits without mandatory synchronous meetings.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Choose async-first challenges that**: don't require real-time participation and respect individual time zones.
+- **Studies show remote workers**: are 30% less likely to meet daily step goals compared to office workers.
+- **Choose a cross-platform step**: tracking app (Google Fit, Apple Health, or Fitbit) 2.
+- **Use async video recordings**: for teams across time zones: Step-by-Step Implementation: 1.
+
 ## Why Wellness Challenges Matter for Distributed Teams
 
 Remote work removes the natural movement that happens in an office environment. Walking to meeting rooms, commuting, and casual interactions all contribute to daily activity. When team members work from home, these movement opportunities disappear. Studies show remote workers are 30% less likely to meet daily step goals compared to office workers.

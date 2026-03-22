@@ -33,6 +33,15 @@ When your remote team consists of five people, social connections happen natural
 
 The transition from informal social chats to structured social programs isn't optional at scale—it becomes necessary infrastructure. Here's how to approach this evolution deliberately, with practical patterns your team can implement regardless of timezone distribution.
 
+## Key Takeaways
+
+- **Invest in social infrastructure**: not for good times, but for the times when your organization needs it most.
+- **Use metrics for alerting**: not celebration.
+- **Start small—a single monthly**: event is better than five poorly-attended weekly ones.
+- **Most teams don't acknowledge**: these inflection points until culture suddenly breaks.
+- **Small teams rely on**: organic interactions because they don't have alternatives.
+- **It's to create something**: better—intentional spaces where people can connect as humans, regardless of when they work or where they live.
+
 ## The Problem With Organic Social at Scale
 
 In small remote teams, social interaction emerges from proximity. You see who's online, notice when someone joins late from a different timezone, and casual conversations naturally happen in shared spaces. This incidental social capital builds trust and psychological safety—the foundation of effective collaboration.

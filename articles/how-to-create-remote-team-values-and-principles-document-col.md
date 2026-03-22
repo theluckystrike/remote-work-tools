@@ -19,6 +19,13 @@ Remote teams need explicit documentation of values and principles that guide beh
 
 This guide walks through a practical workflow for creating remote team values using async-first processes, version control, and structured help techniques.
 
+## Key Takeaways
+
+- **Use sync time only**: for complex discussions.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: why collaborative creation matters, phase 1: gathering initial input, what behavior do you most appreciate from teammates?
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Why Collaborative Creation Matters
 
 Values documents fail when leadership drafts them in isolation and presents them as done. Team members who never contributed to the discussion treat them as performative artifacts. Collaborative creation serves two purposes: the final document benefits from diverse perspectives, and the process itself builds shared understanding about what the team stands for.

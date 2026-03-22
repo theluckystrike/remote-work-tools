@@ -31,6 +31,15 @@ voice-checked: true---
 
 Revenue intelligence platforms have become essential infrastructure for distributed sales teams. As remote work continues to dominate the sales space, understanding how conversation analytics and AI-powered insights transform deal execution becomes critical for engineering leaders and product managers building sales tech stacks.
 
+## Key Takeaways
+
+- **Is conversation intelligence effective**: for non-English sales teams? Gong supports over seventy languages for transcription, though AI coaching recommendations are most accurate in English.
+- **Pricing starts around $1,200**: per user annually, with platform fees on top.
+- **For a team of ten reps**: expect to budget $15,000-$20,000 per year all-in.
+- **Call intelligence quality is**: comparable to Gong for most use cases.
+- **Its pricing runs slightly lower**: around $800-$1,000 per user per year, but ZoomInfo's bundled sales pitch often inflates the total cost.
+- **Gong supports Zoom**: Google Meet, Microsoft Teams, Webex, and most other major conferencing platforms through native integrations.
+
 ## What is Revenue Intelligence?
 
 Revenue intelligence combines machine learning, natural language processing, and analytics to transform customer interactions into practical recommendations. These platforms record, transcribe, and analyze sales conversations across Zoom, Google Meet, Microsoft Teams, and other communication channels.

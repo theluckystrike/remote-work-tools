@@ -21,6 +21,20 @@ Yet many managers wing their 1:1s: no agenda, no notes, no continuity week-to-we
 
 This guide provides frameworks, templates, and cadence recommendations for 1:1s that actually work.
 
+## Key Takeaways
+
+- **I'm in 22 hours of meetings this week**: and most of them aren't critical.
+- **This guide provides frameworks**: templates, and cadence recommendations for 1:1s that actually work.
+- **Spend 40% of the time on their agenda**: not yours.
+- **Feedback within 1–2 days**: of the event lands better than retroactive.
+- **Spending 100% on Your Agenda
+
+Wrong**: Preparing five feedback items and expecting the report to absorb them in 30 min.
+- **Treating 1:1s as Negotiable
+
+Wrong**: Canceling every other week because meetings are "piling up."
+Right: 1:1s are sacred.
+
 ## Core Principle: Psychological Safety First
 
 Effective 1:1s require trust. Your report must believe that:

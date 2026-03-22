@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Remote Work Cable Management Solutions 2026"
-description: "Compare cable trays, raceways, and desk grommets for home office setups with installation guides and real pricing"
+description: "Cable trays, raceways, and desk grommets for home offices in 2026. Installation guides, before/after photos, and picks under $50 compared."
 date: 2026-03-21
 last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"

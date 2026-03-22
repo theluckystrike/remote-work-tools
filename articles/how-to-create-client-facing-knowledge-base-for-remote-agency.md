@@ -31,6 +31,15 @@ voice-checked: true---
 
 A client-facing knowledge base transforms how your remote agency communicates with clients. Instead of repeating the same explanations across Slack messages and email threads, you create a centralized library where clients can find answers, track project progress, and understand your processes. This guide walks you through building a knowledge base that reduces client friction while positioned your agency as a professional, well-organized partner.
 
+## Key Takeaways
+
+- **Pricing scales as client**: count grows ($100/user/month for unlimited guests can add up with many clients).
+- **Confluence**: Works well for larger agencies but carries enterprise pricing ($80-1200/month depending on users).
+- **Overkill for most smaller**: agencies unless you have 20+ team members collaborating on documentation.
+- **Start with onboarding essentials.**: New clients need the most guidance during their first weeks.
+- **The more integrated the**: knowledge base feels with your overall service, the more clients use it.
+- **You're not just another**: freelancer working from a home office—you're a structured business with systems that scale.
+
 ## Why Remote Agencies Need Client-Facing Knowledge Bases
 
 Remote agencies face unique communication challenges that in-person firms don't encounter. Without physical office spaces where clients can peek at whiteboards or see project status boards, every piece of information requires intentional delivery. Clients working in different time zones can't simply walk down the hall to ask questions, leading to delayed responses and duplicated explanations.

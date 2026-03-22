@@ -33,6 +33,14 @@ Managing expense report approvals across distributed finance teams presents uniq
 
 An async approval workflow solves this by establishing clear stages, automated notifications, and explicit response expectations. This guide shows you how to design and implement a remote-friendly expense approval system that keeps money flowing without requiring real-time availability.
 
+## Key Takeaways
+
+- **Most organizations have several**: stages: 1.
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+- **Submission**: Employee creates and submits the expense report with supporting documentation
+2.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Understanding the Approval Pipeline
 
 Before building your workflow, map out the decision points in your expense approval process. Most organizations have several stages:

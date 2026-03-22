@@ -18,6 +18,15 @@ Slack in a 10-person team is manageable. Slack in a 200-person remote team witho
 
 The failure mode is not that engineers use Slack wrong. It is that nobody ever defined what right looks like. Teams grow, channels multiply, and notification defaults stay at "everything." Twelve months later you have 400 channels, engineers with badges in the hundreds, and a team that treats Slack like an always-on meeting room.
 
+## Key Takeaways
+
+- **Use Slack's "Later" feature**: for things that need follow-up 4.
+- **A consistent prefix system**: lets anyone find a channel in 3 seconds.
+- **Only join channels where**: you need to act (not just observe) 3.
+- **Use "Mark as unread"**: not "snooze" for things requiring follow-up 4.
+- **The only legitimate use**: case at scale is a true emergency announcement.
+- **For teams with >50 engineers**: audit your bots monthly and remove any with <50% adoption.
+
 ## Channel Taxonomy
 
 The most important decision you make in Slack is your channel naming convention. A consistent prefix system lets anyone find a channel in 3 seconds.

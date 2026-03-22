@@ -28,9 +28,21 @@ voice-checked: true
 tags: [remote-work-tools, remote-work]---
 
 {% raw %}
+
 Building a deal room for a remote sales team doesn't require expensive enterprise software. You can create an effective, asynchronous deal room using shared documents, version control, and automation tools that developers and power users will appreciate.
 
 This guide walks you through setting up a deal room system that keeps everyone aligned without requiring real-time presence.
+
+## Key Takeaways
+
+- **A deal room system**: that 40% of reps use consistently beats a sophisticated system that 80% of reps abandon after week two.
+- **Should every deal get a deal room**: or just large ones?
+Start by requiring deal rooms for deals above a value threshold (for example, any deal over $10,000 ARR).
+- **Name consistently - Use naming conventions**: `[Company]-deal-[Date]`
+3.
+- **Google Drive / Google**: Docs works best for teams already in Google Workspace.
+- **This eliminates the manual**: setup overhead that causes deal room adoption to slip—if the room creates itself, reps use it.
+- **Here are practical integration**: approaches: ### Using Zapier or Make Connect your document updates to CRM fields: 1.
 
 ## Why Shared Documents Work for Deal Rooms
 

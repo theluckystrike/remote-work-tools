@@ -33,6 +33,17 @@ Slack Workflow Builder provides a powerful no-code solution for automating async
 
 This guide walks through building a complete async standup system that your team can use regardless of time zone or work schedule.
 
+## Key Takeaways
+
+- **Many teams use 9 AM or 10 AM local time**: which allows team members in other time zones to respond before their day starts.
+- **What did you accomplish yesterday?**: Use a multi-line text field
+2.
+- **What will you work on today?**: Use a multi-line text field
+3.
+- **This guide walks through**: building a complete async standup system that your team can use regardless of time zone or work schedule.
+- **Name it something descriptive**: like "Daily Async Standup" or "Engineering Check-in." Choose a trigger type.
+- **For standups**: Scheduled works best—select days of the week and a time that gives everyone enough buffer before their workday begins.
+
 ## Why Use Slack Workflow Builder for Async Standups
 
 Workflow Builder integrates directly with Slack's existing infrastructure. Your team already uses Slack daily, so there's no additional tool adoption required. The system handles scheduling, form collection, and notification delivery without external services or custom integrations.

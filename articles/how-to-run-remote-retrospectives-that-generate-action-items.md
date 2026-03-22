@@ -16,6 +16,21 @@ permalink: /articles/how-to-run-remote-retrospectives-that-generate-action-items
 
 Remote retrospectives are critical for team improvement, but they often suffer from low engagement, unclear outcomes, and forgotten action items. This guide provides tested frameworks, tools, and facilitation techniques to run retrospectives that drive real change.
 
+## Key Takeaways
+
+- **"What made it great?**: Give 2-3 specific things." Anti-Pattern 5: One-Way Conversation - Symptom: Facilitator talks 60%, team talks 40% - Fix: Use silence.
+- **Invest 30% of retro**: time in preparation.
+- **Choose Async-First Tools Remote**: retros require parallel contributions, not turn-taking.
+- **During Retro
+- Share screen**: board is visible to all
+- Zoom link + Miro link side-by-side
+- Use "Focus mode" to zoom into one section at a time
+- Timer visible in corner (Miro + Zoom timer)
+
+3.
+- **Team joins via unique**: link (no Miro login needed) 3.
+- **Use Timers Aggressively** -**: "We have 10 minutes to contribute ideas.
+
 ## Why Remote Retros Fail (And How to Fix Them)
 
 **Common Problems:**

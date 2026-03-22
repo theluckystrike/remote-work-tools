@@ -31,6 +31,15 @@ A slow internet connection exposes every inefficiency in your Docker workflow. A
 
 This guide covers every technique to minimize Docker's network usage: layer reuse, local registry mirrors, BuildKit cache mounts, and pre-pulling strategies.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Docker offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **A `docker pull nginx:alpine`**: on a 5 Mbps connection takes 30 seconds.
+- **Remote workers on hotel Wi-Fi**: rural broadband, or international roaming need Docker to use the network as little as possible.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+
 ## Understand What Docker Transfers
 
 ```bash

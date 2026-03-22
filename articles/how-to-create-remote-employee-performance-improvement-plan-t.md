@@ -13,7 +13,21 @@ categories: [guides]
 intent-checked: true
 tags: [remote-work-tools, remote-work]---
 
+
 Remote performance improvement plans (PIPs) require different structure than office-based PIPs because you lose real-time observation of work. Build PIPs with weekly check-ins, clearly documented metrics pulled from actual tools (GitHub PR times, Slack activity), and explicit communication expectations. This guide provides JSON templates and tracking scripts to implement fair, measurable PIPs for distributed teams.
+
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Python offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Remote performance improvement plans**: (PIPs) require different structure than office-based PIPs because you lose real-time observation of work.
+- **[Goal 1]**: ___% complete
+   - Actions taken this week:
+   - blockers encountered:
+
+2.
+- **Use the right tools**: for visibility. Integrate your PIP tracking with your existing tooling.
 
 ## Why Remote PIPs Need Different Structure
 

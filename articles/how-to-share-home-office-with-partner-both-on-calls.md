@@ -31,6 +31,15 @@ voice-checked: true---
 
 When you and your partner both work remotely and share a single home office, back-to-back video calls can quickly become a logistical nightmare. The good news is that with the right setup, acoustic treatment, and scheduling systems, you can create a harmonious workspace where both of you stay productive and professional on calls. This guide covers practical solutions for developers and power users who want to transform their shared office into a call-friendly environment.
 
+## Key Takeaways
+
+- **You can build effective**: panels for under $30 each using rockwool insulation, 1x3 wooden frames, and breathable fabric.
+- **The free tier provides**: sufficient minutes for most remote workers, and the AI-powered cancellation handles unexpected noises like doorbells or barking dogs.
+- **USB condenser microphones like**: the Audio-Technica AT2020 or Scarlett Solo offer good directional pickup patterns.
+- **For Linux users**: NoiseTorch provides open-source noise cancellation that works with PulseAudio.
+- **These small habits prevent**: most conflicts before they require technical intervention.
+- **Combined with scheduling to**: minimize overlaps, this eliminates 90%+ of cross-talk.
+
 ## Assessing Your Space and Identifying Problems
 
 Before buying equipment or writing scripts, map out your actual usage patterns. Track when both of you typically have calls, identify the busiest overlap periods, and note where sound leaks occur in your space.

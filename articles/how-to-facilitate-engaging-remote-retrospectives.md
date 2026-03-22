@@ -31,6 +31,17 @@ voice-checked: true---
 
 Remote retrospectives often feel like mandatory meetings where team members half-actively type anonymous notes into a shared document while mentally checking emails. After years of running retros for distributed teams, I've learned that the difference between an useless retrospective and one that actually drives improvement comes down to three factors: psychological safety, structured help, and follow-through. This guide covers practical techniques you can implement immediately.
 
+## Key Takeaways
+
+- Use "5 Whys" when useful.
+- **However**: certain tools support better help.
+- Use a documented approach:
+
+1.
+- **Remote retrospectives work best**: when team members understand the purpose and feel safe sharing honest feedback.
+- **Use async pre-work to**: gather input from everyone before your synchronous session.
+- **Use round-robin talking circles**: or the "each person speaks once before anyone speaks twice" rule.
+
 ## Setting the Foundation
 
 Before you even open your retro tool, establish clear expectations. Remote retrospectives work best when team members understand the purpose and feel safe sharing honest feedback.

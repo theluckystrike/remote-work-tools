@@ -30,6 +30,16 @@ tags: [remote-work-tools]---
 
 The best Chrome extensions for newsletter design are **Inliner** for automatic inline CSS conversion, **Email on Acid** or **Litmus** for cross-client preview testing, and **Emailology** for generating email-safe HTML boilerplate templates. These tools let you build, test, and deploy newsletter HTML directly in the browser without switching to standalone email design software. Below, this guide covers each category of extension along with practical workflows for combining them into a reliable newsletter design pipeline.
 
+## Key Takeaways
+
+- **Most clients strip out**: `<style>` tags in the `<head>`, require inline CSS, and have limited support for modern properties like Flexbox or Grid.
+- **Avoid spam trigger words**: "Buy now", "FREE", "Urgent", "Limited time" -->
+<!-- 5.
+- **Some recipients prefer text-only emails**: and spam filters appreciate the effort.
+- **System Preferences > General**: > Appearance > Dark # 2.
+- **Balance image-to-text ratio (aim**: for 30%+ text) --> <!-- 4.
+- **Code Snippet Managers for**: Newsletter Templates If you frequently reuse components like headers, footers, or call-to-action buttons, a snippet manager extension proves invaluable.
+
 ## Understanding Newsletter Design Constraints
 
 Newsletter design is challenging because of how email clients handle HTML. Email clients like Gmail, Outlook, and Apple Mail each handle HTML differently. Most clients strip out `<style>` tags in the `<head>`, require inline CSS, and have limited support for modern properties like Flexbox or Grid.

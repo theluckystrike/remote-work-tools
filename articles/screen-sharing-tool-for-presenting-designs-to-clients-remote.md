@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Screen Sharing Tools for Presenting Designs to Clients"
-description: "A guide to screen sharing tools that help designers present work effectively to remote clients. Compare features, pricing, and use cases"
+description: "Screen sharing tools for design presentations to remote clients: Figma Live, Loom, and Pitch compared on annotation, recording, and feedback loops."
 date: 2026-03-16
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"

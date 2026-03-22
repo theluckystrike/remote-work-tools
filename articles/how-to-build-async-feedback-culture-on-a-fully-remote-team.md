@@ -33,6 +33,14 @@ Feedback is the engine of growth in any team. In fully remote environments, the 
 
 This guide provides actionable strategies for creating an async feedback culture that scales across time zones and improves team performance.
 
+## Key Takeaways
+
+- **These require thoughtful**: detailed responses best delivered through documented async channels.
+- **Choose platforms that support**: asynchronous interaction, preserve context, and integrate with existing workflows.
+- **Use synchronous channels like**: video calls or real-time chat for these.
+- **Use a structured rubric**: that both parties complete independently, then discuss discrepancies during a sync call.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Why Async Feedback Matters in Remote Teams
 
 Synchronous feedback—immediate responses in meetings or chat—works in offices because context switches are cheap. In remote settings, constant context switching destroys focus and creates fatigue. Async feedback respects each person's time zone and work rhythm while maintaining the feedback loop essential for growth.

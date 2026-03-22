@@ -31,6 +31,15 @@ voice-checked: true---
 
 Running weekly all-hands meetings with 50 attendees quickly adds up in cost. If you're paying per-user for a tool that doesn't scale, you're burning budget on meetings that could be handled more efficiently. This guide evaluates the most affordable video call tools for regular 50-person all-hands meetings, with practical considerations for developer teams and power users who need automation, recording, and integration support.
 
+## Key Takeaways
+
+- **Self-hosting on a modest**: VPS ($20-40/month) gives you unlimited meetings with no participant limits.
+- **A $15/user/month plan for**: 50 users costs $9,000 annually.
+- **The $12/user/month Business Standard**: tier adds recording and breakout rooms.
+- **The Business plan ($19.99/user/month)**: adds managed喉10.99.com, company-wide usage reports, and SSO.
+- **For a 50-person all-hands**: a $30/month DigitalOcean droplet handles the load comfortably.
+- **Cost at 50 people**: $300/month.
+
 ## Understanding Your Cost Requirements
 
 Before evaluating tools, calculate your actual annual cost. A $15/user/month plan for 50 users costs $9,000 annually. For a weekly all-hands, you only need 50 simultaneous participants—but many tools price based on total seat count, not meeting size. The sweet spot you're looking for is generous participant limits with per-host or per-room pricing rather than per-user licensing.

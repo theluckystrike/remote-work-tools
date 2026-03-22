@@ -16,6 +16,19 @@ permalink: /how-to-build-remote-team-runbook-library-2026/---
 
 A runbook is the difference between a 2-minute incident response and a 2-hour chaos scramble. For remote teams, runbooks are even more critical—you can't tap someone's shoulder in person. This guide walks through building a runbook library from scratch, choosing the right tool, and integrating it with your incident response workflow.
 
+## Key Takeaways
+
+- **Page your manager if**: pool resets more than 2x in 24 hours (root cause needed) 9.
+- **Confirm pool usage back**: to <70% 8.
+- **Onboarding acceleration**: New engineers get up to speed 10x faster with written procedures.
+- **Start with 5-10 covering**: your most frequent incidents.
+- **Alert fires in PagerDuty**: API latency p99 > 500ms for 2 minutes
+2.
+- **Step 2
+
+Option B**: [Less common cause]
+  1.
+
 ## What Is a Runbook?
 
 A runbook is a step-by-step guide for responding to a specific operational issue. Example:

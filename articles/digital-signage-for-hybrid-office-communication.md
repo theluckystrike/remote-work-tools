@@ -31,6 +31,15 @@ tags: [remote-work-tools]---
 
 Digital signage gives hybrid offices an always-on communication channel that updates automatically from your existing tools—calendars, incident trackers, desk booking systems. This guide covers technical implementation patterns for developers building or integrating these systems.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **How do I get**: started quickly? Pick one tool from the options discussed and sign up for a free trial.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **An integration layer of**: APIs connecting signage to your existing tools—calendar, Slack, incident trackers For developers, the integration layer is where most of the work happens.
+- **For developers**: choose hardware with API support or that can run a lightweight client application.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## Why Digital Signage Matters for Hybrid Teams
 
 Traditional office communication relied heavily on physical bulletin boards, email announcements, and team meetings. Remote work disrupted these patterns, creating information gaps between those in the office and those working from home. Digital signage solves this by creating a centralized, always-on communication channel that works for distributed teams.

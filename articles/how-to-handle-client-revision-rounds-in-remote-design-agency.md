@@ -17,6 +17,26 @@ voice-checked: true---
 
 Managing client revision rounds represents one of the most challenging aspects of running a remote design agency. Without the benefit of in-person conversations, revision requests can easily spiral into endless loops of back-and-forth feedback that drain team energy and erode project margins. This guide provides a systematic approach to handling revision rounds that keeps projects on track while maintaining strong client relationships.
 
+## Key Takeaways
+
+- **[Feature Z] that your**: customers might appreciate These fall outside our current scope but would require 8 hours of additional design work at $[rate]/hour = $[cost].
+- **Use remaining revisions for**: [subset of changes] and save the rest for phase 2 2.
+- **Answers prevent 30-40% of**: revision rounds.
+- **Best,
+[Your Name]
+```
+
+Email**: Scope Creep Offer
+```
+Subject: [Project] — Design Expansion Opportunity
+
+Hi [Client],
+
+While working on your revision feedback, I noticed we could enhance:
+1.
+- **Would you like to:**: A) Add these to the current project? [Cost] B) Plan these for a Phase 2 project later? C) Skip them for now? Let me know your preference!
+- **Managing client revision rounds**: represents one of the most challenging aspects of running a remote design agency.
+
 ## Establish Clear Revision Limits Up Front
 
 The foundation of effective revision management begins before any design work starts. Your proposal or contract should explicitly state the number of revision rounds included in the project scope. Most agencies find that two to three revision rounds per design phase strikes the right balance between client flexibility and agency sustainability.

@@ -19,6 +19,13 @@ Building a leadership development pipeline for distributed teams requires delibe
 
 This guide provides a practical framework for creating a leadership pipeline that works across time zones and communication gaps.
 
+## Key Takeaways
+
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+- **Topics covered**: the remote leadership challenge, stage 1: identify leadership potential, behavioral indicators
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## The Remote Leadership Challenge
 
 When your team spans multiple regions, traditional leadership development models break down. You cannot rely on:

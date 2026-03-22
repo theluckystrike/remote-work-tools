@@ -19,6 +19,19 @@ Hiring international remote employees introduces legal complexities that domesti
 
 This guide provides a practical framework for creating compliant international offer letters. You'll find template structures, key clauses, and specific considerations for different employment classifications.
 
+## Key Takeaways
+
+- **Most companies either: -**: Pay in local currency with annual adjustments - Pay in home currency with periodic reviews - Use a third-party employer of record (EOR) service ### 3.
+- **In most countries**: termination requires cause, notice, and often severance.
+- **TERMINATION
+ - Notice Period**: [X] days/weeks
+ - Severance: Per [Country] requirements
+
+6.
+- **Using an US-style at-will**: termination clause internationally. At-will employment is largely an US concept.
+- **Including an at-will clause**: in an offer letter for a German or Brazilian employee may be unenforceable and signals a lack of compliance awareness.
+- **Can I use one**: standard offer letter template for all countries? No.
+
 ## Understanding Employment Classification
 
 Before drafting any offer letter, you must determine how the worker will be classified. This distinction affects everything from tax withholding to benefits eligibility.

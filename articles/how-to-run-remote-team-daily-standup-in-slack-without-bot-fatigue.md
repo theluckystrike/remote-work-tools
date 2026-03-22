@@ -35,6 +35,22 @@ Daily standups are the backbone of remote team coordination, but the bot-heavy a
 
 You can run effective daily standups in Slack without adding another bot to your workflow. The key is designing a lightweight, human-centered process that respects your team's time and attention.
 
+## Key Takeaways
+
+- **Split standup (SF-EU sync, EU-APAC sync)
+
+Best**: Async-only thread with no required live time
+```
+
+## Standup Evolution Template
+
+As teams mature, standup format changes.
+- **Async-only standup (no live**: time requirement) 3.
+- **When your team starts**: using standup bots as an excuse to avoid real communication, you've lost the plot.
+- **Resist the urge to**: use it for general discussion.
+- **A passive approach works**: better than automated reminders.
+- **A simpler approach**: establish a reference time zone (usually your company's HQ or the majority of team's working hours) and use it consistently in standup posts.
+
 ## Why Bot-Driven Standups Lose Momentum
 
 Bot-driven standups typically follow a predictable pattern: a scheduled message prompts team members to answer three questions, responses get collected into a summary, and everyone receives a digest. Initially, this seems efficient. Over time, several issues emerge.

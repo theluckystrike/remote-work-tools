@@ -31,6 +31,13 @@ voice-checked: true---
 
 Create audit-ready compliance documentation by building a data access control matrix tracking who has access to what systems, implementing communication logging for regulated systems, maintaining evidence retention processes, and documenting your approval workflows for financial and security changes. Use the provided templates to address SOX requirements (internal control documentation, change logs, approval trails) and ISO 27001 requirements (asset inventory, access controls, incident logs) adapted for your distributed workforce structure.
 
+## Key Takeaways
+
+- **Incident Response Documentation For**: ISO 27001, incident documentation must capture the full lifecycle of any security event.
+- **ISO 27001 requires that**: all devices accessing company systems be included in the asset inventory and subject to security controls.
+- **For highly privileged accounts**: (production database admin, financial system admin), monthly reviews are recommended and often expected by auditors.
+- **Topics covered**: understanding compliance requirements for remote teams, sox compliance basics, iso 27001 requirements
+
 ## Understanding Compliance Requirements for Remote Teams
 
 When your team operates across multiple locations, compliance documentation must account for data access controls, communication logging, and evidence retention that satisfy auditors working with limited physical oversight.

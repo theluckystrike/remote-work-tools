@@ -31,6 +31,16 @@ tags: [remote-work-tools]---
 
 To transition from freelance developer to product builder, start by identifying a recurring problem from your client work, validate demand with a landing page before writing code, build the smallest viable product that demonstrates value, and develop business skills around marketing, pricing, and user research. The shift requires moving from a time-for-money model to investing upfront effort for long-term recurring value.
 
+## Key Takeaways
+
+- **Pay them for 30-min**: interviews ($20-50 each).
+- **Do paying users actually**: use it? Will it increase retention? Is there a simpler way?" Freelance decision: "That's a one-off edge case.
+- **As a freelancer**: clients define success through their requirements.
+- **Ship without fixing."
+Product decision**: "This edge case affects 1% of users.
+- **Is the annual plan**: worth it over monthly billing? Annual plans typically save 15-30% compared to monthly billing.
+- **If you have used**: the tool for at least 3 months and plan to continue, the annual discount usually makes sense.
+
 ## Understanding the Fundamental Shift
 
 Freelance development operates on a time-for-money model. You exchange hours directly for compensation, with each project typically having a defined scope and endpoint. Product building inverts this equation—you invest significant upfront time with uncertain returns, but the outcome can generate value continuously after the initial development effort.

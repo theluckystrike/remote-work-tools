@@ -31,6 +31,16 @@ voice-checked: true---
 
 Secure Slack and Teams channels require restricted member access, disallowed forwarding, automated message deletion, and audit logging for sensitive discussions—salary negotiations, performance issues, security vulnerabilities. Configuration patterns prevent leaks while preserving communication efficiency. This guide covers channel policies, retention settings, member restrictions, and compliance configurations.
 
+## Key Takeaways
+
+- **Use end-to-end encryption available**: in Teams meetings 4.
+- **Restrict channel creation to**: workspace admins for sensitive areas 2.
+- **For Enterprise plans**: use Channel Granular Controls to apply different policies to specific channels.
+- **Enable "Apply protection settings"**: with encryption and access restrictions 4.
+- **Enable lobby controls**: Require host admission for all participants
+2.
+- **Verify each member still**: requires access 3.
+
 ## Identifying What Needs Protection
 
 Before configuring permissions, identify the types of discussions requiring enhanced security:

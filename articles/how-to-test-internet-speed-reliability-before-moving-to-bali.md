@@ -17,6 +17,15 @@ intent-checked: true---
 
 Moving to Bali as a remote worker requires careful consideration of one critical factor: internet connectivity. Unlike tourist hotspots with fiber connections, many areas in Bali offer varying levels of reliability. This guide provides practical methods to evaluate internet speed and stability before committing to a relocation.
 
+## Key Takeaways
+
+- **A connection averaging 30**: Mbps with 80ms latency and zero packet loss supports most development workflows effectively.
+- **Grab a SIM at**: the airport and load it with a monthly data package—30-50 GB runs around IDR 100,000-200,000 (roughly $6-12 USD).
+- **Your connection may show**: 100 Mbps on a local speed test but perform poorly for GitHub pushes or AWS console access because the routing path to US or European data centers adds significant latency.
+- **Packet loss exceeding 2%**: indicates unreliable infrastructure.
+- **Telkomsel's Orbit router provides**: home broadband over 4G, which many remote workers use as a backup or primary connection in areas without fiber.
+- **This two-connection strategy—primary fiber**: plus 4G backup—eliminates most connectivity emergencies.
+
 ## Why Internet Reliability Matters More Than Raw Speed
 
 Speed test results show bandwidth capacity, but reliability determines whether you can maintain a productive workflow. A connection averaging 50 Mbps with consistent latency proves more valuable than 100 Mbps with frequent drops. For remote developers, latency affects git operations, video calls, and collaborative coding sessions. Packet loss and jitter can derail real-time communication tools like Zoom or Slack calls.

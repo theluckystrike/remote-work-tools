@@ -31,6 +31,17 @@ voice-checked: true---
 
 Managing a journalism team spread across New York, London, Tokyo, and Sydney requires more than scheduling wizardry. It demands a fundamentally different approach to communication, workflow design, and tool selection. This guide provides actionable strategies for editors and technical leads managing distributed newsrooms.
 
+## Key Takeaways
+
+- **Cost drops to $300-500**: if you use Discord instead of Slack plus open-source tools.
+- **Alert system**: Use dedicated Slack channel with @here or @channel for immediate visibility
+2.
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+- **The solution is not**: more meetings—it is better asynchronous communication infrastructure.
+- **London team**: can you follow up with contact by 2pm GMT?
+- Story #245 needs access to Bloomberg terminal.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## The Core Challenge: Asynchronous-First Thinking
 
 When your team spans 12+ hour time differences, synchronous check-ins become luxuries rather than norms. A New York editor cannot quickly ping a Tokyo correspondent for a clarification during breaking news. The solution is not more meetings—it is better asynchronous communication infrastructure.

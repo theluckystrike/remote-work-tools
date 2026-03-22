@@ -33,6 +33,17 @@ Remote agencies face a unique challenge: clients expect the responsiveness of an
 
 This guide shows you how to create a practical client communication charter that reduces miscommunication, sets boundaries, and improves client satisfaction.
 
+## Key Takeaways
+
+- **Consider creating tiers:
+
+Standard Charter**: For projects under $10k or retainer clients with minimal ongoing needs.
+- **Remote agencies face a unique challenge**: clients expect the responsiveness of an in-house team but your team operates across time zones with asynchronous workflows.
+- **Results after three months**: client escalations dropped 40%, and project managers reported spending less time firefighting communication issues.
+- **You need to integrate**: it into your client onboarding process.
+- **This conversation often reveals**: unspoken expectations that would cause friction later.
+- **Add detailed availability windows**: and preferred contact hierarchies.
+
 ## What Goes Into a Client Communication Charter
 
 A communication charter is a living document that defines how your agency and clients interact. Unlike a contract that covers deliverables and payments, a charter covers the human side of the relationship.

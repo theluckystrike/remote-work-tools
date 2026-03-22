@@ -33,6 +33,15 @@ Scaling a remote team from 5 to 20 people tests every assumption you've made abo
 
 This guide provides concrete strategies for maintaining the energy, speed, and autonomy that define startup culture while building the structure necessary to support a larger team.
 
+## Key Takeaways
+
+- **Security patches**: token refresh logic, and password reset flows consume ~20% of one engineer's time monthly.
+- **Developers know exactly where**: they have freedom and where they need input.
+- **With 20**: you need systems.
+- **The solution isn't more**: meetings—it's better async documentation.
+- **Architecture documentation - Current**: system diagrams, data flows, and key integration points 3.
+- **Remote work amplifies this**: challenge because you lose casual hallway conversations and spontaneous lunches.
+
 ## The Communication Bottleneck
 
 Your first scaling challenge appears in how your team shares information. With 5 people, you can share context in seconds. With 20, you need systems.

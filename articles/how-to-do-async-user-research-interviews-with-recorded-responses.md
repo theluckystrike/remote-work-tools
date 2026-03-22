@@ -464,8 +464,6 @@ intent-checked: true
 voice-checked: true---
 
 
-
-
 categories: [guides]
 
 categories: [guides]
@@ -473,6 +471,20 @@ categories: [guides]
 {% raw %}
 
 Use platforms like Lookback or UserInterviews to send structured interview prompts, collect recorded responses, and analyze insights asynchronously across time zones. Async user research interviews transform how distributed product teams gather customer insights without scheduling friction—researchers create structured prompts that participants answer on video, allowing thoughtful, authentic responses without real-time pressure. This guide covers platform selection, interview design, participant recruiting, and analysis techniques for distributed product teams.
+
+## Key Takeaways
+
+- **Look for: - Frequently**: mentioned pain points - Common workarounds or solutions - Unexpected use cases - Demographic or use-case variations **4.
+- **What tools did you**: use?" Pain Point Exploration Ask users to describe challenges in their own words.
+- **Example**: "What's the most frustrating part about [problem your product solves]? Can you give me a specific example?"
+
+Future State Questions
+Understand desired outcomes and expectations.
+- **If you need to re-record**: just start over - you can do each question multiple times
+
+The interview should take about 15-20 minutes total.
+- **Systematic analysis ensures you**: extract practical recommendations efficiently.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
 ## Why Async User Research Interviews Work
 

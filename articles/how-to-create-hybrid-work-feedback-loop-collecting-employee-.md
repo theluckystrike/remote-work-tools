@@ -19,6 +19,17 @@ Hybrid work models require continuous adjustment. Policies that work for a fully
 
 This guide covers building a feedback system specifically for hybrid work policy changes. You'll learn how to structure feedback collection, implement it with practical tools, and create a cycle that actually drives meaningful change.
 
+## Key Takeaways
+
+- **Use Likert scales (1-5)**: for questions like "The current hybrid work policy supports my productivity." Qualitative context - Open text fields that explain the numbers.
+- **Hybrid work breaks this**: model because employee needs fluctuate based on office availability, team composition, and personal circumstances that change weekly.
+- **Use Google Data Studio**: or Excel for visualization 4.
+- **After each rating**: ask "What's one thing that would improve this?"
+
+Specific proposals - Present concrete options and gather preferences.
+- **Export summaries as PDFs**: for leadership This approach works for teams under 50 people and requires no custom development.
+- **A 2.5 average might**: hide a segment of highly dissatisfied employees who need specific attention.
+
 ## Why Hybrid Work Policies Need Continuous Feedback
 
 Traditional policy making assumes stable conditions. You write a policy, implement it, and revise annually. Hybrid work breaks this model because employee needs fluctuate based on office availability, team composition, and personal circumstances that change weekly.

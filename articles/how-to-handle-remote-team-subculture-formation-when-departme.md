@@ -31,6 +31,15 @@ intent-checked: true---
 
 When your engineering team operates asynchronously while your marketing team thrives on synchronous video calls, you have subculture formation. This divergence isn't a bug—it's a natural consequence of remote work where teams optimize for their specific communication patterns and deliverables. The challenge emerges when these departmental norms collide during cross-functional projects, onboarding, or leadership initiatives.
 
+## Key Takeaways
+
+- **Implement Shared Tools with**: Team-Specific Configurations Use tools that support both unified standards and team customization.
+- **The engineering team writes**: more detailed async documents because they know clarifying questions will cost 16 hours.
+- **A support team requires**: rapid response patterns and real-time coordination.
+- **Engineering explains why they**: use async code reviews.
+- **Maintain a living guide**: that explains each team's norms, preferences, and non-negotiables.
+- **Address Friction Points Directly**: When subculture differences cause measurable problems—missed deadlines, miscommunication, frustrated team members—address them explicitly.
+
 ## Understanding Why Subcultures Form
 
 Remote teams develop subcultures because different work types demand different workflows. An engineering team needs deep focus time, async code reviews, and documentation-heavy processes. A support team requires rapid response patterns and real-time coordination. A sales team optimizes for immediate availability and relationship-building.

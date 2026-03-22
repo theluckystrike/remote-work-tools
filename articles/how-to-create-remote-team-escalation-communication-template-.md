@@ -33,6 +33,15 @@ Create incident escalation templates with six required elements: severity indica
 
 When a production incident hits at 2 AM and your team is distributed across three time zones, the last thing you need is confusion about who to contact and what information to provide. A well-designed escalation communication template transforms chaotic incident response into structured, actionable dialogue. This guide shows you how to create templates that work for remote teams handling urgent production issues.
 
+## Key Takeaways
+
+- **The key requirement**: at any moment, every engineer should be able to answer "who is on call right now?" in under 10 seconds.
+- **Manual Slack-based escalation works for teams under 10 engineers where everyone knows the rotation**: the template structure above applies regardless of which tool you use.
+- **Step 3**: Set up an on-call rotation. Use PagerDuty, OpsGenie, or a shared calendar.
+- **Spend at least 5**: minutes on obvious causes before escalating a SEV3 or lower.
+- **When a production incident**: hits at 2 AM and your team is distributed across three time zones, the last thing you need is confusion about who to contact and what information to provide.
+- **Required action - What**: you need from the recipient 5.
+
 ## Why Communication Templates Matter During Incidents
 
 In remote work environments, you lose the ambient awareness that comes with office proximity. You cannot see if a colleague is already looking at an alert, cannot hear the urgency in someone's voice, and cannot quickly hand off context face-to-face. Communication templates solve this by providing a standardized structure that ensures critical information transfers completely between team members, across time zones, and under stress.

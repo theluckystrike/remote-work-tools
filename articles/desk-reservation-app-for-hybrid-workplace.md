@@ -31,6 +31,14 @@ voice-checked: true---
 
 Building a desk reservation app for hybrid workplace requires solving real scheduling challenges: managing limited desk inventory, handling conflicting bookings, and providing a smooth user experience across desktop and mobile. This guide covers the architectural patterns, data models, and code implementations you need to build a functional desk reservation system.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Open-source options can fill**: some gaps if you are willing to handle setup and maintenance yourself.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+
 ## Core Data Model
 
 The foundation of any desk reservation system is the data model. You'll need to model desks, reservations, users, and floor layouts. Here's a practical schema using a simple JSON structure that works well with most backends:

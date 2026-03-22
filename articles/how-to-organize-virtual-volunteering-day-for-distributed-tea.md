@@ -17,6 +17,15 @@ voice-checked: true---
 
 Virtual volunteering days offer distributed teams a meaningful way to connect while contributing to causes they care about. Unlike traditional in-person volunteer events, virtual volunteering requires careful coordination across time zones, flexible participation options, and the right tools to track impact. This guide provides a practical framework for organizing a virtual volunteering day that works for technical teams accustomed to asynchronous workflows.
 
+## Key Takeaways
+
+- **Focus on activities with**: existing digital infrastructure: Open Source Contributions: Many nonprofits need developers for bug fixes, documentation improvements, or feature work.
+- **Week 1 Communication: Send**: an announcement email and Slack message introducing the event concept, proposed activities, and survey link for preferences.
+- **Integration with Hiring**: Use volunteering events as recruitment channels.
+- **Create a simple survey**: using Google Forms or Typeform to collect preferences.
+- **This approach increases participation**: because team members choose activities aligned with their personal values.
+- **Use a World Time**: Buddy alternative or the `tz` Python library to identify overlapping availability windows.
+
 ## Define Your Team's Volunteering Goals
 
 Before selecting activities, gather input from team members about causes that matter to them. Create a simple survey using Google Forms or Typeform to collect preferences. The survey should ask about:
