@@ -150,6 +150,58 @@ Set to 44.1kHz in Audio MIDI Setup for calls. Higher sample rates consume CPU wi
 
 ---
 
+## Platform-Specific Driver Configuration
+
+### Windows: ASIO vs. WDM
+
+Windows ships two audio driver models. WDM (Windows Driver Model) is what every app uses by default. ASIO is a low-latency driver model that bypasses Windows audio mixing for near-zero latency monitoring.
+
+For remote work calls (Zoom, Teams, Google Meet), WDM is correct — these apps do not support ASIO and adding an ASIO layer creates routing complexity.
+
+```
+# In Focusrite Control (Scarlett's companion app):
+# Set Sample Rate: 44100 Hz (for calls; 48000 Hz for recording)
+# Set Buffer Size: 256 samples (for calls; 64 samples for tracking)
+# Enable: Mix A → USB 1/2 (sends your audio to the computer)
+# Disable: DAW monitoring (use direct monitoring instead)
+```
+
+For the SSL 2 on Windows:
+1. Download the SSL 2 driver from solidstatelogic.com
+2. Set the sample rate in SSL 360 software to match your DAW/call app
+3. In Windows Sound settings: set the SSL 2 as both Default Device and Default Communication Device
+
+### Linux: ALSA and PipeWire
+
+All four interfaces work class-compliant on Linux — no driver installation needed. Verify:
+
+```bash
+# List audio capture devices
+arecord -l
+# Should show: card 0: USB [Scarlett Solo USB], device 0: USB Audio [USB Audio]
+
+# Set default input device
+cat > ~/.asoundrc << 'EOF'
+defaults.pcm.card 0
+defaults.pcm.device 0
+defaults.ctl.card 0
+EOF
+
+# Verify recording works
+arecord -D default -f S24_3LE -r 44100 -d 5 test.wav
+```
+
+For PipeWire (modern Linux distributions):
+```bash
+# Check PipeWire sees the interface
+pw-cli list-objects | grep -A3 "alsa:pcm"
+
+# Force 44.1kHz for call compatibility
+pw-metadata -n settings 0 clock.rate 44100
+```
+
+---
+
 ## Microphone Pairing Guide
 
 | Interface | Budget Mic | Premium Mic |
