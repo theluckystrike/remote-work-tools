@@ -31,6 +31,19 @@ Remote machine learning teams face a unique challenge: experiments run on distri
 
 This guide evaluates practical approaches for remote ML teams to share experiment results, focusing on tools that integrate with existing workflows and support async collaboration across time zones.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Blockers**: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
+
+Built by theluckystrike — More at zovo.one
+{% endraw %}
+- **The best collaboration tools**: solve three problems simultaneously: 1.
+- **Pick one active project**: Choose a current experiment rather than retrofitting old work
+2.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Data scientists may need**: to share findings with product managers, executives, or clients who don't use Jupyter notebooks.
+
 ## The Core Problem: Scattered Experiment Data
 
 When a machine learning team works remotely, each researcher typically runs experiments on their own infrastructure. Results get stored in local directories, notebooks, or W&B/Mlflow instances that nobody else can access. Team members ping each other on Slack asking "hey, what was the F1 score for that BERT fine-tuning run?" — and the answer lives in someone's terminal history.

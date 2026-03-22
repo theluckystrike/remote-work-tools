@@ -31,6 +31,15 @@ Remote agencies face a unique challenge: gathering detailed client information w
 
 This guide examines client intake form builders that excel in remote agency environments, focusing on integration capabilities, automation potential, and the specific workflow needs of distributed teams.
 
+## Key Takeaways
+
+- **HubSpot Forms (free-$3**:200+/month) integrates directly with HubSpot's CRM.
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **The main limitation**: at the Standard plan ($25/month), you're limited to 100 responses per month.
+- **For a $75/month plan**: you get unlimited responses and form entries, making it cost-effective for active intake.
+- **JotForm ($34-99/month) offers the**: deepest feature set without enterprise pricing.
+- **The best intake form**: builder is one your team actually uses consistently.
+
 ## Why Intake Forms Matter for Remote Agencies
 
 When your team works across time zones, every piece of client context needs to live in a shared, accessible location. Intake forms capture requirements, preferences, and constraints that would otherwise require multiple back-and-forth emails. The right form builder transforms a chaotic discovery process into a structured workflow that produces actionable data from day one.

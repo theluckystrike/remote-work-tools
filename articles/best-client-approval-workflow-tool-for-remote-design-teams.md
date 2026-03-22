@@ -31,6 +31,15 @@ Remote design teams need solid approval workflows that accommodate asynchronous 
 
 This guide examines the essential features of client approval workflow tools and provides practical implementation strategies for remote design teams of varying sizes.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **The best client approval**: workflow tool for your remote design team depends on your specific constraints: team size, client sophistication, budget, and integration requirements.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Whether you use Figma**: Sketch Cloud, or abstract version management within tools like Adobe Creative Cloud, the approval workflow should track exactly which version received approval.
+- **Set an explicit expectation**: in the contract: feedback submitted outside the portal is not formally logged and may delay project timelines Most clients comply once they understand the system.
+- **Define time limits for**: each stage and automate escalation when they are missed: - Internal review SLA: 24 hours.
+
 ## Core Requirements for Remote Design Approval
 
 When evaluating approval workflow tools for distributed design teams, focus on these technical requirements:
