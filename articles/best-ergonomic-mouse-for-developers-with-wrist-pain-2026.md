@@ -200,6 +200,7 @@ Pair an ergonomic mouse with an ergonomic setup and good work habits, and you ca
 
 Ergonomic mice are a necessary but not sufficient solution for RSI. Pair mouse selection with proper desk setup, regular breaks (10 minutes per hour), and strengthening exercises. Developers who combine ergonomic hardware with stretching routines and proper posture see the most significant improvement. If wrist pain persists after 6 weeks with an ergonomic mouse and proper setup, consult a physical therapist—some RSI conditions require professional treatment beyond equipment changes.
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 

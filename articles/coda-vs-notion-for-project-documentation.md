@@ -24,7 +24,7 @@ Choose Notion if your team prioritizes clean, readable documentation pages with 
 
 The fundamental difference between Coda and Notion lies in how each platform structures data. Notion uses a block-based system where every piece of content is a block that can be rearranged, nested, or transformed. Pages contain blocks, and databases are special page types with structured properties. This hierarchical model feels natural for documentation but becomes complex when you need cross-referencing between documents.
 
-Coda combines documents and databases into a unified structure. Every Coda doc is a database where rows can contain rich text, attachments, or embedded tables. The `Coda` formula language provides spreadsheet-like expressions that reference other rows, making it possible to build interconnected documentation systems that behave like lightweight applications.
+Coda combines documents and databases into an unified structure. Every Coda doc is a database where rows can contain rich text, attachments, or embedded tables. The `Coda` formula language provides spreadsheet-like expressions that reference other rows, making it possible to build interconnected documentation systems that behave like lightweight applications.
 
 For project documentation, this distinction manifests in practical ways. Consider documenting API endpoints across multiple services. In Notion, you might create a database where each endpoint is a page with properties for method, path, and service. Cross-referencing requires manual links or relation properties. In Coda, you can embed a table directly in your documentation page and reference it in formulas, creating live connections between your endpoint list and usage examples.
 

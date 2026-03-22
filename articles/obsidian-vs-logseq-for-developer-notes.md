@@ -218,5 +218,5 @@ For developer notes specifically, both tools excel at connecting code snippets, 
 - [BenQ ScreenBar vs Desk Lamp Comparison: A Developer](/remote-work-tools/benq-screenbar-vs-desk-lamp-comparison/)
 - [Best 4K Monitor for Programming 2026: A Developer Guide](/remote-work-tools/best-4k-monitor-for-programming-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)*
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

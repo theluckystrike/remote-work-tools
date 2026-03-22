@@ -61,32 +61,32 @@ Documentation Inventory Spreadsheet
 ### Audit Script (30 minutes)
 
 1. **Identify all documentation locations**
-   - GitHub Pages or Wiki
-   - Confluence spaces
-   - Google Docs shared folders
-   - Notion workspaces
-   - Slack message threads
-   - Scattered README files
+ - GitHub Pages or Wiki
+ - Confluence spaces
+ - Google Docs shared folders
+ - Notion workspaces
+ - Slack message threads
+ - Scattered README files
 
 2. **Create inventory spreadsheet**
-   - Title of each document
-   - Current owner/author
-   - Last update date
-   - Page count or section count
-   - Quality rating (1-5 scale)
+ - Title of each document
+ - Current owner/author
+ - Last update date
+ - Page count or section count
+ - Quality rating (1-5 scale)
 
 3. **Rate quality by these criteria**
-   - **5 = Excellent**: Current, detailed, examples provided, tested
-   - **4 = Good**: Current with minor gaps, mostly clear
-   - **3 = Fair**: Some outdated sections, lacks examples
-   - **2 = Poor**: Significantly outdated, hard to follow
-   - **1 = Broken**: Incorrect information, missing context
+ - **5 = Excellent**: Current, detailed, examples provided, tested
+ - **4 = Good**: Current with minor gaps, mostly clear
+ - **3 = Fair**: Some outdated sections, lacks examples
+ - **2 = Poor**: Significantly outdated, hard to follow
+ - **1 = Broken**: Incorrect information, missing context
 
 4. **Calculate metrics**
-   - Total documentation pages: ____ (sum of all pages)
-   - Average quality score: ____ (sum of ratings / count)
-   - Last update > 6 months ago: ____ % (indicates staleness)
-   - Documentation spread across ____ different platforms
+ - Total documentation pages: ____ (sum of all pages)
+ - Average quality score: ____ (sum of ratings / count)
+ - Last update > 6 months ago: ____ % (indicates staleness)
+ - Documentation spread across ____ different platforms
 
 ### Real Inventory Example (10-Person Remote Team)
 
@@ -656,5 +656,4 @@ Pages              |         |         |         |
 - [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

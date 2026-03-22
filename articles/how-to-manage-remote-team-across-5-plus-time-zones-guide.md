@@ -332,4 +332,5 @@ If you do these, your distributed team will actually outpace co-located teams. A
 
 Start by implementing async standups and a weekly global sync. Add office hours next. Once that's working, optimize further. Don't try to do everything at once—build the culture incrementally.
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

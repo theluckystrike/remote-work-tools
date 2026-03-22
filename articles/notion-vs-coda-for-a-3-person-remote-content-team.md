@@ -102,10 +102,10 @@ Notion's API is REST-based and works well for:
 const response = await notion.pages.create({
  parent: { database_id: CONTENT_DATABASE_ID },
  properties: {
- Name: { title: [{ text: { content: "Q2 Content Brief" } }] },
- Status: { select: { name: "Planning" } },
- Assignee: { people: [{ id: "user_id" }] },
- DueDate: { date: { start: "2026-04-01" } }
+Name: { title: [{ text: { content: "Q2 Content Brief" } }] },
+Status: { select: { name: "Planning" } },
+Assignee: { people: [{ id: "user_id" }] },
+DueDate: { date: { start: "2026-04-01" } }
  }
 });
 ```
@@ -115,9 +115,9 @@ Coda's API is more limited but sufficient for basic operations. Coda's strength 
 ```javascript
 // Coda in-doc script: Generate content brief automatically
 ContentBrief.Run(
- GenerateOutline(Topic),
- SetAssignee(RotateAuthor()),
- SetDeadline(PublishDate - 14 days)
+GenerateOutline(Topic),
+SetAssignee(RotateAuthor()),
+SetDeadline(PublishDate - 14 days)
 )
 ```
 
@@ -250,9 +250,9 @@ Notion's writing experience is clean, distraction-free. Minimalist by design.
 ```
 Content Operations
 ├── Content Pipeline (main dashboard)
-│   ├── Table view (all articles)
-│   ├── Calendar view (publish schedule)
-│   └── Dashboard (statistics and performance)
+│ ├── Table view (all articles)
+│ ├── Calendar view (publish schedule)
+│ └── Dashboard (statistics and performance)
 ├── Article Template (doc template for new pieces)
 ├── Authors (performance tracking)
 ├── Topics (searchable by article count)
@@ -440,10 +440,10 @@ Recommendation: **Neither—consider Airtable**
 Starting content team for first time?
 ├─ YES → Use Notion (free, simple, ship fast)
 └─ NO → Do you already have content system?
-    ├─ YES → Is it causing friction?
-    │   ├─ Minor (just slow updates) → Stick with current, optimize process
-    │   └─ Major (broken automation, can't track) → Migrate to Coda
-    └─ NO → Revisit above (start with Notion)
+ ├─ YES → Is it causing friction?
+ │ ├─ Minor (just slow updates) → Stick with current, optimize process
+ │ └─ Major (broken automation, can't track) → Migrate to Coda
+ └─ NO → Revisit above (start with Notion)
 
 Team size analysis:
 ├─ 2-4 people → Notion covers needs well
@@ -478,6 +478,8 @@ The right tool should disappear into the background, letting your team focus on 
 - [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

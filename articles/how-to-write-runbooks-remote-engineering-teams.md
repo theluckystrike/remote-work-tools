@@ -280,5 +280,4 @@ The index should live in the same location as the runbooks (Obsidian vault, Conf
 - [Async Decision Making with RFC Documents for Engineering Teams](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

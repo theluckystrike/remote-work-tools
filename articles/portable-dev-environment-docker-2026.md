@@ -347,5 +347,4 @@ Port convention example for preventing conflicts across projects:
 - [Asana vs Linear for a 10-Person Dev Team Comparison](/remote-work-tools/asana-vs-linear-for-a-10-person-dev-team-comparison/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

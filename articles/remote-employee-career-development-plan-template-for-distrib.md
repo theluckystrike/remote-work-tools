@@ -347,18 +347,18 @@ Managers in distributed teams managing career development face unique challenges
 Allocate explicit learning budgets in your career development plans. A typical allocation:
 
 - **Technical training**: $500-1000 per employee annually
-  - Online courses (Frontend Masters, Egghead, Pluralsight)
-  - Certifications if required for your domain
-  - Conference attendance (virtual or in-person)
+ - Online courses (Frontend Masters, Egghead, Pluralsight)
+ - Certifications if required for your domain
+ - Conference attendance (virtual or in-person)
 
 - **Professional development**: $300-500 per employee annually
-  - Leadership training courses
-  - Management coaching (especially valuable for first-time managers)
-  - Executive presence training
+ - Leadership training courses
+ - Management coaching (especially valuable for first-time managers)
+ - Executive presence training
 
 - **Time allocation**: 4-8 hours per week during work hours for learning
-  - This is non-negotiable; budget this as part of their work allocation
-  - Protect this time from project pressure
+ - This is non-negotiable; budget this as part of their work allocation
+ - Protect this time from project pressure
 
 Document these allocations in your career development plan. When employees see explicit resources devoted to their growth, engagement and retention improve measurably.
 

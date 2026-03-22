@@ -236,7 +236,7 @@ Different technical roles benefit from different keyboard types:
 
 ## Budget Allocation Over Time
 
-Rather than a one-time keyboard purchase, think of it as a multi-year investment:
+Rather than an one-time keyboard purchase, think of it as a multi-year investment:
 
 **Year 1:** Buy a mid-range quiet keyboard ($80-150). Test the feel and determine if you prefer mechanical or membrane.
 

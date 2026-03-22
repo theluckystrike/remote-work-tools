@@ -91,7 +91,7 @@ Open the question queue at least 48 hours before the event and read everything. 
 
 Pre-reading allows you to group related questions so you answer them together rather than circling back. It reveals patterns—if eight people asked about the same engineering decision, that signals something needs more explanation than you planned to give. It also identifies questions that require research, giving you time to get the right answers rather than wing it live or punt to async where it may disappear.
 
-Categorize questions into three buckets: easy (answer live in under two minutes), complex (require a setup before the answer makes sense—consider addressing these in the deep-dive segment), and sensitive (involve personnel, compensation, or ongoing negotiations—decide in advance how you will handle them). Having this pre-categorized queue eliminates dead air during live Q&A and makes the moderator's job significantly easier.
+Categorize questions into three buckets: easy (answer live in under two minutes), complex (require a setup before the answer makes sense—consider addressing these in the deep-dive segment), and sensitive (involve personnel, compensation, or ongoing negotiations—decide in advance how you will handle them). Having this pre-categorized queue eliminates dead air during live Q&An and makes the moderator's job significantly easier.
 
 ### Structuring Your Agenda
 

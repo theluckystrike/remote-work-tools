@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Remote Team Learning and Development Program 2026"
+title: "How to Set Up Remote Team Learning and Development Program"
 description: "L&D programs for remote teams. Include budget templates, platform comparisons (Udemy Business, LinkedIn Learning, Coursera), tracking ROI."
 date: 2026-03-21
 last_modified_at: 2026-03-21

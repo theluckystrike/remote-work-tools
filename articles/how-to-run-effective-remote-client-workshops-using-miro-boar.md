@@ -296,7 +296,7 @@ Use this checklist 30 minutes before each workshop:
 
 **Next day:**
 - Synthesize board into clean document:
-  ```markdown
+ ```markdown
   # Workshop Summary: [Date]
 
   ## Key Decisions Made
@@ -353,12 +353,6 @@ Use this checklist 30 minutes before each workshop:
 | Retrospective | Miro + simple voting | Sticky notes, dot voting, easy |
 
 Most teams start with Miro, then discover Figma for design work, then add Notion for follow-up. Multi-tool workflows are common by year 2.
-
-## Conclusion
-
-Miro-based remote workshops work when you combine solid preparation, thoughtful facilitation, and structured protocols. The board is just a tool—your job as a facilitator is to draw out clarity from the conversation, document decisions in real-time, and keep energy high despite the screen fatigue.
-
-Start with smaller workshops (3-5 people) to develop your facilitation skills. As you get comfortable with pacing and handling group dynamics, you can scale to larger groups. The best workshops feel less like meetings and more like collaborative problem-solving with smart people.
 
 ## Related Articles
 

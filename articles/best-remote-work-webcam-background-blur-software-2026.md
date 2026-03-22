@@ -244,4 +244,5 @@ Increase lighting on your face. Semantic segmentation models struggle in dim lig
 - In Zoom settings, refresh the camera list manually
 - Check that OBS is running and camera source is active
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

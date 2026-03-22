@@ -293,5 +293,4 @@ The `type=gha` cache stores Docker layer cache in GitHub Actions Cache storage (
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

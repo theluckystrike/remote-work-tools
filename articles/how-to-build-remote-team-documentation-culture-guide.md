@@ -377,4 +377,6 @@ Documentation culture doesn't happen from mandates. It happens when:
 5. You recognize people for writing good docs.
 
 Start this month. In six months, your remote team will have solved the knowledge problem that kills most distributed teams.
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

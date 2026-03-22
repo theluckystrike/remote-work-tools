@@ -143,53 +143,53 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 
 def analyze_pr_feedback_patterns(repo_owner, repo_name, days=30):
-    """Analyze code review patterns for psychological safety signals"""
+ """Analyze code review patterns for psychological safety signals"""
 
-    # Get recent PRs
-    url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/pulls"
-    params = {
-        'state': 'closed',
-        'sort': 'updated',
-        'direction': 'desc'
-    }
+ # Get recent PRs
+ url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/pulls"
+ params = {
+ 'state': 'closed',
+ 'sort': 'updated',
+ 'direction': 'desc'
+ }
 
-    prs = requests.get(url, params=params).json()
+ prs = requests.get(url, params=params).json()
 
-    feedback_patterns = {
-        'by_reviewer': defaultdict(list),
-        'by_author': defaultdict(list),
-        'sentiment': defaultdict(int)
-    }
+ feedback_patterns = {
+ 'by_reviewer': defaultdict(list),
+ 'by_author': defaultdict(list),
+ 'sentiment': defaultdict(int)
+ }
 
-    for pr in prs:
-        # Get reviews for this PR
-        review_url = f"{pr['url']}/reviews"
-        reviews = requests.get(review_url).json()
+ for pr in prs:
+ # Get reviews for this PR
+ review_url = f"{pr['url']}/reviews"
+ reviews = requests.get(review_url).json()
 
-        for review in reviews:
-            author = pr['user']['login']
-            reviewer = review['user']['login']
+ for review in reviews:
+ author = pr['user']['login']
+ reviewer = review['user']['login']
 
-            # Classify comment sentiment
-            body = review.get('body', '').lower()
+ # Classify comment sentiment
+ body = review.get('body', '').lower()
 
-            if any(word in body for word in ['good', 'nice', 'great', 'lgtm']):
-                sentiment = 'positive'
-            elif any(word in body for word in ['fix', 'error', 'wrong', 'must change']):
-                sentiment = 'critical'
-            elif any(word in body for word in ['consider', 'maybe', 'optional', 'nit']):
-                sentiment = 'suggestion'
-            else:
-                sentiment = 'neutral'
+ if any(word in body for word in ['good', 'nice', 'great', 'lgtm']):
+ sentiment = 'positive'
+ elif any(word in body for word in ['fix', 'error', 'wrong', 'must change']):
+ sentiment = 'critical'
+ elif any(word in body for word in ['consider', 'maybe', 'optional', 'nit']):
+ sentiment = 'suggestion'
+ else:
+ sentiment = 'neutral'
 
-            feedback_patterns['by_reviewer'][reviewer].append({
-                'author': author,
-                'sentiment': sentiment
-            })
+ feedback_patterns['by_reviewer'][reviewer].append({
+ 'author': author,
+ 'sentiment': sentiment
+ })
 
-            feedback_patterns['sentiment'][sentiment] += 1
+ feedback_patterns['sentiment'][sentiment] += 1
 
-    return feedback_patterns
+ return feedback_patterns
 
 # Usage: analyze_pr_feedback_patterns('your-org', 'your-repo')
 # Look for imbalances:
@@ -207,11 +207,11 @@ For teams with regular synchronous meetings, track:
 # This requires more manual effort but reveals subtle dynamics
 
 participation_checklist = {
-    'who_spoke_first': [],  # Junior members should feel safe speaking early
-    'timezone_balance': {},  # Compare speaking time by timezone
-    'camera_use': {},  # Voluntary vs. pressured
-    'interruption_patterns': {},  # Who gets interrupted, by whom?
-    'decision_challenges': 0  # Did anyone question decisions? (sign of safety)
+ 'who_spoke_first': [], # Junior members should feel safe speaking early
+ 'timezone_balance': {}, # Compare speaking time by timezone
+ 'camera_use': {}, # Voluntary vs. pressured
+ 'interruption_patterns': {}, # Who gets interrupted, by whom?
+ 'decision_challenges': 0 # Did anyone question decisions? (sign of safety)
 }
 
 # Manual review during or after meeting:
@@ -291,6 +291,8 @@ Example: Determine if specific person is causing concerns, address directly
 - [How to Create Async Standup Templates in Slack With](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
 - [How to Run Remote Team Quarterly Business Review for](/remote-work-tools/how-to-run-remote-team-quarterly-business-review-for-distrib/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 ```
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

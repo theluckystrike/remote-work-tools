@@ -160,7 +160,7 @@ Send team leads a toolkit list:
 
 **Evening: Demo Prep**
 - 5-minute recorded demo per team (upload to shared folder)
-- Live demo slot if team wants (10 min Q&A after)
+- Live demo slot if team wants (10 min Q&An after)
 
 **Night: Judging Window**
 - Judges review all submissions
@@ -383,17 +383,5 @@ Build a culture where hackathons happen quarterly or biannually:
 
 Rotating themes keep it fresh.
 
-## Conclusion
-
-Remote hackathons work when you:
-1. Set clear scope (theme + time limit)
-2. Balance teams thoughtfully (mixed skills, time zones)
-3. Design for async (video updates, clear handoffs, written docs)
-4. Judge fairly (rubric, not gut feel)
-5. Celebrate participation (not just winners)
-
-The goal isn't always to ship code. It's to break routine, surface talent, and remind teams that building together is fun. The best remote hackathon is one where distributed engineers, designers, and PMs collaborate across time zones and still deliver something they're proud of.
-
-Run your first hackathon. Celebrate the chaos. Iterate.
-
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -352,7 +352,7 @@ For teams that rotate credentials frequently, consider using OIDC-based authenti
     aws-region: us-east-1
 ```
 
-This requires a one-time IAM role setup with a trust policy scoped to your specific GitHub organization and repository. The tradeoff in setup complexity pays off immediately in reduced secret management overhead.
+This requires an one-time IAM role setup with a trust policy scoped to your specific GitHub organization and repository. The tradeoff in setup complexity pays off immediately in reduced secret management overhead.
 
 ## Caching Dependencies for Speed
 
@@ -439,5 +439,4 @@ This pays off when you have 5+ workflows that all install the same dependencies 
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

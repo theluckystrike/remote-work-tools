@@ -208,10 +208,10 @@ This workflow works for technical teams (brainstorming architecture, debugging c
 3. Invite all participants to preview (they can add questions/ideas asynchronously)
 4. For physical whiteboard option: Set up camera and test lighting
 5. Assign roles:
-   - Digital scribe (remote person who types what's being discussed)
-   - Physical scribe (in-room person who transcribes digital annotations)
-   - Facilitator (keeps discussion moving)
-   - Timekeeper (if meeting is long)
+ - Digital scribe (remote person who types what's being discussed)
+ - Physical scribe (in-room person who transcribes digital annotations)
+ - Facilitator (keeps discussion moving)
+ - Timekeeper (if meeting is long)
 
 **Opening (First 5 minutes)**
 

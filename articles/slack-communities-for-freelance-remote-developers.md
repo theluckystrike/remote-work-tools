@@ -259,7 +259,7 @@ The best opportunities come from converting Slack relationships into deeper conn
 - Exchange email addresses
 - Connect on LinkedIn
 - Collaborate on a small project
-- Meet for coffee (virtually or in-person if you're in the same city)
+- Meet for coffee (nearly or in-person if you're in the same city)
 
 Slack communities create initial connection. You transform them into lasting professional relationships through follow-up effort.
 

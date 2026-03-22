@@ -427,9 +427,9 @@ This pattern prevents any region from permanently losing synchronous participati
 
 - Main session (60 min): Context setting, scope definition, communication contract
 - Concurrent breakout sessions (30 min):
-  - Engineering: Technical architecture deep-dive
-  - Design: User experience and wireframe review
-  - Product: Success metrics and acceptance criteria
+ - Engineering: Technical architecture deep-dive
+ - Design: User experience and wireframe review
+ - Product: Success metrics and acceptance criteria
 - Reconvene (15 min): Brief sync on breakout outcomes
 
 Rotate role-based breakouts so each participant gets relevant depth without mandatory 2+ hour commitment.

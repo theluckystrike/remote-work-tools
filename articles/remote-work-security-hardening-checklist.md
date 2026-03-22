@@ -326,5 +326,4 @@ echo "=== Audit complete ==="
 - [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

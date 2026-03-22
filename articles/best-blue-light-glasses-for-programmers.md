@@ -376,5 +376,4 @@ When your monitor is too close (less than 18 inches), blue light glasses matter 
 - [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

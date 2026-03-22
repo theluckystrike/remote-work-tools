@@ -382,5 +382,4 @@ If scores are close (within 0.5 points), choose the one your team is most famili
 - [How to Manage Remote Team Documentation Debt](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

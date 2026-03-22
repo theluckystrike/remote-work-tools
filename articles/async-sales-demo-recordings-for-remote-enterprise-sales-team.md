@@ -249,6 +249,8 @@ Track your async demo program with these KPIs:
 Remote enterprise sales teams implementing async demos typically see 30-40% reduction in demo-related time investment while maintaining or improving conversion rates. The key is treating recordings as first-class sales assets with proper production quality and analytics tracking.
 
 Start with your highest-volume demo type, build the recording and processing infrastructure, then expand to cover your full demo library. Iteration beats perfection for getting this workflow operational.
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 

@@ -236,5 +236,4 @@ At end of day:
 - [Multi-Monitor Linux Workstation Setup Guide](/remote-work-tools/multi-monitor-linux-workstation-setup-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

@@ -263,20 +263,20 @@ Misleading. Most cheap foam helps reduce echo but isn't true acoustic treatment.
 If you've tried software fixes, repositioned your microphone, and added basic absorption but echo persists:
 
 1. **Check Zoom settings one more time:**
-   - Sometimes echo comes from echo suppression being too aggressive, creating artifacting that sounds like weird echo
-   - Try different suppression levels (low vs. medium)
+ - Sometimes echo comes from echo suppression being too aggressive, creating artifacting that sounds like weird echo
+ - Try different suppression levels (low vs. medium)
 
 2. **Test with different video conferencing apps:**
-   - Some platforms have better echo cancellation than others
-   - Try Google Meet or Microsoft Teams to see if the issue is Zoom-specific
+ - Some platforms have better echo cancellation than others
+ - Try Google Meet or Microsoft Teams to see if the issue is Zoom-specific
 
 3. **Check speaker placement:**
-   - If your computer speakers are pointed at your microphone, they create feedback echo
-   - Speakers should be behind or at least 3 feet away from the microphone
+ - If your computer speakers are pointed at your microphone, they create feedback echo
+ - Speakers should be behind or at least 3 feet away from the microphone
 
 4. **Consider the other person's setup:**
-   - Sometimes what sounds like echo in their audio is actually caused by their speaker placement or their microphone sensitivity
-   - Ask them to move their speakers or microphone
+ - Sometimes what sounds like echo in their audio is actually caused by their speaker placement or their microphone sensitivity
+ - Ask them to move their speakers or microphone
 
 ## Quick Reference Card
 

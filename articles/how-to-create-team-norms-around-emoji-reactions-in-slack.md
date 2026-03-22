@@ -325,6 +325,7 @@ If adoption stalls, don't push harder. Revisit the assumption. Maybe your team p
 
 The goal isn't emoji reactions. The goal is efficient communication. If emoji doesn't serve that goal for your team, drop it.
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 

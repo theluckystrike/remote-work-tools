@@ -448,5 +448,4 @@ Asynchronous participation via Slack threads + Loom videos ensures no one is chr
 - [Best Time Zone Management Tools for Global Teams: A](/remote-work-tools/best-time-zone-management-tools-for-global-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

@@ -392,5 +392,4 @@ If you can't confidently take 2 weeks vacation without obsessively checking emai
 - [Maker Schedule for Remote Developers Guide 2026](/remote-work-tools/maker-schedule-for-remote-developers-guide-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

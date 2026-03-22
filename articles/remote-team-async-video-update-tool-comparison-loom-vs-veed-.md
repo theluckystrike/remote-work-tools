@@ -186,15 +186,15 @@ Test all three with actual team workflows before committing. Record a code revie
 2. Create a team workspace (requires Business plan for multiple users)
 3. Set up integrations: Slack, Jira, Notion (1 hour)
 4. Create team recording guidelines document:
-   - Frame rate: 30 fps
-   - Audio: USB mic, noise gate enabled
-   - Length: Under 7 minutes per recording
-   - Format: Problem → Solution → Next Steps
+ - Frame rate: 30 fps
+ - Audio: USB mic, noise gate enabled
+ - Length: Under 7 minutes per recording
+ - Format: Problem → Solution → Next Steps
 
 5. Establish library structure in Loom:
-   - Channel for each team (Engineering, Product, etc.)
-   - Folder per project within each channel
-   - Standard naming: `[YYYYMMDD] - Feature Name - Author`
+ - Channel for each team (Engineering, Product, etc.)
+ - Folder per project within each channel
+ - Standard naming: `[YYYYMMDD] - Feature Name - Author`
 
 ### Getting Started with Veed
 
@@ -202,7 +202,7 @@ Test all three with actual team workflows before committing. Record a code revie
 2. Install Zapier integration for workflow automation
 3. Create brand template (colors, logos, intro/outro) - 2 hours
 4. Configure API credentials:
-   ```bash
+ ```bash
    export VEED_API_KEY="your_api_key"
    export VEED_BRAND_ID="your_brand_id"
    ```
@@ -214,10 +214,10 @@ Test all three with actual team workflows before committing. Record a code revie
 
 1. Download desktop app (more reliable than browser version)
 2. Configure recording settings:
-   - Resolution: 1920x1080
-   - Frame rate: 30 fps
-   - Audio input: External USB mic
-   - Screen selection: Automatic (records active window)
+ - Resolution: 1920x1080
+ - Frame rate: 30 fps
+ - Audio input: External USB mic
+ - Screen selection: Automatic (records active window)
 
 3. Enable scheduled recordings if using enterprise plan
 4. Set up Zapier integration for automation

@@ -383,5 +383,4 @@ With `terminal.integrated.enablePersistentSessions: true`, VS Code reconnects an
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

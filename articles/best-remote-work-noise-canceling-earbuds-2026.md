@@ -298,5 +298,4 @@ Earbud failure modes after 2+ years:
 - [How to Improve Zoom and Teams Audio Quality](/remote-work-tools/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

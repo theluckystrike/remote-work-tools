@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Zoom Transcription Missing Words and Inaccurate Fix (2026)"
-description: "A practical troubleshooting guide for remote workers dealing with incomplete or inaccurate Zoom transcriptions. Step-by-step solutions to improve meeting caption accuracy."
+description: "A practical troubleshooting guide for remote workers dealing with incomplete or inaccurate Zoom transcriptions. Step-by-step solutions to improve meeting"
 date: 2026-03-20
 last_modified_at: 2026-03-20
 author: theluckystrike

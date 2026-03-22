@@ -156,34 +156,34 @@ Twitter's algorithm rewards certain behaviors. Understanding them helps you grow
 ### Content Types That Perform Well
 
 1. **Thread format** (high engagement)
-   - Starts with compelling hook
-   - 5-7 tweets total (sweet spot for reading)
-   - Ends with call-to-action or reflection
-   - Typical reach: 5-10x single tweets
+ - Starts with compelling hook
+ - 5-7 tweets total (sweet spot for reading)
+ - Ends with call-to-action or reflection
+ - Typical reach: 5-10x single tweets
 
 2. **Contrarian takes** (high discussion)
-   - "Everyone says X, but Y is actually true"
-   - Backs opinion with data or experience
-   - Expects pushback and debate
-   - Risk: Some people will disagree, which is the point
+ - "Everyone says X, but Y is actually true"
+ - Backs opinion with data or experience
+ - Expects pushback and debate
+ - Risk: Some people will disagree, which is the point
 
 3. **Authentic failures** (high resonance)
-   - "I tried X and failed because..."
-   - Specific detail on what went wrong
-   - Lessons learned and how to avoid it
-   - Nomads connect with vulnerability
+ - "I tried X and failed because..."
+ - Specific detail on what went wrong
+ - Lessons learned and how to avoid it
+ - Nomads connect with vulnerability
 
 4. **Specific resources** (high saves)
-   - Tool recommendation with honest pros/cons
-   - Screenshot showing feature
-   - Price point and personal verdict
-   - Developers bookmark useful recommendations
+ - Tool recommendation with honest pros/cons
+ - Screenshot showing feature
+ - Price point and personal verdict
+ - Developers bookmark useful recommendations
 
 5. **Actionable advice** (high engagement)
-   - Steps 1-2-3 format
-   - Can be implemented immediately
-   - Solves specific problem (not generic)
-   - "Here's how I..." performs better than "You should..."
+ - Steps 1-2-3 format
+ - Can be implemented immediately
+ - Solves specific problem (not generic)
+ - "Here's how I..." performs better than "You should..."
 
 ### What Does NOT Work
 
@@ -276,7 +276,7 @@ By year two of consistent Twitter participation, you should have identified 5-10
 
 Once you've engaged with them substantively for months, you can ask for advice directly:
 
-*"Hi [name], I've followed your work on [topic] for a while and really valued [specific tweet/thread]. I'm facing [challenge] and would love your perspective. Happy to grab coffee virtually?"*
+*"Hi [name], I've followed your work on [topic] for a while and really valued [specific tweet/thread]. I'm facing [challenge] and would love your perspective. Happy to grab coffee nearly?"*
 
 This approach has a 30-40% acceptance rate because you've built genuine rapport first. These advisors become your de facto board of directors for career decisions.
 
@@ -291,12 +291,6 @@ Track metrics that actually matter for your goals:
 - **Collaboration proposals**: People proposing projects based on your demonstrated expertise
 
 A 5,000-follower account generating 5 DM business inquiries per week beats a 50,000-follower vanity account with no opportunities.
-
-## Conclusion
-
-Twitter in 2026 offers digital nomads an unparalleled platform for community building, knowledge sharing, and professional networking. Success requires patience, consistency, and genuine value contribution. The developers and power users who thrive treat Twitter as a community first and a marketing channel second.
-
-Start by listening. Engage authentically. Share what you learn. The nomad community rewards those who contribute rather than those who simply broadcast. Your Twitter network becomes increasingly valuable with age—compound your advantage by starting today.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

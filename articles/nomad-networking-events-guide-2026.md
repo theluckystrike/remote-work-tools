@@ -258,7 +258,7 @@ Different event formats require different approaches:
 - Note 1-2 speakers' main points (basis for conversation: "Your talk on X made me think about...")
 
 ### Unconference/Workshop Format
-- Volunteer to help facilitate (makes you central to group)
+- Volunteer to help help (makes you central to group)
 - Ask clarifying questions during breakouts (positions you as curious, not just consuming)
 - Offer to organize coffee groups during breaks
 
@@ -300,15 +300,15 @@ After 6-12 months of consistent networking, your network becomes a business deve
 People refer business to those they know, like, and trust. By being visible and helpful in communities, you become the first person people recommend for freelance work or partnerships.
 
 **Pattern 2: Collaboration Opportunities**
-Nomad networks facilitate partnerships with complementary skills. A designer meets a developer, they collaborate on a product. These partnerships often exceed either person's individual capacity.
+Nomad networks help partnerships with complementary skills. A designer meets a developer, they collaborate on a product. These partnerships often exceed either person's individual capacity.
 
-**Pattern 3: Knowledge Leverage**
+**Pattern 3: Knowledge Use**
 Your network becomes a personal advisory board. Face challenges? Ask your network. The diversity of perspectives solves problems faster than solo troubleshooting.
 
 **Pattern 4: Market Intelligence**
 What are companies hiring for? Where are visa policy changes happening? Your network provides real-time market data better than any news source.
 
-To leverage these benefits, you must be a net giver first. Refer opportunities to others, share resources, make introductions without asking for anything in return. Over time, the reciprocity compounds.
+To use these benefits, you must be a net giver first. Refer opportunities to others, share resources, make introductions without asking for anything in return. Over time, the reciprocity compounds.
 
 ## Networking Fatigue and Recovery
 
@@ -331,14 +331,5 @@ Constant social networking burns out introverts (and many developers). Create su
 - Online communities you care about (post meaningful responses, 1-2x weekly)
 - Contributing to open source (passive networking through code contributions)
 
-## Conclusion
-
-The nomad lifestyle offers unique networking advantages. You encounter diverse perspectives across ecosystems. You build resilience through constant adaptation. Your network becomes genuinely international. Treat these connections as assets that appreciate over time, and your professional relationships will thrive regardless of where you work.
-
-The key is consistency over intensity. Small, regular networking effort compounds into a powerful, distributed network. You don't need to attend every event or exhaust yourself with constant socializing. A few quality connections, maintained over time, provide more value than hundreds of surface-level contacts.
-
-Start with one event in your current city this week. Show up, have three genuine conversations, send one follow-up message. That small habit, repeated consistently, builds the international network that defines location-independent success.
-
-{% endraw %}
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

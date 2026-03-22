@@ -59,10 +59,10 @@ A complete time blocking setup uses:
 
 1. Open Google Calendar > Settings > Create New Calendar
 2. Create calendars:
-   - "Deep Work Blocks" (blue, non-negotiable)
-   - "Meetings" (red, meetings only)
-   - "Flexible Time" (yellow, can be rescheduled)
-   - "Admin Work" (green, low-focus tasks)
+ - "Deep Work Blocks" (blue, non-negotiable)
+ - "Meetings" (red, meetings only)
+ - "Flexible Time" (yellow, can be rescheduled)
+ - "Admin Work" (green, low-focus tasks)
 
 **Color coding** enables at-a-glance schedule assessment.
 
@@ -117,9 +117,9 @@ Google Calendar → Slack automatic status:
 2. Link Google Calendar
 3. Enable "Update my status based on calendar"
 4. Set status for each calendar:
-   - Deep Work Block: ":lock: Deep Work - Do Not Disturb"
-   - Meetings: ":phone: In Meeting"
-   - Flexible Time: ":coffee: Available"
+ - Deep Work Block: ":lock: Deep Work - Do Not Disturb"
+ - Meetings: ":phone: In Meeting"
+ - Flexible Time: ":coffee: Available"
 
 **Result:** Slack status automatically changes when entering Deep Work block. Others see visual signal.
 
@@ -154,7 +154,7 @@ Check if calendar = "Deep Work Blocks"
 2. Create Zap: Trigger = "Google Calendar - Event Starts"
 3. Select calendar: "Deep Work Blocks"
 4. Action 1: Slack - Update User Status
-   - Status: ":lock: Deep Work - DND until {END_TIME}"
+ - Status: ":lock: Deep Work - DND until {END_TIME}"
 5. Action 2: Focus@Will - Start Session
 6. Action 3: Forest app - Start Focus Session
 
@@ -196,9 +196,9 @@ Forest combines timer + focus management + gamification.
 3. Set focus session length: 90 minutes (matches deep work block)
 4. Enable "Whitelist" for allowed websites during focus
 5. Add distracting sites to "Blacklist":
-   - Twitter/X, Instagram, Reddit
-   - YouTube, Netflix
-   - News sites
+ - Twitter/X, Instagram, Reddit
+ - YouTube, Netflix
+ - News sites
 
 **How It Works:**
 - Start 90-min session
@@ -221,9 +221,9 @@ Freedom blocks distracting apps/websites during focus time.
 **Setup:**
 1. Download Freedom (macOS, Windows, iOS, Android)
 2. Create blocklist:
-   - Websites: twitter.com, instagram.com, reddit.com, youtube.com
-   - Apps: Instagram, TikTok, YouTube (iOS/Android)
-   - Email apps (to prevent checking)
+ - Websites: twitter.com, instagram.com, reddit.com, youtube.com
+ - Apps: Instagram, TikTok, YouTube (iOS/Android)
+ - Email apps (to prevent checking)
 3. Create schedule: "Work Days 9am-12pm, 2:15-3:45pm"
 4. Integrate with Zapier (trigger Freedom session at Deep Work start)
 
@@ -242,10 +242,10 @@ Focus@Will provides scientifically-designed focus music + timer.
 **Setup:**
 1. Create account (Focus@Will.com)
 2. Choose music style:
-   - Cinematic (film scores)
-   - Classical (minimalist)
-   - Baroque (mathematical structure)
-   - Electronic (focused beats)
+ - Cinematic (film scores)
+ - Classical (minimalist)
+ - Baroque (mathematical structure)
+ - Electronic (focused beats)
 3. Set session length: 90 minutes
 4. Enable focus timer (tracks active focus time)
 5. Log daily focus hours
@@ -359,14 +359,14 @@ Review log post-focus block. Handle high urgency, defer rest.
 1. Zapier detects "Deep Work Block" event starting
 2. Triggers 5-minute prep alert (Slack notification)
 3. At 9:00am sharp:
-   - Slack status → ":lock: Deep Work 9am-12pm"
-   - Forest app → Starts 90-min session
-   - Freedom app → Activates blocklist
-   - Focus@Will → Starts focus music
-   - Email app → Closes
-   - Slack notifications → Muted (important only)
+ - Slack status → ":lock: Deep Work 9am-12pm"
+ - Forest app → Starts 90-min session
+ - Freedom app → Activates blocklist
+ - Focus@Will → Starts focus music
+ - Email app → Closes
+ - Slack notifications → Muted (important only)
 4. Auto-message in #general:
-   - "Starting 3-hour focus block. Back at 12pm."
+ - "Starting 3-hour focus block. Back at 12pm."
 5. Your calendar → Shows "Deep Work - Do Not Disturb"
 6. Team members → Can't schedule over time (calendar is blocked)
 
@@ -482,25 +482,26 @@ Individual time blocking is good. Team-wide adoption is better.
 **Getting Team Buy-In:**
 
 1. **Pilot Phase (You only, 2 weeks)**
-   - Demonstrate 25% productivity increase
-   - Share metrics in team standup
-   - Show quality improvements
+ - Demonstrate 25% productivity increase
+ - Share metrics in team standup
+ - Show quality improvements
 
 2. **Opt-In Phase (Voluntary, 2 weeks)**
-   - Share this guide with team
-   - Offer 30-min setup help call
-   - Celebrate early adopters
+ - Share this guide with team
+ - Offer 30-min setup help call
+ - Celebrate early adopters
 
 3. **Normalization Phase (4 weeks)**
-   - Team meeting norms: "Check calendars before inviting"
-   - Status message standard: ":lock: Deep Work 9am-12pm"
-   - Urgent escalation path documented (ping manager, not person)
+ - Team meeting norms: "Check calendars before inviting"
+ - Status message standard: ":lock: Deep Work 9am-12pm"
+ - Urgent escalation path documented (ping manager, not person)
 
 4. **Policy Phase (Ongoing)**
-   - Team calendars standardized
-   - No meetings 9am-12pm (core focus time)
-   - Deep work culture visible (not exceptions)
+ - Team calendars standardized
+ - No meetings 9am-12pm (core focus time)
+ - Deep work culture visible (not exceptions)
 
 **Result:** Productivity increase across entire team (35-45%).
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

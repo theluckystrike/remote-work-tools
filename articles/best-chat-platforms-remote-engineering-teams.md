@@ -254,5 +254,4 @@ docker compose up -d
 - [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

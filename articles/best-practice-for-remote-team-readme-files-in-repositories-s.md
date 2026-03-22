@@ -64,15 +64,15 @@ The getting started section must be foolproof. This is where remote teams benefi
 2. Copy the example environment file:
    ```bash
  cp.env.example.env
-   ```
+ ```
 3. Start dependencies:
    ```bash
  docker-compose up -d
-   ```
+ ```
 4. Run the application:
    ```bash
  go run cmd/api/main.go
-   ```
+ ```
 
 The API will be available at http://localhost:8080
 ```

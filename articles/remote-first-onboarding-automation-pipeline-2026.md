@@ -478,5 +478,4 @@ A well-designed onboarding system is the fastest way to improve new employee pro
 - [communication-preferences.yaml](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

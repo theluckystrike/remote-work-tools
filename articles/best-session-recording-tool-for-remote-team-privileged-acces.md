@@ -202,7 +202,7 @@ Different regulatory frameworks mandate specific session recording characteristi
 
 **PCI-DSS (Payment Card Industry)**: Requires access logging for anyone touching cardholder data. Specific session recording isn't mandatory, but all administrator activities must be logged with timestamps and user identity. CloudTrail or equivalent API logging typically satisfies this.
 
-**HIPAA (Healthcare)**: Requires audit logs for systems handling protected health information. Session recording isn't explicitly required, but comprehensive access logging is. Terminal session recording supplemented by CloudTrail generally exceeds requirements.
+**HIPAA (Healthcare)**: Requires audit logs for systems handling protected health information. Session recording isn't explicitly required, but access logging is. Terminal session recording supplemented by CloudTrail generally exceeds requirements.
 
 **SOC 2 Type II**: Auditors examine your ability to investigate privileged access. Session recordings provide audit evidence, but the requirement is more about demonstrable investigation capability than continuous recording of every session.
 
@@ -268,7 +268,7 @@ Train engineers how to interpret recordings. Without training, a recording is ju
 
 ## Building Sustainable Monitoring Infrastructure
 
-Session recording works best as part of comprehensive access monitoring. A three-layer approach typically works:
+Session recording works best as part of access monitoring. A three-layer approach typically works:
 
 **Layer 1: Authentication logging**: Every successful and failed authentication attempt, with user identity, timestamp, source IP.
 

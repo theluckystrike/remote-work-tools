@@ -91,7 +91,7 @@ $key = "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\CloudStore\Store\Default
 Set-ItemProperty -Path $key -Name "Data" -Value ([byte[]](0x02,0x01,0x01,0x00))
 ```
 
-For multi-monitor setups on macOS, Night Shift applies to all connected displays simultaneously. On Windows, Night Light also applies system-wide. The limitation is that built-in tools apply a uniform warm-shift; they don't account for the different panel technologies across your monitors, which may emit varying levels of blue light at the same color temperature setting.
+For multi-monitor setups on macOS, Night Shift applies to all connected displays simultaneously. On Windows, Night Light also applies system-wide. The limitation is that built-in tools apply an uniform warm-shift; they don't account for the different panel technologies across your monitors, which may emit varying levels of blue light at the same color temperature setting.
 
 Third-party tools like f.lux and Iris offer per-monitor control and more granular color temperature curves, which matters when your setup mixes an older TN panel with newer IPS monitors that have different baseline emissions.
 

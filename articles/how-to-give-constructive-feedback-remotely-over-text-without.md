@@ -310,23 +310,23 @@ Remote work creates unique feedback scenarios:
 Individual feedback matters less than systemic feedback culture. To build this:
 
 1. **Model receiving feedback gracefully**
-   - When someone suggests an improvement: "Thanks for catching this. I'll update it."
-   - When wrong: "Good call. I missed that angle. Let's fix it."
+ - When someone suggests an improvement: "Thanks for catching this. I'll update it."
+ - When wrong: "Good call. I missed that angle. Let's fix it."
 
 2. **Make feedback visible and valued**
-   - Call out feedback-givers in public: "Thanks to Alex for the suggestion"
-   - Track how feedback improves outcomes
-   - Celebrate when feedback prevents problems
+ - Call out feedback-givers in public: "Thanks to Alex for the suggestion"
+ - Track how feedback improves outcomes
+ - Celebrate when feedback prevents problems
 
 3. **Establish norms**
-   - "We default to direct feedback" (stated in team agreement)
-   - "Feedback is about work, not worth"
-   - "We ask for clarification before reacting"
+ - "We default to direct feedback" (stated in team agreement)
+ - "Feedback is about work, not worth"
+ - "We ask for clarification before reacting"
 
 4. **Train explicitly**
-   - Spend time teaching feedback skills
-   - Review examples in team meetings
-   - Normalize the awkwardness
+ - Spend time teaching feedback skills
+ - Review examples in team meetings
+ - Normalize the awkwardness
 
 Teams that master feedback compound their velocity because ideas flow freely and corrections happen fast. This is worth investing in.
 
