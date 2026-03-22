@@ -9,6 +9,7 @@
 
 
 
+
 layout: default
 title: "Best Knowledge Base Search Tool for Remote Teams with Docs Across Multiple Platforms"
 description: "Find the best knowledge base search tool for remote teams managing documentation across multiple platforms. Compare search capabilities, integrations, and implementation patterns for developers."
@@ -22,6 +23,7 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+
 
 
 
