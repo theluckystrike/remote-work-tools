@@ -159,7 +159,7 @@ Step 9: Timezone Considerations
 
 Working across timezones requires intentional communication about response times. When your teammate in Tokyo sends a message at their 9 AM, it might be your 6 PM. Neither of you should expect immediate responses.
 
-Start by finding the 2–4 hours when everyone on your team is awake and reserving that window for synchronous discussions. When referencing deadlines, avoid clock times like "by 5pm" in favor of "by EOD your time" or "by my Thursday morning." For everything else, use daily standup documents or weekly reports that account for different timezones:
+Start by finding the 2, 4 hours when everyone on your team is awake and reserving that window for synchronous discussions. When referencing deadlines, avoid clock times like "by 5pm" in favor of "by EOD your time" or "by my Thursday morning." For everything else, use daily standup documents or weekly reports that account for different timezones:
 
 ```markdown
 Step 10: Daily Update - March 15

@@ -189,7 +189,7 @@ Management approach:
 - Label the dock cable end "Laptop" for quick identification
 ```
 
-Implementation cost: $15–30 (label maker, cable ties, small adhesive clips).
+Implementation cost: $15, 30 (label maker, cable ties, small adhesive clips).
 
 Dual Monitor + Docking Station (Complex Setup)
 
@@ -218,7 +218,7 @@ Management approach:
 6. Use cable covers for exposed runs across desk surface
 ```
 
-Implementation cost: $80–150 (monitor arms with cable routing, cable tray, power strips, labels, ties).
+Implementation cost: $80, 150 (monitor arms with cable routing, cable tray, power strips, labels, ties).
 
 Full Workstation Setup (8+ Devices)
 
@@ -227,7 +227,7 @@ For developers with multiple monitors, desktop PC, external storage, audio equip
 ```text
 Typical cables:
 - Desktop PC power and USB connections
-- 2–4 monitor power and video cables
+- 2, 4 monitor power and video cables
 - NAS or external drive (power + USB/Thunderbolt)
 - Audio interface or external speakers
 - Microphone USB or XLR
@@ -238,8 +238,8 @@ Typical cables:
 
 Management approach:
 1. Implement a vertical cable management system:
-   - Cable tray under desk (4–6" wide minimum)
-   - Vertical cable channels at desk legs (12–18" tall)
+   - Cable tray under desk (4, 6" wide minimum)
+   - Vertical cable channels at desk legs (12, 18" tall)
    - Overhead cable channels (using Ikea Ivar or similar framing)
 2. Use a patch panel to centralize all connections:
    - One cable runs from patch panel to desktop PC
@@ -260,7 +260,7 @@ Management approach:
    - Labels on both ends of every cable
 ```
 
-Implementation cost: $200–400 (professional tray systems, patch panel, organized power strips, labeling).
+Implementation cost: $200, 400 (professional tray systems, patch panel, organized power strips, labeling).
 
 Example vertical cable management build:
 
@@ -304,17 +304,17 @@ If you frequently change locations (co-working spaces, coffee shops, different h
 ```text
 Portable cable management kit:
 - Small cable organizer bag ($15)
-  - Holds 4–6 cables neatly
+  - Holds 4, 6 cables neatly
   - Prevents tangling during transport
-- USB-C multiport hub ($30–60)
+- USB-C multiport hub ($30, 60)
   - Consolidates connections at one port
   - Reduces number of individual cables needed
 - Portable cable ties (reusable, magnetic) ($10)
 - Small label maker (portable model) ($20)
-- Portable power strip (3–4 outlets) ($20)
+- Portable power strip (3, 4 outlets) ($20)
 - Cable sleeve or wrap ($10)
 
-Total portable setup: $100–130
+Total portable setup: $100, 130
 
 Benefits:
 - Set up in any location in under 5 minutes
@@ -351,7 +351,7 @@ USB devices disconnecting randomly:
 
 Heat issues with power cables:
 - Ensure power cables aren't bundled tightly with other cables
-- Keep 2–3" spacing between power cables and data cables
+- Keep 2, 3" spacing between power cables and data cables
 - Use separate cable channels if possible
 - Avoid coiling power cables tightly
 

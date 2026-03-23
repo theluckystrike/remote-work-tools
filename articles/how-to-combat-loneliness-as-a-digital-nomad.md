@@ -58,9 +58,9 @@ For developers, the barrier to connection is lower when sharing technical work. 
 
 Consider these communities:
 
-- DEV.to – Write about your technical challenges; the engagement is genuinely supportive
-- Hashnode – Technical blogging with an active community of indie developers
-- r/programming – Reddit's programming community for discussion and support
+- DEV.to, Write about your technical challenges; the engagement is genuinely supportive
+- Hashnode, Technical blogging with an active community of indie developers
+- r/programming, Reddit's programming community for discussion and support
 
 The goal isn't to build your personal brand. Focus on genuinely helping others, and authentic relationships form naturally.
 
@@ -132,7 +132,7 @@ Step 7: The Technical Nomad's Edge
 As developers and power users, we have unique tools to solve problems. Apply that same mindset to loneliness:
 
 - Automate social reminders instead of relying on willpower
-- Track your social metrics – How many real conversations did you have this week? Aim for a minimum.
+- Track your social metrics, How many real conversations did you have this week? Aim for a minimum.
 - Build systems that create serendipity rather than waiting for opportunities
 
 The issue with most advice is that it relies on motivation. Motivation fades. Systems persist.

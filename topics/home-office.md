@@ -5,7 +5,7 @@ description: "Guides for building a productive home office: monitors, desks, cha
 permalink: /topics/home-office/
 ---
 
-# Home Office Setup
+Home Office Setup
 
 Guides and recommendations for building a productive home office: monitors, desks, standing desks, lighting, audio equipment, and ergonomics.
 

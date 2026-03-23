@@ -31,7 +31,7 @@ Table of Contents
 - [Cost Analysis: Total Cost of Ownership](#cost-analysis-total-cost-of-ownership)
 - [Common Implementation Mistakes](#common-implementation-mistakes)
 - [Measuring Implementation Success](#measuring-implementation-success)
-- [Post-Launch Optimization (Months 2–6)](#post-launch-optimization-months-26)
+- [Post-Launch Optimization (Months 2, 6)](#post-launch-optimization-months-26)
 - [Scaling Beyond Your Initial Deployment](#scaling-beyond-your-initial-deployment)
 
 Why Hybrid Offices Need Dedicated Booking Systems
@@ -241,39 +241,39 @@ Cost Analysis: Total Cost of Ownership
 For a 100-person company with 20 meeting rooms:
 
 Robin:
-- Software: $400–600/month (depending on plan tier)
-- Sensors (if using occupancy tracking): $2,000–3,000 initial + $100/month
+- Software: $400, 600/month (depending on plan tier)
+- Sensors (if using occupancy tracking): $2,000, 3,000 initial + $100/month
 - Implementation: $2,000 (consulting for setup)
-- Year 1 total: $7,500–8,500
-- Annual recurring: $5,200–7,200
+- Year 1 total: $7,500, 8,500
+- Annual recurring: $5,200, 7,200
 
 Conductor:
 - Software: Included with device purchase
-- E-paper displays (20 rooms): $15,000–20,000
+- E-paper displays (20 rooms): $15,000, 20,000
 - Installation: $1,000
-- Year 1 total: $16,000–21,000
-- Annual recurring: $500–1,000 (maintenance/updates)
+- Year 1 total: $16,000, 21,000
+- Annual recurring: $500, 1,000 (maintenance/updates)
 
 OfficeSpace:
-- Software: $200–400/month
+- Software: $200, 400/month
 - Minimal hardware (optional QR code displays): $1,000
 - Implementation: $500
-- Year 1 total: $4,000–6,500
-- Annual recurring: $2,400–4,800
+- Year 1 total: $4,000, 6,500
+- Annual recurring: $2,400, 4,800
 
 Teem:
-- Software: $300–500/month
+- Software: $300, 500/month
 - Salesforce integration: Included if you have Salesforce
-- Implementation: $1,000–2,000
-- Year 1 total: $5,300–8,000
-- Annual recurring: $3,600–6,000
+- Implementation: $1,000, 2,000
+- Year 1 total: $5,300, 8,000
+- Annual recurring: $3,600, 6,000
 
 OfficeSpace is most cost-effective for purely software-based booking. Conductor is premium but includes hardware. Robin and Teem balance cost and features well for mid-market organizations.
 
 Common Implementation Mistakes
 
 Mistake 1: Copying old ad-hoc policies into the system
-If your informal policy was "reserve rooms Monday–Wednesday, first-come-Friday," that probably caused chaos. Use the system deployment as an opportunity to establish clearer policies: "All meeting rooms require booking 24 hours in advance, maximum 2 hours per booking unless requested otherwise."
+If your informal policy was "reserve rooms Monday, Wednesday, first-come-Friday," that probably caused chaos. Use the system deployment as an opportunity to establish clearer policies: "All meeting rooms require booking 24 hours in advance, maximum 2 hours per booking unless requested otherwise."
 
 Mistake 2: Implementing without employee feedback
 Survey employees before launching. Ask: "What problems with current room booking frustrate you most?" Your system should solve those specific problems, not just add a new tool.
@@ -308,7 +308,7 @@ Quarter 1 success indicators:
 
 If you're not hitting these metrics, revisit your policies and user experience. Most problems stem from unclear policies or poor interface design, not from tool selection.
 
-Post-Launch Optimization (Months 2–6)
+Post-Launch Optimization (Months 2, 6)
 
 Once the system is running well, optimize based on data:
 

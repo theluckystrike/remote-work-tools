@@ -164,7 +164,7 @@ Run this script on Mondays and post the pairs in your team channel. The rotating
 
 Ritual 4: Weekly Tech Talk
 
-A 15–30 minute knowledge-sharing slot, either live or pre-recorded, builds technical depth across the team. The format works well async: the presenter records a screen share walking through a concept, and teammates comment with questions.
+A 15, 30 minute knowledge-sharing slot, either live or pre-recorded, builds technical depth across the team. The format works well async: the presenter records a screen share walking through a concept, and teammates comment with questions.
 
 Keep the bar low. tech talks do not need to be polished. Topics that work well:
 - "I spent 3 hours debugging this, here is what I learned"

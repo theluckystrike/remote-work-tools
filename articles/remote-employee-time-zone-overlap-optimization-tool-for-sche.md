@@ -210,7 +210,7 @@ Columns C-J: Hours 0-23 UTC time
 
 In each time cell, formula:
 =IF(AND(MOD(COLUMN()-2+B2,24)>=9, MOD(COLUMN()-2+B2,24)<17), "AVAILABLE", "")
-This marks hours where it's 9 AM–5 PM local time
+This marks hours where it's 9 AM, 5 PM local time
 
 Then visually scan for columns where all team members show AVAILABLE
 ```
@@ -223,9 +223,9 @@ Real-World Scheduling: Global Team Examples
 Example 1: 3-Person US Team (Pacific, Central, Eastern)
 
 Team:
-- Alice (PST, UTC-8, works 9 AM–6 PM)
-- Bob (CST, UTC-6, works 8 AM–5 PM)
-- Charlie (EST, UTC-5, works 8 AM–5 PM)
+- Alice (PST, UTC-8, works 9 AM, 6 PM)
+- Bob (CST, UTC-6, works 8 AM, 5 PM)
+- Charlie (EST, UTC-5, works 8 AM, 5 PM)
 
 Calculation:
 When it's 9 AM PST (Alice's start), it's:
@@ -236,17 +236,17 @@ When it's 12 PM PST (Alice's midday), it's:
 - 2 PM CST (Bob, working)
 - 3 PM EST (Charlie, working)
 
-Optimal windows: 9 AM PST–12 PM PST (2-hour window with all available)
+Optimal windows: 9 AM PST, 12 PM PST (2-hour window with all available)
 
 Decision: Schedule standing meetings at 10 AM PST, which is 12 PM CST / 1 PM EST. Everyone is in their workday and focus time.
 
 Example 2: Europe + Asia Split (4 People)
 
 Team:
-- Sarah (CET, UTC+1, works 9 AM–6 PM)
-- Marcus (AEST, UTC+10, works 8 AM–5 PM)
-- Priya (IST, UTC+5:30, works 9 AM–6 PM)
-- Kai (JST, UTC+9, works 9 AM–6 PM)
+- Sarah (CET, UTC+1, works 9 AM, 6 PM)
+- Marcus (AEST, UTC+10, works 8 AM, 5 PM)
+- Priya (IST, UTC+5:30, works 9 AM, 6 PM)
+- Kai (JST, UTC+9, works 9 AM, 6 PM)
 
 Calculation:
 
@@ -260,12 +260,12 @@ When it's 10 AM CET, times are:
 - 2:30 PM IST (Priya, working)
 - 6 PM JST (Kai, end of day)
 
-Analysis: There is NO time when all four are in their 9–5 working hours simultaneously. Europe and Australia are nearly 12 hours apart, opposite sides of the globe.
+Analysis: There is NO time when all four are in their 9, 5 working hours simultaneously. Europe and Australia are nearly 12 hours apart, opposite sides of the globe.
 
 Solution options:
 1. Rotate meeting times: Monday/Wednesday at 10 AM CET (inconvenient for Asia), Thursday at 4 PM CET (early morning for Asia)
 2. Use asynchronous communication for information transfer, reserve synchronous time for decisions only
-3. Ask Marcus (Australia) to extend hours to 7–8 PM AEST for critical meetings (1 hour overlap)
+3. Ask Marcus (Australia) to extend hours to 7, 8 PM AEST for critical meetings (1 hour overlap)
 4. Split into regional meetings: Europe + Asia subgroups, then async coordination
 
 Decision: For this team, async-first communication with recorded decisions and written updates works better than forced synchronous meetings.
@@ -273,11 +273,11 @@ Decision: For this team, async-first communication with recorded decisions and w
 Example 3: Americas Spanning (5 People)
 
 Team:
-- James (PST, UTC-8, works 9 AM–6 PM)
-- Rosa (CST, UTC-6, works 8 AM–5:30 PM)
-- Diego (EST, UTC-5, works 8 AM–5 PM)
-- Ana (Brasília Time, UTC-3, works 8 AM–5 PM)
-- Carlos (Mexico City, UTC-6, works 8 AM–5:30 PM)
+- James (PST, UTC-8, works 9 AM, 6 PM)
+- Rosa (CST, UTC-6, works 8 AM, 5:30 PM)
+- Diego (EST, UTC-5, works 8 AM, 5 PM)
+- Ana (Brasília Time, UTC-3, works 8 AM, 5 PM)
+- Carlos (Mexico City, UTC-6, works 8 AM, 5:30 PM)
 
 Calculation:
 
@@ -287,7 +287,7 @@ When it's 9 AM PST:
 - 2 PM BRT (Ana, working)
 - 11 AM Mexico City (Carlos, working)
 
-Optimal windows: 9 AM–12 PM PST covers all team members' working hours.
+Optimal windows: 9 AM, 12 PM PST covers all team members' working hours.
 
 Decision: Schedule standing meetings at 10 AM PST / 12 PM EST / 11 AM CST and Mexico City. Ana (Brazil) attends at 2 PM, which is mid-afternoon but still in her workday.
 
@@ -313,7 +313,7 @@ Building a Team Scheduling Culture
 
 Once you've solved the timezone math, establish communication norms:
 
-Document core hours: "Our team has core working hours 1 PM–4 PM UTC (varies by timezone). We schedule synchronous meetings during this window. Outside core hours, communication is asynchronous."
+Document core hours: "Our team has core working hours 1 PM, 4 PM UTC (varies by timezone). We schedule synchronous meetings during this window. Outside core hours, communication is asynchronous."
 
 Rotate burden: If meetings must occur outside some team members' preferred hours, rotate who bears that burden. Don't make the same person always join at 7 AM.
 
@@ -325,7 +325,7 @@ Provide recordings: Record important synchronous sessions and share with team me
 
 Advanced: Building a Custom Scheduling Tool
 
-For teams with complex, recurring needs, a custom tool might be worth 8–10 hours of development time:
+For teams with complex, recurring needs, a custom tool might be worth 8, 10 hours of development time:
 
 ```python
 Python tool for finding optimal team meeting times

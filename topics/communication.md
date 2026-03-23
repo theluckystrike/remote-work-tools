@@ -5,7 +5,7 @@ description: "Guides and comparisons for remote team communication: Slack, Zoom,
 permalink: /topics/communication/
 ---
 
-# Remote Communication Tools
+Remote Communication Tools
 
 Guides and comparisons for team communication tools, video conferencing, and async messaging platforms.
 

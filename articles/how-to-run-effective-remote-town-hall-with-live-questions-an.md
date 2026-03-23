@@ -65,11 +65,11 @@ Agenda Structure That Works
 A 60-minute town hall with live questions runs more smoothly with this structure:
 
 ```
-00:00 – 00:05   Welcome and logistics (how Q&A works today)
-00:05 – 00:20   Company update (metrics, wins, challenges)
-00:20 – 00:35   Focus topic (deep dive: one strategic decision or initiative)
-00:35 – 00:55   Live Q&A
-00:55 – 01:00   Next steps and close
+00:00, 00:05   Welcome and logistics (how Q&A works today)
+00:05, 00:20   Company update (metrics, wins, challenges)
+00:20, 00:35   Focus topic (detailed look: one strategic decision or initiative)
+00:35, 00:55   Live Q&A
+00:55, 01:00   Next steps and close
 ```
 
 The 20-minute Q&A block is the minimum that makes live questions feel real rather than theatrical. Anything shorter and the audience knows questions will be cut off, so fewer people bother submitting.
@@ -77,11 +77,11 @@ The 20-minute Q&A block is the minimum that makes live questions feel real rathe
 For town halls with 100+ attendees, a 75-minute format with 30 minutes of Q&A gives more room:
 
 ```
-00:00 – 00:05   Welcome
-00:05 – 00:25   Company update
-00:25 – 00:45   Focus topic with guest presenter
-00:45 – 01:15   Live Q&A
-01:15 – 01:20   Async follow-up process and close
+00:00, 00:05   Welcome
+00:05, 00:25   Company update
+00:25, 00:45   Focus topic with guest presenter
+00:45, 01:15   Live Q&A
+01:15, 01:20   Async follow-up process and close
 ```
 
 ---

@@ -104,7 +104,7 @@ Settings → Output → Recording
 Recording Format: MKV (more reliable on crash; convert to MP4 after)
 Encoder: x264 (CPU) or NVENC (GPU if available)
 Rate Control: CRF
-CRF Value: 18–23 (18 = near lossless, 23 = good quality/size balance)
+CRF Value: 18, 23 (18 = near lossless, 23 = good quality/size balance)
 Preset: veryfast (good quality, fast encoding)
 
 Settings → Video

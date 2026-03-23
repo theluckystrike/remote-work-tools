@@ -204,7 +204,7 @@ Key metrics to track monthly:
 - Average message volume per channel (high variance indicates uneven information distribution)
 - New channels created per month versus channels archived per month
 
-A healthy workspace shows channel count growing slower than headcount. If channel count doubles while headcount increases by 20%, governance is failing. Target roughly 2–4 channels per employee for a well-organized workspace. 50 people should operate with 100–200 channels maximum.
+A healthy workspace shows channel count growing slower than headcount. If channel count doubles while headcount increases by 20%, governance is failing. Target roughly 2, 4 channels per employee for a well-organized workspace. 50 people should operate with 100, 200 channels maximum.
 
 Export this data monthly and review it in your engineering all-hands or ops review. Making the numbers visible creates accountability without requiring constant manual policing.
 
@@ -230,7 +230,7 @@ const result = await client.admin.conversations.list({
 const smallPrivate = result.conversations.filter(c => c.num_members < 3);
 ```
 
-Small private channels. particularly those with only 1–2 members. are strong candidates for archiving or converting to direct messages.
+Small private channels. particularly those with only 1, 2 members. are strong candidates for archiving or converting to direct messages.
 
 Integrating Channel Governance with Offboarding
 

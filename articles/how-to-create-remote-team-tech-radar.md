@@ -334,8 +334,8 @@ Step 12: Run Your First Radar Session
 The first time a team builds a radar, the session often stalls because nobody is sure what ring to assign to a technology they have mixed feelings about. Use this facilitation format for remote teams:
 
 Async phase (Week 1. 45 minutes per person):
-1. Each engineer independently lists 5–10 technologies they have a strong opinion about
-2. They assign a ring (ADOPT/TRIAL/ASSESS/HOLD) and write 2–3 sentences of reasoning
+1. Each engineer independently lists 5, 10 technologies they have a strong opinion about
+2. They assign a ring (ADOPT/TRIAL/ASSESS/HOLD) and write 2, 3 sentences of reasoning
 3. Submit as draft PRs or a shared spreadsheet
 
 Synthesis phase (async, Day 1 of Week 2):

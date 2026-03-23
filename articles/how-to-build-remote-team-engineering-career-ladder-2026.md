@@ -49,21 +49,21 @@ Career Ladder Framework
 Core Levels (Typical Tech Company)
 
 Junior Engineer (L1)
-- 0–2 years experience
+- 0, 2 years experience
 - Focuses on assigned tasks, shipping features
 - Code reviewed by mid-level engineers
 - Limited context on product decisions
 
 Mid-Level Engineer (L2)
-- 2–5 years experience
+- 2, 5 years experience
 - Owns features end-to-end (design, code, testing, deployment)
 - Mentors juniors informally
 - Contributes to technical discussions
 
 Senior Engineer (L3)
-- 5–10 years experience
+- 5, 10 years experience
 - Drives architecture decisions
-- Mentors 2–3 engineers formally
+- Mentors 2, 3 engineers formally
 - Participates in hiring and code reviews across teams
 - Responsible for system reliability and performance
 
@@ -91,9 +91,9 @@ Technical Skills:
 - Understands version control, CI/CD basics
 
 Scope:
-- 3–5 day tasks assigned by manager
+- 3, 5 day tasks assigned by manager
 - Works on features without external dependencies
-- Contributes code to 1–2 projects
+- Contributes code to 1, 2 projects
 
 Collaboration:
 - Asks questions before blocked
@@ -112,12 +112,12 @@ Technical Skills:
 - Owns debugging; solves most problems without escalation
 
 Scope:
-- 1–2 week projects assigned by manager OR self-proposed
-- Features that span 2–3 services
+- 1, 2 week projects assigned by manager OR self-proposed
+- Features that span 2, 3 services
 - Takes on on-call for critical systems
 
 Collaboration:
-- Mentors 1–2 juniors (code review, pairing)
+- Mentors 1, 2 juniors (code review, pairing)
 - Leads technical discussions (estimation, tradeoff analysis)
 - Proposes process improvements
 - Communicates status proactively
@@ -140,7 +140,7 @@ Scope:
 - Makes architectural decisions affecting 3+ services
 
 Collaboration:
-- Formally mentors 2–3 engineers
+- Formally mentors 2, 3 engineers
 - Leads architecture reviews (FYI: this is where scope becomes visible in remote teams)
 - Interviewing: screens candidates, leads technical rounds
 - Thought leadership: proposes systems, teaches best practices
@@ -156,7 +156,7 @@ Technical Skills:
 - Debugs issues that stump senior engineers
 
 Scope:
-- Drives 2–3 major initiatives simultaneously (6–12 month horizon)
+- Drives 2, 3 major initiatives simultaneously (6, 12 month horizon)
 - Decisions affect entire company's technical direction
 - Owns critical systems: revenue, security, uptime
 
@@ -172,13 +172,13 @@ Compensation Bands (2026 Market Rates)
 
 | Level | Title | Salary (Range) | Equity/Year | Total (SF Comparable) |
 |---|---|---|---|---|
-| L1 | Junior Engineer | $120K–$160K | 0.01–0.02% | $140K–$190K |
-| L2 | Engineer | $160K–$220K | 0.02–0.04% | $190K–$270K |
-| L3 | Senior Engineer | $220K–$300K | 0.04–0.10% | $270K–$380K |
-| L4 | Staff Engineer | $300K–$380K | 0.10–0.25% | $380K–$500K |
-| L5 | Principal Engineer | $380K–$500K+ | 0.25–0.50% | $500K–$650K+ |
+| L1 | Junior Engineer | $120K, $160K | 0.01, 0.02% | $140K, $190K |
+| L2 | Engineer | $160K, $220K | 0.02, 0.04% | $190K, $270K |
+| L3 | Senior Engineer | $220K, $300K | 0.04, 0.10% | $270K, $380K |
+| L4 | Staff Engineer | $300K, $380K | 0.10, 0.25% | $380K, $500K |
+| L5 | Principal Engineer | $380K, $500K+ | 0.25, 0.50% | $500K, $650K+ |
 
-*Remote work often means 10–30% discount vs. SF/NYC; adjust accordingly.*
+*Remote work often means 10, 30% discount vs. SF/NYC; adjust accordingly.*
 
 Promotion Process (Quarterly Calibration)
 
@@ -190,7 +190,7 @@ Month 1 (Jan/Apr/Jul/Oct):
 - Compile promotion packet (examples of work, impact)
 
 Month 2:
-- Calibration session: 4–8 senior engineers review all promotions together
+- Calibration session: 4, 8 senior engineers review all promotions together
 - Ensure consistency across levels
 - Approve or defer with clear feedback
 
@@ -214,7 +214,7 @@ Technical Work
    - 40% faster checkout, no data loss
 
 2. Junior Mentorship: Alex Chen
-   - Code review feedback: Alex went from 5 revisions/PR → 1–2 revisions
+   - Code review feedback: Alex went from 5 revisions/PR → 1, 2 revisions
    - Pair programming: 2 sessions/week for 6 months
    - Outcome: Alex promoted to mid-level
 
@@ -263,7 +263,7 @@ Challenge: Team is split US/EU/APAC. Hard to have synchronized calibration.
 
 Solution: Async-first calibration.
 1. Upload all promotion packets to shared doc (Tuesday)
-2. Async comments + questions (Wed–Thu)
+2. Async comments + questions (Wed, Thu)
 3. Real-time 1-hour calibration call (Friday, accommodates 2 zones)
 4. Document decisions, async follow-ups for third zone
 
@@ -272,11 +272,11 @@ Challenge: Remote market rates vary wildly (US: $250K, India: $80K, EU: $180K).
 
 Solution: Use role-based bands, not geo-based.
 ```
-L2 Engineer Salary Band: $160K–$220K (regardless of location)
+L2 Engineer Salary Band: $160K, $220K (regardless of location)
 Adjustments:
 - High CoL (SF, NYC, London): +0%
-- Medium CoL (Denver, Toronto): –10%
-- Lower CoL (Austin, APAC): –20%
+- Medium CoL (Denver, Toronto): , 10%
+- Lower CoL (Austin, APAC): , 20%
 ```
 *Ensures equity; avoids location-based discrimination; remains competitive in local markets.*
 
@@ -286,18 +286,18 @@ Title: Senior Engineer
 
 Reports To: Engineering Manager or Staff Engineer
 
-Compensation: $220K–$300K base, 0.04–0.10% equity, full benefits
+Compensation: $220K, $300K base, 0.04, 0.10% equity, full benefits
 
 Responsibilities:
 
 1. Technical Ownership (40%)
- - Own 2–3 systems end-to-end (architecture, reliability, performance)
+ - Own 2, 3 systems end-to-end (architecture, reliability, performance)
  - Write RFCs for major changes; lead architecture reviews
  - Take on-call for critical systems
  - Mentor code, propose refactors for team scalability
 
 2. Mentorship (30%)
- - Formally mentor 2–3 engineers
+ - Formally mentor 2, 3 engineers
  - Weekly 1:1 pairing or code review sessions
  - Help juniors debug complex issues
  - Document patterns, best practices
@@ -314,7 +314,7 @@ Responsibilities:
  - Explore new technologies
 
 Success Metrics:
-- Shipped 2–4 major features per quarter
+- Shipped 2, 4 major features per quarter
 - Zero critical production incidents (post-incident review + improvement)
 - Mentees receive promotions or significant skill growth
 - Code quality: peer feedback positive
@@ -327,10 +327,10 @@ Growth Path:
 Promotion Frequency + Ratios
 
 Typical Tech Company (100 engineers):
-- L1 → L2: 30% per year (5–10 per year)
-- L2 → L3: 20% per year (10–15 per year)
-- L3 → L4: 5% per year (1–2 per year)
-- L4 → L5: <1% per year (0–1 per year)
+- L1 → L2: 30% per year (5, 10 per year)
+- L2 → L3: 20% per year (10, 15 per year)
+- L3 → L4: 5% per year (1, 2 per year)
+- L4 → L5: <1% per year (0, 1 per year)
 
 Avoid: More than 50% of team at senior levels; avoid compression at bottom levels.
 

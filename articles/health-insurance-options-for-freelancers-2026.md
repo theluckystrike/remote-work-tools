@@ -166,7 +166,7 @@ Cost-sharing programs have important limitations. Pre-existing conditions may ha
 
 State-Specific Programs
 
-Several states offer additional programs for freelancers and self-employed individuals. California's Covered California offers subsidies beyond federal levels. New York's Essential Plan covers low-income individuals at $0–$50/month. Massachusetts offers ConnectorCare with fixed copays, and Minnesota offers MinnesotaCare with income-based premiums. Check your state marketplace for programs beyond standard ACA options.
+Several states offer additional programs for freelancers and self-employed individuals. California's Covered California offers subsidies beyond federal levels. New York's Essential Plan covers low-income individuals at $0, $50/month. Massachusetts offers ConnectorCare with fixed copays, and Minnesota offers MinnesotaCare with income-based premiums. Check your state marketplace for programs beyond standard ACA options.
 
 Practical Strategy: The Freelancer Stack
 

@@ -161,8 +161,8 @@ Choosing the right tool depends on your team's existing workflow and the level o
 | Geekbot | Slack-native teams | Prompted async updates | Slack, Jira, GitHub | $2.50 |
 | Range | Engineering teams | Activity-driven + manual | GitHub, Linear, Calendar | $6 |
 | Lattice | HR-driven accountability | Goal check-ins + reviews | HRIS systems | $11 |
-| Linear + GitHub Actions | Developer-first | Issue-based, automated | Full Git workflow | Free–$8 |
-| Notion + Automations | Custom workflows | Flexible database | Zapier, Slack | $10–16 |
+| Linear + GitHub Actions | Developer-first | Issue-based, automated | Full Git workflow | Free, $8 |
+| Notion + Automations | Custom workflows | Flexible database | Zapier, Slack | $10, 16 |
 
 For small engineering teams (under 20 people), Geekbot or a GitHub Actions workflow gives you 80% of the value at minimal cost. Larger organizations with HR requirements benefit from Lattice's integration with performance review cycles. The custom approach using Linear and GitHub Actions requires more setup but gives you complete control over the data.
 

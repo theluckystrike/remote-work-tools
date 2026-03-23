@@ -494,10 +494,10 @@ A practical severity model based on CVSS scores and exploitability:
 
 | Severity | CVSS Score | Response Time | Deployment Window |
 |---|---|---|---|
-| Critical | 9.0–10.0 | Within 4 hours | Any time, including off-hours |
-| High | 7.0–8.9 | Within 24 hours | Next available deployment window |
-| Medium | 4.0–6.9 | Within 7 days | Standard weekly deployment |
-| Low | 0.1–3.9 | Next monthly cycle | Batch with minor updates |
+| Critical | 9.0, 10.0 | Within 4 hours | Any time, including off-hours |
+| High | 7.0, 8.9 | Within 24 hours | Next available deployment window |
+| Medium | 4.0, 6.9 | Within 7 days | Standard weekly deployment |
+| Low | 0.1, 3.9 | Next monthly cycle | Batch with minor updates |
 
 For remote teams, the critical threshold is the most important to codify. Define ahead of time who gets paged outside business hours for a critical CVE. This prevents both the scenario where a critical vulnerability sits unaddressed for days because no one wanted to interrupt a colleague's evening, and the opposite scenario where every advisory triggers panic messages across time zones.
 

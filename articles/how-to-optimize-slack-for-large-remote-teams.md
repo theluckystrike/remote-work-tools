@@ -69,7 +69,7 @@ Workspace-level settings (Admin console):
 
 ```
 Do Not Disturb:
-  Default hours: 8pm–8am local time
+  Default hours: 8pm, 8am local time
   Allow members to override: Yes
 
 Notification defaults:
@@ -247,7 +247,7 @@ Working hours configuration:
 
 ```
 Preferences → Notifications → Allow notifications from...
-Set your working hours: e.g., 9am–6pm Mon-Fri (your local time)
+Set your working hours: e.g., 9am, 6pm Mon-Fri (your local time)
 Others see "In a meeting" or "Outside working hours" badge
 ```
 

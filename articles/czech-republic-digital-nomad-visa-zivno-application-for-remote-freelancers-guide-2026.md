@@ -49,7 +49,7 @@ Business Activity Requirement: You must demonstrate active business operations. 
 
 Financial Threshold: Show proof of sufficient funds. typically around 5,000 EUR in a blocked account or equivalent savings. Some applicants use a combination of savings plus evidence of regular client income.
 
-Health Insurance: Mandatory Czech public or private health insurance coverage for the entire visa duration. Private insurance for visa purposes costs approximately 1,500–3,000 CZK (60–120 EUR) monthly.
+Health Insurance: Mandatory Czech public or private health insurance coverage for the entire visa duration. Private insurance for visa purposes costs approximately 1,500, 3,000 CZK (60, 120 EUR) monthly.
 
 Clean Record: No criminal record in your country of origin or residence.
 
@@ -111,9 +111,9 @@ Understanding the ongoing costs helps with planning:
 
 | Item | Monthly Cost (CZK) | Monthly Cost (EUR) |
 |------|-------------------|-------------------|
-| Health insurance | 1,800 – 3,000 | 70 – 120 |
-| Accounting (optional) | 2,000 – 5,000 | 80 – 200 |
-| Virtual office | 1,500 – 3,000 | 60 – 120 |
+| Health insurance | 1,800, 3,000 | 70, 120 |
+| Accounting (optional) | 2,000, 5,000 | 80, 200 |
+| Virtual office | 1,500, 3,000 | 60, 120 |
 | Tax advance | ~5,000+ | ~200+ |
 
 Taxes work on a "sole proprietor" basis. You'll pay income tax plus mandatory social and health contributions. Many freelancers use Paušální daň (flat-rate tax) which simplifies calculations significantly.

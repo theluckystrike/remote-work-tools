@@ -18,7 +18,7 @@ intent-checked: true
 
 Conflict in remote teams is invisible until it's catastrophic. You don't see the tension in a Slack channel; you see the resignation letter from your best engineer. Remote work eliminates casual resolution (hallway conversations, team lunch diffusion); it escalates asynchronous misunderstandings into entrenched positions.
 
-This guide codifies a conflict resolution framework used by distributed teams (50–500 people) across SaaS and open-source projects. It's designed for async-first environments where synchronous meetings aren't always possible, and decisions need documentation trails.
+This guide codifies a conflict resolution framework used by distributed teams (50, 500 people) across SaaS and open-source projects. It's designed for async-first environments where synchronous meetings aren't always possible, and decisions need documentation trails.
 
 Prerequisites
 
@@ -44,7 +44,7 @@ Async reality:
 
 - Disagreement is written (Slack, GitHub issue, email)
 - Tone is ambiguous (sarcasm reads as hostility; directness reads as aggression)
-- Time zones delay responses (8–24 hour gaps compound misunderstanding)
+- Time zones delay responses (8, 24 hour gaps compound misunderstanding)
 - Written statements harden into positions (hard to retract casually)
 - Third parties see only the thread, not the context or relationship history
 
@@ -104,9 +104,9 @@ No, I was right the first time. You're not thinking about edge cases.
 
 If response is bad: Escalate to Layer 2.
 
-Success rate: ~70% of remote conflicts resolve here with 1–2 exchanges. The privacy removes audience pressure and lets people back down gracefully.
+Success rate: ~70% of remote conflicts resolve here with 1, 2 exchanges. The privacy removes audience pressure and lets people back down gracefully.
 
-Timeline: Expect 24–48 hours for resolution (time zones, response delays).
+Timeline: Expect 24, 48 hours for resolution (time zones, response delays).
 
 Layer 2: Document the Disagreement
 
@@ -235,7 +235,7 @@ Why this works:
 
 Success rate: ~85% resolve by Layer 2 because structure forces clarity. Often, just writing it down reveals the actual disagreement is narrower than seemed.
 
-Timeline: 48–72 hours for documentation + response.
+Timeline: 48, 72 hours for documentation + response.
 
 Layer 3: Mediated Async Discussion
 
@@ -293,7 +293,7 @@ Why mediation works:
 
 Success rate: ~90% resolve at Layer 3. The mediation usually reveals both people are actually agreed on goals, just differed on implementation.
 
-Timeline: 4–7 days (allows async back-and-forth + mediation response).
+Timeline: 4, 7 days (allows async back-and-forth + mediation response).
 
 Layer 4: Structured Decision (Manager + Documentation)
 
@@ -396,7 +396,7 @@ Why this works:
 
 Success rate: 98%. Doesn't prevent resentment, but prevents repeated conflict.
 
-Timeline: 2–3 days (manager review + documentation).
+Timeline: 2, 3 days (manager review + documentation).
 
 Layer 5: Escalation (HR, Exec, or Team Exit)
 
@@ -511,7 +511,7 @@ The framework isn't slow. It's faster than the alternative: repeated conflicts, 
 Real timeline comparison:
 
 - Informal + syncing: 2 weeks of Slack threads, 3 sync meetings, decision still unclear
-- Structured framework: 4 days (Layers 1–3) to clear resolution
+- Structured framework: 4 days (Layers 1, 3) to clear resolution
 
 Step 38: Red Flags: When to Escalate Faster
 

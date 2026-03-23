@@ -42,7 +42,7 @@ Strengths:
 - XLR output for audio interface upgrade path
 
 Weaknesses:
-- Needs to be close to your mouth (3–6 inches) for best results
+- Needs to be close to your mouth (3, 6 inches) for best results
 - No built-in headphone output for direct monitoring
 - Less "airy" sound than condenser mics. some find it sounds boxy until dialed in
 
@@ -77,7 +77,7 @@ Strengths:
 
 Weaknesses:
 - $250 is the most expensive USB mic here. hard to justify vs. PodMic at $130
-- Auto-level adds 2–5ms latency compared to manual gain
+- Auto-level adds 2, 5ms latency compared to manual gain
 - ShurePlus MOTIV app is required to unlock advanced settings (no Windows app at launch)
 
 ShurePlus MOTIV config for calls:
@@ -156,7 +156,7 @@ On Linux
 pactl set-default-source alsa_input.usb-DJI_Mic_2
 ```
 
-Lavalier placement: Clip to shirt/collar 6–8 inches below mouth. Thread the cable inside the shirt to avoid rustling. Avoid clipping near a collar seam.
+Lavalier placement: Clip to shirt/collar 6, 8 inches below mouth. Thread the cable inside the shirt to avoid rustling. Avoid clipping near a collar seam.
 
 ---
 
@@ -175,10 +175,10 @@ Acoustic Treatment on a Budget
 
 Before upgrading a microphone, address the room. In order of impact:
 
-1. Heavy curtains on windows. cuts reflection and echo, $30–80
+1. Heavy curtains on windows. cuts reflection and echo, $30, 80
 2. Bookshelf behind you filled with books. irregular surface diffuses sound
 3. Sit in a corner. two walls behind you reduce reverb
-4. Foam panels on the wall you face. $20–40 for a starter pack
+4. Foam panels on the wall you face. $20, 40 for a starter pack
 
 A $100 microphone in a treated room beats a $300 microphone in a reflective room.
 

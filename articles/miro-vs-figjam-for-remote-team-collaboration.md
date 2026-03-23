@@ -211,7 +211,7 @@ Beyond sticker price, consider the total cost of ownership:
 
 Miro annual cost for a 10-person team: $1,200 per year (10 editors × $10/month) plus time investment for learning advanced features. Total: $1,200 + ~40 hours training time.
 
-FigJam annual cost for a 10-person team: $0 if they already use Figma Professional ($120/year per license). If not, $1,800 per year (10 editors × $15/month). Total: $0–$1,800 depending on existing Figma investment.
+FigJam annual cost for a 10-person team: $0 if they already use Figma Professional ($120/year per license). If not, $1,800 per year (10 editors × $15/month). Total: $0, $1,800 depending on existing Figma investment.
 
 The ROI equation shifts dramatically based on your existing design tool investment. A team already buying Figma licenses gets FigJam free. A pure development team without design tools will find Miro's broader feature set justifies the cost.
 
@@ -291,7 +291,7 @@ If your team exceeds 50 people in a single board session, performance characteri
 
 Miro handles large sessions more gracefully. Its architecture scales to hundreds of concurrent users without noticeable degradation. A 80-person all-hands workshop runs smoothly on Miro.
 
-FigJam's performance remains solid for typical sessions (4–15 participants) but shows lag when approaching 50+ simultaneous users. Developers building automation for large organizations should test FigJam's limits before committing to it as their primary tool.
+FigJam's performance remains solid for typical sessions (4, 15 participants) but shows lag when approaching 50+ simultaneous users. Developers building automation for large organizations should test FigJam's limits before committing to it as their primary tool.
 
 The Bottom Line
 

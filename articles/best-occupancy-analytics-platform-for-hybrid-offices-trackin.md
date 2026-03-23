@@ -53,7 +53,7 @@ Sensor selection is the most consequential decision in any occupancy analytics d
 
 PIR (Passive Infrared) sensors are the lowest-cost option and work well for room-level tracking. They detect body heat and motion but generate false negatives when occupants are sitting still for more than a few minutes. Suitable for meeting rooms but unreliable for focus desks where engineers may sit for hours without moving appreciably.
 
-Ultrasonic sensors solve the stillness problem by emitting sound waves and detecting disturbances in the field. They have better accuracy for sedentary occupants but are more expensive and require careful placement to avoid interference from HVAC air currents or ceiling-mounted diffusers. Budget roughly 2–3x the cost of PIR sensors.
+Ultrasonic sensors solve the stillness problem by emitting sound waves and detecting disturbances in the field. They have better accuracy for sedentary occupants but are more expensive and require careful placement to avoid interference from HVAC air currents or ceiling-mounted diffusers. Budget roughly 2, 3x the cost of PIR sensors.
 
 Computer vision / camera-based systems offer the highest accuracy and can provide people counts rather than simple binary presence signals. Modern privacy-preserving implementations run inference locally on the edge device and transmit only aggregate counts, no identifiable images leave the sensor. These are significantly more expensive but deliver the data granularity needed for density management in large open-plan offices. Most vendors achieving SOC 2 or ISO 27001 certification now default to on-device processing with only metadata transmitted.
 
@@ -169,7 +169,7 @@ def calculate_room_utilization(
 
 This calculation reveals booking efficiency, a critical metric for rightsizing office space. High "wasted bookings" suggests either over-booking culture or inadequate meeting room availability.
 
-The most actionable insight from this analysis is identifying ghost meetings: rooms booked but never used. Industry data consistently shows ghost meeting rates of 30–40% in offices without automatic release policies. Occupancy data lets you implement auto-release: if a room is booked but shows no occupancy 10 minutes past the meeting start, the system releases it back to the pool and notifies the organizer. This single feature alone typically improves room availability perception by 20–30% without adding any physical rooms, a compelling ROI argument for the analytics investment.
+The most actionable insight from this analysis is identifying ghost meetings: rooms booked but never used. Industry data consistently shows ghost meeting rates of 30, 40% in offices without automatic release policies. Occupancy data lets you implement auto-release: if a room is booked but shows no occupancy 10 minutes past the meeting start, the system releases it back to the pool and notifies the organizer. This single feature alone typically improves room availability perception by 20, 30% without adding any physical rooms, a compelling ROI argument for the analytics investment.
 
 Building Real-Time Dashboards
 
@@ -305,13 +305,13 @@ def handle_occupancy_event():
     return jsonify({'status': 'processed'})
 ```
 
-Common downstream integrations include updating digital signage with floor availability, triggering HVAC setpoint adjustments when floors reach capacity thresholds (reducing energy costs on under-used days), and sending Slack notifications to facilities teams when cleaning crews are needed in high-traffic zones after peak hours. Organizations that wire occupancy data into their building management system (BMS) directly typically report energy savings of 15–25% on HVAC alone, which often pays for the sensor infrastructure within 18–24 months.
+Common downstream integrations include updating digital signage with floor availability, triggering HVAC setpoint adjustments when floors reach capacity thresholds (reducing energy costs on under-used days), and sending Slack notifications to facilities teams when cleaning crews are needed in high-traffic zones after peak hours. Organizations that wire occupancy data into their building management system (BMS) directly typically report energy savings of 15, 25% on HVAC alone, which often pays for the sensor infrastructure within 18, 24 months.
 
 Privacy Considerations and Data Governance
 
 Occupancy analytics must balance workplace optimization with employee privacy. Implement data minimization by collecting only necessary metrics, aggregate data where individual tracking isn't required, and establish clear data retention policies. Many jurisdictions require notification when using camera-based or identity-aware tracking systems.
 
-A practical governance framework covers four areas. First, define what data is collected and at what granularity, floor-level counts vs. individual desk tracking have very different privacy implications. Second, establish retention windows: raw sensor events should typically be retained for 30–90 days, while aggregated trend data can be kept for multi-year portfolio analysis. Third, create a clear consent and communication plan so employees understand what is and is not tracked before deployment begins. Fourth, configure role-based access controls so HR cannot access granular movement data that facilities managers legitimately need for cleaning schedule optimization.
+A practical governance framework covers four areas. First, define what data is collected and at what granularity, floor-level counts vs. individual desk tracking have very different privacy implications. Second, establish retention windows: raw sensor events should typically be retained for 30, 90 days, while aggregated trend data can be kept for multi-year portfolio analysis. Third, create a clear consent and communication plan so employees understand what is and is not tracked before deployment begins. Fourth, configure role-based access controls so HR cannot access granular movement data that facilities managers legitimately need for cleaning schedule optimization.
 
 In organizations with works councils or strong union representation, involve employee representatives in the governance design early. Retroactively applying data governance policies after deployment is significantly harder than building employee trust into the design from the start.
 

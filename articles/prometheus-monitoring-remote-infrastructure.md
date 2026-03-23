@@ -369,7 +369,7 @@ Step 6. Configure Alertmanager routing. Route critical alerts to PagerDuty and a
 
 Step 7. Set up a reverse proxy. Put Nginx or Caddy in front of Grafana with TLS termination. Never expose Grafana or Prometheus directly on a public IP without authentication.
 
-Step 8. Schedule retention review. At 90-day retention and 15-second scrape intervals, a 50-target fleet generates roughly 15–20 GB of TSDB data. Monitor Prometheus disk usage (`node_filesystem_avail_bytes` on the monitoring server itself) and adjust `--storage.tsdb.retention.time` accordingly.
+Step 8. Schedule retention review. At 90-day retention and 15-second scrape intervals, a 50-target fleet generates roughly 15, 20 GB of TSDB data. Monitor Prometheus disk usage (`node_filesystem_avail_bytes` on the monitoring server itself) and adjust `--storage.tsdb.retention.time` accordingly.
 
 Additional Exporters for Remote Infrastructure
 

@@ -81,11 +81,11 @@ Schedule consistency: Same day + time every week. Tuesday or Wednesday at 10am. 
 The Effective Remote 1:1 Structure (30 Minutes)
 
 Time Allocation:
-- 0–2 min: Personal check-in (weather, weekend, trivial small talk)
-- 2–10 min: Their agenda (report-driven topics)
-- 10–20 min: Your agenda (feedback, updates, blockers)
-- 20–28 min: Career/growth discussion (quarterly rotation)
-- 28–30 min: Action items recap + close
+- 0, 2 min: Personal check-in (weather, weekend, trivial small talk)
+- 2, 10 min: Their agenda (report-driven topics)
+- 10, 20 min: Your agenda (feedback, updates, blockers)
+- 20, 28 min: Career/growth discussion (quarterly rotation)
+- 28, 30 min: Action items recap + close
 
 Tools:
 - Video on (always for remote; no exception).
@@ -135,7 +135,7 @@ Ground Rule: Report fills their agenda items before the meeting. You add yours. 
 
 Conversation Framework: The Four Pillars
 
-1. Performance + Execution (2–3 minutes)
+1. Performance + Execution (2, 3 minutes)
 
 Questions:
 - What did you accomplish this week? What was hard?
@@ -146,7 +146,7 @@ Why: Keeps you informed on progress without micromanaging. Also surfaces early w
 
 Do Not: Critique execution in the 1:1 unless it's part of larger feedback (see section below).
 
-2. Feedback (3–5 minutes)
+2. Feedback (3, 5 minutes)
 
 Ongoing feedback only. This is not the annual review.
 
@@ -157,12 +157,12 @@ Examples of good feedback:
 
 Delivery:
 - Specific. "Great job" is vague. Say what they did well.
-- Timely. Feedback within 1–2 days of the event lands better than retroactive.
+- Timely. Feedback within 1, 2 days of the event lands better than retroactive.
 - Balanced. Don't make 1:1s a pure feedback session. Mix positive + developmental.
 
 Do Not: Bury critical feedback in vague language. "You're sometimes hard to read" is useless. "When you don't speak up in meetings, I can't tell if you disagree or agree" is actionable.
 
-3. Career + Growth (5–7 minutes, rotated)
+3. Career + Growth (5, 7 minutes, rotated)
 
 Monthly focus: Rotate through these topics.
 - Week 1: Skills & learning (what do you want to improve?)
@@ -178,7 +178,7 @@ Sample Dialogue:
 
 Action: If career goals emerge, schedule separate planning session. 1:1s are discovery; planning sessions are design.
 
-4. Team + Culture (2–3 minutes)
+4. Team + Culture (2, 3 minutes)
 
 Listen, don't react.
 
@@ -382,8 +382,8 @@ Example Plan:
 
 Scaling to Multiple Reports
 
-Managing 5–7 reports:
-- Protect weekly 1:1 time (2.5–3.5 hours).
+Managing 5, 7 reports:
+- Protect weekly 1:1 time (2.5, 3.5 hours).
 - Batch administrative prep (agendas, feedback) into one block on Fridays.
 - Use templates to reduce prep time.
 

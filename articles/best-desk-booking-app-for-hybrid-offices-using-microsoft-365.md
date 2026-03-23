@@ -181,11 +181,11 @@ Not all desk booking platforms integrate with Microsoft 365 at the same depth. H
 
 | Platform | M365 SSO | Teams Bot | Outlook Sync | Floor Maps | Azure AD Groups | Price (per desk/mo) |
 |----------|----------|-----------|--------------|------------|-----------------|---------------------|
-| Robin | Yes | Yes | Yes | Yes | Yes | $3–5 |
-| iOffice | Yes | Limited | Yes | Yes | Yes | $4–7 |
-| WhereCloud | Yes | Yes | Yes | Yes | Yes | $2–4 |
-| Condeco | Yes | Yes | Yes | Yes | Yes | $5–8 |
-| Skedda | Yes | No | Yes | Yes | No | $1–3 |
+| Robin | Yes | Yes | Yes | Yes | Yes | $3, 5 |
+| iOffice | Yes | Limited | Yes | Yes | Yes | $4, 7 |
+| WhereCloud | Yes | Yes | Yes | Yes | Yes | $2, 4 |
+| Condeco | Yes | Yes | Yes | Yes | Yes | $5, 8 |
+| Skedda | Yes | No | Yes | Yes | No | $1, 3 |
 
 Robin stands out for its mature Teams bot, which lets employees book desks directly within a Teams channel or meeting. WhereCloud offers the best price-to-integration ratio for smaller deployments. Condeco is favored by enterprises with complex compliance requirements, particularly in financial services and healthcare.
 
@@ -262,9 +262,9 @@ Rollout Strategy for Hybrid Offices
 
 A phased rollout reduces adoption friction and gives facilities teams time to tune configuration before full deployment.
 
-Phase 1. Pilot (weeks 1–2): Enable the platform for one department or floor. Collect usage data, identify configuration gaps, and refine the desk map before expanding.
+Phase 1. Pilot (weeks 1, 2): Enable the platform for one department or floor. Collect usage data, identify configuration gaps, and refine the desk map before expanding.
 
-Phase 2. Soft launch (weeks 3–4): Expand to all floors but keep bookings optional. Use this period to promote the Teams bot and Outlook add-in through internal communications. Track adoption rates by department.
+Phase 2. Soft launch (weeks 3, 4): Expand to all floors but keep bookings optional. Use this period to promote the Teams bot and Outlook add-in through internal communications. Track adoption rates by department.
 
 Phase 3. Full deployment (week 5+): Make desk booking mandatory for in-office days. Enable auto-release, enforce check-in requirements, and begin pulling Power BI occupancy reports to inform space planning decisions.
 

@@ -145,11 +145,11 @@ Tool Comparison
 
 | Tool | Best For | Privacy Model | Price/user/month | Surveillance Risk |
 |---|---|---|---|---|
-| Time Doctor | Agencies, billing | Manager-controlled | $5.90–$16.70 | High if screenshots enabled |
-| Hubstaff | Teams with project trackers | Manager-controlled | $7–$20 | Medium |
-| RescueTime | Individual self-insight | Individual-first | Free–$6.50 | Low |
-| Toggl Track | Simple time tracking | User-controlled | Free–$9 | Very low |
-| Clockify | Budget teams, billing | User-controlled | Free–$7.99 | Very low |
+| Time Doctor | Agencies, billing | Manager-controlled | $5.90, $16.70 | High if screenshots enabled |
+| Hubstaff | Teams with project trackers | Manager-controlled | $7, $20 | Medium |
+| RescueTime | Individual self-insight | Individual-first | Free, $6.50 | Low |
+| Toggl Track | Simple time tracking | User-controlled | Free, $9 | Very low |
+| Clockify | Budget teams, billing | User-controlled | Free, $7.99 | Very low |
 
 Toggl Track and Clockify are worth mentioning as purely manual, user-controlled trackers. There is no background monitoring. users start and stop timers themselves. This eliminates surveillance risk entirely and works well for teams that want billable-hour tracking without any automated monitoring. The tradeoff is lower data completeness (people forget to start timers).
 

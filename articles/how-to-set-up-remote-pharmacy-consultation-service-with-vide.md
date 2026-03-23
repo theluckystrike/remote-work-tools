@@ -175,9 +175,9 @@ Building a remote pharmacy consultation service demands attention to healthcare-
 
 Cost Analysis: Building vs. Buying
 
-Building custom: Initial development $50,000–$150,000 depending on scope. Ongoing maintenance $5,000–$10,000 monthly. Time to launch: 4–6 months.
+Building custom: Initial development $50,000, $150,000 depending on scope. Ongoing maintenance $5,000, $10,000 monthly. Time to launch: 4, 6 months.
 
-Using existing platforms with APIs: Initial setup $10,000–$25,000. Ongoing costs: $2,000–$8,000 monthly depending on consultation volume. Time to launch: 2–4 weeks.
+Using existing platforms with APIs: Initial setup $10,000, $25,000. Ongoing costs: $2,000, $8,000 monthly depending on consultation volume. Time to launch: 2, 4 weeks.
 
 Most pharmacy networks under $5M annual revenue should adopt existing platforms rather than building custom systems. The ongoing maintenance burden exceeds the value for smaller operations.
 
@@ -236,7 +236,7 @@ Compliance:
 - State pharmacy practice laws for remote consultations
 - Patient authentication and consent
 
-Expect 4–8 hours of training per pharmacist before handling live consultations.
+Expect 4, 8 hours of training per pharmacist before handling live consultations.
 
 Regulatory Considerations by Jurisdiction
 
@@ -284,7 +284,7 @@ PMS integration benefits:
 - Insurance verification happens before the consultation
 - Follow-up prescriptions queue for filling
 
-Most modern pharmacy systems (Nexgen, PDX, Rx30) offer APIs for integrating external services. Budget 40–60 hours for API integration if building custom solutions.
+Most modern pharmacy systems (Nexgen, PDX, Rx30) offer APIs for integrating external services. Budget 40, 60 hours for API integration if building custom solutions.
 
 Patient Acquisition and Marketing
 
@@ -309,7 +309,7 @@ Track these KPIs to assess program health:
 
 - Consultation completion rate: Percentage of booked consultations that occur (target: >90%)
 - Patient satisfaction: NPS score for consultation experience (target: >7/10)
-- Average consultation duration: 10–15 minutes is typical for medication consultations
+- Average consultation duration: 10, 15 minutes is typical for medication consultations
 - Revenue per consultation: Compare against in-store staff costs
 - Repeat consultation rate: Percentage of patients using consultations multiple times (target: >40% of active patients)
 - Technical issue rate: Percentage of consultations affected by technology problems (target: <5%)

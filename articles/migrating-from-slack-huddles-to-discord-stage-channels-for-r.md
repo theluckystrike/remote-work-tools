@@ -241,23 +241,23 @@ Handling Transition Resistance
 
 Team members accustomed to Slack huddles may resist switching to Discord. Address common concerns proactively:
 
-"I don't want to manage another app" – Point out that Discord can replace both Slack huddles and video calls for many use cases, potentially reducing the number of tools your team needs.
+"I don't want to manage another app", Point out that Discord can replace both Slack huddles and video calls for many use cases, potentially reducing the number of tools your team needs.
 
-"I prefer Slack's simplicity" – Discord's interface is comparable to Slack once you configure it for your team's needs. Create custom Discord categories that mirror your Slack channel structure.
+"I prefer Slack's simplicity", Discord's interface is comparable to Slack once you configure it for your team's needs. Create custom Discord categories that mirror your Slack channel structure.
 
-"What about message history?" – Discord supports message search and can integrate with Slack through third-party bots if you need to preserve conversation history.
+"What about message history?", Discord supports message search and can integrate with Slack through third-party bots if you need to preserve conversation history.
 
-"We use Slack Connect with external partners" – This is a genuine limitation. Discord does not have an equivalent to Slack Connect for guest access across organizations. If external contractor or partner communication is critical, keeping Slack for that use case while moving internal audio to Discord is a valid hybrid approach.
+"We use Slack Connect with external partners", This is a genuine limitation. Discord does not have an equivalent to Slack Connect for guest access across organizations. If external contractor or partner communication is critical, keeping Slack for that use case while moving internal audio to Discord is a valid hybrid approach.
 
 Best Practices for Remote Team Audio Discussions
 
 Following these practices ensures productive stage channel discussions:
 
-- Establish an agenda – Post discussion topics in advance so participants can prepare
-- Use the moderator role – Assign someone to manage speaker requests and keep discussions on track
-- Record important sessions – Discord supports session recording for team members in different time zones
-- Create recurring stage events – Use Discord's event scheduler for regular standups and meetings
-- Post a text summary – After each stage session, post a brief summary in the accompanying text channel so async team members can catch up without listening to a full recording
+- Establish an agenda, Post discussion topics in advance so participants can prepare
+- Use the moderator role, Assign someone to manage speaker requests and keep discussions on track
+- Record important sessions, Discord supports session recording for team members in different time zones
+- Create recurring stage events, Use Discord's event scheduler for regular standups and meetings
+- Post a text summary, After each stage session, post a brief summary in the accompanying text channel so async team members can catch up without listening to a full recording
 
 Related Articles
 

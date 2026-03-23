@@ -27,7 +27,7 @@ Why Async Standups Beat Synchronous Meetings
 A distributed team across 5 time zones:
 
 - Synchronous standup approach: 15 minutes × 5 people × 250 working days = 312 hours annually wasted on meeting overlap/timezone awkwardness
-- Async standup approach: 2–3 minutes per person to write update + manager reading time = 30 hours annually
+- Async standup approach: 2, 3 minutes per person to write update + manager reading time = 30 hours annually
 - Savings: 282 hours per team per year (equivalent to 1.4 FTE)
 
 Beyond time savings:
@@ -52,7 +52,7 @@ Effective templates follow three principles:
 2. Standardization across team. Same questions every day so pattern recognition develops
 3. Action-oriented focus. What did you finish? What are you working on? What's blocking you?
 
-Minimal Template (2–3 Minutes to Complete)
+Minimal Template (2, 3 Minutes to Complete)
 
 ```
 YESTERDAY
@@ -119,11 +119,11 @@ Price: Free tier (up to 5 team members); Pro tier $5/member/month
 Setup time: 5 minutes
 Learning curve: Minimal (native Slack integration)
 
-#### How It Works
+How It Works
 
 Geekbot posts a reminder in Slack at your configured time (e.g., 9 AM user's local time). Team member clicks the reaction, responds to prompts in DM, and standup automatically posts to a dedicated channel.
 
-#### Configuration Example
+Configuration Example
 
 ```
 Standup name: Daily Standup
@@ -138,7 +138,7 @@ Questions:
 Message thread: Replies are threaded, keeping channel organized
 ```
 
-#### Real-World Setup
+Real-World Setup
 
 1. Install Geekbot app in Slack workspace
 2. Configure questions (use template above)
@@ -146,7 +146,7 @@ Message thread: Replies are threaded, keeping channel organized
 4. Select channel for standup posting
 5. Geekbot automatically reminds team members daily
 
-#### Strengths
+Strengths
 
 - Zero extra tools: Lives in Slack, team uses nothing new
 - Automatic timezone handling: Each person submits at their local 9 AM, no awkward early/late calls
@@ -154,13 +154,13 @@ Message thread: Replies are threaded, keeping channel organized
 - Threaded conversations: Asynchronous follow-up on blockers doesn't clutter main channel
 - Integrations with other tools: Can connect to Jira, GitHub (optionally post standup summaries)
 
-#### Weaknesses
+Weaknesses
 
 - Limited customization: Can only use Slack UI, no advanced formatting
 - Slack-only: Requires Slack workspace; no standalone use
 - Pricing for large teams: $5/month × 50 people = $250/month for enterprise
 
-#### Pricing Breakdown
+Pricing Breakdown
 
 - Free: Up to 5 team members, unlimited standups
 - Pro: $5 per active team member per month
@@ -183,11 +183,11 @@ Price: Free tier; paid starts at $2.50/member/month
 Setup time: 5 minutes
 Learning curve: Minimal
 
-#### How It Works
+How It Works
 
 Similar to Geekbot but adds analytics dashboard showing team velocity, commitment vs. delivery, blocker trends over time.
 
-#### Key Features
+Key Features
 
 - Questions. Customize questions per team (engineers, marketing, design teams can use different templates)
 - Analytics Dashboard. Track blockers, completion rates, team health metrics
@@ -195,7 +195,7 @@ Similar to Geekbot but adds analytics dashboard showing team velocity, commitmen
 - Integration with Jira. Link commits/pull requests to standup items
 - Recurring patterns. Identifies recurring blockers (e.g., "design reviews" appear in 40% of blockers every Tuesday)
 
-#### Example Dashboard Data
+Example Dashboard Data
 
 Standuply tracks over 2 weeks:
 - Completion rate: 94% of team submitted standup on time
@@ -203,20 +203,20 @@ Standuply tracks over 2 weeks:
 - Commit vs. completion: 85% of yesterday's commitments completed today (identifies overcommitment)
 - Team sentiment: Can extract sentiment from written responses (improving/declining morale)
 
-#### Strengths
+Strengths
 
 - Actionable analytics: Managers see patterns managers miss (recurring blockers you can actually fix)
 - Low-friction Slack UI: Identical to Geekbot ease of use
 - Better for scaling: Per-team configuration (each team's template differs)
 - Reporting for executives: Dashboard export for board meetings or performance reviews
 
-#### Weaknesses
+Weaknesses
 
-- Analytics data takes time to accumulate: Patterns only emerge after 2–3 weeks
+- Analytics data takes time to accumulate: Patterns only emerge after 2, 3 weeks
 - Dashboard might encourage micro-management: Manager obsesses over daily metrics instead of team autonomy
 - Same Slack-only constraint as Geekbot
 
-#### Pricing
+Pricing
 
 - Free: Up to 5 team members
 - Starter: $2.50 per member per month (minimum 10 members = $25/month)
@@ -232,11 +232,11 @@ Price: Free tier; paid starts at $10/person/month
 Setup time: 15 minutes (more setup than Slack-native tools)
 Learning curve: Medium (introduces new platform)
 
-#### How It Works
+How It Works
 
 Range is a dedicated platform (not Slack-only) that combines async updates, goal tracking, and team engagement. Standups are part of broader team communication platform.
 
-#### Key Features
+Key Features
 
 - Daily standups. Customizable questions, threaded responses
 - Weekly goals. Teams set weekly OKRs, track progress against standup updates
@@ -245,7 +245,7 @@ Range is a dedicated platform (not Slack-only) that combines async updates, goal
 - Team analytics. Identifies focus areas, commitment tracking, completion rates
 - 1-on-1 meeting transcripts. Integration with video call platforms for async-friendly meeting notes
 
-#### Real-World Usage
+Real-World Usage
 
 Manager configures Range for engineering team:
 
@@ -265,7 +265,7 @@ Share wins, milestones, learning moments
 Team sees these in daily feed
 ```
 
-#### Strengths
+Strengths
 
 - Unified platform: Combines standups, goals, and team engagement in single system
 - Better than Slack-only for deep collaboration: More structure than Slack threads
@@ -273,14 +273,14 @@ Team sees these in daily feed
 - Web interface: Accessible from anywhere, phone-friendly
 - Better for async retrospectives: Built-in structures for weekly team reflection
 
-#### Weaknesses
+Weaknesses
 
 - Requires adoption of new platform: Team must leave Slack to check Range
-- Expensive: $10/person/month = $250–500 per team
+- Expensive: $10/person/month = $250, 500 per team
 - Slower setup: Requires onboarding, config, integration setup
 - Overkill for small teams: Better for 15+ person teams
 
-#### Pricing
+Pricing
 
 - Free: Up to 5 team members, limited features
 - Starter: $10 per person per month (minimum 5 people = $50/month)
@@ -298,7 +298,7 @@ Learning curve: Medium (Slack Workflow Builder syntax)
 
 For teams without budget for third-party tools, Slack's native Workflow Builder enables custom standup automation.
 
-#### How to Set Up
+How to Set Up
 
 1. Go to Workspace Settings → Workflow Builder
 2. Create new workflow triggered by time (daily at 9 AM)
@@ -308,7 +308,7 @@ For teams without budget for third-party tools, Slack's native Workflow Builder 
  - Collect responses using forms
  - Post summary to #daily-standup channel
 
-#### Example Workflow
+Example Workflow
 
 ```
 Trigger: Daily at 9 AM UTC
@@ -329,21 +329,21 @@ Step 4: Summarize and post
 Takes collected responses, formats, posts to #daily-standup
 ```
 
-#### Limitations vs. Dedicated Tools
+Limitations vs. Dedicated Tools
 
 - No timezone awareness: Trigger is UTC-only (doesn't handle distributed teams)
 - Limited analytics: Manual review of responses, no trending/insights
 - Setup complexity: Higher initial config, harder to iterate
 - No reminder re-posts: If user misses 9 AM reminder, no followup
 
-#### When DIY Slack Workflow Makes Sense
+When DIY Slack Workflow Makes Sense
 
 - Budget: $0 (nothing to spend)
 - Team size: <10 people (manual review is feasible)
-- Simple template (3–4 questions only)
+- Simple template (3, 4 questions only)
 - Single timezone (early morning standup for everyone works)
 
-#### Advanced Workflow Customization
+Advanced Workflow Customization
 
 For technical teams, Slack Bolt (Python/Node.js SDK) enables custom bot logic:
 
@@ -390,9 +390,9 @@ Comparison Table: Async Standup Tools
 | Learning curve | Minimal | Minimal | Medium | Medium | High |
 | Timezone support | Automatic per-user | Automatic per-user | Manual setup | No (UTC only) | Custom |
 | Analytics | None | Dashboard | Goals + analytics | None | Build custom |
-| Price | Free–$5/mo | Free–$2.50/mo | Free–$10/mo | Free | Free (hosting cost) |
+| Price | Free, $5/mo | Free, $2.50/mo | Free, $10/mo | Free | Free (hosting cost) |
 | Team size: <10 |  Best |  Best |  Overkill |  Good |  Overkill |
-| Team size: 10–50 |  Good |  Better |  Good |  Scales poorly |  Good |
+| Team size: 10, 50 |  Good |  Better |  Good |  Scales poorly |  Good |
 | Team size: 50+ |  Expensive |  Good |  Very expensive |  Poor |  Best |
 | Searchable archive | Yes | Yes | Yes | Yes | Custom |
 
@@ -436,7 +436,7 @@ Budget available?
     → YES: Use Standuply (analytics valuable)
 
 Need advanced features (goals, celebrations)?
-  → YES: Use Range (but budget: $250–500/mo)
+  → YES: Use Range (but budget: $250, 500/mo)
   → NO: Use Geekbot or Standuply
 
 Custom requirements or large team (50+)?
@@ -446,7 +446,7 @@ Custom requirements or large team (50+)?
 
 For a 10-person engineering team starting out: Geekbot Free (no cost, 5-minute setup, zero learning curve).
 
-Step 3: Configure (Days 1–2)
+Step 3: Configure (Days 1, 2)
 
 Set up tool with team template:
 
@@ -483,7 +483,7 @@ HOW IT WORKS
 - 9 AM (your timezone): Geekbot posts reminder in Slack
 - Click reaction → DM pops up with 4 questions
 - Type responses → auto-posts to #daily-standup channel
-- Takes 2–3 minutes
+- Takes 2, 3 minutes
 
 TIMEZONE EXAMPLE
 - Singapore team: 9 AM SGT
@@ -493,7 +493,7 @@ TIMEZONE EXAMPLE
 First standup: Monday 9 AM. Questions?
 ```
 
-Step 5: Iterate After 2 Weeks (Days 15–21)
+Step 5: Iterate After 2 Weeks (Days 15, 21)
 
 Gather feedback:
 
@@ -510,7 +510,7 @@ If blockers never surface:
 Add question specifically: "What will prevent you from hitting your goal?"
 
 If people are over-committing:
-Ask: "How confident are you in completing today's goals? 1–5 scale"
+Ask: "How confident are you in completing today's goals? 1, 5 scale"
 
 If timezone still causing issues:
 Switch to fixed time (e.g., 8 AM UTC) and document why.
@@ -540,7 +540,7 @@ Solutions:
  - Everyone reads both channels
  - Slightly more overhead but fairest
 
-Start with per-user local time (Geekbot default). If team size grows, transition to fixed UTC time when critical mass is in 2–3 regions.
+Start with per-user local time (Geekbot default). If team size grows, transition to fixed UTC time when critical mass is in 2, 3 regions.
 
 Challenge 2: Incomplete or Vague Responses
 

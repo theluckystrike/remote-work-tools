@@ -5,7 +5,7 @@ description: "Guides and comparisons for remote project management: Asana, Linea
 permalink: /topics/project-management/
 ---
 
-# Remote Project Management Tools
+Remote Project Management Tools
 
 Comparisons and guides for project management tools used by distributed teams.
 

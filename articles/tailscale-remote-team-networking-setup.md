@@ -284,7 +284,7 @@ Traditional VPNs like OpenVPN require a central gateway server that becomes a si
 
 Tailscale wraps WireGuard in a coordination layer that handles key distribution automatically. When two devices connect, Tailscale negotiates a direct WireGuard tunnel between them whenever network topology allows. If direct connection is blocked by symmetric NAT, traffic relays through Tailscale's DERP servers (Designated Encrypted Relay for Packets), which are deployed globally across major cloud regions.
 
-For a remote team of 10–50 people, Tailscale's Teams plan (around $6/user/month) is cost-competitive with running your own VPN infrastructure once you account for EC2 or DigitalOcean instance costs, certificate management, and engineering time for ongoing maintenance. At 10 engineers, that's $720/year. well below the cost of a single on-call incident caused by a down VPN gateway.
+For a remote team of 10, 50 people, Tailscale's Teams plan (around $6/user/month) is cost-competitive with running your own VPN infrastructure once you account for EC2 or DigitalOcean instance costs, certificate management, and engineering time for ongoing maintenance. At 10 engineers, that's $720/year. well below the cost of a single on-call incident caused by a down VPN gateway.
 
 One area where traditional VPNs still win: regulatory environments that require traffic inspection. Tailscale encrypts end-to-end with WireGuard, so a middlebox cannot inspect payloads. If your compliance posture requires deep packet inspection of internal traffic, complement Tailscale with application-layer logging rather than relying on network-layer inspection.
 
@@ -345,7 +345,7 @@ Run `tailscale ping --until-direct <hostname>` to check whether the connection i
 
 Pro Tips for Team Administration
 
-Keep auth keys short-lived. Generate separate auth keys for each device class (workstations, servers, CI) with expirations of 30–90 days. This limits blast radius if a key leaks and forces periodic re-authentication, which is good hygiene regardless of security incidents.
+Keep auth keys short-lived. Generate separate auth keys for each device class (workstations, servers, CI) with expirations of 30, 90 days. This limits blast radius if a key leaks and forces periodic re-authentication, which is good hygiene regardless of security incidents.
 
 Use device posture checks. Tailscale's posture checks (available on the Business plan) let you enforce that devices have up-to-date OS versions before ACLs grant access. This is useful for contractor devices you do not manage. you can require a minimum macOS or Windows version before they reach internal resources.
 

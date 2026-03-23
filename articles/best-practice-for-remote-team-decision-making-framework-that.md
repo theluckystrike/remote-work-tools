@@ -65,7 +65,7 @@ A practical starting point is a four-tier structure based on reversibility and o
 
 Tier 1. Individual decisions: Reversible decisions with limited scope. A developer choosing which library to use for an utility function, or a designer picking an icon style. These need no approval; document them in commit messages or design notes if relevant.
 
-Tier 2. Team decisions: Reversible decisions affecting the whole team. Changing a code review process, adopting a new linting rule, scheduling a recurring team meeting. Team lead decides or team consensus within 24–48 hours.
+Tier 2. Team decisions: Reversible decisions affecting the whole team. Changing a code review process, adopting a new linting rule, scheduling a recurring team meeting. Team lead decides or team consensus within 24, 48 hours.
 
 Tier 3. Cross-team decisions: Harder to reverse, affecting multiple teams or significant resources. Architecture changes, hiring decisions, major process shifts. Require structured proposals and involve senior stakeholders, with a 72-hour to one-week window.
 

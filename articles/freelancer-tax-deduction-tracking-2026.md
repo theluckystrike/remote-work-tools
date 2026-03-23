@@ -90,7 +90,7 @@ Export for taxes:
 
 ```
 Wave → Reports → Profit & Loss Report
-  → Filter: Jan 1 – Dec 31
+  → Filter: Jan 1, Dec 31
   → Export CSV
   → Share with accountant or import into tax software
 ```
@@ -218,7 +218,7 @@ awk -F',' 'NR>1 {sum += $5} END {printf "Total miles: %.1f\nDeduction at $0.67/m
 Annual Tax Prep Checklist
 
 ```
-January – March (tax prep season):
+January, March (tax prep season):
   [ ] Export Profit & Loss from Wave (full year)
   [ ] Compile all 1099-NEC forms received from clients
   [ ] Calculate home office deduction (both methods, take higher)

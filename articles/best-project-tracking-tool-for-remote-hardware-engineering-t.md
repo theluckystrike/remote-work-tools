@@ -354,7 +354,7 @@ All of these tools support async workflows well. For hardware teams, the async v
 
 Should I switch tools if something better comes out?
 
-Hardware programs span 18–36 months. Switching PM tools mid-program carries genuine risk: historical task data, dependency relationships, and documentation links are hard to migrate cleanly. Only switch between major program phases, and plan for a 2–4 week migration period.
+Hardware programs span 18, 36 months. Switching PM tools mid-program carries genuine risk: historical task data, dependency relationships, and documentation links are hard to migrate cleanly. Only switch between major program phases, and plan for a 2, 4 week migration period.
 
 Related Articles
 

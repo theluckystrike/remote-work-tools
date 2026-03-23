@@ -203,7 +203,7 @@ Comparison by Use Case
 | Thunderbird | Multi-account, open source | Free | Mac, Windows, Linux |
 | Airmail 5 | Automation + multi-client work | $30 one-time | macOS, iOS |
 | MailMate | IMAP power users, mailing lists | $50 one-time | macOS |
-| Proton Mail | Encrypted, sensitive communication | Free–$10/mo | Web, desktop |
+| Proton Mail | Encrypted, sensitive communication | Free, $10/mo | Web, desktop |
 
 Keyboard Shortcut Reference for Gmail-Style Clients
 

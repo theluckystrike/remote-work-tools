@@ -97,9 +97,9 @@ Handling Payment Methods
 
 For international clients, consider which payment methods you'll accept:
 
-Bank transfers (SWIFT/SEPA) work globally but involve fees, typically $15–30 per international transfer. These fees may be split with clients or absorbed into your pricing. Include your full bank details clearly on invoices, including SWIFT/BIC codes for international wires.
+Bank transfers (SWIFT/SEPA) work globally but involve fees, typically $15, 30 per international transfer. These fees may be split with clients or absorbed into your pricing. Include your full bank details clearly on invoices, including SWIFT/BIC codes for international wires.
 
-PayPal avoids currency conversion headaches but charges 4–4.5% plus fixed fees, making it acceptable for smaller invoices where the convenience justifies the cost. Wise (formerly TransferWise) offers mid-market exchange rates and lower fees than traditional banks, and many freelancers now use it as their primary business account for international work.
+PayPal avoids currency conversion headaches but charges 4, 4.5% plus fixed fees, making it acceptable for smaller invoices where the convenience justifies the cost. Wise (formerly TransferWise) offers mid-market exchange rates and lower fees than traditional banks, and many freelancers now use it as their primary business account for international work.
 
 Cryptocurrency works for some clients, particularly in tech. Accepting stablecoins avoids volatility and allows conversion to fiat when needed.
 

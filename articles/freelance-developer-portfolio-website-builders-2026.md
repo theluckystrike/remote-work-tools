@@ -14,7 +14,7 @@ intent-checked: true
 voice-checked: true
 ---
 
-# Freelance Developer Portfolio Website Builders 2026
+Freelance Developer Portfolio Website Builders 2026
 
 Your portfolio is the first thing a potential client checks after receiving your cold email or referral. For developers, it also signals technical credibility. a portfolio built on a clunky drag-and-drop builder undercuts your pitch as a technical professional. Here's how the major options stack up in 2026.
 

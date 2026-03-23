@@ -215,22 +215,22 @@ Target Level: [Level]
 
 Evidence Gathered This Quarter
 
-#### Technical Excellence
+Technical Excellence
 - [ ] Shipped features: [list]
 - [ ] Code quality improvements: [describe]
 - [ ] Technical decisions made: [describe]
 
-#### Impact & Scope
+Impact & Scope
 - [ ] Projects completed: [list]
 - [ ] Cross-team influence: [describe]
 - [ ] Problem-solving: [describe]
 
-#### Communication & Collaboration
+Communication & Collaboration
 - [ ] Documentation produced: [list]
 - [ ] Mentorship provided: [describe]
 - [ ] Async contributions: [describe]
 
-#### Gap Analysis
+Gap Analysis
 
 Areas where ready:
 1.

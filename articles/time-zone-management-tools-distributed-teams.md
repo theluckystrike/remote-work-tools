@@ -202,12 +202,12 @@ def find_overlap(date_str="2026-03-24"):
 
     if overlap_start < overlap_end:
         print(f"Overlap on {date_str}:")
-        print(f"  UTC: {overlap_start.strftime('%H:%M')} – {overlap_end.strftime('%H:%M')}")
+        print(f"  UTC: {overlap_start.strftime('%H:%M')}, {overlap_end.strftime('%H:%M')}")
         print("\n  Local times:")
         for name, _, _ in utc_ranges:
             tz_name = next(m["tz"] for m in team if m["name"] == name)
             tz = pytz.timezone(tz_name)
-            print(f"    {name}: {overlap_start.astimezone(tz).strftime('%H:%M')} – {overlap_end.astimezone(tz).strftime('%H:%M')}")
+            print(f"    {name}: {overlap_start.astimezone(tz).strftime('%H:%M')}, {overlap_end.astimezone(tz).strftime('%H:%M')}")
     else:
         print(f"No overlap on {date_str}. teams are too spread across timezones.")
         print("Consider async communication or a rotating meeting time.")

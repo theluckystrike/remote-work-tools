@@ -120,7 +120,7 @@ Power Management Strategies
 
 Charging access can be limited. Optimize your battery:
 
-Reduce screen brightness to 60–70%, close unnecessary background applications, and use airplane mode when you're not actively communicating. Keep a charged battery bank as a backup.
+Reduce screen brightness to 60, 70%, close unnecessary background applications, and use airplane mode when you're not actively communicating. Keep a charged battery bank as a backup.
 
 Communicating Professionally
 
@@ -167,7 +167,7 @@ Being a Model Customer
 
 Cafe owners and staff remember regulars who are considerate. Here's how to build goodwill:
 
-Buy something every 60–90 minutes so you're a predictable source of revenue. Tip well if you're taking up a table for hours. Learn staff names and engage briefly. friendliness goes a long way. If the Wi-Fi goes down, be understanding rather than demanding. When you leave, wipe your table and dispose of your trash.
+Buy something every 60, 90 minutes so you're a predictable source of revenue. Tip well if you're taking up a table for hours. Learn staff names and engage briefly. friendliness goes a long way. If the Wi-Fi goes down, be understanding rather than demanding. When you leave, wipe your table and dispose of your trash.
 
 Knowing When to Leave
 

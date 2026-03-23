@@ -68,7 +68,7 @@ Strengths:
 - Excellent docs and community
 
 Weaknesses:
-- Per-device or per-user pricing ($5–10/month)
+- Per-device or per-user pricing ($5, 10/month)
 - Requires all team members to install app (not transparent proxy)
 - Limited device posture policies (no MDM integration like Twingate)
 - Cannot enforce compliance (screenshot blocking, device lock)
@@ -126,7 +126,7 @@ Weaknesses:
 
 Pricing:
 - Free (software only)
-- Infrastructure cost: $5–20/month (small server)
+- Infrastructure cost: $5, 20/month (small server)
 
 Typical Team Size: 5-50 people (experienced Linux teams)
 
@@ -168,10 +168,10 @@ Strengths:
 - Connector nodes (can access on-prem services)
 
 Weaknesses:
-- Expensive ($200–500/month minimum)
+- Expensive ($200, 500/month minimum)
 - Requires MDM integration (Okta, Azure AD, Jamf)
 - Client bloat (heavier than Tailscale)
-- Slower setup (7–14 days for enterprise deployment)
+- Slower setup (7, 14 days for enterprise deployment)
 - Posture policies can lock teams out (if antivirus goes down, no access)
 
 Pricing:
@@ -216,7 +216,7 @@ Strengths:
 - Works transparently (no app changes, lightweight client)
 - Excellent threat intelligence (Cloudflare's global network)
 - DLP engine (prevents data leaks)
-- Cheap ($90–300/month for most orgs)
+- Cheap ($90, 300/month for most orgs)
 - Built-in DDOS protection
 
 Weaknesses:
@@ -269,7 +269,7 @@ Strengths:
 - Mobile apps are excellent
 - Obfuscation mode (useful in countries with VPN blocks)
 - Kill switch + auto-connect (reliable)
-- Moderate pricing ($600–1500/month for teams)
+- Moderate pricing ($600, 1500/month for teams)
 
 Weaknesses:
 - Centralized architecture (less secure than mesh)
@@ -294,9 +294,9 @@ Comparison Table
 
 | Feature | Tailscale | WireGuard | Twingate | Cloudflare WARP | NordLayer |
 |---------|-----------|-----------|----------|-----------------|-----------|
-| Setup Time | 5 min | 60 min | 7–14 days | 30 min | 30 min |
-| Price/Month | $25–500 | $5–20 (infra) | $200–500+ | $90–300 | $600–1500 |
-| Ideal Team Size | 5–500 | 5–50 | 50–5000 | 50–2000 | 25–500 |
+| Setup Time | 5 min | 60 min | 7, 14 days | 30 min | 30 min |
+| Price/Month | $25, 500 | $5, 20 (infra) | $200, 500+ | $90, 300 | $600, 1500 |
+| Ideal Team Size | 5, 500 | 5, 50 | 50, 5000 | 50, 2000 | 25, 500 |
 | WireGuard-based |  |  |  |  |  |
 | Device Posture |  |  |  | Limited |  |
 | SSO/MFA | OAuth | None |  |  |  |
@@ -358,8 +358,8 @@ WireGuard (self-hosted):
 Twingate:
 ```
 1. Contact sales, sign contract
-2. Deploy Okta integration (2–3 days)
-3. Create device posture policies (2–3 days)
+2. Deploy Okta integration (2, 3 days)
+3. Create device posture policies (2, 3 days)
 4. Install Twingate client on devices (managed deploy)
 5. Team members login via SSO
 6. Access approved by posture checks
@@ -452,7 +452,7 @@ Choose Cloudflare WARP if:
 - You want DLP (data loss prevention)
 - You have 50+ distributed team
 - You don't need private network access
-- Budget is $90–300/month
+- Budget is $90, 300/month
 
 Choose NordLayer if:
 - You prioritize consumer-friendly experience
