@@ -9,7 +9,7 @@ permalink: /how-to-track-remote-team-velocity-metrics/
 categories: [guides]
 tags: [remote-work-tools, velocity, metrics, remote-work, productivity]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 ---
