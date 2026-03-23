@@ -9,7 +9,7 @@ permalink: /best-practice-for-hybrid-office-mail-and-package-handling-fo/
 categories: [guides]
 tags: [remote-work-tools, hybrid-office, mail-handling, package-management, office logistics, part-time-workers, best-of]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 ---
