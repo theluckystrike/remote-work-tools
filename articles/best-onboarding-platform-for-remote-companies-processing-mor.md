@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /best-onboarding-platform-for-remote-companies-processing-mor/
 categories: [guides]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
