@@ -172,7 +172,7 @@ Documentation Sprint Formats That Work
 
 The Focused Deep-Dive Format (2 weeks, 4 hours/day)
 
-This format works best for teams with 5–10 people where documentation decay is severe. The intense schedule creates momentum and prevents attention from drifting back to routine tasks.
+This format works best for teams with 5, 10 people where documentation decay is severe. The intense schedule creates momentum and prevents attention from drifting back to routine tasks.
 
 Week 1:
 - Day 1: Audit and categorization (all hands for 4 hours)

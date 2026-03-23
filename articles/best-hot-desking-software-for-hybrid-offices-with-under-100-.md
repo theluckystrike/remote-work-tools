@@ -207,7 +207,7 @@ Step 4: Iterate
 - As you get feedback, update the floor plan
 - Accuracy compounds over time as employees use the system
 
-A poorly created floor plan leads to bookings of non-existent desks and frustration. Invest 4–6 hours in accuracy here; it saves 40+ hours of support questions later.
+A poorly created floor plan leads to bookings of non-existent desks and frustration. Invest 4, 6 hours in accuracy here; it saves 40+ hours of support questions later.
 
 Amenity Tagging and Smart Matching
 
@@ -233,7 +233,7 @@ Proper calendar integration prevents the "double-booking" problem where someone 
 
 Google Calendar integration:
 ```
-When employee books desk from 10 AM–12 PM:
+When employee books desk from 10 AM, 12 PM:
 - Platform checks Google Calendar for conflicts
 - If conflict exists, prompts employee to resolve
 - Creates placeholder event on calendar showing desk booking
@@ -290,8 +290,8 @@ Hybrid Work Policy Integration
 Desk booking software works best when embedded in broader hybrid work policy:
 
 Example policy structure:
-- Core hours: Monday–Wednesday, all team members in office
-- Flexible days: Thursday–Friday, book desks as needed
+- Core hours: Monday, Wednesday, all team members in office
+- Flexible days: Thursday, Friday, book desks as needed
 - Remote optional: Employees can work remotely if booked days are filled
 - Booking window: Reserve desks up to 2 weeks in advance, cancel with 24 hours notice
 
@@ -314,7 +314,7 @@ Weeks 3-4: System setup
 - Configure calendar integrations with your authentication provider
 
 Weeks 5-6: Pilot testing
-- Roll out to a volunteer group of 15–20 early adopters
+- Roll out to a volunteer group of 15, 20 early adopters
 - Have them book desks and provide feedback on the experience
 - Fix any integration issues or configuration problems
 - Document common questions for the broader rollout
@@ -334,7 +334,7 @@ Measuring Success and ROI
 
 Track these metrics to demonstrate the value of your desk booking system:
 
-Utilization rate: Percentage of booked desks divided by total available desks. Industry standard is 65–75%. Below 50% suggests over-provisioning; above 85% suggests under-provisioning.
+Utilization rate: Percentage of booked desks divided by total available desks. Industry standard is 65, 75%. Below 50% suggests over-provisioning; above 85% suggests under-provisioning.
 
 No-show rate: Percentage of booked desks never occupied. High no-show rates (above 15%) indicate problematic booking behavior or overly long reservation windows.
 
@@ -344,7 +344,7 @@ Employee satisfaction: Survey teams 6 weeks after launch about booking experienc
 
 Cost per desk per month: Calculate as (annual system cost + overhead) ÷ (number of desks × 12 months). For a 50-desk office paying $400/month in software costs, the per-desk cost is $8/month, usually a small fraction of real estate costs.
 
-Space optimization savings: If usage data shows 30% of desks remain consistently empty, you've identified potential space that could be converted to collaboration areas or reduced in future office redesigns. For a 100-person company, this could translate to $50,000–$100,000 in annual real estate savings.
+Space optimization savings: If usage data shows 30% of desks remain consistently empty, you've identified potential space that could be converted to collaboration areas or reduced in future office redesigns. For a 100-person company, this could translate to $50,000, $100,000 in annual real estate savings.
 
 Common Pitfalls During Implementation
 

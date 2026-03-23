@@ -14,7 +14,7 @@ intent-checked: true
 voice-checked: true
 ---
 
-# Daily Check-In Tools for Remote Teams 2026
+Daily Check-In Tools for Remote Teams 2026
 
 Daily standups work differently when your team spans time zones. The synchronous 15-minute call that functions well for a co-located team becomes a scheduling problem when you have engineers in Berlin, Nairobi, and Vancouver. Async check-in tools solve this. but only if you choose the right one and configure it well.
 

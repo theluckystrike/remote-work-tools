@@ -93,7 +93,7 @@ QA Review: [Feature Name]
 Reviewer: @username
 Date: YYYY-MM-DD
 
-#### Findings
+Findings
 
 | Severity | Issue | Location | Suggestion |
 |----------|-------|----------|------------|
@@ -101,7 +101,7 @@ Date: YYYY-MM-DD
 | Medium | Inconsistent button styling | header.css:15 | Use .btn-primary class |
 | Low | Typo in error message | auth.py:108 | Change "Unauthozied" to "Unauthorized" |
 
-#### Signoff Status
+Signoff Status
 
 - [ ] Approved
 - [ ] Approved with minor issues (can ship)

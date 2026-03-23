@@ -14,7 +14,7 @@ voice-checked: true
 tags: [remote-work-tools]
 ---
 
-# Google Scholar Chrome Extension Development Guide
+Google Scholar Chrome Extension Development Guide
 
 Google Scholar is the starting point for most academic and technical research, but its interface lacks features that serious researchers need daily: bulk citation export, integration with reference managers, PDF annotation, and Zotero/Mendeley sync. Chrome extensions fill these gaps. This guide covers both using existing Scholar extensions and building your own with Manifest V3.
 

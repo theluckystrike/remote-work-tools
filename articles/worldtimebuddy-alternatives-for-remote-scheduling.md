@@ -70,7 +70,7 @@ Timezone.io shifts focus from individual timezone conversion to team-level avail
 
 The working hours indicator provides immediate visual feedback:
 
-Green means within standard working hours (typically 9 AM–6 PM local), yellow means outside working hours but awake, and red means outside typical working hours.
+Green means within standard working hours (typically 9 AM, 6 PM local), yellow means outside working hours but awake, and red means outside typical working hours.
 
 This reduces the friction of sending messages at inappropriate times. Before typing a quick question to a colleague in Tokyo, you see they're currently in the red zone and might defer to async communication instead.
 

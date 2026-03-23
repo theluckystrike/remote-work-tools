@@ -207,7 +207,7 @@ def monitor_emoji_usage(event):
         # Professional channels - encourage minimal emoji
         emoji_count = count_emoji(message)
         if emoji_count > 3:
-            thread_reply("Pro tip: Keep emoji light in work channels")
+            thread_reply("Keep emoji light in work channels")
     elif channel in ['#general', '#watercooler']:
         # Social channels - celebrate emoji usage
         emoji_count = count_emoji(message)

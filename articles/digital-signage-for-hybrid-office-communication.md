@@ -200,7 +200,7 @@ Display Hardware Considerations
 
 For hybrid office deployment, consider these hardware options:
 
-Commercial LCD displays (43–55") work well in common areas, lobbies, and meeting rooms, look for models with built-in Android or Raspberry Pi compute for standalone operation. E-ink panels are low-power and update only when content changes, making them a good fit for meeting room labels and wayfinding. Video walls tile multiple displays together for lobby installs and large common areas.
+Commercial LCD displays (43, 55") work well in common areas, lobbies, and meeting rooms, look for models with built-in Android or Raspberry Pi compute for standalone operation. E-ink panels are low-power and update only when content changes, making them a good fit for meeting room labels and wayfinding. Video walls tile multiple displays together for lobby installs and large common areas.
 
 For developers, choose hardware with API support or that can run a lightweight client application. This gives you programmatic control over content without relying on proprietary signage software.
 
@@ -208,7 +208,7 @@ Content Management Best Practices
 
 Building the integration is only part of the solution. Effective digital signage requires thoughtful content management:
 
-Displays are typically viewed from 6–10 feet away, so use fonts no smaller than 36pt for body text, maintain high contrast, and avoid dense paragraphs.
+Displays are typically viewed from 6, 10 feet away, so use fonts no smaller than 36pt for body text, maintain high contrast, and avoid dense paragraphs.
 
 Rotate playlists rather than showing the same content all day. A morning slot works for company news, work-hour slots for meeting room availability, and late-afternoon slots for community content.
 

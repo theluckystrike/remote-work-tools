@@ -175,7 +175,7 @@ Hi [Report Name],
 
 Thanks for the honest conversation yesterday. Here's what I took away:
 
-[3–5 bullet points of what they said]
+[3, 5 bullet points of what they said]
 
 I mentioned [specific issue/concern] to [Direct Manager], and we're thinking about [action step].
 
@@ -191,7 +191,7 @@ This email:
 - Confirms follow-up actions
 - Demonstrates the conversation wasn't private gossip (you're telling them what you'll share)
 
-Step 2: Debrief with direct manager (1–2 days after)
+Step 2: Debrief with direct manager (1, 2 days after)
 15-minute conversation. Template:
 
 ```
@@ -222,11 +222,11 @@ Invisible follow-up = wasted skip-level.
 
 Scheduling at Scale: Multi-Team Leaders
 
-If you lead 30–50 people, you can't skip-level everyone monthly. Use a rotation:
+If you lead 30, 50 people, you can't skip-level everyone monthly. Use a rotation:
 
-Year 1 (Q1–Q4):
+Year 1 (Q1, Q4):
 - Each person gets one skip-level meeting
-- Spread across the year (5–7 meetings per month)
+- Spread across the year (5, 7 meetings per month)
 - Rotate so new team members get meetings first
 
 Year 2+:
@@ -244,22 +244,22 @@ Use this as your default structure:
 30-minute skip-level with [Report Name]
 Date: [Date]
 
-0–2 min: Setup & small talk
-2–5 min: Set context ("I want to hear what's really happening")
-5–25 min: Open-ended conversation
+0, 2 min: Setup & small talk
+2, 5 min: Set context ("I want to hear what's really happening")
+5, 25 min: Open-ended conversation
   - How are things going?
   - What's energizing?
   - What's frustrating?
   - How's your relationship with your team and manager?
   - What do you want to learn/grow in?
-25–30 min: Closing
+25, 30 min: Closing
   - Summarize what you heard
   - Commit to follow-up
   - Thank them
 
 After the meeting:
 - Send recap email (24 hours)
-- Debrief with direct manager (1–2 days)
+- Debrief with direct manager (1, 2 days)
 - Create action items (if needed)
 - Schedule next skip-level (1 month out)
 ```

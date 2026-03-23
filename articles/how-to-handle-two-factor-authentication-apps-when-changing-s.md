@@ -48,10 +48,10 @@ The most reliable approach for frequent travelers is using authenticator apps th
 
 Popular options that support cloud backup include:
 
-- Google Authenticator – syncs to your Google account
-- Authy – multi-device sync with encrypted cloud storage
-- Microsoft Authenticator – Azure AD integration with cloud backup
-- 1Password/Bitwarden – built-in authenticator with encrypted vault backup
+- Google Authenticator, syncs to your Google account
+- Authy, multi-device sync with encrypted cloud storage
+- Microsoft Authenticator, Azure AD integration with cloud backup
+- 1Password/Bitwarden, built-in authenticator with encrypted vault backup
 
 For developers managing multiple accounts across services, a password manager with built-in TOTP support simplifies this significantly. Your 2FA codes live alongside your passwords in an encrypted vault that syncs across devices.
 
@@ -83,9 +83,9 @@ Every serious service provides recovery codes when you enable 2FA. The common mi
 
 For developers, a proper recovery code storage strategy involves:
 
-1. Store codes in an encrypted location – Password managers like 1Password, Bitwarden, or KeepassXC handle this well
-2. Keep a physical backup – Write codes on paper stored in a secure location you can access
-3. Share with a trusted person – Give a sealed envelope to someone you trust
+1. Store codes in an encrypted location, Password managers like 1Password, Bitwarden, or KeepassXC handle this well
+2. Keep a physical backup, Write codes on paper stored in a secure location you can access
+3. Share with a trusted person, Give a sealed envelope to someone you trust
 
 ```bash
 Encrypting recovery codes with GPG for storage
@@ -170,10 +170,10 @@ Strategy 5: Prepare Before You Travel
 
 The most important strategy is preparation. Before changing SIM cards or traveling:
 
-1. Update your recovery email and phone – Ensure services have current contact info
-2. Test recovery flows – Try logging out and recovering access to confirm your backup methods work
-3. Export authenticator secrets – Store QR code backups in a secure location
-4. Register multiple authentication methods – Enable both an authenticator app and a hardware key where possible
+1. Update your recovery email and phone, Ensure services have current contact info
+2. Test recovery flows, Try logging out and recovering access to confirm your backup methods work
+3. Export authenticator secrets, Store QR code backups in a secure location
+4. Register multiple authentication methods, Enable both an authenticator app and a hardware key where possible
 
 ```bash
 Quick checklist before international travel
@@ -194,10 +194,10 @@ What to Do If You're Locked Out
 
 If you change your SIM and lose access to 2FA-protected accounts:
 
-1. Use recovery codes – This should be your first attempt
-2. Request account recovery – Most services offer this via email
-3. Contact support directly – For critical accounts (banking, cloud infrastructure), phone support often resolves faster
-4. Use backup authentication – If you registered multiple methods, try the alternative
+1. Use recovery codes, This should be your first attempt
+2. Request account recovery, Most services offer this via email
+3. Contact support directly, For critical accounts (banking, cloud infrastructure), phone support often resolves faster
+4. Use backup authentication, If you registered multiple methods, try the alternative
 
 Prevent this situation by testing your recovery flow before you need it. Set a calendar reminder every 6 months to verify you can access your recovery codes and test a login recovery.
 

@@ -35,9 +35,9 @@ Architecture Overview
 
 The system consists of three main components:
 
-1. Data Connectors – API clients that fetch data from each tool
-2. AI Processing Layer – Normalizes and synthesizes the data
-3. Output Generator – Formats the final status report
+1. Data Connectors, API clients that fetch data from each tool
+2. AI Processing Layer, Normalizes and synthesizes the data
+3. Output Generator, Formats the final status report
 
 ```
       

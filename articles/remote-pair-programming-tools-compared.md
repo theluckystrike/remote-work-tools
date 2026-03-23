@@ -180,7 +180,7 @@ Comparison Table
 |------|----------|---------|---------------------|-------|----------|
 | VS Code Live Share | All | Medium | Yes | Free | VS Code teams |
 | Tuple | macOS/Linux | Very low | Yes | $35/person/mo | Frequent pairing |
-| Pop | All (browser) | Low | Yes | Free–$25/person | Cross-platform |
+| Pop | All (browser) | Low | Yes | Free, $25/person | Cross-platform |
 | tmux SSH | Terminal | Near-zero | No (shared pane) | Free | Terminal-only |
 
 Setting Up a Pairing Routine

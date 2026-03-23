@@ -232,7 +232,7 @@ Migrating from Wezterm to Alacritty:
 5. Test tmux workflow and adjust if needed
 6. Uninstall Wezterm
 
-Expected migration time: 1–2 hours. Worthwhile if you prefer minimal tooling and are already comfortable with tmux.
+Expected migration time: 1, 2 hours. Worthwhile if you prefer minimal tooling and are already comfortable with tmux.
 
 Advanced Configurations: Power User Setup
 
@@ -323,7 +323,7 @@ Regardless of your choice, optimize your terminal experience with these practice
 
 1. Use a GPU-accelerated font renderer for smoother text
 2. Enable font ligatures if your coding font supports them
-3. Configure appropriate scrollback buffer sizes (10,000–50,000 lines depending on RAM)
+3. Configure appropriate scrollback buffer sizes (10,000, 50,000 lines depending on RAM)
 4. Use multiplexing (whether built-in or tmux) to organize workspaces
 5. For remote SSH work, enable compression and connection reuse to reduce latency
 6. Test your terminal with a large log file to ensure smooth scrolling

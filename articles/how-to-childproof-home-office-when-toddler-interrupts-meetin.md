@@ -193,7 +193,7 @@ Step 7: Soundproofing Strategies for Toddler-Adjacent Offices
 
 Noise cancellation software handles steady ambient noise well. fan hum, keyboard clicks, HVAC. but sudden loud sounds like a toddler screaming or banging toys pass through before the algorithm adapts. Acoustic treatment at the room level handles what software cannot.
 
-The most effective affordable option is mass-loaded vinyl (MLV) on the shared wall between your office and the play area. A 4-by-8-foot panel of 1-pound MLV reduces sound transmission by roughly 25–30 dB at mid frequencies. You do not need to cover every surface. the wall adjacent to the play area matters most.
+The most effective affordable option is mass-loaded vinyl (MLV) on the shared wall between your office and the play area. A 4-by-8-foot panel of 1-pound MLV reduces sound transmission by roughly 25, 30 dB at mid frequencies. You do not need to cover every surface. the wall adjacent to the play area matters most.
 
 For the door, the gap at the bottom is typically the largest acoustic leak. A door sweep costs under $20 and eliminates most noise that travels under the door. Combined with a solid-core door (versus hollow-core), this creates a meaningful barrier without major construction.
 
@@ -219,7 +219,7 @@ Maintain a shared calendar that shows each person's focus blocks and video call 
 
 For unplanned urgent situations during your call, agree on a signal. a specific emoji sent to the shared channel means "I need a swap in the next 5 minutes." Practice this enough that it becomes automatic. Two or three dry runs during non-critical meetings builds the muscle memory before you need it during a client presentation.
 
-If your co-parent is unavailable during certain windows, identify two or three activities that reliably hold your toddler's attention for 20–30 minutes: a show they only watch during calls, a water play bin, or playdough. Reserve these for actual calls rather than general entertainment. novelty is what buys you time.
+If your co-parent is unavailable during certain windows, identify two or three activities that reliably hold your toddler's attention for 20, 30 minutes: a show they only watch during calls, a water play bin, or playdough. Reserve these for actual calls rather than general entertainment. novelty is what buys you time.
 
 Step 10: Ergonomics and Desk Layout for Parents
 

@@ -14,7 +14,7 @@ categories: [guides]
 tags: [remote-work-tools, remote-work, miro, workshops, facilitation]
 ---
 
-# How to Help Remote Team Workshops Using Miro with Structured Communication Exercises
+How to Help Remote Team Workshops Using Miro with Structured Communication Exercises
 
 Remote workshops fail for a consistent set of reasons: one or two people dominate, half the participants are passive, the facilitator loses the room after 30 minutes, and outputs are unclear. Miro solves the visual collaboration problem. but structure, timing, and facilitation technique solve the participation problem.
 

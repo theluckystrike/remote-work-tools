@@ -525,9 +525,9 @@ Post this report to a `#dependency-updates` Slack channel every Monday. The act 
 
 Choosing the Right Stack for Your Team Size
 
-For a team of 1–5 engineers, Dependabot plus Snyk free tier covers the essentials with zero infrastructure overhead. Add license-checker to CI and you have full coverage.
+For a team of 1, 5 engineers, Dependabot plus Snyk free tier covers the essentials with zero infrastructure overhead. Add license-checker to CI and you have full coverage.
 
-For teams of 6–20 engineers working across multiple repos or a monorepo, Renovate's grouping and scheduling control saves significant review time. Self-host it on a small VM or run it via GitHub Actions on a cron schedule.
+For teams of 6, 20 engineers working across multiple repos or a monorepo, Renovate's grouping and scheduling control saves significant review time. Self-host it on a small VM or run it via GitHub Actions on a cron schedule.
 
 For teams of 20+ or those in regulated industries (fintech, healthcare), add OWASP Dependency-Check for offline CVE scanning and generate formal license reports quarterly using go-licenses or pip-licenses depending on your stack. Snyk's paid tier adds policy enforcement, so security requirements can be defined once and applied across all repos automatically.
 

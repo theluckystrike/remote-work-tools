@@ -5,7 +5,7 @@ description: "Guides for remote work productivity: async workflows, time managem
 permalink: /topics/productivity/
 ---
 
-# Remote Productivity
+Remote Productivity
 
 Guides for improving productivity while working remotely: async workflows, time management, automation, and focus techniques.
 

@@ -199,13 +199,13 @@ Your accountant will need:
 - Bank statements for both accounts
 - Exchange rate records for each transaction
 
-This setup typically takes 4–6 hours initially, then 2–3 hours monthly for reconciliation.
+This setup typically takes 4, 6 hours initially, then 2, 3 hours monthly for reconciliation.
 
 Pricing Comparison for 5-Person Agencies
 
-Xero: £20–50/month depending on features. Excellent EUR support, strong API, multi-currency nominal ledger. Total annual cost: £240–600.
+Xero: £20, 50/month depending on features. Excellent EUR support, strong API, multi-currency nominal ledger. Total annual cost: £240, 600.
 
-QuickBooks Online: $30–200/month depending on plan. Extensive integrations, good API, decent multi-currency handling. Total annual cost: $360–2,400.
+QuickBooks Online: $30, 200/month depending on plan. Extensive integrations, good API, decent multi-currency handling. Total annual cost: $360, 2,400.
 
 Wave: Free. Basic multi-currency support, limited reporting. Best if you're cash-flow limited but will outgrow it quickly.
 
@@ -243,7 +243,7 @@ Mistake 1: Recording invoices without capturing exchange rates
 Solution: Use an automated system that locks the exchange rate at invoice creation. Never allow invoices to be recorded without an explicit rate.
 
 Mistake 2: Converting all payments to your primary currency immediately
-Solution: Keep payments in their original currency for 30–60 days. This allows clients in different currencies to pay naturally and reduces conversion fees.
+Solution: Keep payments in their original currency for 30, 60 days. This allows clients in different currencies to pay naturally and reduces conversion fees.
 
 Mistake 3: Trusting bank conversion rates
 Solution: Many banks provide terrible exchange rates. Use Wise, OFX, or other specialist providers to convert larger amounts at better rates.
@@ -259,7 +259,7 @@ Solution: Calculate estimated tax quarterly, accounting for foreign exchange imp
 
 When to Consider Hiring a Bookkeeper
 
-If you're generating more than €50,000 in annual revenue with multiple currencies, hiring a part-time bookkeeper becomes economically sensible. They typically cost €200–400/month and will:
+If you're generating more than €50,000 in annual revenue with multiple currencies, hiring a part-time bookkeeper becomes economically sensible. They typically cost €200, 400/month and will:
 
 - Reconcile accounts weekly rather than monthly
 - Catch errors before they compound

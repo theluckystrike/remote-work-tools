@@ -257,7 +257,7 @@ Announce the bot. Add a line to your meeting norms doc: all scheduled calls are 
 
 Create a dedicated Slack channel. `#meeting-notes` or `#meeting-recordings` gives people a single place to catch up on calls they missed without scrolling through project channels.
 
-Review action items the same day. AI-extracted action items are usually 85–90% accurate. Someone still needs to check them and create actual tasks in your project tracker.
+Review action items the same day. AI-extracted action items are usually 85, 90% accurate. Someone still needs to check them and create actual tasks in your project tracker.
 ---
 
 

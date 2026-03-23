@@ -270,9 +270,9 @@ Matching tools to your team size avoids over-engineering small teams and under-t
 
 | Team Size | Recommended Tools | Focus |
 |-----------|-------------------|-------|
-| 2–8 people | Slack + Notion + Google Calendar | Simple async norms, shared docs |
-| 8–25 people | Linear + Loom + World Time Buddy | Structured handoffs, video updates |
-| 25–60 people | Clockwise + Almanac + Geekbot | Automated scheduling, SOPs |
+| 2, 8 people | Slack + Notion + Google Calendar | Simple async norms, shared docs |
+| 8, 25 people | Linear + Loom + World Time Buddy | Structured handoffs, video updates |
+| 25, 60 people | Clockwise + Almanac + Geekbot | Automated scheduling, SOPs |
 | 60+ people | Guru + Confluence + dedicated time-zone bot | Knowledge management, policy enforcement |
 
 World Time Buddy is a practical first tool for any distributed team. it provides a shareable link showing business hours overlap at a glance, which is useful when scheduling the rotating meetings described above.

@@ -32,7 +32,7 @@ Before you begin, make sure you have the following ready:
 
 Step 1: The Problem with English-Centric Async Communication
 
-When you type quickly during a busy workday, you likely use idioms, slang, and complex sentence structures without thinking. Phrases like "circle back," "deep dive," or "low-hanging fruit" make perfect sense to native speakers but create confusion for others. Compound sentences with multiple clauses, passive voice, and implicit context all increase cognitive load.
+When you type quickly during a busy workday, you likely use idioms, slang, and complex sentence structures without thinking. Phrases like "circle back," "detailed look," or "low-hanging fruit" make perfect sense to native speakers but create confusion for others. Compound sentences with multiple clauses, passive voice, and implicit context all increase cognitive load.
 
 Consider this typical Slack message:
 

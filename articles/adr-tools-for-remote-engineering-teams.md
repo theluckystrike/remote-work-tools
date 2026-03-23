@@ -173,7 +173,7 @@ Implementing ADR Workflow for Remote Teams
 
 Regardless of tool choice, establish a consistent process:
 
-One engineer drafts an ADR describing the decision context, then team members comment over 48–72 hours across time zones. Status updates to Accepted or Rejected based on that feedback. Link to the ADR in code comments, PR descriptions, and technical specs so it becomes the single source of truth that anyone can reference later.
+One engineer drafts an ADR describing the decision context, then team members comment over 48, 72 hours across time zones. Status updates to Accepted or Rejected based on that feedback. Link to the ADR in code comments, PR descriptions, and technical specs so it becomes the single source of truth that anyone can reference later.
 
 Automating ADR Creation
 

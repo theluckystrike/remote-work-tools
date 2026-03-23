@@ -181,7 +181,7 @@ Geekbot runs scheduled Slack prompts asking each team member "What did you do ye
 
 Standuply offers similar prompt-based collection but adds report dashboards. It is more polished than a custom workflow but adds a monthly subscription cost and still relies on manual answers.
 
-Status Hero integrates with GitHub and Jira to pull automated status alongside manual check-ins. It sits between the two approaches but requires another SaaS account and costs $3–5 per user per month.
+Status Hero integrates with GitHub and Jira to pull automated status alongside manual check-ins. It sits between the two approaches but requires another SaaS account and costs $3, 5 per user per month.
 
 Loom is popular for video updates. The advantage is nuance and personality; the disadvantage is that video is hard to search, archive, or skim quickly. Commit summaries are searchable and linkable.
 

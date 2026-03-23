@@ -203,8 +203,8 @@ Comparison Table
 | Feature | Geekbot | Standuply | Range | DailyBot | Slack Workflows |
 |---------|---------|-----------|-------|----------|-----------------|
 | Setup Time | 5 min | 10 min | 20 min | 10 min | 15 min |
-| Monthly Cost | $25–100 | $149–349 | $99–699 | $20–50 | $0 |
-| Team Size (ideal) | 5–50 | 20–300 | 30–500 | 10–150 | 5–30 |
+| Monthly Cost | $25, 100 | $149, 349 | $99, 699 | $20, 50 | $0 |
+| Team Size (ideal) | 5, 50 | 20, 300 | 30, 500 | 10, 150 | 5, 30 |
 | Slack Integration |  |  |  |  |  (native) |
 | Jira Integration |  |  |  |  |  |
 | Reporting/Dashboard | Basic | Good | Excellent | Fair | None |
@@ -219,24 +219,24 @@ Real-World Scenarios
 10-person startup:
 - Slack Workflows (free) or Geekbot (cheapest)
 - Overhead: 5 min/day
-- Cost: $0 or $25–50/month
+- Cost: $0 or $25, 50/month
 
 30-person product team (tracking Jira tickets):
 - Standuply or Range
 - Overhead: 8 min/day per person
-- Cost: $149–399/month
+- Cost: $149, 399/month
 - Value: Jira context, blocker analytics
 
 100-person engineering org (multiple teams):
 - Range (team alignment focus) or Standuply (Jira integration)
 - Overhead: 10 min/day per person
-- Cost: $399–699/month
+- Cost: $399, 699/month
 - Value: Cross-team visibility, health metrics
 
 Distributed remote-first company (no time zone overlap):
 - Range (async-first design) or Geekbot (simplest)
 - Overhead: flexible timing, 8 min/day per person
-- Cost: $0–399/month
+- Cost: $0, 399/month
 - Value: Async defaults, no forced attendance
 
 ---
@@ -245,9 +245,9 @@ Engagement Metrics (Typical Deployments)
 
 Day 1 Response Rate: 95%+ (novelty effect)
 Week 1 Response Rate: 80% (people learning workflow)
-Month 3 Response Rate: 70–75% (steady state for good implementations)
+Month 3 Response Rate: 70, 75% (steady state for good implementations)
 
-Lower response rates (50–60%) indicate:
+Lower response rates (50, 60%) indicate:
 - Questions are too long
 - Tool feels like overhead
 - Team doesn't see value (needs better reporting)
@@ -318,14 +318,14 @@ Choose Geekbot if:
 
 Choose Standuply if:
 - You use Jira and want ticket context in standups
-- You have 20–300 person team
+- You have 20, 300 person team
 - You want flexible templates and trend analytics
 - Budget is $150+/month
 
 Choose Range if:
 - You care about team alignment and health metrics
 - You want a modern, beautiful UI (higher adoption)
-- You have 30–500 person org
+- You have 30, 500 person org
 - You want cross-team visibility
 - Budget is $400+/month
 
@@ -333,10 +333,10 @@ Choose DailyBot if:
 - You want tight GitHub/GitLab integration
 - You like gamification (streaks, engagement metrics)
 - Budget is under $50/month
-- You have 10–150 person team
+- You have 10, 150 person team
 
 Choose Slack Workflows if:
-- Your team is tiny (5–15 people)
+- Your team is tiny (5, 15 people)
 - You want zero cost and zero new tools
 - You're comfortable with manual reporting
 - You don't need analytics or integrations

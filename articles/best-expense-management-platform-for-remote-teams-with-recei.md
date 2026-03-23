@@ -56,7 +56,7 @@ Expensify remains the dominant choice for remote teams due to its SmartScan tech
 
 For approval workflows, Expensify offers customizable rules that route expenses based on amount thresholds, categories, or department assignments. Remote teams particularly benefit from the automatic timezone detection in approval notifications, managers receive alerts at reasonable hours in their local time rather than based on submitter schedules.
 
-Practical example – Configuring an approval workflow in Expensify:
+Practical example, Configuring an approval workflow in Expensify:
 
 ```javascript
 // Expensify API: Creating a custom approval rule

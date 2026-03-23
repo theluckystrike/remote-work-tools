@@ -134,11 +134,11 @@ Different tools suit different team structures. Here is a direct comparison of t
 
 | Tool | Workload Visualization | Burnout Signals | API Access | Best Team Size |
 |---|---|---|---|---|
-| Linear | Cycle-based load view | None native | Yes (REST + GraphQL) | 5–50 |
-| Jira | Capacity planner (Premium) | None native | Yes (REST) | 20–500 |
-| Notion | Custom rollup formulas | Manual only | Yes (via Zapier) | 5–30 |
-| Teamwork | Resource scheduling built-in | Overload flags | Yes | 10–100 |
-| Float | Purpose-built scheduling | Utilization alerts | Yes | 10–200 |
+| Linear | Cycle-based load view | None native | Yes (REST + GraphQL) | 5, 50 |
+| Jira | Capacity planner (Premium) | None native | Yes (REST) | 20, 500 |
+| Notion | Custom rollup formulas | Manual only | Yes (via Zapier) | 5, 30 |
+| Teamwork | Resource scheduling built-in | Overload flags | Yes | 10, 100 |
+| Float | Purpose-built scheduling | Utilization alerts | Yes | 10, 200 |
 
 For pure capacity tracking without project management overhead, Float is the most focused option. For teams already on Linear or Jira, building a lightweight capacity layer on top of the existing tool avoids context switching.
 

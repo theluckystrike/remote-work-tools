@@ -125,7 +125,7 @@ This simple practice forces the room to pause and creates explicit space for rem
 
 The Facilitator's Role in Hybrid Meetings
 
-A dedicated facilitator who actively bridges the room/remote divide makes a measurable difference. Core responsibilities include monitoring chat and reading questions aloud, calling on remote participants by name at each topic shift, repeating any in-room comment the microphone may not have captured, and pausing when remote participants signal via hand-raise that they want to contribute. Budget for the 10–15 percent meeting extension this creates, it is the cost of genuine inclusion.
+A dedicated facilitator who actively bridges the room/remote divide makes a measurable difference. Core responsibilities include monitoring chat and reading questions aloud, calling on remote participants by name at each topic shift, repeating any in-room comment the microphone may not have captured, and pausing when remote participants signal via hand-raise that they want to contribute. Budget for the 10, 15 percent meeting extension this creates, it is the cost of genuine inclusion.
 
 Real-Time Transcription
 
@@ -262,7 +262,7 @@ HAVING remote_count > 0;
 
 If remote participation (measured by messages sent, questions asked, or action items assigned) drops below 30% of total participation, your meetings are likely excluding remote team members.
 
-Consider running a brief pulse survey after hybrid meetings during the first few months of implementing these practices. Ask three questions: how included did you feel (1–5 scale), was there a moment where you wanted to contribute but couldn't, and what one thing would make the next meeting more inclusive. If inclusion scores climb above 4.0 and "wanted to contribute but couldn't" incidents decline, your hybrid meeting culture is improving.
+Consider running a brief pulse survey after hybrid meetings during the first few months of implementing these practices. Ask three questions: how included did you feel (1, 5 scale), was there a moment where you wanted to contribute but couldn't, and what one thing would make the next meeting more inclusive. If inclusion scores climb above 4.0 and "wanted to contribute but couldn't" incidents decline, your hybrid meeting culture is improving.
 
 Common Mistakes to Avoid
 

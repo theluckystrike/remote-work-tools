@@ -90,7 +90,7 @@ Access revocation must happen in order of sensitivity. Start with the most criti
 5. Communication platforms (Slack, Teams, Discord)
 6. Project management (Jira, Linear, Asana)
 
-#### Terraform-Based Access Revocation
+Terraform-Based Access Revocation
 
 If your organization uses infrastructure-as-code, use it for access management:
 

@@ -99,7 +99,7 @@ Section 3: Availability and Communication
 
 Core Hours
 All remote employees are expected to be available for synchronous communication
-during core hours: 10:00 AM – 3:00 PM in their designated time zone.
+during core hours: 10:00 AM, 3:00 PM in their designated time zone.
 
 Outside core hours, employees are expected to respond to messages within
 4 business hours. Urgent issues marked with [URGENT] in Slack require response

@@ -203,7 +203,7 @@ People Leadership
 Operational Leadership
 [Process improvements, project deliveries]
 
-## Communication Examples
+Communication Examples
 [Samples demonstrating async leadership communication]
 
 Impact Metrics

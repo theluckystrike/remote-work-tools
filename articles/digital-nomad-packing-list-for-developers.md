@@ -144,9 +144,9 @@ Destination-Specific Considerations
 
 What you pack depends heavily on where you're going and for how long. A two-week stint at a coworking hub in Lisbon requires very different preparation than three months across Southeast Asia.
 
-European city-hopping (2–8 weeks). Most major European cities have coworking spaces with reliable gigabit internet. You can travel lighter because backup connectivity gear is less critical. Focus on ergonomics: a compact laptop stand, a quality travel keyboard, and a portable monitor if you regularly work with multiple windows. Power adapters are straightforward since EU plug types are consistent.
+European city-hopping (2, 8 weeks). Most major European cities have coworking spaces with reliable gigabit internet. You can travel lighter because backup connectivity gear is less critical. Focus on ergonomics: a compact laptop stand, a quality travel keyboard, and a portable monitor if you regularly work with multiple windows. Power adapters are straightforward since EU plug types are consistent.
 
-Southeast Asia long-term (3–12 months). Internet reliability varies dramatically between countries and even between cities within the same country. Bali's coworking scene is world-class; rural Thailand is not. Carry a dedicated mobile hotspot in addition to your phone plan, and budget for a local SIM with a data plan in each country. A ruggedized laptop bag or backpack handles humidity better than canvas options.
+Southeast Asia long-term (3, 12 months). Internet reliability varies dramatically between countries and even between cities within the same country. Bali's coworking scene is world-class; rural Thailand is not. Carry a dedicated mobile hotspot in addition to your phone plan, and budget for a local SIM with a data plan in each country. A ruggedized laptop bag or backpack handles humidity better than canvas options.
 
 Americas travel circuit. Mexico City, Medellín, and Buenos Aires have thriving nomad communities with excellent coworking infrastructure. US developers face no adapter issues in Mexico and most of Central America. South America requires some planning for voltage differences and occasional power stability issues. A quality surge protector with a travel adapter is worth the weight.
 
@@ -221,7 +221,7 @@ What is the single most important item on this list?
 Backup internet access. either a dedicated mobile hotspot or a phone plan that includes strong data tethering. Missing a client deadline because café WiFi went down is avoidable. Having one cellular backup has saved countless nomad developers from exactly that scenario.
 
 Should I bring a portable monitor?
-Only for stays longer than three weeks at a single location. Portable monitors add 1–2 kg and a significant packing footprint. For shorter stints, adapt your workflow to a single screen. If you're settling somewhere for a month or more, many coworking spaces have external monitors available to rent or borrow.
+Only for stays longer than three weeks at a single location. Portable monitors add 1, 2 kg and a significant packing footprint. For shorter stints, adapt your workflow to a single screen. If you're settling somewhere for a month or more, many coworking spaces have external monitors available to rent or borrow.
 
 How do I handle client video calls from inconsistent locations?
 Schedule calls at times when you know you will be in a stable location, such as your accommodation or a coworking space, not a café. Test your connection 30 minutes before important calls. Keep your phone data plan ready as a backup hotspot. A small USB-C to ethernet adapter eliminates WiFi variability entirely at locations that have a wired connection available.

@@ -155,11 +155,11 @@ Open Source and Hybrid Approaches
 
 For organizations preferring more control over their detection infrastructure, several open source tools provide building blocks:
 
-Wazuh – Open source host-based intrusion detection system (HIDS) with SaaS integration capabilities. Provides agent-based monitoring of Windows, Mac, and Linux endpoints. Good for detecting suspicious file modifications, privilege escalation attempts, and compliance violations.
+Wazuh, Open source host-based intrusion detection system (HIDS) with SaaS integration capabilities. Provides agent-based monitoring of Windows, Mac, and Linux endpoints. Good for detecting suspicious file modifications, privilege escalation attempts, and compliance violations.
 
-Velociraptor – Open source digital forensics and incident response platform. Excellent for performing remote investigations without connecting to a traditional VPN. Can query all endpoints simultaneously to find evidence of compromise.
+Velociraptor, Open source digital forensics and incident response platform. Excellent for performing remote investigations without connecting to a traditional VPN. Can query all endpoints simultaneously to find evidence of compromise.
 
-Zeek – Network-based intrusion detection system that analyzes network traffic for suspicious patterns. Particularly useful for detecting lateral movement within cloud infrastructure.
+Zeek, Network-based intrusion detection system that analyzes network traffic for suspicious patterns. Particularly useful for detecting lateral movement within cloud infrastructure.
 
 Consider a layered approach: open source for log aggregation and basic anomaly detection, commercial tools for SaaS integration and threat intelligence, and custom automation for organization-specific detection rules.
 

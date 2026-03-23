@@ -16,7 +16,7 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-A remote team wiki is the single highest-leverage documentation investment you can make. It reduces the volume of repetitive questions that interrupt senior engineers, gives new hires a path to self-serve answers, and preserves institutional knowledge that would otherwise walk out the door when someone leaves.
+A remote team wiki is the single most valuable documentation investment you can make. It reduces the volume of repetitive questions that interrupt senior engineers, gives new hires a path to self-serve answers, and preserves institutional knowledge that would otherwise walk out the door when someone leaves.
 
 Most wikis fail within six months. They start strong, accumulate content through the initial burst of enthusiasm, and then decay as nobody maintains them and the information becomes unreliable. This guide covers not just how to set one up, but how to structure it so it keeps working a year after launch.
 

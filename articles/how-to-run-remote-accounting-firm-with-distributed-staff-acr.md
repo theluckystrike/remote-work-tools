@@ -169,7 +169,7 @@ for slot in slots[:5]:
         print(f"  {tz}: {hour}:00")
 ```
 
-This script outputs the few hours each week when all team members are within standard working hours. For a New York–London–Manila team, you'll find these windows are limited, typically early morning New York time or late evening UK time.
+This script outputs the few hours each week when all team members are within standard working hours. For a New York, London, Manila team, you'll find these windows are limited, typically early morning New York time or late evening UK time.
 
 Step 8: Client Communication Across Time Zones
 

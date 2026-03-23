@@ -53,11 +53,11 @@ Stabilizer rattle on space bar: present out of box, fixable with band-aid mod ($
 
 Wireless quality: 2.4GHz USB dongle, rock solid. No lag. Battery life: ~6 weeks on a charge (we measured; Keychron claims 200 hours, which is accurate). Bluetooth also supported; we didn't use it (latency is noticeable for gaming, less so for typing, but 2.4GHz is better).
 
-Programmability: QMK firmware, fully customizable. Can reprogram any key, create layers (Fn+key toggles new layer), program macros. Learning curve: 1–2 hours to remap a comfortable layout. Config file is JSON-based; GitHub has 10K+ examples.
+Programmability: QMK firmware, fully customizable. Can reprogram any key, create layers (Fn+key toggles new layer), program macros. Learning curve: 1, 2 hours to remap a comfortable layout. Config file is JSON-based; GitHub has 10K+ examples.
 
 Durability: We put 900K key presses on one unit (heavy user, ~200 WPM). No degradation in switch feel. Stabilizers loosened slightly after 500K; re-tightened with a screwdriver.
 
-Price-to-value: Best in class at $189. Upgradeable, wireless, programmable. Switches wear out after ~100M presses (~5 years of heavy use), but Keychron ships hotswap sockets, so replacement switches are $5–15 each.
+Price-to-value: Best in class at $189. Upgradeable, wireless, programmable. Switches wear out after ~100M presses (~5 years of heavy use), but Keychron ships hotswap sockets, so replacement switches are $5, 15 each.
 
 Downside: Plastic stabilizers (even though they're good ones) age. Stabilizer rattle returns after ~2 years; requires maintenance.
 
@@ -71,7 +71,7 @@ Specs:
 - 60 keys (compact, minimal number pad)
 - Lexan polycarbonate case
 - Topre switches (not mechanical; capacitive, unique feel)
-- Typed actuation depth: 3–4mm
+- Typed actuation depth: 3, 4mm
 - ~600g, portable
 
 Real-world use (8 weeks):
@@ -80,13 +80,13 @@ HHKB is legendary in programmer circles (Yosuke Matsuda at Nintendo, many startu
 
 Typing feel: Topre is not a mechanical switch. It uses a rubber dome with a capacitive sensor underneath. Actuation is super smooth, with a subtle "thunk" sound. 45g actuation is light (half the weight of MX switches), so you can type faster without fatigue. Trade-off: requires more precision; if you're a sloppy typist, you'll hit unintended keys.
 
-We tested it against MX switches: Topre is faster for precise, deliberate typing (programming, technical writing), but heavier users (hunt-and-peck) are happier with 65–70g mechanical switches.
+We tested it against MX switches: Topre is faster for precise, deliberate typing (programming, technical writing), but heavier users (hunt-and-peck) are happier with 65, 70g mechanical switches.
 
 Sound: Very quiet. Office-friendly. Some love this; others find it too muffled compared to mechanical.
 
 Portability: At 600g, HHKB is the lightest here. Fits in a laptop backpack. Included carrying case (soft pouch). This is the keyboard remote workers choose when traveling.
 
-Durability: Topre switches are rated for 50M presses (higher than most MX switches at 30–50M). Case is Lexan (transparent, durable polycarbonate). We've seen HHKBs used daily for 10+ years. Build quality is exceptional.
+Durability: Topre switches are rated for 50M presses (higher than most MX switches at 30, 50M). Case is Lexan (transparent, durable polycarbonate). We've seen HHKBs used daily for 10+ years. Build quality is exceptional.
 
 Programmability: HHKB Pro 2 has basic layer switching via Fn key, but no full custom remapping like QMK. Pro 3 (newer) has more options. Most programmers buy HHKB because they value the stock layout + muscle memory, not for deep customization. If you need macro heavy remapping, this isn't the choice.
 
@@ -94,7 +94,7 @@ Wireless note: BT models ship with replaceable AA batteries (2x), ~3 months per 
 
 Downsides:
 - Topre switches are proprietary (can't swap for other switches)
-- High price ($295–349)
+- High price ($295, 349)
 - Compact layout is an adjustment if you're used to 75% or full-size
 - Ctrl key is where Caps Lock is on standard keyboards (non-standard, though HHKB users love this)
 
@@ -117,7 +117,7 @@ Real-world use (8 weeks, focus on RSI-prone users):
 
 We tested this with two team members prone to wrist strain. One has carpal tunnel; the other, tendinitis. Both showed measurable improvement.
 
-Ergonomics: The split design and contoured wells reduce forearm supination (twisting your wrist inward, which traditional keyboards force). The column-staggered key layout (keys line up with your fingers' natural angle) reduces finger stretch. After a 1–2 week adjustment, both users reported less wrist pain during the workday.
+Ergonomics: The split design and contoured wells reduce forearm supination (twisting your wrist inward, which traditional keyboards force). The column-staggered key layout (keys line up with your fingers' natural angle) reduces finger stretch. After a 1, 2 week adjustment, both users reported less wrist pain during the workday.
 
 Quantified: One user went from 6/10 wrist pain (with HHKB) to 2/10 with Kinesis Advantage 360 over 8 weeks of use.
 
@@ -125,7 +125,7 @@ Thumb cluster: The Kinesis puts 14 keys under your thumbs. You can reprogram the
 
 Switch feel: We tested with Kinesis-native switches (similar to Cherry MX Browns, 55g, tactile). Hotswap is standard, so you can swap to reds, blacks, etc. Build quality is solid; no rattle.
 
-Programmability: Kinesis uses its own firmware (not QMK), with a learning curve. Onboard programming: plug into a PC, upload configuration file (text-based), reprogram layers, macros, key remapping. Full power available, but less extensive ecosystem than QMK. Most users spend 2–3 hours getting a comfortable layout.
+Programmability: Kinesis uses its own firmware (not QMK), with a learning curve. Onboard programming: plug into a PC, upload configuration file (text-based), reprogram layers, macros, key remapping. Full power available, but less extensive ecosystem than QMK. Most users spend 2, 3 hours getting a comfortable layout.
 
 Durability: Kinesis has been making ergonomic boards since the 1990s. Advantage 360 is the latest iteration; we haven't had 5-year data, but Kinesis's older Advantage Pro users report 10+ year lifespans. Plastic case is rugged.
 
@@ -170,7 +170,7 @@ Switch options: Because it's hotswap + QMK, you can use any MX-compatible switch
 
 Wireless caveat: Marketing says "wireless," but it's actually wireless USB dongle (2.4GHz) + wired cable. No battery; power comes from USB cable when docked or dongle when portable. The "wireless" is asymmetrical: each half still needs an USB cable connection (to a hub or the dongle) for power. Not truly wireless like Keychron or HHKB.
 
-Durability: Less track record than Kinesis or HHKB (ZSA is newer, founded 2010s). But customer reviews over 3–4 years show solid reliability. Switches are standard (MX-compatible), so replacement is cheap.
+Durability: Less track record than Kinesis or HHKB (ZSA is newer, founded 2010s). But customer reviews over 3, 4 years show solid reliability. Switches are standard (MX-compatible), so replacement is cheap.
 
 Downsides:
 - Requires assembly or $35 pre-assembled option
@@ -253,7 +253,7 @@ Final Verdict
 - Best for wrist pain: Kinesis Advantage 360 ($449). Ergonomic design is proven to reduce RSI.
 - Best for customization + ergonomics: ZSA Moonlander ($365). QMK power + split layout.
 
-If your job depends on your hands (and whose doesn't, as a programmer?), invest in the keyboard. It pays dividends over 3–5 years, and the difference between a $189 and $449 board isn't noticeable when you're doing your best work.
+If your job depends on your hands (and whose doesn't, as a programmer?), invest in the keyboard. It pays dividends over 3, 5 years, and the difference between a $189 and $449 board isn't noticeable when you're doing your best work.
 ---
 
 

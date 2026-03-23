@@ -266,7 +266,7 @@ For most firms under 50 seats, Autodesk Construction Cloud provides the lowest-f
 
 Network Latency Optimization for Remote Revit
 
-Large Revit central files (100MB–2GB) are sensitive to network latency in ways that typical SaaS tools are not. Practical mitigation strategies:
+Large Revit central files (100MB, 2GB) are sensitive to network latency in ways that typical SaaS tools are not. Practical mitigation strategies:
 
 Split the model by discipline. Instead of one monolithic central file, use Revit's linked-model workflow to split structural, architectural, and MEP models into separate files. Each discipline team syncs only their file, reducing the per-sync payload dramatically.
 

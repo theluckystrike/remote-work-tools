@@ -244,7 +244,7 @@ Decision Guide: Which Tool to Choose
 
 Choose PagerDuty if: You need the most reliable mobile alerting available, you have complex multi-team on-call rotations, or you are at a company where incident management tooling is considered critical infrastructure.
 
-Choose Opsgenie if: Your team is already on Atlassian (Jira, Confluence), you want strong Jira bidirectional sync, or you need a cost-effective solution for a team of 5–20 engineers.
+Choose Opsgenie if: Your team is already on Atlassian (Jira, Confluence), you want strong Jira bidirectional sync, or you need a cost-effective solution for a team of 5, 20 engineers.
 
 Choose Rootly if: Your team lives in Slack and you want to minimize context switching during incidents, or you prioritize post-mortem quality and want automated timeline capture.
 

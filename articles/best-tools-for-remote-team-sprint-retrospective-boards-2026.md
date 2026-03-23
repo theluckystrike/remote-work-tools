@@ -168,7 +168,7 @@ Best for teams: Startups, resource-constrained teams, distributed teams prioriti
 
 Confluence + Atlassian Ecosystem (Atlassian)
 
-Cost: Part of Atlassian Cloud ($10–25/month depending on tier)
+Cost: Part of Atlassian Cloud ($10, 25/month depending on tier)
 Best for: Teams already in Jira, documentation-first organizations
 
 Use Confluence as a retro board using Confluence pages + Jira for action item tracking. This is zero-cost if you're already on Atlassian.
@@ -201,7 +201,7 @@ Best for teams: Organizations already using Jira, teams that prioritize integrat
 
 Google Jamboard + Docs (Google)
 
-Cost: Included with Google Workspace ($6–18/month)
+Cost: Included with Google Workspace ($6, 18/month)
 Best for: Organizations already on Google Workspace, no learning curve required
 
 Jamboard is Google's infinite canvas. Combine with Google Docs for notes and Google Tasks for action items.
@@ -238,8 +238,8 @@ Comparison Table
 | Tool | Async Support | Anonymous Voting | Templates | Integrations | Cost | Best For |
 |------|---|---|---|---|---|---|
 | Miro | Fair | Yes | Excellent | Excellent (Jira, Azure) | $12+/month | Visual-first teams |
-| RetroTool | Excellent | Yes | Excellent | Good (Jira, Linear, GitHub) | Free–$99/month | Distributed timezones |
-| FunRetro | Fair | Yes | Good | Fair (Jira only) | Free–$40/month | Budget-conscious teams |
+| RetroTool | Excellent | Yes | Excellent | Good (Jira, Linear, GitHub) | Free, $99/month | Distributed timezones |
+| FunRetro | Fair | Yes | Good | Fair (Jira only) | Free, $40/month | Budget-conscious teams |
 | Confluence | Poor | No | Fair | Excellent (Jira, GitHub) | Included in Atlassian | Jira-integrated orgs |
 | Jamboard | Fair | No | Poor | Fair (Google Workspace) | Included in Google Workspace | Google Workspace orgs |
 
@@ -361,7 +361,7 @@ Q: Should retros be mandatory or optional?
 A: Mandatory attendance for leads and key contributors. Optional for others, but encourage participation. Retros work only if people feel safe attending.
 
 Q: How often should we run retros?
-A: Once per sprint (usually 1–2 weeks). After 3 months, run a longer "retrospective of retrospectives" to see if process is improving.
+A: Once per sprint (usually 1, 2 weeks). After 3 months, run a longer "retrospective of retrospectives" to see if process is improving.
 
 Q: What if the team doesn't raise issues?
 A: This is a safety problem, not a tool problem. Diagnose: Are people afraid of retaliation? Is the facilitator politically neutral? Does leadership act on feedback? No tool fixes distrust.
@@ -373,16 +373,16 @@ Q: Should retros include managers?
 A: Yes, but in a listening-only role for sensitive topics. If manager dominates discussion, team stops being honest. Consider separate retro sessions for psychological safety.
 
 Q: How long should a retro take?
-A: 60–90 minutes for a 2-week sprint team (8–10 people). For larger teams (20+ people), use breakout retros by team, then synthesize findings.
+A: 60, 90 minutes for a 2-week sprint team (8, 10 people). For larger teams (20+ people), use breakout retros by team, then synthesize findings.
 
 Q: What if we have action items from last retro that we didn't complete?
 A: Bring them into this retro. Discuss: Why didn't we complete it? Is it still important? Rescope or reprioritize. Track why action items die, this tells you a lot about your team's capacity.
 
 Q: Can we run retros async entirely?
-A: Yes, if spread across 3–5 days:
+A: Yes, if spread across 3, 5 days:
 - Day 1: Submit ideas (async)
 - Day 2: Vote (async)
-- Day 3–4: Discussion (async in thread or Slack)
+- Day 3, 4: Discussion (async in thread or Slack)
 - Day 5: Action items finalized
 This works for distributed timezones but loses real-time energy.
 

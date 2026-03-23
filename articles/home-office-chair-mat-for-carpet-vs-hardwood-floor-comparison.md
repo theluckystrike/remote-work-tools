@@ -169,19 +169,19 @@ Popular Chair Mat Products and Pricing
 
 Top Carpet Mat Options
 
-Staples Hardwood & Tile Chair Mat (Heavy Duty) – $30-40
+Staples Hardwood & Tile Chair Mat (Heavy Duty), $30-40
 - Cleated back for carpet grip
 - 45x53 inches covers most desk setups
 - Medium durability (2-3 year lifespan)
 - Good value for budget-conscious home offices
 
-Floortex Ecotex Evolution – $50-70
+Floortex Ecotex Evolution, $50-70
 - Plant-based materials with cleats for carpet
 - Anti-microbial properties
 - High durability (5+ years)
 - Best for environmentally conscious users
 
-Polycarbonate Chairmat (Amazon Basics) – $25-35
+Polycarbonate Chairmat (Amazon Basics), $25-35
 - Works on light pile carpet
 - Clear style shows carpet underneath
 - Lower durability than industrial alternatives
@@ -189,20 +189,20 @@ Polycarbonate Chairmat (Amazon Basics) – $25-35
 
 Top Hardwood Floor Mat Options
 
-Floortex Ultimat Polycarbonate Mat – $60-120
+Floortex Ultimat Polycarbonate Mat, $60-120
 - Premium polycarbonate, extremely durable
 - 30-year anti-yellow warranty
 - Shows wood grain beautifully
 - Superior rolling experience
 - Investment piece that lasts decades
 
-AmazonBasics Chairmat – $20-30
+AmazonBasics Chairmat, $20-30
 - Budget-friendly vinyl option
 - Adequate protection for hardwood
 - 2-3 year lifespan
 - Gets the job done without premium feel
 
-Weathertech ClearLINE – $45-80
+Weathertech ClearLINE, $45-80
 - Premium polycarbonate alternative to Floortex
 - US-manufactured
 - Scratch-resistant backing

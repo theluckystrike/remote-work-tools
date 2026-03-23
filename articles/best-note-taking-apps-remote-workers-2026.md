@@ -100,7 +100,7 @@ Pricing: Free for personal. $10/user/month for Plus (team features). $15/user/mo
 
 Strengths: Real-time collaboration, powerful databases (filter, sort, group), templates for everything, integrates with Slack/GitHub/Jira.
 
-Limitations: Slow on mobile, search is poor compared to Obsidian, you don't own your data (it's in Notion's cloud), offline mode is limited. Loading a page can take 2–3 seconds.
+Limitations: Slow on mobile, search is poor compared to Obsidian, you don't own your data (it's in Notion's cloud), offline mode is limited. Loading a page can take 2, 3 seconds.
 
 When to Use Notion vs Obsidian
 
@@ -159,11 +159,11 @@ Quick Comparison
 | App | Sync | Collaboration | Offline | Data format | Price | Search Speed |
 |-----|------|---------------|---------|-------------|-------|--------------|
 | Obsidian | Optional (paid) | No | Yes | Plain Markdown | Free | Instant |
-| Notion | Built-in | Yes | Limited | Proprietary | Free–$15/user | 2-3 sec |
+| Notion | Built-in | Yes | Limited | Proprietary | Free, $15/user | 2-3 sec |
 | Logseq | Beta | No | Yes | Markdown/EDN | Free | 1-2 sec |
 | Apple Notes | iCloud | No | Yes | Proprietary | Free | Instant |
-| Bear | Paid | No | Yes | Markdown | Free–$30/yr | Instant |
-| OneNote | Built-in | Yes | Limited | Proprietary | Free–$70/yr | 3-5 sec |
+| Bear | Paid | No | Yes | Markdown | Free, $30/yr | Instant |
+| OneNote | Built-in | Yes | Limited | Proprietary | Free, $70/yr | 3-5 sec |
 
 Recommendation by Use Case
 

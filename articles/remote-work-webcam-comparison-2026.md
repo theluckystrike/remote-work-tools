@@ -24,7 +24,7 @@ The Contenders
 
 | Camera | Resolution | Frame Rate | Field of View | Price |
 |--------|-----------|------------|---------------|-------|
-| Logitech Brio 500 | 1080p | 30fps | 90° (adjustable 65–90°) | $130 |
+| Logitech Brio 500 | 1080p | 30fps | 90° (adjustable 65, 90°) | $130 |
 | Elgato Facecam Pro | 4K | 60fps | 90° | $200 |
 | Insta360 Link 2 | 4K | 30fps (60fps crop) | 79° (AI tracking) | $230 |
 | Opal C1 | 4K | 60fps (29fps 4K) | 90° | $300 |

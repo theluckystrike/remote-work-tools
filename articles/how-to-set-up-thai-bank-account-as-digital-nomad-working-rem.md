@@ -42,9 +42,9 @@ Required Documents
 Before visiting a bank branch, gather these essential documents:
 
 1. Valid passport with at least 6 months remaining validity
-2. Proof of address – This can be a hotel booking, rental agreement, or letter from your accommodation
-3. Thai phone number – Required for OTP verification and account notifications
-4. Initial deposit – Typically 300-1,000 THB depending on the bank
+2. Proof of address, This can be a hotel booking, rental agreement, or letter from your accommodation
+3. Thai phone number, Required for OTP verification and account notifications
+4. Initial deposit, Typically 300-1,000 THB depending on the bank
 
 Some banks may also request:
 - Work permit (if you have one)
@@ -86,10 +86,10 @@ Managing International Payments
 
 One common challenge is receiving payments from international clients. Your Thai bank account supports:
 
-- SWIFT transfers – Direct wire transfers from clients abroad
-- Wise (formerly TransferWise) – Connect your Thai account for lower fees ($0.68-$6 for most transfers)
-- PayPal – Withdraw to Thai bank accounts ($1.99 per withdrawal + conversion fees)
-- Stripe Connect – Direct payouts to Thai bank accounts (2.2% for international transfers)
+- SWIFT transfers, Direct wire transfers from clients abroad
+- Wise (formerly TransferWise), Connect your Thai account for lower fees ($0.68-$6 for most transfers)
+- PayPal, Withdraw to Thai bank accounts ($1.99 per withdrawal + conversion fees)
+- Stripe Connect, Direct payouts to Thai bank accounts (2.2% for international transfers)
 
 Here's a detailed comparison of typical fees for receiving $1,000 USD:
 
@@ -147,10 +147,10 @@ Maximizing Your Thai Banking Experience
 
 Once your account is active, set up these features:
 
-1. Mobile banking app – Enable push notifications for transactions
-2. Bill pay – Pay utilities and services directly from your app
-3. FD (Fixed Deposit) – Some banks offer higher interest rates for FD accounts
-4. Cross-border payments – Link your account to Wise for international transfers
+1. Mobile banking app, Enable push notifications for transactions
+2. Bill pay, Pay utilities and services directly from your app
+3. FD (Fixed Deposit), Some banks offer higher interest rates for FD accounts
+4. Cross-border payments, Link your account to Wise for international transfers
 
 For developers working remotely, integrating banking APIs can automate invoice payments and expense tracking. Thailand's banking API ecosystem is growing, with services like PromptPay enabling instant fund transfers between Thai bank accounts.
 

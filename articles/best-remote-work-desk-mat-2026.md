@@ -73,7 +73,7 @@ Drawbacks:
 
 Ideal For: Professionals valuing aesthetics and longevity. Design-conscious home offices. Leather pairs well with standing desks and minimal setups.
 
-Lifespan: 5–7 years with care; 10+ years possible.
+Lifespan: 5, 7 years with care; 10+ years possible.
 
 Best overall. Cognac patina improves with age. Worth the premium.
 ---
@@ -92,7 +92,7 @@ Why It Works:
 - Synthetic leather resists wear better than vinyl. Handles daily spills.
 - Non-slip base. Doesn't slide on glass desks.
 - Budget-friendly entry point to desk mat ownership.
-- Edge stitching holds for 2–3 years with normal use.
+- Edge stitching holds for 2, 3 years with normal use.
 
 Drawbacks:
 - Synthetic leather feels plastic-y. Doesn't age gracefully.
@@ -102,7 +102,7 @@ Drawbacks:
 
 Ideal For: Budget-conscious remote workers. Shared desks. Temporary setups.
 
-Lifespan: 2–3 years.
+Lifespan: 2, 3 years.
 
 Serviceable but uninspiring. Step up to genuine leather if budget allows.
 
@@ -126,14 +126,14 @@ Why It's Popular:
 - Affordable for extended sizes.
 
 Drawbacks:
-- Microfiber pill and fray after 1–2 years of daily use.
+- Microfiber pill and fray after 1, 2 years of daily use.
 - Gaming aesthetics may clash with professional offices.
 - Requires periodic washing (cold water, air dry).
 - Wrist support is minimal; recommended only for ergonomic keyboards.
 
 Ideal For: Remote workers with optical mice. Multi-monitor setups. Budget-conscious but durability-focused.
 
-Lifespan: 2–3 years.
+Lifespan: 2, 3 years.
 
 Best value extended mat. Gaming pedigree ensures quality. Not as elegant as leather but highly functional.
 
@@ -161,7 +161,7 @@ Drawbacks:
 
 Ideal For: Minimalist home offices. Aesthetic-focused professionals. Desk purists.
 
-Lifespan: 5–7 years.
+Lifespan: 5, 7 years.
 
 Beautiful but niche. Hermanmiller offers similar quality at lower cost.
 
@@ -178,7 +178,7 @@ Dimensions: 60" × 30" only (extra-large).
 Why It's Unique:
 - Designed for standing desks. Accommodates dual monitors, keyboard, mouse, and accessories.
 - Felt surface is stable. Doesn't slide on polished surfaces.
-- Wool-blend is durable. 4–5 year lifespan with normal use.
+- Wool-blend is durable. 4, 5 year lifespan with normal use.
 - Subtle texture reduces glare from monitors.
 
 Drawbacks:
@@ -189,7 +189,7 @@ Drawbacks:
 
 Ideal For: Standing desk setups. Large workstations. Multi-device workflows.
 
-Lifespan: 4–5 years.
+Lifespan: 4, 5 years.
 
 Specialized product. Only recommended if you have 60"+ desk space.
 
@@ -199,11 +199,11 @@ Comparison Table
 
 | Model | Material | Size | Price | Lifespan | Mouse Tracking | Aesthetics | Best For |
 |-------|----------|------|-------|----------|---|-----------|----------|
-| Hermanmiller Cognac | Leather | 36"/48" | $99/$129 | 5–7 yrs | Good | Excellent | Premium professionals |
-| Logicool Pro | Syn. Leather | 36"/48" | $49/$69 | 2–3 yrs | Fair | Good | Budget buyers |
-| SteelSeries QcK | Microfiber | 36"/48" | $79/$119 | 2–3 yrs | Excellent | Fair | Gaming/optical mice |
-| Bellroy | Leather | 36" | $125 | 5–7 yrs | Good | Excellent | Minimalists |
-| FULLY Desk Pad | Wool Felt | 60" | $159 | 4–5 yrs | Fair | Good | Standing desks |
+| Hermanmiller Cognac | Leather | 36"/48" | $99/$129 | 5, 7 yrs | Good | Excellent | Premium professionals |
+| Logicool Pro | Syn. Leather | 36"/48" | $49/$69 | 2, 3 yrs | Fair | Good | Budget buyers |
+| SteelSeries QcK | Microfiber | 36"/48" | $79/$119 | 2, 3 yrs | Excellent | Fair | Gaming/optical mice |
+| Bellroy | Leather | 36" | $125 | 5, 7 yrs | Good | Excellent | Minimalists |
+| FULLY Desk Pad | Wool Felt | 60" | $159 | 4, 5 yrs | Fair | Good | Standing desks |
 
 ---
 
@@ -227,7 +227,7 @@ Built-in rests (older designs) are uncomfortable and promote unnatural wrist ang
 
 1. Ergonomic keyboard: Wrist-neutral typing is the primary factor. A quality mechanical keyboard (Kinesis, Moonlander, or split ANSI) eliminates wrist strain regardless of desk mat.
 
-2. Separate wrist pad: If you want padding, add a mechanical keyboard wrist rest ($30–60) instead of buying a bundled mat. Replaceable = upgradeable.
+2. Separate wrist pad: If you want padding, add a mechanical keyboard wrist rest ($30, 60) instead of buying a bundled mat. Replaceable = upgradeable.
 
 3. Mouse pad with wrist support: Dedicated mouse pad rests are optional. Most remote workers prefer no padding.
 
@@ -270,7 +270,7 @@ Scenario 4: Budget-Conscious Contractor
 - Desk: 48" folding desk (temporary setup)
 - Mat: Logicool Pro (36" × 16")
 - Cost: $49
-- Why: Affordable, non-slip base, acceptable durability for 2–3 year workspace.
+- Why: Affordable, non-slip base, acceptable durability for 2, 3 year workspace.
 
 ---
 
@@ -291,15 +291,15 @@ Annually (Leather Only):
 
 As Needed:
 - Spills: Blot immediately with dry cloth. For liquids, wipe with damp cloth and air dry.
-- Stains: Leather takes marks; consider them patina. If removal is needed, professional cleaning ($30–50).
+- Stains: Leather takes marks; consider them patina. If removal is needed, professional cleaning ($30, 50).
 
 ---
 
 Budget Tiers
 
-$0–$50 (Logicool Pro, basic vinyl): Entry-level. 2–3 year lifespan. Acceptable for temporary or shared desks.
+$0, $50 (Logicool Pro, basic vinyl): Entry-level. 2, 3 year lifespan. Acceptable for temporary or shared desks.
 
-$50–$100 (SteelSeries QcK, Bellroy, Hermanmiller standard): Sweet spot. 3–5 year lifespan. Recommended for most remote workers.
+$50, $100 (SteelSeries QcK, Bellroy, Hermanmiller standard): Sweet spot. 3, 5 year lifespan. Recommended for most remote workers.
 
 $100+ (Hermanmiller extended, FULLY, premium leather): Investment-grade. 5+ year lifespan. Only if aesthetic or performance justify premium.
 
@@ -320,7 +320,7 @@ Value Pick: SteelSeries QcK Prism (48" × 24"), $119
 - Gaming-tested durability.
 
 Budget Pick: Logicool Pro (36" × 16"), $49
-- Acceptable durability (2–3 years).
+- Acceptable durability (2, 3 years).
 - Non-slip base.
 - Entry-level investment.
 
@@ -328,7 +328,7 @@ Budget Pick: Logicool Pro (36" × 16"), $49
 
 Final Recommendation
 
-Invest in a desk mat. Your desk surface, wrists, and mouse accuracy will thank you. Genuine leather (Hermanmiller, Bellroy) is the long-term value play: $99–$129 for 5–7 years equals $15–$25 per year. Microfiber cloth (SteelSeries) is the performance pick for optical mice and extended setups.
+Invest in a desk mat. Your desk surface, wrists, and mouse accuracy will thank you. Genuine leather (Hermanmiller, Bellroy) is the long-term value play: $99, $129 for 5, 7 years equals $15, $25 per year. Microfiber cloth (SteelSeries) is the performance pick for optical mice and extended setups.
 
 Avoid synthetic leather and vinyl. They fail within 3 years and require replacement, a false economy.
 

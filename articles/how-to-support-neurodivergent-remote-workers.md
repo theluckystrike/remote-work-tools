@@ -210,7 +210,7 @@ Step 10: Build the Business Case for Accommodations
 
 Leadership sometimes views accommodations as special treatment or too costly. Counter with data:
 
-Retention: Accommodated neurodivergent employees show 40% higher retention rates than those without accommodations. Turnover costs for engineers average $150,000–$250,000 per person.
+Retention: Accommodated neurodivergent employees show 40% higher retention rates than those without accommodations. Turnover costs for engineers average $150,000, $250,000 per person.
 
 Productivity: Neurodivergent individuals often demonstrate exceptional performance in their areas of strength. A developer with ADHD who hyperfocuses may outperform neurotypical peers despite requiring structure.
 
@@ -240,7 +240,7 @@ Step 12: Measuring Progress and Accountability
 
 Track these metrics to ensure your neurodiversity initiatives are working:
 
-Recruitment: What percentage of new hires self-identify as neurodivergent or disclose a neurodevelopmental condition? (Industry average: <5%; aim for 8–12%)
+Recruitment: What percentage of new hires self-identify as neurodivergent or disclose a neurodevelopmental condition? (Industry average: <5%; aim for 8, 12%)
 
 Retention: Compare retention rates for neurodivergent employees against baseline. (Target: ≥95% after first year)
 
@@ -275,7 +275,7 @@ Response: "That's our default. We'll use async-first communication for non-urgen
 Request: "Can I attend meetings but not be required to speak?"
 Response: "Yes. Attendance is the commitment. Participation can be via chat, written comments, or listening."
 
-Request: "Can I work different hours than the standard 9–5?"
+Request: "Can I work different hours than the standard 9, 5?"
 Response: "As long as you overlap with the team during core hours and meet deadlines, your schedule is flexible."
 
 Request: "Can I use fidget tools or stim toys during meetings?"

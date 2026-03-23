@@ -150,7 +150,7 @@ volumes:
   store-data:
 ```
 
-The Store Gateway downloads block index files from S3 and caches them locally. The `--index-cache-size` flag controls how much RAM is used for index caching. the default is 250 MB, which is adequate for modest workloads. Increase to 1–2 GB if you store more than 30 days of data across multiple clusters.
+The Store Gateway downloads block index files from S3 and caches them locally. The `--index-cache-size` flag controls how much RAM is used for index caching. the default is 250 MB, which is adequate for modest workloads. Increase to 1, 2 GB if you store more than 30 days of data across multiple clusters.
 
 ---
 

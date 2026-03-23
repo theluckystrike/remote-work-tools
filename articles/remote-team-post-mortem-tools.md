@@ -271,9 +271,9 @@ Running the Async Post-Mortem Process
 
 Hour 0: Incident resolved. Create the post-mortem document immediately with just the title and timeline stub. Don't write conclusions yet.
 
-Hours 1–24: Everyone involved adds their observations asynchronously. Use comments for additions, not edits. Keep to facts, not blame.
+Hours 1, 24: Everyone involved adds their observations asynchronously. Use comments for additions, not edits. Keep to facts, not blame.
 
-Hour 24–48: Incident lead synthesizes the timeline into root cause analysis. Drafts action items with owners (who must be consulted, not just assigned).
+Hour 24, 48: Incident lead synthesizes the timeline into root cause analysis. Drafts action items with owners (who must be consulted, not just assigned).
 
 Hour 48: Review comment period opens. Team has 48 hours to add corrections.
 

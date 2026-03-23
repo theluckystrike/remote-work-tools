@@ -252,7 +252,7 @@ Iterate based on usage patterns. Remove features nobody uses, and add integratio
 Frequently Asked Questions
 
 How much does it cost to build and run a custom dashboard?
-The compute cost is minimal. A small DigitalOcean or Fly.io instance runs under $10/month. The real cost is developer time for initial setup (typically 4–8 hours) and ongoing maintenance (1–2 hours per month to update integrations when APIs change). If that time cost is a concern, Monday.com or Basecamp's out-of-the-box options pay for themselves quickly.
+The compute cost is minimal. A small DigitalOcean or Fly.io instance runs under $10/month. The real cost is developer time for initial setup (typically 4, 8 hours) and ongoing maintenance (1, 2 hours per month to update integrations when APIs change). If that time cost is a concern, Monday.com or Basecamp's out-of-the-box options pay for themselves quickly.
 
 How do we handle projects that span multiple repositories or tools?
 Design the aggregation layer to query multiple sources. Your `/api/status` endpoint can call GitHub for code-related status, Linear for task status, and a Google Sheet for budget data, then merge the responses before returning them to the frontend. The complexity is manageable as long as each integration is modular. a single failing API call should not crash the entire dashboard.

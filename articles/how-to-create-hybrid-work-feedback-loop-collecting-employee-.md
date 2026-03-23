@@ -374,7 +374,7 @@ The single biggest reason feedback systems fail is lack of transparency. Impleme
 ```markdown
 Post-Feedback Communication Template
 
-Subject: We Heard You – Here's What We're Changing
+Subject: We Heard You, Here's What We're Changing
 
 Dear Team,
 

@@ -190,7 +190,7 @@ Not all invoicing tools serve the same scenarios equally. Here is a structured c
 | Time tracking | No | Built-in | No | Limited |
 | Expense management | No | Built-in | No | Basic |
 | International tax | Partial | Manual | Automated | No |
-| Monthly cost | Per transaction | $19–55 | $49–149 | Free |
+| Monthly cost | Per transaction | $19, 55 | $49, 149 | Free |
 | PDF customization | Moderate | High | Moderate | Low |
 
 Wave deserves a mention for early-stage freelancers. It is free, handles basic invoicing well, and integrates with Stripe for payment collection. The limitation is that it has no API, no webhooks, and requires entirely manual workflow. Once you have more than three active clients or recurring billing needs, the manual overhead justifies switching to a paid tool.
@@ -201,7 +201,7 @@ The right tool depends on your specific remote work situation. These scenarios m
 
 Solo developer, US clients only. Stripe Invoicing is the most developer-friendly choice. You likely already have a Stripe account for other purposes, and adding invoicing requires minimal additional setup. The lack of built-in time tracking is not a problem if you use a separate time tracking tool and build the conversion yourself.
 
-Agency with 5–15 contractor team. FreshBooks makes sense here because it handles the complexity of tracking billable hours across multiple people on a project. The time tracking integration means you can generate client invoices directly from logged hours without manual calculation. The project-to-invoice workflow reduces billing errors.
+Agency with 5, 15 contractor team. FreshBooks makes sense here because it handles the complexity of tracking billable hours across multiple people on a project. The time tracking integration means you can generate client invoices directly from logged hours without manual calculation. The project-to-invoice workflow reduces billing errors.
 
 Freelancer with EU clients. This is where Quaderno is effectively mandatory. EU VAT rules require you to collect and remit tax based on the client's country, not yours. Getting this wrong results in compliance issues. Quaderno's automated VAT detection handles the edge cases (B2B vs B2C, digital services vs professional services) that make manual compliance error-prone.
 

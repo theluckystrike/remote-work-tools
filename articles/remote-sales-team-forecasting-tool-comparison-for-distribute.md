@@ -207,7 +207,7 @@ Replace synchronous pipeline calls with an async review workflow:
 
 1. Automated deal digest. Schedule a Monday morning CRM report that surfaces deals with stale activity (no update in 7+ days), deals close to close date with low probability, and deals that moved backward in stage.
 
-2. Async video updates. Require AEs to record a 2–3 minute Loom or Notion clip for each deal over a defined threshold (e.g., above $25K) at the start of each week. Leadership reviews these recordings asynchronously.
+2. Async video updates. Require AEs to record a 2, 3 minute Loom or Notion clip for each deal over a defined threshold (e.g., above $25K) at the start of each week. Leadership reviews these recordings asynchronously.
 
 3. Structured CRM updates. Standardize the fields AEs must update before Friday EOD. Next steps, close date confidence, and blockers are the minimum. This data feeds your automated forecast model directly.
 

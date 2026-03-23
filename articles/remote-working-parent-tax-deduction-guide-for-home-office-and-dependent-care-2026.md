@@ -206,17 +206,17 @@ Step 7: Tools That Actually Work for Tax Tracking
 
 Beyond spreadsheets, consider these tools favored by remote working parents:
 
-Expensify: Automatic receipt scanning via smartphone camera. Extracts expense data and categorizes automatically. Syncs with accounting software. Free tier covers personal use; professional plans add team features. Cost: Free–$15/month.
+Expensify: Automatic receipt scanning via smartphone camera. Extracts expense data and categorizes automatically. Syncs with accounting software. Free tier covers personal use; professional plans add team features. Cost: Free, $15/month.
 
 QuickBooks Self-Employed: Designed for freelancers and self-employed individuals. Tracks income and expenses by category, estimates quarterly taxes, and integrates with tax software. Cost: $15/month.
 
 Wave Accounting: Free accounting software with excellent receipt tracking and tax category suggestions. Built specifically for freelancers. Updates tax categories annually to match current IRS guidelines. Cost: Free.
 
-FreshBooks: Invoice generation, expense categorization, and time tracking combined. Useful if you bill clients and track time spent on projects. Cost: $15–$55/month depending on features.
+FreshBooks: Invoice generation, expense categorization, and time tracking combined. Useful if you bill clients and track time spent on projects. Cost: $15, $55/month depending on features.
 
 Step 8: Documentation Strategies That Survive Audits
 
-The IRS typically audits 1–2% of individual returns, and home office deductions are a known audit trigger. Strengthen your audit defense:
+The IRS typically audits 1, 2% of individual returns, and home office deductions are a known audit trigger. Strengthen your audit defense:
 
 Maintain contemporaneous records: Document expenses as they occur, not retroactively. A credit card statement alone isn't sufficient, keep receipts showing the business purpose.
 
@@ -269,7 +269,7 @@ This is suspicious because it suggests exactly 300 square feet of home office sp
 
 Red flag #2: Home office expenses exceeding 50% of housing costs
 
-If your mortgage is $2,500 and you claim $1,500 in home office rent allocation, that's 60%. Typical home office is 10–20% of housing costs. Outliers attract attention.
+If your mortgage is $2,500 and you claim $1,500 in home office rent allocation, that's 60%. Typical home office is 10, 20% of housing costs. Outliers attract attention.
 
 Red flag #3: Dramatic year-over-year changes
 

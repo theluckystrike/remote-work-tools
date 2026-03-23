@@ -222,7 +222,7 @@ Async Communication Tools
 
 When build issues arise in different time zones, teams benefit from tools that support detailed asynchronous communication. Loom recordings showing build errors, detailed GitHub issue descriptions with reproduction steps, and Slack threads with full context enable team members to investigate issues without requiring real-time communication.
 
-#### Structured Issue Templates
+Structured Issue Templates
 
 Create GitHub issue templates for common build problems:
 

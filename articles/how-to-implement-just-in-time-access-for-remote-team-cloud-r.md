@@ -48,11 +48,11 @@ Step 1: Core Components of a JIT Access System
 
 A functional JIT system requires several moving parts:
 
-1. Access Request Portal – Where users request temporary access to resources
-2. Approval Workflow – Automated or manual approval process
-3. Credential Issuance – Generation of temporary credentials with expiration
-4. Access Enforcement – Enforcement of time-limited access
-5. Audit Logging – Complete record of who accessed what and when
+1. Access Request Portal, Where users request temporary access to resources
+2. Approval Workflow, Automated or manual approval process
+3. Credential Issuance, Generation of temporary credentials with expiration
+4. Access Enforcement, Enforcement of time-limited access
+5. Audit Logging, Complete record of who accessed what and when
 
 Step 2: Implementing JIT Access with AWS
 
@@ -250,11 +250,11 @@ Remote team members need clear instructions on how to request access, what to in
 
 Step 6: Common Pitfalls to Avoid
 
-- Overly permissive session policies – Time-limited access is useless if the session policy grants full admin rights
-- Bypassing JIT for "emergencies" – This defeats the purpose; instead, design fast-track approval workflows
-- Poor visibility into active sessions – You need real-time awareness of who has access right now
-- Session duration creep – Teams often start with 60-minute sessions and gradually extend to 8 hours "for convenience." Audit session durations quarterly and push back against unnecessary extensions.
-- Ignoring service account JIT – Human accounts get the JIT treatment but long-lived service account keys accumulate. Apply the same time-bound thinking to machine identities using AWS IAM Roles for Service Accounts or GCP Workload Identity Federation.
+- Overly permissive session policies, Time-limited access is useless if the session policy grants full admin rights
+- Bypassing JIT for "emergencies", This defeats the purpose; instead, design fast-track approval workflows
+- Poor visibility into active sessions, You need real-time awareness of who has access right now
+- Session duration creep, Teams often start with 60-minute sessions and gradually extend to 8 hours "for convenience." Audit session durations quarterly and push back against unnecessary extensions.
+- Ignoring service account JIT, Human accounts get the JIT treatment but long-lived service account keys accumulate. Apply the same time-bound thinking to machine identities using AWS IAM Roles for Service Accounts or GCP Workload Identity Federation.
 
 Troubleshooting
 

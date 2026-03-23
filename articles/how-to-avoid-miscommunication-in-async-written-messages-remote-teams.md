@@ -202,7 +202,7 @@ Response Time Expectations
 | Urgent tag | 1 hour | 4 hours |
 | Code review | 8 hours | 24 hours |
 
-"Working hours" are defined as your local 9 AM – 6 PM. Nobody is expected to respond outside their working hours.
+"Working hours" are defined as your local 9 AM, 6 PM. Nobody is expected to respond outside their working hours.
 ```
 
 Detecting and Resolving Miscommunication
