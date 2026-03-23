@@ -9,7 +9,7 @@ permalink: /how-to-write-freelance-proposals-that-win/
 categories: [guides]
 tags: [remote-work-tools, freelance, proposals, business]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 ---
