@@ -1,4 +1,5 @@
 ---
+
 layout: default
 title: "How to Do Async User Research Interviews with Recorded"
 description: "Learn how to conduct effective async user research interviews using recorded responses. Complete 2026 guide for remote product teams and UX researchers"
@@ -22,6 +23,7 @@ score: 9
 intent-checked: true
 voice-checked: true
 ---
+
 {% raw %}
 
 Use platforms like Lookback or UserInterviews to send structured interview prompts, collect recorded responses, and analyze insights asynchronously across time zones. Async user research interviews transform how distributed product teams gather customer insights without scheduling friction—researchers create structured prompts that participants answer on video, allowing thoughtful, authentic responses without real-time pressure. This guide covers platform selection, interview design, participant recruiting, and analysis techniques for distributed product teams.
