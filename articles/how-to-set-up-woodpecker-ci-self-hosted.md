@@ -21,22 +21,22 @@ The operational footprint is minimal: a server process and one or more agents. T
 
 ---
 
-## Architecture Overview
+Architecture Overview
 
 Woodpecker has two components:
-- **Server**: Web UI, API, pipeline scheduler. Runs as a single container.
-- **Agent**: Executes pipeline steps. Run one per host; scale horizontally.
+- Server: Web UI, API, pipeline scheduler. Runs as a single container.
+- Agent: Executes pipeline steps. Run one per host; scale horizontally.
 
 Both communicate over gRPC. The server stores state in SQLite (small teams) or PostgreSQL (production).
 
-Each pipeline step runs in its own Docker container, pulled fresh for each build. Steps within a pipeline share a workspace volume so files written by one step (like a compiled binary) are available to the next. This model is simpler than GitHub Actions' runner model and easier to debug — you can reproduce any step locally by running the same Docker image with the same commands.
+Each pipeline step runs in its own Docker container, pulled fresh for each build. Steps within a pipeline share a workspace volume so files written by one step (like a compiled binary) are available to the next. This model is simpler than GitHub Actions' runner model and easier to debug. you can reproduce any step locally by running the same Docker image with the same commands.
 
 ---
 
-## Deploy with Docker Compose
+Deploy with Docker Compose
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 
 services:
@@ -98,23 +98,23 @@ WOODPECKER_AGENT_SECRET=$(openssl rand -hex 32)
 DB_PASSWORD=$(openssl rand -hex 24)
 ```
 
-`WOODPECKER_OPEN=false` is important — it disables open registration so only users from your configured OAuth provider can log in. `WOODPECKER_ADMIN` grants admin access to the specified username, which lets you manage repositories and organization-level secrets from the UI.
+`WOODPECKER_OPEN=false` is important. it disables open registration so only users from your configured OAuth provider can log in. `WOODPECKER_ADMIN` grants admin access to the specified username, which lets you manage repositories and organization-level secrets from the UI.
 
-Port 8000 is the HTTP/HTTPS interface. Port 9000 is the gRPC port that agents connect to. If you're behind a reverse proxy, only 8000 needs to be exposed externally — agents connect to 9000 over the internal Docker network.
+Port 8000 is the HTTP/HTTPS interface. Port 9000 is the gRPC port that agents connect to. If you're behind a reverse proxy, only 8000 needs to be exposed externally. agents connect to 9000 over the internal Docker network.
 
 ---
 
-## Create the GitHub OAuth App
+Create the GitHub OAuth App
 
-1. Go to **GitHub > Settings > Developer settings > OAuth Apps > New OAuth App**
-2. Set **Homepage URL**: `https://ci.yourcompany.com`
-3. Set **Authorization callback URL**: `https://ci.yourcompany.com/authorize`
+1. Go to GitHub > Settings > Developer settings > OAuth Apps > New OAuth App
+2. Set Homepage URL: `https://ci.yourcompany.com`
+3. Set Authorization callback URL: `https://ci.yourcompany.com/authorize`
 4. Copy the Client ID and generate a Client Secret
 
 For Gitea instead of GitHub:
 
 ```bash
-# docker-compose.yml environment
+docker-compose.yml environment
 - WOODPECKER_GITHUB=false
 - WOODPECKER_GITEA=true
 - WOODPECKER_GITEA_URL=https://git.yourcompany.com
@@ -132,14 +132,14 @@ For GitLab:
 - WOODPECKER_GITLAB_SECRET=${GITLAB_APPLICATION_SECRET}
 ```
 
-In GitLab, create the application at **User Settings > Applications** with the `api` and `read_user` scopes and the callback URL `https://ci.yourcompany.com/authorize`.
+In GitLab, create the application at User Settings > Applications with the `api` and `read_user` scopes and the callback URL `https://ci.yourcompany.com/authorize`.
 
 ---
 
-## Nginx Reverse Proxy
+Nginx Reverse Proxy
 
 ```nginx
-# /etc/nginx/sites-available/woodpecker
+/etc/nginx/sites-available/woodpecker
 server {
     listen 443 ssl http2;
     server_name ci.yourcompany.com;
@@ -178,12 +178,12 @@ labels:
 
 ---
 
-## Write Your First Pipeline
+Write Your First Pipeline
 
 Create `.woodpecker.yml` in your repo root:
 
 ```yaml
-# .woodpecker.yml
+.woodpecker.yml
 steps:
   - name: test
     image: golang:1.22-alpine
@@ -221,7 +221,7 @@ steps:
 For Node.js:
 
 ```yaml
-# .woodpecker.yml
+.woodpecker.yml
 steps:
   - name: install
     image: node:20-alpine
@@ -266,25 +266,25 @@ The `when` clause is the main conditional mechanism. You can filter on branch, e
 
 ---
 
-## Secrets Management
+Secrets Management
 
 Add secrets via the Woodpecker UI or CLI. Never put secrets in `.woodpecker.yml`:
 
 ```bash
-# Install CLI
+Install CLI
 go install github.com/woodpecker-ci/woodpecker/cmd/woodpecker-cli@latest
 
-# Authenticate
+Authenticate
 export WOODPECKER_SERVER=https://ci.yourcompany.com
 export WOODPECKER_TOKEN=your_api_token
 
-# Add a secret to a specific repo
+Add a secret to a specific repo
 woodpecker-cli secret add \
   --repository your-org/your-repo \
   --name docker_password \
   --value "your_registry_password"
 
-# Add an organization-level secret (shared across repos)
+Add an organization-level secret (shared across repos)
 woodpecker-cli secret add \
   --organization your-org \
   --name SLACK_WEBHOOK \
@@ -308,7 +308,7 @@ Organization-level secrets are available to all repos within the organization wi
 
 ---
 
-## Scale Agents Horizontally
+Scale Agents Horizontally
 
 Add agents on additional hosts by pointing them at the server:
 
@@ -326,7 +326,7 @@ docker run -d \
 For GPU workloads or specific hardware, tag agents:
 
 ```bash
-# On agent startup
+On agent startup
 -e WOODPECKER_AGENT_LABELS="platform=linux,arch=arm64,gpu=true"
 ```
 
@@ -346,39 +346,39 @@ Agent labels are how you route specific pipeline steps to specific hardware. A c
 
 ---
 
-## Useful CLI Commands
+Useful CLI Commands
 
 ```bash
-# List pipelines for a repo
+List pipelines for a repo
 woodpecker-cli pipeline list --repository your-org/app
 
-# Trigger a pipeline manually
+Trigger a pipeline manually
 woodpecker-cli pipeline start your-org/app --branch main
 
-# View pipeline logs
+View pipeline logs
 woodpecker-cli pipeline log your-org/app 42
 
-# List all repos
+List all repos
 woodpecker-cli repo list
 
-# Check agent status
+Check agent status
 woodpecker-cli agent list
 
-# Restart a failed pipeline
+Restart a failed pipeline
 woodpecker-cli pipeline restart your-org/app 42
 
-# Get pipeline info as JSON
+Get pipeline info as JSON
 woodpecker-cli pipeline info your-org/app 42 --output json
 ```
 
 ---
 
-## Matrix Builds
+Matrix Builds
 
 Test across multiple versions in parallel:
 
 ```yaml
-# .woodpecker.yml
+.woodpecker.yml
 matrix:
   GO_VERSION:
     - "1.21"
@@ -392,7 +392,7 @@ steps:
       - go test ./...
 ```
 
-Woodpecker expands the matrix into parallel pipelines — one per version combination. If you add a second dimension:
+Woodpecker expands the matrix into parallel pipelines. one per version combination. If you add a second dimension:
 
 ```yaml
 matrix:
@@ -414,23 +414,23 @@ This produces 4 pipelines (2 Go versions × 2 OS variants) running concurrently 
 
 ---
 
-## Conditional Pipelines with When Clauses
+Conditional Pipelines with When Clauses
 
 Control when entire pipelines or individual steps run:
 
 ```yaml
-# Run only on pull requests targeting main
+Run only on pull requests targeting main
 when:
   event: pull_request
   branch: main
 
-# Run only when specific files change
+Run only when specific files change
 when:
   path:
-    include: ["src/**", "Dockerfile"]
-    exclude: ["**/*.md"]
+    include: ["src/", "Dockerfile"]
+    exclude: ["/*.md"]
 
-# Run on tag push (release builds)
+Run on tag push (release builds)
 when:
   event: tag
   tag: "v*"
@@ -440,7 +440,7 @@ Path filtering prevents unnecessary CI runs. A docs change that only touches Mar
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Drone CI for Remote Teams](/how-to-set-up-drone-ci-for-remote-teams/)
 - [Best Tools for Remote Team Code Ownership](/best-tools-remote-team-code-ownership/)
@@ -449,13 +449,13 @@ Path filtering prevents unnecessary CI runs. A docs change that only touches Mar
 
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Drone CI for Remote Teams](/how-to-set-up-drone-ci-for-remote-teams/)
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/ci-cd-pipeline-solo-developer-github-actions/)
 - [Best Project Management Tools with GitHub Integration](/best-project-management-tools-with-github-integration/)
 - [Best Tools for Remote Team Feature Flags](/best-tools-remote-team-feature-flags/)
 - [Migrating from AWS CodeCommit to GitHub for Remote Team](/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

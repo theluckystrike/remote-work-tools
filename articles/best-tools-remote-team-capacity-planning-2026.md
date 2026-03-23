@@ -17,7 +17,7 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Capacity planning for remote teams is harder than in-office: you can't glance across the office to see who is overloaded. The tools that work surface workload data without requiring managers to chase status updates. This guide covers the best options by team type, plus the spreadsheet formulas and automations that tie them together.
 
-## Table of Contents
+Table of Contents
 
 - [The Capacity Planning Model](#the-capacity-planning-model)
 - [1. Linear (Best for Engineering Teams)](#1-linear-best-for-engineering-teams)
@@ -36,13 +36,12 @@ Capacity planning for remote teams is harder than in-office: you can't glance ac
 - [Decisions Needed](#decisions-needed)
 - [Related Reading](#related-reading)
 
-## The Capacity Planning Model
+The Capacity Planning Model
 
 ```
 Capacity = Available days × Focus ratio
 
-Example:
-  Engineer: 10 days in sprint
+Engineer: 10 days in sprint
   Minus: 1 day meetings + admin
   Minus: 0.5 days on-call rotation
   Minus: 0.5 days PTO
@@ -52,7 +51,7 @@ Example:
 ```
 
 ```bash
-# Sprint capacity calculator (bash)
+Sprint capacity calculator (bash)
 #!/bin/bash
 calculate_capacity() {
   local name="$1"
@@ -71,13 +70,13 @@ calculate_capacity "Bob"     10 0 0   0.10
 calculate_capacity "Carlos"  10 2 0   0.12
 ```
 
-## 1. Linear (Best for Engineering Teams)
+1. Linear (Best for Engineering Teams)
 
-**Cost:** $8/user/month
-**Best for:** Sprint-based engineering with cycle tracking
+Cost: $8/user/month
+Best for: Sprint-based engineering with cycle tracking
 
 ```bash
-# Linear API: get current cycle capacity
+Linear API: get current cycle capacity
 curl -X POST "https://api.linear.app/graphql" \
   -H "Authorization: Bearer $LINEAR_API_KEY" \
   -H "Content-Type: application/json" \
@@ -125,12 +124,12 @@ Member settings:
 Auto-limit: Warn when member exceeds their capacity target
 ```
 
-## 2. Notion Capacity Tracker
+2. Notion Capacity Tracker
 
 For teams already in Notion, a database works well:
 
 ```markdown
-# Sprint Capacity Database Properties:
+Sprint Capacity Database Properties:
 
 Sprint (Select): Sprint 42
 Engineer (Person)
@@ -141,29 +140,29 @@ Meeting Overhead % (Number)
 Story Points Planned (Number)
 Story Points Completed (Number)
 
-# Formulas:
+Formulas:
 Available Days = Sprint Days - PTO Days - On-Call Days
 Effective Capacity = Available Days * (1 - Meeting Overhead % / 100)
 % Allocated = Story Points Planned / (Effective Capacity * 2)
-# Where 2 = assumed story points per day
+Where 2 = assumed story points per day
 
 Status (Formula):
   if(prop("% Allocated") < 0.8, "Under",
   if(prop("% Allocated") < 1.1, "On Track", "Overloaded"))
 ```
 
-## 3. Float (Best for Agencies and Multi-Project)
+3. Float (Best for Agencies and Multi-Project)
 
-**Cost:** $6/user/month
-**Best for:** Teams working across multiple projects with billable hour tracking
+Cost: $6/user/month
+Best for: Teams working across multiple projects with billable hour tracking
 
 ```bash
-# Float API: get team availability for next 2 weeks
+Float API: get team availability for next 2 weeks
 curl "https://api.float.com/v3/people" \
   -H "Authorization: Bearer $FLOAT_API_TOKEN" | \
   jq '.[] | {name: .name, department: .department, hours_per_day: .work_days.hours}'
 
-# Check utilization
+Check utilization
 curl "https://api.float.com/v3/tasks?start_date=$(date +%Y-%m-%d)&end_date=$(date -d '+14 days' +%Y-%m-%d)" \
   -H "Authorization: Bearer $FLOAT_API_TOKEN" | \
   jq '
@@ -175,12 +174,12 @@ curl "https://api.float.com/v3/tasks?start_date=$(date +%Y-%m-%d)&end_date=$(dat
   '
 ```
 
-## 4. GitHub Projects v2 with Capacity Fields
+4. GitHub Projects v2 with Capacity Fields
 
 Add custom capacity fields to GitHub Projects:
 
 ```bash
-# Create custom field via API
+Create custom field via API
 gh api graphql -f query='
   mutation {
     addProjectV2Field(input: {
@@ -198,7 +197,7 @@ gh api graphql -f query='
   }
 '
 
-# Get sprint workload by assignee
+Get sprint workload by assignee
 gh api graphql -f query='
   query {
     organization(login: "yourorg") {
@@ -239,12 +238,12 @@ gh api graphql -f query='
 '
 ```
 
-## 5. Spreadsheet: Quarterly Headcount Capacity
+5. Spreadsheet: Quarterly Headcount Capacity
 
 For quarterly planning, a Google Sheets model:
 
 ```
-# Quarterly Capacity Model (CSV format)
+Quarterly Capacity Model (CSV format)
 
 Name,Role,Jan,Feb,Mar,Q1 Capacity (days)
 Alice,Backend,19,18,21,58
@@ -260,7 +259,7 @@ Working days minus:
 ```
 
 ```python
-# scripts/quarterly-capacity.py
+scripts/quarterly-capacity.py
 from datetime import date, timedelta
 import holidays
 import json
@@ -303,44 +302,43 @@ team = [
 
 capacity = quarterly_capacity(team, 2026, 2)
 print(json.dumps(capacity, indent=2))
-# Total team capacity: sum of effective_days
+Total team capacity: sum of effective_days
 ```
 
-## Weekly Async Capacity Update Template
+Weekly Async Capacity Update Template
 
 ```markdown
-# Capacity Update — Week of March 23
+Capacity Update. Week of March 23
 
-**Post in:** #capacity-planning by Monday 10am
+Post in: #capacity-planning by Monday 10am
 
 Format:
 @[name]: [available days this week] days | Focus: [primary project]
 
-Example:
 @alice: 4 days (1 day on-call) | Focus: Auth service refactor
 @bob: 3 days (2 days PTO Fri-Sat) | Focus: CI pipeline
 @carlos: 5 days | Focus: Frontend component library + design system review
 ```
 
-## 6. Choosing the Right Tool by Team Size
+6. Choosing the Right Tool by Team Size
 
 Team size significantly shapes which capacity planning tool adds the most value without creating management overhead.
 
-**Teams of 2-8 engineers** rarely need a dedicated capacity planning tool. A shared Notion database with the sprint capacity formula above, combined with a weekly async update in Slack, handles planning well. Linear's built-in cycle tracking plus the bash script covers sprint-level visibility without additional tooling cost.
+Teams of 2-8 engineers rarely need a dedicated capacity planning tool. A shared Notion database with the sprint capacity formula above, combined with a weekly async update in Slack, handles planning well. Linear's built-in cycle tracking plus the bash script covers sprint-level visibility without additional tooling cost.
 
-**Teams of 8-25 engineers** are where Float and dedicated capacity tools earn their cost. At this size, cross-team dependencies become real: the frontend team's capacity affects the backend team's ability to ship, and capacity shortfalls in infrastructure slow down product delivery. A visual timeline in Float or a multi-team view in Linear makes these dependencies visible before they become blockers.
+Teams of 8-25 engineers are where Float and dedicated capacity tools earn their cost. At this size, cross-team dependencies become real: the frontend team's capacity affects the backend team's ability to ship, and capacity shortfalls in infrastructure slow down product delivery. A visual timeline in Float or a multi-team view in Linear makes these dependencies visible before they become blockers.
 
-**Teams of 25+ engineers** usually need both sprint-level and quarterly capacity planning running in parallel. Engineering managers track sprint capacity in Linear or Jira; engineering directors track quarterly headcount capacity in Float or a spreadsheet model. The quarterly model informs hiring decisions and program commitments. The sprint model informs day-to-day prioritization.
+Teams of 25+ engineers usually need both sprint-level and quarterly capacity planning running in parallel. Engineering managers track sprint capacity in Linear or Jira; engineering directors track quarterly headcount capacity in Float or a spreadsheet model. The quarterly model informs hiring decisions and program commitments. The sprint model informs day-to-day prioritization.
 
-## 7. Integrating Capacity Data into Your Async Workflow
+7. Integrating Capacity Data into Your Async Workflow
 
-For remote teams, the most important capacity planning insight is available to team members when they need it — not locked in a manager's spreadsheet or discussed only in a meeting that happened at 2am local time.
+For remote teams, the most important capacity planning insight is available to team members when they need it. not locked in a manager's spreadsheet or discussed only in a meeting that happened at 2am local time.
 
 A practical setup that works for many remote engineering teams:
 
 ```bash
-# Automated capacity summary posted to Slack every Monday
-# Uses Linear API to pull current cycle data
+Automated capacity summary posted to Slack every Monday
+Uses Linear API to pull current cycle data
 
 #!/bin/bash
 CYCLE_DATA=$(curl -s -X POST "https://api.linear.app/graphql" \
@@ -348,7 +346,7 @@ CYCLE_DATA=$(curl -s -X POST "https://api.linear.app/graphql" \
   -H "Content-Type: application/json" \
   -d '{"query": "query { cycles(filter: {isActive: {eq: true}}) { nodes { name issues { nodes { estimate assignee { name } state { name } } } } } }"}')
 
-# Generate summary
+Generate summary
 SUMMARY=$(echo "$CYCLE_DATA" | jq -r '
   .data.cycles.nodes[0].issues.nodes |
   group_by(.assignee.name) |
@@ -361,7 +359,7 @@ SUMMARY=$(echo "$CYCLE_DATA" | jq -r '
   "\(.person): \(.done)/\(.planned) pts complete"
 ' | tr '\n' '\n')
 
-# Post to Slack
+Post to Slack
 curl -s -X POST "$SLACK_WEBHOOK_URL" \
   -H "Content-Type: application/json" \
   -d "{\"text\": \"*Sprint Capacity Update*\n\`\`\`\n${SUMMARY}\n\`\`\`\"}"
@@ -369,31 +367,31 @@ curl -s -X POST "$SLACK_WEBHOOK_URL" \
 
 This automation posts to a `#capacity-planning` Slack channel every Monday morning, giving the whole team visibility into workload distribution without anyone having to pull the data manually or attend a standup to hear it.
 
-## 8. Capacity Planning Anti-Patterns for Remote Teams
+8. Capacity Planning Anti-Patterns for Remote Teams
 
 The tools above solve the visibility problem, but capacity planning fails for reasons that are not tool-related.
 
-**Ignoring meeting overhead.** Engineering teams typically estimate capacity in story points but forget to subtract time spent in planning, retrospective, design reviews, and 1:1s. A 10-day sprint for a senior engineer who runs three recurring meetings per week may have only 7-8 days of effective engineering capacity. The bash calculator above handles this with the `meeting_overhead` parameter, but it only works if managers enter realistic values rather than aspirational ones.
+Ignoring meeting overhead. Engineering teams typically estimate capacity in story points but forget to subtract time spent in planning, retrospective, design reviews, and 1:1s. A 10-day sprint for a senior engineer who runs three recurring meetings per week may have only 7-8 days of effective engineering capacity. The bash calculator above handles this with the `meeting_overhead` parameter, but it only works if managers enter realistic values rather than aspirational ones.
 
-**Planning to 100% allocation.** Teams planned at full capacity have no buffer for the unexpected: production incidents, urgent bug fixes, or scope that expands mid-sprint. Experienced engineering managers plan to 80% of calculated capacity and treat the buffer as insurance. Remote teams should be more conservative — distributed coordination has higher latency, which means unexpected issues take longer to resolve.
+Planning to 100% allocation. Teams planned at full capacity have no buffer for the unexpected: production incidents, urgent bug fixes, or scope that expands mid-sprint. Experienced engineering managers plan to 80% of calculated capacity and treat the buffer as insurance. Remote teams should be more conservative. distributed coordination has higher latency, which means unexpected issues take longer to resolve.
 
-**Not tracking actuals against estimates.** Capacity planning that does not close the feedback loop is guesswork. Track story points planned versus completed each sprint. If a team consistently completes 70% of planned capacity, the model needs adjustment — either estimates are too optimistic or the capacity calculation is missing overhead.
+Not tracking actuals against estimates. Capacity planning that does not close the feedback loop is guesswork. Track story points planned versus completed each sprint. If a team consistently completes 70% of planned capacity, the model needs adjustment. either estimates are too optimistic or the capacity calculation is missing overhead.
 
-## 9. Quarterly Capacity Review Process
+9. Quarterly Capacity Review Process
 
 Beyond sprint-level planning, remote engineering teams benefit from a quarterly capacity review that takes a longer view. A lightweight async process that works:
 
 ```markdown
-# Q2 Capacity Review — Async Template
-**Due: April 1, post in Notion before EOD**
+Q2 Capacity Review. Async Template
+Due: April 1, post in Notion before EOD
 
-## Team Capacity Overview
+Team Capacity Overview
 - Total team-days in Q2: [run quarterly-capacity.py]
 - Committed projects: [list with rough effort estimates]
 - Hiring plan: [headcount changes expected]
 - Known absences: [team PTO, parental leave, etc.]
 
-## Allocation by Initiative
+Allocation by Initiative
 | Initiative | Estimated Days | Assigned Team Members |
 |-----------|---------------|----------------------|
 | Core product roadmap | | |
@@ -402,16 +400,16 @@ Beyond sprint-level planning, remote engineering teams benefit from a quarterly 
 | Cross-team dependencies | | |
 | Buffer (20%) | | |
 
-## Risks
+Risks
 - [List any capacity risks: hiring delays, scope uncertainty, dependencies]
 
-## Decisions Needed
+Decisions Needed
 - [Surface any allocation tradeoffs that need manager or leadership input]
 ```
 
 This document gets posted to Notion and reviewed asynchronously by engineering managers and product leadership. Decisions are documented in the same thread rather than in a meeting that half the remote team cannot attend at a convenient time.
 
-## Related Reading
+Related Reading
 
 - [Async Capacity Planning Process for Remote Engineering Managers](/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 - [How to Coordinate Remote SRE Team Capacity Planning](/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
@@ -420,13 +418,13 @@ This document gets posted to Notion and reviewed asynchronously by engineering m
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Best Tools for Remote Team Capacity Planning in 2026](/best-tools-for-remote-team-capacity-planning-2026/)
 - [Best Tool for Remote Team Capacity Planning When Scaling](/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 - [Async Capacity Planning Process for Remote Engineering](/async-capacity-planning-process-for-remote-engineering-manag/)
 - [Async Capacity Planning Process for Remote: Managers](/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 - [Best Tools for Remote Team Sprint Planning (2026)](/best-tools-for-remote-team-sprint-planning-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

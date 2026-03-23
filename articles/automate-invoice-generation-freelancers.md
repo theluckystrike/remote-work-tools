@@ -15,9 +15,9 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-Manual invoicing is a tax on your time. If you spend 15 minutes creating and sending each invoice and you bill 10 clients a month, that is 2.5 hours of admin per month — roughly 30 hours a year. Automating invoice generation brings that to under 30 seconds per invoice.
+Manual invoicing is a tax on your time. If you spend 15 minutes creating and sending each invoice and you bill 10 clients a month, that is 2.5 hours of admin per month. roughly 30 hours a year. Automating invoice generation brings that to under 30 seconds per invoice.
 
-## Table of Contents
+Table of Contents
 
 - [The Stack](#the-stack)
 - [Install invoice-cli](#install-invoice-cli)
@@ -38,41 +38,41 @@ Manual invoicing is a tax on your time. If you spend 15 minutes creating and sen
 
 This guide builds a practical invoice automation system using scripts: a CLI tool that generates numbered PDFs, sends them by email, and logs payment status in a CSV.
 
-## The Stack
+The Stack
 
-- **invoice-cli** — Node.js CLI that generates PDF invoices from YAML data
-- **Nodemailer** — email delivery
-- **CSV ledger** — simple payment tracking without a SaaS subscription
+- invoice-cli. Node.js CLI that generates PDF invoices from YAML data
+- Nodemailer. email delivery
+- CSV ledger. simple payment tracking without a SaaS subscription
 
-## Install invoice-cli
+Install invoice-cli
 
 ```bash
 npm install -g invoice-cli
 
-# Verify install
+Verify install
 invoice --version
 ```
 
 invoice-cli takes a YAML config and outputs a styled PDF. It handles itemized line items, tax rates, due dates, and client data.
 
-## Project Structure
+Project Structure
 
 ```bash
 ~/invoices/
-├── config/
-│   └── me.yml          # your business details
-├── clients/
-│   ├── acme.yml
-│   └── globex.yml
-├── output/             # generated PDFs land here
-├── ledger.csv          # payment tracking
-└── send-invoice.js     # automation script
+ config/
+    me.yml          # your business details
+ clients/
+    acme.yml
+    globex.yml
+ output/             # generated PDFs land here
+ ledger.csv          # payment tracking
+ send-invoice.js     # automation script
 ```
 
-## Your Business Config
+Your Business Config
 
 ```yaml
-# config/me.yml
+config/me.yml
 business:
   name: "Your Name / Studio Name"
   address: "123 Main St, City, State 00000"
@@ -82,10 +82,10 @@ business:
   tax_id: "XX-XXXXXXX"
 ```
 
-## Client Config
+Client Config
 
 ```yaml
-# clients/acme.yml
+clients/acme.yml
 client:
   name: "ACME Corp"
   contact: "Jane Smith"
@@ -95,7 +95,7 @@ client:
   tax_rate: 0
 ```
 
-## Automation Script
+Automation Script
 
 ```javascript
 // send-invoice.js
@@ -168,14 +168,14 @@ if (send) {
 }
 ```
 
-## Install Dependencies
+Install Dependencies
 
 ```bash
 cd ~/invoices
 npm init -y
 npm install nodemailer js-yaml
 
-# Set SMTP credentials as environment variables
+Set SMTP credentials as environment variables
 export SMTP_HOST=smtp.gmail.com
 export SMTP_USER=you@gmail.com
 export SMTP_PASS=your-app-password
@@ -183,23 +183,23 @@ export SMTP_PASS=your-app-password
 
 For Gmail, generate an App Password at myaccount.google.com/apppasswords with "Mail" access. This is separate from your main Gmail password and can be revoked independently.
 
-## Send an Invoice
+Send an Invoice
 
 ```bash
-# Generate only (review before sending)
+Generate only (review before sending)
 node send-invoice.js acme "Website redesign phase 1" 4500 1
 
-# Generate and send immediately
+Generate and send immediately
 node send-invoice.js acme "Website redesign phase 1" 4500 1 --send
 
-# Check outstanding invoices
+Check outstanding invoices
 grep ',pending' ledger.csv
 ```
 
-## Mark an Invoice Paid
+Mark an Invoice Paid
 
 ```bash
-# Mark INV-1003 as paid
+Mark INV-1003 as paid
 node -e "
 const fs = require('fs');
 const id = process.argv[1];
@@ -208,17 +208,17 @@ fs.writeFileSync('ledger.csv', data.replace(new RegExp('(' + id + ',.*),pending'
 " INV-1003
 ```
 
-## Automate Monthly Recurring Invoices
+Automate Monthly Recurring Invoices
 
 For retainer clients billed every month, use a cron job:
 
 ```bash
-# crontab -e
-# Run on the 1st of each month at 8am
+crontab -e
+Run on the 1st of each month at 8am
 0 8 1 * * cd ~/invoices && node send-invoice.js globex "Monthly retainer" 200 10 --send >> ~/invoices/logs/cron.log 2>&1
 ```
 
-## Self-Hosted Alternative: Invoice Ninja
+Self-Hosted Alternative: Invoice Ninja
 
 For a full GUI with online payment and client portal, Invoice Ninja is free when self-hosted:
 
@@ -231,9 +231,9 @@ docker run -d \
   invoiceninja/invoiceninja:5
 ```
 
-Invoice Ninja adds recurring invoice automation, Stripe/PayPal payment links, and client portal access — all without a monthly SaaS fee.
+Invoice Ninja adds recurring invoice automation, Stripe/PayPal payment links, and client portal access. all without a monthly SaaS fee.
 
-## Adding Tax Calculation
+Adding Tax Calculation
 
 Different clients may require different tax rates depending on jurisdiction. Extend the invoice system:
 
@@ -254,7 +254,7 @@ function calculateTax(subtotal, country, state) {
 module.exports = { calculateTax, TAX_RATES };
 ```
 
-## Late Payment Follow-Up Automation
+Late Payment Follow-Up Automation
 
 Unpaid invoices require follow-up. Automate reminders based on due date:
 
@@ -292,13 +292,13 @@ Run this daily via cron:
 0 9 * * * cd ~/invoices && node check-overdue.js >> logs/overdue.log 2>&1
 ```
 
-## Generating Annual Revenue Reports
+Generating Annual Revenue Reports
 
 At tax time, generate a summary report from your ledger:
 
 ```bash
 #!/bin/bash
-# annual-report.sh
+annual-report.sh
 YEAR=${1:-$(date +%Y)}
 echo "=== Revenue Report for $YEAR ==="
 echo "Total Revenue:"
@@ -314,7 +314,7 @@ grep ",$YEAR-" ledger.csv | grep ",paid" | \
   awk -F',' '{clients[$2] += $5} END {for (c in clients) printf "  %-20s $%.2f\n", c, clients[c]}'
 ```
 
-## Comparison of Invoice Automation Approaches
+Comparison of Invoice Automation Approaches
 
 | Approach | Setup Time | Monthly Cost | Customization | Payment Links |
 |----------|-----------|-------------|---------------|---------------|
@@ -326,41 +326,41 @@ grep ",$YEAR-" ledger.csv | grep ",paid" | \
 
 The CLI approach works best for developers who want full control and already have a command-line workflow.
 
-## Related Reading
+Related Reading
 
 - [Best Invoicing Tools for Freelancers 2026](/best-invoicing-tools-for-freelancers-2026/)
 - [Best Accounting Software for Freelancers 2026](/best-accounting-software-for-freelancers-2026/)
 - [Freelancer Tax Deduction Tracking Tools 2026](/freelancer-tax-deduction-tracking-2026/)
 - [How to Automate Changelog Generation](/how-to-automate-changelog-generation/)
 
-## Related Articles
+Related Articles
 
 - [Best Payment Collection Automation for Remote Businesses](/best-payment-collection-automation-for-remote-businesses-sending-invoice-reminders-2026/)
 - [Best Tools for Managing Client Contracts Invoices Freelance](/best-tools-for-managing-client-contracts-invoices-freelance-developer/)
 - [Best Invoicing Tools for Freelancers 2026](/best-invoicing-tools-for-freelancers-2026/)
 - [Best Invoicing and Client Payment Portal for Remote Agencies](/best-invoicing-and-client-payment-portal-for-remote-agencies/)
 - [Payment Terms Best Practices for Freelancers](/payment-terms-best-practices-for-freelancers/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Are there any hidden costs I should know about?**
+Are there any hidden costs I should know about?
 
 Watch for overage charges, API rate limit fees, and costs for premium features not included in base plans. Some tools charge extra for storage, team seats, or advanced integrations. Read the full pricing page including footnotes before signing up.
 
-**Is the annual plan worth it over monthly billing?**
+Is the annual plan worth it over monthly billing?
 
 Annual plans typically save 15-30% compared to monthly billing. If you have used the tool for at least 3 months and plan to continue, the annual discount usually makes sense. Avoid committing annually before you have validated the tool fits your needs.
 
-**Can I change plans later without losing my data?**
+Can I change plans later without losing my data?
 
 Most tools allow plan changes at any time. Upgrading takes effect immediately, while downgrades typically apply at the next billing cycle. Your data and settings are preserved across plan changes in most cases, but verify this with the specific tool.
 
-**Do student or nonprofit discounts exist?**
+Do student or nonprofit discounts exist?
 
 Many AI tools and software platforms offer reduced pricing for students, educators, and nonprofits. Check the tool's pricing page for a discount section, or contact their sales team directly. Discounts of 25-50% are common for qualifying organizations.
 
-**What happens to my work if I cancel my subscription?**
+What happens to my work if I cancel my subscription?
 
 Policies vary widely. Some tools let you access your data for a grace period after cancellation, while others lock you out immediately. Export your important work before canceling, and check the terms of service for data retention policies.
 

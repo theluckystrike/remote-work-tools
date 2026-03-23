@@ -18,7 +18,7 @@ intent-checked: true
 
 Remote team performance management requires tools that work asynchronously across time zones. Email-based feedback gets buried; spreadsheets fragment data; annual reviews miss opportunities to course-correct throughout the year. Dedicated performance review platforms centralize feedback, track goals, and provide data-driven insights. For distributed teams, choosing the right platform directly impacts culture and retention.
 
-## Table of Contents
+Table of Contents
 
 - [Why Remote Teams Need Performance Tools](#why-remote-teams-need-performance-tools)
 - [Lattice: Modern Performance Infrastructure](#lattice-modern-performance-infrastructure)
@@ -31,26 +31,26 @@ Remote team performance management requires tools that work asynchronously acros
 - [Remote-Specific Best Practices](#remote-specific-best-practices)
 - [Implementation Checklist](#implementation-checklist)
 
-## Why Remote Teams Need Performance Tools
+Why Remote Teams Need Performance Tools
 
 Traditional performance management fails for distributed teams:
 
-- **Feedback scattered**: Performance input lives in email, Slack threads, scattered notes
-- **Visibility gap**: Managers can't assess contribution because work is often hidden in tools
-- **Asynchronous feedback fails**: Annual reviews don't capture year-long context
-- **Goal misalignment**: Team members don't know what matters to leadership
-- **No data trail**: Disputes over performance have no documented evidence
-- **Retention risks**: High performers don't realize their value, jump to competitors
+- Feedback scattered: Performance input lives in email, Slack threads, scattered notes
+- Visibility gap: Managers can't assess contribution because work is often hidden in tools
+- Asynchronous feedback fails: Annual reviews don't capture year-long context
+- Goal misalignment: Team members don't know what matters to leadership
+- No data trail: Disputes over performance have no documented evidence
+- Retention risks: High performers don't realize their value, jump to competitors
 
 Structured performance platforms solve these by creating a feedback system designed for distributed teams: continuous feedback collection, goal alignment, and asynchronous 360 reviews.
 
-## Lattice: Modern Performance Infrastructure
+Lattice: Modern Performance Infrastructure
 
 Lattice combines goal tracking, continuous feedback, and structured review processes in one platform. Built specifically for contemporary work culture.
 
-### Core Features
+Core Features
 
-**Goals and OKRs**: Employees set quarterly goals, connect to company OKRs, track progress.
+Goals and OKRs: Employees set quarterly goals, connect to company OKRs, track progress.
 
 ```
 Employee goal:
@@ -66,7 +66,7 @@ Progress: 80% complete
 Next: Documentation and knowledge sharing
 ```
 
-**Continuous feedback**: Not just annual reviews. Managers and peers submit feedback throughout the year.
+Continuous feedback: Not just annual reviews. Managers and peers submit feedback throughout the year.
 
 ```
 Feedback submitted:
@@ -80,11 +80,11 @@ programmed it with other team members. This is the kind of technical
 leadership we need more of."
 ```
 
-**360 reviews**: Feedback from peers, managers, direct reports collected anonymously and synthesized.
+360 reviews: Feedback from peers, managers, direct reports collected anonymously and synthesized.
 
-**Succession planning**: Identify high-potential employees, track development, plan promotions.
+Succession planning: Identify high-potential employees, track development, plan promotions.
 
-### Real-World Example: 30-Person Tech Team
+Real-World Example: 30-Person Tech Team
 
 ```
 Lattice Setup:
@@ -115,7 +115,7 @@ End of Quarter Review (Mar):
 Results: Clear promotion/retention decisions with data to back them
 ```
 
-### Strengths
+Strengths
 
 - Goal tracking creates alignment and clarity
 - Continuous feedback catches issues early
@@ -124,24 +124,24 @@ Results: Clear promotion/retention decisions with data to back them
 - Strong data visualization and insights
 - Good for identifying high performers
 
-### Limitations
+Limitations
 
 - Expensive for small teams
 - Requires consistent adoption (managers must use regularly)
 - Can feel bureaucratic if not customized to culture
 - Implementation takes 3-4 months
 
-### Pricing
+Pricing
 
 Lattice: $10-15 per user per month (volume discounts). 50-person company: $5,000-7,500 annually. Setup and onboarding: $5,000-15,000.
 
-## 15Five: Culture and Engagement Focus
+15Five: Culture and Engagement Focus
 
 15Five emphasizes building strong cultures through continuous feedback and team engagement. Philosophy: weekly check-ins prevent surprises.
 
-### Core Approach
+Core Approach
 
-**Weekly check-ins**: Employees submit 15-minute updates every Friday.
+Weekly check-ins: Employees submit 15-minute updates every Friday.
 
 ```
 Employee Friday Check-in:
@@ -167,13 +167,13 @@ One thing I could do better:
 - More frequent communication with ops team
 ```
 
-**Manager synthesis**: Managers review 15-minute updates, spot issues, track engagement trends.
+Manager synthesis: Managers review 15-minute updates, spot issues, track engagement trends.
 
-**Recognition**: Built-in recognition platform where peers acknowledge contributions.
+Recognition: Built-in recognition platform where peers acknowledge contributions.
 
-**Engagement surveys**: Regular pulse surveys measure team health, identify turnover risks early.
+Engagement surveys: Regular pulse surveys measure team health, identify turnover risks early.
 
-### Real-World Example: 50-Person SaaS Team
+Real-World Example: 50-Person SaaS Team
 
 ```
 Scenario: Engineering team showing subtle signs of burnout
@@ -197,7 +197,7 @@ Without 15Five: This burnout would silently worsen for 2+ months, resulting in
 resignations. With 15Five: Caught and addressed within 2 weeks.
 ```
 
-### Strengths
+Strengths
 
 - Lightweight implementation (doesn't require massive change management)
 - Weekly cadence catches issues early
@@ -206,26 +206,26 @@ resignations. With 15Five: Caught and addressed within 2 weeks.
 - Integrates well with Slack
 - Good reporting on team health trends
 
-### Limitations
+Limitations
 
 - Less strong goal tracking than Lattice
 - 360 reviews are less sophisticated
 - Doesn't integrate with career ladders/succession planning
 - Better for small-to-medium companies
 
-### Pricing
+Pricing
 
 15Five: $8-12 per user per month. 50-person company: $4,000-6,000 annually.
 
-## Culture Amp: Employee Experience Platform
+Culture Amp: Employee Experience Platform
 
 Culture Amp specializes in measuring employee experience through surveys, enabling data-driven people decisions.
 
-### Features
+Features
 
-**Engagement surveys**: Regular pulse checks or annual surveys measuring employee satisfaction, psychological safety, manager effectiveness.
+Engagement surveys: Regular pulse checks or annual surveys measuring employee satisfaction, psychological safety, manager effectiveness.
 
-**Survey analytics**: Deep analysis of trends: which teams are at risk, what's driving disengagement, correlations between metrics.
+Survey analytics: Deep analysis of trends: which teams are at risk, what's driving disengagement, correlations between metrics.
 
 ```
 Survey Results Summary (100 employees):
@@ -234,7 +234,7 @@ Overall Engagement: 7.2/10 (down from 7.8 last quarter)
 
 Breakdown by department:
 - Engineering: 7.8 (stable)
-- Sales: 6.1 (down 1.2 points) ⚠️
+- Sales: 6.1 (down 1.2 points) 
 - Operations: 6.9 (down 0.6 points)
 
 Key drivers of disengagement (Sales):
@@ -248,11 +248,11 @@ Compensation review for sales team
 Peer mentoring program
 ```
 
-**360 feedback**: Different from Lattice—focused on manager effectiveness and team dynamics.
+360 feedback: Different from Lattice, focused on manager effectiveness and team dynamics.
 
-**Exit interview data**: Understand why people leave, identify trends.
+Exit interview data: Understand why people leave, identify trends.
 
-### Real-World Example: Growing Company (150 people)
+Real-World Example: Growing Company (150 people)
 
 ```
 Scenario: Engineering turnover increasing, competing for talent
@@ -275,7 +275,7 @@ Q1 Follow-up:
 - New hires cite "growth opportunities" as top reason for joining
 ```
 
-### Strengths
+Strengths
 
 - Strong survey science (uses organizational psych research)
 - Deep analytics identify root causes of disengagement
@@ -283,32 +283,32 @@ Q1 Follow-up:
 - Integrations with HR systems
 - Good for understanding org-wide trends
 
-### Limitations
+Limitations
 
 - Better for surveys than ongoing feedback
 - Less good for individual performance management
 - Requires investment in action planning to see ROI
 - Pricing favors larger companies
 
-### Pricing
+Pricing
 
 Culture Amp: Typically $5,000-30,000 annually depending on company size and survey frequency.
 
-## BambooHR: All-in-One HR Platform
+BambooHR: All-in-One HR Platform
 
 BambooHR combines HR management, performance reviews, time tracking, and document management in one platform.
 
-### Performance Review Features
+Performance Review Features
 
-**Customizable review templates**: Design reviews matching company culture and roles.
+Customizable review templates: Design reviews matching company culture and roles.
 
-**Multi-source feedback**: Managers, peers, self-assessment, direct reports.
+Multi-source feedback: Managers, peers, self-assessment, direct reports.
 
-**Goal tracking**: Simple goal management integrated with reviews.
+Goal tracking: Simple goal management integrated with reviews.
 
-**Workflow automation**: Route reviews, set deadlines, send reminders automatically.
+Workflow automation: Route reviews, set deadlines, send reminders automatically.
 
-### Real-World Example: 75-Person Consulting Firm
+Real-World Example: 75-Person Consulting Firm
 
 ```
 BambooHR Setup:
@@ -332,7 +332,7 @@ Cost: Lower than best-in-class alternatives
 Limitation: Not as sophisticated as Lattice, good enough for most companies
 ```
 
-### Strengths
+Strengths
 
 - All-in-one platform (HR, payroll, documents, performance)
 - Significantly cheaper than specialized tools
@@ -340,34 +340,34 @@ Limitation: Not as sophisticated as Lattice, good enough for most companies
 - Easy implementation, minimal change management
 - Time tracking and payroll integration
 
-### Limitations
+Limitations
 
 - Less sophisticated goal tracking than Lattice
 - 360 reviews less advanced
 - Engagement insights less deep than Culture Amp
 - Not best-in-class in any category, good enough in all
 
-### Pricing
+Pricing
 
 BambooHR: $99-349 per month (typically $2-4 per user). 75-person company: $3,000-6,000 annually.
 
-## Leapsome: Team Engagement and Development
+Leapsome: Team Engagement and Development
 
 Leapsome focuses on continuous feedback, one-on-one management, and development planning.
 
-### Features
+Features
 
-**1:1 meeting templates**: Structured conversations between managers and direct reports.
+1:1 meeting templates: Structured conversations between managers and direct reports.
 
-**Development planning**: Identify skill gaps, create learning paths, track progress.
+Development planning: Identify skill gaps, create learning paths, track progress.
 
-**Peer feedback**: Lightweight feedback mechanism, less formal than 360.
+Peer feedback: Lightweight feedback mechanism, less formal than 360.
 
-**Survey and engagement**: Pulse surveys measuring team health.
+Survey and engagement: Pulse surveys measuring team health.
 
-**OKR tracking**: Simplified goal management for smaller organizations.
+OKR tracking: Simplified goal management for smaller organizations.
 
-### Strengths
+Strengths
 
 - Strong 1:1 management features
 - Good for improving manager-report relationships
@@ -375,18 +375,18 @@ Leapsome focuses on continuous feedback, one-on-one management, and development 
 - Lightweight, doesn't require heavy change management
 - Good for smaller companies (20-100 people)
 
-### Limitations
+Limitations
 
 - Less enterprise-grade than Lattice or Culture Amp
 - 360 reviews are less sophisticated
 - Goal tracking more basic
 - Better for culture and development than strict performance management
 
-### Pricing
+Pricing
 
 Leapsome: $6-10 per user per month. 50-person company: $3,000-5,000 annually.
 
-## Comparison Matrix
+Comparison Matrix
 
 | Tool | Best For | Pricing | Goals | 360 | Surveys | Engagement |
 |------|----------|---------|-------|-----|---------|-----------|
@@ -396,35 +396,35 @@ Leapsome: $6-10 per user per month. 50-person company: $3,000-5,000 annually.
 | BambooHR | All-in-one, SMB | $2-4/user | Fair | Fair | Fair | Fair |
 | Leapsome | Development focus | $6-10/user | Good | Fair | Good | Good |
 
-## Choosing by Company Size
+Choosing by Company Size
 
-**5-25 people**: Use BambooHR or Leapsome. Simple, affordable, sufficient structure. Skip specialized tools.
+5-25 people: Use BambooHR or Leapsome. Simple, affordable, sufficient structure. Skip specialized tools.
 
-**25-100 people**: Lattice or 15Five. Lattice if goal alignment matters; 15Five if culture and retention matter most.
+25-100 people: Lattice or 15Five. Lattice if goal alignment matters; 15Five if culture and retention matter most.
 
-**100+ people (multiple departments)**: Lattice + Culture Amp. Lattice for structured performance management, Culture Amp for understanding org-wide trends.
+100+ people (multiple departments): Lattice + Culture Amp. Lattice for structured performance management, Culture Amp for understanding org-wide trends.
 
-**Strong culture focus**: 15Five. Weekly check-ins and engagement focus prevent silent turnover.
+Strong culture focus: 15Five. Weekly check-ins and engagement focus prevent silent turnover.
 
-**Distributed/async teams**: 15Five (continuous feedback), Leapsome (strong 1:1 support). Avoid tools requiring real-time calibration meetings.
+Distributed/async teams: 15Five (continuous feedback), Leapsome (strong 1:1 support). Avoid tools requiring real-time calibration meetings.
 
-## Remote-Specific Best Practices
+Remote-Specific Best Practices
 
 Regardless of tool chosen:
 
-**Weekly touchpoints**: Asynchronous check-ins prevent issues festering. 15Five's model works well.
+Weekly touchpoints: Asynchronous check-ins prevent issues festering. 15Five's model works well.
 
-**Document feedback in writing**: Without in-person observation, written feedback creates accountability and helps during disputes.
+Document feedback in writing: Without in-person observation, written feedback creates accountability and helps during disputes.
 
-**Emphasize outcomes**: Remote roles should measure results, not presence. Set clear goals, measure progress.
+Emphasize outcomes: Remote roles should measure results, not presence. Set clear goals, measure progress.
 
-**360 reviews matter more**: Distributed teams lack informal feedback channels. Structured 360 feedback prevents manager bias.
+360 reviews matter more: Distributed teams lack informal feedback channels. Structured 360 feedback prevents manager bias.
 
-**Engagement measurement**: Survey engagement quarterly. Early signals of burnout and retention risk are critical.
+Engagement measurement: Survey engagement quarterly. Early signals of burnout and retention risk are critical.
 
-**Timezone-friendly scheduling**: Performance conversations should be recorded or summarized for those unable to attend synchronously.
+Timezone-friendly scheduling: Performance conversations should be recorded or summarized for those unable to attend synchronously.
 
-## Implementation Checklist
+Implementation Checklist
 
 Before deploying any tool:
 
@@ -437,34 +437,34 @@ Before deploying any tool:
 
 Most companies see ROI within 6 months through reduced turnover and improved alignment.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Can I use the first tool and the second tool together?**
+Can I use the first tool and the second tool together?
 
 Yes, many users run both tools simultaneously. the first tool and the second tool serve different strengths, so combining them can cover more use cases than relying on either one alone. Start with whichever matches your most frequent task, then add the other when you hit its limits.
 
-**Which is better for beginners, the first tool or the second tool?**
+Which is better for beginners, the first tool or the second tool?
 
 It depends on your background. the first tool tends to work well if you prefer a guided experience, while the second tool gives more control for users comfortable with configuration. Try the free tier or trial of each before committing to a paid plan.
 
-**Is the first tool or the second tool more expensive?**
+Is the first tool or the second tool more expensive?
 
 Pricing varies by tier and usage patterns. Both offer free or trial options to start. Check their current pricing pages for the latest plans, since AI tool pricing changes frequently. Factor in your actual usage volume when comparing costs.
 
-**How often do the first tool and the second tool update their features?**
+How often do the first tool and the second tool update their features?
 
 Both tools release updates regularly, often monthly or more frequently. Feature sets and capabilities change fast in this space. Check each tool's changelog or blog for the latest additions before making a decision based on any specific feature.
 
-**What happens to my data when using the first tool or the second tool?**
+What happens to my data when using the first tool or the second tool?
 
 Review each tool's privacy policy and terms of service carefully. Most AI tools process your input on their servers, and policies on data retention and training usage vary. If you work with sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
 
-## Related Articles
+Related Articles
 
 - [Remote HR Performance Review Tools Comparison for Managing](/remote-hr-performance-review-tools-comparison-for-managing-d/)
 - [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-employee-performance-tracking-tool-comparison-for-dis/)
 - [Do Async Performance Reviews for Remote Engineering Teams](/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 - [Best Tool for Async Performance Feedback Collection for Dist](/best-tool-for-async-performance-feedback-collection-for-dist/)
 - [Remote Employee Performance Improvement Plan Guide](/how-to-create-remote-employee-performance-improvement-plan-t/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

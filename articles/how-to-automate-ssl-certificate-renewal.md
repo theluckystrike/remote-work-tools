@@ -15,26 +15,26 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-Expired SSL certificates take down production services and destroy user trust. Automating renewal removes the human from the loop entirely — certificates rotate before they expire, logs confirm each renewal, and your on-call rotation isn't woken up at 3am because someone forgot to add a calendar reminder.
+Expired SSL certificates take down production services and destroy user trust. Automating renewal removes the human from the loop entirely. certificates rotate before they expire, logs confirm each renewal, and your on-call rotation isn't woken up at 3am because someone forgot to add a calendar reminder.
 
 This guide covers Certbot systemd timers, acme.sh, DNS-01 challenges for wildcard certs, and pipeline-based renewal for non-standard deployments.
 
 ---
 
-## Certbot with Systemd Timer (Standard Setup)
+Certbot with Systemd Timer (Standard Setup)
 
 When Certbot installs on Debian/Ubuntu via the system package, it creates a systemd timer automatically:
 
 ```bash
 apt install certbot python3-certbot-nginx
 
-# Issue a certificate
+Issue a certificate
 certbot --nginx -d yourcompany.com -d www.yourcompany.com \
   --email ops@yourcompany.com \
   --agree-tos \
   --no-eff-email
 
-# Check the timer
+Check the timer
 systemctl status certbot.timer
 ```
 
@@ -42,25 +42,25 @@ Verify the timer is active:
 
 ```bash
 systemctl list-timers certbot.timer
-# Output:
-# NEXT                         LEFT          LAST                         PASSED       UNIT
-# Sun 2026-03-29 08:34:21 UTC  6 days left   Sun 2026-03-22 08:34:21 UTC  2h ago       certbot.timer
+Output:
+NEXT                         LEFT          LAST                         PASSED       UNIT
+Sun 2026-03-29 08:34:21 UTC  6 days left   Sun 2026-03-22 08:34:21 UTC  2h ago       certbot.timer
 ```
 
 The default timer runs twice daily and only renews certificates within 30 days of expiry. That's usually fine. But you also want to validate the renewal works before trusting it:
 
 ```bash
-# Dry run (no actual renewal)
+Dry run (no actual renewal)
 certbot renew --dry-run
 
-# Force renewal regardless of expiry window (for testing)
+Force renewal regardless of expiry window (for testing)
 certbot renew --force-renewal
 ```
 
 Add a post-renewal hook to reload your web server:
 
 ```bash
-# /etc/letsencrypt/renewal-hooks/post/reload-nginx.sh
+/etc/letsencrypt/renewal-hooks/post/reload-nginx.sh
 #!/bin/bash
 systemctl reload nginx
 ```
@@ -71,7 +71,7 @@ chmod +x /etc/letsencrypt/renewal-hooks/post/reload-nginx.sh
 
 ---
 
-## Certbot DNS-01 for Wildcard Certificates
+Certbot DNS-01 for Wildcard Certificates
 
 HTTP-01 challenges don't work for wildcard certs (`*.yourcompany.com`). Use DNS-01 instead.
 
@@ -124,7 +124,7 @@ For Cloudflare DNS:
 ```bash
 pip install certbot-dns-cloudflare
 
-# /etc/letsencrypt/cloudflare.ini
+/etc/letsencrypt/cloudflare.ini
 dns_cloudflare_api_token = your_cloudflare_api_token
 
 chmod 600 /etc/letsencrypt/cloudflare.ini
@@ -137,14 +137,14 @@ certbot certonly \
 
 ---
 
-## acme.sh as a Certbot Alternative
+acme.sh as a Certbot Alternative
 
 acme.sh is a pure shell script with no Python dependency, useful for embedded systems or minimal containers:
 
 ```bash
 curl https://get.acme.sh | sh -s email=ops@yourcompany.com
 
-# Issue via DNS-01 with Cloudflare
+Issue via DNS-01 with Cloudflare
 export CF_Token="your_cloudflare_token"
 export CF_Account_ID="your_account_id"
 
@@ -153,7 +153,7 @@ export CF_Account_ID="your_account_id"
   -d yourcompany.com \
   -d "*.yourcompany.com"
 
-# Install certificate to nginx path
+Install certificate to nginx path
 ~/.acme.sh/acme.sh --install-cert \
   -d yourcompany.com \
   --cert-file      /etc/nginx/ssl/yourcompany.com.crt \
@@ -166,19 +166,19 @@ acme.sh installs a cron job automatically:
 
 ```bash
 crontab -l | grep acme
-# 24 0 * * * "/root/.acme.sh"/acme.sh --cron --home "/root/.acme.sh" > /dev/null
+24 0 * * * "/root/.acme.sh"/acme.sh --cron --home "/root/.acme.sh" > /dev/null
 ```
 
 ---
 
-## Monitor Expiry with a Script
+Monitor Expiry with a Script
 
 Add proactive monitoring so you're alerted before expiry even if renewal fails:
 
 ```bash
 #!/bin/bash
-# /usr/local/bin/check-ssl-expiry.sh
-# Sends Slack alert if cert expires within 14 days
+/usr/local/bin/check-ssl-expiry.sh
+Sends Slack alert if cert expires within 14 days
 
 DOMAINS=(
   "yourcompany.com"
@@ -217,18 +217,18 @@ done
 Add to cron:
 
 ```bash
-# /etc/cron.d/ssl-expiry-check
+/etc/cron.d/ssl-expiry-check
 0 8 * * * root /usr/local/bin/check-ssl-expiry.sh
 ```
 
 ---
 
-## GitHub Actions for Certificate Distribution
+GitHub Actions for Certificate Distribution
 
 When you issue certs on one server but need them on multiple (CDN edge nodes, load balancers), use GitHub Actions to distribute:
 
 ```yaml
-# .github/workflows/ssl-renewal.yml
+.github/workflows/ssl-renewal.yml
 name: SSL Certificate Renewal
 
 on:
@@ -277,7 +277,7 @@ Each server polls the S3 bucket and reloads Nginx when the cert changes:
 
 ```bash
 #!/bin/bash
-# /usr/local/bin/sync-ssl-cert.sh
+/usr/local/bin/sync-ssl-cert.sh
 
 BUCKET="s3://your-certs-bucket/yourcompany.com"
 LOCAL_PATH="/etc/nginx/ssl"
@@ -300,19 +300,19 @@ fi
 
 ---
 
-## Validate Your Renewal Chain Works
+Validate Your Renewal Chain Works
 
 Before trusting automation, test the full chain:
 
 ```bash
-# Check cert details
+Check cert details
 openssl x509 -in /etc/letsencrypt/live/yourcompany.com/fullchain.pem \
   -noout -text | grep -E "(Subject:|Not After)"
 
-# Test renewal dry run
+Test renewal dry run
 certbot renew --dry-run --cert-name yourcompany.com
 
-# Verify cert served by Nginx matches the file on disk
+Verify cert served by Nginx matches the file on disk
 echo | openssl s_client -connect yourcompany.com:443 2>/dev/null \
   | openssl x509 -noout -fingerprint
 
@@ -320,7 +320,7 @@ openssl x509 -in /etc/letsencrypt/live/yourcompany.com/cert.pem \
   -noout -fingerprint
 ```
 
-Both fingerprints should match. If they differ, Nginx is serving a cached or different certificate — reload it:
+Both fingerprints should match. If they differ, Nginx is serving a cached or different certificate. reload it:
 
 ```bash
 nginx -t && systemctl reload nginx
@@ -328,7 +328,7 @@ nginx -t && systemctl reload nginx
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Traefik Reverse Proxy](/how-to-set-up-traefik-reverse-proxy/)
 - [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
@@ -337,13 +337,13 @@ nginx -t && systemctl reload nginx
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Remote Team Runbook Template for SSL Certificate Renewal](/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
 - [Greece Digital Nomad Visa Renewal Process for Remote Workers](/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
 - [Certificate Based Authentication Setup for Remote Team VPN](/certificate-based-authentication-setup-for-remote-team-vpn-c/)
 - [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
 - [Bermuda Work From Bermuda Certificate](/bermuda-work-from-bermuda-certificate-application-for-remote/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

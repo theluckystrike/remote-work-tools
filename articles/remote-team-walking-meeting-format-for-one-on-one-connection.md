@@ -18,7 +18,7 @@ voice-checked: true
 
 Use virtual walking meetings via video call while walking alone to maintain connection with direct reports while both parties get movement and fresh air. This casual format often produces more candid conversations than formal desk-based one-on-ones.
 
-## Table of Contents
+Table of Contents
 
 - [Why Walking Meetings Work for Remote One-on-Ones](#why-walking-meetings-work-for-remote-one-on-ones)
 - [Core Format: The 30-Minute Structure](#core-format-the-30-minute-structure)
@@ -29,25 +29,25 @@ Use virtual walking meetings via video call while walking alone to maintain conn
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 - [Implementation Checklist](#implementation-checklist)
 
-## Why Walking Meetings Work for Remote One-on-Ones
+Why Walking Meetings Work for Remote One-on-Ones
 
 Research consistently shows that walking improves cognitive function and creative thinking. When applied to remote one-on-ones, walking meetings solve several problems that plague video calls: the fatigue from staring at screens, the stiffness of sitting for extended periods, and the transactional feel that develops when every conversation happens in the same virtual room.
 
 For development teams specifically, walking meetings create space for the kind of exploratory conversation that rarely happens in status-focused meetings. A developer might mention a technical challenge during a walk that they would never bring up in a formal one-on-one. The informal setting lowers the barrier to discussing problems, ideas, or career questions.
 
-## Core Format: The 30-Minute Structure
+Core Format: The 30-Minute Structure
 
 The most effective walking meeting format for one-on-one connections follows a predictable structure that participants can internalize over time.
 
-**Minutes 1-3: Check-in (Standing or Walking Slowly)**
+Minutes 1-3: Check-in (Standing or Walking Slowly)
 
-Start with a brief personal check-in. This is not the project status update—it's a genuine check on how the person is doing. In a remote context, this might sound like:
+Start with a brief personal check-in. This is not the project status update, it's a genuine check on how the person is doing. In a remote context, this might sound like:
 
 > "Hey, good to connect. How's your week been so far? Anything I should know about?"
 
 This opening serves a practical purpose: it gives both parties a moment to settle into the call before the pace increases.
 
-**Minutes 4-20: Main Discussion (Walking at Moderate Pace)**
+Minutes 4-20: Main Discussion (Walking at Moderate Pace)
 
 This is the core of the meeting. Depending on your agenda, cover one or two topics in depth. The key is to prioritize depth over breadth. If someone mentions a frustration during the check-in, explore it here rather than deferring it.
 
@@ -58,25 +58,25 @@ For engineering contexts, this section often includes:
 - Project blockers that require your advocacy
 - Cross-team coordination issues
 
-**Minutes 21-28: Forward Look (Walking at Steady Pace)**
+Minutes 21-28: Forward Look (Walking at Steady Pace)
 
 Shift from reflection to planning. Discuss what comes next, any decisions that need to be made, and commitments for the coming week. This section prevents the meeting from becoming purely conversational without actionable outcomes.
 
-**Minutes 29-30: Wrap-up (Slowing Down or Stopping)**
+Minutes 29-30: Wrap-up (Slowing Down or Stopping)
 
 Conclude with a brief summary and confirm any follow-up items. End by agreeing on the next meeting time if it's not already scheduled.
 
-## Technical Setup: Audio and Connectivity
+Technical Setup: Audio and Connectivity
 
 Walking meetings introduce audio challenges that seated calls do not. Wind noise, ambient sounds, and variable network conditions require more preparation than a standard video call.
 
-### Bluetooth Headset Configuration
+Bluetooth Headset Configuration
 
 Use a quality Bluetooth headset designed for voice calls. In-ear models with noise cancellation perform better than over-ear models for walking because they handle wind more effectively.
 
 Test your audio setup before the first walking meeting. Record a voice memo while walking outdoors at the pace you plan to maintain during the meeting. Listen back to identify issues with wind noise, clarity, and volume consistency.
 
-### Network Resilience
+Network Resilience
 
 Walking meetings often move between locations with varying WiFi strength. Consider these approaches:
 
@@ -98,7 +98,7 @@ function monitorConnection() {
 
 For critical one-on-ones, have a fallback plan: switch to phone call if the internet connection degrades significantly.
 
-## Scheduling and Calendar Integration
+Scheduling and Calendar Integration
 
 Walking meetings require more scheduling discipline than standard calls because both parties need to coordinate their physical location. Include location details in the calendar invite:
 
@@ -110,7 +110,7 @@ Audio: Bluetooth headset required
 Backup: Phone call if connection fails
 ```
 
-### Suggested Meeting Frequencies
+Suggested Meeting Frequencies
 
 For different relationship types:
 
@@ -119,9 +119,9 @@ For different relationship types:
 - Cross-functional partnerships: Monthly, 30-45 minutes
 - Skip-level meetings: Monthly, 30 minutes
 
-## Practical Examples: Meeting Templates
+Practical Examples: Meeting Templates
 
-### Template A: The Career Development Walk
+Template A: The Career Development Walk
 
 Designed for quarterly or bi-annual career conversations.
 
@@ -146,7 +146,7 @@ Close (2 min):
 - Any blockers to address before then
 ```
 
-### Template B: The Project Sync Walk
+Template B: The Project Sync Walk
 
 Designed for weekly engineering one-on-ones focused on project progress.
 
@@ -171,7 +171,7 @@ Close (2 min):
 - Next meeting confirmation
 ```
 
-### Template C: The Problem-Solving Walk
+Template C: The Problem-Solving Walk
 
 Designed for ad-hoc meetings when someone needs to discuss a complex issue.
 
@@ -192,36 +192,36 @@ Close (3 min):
 - Follow-up timing if needed
 ```
 
-## Environment Considerations
+Environment Considerations
 
 Both participants should walk in safe environments appropriate for a phone call. This means:
 
 - Avoid busy streets with heavy traffic
 - Choose routes with good cell coverage or known WiFi access points
 - Have a backup location identified (a nearby park bench, cafe entrance, or simply returning home)
-- Consider time of day—early morning or late afternoon often provides better conditions than midday
+- Consider time of day, early morning or late afternoon often provides better conditions than midday
 
 For teams with members in different climates, acknowledge that walking conditions vary significantly. Someone in Copenhagen in March may face very different conditions than someone in Sydney. The format works year-round in most climates, but participants should have the flexibility to walk indoors (track, mall, gym) if external conditions are unsafe.
 
-## Common Mistakes to Avoid
+Common Mistakes to Avoid
 
-**Mistake 1: Trying to take notes while walking**
+Mistake 1: Trying to take notes while walking
 
 Your attention belongs on the conversation, not on capturing every detail. Either accept that you won't capture everything, or record the audio (with permission) for later transcription.
 
-**Mistake 2: Scheduling too frequently**
+Mistake 2: Scheduling too frequently
 
 Walking meetings feel different from video calls, and that novelty wears off. Once a week for key relationships is optimal. More than twice weekly and the format loses its special quality.
 
-**Mistake 3: Treating it like a regular meeting with movement**
+Mistake 3: Treating it like a regular meeting with movement
 
 The format only works if you actually embrace the walking pace. Don't schedule a walking meeting and then spend the entire time discussing urgent issues at a pace that would be better handled via chat.
 
-**Mistake 4: Ignoring audio quality**
+Mistake 4: Ignoring audio quality
 
 Nothing kills a walking meeting faster than not being able to hear the other person clearly. Invest in good audio equipment and test it before each call.
 
-## Implementation Checklist
+Implementation Checklist
 
 Before your first walking meeting:
 
@@ -234,34 +234,34 @@ Before your first walking meeting:
 
 Walking meetings require more setup than sitting in front of a camera, but the payoff in conversation quality and relationship depth justifies the effort. Start with one walking meeting per week and evaluate after a month. Most teams that adopt this format find it becomes their preferred one-on-one structure.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 - [Best Tool for Tracking Remote Team Meeting Effectiveness](/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
 - [How to Run Effective Remote One-on-One Meetings](/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
 - [Best Practice for Remote Team All Hands Meeting Format That](/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
 - [How to Include Remote Workers in Office Meetings](/how-to-include-remote-workers-in-office-meetings/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

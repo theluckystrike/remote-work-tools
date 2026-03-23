@@ -14,7 +14,7 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-## How to Set Up Teleport for Secure Access
+How to Set Up Teleport for Secure Access
 
 VPNs give remote engineers a network-level tunnel to everything, which means a compromised laptop gets network-level access to everything. Teleport does the opposite: every resource (SSH servers, Kubernetes clusters, databases) requires a short-lived certificate issued per-session, tied to the user's identity, with a full audit trail of every command run.
 
@@ -22,36 +22,36 @@ This guide walks through the full setup: deploying the Teleport cluster, adding 
 
 ---
 
-## Architecture Overview
+Architecture Overview
 
 ```
 Developer laptop
-     │
-     ▼
+     
+     
 Teleport Proxy (public HTTPS endpoint)
-     │
-     ├── SSH nodes (Teleport agents)
-     ├── Kubernetes API server
-     ├── PostgreSQL / MySQL via Database Service
-     └── Web apps via Application Service
+     
+      SSH nodes (Teleport agents)
+      Kubernetes API server
+      PostgreSQL / MySQL via Database Service
+      Web apps via Application Service
 ```
 
-Teleport Auth Service issues X.509 certificates valid for hours or days. Nothing is accessible without a current certificate. All sessions are recorded. The Proxy is the only public-facing component — everything else lives inside your private network and calls out to the Proxy, not the other way around.
+Teleport Auth Service issues X.509 certificates valid for hours or days. Nothing is accessible without a current certificate. All sessions are recorded. The Proxy is the only public-facing component. everything else lives inside your private network and calls out to the Proxy, not the other way around.
 
 There are three deployment models:
 
-- **Single-node**: Auth + Proxy on one host. Simple for labs and small teams up to ~20 users.
-- **HA cluster**: Auth backed by etcd or DynamoDB, multiple Proxy replicas behind a load balancer. For production.
-- **Teleport Cloud**: Hosted Auth + Proxy; you only manage nodes. Fastest to get running.
+- Single-node: Auth + Proxy on one host. Simple for labs and small teams up to ~20 users.
+- HA cluster: Auth backed by etcd or DynamoDB, multiple Proxy replicas behind a load balancer. For production.
+- Teleport Cloud: Hosted Auth + Proxy; you only manage nodes. Fastest to get running.
 
 ---
 
-## Install the Teleport Cluster
+Install the Teleport Cluster
 
-**Option A: Single-node with Docker Compose (lab/small team)**
+Option A: Single-node with Docker Compose (lab/small team)
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 services:
   teleport:
@@ -70,7 +70,7 @@ volumes:
   teleport-data:
 ```
 
-**`teleport.yaml` (proxy + auth on one node):**
+`teleport.yaml` (proxy + auth on one node):
 
 ```yaml
 version: v3
@@ -101,7 +101,7 @@ ssh_service:
   enabled: false  # separate SSH nodes, not the auth node
 ```
 
-**Option B: Kubernetes with Helm (production)**
+Option B: Kubernetes with Helm (production)
 
 ```bash
 helm repo add teleport https://charts.releases.teleport.dev
@@ -126,18 +126,18 @@ helm upgrade --install teleport teleport/teleport-cluster \
 
 ---
 
-## Add SSH Nodes
+Add SSH Nodes
 
 Install the Teleport agent on each server you want to access:
 
 ```bash
-# Install on Ubuntu
+Install on Ubuntu
 curl https://deb.releases.teleport.dev/teleport-pubkey.asc | sudo gpg --dearmor -o /usr/share/keyrings/teleport-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/teleport-archive-keyring.gpg] \
   https://deb.releases.teleport.dev/ stable main" | sudo tee /etc/apt/sources.list.d/teleport.list
 sudo apt update && sudo apt install teleport
 
-# Configure as an SSH node joining your cluster
+Configure as an SSH node joining your cluster
 cat > /etc/teleport/teleport.yaml << EOF
 version: v3
 teleport:
@@ -170,14 +170,14 @@ Verify the node appears:
 
 ```bash
 tctl nodes ls
-# Node      Address          Labels
-# web-01    10.0.1.10:3022   env=production,region=us-east-1,role=web
+Node      Address          Labels
+web-01    10.0.1.10:3022   env=production,region=us-east-1,role=web
 ```
 
-For automated node provisioning at scale, use **IAM Join** so EC2 instances join the cluster using instance identity documents rather than a static join token. This eliminates the need to distribute secrets to new instances:
+For automated node provisioning at scale, use IAM Join so EC2 instances join the cluster using instance identity documents rather than a static join token. This eliminates the need to distribute secrets to new instances:
 
 ```yaml
-# teleport.yaml on EC2 instance (no token needed)
+teleport.yaml on EC2 instance (no token needed)
 teleport:
   auth_server: teleport.yourcompany.com:3025
   join_params:
@@ -192,12 +192,12 @@ ssh_service:
 
 ---
 
-## User and Role Setup
+User and Role Setup
 
 Create a role that allows SSH to production nodes:
 
 ```yaml
-# role-dev.yaml
+role-dev.yaml
 kind: role
 version: v6
 metadata:
@@ -220,7 +220,7 @@ spec:
 ```
 
 ```yaml
-# role-sre.yaml
+role-sre.yaml
 kind: role
 version: v6
 metadata:
@@ -244,9 +244,9 @@ spec:
 tctl create -f role-dev.yaml
 tctl create -f role-sre.yaml
 
-# Create a user
+Create a user
 tctl users add alice --roles=dev --logins=ubuntu
-# Outputs a one-time invite link
+Outputs a one-time invite link
 ```
 
 For teams using SSO, configure an OIDC or SAML connector and map identity provider groups to Teleport roles automatically. Here is an example Okta SAML connector:
@@ -267,28 +267,28 @@ spec:
 
 ---
 
-## Connecting from the Developer's Machine
+Connecting from the Developer's Machine
 
 ```bash
-# Install tsh (Teleport client)
+Install tsh (Teleport client)
 brew install teleport  # macOS
-# or download from https://goteleport.com/download/
+or download from https://goteleport.com/download/
 
-# Log in
+Log in
 tsh login --proxy=teleport.yourcompany.com --user=alice
 
-# List available servers
+List available servers
 tsh ls
 tsh ls env=production
 
-# SSH into a node
+SSH into a node
 tsh ssh ubuntu@web-01
 tsh ssh --login=ubuntu ubuntu@web-01
 
-# SSH with local port forwarding
+SSH with local port forwarding
 tsh ssh -L 5432:localhost:5432 ubuntu@db-proxy-01
 
-# Start an interactive Kubernetes session
+Start an interactive Kubernetes session
 tsh kube login my-cluster
 kubectl get pods -A
 ```
@@ -297,12 +297,12 @@ The `tsh` client configures `~/.ssh/config` with ProxyCommand entries, so you ca
 
 ---
 
-## Database Access
+Database Access
 
 Register a PostgreSQL database:
 
 ```yaml
-# db-service config section in teleport.yaml on the database host
+db-service config section in teleport.yaml on the database host
 db_service:
   enabled: true
   databases:
@@ -331,33 +331,33 @@ db_service:
 Connect from the developer's machine:
 
 ```bash
-# Log into the database (issues a short-lived cert)
+Log into the database (issues a short-lived cert)
 tsh db login prod-postgres --db-user=readonly --db-name=myapp
 
-# Connect with psql
+Connect with psql
 tsh db connect prod-postgres
-# or
+or
 psql "$(tsh db env --format=uri prod-postgres)"
 ```
 
-Every query is logged to the audit trail, giving you a full record of who queried what table and when — without requiring application-level query logging.
+Every query is logged to the audit trail, giving you a full record of who queried what table and when. without requiring application-level query logging.
 
 ---
 
-## Audit Log Review
+Audit Log Review
 
 Every SSH session, command, and query is logged to the audit log. Query it:
 
 ```bash
-# View recent audit events
+View recent audit events
 tctl audit log -format=json | jq '.'
 
-# Find all commands run by alice in the last 24h
+Find all commands run by alice in the last 24h
 tctl audit log --type=session.command \
   --from=$(date -d "24 hours ago" +%Y-%m-%dT%H:%M:%SZ) \
   | jq 'select(.metadata.user == "alice")'
 
-# Export session recording
+Export session recording
 tsh recordings ls
 tsh play session-id-here
 ```
@@ -367,7 +367,7 @@ Session recordings are stored as compressed asciicast files. You can replay them
 For SIEM integration, forward audit events to your log aggregator:
 
 ```yaml
-# In teleport.yaml auth_service section
+In teleport.yaml auth_service section
 auth_service:
   audit_events_uri:
     - "dynamodb://us-east-1/teleport-events"    # DynamoDB for HA
@@ -376,12 +376,12 @@ auth_service:
 
 ---
 
-## GitHub Actions Integration
+GitHub Actions Integration
 
 Use Teleport Machine ID for CI/CD access without static credentials:
 
 ```yaml
-# .github/workflows/deploy.yml
+.github/workflows/deploy.yml
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -405,7 +405,7 @@ Machine ID issues short-lived bot certificates that expire after the workflow co
 For self-hosted runners, use the `tbot` daemon to continuously renew certificates:
 
 ```yaml
-# tbot.yaml on the runner host
+tbot.yaml on the runner host
 version: v2
 proxy_server: teleport.yourcompany.com:443
 onboarding:
@@ -423,7 +423,7 @@ outputs:
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Best Tools for Remote Team Secret Sharing](/remote-team-secret-sharing-tools/)
 - [How to Create Automated Security Scan Pipelines](/automated-security-scan-pipelines/)
@@ -432,5 +432,5 @@ outputs:
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -20,7 +20,7 @@ Running meetings for a global remote team presents unique challenges that most i
 
 This guide provides actionable strategies for creating meeting practices that work across any time zone configuration, with practical code examples you can implement immediately.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Understand Time Zone Equity
+Step 1: Understand Time Zone Equity
 
 The first step toward inclusive meetings is recognizing that "meeting in the middle" isn't actually fair. When a team spans three time zones, the person joining at 7 AM or 9 PM often experiences that as inconvenient regardless of where the meeting is scheduled. True equity means rotating meeting times so everyone shares the burden approximately equally.
 
@@ -83,32 +83,32 @@ def generate_rotation_schedule(team_timezones, weeks=4):
 
 This approach ensures that over time, no single time zone consistently bears the burden of inconvenient meeting times.
 
-### Step 2: Async-First Meeting Culture
+Step 2: Async-First Meeting Culture
 
 The most inclusive meeting practice you can adopt is having fewer meetings. Async-first communication respects everyone's time and working hours, but when meetings are necessary, structure them to maximize value.
 
 Implement a meeting request template that forces organizers to justify why this meeting can't be async:
 
 ```markdown
-### Step 3: Meeting Proposal
+Step 3: Meeting Proposal
 
-**What is the purpose of this meeting?**
+What is the purpose of this meeting?
 [ ] Decision on [topic]
 [ ] Brainstorming/ideation
 [ ] Social/team bonding
 [ ] Status update (please consider async instead)
 [ ] Other: ___
 
-**Could this be handled asynchronously?**
+Could this be handled asynchronously?
 Explain why a synchronous meeting is necessary:
 
-**What specific outcome do you need from this meeting?**
+What specific outcome do you need from this meeting?
 
-**Required attendees:**
+Required attendees:
 - Must attend: ___
 - Optional: ___
 
-**Proposed duration:**
+Proposed duration:
 [ ] 15 minutes
 [ ] 30 minutes
 [ ] 60 minutes (requires manager approval)
@@ -116,36 +116,36 @@ Explain why a synchronous meeting is necessary:
 
 This template, when enforced consistently, dramatically reduces unnecessary meetings while making the essential ones more purposeful.
 
-### Step 4: Structured Meeting Formats
+Step 4: Structured Meeting Formats
 
 When meetings are required, structured formats ensure everyone can participate meaningfully regardless of their communication style or language proficiency.
 
-### The RAG Format for Status Meetings
+The RAG Format for Status Meetings
 
 Replace open-ended status updates with a structured Red/Amber/Green format:
 
 ```markdown
-### Step 5: Team Standup - [Date]
+Step 5: Team Standup - [Date]
 
-### Red (Blocked/Needs Help)
+Red (Blocked/Needs Help)
 - @username: [Brief description of blocker]
 
-### Amber (In Progress/Risks)
+Amber (In Progress/Risks)
 - @username: [What they're working on and any risks]
 
-### Green (Completed/On Track)
+Green (Completed/On Track)
 - @username: [What they completed]
 
-### Quick Sync Topics
+Quick Sync Topics
 [5 minutes max for urgent items that came up]
 
-### Action Items
+Action Items
 - [Action] - @owner - [Due date]
 ```
 
 This format works particularly well in Slack or as a pre-meeting async doc that people update before a brief synchronous touchbase.
 
-### Round-Robin for Discussions
+Round-Robin for Discussions
 
 For meetings requiring discussion, implement explicit round-robin speaking order. Use a simple rotation:
 
@@ -179,12 +179,12 @@ console.log(meetingRotation.getNextSpeaker()); // Alice
 
 This ensures quieter team members get equal speaking time and prevents dominant voices from monopolizing discussions.
 
-### Step 6: Accessible Meeting Settings
+Step 6: Accessible Meeting Settings
 
 Configure your video conferencing tools to support diverse participant needs:
 
 ```yaml
-# recommended-meeting-settings.yml
+recommended-meeting-settings.yml
 meeting_platform:
   zoom:
     settings:
@@ -210,38 +210,38 @@ meeting_platform:
       recording: automatic
 ```
 
-Share these settings with your team and establish norms around their use. For example, always enable live captions even if no one currently needs them—this normalizes accessibility features and makes them available when needed.
+Share these settings with your team and establish norms around their use. For example, always enable live captions even if no one currently needs them, this normalizes accessibility features and makes them available when needed.
 
-### Step 7: Documentation and Follow-Up
+Step 7: Documentation and Follow-Up
 
 Inclusive meetings extend beyond the actual meeting time. documentation ensures team members in different time zones or those who couldn't attend can stay informed:
 
 ```markdown
-### Step 8: Meeting: [Title]
-**Date:** [Date]
-**Attendees:** [List]
-**Recording:** [Link]
-**Notes:** [Link]
+Step 8: Meeting: [Title]
+Date: [Date]
+Attendees: [List]
+Recording: [Link]
+Notes: [Link]
 
-### Discussion Summary
+Discussion Summary
 [Bullet points of key discussions]
 
-### Decisions Made
+Decisions Made
 - [Decision 1]
 - [Decision 2]
 
-### Action Items
+Action Items
 | Action | Owner | Due Date |
 |--------|-------|----------|
 | [Task] | @person | [Date] |
 
-### Asynchronous Feedback
+Asynchronous Feedback
 [Leave space for team members to add thoughts after the meeting]
 ```
 
 Create a standing "asynchronous feedback" section where people who couldn't attend or who process information differently can add their input after the meeting. This explicitly validates input outside the live meeting window.
 
-### Step 9: Implementing These Practices
+Step 9: Implementing These Practices
 
 Start with one or two practices and iterate. Here's a suggested implementation order:
 
@@ -250,9 +250,9 @@ Start with one or two practices and iterate. Here's a suggested implementation o
 3. Week 5-6: Add meeting rotation script for discussion meetings
 4. Week 7-8: Audit and configure accessibility settings across tools
 
-Track participation rates and gather feedback. The goal isn't perfection—it's continuous improvement toward meetings that work for everyone, regardless of location.
+Track participation rates and gather feedback. The goal isn't perfection, it's continuous improvement toward meetings that work for everyone, regardless of location.
 
-### Step 10: Common Pitfalls to Avoid
+Step 10: Common Pitfalls to Avoid
 
 Watch out for these patterns that undermine inclusive meetings:
 
@@ -260,49 +260,49 @@ Watch out for these patterns that undermine inclusive meetings:
 - Recording as an afterthought: Start recordings from the beginning so synchronous attendees don't have advantages over async viewers.
 - Same-host timezone dominance: Rotate not just meeting times but meeting hosts, giving each time zone ownership.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to create remote team inclusive meeting practices guide?**
+How long does it take to create remote team inclusive meeting practices guide?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 - [Best Tool for Tracking Remote Team Meeting Effectiveness](/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
 - [Best Practice for Remote Team Meeting Structure That Scales](/best-practice-for-remote-team-meeting-structure-that-scales-/)
 - [Best Practice for Remote Team Meeting Hygiene When Calendar](/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
 - [Best Practice for Hybrid Team Meeting Scheduling Respecting](/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

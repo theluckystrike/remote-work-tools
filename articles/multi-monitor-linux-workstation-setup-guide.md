@@ -17,7 +17,7 @@ tags: [remote-work-tools]
 
 A multi-monitor Linux workstation requires configuration that Windows and macOS handle automatically. The payoff is total control: workspaces pinned to specific monitors, per-display scaling, hotkey-driven layout switching, and no proprietary drivers needed for most hardware.
 
-## Table of Contents
+Table of Contents
 
 - [Check What Linux Sees](#check-what-linux-sees)
 - [Set Display Layout with xrandr](#set-display-layout-with-xrandr)
@@ -36,115 +36,115 @@ A multi-monitor Linux workstation requires configuration that Windows and macOS 
 
 This guide covers the complete setup: detecting displays, configuring layouts, handling mixed DPI, setting up workspace assignment in i3/Sway, and persisting everything across reboots.
 
-## Check What Linux Sees
+Check What Linux Sees
 
 ```bash
-# X11 systems
+X11 systems
 xrandr --query
 
-# Sample output:
-# Screen 0: minimum 320x200, current 5120x1440, maximum 16384x16384
-# HDMI-1 connected primary 2560x1440+0+0 (normal left inverted right) 600mm x 340mm
-# DP-1 connected 2560x1440+2560+0 (normal left inverted right) 600mm x 340mm
-# HDMI-2 disconnected
+Sample output:
+Screen 0: minimum 320x200, current 5120x1440, maximum 16384x16384
+HDMI-1 connected primary 2560x1440+0+0 (normal left inverted right) 600mm x 340mm
+DP-1 connected 2560x1440+2560+0 (normal left inverted right) 600mm x 340mm
+HDMI-2 disconnected
 
-# Wayland systems
+Wayland systems
 wlr-randr          # if using wlroots compositor (Sway, Hyprland)
-# or
+or
 kscreen-doctor -o  # KDE Plasma
 gnome-randr        # GNOME
 ```
 
-The `+0+0` and `+2560+0` are the offsets — they tell you which monitor is to the left or right. A display at `+2560+0` starts at pixel 2560 horizontally, placing it directly to the right of a 2560-wide primary display.
+The `+0+0` and `+2560+0` are the offsets. they tell you which monitor is to the left or right. A display at `+2560+0` starts at pixel 2560 horizontally, placing it directly to the right of a 2560-wide primary display.
 
-## Set Display Layout with xrandr
+Set Display Layout with xrandr
 
 ```bash
-# Two monitors side by side — HDMI-1 primary, DP-1 to the right
+Two monitors side by side. HDMI-1 primary, DP-1 to the right
 xrandr --output HDMI-1 --primary --mode 2560x1440 --rate 144 --pos 0x0 \
        --output DP-1 --mode 2560x1440 --rate 60 --right-of HDMI-1
 
-# Three monitors — center primary, left and right flanking
+Three monitors. center primary, left and right flanking
 xrandr --output DP-2 --mode 1920x1080 --rate 60 --pos 0x0 \
        --output HDMI-1 --primary --mode 2560x1440 --rate 144 --right-of DP-2 \
        --output DP-1 --mode 1920x1080 --rate 60 --right-of HDMI-1
 
-# Stacked vertical layout
+Stacked vertical layout
 xrandr --output HDMI-1 --primary --mode 2560x1440 --rate 144 --pos 0x0 \
        --output DP-1 --mode 1920x1080 --pos 320x1440
 
-# Turn off a display
+Turn off a display
 xrandr --output HDMI-2 --off
 ```
 
-## Persist Layout with autorandr
+Persist Layout with autorandr
 
 `xrandr` commands reset on reboot. `autorandr` saves named profiles and auto-applies them when the same monitors are connected.
 
 ```bash
-# Install
+Install
 sudo apt install autorandr    # Debian/Ubuntu
 sudo pacman -S autorandr      # Arch
 
-# Configure your layout with xrandr first, then save it
+Configure your layout with xrandr first, then save it
 autorandr --save office-dual
 
-# List saved profiles
+List saved profiles
 autorandr --list
 
-# Manually apply a profile
+Manually apply a profile
 autorandr office-dual
 
-# Auto-detect and apply the matching profile (run in .profile or .xinitrc)
+Auto-detect and apply the matching profile (run in .profile or .xinitrc)
 autorandr --change
 ```
 
-Add `autorandr --change` to your session startup so it fires whenever monitors change — docking/undocking works automatically.
+Add `autorandr --change` to your session startup so it fires whenever monitors change. docking/undocking works automatically.
 
-## Handle Mixed DPI (HiDPI + 1080p)
+Handle Mixed DPI (HiDPI + 1080p)
 
 The most common setup: a 4K laptop screen at 200% scaling plus a 1080p external at 100%. This is the hardest multi-monitor problem on Linux.
 
-**X11 (limited, partial fix):**
+X11 (limited, partial fix):
 
 ```bash
-# Set global DPI (affects all displays equally — not ideal for mixed)
+Set global DPI (affects all displays equally. not ideal for mixed)
 xrandr --dpi 144
 
-# Workaround: use xrandr --scale to fake per-monitor DPI
-# Scale the 1080p monitor up to match the HiDPI environment
+Workaround: use xrandr --scale to fake per-monitor DPI
+Scale the 1080p monitor up to match the HiDPI environment
 xrandr --output DP-1 --scale 2x2 --mode 1920x1080 --fb 7680x2160
 
-# This makes the 1080p monitor "virtually" 4K while keeping crisp text on the HiDPI display
-# The --fb flag sets the virtual framebuffer size to accommodate both
+This makes the 1080p monitor "virtually" 4K while keeping crisp text on the HiDPI display
+The --fb flag sets the virtual framebuffer size to accommodate both
 ```
 
-**Wayland (clean per-monitor scaling):**
+Wayland (clean per-monitor scaling):
 
 Wayland handles per-monitor scaling natively. Use Sway or Hyprland for the cleanest result.
 
 ```bash
-# Sway config: ~/.config/sway/config
+Sway config: ~/.config/sway/config
 output HDMI-A-1 resolution 3840x2160 scale 2
 output DP-1 resolution 1920x1080 scale 1
 
-# Position them correctly
+Position them correctly
 output HDMI-A-1 pos 0 0
 output DP-1 pos 1920 0
 ```
 
-## i3 Config: Assign Workspaces to Monitors
+i3 Config: Assign Workspaces to Monitors
 
 i3's workspace-to-output binding keeps code on one monitor and browser on another permanently.
 
 ```bash
-# ~/.config/i3/config
+~/.config/i3/config
 
-# Name your outputs (get names from xrandr --query)
+Name your outputs (get names from xrandr --query)
 set $mon1 HDMI-1
 set $mon2 DP-1
 
-# Assign workspaces to outputs
+Assign workspaces to outputs
 workspace 1 output $mon1
 workspace 2 output $mon1
 workspace 3 output $mon1
@@ -154,23 +154,23 @@ workspace 6 output $mon2
 workspace 7 output $mon2
 workspace 8 output $mon2
 
-# Move focused container to specific monitor
+Move focused container to specific monitor
 bindsym $mod+Shift+Left move container to output left
 bindsym $mod+Shift+Right move container to output right
 
-# Focus monitor
+Focus monitor
 bindsym $mod+Left focus output left
 bindsym $mod+Right focus output right
 ```
 
 Workspaces 1-4 open on the primary monitor, 5-8 on the secondary. Browser starts on workspace 5 (secondary). Terminal and editor on workspace 1 (primary). No manual dragging.
 
-## Sway Config for Wayland
+Sway Config for Wayland
 
 ```bash
-# ~/.config/sway/config
+~/.config/sway/config
 
-# Output configuration
+Output configuration
 output HDMI-A-1 {
     resolution 2560x1440
     position 0 0
@@ -184,7 +184,7 @@ output DP-1 {
     scale 1
 }
 
-# Workspace-to-output binding
+Workspace-to-output binding
 workspace 1 output HDMI-A-1
 workspace 2 output HDMI-A-1
 workspace 3 output HDMI-A-1
@@ -193,10 +193,10 @@ workspace 6 output DP-1
 workspace 7 output DP-1
 ```
 
-## Font Rendering at Mixed DPI
+Font Rendering at Mixed DPI
 
 ```bash
-# ~/.config/fontconfig/fonts.conf
+~/.config/fontconfig/fonts.conf
 <?xml version="1.0"?>
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 <fontconfig>
@@ -221,35 +221,35 @@ workspace 7 output DP-1
 ```
 
 ```bash
-# Rebuild font cache
+Rebuild font cache
 fc-cache -fv
 
-# Set DPI for X11 apps via .Xresources
+Set DPI for X11 apps via .Xresources
 echo "Xft.dpi: 144" >> ~/.Xresources
 xrdb -merge ~/.Xresources
 ```
 
-## Wallpaper Per Monitor
+Wallpaper Per Monitor
 
 ```bash
-# feh — sets different wallpaper per display (X11)
+feh. sets different wallpaper per display (X11)
 sudo apt install feh
 feh --bg-fill /path/to/left.jpg --bg-fill /path/to/right.jpg
 
-# Add to i3 config to restore on session start
+Add to i3 config to restore on session start
 exec_always --no-startup-id feh --bg-fill /path/to/left.jpg --bg-fill /path/to/right.jpg
 
-# Sway — built-in per-output background
+Sway. built-in per-output background
 output HDMI-A-1 background /path/to/left.jpg fill
 output DP-1 background /path/to/right.jpg fill
 ```
 
-## Status Bar Per Monitor
+Status Bar Per Monitor
 
 i3bar and Waybar can show a bar on every monitor:
 
 ```bash
-# i3 config — two bars, one per output
+i3 config. two bars, one per output
 bar {
     output HDMI-1
     status_command i3status
@@ -260,36 +260,36 @@ bar {
     output DP-1
     status_command i3status
     position top
-    # Simpler bar on secondary — no clock/battery
+    # Simpler bar on secondary. no clock/battery
     mode hide
     hidden_state hide
     modifier Mod4
 }
 ```
 
-## Test Layout Without Committing
+Test Layout Without Committing
 
 ```bash
-# X11: test a layout change, it reverts on next login
+X11: test a layout change, it reverts on next login
 xrandr --output HDMI-1 --mode 1920x1080
 
-# Confirm it works before saving with autorandr
+Confirm it works before saving with autorandr
 autorandr --save test-layout
 
-# Revert to previous profile if something breaks
+Revert to previous profile if something breaks
 autorandr previous
 ```
 
-## Hardware: What Actually Works
+Hardware: What Actually Works
 
 Not every GPU and cable combination delivers a clean multi-monitor setup on Linux. Common failure points:
 
-**GPU driver considerations:**
+GPU driver considerations:
 - AMD (Radeon RX 5000 and newer): AMDGPU driver is included in the kernel, works out of the box on any modern Linux distro. Best choice for a hassle-free multi-monitor setup.
 - NVIDIA (RTX 3000+): proprietary drivers required. Install via `sudo apt install nvidia-driver-550` (Debian/Ubuntu). Without the proprietary driver, multi-monitor output over DisplayPort may fail or deliver reduced refresh rates.
 - Intel integrated graphics: works well for 2 monitors up to 4K@60. Three monitors at high refresh rate will hit bandwidth limits.
 
-**Cable and port specifics:**
+Cable and port specifics:
 
 | Connection | Max 4K@60 | Max 144Hz | DisplayPort 1.4 required? |
 |---|---|---|---|
@@ -301,17 +301,17 @@ Not every GPU and cable combination delivers a clean multi-monitor setup on Linu
 
 If your 4K monitor is locked to 30Hz, check whether you have an HDMI 1.4 cable. Replacing it with DisplayPort or HDMI 2.0+ resolves this immediately.
 
-## Hyprland Configuration (Modern Wayland Alternative)
+Hyprland Configuration (Modern Wayland Alternative)
 
 Hyprland has become the go-to Wayland compositor for developers who want a tiling workflow without the X11 limitations. Multi-monitor configuration is straightforward:
 
 ```bash
-# ~/.config/hypr/hyprland.conf
+~/.config/hypr/hyprland.conf
 
 monitor=HDMI-A-1,2560x1440@144,0x0,1
 monitor=DP-1,1920x1080@60,2560x0,1
 
-# Workspace-to-monitor binding
+Workspace-to-monitor binding
 workspace=1,monitor:HDMI-A-1
 workspace=2,monitor:HDMI-A-1
 workspace=3,monitor:HDMI-A-1
@@ -320,18 +320,18 @@ workspace=5,monitor:DP-1
 workspace=6,monitor:DP-1
 workspace=7,monitor:DP-1
 
-# Move focus between monitors
+Move focus between monitors
 bind=SUPER,Left,focusmonitor,l
 bind=SUPER,Right,focusmonitor,r
 
-# Move window to other monitor
+Move window to other monitor
 bind=SUPER SHIFT,Left,movewindow,mon:l
 bind=SUPER SHIFT,Right,movewindow,mon:r
 ```
 
 Hyprland's advantage over i3 is native per-monitor fractional scaling without workarounds. A 4K@200% monitor next to a 1080p@100% monitor works cleanly. Its disadvantage: it is more complex to configure and has occasional regressions between releases. Use Sway if you want stability; use Hyprland if you want the latest Wayland features.
 
-## Compositor and Display Server Comparison
+Compositor and Display Server Comparison
 
 | Environment | Display Server | Multi-Monitor DPI | Fractional Scale | Best For |
 |---|---|---|---|---|
@@ -343,41 +343,41 @@ Hyprland's advantage over i3 is native per-monitor fractional scaling without wo
 
 For a pure development workstation where you want tiling and keyboard control, i3 (X11) or Sway (Wayland) are the most stable options in 2026. GNOME and KDE Plasma handle multi-monitor DPI cleanly on Wayland if you prefer a full desktop environment.
 
-## Related Reading
+Related Reading
 
 - [How to Set Up a Linux Workstation for Remote Work](/how-to-set-up-linux-workstation-for-remote-work/)
 - [Best Ultrawide Monitor for Programming Remote Work](/best-ultrawide-monitor-for-programming-remote-work/)
 - [Ergonomic Desk Setup Guide for Developers 2026](/ergonomic-desk-setup-developers-2026/)
 - [How to Set Up Dual Monitor Arms on Remote Work Desk](/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Linux Workstation for Remote Work](/how-to-set-up-linux-workstation-for-remote-work/)
 - [How to Set Up a Portable Coding Workstation](/how-to-set-up-portable-coding-workstation/)
 - [Monitor Setup for Remote Developer](/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
 - [Portable Monitor Setup for Digital Nomads](/portable-monitor-setup-for-digital-nomads/)
 - [Ergonomic Desk Setup Guide for Developers 2026](/ergonomic-desk-setup-developers-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to guide?**
+How long does it take to guide?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 

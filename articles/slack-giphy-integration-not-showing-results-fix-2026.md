@@ -18,7 +18,7 @@ intent-checked: true
 
 Giphy integration in Slack brings animated reactions and searchable GIFs to your team conversations. When this integration stops working, remote teams lose a valuable way to add personality and humor to async communication. This guide covers the most common reasons Giphy fails in Slack and provides practical fixes you can apply immediately.
 
-## Table of Contents
+Table of Contents
 
 - [Common Causes of Giphy Not Working in Slack](#common-causes-of-giphy-not-working-in-slack)
 - [Step-by-Step Troubleshooting Guide](#step-by-step-troubleshooting-guide)
@@ -31,21 +31,21 @@ Giphy integration in Slack brings animated reactions and searchable GIFs to your
 - [Workspace Administrator Checklist](#workspace-administrator-checklist)
 - [Giphy Settings Worth Knowing](#giphy-settings-worth-knowing)
 
-## Common Causes of Giphy Not Working in Slack
+Common Causes of Giphy Not Working in Slack
 
 Several factors can cause Giphy to stop displaying results in Slack. Understanding these causes helps you identify the right solution faster.
 
-**Workspace-level restrictions** are the most frequent culprit. Workspace administrators can disable Giphy or restrict its use to specific channels. This control exists to keep conversations professional, but it can accidentally block functionality you need.
+Workspace-level restrictions are the most frequent culprit. Workspace administrators can disable Giphy or restrict its use to specific channels. This control exists to keep conversations professional, but it can accidentally block functionality you need.
 
-**App permissions and OAuth issues** also frequently cause problems. Slack requires specific permissions to connect with Giphy. If these permissions become stale or are revoked, the integration fails silently.
+App permissions and OAuth issues also frequently cause problems. Slack requires specific permissions to connect with Giphy. If these permissions become stale or are revoked, the integration fails silently.
 
-**Network and firewall restrictions** affect remote workers particularly hard. When you're on a VPN, corporate network, or using certain firewalls, the connection to Giphy's servers gets blocked.
+Network and firewall restrictions affect remote workers particularly hard. When you're on a VPN, corporate network, or using certain firewalls, the connection to Giphy's servers gets blocked.
 
-**Slack client issues** such as outdated versions, cache problems, or browser-specific conflicts can prevent Giphy from rendering even when the integration itself works.
+Slack client issues such as outdated versions, cache problems, or browser-specific conflicts can prevent Giphy from rendering even when the integration itself works.
 
-## Step-by-Step Troubleshooting Guide
+Step-by-Step Troubleshooting Guide
 
-### Step 1: Verify Giphy is Enabled at the Workspace Level
+Step 1: Verify Giphy is Enabled at the Workspace Level
 
 Before trying other fixes, check whether your workspace administrator has disabled or limited Giphy access.
 
@@ -58,11 +58,11 @@ Before trying other fixes, check whether your workspace administrator has disabl
 
 If Giphy is disabled or restricted, you'll need to contact your workspace admin to enable it. This is the most common reason Giphy suddenly stops working for entire teams.
 
-### Step 2: Check Your Slack App Permissions
+Step 2: Check Your Slack App Permissions
 
 Slack needs proper OAuth permissions to fetch GIFs from Giphy. When these permissions expire or become corrupted, the integration fails.
 
-1. Visit **my.slack.com/apps** in your browser
+1. Visit my.slack.com/apps in your browser
 2. Search for "Giphy" in the search bar
 3. Click on the Giphy app entry
 4. Look for permission status indicators
@@ -71,11 +71,11 @@ Slack needs proper OAuth permissions to fetch GIFs from Giphy. When these permis
 
 After reinstalling, restart Slack and try using Giphy again with the `/giphy` command or by typing `:giphy:` followed by a search term.
 
-### Step 3: Clear Slack Cache and Update Your Client
+Step 3: Clear Slack Cache and Update Your Client
 
 Outdated or corrupted cache files often cause rendering issues with embedded content like GIFs.
 
-**For Desktop App:**
+For Desktop App:
 1. Quit Slack completely (right-click the icon in the system tray, select Quit)
 2. Open your file browser and navigate to the Slack cache directory
  - On Mac: `~/Library/Application Support/Slack/Cache`
@@ -83,7 +83,7 @@ Outdated or corrupted cache files often cause rendering issues with embedded con
 3. Delete all files in the Cache folder
 4. Restart Slack
 
-**For Browser Version:**
+For Browser Version:
 1. Clear your browser cache specifically for Slack
 2. Open developer tools (F12 or Cmd+Option+I)
 3. Right-click the refresh button and select "Empty Cache and Hard Reload"
@@ -91,7 +91,7 @@ Outdated or corrupted cache files often cause rendering issues with embedded con
 
 Always ensure you're running the latest version of Slack. Check for updates through your app store or Slack's automatic updates.
 
-### Step 4: Test Network and Firewall Restrictions
+Step 4: Test Network and Firewall Restrictions
 
 Remote workers on corporate networks or VPNs often encounter Giphy blocking. Test this by:
 
@@ -105,38 +105,38 @@ If Giphy works on a different network, your corporate firewall or VPN is likely 
 - Using a split-tunnel VPN that excludes Slack traffic
 - Working from a location with unfiltered internet during testing
 
-### Step 5: Try Alternative Giphy Commands
+Step 5: Try Alternative Giphy Commands
 
 Slack supports multiple ways to trigger Giphy. Sometimes one method fails while others work.
 
-**Standard command:**
+Standard command:
 ```
 /giphy [search term]
 ```
 
-**Using the giphy emoji directly:**
+Using the giphy emoji directly:
 ```
 :giphy: [search term]
 ```
 
-**Random GIF without search:**
+Random GIF without search:
 ```
 /giphy
 ```
 
 Try each of these commands in a public channel. If one works and others don't, you have a more specific issue to troubleshoot.
 
-### Step 6: Check for Slack Outages
+Step 6: Check for Slack Outages
 
 When Giphy stops working globally, the issue might be on Slack's or Giphy's end rather than your setup.
 
-1. Check **status.slack.com** for current service status
+1. Check status.slack.com for current service status
 2. Search Twitter or DownDetector for "Slack Giphy" reports
 3. Wait 15-30 minutes and test again if there's an ongoing outage
 
 Giphy experienced significant outages in previous years that affected Slack integration. These are typically resolved quickly but can cause temporary frustration.
 
-### Step 7: Reinstall the Giphy Integration
+Step 7: Reinstall the Giphy Integration
 
 As a last resort, remove and re-add Giphy completely:
 
@@ -149,19 +149,19 @@ As a last resort, remove and re-add Giphy completely:
 
 This refreshes all connection tokens and often resolves persistent issues.
 
-## Preventing Future Issues
+Preventing Future Issues
 
 Once you've fixed Giphy, take these preventive measures to avoid repeat problems:
 
-**Bookmark the Giphy app settings page** in Slack so you can quickly check permissions when issues arise.
+Bookmark the Giphy app settings page in Slack so you can quickly check permissions when issues arise.
 
-**Document the troubleshooting steps** in your team's internal wiki so other team members can resolve minor issues themselves.
+Document the troubleshooting steps in your team's internal wiki so other team members can resolve minor issues themselves.
 
-**Consider alternative GIF services** like Tenor as a backup. Some teams install both Giphy and Tenor in Slack, giving you a fallback when one service experiences problems.
+Consider alternative GIF services like Tenor as a backup. Some teams install both Giphy and Tenor in Slack, giving you a fallback when one service experiences problems.
 
-**Keep your Slack client updated**. New releases often include fixes for integration issues and improved handling of embedded media.
+Keep your Slack client updated. New releases often include fixes for integration issues and improved handling of embedded media.
 
-## Quick Fix Checklist
+Quick Fix Checklist
 
 Use this checklist when Giphy stops working:
 
@@ -177,13 +177,13 @@ Most issues resolve within the first three steps. Network and firewall restricti
 
 Giphy integration adds significant value to remote team communication, providing quick emotional context that text alone cannot convey. When it breaks, your team loses one of the lighter touchpoints in async collaboration. With these troubleshooting steps, you can restore functionality quickly and get back to sharing relevant GIFs in your team channels.
 
-## Advanced Troubleshooting for Persistent Issues
+Advanced Troubleshooting for Persistent Issues
 
-### Issue: Giphy Searches Return Only Old Cached Results
+Issue: Giphy Searches Return Only Old Cached Results
 
 If Giphy loads but only shows results you've searched for before, the problem is likely local cache rather than a connection issue.
 
-**For desktop app:**
+For desktop app:
 1. Go to Slack Preferences → Advanced → Clear cache
 2. Alternatively, manually clear the cache directory:
  - Mac: `~/Library/Application Support/Slack/`
@@ -193,7 +193,7 @@ If Giphy loads but only shows results you've searched for before, the problem is
 
 The `IndexedDB` folder sometimes caches API responses more aggressively than the standard cache. Removing both ensures a full refresh.
 
-### Issue: Giphy Works in Direct Messages But Not in Channels
+Issue: Giphy Works in Direct Messages But Not in Channels
 
 This usually indicates a channel-level permission restriction set by your workspace admin.
 
@@ -206,11 +206,11 @@ This usually indicates a channel-level permission restriction set by your worksp
 
 If channel restrictions feel overly strict, approach your admin with a specific use case: "We'd like to use Giphy in #engineering to celebrate deployments. It'd take 30 seconds to allow it."
 
-### Issue: Browser Version Shows Different Behavior Than Desktop App
+Issue: Browser Version Shows Different Behavior Than Desktop App
 
 Slack runs differently in browsers vs. the desktop app. Browser-based Giphy can fail if your browser's local storage is full or if JavaScript is being blocked.
 
-**Browser-specific fix:**
+Browser-specific fix:
 1. Clear local storage specifically for slack.com
 2. Open developer tools (F12 or Cmd+Opt+I)
 3. Go to Application → Local Storage → slack.com
@@ -222,47 +222,47 @@ If you're using a corporate proxy or DLP solution, the proxy might be blocking m
 - `api.giphy.com`
 - `giphy.com` (all subdomains)
 
-### Issue: Giphy Works Randomly - Intermittent Failures
+Issue: Giphy Works Randomly - Intermittent Failures
 
 Intermittent failures usually point to network stability or rate limiting, not a configuration issue.
 
-**Diagnostics:**
+Diagnostics:
 1. Check your internet connection stability: Run `ping google.com` for 30 seconds and look for packet loss > 1%
 2. Try searches with different terms. If some work and others don't, Giphy might be rate-limiting your workspace.
 3. Test at different times. Giphy occasionally experiences brief outages (15-30 minutes) during their maintenance windows.
 
-**Rate limiting check:**
+Rate limiting check:
 Slack has no public rate limit data for Giphy, but corporate proxies sometimes impose aggressive rate limits. If your team makes 20+ Giphy searches in an hour, some proxies throttle subsequent requests.
 
-**Fix:** Spread out Giphy searches over time, or coordinate with your IT team to increase the rate limit for Giphy specifically.
+Fix: Spread out Giphy searches over time, or coordinate with your IT team to increase the rate limit for Giphy specifically.
 
-## Alternative GIF Services and Why You Might Need Them
+Alternative GIF Services and Why You Might Need Them
 
 When Giphy fails repeatedly, having alternatives keeps team culture intact.
 
-### Tenor (Free)
+Tenor (Free)
 
 Tenor is Giphy's primary competitor and often works better in corporate environments. Installation is identical to Giphy.
 
-**Advantages:**
+Advantages:
 - Sometimes faster response times
 - Better results for modern/meme content
 - Works well when Giphy is experiencing issues
 - Tenor API has different rate limits, so sometimes works when Giphy fails
 
-**Disadvantage:** Less catalog of older/classic GIFs
+Disadvantage: Less catalog of older/classic GIFs
 
-**How to install:** Same process as Giphy. Go to Slack App Directory, search "Tenor", click "Add"
+How to install: Same process as Giphy. Go to Slack App Directory, search "Tenor", click "Add"
 
 Many teams install both Giphy and Tenor, using Tenor as a fallback when Giphy fails.
 
-### Imgflip (Free)
+Imgflip (Free)
 
 Imgflip specializes in meme generation. While it's not a GIF search tool like Giphy/Tenor, it's useful for creating custom reaction images.
 
-**Best for:** Teams that want to use custom memes or text overlays on images
+Best for: Teams that want to use custom memes or text overlays on images
 
-### Built-in Slack Emoji and Reactions
+Built-in Slack Emoji and Reactions
 
 Before installing external GIF tools, remember Slack's native emoji reactions are often sufficient. With custom emoji, you can upload your own team GIFs:
 
@@ -270,37 +270,37 @@ Before installing external GIF tools, remember Slack's native emoji reactions ar
 2. Upload custom GIF files (up to 128 KB per emoji)
 3. Use these in reactions
 
-**Advantage:** No external service dependency, works anywhere Slack works
-**Disadvantage:** Limited to pre-selected GIFs, requires emoji management
+Advantage: No external service dependency, works anywhere Slack works
+Disadvantage: Limited to pre-selected GIFs, requires emoji management
 
-## Preventing Future Giphy Problems
+Preventing Future Giphy Problems
 
-### Monitor Your Integration
+Monitor Your Integration
 
 Set a calendar reminder for every 30 days to test Giphy. Spend 2 minutes running `/giphy coffee` in a test channel. Catch issues early before they affect team communication.
 
-### Document Admin Settings
+Document Admin Settings
 
 Keep a record of your Giphy settings in your team wiki:
 
 ```
-## Giphy Integration Status
+Giphy Integration Status
 
-- **Enabled at workspace level:** Yes
-- **Restrictions:** None (all channels allowed)
-- **Fallback service:** Tenor (installed as backup)
-- **Last checked:** 2026-03-21
-- **Known issues:** None
-- **Admin contact:** engineering-ops@company.com
+- Enabled at workspace level: Yes
+- Restrictions: None (all channels allowed)
+- Fallback service: Tenor (installed as backup)
+- Last checked: 2026-03-21
+- Known issues: None
+- Admin contact: engineering-ops@company.com
 ```
 
 Update this document whenever settings change. This gives new hires quick context and prevents repeated troubleshooting of the same issues.
 
-### Configure Slack Notifications
+Configure Slack Notifications
 
 In the Giphy app settings, enable notifications so you get alerted if the integration fails or if permissions expire. This helps you fix issues proactively rather than discovering them when the team complains.
 
-## Workspace Administrator Checklist
+Workspace Administrator Checklist
 
 If you manage your Slack workspace, use this checklist to prevent Giphy issues:
 
@@ -314,46 +314,46 @@ If you manage your Slack workspace, use this checklist to prevent Giphy issues:
 - [ ] Set a reminder to test Giphy monthly
 - [ ] Have a designated backup GIF service (Tenor recommended) in case Giphy fails
 
-## Giphy Settings Worth Knowing
+Giphy Settings Worth Knowing
 
 In your Giphy app configuration, you can control:
 
-**Content Rating:** Choose between G, PG, PG-13, or R. Setting this to G/PG prevents potentially inappropriate results in professional channels.
+Content Rating: Choose between G, PG, PG-13, or R. Setting this to G/PG prevents potentially inappropriate results in professional channels.
 
-**Search Behavior:** Some versions of Slack let you choose between "Search the web" vs. "Search Giphy only." If you have both options, "Giphy only" is faster and more reliable.
+Search Behavior: Some versions of Slack let you choose between "Search the web" vs. "Search Giphy only." If you have both options, "Giphy only" is faster and more reliable.
 
-**Random GIF Source:** The `/giphy` command (without a search term) can return a truly random GIF or a "popular now" GIF. Most teams prefer "popular now" as it reduces awkward results.
+Random GIF Source: The `/giphy` command (without a search term) can return a truly random GIF or a "popular now" GIF. Most teams prefer "popular now" as it reduces awkward results.
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**What if the fix described here does not work?**
+What if the fix described here does not work?
 
 If the primary solution does not resolve your issue, check whether you are running the latest version of the software involved. Clear any caches, restart the application, and try again. If it still fails, search for the exact error message in the tool's GitHub Issues or support forum.
 
-**Could this problem be caused by a recent update?**
+Could this problem be caused by a recent update?
 
 Yes, updates frequently introduce new bugs or change behavior. Check the tool's release notes and changelog for recent changes. If the issue started right after an update, consider rolling back to the previous version while waiting for a patch.
 
-**How can I prevent this issue from happening again?**
+How can I prevent this issue from happening again?
 
 Pin your dependency versions to avoid unexpected breaking changes. Set up monitoring or alerts that catch errors early. Keep a troubleshooting log so you can quickly reference solutions when similar problems recur.
 
-**Is this a known bug or specific to my setup?**
+Is this a known bug or specific to my setup?
 
 Check the tool's GitHub Issues page or community forum to see if others report the same problem. If you find matching reports, you will often find workarounds in the comments. If no one else reports it, your local environment configuration is likely the cause.
 
-**Should I reinstall the tool to fix this?**
+Should I reinstall the tool to fix this?
 
 A clean reinstall sometimes resolves persistent issues caused by corrupted caches or configuration files. Before reinstalling, back up your settings and project files. Try clearing the cache first, since that fixes the majority of cases without a full reinstall.
 
-## Related Articles
+Related Articles
 
 - [Slack List View Sorting Not Saving Preference Fix 2026](/slack-list-view-sorting-not-saving-preference-fix-2026/)
 - [Slack Workflow Builder Automation Stopped Running Fix 2026](/slack-workflow-builder-automation-stopped-running-fix-2026/)
 - [How to Optimize Slack for Large Remote Teams](/how-to-optimize-slack-for-large-remote-teams/)
 - [Best Practice for Remote Team Slack Do Not Disturb](/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 - [Best Slack Alternatives for Small Teams in 2026](/best-slack-alternatives-for-small-teams/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

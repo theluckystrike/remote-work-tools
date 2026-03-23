@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Team Communication Tools — Slack, Discord & Async Messaging"
+title: "Team Communication Tools. Slack, Discord & Async Messaging"
 description: "Compare team communication platforms: Slack vs Discord, Zulip threading, chat strategies, and channel organization for remote engineering teams."
 permalink: /topics/team-communication-tools/
 intent-checked: true
@@ -8,13 +8,13 @@ voice-checked: true
 date: 2026-03-21
 ---
 
-# Team Communication Tools — Slack, Discord & Async Messaging
+# Team Communication Tools. Slack, Discord & Async Messaging
 
 Effective team communication is the difference between a productive remote team and a chaotic one. From choosing between Slack and Discord to structuring channels for 75-person organizations, communication tool decisions impact every aspect of remote work. This hub covers platform comparisons, channel strategy guides, async messaging best practices, and integration setups. Find the right communication stack for your team size and workflow, whether you prefer real-time chat or asynchronous threads.
 
 ---
 
-## Articles in This Topic (72)
+Articles in This Topic (72)
 
 - [#eng-announcements Channel Guidelines](/best-practice-for-remote-team-announcement-channel-keeping-s/)
 - [.communication-charter.yml - add to your project repo](/how-to-create-remote-team-communication-charter-template-for/)

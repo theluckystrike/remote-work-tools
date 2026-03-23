@@ -18,13 +18,13 @@ voice-checked: true
 
 Building effective screen sharing into your meeting platform requires understanding the technical tradeoffs between different approaches. Whether you're integrating with an existing video conferencing service or building custom functionality, this guide covers the practical implementation details developers need to know.
 
-## Understanding Screen Sharing Protocols
+Understanding Screen Sharing Protocols
 
 Screen sharing fundamentally involves capturing display content, encoding it efficiently, and transmitting it to participants. The three main approaches are desktop capture APIs, WebRTC-based streaming, and server-side rendering with streaming.
 
 Desktop capture using the Screen Capture API works directly in browsers and provides the quickest path to implementation. WebRTC offers lower latency for real-time collaboration but requires more setup. Server-side rendering handles the most complex scenarios but adds infrastructure costs.
 
-### Browser-Based Screen Capture
+Browser-Based Screen Capture
 
 Modern browsers support screen capture through the `getDisplayMedia()` API. This method requires user permission but works without additional software installation.
 
@@ -57,7 +57,7 @@ async function startScreenShare() {
 
 The `displaySurface` option lets you control whether users share their entire monitor, a specific window, or a browser tab. For hybrid meetings, encouraging window sharing often works better than full-screen capture since it avoids exposing notifications and sensitive information.
 
-## WebRTC-Based Screen Sharing
+WebRTC-Based Screen Sharing
 
 WebRTC provides peer-to-peer delivery with minimal latency, making it suitable for interactive sessions where delay matters. Most WebRTC implementations support screen sharing as an additional video track.
 
@@ -88,11 +88,11 @@ async function addScreenShareToPeerConnection(pc, stream) {
 
 WebRTC screen sharing works well when you control both the sender and receiver. However, compatibility varies across browsers and requires fallback handling for edge cases.
 
-## Third-Party API Integrations
+Third-Party API Integrations
 
 Building screen sharing from scratch works for specialized use cases, but most teams benefit from integrating established services. Several providers offer screen sharing as part of their video conferencing APIs.
 
-### Daily.co Screen Sharing
+Daily.co Screen Sharing
 
 Daily.co provides a straightforward screen sharing API that handles cross-browser compatibility:
 
@@ -118,7 +118,7 @@ document.getElementById('share-screen').onclick = () => {
 
 Their API handles the complexity of different browser implementations and provides a consistent interface across platforms.
 
-### LiveKit Screen Sharing
+LiveKit Screen Sharing
 
 LiveKit offers a more developer-focused approach with fine-grained control over media streams. Their SDK supports both browser-based capture and server-side screen recording:
 
@@ -141,11 +141,11 @@ await room.localParticipant.enableScreenShare({
 
 LiveKit works well when you need custom UI or want to process screen share content server-side for recording or analysis.
 
-## Optimizing for Developer Workflows
+Optimizing for Developer Workflows
 
 Hybrid meetings for developer teams often involve code review, terminal output, and architecture diagrams. Optimizing your screen sharing setup for these scenarios improves meeting effectiveness.
 
-### Resolution and Frame Rate Tradeoffs
+Resolution and Frame Rate Tradeoffs
 
 Higher resolution and frame rate provide clearer detail but increase bandwidth requirements. For code review sessions, 1080p at 15fps typically suffices. Terminal scrolling looks smooth at 30fps, while animations or demos benefit from 60fps.
 
@@ -175,7 +175,7 @@ function getCaptureSettings(useCase) {
 }
 ```
 
-### Audio Considerations
+Audio Considerations
 
 Screen sharing typically doesn't include system audio by default. If you need to share sound (for videos or demonstrations), enable audio capture:
 
@@ -188,7 +188,7 @@ const stream = await navigator.mediaDevices.getDisplayMedia({
 
 System audio support varies significantly across browsers and operating systems. Always provide fallback instructions when audio sharing is critical.
 
-## Building Custom Solutions
+Building Custom Solutions
 
 For teams with specific requirements, building custom screen sharing infrastructure provides maximum flexibility. This approach requires more engineering investment but enables unique features.
 
@@ -231,7 +231,7 @@ class ScreenShareManager {
 
 This approach enables custom processing like automatic content detection, quality adaptation, or watermark insertion.
 
-## Choosing the Right Approach
+Choosing the Right Approach
 
 For most developer teams, integrating an established service like Daily.co or LiveKit provides the best balance of implementation speed and reliability. Build custom solutions when you need features unavailable through third-party APIs or when infrastructure costs make sense for your scale.
 
@@ -239,34 +239,34 @@ The key factors in your decision are: team size (affects SFU requirements), late
 
 Start with browser-based capture for the simplest implementation, migrate to WebRTC-based solutions when you need better latency, and consider third-party APIs when building meeting platforms. Each approach has a place depending on your specific requirements and engineering resources.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get started quickly?**
+How do I get started quickly?
 
 Pick one tool from the options discussed and sign up for a free trial. Spend 30 minutes on a real task from your daily work rather than running through tutorials. Real usage reveals fit faster than feature comparisons.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Best Screen Sharing Tools for Presenting Designs to Clients](/screen-sharing-tool-for-presenting-designs-to-clients-remote/)
 - [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
 - [Best Screen Recording Tools for Async Communication](/best-screen-recording-async-communication/)
 - [How to Prevent Laptop Overheating During Long Video Call](/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
 - [macOS: Screen recording permission is required](/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

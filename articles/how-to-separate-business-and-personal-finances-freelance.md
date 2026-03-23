@@ -18,47 +18,47 @@ tags: [remote-work-tools]
 
 Running your own business means every financial decision lands on your desk. When you're a freelance developer, the line between "buying a new laptop for client work" and "upgrading my personal rig" gets blurry fast. Mixing business and personal finances creates tax headaches, complicates expense reporting, and makes it nearly impossible to understand your true profitability.
 
-This guide provides concrete systems for maintaining clean separation between your business and personal finances—approaches that work for developers who prefer terminal-based workflows and automation over spreadsheets.
+This guide provides concrete systems for maintaining clean separation between your business and personal finances, approaches that work for developers who prefer terminal-based workflows and automation over spreadsheets.
 
-## The Case for Strict Separation
+The Case for Strict Separation
 
 Before exploring implementation, understand why separation matters:
 
-- **Tax deductions require documentation**. Commingled funds make it impossible to prove which expenses were genuinely business-related.
-- **Profitability becomes invisible**. When business income pays for personal expenses, you can't tell if you're actually earning money.
-- **Quarterly estimates get messy**. Clean books mean accurate tax estimates without weekend-long reconciliation sessions.
+- Tax deductions require documentation. Commingled funds make it impossible to prove which expenses were genuinely business-related.
+- Profitability becomes invisible. When business income pays for personal expenses, you can't tell if you're actually earning money.
+- Quarterly estimates get messy. Clean books mean accurate tax estimates without weekend-long reconciliation sessions.
 
-The goal isn't just accounting hygiene—it's business intelligence. You need to know your true hourly rate after expenses, not just what you billed.
+The goal isn't just accounting hygiene, it's business intelligence. You need to know your true hourly rate after expenses, not just what you billed.
 
-## Bank Account Strategy
+Bank Account Strategy
 
 The foundation of financial separation starts with your banking setup. You don't need a complicated business structure, but you do need dedicated accounts.
 
-### Recommended Account Structure
+Recommended Account Structure
 
 ```
 Primary Checking (Personal) - Your personal bank
-  ├── Personal income (salary from spouse, side income)
-  └── Personal expenses
+   Personal income (salary from spouse, side income)
+   Personal expenses
 
 Business Checking - Dedicated business account
-  ├── Client payments
-  └── Business expenses
+   Client payments
+   Business expenses
 
 Business Savings - Reserve fund
-  ├── Tax buffer (25-30% of income)
-  └── Emergency fund
+   Tax buffer (25-30% of income)
+   Emergency fund
 ```
 
 For US-based freelancers, most banks offer business checking accounts with no monthly fees if you maintain a small minimum balance. Credit unions often provide better rates and fewer fees.
 
-Transferring money from business to personal works like a payroll system. Pick a regular schedule—monthly or bi-weekly—and transfer a set "salary" amount. This creates a predictable rhythm and prevents spontaneous personal spending from business funds.
+Transferring money from business to personal works like a payroll system. Pick a regular schedule, monthly or bi-weekly, and transfer a set "salary" amount. This creates a predictable rhythm and prevents spontaneous personal spending from business funds.
 
-## Tracking Expenses with Plain Text
+Tracking Expenses with Plain Text
 
 Developers who embrace plain-text accounting gain several advantages: version control over financial data, powerful querying capabilities, and complete data ownership. Two tools excel at this approach: Ledger CLI and Beancount.
 
-### Setting Up Ledger CLI
+Setting Up Ledger CLI
 
 Ledger provides double-entry bookkeeping from plain-text files. Install it via Homebrew:
 
@@ -98,17 +98,17 @@ Record transactions using double-entry format:
 Generate reports anytime:
 
 ```bash
-# Monthly business income
+Monthly business income
 ledger bal Income -p "2026/03"
 
-# Current business expenses by category
+Current business expenses by category
 ledger bal Expenses -p "2026"
 
-# What you've "paid yourself"
+What you've "paid yourself"
 ledger bal Assets:Personal -p "2026"
 ```
 
-### Beancount with Fava Interface
+Beancount with Fava Interface
 
 Beancount offers similar functionality with Python integration:
 
@@ -132,7 +132,7 @@ fava expenses.beancount
 
 Both approaches store your financial data in plain text files that live in your repository. You get Git history of every change, searchability, and backup simplicity.
 
-## Automating Transaction Categorization
+Automating Transaction Categorization
 
 Manual categorization gets tedious. Build a simple rule engine to handle the bulk of transactions automatically:
 
@@ -183,7 +183,7 @@ Run this weekly against your bank export:
 python categorize.py bank_export.csv > categorized_expenses.csv
 ```
 
-## Handling Mixed Expenses
+Handling Mixed Expenses
 
 Some purchases benefit both business and personal use. The IRS allows proportional deductions in many cases. Track these explicitly:
 
@@ -197,7 +197,7 @@ Some purchases benefit both business and personal use. The IRS allows proportion
 For vehicle expenses, maintain a mileage log:
 
 ```python
-# mileage_tracker.py
+mileage_tracker.py
 TRIPS = [
     {"date": "2026-03-12", "miles": 45, "purpose": "client_meeting"},
     {"date": "2026-03-14", "miles": 12, "purpose": "personal"},
@@ -212,19 +212,19 @@ def calculate_deduction():
 print(f"Business mileage deduction: ${calculate_deduction():.2f}")
 ```
 
-## Monthly Review System
+Monthly Review System
 
 Set up a recurring calendar block for financial review. A 30-minute monthly session keeps everything manageable:
 
-1. **Export transactions** from your bank and credit cards
-2. **Run categorization script** against new transactions
-3. **Review uncategorized items** and add rules
-4. **Transfer "salary"** to personal account
-5. **Verify tax buffer** is at 25-30% of quarter income
+1. Export transactions from your bank and credit cards
+2. Run categorization script against new transactions
+3. Review uncategorized items and add rules
+4. Transfer "salary" to personal account
+5. Verify tax buffer is at 25-30% of quarter income
 
 This rhythm prevents end-of-year panic and keeps your books always ready for quarterly tax estimates.
 
-## Quarterly Tax Estimation Script
+Quarterly Tax Estimation Script
 
 Freelancers in the US pay estimated taxes quarterly. Automate the calculation:
 
@@ -264,7 +264,7 @@ print(f"Estimated payment: ${est['total_quarterly_payment']:,.2f}")
 
 Run this before IRS deadlines (April 15, June 15, September 15, January 15).
 
-## Tools Comparison
+Tools Comparison
 
 | Tool | Type | Cost | Best For |
 |------|------|------|----------|
@@ -274,34 +274,34 @@ Run this before IRS deadlines (April 15, June 15, September 15, January 15).
 | FreshBooks | SaaS | $17+/month | Invoicing-heavy businesses |
 | QuickBooks | SaaS | $15/month | Tax categorization |
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to separate business and personal finances?**
+How long does it take to separate business and personal finances?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [First 90 Days as a Freelance Developer: A Complete Guide](/first-90-days-as-freelance-developer-guide/)
 - [Best Business Bank Accounts for Freelancers 2026](/best-business-bank-accounts-for-freelancers-2026/)
 - [How to Incorporate as a Freelance Developer](/how-to-incorporate-as-a-freelance-developer/)
 - [How to Build a Location Independent Business](/how-to-build-a-location-independent-business/)
 - [How to Set Freelance Developer Rates in 2026](/how-to-set-freelance-developer-rates-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

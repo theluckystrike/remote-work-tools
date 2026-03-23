@@ -15,21 +15,21 @@ tags: [remote-work-tools, artificial-intelligence]
 
 {% raw %}
 
-Manual meeting notes have two problems: whoever takes them misses part of the conversation, and notes rarely get distributed to people who weren't there. AI meeting note tools solve both by recording, transcribing, and summarizing automatically — then posting the summary to Slack or Notion before the meeting window closes.
+Manual meeting notes have two problems: whoever takes them misses part of the conversation, and notes rarely get distributed to people who weren't there. AI meeting note tools solve both by recording, transcribing, and summarizing automatically. then posting the summary to Slack or Notion before the meeting window closes.
 
 This guide compares the major AI meeting note tools in 2026 and shows how to wire them into a distribution workflow.
 
-## Tool Comparison
+Tool Comparison
 
-### Fathom
+Fathom
 
-Fathom records, transcribes, and summarizes Zoom, Google Meet, and Teams calls. The free tier is surprisingly generous — unlimited recordings for Zoom.
+Fathom records, transcribes, and summarizes Zoom, Google Meet, and Teams calls. The free tier is surprisingly generous. unlimited recordings for Zoom.
 
-**Best for:** Individual contributors and small teams who want free, unlimited recording on Zoom.
+Best for: Individual contributors and small teams who want free, unlimited recording on Zoom.
 
-**Pricing:** Free (unlimited Zoom recordings). $15/month for Fathom Team Edition (Slack + CRM integrations).
+Pricing: Free (unlimited Zoom recordings). $15/month for Fathom Team Edition (Slack + CRM integrations).
 
-**Setup:**
+Setup:
 1. Install the Fathom Chrome extension or desktop app
 2. Connect your Zoom account at `fathom.video`
 3. Enable auto-join: Fathom joins as a bot and records automatically
@@ -40,19 +40,19 @@ Fathom generates a structured summary with:
 - Key moments (linked to transcript timestamps)
 - Full transcript with speaker labels
 
-### Fireflies.ai
+Fireflies.ai
 
 Fireflies is a meeting bot that joins your calls and works across Zoom, Meet, Teams, and Webex. It stores everything in a searchable database.
 
-**Best for:** Teams that want a central searchable repository of all meeting content and CRM sync.
+Best for: Teams that want a central searchable repository of all meeting content and CRM sync.
 
-**Pricing:** Free (800 min/seat). $18/seat/month for Pro (unlimited). $29/seat/month for Business (CRM integrations).
+Pricing: Free (800 min/seat). $18/seat/month for Pro (unlimited). $29/seat/month for Business (CRM integrations).
 
-**Setup via API:**
+Setup via API:
 
 ```bash
-# Fireflies API — push a meeting summary to Slack via webhook after recording
-# (Requires Business or Team plan with API access)
+Fireflies API. push a meeting summary to Slack via webhook after recording
+(Requires Business or Team plan with API access)
 
 curl -X POST https://api.fireflies.ai/graphql \
   -H "Content-Type: application/json" \
@@ -63,28 +63,28 @@ curl -X POST https://api.fireflies.ai/graphql \
 ```
 
 Key features:
-- `AskFred` — query your meeting database in natural language
+- `AskFred`. query your meeting database in natural language
 - CRM sync: auto-fill HubSpot/Salesforce from meeting notes
 - Topic tracking: flag mentions of competitors, pricing, blockers across all calls
 
-### Otter.ai
+Otter.ai
 
 Otter is the transcription-first tool. It focuses on accurate transcripts with real-time captions during the meeting.
 
-**Best for:** Accessibility-focused teams and anyone who needs verbatim transcripts for legal, compliance, or research.
+Best for: Accessibility-focused teams and anyone who needs verbatim transcripts for legal, compliance, or research.
 
-**Pricing:** Free (300 min/month). $10/user/month for Pro. $20/user/month for Business.
+Pricing: Free (300 min/month). $10/user/month for Pro. $20/user/month for Business.
 
-**Setup:**
+Setup:
 1. Create account at `otter.ai`
 2. Connect Google or Microsoft calendar
 3. Otter joins meetings automatically when calendar events have video links
 
-**Otter API for automation:**
+Otter API for automation:
 
 ```python
 #!/usr/bin/env python3
-# Pull latest Otter transcript and post summary to Slack
+Pull latest Otter transcript and post summary to Slack
 
 import requests
 import json
@@ -134,32 +134,32 @@ if transcript:
     post_to_slack(transcript)
 ```
 
-### Grain
+Grain
 
 Grain focuses on video highlights and is popular with sales teams and customer success. It clips important moments from calls and turns them into shareable videos.
 
-**Best for:** Customer-facing teams who want to share call clips with stakeholders or create highlight reels from discovery calls.
+Best for: Customer-facing teams who want to share call clips with stakeholders or create highlight reels from discovery calls.
 
-**Pricing:** Free (basic). $15/month Starter. $33/month Business.
+Pricing: Free (basic). $15/month Starter. $33/month Business.
 
-## Setting Up Auto-Distribution to Slack
+Setting Up Auto-Distribution to Slack
 
 All four tools have Slack integrations. The goal: meeting notes appear in a dedicated Slack channel within 15 minutes of the call ending, without anyone manually doing anything.
 
-### Fathom → Slack
+Fathom → Slack
 
 1. Open Fathom dashboard → Integrations → Slack
 2. Connect workspace, select channel (e.g., `#meeting-notes`)
 3. Choose what to share: Summary, Action Items, Full Transcript link
-4. Done — Fathom posts automatically after each recorded call
+4. Done. Fathom posts automatically after each recorded call
 
-### Fireflies → Slack
+Fireflies → Slack
 
 1. Fireflies dashboard → Integrations → Slack
 2. Select channel and notification settings
 3. Configure: send after each call, include summary + action items
 
-### Make.com Automation (Any Tool)
+Make.com Automation (Any Tool)
 
 For more control, use Make.com (formerly Integromat) to customize the workflow:
 
@@ -191,12 +191,12 @@ The webhook payload from Fireflies looks like:
 }
 ```
 
-## Posting Notes to Notion Automatically
+Posting Notes to Notion Automatically
 
 ```python
 #!/usr/bin/env python3
-# Create a Notion page from a meeting summary
-# Triggered by webhook or scheduled script
+Create a Notion page from a meeting summary
+Triggered by webhook or scheduled script
 
 import requests
 from datetime import datetime
@@ -249,46 +249,46 @@ def create_meeting_page(title, summary, action_items, date):
     return resp.json()
 ```
 
-## Best Practices for Remote Teams
+Best Practices for Remote Teams
 
-**Name your meetings clearly.** AI tools use the calendar event title in the summary. "Weekly Sync" is useless; "API v2 Architecture Decision" is searchable.
+Name your meetings clearly. AI tools use the calendar event title in the summary. "Weekly Sync" is useless; "API v2 Architecture Decision" is searchable.
 
-**Announce the bot.** Add a line to your meeting norms doc: all scheduled calls are recorded by [Tool]. People should know. Most tools show a visible recording indicator.
+Announce the bot. Add a line to your meeting norms doc: all scheduled calls are recorded by [Tool]. People should know. Most tools show a visible recording indicator.
 
-**Create a dedicated Slack channel.** `#meeting-notes` or `#meeting-recordings` gives people a single place to catch up on calls they missed without scrolling through project channels.
+Create a dedicated Slack channel. `#meeting-notes` or `#meeting-recordings` gives people a single place to catch up on calls they missed without scrolling through project channels.
 
-**Review action items the same day.** AI-extracted action items are usually 85–90% accurate. Someone still needs to check them and create actual tasks in your project tracker.
+Review action items the same day. AI-extracted action items are usually 85–90% accurate. Someone still needs to check them and create actual tasks in your project tracker.
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [How to Use AI Tools to Generate Remote Team Meeting](/how-to-use-ai-tool-to-generate-remote-team-meeting-agendas-f/)
 - [Best Tool for Tracking Remote Team Meeting Effectiveness](/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
 - [Best Practice for Remote Team Meeting Structure That Scales](/best-practice-for-remote-team-meeting-structure-that-scales-/)
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 - [Remote 1 on 1 Meeting Tool Comparison for Distributed](/remote-1-on-1-meeting-tool-comparison-for-distributed-manage/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

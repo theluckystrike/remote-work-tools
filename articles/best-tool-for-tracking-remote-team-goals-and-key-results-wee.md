@@ -18,7 +18,7 @@ tags: [remote-work-tools, best-of, remote-work]
 
 Tracking goals and Key Results weekly across distributed teams requires tools that balance visibility with low overhead. The best solution depends on your team's existing workflow, technical sophistication, and whether you need deep integration with your development pipeline.
 
-## What Makes a Good Weekly Goal Tracker for Remote Teams
+What Makes a Good Weekly Goal Tracker for Remote Teams
 
 For remote engineering teams, weekly goal tracking differs from quarterly OKR management. You need something that captures:
 
@@ -29,7 +29,7 @@ For remote engineering teams, weekly goal tracking differs from quarterly OKR ma
 
 The tool should require minimal friction. If updating goals takes more than two minutes, adoption drops. Look for keyboard-first interfaces, API access for automation, and async-first design that doesn't assume everyone is online simultaneously.
 
-## Linear: Cycles and Issues Combined
+Linear: Cycles and Issues Combined
 
 Linear combines issue tracking with cycle-based planning, making it strong for teams already using it for project management. Each cycle (typically two weeks) functions as a goal container, and you can create issues specifically for objectives.
 
@@ -74,7 +74,7 @@ query GetCycleProgress($cycleId: String!) {
 
 The limitation: Linear is primarily an issue tracker. True OKR functionality requires workarounds or third-party integrations.
 
-## Notion: Flexible Database Architecture
+Notion: Flexible Database Architecture
 
 Notion's database system provides unmatched flexibility for building custom weekly goal trackers. You can create databases for objectives, key results, and weekly check-ins, then link them together.
 
@@ -82,23 +82,23 @@ For a weekly goal tracker, create three interconnected databases:
 
 ```
 Objectives Database
-├── Title: Increase customer retention
-├── Quarter: Q1 2026
-├── Owner: @sarah
-└── Key Results: [linked KR database]
+ Title: Increase customer retention
+ Quarter: Q1 2026
+ Owner: @sarah
+ Key Results: [linked KR database]
 
 Key Results Database
-├── Title: Reduce churn to under 5%
-├── Target: 5
-├── Current: 7.2
-├── Progress: 61%
-└── Weekly Updates: [linked update database]
+ Title: Reduce churn to under 5%
+ Target: 5
+ Current: 7.2
+ Progress: 61%
+ Weekly Updates: [linked update database]
 
 Weekly Updates Database
-├── Week: Jan 13-17
-├── This Week: Deployed retention email sequence
-├── Next Week: A/B test pricing page
-└── Blockers: None
+ Week: Jan 13-17
+ This Week: Deployed retention email sequence
+ Next Week: A/B test pricing page
+ Blockers: None
 ```
 
 Notion's API allows programmatic updates. This script updates a key result's current value:
@@ -124,7 +124,7 @@ async function updateKeyResult(krPageId, newValue) {
 
 Notion works well when you need custom workflows, but the lack of native OKR templates means building everything from scratch.
 
-## GitHub Projects: For Code-First Teams
+GitHub Projects: For Code-First Teams
 
 If your team lives in GitHub, Projects combined with Issues provides a lightweight goal tracking system. You can use milestones for time-bound objectives and labels for categorization.
 
@@ -139,7 +139,7 @@ gh issue create --title "Q1 Objective: API Performance" \
 Track key results as issues within the milestone with checkboxes:
 
 ```markdown
-## Key Results
+Key Results
 
 - [x] KR1: Reduce p95 response time < 200ms
 - [ ] KR2: Add Redis caching layer
@@ -183,7 +183,7 @@ jobs:
 
 This approach works for teams that prefer keeping everything in GitHub, though it's less structured for high-level OKR visibility.
 
-## Lattice: Dedicated OKR and Goals
+Lattice: Dedicated OKR and Goals
 
 Lattice specializes in goals and performance management, offering native OKR functionality, 360-degree feedback, and engagement surveys. The weekly check-in feature aligns with your requirement for regular goal updates.
 
@@ -219,7 +219,7 @@ def create_weekly_check_in(user_id, token, check_in_data):
 
 Lattice requires paid plans for advanced features, and the integration ecosystem isn't as developer-friendly as Linear or GitHub.
 
-## Making Your Choice
+Making Your Choice
 
 Consider these factors when selecting a weekly goal tracking tool:
 
@@ -231,31 +231,31 @@ Integration needs: Consider what other systems must feed into your goal tracking
 
 Update frequency: Some tools excel at daily updates, others at weekly or quarterly cadences. Match the tool's rhythm to your team's actual meeting schedule.
 
-## Implementation Pattern for Weekly Check-Ins
+Implementation Pattern for Weekly Check-Ins
 
 Regardless of tool, structure weekly check-ins consistently:
 
 ```
-## Week of [Date]
+Week of [Date]
 
-### This Week's Focus
+This Week's Focus
 - [Specific deliverable]: [Status - Done/In Progress/Blocked]
 - [Specific deliverable]: [Status]
 
-### Aligned with Quarterly Goals
+Aligned with Quarterly Goals
 - Objective: [Name] → Key Result: [Progress %]
 
-### Next Week
+Next Week
 - Priority 1: [Description]
 - Priority 2: [Description]
 
-### Blockers
+Blockers
 - [None / Blocker description with owner]
 ```
 
 This template works across tools and provides consistency even when switching platforms.
 
-## Building a Custom Solution
+Building a Custom Solution
 
 For teams with specific requirements, building a lightweight goal tracker using existing APIs offers maximum control. Combine a simple database (PostgreSQL, Airtable) with a Slack or Discord bot for updates.
 
@@ -277,34 +277,34 @@ def weekly_update(ack, respond, command):
 
 The best tool for tracking remote team goals weekly is the one your team actually uses consistently. Start with low friction, iterate based on what information actually helps coordination, and invest in deeper tooling only when the basics prove insufficient.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Example Linear API query for OKR progress](/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
 - [Remote Team OKR and Goal Tracking 2026](/remote-team-okr-goal-tracking-2026/)
 - [Best Project Management CLI Tools 2026](/best-project-management-cli-tools-2026/)
 - [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
 - [Best Tools for Remote Team OKR Tracking in 2026](/best-tools-for-remote-team-okr-tracking-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

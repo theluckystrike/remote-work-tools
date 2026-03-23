@@ -19,7 +19,7 @@ tags: [remote-work-tools]
 
 Managing multiple clients as a solo freelancer requires structure. Without a proper system, you juggle deadlines in your head, lose track of conversations, and miss billable hours. Notion provides a flexible foundation for building a client management system that scales with your workload. This guide walks through a practical setup designed specifically for developers and power users handling around 5 concurrent clients.
 
-## Table of Contents
+Table of Contents
 
 - [Database Architecture](#database-architecture)
 - [Views That Actually Help](#views-that-actually-help)
@@ -39,61 +39,61 @@ Managing multiple clients as a solo freelancer requires structure. Without a pro
 
 The core principle is simple: separate client data from project data, link them together, and create views that show you what needs attention now.
 
-## Database Architecture
+Database Architecture
 
 A well-designed Notion setup relies on three interconnected databases: Clients, Projects, and Tasks. Each serves a distinct purpose and connects through relations.
 
-### Clients Database
+Clients Database
 
 Create a database called "Clients" with these properties:
 
-- **Name** (title): Client company or individual name
-- **Status** (select): Active, Paused, Completed, Prospect
-- **Hourly Rate** (number): Your rate for this client in USD
-- **Invoice Email** (email): Where invoices get sent
-- **Communication Channel** (select): Slack, Email, Notion, Weekly Calls
-- **Next Review Date** (date): When you'll evaluate the relationship
-- **Notes** (text): Any context that doesn't fit elsewhere
+- Name (title): Client company or individual name
+- Status (select): Active, Paused, Completed, Prospect
+- Hourly Rate (number): Your rate for this client in USD
+- Invoice Email (email): Where invoices get sent
+- Communication Channel (select): Slack, Email, Notion, Weekly Calls
+- Next Review Date (date): When you'll evaluate the relationship
+- Notes (text): Any context that doesn't fit elsewhere
 
 This database holds everything about the client relationship itself, not the day-to-day work.
 
-### Projects Database
+Projects Database
 
 Each client typically has multiple projects. Create a "Projects" database with:
 
-- **Name** (title): Project name
-- **Client** (relation): Link to Clients database
-- **Status** (select): Discovery, In Progress, Review, Completed, On Hold
-- **Start Date** (date): When work began
-- **Deadline** (date): Current target completion
-- **Budget Type** (select): Hourly, Fixed, Retainer
-- **Budget Hours** (number): Total hours allocated (if applicable)
-- **Hours Logged** (formula): Rollup from Tasks database
-- **Project Manager** (person): You, obviously
+- Name (title): Project name
+- Client (relation): Link to Clients database
+- Status (select): Discovery, In Progress, Review, Completed, On Hold
+- Start Date (date): When work began
+- Deadline (date): Current target completion
+- Budget Type (select): Hourly, Fixed, Retainer
+- Budget Hours (number): Total hours allocated (if applicable)
+- Hours Logged (formula): Rollup from Tasks database
+- Project Manager (person): You, obviously
 
 The formula for hours logged uses a rollup that sums hours from related tasks.
 
-### Tasks Database
+Tasks Database
 
 Your granular work items live here:
 
-- **Name** (title): Task description
-- **Project** (relation): Link to Projects database
-- **Status** (select): To Do, In Progress, Done, Blocked
-- **Priority** (select): Low, Medium, High, Urgent
-- **Due Date** (date): When this needs completion
-- **Estimated Hours** (number): Time you expect this to take
-- **Actual Hours** (number): Time actually spent
-- **Billable** (checkbox): Whether this counts toward invoicing
-- **Sprint/Week** (select): Which billing period this belongs to
+- Name (title): Task description
+- Project (relation): Link to Projects database
+- Status (select): To Do, In Progress, Done, Blocked
+- Priority (select): Low, Medium, High, Urgent
+- Due Date (date): When this needs completion
+- Estimated Hours (number): Time you expect this to take
+- Actual Hours (number): Time actually spent
+- Billable (checkbox): Whether this counts toward invoicing
+- Sprint/Week (select): Which billing period this belongs to
 
 This structure lets you track time at the task level and roll it up for invoicing.
 
-## Views That Actually Help
+Views That Actually Help
 
 Databases are useless without views that surface the right information. Build views based on when you need the data.
 
-### The Daily Review View
+The Daily Review View
 
 Create a filtered view of Tasks showing items due within the next 3 days or marked urgent. Sort by priority, then by due date. This becomes your daily checklist. Open Notion each morning and you see exactly what needs attention.
 
@@ -103,19 +103,19 @@ Filter: Due Date is within next 3 days
 Sort: Priority (descending), Due Date (ascending)
 ```
 
-### The Weekly Billing View
+The Weekly Billing View
 
 Filter Tasks by Status = Done, Billable = checked, and a date range matching your billing period. Group by Project to see hours per client. Export this to calculate invoices.
 
-### The Client Overview Dashboard
+The Client Overview Dashboard
 
 Create a separate page that uses a linked view of Clients. For each client, show their active projects and upcoming deadlines. This gives you a 30-second status check for every client.
 
-## Templates for Consistency
+Templates for Consistency
 
 Templates reduce repeated setup work. Create template pages for common project types.
 
-### New Client Setup Template
+New Client Setup Template
 
 When starting work with a new client, create a page from this template containing:
 
@@ -125,7 +125,7 @@ When starting work with a new client, create a page from this template containin
 - Communication preferences checklist
 - First invoice template
 
-### Weekly Status Update Template
+Weekly Status Update Template
 
 For recurring clients, maintain a weekly update template:
 
@@ -136,17 +136,17 @@ For recurring clients, maintain a weekly update template:
 
 Copy this template every Monday and fill it in. Share the page link with clients who want regular updates.
 
-## Advanced: API Integration for Developers
+Advanced: API Integration for Developers
 
 If you want to push data into Notion programmatically, the Notion API opens powerful possibilities. Connect your time tracking or git commits to Notion automatically.
 
-### Logging Time from the Command Line
+Logging Time from the Command Line
 
 Create a simple bash function to log time directly:
 
 ```bash
 #!/bin/bash
-# Usage: log-time "Task name" 2.5
+Usage: log-time "Task name" 2.5
 
 TASK_NAME="$1"
 HOURS="$2"
@@ -157,7 +157,7 @@ notionapi task log "$TASK_NAME" --hours "$HOURS" --date "$DATE"
 
 This requires the Notion API client, but the principle is sound: log time where you work, not in a separate app.
 
-### Syncing Git Commits to Notion
+Syncing Git Commits to Notion
 
 Use GitHub Actions to create task entries from commit messages:
 
@@ -187,7 +187,7 @@ jobs:
 
 This approach works for tracking completed work, though you may want to filter for meaningful commit messages to avoid cluttering your task database.
 
-## Maintenance and Evolution
+Maintenance and Evolution
 
 Your Notion system requires periodic maintenance. Schedule monthly reviews:
 
@@ -200,12 +200,12 @@ The system should serve your workflow, not constrain it. If a view feels unneces
 
 Start with the three-database structure, add your five clients, and build views as you need them. This foundation scales beyond five clients when your business grows.
 
-## Automating Invoicing from Notion
+Automating Invoicing from Notion
 
 Connect your billable hours to automated invoicing:
 
 ```python
-# Generate invoices from Notion data
+Generate invoices from Notion data
 from notion_client import Client
 from datetime import datetime, timedelta
 
@@ -259,7 +259,7 @@ def generate_invoice(client_id, billing_period_start, billing_period_end):
 
 Export this data to a PDF invoice template (use tools like WeasyPrint or send to Stripe Invoicing).
 
-## Client Profitability Analysis
+Client Profitability Analysis
 
 Track which clients are actually profitable:
 
@@ -293,67 +293,67 @@ function analyzeClientProfitability(clientId, allTasks) {
 
 If a client's effective hourly rate drops below your minimum (after accounting for non-billable time), it's time to either raise rates or end the relationship.
 
-## Client Communication Workflow
+Client Communication Workflow
 
 Use Notion as your communication hub:
 
-**For clients with email preference:**
+For clients with email preference:
 - Weekly status update template in Notion
 - Copy-paste into email client
 - Attach same link in email signature
 
-**For clients with Slack preference:**
+For clients with Slack preference:
 - Format Notion weekly update as Slack message
 - Copy to Slack #general or DM
 - Link back to Notion for full context
 
-**For clients with Notion workspace:**
+For clients with Notion workspace:
 - Share the project page directly
 - Add comments for updates
 - Clients see real-time progress
 
 ```markdown
-# Weekly Update - [Client Name] - Week of [Date]
+Weekly Update - [Client Name] - Week of [Date]
 
-## What Was Completed
+What Was Completed
 - [ ] Task 1: [description] (4.5 hours)
 - [ ] Task 2: [description] (2 hours)
 
-## What's Planned for Next Week
+What's Planned for Next Week
 - [ ] Task 3: [description] (6 hours estimated)
 - [ ] Task 4: [description] (2 hours estimated)
 
-## Blockers or Questions
-None this week — we're on track.
+Blockers or Questions
+None this week. we're on track.
 
-## Billable Hours This Week
+Billable Hours This Week
 - Total: 6.5 hours
 - Rate: $[rate]/hour
 - Amount: $[total]
 
-## Next Steps
+Next Steps
 - Waiting on your feedback on designs (due by Friday)
 - I'll implement next week after receiving feedback
 ```
 
 Copy this template every Monday and fill in details from your Tasks database.
 
-## Scaling Beyond 5 Clients
+Scaling Beyond 5 Clients
 
 When approaching 10 clients, introduce these changes:
 
-**Add a "Pipeline" database:**
+Add a "Pipeline" database:
 Track prospective clients, quotes in progress, and follow-up status.
 
-**Add a "Contracts" database:**
+Add a "Contracts" database:
 Store contract documents, rates, terms, and renewal dates.
 Link each Client to their Contract(s).
 
-**Add a "Payments" database:**
+Add a "Payments" database:
 Track when invoices were sent and when payments arrived.
 This catches late payments and helps cash flow planning.
 
-**Automate metrics:**
+Automate metrics:
 ```
 SELECT AVG(actualHours) as avgTaskHours,
 MAX(completedTasks) as projectsCompleted,
@@ -363,7 +363,7 @@ FROM tasks WHERE monthCompleted = current_month
 
 Use Notion's Rollup property to calculate these automatically.
 
-## Sample Client Rates by Specialty (2026)
+Sample Client Rates by Specialty (2026)
 
 Use these benchmarks when setting client rates:
 
@@ -380,34 +380,34 @@ Regional variation: Add 20-40% for San Francisco/NYC, subtract 20-30% for lower 
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to solo freelancer managing 5 clients?**
+How long does it take to solo freelancer managing 5 clients?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Best CRM for Solo Consultant Managing 30 Active Clients](/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
 - [Notion Database Templates for a Solo Recruiter Working Remot](/notion-database-templates-for-a-solo-recruiter-working-remot/)
 - [Project Management for a Solo Developer with 8 Client](/project-management-for-a-solo-developer-with-8-client-projec/)
 - [How to Set Up Shared Notion Workspace with Remote Agency](/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
 - [How to Manage Multiple Freelance Clients Effectively](/how-to-manage-multiple-freelance-clients-effectively/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

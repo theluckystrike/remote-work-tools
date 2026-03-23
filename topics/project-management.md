@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Project Management Tools — Asana, Linear, Trello, ClickUp"
+title: "Remote Project Management Tools. Asana, Linear, Trello, ClickUp"
 description: "Guides and comparisons for remote project management: Asana, Linear, Trello, ClickUp, and workflow tools."
 permalink: /topics/project-management/
 ---

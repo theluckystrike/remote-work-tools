@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home Office Setup — Desks, Monitors, Ergonomics, and Equipment"
+title: "Home Office Setup. Desks, Monitors, Ergonomics, and Equipment"
 description: "Guides for building a productive home office: monitors, desks, chairs, lighting, audio, and ergonomics."
 permalink: /topics/home-office/
 ---

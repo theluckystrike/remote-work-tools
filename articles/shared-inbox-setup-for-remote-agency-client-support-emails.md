@@ -21,7 +21,7 @@ Configure a shared inbox for client support by using a platform like Front or Gm
 
 This guide covers practical approaches to setting up shared inboxes specifically for remote agencies handling client support. You'll find configuration examples, automation patterns, and decision criteria for choosing the right setup for your team.
 
-## The Problem with Basic Shared Email
+The Problem with Basic Shared Email
 
 Traditional shared email accounts create several issues for remote teams:
 
@@ -32,16 +32,16 @@ Traditional shared email accounts create several issues for remote teams:
 
 A proper shared inbox solution addresses these by providing ticket ownership, audit trails, and workflow automation.
 
-## Option 1: Google Groups with Shared Labels
+Option 1: Google Groups with Shared Labels
 
 The simplest approach uses Google Groups with label-based routing. This works well for teams already in the Google Workspace ecosystem.
 
-### Initial Configuration
+Initial Configuration
 
 Create a Google Group for your support inbox:
 
 ```bash
-# Using Google Admin SDK (gcloud CLI)
+Using Google Admin SDK (gcloud CLI)
 gcloud alpha groups create support@youragency.com \
   --domain=youragency.com \
   --display-name="Client Support" \
@@ -50,30 +50,30 @@ gcloud alpha groups create support@youragency.com \
 
 Add team members and set up email routing. In Google Admin, configure the group to accept emails from external senders and forward them to all members or use the "Who can post" settings to restrict to members only.
 
-### Label-Based Workflow
+Label-Based Workflow
 
 Create labels for different client categories or ticket stages:
 
 ```
-├── Client Support (root)
-│   ├── New
-│   ├── In Progress
-│   ├── Waiting on Client
-│   └── Escalated
+ Client Support (root)
+    New
+    In Progress
+    Waiting on Client
+    Escalated
 ```
 
 Team members manually apply labels as they work tickets. This requires discipline but needs no additional tooling.
 
-## Option 2: IMAP + Custom Scripting
+Option 2: IMAP + Custom Scripting
 
 For teams wanting more control, set up a dedicated mail server with IMAP access and build custom automation. This approach gives you full data ownership and unlimited customization.
 
-### Postfix + Dovecot Setup
+Postfix + Dovecot Setup
 
 A basic Postfix configuration for a shared inbox:
 
 ```nginx
-# /etc/postfix/main.cf
+/etc/postfix/main.cf
 virtual_alias_domains = youragency.com
 virtual_alias_maps = hash:/etc/postfix/virtual
 virtual_mailbox_domains = hash:/etc/postfix/vmail_domains
@@ -82,25 +82,25 @@ virtual_mailbox_base = /var/mail/vhosts
 ```
 
 ```bash
-# /etc/postfix/virtual
+/etc/postfix/virtual
 support@youragency.com support@youragency.com
 @youragency.com support@youragency.com
 ```
 
 ```bash
-# /etc/postfix/vmail_users
+/etc/postfix/vmail_users
 support@youragency.com:{PLAIN}hash_password_here:1000:1000::/var/mail/vhosts/youragency.com/support
 ```
 
 Dovecot handles IMAP access:
 
 ```nginx
-# /etc/dovecot/conf.d/10-mail.conf
+/etc/dovecot/conf.d/10-mail.conf
 mail_location = maildir:~/Maildir
 mail_privileged_group = mail
 ```
 
-### Ticket Extraction Script
+Ticket Extraction Script
 
 Extract emails into a ticket system using a Python script:
 
@@ -162,11 +162,11 @@ if __name__ == '__main__':
         print(f"{ticket['id']}: {ticket['subject']}")
 ```
 
-## Option 3: Dedicated Support Platform Integration
+Option 3: Dedicated Support Platform Integration
 
 For agencies handling significant support volume, integrating with platforms like HelpScout, Front, or Zendesk provides built-in workflows.
 
-### HelpScout API Example
+HelpScout API Example
 
 ```javascript
 // Node.js script to sync tickets to HelpScout
@@ -207,7 +207,7 @@ async function assignToAgent(conversationId, agentId) {
 }
 ```
 
-### Setting Up Round-Robin Assignment
+Setting Up Round-Robin Assignment
 
 Distribute new tickets evenly across your team:
 
@@ -233,11 +233,11 @@ async function processNewTicket(email) {
 }
 ```
 
-## Automation Patterns That Work
+Automation Patterns That Work
 
 Regardless of which option you choose, several automation patterns improve remote team efficiency:
 
-### Auto-Response Templates
+Auto-Response Templates
 
 Create templates for common scenarios:
 
@@ -256,12 +256,12 @@ Best regards,
 {{agent.name}}
 ```
 
-### SLA Monitoring
+SLA Monitoring
 
 Track response times with a simple dashboard:
 
 ```python
-# SLA tracking script
+SLA tracking script
 from datetime import datetime, timedelta
 
 SLA_HOURS = {
@@ -282,7 +282,7 @@ def check_sla(ticket):
     return {'status': 'ok', 'remaining': round(remaining, 1)}
 ```
 
-## Choosing the Right Setup
+Choosing the Right Setup
 
 Consider these factors when selecting your approach:
 
@@ -298,34 +298,34 @@ For most remote agencies, starting with Google Groups and upgrading to a dedicat
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to remote agency client support emails?**
+How long does it take to remote agency client support emails?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Best Shared Inbox Tools for Remote Support Teams](/best-shared-inbox-tools-for-remote-support-teams/)
 - [Shared Inbox Tool for a 4 Person Remote Customer Success](/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
 - [Best Two-Factor Authentication Setup for Remote Team Shared](/best-two-factor-authentication-setup-for-remote-team-shared-/)
 - [How to Set Up Shared Notion Workspace with Remote Agency](/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

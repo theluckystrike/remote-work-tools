@@ -16,11 +16,11 @@ intent-checked: true
 
 {% raw %}
 
-## Why Incident Communication Tools Matter
+Why Incident Communication Tools Matter
 
-During production incidents, unclear communication costs money—every minute without status updates triggers support ticket surges, customer churn, and executive anxiety. Remote teams lack hallway conversations to share context, so incidents either spiral into chaos or take 5x longer to resolve. Proper tools establish war rooms, notify stakeholders, and maintain incident timeline clarity.
+During production incidents, unclear communication costs money, every minute without status updates triggers support ticket surges, customer churn, and executive anxiety. Remote teams lack hallway conversations to share context, so incidents either spiral into chaos or take 5x longer to resolve. Proper tools establish war rooms, notify stakeholders, and maintain incident timeline clarity.
 
-## Quick Comparison Table
+Quick Comparison Table
 
 | Tool | War Room Support | Public Status Page | Timeline Recording | Pricing | Best For |
 |------|-----------------|------------------|-------------------|---------|----------|
@@ -30,18 +30,18 @@ During production incidents, unclear communication costs money—every minute wi
 | FireHydrant | Excellent | Yes | Excellent | $20/user/mo | High-frequency incidents |
 | xMatters | Good | Via integration | Good | Custom | Enterprise only |
 
-## PagerDuty: Enterprise Standard
+PagerDuty: Enterprise Standard
 
 PagerDuty dominates enterprise incident management. Integrates with everything, manages escalations, coordinates war rooms.
 
-**Core Features:**
+Core Features:
 - Incident creation from any monitoring tool (DataDog, New Relic, Grafana)
 - Automatic escalation policies (Page on-call, escalate if not acknowledged)
 - War room video/chat integration (Zoom, Slack, Teams)
 - Public status page (update stakeholders)
 - Timeline recording (automated + manual events)
 
-**Incident Workflow:**
+Incident Workflow:
 ```
 1. Alert fires in Datadog
 2. PagerDuty creates incident, pages on-call engineer
@@ -52,25 +52,25 @@ PagerDuty dominates enterprise incident management. Integrates with everything, 
 7. Post-incident review with timeline
 ```
 
-**Real Cost Breakdown:**
+Real Cost Breakdown:
 - Base: $49/user/month
 - 50-person team: ~$2,450/month
 - Includes: 10 escalation policies, 100 schedules, unlimited incidents
 
-**When to Use:** Companies with 20+ on-call rotations, multiple monitoring systems, regulatory compliance needs (audit trails).
+When to Use: Companies with 20+ on-call rotations, multiple monitoring systems, regulatory compliance needs (audit trails).
 
-## Incident.io: Team-Focused Alternative
+Incident.io: Team-Focused Alternative
 
 Incident.io optimizes for actual incident experience, not just tool collection. Excellent for technical teams that care about usability.
 
-**Standout Features:**
+Standout Features:
 - Automatic timeline from Slack conversation (no manual entry)
 - War room detection (auto-invites team members)
 - Slack commands (`` `@incident declare critical` ``)
 - Incident review templates (guide postmortems)
 - Custom severity + impact definitions
 
-**Incident Workflow (Incident.io):**
+Incident Workflow (Incident.io):
 ```
 1. Critical issue discovered
 2. Engineer posts in Slack: `@incident declare critical database-migration`
@@ -80,23 +80,23 @@ Incident.io optimizes for actual incident experience, not just tool collection. 
 6. Post-incident: Run review meeting, Incident.io extracts action items
 ```
 
-**Why This Works:** Slack is already where engineers work. No tool-switching. Timeline built from existing conversation. Incident.io cost: $15-50/user/month.
+Why This Works: Slack is already where engineers work. No tool-switching. Timeline built from existing conversation. Incident.io cost: $15-50/user/month.
 
-**Limitation:** Smaller ecosystem (integrates well with common tools, but not as extensive as PagerDuty).
+Limitation: Smaller ecosystem (integrates well with common tools, but not as extensive as PagerDuty).
 
-## Opsgenie + Slack: Lightweight Alternative
+Opsgenie + Slack: Lightweight Alternative
 
 If PagerDuty is expensive and team size is under 30, Opsgenie provides 80% functionality at 20% cost.
 
-**Opsgenie Features:**
+Opsgenie Features:
 - Alert aggregation (Prometheus, CloudWatch, custom webhooks)
 - On-call schedule + escalation
 - Slack integration (create incidents from Slack)
 - Team notifications
 
-**Setup Example:**
+Setup Example:
 ```bash
-# Prometheus webhook config
+Prometheus webhook config
 alertmanager.yml:
   global:
     opsgenie_api_key: {{ opsgenie_api_key }}
@@ -110,28 +110,28 @@ alertmanager.yml:
             - type: team
               name: "SRE"
 
-# When alert fires -> Opsgenie creates incident -> Slack notification
+When alert fires -> Opsgenie creates incident -> Slack notification
 ```
 
-**Cost:** $4/user/month (significantly cheaper). Trade-off: No public status page, lighter-weight timeline.
+Cost: $4/user/month (significantly cheaper). Trade-off: No public status page, lighter-weight timeline.
 
 ---
 
-## War Room Setup Patterns
+War Room Setup Patterns
 
-### Pattern 1: Automatic War Room Channel Creation
+Pattern 1: Automatic War Room Channel Creation
 ```bash
-# With Incident.io or FireHydrant:
-# When incident marked "critical", auto-create Slack channel
+With Incident.io or FireHydrant:
+When incident marked "critical", auto-create Slack channel
 - Channel name: incidents-SEVERITY-TIMESTAMP
 - Auto-invite: on-call engineer + team lead + comms
 - Pin incident details (ID, severity, impact)
 - Bot posts status updates every 5min
 ```
 
-### Pattern 2: Status Page Updates
+Pattern 2: Status Page Updates
 ```markdown
-## Current Status: INVESTIGATING
+Current Status: INVESTIGATING
 Severity: HIGH
 Affected: API endpoints (eastus-1, eastus-2)
 Start: 2026-03-22 14:23 UTC
@@ -145,7 +145,7 @@ Timeline:
 14:35 - Status: Resolved, monitoring
 ```
 
-### Pattern 3: Automated Escalation
+Pattern 3: Automated Escalation
 ```yaml
 escalation_policy:
   - level_1:
@@ -163,9 +163,9 @@ escalation_policy:
 
 ---
 
-## Real-World Incident Communication Workflow
+Real-World Incident Communication Workflow
 
-**Step 1: Detection (0 min)**
+Step 1: Detection (0 min)
 ```
 Monitoring tool detects anomaly
 → Sends webhook to PagerDuty/Incident.io
@@ -173,7 +173,7 @@ Monitoring tool detects anomaly
 → On-call engineer paged (SMS + Slack)
 ```
 
-**Step 2: War Room Setup (1 min)**
+Step 2: War Room Setup (1 min)
 ```
 Engineer acknowledges incident
 → War room auto-created in Slack
@@ -181,7 +181,7 @@ Engineer acknowledges incident
 → Initial status posted to public status page: "Investigating"
 ```
 
-**Step 3: Investigation & Updates (2-10 min)**
+Step 3: Investigation & Updates (2-10 min)
 ```
 War room Slack conversation:
 - 14:25: "Database CPU at 98%"
@@ -190,7 +190,7 @@ War room Slack conversation:
 - 14:28: Status page updated: "Root cause identified, rolling back"
 ```
 
-**Step 4: Resolution (10-20 min)**
+Step 4: Resolution (10-20 min)
 ```
 Engineer rolls back deployment
 → Database CPU returns to normal
@@ -199,7 +199,7 @@ Engineer rolls back deployment
 → Timeline locked, review scheduled
 ```
 
-**Step 5: Post-Incident Review (Next day)**
+Step 5: Post-Incident Review (Next day)
 ```
 FireHydrant/Incident.io timeline auto-generated:
 - Incident ID: INC-2026-0847
@@ -215,7 +215,7 @@ FireHydrant/Incident.io timeline auto-generated:
 
 ---
 
-## Tool Selection Decision Matrix
+Tool Selection Decision Matrix
 
 | Scenario | Best Tool | Reason |
 |----------|-----------|--------|
@@ -227,7 +227,7 @@ FireHydrant/Incident.io timeline auto-generated:
 
 ---
 
-## Incident Communication Best Practices
+Incident Communication Best Practices
 
 | Practice | Why | How |
 |----------|-----|-----|
@@ -239,35 +239,35 @@ FireHydrant/Incident.io timeline auto-generated:
 
 ---
 
-## FAQ
+FAQ
 
-**Q: Should incident calls be video or text-only?**
+Q: Should incident calls be video or text-only?
 A: Text-first (Slack war room) with optional video for complex debugging. Text creates permanent record, easier for async context.
 
-**Q: How do we prevent incident fatigue in on-call rotations?**
+Q: How do we prevent incident fatigue in on-call rotations?
 A: Proper escalation policies (don't page everyone immediately). Incident.io/FireHydrant help by auto-detecting severity.
 
-**Q: What's the cost difference between tools at 100-person company?**
+Q: What's the cost difference between tools at 100-person company?
 A: Opsgenie (~$400/mo), Incident.io (~$5K/mo), PagerDuty (~$10K+/mo).
 
-**Q: Do we need both Slack AND a status page?**
+Q: Do we need both Slack AND a status page?
 A: Yes. Slack is for internal team coordination (faster response). Status page is for external customers (transparency).
 
-**Q: How long should incident timelines be kept?**
+Q: How long should incident timelines be kept?
 A: Indefinitely for compliance. Most tools support archive + search.
 
-**Q: Can we integrate custom monitoring tools?**
+Q: Can we integrate custom monitoring tools?
 A: Yes. All major tools support webhooks. Document webhook format and secret handling.
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Best Practices for Remote Incident Communication](/best-practices-for-remote-incident-communication/)
 - [Best Tools for Remote Team Incident Postmortems in 2026](/best-tools-for-remote-team-incident-postmortems-2026/)
 - [Best Tools for Remote Incident Management](/best-tools-for-remote-incident-management/)
 - [Remote Team Security Incident Response Plan Template](/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
 - [How to Scale Remote Team Incident Response Process](/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

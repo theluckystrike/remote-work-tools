@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tools for Remote Team Post-Mortems"
-description: "Run effective async post-mortems with distributed teams using Notion, GitHub Issues, Jeli, and structured templates — with timelines, action items, and."
+description: "Run effective async post-mortems with distributed teams using Notion, GitHub Issues, Jeli, and structured templates. with timelines, action items, and."
 date: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-post-mortem-tools/
@@ -14,41 +14,41 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-## Best Tools for Remote Team Post-Mortems
+Best Tools for Remote Team Post-Mortems
 
 A post-mortem that happens three weeks after an incident, written by one person from memory, with no action items tracked to completion, is theater. Remote teams need a structured, blame-free process that starts within 48 hours, collects input asynchronously, and produces tracked action items that close before the next incident.
 
 ---
 
-## The Anatomy of a Good Remote Post-Mortem
+The Anatomy of a Good Remote Post-Mortem
 
-1. **Timeline**: Exact timestamps, who noticed what and when, what actions were taken
-2. **Impact**: Affected users/customers, duration, severity
-3. **Root cause**: Not "human error" — the systemic conditions that made the error possible
-4. **Contributing factors**: What made detection or resolution slower
-5. **Action items**: Specific, assigned, with due dates — not "improve monitoring"
+1. Timeline: Exact timestamps, who noticed what and when, what actions were taken
+2. Impact: Affected users/customers, duration, severity
+3. Root cause: Not "human error". the systemic conditions that made the error possible
+4. Contributing factors: What made detection or resolution slower
+5. Action items: Specific, assigned, with due dates. not "improve monitoring"
 
 The process has to work across time zones. Nobody should be blocked waiting for a live meeting to add their observations.
 
 ---
 
-## Tool 1: Notion (Best for Async Input)
+Tool 1: Notion (Best for Async Input)
 
 Notion's commenting system lets distributed team members add observations to specific sections of a post-mortem doc without waiting for a meeting. Use a database with templates for consistent structure.
 
-**Post-Mortem Database Template in Notion:**
+Post-Mortem Database Template in Notion:
 
 ```markdown
-# Incident: [Brief Description] — [Date]
+Incident: [Brief Description]. [Date]
 
-**Severity**: P1 / P2 / P3
-**Duration**: [start time] → [end time] (X minutes)
-**Services affected**:
-**Customers affected**: ~N users
+Severity: P1 / P2 / P3
+Duration: [start time] → [end time] (X minutes)
+Services affected:
+Customers affected: ~N users
 
 ---
 
-## Timeline
+Timeline
 
 | Time (UTC) | Event | Actor |
 |------------|-------|-------|
@@ -60,24 +60,24 @@ Notion's commenting system lets distributed team members add observations to spe
 
 ---
 
-## What Happened
+What Happened
 
-[Narrative description — written collaboratively via comments]
+[Narrative description. written collaboratively via comments]
 
-## Root Cause
+Root Cause
 
-[The systemic reason this happened — not "someone made a mistake"]
+[The systemic reason this happened. not "someone made a mistake"]
 
-## Contributing Factors
+Contributing Factors
 
 - [What slowed detection]
 - [What slowed resolution]
 
-## What Went Well
+What Went Well
 
 - [Things that worked correctly during the incident]
 
-## Action Items
+Action Items
 
 | Item | Owner | Due | Status |
 |------|-------|-----|--------|
@@ -85,11 +85,11 @@ Notion's commenting system lets distributed team members add observations to spe
 | Write runbook for rollback procedure | @alice | 2026-04-05 | Open |
 ```
 
-**Notion API to create a post-mortem from an incident:**
+Notion API to create a post-mortem from an incident:
 
 ```python
 #!/usr/bin/env python3
-# create-postmortem.py
+create-postmortem.py
 import os
 import requests
 from datetime import datetime
@@ -133,10 +133,10 @@ def create_postmortem(title: str, severity: str, service: str):
     print(f"Post-mortem created: {data['url']}")
     return data["url"]
 
-# Triggered from your incident management tool or PagerDuty webhook
+Triggered from your incident management tool or PagerDuty webhook
 if __name__ == "__main__":
     create_postmortem(
-        title=f"Incident: Payment service 500s — {datetime.utcnow().strftime('%Y-%m-%d')}",
+        title=f"Incident: Payment service 500s. {datetime.utcnow().strftime('%Y-%m-%d')}",
         severity="P1",
         service="payments",
     )
@@ -144,18 +144,18 @@ if __name__ == "__main__":
 
 ---
 
-## Tool 2: Jeli (Purpose-Built)
+Tool 2: Jeli (Purpose-Built)
 
 Jeli imports PagerDuty/Opsgenie timelines, Slack message history, and deployment logs automatically. The distributed team adds annotations and context without building a timeline from scratch.
 
-**PagerDuty webhook to create Jeli investigation:**
+PagerDuty webhook to create Jeli investigation:
 
 ```bash
-# Configure in PagerDuty → Integrations → Webhooks
-# Endpoint: https://app.jeli.io/api/v1/incidents/pagerduty
-# Event: incident.triggered (P1/P2 only)
+Configure in PagerDuty → Integrations → Webhooks
+Endpoint: https://app.jeli.io/api/v1/incidents/pagerduty
+Event: incident.triggered (P1/P2 only)
 
-# Manually create an investigation from CLI
+Manually create an investigation from CLI
 curl -X POST https://app.jeli.io/api/v1/investigations \
   -H "Authorization: Bearer $JELI_API_TOKEN" \
   -H "Content-Type: application/json" \
@@ -171,62 +171,62 @@ Jeli automatically imports the Slack conversation from the incident channel into
 
 ---
 
-## Tool 3: GitHub Issues (Free, Integrated)
+Tool 3: GitHub Issues (Free, Integrated)
 
 For teams already living in GitHub, a structured GitHub Issue template is the lowest-friction option.
 
-**`.github/ISSUE_TEMPLATE/postmortem.md`**
+`.github/ISSUE_TEMPLATE/postmortem.md`
 
 ```markdown
 ---
 name: Post-Mortem
 about: Document an incident for learning and improvement
-title: "Post-Mortem: [Brief description] — [YYYY-MM-DD]"
+title: "Post-Mortem: [Brief description]. [YYYY-MM-DD]"
 labels: post-mortem, needs-review
 assignees: ""
 ---
 
-## Summary
+Summary
 
-**Severity**: <!-- P1/P2/P3 -->
-**Duration**: <!-- HH:MM UTC → HH:MM UTC (X minutes) -->
-**Impact**: <!-- N users affected, X% error rate -->
+Severity: <!-- P1/P2/P3 -->
+Duration: <!-- HH:MM UTC → HH:MM UTC (X minutes) -->
+Impact: <!-- N users affected, X% error rate -->
 
-## Timeline
+Timeline
 
 <!-- Use UTC timestamps -->
 | Time | Event | Actor |
 |------|-------|-------|
 | | | |
 
-## Root Cause
+Root Cause
 
-<!-- Systemic cause — not human error -->
+<!-- Systemic cause. not human error -->
 
-## Contributing Factors
-
--
-
-## What Went Well
+Contributing Factors
 
 -
 
-## Action Items
+What Went Well
+
+-
+
+Action Items
 
 <!-- Use task list format so items show in issue sidebar -->
 - [ ] @owner: Description of action item by YYYY-MM-DD
 - [ ] @owner: Description of action item by YYYY-MM-DD
 
-## Lessons Learned
+Lessons Learned
 
 <!-- What would you tell another team experiencing the same incident? -->
 ```
 
-**GitHub Actions to alert when action items are overdue:**
+GitHub Actions to alert when action items are overdue:
 
 ```python
 #!/usr/bin/env python3
-# check-pm-actions.py — run weekly, flag overdue action items
+check-pm-actions.py. run weekly, flag overdue action items
 import os
 import re
 import requests
@@ -267,23 +267,23 @@ if overdue and SLACK_HOOK:
 
 ---
 
-## Running the Async Post-Mortem Process
+Running the Async Post-Mortem Process
 
-**Hour 0**: Incident resolved. Create the post-mortem document immediately with just the title and timeline stub. Don't write conclusions yet.
+Hour 0: Incident resolved. Create the post-mortem document immediately with just the title and timeline stub. Don't write conclusions yet.
 
-**Hours 1–24**: Everyone involved adds their observations asynchronously. Use comments for additions, not edits. Keep to facts, not blame.
+Hours 1–24: Everyone involved adds their observations asynchronously. Use comments for additions, not edits. Keep to facts, not blame.
 
-**Hour 24–48**: Incident lead synthesizes the timeline into root cause analysis. Drafts action items with owners (who must be consulted, not just assigned).
+Hour 24–48: Incident lead synthesizes the timeline into root cause analysis. Drafts action items with owners (who must be consulted, not just assigned).
 
-**Hour 48**: Review comment period opens. Team has 48 hours to add corrections.
+Hour 48: Review comment period opens. Team has 48 hours to add corrections.
 
-**Hour 96**: Document marked final. Action items are filed as tickets.
+Hour 96: Document marked final. Action items are filed as tickets.
 
-**Week 4**: Action item owners report progress. Incomplete items get re-scheduled, not silently dropped.
+Week 4: Action item owners report progress. Incomplete items get re-scheduled, not silently dropped.
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Best Tools for Remote Team Changelog Review](/remote-team-changelog-review-tools/)
 - [Best Tools for Remote Team Sprint Velocity](/remote-team-sprint-velocity-tools/)
@@ -291,5 +291,5 @@ if overdue and SLACK_HOOK:
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

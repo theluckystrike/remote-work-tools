@@ -15,20 +15,20 @@ tags: [remote-work-tools, api]
 
 {% raw %}
 
-When your team is distributed across time zones, nobody wants to wake up to a midnight Slack storm about an API that went down six hours ago. This guide builds an automated API health dashboard that fires alerts the moment something degrades — not when a user reports it.
+When your team is distributed across time zones, nobody wants to wake up to a midnight Slack storm about an API that went down six hours ago. This guide builds an automated API health dashboard that fires alerts the moment something degrades. not when a user reports it.
 
-## Stack Overview
+Stack Overview
 
-- **Prometheus** — metrics scrape and storage
-- **Grafana** — dashboards and alert routing
-- **Blackbox Exporter** — HTTP/TCP synthetic probing
-- **Alertmanager** — PagerDuty and Slack routing
-- **k6** — scheduled load-based health checks
+- Prometheus. metrics scrape and storage
+- Grafana. dashboards and alert routing
+- Blackbox Exporter. HTTP/TCP synthetic probing
+- Alertmanager. PagerDuty and Slack routing
+- k6. scheduled load-based health checks
 
-## Docker Compose Setup
+Docker Compose Setup
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: '3.8'
 
 services:
@@ -81,10 +81,10 @@ volumes:
   grafana_data:
 ```
 
-## Prometheus Configuration
+Prometheus Configuration
 
 ```yaml
-# prometheus/prometheus.yml
+prometheus/prometheus.yml
 global:
   scrape_interval: 30s
   evaluation_interval: 30s
@@ -152,10 +152,10 @@ scrape_configs:
         replacement: blackbox:9115
 ```
 
-## Blackbox Modules
+Blackbox Modules
 
 ```yaml
-# blackbox/config.yml
+blackbox/config.yml
 modules:
   http_2xx:
     prober: http
@@ -191,10 +191,10 @@ modules:
       tls: true
 ```
 
-## Alert Rules
+Alert Rules
 
 ```yaml
-# prometheus/rules/api.yml
+prometheus/rules/api.yml
 groups:
   - name: api_availability
     interval: 30s
@@ -242,10 +242,10 @@ groups:
           description: "Cert expires in {{ $value | humanizeDuration }}"
 ```
 
-## Alertmanager Routing
+Alertmanager Routing
 
 ```yaml
-# alertmanager/alertmanager.yml
+alertmanager/alertmanager.yml
 global:
   slack_api_url: 'https://hooks.slack.com/services/YOUR/WEBHOOK'
   pagerduty_url: 'https://events.pagerduty.com/v2/enqueue'
@@ -303,7 +303,7 @@ inhibit_rules:
     equal: ['instance']
 ```
 
-## Grafana Dashboard JSON (Key Panels)
+Grafana Dashboard JSON (Key Panels)
 
 ```json
 {
@@ -350,10 +350,10 @@ inhibit_rules:
 }
 ```
 
-## Provision Dashboard Automatically
+Provision Dashboard Automatically
 
 ```yaml
-# grafana/provisioning/dashboards/default.yml
+grafana/provisioning/dashboards/default.yml
 apiVersion: 1
 providers:
   - name: 'API Health'
@@ -365,10 +365,10 @@ providers:
       path: /var/lib/grafana/dashboards
 ```
 
-## k6 Scheduled Health Script
+k6 Scheduled Health Script
 
 ```javascript
-// health-check.js — run via cron every 5 minutes
+// health-check.js. run via cron every 5 minutes
 import http from 'k6/http';
 import { check, sleep } from 'k6';
 
@@ -404,14 +404,14 @@ export default function () {
 ```
 
 ```bash
-# cron: */5 * * * * /usr/local/bin/k6 run \
-#   -e API_BASE_URL=https://api.example.com \
-#   -e API_TOKEN=$(cat /run/secrets/api-token) \
-#   /opt/health-checks/health-check.js \
-#   --out influxdb=http://influxdb:8086/k6 2>&1 | logger -t k6-health
+cron: */5 * * * * /usr/local/bin/k6 run \
+  -e API_BASE_URL=https://api.example.com \
+  -e API_TOKEN=$(cat /run/secrets/api-token) \
+  /opt/health-checks/health-check.js \
+  --out influxdb=http://influxdb:8086/k6 2>&1 | logger -t k6-health
 ```
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Caddy for Internal Tools](/how-to-set-up-caddy-for-internal-tools/)
 - [How to Create Automated Database Indexing Alerts](/how-to-create-automated-database-indexing-alerts/)
@@ -419,6 +419,6 @@ export default function () {
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

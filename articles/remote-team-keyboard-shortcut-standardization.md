@@ -21,14 +21,14 @@ This guide covers creating a shared shortcut standard and distributing it throug
 
 ---
 
-## Define Your Team's Shortcut Standard
+Define Your Team's Shortcut Standard
 
 Start by documenting the shortcuts your team actually uses, not aspirational ones. Survey the team and standardize around the most common choices. Here's a starter template:
 
 ```markdown
-# Team Keyboard Shortcut Standard
+Team Keyboard Shortcut Standard
 
-## Universal (All Tools)
+Universal (All Tools)
 
 | Action | Mac | Linux/Windows |
 |--------|-----|---------------|
@@ -42,7 +42,7 @@ Start by documenting the shortcuts your team actually uses, not aspirational one
 | Quick fix | Cmd+. | Ctrl+. |
 | Save all | Cmd+Option+S | Ctrl+K S |
 
-## Git Operations (VS Code / Cursor)
+Git Operations (VS Code / Cursor)
 
 | Action | Mac | Linux/Windows |
 |--------|-----|---------------|
@@ -51,7 +51,7 @@ Start by documenting the shortcuts your team actually uses, not aspirational one
 | Stage file | Cmd+Enter on file | Ctrl+Enter |
 | Discard changes | Cmd+Z in diff | Ctrl+Z |
 
-## Navigation
+Navigation
 
 | Action | Mac | Linux/Windows |
 |--------|-----|---------------|
@@ -64,7 +64,7 @@ Start by documenting the shortcuts your team actually uses, not aspirational one
 
 ---
 
-## VS Code / Cursor Settings Sync
+VS Code / Cursor Settings Sync
 
 The simplest distribution method for VS Code-based editors is Settings Sync:
 
@@ -141,7 +141,7 @@ Apply via script:
 
 ```bash
 #!/bin/bash
-# scripts/setup-vscode-shortcuts.sh
+scripts/setup-vscode-shortcuts.sh
 KEYBINDINGS_SRC="$(git rev-parse --show-toplevel)/.vscode/keybindings.json"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -157,56 +157,56 @@ echo "VS Code keybindings installed to $DEST"
 
 ---
 
-## tmux Shortcut Standard
+tmux Shortcut Standard
 
 For teams using tmux, standardize the config:
 
 ```bash
-# ~/.tmux.conf (distribute via dotfiles repo)
+~/.tmux.conf (distribute via dotfiles repo)
 
-# ========================
-# TEAM STANDARD KEYBINDINGS
-# ========================
+========================
+TEAM STANDARD KEYBINDINGS
+========================
 
-# Prefix: Ctrl+A (more ergonomic than Ctrl+B)
+Prefix: Ctrl+A (more ergonomic than Ctrl+B)
 set -g prefix C-a
 unbind C-b
 bind C-a send-prefix
 
-# Reload config
+Reload config
 bind r source-file ~/.tmux.conf \; display "Config reloaded"
 
-# Split panes (intuitive)
+Split panes (intuitive)
 bind | split-window -h -c "#{pane_current_path}"
 bind - split-window -v -c "#{pane_current_path}"
 unbind '"'
 unbind %
 
-# Navigate panes (vim-style)
+Navigate panes (vim-style)
 bind h select-pane -L
 bind j select-pane -D
 bind k select-pane -U
 bind l select-pane -R
 
-# Resize panes
+Resize panes
 bind -r H resize-pane -L 5
 bind -r J resize-pane -D 5
 bind -r K resize-pane -U 5
 bind -r L resize-pane -R 5
 
-# Switch windows
+Switch windows
 bind -n M-1 select-window -t 1
 bind -n M-2 select-window -t 2
 bind -n M-3 select-window -t 3
 bind -n M-4 select-window -t 4
 
-# New window in current path
+New window in current path
 bind c new-window -c "#{pane_current_path}"
 
-# Mouse support
+Mouse support
 set -g mouse on
 
-# Copy mode (vim-style)
+Copy mode (vim-style)
 setw -g mode-keys vi
 bind -T copy-mode-vi v send-keys -X begin-selection
 bind -T copy-mode-vi y send-keys -X copy-selection-and-cancel
@@ -214,27 +214,27 @@ bind -T copy-mode-vi y send-keys -X copy-selection-and-cancel
 
 ---
 
-## Dotfiles Repository for Team Distribution
+Dotfiles Repository for Team Distribution
 
 A dotfiles repo ensures everyone gets the same configs on setup:
 
 ```bash
-# Structure
+Structure
 dotfiles/
-├── .tmux.conf
-├── .zshrc
-├── .gitconfig
-├── vscode/
-│   ├── keybindings.json
-│   └── settings.json
-├── scripts/
-│   └── install.sh
-└── README.md
+ .tmux.conf
+ .zshrc
+ .gitconfig
+ vscode/
+    keybindings.json
+    settings.json
+ scripts/
+    install.sh
+ README.md
 ```
 
 ```bash
 #!/bin/bash
-# dotfiles/scripts/install.sh
+dotfiles/scripts/install.sh
 set -euo pipefail
 
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -251,12 +251,12 @@ link_file() {
   echo "Linked $src -> $dst"
 }
 
-# Shell configs
+Shell configs
 link_file "$DOTFILES_DIR/.tmux.conf" "$HOME/.tmux.conf"
 link_file "$DOTFILES_DIR/.zshrc" "$HOME/.zshrc"
 link_file "$DOTFILES_DIR/.gitconfig" "$HOME/.gitconfig"
 
-# VS Code
+VS Code
 if [[ "$OSTYPE" == "darwin"* ]]; then
   VSCODE_PATH="$HOME/Library/Application Support/Code/User"
 else
@@ -278,15 +278,15 @@ bash ~/.dotfiles/scripts/install.sh
 
 ---
 
-## Shell Aliases as Team Standard
+Shell Aliases as Team Standard
 
 ```bash
-# ~/.zshrc / ~/.bashrc additions (in dotfiles repo)
-# ================================================
-# TEAM STANDARD ALIASES
-# ================================================
+~/.zshrc / ~/.bashrc additions (in dotfiles repo)
+================================================
+TEAM STANDARD ALIASES
+================================================
 
-# Git
+Git
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit'
@@ -300,20 +300,20 @@ alias gco='git checkout'
 alias gb='git branch'
 alias gpr='git pull --rebase'
 
-# Docker
+Docker
 alias dc='docker compose'
 alias dcu='docker compose up -d'
 alias dcd='docker compose down'
 alias dcl='docker compose logs -f'
 alias dps='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"'
 
-# Kubernetes
+Kubernetes
 alias k='kubectl'
 alias kns='kubectl config set-context --current --namespace'
 alias kctx='kubectl config use-context'
 alias kpf='kubectl port-forward'
 
-# Navigation
+Navigation
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ll='ls -la'
@@ -322,7 +322,7 @@ alias grep='grep --color=auto'
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Remote Team Terminal Emulator Comparison 2026](/remote-team-terminal-emulator-comparison/)
 - [Remote Team Git Hooks Standardization Guide](/remote-team-git-hooks-standardization-guide/)
@@ -331,13 +331,13 @@ alias grep='grep --color=auto'
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [How to Handle Remote Team Subculture Formation When](/how-to-handle-remote-team-subculture-formation-when-departme/)
 - [How to Run Remote Team Retrospective Focused on Team Health](/how-to-run-remote-team-retrospective-focused-on-team-health/)
 - [How to Track Remote Team Use Rate Without Invasive](/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
 - [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -19,11 +19,11 @@ voice-checked: true
 
 Structure your 75-person Slack workspace into four tiers: company-wide channels (#announcements, #general, #help-*), departmental channels with a `dept-` prefix, project channels with `proj-` or `squad-` prefixes, and temporary channels for events and incidents. Use consistent prefix-based naming conventions so channels stay discoverable, set retention policies per tier, and implement a notification matrix that separates critical alerts from low-priority chatter. This hierarchy prevents important messages from getting buried while keeping signal-to-noise manageable at your company size.
 
-## The Core Channel Hierarchy
+The Core Channel Hierarchy
 
 At 75 employees, you need a clear hierarchy that separates concerns without creating friction. The recommended structure uses four tiers: company-wide, departmental, project-based, and temporary channels.
 
-### Tier 1: Company-Wide Channels
+Tier 1: Company-Wide Channels
 
 These channels reach everyone and handle organization-level communication:
 
@@ -37,7 +37,7 @@ These channels reach everyone and handle organization-level communication:
 
 The key principle here: keep company-wide channels lean. Only posts that genuinely affect everyone belong in these spaces. At 75 people, #general can quickly become unmanageable if every small interaction happens there.
 
-### Tier 2: Departmental Channels
+Tier 2: Departmental Channels
 
 Create channels for each major team with the prefix `dept-`:
 
@@ -52,7 +52,7 @@ Create channels for each major team with the prefix `dept-`:
 
 Each departmental channel should have an owner responsible for keeping the channel focused. Department leads often rotate as the channel admin.
 
-### Tier 3: Project and Squad Channels
+Tier 3: Project and Squad Channels
 
 For cross-functional work, create project channels with clear naming:
 
@@ -65,7 +65,7 @@ For cross-functional work, create project channels with clear naming:
 
 Use the `proj-` prefix for time-bound projects with a clear end date, and `squad-` for ongoing team spaces.
 
-### Tier 4: Temporary Channels
+Tier 4: Temporary Channels
 
 Create channels for events, initiatives, or short-term needs:
 
@@ -77,50 +77,50 @@ Create channels for events, initiatives, or short-term needs:
 
 Archive these channels promptly after they serve their purpose.
 
-## Naming Conventions That Work
+Naming Conventions That Work
 
 Consistent naming makes channels discoverable. Establish and enforce these rules:
 
 ```bash
-# Prefix-based organization
-# <prefix>-<descriptor>
+Prefix-based organization
+<prefix>-<descriptor>
 
-# Prefixes:
-# dept-    : Department channels
-# proj-    : Time-limited projects
-# squad-   : Ongoing team spaces
-# team-    : Small team subgroups
-# help-    : Support channels
-# inc-     : Incident channels
+Prefixes:
+dept-    : Department channels
+proj-    : Time-limited projects
+squad-   : Ongoing team spaces
+team-    : Small team subgroups
+help-    : Support channels
+inc-     : Incident channels
 
-# Examples:
-# dept-engineering
-# proj-customer-portal-redesign
-# squad-android
-# team-backend-core
-# help-security
-# inc-database-outage
+Examples:
+dept-engineering
+proj-customer-portal-redesign
+squad-android
+team-backend-core
+help-security
+inc-database-outage
 ```
 
-Avoid spaces in channel names—use hyphens. This makes channel mentions and integrations more reliable.
+Avoid spaces in channel names, use hyphens. This makes channel mentions and integrations more reliable.
 
-## Channel Management at Scale
+Channel Management at Scale
 
 With 75 employees, manual channel management becomes painful. Use Slack's built-in tools and some automation.
 
-### Channel Automation with Slack Workflows
+Channel Automation with Slack Workflows
 
 Create standard workflows for common channel operations:
 
 ```yaml
-# Workflow: New Project Channel Request
-# Trigger: Form submission
-# Steps:
-# 1. Validate request (is the name correct format?)
-# 2. Create channel with appropriate prefix
-# 3. Add required members based on project type
-# 4. Post welcome message with channel purpose
-# 5. Notify channel owner
+Workflow: New Project Channel Request
+Trigger: Form submission
+Steps:
+1. Validate request (is the name correct format?)
+2. Create channel with appropriate prefix
+3. Add required members based on project type
+4. Post welcome message with channel purpose
+5. Notify channel owner
 ```
 
 Slack's Workflow Builder handles this without code. For more complex automation, use the Slack API:
@@ -160,7 +160,7 @@ def create_project_channel(client, channel_name, owner_id, member_ids):
         return None
 ```
 
-### Retention and Housekeeping
+Retention and Housekeeping
 
 Configure retention policies to prevent information overload:
 
@@ -174,12 +174,12 @@ Configure retention policies to prevent information overload:
 
 Use Slack's native retention settings under Workspace Settings > Messages & Media.
 
-## Notification Strategy
+Notification Strategy
 
 At 75 people, notification fatigue destroys productivity. Implement a notification matrix:
 
 ```markdown
-## Notification Matrix
+Notification Matrix
 
 | Priority | Channels | Do Not Disturb | Sound |
 |----------|----------|----------------|-------|
@@ -195,52 +195,52 @@ Encourage the team to:
 - Mention specific people rather than channels when appropriate
 - Respect DND hours across time zones
 
-## Cross-Time-Zone Communication
+Cross-Time-Zone Communication
 
 With 75 employees, you likely span multiple time zones. Structure channels to support async communication:
 
-1. **Use threads for everything** - Keep main channel feeds for announcements only
-2. **Mark threads as resolved** - When a question is answered, mark the thread
-3. **Use emoji reactions** - Acknowledge messages without replying
-4. **Create time-zone channels** - `#timezone-pst`, `#timezone-cet` for local coordination
+1. Use threads for everything - Keep main channel feeds for announcements only
+2. Mark threads as resolved - When a question is answered, mark the thread
+3. Use emoji reactions - Acknowledge messages without replying
+4. Create time-zone channels - `#timezone-pst`, `#timezone-cet` for local coordination
 
 ```markdown
-# Async Communication Template
+Async Communication Template
 
-**Question:** [Clear, specific question]
-**Context:** [Background needed to answer]
-**Already tried:** [What you've already checked]
-**Need:** [What you need from the team]
-**By when:** [When you need an answer]
+Question: [Clear, specific question]
+Context: [Background needed to answer]
+Already tried: [What you've already checked]
+Need: [What you need from the team]
+By when: [When you need an answer]
 ```
 
-## Practical Examples
+Practical Examples
 
-### Starting a New Project Channel
+Starting a New Project Channel
 
 ```bash
-# 1. Create channel: #proj-customer-dashboard-v2
-# 2. Set purpose: "Redesign customer dashboard - Q2 2026"
-# 3. Add members: 4 engineers, 2 designers, 1 PM
-# 4. Pin: Project brief document, timeline, team contacts
-# 5. Configure: Custom emoji for project status
+1. Create channel: #proj-customer-dashboard-v2
+2. Set purpose: "Redesign customer dashboard - Q2 2026"
+3. Add members: 4 engineers, 2 designers, 1 PM
+4. Pin: Project brief document, timeline, team contacts
+5. Configure: Custom emoji for project status
 ```
 
-### Incident Response Channel
+Incident Response Channel
 
 ```bash
-# Naming: #inc-<service>-<date>
-# Example: #inc-database-2026-03-16
+Naming: #inc-<service>-<date>
+#inc-database-2026-03-16
 
-# Structure:
-# - Pin: Runbook link
-# - Pin: Current status page link
-# - Thread: Play-by-play updates
-# - Thread: Customer impact assessment
-# - Archive: Within 7 days of resolution
+Structure:
+- Pin: Runbook link
+- Pin: Current status page link
+- Thread: Play-by-play updates
+- Thread: Customer impact assessment
+- Archive: Within 7 days of resolution
 ```
 
-## Implementation Checklist
+Implementation Checklist
 
 Before launching your new structure:
 
@@ -252,38 +252,38 @@ Before launching your new structure:
 - [ ] Communicate notification expectations
 - [ ] Plan quarterly channel reviews
 
-A well-organized Slack workspace at 75 employees requires intentional design upfront but pays dividends in reduced noise, faster information access, and better team coordination. The structure above provides a foundation—adapt it to your company culture and refine as you grow.
+A well-organized Slack workspace at 75 employees requires intentional design upfront but pays dividends in reduced noise, faster information access, and better team coordination. The structure above provides a foundation, adapt it to your company culture and refine as you grow.
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How do I prioritize which recommendations to implement first?**
+How do I prioritize which recommendations to implement first?
 
 Start with changes that require the least effort but deliver the most impact. Quick wins build momentum and demonstrate value to stakeholders. Save larger structural changes for after you have established a baseline and can measure improvement.
 
-**Do these recommendations work for small teams?**
+Do these recommendations work for small teams?
 
-Yes, most practices scale down well. Small teams can often implement changes faster because there are fewer people to coordinate. Adapt the specifics to your team size—a 5-person team does not need the same formal processes as a 50-person organization.
+Yes, most practices scale down well. Small teams can often implement changes faster because there are fewer people to coordinate. Adapt the specifics to your team size, a 5-person team does not need the same formal processes as a 50-person organization.
 
-**How do I measure whether these changes are working?**
+How do I measure whether these changes are working?
 
 Define 2-3 measurable outcomes before you start. Track them weekly for at least a month to see trends. Common metrics include response time, completion rate, team satisfaction scores, and error frequency. Avoid measuring too many things at once.
 
-**How do I handle team members in very different time zones?**
+How do I handle team members in very different time zones?
 
 Establish a shared overlap window of at least 2-3 hours for synchronous work. Use async communication tools for everything else. Document decisions in writing so people in other time zones can catch up without needing a live recap.
 
-**What is the biggest mistake people make when applying these practices?**
+What is the biggest mistake people make when applying these practices?
 
 Trying to change everything at once. Pick one or two practices, implement them well, and let the team adjust before adding more. Gradual adoption sticks better than wholesale transformation, which often overwhelms people and gets abandoned.
 
-## Related Articles
+Related Articles
 
 - [Slack Workspace Structure for a 50 Person Remote](/slack-workspace-structure-for-a-50-person-remote-engineering/)
 - [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
 - [How to Create Interest-Based Slack Channels for Remote](/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 - [How to Secure Slack and Teams Channels for Remote Team](/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 - [How to Optimize Slack for Large Remote Teams](/how-to-optimize-slack-for-large-remote-teams/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

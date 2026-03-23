@@ -19,36 +19,36 @@ Running Terraform on a team requires solving problems that solo use does not fac
 
 This guide covers the complete Terraform setup for remote teams: S3 backend with DynamoDB locking, workspace separation, reusable modules, and GitHub Actions integration.
 
-## Remote State with S3 and DynamoDB Locking
+Remote State with S3 and DynamoDB Locking
 
 Local `terraform.tfstate` files break immediately in a team. Two people cannot run `terraform apply` simultaneously without corrupting state. S3 + DynamoDB gives you shared state with pessimistic locking.
 
 ```bash
-# Create the S3 bucket and DynamoDB table for remote state
-# Run once per AWS account — before creating any other infrastructure
+Create the S3 bucket and DynamoDB table for remote state
+Run once per AWS account. before creating any other infrastructure
 
 aws s3api create-bucket \
   --bucket mycompany-terraform-state \
   --region us-east-1
 
-# Enable versioning (recover from state corruption)
+Enable versioning (recover from state corruption)
 aws s3api put-bucket-versioning \
   --bucket mycompany-terraform-state \
   --versioning-configuration Status=Enabled
 
-# Block public access
+Block public access
 aws s3api put-public-access-block \
   --bucket mycompany-terraform-state \
   --public-access-block-configuration BlockPublicAcls=true,IgnorePublicAcls=true,BlockPublicPolicy=true,RestrictPublicBuckets=true
 
-# Enable server-side encryption
+Enable server-side encryption
 aws s3api put-bucket-encryption \
   --bucket mycompany-terraform-state \
   --server-side-encryption-configuration '{
     "Rules": [{"ApplyServerSideEncryptionByDefault": {"SSEAlgorithm": "AES256"}}]
   }'
 
-# Create DynamoDB table for state locking
+Create DynamoDB table for state locking
 aws dynamodb create-table \
   --table-name terraform-state-lock \
   --attribute-definitions AttributeName=LockID,AttributeType=S \
@@ -56,10 +56,10 @@ aws dynamodb create-table \
   --billing-mode PAY_PER_REQUEST
 ```
 
-## Backend Configuration
+Backend Configuration
 
 ```hcl
-# backend.tf — add to every Terraform project
+backend.tf. add to every Terraform project
 terraform {
   required_version = ">= 1.7.0"
 
@@ -82,25 +82,25 @@ terraform {
 
 Each project uses a unique `key` path. Convention: `project/environment/terraform.tfstate`.
 
-## Workspace Strategy for Environment Separation
+Workspace Strategy for Environment Separation
 
 ```bash
-# Create workspaces for each environment
+Create workspaces for each environment
 terraform workspace new dev
 terraform workspace new staging
 terraform workspace new production
 
-# List workspaces
+List workspaces
 terraform workspace list
 
-# Switch to dev
+Switch to dev
 terraform workspace select dev
 
-# Use workspace name in resource naming
+Use workspace name in resource naming
 ```
 
 ```hcl
-# main.tf — reference workspace in resource names and configs
+main.tf. reference workspace in resource names and configs
 locals {
   env    = terraform.workspace
   prefix = "${var.project_name}-${local.env}"
@@ -128,33 +128,33 @@ resource "aws_instance" "app" {
 }
 ```
 
-## Reusable Module Structure
+Reusable Module Structure
 
 Modules prevent copy-paste infrastructure across environments and projects.
 
 ```
 infrastructure/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── backend.tf
-└── modules/
-    ├── networking/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   └── outputs.tf
-    ├── compute/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   └── outputs.tf
-    └── database/
-        ├── main.tf
-        ├── variables.tf
-        └── outputs.tf
+ main.tf
+ variables.tf
+ outputs.tf
+ backend.tf
+ modules/
+     networking/
+        main.tf
+        variables.tf
+        outputs.tf
+     compute/
+        main.tf
+        variables.tf
+        outputs.tf
+     database/
+         main.tf
+         variables.tf
+         outputs.tf
 ```
 
 ```hcl
-# modules/networking/main.tf
+modules/networking/main.tf
 variable "vpc_cidr" {
   description = "CIDR block for the VPC"
   type        = string
@@ -191,7 +191,7 @@ output "private_subnet_ids" {
 ```
 
 ```hcl
-# main.tf — using the module
+main.tf. using the module
 module "networking" {
   source      = "./modules/networking"
   vpc_cidr    = "10.0.0.0/16"
@@ -208,10 +208,10 @@ module "compute" {
 }
 ```
 
-## Variables and Secrets
+Variables and Secrets
 
 ```hcl
-# variables.tf
+variables.tf
 variable "project_name" {
   description = "Project identifier used in resource names"
   type        = string
@@ -225,17 +225,17 @@ variable "db_password" {
 ```
 
 ```bash
-# Environment-specific variable files (committed — no secrets)
-# terraform.tfvars is auto-loaded, but per-workspace files need explicit loading
+Environment-specific variable files (committed. no secrets)
+terraform.tfvars is auto-loaded, but per-workspace files need explicit loading
 
-# dev.tfvars
+dev.tfvars
 project_name = "myapp"
 instance_type = "t3.micro"
 
-# Apply with specific vars file
+Apply with specific vars file
 terraform apply -var-file="dev.tfvars"
 
-# Secrets via environment variables (not committed)
+Secrets via environment variables (not committed)
 export TF_VAR_db_password="secret-password"
 terraform apply -var-file="dev.tfvars"
 ```
@@ -243,7 +243,7 @@ terraform apply -var-file="dev.tfvars"
 Store actual secret values in AWS SSM Parameter Store or AWS Secrets Manager, and reference them in Terraform:
 
 ```hcl
-# Read secret from SSM (no plaintext in state)
+Read secret from SSM (no plaintext in state)
 data "aws_ssm_parameter" "db_password" {
   name = "/myapp/${terraform.workspace}/db_password"
 }
@@ -253,21 +253,21 @@ resource "aws_db_instance" "main" {
 }
 ```
 
-## GitHub Actions CI/CD
+GitHub Actions CI/CD
 
 ```yaml
-# .github/workflows/terraform.yml
+.github/workflows/terraform.yml
 name: Terraform
 
 on:
   pull_request:
     paths:
-      - 'infrastructure/**'
+      - 'infrastructure/'
   push:
     branches:
       - main
     paths:
-      - 'infrastructure/**'
+      - 'infrastructure/'
 
 env:
   TF_VERSION: "1.7.5"
@@ -318,7 +318,7 @@ jobs:
         if: github.event_name == 'pull_request'
         with:
           script: |
-            const output = `#### Terraform Plan 📖\`${{ steps.plan.outcome }}\`
+            const output = `#### Terraform Plan \`${{ steps.plan.outcome }}\`
             <details><summary>Show Plan</summary>
             \`\`\`terraform
             ${{ steps.plan.outputs.stdout }}
@@ -364,60 +364,60 @@ jobs:
 
 The plan runs on every PR (showing the diff as a comment). The apply runs only on merge to `main`, and the `environment: production` gate requires manual approval from a configured reviewer.
 
-## State Import: Bring Existing Infrastructure Under Control
+State Import: Bring Existing Infrastructure Under Control
 
 ```bash
-# Import existing AWS resources into Terraform state
-# First, write the resource config in .tf files, then import
+Import existing AWS resources into Terraform state
+First, write the resource config in .tf files, then import
 
-# Import an existing EC2 instance
+Import an existing EC2 instance
 terraform import aws_instance.app i-1234567890abcdef0
 
-# Import an existing S3 bucket
+Import an existing S3 bucket
 terraform import aws_s3_bucket.logs my-existing-logs-bucket
 
-# Import an existing RDS instance
+Import an existing RDS instance
 terraform import aws_db_instance.main mydb
 
-# After import, run plan — should show no changes if config matches reality
+After import, run plan. should show no changes if config matches reality
 terraform plan -var-file="production.tfvars"
 ```
 
-## Related Reading
+Related Reading
 
 - [AWS Cost Management for Remote Teams](/aws-cost-management-remote-teams-guide/)
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/ci-cd-pipeline-solo-developer-github-actions/)
 - [Home Lab Setup Guide for Remote Developers](/home-lab-setup-guide-remote-developers/)
 - [Best Employee Recognition Platform for Distributed Teams](/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 
-## Related Articles
+Related Articles
 
 - [How to Automate DNS Management with Terraform](/how-to-automate-dns-management-with-terraform/)
-- [Diversity Sourcing Strategy for Remote Teams](/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
+- [Diversity Sourcing Strategy for Remote Teams](/remote-team-hiring detailed lookrsity-sourcing-strategy-for-distributed-companies/)
 - [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 - [Migrating from AWS CodeCommit to GitHub for Remote Team](/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
 - [Remote Work Tools: All Guides and Reviews](/guides-hub/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does Teams offer a free tier?**
+Does Teams offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check Teams's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 

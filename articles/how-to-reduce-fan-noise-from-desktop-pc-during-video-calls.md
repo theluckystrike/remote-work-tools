@@ -16,9 +16,9 @@ voice-checked: true
 
 {% raw %}
 
-Desktop PCs generate heat, and that heat requires active cooling. When you're on video calls, your machine often works harder than you realize—video encoding, background processes, and browser tabs all contribute to CPU and GPU load. The result: fans spin faster, and your colleagues hear that distracting whirring in the background.
+Desktop PCs generate heat, and that heat requires active cooling. When you're on video calls, your machine often works harder than you realize, video encoding, background processes, and browser tabs all contribute to CPU and GPU load. The result: fans spin faster, and your colleagues hear that distracting whirring in the background.
 
-## Table of Contents
+Table of Contents
 
 - [Why Your PC Gets Loud During Video Calls](#why-your-pc-gets-loud-during-video-calls)
 - [Prerequisites](#prerequisites)
@@ -28,20 +28,20 @@ Desktop PCs generate heat, and that heat requires active cooling. When you're on
 
 This guide covers practical methods to reduce fan noise during video calls without sacrificing performance for your actual work. You'll find software tweaks, configuration examples, and hardware adjustments that work well for developers and power users.
 
-## Why Your PC Gets Loud During Video Calls
+Why Your PC Gets Loud During Video Calls
 
-Modern video conferencing applications like Zoom, Google Meet, and Microsoft Teams run continuously while you're in a call. They encode video, decode incoming streams, process audio, and maintain network connections—all simultaneously. On a desktop PC, this creates sustained CPU and GPU load that triggers your cooling system.
+Modern video conferencing applications like Zoom, Google Meet, and Microsoft Teams run continuously while you're in a call. They encode video, decode incoming streams, process audio, and maintain network connections, all simultaneously. On a desktop PC, this creates sustained CPU and GPU load that triggers your cooling system.
 
 The culprits are predictable:
 
 - Video encoding: Whether using hardware acceleration or software encoding, your CPU/GPU works to compress your camera feed
 - Browser overhead: Running Chrome or Firefox with multiple tabs while on a call adds background processes
 - Background applications: IDEs, terminal emulators, Docker containers, and CI/CD pipelines all generate heat
-- Thermal throttling: When components get hot, they slow down—but your fans spin up to prevent that
+- Thermal throttling: When components get hot, they slow down, but your fans spin up to prevent that
 
 Understanding these sources helps you target the right solutions.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -51,27 +51,27 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Software Solutions: Reduce Load and Control Fans
+Step 1: Software Solutions: Reduce Load and Control Fans
 
-### Adjust Process Priority
+Adjust Process Priority
 
-One immediate fix involves lowering the priority of your video conferencing application. This doesn't stop it from working—it just tells your operating system to prioritize your actual work tasks first.
+One immediate fix involves lowering the priority of your video conferencing application. This doesn't stop it from working, it just tells your operating system to prioritize your actual work tasks first.
 
 On Linux, you can use `nice` and `renice`:
 
 ```bash
-# Start Zoom with lower priority
+Start Zoom with lower priority
 nice -n 10 zoom
 
-# Or reduce priority of an already-running process
+Or reduce priority of an already-running process
 renice 10 -p $(pgrep -f "zoom")
 ```
 
 On Windows, access Task Manager, right-click the video call process, and set Priority to "Below Normal" or "Low." This prevents the video app from competing with your compiler or development environment for CPU cycles.
 
-### Configure Fan Curves in BIOS or Software
+Configure Fan Curves in BIOS or Software
 
-Most modern motherboards and graphics cards let you define fan curves—graphs that control fan speed based on temperature. By setting a more gradual curve, you can keep fans quieter during moderate loads.
+Most modern motherboards and graphics cards let you define fan curves, graphs that control fan speed based on temperature. By setting a more gradual curve, you can keep fans quieter during moderate loads.
 
 Access your BIOS during boot (usually Delete or F2) and look for "Fan Control" or "Q-Fan." A typical quiet-friendly curve might look like:
 
@@ -86,9 +86,9 @@ This keeps fans slow during light work and only ramps up when temperatures actua
 
 If your motherboard supports it, manufacturer software like ASUS AI Suite, MSI Afterburner, or Corsair iCUE provides more granular control without rebooting into BIOS.
 
-### Use Hardware Video Encoding
+Use Hardware Video Encoding
 
-Software video encoding (using your CPU) generates more heat than hardware encoding (using your GPU or dedicated encoder). Most video apps support hardware acceleration—enable it in your settings:
+Software video encoding (using your CPU) generates more heat than hardware encoding (using your GPU or dedicated encoder). Most video apps support hardware acceleration, enable it in your settings:
 
 - Zoom: Settings → Video → Enable hardware acceleration
 - Google Meet: Automatically uses hardware encoding when available
@@ -96,13 +96,13 @@ Software video encoding (using your CPU) generates more heat than hardware encod
 
 This simple change often reduces CPU load by 20-30% during calls.
 
-### Limit Background Processes
+Limit Background Processes
 
 Before joining a call, close unnecessary applications. A quick script can help on Linux:
 
 ```bash
 #!/bin/bash
-# Kill resource-heavy background processes before a call
+Kill resource-heavy background processes before a call
 pkill -f "chrome" || true
 pkill -f "slack" || true
 systemctl stop docker  # Stop Docker containers if not needed
@@ -116,9 +116,9 @@ alias join-call="~/scripts/call-prep.sh && zoom"
 
 On Windows, use Process Lasso or simply close browser tabs and pause background downloads.
 
-### Step 2: Hardware Modifications: Quiet the Machine
+Step 2: Hardware Modifications: Quiet the Machine
 
-### Upgrade Case Airflow
+Upgrade Case Airflow
 
 If your case has poor airflow, components run hotter and fans spin faster. Consider:
 
@@ -129,25 +129,25 @@ If your case has poor airflow, components run hotter and fans spin faster. Consi
 
 A well-ventilated case keeps components cooler at lower fan speeds.
 
-### Replace Stock CPU Cooler
+Replace Stock CPU Cooler
 
-Stock CPU coolers from Intel and AMD are functional but noisy. Aftermarket options from be quiet!, Noctua, or Cryorig offer better cooling at lower noise levels. The Noctua NH-D15 remains a popular choice for quiet operation—it moves significant air while running at low RPM.
+Stock CPU coolers from Intel and AMD are functional but noisy. Aftermarket options from be quiet!, Noctua, or Cryorig offer better cooling at lower noise levels. The Noctua NH-D15 remains a popular choice for quiet operation, it moves significant air while running at low RPM.
 
-### Apply Better Thermal Paste
+Apply Better Thermal Paste
 
 Thermal paste connects your CPU/GPU to their coolers. Old or poorly applied paste creates heat transfer bottlenecks. Clean and reapply with quality thermal paste like Thermal Grizzly Kryonaut or Arctic MX-4. This can lower temperatures by 5-15°C, allowing fans to run slower.
 
-### Upgrade to Quiet Case Fans
+Upgrade to Quiet Case Fans
 
 Stock case fans often prioritize cost over silence. Replacement fans from Noctua, be quiet!, or Corsair LPX series offer better bearings (often fluid dynamic) and optimized blade designs. Even a single quiet 140mm fan can replace two louder 120mm fans while moving more air.
 
 Look for fans rated below 20 dBA for truly quiet operation.
 
-### Step 3: Audio Processing: Mask Residual Noise
+Step 3: Audio Processing: Mask Residual Noise
 
 Sometimes you can't eliminate all fan noise. In those cases, audio processing helps:
 
-### Use Noise Suppression in Your Video App
+Use Noise Suppression in Your Video App
 
 Most video conferencing tools include noise suppression:
 
@@ -155,7 +155,7 @@ Most video conferencing tools include noise suppression:
 - Microsoft Teams: Settings → Devices → Noise suppression → "Auto"
 - Google Meet: Automatically applies noise reduction
 
-### Apply System-Level Noise Suppression
+Apply System-Level Noise Suppression
 
 For stronger suppression, use system-level tools:
 
@@ -164,7 +164,7 @@ For stronger suppression, use system-level tools:
 
 These tools apply real-time audio processing to remove fan noise before it reaches your call.
 
-### Step 4: Quick Checklist Before Your Next Call
+Step 4: Quick Checklist Before Your Next Call
 
 1. Close unnecessary browser tabs and applications
 2. Enable hardware video encoding in your video app
@@ -173,15 +173,15 @@ These tools apply real-time audio processing to remove fan noise before it reach
 5. Check that case fans aren't obstructed
 6. Enable noise suppression in your video app
 
-### Step 5: Build a Quieter Development Environment
+Step 5: Build a Quieter Development Environment
 
-For developers spending hours on calls, investing time into a quieter setup pays dividends. The steps above—software configuration, fan curve tuning, and selective hardware upgrades—combine to create a system that stays quiet during meetings but still performs when you're compiling code or running tests.
+For developers spending hours on calls, investing time into a quieter setup pays dividends. The steps above, software configuration, fan curve tuning, and selective hardware upgrades, combine to create a system that stays quiet during meetings but still performs when you're compiling code or running tests.
 
 Start with the free software tweaks. They take minutes and often provide immediate results. Then evaluate whether hardware upgrades make sense for your situation.
 
-Remember: your setup doesn't need to be silent—your colleagues simply shouldn't hear your cooling system over your voice.
+Remember: your setup doesn't need to be silent, your colleagues simply shouldn't hear your cooling system over your voice.
 
-### Step 6: Hardware Upgrade Cost-Benefit Analysis
+Step 6: Hardware Upgrade Cost-Benefit Analysis
 
 Reducing fan noise often requires small hardware investments. Here's what each upgrade costs and what noise reduction it delivers:
 
@@ -197,18 +197,18 @@ Reducing fan noise often requires small hardware investments. Here's what each u
 
 Most developers see best results from thermal paste + one quiet fan replacement ($40-60 total, 10-15°C cooler systems). This typically eliminates call-disrupting noise without expensive CPU cooler replacement.
 
-### Step 7: Specific Quiet Fan Recommendations
+Step 7: Specific Quiet Fan Recommendations
 
 Not all quiet fans are equal. Real-world options for developers:
 
-**Best All-Around: Noctua NF-A14 PWM (140mm)**
+Best All-Around: Noctua NF-A14 PWM (140mm)
 - Cost: $25-35
 - Noise: 13.8-19.8 dBA (very quiet)
 - Airflow: 140.2 CFM (adequate for large case)
 - Warranty: 6-year guarantee
 - Install time: 5 minutes to replace existing fan
 
-**Budget Option: Arctic P14 PWM (140mm)**
+Budget Option: Arctic P14 PWM (140mm)
 - Cost: $12-18
 - Noise: 0.3 Sone (roughly 20 dBA)
 - Airflow: 140 CFM
@@ -216,7 +216,7 @@ Not all quiet fans are equal. Real-world options for developers:
 - Install time: 5 minutes
 - Trade-off: Slightly noisier than Noctua but 50% cheaper
 
-**High-Performance: be quiet! Dark Rock Pro 4 (CPU cooler)**
+High-Performance: be quiet! Dark Rock Pro 4 (CPU cooler)
 - Cost: $80-110
 - Noise: ~15 dBA at full load
 - TDP: Handles up to 250W
@@ -224,55 +224,55 @@ Not all quiet fans are equal. Real-world options for developers:
 - Install time: 30-45 minutes
 - Trade-off: Expensive but excellent for sustained loads (video calls + compiling)
 
-**Laptop Alternative: External cooling pad (Havit HV-F2050)**
+Laptop Alternative: External cooling pad (Havit HV-F2050)
 - Cost: $20-35
 - Effectiveness: Reduces laptop temp 5-10°C, thereby reducing fan speed
 - Noise: Pad itself is quiet; reduces laptop fan noise 2-3 dBA
 - Trade-off: Only works for laptops; requires desk space
 
-### Step 8: Real Configuration Examples
+Step 8: Real Configuration Examples
 
-### Minimal Setup (Zero Cost)
-
-```bash
-# Linux: Set conservative fan curve via BIOS
-# Most modern systems support this without additional tools
-# Access BIOS (typically Delete/F2 at boot), find "Q-Fan" or "Fan Control"
-# Set curve: 30°C→20%, 40°C→30%, 50°C→40%, 70°C→80%, 85°C+→100%
-
-# Windows: Use Task Manager to lower video app priority
-# Open Task Manager → Find "zoom.exe" or "Teams.exe"
-# Right-click → Details tab → Right-click process → Set Priority → Below Normal
-```
-
-**Result:** 2-3°C cooler, fans spin 5-10% slower. Takes 10 minutes. Often eliminates background noise.
-
-### Mid-Range Setup ($60 investment)
+Minimal Setup (Zero Cost)
 
 ```bash
-# Step 1: Replace thermal paste
-# Required: Thermal Grizzly Kryonaut ($8), isopropyl alcohol ($5), lint-free cloth
-# Time: 30 minutes for CPU
+Linux: Set conservative fan curve via BIOS
+Most modern systems support this without additional tools
+Access BIOS (typically Delete/F2 at boot), find "Q-Fan" or "Fan Control"
+Set curve: 30°C→20%, 40°C→30%, 50°C→40%, 70°C→80%, 85°C+→100%
 
-# Step 2: Add one quiet intake fan (front of case)
-# Cost: $20-30 for quality 140mm fan
-# Time: 10 minutes
-
-# Result: 8-12°C cooler, noticeable reduction in fan noise during calls
+Windows: Use Task Manager to lower video app priority
+Open Task Manager → Find "zoom.exe" or "Teams.exe"
+Right-click → Details tab → Right-click process → Set Priority → Below Normal
 ```
 
-### Setup ($150 investment)
+2-3°C cooler, fans spin 5-10% slower. Takes 10 minutes. Often eliminates background noise.
+
+Mid-Range Setup ($60 investment)
 
 ```bash
-# Step 1: Thermal paste + cleanup
-# Step 2: Replace all case fans with quiet 140mm fans (2-3 fans)
-# Step 3: Improve cable management for better airflow
-# Step 4: Verify BIOS fan curve is conservative
+Step 1: Replace thermal paste
+Required: Thermal Grizzly Kryonaut ($8), isopropyl alcohol ($5), lint-free cloth
+Time: 30 minutes for CPU
 
-# Result: System runs 12-18°C cooler, almost silent during video calls
+Step 2: Add one quiet intake fan (front of case)
+Cost: $20-30 for quality 140mm fan
+Time: 10 minutes
+
+8-12°C cooler, noticeable reduction in fan noise during calls
 ```
 
-## Software Noise Suppression Tools: Detailed Comparison
+Setup ($150 investment)
+
+```bash
+Step 1: Thermal paste + cleanup
+Step 2: Replace all case fans with quiet 140mm fans (2-3 fans)
+Step 3: Improve cable management for better airflow
+Step 4: Verify BIOS fan curve is conservative
+
+System runs 12-18°C cooler, almost silent during video calls
+```
+
+Software Noise Suppression Tools: Detailed Comparison
 
 When hardware changes aren't possible or sufficient:
 
@@ -286,54 +286,54 @@ When hardware changes aren't possible or sufficient:
 
 For developers on Windows with RTX GPU: NVIDIA RTX Voice (free) is unbeatable. Install, enable, done.
 
-For developers on Mac or without RTX: Krisp free tier ($0) covers 60 minutes monthly—sufficient for a few calls weekly.
+For developers on Mac or without RTX: Krisp free tier ($0) covers 60 minutes monthly, sufficient for a few calls weekly.
 
 For Linux: NoiseTorch (free, open source) beats everything else if you're comfortable with PulseAudio.
 
-### Step 9: Pre-Call Routine: 2-Minute Optimization
+Step 9: Pre-Call Routine: 2-Minute Optimization
 
 Experienced remote workers run this check before every important call:
 
 ```bash
-# 1. Close unnecessary apps
+1. Close unnecessary apps
 killall chrome firefox slack spotify docker  # Or equivalent on your OS
 
-# 2. Set process priorities (Windows via PowerShell)
+2. Set process priorities (Windows via PowerShell)
 Get-Process zoom | % { $_.PriorityClass = "BelowNormal" }
 
-# 3. Pause background tasks
+3. Pause background tasks
 systemctl stop docker  # Stop containers
-# Or pause Dropbox/OneDrive sync via UI
+Or pause Dropbox/OneDrive sync via UI
 
-# 4. Enable hardware acceleration
-# Zoom: Settings → Video → Hardware acceleration = ON
-# Teams: Settings → Devices → Hardware acceleration = ON
+4. Enable hardware acceleration
+Zoom: Settings → Video → Hardware acceleration = ON
+Teams: Settings → Devices → Hardware acceleration = ON
 
-# 5. Check case fans aren't blocked
-# Quick visual inspection: no dust, no cables blocking intake
+5. Check case fans aren't blocked
+Quick visual inspection: no dust, no cables blocking intake
 
-# 6. Enable system noise suppression
-# Windows: Open Krisp, click microphone icon
-# Mac: Same
-# Linux: Enable NoiseTorch (pavucontrol)
+6. Enable system noise suppression
+Windows: Open Krisp, click microphone icon
+Mac: Same
+Linux: Enable NoiseTorch (pavucontrol)
 
-# 7. Test audio before call
-# Quick 10-second recording to verify noise isn't audible
+7. Test audio before call
+Quick 10-second recording to verify noise isn't audible
 ```
 
 Running this 2-minute routine prevents 95% of "hey, your fan is really loud" messages from colleagues.
 
-## When to Invest vs When to Accept Noise
+When to Invest vs When to Accept Noise
 
 Consider your situation:
 
-**Invest in hardware/optimization if:**
+Invest in hardware/optimization if:
 - You're on 5+ hours of calls daily
 - Your role requires high-credibility calls (client presentations, interviews)
 - Your team has given feedback about background noise
 - You're in a long-term remote role
 
-**Accept the noise if:**
+Accept the noise if:
 - You're on calls 2-3 times per week
 - Background noise is mild (colleagues can hear you fine)
 - Hardware investments don't fit your budget
@@ -341,49 +341,49 @@ Consider your situation:
 
 The cost-benefit math: A $30 fan upgrade preventing even one "can you mute your fan?" message per month is worth it. A $150 CPU cooler upgrade is worth it only if you're in calls daily for years.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to reduce fan noise from desktop pc during video calls?**
+How long does it take to reduce fan noise from desktop pc during video calls?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Prevent Laptop Overheating During Long Video Call](/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
 - [How to Stop Dog Barking During Video Calls: A Complete](/how-to-stop-dog-barking-during-video-calls-work-from-home/)
 - [How to Hide Messy Room During Video Calls: Practical](/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
 - [Home Office Network Setup for Video Calls](/home-office-network-video-calls-setup/)
 - [Best Keyboard for Quiet Typing During Video Calls in Open](/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

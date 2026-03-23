@@ -17,7 +17,7 @@ tags: [remote-work-tools]
 
 Gitea is a 60MB binary that gives your team GitHub-like features: repos, issues, pull requests, webhooks, and Gitea Actions (compatible with GitHub Actions syntax). Run it on a $6/month VPS and own your code. This guide covers a production Docker deployment with SSH, SMTP, and backup.
 
-## Table of Contents
+Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Gitea API Automation](#gitea-api-automation)
@@ -27,7 +27,7 @@ Gitea is a 60MB binary that gives your team GitHub-like features: repos, issues,
 - [Pull Request Review Workflow](#pull-request-review-workflow)
 - [Related Reading](#related-reading)
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -37,10 +37,10 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Docker Compose Deployment
+Step 1: Docker Compose Deployment
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 
 networks:
@@ -98,7 +98,7 @@ services:
 ```
 
 ```bash
-# .env
+.env
 DB_PASSWORD=strong-postgres-password
 SMTP_HOST=smtp.sendgrid.net
 SMTP_USER=apikey
@@ -106,20 +106,20 @@ SMTP_PASSWORD=your-sendgrid-key
 ```
 
 ```bash
-# Start Gitea
+Start Gitea
 docker compose up -d
 
-# Check logs
+Check logs
 docker compose logs -f server
 
-# First run: visit http://server:3000 to complete setup wizard
-# Or configure everything via docker-compose env vars (recommended)
+First run: visit http://server:3000 to complete setup wizard
+Or configure everything via docker-compose env vars (recommended)
 ```
 
-### Step 2: Nginx Reverse Proxy
+Step 2: Nginx Reverse Proxy
 
 ```nginx
-# /etc/nginx/sites-available/gitea
+/etc/nginx/sites-available/gitea
 server {
     listen 80;
     server_name git.example.com;
@@ -150,55 +150,55 @@ sudo certbot --nginx -d git.example.com
 sudo nginx -t && sudo systemctl reload nginx
 ```
 
-### Step 3: SSH Configuration for Team Members
+Step 3: SSH Configuration for Team Members
 
 ```bash
-# On your local machine, add to ~/.ssh/config
+On your local machine, add to ~/.ssh/config
 Host gitea
   HostName git.example.com
   User git
   Port 2222
   IdentityFile ~/.ssh/id_ed25519
 
-# Clone using SSH
+Clone using SSH
 git clone gitea:yourorg/yourrepo.git
 
-# Or with full URL
+Or with full URL
 git clone ssh://git@git.example.com:2222/yourorg/yourrepo.git
 ```
 
-### Step 4: Team and Organization Setup
+Step 4: Team and Organization Setup
 
 ```bash
-# Gitea CLI (tea) for scripted setup
+Gitea CLI (tea) for scripted setup
 brew install tea
 
-# Login
+Login
 tea login add \
   --name mycompany \
   --url https://git.example.com \
   --token your-api-token
 
-# Create organization
+Create organization
 tea org create mycompany
 
-# Create team within org
+Create team within org
 tea org team create --org mycompany \
   --name "Developers" \
   --permission write \
   --units repo,issue,pullrequest
 
-# Add members to team
+Add members to team
 tea org team user add --org mycompany --team Developers alice
 tea org team user add --org mycompany --team Developers bob
 ```
 
-### Step 5: Repository Templates
+Step 5: Repository Templates
 
 Create a template repo then:
 
 ```bash
-# Via API: create repo from template
+Via API: create repo from template
 curl -X POST "https://git.example.com/api/v1/repos/mycompany/service-template/generate" \
   -H "Authorization: token your-api-token" \
   -H "Content-Type: application/json" \
@@ -211,15 +211,15 @@ curl -X POST "https://git.example.com/api/v1/repos/mycompany/service-template/ge
   }'
 ```
 
-### Step 6: Gitea Actions (CI/CD)
+Step 6: Gitea Actions (CI/CD)
 
 Gitea Actions uses the same syntax as GitHub Actions.
 
 ```bash
-# Enable Actions in Gitea admin panel:
-# Site Admin > Configuration > Actions > Enable
+Enable Actions in Gitea admin panel:
+Site Admin > Configuration > Actions > Enable
 
-# Start an Actions runner
+Start an Actions runner
 docker run -d \
   --name gitea-runner \
   -v /var/run/docker.sock:/var/run/docker.sock \
@@ -231,7 +231,7 @@ docker run -d \
 ```
 
 ```yaml
-# .gitea/workflows/test.yml
+.gitea/workflows/test.yml
 name: Test and Lint
 
 on:
@@ -257,10 +257,10 @@ jobs:
         uses: golangci/golangci-lint-action@v3
 ```
 
-### Step 7: Webhooks for Notifications
+Step 7: Webhooks for Notifications
 
 ```bash
-# Create webhook via API
+Create webhook via API
 curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/hooks" \
   -H "Authorization: token your-api-token" \
   -H "Content-Type: application/json" \
@@ -277,44 +277,44 @@ curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/hooks" \
   }'
 ```
 
-### Step 8: Backup Script
+Step 8: Backup Script
 
 ```bash
 #!/bin/bash
-# scripts/backup-gitea.sh
+scripts/backup-gitea.sh
 
 DATE=$(date +%Y%m%d_%H%M%S)
 BACKUP_DIR="/backups/gitea"
 
 mkdir -p "$BACKUP_DIR"
 
-# Dump Gitea config and repos via built-in tool
+Dump Gitea config and repos via built-in tool
 docker exec gitea gitea admin dump \
   --config /data/gitea/conf/app.ini \
   --file "/tmp/gitea-dump-${DATE}.zip" \
   --type zip
 
-# Copy out of container
+Copy out of container
 docker cp "gitea:/tmp/gitea-dump-${DATE}.zip" "$BACKUP_DIR/"
 
-# Also dump database separately
+Also dump database separately
 docker exec gitea_db pg_dump \
   -U gitea gitea | gzip > "$BACKUP_DIR/gitea-db-${DATE}.sql.gz"
 
-# Ship to object storage
+Ship to object storage
 mc cp "$BACKUP_DIR/gitea-dump-${DATE}.zip" company/backups/gitea/
 mc cp "$BACKUP_DIR/gitea-db-${DATE}.sql.gz" company/backups/gitea/
 
-# Remove local copies older than 7 days
+Remove local copies older than 7 days
 find "$BACKUP_DIR" -mtime +7 -delete
 
 echo "Gitea backup complete: gitea-dump-${DATE}.zip"
 ```
 
-### Step 9: Branch Protection Rules
+Step 9: Branch Protection Rules
 
 ```bash
-# Via API: protect main branch
+Via API: protect main branch
 curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/branch_protections" \
   -H "Authorization: token your-api-token" \
   -H "Content-Type: application/json" \
@@ -331,16 +331,16 @@ curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/branch_prote
   }'
 ```
 
-## Gitea API Automation
+Gitea API Automation
 
 Gitea ships with a full REST API documented at `/swagger` on your instance. Teams use it for onboarding automation, repository templating, and dashboard integrations.
 
 ```bash
-# List all repos in an org (paginated)
+List all repos in an org (paginated)
 curl -s "https://git.example.com/api/v1/orgs/mycompany/repos?limit=50&page=1" \
   -H "Authorization: token your-api-token" | jq '.[].full_name'
 
-# Mirror an external repo into Gitea (for archiving or vendoring)
+Mirror an external repo into Gitea (for archiving or vendoring)
 curl -X POST "https://git.example.com/api/v1/repos/migrate" \
   -H "Authorization: token your-api-token" \
   -H "Content-Type: application/json" \
@@ -353,7 +353,7 @@ curl -X POST "https://git.example.com/api/v1/repos/migrate" \
     "private": true
   }'
 
-# Create a deploy key on a repo (for CI runners)
+Create a deploy key on a repo (for CI runners)
 curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/keys" \
   -H "Authorization: token your-api-token" \
   -H "Content-Type: application/json" \
@@ -364,13 +364,13 @@ curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/keys" \
   }'
 ```
 
-### Scripted Onboarding
+Scripted Onboarding
 
 When a new developer joins, automate the full onboarding with a shell script:
 
 ```bash
 #!/bin/bash
-# scripts/onboard-dev.sh USERNAME EMAIL
+scripts/onboard-dev.sh USERNAME EMAIL
 set -e
 
 USERNAME="$1"
@@ -378,7 +378,7 @@ EMAIL="$2"
 API="https://git.example.com/api/v1"
 TOKEN="$GITEA_ADMIN_TOKEN"
 
-# Create user
+Create user
 curl -s -X POST "$API/admin/users" \
   -H "Authorization: token $TOKEN" \
   -H "Content-Type: application/json" \
@@ -391,49 +391,49 @@ curl -s -X POST "$API/admin/users" \
     \"send_notify\": true
   }"
 
-# Add to org teams
+Add to org teams
 TEAM_ID=$(curl -s "$API/orgs/mycompany/teams" \
   -H "Authorization: token $TOKEN" | jq '.[] | select(.name=="Developers") | .id')
 
 curl -s -X PUT "$API/teams/$TEAM_ID/members/$USERNAME" \
   -H "Authorization: token $TOKEN"
 
-echo "Onboarded $USERNAME — password reset required on first login"
+echo "Onboarded $USERNAME. password reset required on first login"
 ```
 
-## Upgrading Gitea
+Upgrading Gitea
 
 Gitea follows semantic versioning. Minor upgrades (1.21.x → 1.21.y) are safe to do any time. Major upgrades require reading the release notes for migration steps.
 
 ```bash
-# Pull the new image
+Pull the new image
 docker compose pull server
 
-# Back up before upgrading (always)
+Back up before upgrading (always)
 ./scripts/backup-gitea.sh
 
-# Apply the upgrade
+Apply the upgrade
 docker compose up -d server
 
-# Check logs for any migration output
+Check logs for any migration output
 docker compose logs -f server | grep -E "migration|error|panic"
 
-# Verify version
+Verify version
 curl -s https://git.example.com/api/v1/version | jq .version
 ```
 
 Pin the image tag in your `docker-compose.yml` (e.g., `gitea/gitea:1.22.1`) rather than using `latest`. This prevents surprise upgrades when you run `docker compose pull` for unrelated reasons.
 
-## Monitoring Gitea Health
+Monitoring Gitea Health
 
 ```bash
-# Gitea exposes metrics at /metrics (enable in app.ini)
-# In docker-compose, add:
+Gitea exposes metrics at /metrics (enable in app.ini)
+In docker-compose, add:
 GITEA__metrics__ENABLED=true
 GITEA__metrics__TOKEN=your-metrics-token
 
-# Scrape from Prometheus
-# prometheus.yml
+Scrape from Prometheus
+prometheus.yml
 scrape_configs:
   - job_name: gitea
     bearer_token: your-metrics-token
@@ -445,19 +445,19 @@ scrape_configs:
 
 Useful Gitea metrics to alert on:
 
-- `gitea_repositories_total` — track repo growth over time
-- `gitea_users_total` — unexpected spikes may indicate account compromise
-- `process_resident_memory_bytes` — Gitea is lean; spikes indicate runaway git operations
-- `gitea_actions_runners` — ensure your CI runner count stays above zero
+- `gitea_repositories_total`. track repo growth over time
+- `gitea_users_total`. unexpected spikes may indicate account compromise
+- `process_resident_memory_bytes`. Gitea is lean; spikes indicate runaway git operations
+- `gitea_actions_runners`. ensure your CI runner count stays above zero
 
 For a minimal health check endpoint, Gitea also provides `/api/v1/settings/api` which returns 200 when the instance is up and reachable. Add this to your uptime monitor (UptimeRobot, Uptime Kuma, or Grafana Synthetic Monitoring).
 
-## Managing Multiple Runners and Labels
+Managing Multiple Runners and Labels
 
-When your team grows, you will want runners with different capabilities — a runner with Docker-in-Docker for container builds, a runner with GPU access for ML tests, or a macOS runner for native builds. Gitea Actions supports runner labels to target specific machines:
+When your team grows, you will want runners with different capabilities. a runner with Docker-in-Docker for container builds, a runner with GPU access for ML tests, or a macOS runner for native builds. Gitea Actions supports runner labels to target specific machines:
 
 ```bash
-# Register a second runner with a custom label
+Register a second runner with a custom label
 docker run -d \
   --name gitea-runner-macos \
   -e GITEA_INSTANCE_URL=https://git.example.com \
@@ -467,14 +467,14 @@ docker run -d \
   gitea/act_runner:latest
 ```
 
-Labels are matched at scheduling time. Workflows that require `ubuntu-latest` go to Linux runners; workflows requiring `macos` go to the macOS runner. If no matching runner is online, the job queues until one becomes available — Gitea does not fail the job immediately, giving runners time to reconnect after maintenance.
+Labels are matched at scheduling time. Workflows that require `ubuntu-latest` go to Linux runners; workflows requiring `macos` go to the macOS runner. If no matching runner is online, the job queues until one becomes available. Gitea does not fail the job immediately, giving runners time to reconnect after maintenance.
 
-## Pull Request Review Workflow
+Pull Request Review Workflow
 
 Gitea's PR workflow is close to GitHub's but with a few differences in configuration worth knowing. Set sensible repository defaults via the API:
 
 ```bash
-# Set squash-merge as default and auto-delete merged branches
+Set squash-merge as default and auto-delete merged branches
 curl -X PATCH "https://git.example.com/api/v1/repos/mycompany/myrepo" \
   -H "Authorization: token your-api-token" \
   -H "Content-Type: application/json" \
@@ -487,7 +487,7 @@ curl -X PATCH "https://git.example.com/api/v1/repos/mycompany/myrepo" \
 
 Configure `default_delete_branch_after_merge: true` to keep the branch list clean. With squash merging as default, your `main` history stays linear and readable, which matters when `git bisect` is your primary debugging tool during an incident. Combine this with the branch protection rule requiring at least one approval and passing status checks, and you have a review workflow that is safe without being bureaucratic.
 
-## Related Reading
+Related Reading
 
 - [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
 - [How to Create Automated Deployment Notifications](/how-to-create-automated-deployment-notifications/)
@@ -496,13 +496,13 @@ Configure `default_delete_branch_after_merge: true` to keep the branch list clea
 
 ---
 
-## Related Articles
+Related Articles
 
 - [SSH Tunnels for Remote Database Access](/ssh-tunnels-remote-database-access/)
 - [Linux Server Hardening Guide for Remote Developers](/linux-server-hardening-remote-developers/)
 - [How to Set Up Woodpecker CI for Self-Hosted](/how-to-set-up-woodpecker-ci-for-self-hosted/)
 - [Setting Up Keycloak for Team SSO](/setting-up-keycloak-for-team-sso/)
 - [How to Manage Multiple GitHub Accounts for Remote Work](/how-to-manage-multiple-github-accounts-remote-work/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

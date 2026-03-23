@@ -18,14 +18,14 @@ voice-checked: true
 
 When you and your partner both work remotely and share a single home office, back-to-back video calls can quickly become a logistical nightmare. The good news is that with the right setup, acoustic treatment, and scheduling systems, you can create a harmonious workspace where both of you stay productive and professional on calls. This guide covers practical solutions for developers and power users who want to transform their shared office into a call-friendly environment.
 
-## Table of Contents
+Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Detailed Scheduling System with Code](#detailed-scheduling-system-with-code)
 - [Noise Suppression Tool Comparison for Couples](#noise-suppression-tool-comparison-for-couples)
 - [Troubleshooting](#troubleshooting)
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -35,25 +35,25 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Assessing Your Space and Identifying Problems
+Step 1: Assessing Your Space and Identifying Problems
 
 Before buying equipment or writing scripts, map out your actual usage patterns. Track when both of you typically have calls, identify the busiest overlap periods, and note where sound leaks occur in your space.
 
-Create a simple tracking sheet or use a calendar to log your call schedules for one week. You'll likely discover patterns—perhaps one person has morning standups while the other handles afternoon client calls. This data becomes the foundation for your scheduling solution.
+Create a simple tracking sheet or use a calendar to log your call schedules for one week. You'll likely discover patterns, perhaps one person has morning standups while the other handles afternoon client calls. This data becomes the foundation for your scheduling solution.
 
 Measure your room dimensions and note window placements, door locations, and any hard surfaces that reflect sound. A small 10x12 foot room with bare walls and hardwood floors will behave completely differently from a carpeted space with bookshelves. Understanding your acoustic environment helps you prioritize which solutions will have the biggest impact.
 
-### Step 2: Acoustic Treatment That Actually Works
+Step 2: Acoustic Treatment That Actually Works
 
 Sound management is often the biggest challenge in a shared office. You need to reduce both the sound escaping your space and the noise entering it from the rest of your home.
 
-### Budget-Friendly Sound Absorption
+Budget-Friendly Sound Absorption
 
 Start with DIY acoustic panels. You can build effective panels for under $30 each using rockwool insulation, 1x3 wooden frames, and breathable fabric. Mount them behind your camera or on walls adjacent to your desk where sound reflects directly back into your microphone.
 
 ```bash
-# Example: Calculate panel dimensions for your wall space
-# Measure wall width and height, then determine how many panels fit
+Calculate panel dimensions for your wall space
+Measure wall width and height, then determine how many panels fit
 wall_width_inches=144  # 12 feet
 wall_height_inches=96  # 8 feet
 panel_width=24
@@ -66,7 +66,7 @@ echo "You can fit $total_panels panels on this wall"
 
 For quick fixes, moving blankets hung on command hooks absorb significant sound, and a rug beneath your desk reduces foot traffic noise that travels through floors. Even positioning a bookshelf filled with books along one wall creates natural sound diffusion.
 
-### Microphone Selection for Noisy Environments
+Microphone Selection for Noisy Environments
 
 Your microphone choice matters more than any other equipment purchase. A quality directional microphone rejects sound from the sides and rear, meaning your partner's voice on their call becomes much less problematic.
 
@@ -74,11 +74,11 @@ USB condenser microphones like the Audio-Technica AT2020 or Scarlett Solo offer 
 
 If your budget allows, a proper noise-canceling microphone headset provides the best isolation. The Shure MV7 or Rode NT-USB Mini both offer excellent voice isolation with software that can further reduce background noise.
 
-### Step 3: Scheduling Systems and Shared Calendars
+Step 3: Scheduling Systems and Shared Calendars
 
 Once your space is acoustically treated, implement a scheduling system that prevents call conflicts before they happen.
 
-### Building a Shared Calendar Workflow
+Building a Shared Calendar Workflow
 
 Create a shared Google Calendar or use a tool like Cal.com with shared availability views. Both partners should block off "focus time" and "call time" in real-time, allowing either person to see the other's schedule at a glance.
 
@@ -133,54 +133,54 @@ if __name__ == "__main__":
     overlaps = find_overlaps(all_events)
 
     if overlaps:
-        print("⚠️  Call overlaps detected:")
+        print("  Call overlaps detected:")
         for overlap in overlaps:
             print(f"  {overlap['time']}: {overlap['event1']} overlaps with {overlap['event2']}")
     else:
-        print("✅ No call overlaps detected")
+        print(" No call overlaps detected")
 ```
 
 This script requires the `icalendar` package (`pip install icalendar`) and exported ICS files from your calendars. Run it as part of your morning routine to identify potential conflicts early.
 
-### Step 4: Technical Tools for Noise and Visual Isolation
+Step 4: Technical Tools for Noise and Visual Isolation
 
 Modern software provides powerful tools to supplement your physical setup.
 
-### Noise Cancellation Software
+Noise Cancellation Software
 
 Krisp (now Krisp.ai) offers real-time noise cancellation during calls and works with most video conferencing platforms. The free tier provides sufficient minutes for most remote workers, and the AI-powered cancellation handles unexpected noises like doorbells or barking dogs.
 
 For Linux users, NoiseTorch provides open-source noise cancellation that works with PulseAudio. Install it from your package manager or build from source for the latest features.
 
 ```bash
-# Install NoiseTorch on Fedora/RHEL
+Install NoiseTorch on Fedora/RHEL
 sudo dnf install noisetorch
 
-# Or build from source
+Or build from source
 git clone https://github.com/noisetorch/NoiseTorch.git
 cd NoiseTorch
 go build -o noisetorch ./cmd/noisetorch
 ```
 
-### Virtual Background Strategies
+Virtual Background Strategies
 
 When visual isolation isn't possible, a consistent virtual background helps maintain professionalism. Create a custom background that matches your room's lighting to avoid the jarring effect of imperfect edge detection. Most video platforms now offer background blur as a lightweight alternative that works reliably.
 
-### Step 5: Communication and House Rules
+Step 5: Communication and House Rules
 
-Technical solutions work best within a framework of clear communication. Establish simple signals that indicate when someone is on a call—perhaps a specific colored light outside the door or a slack status that others can see.
+Technical solutions work best within a framework of clear communication. Establish simple signals that indicate when someone is on a call, perhaps a specific colored light outside the door or a slack status that others can see.
 
 Create shared agreements: knock before entering during calls, use headphones for audio rather than speakers, and respect scheduled focus blocks. These small habits prevent most conflicts before they require technical intervention.
 
-### Step 6: Putting It All Together
+Step 6: Putting It All Together
 
 A shared home office that works for both partners on calls requires investment in three areas: acoustic treatment to contain sound, scheduling systems to prevent conflicts, and communication protocols to handle exceptions gracefully.
 
-Start with the scheduling system—you can implement that immediately. Then tackle acoustic treatment based on your budget and space constraints. Finally, layer in software tools like noise cancellation to handle edge cases.
+Start with the scheduling system, you can implement that immediately. Then tackle acoustic treatment based on your budget and space constraints. Finally, layer in software tools like noise cancellation to handle edge cases.
 
 The goal isn't a perfect, silent environment but rather a functional workspace where both partners can take calls without disrupting each other's professional presence. With these systems in place, your shared office becomes an asset rather than a limitation.
 
-### Step 7: Acoustic Treatment: Real Costs and Installation
+Step 7: Acoustic Treatment: Real Costs and Installation
 
 Building a call-friendly shared office requires strategic acoustic treatment. Here's actual pricing and what works:
 
@@ -193,9 +193,9 @@ Building a call-friendly shared office requires strategic acoustic treatment. He
 | Door sealing kits | $50-100 | Under/around one door | 30 min | 20-30% sound blocking |
 | Carpeting/rug addition | $200-400 | 8×10 ft area | Lay down, 20 min | 30-40% reflection reduction |
 
-**Realistic budget for couples' shared office:** $500-800 total gets you meaningful improvement. Professional panels are nicer but DIY rockwool panels work equally well at half the cost.
+Realistic budget for couples' shared office: $500-800 total gets you meaningful improvement. Professional panels are nicer but DIY rockwool panels work equally well at half the cost.
 
-### Step 8: Microphone Recommendations for Couple Dynamics
+Step 8: Microphone Recommendations for Couple Dynamics
 
 When both people are in the same room on separate calls, microphone choice becomes critical:
 
@@ -207,9 +207,9 @@ When both people are in the same room on separate calls, microphone choice becom
 | Shotgun condenser (Rode NT-SF1) | $200+ | Excellent (highly directional) | Most noise rejection; overkill for most situations |
 | Omnidirectional (Rode Procaster) | $200 | Poor (picks up everything) | NOT recommended for shared offices |
 
-**Real couple scenario:** Partner An uses headset with boom (excellent rejection), Partner B uses cardioid USB mic at desk. Combined with scheduling to minimize overlaps, this eliminates 90%+ of cross-talk.
+Real couple scenario: Partner An uses headset with boom (excellent rejection), Partner B uses cardioid USB mic at desk. Combined with scheduling to minimize overlaps, this eliminates 90%+ of cross-talk.
 
-## Detailed Scheduling System with Code
+Detailed Scheduling System with Code
 
 Here's an expanded version of the Python script that handles real-world complexity:
 
@@ -274,10 +274,10 @@ class CallScheduler:
         )
 
         if not todays_events:
-            print("✅ No calls scheduled today")
+            print(" No calls scheduled today")
             return
 
-        print("\n📅 Today's Call Schedule\n")
+        print("\n Today's Call Schedule\n")
         for event in todays_events:
             time_str = event['start'].strftime('%H:%M')
             person = event['person']
@@ -286,14 +286,14 @@ class CallScheduler:
 
         overlaps = self.find_overlaps()
         if overlaps:
-            print("\n⚠️  OVERLAPS DETECTED:\n")
+            print("\n  OVERLAPS DETECTED:\n")
             for overlap in overlaps:
-                print(f"{overlap['time']} — {overlap['duration_min']} min overlap")
+                print(f"{overlap['time']}. {overlap['duration_min']} min overlap")
                 print(f"  {overlap['person1']}: {overlap['event1']}")
                 print(f"  {overlap['person2']}: {overlap['event2']}")
-                print(f"  💡 Action: Reschedule one call or use aggressive noise suppression\n")
+                print(f"   Action: Reschedule one call or use aggressive noise suppression\n")
         else:
-            print("\n✅ No call overlaps detected—office is clear!")
+            print("\n No call overlaps detected, office is clear!")
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
@@ -306,7 +306,7 @@ if __name__ == "__main__":
 
 Run this at 8am every morning: `python check_schedule.py partner1.ics partner2.ics`. Output shows exactly when conflicts occur and how to handle them.
 
-## Noise Suppression Tool Comparison for Couples
+Noise Suppression Tool Comparison for Couples
 
 When scheduling can't prevent overlap:
 
@@ -320,109 +320,109 @@ When scheduling can't prevent overlap:
 
 Real couples feedback: Krisp (cheap, easy) + headset (directional) + scheduling = 95% of problems solved. Fancy noise suppression is rarely needed if you get the other two right.
 
-### Step 9: Home Office Layout for Dual Callers
+Step 9: Home Office Layout for Dual Callers
 
 Optimal setup when budget allows renovation:
 
 ```
         Window
           |
-    ╔═════════════════╗
-    ║  Desk 1    Desk 2 ║
-    ║ (Person A) (Person B)║
-    ║  Monitor   Monitor   ║
-    ║  Mic       Mic       ║
-    ╠═════════════════╣
-    ║  Acoustic Panels   ║
-    ║  (along back wall) ║
-    ╠═════════════════╣
-    ║  Door   Rug        ║
-    ╚═════════════════╝
+    
+      Desk 1    Desk 2 
+     (Person A) (Person B)
+      Monitor   Monitor   
+      Mic       Mic       
+    
+      Acoustic Panels   
+      (along back wall) 
+    
+      Door   Rug        
+    
 
 Key: Desks positioned back-to-back or perpendicular (not facing each other). Each person's monitor and mic face away from the other. Acoustic panels behind both desks. Door sealed with weatherstripping.
 
-Result: Even without headsets, cross-talk drops 60-70%.
+Even without headsets, cross-talk drops 60-70%.
 ```
 
 Actual couples report: back-to-back desks + one directional mic + standard room treatments + 2-3 call overlap avoidance per week = completely functional setup.
 
-### Step 10: Communication Protocol for Couples Working from Shared Space
+Step 10: Communication Protocol for Couples Working from Shared Space
 
 Clear signals prevent most tensions:
 
 ```markdown
-# Shared Office Ground Rules
+Shared Office Ground Rules
 
-### Step 11: Pre-Call (10 min warning)
+Step 11: Pre-Call (10 min warning)
 - Partner heading into a call sends message: "On a call with clients at 2pm, 30 min, sensitive"
 - Other partner adjusts accordingly (close door, reduce background noise, schedule breaks)
 
-### Step 12: During Call (active signal)
+Step 12: During Call (active signal)
 - Red light on desk door = DO NOT DISTURB
 - Green light = Can interrupt if emergency
 - No light = Available for urgent collaboration (but headphones on = in focus mode)
 
-### Step 13: Call Priority System
+Step 13: Call Priority System
 - Client-facing (presentations, interviews) = High priority, reschedule other call if conflict
 - Internal standup = Lower priority, can reschedule if needed
 - Async update call = Lowest priority, flexible on timing
 
-### Step 14: Overlap Fallback (if unexpected overlap happens)
+Step 14: Overlap Fallback (if unexpected overlap happens)
 1. Use headset mic with highest noise rejection
 2. Enable Krisp or noise suppression
 3. Keep call brief, reschedule non-urgent discussion
-4. Do NOT use speaker phone—always headset during overlaps
+4. Do NOT use speaker phone, always headset during overlaps
 
-### Step 15: End-of-Day Debrief (5 min)
+Step 15: End-of-Day Debrief (5 min)
 - Quick check: "Calls go OK? Need anything for tomorrow?"
 - Early notice of heavy call days so partner can prep workspace
 ```
 
 Couples who implement this protocol report zero lingering frustration. The signal system prevents surprise interruptions (largest source of tension).
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to share home office with partner both on calls?**
+How long does it take to share home office with partner both on calls?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-home-office-tax-deductions-2026/)
 - [Remote Working Parent Tax Deduction Guide for Home Office](/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
 - [Home Office Network Setup for Video Calls](/home-office-network-video-calls-setup/)
 - [Best Mesh WiFi for Home Office Video Calls: A Technical](/best-mesh-wifi-for-home-office-video-calls/)
 - [How to Add Sound Dampening to Home Office Door Cheaply](/how-to-add-sound-dampening-to-home-office-door-cheaply/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

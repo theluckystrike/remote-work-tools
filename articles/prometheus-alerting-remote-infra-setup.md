@@ -14,7 +14,7 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-## Prometheus Alerting for Remote Infrastructure
+Prometheus Alerting for Remote Infrastructure
 
 Running distributed infrastructure across cloud regions means failures happen at odd hours, often when no one is watching. Prometheus alerting combined with Alertmanager routes the right signal to the right person without waking everyone for a disk filling on a dev box.
 
@@ -22,7 +22,7 @@ This guide covers writing alert rules that fire on real conditions, routing aler
 
 ---
 
-## Prerequisites
+Prerequisites
 
 - Prometheus already scraping targets (see the monitoring setup guide)
 - Alertmanager installed alongside Prometheus
@@ -30,11 +30,11 @@ This guide covers writing alert rules that fire on real conditions, routing aler
 
 ---
 
-## Writing Alert Rules
+Writing Alert Rules
 
 Alert rules live in separate `.rules.yml` files and are loaded by Prometheus via `rule_files` in `prometheus.yml`.
 
-**`/etc/prometheus/rules/infra.rules.yml`**
+`/etc/prometheus/rules/infra.rules.yml`
 
 ```yaml
 groups:
@@ -118,26 +118,26 @@ curl -X POST http://localhost:9090/-/reload
 
 ---
 
-## Installing Alertmanager
+Installing Alertmanager
 
 ```bash
-# Download and install
+Download and install
 wget https://github.com/prometheus/alertmanager/releases/download/v0.27.0/alertmanager-0.27.0.linux-amd64.tar.gz
 tar xvf alertmanager-0.27.0.linux-amd64.tar.gz
 sudo mv alertmanager-0.27.0.linux-amd64/alertmanager /usr/local/bin/
 sudo mv alertmanager-0.27.0.linux-amd64/amtool /usr/local/bin/
 
-# Create config directory
+Create config directory
 sudo mkdir -p /etc/alertmanager
 ```
 
 ---
 
-## Alertmanager Configuration
+Alertmanager Configuration
 
 Alertmanager routes alerts based on labels, groups related alerts, and deduplicates. A well-designed routing tree prevents notification storms.
 
-**`/etc/alertmanager/alertmanager.yml`**
+`/etc/alertmanager/alertmanager.yml`
 
 ```yaml
 global:
@@ -221,9 +221,9 @@ time_intervals:
 
 ---
 
-## Slack Message Templates
+Slack Message Templates
 
-**`/etc/alertmanager/templates/slack.tmpl`**
+`/etc/alertmanager/templates/slack.tmpl`
 
 ```
 {{ define "slack.title" }}
@@ -243,9 +243,9 @@ time_intervals:
 
 ---
 
-## Systemd Service for Alertmanager
+Systemd Service for Alertmanager
 
-**`/etc/systemd/system/alertmanager.service`**
+`/etc/systemd/system/alertmanager.service`
 
 ```ini
 [Unit]
@@ -275,25 +275,25 @@ sudo systemctl start alertmanager
 
 ---
 
-## Testing Alerts
+Testing Alerts
 
 Use `amtool` to validate config and fire test alerts:
 
 ```bash
-# Validate config syntax
+Validate config syntax
 amtool check-config /etc/alertmanager/alertmanager.yml
 
-# List active alerts
+List active alerts
 amtool alert query --alertmanager.url=http://localhost:9093
 
-# Silence an alert during maintenance
+Silence an alert during maintenance
 amtool silence add \
   --alertmanager.url=http://localhost:9093 \
   --duration=2h \
   --comment="Planned maintenance" \
   alertname=InstanceDown instance=web-01:9100
 
-# Test alert delivery with curl
+Test alert delivery with curl
 curl -X POST http://localhost:9093/api/v2/alerts \
   -H "Content-Type: application/json" \
   -d '[{
@@ -305,11 +305,11 @@ curl -X POST http://localhost:9093/api/v2/alerts \
 
 ---
 
-## Alert Rule Best Practices for Remote Teams
+Alert Rule Best Practices for Remote Teams
 
-**Use `for` duration wisely**: A `for: 0m` fires immediately; use it only for alerts that need instant action (pod crash loops). For infrastructure metrics, 2-5 minutes prevents false fires from scrape gaps.
+Use `for` duration wisely: A `for: 0m` fires immediately; use it only for alerts that need instant action (pod crash loops). For infrastructure metrics, 2-5 minutes prevents false fires from scrape gaps.
 
-**Label everything**: Add `env`, `region`, and `team` labels to your scrape targets so alerts route correctly without extra config. Set labels in Prometheus scrape configs:
+Label everything: Add `env`, `region`, and `team` labels to your scrape targets so alerts route correctly without extra config. Set labels in Prometheus scrape configs:
 
 ```yaml
 scrape_configs:
@@ -322,9 +322,9 @@ scrape_configs:
           team: ops
 ```
 
-**Inhibit noisy derived alerts**: If a host goes down, suppress all the application-level alerts from that host using inhibit rules keyed on `instance`.
+Inhibit noisy derived alerts: If a host goes down, suppress all the application-level alerts from that host using inhibit rules keyed on `instance`.
 
-**Review alert fatigue weekly**: If a channel gets more than 20 alerts per week, either the threshold is wrong or the underlying problem needs fixing. Track alert volume in Grafana with:
+Review alert fatigue weekly: If a channel gets more than 20 alerts per week, either the threshold is wrong or the underlying problem needs fixing. Track alert volume in Grafana with:
 
 ```
 count_over_time(ALERTS{alertstate="firing"}[7d])
@@ -332,12 +332,12 @@ count_over_time(ALERTS{alertstate="firing"}[7d])
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Prometheus Monitoring Setup for Remote Infrastructure](/prometheus-monitoring-remote-infrastructure/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 - [Best Practice for Remote Team README Files in Repositories](/best-practice-for-remote-team-readme-files-in-repositories-s/)
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [Best Tools for Remote Team Daily Health Checks](/best-tools-remote-team-daily-health-checks/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

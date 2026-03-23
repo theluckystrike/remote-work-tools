@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Video Conferencing Tools — Remote Meeting Solutions Compared"
+title: "Video Conferencing Tools. Remote Meeting Solutions Compared"
 description: "Compare video conferencing tools for remote teams: Zoom, Google Meet, Microsoft Teams, and alternatives. Setup guides, pricing, and hybrid meeting room"
 permalink: /topics/video-conferencing-tools/
 intent-checked: true
@@ -8,13 +8,13 @@ voice-checked: true
 date: 2026-03-21
 ---
 
-# Video Conferencing Tools — Remote Meeting Solutions Compared
+# Video Conferencing Tools. Remote Meeting Solutions Compared
 
 Video conferencing is the backbone of remote team communication. Choosing the right platform affects meeting quality, team engagement, and collaboration effectiveness. This hub covers comparisons of Zoom plans, hybrid meeting room setups, screen sharing solutions, and video call optimization guides. Whether you need a tool for a 3-person co-founder team or 200-person quarterly all-hands meetings, these articles help you pick the right video conferencing solution and get the most out of it.
 
 ---
 
-## Articles in This Topic (95)
+Articles in This Topic (95)
 
 - [.github/workflows/conflict-escalation.yaml](/remote-team-conflict-resolution-over-chat-when-video-call-is/)
 - [Async Code Review Process Without Zoom Calls Step by Step](/async-code-review-process-without-zoom-calls-step-by-step/)

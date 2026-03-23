@@ -19,7 +19,7 @@ voice-checked: true
 
 Joining a distributed team as a senior hire presents unique challenges that differ significantly from office-based onboarding. Without the ability to casually meet colleagues in hallways or observe team dynamics in person, you need a structured approach to ramp up quickly and start delivering value. This 90-day plan template provides a framework for senior developers and leads to integrate effectively into remote teams while building the relationships and context necessary for long-term success.
 
-## Table of Contents
+Table of Contents
 
 - [Understanding the Remote Onboarding Challenge](#understanding-the-remote-onboarding-challenge)
 - [Phase One: Foundation Week (Days 1-7)](#phase-one-foundation-week-days-1-7)
@@ -28,17 +28,17 @@ Joining a distributed team as a senior hire presents unique challenges that diff
 - [Example 60-Day Goals Template](#example-60-day-goals-template)
 - [Remote-Specific Considerations](#remote-specific-considerations)
 
-## Understanding the Remote Onboarding Challenge
+Understanding the Remote Onboarding Challenge
 
 Remote onboarding for senior hires requires intentional effort that would otherwise happen organically in co-located settings. You cannot simply shadow a colleague, grab coffee with team members, or absorb organizational culture through passive observation. Every connection must be scheduled, every piece of context must be actively sought, and every norm must be explicitly communicated.
 
 The first 90 days break naturally into three distinct phases: the foundation week, the exploration sprint, and the contribution period. Each phase has specific goals and activities designed to accelerate your effectiveness while maintaining the async-first communication patterns common in distributed teams.
 
-## Phase One: Foundation Week (Days 1-7)
+Phase One: Foundation Week (Days 1-7)
 
-The first week focuses on getting your environment operational and understanding the team's basic communication patterns. Resist the temptation to examine code or architecture immediately—building the right foundation pays dividends throughout your tenure.
+The first week focuses on getting your environment operational and understanding the team's basic communication patterns. Resist the temptation to examine code or architecture immediately, building the right foundation pays dividends throughout your tenure.
 
-### Days 1-2: Environment Setup and Tooling
+Days 1-2: Environment Setup and Tooling
 
 Start by ensuring you have access to every tool the team uses. This typically includes:
 
@@ -51,19 +51,19 @@ Start by ensuring you have access to every tool the team uses. This typically in
 Configure your notification settings early. Most remote teams appreciate new hires who set clear availability patterns rather than appearing online 24/7. Define your core working hours and communicate them to your manager.
 
 ```bash
-# Example: Setting up SSH keys for multiple GitHub accounts
-# Generate a new key with a descriptive comment
+Setting up SSH keys for multiple GitHub accounts
+Generate a new key with a descriptive comment
 ssh-keygen -t ed25519 -C "work-laptop-$(date +%Y%m%d)"
 
-# Add to ssh-agent
+Add to ssh-agent
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 
-# Add to GitHub via CLI
+Add to GitHub via CLI
 gh auth login
 ```
 
-### Days 3-4: Team Introduction and Context Gathering
+Days 3-4: Team Introduction and Context Gathering
 
 Request introductions to key stakeholders through your manager. Aim to meet:
 
@@ -79,7 +79,7 @@ During these meetings, ask questions that help you understand the team's working
 - What async communication patterns should you follow?
 - Which channels serve which purposes?
 
-### Days 5-7: Documentation Review and Architecture Overview
+Days 5-7: Documentation Review and Architecture Overview
 
 Dedicate substantial time to reading existing documentation. Focus on:
 
@@ -90,11 +90,11 @@ Dedicate substantial time to reading existing documentation. Focus on:
 
 Create a running document of questions that arise during your review. This serves two purposes: it helps you remember to ask clarifying questions, and it often reveals documentation gaps that you can help fill later.
 
-## Phase Two: Exploration Sprint (Days 8-30)
+Phase Two: Exploration Sprint (Days 8-30)
 
 With the foundation in place, shift focus to understanding the product, codebase, and team dynamics more deeply. This phase emphasizes learning through doing small tasks while continuing to build relationships.
 
-### Week Two: Small Contributions and Code Review
+Week Two: Small Contributions and Code Review
 
 Start with small, bounded contributions that let you learn the codebase without significant risk. Good first tasks include:
 
@@ -125,7 +125,7 @@ async function fetchUserData(userId) {
 }
 ```
 
-### Weeks Three and Four: Deeper Integration
+Weeks Three and Four: Deeper Integration
 
 As you gain context, start participating more actively:
 
@@ -136,7 +136,7 @@ As you gain context, start participating more actively:
 
 This is also the time to establish your presence in async discussions. Share thoughtful comments in Slack channels, contribute to RFCs (Request for Comments), and demonstrate your expertise through substance rather than volume.
 
-### Middle Point Review (Day 30)
+Middle Point Review (Day 30)
 
 Schedule a check-in with your manager around day 30. This meeting should cover:
 
@@ -147,11 +147,11 @@ Schedule a check-in with your manager around day 30. This meeting should cover:
 
 Document your findings and share them with your manager. This demonstrates proactivity and helps identify any misalignments early.
 
-## Phase Three: Contribution Period (Days 31-90)
+Phase Three: Contribution Period (Days 31-90)
 
 The final phase shifts from learning to leading. You should now have sufficient context to make meaningful contributions and start driving impact.
 
-### Days 31-60: Delivering Impact
+Days 31-60: Delivering Impact
 
 Based on your 30-day review, identify 2-3 areas where you can deliver value:
 
@@ -162,25 +162,25 @@ Based on your 30-day review, identify 2-3 areas where you can deliver value:
 Take ownership of something meaningful. Senior hires who deliver visible impact in their first quarter establish credibility that accelerates their influence throughout their tenure.
 
 ```markdown
-## Example 60-Day Goals Template
+Example 60-Day Goals Template
 
-### Technical Goals
+Technical Goals
 - [ ] Lead implementation of the new authentication flow
 - [ ] Reduce API response time by 30% through caching optimization
 - [ ] Establish coding standards for the payment subsystem
 
-### Relationship Goals
+Relationship Goals
 - [ ] Complete 1:1s with all team members
 - [ ] Establish working agreement with the frontend team
-- [ ] Present technical deep-dive to the engineering organization
+- [ ] Present technical deep detailed look to the engineering organization
 
-### Process Goals
+Process Goals
 - [ ] Create onboarding documentation for your domain
 - [ ] Propose improvements to the code review process
 - [ ] Establish team metrics for your area of ownership
 ```
 
-### Days 61-90: Building Momentum
+Days 61-90: Building Momentum
 
 As you approach the 90-day mark, focus on sustainability and long-term positioning:
 
@@ -189,7 +189,7 @@ As you approach the 90-day mark, focus on sustainability and long-term positioni
 - Update onboarding materials to help future hires
 - Confirm your 90-day goals are achievable and communicate progress
 
-### 90-Day Review
+90-Day Review
 
 The 90-day review is a critical milestone. Come prepared to discuss:
 
@@ -199,49 +199,49 @@ The 90-day review is a critical milestone. Come prepared to discuss:
 - Your vision for your role in the next quarter
 - Feedback on the onboarding process itself
 
-## Remote-Specific Considerations
+Remote-Specific Considerations
 
 Several factors require extra attention when joining remote teams:
 
-**Time zone awareness** becomes critical when you're in a significantly different zone than your team. Identify the overlap hours and protect them for synchronous collaboration. Use async communication for everything else.
+Time zone awareness becomes critical when you're in a significantly different zone than your team. Identify the overlap hours and protect them for synchronous collaboration. Use async communication for everything else.
 
-**Written communication** carries more weight in remote settings. Your ability to write clearly and fully directly impacts your effectiveness. Practice writing detailed PR descriptions, RFCs, and documentation.
+Written communication carries more weight in remote settings. Your ability to write clearly and fully directly impacts your effectiveness. Practice writing detailed PR descriptions, RFCs, and documentation.
 
-**Visibility** doesn't happen automatically when you work remotely. Make your contributions visible through demos, written summaries, and consistent updates in team channels. This isn't self-promotion—it's necessary context-sharing.
+Visibility doesn't happen automatically when you work remotely. Make your contributions visible through demos, written summaries, and consistent updates in team channels. This isn't self-promotion, it's necessary context-sharing.
 
-**Relationship building** requires scheduled intentionality. Block time for coffee chats, virtual lunches, and informal conversations. These connections prove invaluable when you need to collaborate across teams or navigate complex situations.
+Relationship building requires scheduled intentionality. Block time for coffee chats, virtual lunches, and informal conversations. These connections prove invaluable when you need to collaborate across teams or navigate complex situations.
 ---
 
 Following this framework helps you transition from newcomer to effective contributor more quickly than ad-hoc approaches. The structured approach to relationship building, context gathering, and progressive contribution sets you up for long-term success in distributed teams.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Are there any hidden costs I should know about?**
+Are there any hidden costs I should know about?
 
 Watch for overage charges, API rate limit fees, and costs for premium features not included in base plans. Some tools charge extra for storage, team seats, or advanced integrations. Read the full pricing page including footnotes before signing up.
 
-**Is the annual plan worth it over monthly billing?**
+Is the annual plan worth it over monthly billing?
 
 Annual plans typically save 15-30% compared to monthly billing. If you have used the tool for at least 3 months and plan to continue, the annual discount usually makes sense. Avoid committing annually before you have validated the tool fits your needs.
 
-**Can I change plans later without losing my data?**
+Can I change plans later without losing my data?
 
 Most tools allow plan changes at any time. Upgrading takes effect immediately, while downgrades typically apply at the next billing cycle. Your data and settings are preserved across plan changes in most cases, but verify this with the specific tool.
 
-**Do student or nonprofit discounts exist?**
+Do student or nonprofit discounts exist?
 
 Many AI tools and software platforms offer reduced pricing for students, educators, and nonprofits. Check the tool's pricing page for a discount section, or contact their sales team directly. Discounts of 25-50% are common for qualifying organizations.
 
-**What happens to my work if I cancel my subscription?**
+What happens to my work if I cancel my subscription?
 
 Policies vary widely. Some tools let you access your data for a grace period after cancellation, while others lock you out immediately. Export your important work before canceling, and check the terms of service for data retention policies.
 
-## Related Articles
+Related Articles
 
 - [Remote Team Change Management Communication Plan Template](/remote-team-change-management-communication-plan-template-fo/)
 - [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [Remote Team Handbook Template](/remote-team-handbook-template-for-writing-remote-interview-p/)
 - [How to Write Remote Team Postmortem Communication Template](/how-to-write-remote-team-postmortem-communication-template-f/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

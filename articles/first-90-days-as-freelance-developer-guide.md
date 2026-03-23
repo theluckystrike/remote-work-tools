@@ -18,7 +18,7 @@ voice-checked: true
 
 Your first 90 days as a freelance developer should follow three phases: weeks 1-2 for legal and financial setup (LLC formation, business banking, insurance), weeks 3-4 for positioning and landing your first clients, and months 2-3 for establishing delivery processes and building systems that scale. This guide breaks down each phase with actionable steps, tools, and checklists you can implement immediately.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -28,11 +28,11 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Week 1-2: Legal and Financial Foundation
+Step 1: Week 1-2: Legal and Financial Foundation
 
 Before writing any code for clients, set up your business infrastructure. This phase prevents headaches later and establishes professional credibility.
 
-### Entity Structure
+Entity Structure
 
 Most freelance developers start as sole proprietors, but consider these factors:
 
@@ -41,27 +41,27 @@ Most freelance developers start as sole proprietors, but consider these factors:
 - S-Corp Election: If projected income exceeds $80,000/year, consult a CPA about potential tax savings.
 
 ```bash
-# Quick checklist for Week 1:
-# □ Register business name (DBA if sole proprietor)
-# □ Obtain EIN from IRS (free, 5 minutes online)
-# □ Open business bank account
-# □ Set up accounting software (QuickBooks Self-Employed, Wave, or FreshBooks)
-# □ Research state sales tax requirements if selling products
+Quick checklist for Week 1:
+ Register business name (DBA if sole proprietor)
+ Obtain EIN from IRS (free, 5 minutes online)
+ Open business bank account
+ Set up accounting software (QuickBooks Self-Employed, Wave, or FreshBooks)
+ Research state sales tax requirements if selling products
 ```
 
-### Business Banking
+Business Banking
 
 Separate your business and personal finances from day one. Use a business checking account and credit card exclusively for work expenses. This simplifies tax preparation and reinforces the professional mindset shift.
 
-### Insurance Considerations
+Insurance Considerations
 
 General liability insurance ($300-500/year) protects against client property damage or bodily injury claims. Professional liability insurance (errors and omissions) covers legal costs if a client claims your work caused financial losses.
 
-### Step 2: Week 3-4: Positioning and Client Acquisition
+Step 2: Week 3-4: Positioning and Client Acquisition
 
 With infrastructure in place, focus on defining your niche and attracting your first clients.
 
-### Defining Your Positioning
+Defining Your Positioning
 
 Vague positioning leads to commodity pricing. Specialize instead:
 
@@ -71,7 +71,7 @@ Vague positioning leads to commodity pricing. Specialize instead:
 
 Specific positioning attracts better clients and justifies premium rates.
 
-### Building Your Portfolio
+Building Your Portfolio
 
 Without client work to showcase, demonstrate capabilities through:
 
@@ -91,7 +91,7 @@ const portfolio = {
 };
 ```
 
-### First Client Acquisition Channels
+First Client Acquisition Channels
 
 Priority order for new freelance developers:
 
@@ -100,30 +100,30 @@ Priority order for new freelance developers:
 3. Job Boards: We Work Remotely, RemoteOK, Hacker News Hire
 4. Cold Outreach: Target 10 companies per week with personalized messages
 
-### Step 3: Month 2: Onboarding Clients and Establishing Processes
+Step 3: Month 2: Onboarding Clients and Establishing Processes
 
 With your first clients secured, focus on delivery excellence and operational efficiency.
 
-### Client Onboarding Workflow
+Client Onboarding Workflow
 
 Standardize your onboarding to save time and set professional expectations:
 
 ```yaml
-# client-onboarding-checklist.md
-### Step 4: Pre-project
+client-onboarding-checklist.md
+Step 4: Pre-project
 - [ ] Signed contract (with deposit terms)
 - [ ] Signed NDA if applicable
 - [ ] Project brief and scope document
 - [ ] Communication preferences documented
 
-### Step 5: First Week
+Step 5: First Week
 - [ ] Development environment setup documented
 - [ ] Code review process agreed
 - [ ] Deployment pipeline access granted
 - [ ] First milestone defined and scheduled
 ```
 
-### Setting Boundaries Early
+Setting Boundaries Early
 
 Establish communication norms in writing:
 
@@ -133,14 +133,14 @@ Establish communication norms in writing:
 - Working hours and availability
 
 ```markdown
-### Step 6: Communication Protocol
+Step 6: Communication Protocol
 - Slack/Teams: For quick questions during agreed hours
 - Email: For non-urgent matters and documentation
 - Video Calls: Scheduled meetings only, 24-hour notice minimum
 - Response SLA: 24 business hours for all channels
 ```
 
-### Pricing Strategies
+Pricing Strategies
 
 Test different pricing models early to find what works:
 
@@ -152,30 +152,30 @@ Test different pricing models early to find what works:
 
 Starting with hourly builds experience with client management. Transition to fixed-price or retainer as you improve estimation skills.
 
-### Step 7: Month 3: Systems and Scaling
+Step 7: Month 3: Systems and Scaling
 
 Move beyond trading time for money by building systems that generate value independent of your direct involvement.
 
-### Documentation as a Service
+Documentation as a Service
 
 Create reusable components and documentation that speed up future work:
 
 ```bash
-# Project starter templates
+Project starter templates
 /templates
   /nextjs-starter
   /express-api-scaffold
   /react-native-basic
   /python-flask-api
 
-# Common utilities
+Common utilities
 /utility-scripts
   /logger.js
   /validator.js
   /date-helpers.js
 ```
 
-### Financial Systems
+Financial Systems
 
 Automate financial management to reduce administrative burden:
 
@@ -184,7 +184,7 @@ Automate financial management to reduce administrative burden:
 3. Quarterly Tax Payments: Schedule reminders for IRS estimated payments
 4. Income Forecasting: Track pipeline value monthly
 
-### Building Recurring Revenue
+Building Recurring Revenue
 
 The freelance trap is trading all time for money. Work toward revenue streams that generate income without direct client work:
 
@@ -192,37 +192,37 @@ The freelance trap is trading all time for money. Work toward revenue streams th
 - Templates and Tools: Sellable digital products
 - Referral Fees: Establish relationships with agencies and consultants
 
-## Advanced: Contract Templates and Legal Frameworks
+Advanced: Contract Templates and Legal Frameworks
 
 Professional contracts protect both you and your clients. Create standard templates for different engagement types to save time during negotiations:
 
 ```markdown
-### Step 8: Standard Service Agreement
+Step 8: Standard Service Agreement
 
 This agreement ("Agreement") is made between [Your Company] ("Consultant") and [Client Name] ("Client").
 
-### Scope of Work
+Scope of Work
 Consultant agrees to provide [specific deliverables] as detailed in the Statement of Work (SOW).
 Scope is limited to: [List specifically what IS included]
 Scope excludes: [List what IS NOT included]
 
-### Compensation
+Compensation
 - Rate: [hourly/fixed price structure]
 - Payment Terms: [Net 30/50% deposit]
 - Late Payment: [2% monthly interest or late fee terms]
 - Currency: [USD/EUR/other]
 
-### Intellectual Property
+Intellectual Property
 - Custom work developed under this agreement belongs to Client
 - Pre-existing tools/libraries/frameworks remain Consultant's property
 - Client receives license to use custom code in production
 
-### Termination
+Termination
 - Either party may terminate with 2 weeks written notice
 - Client remains responsible for services rendered through termination date
 - Unpaid invoices due within 14 days of termination
 
-### Confidentiality
+Confidentiality
 Consultant agrees not to disclose Client's proprietary information during or after engagement.
 Non-disclosure period: [1 year / indefinite]
 ```
@@ -233,16 +233,16 @@ Create separate templates for:
 3. Retainer (recurring monthly commitment)
 4. Statement of Work (detailed scope attachment)
 
-### Continuous Learning Investment
+Continuous Learning Investment
 
 Dedicate 10% of billable hours to skill development. This maintains competitive advantage and prevents stagnation.
 
-### Step 9: Automation: Key Tools to Reduce Time-Wasting
+Step 9: Automation: Key Tools to Reduce Time-Wasting
 
 After your first few clients, your biggest bottleneck becomes admin overhead. Automate these workflows:
 
 ```yaml
-# Invoice Automation Setup
+Invoice Automation Setup
 tool: FreshBooks or Wave
 automation:
   - Auto-generate recurring invoices for retainer clients
@@ -250,7 +250,7 @@ automation:
   - Auto-categorize expenses for tax prep
   - Generate quarterly income reports
 
-# Time Tracking and Reporting
+Time Tracking and Reporting
 tool: Toggl or Harvest
 setup:
   - Track billable hours per client/project
@@ -258,7 +258,7 @@ setup:
   - Identify where you're spending time (reveals inefficiencies)
   - Calculate effective hourly rate across all work
 
-# Email and Meeting Scheduling
+Email and Meeting Scheduling
 tool: Calendly
 automation:
   - Embed scheduling link in email signature
@@ -266,7 +266,7 @@ automation:
   - Auto-confirm client meetings
   - Time zone management for international clients
 
-# Contract and Document Management
+Contract and Document Management
 tool: Airtable or PipeDrive
 tracking:
   - Pipeline of prospective clients
@@ -277,18 +277,18 @@ tracking:
 
 These tools should cost $20-80/month combined but save 5-8 hours weekly, freeing capacity for billable work.
 
-### Step 10: Month 3+ Strategy: Moving Beyond Commodity Rates
+Step 10: Month 3+ Strategy: Moving Beyond Commodity Rates
 
 After three months, evaluate your positioning. Are you competing on price or value?
 
-**Price-based positioning** (commodity developer) leads to constant client churn and downward pressure on rates. **Value-based positioning** (specialist solving specific problems) commands higher rates and attracts better clients.
+Price-based positioning (commodity developer) leads to constant client churn and downward pressure on rates. Value-based positioning (specialist solving specific problems) commands higher rates and attracts better clients.
 
 Transition your positioning by:
 
-1. **Specializing deeper** — Pick your best client type, study their problems obsessively
-2. **Writing about your niche** — Blog posts, Twitter threads, open source contributions establish authority
-3. **Raising rates** — When you have a waiting list, raise rates. Existing clients often accept; new clients pay higher rates
-4. **Systemizing delivery** — Build repeatable processes that let you deliver faster, increasing effective hourly rate
+1. Specializing deeper. Pick your best client type, study their problems obsessively
+2. Writing about your niche. Blog posts, Twitter threads, open source contributions establish authority
+3. Raising rates. When you have a waiting list, raise rates. Existing clients often accept; new clients pay higher rates
+4. Systemizing delivery. Build repeatable processes that let you deliver faster, increasing effective hourly rate
 
 Example rate progression:
 - Month 1-2: $50-75/hr (landing first clients)
@@ -296,7 +296,7 @@ Example rate progression:
 - Month 6-12: $100-150/hr (specialization premium)
 - Year 2+: Fixed-price projects at $2k-10k (not hourly)
 
-### Step 11: What to Prioritize in Your First 90 Days
+Step 11: What to Prioritize in Your First 90 Days
 
 The overwhelm of freelance independence catches many developers off guard. Focus on these priorities in order:
 
@@ -306,49 +306,49 @@ The overwhelm of freelance independence catches many developers off guard. Focus
 4. Systems Documentation: Capture processes while they're fresh
 5. Positioning Refinement: Adjust based on what clients actually value
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to complete this setup?**
+How long does it take to complete this setup?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Incorporate as a Freelance Developer](/how-to-incorporate-as-a-freelance-developer/)
 - [How to Separate Business and Personal Finances](/how-to-separate-business-and-personal-finances-freelance/)
 - [How to Set Freelance Developer Rates in 2026](/how-to-set-freelance-developer-rates-2026/)
 - [Llc vs Sole Proprietor for Freelance Developers](/llc-vs-sole-proprietor-for-freelance-developers/)
 - [Best Business Bank Accounts for Freelancers 2026](/best-business-bank-accounts-for-freelancers-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

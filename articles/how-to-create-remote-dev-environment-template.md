@@ -15,11 +15,11 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-"It works on my machine" becomes "it works on your machine too" when dev environments are codified. Remote teams are especially exposed to environment drift — developers are on different OS versions, different tool versions, and different configurations. A template that runs consistently on day one means less async debugging and faster onboarding.
+"It works on my machine" becomes "it works on your machine too" when dev environments are codified. Remote teams are especially exposed to environment drift. developers are on different OS versions, different tool versions, and different configurations. A template that runs consistently on day one means less async debugging and faster onboarding.
 
 ---
 
-## Option 1: Dev Containers (VS Code / JetBrains)
+Option 1: Dev Containers (VS Code / JetBrains)
 
 Dev Containers run your entire development environment inside a Docker container. VS Code and JetBrains connect to it ; the developer's local machine is just a display layer.
 
@@ -69,28 +69,28 @@ Create `.devcontainer/Dockerfile`:
 ```dockerfile
 FROM mcr.microsoft.com/devcontainers/base:ubuntu-22.04
 
-# Install language runtimes
+Install language runtimes
 RUN apt-get update && apt-get install -y \
     curl wget git build-essential \
     postgresql-client redis-tools \
     && rm -rf /var/lib/apt/lists/*
 
-# Go
+Go
 ARG GO_VERSION=1.22.3
 RUN curl -fsSL https://go.dev/dl/go${GO_VERSION}.linux-amd64.tar.gz \
     | tar -C /usr/local -xz
 ENV PATH="/usr/local/go/bin:${PATH}"
 
-# Node.js via nvm
+Node.js via nvm
 ARG NODE_VERSION=20
 RUN curl -fsSL https://deb.nodesource.com/setup_${NODE_VERSION}.x | bash - \
     && apt-get install -y nodejs
 
-# Tools
+Tools
 RUN go install github.com/air-verse/air@latest \
     && go install github.com/golang-migrate/migrate/v4/cmd/migrate@latest
 
-# Set up non-root user
+Set up non-root user
 USER vscode
 RUN curl -fsSL https://get.pnpm.io/install.sh | sh -
 ```
@@ -111,7 +111,7 @@ For teams using Docker Compose (multiple services):
 ```
 
 ```yaml
-# .devcontainer/docker-compose.devcontainer.yml
+.devcontainer/docker-compose.devcontainer.yml
 version: "3.8"
 services:
   app:
@@ -122,12 +122,12 @@ services:
 
 ---
 
-## Option 2: Nix Flakes (Reproducible Across All OS)
+Option 2: Nix Flakes (Reproducible Across All OS)
 
 Nix flakes provide bit-for-bit reproducible environments. The same `flake.nix` produces identical tool versions on macOS, Linux, and in CI.
 
 ```bash
-# Install Nix (macOS/Linux)
+Install Nix (macOS/Linux)
 curl --proto '=https' --tlsv1.2 -sSf https://install.determinate.systems/nix | sh -s -- install
 ```
 
@@ -203,23 +203,23 @@ Enter the dev shell:
 
 ```bash
 nix develop
-# Or with direnv auto-activation:
+Or with direnv auto-activation:
 echo "use flake" > .envrc
 direnv allow
 ```
 
 ---
 
-## Option 3: Makefile Bootstrap (Universal)
+Option 3: Makefile Bootstrap (Universal)
 
 For teams where Nix and Docker are too opinionated, a `Makefile` with a `setup` target provides a documented, repeatable setup that works anywhere:
 
 ```makefile
-# Makefile
+Makefile
 .DEFAULT_GOAL := help
 SHELL := /bin/bash
 
-# Tool versions
+Tool versions
 GO_VERSION := 1.22.3
 NODE_VERSION := 20
 TERRAFORM_VERSION := 1.8.5
@@ -254,7 +254,7 @@ setup-hooks: ## Install git hooks
 setup-env: ## Set up local environment file
 	@if [ ! -f .env.local ]; then \
 		cp .env.example .env.local; \
-		echo ".env.local created from .env.example — fill in your values"; \
+		echo ".env.local created from .env.example. fill in your values"; \
 	else \
 		echo ".env.local already exists"; \
 	fi
@@ -275,7 +275,7 @@ clean: ## Stop and clean development services
 
 ```bash
 #!/bin/bash
-# scripts/install-tools.sh
+scripts/install-tools.sh
 set -euo pipefail
 
 install_go() {
@@ -301,46 +301,46 @@ install_golangci_lint
 
 ---
 
-## Documenting the Template
+Documenting the Template
 
 Every repo should have an `ONBOARDING.md` that fits on one screen:
 
 ```markdown
-# Getting Started
+Getting Started
 
-## Prerequisites
+Prerequisites
 - macOS 13+ / Ubuntu 22.04+ / Windows 11 + WSL2
 - Docker Desktop 4.x
 - VS Code with Dev Containers extension (recommended)
 - Git 2.40+
 
-## Setup (5 minutes)
+Setup (5 minutes)
 
 ```bash
 git clone git@github.com:your-org/your-repo.git
 cd your-repo
 
-# Option A: Dev Container (recommended)
+Option A: Dev Container (recommended)
 code . # VS Code prompts to reopen in container
 
-# Option B: Local setup
+Option B: Local setup
 make setup
 ```
 
-## Running the Project
+Running the Project
 
 ```bash
 make dev # Start all services
 open http://localhost:3000
 ```
 
-## Environment Variables
+Environment Variables
 Copy `.env.example` to `.env.local` and fill in values. Ask in #dev-setup for secrets.
 ```
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Remote Team Git Hooks Standardization Guide](/remote-team-git-hooks-standardization-guide/)
 - [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
@@ -349,13 +349,13 @@ Copy `.env.example` to `.env.local` and fill in values. Ask in #dev-setup for se
 - [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
 ---
 
-## Related Articles
+Related Articles
 
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 - [Remote Team Environment Provisioning Tool for Spinning Up](/remote-team-environment-provisioning-tool-for-spinning-up-de/)
 - [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
 - [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
 - [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

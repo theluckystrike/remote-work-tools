@@ -19,12 +19,12 @@ API mocking lets remote teams work in parallel without waiting for backend endpo
 
 ---
 
-## WireMock (Java/Docker, Production-Grade)
+WireMock (Java/Docker, Production-Grade)
 
 WireMock is the most capable mock server for integration testing. It runs as a Docker container and supports request matching, response templating, stateful scenarios, and fault injection.
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 services:
   wiremock:
@@ -108,18 +108,18 @@ Test error scenarios with fault injection:
 
 ---
 
-## Mockoon (Desktop + CLI, Zero-Config)
+Mockoon (Desktop + CLI, Zero-Config)
 
 Mockoon is the fastest way to spin up a mock API. Import an OpenAPI spec and it generates stubs automatically.
 
 ```bash
-# Install CLI
+Install CLI
 npm install -g @mockoon/cli
 
-# Start a mock environment from file
+Start a mock environment from file
 mockoon-cli start --data ./mockoon-environment.json --port 3001
 
-# Start from OpenAPI spec
+Start from OpenAPI spec
 mockoon-cli start \
   --data https://api.yourcompany.com/openapi.json \
   --port 3001
@@ -183,34 +183,34 @@ services:
 
 ---
 
-## Prism (OpenAPI Contract Validation)
+Prism (OpenAPI Contract Validation)
 
 Prism by Stoplight serves mocks from OpenAPI specs and validates requests/responses against the schema. It catches contract violations at dev time.
 
 ```bash
 npm install -g @stoplight/prism-cli
 
-# Serve a mock from OpenAPI spec
+Serve a mock from OpenAPI spec
 prism mock https://api.yourcompany.com/openapi.yaml
 
-# Or from a local file
+Or from a local file
 prism mock ./api/openapi.yaml --port 4010
 
-# Proxy real API but validate responses
+Proxy real API but validate responses
 prism proxy https://api.yourcompany.com ./api/openapi.yaml --port 4011
 ```
 
 Prism returns errors when your OpenAPI spec and actual API diverge:
 
 ```
-[PRISM] POST /payments/charge  ✓  Request valid
-[PRISM] POST /payments/charge  ✗  Response invalid: missing required field 'transactionId'
+[PRISM] POST /payments/charge    Request valid
+[PRISM] POST /payments/charge    Response invalid: missing required field 'transactionId'
 ```
 
 Combine with CI to validate your API matches the spec on every deploy:
 
 ```yaml
-# .github/workflows/api-contract.yml
+.github/workflows/api-contract.yml
 name: API Contract Tests
 on: [push, pull_request]
 jobs:
@@ -232,7 +232,7 @@ jobs:
 
 ---
 
-## MSW (Mock Service Worker, Frontend-First)
+MSW (Mock Service Worker, Frontend-First)
 
 MSW intercepts requests at the network level using a Service Worker in the browser or Node.js interceptors in tests. The same mock definitions work in both environments.
 
@@ -323,7 +323,7 @@ test('shows error message when payment fails', async () => {
 
 ---
 
-## Tool Selection Guide
+Tool Selection Guide
 
 | Tool | Best For | Strength |
 |------|----------|----------|
@@ -336,7 +336,7 @@ For most remote teams: use MSW for frontend unit tests, Mockoon for shared team 
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Best Tools for Remote Team API Documentation](/best-tools-remote-team-api-documentation/)
 - [Best Tools for Remote Team Load Testing](/best-tools-remote-team-load-testing/)
@@ -345,13 +345,13 @@ For most remote teams: use MSW for frontend unit tests, Mockoon for shared team 
 - [Best API Key Management Workflow for Remote Development](/best-api-key-management-workflow-for-remote-development-team/)
 ---
 
-## Related Articles
+Related Articles
 
 - [Best API Tools for Automating Remote Team Compliance](/best-api-tools-for-automating-remote-team-compliance-reporti/)
 - [Best Tools for Remote Team API Documentation](/best-tools-remote-team-api-documentation/)
 - [Best Tools for Remote Team Feature Flags](/best-tools-remote-team-feature-flags/)
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [How to Handle Remote Team Tool Consolidation When Rapid](/how-to-handle-remote-team-tool-consolidation-when-rapid-grow/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

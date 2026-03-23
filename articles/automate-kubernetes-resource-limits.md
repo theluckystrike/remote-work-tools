@@ -14,23 +14,23 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-## How to Automate Kubernetes Resource Limits
+How to Automate Kubernetes Resource Limits
 
 Setting Kubernetes resource limits manually means guessing, and guessing wrong in either direction hurts: too low causes OOMKills and CPU throttling; too high wastes money and starves other pods. Automation shifts this from a one-time guess to a continuous process that adjusts limits based on actual usage.
 
 ---
 
-## Why Manual Limits Fail
+Why Manual Limits Fail
 
 A developer writes `requests: memory: 256Mi, cpu: 100m` because those are round numbers. Three months later the service handles 10x the traffic, gets OOMKilled weekly, and nobody knows why because the resource requests haven't changed. The answer is to measure real usage and automate the limits from that data.
 
 ---
 
-## Approach 1: Vertical Pod Autoscaler (VPA) — Recommendation Mode
+Approach 1: Vertical Pod Autoscaler (VPA). Recommendation Mode
 
-VPA watches pod resource usage over time and generates recommendations. In `Off` mode it only recommends — you can review and apply changes in your own process. In `Auto` mode it updates the pod spec and restarts pods.
+VPA watches pod resource usage over time and generates recommendations. In `Off` mode it only recommends. you can review and apply changes in your own process. In `Auto` mode it updates the pod spec and restarts pods.
 
-**Install VPA:**
+Install VPA:
 
 ```bash
 git clone https://github.com/kubernetes/autoscaler.git
@@ -38,7 +38,7 @@ cd autoscaler/vertical-pod-autoscaler
 ./hack/vpa-up.sh
 ```
 
-**Create a VPA object in Off mode (recommendations only):**
+Create a VPA object in Off mode (recommendations only):
 
 ```yaml
 apiVersion: autoscaling.k8s.io/v1
@@ -65,7 +65,7 @@ spec:
         controlledResources: ["cpu", "memory"]
 ```
 
-**Read recommendations:**
+Read recommendations:
 
 ```bash
 kubectl get vpa myapp-vpa -n production -o json | \
@@ -83,12 +83,12 @@ Output:
 }
 ```
 
-**Script to apply VPA recommendations as actual limits:**
+Script to apply VPA recommendations as actual limits:
 
 ```bash
 #!/bin/bash
-# apply-vpa-recommendations.sh
-# Reads VPA target recommendations and patches deployment resource limits
+apply-vpa-recommendations.sh
+Reads VPA target recommendations and patches deployment resource limits
 
 NAMESPACE="${1:-production}"
 DRY_RUN="${2:-true}"  # pass "false" to apply
@@ -118,17 +118,17 @@ for vpa in $(kubectl get vpa -n "$NAMESPACE" -o jsonpath='{.items[*].metadata.na
   done
 done
 
-[[ "$DRY_RUN" == "true" ]] && echo "(dry run — pass 'false' as second arg to apply)"
+[[ "$DRY_RUN" == "true" ]] && echo "(dry run. pass 'false' as second arg to apply)"
 ```
 
 ---
 
-## Approach 2: Goldilocks Dashboard
+Approach 2: Goldilocks Dashboard
 
 Goldilocks runs VPA in recommendation mode for every deployment in a namespace and provides a web UI showing current vs. recommended limits.
 
 ```bash
-# Install via Helm
+Install via Helm
 helm repo add fairwinds-stable https://charts.fairwinds.com/stable
 helm repo update
 
@@ -137,19 +137,19 @@ helm install goldilocks fairwinds-stable/goldilocks \
   --create-namespace \
   --set controller.flags.on-by-default=false
 
-# Enable Goldilocks for a specific namespace
+Enable Goldilocks for a specific namespace
 kubectl label namespace production goldilocks.fairwinds.com/enabled=true
 
-# Access the dashboard
+Access the dashboard
 kubectl port-forward -n goldilocks svc/goldilocks-dashboard 8080:80
-# Open http://localhost:8080
+Open http://localhost:8080
 ```
 
 Goldilocks shows a table per deployment with current requests/limits and VPA recommendations in a copy-paste format ready for your Helm values.
 
 ---
 
-## Approach 3: LimitRange — Enforce Defaults
+Approach 3: LimitRange. Enforce Defaults
 
 LimitRange automatically injects default resource requests and limits into any pod that doesn't specify them. It prevents unbounded pods from consuming all cluster resources.
 
@@ -183,13 +183,13 @@ spec:
 ```bash
 kubectl apply -f limitrange.yaml -n production
 
-# Verify it's active
+Verify it's active
 kubectl describe limitrange default-limits -n production
 ```
 
 ---
 
-## Approach 4: ResourceQuota — Namespace-Level Budget
+Approach 4: ResourceQuota. Namespace-Level Budget
 
 Set a hard ceiling on total resource consumption per namespace:
 
@@ -210,20 +210,20 @@ spec:
 ```
 
 ```bash
-# Check current usage against quota
+Check current usage against quota
 kubectl get resourcequota -n production
 kubectl describe resourcequota production-quota -n production
 ```
 
 ---
 
-## Automated Weekly Right-Sizing Report
+Automated Weekly Right-Sizing Report
 
 Run weekly and post to Slack when pods are significantly over-provisioned:
 
 ```python
 #!/usr/bin/env python3
-# right-size-report.py
+right-size-report.py
 import subprocess
 import json
 import os
@@ -294,7 +294,7 @@ else:
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Prometheus Alerting for Remote Infrastructure](/prometheus-alerting-remote-infra-setup/)
 - [How to Set Up ArgoCD for GitOps Workflows](/argocd-gitops-workflow-setup/)
@@ -302,5 +302,5 @@ else:
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

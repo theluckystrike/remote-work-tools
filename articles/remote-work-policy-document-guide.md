@@ -17,7 +17,7 @@ tags: [remote-work-tools, remote-work]
 
 A remote work policy answers the questions employees ask repeatedly: What hours do I need to be available? Who pays for my home office equipment? What happens if I want to work from another country? Writing it once prevents confusion, reduces manager overhead, and protects the company legally.
 
-## Table of Contents
+Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [5. Security Requirements](#5-security-requirements)
@@ -27,22 +27,22 @@ A remote work policy answers the questions employees ask repeatedly: What hours 
 
 This guide walks through writing a complete remote work policy and provides a template you can adapt.
 
-## What a Remote Work Policy Covers
+What a Remote Work Policy Covers
 
 A complete policy addresses seven areas:
 
-1. Eligibility — who qualifies for remote work
-2. Work location rules — home, co-working, other countries
-3. Availability expectations — hours, response times, meeting attendance
-4. Equipment and expenses — who provides what and what gets reimbursed
-5. Security requirements — device management, VPN, data handling
-6. Performance standards — how remote work is evaluated
-7. Policy violations — what happens when rules are not followed
+1. Eligibility. who qualifies for remote work
+2. Work location rules. home, co-working, other countries
+3. Availability expectations. hours, response times, meeting attendance
+4. Equipment and expenses. who provides what and what gets reimbursed
+5. Security requirements. device management, VPN, data handling
+6. Performance standards. how remote work is evaluated
+7. Policy violations. what happens when rules are not followed
 
-## Section 1: Eligibility
+Section 1: Eligibility
 
 ```markdown
-## 1. Eligibility
+1. Eligibility
 
 Remote work is available to permanent employees who have completed their 90-day
 onboarding period and whose role can be performed remotely without significant
@@ -57,16 +57,16 @@ Employees on a performance improvement plan are not eligible for remote work
 until the plan is successfully completed.
 ```
 
-## Section 2: Work Location
+Section 2: Work Location
 
 ```markdown
-## 2. Approved Work Locations
+2. Approved Work Locations
 
-### Primary Location
+Primary Location
 Employees must designate a primary work address and notify HR of changes within
 10 business days. The primary address determines payroll tax jurisdiction.
 
-### Home Office Requirements
+Home Office Requirements
 The home office must:
 - Have reliable internet (minimum 25 Mbps download, 10 Mbps upload)
 - Provide a quiet, distraction-controlled environment during core hours
@@ -74,12 +74,12 @@ The home office must:
   seating)
 - Be a private space where confidential information cannot be overheard
 
-### Co-Working Spaces
+Co-Working Spaces
 Employees may work from co-working spaces approved by IT. Public Wi-Fi use
 requires a VPN connection at all times. Company data must not be visible or
 accessible to other co-working space occupants.
 
-### International Work
+International Work
 Employees wishing to work from outside their home country for more than 14
 consecutive days must request approval at least 30 days in advance from HR and
 Legal. Approval requires assessment of:
@@ -92,12 +92,12 @@ Short-term travel (under 14 days) does not require pre-approval but must not
 conflict with attendance requirements.
 ```
 
-## Section 3: Availability and Communication
+Section 3: Availability and Communication
 
 ```markdown
-## 3. Availability Expectations
+3. Availability Expectations
 
-### Core Hours
+Core Hours
 All remote employees are expected to be available for synchronous communication
 during core hours: 10:00 AM – 3:00 PM in their designated time zone.
 
@@ -105,13 +105,13 @@ Outside core hours, employees are expected to respond to messages within
 4 business hours. Urgent issues marked with [URGENT] in Slack require response
 within 1 hour during the employee's working day.
 
-### Meeting Attendance
+Meeting Attendance
 Remote employees are expected to attend scheduled team meetings with camera on
 unless they have a documented reason. Meeting links are sent at least 24 hours
 in advance. Employees who cannot attend must notify the organizer in advance
 and review the recording or notes within 1 business day.
 
-### Availability Signals
+Availability Signals
 Employees must keep their Slack status up to date:
 - Active (green): available for real-time communication
 - Focus (moon icon): in deep work, respond within 2 hours
@@ -122,12 +122,12 @@ Employees must update their calendar with working hours and vacation days so
 teammates can see availability without asking.
 ```
 
-## Section 4: Equipment and Expenses
+Section 4: Equipment and Expenses
 
 ```markdown
-## 4. Equipment and Expense Policy
+4. Equipment and Expense Policy
 
-### Company-Provided Equipment
+Company-Provided Equipment
 The company provides:
 - A primary laptop appropriate to the employee's role
 - Standard peripherals: mouse, keyboard, USB hub
@@ -136,27 +136,27 @@ The company provides:
 Company equipment remains company property and must be returned upon separation.
 Damage caused by negligence may be charged to the employee.
 
-### Home Office Stipend
+Home Office Stipend
 Employees receive a one-time home office setup stipend of $800 upon joining,
 for equipment not covered above (monitor, desk chair, desk, lighting).
 Receipts must be submitted within 90 days. Stipend is taxable as income.
 
-### Monthly Internet Reimbursement
+Monthly Internet Reimbursement
 The company reimburses $50/month toward home internet costs. Submit receipts
 quarterly via the expense system. Business-class upgrades are not reimbursed.
 
-### Co-Working Space Reimbursement
+Co-Working Space Reimbursement
 The company reimburses co-working day passes up to $200/month with manager
 approval and a receipt. Monthly co-working memberships up to $300/month require
 advance manager approval.
 ```
 
-## Section 5: Security
+Section 5: Security
 
 ```markdown
-## 5. Security Requirements
+5. Security Requirements
 
-### Device Requirements
+Device Requirements
 All devices used for company work must:
 - Run a supported operating system with current security patches
 - Have full-disk encryption enabled (FileVault on macOS, BitLocker on Windows)
@@ -164,60 +164,60 @@ All devices used for company work must:
 - Have the company MDM profile installed (enrollment via [link])
 - Not be shared with household members for work purposes
 
-### Network Security
+Network Security
 - VPN is required when working from any non-home network (coffee shops,
   hotels, co-working spaces, airports)
 - Home networks must use WPA2 or WPA3 encryption
 - Default router passwords must be changed
 
-### Data Handling
+Data Handling
 - Company data must not be stored on personal cloud storage (personal Google
   Drive, Dropbox free accounts, iCloud)
 - Customer PII may not be stored on local drives; use approved company systems
 - Physical documents containing confidential information must be shredded
 
-### Incident Reporting
+Incident Reporting
 Lost or stolen devices must be reported to IT within 2 hours of discovery.
 IT will initiate a remote wipe. Reporting delays may result in disciplinary action.
 ```
 
-## Section 6: Performance Standards
+Section 6: Performance Standards
 
 ```markdown
-## 6. Performance and Accountability
+6. Performance and Accountability
 
 Remote work does not change performance expectations. Employees are evaluated
-on outcomes, deliverables, and team collaboration — not hours online.
+on outcomes, deliverables, and team collaboration. not hours online.
 
-### What Managers Track
+What Managers Track
 - Output quality and delivery against agreed deadlines
 - Responsiveness within stated availability windows
 - Active participation in team communication and review processes
 - Completion of required check-ins (weekly 1:1s, team standups)
 
-### What Managers Do Not Track
+What Managers Do Not Track
 - Screen time, keylogging, or activity monitoring software is not used
 - Time logged in work applications is not tracked as a performance metric
 - Employees are trusted to manage their time within output expectations
 
-### Check-In Requirements
+Check-In Requirements
 Employees must complete:
 - Weekly written status update (async, in designated channel) by Friday 5pm
 - Monthly 1:1 with direct manager
 - Quarterly goal review with manager
 ```
 
-## Section 7: Policy Violations
+Section 7: Policy Violations
 
 ```markdown
-## 7. Policy Violations
+7. Policy Violations
 
 Violations of this policy are handled through the company's standard progressive
 discipline process:
 
-**First violation**: Verbal discussion with manager, coaching on expectations
-**Second violation**: Written warning, documented in employee file
-**Serious violations** (security incidents, unauthorized international work,
+First violation: Verbal discussion with manager, coaching on expectations
+Second violation: Written warning, documented in employee file
+Serious violations (security incidents, unauthorized international work,
 data mishandling): may result in immediate escalation to termination review,
 regardless of prior history
 
@@ -225,65 +225,65 @@ Employees are encouraged to raise concerns about policy clarity with their
 manager or HR before violations occur.
 ```
 
-## Distribution and Acknowledgment
+Distribution and Acknowledgment
 
 ```bash
-# After drafting the policy, distribute for acknowledgment
-# Most HRIS systems (Gusto, BambooHR, Rippling) have e-signature acknowledgment workflows
+After drafting the policy, distribute for acknowledgment
+Most HRIS systems (Gusto, BambooHR, Rippling) have e-signature acknowledgment workflows
 
-# For a lightweight approach:
-# 1. Host policy in the company wiki (Notion, Confluence)
-# 2. Create a short Google Form: "I have read and understood the Remote Work Policy"
-# 3. Send via Slack or email with required completion deadline
-# 4. Export responses for HR records
+For a lightweight approach:
+1. Host policy in the company wiki (Notion, Confluence)
+2. Create a short Google Form: "I have read and understood the Remote Work Policy"
+3. Send via Slack or email with required completion deadline
+4. Export responses for HR records
 
-# Review cycle: review and update the policy annually
-# Flag changes to employees when the policy is updated
+Review cycle: review and update the policy annually
+Flag changes to employees when the policy is updated
 ```
 
-## Common Mistakes to Avoid
+Common Mistakes to Avoid
 
-Keep the policy under 3,000 words. Long policies get skimmed and ignored. If a section requires extensive explanation, that is a sign the rule is too complex — simplify the rule rather than adding more explanation.
+Keep the policy under 3,000 words. Long policies get skimmed and ignored. If a section requires extensive explanation, that is a sign the rule is too complex. simplify the rule rather than adding more explanation.
 
 Avoid vague language like "reasonable" or "appropriate" without defining what those mean. A phrase like "respond to messages in a reasonable time" is unenforceable. "Respond within 4 business hours" is not.
 
-Review the policy with a lawyer before publishing if your team spans multiple countries. Employment law varies significantly — a policy clause that is standard in the US may conflict with local labor law in Germany, France, or Brazil.
+Review the policy with a lawyer before publishing if your team spans multiple countries. Employment law varies significantly. a policy clause that is standard in the US may conflict with local labor law in Germany, France, or Brazil.
 
-## Related Reading
+Related Reading
 
 - [How to Create a Remote Work Stipend Policy That Is Legally Tax Compliant](/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
 - [How to Create a Bring Your Own Device Policy for Remote Teams](/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
 - [How to Communicate Remote Work Policy Changes to Distributed Teams](/how-to-communicate-remote-work-policy-changes-to-distributed/)
 - [How to Create Hybrid Office Quiet Zone Policy for Employees](/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
 
-## Related Articles
+Related Articles
 
 - [How to Create Bring Your Own Device Policy for Remote Teams](/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
 - [How to Create Remote Work Stipend Policy That Is Legally](/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
 - [Meeting Free Day Policy for Remote Teams Guide](/meeting-free-day-policy-for-remote-teams-guide/)
 - [Remote Team Vulnerability Disclosure Policy Template](/remote-team-vulnerability-disclosure-policy-template-for-dis/)
 - [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-caregiver-leave-policy-template-for-distributed-/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to create a remote work policy document?**
+How long does it take to create a remote work policy document?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Is this approach secure enough for production?**
+Is this approach secure enough for production?
 
 The patterns shown here follow standard practices, but production deployments need additional hardening. Add rate limiting, input validation, proper secret management, and monitoring before going live. Consider a security review if your application handles sensitive user data.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 

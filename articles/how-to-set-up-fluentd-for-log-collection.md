@@ -17,11 +17,11 @@ tags: [remote-work-tools]
 
 Fluentd is the CNCF log aggregation standard. It collects logs from dozens of sources (Docker, syslog, application files, Kubernetes), transforms and filters them, then routes to one or more destinations. For remote teams with multiple services across multiple hosts, centralized logging is the difference between having observable systems and debugging in the dark.
 
-When an incident happens at 3 AM in a different time zone, the on-call engineer needs logs available in a single search interface — not scattered across individual container filesystems that require SSH access to read. Fluentd handles the collection layer so engineers can focus on investigation rather than log retrieval.
+When an incident happens at 3 AM in a different time zone, the on-call engineer needs logs available in a single search interface. not scattered across individual container filesystems that require SSH access to read. Fluentd handles the collection layer so engineers can focus on investigation rather than log retrieval.
 
 ---
 
-## Install Fluentd
+Install Fluentd
 
 On Debian/Ubuntu (using td-agent, the stable distribution):
 
@@ -39,7 +39,7 @@ docker pull fluent/fluentd:v1.17-1
 
 ---
 
-## Basic Configuration Structure
+Basic Configuration Structure
 
 Fluentd config lives at `/etc/td-agent/td-agent.conf`. It has four directive types:
 
@@ -51,13 +51,13 @@ Fluentd config lives at `/etc/td-agent/td-agent.conf`. It has four directive typ
 A minimal config that reads Docker logs and sends to Elasticsearch:
 
 ```xml
-# /etc/td-agent/td-agent.conf
+/etc/td-agent/td-agent.conf
 
-# =====================
-# SOURCES
-# =====================
+=====================
+SOURCES
+=====================
 
-# Collect Docker container logs
+Collect Docker container logs
 <source>
   @type tail
   @id docker_logs
@@ -71,7 +71,7 @@ A minimal config that reads Docker logs and sends to Elasticsearch:
   </parse>
 </source>
 
-# Collect syslog
+Collect syslog
 <source>
   @type syslog
   @id syslog
@@ -82,7 +82,7 @@ A minimal config that reads Docker logs and sends to Elasticsearch:
   </transport>
 </source>
 
-# Collect application logs via HTTP API
+Collect application logs via HTTP API
 <source>
   @type http
   @id http_input
@@ -92,12 +92,12 @@ A minimal config that reads Docker logs and sends to Elasticsearch:
   keepalive_timeout 10
 </source>
 
-# =====================
-# FILTERS
-# =====================
+=====================
+FILTERS
+=====================
 
-# Parse Docker log metadata
-<filter docker.**>
+Parse Docker log metadata
+<filter docker.>
   @type record_transformer
   <record>
     container_id ${tag_suffix[4]}
@@ -106,8 +106,8 @@ A minimal config that reads Docker logs and sends to Elasticsearch:
   </record>
 </filter>
 
-# Drop health check noise
-<filter docker.**>
+Drop health check noise
+<filter docker.>
   @type grep
   <exclude>
     key log
@@ -115,8 +115,8 @@ A minimal config that reads Docker logs and sends to Elasticsearch:
   </exclude>
 </filter>
 
-# Parse JSON application logs
-<filter docker.**>
+Parse JSON application logs
+<filter docker.>
   @type parser
   key_name log
   reserve_data true
@@ -126,11 +126,11 @@ A minimal config that reads Docker logs and sends to Elasticsearch:
   </parse>
 </filter>
 
-# =====================
-# OUTPUT
-# =====================
+=====================
+OUTPUT
+=====================
 
-<match docker.**>
+<match docker.>
   @type elasticsearch
   @id elasticsearch_out
   host elasticsearch.yourcompany.internal
@@ -158,12 +158,12 @@ A minimal config that reads Docker logs and sends to Elasticsearch:
 
 ---
 
-## Docker Compose Deployment
+Docker Compose Deployment
 
 For a full logging stack with Docker:
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 
 services:
@@ -222,12 +222,12 @@ volumes:
 Fluentd Dockerfile with required plugins:
 
 ```dockerfile
-# fluentd/Dockerfile
+fluentd/Dockerfile
 FROM fluent/fluentd:v1.17-1
 
 USER root
 
-# Install plugins
+Install plugins
 RUN gem install \
     fluent-plugin-elasticsearch \
     fluent-plugin-s3 \
@@ -239,12 +239,12 @@ USER fluent
 
 ---
 
-## Configure Applications to Send Logs to Fluentd
+Configure Applications to Send Logs to Fluentd
 
 Applications send logs to the Fluentd container via the forward protocol:
 
 ```yaml
-# In your app's docker-compose.yml
+In your app's docker-compose.yml
 services:
   api:
     image: yourcompany/api:latest
@@ -294,7 +294,7 @@ import fluent.event
 
 fluent.event.setup('app', host='fluentd', port=24224)
 
-# Emit a structured event
+Emit a structured event
 fluent.event.Event('payments', {
     'user_id': user_id,
     'amount': amount,
@@ -309,12 +309,12 @@ The key discipline for remote teams: always emit structured JSON rather than pla
 
 ---
 
-## Route Logs to S3 for Long-Term Storage
+Route Logs to S3 for Long-Term Storage
 
 ```xml
-# Add to td-agent.conf
+Add to td-agent.conf
 
-<match **>
+<match >
   @type s3
   @id s3_archive
   aws_key_id "#{ENV['AWS_ACCESS_KEY_ID']}"
@@ -368,19 +368,19 @@ aws s3api put-bucket-lifecycle-configuration \
 
 ---
 
-## Multi-Output Routing with Labels
+Multi-Output Routing with Labels
 
 Send logs to different destinations based on content:
 
 ```xml
-<match docker.**>
+<match docker.>
   @type relabel
   @label @routing
 </match>
 
 <label @routing>
   # Security events → dedicated security log store
-  <match **>
+  <match >
     @type rewrite_tag_filter
     <rule>
       key level
@@ -394,7 +394,7 @@ Send logs to different destinations based on content:
     </rule>
   </match>
 
-  <match security.**>
+  <match security.>
     @type elasticsearch
     host security-elasticsearch.yourcompany.internal
     port 9200
@@ -402,7 +402,7 @@ Send logs to different destinations based on content:
     logstash_format true
   </match>
 
-  <match errors.**>
+  <match errors.>
     @type copy
     <store>
       @type elasticsearch
@@ -419,7 +419,7 @@ Send logs to different destinations based on content:
     </store>
   </match>
 
-  <match **>
+  <match >
     @type elasticsearch
     host elasticsearch.yourcompany.internal
     port 9200
@@ -433,20 +433,20 @@ The Slack store in the errors match is valuable for remote teams: 5xx errors get
 
 ---
 
-## Sampling High-Volume Logs
+Sampling High-Volume Logs
 
 In production, some services emit enormous log volumes. Sampling reduces costs without losing visibility into errors:
 
 ```xml
-<filter app.high_volume_service.**>
+<filter app.high_volume_service.>
   @type sampling
   sample_unit second
   # Keep 1 in 10 info logs; keep all warnings and errors
   interval 10
 </filter>
 
-# Override: always keep errors regardless of sampling
-<filter app.high_volume_service.**>
+Override: always keep errors regardless of sampling
+<filter app.high_volume_service.>
   @type grep
   <regexp>
     key level
@@ -459,12 +459,12 @@ A two-stage filter approach: sample down info logs first, then let the grep filt
 
 ---
 
-## Adding Trace Correlation Fields
+Adding Trace Correlation Fields
 
 Remote debugging across microservices is much faster when every log record carries a trace ID that links related requests. Inject the trace ID at the Fluentd filter layer so it applies uniformly even to services that don't emit it natively:
 
 ```xml
-<filter app.**>
+<filter app.>
   @type record_transformer
   enable_ruby true
   <record>
@@ -478,29 +478,29 @@ Remote debugging across microservices is much faster when every log record carri
 </filter>
 ```
 
-With `trace_id` present on every record, a Kibana query like `trace_id:"req-abc-123"` retrieves the full request path across all services — API gateway, auth service, payments service — without manually correlating timestamps.
+With `trace_id` present on every record, a Kibana query like `trace_id:"req-abc-123"` retrieves the full request path across all services. API gateway, auth service, payments service. without manually correlating timestamps.
 
 ---
 
-## Monitor Fluentd Health
+Monitor Fluentd Health
 
 ```bash
-# Check Fluentd status
+Check Fluentd status
 curl http://localhost:24220/api/config.json | jq '.'
 
-# Metrics endpoint
+Metrics endpoint
 curl http://localhost:24220/api/plugins.json | jq '.'
 
-# Check buffer queue depth (high = Elasticsearch can't keep up)
+Check buffer queue depth (high = Elasticsearch can't keep up)
 curl http://localhost:24220/api/plugins.json \
   | jq '.plugins[] | select(.plugin_id | contains("elasticsearch")) | {buffer_queue_length, retry_count}'
 ```
 
-Alert on buffer queue depth exceeding a threshold — it means Fluentd is accumulating logs faster than the output can accept them. Left unaddressed, the buffer fills, the `overflow_action block` directive causes Fluentd to apply backpressure on input, and eventually logs are dropped or Docker log drivers start timing out. Catching this early prevents a silent data loss situation:
+Alert on buffer queue depth exceeding a threshold. it means Fluentd is accumulating logs faster than the output can accept them. Left unaddressed, the buffer fills, the `overflow_action block` directive causes Fluentd to apply backpressure on input, and eventually logs are dropped or Docker log drivers start timing out. Catching this early prevents a silent data loss situation:
 
 ```bash
 #!/bin/bash
-# scripts/check-fluentd-buffer.sh
+scripts/check-fluentd-buffer.sh
 QUEUE=$(curl -s http://localhost:24220/api/plugins.json \
   | jq '.plugins[] | select(.plugin_id | contains("elasticsearch")) | .buffer_queue_length' \
   | head -1)
@@ -508,13 +508,13 @@ QUEUE=$(curl -s http://localhost:24220/api/plugins.json \
 if [[ "$QUEUE" -gt 50 ]]; then
   curl -s -X POST "$SLACK_WEBHOOK_URL" \
     -H "Content-Type: application/json" \
-    -d "{\"text\": \":warning: Fluentd buffer queue depth is $QUEUE on $(hostname) — check Elasticsearch health\"}"
+    -d "{\"text\": \":warning: Fluentd buffer queue depth is $QUEUE on $(hostname). check Elasticsearch health\"}"
 fi
 ```
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Vector for Log Processing](/how-to-set-up-vector-for-log-processing/)
 - [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
@@ -523,13 +523,13 @@ fi
 
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Vector for Log Processing](/how-to-set-up-vector-for-log-processing/)
 - [Optimize Docker for Slow Connections When Working Remotely](/docker-optimize-slow-connection-remote-work/)
 - [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 - [How to Create Decision Log Documentation for Remote Teams](/how-to-create-decision-log-documentation-for-remote-teams-re/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

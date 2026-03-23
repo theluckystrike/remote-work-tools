@@ -16,7 +16,7 @@ tags: [remote-work-tools]
 
 Three-office-day hybrid schedules balance collaboration needs with focused individual work by using rotating assignment patterns that ensure 3 days in office, minimum team overlap, and no more than 60% office capacity on any day. Python scripts can generate valid rotation schedules, YAML configurations specify which days teams are in-office, and calendar sync tooling (Google Calendar API) makes schedules accessible where teams live. Desk booking systems prevent overbooking, communication protocols clarify when to prefer in-person versus async, and monthly reviews adapt schedules to actual team patterns.
 
-## Table of Contents
+Table of Contents
 
 - [Understanding the Three-Office-Day Pattern](#understanding-the-three-office-day-pattern)
 - [Building the Schedule Template](#building-the-schedule-template)
@@ -28,15 +28,15 @@ Three-office-day hybrid schedules balance collaboration needs with focused indiv
 - [Managing Desk and Resource Booking](#managing-desk-and-resource-booking)
 - [Review and Iterate](#review-and-iterate)
 
-## Understanding the Three-Office-Day Pattern
+Understanding the Three-Office-Day Pattern
 
 A three-day office schedule works well when your team has specific needs that require physical presence. Engineering teams doing hardware debugging, design teams collaborating on physical prototypes, or teams with frequent client meetings often find two office days insufficient. The three-day pattern provides enough overlap for meaningful collaboration while still granting team members two days for focused, uninterrupted work.
 
 The key challenge is preventing the schedule from becoming chaotic. Without a clear template, you'll deal with constant Slack messages asking "who's in tomorrow?" and last-minute desk bookings. A structured approach with rotation logic solves this.
 
-## Building the Schedule Template
+Building the Schedule Template
 
-### Core Schedule Structure
+Core Schedule Structure
 
 A three-office-day schedule typically follows one of two patterns:
 
@@ -117,7 +117,7 @@ def create_weekly_rotation(team: List[TeamMember], weeks: int = 4) -> Dict:
 
     return rotation
 
-# Example usage
+Example usage
 if __name__ == "__main__":
     team = [
         TeamMember("Alice", required_office_days=["Monday"]),
@@ -132,12 +132,12 @@ if __name__ == "__main__":
 
 Run this script to generate a four-week rotation that you can then adapt to your specific team size and constraints.
 
-### Schedule Storage Format
+Schedule Storage Format
 
 Store your schedule in a format that's easy to update and integrates with existing tools. JSON or YAML works well:
 
 ```yaml
-# schedule.yaml
+schedule.yaml
 team_schedule:
   rotation_period: bi-weekly
 
@@ -168,9 +168,9 @@ team_schedule:
       required: false
 ```
 
-## Integrating with Calendar Tools
+Integrating with Calendar Tools
 
-For developers, the schedule needs to live where you already live—your calendar. Here's a script that syncs your schedule to Google Calendar:
+For developers, the schedule needs to live where you already live, your calendar. Here's a script that syncs your schedule to Google Calendar:
 
 ```javascript
 // calendar-sync.js
@@ -202,7 +202,7 @@ async function syncScheduleToCalendar(credentialsPath, scheduleFile) {
       for (const person of inOfficeList) {
         // Check if this event already exists
         const event = {
-          summary: `🏢 In Office - ${person}`,
+          summary: ` In Office - ${person}`,
           description: `Office day for ${person}. Check desk booking system.`,
           start: { date: getNextDateForDay(day) },
           end: { date: getNextDateForDay(day) }
@@ -232,33 +232,33 @@ function getNextDateForDay(dayName) {
 module.exports = { syncScheduleToCalendar };
 ```
 
-## Setting Up Communication Norms
+Setting Up Communication Norms
 
 A schedule template is useless without clear communication expectations. Define when to use which channel based on who's in the office:
 
 ```markdown
-# Hybrid Communication Protocol
+Hybrid Communication Protocol
 
-## Office Days (Mon/Wed/Fri for Group A)
+Office Days (Mon/Wed/Fri for Group A)
 - Prefer in-person conversations for code reviews
 - Use Slack for async updates that remote team members need
 - Book meeting rooms for discussions involving remote folks
-- Update shared Slack status: "� office"
+- Update shared Slack status: " office"
 
-## Remote Days (Tue/Thu for Group A)
+Remote Days (Tue/Thu for Group A)
 - All meetings must have Zoom/Meet links
 - Record important discussions for those in different timezones
 - Use async updates in writing before jumping to calls
-- Update shared Slack status: "🏠 remote"
+- Update shared Slack status: " remote"
 
-## Cross-Mode Communication
+Cross-Mode Communication
 When one person is in-office and others are remote:
 - Always include virtual meeting link in calendar invites
 - Default to screen-sharing during code reviews
 - Use collaborative documents for design discussions
 ```
 
-## Managing Desk and Resource Booking
+Managing Desk and Resource Booking
 
 With three office days, you'll likely need a desk booking system. Several open-source options exist, or you can build a simple one:
 
@@ -309,7 +309,7 @@ class DeskBookingSystem {
 }
 ```
 
-## Review and Iterate
+Review and Iterate
 
 Your first schedule won't be perfect. Plan a monthly review where the team discusses:
 
@@ -322,33 +322,33 @@ Adjust the template based on feedback. The schedule should serve your team's act
 
 Building a three-office-day hybrid schedule doesn't require expensive tools or complex systems. Start with a simple rotation, use existing calendar and communication tools, and iterate based on what actually works for your team.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Example: Generating a staggered schedule for a 6-person team](/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
 - [Return to Office Tools for Hybrid Teams: A Practical Guide](/return-to-office-tools-for-hybrid-teams/)
 - [Review assignment logic (example)](/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
 - [Digital Signage for Hybrid Office Communication](/digital-signage-for-hybrid-office-communication/)
 - [Remote Team First 90 Days Plan Template for Senior Hires](/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

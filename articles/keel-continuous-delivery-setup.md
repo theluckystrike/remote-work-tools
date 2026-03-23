@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Keel for Continuous Delivery"
-description: "Deploy Keel in Kubernetes to automatically update Deployments and Helm releases when new container images are pushed — with approval workflows and Slack."
+description: "Deploy Keel in Kubernetes to automatically update Deployments and Helm releases when new container images are pushed. with approval workflows and Slack."
 date: 2026-03-22
 author: theluckystrike
 permalink: /keel-continuous-delivery-setup/
@@ -14,15 +14,15 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-## How to Set Up Keel for Continuous Delivery
+How to Set Up Keel for Continuous Delivery
 
-Keel watches your container registries and automatically updates Kubernetes Deployments, StatefulSets, DaemonSets, and Helm releases when new images are published. Unlike ArgoCD's GitOps model, Keel operates in-cluster and responds directly to registry events — which makes it useful for rapid iteration on staging environments where you want every push to main to deploy immediately.
+Keel watches your container registries and automatically updates Kubernetes Deployments, StatefulSets, DaemonSets, and Helm releases when new images are published. Unlike ArgoCD's GitOps model, Keel operates in-cluster and responds directly to registry events. which makes it useful for rapid iteration on staging environments where you want every push to main to deploy immediately.
 
 This guide covers Helm installation, per-workload update policies, Slack approval workflows, webhook triggers from GitHub Actions, Helm release updates, and Prometheus metrics for monitoring Keel's behavior.
 
 ---
 
-## How Keel Works
+How Keel Works
 
 Keel runs as a Deployment in your cluster. It monitors container registries (by polling or webhook), compares image tags against your running workloads, and updates them according to per-workload update policies defined in annotations or Helm values.
 
@@ -36,42 +36,42 @@ Keel requires the `keel.sh/policy` annotation (or Helm values equivalent) on eve
 
 ---
 
-## Install Keel with Helm
+Install Keel with Helm
 
 ```bash
 helm repo add keel https://charts.keel.sh
 helm repo update
 
-# Install with Slack notifications and approval enabled
+Install with Slack notifications and approval enabled
 cat > keel-values.yaml << 'EOF'
-# Slack notifications
+Slack notifications
 slack:
   enabled: true
   token: "xoxb-your-slack-bot-token"
   channel: "#deployments"
   approvalsChannel: "#infra-approvals"
 
-# Enable Keel webhook endpoint for registry push triggers
+Enable Keel webhook endpoint for registry push triggers
 webhooks:
   enabled: true
 
-# RBAC — Keel needs to update deployments
+RBAC. Keel needs to update deployments
 rbac:
   enabled: true
   serviceAccount:
     create: true
 
-# Helm provider to update Helm releases too
+Helm provider to update Helm releases too
 helmProvider:
   enabled: true
   version: v3
 
-# Slack approval for production deployments
+Slack approval for production deployments
 approvals:
   slack:
     enabled: true
 
-# Poll interval for registries without webhooks
+Poll interval for registries without webhooks
 polling:
   defaultSchedule: "@every 3m"
 EOF
@@ -93,11 +93,11 @@ kubectl logs -n keel -l app=keel --tail=50
 
 ---
 
-## Annotate Deployments for Auto-Update
+Annotate Deployments for Auto-Update
 
 Keel reads annotations on Deployments to know the update policy:
 
-**Auto-update on any new semver minor/patch on staging:**
+Auto-update on any new semver minor/patch on staging:
 
 ```yaml
 apiVersion: apps/v1
@@ -118,7 +118,7 @@ spec:
           image: ghcr.io/yourorg/myapp:1.2.0
 ```
 
-**Require Slack approval for production:**
+Require Slack approval for production:
 
 ```yaml
 apiVersion: apps/v1
@@ -144,7 +144,7 @@ React with :white_check_mark: to approve or :x: to reject
 
 Two team members react with the checkmark emoji, and Keel proceeds with the rollout. The approval deadline ensures stale approvals do not hang open indefinitely.
 
-**Force-pull latest tag (useful during active development):**
+Force-pull latest tag (useful during active development):
 
 ```yaml
 annotations:
@@ -157,12 +157,12 @@ With `force` policy, Keel updates the Deployment even if the tag name does not c
 
 ---
 
-## Webhook Trigger from CI/CD
+Webhook Trigger from CI/CD
 
 Instead of polling, trigger Keel immediately when your CI pipeline pushes an image:
 
 ```yaml
-# .github/workflows/deploy.yml
+.github/workflows/deploy.yml
 - name: Trigger Keel update
   run: |
     curl -X POST https://keel.yourcluster.internal/v1/webhooks/native \
@@ -205,9 +205,9 @@ For multi-environment pipelines, send separate webhook calls per environment wit
 
 ---
 
-## Registry Webhooks for GHCR and Docker Hub
+Registry Webhooks for GHCR and Docker Hub
 
-**GitHub Container Registry (GHCR):**
+GitHub Container Registry (GHCR):
 
 Configure a GitHub webhook on push events pointing to:
 
@@ -223,7 +223,7 @@ gh api repos/yourorg/yourrepo/hooks --method POST \
   -f active=true
 ```
 
-**Docker Hub:**
+Docker Hub:
 
 In Docker Hub → Repository → Webhooks, add:
 
@@ -231,12 +231,12 @@ In Docker Hub → Repository → Webhooks, add:
 https://keel.yourcluster.internal/v1/webhooks/dockerhub
 ```
 
-**Amazon ECR:**
+Amazon ECR:
 
 ECR does not support webhooks natively. Use EventBridge + Lambda to forward ECR push events to Keel:
 
 ```bash
-# Lambda function that calls the Keel native webhook
+Lambda function that calls the Keel native webhook
 import json, urllib.request
 
 def handler(event, context):
@@ -254,12 +254,12 @@ def handler(event, context):
 
 ---
 
-## Update Helm Releases with Keel
+Update Helm Releases with Keel
 
 Keel can also update Helm release values when a new image is published. Add a `keel` section to your Helm values:
 
 ```yaml
-# values.yaml for a Helm chart managed by Keel
+values.yaml for a Helm chart managed by Keel
 image:
   repository: ghcr.io/yourorg/myapp
   tag: "1.2.0"
@@ -294,28 +294,28 @@ keel:
 
 ---
 
-## Monitoring Keel
+Monitoring Keel
 
 ```bash
-# Check Keel logs
+Check Keel logs
 kubectl logs -n keel -l app=keel -f
 
-# List pending approvals
+List pending approvals
 kubectl exec -n keel deploy/keel -- keel approvals --pending
 
-# List all tracked images
+List all tracked images
 kubectl exec -n keel deploy/keel -- keel tracked
 
-# Force a manual update check
+Force a manual update check
 kubectl exec -n keel deploy/keel -- keel update --name myapp --namespace staging
 ```
 
-**Prometheus metrics** are exposed at `:9300/metrics`. Key metrics:
+Prometheus metrics are exposed at `:9300/metrics`. Key metrics:
 
 ```
-keel_update_approval_total        — total approvals sent
-keel_update_deployment_total      — total deployments triggered
-keel_registry_pull_errors_total   — registry pull failures
+keel_update_approval_total       . total approvals sent
+keel_update_deployment_total     . total deployments triggered
+keel_registry_pull_errors_total  . registry pull failures
 ```
 
 Add a Grafana dashboard using these metrics to track deployment frequency and approval rate over time. A rising `keel_registry_pull_errors_total` is an early warning of registry authentication failures or rate limiting.
@@ -338,36 +338,36 @@ groups:
 
 ---
 
-## Common Issues and Fixes
+Common Issues and Fixes
 
-**Keel is not picking up a new image tag**
+Keel is not picking up a new image tag
 
 Check that the Deployment annotation `keel.sh/policy` is set and that the image path in the Deployment spec exactly matches the registry path Keel received in the webhook. Tags are case-sensitive.
 
 ```bash
-# Confirm Keel sees the workload
+Confirm Keel sees the workload
 kubectl exec -n keel deploy/keel -- keel tracked | grep myapp
 ```
 
-**Slack approval emoji not being detected**
+Slack approval emoji not being detected
 
 Keel reads emoji reactions, not message replies. The bot must be a member of the `#infra-approvals` channel. Use `/invite @keel` in Slack if Keel is not already in the channel.
 
-**Keel updated a Deployment I did not want auto-updated**
+Keel updated a Deployment I did not want auto-updated
 
 Remove or set `keel.sh/policy: ""` on the Deployment. Keel only manages workloads that explicitly opt in via annotation. If a workload was added without an annotation and Keel still updated it, check if it is part of a Helm release that has Keel values configured.
 
-**Image pull backoff after Keel update**
+Image pull backoff after Keel update
 
 The new tag does not exist in the registry or the pull credentials are wrong. Check `imagePullSecrets` on the pod spec and confirm the tag was actually pushed before the webhook fired. Adding a `sleep 10` between the push step and the webhook call in your CI pipeline is usually enough buffer.
 
-**Compacted poll interval causing delayed staging updates**
+Compacted poll interval causing delayed staging updates
 
 If polling is set to `@every 3m` but your CI publishes multiple images per hour, switch to webhook triggers to get sub-second propagation.
 
 ---
 
-## Keel vs. ArgoCD: When to Use Each
+Keel vs. ArgoCD: When to Use Each
 
 | Concern | Keel | ArgoCD |
 |---------|------|--------|
@@ -381,7 +381,7 @@ Run both: Keel for staging instant-deploy, ArgoCD for production GitOps. Use Kee
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up ArgoCD for GitOps Workflows](/argocd-gitops-workflow-setup/)
 - [How to Automate Docker Container Updates](/automate-docker-container-updates/)
@@ -389,5 +389,5 @@ Run both: Keel for staging instant-deploy, ArgoCD for production GitOps. Use Kee
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

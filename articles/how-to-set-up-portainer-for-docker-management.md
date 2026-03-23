@@ -19,7 +19,7 @@ Portainer gives remote teams a web UI for Docker and Kubernetes that replaces co
 
 ---
 
-## Deploy Portainer CE
+Deploy Portainer CE
 
 Create a persistent volume and run the container:
 
@@ -41,7 +41,7 @@ Access at `https://your-server-ip:9443` on first boot and set your admin passwor
 Docker Compose version (recommended for production):
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 services:
   portainer:
@@ -64,12 +64,12 @@ volumes:
 
 ---
 
-## Nginx Reverse Proxy with SSL
+Nginx Reverse Proxy with SSL
 
 Don't expose port 9443 directly. Proxy it through Nginx:
 
 ```nginx
-# /etc/nginx/sites-available/portainer
+/etc/nginx/sites-available/portainer
 server {
     listen 443 ssl http2;
     server_name portainer.yourcompany.com;
@@ -97,12 +97,12 @@ server {
 
 ---
 
-## Connect Remote Docker Hosts (Agents)
+Connect Remote Docker Hosts (Agents)
 
 Portainer can manage multiple Docker hosts from one UI. Deploy the Portainer Agent on each remote host:
 
 ```bash
-# On each remote Docker host
+On each remote Docker host
 docker run -d \
   --name portainer_agent \
   --restart always \
@@ -114,8 +114,8 @@ docker run -d \
 ```
 
 Then in Portainer UI:
-1. Go to **Environments > Add Environment**
-2. Choose **Agent**
+1. Go to Environments > Add Environment
+2. Choose Agent
 3. Enter the hostname: `remote-host.yourcompany.com:9001`
 4. Name it (e.g., `prod-web-01`)
 
@@ -124,7 +124,7 @@ Now you can switch between hosts in the dropdown without leaving the UI.
 For Swarm clusters:
 
 ```bash
-# On the Swarm manager
+On the Swarm manager
 docker service create \
   --name portainer_agent \
   --network portainer_agent_network \
@@ -138,7 +138,7 @@ docker service create \
 
 ---
 
-## Deploy Stacks via Portainer
+Deploy Stacks via Portainer
 
 Portainer can deploy Docker Compose stacks from:
 - Paste YAML directly in the UI
@@ -147,21 +147,21 @@ Portainer can deploy Docker Compose stacks from:
 
 For Git-backed stacks (recommended for remote teams):
 
-1. **Stacks > Add Stack > Repository**
+1. Stacks > Add Stack > Repository
 2. Enter your repo URL, branch, and compose file path
-3. Enable **GitOps updates** to auto-redeploy when the branch updates
-4. Add any environment variables in the **Environment variables** section
+3. Enable GitOps updates to auto-redeploy when the branch updates
+4. Add any environment variables in the Environment variables section
 
 This means any team member with Portainer access can trigger a redeploy by merging to the configured branch, without SSH access to the host.
 
 ---
 
-## Environment Variables and Secrets
+Environment Variables and Secrets
 
 Store secrets as Portainer environment variables instead of hardcoding in compose files:
 
 ```yaml
-# docker-compose.yml (reference env vars, don't hardcode)
+docker-compose.yml (reference env vars, don't hardcode)
 version: "3.8"
 services:
   app:
@@ -172,56 +172,56 @@ services:
       - SECRET_KEY=${SECRET_KEY}
 ```
 
-In Portainer when deploying the stack, add the actual values in the **Environment variables** section. They're stored encrypted and never appear in version control.
+In Portainer when deploying the stack, add the actual values in the Environment variables section. They're stored encrypted and never appear in version control.
 
 ---
 
-## Role-Based Access Control
+Role-Based Access Control
 
 Portainer CE supports basic RBAC. For remote teams:
 
-1. Go to **Settings > Users > Add user**
+1. Go to Settings > Users > Add user
 2. Create users with roles:
- - **Administrator**: Full access
- - **Standard user**: Can deploy and manage in assigned environments
- - **Read-only user**: Can view logs and container state, cannot modify
+ - Administrator: Full access
+ - Standard user: Can deploy and manage in assigned environments
+ - Read-only user: Can view logs and container state, cannot modify
 
 Assign environments to teams:
-1. **Settings > Teams > Add team**
+1. Settings > Teams > Add team
 2. Create teams matching your org structure (frontend, backend, devops)
-3. Assign environments to teams under **Environments > Edit > Access**
+3. Assign environments to teams under Environments > Edit > Access
 
 This means the frontend team can manage their containers but can't touch the database host.
 
 ---
 
-## Container Log Access for Remote Teams
+Container Log Access for Remote Teams
 
 One of Portainer's most useful features for remote teams is log access without SSH:
 
-1. Navigate to **Environments > your-host > Containers**
+1. Navigate to Environments > your-host > Containers
 2. Click any container name
-3. Click **Logs** tab
-4. Enable **Auto-refresh** to tail logs in real time
+3. Click Logs tab
+4. Enable Auto-refresh to tail logs in real time
 5. Use the search box to filter log lines
 
-For debugging, the **Console** tab opens a terminal in the running container (equivalent to `docker exec -it container bash`) — without SSH access to the host.
+For debugging, the Console tab opens a terminal in the running container (equivalent to `docker exec -it container bash`). without SSH access to the host.
 
 ---
 
-## Backup Portainer Configuration
+Backup Portainer Configuration
 
 Portainer stores all configuration in the Docker volume `portainer_data`. Back it up:
 
 ```bash
 #!/bin/bash
-# scripts/backup-portainer.sh
+scripts/backup-portainer.sh
 
 DATE=$(date +%Y%m%d_%H%M%S)
 BACKUP_DIR="/backups/portainer"
 mkdir -p "$BACKUP_DIR"
 
-# Stop briefly for consistent backup (< 5 seconds)
+Stop briefly for consistent backup (< 5 seconds)
 docker stop portainer
 
 docker run --rm \
@@ -231,7 +231,7 @@ docker run --rm \
 
 docker start portainer
 
-# Keep only last 14 days
+Keep only last 14 days
 find "$BACKUP_DIR" -name "portainer_data_*.tar.gz" -mtime +14 -delete
 
 echo "Backup complete: $BACKUP_DIR/portainer_data_$DATE.tar.gz"
@@ -250,25 +250,25 @@ docker start portainer
 
 ---
 
-## Useful API Commands
+Useful API Commands
 
 Portainer has a REST API for automation:
 
 ```bash
-# Authenticate
+Authenticate
 TOKEN=$(curl -s -X POST \
   -H "Content-Type: application/json" \
   -d '{"username":"admin","password":"yourpassword"}' \
   https://portainer.yourcompany.com/api/auth \
   | jq -r '.jwt')
 
-# List all containers on environment 1
+List all containers on environment 1
 curl -s \
   -H "Authorization: Bearer $TOKEN" \
   https://portainer.yourcompany.com/api/endpoints/1/docker/containers/json \
   | jq '.[].Names'
 
-# Restart a container
+Restart a container
 curl -s -X POST \
   -H "Authorization: Bearer $TOKEN" \
   https://portainer.yourcompany.com/api/endpoints/1/docker/containers/myapp/restart
@@ -276,7 +276,7 @@ curl -s -X POST \
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
 - [How to Set Up Woodpecker CI for Self-Hosted](/how-to-set-up-woodpecker-ci-for-self-hosted/)
@@ -285,13 +285,13 @@ curl -s -X POST \
 - [How to Set Up Ansible for Remote Server Management](/how-to-set-up-ansible-remote-server-management/)
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Traefik Reverse Proxy](/how-to-set-up-traefik-reverse-proxy/)
 - [Setting Up Keycloak for Team SSO](/setting-up-keycloak-for-team-sso/)
 - [Optimize Docker for Slow Connections When Working Remotely](/docker-optimize-slow-connection-remote-work/)
 - [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

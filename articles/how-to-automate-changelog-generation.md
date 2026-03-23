@@ -21,20 +21,20 @@ The prerequisite is conventional commits. Without structured commit messages, au
 
 ---
 
-## git-cliff: Highly Configurable
+git-cliff: Highly Configurable
 
-git-cliff is a Rust-based changelog generator that reads conventional commits and produces Markdown. It's the most flexible option — you control exactly what appears and how it's formatted.
+git-cliff is a Rust-based changelog generator that reads conventional commits and produces Markdown. It's the most flexible option. you control exactly what appears and how it's formatted.
 
 Install:
 
 ```bash
-# macOS
+macOS
 brew install git-cliff
 
-# Linux
+Linux
 cargo install git-cliff
 
-# Docker
+Docker
 docker run -v "$(pwd)":/app orhunp/git-cliff:latest
 ```
 
@@ -47,16 +47,16 @@ git cliff --init
 This creates `cliff.toml`. A production-ready config:
 
 ```toml
-# cliff.toml
+cliff.toml
 [changelog]
 header = "# Changelog\n\nAll notable changes to this project are documented in this file.\n"
 body = """
 {% for group, commits in commits | group_by(attribute="group") %}
-## {{ group | striptags | trim | upper_first }}
+{{ group | striptags | trim | upper_first }}
 {% for commit in commits %}
-- {% if commit.scope %}**{{ commit.scope }}**: {% endif %}\
+- {% if commit.scope %}{{ commit.scope }}: {% endif %}\
   {{ commit.message | upper_first }} ([{{ commit.id | truncate(length=7, end="") }}](https://github.com/your-org/your-repo/commit/{{ commit.id }}))\
-  {% if commit.breaking %} [**BREAKING**]{% endif %}
+  {% if commit.breaking %} [BREAKING]{% endif %}
 {% endfor %}
 {% endfor %}\n
 """
@@ -88,24 +88,24 @@ sort_commits = "newest"
 Generate changelog for the current version:
 
 ```bash
-# From last tag to HEAD
+From last tag to HEAD
 git cliff --output CHANGELOG.md
 
-# For a specific version
+For a specific version
 git cliff --tag v1.2.0 --output CHANGELOG.md
 
-# Only changes since last tag (for release notes)
+Only changes since last tag (for release notes)
 git cliff --unreleased --strip header
 ```
 
 ---
 
-## GitHub Actions: Automated Release on Tag
+GitHub Actions: Automated Release on Tag
 
 Trigger changelog generation and GitHub Release creation on every version tag:
 
 ```yaml
-# .github/workflows/release.yml
+.github/workflows/release.yml
 name: Release
 
 on:
@@ -143,12 +143,12 @@ jobs:
 
 ---
 
-## release-please: Automated PRs
+release-please: Automated PRs
 
-release-please (by Google) takes a different approach — it opens a "release PR" that accumulates changes until you're ready to release, then merges it to create the tag and changelog automatically.
+release-please (by Google) takes a different approach. it opens a "release PR" that accumulates changes until you're ready to release, then merges it to create the tag and changelog automatically.
 
 ```yaml
-# .github/workflows/release-please.yml
+.github/workflows/release-please.yml
 name: Release Please
 
 on:
@@ -204,7 +204,7 @@ release-please works well for library/package maintainers. For application deplo
 
 ---
 
-## conventional-changelog-cli (npm Ecosystem)
+conventional-changelog-cli (npm Ecosystem)
 
 For JavaScript projects already using npm, `conventional-changelog-cli` integrates into your existing workflow:
 
@@ -226,26 +226,26 @@ Add to `package.json`:
 The `version` script runs automatically when you call `npm version`:
 
 ```bash
-# Bump patch version (fix commits)
+Bump patch version (fix commits)
 npm version patch
 
-# Bump minor version (feat commits)
+Bump minor version (feat commits)
 npm version minor
 
-# Bump major version (breaking changes)
+Bump major version (breaking changes)
 npm version major
 ```
 
-This updates `package.json`, generates `CHANGELOG.md`, commits both, and creates a git tag — all in one command.
+This updates `package.json`, generates `CHANGELOG.md`, commits both, and creates a git tag. all in one command.
 
 ---
 
-## Enforcing Conventional Commits
+Enforcing Conventional Commits
 
 Automated changelogs require conventional commit format. Enforce it:
 
 ```bash
-# Install commitlint
+Install commitlint
 npm install --save-dev @commitlint/cli @commitlint/config-conventional
 ```
 
@@ -257,7 +257,7 @@ module.exports = {
 ```
 
 ```yaml
-# .github/workflows/commitlint.yml
+.github/workflows/commitlint.yml
 name: Commitlint
 on:
   pull_request:
@@ -283,12 +283,12 @@ This runs on every PR and blocks merge if any commit message doesn't match the c
 
 ---
 
-## Keep CHANGELOG.md Always Current
+Keep CHANGELOG.md Always Current
 
 For projects where the changelog should be continuously updated (not just at release time), generate it in CI on every merge to main:
 
 ```yaml
-# .github/workflows/update-changelog.yml
+.github/workflows/update-changelog.yml
 name: Update Changelog
 
 on:
@@ -326,7 +326,7 @@ The `[skip ci]` tag prevents the changelog update commit from triggering another
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Remote Team Git Hooks Standardization Guide](/remote-team-git-hooks-standardization-guide/)
 - [How to Set Up Woodpecker CI for Self-Hosted](/how-to-set-up-woodpecker-ci-for-self-hosted/)
@@ -335,13 +335,13 @@ The `[skip ci]` tag prevents the changelog update commit from triggering another
 - [Automate Invoice Generation for Freelancers](/automate-invoice-generation-freelancers/)
 ---
 
-## Related Articles
+Related Articles
 
 - [Best Changelog Tools for Remote Product Teams](/best-changelog-tools-for-remote-product-teams/)
 - [Automate Invoice Generation for Freelancers](/automate-invoice-generation-freelancers/)
 - [Example celebration message generator (Python)](/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
 - [How to Write Effective Async Messages for Remote Work](/how-to-write-effective-async-messages-remote-work/)
 - [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

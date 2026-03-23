@@ -16,9 +16,9 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-Integrate door counter or badge API data with CO2 sensors to calculate occupancy-adjusted thresholds (base 600 ppm + 15 ppm per person) instead of fixed alerts, reducing false positives during low-occupancy periods while catching real ventilation problems when the office fills up. Publish occupancy and CO2 readings to MQTT/WebSocket so your building automation system can adjust HVAC fan speed proportionally rather than binary on/off control. This approach—dynamic thresholds accounting for actual occupancy—prevents excessive alerts on Tuesdays when 8 people work alone while remaining sensitive to genuine ventilation shortfalls when 40 people occupy the same space.
+Integrate door counter or badge API data with CO2 sensors to calculate occupancy-adjusted thresholds (base 600 ppm + 15 ppm per person) instead of fixed alerts, reducing false positives during low-occupancy periods while catching real ventilation problems when the office fills up. Publish occupancy and CO2 readings to MQTT/WebSocket so your building automation system can adjust HVAC fan speed proportionally rather than binary on/off control. This approach, dynamic thresholds accounting for actual occupancy, prevents excessive alerts on Tuesdays when 8 people work alone while remaining sensitive to genuine ventilation shortfalls when 40 people occupy the same space.
 
-## Table of Contents
+Table of Contents
 
 - [The Variable Occupancy Challenge](#the-variable-occupancy-challenge)
 - [Integrating Occupancy Sensors](#integrating-occupancy-sensors)
@@ -28,7 +28,7 @@ Integrate door counter or badge API data with CO2 sensors to calculate occupancy
 - [Dashboard Design for Variable Occupancy](#dashboard-design-for-variable-occupancy)
 - [Deployment Strategy](#deployment-strategy)
 
-## The Variable Occupancy Challenge
+The Variable Occupancy Challenge
 
 Traditional air quality monitoring assumes relatively constant occupancy levels. Office buildings calculate ventilation rates based on maximum occupancy, while residential sensors rarely encounter rapid occupancy swings. Hybrid offices break both assumptions.
 
@@ -36,14 +36,14 @@ Consider a typical Tuesday in a hybrid office: morning brings 15 people, midday 
 
 Building effective monitoring requires three components: accurate occupancy data, occupancy-aware thresholds, and adaptive ventilation control. Without all three, you'll either receive excessive alerts during low-occupancy periods or miss genuine problems when the office feels crowded.
 
-## Integrating Occupancy Sensors
+Integrating Occupancy Sensors
 
 The foundation of variable-occupancy monitoring is understanding how many people occupy your space. Several approaches work well, each with tradeoffs between cost, privacy, and accuracy.
 
-**Door counters** provide simple occupancy counts. Place sensors at primary entry points to track entries and exits. These devices cost under $50 each and require no occupant cooperation.
+Door counters provide simple occupancy counts. Place sensors at primary entry points to track entries and exits. These devices cost under $50 each and require no occupant cooperation.
 
 ```python
-# Simple door counter integration
+Simple door counter integration
 class OccupancyTracker:
     def __init__(self, capacity=100):
         self.current = 0
@@ -72,10 +72,10 @@ class OccupancyTracker:
         return self.current / self.capacity
 ```
 
-**Badge access systems** provide more accurate occupancy data if your office already uses keycards or mobile credentials for building access. Query your access control API to retrieve current check-in counts.
+Badge access systems provide more accurate occupancy data if your office already uses keycards or mobile credentials for building access. Query your access control API to retrieve current check-in counts.
 
 ```python
-# Badge access integration example
+Badge access integration example
 import requests
 
 def get_current_occupancy(api_key, building_id):
@@ -90,9 +90,9 @@ def get_current_occupancy(api_key, building_id):
     }
 ```
 
-**WiFi association counts** offer privacy-friendly occupancy estimation. Count devices connected to your office wireless network as a proxy for human occupancy.
+WiFi association counts offer privacy-friendly occupancy estimation. Count devices connected to your office wireless network as a proxy for human occupancy.
 
-## Calculating Dynamic Thresholds
+Calculating Dynamic Thresholds
 
 With occupancy data, you can calculate thresholds that adapt to current conditions. The core insight is that acceptable CO2 levels scale with occupancy.
 
@@ -127,7 +127,7 @@ def get_air_quality_status(occupancy, co2_reading):
 
 This approach significantly reduces false positives during low-occupancy periods while remaining sensitive to actual ventilation problems when the office is full.
 
-## Building the Monitoring Pipeline
+Building the Monitoring Pipeline
 
 A complete monitoring system combines occupancy data with air quality sensors, processes everything through a central pipeline, and outputs actionable alerts.
 
@@ -190,12 +190,12 @@ function evaluateAirQuality(location, data, occupancy) {
 }
 ```
 
-## Implementing Occupancy-Aware Automation
+Implementing Occupancy-Aware Automation
 
 Connect your monitoring system to building automation for responsive ventilation control. The key is creating rules that scale with occupancy rather than using fixed triggers.
 
 ```yaml
-# Home Assistant automation example
+Home Assistant automation example
 automation:
   - alias: "Adaptive ventilation based on occupancy and CO2"
     trigger:
@@ -225,7 +225,7 @@ automation:
                   message: "Elevated CO2 ({{ states('sensor.office_co2') }} ppm) with {{ occupancy }} occupants - ventilation increased"
 ```
 
-## Dashboard Design for Variable Occupancy
+Dashboard Design for Variable Occupancy
 
 Effective dashboards show not just current readings but context about whether those readings are acceptable given current occupancy.
 
@@ -262,7 +262,7 @@ function AirQualityCard({ location, sensorData, occupancy }) {
 
 Display both the absolute reading and the ratio to the occupancy-adjusted threshold. This helps facilities teams understand whether elevated readings warrant action.
 
-## Deployment Strategy
+Deployment Strategy
 
 Start with a limited deployment before scaling. Install sensors in 2-3 high-traffic areas alongside occupancy tracking at building entry points. Run the system for two weeks to establish baseline patterns.
 
@@ -276,34 +276,34 @@ Adjust your per-person allowance values based on actual observations. Buildings 
 
 After validation, expand sensors to all significant areas. Meeting rooms typically need dedicated sensors since they experience rapid occupancy changes when filled or emptied.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**Can I trust these tools with sensitive data?**
+Can I trust these tools with sensitive data?
 
 Review each tool's privacy policy, data handling practices, and security certifications before using it with sensitive data. Look for SOC 2 compliance, encryption in transit and at rest, and clear data retention policies. Enterprise tiers often include stronger privacy guarantees.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Air Quality Monitoring for Hybrid Office Spaces](/air-quality-monitoring-for-hybrid-office-spaces/)
 - [Hybrid Office Fire Safety and Evacuation Plan Update](/hybrid-office-fire-safety-and-evacuation-plan-update-for-var/)
 - [Best Air Purifier for Home Office Productivity](/best-air-purifier-for-home-office-productivity/)
 - [Home Office Ventilation Solutions When Room Has No Window](/home-office-ventilation-solutions-when-room-has-no-window/)
 - [Hybrid Office Space Planning Tool for Facilities Managers](/hybrid-office-space-planning-tool-for-facilities-managers-op/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -15,9 +15,9 @@ tags: [remote-work-tools, best-of, integration]
 ---
 {% raw %}
 
-## GitHub Integration: Why It Matters for Engineering Teams
+GitHub Integration: Why It Matters for Engineering Teams
 
-## Table of Contents
+Table of Contents
 
 - [GitHub Integration: Why It Matters for Engineering Teams](#github-integration-why-it-matters-for-engineering-teams)
 - [GitHub Integration Comparison](#github-integration-comparison)
@@ -31,11 +31,11 @@ tags: [remote-work-tools, best-of, integration]
 - [Team Exercise: Planning Your GitHub Integration (60 minutes)](#team-exercise-planning-your-github-integration-60-minutes)
 - [Cost Analysis: GitHub Integration for 10-Person Team](#cost-analysis-github-integration-for-10-person-team)
 
-Engineering teams live in GitHub. PRs, reviews, commits, releases—all there. A project management tool that doesn't integrate tightly with GitHub forces double-entry: create issue in tool, create PR in GitHub, manually sync status.
+Engineering teams live in GitHub. PRs, reviews, commits, releases, all there. A project management tool that doesn't integrate tightly with GitHub forces double-entry: create issue in tool, create PR in GitHub, manually sync status.
 
-The best tools make this seamless: create issue in tool → GitHub PR auto-links → PR merge auto-closes issue → no manual updates needed.
+The best tools make this smooth: create issue in tool → GitHub PR auto-links → PR merge auto-closes issue → no manual updates needed.
 
-## GitHub Integration Comparison
+GitHub Integration Comparison
 
 | Tool | Integration Depth | Auto-Create Issues | PR Linking | Close on Merge | Custom Fields | Per-User Cost |
 |------|------|----------|--------|--------|--------|
@@ -47,11 +47,11 @@ The best tools make this seamless: create issue in tool → GitHub PR auto-links
 | Asana | Limited (Zapier) | Zapier | Zapier | No | Yes | $10-25/user/mo |
 | Monday.com | Limited (Zapier) | Zapier | Zapier | No | Yes | $10-20/user/mo |
 
-## Linear: The Gold Standard for GitHub Integration
+Linear: The Gold Standard for GitHub Integration
 
 Linear was built by engineers specifically for GitHub-centric teams. Issue creation, PR linking, and status sync all feel native.
 
-**Real workflow**:
+Real workflow:
 1. Open Linear, create issue "Fix authentication bug"
 2. Auto-assigned to you, moves to "In Progress"
 3. Create feature branch `fix/auth-bug` locally
@@ -62,32 +62,32 @@ Linear was built by engineers specifically for GitHub-centric teams. Issue creat
 8. Merge PR → Linear auto-closes issue
 9. Issue moves to "Done" automatically
 
-**No manual status updates needed.**
+No manual status updates needed.
 
-**Why Linear wins on GitHub integration**:
+Why Linear wins on GitHub integration:
 - PR mention format is simple (just mention issue number in PR title)
 - Automatic issue creation from GitHub labels (mark PR with "bug" label, Linear creates issue)
 - PR statuses reflected in Linear (Open → Approved → Merged)
 - Cycle times calculated automatically (issue created → PR merged)
 
-**Strengths**:
+Strengths:
 - Fastest GitHub integration setup (connect GitHub account, done)
 - Beautiful UI
 - Keyboard shortcuts reduce mouse work
 - Excellent search and filtering
 
-**Limitations**:
+Limitations:
 - Less customizable than Jira (opinionated about how teams should work)
 - No custom issue types
 - Smaller integration ecosystem than Jira
 
-**Best for**: 3-100 person engineering teams, teams that live in GitHub.
+Best for: 3-100 person engineering teams, teams that live in GitHub.
 
-## GitHub Projects V2: Zero-Cost Integration
+GitHub Projects V2: Zero-Cost Integration
 
 GitHub Projects V2 (2024+) is a full project management tool inside GitHub. Create board, link to issues/PRs, automate based on issue status, no separate tool needed.
 
-**Real workflow**:
+Real workflow:
 1. Create GitHub issue "Fix auth bug"
 2. Automatically appears in GitHub Projects board
 3. Drag to "In Progress" column
@@ -95,32 +95,32 @@ GitHub Projects V2 (2024+) is a full project management tool inside GitHub. Crea
 5. PR shows as linked on board
 6. Merge PR → issue auto-closes → board updates
 
-**Why GitHub Projects wins on integration**:
+Why GitHub Projects wins on integration:
 - No separate login (auth already done)
 - Issues and PRs live in same tool
 - Automation syntax: "If issue moved to 'In Review', apply 'needs-review' label"
 - Zero data sync problems (no API calls, no race conditions)
 
-**Strengths**:
+Strengths:
 - Zero cost (included with GitHub)
 - No context switching (everything in GitHub)
 - Works for issues, PRs, discussions
 - Flexible (use kanban or table view)
 
-**Limitations**:
+Limitations:
 - UI less polished than Linear (but improving)
 - Mobile app weak
 - Smaller feature set (no estimates, time tracking)
 - Limited custom fields
 - No reporting/burndown charts
 
-**Best for**: Small teams (<20 people), open-source projects, GitHub-only workflows.
+Best for: Small teams (<20 people), open-source projects, GitHub-only workflows.
 
-## Shortcut: The Agile+GitHub Middle Ground
+Shortcut: The Agile+GitHub Middle Ground
 
 Shortcut combines agile ceremonies (sprints, planning poker) with kanban. Strong GitHub sync without Linear's simplicity constraints.
 
-**Real workflow**:
+Real workflow:
 1. Create issue in Shortcut
 2. Estimate size (planning poker during sprint planning)
 3. Create PR in GitHub, mention issue
@@ -128,25 +128,25 @@ Shortcut combines agile ceremonies (sprints, planning poker) with kanban. Strong
 5. PR review → GitHub comments sync to Shortcut
 6. Merge → status updates
 
-**Strengths**:
+Strengths:
 - Flexible (use sprints or pure kanban)
 - GitHub sync nearly as good as Linear
 - Better for teams wanting agile + GitHub
 - Affordable ($10/user/month)
 - Good documentation
 
-**Limitations**:
+Limitations:
 - Smaller adoption than Linear/Jira (hiring risk)
 - UI not quite as polished
 - Smaller integration ecosystem
 
-**Best for**: 10-50 person teams wanting agile + kanban flexibility, teams valuing affordability.
+Best for: 10-50 person teams wanting agile + kanban flexibility, teams valuing affordability.
 
-## Jira + GitHub Plugin: The Enterprise Path
+Jira + GitHub Plugin: The Enterprise Path
 
 Jira's GitHub integration requires a plugin (Jira Cloud's native GitHub integration is basic). Setup takes longer but offers most customization.
 
-**Real workflow**:
+Real workflow:
 1. Install Jira GitHub plugin
 2. Configure webhook from GitHub to Jira
 3. Create issue in Jira
@@ -154,36 +154,36 @@ Jira's GitHub integration requires a plugin (Jira Cloud's native GitHub integrat
 5. Webhook triggers Jira update
 6. Merge PR → configure automation rule to close issue
 
-**Strengths**:
+Strengths:
 - Maximum customization
 - Enterprise support
 - Works with complex workflows
 - Powerful automation
 
-**Limitations**:
+Limitations:
 - Setup takes days (not hours)
 - Per-user cost adds up fast
 - Plugin maintenance overhead
 - UI less optimized for GitHub workflow
 
-**Best for**: Enterprise teams already on Jira, complex workflows needing customization.
+Best for: Enterprise teams already on Jira, complex workflows needing customization.
 
-## Integration Setup Guide: Get Linear → GitHub Working in 30 Minutes
+Integration Setup Guide: Get Linear → GitHub Working in 30 Minutes
 
-### Step 1: Install Linear GitHub Integration
+Step 1: Install Linear GitHub Integration
 1. Open Linear settings → Integrations → GitHub
 2. Click "Connect GitHub"
 3. Authorize Linear to access your repos
 4. Select which repos to sync
 
-### Step 2: Create Test Issue
+Step 2: Create Test Issue
 1. In Linear, create test issue "Test GitHub integration"
 2. Create feature branch: `test/integration`
 3. Make any change, push
 4. Open PR with title "Fixes LIN-[your-issue-number]: Test GitHub integration"
 5. Check Linear: PR should auto-link
 
-### Step 3: Configure Automation (Optional)
+Step 3: Configure Automation (Optional)
 Linear Settings → Automation → Create Rule:
 ```
 Trigger: GitHub PR opened
@@ -195,44 +195,44 @@ Action: Close issue
 Action: Move to "Done" column
 ```
 
-### Step 4: Test Merge
+Step 4: Test Merge
 1. In GitHub, merge your PR
 2. Check Linear: issue should auto-close
 
-**Success**: Create issue → PR → Merge → Linear updates automatically.
+Success: Create issue → PR → Merge → Linear updates automatically.
 
-## Integration Comparison: Real-World Scenario
+Integration Comparison: Real-World Scenario
 
-**Scenario**: 8-person team needs project management with GitHub integration. Estimate: 100 issues per sprint.
+Scenario: 8-person team needs project management with GitHub integration. Estimate: 100 issues per sprint.
 
-### Linear (8 people × $10/mo = $80/mo)
+Linear (8 people × $10/mo = $80/mo)
 - Setup: 15 minutes
 - Time per issue: 2 seconds to create (auto-links to PR)
 - Monthly status updates: 0 (automatic)
 - Learning curve: 30 minutes
-- **Total cost**: $80/mo + 4 hours setup/month
+- Total cost: $80/mo + 4 hours setup/month
 
-### Jira + Plugin (8 people × $7/mo = $56/mo)
+Jira + Plugin (8 people × $7/mo = $56/mo)
 - Setup: 4 hours (plugin config, webhook, automation rules)
 - Time per issue: 3 seconds to create
 - Monthly status updates: occasional manual fixes
 - Learning curve: 2 hours
-- **Total cost**: $56/mo + 20 hours setup/month
+- Total cost: $56/mo + 20 hours setup/month
 
-### GitHub Projects V2 (8 people × $0 = $0)
+GitHub Projects V2 (8 people × $0 = $0)
 - Setup: 30 minutes
 - Time per issue: 2 seconds to create
 - Monthly status updates: 0 (automatic)
 - Learning curve: 1 hour
-- **Total cost**: $0 + 1 hour setup/month
+- Total cost: $0 + 1 hour setup/month
 
-**Analysis**: For most teams, Linear's $80/month saves 16 hours/month in setup/maintenance vs Jira. GitHub Projects is free but trades features for cost.
+Analysis: For most teams, Linear's $80/month saves 16 hours/month in setup/maintenance vs Jira. GitHub Projects is free but trades features for cost.
 
-## Automation Patterns: Reduce Manual Work
+Automation Patterns: Reduce Manual Work
 
-### Pattern 1: Auto-Move Based on PR Status
+Pattern 1: Auto-Move Based on PR Status
 
-**Linear**:
+Linear:
 ```
 On: PR opened → issue in repo
 Action: Move issue to "In Review"
@@ -250,9 +250,9 @@ Action: Close issue
 Action: Move to "Done"
 ```
 
-### Pattern 2: Auto-Create Issues from GitHub Labels
+Pattern 2: Auto-Create Issues from GitHub Labels
 
-**Linear**:
+Linear:
 ```
 On: Issue labeled "bug" in GitHub
 Action: Create issue in Linear project
@@ -262,9 +262,9 @@ Priority: High
 Team: Engineering
 ```
 
-### Pattern 3: Sync Estimates to Burndown
+Pattern 3: Sync Estimates to Burndown
 
-**Linear**:
+Linear:
 ```
 On: Issue estimated (size set)
 On: Issue moved to "In Progress"
@@ -276,15 +276,15 @@ Action: Calculate velocity
 Action: Post to Slack: "Team completed 45 points this cycle"
 ```
 
-## Team Exercise: Planning Your GitHub Integration (60 minutes)
+Team Exercise: Planning Your GitHub Integration (60 minutes)
 
-**Part 1: Current Pain Points (15 min)**
+Part 1: Current Pain Points (15 min)
 1. How many repos does your team use?
 2. How often do issues and PRs get out of sync?
 3. How much time do you spend manually updating status?
 4. What's your biggest frustration with current tool?
 
-**Part 2: Tool Comparison (30 min)**
+Part 2: Tool Comparison (30 min)
 1. Create test workspace in Linear and GitHub Projects
 2. Create 5 real issues from your backlog
 3. Create branch, PR, merge (test auto-linking)
@@ -293,13 +293,13 @@ Action: Post to Slack: "Team completed 45 points this cycle"
  - Did status update on merge?
  - How intuitive was the experience?
 
-**Part 3: Rollout Plan (15 min)**
+Part 3: Rollout Plan (15 min)
 1. Decide: Linear, GitHub Projects, or Shortcut?
 2. Set migration date
 3. Plan: Which issues migrate? (New issues going forward or historical?)
 4. Define success metric: "100% of PRs linked to issues within 1 week"
 
-## Cost Analysis: GitHub Integration for 10-Person Team
+Cost Analysis: GitHub Integration for 10-Person Team
 
 | Tool | Monthly Cost | Setup Cost | Time Saved/Month | Total Cost |
 |------|-------------|-----------|-----------------|-----------|
@@ -309,22 +309,22 @@ Action: Post to Slack: "Team completed 45 points this cycle"
 | GitHub Projects | $0 | 2 hours | 8 hours | Free |
 
 *Assumes 40 hours setup is $16.67/hour opportunity cost.
-## Linear: Best for Engineering-First Teams
+Linear: Best for Engineering-First Teams
 
 Linear's GitHub integration is tight enough that many developers treat it as their primary interface for both code and work tracking. When you create a branch from a Linear issue, the issue transitions to "In Progress" automatically. When the PR merges, the issue closes. No manual updates required.
 
 ```bash
-# Linear branch naming convention (auto-created from issue)
-# Issue ENG-247: "Fix rate limiter on auth endpoint"
+Linear branch naming convention (auto-created from issue)
+Issue ENG-247: "Fix rate limiter on auth endpoint"
 git checkout -b eng-247-fix-rate-limiter-on-auth-endpoint
-# Linear detects this branch, links it to the issue, and transitions status
-# The branch name format: [team-prefix]-[issue-number]-[slugified-title]
+Linear detects this branch, links it to the issue, and transitions status
+The branch name format: [team-prefix]-[issue-number]-[slugified-title]
 ```
 
 Take a real two-week sprint and run it in parallel in your current tool and one candidate. Track how many times you switch to GitHub to check something that should have been visible in the PM tool. That number should drop toward zero with a genuinely integrated tool.
 Linear's API lets you create issues programmatically from CI/CD events:
 
-No PM tool in this comparison works meaningfully offline. GitHub itself requires a connection. Plan accordingly — if your team works in areas with unreliable internet, the git workflow (local commits, push when connected) is the reliable layer, not the PM tool.
+No PM tool in this comparison works meaningfully offline. GitHub itself requires a connection. Plan accordingly. if your team works in areas with unreliable internet, the git workflow (local commits, push when connected) is the reliable layer, not the PM tool.
 jobs:
   create-bug:
     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
@@ -342,25 +342,25 @@ jobs:
 ```
 
 All of them support async workflows. The asynchronous value of GitHub integration is actually highest for distributed teams: a developer in Tokyo can see that their PR passed CI and auto-transitioned the task without waiting for anyone in another timezone to confirm it.
-## Shortcut (formerly Clubhouse): Best for Story-Centric Teams
+Shortcut (formerly Clubhouse): Best for Story-Centric Teams
 
-Shortcut structures work around stories, epics, and iterations — terminology that maps well to product-centric teams that think in user stories rather than engineering tasks. The GitHub integration links pull requests to stories and shows PR status in the story detail view.
+Shortcut structures work around stories, epics, and iterations. terminology that maps well to product-centric teams that think in user stories rather than engineering tasks. The GitHub integration links pull requests to stories and shows PR status in the story detail view.
 
 ```bash
-# Shortcut branch naming triggers automatic story linking
-# Story sc-1234: "User can reset password via email"
+Shortcut branch naming triggers automatic story linking
+Story sc-1234: "User can reset password via email"
 git checkout -b sc-1234/user-password-reset
 
-# Shortcut detects the sc-XXXX prefix and links the branch to the story
+Shortcut detects the sc-XXXX prefix and links the branch to the story
 ```
 
-Shortcut's GitHub integration is reliable but less automatic than Linear — story status doesn't auto-transition; developers need to move cards manually or use branch naming conventions. The tradeoff is more flexibility: you control when transitions happen.
+Shortcut's GitHub integration is reliable but less automatic than Linear. story status doesn't auto-transition; developers need to move cards manually or use branch naming conventions. The tradeoff is more flexibility: you control when transitions happen.
 
-**Best for:** product teams with designers and PMs who need a visual board.
+Best for: product teams with designers and PMs who need a visual board.
 
-**Pricing:** $8.50/user/month (Business). Free for teams up to 10.
+Pricing: $8.50/user/month (Business). Free for teams up to 10.
 
-## ClickUp: Best for Automation-Heavy Teams
+ClickUp: Best for Automation-Heavy Teams
 
 ClickUp's GitHub integration enables automation rules that other tools can't match: "When PR is opened → assign reviewer from rotation," "When PR is merged → mark subtasks complete," "When issue is labeled 'blocked' → notify team lead via email."
 
@@ -388,16 +388,16 @@ app.post('/github-webhook', async (req, res) => {
 
 The complexity tradeoff: ClickUp's flexibility means more setup time. A Linear team is productive day one. A ClickUp team with well-configured automations is more powerful, but getting there takes 2-3 weeks of configuration.
 
-**Best for:** operations, marketing, or mixed teams that need project tracking beyond engineering.
+Best for: operations, marketing, or mixed teams that need project tracking beyond engineering.
 
-**Pricing:** $7/user/month (Unlimited). Free tier available.
+Pricing: $7/user/month (Unlimited). Free tier available.
 
-## GitHub Projects: Best for GitHub-Native Teams
+GitHub Projects: Best for GitHub-Native Teams
 
 For teams that live in GitHub and don't want to maintain a separate PM tool, GitHub Projects (v2) has matured significantly. You can create custom fields, filter by PR status, and build board views that pull directly from GitHub issues and PRs.
 
 ```bash
-# Create issue with project linking via GitHub CLI
+Create issue with project linking via GitHub CLI
 gh issue create \
   --title "Add retry logic to webhook handler" \
   --body "Current implementation drops webhooks on 500 errors" \
@@ -408,11 +408,11 @@ gh issue create \
 
 GitHub Projects lacks the workflow automation depth of Linear or ClickUp, but it has zero switching cost for teams already using GitHub Issues. For teams under 10 engineers who don't need cross-team visibility, it's the right default.
 
-**Best for:** open source projects, small engineering teams, teams that want to minimize tooling overhead.
+Best for: open source projects, small engineering teams, teams that want to minimize tooling overhead.
 
-**Pricing:** Free with GitHub (feature set depends on plan).
+Pricing: Free with GitHub (feature set depends on plan).
 
-## Integration Depth Comparison
+Integration Depth Comparison
 
 | Feature | Linear | Shortcut | ClickUp | GitHub Projects |
 |---|---|---|---|---|
@@ -423,14 +423,14 @@ GitHub Projects lacks the workflow automation depth of Linear or ClickUp, but it
 | Mobile app quality | Good | Good | Good | Basic |
 | Price/user/month | $8 | $8.50 | $7 | Free |
 
-## Choosing the Right Tool
+Choosing the Right Tool
 
-- **Under 10 engineers, GitHub-heavy:** GitHub Projects — zero overhead
-- **Engineering team, speed culture:** Linear — best developer experience
-- **Product+engineering+design:** Shortcut — story-centric structure works across roles
-- **Multi-department or complex automation needs:** ClickUp — most powerful automations
+- Under 10 engineers, GitHub-heavy: GitHub Projects. zero overhead
+- Engineering team, speed culture: Linear. best developer experience
+- Product+engineering+design: Shortcut. story-centric structure works across roles
+- Multi-department or complex automation needs: ClickUp. most powerful automations
 
-## Related Articles
+Related Articles
 
 - [Best Async Project Management Tools for Distributed Teams](/best-async-project-management-tools-for-distributed-teams-2026/)
 - [Best Project Management CLI Tools 2026](/best-project-management-cli-tools-2026/)

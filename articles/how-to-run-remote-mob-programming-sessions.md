@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Remote Mob Programming Sessions"
-description: "Set up effective remote mob programming with VS Code Live Share, Tuple, and structured rotation — roles, timing, and anti-patterns to avoid"
+description: "Set up effective remote mob programming with VS Code Live Share, Tuple, and structured rotation. roles, timing, and anti-patterns to avoid"
 date: 2026-03-22
 author: theluckystrike
 permalink: /how-to-run-remote-mob-programming-sessions/
@@ -15,9 +15,9 @@ voice-checked: true
 
 {% raw %}
 
-Mob programming — the whole team working on one thing together — sounds counterintuitive for remote teams, but it solves specific problems that async work can't: onboarding new engineers, tackling genuinely hard problems that need multiple perspectives simultaneously, and transferring knowledge across the team. Done well, a 90-minute remote mob session on a hard problem beats a week of back-and-forth async comments.
+Mob programming. the whole team working on one thing together. sounds counterintuitive for remote teams, but it solves specific problems that async work can't: onboarding new engineers, tackling genuinely hard problems that need multiple perspectives simultaneously, and transferring knowledge across the team. Done well, a 90-minute remote mob session on a hard problem beats a week of back-and-forth async comments.
 
-## Table of Contents
+Table of Contents
 
 - [The Core Structure](#the-core-structure)
 - [Tool Setup](#tool-setup)
@@ -29,43 +29,43 @@ Mob programming — the whole team working on one thing together — sounds coun
 - [When Mob Programming Is Worth It](#when-mob-programming-is-worth-it)
 - [Tools for the Timer](#tools-for-the-timer)
 - [Session Notes Template](#session-notes-template)
-- [Mob Session — [date]](#mob-session-date)
+- [Mob Session. [date]](#mob-session-date)
 - [Related Reading](#related-reading)
 
-## The Core Structure
+The Core Structure
 
 Remote mob programming needs more explicit structure than in-person because there's no shared physical space to anchor coordination.
 
-**Roles:**
-- **Driver**: types the code (shares screen, receives directions)
-- **Navigator**: decides what to type next (the team collectively; one voice at a time)
-- **Mob**: everyone else — observing, thinking ahead, flagging issues
+Roles:
+- Driver: types the code (shares screen, receives directions)
+- Navigator: decides what to type next (the team collectively; one voice at a time)
+- Mob: everyone else. observing, thinking ahead, flagging issues
 
-**Timing:**
+Timing:
 - 15-minute rotations (driver becomes part of mob, navigator becomes driver, mob member becomes navigator)
 - Use a visible timer the whole group can see
 - Short break every 90 minutes
 
-**The golden rule**: The driver types only what the navigator says. No initiative, no "I think we should also..." — that goes through the navigator.
+The golden rule: The driver types only what the navigator says. No initiative, no "I think we should also...". that goes through the navigator.
 
-## Tool Setup
+Tool Setup
 
-**Option 1: VS Code Live Share + Video Call**
+Option 1: VS Code Live Share + Video Call
 
 Live Share lets multiple people edit the same file simultaneously, but in mob sessions only the driver types.
 
 ```bash
-# Install Live Share extension
+Install Live Share extension
 code --install-extension ms-vsliveshare.vsliveshare
 
-# Session setup:
-# 1. Navigator shares their VS Code session
-# 2. Driver joins the share — they see the code and can type
-# 3. Everyone else joins as read-only observers
-# 4. Rotation: driver leaves, new driver joins as editor
+Session setup:
+1. Navigator shares their VS Code session
+2. Driver joins the share. they see the code and can type
+3. Everyone else joins as read-only observers
+4. Rotation: driver leaves, new driver joins as editor
 
-# Dedicated VS Code workspace for mob sessions:
-# .vscode/mob.code-workspace
+Dedicated VS Code workspace for mob sessions:
+.vscode/mob.code-workspace
 {
   "settings": {
     "editor.fontSize": 16,
@@ -77,38 +77,38 @@ code --install-extension ms-vsliveshare.vsliveshare
 }
 ```
 
-**Live Share limitations:**
+Live Share limitations:
 - Slow on large monorepos (file indexing latency)
 - Terminal sharing requires explicit permission
-- Extension version mismatches cause issues — everyone should be on the same VS Code version
+- Extension version mismatches cause issues. everyone should be on the same VS Code version
 
-**Option 2: Tuple**
+Option 2: Tuple
 
 Tuple is purpose-built for pair/mob programming with low-latency screen sharing and audio.
 
 ```bash
-# Install Tuple (macOS only as of 2026)
+Install Tuple (macOS only as of 2026)
 brew install --cask tuple
 
-# Start a mob session:
-# 1. Host opens Tuple, invites all participants
-# 2. Host shares screen
-# 3. Rotation: host passes control to the driver with a click
-# 4. Any participant can request control — the host approves
+Start a mob session:
+1. Host opens Tuple, invites all participants
+2. Host shares screen
+3. Rotation: host passes control to the driver with a click
+4. Any participant can request control. the host approves
 
-# Key Tuple features for mob sessions:
-# - <100ms latency on good connections (vs 150-300ms in Zoom screen share)
-# - Retina resolution screen sharing
-# - Mouse multiplexing (multiple cursors visible)
-# - Direct audio without video codec overhead
+Key Tuple features for mob sessions:
+- <100ms latency on good connections (vs 150-300ms in Zoom screen share)
+- Retina resolution screen sharing
+- Mouse multiplexing (multiple cursors visible)
+- Direct audio without video codec overhead
 ```
 
-**Option 3: Gitpod or Codebase (Cloud IDE Mob)**
+Option 3: Gitpod or Codebase (Cloud IDE Mob)
 
 For teams across multiple operating systems or without powerful local machines:
 
 ```yaml
-# .gitpod.yml — shared cloud dev environment
+.gitpod.yml. shared cloud dev environment
 image:
   file: .gitpod.Dockerfile
 
@@ -130,9 +130,9 @@ vscode:
     - esbenp.prettier-vscode
 ```
 
-Everyone opens the same Gitpod workspace URL and uses Live Share within it — no local environment required.
+Everyone opens the same Gitpod workspace URL and uses Live Share within it. no local environment required.
 
-## Tool Comparison: Live Share vs Tuple vs Gitpod
+Tool Comparison: Live Share vs Tuple vs Gitpod
 
 Picking the wrong tool is the fastest way to kill engagement in a remote mob session. Here is how the main options compare:
 
@@ -145,46 +145,46 @@ Picking the wrong tool is the fastest way to kill engagement in a remote mob ses
 | Cost | Free | $35/user/mo | $9/user/mo (Team plan) |
 | Best for | Mixed OS teams | macOS shops wanting quality | Teams with complex or inconsistent local setups |
 
-Tuple is the best pure mob experience if your team is on macOS and you can justify the cost — the latency difference is noticeable in active coding sessions. Live Share is a reasonable free alternative for occasional mob sessions. Gitpod becomes the right answer when local environment inconsistency is causing mob sessions to lose 20 minutes at the start to setup issues.
+Tuple is the best pure mob experience if your team is on macOS and you can justify the cost. the latency difference is noticeable in active coding sessions. Live Share is a reasonable free alternative for occasional mob sessions. Gitpod becomes the right answer when local environment inconsistency is causing mob sessions to lose 20 minutes at the start to setup issues.
 
-## Session Structure (90 minutes)
+Session Structure (90 minutes)
 
 ```
-:00 — Check-in (5 min)
+:00. Check-in (5 min)
   - What's the goal of this session? One sentence.
   - What's NOT in scope?
   - Who's first driver/navigator?
   - Timer visible to all?
 
-:05 — First rotation (15 min)
+:05. First rotation (15 min)
   Navigator: "Let's start by reading the failing test"
   Driver: types and navigates as directed
 
-:20 — Rotation (2 min)
+:20. Rotation (2 min)
   Timer bell → Driver pushes WIP commit → Navigator → Driver
 
-:22 — Second rotation (15 min)
+:22. Second rotation (15 min)
 
-:37 — Third rotation (15 min)
+:37. Third rotation (15 min)
 
-:52 — Fourth rotation (15 min)
+:52. Fourth rotation (15 min)
 
-:67 — Retrospective (10 min)
+:67. Retrospective (10 min)
   - What did we accomplish?
   - What should we do differently next session?
   - Any knowledge gaps surfaced?
   - Next session goal?
 
-:77 — Final commit, push, and PR (10 min)
+:77. Final commit, push, and PR (10 min)
 ```
 
-## WIP Commits for Rotation
+WIP Commits for Rotation
 
 Push a WIP commit on every rotation so the incoming driver starts with current code:
 
 ```bash
 #!/bin/bash
-# mob-handoff.sh — run at each rotation
+mob-handoff.sh. run at each rotation
 git add -A
 git commit -m "WIP: mob session $(date +%Y%m%d-%H%M) [$(git config user.name)]"
 git push origin mob-session
@@ -193,51 +193,51 @@ echo "Handoff complete. Next driver: pull and open VS Code"
 
 The mob session branch is squash-merged at the end with a proper commit message.
 
-## Navigator Anti-Patterns
+Navigator Anti-Patterns
 
 The most common failure mode in mob programming is navigator breakdown:
 
-**"Let me just type it quickly"** — Navigator takes keyboard from driver. Stops the learning/discussion dynamic.
+"Let me just type it quickly". Navigator takes keyboard from driver. Stops the learning/discussion dynamic.
 
-**"What do you think we should do?"** — Navigator asks the driver for decisions. The navigator decides; driver implements.
+"What do you think we should do?". Navigator asks the driver for decisions. The navigator decides; driver implements.
 
-**Monologue navigator** — One person dominates navigation across rotations, turning it into pair programming with an audience. Explicitly require silent time for mob members to surface ideas.
+Monologue navigator. One person dominates navigation across rotations, turning it into pair programming with an audience. Explicitly require silent time for mob members to surface ideas.
 
-**Too much detail** — "Type async def create_user open paren user: UserCreate close paren arrow UserResponse colon" — overly granular. Navigate at intention level: "Let's create the async endpoint for user creation with the standard signature."
+Too much detail. "Type async def create_user open paren user: UserCreate close paren arrow UserResponse colon". overly granular. Navigate at intention level: "Let's create the async endpoint for user creation with the standard signature."
 
-## Keeping the Mob Engaged
+Keeping the Mob Engaged
 
-The biggest practical challenge in remote mob sessions is maintaining mob engagement. Mob members who aren't driving or navigating can zone out within minutes — and in-person cues like someone leaning forward or reaching for the keyboard don't translate over video.
+The biggest practical challenge in remote mob sessions is maintaining mob engagement. Mob members who aren't driving or navigating can zone out within minutes. and in-person cues like someone leaning forward or reaching for the keyboard don't translate over video.
 
 Concrete techniques that help:
 
-**Rotate every 15 minutes without exception.** When people know their turn is coming, they stay attentive. Longer rotations let attention drift.
+Rotate every 15 minutes without exception. When people know their turn is coming, they stay attentive. Longer rotations let attention drift.
 
-**Assign an explicit "mob voice" role.** One mob member is designated to speak up with observations, questions, and alternatives at any time. This role rotates with each handoff. It gives permission to people who might otherwise stay quiet.
+Assign an explicit "mob voice" role. One mob member is designated to speak up with observations, questions, and alternatives at any time. This role rotates with each handoff. It gives permission to people who might otherwise stay quiet.
 
-**Use shared scratch space.** Keep a collaborative document (Google Docs, Notion, or a shared terminal session) where mob members can write down ideas, questions, or alternative approaches they want to raise at the next pause. This captures thoughts without interrupting the navigator-driver flow.
+Use shared scratch space. Keep a collaborative document (Google Docs, Notion, or a shared terminal session) where mob members can write down ideas, questions, or alternative approaches they want to raise at the next pause. This captures thoughts without interrupting the navigator-driver flow.
 
-**Run shorter sessions more often.** A 60-minute mob session with full engagement is more productive than a 2-hour session where the second hour is low-quality. Schedule 60-90 minutes maximum and book follow-up sessions for complex problems. Ending while the team is still energized is a reliable way to build momentum for the next session.
+Run shorter sessions more often. A 60-minute mob session with full engagement is more productive than a 2-hour session where the second hour is low-quality. Schedule 60-90 minutes maximum and book follow-up sessions for complex problems. Ending while the team is still energized is a reliable way to build momentum for the next session.
 
-## When Mob Programming Is Worth It
+When Mob Programming Is Worth It
 
-**High value:**
+High value:
 - Onboarding a new engineer to a complex area
 - Debugging a production issue that's stumped multiple engineers
 - Architectural decisions that need shared mental models
 - Code review for a critical, complex PR
 - Tackling a gnarly technical problem with no clear solution
 
-**Low value / avoid:**
+Low value / avoid:
 - Routine feature work that can be done independently
 - Anything where one engineer is significantly more experienced (becomes tutoring)
 - Work requiring deep focus with no collaboration benefits
 
-## Tools for the Timer
+Tools for the Timer
 
 ```bash
-# Terminal timer (visible to driver who shares screen)
-# Install: brew install terminal-notifier
+Terminal timer (visible to driver who shares screen)
+Install: brew install terminal-notifier
 countdown() {
   local seconds=$1
   while [ $seconds -gt 0 ]; do
@@ -246,45 +246,45 @@ countdown() {
     ((seconds--))
   done
   terminal-notifier -title "Mob Session" -message "Rotation! Switch driver."
-  echo -e "\r\033[K🔔 Time's up! Rotation."
+  echo -e "\r\033[K Time's up! Rotation."
 }
 
-# Start 15-minute timer
+Start 15-minute timer
 countdown 900
 ```
 
-**Web-based alternatives:**
-- [mobti.me](https://mobti.me) — free, shows timer to all participants if shared on screen
-- [leantimer.com](https://www.leantimer.com) — mob-specific timer with role display
+Web-based alternatives:
+- [mobti.me](https://mobti.me). free, shows timer to all participants if shared on screen
+- [leantimer.com](https://www.leantimer.com). mob-specific timer with role display
 
-## Session Notes Template
+Session Notes Template
 
 ```markdown
-## Mob Session — [date]
+Mob Session. [date]
 
-**Goal:** [one sentence]
-**Attendees:** @alice (nav1), @bob (driver1), @carol (driver2), @david (nav2)
-**Duration:** 90 min
+Goal: [one sentence]
+Attendees: @alice (nav1), @bob (driver1), @carol (driver2), @david (nav2)
+Duration: 90 min
 
-### What we built / decided:
+What we built / decided:
 - [specific outcome]
 
-### Decisions made (link to ADR if significant):
+Decisions made (link to ADR if significant):
 - [decision and rationale]
 
-### Knowledge transfers:
+Knowledge transfers:
 - @alice: explained the payment retry logic to @carol
-- @david: unfamiliar with the test fixture setup — explained during session
+- @david: unfamiliar with the test fixture setup. explained during session
 
-### Follow-up items:
-- [ ] #456 — refactor the session above into a clean PR (owner: @alice)
+Follow-up items:
+- [ ] #456. refactor the session above into a clean PR (owner: @alice)
 - [ ] Write tests for the edge case we discovered (owner: @bob)
 
-### Next session goal (if applicable):
+Next session goal (if applicable):
 [what we'd tackle in a follow-up session]
 ```
 
-## Related Reading
+Related Reading
 
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 - [Async Code Review Process Without Zoom Calls](/async-code-review-process-without-zoom-calls-step-by-step/)
@@ -292,12 +292,12 @@ countdown 900
 - [Best Tools for Remote Pair Programming Sessions in 2026](/best-tools-remote-pair-programming-sessions-2026/)
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Remote Pair Programming Sessions](/how-to-set-up-remote-pair-programming-sessions-guide/)
 - [How to Set Up Remote Pair Programming Sessions in 2026](/how-to-set-up-remote-pair-programming-sessions-2026/)
 - [Best Tools for Remote Pair Programming Sessions in 2026](/best-tools-remote-pair-programming-sessions-2026/)
 - [How to Set Up Remote Pair Programming Workflow Guide](/how-to-set-up-remote-pair-programming-workflow-guide/)
 - [Remote Pair Programming Tools Compared 2026](/remote-pair-programming-tools-compared/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

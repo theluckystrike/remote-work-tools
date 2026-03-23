@@ -18,7 +18,7 @@ voice-checked: true
 
 Promotion criteria in remote teams often suffer from ambiguity. Without the visibility that comes from physical office presence, developers and technical staff need crystal-clear expectations to advance their careers. A well-designed promotion framework eliminates guesswork, reduces bias, and helps your team understand exactly what they need to demonstrate to move up.
 
-## Table of Contents
+Table of Contents
 
 - [Why Remote Teams Need Explicit Promotion Criteria](#why-remote-teams-need-explicit-promotion-criteria)
 - [Core Components of a Promotion Framework](#core-components-of-a-promotion-framework)
@@ -33,17 +33,17 @@ Promotion criteria in remote teams often suffer from ambiguity. Without the visi
 - [Handling Promotion Disagreement](#handling-promotion-disagreement)
 - [Scaling the Framework as Teams Grow](#scaling-the-framework-as-teams-grow)
 
-This guide walks through building a promotion framework specifically tailored for remote technical teams—ones that are transparent, equitable, and actually usable.
+This guide walks through building a promotion framework specifically tailored for remote technical teams, ones that are transparent, equitable, and actually usable.
 
-## Why Remote Teams Need Explicit Promotion Criteria
+Why Remote Teams Need Explicit Promotion Criteria
 
-In traditional offices, promotions often rely on visibility: who the manager sees working late, who speaks up in meetings, who gets noticed. Remote work removes these signals. If your promotion process depends on visibility, you're systematically disadvantaging your most effective remote workers—who often communicate asynchronously and work during focused blocks.
+In traditional offices, promotions often rely on visibility: who the manager sees working late, who speaks up in meetings, who gets noticed. Remote work removes these signals. If your promotion process depends on visibility, you're systematically disadvantaging your most effective remote workers, who often communicate asynchronously and work during focused blocks.
 
 An explicit framework solves this by making advancement about measurable, demonstrable achievements rather than presence. It also reduces bias, because criteria are documented and applied consistently rather than subjectively.
 
-## Core Components of a Promotion Framework
+Core Components of a Promotion Framework
 
-### 1. Define Clear Level Expectations
+1. Define Clear Level Expectations
 
 Start by documenting what success looks like at each level. For technical teams, this typically includes:
 
@@ -81,7 +81,7 @@ levels:
     leadership: "Develops other leaders"
 ```
 
-### 2. Create Observable Evidence Categories
+2. Create Observable Evidence Categories
 
 Remote promotion requires evidence you can actually see. Structure your framework around categories that generate artifacts:
 
@@ -91,12 +91,12 @@ Remote promotion requires evidence you can actually see. Structure your framewor
 - Mentorship: Code pairing sessions, feedback given, knowledge transfer
 - Initiative ownership: Problems identified and solved proactively
 
-### 3. Build a Scoring Rubric
+3. Build a Scoring Rubric
 
 Quantify what "exceeds expectations" means for each category. This prevents subjective inflation and helps employees self-assess:
 
 ```markdown
-## Promotion Rubric Example: Technical Excellence
+Promotion Rubric Example: Technical Excellence
 
 | Criteria | Does Not Meet | Meets | Exceeds |
 |----------|---------------|-------|---------|
@@ -105,9 +105,9 @@ Quantify what "exceeds expectations" means for each category. This prevents subj
 | Testing | Minimal test coverage | Adequate coverage, tests logic | Tests edge cases, implements test strategies |
 ```
 
-## Practical Implementation Steps
+Practical Implementation Steps
 
-### Step 1: Audit Your Current State
+Step 1: Audit Your Current State
 
 Before building a new framework, document how promotions currently work. This exposes hidden criteria:
 
@@ -115,27 +115,27 @@ Before building a new framework, document how promotions currently work. This ex
 - Interview team members about their understanding of promotion requirements
 - Identify gaps between stated and actual criteria
 
-### Step 2: Draft Levels with Input
+Step 2: Draft Levels with Input
 
 Build your framework collaboratively. Technical teams respond better when they help define the criteria:
 
 ```
-# Draft promotion criteria session agenda:
+Draft promotion criteria session agenda:
 1. Review current level definitions (30 min)
 2. Brainstorm what each level actually means (45 min)
 3. Identify gaps and overlaps (30 min)
 4. Assign evidence categories to each level (45 min)
 ```
 
-### Step 3: Publish and Socialize
+Step 3: Publish and Socialize
 
-Once drafted, publish the framework in a visible, accessible location—your team wiki, Notion space, or dedicated docs folder. Then:
+Once drafted, publish the framework in a visible, accessible location, your team wiki, Notion space, or dedicated docs folder. Then:
 
 - Walk through it in a team meeting
 - Schedule 1:1s to discuss individual growth paths
 - Create a self-assessment template employees can use
 
-### Step 4: Iterate Based on Feedback
+Step 4: Iterate Based on Feedback
 
 Your first framework won't be perfect. Plan quarterly reviews to:
 
@@ -143,7 +143,7 @@ Your first framework won't be perfect. Plan quarterly reviews to:
 - Adjust based on team size and composition changes
 - Incorporate feedback from those who used it
 
-## Common Pitfalls to Avoid
+Common Pitfalls to Avoid
 
 The listicle trap: Avoid creating promotion criteria that are just a checklist of activities. Promotions should be about impact, not checkbox completion.
 
@@ -153,7 +153,7 @@ Static criteria: Technology roles evolve quickly. Your senior engineer's job loo
 
 Vague language: Phrases like "demonstrated leadership" or "technical excellence" mean different things to different people. Define them specifically.
 
-## Measuring Framework Effectiveness
+Measuring Framework Effectiveness
 
 Track these metrics to know if your framework works:
 
@@ -162,58 +162,58 @@ Track these metrics to know if your framework works:
 - Representation: Are promotions equitable across demographic groups?
 - Self-assessment accuracy: Can employees accurately predict their promotion readiness?
 
-## Implementation Tools and Templates
+Implementation Tools and Templates
 
-**Promotion Documentation Platforms:**
+Promotion Documentation Platforms:
 
 Several tools help organize and track promotion readiness:
 
-- **Lattice/Ally**: Full performance management platform with built-in promotion workflows. $12-25/employee/month. Good for teams 50+.
-- **15Five**: Performance management with lightweight promotion tracking. $10/employee/month. Good for smaller teams.
-- **Notion templates**: Community-built free templates for tracking promotion progress. Requires self-management.
-- **Google Workspace**: Spreadsheets + docs for DIY tracking. Free or included in existing licenses.
+- Lattice/Ally: Full performance management platform with built-in promotion workflows. $12-25/employee/month. Good for teams 50+.
+- 15Five: Performance management with lightweight promotion tracking. $10/employee/month. Good for smaller teams.
+- Notion templates: Community-built free templates for tracking promotion progress. Requires self-management.
+- Google Workspace: Spreadsheets + docs for DIY tracking. Free or included in existing licenses.
 
 For most remote teams, a well-structured Google Doc or Notion page outperforms expensive software.
 
-## Avoiding Common Pitfalls in Remote Teams
+Avoiding Common Pitfalls in Remote Teams
 
-**Pitfall 1: Visibility Bias**
+Pitfall 1: Visibility Bias
 Remote teams struggle to see async work. A developer shipping critical backend improvements gets less "credit" than someone visible in meetings. Counter this by:
 - Requiring written quarterly reviews from peers
 - Tracking shipped features, not just attendance
 - Highlighting async contributions in team updates
 
-**Pitfall 2: Communication Style Penalization**
+Pitfall 2: Communication Style Penalization
 Introverted developers and those from different communication cultures may appear less promotable simply because they don't perform well in synchronous meetings. Mitigate by:
 - Valuing written communication equally with verbal
 - Assessing decision-making quality, not presentation style
 - Providing multiple formats for demonstrating readiness
 
-**Pitfall 3: Geographic/Timezone Invisibility**
+Pitfall 3: Geographic/Timezone Invisibility
 Remote workers in different timezones may miss key "visibility moments." Counter by:
 - Recording important meetings for async review
 - Creating written decision logs
 - Rotating meeting times for visibility across zones
 
-**Pitfall 4: Tool Lock-in**
+Pitfall 4: Tool Lock-in
 Using proprietary systems for promotion criteria makes the process opaque. Keep criteria in:
 - Shared documents all employees can access
 - Version control (git) for historical tracking
 - Plain language, not corporate jargon
 
-## Quarterly Promotion Readiness Checkpoints
+Quarterly Promotion Readiness Checkpoints
 
 Implement quarterly reviews to help employees understand their readiness status:
 
 ```markdown
-## Promotion Readiness Checkpoint (Quarterly)
+Promotion Readiness Checkpoint (Quarterly)
 
-**Employee**: [Name]
-**Date**: [Quarter/Year]
-**Current Level**: [Level]
-**Target Level**: [Level]
+Employee: [Name]
+Date: [Quarter/Year]
+Current Level: [Level]
+Target Level: [Level]
 
-### Evidence Gathered This Quarter
+Evidence Gathered This Quarter
 
 #### Technical Excellence
 - [ ] Shipped features: [list]
@@ -232,24 +232,24 @@ Implement quarterly reviews to help employees understand their readiness status:
 
 #### Gap Analysis
 
-**Areas where ready:**
+Areas where ready:
 1.
 2.
 
-**Areas needing growth:**
+Areas needing growth:
 1.
 2.
 
-**Growth activities for next quarter:**
+Growth activities for next quarter:
 1.
 2.
 
-### Next Checkpoint: [Date]
+Next Checkpoint: [Date]
 ```
 
 Share this assessment with the employee. They should rarely be surprised by promotion readiness if checkpoints are regular.
 
-## Handling Promotion Disagreement
+Handling Promotion Disagreement
 
 When an employee disagrees with promotion decisions, have a structured conversation:
 
@@ -262,25 +262,25 @@ When an employee disagrees with promotion decisions, have a structured conversat
 6. Document the conversation and follow-up plan
 ```
 
-Document disagreements—they often reveal gaps in your framework. If multiple people disagree with the same decision, your criteria may need revision.
+Document disagreements, they often reveal gaps in your framework. If multiple people disagree with the same decision, your criteria may need revision.
 
-## Scaling the Framework as Teams Grow
+Scaling the Framework as Teams Grow
 
 As your remote team scales from 5 to 50+ people, your promotion framework must evolve:
 
-**Stage 1 (5-15 people):**
+Stage 1 (5-15 people):
 - Minimal formal structure
 - Quarterly reviews with manager
 - Informal peer feedback
 - Framework: Simple YAML/document
 
-**Stage 2 (15-40 people):**
+Stage 2 (15-40 people):
 - Structured rubrics
 - Quarterly checkpoint system
 - Peer review process
 - Tool: Spreadsheet or Notion
 
-**Stage 3 (40+ people):**
+Stage 3 (40+ people):
 - Formal calibration sessions (yearly)
 - Defined promotion "windows" (e.g., Jan/July)
 - Dedicated promotion committee
@@ -288,34 +288,34 @@ As your remote team scales from 5 to 50+ people, your promotion framework must e
 
 Track when to transition between stages based on growth, not just headcount. A high-velocity team might need Stage 2 practices at 10 people; a stable team might stay in Stage 1 at 30.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to create remote team promotion criteria transparent?**
+How long does it take to create remote team promotion criteria transparent?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Create Remote Team Career Ladder Documentation](/how-to-create-remote-team-career-ladder-documentation-for-gr/)
 - [How to Build Remote Team Engineering Career Ladder 2026](/how-to-build-remote-team-engineering-career-ladder-2026/)
 - [How to Create Remote Team Decision Making Framework for Dist](/how-to-create-remote-team-decision-making-framework-for-dist/)
 - [How to Create New Hire Welcome Ritual for Remote Team](/how-to-create-new-hire-welcome-ritual-for-remote-team/)
 - [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -20,260 +20,260 @@ Remote developers spend most of the day in the terminal. Switching to a browser 
 
 This guide covers the best CLI tools for project management in 2026: the Linear CLI, GitHub Projects via `gh`, Jira CLI, and TaskWarrior for personal task tracking.
 
-## Linear CLI
+Linear CLI
 
 Linear is the project management tool most engineering teams are moving to. Its official CLI covers most daily operations.
 
-### Install and Auth
+Install and Auth
 
 ```bash
-# Install via npm
+Install via npm
 npm install -g @linear/cli
 
-# Authenticate
+Authenticate
 linear auth
 
-# Verify connection
+Verify connection
 linear whoami
 ```
 
-### Daily Workflow Commands
+Daily Workflow Commands
 
 ```bash
-# List your assigned issues
+List your assigned issues
 linear issue list --assignee me
 
-# Create an issue
+Create an issue
 linear issue create \
   --title "Fix login timeout on Safari" \
   --team ENG \
   --priority urgent \
   --label "bug"
 
-# View issue detail
+View issue detail
 linear issue view ENG-1234
 
-# Update issue status
+Update issue status
 linear issue update ENG-1234 --status "In Progress"
 
-# Add a comment
+Add a comment
 linear issue comment ENG-1234 --body "Reproduced on Safari 17.3, investigating"
 
-# Move to a cycle (sprint)
+Move to a cycle (sprint)
 linear issue update ENG-1234 --cycle current
 
-# List issues in current cycle
+List issues in current cycle
 linear issue list --cycle current --team ENG
 
-# Search issues
+Search issues
 linear issue search "login timeout"
 ```
 
-### Filtering and Views
+Filtering and Views
 
 ```bash
-# Issues by priority
+Issues by priority
 linear issue list --priority urgent --assignee me
 
-# Issues by label
+Issues by label
 linear issue list --label "bug" --team ENG
 
-# List cycles
+List cycles
 linear cycle list --team ENG
 
-# View current cycle with issues
+View current cycle with issues
 linear cycle view --current --team ENG
 
-# Export issues to JSON (for scripts)
+Export issues to JSON (for scripts)
 linear issue list --format json | jq '.[] | {id, title, status}'
 ```
 
-## GitHub Projects via gh CLI
+GitHub Projects via gh CLI
 
 If your team manages work through GitHub Projects, the `gh` CLI handles issues and project items directly.
 
-### Install gh
+Install gh
 
 ```bash
-# macOS
+macOS
 brew install gh
 
-# Linux
+Linux
 sudo apt-get install gh  # after setting up the GitHub apt repo
-# or
+or
 curl -sS https://webi.sh/gh | sh
 
-# Auth
+Auth
 gh auth login
 ```
 
-### GitHub Issues Workflow
+GitHub Issues Workflow
 
 ```bash
-# List open issues assigned to you
+List open issues assigned to you
 gh issue list --assignee @me
 
-# Create an issue
+Create an issue
 gh issue create \
   --title "Add rate limiting to /api/auth" \
   --body "We're seeing 500s under load. Need rate limiting on the auth endpoint." \
   --label "enhancement,backend" \
   --assignee @me
 
-# View an issue
+View an issue
 gh issue view 142
 
-# Close an issue with a comment
+Close an issue with a comment
 gh issue close 142 --comment "Fixed in #145"
 
-# List issues by label
+List issues by label
 gh issue list --label "bug" --state open
 
-# Filter with jq
+Filter with jq
 gh issue list --json number,title,assignees,labels | \
   jq '.[] | select(.labels[].name == "priority:high")'
 ```
 
-### GitHub Projects (v2) via gh API
+GitHub Projects (v2) via gh API
 
 ```bash
-# List projects in an org
+List projects in an org
 gh project list --owner myorg
 
-# List items in a project
+List items in a project
 gh project item-list 5 --owner myorg
 
-# Add an issue to a project
+Add an issue to a project
 gh project item-add 5 --owner myorg --url https://github.com/myorg/myrepo/issues/142
 
-# Update a project item field (e.g., Status)
+Update a project item field (e.g., Status)
 gh project item-edit \
   --project-id PVT_abc123 \
   --id PVTI_def456 \
   --field-id PVTF_ghi789 \
   --text "In Progress"
 
-# Create a PR linked to an issue (auto-closes on merge)
+Create a PR linked to an issue (auto-closes on merge)
 gh pr create \
   --title "Add rate limiting to auth endpoint" \
   --body "Closes #142" \
   --base main
 
-# Check PR status
+Check PR status
 gh pr status
 gh pr checks
 ```
 
-## Jira CLI (go-jira)
+Jira CLI (go-jira)
 
 For teams using Jira, `go-jira` provides a fast terminal interface.
 
-### Install and Configure
+Install and Configure
 
 ```bash
-# Install go-jira
-# macOS
+Install go-jira
+macOS
 brew install go-jira
 
-# Linux
+Linux
 curl -L https://github.com/go-jira/jira/releases/latest/download/jira-linux-amd64 \
   -o /usr/local/bin/jira
 chmod +x /usr/local/bin/jira
 
-# Configure
+Configure
 cat > ~/.jira.d/config.yml << 'EOF'
 endpoint: https://yourcompany.atlassian.net
 user: you@yourcompany.com
 project: ENG
 EOF
 
-# Authenticate (uses API token from https://id.atlassian.com/manage-profile/security/api-tokens)
+Authenticate (uses API token from https://id.atlassian.com/manage-profile/security/api-tokens)
 export JIRA_API_TOKEN=your_api_token_here
 ```
 
-### Daily Jira Commands
+Daily Jira Commands
 
 ```bash
-# List your active issues
+List your active issues
 jira list --query "assignee = currentUser() AND status != Done ORDER BY priority DESC"
 
-# Create an issue
+Create an issue
 jira create --project ENG \
   --issuetype Bug \
   --summary "Login timeout on mobile Safari" \
   --description "Users on iOS 17 are timing out during login"
 
-# View an issue
+View an issue
 jira view ENG-1234
 
-# Transition an issue
+Transition an issue
 jira transition "In Progress" ENG-1234
 
-# Add a comment
+Add a comment
 jira comment ENG-1234 --comment "Reproduced. Looking at auth token expiry."
 
-# Assign to yourself
+Assign to yourself
 jira assign ENG-1234 $(jira me)
 
-# List transitions for an issue
+List transitions for an issue
 jira transitions ENG-1234
 
-# Sprint report
+Sprint report
 jira list --query "sprint in openSprints() AND project = ENG"
 ```
 
-## TaskWarrior for Personal Task Tracking
+TaskWarrior for Personal Task Tracking
 
 TaskWarrior is a local CLI task manager. It doesn't integrate with Linear or Jira, but it's fast for personal to-do lists, daily priorities, and tasks that don't belong in a project tracker.
 
-### Install
+Install
 
 ```bash
 sudo apt-get install taskwarrior   # Debian/Ubuntu
 brew install task                   # macOS
 ```
 
-### Core Commands
+Core Commands
 
 ```bash
-# Add a task
+Add a task
 task add "Write incident report for ENG-1234" project:work priority:H due:tomorrow
 
-# List tasks
+List tasks
 task list
 task next          # shows prioritized list
 
-# Mark done
+Mark done
 task 3 done
 
-# Filter tasks
+Filter tasks
 task project:work list
 task +bug list     # tagged bug
 task due:today list
 
-# Modify a task
+Modify a task
 task 3 modify priority:M due:friday
 
-# Delete a task
+Delete a task
 task 3 delete
 
-# Create a recurring task
+Create a recurring task
 task add "Weekly status update" recur:weekly due:friday project:work
 
-# Time tracking (with taskwarrior-hooks or timewarrior)
+Time tracking (with taskwarrior-hooks or timewarrior)
 task 3 start
 task 3 stop
 
-# Reports
+Reports
 task burndown.weekly
 task summary
 task stats
 ```
 
-### Sync TaskWarrior with Remote Teams
+Sync TaskWarrior with Remote Teams
 
 ```bash
-# Use Taskserver (taskd) for team sync, or simpler: sync via git
+Use Taskserver (taskd) for team sync, or simpler: sync via git
 mkdir -p ~/.task-backup
 cat > ~/bin/task-sync.sh << 'EOF'
 #!/bin/bash
@@ -284,67 +284,67 @@ git push origin main
 EOF
 chmod +x ~/bin/task-sync.sh
 
-# Add to crontab for automatic sync
+Add to crontab for automatic sync
 crontab -e
-# Add: */30 * * * * /home/user/bin/task-sync.sh >> /tmp/task-sync.log 2>&1
+Add: */30 * * * * /home/user/bin/task-sync.sh >> /tmp/task-sync.log 2>&1
 ```
 
-## Shell Aliases for Fast Access
+Shell Aliases for Fast Access
 
 ```bash
-# Add to ~/.bashrc or ~/.zshrc
+Add to ~/.bashrc or ~/.zshrc
 
-# Linear shortcuts
+Linear shortcuts
 alias li='linear issue list --assignee me'
 alias linp='linear issue list --assignee me --priority urgent'
 
-# GitHub shortcuts
+GitHub shortcuts
 alias ghi='gh issue list --assignee @me'
 alias ghp='gh pr status'
 
-# Quick issue from git branch name
+Quick issue from git branch name
 alias create-issue='gh issue create --title "$(git branch --show-current | tr - " ")"'
 
-# TaskWarrior shortcuts
+TaskWarrior shortcuts
 alias t='task'
 alias tn='task next'
 alias ta='task add'
 alias td='task done'
 
-# Open current sprint in browser
+Open current sprint in browser
 alias sprint='open "https://linear.app/yourteam/view/my-issues"'
 ```
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Are free AI tools good enough for project management cli tools?**
+Are free AI tools good enough for project management cli tools?
 
 Free tiers work for basic tasks and evaluation, but paid plans typically offer higher rate limits, better models, and features needed for professional work. Start with free options to find what works for your workflow, then upgrade when you hit limitations.
 
-**How do I evaluate which tool fits my workflow?**
+How do I evaluate which tool fits my workflow?
 
 Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
-**Do these tools work offline?**
+Do these tools work offline?
 
 Most AI-powered tools require an internet connection since they run models on remote servers. A few offer local model options with reduced capability. If offline access matters to you, check each tool's documentation for local or self-hosted options.
 
-**How quickly do AI tool recommendations go out of date?**
+How quickly do AI tool recommendations go out of date?
 
 AI tools evolve rapidly, with major updates every few months. Feature comparisons from 6 months ago may already be outdated. Check the publication date on any review and verify current features directly on each tool's website before purchasing.
 
-**Should I switch tools if something better comes out?**
+Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific pain point you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
-## Related Articles
+Related Articles
 
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/chrome-extension-linear-issue-tracker/)
 - [Shortcut vs Linear Issue Tracking Comparison](/shortcut-vs-linear-issue-tracking-comparison/)
 - [Asana vs Linear for a 10-Person Dev Team Comparison](/asana-vs-linear-for-a-10-person-dev-team-comparison/)
 - [Best Remote Work Project Management Tools Under 10](/best-remote-work-project-management-tools-under-10-per-user-2026/)
 - [Linear vs Shortcut for a Remote Startup of 8 Engineers](/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

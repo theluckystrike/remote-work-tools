@@ -9,21 +9,21 @@ permalink: /chrome-extension-package-tracker-all-carriers/
 
 Building a Chrome extension that tracks packages across all major shipping carriers requires understanding carrier APIs, manifest configuration, and cross-origin request handling. This guide walks through the technical implementation for developers looking to create a strong multi-carrier tracking solution.
 
-## Understanding the Challenge
+Understanding the Challenge
 
-Package tracking seems simple on the surface—enter a tracking number and get status updates. However, each carrier (UPS, FedEx, USPS, DHL, Amazon) uses different tracking number formats, API endpoints, and response structures. A truly universal tracker must handle these differences while providing a consistent user experience.
+Package tracking seems simple on the surface, enter a tracking number and get status updates. However, each carrier (UPS, FedEx, USPS, DHL, Amazon) uses different tracking number formats, API endpoints, and response structures. A truly universal tracker must handle these differences while providing a consistent user experience.
 
 The core challenge is normalizing data from multiple sources into a unified interface. Before writing any code, you need to understand the tracking number patterns and available APIs for each carrier you intend to support.
 
-## Chrome Extension Architecture
+Chrome Extension Architecture
 
 A multi-carrier package tracker extension consists of three main components:
 
-1. **Popup Interface** - User input for tracking numbers and display of results
-2. **Background Service** - Handles API calls and data normalization
-3. **Content Scripts** - Optional, for extracting tracking numbers from web pages
+1. Popup Interface - User input for tracking numbers and display of results
+2. Background Service - Handles API calls and data normalization
+3. Content Scripts - Optional, for extracting tracking numbers from web pages
 
-### Manifest Configuration
+Manifest Configuration
 
 Your manifest.json defines the extension's capabilities:
 
@@ -53,9 +53,9 @@ Your manifest.json defines the extension's capabilities:
 }
 ```
 
-The host_permissions array is critical—each carrier domain must be explicitly declared to allow API requests from your extension.
+The host_permissions array is critical, each carrier domain must be explicitly declared to allow API requests from your extension.
 
-## Carrier Detection and API Integration
+Carrier Detection and API Integration
 
 The first step in your background script is detecting which carrier a tracking number belongs to. Each carrier uses specific patterns:
 
@@ -79,13 +79,13 @@ function detectCarrier(trackingNumber) {
 
 Once you've identified the carrier, construct the appropriate API request. Most carriers require authentication, which presents a challenge for client-side extensions.
 
-### Handling API Authentication
+Handling API Authentication
 
 Rather than embedding API keys in your extension (which exposes them to anyone who inspects your code), consider these approaches:
 
-1. **Backend Proxy** - Your own server handles API authentication and forwards requests
-2. **OAuth Flows** - For carriers supporting OAuth, implement the flow in your background script
-3. **Public APIs** - Some carriers offer limited public tracking endpoints
+1. Backend Proxy - Your own server handles API authentication and forwards requests
+2. OAuth Flows - For carriers supporting OAuth, implement the flow in your background script
+3. Public APIs - Some carriers offer limited public tracking endpoints
 
 For development and personal use, you can store API keys in extension storage with the understanding that determined users could extract them:
 
@@ -115,7 +115,7 @@ async function fetchTrackingData(trackingNumber, carrier) {
 }
 ```
 
-## Data Normalization
+Data Normalization
 
 Each carrier returns tracking data in different formats. Create a normalization layer:
 
@@ -154,7 +154,7 @@ function normalizeTrackingResponse(carrier, rawData) {
 }
 ```
 
-## Popup Interface Implementation
+Popup Interface Implementation
 
 The popup provides the user-facing component. Use a clean, minimal design:
 
@@ -205,7 +205,7 @@ document.getElementById('trackBtn').addEventListener('click', async () => {
 });
 ```
 
-## Storage and Persistence
+Storage and Persistence
 
 Allow users to save their tracked packages:
 
@@ -224,21 +224,21 @@ async function savePackage(trackingData) {
 }
 ```
 
-## Best Practices for Production
+Best Practices for Production
 
 When moving beyond personal use, implement these considerations:
 
-- **Rate Limiting** - Respect carrier API limits to avoid getting blocked
-- **Error Handling** - Gracefully handle API failures, timeouts, and invalid tracking numbers
-- **Caching** - Store recent results to reduce API calls and improve responsiveness
-- **User Privacy** - Minimize data collection; consider local-only storage
+- Rate Limiting - Respect carrier API limits to avoid getting blocked
+- Error Handling - Gracefully handle API failures, timeouts, and invalid tracking numbers
+- Caching - Store recent results to reduce API calls and improve responsiveness
+- User Privacy - Minimize data collection; consider local-only storage
 
 Testing your extension requires loading it as an unpacked extension in Chrome's developer mode. Iterate on the UI based on real usage patterns.
 
-## Conclusion
+Conclusion
 
-Building a Chrome extension for multi-carrier package tracking requires handling diverse APIs, normalizing data formats, and creating a smooth user experience. The architecture outlined here provides a foundation that scales—start with a few carriers and expand as you understand the data patterns.
+Building a Chrome extension for multi-carrier package tracking requires handling diverse APIs, normalizing data formats, and creating a smooth user experience. The architecture outlined here provides a foundation that scales, start with a few carriers and expand as you understand the data patterns.
 
 The key to success is abstraction: separate carrier detection, API calls, and data normalization into distinct modules. This makes adding new carriers straightforward and keeps your code maintainable.
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

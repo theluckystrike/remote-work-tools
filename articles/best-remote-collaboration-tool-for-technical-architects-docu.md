@@ -18,18 +18,18 @@ voice-checked: true
 
 Document system dependencies using GitHub's native dependency graph plus custom markdown in your repo for service relationships, create visual architecture diagrams in Miro or Lucidchart, and maintain a living README that evolves with your system. This guide shows you how to keep dependency documentation async-friendly and accessible without requiring synchronous documentation meetings.
 
-## The Remote Architecture Documentation Challenge
+The Remote Architecture Documentation Challenge
 
 When your team works across time zones, you lose the informal knowledge transfer that happens in physical offices. A senior engineer understands the payment service depends on the billing API and notification webhooks, but that knowledge stays in their head until someone asks. Documenting dependencies formally becomes essential, but traditional tools often fall short for distributed teams.
 
 The best dependency documentation tools for remote technical architects share specific characteristics: they integrate with existing workflows, support asynchronous review, maintain version history, and remain accessible to everyone without requiring special software. Here is how to evaluate your options.
 
-## GitHub Dependency Graph and Dependency Review
+GitHub Dependency Graph and Dependency Review
 
 For teams using GitHub, the native dependency graph provides a solid starting point for understanding third-party library dependencies. Enable it in your repository settings:
 
 ```yaml
-# .github/dependabot.yml
+.github/dependabot.yml
 version: 2
 updates:
   - package-ecosystem: "npm"
@@ -47,7 +47,7 @@ The dependency graph visualizes direct and transitive dependencies, highlighting
 For service-level dependency tracking, create a dedicated dependency manifest in your repository:
 
 ```yaml
-# docs/system-dependencies.yaml
+docs/system-dependencies.yaml
 services:
   - name: user-service
     type: internal
@@ -69,7 +69,7 @@ services:
 
 This YAML format is readable across your team and integrates with documentation generators.
 
-## Mermaid.js for Dependency Visualization
+Mermaid.js for Dependency Visualization
 
 Mermaid.js offers an excellent solution for teams that want visual dependency diagrams alongside their documentation. The tool renders diagrams from text definitions, making it easy to version control alongside your code.
 
@@ -126,7 +126,7 @@ def generate_mermaid(services):
 
     return "\n".join(lines)
 
-# Example usage
+Example usage
 with open('docs/system-dependencies.yaml') as f:
     services = yaml.safe_load(f)['services']
 
@@ -135,17 +135,17 @@ print(generate_mermaid(services))
 
 Running this script automatically generates an updated diagram when your dependency definitions change.
 
-## Backstage for Service Catalogs
+Backstage for Service Catalogs
 
 Backstage, originally developed at Spotify and now a CNCF project, provides a platform for managing service catalogs. It works particularly well for larger organizations with multiple teams needing to understand system relationships.
 
 Install the Backstage software template to standardize how teams document services:
 
 ```bash
-# Initialize Backstage
+Initialize Backstage
 npx @backstage/cli@latest init
 
-# Create a component template
+Create a component template
 cat > template.yaml << 'EOF'
 apiVersion: backstage.io/v1beta2
 kind: Template
@@ -175,14 +175,14 @@ Backstage's service catalog captures not just dependencies but also ownership, A
 
 The primary drawback: Backstage requires significant infrastructure to deploy and maintain. Smaller teams may find the overhead excessive compared to simpler alternatives.
 
-## Dependency Track for Security and License Compliance
+Dependency Track for Security and License Compliance
 
 Dependency Track takes a different approach, focusing on tracking dependencies across your entire software portfolio. It integrates with CI/CD pipelines to continuously monitor for vulnerabilities and license compliance issues.
 
 Configure Dependency Track monitoring in your pipeline:
 
 ```yaml
-# .github/workflows/dependency-track.yml
+.github/workflows/dependency-track.yml
 name: Dependency Track Analysis
 on:
   push:
@@ -216,7 +216,7 @@ jobs:
 
 This workflow generates a Software Bill of Materials (SBOM) and submits it for analysis. Your team receives alerts when new vulnerabilities affect your dependencies.
 
-## Choosing Your Documentation Approach
+Choosing Your Documentation Approach
 
 Select tools based on team size, existing infrastructure, and documentation needs:
 
@@ -229,7 +229,7 @@ Select tools based on team size, existing infrastructure, and documentation need
 
 Most successful remote teams combine approaches. Use Mermaid for architecture diagrams stored alongside code, Dependency Track for security monitoring, and a service catalog like Backstage when your portfolio grows beyond a handful of services.
 
-## Implementing Remote-Friendly Documentation Workflows
+Implementing Remote-Friendly Documentation Workflows
 
 Regardless of tool choice, establish processes that work across time zones:
 
@@ -238,9 +238,9 @@ Regardless of tool choice, establish processes that work across time zones:
 2. Link from code to documentation: Add comments in your service code that reference dependency documentation:
 
 ```python
-# user_service.py
-# Dependencies: See docs/architecture/system-dependencies.yaml
-# Related ADRs: docs/adr/004-user-service-architecture.md
+user_service.py
+Dependencies: See docs/architecture/system-dependencies.yaml
+Related ADRs: docs/adr/004-user-service-architecture.md
 class UserService:
     """Handles user management and authentication.
 
@@ -257,7 +257,7 @@ class UserService:
 
 ```bash
 #!/bin/bash
-# Check for undocumented dependencies
+Check for undocumented dependencies
 for service in services/*/; do
     doc_file="docs/dependencies/$(basename $service).md"
     if [ ! -f "$doc_file" ]; then
@@ -266,34 +266,34 @@ for service in services/*/; do
 done
 ```
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Are free AI tools good enough for remote collaboration tool for technical architects?**
+Are free AI tools good enough for remote collaboration tool for technical architects?
 
 Free tiers work for basic tasks and evaluation, but paid plans typically offer higher rate limits, better models, and features needed for professional work. Start with free options to find what works for your workflow, then upgrade when you hit limitations.
 
-**How do I evaluate which tool fits my workflow?**
+How do I evaluate which tool fits my workflow?
 
 Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
-**Do these tools work offline?**
+Do these tools work offline?
 
 Most AI-powered tools require an internet connection since they run models on remote servers. A few offer local model options with reduced capability. If offline access matters to you, check each tool's documentation for local or self-hosted options.
 
-**Can I use these tools with a distributed team across time zones?**
+Can I use these tools with a distributed team across time zones?
 
 Most modern tools support asynchronous workflows that work well across time zones. Look for features like async messaging, recorded updates, and timezone-aware scheduling. The best choice depends on your team's specific communication patterns and size.
 
-**Should I switch tools if something better comes out?**
+Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific pain point you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
-## Related Articles
+Related Articles
 
 - [How to Track Project Dependencies Remote Team](/how-to-track-project-dependencies-remote-team/)
 - [Remote DevOps Team Dependency Update Workflow for](/remote-devops-team-dependency-update-workflow-for-coordinati/)
 - [Best Whiteboarding Tool for Remote Architects Doing System](/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
 - [Remote Architecture Collaboration Tool for Distributed](/remote-architecture-collaboration-tool-for-distributed-teams/)
 - [Remote Architecture BIM Collaboration Tool for Distributed](/remote-architecture-bim-collaboration-tool-for-distributed-t/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

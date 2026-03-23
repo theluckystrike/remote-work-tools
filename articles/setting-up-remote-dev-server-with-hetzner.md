@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Setting Up a Remote Dev Server with Hetzner"
-description: "Provision a Hetzner Cloud dev server with code-server, Tailscale, and automated snapshots — a complete setup for remote development with VS Code in the browser"
+description: "Provision a Hetzner Cloud dev server with code-server, Tailscale, and automated snapshots. a complete setup for remote development with VS Code in the browser"
 date: 2026-03-22
 author: theluckystrike
 permalink: /setting-up-remote-dev-server-with-hetzner/
@@ -17,7 +17,7 @@ voice-checked: true
 
 Hetzner offers the best price-to-performance ratio for cloud dev servers in Europe and the US. A CX22 (2 vCPU, 4GB RAM) costs €3.79/month. A CCX33 (8 dedicated vCPU, 32GB RAM) costs €27.49/month. Compare that to AWS or GCP equivalents at 3-5x the price. For remote developers who want a persistent, fast dev environment accessible from any machine, Hetzner plus code-server is hard to beat.
 
-## Table of Contents
+Table of Contents
 
 - [Architecture](#architecture)
 - [Step 1: Create the Server](#step-1-create-the-server)
@@ -33,9 +33,9 @@ Hetzner offers the best price-to-performance ratio for cloud dev servers in Euro
 - [Comparing Hetzner to Alternatives](#comparing-hetzner-to-alternatives)
 - [Related Reading](#related-reading)
 
-The core idea is simple: instead of lugging a powerful laptop everywhere, or trying to sync dev environments across multiple machines, you run everything on a single cloud server. Your local machine becomes a thin client. Any laptop — even a base MacBook Air or a cheap Chromebook — can be your full workstation via browser or SSH.
+The core idea is simple: instead of lugging a powerful laptop everywhere, or trying to sync dev environments across multiple machines, you run everything on a single cloud server. Your local machine becomes a thin client. Any laptop. even a base MacBook Air or a cheap Chromebook. can be your full workstation via browser or SSH.
 
-## Architecture
+Architecture
 
 ```
 Your machine (thin client)
@@ -47,24 +47,24 @@ Hetzner CX22/CX32 server (code-server + your dev tools)
 Your projects (on-server, backed up to Hetzner Object Storage)
 ```
 
-This architecture has meaningful advantages over local development. The server is always on — long-running jobs, build caches, and Docker services persist between sessions. You get consistent performance regardless of where you're working. And because the server is on Hetzner's network, git operations, Docker pulls, and package downloads are significantly faster than on a home connection.
+This architecture has meaningful advantages over local development. The server is always on. long-running jobs, build caches, and Docker services persist between sessions. You get consistent performance regardless of where you're working. And because the server is on Hetzner's network, git operations, Docker pulls, and package downloads are significantly faster than on a home connection.
 
-## Step 1: Create the Server
+Step 1: Create the Server
 
 ```bash
-# Install hcloud CLI
+Install hcloud CLI
 brew install hcloud  # macOS
-# or: curl -fsSL https://github.com/hetznercloud/cli/releases/latest/download/hcloud-linux-amd64.tar.gz | tar xz
+or: curl -fsSL https://github.com/hetznercloud/cli/releases/latest/download/hcloud-linux-amd64.tar.gz | tar xz
 
-# Authenticate
+Authenticate
 hcloud context create myproject
-# Enter your API token from Hetzner Cloud Console → Security → API Tokens
+Enter your API token from Hetzner Cloud Console → Security → API Tokens
 
-# Create SSH key
+Create SSH key
 ssh-keygen -t ed25519 -C "dev-server" -f ~/.ssh/hetzner_dev
 hcloud ssh-key create --name dev-server --public-key-file ~/.ssh/hetzner_dev.pub
 
-# Create the server
+Create the server
 hcloud server create \
   --name dev-server \
   --type cx32 \
@@ -73,16 +73,16 @@ hcloud server create \
   --location nbg1 \
   --user-data-from-file cloud-init.yaml
 
-# Get the IP
+Get the IP
 hcloud server ip dev-server
 ```
 
-**Location selection**: Hetzner operates datacenters in Nuremberg (nbg1), Falkenstein (fsn1), Helsinki (hel1), and Ashburn VA (ash). Pick the one closest to your primary clients or CI systems, not closest to you — latency to the server over SSH is negligible; latency between your server and external services matters more.
+Location selection: Hetzner operates datacenters in Nuremberg (nbg1), Falkenstein (fsn1), Helsinki (hel1), and Ashburn VA (ash). Pick the one closest to your primary clients or CI systems, not closest to you. latency to the server over SSH is negligible; latency between your server and external services matters more.
 
-## Step 2: Cloud-Init Configuration
+Step 2: Cloud-Init Configuration
 
 ```yaml
-# cloud-init.yaml
+cloud-init.yaml
 #cloud-config
 users:
   - name: dev
@@ -119,13 +119,13 @@ runcmd:
 
 Cloud-init runs on first boot and gives you a fully configured server in about 3-4 minutes. No manual SSH steps, no post-boot scripts to remember. The entire configuration is in version control.
 
-## Step 3: Install and Configure code-server
+Step 3: Install and Configure code-server
 
 ```bash
-# SSH into the server
+SSH into the server
 ssh -i ~/.ssh/hetzner_dev dev@<server-ip>
 
-# code-server config is at ~/.config/code-server/config.yaml
+code-server config is at ~/.config/code-server/config.yaml
 cat > ~/.config/code-server/config.yaml << 'EOF'
 bind-addr: 127.0.0.1:8080
 auth: password
@@ -133,34 +133,34 @@ password: $(openssl rand -hex 24)
 cert: false
 EOF
 
-# Set a strong password
+Set a strong password
 sed -i "s/\$(openssl rand -hex 24)/$(openssl rand -hex 24)/" ~/.config/code-server/config.yaml
 
 sudo systemctl restart code-server@dev
 ```
 
-code-server gives you VS Code in the browser — full extension support, integrated terminal, git integration. For extensions that don't work well in the browser (debuggers for some languages, for example), Remote-SSH is the better option and is covered in Step 4.
+code-server gives you VS Code in the browser. full extension support, integrated terminal, git integration. For extensions that don't work well in the browser (debuggers for some languages, for example), Remote-SSH is the better option and is covered in Step 4.
 
 One important note: bind code-server to 127.0.0.1, not 0.0.0.0. You never want code-server exposed directly to the internet. Access it only through the Tailscale tunnel.
 
-## Step 4: Tailscale for Secure Access
+Step 4: Tailscale for Secure Access
 
 Tailscale creates a private network between your devices without exposing the server to the internet.
 
 ```bash
-# On the Hetzner server
+On the Hetzner server
 sudo tailscale up --ssh
 
-# On your local machine
+On your local machine
 tailscale up  # if not already running
 
-# Now access code-server through Tailscale SSH tunnel
+Now access code-server through Tailscale SSH tunnel
 ssh -i ~/.ssh/hetzner_dev -L 8080:localhost:8080 dev@100.x.x.x
 
-# Open http://localhost:8080 in your browser
+Open http://localhost:8080 in your browser
 ```
 
-**Better: use VS Code Remote-SSH directly:**
+Better: use VS Code Remote-SSH directly:
 
 ```json
 // ~/.ssh/config
@@ -175,13 +175,13 @@ Then in VS Code: Remote-SSH → Connect to Host → hetzner-dev
 
 With `--ssh` flag, Tailscale manages SSH keys automatically. You can remove the Hetzner server from all public networks and rely entirely on Tailscale for access. This is the recommended setup: no public SSH port, no exposed services, no firewall rules to maintain for your own access.
 
-## Step 5: Dev Environment Setup with mise
+Step 5: Dev Environment Setup with mise
 
 mise (formerly rtx) is an unified tool version manager that replaces nvm, rbenv, pyenv, and goenv with a single tool. It reads `.mise.toml` files in project directories and switches versions automatically.
 
 ```bash
-# SSH into the server as dev user
-# Install common tools via mise
+SSH into the server as dev user
+Install common tools via mise
 eval "$(~/.local/bin/mise activate bash)"
 
 mise use --global node@lts
@@ -189,14 +189,14 @@ mise use --global python@3.12
 mise use --global go@1.23
 mise use --global rust@stable
 
-# Verify
+Verify
 node --version && python --version && go version
 ```
 
-**Project-specific versions via `.mise.toml`:**
+Project-specific versions via `.mise.toml`:
 
 ```toml
-# .mise.toml (in project root)
+.mise.toml (in project root)
 [tools]
 node = "20.11"
 python = "3.12"
@@ -205,12 +205,12 @@ python = "3.12"
 DATABASE_URL = "postgresql://localhost:5432/myapp_dev"
 ```
 
-When you `cd` into a project directory, mise reads the `.mise.toml` and activates the correct toolchain. No more "works on my machine" issues from version mismatches across team members — everyone uses the same `.mise.toml` in the repository.
+When you `cd` into a project directory, mise reads the `.mise.toml` and activates the correct toolchain. No more "works on my machine" issues from version mismatches across team members. everyone uses the same `.mise.toml` in the repository.
 
-## Step 6: Persistent Docker Services
+Step 6: Persistent Docker Services
 
 ```yaml
-# ~/docker-compose.yml — persistent dev services
+~/docker-compose.yml. persistent dev services
 services:
   postgres:
     image: postgres:16-alpine
@@ -243,15 +243,15 @@ volumes:
 ```bash
 cd ~
 docker compose up -d
-# Services start automatically on server reboot
+Services start automatically on server reboot
 ```
 
 The `restart: unless-stopped` policy means your Postgres and Redis instances are always running when the server is. No more "wait for the database to start" in your morning routine, and no state loss between sessions. Mailhog captures all outgoing email from your dev environment so you can test transactional emails without a real SMTP server.
 
-## Step 7: Automated Snapshots
+Step 7: Automated Snapshots
 
 ```bash
-# snapshot.sh — run via cron
+snapshot.sh. run via cron
 #!/bin/bash
 SERVER_ID=$(hcloud server describe dev-server -o json | jq -r '.id')
 SNAPSHOT_NAME="dev-server-$(date +%Y%m%d-%H%M)"
@@ -261,7 +261,7 @@ hcloud server create-image \
   --type snapshot \
   "$SERVER_ID"
 
-# Keep only the last 5 snapshots
+Keep only the last 5 snapshots
 hcloud image list --type snapshot -o json | \
   jq -r 'sort_by(.created) | .[:-5] | .[].id' | \
   xargs -I{} hcloud image delete {}
@@ -270,7 +270,7 @@ echo "Snapshot $SNAPSHOT_NAME created"
 ```
 
 ```bash
-# Add to crontab (runs every Sunday at 2am)
+Add to crontab (runs every Sunday at 2am)
 (crontab -l; echo "0 2 * * 0 HCLOUD_TOKEN=your-token /home/dev/snapshot.sh >> /home/dev/snapshot.log 2>&1") | crontab -
 ```
 
@@ -278,22 +278,22 @@ Hetzner charges €0.0119 per GB per month for snapshots. A typical dev server s
 
 For project data specifically, also consider Hetzner Object Storage (S3-compatible, €4.43/month for 1TB) combined with `restic` or `rclone` for automated project backup. This gives you independent recovery for your code and databases even if the server itself needs to be rebuilt from scratch.
 
-## Step 8: Dotfiles Sync
+Step 8: Dotfiles Sync
 
 ```bash
-# Use chezmoi for dotfiles management
+Use chezmoi for dotfiles management
 sh -c "$(curl -fsLS get.chezmoi.io)"
 
-# Initialize from your dotfiles repo
+Initialize from your dotfiles repo
 chezmoi init https://github.com/yourusername/dotfiles.git
 chezmoi apply
 
-# On any new server: two commands and you're configured
+On any new server: two commands and you're configured
 ```
 
 chezmoi is preferable to bare git for dotfiles because it handles machine-specific values (different SSH keys, different email addresses per machine) cleanly via templates. Your `.zshrc`, `.gitconfig`, shell aliases, and tmux config are all in one place and applied consistently across every machine you use.
 
-## Cost Calculation
+Cost Calculation
 
 | Server Type | vCPU | RAM | Price/month | Good for |
 |---|---|---|---|---|
@@ -302,24 +302,24 @@ chezmoi is preferable to bare git for dotfiles because it handles machine-specif
 | CCX23 | 4 dedicated | 8GB | €13.99 | Compile-heavy work |
 | CCX33 | 8 dedicated | 32GB | €27.49 | Multiple services, Docker |
 
-An extra €80/year in snapshots gets you weekly backups. Total for a solid dev server: €7-35/month depending on size. Compare to GitHub Codespaces at $0.18/hour for a 4-core instance — that's $130/month if you work 720 hours. Hetzner at €5.39 for the same class of machine is a 24x cost reduction.
+An extra €80/year in snapshots gets you weekly backups. Total for a solid dev server: €7-35/month depending on size. Compare to GitHub Codespaces at $0.18/hour for a 4-core instance. that's $130/month if you work 720 hours. Hetzner at €5.39 for the same class of machine is a 24x cost reduction.
 
-## Firewalla for Hetzner Firewall (Optional)
+Firewalla for Hetzner Firewall (Optional)
 
 Lock down the server via Hetzner's cloud firewall:
 
 ```bash
-# Allow only Tailscale and SSH from specific IPs
+Allow only Tailscale and SSH from specific IPs
 hcloud firewall create --name dev-firewall
 
-# Allow SSH only from your home IP
+Allow SSH only from your home IP
 hcloud firewall add-rule dev-firewall \
   --direction in \
   --protocol tcp \
   --port 22 \
   --source-ips "your.home.ip/32"
 
-# Apply to server
+Apply to server
 hcloud firewall apply-to-resource dev-firewall \
   --type server \
   --server dev-server
@@ -327,7 +327,7 @@ hcloud firewall apply-to-resource dev-firewall \
 
 With Tailscale, you can block port 22 entirely and use only Tailscale SSH. The recommended final state is: no public-facing ports at all except UDP 41641 for Tailscale's WireGuard traffic. Everything else routes through the Tailscale mesh.
 
-## Comparing Hetzner to Alternatives
+Comparing Hetzner to Alternatives
 
 | Provider | 4-core / 8GB RAM | Monthly cost | Notes |
 |---|---|---|---|
@@ -340,7 +340,7 @@ With Tailscale, you can block port 22 entirely and use only Tailscale SSH. The r
 
 For developers in Europe or with European client bases, Hetzner is the clear default. For developers who need a US presence, Hetzner Ashburn (ash) gives the same economics in Virginia.
 
-## Related Reading
+Related Reading
 
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 - [Best Remote Dev Server Setup for Async Teams](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
@@ -348,7 +348,7 @@ For developers in Europe or with European client bases, Hetzner is the clear def
 - [WireGuard VPN Setup for Remote Dev Teams (2026)](/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
 ---
 
-## Related Articles
+Related Articles
 
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 - [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
@@ -356,5 +356,5 @@ For developers in Europe or with European client bases, Hetzner is the clear def
 - [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 - [Secure File Transfer Protocol Setup for Remote Teams](/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -14,7 +14,7 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-## How to Automate Docker Container Updates
+How to Automate Docker Container Updates
 
 Manually SSHing into servers to run `docker pull && docker restart` is a maintenance tax that compounds across a distributed team. Automating container updates with proper health checks and rollback paths means new images ship without anyone touching a terminal.
 
@@ -22,14 +22,14 @@ For remote teams, manual update procedures are especially costly. An update that
 
 ---
 
-## Approach 1: Watchtower (Pull-Based Auto-Update)
+Approach 1: Watchtower (Pull-Based Auto-Update)
 
 Watchtower watches running containers, polls their registries, and restarts them when new images appear. It's the simplest path for non-orchestrated Docker hosts.
 
-**Run Watchtower alongside your stack:**
+Run Watchtower alongside your stack:
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 services:
   myapp:
@@ -66,14 +66,14 @@ services:
       - "8080:8080"
 ```
 
-**Trigger an immediate update via API (useful from CI/CD):**
+Trigger an immediate update via API (useful from CI/CD):
 
 ```bash
 curl -H "Authorization: Bearer your-secret-token" \
   http://your-host:8080/v1/update
 ```
 
-**Pin a container to prevent auto-update:**
+Pin a container to prevent auto-update:
 
 ```yaml
 labels:
@@ -84,12 +84,12 @@ Watchtower's label-based opt-in (`WATCHTOWER_LABEL_ENABLE: "true"`) is important
 
 ---
 
-## Approach 2: Diun (Notification Only, Manual Pull)
+Approach 2: Diun (Notification Only, Manual Pull)
 
 Diun watches registries and sends notifications when new images are available, without auto-updating. Use this when you want human approval before deploying.
 
 ```yaml
-# diun/docker-compose.yml
+diun/docker-compose.yml
 version: "3.8"
 services:
   diun:
@@ -118,13 +118,13 @@ For regulated environments or services with strict change management requirement
 
 ---
 
-## Approach 3: Shell Script with Health Check and Rollback
+Approach 3: Shell Script with Health Check and Rollback
 
 For teams that want full control without external tools:
 
 ```bash
 #!/bin/bash
-# update-container.sh — safe in-place update with rollback
+update-container.sh. safe in-place update with rollback
 set -euo pipefail
 
 SERVICE_NAME="${1:?Usage: $0 <service-name>}"
@@ -144,13 +144,13 @@ notify_slack() {
     -d "{\"text\": \"$msg\"}"
 }
 
-# Record current image digest before updating
+Record current image digest before updating
 CURRENT_IMAGE=$(docker-compose -f "$COMPOSE_FILE" config | grep "image:" | grep "$SERVICE_NAME" | awk '{print $2}')
 CURRENT_DIGEST=$(docker inspect --format='{{index .RepoDigests 0}}' "$CURRENT_IMAGE" 2>/dev/null || echo "unknown")
 
 log "Starting update for $SERVICE_NAME (current: $CURRENT_DIGEST)"
 
-# Pull new image
+Pull new image
 if ! docker-compose -f "$COMPOSE_FILE" pull "$SERVICE_NAME"; then
   log "ERROR: Pull failed for $SERVICE_NAME"
   notify_slack ":x: Pull failed for \`$SERVICE_NAME\` on $(hostname)"
@@ -164,12 +164,12 @@ if [[ "$CURRENT_DIGEST" == "$NEW_DIGEST" ]]; then
   exit 0
 fi
 
-log "New image available: $NEW_DIGEST — restarting"
+log "New image available: $NEW_DIGEST. restarting"
 
-# Restart with health check
+Restart with health check
 docker-compose -f "$COMPOSE_FILE" up -d --no-deps "$SERVICE_NAME"
 
-# Wait up to 60 seconds for health check to pass
+Wait up to 60 seconds for health check to pass
 TIMEOUT=60
 ELAPSED=0
 while [[ $ELAPSED -lt $TIMEOUT ]]; do
@@ -183,19 +183,19 @@ while [[ $ELAPSED -lt $TIMEOUT ]]; do
   ELAPSED=$((ELAPSED + 5))
 done
 
-# Health check timed out — rollback
-log "ERROR: Health check timed out for $SERVICE_NAME — rolling back"
-notify_slack ":warning: Update failed for \`$SERVICE_NAME\` — rolling back"
+Health check timed out. rollback
+log "ERROR: Health check timed out for $SERVICE_NAME. rolling back"
+notify_slack ":warning: Update failed for \`$SERVICE_NAME\`. rolling back"
 
 docker tag "$CURRENT_IMAGE" "${CURRENT_IMAGE}-rollback"  || true
 docker-compose -f "$COMPOSE_FILE" up -d --no-deps --force-recreate "$SERVICE_NAME"
 exit 1
 ```
 
-**Cron job to run nightly at 2 AM:**
+Cron job to run nightly at 2 AM:
 
 ```bash
-# /etc/cron.d/container-updates
+/etc/cron.d/container-updates
 SHELL=/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/HOOK
@@ -203,16 +203,16 @@ SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/HOOK
 0 2 * * * root /usr/local/bin/update-container.sh myapp /opt/myapp/docker-compose.yml >> /var/log/container-updates.log 2>&1
 ```
 
-The 2 AM UTC scheduling works well for teams with North America and Europe coverage — it's overnight for both regions. For teams with Asia-Pacific engineers who need updates during their workday, adjust to a time that avoids everyone's peak hours.
+The 2 AM UTC scheduling works well for teams with North America and Europe coverage. it's overnight for both regions. For teams with Asia-Pacific engineers who need updates during their workday, adjust to a time that avoids everyone's peak hours.
 
 ---
 
-## Approach 4: GitHub Actions Webhook Trigger
+Approach 4: GitHub Actions Webhook Trigger
 
 Push a new image from CI/CD and have the production host pull immediately:
 
 ```yaml
-# .github/workflows/deploy.yml
+.github/workflows/deploy.yml
 name: Build and Deploy
 on:
   push:
@@ -238,7 +238,7 @@ jobs:
 
 ---
 
-## Healthcheck Configuration in Docker Images
+Healthcheck Configuration in Docker Images
 
 The shell script rollback approach depends on containers having a proper `HEALTHCHECK` in their Dockerfile. Without it, Docker always reports status as `none` and the script can't detect a failed update:
 
@@ -249,7 +249,7 @@ WORKDIR /app
 COPY . .
 RUN npm ci --only=production
 
-# Application must respond 200 on /health within 5 seconds
+Application must respond 200 on /health within 5 seconds
 HEALTHCHECK --interval=10s --timeout=5s --start-period=30s --retries=3 \
   CMD wget -qO- http://localhost:3000/health || exit 1
 
@@ -280,26 +280,26 @@ The `--start-period` parameter is critical: it gives the container time to initi
 
 ---
 
-## Registry Authentication
+Registry Authentication
 
 For private registries, configure Docker credential helpers before running any update tooling:
 
 ```bash
-# For GHCR
+For GHCR
 echo "$GITHUB_TOKEN" | docker login ghcr.io -u youruser --password-stdin
 
-# For AWS ECR
+For AWS ECR
 aws ecr get-login-password --region us-east-1 | \
   docker login --username AWS --password-stdin \
   123456789.dkr.ecr.us-east-1.amazonaws.com
 
-# The resulting ~/.docker/config.json is mounted into Watchtower
+The resulting ~/.docker/config.json is mounted into Watchtower
 ```
 
 For ECR specifically, credentials expire every 12 hours. Run the login command on a cron schedule before Watchtower's poll interval:
 
 ```bash
-# /etc/cron.d/ecr-auth — refresh ECR credentials every 6 hours
+/etc/cron.d/ecr-auth. refresh ECR credentials every 6 hours
 0 */6 * * * root aws ecr get-login-password --region us-east-1 | \
   docker login --username AWS --password-stdin \
   123456789.dkr.ecr.us-east-1.amazonaws.com >> /var/log/ecr-auth.log 2>&1
@@ -307,14 +307,14 @@ For ECR specifically, credentials expire every 12 hours. Run the login command o
 
 ---
 
-## Keeping a Changelog of Updates
+Keeping a Changelog of Updates
 
 ```bash
-# Append to a simple update log that the team can review
+Append to a simple update log that the team can review
 echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) | $SERVICE_NAME | $CURRENT_DIGEST -> $NEW_DIGEST" \
   >> /var/log/image-changelog.log
 
-# Query last 20 updates
+Query last 20 updates
 tail -20 /var/log/image-changelog.log
 ```
 
@@ -322,7 +322,7 @@ Post the changelog to Slack weekly so the team has visibility into what changed 
 
 ```bash
 #!/bin/bash
-# Weekly image update summary
+Weekly image update summary
 UPDATES=$(grep "$(date -d '7 days ago' +%Y-%m)" /var/log/image-changelog.log | tail -20)
 if [[ -n "$UPDATES" ]]; then
   curl -s -X POST "$SLACK_WEBHOOK_URL" \
@@ -333,7 +333,7 @@ fi
 
 ---
 
-## Choosing the Right Approach
+Choosing the Right Approach
 
 Each approach in this guide has a different risk profile and automation level:
 
@@ -348,12 +348,12 @@ For most remote teams, a two-tier approach works well: Watchtower handles stagin
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Optimize Docker for Slow Connections When Working Remotely](/docker-optimize-slow-connection-remote-work/)
 - [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 - [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
 - [How to Set Up Traefik Reverse Proxy](/how-to-set-up-traefik-reverse-proxy/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

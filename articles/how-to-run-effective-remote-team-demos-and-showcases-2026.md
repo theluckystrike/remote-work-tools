@@ -18,7 +18,7 @@ tags: [remote-work-tools, demos, presentations, distributed-teams, team-culture,
 
 Demos drive team morale. There's nothing like seeing your work in front of an audience. But remote demos have friction that in-person demos don't: unreliable video, technical difficulties during live presentations, people in different time zones missing the show, feedback getting lost in Slack.
 
-## Table of Contents
+Table of Contents
 
 - [Why Demo Culture Matters for Remote Teams](#why-demo-culture-matters-for-remote-teams)
 - [The Synchronous Live Demo](#the-synchronous-live-demo)
@@ -32,24 +32,24 @@ Demos drive team morale. There's nothing like seeing your work in front of an au
 
 This guide covers how to run effective demos and showcases for distributed teams. Whether you're doing weekly demo days, monthly showcase events, or ad-hoc team presentations, the structure and tools matter more than you'd think.
 
-## Why Demo Culture Matters for Remote Teams
+Why Demo Culture Matters for Remote Teams
 
 Remote work isolates people. You don't see coworkers in the office hallway, don't overhear conversations about projects, don't feel the shared wins. Demos fix this. They create moments where the whole team sees what someone built, celebrates the work, and connects.
 
 Good demo culture also drives work quality. If you know your work will be demoed, you care more about the details. If the team celebrates wins, people stay longer. If feedback from demos shapes future work, people feel heard.
 
-## The Synchronous Live Demo
+The Synchronous Live Demo
 
 The simplest format: everyone joins a call, someone shares their screen, demo runs for 10-15 minutes, Q&A for 5 minutes.
 
-**When to use live demos:**
+When to use live demos:
 
 - Team is mostly in one timezone (within 4 hours)
 - Fewer than 30 people (large groups have more technical issues)
 - You need interactive feedback immediately
 - The demo is time-sensitive (launching soon, need urgent feedback)
 
-**Technical Setup:**
+Technical Setup:
 
 Use a tool with screen sharing and recording: Zoom, Google Meet, or Loom. Avoid Slack calls for anything more than 5 minutes; they're unstable.
 
@@ -57,7 +57,7 @@ Test screen sharing before the demo. Have a backup presenter ready if your inter
 
 Schedule demos for times that work across your team's timezones. If you have people in US, Europe, and Asia, 8am US Eastern or 6pm UK time works reasonably.
 
-**Running the live demo:**
+Running the live demo:
 
 Start with a quick intro: what you built, why, for whom. 30 seconds max.
 
@@ -71,32 +71,32 @@ Leave time for questions. Some of the best feedback comes from "why didn't you b
 
 End with a specific call to action: "I need feedback on the pricing model. What do you think?" Vague "Any questions?" gets vague responses.
 
-**Handling time zones:**
+Handling time zones:
 
 Rotate demo times so different zones get unsleepy times. If you're a global team, you can't please everyone every week.
 
 Offer async viewing for anyone who can't join live. Record the demo and send it out.
 
-## The Asynchronous Recorded Demo
+The Asynchronous Recorded Demo
 
 Record a 5-15 minute screencast, post it for people to watch when they have time, collect feedback async.
 
-**When to use async demos:**
+When to use async demos:
 
 - Team spans 10+ hours of timezones
 - Demo content doesn't need immediate feedback
 - You want broader feedback (including from people less likely to speak up live)
 - You're running demos weekly (async scales better)
 
-**Recording tools:**
+Recording tools:
 
-**Loom:** $10/month. Best-in-class for quick screen recordings. Click, record, share. Auto-generates transcripts. Built-in feedback features.
+Loom: $10/month. Best-in-class for quick screen recordings. Click, record, share. Auto-generates transcripts. Built-in feedback features.
 
-**Screenflow (Mac):** One-time purchase, $13. High quality, simple interface. No built-in sharing; use Slack or Google Drive.
+Screenflow (Mac): One-time purchase, $13. High quality, simple interface. No built-in sharing; use Slack or Google Drive.
 
-**OBS (Open Broadcaster Software):** Free. More complex, more powerful. Overkill for most demos but good if you want polished production.
+OBS (Open Broadcaster Software): Free. More complex, more powerful. Overkill for most demos but good if you want polished production.
 
-**How to record an effective async demo:**
+How to record an effective async demo:
 
 Start with a written one-line summary: "This feature lets users bulk import contacts from their CRM."
 
@@ -112,7 +112,7 @@ End with a specific feedback question. "Should we show pricing here, or keep it 
 
 Include a call to action. "Comments on Loom. Slack replies disappear."
 
-**Posting recorded demos:**
+Posting recorded demos:
 
 Post in a dedicated channel so demos are findable. "demo-mondays" or "#showcases."
 
@@ -122,18 +122,18 @@ Pin the feedback question. "Feedback deadline: Friday EOD."
 
 Send a Slack notification to specific people whose feedback you need. Don't expect people to find it without a nudge.
 
-## The Showcase Event
+The Showcase Event
 
 A monthly or quarterly event where 5-10 people demo work. More formal than weekly demos, longer format (60-90 minutes), broader audience.
 
-**When to use showcase events:**
+When to use showcase events:
 
 - Monthly or quarterly cadence
 - Want to celebrate wins broadly
 - Multiple teams/departments presenting
 - Want to build company culture
 
-**Structuring a showcase:**
+Structuring a showcase:
 
 Schedule at a time that works for most of the company (respecting time zones as much as possible).
 
@@ -145,7 +145,7 @@ Theme the showcase if possible. "Q1 Launch Demos," "Engineering Showcase," "Cust
 
 Start and end with an emcee who ties things together. Opens by reminding the team why demos matter. Closes with a summary of themes.
 
-**Choosing what to showcase:**
+Choosing what to showcase:
 
 You don't have to demo finished features. In-progress work, experiments, processes, new tools, even failures are worth showcasing.
 
@@ -153,7 +153,7 @@ Avoid redundancy. If two teams built similar features, pick the one further alon
 
 Balance visibility. If the same team demos every month, they dominate mindshare. Mix it up.
 
-**Technical considerations:**
+Technical considerations:
 
 Test everyone's internet 30 minutes before. If someone's connection is shaky, record them locally and share their recording instead of streaming live.
 
@@ -161,11 +161,11 @@ Have a tech person monitoring screen sharing and handling transitions between pr
 
 Record the whole event and post it within 24 hours for anyone who couldn't attend.
 
-## Collecting Feedback on Demos
+Collecting Feedback on Demos
 
 The demo ends; then what? Most feedback is lost. Here's how to actually collect and act on it.
 
-**During and immediately after live demos:**
+During and immediately after live demos:
 
 Ask a specific question. "Is this intuitive? Would you change anything?" gets better feedback than "Questions?"
 
@@ -173,7 +173,7 @@ Use live polling if your meeting tool supports it. Polls get more responses than
 
 Take detailed notes. Assign someone to capture feedback.
 
-**For async feedback:**
+For async feedback:
 
 Use Loom's built-in feedback feature (comments on video). This keeps feedback in context.
 
@@ -181,7 +181,7 @@ Post a form with 3-4 questions instead of "Any feedback?" Forms drive engagement
 
 Set a deadline. "Feedback needed by Friday EOD." Without a deadline, feedback trickles in indefinitely.
 
-**Organizing feedback:**
+Organizing feedback:
 
 Don't just collect; organize. After a showcase event, summarize feedback by theme.
 
@@ -189,74 +189,74 @@ Create a simple spreadsheet: demo, feedback category, response needed, owner. Sh
 
 Close the loop. If you collect feedback and don't act on it, future feedback won't come. If feedback led to a change, tell people: "Based on demo feedback, we're changing X."
 
-## Real-World Examples
+Real-World Examples
 
-### Example 1: Weekly Demo Days (Colocated-ish Team)
+Example 1: Weekly Demo Days (Colocated-ish Team)
 
 Team is 70% US-based, 30% Europe. Scheduling at 4pm US Eastern (9pm UK) works.
 
-**Monday 4pm ET:** Zoom call, 10 attendees. Sarah demos a new dashboard feature. 10 minutes of demo, 5 minutes of Q&A. Live poll: "Rate this feature: 1-5." Scores average 4.2. Comment: "The date filter is confusing." Noted.
+Monday 4pm ET: Zoom call, 10 attendees. Sarah demos a new dashboard feature. 10 minutes of demo, 5 minutes of Q&A. Live poll: "Rate this feature: 1-5." Scores average 4.2. Comment: "The date filter is confusing." Noted.
 
-**Recorded:** Sarah records a version with text overlay showing "click to filter by date" and posts to #demos.
+Recorded: Sarah records a version with text overlay showing "click to filter by date" and posts to #demos.
 
-**Feedback:** 5 people comment on Loom with specific feedback. Sarah responds: "Based on feedback, moving the date filter here [screenshot]. See next week's update."
+Feedback: 5 people comment on Loom with specific feedback. Sarah responds: "Based on feedback, moving the date filter here [screenshot]. See next week's update."
 
-**Impact:** Demo took 20 minutes total time. Feedback led to a small UX change. Sarah felt celebrated. The team sees work in progress, not just finished features.
+Impact: Demo took 20 minutes total time. Feedback led to a small UX change. Sarah felt celebrated. The team sees work in progress, not just finished features.
 
-### Example 2: Monthly Showcase (Distributed Across Timezones)
+Example 2: Monthly Showcase (Distributed Across Timezones)
 
 Global team, 50 people. Showcase on the last Thursday of each month, 6pm UTC (covers 8am-3pm across major locations).
 
-**Format:**
+Format:
 - 5pm UTC: Tech check for presenters
 - 6pm UTC: Emcee opens ("This month's theme: improving customer onboarding")
 - 6:05-6:45pm: 5 presenters × 8 minutes
 - 6:45-7pm: Closing remarks, highlight themes
 - Recording posted by next morning with feedback form
 
-**Feedback collection:** Form with 4 questions:
+Feedback collection: Form with 4 questions:
 1. What impressed you most?
 2. What would you add or change?
 3. Do you want to collaborate on any of these projects?
 4. Topic ideas for next month's showcase?
 
-**Response rate:** 30-40% (good for async feedback). Feedback summarized in shared doc, shared with presenters.
+Response rate: 30-40% (good for async feedback). Feedback summarized in shared doc, shared with presenters.
 
-**Impact:** Showcases build culture. New engineers see what's happening across the company. Teams find collaboration opportunities through the feedback. The structured format (same time, same format) creates a ritual.
+Impact: Showcases build culture. New engineers see what's happening across the company. Teams find collaboration opportunities through the feedback. The structured format (same time, same format) creates a ritual.
 
-### Example 3: Async Demo Rotation (Highly Distributed Team)
+Example 3: Async Demo Rotation (Highly Distributed Team)
 
 Team spanning 15+ timezones. No good overlap time exists. Weekly async demos instead.
 
-**Schedule:**
+Schedule:
 - Monday morning: Post demo from whoever's presenting. Loom video, 5-10 minutes.
 - Monday-Wednesday: Feedback collected via form.
 - Thursday: Presenter reads feedback, responds.
 - Friday: Team syncs on feedback in async Slack thread.
 
-**Advantage:** Everyone sees everything. No time pressure to watch live. Feedback is organized (form vs. scattered Slack). Presenter has time to thoughtfully respond.
+Advantage: Everyone sees everything. No time pressure to watch live. Feedback is organized (form vs. scattered Slack). Presenter has time to thoughtfully respond.
 
-**Disadvantage:** Less spontaneous interaction. Less of the "live energy."
+Disadvantage: Less spontaneous interaction. Less of the "live energy."
 
-**Make it work:** Have monthly or quarterly live showcases to maintain synchronous connection, even if most demos are async.
+Make it work: Have monthly or quarterly live showcases to maintain synchronous connection, even if most demos are async.
 
-## Tools for Remote Demos
+Tools for Remote Demos
 
 | Tool | Purpose | Price | Best for |
 |------|---------|-------|----------|
-| **Zoom** | Live presentation, screen share, recording | Free or $199/year | Live demos, whole-team meetings |
-| **Google Meet** | Live presentation, simpler than Zoom | Free | Small team demos, low-tech setup |
-| **Loom** | Async recording, auto-transcript, comments | Free or $10/mo | Quick async demos, feedback collection |
-| **Screenflow** | High-quality local recording (Mac) | $13 one-time | Polished recorded demos, no sharing needed |
-| **OBS Studio** | Professional-grade recording | Free | Complex multi-camera setups, streaming |
-| **Slite/Notion** | Demo documentation, written summaries | $4-10/user/mo | Organized demo archives |
-| **Typeform** | Feedback collection forms | Free or paid | Structured post-demo feedback |
+| Zoom | Live presentation, screen share, recording | Free or $199/year | Live demos, whole-team meetings |
+| Google Meet | Live presentation, simpler than Zoom | Free | Small team demos, low-tech setup |
+| Loom | Async recording, auto-transcript, comments | Free or $10/mo | Quick async demos, feedback collection |
+| Screenflow | High-quality local recording (Mac) | $13 one-time | Polished recorded demos, no sharing needed |
+| OBS Studio | Professional-grade recording | Free | Complex multi-camera setups, streaming |
+| Slite/Notion | Demo documentation, written summaries | $4-10/user/mo | Organized demo archives |
+| Typeform | Feedback collection forms | Free or paid | Structured post-demo feedback |
 
-## Tips for Reducing Demo Anxiety
+Tips for Reducing Demo Anxiety
 
 Public speaking is stressful, especially on video. Here's how to make demoing less scary:
 
-**For nervous presenters:**
+For nervous presenters:
 
 Record a practice version first. The actual demo will feel easier after you've done it once.
 
@@ -266,7 +266,7 @@ Start with a friend. Demo for one person on Slack first. Get comfortable with yo
 
 Share the demo in advance with your manager. Get feedback before the real thing.
 
-**For team leaders:**
+For team leaders:
 
 Celebrate attempts. The first time someone demos, compliment the courage. The content matters less than building confidence.
 
@@ -274,60 +274,60 @@ Normalize imperfection. "I'm going to mess up. That's cool. Let's see what we le
 
 Mentor new presenters. If someone's not great at demos, help them practice. This investment pays back long-term.
 
-## Running Demos in Different Business Contexts
+Running Demos in Different Business Contexts
 
-**For product teams:** Demo new features, show customer feedback, explain trade-off decisions.
+For product teams: Demo new features, show customer feedback, explain trade-off decisions.
 
-**For engineering teams:** Demo infrastructure improvements, architectural changes, refactoring payoffs.
+For engineering teams: Demo infrastructure improvements, architectural changes, refactoring payoffs.
 
-**For design teams:** Demo design systems, new components, usability research findings.
+For design teams: Demo design systems, new components, usability research findings.
 
-**For data teams:** Demo dashboards, query performance improvements, data pipeline changes.
+For data teams: Demo dashboards, query performance improvements, data pipeline changes.
 
-**For support/ops teams:** Demo new processes, documentation improvements, tooling changes.
+For support/ops teams: Demo new processes, documentation improvements, tooling changes.
 
 Each context has different audiences. Tailor the demo to what matters to them. Engineers care about architecture and performance. Product cares about user impact. Leadership cares about business outcomes.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long should a demo be?**
+How long should a demo be?
 
 5-15 minutes is ideal. People's attention drops after 15. If you need more time, break it into smaller demos or make it a workshop instead.
 
-**Should I script my demo?**
+Should I script my demo?
 
 Talking points, not a full script. A script makes you sound robotic. Key points let you stay on track while sounding natural.
 
-**What if something breaks during a live demo?**
+What if something breaks during a live demo?
 
 Laugh it off and move on. A 30-second technical hiccup is fine. Don't spend 5 minutes troubleshooting. If it's fatal, skip that part and continue with the next feature.
 
-**How do I get people to watch async demos?**
+How do I get people to watch async demos?
 
 Post summaries. Add timestamps. Ask specific questions. Send Slack reminders. It takes effort to drive viewership, but structured reminders help.
 
-**Can we make demos mandatory for the team?**
+Can we make demos mandatory for the team?
 
 You can require attendance for live demos. For async, you can encourage it, but mandatory consumption is hard to enforce.
 
-**What if no one provides feedback?**
+What if no one provides feedback?
 
 People often don't give feedback unless asked specifically. Ask during the demo. Use polls. Use forms instead of open-ended questions.
 
-**Should I include failed experiments in demos?**
+Should I include failed experiments in demos?
 
 Yes. Failures are more valuable than successes. Showing what didn't work and why prevents other teams from making the same mistake.
 
-**How do I balance demo frequency with actual work?**
+How do I balance demo frequency with actual work?
 
 If demos eat too much time, they become a burden. Weekly 15-minute demos (prep + demo + feedback) are sustainable. Anything more is too much.
 
-## Related Articles
+Related Articles
 
 - [How to Run a Remote Team Demo Day Showcasing Cross-Team](/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
 - [Remote Sales Team Demo Environment Setup for Distributed](/remote-sales-team-demo-environment-setup-for-distributed-sol/)
 - [Best Practice for Remote Team Product Demo Day Format That](/best-practice-for-remote-team-product-demo-day-format-that-s/)
 - [How to Run a Remote Team Hackathon 2026](/how-to-run-remote-team-hackathon-2026/)
 - [Best Tools for Remote Team Retrospective Facilitation 2026](/best-tools-for-remote-team-retrospective-facilitation-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

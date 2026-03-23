@@ -16,9 +16,9 @@ intent-checked: true
 
 {% raw %}
 
-A productive home office doesn't require thousands of dollars. With strategic purchases and smart compromises, you can assemble a functional workspace that supports 8+ hour coding sessions for under $500. The key is identifying non-negotiables—a decent monitor, ergonomic seating, reliable internet—and finding budget alternatives for everything else. This breakdown shows exactly where to invest and where to save without sacrificing productivity.
+A productive home office doesn't require thousands of dollars. With strategic purchases and smart compromises, you can assemble a functional workspace that supports 8+ hour coding sessions for under $500. The key is identifying non-negotiables, a decent monitor, ergonomic seating, reliable internet, and finding budget alternatives for everything else. This breakdown shows exactly where to invest and where to save without sacrificing productivity.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -28,71 +28,71 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: The $500 Office Budget Breakdown
+Step 1: The $500 Office Budget Breakdown
 
-### Essential Tier ($450-500 total)
+Essential Tier ($450-500 total)
 
-**Monitor: $150-200**
+Monitor: $150-200
 - Buy: Used 27" 1080p IPS monitor ($100-150) or new 24" 1080p ($150-180)
 - Alternative: Existing TV or laptop screen (saves $150)
 - Why: Coding on a single small screen creates eye strain and reduces productivity
 
-**Chair: $150-200**
+Chair: $150-200
 - Buy: Used office chair from office furniture liquidators ($80-120) or new budget ergonomic ($150-200)
-- Avoid: Cheap gaming chairs—marketing gimmick without actual ergonomic support
+- Avoid: Cheap gaming chairs, marketing gimmick without actual ergonomic support
 - Where to look: Facebook Marketplace, Craigslist, local office furniture recyclers
 - Why: You'll sit here 8+ hours daily; bad chair causes back pain
 
-**Desk: $80-150**
+Desk: $80-150
 - Buy: IKEA Bekant or similar basic desk ($70-100) or secondhand sturdy desk ($40-80)
 - DIY alternative: Old door + 2x4s + sawhorses ($30-50)
 - Why: You need a flat surface; cheap desks work fine
 
-**Keyboard & Mouse: $40-80**
+Keyboard & Mouse: $40-80
 - Buy: Mechanical keyboard refurb ($40-60) + budget ergonomic mouse ($20-40)
 - Alternative: Reuse laptop keyboard + trackpad (free)
 - Why: You interact with these 8 hours daily; budget here means hand fatigue
 
-**Internet upgrade: $0**
+Internet upgrade: $0
 - Assumption: You have broadband already
 - If upgrading, negotiate with ISP ($50-100/month)
 
-### Budget Reality Check
+Budget Reality Check
 
 This totals approximately $420-580. The range depends on your location and willingness to hunt deals. Key strategy: Buy used furniture, new input devices.
 
-### Step 2: Smart Shopping Strategies
+Step 2: Smart Shopping Strategies
 
-### Where to Find Budget Office Furniture
+Where to Find Budget Office Furniture
 
-**Facebook Marketplace and Craigslist**
+Facebook Marketplace and Craigslist
 - Best for: Chairs, desks, monitors (heavy items worth traveling for)
 - Timing: Search for "office furniture," "moving sale," "liquidation"
-- Tip: Post want ads. People with unwanted furniture contact you
+- Post want ads. People with unwanted furniture contact you
 - Time investment: 2-3 hours searching, 1 hour pickup
 - Savings: 40-60% off retail
 
-**IKEA Budget Line**
+IKEA Budget Line
 - Bekant desk: $70 (sturdy, no assembly required)
 - Markus chair: $100 (not ergonomic but functional)
 - Fredde shelving: $25-40
 - Strength: Affordable, predictable quality, fast assembly
 - Weakness: Particle board construction; won't last 10+ years
 
-**Office Furniture Liquidators**
+Office Furniture Liquidators
 - Best for: High-quality used office chairs ($80-120)
 - Why: Businesses upgrade before chairs wear out
-- Tip: Call ahead about sales; availability varies weekly
+- Call ahead about sales; availability varies weekly
 - Savings: 50-70% off new
 
-**Amazon Basics & Budget Brands**
+Amazon Basics & Budget Brands
 - Monitor stands: $20-30
 - Desk organizers: $10-15
 - Cable management: $15-25
 - Strength: Ships fast, affordable
 - Weakness: Lower durability; plan to replace in 2-3 years
 
-### Negotiation Tactics
+Negotiation Tactics
 
 When buying used furniture locally:
 
@@ -113,10 +113,10 @@ Strategy 3: Check for bulk discounts
 Strategy 4: Point out minor issues
 - Worn upholstery, scratches, missing components
 - Use as negotiation use
-- But be honest—don't manufacture problems
+- But be honest, don't manufacture problems
 ```
 
-### Step 3: Build Your Own Desk ($30-50)
+Step 3: Build Your Own Desk ($30-50)
 
 For minimalists, a DIY desk works well:
 
@@ -143,7 +143,7 @@ Height: Adjust leg height to maintain 90° elbow angle (critical for posture)
 
 This approach works well if you need a simple, sturdy desk. Weakness: Difficult to relocate; better suited to long-term setups.
 
-### Step 4: The $500+ Office Component Breakdown
+Step 4: The $500+ Office Component Breakdown
 
 | Component | Budget | Mid-Range | Premium | Notes |
 |-----------|--------|-----------|---------|-------|
@@ -156,133 +156,133 @@ This approach works well if you need a simple, sturdy desk. Weakness: Difficult 
 | Lamp | $20-40 (task lamp) | $60-100 | $150+ | Any 20W+ task lamp provides adequate light |
 | Cable management | $15-25 | $40-60 | $100+ | Budget options work equally well |
 
-### Step 5: Specific Product Recommendations
+Step 5: Specific Product Recommendations
 
-**Monitor:** Refurbished Dell S2422HZ (24", 1080p, IPS) - $110-140
+Monitor: Refurbished Dell S2422HZ (24", 1080p, IPS) - $110-140
 - Clean colors for long sessions
 - VESA mountable
 - Available refurbished from Dell directly
 - Save $40-60 over new
 
-**Chair:** Used Steelcase or Herman Miller - $100-150
+Chair: Used Steelcase or Herman Miller - $100-150
 - Facebook Marketplace search: "Steelcase" or "Herman Miller"
 - These brands last 15+ years; used ones outlast cheap new chairs
 - Test before purchasing (critical for back comfort)
 
-**Desk:** IKEA Bekant (47"x24") + Monitor arm - $95-130 total
+Desk: IKEA Bekant (47"x24") + Monitor arm - $95-130 total
 - Solid construction despite particle board
 - Easy to assemble (30 minutes)
 - Monitor arm frees desk space ($25-40)
 
-**Keyboard:** Keychron K2 Pro (refurbished) - $45-70
+Keyboard: Keychron K2 Pro (refurbished) - $45-70
 - Mechanical with hot-swappable switches
 - Quiet enough for shared spaces (not all mechanical keyboards are)
 - Refurbished directly from Keychron or Amazon Renewed
 
-**Mouse:** Logitech MX Anywhere 2S (refurbished) - $25-45
+Mouse: Logitech MX Anywhere 2S (refurbished) - $25-45
 - Compact, ergonomic, fast scrolling
 - Works with laptop + desktop
 - Refurbished from Amazon Renewed
 
-**Lamp:** DEWALT LED Task Lamp - $28-35
+Lamp: DEWALT LED Task Lamp - $28-35
 - Professional-grade build quality
 - 1,000 lumens (bright enough for all conditions)
 - Tool brand, not office brand, but excellent specs
 
-**Headphones:** Monoprice BT600ANC - $50-70
+Headphones: Monoprice BT600ANC - $50-70
 - Active noise cancellation
 - Bluetooth + wired options
 - Professional meeting quality
 
-**Total estimated cost: $450-480**
+Total estimated cost: $450-480
 
-### Step 6: Budget Office Setup Assembly Timeline
+Step 6: Budget Office Setup Assembly Timeline
 
-**Week 1: Core furniture**
+Week 1: Core furniture
 - Find and secure used chair and desk ($200-250)
 - Pick up or arrange delivery
 
-**Week 2: Display and input**
+Week 2: Display and input
 - Source monitor ($100-150)
 - Buy keyboard and mouse ($40-80)
 - Set up basic desk
 
-**Week 3: Optimization**
+Week 3: Optimization
 - Add lamp, headphones, cable management
 - Arrange for comfort (desk height, monitor distance, lighting)
 - Test for 2-3 days before finalizing positioning
 
-**Week 4: Refinement**
+Week 4: Refinement
 - Make adjustments based on actual use
 - Add storage or organization if needed ($20-40)
 - Your productive office is now complete
 
-### Step 7: Free/Cheap Upgrades to Maximize Productivity
+Step 7: Free/Cheap Upgrades to Maximize Productivity
 
-**Ambient lighting:** Position desk near window + use overhead lighting
+Ambient lighting: Position desk near window + use overhead lighting
 - Cost: $0 (if window exists)
 - Alternative: Budget lamp ($25-35)
 
-**Plants:** Add small desk plant (spider plant, pothos) - $8-15
+Plants: Add small desk plant (spider plant, pothos) - $8-15
 - Psychological boost and improved air quality
 - No maintenance required
 
-**Document holder:** Print and tape important reference next to monitor - $0
+Document holder: Print and tape important reference next to monitor - $0
 - Reduces neck strain from looking down at desk
 
-**Monitor stand/riser:** Stack books, use adjustable arm - $0-25
+Monitor stand/riser: Stack books, use adjustable arm - $0-25
 - Top of monitor should align with eye level when sitting
 
-**Acoustic panel (DIY):** Hang blanket/towel for echo reduction - $0
+Acoustic panel (DIY): Hang blanket/towel for echo reduction - $0
 - Creates professional video call appearance
 
-### Step 8: Footer
+Step 8: Footer
 
-Building a productive office on $500 requires one non-negotiable: your comfort. Invest in a decent chair (you spend more time sitting than anywhere else) and a monitor that reduces eye strain. Everything else is negotiable and can be upgraded over time. Your productivity is directly correlated with physical comfort—a $100 chair that causes back pain costs you far more in lost productivity than the price difference to a $200 quality chair. Plan your budget accordingly, prioritize ruthlessly, and upgrade components one at a time as your budget improves.
+Building a productive office on $500 requires one non-negotiable: your comfort. Invest in a decent chair (you spend more time sitting than anywhere else) and a monitor that reduces eye strain. Everything else is negotiable and can be upgraded over time. Your productivity is directly correlated with physical comfort, a $100 chair that causes back pain costs you far more in lost productivity than the price difference to a $200 quality chair. Plan your budget accordingly, prioritize ruthlessly, and upgrade components one at a time as your budget improves.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to build a productive home office for under $500?**
+How long does it take to build a productive home office for under $500?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-home-office-tax-deductions-2026/)
 - [Remote Working Parent Tax Deduction Guide for Home Office](/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
 - [Everyone gets home office base](/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
 - [Home Office Setup in Closet: Converted Workspace Guide 2026](/home-office-setup-in-closet-converted-workspace-guide-2026/)
 - [How to Share Home Office with Partner Both on Calls](/how-to-share-home-office-with-partner-both-on-calls/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

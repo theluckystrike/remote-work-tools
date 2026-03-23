@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Productivity — Time Management, Focus, and Workflows"
+title: "Remote Productivity. Time Management, Focus, and Workflows"
 description: "Guides for remote work productivity: async workflows, time management, automation, and focus techniques."
 permalink: /topics/productivity/
 ---

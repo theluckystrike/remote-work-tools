@@ -16,7 +16,7 @@ tags: [remote-work-tools, security]
 
 Use the SecurityHeaders.com extension or similar tools to inspect HTTP security headers directly in Chrome without custom scripts. Security headers protect applications from XSS, clickjacking, and data injection attacks, but many developers struggle to test and verify these headers during development. Browser extensions solve this by letting you inspect response headers and identify missing configurations without leaving Chrome. This guide covers the best Chrome extensions for testing security headers, common mistakes, and which headers should be your priority.
 
-## Table of Contents
+Table of Contents
 
 - [Why Security Headers Matter](#why-security-headers-matter)
 - [Essential Chrome Extensions for Security Headers](#essential-chrome-extensions-for-security-headers)
@@ -25,13 +25,13 @@ Use the SecurityHeaders.com extension or similar tools to inspect HTTP security 
 - [Common Pitfalls](#common-pitfalls)
 - [Building a Custom Security Header Audit Script](#building-a-custom-security-header-audit-script)
 - [Real-World Security Header Implementations](#real-world-security-header-implementations)
-- [Content-Security-Policy: The Deep Dive](#content-security-policy-the-deep-dive)
+- [Content-Security-Policy: The Deep Dive](#content-security-policy-the-deep detailed look)
 - [Practical Incident Response Using Headers](#practical-incident-response-using-headers)
 - [Monitoring Header Compliance Over Time](#monitoring-header-compliance-over-time)
 - [Browser DevTools Alternative: Network Tab Inspection](#browser-devtools-alternative-network-tab-inspection)
 - [Common Questions About Security Headers](#common-questions-about-security-headers)
 
-## Why Security Headers Matter
+Why Security Headers Matter
 
 When a browser requests a webpage, the server responds with HTTP headers that tell the browser how to handle the content. Security-related headers instruct the browser to enable protections such as:
 
@@ -41,13 +41,13 @@ When a browser requests a webpage, the server responds with HTTP headers that te
 - X-Frame-Options: Protects against clickjacking
 - Referrer-Policy: Controls information sent in the Referer header
 
-Without these headers, your application relies entirely on client-side code for protection—a risky assumption. Implementing proper headers adds a server-side defense layer that works before any malicious script executes.
+Without these headers, your application relies entirely on client-side code for protection, a risky assumption. Implementing proper headers adds a server-side defense layer that works before any malicious script executes.
 
-## Essential Chrome Extensions for Security Headers
+Essential Chrome Extensions for Security Headers
 
-### 1. HTTP Headers
+1. HTTP Headers
 
-The **HTTP Headers** extension (available in the Chrome Web Store) displays all HTTP response headers for each request. It shows headers in a pop-up when you click the extension icon, making it easy to verify server configuration without opening DevTools.
+The HTTP Headers extension (available in the Chrome Web Store) displays all HTTP response headers for each request. It shows headers in a pop-up when you click the extension icon, making it easy to verify server configuration without opening DevTools.
 
 ```
 Extension: HTTP Headers
@@ -58,11 +58,11 @@ Features:
 - Filter by header name
 ```
 
-This extension works well for quick checks. Open any page, click the icon, and you'll see every header the server sends. Look for security headers in the list—they'll typically appear near the bottom.
+This extension works well for quick checks. Open any page, click the icon, and you'll see every header the server sends. Look for security headers in the list, they'll typically appear near the bottom.
 
-### 2. ModHeader
+2. ModHeader
 
-**ModHeader** lets you add, modify, or remove HTTP request and response headers. This is particularly useful for testing how your application behaves with specific security headers or for simulating attacks to verify your protections work.
+ModHeader lets you add, modify, or remove HTTP request and response headers. This is particularly useful for testing how your application behaves with specific security headers or for simulating attacks to verify your protections work.
 
 ```
 Extension: ModHeader
@@ -81,26 +81,26 @@ Header value: default-src 'self'
 
 Then visit your site and try loading a resource from an external domain. The browser blocks the request, and you can verify your CSP is working.
 
-### 3. Security Headers (by SpiderLabs)
+3. Security Headers (by SpiderLabs)
 
-The **Security Headers** extension specifically analyzes security headers and provides a grade (A-F) based on industry best practices. It checks for the presence and configuration of key security headers.
+The Security Headers extension specifically analyzes security headers and provides a grade (A-F) based on industry best practices. It checks for the presence and configuration of key security headers.
 
 ```
 Security Headers Checklist:
-✓ Strict-Transport-Security
-✓ Content-Security-Policy
-✓ X-Content-Type-Options
-✓ X-Frame-Options
-✓ Referrer-Policy
-✓ Permissions-Policy
-✓ X-XSS-Protection (legacy)
+ Strict-Transport-Security
+ Content-Security-Policy
+ X-Content-Type-Options
+ X-Frame-Options
+ Referrer-Policy
+ Permissions-Policy
+ X-XSS-Protection (legacy)
 ```
 
 The extension displays results directly in the browser toolbar, showing which headers are present and which are missing. This gives you an immediate security posture overview for any site.
 
-## Practical Examples
+Practical Examples
 
-### Checking Your Own Site
+Checking Your Own Site
 
 1. Install the HTTP Headers extension
 2. Navigate to your development or staging site
@@ -114,7 +114,7 @@ The extension displays results directly in the browser toolbar, showing which he
    Content-Security-Policy: default-src 'self'
    ```
 
-### Testing CSP Without Deploying
+Testing CSP Without Deploying
 
 Use ModHeader to test CSP rules before modifying your server configuration:
 
@@ -130,11 +130,11 @@ Use ModHeader to test CSP rules before modifying your server configuration:
 
 This approach lets you validate your CSP policy without deploying to production.
 
-### Analyzing Third-Party Sites
+Analyzing Third-Party Sites
 
-Visit any website and use the Security Headers extension to quickly assess its security posture. You might discover that major sites still miss basic protections—an eye-opening reminder to audit your own implementations.
+Visit any website and use the Security Headers extension to quickly assess its security posture. You might discover that major sites still miss basic protections, an eye-opening reminder to audit your own implementations.
 
-## Headers You Should Implement
+Headers You Should Implement
 
 Focus on these headers in order of priority:
 
@@ -150,7 +150,7 @@ Focus on these headers in order of priority:
 
 6. Permissions-Policy: Control browser features like camera, microphone, and geolocation
 
-## Common Pitfalls
+Common Pitfalls
 
 When implementing security headers, watch for these issues:
 
@@ -159,7 +159,7 @@ When implementing security headers, watch for these issues:
 - Overly permissive CSP: Avoid `'unsafe-inline'` and `'unsafe-eval'` unless absolutely necessary
 - Missing headers on error pages: Ensure your error pages also return security headers
 
-## Building a Custom Security Header Audit Script
+Building a Custom Security Header Audit Script
 
 For developers managing multiple applications, automate security header audits:
 
@@ -231,11 +231,11 @@ Promise.all(endpoints.map(auditHeaders)).then(results => {
 
 Run this script monthly and track changes. When you add a new header, verify it propagated to all endpoints.
 
-## Real-World Security Header Implementations
+Real-World Security Header Implementations
 
 Here's what production implementations actually look like:
 
-**Tight Security (B2B SaaS with sensitive data):**
+Tight Security (B2B SaaS with sensitive data):
 ```
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 X-Content-Type-Options: nosniff
@@ -245,7 +245,7 @@ Referrer-Policy: strict-origin-when-cross-origin
 Permissions-Policy: geolocation=(), microphone=(), camera=()
 ```
 
-**Balanced Security (SaaS with external integrations):**
+Balanced Security (SaaS with external integrations):
 ```
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 X-Content-Type-Options: nosniff
@@ -255,7 +255,7 @@ Referrer-Policy: strict-origin-when-cross-origin
 Permissions-Policy: camera=(), microphone=()
 ```
 
-**Permissive Security (Public marketing site with many third-party tools):**
+Permissive Security (Public marketing site with many third-party tools):
 ```
 Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
@@ -266,40 +266,40 @@ Referrer-Policy: no-referrer-when-downgrade
 
 The trade-off: tighter CSP prevents more attacks but breaks more integrations. Start tight and relax only when necessary.
 
-## Content-Security-Policy: The Deep Dive
+Content-Security-Policy: The Deep Dive
 
 CSP is the most complex header and worth understanding thoroughly:
 
 ```
-# CSP Anatomy
+CSP Anatomy
 
 default-src 'self'        # Default policy for all content types
-  ├─ Applies unless overridden by specific directive
-  └─ 'self' = same origin, nothing else
+   Applies unless overridden by specific directive
+   'self' = same origin, nothing else
 
 script-src 'self' 'nonce-XYZ'  # Where scripts can load from
-  ├─ 'self': scripts from your domain
-  ├─ 'nonce-XYZ': inline scripts with matching nonce attribute
-  └─ Blocks all other inline scripts and external sources
+   'self': scripts from your domain
+   'nonce-XYZ': inline scripts with matching nonce attribute
+   Blocks all other inline scripts and external sources
 
 style-src 'self' data:     # Where stylesheets can come from
-  ├─ 'self': stylesheets from your domain
-  ├─ data: embedded data URIs
-  └─ Blocks external CDN stylesheets unless explicitly allowed
+   'self': stylesheets from your domain
+   data: embedded data URIs
+   Blocks external CDN stylesheets unless explicitly allowed
 
 img-src *                   # Images can load from anywhere
 font-src 'self' fonts.gstatic.com  # Fonts from self or Google
 connect-src 'self' https://api.example.com  # XHR/fetch/WebSocket destinations
 ```
 
-**Common CSP mistakes:**
+Common CSP mistakes:
 
-1. Using `'unsafe-inline'` for styles/scripts — defeats the purpose of CSP
-2. Using `*` for script-src — allows any attacker-controlled script
-3. Forgetting to update CSP when adding third-party tools — tools break mysteriously
-4. Not using nonce/hash for inline scripts — undermines security
+1. Using `'unsafe-inline'` for styles/scripts. defeats the purpose of CSP
+2. Using `*` for script-src. allows any attacker-controlled script
+3. Forgetting to update CSP when adding third-party tools. tools break mysteriously
+4. Not using nonce/hash for inline scripts. undermines security
 
-**Testing CSP without breaking production:**
+Testing CSP without breaking production:
 
 ```
 Content-Security-Policy-Report-Only: ...
@@ -307,12 +307,12 @@ Content-Security-Policy-Report-Only: ...
 
 Use `-Report-Only` first. This logs violations without blocking anything. Monitor for 1-2 weeks, fix issues, then switch to enforcing mode.
 
-## Practical Incident Response Using Headers
+Practical Incident Response Using Headers
 
 When you discover a security issue, security headers help contain damage:
 
 ```markdown
-# Incident: Third-party library has XSS vulnerability
+Incident: Third-party library has XSS vulnerability
 
 Response using CSP:
 1. Review CSP: does script-src allow this library?
@@ -330,12 +330,12 @@ Without CSP:
 
 Good headers let you act defensively immediately, even before patches exist.
 
-## Monitoring Header Compliance Over Time
+Monitoring Header Compliance Over Time
 
 Track compliance across your infrastructure:
 
 ```python
-# Security header monitoring dashboard
+Security header monitoring dashboard
 
 import requests
 from datetime import datetime
@@ -385,11 +385,11 @@ class SecurityHeaderMonitor:
             results.append(self.check_endpoint(endpoint))
         return results
 
-# Run daily via CI/CD
+Run daily via CI/CD
 monitor = SecurityHeaderMonitor()
 audit_results = monitor.audit_all()
 
-# Alert if any endpoint is non-compliant
+Alert if any endpoint is non-compliant
 non_compliant = [r for r in audit_results if not r.get('compliant')]
 if non_compliant:
     send_slack_alert(f"Security header audit failed: {non_compliant}")
@@ -397,7 +397,7 @@ if non_compliant:
 
 This catches configuration drift (headers accidentally removed during deployments).
 
-## Browser DevTools Alternative: Network Tab Inspection
+Browser DevTools Alternative: Network Tab Inspection
 
 If you prefer not to use extensions, inspect headers directly:
 
@@ -410,47 +410,47 @@ If you prefer not to use extensions, inspect headers directly:
 
 This is slower than extensions but requires no installation and provides detailed header inspection.
 
-## Common Questions About Security Headers
+Common Questions About Security Headers
 
-**Q: Will security headers break my site?**
+Q: Will security headers break my site?
 A: Start with `Content-Security-Policy-Report-Only` first. Only enforce after verifying nothing breaks. Other headers rarely cause issues.
 
-**Q: Do security headers replace HTTPS?**
+Q: Do security headers replace HTTPS?
 A: No, they complement HTTPS. Strict-Transport-Security forces HTTPS, but other headers (CSP, X-Frame-Options) add application-level protections.
 
-**Q: How often should I audit headers?**
+Q: How often should I audit headers?
 A: After every deployment. Monthly automated audits catch drift. Whenever adding third-party integrations, verify CSP still allows them.
 
-**Q: What's the difference between X-XSS-Protection and CSP?**
+Q: What's the difference between X-XSS-Protection and CSP?
 A: X-XSS-Protection is legacy (for old browsers). CSP is modern. Use CSP for new applications.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**Can I trust these tools with sensitive data?**
+Can I trust these tools with sensitive data?
 
 Review each tool's privacy policy, data handling practices, and security certifications before using it with sensitive data. Look for SOC 2 compliance, encryption in transit and at rest, and clear data retention policies. Enterprise tiers often include stronger privacy guarantees.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Security Tools for a Fully Remote Company Under 20 Employees](/security-tools-for-a-fully-remote-company-under-20-employees/)
 - [Remote Work Security Hardening Checklist](/remote-work-security-hardening-checklist/)
 - [Required security configurations for company laptops](/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/chrome-extension-linear-issue-tracker/)
 - [Check your router's current firmware version](/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

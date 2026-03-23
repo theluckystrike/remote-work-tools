@@ -17,26 +17,26 @@ tags: [remote-work-tools, remote-work]
 
 Drone CI is a container-native CI system where every pipeline step runs in a Docker container. There's no plugin system to fight with, no shared state between steps by default, and pipeline configs are just YAML that any developer can understand. For remote teams that self-host, Drone's simplicity reduces the operational burden compared to Jenkins.
 
-Remote teams get a specific benefit from Drone: the pipeline definition lives in the repository as `.drone.yml`, so every team member — regardless of time zone — has full visibility into what CI does and can propose changes through a standard pull request. There's no admin-only config hidden in a Jenkins web UI that only one person understands.
+Remote teams get a specific benefit from Drone: the pipeline definition lives in the repository as `.drone.yml`, so every team member. regardless of time zone. has full visibility into what CI does and can propose changes through a standard pull request. There's no admin-only config hidden in a Jenkins web UI that only one person understands.
 
 ---
 
-## Architecture
+Architecture
 
 Drone has two components:
-- **Server**: Manages the web UI, API, and pipeline queue. One instance.
-- **Runner**: Executes pipeline steps on Docker. Run as many as needed.
+- Server: Manages the web UI, API, and pipeline queue. One instance.
+- Runner: Executes pipeline steps on Docker. Run as many as needed.
 
 Runners communicate with the server over HTTP. The server stores state in SQLite or PostgreSQL.
 
 ---
 
-## Deploy with Docker Compose
+Deploy with Docker Compose
 
 For GitHub integration:
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 
 services:
@@ -101,7 +101,7 @@ DB_PASSWORD=$(openssl rand -hex 24)
 For Gitea instead of GitHub:
 
 ```bash
-# Replace GitHub env vars with:
+Replace GitHub env vars with:
 - DRONE_GITEA_SERVER=https://git.yourcompany.com
 - DRONE_GITEA_CLIENT_ID=${GITEA_CLIENT_ID}
 - DRONE_GITEA_CLIENT_SECRET=${GITEA_CLIENT_SECRET}
@@ -109,12 +109,12 @@ For Gitea instead of GitHub:
 
 ---
 
-## Write Your First Pipeline
+Write Your First Pipeline
 
 Create `.drone.yml` in your repository root:
 
 ```yaml
-# .drone.yml
+.drone.yml
 kind: pipeline
 type: docker
 name: default
@@ -193,26 +193,26 @@ steps:
 
 ---
 
-## Manage Secrets
+Manage Secrets
 
 Add secrets via the Drone CLI:
 
 ```bash
-# Install CLI
+Install CLI
 curl -L https://github.com/harness/drone-cli/releases/latest/download/drone_linux_amd64.tar.gz | tar zx
 install -t /usr/local/bin drone
 
-# Authenticate
+Authenticate
 export DRONE_SERVER=https://drone.yourcompany.com
 export DRONE_TOKEN=your_drone_token  # Get from your user settings in UI
 
-# Add a repo-level secret
+Add a repo-level secret
 drone secret add \
   --repository your-org/your-repo \
   --name docker_password \
   --data "your_registry_password"
 
-# Add an organization-level secret
+Add an organization-level secret
 drone orgsecret add your-org slack_webhook "https://hooks.slack.com/..."
 ```
 
@@ -234,7 +234,7 @@ For remote teams managing many repositories, organization-level secrets reduce t
 
 ---
 
-## Pipeline Branch and Event Conditions
+Pipeline Branch and Event Conditions
 
 Drone's `when` clause controls which builds run for which events. For remote teams with multiple environments, conditional steps map directly to your branching strategy:
 
@@ -273,16 +273,16 @@ steps:
       event: push
 ```
 
-This pattern — staging deploy on `staging` branch push, production deploy on `main` branch push — means engineers in any time zone can merge to `staging` to verify their change before promoting to production without any manual coordination.
+This pattern. staging deploy on `staging` branch push, production deploy on `main` branch push. means engineers in any time zone can merge to `staging` to verify their change before promoting to production without any manual coordination.
 
 ---
 
-## Multi-Architecture Builds
+Multi-Architecture Builds
 
 Build for AMD64 and ARM64 in parallel using Drone's multi-pipeline support:
 
 ```yaml
-# .drone.yml
+.drone.yml
 ---
 kind: pipeline
 type: docker
@@ -359,7 +359,7 @@ steps:
 
 ---
 
-## Caching Dependencies
+Caching Dependencies
 
 Cache node_modules or Go module cache between builds to speed up pipelines:
 
@@ -418,12 +418,12 @@ Pipeline caching matters more for remote teams because CI feedback time directly
 
 ---
 
-## Scaling Runners for Distributed Teams
+Scaling Runners for Distributed Teams
 
 The default `DRONE_RUNNER_CAPACITY=4` means the runner executes 4 pipeline jobs in parallel. For a remote team with engineers across multiple time zones, builds queue at shift overlap times. Add more runners to handle the load:
 
 ```yaml
-# docker-compose.yml — add additional runners as separate services
+docker-compose.yml. add additional runners as separate services
   drone-runner-02:
     image: drone/drone-runner-docker:1
     restart: always
@@ -440,12 +440,12 @@ The default `DRONE_RUNNER_CAPACITY=4` means the runner executes 4 pipeline jobs 
       - DRONE_RUNNER_LABELS=platform:linux,arch:amd64
 ```
 
-Alternatively, run runners on separate hosts to distribute the Docker build load. Each runner only needs network access to the Drone server on port 443 — runners do not need to communicate with each other.
+Alternatively, run runners on separate hosts to distribute the Docker build load. Each runner only needs network access to the Drone server on port 443. runners do not need to communicate with each other.
 
 For teams with multiple environments (Linux x86, Linux ARM, macOS), label runners by capability and target steps to specific runners:
 
 ```yaml
-# .drone.yml — target a specific runner label
+.drone.yml. target a specific runner label
 steps:
   - name: test-on-arm
     image: golang:1.22-alpine
@@ -457,7 +457,7 @@ steps:
 
 ---
 
-## Integrating Drone with Container Registries
+Integrating Drone with Container Registries
 
 After a successful build, push images to your registry immediately. For GHCR (GitHub Container Registry):
 
@@ -506,28 +506,28 @@ Tagging with both `latest` and the short commit SHA is the recommended practice 
 
 ---
 
-## Useful CLI Commands
+Useful CLI Commands
 
 ```bash
-# List builds for a repo
+List builds for a repo
 drone build ls your-org/your-repo
 
-# View build details
+View build details
 drone build info your-org/your-repo 42
 
-# Trigger a build on main
+Trigger a build on main
 drone build create your-org/your-repo --branch main
 
-# View logs for a specific step
+View logs for a specific step
 drone log view your-org/your-repo 42 1 1
 
-# List secrets for a repo
+List secrets for a repo
 drone secret ls --repository your-org/your-repo
 ```
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Woodpecker CI for Self-Hosted](/how-to-set-up-woodpecker-ci-for-self-hosted/)
 - [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
@@ -536,13 +536,13 @@ drone secret ls --repository your-org/your-repo
 - [Async Decision-Making Framework for Remote Teams](/articles/how-to-set-up-async-decision-making-framework-guide/)
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Woodpecker CI for Self-Hosted](/how-to-set-up-woodpecker-ci-for-self-hosted/)
 - [Best Tools for Remote Team Feature Flags](/best-tools-remote-team-feature-flags/)
 - [Best Business Intelligence Tool for Small Remote Teams](/best-business-intelligence-tool-for-small-remote-teams-witho/)
 - [Migrating from AWS CodeCommit to GitHub for Remote Team](/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
 - [Best Password Sharing Solution for Remote Teams 2026](/best-password-sharing-solution-for-remote-teams-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

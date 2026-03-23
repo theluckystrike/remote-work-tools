@@ -14,15 +14,15 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-## Remote Team Neovim Setup and Config Sharing
+Remote Team Neovim Setup and Config Sharing
 
-Getting a new engineer's editor configured correctly used to mean a half-day pairing session going through their dotfiles. With a shared Neovim config repo and a one-command bootstrap, a new team member has a working setup in under ten minutes — the same setup everyone else uses, with the same LSP servers, formatters, and keybindings.
+Getting a new engineer's editor configured correctly used to mean a half-day pairing session going through their dotfiles. With a shared Neovim config repo and a one-command bootstrap, a new team member has a working setup in under ten minutes. the same setup everyone else uses, with the same LSP servers, formatters, and keybindings.
 
 This guide walks through the full setup: repo structure, bootstrap script, core config, LSP, Treesitter, completion, per-developer overrides, shared snippets, plugin update workflow, and a few practical patterns learned from running this across teams of different sizes.
 
 ---
 
-## Why a Shared Neovim Config
+Why a Shared Neovim Config
 
 The argument for shared editor configs is the same as the argument for shared linter configs: consistency reduces noise in code review and debugging. When two engineers look at the same file in Neovim, they should see the same diagnostics, the same formatting, and the same go-to-definition behavior.
 
@@ -36,38 +36,38 @@ The tradeoff is that some engineers want personal config control. The approach h
 
 ---
 
-## Repo Structure
+Repo Structure
 
 ```
 nvim-config/
-├── init.lua
-├── lua/
-│   ├── config/
-│   │   ├── options.lua
-│   │   ├── keymaps.lua
-│   │   └── autocmds.lua
-│   └── plugins/
-│       ├── init.lua
-│       ├── lsp.lua
-│       ├── treesitter.lua
-│       ├── completion.lua
-│       ├── ui.lua
-│       └── git.lua
-├── lazy-lock.json
-└── .nvimrc.local.example
+ init.lua
+ lua/
+    config/
+       options.lua
+       keymaps.lua
+       autocmds.lua
+    plugins/
+        init.lua
+        lsp.lua
+        treesitter.lua
+        completion.lua
+        ui.lua
+        git.lua
+ lazy-lock.json
+ .nvimrc.local.example
 ```
 
 The key decision: commit `lazy-lock.json`. This pins every plugin to the exact version everyone else is running. Without the lock file, `Lazy! restore` resolves to the latest-stable of each plugin, which can differ between installs by weeks.
 
-The `snippets/` directory is optional but valuable — shared code snippets for the languages your team writes every day.
+The `snippets/` directory is optional but valuable. shared code snippets for the languages your team writes every day.
 
 ---
 
-## Bootstrap Script
+Bootstrap Script
 
 The install script handles the full setup in a single command: backup any existing config, clone the repo, install Neovim if missing, and restore pinned plugins.
 
-**`install.sh`**
+`install.sh`
 
 ```bash
 #!/bin/bash
@@ -106,9 +106,9 @@ The `Lazy! restore` command reads `lazy-lock.json` and installs exactly the pinn
 
 ---
 
-## Core Config
+Core Config
 
-**`init.lua`**
+`init.lua`
 
 ```lua
 require("config.options")
@@ -122,7 +122,7 @@ if vim.loop.fs_stat(local_config) then
 end
 ```
 
-**`lua/config/options.lua`**
+`lua/config/options.lua`
 
 ```lua
 local opt = vim.opt
@@ -146,7 +146,7 @@ opt.scrolloff = 8
 opt.clipboard = "unnamedplus"
 ```
 
-**`lua/config/keymaps.lua`** — keep team keymaps in one place so every engineer has the same muscle memory:
+`lua/config/keymaps.lua`. keep team keymaps in one place so every engineer has the same muscle memory:
 
 ```lua
 local map = vim.keymap.set
@@ -174,9 +174,9 @@ map("n", "]d", vim.diagnostic.goto_next, { desc = "Next diagnostic" })
 
 ---
 
-## Plugin Setup with lazy.nvim
+Plugin Setup with lazy.nvim
 
-**`lua/plugins/init.lua`**
+`lua/plugins/init.lua`
 
 ```lua
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -199,7 +199,7 @@ require("lazy").setup("plugins", {
 
 Disabling `checker` and `change_detection` prevents Neovim from automatically checking for plugin updates. Updates happen explicitly via PR, not automatically on each developer's machine.
 
-**`lua/plugins/lsp.lua`**
+`lua/plugins/lsp.lua`
 
 ```lua
 return {
@@ -250,9 +250,9 @@ return {
 
 ---
 
-## Treesitter and Completion
+Treesitter and Completion
 
-**`lua/plugins/treesitter.lua`** — install parsers for all languages the team uses:
+`lua/plugins/treesitter.lua`. install parsers for all languages the team uses:
 
 ```lua
 return {
@@ -275,7 +275,7 @@ return {
 }
 ```
 
-**`lua/plugins/completion.lua`** — nvim-cmp with LSP, buffer, and snippet sources:
+`lua/plugins/completion.lua`. nvim-cmp with LSP, buffer, and snippet sources:
 
 ```lua
 return {
@@ -320,18 +320,18 @@ return {
 
 ---
 
-## Managing Plugin Updates as a Team
+Managing Plugin Updates as a Team
 
 Plugin updates go through a PR so everyone can review the diff before updating:
 
 ```bash
-# On a branch, update all plugins
+On a branch, update all plugins
 nvim --headless "+Lazy! update" +qa
 
-# lazy-lock.json is now modified
+lazy-lock.json is now modified
 git diff lazy-lock.json
 
-# Open PR for team review
+Open PR for team review
 git add lazy-lock.json
 git commit -m "chore: update nvim plugins $(date +%Y-%m-%d)"
 gh pr create --title "Neovim plugin updates $(date +%Y-%m-%d)" \
@@ -349,9 +349,9 @@ nvim --headless "+Lazy! restore" +qa
 
 ---
 
-## Per-Developer Overrides
+Per-Developer Overrides
 
-**`.nvimrc.local.example`**
+`.nvimrc.local.example`
 
 ```lua
 -- Copy to .nvimrc.local and customize (NOT committed to repo)
@@ -372,9 +372,9 @@ Add `.nvimrc.local` to the repo's `.gitignore` so it can never accidentally be c
 
 ---
 
-## Shared Snippets
+Shared Snippets
 
-Snippets for common patterns — API route skeletons, test function stubs, docstring templates — save time and keep the team's code consistent:
+Snippets for common patterns. API route skeletons, test function stubs, docstring templates. save time and keep the team's code consistent:
 
 ```lua
 -- In options.lua
@@ -390,19 +390,19 @@ Store snippets in VSCode-compatible JSON format in `snippets/shared/<language>.j
 
 ---
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Can engineers use a different plugin manager?** Not with this setup — the lock file and bootstrap script assume lazy.nvim. Engineers who strongly prefer Packer or vim-plug should maintain a personal fork and sync shared LSP configs manually.
+Can engineers use a different plugin manager? Not with this setup. the lock file and bootstrap script assume lazy.nvim. Engineers who strongly prefer Packer or vim-plug should maintain a personal fork and sync shared LSP configs manually.
 
-**What if an engineer doesn't use Neovim at all?** This config doesn't affect them. It's opt-in. The benefit accumulates when most of the team shares the same setup; a mixed team still benefits from shared LSP configurations (which you can export and import into other editors).
+What if an engineer doesn't use Neovim at all? This config doesn't affect them. It's opt-in. The benefit accumulates when most of the team shares the same setup; a mixed team still benefits from shared LSP configurations (which you can export and import into other editors).
 
-**How do you handle projects that need different Python paths or different LSP settings?** The `.nvimrc.local` file is the right place for workspace-specific overrides. Alternatively, use `vim.env` in a project-local `.nvim.lua` file (Neovim 0.10+ loads these automatically when `exrc` is set).
+How do you handle projects that need different Python paths or different LSP settings? The `.nvimrc.local` file is the right place for workspace-specific overrides. Alternatively, use `vim.env` in a project-local `.nvim.lua` file (Neovim 0.10+ loads these automatically when `exrc` is set).
 
-**Does this work on Windows?** Partially. The bootstrap script is Bash and assumes a Unix filesystem layout. On Windows, the XDG paths differ. Engineers using Windows can clone the repo to `%LOCALAPPDATA%\nvim` manually and run `Lazy! restore` from within Neovim.
+Does this work on Windows? Partially. The bootstrap script is Bash and assumes a Unix filesystem layout. On Windows, the XDG paths differ. Engineers using Windows can clone the repo to `%LOCALAPPDATA%\nvim` manually and run `Lazy! restore` from within Neovim.
 
 ---
 
-## Treesitter for Consistent Syntax Highlighting
+Treesitter for Consistent Syntax Highlighting
 
 Mason installs LSP servers but does not manage Treesitter grammars. Lock those separately so everyone gets the same highlighting behavior:
 
@@ -442,19 +442,19 @@ return {
 }
 ```
 
-Pin Treesitter grammar versions in `lazy-lock.json` the same way you pin other plugins. If a grammar update breaks a language, the whole team sees the regression at the same time — not scattered across individual `TSUpdate` runs.
+Pin Treesitter grammar versions in `lazy-lock.json` the same way you pin other plugins. If a grammar update breaks a language, the whole team sees the regression at the same time. not scattered across individual `TSUpdate` runs.
 
 CI check to ensure the lock file stays consistent:
 
 ```yaml
-# .github/workflows/check-lockfile.yml
+.github/workflows/check-lockfile.yml
 name: Check Neovim config consistency
 
 on:
   pull_request:
     paths:
       - "lazy-lock.json"
-      - "lua/**"
+      - "lua/"
 
 jobs:
   verify:
@@ -474,7 +474,7 @@ jobs:
           echo "Plugin restore successful"
 ```
 
-## Handling Multiple Language-Specific Configs
+Handling Multiple Language-Specific Configs
 
 Teams working across many languages often need per-project LSP overrides without committing workspace paths to the shared repo. Use a project-local `.nvim.lua` (Neovim 0.9+):
 
@@ -507,14 +507,14 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 Enable project-local configs in the shared `init.lua`:
 
 ```lua
--- init.lua — add this to enable .nvim.lua project configs
+-- init.lua. add this to enable .nvim.lua project configs
 vim.o.exrc = true   -- load .nvim.lua from current directory
 vim.o.secure = true -- only load if file is trusted
 ```
 
 The first time Neovim opens a directory with `.nvim.lua`, it asks the developer to trust the file. This prevents malicious configs from running automatically in cloned repos.
 
-## Related Reading
+Related Reading
 
 - [Remote Team tmux Config Sharing Guide](/remote-team-tmux-config-sharing/)
 - [Remote Team fish Shell Setup Guide](/remote-team-fish-shell-setup/)
@@ -522,5 +522,5 @@ The first time Neovim opens a directory with `.nvim.lua`, it asks the developer 
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

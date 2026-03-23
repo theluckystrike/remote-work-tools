@@ -601,9 +601,9 @@ voice-checked: true
 
 {% raw %}
 
-Implement async peer feedback exchanges for remote leadership teams using structured requests with specific questions, deadline-bound responses, explicit acknowledgment of feedback, and committed follow-up actions—creating documentation that builds trust while replacing the informal hallway conversations that don't exist in distributed settings. This process reduces emotional friction while producing clear expectations about behavior change and growth.
+Implement async peer feedback exchanges for remote leadership teams using structured requests with specific questions, deadline-bound responses, explicit acknowledgment of feedback, and committed follow-up actions, creating documentation that builds trust while replacing the informal hallway conversations that don't exist in distributed settings. This process reduces emotional friction while producing clear expectations about behavior change and growth.
 
-## Table of Contents
+Table of Contents
 
 - [Why Distributed Leadership Teams Need Structured Feedback](#why-distributed-leadership-teams-need-structured-feedback)
 - [The Template Structure](#the-template-structure)
@@ -623,17 +623,17 @@ Implement async peer feedback exchanges for remote leadership teams using struct
 
 Managing peer feedback in distributed leadership environments requires deliberate structure. When your team spans time zones and communication happens asynchronously, the informal hallway conversations that build trust in co-located settings simply do not exist. This guide provides a peer feedback exchange template specifically designed for remote team managers operating in distributed leadership structures.
 
-## Why Distributed Leadership Teams Need Structured Feedback
+Why Distributed Leadership Teams Need Structured Feedback
 
 Leadership teams in remote organizations face a unique challenge: how do you provide honest, constructive feedback when you rarely (or never) meet face-to-face? The absence of physical proximity removes many of the subtle cues that make feedback easier to deliver and receive in person. Leaders in distributed teams must be more explicit, more documented, and more intentional about their feedback processes.
 
 A well-designed peer feedback exchange template solves three problems simultaneously. First, it creates consistency across the team, ensuring everyone knows what to expect. Second, it reduces the emotional weight of feedback by framing it as a routine process rather than a reaction to specific incidents. Third, it produces documentation that teams can reference later when evaluating growth and development.
 
-## The Template Structure
+The Template Structure
 
 Every effective peer feedback exchange consists of four components: the request, the response, the follow-up, and the review. Below is a template you can adapt for your leadership team.
 
-### Component 1: The Feedback Request
+Component 1: The Feedback Request
 
 The feedback request initiates the exchange. It should clearly state who is requesting feedback, what type of feedback they are seeking, and when they need the response. For asynchronous teams, deadlines are critical because they create accountability without requiring synchronous communication.
 
@@ -655,7 +655,7 @@ The feedback request initiates the exchange. It should clearly state who is requ
 }
 ```
 
-### Component 2: The Feedback Response
+Component 2: The Feedback Response
 
 The person providing feedback needs structure too. Ambiguous requests produce ambiguous responses. By providing specific questions, you ensure the feedback you receive is actionable and useful.
 
@@ -675,7 +675,7 @@ The person providing feedback needs structure too. Ambiguous requests produce am
 }
 ```
 
-### Component 3: The Follow-Up
+Component 3: The Follow-Up
 
 Feedback without follow-up is just noise. After receiving feedback, the requester should acknowledge what they heard, commit to specific changes, and establish a timeline for checking in again. This closes the loop and demonstrates that feedback leads to growth.
 
@@ -694,15 +694,15 @@ Feedback without follow-up is just noise. After receiving feedback, the requeste
 }
 ```
 
-### Component 4: The Review
+Component 4: The Review
 
-Periodically, leadership teams should review aggregated feedback patterns. This is not about identifying the "best" or "worst" leader—it is about understanding systemic issues and improving the team's overall effectiveness.
+Periodically, leadership teams should review aggregated feedback patterns. This is not about identifying the "best" or "worst" leader, it is about understanding systemic issues and improving the team's overall effectiveness.
 
-## Implementing the Template in Your Team
+Implementing the Template in Your Team
 
 You do not need special software to implement this template. A shared document system, a simple ticketing tool, or even a dedicated Slack channel can serve as the infrastructure. The key is consistency: use the same structure every cycle so that feedback becomes a normal part of your team's rhythm rather than an event that only happens during performance reviews.
 
-### Simple Implementation with Slack
+Simple Implementation with Slack
 
 For teams already using Slack, you can create a lightweight workflow without custom development:
 
@@ -711,7 +711,7 @@ For teams already using Slack, you can create a lightweight workflow without cus
 3. Use a shared Google Doc or Notion page for the actual feedback content
 4. Post a summary message in the channel when feedback is complete
 
-### Automated Implementation with GitHub Actions
+Automated Implementation with GitHub Actions
 
 For teams that prefer more automation, a GitHub Actions workflow can manage the lifecycle:
 
@@ -751,17 +751,17 @@ jobs:
             }
 ```
 
-## Timing and Frequency
+Timing and Frequency
 
 How often should leadership teams exchange peer feedback? For distributed teams, monthly cycles tend to work well. Quarterly cycles are too infrequent to build momentum, while weekly cycles create feedback fatigue. Monthly gives enough time for meaningful observations to accumulate while keeping feedback top-of-mind.
 
 The timing of when feedback is sent also matters. For global teams, establish a convention: perhaps feedback requests go out on Monday, responses are due by Friday, and follow-ups are posted the following Monday. This creates a predictable rhythm that team members can plan around regardless of their time zone.
 
-## Common Pitfalls to Avoid
+Common Pitfalls to Avoid
 
 Several patterns undermine peer feedback exchanges in distributed teams. First, avoiding specificity: vague feedback like "good job" or "needs improvement" provides no actionable information. Second, focusing only on negatives: balanced feedback includes what to continue doing, not just what to change. Third, failing to follow up: without check-ins, feedback loses its impact. Fourth, treating feedback as an one-way street: everyone should both give and receive feedback, creating mutual accountability.
 
-## Detailed Peer Feedback Form for Leadership Teams
+Detailed Peer Feedback Form for Leadership Teams
 
 Below is a form designed specifically for managers and leaders in distributed settings:
 
@@ -828,10 +828,10 @@ Below is a form designed specifically for managers and leaders in distributed se
         "question_7": {
           "prompt": "How does this manager handle asynchronous communication?",
           "options": [
-            "Excellent—clear, timely, written well",
-            "Good—mostly responsive",
-            "Needs work—often unclear or slow",
-            "Poor—can't understand async updates"
+            "Excellent, clear, timely, written well",
+            "Good, mostly responsive",
+            "Needs work, often unclear or slow",
+            "Poor, can't understand async updates"
           ]
         },
         "question_8": {
@@ -880,7 +880,7 @@ Below is a form designed specifically for managers and leaders in distributed se
           "prompt": "Feel safe bringing difficult conversations or problems to them?",
           "scale": "1-5",
           "anchors": {
-            "1": "No—they might retaliate",
+            "1": "No, they might retaliate",
             "3": "Sometimes safe",
             "5": "Very safe; I know they have my back"
           }
@@ -909,7 +909,7 @@ Below is a form designed specifically for managers and leaders in distributed se
 
 This structure is detailed enough to be useful but not so long that respondents abandon it halfway through.
 
-## Aggregation and Analysis Process
+Aggregation and Analysis Process
 
 Compiling raw feedback into actionable insights requires a structured process:
 
@@ -933,7 +933,7 @@ Step 3: Weight by Relevance
 
 Step 4: Create Summary Document
 
-## [Manager] Feedback Summary - 2026 Q1
+[Manager] Feedback Summary - 2026 Q1
 
 Overall Assessment:
 Rating average: 4.1/5
@@ -941,20 +941,20 @@ Trend: +0.4 from last cycle (improvement)
 Respondents: 5 (high participation)
 
 Key Strengths (consensus):
-1. **Clear communication** (mentioned by all 5 respondents)
+1. Clear communication (mentioned by all 5 respondents)
    - "Explains technical decisions clearly to non-tech stakeholders"
    - "Always knows where we're at on projects"
 
-2. **Team advocacy** (mentioned by 4 respondents)
+2. Team advocacy (mentioned by 4 respondents)
    - "Fights for resources for the team"
    - "Gets us heard in executive meetings"
 
 Growth Areas (consensus):
-1. **Cross-team collaboration** (mentioned by 4 respondents)
+1. Cross-team collaboration (mentioned by 4 respondents)
    - "Doesn't always align with other departments early"
    - "Could involve other teams in planning"
 
-2. **Delegation and trust** (mentioned by 3 respondents)
+2. Delegation and trust (mentioned by 3 respondents)
    - "Tries to do too much personally"
    - "Could help team more on decisions"
 
@@ -968,7 +968,7 @@ Step 5: Schedule Feedback Conversation
 
 This aggregation process prevents anecdotal feedback from drowning out patterns.
 
-## Feedback Delivery Conversation for Managers
+Feedback Delivery Conversation for Managers
 
 When delivering peer feedback to another manager, use this structured conversation:
 
@@ -979,7 +979,7 @@ Opening (2 minutes):
 to share patterns and help you continue growing as a leader."
 
 Frame the feedback:
-"The feedback is overwhelmingly positive—you're rated 4.1/5 overall
+"The feedback is overwhelmingly positive, you're rated 4.1/5 overall
 and getting stronger from last quarter. I want to highlight what's
 working and one area where growth would have real impact."
 
@@ -1001,7 +1001,7 @@ Deliver with specificity (3 minutes):
 
 The pattern seems to be [interpretation]. Does that land with you?"
 
-Listen to their response. Don't defend if they disagree—this is about perspective.
+Listen to their response. Don't defend if they disagree, this is about perspective.
 
 Explore Impact (3 minutes):
 "How does this land? What's your reaction?"
@@ -1028,70 +1028,70 @@ I'm here to support you."
 
 The tone should be developmental, not evaluative. You're supporting a peer, not judging them.
 
-## Monthly Check-In Template for Accountability
+Monthly Check-In Template for Accountability
 
 After feedback, structured check-ins keep the commitment alive:
 
 ```markdown
-# Monthly Peer Development Check-In
+Monthly Peer Development Check-In
 
-**Person:** [Manager Name]
-**Growth Area:** [What they committed to improve]
-**Check-In Date:** [Monthly, on calendar]
+Person: [Manager Name]
+Growth Area: [What they committed to improve]
+Check-In Date: [Monthly, on calendar]
 
-## Progress This Month
+Progress This Month
 [Manager shares: What did you do to work on this?]
 - Specific action 1: [How it went]
 - Specific action 2: [How it went]
 
-## Evidence of Progress
+Evidence of Progress
 [What's changed? Share concrete examples]
 - Team observation: [How the team sees progress]
 - Peer observation: [How peers see progress]
 - Self-assessment: [How the manager sees it]
 
-## Obstacles
+Obstacles
 [What's making this harder than expected?]
 - Challenge 1: [How we can solve it]
 - Challenge 2: [How we can solve it]
 
-## Next Month's Focus
+Next Month's Focus
 [Single thing to focus on next month]
 
-## Support Needed
+Support Needed
 [What from manager/peers/coach?]
 ```
 
 Monthly accountability prevents great intentions from fading after 3 weeks.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Remote Team Peer Feedback Process](/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
 - [Async 360 Feedback Process for Remote Teams Without Live](/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [How to Build Async Feedback Culture on a Fully Remote Team](/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
 - [Best Practice for Remote Team Documentation Feedback Loop](/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
 - [Example: Feedback webhook handler](/async-customer-feedback-synthesis-workflow-for-remote-produc/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -18,7 +18,7 @@ score: 9
 
 Building a financial dashboard for a distributed company requires careful consideration of data sources, real-time processing, and multi-currency handling. This guide covers implementation patterns for CFOs who need accurate, up-to-the-minute visibility into team expenses across multiple locations and time zones.
 
-## Table of Contents
+Table of Contents
 
 - [Why Real-Time Expense Tracking Matters for Distributed Companies](#why-real-time-expense-tracking-matters-for-distributed-companies)
 - [Core Architecture Components](#core-architecture-components)
@@ -28,13 +28,13 @@ Building a financial dashboard for a distributed company requires careful consid
 - [Practical Dashboard Metrics for CFOs](#practical-dashboard-metrics-for-cfos)
 - [Implementation Recommendations](#implementation-recommendations)
 
-## Why Real-Time Expense Tracking Matters for Distributed Companies
+Why Real-Time Expense Tracking Matters for Distributed Companies
 
 Remote and distributed teams generate expenses across numerous categories: contractor payments, software subscriptions, cloud infrastructure, travel, and office allowances. Traditional monthly reconciliation cycles leave CFOs blind to spending trends until it's too late. A well-designed real-time financial dashboard transforms expense management from a reactive chore into a proactive strategic function.
 
 The key challenges include aggregating data from multiple sources, handling different currencies and exchange rates, maintaining data security, and providing practical recommendations without overwhelming users with raw transaction data.
 
-## Core Architecture Components
+Core Architecture Components
 
 A real-time expense tracking system consists of several interconnected components:
 
@@ -46,7 +46,7 @@ Storage Layer: Maintains both raw transaction data and aggregated metrics. Time-
 
 Presentation Layer: Provides the dashboard interface with filtering, visualization, and export capabilities.
 
-## Building the Data Pipeline
+Building the Data Pipeline
 
 Here's a practical implementation using Node.js and common financial APIs:
 
@@ -185,7 +185,7 @@ ingestor.on('transaction', (tx) => {
 });
 ```
 
-## Real-Time Dashboard Implementation
+Real-Time Dashboard Implementation
 
 The dashboard itself should provide immediate visibility into spending patterns. Using a modern frontend stack with WebSocket updates keeps data fresh without constant page refreshes:
 
@@ -265,12 +265,12 @@ export const BudgetAlert = ({ threshold, current, category }) => {
 };
 ```
 
-## Multi-Currency Handling for Global Teams
+Multi-Currency Handling for Global Teams
 
 Distributed companies face unique currency challenges. A practical approach normalizes all transactions to a base currency while preserving original amounts for reporting:
 
 ```python
-# Currency conversion service with caching
+Currency conversion service with caching
 from functools import lru_cache
 from datetime import datetime, timedelta
 import requests
@@ -313,7 +313,7 @@ class CurrencyConverter:
         symbols = {'USD': '$', 'EUR': '€', 'GBP': '£', 'JPY': '¥'}
         return f"{symbols.get(currency, currency)} {amount:,.2f}"
 
-# Usage for expense normalization
+Usage for expense normalization
 converter = CurrencyConverter(base_currency='USD')
 
 def normalize_expense(expense):
@@ -322,7 +322,7 @@ def normalize_expense(expense):
         expense['currency']
     )
     return {
-        **expense,
+        expense,
         'amount_original': expense['amount'],
         'currency_original': expense['currency'],
         'amount_usd': converted_amount,
@@ -330,7 +330,7 @@ def normalize_expense(expense):
     }
 ```
 
-## Practical Dashboard Metrics for CFOs
+Practical Dashboard Metrics for CFOs
 
 Beyond basic expense tracking, CFOs need strategic metrics:
 
@@ -361,42 +361,42 @@ function detectAnomalies(transactions, category) {
 }
 ```
 
-## Implementation Recommendations
+Implementation Recommendations
 
 Start with a minimal viable dashboard that connects to your existing expense management tools. Prioritize accurate data ingestion over fancy visualizations. Establish clear categorization rules early, as retroactively correcting miscategorized expenses is painful.
 
-Invest in alerting configurations. CFOs shouldn't need to constantly monitor dashboards—they should receive notifications when intervention is needed. Set budget thresholds that trigger alerts at 75%, 90%, and 100% of allocated amounts.
+Invest in alerting configurations. CFOs shouldn't need to constantly monitor dashboards, they should receive notifications when intervention is needed. Set budget thresholds that trigger alerts at 75%, 90%, and 100% of allocated amounts.
 
 Consider data retention policies. While real-time access is crucial, maintaining historical data enables trend analysis and audit requirements. Compress older data while preserving aggregate metrics.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Best Analytics Dashboard for a Remote Growth Team of 4](/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
 - [Best Expense Management Platform for Remote Teams with Recei](/best-expense-management-platform-for-remote-teams-with-recei/)
 - [Remote Team Grant and Funding Tracking Tool for Distributed](/remote-team-grant-and-funding-tracking-tool-for-distributed-/)
 - [Remote Team Handbook Section Template for Writing Expense Re](/remote-team-handbook-section-template-for-writing-expense-re/)
 - [Remote Sales Team Commission Tracking Tool for Distributed](/remote-sales-team-commission-tracking-tool-for-distributed-s/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

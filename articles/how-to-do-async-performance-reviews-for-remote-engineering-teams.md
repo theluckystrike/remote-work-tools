@@ -18,7 +18,7 @@ voice-checked: true
 
 Performance reviews are one of the most challenging processes to run remotely. The traditional approach of gathering everyone in a room or scheduling a series of video calls doesn't scale well for distributed teams. Yet skipping performance reviews means losing critical opportunities for employee growth and team alignment.
 
-## Table of Contents
+Table of Contents
 
 - [Why Async Reviews Work Better for Engineering Teams](#why-async-reviews-work-better-for-engineering-teams)
 - [Prerequisites](#prerequisites)
@@ -30,21 +30,21 @@ An async performance review process solves these challenges while actually produ
 
 This guide covers the complete framework for running async performance reviews tailored specifically for remote engineering teams.
 
-## Why Async Reviews Work Better for Engineering Teams
+Why Async Reviews Work Better for Engineering Teams
 
 Engineering work happens asynchronously by default. Your team writes code, reviews pull requests, and documents decisions in written form throughout the week. Asking them to suddenly switch to synchronous conversations for performance reviews creates an artificial constraint that doesn't reflect how they actually work.
 
 Async reviews offer several advantages:
 
-**Reflection time matters** — Engineers are typically thoughtful individuals who prefer to consider their responses carefully. A 30-minute video call forces quick thinking, while an async format lets both parties compose thoughtful feedback.
+Reflection time matters. Engineers are typically thoughtful individuals who prefer to consider their responses carefully. A 30-minute video call forces quick thinking, while an async format lets both parties compose thoughtful feedback.
 
-**Time zone flexibility** — Eliminating live meetings removes the burden of finding times that work across multiple time zones. Everyone contributes on their own schedule.
+Time zone flexibility. Eliminating live meetings removes the burden of finding times that work across multiple time zones. Everyone contributes on their own schedule.
 
-**Reduced recency bias** — In synchronous reviews, managers often overweight recent events. Async processes can reference a full review period with equal weight.
+Reduced recency bias. In synchronous reviews, managers often overweight recent events. Async processes can reference a full review period with equal weight.
 
-**Documentation** — Written feedback creates a historical record that helps track growth over time. This matters for career development discussions.
+Documentation. Written feedback creates a historical record that helps track growth over time. This matters for career development discussions.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -54,21 +54,21 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Set Up Your Review Framework
+Step 1: Set Up Your Review Framework
 
 Before collecting any feedback, establish clear criteria that reflect what your team actually values. Generic competencies won't resonate with engineers who care about specific, observable behaviors.
 
-### Define Review Categories
+Define Review Categories
 
 For engineering teams, structure your review around these areas:
 
-**Technical Excellence** — Code quality, system design, debugging ability, technical documentation
-**Collaboration** — Code review participation, knowledge sharing, cross-team communication
-**Impact** — Project delivery, problem-solving, business value contribution
-**Growth** — Mentorship, skill development, helping others level up
-**Reliability** — Meeting commitments, transparent communication, escalation
+Technical Excellence. Code quality, system design, debugging ability, technical documentation
+Collaboration. Code review participation, knowledge sharing, cross-team communication
+Impact. Project delivery, problem-solving, business value contribution
+Growth. Mentorship, skill development, helping others level up
+Reliability. Meeting commitments, transparent communication, escalation
 
-### Create Specific Questions
+Create Specific Questions
 
 Avoid vague prompts. Instead, ask behavioral questions that request specific examples:
 
@@ -82,65 +82,65 @@ For manager assessment:
 - Describe a situation where they went above and beyond.
 - What one area would most benefit from focused improvement?
 
-### Step 2: Implementing the Async Review Process
+Step 2: Implementing the Async Review Process
 
-### Phase 1: Self-Assessment (Days 1-5)
+Phase 1: Self-Assessment (Days 1-5)
 
 Send the self-assessment template to each team member at the start of the review period. Give them a full week to complete it thoughtfully.
 
 Provide clear instructions:
 
 ```markdown
-### Step 3: Self-Assessment Template
+Step 3: Self-Assessment Template
 
-**Review Period:** Q1 2026
+Review Period: Q1 2026
 
-**Instructions:** Take 30-60 minutes to reflect on this quarter. Write substantive responses with specific examples. This is your opportunity to share your perspective.
+Instructions: Take 30-60 minutes to reflect on this quarter. Write substantive responses with specific examples. This is your opportunity to share your perspective.
 
-### Technical Contributions
+Technical Contributions
 1. What technical challenges did you solve this quarter?
 2. What code are you most proud of?
 3. What technical debt did you address?
 
-### Collaboration
+Collaboration
 4. How did you help teammates this quarter?
 5. What feedback did you receive that helped you grow?
 
-### Areas for Growth
+Areas for Growth
 6. What skill do you want to develop next quarter?
 7. What support would help you succeed?
 ```
 
-### Phase 2: Peer Feedback (Days 6-12)
+Phase 2: Peer Feedback (Days 6-12)
 
 Peer feedback provides diverse perspectives that manager feedback alone cannot capture. Select 3-5 peers for each person based on their working relationships.
 
 Use a structured peer feedback form:
 
 ```markdown
-### Step 4: Peer Feedback for [Engineer Name]
+Step 4: Peer Feedback for [Engineer Name]
 
-**Reviewer:** [Your Name]
-**Relationship:** Peer / Pair Partner / Cross-functional Partner
+Reviewer: [Your Name]
+Relationship: Peer / Pair Partner / Cross-functional Partner
 
-### Strengths
+Strengths
 What does this person do exceptionally well? Provide specific examples.
 
-### Areas for Growth
+Areas for Growth
 What could this person improve? Be specific and constructive.
 
-### Impact
+Impact
 Describe a project or contribution that had significant impact.
 
-### Additional Comments
+Additional Comments
 Anything else the manager should know?
 ```
 
-### Phase 3: Manager Review (Days 13-18)
+Phase 3: Manager Review (Days 13-18)
 
 The manager synthesizes self-assessment, peer feedback, and their own observations into a review document. This becomes the foundation for the written response.
 
-### Phase 4: Written Response (Days 19-25)
+Phase 4: Written Response (Days 19-25)
 
 Send the complete review document to the employee with a response window of 5-7 days. Ask them to:
 
@@ -149,23 +149,23 @@ Send the complete review document to the employee with a response window of 5-7 
 3. Note any clarifications or context they want to provide
 4. Identify 2-3 goals for the next period
 
-### Phase 5: Optional Synchronous Discussion (Day 26+)
+Phase 5: Optional Synchronous Discussion (Day 26+)
 
 After the async exchange is complete, offer an optional live conversation for those who want it. Some employees prefer to discuss their review in real-time, while others are satisfied with the written exchange.
 
-### Step 5: Tools That Support Async Reviews
+Step 5: Tools That Support Async Reviews
 
-### Document-Based Approach
+Document-Based Approach
 
 Use your existing tools to keep the process simple:
 
-**Notion** — Create a database template for reviews with properties for period, status, and employee. Link to individual pages for each review document.
+Notion. Create a database template for reviews with properties for period, status, and employee. Link to individual pages for each review document.
 
-**Google Docs** — Use shared documents with comment threads for the back-and-forth. The version history provides a clear audit trail.
+Google Docs. Use shared documents with comment threads for the back-and-forth. The version history provides a clear audit trail.
 
-**GitHub** — For engineering teams, store reviews as markdown files in a private repository. This keeps them alongside your code and allows structured diffs.
+GitHub. For engineering teams, store reviews as markdown files in a private repository. This keeps them alongside your code and allows structured diffs.
 
-### Automation Example
+Automation Example
 
 If you want to script parts of the process, here's a simple Python script for generating review tasks:
 
@@ -200,29 +200,29 @@ if __name__ == "__main__":
     generate_review_tasks(team, [m["email"] for m in team])
 ```
 
-## Best Practices for Remote Engineering Reviews
+Best Practices for Remote Engineering Reviews
 
-**Keep questions consistent across cycles** — This allows tracking progress over time. Changing questions makes comparison difficult.
+Keep questions consistent across cycles. This allows tracking progress over time. Changing questions makes comparison difficult.
 
-**Require specific examples** — Vague feedback like "great communication" isn't actionable. Push for concrete examples.
+Require specific examples. Vague feedback like "great communication" isn't actionable. Push for concrete examples.
 
-**Don't surprise anyone** — Regular 1-on-1 feedback should prepare employees for their review. The review itself should confirm, not introduce, concerns.
+Don't surprise anyone. Regular 1-on-1 feedback should prepare employees for their review. The review itself should confirm, not introduce, concerns.
 
-**Follow up on previous goals** — Reference the prior review period's goals and discuss progress. This creates continuity.
+Follow up on previous goals. Reference the prior review period's goals and discuss progress. This creates continuity.
 
-**Make it two-way** — The review should also cover what the company and manager could do better. Engineering teams appreciate this honesty.
+Make it two-way. The review should also cover what the company and manager could do better. Engineering teams appreciate this honesty.
 
-## Common Mistakes to Avoid
+Common Mistakes to Avoid
 
-**Making it too long** — A 50-question review form will produce shallow responses. Keep it to 10-15 focused questions.
+Making it too long. A 50-question review form will produce shallow responses. Keep it to 10-15 focused questions.
 
-**Waiting too long** — Complete reviews within 2-3 weeks of the period end. Waiting months defeats the purpose.
+Waiting too long. Complete reviews within 2-3 weeks of the period end. Waiting months defeats the purpose.
 
-**Skipping peer feedback** — Manager-only reviews miss crucial perspectives from people who work closely with the employee.
+Skipping peer feedback. Manager-only reviews miss crucial perspectives from people who work closely with the employee.
 
-**Ignoring the written response** — The employee's written response is valuable. Don't just skim it and schedule a call.
+Ignoring the written response. The employee's written response is valuable. Don't just skim it and schedule a call.
 
-### Step 6: Measuring Review Effectiveness
+Step 6: Measuring Review Effectiveness
 
 Track these signals to evaluate your async review process:
 
@@ -231,49 +231,49 @@ Track these signals to evaluate your async review process:
 - Engagement (do people find the process valuable?)
 - Retention (are high performers staying after reviews?)
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to do async performance reviews for remote engineering?**
+How long does it take to do async performance reviews for remote engineering?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Do Async Performance Reviews for Remote Engineering Teams](/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 - [How to Run Async Architecture Reviews for Distributed](/how-to-run-async-architecture-reviews-for-distributed-engine/)
 - [Best Practices for Async Pull Request Reviews on](/best-practices-for-async-pull-request-reviews-on-distributed/)
 - [Remote Work Tools: All Guides and Reviews](/guides-hub/)
 - [Async Code Review Process Without Zoom Calls Step by Step](/async-code-review-process-without-zoom-calls-step-by-step/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

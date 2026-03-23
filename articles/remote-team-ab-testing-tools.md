@@ -14,7 +14,7 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-## Best Tools for Remote Team A/B Testing
+Best Tools for Remote Team A/B Testing
 
 Remote product teams lose coordination velocity when experiments require deploys. A proper feature flagging system lets engineers ship code that's dark by default, PMs turn experiments on without engineering intervention, and data teams analyze results from a dashboard rather than a Slack thread.
 
@@ -22,7 +22,7 @@ The compounding benefit is trust. When engineers know that activating a flag doe
 
 ---
 
-## What to Look For
+What to Look For
 
 - SDK support for your stack (Node, Python, React, Go, iOS, Android)
 - Self-hosted option if you have data residency requirements
@@ -37,11 +37,11 @@ The kill switch requirement is non-negotiable for remote teams. When something g
 
 ---
 
-## Option 1: GrowthBook (Best Open Source)
+Option 1: GrowthBook (Best Open Source)
 
 GrowthBook is open source, self-hostable, and has native integration with Snowflake, BigQuery, Redshift, and Mixpanel for statistical analysis.
 
-**Self-hosted deploy:**
+Self-hosted deploy:
 
 ```yaml
 version: "3.8"
@@ -70,7 +70,7 @@ volumes:
   mongo-data:
 ```
 
-**JavaScript SDK:**
+JavaScript SDK:
 
 ```javascript
 import { GrowthBook } from "@growthbook/growthbook";
@@ -100,7 +100,7 @@ const newCheckout = gb.isOn("new-checkout-flow");
 const buttonColor = gb.getFeatureValue("cta-button-color", "blue");
 ```
 
-**Python SDK:**
+Python SDK:
 
 ```python
 from growthbook import GrowthBook
@@ -118,11 +118,11 @@ else:
     return render_template("pricing.html")
 ```
 
-**GrowthBook's statistical engine** supports both Bayesian and frequentist analysis, which is rare in open source tools. The Bayesian approach gives you probability-to-beat-control metrics that non-statistical stakeholders can actually read. This matters in remote teams where you're sharing experiment results in async Slack threads rather than walking a PM through a p-value in person.
+GrowthBook's statistical engine supports both Bayesian and frequentist analysis, which is rare in open source tools. The Bayesian approach gives you probability-to-beat-control metrics that non-statistical stakeholders can actually read. This matters in remote teams where you're sharing experiment results in async Slack threads rather than walking a PM through a p-value in person.
 
 ---
 
-## Option 2: Flagsmith
+Option 2: Flagsmith
 
 Flagsmith separates feature flags from A/B experiments, supports remote config values, and has a generous free tier.
 
@@ -132,7 +132,7 @@ curl -L https://raw.githubusercontent.com/Flagsmith/flagsmith/main/docker/docker
 docker-compose -f flagsmith-compose.yml up -d
 ```
 
-**Node.js SDK:**
+Node.js SDK:
 
 ```javascript
 const Flagsmith = require("flagsmith-nodejs");
@@ -155,11 +155,11 @@ const checkoutVersion = flags.getFeatureValue("checkout_version", "v1");
 
 Flagsmith's remote config values are particularly useful for tuning parameters without code changes. You can store things like rate limits, feature thresholds, or UI copy as remote values and update them from the dashboard. For remote teams, this eliminates a category of "can you deploy this tiny config change" requests.
 
-**Flagsmith environment promotion** lets you test flags in staging, approve them, and promote the exact configuration to production — maintaining an audit trail that satisfies compliance requirements.
+Flagsmith environment promotion lets you test flags in staging, approve them, and promote the exact configuration to production. maintaining an audit trail that satisfies compliance requirements.
 
 ---
 
-## Option 3: Unleash (Enterprise Open Source)
+Option 3: Unleash (Enterprise Open Source)
 
 Unleash's gradual rollout strategies (percentile, userId hash, IP, hostname) are the most flexible of any open source option.
 
@@ -186,7 +186,7 @@ spec:
                   key: database-url
 ```
 
-**Node.js SDK:**
+Node.js SDK:
 
 ```javascript
 const { initialize } = require("unleash-client");
@@ -205,13 +205,13 @@ if (unleash.isEnabled("new-dashboard", { userId })) {
 }
 ```
 
-**Unleash's custom strategies** are a differentiator. If you need to enable a feature only for users in the EU who are on the enterprise plan and have logged in the last 30 days, you can write a custom strategy that evaluates exactly that condition. No other open source tool offers this level of targeting composability.
+Unleash's custom strategies are a differentiator. If you need to enable a feature only for users in the EU who are on the enterprise plan and have logged in the last 30 days, you can write a custom strategy that evaluates exactly that condition. No other open source tool offers this level of targeting composability.
 
-**Scheduling rollouts** in Unleash lets you configure a flag to activate at a specific UTC timestamp — useful for remote teams launching features across timezones where you want a simultaneous global rollout without someone having to be awake at 3 AM to flip a switch.
+Scheduling rollouts in Unleash lets you configure a flag to activate at a specific UTC timestamp. useful for remote teams launching features across timezones where you want a simultaneous global rollout without someone having to be awake at 3 AM to flip a switch.
 
 ---
 
-## Option 4: LaunchDarkly (Best SaaS Option)
+Option 4: LaunchDarkly (Best SaaS Option)
 
 LaunchDarkly is the fastest to set up and has the richest targeting UI.
 
@@ -232,7 +232,7 @@ const showBeta = await ldClient.variation("beta-features", context, false);
 const pricingLayout = await ldClient.variation("pricing-page-layout", context, "control");
 ```
 
-LaunchDarkly's **Experimentation** add-on connects flag variations to metrics from your data warehouse and runs statistical significance calculations automatically. The UI is the most polished of any option here — targeting rules are drag-and-drop, and experiment results show up as readable charts rather than raw numbers.
+LaunchDarkly's Experimentation add-on connects flag variations to metrics from your data warehouse and runs statistical significance calculations automatically. The UI is the most polished of any option here. targeting rules are drag-and-drop, and experiment results show up as readable charts rather than raw numbers.
 
 For remote teams, LaunchDarkly's Slack integration is genuinely useful: you can configure it to post to a channel whenever a flag is toggled, an experiment concludes, or a rollout percentage crosses a threshold. This creates passive visibility without requiring anyone to check a dashboard.
 
@@ -240,7 +240,7 @@ The trade-off is cost. LaunchDarkly's pricing scales with monthly active users, 
 
 ---
 
-## Comparison
+Comparison
 
 | Tool | Self-Hosted | Statistics | SDK Count | Free Tier |
 |------|------------|------------|-----------|-----------|
@@ -251,12 +251,12 @@ The trade-off is cost. LaunchDarkly's pricing scales with monthly active users, 
 
 ---
 
-## Experiment Discipline for Remote Teams
+Experiment Discipline for Remote Teams
 
 Write a hypothesis before enabling a flag:
 
 ```markdown
-## Experiment: new-checkout-flow
+Experiment: new-checkout-flow
 
 Hypothesis: Simplifying checkout from 4 steps to 2 will increase
 completion rate by 15% for users on mobile.
@@ -270,22 +270,22 @@ Duration: 14 days minimum
 Owner: @product-manager
 ```
 
-The hypothesis template does more than document intent — it prevents premature experiment termination. When a PM asks to check results on day three, the template reminds everyone that the pre-registered duration is 14 days and the pre-registered sample size hasn't been reached. Without documentation, these conversations happen in Slack and institutional knowledge is lost.
+The hypothesis template does more than document intent. it prevents premature experiment termination. When a PM asks to check results on day three, the template reminds everyone that the pre-registered duration is 14 days and the pre-registered sample size hasn't been reached. Without documentation, these conversations happen in Slack and institutional knowledge is lost.
 
-**Guardrail metrics** deserve special attention. For every checkout experiment, you should be monitoring error rates and latency alongside the primary conversion metric. A remote team where engineers are spread across timezones needs automated alerts on guardrail breaches, not manual monitoring. Configure your analytics tool to page on-call if checkout_error_rate increases by more than 20% relative to control.
+Guardrail metrics deserve special attention. For every checkout experiment, you should be monitoring error rates and latency alongside the primary conversion metric. A remote team where engineers are spread across timezones needs automated alerts on guardrail breaches, not manual monitoring. Configure your analytics tool to page on-call if checkout_error_rate increases by more than 20% relative to control.
 
 Clean up old flags monthly. A flag at 100% rollout for 60 days should be removed from code.
 
 ---
 
-## Flag Hygiene Automation
+Flag Hygiene Automation
 
 Stale flags are a common debt accumulator in remote teams where there's no one physically walking the codebase. Automate detection:
 
 ```bash
 #!/bin/bash
-# Find feature flag references older than 90 days (GrowthBook example)
-# Run weekly in CI to surface candidates for cleanup
+Find feature flag references older than 90 days (GrowthBook example)
+Run weekly in CI to surface candidates for cleanup
 
 CUTOFF=$(date -d "90 days ago" +%Y-%m-%d 2>/dev/null || date -v-90d +%Y-%m-%d)
 
@@ -300,20 +300,20 @@ Pair this with a flag registry in your documentation database. Every flag gets a
 
 ---
 
-## FAQ
+FAQ
 
-**Can we run experiments without a dedicated tool?**
+Can we run experiments without a dedicated tool?
 Yes, but manual feature flag management in code (if/else blocks toggled by environment variables) breaks down at more than five simultaneous experiments. You lose targeting granularity, audit trails, and the ability for non-engineers to control rollouts.
 
-**How do we handle experiment results across timezones?**
+How do we handle experiment results across timezones?
 Write results to a shared document immediately after analysis. Use async-friendly formats: screenshots of dashboards, probability-to-beat-control percentages, and a clear "ship it / kill it / extend it" recommendation. Never make the decision live in a meeting if your team spans more than two timezones.
 
-**What's the minimum experiment duration?**
+What's the minimum experiment duration?
 Two full business cycles (typically 14 days) to account for weekday/weekend behavioral differences. Shorter experiments produce biased results because weekend user behavior often differs significantly from weekday behavior.
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Best Tools for Remote Team Sprint Velocity](/remote-team-sprint-velocity-tools/)
 - [Best Tools for Remote Team Post-Mortems](/remote-team-post-mortem-tools/)
@@ -321,5 +321,5 @@ Two full business cycles (typically 14 days) to account for weekday/weekend beha
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

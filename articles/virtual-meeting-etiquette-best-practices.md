@@ -16,7 +16,7 @@ tags: [remote-work-tools, best-of]
 
 The three highest-impact virtual meeting practices are: test your audio and video before every call, mute when not speaking, and always review the agenda beforehand. These habits alone eliminate the most common meeting friction for remote developer teams. This guide goes deeper with platform-specific shortcuts, automation scripts for meeting prep, and etiquette guidelines for screen sharing, camera use, and post-meeting follow-up.
 
-## Table of Contents
+Table of Contents
 
 - [Pre-Meeting Preparation](#pre-meeting-preparation)
 - [During the Meeting: Core Etiquette Rules](#during-the-meeting-core-etiquette-rules)
@@ -24,39 +24,39 @@ The three highest-impact virtual meeting practices are: test your audio and vide
 - [Platform-Specific Tips](#platform-specific-tips)
 - [Post-Meeting Etiquette](#post-meeting-etiquette)
 
-## Pre-Meeting Preparation
+Pre-Meeting Preparation
 
 The foundation of meeting etiquette begins before the meeting starts. Taking a few minutes to prepare significantly improves meeting quality for everyone involved.
 
-### Test Your Setup Before Joining
+Test Your Setup Before Joining
 
 Technical failures during meetings waste everyone's time. Create a quick verification script to check your audio and video before every important call:
 
 ```bash
 #!/bin/bash
-# Quick meeting readiness check
+Quick meeting readiness check
 echo "=== Meeting Setup Check ==="
 
-# Test microphone
+Test microphone
 echo "Testing microphone..."
-arecord -d 1 -q /dev/null && echo "✓ Microphone working" || echo "✗ Microphone issues"
+arecord -d 1 -q /dev/null && echo " Microphone working" || echo " Microphone issues"
 
-# Test speakers
+Test speakers
 echo "Testing speakers..."
-speaker-test -t sine -f 440 -l 1 -q 2>/dev/null && echo "✓ Speakers working" || echo "✗ Speaker issues"
+speaker-test -t sine -f 440 -l 1 -q 2>/dev/null && echo " Speakers working" || echo " Speaker issues"
 
-# Check camera
+Check camera
 echo "Checking camera..."
-v4l2-ctl --list-devices 2>/dev/null | grep -q "Video" && echo "✓ Camera detected" || echo "✗ No camera found"
+v4l2-ctl --list-devices 2>/dev/null | grep -q "Video" && echo " Camera detected" || echo " No camera found"
 
-# Network latency check
+Network latency check
 ping -c 3 $(echo $(ip route | grep default | awk '{print $3}') | head -c -1) 2>/dev/null
 echo "Network check complete"
 ```
 
 On macOS, use the system audio settings to verify input and output devices. On Windows, the Sound settings provide a similar verification interface. Spending 30 seconds on this check prevents the awkward "can you hear me now?" exchanges that plague many meetings.
 
-### Review the Agenda and Relevant Materials
+Review the Agenda and Relevant Materials
 
 When you're invited to a meeting with an agenda, actually read it. If no agenda exists, that itself is a red flag. For developer-focused meetings, this means:
 
@@ -67,9 +67,9 @@ When you're invited to a meeting with an agenda, actually read it. If no agenda 
 
 This preparation shows respect for everyone's time and enables more productive discussions.
 
-## During the Meeting: Core Etiquette Rules
+During the Meeting: Core Etiquette Rules
 
-### Camera Etiquette
+Camera Etiquette
 
 Camera presence significantly impacts meeting dynamics. The general rule: keep your camera on for meetings with fewer than eight participants. For larger meetings, camera is optional but encouraged when speaking.
 
@@ -77,18 +77,18 @@ When your camera is on:
 
 - Position your face so lighting comes from in front (not behind you)
 - Center your face in the frame with some headroom
-- Avoid distracting backgrounds—clean rooms or simple blur effects work best
+- Avoid distracting backgrounds, clean rooms or simple blur effects work best
 - Look at the camera when speaking, not at the screen
 
 ```bash
-# Simple OBS virtual camera setup for Linux
-# This creates a filtered virtual camera for consistent appearance
+Simple OBS virtual camera setup for Linux
+This creates a filtered virtual camera for consistent appearance
 obs --startrecording --scene "Presentation" --filter "color correction: brightness=1.1"
 ```
 
-### Audio Best Practices
+Audio Best Practices
 
-Mute when not speaking. This seems obvious, but many meetings suffer from background noise, keyboard typing, or echo from unmuted participants. Most platforms show clear mute indicators—use them:
+Mute when not speaking. This seems obvious, but many meetings suffer from background noise, keyboard typing, or echo from unmuted participants. Most platforms show clear mute indicators, use them:
 
 - Zoom: ⌘+D (Mac) or Alt+M (Windows)
 - Google Meet: ⌘+D (Mac) or Ctrl+D (Windows)
@@ -96,13 +96,13 @@ Mute when not speaking. This seems obvious, but many meetings suffer from backgr
 
 When speaking, slightly lean toward your microphone for clarity. If using a headset with a boom microphone, position it two finger-widths from your mouth.
 
-### Screen Sharing with Purpose
+Screen Sharing with Purpose
 
 When screen sharing, close unnecessary applications and disable notifications. For developer meetings, this includes:
 
 ```bash
-# macOS: Disable notifications before screen share
-# Run this in Terminal
+macOS: Disable notifications before screen share
+Run this in Terminal
 osascript -e 'tell application "System Events" to set do not disturb to true'
 ```
 
@@ -115,25 +115,25 @@ When presenting code:
 - Use a dark theme if the room is dimmed
 - Use built-in zoom features rather than scaling the entire screen
 
-### Meeting Participation for Developers
+Meeting Participation for Developers
 
 Active participation improves meeting outcomes. Use these strategies:
 
 - Use the raised hand feature in larger meetings to signal you want to speak
 - Use chat for code links instead of reading URLs aloud
-- Confirm action items before the meeting ends—repeat back what you're responsible for
-- Take visible notes—screen sharing your note-taking shows engagement
+- Confirm action items before the meeting ends, repeat back what you're responsible for
+- Take visible notes, screen sharing your note-taking shows engagement
 
-## Automation for Meeting Efficiency
+Automation for Meeting Efficiency
 
 Developers can automate many meeting-related tasks to improve consistency and save time.
 
-### Calendar Integration
+Calendar Integration
 
 Set up automated meeting reminders that include prep tasks:
 
 ```python
-# Example: Calendar event prep checklist generator
+Calendar event prep checklist generator
 def generate_prep_checklist(meeting_title, has_code_review=False, has_demo=False):
     checklist = [
         f"Review agenda for: {meeting_title}",
@@ -158,31 +158,31 @@ def generate_prep_checklist(meeting_title, has_code_review=False, has_demo=False
     return checklist
 ```
 
-### Automated Status Updates
+Automated Status Updates
 
 For recurring meetings, use status scripts that prepare your environment:
 
 ```bash
 #!/bin/bash
-# Meeting mode: optimize system for video call
-# Add to your path and run before meetings
+Meeting mode: optimize system for video call
+Add to your path and run before meetings
 
-# Close resource-heavy applications
+Close resource-heavy applications
 pkill -f "chrome" 2>/dev/null || true
 pkill -f "slack" 2>/dev/null || true
 
-# Set do not disturb
+Set do not disturb
 defaults write com.apple.notificationcenterui doNotDisturb -boolean true
 
-# Optimize audio
+Optimize audio
 sudo sysctl -w net.inet.tcp.delayed_ack=0 2>/dev/null || true
 
 echo "Meeting mode activated"
 ```
 
-## Platform-Specific Tips
+Platform-Specific Tips
 
-### Zoom
+Zoom
 
 Zoom remains the most feature-rich option for developer meetings. Key shortcuts to memorize:
 
@@ -193,7 +193,7 @@ Zoom remains the most feature-rich option for developer meetings. Key shortcuts 
 
 Enable "HD" and "Touch up my appearance" in settings for better video quality.
 
-### Google Meet
+Google Meet
 
 Google Meet integrates tightly with Google Workspace. For developers:
 
@@ -201,7 +201,7 @@ Google Meet integrates tightly with Google Workspace. For developers:
 - Pin specific participants when reviewing code together
 - Use the hand raise function for clearer turn-taking
 
-### Microsoft Teams
+Microsoft Teams
 
 Teams excels at meetings within the Microsoft ecosystem:
 
@@ -209,12 +209,12 @@ Teams excels at meetings within the Microsoft ecosystem:
 - Use the whiteboard feature for architectural discussions
 - Use Together mode for better meeting engagement
 
-### Jitsi and Self-Hosted Options
+Jitsi and Self-Hosted Options
 
 For privacy-conscious teams, Jitsi provides a capable free alternative:
 
 ```yaml
-# docker-compose.yml for self-hosted Jitsi
+docker-compose.yml for self-hosted Jitsi
 services:
   jitsi:
     image: jitsi/web
@@ -228,42 +228,42 @@ services:
 
 Self-hosting gives you control over recording, encryption, and data retention policies.
 
-## Post-Meeting Etiquette
+Post-Meeting Etiquette
 
 Meeting etiquette extends beyond the call itself:
 
 - Send meeting notes within 24 hours if you're responsible
 - Update action items in your project management tool immediately
 - Share relevant recordings with timestamps for absent team members
-- Clean up shared resources—close shared documents, end shared cursor sessions
+- Clean up shared resources, close shared documents, end shared cursor sessions
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Are free AI tools good enough for practices: a developer guide?**
+Are free AI tools good enough for practices: a developer guide?
 
 Free tiers work for basic tasks and evaluation, but paid plans typically offer higher rate limits, better models, and features needed for professional work. Start with free options to find what works for your workflow, then upgrade when you hit limitations.
 
-**How do I evaluate which tool fits my workflow?**
+How do I evaluate which tool fits my workflow?
 
 Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
-**Do these tools work offline?**
+Do these tools work offline?
 
 Most AI-powered tools require an internet connection since they run models on remote servers. A few offer local model options with reduced capability. If offline access matters to you, check each tool's documentation for local or self-hosted options.
 
-**Can I use these tools with a distributed team across time zones?**
+Can I use these tools with a distributed team across time zones?
 
 Most modern tools support asynchronous workflows that work well across time zones. Look for features like async messaging, recorded updates, and timezone-aware scheduling. The best choice depends on your team's specific communication patterns and size.
 
-**Should I switch tools if something better comes out?**
+Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific pain point you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
-## Related Articles
+Related Articles
 
 - [Best Practice for Remote Team Meeting Structure That Scales](/best-practice-for-remote-team-meeting-structure-that-scales-/)
 - [Best Tool for Tracking Remote Team Meeting Effectiveness](/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
 - [How to Create Remote Team Inclusive Meeting Practices Guide](/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
 - [Meeting Schedule Template for a 30 Person Remote Product Org](/meeting-schedule-template-for-a-30-person-remote-product-org/)
 - [Best Practice for Remote Team Meeting Hygiene When Calendar](/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

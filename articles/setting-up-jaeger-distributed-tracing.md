@@ -17,7 +17,7 @@ tags: [remote-work-tools]
 
 Distributed tracing shows you where time goes across service boundaries. Jaeger collects OpenTelemetry spans and lets your team trace a request from API gateway through microservices to database. This guide deploys Jaeger all-in-one for development and a production-ready setup with Elasticsearch for persistence.
 
-## Table of Contents
+Table of Contents
 
 - [Development: Jaeger All-in-One](#development-jaeger-all-in-one)
 - [Production: Docker Compose with Elasticsearch](#production-docker-compose-with-elasticsearch)
@@ -33,10 +33,10 @@ Distributed tracing shows you where time goes across service boundaries. Jaeger 
 - [Alerting on Trace Anomalies](#alerting-on-trace-anomalies)
 - [Correlating Traces with Logs](#correlating-traces-with-logs)
 
-## Development: Jaeger All-in-One
+Development: Jaeger All-in-One
 
 ```bash
-# Quick start for development — all components in one container
+Quick start for development. all components in one container
 docker run -d \
   --name jaeger \
   -e COLLECTOR_OTLP_ENABLED=true \
@@ -53,14 +53,14 @@ docker run -d \
   --restart unless-stopped \
   jaegertracing/all-in-one:1.55
 
-# Open Jaeger UI
+Open Jaeger UI
 open http://localhost:16686
 ```
 
-## Production: Docker Compose with Elasticsearch
+Production: Docker Compose with Elasticsearch
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 
 services:
@@ -126,11 +126,11 @@ volumes:
 
 ```bash
 docker compose up -d
-# Wait for Elasticsearch to start (~30 seconds)
+Wait for Elasticsearch to start (~30 seconds)
 docker compose logs -f jaeger-collector
 ```
 
-## Instrumenting a Python Service
+Instrumenting a Python Service
 
 ```bash
 pip install opentelemetry-api opentelemetry-sdk \
@@ -141,7 +141,7 @@ pip install opentelemetry-api opentelemetry-sdk \
 ```
 
 ```python
-# tracing.py
+tracing.py
 from opentelemetry import trace
 from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
@@ -173,7 +173,7 @@ def configure_tracing(service_name: str, otlp_endpoint: str = "http://jaeger-col
 ```
 
 ```python
-# main.py
+main.py
 from fastapi import FastAPI
 from tracing import configure_tracing
 import httpx
@@ -195,7 +195,7 @@ async def get_order(order_id: str):
         return {"order_id": order_id, "user": user.json()}
 ```
 
-## Instrumenting a Node.js Service
+Instrumenting a Node.js Service
 
 ```bash
 npm install @opentelemetry/sdk-node \
@@ -240,10 +240,10 @@ process.on('SIGTERM', () => sdk.shutdown());
 }
 ```
 
-## Manual Span Creation
+Manual Span Creation
 
 ```python
-# Python: add custom spans for business logic
+Python: add custom spans for business logic
 from opentelemetry import trace
 
 tracer = trace.get_tracer(__name__)
@@ -266,28 +266,28 @@ def process_payment(payment_id: str, amount: float):
             raise
 ```
 
-## Jaeger Query API for Automation
+Jaeger Query API for Automation
 
 ```bash
-# Find traces with errors
+Find traces with errors
 curl "http://localhost:16686/api/traces?service=order-service&tags=%7B%22error%22%3A%22true%22%7D&limit=20"
 
-# Get trace by ID
+Get trace by ID
 curl "http://localhost:16686/api/traces/abcdef1234567890"
 
-# List all services
+List all services
 curl "http://localhost:16686/api/services"
 
-# Search slow traces (>1 second)
+Search slow traces (>1 second)
 curl "http://localhost:16686/api/traces?service=order-service&minDuration=1000ms&limit=50"
 ```
 
-## Grafana Integration
+Grafana Integration
 
 Add Jaeger as a Grafana data source:
 
 ```yaml
-# grafana/provisioning/datasources/jaeger.yml
+grafana/provisioning/datasources/jaeger.yml
 apiVersion: 1
 
 datasources:
@@ -315,7 +315,7 @@ Data Source: Jaeger
 Query: { service="order-service" }
 ```
 
-## Trace Sampling Configuration
+Trace Sampling Configuration
 
 For high-traffic production services, sample selectively:
 
@@ -327,7 +327,7 @@ from opentelemetry.sdk.trace.sampling import (
     ALWAYS_OFF,
 )
 
-# Sample 10% of traces in production
+Sample 10% of traces in production
 sampler = ParentBased(
     root=TraceIdRatioBased(0.1),
     remote_parent_sampled=ALWAYS_ON,    # Always sample if parent was sampled
@@ -337,12 +337,12 @@ sampler = ParentBased(
 provider = TracerProvider(resource=resource, sampler=sampler)
 ```
 
-## Trace Retention and Index Lifecycle Management
+Trace Retention and Index Lifecycle Management
 
 Jaeger with Elasticsearch accumulates data quickly. A busy service generating 1,000 traces per minute fills tens of gigabytes per day. Configure an ILM policy in Elasticsearch to roll over and delete old trace indices automatically:
 
 ```bash
-# Create ILM policy for Jaeger span indices
+Create ILM policy for Jaeger span indices
 curl -X PUT "http://localhost:9200/_ilm/policy/jaeger-span-policy" \
   -H 'Content-Type: application/json' \
   -d '{
@@ -374,12 +374,12 @@ curl -X PUT "http://localhost:9200/_ilm/policy/jaeger-span-policy" \
   }'
 ```
 
-This keeps 14 days of traces and aggressively merges warm shards after 3 days to reduce heap pressure. Adjust `min_age` under `delete` based on your incident response SLA — most teams find 7-30 days sufficient.
+This keeps 14 days of traces and aggressively merges warm shards after 3 days to reduce heap pressure. Adjust `min_age` under `delete` based on your incident response SLA. most teams find 7-30 days sufficient.
 
 Jaeger also ships a `jaeger-es-index-cleaner` utility for simpler retention without ILM:
 
 ```bash
-# Delete indices older than 14 days
+Delete indices older than 14 days
 docker run --rm \
   -e ROLLOVER=true \
   jaegertracing/jaeger-es-index-cleaner:1.55 \
@@ -388,12 +388,12 @@ docker run --rm \
 
 Schedule this as a cron job or a daily Docker Compose service to keep storage bounded without configuring full ILM.
 
-## Adding Context Propagation Across Queues
+Adding Context Propagation Across Queues
 
 Auto-instrumentation handles HTTP calls automatically, but message queues require explicit context propagation. Here is a pattern for RabbitMQ using the W3C TraceContext format:
 
 ```python
-# Producer: inject trace context into message headers
+Producer: inject trace context into message headers
 from opentelemetry import trace, propagate
 from opentelemetry.trace.propagation.tracecontext import TraceContextTextMapPropagator
 
@@ -417,7 +417,7 @@ def publish_order_event(channel, order_id: str, payload: dict):
 ```
 
 ```python
-# Consumer: extract trace context from message headers
+Consumer: extract trace context from message headers
 def process_message(channel, method, properties, body):
     tracer = trace.get_tracer(__name__)
     ctx = propagate.extract(properties.headers or {})
@@ -432,23 +432,23 @@ def process_message(channel, method, properties, body):
         handle_order(order)
 ```
 
-This ensures that a trace from the HTTP request that triggered the publish appears connected to the consumer span in Jaeger — giving you end-to-end visibility across the queue boundary.
+This ensures that a trace from the HTTP request that triggered the publish appears connected to the consumer span in Jaeger. giving you end-to-end visibility across the queue boundary.
 
-## Kubernetes Deployment with Jaeger Operator
+Kubernetes Deployment with Jaeger Operator
 
 For Kubernetes environments, the Jaeger Operator simplifies lifecycle management:
 
 ```bash
-# Install cert-manager (prerequisite)
+Install cert-manager (prerequisite)
 kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.13.0/cert-manager.yaml
 
-# Install Jaeger Operator
+Install Jaeger Operator
 kubectl create namespace observability
 kubectl apply -n observability -f https://github.com/jaegertracing/jaeger-operator/releases/download/v1.55.0/jaeger-operator.yaml
 ```
 
 ```yaml
-# jaeger-production.yaml
+jaeger-production.yaml
 apiVersion: jaegertracing.io/v1
 kind: Jaeger
 metadata:
@@ -482,13 +482,13 @@ spec:
 
 The operator manages rolling updates and handles schema migration for Elasticsearch indices automatically, which is a significant operational advantage over managing the collector and query components separately.
 
-## Alerting on Trace Anomalies
+Alerting on Trace Anomalies
 
 Jaeger itself does not ship alerting, but you can build lightweight trace-based alerts by querying the Jaeger HTTP API from a scheduled script and routing results to PagerDuty or Slack. A practical pattern for remote teams:
 
 ```python
 #!/usr/bin/env python3
-# scripts/jaeger-alert.py — run every 5 minutes via cron
+scripts/jaeger-alert.py. run every 5 minutes via cron
 import requests, json, os, sys
 from datetime import datetime, timedelta
 
@@ -529,14 +529,14 @@ print("No anomalies detected.")
 
 Add this to a cron job on your monitoring host or run it as a Kubernetes CronJob. It keeps alerting logic simple and avoids the complexity of a full APM platform for teams that only need error rate signals from traces.
 
-## Correlating Traces with Logs
+Correlating Traces with Logs
 
 The highest-value Jaeger integration for most teams is log correlation: clicking a span in Jaeger and jumping directly to the logs that span generated, without copying trace IDs manually. This requires two things: your services must include the trace ID in log output, and Grafana must link the Jaeger trace ID to Loki.
 
 Inject the trace ID into structured logs automatically using the OpenTelemetry logging bridge:
 
 ```python
-# logging_config.py
+logging_config.py
 import logging
 from opentelemetry._logs import set_logger_provider
 from opentelemetry.sdk._logs import LoggerProvider, LoggingHandler
@@ -560,13 +560,13 @@ With this in place, every `logger.info(...)` call automatically includes `trace_
 
 ---
 
-## Related Articles
+Related Articles
 
 - [GitHub Pull Request Workflow for Distributed Teams](/github-pull-request-workflow-for-distributed-teams/)
 - [Setting Up Consul for Service Discovery](/setting-up-consul-for-service-discovery/)
 - [Best Time Zone Management Tools for Distributed Engineering](/best-time-zone-management-tools-for-distributed-engineering-teams-2026/)
 - [Best API Key Management Workflow for Remote Development](/best-api-key-management-workflow-for-remote-development-team/)
 - [Remote Legal Research Tool Comparison for Distributed Law](/remote-legal-research-tool-comparison-for-distributed-law-fi/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

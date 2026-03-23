@@ -17,7 +17,7 @@ tags: [remote-work-tools]
 
 Harbor is an open-source container registry that goes beyond basic storage: built-in Trivy image scanning, replication to cloud registries, robot accounts for CI, LDAP/OIDC auth, and a web UI. Remote teams get one registry their entire pipeline can trust, with audit logs showing who pushed what.
 
-## Table of Contents
+Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -37,26 +37,26 @@ Harbor is an open-source container registry that goes beyond basic storage: buil
 - [Monitoring Harbor Health](#monitoring-harbor-health)
 - [Related Reading](#related-reading)
 
-## Prerequisites
+Prerequisites
 
 - Docker and Docker Compose installed
 - Domain with HTTPS cert (or use Harbor's built-in cert generation)
 - 4 vCPU, 8GB RAM, 40GB+ disk
 
-## Installation
+Installation
 
 ```bash
-# Download Harbor installer
+Download Harbor installer
 HARBOR_VERSION="v2.10.0"
 wget "https://github.com/goharbor/harbor/releases/download/${HARBOR_VERSION}/harbor-online-installer-${HARBOR_VERSION}.tgz"
 tar xzvf "harbor-online-installer-${HARBOR_VERSION}.tgz"
 cd harbor
 ```
 
-## Configuration
+Configuration
 
 ```yaml
-# harbor.yml
+harbor.yml
 hostname: registry.example.com
 
 https:
@@ -99,14 +99,14 @@ _version: 2.10.0
 ```
 
 ```bash
-# Install
+Install
 sudo ./install.sh --with-trivy
 
-# Check status
+Check status
 docker compose -f /path/to/harbor/docker-compose.yml ps
 ```
 
-## Nginx Frontend (if using existing nginx)
+Nginx Frontend (if using existing nginx)
 
 ```nginx
 server {
@@ -131,7 +131,7 @@ server {
 }
 ```
 
-## OIDC Authentication (Keycloak)
+OIDC Authentication (Keycloak)
 
 ```
 Harbor Admin UI > Administration > Configuration > Authentication
@@ -148,10 +148,10 @@ Harbor Admin UI > Administration > Configuration > Authentication
   Username Claim: preferred_username
 ```
 
-## Project Structure
+Project Structure
 
 ```bash
-# Create projects via Harbor CLI (harbor-cli) or API
+Create projects via Harbor CLI (harbor-cli) or API
 curl -X POST "https://registry.example.com/api/v2.0/projects" \
   -H "Content-Type: application/json" \
   -u "admin:your-admin-password" \
@@ -166,7 +166,7 @@ curl -X POST "https://registry.example.com/api/v2.0/projects" \
     }
   }'
 
-# Create projects for each environment
+Create projects for each environment
 for project in production staging development shared-libs; do
   curl -X POST "https://registry.example.com/api/v2.0/projects" \
     -H "Content-Type: application/json" \
@@ -175,10 +175,10 @@ for project in production staging development shared-libs; do
 done
 ```
 
-## Robot Accounts for CI/CD
+Robot Accounts for CI/CD
 
 ```bash
-# Create robot account for CI pipeline (project-scoped)
+Create robot account for CI pipeline (project-scoped)
 curl -X POST "https://registry.example.com/api/v2.0/projects/production/robots" \
   -H "Content-Type: application/json" \
   -u "admin:your-admin-password" \
@@ -192,12 +192,12 @@ curl -X POST "https://registry.example.com/api/v2.0/projects/production/robots" 
       {"resource": "artifact", "action": "delete"}
     ]
   }'
-# Save the returned token — it only appears once!
+Save the returned token. it only appears once!
 ```
 
 ```yaml
-# GitHub Actions using robot account
-# .github/workflows/build.yml
+GitHub Actions using robot account
+.github/workflows/build.yml
 - name: Login to Harbor
   uses: docker/login-action@v3
   with:
@@ -212,10 +212,10 @@ curl -X POST "https://registry.example.com/api/v2.0/projects/production/robots" 
     tags: registry.example.com/production/my-app:${{ github.sha }}
 ```
 
-## Image Scanning Policies
+Image Scanning Policies
 
 ```bash
-# Enable auto-scan on push for a project
+Enable auto-scan on push for a project
 curl -X PUT "https://registry.example.com/api/v2.0/projects/production" \
   -H "Content-Type: application/json" \
   -u "admin:your-admin-password" \
@@ -227,19 +227,19 @@ curl -X PUT "https://registry.example.com/api/v2.0/projects/production" \
     }
   }'
 
-# Trigger manual scan
+Trigger manual scan
 curl -X POST "https://registry.example.com/api/v2.0/projects/production/repositories/my-app/artifacts/sha256:abc123/scan" \
   -u "admin:your-admin-password"
 
-# Get scan results
+Get scan results
 curl -s "https://registry.example.com/api/v2.0/projects/production/repositories/my-app/artifacts/sha256:abc123/additions/vulnerabilities" \
   -u "admin:your-admin-password" | jq '.[] | {severity, description: .vulnerabilities[].description}' | head -20
 ```
 
-## Replication to AWS ECR
+Replication to AWS ECR
 
 ```bash
-# Add AWS ECR endpoint as replication target
+Add AWS ECR endpoint as replication target
 curl -X POST "https://registry.example.com/api/v2.0/registries" \
   -H "Content-Type: application/json" \
   -u "admin:your-admin-password" \
@@ -252,7 +252,7 @@ curl -X POST "https://registry.example.com/api/v2.0/registries" \
     "insecure": false
   }'
 
-# Create replication rule: push production to ECR on push
+Create replication rule: push production to ECR on push
 curl -X POST "https://registry.example.com/api/v2.0/replication/policies" \
   -H "Content-Type: application/json" \
   -u "admin:your-admin-password" \
@@ -262,7 +262,7 @@ curl -X POST "https://registry.example.com/api/v2.0/replication/policies" \
     "dest_registry": {"id": 1},
     "dest_namespace": "production",
     "filters": [
-      {"type": "name", "value": "production/**"},
+      {"type": "name", "value": "production/"},
       {"type": "tag", "value": "v*"}
     ],
     "trigger": {"type": "event_based", "trigger_settings": {"event_types": ["PUSH"]}},
@@ -270,32 +270,32 @@ curl -X POST "https://registry.example.com/api/v2.0/replication/policies" \
   }'
 ```
 
-## Daily Garbage Collection
+Daily Garbage Collection
 
 ```bash
-# Schedule GC via Harbor admin UI:
-# Administration > Garbage Collection > GC Settings
-# Schedule: Daily at 02:00 UTC
+Schedule GC via Harbor admin UI:
+Administration > Garbage Collection > GC Settings
+Schedule: Daily at 02:00 UTC
 
-# Or trigger manually
+Or trigger manually
 curl -X POST "https://registry.example.com/api/v2.0/system/gc/schedule" \
   -H "Content-Type: application/json" \
   -u "admin:your-admin-password" \
   -d '{"schedule": {"type": "Manual"}}'
 ```
 
-## Pull Images
+Pull Images
 
 ```bash
-# Login
+Login
 docker login registry.example.com
-# Username: alice (or robot account)
-# Password: your-password or token
+Username: alice (or robot account)
+Password: your-password or token
 
-# Pull
+Pull
 docker pull registry.example.com/production/my-app:v1.2.3
 
-# Kubernetes: create imagePullSecret
+Kubernetes: create imagePullSecret
 kubectl create secret docker-registry harbor-secret \
   --docker-server=registry.example.com \
   --docker-username=robot$ci-robot \
@@ -303,12 +303,12 @@ kubectl create secret docker-registry harbor-secret \
   --namespace=production
 ```
 
-## Tag Retention Policies
+Tag Retention Policies
 
 Unmanaged registries accumulate thousands of untagged image layers and stale feature-branch tags. Harbor's retention policies let you declaratively control what stays and what gets pruned.
 
 ```bash
-# Create retention policy via API
+Create retention policy via API
 curl -X POST "https://registry.example.com/api/v2.0/retentions" \
   -H "Content-Type: application/json" \
   -u "admin:your-admin-password" \
@@ -322,7 +322,7 @@ curl -X POST "https://registry.example.com/api/v2.0/retentions" \
         "template": "latestPushedK",
         "params": {"latestPushedK": 10},
         "tag_selectors": [{"kind": "doublestar", "decoration": "matches", "pattern": "v*"}],
-        "scope_selectors": {"repository": [{"kind": "doublestar", "decoration": "repoMatches", "pattern": "**"}]}
+        "scope_selectors": {"repository": [{"kind": "doublestar", "decoration": "repoMatches", "pattern": ""}]}
       },
       {
         "priority": 2,
@@ -331,7 +331,7 @@ curl -X POST "https://registry.example.com/api/v2.0/retentions" \
         "template": "nDaysSinceLastPush",
         "params": {"nDaysSinceLastPush": 7},
         "tag_selectors": [{"kind": "doublestar", "decoration": "matches", "pattern": "main-*"}],
-        "scope_selectors": {"repository": [{"kind": "doublestar", "decoration": "repoMatches", "pattern": "**"}]}
+        "scope_selectors": {"repository": [{"kind": "doublestar", "decoration": "repoMatches", "pattern": ""}]}
       }
     ],
     "scope": {"level": "project", "ref": 1},
@@ -342,14 +342,14 @@ curl -X POST "https://registry.example.com/api/v2.0/retentions" \
   }'
 ```
 
-This policy retains the 10 most recently pushed version-tagged images indefinitely and keeps `main-*` tags for 7 days. Everything else is eligible for garbage collection during the nightly GC run. Run GC after the retention job to actually reclaim disk space — retention only unlinks tags; GC deletes the blobs.
+This policy retains the 10 most recently pushed version-tagged images indefinitely and keeps `main-*` tags for 7 days. Everything else is eligible for garbage collection during the nightly GC run. Run GC after the retention job to actually reclaim disk space. retention only unlinks tags; GC deletes the blobs.
 
-## Webhook Notifications for Scan Results
+Webhook Notifications for Scan Results
 
 Harbor can fire webhooks on push, scan completion, and policy violations, making it straightforward to integrate with Slack or PagerDuty for security alerting:
 
 ```bash
-# Create webhook for Slack notification on scan completion
+Create webhook for Slack notification on scan completion
 curl -X POST "https://registry.example.com/api/v2.0/projects/production/webhook/policies" \
   -H "Content-Type: application/json" \
   -u "admin:your-admin-password" \
@@ -371,55 +371,55 @@ curl -X POST "https://registry.example.com/api/v2.0/projects/production/webhook/
 
 The webhook payload includes the image name, tag, digest, scan status, and a URL to the vulnerability report in Harbor's UI. A lightweight AWS Lambda or Cloud Function can parse this payload and send a formatted Slack message with only the critical and high findings, avoiding notification fatigue from informational-level CVEs.
 
-## Backup Strategy
+Backup Strategy
 
 Harbor's data lives in three places: the PostgreSQL database (project metadata, users, policies, replication rules), the Redis cache (session state, job queues), and the image blob storage under `data_volume`. A complete backup covers all three:
 
 ```bash
 #!/bin/bash
-# scripts/backup-harbor.sh
+scripts/backup-harbor.sh
 set -e
 DATE=$(date +%Y%m%d_%H%M%S)
 HARBOR_DIR="/opt/harbor"
 BACKUP_DIR="/backups/harbor/${DATE}"
 mkdir -p "$BACKUP_DIR"
 
-# Stop Harbor gracefully (optional — for consistency)
-# docker compose -f "${HARBOR_DIR}/docker-compose.yml" stop
+Stop Harbor gracefully (optional. for consistency)
+docker compose -f "${HARBOR_DIR}/docker-compose.yml" stop
 
-# Dump PostgreSQL
+Dump PostgreSQL
 docker exec harbor-db pg_dumpall -U postgres > "${BACKUP_DIR}/harbor-db.sql"
 
-# Copy blob storage
+Copy blob storage
 rsync -a /data/harbor/registry/ "${BACKUP_DIR}/registry/"
 
-# Copy config
+Copy config
 cp "${HARBOR_DIR}/harbor.yml" "${BACKUP_DIR}/harbor.yml"
 
-# Compress and ship
+Compress and ship
 tar czf "/backups/harbor-${DATE}.tar.gz" -C "/backups/harbor" "${DATE}"
 rm -rf "$BACKUP_DIR"
 
-# Upload to S3
+Upload to S3
 aws s3 cp "/backups/harbor-${DATE}.tar.gz" "s3://your-backup-bucket/harbor/"
 echo "Harbor backup complete: harbor-${DATE}.tar.gz"
 ```
 
-Restore by extracting the archive, restoring the database dump with `psql`, syncing the registry blobs back to `data_volume`, and restarting Harbor. Test restores quarterly — a backup you have never restored is a backup you cannot trust.
+Restore by extracting the archive, restoring the database dump with `psql`, syncing the registry blobs back to `data_volume`, and restarting Harbor. Test restores quarterly. a backup you have never restored is a backup you cannot trust.
 
-## Enforcing Content Trust with Cosign
+Enforcing Content Trust with Cosign
 
 Harbor supports Cosign signatures for supply chain security. After signing images with your CI pipeline's private key, Harbor can be configured to block pulls of unsigned images from the production project.
 
 First, generate a cosign key pair and store the private key as a CI secret:
 
 ```bash
-# Generate key pair
+Generate key pair
 cosign generate-key-pair
 
-# Keys are written to cosign.key (private) and cosign.pub (public)
-# Add cosign.key as a CI/CD secret: COSIGN_PRIVATE_KEY
-# Commit cosign.pub to your repo for verification
+Keys are written to cosign.key (private) and cosign.pub (public)
+Add cosign.key as a CI/CD secret: COSIGN_PRIVATE_KEY
+Commit cosign.pub to your repo for verification
 ```
 
 In your GitHub Actions build workflow, sign after push:
@@ -452,20 +452,20 @@ curl -X PUT "https://registry.example.com/api/v2.0/projects/production" \
 
 With this enabled, Harbor blocks any `docker pull` or Kubernetes pull against the production project if the image digest has no valid Cosign signature. This is the most practical supply chain control available without a full Sigstore infrastructure.
 
-## Monitoring Harbor Health
+Monitoring Harbor Health
 
 Harbor exposes a `/api/v2.0/health` endpoint that returns the status of each internal component (database, registry, jobservice, Redis, Trivy). Scrape it from your monitoring stack:
 
 ```bash
-# Check health
+Check health
 curl -s "https://registry.example.com/api/v2.0/health" | jq '.components[] | select(.status != "healthy")'
 
-# Prometheus scrape config for Harbor metrics
-# Harbor exposes metrics at /metrics on the admin port (9090 by default)
+Prometheus scrape config for Harbor metrics
+Harbor exposes metrics at /metrics on the admin port (9090 by default)
 ```
 
 ```yaml
-# prometheus.yml scrape job
+prometheus.yml scrape job
 scrape_configs:
   - job_name: harbor
     static_configs:
@@ -487,7 +487,7 @@ metric:
 
 Key metrics to alert on: `harbor_project_artifact_total` (artifact count growth), `harbor_jobservice_job_total` with status `Error` (replication or scan job failures), and `harbor_registry_request_duration_seconds` for pull latency. A Grafana dashboard built on these three signals covers the most common operational failure modes without requiring deep Harbor expertise.
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Kubernetes Dev Cluster Remotely](/how-to-set-up-kubernetes-dev-cluster-remotely/)
 - [Best Container Registry Tool for Remote Teams](/best-container-registry-tool-for-remote-teams-sharing-docker/)
@@ -496,13 +496,13 @@ Key metrics to alert on: `harbor_project_artifact_total` (artifact count growth)
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Best Container Registry Tool for Remote Teams Sharing](/best-container-registry-tool-for-remote-teams-sharing-docker/)
 - [Setting Up Keycloak for Team SSO](/setting-up-keycloak-for-team-sso/)
 - [How to Set Up Verdaccio Private npm Registry](/how-to-set-up-verdaccio-private-npm-registry/)
 - [Setting Up Grafana Dashboards for Remote Teams](/setting-up-grafana-dashboards-for-remote-teams/)
 - [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

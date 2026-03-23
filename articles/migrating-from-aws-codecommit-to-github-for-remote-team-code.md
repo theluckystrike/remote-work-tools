@@ -18,7 +18,7 @@ voice-checked: true
 
 Remote teams increasingly need collaboration features that AWS CodeCommit cannot fully provide. While CodeCommit served many organizations well, GitHub's pull request workflows, Actions automation, and ecosystem integrations make it a stronger choice for distributed development teams. This guide walks through the migration process with practical commands and configuration examples you can apply immediately.
 
-## Table of Contents
+Table of Contents
 
 - [Why Remote Teams Choose GitHub Over CodeCommit](#why-remote-teams-choose-github-over-codecommit)
 - [Pre-Migration Preparation](#pre-migration-preparation)
@@ -28,7 +28,7 @@ Remote teams increasingly need collaboration features that AWS CodeCommit cannot
 - [Preserving Code Review History](#preserving-code-review-history)
 - [Post-Migration Checklist](#post-migration-checklist)
 
-## Why Remote Teams Choose GitHub Over CodeCommit
+Why Remote Teams Choose GitHub Over CodeCommit
 
 CodeCommit offers secure Git hosting within AWS, but remote teams often encounter friction with its limited collaboration features. GitHub provides code review tools, project management boards, and a marketplace of integrations that remote teams rely on for async communication.
 
@@ -38,18 +38,18 @@ GitHub also provides native features that remote teams value highly. Required re
 
 CodeCommit's approval rule templates cover some of this, but the configuration is less intuitive and requires IAM knowledge that front-end developers and designers on cross-functional teams may not have. GitHub's interface is widely understood across roles, which reduces the tool-specific training burden for distributed teams.
 
-## Pre-Migration Preparation
+Pre-Migration Preparation
 
 Before executing the migration, audit your current CodeCommit repository structure and identify all branches, tags, and collaborators.
 
 ```bash
-# List all CodeCommit repositories in your AWS account
+List all CodeCommit repositories in your AWS account
 aws codecommit list-repositories --region us-east-1
 
-# Get repository details including branch information
+Get repository details including branch information
 aws codecommit get-repository --repository-name your-repo-name --region us-east-1
 
-# List all branches in a repository
+List all branches in a repository
 aws codecommit list-branches --repository-name your-repo-name --region us-east-1
 ```
 
@@ -57,16 +57,16 @@ Document your existing IAM users and their CodeCommit permissions. You'll need t
 
 Also catalog any AWS services that trigger on CodeCommit events: SNS topics, Lambda functions, or EventBridge rules watching for push events. These integrations break silently if you migrate repositories without updating their source configuration.
 
-## Migration Strategy: Mirror Git Repositories
+Migration Strategy: Mirror Git Repositories
 
 The most reliable migration method involves mirroring your entire Git history from CodeCommit to GitHub. This preserves all commits, branches, tags, and commit messages without losing history.
 
-### Step 1: Clone CodeCommit Repository Locally
+Step 1: Clone CodeCommit Repository Locally
 
 First, configure Git to work with CodeCommit credentials. If you're using AWS CLI v2, it handles authentication automatically with the default credential chain.
 
 ```bash
-# Clone the CodeCommit repository with all branches
+Clone the CodeCommit repository with all branches
 git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/your-repo-name
 
 cd your-repo-name
@@ -77,33 +77,33 @@ If you use git-remote-codecommit (GRC), install it first:
 ```bash
 pip install git-remote-codecommit
 
-# Clone using GRC format
+Clone using GRC format
 git clone codecommit::us-east-1://your-repo-name
 ```
 
-### Step 2: Create GitHub Repository
+Step 2: Create GitHub Repository
 
 Create your target repository on GitHub, either through the web interface or CLI:
 
 ```bash
-# Using GitHub CLI (gh)
+Using GitHub CLI (gh)
 gh repo create your-org/your-repo-name --private --source=. --push
 ```
 
 For private team repositories, adjust the visibility as needed. GitHub's free organization tier includes unlimited collaborators on private repositories, a significant improvement over CodeCommit's tiered pricing.
 
-### Step 3: Push All Branches and Tags
+Step 3: Push All Branches and Tags
 
 Push your entire repository history to GitHub:
 
 ```bash
-# Add the new remote
+Add the new remote
 git remote add github git@github.com:your-org/your-repo-name.git
 
-# Push all branches
+Push all branches
 git push github --all
 
-# Push all tags
+Push all tags
 git push github --tags
 ```
 
@@ -111,12 +111,12 @@ This approach preserves your complete Git history, including all branches that d
 
 For repositories with large binary files in Git history, consider running `git filter-repo` to remove them before migration. Migrating large blobs to GitHub can trigger LFS (Large File Storage) requirements or hit repository size limits.
 
-### Step 4: Configure Branch Protection
+Step 4: Configure Branch Protection
 
 Recreate any branch protection rules you had in CodeCommit. GitHub's branch protection settings provide more granular control:
 
 ```bash
-# Set branch protection via GitHub CLI
+Set branch protection via GitHub CLI
 gh api repos/your-org/your-repo-name/branches/main/protection \
   --method PUT \
   --field required_status_checks='{"strict":true,"contexts":["ci/tests"]}' \
@@ -124,60 +124,60 @@ gh api repos/your-org/your-repo-name/branches/main/protection \
   --field required_pull_request_reviews='{"required_approving_review_count":1}'
 ```
 
-## Updating Developer Workflows
+Updating Developer Workflows
 
 After migration, your team needs to update their local Git configurations. Provide clear documentation for developers to switch their remotes.
 
-### Developer Migration Script
+Developer Migration Script
 
 Create a simple script your team can run:
 
 ```bash
 #!/bin/bash
-# migrate-remotes.sh
+migrate-remotes.sh
 
 echo "Updating git remote from CodeCommit to GitHub..."
 
-# Check current remotes
+Check current remotes
 git remote -v
 
-# Change the remote URL
+Change the remote URL
 git remote set-url origin git@github.com:your-org/your-repo-name.git
 
-# Verify the change
+Verify the change
 git remote -v
 
-# Fetch any remaining remote updates
+Fetch any remaining remote updates
 git fetch origin
 
 echo "Remote updated successfully!"
 echo "Run 'git pull' to sync with the new remote."
 ```
 
-### Updating SSH Keys
+Updating SSH Keys
 
 CodeCommit uses AWS IAM-managed credentials or git-remote-codecommit. GitHub uses SSH keys or personal access tokens (PATs). Ensure developers configure their GitHub authentication before pushing:
 
 ```bash
-# Test GitHub SSH connection
+Test GitHub SSH connection
 ssh -T git@github.com
 
-# Configure git to use SSH for GitHub
+Configure git to use SSH for GitHub
 git config --global url."git@github.com:".insteadOf "https://github.com/"
 ```
 
 For organizations using SSO, GitHub's SAML enforcement requires that personal access tokens and SSH keys be authorized for the organization before they work. Remind developers to authorize their keys at github.com/settings/keys after the migration completes.
 
-## Handling AWS-Specific Integrations
+Handling AWS-Specific Integrations
 
 Many CodeCommit repositories integrate with AWS services. You'll need to update these integrations to work with GitHub.
 
-### Updating CI/CD Pipelines
+Updating CI/CD Pipelines
 
 If you use AWS CodePipeline or CodeBuild, migrate to GitHub Actions or a similar CI/CD system:
 
 ```yaml
-# .github/workflows/ci.yml
+.github/workflows/ci.yml
 name: CI
 
 on:
@@ -221,44 +221,44 @@ For teams using AWS-specific tools like SAM or CDK, GitHub Actions can still dep
 
 This is more secure than storing AWS access keys as GitHub secrets because the temporary credentials expire after the job completes.
 
-### Secrets Management Transition
+Secrets Management Transition
 
 CodeCommit users often store credentials in AWS Secrets Manager or Systems Manager Parameter Store. GitHub provides encrypted secrets at the repository or organization level:
 
 ```bash
-# Add secrets via GitHub CLI
+Add secrets via GitHub CLI
 gh secret set AWS_ACCESS_KEY_ID --body "$AWS_ACCESS_KEY_ID"
 gh secret set AWS_SECRET_ACCESS_KEY --body "$AWS_SECRET_ACCESS_KEY"
 ```
 
 Organization-level secrets let you share credentials across multiple repositories without duplicating them. This matches the behavior teams were using with IAM roles across CodeCommit repositories.
 
-## Preserving Code Review History
+Preserving Code Review History
 
 One limitation of Git mirroring is that CodeCommit pull request comments and approvals don't transfer automatically. Document any critical review decisions before migration:
 
 ```bash
-# Export CodeCommit pull request comments (requires scripting)
+Export CodeCommit pull request comments (requires scripting)
 aws codecommit get-pull-request --pull-request-id PR_ID --region us-east-1
 ```
 
 Create a documentation page in your new GitHub repository summarizing any open review items that need attention after migration. For teams with extensive PR history, consider scripting an export to a Markdown file that becomes a permanent record in the repository.
 
-## Post-Migration Checklist
+Post-Migration Checklist
 
 Verify the migration completed successfully with this verification process:
 
-1. **Branch verification**: Confirm all branches exist in GitHub
+1. Branch verification: Confirm all branches exist in GitHub
  ```bash
    git ls-remote --heads github
    ```
 
-2. **Tag verification**: Ensure all tags transferred
+2. Tag verification: Ensure all tags transferred
  ```bash
    git ls-remote --tags github
    ```
 
-3. **Commit history**: Spot-check commit counts match
+3. Commit history: Spot-check commit counts match
  ```bash
    # CodeCommit
    git rev-list --all --count
@@ -267,44 +267,44 @@ Verify the migration completed successfully with this verification process:
    gh api repos/your-org/your-repo-name/stats/commit --jq '.[] | select(.total != null) | .total'
    ```
 
-4. **Team access**: Verify all developers can clone and push to the new repository
+4. Team access: Verify all developers can clone and push to the new repository
 
-5. **CI/CD status**: Confirm automated tests and deployments function correctly
+5. CI/CD status: Confirm automated tests and deployments function correctly
 
-6. **Webhook cleanup**: Remove any remaining CodeCommit notification triggers in AWS to avoid confusion
+6. Webhook cleanup: Remove any remaining CodeCommit notification triggers in AWS to avoid confusion
 
-7. **Repository archiving**: Set the old CodeCommit repository to read-only (you cannot delete it immediately, but restricting push access prevents accidental dual-writes)
+7. Repository archiving: Set the old CodeCommit repository to read-only (you cannot delete it immediately, but restricting push access prevents accidental dual-writes)
 
 After two to four weeks of stable operation on GitHub, archive or delete the CodeCommit repository. Keeping both active longer than necessary leads to confusion about which remote is canonical.
 
-## Related Articles
+Related Articles
 
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
 - [GitHub Actions Workflow for Remote Dev Teams](/github-actions-remote-dev-workflow/)
 - [Remote Work Tools: All Guides and Reviews](/guides-hub/)
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
 - [Generate weekly team activity report from GitHub](/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does GitHub offer a free tier?**
+Does GitHub offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check GitHub's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 

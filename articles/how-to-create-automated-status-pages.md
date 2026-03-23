@@ -15,16 +15,16 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-Manual status pages are a lie — someone always forgets to update them during an incident. Automated status pages read actual service health in real time, post incidents without human intervention, and close them when monitors recover. For remote teams, they're also the first thing customers check before filing a support ticket.
+Manual status pages are a lie. someone always forgets to update them during an incident. Automated status pages read actual service health in real time, post incidents without human intervention, and close them when monitors recover. For remote teams, they're also the first thing customers check before filing a support ticket.
 
 ---
 
-## Upptime: GitHub-Powered Status Page
+Upptime: GitHub-Powered Status Page
 
 Upptime runs entirely within GitHub Actions and GitHub Pages. Monitors are defined in a YAML file; GitHub Actions runs checks every 5 minutes and commits results to the repo. Zero infrastructure to manage.
 
 ```bash
-# Use the Upptime template
+Use the Upptime template
 gh repo create your-org/status --template upptime/upptime --public
 cd status
 ```
@@ -89,14 +89,14 @@ Enable GitHub Pages on the `gh-pages` branch. Upptime's Actions workflow will au
 
 ---
 
-## Gatus: Self-Hosted, Config-Driven
+Gatus: Self-Hosted, Config-Driven
 
 Gatus is a self-hosted status page and uptime monitor with more flexibility than Upptime. It supports HTTP, TCP, and DNS checks with custom conditions.
 
 Docker Compose deployment:
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 services:
   gatus:
@@ -116,7 +116,7 @@ volumes:
 Full configuration at `config/gatus.yml`:
 
 ```yaml
-# config/gatus.yml
+config/gatus.yml
 web:
   port: 8080
 
@@ -209,19 +209,19 @@ server {
 
 ---
 
-## Freshping (SaaS Option)
+Freshping (SaaS Option)
 
 Freshping offers a generous free tier (50 checks, 1-minute intervals) with zero infrastructure overhead. Use it when you need something running in 10 minutes:
 
 1. Sign up at freshping.io
 2. Add checks (URL, keyword, SSL, ping)
-3. Create a status page under **Status Pages > New**
+3. Create a status page under Status Pages > New
 4. Add a custom domain via CNAME: `status.yourcompany.com` → `yourstatusdomain.freshping.io`
 
 For API-driven check management:
 
 ```bash
-# Create a check via API
+Create a check via API
 curl -X POST \
   -H "Authorization: Bearer $FRESHPING_API_KEY" \
   -H "Content-Type: application/json" \
@@ -238,13 +238,13 @@ curl -X POST \
 
 ---
 
-## Incident Automation with PagerDuty
+Incident Automation with PagerDuty
 
 Wire your status page to PagerDuty so incidents trigger on-call pages automatically:
 
 ```bash
-# Gatus PagerDuty alerting
-# Add to gatus.yml alerting section
+Gatus PagerDuty alerting
+Add to gatus.yml alerting section
 alerting:
   pagerduty:
     integration-key: "your_pagerduty_integration_key"
@@ -257,7 +257,7 @@ alerting:
 For Upptime, add a GitHub Actions step that creates PagerDuty incidents:
 
 ```yaml
-# .github/workflows/uptime.yml (add to existing Upptime workflow)
+.github/workflows/uptime.yml (add to existing Upptime workflow)
 - name: Create PagerDuty incident
   if: failure()
   run: |
@@ -277,7 +277,7 @@ For Upptime, add a GitHub Actions step that creates PagerDuty incidents:
 
 ---
 
-## Custom Maintenance Windows
+Custom Maintenance Windows
 
 Schedule planned maintenance so the status page shows "Scheduled Maintenance" instead of "Down":
 
@@ -285,8 +285,8 @@ For Gatus, use external endpoint toggling:
 
 ```bash
 #!/bin/bash
-# scripts/maintenance.sh
-# Usage: ./maintenance.sh start|end "Reason text"
+scripts/maintenance.sh
+Usage: ./maintenance.sh start|end "Reason text"
 
 ACTION=$1
 REASON=$2
@@ -309,7 +309,7 @@ For Upptime, create a GitHub Issue tagged `maintenance` and the status page will
 
 ---
 
-## Status Badge for Your README
+Status Badge for Your README
 
 Add live status badges to service READMEs:
 
@@ -323,7 +323,7 @@ Add live status badges to service READMEs:
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
 - [How to Automate SSL Certificate Renewal](/how-to-automate-ssl-certificate-renewal/)
@@ -332,13 +332,13 @@ Add live status badges to service READMEs:
 
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Write Async Status Updates That Managers Actually](/how-to-write-async-status-updates-that-managers-actually-read/)
 - [AI Project Status Generator for Remote Teams Pulling](/ai-project-status-generator-for-remote-teams-pulling-data-fr/)
 - [GitHub Actions Workflow for Remote Dev Teams](/github-actions-remote-dev-workflow/)
 - [Client Project Status Dashboard Setup for Remote Agency](/client-project-status-dashboard-setup-for-remote-agency-team/)
 - [Best Format for Remote Team Weekly Written Status Update](/best-format-for-remote-team-weekly-written-status-update-rep/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

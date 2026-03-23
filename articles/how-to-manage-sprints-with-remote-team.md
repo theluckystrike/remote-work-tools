@@ -14,16 +14,16 @@ intent-checked: true
 voice-checked: true
 ---
 {% raw %}
-## Yesterday
+Yesterday
 - What did you complete?
 
-## Today
+Today
 - What will you work on?
 
-## Blockers
+Blockers
 - Any impediments?
 
-## PRs Ready for Review
+PRs Ready for Review
 - Links to PRs awaiting review
 ```
 
@@ -61,11 +61,11 @@ jobs:
  --label documentation
 ```
 
-## Sprint Planning for Distributed Teams
+Sprint Planning for Distributed Teams
 
 Effective remote sprint planning requires clear documentation and explicit capacity planning. Avoid the common mistake of treating remote team capacity the same as co-located teams.
 
-### Capacity Calculation Script
+Capacity Calculation Script
 
 Account for timezone overlap and focus time when calculating sprint capacity:
 
@@ -119,7 +119,7 @@ Args:
  ]
  }
 
-# Example usage
+Example usage
 team = [
 TeamMember("Alice", 8.0, "UTC-5", 0.15),
 TeamMember("Bob", 8.0, "UTC+1", 0.20),
@@ -130,12 +130,12 @@ result = calculate_sprint_capacity(team)
 print(json.dumps(result, indent=2))
 ```
 
-### Definition of Done for Remote Teams
+Definition of Done for Remote Teams
 
 Your Definition of Done must account for the unique challenges of distributed code review:
 
 ```
-## Definition of Done
+Definition of Done
 
 1. Code written and passing tests
 2. PR created with description explaining:
@@ -149,11 +149,11 @@ Your Definition of Done must account for the unique challenges of distributed co
 7. Product Owner has reviewed and accepted (for features)
 ```
 
-## Tracking Velocity Without Burndown依赖
+Tracking Velocity Without Burndown
 
 Remote teams often struggle with traditional burndown charts because story point estimates become less reliable across time zones. Consider these alternatives.
 
-### Simple Velocity Tracking
+Simple Velocity Tracking
 
 ```javascript
 // velocity-tracker.js - Track sprint progress without complex tooling
@@ -205,11 +205,11 @@ console.log(sprint.getVelocity());
 // Output: { completed: 16, projected: 21, percentComplete: 57 }
 ```
 
-## Managing Blockers in Async Workflows
+Managing Blockers in Async Workflows
 
 Blockers in remote teams require explicit escalation paths. A "blocker" that would take 30 seconds to resolve in an office can block progress for days without proper systems.
 
-### Blocker Escalation Workflow
+Blocker Escalation Workflow
 
 ```yaml
 #.github/workflows/blocker-escalation.yml
@@ -229,7 +229,7 @@ jobs:
  curl -X POST ${{ secrets.SLACK_WEBHOOK }} \
  -H 'Content-type: application/json' \
  --data '{
- "text": "🚨 Blocker detected!",
+ "text": " Blocker detected!",
  "blocks": [
  {
  "type": "section",
@@ -253,50 +253,50 @@ jobs:
  --add-label urgent
 ```
 
-## Sprint Retrospectives That Actually Work
+Sprint Retrospectives That Actually Work
 
 Remote sprint retrospectives fail when they become status meetings. Structure them around outcomes, not activities.
 
-### Async Retro Format
+Async Retro Format
 
 ```
-## Sprint Retrosective Template
+Sprint Retrosective Template
 
-### What went well?
+What went well?
 - [Add your items]
 
-### What could improve?
+What could improve?
 - [Add your items]
 
-### Action items for next sprint
+Action items for next sprint
 - [Specific, assignable actions with owners]
 ```
 
 Rotate retrospective facilitation and time zones. If your team spans three time zones, each retro should be hosted by someone from a different zone over the course of the sprint rotation.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to manage sprints with remote team: a practical?**
+How long does it take to manage sprints with remote team: a practical?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Best Tools for Remote Team Capacity Planning](/best-tools-remote-team-capacity-planning-2026/)
 - [How to Run Sprints with a Remote Team of 4 Engineers](/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
@@ -305,5 +305,5 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Tool for Remote Team Capacity Planning When Scaling](/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 ```
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

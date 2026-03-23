@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Communication Tools — Slack, Zoom, Async Messaging"
+title: "Remote Communication Tools. Slack, Zoom, Async Messaging"
 description: "Guides and comparisons for remote team communication: Slack, Zoom, Discord, async messaging, and video conferencing."
 permalink: /topics/communication/
 ---

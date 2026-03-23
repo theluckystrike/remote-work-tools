@@ -19,13 +19,13 @@ When your hybrid office hosts visitors, contractors, and clients, providing inte
 
 This guide walks through setting up guest WiFi that keeps visitors connected without exposing your internal network to unnecessary risk. The strategies here work with enterprise-grade equipment and affordable access points alike.
 
-## Understanding the Threat Model
+Understanding the Threat Model
 
 Guest WiFi exists because untrusted devices should never share network space with sensitive systems. When a contractor connects a potentially compromised laptop to your main network, that device gains visibility into internal services, file shares, and management interfaces. The 2024 Uber breach demonstrated how attackers use compromised third-party access as an initial foothold.
 
 Your guest network should assume every connected device is potentially hostile. Design accordingly.
 
-## Network Architecture Fundamentals
+Network Architecture Fundamentals
 
 The core principle is strict isolation. Guest traffic must traverse a separate VLAN from your internal network, with explicit firewall rules preventing any communication toward corporate resources.
 
@@ -33,26 +33,26 @@ For most hybrid offices, this architecture works well:
 
 ```
 Internet
-    │
-    ▼
-┌─────────────────────────────────────┐
-│         Firewall/Router             │
-└─────────────────────────────────────┘
-    │                    │
-    ▼                    ▼
-┌──────────┐      ┌──────────────────┐
-│ Corporate│      │   Guest Network  │
-│   VLAN   │      │      VLAN        │
-│  10.1.x  │      │      172.x       │
-└──────────┘      └──────────────────┘
-     │                    │
-     ▼                    ▼
+    
+    
+
+         Firewall/Router             
+
+                        
+                        
+      
+ Corporate         Guest Network  
+   VLAN               VLAN        
+  10.1.x              172.x       
+      
+                         
+                         
  Corporate WiFi      Guest WiFi
 ```
 
 Configure your router or firewall to drop all traffic originating from the guest subnet heading toward the corporate subnet. Only allow DNS and HTTP/HTTPS outbound to the internet.
 
-## Implementing VLAN Isolation
+Implementing VLAN Isolation
 
 Most business-grade access points support VLAN tagging. Here's how to configure this using an UniFi setup as an example:
 
@@ -72,14 +72,14 @@ Most business-grade access points support VLAN tagging. Here's how to configure 
 
 Create this network profile in your controller, then assign it to your guest access points. The DHCP server ensures guests receive addresses in the isolated range, preventing IP conflicts with corporate resources.
 
-## Captive Portal Authentication
+Captive Portal Authentication
 
 For tracking and basic access control, implement a captive portal. This displays a landing page where guests must accept terms or enter an access code before connecting to the internet.
 
 A simple self-hosted solution uses CoovaChilli or ndss:
 
 ```bash
-# Example ndss configuration snippet
+Example ndss configuration snippet
 NAS-IP-Address = 127.0.0.1
 NAS-Port = 3799
 NAS-Key = "yoursecretkey"
@@ -90,62 +90,62 @@ uamsecret = "portalsecret"
 
 The portal captures MAC addresses, which helps with logging and time-based access codes for contractors who only need temporary connectivity.
 
-## Wireless Security Protocol Selection
+Wireless Security Protocol Selection
 
-Never use WEP—it takes minutes to crack. WPA2-AES provides adequate security for most scenarios, while WPA3-Personal offers improved protection against offline dictionary attacks.
+Never use WEP, it takes minutes to crack. WPA2-AES provides adequate security for most scenarios, while WPA3-Personal offers improved protection against offline dictionary attacks.
 
 For guest networks where you distribute passwords to visitors, WPA2-AES with a rotating passphrase works well. Generate unique passwords for each visitor or event:
 
 ```bash
-# Generate a secure random WiFi password
+Generate a secure random WiFi password
 openssl rand -base64 12
 ```
 
 Change these passwords regularly, especially after hosting large events or when contractor engagements end.
 
-## Rate Limiting and Traffic Shaping
+Rate Limiting and Traffic Shaping
 
 Guests streaming video or running large downloads can degrade performance for everyone. Implement rate limiting at your router:
 
 ```bash
-# Example tc (traffic control) rules for Linux router
-# Limit guest upload to 5Mbps
+Example tc (traffic control) rules for Linux router
+Limit guest upload to 5Mbps
 tc qdisc add dev eth1 root handle 1: htb default 10
 tc class add dev eth1 parent 1: classid 1:10 htb rate 5mbit burst 15k
 
-# Limit guest download to 20Mbps
+Limit guest download to 20Mbps
 tc qdisc add dev eth2 root handle 1: htb default 10
 tc class add dev eth2 parent 1: classid 1:10 htb rate 20mbit burst 15k
 ```
 
 These limits prevent any single guest from monopolizing bandwidth while maintaining acceptable performance for browsing and video calls.
 
-## Content Filtering and DNS Security
+Content Filtering and DNS Security
 
 Even with isolation, guests can still access malicious websites or use your network for inappropriate content. Implement DNS-based filtering to block known threat domains:
 
 ```bash
-# Pi-hole configuration for blocklists
-# Add to /etc/pihole/adlists.list
+Pi-hole configuration for blocklists
+Add to /etc/pihole/adlists.list
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://urlhaus.abuse.ch/downloads/hostfile/
 ```
 
 Configure your guest DHCP to point toward your DNS filter rather than public DNS. This catches many threats at the DNS resolution stage without requiring client-side configuration.
 
-## Client Isolation
+Client Isolation
 
-Enable client isolation on your access points. This prevents guest devices from communicating with each other—a standard feature in most enterprise APs but often disabled by default.
+Enable client isolation on your access points. This prevents guest devices from communicating with each other, a standard feature in most enterprise APs but often disabled by default.
 
 In UniFi controller, navigate to Settings → WiFi → Guest Policies and enable "Allow Guest to Guest Isolation":
 
 ```
-✓ Allow Guest to Guest Isolation
+ Allow Guest to Guest Isolation
 ```
 
 This stops a compromised guest device from scanning for other vulnerable guests on the same network.
 
-## Monitoring and Logging
+Monitoring and Logging
 
 Maintain logs of guest connections for security investigations and compliance. Capture:
 
@@ -155,15 +155,15 @@ Maintain logs of guest connections for security investigations and compliance. C
 - Authentication attempts
 
 ```bash
-# Parse access point logs for guest connections
+Parse access point logs for guest connections
 grep "STA_CONNECTED" /var/log/messages | \
   jq '{time: .timestamp, mac: .mac, ap: .ap}' | \
   jq -c '.'
 ```
 
-Rotate and archive these logs regularly—most environments need 90-day retention minimum.
+Rotate and archive these logs regularly, most environments need 90-day retention minimum.
 
-## Contractor-Specific Considerations
+Contractor-Specific Considerations
 
 Contractors often need different access levels than casual visitors. Consider implementing tiered guest networks:
 
@@ -175,12 +175,12 @@ Contractors often need different access levels than casual visitors. Consider im
 
 For contractors needing internal resource access, provide VPN credentials rather than direct network access. This adds authentication layers and encrypts all traffic.
 
-## Automation for Access Management
+Automation for Access Management
 
 Automate access provisioning and revocation using your identity provider:
 
 ```yaml
-# Example: Scheduled access revocation
+Scheduled access revocation
 - name: Revoke contractor access on project end
   trigger:
     schedule: "0 9 * * 1"  # Weekly Monday review
@@ -194,19 +194,19 @@ Automate access provisioning and revocation using your identity provider:
 
 Integrate this with your HR systems to automatically disable credentials when contractor contracts expire.
 
-## Putting It All Together
+Putting It All Together
 
 Start with network segmentation as your foundation. From there, layer on captive portal authentication, traffic controls, and monitoring. Each additional control reduces risk while maintaining usability for legitimate guest access.
 
-The key is assuming guests will connect untrusted devices and designing your network to contain that risk. Your internal team shouldn't even notice the guest network exists—it should be completely invisible to corporate systems.
+The key is assuming guests will connect untrusted devices and designing your network to contain that risk. Your internal team shouldn't even notice the guest network exists, it should be completely invisible to corporate systems.
 
 When contractors finish their engagements, revoke their credentials immediately. When events conclude, rotate passwords. These operational practices matter as much as the technical configuration.
 
-## Scaling Guest WiFi for Events
+Scaling Guest WiFi for Events
 
 Companies hosting events or offsites need temporary guest WiFi for many visitors:
 
-**Temporary Event Network Setup:**
+Temporary Event Network Setup:
 ```json
 {
   "event_network": {
@@ -230,11 +230,11 @@ For 200-person events:
 - Set bandwidth limits to prevent any single attendee from saturating the link
 - Have IT staff on-site first day to troubleshoot initial connectivity issues
 
-## Guest WiFi for Multiple Office Locations
+Guest WiFi for Multiple Office Locations
 
 If your company has multiple hybrid offices (SF, NYC, London), replicate the setup consistently:
 
-**Multi-Location Configuration:**
+Multi-Location Configuration:
 ```yaml
 Guest Network Configuration Template
 - All locations use same SSID convention: Guest-[CityCode]
@@ -246,77 +246,77 @@ Guest Network Configuration Template
 
 Consistency prevents variations where one office has weaker security than another.
 
-## Troubleshooting Common Guest WiFi Issues
+Troubleshooting Common Guest WiFi Issues
 
-**Guests Can't Connect**
+Guests Can't Connect
 - Check that guest SSID broadcast is enabled
 - Verify WiFi password is shared correctly (common mistakes: 0 vs O, 1 vs l)
 - Confirm guest doesn't have too many saved networks on device
 - Ask them to "forget" the network and reconnect
 
-**Connection Drops After 30-60 Minutes**
+Connection Drops After 30-60 Minutes
 - Usually means captive portal session timeout
 - Extend timeout to 4 hours if it's happening to multiple guests
 - Check if user's device is in power-save mode (disables WiFi)
 - Verify DHCP lease timeout aligns with expected session duration
 
-**Guests Can See Internal Network Resources**
+Guests Can See Internal Network Resources
 - This is a serious security issue
 - Immediately check firewall rules (guest → corporate subnet should be DENIED)
 - Verify VLAN isolation is working
 - Run network scanning tool to confirm guest can't reach internal IPs
 - Update firewall rules and test again
 
-**Guest Network Runs Slow But Corporate Network is Fine**
+Guest Network Runs Slow But Corporate Network is Fine
 - Guests may be monopolizing bandwidth with streaming/downloads
 - Check rate limiting rules in traffic shaper
 - Verify QoS (Quality of Service) is prioritizing corporate traffic
 - If many guests are present, add additional access points
 
-## Compliance Considerations for Guest Networks
+Compliance Considerations for Guest Networks
 
 Depending on your industry, guest WiFi may trigger compliance requirements:
 
-**Healthcare (HIPAA)**
+Healthcare (HIPAA)
 - Don't allow guest network to connect to any healthcare systems
 - Ensure separate physical network segment
 - Log all network activity for 6 months minimum
 - Regular security audits (quarterly)
 
-**Finance (PCI-DSS)**
+Finance (PCI-DSS)
 - Guest network must not have access to payment systems
 - Implement network segmentation (VLAN isolation)
 - Maintain logs for 1 year
 - Annual penetration testing
 
-**Legal/Professional Services**
+Legal/Professional Services
 - Protect attorney-client privileged information
 - Ensure guest network can't access file shares containing sensitive docs
 - Consider requiring guests to use company VPN instead of direct WiFi access
 
 Consult your compliance team before implementing guest networks if you handle sensitive data.
 
-## Guest WiFi Documentation
+Guest WiFi Documentation
 
 Create a simple guide for employees about guest WiFi:
 
 ```markdown
-# Guest WiFi Quick Guide for Employees
+Guest WiFi Quick Guide for Employees
 
-## How to Share the Guest WiFi
+How to Share the Guest WiFi
 
 1. Give guests the SSID: "CompanyName-Guest"
 2. Provide the password: [Check your manager or IT for current password]
-3. After they connect, they may see a login page—that's normal
+3. After they connect, they may see a login page, that's normal
 
-## Setting a New Guest Password
+Setting a New Guest Password
 
 1. Request new password from IT
 2. IT will rotate it within 1 business day
 3. Share new password with contractors/visitors
 4. Revoke old password
 
-## Reporting Problems
+Reporting Problems
 
 If a guest can't connect or the network is slow:
 1. Check that they're entering the password correctly
@@ -324,7 +324,7 @@ If a guest can't connect or the network is slow:
 3. Contact IT and provide: guest name, device type, error message
 4. IT will investigate within 2 hours during business hours
 
-## Security Reminders
+Security Reminders
 
 - Don't share the guest password with non-employees
 - Don't write the password in email or Slack
@@ -334,34 +334,34 @@ If a guest can't connect or the network is slow:
 
 Distribute this guide to all employees so they can confidently help guests without creating security issues.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**Can I trust these tools with sensitive data?**
+Can I trust these tools with sensitive data?
 
 Review each tool's privacy policy, data handling practices, and security certifications before using it with sensitive data. Look for SOC 2 compliance, encryption in transit and at rest, and clear data retention policies. Enterprise tiers often include stronger privacy guarantees.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [OpenVPN client configuration snippet](/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
 - [How to Set Up Zero Trust Network Access for Distributed](/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
 - [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
 - [Remote Work Home Network Security Guide](/home-network-security-remote-work/)
 - [Check your router's current firmware version](/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

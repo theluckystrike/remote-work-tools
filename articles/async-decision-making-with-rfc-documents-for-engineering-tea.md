@@ -17,7 +17,7 @@ score: 9
 
 Request for Comments (RFC) documents serve as the backbone of asynchronous decision making in distributed engineering organizations. When implemented effectively, RFCs enable teams to make thoughtful, documented decisions without requiring real-time synchronization, which proves especially valuable across time zones.
 
-## Table of Contents
+Table of Contents
 
 - [Implementation Plan](#implementation-plan)
 - [What Makes RFCs Effective for Async Decision Making](#what-makes-rfcs-effective-for-async-decision-making)
@@ -56,16 +56,16 @@ Request for Comments (RFC) documents serve as the backbone of asynchronous decis
 - [Running Efficient RFC Review Periods](#running-efficient-rfc-review-periods)
 - [Learning from Decisions](#learning-from-decisions)
 
-## Implementation Plan
+Implementation Plan
 1.
-- **A reasonable SLA**: - Initial feedback: 48 hours
+- A reasonable SLA: - Initial feedback: 48 hours
 - Full review: 72 hours
 - Decision announcement: 96 hours from RFC publication
 
 Use asynchronous voting for non-controversial decisions.
-- **Extract user management domain**: (2 months) 3.
+- Extract user management domain: (2 months) 3.
 
-## What Makes RFCs Effective for Async Decision Making
+What Makes RFCs Effective for Async Decision Making
 
 An RFC document captures a proposed change, its rationale, alternatives considered, and the expected impact. Unlike quick Slack messages or impromptu video calls, RFCs create a persistent, reviewable record that future team members can reference.
 
@@ -76,47 +76,47 @@ The async nature of RFCs provides several key benefits:
 - Reduced meeting fatigue: Eliminates the need for synchronous decision-making meetings
 - Searchable history: Future teams understand why decisions were made
 
-## Structuring an RFC Document
+Structuring an RFC Document
 
 A well-structured RFC contains specific sections that guide both the author and reviewers through the decision-making process.
 
 ```markdown
-# RFC: [Short Title]
+RFC: [Short Title]
 
-## Problem Statement
-Why is this change needed? What pain point does it address?
+Problem Statement
+Why is this change needed? What problem does it address?
 
-## Proposed Solution
+Proposed Solution
 Detailed description of the proposed approach.
 
-## Alternatives Considered
+Alternatives Considered
 What other approaches were evaluated and why they were rejected?
 
-## Implementation Plan
+Implementation Plan
 Phases or steps for implementing the decision.
 
-## Open Questions
+Open Questions
 Issues still requiring discussion or clarification.
 
-## Success Metrics
+Success Metrics
 How will we know this decision was correct?
 
-## Timeline
+Timeline
 Key dates and milestones.
 ```
 
 This structure ensures consistency across proposals and helps reviewers know exactly what to expect.
 
-## Implementing an RFC Workflow
+Implementing an RFC Workflow
 
 Establishing a clear workflow prevents RFCs from languishing in review limbo. Define explicit time frames for each phase.
 
-### Phase 1: Draft and Initial Feedback
+Phase 1: Draft and Initial Feedback
 
 The author creates the RFC and requests initial feedback. Use labels to track status:
 
 ```bash
-# Example GitHub label workflow
+Example GitHub label workflow
 gh label create rfc --color "fbca04" --description "Request for Comments"
 gh label create rfc-draft --color "d93f0b" --description "RFC in draft stage"
 gh label create rfc-review --color "1d76db" --description "RFC under review"
@@ -124,9 +124,9 @@ gh label create rfc-approved --color "0e8a16" --description "RFC approved"
 gh label create rfc-closed --color "6e6e6e" --description "RFC not approved"
 ```
 
-### Phase 2: Review Period
+Phase 2: Review Period
 
-Set a minimum review period—72 hours works well for global teams to accommodate different time zones. During this phase, reviewers add comments, suggest modifications, or express concerns.
+Set a minimum review period, 72 hours works well for global teams to accommodate different time zones. During this phase, reviewers add comments, suggest modifications, or express concerns.
 
 Encourage reviewers to use specific markers:
 
@@ -135,56 +135,56 @@ Encourage reviewers to use specific markers:
 - Concern: Potential issue requiring resolution
 - Approval: Agreement with the proposal
 
-### Phase 3: Decision and Documentation
+Phase 3: Decision and Documentation
 
 After the review period, a designated decision-maker (often a tech lead or architect) summarizes feedback and renders a decision. Document the outcome clearly:
 
 ```markdown
-## Decision
+Decision
 
-**Status**: Approved / Rejected / Deferred
+Status: Approved / Rejected / Deferred
 
-**Summary of Key Feedback**:
+Summary of Key Feedback:
 - [Feedback point 1]
 - [Feedback point 2]
 
-**Action Items**:
+Action Items:
 - [ ] Item 1
 - [ ] Item 2
 ```
 
-## Practical Example: Database Migration Decision
+Practical Example: Database Migration Decision
 
 Consider a team deciding whether to migrate from PostgreSQL 13 to PostgreSQL 16. An RFC document captures this decision:
 
 ```markdown
-# RFC: Upgrade PostgreSQL 13 to 16
+RFC: Upgrade PostgreSQL 13 to 16
 
-## Problem Statement
+Problem Statement
 PostgreSQL 13 reaches end-of-life in November 2025. Running unsupported database versions introduces security risks and prevents access to performance improvements.
 
-## Proposed Solution
+Proposed Solution
 Perform a blue-green deployment upgrading the primary database to version 16, then promote the new primary.
 
-## Alternatives Considered
-1. **Stay on PostgreSQL 13 with extended support**: Costs $5,000/year, delays access to new features
-2. **Migrate to managed database service**: Exceeds current budget by 40%
+Alternatives Considered
+1. Stay on PostgreSQL 13 with extended support: Costs $5,000/year, delays access to new features
+2. Migrate to managed database service: Exceeds current budget by 40%
 
-## Implementation Plan
+Implementation Plan
 1. Test upgrade in staging environment (Week 1)
 2. Schedule maintenance window (Week 2)
 3. Perform blue-green deployment (Week 2)
 4. Monitor performance metrics (Week 3)
 
-## Success Metrics
+Success Metrics
 - Query performance improvement of 15% or greater
 - Zero data loss during migration
 - Rollback capability demonstrated in staging
 ```
 
-This document gives every stakeholder—developers, operations, management—a clear understanding of what changes, why it matters, and what success looks like.
+This document gives every stakeholder, developers, operations, management, a clear understanding of what changes, why it matters, and what success looks like.
 
-## Managing RFC Review Effectively
+Managing RFC Review Effectively
 
 Large RFCs overwhelm reviewers. Break complex decisions into smaller, focused documents. If an RFC exceeds 2,000 words, consider splitting it into multiple interconnected RFCs.
 
@@ -194,9 +194,9 @@ Set expectations for response times. A reasonable SLA:
 - Full review: 72 hours
 - Decision announcement: 96 hours from RFC publication
 
-Use asynchronous voting for non-controversial decisions. When an RFC receives no significant concerns after the review period, the default assumption can be approval—explicitly state this in your team conventions.
+Use asynchronous voting for non-controversial decisions. When an RFC receives no significant concerns after the review period, the default assumption can be approval, explicitly state this in your team conventions.
 
-## Common Pitfalls to Avoid
+Common Pitfalls to Avoid
 
 RFCs fail when they become performative exercises rather than genuine decision-making tools. Avoid these mistakes:
 
@@ -206,11 +206,11 @@ RFCs fail when they become performative exercises rather than genuine decision-m
 - No clear owner: Every RFC needs a single author responsible for driving it forward
 - Bypassing the process for "urgent" decisions: Reserve exceptions for true emergencies
 
-## RFC Tools and Workflow Integration
+RFC Tools and Workflow Integration
 
 Successful RFC processes use tools that make submission and review frictionless:
 
-**Tool Options for Different Team Sizes**
+Tool Options for Different Team Sizes
 
 Small teams (5-15):
 - GitHub Issues + GitHub Discussions ($0-21/month depending on plan)
@@ -227,20 +227,20 @@ Large teams (50+):
 - Confluence self-hosted (free to download, internal hosting costs)
 - Custom internal system (for companies with thousands of RFCs)
 
-**GitHub-based RFC Workflow (Recommended for Technical Teams)**
+GitHub-based RFC Workflow (Recommended for Technical Teams)
 
 Use a dedicated `rfcs` repository with this structure:
 
 ```
 rfcs/
-├── text/
-│   ├── 0001-new-database-migration.md
-│   ├── 0002-microservice-architecture.md
-│   └── 0003-auth-system-redesign.md
-├── README.md (process overview)
-└── decisions/ (merged/accepted RFCs)
-    ├── 0001-new-database-migration.md
-    └── 0002-microservice-architecture.md
+ text/
+    0001-new-database-migration.md
+    0002-microservice-architecture.md
+    0003-auth-system-redesign.md
+ README.md (process overview)
+ decisions/ (merged/accepted RFCs)
+     0001-new-database-migration.md
+     0002-microservice-architecture.md
 ```
 
 Create a pull request for the RFC. GitHub labels and review process handle:
@@ -249,32 +249,32 @@ Create a pull request for the RFC. GitHub labels and review process handle:
 - Searchable history of all decisions
 - Built-in commenting and discussion
 
-## Real RFC Examples
+Real RFC Examples
 
-**Example 1: Microservices Migration (Complex, Cross-Team Impact)**
+Example 1: Microservices Migration (Complex, Cross-Team Impact)
 
 ```markdown
-# RFC: Migrate from Monolith to Microservices
+RFC: Migrate from Monolith to Microservices
 
-## Problem Statement
+Problem Statement
 Our monolithic Rails app has reached 200K LOC. Deployments take 45 minutes.
 Feature work in one domain blocks unrelated features. Database queries are
 slow due to N+1 problems across modules.
 
-## Proposed Solution
+Proposed Solution
 Migrate to microservices:
 1. Extract payment domain into separate service (3 month timeline)
 2. Extract user management domain (2 months)
 3. Extract notification domain (1 month)
 4. Keep core app for remaining features
 
-## Alternatives Considered
+Alternatives Considered
 1. Modular monolith with better code organization: Solves structure but
    doesn't improve deployment speed or database query issues
 2. Full microservices immediately: Too risky, requires 12-month rewrite
 3. Do nothing: Team velocity continues declining 15%/quarter
 
-## Timeline
+Timeline
 - Month 1: Design payment service API, set up infrastructure
 - Month 2: Extract payment logic, parallel test with existing app
 - Month 3: Cutover to payment microservice
@@ -282,7 +282,7 @@ Migrate to microservices:
 - Month 7: Extract notifications
 - Month 8: Evaluate results, decide next steps
 
-## Risks & Mitigation
+Risks & Mitigation
 - Risk: Distributed systems complexity increases debugging difficulty
   Mitigation: Implement structured logging (ELK stack, $500/month) and
   distributed tracing (Jaeger)
@@ -290,37 +290,37 @@ Migrate to microservices:
 - Risk: Network latency between services impacts performance
   Mitigation: Benchmark in staging, accept <100ms additional latency
 
-## Success Metrics
+Success Metrics
 - Deployment time reduced from 45 to 15 minutes
 - New feature time to ship reduced by 30%
 - Database query p99 latency reduced by 50%
 - Measure at end of each service extraction
 ```
 
-**Example 2: Engineering Process Change (Moderate Impact, Cross-Team)**
+Example 2: Engineering Process Change (Moderate Impact, Cross-Team)
 
 ```markdown
-# RFC: Implement Code Review SLA
+RFC: Implement Code Review SLA
 
-## Problem Statement
+Problem Statement
 Code reviews currently take 24-72 hours. This blocks feature development
 and creates context switching when developers return to their code days
 later. Team members report frustration waiting for reviews.
 
-## Proposed Solution
+Proposed Solution
 Implement 4-hour maximum code review SLA:
 - PRs opened during work hours: reviewed within 4 hours
 - PRs opened outside work hours: reviewed by 11 AM next business day
 - Reviewers add self to PR queue via rotation schedule
 - Small PRs (<200 lines) prioritized for faster turnaround
 
-## Implementation Details
+Implementation Details
 1. Create GitHub label: `waiting-review`
 2. Implement bot (GitHub Actions, free) that escalates PRs waiting >4h
 3. Assign reviewers via rotation (Alice week 1, Bob week 2, etc)
 4. Track SLA compliance in weekly metrics
 
-## Risks & Mitigation
+Risks & Mitigation
 - Risk: Forcing fast reviews reduces quality
   Mitigation: "Fast review" doesn't mean "thorough review." Use draft PRs
   and request feedback earlier. Measurement shows quality unchanged.
@@ -329,34 +329,34 @@ Implement 4-hour maximum code review SLA:
   Mitigation: Implement PR size guidelines (max 400 lines) first. Large PRs
   get assigned earlier in week.
 
-## Success Metrics
+Success Metrics
 - 90% of PRs reviewed within 4 hours
 - Average review time under 8 hours
 - Quality metrics (bugs found, regression rate) unchanged
 - Team satisfaction survey shows improvement
 
-## Timeline
+Timeline
 - Week 1: Communicate change, explain rationale
 - Week 2: Deploy bot, establish rotation
 - Week 3: Monitor and adjust expectations
 - Week 4: Review first weekly metrics
 ```
 
-## Running Efficient RFC Review Periods
+Running Efficient RFC Review Periods
 
 Standard 72-hour review period works well for most teams. However, optimize for:
 
-**Timing considerations:**
+Timing considerations:
 - Post RFCs Monday or Tuesday (gives team full week to review)
 - Avoid posting Friday afternoon (sits unreviewed over weekend)
 - Consider time zones (post 8-9 AM most accessible time zone)
 
-**Participation targets:**
+Participation targets:
 - Minimum 3 reviewers from different teams (ensures diverse perspective)
 - Target 1 comment per reviewer (questions, suggestions, concerns)
 - Decision-maker provides summary within 24 hours of review period end
 
-**Review efficiency checklist:**
+Review efficiency checklist:
 - [ ] Is the problem clearly stated? (Can someone unfamiliar understand?)
 - [ ] Are alternatives documented? (Shows author considered options)
 - [ ] Is implementation plan realistic? (Can team actually do this?)
@@ -365,7 +365,7 @@ Standard 72-hour review period works well for most teams. However, optimize for:
 
 If an RFC is missing any of these, request revisions before starting review period.
 
-## Learning from Decisions
+Learning from Decisions
 
 Every approved RFC is a learning opportunity. Monthly, pick one approved RFC and:
 
@@ -376,43 +376,43 @@ Every approved RFC is a learning opportunity. Monthly, pick one approved RFC and
 
 This practice creates organizational learning that compounds over time. New team members can read old RFCs and understand not just decisions, but the outcomes of those decisions.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Best Practice for Remote Team Decision Making Framework That](/best-practice-for-remote-team-decision-making-framework-that/)
 - [Remote Team Architecture Decision Record Template for Async](/remote-team-architecture-decision-record-template-for-async-/)
 - [How to Create Decision Log Documentation for Remote Teams](/how-to-create-decision-log-documentation-for-remote-teams-re/)
 - [How to Write Async Technical RFCs That Get Meaningful](/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
 - [Remote Team Async Decision-Making Framework](/remote-team-async-decision-making-framework/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Related Reading
+Related Reading
 
 - [Best Tools for Remote Team Async Decision Making 2026](/best-tools-for-remote-team-async-decision-making-2026/)
 - [Remote Team Async Decision-Making Framework](/remote-team-async-decision-making-framework/)
 - [Remote Team Architecture Decision Record Template for Async](/remote-team-architecture-decision-record-template-for-async-/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

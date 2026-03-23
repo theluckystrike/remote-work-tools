@@ -16,19 +16,19 @@ intent-checked: true
 
 {% raw %}
 
-Synchronous standups waste time for distributed teams spanning multiple time zones. Developers in Singapore finish their day as developers in San Francisco start their morning. A 15-minute standup forces either 7 AM or 8 PM calls for someone—every single day. Asynchronous standups solve this by letting team members update progress on their own schedule, consolidating updates into async-friendly formats that skip meetings entirely.
+Synchronous standups waste time for distributed teams spanning multiple time zones. Developers in Singapore finish their day as developers in San Francisco start their morning. A 15-minute standup forces either 7 AM or 8 PM calls for someone, every single day. Asynchronous standups solve this by letting team members update progress on their own schedule, consolidating updates into async-friendly formats that skip meetings entirely.
 
 Async standups require different structure than synchronous ones. They must be concise enough to read in 60 seconds per person, specific enough to surface blockers before they derail weeks of work, and standardized so readers develop pattern recognition instead of parsing free-form status reports.
 
 This guide covers the best async standup platforms, proven templates, and practical implementation workflows.
 
-## Why Async Standups Beat Synchronous Meetings
+Why Async Standups Beat Synchronous Meetings
 
 A distributed team across 5 time zones:
 
-- **Synchronous standup approach**: 15 minutes × 5 people × 250 working days = 312 hours annually wasted on meeting overlap/timezone awkwardness
-- **Async standup approach**: 2–3 minutes per person to write update + manager reading time = 30 hours annually
-- **Savings**: 282 hours per team per year (equivalent to 1.4 FTE)
+- Synchronous standup approach: 15 minutes × 5 people × 250 working days = 312 hours annually wasted on meeting overlap/timezone awkwardness
+- Async standup approach: 2–3 minutes per person to write update + manager reading time = 30 hours annually
+- Savings: 282 hours per team per year (equivalent to 1.4 FTE)
 
 Beyond time savings:
 
@@ -44,15 +44,15 @@ Beyond time savings:
 
 Async standups also create written records useful for performance reviews, project retrospectives, and onboarding documentation.
 
-## The Ideal Async Standup Template
+The Ideal Async Standup Template
 
 Effective templates follow three principles:
 
-1. **Specificity without verbosity** — Enough detail to surface issues, brief enough for skim-reading
-2. **Standardization across team** — Same questions every day so pattern recognition develops
-3. **Action-oriented focus** — What did you finish? What are you working on? What's blocking you?
+1. Specificity without verbosity. Enough detail to surface issues, brief enough for skim-reading
+2. Standardization across team. Same questions every day so pattern recognition develops
+3. Action-oriented focus. What did you finish? What are you working on? What's blocking you?
 
-### Minimal Template (2–3 Minutes to Complete)
+Minimal Template (2–3 Minutes to Complete)
 
 ```
 YESTERDAY
@@ -72,7 +72,7 @@ HELP NEEDED
 - [Specific request: "Need design decision by EOD" or "Architecture review on PR #1234"]
 ```
 
-**Example of ideal standup using this template:**
+Example of ideal standup using this template:
 
 ```
 YESTERDAY
@@ -84,7 +84,7 @@ TODAY
 - Running load testing on auth endpoints
 
 BLOCKERS
-None—auth module testing complete.
+None, auth module testing complete.
 
 HELP NEEDED
 Need @alice (design) to review new login modal by EOD to unblock frontend integration tomorrow.
@@ -92,14 +92,14 @@ Need @alice (design) to review new login modal by EOD to unblock frontend integr
 
 Reading time: 30 seconds. Contains all essential information.
 
-**Contrast with verbose standup (doesn't work):**
+Contrast with verbose standup (doesn't work):
 
 ```
 YESTERDAY
 Had a productive day. Fixed the authentication system which was having some issues with email delivery. Also refactored some code that was messy. Started integrating the new email service provider into the auth flow. The testing is going well and we should be on track.
 
 TODAY
-More of the same—continuing with auth integration work and making sure tests pass. There's a lot going on but I'm managing it well. Hopefully we'll be done soon.
+More of the same, continuing with auth integration work and making sure tests pass. There's a lot going on but I'm managing it well. Hopefully we'll be done soon.
 
 BLOCKERS
 Not really any blockers at the moment.
@@ -110,14 +110,14 @@ Might need some design help soon but I'll let you know.
 
 Reading time: 2 minutes. Contains almost no actionable information.
 
-## Proven Async Standup Tools
+Proven Async Standup Tools
 
-### 1. Geekbot (Best for Slack-Native Teams)
+1. Geekbot (Best for Slack-Native Teams)
 
-**Platform:** Slack (integrates directly into Slack workflow)
-**Price:** Free tier (up to 5 team members); Pro tier $5/member/month
-**Setup time:** 5 minutes
-**Learning curve:** Minimal (native Slack integration)
+Platform: Slack (integrates directly into Slack workflow)
+Price: Free tier (up to 5 team members); Pro tier $5/member/month
+Setup time: 5 minutes
+Learning curve: Minimal (native Slack integration)
 
 #### How It Works
 
@@ -127,7 +127,7 @@ Geekbot posts a reminder in Slack at your configured time (e.g., 9 AM user's loc
 
 ```
 Standup name: Daily Standup
-Time: 9 AM (each person's timezone—auto-detected)
+Time: 9 AM (each person's timezone, auto-detected)
 Channel: #daily-standup
 Questions:
 1. What did you accomplish yesterday?
@@ -148,40 +148,40 @@ Message thread: Replies are threaded, keeping channel organized
 
 #### Strengths
 
-- **Zero extra tools**: Lives in Slack, team uses nothing new
-- **Automatic timezone handling**: Each person submits at their local 9 AM, no awkward early/late calls
-- **Searchable archive**: All standups indexed in Slack search
-- **Threaded conversations**: Asynchronous follow-up on blockers doesn't clutter main channel
-- **Integrations with other tools**: Can connect to Jira, GitHub (optionally post standup summaries)
+- Zero extra tools: Lives in Slack, team uses nothing new
+- Automatic timezone handling: Each person submits at their local 9 AM, no awkward early/late calls
+- Searchable archive: All standups indexed in Slack search
+- Threaded conversations: Asynchronous follow-up on blockers doesn't clutter main channel
+- Integrations with other tools: Can connect to Jira, GitHub (optionally post standup summaries)
 
 #### Weaknesses
 
-- **Limited customization**: Can only use Slack UI, no advanced formatting
-- **Slack-only**: Requires Slack workspace; no standalone use
-- **Pricing for large teams**: $5/month × 50 people = $250/month for enterprise
+- Limited customization: Can only use Slack UI, no advanced formatting
+- Slack-only: Requires Slack workspace; no standalone use
+- Pricing for large teams: $5/month × 50 people = $250/month for enterprise
 
 #### Pricing Breakdown
 
-- **Free**: Up to 5 team members, unlimited standups
-- **Pro**: $5 per active team member per month
+- Free: Up to 5 team members, unlimited standups
+- Pro: $5 per active team member per month
  - 10 people: $50/month
  - 25 people: $125/month
  - 50 people: $250/month
 ---
 
-### 2. Standuply (Slack-Native with Advanced Analytics)
+2. Standuply (Slack-Native with Advanced Analytics)
 
-## Table of Contents
+Table of Contents
 
 - [Comparison Table: Async Standup Tools](#comparison-table-async-standup-tools)
 - [Implementation Playbook: 5-Step Rollout](#implementation-playbook-5-step-rollout)
 - [Handling Common Async Standup Challenges](#handling-common-async-standup-challenges)
 - [Advanced: Connecting Standup to Jira/GitHub](#advanced-connecting-standup-to-jiragithub)
 
-**Platform:** Slack
-**Price:** Free tier; paid starts at $2.50/member/month
-**Setup time:** 5 minutes
-**Learning curve:** Minimal
+Platform: Slack
+Price: Free tier; paid starts at $2.50/member/month
+Setup time: 5 minutes
+Learning curve: Minimal
 
 #### How It Works
 
@@ -189,48 +189,48 @@ Similar to Geekbot but adds analytics dashboard showing team velocity, commitmen
 
 #### Key Features
 
-- **Questions** — Customize questions per team (engineers, marketing, design teams can use different templates)
-- **Analytics Dashboard** — Track blockers, completion rates, team health metrics
-- **Slack integration** — Native Slack reminders and threaded responses
-- **Integration with Jira** — Link commits/pull requests to standup items
-- **Recurring patterns** — Identifies recurring blockers (e.g., "design reviews" appear in 40% of blockers every Tuesday)
+- Questions. Customize questions per team (engineers, marketing, design teams can use different templates)
+- Analytics Dashboard. Track blockers, completion rates, team health metrics
+- Slack integration. Native Slack reminders and threaded responses
+- Integration with Jira. Link commits/pull requests to standup items
+- Recurring patterns. Identifies recurring blockers (e.g., "design reviews" appear in 40% of blockers every Tuesday)
 
 #### Example Dashboard Data
 
 Standuply tracks over 2 weeks:
-- **Completion rate**: 94% of team submitted standup on time
-- **Top blockers**: Design reviews, waiting for external vendor feedback, infrastructure issues
-- **Commit vs. completion**: 85% of yesterday's commitments completed today (identifies overcommitment)
-- **Team sentiment**: Can extract sentiment from written responses (improving/declining morale)
+- Completion rate: 94% of team submitted standup on time
+- Top blockers: Design reviews, waiting for external vendor feedback, infrastructure issues
+- Commit vs. completion: 85% of yesterday's commitments completed today (identifies overcommitment)
+- Team sentiment: Can extract sentiment from written responses (improving/declining morale)
 
 #### Strengths
 
-- **Actionable analytics**: Managers see patterns managers miss (recurring blockers you can actually fix)
-- **Low-friction Slack UI**: Identical to Geekbot ease of use
-- **Better for scaling**: Per-team configuration (each team's template differs)
-- **Reporting for executives**: Dashboard export for board meetings or performance reviews
+- Actionable analytics: Managers see patterns managers miss (recurring blockers you can actually fix)
+- Low-friction Slack UI: Identical to Geekbot ease of use
+- Better for scaling: Per-team configuration (each team's template differs)
+- Reporting for executives: Dashboard export for board meetings or performance reviews
 
 #### Weaknesses
 
-- **Analytics data takes time to accumulate**: Patterns only emerge after 2–3 weeks
-- **Dashboard might encourage micro-management**: Manager obsesses over daily metrics instead of team autonomy
-- **Same Slack-only constraint** as Geekbot
+- Analytics data takes time to accumulate: Patterns only emerge after 2–3 weeks
+- Dashboard might encourage micro-management: Manager obsesses over daily metrics instead of team autonomy
+- Same Slack-only constraint as Geekbot
 
 #### Pricing
 
-- **Free**: Up to 5 team members
-- **Starter**: $2.50 per member per month (minimum 10 members = $25/month)
-- **Professional**: $5 per member per month
-- **Enterprise**: Custom pricing
+- Free: Up to 5 team members
+- Starter: $2.50 per member per month (minimum 10 members = $25/month)
+- Professional: $5 per member per month
+- Enterprise: Custom pricing
 
 ---
 
-### 3. Range (All-in-One Team Communication Platform)
+3. Range (All-in-One Team Communication Platform)
 
-**Platform:** Web, Slack integration (dual interface)
-**Price:** Free tier; paid starts at $10/person/month
-**Setup time:** 15 minutes (more setup than Slack-native tools)
-**Learning curve:** Medium (introduces new platform)
+Platform: Web, Slack integration (dual interface)
+Price: Free tier; paid starts at $10/person/month
+Setup time: 15 minutes (more setup than Slack-native tools)
+Learning curve: Medium (introduces new platform)
 
 #### How It Works
 
@@ -238,12 +238,12 @@ Range is a dedicated platform (not Slack-only) that combines async updates, goal
 
 #### Key Features
 
-- **Daily standups** — Customizable questions, threaded responses
-- **Weekly goals** — Teams set weekly OKRs, track progress against standup updates
-- **Celebration feed** — Team shares wins, building morale on async teams
-- **Integrations** — Syncs with Slack, Jira, GitHub, calendar (Google/Outlook)
-- **Team analytics** — Identifies focus areas, commitment tracking, completion rates
-- **1-on-1 meeting transcripts** — Integration with video call platforms for async-friendly meeting notes
+- Daily standups. Customizable questions, threaded responses
+- Weekly goals. Teams set weekly OKRs, track progress against standup updates
+- Celebration feed. Team shares wins, building morale on async teams
+- Integrations. Syncs with Slack, Jira, GitHub, calendar (Google/Outlook)
+- Team analytics. Identifies focus areas, commitment tracking, completion rates
+- 1-on-1 meeting transcripts. Integration with video call platforms for async-friendly meeting notes
 
 #### Real-World Usage
 
@@ -267,34 +267,34 @@ Team sees these in daily feed
 
 #### Strengths
 
-- **Unified platform**: Combines standups, goals, and team engagement in single system
-- **Better than Slack-only for deep collaboration**: More structure than Slack threads
-- **Goal tracking**: Links standups to weekly OKRs (see if daily work maps to goals)
-- **Web interface**: Accessible from anywhere, phone-friendly
-- **Better for async retrospectives**: Built-in structures for weekly team reflection
+- Unified platform: Combines standups, goals, and team engagement in single system
+- Better than Slack-only for deep collaboration: More structure than Slack threads
+- Goal tracking: Links standups to weekly OKRs (see if daily work maps to goals)
+- Web interface: Accessible from anywhere, phone-friendly
+- Better for async retrospectives: Built-in structures for weekly team reflection
 
 #### Weaknesses
 
-- **Requires adoption of new platform**: Team must leave Slack to check Range
-- **Expensive**: $10/person/month = $250–500 per team
-- **Slower setup**: Requires onboarding, config, integration setup
-- **Overkill for small teams**: Better for 15+ person teams
+- Requires adoption of new platform: Team must leave Slack to check Range
+- Expensive: $10/person/month = $250–500 per team
+- Slower setup: Requires onboarding, config, integration setup
+- Overkill for small teams: Better for 15+ person teams
 
 #### Pricing
 
-- **Free**: Up to 5 team members, limited features
-- **Starter**: $10 per person per month (minimum 5 people = $50/month)
-- **Scale**: $15 per person per month
-- **Enterprise**: Custom pricing
+- Free: Up to 5 team members, limited features
+- Starter: $10 per person per month (minimum 5 people = $50/month)
+- Scale: $15 per person per month
+- Enterprise: Custom pricing
 
 ---
 
-### 4. Custom Slack Workflow (DIY, Free)
+4. Custom Slack Workflow (DIY, Free)
 
-**Platform:** Slack Workflow Builder
-**Price:** Free (included with Slack)
-**Setup time:** 30 minutes
-**Learning curve:** Medium (Slack Workflow Builder syntax)
+Platform: Slack Workflow Builder
+Price: Free (included with Slack)
+Setup time: 30 minutes
+Learning curve: Medium (Slack Workflow Builder syntax)
 
 For teams without budget for third-party tools, Slack's native Workflow Builder enables custom standup automation.
 
@@ -314,7 +314,7 @@ For teams without budget for third-party tools, Slack's native Workflow Builder 
 Trigger: Daily at 9 AM UTC
 
 Step 1: Send message to #daily-standup
-"Daily standup reminder—reply in thread or DM @standupbot"
+"Daily standup reminder, reply in thread or DM @standupbot"
 
 Step 2: DM each team member
 "1. What did you accomplish yesterday?
@@ -331,17 +331,17 @@ Takes collected responses, formats, posts to #daily-standup
 
 #### Limitations vs. Dedicated Tools
 
-- **No timezone awareness**: Trigger is UTC-only (doesn't handle distributed teams)
-- **Limited analytics**: Manual review of responses, no trending/insights
-- **Setup complexity**: Higher initial config, harder to iterate
-- **No reminder re-posts**: If user misses 9 AM reminder, no followup
+- No timezone awareness: Trigger is UTC-only (doesn't handle distributed teams)
+- Limited analytics: Manual review of responses, no trending/insights
+- Setup complexity: Higher initial config, harder to iterate
+- No reminder re-posts: If user misses 9 AM reminder, no followup
 
 #### When DIY Slack Workflow Makes Sense
 
-- **Budget: $0** (nothing to spend)
-- **Team size: <10 people** (manual review is feasible)
-- **Simple template** (3–4 questions only)
-- **Single timezone** (early morning standup for everyone works)
+- Budget: $0 (nothing to spend)
+- Team size: <10 people (manual review is feasible)
+- Simple template (3–4 questions only)
+- Single timezone (early morning standup for everyone works)
 
 #### Advanced Workflow Customization
 
@@ -381,26 +381,26 @@ Deploy on Heroku or Lambda for free/cheap hosting.
 
 ---
 
-## Comparison Table: Async Standup Tools
+Comparison Table: Async Standup Tools
 
 | Feature | Geekbot | Standuply | Range | Slack Workflow | Custom Bot |
 |---------|---------|-----------|-------|---|---|
-| **Platform** | Slack | Slack | Web + Slack | Slack | Slack |
-| **Setup time** | 5 min | 5 min | 15 min | 30 min | 2 hours |
-| **Learning curve** | Minimal | Minimal | Medium | Medium | High |
-| **Timezone support** | Automatic per-user | Automatic per-user | Manual setup | No (UTC only) | Custom |
-| **Analytics** | None | Dashboard | Goals + analytics | None | Build custom |
-| **Price** | Free–$5/mo | Free–$2.50/mo | Free–$10/mo | Free | Free (hosting cost) |
-| **Team size: <10** | ✓ Best | ✓ Best | ✗ Overkill | ✓ Good | ✗ Overkill |
-| **Team size: 10–50** | ✓ Good | ✓ Better | ✓ Good | ✗ Scales poorly | ✓ Good |
-| **Team size: 50+** | ✗ Expensive | ✓ Good | ✗ Very expensive | ✗ Poor | ✓ Best |
-| **Searchable archive** | Yes | Yes | Yes | Yes | Custom |
+| Platform | Slack | Slack | Web + Slack | Slack | Slack |
+| Setup time | 5 min | 5 min | 15 min | 30 min | 2 hours |
+| Learning curve | Minimal | Minimal | Medium | Medium | High |
+| Timezone support | Automatic per-user | Automatic per-user | Manual setup | No (UTC only) | Custom |
+| Analytics | None | Dashboard | Goals + analytics | None | Build custom |
+| Price | Free–$5/mo | Free–$2.50/mo | Free–$10/mo | Free | Free (hosting cost) |
+| Team size: <10 |  Best |  Best |  Overkill |  Good |  Overkill |
+| Team size: 10–50 |  Good |  Better |  Good |  Scales poorly |  Good |
+| Team size: 50+ |  Expensive |  Good |  Very expensive |  Poor |  Best |
+| Searchable archive | Yes | Yes | Yes | Yes | Custom |
 
 ---
 
-## Implementation Playbook: 5-Step Rollout
+Implementation Playbook: 5-Step Rollout
 
-### Step 1: Choose Template (Day 1)
+Step 1: Choose Template (Day 1)
 
 Decide on standard questions for your team:
 
@@ -422,9 +422,9 @@ OPTION C: Goal-Aligned (3 minutes)
 - Blockers to hitting goals?
 ```
 
-**Recommendation for most teams:** Option B (detailed). Provides enough specificity to surface issues without overwhelming people.
+Recommendation for most teams: Option B (detailed). Provides enough specificity to surface issues without overwhelming people.
 
-### Step 2: Select Tool (Day 1)
+Step 2: Select Tool (Day 1)
 
 Use this decision tree:
 
@@ -444,9 +444,9 @@ Custom requirements or large team (50+)?
   → NO: Use Geekbot
 ```
 
-For a **10-person engineering team** starting out: **Geekbot Free** (no cost, 5-minute setup, zero learning curve).
+For a 10-person engineering team starting out: Geekbot Free (no cost, 5-minute setup, zero learning curve).
 
-### Step 3: Configure (Days 1–2)
+Step 3: Configure (Days 1–2)
 
 Set up tool with team template:
 
@@ -462,7 +462,7 @@ Questions:
 Sample response format shown to team
 ```
 
-### Step 4: Introduce to Team (Day 3)
+Step 4: Introduce to Team (Day 3)
 
 Send announcement:
 
@@ -493,7 +493,7 @@ TIMEZONE EXAMPLE
 First standup: Monday 9 AM. Questions?
 ```
 
-### Step 5: Iterate After 2 Weeks (Days 15–21)
+Step 5: Iterate After 2 Weeks (Days 15–21)
 
 Gather feedback:
 
@@ -503,50 +503,50 @@ Gather feedback:
 
 Common iterations after 2 weeks:
 
-**If standups are too brief:**
+If standups are too brief:
 Add question: "What are you learning or what surprised you today?"
 
-**If blockers never surface:**
+If blockers never surface:
 Add question specifically: "What will prevent you from hitting your goal?"
 
-**If people are over-committing:**
+If people are over-committing:
 Ask: "How confident are you in completing today's goals? 1–5 scale"
 
-**If timezone still causing issues:**
+If timezone still causing issues:
 Switch to fixed time (e.g., 8 AM UTC) and document why.
 
 ---
 
-## Handling Common Async Standup Challenges
+Handling Common Async Standup Challenges
 
-### Challenge 1: Time Zone Misalignment (Distributed Teams)
+Challenge 1: Time Zone Misalignment (Distributed Teams)
 
-**Problem**: 10 AM standup means 2 AM for someone.
+Problem: 10 AM standup means 2 AM for someone.
 
-**Solutions**:
+Solutions:
 
-1. **Per-user local time** (Geekbot, Standuply) — Each person submits at their 9 AM
- - Pros: Everyone happy, no early mornings
- - Cons: Standup doesn't consolidate immediately
+1. Per-user local time (Geekbot, Standuply). Each person submits at their 9 AM
+ - Everyone happy, no early mornings
+ - Standup doesn't consolidate immediately
 
-2. **Fixed UTC time** — Everyone submits at agreed time (e.g., 8 AM UTC)
- - Pros: All responses in one thread, immediate context
- - Cons: Early morning or evening for someone
+2. Fixed UTC time. Everyone submits at agreed time (e.g., 8 AM UTC)
+ - All responses in one thread, immediate context
+ - Early morning or evening for someone
 
-3. **Hybrid approach** — Two standup windows
+3. Hybrid approach. Two standup windows
  - Asia window (morning): 8 AM SGT
  - Americas window (morning): 8 AM PT
  - Both post to same #daily-standup channel
  - Everyone reads both channels
  - Slightly more overhead but fairest
 
-**Recommendation:** Start with per-user local time (Geekbot default). If team size grows, transition to fixed UTC time when critical mass is in 2–3 regions.
+Start with per-user local time (Geekbot default). If team size grows, transition to fixed UTC time when critical mass is in 2–3 regions.
 
-### Challenge 2: Incomplete or Vague Responses
+Challenge 2: Incomplete or Vague Responses
 
-**Problem**: People submit one-word answers ("Fine", "Coding", "Nope").
+Problem: People submit one-word answers ("Fine", "Coding", "Nope").
 
-**Solution**: Make template concrete with examples.
+Solution: Make template concrete with examples.
 
 ```
 BEFORE (vague)
@@ -554,16 +554,16 @@ What did you accomplish yesterday?
 
 AFTER (with example)
 What did you accomplish yesterday?
-Example: "Completed PR#1234 (auth refactoring), fixed login redirect bug in production"
+"Completed PR#1234 (auth refactoring), fixed login redirect bug in production"
 ```
 
 Include sample responses in Geekbot setup or first week reminders.
 
-### Challenge 3: Blocker Never Gets Resolved
+Challenge 3: Blocker Never Gets Resolved
 
-**Problem**: Person mentions "Waiting on design review" every day for 2 weeks—no one acts on it.
+Problem: Person mentions "Waiting on design review" every day for 2 weeks, no one acts on it.
 
-**Solution**: Manager has explicit action from blockers.
+Solution: Manager has explicit action from blockers.
 
 ```
 Manager's daily workflow:
@@ -577,30 +577,30 @@ Manager's daily workflow:
    → Recurring blocker = environment problem to fix, not individual problem
 ```
 
-### Challenge 4: Standups Become Performance Micromanagement
+Challenge 4: Standups Become Performance Micromanagement
 
-**Problem**: Manager starts critiquing "you only finished 1 task yesterday" or "why so many blockers?"
+Problem: Manager starts critiquing "you only finished 1 task yesterday" or "why so many blockers?"
 
-**Solution**: Establish standup norms upfront.
+Solution: Establish standup norms upfront.
 
 ```
 Standup Guidelines (post in #daily-standup channel):
-✓ Standups are for transparency, not performance measurement
-✓ Some days you'll accomplish 1 big thing, some days 5 small things—both are fine
-✓ Blockers are expected and healthy, not failures
-✓ Private concerns get addressed in 1-on-1s, not public standups
-✓ Everyone's work is valued regardless of task count
+ Standups are for transparency, not performance measurement
+ Some days you'll accomplish 1 big thing, some days 5 small things, both are fine
+ Blockers are expected and healthy, not failures
+ Private concerns get addressed in 1-on-1s, not public standups
+ Everyone's work is valued regardless of task count
 ```
 
 Make it explicit: standups are for coordination, not management use.
 
 ---
 
-## Advanced: Connecting Standup to Jira/GitHub
+Advanced: Connecting Standup to Jira/GitHub
 
 Link standup updates to actual work:
 
-**Jira integration** (Standuply or custom):
+Jira integration (Standuply or custom):
 
 ```
 "What did you accomplish yesterday?"
@@ -609,7 +609,7 @@ System auto-links to JIRA ticket, pulls ticket title
 Displays: "Completed JIRA-1234 (Authentication Refactoring)"
 ```
 
-**GitHub integration** (Standuply or Range):
+GitHub integration (Standuply or Range):
 
 ```
 System detects PR references: #1234, #1235
@@ -621,34 +621,34 @@ This creates accountability link: standup items map to closed issues and merged 
 
 ---
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to complete this setup?**
+How long does it take to complete this setup?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Manage Standups for a Remote QA Team of 7](/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
 - [Best Tools for Remote Team Async Standups in 2026](/best-tools-for-remote-team-async-standups-2026/)
 - [How to Create Async Standup Templates in Slack](/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
 - [How to Run Remote Engineering Standups That Work](/how-to-run-remote-engineering-standups/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

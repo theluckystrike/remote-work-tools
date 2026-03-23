@@ -614,9 +614,9 @@ voice-checked: true
 
 {% raw %}
 
-Use Loom or OBS Studio to record screen-share code walkthroughs, then share recordings with timestamped comments for async collaboration across time zones. Async code pairing with recorded screen shares transforms how distributed teams collaborate on complex problems without coordinating live sessions. Developers record while walking through code, solving problems, or implementing features—allowing teammates to review, pause, and respond on their own schedule. This guide covers recording setup, platform selection, and effective collaboration patterns for remote development teams.
+Use Loom or OBS Studio to record screen-share code walkthroughs, then share recordings with timestamped comments for async collaboration across time zones. Async code pairing with recorded screen shares transforms how distributed teams collaborate on complex problems without coordinating live sessions. Developers record while walking through code, solving problems, or implementing features, allowing teammates to review, pause, and respond on their own schedule. This guide covers recording setup, platform selection, and effective collaboration patterns for remote development teams.
 
-## Table of Contents
+Table of Contents
 
 - [Why Async Code Pairing Works](#why-async-code-pairing-works)
 - [Prerequisites](#prerequisites)
@@ -624,18 +624,18 @@ Use Loom or OBS Studio to record screen-share code walkthroughs, then share reco
 - [Getting Started Checklist](#getting-started-checklist)
 - [Troubleshooting](#troubleshooting)
 
-## Why Async Code Pairing Works
+Why Async Code Pairing Works
 
 Traditional synchronous pair programming requires both developers to be available simultaneously, which becomes challenging when team members span multiple time zones. Async code pairing solves this by decoupling the collaboration from real-time availability while preserving the benefits of shared problem-solving and knowledge transfer.
 
-### Key Benefits
+Key Benefits
 
 - Time zone flexibility: Team members contribute when it's most productive for them
 - Async review: Reviewers can pause, rewind, and re-watch complex explanations
 - Documentation: Sessions become recorded artifacts teams can reference later
 - Focused work: Developers can dive deep into problems without interrupting others' flow
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -645,26 +645,26 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Set Up Your Recording Environment
+Step 1: Set Up Your Recording Environment
 
 Before starting async code pairing sessions, ensure your recording setup produces clear, professional content.
 
-### Screen Recording Tools
+Screen Recording Tools
 
 Several tools excel at screen recording for technical content:
 
-**Loom** offers quick recording directly from browser extensions and desktop apps, with automatic sharing links and timestamped comments. Its free tier covers most team needs.
+Loom offers quick recording directly from browser extensions and desktop apps, with automatic sharing links and timestamped comments. Its free tier covers most team needs.
 
-**CleanShot X** (macOS) provides high-quality recordings with built-in editing capabilities, perfect for polishing before sharing.
+CleanShot X (macOS) provides high-quality recordings with built-in editing capabilities, perfect for polishing before sharing.
 
-**OBS Studio** delivers professional-grade recording with extensive customization options, ideal for teams wanting full control over output quality.
+OBS Studio delivers professional-grade recording with extensive customization options, ideal for teams wanting full control over output quality.
 
-### Recording Settings
+Recording Settings
 
 Configure your recordings for clarity:
 
 ```bash
-# Recommended OBS Studio settings
+Recommended OBS Studio settings
 - Resolution: 1920x1080 (or native display)
 - Frame rate: 30 fps
 - Video bitrate: 4500 kbps
@@ -672,7 +672,7 @@ Configure your recordings for clarity:
 - Output format: MP4
 ```
 
-### Audio Quality Matters
+Audio Quality Matters
 
 Clear audio distinguishes useful recordings from frustrating ones:
 
@@ -681,18 +681,18 @@ Clear audio distinguishes useful recordings from frustrating ones:
 - Speak clearly and at a consistent volume
 - Consider using a pop filter to reduce plosive sounds
 
-### Step 2: Structuring Your Async Code Pairing Session
+Step 2: Structuring Your Async Code Pairing Session
 
 Effective async code sessions follow a deliberate structure that helps reviewers follow along and provide meaningful feedback.
 
-### Before You Record
+Before You Record
 
 1. Define the goal: What problem are you solving or what are you implementing?
 2. Prepare the context: Have relevant files open and dependencies ready
 3. Set up your IDE: Use a clean, readable font size (18-24pt) and syntax theme
 4. Test audio and video: Verify everything works before starting
 
-### Recording Template
+Recording Template
 
 Follow this structure for consistent, reviewable sessions:
 
@@ -719,17 +719,17 @@ Follow this structure for consistent, reviewable sessions:
 - Mention follow-up items if any
 ```
 
-### Example Opening Script
+Example Opening Script
 
 > "Hey team, I'm going to work through implementing the user authentication flow today. We'll add OAuth2 support to the login endpoint. The goal is to get a working implementation that handles token refresh properly. I've set aside about 20 minutes for this session. Let me know if you have thoughts on the approach."
 
-## Best Practices for Async Code Pairing
+Best Practices for Async Code Pairing
 
-### Be Verbose, Not Quiet
+Be Verbose, Not Quiet
 
-Unlike live pair programming where you can ask questions instantly, recorded sessions must stand alone. Explain your thinking process, even when it seems obvious—future you (or a teammate) will appreciate the context.
+Unlike live pair programming where you can ask questions instantly, recorded sessions must stand alone. Explain your thinking process, even when it seems obvious, future you (or a teammate) will appreciate the context.
 
-### Use Visual Cues
+Use Visual Cues
 
 Help viewers follow along by:
 
@@ -738,19 +738,19 @@ Help viewers follow along by:
 - Opening file tabs to show the full context
 - Drawing on screen (available in most recording tools) for annotations
 
-### Handle Mistakes Naturally
+Handle Mistakes Naturally
 
-When you make mistakes, don't edit them out—show the debugging process. It's often the most valuable part for reviewers learning your approach.
+When you make mistakes, don't edit them out, show the debugging process. It's often the most valuable part for reviewers learning your approach.
 
-### Keep Sessions Focused
+Keep Sessions Focused
 
 Aim for 15-30 minute recordings. Longer sessions become difficult to review; break complex topics into multiple shorter sessions.
 
-### Step 3: Code Examples: Async Code Pairing Workflow
+Step 3: Code Examples: Async Code Pairing Workflow
 
 Here's how to structure an async code pairing workflow using common tools:
 
-### Using Loom with GitHub
+Using Loom with GitHub
 
 ```javascript
 // After recording your session:
@@ -780,17 +780,17 @@ const asyncCodePairingWorkflow = {
 };
 ```
 
-### Async Code Review Integration
+Async Code Review Integration
 
 ```yaml
-# GitHub PR description template
-### Step 4: Async Code Pairing Session
+GitHub PR description template
+Step 4: Async Code Pairing Session
 
-**Goal:** Implement user session refresh token handling
+Goal: Implement user session refresh token handling
 
-**Recording:** [Loom Link](https://loom.com/...)
+Recording: [Loom Link](https://loom.com/...)
 
-**Timestamps:**
+Timestamps:
 - 0:00 - Introduction and goal
 - 1:30 - Current code overview
 - 3:45 - Starting implementation
@@ -798,28 +798,28 @@ const asyncCodePairingWorkflow = {
 - 12:00 - Testing the solution
 - 15:30 - Summary
 
-**Questions for reviewer:**
+Questions for reviewer:
 1. Is the token refresh logic secure?
 2. Should we add retry logic for failed refreshes?
 3. Any concerns with the error handling approach?
 
-**Related files:**
+Related files:
 - `src/auth/token-service.ts`
 - `src/api/middleware/auth.ts`
 - `tests/auth/token-service.test.ts`
 ```
 
-### Step 5: Tools for Async Collaboration
+Step 5: Tools for Async Collaboration
 
 Beyond recording, several tools enhance the async code pairing workflow:
 
-### Code Discussion Platforms
+Code Discussion Platforms
 
-**GitHub Discussions** in repositories provide a place for async responses to code pairing sessions. Teammates can reference specific lines from recordings and create follow-up issues.
+GitHub Discussions in repositories provide a place for async responses to code pairing sessions. Teammates can reference specific lines from recordings and create follow-up issues.
 
-**Slack threads** work well for quick async feedback. Create dedicated channels for code pairing sessions to keep discussions organized.
+Slack threads work well for quick async feedback. Create dedicated channels for code pairing sessions to keep discussions organized.
 
-### Documentation Integration
+Documentation Integration
 
 Link recordings in:
 
@@ -828,25 +828,25 @@ Link recordings in:
 - Onboarding documentation for team processes
 - Ticket comments for complex implementations
 
-### Step 6: Common Challenges and Solutions
+Step 6: Common Challenges and Solutions
 
-### Challenge: Recordings Feel One-Way
+Challenge: Recordings Feel One-Way
 
 Solution: Ask specific questions throughout and explicitly request feedback. End sessions with 2-3 specific questions reviewers should address.
 
-### Challenge: Time Zone Coordination Still Difficult
+Challenge: Time Zone Coordination Still Difficult
 
 Solution: Establish "office hours" for async response. Even if sessions are async, agree on SLA for feedback (e.g., "review within 24 hours").
 
-### Challenge: Recordings Get Lost
+Challenge: Recordings Get Lost
 
 Solution: Maintain a central index of async code pairing recordings. Use consistent naming conventions and link recordings to issues/PRs.
 
-### Challenge: Quality Inconsistency
+Challenge: Quality Inconsistency
 
 Solution: Create a brief recording guide for your team. Share examples of effective sessions as models.
 
-### Step 7: Measuring Async Code Pairing Success
+Step 7: Measuring Async Code Pairing Success
 
 Track these metrics to improve your async collaboration:
 
@@ -856,7 +856,7 @@ Track these metrics to improve your async collaboration:
 - Knowledge sharing: Are recordings being referenced later?
 - Team satisfaction: Do developers feel productive with async workflows?
 
-## Getting Started Checklist
+Getting Started Checklist
 
 Before your first async code pairing session:
 
@@ -868,49 +868,49 @@ Before your first async code pairing session:
 - [ ] Share the workflow with your team
 - [ ] Schedule your first async code pairing session
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to do async code pairing with recorded screen share?**
+How long does it take to do async code pairing with recorded screen share?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Async Code Review Process Without Zoom Calls Step by Step](/async-code-review-process-without-zoom-calls-step-by-step/)
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 - [Remote Code Review Tools Comparison 2026](/remote-code-review-tools-comparison-2026/)
 - [Best Screen Recording Tools for Async Communication](/best-screen-recording-async-communication/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -20,13 +20,13 @@ Automate your dev environment setup by writing shell scripts for package install
 
 This guide walks through each approach with copy-paste examples you can adapt immediately, from a basic bash setup script to a full docker-compose stack and an Ansible playbook.
 
-## Why Automate Your Development Environment
+Why Automate Your Development Environment
 
-Manual setup processes are error-prone and difficult to reproduce. When you configure a machine by hand, you accumulate subtle differences over time—specific package versions, custom shell aliases, project-specific tools—that never get documented. Team members joining a project inherit inconsistent setups, leading to "works on my machine" bugs and wasted debugging time.
+Manual setup processes are error-prone and difficult to reproduce. When you configure a machine by hand, you accumulate subtle differences over time, specific package versions, custom shell aliases, project-specific tools, that never get documented. Team members joining a project inherit inconsistent setups, leading to "works on my machine" bugs and wasted debugging time.
 
 Automation solves these problems by codifying your environment as version-controlled configuration. When your setup lives in code, you can review changes through pull requests, roll back problematic updates, and apply identical configurations across any number of machines. New team members can go from zero to a fully configured development environment in minutes rather than days.
 
-## Starting Simple: Shell Scripts
+Starting Simple: Shell Scripts
 
 The most accessible approach to environment automation uses shell scripts. Even basic bash scripts that automate package installation significantly reduce setup time and ensure consistency.
 
@@ -36,45 +36,45 @@ A straightforward setup script might look like this:
 #!/bin/bash
 set -e
 
-# Update package lists
+Update package lists
 sudo apt update && sudo apt upgrade -y
 
-# Install essential tools
+Install essential tools
 sudo apt install -y git curl wget vim unzip zsh
 
-# Install programming language runtimes
+Install programming language runtimes
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 
-# Configure git
+Configure git
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 
-# Install Oh My Zsh
+Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 ```
 
-This script handles the initial machine configuration. Run it on a fresh Ubuntu machine and you get a consistent baseline setup in minutes. The script is version-controllable—you can track changes, branch for different OS variants, and review modifications before applying them.
+This script handles the initial machine configuration. Run it on a fresh Ubuntu machine and you get a consistent baseline setup in minutes. The script is version-controllable, you can track changes, branch for different OS variants, and review modifications before applying them.
 
 For project-specific dependencies, create scripts within each repository:
 
 ```bash
 #!/bin/bash
-# project-setup.sh - Run from project root
+project-setup.sh - Run from project root
 
-# Install Node.js dependencies
+Install Node.js dependencies
 npm install
 
-# Copy environment configuration
+Copy environment configuration
 cp .env.example .env
 
-# Initialize pre-commit hooks
+Initialize pre-commit hooks
 npm run prepare
 
 echo "Project environment ready. Run 'npm run dev' to start."
 ```
 
-## Using Docker for Reproducible Environments
+Using Docker for Reproducible Environments
 
 Docker provides stronger isolation than shell scripts by containerizing your entire development environment. This approach packages not just dependencies but the exact runtime environment, eliminating OS-level differences entirely.
 
@@ -85,20 +85,20 @@ FROM node:20-slim
 
 WORKDIR /app
 
-# Install development dependencies
+Install development dependencies
 RUN apt-get update && apt-get install -y \
     git \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy package files first for better caching
+Copy package files first for better caching
 COPY package*.json ./
 RUN npm ci --only=production
 
-# Copy source code
+Copy source code
 COPY . .
 
-# Expose development server port
+Expose development server port
 EXPOSE 3000
 
 CMD ["npm", "run", "dev"]
@@ -140,9 +140,9 @@ volumes:
   pgdata:
 ```
 
-With this configuration, any team member runs `docker-compose up` and gets a complete development stack—application, database, and cache—without installing anything beyond Docker.
+With this configuration, any team member runs `docker-compose up` and gets a complete development stack, application, database, and cache, without installing anything beyond Docker.
 
-## Configuration Management with Ansible
+Configuration Management with Ansible
 
 For more complex environments across multiple machines, Ansible provides automation at scale. Ansible uses declarative YAML files called playbooks to describe desired system states, handling the complexity of idempotent configuration automatically.
 
@@ -202,23 +202,23 @@ An Ansible playbook for development machine setup:
  - github.copilot
 ```
 
-Run this playbook with `ansible-playbook development.yml` and Ansible ensures your machine matches the specification. The idempotent nature means running the playbook multiple times produces the same result—safe for repeated application or CI/CD pipelines.
+Run this playbook with `ansible-playbook development.yml` and Ansible ensures your machine matches the specification. The idempotent nature means running the playbook multiple times produces the same result, safe for repeated application or CI/CD pipelines.
 
-## Dotfiles: Personal Configuration Management
+Dotfiles: Personal Configuration Management
 
-Beyond project-specific tools, developers accumulate personal configuration through dotfiles—hidden configuration files like `.bashrc`, `.zshrc`, `.vimrc`, and `.gitconfig`. Managing these as a dotfiles repository provides portable personal environments.
+Beyond project-specific tools, developers accumulate personal configuration through dotfiles, hidden configuration files like `.bashrc`, `.zshrc`, `.vimrc`, and `.gitconfig`. Managing these as a dotfiles repository provides portable personal environments.
 
 A minimal dotfiles structure:
 
 ```
 dotfiles/
-├── .gitignore
-├── install.sh
-├── .zshrc
-├── .vimrc
-├── .gitconfig
-└── .config/
- └── starship.toml
+ .gitignore
+ install.sh
+ .zshrc
+ .vimrc
+ .gitconfig
+ .config/
+  starship.toml
 ```
 
 The installation script symlinks files to their expected locations:
@@ -253,7 +253,7 @@ link_file ".config/starship.toml"
 
 Combine this with a shell script that installs dependencies, and you have a complete personal environment reproducible across any machine.
 
-## Automating for Teams
+Automating for Teams
 
 Team environments benefit most from automation because they multiply the effort saved across multiple developers. Consider storing setup scripts in a dedicated repository accessible to all team members. Use tools like Machete or GitHub's Template Repositories to provide standardized starting points for new projects.
 
@@ -261,34 +261,34 @@ Documentation matters as much as the scripts themselves. Include README files ex
 
 Start with shell scripts, add Docker for project reproducibility, and layer Ansible for team-wide infrastructure management as your needs grow.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to automate dev environment setup: a practical guide?**
+How long does it take to automate dev environment setup: a practical guide?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 - [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
 - [Remote Team Environment Provisioning Tool for Spinning Up](/remote-team-environment-provisioning-tool-for-spinning-up-de/)
 - [Developer environment bootstrap script](/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
 - [Install OpenConnect (common in enterprise environments)](/remote-employee-digital-workspace-setup-guide-for-first-day-/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

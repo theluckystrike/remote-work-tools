@@ -14,7 +14,7 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-## Best Tools for Remote Team Wiki Maintenance
+Best Tools for Remote Team Wiki Maintenance
 
 Documentation decays. Pages go stale, links break, and ownership becomes unclear over time. A remote team's wiki is only useful if someone owns the maintenance process. This guide covers the tools and automation scripts that keep a distributed team's knowledge base honest.
 
@@ -22,7 +22,7 @@ The failure mode for remote wikis is specific: because there's no physical offic
 
 ---
 
-## The Maintenance Problem
+The Maintenance Problem
 
 Signs a wiki is failing:
 
@@ -37,11 +37,11 @@ The root cause is almost always the same: content creation gets incentivized (ne
 
 ---
 
-## Notion
+Notion
 
 Best for teams wanting a single tool for docs, projects, and databases. Notion's database feature lets you build a Documentation Status database where every page has an owner, last_reviewed date, and status field.
 
-**Stale page detection via API:**
+Stale page detection via API:
 
 ```python
 #!/usr/bin/env python3
@@ -82,19 +82,19 @@ for page in pages:
     print(f"  [{owner_name}] {title}\n  {url}\n")
 ```
 
-Run this script on a weekly cron and pipe output to a Slack channel. The unassigned owner count is your most important metric — any page without an owner will never get reviewed.
+Run this script on a weekly cron and pipe output to a Slack channel. The unassigned owner count is your most important metric. any page without an owner will never get reviewed.
 
-**Notion automation for review reminders** can be built using Notion's built-in automation feature: trigger a reminder notification to the page owner when `last_reviewed` is more than 60 days in the past and the page status is "active." This keeps the queue visible without a separate tool.
+Notion automation for review reminders can be built using Notion's built-in automation feature: trigger a reminder notification to the page owner when `last_reviewed` is more than 60 days in the past and the page status is "active." This keeps the queue visible without a separate tool.
 
-Notion's limitation for large teams is permission granularity — workspace-level controls are blunt, and guest access to specific pages requires careful management. If your team handles sensitive internal documentation alongside general knowledge, you may need to split into separate workspaces or use a more access-controlled alternative.
+Notion's limitation for large teams is permission granularity. workspace-level controls are blunt, and guest access to specific pages requires careful management. If your team handles sensitive internal documentation alongside general knowledge, you may need to split into separate workspaces or use a more access-controlled alternative.
 
 ---
 
-## Outline (Self-Hosted)
+Outline (Self-Hosted)
 
 Outline is open source, has a clean editor, and supports structured collections.
 
-**Self-hosted with Docker Compose:**
+Self-hosted with Docker Compose:
 
 ```yaml
 version: "3.8"
@@ -135,7 +135,7 @@ volumes:
   postgres-data:
 ```
 
-**Outline API for stale page detection:**
+Outline API for stale page detection:
 
 ```bash
 curl -X POST https://wiki.yourcompany.internal/api/documents.list \
@@ -145,15 +145,15 @@ curl -X POST https://wiki.yourcompany.internal/api/documents.list \
   | jq '.data[] | select(.updatedAt < "2025-12-01") | {title: .title, url: .url}'
 ```
 
-Outline's collection structure encourages better organization than Notion's freeform database approach. Collections function like well-defined namespaces — "Engineering," "Product," "Onboarding" — and you can assign collection-level owners responsible for the entire section. This scales better than per-page ownership for teams with more than 200 documents.
+Outline's collection structure encourages better organization than Notion's freeform database approach. Collections function like well-defined namespaces. "Engineering," "Product," "Onboarding". and you can assign collection-level owners responsible for the entire section. This scales better than per-page ownership for teams with more than 200 documents.
 
-**Slack integration for Outline** posts a daily digest of recently created and recently modified documents. Teams that configure this report that documentation awareness goes up significantly — engineers see what their colleagues are writing without having to check the wiki proactively.
+Slack integration for Outline posts a daily digest of recently created and recently modified documents. Teams that configure this report that documentation awareness goes up significantly. engineers see what their colleagues are writing without having to check the wiki proactively.
 
 ---
 
-## Confluence
+Confluence
 
-**Detect stale pages via REST API:**
+Detect stale pages via REST API:
 
 ```bash
 #!/bin/bash
@@ -172,19 +172,19 @@ curl -G "$CONFLUENCE_URL/rest/api/content" \
   | jq '.results[] | {title: .title, author: .version.by.displayName}'
 ```
 
-Confluence's **page restrictions** are the most sophisticated of any tool here. You can set pages to be viewable by specific groups, editable only by owners, and archivable only by admins. For teams at regulated companies where documentation access must be auditable, this is a genuine advantage.
+Confluence's page restrictions are the most sophisticated of any tool here. You can set pages to be viewable by specific groups, editable only by owners, and archivable only by admins. For teams at regulated companies where documentation access must be auditable, this is a genuine advantage.
 
-**Confluence Automation** (built into Cloud plans) lets you create rules like: "When a page has not been updated in 90 days and is in the Engineering space, add the label 'needs-review' and notify the page creator." No external scripting required.
+Confluence Automation (built into Cloud plans) lets you create rules like: "When a page has not been updated in 90 days and is in the Engineering space, add the label 'needs-review' and notify the page creator." No external scripting required.
 
 The downside for remote teams is editor performance. Confluence's editor is slower and heavier than Notion or Outline, which matters when engineers are connecting from home setups with variable bandwidth. The mobile experience is also noticeably worse.
 
 ---
 
-## BookStack
+BookStack
 
 BookStack uses a Books > Chapters > Pages hierarchy that forces teams to organize content.
 
-**Link checker script:**
+Link checker script:
 
 ```bash
 #!/bin/bash
@@ -221,11 +221,11 @@ The built-in shelf concept lets you group multiple books under a department or p
 
 ---
 
-## Maintenance Workflow
+Maintenance Workflow
 
-**Assign page ownership**: Every page has one owner. Notion: Person property. Confluence: label `owner::alice`. Outline: tag with `@alice`.
+Assign page ownership: Every page has one owner. Notion: Person property. Confluence: label `owner::alice`. Outline: tag with `@alice`.
 
-**Quarterly review cycle**: Run stale-page scripts every 13 weeks. File GitHub issues for each stale page assigned to the owner:
+Quarterly review cycle: Run stale-page scripts every 13 weeks. File GitHub issues for each stale page assigned to the owner:
 
 ```bash
 gh issue create \
@@ -235,7 +235,7 @@ gh issue create \
   --label "documentation,maintenance"
 ```
 
-**Archive before deleting**: Move to an `Archive` collection with a deprecation notice:
+Archive before deleting: Move to an `Archive` collection with a deprecation notice:
 
 ```markdown
 > DEPRECATED as of 2026-03-22. See [replacement page] for current information.
@@ -243,15 +243,15 @@ gh issue create \
 
 ---
 
-## Automation Across All Tools
+Automation Across All Tools
 
 Regardless of which wiki platform you use, these automation patterns apply universally.
 
-**Ownership enforcement in CI**: If your documentation lives in a Git repository (or syncs to one), add a CODEOWNERS check that verifies every new file has an assigned owner:
+Ownership enforcement in CI: If your documentation lives in a Git repository (or syncs to one), add a CODEOWNERS check that verifies every new file has an assigned owner:
 
 ```bash
 #!/bin/bash
-# Check that all new .md files have a CODEOWNERS entry
+Check that all new .md files have a CODEOWNERS entry
 new_docs=$(git diff --name-only --diff-filter=A HEAD~1 | grep "\.md$")
 for doc in $new_docs; do
   if ! grep -q "$doc" .github/CODEOWNERS 2>/dev/null; then
@@ -261,12 +261,12 @@ for doc in $new_docs; do
 done
 ```
 
-**Dead link detection** should run weekly, not just on PR. Internal tools move, APIs deprecate, and team members leave. A link to `https://internal.company.com/old-service` returns 404 the same week the team decommissions that service — catching it in a weekly scan prevents the next person to read that page from hitting a dead end.
+Dead link detection should run weekly, not just on PR. Internal tools move, APIs deprecate, and team members leave. A link to `https://internal.company.com/old-service` returns 404 the same week the team decommissions that service. catching it in a weekly scan prevents the next person to read that page from hitting a dead end.
 
-**Version-aware documentation**: When your codebase has multiple maintained versions, tag documentation with the version it applies to and automate alerts when a new version ships without a corresponding doc update:
+Version-aware documentation: When your codebase has multiple maintained versions, tag documentation with the version it applies to and automate alerts when a new version ships without a corresponding doc update:
 
 ```yaml
-# .github/workflows/docs-version-check.yml
+.github/workflows/docs-version-check.yml
 name: Check docs for new releases
 on:
   release:
@@ -287,7 +287,7 @@ jobs:
 
 ---
 
-## Comparison
+Comparison
 
 | Tool | Self-Hosted | API | Permission Granularity | Best For |
 |------|------------|-----|----------------------|----------|
@@ -298,7 +298,7 @@ jobs:
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up MinIO for Artifact Storage](/minio-artifact-storage-setup/)
 - [Best Tools for Remote Team Changelog Review](/remote-team-changelog-review-tools/)
@@ -306,5 +306,5 @@ jobs:
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

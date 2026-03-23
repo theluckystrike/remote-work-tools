@@ -21,45 +21,45 @@ This guide covers the tools that enforce, visualize, and maintain code ownership
 
 ---
 
-## GitHub CODEOWNERS (Baseline)
+GitHub CODEOWNERS (Baseline)
 
 Every GitHub repo supports a `CODEOWNERS` file that auto-assigns reviewers based on file paths. It's free, built-in, and a required foundation before adding heavier tooling.
 
 ```bash
-# .github/CODEOWNERS
+.github/CODEOWNERS
 
-# Global fallback owner
+Global fallback owner
 *                          @your-org/platform-team
 
-# Backend services
+Backend services
 /services/auth/            @alice @bob
 /services/payments/        @payments-team
 /services/notifications/   @backend-team
 
-# Infrastructure
+Infrastructure
 /infra/                    @devops-team
 /infra/terraform/          @alice @charlie
 
-# Frontend
+Frontend
 /frontend/                 @frontend-team
 /frontend/src/components/  @design-system-team
 
-# Shared libraries — require two approvals
+Shared libraries. require two approvals
 /libs/                     @your-org/senior-engineers
 
-# Security-sensitive files
+Security-sensitive files
 /config/secrets.yml        @security-team
 /.github/workflows/        @devops-team @security-team
 ```
 
 Enforce that CODEOWNERS reviews are not bypassed via branch protection:
 
-**Settings > Branches > Branch protection rules > Require review from Code Owners**
+Settings > Branches > Branch protection rules > Require review from Code Owners
 
 Check for ownership gaps:
 
 ```bash
-# List files with no CODEOWNERS match
+List files with no CODEOWNERS match
 git ls-files | while read f; do
   owner=$(cat .github/CODEOWNERS | awk -v file="$f" '
     $1 != "#" && file ~ gensub(/\*/, ".*", "g", $1) { owner=$2 }
@@ -71,14 +71,14 @@ done
 
 ---
 
-## Backstage Software Catalog (Team-Scale)
+Backstage Software Catalog (Team-Scale)
 
 Backstage adds a service catalog that maps ownership at the component and system level, beyond what CODEOWNERS covers.
 
 Install the catalog plugin:
 
 ```bash
-# In your Backstage app directory
+In your Backstage app directory
 yarn --cwd packages/app add @backstage/plugin-catalog
 yarn --cwd packages/backend add @backstage/plugin-catalog-backend
 ```
@@ -86,7 +86,7 @@ yarn --cwd packages/backend add @backstage/plugin-catalog-backend
 Define a component with ownership metadata:
 
 ```yaml
-# catalog-info.yaml (in each service repo)
+catalog-info.yaml (in each service repo)
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -116,11 +116,11 @@ catalog:
       target: https://github.com/your-org/*/blob/main/catalog-info.yaml
 ```
 
-The Backstage UI then shows every service, its owner team, its dependencies, and links to runbooks, PagerDuty schedules, and CI pipelines — all in one place.
+The Backstage UI then shows every service, its owner team, its dependencies, and links to runbooks, PagerDuty schedules, and CI pipelines. all in one place.
 
 ---
 
-## Sourcegraph Own (Large Codebases)
+Sourcegraph Own (Large Codebases)
 
 For monorepos or organizations with hundreds of repos, Sourcegraph's `own` feature gives codebase-wide ownership search.
 
@@ -134,13 +134,13 @@ experimentalFeatures:
 Sourcegraph supports both GitHub CODEOWNERS files and its own signal-based ownership inference (based on who last modified code). Query ownership:
 
 ```
-# Find all files owned by the payments team
+Find all files owned by the payments team
 file:contains.owner(@payments-team)
 
-# Find files with no owner
+Find files with no owner
 -file:has.owner()
 
-# Find owner of a specific file
+Find owner of a specific file
 repo:^github\.com/your-org/payments-service$ file:^src/charge.go select:file.owners
 ```
 
@@ -156,14 +156,14 @@ curl -s \
 
 ---
 
-## OpsLevel for Service Maturity
+OpsLevel for Service Maturity
 
-OpsLevel layers ownership into a broader service maturity framework — useful when you want to enforce not just "who owns this" but "does the owner maintain it to a standard."
+OpsLevel layers ownership into a broader service maturity framework. useful when you want to enforce not just "who owns this" but "does the owner maintain it to a standard."
 
 Connect your GitHub org:
 
 ```bash
-# OpsLevel CLI
+OpsLevel CLI
 npm install -g @opslevel/cli
 opslevel configure --api-token $OPSLEVEL_API_TOKEN
 ```
@@ -171,7 +171,7 @@ opslevel configure --api-token $OPSLEVEL_API_TOKEN
 Define service ownership via YAML config:
 
 ```yaml
-# opslevel.yml (in each service repo)
+opslevel.yml (in each service repo)
 version: 1
 service:
   name: Payments Service
@@ -198,14 +198,14 @@ OpsLevel then scores each service against your rubric (does it have an owner, ru
 
 ---
 
-## Automated Ownership Audits
+Automated Ownership Audits
 
 Run weekly audits to catch drift:
 
 ```bash
 #!/bin/bash
-# scripts/ownership-audit.sh
-# Reports files with no CODEOWNERS entry
+scripts/ownership-audit.sh
+Reports files with no CODEOWNERS entry
 
 set -euo pipefail
 
@@ -246,14 +246,14 @@ echo "All files have owners."
 Add it to CI:
 
 ```yaml
-# .github/workflows/ownership-audit.yml
+.github/workflows/ownership-audit.yml
 name: Ownership Audit
 on:
   push:
     paths:
       - '.github/CODEOWNERS'
-      - '**/*.go'
-      - '**/*.ts'
+      - '/*.go'
+      - '/*.ts'
   schedule:
     - cron: '0 9 * * 1'  # Every Monday morning
 
@@ -268,15 +268,15 @@ jobs:
 
 ---
 
-## CODEOWNERS Linting
+CODEOWNERS Linting
 
 Validate your CODEOWNERS file doesn't reference deleted teams or invalid paths:
 
 ```bash
-# Install codeowners validator
+Install codeowners validator
 go install github.com/mszostok/codeowners-validator@latest
 
-# Run validation
+Run validation
 codeowners-validator \
   --repository-path=. \
   --owner-checker-token=$GITHUB_TOKEN \
@@ -291,7 +291,7 @@ Common errors it catches:
 
 ---
 
-## Tool Comparison
+Tool Comparison
 
 | Tool | Scope | Cost | Best For |
 |------|-------|------|----------|
@@ -304,7 +304,7 @@ Start with CODEOWNERS in every repo. Add Backstage when you have more services t
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Remote Team Git Hooks Standardization Guide](/remote-team-git-hooks-standardization-guide/)
 - [Remote Team Code Review Checklist Template](/remote-team-code-review-checklist-template/)
@@ -313,7 +313,7 @@ Start with CODEOWNERS in every repo. Add Backstage when you have more services t
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Remote Code Review Tools Comparison 2026](/remote-code-review-tools-comparison-2026/)
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
@@ -321,6 +321,6 @@ Start with CODEOWNERS in every repo. Add Backstage when you have more services t
 - [List all markdown files in your docs directory](/how-to-set-up-documentation-ownership-model-for-remote-teams/)
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

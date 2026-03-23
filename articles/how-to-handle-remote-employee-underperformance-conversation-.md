@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Handle Remote Employee Underperformance"
-description: "Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with"
+description: "Track deliverables, commit history, and communication patterns first, then use a documented conversation framework to address underperformance objectively with"
 date: 2026-03-15
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
@@ -16,9 +16,9 @@ voice-checked: true
 
 {% raw %}
 
-Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with the employee. Managing remote teams makes addressing underperformance both more critical and complex because you lack visual cues and must gather objective data instead of relying on gut feelings. This guide provides new managers with a structured approach including conversation scripts, documentation frameworks, and tips specifically adapted for distributed work environments.
+Track deliverables, commit history, and communication patterns first, then use a documented conversation framework to address underperformance objectively with the employee. Managing remote teams makes addressing underperformance both more critical and complex because you lack visual cues and must gather objective data instead of relying on gut feelings. This guide provides new managers with a structured approach including conversation scripts, documentation frameworks, and tips specifically adapted for distributed work environments.
 
-## Table of Contents
+Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Performance Notes - [Employee Name]](#performance-notes-employee-name)
@@ -28,7 +28,7 @@ Track deliverables, commit history, and communication patterns first—then use 
 - [Performance Issues](#performance-issues)
 - [Troubleshooting](#troubleshooting)
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -38,7 +38,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Recognizing Underperformance in Remote Settings
+Step 1: Recognizing Underperformance in Remote Settings
 
 The first step in addressing underperformance is accurate identification. Remote work can mask problems just as easily as it can create them. Before initiating any conversation, gather objective data rather than relying on gut feelings.
 
@@ -49,22 +49,22 @@ Communication patterns also reveal performance trends. Has response time increas
 Document everything. Create a simple tracking system in your project management tool:
 
 ```markdown
-## Performance Notes - [Employee Name]
+Performance Notes - [Employee Name]
 
-### Week of [Date]
+Week of [Date]
 - Deliverables: [Completed/Incomplete]
 - Communication: [Notes on responsiveness]
 - Code quality: [Review feedback summary]
 - Blockers: [Any identified issues]
 
-### Patterns Observed
+Patterns Observed
 - [Specific observation 1]
 - [Specific observation 2]
 ```
 
 This documentation serves two purposes: it provides factual basis for conversations, and it protects you from appearing biased or unfair if the situation escalates.
 
-### Step 2: Preparing for the Conversation
+Step 2: Preparing for the Conversation
 
 Once you've identified a pattern of underperformance, preparation becomes essential. Never initiate a performance conversation spontaneously. Both you and the employee need time to prepare.
 
@@ -78,34 +78,34 @@ Notify the employee in advance. A message like this works well:
 
 This gives the employee warning and opportunity to prepare their perspective.
 
-### Step 3: The Conversation Framework
+Step 3: The Conversation Framework
 
 When it's time for the actual conversation, follow a structured approach that balances directness with empathy.
 
-### Opening (5 minutes)
+Opening (5 minutes)
 
-Begin by setting a collaborative tone. This is not a disciplinary action—it's a problem-solving session.
+Begin by setting a collaborative tone. This is not a disciplinary action, it's a problem-solving session.
 
-**Sample opening:**
+Sample opening:
 > "Thanks for meeting with me. The purpose of this conversation is to discuss some patterns I've observed and to work together on solutions. My goal is to support you in succeeding in this role."
 
-### Observations (10 minutes)
+Observations (10 minutes)
 
 Present your documented observations factually. Stick to what you've seen rather than assumptions.
 
-**Sample observation statement:**
+Sample observation statement:
 > "Over the past three weeks, I've noticed the following: the API endpoint you were assigned for Sprint 15 was delivered two days late, which blocked the frontend integration work. In our team code reviews, three of your last five PRs required major revisions before merging. In our async standups, your updates have been brief for the past two weeks without details on what you're working on."
 
-Pause after presenting observations. Allow the employee to respond. They may have explanations—perhaps they were dealing with personal issues, unclear requirements, or technical blockers they didn't communicate.
+Pause after presenting observations. Allow the employee to respond. They may have explanations, perhaps they were dealing with personal issues, unclear requirements, or technical blockers they didn't communicate.
 
-### Impact Discussion (5 minutes)
+Impact Discussion (5 minutes)
 
 Explain how the underperformance affects the team and projects.
 
-**Sample impact statement:**
+Sample impact statement:
 > "When your deliverables are delayed, it affects the entire deployment schedule. The team has had to step in to cover integration work, which increases their workload. Additionally, unclear standup updates make it harder for the team to coordinate dependencies."
 
-### Collaborative Problem-Solving (20 minutes)
+Collaborative Problem-Solving (20 minutes)
 
 Shift from observation to solution-finding. Ask open questions:
 
@@ -114,39 +114,39 @@ Shift from observation to solution-finding. Ask open questions:
 - "Are there blockers you're facing that we haven't discussed?"
 - "What would success look like for you in the next 30 days?"
 
-Listen actively. The employee may reveal issues you weren't aware of—personal challenges, unclear expectations, technical debt slowing them down, or problems with team collaboration.
+Listen actively. The employee may reveal issues you weren't aware of, personal challenges, unclear expectations, technical debt slowing them down, or problems with team collaboration.
 
-### Action Plan (10 minutes)
+Action Plan (10 minutes)
 
 Conclude with specific, measurable next steps. Document these together:
 
 ```markdown
-## Performance Improvement Plan - [Date]
+Performance Improvement Plan - [Date]
 
-### Identified Challenges
+Identified Challenges
 - [Challenge 1: agreed upon by both parties]
 - [Challenge 2]
 
-### Support Agreed
+Support Agreed
 - [Support item 1: e.g., weekly check-ins]
 - [Support item 2: e.g., pairing sessions]
 - [Support item 3: e.g., clearer story point estimation]
 
-### Success Criteria
+Success Criteria
 - [Measurable outcome 1: e.g., deliver 2 stories per sprint]
 - [Measurable outcome 2: e.g., PRs merged within 48 hours]
 
-### Review Date
+Review Date
 - [Date: typically 2-4 weeks out]
 ```
 
-### Closing
+Closing
 
 End with encouragement while being clear about consequences.
 
 > "I believe you can turn this around, and I'm committed to supporting you. We'll revisit this in [timeframe] to assess progress. Between now and then, my door is open if you need to discuss anything."
 
-### Step 4: Following Up
+Step 4: Following Up
 
 The conversation only matters if you follow through. Schedule the follow-up meeting before ending the current meeting. Hold yourself accountable to providing the support you promised.
 
@@ -154,21 +154,21 @@ During the improvement period, increase your check-in frequency. Brief weekly 15
 
 At the follow-up meeting, be honest about progress. If improvements are evident, acknowledge them and adjust the plan accordingly. If no progress has been made, escalate to your HR partner or management chain according to company policy.
 
-## Common Mistakes to Avoid
+Common Mistakes to Avoid
 
 New managers often make predictable errors in these conversations. Avoid these pitfalls:
 
-**Being vague:** "Your work hasn't been good enough" provides nothing actionable. Always tie observations to specific deliverables, dates, and impacts.
+Being vague: "Your work hasn't been good enough" provides nothing actionable. Always tie observations to specific deliverables, dates, and impacts.
 
-**Making it personal:** Focus on behaviors and outcomes, not character. "This code had bugs" differs from "you are careless."
+Making it personal: Focus on behaviors and outcomes, not character. "This code had bugs" differs from "you are careless."
 
-**Bypassing the employee:** Never discuss performance issues with other team members or vent to colleagues. Confidentiality matters.
+Bypassing the employee: Never discuss performance issues with other team members or vent to colleagues. Confidentiality matters.
 
-**Ignoring context:** An employee's cat may have died, or they may be going through a divorce. Context doesn't excuse persistent underperformance, but understanding it prevents premature escalation.
+Ignoring context: An employee's cat may have died, or they may be going through a divorce. Context doesn't excuse persistent underperformance, but understanding it prevents premature escalation.
 
-**Moving too slowly:** Addressing problems early prevents them from compounding. A two-week delay becomes a two-month problem.
+Moving too slowly: Addressing problems early prevents them from compounding. A two-week delay becomes a two-month problem.
 
-### Step 5: Adapting for Async Communication
+Step 5: Adapting for Async Communication
 
 Some remote teams operate with minimal synchronous contact. If your team is highly asynchronous, adapt the framework accordingly.
 
@@ -178,13 +178,13 @@ Send a thoughtful async message first:
 
 Provide time for the employee to compose their thoughts. Async communication favors considered responses over spontaneous ones, which can actually benefit performance discussions.
 
-### Step 6: Shell Automation for Remote Team Workflows
+Step 6: Shell Automation for Remote Team Workflows
 
 Small shell scripts eliminate repetitive tasks that compound into significant time loss across distributed teams.
 
 ```bash
 #!/usr/bin/env bash
-# daily_standup.sh — Aggregate git activity for standup notes
+daily_standup.sh. Aggregate git activity for standup notes
 
 REPOS=(~/code/project-a ~/code/project-b ~/code/project-c)
 SINCE="yesterday"
@@ -205,15 +205,15 @@ for repo in "${REPOS[@]}"; do
     fi
 done
 
-# Output to clipboard (macOS):
-# bash daily_standup.sh | pbcopy
-# Output to clipboard (Linux with xclip):
-# bash daily_standup.sh | xclip -selection clipboard
+Output to clipboard (macOS):
+bash daily_standup.sh | pbcopy
+Output to clipboard (Linux with xclip):
+bash daily_standup.sh | xclip -selection clipboard
 ```
 
 Add this script to a morning cron job or run it manually before standups. It builds a habit of commit-based status updates rather than vague progress descriptions.
 
-### Step 7: Time Zone Coordination for Distributed Teams
+Step 7: Time Zone Coordination for Distributed Teams
 
 Managing meetings across time zones without dedicated tooling leads to scheduling errors and missed calls.
 
@@ -262,11 +262,11 @@ for slot in slots:
 ```
 
 For most globally distributed teams, there are 0-2 overlap hours. Use async-first communication for everything that doesn't require real-time discussion.
-### Step 8: Real-World Performance Conversation Examples
+Step 8: Real-World Performance Conversation Examples
 
 Understanding what works in practice helps you adapt the framework to your specific situation:
 
-**Example 1: Developer Missing Deadlines**
+Example 1: Developer Missing Deadlines
 
 ```markdown
 Opening:
@@ -296,7 +296,7 @@ Possible solutions:
 - Pairing with more senior engineer
 ```
 
-**Example 2: Communication Breakdown**
+Example 2: Communication Breakdown
 
 ```markdown
 Observation:
@@ -321,7 +321,7 @@ Success criteria:
 - Reviews in one week
 ```
 
-**Example 3: Code Quality Issues**
+Example 3: Code Quality Issues
 
 ```markdown
 Observation:
@@ -343,62 +343,62 @@ Problem-solving:
 Missing context about our codebase? Need different tools or processes?"
 ```
 
-### Step 9: Documenting for Protection
+Step 9: Documenting for Protection
 
 Managers sometimes worry that honest performance conversations create legal exposure. Actually, the opposite is true. Documented, evidence-based conversations protect you:
 
-**What helps legally:**
+What helps legally:
 - Specific dates and metrics (Sprint 15 deadline, 3 of 5 PRs revisions)
 - Tied to job requirements (your job description expects daily standup participation)
 - Consistent with team expectations (everyone participates in standup)
 - Showing support offered (weekly check-ins, pairing sessions proposed)
 
-**What hurts legally:**
+What hurts legally:
 - Vague complaints (your work isn't good enough)
 - Subjective judgments (you're lazy or not engaged)
 - Inconsistent enforcement (other people miss standups without comment)
 - No paper trail (he told me his work was poor, but I didn't document it)
 
-Date your documentation and keep copies in your performance management system. This isn't about building a case to fire someone—it's about creating clarity for everyone.
+Date your documentation and keep copies in your performance management system. This isn't about building a case to fire someone, it's about creating clarity for everyone.
 
-### Step 10: When Coaching Doesn't Work
+Step 10: When Coaching Doesn't Work
 
 Sometimes employees don't improve despite clear feedback and support. When this happens, escalate:
 
-1. **Two-week mark:** If no improvement shows, schedule a second conversation
-2. **Four-week mark:** If still no improvement, involve your HR partner or manager
-3. **Document everything:** Keep notes of all conversations, all support offered, all improvement attempts
-4. **Determine next steps:** Performance improvement plan, role change, or separation
+1. Two-week mark: If no improvement shows, schedule a second conversation
+2. Four-week mark: If still no improvement, involve your HR partner or manager
+3. Document everything: Keep notes of all conversations, all support offered, all improvement attempts
+4. Determine next steps: Performance improvement plan, role change, or separation
 
 This progression shows the employee you're genuinely trying to help them succeed, while also protecting your team and company.
 
-## Performance Improvement Plans (PIPs) Done Right
+Performance Improvement Plans (PIPs) Done Right
 
 If you move to a formal performance improvement plan, structure it carefully:
 
 ```markdown
-# Performance Improvement Plan - [Employee Name]
-# Period: [Start Date] to [End Date] (typically 30-90 days)
+Performance Improvement Plan - [Employee Name]
+Period: [Start Date] to [End Date] (typically 30-90 days)
 
-## Performance Issues
+Performance Issues
 1. [Specific issue with metrics]
 2. [Specific issue with metrics]
 
-### Step 11: Required Improvements
+Step 11: Required Improvements
 1. [Measurable outcome] by [date]
 2. [Measurable outcome] by [date]
 
-### Step 12: Support Provided
+Step 12: Support Provided
 - Weekly 1:1 check-ins (30 min, Tuesdays 2 PM)
 - Pairing sessions with [senior engineer] (2x weekly)
 - Training on [specific skill] via [Pluralsight/etc]
 - Clear documentation of expectations
 
-### Step 13: Consequences
+Step 13: Consequences
 If improvements are not demonstrated by [end date]:
 - [Next step: role change, demotion, termination]
 
-### Step 14: Success Definition
+Step 14: Success Definition
 - Measurable: [specific metrics]
 - Achievable: with support offered
 - Relevant: directly tied to job requirements
@@ -407,49 +407,49 @@ If improvements are not demonstrated by [end date]:
 
 A good PIP shows the employee exactly what success looks like and gives them reasonable time and resources to achieve it.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to handle remote employee underperformance?**
+How long does it take to handle remote employee underperformance?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Remote Employee Performance Improvement Plan Guide](/how-to-create-remote-employee-performance-improvement-plan-t/)
 - [Remote Employee Output-Based Performance Measurement](/remote-employee-output-based-performance-measurement-framewo/)
 - [Remote Employee Mental Health Support Guide 2026](/remote-employee-mental-health-support-guide-2026/)
 - [How to Celebrate Employee Anniversaries on Fully Remote](/how-to-celebrate-employee-anniversaries-on-fully-remote-team/)
 - [Remote Work Performance Review Tools Comparison 2026](/remote-work-performance-review-tools-comparison-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

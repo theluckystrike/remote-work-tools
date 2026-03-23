@@ -8,13 +8,13 @@ voice-checked: true
 date: 2026-03-21
 ---
 
-# Remote Hiring & Onboarding — Tools, Checklists & Best Practices
+# Remote Hiring & Onboarding. Tools, Checklists & Best Practices
 
 Hiring and onboarding remote employees requires different tools and processes than in-office recruiting. This hub covers applicant tracking systems built for distributed companies, async interview processes, technical assessment platforms, onboarding checklists for the first 90 days, diversity sourcing strategies, and new manager training programs. Whether you are hiring your first remote developer or scaling a 100-person distributed engineering team, these guides provide proven frameworks for building great remote teams.
 
 ---
 
-## Articles in This Topic (56)
+Articles in This Topic (56)
 
 - [.github/ISSUE_TEMPLATE/onboarding.yml](/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
 - [Async Interview Process for Hiring Remote Developers No Live](/async-interview-process-for-hiring-remote-developers-no-live/)
@@ -30,7 +30,7 @@ Hiring and onboarding remote employees requires different tools and processes th
 - [Best Tools for Remote Team Onboarding Automation 2026](/remote-team-onboarding-automation-2026/)
 - [Buddy Responsibilities Charter](/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
 - [Buddy System for Onboarding Remote Junior Developers Guide](/buddy-system-for-onboarding-remote-junior-developers-guide/)
-- [Diversity Sourcing Strategy for Remote Teams](/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
+- [Diversity Sourcing Strategy for Remote Teams](/remote-team-hiring detailed lookrsity-sourcing-strategy-for-distributed-companies/)
 - [Example: EOR Integration Configuration](/best-employer-of-record-service-for-hiring-remote-developers/)
 - [Example: Finding interview slots across time zones](/remote-team-hiring-manager-training-program-for-first-time-m/)
 - [Example: GitHub Actions workflow for assessment tracking](/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
@@ -60,7 +60,7 @@ Hiring and onboarding remote employees requires different tools and processes th
 - [Remote Team First 90 Days Plan Template for Senior Hires](/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
 - [Remote Team Handbook Template](/remote-team-handbook-template-for-writing-remote-interview-p/)
 - [Remote Team Hiring Rubric Template for Consistent](/remote-team-hiring-rubric-template-for-consistent-evaluation/)
-- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
+- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-team-hiring detailed lookrsity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
 - [Remote Team Interview Scheduling Tool for Coordinating](/remote-team-interview-scheduling-tool-for-coordinating-acros/)
 - [Remote Team Middle Management Onboarding Guide for New](/remote-team-middle-management-onboarding-guide-for-new-layer/)
 - [Remote Team New Manager Onboarding Checklist for Distributed](/remote-team-new-manager-onboarding-checklist-for-distributed/)

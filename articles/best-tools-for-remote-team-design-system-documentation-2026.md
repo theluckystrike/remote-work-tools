@@ -16,36 +16,36 @@ intent-checked: true
 
 {% raw %}
 
-## Overview
+Overview
 
 Design system documentation is the connective tissue between designers and developers. For remote teams, a centralized source-of-truth prevents design drift, ensures consistency, and accelerates feature delivery. This guide compares tools for documenting design systems across distributed teams, covering component libraries, design tokens, and versioning workflows.
 
-## Why Design System Documentation Matters
+Why Design System Documentation Matters
 
 Without centralized documentation:
-- **Design drift:** Buttons have 3 different shades of blue across products
-- **Redundant work:** Designers rebuild components; developers duplicate code
-- **Onboarding friction:** New team members don't know which color is "primary blue"
-- **Version chaos:** Teams use old component APIs; migrations fail
-- **Maintenance burden:** Updating design system requires coordinating across 10+ projects
+- Design drift: Buttons have 3 different shades of blue across products
+- Redundant work: Designers rebuild components; developers duplicate code
+- Onboarding friction: New team members don't know which color is "primary blue"
+- Version chaos: Teams use old component APIs; migrations fail
+- Maintenance burden: Updating design system requires coordinating across 10+ projects
 
 Proper documentation + remote tooling eliminates these problems entirely.
 
-## Top Tools Comparison
+Top Tools Comparison
 
-### Storybook + GitHub Pages
+Storybook + GitHub Pages
 
-**Strengths:**
+Strengths:
 - Free, open source, battle-tested
 - Works with any component framework (React, Vue, Web Components)
 - Git-based versioning (no vendor lock-in)
 - Supports design tokens via integration
 
-**Pricing:** Free (self-hosted), $29+/month (Chromatic cloud for CI)
+Pricing: Free (self-hosted), $29+/month (Chromatic cloud for CI)
 
-**Setup Time:** 30 minutes for basic setup
+Setup Time: 30 minutes for basic setup
 
-**Example Storybook Story:**
+Example Storybook Story:
 ```javascript
 import Button from '../Button'
 
@@ -77,21 +77,21 @@ export const States = {
 }
 ```
 
-**Team Review:** Every PR generates a preview link; non-developers can QA components visually.
+Team Review: Every PR generates a preview link; non-developers can QA components visually.
 
-### Figma + API Integrations
+Figma + API Integrations
 
-**Strengths:**
+Strengths:
 - Real-time collaboration across timezones
 - Design tokens exportable to code (via plugins)
 - Component versioning built-in
 - Live previews for stakeholders
 
-**Pricing:** Free (limited), $12/month (professional), $45/month (organization)
+Pricing: Free (limited), $12/month (professional), $45/month (organization)
 
-**Token Export:** Use Tokens Studio plugin ($30/month) to sync design tokens to JSON
+Token Export: Use Tokens Studio plugin ($30/month) to sync design tokens to JSON
 
-**Figma to Code:**
+Figma to Code:
 ```javascript
 // tokens.json (exported from Figma)
 {
@@ -114,26 +114,26 @@ Object.entries(tokens.colors).forEach(([name, value]) => {
 })
 ```
 
-**Constraint:** Figma's API requires custom scripting; no out-of-the-box developer handoff.
+Constraint: Figma's API requires custom scripting; no out-of-the-box developer handoff.
 
-### Zeroheight
+Zeroheight
 
-**Strengths:**
+Strengths:
 - Built specifically for design systems
 - Connects Figma → documentation automatically
 - Design tokens + component API docs in one place
 - Versioning + changelog built-in
 
-**Pricing:** $50/month (team), $200/month (enterprise)
+Pricing: $50/month (team), $200/month (enterprise)
 
-**What You Get:**
+What You Get:
 - Automated component inventory (pulled from Figma)
 - Interactive component playground
 - Design token documentation
 - Version history and deprecation notices
 - Analytics (which components are used, outdated)
 
-**Example Zeroheight Section:**
+Example Zeroheight Section:
 ```
 Component: Button
 Figma Link: [Connected]
@@ -152,19 +152,19 @@ Props:
 - disabled (boolean, default: false)
 ```
 
-**Team Workflow:** Designers update Figma → Zeroheight auto-updates docs → developers see changes immediately.
+Team Workflow: Designers update Figma → Zeroheight auto-updates docs → developers see changes immediately.
 
-### Supernova
+Supernova
 
-**Strengths:**
+Strengths:
 - Real-time Figma sync (updates automatically)
 - Code generation (React, Vue, CSS)
 - Design token management with versioning
 - Multi-workspace support for large teams
 
-**Pricing:** $50/month (startup), $200/month (growth)
+Pricing: $50/month (startup), $200/month (growth)
 
-**Code Generation Example:**
+Code Generation Example:
 ```typescript
 // Supernova generates TypeScript from Figma components
 import { Button, ButtonProps } from '@design-system/button'
@@ -187,28 +187,28 @@ export const PrimaryButtonStory = {
 }
 ```
 
-**CI Integration:** Supernova can generate code and push PRs automatically on design changes.
+CI Integration: Supernova can generate code and push PRs automatically on design changes.
 
-### Chromatic (Storybook's Cloud)
+Chromatic (Storybook's Cloud)
 
-**Strengths:**
+Strengths:
 - Purpose-built for Storybook
 - Visual regression testing (catches unintended changes)
 - Automatic PR previews
 - Component usage metrics
 
-**Pricing:** Free tier (limited), $29/month (pro)
+Pricing: Free tier (limited), $29/month (pro)
 
-**Workflow:**
+Workflow:
 1. Push code to GitHub
 2. Chromatic runs visual tests automatically
 3. If component pixels changed, it highlights them
 4. Designers approve or request changes in PR
 5. Merge once approved
 
-**Time Saved:** Visual QA that would take 2 hours becomes 5 minutes.
+Time Saved: Visual QA that would take 2 hours becomes 5 minutes.
 
-## Detailed Comparison Table
+Detailed Comparison Table
 
 | Tool | Setup Time | Real-time Collab | Figma Sync | Token Mgmt | Versioning | Pricing | Best For |
 |------|-----------|-----------------|-----------|-----------|-----------|---------|----------|
@@ -218,19 +218,19 @@ export const PrimaryButtonStory = {
 | Supernova | 20 min | Partial | Automatic | Excellent | Built-in | $50/mo | Code generation focus |
 | Chromatic | 10 min | No | No | No | Via Storybook | $29/mo | Visual QA + regression |
 
-## Setup Workflow for Remote Teams
+Setup Workflow for Remote Teams
 
-### Recommended Stack: Figma + Zeroheight + Storybook
+Recommended Stack: Figma + Zeroheight + Storybook
 
-**Day 1:** Set up Figma workspace, organize component file
-**Day 2:** Connect Zeroheight to Figma
-**Day 3:** Create Storybook repo, deploy to GitHub Pages
-**Day 4:** Link Storybook in Zeroheight
-**Day 5:** Document token system, version 1.0.0 release
+Day 1: Set up Figma workspace, organize component file
+Day 2: Connect Zeroheight to Figma
+Day 3: Create Storybook repo, deploy to GitHub Pages
+Day 4: Link Storybook in Zeroheight
+Day 5: Document token system, version 1.0.0 release
 
-**Team Ceremony:** Weekly "design system office hours" (30 min) for deprecations and new components
+Team Ceremony: Weekly "design system office hours" (30 min) for deprecations and new components
 
-## Design Token Structure (YAML)
+Design Token Structure (YAML)
 
 ```yaml
 tokens:
@@ -261,14 +261,14 @@ tokens:
     xl: "32px"
 ```
 
-## Versioning Strategy
+Versioning Strategy
 
-**Semantic Versioning for Design Systems:**
-- **Major (2.0.0):** Breaking changes (component API redesign, token renaming)
-- **Minor (1.1.0):** New variants, new tokens (backward compatible)
-- **Patch (1.0.1):** Bug fixes, visual tweaks (no API changes)
+Semantic Versioning for Design Systems:
+- Major (2.0.0): Breaking changes (component API redesign, token renaming)
+- Minor (1.1.0): New variants, new tokens (backward compatible)
+- Patch (1.0.1): Bug fixes, visual tweaks (no API changes)
 
-**Release Checklist:**
+Release Checklist:
 - [ ] All components documented in Zeroheight
 - [ ] Design tokens exported to code
 - [ ] Storybook updated with new stories
@@ -276,39 +276,39 @@ tokens:
 - [ ] GitHub release created
 - [ ] Design system package published to npm
 
-## Documentation Best Practices
+Documentation Best Practices
 
-1. **One source of truth:** Figma → Zeroheight → Storybook (not the other way)
-2. **Usage examples:** Show 5+ real-world use cases per component
-3. **Do/Don't sections:** "Do: Use primary for main action" / "Don't: Use on secondary actions"
-4. **Accessibility notes:** Color contrast, ARIA roles, keyboard navigation
-5. **Responsive behavior:** Show mobile, tablet, desktop variants
-6. **Migration guides:** When deprecating, show exact code changes needed
+1. One source of truth: Figma → Zeroheight → Storybook (not the other way)
+2. Usage examples: Show 5+ real-world use cases per component
+3. Do/Don't sections: "Do: Use primary for main action" / "Don't: Use on secondary actions"
+4. Accessibility notes: Color contrast, ARIA roles, keyboard navigation
+5. Responsive behavior: Show mobile, tablet, desktop variants
+6. Migration guides: When deprecating, show exact code changes needed
 
-## FAQ
+FAQ
 
-**Q: Should designers or developers own design system documentation?**
+Q: Should designers or developers own design system documentation?
 A: Both. Designers own Figma/visual specs; developers own code implementations. Tools like Zeroheight bridge the gap.
 
-**Q: How do we prevent design drift across 5 projects?**
+Q: How do we prevent design drift across 5 projects?
 A: Single source of truth (Figma) + automated sync (Zeroheight) + component package (npm) with versioning.
 
-**Q: Can we version design tokens independently from components?**
+Q: Can we version design tokens independently from components?
 A: Yes. Keep tokens in a separate npm package. Update components less frequently.
 
-**Q: What happens when a designer changes a component in Figma?**
+Q: What happens when a designer changes a component in Figma?
 A: Zeroheight auto-updates docs. Developers see "new version available" in their component package. They opt-in to updates.
 
-**Q: How do we handle design system adoption across teams?**
+Q: How do we handle design system adoption across teams?
 A: Monthly adoption metrics + visual regression tests catch divergence. Pair "breaking change" PRs with Slack notifications.
 
-## Related Articles
+Related Articles
 
 - [Best Tools for Remote Design System Management](/best-tools-remote-design-system-management/)
 - [Best Design Collaboration Tools for Remote Teams](/best-design-collaboration-tools-for-remote-teams/)
 - [How to Set Up Remote Design Handoff Workflow](/how-to-set-up-remote-design-handoff-workflow-between-designe/)
 - [Best Tools for Remote Team Documentation Reviews 2026](/best-tools-for-remote-team-documentation-reviews-2026/)
 - [Best Tools for Remote Design Sprints: A Practical Guide](/best-tools-for-remote-design-sprints/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

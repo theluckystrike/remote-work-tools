@@ -15,9 +15,9 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-Runbooks turn undocumented institutional knowledge into step-by-step procedures anyone on the team can follow at 3am. Good runbooks are opinionated, tested, and short — they list commands to run, not theory to understand. This guide builds the templates and tooling for a remote engineering team's runbook library.
+Runbooks turn undocumented institutional knowledge into step-by-step procedures anyone on the team can follow at 3am. Good runbooks are opinionated, tested, and short. they list commands to run, not theory to understand. This guide builds the templates and tooling for a remote engineering team's runbook library.
 
-## Table of Contents
+Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Prerequisites](#prerequisites)
@@ -27,57 +27,57 @@ Runbooks turn undocumented institutional knowledge into step-by-step procedures 
 - [Troubleshooting](#troubleshooting)
 - [Related Reading](#related-reading)
 
-# [Operation Name] Runbook
+[Operation Name] Runbook
 
-**Owner:** @team-name
-**Last tested:** YYYY-MM-DD
-**Estimated time:** N minutes
-**Severity:** Critical / High / Medium / Low
+Owner: @team-name
+Last tested: YYYY-MM-DD
+Estimated time: N minutes
+Severity: Critical / High / Medium / Low
 
-### Step 2: Purpose
+Step 2: Purpose
 One sentence: what does this runbook do?
 
-## Prerequisites
+Prerequisites
 - Access required
 - Tools needed
 - Checks to do first
 
-### Step 3: Steps
+Step 3: Steps
 1. Step with command
 2. Step with expected output
 3. Verification step
 
-### Step 4: Verification
+Step 4: Verification
 How to confirm the operation succeeded.
 
-### Step 5: Rollback
+Step 5: Rollback
 How to undo this if something goes wrong.
 
-### Step 6: Escalation
+Step 6: Escalation
 Who to page if this doesn't work.
 ```
 
-### Step 7: Template 1: Service Restart
+Step 7: Template 1: Service Restart
 
 ```markdown
-# Service Restart Runbook
+Service Restart Runbook
 
-**Owner:** @platform-team
-**Last tested:** 2026-03-15
-**Estimated time:** 5 minutes
-**Severity:** High
+Owner: @platform-team
+Last tested: 2026-03-15
+Estimated time: 5 minutes
+Severity: High
 
-### Step 8: Purpose
+Step 8: Purpose
 Safely restart a production service without extended downtime.
 
-## Prerequisites
+Prerequisites
 - SSH access to production servers
 - Confirm: `kubectl get pods -n production` (for k8s) or SSH access
 - Alert #incidents that restart is in progress
 
-### Step 9: Steps
+Step 9: Steps
 
-### Kubernetes
+Kubernetes
 
 1. Check current pod status:
    ```bash
@@ -102,7 +102,7 @@ Safely restart a production service without extended downtime.
    ```
  Expected output: `deployment "your-service" successfully rolled out`
 
-### Docker / systemd
+Docker / systemd
 
 1. Check service health before restart:
    ```bash
@@ -119,55 +119,55 @@ Safely restart a production service without extended downtime.
    sudo journalctl -u your-service -n 50 --no-pager
    ```
 
-### Step 10: Verification
+Step 10: Verification
 
 ```bash
-# Check service responds
+Check service responds
 curl -s --max-time 10 https://api.example.com/health | jq .
-# Expected: {"status": "ok"}
+Expected: {"status": "ok"}
 
-# Check error rate in Grafana:
-# Dashboard: Service Health > Error Rate > last 5 minutes
-# Expected: < 0.1% errors
+Check error rate in Grafana:
+Dashboard: Service Health > Error Rate > last 5 minutes
+Expected: < 0.1% errors
 ```
 
-### Step 11: Rollback
+Step 11: Rollback
 
 If the service doesn't come back up:
 
 ```bash
-# Kubernetes: rollback to previous version
+Kubernetes: rollback to previous version
 kubectl rollout undo deployment/your-service -n production
 kubectl rollout status deployment/your-service -n production
 
-# Docker: start previous container
+Docker: start previous container
 docker start your-service_previous
 ```
 
-### Step 12: Escalation
+Step 12: Escalation
 
 Service still down after 10 minutes: page @on-call-engineer via PagerDuty.
 ```
 
-### Step 13: Template 2: Database Backup Verification
+Step 13: Template 2: Database Backup Verification
 
 ```markdown
-# Database Backup Verification Runbook
+Database Backup Verification Runbook
 
-**Owner:** @database-team
-**Last tested:** 2026-03-01
-**Estimated time:** 20 minutes
-**Severity:** Medium
+Owner: @database-team
+Last tested: 2026-03-01
+Estimated time: 20 minutes
+Severity: Medium
 
-### Step 14: Purpose
+Step 14: Purpose
 Verify that recent database backup is valid and can be restored.
 
-## Prerequisites
+Prerequisites
 - Access to backup storage (S3/MinIO)
 - Test restore environment available
 - At least 10GB free disk space on test host
 
-### Step 15: Steps
+Step 15: Steps
 
 1. List recent backups and confirm latest is recent:
    ```bash
@@ -210,14 +210,14 @@ Verify that recent database backup is valid and can be restored.
    # Should be within last 24 hours
    ```
 
-### Step 16: Cleanup
+Step 16: Cleanup
 
 ```bash
 dropdb -U postgres "test_restore_$(date +%Y%m%d)"
 rm /tmp/test-restore.sql.gz
 ```
 
-### Step 17: Verification
+Step 17: Verification
 
 Record backup test results in the backup log:
 ```
@@ -230,31 +230,31 @@ Latest data date: YYYY-MM-DD
 Tested by: @username
 ```
 
-### Step 18: Escalation
+Step 18: Escalation
 
 Backup older than 36 hours or restore fails: page @database-team immediately.
 ```
 
-### Step 19: Template 3: SSL Certificate Renewal
+Step 19: Template 3: SSL Certificate Renewal
 
 ```markdown
-# SSL Certificate Renewal Runbook
+SSL Certificate Renewal Runbook
 
-**Owner:** @platform-team
-**Last tested:** 2026-01-10
-**Estimated time:** 15 minutes (automated) / 45 minutes (manual)
+Owner: @platform-team
+Last tested: 2026-01-10
+Estimated time: 15 minutes (automated) / 45 minutes (manual)
 
-### Step 20: Purpose
+Step 20: Purpose
 Renew SSL certificates before expiry. Run this 30 days before expiry.
 
-## Prerequisites
+Prerequisites
 - Root/sudo access to servers running nginx/apache
 - Certbot installed, or access to certificate provider dashboard
 
-### Step 21: Check Current Expiry
+Step 21: Check Current Expiry
 
 ```bash
-# Check all certs on a server
+Check all certs on a server
 for domain in api.example.com git.example.com auth.example.com; do
   echo -n "$domain: "
   echo | openssl s_client -servername "$domain" -connect "$domain:443" 2>/dev/null \
@@ -262,23 +262,23 @@ for domain in api.example.com git.example.com auth.example.com; do
 done
 ```
 
-### Step 22: Automated Renewal (Let's Encrypt)
+Step 22: Automated Renewal (Let's Encrypt)
 
 ```bash
-# Test renewal (dry run)
+Test renewal (dry run)
 sudo certbot renew --dry-run
 
-# Renew all certs
+Renew all certs
 sudo certbot renew
 
-# Reload nginx after renewal
+Reload nginx after renewal
 sudo systemctl reload nginx
 
-# Verify renewal
+Verify renewal
 sudo certbot certificates
 ```
 
-### Step 23: Manual Renewal (Other CA)
+Step 23: Manual Renewal (Other CA)
 
 1. Generate new CSR:
    ```bash
@@ -296,30 +296,30 @@ sudo certbot certificates
    sudo nginx -t && sudo systemctl reload nginx
    ```
 
-### Step 24: Verification
+Step 24: Verification
 
 ```bash
-# Verify new expiry date
+Verify new expiry date
 echo | openssl s_client -servername api.example.com \
   -connect api.example.com:443 2>/dev/null \
   | openssl x509 -noout -dates
-# notAfter should be 90 days from now (Let's Encrypt) or per CA
+notAfter should be 90 days from now (Let's Encrypt) or per CA
 ```
 ```
 
-### Step 25: Run book CI — Auto-Test Commands
+Step 25: Run book CI. Auto-Test Commands
 
 Test runbook commands don't drift from reality:
 
 ```yaml
-# .github/workflows/test-runbooks.yml
+.github/workflows/test-runbooks.yml
 name: Test Runbook Commands
 
 on:
  schedule:
  - cron: '0 6 * * 1' # Weekly Monday
  pull_request:
- paths: ['runbooks/**']
+ paths: ['runbooks/']
 
 jobs:
  test-cert-check:
@@ -333,25 +333,25 @@ jobs:
  | openssl x509 -noout -dates
 ```
 
-### Step 26: Run book Index Template
+Step 26: Run book Index Template
 
 ```markdown
-# Runbook Index
+Runbook Index
 
-### Step 27: Plan Incident Response
+Step 27: Plan Incident Response
 | Runbook | Owner | Last Tested | Time |
 |---------|-------|-------------|------|
 | [Service Restart](./service-restart.md) | @platform | 2026-03-15 | 5m |
 | [Database Failover](./db-failover.md) | @dba | 2026-02-01 | 30m |
 | [High Traffic Response](./high-traffic.md) | @sre | 2026-03-01 | 15m |
 
-### Step 28: Deploy ments
+Step 28: Deploy ments
 | Runbook | Owner | Last Tested | Time |
 |---------|-------|-------------|------|
 | [Deploy Hotfix](./deploy-hotfix.md) | @engineering | 2026-03-10 | 20m |
 | [Rollback Release](./rollback.md) | @engineering | 2026-03-05 | 10m |
 
-### Step 29: Perform Maintenance
+Step 29: Perform Maintenance
 | Runbook | Owner | Last Tested | Time |
 |---------|-------|-------------|------|
 | [SSL Renewal](./ssl-renewal.md) | @platform | 2026-01-10 | 15m |
@@ -359,37 +359,37 @@ jobs:
 | [Server Patching](./server-patching.md) | @platform | 2026-03-20 | 60m |
 ```
 
-### Step 30: Slack Command for Quick Runbook Access
+Step 30: Slack Command for Quick Runbook Access
 
 ```bash
-# Post this to #ops when an incident starts
+Post this to #ops when an incident starts
 /runbooks incident service-restart
-# Returns link to runbook + last tested date
+Returns link to runbook + last tested date
 ```
 
 Create a simple slash command webhook that queries your runbook index.
 
-### Step 31: Template 4: High Traffic / Scaling Response
+Step 31: Template 4: High Traffic / Scaling Response
 
 ```markdown
-# High Traffic Response Runbook
+High Traffic Response Runbook
 
-**Owner:** @sre-team
-**Last tested:** 2026-03-01
-**Estimated time:** 15 minutes
-**Severity:** Critical
+Owner: @sre-team
+Last tested: 2026-03-01
+Estimated time: 15 minutes
+Severity: Critical
 
-### Step 32: Purpose
+Step 32: Purpose
 Scale production to handle traffic spikes without service degradation.
 
-## Prerequisites
+Prerequisites
 - Access to AWS Console or `kubectl` with production context
 - Grafana dashboard: "Service Health > Request Rate"
 - Confirm this is a real traffic spike, not a metrics scrape bug
 
-### Step 33: Steps
+Step 33: Steps
 
-### Kubernetes — Horizontal Scaling
+Kubernetes. Horizontal Scaling
 
 1. Check current pod count and CPU/memory:
    ```bash
@@ -408,7 +408,7 @@ Scale production to handle traffic spikes without service degradation.
    kubectl get pods -n production -l app=your-service
    ```
 
-### Database — Connection Pool Check
+Database. Connection Pool Check
 
 1. Check Postgres connection count:
    ```bash
@@ -422,7 +422,7 @@ Scale production to handle traffic spikes without service degradation.
    export DB_READ_HOST=db-replica-01.example.com
    ```
 
-### CDN / Cache
+CDN / Cache
 
 1. Check cache hit rate in Cloudflare dashboard
 2. Purge stale cache if serving outdated content:
@@ -433,31 +433,31 @@ Scale production to handle traffic spikes without service degradation.
      --data '{"purge_everything":true}'
    ```
 
-### Step 34: Verification
+Step 34: Verification
 
 Traffic is handled when:
 - Error rate < 0.5% (Grafana: Service Health > Error Rate)
 - P95 response time < 500ms
 - Pod CPU usage < 70% under load
 
-### Step 35: Rollback / Scale Down
+Step 35: Rollback / Scale Down
 
 After traffic returns to normal (monitor for 30 minutes):
 ```bash
-# Let HPA handle it, or manually scale back
+Let HPA handle it, or manually scale back
 kubectl scale deployment your-service -n production --replicas=3
 ```
 
-### Step 36: Escalation
+Step 36: Escalation
 
 Traffic still unmanageable after 20 minutes: page @infrastructure-lead and open a Cloudflare support ticket if CDN appears to be the bottleneck.
 ```
 
-### Step 37: Making Runbooks Findable at 3am
+Step 37: Making Runbooks Findable at 3am
 
 A runbook nobody can find in an incident is useless. Three places every runbook must live:
 
-**1. The repo (source of truth):**
+1. The repo (source of truth):
 ```
 runbooks/
  incident/
@@ -473,29 +473,29 @@ runbooks/
  server-patching.md
 ```
 
-**2. Your internal docs tool** (Notion, Confluence, or a static site built from the same markdown). Mirror the repo structure exactly so links in Slack messages to runbooks do not break when people navigate around the docs site.
+2. Your internal docs tool (Notion, Confluence, or a static site built from the same markdown). Mirror the repo structure exactly so links in Slack messages to runbooks do not break when people navigate around the docs site.
 
-**3. Pinned in `#incidents`:**
-Post a pinned message at the top of your incidents Slack channel with direct links to the five most-used runbooks. During an incident, people do not have time to navigate a wiki — the link should be one click away.
+3. Pinned in `#incidents`:
+Post a pinned message at the top of your incidents Slack channel with direct links to the five most-used runbooks. During an incident, people do not have time to navigate a wiki. the link should be one click away.
 
-A runbook library only works if the team trusts it. Trust comes from: commands that actually run without modification, time estimates that are close to reality, and rollback steps that have actually been tested. Each time you use a runbook in a real incident, update the `Last tested` field and fix anything that was inaccurate. This feedback loop — use it, fix it, trust it more — is what separates a living runbook from documentation theatre.
+A runbook library only works if the team trusts it. Trust comes from: commands that actually run without modification, time estimates that are close to reality, and rollback steps that have actually been tested. Each time you use a runbook in a real incident, update the `Last tested` field and fix anything that was inaccurate. This feedback loop. use it, fix it, trust it more. is what separates a living runbook from documentation theatre.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Related Reading
+Related Reading
 
 - [How to Write Runbooks for Remote Engineering Teams](/how-to-write-runbooks-remote-engineering-teams/)
 - [Best Practice for Remote Team Escalation Paths](/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
@@ -504,13 +504,13 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Build a Remote Team Runbook Library 2026](/how-to-build-remote-team-runbook-library-2026/)
 - [How to Organize Remote Team Runbook Documentation for](/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [How to Create Remote Team Playbook Templates](/how-to-create-remote-team-playbook-templates/)
 - [How to Write Runbooks for Remote Engineering Teams](/how-to-write-runbooks-remote-engineering-teams/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 ```
 {% endraw %}

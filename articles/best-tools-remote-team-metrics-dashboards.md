@@ -15,9 +15,9 @@ tags: [remote-work-tools, best-of, remote-work]
 
 {% raw %}
 
-Remote teams need dashboards that surface the right metrics without requiring everyone to dig through tools manually. This guide covers the best options for engineering metrics, ops dashboards, and business KPIs — with setup configs for each.
+Remote teams need dashboards that surface the right metrics without requiring everyone to dig through tools manually. This guide covers the best options for engineering metrics, ops dashboards, and business KPIs. with setup configs for each.
 
-## Table of Contents
+Table of Contents
 
 - [5.](#5)
 - [What to Measure](#what-to-measure)
@@ -40,15 +40,15 @@ Remote teams need dashboards that surface the right metrics without requiring ev
 | 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
 
 
-# Slack integration: daily digest
-# LinearB Settings > Notifications > Daily Digest > #engineering-metrics
+Slack integration: daily digest
+LinearB Settings > Notifications > Daily Digest > #engineering-metrics
 ```
 
-## 5.
-- **Topics covered**: what to measure, 1. grafana (best all-around), 2. metabase (best for non-technical teams)
-- **Practical guidance included**: Step-by-step setup and configuration instructions
+5.
+- Topics covered: what to measure, 1. grafana (best all-around), 2. metabase (best for non-technical teams)
+- Practical guidance included: Step-by-step setup and configuration instructions
 
-## What to Measure
+What to Measure
 
 Before picking tools, define your metric categories:
 
@@ -71,15 +71,15 @@ Team Health:
  - Time in meetings vs deep work
 ```
 
-## 1. Grafana (Best All-Around)
+1. Grafana (Best All-Around)
 
-**Cost:** Free (self-hosted), $8/user/month (Cloud)
-**Best for:** Infrastructure, app metrics, mixed data sources
+Cost: Free (self-hosted), $8/user/month (Cloud)
+Best for: Infrastructure, app metrics, mixed data sources
 
 Deploy with Docker:
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 services:
  grafana:
  image: grafana/grafana:10.3.1
@@ -105,7 +105,7 @@ services:
 DORA metrics dashboard using Prometheus:
 
 ```yaml
-# prometheus.yml - scrape GitHub Actions metrics
+prometheus.yml - scrape GitHub Actions metrics
 scrape_configs:
  - job_name: 'github-actions-exporter'
  static_configs:
@@ -139,13 +139,13 @@ scrape_configs:
 }
 ```
 
-## 2. Metabase (Best for Non-Technical Teams)
+2. Metabase (Best for Non-Technical Teams)
 
-**Cost:** Free (self-hosted), $500/month (Cloud)
-**Best for:** Business KPIs, SQL-based dashboards, stakeholder sharing
+Cost: Free (self-hosted), $500/month (Cloud)
+Best for: Business KPIs, SQL-based dashboards, stakeholder sharing
 
 ```bash
-# Docker deployment
+Docker deployment
 docker run -d \
  --name metabase \
  -p 3001:3000 \
@@ -177,14 +177,14 @@ GROUP BY 1
 ORDER BY 1;
 ```
 
-## 3. GitHub Insights + Custom Dashboards
+3. GitHub Insights + Custom Dashboards
 
 GitHub's built-in insights miss DORA metrics. Augment with `gh` CLI scripts:
 
 ```bash
 #!/bin/bash
-# scripts/dora-report.sh
-# Generate DORA metrics from GitHub API
+scripts/dora-report.sh
+Generate DORA metrics from GitHub API
 
 ORG="your-org"
 REPO="your-repo"
@@ -192,7 +192,7 @@ SINCE=$(date -d "-30 days" --iso-8601)
 
 echo "=== DORA Metrics: last 30 days ==="
 
-# Deployment Frequency
+Deployment Frequency
 DEPLOYS=$(gh run list \
  --repo "$ORG/$REPO" \
  --workflow deploy.yml \
@@ -202,7 +202,7 @@ DEPLOYS=$(gh run list \
  --jq 'length')
 echo "Deployment frequency: $DEPLOYS deployments ($(echo "scale=1; $DEPLOYS / 30" | bc)/day)"
 
-# Lead time for changes
+Lead time for changes
 echo ""
 echo "Lead Time (last 10 PRs):"
 gh pr list \
@@ -213,9 +213,9 @@ gh pr list \
  --jq '.[] | {
  title: .title,
  hours: ((.mergedAt | fromdateiso8601) - (.createdAt | fromdateiso8601)) / 3600 | round
- }' | jq -r '" PR: \(.title[:50]) — \(.hours)h"'
+ }' | jq -r '" PR: \(.title[:50]). \(.hours)h"'
 
-# Change failure rate
+Change failure rate
 FAILED=$(gh run list \
  --repo "$ORG/$REPO" \
  --workflow deploy.yml \
@@ -229,10 +229,10 @@ CFR=$(echo "scale=1; $FAILED * 100 / $TOTAL" | bc)
 echo "Change failure rate: ${CFR}% ($FAILED failures / $TOTAL total)"
 ```
 
-## 4. LinearB (Purpose-Built Engineering Metrics)
+4. LinearB (Purpose-Built Engineering Metrics)
 
-**Cost:** Free tier available, ~$15/user/month
-**Best for:** DORA metrics without building your own
+Cost: Free tier available, ~$15/user/month
+Best for: DORA metrics without building your own
 
 LinearB connects to GitHub/GitLab and surfaces:
 - PR cycle time breakdown (time to first review, review time, time to merge)
@@ -243,21 +243,21 @@ LinearB connects to GitHub/GitLab and surfaces:
 Setup:
 
 ```bash
-# Connect via LinearB dashboard (no self-hosting needed)
-# 1. Connect GitHub org
-# 2. Map repos to teams
-# 3. Set targets: deployment frequency > daily, lead time < 48h
+Connect via LinearB dashboard (no self-hosting needed)
+1. Connect GitHub org
+2. Map repos to teams
+3. Set targets: deployment frequency > daily, lead time < 48h
 
-# Slack integration: daily digest
-# LinearB Settings > Notifications > Daily Digest > #engineering-metrics
+Slack integration: daily digest
+LinearB Settings > Notifications > Daily Digest > #engineering-metrics
 ```
 
-## 5. Custom Prometheus + Grafana DORA Stack
+5. Custom Prometheus + Grafana DORA Stack
 
 For full control, expose deployment events as Prometheus metrics:
 
 ```python
-# deploy_metrics.py - push gateway for deployment events
+deploy_metrics.py - push gateway for deployment events
 from prometheus_client import CollectorRegistry, Counter, push_to_gateway
 import time
 import os
@@ -283,7 +283,7 @@ def record_deployment(service: str, environment: str, status: str):
  registry=registry
  )
 
-# Call at end of CI/CD pipeline:
+Call at end of CI/CD pipeline:
 record_deployment(
  service=os.environ['SERVICE_NAME'],
  environment=os.environ['ENVIRONMENT'],
@@ -292,7 +292,7 @@ record_deployment(
 ```
 
 ```bash
-# Add to GitHub Actions deploy workflow
+Add to GitHub Actions deploy workflow
 - name: Record deployment metric
  run: python scripts/deploy_metrics.py
  if: always()
@@ -305,7 +305,7 @@ record_deployment(
 Grafana alert for deployment frequency drop:
 
 ```yaml
-# grafana/alerts/dora.yml
+grafana/alerts/dora.yml
 groups:
  - name: dora
  rules:
@@ -319,7 +319,7 @@ groups:
  summary: "Less than 3 production deployments this week"
 ```
 
-## Dashboard Layout for Remote Teams
+Dashboard Layout for Remote Teams
 
 Weekly team metrics page structure:
 
@@ -341,16 +341,16 @@ Row 3: Service Health
  - Active incidents
 ```
 
-## 6. Making Dashboards Actually Useful for Remote Teams
+6. Making Dashboards Actually Useful for Remote Teams
 
 The biggest mistake engineering teams make is building dashboards no one looks at. Metrics become valuable when they're embedded into existing rituals, not treated as a separate reporting layer.
 
-### Async Weekly Digest
+Async Weekly Digest
 
 Instead of expecting engineers to open Grafana each morning, push a digest to Slack automatically:
 
 ```python
-# scripts/weekly_digest.py
+scripts/weekly_digest.py
 import requests
 import os
 from datetime import datetime, timedelta
@@ -384,7 +384,7 @@ def post_digest():
  payload = {
  "attachments": [{
  "color": color,
- "title": f"Engineering Metrics — Week of {datetime.now().strftime('%b %d')}",
+ "title": f"Engineering Metrics. Week of {datetime.now().strftime('%b %d')}",
  "fields": [
  {"title": "Deploy Frequency", "value": f"{deploy_freq:.0f} this week", "short": True},
  {"title": "Avg Lead Time", "value": f"{lead_time:.1f}h", "short": True},
@@ -400,7 +400,7 @@ post_digest()
 Schedule this with a GitHub Actions cron:
 
 ```yaml
-# .github/workflows/metrics-digest.yml
+.github/workflows/metrics-digest.yml
 name: Weekly Metrics Digest
 on:
  schedule:
@@ -418,12 +418,12 @@ jobs:
  GRAFANA_TOKEN: ${{ secrets.GRAFANA_TOKEN }}
 ```
 
-### Defining Targets and Thresholds
+Defining Targets and Thresholds
 
 Raw numbers without context create anxiety, not insight. Define team-specific targets before you publish dashboards publicly:
 
 ```yaml
-# team-metrics-targets.yml
+team-metrics-targets.yml
 dora:
  deployment_frequency:
  elite: ">= 1/day"
@@ -455,16 +455,16 @@ team_health:
 
 Store this in your repo and reference it when configuring alert thresholds in Grafana. This makes targets a team decision rather than a tool default.
 
-### Dashboard Access Control for Remote Teams
+Dashboard Access Control for Remote Teams
 
 With engineers spread across timezones, dashboard access needs to be frictionless:
 
-- **Use SSO**: Configure Grafana's OAuth so any team member logs in with their Google or GitHub account — no separate password management
-- **Public dashboards for execs**: Grafana Cloud supports public dashboard URLs with read-only access; send leadership a static link rather than creating accounts for them
-- **Snapshot for async review**: Use Grafana's built-in snapshot feature (`Share > Snapshot`) to capture point-in-time metrics for incident retrospectives or sprint reviews — snapshots are immutable and shareable without auth
+- Use SSO: Configure Grafana's OAuth so any team member logs in with their Google or GitHub account. no separate password management
+- Public dashboards for execs: Grafana Cloud supports public dashboard URLs with read-only access; send leadership a static link rather than creating accounts for them
+- Snapshot for async review: Use Grafana's built-in snapshot feature (`Share > Snapshot`) to capture point-in-time metrics for incident retrospectives or sprint reviews. snapshots are immutable and shareable without auth
 
 ```bash
-# Create a Grafana snapshot via API
+Create a Grafana snapshot via API
 curl -X POST \
  -H "Content-Type: application/json" \
  -H "Authorization: Bearer $GRAFANA_TOKEN" \
@@ -473,10 +473,10 @@ curl -X POST \
  "expires": 86400
  }' \
  "$GRAFANA_URL/api/snapshots"
-# Returns a public URL valid for 24 hours
+Returns a public URL valid for 24 hours
 ```
 
-## Related Reading
+Related Reading
 
 - [Setting Up Loki for Remote Log Aggregation](/setting-up-loki-remote-log-aggregation/)
 - [Setting Up Jaeger for Distributed Tracing](/setting-up-jaeger-distributed-tracing/)
@@ -485,7 +485,7 @@ curl -X POST \
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Best API Tools for Automating Remote Team Compliance](/best-api-tools-for-automating-remote-team-compliance-reporti/)
 - [Best Analytics Dashboard for a Remote Growth Team of 4](/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
@@ -493,6 +493,6 @@ curl -X POST \
 - [Best Business Intelligence Tool for Small Remote Teams](/best-business-intelligence-tool-for-small-remote-teams-witho/)
 - [Best Tool for Remote Teams Recording and Transcribing](/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 ```
 {% endraw %}

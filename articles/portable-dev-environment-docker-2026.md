@@ -18,7 +18,7 @@ tags: [remote-work-tools]
 
 A portable dev environment solves the biggest friction in remote development: getting a new machine, a new teammate, or a new CI environment up and running in minutes instead of hours. Docker makes the environment a file that you check into version control alongside your code.
 
-## Table of Contents
+Table of Contents
 
 - [The Goal: One Command Setup](#the-goal-one-command-setup)
 - [Writing a Good Dev Dockerfile](#writing-a-good-dev-dockerfile)
@@ -31,28 +31,28 @@ A portable dev environment solves the biggest friction in remote development: ge
 - [Choosing a Base Image: Comparison](#choosing-a-base-image-comparison)
 - [Keeping Images Up to Date](#keeping-images-up-to-date)
 
-This guide builds a complete portable dev environment: a base Dockerfile, a Docker Compose setup with services, and a VS Code dev container config — all usable from any machine with Docker installed.
+This guide builds a complete portable dev environment: a base Dockerfile, a Docker Compose setup with services, and a VS Code dev container config. all usable from any machine with Docker installed.
 
-## The Goal: One Command Setup
+The Goal: One Command Setup
 
 ```bash
-# Clone repo and start environment
+Clone repo and start environment
 git clone https://github.com/yourteam/myproject
 cd myproject
 docker compose up -d
-# That's it — full dev environment running
+That's it. full dev environment running
 ```
 
-## Writing a Good Dev Dockerfile
+Writing a Good Dev Dockerfile
 
 The base image choice matters. Use official language images from Docker Hub with a pinned version:
 
 ```dockerfile
-# .devcontainer/Dockerfile
-# Pin to specific version for reproducibility
+.devcontainer/Dockerfile
+Pin to specific version for reproducibility
 FROM node:20.11.1-bookworm-slim
 
-# Install system dependencies
+Install system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     curl \
@@ -66,14 +66,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     htop \
     && rm -rf /var/lib/apt/lists/*
 
-# Install additional dev tools
+Install additional dev tools
 RUN npm install -g \
     typescript \
     ts-node \
     nodemon \
     @biomejs/biome
 
-# Create non-root user (security best practice)
+Create non-root user (security best practice)
 ARG USERNAME=developer
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
@@ -83,23 +83,23 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && echo "$USERNAME ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 
-# Set working directory
+Set working directory
 WORKDIR /workspace
 
-# Switch to non-root user
+Switch to non-root user
 USER $USERNAME
 
-# Set up shell
+Set up shell
 RUN echo 'export PATH=$PATH:/workspace/node_modules/.bin' >> ~/.bashrc
 
-# Keep container alive
+Keep container alive
 CMD ["sleep", "infinity"]
 ```
 
 For a Python project:
 
 ```dockerfile
-# Dockerfile for Python dev environment
+Dockerfile for Python dev environment
 FROM python:3.12.2-slim-bookworm
 
 ENV PYTHONUNBUFFERED=1 \
@@ -116,7 +116,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     redis-tools \
     && rm -rf /var/lib/apt/lists/*
 
-# Install uv for fast package management
+Install uv for fast package management
 RUN pip install uv
 
 ARG USERNAME=developer
@@ -129,12 +129,12 @@ USER $USERNAME
 CMD ["sleep", "infinity"]
 ```
 
-## Docker Compose for Full Stack Dev
+Docker Compose for Full Stack Dev
 
 A Compose file brings up your app and all its dependencies together:
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: '3.9'
 
 services:
@@ -143,7 +143,7 @@ services:
       context: .
       dockerfile: .devcontainer/Dockerfile
     volumes:
-      # Mount source code — changes reflect immediately
+      # Mount source code. changes reflect immediately
       - .:/workspace:cached
       # Persist node_modules inside container (faster than host mount)
       - node_modules:/workspace/node_modules
@@ -202,45 +202,45 @@ volumes:
   redis_data:
 ```
 
-## Dev Environment Scripts
+Dev Environment Scripts
 
 Add a `Makefile` or shell scripts so the environment is one command to manage:
 
 ```makefile
-# Makefile
+Makefile
 
 .PHONY: up down build shell logs reset migrate test
 
-# Start the environment
+Start the environment
 up:
 	docker compose up -d
 	@echo "Dev environment running. Connect with: make shell"
 
-# Stop everything
+Stop everything
 down:
 	docker compose down
 
-# Rebuild images (after Dockerfile changes)
+Rebuild images (after Dockerfile changes)
 build:
 	docker compose build --no-cache
 
-# Open a shell in the app container
+Open a shell in the app container
 shell:
 	docker compose exec app bash
 
-# Follow app logs
+Follow app logs
 logs:
 	docker compose logs -f app
 
-# Run database migrations
+Run database migrations
 migrate:
 	docker compose exec app npm run db:migrate
 
-# Run tests
+Run tests
 test:
 	docker compose exec app npm test
 
-# Full reset — destroy volumes and rebuild
+Full reset. destroy volumes and rebuild
 reset:
 	docker compose down -v
 	docker compose build --no-cache
@@ -248,31 +248,31 @@ reset:
 	docker compose exec app npm run db:migrate
 	docker compose exec app npm run db:seed
 
-# Install dependencies
+Install dependencies
 install:
 	docker compose exec app npm install
 
-# Production-like build
+Production-like build
 build-prod:
 	docker build -f Dockerfile.prod -t myapp:latest .
 ```
 
-## Persisting Data and Dotfiles
+Persisting Data and Dotfiles
 
 Named volumes in Compose persist database data between restarts. For dotfiles and editor configs inside the container:
 
 ```bash
-# Bootstrap script to set up developer dotfiles inside the container
-# .devcontainer/bootstrap.sh
+Bootstrap script to set up developer dotfiles inside the container
+.devcontainer/bootstrap.sh
 #!/bin/bash
 set -e
 
-# Install personal dotfiles if available
+Install personal dotfiles if available
 if [ -d /home/developer/.dotfiles ]; then
   cd /home/developer/.dotfiles && ./install.sh
 fi
 
-# Install project dependencies
+Install project dependencies
 if [ -f /workspace/package.json ]; then
   cd /workspace && npm install
 elif [ -f /workspace/requirements.txt ]; then
@@ -314,14 +314,14 @@ Reference the bootstrap script in `devcontainer.json`:
 }
 ```
 
-## Managing Multiple Projects
+Managing Multiple Projects
 
 When you have multiple projects, each with their own environment, port conflicts become an issue. Use a port convention:
 
 ```bash
-# ~/.zshrc or ~/.bashrc
+~/.zshrc or ~/.bashrc
 
-# Function to start a project's dev environment
+Function to start a project's dev environment
 dev() {
   local project=${1:-$(basename $PWD)}
   cd ~/projects/$project 2>/dev/null || true
@@ -330,12 +330,12 @@ dev() {
   docker compose ps
 }
 
-# Function to list all running dev environments
+Function to list all running dev environments
 devls() {
   docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}" | grep -v "^NAMES"
 }
 
-# Stop all dev environments
+Stop all dev environments
 devstop() {
   docker ps -q | xargs -r docker stop
   echo "All containers stopped"
@@ -345,27 +345,27 @@ devstop() {
 Port convention example for preventing conflicts across projects:
 
 ```yaml
-# Project A: ports in 3000-3099 range
-# Project B: ports in 3100-3199 range
-# Project C: ports in 3200-3299 range
+Project A: ports in 3000-3099 range
+Project B: ports in 3100-3199 range
+Project C: ports in 3200-3299 range
 ```
 
-## Multi-Architecture Builds (Apple Silicon + Linux CI)
+Multi-Architecture Builds (Apple Silicon + Linux CI)
 
 Apple Silicon Macs (M1/M2/M3) and x86_64 Linux CI runners can hit compatibility problems if images are built for only one architecture. Use Docker Buildx to produce multi-platform images:
 
 ```bash
-# Create a builder that supports multi-arch
+Create a builder that supports multi-arch
 docker buildx create --name multiarch --driver docker-container --use
 
-# Build and push for both architectures simultaneously
+Build and push for both architectures simultaneously
 docker buildx build \
   --platform linux/amd64,linux/arm64 \
   --tag yourregistry/myapp-dev:latest \
   --push \
   .devcontainer/
 
-# Verify both architectures are present
+Verify both architectures are present
 docker buildx imagetools inspect yourregistry/myapp-dev:latest
 ```
 
@@ -383,12 +383,12 @@ docker buildx build \
 
 Team members on either architecture pull the same image tag and get the correct binary. This eliminates the "works on my Mac, fails in CI" class of problems.
 
-## CI/CD Integration
+CI/CD Integration
 
 The dev container configuration doubles as a CI specification. GitHub Actions can run tests inside the same container used for local development:
 
 ```yaml
-# .github/workflows/test.yml
+.github/workflows/test.yml
 name: CI
 
 on: [push, pull_request]
@@ -426,7 +426,7 @@ jobs:
 
 The CI environment is now identical to the local dev environment. A test that passes locally will pass in CI because both run the same container image.
 
-## Choosing a Base Image: Comparison
+Choosing a Base Image: Comparison
 
 Base image choice has downstream effects on image size, security surface, and available tools:
 
@@ -439,18 +439,18 @@ Base image choice has downstream effects on image size, security surface, and av
 | `ubuntu:24.04` | Ubuntu LTS | ~80MB | Yes | General-purpose, familiar toolchain |
 | `mcr.microsoft.com/devcontainers/base:ubuntu` | Ubuntu LTS | ~420MB | Yes | VS Code dev containers with pre-installed tools |
 
-**Alpine images** are smallest but use musl libc instead of glibc. Some native Node modules (sharp, bcrypt) and Python C extensions require glibc and will fail to compile on Alpine. Use Alpine only if your project has no native dependencies.
+Alpine images are smallest but use musl libc instead of glibc. Some native Node modules (sharp, bcrypt) and Python C extensions require glibc and will fail to compile on Alpine. Use Alpine only if your project has no native dependencies.
 
-**Debian slim images** are the practical default for most projects: small enough to pull quickly, glibc-compatible for native modules, and based on a well-supported OS with regular security patches.
+Debian slim images are the practical default for most projects: small enough to pull quickly, glibc-compatible for native modules, and based on a well-supported OS with regular security patches.
 
-**Microsoft's devcontainers base images** (`mcr.microsoft.com/devcontainers/`) come pre-installed with git, zsh, and VS Code server integration. They are larger but save the effort of scripting developer tooling from scratch.
+Microsoft's devcontainers base images (`mcr.microsoft.com/devcontainers/`) come pre-installed with git, zsh, and VS Code server integration. They are larger but save the effort of scripting developer tooling from scratch.
 
-## Keeping Images Up to Date
+Keeping Images Up to Date
 
 Pinned image versions (e.g., `node:20.11.1-bookworm-slim`) prevent surprise breakage but require deliberate updates. Automate this with Dependabot:
 
 ```yaml
-# .github/dependabot.yml
+.github/dependabot.yml
 version: 2
 updates:
   - package-ecosystem: docker
@@ -467,36 +467,36 @@ updates:
       interval: weekly
 ```
 
-Dependabot opens a PR each week when newer patch versions of your pinned images are available. Review the changelog, run CI, and merge if green — no manual version tracking required.
+Dependabot opens a PR each week when newer patch versions of your pinned images are available. Review the changelog, run CI, and merge if green. no manual version tracking required.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does Docker offer a free tier?**
+Does Docker offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check Docker's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get started quickly?**
+How do I get started quickly?
 
 Pick one tool from the options discussed and sign up for a free trial. Spend 30 minutes on a real task from your daily work rather than running through tutorials. Real usage reveals fit faster than feature comparisons.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
 - [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
 - [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
 - [Optimize Docker for Slow Connections When Working Remotely](/docker-optimize-slow-connection-remote-work/)
 - [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

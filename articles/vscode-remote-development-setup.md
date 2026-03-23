@@ -18,7 +18,7 @@ tags: [remote-work-tools, remote-work]
 
 VS Code's Remote Development extensions let you run your editor UI locally while the code, terminal, debugger, and extensions all run on a remote server. You get the performance of a powerful remote machine and the latency of a local editor window.
 
-## Table of Contents
+Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Remote IDE Comparison](#remote-ide-comparison)
@@ -27,31 +27,31 @@ VS Code's Remote Development extensions let you run your editor UI locally while
 
 This guide covers the SSH remote extension, dev containers, settings sync, and per-project configuration that makes remote development practical for teams.
 
-## Install the Remote Development Extension Pack
+Install the Remote Development Extension Pack
 
 ```bash
-# Install via CLI
+Install via CLI
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 
-# This installs three extensions:
-# - Remote - SSH (ms-vscode-remote.remote-ssh)
-# - Remote - Containers (ms-vscode-remote.remote-containers)
-# - Remote - WSL (ms-vscode-remote.remote-wsl)
+This installs three extensions:
+- Remote - SSH (ms-vscode-remote.remote-ssh)
+- Remote - Containers (ms-vscode-remote.remote-containers)
+- Remote - WSL (ms-vscode-remote.remote-wsl)
 
-# Verify installation
+Verify installation
 code --list-extensions | grep remote
 ```
 
 Alternatively, open VS Code, press `Ctrl+Shift+X`, and search for "Remote Development".
 
-## Remote SSH Setup
+Remote SSH Setup
 
-### Configure SSH Access
+Configure SSH Access
 
 The Remote SSH extension reads from your `~/.ssh/config`. Set up your hosts there:
 
 ```bash
-# ~/.ssh/config
+~/.ssh/config
 
 Host devserver
     HostName dev.example.com
@@ -71,7 +71,7 @@ Host jump-dev
 
 `ForwardAgent yes` lets you use your local SSH keys on the remote server (for git operations). `ServerAliveInterval` prevents the connection from dropping on idle.
 
-### Connect and Configure
+Connect and Configure
 
 1. Open the Command Palette (`Ctrl+Shift+P`)
 2. Type `Remote-SSH: Connect to Host`
@@ -79,12 +79,12 @@ Host jump-dev
 
 VS Code installs a small server on the remote machine the first time. After that, connections are fast.
 
-### Install Extensions on the Remote Host
+Install Extensions on the Remote Host
 
-Extensions run either locally (UI extensions like themes) or on the remote server (language servers, linters). Install server-side extensions through the extensions panel while connected — they install on the remote machine, not your local one.
+Extensions run either locally (UI extensions like themes) or on the remote server (language servers, linters). Install server-side extensions through the extensions panel while connected. they install on the remote machine, not your local one.
 
 ```json
-// .vscode/extensions.json — recommend extensions for this project
+// .vscode/extensions.json. recommend extensions for this project
 // Teammates get prompted to install these when they open the folder
 {
   "recommendations": [
@@ -98,11 +98,11 @@ Extensions run either locally (UI extensions like themes) or on the remote serve
 }
 ```
 
-## Dev Containers
+Dev Containers
 
-Dev containers define the full development environment in a `.devcontainer/devcontainer.json` file. Everyone on the team gets the same toolchain, runtimes, and extensions — no "works on my machine" issues.
+Dev containers define the full development environment in a `.devcontainer/devcontainer.json` file. Everyone on the team gets the same toolchain, runtimes, and extensions. no "works on my machine" issues.
 
-### Basic devcontainer.json
+Basic devcontainer.json
 
 ```json
 // .devcontainer/devcontainer.json
@@ -139,7 +139,7 @@ Dev containers define the full development environment in a `.devcontainer/devco
 For a Python project with Docker Compose:
 
 ```yaml
-# .devcontainer/docker-compose.yml
+.devcontainer/docker-compose.yml
 version: '3.8'
 services:
   app:
@@ -187,7 +187,7 @@ volumes:
 }
 ```
 
-## Settings Sync for Remote Teams
+Settings Sync for Remote Teams
 
 Settings Sync keeps your VS Code configuration consistent across machines. Enable it:
 
@@ -208,15 +208,15 @@ For teams, use a shared `settings.json` committed to the repo instead of relying
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.exclude": {
-    "**/.git": true,
-    "**/node_modules": true,
-    "**/__pycache__": true,
-    "**/.pytest_cache": true
+    "/.git": true,
+    "/node_modules": true,
+    "/__pycache__": true,
+    "/.pytest_cache": true
   },
   "search.exclude": {
-    "**/node_modules": true,
-    "**/dist": true,
-    "**/.next": true
+    "/node_modules": true,
+    "/dist": true,
+    "/.next": true
   },
   "terminal.integrated.defaultProfile.linux": "bash",
   "git.autofetch": true,
@@ -224,7 +224,7 @@ For teams, use a shared `settings.json` committed to the repo instead of relying
 }
 ```
 
-## Useful Remote Development Settings
+Useful Remote Development Settings
 
 Add to your user `settings.json` (`Ctrl+Shift+P` → `Open User Settings JSON`):
 
@@ -237,9 +237,9 @@ Add to your user `settings.json` (`Ctrl+Shift+P` → `Open User Settings JSON`):
 
   // Performance on remote
   "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/node_modules/**": true,
-    "**/dist/**": true
+    "/.git/objects/": true,
+    "/node_modules/": true,
+    "/dist/": true
   },
 
   // Keep terminal alive on disconnect
@@ -257,13 +257,13 @@ Add to your user `settings.json` (`Ctrl+Shift+P` → `Open User Settings JSON`):
 }
 ```
 
-## Port Forwarding
+Port Forwarding
 
 VS Code automatically detects ports your remote process opens and offers to forward them. You can also set up port forwarding manually:
 
 1. Open the Ports panel: `Ctrl+Shift+P` → `Ports: Focus on Ports View`
 2. Click `Forward a Port` and enter the port number
-3. The forwarded URL appears in the panel — click to open in browser
+3. The forwarded URL appears in the panel. click to open in browser
 
 For persistent forwarding in `.devcontainer/devcontainer.json`, use `forwardPorts`. For SSH remotes, add to your task configuration:
 
@@ -291,7 +291,7 @@ For persistent forwarding in `.devcontainer/devcontainer.json`, use `forwardPort
 }
 ```
 
-## Debugging on Remote Hosts
+Debugging on Remote Hosts
 
 Launch configurations work the same whether local or remote. The debug adapter runs on the remote machine:
 
@@ -323,39 +323,39 @@ Launch configurations work the same whether local or remote. The debug adapter r
 }
 ```
 
-## Remote IDE Comparison
+Remote IDE Comparison
 
 VS Code is not the only option for remote development. Understanding the trade-offs helps teams make the right call:
 
 | Tool | Remote protocol | Language support | Container support | Cost |
 |------|----------------|-----------------|------------------|------|
-| **VS Code Remote SSH** | SSH + VS Code server | Universal (extension-based) | Dev Containers spec | Free |
-| **JetBrains Gateway** | SSH + JetBrains backend | Excellent for Java, Kotlin, Python | Yes (via JetBrains Space) | Paid (IDE license required) |
-| **GitHub Codespaces** | Browser or VS Code | Universal | Dev Containers spec | Usage-based (~$0.18/hr for 2-core) |
-| **Gitpod** | Browser or VS Code/JetBrains | Universal | Workspace images | Free tier, paid from $9/mo |
-| **Cursor** | SSH + Cursor server | Universal + AI pair programming | Limited | $20/mo with AI features |
+| VS Code Remote SSH | SSH + VS Code server | Universal (extension-based) | Dev Containers spec | Free |
+| JetBrains Gateway | SSH + JetBrains backend | Excellent for Java, Kotlin, Python | Yes (via JetBrains Space) | Paid (IDE license required) |
+| GitHub Codespaces | Browser or VS Code | Universal | Dev Containers spec | Usage-based (~$0.18/hr for 2-core) |
+| Gitpod | Browser or VS Code/JetBrains | Universal | Workspace images | Free tier, paid from $9/mo |
+| Cursor | SSH + Cursor server | Universal + AI pair programming | Limited | $20/mo with AI features |
 
 VS Code Remote SSH wins on cost and control for teams with existing infrastructure. GitHub Codespaces or Gitpod make sense when you want zero-config onboarding for contributors who shouldn't need a local dev environment at all.
 
-## Step-by-Step: First-Time Remote SSH Setup
+Step-by-Step: First-Time Remote SSH Setup
 
-**Step 1 — Generate an SSH key pair on your local machine.** Run `ssh-keygen -t ed25519 -C "your.email@example.com"`. Ed25519 keys are smaller and faster than RSA.
+Step 1. Generate an SSH key pair on your local machine. Run `ssh-keygen -t ed25519 -C "your.email@example.com"`. Ed25519 keys are smaller and faster than RSA.
 
-**Step 2 — Copy your public key to the remote server.** Run `ssh-copy-id -i ~/.ssh/id_ed25519.pub ubuntu@dev.example.com`. Alternatively, append the contents of `~/.ssh/id_ed25519.pub` to `~/.ssh/authorized_keys` on the remote machine.
+Step 2. Copy your public key to the remote server. Run `ssh-copy-id -i ~/.ssh/id_ed25519.pub ubuntu@dev.example.com`. Alternatively, append the contents of `~/.ssh/id_ed25519.pub` to `~/.ssh/authorized_keys` on the remote machine.
 
-**Step 3 — Add the host to `~/.ssh/config`.** Use the format shown in the SSH Config section above. Include `ServerAliveInterval 30` to prevent idle disconnects.
+Step 3. Add the host to `~/.ssh/config`. Use the format shown in the SSH Config section above. Include `ServerAliveInterval 30` to prevent idle disconnects.
 
-**Step 4 — Test the connection without VS Code first.** Run `ssh devserver` from your terminal. If it connects without a password prompt, VS Code will work.
+Step 4. Test the connection without VS Code first. Run `ssh devserver` from your terminal. If it connects without a password prompt, VS Code will work.
 
-**Step 5 — Open VS Code and connect.** Press `Ctrl+Shift+P`, type `Remote-SSH: Connect to Host`, select your host. VS Code will install its server component on the remote machine — this takes about 30 seconds the first time.
+Step 5. Open VS Code and connect. Press `Ctrl+Shift+P`, type `Remote-SSH: Connect to Host`, select your host. VS Code will install its server component on the remote machine. this takes about 30 seconds the first time.
 
-**Step 6 — Open your project folder.** Use `File → Open Folder` and navigate to your project directory on the remote machine. The path is on the remote filesystem, not local.
+Step 6. Open your project folder. Use `File → Open Folder` and navigate to your project directory on the remote machine. The path is on the remote filesystem, not local.
 
-**Step 7 — Install project-recommended extensions.** VS Code will prompt you to install the extensions listed in `.vscode/extensions.json`. Accept the prompt. Extensions install on the remote server and run there.
+Step 7. Install project-recommended extensions. VS Code will prompt you to install the extensions listed in `.vscode/extensions.json`. Accept the prompt. Extensions install on the remote server and run there.
 
-**Step 8 — Commit your `.vscode/` config files.** Committing `settings.json`, `extensions.json`, `launch.json`, and `tasks.json` means every teammate who opens the repo gets a consistent environment automatically.
+Step 8. Commit your `.vscode/` config files. Committing `settings.json`, `extensions.json`, `launch.json`, and `tasks.json` means every teammate who opens the repo gets a consistent environment automatically.
 
-## Performance Tips for Remote Development
+Performance Tips for Remote Development
 
 Remote development introduces network latency between your keyboard and the language server. These settings reduce perceived lag:
 
@@ -367,26 +367,26 @@ Enable persistent terminal sessions. With `terminal.integrated.enablePersistentS
 
 Set a 90-second connection timeout for slow networks. Add `"remote.SSH.connectTimeout": 90` if you regularly connect from high-latency networks or VPNs.
 
-## FAQ
+FAQ
 
-**Why do my locally installed extensions not work on the remote server?**
-Most extensions need to run where the code is — on the remote server. UI extensions like themes run locally, but language servers, linters, and debuggers install and run on the remote. Open the Extensions panel while connected and install them explicitly for the remote host.
+Why do my locally installed extensions not work on the remote server?
+Most extensions need to run where the code is. on the remote server. UI extensions like themes run locally, but language servers, linters, and debuggers install and run on the remote. Open the Extensions panel while connected and install them explicitly for the remote host.
 
-**Can I use VS Code Remote SSH through a corporate VPN?**
+Can I use VS Code Remote SSH through a corporate VPN?
 Yes. Add the remote host to your `~/.ssh/config` with the VPN-accessible hostname. If the server is behind a bastion host, use `ProxyJump bastion.corp.example.com` in your SSH config. VS Code passes all traffic through the SSH tunnel.
 
-**How do dev containers differ from Remote SSH?**
+How do dev containers differ from Remote SSH?
 Remote SSH connects to an existing server and uses whatever is installed there. Dev containers spin up a fresh Docker container with a precisely defined environment every time. Dev containers are better for reproducibility across teammates; Remote SSH is better when you need access to a specific persistent server with specific data or resources.
 
-**What happens to my terminal if my internet drops?**
-With `terminal.integrated.enablePersistentSessions: true`, VS Code reconnects and your terminal session resumes. For long-running processes you cannot afford to lose, use `tmux` or `screen` on the remote server — these survive SSH disconnections regardless of VS Code settings.
+What happens to my terminal if my internet drops?
+With `terminal.integrated.enablePersistentSessions: true`, VS Code reconnects and your terminal session resumes. For long-running processes you cannot afford to lose, use `tmux` or `screen` on the remote server. these survive SSH disconnections regardless of VS Code settings.
 
-## Related Articles
+Related Articles
 
 - [Remote Code Review Tools Comparison 2026](/remote-code-review-tools-comparison-2026/)
 - [How to Optimize macOS for Remote Development](/how-to-optimize-macos-for-remote-development/)
 - [Best Mobile Presentation Remote App for Remote Speakers](/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
 - [How to Set Up Remote Pair Programming Sessions in 2026](/how-to-set-up-remote-pair-programming-sessions-2026/)
 - [How to Set Up Remote Pair Programming Workflow Guide](/how-to-set-up-remote-pair-programming-workflow-guide/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

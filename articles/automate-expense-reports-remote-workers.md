@@ -15,11 +15,11 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-Expense reports are manual friction that remote workers deal with monthly. The typical flow — photograph receipts, open a spreadsheet, copy in amounts, export to PDF, attach to email — takes 30-60 minutes per report. Automating it with scripts reduces that to minutes.
+Expense reports are manual friction that remote workers deal with monthly. The typical flow. photograph receipts, open a spreadsheet, copy in amounts, export to PDF, attach to email. takes 30-60 minutes per report. Automating it with scripts reduces that to minutes.
 
 This guide builds an expense automation system: a folder watcher that extracts amounts from receipt images using OCR, generates a categorized CSV, and produces a PDF report ready to submit.
 
-## What Gets Automated
+What Gets Automated
 
 1. Drop receipt images into `~/receipts/incoming/`
 2. OCR script extracts amount, vendor, and date from each image
@@ -27,40 +27,40 @@ This guide builds an expense automation system: a folder watcher that extracts a
 4. Generate monthly CSV and PDF report
 5. Email report to your finance contact or manager
 
-## Install Dependencies
+Install Dependencies
 
 ```bash
-# macOS
+macOS
 brew install tesseract imagemagick python3
 
-# Ubuntu/Debian
+Ubuntu/Debian
 sudo apt install tesseract-ocr imagemagick python3-pip -y
 
-# Python packages
+Python packages
 pip3 install pytesseract Pillow pandas fpdf2 python-dotenv
 
-# Verify Tesseract
+Verify Tesseract
 tesseract --version
 ```
 
-## Folder Structure
+Folder Structure
 
 ```bash
 ~/expenses/
-├── receipts/
-│   ├── incoming/      # drop new receipts here
-│   └── processed/     # moved here after extraction
-├── ledger.csv          # master expense log
-├── reports/           # generated PDFs
-├── extract.py         # OCR extraction script
-├── report.py          # PDF report generator
-└── .env               # SMTP credentials
+ receipts/
+    incoming/      # drop new receipts here
+    processed/     # moved here after extraction
+ ledger.csv          # master expense log
+ reports/           # generated PDFs
+ extract.py         # OCR extraction script
+ report.py          # PDF report generator
+ .env               # SMTP credentials
 ```
 
-## Receipt Extraction Script
+Receipt Extraction Script
 
 ```python
-# extract.py
+extract.py
 import os
 import re
 import shutil
@@ -166,7 +166,7 @@ def process_receipts():
             new_rows.append(row)
             print(f"  → {vendor}: ${amount} ({category})")
         else:
-            print(f"  → Could not extract amount — check manually")
+            print(f"  → Could not extract amount. check manually")
 
         # Move to processed
         shutil.move(str(img_path), str(PROCESSED / img_path.name))
@@ -184,10 +184,10 @@ if __name__ == "__main__":
     process_receipts()
 ```
 
-## PDF Report Generator
+PDF Report Generator
 
 ```python
-# report.py
+report.py
 import csv
 import os
 from datetime import datetime
@@ -225,7 +225,7 @@ def generate_report(month: str = None):
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font("Helvetica", "B", 16)
-    pdf.cell(0, 10, f"Expense Report — {month}", ln=True)
+    pdf.cell(0, 10, f"Expense Report. {month}", ln=True)
 
     pdf.set_font("Helvetica", "", 10)
     pdf.cell(0, 6, f"Generated: {datetime.today().strftime('%Y-%m-%d')}", ln=True)
@@ -270,10 +270,10 @@ if __name__ == "__main__":
     generate_report(month)
 ```
 
-## Email the Report
+Email the Report
 
 ```bash
-# .env
+.env
 SMTP_HOST=smtp.gmail.com
 SMTP_USER=you@gmail.com
 SMTP_PASS=your-app-password
@@ -282,7 +282,7 @@ YOUR_NAME=Your Name
 ```
 
 ```python
-# send-report.py
+send-report.py
 import smtplib
 import os
 import sys
@@ -307,7 +307,7 @@ def send_report(month=None):
     msg = MIMEMultipart()
     msg["From"] = os.getenv("SMTP_USER")
     msg["To"] = os.getenv("MANAGER_EMAIL")
-    msg["Subject"] = f"Expense Report {month} — {os.getenv('YOUR_NAME')}"
+    msg["Subject"] = f"Expense Report {month}. {os.getenv('YOUR_NAME')}"
 
     msg.attach(MIMEText(f"Hi,\n\nAttached is my expense report for {month}.\n\nBest,\n{os.getenv('YOUR_NAME')}"))
 
@@ -328,72 +328,72 @@ if __name__ == "__main__":
     send_report(sys.argv[1] if len(sys.argv) > 1 else None)
 ```
 
-## Run the Full Workflow
+Run the Full Workflow
 
 ```bash
-# 1. Drop receipt images into ~/expenses/receipts/incoming/
+1. Drop receipt images into ~/expenses/receipts/incoming/
 
-# 2. Extract amounts from all new receipts
+2. Extract amounts from all new receipts
 python3 ~/expenses/extract.py
 
-# 3. Review and fix the ledger if OCR missed anything
+3. Review and fix the ledger if OCR missed anything
 cat ~/expenses/ledger.csv
 
-# 4. Generate report for current month
+4. Generate report for current month
 python3 ~/expenses/report.py
 
-# 5. Send report
+5. Send report
 python3 ~/expenses/send-report.py
 
-# Or send for a specific month
+Or send for a specific month
 python3 ~/expenses/send-report.py 2026-02
 ```
 
-## Add a Manual Entry
+Add a Manual Entry
 
 For receipts that OCR cannot parse (printed text too faint, scanned PDFs):
 
 ```bash
-# Append manually
+Append manually
 echo "2026-03-15,Ikea,89.99,hardware,Standing desk riser,desk-riser-receipt.jpg" \
   >> ~/expenses/ledger.csv
 ```
 
-## Related Reading
+Related Reading
 
 - [Best Expense Management Platform for Remote Teams with Receipt Tracking](/best-expense-management-platform-for-remote-teams-with-recei/)
 - [Best Accounting Software for Freelancers 2026](/best-accounting-software-for-freelancers-2026/)
 - [Automate Invoice Generation for Freelancers](/automate-invoice-generation-freelancers/)
 - [How to Set Up Remote Finance Team Approval Workflow](/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
 
-## Related Articles
+Related Articles
 
 - [Best Expense Management Platform for Remote Teams with Recei](/best-expense-management-platform-for-remote-teams-with-recei/)
 - [Remote Team Handbook Section Template for Writing Expense Re](/remote-team-handbook-section-template-for-writing-expense-re/)
 - [Best SIP Phone Software for Remote Workers: A Technical](/best-sip-phone-software-for-remote-workers/)
 - [How to Set Up Remote Finance Team Approval Workflow](/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
 - [How to Create Automated Client Progress Report for Remote](/how-to-create-automated-client-progress-report-for-remote-pr/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 

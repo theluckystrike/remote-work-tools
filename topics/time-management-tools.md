@@ -14,7 +14,7 @@ Managing time effectively across distributed teams and multiple time zones is on
 
 ---
 
-## Articles in This Topic (54)
+Articles in This Topic (54)
 
 - [Add to crontab for daily school-day reminders](/remote-working-parent-productivity-hack-using-time-blocking-/)
 - [Best Air Purifier for Home Office Productivity](/best-air-purifier-for-home-office-productivity/)

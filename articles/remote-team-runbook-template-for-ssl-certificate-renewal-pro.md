@@ -20,15 +20,15 @@ SSL certificate expiration remains one of the most preventable causes of service
 
 This runbook provides a practical template for managing SSL certificate renewals asynchronously, ensuring your remote infrastructure team stays ahead of expiration dates without last-minute fire drills.
 
-## Understanding the Challenge
+Understanding the Challenge
 
 In a remote team environment, certificate renewals present unique challenges. When your infrastructure spans multiple cloud providers, regions, and team members in different time zones, the coordination overhead increases significantly. Someone in Tokyo might handle DNS configuration while someone in Berlin manages the certificate deployment, and someone in San Francisco maintains the documentation.
 
 Without explicit runbooks, critical knowledge lives only in individual Slack messages or personal notes. When team members take time off or leave, institutional knowledge disappears. A well-structured runbook solves this by making every renewal step explicit, auditable, and transferable.
 
-## The Certificate Renewal Runbook Template
+The Certificate Renewal Runbook Template
 
-### Prerequisites
+Prerequisites
 
 Before initiating a certificate renewal, gather the following information:
 
@@ -39,56 +39,56 @@ Before initiating a certificate renewal, gather the following information:
 - Primary and secondary owners: Team members responsible for this certificate
 - Renewal method: ACM (Automated Certificate Management Environment), manual CSR generation, or DNS validation
 
-### Phase 1: Preparation (14 Days Before Expiration)
+Phase 1: Preparation (14 Days Before Expiration)
 
 The preparation phase starts two weeks before certificate expiration. This buffer allows time for troubleshooting without rushing.
 
-**Step 1: Create a Renewal Task**
+Step 1: Create a Renewal Task
 
 Open a task in your project management system with the following template:
 
 ```
-## Certificate Renewal Task
-- **Domain**: example.com, api.example.com
-- **Current Expiration**: 2026-03-30
-- **Environment**: Production
-- **Owners**: @alice (primary), @bob (secondary)
-- **CA**: Let's Encrypt / DigiCert
-- **Validation Method**: DNS-01
+Certificate Renewal Task
+- Domain: example.com, api.example.com
+- Current Expiration: 2026-03-30
+- Environment: Production
+- Owners: @alice (primary), @bob (secondary)
+- CA: Let's Encrypt / DigiCert
+- Validation Method: DNS-01
 ```
 
-**Step 2: Verify Access Permissions**
+Step 2: Verify Access Permissions
 
 Confirm that team members have appropriate access:
 
 ```bash
-# Verify AWS IAM certificate access
+Verify AWS IAM certificate access
 aws iam get-server-certificate --server-certificate-name example-com-prod
 
-# Verify GCP SSL certificates
+Verify GCP SSL certificates
 gcloud compute ssl-certificates list --filter="name~example"
 
-# Verify Azure certificates
+Verify Azure certificates
 az keyvault certificate list --vault-name "production-keyvault"
 ```
 
 If any team member lacks access, grant permissions during this phase rather than during deployment.
 
-**Step 3: Notify Stakeholders**
+Step 3: Notify Stakeholders
 
 Post a message in your infrastructure team's channel:
 
 ```
-🔔 Certificate Renewal Reminder
+ Certificate Renewal Reminder
 Domain: example.com
 Current cert expires: 2026-03-30
 Renewal initiated by: @alice
 Timeline: Preparation phase (Day 1-7), Deployment phase (Day 8-10)
 ```
 
-### Phase 2: Certificate Generation (7 Days Before Expiration)
+Phase 2: Certificate Generation (7 Days Before Expiration)
 
-**Step 1: Generate New Certificate**
+Step 1: Generate New Certificate
 
 For Let's Encrypt with Certbot:
 
@@ -103,33 +103,33 @@ certbot certonly --dns-route53 \
 For manual CSR generation with OpenSSL:
 
 ```bash
-# Generate new private key
+Generate new private key
 openssl genrsa -out example-com-key.pem 4096
 
-# Generate CSR
+Generate CSR
 openssl req -new -key example-com-key.pem \
   -out example-com.csr \
   -subj "/C=US/ST=California/L=San Francisco/O=Company/CN=example.com"
 ```
 
-**Step 2: Validate Certificate**
+Step 2: Validate Certificate
 
 Before deploying, verify the certificate details:
 
 ```bash
-# Check certificate expiration
+Check certificate expiration
 openssl x509 -in /tmp/new-certs/fullchain.pem -noout -dates
 
-# Verify domain coverage
+Verify domain coverage
 openssl x509 -in /tmp/new-certs/fullchain.pem -noout -text | grep -A1 "Subject Alternative Name"
 ```
 
-**Step 3: Upload to Secret Management**
+Step 3: Upload to Secret Management
 
 Store the new certificate in your team's secrets management system:
 
 ```bash
-# HashiCorp Vault example
+HashiCorp Vault example
 vault kv put secret/ssl/example-com-prod \
   certificate=@/tmp/new-certs/fullchain.pem \
   private_key=@/tmp/new-certs/privkey.pem \
@@ -138,36 +138,36 @@ vault kv put secret/ssl/example-com-prod \
   renewal_date="2026-03-16"
 ```
 
-### Phase 3: Deployment (3 Days Before Expiration)
+Phase 3: Deployment (3 Days Before Expiration)
 
 Deploy certificates to each environment systematically. Test staging before production.
 
-**Step 1: Deploy to Staging**
+Step 1: Deploy to Staging
 
 ```bash
-# AWS ALB example
+AWS ALB example
 aws iam upload-server-certificate \
   --server-certificate-name example-com-staging \
   --certificate-body file://staging-cert.pem \
   --private-key file://staging-key.pem \
   --path /infra/staging/
 
-# Update ALB listener
+Update ALB listener
 aws elbv2 set-rule-associations \
   --rule-associations "[{\"RuleArn\":\"arn:aws:elasticloadbalancing:region:account:rule/rule-id\",\"CertificateArns\":['arn:aws:iam::account:server-certificate/example-com-staging']}]"
 ```
 
-**Step 2: Validate Staging Deployment**
+Step 2: Validate Staging Deployment
 
 ```bash
-# Test certificate deployment
+Test certificate deployment
 curl -vI https://staging.example.com 2>&1 | grep -E "SSL|TLS|certificate"
 
-# Verify certificate chain
+Verify certificate chain
 openssl s_client -connect staging.example.com:443 -showcerts
 ```
 
-**Step 3: Coordinate Production Deployment**
+Step 3: Coordinate Production Deployment
 
 For production deployment, coordinate with team members in overlapping time zones:
 
@@ -179,43 +179,43 @@ Production Deployment Window
 - Approvals required: 1 primary or 2 team members
 ```
 
-**Step 4: Deploy to Production**
+Step 4: Deploy to Production
 
 Follow the same deployment steps used for staging, targeting production resources.
 
-**Step 5: Verify Production Deployment**
+Step 5: Verify Production Deployment
 
 ```bash
-# Check certificate is serving correctly
+Check certificate is serving correctly
 curl -I https://example.com 2>&1 | head -20
 
-# Verify with external checker
+Verify with external checker
 curl -s https://www.ssllabs.com/ssltest/analyze.html?d=example.com | grep -i "rating"
 
-# Monitor error rates post-deployment
+Monitor error rates post-deployment
 kubectl get pods -n production -l app=api | grep -v "Running"
 ```
 
-### Phase 4: Post-Renewal (After Deployment)
+Phase 4: Post-Renewal (After Deployment)
 
-**Step 1: Update Documentation**
+Step 1: Update Documentation
 
 Record the renewal in your certificate inventory:
 
 ```markdown
-## Certificate Inventory
+Certificate Inventory
 
 | Domain | Serial | Expiration | CA | Renewed | Owner |
 |--------|--------|------------|-----|---------|-------|
 | example.com | 04:A3:... | 2027-03-30 | Let's Encrypt | 2026-03-16 | alice |
 ```
 
-**Step 2: Close the Task**
+Step 2: Close the Task
 
 Mark the task complete and include a summary:
 
 ```
-✅ Certificate Renewal Complete
+ Certificate Renewal Complete
 - New certificate deployed to production
 - Expiration: 2027-03-30
 - Deployed by: alice
@@ -223,23 +223,23 @@ Mark the task complete and include a summary:
 - Next renewal reminder: 2027-03-16
 ```
 
-**Step 3: Schedule Next Reminder**
+Step 3: Schedule Next Reminder
 
 Set a calendar reminder for 14 days before the next expiration:
 
 ```
-🔔 SSL Certificate Renewal Reminder
+ SSL Certificate Renewal Reminder
 Date: 2027-03-16 (14 days before expiration)
 Certificate: example.com, api.example.com
 Action: Begin renewal preparation
 ```
 
-## Automating Renewal Reminders
+Automating Renewal Reminders
 
 For distributed teams, automation reduces manual tracking overhead. Consider implementing certificate expiration monitoring:
 
 ```python
-# Example: Certificate expiration monitor
+Certificate expiration monitor
 import boto3
 from datetime import datetime, timedelta
 
@@ -255,44 +255,44 @@ def check_certificate_expiration():
         if days_until_expiry <= 30:
             send_slack_notification(
                 channel="#infrastructure",
-                message=f"⚠️ Certificate {cert['ServerCertificateName']} expires in {days_until_expiry} days"
+                message=f" Certificate {cert['ServerCertificateName']} expires in {days_until_expiry} days"
             )
 ```
 
-## Key Success Factors
+Key Success Factors
 
 Successful certificate renewal in distributed teams depends on four practices. First, start early with a two-week buffer to allow time for troubleshooting access issues or DNS propagation delays. Second, document everything in writing so any team member can execute the runbook without requiring verbal instructions. Third, test in staging first to catch configuration errors before they affect production. Fourth, maintain an accurate certificate inventory with expiration dates, owners, and renewal procedures.
 
 When your team spans multiple time zones, async-friendly processes prevent single points of failure. Every piece of knowledge should exist in documentation, not just in someone's head.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Certificate Based Authentication Setup for Remote Team VPN](/certificate-based-authentication-setup-for-remote-team-vpn-c/)
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [How to Automate SSL Certificate Renewal](/how-to-automate-ssl-certificate-renewal/)
 - [Remote Team Runbook Template for Deploying Hotfix](/remote-team-runbook-template-for-deploying-hotfix-to-product/)
 - [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

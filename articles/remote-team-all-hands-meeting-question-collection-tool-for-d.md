@@ -18,19 +18,19 @@ intent-checked: true
 
 Implement remote all-hands question collection tools using GitHub Issues, custom APIs, or Slack Block Kit that enable anonymous submissions, community upvoting, and duplicate question merging. Open collection 48 hours before meetings to accommodate all time zones, and allow at least 24 hours for leaders to prepare answers. Measure success through submission rates (20-40% participation), answer quality surveys, and time-to-answer metrics. Anonymous submission removes barriers for sensitive questions while upvoting surfaces genuine concerns rather than leadership assumptions.
 
-## Why Question Collection Matters for Remote All Hands
+Why Question Collection Matters for Remote All Hands
 
 In distributed organizations, synchronous communication is expensive. When your team spans San Francisco, London, and Tokyo, finding a meeting time that works for everyone often means someone joins at 7 AM or 10 PM. Question collection tools transform these rare synchronous sessions from status updates into genuine two-way conversations.
 
 The primary benefits include increased participation from introverted team members, time-bound responses that keep meetings focused, asynchronous preparation that leads to better answers, and documentation of common questions for future reference.
 
-## Core Features of an Effective Question Collection System
+Core Features of an Effective Question Collection System
 
 Before implementing a solution, define the requirements your tool must satisfy. An effective question collection system needs anonymous submission options to encourage honest feedback, threaded discussions for clarifying questions, upvoting mechanisms to surface community priorities, time-boxed collection windows aligned with meeting schedules, and integration with your existing communication platforms.
 
-## Implementation Approaches
+Implementation Approaches
 
-### Approach 1: Custom GitHub Issues Integration
+Approach 1: Custom GitHub Issues Integration
 
 For engineering teams already comfortable with GitHub, using Issues creates a low-friction workflow:
 
@@ -42,17 +42,17 @@ async function createQuestionIssue(org, repo, questionData) {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
   const body = `
-## Question Category
+Question Category
 ${questionData.category}
 
-## Question
+Question
 ${questionData.text}
 
-## Asked by
+Asked by
 ${questionData.anonymous ? 'Anonymous' : questionData.author}
 
-## Priority (community voting below)
-⬆️ React with thumbs up to prioritize
+Priority (community voting below)
+ React with thumbs up to prioritize
   `;
 
   const issue = await octokit.issues.create({
@@ -69,12 +69,12 @@ ${questionData.anonymous ? 'Anonymous' : questionData.author}
 
 This approach works well because it keeps all questions in version control, allows for code formatting in answers, and integrates with existing notification workflows. However, the GitHub interface isn't always intuitive for non-technical stakeholders.
 
-### Approach 2: Dedicated API with Real-time Updates
+Approach 2: Dedicated API with Real-time Updates
 
 For organizations needing more control, building a custom question collection API provides maximum flexibility:
 
 ```python
-# FastAPI-based question collection endpoint
+FastAPI-based question collection endpoint
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from datetime import datetime, timedelta
@@ -91,7 +91,7 @@ class Question(BaseModel):
     created_at: datetime = None
     upvotes: int = 0
 
-# In-memory store (replace with database in production)
+In-memory store (replace with database in production)
 questions_db: List[Question] = []
 
 @app.post("/questions")
@@ -118,7 +118,7 @@ async def upvote_question(question_id: str):
 
 This pattern supports real-time updates via WebSockets, provides full control over the data model, and enables custom analytics. Deploy this alongside a frontend that displays questions on a big screen during the actual meeting.
 
-### Approach 3: Integrating with Existing Tools
+Approach 3: Integrating with Existing Tools
 
 Many teams use Slack or Microsoft Teams as their primary communication platform. Building question collection directly into these platforms increases adoption:
 
@@ -166,7 +166,7 @@ const questionModal = {
 };
 ```
 
-## Best Practices for Question Collection Workflow
+Best Practices for Question Collection Workflow
 
 Timing significantly impacts the quality of questions collected. Opening the question collection window 48 hours before the meeting allows team members in later time zones to contribute when it's convenient for them. A 24-hour reminder increases completion rates substantially.
 
@@ -176,7 +176,7 @@ Upvoting should be available to all participants, not just leadership. This surf
 
 Anonymous submission removes barriers for sensitive questions. Team members may want to ask about layoffs, compensation, or management decisions without attribution. Honor this by making truly anonymous options available.
 
-## Handling Question Quality
+Handling Question Quality
 
 Not all submitted questions are well-formed or appropriate for the meeting format. Implement a moderation layer that can merge duplicate questions, rephrase unclear questions with author permission, and defer off-topic questions to separate channels.
 
@@ -204,7 +204,7 @@ function moderateQuestions(questions) {
 }
 ```
 
-## Measuring Success
+Measuring Success
 
 Track these metrics to improve your question collection process over time:
 
@@ -216,34 +216,34 @@ Answer quality can be measured through post-meeting surveys. Ask attendees wheth
 
 Time-to-answer tracks how quickly questions get responses. Long gaps between submission and answer often indicate organizational bottlenecks.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Best Tool for Async Performance Feedback Collection for Dist](/best-tool-for-async-performance-feedback-collection-for-dist/)
 - [Client Feedback Collection Tool for Remote Development](/client-feedback-collection-tool-for-remote-development-agenc/)
 - [Best Data Collection Tools for Remote User Research Teams](/best-data-collection-tool-for-remote-user-research-teams-gat/)
 - [Remote Team Metrics Collection Strategy for Measuring](/remote-team-metrics-collection-strategy-for-measuring-deploy/)
 - [Remote Manager One on One Question Template for Distributed](/remote-manager-one-on-one-question-template-for-distributed-team-check-ins/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

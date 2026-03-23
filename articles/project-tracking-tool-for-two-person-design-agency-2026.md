@@ -18,7 +18,7 @@ tags: [remote-work-tools]
 
 A two-person design agency faces unique project tracking challenges. You need enough structure to deliver client work on time without the overhead of enterprise tools designed for larger teams. This guide evaluates practical solutions and implementation approaches for tracking projects effectively in 2026.
 
-## Table of Contents
+Table of Contents
 
 - [Why Standard Tools Often Fail Small Agencies](#why-standard-tools-often-fail-small-agencies)
 - [Evaluating Your Options](#evaluating-your-options)
@@ -32,7 +32,7 @@ A two-person design agency faces unique project tracking challenges. You need en
 - [Scaling Beyond Two People](#scaling-beyond-two-people)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 
-## Why Standard Tools Often Fail Small Agencies
+Why Standard Tools Often Fail Small Agencies
 
 Most project management tools assume team growth. They impose workflows, pricing tiers, and feature sets optimized for five or more people. For a two-person operation, you encounter several common problems:
 
@@ -43,9 +43,9 @@ Most project management tools assume team growth. They impose workflows, pricing
 
 The ideal solution for a two-person design agency balances simplicity with enough power to track client deliverables, deadlines, and scope boundaries.
 
-## Evaluating Your Options
+Evaluating Your Options
 
-### Option 1: Linear
+Option 1: Linear
 
 Linear remains the top choice for design teams that value speed. The keyboard-driven interface lets you create issues, update status, and navigate projects without leaving your coding environment. For a two-person agency, Linear offers:
 
@@ -57,12 +57,12 @@ Linear remains the top choice for design teams that value speed. The keyboard-dr
 Linear works well when both designers work on distinct project phases. You can create a project per client, use cycles to represent sprint-like work blocks, and rely on labels to distinguish between design, review, and delivery phases.
 
 ```bash
-# Example: Creating a Linear issue via API
+Creating a Linear issue via API
 For a two-person design agency, use a lightweight project tracker like Linear, Plane, or Kanban-focused tools that minimize overhead while tracking deliverables and timelines. At this scale, avoid enterprise-grade platforms with feature bloat; prioritize speed and simplicity.
 
 The API approach matters if you want to automatically generate issues from client emails or form submissions.
 
-### Option 2: Notion
+Option 2: Notion
 
 Notion provides database flexibility that adapts to your agency's specific workflow. You can build a custom project tracker without fighting against opinionated project management assumptions. The trade-off involves more setup time.
 
@@ -94,48 +94,48 @@ async function getWeekTasks() {
 
 Notion works particularly well when you need client-facing status pages or want to embed project timelines directly in client documentation.
 
-### Option 3: Custom Build with Taskwarrior + Scripts
+Option 3: Custom Build with Taskwarrior + Scripts
 
 For developers and power users, a minimal command-line setup using Taskwarrior provides the fastest possible workflow. This approach requires comfort with terminal usage but delivers near-zero latency for task management.
 
 ```bash
-# Add a design project task
+Add a design project task
 task add project:rebrand description:"Acme Corp brand refresh" due:2026-04-01 +client
 
-# Mark complete
+Mark complete
 task 12 done
 
-# List active projects
+List active projects
 task project:rebrand list
 ```
 
 You can extend this with shell scripts that generate weekly reports or sync with a shared calendar. This approach works best when both team members are comfortable in the terminal and want maximum speed.
 
-## Implementation Priorities
+Implementation Priorities
 
 Regardless of tool choice, prioritize these implementation elements for a two-person agency:
 
-1. **Clear project boundaries**. Define what constitutes "complete" for each project phase. A design deliverable is not complete until the client approves the final files or the contract terms define acceptance criteria.
+1. Clear project boundaries. Define what constitutes "complete" for each project phase. A design deliverable is not complete until the client approves the final files or the contract terms define acceptance criteria.
 
-2. **Scope change tracking**. When clients request additional work, document it immediately. This can be a simple text note in the project record or a formal change order. Either approach prevents scope creep.
+2. Scope change tracking. When clients request additional work, document it immediately. This can be a simple text note in the project record or a formal change order. Either approach prevents scope creep.
 
-3. **Weekly planning rhythm**. With only two people, you do not need daily standups. A 15-minute weekly planning session works well to review upcoming deadlines and redistribute work if one person carries a heavier load.
+3. Weekly planning rhythm. With only two people, you do not need daily standups. A 15-minute weekly planning session works well to review upcoming deadlines and redistribute work if one person carries a heavier load.
 
-4. **Client communication logging**. Track every client email, Slack message, or call related to active projects. This creates an audit trail and helps when disputes arise about scope or deadlines.
+4. Client communication logging. Track every client email, Slack message, or call related to active projects. This creates an audit trail and helps when disputes arise about scope or deadlines.
 
-## Recommended Stack for 2026
+Recommended Stack for 2026
 
 For most two-person design agencies, I recommend a combination approach:
 
-- **Linear** for active project and task tracking with cycles
-- **Notion** for client documentation and knowledge base
-- **Google Calendar** for deadline visualization and meeting scheduling
+- Linear for active project and task tracking with cycles
+- Notion for client documentation and knowledge base
+- Google Calendar for deadline visualization and meeting scheduling
 
 This combination avoids paying for collaboration features you do not need while maintaining professional project tracking discipline.
 
 If you prefer a single tool, Linear provides the best balance of speed and structure. Notion works better if you want deeper customization or client-facing portals. The custom Taskwarrior approach suits only teams where both members prefer terminal-based workflows.
 
-## Automations That Save Time
+Automations That Save Time
 
 Regardless of your tool choice, these automations reduce manual overhead:
 
@@ -153,18 +153,18 @@ app.post('/webhook/linear', async (req, res) => {
 
 Automations become valuable as project volume increases. For a two-person agency just starting, manual processes work fine. Introduce automations when you notice repetitive tasks consuming significant time.
 
-## Advanced Tool Alternatives for 2026
+Advanced Tool Alternatives for 2026
 
-### Plane: Linear's Open-Source Competitor
+Plane: Linear's Open-Source Competitor
 
 Plane provides Linear-like speed with self-hosting options. For a two-person agency valuing privacy or running on a budget:
 
-- **Cost**: Free (self-hosted) or $20/month team plan
-- **Features**: Cycles, module support, GitHub/Figma integration
-- **Setup**: Docker deployment takes 15 minutes
+- Cost: Free (self-hosted) or $20/month team plan
+- Features: Cycles, module support, GitHub/Figma integration
+- Setup: Docker deployment takes 15 minutes
 
 ```bash
-# Deploy Plane locally
+Deploy Plane locally
 docker run -d --name plane \
  -p 80:80 \
  -e NEXT_PUBLIC_API_BASE_URL=http://localhost \
@@ -173,25 +173,25 @@ docker run -d --name plane \
 
 Plane suits design agencies that already run their own infrastructure.
 
-### Airtable for Design-Specific Workflows
+Airtable for Design-Specific Workflows
 
 Airtable's flexibility allows designing project tracking tailored to design work:
 
 ```bash
-# Example Airtable structure for design agencies
+Example Airtable structure for design agencies
 Base: Design Agency Hub
-├── Projects (Client, Deadline, Status, Budget)
-├── Tasks (Project Link, Owner, Status, Hours)
-├── Clients (Name, Email, Contract URL, Billing Info)
-├── Time Tracking (Task Link, Hours, Date, Designer)
-└── Portfolio Archive (Project Link, Images, Deliverables)
+ Projects (Client, Deadline, Status, Budget)
+ Tasks (Project Link, Owner, Status, Hours)
+ Clients (Name, Email, Contract URL, Billing Info)
+ Time Tracking (Task Link, Hours, Date, Designer)
+ Portfolio Archive (Project Link, Images, Deliverables)
 ```
 
-**Airtable pricing**: $12/user/month (two-person agency: $24/month for base + automation)
+Airtable pricing: $12/user/month (two-person agency: $24/month for base + automation)
 
-Airtable excels when you want custom views tailored to design workflows—client portal views, timeline views, status board for stakeholders.
+Airtable excels when you want custom views tailored to design workflows, client portal views, timeline views, status board for stakeholders.
 
-### Figma for Project Management?
+Figma for Project Management?
 
 Many design agencies use Figma's built-in board features and multiplayer capabilities for lightweight collaboration. While not a dedicated project tracker, Figma works well for:
 
@@ -200,11 +200,11 @@ Many design agencies use Figma's built-in board features and multiplayer capabil
 - Client feedback collection
 - Collaborative design boards
 
-**Cost**: $12-80/month depending on file storage needs
+Cost: $12-80/month depending on file storage needs
 
 Combine Figma with a lightweight task list (even a Google Sheet) for minimal overhead.
 
-## Pricing Comparison for 2026
+Pricing Comparison for 2026
 
 | Tool | Cost (2-person) | Best For | Learning Curve |
 |------|----------------|----------|-----------------|
@@ -218,26 +218,26 @@ Combine Figma with a lightweight task list (even a Google Sheet) for minimal ove
 
 The sweet spot for most agencies: Linear ($16/month) + Notion ($20/month) = $36/month total for professional tracking plus client documentation.
 
-## Client Portal and Transparency
+Client Portal and Transparency
 
 Many design agencies benefit from offering clients visibility into project status. Choose a tool supporting client portals:
 
-**Linear**: Limited client access, mainly internal
-**Notion**: Excellent client portal support with read-only pages
-**Airtable**: Good client portal views at $20+/month add-on
-**StatusPage.io**: Dedicated tool for project status ($29+/month)
+Linear: Limited client access, mainly internal
+Notion: Excellent client portal support with read-only pages
+Airtable: Good client portal views at $20+/month add-on
+StatusPage.io: Dedicated tool for project status ($29+/month)
 
 For two-person agencies managing 3-5 concurrent projects, a Notion public page showing deliverable status and timeline often suffices. Clients see progress without cluttering your actual tracking system.
 
-## Setting Up Your Initial System
+Setting Up Your Initial System
 
 Day 1 implementation checklist:
 
-1. **Create project template**: Define standard fields (client name, deadline, budget, status)
-2. **Set up cycle/sprint structure**: 2-week cycles work well for design iteration
-3. **Establish labeling system**: design, review, revision, approved, delivered
-4. **Connect to communication**: Integrations with Slack for status notifications
-5. **Document approval process**: Clear criteria for "done" status
+1. Create project template: Define standard fields (client name, deadline, budget, status)
+2. Set up cycle/sprint structure: 2-week cycles work well for design iteration
+3. Establish labeling system: design, review, revision, approved, delivered
+4. Connect to communication: Integrations with Slack for status notifications
+5. Document approval process: Clear criteria for "done" status
 
 Example first week:
 - Monday: Set up tracking tool and import existing clients
@@ -246,51 +246,51 @@ Example first week:
 - Thursday: Train both team members on daily usage
 - Friday: First weekly planning session using the system
 
-## Scaling Beyond Two People
+Scaling Beyond Two People
 
 If your agency grows to three people, Linear remains excellent without additional setup. At five people, consider:
 
-- **Separate projects for each client** rather than a single board
-- **Time tracking integration** (Harvest, Toggl) to link tasks to billable hours
-- **Resource planning** to understand capacity and prevent overcommitment
+- Separate projects for each client rather than a single board
+- Time tracking integration (Harvest, Toggl) to link tasks to billable hours
+- Resource planning to understand capacity and prevent overcommitment
 
 The tools scale, but your processes need adjustment at each growth stage.
 
-## Common Mistakes to Avoid
+Common Mistakes to Avoid
 
-**Over-tracking**: Don't log every 15-minute task. Focus on deliverables and milestones.
+Over-tracking: Don't log every 15-minute task. Focus on deliverables and milestones.
 
-**Unused features**: Most two-person agencies use 20% of available features. Start minimal and add only what solves actual problems.
+Unused features: Most two-person agencies use 20% of available features. Start minimal and add only what solves actual problems.
 
-**Tool thrashing**: Resist switching tools frequently. Choose one, commit for 3 months, then evaluate.
+Tool thrashing: Resist switching tools frequently. Choose one, commit for 3 months, then evaluate.
 
-**Client sync friction**: If explaining your tracking system to clients becomes tedious, simplify by creating client-facing views separate from your internal system.
+Client sync friction: If explaining your tracking system to clients becomes tedious, simplify by creating client-facing views separate from your internal system.
 
-**Scope creep invisibility**: The biggest mistake is not logging scope changes. Every additional feature request becomes a new task, even if small.
+Scope creep invisibility: The biggest mistake is not logging scope changes. Every additional feature request becomes a new task, even if small.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get started quickly?**
+How do I get started quickly?
 
 Pick one tool from the options discussed and sign up for a free trial. Spend 30 minutes on a real task from your daily work rather than running through tutorials. Real usage reveals fit faster than feature comparisons.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Project Management Tools for Freelancers 2026](/project-management-tools-for-freelancers-2026/)
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/best-client-portal-for-remote-design-agency-2026-comparison/)
@@ -299,5 +299,5 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Project Tracking Tool for Remote Hardware Engineering](/best-project-tracking-tool-for-remote-hardware-engineering-t/)
 ```
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

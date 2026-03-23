@@ -15,18 +15,18 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-Cloud cost surprises hit remote teams especially hard — there's no ops person walking the floor noticing an unusual number of running instances. A forgotten load balancer, a misconfigured auto-scaling group, or a runaway batch job can add thousands to your bill before anyone notices. Automated cost alerts turn cost management from a monthly surprise into a real-time signal.
+Cloud cost surprises hit remote teams especially hard. there's no ops person walking the floor noticing an unusual number of running instances. A forgotten load balancer, a misconfigured auto-scaling group, or a runaway batch job can add thousands to your bill before anyone notices. Automated cost alerts turn cost management from a monthly surprise into a real-time signal.
 
 ---
 
-## AWS Budget Alerts with Terraform
+AWS Budget Alerts with Terraform
 
 Define budgets as code so they're version-controlled and applied consistently:
 
 ```hcl
-# infra/terraform/budgets.tf
+infra/terraform/budgets.tf
 
-# Monthly total cost budget
+Monthly total cost budget
 resource "aws_budgets_budget" "monthly_total" {
   name         = "monthly-total-cost"
   budget_type  = "COST"
@@ -61,7 +61,7 @@ resource "aws_budgets_budget" "monthly_total" {
   }
 }
 
-# Per-service budget (catch runaway services early)
+Per-service budget (catch runaway services early)
 resource "aws_budgets_budget" "rds_monthly" {
   name         = "rds-monthly-cost"
   budget_type  = "COST"
@@ -83,12 +83,12 @@ resource "aws_budgets_budget" "rds_monthly" {
   }
 }
 
-# SNS topic for routing alerts
+SNS topic for routing alerts
 resource "aws_sns_topic" "cost_alerts" {
   name = "cost-alerts"
 }
 
-# Lambda to forward SNS to Slack
+Lambda to forward SNS to Slack
 resource "aws_sns_topic_subscription" "cost_alerts_lambda" {
   topic_arn = aws_sns_topic.cost_alerts.arn
   protocol  = "lambda"
@@ -99,7 +99,7 @@ resource "aws_sns_topic_subscription" "cost_alerts_lambda" {
 Lambda function to forward cost alerts to Slack:
 
 ```python
-# lambda/cost_alert_slack.py
+lambda/cost_alert_slack.py
 import json
 import urllib.request
 import os
@@ -137,12 +137,12 @@ def lambda_handler(event, context):
 
 ---
 
-## AWS Cost Anomaly Detection
+AWS Cost Anomaly Detection
 
 Budget alerts only fire when you exceed a threshold. Cost Anomaly Detection fires when spend is unusual relative to historical patterns, even if you're under budget:
 
 ```hcl
-# infra/terraform/cost-anomaly.tf
+infra/terraform/cost-anomaly.tf
 
 resource "aws_ce_anomaly_monitor" "services" {
   name         = "service-anomaly-monitor"
@@ -185,14 +185,14 @@ This alerts when any service has a 25%+ cost increase OR costs jump by $50+ unex
 
 ---
 
-## Daily Cost Report Script (Multi-Cloud)
+Daily Cost Report Script (Multi-Cloud)
 
 Run a daily script that fetches costs and posts a summary to Slack:
 
 ```bash
 #!/bin/bash
-# scripts/daily-cost-report.sh
-# Posts yesterday's AWS cost breakdown to Slack
+scripts/daily-cost-report.sh
+Posts yesterday's AWS cost breakdown to Slack
 
 set -euo pipefail
 
@@ -200,7 +200,7 @@ SLACK_WEBHOOK="${SLACK_WEBHOOK}"
 YESTERDAY=$(date -d "yesterday" +%Y-%m-%d 2>/dev/null || date -v-1d +%Y-%m-%d)
 TODAY=$(date +%Y-%m-%d)
 
-# Get total cost
+Get total cost
 TOTAL=$(aws ce get-cost-and-usage \
   --time-period Start="$YESTERDAY",End="$TODAY" \
   --granularity DAILY \
@@ -208,7 +208,7 @@ TOTAL=$(aws ce get-cost-and-usage \
   --query "ResultsByTime[0].Total.UnblendedCost.Amount" \
   --output text)
 
-# Get top 5 services by cost
+Get top 5 services by cost
 TOP_SERVICES=$(aws ce get-cost-and-usage \
   --time-period Start="$YESTERDAY",End="$TODAY" \
   --granularity DAILY \
@@ -217,7 +217,7 @@ TOP_SERVICES=$(aws ce get-cost-and-usage \
   --query "sort_by(ResultsByTime[0].Groups, &Metrics.UnblendedCost.Amount)[-5:] | reverse(@) | [].[Keys[0], Metrics.UnblendedCost.Amount]" \
   --output text)
 
-# Format message
+Format message
 FIELDS=""
 while IFS=$'\t' read -r service cost; do
   cost_rounded=$(printf "%.2f" "$cost")
@@ -229,7 +229,7 @@ TOTAL_ROUNDED=$(printf "%.2f" "$TOTAL")
 curl -s -X POST \
   -H 'Content-type: application/json' \
   --data "{
-    \"text\": \"*AWS Daily Cost Report — ${YESTERDAY}*\",
+    \"text\": \"*AWS Daily Cost Report. ${YESTERDAY}*\",
     \"attachments\": [{
       \"color\": \"good\",
       \"fields\": [
@@ -244,16 +244,16 @@ curl -s -X POST \
 Add to cron:
 
 ```bash
-# Run at 8am UTC every day
+Run at 8am UTC every day
 0 8 * * * /opt/scripts/daily-cost-report.sh
 ```
 
 ---
 
-## GCP Budget Alerts
+GCP Budget Alerts
 
 ```bash
-# Create a budget with Slack notification via gcloud
+Create a budget with Slack notification via gcloud
 gcloud billing budgets create \
   --billing-account="01ABCD-23EFGH-456IJK" \
   --display-name="Monthly Budget" \
@@ -266,7 +266,7 @@ gcloud billing budgets create \
 Forward Pub/Sub to Slack via Cloud Function:
 
 ```python
-# main.py
+main.py
 import base64
 import json
 import urllib.request
@@ -301,12 +301,12 @@ def notify_slack(event, context):
 
 ---
 
-## Infracost in CI (Prevent Expensive Changes)
+Infracost in CI (Prevent Expensive Changes)
 
 Infracost shows cost impact of Terraform changes in every PR before they're applied:
 
 ```yaml
-# .github/workflows/infracost.yml
+.github/workflows/infracost.yml
 name: Infracost
 on: [pull_request]
 
@@ -350,7 +350,7 @@ This posts a comment on each PR showing the monthly cost delta (e.g., "+$47.20/m
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
 - [How to Create Automated Status Pages](/how-to-create-automated-status-pages/)
@@ -359,7 +359,7 @@ This posts a comment on each PR showing the monthly cost delta (e.g., "+$47.20/m
 
 ---
 
-## Related Articles
+Related Articles
 
 - [AWS Cost Management for Remote Teams](/aws-cost-management-remote-teams-guide/)
 - [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-engineering-team-infrastructure-cost-per-deploy-track/)
@@ -367,6 +367,6 @@ This posts a comment on each PR showing the monthly cost delta (e.g., "+$47.20/m
 - [Coworking Space Membership vs Day Pass Comparison](/coworking-space-membership-vs-day-pass-comparison/)
 - [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

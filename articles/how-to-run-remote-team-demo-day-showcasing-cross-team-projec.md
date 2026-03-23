@@ -18,7 +18,7 @@ voice-checked: true
 
 Demo days transform isolated project work into shared organizational knowledge. For remote teams, these sessions serve a dual purpose: they keep everyone informed about progress across the company and they create natural opportunities for collaboration to emerge. When multiple teams present their joint work, the demo becomes a forcing function for visibility and a catalyst for future partnerships.
 
-## Table of Contents
+Table of Contents
 
 - [Why Cross-Team Demo Days Matter](#why-cross-team-demo-days-matter)
 - [Structuring the Demo Day Format](#structuring-the-demo-day-format)
@@ -35,50 +35,50 @@ Demo days transform isolated project work into shared organizational knowledge. 
 
 This guide provides a practical framework for running remote demo days that genuinely showcase cross-team project work, not just individual team accomplishments.
 
-## Why Cross-Team Demo Days Matter
+Why Cross-Team Demo Days Matter
 
 Remote work naturally creates information silos. Engineers on one team often have no visibility into what engineers on another team are building, even when their projects directly intersect. Without deliberate exposure to other team's work, teams duplicate effort, miss opportunities to share reusable components, and struggle to understand how their contributions fit the larger picture.
 
 A well-run demo day solves this by creating a regular cadence where teams present collaborative work to the entire organization. The format forces presenters to articulate not just what they built, but why it matters and how other teams can use it.
 
-## Structuring the Demo Day Format
+Structuring the Demo Day Format
 
 A cross-team demo day works best with a structured, time-boxed format that keeps energy high and respects everyone's schedules.
 
-### Recommended Session Structure
+Recommended Session Structure
 
-**Opening (5 minutes)**
+Opening (5 minutes)
 Briefly set context for the session. Identify how many demos you'll see and what themes connect them.
 
-**Individual Demos (10-12 minutes each)**
+Individual Demos (10-12 minutes each)
 Each presenting team gets 10-12 minutes covering:
 - Project background and goals (2 min)
 - Live demo or walkthrough (5 min)
 - Technical decisions and challenges (3 min)
 - How other teams can use or extend the work (2 min)
 
-**Q&A (2-3 minutes per demo)**
+Q&A (2-3 minutes per demo)
 Reserve time for questions, but keep them focused on clarification rather than critiques.
 
-**Closing (5 minutes)**
+Closing (5 minutes)
 Highlight common threads, announce follow-up opportunities, and thank presenters.
 
 For a two-hour session, plan for 6-8 demos maximum. Fewer demos with deeper content beats many rushed presentations.
 
-### Pre-Session Preparation Checklist
+Pre-Session Preparation Checklist
 
 One week before the demo day:
 
 ```markdown
-## Demo Day Preparation Checklist
+Demo Day Preparation Checklist
 
-### For Presenters
+For Presenters
 - [ ] Confirm presenters and backup speakers
 - [ ] Distribute demo environment credentials
 - [ ] Request screen recording as backup
 - [ ] Share any dependencies or setup needed for audience
 
-### For Organizers
+For Organizers
 - [ ] Finalize running order
 - [ ] Test video conferencing setup
 - [ ] Prepare shared document for questions
@@ -86,7 +86,7 @@ One week before the demo day:
 - [ ] Create Slack channel for live discussion
 ```
 
-## Selecting and Ordering Cross-Team Projects
+Selecting and Ordering Cross-Team Projects
 
 The most effective demo days feature work that genuinely required collaboration between teams. Look for projects where:
 
@@ -97,38 +97,38 @@ The most effective demo days feature work that genuinely required collaboration 
 
 Order demos strategically. Consider:
 
-1. **Start with highest impact** — Your most collaborative project first captures attention
-2. **Alternate technical complexity** — Mix straightforward features with deep technical work
-3. **End with forward-looking demos** — Leave the audience excited about what's coming
+1. Start with highest impact. Your most collaborative project first captures attention
+2. Alternate technical complexity. Mix straightforward features with deep technical work
+3. End with forward-looking demos. Leave the audience excited about what's coming
 
-## Technical Setup for Remote Demos
+Technical Setup for Remote Demos
 
 Reliable technical execution prevents the frustration that kills demo day momentum.
 
-### Essential Tools Setup
+Essential Tools Setup
 
-**Primary Video Conferencing**
+Primary Video Conferencing
 - Use the tool your organization already uses (Zoom, Google Meet, etc.)
 - Enable waiting room to control guest access
 - Assign a co-host to manage technical issues while you present
 
-**Screen Sharing Best Practices**
+Screen Sharing Best Practices
 - Test all demos in the actual meeting tool beforehand
 - Use separate browser windows for each demo to avoid accidental tab leakage
 - Close notifications on your demo machine
 - Have a second device ready as backup
 
-**Asynchronous Participation**
+Asynchronous Participation
 - Record every session for those in different timezones
 - Use a shared document for questions during the presentation
 - Create a Slack channel for real-time reactions and follow-up
 
-### Demo Environment Isolation
+Demo Environment Isolation
 
 Never demo against production systems. Prepare a dedicated demo environment that:
 
 ```bash
-# Example: Docker Compose for isolated demo environment
+Docker Compose for isolated demo environment
 version: '3.8'
 services:
   app:
@@ -157,13 +157,13 @@ services:
 
 This ensures consistent, safe demos that won't affect real users.
 
-## Making Demos Actionable for Viewers
+Making Demos Actionable for Viewers
 
 The difference between a good demo and a great one lies in what viewers can do with the information afterward. Presenters should consistently answer:
 
-1. **What problem does this solve?** — Connect technical work to business outcomes
-2. **How do I use this?** — Provide concrete steps for adopting or extending the work
-3. **Where do I learn more?** — Link to documentation, specs, or the team channel
+1. What problem does this solve?. Connect technical work to business outcomes
+2. How do I use this?. Provide concrete steps for adopting or extending the work
+3. Where do I learn more?. Link to documentation, specs, or the team channel
 
 Create a shared resource document that accumulates all demo links, including:
 
@@ -173,60 +173,60 @@ Create a shared resource document that accumulates all demo links, including:
 - Team contact channels
 - RFCs or design documents
 
-## Handling Q&An Effectively
+Handling Q&An Effectively
 
 Q&A makes or breaks demo days. Without structure, sessions devolve into either awkward silence or lengthy debates that derail the schedule.
 
-### Techniques for Better Questions
+Techniques for Better Questions
 
-**Ask for questions in advance**
+Ask for questions in advance
 Send a form or document before the session where attendees can submit questions anonymously. Presenters can review and prepare responses.
 
-**Use a question queue**
+Use a question queue
 Designate someone to collect questions in chat and present them to presenters in order. This prevents the "first person who speaks wins" problem.
 
-**Defer complex discussions**
+Defer complex discussions
 When a question requires extended debate, acknowledge it and suggest a follow-up meeting. Note the participants and schedule immediately after the demo.
 
 ```markdown
-## Question Handling Template
+Question Handling Template
 
-**Category A: Clarification** (answer immediately)
+Category A: Clarification (answer immediately)
 - "Which API endpoint handles that?"
 
-**Category B: Interest** (note for follow-up)
+Category B: Interest (note for follow-up)
 - "We have a similar use case - can we chat afterward?"
 
-**Category C: Critique** (defer to discussion forum)
+Category C: Critique (defer to discussion forum)
 - "Should this approach have been different?"
 ```
 
-## Common Pitfalls to Avoid
+Common Pitfalls to Avoid
 
-**No cross-team content** — If every demo is from a single team, rename the event or fix the underlying visibility problem
+No cross-team content. If every demo is from a single team, rename the event or fix the underlying visibility problem
 
-**Rushing demos to fit more in** — Speed kills quality. Better to have 4 excellent demos than 8 terrible ones
+Rushing demos to fit more in. Speed kills quality. Better to have 4 excellent demos than 8 terrible ones
 
-**No follow-through** — Demo days without action items create cynicism. Capture opportunities and track them
+No follow-through. Demo days without action items create cynicism. Capture opportunities and track them
 
-**Presenters without practice** — Technical people often underestimate how much polish demos need. Require walk-throughs before the actual session
+Presenters without practice. Technical people often underestimate how much polish demos need. Require walk-throughs before the actual session
 
-**Ignoring timezones** — Rotate demo times to share the burden of inconvenient hours fairly
+Ignoring timezones. Rotate demo times to share the burden of inconvenient hours fairly
 
-## Measuring Demo Day Success
+Measuring Demo Day Success
 
 Track these metrics to improve your sessions over time:
 
-- **Attendance rate** — Are people showing up? (Target: 70%+ of invited audience)
-- **Engagement** — Are people asking questions or reacting in chat?
-- **Follow-up actions** — Do new collaborations emerge from demos?
-- **Presenter satisfaction** — Do presenters find the experience valuable?
-- **Viewer feedback** — Do attendees learn something useful?
+- Attendance rate. Are people showing up? (Target: 70%+ of invited audience)
+- Engagement. Are people asking questions or reacting in chat?
+- Follow-up actions. Do new collaborations emerge from demos?
+- Presenter satisfaction. Do presenters find the experience valuable?
+- Viewer feedback. Do attendees learn something useful?
 
 Send a brief survey after each session:
 
 ```markdown
-## Post-Demo Day Survey
+Post-Demo Day Survey
 
 1. How useful was today's demo day? (1-5)
 2. Which demo was most valuable and why?
@@ -234,51 +234,51 @@ Send a brief survey after each session:
 4. Any collaboration opportunities you want to explore?
 ```
 
-## Building a Sustainable Cadence
+Building a Sustainable Cadence
 
 Most organizations benefit from monthly or bi-monthly demo days. Too frequent and preparation becomes a burden; too rare and visibility suffers.
 
 Set up a recurring schedule:
 
 ```bash
-# Example: Calendar recurrence for demo days
-# Every second Thursday at 2pm UTC
-# Calendar event: "Demo Day - Cross-Team Showcase"
-# Auto-invite: engineering-team@company.com
+Calendar recurrence for demo days
+Every second Thursday at 2pm UTC
+Calendar event: "Demo Day - Cross-Team Showcase"
+Auto-invite: engineering-team@company.com
 ```
 
 Block prep time for presenters the week before. Make the schedule visible and hold people accountable to it.
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to run a remote team demo day showcasing cross-team?**
+How long does it take to run a remote team demo day showcasing cross-team?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Best Practice for Remote Team Product Demo Day Format That](/best-practice-for-remote-team-product-demo-day-format-that-s/)
 - [Remote Sales Team Demo Environment Setup for Distributed](/remote-sales-team-demo-environment-setup-for-distributed-sol/)
 - [How to Run Effective Remote Team Demos and Showcases 2026](/how-to-run-effective-remote-team-demos-and-showcases-2026/)
 - [How to Record Client Demo Videos Asynchronously for Remote](/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
 - [How to Build Cross-Team Relationships in Large Remote](/how-to-build-cross-team-relationships-in-large-remote-organi/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

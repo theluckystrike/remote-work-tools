@@ -20,59 +20,59 @@ Zellij is a terminal multiplexer written in Rust, designed as a more approachabl
 
 For remote developers, Zellij offers session persistence like tmux, but with less configuration overhead and a layout system that uses KDL files (a readable config format) instead of shell scripts.
 
-## Install Zellij
+Install Zellij
 
 ```bash
-# macOS
+macOS
 brew install zellij
 
-# Linux — download binary
+Linux. download binary
 bash <(curl -L zellij.dev/launch)
 
-# Or via cargo (Rust)
+Or via cargo (Rust)
 cargo install zellij
 
-# Via apt (Ubuntu PPA)
+Via apt (Ubuntu PPA)
 sudo apt-add-repository ppa:zellij/zellij
 sudo apt-get update
 sudo apt-get install zellij
 
-# Verify
+Verify
 zellij --version
-# zellij 0.40.x or similar
+zellij 0.40.x or similar
 ```
 
-## Start a Session
+Start a Session
 
 ```bash
-# Start Zellij (creates a default session)
+Start Zellij (creates a default session)
 zellij
 
-# Start with a named session
+Start with a named session
 zellij --session work
 
-# List sessions
+List sessions
 zellij list-sessions
-# or
+or
 zellij ls
 
-# Attach to an existing session
+Attach to an existing session
 zellij attach work
-# or
+or
 zellij a work
 
-# Kill a session
+Kill a session
 zellij kill-session work
-# or
+or
 zellij k work
 
-# Kill all sessions
+Kill all sessions
 zellij kill-all-sessions
 ```
 
 Default keybindings use `Ctrl-g` to enter "lock mode" (pass-through for nested terminals). The mode indicator at the bottom shows your current mode: Normal, Pane, Tab, Resize, Scroll, etc.
 
-## Zellij Config File
+Zellij Config File
 
 Create `~/.config/zellij/config.kdl`:
 
@@ -97,7 +97,7 @@ scroll_buffer_size 50000
 // Mouse support
 mouse_mode true
 
-// Key bindings — customize to avoid conflicts with nested apps
+// Key bindings. customize to avoid conflicts with nested apps
 keybinds clear-defaults=true {
     normal {
         bind "Ctrl a" { SwitchToMode "Tmux"; }  // familiar prefix for tmux users
@@ -140,7 +140,7 @@ keybinds clear-defaults=true {
 }
 ```
 
-## Layouts
+Layouts
 
 Zellij layouts define how panes and tabs are arranged at startup. Create them in `~/.config/zellij/layouts/`:
 
@@ -188,24 +188,24 @@ layout {
 Start Zellij with a layout:
 
 ```bash
-# Use a specific layout
+Use a specific layout
 zellij --layout dev
 
-# Or by file path
+Or by file path
 zellij --layout ~/.config/zellij/layouts/dev.kdl
 
-# Set a default layout in config.kdl
+Set a default layout in config.kdl
 // default_layout "dev"  // add to config.kdl
 ```
 
-## Auto-Start Layout for Project
+Auto-Start Layout for Project
 
 Use a shell function that starts or attaches to a Zellij session with the right layout for a project:
 
 ```bash
-# Add to ~/.bashrc or ~/.zshrc
+Add to ~/.bashrc or ~/.zshrc
 
-# Start or attach to a project session
+Start or attach to a project session
 dev() {
   local project=${1:-$(basename "$PWD")}
   local path=${2:-$PWD}
@@ -220,39 +220,39 @@ dev() {
   fi
 }
 
-# Quick alias to attach to last session
+Quick alias to attach to last session
 alias zj='zellij attach $(zellij list-sessions | head -1 | cut -d" " -f1)'
 ```
 
-## SSH Persistence with Zellij
+SSH Persistence with Zellij
 
 Sessions persist on the server across SSH disconnects, just like tmux:
 
 ```bash
-# SSH and attach/create session (same pattern as tmux)
+SSH and attach/create session (same pattern as tmux)
 ssh user@server.example.com
 
-# On server: attach or create
+On server: attach or create
 zellij attach work 2>/dev/null || zellij --session work
 
-# One-liner SSH + attach from local machine
+One-liner SSH + attach from local machine
 ssh -t user@server.example.com "zellij attach work 2>/dev/null || zellij --session work"
 
-# ~/.ssh/config: auto-attach on SSH
-# Host devserver
-#     HostName server.example.com
-#     User ubuntu
-#     RemoteCommand zellij attach work 2>/dev/null || zellij --session work
-#     RequestTTY force
+~/.ssh/config: auto-attach on SSH
+Host devserver
+    HostName server.example.com
+    User ubuntu
+    RemoteCommand zellij attach work 2>/dev/null || zellij --session work
+    RequestTTY force
 ```
 
-## Plugins
+Plugins
 
 Zellij plugins extend functionality via WebAssembly. Install community plugins:
 
 ```bash
-# Install zjstatus (a better status bar)
-# Plugins live in ~/.config/zellij/plugins/
+Install zjstatus (a better status bar)
+Plugins live in ~/.config/zellij/plugins/
 
 mkdir -p ~/.config/zellij/plugins
 curl -L https://github.com/dj95/zjstatus/releases/latest/download/zjstatus.wasm \
@@ -274,48 +274,48 @@ pane size=1 borderless=true {
 }
 ```
 
-## Zellij vs tmux Decision
+Zellij vs tmux Decision
 
-Use **Zellij** if:
+Use Zellij if:
 - Your team has mixed terminal experience and you want something they can pick up without reading docs
 - You want layouts defined as readable config files (KDL) rather than shell scripts
 - You prefer Rust tooling and an active development pace
 
-Use **tmux** if:
+Use tmux if:
 - You're already comfortable with tmux and have existing config you don't want to rewrite
 - You need maximum SSH compatibility on old servers (tmux is ubiquitous, Zellij requires installation)
 - You want a larger ecosystem of plugins and resources
 
 Both handle SSH session persistence equally well. The day-to-day experience with either is comparable once you learn the keybindings.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [tmux Config Guide for Remote Developers](/tmux-config-guide-remote-developers/)
 - [Best Terminal Multiplexer for Remote Pair Programming](/best-terminal-multiplexer-for-remote-pair-programming/)
 - [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 - [How to Optimize macOS for Remote Development](/how-to-optimize-macos-for-remote-development/)
 - [Remote Ideation Session Facilitation Guide](/remote-ideation-session-facilitation-guide/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -16,9 +16,9 @@ voice-checked: true
 
 {% raw %}
 
-Managing multiple GitHub accounts on a single machine is a common challenge for developers working on personal projects alongside client work or full-time employment. Whether you maintain a personal repository, contribute to open-source projects, and push code to a corporate organization—all from the same laptop—this guide covers the practical setup you need.
+Managing multiple GitHub accounts on a single machine is a common challenge for developers working on personal projects alongside client work or full-time employment. Whether you maintain a personal repository, contribute to open-source projects, and push code to a corporate organization, all from the same laptop, this guide covers the practical setup you need.
 
-## Table of Contents
+Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
@@ -27,7 +27,7 @@ Managing multiple GitHub accounts on a single machine is a common challenge for 
 
 The core solution involves generating separate SSH keys for each account and configuring Git to use the right identity based on the repository you're working with. Here's how to set this up from scratch.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -37,9 +37,9 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Generate SSH Keys for Each Account
+Step 1: Generate SSH Keys for Each Account
 
-First, generate a unique SSH key for each GitHub account. Avoid using the default key for everything—separate keys give you granular control over which account accesses which repository.
+First, generate a unique SSH key for each GitHub account. Avoid using the default key for everything, separate keys give you granular control over which account accesses which repository.
 
 Generate a key for your personal account:
 
@@ -67,7 +67,7 @@ Enter file in which to save the key (/Users/you/.ssh/id_ed25519): /Users/you/.ss
 
 This creates four files for each key: the private key (github_personal) and the public key (github_personal.pub), plus the same for your work key.
 
-### Step 2: Adding Keys to the SSH Agent
+Step 2: Adding Keys to the SSH Agent
 
 Start the SSH agent and add your keys:
 
@@ -85,7 +85,7 @@ echo 'ssh-add ~/.ssh/github_personal' >> ~/.zshrc
 echo 'ssh-add ~/.ssh/github_work' >> ~/.zshrc
 ```
 
-### Step 3: Configure SSH for Account Routing
+Step 3: Configure SSH for Account Routing
 
 Edit your SSH config file to route connections based on the host:
 
@@ -111,37 +111,37 @@ Host github-work
 
 The `IdentitiesOnly yes` setting ensures SSH uses only the specified key, preventing authentication failures from trying the wrong key.
 
-### Step 4: Adding Public Keys to GitHub
+Step 4: Adding Public Keys to GitHub
 
 Copy each public key and add it to the corresponding GitHub account:
 
 ```bash
-# Personal account key
+Personal account key
 cat ~/.ssh/github_personal.pub
-# Copy output and add to GitHub > Settings > SSH Keys
+Copy output and add to GitHub > Settings > SSH Keys
 
-# Work account key
+Work account key
 cat ~/.ssh/github_work.pub
-# Copy output and add to work GitHub organization
+Copy output and add to work GitHub organization
 ```
 
 In GitHub, go to Settings → SSH and GPG keys → New SSH key, paste the public key, and save.
 
-### Step 5: Cloning Repositories with the Right Identity
+Step 5: Cloning Repositories with the Right Identity
 
 When cloning repositories, use the custom host alias instead of the default github.com:
 
 ```bash
-# Clone using your personal identity
+Clone using your personal identity
 git clone git@github-personal:username/repo.git
 
-# Clone using your work identity
+Clone using your work identity
 git clone git@github-work:organization/repo.git
 ```
 
 This works because SSH reads your config and selects the correct key based on the host alias.
 
-### Step 6: Configure Git Per Repository
+Step 6: Configure Git Per Repository
 
 For existing repositories, set the remote URL to use the appropriate host alias:
 
@@ -154,11 +154,11 @@ Verify the change:
 
 ```bash
 git remote -v
-# Output: origin  git@github-work:company/project.git (fetch)
-# Output: origin  git@github-work:company/project.git (push)
+Output: origin  git@github-work:company/project.git (fetch)
+Output: origin  git@github-work:company/project.git (push)
 ```
 
-### Step 7: Setting Git User Identity Per Repository
+Step 7: Setting Git User Identity Per Repository
 
 Configure Git user details specifically for each repository:
 
@@ -174,17 +174,17 @@ git config user.email "your-personal-email@example.com"
 
 This ensures commits show the correct author based on which account you're using. The local config overrides your global settings for that specific repository.
 
-### Step 8: Use Git Config Includes for Cleaner Setup
+Step 8: Use Git Config Includes for Cleaner Setup
 
 For a more organized approach, use Git config includes. Create a separate config file for each account:
 
 ```bash
-# ~/.ssh/gitconfig-personal
+~/.ssh/gitconfig-personal
 [user]
     name = Your Name
     email = your-personal-email@example.com
 
-# ~/.ssh/gitconfig-work
+~/.ssh/gitconfig-work
 [user]
     name = Your Name
     email = your-work-email@company.com
@@ -199,29 +199,29 @@ git config --global includeIf.gitdir:~/work/.path "~/gitconfig-work"
 
 This automatically applies the correct identity based on which directory you're in.
 
-### Step 9: Verify Your Setup
+Step 9: Verify Your Setup
 
 Test that SSH connections work for each account:
 
 ```bash
 ssh -T git@github-personal
-# Expected: Hi username! You've successfully authenticated...
+Expected: Hi username! You've successfully authenticated...
 
 ssh -T git@github-work
-# Expected: Hi username! You've successfully authenticated...
+Expected: Hi username! You've successfully authenticated...
 ```
 
 If you see "Permission denied" or authentication failures, double-check that the public key is added to the correct GitHub account and that your SSH config points to the right key file.
 
-## Troubleshooting Common Issues
+Troubleshooting Common Issues
 
 Wrong account on commits: Run `git log` to check commit authors. If incorrect, amend the last commit with `git commit --amend --author="Name <email>"` or rebase to fix multiple commits.
 
-SSH key not being used: Verify the key is added to the agent with `ssh-add -l`. If empty, add the keys again. Check file permissions—SSH requires private keys to be readable only by you: `chmod 600 ~/.ssh/github_personal`.
+SSH key not being used: Verify the key is added to the agent with `ssh-add -l`. If empty, add the keys again. Check file permissions, SSH requires private keys to be readable only by you: `chmod 600 ~/.ssh/github_personal`.
 
 Wrong key offered to GitHub: The `IdentitiesOnly yes` setting in your SSH config prevents SSH from offering multiple keys. Without it, SSH tries keys in order until one works, which can cause delays or failures with certain repository permissions.
 
-## When to Use HTTPS Instead
+When to Use HTTPS Instead
 
 Some environments block SSH port 22. In these cases, configure Git to use HTTPS with a credential helper:
 
@@ -232,7 +232,7 @@ git config --global url."https://github-work/".insteadOf "git@github-work:"
 
 This approach uses your GitHub personal access token stored in the credential helper, avoiding SSH entirely.
 
-### Step 10: Manage Three or More Accounts
+Step 10: Manage Three or More Accounts
 
 Some remote developers juggle three accounts simultaneously: personal, a full-time employer, and one or more freelance clients. The SSH config approach scales cleanly. Add additional Host blocks for each account:
 
@@ -252,7 +252,7 @@ Host github-freelance-clientB
 
 Keep a simple reference file at `~/.ssh/github-accounts.txt` listing which host alias maps to which GitHub username and email. When you have five SSH aliases, that mental overhead adds up quickly.
 
-### Step 11: Use a Directory Naming Convention
+Step 11: Use a Directory Naming Convention
 
 A practical workflow that scales well for remote developers is organizing repositories by account in top-level directories:
 
@@ -266,13 +266,13 @@ A practical workflow that scales well for remote developers is organizing reposi
 
 Combined with `includeIf.gitdir` in your `.gitconfig`, every repo automatically gets the correct email and signing key without any per-repository setup. This is the most frictionless approach for developers managing many repositories across multiple identities.
 
-### Step 12: Handling GitHub CLI with Multiple Accounts
+Step 12: Handling GitHub CLI with Multiple Accounts
 
 The GitHub CLI (`gh`) supports multiple accounts through its `auth switch` command. Set up each account:
 
 ```bash
 gh auth login --hostname github.com
-# Follow prompts for each account; label them for reference
+Follow prompts for each account; label them for reference
 ```
 
 Switch between active accounts before running commands:
@@ -287,9 +287,9 @@ gh issue list --repo company/internal-tool
 
 This keeps your CLI identity in sync with whichever account you are currently working in, preventing pull requests from appearing under the wrong GitHub profile.
 
-### Step 13: Signed Commits with GPG Keys
+Step 13: Signed Commits with GPG Keys
 
-Remote teams increasingly require signed commits as a security practice—especially for open-source contributions and regulated industries. You will need a separate GPG signing key for each GitHub account, similar to how you manage SSH keys.
+Remote teams increasingly require signed commits as a security practice, especially for open-source contributions and regulated industries. You will need a separate GPG signing key for each GitHub account, similar to how you manage SSH keys.
 
 Generate a GPG key:
 
@@ -311,9 +311,9 @@ git config user.signingkey YOUR_KEY_ID
 git config commit.gpgsign true
 ```
 
-Add the public GPG key to your GitHub account under Settings → SSH and GPG keys → New GPG key. Signed commits appear with a "Verified" badge in GitHub's interface—a trust signal that matters when contributing to security-sensitive projects.
+Add the public GPG key to your GitHub account under Settings → SSH and GPG keys → New GPG key. Signed commits appear with a "Verified" badge in GitHub's interface, a trust signal that matters when contributing to security-sensitive projects.
 
-### Step 14: Quick Reference: Account Switch Checklist
+Step 14: Quick Reference: Account Switch Checklist
 
 When starting work on a repository for a different account, run through this mental checklist:
 
@@ -326,7 +326,7 @@ A pre-commit hook can catch identity errors before they land in your commit hist
 
 ```bash
 #!/bin/bash
-# .git/hooks/pre-commit
+.git/hooks/pre-commit
 EXPECTED_EMAIL="your-work-email@company.com"
 CURRENT_EMAIL=$(git config user.email)
 
@@ -338,7 +338,7 @@ fi
 
 Place this in `.git/hooks/pre-commit` and make it executable with `chmod +x .git/hooks/pre-commit`. It blocks commits made with the wrong identity before they happen.
 
-## Related Reading
+Related Reading
 
 - [How to Manage Remote Team When Multiple Parents Have](/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
 - [How to Manage Multiple Freelance Clients Effectively](/how-to-manage-multiple-freelance-clients-effectively/)
@@ -346,34 +346,34 @@ Place this in `.git/hooks/pre-commit` and make it executable with `chmod +x .git
 - [How to Manage Work-Life Balance as a Remote Developer](/how-to-manage-work-life-balance-remote-developer/)
 - [Best Business Bank Accounts for Freelancers 2026: A](/best-business-bank-accounts-for-freelancers-2026/)
 
-## Related Articles
+Related Articles
 
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
 - [Best SSH Key Management Solution for Distributed Remote](/best-ssh-key-management-solution-for-distributed-remote-engi/)
 - [Migrating from AWS CodeCommit to GitHub for Remote Team](/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
 - [Best Project Management Tools with GitHub Integration](/best-project-management-tools-with-github-integration/)
 - [Remote Work Security Hardening Checklist](/remote-work-security-hardening-checklist/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to manage multiple github accounts for remote work?**
+How long does it take to manage multiple github accounts for remote work?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 

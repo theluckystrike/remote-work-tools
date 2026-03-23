@@ -20,11 +20,11 @@ Remote teams need explicit documentation of values and principles that guide beh
 
 This guide walks through a practical workflow for creating remote team values using async-first processes, version control, and structured help techniques.
 
-## Why Collaborative Creation Matters
+Why Collaborative Creation Matters
 
 Values documents fail when leadership drafts them in isolation and presents them as done. Team members who never contributed to the discussion treat them as performative artifacts. Collaborative creation serves two purposes: the final document benefits from diverse perspectives, and the process itself builds shared understanding about what the team stands for.
 
-## Phase 1: Gathering Initial Input
+Phase 1: Gathering Initial Input
 
 Start with a structured async brainstorm rather than a live meeting. This gives everyone equal opportunity to contribute regardless of timezone.
 
@@ -39,7 +39,7 @@ Give everyone 5-7 days to respond. Here's a bash script to create a timestamped 
 
 ```bash
 #!/bin/bash
-# Create a new values brainstorm entry
+Create a new values brainstorm entry
 TEAM_DIR="team-values"
 mkdir -p "$TEAM_DIR"
 
@@ -47,22 +47,22 @@ DATE=$(date +%Y-%m-%d)
 FILENAME="$TEAM_DIR/input-$(date +%s).md"
 
 cat > "$FILENAME" << EOF
-# Values Brainstorm - $DATE
+Values Brainstorm - $DATE
 
-## What behavior do you most appreciate from teammates?
+What behavior do you most appreciate from teammates?
 
-## What frustrates you about remote collaboration?
+What frustrates you about remote collaboration?
 
-## What principles should guide our decisions?
+What principles should guide our decisions?
 
-## What does great teamwork look like?
+What does great teamwork look like?
 
 EOF
 
 echo "Created brainstorm template: $FILENAME"
 ```
 
-## Phase 2: Synthesis and Categorization
+Phase 2: Synthesis and Categorization
 
 Designate a facilitator to synthesize the responses. They cluster similar themes, identify patterns, and draft an initial framework.
 
@@ -77,30 +77,30 @@ Common value categories that emerge:
 Create a structured document:
 
 ```markdown
-# Team Values Draft
+Team Values Draft
 
-## Communication
-- **Over-communicate context**: Share the why behind decisions
-- **Async by default**: Reserve sync time for complex discussions
-- **Document decisions**: If it wasn't written down, it didn't happen
+Communication
+- Over-communicate context: Share the why behind decisions
+- Async by default: Reserve sync time for complex discussions
+- Document decisions: If it wasn't written down, it didn't happen
 
-## Ownership
-- **Raise blockers early**: Better to ask for help than miss deadlines silently
-- **Take initiative**: If you see something broken, fix it
+Ownership
+- Raise blockers early: Better to ask for help than miss deadlines silently
+- Take initiative: If you see something broken, fix it
 
-## Respect
-- **Assume good intent**: Text lacks tone—give colleagues the benefit
-- **Respect time zones**: Record meetings, use async video
+Respect
+- Assume good intent: Text lacks tone, give colleagues the benefit
+- Respect time zones: Record meetings, use async video
 
-## Growth
-- **Learn from mistakes**: Blameless post-mortems make everyone safer
-- **Share knowledge**: Teaching reinforces your own understanding
+Growth
+- Learn from mistakes: Blameless post-mortems make everyone safer
+- Share knowledge: Teaching reinforces your own understanding
 
-## Results
-- **Outcome over output**: Working more hours doesn't equal more value
+Results
+- Outcome over output: Working more hours doesn't equal more value
 ```
 
-## Phase 3: Collaborative Refinement
+Phase 3: Collaborative Refinement
 
 Share the synthesized draft for another async review. Ask specific questions:
 
@@ -116,14 +116,14 @@ name: Values Feedback
 title: "Values Review: [Category]"
 labels: team-values
 
-## Your feedback on this value:
-## A real example from your experience:
-## Suggested change:
+Your feedback on this value:
+A real example from your experience:
+Suggested change:
 ```
 
 Values should emerge with strong consensus. If three or more team members strongly disagree with a value, revise it or remove it.
 
-## Phase 4: Finalization and Version Control
+Phase 4: Finalization and Version Control
 
 Commit the document to version control. Treat it like code:
 
@@ -138,12 +138,12 @@ Keep it alongside other team documentation:
 
 ```
 docs/
-├── values.md # The living values document
-├── decision-log.md # How we make team decisions
-└── onboarding.md # New team member guide
+ values.md # The living values document
+ decision-log.md # How we make team decisions
+ onboarding.md # New team member guide
 ```
 
-## Phase 5: Living the Document
+Phase 5: Living the Document
 
 A values document only matters if the team uses it. Build reference points into workflows:
 
@@ -154,7 +154,7 @@ A values document only matters if the team uses it. Build reference points into 
 Review quarterly. Teams evolve, and values should reflect current priorities.
 
 ```markdown
-# Values Review Checklist
+Values Review Checklist
 
 - [ ] Quarterly review scheduled
 - [ ] New team members introduced to values
@@ -162,53 +162,53 @@ Review quarterly. Teams evolve, and values should reflect current priorities.
 - [ ] Any values feel outdated?
 ```
 
-## Example Values Document
+Example Values Document
 
 ```markdown
-# Our Team Values
+Our Team Values
 
-**Last updated**: March 2026
+Last updated: March 2026
 
-## Communication
-### Over-communicate Context
+Communication
+Over-communicate Context
 Include the reasoning behind decisions, not just the what.
 
-### Async First
+Async First
 Default to async. Use sync time only for complex discussions.
 
-### Bad News Travels Fast
+Bad News Travels Fast
 Share problems early. Hiding issues removes options.
 
-## Ownership
-### Take Initiative
+Ownership
+Take Initiative
 If you see something broken, fix it or assign it.
 
-### Raise Blockers Early
+Raise Blockers Early
 Asking for help is a strength. Blockers unraised become crises.
 
-## Respect
-### Assume Good Intent
+Respect
+Assume Good Intent
 Written communication lacks tone. Give colleagues the benefit.
 
-### Respect Time Zones
+Respect Time Zones
 Record meetings. Don't expect immediate responses outside core hours.
 
-## Growth
-### Learn from Mistakes
+Growth
+Learn from Mistakes
 Blameless post-mortems. The goal is systemic improvement.
 
-### Share Knowledge
+Share Knowledge
 Writing things down helps the team scale.
 
-## Results
-### Outcome Over Output
+Results
+Outcome Over Output
 Focus on what actually moves the needle.
 
-### Sustainable Pace
+Sustainable Pace
 Burnout destroys long-term productivity.
 ```
 
-## Tools
+Tools
 
 Remote teams use various tools:
 
@@ -218,7 +218,7 @@ Remote teams use various tools:
 
 Choose tools your team already uses.
 
-## Common Pitfalls
+Common Pitfalls
 
 Avoid these mistakes:
 
@@ -227,34 +227,34 @@ Avoid these mistakes:
 - Written once, never revisited: Treat values as living documents
 - No accountability: Reference values in feedback and decisions
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to create remote team values and principles document?**
+How long does it take to create remote team values and principles document?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Create a Remote Team Values Wall Using Miro Board](/how-to-create-remote-team-values-wall-using-miro-board/)
 - [How to Create Remote Team Values Documentation That Stays](/how-to-create-remote-team-values-documentation-that-stays-au/)
 - [How to Maintain Remote Team Culture When Transitioning](/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

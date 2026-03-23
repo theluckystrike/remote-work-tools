@@ -18,25 +18,25 @@ tags: [remote-work-tools]
 
 Google Scholar is the starting point for most academic and technical research, but its interface lacks features that serious researchers need daily: bulk citation export, integration with reference managers, PDF annotation, and Zotero/Mendeley sync. Chrome extensions fill these gaps. This guide covers both using existing Scholar extensions and building your own with Manifest V3.
 
-## Recommended Google Scholar Extensions
+Recommended Google Scholar Extensions
 
 Before building, check what already exists:
 
-**Scholarcy** — AI-powered paper summaries. Generates a structured summary of any research paper with key findings, limitations, and methodology in seconds. Best for quickly triaging whether a paper deserves a full read.
+Scholarcy. AI-powered paper summaries. Generates a structured summary of any research paper with key findings, limitations, and methodology in seconds. Best for quickly triaging whether a paper deserves a full read.
 
-**Zotero Connector** — The standard for reference management. One-click save of any Scholar result to your Zotero library, including metadata, PDF if available, and full citation. Essential for systematic literature reviews.
+Zotero Connector. The standard for reference management. One-click save of any Scholar result to your Zotero library, including metadata, PDF if available, and full citation. Essential for systematic literature reviews.
 
-**Unpaywall** — Finds legally free PDF versions of papers. Works on Scholar results automatically — if a free version exists on an institutional server or preprint archive, Unpaywall links you to it.
+Unpaywall. Finds legally free PDF versions of papers. Works on Scholar results automatically. if a free version exists on an institutional server or preprint archive, Unpaywall links you to it.
 
-**Open Access Button** — Similar to Unpaywall, but also lets you request a copy from the author directly when no open access version exists.
+Open Access Button. Similar to Unpaywall, but also lets you request a copy from the author directly when no open access version exists.
 
-**Connected Papers** — Build visual citation graphs. Not a Scholar extension per se, but integrates via DOI and helps map the research landscape around a paper.
+Connected Papers. Build visual citation graphs. Not a Scholar extension per se, but integrates via DOI and helps map the research landscape around a paper.
 
-## Building a Custom Scholar Extension with Manifest V3
+Building a Custom Scholar Extension with Manifest V3
 
 If existing extensions don't cover your workflow, here's how to build one. The most common use case: extracting structured data from Scholar results for custom processing or analysis.
 
-### Project Setup
+Project Setup
 
 ```bash
 mkdir scholar-extension && cd scholar-extension
@@ -44,7 +44,7 @@ npm init -y
 npm install -D webpack webpack-cli copy-webpack-plugin
 ```
 
-### Manifest V3 Configuration
+Manifest V3 Configuration
 
 ```json
 // manifest.json
@@ -86,14 +86,14 @@ npm install -D webpack webpack-cli copy-webpack-plugin
 }
 ```
 
-### Content Script: Extracting Paper Metadata
+Content Script: Extracting Paper Metadata
 
 The content script runs on Scholar pages and extracts structured metadata from search results:
 
 ```javascript
-// content.js — runs on scholar.google.com pages
+// content.js. runs on scholar.google.com pages
 
-/**
+/
  * Extract paper data from a Scholar result element
  */
 function extractPaperData(resultElement) {
@@ -122,7 +122,7 @@ function extractPaperData(resultElement) {
   }
 }
 
-/**
+/
  * Scrape all results on the current Scholar page
  */
 function scrapeCurrentPage() {
@@ -147,7 +147,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   return true // Keep message channel open for async response
 })
 
-/**
+/
  * Convert paper array to CSV
  */
 function papersToCSV(papers) {
@@ -164,7 +164,7 @@ function papersToCSV(papers) {
   return [headers, ...rows].map(row => row.join(',')).join('\n')
 }
 
-/**
+/
  * Trigger CSV download in the browser
  */
 function downloadCSV(content, filename) {
@@ -178,7 +178,7 @@ function downloadCSV(content, filename) {
 }
 ```
 
-### Popup UI
+Popup UI
 
 ```html
 <!-- popup.html -->
@@ -238,7 +238,7 @@ document.getElementById('copy-titles').addEventListener('click', async () => {
 })
 ```
 
-### Background Service Worker
+Background Service Worker
 
 ```javascript
 // background.js
@@ -248,7 +248,7 @@ chrome.runtime.onInstalled.addListener(() => {
   console.log('Scholar Research Assistant installed')
 })
 
-// Handle extension icon click — open Scholar if not on Scholar tab
+// Handle extension icon click. open Scholar if not on Scholar tab
 chrome.action.onClicked.addListener(async (tab) => {
   if (!tab.url?.includes('scholar.google.com')) {
     await chrome.tabs.create({ url: 'https://scholar.google.com' })
@@ -256,27 +256,27 @@ chrome.action.onClicked.addListener(async (tab) => {
 })
 ```
 
-## Loading and Testing the Extension
+Loading and Testing the Extension
 
 ```bash
-# Build if using webpack
+Build if using webpack
 npm run build
 
-# Manual loading for development:
-# 1. Go to chrome://extensions
-# 2. Enable "Developer mode" (top right toggle)
-# 3. Click "Load unpacked"
-# 4. Select your extension directory
+Manual loading for development:
+1. Go to chrome://extensions
+2. Enable "Developer mode" (top right toggle)
+3. Click "Load unpacked"
+4. Select your extension directory
 
-# For production: package as .crx or submit to Chrome Web Store
+For production: package as .crx or submit to Chrome Web Store
 ```
 
-## Handling Scholar's Dynamic Content
+Handling Scholar's Dynamic Content
 
 Google Scholar loads some content dynamically. If your content script runs before content renders, use a MutationObserver:
 
 ```javascript
-// content.js — wait for results to load
+// content.js. wait for results to load
 function waitForResults(callback) {
   const existing = document.querySelectorAll('.gs_r.gs_or.gs_scl')
   if (existing.length > 0) {
@@ -302,32 +302,32 @@ waitForResults(() => {
 })
 ```
 
-## Manifest V3 Migration Notes
+Manifest V3 Migration Notes
 
 If you're updating a Manifest V2 extension:
 - Replace `background.page` or `background.scripts` with `background.service_worker`
 - Replace `browser_action`/`page_action` with `action`
 - Replace `chrome.browserAction` with `chrome.action`
-- Service workers cannot use DOM APIs or persistent state — use `chrome.storage` instead of globals
+- Service workers cannot use DOM APIs or persistent state. use `chrome.storage` instead of globals
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to build this extension?**
+How long does it take to build this extension?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Having your credentials and environment ready before starting saves significant time.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with JavaScript and the command line is helpful. If you get stuck, the official Chrome Extensions documentation covers fundamentals.
 
-**Can I adapt this for a different academic search engine?**
+Can I adapt this for a different academic search engine?
 
 Yes, the underlying concepts transfer to Firefox extensions (WebExtensions API is similar). The manifest format differs slightly but content scripts and message passing work the same way.
 
-## Related Articles
+Related Articles
 
 - [Chrome Extension Compress Images Before Upload](/chrome-extension-compress-images-before-upload/)
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/chrome-extension-linear-issue-tracker/)
 - [Chrome Extension MLA Citation Generator: A Developer Guide](/chrome-extension-mla-citation-generator/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

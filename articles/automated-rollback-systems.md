@@ -14,17 +14,17 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-## How to Create Automated Rollback Systems
+How to Create Automated Rollback Systems
 
 A deployment that breaks at 3 AM and waits for an on-call engineer to wake up and roll back is a deployment with two failure windows: the failure itself, and the time-to-rollback. Automated rollback closes the second window by detecting the failure and reverting without human intervention.
 
 ---
 
-## Kubernetes: Built-In Rollback with Health Gates
+Kubernetes: Built-In Rollback with Health Gates
 
 Kubernetes has rollback built in via `kubectl rollout undo`. The automation goal is to trigger it based on health conditions, not manual observation.
 
-**Deployment with proper health checks:**
+Deployment with proper health checks:
 
 ```yaml
 apiVersion: apps/v1
@@ -63,11 +63,11 @@ spec:
             failureThreshold: 3
 ```
 
-**Automated rollback after a failed rollout:**
+Automated rollback after a failed rollout:
 
 ```bash
 #!/bin/bash
-# k8s-deploy-with-rollback.sh
+k8s-deploy-with-rollback.sh
 set -euo pipefail
 
 DEPLOYMENT="${1:?Usage: $0 <deployment> <image>}"
@@ -77,22 +77,22 @@ TIMEOUT="${4:-300}"
 
 echo "Deploying $IMAGE to $DEPLOYMENT in $NAMESPACE"
 
-# Record current image for rollback reference
+Record current image for rollback reference
 CURRENT_IMAGE=$(kubectl get deployment "$DEPLOYMENT" \
   -n "$NAMESPACE" \
   -o jsonpath='{.spec.template.spec.containers[0].image}')
 
-# Apply new image
+Apply new image
 kubectl set image deployment/"$DEPLOYMENT" \
   "${DEPLOYMENT}=${IMAGE}" \
   -n "$NAMESPACE"
 
-# Wait for rollout with timeout
+Wait for rollout with timeout
 if ! kubectl rollout status deployment/"$DEPLOYMENT" \
   -n "$NAMESPACE" \
   --timeout="${TIMEOUT}s"; then
 
-  echo "ERROR: Rollout failed — rolling back to $CURRENT_IMAGE"
+  echo "ERROR: Rollout failed. rolling back to $CURRENT_IMAGE"
 
   kubectl rollout undo deployment/"$DEPLOYMENT" -n "$NAMESPACE"
   kubectl rollout status deployment/"$DEPLOYMENT" -n "$NAMESPACE" --timeout=120s
@@ -110,13 +110,13 @@ echo "Deployment successful: $IMAGE"
 
 ---
 
-## Kubernetes: Prometheus-Based Rollback
+Kubernetes: Prometheus-Based Rollback
 
-Roll back based on error rate crossing a threshold after deploy — more reliable than timeouts alone:
+Roll back based on error rate crossing a threshold after deploy. more reliable than timeouts alone:
 
 ```bash
 #!/bin/bash
-# prometheus-gate.sh — post-deploy error rate check
+prometheus-gate.sh. post-deploy error rate check
 set -euo pipefail
 
 PROM_URL="${PROMETHEUS_URL:-http://prometheus:9090}"
@@ -128,7 +128,7 @@ WAIT_SECONDS=120   # wait 2 min after deploy before checking
 echo "Waiting ${WAIT_SECONDS}s for metrics to stabilize..."
 sleep "$WAIT_SECONDS"
 
-# Query 5-minute error rate for this deployment
+Query 5-minute error rate for this deployment
 QUERY="sum(rate(http_requests_total{deployment=\"${DEPLOYMENT}\",status=~\"5..\"}[${OBSERVATION_WINDOW}])) / sum(rate(http_requests_total{deployment=\"${DEPLOYMENT}\"}[${OBSERVATION_WINDOW}]))"
 
 ERROR_RATE=$(curl -s "${PROM_URL}/api/v1/query" \
@@ -138,24 +138,24 @@ ERROR_RATE=$(curl -s "${PROM_URL}/api/v1/query" \
 echo "Current error rate: $ERROR_RATE (threshold: $THRESHOLD)"
 
 if (( $(echo "$ERROR_RATE > $THRESHOLD" | bc -l) )); then
-  echo "ERROR RATE ABOVE THRESHOLD — triggering rollback"
+  echo "ERROR RATE ABOVE THRESHOLD. triggering rollback"
   kubectl rollout undo deployment/"$DEPLOYMENT" -n production
   kubectl rollout status deployment/"$DEPLOYMENT" -n production --timeout=120s
   exit 1
 fi
 
-echo "Error rate OK — deployment accepted"
+echo "Error rate OK. deployment accepted"
 ```
 
 ---
 
-## Docker Compose: Health-Check Rollback
+Docker Compose: Health-Check Rollback
 
 For non-Kubernetes deployments with Docker Compose:
 
 ```bash
 #!/bin/bash
-# compose-deploy.sh
+compose-deploy.sh
 set -euo pipefail
 
 COMPOSE_FILE="${1:-/opt/myapp/docker-compose.yml}"
@@ -163,7 +163,7 @@ SERVICE="${2:?Usage: $0 <compose-file> <service>}"
 HEALTH_URL="${3:?}"  # e.g., http://localhost:3000/health
 MAX_WAIT=120
 
-# Save current image tag
+Save current image tag
 CURRENT_IMAGE=$(docker-compose -f "$COMPOSE_FILE" config | \
   awk "/^  ${SERVICE}:/{found=1} found && /image:/{print \$2; exit}")
 
@@ -174,14 +174,14 @@ NEW_IMAGE=$(docker-compose -f "$COMPOSE_FILE" config | \
   awk "/^  ${SERVICE}:/{found=1} found && /image:/{print \$2; exit}")
 
 if [[ "$CURRENT_IMAGE" == "$NEW_IMAGE" ]]; then
-  echo "No new image available — skipping"
+  echo "No new image available. skipping"
   exit 0
 fi
 
 echo "Upgrading $SERVICE: $CURRENT_IMAGE -> $NEW_IMAGE"
 docker-compose -f "$COMPOSE_FILE" up -d --no-deps "$SERVICE"
 
-# Poll health endpoint
+Poll health endpoint
 elapsed=0
 while [[ $elapsed -lt $MAX_WAIT ]]; do
   status=$(curl -s -o /dev/null -w "%{http_code}" "$HEALTH_URL" 2>/dev/null || echo "000")
@@ -195,16 +195,16 @@ while [[ $elapsed -lt $MAX_WAIT ]]; do
   echo "Waiting for health check... ${elapsed}s (HTTP $status)"
 done
 
-# Rollback
-echo "Health check timed out — rolling back to $CURRENT_IMAGE"
+Rollback
+echo "Health check timed out. rolling back to $CURRENT_IMAGE"
 
-# Override image in a temp compose file and re-deploy
+Override image in a temp compose file and re-deploy
 sed "s|$NEW_IMAGE|$CURRENT_IMAGE|" "$COMPOSE_FILE" > /tmp/rollback-compose.yml
 docker-compose -f /tmp/rollback-compose.yml up -d --no-deps "$SERVICE"
 
 curl -s -X POST "$SLACK_WEBHOOK_URL" \
   -H "Content-Type: application/json" \
-  -d "{\"text\": \":warning: Deploy FAILED on \`$(hostname)\` for \`$SERVICE\` — reverted to \`$CURRENT_IMAGE\`\"}"
+  -d "{\"text\": \":warning: Deploy FAILED on \`$(hostname)\` for \`$SERVICE\`. reverted to \`$CURRENT_IMAGE\`\"}"
 
 rm /tmp/rollback-compose.yml
 exit 1
@@ -212,20 +212,20 @@ exit 1
 
 ---
 
-## Lambda: Version Aliases with Automatic Traffic Shift
+Lambda: Version Aliases with Automatic Traffic Shift
 
 AWS Lambda supports weighted aliases. Deploy to a new version, shift traffic gradually, roll back if error rate rises:
 
 ```bash
 #!/bin/bash
-# lambda-deploy.sh
+lambda-deploy.sh
 set -euo pipefail
 
 FUNCTION_NAME="${1:?}"
 NEW_ZIP="${2:?}"
 REGION="${AWS_DEFAULT_REGION:-us-east-1}"
 
-# Deploy new version
+Deploy new version
 aws lambda update-function-code \
   --function-name "$FUNCTION_NAME" \
   --zip-file "fileb://$NEW_ZIP" \
@@ -248,7 +248,7 @@ CURRENT_VERSION=$(aws lambda get-alias \
 
 echo "New version: $NEW_VERSION, Current: $CURRENT_VERSION"
 
-# Update alias to point 10% traffic at new version
+Update alias to point 10% traffic at new version
 aws lambda update-alias \
   --function-name "$FUNCTION_NAME" \
   --name production \
@@ -259,7 +259,7 @@ aws lambda update-alias \
 echo "Observing for 5 minutes at 10% traffic..."
 sleep 300
 
-# Check error rate in CloudWatch
+Check error rate in CloudWatch
 ERROR_RATE=$(aws cloudwatch get-metric-statistics \
   --namespace AWS/Lambda \
   --metric-name Errors \
@@ -288,7 +288,7 @@ RATE=$(echo "scale=4; $ERROR_RATE / $INVOCATIONS" | bc)
 echo "Error rate on new version: $RATE"
 
 if (( $(echo "$RATE > 0.02" | bc -l) )); then
-  echo "ERROR RATE TOO HIGH — rolling back"
+  echo "ERROR RATE TOO HIGH. rolling back"
   aws lambda update-alias \
     --function-name "$FUNCTION_NAME" \
     --name production \
@@ -298,7 +298,7 @@ if (( $(echo "$RATE > 0.02" | bc -l) )); then
   exit 1
 fi
 
-# Promote to 100%
+Promote to 100%
 aws lambda update-alias \
   --function-name "$FUNCTION_NAME" \
   --name production \
@@ -311,12 +311,12 @@ echo "Deployment complete: version $NEW_VERSION at 100%"
 
 ---
 
-## GitHub Actions: Automated Rollback Gate in CI/CD
+GitHub Actions: Automated Rollback Gate in CI/CD
 
 Integrating rollback directly into your GitHub Actions pipeline catches failures before they fully propagate:
 
 ```yaml
-# .github/workflows/deploy.yml
+.github/workflows/deploy.yml
 name: Deploy with Auto-Rollback
 
 on:
@@ -357,7 +357,7 @@ jobs:
       - name: Rollback on failure
         if: steps.rollout.outputs.rollout-failed == 'true'
         run: |
-          echo "::error::Rollout failed — rolling back"
+          echo "::error::Rollout failed. rolling back"
           kubectl rollout undo deployment/myapp -n production
           kubectl rollout status deployment/myapp -n production --timeout=120s
           exit 1
@@ -368,7 +368,7 @@ jobs:
           STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
             "https://myapp.example.com/health")
           if [[ "$STATUS" != "200" ]]; then
-            echo "::error::Smoke test failed (HTTP $STATUS) — rolling back"
+            echo "::error::Smoke test failed (HTTP $STATUS). rolling back"
             kubectl rollout undo deployment/myapp -n production
             exit 1
           fi
@@ -395,7 +395,7 @@ jobs:
 
 ---
 
-## Rollback Decision Matrix
+Rollback Decision Matrix
 
 Not all failures should trigger automatic rollback. Use a matrix to decide:
 
@@ -413,23 +413,23 @@ For latency spikes, automatic rollback can mask underlying capacity problems rat
 Keep rollback procedures in your team runbook so the on-call engineer knows what automatic rollback covers and what still requires manual intervention:
 
 ```bash
-# ops/runbook/rollback.md quick reference
-# What rolls back automatically:
-#   - k8s readiness failures (kubectl rollout undo)
-#   - Docker Compose health check timeout
-#   - Lambda error rate > 2% during 10% canary
-#   - GitHub Actions post-deploy smoke test failure
+ops/runbook/rollback.md quick reference
+What rolls back automatically:
+  - k8s readiness failures (kubectl rollout undo)
+  - Docker Compose health check timeout
+  - Lambda error rate > 2% during 10% canary
+  - GitHub Actions post-deploy smoke test failure
 #
-# What requires manual rollback:
-#   - Database migrations (requires migration revert script)
-#   - Feature flag changes (toggle in LaunchDarkly)
-#   - S3 / external config changes
-#   - CDN cache / edge config changes
+What requires manual rollback:
+  - Database migrations (requires migration revert script)
+  - Feature flag changes (toggle in LaunchDarkly)
+  - S3 / external config changes
+  - CDN cache / edge config changes
 ```
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Keel for Continuous Delivery](/keel-continuous-delivery-setup/)
 - [How to Automate Docker Container Updates](/automate-docker-container-updates/)
@@ -437,5 +437,5 @@ Keep rollback procedures in your team runbook so the on-call engineer knows what
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

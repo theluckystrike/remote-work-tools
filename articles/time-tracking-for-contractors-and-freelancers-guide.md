@@ -18,7 +18,7 @@ voice-checked: true
 
 The most effective time tracking methods for contractors and freelancers are plain-text log files with a parsing script for simplicity, ActivityWatch for automatic activity detection, Git Time Metric for development-integrated tracking, and CLI tools like timetrap for quick session timers. Combine multiple methods for maximum accuracy, and use a reconciliation script weekly to catch unbilled hours before invoicing.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -28,21 +28,21 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: The Business Case for Precise Time Tracking
+Step 1: The Business Case for Precise Time Tracking
 
 Every hour you fail to track is an hour you cannot bill. For contractors and freelancers, time equals revenue directly. Unlike salaried employees where hours blend together, your time has explicit monetary value. Clients expect detailed invoices with breakdown by task or project. Accurate time records protect both you and your client from disputes about billed hours.
 
 Beyond invoicing, time tracking reveals patterns in your work. You discover which tasks consume more time than estimated, identify your peak productivity hours, and make data-driven decisions about pricing and project scoping.
 
-### Step 2: Manual Time Tracking Methods
+Step 2: Manual Time Tracking Methods
 
 For developers who prefer simplicity, plain text files work surprisingly well. Create a timestamped log using a simple format:
 
 ```bash
-# At start of work session
+At start of work session
 echo "$(date '+%Y-%m-%d %H:%M') - START - Project Alpha" >> time.log
 
-# At end of session
+At end of session
 echo "$(date '+%Y-%m-%d %H:%M') - END - Project Alpha" >> time.log
 ```
 
@@ -70,7 +70,7 @@ print(f"Total hours: {parse_time_log('time.log'):.2f}")
 
 This approach requires discipline but gives you complete control over your data. No subscriptions, no cloud services, no vendor lock-in.
 
-### Step 3: Automated Time Tracking with Activity Detection
+Step 3: Automated Time Tracking with Activity Detection
 
 For developers who forget to start timers, automatic activity tracking fills the gap. Tools like ActivityWatch (open source) run in the background and log window titles, active applications, and idle time.
 
@@ -83,7 +83,7 @@ brew install activitywatch
 Configure it to track specific categories:
 
 ```python
-# .config/activitywatch/aw-watcher-window.toml
+.config/activitywatch/aw-watcher-window.toml
 [aw-watcher-window]
 name = "aw-watcher-window"
 poll_time = 5
@@ -105,17 +105,17 @@ The watcher captures window titles which you can map to projects. Create a mappi
 
 This generates detailed reports showing exactly where your time goes. Export data weekly to generate client-ready invoices.
 
-### Step 4: Git-Based Time Tracking for Developers
+Step 4: Git-Based Time Tracking for Developers
 
 Since developers already use Git constantly, tracking time through commit messages integrates naturally into existing workflows. Tools like Git Time Metric (GTM) attach time spent to each file automatically.
 
 Install GTM:
 
 ```bash
-# macOS
+macOS
 brew install git-time-metric
 
-# Initialize in your repo
+Initialize in your repo
 git time-metric init
 ```
 
@@ -151,18 +151,18 @@ Output shows time spent per file:
 
 Combine this with client or project-based repositories to separate billing categories cleanly.
 
-### Step 5: Command-Line Timers for Quick Sessions
+Step 5: Command-Line Timers for Quick Sessions
 
 When you need a quick timer without full automation, command-line tools provide instant feedback. The `timer` command (available via Homebrew) offers simple countdown and stopwatch functionality:
 
 ```bash
-# Install
+Install
 brew install timer
 
-# Start a 25-minute pomodoro
+Start a 25-minute pomodoro
 timer -m 25
 
-# Count up from zero
+Count up from zero
 timer
 ```
 
@@ -171,19 +171,19 @@ For more sophisticated CLI tracking, consider `timetrap`:
 ```bash
 gem install timetrap
 
-# Start tracking
+Start tracking
 timetrap start "Client Project"
 
-# Switch to different task
+Switch to different task
 timetrap switch "Code Review"
 
-# Display timesheet
+Display timesheet
 timetrap display
 ```
 
 This Ruby gem stores data in SQLite locally, giving you a searchable database of all tracked time.
 
-## Combining Methods for Maximum Accuracy
+Combining Methods for Maximum Accuracy
 
 The most reliable approach combines multiple tracking methods. Use automatic activity tracking as a background safety net, manual timers for billable client work, and Git-based tracking for development tasks. Periodically compare outputs to catch discrepancies.
 
@@ -211,7 +211,7 @@ def reconcile_time_logs(automatic_log, timetrap_export, git_metrics):
 
     return discrepancies
 
-# Example usage
+Example usage
 with open('auto.json') as f:
     auto_data = json.load(f)
 with open('timetrap.json') as f:
@@ -226,7 +226,7 @@ for issue in issues:
 
 Run this weekly to ensure your billing stays accurate.
 
-### Step 6: Data Export and Invoice Generation
+Step 6: Data Export and Invoice Generation
 
 Once tracking is in place, generate invoices from your data. Most tools support CSV or JSON export. Create a simple invoice generator:
 
@@ -253,7 +253,7 @@ Total Due: ${total_amount:.2f}
 """
     return invoice
 
-# Usage
+Usage
 entries = [
     {'date': '2026-03-10', 'hours': 4.5, 'description': 'API integration'},
     {'date': '2026-03-11', 'hours': 3.0, 'description': 'Bug fixes'},
@@ -263,55 +263,55 @@ print(generate_invoice(entries, 150, "Acme Corp"))
 
 This outputs a clean invoice ready to send to clients.
 
-### Step 7: Choose Your Tracking Approach
+Step 7: Choose Your Tracking Approach
 
 Start with the simplest method that fits your workflow. If you already use Git for development, add GTM and get time tracking with minimal behavior change. If you work across many applications, automatic tracking with ActivityWatch provides coverage. For pure simplicity, a CLI timer or even a text file works perfectly.
 
 The best time tracking system is the one you actually use consistently. Experiment with different approaches until you find the rhythm that works for your specific situation.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to complete this setup?**
+How long does it take to complete this setup?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Best Time Tracking Tools for Remote Freelancers](/best-time-tracking-tools-for-remote-freelancers/)
 - [Best Time Tracking Tool for a Solo Remote Contractor 2026](/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
 - [Productivity Tracking Tools for Remote Teams 2026](/remote-team-productivity-tracking-2026/)
 - [Project Management Tools for Freelancers 2026](/project-management-tools-for-freelancers-2026/)
 - [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-employee-performance-tracking-tool-comparison-for-dis/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,7 +17,7 @@ tags: [remote-work-tools, remote-work]
 
 Ansible lets remote teams manage hundreds of servers without manual SSH sessions. This guide covers a production-ready setup: inventory structure, roles, vaults for secrets, and CI integration so your distributed team can push config changes safely.
 
-## Prerequisites
+Prerequisites
 
 - Python 3.8+ on the control node
 - SSH access to target servers (key-based)
@@ -26,40 +26,40 @@ Ansible lets remote teams manage hundreds of servers without manual SSH sessions
 ```bash
 pip install ansible ansible-lint
 ansible --version
-# ansible [core 2.14.x]
+ansible [core 2.14.x]
 ```
 
-## Directory Structure
+Directory Structure
 
 A clean layout keeps roles reusable across projects.
 
 ```
 ansible/
-├── ansible.cfg
-├── inventory/
-│   ├── production/
-│   │   ├── hosts.yml
-│   │   └── group_vars/
-│   │       ├── all.yml
-│   │       └── webservers.yml
-│   └── staging/
-│       └── hosts.yml
-├── roles/
-│   ├── common/
-│   │   ├── tasks/main.yml
-│   │   ├── handlers/main.yml
-│   │   └── templates/
-│   ├── nginx/
-│   └── postgres/
-├── playbooks/
-│   ├── site.yml
-│   ├── deploy.yml
-│   └── patch.yml
-└── vault/
-    └── secrets.yml
+ ansible.cfg
+ inventory/
+    production/
+       hosts.yml
+       group_vars/
+           all.yml
+           webservers.yml
+    staging/
+        hosts.yml
+ roles/
+    common/
+       tasks/main.yml
+       handlers/main.yml
+       templates/
+    nginx/
+    postgres/
+ playbooks/
+    site.yml
+    deploy.yml
+    patch.yml
+ vault/
+     secrets.yml
 ```
 
-## ansible.cfg
+ansible.cfg
 
 ```ini
 [defaults]
@@ -79,10 +79,10 @@ pipelining         = True
 ssh_args           = -o ControlMaster=auto -o ControlPersist=60s
 ```
 
-## Inventory File
+Inventory File
 
 ```yaml
-# inventory/production/hosts.yml
+inventory/production/hosts.yml
 all:
   children:
     webservers:
@@ -102,10 +102,10 @@ all:
           ansible_host: 10.0.3.10
 ```
 
-## Group Variables
+Group Variables
 
 ```yaml
-# inventory/production/group_vars/all.yml
+inventory/production/group_vars/all.yml
 ntp_servers:
   - 0.pool.ntp.org
   - 1.pool.ntp.org
@@ -114,16 +114,16 @@ syslog_server: 10.0.3.10
 deploy_user: deploy
 ssh_port: 22
 
-# inventory/production/group_vars/webservers.yml
+inventory/production/group_vars/webservers.yml
 nginx_worker_processes: auto
 nginx_worker_connections: 1024
 app_port: 8080
 ```
 
-## Common Role
+Common Role
 
 ```yaml
-# roles/common/tasks/main.yml
+roles/common/tasks/main.yml
 ---
 - name: Update apt cache
   ansible.builtin.apt:
@@ -171,7 +171,7 @@ app_port: 8080
 ```
 
 ```yaml
-# roles/common/handlers/main.yml
+roles/common/handlers/main.yml
 ---
 - name: restart ntp
   ansible.builtin.service:
@@ -183,24 +183,24 @@ app_port: 8080
     state: reloaded
 ```
 
-## Ansible Vault for Secrets
+Ansible Vault for Secrets
 
 Never store plaintext credentials in git.
 
 ```bash
-# Create vault password file (outside repo)
+Create vault password file (outside repo)
 echo "your-strong-vault-password" > ~/.vault_pass
 chmod 600 ~/.vault_pass
 
-# Create encrypted secrets file
+Create encrypted secrets file
 ansible-vault create vault/secrets.yml --vault-password-file ~/.vault_pass
 
-# Edit existing vault
+Edit existing vault
 ansible-vault edit vault/secrets.yml --vault-password-file ~/.vault_pass
 ```
 
 ```yaml
-# vault/secrets.yml (encrypted at rest)
+vault/secrets.yml (encrypted at rest)
 db_password: "s3cur3-db-pass"
 api_key: "sk-xxxx-yyyy-zzzz"
 smtp_password: "mail-secret"
@@ -225,10 +225,10 @@ Reference vault variables in tasks:
     password: "{{ db_password }}"
 ```
 
-## Main Playbook
+Main Playbook
 
 ```yaml
-# playbooks/site.yml
+playbooks/site.yml
 ---
 - name: Apply common configuration to all servers
   hosts: all
@@ -252,60 +252,60 @@ Reference vault variables in tasks:
     - postgres
 ```
 
-## Running Playbooks
+Running Playbooks
 
 ```bash
-# Check syntax before running
+Check syntax before running
 ansible-lint playbooks/site.yml
 
-# Dry run (check mode)
+Dry run (check mode)
 ansible-playbook playbooks/site.yml --check --diff
 
-# Run against staging first
+Run against staging first
 ansible-playbook -i inventory/staging playbooks/site.yml
 
-# Run only specific tags
+Run only specific tags
 ansible-playbook playbooks/site.yml --tags "nginx,common"
 
-# Limit to single host
+Limit to single host
 ansible-playbook playbooks/site.yml --limit web-01.example.com
 
-# Run against production with verbose output
+Run against production with verbose output
 ansible-playbook playbooks/site.yml -v
 ```
 
-## Ad-Hoc Commands for Teams
+Ad-Hoc Commands for Teams
 
 Quick operations without full playbooks:
 
 ```bash
-# Check disk usage across all web servers
+Check disk usage across all web servers
 ansible webservers -m shell -a "df -h /"
 
-# Restart nginx on all web servers
+Restart nginx on all web servers
 ansible webservers -m service -a "name=nginx state=restarted" --become
 
-# Copy a file to all servers
+Copy a file to all servers
 ansible all -m copy -a "src=/tmp/cert.pem dest=/etc/ssl/cert.pem mode=0644" --become
 
-# Run a shell command and collect output
+Run a shell command and collect output
 ansible all -m shell -a "uptime" -o
 
-# Gather facts about a host
+Gather facts about a host
 ansible web-01.example.com -m setup | grep ansible_distribution
 ```
 
-## CI Integration (GitHub Actions)
+CI Integration (GitHub Actions)
 
 ```yaml
-# .github/workflows/ansible.yml
+.github/workflows/ansible.yml
 name: Ansible Deploy
 
 on:
   push:
     branches: [main]
     paths:
-      - 'ansible/**'
+      - 'ansible/'
 
 jobs:
   deploy:
@@ -337,21 +337,21 @@ jobs:
           ANSIBLE_HOST_KEY_CHECKING: "False"
 ```
 
-## Testing Roles with Molecule
+Testing Roles with Molecule
 
 ```bash
 pip install molecule molecule-docker
 
-# Initialize molecule in a role
+Initialize molecule in a role
 cd roles/nginx
 molecule init scenario --driver-name docker
 
-# Run full test cycle
+Run full test cycle
 molecule test
 ```
 
 ```yaml
-# molecule/default/converge.yml
+molecule/default/converge.yml
 ---
 - name: Converge
   hosts: all
@@ -363,7 +363,7 @@ molecule test
 Molecule runs your role inside a Docker container and verifies it applies without errors. Add a verify step to assert the intended state:
 
 ```yaml
-# molecule/default/verify.yml
+molecule/default/verify.yml
 ---
 - name: Verify
   hosts: all
@@ -380,20 +380,20 @@ Molecule runs your role inside a Docker container and verifies it applies withou
         fail_msg: "nginx is not running after role apply"
 ```
 
-This gives remote team members a way to verify infrastructure changes locally in Docker before pushing to staging — no need for a live server.
+This gives remote team members a way to verify infrastructure changes locally in Docker before pushing to staging. no need for a live server.
 
-## Idempotency Checks
+Idempotency Checks
 
 Always verify idempotency before team rollout:
 
 ```bash
-# Run twice and confirm no changes on second pass
+Run twice and confirm no changes on second pass
 ansible-playbook playbooks/site.yml | grep -E "changed|failed"
 ansible-playbook playbooks/site.yml | grep -E "changed|failed"
-# Second run should show: changed=0 failed=0
+Second run should show: changed=0 failed=0
 ```
 
-## Dynamic Inventory for Cloud Infrastructure
+Dynamic Inventory for Cloud Infrastructure
 
 Static `hosts.yml` files break when servers are provisioned and destroyed automatically. For AWS environments, use the EC2 dynamic inventory plugin:
 
@@ -403,7 +403,7 @@ ansible-galaxy collection install amazon.aws
 ```
 
 ```yaml
-# inventory/production/aws_ec2.yml
+inventory/production/aws_ec2.yml
 plugin: amazon.aws.aws_ec2
 regions:
   - us-east-1
@@ -424,13 +424,13 @@ compose:
 Test and use dynamic inventory:
 
 ```bash
-# List all hosts Ansible would discover
+List all hosts Ansible would discover
 ansible-inventory -i inventory/production/aws_ec2.yml --list
 
-# Run against a dynamically discovered group
+Run against a dynamically discovered group
 ansible tag_Role_webserver -i inventory/production/aws_ec2.yml -m ping
 
-# Run a playbook against auto-discovered webservers
+Run a playbook against auto-discovered webservers
 ansible-playbook -i inventory/production/aws_ec2.yml playbooks/site.yml \
   --limit tag_Role_webserver
 ```
@@ -438,22 +438,22 @@ ansible-playbook -i inventory/production/aws_ec2.yml playbooks/site.yml \
 Add a bastion host for servers without public IPs:
 
 ```ini
-# ansible.cfg ssh_connection section
+ansible.cfg ssh_connection section
 [ssh_connection]
 pipelining    = True
 ssh_args      = -o ProxyJump=bastion.example.com -o ControlMaster=auto -o ControlPersist=60s
 ```
 
-## AWX for Team-Wide Playbook Execution
+AWX for Team-Wide Playbook Execution
 
-For larger remote teams, running playbooks from individual laptops causes consistency issues — different Python versions, different vault passwords in different locations. AWX (open-source Ansible Tower) centralizes execution with a web UI and API:
+For larger remote teams, running playbooks from individual laptops causes consistency issues. different Python versions, different vault passwords in different locations. AWX (open-source Ansible Tower) centralizes execution with a web UI and API:
 
 ```bash
-# Deploy AWX with Docker Compose
+Deploy AWX with Docker Compose
 git clone https://github.com/ansible/awx.git
 cd awx
 docker-compose -f tools/docker-compose/_sources/docker-compose.yml up -d
-# Access the UI at http://localhost:8013 (admin/password)
+Access the UI at http://localhost:8013 (admin/password)
 ```
 
 Key AWX capabilities for distributed teams:
@@ -471,12 +471,12 @@ A typical team workflow: engineer opens a PR with playbook changes, CI runs `ans
 
 ---
 
-## Tagging Tasks for Selective Runs
+Tagging Tasks for Selective Runs
 
 As your playbook library grows, running the full `site.yml` on every change becomes slow. Use tags to run only the relevant parts:
 
 ```yaml
-# roles/nginx/tasks/main.yml
+roles/nginx/tasks/main.yml
 ---
 - name: Install nginx
   ansible.builtin.package:
@@ -502,13 +502,13 @@ As your playbook library grows, running the full `site.yml` on every change beco
 With tags, a config change can be applied in seconds rather than running the full playbook:
 
 ```bash
-# Apply only nginx config changes — skip install and service tasks
+Apply only nginx config changes. skip install and service tasks
 ansible-playbook playbooks/site.yml --tags "nginx,config"
 
-# Patch common packages across all servers without touching app config
+Patch common packages across all servers without touching app config
 ansible-playbook playbooks/site.yml --tags "install" --limit all
 
-# Skip database tasks entirely during a web-only deploy
+Skip database tasks entirely during a web-only deploy
 ansible-playbook playbooks/site.yml --skip-tags "postgres"
 ```
 
@@ -516,7 +516,7 @@ For remote teams, tagging is especially valuable because it enables teammates in
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Terraform Remote Team Infrastructure Guide](/terraform-remote-team-infrastructure-guide/)
 - [Best Secrets Management Tool for Remote Dev Teams](/best-secrets-management-tool-for-remote-development-teams-us/)
@@ -525,7 +525,7 @@ For remote teams, tagging is especially valuable because it enables teammates in
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Best SSH Key Management Solution for Distributed Remote](/best-ssh-key-management-solution-for-distributed-remote-engi/)
 - [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
@@ -533,5 +533,5 @@ For remote teams, tagging is especially valuable because it enables teammates in
 - [Remote Work Security Hardening Checklist](/remote-work-security-hardening-checklist/)
 - [Best API Key Management Workflow for Remote Development](/best-api-key-management-workflow-for-remote-development-team/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,7 +17,7 @@ voice-checked: true
 
 Traditional 360-degree feedback requires everyone to gather in a room or hop on a video call. For distributed teams across time zones, this creates scheduling nightmares and often excludes quieter team members who contribute more in writing than in verbal discussions. An async 360 feedback process solves these problems while producing richer, more thoughtful responses.
 
-## Table of Contents
+Table of Contents
 
 - [Why Async 360 Feedback Works Better for Remote Teams](#why-async-360-feedback-works-better-for-remote-teams)
 - [Designing Your Feedback Framework](#designing-your-feedback-framework)
@@ -43,7 +43,7 @@ Traditional 360-degree feedback requires everyone to gather in a room or hop on 
 
 This guide walks through implementing a complete async 360 feedback workflow that your team can run entirely through written responses and asynchronous tools.
 
-## Why Async 360 Feedback Works Better for Remote Teams
+Why Async 360 Feedback Works Better for Remote Teams
 
 Synchronous feedback sessions suffer from several problems in remote environments. Finding a single time slot that works for a team spread across multiple time zones often means someone joins at 7 AM or 10 PM. Video calls also pressure participants to respond quickly rather than think through their feedback carefully.
 
@@ -51,14 +51,14 @@ Async feedback removes this pressure. Respondents can take time to reflect on th
 
 Additionally, async processes create a permanent artifact you can reference later. This matters for tracking growth over time and for new managers who want to understand a team member's history.
 
-## Designing Your Feedback Framework
+Designing Your Feedback Framework
 
 Before collecting feedback, establish clear categories that align with your team's values and expectations. A well-structured framework typically covers:
 
-**Technical Skills** — Domain expertise, code quality, system design, debugging ability
-**Collaboration** — Communication clarity, responsiveness, knowledge sharing, conflict resolution
-**Leadership** — Mentorship, initiative, decision-making, accountability
-**Reliability** — Meeting commitments, transparent status updates, escalation when needed
+Technical Skills. Domain expertise, code quality, system design, debugging ability
+Collaboration. Communication clarity, responsiveness, knowledge sharing, conflict resolution
+Leadership. Mentorship, initiative, decision-making, accountability
+Reliability. Meeting commitments, transparent status updates, escalation when needed
 
 Create specific questions for each category. Avoid vague prompts like "How does this person do?" Instead, use behavioral questions that ask for concrete examples:
 
@@ -66,47 +66,47 @@ Create specific questions for each category. Avoid vague prompts like "How does 
 - How effectively does this person communicate complex technical concepts to non-technical stakeholders?
 - When has this person taken initiative on something outside their core responsibilities?
 
-## Implementing the Feedback Collection Process
+Implementing the Feedback Collection Process
 
-### Step 1: Identify Feedback Participants
+Step 1: Identify Feedback Participants
 
 For each person receiving feedback, include:
 
-- **Peer reviewers** (3-5 people who work closely with them)
-- **Direct manager** (if not self-managed)
-- **Cross-functional partners** (if applicable)
-- **Reports** (for people in leadership roles)
+- Peer reviewers (3-5 people who work closely with them)
+- Direct manager (if not self-managed)
+- Cross-functional partners (if applicable)
+- Reports (for people in leadership roles)
 
 Rotating reviewers quarterly prevents feedback fatigue and ensures diverse perspectives over time.
 
-### Step 2: Set Up the Feedback Form
+Step 2: Set Up the Feedback Form
 
 Use a simple form builder or create a structured document. Here's a template structure:
 
 ```markdown
-## Feedback for [Name] - [Quarter/Period]
+Feedback for [Name] - [Quarter/Period]
 
-### Instructions
+Instructions
 Provide specific examples for each response. Focus on behaviors rather than personality traits.
 
-### Technical Competence
+Technical Competence
 1. Rate this person's technical skills (1-5): ___
 2. Describe a recent example of their technical contribution:
 
-### Collaboration
+Collaboration
 3. How effectively does this person communicate with the team?
 4. Describe a time they helped a teammate:
 
-### Areas for Improvement
+Areas for Improvement
 5. What one skill would most benefit from their attention?
 6. What support would help them grow?
 
-### Overall Summary
+Overall Summary
 7. What is this person's greatest strength?
 8. One thing they should continue doing:
 ```
 
-### Step 3: Distribute and Collect Responses
+Step 3: Distribute and Collect Responses
 
 Send personalized requests to each reviewer with a clear deadline (typically 5-7 days). Use a shared folder or feedback tool where responses are stored. Anonymize responses if psychological safety requires it, though named feedback tends to be more actionable.
 
@@ -148,36 +148,36 @@ if __name__ == "__main__":
 
 This script reads a team configuration and generates reminder messages for each feedback cycle.
 
-## Aggregating and Delivering Feedback
+Aggregating and Delivering Feedback
 
-Once collected, compile responses into a cohesive summary. Highlight patterns that appear across multiple reviewers—these are the most reliable signals. Pay special attention to specific examples, as they provide actionable context.
+Once collected, compile responses into a cohesive summary. Highlight patterns that appear across multiple reviewers, these are the most reliable signals. Pay special attention to specific examples, as they provide actionable context.
 
 When delivering feedback to the recipient:
 
-1. **Separate fact from interpretation** — "Three teammates mentioned you miss standup" is factual; "You don't care about communication" is interpretation
-2. **Prioritize top 2-3 actionable items** — Overwhelming people reduces follow-through
-3. **Include specific examples** — Generic feedback like "improve communication" fails without context
+1. Separate fact from interpretation. "Three teammates mentioned you miss standup" is factual; "You don't care about communication" is interpretation
+2. Prioritize top 2-3 actionable items. Overwhelming people reduces follow-through
+3. Include specific examples. Generic feedback like "improve communication" fails without context
 
-## Automating Recurrence
+Automating Recurrence
 
-Run async 360 feedback on a regular cadence—quarterly works well for most teams. Set up calendar reminders or use a simple cron job to trigger the process:
+Run async 360 feedback on a regular cadence, quarterly works well for most teams. Set up calendar reminders or use a simple cron job to trigger the process:
 
 ```bash
-# Run on first Monday of each quarter
+Run on first Monday of each quarter
 0 9 1 1,4,7,10 * [ "$(date +\%u)" = "1" ] && python3 feedback_cycle.py
 ```
 
-## Common Pitfalls to Avoid
+Common Pitfalls to Avoid
 
-**Asking too many questions** — Keep the form to 8-10 questions. Longer forms produce shorter, less thoughtful responses.
+Asking too many questions. Keep the form to 8-10 questions. Longer forms produce shorter, less thoughtful responses.
 
-**Requiring anonymity when not needed** — Named feedback creates accountability and allows the recipient to follow up for clarification.
+Requiring anonymity when not needed. Named feedback creates accountability and allows the recipient to follow up for clarification.
 
-**Delivering feedback months after the period** — Timely feedback is actionable feedback. Aim to complete each cycle within 2 weeks.
+Delivering feedback months after the period. Timely feedback is actionable feedback. Aim to complete each cycle within 2 weeks.
 
-**Ignoring positive feedback** — The summary should acknowledge strengths alongside growth areas.
+Ignoring positive feedback. The summary should acknowledge strengths alongside growth areas.
 
-## Measuring Success
+Measuring Success
 
 Track these metrics to evaluate your async feedback process:
 
@@ -186,24 +186,24 @@ Track these metrics to evaluate your async feedback process:
 - Sentiment trends (do feedback scores improve over time?)
 - Team satisfaction (do people find the process valuable?)
 
-## Detailed Feedback Form Template with Response Anchors
+Detailed Feedback Form Template with Response Anchors
 
 A well-designed form guides responses without constraining genuine feedback. Here's a template that works well for distributed teams:
 
 ```markdown
-# 360 Feedback Form: [Person Name] | [Quarter]
+360 Feedback Form: [Person Name] | [Quarter]
 
-## Instructions
+Instructions
 Thank you for taking the time to provide feedback. Please focus on:
-- **Specific behaviors** you've observed (not personality judgments)
-- **Recent examples** from the last 3 months
-- **Constructive observations** that help growth
-- **Honest assessment** even if critical
+- Specific behaviors you've observed (not personality judgments)
+- Recent examples from the last 3 months
+- Constructive observations that help growth
+- Honest assessment even if critical
 ---
 
-## TECHNICAL EXCELLENCE
+TECHNICAL EXCELLENCE
 
-**Rate overall technical capability** (1-5, 5 being exceptional):
+Rate overall technical capability (1-5, 5 being exceptional):
 ___
 
 Describe a specific technical contribution or decision this person made in the past three months:
@@ -217,9 +217,9 @@ What is one technical area where they could grow?
 
 ---
 
-## COLLABORATION & COMMUNICATION
+COLLABORATION & COMMUNICATION
 
-**Rate collaboration effectiveness** (1-5):
+Rate collaboration effectiveness (1-5):
 ___
 
 Describe a time when this person communicated something complex clearly:
@@ -236,9 +236,9 @@ Describe one way they could improve communication:
 
 ---
 
-## RELIABILITY & ACCOUNTABILITY
+RELIABILITY & ACCOUNTABILITY
 
-**Rate reliability** (1-5):
+Rate reliability (1-5):
 ___
 
 Describe a project or commitment where they delivered successfully:
@@ -252,9 +252,9 @@ When things go wrong, how does this person respond?
 
 ---
 
-## LEADERSHIP (for people in lead roles)
+LEADERSHIP (for people in lead roles)
 
-**Rate leadership capability** (1-5):
+Rate leadership capability (1-5):
 ___
 
 Describe a moment when this person showed good judgment or leadership:
@@ -265,7 +265,7 @@ How do they handle conflict or disagreement?
 
 ---
 
-## GROWTH & DEVELOPMENT
+GROWTH & DEVELOPMENT
 
 What is the biggest strength this person should lean into more?
 [Open text]
@@ -278,7 +278,7 @@ What kind of support would help them grow in that direction?
 
 ---
 
-## OVERALL
+OVERALL
 
 In one sentence, what is this person's most valuable contribution to the team?
 [One sentence maximum]
@@ -289,13 +289,13 @@ If "No," please explain:
 
 ---
 
-**Submitted by:** [Optional - can be anonymous]
-**Date:** [Auto-filled]
+Submitted by: [Optional - can be anonymous]
+Date: [Auto-filled]
 ```
 
 This structure guides responses without being limiting. The "rating" questions give quantitative data while open-ended sections capture nuance.
 
-## Response Compilation and Aggregation Process
+Response Compilation and Aggregation Process
 
 Raw feedback needs synthesis to be useful. Here's a process for turning collected responses into actionable summary:
 
@@ -319,25 +319,25 @@ Step 3: Categorize Feedback
 
 Step 4: Create Summary Document
 
-## [Person] 360 Feedback Summary
+[Person] 360 Feedback Summary
 
-**Overall Sentiment:** [Positive/Mixed/Concerning based on ratings distribution]
+Overall Sentiment: [Positive/Mixed/Concerning based on ratings distribution]
 
-### Key Strengths (cited by 4+ reviewers)
+Key Strengths (cited by 4+ reviewers)
 - [Strength 1]: [Example quote pattern]
 - [Strength 2]: [Example quote pattern]
 
-### Growth Opportunities (cited by 3+ reviewers)
+Growth Opportunities (cited by 3+ reviewers)
 - [Growth area]: [Specific feedback pattern]
 - [Action suggestion from reviewers]
 
-### Areas of Alignment
+Areas of Alignment
 [Where multiple reviewers mentioned same strength or opportunity]
 
-### Areas of Disagreement
+Areas of Disagreement
 [If ratings vary significantly, note: "Ratings varied from 2-5 on X skill"]
 
-### Questions for Discussion
+Questions for Discussion
 [Ambiguities to clarify in one-on-one]
 
 Step 5: Prepare Feedback Delivery
@@ -347,7 +347,7 @@ Step 5: Prepare Feedback Delivery
 - Position feedback as learning opportunity, not judgment
 ```
 
-## The Feedback Conversation: Delivery Framework
+The Feedback Conversation: Delivery Framework
 
 Delivering 360 feedback well is a skill. Use this structure:
 
@@ -371,7 +371,7 @@ Deliver Growth Feedback (5 minutes):
 "[Growth area] came up from three reviewers. Specifically, [feedback pattern].
 Here's one example: [specific situation]."
 
-Listen to their reaction. Don't defend the feedback—your job is delivery, not justification.
+Listen to their reaction. Don't defend the feedback, your job is delivery, not justification.
 
 Discuss Action (15 minutes):
 "What's one thing you could focus on over the next quarter that would address this?
@@ -383,15 +383,15 @@ Commit to follow-up (3 minutes):
 
 The key: deliver feedback with specificity, listen to their perspective, and commit to support.
 
-## Feedback Cycle Automation with Reminders
+Feedback Cycle Automation with Reminders
 
 Automate the administrative burden so nothing falls through the cracks:
 
 ```bash
 #!/bin/bash
-# feedback-cycle.sh - Automate 360 feedback process
+feedback-cycle.sh - Automate 360 feedback process
 
-# Week 1: Send requests to reviewers
+Week 1: Send requests to reviewers
 echo "Sending feedback requests to reviewers..."
 for reviewer in $(cat reviewers.txt); do
  send_email \
@@ -401,17 +401,17 @@ for reviewer in $(cat reviewers.txt); do
  --link "https://feedback.company.com/form/[person]"
 done
 
-# Week 2: Send reminder to non-respondents
+Week 2: Send reminder to non-respondents
 echo "Sending reminders to incomplete responses..."
 for incomplete in $(check_incomplete_forms); do
  send_slack_dm "$incomplete" "Just a reminder: feedback due tomorrow"
 done
 
-# Week 3: Compile and synthesize feedback
+Week 3: Compile and synthesize feedback
 echo "Compiling feedback into summary..."
 python3 aggregate_feedback.py --person "$1" --output summary.md
 
-# Week 4: Schedule delivery meeting
+Week 4: Schedule delivery meeting
 echo "Scheduling feedback delivery meeting..."
 create_calendar_event \
  --attendees "$person" \
@@ -421,55 +421,55 @@ create_calendar_event \
 
 This removes the manual burden of chasing forms, reminding respondents, and organizing the follow-up.
 
-## Common Pitfalls and How to Avoid Them
+Common Pitfalls and How to Avoid Them
 
-**Too many feedback cycles**: Running 360 feedback every quarter causes fatigue. Annual or bi-annual works better for most teams.
+Too many feedback cycles: Running 360 feedback every quarter causes fatigue. Annual or bi-annual works better for most teams.
 
-**Identical questions every cycle**: Vary questions slightly to target emerging growth areas, not just recycle the same form.
+Identical questions every cycle: Vary questions slightly to target emerging growth areas, not just recycle the same form.
 
-**Feedback that's too soft**: "Great communicator" is useless. Require examples. "You explained the API migration clearly in our design review" is actionable.
+Feedback that's too soft: "Great communicator" is useless. Require examples. "You explained the API migration clearly in our design review" is actionable.
 
-**No follow-up**: Collect feedback, deliver it, then never revisit. The value is in the follow-up accountability, not the collection.
+No follow-up: Collect feedback, deliver it, then never revisit. The value is in the follow-up accountability, not the collection.
 
-**Anonymous when team is small**: In a 5-person team, "anonymity" is obvious. Named feedback builds trust better and allows for follow-up clarification.
+Anonymous when team is small: In a 5-person team, "anonymity" is obvious. Named feedback builds trust better and allows for follow-up clarification.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does Teams offer a free tier?**
+Does Teams offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check Teams's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [How to Build Async Feedback Culture on a Fully Remote Team](/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
 - [How to Set Up Remote Team Peer Feedback Process](/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
 - [Example: Feedback webhook handler](/async-customer-feedback-synthesis-workflow-for-remote-produc/)
 - [Remote Team Manager Peer Feedback Exchange Template](/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
 - [Best Tools for Async Video Feedback on Creative Work in 2026](/best-tools-for-async-video-feedback-on-creative-work-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Related Reading
+Related Reading
 
 - [Async QA Signoff Process for Remote Teams Releasing Weekly](/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
 - [Async Product Discovery Process for Remote Teams](/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
 - [Async Interview Process for Hiring Remote Developers No Live](/async-interview-process-for-hiring-remote-developers-no-live/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

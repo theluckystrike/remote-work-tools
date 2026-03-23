@@ -15,13 +15,13 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-Netdata gives you per-second metrics across CPU, memory, disk, network, and hundreds of application plugins — with zero configuration for most use cases. For remote teams managing distributed infrastructure, it cuts mean time to detect from minutes to seconds.
+Netdata gives you per-second metrics across CPU, memory, disk, network, and hundreds of application plugins. with zero configuration for most use cases. For remote teams managing distributed infrastructure, it cuts mean time to detect from minutes to seconds.
 
 This guide covers installation, configuration, alerting, and exposing Netdata securely for remote access.
 
 ---
 
-## Install Netdata
+Install Netdata
 
 The quickest path on Debian/Ubuntu:
 
@@ -41,7 +41,7 @@ systemctl enable netdata && systemctl start netdata
 Docker deployment for containers-first teams:
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 services:
   netdata:
@@ -78,7 +78,7 @@ volumes:
 
 ---
 
-## Core Configuration
+Core Configuration
 
 Netdata's main config is at `/etc/netdata/netdata.conf`. Edit it with the helper:
 
@@ -113,14 +113,14 @@ Key settings to tune:
 Set the hostname so dashboards are readable when managing multiple servers:
 
 ```bash
-# /etc/netdata/netdata.conf
+/etc/netdata/netdata.conf
 [global]
     hostname = prod-web-01
 ```
 
 ---
 
-## Configure Health Alerts
+Configure Health Alerts
 
 Netdata ships with hundreds of built-in alerts. Override them in `/etc/netdata/health.d/`. Create a custom alert file:
 
@@ -129,7 +129,7 @@ Netdata ships with hundreds of built-in alerts. Override them in `/etc/netdata/h
 ```
 
 ```ini
-# Alert when disk space on / exceeds 80%
+Alert when disk space on / exceeds 80%
 alarm: disk_space_root
      on: disk.space
   hosts: *
@@ -141,7 +141,7 @@ alarm: disk_space_root
    info: Disk usage on root filesystem is high
      to: sysadmin
 
-# Alert when load average exceeds CPU count * 2
+Alert when load average exceeds CPU count * 2
 alarm: load_15
      on: system.load
   hosts: *
@@ -156,7 +156,7 @@ alarm: load_15
 
 ---
 
-## Set Up Email and Slack Alerts
+Set Up Email and Slack Alerts
 
 Configure notification channels at `/etc/netdata/health_alarm_notify.conf`:
 
@@ -167,11 +167,11 @@ Configure notification channels at `/etc/netdata/health_alarm_notify.conf`:
 For email:
 
 ```bash
-# Enable email notifications
+Enable email notifications
 SEND_EMAIL="YES"
 DEFAULT_RECIPIENT_EMAIL="ops@yourcompany.com"
 
-# Use sendmail or postfix
+Use sendmail or postfix
 sendmail="/usr/sbin/sendmail"
 ```
 
@@ -182,7 +182,7 @@ SEND_SLACK="YES"
 SLACK_WEBHOOK_URL="https://hooks.slack.com/services/T.../B.../..."
 DEFAULT_RECIPIENT_SLACK="#alerts"
 
-# Optionally route critical to a different channel
+Optionally route critical to a different channel
 role_recipients_slack[sysadmin]="#ops-critical"
 ```
 
@@ -194,12 +194,12 @@ sudo -u netdata /usr/libexec/netdata/plugins.d/alarm-notify.sh test
 
 ---
 
-## Enable Persistent Storage (dbengine)
+Enable Persistent Storage (dbengine)
 
 By default Netdata uses RAM for storage. For longer retention, use the database engine:
 
 ```ini
-# /etc/netdata/netdata.conf
+/etc/netdata/netdata.conf
 [global]
     memory mode = dbengine
 
@@ -220,12 +220,12 @@ du -sh /var/cache/netdata/dbengine/
 
 ---
 
-## Expose Dashboard Securely with Nginx
+Expose Dashboard Securely with Nginx
 
 Never expose Netdata's port 19999 directly. Put it behind Nginx with basic auth or SSO:
 
 ```nginx
-# /etc/nginx/sites-available/netdata
+/etc/nginx/sites-available/netdata
 upstream netdata {
     server 127.0.0.1:19999;
     keepalive 64;
@@ -265,7 +265,7 @@ nginx -t && systemctl reload nginx
 
 ---
 
-## Stream Metrics to a Parent Node
+Stream Metrics to a Parent Node
 
 For remote teams with multiple servers, stream all metrics to one parent Netdata instance rather than maintaining N dashboards.
 
@@ -303,7 +303,7 @@ The parent dashboard at `https://monitoring.yourcompany.com` now shows all hosts
 
 ---
 
-## Monitor Docker Containers
+Monitor Docker Containers
 
 Netdata auto-detects Docker if the socket is accessible. For the Docker deployment, the socket is already mounted. For bare-metal installs:
 
@@ -332,49 +332,49 @@ To limit which containers are tracked, edit `/etc/netdata/docker.conf`:
 
 ---
 
-## Netdata Cloud for Team Dashboards
+Netdata Cloud for Team Dashboards
 
 Netdata Cloud (free tier available) lets remote teams share dashboards without managing access to individual servers.
 
 ```bash
-# Claim a node to Netdata Cloud
+Claim a node to Netdata Cloud
 netdata-claim.sh \
   -token=YOUR_CLAIM_TOKEN \
   -rooms=YOUR_ROOM_ID \
   -url=https://app.netdata.cloud
 ```
 
-Get your claim token from: **Netdata Cloud > Space Settings > Nodes > Connect Nodes**
+Get your claim token from: Netdata Cloud > Space Settings > Nodes > Connect Nodes
 
-Once claimed, the node appears in your cloud space and is accessible to all team members with room access — no VPN or SSH tunnels required.
+Once claimed, the node appears in your cloud space and is accessible to all team members with room access. no VPN or SSH tunnels required.
 
 ---
 
-## Useful Diagnostic Commands
+Useful Diagnostic Commands
 
 ```bash
-# Check Netdata service status
+Check Netdata service status
 systemctl status netdata
 
-# View live logs
+View live logs
 journalctl -u netdata -f
 
-# Test a specific plugin
+Test a specific plugin
 sudo -u netdata /usr/libexec/netdata/charts.d/postgres.chart.sh
 
-# Check what's consuming Netdata CPU
+Check what's consuming Netdata CPU
 netdata-claim.sh --check-claiming-status
 
-# Dump all collected metrics to JSON
+Dump all collected metrics to JSON
 curl -s "http://127.0.0.1:19999/api/v1/allmetrics?format=json" | jq '.'
 
-# List all active alarms
+List all active alarms
 curl -s "http://127.0.0.1:19999/api/v1/alarms?all" | jq '.alarms | to_entries[] | .value | {name, status, value}'
 ```
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Traefik Reverse Proxy](/how-to-set-up-traefik-reverse-proxy/)
 - [How to Automate Database Backup Verification](/how-to-automate-database-backup-verification/)
@@ -383,7 +383,7 @@ curl -s "http://127.0.0.1:19999/api/v1/alarms?all" | jq '.alarms | to_entries[] 
 
 ---
 
-## Related Articles
+Related Articles
 
 - [WireGuard Team VPN: Multi-User Setup Guide](/wireguard-team-vpn-multi-user-setup/)
 - [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
@@ -391,6 +391,6 @@ curl -s "http://127.0.0.1:19999/api/v1/alarms?all" | jq '.alarms | to_entries[] 
 - [Prometheus Monitoring Setup for Remote Infrastructure](/prometheus-monitoring-remote-infrastructure/)
 - [Linux Server Hardening Guide for Remote Developers](/linux-server-hardening-remote-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

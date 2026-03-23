@@ -20,16 +20,16 @@ Client satisfaction surveys are critical for remote agencies. Without face-to-fa
 
 This guide provides a survey template designed specifically for remote agencies, then shows you how to automate the entire feedback collection workflow using tools developers and power users can implement without extensive infrastructure.
 
-## Survey Template Design
+Survey Template Design
 
 The most effective client satisfaction surveys for remote agencies balance comprehensiveness with brevity. Clients are busy, and long surveys produce low response rates. Aim for 8-12 questions that cover the key dimensions of your client relationship.
 
-### Core Questions for Remote Agency Surveys
+Core Questions for Remote Agency Surveys
 
 ```markdown
-## Project: [Project Name]
-## Client: [Client Name]
-## Date: [Survey Date]
+Project: [Project Name]
+Client: [Client Name]
+Date: [Survey Date]
 
 1. How satisfied are you with the overall quality of work delivered? (1-5 scale)
 
@@ -56,16 +56,16 @@ The most effective client satisfaction surveys for remote agencies balance compr
 
 This template covers communication, quality, expectation management, and nets you an NPS score. The open-ended question at position 7 often produces your most actionable feedback.
 
-## Automating Survey Distribution
+Automating Survey Distribution
 
-Manual survey distribution wastes time and creates inconsistency. Automation ensures every client receives their survey at the optimal moment—typically 2-4 weeks after project completion or milestone delivery.
+Manual survey distribution wastes time and creates inconsistency. Automation ensures every client receives their survey at the optimal moment, typically 2-4 weeks after project completion or milestone delivery.
 
-### Option 1: GitHub Actions Workflow
+Option 1: GitHub Actions Workflow
 
 If you already use GitHub for project management, this workflow triggers surveys when issues are moved to a "Done" column or when you close a project milestone.
 
 ```yaml
-# .github/workflows/client-survey.yml
+.github/workflows/client-survey.yml
 name: Client Satisfaction Survey Trigger
 
 on:
@@ -105,7 +105,7 @@ jobs:
 
 This approach creates a reminder without immediately spamming clients, giving you control over the exact send time.
 
-### Option 2: JavaScript Automation Script
+Option 2: JavaScript Automation Script
 
 For more control or integration with tools like Notion, Airtable, or Slack, use a JavaScript script that runs on your preferred schedule.
 
@@ -168,11 +168,11 @@ checkCompletedProjects();
 Deploy this script on Node.js, schedule it with GitHub Actions, or run it locally with a cron job.
 
 ```bash
-# Run daily at 9 AM
+Run daily at 9 AM
 0 9 * * * /usr/bin/node /path/to/survey-automation.js
 ```
 
-### Option 3: No-Code Integration
+Option 3: No-Code Integration
 
 Many remote agencies use no-code tools that already integrate survey functionality. If you're using Notion, Airtable, or similar tools:
 
@@ -180,7 +180,7 @@ Many remote agencies use no-code tools that already integrate survey functionali
 2. Airtable: Create an automation that sends a Formstack or Typeform link when a record matches your criteria
 3. ClickUp/Podio: Built-in automation workflows can handle survey triggers based on task completion
 
-## Analyzing Survey Responses
+Analyzing Survey Responses
 
 Collecting feedback only matters if you act on it. Set up a simple analysis pipeline:
 
@@ -206,19 +206,19 @@ function analyzeSurveyResponses(responses) {
 }
 ```
 
-## Best Practices for Remote Agency Surveys
+Best Practices for Remote Agency Surveys
 
-**Timing matters more than you think.** Send surveys when the project work is fresh in the client's memory but after they've had time to use or review deliverables. Two to three weeks after delivery typically works well.
+Timing matters more than you think. Send surveys when the project work is fresh in the client's memory but after they've had time to use or review deliverables. Two to three weeks after delivery typically works well.
 
-**Personalize the delivery.** Automated doesn't mean impersonal. Address clients by name, reference the specific project, and have the survey come from a real person rather than a noreply address.
+Personalize the delivery. Automated doesn't mean impersonal. Address clients by name, reference the specific project, and have the survey come from a real person rather than a noreply address.
 
-**Close the loop.** When clients provide critical feedback, follow up personally. Even if you can't immediately fix an issue, acknowledging their feedback builds trust.
+Close the loop. When clients provide critical feedback, follow up personally. Even if you can't immediately fix an issue, acknowledging their feedback builds trust.
 
-**Track trends over time.** Individual survey results are noisy. Track your NPS and satisfaction scores quarterly to identify real trends in your client relationships.
+Track trends over time. Individual survey results are noisy. Track your NPS and satisfaction scores quarterly to identify real trends in your client relationships.
 
-**Make it easy to respond.** Use tools like Typeform or Google Forms with single-question-per-page layouts. Mobile-friendly forms increase completion rates significantly.
+Make it easy to respond. Use tools like Typeform or Google Forms with single-question-per-page layouts. Mobile-friendly forms increase completion rates significantly.
 
-## Implementation Checklist
+Implementation Checklist
 
 - [ ] Customize the survey template for your agency's specific services
 - [ ] Choose your automation approach (GitHub Actions, JavaScript, or no-code)
@@ -229,34 +229,34 @@ function analyzeSurveyResponses(responses) {
 
 With this system in place, you continuously gather client intelligence without adding manual busywork. The automation handles the timing and distribution, while you focus on analyzing feedback and improving your services.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Basecamp for Remote Agency Client](/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 - [Remote Agency Client Communication Cadence Template](/remote-agency-client-communication-cadence-template-for-proj/)
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 - [How to Create Client Project Retrospective Format for Remote](/how-to-create-client-project-retrospective-format-for-remote/)
 - [Best Onboarding Survey Template for Measuring Remote New](/best-onboarding-survey-template-for-measuring-remote-new-hir/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

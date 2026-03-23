@@ -19,7 +19,7 @@ A solo developer CI/CD pipeline does one thing: make sure you never manually dep
 
 This guide builds a full pipeline using GitHub Actions: test on every PR, build a Docker image on merge to `main`, push to a registry, and deploy to a VPS via SSH. The same pattern works for static sites, Node apps, Python services, or Go binaries.
 
-## What the Pipeline Does
+What the Pipeline Does
 
 ```
 push to PR branch
@@ -34,29 +34,29 @@ merge to main
 
 No manual steps. No "did I run tests?" anxiety.
 
-## Repository Structure
+Repository Structure
 
 ```bash
 myapp/
-├── .github/
-│   └── workflows/
-│       ├── ci.yml          # runs on every push + PR
-│       └── deploy.yml      # runs on merge to main
-├── Dockerfile
-├── docker-compose.prod.yml
-├── src/
-└── tests/
+ .github/
+    workflows/
+        ci.yml          # runs on every push + PR
+        deploy.yml      # runs on merge to main
+ Dockerfile
+ docker-compose.prod.yml
+ src/
+ tests/
 ```
 
-## CI Workflow: Test Every Push
+CI Workflow: Test Every Push
 
 ```yaml
-# .github/workflows/ci.yml
+.github/workflows/ci.yml
 name: CI
 
 on:
   push:
-    branches: ["**"]
+    branches: [""]
   pull_request:
     branches: [main]
 
@@ -89,12 +89,12 @@ jobs:
           retention-days: 7
 ```
 
-This workflow runs on every push and every PR. If tests fail on a PR, the merge button is blocked. Branch protection rules enforce this — enable them under Settings → Branches → main → Require status checks.
+This workflow runs on every push and every PR. If tests fail on a PR, the merge button is blocked. Branch protection rules enforce this. enable them under Settings → Branches → main → Require status checks.
 
-## Deploy Workflow: Ship on Merge to Main
+Deploy Workflow: Ship on Merge to Main
 
 ```yaml
-# .github/workflows/deploy.yml
+.github/workflows/deploy.yml
 name: Deploy
 
 on:
@@ -154,10 +154,10 @@ jobs:
             docker image prune -f
 ```
 
-## Dockerfile for the App
+Dockerfile for the App
 
 ```dockerfile
-# Dockerfile
+Dockerfile
 FROM node:20-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
@@ -174,10 +174,10 @@ CMD ["node", "src/index.js"]
 
 Multi-stage build keeps the image lean. The `builder` stage installs deps; the `runtime` stage copies only what runs in production.
 
-## Production Docker Compose on the VPS
+Production Docker Compose on the VPS
 
 ```yaml
-# /opt/myapp/docker-compose.prod.yml
+/opt/myapp/docker-compose.prod.yml
 version: "3.9"
 
 services:
@@ -210,9 +210,9 @@ services:
       - app
 ```
 
-The app binds only to `127.0.0.1:3000` — nginx is the public-facing proxy. This prevents direct container access from the internet.
+The app binds only to `127.0.0.1:3000`. nginx is the public-facing proxy. This prevents direct container access from the internet.
 
-## GitHub Secrets to Configure
+GitHub Secrets to Configure
 
 Set these in Settings → Secrets and variables → Actions:
 
@@ -224,37 +224,37 @@ Set these in Settings → Secrets and variables → Actions:
 | `GHCR_USER` | Your GitHub username |
 | `GHCR_TOKEN` | A PAT with `read:packages` scope |
 
-`GITHUB_TOKEN` is automatic — no configuration needed.
+`GITHUB_TOKEN` is automatic. no configuration needed.
 
-## Setting Up the Deploy User on the VPS
+Setting Up the Deploy User on the VPS
 
 ```bash
-# On your VPS — create a deploy user with minimal permissions
+On your VPS. create a deploy user with minimal permissions
 sudo adduser --disabled-password --gecos "" deploy
 sudo usermod -aG docker deploy
 
-# Add the GitHub Actions public key
+Add the GitHub Actions public key
 sudo mkdir -p /home/deploy/.ssh
 sudo chmod 700 /home/deploy/.ssh
 
-# Paste the public key (matching VPS_SSH_KEY secret)
+Paste the public key (matching VPS_SSH_KEY secret)
 sudo nano /home/deploy/.ssh/authorized_keys
 sudo chmod 600 /home/deploy/.ssh/authorized_keys
 sudo chown -R deploy:deploy /home/deploy/.ssh
 
-# Give deploy user access to the app directory
+Give deploy user access to the app directory
 sudo mkdir -p /opt/myapp
 sudo chown deploy:deploy /opt/myapp
 ```
 
 The deploy user has Docker access but no sudo. It can only pull images and restart containers.
 
-## Adding a Database Migration Step
+Adding a Database Migration Step
 
 If your app uses database migrations, run them before the container swap:
 
 ```yaml
-# Add this step before "Deploy to VPS" in deploy.yml
+Add this step before "Deploy to VPS" in deploy.yml
 - name: Run migrations
   uses: appleboy/ssh-action@v1
   with:
@@ -271,9 +271,9 @@ If your app uses database migrations, run them before the container swap:
 
 Migrations run in an one-off container using the same image before the service restarts.
 
-## Caching Dependencies to Speed Up Builds
+Caching Dependencies to Speed Up Builds
 
-Docker layer caching via `cache-from: type=gha` reuses layers between runs. For npm specifically, the `actions/setup-node` cache key hashes `package-lock.json` — unchanged lock file means instant dep install.
+Docker layer caching via `cache-from: type=gha` reuses layers between runs. For npm specifically, the `actions/setup-node` cache key hashes `package-lock.json`. unchanged lock file means instant dep install.
 
 For Python projects, replace the Node setup step:
 
@@ -285,10 +285,10 @@ For Python projects, replace the Node setup step:
     cache-dependency-path: requirements.txt
 ```
 
-## Notifications on Failure
+Notifications on Failure
 
 ```yaml
-# Add to the end of deploy.yml
+Add to the end of deploy.yml
 - name: Notify on failure
   if: failure()
   uses: slackapi/slack-github-action@v1
@@ -303,7 +303,7 @@ For Python projects, replace the Node setup step:
 
 This sends a Slack DM or channel message only when a deploy fails. No noise on success.
 
-## Branch Protection Rules
+Branch Protection Rules
 
 Enable in Settings → Branches → Add rule for `main`:
 
@@ -313,34 +313,34 @@ Enable in Settings → Branches → Add rule for `main`:
 
 With these rules, `main` is always green. A broken test cannot reach production.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does GitHub offer a free tier?**
+Does GitHub offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check GitHub's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get started quickly?**
+How do I get started quickly?
 
 Pick one tool from the options discussed and sign up for a free trial. Spend 30 minutes on a real task from your daily work rather than running through tutorials. Real usage reveals fit faster than feature comparisons.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [GitHub Actions Workflow for Remote Dev Teams](/github-actions-remote-dev-workflow/)
 - [Example: GitHub Actions workflow for assessment tracking](/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 - [Code Review Tools for Solo Freelance Developers](/code-review-tools-for-solo-freelance-developers/)
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
 - [Best Project Management Tool for Solo Freelance Developers](/best-project-management-tool-for-solo-freelance-developers-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

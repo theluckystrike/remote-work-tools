@@ -15,61 +15,61 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-Vector is a high-performance observability pipeline written in Rust. It collects logs, metrics, and traces, transforms them, and routes them to any destination. Compared to Fluentd and Logstash, it uses significantly less memory and CPU — important when running on the same hosts as your application. A single Vector process replaces multiple agents.
+Vector is a high-performance observability pipeline written in Rust. It collects logs, metrics, and traces, transforms them, and routes them to any destination. Compared to Fluentd and Logstash, it uses significantly less memory and CPU. important when running on the same hosts as your application. A single Vector process replaces multiple agents.
 
 ---
 
-## Install Vector
+Install Vector
 
 ```bash
-# macOS
+macOS
 brew install vector
 
-# Debian/Ubuntu
+Debian/Ubuntu
 curl -1sLf 'https://repositories.timber.io/public/vector/cfg/setup/bash.deb.sh' \
   | sudo bash
 sudo apt install vector
 
-# RPM (RHEL/Rocky/Alma)
+RPM (RHEL/Rocky/Alma)
 curl -1sLf 'https://repositories.timber.io/public/vector/cfg/setup/bash.rpm.sh' \
   | sudo bash
 sudo dnf install vector
 
-# Docker
+Docker
 docker pull timberio/vector:latest-distroless-libc
 ```
 
 ---
 
-## Architecture: Agent vs Aggregator
+Architecture: Agent vs Aggregator
 
 Vector runs in two modes:
 
-**Agent** (on each host): Collects local logs and forwards to the aggregator or directly to storage.
+Agent (on each host): Collects local logs and forwards to the aggregator or directly to storage.
 
-**Aggregator** (central node): Receives from all agents, applies heavy transforms, routes to destinations.
+Aggregator (central node): Receives from all agents, applies heavy transforms, routes to destinations.
 
 For small teams (< 20 services), run Vector directly on each host sending to a destination. For larger setups, use the agent/aggregator pattern.
 
 ---
 
-## Basic Configuration
+Basic Configuration
 
 Vector's config is TOML or YAML. A complete pipeline that collects Docker logs and sends to Elasticsearch:
 
 ```toml
-# /etc/vector/vector.toml
+/etc/vector/vector.toml
 
-# ========================
-# SOURCES
-# ========================
+========================
+SOURCES
+========================
 
 [sources.docker_logs]
 type = "docker_logs"
-# Collect all container logs
+Collect all container logs
 include_containers = ["*"]
-# Or filter:
-# include_containers = ["nginx", "api", "worker"]
+Or filter:
+include_containers = ["nginx", "api", "worker"]
 exclude_containers = ["vector"]  # Don't collect Vector's own logs
 include_labels = {}
 
@@ -82,11 +82,11 @@ type = "http_server"
 address = "0.0.0.0:8686"
 encoding = "json"
 
-# ========================
-# TRANSFORMS
-# ========================
+========================
+TRANSFORMS
+========================
 
-# Parse JSON logs from application containers
+Parse JSON logs from application containers
 [transforms.parse_app_logs]
 type = "remap"
 inputs = ["docker_logs"]
@@ -111,7 +111,7 @@ source = '''
   }
 '''
 
-# Filter out health check noise
+Filter out health check noise
 [transforms.filter_noise]
 type = "filter"
 inputs = ["parse_app_logs"]
@@ -119,7 +119,7 @@ condition = '''
   !match(string(.path) ?? "", r'/health|/ping|/metrics')
 '''
 
-# Route logs by severity
+Route logs by severity
 [transforms.route_by_level]
 type = "route"
 inputs = ["filter_noise"]
@@ -129,7 +129,7 @@ errors = '.level == "error" || .level == "critical" || .level == "fatal"'
 warnings = '.level == "warn" || .level == "warning"'
 info = '.level == "info" || .level == "debug"'
 
-# Enrich error logs with additional context
+Enrich error logs with additional context
 [transforms.enrich_errors]
 type = "remap"
 inputs = ["route_by_level.errors"]
@@ -138,11 +138,11 @@ source = '''
   .requires_attention = true
 '''
 
-# ========================
-# SINKS (Destinations)
-# ========================
+========================
+SINKS (Destinations)
+========================
 
-# All logs to Elasticsearch
+All logs to Elasticsearch
 [sinks.elasticsearch]
 type = "elasticsearch"
 inputs = ["filter_noise", "journald"]
@@ -159,7 +159,7 @@ type = "disk"
 max_size = 268435456  # 256MB
 when_full = "block"
 
-# Error logs to S3 for long-term retention
+Error logs to S3 for long-term retention
 [sinks.s3_errors]
 type = "aws_s3"
 inputs = ["route_by_level.errors"]
@@ -173,7 +173,7 @@ encoding.codec = "json"
 access_key_id = "${AWS_ACCESS_KEY_ID}"
 secret_access_key = "${AWS_SECRET_ACCESS_KEY}"
 
-# Alert on critical errors via HTTP to Slack/PagerDuty webhook
+Alert on critical errors via HTTP to Slack/PagerDuty webhook
 [sinks.alert_errors]
 type = "http"
 inputs = ["enrich_errors"]
@@ -183,7 +183,7 @@ encoding.codec = "json"
 request.rate_limit_num = 10   # Max 10 alerts per second (de-duplicate)
 request.rate_limit_duration_secs = 1
 
-# Internal metrics (Vector's own performance)
+Internal metrics (Vector's own performance)
 [sources.vector_metrics]
 type = "internal_metrics"
 
@@ -195,10 +195,10 @@ address = "0.0.0.0:9598"
 
 ---
 
-## Docker Compose Deployment
+Docker Compose Deployment
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 services:
   vector:
@@ -230,20 +230,20 @@ volumes:
 
 ---
 
-## Aggregator Config (Centralized)
+Aggregator Config (Centralized)
 
 The aggregator receives from all agent nodes:
 
 ```toml
-# /etc/vector/aggregator.toml (on your central log server)
+/etc/vector/aggregator.toml (on your central log server)
 
 [sources.from_agents]
 type = "vector"
 address = "0.0.0.0:6000"
-# Enable TLS for production:
-# tls.enabled = true
-# tls.cert_file = "/etc/vector/certs/server.crt"
-# tls.key_file = "/etc/vector/certs/server.key"
+Enable TLS for production:
+tls.enabled = true
+tls.cert_file = "/etc/vector/certs/server.crt"
+tls.key_file = "/etc/vector/certs/server.key"
 
 [transforms.deduplicate]
 type = "dedupe"
@@ -276,12 +276,12 @@ compression = true
 
 ---
 
-## VRL (Vector Remap Language) Examples
+VRL (Vector Remap Language) Examples
 
 VRL is Vector's transformation DSL. Common patterns:
 
 ```toml
-# Extract fields from a structured log line
+Extract fields from a structured log line
 [transforms.parse_nginx_access]
 type = "remap"
 inputs = ["nginx_logs"]
@@ -291,7 +291,7 @@ source = '''
   .response_time_ms = to_float!(.request_time) * 1000
 '''
 
-# Mask PII before sending to log store
+Mask PII before sending to log store
 [transforms.mask_pii]
 type = "remap"
 inputs = ["app_logs"]
@@ -307,7 +307,7 @@ source = '''
   }
 '''
 
-# Add request latency percentile tagging
+Add request latency percentile tagging
 [transforms.tag_latency]
 type = "remap"
 inputs = ["api_logs"]
@@ -327,27 +327,27 @@ source = '''
 
 ---
 
-## Monitoring Vector Itself
+Monitoring Vector Itself
 
 ```bash
-# Check Vector status
+Check Vector status
 systemctl status vector
 
-# Watch the API (enable api.enabled = true in config)
+Watch the API (enable api.enabled = true in config)
 curl http://localhost:8686/health
 curl http://localhost:8686/components
 
-# Scrape Prometheus metrics
+Scrape Prometheus metrics
 curl http://localhost:9598/metrics \
   | grep -E "vector_(events|errors|processed)"
 
-# Real-time component stats
+Real-time component stats
 vector top  # requires vector CLI
 ```
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Fluentd for Log Collection](/how-to-set-up-fluentd-for-log-collection/)
 - [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
@@ -356,13 +356,13 @@ vector top  # requires vector CLI
 
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Fluentd for Log Collection](/how-to-set-up-fluentd-for-log-collection/)
 - [How to Write Async Daily Logs That Help Future Team Members](/how-to-write-async-daily-logs-that-help-future-team-members/)
 - [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
 - [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
 - [Optimize Docker for Slow Connections When Working Remotely](/docker-optimize-slow-connection-remote-work/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

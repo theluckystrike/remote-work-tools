@@ -14,17 +14,17 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-## How to Create Automated Dependency Audit
+How to Create Automated Dependency Audit
 
 Outdated dependencies are the leading source of known vulnerabilities in application code. Most teams update dependencies reactively (when something breaks) rather than proactively. Automated auditing changes this: you get a PR for every outdated or vulnerable package, with CVE details, before it becomes your problem.
 
 ---
 
-## Approach 1: Dependabot (GitHub Native)
+Approach 1: Dependabot (GitHub Native)
 
 Dependabot is built into GitHub and requires zero infrastructure. Enable it with a config file and it opens PRs for outdated packages automatically.
 
-**`.github/dependabot.yml`**
+`.github/dependabot.yml`
 
 ```yaml
 version: 2
@@ -88,10 +88,10 @@ updates:
       - "ci/cd"
 ```
 
-**Auto-merge patch updates** (safe for most projects):
+Auto-merge patch updates (safe for most projects):
 
 ```yaml
-# .github/workflows/dependabot-auto-merge.yml
+.github/workflows/dependabot-auto-merge.yml
 name: Auto-merge Dependabot patch PRs
 on:
   pull_request:
@@ -123,11 +123,11 @@ jobs:
 
 ---
 
-## Approach 2: Renovate (More Powerful)
+Approach 2: Renovate (More Powerful)
 
 Renovate opens PRs for every ecosystem (Docker, Helm, Terraform, Ansible, etc.) with more grouping and scheduling options than Dependabot.
 
-**`renovate.json` at repo root:**
+`renovate.json` at repo root:
 
 ```json
 {
@@ -183,10 +183,10 @@ Renovate opens PRs for every ecosystem (Docker, Helm, Terraform, Ansible, etc.) 
 }
 ```
 
-**Self-hosted Renovate on GitHub Actions:**
+Self-hosted Renovate on GitHub Actions:
 
 ```yaml
-# .github/workflows/renovate.yml
+.github/workflows/renovate.yml
 name: Renovate
 on:
   schedule:
@@ -208,13 +208,13 @@ jobs:
 
 ---
 
-## Approach 3: Custom Audit Script (Any CI)
+Approach 3: Custom Audit Script (Any CI)
 
 For organizations without GitHub, a custom script audits dependencies and posts results to Slack:
 
 ```bash
 #!/bin/bash
-# audit-deps.sh — multi-ecosystem dependency audit
+audit-deps.sh. multi-ecosystem dependency audit
 set -euo pipefail
 
 SLACK_HOOK="${SLACK_WEBHOOK_URL:-}"
@@ -222,7 +222,7 @@ CRITICAL_ONLY="${1:-false}"
 REPORT=""
 EXIT_CODE=0
 
-# npm audit
+npm audit
 if [[ -f package-lock.json ]]; then
   echo "Auditing npm..."
   NPM_RESULT=$(npm audit --json 2>/dev/null || true)
@@ -234,7 +234,7 @@ if [[ -f package-lock.json ]]; then
   fi
 fi
 
-# pip safety check
+pip safety check
 if [[ -f requirements.txt ]]; then
   echo "Auditing Python..."
   if command -v safety &>/dev/null; then
@@ -247,7 +247,7 @@ if [[ -f requirements.txt ]]; then
   fi
 fi
 
-# Go vulnerability check
+Go vulnerability check
 if [[ -f go.mod ]]; then
   echo "Auditing Go..."
   if command -v govulncheck &>/dev/null; then
@@ -260,7 +260,7 @@ if [[ -f go.mod ]]; then
   fi
 fi
 
-# Ruby bundler audit
+Ruby bundler audit
 if [[ -f Gemfile.lock ]]; then
   echo "Auditing Ruby..."
   if command -v bundle-audit &>/dev/null; then
@@ -286,12 +286,12 @@ exit $EXIT_CODE
 
 ---
 
-## Approach 4: Dependency Review on PRs
+Approach 4: Dependency Review on PRs
 
 For catching new vulnerable dependencies before they merge, use GitHub's Dependency Review Action:
 
 ```yaml
-# .github/workflows/dependency-review.yml
+.github/workflows/dependency-review.yml
 name: Dependency Review
 on:
   pull_request:
@@ -322,8 +322,8 @@ For repositories not on GitHub, replicate this with a pre-merge hook:
 
 ```bash
 #!/bin/bash
-# hooks/pre-merge-audit.sh
-# Run before merging a feature branch
+hooks/pre-merge-audit.sh
+Run before merging a feature branch
 
 set -e
 
@@ -359,13 +359,13 @@ Install as a git hook: `cp hooks/pre-merge-audit.sh .git/hooks/pre-merge`
 
 ---
 
-## Weekly Outdated Report (Not Just CVEs)
+Weekly Outdated Report (Not Just CVEs)
 
 CVEs matter most, but staying ahead of major version updates avoids compounding upgrade pain:
 
 ```bash
 #!/bin/bash
-# outdated-report.sh — weekly summary of outdated packages
+outdated-report.sh. weekly summary of outdated packages
 
 if [[ -f package.json ]]; then
   echo "=== npm outdated ==="
@@ -385,7 +385,7 @@ fi
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Create Automated Security Scan Pipelines](/automated-security-scan-pipelines/)
 - [How to Automate Pull Request Labeling](/automate-pull-request-labeling/)
@@ -393,5 +393,5 @@ fi
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

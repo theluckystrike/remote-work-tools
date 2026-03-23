@@ -17,7 +17,7 @@ tags: [remote-work-tools, remote-work]
 
 Running a shared Kubernetes dev cluster lets remote teams test against a real cluster without local resource constraints. This guide uses k3s for lightweight deployment, Helm for app management, and kubeconfig sharing patterns for distributed teams.
 
-## Table of Contents
+Table of Contents
 
 - [Why k3s Over Full Kubernetes](#why-k3s-over-full-kubernetes)
 - [Server Requirements](#server-requirements)
@@ -26,18 +26,18 @@ Running a shared Kubernetes dev cluster lets remote teams test against a real cl
 - [Troubleshooting](#troubleshooting)
 - [Related Reading](#related-reading)
 
-## Why k3s Over Full Kubernetes
+Why k3s Over Full Kubernetes
 
 k3s uses under 512MB RAM at idle, installs in 30 seconds, and handles everything a remote dev team needs. It runs containerd, CoreDNS, Traefik ingress, and local storage provisioner out of the box.
 
 Full Kubernetes (kubeadm-based) requires significantly more overhead: a dedicated etcd cluster, manual CNI installation, and node configuration scripts that take 20-30 minutes to stabilize. For a shared dev environment, that complexity adds friction without meaningful benefit. k3s also packages SQLite as an embedded datastore for single-node setups, making backup and restore trivial.
 
-## Server Requirements
+Server Requirements
 
 - Ubuntu 22.04 LTS (2 vCPU, 4GB RAM minimum per node)
 - Open ports: 6443 (API), 80, 443 (ingress), 8472/udp (Flannel VXLAN)
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -47,10 +47,10 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Install k3s Server Node
+Step 1: Install k3s Server Node
 
 ```bash
-# Install k3s with Traefik ingress and no local storage (use Longhorn instead)
+Install k3s with Traefik ingress and no local storage (use Longhorn instead)
 curl -sfL https://get.k3s.io | sh -s - server \
   --tls-san your-cluster.example.com \
   --tls-san $(curl -s ifconfig.me) \
@@ -58,61 +58,61 @@ curl -sfL https://get.k3s.io | sh -s - server \
   --write-kubeconfig-mode 644 \
   --cluster-init
 
-# Verify installation
+Verify installation
 sudo k3s kubectl get nodes
-# NAME         STATUS   ROLES                  AGE   VERSION
-# dev-master   Ready    control-plane,master   60s   v1.28.x+k3s1
+NAME         STATUS   ROLES                  AGE   VERSION
+dev-master   Ready    control-plane,master   60s   v1.28.x+k3s1
 
-# Get node token for workers
+Get node token for workers
 sudo cat /var/lib/rancher/k3s/server/node-token
 ```
 
-### Step 2: Add Worker Nodes
+Step 2: Add Worker Nodes
 
 ```bash
-# On each worker node:
+On each worker node:
 K3S_TOKEN="your-node-token-here"
 K3S_URL="https://your-cluster.example.com:6443"
 
 curl -sfL https://get.k3s.io | K3S_TOKEN=$K3S_TOKEN K3S_URL=$K3S_URL sh -s - agent
 
-# Verify from master:
+Verify from master:
 sudo k3s kubectl get nodes
-# NAME         STATUS   ROLES                  AGE
-# dev-master   Ready    control-plane,master   5m
-# dev-worker1  Ready    <none>                 2m
-# dev-worker2  Ready    <none>                 1m
+NAME         STATUS   ROLES                  AGE
+dev-master   Ready    control-plane,master   5m
+dev-worker1  Ready    <none>                 2m
+dev-worker2  Ready    <none>                 1m
 ```
 
-### Step 3: Kubeconfig for Team Access
+Step 3: Kubeconfig for Team Access
 
 ```bash
-# Export kubeconfig from server
+Export kubeconfig from server
 sudo cat /etc/rancher/k3s/k3s.yaml
 
-# Replace localhost with the public IP/hostname
+Replace localhost with the public IP/hostname
 sudo sed 's/127.0.0.1/your-cluster.example.com/g' /etc/rancher/k3s/k3s.yaml > ~/team-kubeconfig.yaml
 
-# On team member machines:
+On team member machines:
 mkdir -p ~/.kube
 scp deploy@your-cluster.example.com:~/team-kubeconfig.yaml ~/.kube/dev-cluster.yaml
 
-# Use specific config
+Use specific config
 export KUBECONFIG=~/.kube/dev-cluster.yaml
 kubectl get nodes
 
-# Merge with existing config
+Merge with existing config
 KUBECONFIG=~/.kube/config:~/.kube/dev-cluster.yaml kubectl config view --merge --flatten > ~/.kube/merged.yaml
 mv ~/.kube/merged.yaml ~/.kube/config
 kubectl config use-context default
 ```
 
-### Step 4: Namespace-Based Team Isolation
+Step 4: Namespace-Based Team Isolation
 
 Give each developer or team their own namespace with RBAC:
 
 ```yaml
-# namespaces.yaml
+namespaces.yaml
 apiVersion: v1
 kind: Namespace
 metadata:
@@ -136,7 +136,7 @@ metadata:
 ```
 
 ```yaml
-# rbac-developer.yaml
+rbac-developer.yaml
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
@@ -169,27 +169,27 @@ roleRef:
 kubectl apply -f namespaces.yaml
 kubectl apply -f rbac-developer.yaml
 
-# Set default namespace for a developer
+Set default namespace for a developer
 kubectl config set-context --current --namespace=dev-alice
 ```
 
-### Step 5: Install Helm
+Step 5: Install Helm
 
 ```bash
-# Install Helm
+Install Helm
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
-# Add common repos
+Add common repos
 helm repo add stable https://charts.helm.sh/stable
 helm repo add bitnami https://charts.bitnami.com/bitnami
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm repo update
 
-# List available charts
+List available charts
 helm search repo bitnami/postgres
 ```
 
-### Step 6: Deploy PostgreSQL with Helm
+Step 6: Deploy PostgreSQL with Helm
 
 ```bash
 helm install postgres bitnami/postgresql \
@@ -199,7 +199,7 @@ helm install postgres bitnami/postgresql \
   --set primary.resources.requests.memory=256Mi \
   --set primary.resources.requests.cpu=100m
 
-# Connect to database
+Connect to database
 kubectl run psql-client --rm --tty -i --restart='Never' \
   --namespace dev-alice \
   --image docker.io/bitnami/postgresql:15 \
@@ -207,12 +207,12 @@ kubectl run psql-client --rm --tty -i --restart='Never' \
   --command -- psql --host postgres-postgresql --username postgres --port 5432
 ```
 
-### Step 7: Skaffold for Fast Iteration
+Step 7: Skaffold for Fast Iteration
 
 Skaffold handles build-push-deploy in a single command:
 
 ```yaml
-# skaffold.yaml
+skaffold.yaml
 apiVersion: skaffold/v4beta7
 kind: Config
 metadata:
@@ -227,7 +227,7 @@ build:
         dockerfile: Dockerfile
       sync:
         manual:
-          - src: "src/**/*.py"
+          - src: "src//*.py"
             dest: /app
 
 deploy:
@@ -250,20 +250,20 @@ portForward:
 ```
 
 ```bash
-# Develop with live reload
+Develop with live reload
 skaffold dev --namespace=dev-alice
 
-# Deploy once
+Deploy once
 skaffold run --namespace=dev-alice
 
-# Clean up
+Clean up
 skaffold delete --namespace=dev-alice
 ```
 
-### Step 8: Traefik Ingress Configuration
+Step 8: Traefik Ingress Configuration
 
 ```yaml
-# ingress.yaml
+ingress.yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -290,12 +290,12 @@ spec:
         - alice.dev.example.com
 ```
 
-### Step 9: Resource Quotas
+Step 9: Resource Quotas
 
 Prevent any one namespace from consuming all cluster resources:
 
 ```yaml
-# resource-quota.yaml
+resource-quota.yaml
 apiVersion: v1
 kind: ResourceQuota
 metadata:
@@ -317,12 +317,12 @@ kubectl apply -f resource-quota.yaml
 kubectl describe resourcequota dev-quota -n dev-alice
 ```
 
-### Step 10: Persistent Storage with Longhorn
+Step 10: Persistent Storage with Longhorn
 
 For dev clusters that need reliable persistent volumes across node restarts, Longhorn provides replicated block storage without the complexity of Ceph:
 
 ```bash
-# Install Longhorn via Helm
+Install Longhorn via Helm
 helm repo add longhorn https://charts.longhorn.io
 helm repo update
 
@@ -331,23 +331,23 @@ helm install longhorn longhorn/longhorn \
   --create-namespace \
   --set defaultSettings.defaultReplicaCount=2
 
-# Verify Longhorn pods are running
+Verify Longhorn pods are running
 kubectl -n longhorn-system get pods
 
-# Set Longhorn as the default storage class
+Set Longhorn as the default storage class
 kubectl patch storageclass longhorn \
   -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
 ```
 
 Once Longhorn is running, PersistentVolumeClaims automatically get distributed storage. Your Helm deployments that specify `storageClassName: longhorn` (or no class, since it's default) will get volumes that survive node failures and can be snapshotted for backup.
 
-### Step 11: Cluster Autoscaling for Cost Control
+Step 11: Cluster Autoscaling for Cost Control
 
 Dev clusters on cloud VMs can burn budget fast. Use a simple cron-based scale-down during off-hours rather than full cluster autoscaler complexity:
 
 ```bash
-# Scale down all deployments in dev namespaces at 10 PM
-# Store replica counts as annotations before scaling
+Scale down all deployments in dev namespaces at 10 PM
+Store replica counts as annotations before scaling
 kubectl get deployments -n dev-alice -o json | jq -r \
   '.items[] | "\(.metadata.name) \(.spec.replicas)"' | \
   while read name replicas; do
@@ -356,7 +356,7 @@ kubectl get deployments -n dev-alice -o json | jq -r \
     kubectl scale deployment/$name -n dev-alice --replicas=0
   done
 
-# Restore in the morning
+Restore in the morning
 kubectl get deployments -n dev-alice -o json | jq -r \
   '.items[] | "\(.metadata.name) \(.metadata.annotations["saved-replicas"] // "1")"' | \
   while read name replicas; do
@@ -366,24 +366,24 @@ kubectl get deployments -n dev-alice -o json | jq -r \
 
 Wrap these scripts in a Kubernetes CronJob using the `bitnami/kubectl` image and mount the right ServiceAccount, and you get automatic cost savings with zero manual intervention.
 
-## Debugging Common Issues
+Debugging Common Issues
 
-### Pods stuck in Pending
+Pods stuck in Pending
 
 The most frequent cause in a resource-constrained dev cluster is insufficient CPU or memory:
 
 ```bash
 kubectl describe pod <pod-name> -n dev-alice
-# Look for: "0/2 nodes are available: 2 Insufficient memory"
+Look for: "0/2 nodes are available: 2 Insufficient memory"
 
-# Check node resources
+Check node resources
 kubectl top nodes
 kubectl describe node dev-worker1 | grep -A5 "Allocated resources"
 ```
 
 Either reduce resource requests in the Helm values or apply a node with more capacity.
 
-### ImagePullBackOff
+ImagePullBackOff
 
 Private registries need a pull secret in each namespace:
 
@@ -394,19 +394,19 @@ kubectl create secret docker-registry regcred \
   --docker-password=your-token \
   --namespace dev-alice
 
-# Reference in deployment
-# spec.template.spec.imagePullSecrets:
-#   - name: regcred
+Reference in deployment
+spec.template.spec.imagePullSecrets:
+  - name: regcred
 ```
 
-### Step 12: Shared Container Registry Access
+Step 12: Shared Container Registry Access
 
 Remote team members need a registry that all developers and the cluster can pull from. Self-hosted Harbor is the most capable option, but for smaller teams a cloud registry with a shared robot account works fine.
 
 For team setups, create per-namespace pull secrets from a single registry robot account, then patch the default ServiceAccount to always use it:
 
 ```bash
-# Create pull secret in every dev namespace
+Create pull secret in every dev namespace
 for ns in dev-alice dev-bob staging; do
   kubectl create secret docker-registry regcred \
     --docker-server=registry.example.com \
@@ -423,21 +423,21 @@ done
 
 With this in place, every pod in those namespaces automatically pulls from the private registry without requiring `imagePullSecrets` in each manifest.
 
-### Step 13: Set Up Metrics Server for HPA
+Step 13: Set Up Metrics Server for HPA
 
 Horizontal Pod Autoscaler requires the metrics-server to be running. k3s ships without it by default:
 
 ```bash
-# Install metrics-server
+Install metrics-server
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 
-# k3s may need the --kubelet-insecure-tls flag due to self-signed certs
+k3s may need the --kubelet-insecure-tls flag due to self-signed certs
 kubectl patch deployment metrics-server \
   -n kube-system \
   --type='json' \
   -p='[{"op":"add","path":"/spec/template/spec/containers/0/args/-","value":"--kubelet-insecure-tls"}]'
 
-# Verify it works
+Verify it works
 kubectl top nodes
 kubectl top pods -n dev-alice
 ```
@@ -445,7 +445,7 @@ kubectl top pods -n dev-alice
 Once metrics-server is running, you can configure HPAs on any deployment:
 
 ```yaml
-# hpa.yaml
+hpa.yaml
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
@@ -467,27 +467,27 @@ spec:
           averageUtilization: 70
 ```
 
-### Step 14: Monitor with k9s
+Step 14: Monitor with k9s
 
 ```bash
-# Install k9s for terminal cluster management
+Install k9s for terminal cluster management
 brew install k9s  # macOS
-# or
+or
 curl -sS https://webinstall.dev/k9s | bash  # Linux
 
 k9s --namespace dev-alice
-# Navigate: :pods, :services, :logs, :exec
+Navigate: :pods, :services, :logs, :exec
 ```
 
-### Step 15: Upgrading k3s
+Step 15: Upgrading k3s
 
 k3s upgrades are non-disruptive when done node-by-node. The upgrade controller handles this automatically:
 
 ```bash
-# Install the k3s upgrade controller
+Install the k3s upgrade controller
 kubectl apply -f https://github.com/rancher/system-upgrade-controller/releases/latest/download/system-upgrade-controller.yaml
 
-# Define an upgrade plan
+Define an upgrade plan
 cat <<EOF | kubectl apply -f -
 apiVersion: upgrade.cattle.io/v1
 kind: Plan
@@ -509,22 +509,22 @@ EOF
 
 The controller drains nodes, applies the upgrade, and uncordons them. Worker nodes get upgraded after the control plane is done, ensuring zero downtime for running workloads.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Related Reading
+Related Reading
 
 - [How to Secure Remote Team Kubernetes Clusters](/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
 - [Best Container Registry Tool for Remote Teams](/best-container-registry-tool-for-remote-teams-sharing-docker/)
@@ -533,13 +533,13 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
 - [How to Secure Remote Team Kubernetes Clusters with Network P](/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 - [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
 - [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

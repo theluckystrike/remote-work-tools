@@ -18,7 +18,7 @@ voice-checked: true
 
 Use GitHub Free for unlimited repositories, GitHub Projects for task management, GitHub Actions for CI/CD, and Vercel or Heroku free tiers for deployment to run side projects with zero cost. This guide shows you how to combine these free tools into a complete workflow for developing, deploying, and maintaining side projects while working full-time.
 
-## Table of Contents
+Table of Contents
 
 - [Version Control and Code Hosting](#version-control-and-code-hosting)
 - [Task Management That Actually Works](#task-management-that-actually-works)
@@ -32,14 +32,14 @@ Use GitHub Free for unlimited repositories, GitHub Projects for task management,
 - [Free-to-Paid Scaling Strategy](#free-to-paid-scaling-strategy)
 - [Automation Beyond CI/CD](#automation-beyond-cicd)
 
-## Version Control and Code Hosting
+Version Control and Code Hosting
 
 GitHub remains the gold standard for hosting side project code, offering unlimited public repositories with generous free tiers. For private repositories, GitHub Free provides 500MB of storage and standard CI/CD capabilities through GitHub Actions.
 
 Initialize a new project with proper Git setup:
 
 ```bash
-# Create a new repository and push your first commit
+Create a new repository and push your first commit
 mkdir my-side-project && cd my-side-project
 git init
 git config user.name "Your Name"
@@ -54,7 +54,7 @@ git push -u origin main
 
 For additional privacy or larger projects, GitLab offers free unlimited private repositories with built-in CI/CD, while Bitbucket provides free private repos with Atlassian integration. The key advantage of GitHub remains its ecosystem of actions and third-party integrations that automate repetitive tasks.
 
-## Task Management That Actually Works
+Task Management That Actually Works
 
 Trello provides an excellent free tier for visual task management with its kanban-style boards. Create columns for Backlog, In Progress, and Done to track side project work. Labels help categorize tasks by feature, bug fix, or research.
 
@@ -81,21 +81,21 @@ async function getThisWeekTasks() {
 
 For developers who prefer command-line interfaces, Taskwarrior provides a powerful, keyboard-driven approach to task management. Store tasks in a plain text file synced via Git for simple version control.
 
-## Deployment and Hosting Platforms
+Deployment and Hosting Platforms
 
 Vercel and Netlify both offer exceptional free tiers perfect for side projects. Vercel provides instant deployments with global CDN, custom domains with HTTPS, and serverless functions. Connect your GitHub repository and every push automatically deploys:
 
 ```bash
-# Install Vercel CLI globally
+Install Vercel CLI globally
 npm i -g vercel
 
-# Deploy from project directory
+Deploy from project directory
 vercel --prod
 
-# Or use GitHub integration (no CLI needed):
-# 1. Visit vercel.com
-# 2. Import your GitHub repository
-# 3. Automatic deployments on every push
+Or use GitHub integration (no CLI needed):
+1. Visit vercel.com
+2. Import your GitHub repository
+3. Automatic deployments on every push
 ```
 
 Netlify excels at static site hosting and form handling. Add a contact form to your side project without backend code:
@@ -111,23 +111,23 @@ Netlify excels at static site hosting and form handling. Add a contact form to y
 
 For backend services, Railway and Render provide free tiers with modest resource limits. Railway's free tier includes 500 hours of runtime, while Render offers free static hosting with automatic SSL.
 
-## Communication and Documentation
+Communication and Documentation
 
 Even solo developers benefit from asynchronous communication tools. Discord servers can organize different projects into channels, with bots automating notifications from GitHub, Vercel, or other services.
 
 For technical documentation, GitBook offers a free tier perfect for API docs and project guides. The markdown-based workflow integrates naturally with version control:
 
 ```markdown
-# API Endpoint Documentation
+API Endpoint Documentation
 
-## GET /api/users/:id
+GET /api/users/:id
 
 Retrieves user information by ID.
 
-**Parameters:**
+Parameters:
 - `id` (required): User's unique identifier
 
-**Response:**
+Response:
 ```json
 {
  "id": "123",
@@ -137,9 +137,9 @@ Retrieves user information by ID.
 ```
 ```
 
-## Monitoring and Error Tracking
+Monitoring and Error Tracking
 
-Sentry's free tier provides error tracking with 7,500 errors per month—more than sufficient for side projects. Install the SDK in your application:
+Sentry's free tier provides error tracking with 7,500 errors per month, more than sufficient for side projects. Install the SDK in your application:
 
 ```javascript
 // JavaScript/Node.js Sentry SDK setup
@@ -162,7 +162,7 @@ try {
 
 For uptime monitoring, UptimeRobot offers 50 free monitors with 5-minute check intervals. Configure alerts to notify you via email, SMS, or webhook when your side project becomes unavailable.
 
-## Putting It All Together
+Putting It All Together
 
 The most effective workflow combines these tools into an automated pipeline. Connect GitHub to Vercel for deployment, add Sentry for error tracking, and configure UptimeRobot for monitoring. This creates a hands-off system where your side project manages itself while you focus on building features.
 
@@ -171,7 +171,7 @@ Set up a weekly review habit to address issues flagged by your monitoring tools 
 The best tools are ones you'll actually use. Start with GitHub and Vercel for the core workflow, then add monitoring and task management as your project grows. This incremental approach keeps overhead minimal while your side project matures from idea to production.
 ---
 
-## Complete Free Stack Comparison
+Complete Free Stack Comparison
 
 Here's how the major free tool combinations stack up for different project types:
 
@@ -185,25 +185,25 @@ Here's how the major free tool combinations stack up for different project types
 
 Choose the row matching your project type, then adopt the recommended tools in this order: Version Control → Hosting → Task Management → Monitoring.
 
-## Setting Up Your Complete Workflow
+Setting Up Your Complete Workflow
 
-### Step 1: Initialize Repository with CI/CD
+Step 1: Initialize Repository with CI/CD
 
 Start with a proper GitHub setup that builds confidence in your code quality:
 
 ```bash
-# Create new project with test structure
+Create new project with test structure
 mkdir my-side-project
 cd my-side-project
 git init
 npm init -y
 
-# Create basic test setup
+Create basic test setup
 npm install --save-dev jest
 mkdir src tests
 echo "# My Side Project" > README.md
 
-# Add GitHub Actions workflow
+Add GitHub Actions workflow
 mkdir -p .github/workflows
 ```
 
@@ -246,7 +246,7 @@ jobs:
 
 This automatically runs tests on every commit and deploys to production when you merge to main.
 
-### Step 2: Configure Error Tracking and Notifications
+Step 2: Configure Error Tracking and Notifications
 
 Set up Sentry with GitHub notifications:
 
@@ -273,24 +273,24 @@ app.use(Sentry.Handlers.errorHandler());
 Then configure Sentry to create GitHub issues automatically:
 
 ```bash
-# Configure alert in Sentry dashboard
-# Settings → Integration → GitHub → Create Issues
-# Choose: "Create issue on first error"
-# This auto-opens issues for regressions
+Configure alert in Sentry dashboard
+Settings → Integration → GitHub → Create Issues
+Choose: "Create issue on first error"
+This auto-opens issues for regressions
 ```
 
-### Step 3: Build a Maintenance Dashboard
+Step 3: Build a Maintenance Dashboard
 
 For solo projects, a simple monitoring script keeps you informed without checking dashboards:
 
 ```bash
 #!/bin/bash
-# save as check-project-health.sh
+save as check-project-health.sh
 
 echo "=== Project Health Check ==="
 echo ""
 
-# Check deploy status
+Check deploy status
 echo "Latest Vercel deployment:"
 curl -s -H "Authorization: Bearer $VERCEL_TOKEN" \
   https://api.vercel.com/v6/deployments?limit=1 | \
@@ -311,21 +311,21 @@ curl -s -X POST https://api.uptimerobot.com/v2/getMonitors \
 
 Run this weekly to catch problems before users do.
 
-## Free-to-Paid Scaling Strategy
+Free-to-Paid Scaling Strategy
 
 Your free tools won't last forever. Plan for when you'll need upgrades:
 
-**GitHub** → Upgrade at 1GB of artifact storage. Cost: $4/month for GitHub Pro if you want more features.
+GitHub → Upgrade at 1GB of artifact storage. Cost: $4/month for GitHub Pro if you want more features.
 
-**Vercel** → Free tier covers ~100k function invocations/month. For CPU-heavy workloads, upgrade to Pro ($20/month) around 500k invocations.
+Vercel → Free tier covers ~100k function invocations/month. For CPU-heavy workloads, upgrade to Pro ($20/month) around 500k invocations.
 
-**Sentry** → Stays free up to 7,500 errors/month. Upgrade when you regularly exceed this. Cost: starts $29/month.
+Sentry → Stays free up to 7,500 errors/month. Upgrade when you regularly exceed this. Cost: starts $29/month.
 
-**Deployment Platform** → Render/Railway free tiers include 750 compute hours/month (about 31 days of constant uptime). Stay free if your app runs part-time.
+Deployment Platform → Render/Railway free tiers include 750 compute hours/month (about 31 days of constant uptime). Stay free if your app runs part-time.
 
 Total realistic scaling cost: $0-80/month depending on demand. Start free, add paid features only when you're confident in the project's future.
 
-## Automation Beyond CI/CD
+Automation Beyond CI/CD
 
 Level up with scheduled jobs for maintenance tasks:
 
@@ -360,34 +360,34 @@ jobs:
 
 This keeps your repository clean and storage usage minimal without manual intervention.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Are free AI tools good enough for free tools for solo developer managing side projects?**
+Are free AI tools good enough for free tools for solo developer managing side projects?
 
 Free tiers work for basic tasks and evaluation, but paid plans typically offer higher rate limits, better models, and features needed for professional work. Start with free options to find what works for your workflow, then upgrade when you hit limitations.
 
-**How do I evaluate which tool fits my workflow?**
+How do I evaluate which tool fits my workflow?
 
 Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
-**Do these tools work offline?**
+Do these tools work offline?
 
 Most AI-powered tools require an internet connection since they run models on remote servers. A few offer local model options with reduced capability. If offline access matters to you, check each tool's documentation for local or self-hosted options.
 
-**Can I use these tools with a distributed team across time zones?**
+Can I use these tools with a distributed team across time zones?
 
 Most modern tools support asynchronous workflows that work well across time zones. Look for features like async messaging, recorded updates, and timezone-aware scheduling. The best choice depends on your team's specific communication patterns and size.
 
-**Should I switch tools if something better comes out?**
+Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific pain point you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
-## Related Articles
+Related Articles
 
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
 - [Trello vs GitHub Projects for a 5-Person Open Source Team](/trello-vs-github-projects-for-5-person-open-source-team/)
 - [Best Project Management Tool for Solo Freelance Developers](/best-project-management-tool-for-solo-freelance-developers-2026/)
 - [Project Management for a Solo Developer with 8 Client](/project-management-for-a-solo-developer-with-8-client-projec/)
 - [Git Branching Strategy for Remote Teams](/git-branching-strategy-remote-teams/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

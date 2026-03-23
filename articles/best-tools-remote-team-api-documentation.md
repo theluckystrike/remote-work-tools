@@ -15,16 +15,16 @@ tags: [remote-work-tools, best-of, remote-work, api]
 
 {% raw %}
 
-API documentation that drifts from the actual API is worse than no documentation — it creates false confidence and wastes engineering hours debugging. The tools in this guide all start from your OpenAPI spec (the source of truth), rendering documentation that's always accurate and shareable without manual updates.
+API documentation that drifts from the actual API is worse than no documentation. it creates false confidence and wastes engineering hours debugging. The tools in this guide all start from your OpenAPI spec (the source of truth), rendering documentation that's always accurate and shareable without manual updates.
 
 ---
 
-## OpenAPI Spec as the Foundation
+OpenAPI Spec as the Foundation
 
 Every tool in this guide consumes an OpenAPI spec. Write one if you don't have one:
 
 ```yaml
-# openapi.yaml
+openapi.yaml
 openapi: "3.1.0"
 info:
   title: Payments API
@@ -105,23 +105,23 @@ components:
 
 ---
 
-## Stoplight (Collaboration-First)
+Stoplight (Collaboration-First)
 
 Stoplight Studio is the most complete API design and documentation platform. Teams edit the OpenAPI spec in a visual editor, publish docs to a branded portal, and mock the API from the same spec.
 
 Host the published docs as a static site:
 
 ```bash
-# Install Stoplight CLI
+Install Stoplight CLI
 npm install -g @stoplight/cli
 
-# Validate your spec
+Validate your spec
 stoplight lint openapi.yaml
 
-# Push to Stoplight Platform
+Push to Stoplight Platform
 stoplight push --ci-token $STOPLIGHT_CI_TOKEN openapi.yaml
 
-# Build static docs site
+Build static docs site
 stoplight export --format html --output ./docs/api
 ```
 
@@ -140,7 +140,7 @@ server {
 Integrate into CI to publish on every spec change:
 
 ```yaml
-# .github/workflows/docs.yml
+.github/workflows/docs.yml
 name: Publish API Docs
 on:
   push:
@@ -160,14 +160,14 @@ jobs:
 
 ---
 
-## Scalar (Modern, Self-Hosted)
+Scalar (Modern, Self-Hosted)
 
 Scalar is an open-source API reference documentation UI with a clean, modern design and built-in API client (send requests directly from the docs). It replaces Swagger UI for teams who want something better looking.
 
 Serve as a Docker container:
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 services:
   api-docs:
     image: scalar/api-reference:latest
@@ -221,7 +221,7 @@ r.Get("/openapi.yaml", func(w http.ResponseWriter, r *http.Request) {
 
 ---
 
-## Redoc (Embeddable, Clean)
+Redoc (Embeddable, Clean)
 
 Redoc is the standard self-hosted OpenAPI renderer. It's fast, well-maintained, and integrates into any HTML page.
 
@@ -252,37 +252,37 @@ Build a static bundle with redocly CLI:
 ```bash
 npm install -g @redocly/cli
 
-# Validate spec
+Validate spec
 redocly lint openapi.yaml
 
-# Bundle into single HTML file (no CDN dependency)
+Bundle into single HTML file (no CDN dependency)
 redocly build-docs openapi.yaml --output docs/index.html
 
-# Preview locally
+Preview locally
 redocly preview-docs openapi.yaml
 ```
 
 Split large specs into multiple files (better for team editing):
 
 ```bash
-# openapi.yaml can reference other files
+openapi.yaml can reference other files
 paths:
   /payments:
     $ref: './paths/payments.yaml'
   /users:
     $ref: './paths/users.yaml'
 
-# Bundle into one file
+Bundle into one file
 redocly bundle openapi.yaml --output openapi-bundled.yaml
 ```
 
 ---
 
-## Keep Docs in Sync with Code
+Keep Docs in Sync with Code
 
 Generate OpenAPI specs from code annotations to prevent drift:
 
-**Go (swaggo):**
+Go (swaggo):
 
 ```go
 // @Summary Create a payment
@@ -302,7 +302,7 @@ func CreatePayment(w http.ResponseWriter, r *http.Request) {
 swag init -g cmd/api/main.go --output ./docs/swagger
 ```
 
-**Python FastAPI (auto-generated):**
+Python FastAPI (auto-generated):
 
 ```python
 from fastapi import FastAPI
@@ -321,13 +321,13 @@ async def create_payment(request: PaymentRequest) -> Payment:
     # FastAPI generates OpenAPI spec automatically
     ...
 
-# Docs available at /docs and /redoc
-# Export spec: GET /openapi.json
+Docs available at /docs and /redoc
+Export spec: GET /openapi.json
 ```
 
 ---
 
-## Tool Comparison
+Tool Comparison
 
 | Tool | Hosting | Try It API | Cost | Best For |
 |------|---------|------------|------|----------|
@@ -340,7 +340,7 @@ For most remote teams: use Scalar for external developer-facing docs, Redoc for 
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Best Tools for Remote Team API Mocking](/best-tools-remote-team-api-mocking/)
 - [Best Tools for Remote Team Load Testing](/best-tools-remote-team-load-testing/)
@@ -349,7 +349,7 @@ For most remote teams: use Scalar for external developer-facing docs, Redoc for 
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [How to Manage Remote Team Documentation Debt: Complete Guide](/)
@@ -357,6 +357,6 @@ For most remote teams: use Scalar for external developer-facing docs, Redoc for 
 - [Best Tools for Remote Team Documentation Reviews 2026](/best-tools-for-remote-team-documentation-reviews-2026/)
 - [How to Create Onboarding Documentation for Remote Teams](/how-to-create-onboarding-documentation-remote-teams/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -15,19 +15,19 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-Git hooks run on every developer's machine before commits are pushed. Without standardization, hooks exist in some team members' repos and not others, leading to inconsistent code quality, broken CI pipelines, and merge conflicts from formatting differences. Remote teams feel this more acutely — there's no over-the-shoulder "hey, you're missing the linter" moment.
+Git hooks run on every developer's machine before commits are pushed. Without standardization, hooks exist in some team members' repos and not others, leading to inconsistent code quality, broken CI pipelines, and merge conflicts from formatting differences. Remote teams feel this more acutely. there's no over-the-shoulder "hey, you're missing the linter" moment.
 
 This guide covers three hook managers for different stack profiles: Husky (JavaScript teams), pre-commit (polyglot teams), and Lefthook (performance-sensitive workflows).
 
 ---
 
-## The Problem with .git/hooks
+The Problem with .git/hooks
 
 The `.git/hooks/` directory is not tracked by version control. Each developer must manually copy or symlink hooks. That never happens consistently. The solution is to version hook configuration in the repo itself, then auto-install on `git clone` or initial setup.
 
 ---
 
-## Husky (JavaScript/Node Teams)
+Husky (JavaScript/Node Teams)
 
 Husky is the standard for JavaScript projects. It integrates with npm's `prepare` lifecycle so hooks install automatically after `npm install`.
 
@@ -41,7 +41,7 @@ This creates `.husky/` directory (tracked) and adds `"prepare": "husky"` to `pac
 Add a pre-commit hook:
 
 ```bash
-# .husky/pre-commit
+.husky/pre-commit
 #!/bin/sh
 npx lint-staged
 ```
@@ -71,12 +71,12 @@ Configure `lint-staged` in `package.json` to only run tools on staged files (muc
 Add a commit-msg hook for conventional commits:
 
 ```bash
-# Install commitlint
+Install commitlint
 npm install --save-dev @commitlint/cli @commitlint/config-conventional
 ```
 
 ```bash
-# .husky/commit-msg
+.husky/commit-msg
 #!/bin/sh
 npx --no -- commitlint --edit $1
 ```
@@ -100,7 +100,7 @@ module.exports = {
 Add a pre-push hook to run tests before pushing to main:
 
 ```bash
-# .husky/pre-push
+.husky/pre-push
 #!/bin/sh
 
 BRANCH=$(git branch --show-current)
@@ -112,7 +112,7 @@ fi
 
 ---
 
-## pre-commit (Polyglot Teams)
+pre-commit (Polyglot Teams)
 
 pre-commit is Python-based but works across any language. It downloads and manages hook tools in isolated environments, so hooks run identically regardless of what's installed locally.
 
@@ -120,14 +120,14 @@ Install:
 
 ```bash
 pip install pre-commit
-# or
+or
 brew install pre-commit
 ```
 
 Define hooks in `.pre-commit-config.yaml`:
 
 ```yaml
-# .pre-commit-config.yaml
+.pre-commit-config.yaml
 repos:
   # General file checks
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -204,7 +204,7 @@ pre-commit autoupdate
 Add to CI to enforce hooks even if a developer bypasses locally:
 
 ```yaml
-# .github/workflows/pre-commit.yml
+.github/workflows/pre-commit.yml
 name: Pre-commit checks
 on: [push, pull_request]
 jobs:
@@ -220,20 +220,20 @@ jobs:
 
 ---
 
-## Lefthook (Fast, Multi-language)
+Lefthook (Fast, Multi-language)
 
 Lefthook is a Go binary with no runtime dependencies. It's significantly faster than Husky or pre-commit because it runs hooks in parallel.
 
 Install:
 
 ```bash
-# macOS
+macOS
 brew install lefthook
 
-# npm (for JS monorepos)
+npm (for JS monorepos)
 npm install --save-dev lefthook
 
-# Direct download
+Direct download
 curl -1sLf 'https://dl.cloudsmith.io/public/evilmartians/lefthook/setup.deb.sh' | sudo bash
 apt install lefthook
 ```
@@ -241,7 +241,7 @@ apt install lefthook
 Configure in `lefthook.yml`:
 
 ```yaml
-# lefthook.yml
+lefthook.yml
 pre-commit:
   parallel: true
   commands:
@@ -296,12 +296,12 @@ LEFTHOOK=0 git commit -m "wip: debug session"
 
 ---
 
-## Distributing Hooks in a Monorepo
+Distributing Hooks in a Monorepo
 
 For monorepos with multiple packages, scope hooks to the affected package:
 
 ```yaml
-# lefthook.yml (monorepo root)
+lefthook.yml (monorepo root)
 pre-commit:
   commands:
     frontend-lint:
@@ -323,12 +323,12 @@ pre-commit:
 
 ---
 
-## Enforce via Makefile
+Enforce via Makefile
 
 Create a `make setup` target so new team members get hooks with one command:
 
 ```makefile
-# Makefile
+Makefile
 .PHONY: setup hooks
 
 setup: hooks
@@ -340,7 +340,7 @@ hooks:
 	pre-commit install --hook-type commit-msg
 	@echo "Git hooks installed"
 
-# Allow skipping hooks in CI (hooks run separately)
+Allow skipping hooks in CI (hooks run separately)
 ci-check:
 	pre-commit run --all-files
 ```
@@ -348,7 +348,7 @@ ci-check:
 Document this in your onboarding runbook:
 
 ```
-# New developer setup
+New developer setup
 git clone git@github.com:your-org/your-repo.git
 cd your-repo
 make setup
@@ -356,7 +356,7 @@ make setup
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Best Tools for Remote Team Code Ownership](/best-tools-remote-team-code-ownership/)
 - [Remote Team Code Review Checklist Template](/remote-team-code-review-checklist-template/)
@@ -365,13 +365,13 @@ make setup
 
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Automate Code Quality Gates for Remote Teams](/how-to-automate-code-quality-gates-remote-teams/)
 - [Git Branching Strategy for Remote Teams](/git-branching-strategy-remote-teams/)
 - [Remote Team Keyboard Shortcut Standardization](/remote-team-keyboard-shortcut-standardization/)
 - [How to Create Remote Team Architecture Documentation](/how-to-create-remote-team-architecture-documentation-using-d/)
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

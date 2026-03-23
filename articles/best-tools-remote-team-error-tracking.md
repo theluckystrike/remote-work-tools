@@ -15,18 +15,18 @@ tags: [remote-work-tools, troubleshooting, best-of, remote-work]
 
 {% raw %}
 
-Errors happen in every production deployment. Without error tracking, remote teams find out about bugs from customer support tickets — hours after they started occurring. Error tracking gives you instant notification, stack traces with context, and the ability to track resolution progress asynchronously.
+Errors happen in every production deployment. Without error tracking, remote teams find out about bugs from customer support tickets. hours after they started occurring. Error tracking gives you instant notification, stack traces with context, and the ability to track resolution progress asynchronously.
 
 ---
 
-## Sentry (Industry Standard)
+Sentry (Industry Standard)
 
 Sentry is the most widely used error tracking platform. The self-hosted version (Sentry CE) is open source; the SaaS version starts at $26/month.
 
-**Self-hosted with Docker:**
+Self-hosted with Docker:
 
 ```yaml
-# docker-compose.yml (abbreviated — use official sentry/self-hosted repo)
+docker-compose.yml (abbreviated. use official sentry/self-hosted repo)
 version: "3.8"
 services:
   sentry-web:
@@ -61,7 +61,7 @@ cd self-hosted
 docker compose up -d
 ```
 
-**SDK Integration — Python:**
+SDK Integration. Python:
 
 ```python
 import sentry_sdk
@@ -94,7 +94,7 @@ def filter_sensitive_errors(event, hint):
     return event
 ```
 
-**SDK Integration — Go:**
+SDK Integration. Go:
 
 ```go
 import (
@@ -126,9 +126,9 @@ func main() {
 }
 ```
 
-**Adding Custom Context to Sentry Events**
+Adding Custom Context to Sentry Events
 
-Raw stack traces are useful, but the error is much faster to diagnose when you attach business context — which user triggered it, what they were doing, and what state the application was in:
+Raw stack traces are useful, but the error is much faster to diagnose when you attach business context. which user triggered it, what they were doing, and what state the application was in:
 
 ```python
 import sentry_sdk
@@ -155,12 +155,12 @@ This adds a searchable tag and structured context to every error that occurs ins
 
 ---
 
-## GlitchTip (Self-Hosted Sentry Alternative)
+GlitchTip (Self-Hosted Sentry Alternative)
 
-GlitchTip is Sentry-compatible (uses the same SDK) but much simpler to self-host — a single Docker container vs Sentry's ~20 containers.
+GlitchTip is Sentry-compatible (uses the same SDK) but much simpler to self-host. a single Docker container vs Sentry's ~20 containers.
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 services:
   glitchtip-web:
@@ -211,15 +211,15 @@ volumes:
   glitchtip-postgres:
 ```
 
-Since GlitchTip uses the Sentry protocol, all Sentry SDKs work unchanged — just point the `DSN` at your GlitchTip instance.
+Since GlitchTip uses the Sentry protocol, all Sentry SDKs work unchanged. just point the `DSN` at your GlitchTip instance.
 
-**When to Choose GlitchTip Over Sentry CE**
+When to Choose GlitchTip Over Sentry CE
 
-GlitchTip trades Sentry's performance monitoring and session replay features for dramatically simpler operations. If your team's primary need is error grouping and alerting — not APM — GlitchTip is easier to run sustainably. A single `t3.small` with 4 GB RAM is sufficient for teams shipping a few thousand errors per day. Sentry CE needs a minimum of 8 containers and 16 GB RAM on the control node.
+GlitchTip trades Sentry's performance monitoring and session replay features for dramatically simpler operations. If your team's primary need is error grouping and alerting. not APM. GlitchTip is easier to run sustainably. A single `t3.small` with 4 GB RAM is sufficient for teams shipping a few thousand errors per day. Sentry CE needs a minimum of 8 containers and 16 GB RAM on the control node.
 
 ---
 
-## Rollbar (SaaS, Notification-Focused)
+Rollbar (SaaS, Notification-Focused)
 
 Rollbar's strength is its notification routing. It can send to Slack, PagerDuty, GitHub Issues, and Jira simultaneously, with per-project and per-error-type routing rules.
 
@@ -266,15 +266,15 @@ try {
 
 ---
 
-## Source Maps for Frontend Errors
+Source Maps for Frontend Errors
 
 Frontend errors without source maps show minified stack traces that are useless. Upload source maps as part of your CI deployment:
 
 ```bash
-# Sentry CLI for source map upload
+Sentry CLI for source map upload
 npm install -g @sentry/cli
 
-# After building frontend
+After building frontend
 sentry-cli releases new "$GIT_SHA"
 sentry-cli releases files "$GIT_SHA" upload-sourcemaps ./dist \
   --url-prefix '~/static/js' \
@@ -306,12 +306,12 @@ export default {
 
 ---
 
-## Noise Reduction for Remote Teams
+Noise Reduction for Remote Teams
 
 Error tracking is only useful if the team actually looks at it. Reduce noise:
 
 ```python
-# Python: ignore expected errors
+Python: ignore expected errors
 sentry_sdk.init(
     dsn=os.environ["SENTRY_DSN"],
     ignore_errors=[
@@ -322,30 +322,30 @@ sentry_sdk.init(
     ],
 )
 
-# Rate limit repeated errors
-# In Sentry UI: Project Settings > Inbound Filters:
-# - Enable "Filter known browser extensions errors"
-# - Enable "Filter localhost errors"
-# - Set rate limit per issue: 100/minute
+Rate limit repeated errors
+In Sentry UI: Project Settings > Inbound Filters:
+- Enable "Filter known browser extensions errors"
+- Enable "Filter localhost errors"
+- Set rate limit per issue: 100/minute
 ```
 
 Set up issue assignment rules so errors go to the right team:
 
 ```
-# Sentry Ownership Rules (Project Settings > Code Owners)
+Sentry Ownership Rules (Project Settings > Code Owners)
 path:src/payments/* payments-team
 path:src/auth/* security-team
 url:*/api/v2/* backend-team
 tags.logger:frontend frontend-team
 ```
 
-**Error Budgets for Async Teams**
+Error Budgets for Async Teams
 
 Define an explicit error rate budget per service so the team has a shared threshold for when to stop shipping and address reliability:
 
 ```python
 #!/usr/bin/env python3
-# error_budget.py — report error budget status for Slack
+error_budget.py. report error budget status for Slack
 import os, requests
 from datetime import datetime, timedelta
 
@@ -353,7 +353,7 @@ SENTRY_TOKEN = os.environ["SENTRY_AUTH_TOKEN"]
 ORG = os.environ["SENTRY_ORG"]
 PROJECT = os.environ["SENTRY_PROJECT"]
 
-# Error budget: 99.5% success rate = 0.5% allowed errors
+Error budget: 99.5% success rate = 0.5% allowed errors
 ERROR_BUDGET_PERCENT = 0.5
 
 def get_error_rate(hours=24):
@@ -383,17 +383,17 @@ Post the budget status to Slack on a daily schedule so the whole team sees it du
 
 ---
 
-## Alerting Routing for Distributed On-Call
+Alerting Routing for Distributed On-Call
 
 Error tracking tools are only as useful as their alerting configuration. For remote teams across time zones, poor routing means the wrong person gets paged at 3am for an issue outside their domain.
 
 Configure routing rules in Sentry to send alerts based on the code path, not just the project:
 
 ```python
-# Sentry alert configuration via sentry-cli or Terraform
-# Route payment errors to payments team Slack channel
-# Route auth errors to security team PagerDuty
-# Route everything else to a general #errors channel with low priority
+Sentry alert configuration via sentry-cli or Terraform
+Route payment errors to payments team Slack channel
+Route auth errors to security team PagerDuty
+Route everything else to a general #errors channel with low priority
 ```
 
 Use PagerDuty or Opsgenie to implement time-zone-aware on-call rotations. Set up escalation policies so an alert that goes unacknowledged for 15 minutes automatically escalates to the next person in the rotation, regardless of time zone.
@@ -401,22 +401,22 @@ Use PagerDuty or Opsgenie to implement time-zone-aware on-call rotations. Set up
 For teams that don't want full PagerDuty overhead, Sentry's built-in alert rules with Slack routing plus a simple on-call schedule posted in your team handbook is sufficient for most sub-20-person teams:
 
 ```yaml
-# Sentry alert rules (configurable in Project Settings > Alerts)
-# Rule 1: Critical errors — any new issue with >10 occurrences/hour
-#   Action: Notify #alerts-critical in Slack + email on-call engineer
+Sentry alert rules (configurable in Project Settings > Alerts)
+Rule 1: Critical errors. any new issue with >10 occurrences/hour
+  Action: Notify #alerts-critical in Slack + email on-call engineer
 #
-# Rule 2: Error spike — error rate increases 50% vs. last hour
-#   Action: Notify #alerts-ops in Slack
+Rule 2: Error spike. error rate increases 50% vs. last hour
+  Action: Notify #alerts-ops in Slack
 #
-# Rule 3: New error in production — any first-seen error
-#   Action: Notify #errors-review in Slack (low priority, review async)
+Rule 3: New error in production. any first-seen error
+  Action: Notify #errors-review in Slack (low priority, review async)
 ```
 
-Keep the critical alert channel genuinely critical. If it fires more than 3 times per week on non-critical issues, the team will start ignoring it — the classic alert fatigue failure mode.
+Keep the critical alert channel genuinely critical. If it fires more than 3 times per week on non-critical issues, the team will start ignoring it. the classic alert fatigue failure mode.
 
 ---
 
-## Tool Comparison
+Tool Comparison
 
 | Tool | Hosting | Cost | Best For |
 |------|---------|------|----------|
@@ -428,7 +428,7 @@ Keep the critical alert channel genuinely critical. If it fires more than 3 time
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Vector for Log Processing](/how-to-set-up-vector-for-log-processing/)
 - [How to Set Up Fluentd for Log Collection](/how-to-set-up-fluentd-for-log-collection/)
@@ -437,7 +437,7 @@ Keep the critical alert channel genuinely critical. If it fires more than 3 time
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Productivity Tracking Tools for Remote Teams 2026](/remote-team-productivity-tracking-2026/)
 - [Best Bug Tracking Tools for Remote QA Teams](/best-bug-tracking-tools-for-remote-qa-teams/)
@@ -445,6 +445,6 @@ Keep the critical alert channel genuinely critical. If it fires more than 3 time
 - [How to Track Remote Team Use Rate Without Invasive](/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
 - [Best Time Tracking Tools for Remote Freelancers](/best-time-tracking-tools-for-remote-freelancers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

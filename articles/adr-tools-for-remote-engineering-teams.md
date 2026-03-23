@@ -17,12 +17,12 @@ voice-checked: true
 
 Use Log4brains if you want ADRs stored directly in your codebase with a browsable web interface, Notion if your team already documents there and needs relational linking between decisions, or plain GitHub markdown files with a CI validation workflow if you want full control with zero extra tooling. Each approach supports async review across time zones, version-controlled decision history, and searchable architectural records. This guide walks through setup, configuration, and tradeoffs for each option.
 
-## Why ADR Tools Matter for Distributed Teams
+Why ADR Tools Matter for Distributed Teams
 
 When your engineering team spans multiple time zones, you lose the informal context that happens in office hallways. Someone makes a database choice in 2024, and by 2026, nobody remembers the tradeoffs that shaped that decision. ADRs solve this by creating a permanent, searchable record of technical choices and their reasoning.
 
 The best ADR tools for remote teams share several characteristics: they integrate with your existing workflow, support async review processes, and keep decisions discoverable over time.
-## Log4brains: ADR Management in Your Codebase
+Log4brains: ADR Management in Your Codebase
 
 Log4brains treats ADRs as code, storing them directly in your repository alongside your documentation. It works with markdown files following the ADR format and provides a web interface for browsing decisions.
 
@@ -52,7 +52,7 @@ The web interface displays your ADR collection as a timeline. Remote teams can b
 
 One limitation: Log4brains focuses on viewing and creating ADRs. It doesn't provide built-in review workflows, so teams need to handle async review through pull requests or external tools.
 
-## ADR Tools in Notion
+ADR Tools in Notion
 
 Notion offers flexibility for teams already using it for documentation. You can create a database specifically for ADRs, using properties to track status, date, author, and tags.
 
@@ -68,18 +68,18 @@ Set up an ADR database with these properties:
 Create a template for new ADRs that includes the standard sections:
 
 ```markdown
-# ADR-XXX: [Decision Title]
+ADR-XXX: [Decision Title]
 
-## Status
+Status
 [Proposed | Accepted | Deprecated | Superseded]
 
-## Context
+Context
 [Describe the problem or situation that prompted this decision]
 
-## Decision
+Decision
 [State what the team has decided to do]
 
-## Consequences
+Consequences
 - Positive: [List positive outcomes]
 - Negative: [List negative outcomes or tradeoffs]
 
@@ -87,7 +87,7 @@ Create a template for new ADRs that includes the standard sections:
 
 Notion's strength lies in its relational properties. Link related decisions together, create views that show only "Accepted" ADRs, or filter by tag to see all database-related choices. The downside: ADRs live outside your codebase, making it harder to reference them from code comments or PR descriptions.
 
-## GitHub and ADR Tools Integration
+GitHub and ADR Tools Integration
 
 GitHub provides several approaches for ADR management without additional tooling. Teams commonly use either the repository wiki or dedicated markdown files in the docs folder.
 
@@ -95,10 +95,10 @@ For the wiki approach, create a dedicated ADR collection:
 
 ```
 docs/
-├── adr/
-│   ├── 001-use-postgresql.md
-│   ├── 002-adopt-graphql.md
-│   └── 003-move-to-microservices.md
+ adr/
+    001-use-postgresql.md
+    002-adopt-graphql.md
+    003-move-to-microservices.md
 ```
 
 Use GitHub Actions to validate ADR format. Create a workflow that checks markdown files follow your template:
@@ -124,7 +124,7 @@ jobs:
 
 This automation ensures consistency across your ADR collection. Remote team members can review proposed ADRs through PRs, adding comments asynchronously before merging.
 
-## Structurizr: ADR with Architecture Diagrams
+Structurizr: ADR with Architecture Diagrams
 
 For teams that want to connect decisions to visual architecture, Structurizr provides a complementary approach. While primarily a tooling suite for architecture documentation, it supports ADR-style decision logging alongside diagram generation.
 
@@ -156,7 +156,7 @@ Define your architecture decisions in C4 model format:
 
 Structurizr works well when you need to tie architectural decisions to system diagrams. The JSON format integrates with CI/CD pipelines, making it suitable for teams wanting programmatic ADR management.
 
-## Choosing the Right ADR Tool
+Choosing the Right ADR Tool
 
 Select based on your team's existing workflow:
 
@@ -169,34 +169,34 @@ Select based on your team's existing workflow:
 
 The right tool depends on where your team already spends time. If everyone lives in GitHub, native markdown files with a validation workflow work excellently. If your documentation lives in Notion, build your ADR system there.
 
-## Implementing ADR Workflow for Remote Teams
+Implementing ADR Workflow for Remote Teams
 
 Regardless of tool choice, establish a consistent process:
 
 One engineer drafts an ADR describing the decision context, then team members comment over 48–72 hours across time zones. Status updates to Accepted or Rejected based on that feedback. Link to the ADR in code comments, PR descriptions, and technical specs so it becomes the single source of truth that anyone can reference later.
 
-## Automating ADR Creation
+Automating ADR Creation
 
 Reduce friction by creating CLI aliases or scripts that scaffold new ADRs:
 
 ```bash
 #!/bin/bash
-# Create new ADR with template
+Create new ADR with template
 NUM=$(ls docs/adr/*.md 2>/dev/null | wc -l | tr -d ' ')
 NEXT=$(printf "%03d" $((NUM + 1)))
 cat > "docs/adr/${NEXT}-$(echo "$1" | tr ' ' '-' | tr '[:upper:]' '[:lower:]').md" << EOF
-# ADR-${NEXT}: $1
+ADR-${NEXT}: $1
 
-## Status
+Status
 Proposed
 
-## Context
+Context
 [Describe the situation that prompted this decision]
 
-## Decision
+Decision
 [State what should be done]
 
-## Consequences
+Consequences
 - Positive:
 - Negative:
 
@@ -208,43 +208,43 @@ Run this script with `./new-adr.sh "Use Redis for Caching"` to generate a proper
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does Teams offer a free tier?**
+Does Teams offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check Teams's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Best Tools for Remote Architecture Decision Records](/best-tools-for-remote-architecture-decision-records/)
 - [How to Document Architecture Decisions for Remote Teams](/how-to-document-architecture-decisions-remote-team/)
 - [How to Create Remote Team Architecture Decision Record](/how-to-create-remote-team-architecture-decision-record-templ/)
 - [Remote Work Tools: All Guides and Reviews](/guides-hub/)
 - [Best Chat Platforms for Remote Engineering Teams](/best-chat-platforms-remote-engineering-teams/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Related Reading
+Related Reading
 
 - [Standup Bot Comparison for Remote Engineering Teams](/standup-bot-comparison-for-remote-engineering-teams/)
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-meeting-agenda-template-for-engineering-teams/)
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

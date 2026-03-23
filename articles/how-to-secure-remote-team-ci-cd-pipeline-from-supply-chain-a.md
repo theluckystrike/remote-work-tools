@@ -20,7 +20,7 @@ Remote teams rely heavily on automated CI/CD pipelines to ship software efficien
 
 Understanding the threat environment forms the foundation for building effective defenses.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -30,33 +30,33 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Understand Supply Chain Risks in CI/CD
+Step 1: Understand Supply Chain Risks in CI/CD
 
 Supply chain attacks targeting CI/CD pipelines exploit the trust relationships between your pipeline stages, external services, and dependencies. Attackers compromise build tools, dependency registries, or pipeline configurations to inject malicious code into your software delivery process.
 
 Common attack vectors include:
 
-1. **Dependency confusion** - Attackers publish malicious packages with names similar to internal dependencies
-2. **Compromised pipeline credentials** - Stolen tokens grant access to modify pipeline configurations
-3. **Malicious GitHub Actions or GitLab CI templates** - Pre-built workflow files containing hidden backdoors
-4. **Build tool plugin compromises** - Jenkins plugins or similar tools with known vulnerabilities
-5. **Registry poisoning** - Uploading compromised container images to private registries
+1. Dependency confusion - Attackers publish malicious packages with names similar to internal dependencies
+2. Compromised pipeline credentials - Stolen tokens grant access to modify pipeline configurations
+3. Malicious GitHub Actions or GitLab CI templates - Pre-built workflow files containing hidden backdoors
+4. Build tool plugin compromises - Jenkins plugins or similar tools with known vulnerabilities
+5. Registry poisoning - Uploading compromised container images to private registries
 
 Remote teams face additional challenges because developers work from varied network environments and may use personal devices that lack enterprise security controls.
 
-### Step 2: Practical Steps to Secure Your Pipeline
+Step 2: Practical Steps to Secure Your Pipeline
 
-### 1. Implement Dependency Pinning and Verification
+1. Implement Dependency Pinning and Verification
 
 Always pin dependencies to specific versions rather than using floating version ranges. This prevents unexpected changes from introducing vulnerabilities.
 
 ```yaml
-# Bad: vulnerable to dependency confusion
+Bad: vulnerable to dependency confusion
 dependencies:
   package-a: "*"
   package-b: ">=2.0.0"
 
-# Good: pinned versions
+Good: pinned versions
 dependencies:
   package-a: "2.1.0"
   package-b: "2.4.1"
@@ -74,7 +74,7 @@ Use `npm audit` regularly to identify known vulnerabilities:
 npm audit --audit-level=moderate
 ```
 
-### 2. Verify Package Integrity
+2. Verify Package Integrity
 
 Configure your package manager to verify checksums for all dependencies. Create an integrity verification step in your pipeline:
 
@@ -108,14 +108,14 @@ for (const [pkg, hash] of Object.entries(criticalPackages)) {
 }
 ```
 
-### 3. Secure Pipeline Configuration Files
+3. Secure Pipeline Configuration Files
 
 Restrict who can modify pipeline configurations. Use branch protection rules and require pull request reviews for changes to CI/CD configuration files.
 
 Configure GitHub Actions to use explicit versions:
 
 ```yaml
-# .github/workflows/ci.yml
+.github/workflows/ci.yml
 name: CI
 
 on:
@@ -144,12 +144,12 @@ jobs:
         run: npm test
 ```
 
-### 4. Implement Pipeline Secrets Management
+4. Implement Pipeline Secrets Management
 
 Never store secrets directly in pipeline configuration files or environment variables that persist in logs. Use dedicated secrets management solutions:
 
 ```yaml
-# GitHub Actions example with secrets
+GitHub Actions example with secrets
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -165,19 +165,19 @@ jobs:
 For self-hosted runners, use ephemeral credentials and rotate them frequently:
 
 ```bash
-# Generate short-lived AWS credentials
+Generate short-lived AWS credentials
 aws sts assume-role \
   --role-arn "arn:aws:iam::123456789012:role/deploy-role" \
   --role-session-name "deploy-$(date +%s)" \
   --duration-seconds 3600
 ```
 
-### 5. Add Supply Chain Security Tools
+5. Add Supply Chain Security Tools
 
 Integrate security scanning into your pipeline to catch compromised dependencies:
 
 ```yaml
-# GitHub Actions with security scanning
+GitHub Actions with security scanning
 jobs:
   security:
     runs-on: ubuntu-latest
@@ -207,12 +207,12 @@ go mod verify
 go mod graph | grep -v '^github.com/your-org/'
 ```
 
-### 6. Isolate Build Environments
+6. Isolate Build Environments
 
 Use containerized builds with ephemeral runners to prevent persistent compromises:
 
 ```dockerfile
-# Dockerfile for build environment
+Dockerfile for build environment
 FROM golang:1.21-alpine AS builder
 
 WORKDIR /app
@@ -229,12 +229,12 @@ ENTRYPOINT ["/app"]
 
 Configure your CI/CD system to use fresh environments for each build rather than reusing cached state.
 
-### 7. Implement Pipeline Access Controls
+7. Implement Pipeline Access Controls
 
 Apply the principle of least privilege to pipeline permissions:
 
 ```yaml
-# GitHub - restrict workflow permissions
+GitHub - restrict workflow permissions
 permissions:
   contents: read
   packages: read
@@ -243,7 +243,7 @@ permissions:
 
 Review and audit which integrations have access to your repositories regularly.
 
-### Step 3: Continuous Monitoring and Response
+Step 3: Continuous Monitoring and Response
 
 Security requires ongoing attention. Set up alerts for unusual pipeline behavior:
 
@@ -271,15 +271,15 @@ function checkPipelineModifications() {
 
 Create an incident response plan specifically for pipeline compromises. Know how to revoke tokens, rebuild from known-good commits, and notify affected users.
 
-### Step 4: SBOM Generation for Supply Chain Transparency
+Step 4: SBOM Generation for Supply Chain Transparency
 
 Generate a Software Bill of Materials automatically:
 
 ```bash
-# Generate SBOM using Syft
+Generate SBOM using Syft
 syft packages dir:. -o spdx-json > sbom.json
 
-# Scan for vulnerabilities
+Scan for vulnerabilities
 grype sbom:sbom.json --fail-on high
 ```
 
@@ -299,7 +299,7 @@ Add this to your CI pipeline:
 
 When a CVE drops, search your SBOM to determine if you are affected without manually checking lockfiles.
 
-### Step 5: Supply Chain Security Checklist
+Step 5: Supply Chain Security Checklist
 
 | Check | Frequency | Tool |
 |-------|-----------|------|
@@ -314,49 +314,49 @@ When a CVE drops, search your SBOM to determine if you are affected without manu
 
 Assign each check to a specific team member. Rotate responsibility monthly to spread security awareness across the team.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to secure remote team ci/cd pipeline from supply chain?**
+How long does it take to secure remote team ci/cd pipeline from supply chain?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Is this approach secure enough for production?**
+Is this approach secure enough for production?
 
 The patterns shown here follow standard practices, but production deployments need additional hardening. Add rate limiting, input validation, proper secret management, and monitoring before going live. Consider a security review if your application handles sensitive user data.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
 - [How to Set Up HubSpot for Remote Agency Client Pipeline](/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
 - [How to Track Remote Team Hiring Pipeline Velocity](/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [Remote Team Deployment Pipeline Best Practices](/remote-team-deployment-pipeline-best-practices/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

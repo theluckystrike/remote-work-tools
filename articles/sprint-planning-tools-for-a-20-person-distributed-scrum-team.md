@@ -20,13 +20,13 @@ Running sprint planning for 20 developers across multiple time zones presents di
 
 This guide examines sprint planning tools and approaches suited for larger distributed Scrum teams, focusing on practical implementation rather than abstract theory.
 
-## The 20 Person Sprint Planning Challenge
+The 20 Person Sprint Planning Challenge
 
 A 20-person team typically means 3-5 Scrum teams working toward a shared product goal. Each team has its own sprint cadence, but dependency management across teams requires coordination. When team members span US, European, and Asian time zones, finding a single meeting time that works for everyone becomes impossible.
 
 Effective sprint planning at this scale requires three things: clear product backlog prioritization before the ceremony, structured async preparation so meeting time focuses on decisions rather than information gathering, and cross-team dependency tracking that happens automatically rather than through manual status updates.
 
-## Linear: Structured Sprints with API Automation
+Linear: Structured Sprints with API Automation
 
 Linear provides a well-designed interface for sprint planning with strong API capabilities that allow teams to automate repetitive tasks. The service treats issues as first-class objects with relationships, labels, and cycle tracking built in.
 
@@ -46,23 +46,23 @@ Linear's cycle feature maps directly to sprint planning. Assign issues to cycles
 For async preparation, create a template that team members fill out before sprint planning:
 
 ```markdown
-## My Sprint Commitments
+My Sprint Commitments
 
-### Stories I'm pulling in
+Stories I'm pulling in
 - [ ] STORY-123: User authentication flow
 - [ ] STORY-124: API rate limiting
 
-### Dependencies I need from other teams
+Dependencies I need from other teams
 - [ ] Backend: Payment API endpoint
 - [ ] Design: New dashboard mocks
 
-### Blocker concerns
+Blocker concerns
 - [ ] Need environment access for staging
 ```
 
 Teams paste this into Linear issues or project documents 24 hours before the planning meeting. Everyone arrives prepared.
 
-## Jira: Enterprise Scale with Complex Workflows
+Jira: Enterprise Scale with Complex Workflows
 
 Jira remains the standard for larger organizations with complex workflow requirements. The platform handles 20-person teams through its portfolio management features, which aggregate work across multiple projects and teams.
 
@@ -105,7 +105,7 @@ For distributed teams, enable Jira's sprint capacity planning:
 }
 ```
 
-## GitHub Projects: Lightweight Sprint Management
+GitHub Projects: Lightweight Sprint Management
 
 For teams already living in GitHub, Projects provides sprint-like functionality without additional tooling. Use labels for sprint assignment and milestones for time-boxing.
 
@@ -134,7 +134,7 @@ The GitHub Projects beta (or the new ProjectsV2) offers views that function like
 
 This approach works well for teams that want minimal tooling overhead. The limitation: capacity planning and velocity tracking require manual calculation or additional scripts.
 
-## Shortcut: Engineering-Focused Planning
+Shortcut: Engineering-Focused Planning
 
 Shortcut (formerly Clubhouse) targets engineering teams specifically. The interface prioritizes story points, sprints, and epic tracking without enterprise bloat.
 
@@ -155,7 +155,7 @@ curl -X POST https://api.shortcut.com/api/v3/stories \
 
 Shortcut's strength is its focus on engineering workflows. Epics span multiple sprints naturally, and the interface makes dependency tracking visible. The relative simplicity compared to Jira appeals to teams that want functionality without configuration overhead.
 
-## Selecting Your Tool
+Selecting Your Tool
 
 | Tool | Best For | Consideration |
 |------|----------|---------------|
@@ -164,7 +164,7 @@ Shortcut's strength is its focus on engineering workflows. Epics span multiple s
 | GitHub Projects | Teams already in GitHub | Manual capacity tracking |
 | Shortcut | Engineering-focused workflows | Limited integrations |
 
-## Automating Sprint Preparation
+Automating Sprint Preparation
 
 Regardless of which tool you choose, reduce meeting time through automation. Create a pre-sprint script that:
 
@@ -175,41 +175,41 @@ Regardless of which tool you choose, reduce meeting time through automation. Cre
 
 ```bash
 #!/bin/bash
-# Pre-sprint preparation script
+Pre-sprint preparation script
 
 TEAM=$1
 SPRINT_NAME="Sprint $2"
 
-# Generate capacity report
+Generate capacity report
 echo "=== Capacity Report for $TEAM - $SPRINT_NAME ==="
 gh api repos/OWNER/TEAM/contents/availability.json | jq '.'
 
-# Find stories without point estimates
+Find stories without point estimates
 echo "=== Unestimated Stories ==="
 gh issue list --label "ready-for-sprint" --json number,title,labels
 
-# Post to team channel
+Post to team channel
 echo "Sprint planning prep ready for $TEAM" | \
   slack webhook -u $SLACK_WEBHOOK_URL
 ```
 
 Run this 48 hours before sprint planning. Team members review their commitments, flag dependencies, and come to the meeting ready to make decisions rather than gather information.
 
-## Running Effective Distributed Sprint Planning
+Running Effective Distributed Sprint Planning
 
 With the right tools, the actual sprint planning meeting becomes concise. Structure the ceremony in two parts: first, cross-team dependency resolution where team leads identify and flag blockers; second, individual team breakouts where each team assigns work to sprints.
 
 Record decisions in a shared document accessible to all time zones:
 
 ```markdown
-# Sprint 23 Planning Summary
+Sprint 23 Planning Summary
 
-## Cross-Team Dependencies
+Cross-Team Dependencies
 | Story | Team | Depends On | Resolution |
 |-------|------|------------|------------|
 | AUTH-45 | Frontend | API team | Deferred to Sprint 24 |
 
-## Team Commitments
+Team Commitments
 - Team A: 34 story points
 - Team B: 42 story points
 - Team C: 38 story points
@@ -219,34 +219,34 @@ This approach scales to 20+ person organizations while maintaining alignment. To
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Best Tools for Remote Team Sprint Planning](/best-tools-for-remote-sprint-planning/)
 - [Best Tools for Remote Team Sprint Planning (2026)](/best-tools-for-remote-team-sprint-planning-2026/)
 - [Best Sprint Planning Tools for Remote Scrum Masters](/best-sprint-planning-tools-for-remote-scrum-masters/)
 - [Sprint {{ sprint_number }} Preparation](/remote-team-sprint-planning-communication-template-for-distr/)
 - [How to Scale Remote Team Sprint Ceremonies When Splitting](/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

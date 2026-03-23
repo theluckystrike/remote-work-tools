@@ -27,7 +27,7 @@ voice-checked: true
 
 For a Blue Yeti in a quiet home office, set your noise gate threshold to -40 dB, attack to 5 ms, hold to 100 ms, release to 150 ms, and range to -60 dB. For noisy environments with street noise or HVAC, raise the threshold to -35 dB and increase hold and release to 200 ms each. These settings work in OBS Studio, Voicemeeter, or any noise gate plugin, and they eliminate background noise while keeping your voice clean and natural.
 
-## Table of Contents
+Table of Contents
 
 - [Understanding How Noise Gates Work](#understanding-how-noise-gates-work)
 - [Recommended Software for Noise Gate Processing](#recommended-software-for-noise-gate-processing)
@@ -43,33 +43,33 @@ For a Blue Yeti in a quiet home office, set your noise gate threshold to -40 dB,
 - [Real-World Profiles for Different Users](#real-world-profiles-for-different-users)
 - [Integration with Complete Audio Chain](#integration-with-complete-audio-chain)
 
-## Understanding How Noise Gates Work
+Understanding How Noise Gates Work
 
-A noise gate is an audio processor that mutes signals below a certain threshold while allowing louder sounds to pass through. When your voice drops below the threshold, the gate closes and silences the signal — including background noise that would otherwise creep into your audio.
+A noise gate is an audio processor that mutes signals below a certain threshold while allowing louder sounds to pass through. When your voice drops below the threshold, the gate closes and silences the signal. including background noise that would otherwise creep into your audio.
 
 The key parameters you'll encounter in most noise gate implementations include:
 
-- **Threshold**: The decibel level at which the gate opens. Sounds above this level pass through; sounds below get silenced.
-- **Attack**: How quickly the gate opens once the threshold is exceeded. Fast attack times prevent initial syllables from being cut off.
-- **Hold**: How long the gate stays open after the signal drops below threshold. Prevents gate from chattering on and off during speech pauses.
-- **Release**: How gradually the gate closes. Too fast creates audible clicking; too slow lets noise bleed through during silent periods.
-- **Range**: How completely the gate attenuates the signal when closed (usually expressed in dB). Range of -60 dB means the signal becomes nearly silent when the gate is closed.
+- Threshold: The decibel level at which the gate opens. Sounds above this level pass through; sounds below get silenced.
+- Attack: How quickly the gate opens once the threshold is exceeded. Fast attack times prevent initial syllables from being cut off.
+- Hold: How long the gate stays open after the signal drops below threshold. Prevents gate from chattering on and off during speech pauses.
+- Release: How gradually the gate closes. Too fast creates audible clicking; too slow lets noise bleed through during silent periods.
+- Range: How completely the gate attenuates the signal when closed (usually expressed in dB). Range of -60 dB means the signal becomes nearly silent when the gate is closed.
 
-## Recommended Software for Noise Gate Processing
+Recommended Software for Noise Gate Processing
 
 For Blue Yeti users, several tools provide reliable noise gate functionality:
 
-**Software-based solutions:**
-- **OBS Studio** — Free and includes a native noise gate filter
-- **Voicemeeter** — Virtual audio mixer with built-in noise gate
-- **Audacity** — Free audio editor for post-processing recordings
-- **Krisp** — Noise cancellation that works alongside your existing setup
+Software-based solutions:
+- OBS Studio. Free and includes a native noise gate filter
+- Voicemeeter. Virtual audio mixer with built-in noise gate
+- Audacity. Free audio editor for post-processing recordings
+- Krisp. Noise cancellation that works alongside your existing setup
 
 Most streamers and podcasters use OBS or Voicemeeter for real-time processing during calls.
 
-## Optimal Settings for Different Scenarios
+Optimal Settings for Different Scenarios
 
-### Quiet Home Office (Low Background Noise)
+Quiet Home Office (Low Background Noise)
 
 If you work in a relatively quiet environment with minimal interruptions:
 
@@ -83,7 +83,7 @@ Range: -60 dB
 
 This configuration opens the gate quickly when you speak while eliminating ambient room tone. The moderate release time prevents abrupt cutoffs while maintaining clean transitions between words.
 
-### Noisy Environment (Street Noise, HVAC, Household Activity)
+Noisy Environment (Street Noise, HVAC, Household Activity)
 
 For challenging acoustic situations with unpredictable background noise:
 
@@ -97,7 +97,7 @@ Range: -80 dB
 
 The higher threshold prevents the gate from opening on background sounds, while the longer hold and release times smooth out the audio. The deeper range ensures complete silence when the gate closes.
 
-### Recording Voiceovers and Technical Content
+Recording Voiceovers and Technical Content
 
 When producing tutorials, code walkthroughs, or documentation:
 
@@ -111,7 +111,7 @@ Range: -70 dB
 
 These settings capture softer spoken content while maintaining consistent audio quality. The faster attack catches quiet initial consonants without introducing artifacts.
 
-## Implementing Noise Gate in OBS
+Implementing Noise Gate in OBS
 
 Open OBS Studio and follow these steps to add a noise gate to your Blue Yeti input:
 
@@ -122,7 +122,7 @@ Open OBS Studio and follow these steps to add a noise gate to your Blue Yeti inp
 
 The visual feedback in OBS shows when the gate is open or closed, helping you verify your threshold settings are appropriate.
 
-## Integrating Voicemeeter with Blue Yeti
+Integrating Voicemeeter with Blue Yeti
 
 Voicemeeter provides more granular control for power users:
 
@@ -133,7 +133,7 @@ Voicemeeter provides more granular control for power users:
 
 The gate LED illuminates when audio exceeds your threshold, making it easy to set the correct level by speaking at your normal volume and observing when the light activates.
 
-## Practical Testing and Fine-tuning
+Practical Testing and Fine-tuning
 
 The ideal noise gate settings depend on your specific environment and speaking patterns. Follow this testing protocol:
 
@@ -144,12 +144,12 @@ The ideal noise gate settings depend on your specific environment and speaking p
 
 Pay attention to these common problems:
 
-- Chopping: Your voice cuts off mid-word — lower the threshold or increase hold time
-- Pumping: Audible volume changes between words — increase release time
+- Chopping: Your voice cuts off mid-word. lower the threshold or increase hold time
+- Pumping: Audible volume changes between words. increase release time
 - Breath noise gets through: Try a lower threshold or add a high-pass filter
 - Background noise at sentence ends: Increase release time to prevent abrupt cutoffs
 
-## Beyond Noise Gates: Complementary Techniques
+Beyond Noise Gates: Complementary Techniques
 
 While noise gates solve many problems, combining multiple approaches produces superior results:
 
@@ -160,13 +160,13 @@ While noise gates solve many problems, combining multiple approaches produces su
 
 A noise gate handles the heavy lifting for eliminating background noise, but these complementary techniques create a complete professional audio chain.
 
-## Advanced Parameter Tuning Guide
+Advanced Parameter Tuning Guide
 
-### Understanding dB Levels and Threshold Selection
+Understanding dB Levels and Threshold Selection
 
 Decibels measure sound intensity logarithmically. To set your threshold correctly, understand reference levels:
 
-**Common sound levels at microphone**:
+Common sound levels at microphone:
 ```
 -60 dB: Almost silent (barely above noise floor)
 -50 dB: Very quiet speaking (whisper level)
@@ -177,7 +177,7 @@ Decibels measure sound intensity logarithmically. To set your threshold correctl
 0 dB: Clipping threshold (audio distortion starts)
 ```
 
-**Setting threshold by environment**:
+Setting threshold by environment:
 - Quiet office with white noise: -40 dB
 - Noisy open office: -35 dB
 - Home with family activity: -32 dB
@@ -185,39 +185,39 @@ Decibels measure sound intensity logarithmically. To set your threshold correctl
 
 If unsure, start at -40 dB and adjust upward if background noise persists.
 
-### Attack, Hold, and Release Tuning Strategy
+Attack, Hold, and Release Tuning Strategy
 
 These three parameters control the gate's envelope:
 
-**Attack time effects**:
+Attack time effects:
 - 1-2 ms: Clicks audible on consonants; too aggressive
 - 5 ms: Clean, natural sound for most speech
 - 10 ms: Softer attack; slight syllable clipping on plosives
 - 20+ ms: Noticeable speech cutoff; not recommended
 
-**Rule of thumb**: Start at 5 ms, adjust if hearing problems.
+Rule of thumb: Start at 5 ms, adjust if hearing problems.
 
-**Hold time effects**:
+Hold time effects:
 - 50 ms: Gate closes immediately after breath pauses; pumping audible
 - 100-150 ms: Natural speech rhythm maintained
 - 200+ ms: Smooth but delayed gate closure
 - 300+ ms: Becomes sloppy; background noise bleeds through
 
-**Rule of thumb**: Match hold time to your speaking rhythm. Listen for rhythmic pumping; if you hear it, increase hold time.
+Rule of thumb: Match hold time to your speaking rhythm. Listen for rhythmic pumping; if you hear it, increase hold time.
 
-**Release time effects**:
+Release time effects:
 - 50 ms: Abrupt cutoff creates audible clicks
 - 100-150 ms: Smooth transition for quiet voices
 - 200-250 ms: Works well for standard speech
 - 300+ ms: Very smooth but lets noise persist
 
-**Rule of thumb**: Longer release (200+ ms) works better for recording; shorter release (100-150 ms) for live calls.
+Rule of thumb: Longer release (200+ ms) works better for recording; shorter release (100-150 ms) for live calls.
 
-### Dynamic Threshold Adjustment for Varying Environments
+Dynamic Threshold Adjustment for Varying Environments
 
 Some noise gate implementations support dynamic thresholds that adapt to background noise levels:
 
-**Scenario: Your office HVAC runs during morning but stops afternoons**
+Scenario: Your office HVAC runs during morning but stops afternoons
 
 Instead of manual adjustment:
 ```
@@ -227,158 +227,158 @@ Afternoon threshold: -40 dB (lower for quieter environment)
 
 Use adaptive gates if your background noise varies significantly throughout the day. Most software gates don't support this; you'll manually adjust instead.
 
-## Microphone Placement and Positioning
+Microphone Placement and Positioning
 
 Noise gate effectiveness depends partly on microphone proximity:
 
-### Optimal Blue Yeti Positioning
+Optimal Blue Yeti Positioning
 
-**Distance from mouth**: 6-12 inches (15-30 cm)
+Distance from mouth: 6-12 inches (15-30 cm)
 - Too close (2-4 inches): Plosive sounds (P, B, K) cause gate issues
 - Optimal (6-10 inches): Direct sound loud relative to background noise
 - Too far (24+ inches): Background noise becomes as loud as voice
 
-**Angle relative to mouth**:
+Angle relative to mouth:
 - Directly in front: Captures mouth sounds; plosives can be problematic
 - 15-30 degree angle off-axis: More natural sound; reduces plosive energy
 - 45+ degrees off-axis: Loses high-frequency presence; sounds dull
 
-### Blue Yeti Gain Setting Interaction with Noise Gate
+Blue Yeti Gain Setting Interaction with Noise Gate
 
 Blue Yeti has a physical gain knob. Noise gate effectiveness depends on proper gain setting:
 
-**Gain too low** (-6 dB):
+Gain too low (-6 dB):
 - Voice input low
 - Background noise becomes proportionally louder
 - Noise gate needs lower threshold (might cut voice syllables)
-- **Result**: Gate becomes less effective
+- Gate becomes less effective
 
-**Gain optimal** (0 dB - middle):
+Gain optimal (0 dB - middle):
 - Voice input strong
 - Background noise relatively quieter
 - Noise gate threshold (-40 dB) works cleanly
-- **Result**: Gate works as designed
+- Gate works as designed
 
-**Gain too high** (+6 dB):
+Gain too high (+6 dB):
 - Voice input very strong
 - Risk of clipping if voice is loud
 - Background noise also amplified
-- **Result**: Gate must be more aggressive; might cut voice
+- Gate must be more aggressive; might cut voice
 
-**Recommendation**: Set Blue Yeti gain to middle position (0 dB); verify voice is strong but not clipping. Adjust noise gate threshold around this baseline.
+Set Blue Yeti gain to middle position (0 dB); verify voice is strong but not clipping. Adjust noise gate threshold around this baseline.
 
-## Troubleshooting Common Noise Gate Problems
+Troubleshooting Common Noise Gate Problems
 
-### Problem 1: Gate Cuts Off Word Beginnings
+Problem 1: Gate Cuts Off Word Beginnings
 
-**Symptoms**: "Starting" becomes "_tarting" (S is clipped)
+Symptoms: "Starting" becomes "_tarting" (S is clipped)
 
-**Causes**:
+Causes:
 - Attack time too fast (attacking before full syllable)
 - Threshold too high (missing quiet starting sounds)
 
-**Solutions**:
+Solutions:
 - Reduce attack time to 2-3 ms (below current setting)
 - Lower threshold by 3-5 dB
 - Speak slightly louder/closer to microphone
 
-### Problem 2: Gate Closes During Speech Causing Breaks
+Problem 2: Gate Closes During Speech Causing Breaks
 
-**Symptoms**: Words drop out mid-sentence; gate keeps opening/closing
+Symptoms: Words drop out mid-sentence; gate keeps opening/closing
 
-**Causes**:
+Causes:
 - Threshold too high (gate keeps closing between syllables)
 - Hold time too short
 
-**Solutions**:
+Solutions:
 - Lower threshold by 5-10 dB
 - Increase hold time to 150-200 ms
 - Check gain setting (increase if voice is weak)
 
-### Problem 3: Background Noise Still Audible
+Problem 3: Background Noise Still Audible
 
-**Symptoms**: HVAC hum, keyboard clicks, or room noise persist
+Symptoms: HVAC hum, keyboard clicks, or room noise persist
 
-**Causes**:
+Causes:
 - Threshold too low (doesn't block background noise)
 - Range not set deep enough
 
-**Solutions**:
+Solutions:
 - Raise threshold by 3-5 dB
 - Set range to -80 dB (or lower if supported)
 - Add acoustic treatment near microphone
 - Check microphone gain isn't too high (amplifying background noise)
 
-### Problem 4: Gate "Pumps" — Audible Volume Changes Between Words
+Problem 4: Gate "Pumps". Audible Volume Changes Between Words
 
-**Symptoms**: Audio gets quieter between words then louder when you speak; rhythmic effect
+Symptoms: Audio gets quieter between words then louder when you speak; rhythmic effect
 
-**Causes**:
+Causes:
 - Hold and release times too short
 - Threshold set so gate opens/closes with each syllable
 
-**Solutions**:
+Solutions:
 - Increase hold time to 200+ ms
 - Increase release to 200+ ms
 - Lower threshold slightly
 - Speak with more consistent volume
 
-### Problem 5: Breath Noise Keeps Getting Through
+Problem 5: Breath Noise Keeps Getting Through
 
-**Symptoms**: Can hear breathing between words
+Symptoms: Can hear breathing between words
 
-**Causes**:
+Causes:
 - Threshold too low (allowing quiet sounds)
 - Hold time too long (gate stays open during breath sounds)
 
-**Solutions**:
+Solutions:
 - Raise threshold by 2-3 dB
 - Reduce hold time to 100-120 ms
 - Position microphone slightly off-axis (reduces breath noise)
 - Add high-pass filter (separate plugin) to remove breath rumble
 
-## Software Gate vs. Hardware Gate
+Software Gate vs. Hardware Gate
 
-### Software Gates (Most Common)
+Software Gates (Most Common)
 
-**Used in**: OBS Studio, Voicemeeter, audio plugins, streaming software
+Used in: OBS Studio, Voicemeeter, audio plugins, streaming software
 
-**Advantages**:
+Advantages:
 - No additional hardware needed
 - Highly flexible parameters
 - Real-time adjustable during calls
 - Works with any microphone
 
-**Disadvantages**:
+Disadvantages:
 - Requires CPU resources
 - Adds slight latency (typically <10 ms, unnoticeable)
 - Requires software (can't use across all applications)
 
-**Best for**: Video calls, streaming, content creation where you control the output
+Best for: Video calls, streaming, content creation where you control the output
 
-### Hardware Gates (Rare for USB Mics)
+Hardware Gates (Rare for USB Mics)
 
 Most USB microphones like Blue Yeti don't have built-in hardware gating. Professional XLR microphones sometimes do.
 
-**If you wanted hardware gating** (unlikely with Blue Yeti):
+If you wanted hardware gating (unlikely with Blue Yeti):
 - Requires audio interface with gate
-- Example: PreSonus StudioLive AR12 mixer ($300+)
+- PreSonus StudioLive AR12 mixer ($300+)
 - Minimal latency (true real-time)
 - Works across all applications
 
-**Not recommended for Blue Yeti** — software gating is simpler and more cost-effective.
+Not recommended for Blue Yeti. software gating is simpler and more cost-effective.
 
-## Real-World Profiles for Different Users
+Real-World Profiles for Different Users
 
-### Profile 1: Quiet Home Office Developer
+Profile 1: Quiet Home Office Developer
 
-**Environment**:
+Environment:
 - Dedicated home office
 - Minimal background noise
 - Controlled temperature (no HVAC noise)
 - Interruptions rare
 
-**Recommended settings**:
+Recommended settings:
 ```
 Threshold: -45 dB (sensitive)
 Attack: 5 ms
@@ -387,17 +387,17 @@ Release: 100 ms
 Range: -60 dB
 ```
 
-**Why**: Can afford sensitive gate since background noise is low. Fast release sounds clean.
+Why: Can afford sensitive gate since background noise is low. Fast release sounds clean.
 
-### Profile 2: Open Office or Shared Space
+Profile 2: Open Office or Shared Space
 
-**Environment**:
+Environment:
 - Shared workspace with others
 - Occasional background conversations
 - Keyboard and equipment noise
 - Variable background throughout day
 
-**Recommended settings**:
+Recommended settings:
 ```
 Threshold: -32 dB (less sensitive)
 Attack: 5 ms
@@ -406,17 +406,17 @@ Release: 200 ms
 Range: -80 dB
 ```
 
-**Why**: Less sensitive threshold prevents background noise. Longer release prevents choppy cutoffs from variable background.
+Why: Less sensitive threshold prevents background noise. Longer release prevents choppy cutoffs from variable background.
 
-### Profile 3: Parent Working from Home
+Profile 3: Parent Working from Home
 
-**Environment**:
+Environment:
 - Kids playing in background
 - Unpredictable sounds
 - Dog/pet activity
 - Need balanced audio for calls
 
-**Recommended settings**:
+Recommended settings:
 ```
 Threshold: -28 dB (insensitive)
 Attack: 3 ms
@@ -425,17 +425,17 @@ Release: 250 ms
 Range: -80 dB
 ```
 
-**Why**: Aggressive threshold prevents kid noise. Long hold and release keep gate smooth despite variable activity.
+Why: Aggressive threshold prevents kid noise. Long hold and release keep gate smooth despite variable activity.
 
-### Profile 4: Podcaster/Content Creator
+Profile 4: Podcaster/Content Creator
 
-**Environment**:
+Environment:
 - Dedicated recording space
 - Want highest quality output
 - Can re-record if needed
 - Audience hears final product
 
-**Recommended settings**:
+Recommended settings:
 ```
 Threshold: -42 dB (sensitive)
 Attack: 2 ms
@@ -444,15 +444,15 @@ Release: 150 ms
 Range: -70 dB
 ```
 
-**Why**: Clean, transparent sound for production. Can afford sensitive gate with quiet space.
+Why: Clean, transparent sound for production. Can afford sensitive gate with quiet space.
 
-## Integration with Complete Audio Chain
+Integration with Complete Audio Chain
 
-### Noise Gate Position in Audio Pipeline
+Noise Gate Position in Audio Pipeline
 
 The order of audio processors matters:
 
-**Recommended order**:
+Recommended order:
 ```
 1. Microphone input (Blue Yeti)
 2. High-pass filter (removes low rumble)
@@ -462,64 +462,64 @@ The order of audio processors matters:
 6. Output to video call/recording
 ```
 
-**Why this order**:
+Why this order:
 - High-pass filter first prevents gate from processing irrelevant low frequencies
 - Gate early prevents passing noise to later processors
 - Compressor after gate works on clean signal
 - EQ last for tonal tweaking
 
-### Multi-Stage Approach for Maximum Clarity
+Multi-Stage Approach for Maximum Clarity
 
 For professional quality, use multiple techniques:
 
-**Stage 1: Passive (Acoustic treatment)**
+Stage 1: Passive (Acoustic treatment)
 - Foam panels around microphone
 - Reduces background noise 30-50%
 
-**Stage 2: Microphone technique**
+Stage 2: Microphone technique
 - Proper distance (6-10 inches)
 - Off-axis positioning
 - Reduces background noise by 40-60%
 
-**Stage 3: Noise gate** (This article's focus)
+Stage 3: Noise gate (This article's focus)
 - Eliminates remaining background noise
 - Plus high-pass filter removes rumble
 - Reduces background noise by 80%+
 
-**Stage 4: Post-processing** (Compression/EQ)
+Stage 4: Post-processing (Compression/EQ)
 - Final tonal optimization
 - Makes voice sit well in mix
 
 Combined approach achieves broadcast-quality results.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get started quickly?**
+How do I get started quickly?
 
 Pick one tool from the options discussed and sign up for a free trial. Spend 30 minutes on a real task from your daily work rather than running through tutorials. Real usage reveals fit faster than feature comparisons.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Best Noise Gate Microphone Setting for Remote Parents](/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
 - [Best Noise Cancelling Microphones for Home Offices Busy](/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
 - [Noise Cancelling Headphones vs Earbuds for Remote Work](/noise-cancelling-headphones-vs-earbuds-remote-work/)
 - [Pink noise filter approximation](/best-white-noise-machine-for-home-office-blocking-toddler-no/)
 - [Best Noise Canceling Earbuds for Remote Work 2026](/best-noise-canceling-earbuds-for-remote-work-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

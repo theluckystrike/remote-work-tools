@@ -16,18 +16,18 @@ voice-checked: true
 {% raw %}
 
 
-Remote agencies face unique communication challenges that traditional tools struggle to address. Clients expect transparency, timely updates, and easy access to project progress—but email threads become chaotic, and real-time meetings are hard to schedule across time zones. Basecamp offers a structured solution that keeps everyone aligned without the overwhelm.
+Remote agencies face unique communication challenges that traditional tools struggle to address. Clients expect transparency, timely updates, and easy access to project progress, but email threads become chaotic, and real-time meetings are hard to schedule across time zones. Basecamp offers a structured solution that keeps everyone aligned without the overwhelm.
 
 This guide walks through setting up Basecamp specifically for remote agency client communication, with practical configurations that actually work in production environments.
 
-## Creating Your Agency Workspace
+Creating Your Agency Workspace
 
-The first step is establishing a clean workspace structure. Log into Basecamp and create a new project for each client relationship. Name it consistently—something like "ClientName - ProjectName" keeps things searchable.
+The first step is establishing a clean workspace structure. Log into Basecamp and create a new project for each client relationship. Name it consistently, something like "ClientName - ProjectName" keeps things searchable.
 
 Within each project, enable the features that matter for client work:
 
 ```bash
-# Basecamp Project Settings Checklist
+Basecamp Project Settings Checklist
 - [ ] Enable Hill Charts for progress visibility
 - [ ] Turn on automatic check-ins (schedule 2x weekly)
 - [ ] Set up unique notification schedules per project
@@ -36,9 +36,9 @@ Within each project, enable the features that matter for client work:
 
 The Hill Chart feature deserves special attention. It provides clients with a visual representation of project momentum without requiring them to understand technical details. When work is "on the hill" (figuring things out), clients see upward movement. Once the path clears, progress accelerates toward the summit (launch).
 
-## Configuring Client Access Properly
+Configuring Client Access Properly
 
-One of Basecamp's strongest features is granular permission control. Never give clients full access—they don't need to see internal discussions or administrative controls.
+One of Basecamp's strongest features is granular permission control. Never give clients full access, they don't need to see internal discussions or administrative controls.
 
 Create a dedicated "Client" role for each project:
 
@@ -66,11 +66,11 @@ Here's what clients see versus team members:
 | Automatic Updates| Receive     | Configure   |
 ```
 
-## Setting Up Automated Check-Ins
+Setting Up Automated Check-Ins
 
 Manual status updates waste everyone's time. Basecamp's automatic check-ins solve this by prompting your team for updates on a schedule, then automatically sending summaries to clients.
 
-Configure check-ins to run twice weekly—Tuesday and Thursday mornings work well for most agencies:
+Configure check-ins to run twice weekly, Tuesday and Thursday mornings work well for most agencies:
 
 ```
 Check-in Questions:
@@ -79,7 +79,7 @@ Check-in Questions:
 3. Any blockers or concerns?
 ```
 
-When clients receive these updates, they get visibility without needing to ask. The key is consistency—stick to the schedule so clients know when to expect updates.
+When clients receive these updates, they get visibility without needing to ask. The key is consistency, stick to the schedule so clients know when to expect updates.
 
 For added automation, use Basecamp's integration with Slack or email to forward check-in summaries:
 
@@ -94,17 +94,17 @@ For added automation, use Basecamp's integration with Slack or email to forward 
 }
 ```
 
-## Organizing Project Structure
+Organizing Project Structure
 
 A well-organized Basecamp project reduces confusion and search time. Create consistent structures across all client projects:
 
-**Message Board Categories:**
+Message Board Categories:
 - Announcements (for major updates)
 - Decisions (for documented choices)
 - Questions (for client input needed)
 - FYI (for informational posts)
 
-**To-Do Lists:**
+To-Do Lists:
 - Discovery & Planning
 - Design Phase
 - Development
@@ -118,48 +118,48 @@ Each to-do list should contain granular tasks with:
 - Attachments for relevant files
 - Dependencies noted in descriptions
 
-## Improving File Sharing
+Improving File Sharing
 
-Clients often need to review deliverables—design mockups, documentation, video recordings. Basecamp's Docs & Files section handles this, but structure it intentionally:
+Clients often need to review deliverables, design mockups, documentation, video recordings. Basecamp's Docs & Files section handles this, but structure it intentionally:
 
 ```
 /Project Root
-  ├── /01-Discovery
-  │     └── Brief, requirements doc
-  ├── /02-Design
-  │     ├── Mockups/
-  │     └── Feedback-archive/
-  ├── /03-Development
-  │     └── (Internal only - not shared)
-  ├── /04-Launch
-  │     └── Checklist, go-live docs
-  └── /05-Maintenance
-        └── Ongoing notes
+   /01-Discovery
+        Brief, requirements doc
+   /02-Design
+        Mockups/
+        Feedback-archive/
+   /03-Development
+        (Internal only - not shared)
+   /04-Launch
+        Checklist, go-live docs
+   /05-Maintenance
+         Ongoing notes
 ```
 
 The key insight: use separate folders for client-accessible content. This prevents accidental exposure of internal discussions while keeping everything in one place.
 
-## Integrating with Your Existing Workflow
+Integrating with Your Existing Workflow
 
 Basecamp works best when connected to your development pipeline. Common integrations include:
 
-**GitHub Integration:**
+GitHub Integration:
 - Link pull requests to Basecamp to-dos
 - Auto-create messages when deployments happen
 - Show commit activity in project activity feed
 
-**Calendar Sync:**
+Calendar Sync:
 - Connect Basecamp schedule to Google Calendar or Outlook
 - Ensure client meetings appear on external calendars
 - Block focus time for deep work
 
-**Slack Notifications:**
+Slack Notifications:
 - Alert specific channels about client feedback
 - Notify team about new client messages
 - Escalate urgent items to real-time communication
 
 ```yaml
-# Example: GitHub Actions workflow to notify Basecamp
+GitHub Actions workflow to notify Basecamp
 name: Notify Basecamp on Deploy
 on:
   push:
@@ -175,31 +175,31 @@ jobs:
           message: "Production deployed successfully"
 ```
 
-## Best Practices for Ongoing Communication
+Best Practices for Ongoing Communication
 
 Once Basecamp is configured, success comes down to consistent habits:
 
-**Response Time Expectations**
+Response Time Expectations
 - Client questions: respond within 24 business hours
 - Urgent issues: acknowledge within 4 hours
 - Regular updates: post on scheduled check-in days
 
-**Document Everything**
+Document Everything
 - Decisions made in calls: summarize in Basecamp messages
 - Client feedback: capture in writing, not just verbal
 - Scope changes: document with to-do and message
 
-**Use @Mentions Strategically**
+Use @Mentions Strategically
 - @mention clients when their input is needed
 - @mention team members for assignments
 - Avoid over-mentioning (causes notification fatigue)
 
-**Archive Completed Work**
+Archive Completed Work
 - Move completed to-dos to "Completed" automatically
 - Archive old messages after project phase ends
 - Keep active work visible, historical work accessible
 
-## Common Pitfalls to Avoid
+Common Pitfalls to Avoid
 
 Many agencies set up Basecamp but fail to get client adoption. Watch for these issues:
 
@@ -213,7 +213,7 @@ Many agencies set up Basecamp but fail to get client adoption. Watch for these i
 
 5. Outdated to-dos: Review and clean up to-dos weekly. Stale items reduce trust.
 
-## Measuring Success
+Measuring Success
 
 Track these metrics to ensure your Basecamp setup is working:
 
@@ -226,34 +226,34 @@ If clients still rely on email for primary communication, that's a sign the Base
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to set up basecamp for remote agency client?**
+How long does it take to set up basecamp for remote agency client?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Create Client Project Retrospective Format for Remote](/how-to-create-client-project-retrospective-format-for-remote/)
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 - [Client Project Status Dashboard Setup for Remote Agency](/client-project-status-dashboard-setup-for-remote-agency-team/)
 - [Remote Agency Client Satisfaction Survey Template](/remote-agency-client-satisfaction-survey-template-and-automa/)
 - [How to Set Up Shared Notion Workspace with Remote Agency](/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

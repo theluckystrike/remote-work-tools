@@ -16,9 +16,9 @@ voice-checked: true
 
 {% raw %}
 
-Track remote team velocity by measuring three complementary metrics: **sprint velocity** (story points completed per sprint), **cycle time** (days from work-item start to completion), and **throughput** (count of items completed per week). Collect this data automatically from your existing tools--GitHub Issues, Jira, or Linear--using webhook-triggered pipelines, then aggregate weekly to establish a reliable baseline after 4-6 sprints. Focus on completed deliverables rather than activity metrics like commits or hours online, which encourage performative work. This guide provides the Python calculation scripts, GitHub Actions pipeline, and dashboard setup to implement velocity tracking with minimal overhead.
+Track remote team velocity by measuring three complementary metrics: sprint velocity (story points completed per sprint), cycle time (days from work-item start to completion), and throughput (count of items completed per week). Collect this data automatically from your existing tools--GitHub Issues, Jira, or Linear--using webhook-triggered pipelines, then aggregate weekly to establish a reliable baseline after 4-6 sprints. Focus on completed deliverables rather than activity metrics like commits or hours online, which encourage performative work. This guide provides the Python calculation scripts, GitHub Actions pipeline, and dashboard setup to implement velocity tracking with minimal overhead.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -28,15 +28,15 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Understand Velocity in Async Environments
+Step 1: Understand Velocity in Async Environments
 
 Velocity measures how much work a team completes in a given timeframe. In remote settings, traditional methods like observing someone at their desk no longer apply. Instead, you track completed work items, story points, or feature deliveries over time.
 
 The core challenge: remote work introduces time zone differences, flexible schedules, and communication delays that can distort simple counting metrics. A thoughtful velocity tracking system accounts for these factors while keeping measurement overhead low.
 
-### Step 2: Core Velocity Metrics to Track
+Step 2: Core Velocity Metrics to Track
 
-### Sprint Velocity
+Sprint Velocity
 
 Sprint velocity measures story points completed per sprint. For remote teams, calculate this by summing completed story points across all team members:
 
@@ -53,7 +53,7 @@ def calculate_sprint_velocity(completed_items):
     """
     return sum(item.get('story_points', 0) for item in completed_items)
 
-# Example usage
+Example usage
 sprint_completed = [
     {'id': 1, 'story_points': 5, 'completed_at': '2026-03-10'},
     {'id': 2, 'story_points': 3, 'completed_at': '2026-03-12'},
@@ -66,7 +66,7 @@ print(f"Sprint velocity: {velocity} points")  # Output: 16
 
 Track this weekly to establish a baseline. After 4-6 sprints, you have a reliable average velocity that accounts for the natural variation in remote work patterns.
 
-### Cycle Time
+Cycle Time
 
 Cycle time measures elapsed time from work item start to completion. For remote teams, this captures how long features actually take, independent of when people were online:
 
@@ -79,7 +79,7 @@ def calculate_cycle_time(start_date, end_date):
     end = datetime.fromisoformat(end_date)
     return (end - start).days
 
-# Track cycle time per work item
+Track cycle time per work item
 work_items = [
     {'task': 'API endpoint', 'started': '2026-03-01', 'completed': '2026-03-05'},
     {'task': 'Database migration', 'started': '2026-03-03', 'completed': '2026-03-08'},
@@ -95,7 +95,7 @@ print(f"Average cycle time: {avg_cycle_time:.1f} days")  # Output: 4.3 days
 
 Lower cycle times generally indicate smoother workflows, while increasing cycle times signal blockers worth investigating.
 
-### Throughput
+Throughput
 
 Throughput counts completed items per week or month. Unlike story points, throughput simply counts work units, making it useful for teams that don't use point-based estimation:
 
@@ -115,7 +115,7 @@ def calculate_weekly_throughput(completed_items):
 
     return dict(weekly)
 
-# Example throughput calculation
+Example throughput calculation
 completed = [
     {'id': 1, 'completed_at': '2026-03-02'},
     {'id': 2, 'completed_at': '2026-03-03'},
@@ -126,17 +126,17 @@ completed = [
 
 throughput = calculate_weekly_throughput(completed)
 print(f"Weekly throughput: {throughput}")
-# Output: {'2026-03-03': 3, '2026-03-10': 2}
+Output: {'2026-03-03': 3, '2026-03-10': 2}
 ```
 
-### Step 3: Set Up Velocity Tracking
+Step 3: Set Up Velocity Tracking
 
-### Data Collection Pipeline
+Data Collection Pipeline
 
 Build a simple pipeline to collect velocity data from your existing tools. Most teams use a combination of Git commits, project management tickets, and CI/CD pipelines:
 
 ```yaml
-# Example: GitHub Actions workflow for tracking velocity
+GitHub Actions workflow for tracking velocity
 name: Velocity Tracker
 
 on:
@@ -164,7 +164,7 @@ jobs:
                 \"completed_at\": \"${{ github.event.issue.closed_at }}\"}"
 ```
 
-### Velocity Dashboards
+Velocity Dashboards
 
 Create a simple visualization to track trends over time. A basic approach uses a CSV store with weekly aggregated data:
 
@@ -206,21 +206,21 @@ new Chart(document.getElementById('velocityChart'), {
 });
 ```
 
-### Step 4: Avoiding Common Pitfalls
+Step 4: Avoiding Common Pitfalls
 
-### Don't Track Activity Instead of Outcomes
+Don't Track Activity Instead of Outcomes
 
-Remote teams often fall into the trap of measuring keyboard activity—commits, messages sent, hours online. These metrics encourage performative work rather than actual progress. Focus on completed deliverables instead.
+Remote teams often fall into the trap of measuring keyboard activity, commits, messages sent, hours online. These metrics encourage performative work rather than actual progress. Focus on completed deliverables instead.
 
-### Account for Time Zone Effects
+Account for Time Zone Effects
 
 When team members work across time zones, work continues around the clock but measurement windows may not align. Use UTC timestamps consistently and aggregate by calendar day or week rather than "business days."
 
-### Keep Measurement Transparent
+Keep Measurement Transparent
 
 Share velocity metrics openly with the team. When people understand how velocity is calculated, they can contribute to improving it rather than feeling surveilled.
 
-### Step 5: Practical Velocity Tracking Setup
+Step 5: Practical Velocity Tracking Setup
 
 For most remote teams, a minimal setup includes:
 
@@ -231,49 +231,49 @@ For most remote teams, a minimal setup includes:
 
 You don't need expensive tools to track velocity effectively. A spreadsheet with the formulas above works well for teams under 20 people. As you scale, graduate to dedicated analytics tools that integrate with your existing workflow.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to track remote team velocity metrics?**
+How long does it take to track remote team velocity metrics?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Remote Team Story Point Velocity Trend Analysis Tool](/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
 - [How to Track Remote Team Hiring Pipeline Velocity](/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
 - [How to Track Remote Team Use Rate Without Invasive](/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
 - [Remote Team Feature Delivery Predictability Metric](/remote-team-feature-delivery-predictability-metric-for-distr/)
 - [Best Tools for Remote Team Sprint Planning (2026)](/best-tools-for-remote-team-sprint-planning-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

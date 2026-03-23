@@ -15,22 +15,22 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-Caddy is the easiest way to put HTTPS in front of every internal tool your team runs — Grafana, Kibana, Gitea, a private Retool instance, whatever. It auto-provisions TLS from Let's Encrypt, reloads config without dropping connections, and ships a dead-simple declarative config format. This guide walks through a production-ready Caddy setup for a distributed team.
+Caddy is the easiest way to put HTTPS in front of every internal tool your team runs. Grafana, Kibana, Gitea, a private Retool instance, whatever. It auto-provisions TLS from Let's Encrypt, reloads config without dropping connections, and ships a dead-simple declarative config format. This guide walks through a production-ready Caddy setup for a distributed team.
 
-## Why Caddy Over nginx or Traefik
+Why Caddy Over nginx or Traefik
 
-nginx requires manual cert renewal via cron + certbot. Traefik is great but demands a running Docker daemon and a non-trivial label schema. Caddy gives you automatic HTTPS with zero cron jobs, a single Caddyfile, and a JSON API for dynamic updates — ideal for small platform teams.
+nginx requires manual cert renewal via cron + certbot. Traefik is great but demands a running Docker daemon and a non-trivial label schema. Caddy gives you automatic HTTPS with zero cron jobs, a single Caddyfile, and a JSON API for dynamic updates. ideal for small platform teams.
 
-**Caddy's hard advantages:**
+Caddy's hard advantages:
 - `tls internal` generates a local CA and signs certs for `.internal` domains with no DNS challenge
-- `reload` is atomic — workers drain gracefully before config swap
+- `reload` is atomic. workers drain gracefully before config swap
 - Built-in basic auth, rate limiting, request logging, and header manipulation
 - Single ~50 MB binary, no external dependencies
 
-## Install Caddy
+Install Caddy
 
 ```bash
-# Debian/Ubuntu
+Debian/Ubuntu
 sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https curl
 curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' \
   | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
@@ -38,10 +38,10 @@ curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' \
   | sudo tee /etc/apt/sources.list.d/caddy-stable.list
 sudo apt update && sudo apt install caddy
 
-# macOS (Homebrew)
+macOS (Homebrew)
 brew install caddy
 
-# Binary download (any Linux)
+Binary download (any Linux)
 curl -L "https://github.com/caddyserver/caddy/releases/latest/download/caddy_linux_amd64.tar.gz" \
   | tar -xz caddy
 sudo mv caddy /usr/local/bin/
@@ -52,20 +52,20 @@ Verify:
 
 ```bash
 caddy version
-# v2.9.1 h1:...
+v2.9.1 h1:...
 ```
 
-## Directory Layout
+Directory Layout
 
 ```
 /etc/caddy/
-├── Caddyfile          # main config
-├── snippets/
-│   ├── auth.caddy     # shared auth block
-│   └── headers.caddy  # shared security headers
-└── tls/
-    ├── cert.pem       # optional manual cert
-    └── key.pem
+ Caddyfile          # main config
+ snippets/
+    auth.caddy     # shared auth block
+    headers.caddy  # shared security headers
+ tls/
+     cert.pem       # optional manual cert
+     key.pem
 ```
 
 Create directories:
@@ -75,14 +75,14 @@ sudo mkdir -p /etc/caddy/snippets /etc/caddy/tls
 sudo chown -R caddy:caddy /etc/caddy
 ```
 
-## Basic Caddyfile for Internal Tools
+Basic Caddyfile for Internal Tools
 
 ```caddyfile
-# /etc/caddy/Caddyfile
+/etc/caddy/Caddyfile
 
 {
     # Global options
-    admin 127.0.0.1:2019        # JSON API — never expose publicly
+    admin 127.0.0.1:2019        # JSON API. never expose publicly
     log {
         level  INFO
         format json
@@ -91,7 +91,7 @@ sudo chown -R caddy:caddy /etc/caddy
     local_certs
 }
 
-# Grafana
+Grafana
 grafana.internal.example.com {
     reverse_proxy localhost:3000
     import snippets/auth.caddy
@@ -99,7 +99,7 @@ grafana.internal.example.com {
     tls internal
 }
 
-# Kibana
+Kibana
 kibana.internal.example.com {
     reverse_proxy localhost:5601
     import snippets/auth.caddy
@@ -107,7 +107,7 @@ kibana.internal.example.com {
     tls internal
 }
 
-# Gitea
+Gitea
 git.internal.example.com {
     reverse_proxy localhost:3001 {
         header_up X-Forwarded-Proto {scheme}
@@ -117,7 +117,7 @@ git.internal.example.com {
     tls internal
 }
 
-# Retool / internal app
+Retool / internal app
 app.internal.example.com {
     reverse_proxy localhost:3002
     import snippets/auth.caddy
@@ -126,11 +126,11 @@ app.internal.example.com {
 }
 ```
 
-### auth.caddy Snippet
+auth.caddy Snippet
 
 ```caddyfile
-# /etc/caddy/snippets/auth.caddy
-# Protects any site with HTTP basic auth
+/etc/caddy/snippets/auth.caddy
+Protects any site with HTTP basic auth
 basicauth {
     # Generate hash: caddy hash-password --plaintext "your-password"
     ops       $2a$14$K6GzFsRqZZqBxl3GNXR8i.D7ZW9IuJLiNFwqPCl5w0xE3h3M4pBfG
@@ -144,10 +144,10 @@ Generate a new hash:
 caddy hash-password --plaintext "your-secure-password"
 ```
 
-### headers.caddy Snippet
+headers.caddy Snippet
 
 ```caddyfile
-# /etc/caddy/snippets/headers.caddy
+/etc/caddy/snippets/headers.caddy
 header {
     Strict-Transport-Security "max-age=31536000; includeSubDomains"
     X-Content-Type-Options    "nosniff"
@@ -158,12 +158,12 @@ header {
 }
 ```
 
-## Wildcard TLS With DNS Challenge
+Wildcard TLS With DNS Challenge
 
 For a real domain using AWS Route 53:
 
 ```bash
-# Install the Route53 DNS plugin
+Install the Route53 DNS plugin
 xcaddy build --with github.com/caddy-dns/route53
 ```
 
@@ -202,12 +202,12 @@ xcaddy build --with github.com/caddy-dns/route53
 }
 ```
 
-## Systemd Service
+Systemd Service
 
 If you installed from the apt repo, systemd is already configured. For a binary install:
 
 ```bash
-# /etc/systemd/system/caddy.service
+/etc/systemd/system/caddy.service
 sudo tee /etc/systemd/system/caddy.service > /dev/null <<'EOF'
 [Unit]
 Description=Caddy
@@ -235,22 +235,22 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now caddy
 ```
 
-## Zero-Downtime Config Reload
+Zero-Downtime Config Reload
 
 ```bash
-# Validate config before reloading
+Validate config before reloading
 caddy validate --config /etc/caddy/Caddyfile
 
-# Reload running instance (no dropped connections)
+Reload running instance (no dropped connections)
 sudo systemctl reload caddy
 
-# Or use the API directly
+Or use the API directly
 curl -X POST "http://127.0.0.1:2019/load" \
   -H "Content-Type: text/caddyfile" \
   --data-binary @/etc/caddy/Caddyfile
 ```
 
-## Rate Limiting and IP Allow Lists
+Rate Limiting and IP Allow Lists
 
 ```caddyfile
 grafana.internal.example.com {
@@ -266,7 +266,7 @@ grafana.internal.example.com {
 }
 ```
 
-## OAuth2 Proxy Integration
+OAuth2 Proxy Integration
 
 For SSO via GitHub/Google, run `oauth2-proxy` alongside Caddy:
 
@@ -297,7 +297,7 @@ oauth2-proxy \
   --http-address=127.0.0.1:4180
 ```
 
-## Logging to a File
+Logging to a File
 
 ```caddyfile
 grafana.internal.example.com {
@@ -314,7 +314,7 @@ grafana.internal.example.com {
 }
 ```
 
-## Health Check Endpoint
+Health Check Endpoint
 
 ```caddyfile
 :2020 {
@@ -328,30 +328,30 @@ Verify from monitoring:
 curl -sf http://localhost:2020/health && echo "Caddy UP"
 ```
 
-## Troubleshooting
+Troubleshooting
 
 | Problem | Check |
 |---|---|
 | `permission denied` binding port 80/443 | `sudo setcap CAP_NET_BIND_SERVICE=+eip /usr/local/bin/caddy` |
-| TLS cert not provisioned | `journalctl -u caddy -f` — look for ACME errors |
+| TLS cert not provisioned | `journalctl -u caddy -f`. look for ACME errors |
 | 502 Bad Gateway | Is the upstream actually running on the expected port? |
-| Config reload fails | `caddy validate` first — parse errors are printed clearly |
+| Config reload fails | `caddy validate` first. parse errors are printed clearly |
 | `tls internal` not trusted by browser | Install Caddy's local CA: `caddy trust` |
 
 Install the local CA on macOS clients so browsers trust `.internal` certs:
 
 ```bash
-# On the Caddy server
+On the Caddy server
 sudo caddy trust
 
-# Copy the root CA to clients
+Copy the root CA to clients
 scp caddy-host:/var/lib/caddy/.local/share/caddy/pki/authorities/local/root.crt ~/caddy-local.crt
 
-# macOS
+macOS
 sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ~/caddy-local.crt
 ```
 
-## Related Reading
+Related Reading
 
 - [ArgoCD GitOps Workflow Setup](/argocd-gitops-workflow-setup/)
 - [How to Set Up Flux CD for GitOps](/how-to-set-up-flux-cd-for-gitops/)
@@ -359,6 +359,6 @@ sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keyc
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

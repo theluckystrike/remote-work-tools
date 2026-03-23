@@ -16,7 +16,7 @@ tags: [remote-work-tools, remote-work]
 
 Managing project timelines across distributed teams and external agencies presents unique challenges. When your collaborators span multiple time zones and use different tools, keeping everyone aligned requires a systematic approach. This guide covers practical methods for creating and sharing project timelines using command-line tools that integrate with your existing workflow.
 
-## Table of Contents
+Table of Contents
 
 - [Why CLI-Based Timelines Work for Remote Collaboration](#why-cli-based-timelines-work-for-remote-collaboration)
 - [Method 1: Using Taskwarrior with Export](#method-1-using-taskwarrior-with-export)
@@ -28,25 +28,25 @@ Managing project timelines across distributed teams and external agencies presen
 - [Choosing the Right Method for Your Client](#choosing-the-right-method-for-your-client)
 - [Best Practices for Shared Timelines](#best-practices-for-shared-timelines)
 
-## Why CLI-Based Timelines Work for Remote Collaboration
+Why CLI-Based Timelines Work for Remote Collaboration
 
 Command-line tools offer several advantages for remote agency work. They version-control naturally through Git, they integrate into automation pipelines, and they produce output in formats that sync across devices. Unlike GUI-based tools that require manual export and import, CLI-generated timelines maintain consistency across every team member's environment.
 
 The primary benefit is reproducibility. When a timeline lives as code, you can regenerate it, branch it for different scenarios, and track changes through standard version control. This transparency builds trust with agency clients who want visibility into project milestones without accessing your internal tools.
 
-A secondary benefit is automation. A timeline defined as structured data — CSV, YAML, or Markdown — can feed into automated status reports, Slack notifications, or email digests without manual reformatting. The timeline becomes a single source of truth that drives communication rather than a document that needs to stay in sync with other documents.
+A secondary benefit is automation. A timeline defined as structured data. CSV, YAML, or Markdown. can feed into automated status reports, Slack notifications, or email digests without manual reformatting. The timeline becomes a single source of truth that drives communication rather than a document that needs to stay in sync with other documents.
 
-## Method 1: Using Taskwarrior with Export
+Method 1: Using Taskwarrior with Export
 
 Taskwarrior is a mature command-line task manager that supports detailed task attributes including due dates, dependencies, and tags. You can create a project timeline by defining tasks with appropriate start and due dates, then export them for client-facing reports.
 
 First, install Taskwarrior via your package manager:
 
 ```bash
-# macOS
+macOS
 brew install task
 
-# Ubuntu/Debian
+Ubuntu/Debian
 sudo apt-get install taskwarrior
 ```
 
@@ -81,16 +81,16 @@ task project:"Website Redesign" +client-facing list
 
 This outputs a clean table of tasks with due dates that reads naturally in any plain-text context.
 
-## Method 2: Markdown + Mermaid Diagrams
+Method 2: Markdown + Mermaid Diagrams
 
 Mermaid.js supports Gantt charts rendered from text definitions. This approach produces visual timelines that live in your project documentation and render in any Markdown-compatible viewer including GitHub and GitLab.
 
 Create a `timeline.md` file in your project:
 
 ```markdown
-# Project Timeline
+Project Timeline
 
-## Phase Overview
+Phase Overview
 
 ```mermaid
 gantt
@@ -120,9 +120,9 @@ Production deploy:milestone, 2026-05-20, 0d
 
 The `crit` keyword marks critical path items, while `milestone` highlights key deliverables. Clients see a visual representation that updates automatically when you modify the underlying text.
 
-Mermaid diagrams render natively in GitHub, GitLab, and Notion. If your client has access to a shared GitHub repository or Notion space, this approach requires zero additional tooling on their end — they just open the document and see the chart.
+Mermaid diagrams render natively in GitHub, GitLab, and Notion. If your client has access to a shared GitHub repository or Notion space, this approach requires zero additional tooling on their end. they just open the document and see the chart.
 
-## Method 3: CSV Export from Spreadsheets
+Method 3: CSV Export from Spreadsheets
 
 For agencies comfortable with spreadsheets, generate timelines from CSV data and convert them to client-friendly formats. This hybrid approach takes advantage of spreadsheet familiarity while producing shareable outputs.
 
@@ -175,7 +175,7 @@ if __name__ == '__main__':
 
 This produces a clean HTML table you can embed in client portals or send as an attachment.
 
-## Handling Scope Changes and Timeline Updates
+Handling Scope Changes and Timeline Updates
 
 Timelines are living documents. When scope changes, you need to update the timeline, communicate the change clearly, and preserve the history of what changed and why. CLI-based timelines make this straightforward.
 
@@ -195,7 +195,7 @@ git diff HEAD~1 timeline.csv | grep '^[+-]' | grep -v '^---\|^+++'
 
 This output shows exactly which rows changed. Paste it into a client Slack message or email alongside a brief explanation of the business reason for the change.
 
-## Automating Weekly Status Reports
+Automating Weekly Status Reports
 
 The real productivity gain from CLI-based timelines is automation. Instead of manually compiling a weekly status update, generate it from your timeline data.
 
@@ -203,7 +203,7 @@ A simple shell script can produce a weekly report ready to send:
 
 ```bash
 #!/bin/bash
-# weekly-report.sh
+weekly-report.sh
 
 echo "# Weekly Project Status - $(date +%Y-%m-%d)"
 echo ""
@@ -221,7 +221,7 @@ task project:"Website Redesign" +milestone list
 
 Schedule this to run Friday afternoons and pipe the output to a Markdown file, then commit it to the shared repository. Clients receive consistent, formatted updates without anyone spending time on manual compilation.
 
-## Choosing the Right Method for Your Client
+Choosing the Right Method for Your Client
 
 Different clients need different formats. A technical client who works in GitHub daily will appreciate Mermaid diagrams in a shared repository. A non-technical business stakeholder needs a calendar invite or a clean HTML table they can view in a browser.
 
@@ -229,7 +229,7 @@ Assess client preferences during project kickoff by asking: "What format would m
 
 For agencies managing multiple clients simultaneously, maintain one canonical timeline format internally (CSV or Taskwarrior) and automate exports to client-specific formats. This single-source-of-truth approach prevents the common problem of timelines drifting out of sync across formats.
 
-## Best Practices for Shared Timelines
+Best Practices for Shared Timelines
 
 Keep timelines current by updating them during weekly sync meetings. Link your timeline files in your project management tool so changes propagate to team awareness. For agency clients, provide read-only access to a shared document rather than sending static files that quickly become outdated.
 
@@ -241,31 +241,31 @@ git commit -m "Update timeline: extend design phase for client feedback"
 
 This creates an audit trail of project evolution that helps both parties understand scope changes.
 
-Set a calendar reminder to review the timeline every Monday. A timeline that hasn't been touched in two weeks is probably stale. Stale timelines erode client trust faster than delayed milestones — the delay is understandable, but discovering it without notice is not.
+Set a calendar reminder to review the timeline every Monday. A timeline that hasn't been touched in two weeks is probably stale. Stale timelines erode client trust faster than delayed milestones. the delay is understandable, but discovering it without notice is not.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to create shared project timeline with remote agency cli?**
+How long does it take to create shared project timeline with remote agency cli?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Client Project Status Dashboard Setup for Remote Agency](/client-project-status-dashboard-setup-for-remote-agency-team/)
 - [Project Kickoff: [Project Name]](/how-to-create-remote-team-project-kickoff-documentation-temp/)
@@ -274,4 +274,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Set Up Basecamp for Remote Agency Client](/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 ```
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

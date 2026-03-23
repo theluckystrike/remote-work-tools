@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tools for Remote Team Knowledge Graphs"
-description: "Top knowledge graph tools remote teams use to map relationships between concepts, people, and systems — with setup for Obsidian, Logseq, and Memgraph"
+description: "Top knowledge graph tools remote teams use to map relationships between concepts, people, and systems. with setup for Obsidian, Logseq, and Memgraph"
 date: 2026-03-22
 author: theluckystrike
 permalink: /best-tools-remote-team-knowledge-graphs/
@@ -26,7 +26,7 @@ Knowledge graphs connect related information in ways that flat wikis can't. For 
 | Luminoodle Bias Lighting | USB-powered strip | 6500K daylight | 39.4 in | $12 |
 | Govee Flow Pro | Smart lightbar | 2200K-6500K sync | 15.7 in each | $70 (2-pack) |
 
-## When to Use Knowledge Graphs vs Wikis
+When to Use Knowledge Graphs vs Wikis
 
 ```
 Use a wiki when:
@@ -41,20 +41,20 @@ Use a knowledge graph when:
   - You want to visualize architecture or dependencies
 ```
 
-## 1. Obsidian (Best for Individual + Small Teams)
+1. Obsidian (Best for Individual + Small Teams)
 
-**Cost:** Free (personal), $50/year (Sync for teams)
-**Best for:** Personal knowledge management, team knowledge bases up to ~20 people
+Cost: Free (personal), $50/year (Sync for teams)
+Best for: Personal knowledge management, team knowledge bases up to ~20 people
 
 ```bash
-# Install
+Install
 brew install --cask obsidian
 ```
 
 Obsidian's graph view visualizes wiki-style links between notes:
 
 ```markdown
-# Microservice: Auth Service
+Microservice: Auth Service
 
 Related systems:
   - [[Database: Users]]
@@ -72,16 +72,16 @@ Known incidents: [[Incident 2025-11-03 Auth Outage]]
 Team vault setup (git-based):
 
 ```bash
-# Initialize shared vault in git repo
+Initialize shared vault in git repo
 mkdir team-knowledge
 cd team-knowledge
 git init
 git remote add origin git@github.com:yourorg/team-knowledge.git
 
-# Create folder structure
+Create folder structure
 mkdir -p services people teams incidents decisions
 
-# .obsidian/app.json - configure for team use
+.obsidian/app.json - configure for team use
 cat > .obsidian/app.json << 'EOF'
 {
   "useMarkdownLinks": true,
@@ -111,13 +111,13 @@ Graph visualization settings for teams:
 }
 ```
 
-## 2. Logseq (Best Open Source Option)
+2. Logseq (Best Open Source Option)
 
-**Cost:** Free (local-first, open source)
-**Best for:** Daily notes + knowledge graph, teams comfortable with Markdown
+Cost: Free (local-first, open source)
+Best for: Daily notes + knowledge graph, teams comfortable with Markdown
 
 ```bash
-# Install
+Install
 brew install --cask logseq
 ```
 
@@ -141,18 +141,18 @@ Logseq uses block-level links. Team system map example:
 ```
 
 ```bash
-# Git sync for team (Logseq doesn't have native sync in OSS version)
-# Add to crontab:
+Git sync for team (Logseq doesn't have native sync in OSS version)
+Add to crontab:
 */30 * * * * cd ~/logseq-team-graph && git pull --rebase && git add . && git commit -m "Auto-sync $(date +%H:%M)" && git push 2>/dev/null
 ```
 
-## 3. Memgraph (Best for Technical Architecture Graphs)
+3. Memgraph (Best for Technical Architecture Graphs)
 
-**Cost:** Free (Community), $0.30/hr (Enterprise cloud)
-**Best for:** Querying relationships in code, infrastructure, and incident data
+Cost: Free (Community), $0.30/hr (Enterprise cloud)
+Best for: Querying relationships in code, infrastructure, and incident data
 
 ```bash
-# Run Memgraph with Docker
+Run Memgraph with Docker
 docker run -d \
   --name memgraph \
   -p 7687:7687 \
@@ -161,7 +161,7 @@ docker run -d \
   --restart unless-stopped \
   memgraph/memgraph-platform:latest
 
-# Memgraph Lab UI available at http://localhost:3000
+Memgraph Lab UI available at http://localhost:3000
 ```
 
 Load your service dependency graph:
@@ -210,7 +210,7 @@ RETURN d.name AS database, collect(DISTINCT s1.name) + collect(DISTINCT s2.name)
 Python integration for automated graph updates:
 
 ```python
-# scripts/update-service-graph.py
+scripts/update-service-graph.py
 from gqlalchemy import Memgraph
 import yaml
 import os
@@ -245,10 +245,10 @@ if __name__ == "__main__":
     print(f"Synced {len(services)} services to Memgraph")
 ```
 
-## 4. Kumu (Best for Non-Technical Stakeholders)
+4. Kumu (Best for Non-Technical Stakeholders)
 
-**Cost:** $75/month (teams)
-**Best for:** Org charts, stakeholder maps, visual knowledge graphs without graph DB skills
+Cost: $75/month (teams)
+Best for: Org charts, stakeholder maps, visual knowledge graphs without graph DB skills
 
 Kumu uses JSON to define graph data, importable via spreadsheet:
 
@@ -267,10 +267,10 @@ Kumu uses JSON to define graph data, importable via spreadsheet:
 }
 ```
 
-## 5. Neo4j Bloom (Best Enterprise Graph DB)
+5. Neo4j Bloom (Best Enterprise Graph DB)
 
 ```bash
-# Self-host Neo4j with Docker
+Self-host Neo4j with Docker
 docker run -d \
   --name neo4j \
   -p 7474:7474 -p 7687:7687 \
@@ -279,7 +279,7 @@ docker run -d \
   --restart unless-stopped \
   neo4j:5.16
 
-# Access browser at http://localhost:7474
+Access browser at http://localhost:7474
 ```
 
 ```cypher
@@ -292,7 +292,7 @@ ORDER BY incident_count DESC;
 // Surfaces most incident-prone services
 ```
 
-## Choosing the Right Tool
+Choosing the Right Tool
 
 ```
 Personal notes + small team:         Obsidian (markdown, git-friendly)
@@ -302,7 +302,7 @@ Stakeholder + org mapping:           Kumu
 Enterprise with existing Neo4j:      Neo4j Bloom
 ```
 
-## Related Reading
+Related Reading
 
 - [Best Knowledge Base Platform for Remote Support Teams](/best-knowledge-base-platform-for-remote-support-team-custome/)
 - [How to Create a Remote Team Tech Radar](/how-to-create-remote-team-tech-radar/)
@@ -311,13 +311,13 @@ Enterprise with existing Neo4j:      Neo4j Bloom
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Obsidian for Remote Team Knowledge Management](/obsidian-remote-team-knowledge-management/)
 - [How to Manage Remote Team Knowledge Base: Complete Guide](/how-to-manage-remote-team-knowledge-base-guide/)
 - [How to Prevent Knowledge Silos When Remote Team Grows Past](/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
 - [Best Knowledge Base Platform for Remote Support Team](/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
 - [Best Tools for Remote Team Knowledge Base 2026](/best-tools-for-remote-team-knowledge-base-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -21,30 +21,30 @@ This guide provides templates for three core playbook types: incident response, 
 
 ---
 
-## Incident Response Playbook Template
+Incident Response Playbook Template
 
 ```markdown
-# Incident: [INCIDENT-NAME]
+Incident: [INCIDENT-NAME]
 
-**Severity**: P1 / P2 / P3
-**Status**: Active / Resolved
-**Incident Commander**: @[owner]
-**Started**: YYYY-MM-DD HH:MM UTC
-**Resolved**: YYYY-MM-DD HH:MM UTC (fill when resolved)
+Severity: P1 / P2 / P3
+Status: Active / Resolved
+Incident Commander: @[owner]
+Started: YYYY-MM-DD HH:MM UTC
+Resolved: YYYY-MM-DD HH:MM UTC (fill when resolved)
 
 ---
 
-## What Is Happening
+What Is Happening
 
 One paragraph plain-language description of the incident. What is affected? Who is affected? What is the user-visible impact?
 
 > Example: "The payments API is returning 502 errors for ~40% of checkout attempts. Approximately 200 users per hour are unable to complete purchases. The error started at 14:23 UTC."
 
-## Current Status
+Current Status
 
 > Example: "Identified root cause (database connection pool exhausted). Implementing fix. ETA 30 minutes."
 
-## Timeline
+Timeline
 
 | Time (UTC) | Event |
 |------------|-------|
@@ -54,37 +54,37 @@ One paragraph plain-language description of the incident. What is affected? Who 
 | 15:10 | Fix deployed |
 | 15:15 | Confirmed resolved |
 
-## Impact
+Impact
 
-- **Services affected**: payments-api, checkout-frontend
-- **Error rate**: ~40%
-- **Users affected**: ~200/hour
-- **Revenue impact**: ~$4,000/hour estimate
-- **External customers notified**: [Yes/No] via [status.yourcompany.com]
+- Services affected: payments-api, checkout-frontend
+- Error rate: ~40%
+- Users affected: ~200/hour
+- Revenue impact: ~$4,000/hour estimate
+- External customers notified: [Yes/No] via [status.yourcompany.com]
 
 ---
 
-## Diagnosis Steps
+Diagnosis Steps
 
 Run these commands to gather context:
 
 ```bash
-# Check service health
+Check service health
 kubectl get pods -n production | grep payments
 
-# View recent error logs
+View recent error logs
 kubectl logs -n production deployment/payments-api --since=30m | grep ERROR | tail -50
 
-# Check database connectivity
+Check database connectivity
 kubectl exec -n production deployment/payments-api -- \
  pg_isready -h $DB_HOST -p 5432
 
-# View active DB connections
+View active DB connections
 psql -h $DB_HOST -U postgres -c \
  "SELECT count(*), state FROM pg_stat_activity GROUP BY state;"
 ```
 
-## Mitigation Options
+Mitigation Options
 
 | Option | Risk | ETA | Steps |
 |--------|------|-----|-------|
@@ -93,61 +93,61 @@ psql -h $DB_HOST -U postgres -c \
 | Increase DB pool size | Medium | 15 min | Edit `DB_POOL_SIZE` env var and redeploy |
 | Enable maintenance mode | Medium | 2 min | Set `MAINTENANCE_MODE=true` in config and redeploy |
 
-## Resolution
+Resolution
 
 > What was done to resolve the incident. What was the root cause?
 
-## Follow-up Actions
+Follow-up Actions
 
-- [ ] Write post-mortem by [DATE] — @[owner]
-- [ ] Add alert for [condition] — @[owner]
-- [ ] Fix root cause permanently — ENG-[ticket]
-- [ ] Update runbook with new steps — @[owner]
+- [ ] Write post-mortem by [DATE]. @[owner]
+- [ ] Add alert for [condition]. @[owner]
+- [ ] Fix root cause permanently. ENG-[ticket]
+- [ ] Update runbook with new steps. @[owner]
 ```
 
 ---
 
-## Deployment Playbook Template
+Deployment Playbook Template
 
 ```markdown
-# Deployment: [SERVICE-NAME] v[VERSION]
+Deployment: [SERVICE-NAME] v[VERSION]
 
-**Deployer**: @[name]
-**Date**: YYYY-MM-DD
-**Environment**: staging / production
-**Deploy type**: Standard / Hotfix / Rollback
-**PR / Release**: [link]
+Deployer: @[name]
+Date: YYYY-MM-DD
+Environment: staging / production
+Deploy type: Standard / Hotfix / Rollback
+PR / Release: [link]
 
 ---
 
-## Pre-Deployment Checklist
+Pre-Deployment Checklist
 
-### Code
+Code
 - [ ] PR approved by required reviewers
 - [ ] All CI checks passing
 - [ ] CHANGELOG updated
 - [ ] Migration scripts reviewed (if applicable)
 
-### Staging Verified
+Staging Verified
 - [ ] Deployed to staging successfully
 - [ ] Smoke tests passing on staging
 - [ ] New feature tested on staging
 
-### Dependencies
+Dependencies
 - [ ] Dependent services notified
 - [ ] External APIs/webhooks compatible with new version
 - [ ] Feature flags configured for gradual rollout
 
-### Rollback Plan
+Rollback Plan
 - [ ] Previous version noted: `v[PREVIOUS_VERSION]`
 - [ ] Rollback command tested: `kubectl rollout undo deployment/[service]`
-- [ ] Database migrations are reversible: [Yes / No — explain if No]
+- [ ] Database migrations are reversible: [Yes / No. explain if No]
 
 ---
 
-## Deployment Steps
+Deployment Steps
 
-### 1. Announce
+1. Announce
 
 Post in #deployments Slack channel:
 ```
@@ -157,36 +157,36 @@ Risk: Low / Medium / High
 Rollback ready: yes
 ```
 
-### 2. Deploy
+2. Deploy
 
 ```bash
-# Tag and push (if not automated)
+Tag and push (if not automated)
 git tag v[version]
 git push origin v[version]
 
-# Trigger deploy (if manual)
+Trigger deploy (if manual)
 kubectl set image deployment/[service] [service]=[registry]/[service]:v[version] -n production
 
-# Wait for rollout
+Wait for rollout
 kubectl rollout status deployment/[service] -n production --timeout=5m
 ```
 
-### 3. Verify
+3. Verify
 
 ```bash
-# Check pods are running
+Check pods are running
 kubectl get pods -n production -l app=[service]
 
-# Confirm new version
+Confirm new version
 kubectl describe deployment/[service] -n production | grep Image
 
-# Check error rate (first 5 minutes)
-# Run this every 60 seconds x5
+Check error rate (first 5 minutes)
+Run this every 60 seconds x5
 curl -s "https://monitoring.yourcompany.com/api/v1/query?query=rate(http_requests_total{service='[service]',status=~'5..'}[1m])" \
  | jq '.data.result[0].value[1]'
 ```
 
-### 4. Post-Deploy
+4. Post-Deploy
 
 - [ ] Confirm smoke tests pass in production
 - [ ] Update status page if maintenance window was posted
@@ -195,16 +195,16 @@ curl -s "https://monitoring.yourcompany.com/api/v1/query?query=rate(http_request
 
 ---
 
-## Rollback Procedure
+Rollback Procedure
 
 If error rate increases or critical errors appear:
 
 ```bash
-# Immediate rollback
+Immediate rollback
 kubectl rollout undo deployment/[service] -n production
 kubectl rollout status deployment/[service] -n production
 
-# Verify rollback
+Verify rollback
 kubectl describe deployment/[service] -n production | grep Image
 ```
 
@@ -218,24 +218,24 @@ Investigation ongoing in #incidents
 
 ---
 
-## Onboarding Playbook Template
+Onboarding Playbook Template
 
 ```markdown
-# Onboarding: [ENGINEER_NAME]
+Onboarding: [ENGINEER_NAME]
 
-**Start Date**: YYYY-MM-DD
-**Role**: [role]
-**Manager**: @[manager]
-**Buddy**: @[buddy]
-**Team**: [team name]
+Start Date: YYYY-MM-DD
+Role: [role]
+Manager: @[manager]
+Buddy: @[buddy]
+Team: [team name]
 
 ---
 
-## Week 1: Foundation
+Week 1: Foundation
 
-### Day 1 — Access and Setup
+Day 1. Access and Setup
 
-**IT/Admin tasks (Manager)**
+IT/Admin tasks (Manager)
 - [ ] Google Workspace account created
 - [ ] GitHub org invitation sent
 - [ ] Slack invitation sent
@@ -243,10 +243,10 @@ Investigation ongoing in #incidents
 - [ ] PagerDuty account created (if on-call eligible)
 - [ ] AWS/GCP/Azure console access configured
 
-**Environment setup (New Hire)**
+Environment setup (New Hire)
 
 ```bash
-# Clone the onboarding repo for setup scripts
+Clone the onboarding repo for setup scripts
 git clone git@github.com:your-org/onboarding.git
 cd onboarding && make setup
 ```
@@ -256,7 +256,7 @@ cd onboarding && make setup
 - [ ] VPN configured and tested
 - [ ] 2FA enabled on all accounts
 
-### Day 2-3 — Codebase Orientation
+Day 2-3. Codebase Orientation
 
 - [ ] Read architecture overview in Notion: [link]
 - [ ] Read team norms doc: [link]
@@ -264,7 +264,7 @@ cd onboarding && make setup
 - [ ] Complete first "good first issue": [ticket link]
 - [ ] First PR submitted and reviewed
 
-### Day 4-5 — Process and Context
+Day 4-5. Process and Context
 
 - [ ] Attended team standup
 - [ ] Met with buddy (30-min async Loom or sync call)
@@ -273,7 +273,7 @@ cd onboarding && make setup
 
 ---
 
-## Week 2: Contributing
+Week 2: Contributing
 
 - [ ] First PR merged to main
 - [ ] Attended or watched team retro recording
@@ -283,26 +283,26 @@ cd onboarding && make setup
 
 ---
 
-## Ongoing: 30/60/90 Day Goals
+Ongoing: 30/60/90 Day Goals
 
-**30 Days**
+30 Days
 - Ship 3 non-trivial PRs
 - Understand the data model for core services
 - Be able to debug a production issue independently
 
-**60 Days**
+60 Days
 - Own at least one feature end-to-end
 - Be confident with deployment process
 - Contribute to team norms doc with at least one edit
 
-**90 Days**
+90 Days
 - Lead a project or feature
 - Mentor a more junior engineer on a PR review
 - Identify and fix one piece of technical debt
 
 ---
 
-## Key Resources
+Key Resources
 
 | Resource | Link |
 |----------|------|
@@ -316,24 +316,24 @@ cd onboarding && make setup
 
 ---
 
-## Storing and Accessing Playbooks
+Storing and Accessing Playbooks
 
 Playbooks rot if they're not maintained. The best storage is wherever your team already looks:
 
 ```bash
-# Notion database with properties
+Notion database with properties
 Title: [text]
 Type: [Incident / Deployment / Onboarding / Process]
 Owner: [person]
 Last Reviewed: [date]
 Status: [Active / Draft / Archived]
 
-# GitHub Wiki (version-controlled)
+GitHub Wiki (version-controlled)
 docs/
-├── playbooks/
-│   ├── incident-response.md
-│   ├── deployment-standard.md
-│   └── onboarding.md
+ playbooks/
+    incident-response.md
+    deployment-standard.md
+    onboarding.md
 ```
 
 Trigger playbook reminders via GitHub Actions to review stale playbooks:
@@ -356,14 +356,14 @@ jobs:
             | while read msg; do
                 curl -s -X POST \
                   -H 'Content-type: application/json' \
-                  --data "{\"text\":\"$msg — please review and update\"}" \
+                  --data "{\"text\":\"$msg. please review and update\"}" \
                   "${{ secrets.SLACK_WEBHOOK }}"
               done
 ```
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Remote Team Code Review Checklist Template](/remote-team-code-review-checklist-template/)
 - [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
@@ -372,13 +372,13 @@ jobs:
 
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
 - [How to Organize Remote Team Playbook Documentation for](/how-to-organize-remote-team-playbook-documentation-for-repea/)
 - [Remote Work Playbook Template for Startups](/remote-work-playbook-template-for-startups/)
 - [Best Tools for Remote Team Incident Postmortems in 2026](/best-tools-for-remote-team-incident-postmortems-2026/)
 - [How to Create Remote Team Runbook Templates](/how-to-create-remote-team-runbook-templates/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

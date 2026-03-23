@@ -16,9 +16,9 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-Use Architecture Decision Records (ADRs) for remote team technical discussions by documenting context, decision, consequences, and considered alternatives—with a 48-72 hour async review period allowing team members across time zones to provide structured feedback. This creates searchable institutional knowledge of technical choices, enabling future team members to understand not just what was decided but why.
+Use Architecture Decision Records (ADRs) for remote team technical discussions by documenting context, decision, consequences, and considered alternatives, with a 48-72 hour async review period allowing team members across time zones to provide structured feedback. This creates searchable institutional knowledge of technical choices, enabling future team members to understand not just what was decided but why.
 
-## Table of Contents
+Table of Contents
 
 - [Why ADRs Matter for Distributed Teams](#why-adrs-matter-for-distributed-teams)
 - [The ADR Template](#the-adr-template)
@@ -69,136 +69,136 @@ Architecture Decision Records (ADRs) help distributed teams capture technical ch
 
 This guide provides a complete ADR template designed specifically for remote teams conducting technical discussions through written communication.
 
-## Why ADRs Matter for Distributed Teams
+Why ADRs Matter for Distributed Teams
 
-Remote engineering teams face a unique challenge: significant technical decisions often get lost in Slack threads, lost Zoom recordings, or individual memory. When team members in Tokyo, London, and San Francisco need to understand why a particular database was chosen or why a microservices architecture was rejected, they need more than a final decision—they need the reasoning that led to it.
+Remote engineering teams face a unique challenge: significant technical decisions often get lost in Slack threads, lost Zoom recordings, or individual memory. When team members in Tokyo, London, and San Francisco need to understand why a particular database was chosen or why a microservices architecture was rejected, they need more than a final decision, they need the reasoning that led to it.
 
 ADRs solve this problem by creating a persistent, searchable record of each significant technical decision. Unlike meeting notes that capture discussion, ADRs capture outcomes and their context.
 
-## The ADR Template
+The ADR Template
 
 Use this template for async technical discussions in distributed teams:
 
 ```markdown
-# ADR-[NUMBER]: [Decision Title]
+ADR-[NUMBER]: [Decision Title]
 
-## Status
+Status
 [Proposed | Accepted | Deprecated | Superseded by ADR-XXX]
 
-## Date
+Date
 [YYYY-MM-DD]
 
-## Context
+Context
 [Describe the problem or situation that prompted this decision. What constraints
 or requirements are we working with? What alternatives were considered?]
 
-## Decision
+Decision
 [What decision was made? State it clearly and concretely.]
 
-## Consequences
-### Positive
+Consequences
+Positive
 - [List beneficial outcomes]
 
-### Negative
+Negative
 - [List drawbacks, tradeoffs, or things to watch for]
 
-### Workarounds
+Workarounds
 [Any known ways to mitigate negative consequences]
 
-## Alternatives Considered
-### Option 1: [Name]
+Alternatives Considered
+Option 1: [Name]
 [Why this was rejected]
 
-### Option 2: [Name]
+Option 2: [Name]
 [Why this was rejected]
 
-## Reviewers
+Reviewers
 - @[username] - [area of expertise]
 - @[username] - [area of expertise]
 
-## Notes
+Notes
 [Any additional context, links to discussions, or future considerations]
 ```
 
-## Async Workflow for ADR Creation
+Async Workflow for ADR Creation
 
 Implementing ADRs in a remote team requires a structured async workflow that ensures thorough discussion without real-time meetings.
 
-### Step 1: Proposal Draft
+Step 1: Proposal Draft
 
 One team member creates the ADR draft in your team's documentation repository. They fill in the Context and Decision sections, listing at least two alternatives considered. The draft gets submitted as a pull request or shared in your async discussion channel.
 
 ```markdown
-# ADR-042: Implement Caching Layer with Redis
+ADR-042: Implement Caching Layer with Redis
 
-## Status
+Status
 Proposed
 
-## Date
+Date
 2026-03-10
 
-## Context
+Context
 Our API response times have increased as user traffic grew 300% this quarter.
 The database is under heavy load during peak hours, and we're seeing timeout
 errors affecting user experience. We need to reduce database load while
 maintaining sub-200ms response times.
 
-## Decision
+Decision
 Implement Redis as a caching layer for frequently accessed data, with a
 TTL of 15 minutes for user profiles and 5 minutes for configuration data.
 
-## Consequences
-### Positive
+Consequences
+Positive
 - Reduced database load by estimated 60-70%
 - Faster response times for cached endpoints
 - Simple implementation with existing infrastructure
 
-### Negative
+Negative
 - Cache invalidation complexity
 - Potential for stale data if TTL is too long
 - Additional infrastructure to maintain
 
-### Workarounds
+Workarounds
 - Implement cache-aside pattern with manual invalidation on updates
 - Use shorter TTLs for rapidly changing data
 ```
 
-### Step 2: Async Review Period
+Step 2: Async Review Period
 
 Leave the ADR open for 48-72 hours to accommodate team members across time zones. Use a structured feedback format:
 
 ```markdown
-## Feedback from @sarah-engineer
+Feedback from @sarah-engineer
 
-**Question on cache invalidation:** How will we handle the race condition
+Question on cache invalidation: How will we handle the race condition
 when a user updates their profile while the cached version is being served?
 
-**Suggestion:** Consider using write-through caching to ensure consistency.
+Suggestion: Consider using write-through caching to ensure consistency.
 
-## Response from @proposal-author
+Response from @proposal-author
 
 Good point. I'll add a write-through mechanism for profile updates. This
 adds some latency on writes but ensures users never see stale data.
 ```
 
-### Step 3: Decision Finalization
+Step 3: Decision Finalization
 
 After the review period, the ADR author summarizes feedback and updates the status:
 
 ```markdown
-## Status
+Status
 Accepted (with modifications based on team feedback)
 
-## Notes
+Notes
 - Added write-through caching for user profiles per @sarah-engineer's suggestion
 - Cache invalidation will use event-driven pattern from our existing message queue
 - Implementation owner: @backend-team-lead
 - Target completion: Q2 2026
 ```
 
-## Practical Tips for Remote Teams
+Practical Tips for Remote Teams
 
-### Set Clear Thresholds
+Set Clear Thresholds
 
 Not every technical choice needs an ADR. Establish criteria for what constitutes a decision worth documenting:
 
@@ -208,29 +208,29 @@ Not every technical choice needs an ADR. Establish criteria for what constitutes
 - Affects multiple teams or codebases
 - Could be difficult to reverse later
 
-### Use Numbering Consistently
+Use Numbering Consistently
 
 Maintain a running count of ADRs in your repository. This creates an accessible history:
 
 ```bash
-# Find the next ADR number
+Find the next ADR number
 ls -1 adrs/ | grep "^ADR-" | sort -V | tail -1
-# Output: ADR-041.md
-# Next ADR should be ADR-042
+Output: ADR-041.md
+Next ADR should be ADR-042
 ```
 
-### Link ADRs to Code
+Link ADRs to Code
 
 Connect your ADRs to the implementation through code comments and commit messages:
 
 ```python
-# Implemented per ADR-042: Redis caching layer
-# See: /docs/adr/042-redis-caching-layer.md
+Implemented per ADR-042: Redis caching layer
+See: /docs/adr/042-redis-caching-layer.md
 class UserProfileCache:
     pass
 ```
 
-### Review ADRs Quarterly
+Review ADRs Quarterly
 
 Schedule a quarterly review of active ADRs to identify:
 
@@ -238,30 +238,30 @@ Schedule a quarterly review of active ADRs to identify:
 - ADRs that have been superseded
 - Patterns in decision-making that could be improved
 
-## Common Pitfalls to Avoid
+Common Pitfalls to Avoid
 
-**Vague context:** "We needed a database" provides no useful information. Instead, specify the actual constraints: "Our application requires sub-10ms query times for real-time dashboards while handling 10,000 concurrent connections."
+Vague context: "We needed a database" provides no useful information. Instead, specify the actual constraints: "Our application requires sub-10ms query times for real-time dashboards while handling 10,000 concurrent connections."
 
-**Missing alternatives:** A decision without considered alternatives lacks rigor. Even if you ultimately choose the obvious option, document what else was evaluated and why it was rejected.
+Missing alternatives: A decision without considered alternatives lacks rigor. Even if you ultimately choose the obvious option, document what else was evaluated and why it was rejected.
 
-**Stale status:** An ADR marked "Proposed" from six months ago creates confusion. Update status promptly or archive inactive proposals.
+Stale status: An ADR marked "Proposed" from six months ago creates confusion. Update status promptly or archive inactive proposals.
 
-## Real-World ADR Examples
+Real-World ADR Examples
 
-### Example 1: Adopting Event-Driven Architecture
+Example 1: Adopting Event-Driven Architecture
 
 This ADR demonstrates how to document a major architectural shift:
 
 ```markdown
-# ADR-053: Adopt Event-Driven Architecture for Order Processing
+ADR-053: Adopt Event-Driven Architecture for Order Processing
 
-## Status
+Status
 Accepted
 
-## Date
+Date
 2026-02-15
 
-## Context
+Context
 Our order processing system has become a bottleneck during peak traffic. When an order is placed, we synchronously call:
 1. Payment processing service (variable latency: 100-500ms)
 2. Inventory service (50-200ms)
@@ -271,176 +271,176 @@ This creates a cascading failure pattern where slow external services block the 
 
 We need a solution that allows processing to continue even if individual services are temporarily unavailable.
 
-## Decision
+Decision
 Implement an event-driven architecture using Kafka for async processing:
 1. Order creation service publishes OrderCreated event
 2. Multiple consumers subscribe: PaymentProcessor, InventoryReducer, NotificationSender
 3. Each consumer processes independently with retry logic
 4. API returns immediately after event publication
 
-## Consequences
-### Positive
+Consequences
+Positive
 - Reduced checkout latency from 800ms average to 50ms
 - Payment failures no longer block inventory updates
 - Easy to add new processors without modifying core order service
-- Better fault tolerance—one service failure doesn't cascade
+- Better fault tolerance, one service failure doesn't cascade
 
-### Negative
-- Eventually consistent—customers may see updated inventory 100-500ms after order
+Negative
+- Eventually consistent, customers may see updated inventory 100-500ms after order
 - Requires Kafka infrastructure (new operational complexity)
 - Event ordering becomes critical issue
 - Dead letter queue management needed for failed events
 
-### Workarounds
+Workarounds
 - Use Kafka partitioning by order ID to maintain ordering
 - Implement idempotent event handlers to allow replays
 - Set up monitoring alerts for dead letter queues
 
-## Alternatives Considered
-### Option 1: Optimize Database Queries
+Alternatives Considered
+Option 1: Optimize Database Queries
 We could optimize existing synchronous queries with better indexing and caching. However, this doesn't address the latency from external services (payment provider, email service). Estimated 10-20% improvement max.
 
-### Option 2: Increase Timeout Limits
+Option 2: Increase Timeout Limits
 Simply allowing longer timeouts pushes the problem to users (longer wait times). Doesn't solve cascading failures.
 
-### Option 3: Thread Pool Isolation (Hystrix)
+Option 3: Thread Pool Isolation (Hystrix)
 Isolate each external service call in separate thread pools with independent timeouts. This prevents cascading failures but doesn't reduce latency for users. Also adds memory overhead.
 
-## Reviewers
+Reviewers
 - @backend-lead - Architecture review
 - @infra-lead - Operations and monitoring
 - @payments-team - Third-party integration concerns
 - @notifications-team - Email processing requirements
 
-## Notes
+Notes
 - Implementation started Q1 2026
 - Migration from sync to async will be phased over 6 weeks
 - Existing synchronous APIs will be maintained for 3 months for backwards compatibility
 - Performance testing results: 8x improvement in p99 latency
 ```
 
-### Example 2: Frontend Framework Selection
+Example 2: Frontend Framework Selection
 
 This ADR shows how to document tool selection decisions:
 
 ```markdown
-# ADR-051: Migrate from AngularJS to React 18
+ADR-051: Migrate from AngularJS to React 18
 
-## Status
+Status
 Accepted (supersedes ADR-024)
 
-## Date
+Date
 2026-01-20
 
-## Context
+Context
 Our frontend codebase uses AngularJS (1.6), which reached end-of-life in 2022. Security patches are no longer issued, and recruiting developers with AngularJS expertise has become nearly impossible. We need a modern framework that:
 - Supports TypeScript out of the box
 - Has a strong ecosystem of third-party libraries
 - Allows gradual migration (important: we have 200+ active frontend developers)
 - Provides good devtool support
 
-## Decision
+Decision
 Adopt React 18 with TypeScript for all new frontend development and phased migration of existing AngularJS code.
 
-## Consequences
-### Positive
+Consequences
+Positive
 - Active community with thousands of third-party libraries
 - TypeScript integration prevents entire classes of bugs
 - React learning curve is gentler than AngularJS for new developers
 - Allows incremental migration (can run React and AngularJS side-by-side)
 - Better testing tooling (React Testing Library, Vitest)
 
-### Negative
+Negative
 - React has no official router (must choose third-party solution)
 - State management is not baked in (must implement Redux, Zustand, or Recoil)
 - Build complexity higher than AngularJS
 - Migration effort: 6-9 months for entire codebase
 
-### Workarounds
+Workarounds
 - Use React Router for routing (standard choice, 95% of projects)
 - Use Redux for state management in large apps, Zustand for smaller ones
 - Use Create React App to reduce build configuration burden
 
-## Alternatives Considered
-### Option 1: Vue 3
+Alternatives Considered
+Option 1: Vue 3
 Vue has gentler learning curve and smaller bundle size. However, ecosystem is smaller. Rejected because several team members had concerns about hiring Vue expertise.
 
-### Option 2: Svelte
+Option 2: Svelte
 Excellent performance and minimal bundle size. But very young framework (risk of future breaking changes). Rejected due to maturity concerns for a 10-year-old product.
 
-### Option 3: Upgrade to AngularJS 2+
+Option 3: Upgrade to AngularJS 2+
 Keep AngularJS ecosystem but upgrade to modern versions. However, this is essentially a rewrite, and AngularJS 2+ has not gained the market adoption of React. Rejected.
 
-## Reviewers
+Reviewers
 - @frontend-lead - Framework expertise
 - @platform-lead - Tooling and build infrastructure
 - @hiring-lead - Recruitment impact
 - @devops-lead - Deployment pipeline changes
 
-## Notes
+Notes
 - Phase 1 (Q1 2026): New components in React, AngularJS for existing
 - Phase 2 (Q2-Q3 2026): Migrate high-traffic components
 - Phase 3 (Q4 2026): Sunset AngularJS entirely
 - Training budget allocated: 40 hours per developer
 ```
 
-## Building ADR Search and Navigation
+Building ADR Search and Navigation
 
 With many ADRs, navigating decisions becomes difficult. Create an index for easy discovery:
 
 ```markdown
-# ADR Index
+ADR Index
 
-## Architecture (10 ADRs)
+Architecture (10 ADRs)
 - ADR-053: Event-Driven Architecture
 - ADR-042: Redis Caching Layer
 - ADR-038: Microservices Decomposition
 
-## Infrastructure (8 ADRs)
+Infrastructure (8 ADRs)
 - ADR-051: Kubernetes Migration
 - ADR-048: Multi-Region Deployment
 - ADR-040: Container Registry Strategy
 
-## Data (6 ADRs)
+Data (6 ADRs)
 - ADR-045: Eventual Consistency Model
 - ADR-039: Data Warehouse vs Data Lake
 - ADR-035: Encryption at Rest
 
-## Deprecated (3 ADRs)
+Deprecated (3 ADRs)
 - ADR-024: AngularJS Architecture (superseded by ADR-051)
 - ADR-018: Monolithic Architecture (superseded by ADR-038)
 ```
 
 Create this index as a separate Markdown file. When new team members join, they can read the index first to understand your team's architectural philosophy without drowning in 50 individual ADRs.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [How to Create Remote Team Architecture Decision Record](/how-to-create-remote-team-architecture-decision-record-templ/)
 - [How to Document Architecture Decisions for Remote Teams](/how-to-document-architecture-decisions-remote-team/)
 - [Best Practice for Remote Team Decision Making Framework That](/best-practice-for-remote-team-decision-making-framework-that/)
 - [How to Create Decision Log Documentation for Remote Teams](/how-to-create-decision-log-documentation-for-remote-teams-re/)
 - [Best Tools for Remote Architecture Decision Records](/best-tools-for-remote-architecture-decision-records/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

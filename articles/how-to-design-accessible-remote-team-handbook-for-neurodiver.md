@@ -17,20 +17,20 @@ intent-checked: true
 
 Designing an accessible remote team handbook for neurodiverse employees requires intentional structural choices that accommodate diverse cognitive processing styles. This guide provides developers and power users with practical implementation patterns for creating handbooks that serve all team members effectively.
 
-## Understanding Neurodiverse Information Processing
+Understanding Neurodiverse Information Processing
 
 Neurodiverse employees process information differently. Some individuals read linearly and retain information through sequential steps. Others scan documents for keywords and miss context buried in paragraphs. Some need visual anchors to navigate lengthy content, while others find visual noise overwhelming.
 
 Effective handbooks accommodate these variations by offering multiple entry points, consistent formatting, and explicit structure. The goal is reducing cognitive load while maximizing information retention.
 
-## Core Structural Principles
+Core Structural Principles
 
-### Consistent Section Naming
+Consistent Section Naming
 
 Use identical section titles across all handbook pages. When users encounter "Getting Started" in one document, they should find the same content type under that heading elsewhere.
 
 ```markdown
-# HandBook Structure Template
+HandBook Structure Template
 sections:
   - title: "Getting Started"
     description: "First-day information and orientation"
@@ -46,7 +46,7 @@ sections:
     expected_length: "300-500 words"
 ```
 
-### Linear and Non-Linear Navigation Options
+Linear and Non-Linear Navigation Options
 
 Structure each page so users can read sequentially or jump directly to relevant sections. Use descriptive anchor links that explain destination:
 
@@ -64,28 +64,28 @@ Structure each page so users can read sequentially or jump directly to relevant 
 </nav>
 ```
 
-## Content Formatting for Comprehension
+Content Formatting for Comprehension
 
-### Chunked Information
+Chunked Information
 
 Break content into small, digestible units. Use bullet points for lists, numbered steps for sequences, and short paragraphs for concepts.
 
 ```markdown
-## Communication Expectations
+Communication Expectations
 
-### Response Windows
-- **Slack/Direct messages**: Response expected within 4 hours during work hours
-- **Email**: Response expected within 24 hours
-- **Urgent flagged items**: Response expected within 1 hour
+Response Windows
+- Slack/Direct messages: Response expected within 4 hours during work hours
+- Email: Response expected within 24 hours
+- Urgent flagged items: Response expected within 1 hour
 
-### Meeting Etiquette
+Meeting Etiquette
 - Camera optional for all meetings unless explicitly required
 - Recording available for all meetings upon request
 - Agenda distributed 24 hours in advance
 - Notes shared within 4 hours after meeting
 ```
 
-### Explicit Context
+Explicit Context
 
 Avoid assuming readers understand implied context. State assumptions explicitly:
 
@@ -99,20 +99,20 @@ After installation, configure it by creating a config file at
 `~/.ourtool/config.yaml` with your API credentials.
 ```
 
-## Multiple Format Options
+Multiple Format Options
 
 Provide the same information in different formats to serve diverse processing preferences.
 
-### Text Version
+Text Version
 
 Plain text with clear headings serves screen reader users and those who prefer linear reading.
 
-### Checklist Version
+Checklist Version
 
 For procedural content, offer checklist formats:
 
 ```markdown
-## First Week Checklist
+First Week Checklist
 
 - [ ] Set up development environment (see [Environment Setup Guide])
 - [ ] Request access to GitHub organization (submit ticket #access)
@@ -121,7 +121,7 @@ For procedural content, offer checklist formats:
 - [ ] Schedule 1:1 with your manager
 ```
 
-### Visual Version
+Visual Version
 
 Include diagrams for complex workflows:
 
@@ -137,21 +137,21 @@ graph TD
     style F fill:#e8f5e8
 ```
 
-## Search and Findability
+Search and Findability
 
 Neurodiverse users often search for specific information rather than reading full documents. Optimize for search:
 
-### Keyword-Rich Headings
+Keyword-Rich Headings
 
 ```markdown
-## How to Request Time Off: Submitting PTO in HR Portal
+How to Request Time Off: Submitting PTO in HR Portal
 
-## Password Reset: Troubleshooting Common Issues
+Password Reset: Troubleshooting Common Issues
 
-## VPN Setup: Connecting from Home Networks
+VPN Setup: Connecting from Home Networks
 ```
 
-### Internal Cross-References
+Internal Cross-References
 
 Link related content explicitly:
 
@@ -161,9 +161,9 @@ For code review process, see [Code Review Standards].
 For deployment procedures, see [CI/CD Pipeline Documentation].
 ```
 
-## Accessibility Technical Implementation
+Accessibility Technical Implementation
 
-### Semantic HTML Structure
+Semantic HTML Structure
 
 Use proper heading hierarchy and ARIA labels:
 
@@ -184,7 +184,7 @@ Use proper heading hierarchy and ARIA labels:
 </main>
 ```
 
-### Contrast and Readability
+Contrast and Readability
 
 Ensure text meets WCAG AA standards:
 
@@ -199,7 +199,7 @@ Ensure text meets WCAG AA standards:
 }
 ```
 
-### Font and Spacing Recommendations
+Font and Spacing Recommendations
 
 ```css
 /* Accessible typography */
@@ -212,59 +212,59 @@ body {
 }
 ```
 
-## Version Control for Handbook Updates
+Version Control for Handbook Updates
 
 Treat handbook content like code using version control:
 
 ```bash
-# Create feature branch for handbook changes
+Create feature branch for handbook changes
 git checkout -b handbook/update-communication-policy
 
-# Make changes, then submit PR
+Make changes, then submit PR
 git add articles/communication-policy.md
 git commit -m "Update response windows for async communication"
 
-# Use tags for major versions
+Use tags for major versions
 git tag -a v2.0 -m "Major rewrite for neurodiversity accessibility"
 ```
 
 Document changes in a changelog:
 
 ```markdown
-## Changelog
+Changelog
 
-### v2.1 (2026-03-15)
+v2.1 (2026-03-15)
 - Added troubleshooting section
 - Improved heading clarity
 - Added checklist format option
 
-### v2.0 (2026-01-01)
+v2.0 (2026-01-01)
 - Complete restructure for accessibility
 - Added multiple format options
 - Improved search navigation
 ```
 
-## Testing Handbook Usability
+Testing Handbook Usability
 
 Before publishing, test with neurodiverse users:
 
-1. **Navigation test**: Can users find specific information within 3 clicks?
-2. **Format test**: Can users switch between formats without losing context?
-3. **Search test**: Do keyword searches return relevant results?
-4. **Screen reader test**: Does content make sense when read linearly?
-5. **Chunking test**: Can users complete a task using only the handbook?
+1. Navigation test: Can users find specific information within 3 clicks?
+2. Format test: Can users switch between formats without losing context?
+3. Search test: Do keyword searches return relevant results?
+4. Screen reader test: Does content make sense when read linearly?
+5. Chunking test: Can users complete a task using only the handbook?
 
 Collect feedback through:
 - Anonymous surveys after onboarding
 - Optional feedback button on each page
 - Regular UX reviews with neurodiverse team members
 
-## Maintenance and Evolution
+Maintenance and Evolution
 
 Accessibility is not a one-time achievement. Establish regular review cycles:
 
 ```yaml
-# Review schedule
+Review schedule
 review_cycle:
   - frequency: "quarterly"
     focus: "content accuracy"
@@ -279,7 +279,7 @@ review_cycle:
 
 Update the handbook when policies change, tools evolve, or user feedback indicates confusion. Version control makes tracking changes straightforward and allows rolling back problematic updates.
 
-## Related Articles
+Related Articles
 
 - [Remote Team Handbook: Structure and Template](/how-to-structure-remote-team-handbook-table-of-contents-cove/)
 - [Best Notion Template for Remote Team Handbook Covering HR](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
@@ -287,5 +287,5 @@ Update the handbook when policies change, tools evolve, or user feedback indicat
 - [How to Structure Remote Team Handbook: Policies, Processes](/how-to-structure-remote-team-handbook-covering-policies-proc/)
 - [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

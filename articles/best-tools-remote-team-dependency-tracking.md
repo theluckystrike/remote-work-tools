@@ -15,15 +15,15 @@ tags: [remote-work-tools, best-of, remote-work]
 
 {% raw %}
 
-Outdated dependencies are a compounding problem. Each week you ignore them, the upgrade diff grows and the risk of breaking changes increases. For remote teams, there's no "Friday afternoon let's update dependencies" session — you need a system that proposes updates automatically and makes merging them low-friction.
+Outdated dependencies are a compounding problem. Each week you ignore them, the upgrade diff grows and the risk of breaking changes increases. For remote teams, there's no "Friday afternoon let's update dependencies" session. you need a system that proposes updates automatically and makes merging them low-friction.
 
 ---
 
-## Renovate (Most Powerful, Self-Hostable)
+Renovate (Most Powerful, Self-Hostable)
 
 Renovate is the most capable automated dependency updater. It groups updates, understands monorepos, respects your merge schedule, and auto-merges low-risk updates.
 
-**Option A: GitHub App (easiest)**
+Option A: GitHub App (easiest)
 
 1. Install the [Renovate GitHub App](https://github.com/apps/renovate)
 2. Add `renovate.json` to your repo root:
@@ -70,10 +70,10 @@ Renovate is the most capable automated dependency updater. It groups updates, un
 }
 ```
 
-**Option B: Self-hosted with Docker**
+Option B: Self-hosted with Docker
 
 ```yaml
-# docker-compose.yml (for your Renovate runner server)
+docker-compose.yml (for your Renovate runner server)
 version: "3.8"
 services:
   renovate:
@@ -92,7 +92,7 @@ services:
 Run on a schedule:
 
 ```bash
-# crontab
+crontab
 0 8 * * 1-5 docker run --rm \
   -e RENOVATE_TOKEN=$GITHUB_TOKEN \
   renovate/renovate:latest \
@@ -100,7 +100,7 @@ Run on a schedule:
   --autodiscover-filter=your-org/*
 ```
 
-**Renovate for Monorepos**
+Renovate for Monorepos
 
 When your team uses a monorepo, Renovate handles multiple package managers in a single run. Set `enabledManagers` to keep things explicit:
 
@@ -109,15 +109,15 @@ When your team uses a monorepo, Renovate handles multiple package managers in a 
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "enabledManagers": ["npm", "docker", "github-actions", "terraform"],
-  "ignorePaths": ["**/node_modules/**", "**/fixtures/**"],
+  "ignorePaths": ["/node_modules/", "/fixtures/"],
   "packageRules": [
     {
-      "matchPaths": ["services/api/**"],
+      "matchPaths": ["services/api/"],
       "groupName": "API service dependencies",
       "assignees": ["backend-team"]
     },
     {
-      "matchPaths": ["services/frontend/**"],
+      "matchPaths": ["services/frontend/"],
       "groupName": "Frontend dependencies",
       "assignees": ["frontend-team"]
     }
@@ -129,12 +129,12 @@ This ensures PRs land in front of the right team without everyone getting notifi
 
 ---
 
-## Dependabot (GitHub Native)
+Dependabot (GitHub Native)
 
 Dependabot is built into GitHub, requires no infrastructure, and is sufficient for most teams. It's less flexible than Renovate but has zero setup friction.
 
 ```yaml
-# .github/dependabot.yml
+.github/dependabot.yml
 version: 2
 updates:
   # npm dependencies
@@ -206,7 +206,7 @@ updates:
 Auto-merge Dependabot patch updates via GitHub Actions:
 
 ```yaml
-# .github/workflows/dependabot-automerge.yml
+.github/workflows/dependabot-automerge.yml
 name: Dependabot Auto-merge
 on: pull_request
 
@@ -235,12 +235,12 @@ jobs:
 
 ---
 
-## OWASP Dependency-Check (Vulnerability Scanning)
+OWASP Dependency-Check (Vulnerability Scanning)
 
 Renovate and Dependabot handle version updates. OWASP Dependency-Check scans for known vulnerabilities in your current dependencies, even if you're up-to-date:
 
 ```yaml
-# .github/workflows/dependency-check.yml
+.github/workflows/dependency-check.yml
 name: Dependency Vulnerability Scan
 on:
   push:
@@ -285,17 +285,17 @@ Create `suppression.xml` to suppress false positives:
 </suppressions>
 ```
 
-**Running OWASP Dependency-Check Locally**
+Running OWASP Dependency-Check Locally
 
 For local scans before pushing, run the CLI directly:
 
 ```bash
-# Download and run the CLI scanner
+Download and run the CLI scanner
 VERSION="9.0.9"
 curl -sL "https://github.com/jeremylong/DependencyCheck/releases/download/v${VERSION}/dependency-check-${VERSION}-release.zip" -o dc.zip
 unzip dc.zip -d /opt/dependency-check
 
-# Scan a Node project
+Scan a Node project
 /opt/dependency-check/bin/dependency-check.sh \
   --project "myapp" \
   --scan ./node_modules \
@@ -303,7 +303,7 @@ unzip dc.zip -d /opt/dependency-check
   --out ./reports \
   --failOnCVSS 7
 
-# Update the NVD database cache (do this weekly)
+Update the NVD database cache (do this weekly)
 /opt/dependency-check/bin/dependency-check.sh --updateonly
 ```
 
@@ -311,31 +311,31 @@ The NVD database download takes several minutes the first time. After that, incr
 
 ---
 
-## Snyk (Security-First)
+Snyk (Security-First)
 
 Snyk combines vulnerability detection with automated fix PRs and license compliance checking:
 
 ```bash
-# Install CLI
+Install CLI
 npm install -g snyk
 
-# Authenticate
+Authenticate
 snyk auth
 
-# Scan project
+Scan project
 snyk test --severity-threshold=high
 
-# Watch project for new vulnerabilities (CI)
+Watch project for new vulnerabilities (CI)
 snyk monitor
 
-# Fix vulnerabilities automatically
+Fix vulnerabilities automatically
 snyk fix
 ```
 
 Add to CI:
 
 ```yaml
-# .github/workflows/snyk.yml
+.github/workflows/snyk.yml
 name: Snyk Security Scan
 on: [push, pull_request]
 jobs:
@@ -350,17 +350,17 @@ jobs:
           args: --severity-threshold=high --fail-on=upgradable
 ```
 
-**Snyk for Container Images**
+Snyk for Container Images
 
 Snyk also scans Docker images for OS-level CVEs, which OWASP Dependency-Check misses:
 
 ```bash
-# Scan a container image
+Scan a container image
 snyk container test your-org/your-app:latest \
   --file=Dockerfile \
   --severity-threshold=high
 
-# Monitor an image in the Snyk dashboard
+Monitor an image in the Snyk dashboard
 snyk container monitor your-org/your-app:latest \
   --project-name="production-api"
 ```
@@ -379,40 +379,40 @@ Add container scanning to your CI pipeline after the image build step:
 
 ---
 
-## License Compliance
+License Compliance
 
 Track open source license compliance before it becomes a legal issue:
 
 ```bash
-# Node.js
+Node.js
 npm install -g license-checker
 license-checker --summary --excludePrivatePackages
 
-# Output licenses in CSV for legal review
+Output licenses in CSV for legal review
 license-checker --csv --out licenses.csv
 
-# Fail on GPL licenses in commercial projects
+Fail on GPL licenses in commercial projects
 license-checker \
   --failOn "GPL-2.0;GPL-3.0;AGPL-3.0" \
   --excludePrivatePackages
 ```
 
 ```bash
-# Python
+Python
 pip install pip-licenses
 pip-licenses --format=markdown --with-urls
 
-# Go
+Go
 go install github.com/google/go-licenses@latest
 go-licenses check ./... --disallowed_types=restricted,forbidden
 ```
 
-**Automating License Reports in CI**
+Automating License Reports in CI
 
 Generate a license report on every PR so legal review can happen before merge rather than after:
 
 ```yaml
-# .github/workflows/license-check.yml
+.github/workflows/license-check.yml
 name: License Compliance
 on: [pull_request]
 
@@ -444,7 +444,7 @@ jobs:
 Keep a `license-allowlist.txt` in your repo with approved licenses. Run `license-checker` against the allowlist on every merge to main:
 
 ```bash
-# Strict allowlist approach
+Strict allowlist approach
 license-checker \
   --onlyAllow "MIT;ISC;BSD-2-Clause;BSD-3-Clause;Apache-2.0;0BSD;CC0-1.0" \
   --excludePrivatePackages
@@ -452,7 +452,7 @@ license-checker \
 
 ---
 
-## Tool Comparison
+Tool Comparison
 
 | Tool | Type | Self-Hosted | Best For |
 |------|------|-------------|----------|
@@ -461,18 +461,18 @@ license-checker \
 | OWASP DC | Vulnerability scan | Yes | CVE scanning, offline |
 | Snyk | Security + fixes | No | Security-first teams |
 
-Use Renovate or Dependabot for updates, OWASP or Snyk for vulnerability scanning — they complement each other.
+Use Renovate or Dependabot for updates, OWASP or Snyk for vulnerability scanning. they complement each other.
 
-## Dependency Update Workflow for Async Remote Teams
+Dependency Update Workflow for Async Remote Teams
 
-The biggest failure mode for remote teams isn't tooling — it's process. PRs opened by Renovate or Dependabot sit unreviewed for days because no one owns them. Fix this with explicit ownership rules.
+The biggest failure mode for remote teams isn't tooling. it's process. PRs opened by Renovate or Dependabot sit unreviewed for days because no one owns them. Fix this with explicit ownership rules.
 
 Set a standing agenda item in your weekly async update (Loom, Notion, or Slack thread) for dependency PR status. The assigned reviewer for the week checks pending dependency PRs each Monday and either merges, comments with a block reason, or escalates to the full team. This simple rotation prevents dependency debt from silently accumulating.
 
 Use branch protection rules to enforce that dependency PRs pass CI before merge:
 
 ```yaml
-# .github/branch-protection.json (configure via gh CLI or Terraform)
+.github/branch-protection.json (configure via gh CLI or Terraform)
 {
   "required_status_checks": {
     "strict": true,
@@ -489,20 +489,20 @@ Use branch protection rules to enforce that dependency PRs pass CI before merge:
 }
 ```
 
-For dependency PRs specifically, one approval is usually sufficient — the CI pipeline is the real gatekeeper. Reserve two-approval requirements for application code changes.
+For dependency PRs specifically, one approval is usually sufficient. the CI pipeline is the real gatekeeper. Reserve two-approval requirements for application code changes.
 
 ---
 
-## Tracking Dependency Health Over Time
+Tracking Dependency Health Over Time
 
 Point-in-time scans don't tell you whether your dependency posture is improving or degrading. Add a weekly dependency health report to your team dashboard:
 
 ```bash
 #!/bin/bash
-# dependency-health.sh — outputs a summary suitable for Slack or Notion
+dependency-health.sh. outputs a summary suitable for Slack or Notion
 echo "=== Dependency Health Report $(date +%Y-%m-%d) ==="
 
-# Count open Dependabot/Renovate PRs
+Count open Dependabot/Renovate PRs
 echo "Open dependency PRs:"
 gh pr list \
   --label dependencies \
@@ -519,11 +519,11 @@ gh pr list \
   --jq '.[] | select((.createdAt | fromdateiso8601) < (now - 1209600)) | "\(.number): \(.title)"'
 ```
 
-Post this report to a `#dependency-updates` Slack channel every Monday. The act of making the backlog visible reduces it — teams that track open dependency PRs consistently close them faster than teams that rely on email notifications alone.
+Post this report to a `#dependency-updates` Slack channel every Monday. The act of making the backlog visible reduces it. teams that track open dependency PRs consistently close them faster than teams that rely on email notifications alone.
 
 ---
 
-## Choosing the Right Stack for Your Team Size
+Choosing the Right Stack for Your Team Size
 
 For a team of 1–5 engineers, Dependabot plus Snyk free tier covers the essentials with zero infrastructure overhead. Add license-checker to CI and you have full coverage.
 
@@ -533,7 +533,7 @@ For teams of 20+ or those in regulated industries (fintech, healthcare), add OWA
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Remote Team Git Hooks Standardization Guide](/remote-team-git-hooks-standardization-guide/)
 - [Best Tools for Remote Team Error Tracking](/best-tools-remote-team-error-tracking/)
@@ -542,7 +542,7 @@ For teams of 20+ or those in regulated industries (fintech, healthcare), add OWA
 
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Renovate for Dependency Updates](/how-to-set-up-renovate-dependency-updates/)
 - [How to Track Project Dependencies Remote Team](/how-to-track-project-dependencies-remote-team/)
@@ -550,6 +550,6 @@ For teams of 20+ or those in regulated industries (fintech, healthcare), add OWA
 - [Best Remote Collaboration Tool for Technical Architects](/best-remote-collaboration-tool-for-technical-architects-docu/)
 - [Productivity Tracking Tools for Remote Teams 2026](/remote-team-productivity-tracking-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

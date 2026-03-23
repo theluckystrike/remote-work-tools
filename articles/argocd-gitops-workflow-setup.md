@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up ArgoCD for GitOps Workflows"
-description: "Deploy ArgoCD on Kubernetes to sync cluster state from a Git repository — with App of Apps pattern, RBAC, SSO, automated sync policies, and multi-cluster setup"
+description: "Deploy ArgoCD on Kubernetes to sync cluster state from a Git repository. with App of Apps pattern, RBAC, SSO, automated sync policies, and multi-cluster setup"
 date: 2026-03-22
 author: theluckystrike
 permalink: /argocd-gitops-workflow-setup/
@@ -14,13 +14,13 @@ tags: [remote-work-tools, workflow]
 ---
 
 {% raw %}
-## How to Set Up ArgoCD for GitOps Workflows
+How to Set Up ArgoCD for GitOps Workflows
 
 GitOps means your Git repository is the single source of truth for cluster state. You make changes by committing to Git, not by running `kubectl apply`. ArgoCD watches your repo and applies any diff between Git state and cluster state automatically. For remote teams, this eliminates SSH access for deployments, creates an audit trail in Git history, and lets anyone verify what's deployed by reading the repo.
 
 ---
 
-## Install ArgoCD
+Install ArgoCD
 
 ```bash
 kubectl create namespace argocd
@@ -28,20 +28,20 @@ kubectl create namespace argocd
 kubectl apply -n argocd -f \
   https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 
-# Wait for ArgoCD to be ready
+Wait for ArgoCD to be ready
 kubectl rollout status deployment argocd-server -n argocd
 
-# Get initial admin password
+Get initial admin password
 argocd admin initial-password -n argocd
 ```
 
-**Expose the UI:**
+Expose the UI:
 
 ```bash
-# Port-forward for local access
+Port-forward for local access
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 
-# Or expose via Ingress (recommended for teams)
+Or expose via Ingress (recommended for teams)
 kubectl apply -f - << 'EOF'
 apiVersion: networking.k8s.io/v1
 kind: Ingress
@@ -73,31 +73,31 @@ EOF
 
 ---
 
-## Repository Structure (App of Apps Pattern)
+Repository Structure (App of Apps Pattern)
 
-The App of Apps pattern has one "root" ArgoCD Application that manages all other Applications. This makes it easy to add new services — just commit a new Application manifest to the config repo.
+The App of Apps pattern has one "root" ArgoCD Application that manages all other Applications. This makes it easy to add new services. just commit a new Application manifest to the config repo.
 
 ```
 gitops-config/
-├── apps/
-│   ├── root-app.yaml           -- the App of Apps
-│   ├── myapp-staging.yaml
-│   ├── myapp-production.yaml
-│   ├── monitoring.yaml
-│   └── ingress-nginx.yaml
-├── staging/
-│   └── myapp/
-│       ├── deployment.yaml
-│       ├── service.yaml
-│       └── hpa.yaml
-└── production/
-    └── myapp/
-        ├── deployment.yaml
-        ├── service.yaml
-        └── hpa.yaml
+ apps/
+    root-app.yaml           -- the App of Apps
+    myapp-staging.yaml
+    myapp-production.yaml
+    monitoring.yaml
+    ingress-nginx.yaml
+ staging/
+    myapp/
+        deployment.yaml
+        service.yaml
+        hpa.yaml
+ production/
+     myapp/
+         deployment.yaml
+         service.yaml
+         hpa.yaml
 ```
 
-**`apps/root-app.yaml`** — bootstrap this once with `kubectl apply`:
+`apps/root-app.yaml`. bootstrap this once with `kubectl apply`:
 
 ```yaml
 apiVersion: argoproj.io/v1alpha1
@@ -128,9 +128,9 @@ kubectl apply -f apps/root-app.yaml
 
 ---
 
-## Application Manifests
+Application Manifests
 
-**`apps/myapp-staging.yaml`**
+`apps/myapp-staging.yaml`
 
 ```yaml
 apiVersion: argoproj.io/v1alpha1
@@ -165,7 +165,7 @@ spec:
         maxDuration: 3m
 ```
 
-**`apps/myapp-production.yaml`** — manual sync only for production:
+`apps/myapp-production.yaml`. manual sync only for production:
 
 ```yaml
 apiVersion: argoproj.io/v1alpha1
@@ -183,19 +183,19 @@ spec:
     server: https://kubernetes.default.svc
     namespace: production
   syncPolicy:
-    # No automated sync — require human approval via UI or CLI
+    # No automated sync. require human approval via UI or CLI
     syncOptions:
       - CreateNamespace=true
 ```
 
 ---
 
-## RBAC Configuration
+RBAC Configuration
 
 Control who can sync which applications:
 
 ```yaml
-# argocd-rbac-cm ConfigMap
+argocd-rbac-cm ConfigMap
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -220,12 +220,12 @@ data:
 
 ---
 
-## SSO with GitHub
+SSO with GitHub
 
 Configure GitHub OAuth for team authentication:
 
 ```yaml
-# argocd-cm ConfigMap
+argocd-cm ConfigMap
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -250,17 +250,17 @@ data:
 
 ---
 
-## Deploying a New Version
+Deploying a New Version
 
 The GitOps deployment flow:
 
 ```bash
-# 1. Build and push the new image in CI
+1. Build and push the new image in CI
 IMAGE="ghcr.io/yourorg/myapp:$(git rev-parse --short HEAD)"
 docker build -t "$IMAGE" .
 docker push "$IMAGE"
 
-# 2. Update the image tag in the GitOps repo
+2. Update the image tag in the GitOps repo
 cd gitops-config
 sed -i "s|image: ghcr.io/yourorg/myapp:.*|image: $IMAGE|" \
   staging/myapp/deployment.yaml
@@ -269,31 +269,31 @@ git add staging/myapp/deployment.yaml
 git commit -m "chore: deploy myapp $(git -C ../myapp rev-parse --short HEAD) to staging"
 git push origin main
 
-# 3. ArgoCD detects the change and syncs automatically (staging)
-# For production, trigger sync manually:
+3. ArgoCD detects the change and syncs automatically (staging)
+For production, trigger sync manually:
 argocd app sync myapp-production --auth-token "$ARGOCD_TOKEN"
 argocd app wait myapp-production --health --timeout 300
 ```
 
 ---
 
-## Multi-Cluster Setup
+Multi-Cluster Setup
 
 For organizations with multiple clusters (staging on one cloud, production on another), ArgoCD can manage them all from a single control plane:
 
 ```bash
-# Add a remote cluster to ArgoCD
-# First, get the cluster's context name from kubeconfig
+Add a remote cluster to ArgoCD
+First, get the cluster's context name from kubeconfig
 kubectl config get-contexts
 
-# Add the cluster (ArgoCD creates a ServiceAccount with cluster-admin in the remote cluster)
+Add the cluster (ArgoCD creates a ServiceAccount with cluster-admin in the remote cluster)
 argocd cluster add production-eks-cluster --name production-eks
 
-# Verify
+Verify
 argocd cluster list
-# NAME                     SERVER                                    STATUS
-# in-cluster               https://kubernetes.default.svc            Successful
-# production-eks           https://123456789.gr7.us-east-1.eks.amazonaws.com  Successful
+NAME                     SERVER                                    STATUS
+in-cluster               https://kubernetes.default.svc            Successful
+production-eks           https://123456789.gr7.us-east-1.eks.amazonaws.com  Successful
 ```
 
 Now reference the remote cluster in your Application manifests:
@@ -316,12 +316,12 @@ spec:
 
 ---
 
-## Notifications Setup
+Notifications Setup
 
 ArgoCD Notifications send alerts to Slack, PagerDuty, or email when sync succeeds, fails, or a health check degrades:
 
 ```bash
-# Install ArgoCD Notifications
+Install ArgoCD Notifications
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj-labs/argocd-notifications/stable/manifests/install.yaml
 ```
 
@@ -356,37 +356,37 @@ Subscribe applications to notifications via annotations (already shown in the Ap
 
 ---
 
-## ArgoCD CLI Cheatsheet
+ArgoCD CLI Cheatsheet
 
 ```bash
-# Install CLI
+Install CLI
 brew install argocd
 
-# Login
+Login
 argocd login argocd.yourcompany.internal --sso
 
-# List applications
+List applications
 argocd app list
 
-# Check app health and sync status
+Check app health and sync status
 argocd app get myapp-staging
 
-# Manually sync
+Manually sync
 argocd app sync myapp-production
 
-# View diff between Git and cluster
+View diff between Git and cluster
 argocd app diff myapp-production
 
-# Roll back to previous version
+Roll back to previous version
 argocd app rollback myapp-production
 
-# Force sync with pruning
+Force sync with pruning
 argocd app sync myapp-staging --prune --force
 ```
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Keel for Continuous Delivery](/keel-continuous-delivery-setup/)
 - [How to Create Automated Rollback Systems](/automated-rollback-systems/)
@@ -394,5 +394,5 @@ argocd app sync myapp-staging --prune --force
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

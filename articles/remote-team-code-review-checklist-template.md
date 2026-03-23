@@ -15,33 +15,33 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-Code reviews in remote teams fail in two predictable ways: reviewers block on minor style issues, or reviewers miss critical logic bugs because there's no shared mental model of what "done" looks like. A checklist doesn't replace judgment — it ensures reviewers consistently address the things that matter.
+Code reviews in remote teams fail in two predictable ways: reviewers block on minor style issues, or reviewers miss critical logic bugs because there's no shared mental model of what "done" looks like. A checklist doesn't replace judgment. it ensures reviewers consistently address the things that matter.
 
 ---
 
-## The PR Description Template
+The PR Description Template
 
 Before the checklist, the author needs to give reviewers enough context to review efficiently. Add this to your repo's pull request template:
 
 ```markdown
 <!-- .github/pull_request_template.md -->
 
-## What does this PR do?
+What does this PR do?
 <!-- One sentence summary. What problem does it solve? -->
 
-## Why is this approach right?
+Why is this approach right?
 <!-- Why this solution over alternatives? Link to any design docs or tickets. -->
 
-## What should reviewers focus on?
+What should reviewers focus on?
 <!-- Highlight the tricky parts, areas of uncertainty, or where you want specific feedback. -->
 
-## Testing
+Testing
 - [ ] Unit tests added/updated
 - [ ] Integration tests added/updated
 - [ ] Manually tested: [describe what you tested and how]
 - [ ] No test needed: [explain why]
 
-## Checklist
+Checklist
 - [ ] CHANGELOG updated (if user-facing change)
 - [ ] Documentation updated (if behavior changed)
 - [ ] Feature flag added (if gradual rollout needed)
@@ -51,14 +51,14 @@ Before the checklist, the author needs to give reviewers enough context to revie
 
 ---
 
-## The Reviewer Checklist
+The Reviewer Checklist
 
 Use this as a GitHub PR template comment, Notion template, or Confluence page that reviewers reference:
 
 ```markdown
-## Code Review Checklist
+Code Review Checklist
 
-### Correctness
+Correctness
 - [ ] The code does what the PR description says it does
 - [ ] Edge cases are handled (empty inputs, nil/null, zero values, max values)
 - [ ] Error paths are handled and return meaningful errors
@@ -66,7 +66,7 @@ Use this as a GitHub PR template comment, Notion template, or Confluence page th
 - [ ] External service failures are handled (timeouts, retries, circuit breakers)
 - [ ] No silent failures (errors logged or returned, not swallowed)
 
-### Security
+Security
 - [ ] No secrets, credentials, or PII in code or logs
 - [ ] User input is validated and sanitized before use
 - [ ] SQL queries use parameterized statements, not string formatting
@@ -74,14 +74,14 @@ Use this as a GitHub PR template comment, Notion template, or Confluence page th
 - [ ] New dependencies checked for known vulnerabilities
 - [ ] No new attack surfaces opened (SSRF, path traversal, etc.)
 
-### Performance
+Performance
 - [ ] No N+1 queries (use bulk fetches or JOINs where needed)
 - [ ] Database queries use appropriate indexes
 - [ ] No blocking operations in hot paths
 - [ ] Memory allocations are reasonable (no unbounded slices/maps)
 - [ ] Caching used appropriately (not over-cached, TTLs set)
 
-### Maintainability
+Maintainability
 - [ ] Code is readable without needing the author to explain it
 - [ ] Functions do one thing (< 50 lines is a reasonable guide, not a rule)
 - [ ] Variable and function names communicate intent
@@ -89,13 +89,13 @@ Use this as a GitHub PR template comment, Notion template, or Confluence page th
 - [ ] No dead code or commented-out code
 - [ ] Constants used instead of magic numbers/strings
 
-### Testing
+Testing
 - [ ] Tests cover the happy path
 - [ ] Tests cover error/failure cases
 - [ ] Tests are deterministic (no time.Sleep, no external dependencies)
 - [ ] Test names describe the scenario being tested
 
-### Operations
+Operations
 - [ ] New configuration values have documented defaults
 - [ ] Logging is structured (not fmt.Println / console.log)
 - [ ] Metrics/tracing added for new paths (if applicable)
@@ -105,7 +105,7 @@ Use this as a GitHub PR template comment, Notion template, or Confluence page th
 
 ---
 
-## GitHub PR Template Files
+GitHub PR Template Files
 
 Store the templates in your repo so they appear automatically:
 
@@ -118,29 +118,29 @@ Checklist as a GitHub PR template:
 ```markdown
 <!-- .github/pull_request_template.md -->
 
-## Type of change
+Type of change
 - [ ] Bug fix (non-breaking, fixes an issue)
 - [ ] New feature (non-breaking, adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to break)
 - [ ] Refactoring (no functional changes)
 - [ ] Documentation update
 
-## How was this tested?
+How was this tested?
 <!-- Describe your testing approach -->
 
-## Reviewer Notes
+Reviewer Notes
 <!-- Anything specific you want reviewers to focus on -->
 
 ---
 
-### Author Checklist
+Author Checklist
 - [ ] I have tested this change locally
 - [ ] I have added/updated unit tests
 - [ ] I have updated documentation if needed
 - [ ] I have not committed secrets or credentials
 - [ ] Database migrations are reversible
 
-### Reviewer Checklist (delete items not applicable)
+Reviewer Checklist (delete items not applicable)
 - [ ] Correctness: edge cases, error handling, race conditions
 - [ ] Security: input validation, auth checks, no exposed secrets
 - [ ] Performance: no N+1 queries, appropriate indexes
@@ -150,37 +150,37 @@ Checklist as a GitHub PR template:
 
 ---
 
-## Review Comment Conventions
+Review Comment Conventions
 
 Establish a convention for comment severity so reviewers and authors don't guess at urgency:
 
 ```markdown
-## Review Comment Tags
+Review Comment Tags
 
-**[BLOCK]** — Must be addressed before merge. Correctness or security issue.
-Example: `[BLOCK] This query is vulnerable to SQL injection — use parameterized query`
+[BLOCK]. Must be addressed before merge. Correctness or security issue.
+`[BLOCK] This query is vulnerable to SQL injection. use parameterized query`
 
-**[SUGGEST]** — Strong recommendation, but reviewer won't block merge.
-Example: `[SUGGEST] Consider extracting this into a separate function for testability`
+[SUGGEST]. Strong recommendation, but reviewer won't block merge.
+`[SUGGEST] Consider extracting this into a separate function for testability`
 
-**[NIT]** — Minor style/naming preference. Author's call.
-Example: `[NIT] 'userData' is more idiomatic than 'user_data' in Go`
+[NIT]. Minor style/naming preference. Author's call.
+`[NIT] 'userData' is more idiomatic than 'user_data' in Go`
 
-**[QUESTION]** — Asking for understanding, not necessarily requesting change.
-Example: `[QUESTION] Why does this use a goroutine instead of sequential processing?`
+[QUESTION]. Asking for understanding, not necessarily requesting change.
+`[QUESTION] Why does this use a goroutine instead of sequential processing?`
 
-**[FYI]** — Sharing context, no action needed.
-Example: `[FYI] There's a related issue in the payments module you might want to track`
+[FYI]. Sharing context, no action needed.
+`[FYI] There's a related issue in the payments module you might want to track`
 ```
 
 ---
 
-## Async Review SLA for Remote Teams
+Async Review SLA for Remote Teams
 
 Without time zones in common, reviews stall. Define an explicit SLA:
 
 ```markdown
-## Code Review SLA
+Code Review SLA
 
 | PR Size | First Review | Final Approval |
 |---------|-------------|----------------|
@@ -189,7 +189,7 @@ Without time zones in common, reviews stall. Define an explicit SLA:
 | Large (>500 lines) | 24 hours | 48 hours |
 | Hotfix | 1 hour | 2 hours |
 
-### Rules
+Rules
 - PRs under 400 lines require 1 approval. Over 400 lines require 2.
 - Authors respond to review comments within 4 business hours.
 - If a reviewer doesn't respond within SLA, author may request reassignment.
@@ -199,24 +199,24 @@ Without time zones in common, reviews stall. Define an explicit SLA:
 
 ---
 
-## Tooling: Danger for Automated Checks
+Tooling: Danger for Automated Checks
 
 Danger runs automated checks on every PR before human reviewers see it, catching the mechanical items and freeing reviewers for judgment-based work:
 
 ```ruby
-# Dangerfile
-# Fail if PR description is empty
+Dangerfile
+Fail if PR description is empty
 failure "Please add a PR description" if github.pr_body.length < 50
 
-# Warn on large PRs
+Warn on large PRs
 warn "This is a large PR (#{git.lines_of_code} lines). Consider splitting." if git.lines_of_code > 600
 
-# Fail if CHANGELOG not updated for non-chore PRs
+Fail if CHANGELOG not updated for non-chore PRs
 has_changelog = git.modified_files.include?("CHANGELOG.md")
 is_trivial = github.pr_title.include?("[trivial]")
 failure "Update CHANGELOG.md for user-facing changes" unless has_changelog || is_trivial
 
-# Warn if tests not modified when source is modified
+Warn if tests not modified when source is modified
 has_src_changes = !git.modified_files.grep(/^src\//).empty?
 has_test_changes = !git.modified_files.grep(/test/).empty?
 warn "No tests modified. Are you sure tests aren't needed?" if has_src_changes && !has_test_changes
@@ -224,7 +224,7 @@ warn "No tests modified. Are you sure tests aren't needed?" if has_src_changes &
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Remote Team Git Hooks Standardization Guide](/remote-team-git-hooks-standardization-guide/)
 - [Best Tools for Remote Team Code Ownership](/best-tools-remote-team-code-ownership/)
@@ -233,13 +233,13 @@ warn "No tests modified. Are you sure tests aren't needed?" if has_src_changes &
 - [Async Code Review Process Without Zoom Calls Step by Step](/async-code-review-process-without-zoom-calls-step-by-step/)
 ---
 
-## Related Articles
+Related Articles
 
 - [Remote Code Review Tools Comparison 2026](/remote-code-review-tools-comparison-2026/)
 - [Remote Team Handbook Template](/remote-team-handbook-template-for-writing-remote-interview-p/)
 - [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 - [Best Practice for Remote Team Code Review Comments](/best-practice-for-remote-team-code-review-comments-keeping-f/)
 - [Best Wiki Template for Remote Team Engineering Design](/best-wiki-template-for-remote-team-engineering-design-docume/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

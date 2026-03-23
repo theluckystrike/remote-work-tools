@@ -16,9 +16,9 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-Digital signage displaying real-time room availability and upcoming events solves a common pain point in hybrid offices: employees walking around looking for available meeting spaces. This guide walks through building a room availability display system using calendar APIs, a content backend, and display hardware. You'll get practical code patterns you can adapt to Google Calendar, Microsoft Graph, or any modern calendar system.
+Digital signage displaying real-time room availability and upcoming events solves a common problem in hybrid offices: employees walking around looking for available meeting spaces. This guide walks through building a room availability display system using calendar APIs, a content backend, and display hardware. You'll get practical code patterns you can adapt to Google Calendar, Microsoft Graph, or any modern calendar system.
 
-## Understanding the Core Requirements
+Understanding the Core Requirements
 
 Before writing code, identify what your signage needs to show:
 
@@ -29,9 +29,9 @@ Before writing code, identify what your signage needs to show:
 
 The challenge is pulling data from your calendar system, processing it into display-friendly content, and pushing it to screens at regular intervals. Most organizations use either Google Calendar or Microsoft 365, so this guide covers both.
 
-## Building the Calendar Integration
+Building the Calendar Integration
 
-### Google Calendar Approach
+Google Calendar Approach
 
 If your organization uses Google Workspace, the Calendar API provides straightforward access to room bookings. You'll need a service account with domain-wide delegation or a regular OAuth flow.
 
@@ -84,7 +84,7 @@ def fetch_room_status(calendar_service, room_email, hours_ahead=2):
 
 This function returns the room's current state and all upcoming bookings within your lookahead window. The caller decides how to display this information.
 
-### Microsoft Graph Approach
+Microsoft Graph Approach
 
 For Microsoft 365 environments, the Graph API provides similar functionality:
 
@@ -128,7 +128,7 @@ def get_room_free_busy(graph_token, room_id):
     return response.json()
 ```
 
-## Creating the Display Content
+Creating the Display Content
 
 Once you have the calendar data, transform it into display-friendly content. A simple approach uses HTML templates rendered server-side:
 
@@ -174,7 +174,7 @@ def generate_room_display_html(room_data):
 
 This generates static HTML you can serve to any display endpoint. For dynamic updates without page refreshes, consider adding WebSocket connections or polling from the display client.
 
-## Building the Event Aggregation Layer
+Building the Event Aggregation Layer
 
 Beyond individual room status, many offices want a dashboard showing company-wide events and highlights. Create an aggregation endpoint that pulls from multiple calendar sources:
 
@@ -203,9 +203,9 @@ def aggregate_office_events(calendar_services, config):
     return events[:20]  # Return top 20 events
 ```
 
-This gives you a single feed combining room bookings with team events—useful for lobby displays showing what's happening in the office today.
+This gives you a single feed combining room bookings with team events, useful for lobby displays showing what's happening in the office today.
 
-## Display Hardware and Client Options
+Display Hardware and Client Options
 
 For the display endpoint, you have several approaches:
 
@@ -261,7 +261,7 @@ A simple Chromium-based client works for most scenarios:
 
 The meta refresh tag provides a simple fallback if JavaScript fails, while the interval ensures content updates every minute.
 
-## Deployment Considerations
+Deployment Considerations
 
 When deploying room availability signage, consider these operational factors:
 
@@ -273,34 +273,34 @@ Fallback content: Always have a default view showing static information (buildin
 
 Timezone handling: Meeting rooms often display times in the local timezone, but your API server may run in UTC. Explicitly handle timezone conversion so meeting times match what users expect.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to set up hybrid office digital signage showing room?**
+How long does it take to set up hybrid office digital signage showing room?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Will this work with my existing CI/CD pipeline?**
+Will this work with my existing CI/CD pipeline?
 
 The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ. You may need to adapt file paths, environment variable names, and trigger conditions to match your pipeline tool. The underlying workflow logic stays the same.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Digital Signage for Hybrid Office Communication](/digital-signage-for-hybrid-office-communication/)
 - [Meeting Room Booking System for Hybrid Office 2026](/meeting-room-booking-system-for-hybrid-office-2026/)
 - [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
 - [Meeting Room Video Conferencing Equipment Setup for Hybrid](/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
 - [Return to Office Tools for Hybrid Teams: A Practical Guide](/return-to-office-tools-for-hybrid-teams/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

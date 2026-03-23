@@ -17,7 +17,7 @@ tags: [remote-work-tools]
 
 Manual DNS changes break things and leave no audit trail. Terraform brings DNS under version control with plan/apply workflows that fit remote teams using pull requests. This guide covers Route53 and Cloudflare with shared state, modules, and CI gating.
 
-## Prerequisites
+Prerequisites
 
 - Terraform 1.6+
 - AWS CLI or Cloudflare API token
@@ -25,48 +25,48 @@ Manual DNS changes break things and leave no audit trail. Terraform brings DNS u
 
 ```bash
 terraform --version
-# Terraform v1.6.x
+Terraform v1.6.x
 
-# Install tfenv for version management
+Install tfenv for version management
 brew install tfenv
 tfenv install 1.6.6
 tfenv use 1.6.6
 ```
 
-## Project Structure
+Project Structure
 
 ```
 dns/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── backend.tf
-├── versions.tf
-├── modules/
-│   ├── route53_zone/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
-│   └── cloudflare_zone/
-│       ├── main.tf
-│       ├── variables.tf
-│       └── outputs.tf
-├── environments/
-│   ├── production/
-│   │   ├── main.tf
-│   │   └── terraform.tfvars
-│   └── staging/
-│       ├── main.tf
-│       └── terraform.tfvars
-└── .github/
-    └── workflows/
-        └── dns.yml
+ main.tf
+ variables.tf
+ outputs.tf
+ backend.tf
+ versions.tf
+ modules/
+    route53_zone/
+       main.tf
+       variables.tf
+       outputs.tf
+    cloudflare_zone/
+        main.tf
+        variables.tf
+        outputs.tf
+ environments/
+    production/
+       main.tf
+       terraform.tfvars
+    staging/
+        main.tf
+        terraform.tfvars
+ .github/
+     workflows/
+         dns.yml
 ```
 
-## Backend Configuration
+Backend Configuration
 
 ```hcl
-# backend.tf
+backend.tf
 terraform {
   backend "s3" {
     bucket         = "your-company-terraform-state"
@@ -89,10 +89,10 @@ aws dynamodb create-table \
   --region us-east-1
 ```
 
-## Versions and Providers
+Versions and Providers
 
 ```hcl
-# versions.tf
+versions.tf
 terraform {
   required_version = ">= 1.6.0"
 
@@ -117,10 +117,10 @@ provider "cloudflare" {
 }
 ```
 
-## Route53 Zone Module
+Route53 Zone Module
 
 ```hcl
-# modules/route53_zone/variables.tf
+modules/route53_zone/variables.tf
 variable "domain" {
   description = "Root domain name"
   type        = string
@@ -148,7 +148,7 @@ variable "aliases" {
 ```
 
 ```hcl
-# modules/route53_zone/main.tf
+modules/route53_zone/main.tf
 resource "aws_route53_zone" "this" {
   name = var.domain
 }
@@ -178,10 +178,10 @@ resource "aws_route53_record" "aliases" {
 }
 ```
 
-## Cloudflare Zone Module
+Cloudflare Zone Module
 
 ```hcl
-# modules/cloudflare_zone/main.tf
+modules/cloudflare_zone/main.tf
 data "cloudflare_zone" "this" {
   name = var.domain
 }
@@ -218,10 +218,10 @@ resource "cloudflare_page_rule" "www_redirect" {
 }
 ```
 
-## Production Environment
+Production Environment
 
 ```hcl
-# environments/production/main.tf
+environments/production/main.tf
 module "example_com" {
   source = "../../modules/cloudflare_zone"
 
@@ -259,10 +259,10 @@ module "example_com" {
 }
 ```
 
-## Variables and tfvars
+Variables and tfvars
 
 ```hcl
-# variables.tf
+variables.tf
 variable "cloudflare_api_token" {
   description = "Cloudflare API token with DNS edit permissions"
   type        = string
@@ -277,8 +277,8 @@ variable "aws_region" {
 ```
 
 ```hcl
-# environments/production/terraform.tfvars
-# Do NOT commit sensitive values - use environment variables or secrets manager
+environments/production/terraform.tfvars
+Do NOT commit sensitive values - use environment variables or secrets manager
 aws_region = "us-east-1"
 ```
 
@@ -290,43 +290,43 @@ export AWS_ACCESS_KEY_ID="your-key"
 export AWS_SECRET_ACCESS_KEY="your-secret"
 ```
 
-## Daily Workflow
+Daily Workflow
 
 ```bash
-# Initialize (first time or after provider changes)
+Initialize (first time or after provider changes)
 terraform init
 
-# Format all files
+Format all files
 terraform fmt -recursive
 
-# Validate configuration
+Validate configuration
 terraform validate
 
-# Plan changes - always review before applying
+Plan changes - always review before applying
 terraform plan -out=tfplan
 
-# Apply the saved plan
+Apply the saved plan
 terraform apply tfplan
 
-# Target a specific resource
+Target a specific resource
 terraform plan -target=module.example_com.cloudflare_record.records[\"api\"]
 
-# Import existing DNS records (for migrating existing zones)
+Import existing DNS records (for migrating existing zones)
 terraform import 'module.example_com.cloudflare_record.records["api"]' <zone_id>/<record_id>
 ```
 
-## CI/CD with GitHub Actions
+CI/CD with GitHub Actions
 
 ```yaml
-# .github/workflows/dns.yml
+.github/workflows/dns.yml
 name: DNS Changes
 
 on:
   pull_request:
-    paths: ['dns/**']
+    paths: ['dns/']
   push:
     branches: [main]
-    paths: ['dns/**']
+    paths: ['dns/']
 
 env:
   TF_VERSION: "1.6.6"
@@ -392,12 +392,12 @@ jobs:
           TF_VAR_cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 ```
 
-## Drift Detection
+Drift Detection
 
 Scheduled job to catch manual changes:
 
 ```yaml
-# Add to dns.yml
+Add to dns.yml
   drift-check:
     runs-on: ubuntu-latest
     schedule:
@@ -411,14 +411,14 @@ Scheduled job to catch manual changes:
 
 ---
 
-## Importing Existing DNS Records
+Importing Existing DNS Records
 
 Teams migrating from manual DNS management need to import existing records into Terraform state before managing them declaratively. Importing without adding the resource to config first causes errors.
 
 Step 1: Add the resource to your Terraform config:
 
 ```hcl
-# Add to main.tf before importing
+Add to main.tf before importing
 resource "cloudflare_record" "existing_api" {
   zone_id = data.cloudflare_zone.this.id
   name    = "api"
@@ -450,14 +450,14 @@ For bulk imports across hundreds of records, use the [cf-terraforming](https://g
 ```bash
 pip install cf-terraforming  # or: brew install cloudflare/cloudflare/cf-terraforming
 
-# Generate Terraform HCL from existing zone
+Generate Terraform HCL from existing zone
 cf-terraforming generate \
   --email your@email.com \
   --key your-api-key \
   --zone-id your-zone-id \
   --resource-type cloudflare_record
 
-# Generate import commands
+Generate import commands
 cf-terraforming import \
   --email your@email.com \
   --key your-api-key \
@@ -467,11 +467,11 @@ cf-terraforming import \
 
 ---
 
-## Troubleshooting Common DNS Terraform Issues
+Troubleshooting Common DNS Terraform Issues
 
-**Plan shows delete + recreate instead of update:** Some DNS record attributes like `name` and `type` are immutable. Terraform must destroy and recreate the record. Ensure the `lifecycle { create_before_destroy = true }` block is set on the resource so the new record is created before the old one is deleted (avoiding a window with no record).
+Plan shows delete + recreate instead of update: Some DNS record attributes like `name` and `type` are immutable. Terraform must destroy and recreate the record. Ensure the `lifecycle { create_before_destroy = true }` block is set on the resource so the new record is created before the old one is deleted (avoiding a window with no record).
 
-**State lock error (`Error acquiring the state lock`):** Another `terraform apply` is running, or a previous run crashed without releasing the lock. Check DynamoDB for a stuck lock entry:
+State lock error (`Error acquiring the state lock`): Another `terraform apply` is running, or a previous run crashed without releasing the lock. Check DynamoDB for a stuck lock entry:
 
 ```bash
 aws dynamodb scan \
@@ -479,28 +479,28 @@ aws dynamodb scan \
   --region us-east-1 \
   | jq '.Items'
 
-# Force-unlock only if you are certain no other apply is running
+Force-unlock only if you are certain no other apply is running
 terraform force-unlock LOCK-ID
 ```
 
-**`InvalidChangeBatch` from Route53:** Route53 validates the entire change batch atomically. A single invalid record fails the whole batch. Run `terraform plan -target=aws_route53_record.specific` to narrow down which record is causing the validation failure.
+`InvalidChangeBatch` from Route53: Route53 validates the entire change batch atomically. A single invalid record fails the whole batch. Run `terraform plan -target=aws_route53_record.specific` to narrow down which record is causing the validation failure.
 
-**Cloudflare proxied vs unproxied mismatch:** When `proxied = true`, Cloudflare ignores the TTL and forces it to 1. Terraform may show perpetual diffs if you set a non-1 TTL for a proxied record. Fix: set `ttl = 1` for all proxied records in your config.
+Cloudflare proxied vs unproxied mismatch: When `proxied = true`, Cloudflare ignores the TTL and forces it to 1. Terraform may show perpetual diffs if you set a non-1 TTL for a proxied record. Fix: set `ttl = 1` for all proxied records in your config.
 
-**DNS propagation verification:**
+DNS propagation verification:
 
 ```bash
-# Check record from multiple resolvers
+Check record from multiple resolvers
 for resolver in 1.1.1.1 8.8.8.8 9.9.9.9; do
   echo -n "Resolver $resolver: "
   dig @$resolver api.example.com A +short
 done
 
-# Watch for propagation
+Watch for propagation
 watch -n30 'dig @8.8.8.8 api.example.com A +short'
 ```
 
-## Related Reading
+Related Reading
 
 - [Terraform Remote Team Infrastructure Guide](/terraform-remote-team-infrastructure-guide/)
 - [How to Set Up Ansible for Remote Server Management](/how-to-set-up-ansible-remote-server-management/)
@@ -508,12 +508,12 @@ watch -n30 'dig @8.8.8.8 api.example.com A +short'
 - [Best Mobile Device Management for Enterprise Remote Teams](/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
 ---
 
-## Related Articles
+Related Articles
 
 - [Terraform for Remote Teams: State, Modules, and CI](/terraform-remote-team-infrastructure-guide/)
 - [DNS Filtering Setup for Remote Team Endpoint Security](/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
 - [AWS Cost Management for Remote Teams](/aws-cost-management-remote-teams-guide/)
 - [Best Wiki Tool for Remote Team with Version History and](/best-wiki-tool-for-remote-team-with-version-history-and-appr/)
 - [Migrating from AWS CodeCommit to GitHub for Remote Team](/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,7 +17,7 @@ tags: [remote-work-tools, claude-ai]
 {% raw %}
 Use Claude Code to automate npm package boilerplate generation, enforce TypeScript/linting configurations, and manage the entire publish workflow from testing to npm registry. Claude Code integrates with your development environment to generate package scaffolds, run tests, and handle versioning automatically. This guide shows you how to use these capabilities for faster, higher-quality package development.
 
-## Table of Contents
+Table of Contents
 
 - [Setting Up Your Development Environment](#setting-up-your-development-environment)
 - [Using Claude Code for Package Scaffolding](#using-claude-code-for-package-scaffolding)
@@ -30,37 +30,37 @@ Use Claude Code to automate npm package boilerplate generation, enforce TypeScri
 - [Publishing Dual Packages: ESM and CommonJS](#publishing-dual-packages-esm-and-commonjs)
 - [Automating Package Quality with Claude Code](#automating-package-quality-with-claude-code)
 
-## Setting Up Your Development Environment
+Setting Up Your Development Environment
 
 Before creating your first npm package with Claude Code, ensure your environment is properly configured.
 
-**Prerequisites**
+Prerequisites
 
 ```bash
-# Node.js and npm
+Node.js and npm
 node --version  # Should be v18 or higher
 npm --version   # Should be v9 or higher
 
-# Git configuration
+Git configuration
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 
-# Claude Code CLI
+Claude Code CLI
 which claude  # Verify Claude Code is installed
 ```
 
-**Initialize Your Package Directory**
+Initialize Your Package Directory
 
 ```bash
 mkdir my-npm-package && cd my-npm-package
 npm init -y
 ```
 
-## Using Claude Code for Package Scaffolding
+Using Claude Code for Package Scaffolding
 
 Claude Code can generate the entire package structure with proper configuration files.
 
-**Generate Basic Package Structure**
+Generate Basic Package Structure
 
 ```bash
 claude "Create an npm package with ESM support, TypeScript types, Jest testing, ESLint, and Prettier. Include standard directories: src/, tests/, and dist/. Set up GitHub Actions CI workflow."
@@ -75,11 +75,11 @@ Claude Code creates:
 - Directory structure (`src/`, `tests/`)
 - Initial source files and test templates
 
-## Implementing Core Package Features
+Implementing Core Package Features
 
 After scaffolding, implement your package functionality using Claude Code's assistance.
 
-**Creating the Main Module**
+Creating the Main Module
 
 ```typescript
 // src/index.ts
@@ -111,7 +111,7 @@ export class MyPackage {
 export default MyPackage;
 ```
 
-**Adding TypeScript Types**
+Adding TypeScript Types
 
 ```typescript
 // src/types.ts
@@ -127,17 +127,17 @@ export type PackageEvent =
   | { type: 'error'; error: Error };
 ```
 
-## Writing Tests with Claude Code
+Writing Tests with Claude Code
 
 Claude Code helps generate test suites covering edge cases.
 
-**Generating Test Files**
+Generating Test Files
 
 ```bash
 claude "Write Jest tests for the MyPackage class covering: constructor options, initialize method, execute method with various inputs, error handling, and edge cases like empty strings and null inputs."
 ```
 
-**Example Test Structure**
+Example Test Structure
 
 ```typescript
 // tests/MyPackage.test.ts
@@ -179,14 +179,14 @@ describe('MyPackage', () => {
 });
 ```
 
-## Setting Up CI/CD Pipeline
+Setting Up CI/CD Pipeline
 
 Claude Code generates GitHub Actions workflows for automated testing and publishing.
 
-**CI Workflow Configuration**
+CI Workflow Configuration
 
 ```yaml
-# .github/workflows/ci.yml
+.github/workflows/ci.yml
 name: CI
 
 on:
@@ -216,10 +216,10 @@ jobs:
       - run: npm run build
 ```
 
-**Publishing Workflow**
+Publishing Workflow
 
 ```yaml
-# .github/workflows/publish.yml
+.github/workflows/publish.yml
 name: Publish
 
 on:
@@ -244,77 +244,77 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 ```
 
-## Publishing Your Package
+Publishing Your Package
 
 Follow these steps to publish your package to the npm registry.
 
-**Preparation Steps**
+Preparation Steps
 
 ```bash
-# Update package.json with proper metadata
-# - name: your-username/your-package
-# - version: 1.0.0
-# - description: Clear description
-# - main: dist/index.js
-# - types: dist/index.d.ts
-# - repository: GitHub repo URL
-# - keywords: relevant keywords
+Update package.json with proper metadata
+- name: your-username/your-package
+- version: 1.0.0
+- description: Clear description
+- main: dist/index.js
+- types: dist/index.d.ts
+- repository: GitHub repo URL
+- keywords: relevant keywords
 
-# Login to npm (one-time)
+Login to npm (one-time)
 npm login
 
-# Verify package name is available
+Verify package name is available
 npm view your-package-name
 ```
 
-**Publishing Commands**
+Publishing Commands
 
 ```bash
-# Dry run to verify
+Dry run to verify
 npm publish --dry-run
 
-# Publish to npm
+Publish to npm
 npm publish
 
-# Or publish with access level
+Or publish with access level
 npm publish --access public  # For scoped packages
 ```
 
-## Maintaining Your Package
+Maintaining Your Package
 
 Claude Code assists with ongoing maintenance tasks.
 
-**Version Management**
+Version Management
 
 ```bash
-# Update version semantically
+Update version semantically
 npm version patch  # 1.0.0 -> 1.0.1
 npm version minor  # 1.0.0 -> 1.1.0
 npm version major  # 1.0.0 -> 2.0.0
 ```
 
-**Adding Features**
+Adding Features
 
 ```bash
 claude "Add a new method to the package that implements caching with TTL support. Include tests and update TypeScript types."
 ```
 
-**Documentation Updates**
+Documentation Updates
 
 ```bash
 claude "Generate API documentation from TypeScript types using TypeDoc. Include examples for each exported function and class."
 ```
 
-## Handling Backward Compatibility as Your Package Evolves
+Handling Backward Compatibility as Your Package Evolves
 
-The hardest part of maintaining a public npm package is not building new features — it is removing or changing existing ones without breaking dependent projects. Claude Code helps you think through compatibility implications before making changes.
+The hardest part of maintaining a public npm package is not building new features. it is removing or changing existing ones without breaking dependent projects. Claude Code helps you think through compatibility implications before making changes.
 
 Before removing a deprecated method, add an explicit deprecation warning:
 
 ```typescript
 // src/deprecated.ts
 export class MyPackage {
-  /**
+  /
    * @deprecated Use `executeAsync` instead. Will be removed in v3.0.0.
    */
   execute(data: string): string {
@@ -341,7 +341,7 @@ claude "Review the diff between v1.x and v2.0 in this changelog. Generate a migr
 
 The migration guide should live in `MIGRATION.md` at your package root and be linked from your README's changelog section.
 
-## Publishing Dual Packages: ESM and CommonJS
+Publishing Dual Packages: ESM and CommonJS
 
 Modern npm packages need to support both ES Modules (used by Vite, modern bundlers, and native Node.js ESM) and CommonJS (used by older Node.js projects and Jest). Configure your `package.json` exports field correctly:
 
@@ -381,23 +381,23 @@ Configure TypeScript to output both formats:
 ```
 
 ```bash
-# Build script in package.json
+Build script in package.json
 "build": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json && tsc --emitDeclarationOnly -p tsconfig.types.json"
 ```
 
-Ask Claude Code to audit your package.json exports field and verify that bundler tools resolve both formats correctly. Edge cases in the exports field — especially around subpath exports and conditional exports — are a common source of "works in my project, breaks in yours" reports.
+Ask Claude Code to audit your package.json exports field and verify that bundler tools resolve both formats correctly. Edge cases in the exports field. especially around subpath exports and conditional exports. are a common source of "works in my project, breaks in yours" reports.
 
-## Automating Package Quality with Claude Code
+Automating Package Quality with Claude Code
 
 Beyond test generation, Claude Code can perform ongoing quality checks as part of your development workflow.
 
-**API surface review**: Before each release, ask Claude Code to review your public API for consistency:
+API surface review: Before each release, ask Claude Code to review your public API for consistency:
 
 ```bash
 claude "Review the exported types in src/index.ts. Flag: method naming inconsistencies, parameter ordering that doesn't follow a clear convention, missing JSDoc on public methods, and any methods that could cause confusion with similar-sounding built-in JavaScript methods."
 ```
 
-**Bundle size analysis**: Large bundle sizes hurt downstream consumers. Use size-limit to enforce bundle budgets:
+Bundle size analysis: Large bundle sizes hurt downstream consumers. Use size-limit to enforce bundle budgets:
 
 ```bash
 npm install --save-dev size-limit @size-limit/preset-small-lib
@@ -419,34 +419,34 @@ Ask Claude Code to suggest size optimizations when the bundle exceeds your targe
 claude "The bundle size for this npm package exceeds our 10KB limit. Review the imports in src/index.ts and suggest which dependencies could be made optional or replaced with lighter alternatives."
 ```
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get started quickly?**
+How do I get started quickly?
 
 Pick one tool from the options discussed and sign up for a free trial. Spend 30 minutes on a real task from your daily work rather than running through tutorials. Real usage reveals fit faster than feature comparisons.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Claude Code for Faker.js Test Data Workflow Guide](/claude-code-for-faker-js-test-data-workflow-guide/)
 - [Remote Code Review Tools Comparison 2026](/remote-code-review-tools-comparison-2026/)
 - [Code Review Tools for Solo Freelance Developers](/code-review-tools-for-solo-freelance-developers/)
 - [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

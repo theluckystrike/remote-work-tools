@@ -14,7 +14,7 @@ tags: [remote-work-tools, security]
 ---
 
 {% raw %}
-## How to Create Automated Security Scan Pipelines
+How to Create Automated Security Scan Pipelines
 
 Security reviews done manually at the end of a sprint find problems after the code is already merged and deployed. Automated scan pipelines catch most issues at PR time, before they land in main, before anyone thinks about deploying them.
 
@@ -22,17 +22,17 @@ This guide builds a layered pipeline: secrets detection, dependency auditing, SA
 
 ---
 
-## Layer 1: Secret Detection with Gitleaks
+Layer 1: Secret Detection with Gitleaks
 
 Gitleaks scans commits for API keys, tokens, and credentials before they hit the repository.
 
-**`.github/workflows/gitleaks.yml`**
+`.github/workflows/gitleaks.yml`
 
 ```yaml
 name: Secret Scan
 on:
   push:
-    branches: ["**"]
+    branches: [""]
   pull_request:
 
 jobs:
@@ -49,7 +49,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-**Custom rules in `.gitleaks.toml`:**
+Custom rules in `.gitleaks.toml`:
 
 ```toml
 [extend]
@@ -73,9 +73,9 @@ regexes = [
 
 ---
 
-## Layer 2: Dependency Auditing
+Layer 2: Dependency Auditing
 
-**`dependency-audit.yml`**
+`dependency-audit.yml`
 
 ```yaml
 name: Dependency Audit
@@ -123,9 +123,9 @@ jobs:
 
 ---
 
-## Layer 3: SAST with Semgrep
+Layer 3: SAST with Semgrep
 
-**`semgrep.yml`**
+`semgrep.yml`
 
 ```yaml
 name: SAST -- Semgrep
@@ -161,7 +161,7 @@ jobs:
           sarif_file: semgrep-results.sarif
 ```
 
-**Custom rules in `.semgrep/custom-rules.yml`:**
+Custom rules in `.semgrep/custom-rules.yml`:
 
 ```yaml
 rules:
@@ -185,9 +185,9 @@ rules:
 
 ---
 
-## Layer 4: Container Image Scanning with Trivy
+Layer 4: Container Image Scanning with Trivy
 
-**`container-scan.yml`**
+`container-scan.yml`
 
 ```yaml
 name: Container Security Scan
@@ -232,10 +232,10 @@ jobs:
 
 ---
 
-## Composing the Full Pipeline
+Composing the Full Pipeline
 
 ```yaml
-# .github/workflows/security.yml
+.github/workflows/security.yml
 name: Security Gate
 on:
   pull_request:
@@ -259,23 +259,23 @@ jobs:
 
 ---
 
-## Suppressing False Positives
+Suppressing False Positives
 
 ```bash
-# Semgrep inline suppression
+Semgrep inline suppression
 password = get_test_fixture_password()  # nosemgrep: no-hardcoded-credentials
 
-# Trivy ignore file
-# .trivyignore
+Trivy ignore file
+.trivyignore
 CVE-2023-12345
 
-# Gitleaks inline ignore
+Gitleaks inline ignore
 api_key = "test-key-not-real"  # gitleaks:allow
 ```
 
 ---
 
-## Slack Notification on Failure
+Slack Notification on Failure
 
 ```yaml
 - name: Notify Slack on security failure
@@ -299,12 +299,12 @@ api_key = "test-key-not-real"  # gitleaks:allow
 
 ---
 
-## Layer 5: Infrastructure as Code Scanning with Checkov
+Layer 5: Infrastructure as Code Scanning with Checkov
 
 Terraform, Kubernetes manifests, and Dockerfiles have security misconfigurations that aren't caught by code SAST. Checkov finds them before they reach production.
 
 ```yaml
-# .github/workflows/checkov.yml
+.github/workflows/checkov.yml
 name: IaC Security Scan
 on:
   pull_request:
@@ -359,13 +359,13 @@ resource "aws_s3_bucket" "public_assets" {
 }
 ```
 
-## Enforcing the Security Gate
+Enforcing the Security Gate
 
 The pipeline only works as a gate if PR merges are blocked when scans fail. Configure branch protection:
 
 ```
 Repository → Settings → Branches → Branch protection rules → main
-✅ Require status checks to pass before merging
+ Require status checks to pass before merging
 Required checks:
   - Secret Scan / gitleaks
   - Dependency Audit / npm-audit (or python-safety, go-vuln)
@@ -376,7 +376,7 @@ Required checks:
 For teams using code owners, add a CODEOWNERS rule that requires security team sign-off when any of the scan configuration files change:
 
 ```
-# .github/CODEOWNERS
+.github/CODEOWNERS
 .github/workflows/gitleaks.yml    @org/security-team
 .github/workflows/semgrep.yml     @org/security-team
 .semgrep/                          @org/security-team
@@ -386,7 +386,7 @@ terraform/                         @org/security-team
 
 Track scan metrics over time by posting results to a dashboard. A rising false-positive rate means rules need tuning. A rising true-positive rate means developers need training on the patterns being caught.
 
-## Related Reading
+Related Reading
 
 - [Best Tools for Remote Team Secret Sharing](/remote-team-secret-sharing-tools/)
 - [How to Automate Pull Request Labeling](/automate-pull-request-labeling/)
@@ -394,5 +394,5 @@ Track scan metrics over time by posting results to a dashboard. A rising false-p
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -19,7 +19,7 @@ Remote freelancers can deduct a significant portion of business expenses, but on
 
 This guide covers what remote freelancers can typically deduct, how to track it, and the tools that automate most of the work.
 
-## Common Deductions for Remote Freelancers
+Common Deductions for Remote Freelancers
 
 The categories below apply to US self-employed individuals. Consult a tax professional for country-specific rules.
 
@@ -65,7 +65,7 @@ Marketing and Client Acquisition
   - Business cards, professional photography
 ```
 
-## Tracking System: Wave (Free)
+Tracking System: Wave (Free)
 
 Wave is a free accounting tool built for freelancers. Connect bank accounts and it auto-imports transactions. You categorize each transaction once; Wave remembers and applies the category to future transactions from the same merchant.
 
@@ -86,7 +86,7 @@ Categories to set up:
   Subcontractor Payments (generates 1099 tracking)
 ```
 
-**Export for taxes:**
+Export for taxes:
 
 ```
 Wave → Reports → Profit & Loss Report
@@ -95,26 +95,26 @@ Wave → Reports → Profit & Loss Report
   → Share with accountant or import into tax software
 ```
 
-## Tracking System: Actual Budget (Free, Self-Hosted)
+Tracking System: Actual Budget (Free, Self-Hosted)
 
 For freelancers who want local-first, no-cloud expense tracking:
 
 ```bash
-# Install Actual Budget (self-hosted)
+Install Actual Budget (self-hosted)
 docker run -d \
   --name actualbudget \
   -p 5006:5006 \
   -v /opt/actualbudget:/data \
   actualbudget/actual-server:latest
 
-# Access at http://localhost:5006
-# Create categories matching the deduction list above
-# Import transactions via CSV from bank exports
+Access at http://localhost:5006
+Create categories matching the deduction list above
+Import transactions via CSV from bank exports
 ```
 
-## Receipt Capture: Dext (formerly Receipt Bank)
+Receipt Capture: Dext (formerly Receipt Bank)
 
-Dext extracts data from photos of receipts and categorizes them. Point your phone camera at a receipt and it extracts amount, vendor, date, and tax — then pushes the data to Wave, QuickBooks, or Xero.
+Dext extracts data from photos of receipts and categorizes them. Point your phone camera at a receipt and it extracts amount, vendor, date, and tax. then pushes the data to Wave, QuickBooks, or Xero.
 
 ```
 Dext → Connect → Wave (OAuth)
@@ -123,20 +123,20 @@ Dext → Connect → Wave (OAuth)
   → Review and approve → syncs to Wave automatically
 ```
 
-Alternative: **Hubdoc** (free with some accounting software) does the same for recurring invoices — connect your vendor accounts (AWS, Figma, GitHub) and it pulls invoices automatically.
+Alternative: Hubdoc (free with some accounting software) does the same for recurring invoices. connect your vendor accounts (AWS, Figma, GitHub) and it pulls invoices automatically.
 
-## Track Quarterly Estimated Taxes
+Track Quarterly Estimated Taxes
 
 The IRS requires quarterly estimated tax payments if you expect to owe more than $1,000. Remote freelancers who skip quarterly estimates pay a penalty at filing.
 
 ```python
-# quarterly-tax-estimate.py
-# Run after each month to update estimates
+quarterly-tax-estimate.py
+Run after each month to update estimates
 
 GROSS_INCOME_YTD = 45000      # Update each month
 BUSINESS_EXPENSES_YTD = 8200  # From Wave export
 
-# Tax rates (approximate — consult a tax professional)
+Tax rates (approximate. consult a tax professional)
 SELF_EMPLOYMENT_TAX_RATE = 0.1413   # 14.13% (half deductible)
 SE_DEDUCTION = SELF_EMPLOYMENT_TAX_RATE / 2
 FEDERAL_INCOME_TAX_RATE = 0.22      # Adjust for your bracket
@@ -163,59 +163,59 @@ print(f"Monthly reserve: ${total_tax/12:,.0f}")
   Q4: January 15, 2027
 ```
 
-## Home Office Deduction: Calculate Both Methods
+Home Office Deduction: Calculate Both Methods
 
 ```bash
-# home-office.sh — compare simplified vs actual method
+home-office.sh. compare simplified vs actual method
 
 SQUARE_FOOTAGE_OFFICE=150    # dedicated workspace
 SQUARE_FOOTAGE_HOME=1800     # total home
 
-# Simplified method
+Simplified method
 SIMPLIFIED=$(echo "scale=2; $SQUARE_FOOTAGE_OFFICE * 5" | bc)
 echo "Simplified method: \$$SIMPLIFIED (max \$1500)"
 
-# Actual method inputs
+Actual method inputs
 ANNUAL_RENT=18000
 ANNUAL_UTILITIES=2400
 ANNUAL_INTERNET=1200
 ANNUAL_RENTER_INSURANCE=300
 TOTAL_HOME_EXPENSES=$((ANNUAL_RENT + ANNUAL_UTILITIES + ANNUAL_RENTER_INSURANCE))
 
-# Business-use percentage
+Business-use percentage
 BIZ_PERCENT=$(echo "scale=4; $SQUARE_FOOTAGE_OFFICE / $SQUARE_FOOTAGE_HOME" | bc)
 HOME_OFFICE_DEDUCTION=$(echo "scale=2; $TOTAL_HOME_EXPENSES * $BIZ_PERCENT" | bc)
 
-# Internet is separate — all at business percentage
+Internet is separate. all at business percentage
 INTERNET_DEDUCTION=$(echo "scale=2; $ANNUAL_INTERNET * 0.80" | bc)
 
 echo "Actual method: \$$HOME_OFFICE_DEDUCTION home + \$$INTERNET_DEDUCTION internet"
 echo "Take the higher of the two methods."
 ```
 
-## Mileage and Vehicle Deductions
+Mileage and Vehicle Deductions
 
 If client visits or supply runs are part of your freelance work, track miles separately from personal driving.
 
 ```bash
-# Use MileIQ (iOS/Android) — auto-detects drives via GPS
-# Or log manually
+Use MileIQ (iOS/Android). auto-detects drives via GPS
+Or log manually
 
-# IRS standard mileage rate 2026: check IRS.gov (updated annually, ~67 cents/mile for 2024)
+IRS standard mileage rate 2026: check IRS.gov (updated annually, ~67 cents/mile for 2024)
 
-# Manual log format
+Manual log format
 cat >> ~/business-mileage-2026.csv << 'EOF'
 Date,Purpose,From,To,Miles
 2026-03-15,Client meeting - ACME Corp,Home,123 Client St,12.4
 2026-03-20,Office supply run,Home,Office Depot,5.2
 EOF
 
-# Calculate deduction at year end
+Calculate deduction at year end
 awk -F',' 'NR>1 {sum += $5} END {printf "Total miles: %.1f\nDeduction at $0.67/mile: $%.2f\n", sum, sum*0.67}' \
   ~/business-mileage-2026.csv
 ```
 
-## Annual Tax Prep Checklist
+Annual Tax Prep Checklist
 
 ```
 January – March (tax prep season):
@@ -231,41 +231,41 @@ January – March (tax prep season):
   [ ] Send 1099-NEC to any contractors you paid >$600
 ```
 
-## Related Reading
+Related Reading
 
 - [Tax Deductions Guide for Freelance Developers 2026](/tax-deductions-guide-for-freelance-developers-2026/)
 - [Best Accounting Software for Freelancers 2026](/best-accounting-software-for-freelancers-2026/)
 - [Automate Invoice Generation for Freelancers](/automate-invoice-generation-freelancers/)
 - [Best Time Tracking Tools for Remote Freelancers](/best-time-tracking-tools-for-remote-freelancers/)
 
-## Related Articles
+Related Articles
 
 - [Best Time Tracking Tools for Remote Freelancers](/best-time-tracking-tools-for-remote-freelancers/)
 - [Remote Working Parent Tax Deduction Guide for Home Office](/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
 - [Productivity Tracking Tools for Remote Teams 2026](/remote-team-productivity-tracking-2026/)
 - [Tax Deductions Guide for Freelance Developers 2026](/tax-deductions-guide-for-freelance-developers-2026/)
 - [Best Tools for Managing Remote Internship Programs](/best-tools-for-managing-remote-internship-programs/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Are there any hidden costs I should know about?**
+Are there any hidden costs I should know about?
 
 Watch for overage charges, API rate limit fees, and costs for premium features not included in base plans. Some tools charge extra for storage, team seats, or advanced integrations. Read the full pricing page including footnotes before signing up.
 
-**Is the annual plan worth it over monthly billing?**
+Is the annual plan worth it over monthly billing?
 
 Annual plans typically save 15-30% compared to monthly billing. If you have used the tool for at least 3 months and plan to continue, the annual discount usually makes sense. Avoid committing annually before you have validated the tool fits your needs.
 
-**Can I change plans later without losing my data?**
+Can I change plans later without losing my data?
 
 Most tools allow plan changes at any time. Upgrading takes effect immediately, while downgrades typically apply at the next billing cycle. Your data and settings are preserved across plan changes in most cases, but verify this with the specific tool.
 
-**Do student or nonprofit discounts exist?**
+Do student or nonprofit discounts exist?
 
 Many AI tools and software platforms offer reduced pricing for students, educators, and nonprofits. Check the tool's pricing page for a discount section, or contact their sales team directly. Discounts of 25-50% are common for qualifying organizations.
 
-**What happens to my work if I cancel my subscription?**
+What happens to my work if I cancel my subscription?
 
 Policies vary widely. Some tools let you access your data for a grace period after cancellation, while others lock you out immediately. Export your important work before canceling, and check the terms of service for data retention policies.
 

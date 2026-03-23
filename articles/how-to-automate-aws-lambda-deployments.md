@@ -15,36 +15,36 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-Manual Lambda deploys via the AWS console don't scale past one developer. This guide builds a full CI/CD pipeline for Lambda using AWS SAM, GitHub Actions, and CodeDeploy traffic shifting — the same pattern used in production at teams running 50+ functions.
+Manual Lambda deploys via the AWS console don't scale past one developer. This guide builds a full CI/CD pipeline for Lambda using AWS SAM, GitHub Actions, and CodeDeploy traffic shifting. the same pattern used in production at teams running 50+ functions.
 
-## Prerequisites
+Prerequisites
 
 - AWS CLI v2 configured (`aws configure`)
 - SAM CLI installed
 - An S3 bucket for deployment artifacts
 - IAM role with Lambda, S3, and CloudFormation permissions
 
-## Project Structure
+Project Structure
 
 ```
 my-lambda-service/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
-├── src/
-│   ├── handler.js
-│   └── utils.js
-├── tests/
-│   └── handler.test.js
-├── template.yaml          # SAM template
-├── samconfig.toml         # environment configs
-└── package.json
+ .github/
+    workflows/
+        deploy.yml
+ src/
+    handler.js
+    utils.js
+ tests/
+    handler.test.js
+ template.yaml          # SAM template
+ samconfig.toml         # environment configs
+ package.json
 ```
 
-## SAM Template
+SAM Template
 
 ```yaml
-# template.yaml
+template.yaml
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: Lambda deployment pipeline example
@@ -126,7 +126,7 @@ Outputs:
     Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod"
 ```
 
-## samconfig.toml
+samconfig.toml
 
 ```toml
 version = 0.1
@@ -153,10 +153,10 @@ confirm_changeset = false
 fail_on_empty_changeset = false
 ```
 
-## GitHub Actions Workflow
+GitHub Actions Workflow
 
 ```yaml
-# .github/workflows/deploy.yml
+.github/workflows/deploy.yml
 name: Deploy Lambda
 
 on:
@@ -260,13 +260,13 @@ jobs:
         with:
           payload: |
             {
-              "text": "Lambda deploy ${{ job.status }}: ${{ steps.env.outputs.env }} — ${{ github.sha }}"
+              "text": "Lambda deploy ${{ job.status }}: ${{ steps.env.outputs.env }}. ${{ github.sha }}"
             }
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 ```
 
-## Pre-Traffic Hook
+Pre-Traffic Hook
 
 ```javascript
 // src/hooks.js
@@ -307,62 +307,62 @@ exports.preTraffic = async (event) => {
 };
 ```
 
-## Rollback on Alarm
+Rollback on Alarm
 
 CodeDeploy automatically rolls back if `ApiHandlerErrorAlarm` triggers during the shift window. To trigger manually:
 
 ```bash
-# Get the deployment ID
+Get the deployment ID
 DEPLOY_ID=$(aws deploy list-deployments \
   --application-name my-lambda-service-ApiHandler \
   --deployment-group-name my-lambda-service-ApiHandler-DeploymentGroup \
   --query "deployments[0]" \
   --output text)
 
-# Stop and roll back
+Stop and roll back
 aws deploy stop-deployment \
   --deployment-id $DEPLOY_ID \
   --auto-rollback-enabled
 ```
 
-## Version and Alias Management
+Version and Alias Management
 
 ```bash
-# List all versions
+List all versions
 aws lambda list-versions-by-function \
   --function-name my-lambda-service-ApiHandler
 
-# Point alias to a specific version for hotfix
+Point alias to a specific version for hotfix
 aws lambda update-alias \
   --function-name my-lambda-service-ApiHandler \
   --name live \
   --function-version 42
 
-# Weighted alias for canary (10% to new version)
+Weighted alias for canary (10% to new version)
 aws lambda update-alias \
   --function-name my-lambda-service-ApiHandler \
   --name live \
   --routing-config AdditionalVersionWeights={"43"=0.1}
 
-# Promote to 100%
+Promote to 100%
 aws lambda update-alias \
   --function-name my-lambda-service-ApiHandler \
   --name live \
   --routing-config AdditionalVersionWeights={}
 ```
 
-## Local Testing
+Local Testing
 
 ```bash
-# Start local API Gateway emulator
+Start local API Gateway emulator
 sam local start-api --env-vars env.json --port 3000
 
-# Invoke a single function
+Invoke a single function
 sam local invoke ApiHandler \
   --event events/api-request.json \
   --env-vars env.json
 
-# env.json
+env.json
 {
   "ApiHandler": {
     "NODE_ENV": "local",
@@ -371,21 +371,21 @@ sam local invoke ApiHandler \
 }
 ```
 
-## Cost and Cold Start Tips
+Cost and Cold Start Tips
 
 - Set `ProvisionedConcurrencyConfig` in the alias to pre-warm instances for latency-sensitive endpoints
 - Use Lambda Powertools for structured logging and X-Ray tracing with minimal overhead
-- Enable function URLs with IAM auth instead of API Gateway for internal tooling — no extra cost
+- Enable function URLs with IAM auth instead of API Gateway for internal tooling. no extra cost
 
 ```bash
-# Add provisioned concurrency after deploy
+Add provisioned concurrency after deploy
 aws lambda put-provisioned-concurrency-config \
   --function-name my-lambda-service-ApiHandler \
   --qualifier live \
   --provisioned-concurrent-executions 5
 ```
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Semaphore CI for Remote Teams](/how-to-set-up-semaphore-ci-for-remote-teams/)
 - [How to Automate Container Image Scanning](/how-to-automate-container-image-scanning/)
@@ -393,6 +393,6 @@ aws lambda put-provisioned-concurrency-config \
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

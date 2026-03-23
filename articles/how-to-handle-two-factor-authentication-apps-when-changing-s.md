@@ -16,9 +16,9 @@ voice-checked: true
 
 {% raw %}
 
-Changing SIM cards frequently while traveling internationally creates a specific problem for two-factor authentication (2FA). Your phone number changes, and many 2FA systems link directly to that number—whether it's SMS codes or authenticator apps tied to a specific device. If you rely on phone-based 2FA without preparation, you risk losing access to critical accounts at the worst possible moment.
+Changing SIM cards frequently while traveling internationally creates a specific problem for two-factor authentication (2FA). Your phone number changes, and many 2FA systems link directly to that number, whether it's SMS codes or authenticator apps tied to a specific device. If you rely on phone-based 2FA without preparation, you risk losing access to critical accounts at the worst possible moment.
 
-## Table of Contents
+Table of Contents
 
 - [Understanding the Core Problem](#understanding-the-core-problem)
 - [Strategy 1: Use Authenticator Apps with Cloud Backup](#strategy-1-use-authenticator-apps-with-cloud-backup)
@@ -31,7 +31,7 @@ Changing SIM cards frequently while traveling internationally creates a specific
 
 This guide covers practical strategies for developers and power users who switch SIM cards regularly. The focus is on maintaining access to your accounts without creating security vulnerabilities.
 
-## Understanding the Core Problem
+Understanding the Core Problem
 
 When you insert a new SIM card, your phone gets a new phone number (unless you're using eSIM with number porting). Most 2FA implementations that depend on SMS will either:
 
@@ -40,18 +40,18 @@ When you insert a new SIM card, your phone gets a new phone number (unless you'r
 
 Authenticator apps tied to a specific device also create issues. If you switch phones or lose access to your primary device, you need a recovery path.
 
-The solution isn't to avoid 2FA—it's to build redundancy into your authentication strategy before you need it.
+The solution isn't to avoid 2FA, it's to build redundancy into your authentication strategy before you need it.
 
-## Strategy 1: Use Authenticator Apps with Cloud Backup
+Strategy 1: Use Authenticator Apps with Cloud Backup
 
 The most reliable approach for frequent travelers is using authenticator apps that support cloud synchronization. These apps store your 2FA secrets in encrypted cloud storage, allowing you to restore them on any new device.
 
 Popular options that support cloud backup include:
 
-- **Google Authenticator** – syncs to your Google account
-- **Authy** – multi-device sync with encrypted cloud storage
-- **Microsoft Authenticator** – Azure AD integration with cloud backup
-- **1Password/Bitwarden** – built-in authenticator with encrypted vault backup
+- Google Authenticator – syncs to your Google account
+- Authy – multi-device sync with encrypted cloud storage
+- Microsoft Authenticator – Azure AD integration with cloud backup
+- 1Password/Bitwarden – built-in authenticator with encrypted vault backup
 
 For developers managing multiple accounts across services, a password manager with built-in TOTP support simplifies this significantly. Your 2FA codes live alongside your passwords in an encrypted vault that syncs across devices.
 
@@ -77,38 +77,38 @@ bw create item login \
 
 This approach means your 2FA codes travel with your password vault. When you get a new phone, you install the password manager app, log in, and all your TOTP codes are immediately available.
 
-## Strategy 2: Export and Store Recovery Codes Properly
+Strategy 2: Export and Store Recovery Codes Properly
 
 Every serious service provides recovery codes when you enable 2FA. The common mistake is storing these digitally in an unsecured location or worse, not storing them at all.
 
 For developers, a proper recovery code storage strategy involves:
 
-1. **Store codes in an encrypted location** – Password managers like 1Password, Bitwarden, or KeepassXC handle this well
-2. **Keep a physical backup** – Write codes on paper stored in a secure location you can access
-3. **Share with a trusted person** – Give a sealed envelope to someone you trust
+1. Store codes in an encrypted location – Password managers like 1Password, Bitwarden, or KeepassXC handle this well
+2. Keep a physical backup – Write codes on paper stored in a secure location you can access
+3. Share with a trusted person – Give a sealed envelope to someone you trust
 
 ```bash
-# Example: Encrypting recovery codes with GPG for storage
-# Create a text file with recovery codes
+Encrypting recovery codes with GPG for storage
+Create a text file with recovery codes
 cat > ~/2fa-recovery-codes.txt << 'EOF'
 GitHub: 123456-789ABC
 AWS:    ABCD-1234-EFGH-5678
 Stripe: recovery-code-here
 EOF
 
-# Encrypt with GPG (you'll be prompted for a passphrase)
+Encrypt with GPG (you'll be prompted for a passphrase)
 gpg --symmetric --cipher-algo AES256 ~/2fa-recovery-codes.txt
 
-# Remove the plaintext file
+Remove the plaintext file
 rm ~/2fa-recovery-codes.txt
 
-# Decrypt when needed
+Decrypt when needed
 gpg --decrypt ~/2fa-recovery-codes.txt.gpg
 ```
 
 The GPG approach gives you military-grade encryption for your recovery codes. Store the encrypted file in cloud storage (Dropbox, Google Drive, iCloud) and remember your passphrase.
 
-## Strategy 3: Use Hardware Tokens as Primary 2FA
+Strategy 3: Use Hardware Tokens as Primary 2FA
 
 Hardware security keys like YubiKey or Titan provide the most travel-resistant authentication method. These devices don't depend on phone numbers, SIM cards, or internet connectivity. You plug in or tap the key to authenticate.
 
@@ -154,7 +154,7 @@ async function registerHardwareKey() {
 
 The key advantage for frequent SIM changers: hardware tokens work regardless of your phone number. You could lose your phone entirely and still authenticate with your YubiKey.
 
-## Strategy 4: Keep a Static Number Through VoIP
+Strategy 4: Keep a Static Number Through VoIP
 
 If you need a consistent phone number for SMS-based 2FA, consider a VoIP service that provides a persistent number. Google Voice (US only), Skype, or services like NumberBarn give you a number that stays constant regardless of your physical SIM card.
 
@@ -166,42 +166,42 @@ However, this approach has caveats:
 
 For developers who primarily use authenticator apps, this serves as a backup for services that insist on SMS verification.
 
-## Strategy 5: Prepare Before You Travel
+Strategy 5: Prepare Before You Travel
 
 The most important strategy is preparation. Before changing SIM cards or traveling:
 
-1. **Update your recovery email and phone** – Ensure services have current contact info
-2. **Test recovery flows** – Try logging out and recovering access to confirm your backup methods work
-3. **Export authenticator secrets** – Store QR code backups in a secure location
-4. **Register multiple authentication methods** – Enable both an authenticator app and a hardware key where possible
+1. Update your recovery email and phone – Ensure services have current contact info
+2. Test recovery flows – Try logging out and recovering access to confirm your backup methods work
+3. Export authenticator secrets – Store QR code backups in a secure location
+4. Register multiple authentication methods – Enable both an authenticator app and a hardware key where possible
 
 ```bash
-# Quick checklist before international travel
-# Run this to remind yourself of key steps
+Quick checklist before international travel
+Run this to remind yourself of key steps
 cat << 'EOF'
 PRE-DEPARTURE 2FA CHECKLIST:
-□ Updated recovery email on all critical accounts
-□ Verified recovery codes are accessible
-□ Tested login flow on a secondary device
-□ Registered hardware security key (if using one)
-□ Exported authenticator QR codes (encrypted)
-□ Notified services of travel if required
-□ Backed up password vault to cloud
+ Updated recovery email on all critical accounts
+ Verified recovery codes are accessible
+ Tested login flow on a secondary device
+ Registered hardware security key (if using one)
+ Exported authenticator QR codes (encrypted)
+ Notified services of travel if required
+ Backed up password vault to cloud
 EOF
 ```
 
-## What to Do If You're Locked Out
+What to Do If You're Locked Out
 
 If you change your SIM and lose access to 2FA-protected accounts:
 
-1. **Use recovery codes** – This should be your first attempt
-2. **Request account recovery** – Most services offer this via email
-3. **Contact support directly** – For critical accounts (banking, cloud infrastructure), phone support often resolves faster
-4. **Use backup authentication** – If you registered multiple methods, try the alternative
+1. Use recovery codes – This should be your first attempt
+2. Request account recovery – Most services offer this via email
+3. Contact support directly – For critical accounts (banking, cloud infrastructure), phone support often resolves faster
+4. Use backup authentication – If you registered multiple methods, try the alternative
 
 Prevent this situation by testing your recovery flow before you need it. Set a calendar reminder every 6 months to verify you can access your recovery codes and test a login recovery.
 
-## Building Your Long-Term Setup
+Building Your Long-Term Setup
 
 For developers who travel frequently, the optimal setup combines multiple layers:
 
@@ -216,34 +216,34 @@ The initial setup takes some time, but the peace of mind is worth it. Your authe
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to handle two factor authentication apps when changing?**
+How long does it take to handle two factor authentication apps when changing?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Is this approach secure enough for production?**
+Is this approach secure enough for production?
 
 The patterns shown here follow standard practices, but production deployments need additional hardening. Add rate limiting, input validation, proper secret management, and monitoring before going live. Consider a security review if your application handles sensitive user data.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Track all critical accounts requiring phone verification](/how-to-maintain-us-phone-number-while-working-remotely-from-/)
 - [Best Two-Factor Authentication Setup for Remote Team Shared](/best-two-factor-authentication-setup-for-remote-team-shared-/)
 - [Focus Apps for Remote Workers with ADHD](/focus-apps-for-remote-workers-with-adhd/)
 - [Remote Work Backup Strategy for Developers](/remote-work-backup-strategy-for-developers/)
 - [Best Grocery Delivery Service Strategy for Remote Working](/best-grocery-delivery-service-strategy-for-remote-working-pa/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

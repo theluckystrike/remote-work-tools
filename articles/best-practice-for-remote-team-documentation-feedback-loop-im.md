@@ -18,20 +18,20 @@ voice-checked: true
 
 The best documentation feedback loop for remote teams combines last-updated timestamps, quarterly review rotations, and embedded comment sections that surface outdated information automatically. These three practices prevent documentation rot by creating visibility into stale content, distributing review responsibility across the team, and enabling asynchronous feedback without disrupting work. This guide covers practical patterns for implementing feedback loops that scale with remote teams.
 
-## Why Feedback Loops Matter for Remote Documentation
+Why Feedback Loops Matter for Remote Documentation
 
 In co-located teams, hallway conversations surface outdated documentation. Remote teams lack these organic touchpoints. Without intentional feedback mechanisms, your wiki becomes a graveyard of 2022 architecture decisions and deprecated API references. A feedback loop creates a continuous improvement cycle: users report issues, maintainers update content, and the wiki stays relevant.
 
 The core principle is simple. Documentation improves fastest when it's easier to contribute feedback than to work around missing or incorrect information. Your goal is to lower the barrier to suggesting improvements while maintaining quality control.
 
-## Building Your Feedback Infrastructure
+Building Your Feedback Infrastructure
 
-### Structured Issue Templates
+Structured Issue Templates
 
 Start with a GitHub issue template designed specifically for documentation feedback. This standardizes the information you receive and makes triage efficient.
 
 ```yaml
-# .github/ISSUE_TEMPLATE/docs-feedback.md
+.github/ISSUE_TEMPLATE/docs-feedback.md
 name: Documentation Feedback
 about: Report issues or suggest improvements to our docs
 labels: documentation
@@ -74,14 +74,14 @@ body:
 
 This template ensures every piece of feedback includes context that developers need to act quickly.
 
-### Inline Commenting System
+Inline Commenting System
 
 For wikis hosted on platforms like GitBook, Notion, or Confluence, enable inline commenting. This lets readers highlight specific passages that confuse them. Review these comments weekly and tag them with priority levels.
 
 A practical workflow for handling inline comments:
 
 ```python
-# scripts/weekly-docs-review.py
+scripts/weekly-docs-review.py
 import requests
 from datetime import datetime, timedelta
 
@@ -112,7 +112,7 @@ def categorize_comments(comments):
 
     return categories
 
-# Run weekly and post results to your team Slack channel
+Run weekly and post results to your team Slack channel
 comments = get_recent_comments("https://api.gitbook.com", "page-123")
 categorized = categorize_comments(comments)
 print(f"Quick fixes: {len(categorized['quick_fix'])}")
@@ -122,11 +122,11 @@ print(f"Feature requests: {len(categorized['feature_request'])}")
 
 This script runs as a scheduled cron job and posts a weekly summary to your documentation Slack channel.
 
-## Creating a Culture of Documentation Contribution
+Creating a Culture of Documentation Contribution
 
-### Recognition and Gamification
+Recognition and Gamification
 
-Remote workers respond well to visible recognition. Create a monthly "Documentation Champion" award for the person who contributed the most valuable feedback or updates. Use your existing communication tools—a Slack announcement or a quick video in your weekly sync.
+Remote workers respond well to visible recognition. Create a monthly "Documentation Champion" award for the person who contributed the most valuable feedback or updates. Use your existing communication tools, a Slack announcement or a quick video in your weekly sync.
 
 A simple leaderboard script tracks contributions:
 
@@ -143,17 +143,17 @@ const sorted = contributions.sort((a, b) =>
   (a.PRs * 3 + a.issues * 2 + a.reviews)
 );
 
-console.log("🏆 Monthly Documentation Leaderboard 🏆");
+console.log(" Monthly Documentation Leaderboard ");
 sorted.forEach((person, index) => {
-  const medals = ["🥇", "🥈", "🥉"];
+  const medals = ["", "", ""];
   const medal = index < 3 ? medals[index] : "  ";
   console.log(`${medal} ${person.name}: ${person.PRs} updates, ${person.issues} feedback, ${person.reviews} reviews`);
 });
 ```
 
-### Embedding Feedback into Daily Workflow
+Embedding Feedback into Daily Workflow
 
-The best feedback loops don't require extra effort—they integrate into existing work. Train your team to prefix documentation questions with a simple convention:
+The best feedback loops don't require extra effort, they integrate into existing work. Train your team to prefix documentation questions with a simple convention:
 
 - `[DOC]` in Slack channels signals a documentation gap
 - `// TODO: docs` comments in code prompt documentation updates during code review
@@ -161,7 +161,7 @@ The best feedback loops don't require extra effort—they integrate into existin
 
 This creates a steady stream of feedback without dedicated documentation meetings.
 
-## Measuring Wiki Quality Over Time
+Measuring Wiki Quality Over Time
 
 Quantifying documentation health helps justify investment in improvement efforts. Track these metrics monthly:
 
@@ -174,12 +174,12 @@ Quantifying documentation health helps justify investment in improvement efforts
 
 A simple tracking dashboard using Grafana or a static HTML page keeps the team honest about documentation quality trends.
 
-## Automating Quality Checks
+Automating Quality Checks
 
 Human feedback is essential, but automation catches obvious issues before they reach users. Implement these automated checks:
 
 ```yaml
-# .github/workflows/docs-quality.yml
+.github/workflows/docs-quality.yml
 name: Documentation Quality Checks
 on: [push, pull_request]
 
@@ -191,7 +191,7 @@ jobs:
       - name: Check for broken links
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose --no-progress './articles/**/*.md'
+          args: --verbose --no-progress './articles//*.md'
           fail-on-error: true
 
   code-snippets:
@@ -206,42 +206,42 @@ jobs:
 
 This workflow runs on every pull request, catching broken links and untagged code blocks before they reach your wiki.
 
-## Sustaining the Loop Long-Term
+Sustaining the Loop Long-Term
 
-Documentation feedback loops succeed when they become invisible—part of how your team naturally works. Schedule a monthly 30-minute documentation retro focused specifically on wiki health. Rotate help to share ownership.
+Documentation feedback loops succeed when they become invisible, part of how your team naturally works. Schedule a monthly 30-minute documentation retro focused specifically on wiki health. Rotate help to share ownership.
 
 The remote work advantage here is asynchronous participation. Team members across time zones can add their feedback to a shared document before the meeting. This produces better outcomes than real-time-only discussions.
 
 Remember: perfect documentation doesn't exist. The goal is continuous improvement, not completion. Every piece of feedback, no matter how small, moves your wiki toward greater value for every team member who needs it.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Are free AI tools good enough for practice for remote team documentation feedback loop?**
+Are free AI tools good enough for practice for remote team documentation feedback loop?
 
 Free tiers work for basic tasks and evaluation, but paid plans typically offer higher rate limits, better models, and features needed for professional work. Start with free options to find what works for your workflow, then upgrade when you hit limitations.
 
-**How do I evaluate which tool fits my workflow?**
+How do I evaluate which tool fits my workflow?
 
 Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
-**Do these tools work offline?**
+Do these tools work offline?
 
 Most AI-powered tools require an internet connection since they run models on remote servers. A few offer local model options with reduced capability. If offline access matters to you, check each tool's documentation for local or self-hosted options.
 
-**Can I use these tools with a distributed team across time zones?**
+Can I use these tools with a distributed team across time zones?
 
 Most modern tools support asynchronous workflows that work well across time zones. Look for features like async messaging, recorded updates, and timezone-aware scheduling. The best choice depends on your team's specific communication patterns and size.
 
-**Should I switch tools if something better comes out?**
+Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific pain point you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
-## Related Articles
+Related Articles
 
 - [How to Build Async Feedback Culture on a Fully Remote Team](/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
 - [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [Best Practice for Remote Team Documentation Scaling When](/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 - [How to Set Up Remote Team Peer Feedback Process](/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
 - [Remote Team Documentation Culture Guide (2026)](/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

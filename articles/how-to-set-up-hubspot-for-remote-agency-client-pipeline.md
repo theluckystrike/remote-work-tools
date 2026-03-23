@@ -20,7 +20,7 @@ Remote agencies face unique challenges when managing client relationships. Your 
 
 This guide walks through configuring HubSpot specifically for remote agency operations, focusing on pipeline stages, properties, and automation that support asynchronous client management.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -30,27 +30,27 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Build Your Client Pipeline Stages
+Step 1: Build Your Client Pipeline Stages
 
 The foundation of any HubSpot setup is the pipeline itself. For a remote agency, your stages should reflect how deals actually progress when team members work across time zones and communicate primarily through written channels.
 
 A practical pipeline for remote agencies includes these stages:
 
-1. **New Inquiry** — Initial lead capture, typically from website forms or cold outreach
-2. **Discovery Call Scheduled** — Prospect has shown intent and a call is on the calendar
-3. **Proposal Sent** — Written proposal delivered asynchronously
-4. **Proposal Review** — Client is reviewing (this often takes longer remotely due to approval chains)
-5. **Contract Negotiation** — Revisions, scope changes, and contract discussion
-6. **Closed Won** — Deal secured
-7. **Closed Lost** — Deal did not move forward
+1. New Inquiry. Initial lead capture, typically from website forms or cold outreach
+2. Discovery Call Scheduled. Prospect has shown intent and a call is on the calendar
+3. Proposal Sent. Written proposal delivered asynchronously
+4. Proposal Review. Client is reviewing (this often takes longer remotely due to approval chains)
+5. Contract Negotiation. Revisions, scope changes, and contract discussion
+6. Closed Won. Deal secured
+7. Closed Lost. Deal did not move forward
 
-Each stage represents a clear handoff point, which matters when your team isn't physically together to discuss deal status in real time. Avoid overcomplicating stages — the more granular you make them, the more maintenance required to keep deal stages accurate.
+Each stage represents a clear handoff point, which matters when your team isn't physically together to discuss deal status in real time. Avoid overcomplicating stages. the more granular you make them, the more maintenance required to keep deal stages accurate.
 
-### Step 2: Configure Properties for Remote Agency Context
+Step 2: Configure Properties for Remote Agency Context
 
 Standard HubSpot properties work well, but remote agencies benefit from adding custom properties that capture context specific to distributed work.
 
-### Time Zone Property
+Time Zone Property
 
 Create a custom property for contacts called `client_timezone`. This enables your team to schedule calls at reasonable hours and sets expectations during proposal review periods. When a client in Tokyo is reviewing your proposal, knowing their timezone helps you understand why responses might come 8 hours after you send them.
 
@@ -73,19 +73,19 @@ async function updateClientTimezone(contactId, timezone) {
 }
 ```
 
-### Async Communication Preferences
+Async Communication Preferences
 
 Add a property called `preferred_async_channel` with options like email, Slack, or project management tool. Some clients prefer everything in writing; others want quick Slack messages. Capturing this preference prevents misaligned communication expectations.
 
-### Last Contacted (Manual Override)
+Last Contacted (Manual Override)
 
 While HubSpot tracks automatic activity, remote agencies benefit from a manual "last meaningful contact" property. When your team member has a substantive async exchange with a client, they update this timestamp. It provides a quick visual indicator of relationship health without relying solely on email open rates.
 
-### Step 3: Set Up Deal Automation
+Step 3: Set Up Deal Automation
 
 Automation in HubSpot should reduce busywork while preserving human judgment on client relationships. For remote agencies, focus automation on notification and data capture rather than auto-advancing deals through stages.
 
-### Stage Change Notifications
+Stage Change Notifications
 
 Configure workflow triggers to notify the appropriate team member when deals move stages. In a remote context, you cannot lean over and ask "hey, did you see that proposal was opened?" Instead, build alerts:
 
@@ -110,19 +110,19 @@ const slackMessage = {
 };
 ```
 
-### Auto-Creation of Tasks
+Auto-Creation of Tasks
 
 When a deal enters "Proposal Sent" stage, automatically create a follow-up task for 5 business days later. Remote agencies often work with clients who need internal approval cycles, and a scheduled follow-up ensures nothing falls through the cracks during extended proposal review periods.
 
-### Step 4: Integrate with Your Existing Tools
+Step 4: Integrate with Your Existing Tools
 
 HubSpot's value increases significantly when connected to your other systems. For remote agencies, the most valuable integrations typically include:
 
-**Slack** — Real-time notifications keep distributed teams informed without checking HubSpot constantly. Configure which notifications matter (new deals, stage changes, closed deals) to avoid alert fatigue.
+Slack. Real-time notifications keep distributed teams informed without checking HubSpot constantly. Configure which notifications matter (new deals, stage changes, closed deals) to avoid alert fatigue.
 
-**Calendar integration** — Sync HubSpot with Google Calendar or Calendly. For remote agencies, seeing availability across time zones directly in HubSpot prevents scheduling mishaps.
+Calendar integration. Sync HubSpot with Google Calendar or Calendly. For remote agencies, seeing availability across time zones directly in HubSpot prevents scheduling mishaps.
 
-**Project management** — While not a native HubSpot strength, connecting to tools like Asana or Linear through Zapier or native integrations allows you to link deals to projects. This creates a traceable connection between client acquisition and delivery work.
+Project management. While not a native HubSpot strength, connecting to tools like Asana or Linear through Zapier or native integrations allows you to link deals to projects. This creates a traceable connection between client acquisition and delivery work.
 
 ```javascript
 // Example: Simple Zapier-style webhook handler for deal-to-project linking
@@ -142,29 +142,29 @@ app.post('/webhooks/hubspot-deal-created', (req, res) => {
 });
 ```
 
-### Step 5: Reporting for Distributed Teams
+Step 5: Reporting for Distributed Teams
 
 Remote agencies need different reporting approaches than co-located teams. Since you cannot walk around and ask about deal status, your pipeline reports must be self-explanatory.
 
 Build a dashboard with these key metrics:
 
-- **Deals in each stage** — Current pipeline health snapshot
-- **Average time in stage** — Identifies bottlenecks in your remote workflow
-- **Deal velocity** — Days from first inquiry to close
-- **Win rate by source** — Which channels deliver qualified remote leads
+- Deals in each stage. Current pipeline health snapshot
+- Average time in stage. Identifies bottlenecks in your remote workflow
+- Deal velocity. Days from first inquiry to close
+- Win rate by source. Which channels deliver qualified remote leads
 
 Schedule a weekly pipeline review where team members update deal stages during their local business hours. With proper automation and clear property usage, this weekly sync becomes a strategic conversation rather than a status update scavenger hunt.
 
-## Advanced: Predictive Deal Scoring
+Advanced: Predictive Deal Scoring
 
 Move beyond manual tracking with predictive scoring that flags which deals are likely to close.
 
-### Building a Simple Scoring Model
+Building a Simple Scoring Model
 
 Create a HubSpot custom property that scores deal likelihood based on behavioral signals:
 
 ```python
-# HubSpot Deal Scoring Logic
+HubSpot Deal Scoring Logic
 def calculate_deal_score(deal):
     """
     Calculate probability of deal closing.
@@ -224,7 +224,7 @@ def calculate_deal_score(deal):
 
 Store this score in a HubSpot custom property and update it automatically via workflow.
 
-### Prioritizing Follow-ups by Score
+Prioritizing Follow-ups by Score
 
 Use scoring to focus effort on high-probability deals:
 
@@ -247,22 +247,22 @@ Score 0-4: Monitor
 
 This approach ensures your limited follow-up time targets deals most likely to close.
 
-### Step 6: Remote Agency-Specific Workflows
+Step 6: Remote Agency-Specific Workflows
 
-### Proposal Review Automation
+Proposal Review Automation
 
 When proposals sit unsigned for extended periods, deals stall. Automate reminders:
 
-1. **Create workflow trigger**: "Deal moved to Proposal Review stage"
-2. **Wait 3 business days**
-3. **Check condition**: Deal still in Proposal Review
-4. **Send email**: "Checking in on the proposal—happy to answer questions or schedule a discussion"
-5. **Wait 5 more days**
-6. **Create task**: "Call [contact name] to discuss proposal"
+1. Create workflow trigger: "Deal moved to Proposal Review stage"
+2. Wait 3 business days
+3. Check condition: Deal still in Proposal Review
+4. Send email: "Checking in on the proposal, happy to answer questions or schedule a discussion"
+5. Wait 5 more days
+6. Create task: "Call [contact name] to discuss proposal"
 
 This automation prevents proposals from being forgotten.
 
-### Multi-Contact Tracking
+Multi-Contact Tracking
 
 Remote deals often involve multiple stakeholders. Track all contacts on a deal:
 
@@ -273,7 +273,7 @@ Remote deals often involve multiple stakeholders. Track all contacts on a deal:
 
 This prevents the surprise of "oh, we need finance approval from a different person" derailing deals late in the process.
 
-### Timezone-Aware Scheduling
+Timezone-Aware Scheduling
 
 When working across time zones, scheduling is critical. Add a "Optimal call time" property:
 
@@ -288,17 +288,17 @@ When scheduling calls, reference these properties to find mutually convenient ti
 
 Use a tool like Calendly with timezone support to let clients book calls without back-and-forth.
 
-### Step 7: Maintaining Pipeline Hygiene
+Step 7: Maintaining Pipeline Hygiene
 
 A pipeline only works when data stays current. For remote agencies, this requires intentional habits:
 
-Assign deal ownership clearly — every active deal needs an owner who bears responsibility for stage updates. Without clear ownership in a distributed team, deals stagnate in ambiguous stages.
+Assign deal ownership clearly. every active deal needs an owner who bears responsibility for stage updates. Without clear ownership in a distributed team, deals stagnate in ambiguous stages.
 
-Require stage change notes — when moving a deal forward, mandate a brief note explaining why. This context becomes invaluable when reviewing deals during weekly syncs or when ownership transfers between team members in different time zones.
+Require stage change notes. when moving a deal forward, mandate a brief note explaining why. This context becomes invaluable when reviewing deals during weekly syncs or when ownership transfers between team members in different time zones.
 
-Review stale deals monthly — build a workflow that flags deals unchanged for 14+ days. Remote agencies cannot rely on hallway conversations to surface neglected relationships.
+Review stale deals monthly. build a workflow that flags deals unchanged for 14+ days. Remote agencies cannot rely on hallway conversations to surface neglected relationships.
 
-### Weekly Pipeline Review Cadence
+Weekly Pipeline Review Cadence
 
 Schedule 30-minute weekly pipeline reviews during a time when both US and Europe team members can attend:
 
@@ -315,65 +315,65 @@ Async follow-up: Post notes in Slack channel so team members in other zones stay
 
 This rhythm keeps the pipeline visible and prevents deals from being forgotten.
 
-### Dashboard Metrics for Remote Leadership
+Dashboard Metrics for Remote Leadership
 
 Create HubSpot dashboards that show pipeline health at a glance:
 
-**Deal velocity dashboard:**
+Deal velocity dashboard:
 - Average days in each stage (identifies bottlenecks)
 - Deals closing per week (trend line showing if pipeline is accelerating)
 - Deal size distribution (are you closing bigger deals over time?)
 
-**Team performance dashboard:**
+Team performance dashboard:
 - Deals by owner (ensures even distribution)
 - Close rate by team member (identifies top performers)
 - Win/loss ratio by industry or deal source (shows which markets work)
 
-These dashboards replace status update meetings—anyone can check pipeline health without asking questions.
+These dashboards replace status update meetings, anyone can check pipeline health without asking questions.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to set up hubspot for remote agency client pipeline?**
+How long does it take to set up hubspot for remote agency client pipeline?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Will this work with my existing CI/CD pipeline?**
+Will this work with my existing CI/CD pipeline?
 
 The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ. You may need to adapt file paths, environment variable names, and trigger conditions to match your pipeline tool. The underlying workflow logic stays the same.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Basecamp for Remote Agency Client](/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 - [How to Create Client Project Retrospective Format for Remote](/how-to-create-client-project-retrospective-format-for-remote/)
 - [Remote Agency Client Satisfaction Survey Template](/remote-agency-client-satisfaction-survey-template-and-automa/)
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/best-client-portal-for-remote-design-agency-2026-comparison/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

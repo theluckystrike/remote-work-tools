@@ -14,51 +14,51 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-## How to Automate Pull Request Labeling
+How to Automate Pull Request Labeling
 
 Labels tell your team what a pull request is before they open it. Without automation, labels get applied inconsistently or not at all. With a few workflow files, every PR gets labeled the moment it's opened by changed files, size, and title convention.
 
 ---
 
-## Approach 1: GitHub's Official Labeler Action
+Approach 1: GitHub's Official Labeler Action
 
-**`.github/labeler.yml`**
+`.github/labeler.yml`
 
 ```yaml
 frontend:
   - changed-files:
     - any-glob-to-any-file:
-      - "src/frontend/**"
-      - "app/assets/**"
+      - "src/frontend/"
+      - "app/assets/"
       - "*.css"
 
 backend:
   - changed-files:
     - any-glob-to-any-file:
-      - "src/api/**"
-      - "app/controllers/**"
-      - "app/models/**"
+      - "src/api/"
+      - "app/controllers/"
+      - "app/models/"
 
 infrastructure:
   - changed-files:
     - any-glob-to-any-file:
-      - "terraform/**"
-      - "kubernetes/**"
+      - "terraform/"
+      - "kubernetes/"
       - "docker-compose*.yml"
       - "Dockerfile*"
 
 documentation:
   - changed-files:
     - any-glob-to-any-file:
-      - "docs/**"
-      - "**/*.md"
+      - "docs/"
+      - "/*.md"
 
 tests:
   - changed-files:
     - any-glob-to-any-file:
-      - "**/*.test.*"
-      - "**/*.spec.*"
-      - "tests/**"
+      - "/*.test.*"
+      - "/*.spec.*"
+      - "tests/"
 
 dependencies:
   - changed-files:
@@ -70,7 +70,7 @@ dependencies:
       - "requirements*.txt"
 ```
 
-**`.github/workflows/labeler.yml`**
+`.github/workflows/labeler.yml`
 
 ```yaml
 name: Label Pull Request
@@ -95,7 +95,7 @@ jobs:
 
 ---
 
-## Approach 2: Label by PR Size
+Approach 2: Label by PR Size
 
 ```yaml
 name: PR Size Label
@@ -163,7 +163,7 @@ jobs:
 
 ---
 
-## Approach 3: Label by Conventional Commit Title
+Approach 3: Label by Conventional Commit Title
 
 ```yaml
 name: Conventional PR Labels
@@ -228,7 +228,7 @@ jobs:
 
 ---
 
-## Bootstrap Labels in a New Repo
+Bootstrap Labels in a New Repo
 
 ```bash
 #!/bin/bash
@@ -258,7 +258,7 @@ echo "Labels created in $REPO"
 
 ---
 
-## Approach 4: Composite Labeling (Files + Size + Convention)
+Approach 4: Composite Labeling (Files + Size + Convention)
 
 Combine all three approaches in one workflow that runs a single script:
 
@@ -333,7 +333,7 @@ jobs:
 
 ---
 
-## Enforcing Labels as a PR Merge Requirement
+Enforcing Labels as a PR Merge Requirement
 
 Require at least one type label before a PR can merge using a status check:
 
@@ -376,10 +376,10 @@ Add this as a required status check in your repo's branch protection rules (Sett
 
 ---
 
-## Using Labels in Changelog Generation
+Using Labels in Changelog Generation
 
 ```yaml
-# .github/release-please.yml
+.github/release-please.yml
 changelog-sections:
   - type: feature
     section: "Features"
@@ -395,7 +395,7 @@ changelog-sections:
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Create Automated Security Scan Pipelines](/automated-security-scan-pipelines/)
 - [Best Tools for Remote Team Changelog Review](/remote-team-changelog-review-tools/)
@@ -403,5 +403,5 @@ changelog-sections:
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

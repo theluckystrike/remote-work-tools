@@ -16,7 +16,7 @@ tags: [remote-work-tools]
 
 To apply for Colombia's digital nomad visa as a software developer, you need proof of remote employment or freelance contracts with foreign clients, a minimum monthly income of approximately $3,000 USD (3x Colombia's minimum wage), health insurance valid in Colombia, and a clean criminal background check. The application is submitted online through the Colombian Ministry of Foreign Affairs portal, processing takes 5-15 business days, costs approximately $177 USD, and grants a two-year renewable stay with access to local banking and healthcare.
 
-## Table of Contents
+Table of Contents
 
 - [Why Colombia for Software Developers](#why-colombia-for-software-developers)
 - [Eligibility Requirements](#eligibility-requirements)
@@ -34,18 +34,18 @@ To apply for Colombia's digital nomad visa as a software developer, you need pro
 - [Common Application Mistakes](#common-application-mistakes)
 - [When to Consider Alternatives](#when-to-consider-alternatives)
 
-## Why Colombia for Software Developers
+Why Colombia for Software Developers
 
-Colombia has emerged as a top destination for remote workers, particularly in Medellín—often called the "Silicon Valley of Latin America." The digital nomad visa provides a two-year renewable stay, access to local banking, and eligibility for healthcare, all while you continue working for clients or employers outside Colombia.
+Colombia has emerged as a top destination for remote workers, particularly in Medellín, often called the "Silicon Valley of Latin America." The digital nomad visa provides a two-year renewable stay, access to local banking, and eligibility for healthcare, all while you continue working for clients or employers outside Colombia.
 
-**Key benefits:**
+Key benefits:
 - Two-year stay with option to renew
 - No tax residency requirements for stays under 183 days annually
 - Access to local bank accounts (including digital banks like NU)
 - Growing tech community with coworking spaces in Medellín, Bogotá, and Cali
 - Cost of living approximately 40-60% lower than major US cities
 
-## Eligibility Requirements
+Eligibility Requirements
 
 Before starting your application, confirm you meet these requirements:
 
@@ -54,11 +54,11 @@ Before starting your application, confirm you meet these requirements:
 3. Health insurance: Coverage valid in Colombia with minimum $50,000 in medical evacuation and hospitalization
 4. Passport validity: At least 6 months beyond your intended stay
 
-## Step 1: Prepare Your Documents
+Step 1: Prepare Your Documents
 
 Gather these documents before creating your online application:
 
-### Proof of Remote Employment
+Proof of Remote Employment
 
 ```yaml
 Required documents:
@@ -68,13 +68,13 @@ Required documents:
   - Portfolio or work samples demonstrating ongoing projects
 ```
 
-### Financial Documentation
+Financial Documentation
 
 - Bank statements showing at least $1,260 USD monthly income for the past 3 months
 - Pay slips or invoices demonstrating consistent international income
 - If self-employed: recent client invoices and payment receipts
 
-### Insurance Documentation
+Insurance Documentation
 
 Purchase travel health insurance that explicitly covers Colombia. Popular options include:
 
@@ -84,13 +84,13 @@ Purchase travel health insurance that explicitly covers Colombia. Popular option
 
 Ensure your policy specifies coverage amounts and includes COVID-19 coverage if required.
 
-### Additional Documents
+Additional Documents
 
 - Valid passport (full scanned copy)
 - Passport-sized photo (white background)
 - Criminal background check (apostilled from your country of residence)
 
-## Step 2: Create Your Colombian Immigration Account
+Step 2: Create Your Colombian Immigration Account
 
 Navigate to the Colombian immigration portal at migracioncolombia.gov.co:
 
@@ -98,9 +98,9 @@ Navigate to the Colombian immigration portal at migracioncolombia.gov.co:
 2. Verify your email address
 3. Complete the personal information form
 
-**Important:** Use Chrome or Firefox with English or Spanish interface. The system works best with these browsers.
+Use Chrome or Firefox with English or Spanish interface. The system works best with these browsers.
 
-## Step 3: Complete the Visa Application Form
+Step 3: Complete the Visa Application Form
 
 Once logged in:
 
@@ -110,17 +110,17 @@ Once logged in:
 4. Provide your Colombian address (use your planned accommodation or a friend's address)
 5. Enter your employment information
 
-**Tips for the application form:**
+Tips for the application form:
 - Double-check all passport numbers and dates
-- Provide a valid email address—the consulate uses this for all communication
+- Provide a valid email address, the consulate uses this for all communication
 - Under "activity to perform," specify software development or remote tech work
 
-## Step 4: Upload Supporting Documents
+Step 4: Upload Supporting Documents
 
 Upload PDFs of all required documents through the portal. Each file must be under 5MB:
 
 ```python
-# Document checklist with recommended file names
+Document checklist with recommended file names
 documents = {
     "passport": "passport_scan.pdf",
     "photo": "passport_photo.pdf",
@@ -134,16 +134,16 @@ documents = {
 
 Ensure documents are either in Spanish or accompanied by official translations.
 
-## Step 5: Pay the Application Fee
+Step 5: Pay the Application Fee
 
 The visa application fee is approximately $52 USD (subject to change). Payment methods include:
 
 - Credit/debit card through the portal
 - Bank transfer (for some countries)
 
-Save your payment receipt—you'll need it for reference.
+Save your payment receipt, you'll need it for reference.
 
-## Step 6: Submit and Track Your Application
+Step 6: Submit and Track Your Application
 
 After completing all sections:
 
@@ -152,21 +152,21 @@ After completing all sections:
 3. Note your application reference number
 4. Track status through the portal using your reference number
 
-**Processing timelines:**
+Processing timelines:
 - Standard: 15-30 business days
 - Peak season (December-March): Up to 45 business days
 - Some applications require additional documentation, extending processing time
 
-## Step 7: Receive Visa Approval
+Step 7: Receive Visa Approval
 
 You'll receive an email notification when your visa is approved. The approval document is an electronic entry permit. Options for obtaining your visa stamp:
 
 - Collect from Colombian consulate before travel
 - Obtain upon arrival at major Colombian airports (Bogotá, Medellín, Cali)
 
-The entry permit is valid for 90 days from the approval date—you must enter Colombia within this window.
+The entry permit is valid for 90 days from the approval date, you must enter Colombia within this window.
 
-## Step 8: Enter Colombia and Register
+Step 8: Enter Colombia and Register
 
 Upon arrival in Colombia:
 
@@ -174,7 +174,7 @@ Upon arrival in Colombia:
 2. Receive your PID (Permiso de Entrada)
 3. Register your CEP (Certificado de Entrada y Permanencia) online within 15 days of arrival
 
-**Calendar reminder script:**
+Calendar reminder script:
 
 ```python
 from datetime import datetime, timedelta
@@ -191,32 +191,32 @@ def setup_visa_reminders(entry_date):
     for date, message in renewal_dates:
         print(f"Reminder: {date.strftime('%Y-%m-%d')} - {message}")
 
-# Example: Entry date April 1, 2026
+Entry date April 1, 2026
 entry = datetime(2026, 4, 1)
 setup_visa_reminders(entry)
 ```
 
-## Banking and Finance for Developers
+Banking and Finance for Developers
 
 After arriving, you'll want to set up local banking:
 
-**Recommended banks:**
+Recommended banks:
 - NU: Fully digital, faster account opening process
 - Banco de Bogotá: Better international transfer support
 - Banco Popular: Lower fees, requires more documentation
 
 You'll need your passport, visa approval document, and proof of address (hotel booking or rental agreement works initially).
 
-## Healthcare Options
+Healthcare Options
 
 Two paths for healthcare coverage:
 
 1. International travel insurance: Maintains your existing coverage
 2. Colombian EPS system: Register for local health insurance at approximately $80-150 USD monthly
 
-Many developers use a combination—travel insurance for visa compliance, then switch to EPS after establishing residency.
+Many developers use a combination, travel insurance for visa compliance, then switch to EPS after establishing residency.
 
-## Tax Considerations
+Tax Considerations
 
 Colombia tax rules for digital nomads:
 
@@ -224,7 +224,7 @@ Colombia tax rules for digital nomads:
 - Income from Colombian sources may be taxed differently
 - Consult a Colombian tax professional for your specific situation
 
-## Common Application Mistakes
+Common Application Mistakes
 
 Avoid these issues that delay or derail applications:
 
@@ -233,7 +233,7 @@ Avoid these issues that delay or derail applications:
 3. Translation issues: Documents not in Spanish need official translations
 4. Timing: Start the process 2-3 months before you plan to travel
 
-## When to Consider Alternatives
+When to Consider Alternatives
 
 The digital nomad visa isn't ideal for everyone. Consider:
 
@@ -241,33 +241,33 @@ The digital nomad visa isn't ideal for everyone. Consider:
 - Business visa: If planning to start a Colombian company
 - Student visa: If enrolling in Spanish courses or degree programs
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How do I prioritize which recommendations to implement first?**
+How do I prioritize which recommendations to implement first?
 
 Start with changes that require the least effort but deliver the most impact. Quick wins build momentum and demonstrate value to stakeholders. Save larger structural changes for after you have established a baseline and can measure improvement.
 
-**Do these recommendations work for small teams?**
+Do these recommendations work for small teams?
 
-Yes, most practices scale down well. Small teams can often implement changes faster because there are fewer people to coordinate. Adapt the specifics to your team size—a 5-person team does not need the same formal processes as a 50-person organization.
+Yes, most practices scale down well. Small teams can often implement changes faster because there are fewer people to coordinate. Adapt the specifics to your team size, a 5-person team does not need the same formal processes as a 50-person organization.
 
-**How do I measure whether these changes are working?**
+How do I measure whether these changes are working?
 
 Define 2-3 measurable outcomes before you start. Track them weekly for at least a month to see trends. Common metrics include response time, completion rate, team satisfaction scores, and error frequency. Avoid measuring too many things at once.
 
-**Can I customize these recommendations for my specific situation?**
+Can I customize these recommendations for my specific situation?
 
 Absolutely. Treat these as starting templates rather than rigid rules. Every team and project has unique constraints. Test each recommendation on a small scale, observe results, and adjust the approach based on what actually works in your context.
 
-**What is the biggest mistake people make when applying these practices?**
+What is the biggest mistake people make when applying these practices?
 
 Trying to change everything at once. Pick one or two practices, implement them well, and let the team adjust before adding more. Gradual adoption sticks better than wholesale transformation, which often overwhelms people and gets abandoned.
 
-## Related Articles
+Related Articles
 
 - [Portugal Digital Nomad Visa Application Guide](/portugal-digital-nomad-visa-application-guide/)
 - [Spain Digital Nomad Visa Requirements 2026: Complete](/spain-digital-nomad-visa-requirements-2026/)
 - [South Korea Digital Nomad Visa Application Requirements](/south-korea-digital-nomad-visa-application-requirements-for-/)
 - [Hungary Digital Nomad Visa White Card Application for Remote](/hungary-digital-nomad-visa-white-card-application-for-remote/)
 - [Montenegro Digital Nomad Visa Application Process for Remote](/montenegro-digital-nomad-visa-application-process-for-remote/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

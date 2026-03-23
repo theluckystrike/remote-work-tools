@@ -16,9 +16,9 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-Exposing database ports directly to the internet is a security risk. SSH tunnels let you access remote databases as if they were running locally — all traffic is encrypted through SSH, and the database port never needs to be opened in your firewall.
+Exposing database ports directly to the internet is a security risk. SSH tunnels let you access remote databases as if they were running locally. all traffic is encrypted through SSH, and the database port never needs to be opened in your firewall.
 
-## Table of Contents
+Table of Contents
 
 - [How SSH Local Port Forwarding Works](#how-ssh-local-port-forwarding-works)
 - [Common Database Tunnels](#common-database-tunnels)
@@ -32,7 +32,7 @@ Exposing database ports directly to the internet is a security risk. SSH tunnels
 
 This guide covers local port forwarding for databases, jump hosts, persistent tunnels with autossh, and configuring GUI database tools to use them.
 
-## How SSH Local Port Forwarding Works
+How SSH Local Port Forwarding Works
 
 A local port forward binds a port on your machine and tunnels all traffic through SSH to a destination:
 
@@ -43,35 +43,35 @@ A local port forward binds a port on your machine and tunnels all traffic throug
 The basic syntax:
 
 ```bash
-# ssh -L [local-port]:[remote-host]:[remote-port] [ssh-host]
+ssh -L [local-port]:[remote-host]:[remote-port] [ssh-host]
 ssh -L 5433:localhost:5432 user@db-server.example.com
 
-# Now connect to Postgres locally on port 5433
+Now connect to Postgres locally on port 5433
 psql -h 127.0.0.1 -p 5433 -U myuser -d mydb
 ```
 
 The `-L` flag means local port forward. Port 5433 on your machine now routes to port 5432 on `db-server.example.com` (where `localhost` means the server itself).
 
-## Common Database Tunnels
+Common Database Tunnels
 
-### PostgreSQL
+PostgreSQL
 
 ```bash
-# Standard tunnel
+Standard tunnel
 ssh -L 5433:localhost:5432 ubuntu@db.example.com -N
 
-# -N means don't execute a remote command — just forward
-# -f means run in background (combine with -N)
+-N means don't execute a remote command. just forward
+-f means run in background (combine with -N)
 ssh -fN -L 5433:localhost:5432 ubuntu@db.example.com
 
-# Connect via tunnel
+Connect via tunnel
 psql -h 127.0.0.1 -p 5433 -U appuser -d production
 
-# Or with URL
+Or with URL
 DATABASE_URL=postgresql://appuser:password@127.0.0.1:5433/production psql
 ```
 
-### MySQL / MariaDB
+MySQL / MariaDB
 
 ```bash
 ssh -fN -L 3307:localhost:3306 ubuntu@db.example.com
@@ -79,7 +79,7 @@ ssh -fN -L 3307:localhost:3306 ubuntu@db.example.com
 mysql -h 127.0.0.1 -P 3307 -u appuser -p mydatabase
 ```
 
-### Redis
+Redis
 
 ```bash
 ssh -fN -L 6380:localhost:6379 ubuntu@cache.example.com
@@ -87,7 +87,7 @@ ssh -fN -L 6380:localhost:6379 ubuntu@cache.example.com
 redis-cli -h 127.0.0.1 -p 6380 ping
 ```
 
-### MongoDB
+MongoDB
 
 ```bash
 ssh -fN -L 27018:localhost:27017 ubuntu@mongo.example.com
@@ -95,24 +95,24 @@ ssh -fN -L 27018:localhost:27017 ubuntu@mongo.example.com
 mongosh "mongodb://127.0.0.1:27018/mydb"
 ```
 
-## Database on a Private Network (Jump Host)
+Database on a Private Network (Jump Host)
 
 When the database is on a private network and only reachable through a bastion/jump host:
 
 ```bash
-# Database at 10.0.1.50:5432, only reachable from bastion
-# Bastion is at bastion.example.com
+Database at 10.0.1.50:5432, only reachable from bastion
+Bastion is at bastion.example.com
 
-# Single command with -J (jump host)
+Single command with -J (jump host)
 ssh -fN -L 5433:10.0.1.50:5432 -J ubuntu@bastion.example.com ubuntu@10.0.1.50
 
-# Or with ProxyJump in ~/.ssh/config
+Or with ProxyJump in ~/.ssh/config
 ```
 
 Configure `~/.ssh/config` to make this permanent:
 
 ```bash
-# ~/.ssh/config
+~/.ssh/config
 
 Host bastion
     HostName bastion.example.com
@@ -125,36 +125,36 @@ Host db-private
     IdentityFile ~/.ssh/id_ed25519
     ProxyJump bastion
 
-# Then tunnel through the configured host
+Then tunnel through the configured host
 ssh -fN -L 5433:localhost:5432 db-private
 ```
 
-## Persistent Tunnels with autossh
+Persistent Tunnels with autossh
 
 Plain `ssh -fN` tunnels die when the connection drops. `autossh` monitors the tunnel and restarts it automatically:
 
 ```bash
-# Install autossh
+Install autossh
 sudo apt-get install autossh   # Debian/Ubuntu
 brew install autossh            # macOS
 
-# Start a persistent tunnel
+Start a persistent tunnel
 autossh -M 20000 -fN -L 5433:localhost:5432 ubuntu@db.example.com
 
-# -M 20000 sets the monitoring port (autossh sends keepalives here)
-# -fN: background, no command
+-M 20000 sets the monitoring port (autossh sends keepalives here)
+-fN: background, no command
 
-# Disable autossh's own keepalive and use SSH's instead
+Disable autossh's own keepalive and use SSH's instead
 AUTOSSH_GATETIME=0 autossh -M 0 -fN \
   -o "ServerAliveInterval 30" \
   -o "ServerAliveCountMax 3" \
   -L 5433:localhost:5432 ubuntu@db.example.com
 ```
 
-### Run autossh as a systemd service
+Run autossh as a systemd service
 
 ```bash
-# /etc/systemd/system/ssh-tunnel-db.service
+/etc/systemd/system/ssh-tunnel-db.service
 sudo tee /etc/systemd/system/ssh-tunnel-db.service > /dev/null << 'EOF'
 [Unit]
 Description=SSH Tunnel to Production Database
@@ -184,29 +184,29 @@ sudo systemctl start ssh-tunnel-db
 sudo systemctl status ssh-tunnel-db
 ```
 
-## Shell Aliases for Quick Tunnel Management
+Shell Aliases for Quick Tunnel Management
 
 ```bash
-# Add to ~/.bashrc or ~/.zshrc
+Add to ~/.bashrc or ~/.zshrc
 
-# Start tunnels
+Start tunnels
 alias tunnel-db='autossh -M 0 -fN -o "ServerAliveInterval 30" -L 5433:localhost:5432 ubuntu@db.example.com'
 alias tunnel-redis='autossh -M 0 -fN -o "ServerAliveInterval 30" -L 6380:localhost:6379 ubuntu@cache.example.com'
 alias tunnel-all='tunnel-db && tunnel-redis && echo "Tunnels started"'
 
-# Kill all SSH tunnels
+Kill all SSH tunnels
 alias tunnel-kill='pkill -f "ssh.*-fN" && echo "All tunnels killed"'
 
-# Check active tunnels
+Check active tunnels
 alias tunnel-list='ps aux | grep "ssh.*-fN" | grep -v grep'
 
-# Check if a port is in use
+Check if a port is in use
 alias port-check='lsof -ti'
 ```
 
-## Configure GUI Database Tools
+Configure GUI Database Tools
 
-### TablePlus
+TablePlus
 
 1. New Connection → PostgreSQL
 2. Host: `127.0.0.1`
@@ -216,7 +216,7 @@ alias port-check='lsof -ti'
 
 TablePlus also has built-in SSH tunnel support: Connection → SSH → enable, fill in server details. This is equivalent to starting the tunnel manually.
 
-### DBeaver
+DBeaver
 
 1. New Database Connection → PostgreSQL
 2. In connection dialog, go to `SSH` tab
@@ -225,7 +225,7 @@ TablePlus also has built-in SSH tunnel support: Connection → SSH → enable, f
 5. Auth Method: Public Key, Private Key: path to `~/.ssh/id_ed25519`
 6. Main tab: Host: `localhost`, Port: `5432`
 
-### pgAdmin 4
+pgAdmin 4
 
 ```json
 // pgAdmin SSH tunnel config (via GUI)
@@ -243,16 +243,16 @@ TablePlus also has built-in SSH tunnel support: Connection → SSH → enable, f
 //   Identity file: /home/user/.ssh/id_ed25519
 ```
 
-### DataGrip
+DataGrip
 
 JetBrains DataGrip handles SSH tunnels natively in the data source configuration. In the Data Sources panel, select your data source, open the SSH/SSL tab, and check "Use SSH tunnel." Specify the SSH host, port 22, and your private key. DataGrip maintains the tunnel for the lifetime of the IDE session and reconnects automatically if the SSH connection drops. This is one of the most reliable built-in tunnel implementations for GUI clients.
 
-## Using SSH Tunnels with ORMs and Application Code
+Using SSH Tunnels with ORMs and Application Code
 
 For development environments, you often want your application code to connect through a tunnel rather than configuring firewall rules. A clean pattern is a tunnel-aware connection wrapper:
 
 ```python
-# tunnel_db.py — start an SSH tunnel before connecting
+tunnel_db.py. start an SSH tunnel before connecting
 import subprocess
 import time
 import psycopg2
@@ -269,7 +269,7 @@ def start_tunnel(ssh_host, remote_db_port, local_port):
     time.sleep(1)  # Brief wait for tunnel to establish
     return proc
 
-# Usage: tunnel to dev DB before running migrations
+Usage: tunnel to dev DB before running migrations
 tunnel = start_tunnel('ubuntu@db.staging.example.com', 5432, 5433)
 conn = psycopg2.connect(
     host='127.0.0.1',
@@ -282,7 +282,7 @@ conn = psycopg2.connect(
 
 For Rails applications, the `sshtunnel` gem provides equivalent functionality and integrates cleanly with `database.yml`. Node.js projects can use the `tunnel-ssh` npm package, which wraps the same SSH forwarding logic.
 
-## Tunnel Comparison: Manual SSH vs autossh vs GUI Built-in
+Tunnel Comparison: Manual SSH vs autossh vs GUI Built-in
 
 | Method | Best For | Reconnects | Extra Deps | Persistent |
 |--------|----------|-----------|-----------|-----------|
@@ -294,61 +294,61 @@ For Rails applications, the `sshtunnel` gem provides equivalent functionality an
 
 For local development on a Mac, the `autossh` alias approach offers the best balance of simplicity and reliability. For CI/CD pipelines or staging servers that need permanent database access, the systemd service is the correct choice.
 
-## Verify and Debug Tunnels
+Verify and Debug Tunnels
 
 ```bash
-# Check if tunnel port is listening locally
+Check if tunnel port is listening locally
 lsof -i :5433
-# or
+or
 ss -tlnp | grep 5433
-# or
+or
 netstat -tlnp | grep 5433
 
-# Test connection through tunnel
+Test connection through tunnel
 nc -zv 127.0.0.1 5433
 
-# Verbose SSH connection for debugging
+Verbose SSH connection for debugging
 ssh -vvv -L 5433:localhost:5432 ubuntu@db.example.com
 
-# Common errors and fixes:
-# "bind: Address already in use" — another tunnel already on that port
+Common errors and fixes:
+"bind: Address already in use". another tunnel already on that port
 lsof -ti:5433 | xargs kill  # kill whatever is using port 5433
 
-# "channel 3: open failed: connect failed"
-# The remote host can't reach the destination (firewall or wrong address)
-# Test on the remote server: telnet localhost 5432
+"channel 3: open failed: connect failed"
+The remote host can't reach the destination (firewall or wrong address)
+Test on the remote server: telnet localhost 5432
 ```
 
 A useful diagnostic when the tunnel establishes but database connections fail: SSH to the remote server directly and attempt `psql -h localhost -p 5432`. If that fails, the issue is on the remote server (database not listening, pg_hba.conf blocking local connections), not the tunnel itself.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Best SSH Key Management Solution for Distributed Remote](/best-ssh-key-management-solution-for-distributed-remote-engi/)
 - [Just-in-Time Database Access for Remote Teams](/how-to-secure-remote-team-database-access-with-just-in-time-/)
 - [Remote Work Security Hardening Checklist](/remote-work-security-hardening-checklist/)
 - [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 - [Linux Server Hardening Guide for Remote Developers](/linux-server-hardening-remote-developers/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -30,7 +30,7 @@ To prevent laptop overheating during long video calls, use native apps instead o
 
 This guide covers practical monitoring techniques, system optimizations, and scriptable solutions to keep your laptop cool during marathon meeting days.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -40,28 +40,28 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Understand the Thermal Problem
+Step 1: Understand the Thermal Problem
 
 Video calling applications are resource-hungry. A typical video call involves multiple concurrent processes: video encoding and decoding, audio processing, network transmission, UI rendering, and notification handling. On integrated graphics machines, the GPU handles display and video simultaneously, doubling thermal load. Even dedicated GPU setups can struggle when fans cannot dissipate heat quickly enough.
 
 When your laptop reaches critical temperatures, throttling kicks in. Your CPU and GPU clock speeds drop, applications lag, fans spin louder, and the keyboard or palm rest becomes uncomfortable. Preventing this requires a two-pronged approach: reducing thermal generation and improving heat dissipation.
 
-### Step 2: Monitor Your System Temperatures
+Step 2: Monitor Your System Temperatures
 
 Before optimizing, you need visibility into what's happening. Several tools provide real-time temperature data.
 
-### macOS Temperature Monitoring
+macOS Temperature Monitoring
 
 For Mac users, `istats` provides command-line access to sensor data:
 
 ```bash
-# Install via Homebrew
+Install via Homebrew
 brew install iStats
 
-# Quick temperature check
+Quick temperature check
 istats
 
-# Monitor continuously
+Monitor continuously
 istats monitor
 ```
 
@@ -71,22 +71,22 @@ You can also use `stats` (formerly DevrStats) for a menu bar widget approach:
 brew install stats
 ```
 
-### Linux Temperature Monitoring
+Linux Temperature Monitoring
 
 Linux users have several options:
 
 ```bash
-# Using lm-sensors
+Using lm-sensors
 sensors
 
-# Using psensors GUI
+Using psensors GUI
 psensors
 
-# Quick check via thermal_zone
+Quick check via thermal_zone
 cat /sys/class/thermal/thermal_zone*/temp
 ```
 
-### Cross-Platform: Glances
+Cross-Platform: Glances
 
 For an unified monitoring view across platforms:
 
@@ -95,22 +95,22 @@ pip install glances
 glances
 ```
 
-Glances displays CPU temperature alongside CPU, memory, and network usage—useful for identifying which application is generating the most heat.
+Glances displays CPU temperature alongside CPU, memory, and network usage, useful for identifying which application is generating the most heat.
 
-### Step 3: Identifying Resource-Hungry Processes
+Step 3: Identifying Resource-Hungry Processes
 
 When temperatures spike, you need to identify the culprits. Video calls involve many processes, but often one misbehaving tab or application creates disproportionate load.
 
-### Finding High-Resource Processes
+Finding High-Resource Processes
 
 ```bash
-# macOS - top processes by CPU usage
+macOS - top processes by CPU usage
 ps -eo pcpu,pid,comm | sort -k1 -r | head -10
 
-# Linux - top processes by CPU
+Linux - top processes by CPU
 ps -eo pcpu,pid,comm --sort=-pcpu | head -10
 
-# Check specific application CPU usage
+Check specific application CPU usage
 ps aux | grep -i "zoom\|chrome\|firefox" | grep -v grep
 ```
 
@@ -118,7 +118,7 @@ Create a quick script to monitor specific processes:
 
 ```bash
 #!/bin/bash
-# temp-monitor.sh - Watch CPU temps and top processes
+temp-monitor.sh - Watch CPU temps and top processes
 
 while true; do
     clear
@@ -139,11 +139,11 @@ done
 
 Run this in a terminal window while in a video call to correlate temperature spikes with specific applications.
 
-### Step 4: Browser Optimization for Video Calls
+Step 4: Browser Optimization for Video Calls
 
 Browsers often consume more resources than dedicated applications. If you use web-based video calls, these optimizations help:
 
-### Disable Hardware Acceleration (When Needed)
+Disable Hardware Acceleration (When Needed)
 
 Hardware acceleration uses your GPU for rendering, which generates heat. In some cases, disabling it reduces thermal load:
 
@@ -155,9 +155,9 @@ Hardware acceleration uses your GPU for rendering, which generates heat. In some
 layers.acceleration.disabled = true
 ```
 
-However, disabling hardware acceleration may reduce video quality or cause other issues—test to find your balance.
+However, disabling hardware acceleration may reduce video quality or cause other issues, test to find your balance.
 
-### Manage Tabs Aggressively
+Manage Tabs Aggressively
 
 Each open tab consumes memory and CPU. During video calls:
 
@@ -166,53 +166,53 @@ Each open tab consumes memory and CPU. During video calls:
 - Consider a separate browser profile for video calls with minimal extensions
 
 ```bash
-# Quick script to kill non-essential Chrome processes
-# Run this before important calls
+Quick script to kill non-essential Chrome processes
+Run this before important calls
 pkill -f "Chrome" --older-than 3600  # Kill Chrome tabs open > 1 hour
 ```
 
-### Use Native Applications When Possible
+Use Native Applications When Possible
 
 Desktop applications like Zoom, Teams, and Slack typically perform better than browser versions. They have direct access to system APIs, better resource management, and fewer background processes.
 
-### Step 5: System-Level Optimizations
+Step 5: System-Level Optimizations
 
-### Power Settings
+Power Settings
 
 Your power profile directly impacts thermal output:
 
-**macOS:**
+macOS:
 ```bash
-# Check current setting
+Check current setting
 sudo pmset -g | grep -i "profile"
 
-# Set to low power mode for less heat
+Set to low power mode for less heat
 sudo pmset -a lessbright 1
 sudo pmset -a processorperformance 1
 ```
 
-**Linux (TLP):**
+Linux (TLP):
 ```bash
-# Install TLP for advanced power management
+Install TLP for advanced power management
 sudo apt install tlp
 
-# Set to battery saver mode
+Set to battery saver mode
 sudo tlp setbat 0 govorver conservative
 ```
 
-### Reduce Display Brightness
+Reduce Display Brightness
 
 Screen power consumption directly correlates with heat output. Lowering brightness even 20% noticeably reduces thermal output:
 
 ```bash
-# macOS
+macOS
 brightness 0.6
 
-# Linux
+Linux
 xrandr --output eDP-1 --brightness 0.6
 ```
 
-### External Cooling Solutions
+External Cooling Solutions
 
 For extended calls, external cooling helps:
 
@@ -224,15 +224,15 @@ Script to remind yourself about positioning:
 
 ```bash
 #!/bin/bash
-# cooling-reminder.sh
-# Run as cron job every 30 minutes during calls
+cooling-reminder.sh
+Run as cron job every 30 minutes during calls
 
-notify-send "Thermal Check" "Consider: ✓ Laptop stand? ✓ External fan? ✓ Ventilation?" --expire-time=10
+notify-send "Thermal Check" "Consider:  Laptop stand?  External fan?  Ventilation?" --expire-time=10
 ```
 
-### Step 6: Application-Specific Optimizations
+Step 6: Application-Specific Optimizations
 
-### Video Quality Settings
+Video Quality Settings
 
 Lower video resolution dramatically reduces encoding load:
 
@@ -240,7 +240,7 @@ Lower video resolution dramatically reduces encoding load:
 - Reduce frame rate from 30fps to 15fps if movement isn't critical
 - Turn off HD video for others if you don't need it
 
-### Disable Unnecessary Features
+Disable Unnecessary Features
 
 During important calls, disable:
 
@@ -249,29 +249,29 @@ During important calls, disable:
 - Screen sharing when not actively presenting
 - Meeting recordings unless essential
 
-### Use Quality of Service Settings
+Use Quality of Service Settings
 
 Some video apps allow QoS configuration. For example, Zoom allows reducing bandwidth:
 
 ```bash
-# Zoom command-line options to reduce quality
+Zoom command-line options to reduce quality
 open -a "Zoom.us" --args --disable-video
 ```
 
-### Step 7: Proactive Monitoring Scripts
+Step 7: Proactive Monitoring Scripts
 
 Create a thermal monitoring script that alerts you before critical temperatures:
 
 ```bash
 #!/bin/bash
-# thermal-alert.sh - Alert when temps exceed threshold
+thermal-alert.sh - Alert when temps exceed threshold
 
 CPU_TEMP=$(istats cpu temp 2>/dev/null | grep -oP '\d+\.\d+' | head -1)
 THRESHOLD=85
 
 if (( $(echo "$CPU_TEMP > $THRESHOLD" | bc -l) )); then
     osascript -e 'display notification "CPU at '"$CPU_TEMP"'°C - Consider reducing load" with title "Thermal Alert"'
-    echo "⚠️ Temperature alert: ${CPU_TEMP}°C"
+    echo " Temperature alert: ${CPU_TEMP}°C"
 fi
 ```
 
@@ -281,7 +281,7 @@ Run this via cron every 5 minutes during calls:
 */5 * * * * /path/to/thermal-alert.sh
 ```
 
-### Step 8: Build a Video Call Thermal Workflow
+Step 8: Build a Video Call Thermal Workflow
 
 Combining these techniques creates a sustainable workflow:
 
@@ -292,53 +292,53 @@ Combining these techniques creates a sustainable workflow:
 For developers with regular long calls, create a shell alias for quick setup:
 
 ```bash
-# Add to .zshrc or .bashrc
+Add to .zshrc or .bashrc
 alias call-mode='osascript -e "set volume output volume 40"; istats fan min 3000; echo "Call mode activated"'
 ```
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to prevent laptop overheating during long video call?**
+How long does it take to prevent laptop overheating during long video call?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Reduce Fan Noise from Desktop PC During Video Calls](/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
 - [How to Stop Dog Barking During Video Calls: A Complete](/how-to-stop-dog-barking-during-video-calls-work-from-home/)
 - [How to Hide Messy Room During Video Calls: Practical](/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
 - [Best Async Video Messaging Tools for Distributed Teams 2026](/best-async-video-messaging-tools-for-distributed-teams-2026/)
 - [Best Tool for Recording Quick 2-Minute Video Updates to Team](/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

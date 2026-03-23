@@ -16,16 +16,16 @@ tags: [remote-work-tools, remote-work]
 
 To set up a ClickUp client portal, create a dedicated space with guest access configured to specific lists, then use ClickUp's API to automate guest provisioning and filter client-facing views. This approach gives remote development teams visibility into project progress while keeping internal technical discussions private.
 
-## Guest Access vs. Client Portal: Understanding Your Options
+Guest Access vs. Client Portal: Understanding Your Options
 
 ClickUp offers two primary mechanisms for external client visibility:
 
-1. **Guest Access** — Invite clients as guests to specific spaces, folders, or lists. Guests receive credentials but can only see what you explicitly share.
-2. **Client Portal** — Available on Business and Enterprise plans, this provides a white-labeled, polished interface that looks less like internal project management.
+1. Guest Access. Invite clients as guests to specific spaces, folders, or lists. Guests receive credentials but can only see what you explicitly share.
+2. Client Portal. Available on Business and Enterprise plans, this provides a white-labeled, polished interface that looks less like internal project management.
 
 For most development teams, guest access provides sufficient functionality and works across all plan tiers. Here's how to implement it programmatically.
 
-## Setting Up Guest Access via API
+Setting Up Guest Access via API
 
 While you can create guests through the ClickUp UI, automating guest provisioning fits better into developer workflows. Here's a Python script using the ClickUp API:
 
@@ -55,27 +55,27 @@ def create_client_guest(email, name, accessible_list_ids):
     response = requests.post(url, json=payload, headers=headers)
     return response.json()
 
-# Example: Add a client to a specific project list
+Add a client to a specific project list
 To set up a ClickUp client portal, create a dedicated space with guest access configured to specific lists, then use ClickUp's API to automate guest provisioning and filter client-facing views. This approach gives remote development teams visibility into project progress while keeping internal technical discussions private.
 
-This approach works well when you need to provision multiple clients across different projects—simply extend the `accessible_list_ids` array to match your project structure.
+This approach works well when you need to provision multiple clients across different projects, simply extend the `accessible_list_ids` array to match your project structure.
 
-## Structuring Client-Facing Spaces
+Structuring Client-Facing Spaces
 
 Create a dedicated space structure that separates client-visible content from internal development work. A practical folder layout looks like:
 
 ```
 Client Projects/
-├── Acme Corp Website/
-│ ├── 01_Project_Plan (Client View)
-│ ├── 02_Milestones (Client View)
-│ ├── 03_Deliverables (Client View)
-│ └── Internal_Discussions (Team Only)
+ Acme Corp Website/
+  01_Project_Plan (Client View)
+  02_Milestones (Client View)
+  03_Deliverables (Client View)
+  Internal_Discussions (Team Only)
 ```
 
-The key principle: curate spaces explicitly for clients rather than exposing your entire workspace. Clients should see milestones, deliverables, and status—not sprint planning, bug backlogs, or internal code review discussions.
+The key principle: curate spaces explicitly for clients rather than exposing your entire workspace. Clients should see milestones, deliverables, and status, not sprint planning, bug backlogs, or internal code review discussions.
 
-## Custom Views for Client Visibility
+Custom Views for Client Visibility
 
 Configure custom views that filter out technical details. Use ClickUp's view API to create client-specific perspectives:
 
@@ -104,9 +104,9 @@ const createClientView = async (listId) => {
 };
 ```
 
-This view includes only task names, due dates, status, assignees, and attachments—stripping out custom fields that might contain cost data, internal priority markers, or technical notes.
+This view includes only task names, due dates, status, assignees, and attachments, stripping out custom fields that might contain cost data, internal priority markers, or technical notes.
 
-## Automation Patterns for Client Updates
+Automation Patterns for Client Updates
 
 Automate status updates to reduce manual communication overhead. This Integromat/Make scenario sends weekly summaries to clients:
 
@@ -144,11 +144,11 @@ View full details: ${dashboardUrl}
 
 You can also set up automation within ClickUp itself:
 
-- **Task Complete → Notify Client**: When a task status changes to "Complete," automatically add a comment visible to the client guest
-- **Blocker Added → Alert Manager**: Notify your project lead when a client-dependent task is blocked
-- **Due Date Passed → Escalate**: Route overdue items awaiting client feedback to your account manager
+- Task Complete → Notify Client: When a task status changes to "Complete," automatically add a comment visible to the client guest
+- Blocker Added → Alert Manager: Notify your project lead when a client-dependent task is blocked
+- Due Date Passed → Escalate: Route overdue items awaiting client feedback to your account manager
 
-## Integrating with External Dashboards
+Integrating with External Dashboards
 
 For clients who prefer a custom dashboard outside ClickUp, pull data via the API:
 
@@ -182,7 +182,7 @@ def export_project_status(space_id):
 
  return status_data
 
-# Serve via Flask for client dashboard
+Serve via Flask for client dashboard
 @app.route("/api/project-status")
 def project_status():
  return jsonify(export_project_status("acme_website"))
@@ -190,7 +190,7 @@ def project_status():
 
 This pattern works well when you need to embed project status into a client portal running on your own domain.
 
-## Permission Auditing for Security
+Permission Auditing for Security
 
 Periodically audit guest permissions to prevent accidental exposure:
 
@@ -219,38 +219,38 @@ def audit_guest_access():
 
 Run this monthly to ensure former clients no longer have access and current clients only see what they need.
 
-## Practical Tips for Developer Teams
+Practical Tips for Developer Teams
 
-- **Use descriptive task names**: Clients see task titles directly. Instead of `FEAT-142`, use "Implement user authentication flow"
-- **Set up separate notification rules**: Guests should only receive mentions on tasks they're assigned to, not every comment
-- **Create client-specific templates**: Build task templates for deliverables that prompt for client-facing descriptions
-- **Document the setup**: Keep internal docs explaining which spaces are client-accessible so new team members don't accidentally share wrong content
+- Use descriptive task names: Clients see task titles directly. Instead of `FEAT-142`, use "Implement user authentication flow"
+- Set up separate notification rules: Guests should only receive mentions on tasks they're assigned to, not every comment
+- Create client-specific templates: Build task templates for deliverables that prompt for client-facing descriptions
+- Document the setup: Keep internal docs explaining which spaces are client-accessible so new team members don't accidentally share wrong content
 
-The client portal setup is not a one-time configuration—treat it as part of your client service infrastructure that evolves based on feedback and usage patterns.
+The client portal setup is not a one-time configuration, treat it as part of your client service infrastructure that evolves based on feedback and usage patterns.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**Can I trust these tools with sensitive data?**
+Can I trust these tools with sensitive data?
 
 Review each tool's privacy policy, data handling practices, and security certifications before using it with sensitive data. Look for SOC 2 compliance, encryption in transit and at rest, and clear data retention policies. Enterprise tiers often include stronger privacy guarantees.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Basecamp for Remote Agency Client](/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 - [How to Create Client Project Retrospective Format for Remote](/how-to-create-client-project-retrospective-format-for-remote/)
@@ -259,4 +259,4 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Project Management for a Solo Developer with 8 Client](/project-management-for-a-solo-developer-with-8-client-projec/)
 ```
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

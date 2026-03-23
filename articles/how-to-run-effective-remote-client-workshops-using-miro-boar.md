@@ -18,7 +18,7 @@ voice-checked: true
 
 Remote client workshops present unique challenges that in-person sessions never address. You cannot lean over a whiteboard together, cannot point at a sticky note without talking over someone, and cannot read the room when everyone is a small video thumbnail. Miro boards solve these problems when you approach them with the right strategy.
 
-## Table of Contents
+Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Advanced Facilitation Techniques for Remote Workshops](#advanced-facilitation-techniques-for-remote-workshops)
@@ -30,7 +30,7 @@ Remote client workshops present unique challenges that in-person sessions never 
 
 This guide walks through setting up and helping productive remote client workshops using Miro, with practical templates you can adapt immediately.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -40,35 +40,35 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Preparing Your Miro Board Before the Workshop
+Step 1: Preparing Your Miro Board Before the Workshop
 
 Success starts before anyone joins the call. A well-prepared board gives clients confidence in your professionalism and gives you a clear roadmap for the session.
 
-### Template Structure for Client Workshops
+Template Structure for Client Workshops
 
 Create a board with distinct zones that clients can navigate independently:
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│  HEADER: Workshop Title + Date + Client Name                │
-├───────────────────────┬─────────────────────────────────────┤
-│                       │                                     │
-│   AGENDA PANEL       │      MAIN WORKSPACE                  │
-│   (sticky notes      │   (large canvas for                  │
-│    with timing)      │    collaborative work)              │
-│                       │                                     │
-├───────────────────────┼─────────────────────────────────────┤
-│                       │                                     │
-│   NOTES PANEL        │    ACTION ITEMS                      │
-│   (doc for           │    (checkbox items for              │
-│    recording)        │    follow-up tasks)                  │
-│                       │                                     │
-└───────────────────────┴─────────────────────────────────────┘
+
+  HEADER: Workshop Title + Date + Client Name                
+
+                                                            
+   AGENDA PANEL             MAIN WORKSPACE                  
+   (sticky notes         (large canvas for                  
+    with timing)          collaborative work)              
+                                                            
+
+                                                            
+   NOTES PANEL            ACTION ITEMS                      
+   (doc for               (checkbox items for              
+    recording)            follow-up tasks)                  
+                                                            
+
 ```
 
 Add frame borders around each section using Miro's shape tool. This creates visual clarity and helps clients understand where to focus.
 
-### Pre-Populate Icebreaker Activities
+Pre-Populate Icebreaker Activities
 
 For workshops with new clients, include a simple icebreaker in the main workspace:
 
@@ -76,11 +76,11 @@ For workshops with new clients, include a simple icebreaker in the main workspac
 2. Add a "One Word Check-In" sticky note cluster where everyone places a single word describing their mood
 3. These take two minutes but establish the board as a shared space
 
-### Step 2: Help Techniques for Remote Workshops
+Step 2: Help Techniques for Remote Workshops
 
 Running a workshop remotely requires deliberate communication patterns that you can ignore in person.
 
-### The "Cursor Follow" Protocol
+The "Cursor Follow" Protocol
 
 Establish this rule at the start: when someone is presenting or working on the board, everyone else freezes their cursor. This prevents the chaotic jumping that makes remote collaboration exhausting.
 
@@ -96,7 +96,7 @@ workspace.on('cursor-move', (event) => {
 });
 ```
 
-### Time-Boxed Navigation
+Time-Boxed Navigation
 
 Move clients through phases deliberately:
 
@@ -110,7 +110,7 @@ Move clients through phases deliberately:
 
 Share the timer visibly on screen. Miro doesn't have a built-in timer, so use a simple browser tab or phone timer that everyone can see.
 
-### Managing Multiple Clients Simultaneously
+Managing Multiple Clients Simultaneously
 
 When more than three clients attend, designate one as the "primary decision maker" for the session. Use Miro's follow mode to have that person drive while others observe:
 
@@ -118,40 +118,40 @@ When more than three clients attend, designate one as the "primary decision make
 2. Select "Follow" to sync your viewport to theirs
 3. This keeps everyone on the same page without verbal navigation cues
 
-### Step 3: Practical Template: Discovery Workshop
+Step 3: Practical Template: Discovery Workshop
 
 Here is a proven board structure for initial client discovery sessions:
 
-### Frame 1: Problem Space
+Frame 1: Problem Space
 
-- Left column: "Current Challenges" — sticky notes where clients describe pain points
-- Right column: "Success Metrics" — how they will measure project success
+- Left column: "Current Challenges". sticky notes where clients describe problems
+- Right column: "Success Metrics". how they will measure project success
 - Center: Empty space for grouping related challenges
 
-### Frame 2: Solution Space
+Frame 2: Solution Space
 
 - Top row: "Must Have" features (red dots for priority)
 - Middle row: "Nice to Have" features (yellow dots)
 - Bottom row: "Out of Scope" items (grey notes)
 
-### Frame 3: Timeline View
+Frame 3: Timeline View
 
 - Horizontal timeline with milestone markers
 - Drag-and-drop task cards for scheduling
 - Color-coded by project phase
 
-### Frame 4: Budget and Resources
+Frame 4: Budget and Resources
 
 - Simple table frame with columns for: Item, Estimated Cost, Actual Cost, Variance
 - Keeps financial discussions visible without leaving the board
 
-### Step 4: Handling Difficult Workshop Scenarios
+Step 4: Handling Difficult Workshop Scenarios
 
-### When a Client Goes Off-Topic
+When a Client Goes Off-Topic
 
-Have a dedicated "Parking Lot" frame on the board. When tangents arise, move the relevant sticky note to parking lot with a brief acknowledgment: "Great point — let's note that for later discussion." This validates their input without derailing the agenda.
+Have a dedicated "Parking Lot" frame on the board. When tangents arise, move the relevant sticky note to parking lot with a brief acknowledgment: "Great point. let's note that for later discussion." This validates their input without derailing the agenda.
 
-### When One Client Dominates
+When One Client Dominates
 
 Use the "Individual Reflection" technique:
 
@@ -160,7 +160,7 @@ Use the "Individual Reflection" technique:
 3. Reveal all notes simultaneously
 4. This prevents groupthink and gives quieter voices equal weight
 
-### When Technical Difficulties Occur
+When Technical Difficulties Occur
 
 Always have a fallback:
 
@@ -168,7 +168,7 @@ Always have a fallback:
 - Designate a note-taker who can make edits if you lose connection
 - Keep a PDF backup of the board state in your shared drive
 
-### Step 5: Post-Workshop Follow-Up Workflow
+Step 5: Post-Workshop Follow-Up Workflow
 
 The workshop value compounds when you follow up effectively:
 
@@ -178,7 +178,7 @@ The workshop value compounds when you follow up effectively:
 
 Miro's built-in export features handle the PDF generation. Navigate to the board settings and select "Export" to generate a high-resolution PDF or image sequence.
 
-### Step 6: Integrate Miro with Your Existing Tools
+Step 6: Integrate Miro with Your Existing Tools
 
 Connect your workshop outputs to your project management system:
 
@@ -203,32 +203,32 @@ miro.board.ui.on('icon:click', async () => {
 
 For simpler integrations, use Zapier or Make to connect Miro to tools like Linear, Asana, or Notion based on specific board updates.
 
-## Advanced Facilitation Techniques for Remote Workshops
+Advanced Facilitation Techniques for Remote Workshops
 
 Beyond the mechanics of Miro, the facilitation approach determines success:
 
-### The "Think-Pair-Share" Protocol for Brainstorms
+The "Think-Pair-Share" Protocol for Brainstorms
 
-When ideating, silence from participants is normal—people are thinking. Force engagement with this structure:
+When ideating, silence from participants is normal, people are thinking. Force engagement with this structure:
 
-**Think (3 minutes):**
+Think (3 minutes):
 - Individual sticky notes, silent workspace
 - Everyone adds ideas simultaneously
 - No discussion, no filtering
 
-**Pair (5 minutes):**
+Pair (5 minutes):
 - Randomly assign pairs
 - Each pair discusses the other's ideas
 - Combine best ideas into one shared note
 
-**Share (10 minutes):**
+Share (10 minutes):
 - Pairs present combined ideas
 - Group votes on top 5
 - Discuss only the top 5 (saves time)
 
 This protocol prevents groupthink and ensures quiet people contribute.
 
-### Energy Management During Workshops
+Energy Management During Workshops
 
 Remote workshops drain energy faster than in-person ones. Maintain engagement:
 
@@ -245,17 +245,17 @@ Remote workshops drain energy faster than in-person ones. Maintain engagement:
 
 Never have continuous talking for more than 10 minutes. Alternate between individual work and group discussion.
 
-### Real-Time Feedback Signals
+Real-Time Feedback Signals
 
 Monitor participant engagement through Miro:
 
-**Positive signals:**
+Positive signals:
 - Lots of cursor movement and sticky note placement
 - People adding to each other's ideas (not just adding their own)
 - Emoji reactions on ideas
 - Private comments on notes (thoughtful engagement)
 
-**Warning signals:**
+Warning signals:
 - Long silences with no new ideas appearing
 - Same few people generating all ideas
 - Participants dropping off (no cursor activity for 5+ minutes)
@@ -263,36 +263,36 @@ Monitor participant engagement through Miro:
 
 If you see warning signals, pause and ask: "Let's take a breath. What questions do you have about what we've done so far?" This resets attention.
 
-### Step 7: Pre-Workshop Client Preparation
+Step 7: Pre-Workshop Client Preparation
 
 Send this to clients 48 hours before the workshop:
 
 ```markdown
-# Workshop Prep Guide
+Workshop Prep Guide
 
-### Step 8: Logistics
-- **Time**: [Date/Time with timezone]
-- **Link**: [Miro board link] (Join 5 min early to test video)
-- **Duration**: 60 minutes
-- **Camera**: Please have it on (helps group connection)
+Step 8: Logistics
+- Time: [Date/Time with timezone]
+- Link: [Miro board link] (Join 5 min early to test video)
+- Duration: 60 minutes
+- Camera: Please have it on (helps group connection)
 
-### Step 9: Preparation (10 minutes, optional but helpful)
+Step 9: Preparation (10 minutes, optional but helpful)
 - Have your team brainstorm 3-5 biggest challenges before we start
 - Look at the attached "Workshop Agenda" document
 - Prepare 1-2 questions about our goals together
 
-### Step 10: During the Workshop
+Step 10: During the Workshop
 - We'll move between silent work and group discussion
-- There's no bad ideas—we're here to explore possibilities
+- There's no bad ideas, we're here to explore possibilities
 - Expect to see a rough board that evolves; we'll refine it after
 
-### Step 11: After the Workshop
+Step 11: After the Workshop
 - You'll get a PDF of the board same-day
 - We'll send a summary document within 24 hours
 - Follow-up call: [Date] to confirm next steps
 ```
 
-### Step 12: Workshop Facilitation Checklist
+Step 12: Workshop Facilitation Checklist
 
 Use this checklist 30 minutes before each workshop:
 
@@ -306,14 +306,14 @@ Use this checklist 30 minutes before each workshop:
 - [ ] Mute your notifications (prevent interruptions)
 - [ ] Have client names displayed on Miro board in intro section
 
-### Step 13: Post-Workshop Delivery Timeline
+Step 13: Post-Workshop Delivery Timeline
 
-**Same day (by 5 PM):**
+Same day (by 5 PM):
 - Export board as PDF or image sequence
 - Quickly review for any unclear items
 - Send to client with message: "Here's the board we built together. PDF attached."
 
-**Next day:**
+Next day:
 - Synthesize board into clean document:
  ```markdown
   # Workshop Summary: [Date]
@@ -334,34 +334,34 @@ Use this checklist 30 minutes before each workshop:
   2. We'll reconvene [date] to review progress
   ```
 
-**One week later:**
+One week later:
 - Quick 15-minute follow-up call
 - Check: "What's been easy to implement? What's been challenging?"
 - Unblock any stuck items
 
-### Step 14: Handling Difficult Personalities in Workshops
+Step 14: Handling Difficult Personalities in Workshops
 
-**The Dominator** (talks 70% of the time):
+The Dominator (talks 70% of the time):
 - Technique: "Thanks for that perspective. Let's hear from folks who haven't spoken yet."
 - Redirect: Use silent sticky note time to force his/her silence
 - Validate: Make sure their contribution is documented even if you limit their airtime
 
-**The Silent One** (hasn't spoken in 30 min):
+The Silent One (hasn't spoken in 30 min):
 - Direct question: "What's your take on this? [Name]"
 - Safe entry: "No pressure, but would love your perspective since you work with [area]"
-- Alternative: "Let's do a sticky note round—everyone adds one idea silently"
+- Alternative: "Let's do a sticky note round, everyone adds one idea silently"
 
-**The Skeptic** (dismisses ideas):
-- Curiosity: "Tell me more about your concern—what specifically worries you?"
+The Skeptic (dismisses ideas):
+- Curiosity: "Tell me more about your concern, what specifically worries you?"
 - Reframe: "That's valid caution. How might we design around that risk?"
 - Don't argue; document: "We'll note that and keep it in mind"
 
-**The Distracted One** (checking email, camera off):
+The Distracted One (checking email, camera off):
 - Gentle call-out: "Can everyone turn cameras on? It helps me see if explanations are landing."
 - Task assignment: "I need someone to track our decisions on the board. Can you do that?"
 - Gives them a role that forces engagement
 
-### Step 15: Tool Alternatives for Different Workshop Types
+Step 15: Tool Alternatives for Different Workshop Types
 
 | Workshop Type | Ideal Tool | Why |
 |---|---|---|
@@ -373,49 +373,49 @@ Use this checklist 30 minutes before each workshop:
 
 Most teams start with Miro, then discover Figma for design work, then add Notion for follow-up. Multi-tool workflows are common by year 2.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does Miro offer a free tier?**
+Does Miro offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check Miro's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [How to Run Effective Remote Client Workshops Using Miro](/how-to-run-effective-remote-client-workshops-using-miro-board/)
 - [How to Run Effective Remote Workshops](/how-to-run-effective-remote-workshops/)
 - [How to Create Client Project Retrospective Format for Remote](/how-to-create-client-project-retrospective-format-for-remote/)
 - [Best Whiteboard Tool for Remote Client Brainstorming](/best-whiteboard-tool-for-remote-client-brainstorming-session/)
 - [How to Set Up HubSpot for Remote Agency Client Pipeline](/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

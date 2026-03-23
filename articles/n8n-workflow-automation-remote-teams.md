@@ -19,10 +19,10 @@ n8n is an open-source workflow automation tool that self-hosts. Unlike Zapier or
 
 This guide covers: self-hosted n8n setup, five practical remote team workflows, and error handling to make automations reliable.
 
-## Install n8n with Docker
+Install n8n with Docker
 
 ```bash
-# Production install with persistent storage and tunnel support
+Production install with persistent storage and tunnel support
 docker run -d \
   --name n8n \
   --restart unless-stopped \
@@ -38,13 +38,13 @@ docker run -d \
   -e GENERIC_TIMEZONE=America/New_York \
   n8nio/n8n:latest
 
-# Access at https://automation.yourdomain.com
-# Default editor runs on port 5678
+Access at https://automation.yourdomain.com
+Default editor runs on port 5678
 ```
 
 ```yaml
-# Docker Compose with PostgreSQL for larger teams
-# n8n with SQLite is fine for single users; use Postgres for teams
+Docker Compose with PostgreSQL for larger teams
+n8n with SQLite is fine for single users; use Postgres for teams
 version: "3.9"
 
 services:
@@ -84,7 +84,7 @@ volumes:
   postgres_data: {}
 ```
 
-## Workflow 1: GitHub PR to Slack Notification with Context
+Workflow 1: GitHub PR to Slack Notification with Context
 
 The default GitHub → Slack integration only sends a link. This workflow sends a formatted message with reviewer names, labels, and a direct link to the diff.
 
@@ -152,13 +152,13 @@ The default GitHub → Slack integration only sends a link. This workflow sends 
 }
 ```
 
-## Workflow 2: Daily Standup Reminder with Auto-Summary
+Workflow 2: Daily Standup Reminder with Auto-Summary
 
 ```
-Trigger: Schedule — 9:00 AM Mon-Fri
-Step 1: GitHub node — fetch commits from last 24 hours per developer
-Step 2: Code node — format into standup summary
-Step 3: Slack node — post to #standup channel
+Trigger: Schedule. 9:00 AM Mon-Fri
+Step 1: GitHub node. fetch commits from last 24 hours per developer
+Step 2: Code node. format into standup summary
+Step 3: Slack node. post to #standup channel
 ```
 
 ```javascript
@@ -181,15 +181,15 @@ const message = Object.entries(byAuthor)
 return [{ json: { message: message || 'No commits in the last 24 hours.' } }];
 ```
 
-## Workflow 3: New Notion Page → Slack Alert
+Workflow 3: New Notion Page → Slack Alert
 
 When anyone creates a new page in a specific Notion database (e.g., the Engineering Decisions database), notify the team immediately.
 
 ```
 Trigger: Webhook (Notion webhook via Zapier or Notion API polling)
-OR: Schedule — poll Notion API every 5 minutes
+OR: Schedule. poll Notion API every 5 minutes
 
-Step 1: HTTP Request — Notion API
+Step 1: HTTP Request. Notion API
   GET https://api.notion.com/v1/databases/DATABASE_ID/query
   Headers: Authorization: Bearer NOTION_TOKEN
   Body: {
@@ -201,30 +201,30 @@ Step 1: HTTP Request — Notion API
     }
   }
 
-Step 2: IF — results exist
+Step 2: IF. results exist
   conditions: {{ $json.results.length > 0 }}
 
-Step 3: Split in Batches — one notification per new page
+Step 3: Split in Batches. one notification per new page
 
-Step 4: Slack — post to #decisions
+Step 4: Slack. post to #decisions
   "New decision logged: {{ $json.properties.Name.title[0].text.content }}"
   "Author: {{ $json.created_by.name }}"
   "Link: {{ $json.url }}"
 ```
 
-## Workflow 4: Failed CI Build to Linear Issue
+Workflow 4: Failed CI Build to Linear Issue
 
 Automatically create a bug ticket when a CI build fails on `main`.
 
 ```
 Trigger: Webhook (GitHub Actions calls this webhook on failure)
-Step 1: HTTP Request — check if issue already exists in Linear
+Step 1: HTTP Request. check if issue already exists in Linear
   GET https://api.linear.app/graphql
   Query: issues with title containing the workflow name
 
-Step 2: IF — no duplicate issue
+Step 2: IF. no duplicate issue
 
-Step 3: HTTP Request — create Linear issue
+Step 3: HTTP Request. create Linear issue
   POST https://api.linear.app/graphql
   Headers: Authorization: YOUR_LINEAR_API_KEY
   Body: {
@@ -232,7 +232,7 @@ Step 3: HTTP Request — create Linear issue
     "variables": {
       "input": {
         "title": "CI Failed: {{ $json.body.workflow }} on main",
-        "description": "**Branch**: main\n**Commit**: {{ $json.body.commit_sha }}\n**Workflow**: [View run]({{ $json.body.run_url }})",
+        "description": "Branch: main\nCommit: {{ $json.body.commit_sha }}\nWorkflow: [View run]({{ $json.body.run_url }})",
         "teamId": "YOUR_TEAM_ID",
         "priority": 2,
         "labelIds": ["BUG_LABEL_ID"]
@@ -242,7 +242,7 @@ Step 3: HTTP Request — create Linear issue
 ```
 
 ```yaml
-# In your GitHub Actions workflow, call the n8n webhook on failure
+In your GitHub Actions workflow, call the n8n webhook on failure
 - name: Notify n8n on failure
   if: failure()
   run: |
@@ -255,26 +255,26 @@ Step 3: HTTP Request — create Linear issue
       }'
 ```
 
-## Workflow 5: Weekly Team Metrics Digest
+Workflow 5: Weekly Team Metrics Digest
 
 ```
-Trigger: Schedule — Friday 5:00 PM
+Trigger: Schedule. Friday 5:00 PM
 
-Step 1: GitHub — fetch open PRs older than 48 hours
+Step 1: GitHub. fetch open PRs older than 48 hours
   GET /repos/:owner/:repo/pulls?state=open
 
-Step 2: GitHub — fetch merged PRs this week
+Step 2: GitHub. fetch merged PRs this week
   GET /repos/:owner/:repo/pulls?state=closed&since=<monday_date>
 
-Step 3: Linear — fetch completed issues this week
+Step 3: Linear. fetch completed issues this week
   GraphQL query with date filter
 
-Step 4: Code node — format weekly digest message
+Step 4: Code node. format weekly digest message
 
-Step 5: Slack — post to #engineering-metrics
+Step 5: Slack. post to #engineering-metrics
 ```
 
-## Error Handling for Reliable Workflows
+Error Handling for Reliable Workflows
 
 Workflows fail silently without error handling. Add error notifications:
 
@@ -304,7 +304,7 @@ return [{
 }];
 ```
 
-## Manage Credentials Securely
+Manage Credentials Securely
 
 n8n stores credentials encrypted in its database. For team environments, avoid hardcoding API keys in workflow nodes:
 
@@ -315,17 +315,17 @@ n8n → Settings → Credentials → Add Credential
   - Notion API: Integration Token
   - Linear API: API Key
 
-Then reference credentials by name in workflow nodes — never paste raw API keys into node parameters.
+Then reference credentials by name in workflow nodes. never paste raw API keys into node parameters.
 ```
 
-## Related Reading
+Related Reading
 
 - [Automation Tools for Freelance Business Operations](/automation-tools-for-freelance-business-operations/)
 - [Async Standup Alternative Using GitHub Commit Summaries Automatically](/async-standup-alternative-using-github-commit-summaries-automatically/)
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/ci-cd-pipeline-solo-developer-github-actions/)
 - [How to Run Remote Accounting Firm with Distributed Staff](/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
 
-## Related Articles
+Related Articles
 
 - [GitHub Actions Workflow for Remote Dev Teams](/github-actions-remote-dev-workflow/)
 - [Slack Workflow Builder Automation Stopped Running Fix 2026](/slack-workflow-builder-automation-stopped-running-fix-2026/)
@@ -333,27 +333,27 @@ Then reference credentials by name in workflow nodes — never paste raw API key
 - [Best Bug Tracking Tools for Remote QA Teams](/best-bug-tracking-tools-for-remote-qa-teams/)
 - [Best Business Intelligence Tool for Small Remote Teams](/best-business-intelligence-tool-for-small-remote-teams-witho/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does Teams offer a free tier?**
+Does Teams offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check Teams's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 

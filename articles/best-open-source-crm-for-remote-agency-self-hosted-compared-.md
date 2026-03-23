@@ -19,7 +19,7 @@ Remote agencies face unique challenges when managing client relationships across
 
 This comparison evaluates production-ready open source CRMs suitable for remote agencies of 5-50 people, focusing on Docker deployment, API flexibility, and features that matter for distributed teams.
 
-## What Remote Agencies Actually Need
+What Remote Agencies Actually Need
 
 Before examining specific tools, define your requirements. A remote agency CRM must handle:
 
@@ -31,11 +31,11 @@ Before examining specific tools, define your requirements. A remote agency CRM m
 
 The ideal solution runs on your infrastructure, integrates with your existing tools, and costs less than commercial alternatives at scale.
 
-## Option 1: EspoCRM
+Option 1: EspoCRM
 
 EspoCRM provides a modern interface with features out of the box. The software targets small and medium businesses, offering pipeline management, reports, and workflow automation.
 
-### Deployment
+Deployment
 
 EspoCRM runs on PHP with a MySQL backend. Docker deployment requires a custom Dockerfile:
 
@@ -59,7 +59,7 @@ RUN chown -R www-data:www-data /var/www/html
 Configure with environment variables for database connection:
 
 ```bash
-# docker-compose.yml
+docker-compose.yml
 services:
   espocrm:
     build: .
@@ -86,12 +86,12 @@ volumes:
   mysql_data:
 ```
 
-### API and Integrations
+API and Integrations
 
 EspoCRM exposes a REST API for CRUD operations on all entities. Authentication uses API keys or OAuth2 tokens:
 
 ```bash
-# Creating a lead via API
+Creating a lead via API
 curl -X POST https://your-crm-instance/api/v1/Lead \
   -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
   -H "Content-Type: application/json" \
@@ -106,23 +106,23 @@ curl -X POST https://your-crm-instance/api/v1/Lead \
 
 The platform includes webhooks for real-time integrations with tools like Slack or custom internal systems.
 
-### Features for Remote Teams
+Features for Remote Teams
 
 - Activity streams with mentions for async collaboration
 - Calendar with time zone support
 - Email parsing for automatic lead creation
 - Custom fields and entities via administration panel
 
-## Option 2: SuiteCRM
+Option 2: SuiteCRM
 
 SuiteCRM is a mature, feature-rich fork of SugarCRM Community Edition. It powers thousands of installations worldwide with an emphasis on enterprise features.
 
-### Deployment
+Deployment
 
 SuiteCRM requires PHP, MySQL, and Elasticsearch for full-text search. The official Docker image simplifies deployment:
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 services:
   suitecrm:
     image: suitecrm/SuiteCRM:8.6.0
@@ -163,7 +163,7 @@ volumes:
   mysql_data:
 ```
 
-### API and Customization
+API and Customization
 
 SuiteCRM offers REST and SOAP APIs. For modern integrations, use the v8 REST API:
 
@@ -214,7 +214,7 @@ echo "Lead created: " . $response->getStatusCode();
 ?>
 ```
 
-### Features for Remote Teams
+Features for Remote Teams
 
 - Advanced workflow engine for complex automation
 - Report builder with grouping and charting
@@ -223,18 +223,18 @@ echo "Lead created: " . $response->getStatusCode();
 
 The learning curve is steeper than EspoCRM, but the feature depth justifies the investment for larger agencies.
 
-## Option 3: Pipedrive (Self-Hosted Alternative: Flux)
+Option 3: Pipedrive (Self-Hosted Alternative: Flux)
 
-For agencies prioritizing sales pipeline simplicity, consider Flux—a self-hosted alternative inspired by Pipedrive's interface. However, true open source options are limited in this category.
+For agencies prioritizing sales pipeline simplicity, consider Flux, a self-hosted alternative inspired by Pipedrive's interface. However, true open source options are limited in this category.
 
 A better approach: use the leading open source helpdesk and CRM combination with Booked.
 
-## Option 4: EspoCRM + Dokos Integration
+Option 4: EspoCRM + Dokos Integration
 
 For agencies needing invoicing, combine EspoCRM with Dokos (open source invoicing):
 
 ```yaml
-# Integrated docker-compose
+Integrated docker-compose
 services:
   espocrm:
     image: espocrm/espocrm:latest
@@ -258,19 +258,19 @@ services:
 
 This combination provides CRM + invoicing without commercial licensing.
 
-## Comparison Matrix
+Comparison Matrix
 
 | Feature | EspoCRM | SuiteCRM | Flux |
 |---------|---------|----------|------|
-| Docker support | ✓ | ✓ | ✓ |
-| REST API | ✓ | ✓ | ✓ |
-| Workflow automation | ✓ | ✓✓ | ✓ |
-| Invoice generation | Via integration | Via integration | ✓ |
-| Mobile app | ✓ | ✓ | ✗ |
+| Docker support |  |  |  |
+| REST API |  |  |  |
+| Workflow automation |  |  |  |
+| Invoice generation | Via integration | Via integration |  |
+| Mobile app |  |  |  |
 | User limit | Unlimited | Unlimited | Unlimited |
 | Installation size | ~200MB | ~500MB | ~150MB |
 
-## Recommendation by Agency Size
+Recommendation by Agency Size
 
 For agencies under 10 people, EspoCRM provides the best balance of features and simplicity. The interface feels modern, and setup takes under an hour.
 
@@ -278,7 +278,7 @@ For agencies over 10 people with complex workflows, SuiteCRM offers enterprise-g
 
 For agencies prioritizing invoicing alongside CRM, the EspoCRM + Dokos combination delivers integrated functionality without SaaS subscription costs.
 
-## Infrastructure Considerations
+Infrastructure Considerations
 
 Self-hosting requires maintenance attention:
 
@@ -291,5 +291,5 @@ Budget approximately $50-100 monthly for a capable VPS handling 20 users, or sca
 
 The total cost of ownership remains lower than commercial SaaS options when factoring in data ownership, customization freedom, and lack of per-user licensing.
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

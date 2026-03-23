@@ -18,7 +18,7 @@ intent-checked: true
 
 Distributed teams lose goal alignment when they're out of physical proximity. An office team naturally talks about quarterly goals in the hallway. A remote team needs intentional structure and clear visibility.
 
-## Table of Contents
+Table of Contents
 
 - [Understanding OKRs](#understanding-okrs)
 - [Why OKRs Work for Remote Teams](#why-okrs-work-for-remote-teams)
@@ -32,12 +32,12 @@ Distributed teams lose goal alignment when they're out of physical proximity. An
 
 This guide walks through implementing OKRs (Objectives and Key Results) for distributed teams, including tool selection, process design, and how to make goals visible and measurable without constant meetings.
 
-## Understanding OKRs
+Understanding OKRs
 
 OKRs are the gold standard for goal setting in fast-growing companies. They consist of:
 
-- **Objectives**: Qualitative description of what you want to achieve (e.g., "Improve customer onboarding experience")
-- **Key Results**: Quantitative measures of success (e.g., "Reduce time-to-first-API-call from 45 minutes to 15 minutes")
+- Objectives: Qualitative description of what you want to achieve (e.g., "Improve customer onboarding experience")
+- Key Results: Quantitative measures of success (e.g., "Reduce time-to-first-API-call from 45 minutes to 15 minutes")
 
 Each key result should be measurable, ambitious yet achievable, and tracked throughout the quarter.
 
@@ -62,29 +62,29 @@ Objective: Build sustainable on-call and incident response culture
   Key Result 3: Establish blameless postmortem process with <48 hour publication
 ```
 
-## Why OKRs Work for Remote Teams
+Why OKRs Work for Remote Teams
 
 In distributed teams, goals become the primary alignment mechanism:
 
-1. **Written clarity**: OKRs force explicit thinking about priorities
-2. **Async communication**: Team members understand goals without frequent meetings
-3. **Progress visibility**: Everyone can see current status without asking
-4. **Autonomy with alignment**: Individuals know how their work connects to company goals
+1. Written clarity: OKRs force explicit thinking about priorities
+2. Async communication: Team members understand goals without frequent meetings
+3. Progress visibility: Everyone can see current status without asking
+4. Autonomy with alignment: Individuals know how their work connects to company goals
 
-## Tools for OKR Management
+Tools for OKR Management
 
-### Lattice
+Lattice
 
 Lattice is purpose-built for OKRs and continuous feedback. It's the most solution.
 
-**Features:**
+Features:
 - OKR creation and tracking interface
 - Alignment views showing objective dependencies
 - Real-time progress updates
 - 1-on-1 notes and feedback integration
 - Analytics on goal completion rates
 
-**Setup for distributed teams:**
+Setup for distributed teams:
 ```
 1. Define company OKRs (top-down)
 2. Each team creates OKRs aligned to company goals
@@ -94,31 +94,31 @@ Lattice is purpose-built for OKRs and continuous feedback. It's the most solutio
 6. End-of-quarter review with scoring
 ```
 
-**Pricing**: ~$10-15 per user per month (negotiable for larger teams)
+Pricing: ~$10-15 per user per month (negotiable for larger teams)
 
-### 15Five
+15Five
 
 15Five combines OKRs with continuous feedback, 1-on-1s, and engagement surveys. Strong for culture-focused companies.
 
-**Key differentiators:**
+Key differentiators:
 - Lightweight OKR interface (less intimidating than Lattice)
 - Integrated 1-on-1 note-taking
 - Feedback request workflows
 - Company-wide pulse surveys
 - Goals integrated with individual development plans
 
-**Good for**: Teams that want OKRs plus continuous feedback infrastructure
+Good for: Teams that want OKRs plus continuous feedback infrastructure
 
-### Google Sheets + Slack
+Google Sheets + Slack
 
 For startups or teams resistant to new tools, Google Sheets + Slack is surprisingly effective:
 
 ```
 Google Sheets setup:
-├── Company OKRs (read-only for team)
-├── Team OKRs (editable by team leads)
-├── Individual Initiatives (each person owns a row)
-└── Progress Tracking (weekly update column)
+ Company OKRs (read-only for team)
+ Team OKRs (editable by team leads)
+ Individual Initiatives (each person owns a row)
+ Progress Tracking (weekly update column)
 
 Each Friday, automated Slack message:
 "Time for weekly OKR updates!
@@ -127,15 +127,15 @@ Go here: [link] and update progress column"
 Simple, free, integrates with existing workflows
 ```
 
-### Ally or 15Five for Culture
+Ally or 15Five for Culture
 
 If your company already uses Ally or similar for feedback, extend it to include OKRs rather than adopting a separate tool.
 
-## Implementing OKRs in Your Remote Team
+Implementing OKRs in Your Remote Team
 
-### Phase 1: Quarterly Planning (2 weeks before quarter start)
+Phase 1: Quarterly Planning (2 weeks before quarter start)
 
-**Week 1: Create company OKRs**
+Week 1: Create company OKRs
 
 Executive team drafts 3-5 company-level objectives and key results:
 
@@ -149,7 +149,7 @@ Format each objective as:
 
 Document why certain goals were prioritized. Shared understanding of reasoning is crucial.
 
-**Week 2: Team alignment**
+Week 2: Team alignment
 
 Each team lead reviews company OKRs and creates team OKRs aligned to at least one company objective:
 
@@ -169,12 +169,12 @@ Send to me by [date] for review"
 
 Teams discuss and finalize their OKRs before the quarter starts.
 
-**Phase 1 Output:**
+Phase 1 Output:
 - Written company OKRs (shared document or tool)
 - Each team's OKRs with clear ownership
 - Dependency map showing which team OKRs support company goals
 
-### Phase 2: Weekly Progress Tracking
+Phase 2: Weekly Progress Tracking
 
 Every Friday, team members update progress on their assigned key results:
 
@@ -196,12 +196,12 @@ Confidence: 80% - on track if current initiatives ship on schedule
 Notes: Waiting on data pipeline team to provide error categorization
 ```
 
-**Why weekly updates matter:**
+Why weekly updates matter:
 - Early visibility into off-track goals
 - Team can help solve blockers before quarter ends
 - Avoids surprises at quarter review
 
-**Slack automation:**
+Slack automation:
 ```
 Every Friday, 5pm: Post reminder with link to update sheet
 Include: Current progress, on-track or off-track count, blockers
@@ -209,7 +209,7 @@ Include: Current progress, on-track or off-track count, blockers
 Managers review updates and follow up on anything significantly off-track
 ```
 
-### Phase 3: Mid-Quarter Check-in (week 6 of quarter)
+Phase 3: Mid-Quarter Check-in (week 6 of quarter)
 
 Halfway through, pause and assess:
 
@@ -225,7 +225,7 @@ Adjusting goals mid-quarter is healthy. Markets change, surprises happen.
 Update the shared goal document and Slack-announce changes.
 ```
 
-### Phase 4: Quarter-End Review
+Phase 4: Quarter-End Review
 
 Last week of quarter:
 
@@ -242,7 +242,7 @@ Process:
 
 Typical quarter completion rate: 65-75% of key results. This is healthy. If you hit 100%, your goals weren't ambitious enough.
 
-## Example: Distributed Engineering Team OKRs
+Distributed Engineering Team OKRs
 
 ```
 Q2 2026: Engineering Team OKRs
@@ -281,21 +281,21 @@ OBJECTIVE 3: Establish platform as reliable, enterprise-grade
   - Practice incident responses monthly
 ```
 
-## Common Pitfalls in Remote OKR Management
+Common Pitfalls in Remote OKR Management
 
-**Too many OKRs**: Limit to 3-5 per team. More than that indicates unclear priorities.
+Too many OKRs: Limit to 3-5 per team. More than that indicates unclear priorities.
 
-**Vague key results**: "Improve performance" isn't measurable. "Reduce p99 latency from 500ms to 200ms" is.
+Vague key results: "Improve performance" isn't measurable. "Reduce p99 latency from 500ms to 200ms" is.
 
-**No owner**: Every OKR needs a single owner. Shared ownership leads to no one owning the goal.
+No owner: Every OKR needs a single owner. Shared ownership leads to no one owning the goal.
 
-**No status updates**: OKRs without regular updates disappear. Weekly updates are non-negotiable.
+No status updates: OKRs without regular updates disappear. Weekly updates are non-negotiable.
 
-**Overcomplication**: Start simple. Spreadsheets work fine—don't buy expensive tools until you have the process down.
+Overcomplication: Start simple. Spreadsheets work fine, don't buy expensive tools until you have the process down.
 
-**Goals disconnected from compensation**: If people aren't evaluated on OKRs, they won't prioritize them.
+Goals disconnected from compensation: If people aren't evaluated on OKRs, they won't prioritize them.
 
-## Connecting OKRs to Individual Development
+Connecting OKRs to Individual Development
 
 In distributed teams, OKRs also drive individual growth:
 
@@ -325,7 +325,7 @@ Next Quarter Planning:
 
 This connects individual performance directly to company direction.
 
-## Async OKR Discussion Workflow
+Async OKR Discussion Workflow
 
 Avoid OKR meetings by using async discussion:
 
@@ -342,7 +342,7 @@ Day 7: Team synchronous kick-off (30 min) to discuss and align
 
 This approach gathers input without requiring everyone in a meeting.
 
-## Measuring Success of Your OKR System
+Measuring Success of Your OKR System
 
 Track these meta-metrics:
 
@@ -358,34 +358,34 @@ Run a quick survey mid-year: "Rate 1-5 how clear company priorities are to you."
 
 OKRs done well make remote teams feel connected, aligned, and enabled. They're the clearest signal that distributed work can be just as effective as office work.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does Go offer a free tier?**
+Does Go offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check Go's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
 - [Best Tools for Remote Team OKR Tracking in 2026](/best-tools-for-remote-team-okr-tracking-2026/)
 - [OKR Tracking for a Remote Product Team of 12 People](/okr-tracking-for-a-remote-product-team-of-12-people/)
 - [Example Linear API query for OKR progress](/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

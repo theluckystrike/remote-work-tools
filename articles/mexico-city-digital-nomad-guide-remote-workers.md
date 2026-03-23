@@ -18,7 +18,7 @@ voice-checked: true
 
 Mexico City has become one of the top destinations for remote workers, offering a compelling mix of affordable living, vibrant culture, and a growing tech scene. With over 300 coworking spaces, reliable internet in most areas, and a time zone that aligns with US Central Time, Mexico City digital nomad life works well for developers collaborating with North American teams.
 
-## Table of Contents
+Table of Contents
 
 - [Best Neighborhoods for Remote Workers](#best-neighborhoods-for-remote-workers)
 - [Setting Up Internet in Your Apartment](#setting-up-internet-in-your-apartment)
@@ -35,33 +35,33 @@ Mexico City has become one of the top destinations for remote workers, offering 
 - [Backup Internet Setup for Remote Workers](#backup-internet-setup-for-remote-workers)
 - [Mexico City Power Outage Preparedness](#mexico-city-power-outage-preparedness)
 
-## Best Neighborhoods for Remote Workers
+Best Neighborhoods for Remote Workers
 
 Choosing the right neighborhood impacts your daily productivity.
 
-**Condesa and Roma** — These adjacent neighborhoods form the heart of Mexico City's remote worker scene. Tree-lined streets, excellent cafes with reliable WiFi, and a high density of coworking spaces make this area ideal. Average apartment rental: $800-1,200/month for an one-bedroom. The area has strong 4G/5G coverage from all major carriers.
+Condesa and Roma. These adjacent neighborhoods form the heart of Mexico City's remote worker scene. Tree-lined streets, excellent cafes with reliable WiFi, and a high density of coworking spaces make this area ideal. Average apartment rental: $800-1,200/month for an one-bedroom. The area has strong 4G/5G coverage from all major carriers.
 
-**Del Valle and Santa Fe** — More modern and business-oriented, these southern neighborhoods offer quieter streets and newer apartment buildings. Better for those who prefer less tourism and more local living. Santa Fe has several corporate coworking chains.
+Del Valle and Santa Fe. More modern and business-oriented, these southern neighborhoods offer quieter streets and newer apartment buildings. Better for those who prefer less tourism and more local living. Santa Fe has several corporate coworking chains.
 
-**Centro Histórico** — Historic and energetic, but can be noisy. Affordable (~$500-800/month) but requires careful apartment selection for reliable internet. Best suited for experienced nomads who can evaluate connectivity before committing.
+Centro Histórico. Historic and energetic, but can be noisy. Affordable (~$500-800/month) but requires careful apartment selection for reliable internet. Best suited for experienced nomads who can evaluate connectivity before committing.
 
-**Polanco** — Upscale area with fast internet and good restaurants. More expensive ($1,200-2,000/month) but reliable infrastructure. Ideal for shorter stays when you need consistency.
+Polanco. Upscale area with fast internet and good restaurants. More expensive ($1,200-2,000/month) but reliable infrastructure. Ideal for shorter stays when you need consistency.
 
-## Setting Up Internet in Your Apartment
+Setting Up Internet in Your Apartment
 
 Mexico City internet speeds have improved dramatically. Most areas now have access to 100-300 Mbps fiber from providers like Telmex (Infinitum), Izzi, and Totalplay.
 
-### Recommended Internet Setup
+Recommended Internet Setup
 
 For most remote workers, a mobile hotspot backup is essential:
 
 ```bash
-# Test your primary internet speed
+Test your primary internet speed
 curl -s https://speedtest-api.example.com/speed | jq
 
-# Set up automatic failover with a script
+Set up automatic failover with a script
 #!/bin/bash
-# failover.sh - Check primary connection, switch to backup if down
+failover.sh - Check primary connection, switch to backup if down
 PRIMARY="192.168.1.1"
 BACKUP_IP="8.8.8.8"
 
@@ -71,35 +71,35 @@ if ! ping -c 1 -W 2 "$PRIMARY" > /dev/null 2>&1; then
 fi
 ```
 
-**Recommended mobile carriers:**
-- **Telcel** — Best overall coverage, reliable 4G/5G throughout the city
-- **AT&T Mexico** — Good for AT&T users roaming, similar coverage
-- **Movistar** — Budget option, slightly less coverage in outer neighborhoods
+Recommended mobile carriers:
+- Telcel. Best overall coverage, reliable 4G/5G throughout the city
+- AT&T Mexico. Good for AT&T users roaming, similar coverage
+- Movistar. Budget option, slightly less coverage in outer neighborhoods
 
 Purchase a SIM card at the airport or any OXXO convenience store. You'll need your passport for registration. Most plans cost $15-30/month for 20-50GB of data.
 
-## Coworking Spaces
+Coworking Spaces
 
 Mexico City has excellent coworking options across all price ranges:
 
-**WeWork** — Multiple locations including Polanco, Santa Fe, and Roma. Day passes around $25, monthly memberships $200-350. Reliable internet, good meeting rooms, and professional atmosphere. Most locations have dedicated desks and private offices.
+WeWork. Multiple locations including Polanco, Santa Fe, and Roma. Day passes around $25, monthly memberships $200-350. Reliable internet, good meeting rooms, and professional atmosphere. Most locations have dedicated desks and private offices.
 
-**Selina** — Popular with digital nomads, combines coworking with hostel-style accommodation. Monthly passes $150-250, includes community events and wellness activities. Locations in Condesa, Roma, and Centro.
+Selina. Popular with digital nomads, combines coworking with hostel-style accommodation. Monthly passes $150-250, includes community events and wellness activities. Locations in Condesa, Roma, and Centro.
 
-**Hospitalidad** — Budget-friendly option, $100-150/month for hot desks. Several locations, basic but functional. Internet speeds typically 50-100 Mbps.
+Hospitalidad. Budget-friendly option, $100-150/month for hot desks. Several locations, basic but functional. Internet speeds typically 50-100 Mbps.
 
-**We are Now** — Boutique coworking in Roma Norte. $180/month for dedicated desk, excellent community events, and fast internet (200+ Mbps).
+We are Now. Boutique coworking in Roma Norte. $180/month for dedicated desk, excellent community events, and fast internet (200+ Mbps).
 
 Many cafes also work well for remote work:
-- **Café de Taza** — Multiple locations, reliable WiFi, good food
-- **Café Punta del Cielo** — WiFi available, quieter atmosphere
-- **Starbucks Reserve** — Better WiFi than standard locations
+- Café de Taza. Multiple locations, reliable WiFi, good food
+- Café Punta del Cielo. WiFi available, quieter atmosphere
+- Starbucks Reserve. Better WiFi than standard locations
 
-## Development Workflow Tips
+Development Workflow Tips
 
 Working with US-based teams from Mexico City requires some adjustments:
 
-### Time Zone Management
+Time Zone Management
 
 Mexico City is in Central Standard Time (CST), which aligns with:
 - US Central Time
@@ -108,11 +108,11 @@ Mexico City is in Central Standard Time (CST), which aligns with:
 - Honduras
 
 This means:
-- **Noon Mexico City = 11 AM Pacific / 2 PM Eastern**
+- Noon Mexico City = 11 AM Pacific / 2 PM Eastern
 - Overlap with US East Coast teams: 8 AM - 6 PM local
 - Overlap with US West Coast: 9 AM - 5 PM local
 
-Use tools like **World Time Buddy** or **Clockwise** to schedule meetings across time zones:
+Use tools like World Time Buddy or Clockwise to schedule meetings across time zones:
 
 ```javascript
 // Calculate meeting times across time zones
@@ -128,13 +128,13 @@ function findMeetingSlot() {
 }
 ```
 
-### VPN and Security
+VPN and Security
 
 When accessing company resources:
 
 ```bash
-# WireGuard configuration for reduced latency
-# /etc/wireguard/wg0.conf
+WireGuard configuration for reduced latency
+/etc/wireguard/wg0.conf
 
 [Interface]
 PrivateKey = <your-private-key>
@@ -148,14 +148,14 @@ AllowedIPs = 10.0.0.0/24
 PersistentKeepalive = 25
 ```
 
-WireGuard uses less bandwidth than OpenVPN and maintains connections better on mobile networks—critical when transitioning between WiFi and mobile data.
+WireGuard uses less bandwidth than OpenVPN and maintains connections better on mobile networks, critical when transitioning between WiFi and mobile data.
 
-### Code Storage and Backups
+Code Storage and Backups
 
 Maintain reliable backup practices when working remotely:
 
 ```bash
-# Daily backup script for critical repos
+Daily backup script for critical repos
 #!/bin/bash
 REPO_DIR="$HOME/projects"
 BACKUP_DIR="/path/to/encrypted/backups"
@@ -168,24 +168,24 @@ rm "$BACKUP_DIR/repos-$DATE.tar.gz"
 
 Push to remote git hosting daily. Consider using a cloud storage service with automatic sync for additional redundancy.
 
-## Essential Apps for Mexico City Life
+Essential Apps for Mexico City Life
 
-**Navigation and Transit:**
-- **Google Maps** — Accurate for public transit (Metro and Metrobús)
-- **Moovit** — Helpful for real-time bus arrivals
-- **Uber/DiDi** — Reliable ride-sharing, DiDi often cheaper
+Navigation and Transit:
+- Google Maps. Accurate for public transit (Metro and Metrobús)
+- Moovit. Helpful for real-time bus arrivals
+- Uber/DiDi. Reliable ride-sharing, DiDi often cheaper
 
-**Financial:**
-- **Wise** — Best for receiving USD payments and converting to MXN
-- **Remitly** or **Remesas** — For receiving payments from US employers
-- Open a **BBVA or Santander** account if staying longer (requires RFC)
+Financial:
+- Wise. Best for receiving USD payments and converting to MXN
+- Remitly or Remesas. For receiving payments from US employers
+- Open a BBVA or Santander account if staying longer (requires RFC)
 
-**Communication:**
-- **WhatsApp** — Universal communication in Mexico
-- **Slack/Discord** — For team collaboration
-- **Telegram** — Good for local groups and communities
+Communication:
+- WhatsApp. Universal communication in Mexico
+- Slack/Discord. For team collaboration
+- Telegram. Good for local groups and communities
 
-## Cost of Living Breakdown
+Cost of Living Breakdown
 
 Monthly budget for a digital nomad in Mexico City:
 
@@ -198,21 +198,21 @@ Monthly budget for a digital nomad in Mexico City:
 | Food | $300 | $500 | $800 |
 | Transportation | $20 | $50 | $100 |
 | Entertainment | $100 | $200 | $400 |
-| **Total** | **$965** | **$2,020** | **$3,555** |
+| Total | $965 | $2,020 | $3,555 |
 
 Prices in USD. apartment prices vary significantly by neighborhood and amenities.
 
-## Practical Tips
+Practical Tips
 
-Stick to bottled or filtered water — tap water is not reliably safe. Mexico uses Type A/B plugs (same as the US), so no adapter is needed. Basic Spanish helps immensely; most daily interactions require it even though many in the tech scene speak English. SIM registration requires your passport by law. For health coverage, SafetyWing and World Nomads both offer digital nomad plans.
+Stick to bottled or filtered water. tap water is not reliably safe. Mexico uses Type A/B plugs (same as the US), so no adapter is needed. Basic Spanish helps immensely; most daily interactions require it even though many in the tech scene speak English. SIM registration requires your passport by law. For health coverage, SafetyWing and World Nomads both offer digital nomad plans.
 
-## Getting Started
+Getting Started
 
 Mexico City offers everything remote workers need: reliable infrastructure, affordable cost of living, and an established digital nomad community. Start with a short stay in Condesa or Roma to explore different neighborhoods, test your internet setup, and build local connections before committing to longer leases.
 
 Successful remote work in Mexico City depends on three things: reliable internet (test before signing a lease), a good workspace, and a routine that accounts for the city's energy. Once you establish those basics, you'll find a city that rewards both productivity and exploration.
 
-## Mexico City Neighborhood Detailed Comparison
+Mexico City Neighborhood Detailed Comparison
 
 | Neighborhood | Vibe | Internet | Rent (1BR) | Coworking | Best For |
 |---|---|---|---|---|---|
@@ -224,7 +224,7 @@ Successful remote work in Mexico City depends on three things: reliable internet
 | Centro | Historic, cheap | Fair (50-100 Mbps) | $400-700 | 2+ spaces | Budget travelers |
 | Coyoacán | Cultural, local | Fair | $700-1,000 | 1-2 spaces | Cultural immersion |
 
-## Internet Providers Detailed Comparison
+Internet Providers Detailed Comparison
 
 ```yaml
 provider_comparison:
@@ -263,12 +263,12 @@ provider_comparison:
 recommendation: "Get Telmex + mobile hotspot backup (Telcel). Telmex covers most areas, hotspot covers gaps."
 ```
 
-## Apartment Hunting Checklist for Remote Workers
+Apartment Hunting Checklist for Remote Workers
 
 Before signing a lease, verify:
 
 ```markdown
-## Internet Verification Checklist
+Internet Verification Checklist
 
 BEFORE viewing:
 - [ ] Call provider to confirm service available at address
@@ -297,11 +297,11 @@ Red flags:
 - Previous tenant left because of internet issues
 ```
 
-## Backup Internet Setup for Remote Workers
+Backup Internet Setup for Remote Workers
 
 ```bash
 #!/bin/bash
-# failover-internet.sh - Automatic failover for dual internet
+failover-internet.sh - Automatic failover for dual internet
 
 PRIMARY_GATEWAY="192.168.1.1"
 BACKUP_APN="telcel"  # Mobile hotspot
@@ -332,11 +332,11 @@ check_internet_loop() {
     done
 }
 
-# Run in background
+Run in background
 check_internet_loop &
 ```
 
-## Mexico City Power Outage Preparedness
+Mexico City Power Outage Preparedness
 
 Power outages (apagones) happen occasionally, especially during summer heat waves:
 
@@ -361,34 +361,34 @@ During outage:
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to remote workers?**
+How long does it take to remote workers?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Mexico Temporary Resident Visa for Remote Workers Earning](/mexico-temporary-resident-visa-for-remote-workers-earning-fo/)
 - [Best Neighborhoods in Lisbon for Remote Workers with Fast](/best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/)
 - [Thailand Long Term Visa for Remote Workers 2026](/thailand-long-term-visa-for-remote-workers-2026/)
 - [Pet Friendly Digital Nomad Destinations 2026](/pet-friendly-digital-nomad-destinations-2026/)
 - [Malaysia Digital Nomad Pass De Rantau Application for Remote](/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

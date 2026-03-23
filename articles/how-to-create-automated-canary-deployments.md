@@ -19,7 +19,7 @@ Canary deployments route a small percentage of traffic to a new version while th
 
 ---
 
-## Option 1: Argo Rollouts (Kubernetes)
+Option 1: Argo Rollouts (Kubernetes)
 
 Argo Rollouts extends Kubernetes deployments with progressive delivery strategies.
 
@@ -30,14 +30,14 @@ kubectl create namespace argo-rollouts
 kubectl apply -n argo-rollouts \
   -f https://github.com/argoproj/argo-rollouts/releases/latest/download/install.yaml
 
-# Install CLI
+Install CLI
 brew install argoproj/tap/kubectl-argo-rollouts
 ```
 
 Define a canary rollout:
 
 ```yaml
-# rollout.yaml
+rollout.yaml
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
@@ -81,7 +81,7 @@ spec:
         - setWeight: 80
         - pause:
             duration: 5m
-        # Final step: 100% — rollout complete
+        # Final step: 100%. rollout complete
 
       # Automatic analysis at each step
       analysis:
@@ -99,7 +99,7 @@ spec:
 Define the analysis template to check error rate:
 
 ```yaml
-# analysis-template.yaml
+analysis-template.yaml
 apiVersion: argoproj.io/v1alpha1
 kind: AnalysisTemplate
 metadata:
@@ -144,19 +144,19 @@ Deploy and monitor:
 ```bash
 kubectl apply -f rollout.yaml -f analysis-template.yaml
 
-# Watch rollout progress
+Watch rollout progress
 kubectl argo rollouts get rollout payments-service --watch
 
-# Manually promote if paused
+Manually promote if paused
 kubectl argo rollouts promote payments-service
 
-# Abort if something looks wrong
+Abort if something looks wrong
 kubectl argo rollouts abort payments-service
 ```
 
 ---
 
-## Option 2: Flagger (Kubernetes + Service Mesh)
+Option 2: Flagger (Kubernetes + Service Mesh)
 
 Flagger automates canary analysis using Istio, Linkerd, or Nginx ingress for traffic splitting.
 
@@ -173,7 +173,7 @@ helm upgrade -i flagger flagger/flagger \
 Create a Canary resource:
 
 ```yaml
-# canary.yaml
+canary.yaml
 apiVersion: flagger.app/v1beta1
 kind: Canary
 metadata:
@@ -230,19 +230,19 @@ kubectl set image deployment/payments-service \
   payments-service=yourcompany/payments-service:v2.0.1 \
   -n production
 
-# Flagger automatically detects the change and starts the canary
+Flagger automatically detects the change and starts the canary
 kubectl describe canary payments-service -n production
 ```
 
 ---
 
-## Option 3: Nginx Weighted Routing (Simple)
+Option 3: Nginx Weighted Routing (Simple)
 
 No Kubernetes? Use Nginx with a split_clients module for simple canary routing:
 
 ```nginx
-# /etc/nginx/conf.d/canary.conf
-# Route 10% to canary, 90% to stable
+/etc/nginx/conf.d/canary.conf
+Route 10% to canary, 90% to stable
 
 split_clients "${remote_addr}${http_user_agent}${msec}" $canary_upstream {
     10%   canary;
@@ -281,14 +281,14 @@ To adjust the percentage, change `10%` and reload. To complete the rollout, chan
 
 ---
 
-## Automated Rollback with a Monitoring Script
+Automated Rollback with a Monitoring Script
 
 Without Kubernetes, monitor the canary manually with a script:
 
 ```bash
 #!/bin/bash
-# scripts/canary-monitor.sh
-# Monitor canary error rate and auto-rollback if threshold exceeded
+scripts/canary-monitor.sh
+Monitor canary error rate and auto-rollback if threshold exceeded
 
 CANARY_URL="https://api.yourcompany.com"
 ERROR_THRESHOLD=5    # Percentage
@@ -334,7 +334,7 @@ echo "Canary passed monitoring period. Proceeding with full rollout."
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Best Tools for Remote Team Feature Flags](/best-tools-remote-team-feature-flags/)
 - [How to Set Up Drone CI for Remote Teams](/how-to-set-up-drone-ci-for-remote-teams/)
@@ -343,7 +343,7 @@ echo "Canary passed monitoring period. Proceeding with full rollout."
 
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Canary Tokens for Detecting Unauthorized](/how-to-set-up-canary-tokens-for-detecting-unauthorized-acces/)
 - [How to Create Automated Status Pages](/how-to-create-automated-status-pages/)
@@ -351,6 +351,6 @@ echo "Canary passed monitoring period. Proceeding with full rollout."
 - [How to Create Automated Client Progress Report for Remote](/how-to-create-automated-client-progress-report-for-remote-pr/)
 - [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

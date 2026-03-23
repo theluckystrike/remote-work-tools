@@ -18,7 +18,7 @@ voice-checked: true
 
 The best approach for remote teams is using Mermaid or PlantUML to store diagrams as text files in your repository, enabling Git-based collaboration and eliminating merge conflicts that plague binary diagram tools. This guide shows you how to implement diagrams as code with practical examples, CI/CD integration strategies, and workflows that scale across time zones without requiring real-time synchronization.
 
-## Table of Contents
+Table of Contents
 
 - [Why Diagrams as Code for Remote Teams](#why-diagrams-as-code-for-remote-teams)
 - [Prerequisites](#prerequisites)
@@ -26,7 +26,7 @@ The best approach for remote teams is using Mermaid or PlantUML to store diagram
 - [Best Practices for Remote Teams](#best-practices-for-remote-teams)
 - [Troubleshooting](#troubleshooting)
 
-## Why Diagrams as Code for Remote Teams
+Why Diagrams as Code for Remote Teams
 
 Traditional diagramming tools create binary files that don't merge well in version control. When team members across different time zones work on the same diagram, you encounter constant merge conflicts and lost changes. Diagrams as code treats your architecture drawings as plain text files that integrate smoothly with Git workflows.
 
@@ -34,7 +34,7 @@ The benefits extend beyond version control. Your diagrams become refactorable, t
 
 For remote teams specifically, diagrams as code solves the asynchronous communication problem. Instead of scheduling a screen-share to walk colleagues through a whiteboard sketch, you commit a diagram file. Team members in different time zones can review it on their own schedule, leave comments inline, and suggest changes through standard pull request tooling.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -44,9 +44,9 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Popular Diagrams as Code Tools
+Step 1: Popular Diagrams as Code Tools
 
-Several tools fit well for remote team documentation. Mermaid.js offers the lowest barrier to entry—it renders diagrams from text directly in Markdown files. PlantUML provides more advanced diagramming capabilities with enterprise features. Structurizr combines architecture diagrams with C4 model compliance.
+Several tools fit well for remote team documentation. Mermaid.js offers the lowest barrier to entry, it renders diagrams from text directly in Markdown files. PlantUML provides more advanced diagramming capabilities with enterprise features. Structurizr combines architecture diagrams with C4 model compliance.
 
 For most remote teams, starting with Mermaid provides immediate value without additional tooling. You can embed diagrams directly in GitHub README files, Notion pages, or any Markdown-supporting platform.
 
@@ -59,7 +59,7 @@ Here is a quick comparison to help you choose:
 | Structurizr | Yes (Docker/SaaS) | C4 model, architecture portfolios | High |
 | D2 | No (CLI) | Modern syntax, auto-layout | Low |
 
-## Getting Started with Mermaid
+Getting Started with Mermaid
 
 Mermaid integrates directly with Markdown. Create a file named `architecture.md` and add your first diagram:
 
@@ -73,9 +73,9 @@ flowchart TD
     E --> G[External API]
 ```
 
-This flowchart renders automatically in platforms supporting Mermaid. The syntax reads like code—easy to write, review, and modify in pull requests.
+This flowchart renders automatically in platforms supporting Mermaid. The syntax reads like code, easy to write, review, and modify in pull requests.
 
-### Step 2: Documenting Service Architecture
+Step 2: Documenting Service Architecture
 
 For microservices architectures, sequence diagrams clarify service interactions. Here's how to document an API request flow:
 
@@ -99,7 +99,7 @@ sequenceDiagram
 
 This sequence diagram shows exactly how requests flow through your system. Remote team members can read the flow without needing a live demo or screen share.
 
-### Step 3: Infrastructure Documentation
+Step 3: Infrastructure Documentation
 
 Document cloud infrastructure using deployment diagrams:
 
@@ -124,9 +124,9 @@ graph TB
     EC2 --> RDS
 ```
 
-Infrastructure diagrams in code enable Infrastructure as Code practices. When your Terraform changes, update the diagram to match—keeping documentation synchronized with reality.
+Infrastructure diagrams in code enable Infrastructure as Code practices. When your Terraform changes, update the diagram to match, keeping documentation synchronized with reality.
 
-### Step 4: C4 Model for Architecture Context
+Step 4: C4 Model for Architecture Context
 
 The C4 model provides a standardized approach to architecture documentation. Structurizr supports C4 through DSL:
 
@@ -162,21 +162,21 @@ workspace {
 
 Remote teams benefit from C4's standardized levels. New team members start with the context diagram, then drill into containers and components as needed.
 
-### Step 5: Git Workflow for Diagram Collaboration
+Step 5: Git Workflow for Diagram Collaboration
 
 Treat diagram files like source code in your workflow:
 
 1. Create a branch for diagram updates
 2. Write or modify diagram code in a feature branch
 3. Submit pull request with diagram changes
-4. Review changes like code—check accuracy and style
+4. Review changes like code, check accuracy and style
 5. Merge after approval
 
 This workflow ensures architecture changes receive proper scrutiny. Teams often require diagram updates alongside code changes for new features.
 
 A practical way to enforce this is adding a PR template checklist item: "Architecture diagram updated if this PR changes service boundaries or data flows." That single line prevents documentation drift across a distributed team.
 
-### Step 6: Embedding Diagrams in Documentation
+Step 6: Embedding Diagrams in Documentation
 
 Jekyll sites support Mermaid through plugins or CDN includes. Add this to your layout:
 
@@ -191,23 +191,23 @@ Your Markdown files then render diagrams automatically. This approach works with
 
 For internal documentation wikis, Confluence has a Mermaid plugin. Notion renders Mermaid in code blocks natively. GitLab renders Mermaid inline. This broad platform support means your diagrams travel with your documentation regardless of where your team prefers to work.
 
-## Best Practices for Remote Teams
+Best Practices for Remote Teams
 
 Maintain diagram quality across distributed teams by following these practices:
 
-**Keep diagrams small.** Large diagrams become unreadable. Break complex systems into multiple smaller diagrams showing specific aspects.
+Keep diagrams small. Large diagrams become unreadable. Break complex systems into multiple smaller diagrams showing specific aspects.
 
-**Use consistent styling.** Establish naming conventions, color schemes, and layout patterns. Consistent diagrams are easier to understand quickly.
+Use consistent styling. Establish naming conventions, color schemes, and layout patterns. Consistent diagrams are easier to understand quickly.
 
-**Version diagrams with code.** When services change, update diagrams in the same PR. This prevents documentation drift.
+Version diagrams with code. When services change, update diagrams in the same PR. This prevents documentation drift.
 
-**Write diagram descriptions.** Add context explaining what the diagram shows and any assumptions. Future readers—including future you—will appreciate the clarity.
+Write diagram descriptions. Add context explaining what the diagram shows and any assumptions. Future readers, including future you, will appreciate the clarity.
 
-**Review diagrams in PRs.** Treat diagram changes as code reviews. Check for accuracy, clarity, and consistency with existing documentation.
+Review diagrams in PRs. Treat diagram changes as code reviews. Check for accuracy, clarity, and consistency with existing documentation.
 
-**Assign diagram ownership.** For each major system area, designate a team member responsible for keeping diagrams current. Ownership prevents the tragedy of the commons where everyone assumes someone else will update the docs.
+Assign diagram ownership. For each major system area, designate a team member responsible for keeping diagrams current. Ownership prevents the tragedy of the commons where everyone assumes someone else will update the docs.
 
-### Step 7: Automate Diagram Generation
+Step 7: Automate Diagram Generation
 
 For dynamic architectures, generate diagrams from code:
 
@@ -225,12 +225,12 @@ Automated generation keeps documentation synchronized with deployed services. Ru
 
 You can extend this approach to generate diagrams from your infrastructure-as-code definitions. Parse Terraform output or Kubernetes manifests to produce topology diagrams automatically. When the infrastructure changes, the diagram updates on the next CI run without any manual intervention.
 
-### Step 8: Configure CI/CD Integration for Diagram Validation
+Step 8: Configure CI/CD Integration for Diagram Validation
 
 Add a CI step to validate diagram syntax before merging:
 
 ```yaml
-# .github/workflows/validate-diagrams.yml
+.github/workflows/validate-diagrams.yml
 name: Validate Diagrams
 on: [pull_request]
 
@@ -248,57 +248,57 @@ jobs:
  done
 ```
 
-This CI step catches syntax errors before they reach main. For remote teams where async review is the norm, automated validation reduces round-trip time on pull requests—reviewers don't need to manually check that diagram syntax is valid.
+This CI step catches syntax errors before they reach main. For remote teams where async review is the norm, automated validation reduces round-trip time on pull requests, reviewers don't need to manually check that diagram syntax is valid.
 
-### Step 9: Onboarding New Team Members with Diagrams
+Step 9: Onboarding New Team Members with Diagrams
 
 Architecture documentation built on diagrams as code becomes a self-service onboarding resource. New engineers can clone the repository and immediately see system topology without scheduling calls. A well-structured `docs/architecture/` directory with a README explaining the C4 levels gives any new hire a path from high-level context to component detail.
 
 Create an architecture tour document that links diagrams in sequence: start with the system context, move to containers, then highlight the two or three sequence diagrams that describe the most critical user flows. New team members across time zones can complete this tour independently in their first week.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to create remote team architecture documentation?**
+How long does it take to create remote team architecture documentation?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Will this work with my existing CI/CD pipeline?**
+Will this work with my existing CI/CD pipeline?
 
 The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ. You may need to adapt file paths, environment variable names, and trigger conditions to match your pipeline tool. The underlying workflow logic stays the same.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Best Tools for Remote Team Architecture Reviews 2026](/best-tools-for-remote-team-architecture-reviews-2026/)
 - [How to Create Onboarding Documentation for Remote Teams](/how-to-create-onboarding-documentation-remote-teams/)
 - [Remote Team Information Architecture Overhaul Guide When](/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
 - [Remote Team Documentation Culture Guide (2026)](/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 - [How to Create Remote Team Architecture Decision Record](/how-to-create-remote-team-architecture-decision-record-templ/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

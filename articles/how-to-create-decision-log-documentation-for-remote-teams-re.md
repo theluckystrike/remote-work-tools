@@ -20,76 +20,76 @@ Remote teams face a unique challenge: knowledge that would naturally transfer in
 
 This guide covers practical approaches to building decision log documentation that works for distributed teams. You'll find templates, tooling recommendations, and workflows designed for async collaboration.
 
-## What Belongs in a Decision Log
+What Belongs in a Decision Log
 
 A decision log captures the reasoning behind choices, not just the outcomes. Unlike ADRs (Architecture Decision Records) which focus on technical architecture, decision logs cover a broader range: process changes, tool selections, team structure modifications, and policy updates.
 
 Each entry should answer four questions:
 
-1. **What did we decide?** The specific choice or change
-2. **Why did we make this choice?** The context and problem being solved
-3. **What alternatives did we consider?** Options that were evaluated and why they were rejected
-4. **What are the consequences?** Expected impacts, tradeoffs, and future considerations
+1. What did we decide? The specific choice or change
+2. Why did we make this choice? The context and problem being solved
+3. What alternatives did we consider? Options that were evaluated and why they were rejected
+4. What are the consequences? Expected impacts, tradeoffs, and future considerations
 
 The goal is future readability. When someone encounters this decision in six months, they should understand the full context without needing to reconstruct it from scattered conversations.
 
-## A Practical Decision Log Template
+A Practical Decision Log Template
 
 Structure your decision logs consistently so they're searchable and skimmable. Here's a markdown template that works well for remote teams:
 
 ```markdown
-# Decision Log: [Short Descriptive Title]
+Decision Log: [Short Descriptive Title]
 
-**Date:** YYYY-MM-DD
-**Author:** Name
-**Status:** [Proposed | Accepted | Rejected | Superseded]
-**Related:** [Links to related decisions, issues, or PRs]
+Date: YYYY-MM-DD
+Author: Name
+Status: [Proposed | Accepted | Rejected | Superseded]
+Related: [Links to related decisions, issues, or PRs]
 
-## Problem Statement
+Problem Statement
 
 What issue or question prompted this decision? Include any relevant context
 about the team, project, or constraints that existed at the time.
 
-## Options Considered
+Options Considered
 
-### Option A: [Name]
-- **Pros:** [Benefit 1], [Benefit 2]
-- **Cons:** [Downside 1], [Downside 2]
-- **Estimate:** [Effort/cost if relevant]
+Option A: [Name]
+- [Benefit 1], [Benefit 2]
+- [Downside 1], [Downside 2]
+- Estimate: [Effort/cost if relevant]
 
-### Option B: [Name]
-- **Pros:** [Benefit 1], [Benefit 2]
-- **Cons:** [Downside 1], [Downside 2]
-- **Estimate:** [Effort/cost if relevant]
+Option B: [Name]
+- [Benefit 1], [Benefit 2]
+- [Downside 1], [Downside 2]
+- Estimate: [Effort/cost if relevant]
 
-## Decision
+Decision
 
 What was decided and why? Be specific about the reasoning that led to this choice.
 
-## Consequences
+Consequences
 
-### Expected Benefits
+Expected Benefits
 - [Positive outcome 1]
 - [Positive outcome 2]
 
-### Potential Risks
+Potential Risks
 - [Risk 1] → Mitigation: [How we'll handle this]
 
-### Timeline
+Timeline
 - When this takes effect
 - When it will be revisited
 
-## Feedback Period
+Feedback Period
 
-**Open from:** YYYY-MM-DD
-**Close on:** YYYY-MM-DD
-**How to comment:** [Async feedback mechanism]
+Open from: YYYY-MM-DD
+Close on: YYYY-MM-DD
+How to comment: [Async feedback mechanism]
 ---
 
 *This decision was made by [Team Name] through async review.*
 ```
 
-## Table of Contents
+Table of Contents
 
 - [Storing Decision Logs in Your Repository](#storing-decision-logs-in-your-repository)
 - [Contributing](#contributing)
@@ -107,7 +107,7 @@ What was decided and why? Be specific about the reasoning that led to this choic
 
 The feedback period section is critical for remote teams. It explicitly states when comments are welcome and how to provide them, reducing confusion about whether a decision is still open for discussion.
 
-## Storing Decision Logs in Your Repository
+Storing Decision Logs in Your Repository
 
 For engineering teams, storing decision logs alongside code provides several advantages: they're version-controlled, searchable via GitHub's interface, and naturally discovered during code review.
 
@@ -121,7 +121,7 @@ touch docs/decisions/README.md
 The README should list all decisions for easy browsing:
 
 ```markdown
-# Decision Log Index
+Decision Log Index
 
 | ID | Title | Status | Date |
 |----|-------|--------|------|
@@ -129,7 +129,7 @@ The README should list all decisions for easy browsing:
 | 002 | Adopt trunk-based development | Accepted | 2026-02-01 |
 | 003 | Implement feature flags for rollouts | Proposed | 2026-03-10 |
 
-## Contributing
+Contributing
 
 To add a new decision:
 1. Copy the template from `template.md`
@@ -137,7 +137,7 @@ To add a new decision:
 3. Submit as a PR with `[decision]` prefix
 ```
 
-## Using GitHub Issues for Async Discussion
+Using GitHub Issues for Async Discussion
 
 Pull requests work well for landing decisions, but GitHub Issues provide a better workflow for the async discussion phase. Here's a practical workflow:
 
@@ -149,7 +149,7 @@ Pull requests work well for landing decisions, but GitHub Issues provide a bette
 Use issue labels to track status:
 
 ```bash
-# Label suggestions
+Label suggestions
 decision-proposed # Open for discussion
 decision-accepted # Finalized
 decision-rejected # Not adopted
@@ -158,57 +158,51 @@ decision-superseded # Replaced by another decision
 
 Link issues to PRs and code references so decisions connect to their implementation. This creates a traceable path from problem to solution.
 
-## Automating Decision Log Creation
+Automating Decision Log Creation
 
 Reduce friction by providing templates and automation. Create a CLI script that scaffolds new decisions:
 
 ```bash
 #!/bin/bash
-# Usage: ./new-decision.sh "Decision Title"
+Usage: ./new-decision.sh "Decision Title"
 
 TITLE="$1"
 SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
 DATE=$(date +%Y-%m-%d)
 
 cat > "docs/decisions/$(date +%Y%m%d)-${SLUG}.md" << EOF
-# Decision Log: ${TITLE}
+Decision Log: ${TITLE}
 
-**Date:** ${DATE}
-**Author:**
-**Status:** Proposed
-**Related:**
+Date: ${DATE}
+Author:
+Status: Proposed
+Related:
 
-## Problem Statement
+Problem Statement
 
 [Describe the issue or question]
 
-## Options Considered
+Options Considered
 
-### Option A: [Name]
-- **Pros:**
-- **Cons:**
-
-### Option B: [Name]
-- **Pros:**
-- **Cons:**
-
-## Decision
+Option A: [Name]
+- - Option B: [Name]
+- - Decision
 
 [What was decided]
 
-## Consequences
+Consequences
 
-### Expected Benefits
+Expected Benefits
 -
 
-### Potential Risks
+Potential Risks
 -
 
-## Feedback Period
+Feedback Period
 
-**Open from:** ${DATE}
-**Close on:**
-**How to comment:**
+Open from: ${DATE}
+Close on:
+How to comment:
 
 ---
 
@@ -220,13 +214,13 @@ echo "Created decision: docs/decisions/$(date +%Y%m%d)-${SLUG}.md"
 
 Run it with `./new-decision.sh "Adopt Vue.js for frontend"` to generate a properly formatted decision ready for editing.
 
-## Cross-Referencing Decisions
+Cross-Referencing Decisions
 
 Decision logs gain value when connected. Link related decisions, superseded entries, and implementation details:
 
 ```markdown
 
-## Establishing Team Conventions
+Establishing Team Conventions
 
 Decision logs only work if the team actually uses them. Establish clear conventions:
 
@@ -238,7 +232,7 @@ Decision logs only work if the team actually uses them. Establish clear conventi
 
 Include decision log links in PR descriptions when relevant. When someone proposes a change, link to the relevant decision so reviewers understand the context.
 
-## Alternatives Worth Considering
+Alternatives Worth Considering
 
 Not every team needs the same approach. Consider these alternatives based on your workflow:
 
@@ -251,7 +245,7 @@ Not every team needs the same approach. Consider these alternatives based on you
 
 The best system is one your team actually uses. Start simple with markdown files and evolve based on your needs.
 
-## Making Decisions Discoverable
+Making Decisions Discoverable
 
 A decision log only helps if people can find it. Add your decision log to:
 
@@ -264,29 +258,29 @@ Include a search-friendly summary in each decision so GitHub's search functional
 
 ---
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to create decision log documentation for remote teams?**
+How long does it take to create decision log documentation for remote teams?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Create Remote Team Architecture Decision Record](/how-to-create-remote-team-architecture-decision-record-templ/)
 - [Remote Team Architecture Decision Record Template for Async](/remote-team-architecture-decision-record-template-for-async-/)
@@ -295,5 +289,5 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Create Remote Team Decision Making Framework for Dist](/how-to-create-remote-team-decision-making-framework-for-dist/)
 ```
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

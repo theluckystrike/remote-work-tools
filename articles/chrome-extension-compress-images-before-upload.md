@@ -16,15 +16,15 @@ intent-checked: true
 
 {% raw %}
 
-Build a Chrome extension using the Canvas API to compress images before upload, reducing file sizes by 70-90% and dramatically speeding up upload times across all websites. Large image files create slow uploads, consume unnecessary bandwidth, and hit file size limits—a local browser solution avoids external services while keeping data private. This guide walks you through creating an extension that intercepts file inputs, compresses using Canvas, and replaces the original file with an optimized version that works across any website.
+Build a Chrome extension using the Canvas API to compress images before upload, reducing file sizes by 70-90% and dramatically speeding up upload times across all websites. Large image files create slow uploads, consume unnecessary bandwidth, and hit file size limits, a local browser solution avoids external services while keeping data private. This guide walks you through creating an extension that intercepts file inputs, compresses using Canvas, and replaces the original file with an optimized version that works across any website.
 
-## Why Client-Side Compression Matters
+Why Client-Side Compression Matters
 
-Uploading unoptimized images affects both performance and user experience. Large images take longer to upload, especially on slower connections. Many platforms impose strict file size limits—WordPress defaults to 2MB, email services often cap attachments at 25MB, and API endpoints may reject payloads exceeding certain thresholds.
+Uploading unoptimized images affects both performance and user experience. Large images take longer to upload, especially on slower connections. Many platforms impose strict file size limits, WordPress defaults to 2MB, email services often cap attachments at 25MB, and API endpoints may reject payloads exceeding certain thresholds.
 
 Client-side compression using the Canvas API offers several advantages. The compression happens locally on the user's device, meaning no server-side processing is required. This reduces bandwidth usage and upload times significantly. The entire process happens in the browser, keeping data private and eliminating the need for external compression services.
 
-## Setting Up Your Extension Structure
+Setting Up Your Extension Structure
 
 Every Chrome extension requires a manifest file and a background service worker. For this image compression extension, you'll need:
 
@@ -40,7 +40,7 @@ Every Chrome extension requires a manifest file and a background service worker.
 
 The manifest defines permissions and registers the extension's components. Your content script will handle detecting file input changes, while the background script manages communication between components.
 
-## Writing the Manifest
+Writing the Manifest
 
 Create a `manifest.json` file with the necessary permissions:
 
@@ -65,7 +65,7 @@ Create a `manifest.json` file with the necessary permissions:
 
 Manifest V3 requires service workers instead of background pages. The `host_permissions` field grants access to all URLs, which is necessary for the extension to work across different websites.
 
-## Implementing the Compression Logic
+Implementing the Compression Logic
 
 The core compression happens in your content script. This script detects file input elements and monitors them for changes:
 
@@ -182,7 +182,7 @@ new ImageCompressor();
 
 This content script automatically attaches to file input elements that accept images. When a user selects files, it compresses each image using the Canvas API and replaces the original file with the compressed version.
 
-## Adding User Controls
+Adding User Controls
 
 Users should be able to adjust compression settings. Create a simple popup interface:
 
@@ -282,7 +282,7 @@ async loadSettings() {
 }
 ```
 
-## Testing Your Extension
+Testing Your Extension
 
 Load your extension in Chrome by following these steps:
 
@@ -294,7 +294,7 @@ Load your extension in Chrome by following these steps:
 
 The extension will automatically compress images when you select them through file input elements. You can adjust the quality settings using the extension popup.
 
-## Limitations and Considerations
+Limitations and Considerations
 
 This approach works well for most use cases but has some constraints. The Canvas API outputs JPEG format, so PNG images with transparency will lose their alpha channel. If transparency is essential, consider using WebP output or preserving the original format for PNG files.
 
@@ -302,34 +302,34 @@ Very large images might cause memory issues on lower-end devices. The extension 
 
 Some web applications use custom file upload components that don't use standard `<input type="file">` elements. In these cases, you'll need to extend the content script to handle their specific upload mechanisms.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get started quickly?**
+How do I get started quickly?
 
 Pick one tool from the options discussed and sign up for a free trial. Spend 30 minutes on a real task from your daily work rather than running through tutorials. Real usage reveals fit faster than feature comparisons.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Upload large file with chunked upload](/best-file-sharing-solution-for-remote-agency-large-design-fi/)
 - [Google Scholar Chrome Extension Development Guide](/google-scholar-chrome-extension/)
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/chrome-extension-linear-issue-tracker/)
 - [Chrome Extension OneNote Clipper Setup: Complete Guide](/chrome-extension-onenote-clipper-setup/)
 - [Best Browser Extensions for Developer Productivity](/best-browser-extensions-for-developer-productivity/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

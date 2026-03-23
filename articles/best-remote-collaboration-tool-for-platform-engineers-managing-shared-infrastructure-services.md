@@ -18,7 +18,7 @@ voice-checked: true
 
 Platform engineers managing shared infrastructure from a remote or distributed team need collaboration tools that handle both the async communication side and the technical coordination of shared services. The best setup combines an internal developer portal (IDP) for service discovery, structured incident response workflows, and documented runbooks that work across time zones. This guide covers practical tooling and patterns for each layer.
 
-## Table of Contents
+Table of Contents
 
 - [Internal Developer Portals for Service Discovery](#internal-developer-portals-for-service-discovery)
 - [Incident Response Coordination](#incident-response-coordination)
@@ -26,11 +26,11 @@ Platform engineers managing shared infrastructure from a remote or distributed t
 - [Cross-Team Communication Channels](#cross-team-communication-channels)
 - [Documentation That Works Remotely](#documentation-that-works-remotely)
 - [Change Management for Shared Services](#change-management-for-shared-services)
-- [Infra Change Calendar — Week of 2026-03-17](#infra-change-calendar-week-of-2026-03-17)
+- [Infra Change Calendar. Week of 2026-03-17](#infra-change-calendar-week-of-2026-03-17)
 - [Async Runbook Reviews](#async-runbook-reviews)
 - [Choosing the Right Tool Stack](#choosing-the-right-tool-stack)
 
-## Internal Developer Portals for Service Discovery
+Internal Developer Portals for Service Discovery
 
 When engineers across multiple time zones need to find who owns the Postgres cluster or how to use the internal API gateway, an internal developer portal eliminates the need to ping people directly.
 
@@ -52,15 +52,15 @@ spec:
 
 Backstage's documentation feature lets you maintain runbooks, architecture diagrams, and operational procedures in a searchable format. When an on-call engineer in a different time zone needs to troubleshoot the API gateway, they find the documentation directly rather than pinging the platform team.
 
-Two strong alternatives to Backstage are worth knowing: **Port** offers a no-code portal builder with Kubernetes and cloud integrations out of the box, making it faster to set up for smaller teams. **Cortex** focuses on service health scorecards and ownership visibility, which is useful when your platform team needs to hold application teams accountable to infrastructure standards. Backstage wins on extensibility and community plugins; Port wins on time-to-value; Cortex wins on service quality tracking.
+Two strong alternatives to Backstage are worth knowing: Port offers a no-code portal builder with Kubernetes and cloud integrations out of the box, making it faster to set up for smaller teams. Cortex focuses on service health scorecards and ownership visibility, which is useful when your platform team needs to hold application teams accountable to infrastructure standards. Backstage wins on extensibility and community plugins; Port wins on time-to-value; Cortex wins on service quality tracking.
 
-## Incident Response Coordination
+Incident Response Coordination
 
 When infrastructure incidents occur in remote teams, coordination becomes critical. Use a structured approach that separates detection, response, and communication:
 
 ```bash
 #!/bin/bash
-# incident-response.sh - Simple incident escalation script
+incident-response.sh - Simple incident escalation script
 
 SEVERITY=$1
 DESCRIPTION=$2
@@ -70,13 +70,13 @@ echo "Creating incident: $INCIDENT_ID"
 echo "Severity: $SEVERITY"
 echo "Description: $DESCRIPTION"
 
-# Create incident channel/thread
+Create incident channel/thread
 aws sns publish \
   --topic-arn "arn:aws:sns:us-east-1:123456789012:incidents" \
   --message "INCIDENT $INCIDENT_ID [$SEVERITY]: $DESCRIPTION" \
   --subject "New Incident: $INCIDENT_ID"
 
-# Update status page
+Update status page
 curl -X POST "https://status.example.com/api/incidents" \
   -H "Authorization: Bearer $STATUS_API_KEY" \
   -d "{\"title\":\"$DESCRIPTION\",\"severity\":\"$SEVERITY\",\"incident_id\":\"$INCIDENT_ID\"}"
@@ -85,28 +85,28 @@ curl -X POST "https://status.example.com/api/incidents" \
 For incident communication, establish a convention that everyone follows:
 
 ```markdown
-## Incident Update Template
+Incident Update Template
 
-**Incident ID:** INC-2026-0315-001
-**Current Status:** Investigating / Identified / Monitoring / Resolved
-**Severity:** SEV1 / SEV2 / SEV3
+Incident ID: INC-2026-0315-001
+Current Status: Investigating / Identified / Monitoring / Resolved
+Severity: SEV1 / SEV2 / SEV3
 
-### What Happened
+What Happened
 [Brief description of the issue]
 
-### Current Impact
+Current Impact
 [Which services/teams are affected]
 
-### Next Steps
+Next Steps
 [What we are doing now]
 
-### ETA for Resolution
+ETA for Resolution
 [Estimated time or "unknown"]
 ```
 
-For dedicated incident management tooling, **PagerDuty** and **Incident.io** are the two most used platforms. PagerDuty excels at on-call scheduling with complex rotation rules and deep alerting integrations. Incident.io focuses on the communication and coordination layer — it creates Slack channels automatically, tracks timeline updates, and generates post-mortem templates. For small platform teams (3-6 engineers), Incident.io's structured workflow reduces coordination overhead significantly. PagerDuty makes more sense when you have multiple on-call rotations and need granular escalation policies.
+For dedicated incident management tooling, PagerDuty and Incident.io are the two most used platforms. PagerDuty excels at on-call scheduling with complex rotation rules and deep alerting integrations. Incident.io focuses on the communication and coordination layer. it creates Slack channels automatically, tracks timeline updates, and generates post-mortem templates. For small platform teams (3-6 engineers), Incident.io's structured workflow reduces coordination overhead significantly. PagerDuty makes more sense when you have multiple on-call rotations and need granular escalation policies.
 
-## Cross-Team Communication Channels
+Cross-Team Communication Channels
 
 Platform teams need dedicated channels for different types of communication. Structure your communication tools to match the urgency and audience:
 
@@ -138,9 +138,9 @@ Use Slack's workflow builder to create self-service request forms:
 }
 ```
 
-For teams that find Slack too noisy, **Linear** announcements and **Notion** databases work well for lower-urgency coordination. Linear's update feature lets you push infrastructure change notices to subscribers without requiring everyone to monitor a channel. A Notion change log with status columns gives downstream teams a single source of truth they can check on their own schedule.
+For teams that find Slack too noisy, Linear announcements and Notion databases work well for lower-urgency coordination. Linear's update feature lets you push infrastructure change notices to subscribers without requiring everyone to monitor a channel. A Notion change log with status columns gives downstream teams a single source of truth they can check on their own schedule.
 
-## Documentation That Works Remotely
+Documentation That Works Remotely
 
 Effective remote collaboration requires documentation that answers questions before they get asked. Maintain these key documents for every shared service:
 
@@ -168,27 +168,27 @@ graph TD
     style H fill:#ff9,stroke:#333
 ```
 
-For documentation hosting, **Confluence** remains common in enterprise environments, but many platform teams are moving toward **Notion** or docs-as-code approaches with **MkDocs** deployed alongside their services. Docs-as-code wins when your team already lives in GitHub — engineers update runbooks in the same PR that changes the infrastructure, keeping documentation in sync.
+For documentation hosting, Confluence remains common in enterprise environments, but many platform teams are moving toward Notion or docs-as-code approaches with MkDocs deployed alongside their services. Docs-as-code wins when your team already lives in GitHub. engineers update runbooks in the same PR that changes the infrastructure, keeping documentation in sync.
 
-## Change Management for Shared Services
+Change Management for Shared Services
 
 Shared infrastructure changes carry higher risk than single-team deployments because they affect downstream teams who may not know a change is coming. Remote platform teams need a lightweight change management process that does not create bureaucratic overhead.
 
 Use a weekly change calendar shared in a dedicated channel:
 
 ```markdown
-## Infra Change Calendar — Week of 2026-03-17
+Infra Change Calendar. Week of 2026-03-17
 
-### Monday
+Monday
 - 14:00 UTC: Postgres connection pool size increase (platform-team)
 
-### Wednesday
+Wednesday
 - 10:00 UTC: Redis cluster node replacement (platform-team)
 
-### Thursday
+Thursday
 - Maintenance window: API gateway config update (platform-team)
 
-### Friday
+Friday
 - No changes scheduled (pre-weekend freeze)
 ```
 
@@ -196,14 +196,14 @@ Announce changes 24 hours in advance for non-emergency changes. For same-day cha
 
 Tag your change announcements with affected services. Engineers subscribe to updates for services they depend on and ignore the rest, keeping the signal-to-noise ratio high.
 
-For teams that want structured change management without heavyweight ITSM tooling, **LinearB** and **Cortex** both offer lightweight change tracking integrated with GitHub and deployment pipelines. These tools automatically capture what changed, who approved it, and what the deployment outcome was — reducing the manual overhead of maintaining a change log.
+For teams that want structured change management without heavyweight ITSM tooling, LinearB and Cortex both offer lightweight change tracking integrated with GitHub and deployment pipelines. These tools automatically capture what changed, who approved it, and what the deployment outcome was. reducing the manual overhead of maintaining a change log.
 
-## Async Runbook Reviews
+Async Runbook Reviews
 
 Runbooks go stale faster than code. A platform team of 3 engineers cannot manually review 50 runbooks quarterly. Automate staleness detection:
 
 ```yaml
-# .github/workflows/runbook-freshness.yml
+.github/workflows/runbook-freshness.yml
 name: Runbook Freshness Check
 
 on:
@@ -234,29 +234,29 @@ jobs:
 
 This surfaces stale runbooks automatically without manual tracking. Owners get direct notifications rather than having the platform team act as intermediary.
 
-## Choosing the Right Tool Stack
+Choosing the Right Tool Stack
 
 For most distributed platform teams, the highest-use combination is: Backstage (or Port) for service catalog, Incident.io for incident coordination, Slack with structured channels for async communication, and docs-as-code with MkDocs for runbooks. Add PagerDuty when your on-call rotation complexity demands it.
 
-Start with the service catalog first. When engineers can answer "who owns this?" and "how do I use this?" without pinging anyone, the quality of all downstream coordination improves — fewer interruptions, cleaner incidents, and faster onboarding when someone new joins the team.
+Start with the service catalog first. When engineers can answer "who owns this?" and "how do I use this?" without pinging anyone, the quality of all downstream coordination improves. fewer interruptions, cleaner incidents, and faster onboarding when someone new joins the team.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**What is the minimum viable toolset for a small platform team going remote?**
+What is the minimum viable toolset for a small platform team going remote?
 A service catalog (even a simple wiki page), a structured incident communication template shared in Slack, and documented runbooks in GitHub are enough to start. Add dedicated tooling as the team grows past 5-6 engineers.
 
-**How do you handle on-call handoff across time zones?**
+How do you handle on-call handoff across time zones?
 Use a written handoff template posted in your incidents channel at the start of each shift. Include active alerts, any ongoing investigations, and context on what was attempted. Incident.io has built-in handoff workflows; otherwise a Slack form or linear comment thread works.
 
-**Should platform documentation live in Confluence or GitHub?**
+Should platform documentation live in Confluence or GitHub?
 Prefer GitHub when your team already reviews infrastructure changes there. Co-locating runbooks with infrastructure code means documentation updates are reviewable in PRs and stay in sync with actual system state.
 
-## Related Articles
+Related Articles
 
 - [Best Practices for Remote Incident Communication](/best-practices-for-remote-incident-communication/)
 - [Remote Team Security Incident Response Plan Template](/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
 - [How to Scale Remote Team Incident Response Process](/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
 - [How to Set Up Remote Team Incident Response Process 2026](/how-to-set-up-remote-team-incident-response-process-2026/)
 - [Best Tools for Remote Team Incident Postmortems in 2026](/best-tools-for-remote-team-incident-postmortems-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

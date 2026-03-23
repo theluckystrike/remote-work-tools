@@ -16,9 +16,9 @@ voice-checked: true
 
 {% raw %}
 
-Optimize your internet speed for remote work by making two changes that cost nothing and take minutes: **switch to a wired Ethernet connection** for video calls and deployments, and **configure a faster DNS** (Cloudflare 1.1.1.1 or Google 8.8.8.8) to cut latency on every request. For remote development, latency matters more than raw throughput--a 50 Mbps connection with 15ms ping outperforms 150 Mbps with 80ms ping for SSH sessions, real-time collaboration, and git operations. This guide walks through baseline measurement, bottleneck diagnosis, Wi-Fi interference fixes, QoS configuration, VPN optimization with WireGuard, and OS-level TCP tuning.
+Optimize your internet speed for remote work by making two changes that cost nothing and take minutes: switch to a wired Ethernet connection for video calls and deployments, and configure a faster DNS (Cloudflare 1.1.1.1 or Google 8.8.8.8) to cut latency on every request. For remote development, latency matters more than raw throughput--a 50 Mbps connection with 15ms ping outperforms 150 Mbps with 80ms ping for SSH sessions, real-time collaboration, and git operations. This guide walks through baseline measurement, bottleneck diagnosis, Wi-Fi interference fixes, QoS configuration, VPN optimization with WireGuard, and OS-level TCP tuning.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -28,19 +28,19 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Measuring Your Current Performance
+Step 1: Measuring Your Current Performance
 
 Before optimizing, establish a baseline. Run multiple speed tests at different times of day to understand your typical performance.
 
-### Basic Speed Testing
+Basic Speed Testing
 
 Use Speedtest by Ookla or Fast.com for quick measurements. For more detailed analysis, use M-Lab's NDT test:
 
 ```bash
-# Install speedtest-cli if you prefer command-line testing
+Install speedtest-cli if you prefer command-line testing
 pip install speedtest-cli
 
-# Run a speed test
+Run a speed test
 speedtest-cli --simple
 ```
 
@@ -51,66 +51,66 @@ Look for three key metrics:
 
 For remote development work, latency matters more than raw throughput. A connection with 150 Mbps download but 80ms ping feels worse for coding than 50 Mbps with 15ms ping.
 
-### Step 2: Diagnosing Network Bottlenecks
+Step 2: Diagnosing Network Bottlenecks
 
 If your speeds are inconsistent or slower than expected, identify the bottleneck.
 
-### Checking Your Local Network
+Checking Your Local Network
 
 ```bash
-# View network interface statistics (macOS)
+View network interface statistics (macOS)
 netstat -i
 
-# Check current throughput (Linux)
+Check current throughput (Linux)
 watch -n1 'cat /proc/net/dev'
 
-# Test gateway latency
+Test gateway latency
 ping -c 10 $(route -n | grep UG | awk '{print $2}')
 ```
 
 Your router is often the weakest link. Older routers struggle with multiple devices and modern encryption. Check your router's firmware and consider upgrading if it's more than five years old.
 
-### Identifying Wi-Fi Interference
+Identifying Wi-Fi Interference
 
 Wi-Fi congestion affects urban areas particularly hard. Use these tools to find less crowded channels:
 
 ```bash
-# Scan Wi-Fi networks (Linux with iw)
+Scan Wi-Fi networks (Linux with iw)
 sudo iw wlan0 scan | grep -E "SSID:|signal:|channel:"
 
-# macOS: use wireless diagnostics
-# Hold Option and click the Wi-Fi icon, then select "Open Wireless Diagnostics"
+macOS: use wireless diagnostics
+Hold Option and click the Wi-Fi icon, then select "Open Wireless Diagnostics"
 ```
 
 Move your router away from microwave ovens, cordless phones, and neighboring networks on the same channel. The 5 GHz band typically offers less interference than 2.4 GHz.
 
-### Step 3: Optimizing Your Connection
+Step 3: Optimizing Your Connection
 
 Once you identify issues, apply targeted fixes.
 
-### Wired Connections for Critical Work
+Wired Connections for Critical Work
 
 Ethernet consistently outperforms Wi-Fi. For important calls or deployments, connect directly:
 
 ```bash
-# Verify your connection is wired (Linux)
+Verify your connection is wired (Linux)
 ip link show | grep -q "eth0" && echo "Wired connection active"
 ```
 
 A gigabit Ethernet adapter costs under $20 and eliminates Wi-Fi variables entirely. This is the single biggest improvement most remote workers can make.
 
-### DNS Configuration
+DNS Configuration
 
 Slow DNS resolution adds latency to every request. Consider faster DNS servers:
 
 ```bash
-# Test DNS performance (replace with your current DNS)
+Test DNS performance (replace with your current DNS)
 dig google.com | grep "Query time"
 
-# Common fast DNS servers
-# Cloudflare: 1.1.1.1
-# Google: 8.8.8.8
-# Quad9: 9.9.9.9
+Common fast DNS servers
+Cloudflare: 1.1.1.1
+Google: 8.8.8.8
+Quad9: 9.9.9.9
 ```
 
 On macOS, configure DNS in System Preferences → Network → Advanced → DNS. On Linux, edit `/etc/resolv.conf`:
@@ -120,7 +120,7 @@ nameserver 1.1.1.1
 nameserver 8.8.8.8
 ```
 
-### Quality of Service (QoS) Settings
+Quality of Service (QoS) Settings
 
 If multiple people share your network, configure QoS on your router to prioritize work traffic. Most consumer routers support this through their web interface. Prioritize:
 1. Video conferencing (Zoom, Teams, Meet)
@@ -128,40 +128,40 @@ If multiple people share your network, configure QoS on your router to prioritiz
 3. Web browsing and documentation
 4. Background downloads and updates
 
-### VPN Optimization
+VPN Optimization
 
 VPNs add overhead and often route traffic through distant servers. Optimize your setup:
 
 ```bash
-# Test VPN server proximity
+Test VPN server proximity
 ping -c 5 vpn-server-address
 
-# Use WireGuard instead of OpenVPN for better performance
-# WireGuard configuration example:
-# [Interface]
-# PrivateKey = <your-private-key>
-# Address = 10.0.0.2/24
-# DNS = 1.1.1.1
+Use WireGuard instead of OpenVPN for better performance
+WireGuard configuration example:
+[Interface]
+PrivateKey = <your-private-key>
+Address = 10.0.0.2/24
+DNS = 1.1.1.1
 
-# [Peer]
-# PublicKey = <server-public-key>
-# Endpoint = vpn.example.com:51820
-# AllowedIPs = 0.0.0.0/0
+[Peer]
+PublicKey = <server-public-key>
+Endpoint = vpn.example.com:51820
+AllowedIPs = 0.0.0.0/0
 ```
 
 WireGuard typically achieves 3-4x the throughput of OpenVPN with lower latency.
 
-### Step 4: Configure the Operating System Tweaks
+Step 4: Configure the Operating System Tweaks
 
-### TCP Window Scaling
+TCP Window Scaling
 
 For high-latency connections, TCP window scaling improves throughput:
 
 ```bash
-# Check current settings (Linux)
+Check current settings (Linux)
 sysctl net.ipv4.tcp_window_scaling
 
-# Enable if not already enabled
+Enable if not already enabled
 sudo sysctl -w net.ipv4.tcp_window_scaling=1
 ```
 
@@ -171,31 +171,31 @@ Make this permanent by adding to `/etc/sysctl.conf`:
 net.ipv4.tcp_window_scaling = 1
 ```
 
-### MTU Optimization
+MTU Optimization
 
 Incorrect MTU settings cause fragmentation and packet loss. Test optimal MTU:
 
 ```bash
-# Find the optimal MTU (don't exceed 1500 for most networks)
+Find the optimal MTU (don't exceed 1500 for most networks)
 ping -M do -s 1472 -c 4 google.com
 ```
 
 If packets fragment, reduce the MTU. Set it in your network configuration or router.
 
-### Step 5: Monitor and Automation
+Step 5: Monitor and Automation
 
 Build monitoring into your workflow to catch issues before they impact work.
 
-### Continuous Monitoring Script
+Continuous Monitoring Script
 
 ```bash
 #!/bin/bash
-# save as ~/bin/netmon
+save as ~/bin/netmon
 
 LOGFILE="$HOME/logs/network.log"
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
 
-# Run speed test and log results
+Run speed test and log results
 result=$(speedtest-cli --simple 2>/dev/null)
 down=$(echo "$result" | grep "Download" | awk '{print $2}')
 up=$(echo "$result" | grep "Upload" | awk '{print $2}')
@@ -207,11 +207,11 @@ echo "$DATE | Down: ${down} Mbps | Up: ${up} Mbps | Ping: ${ping} ms" >> $LOGFIL
 Add this to cron for regular monitoring:
 
 ```bash
-# Run every hour during work hours
+Run every hour during work hours
 0 9-17 * * 1-5 ~/bin/netmon
 ```
 
-## When to Upgrade Your Internet Plan
+When to Upgrade Your Internet Plan
 
 Sometimes hardware and software optimization hit their limits. Consider upgrading if:
 - Consistent speeds fall below your plan's advertised rate
@@ -220,49 +220,49 @@ Sometimes hardware and software optimization hit their limits. Consider upgradin
 
 Before upgrading, contact your ISP to test the actual line quality. Often, technicians can identify and fix external issues affecting your connection.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to optimize internet speed for remote work?**
+How long does it take to optimize internet speed for remote work?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Remote Work Internet Speed Requirements by Task Type](/remote-work-internet-speed-requirements-by-task-type-guide/)
 - [How to Test Internet Speed and Reliability Before Moving](/how-to-test-internet-speed-reliability-before-moving-to-bali/)
 - [Best Fiber Internet Providers in Lisbon for Remote](/best-fiber-internet-providers-in-lisbon-for-remote-developer/)
 - [How to Optimize macOS for Remote Development](/how-to-optimize-macos-for-remote-development/)
 - [Remote Work Internet Backup Solutions Comparison](/remote-work-internet-backup-solutions-comparison/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

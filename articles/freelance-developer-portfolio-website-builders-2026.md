@@ -16,33 +16,33 @@ voice-checked: true
 
 # Freelance Developer Portfolio Website Builders 2026
 
-Your portfolio is the first thing a potential client checks after receiving your cold email or referral. For developers, it also signals technical credibility — a portfolio built on a clunky drag-and-drop builder undercuts your pitch as a technical professional. Here's how the major options stack up in 2026.
+Your portfolio is the first thing a potential client checks after receiving your cold email or referral. For developers, it also signals technical credibility. a portfolio built on a clunky drag-and-drop builder undercuts your pitch as a technical professional. Here's how the major options stack up in 2026.
 
-## What Freelance Developer Portfolios Actually Need
+What Freelance Developer Portfolios Actually Need
 
 Before choosing a builder, clarify what you need versus what sounds nice:
 
-**Must-haves:**
+Must-haves:
 - Custom domain support
 - Fast load times (clients notice slow sites)
 - Code snippet or project showcase capability
 - Mobile-responsive layout
 - A contact form or clear call-to-action
 
-**Nice-to-haves:**
+Nice-to-haves:
 - Blog/writing section (builds long-term inbound)
 - Case study pages for project writeups
 - GitHub integration for live project stats
 - Analytics without third-party trackers
 
-**Developer-specific:**
+Developer-specific:
 - Ability to add custom code or components
 - Deploy from a Git repository
 - No-code-editor artifacts that embarrass you with clients
 
-## Platform Comparison
+Platform Comparison
 
-### GitHub Pages + Jekyll or Astro
+GitHub Pages + Jekyll or Astro
 
 The developer-default choice. Deploy for free from a GitHub repository, use a custom domain, and maintain complete control over the HTML output. The build step runs in GitHub Actions.
 
@@ -65,17 +65,17 @@ tags: [Python, FastAPI, PostgreSQL]
 impact: "Reduced p99 latency from 2.1s to 180ms"
 ---
 
-## The Problem
+The Problem
 
 The existing payments API processed each transaction synchronously
 against three downstream services. Under load, queued transactions
 caused cascading timeouts...
 ```
 
-**Cost:** Free (GitHub Pages hosting)
-**Limitations:** No server-side rendering without a separate deployment target; forms require a third-party service like Formspree.
+Cost: Free (GitHub Pages hosting)
+Limitations: No server-side rendering without a separate deployment target; forms require a third-party service like Formspree.
 
-### Framer
+Framer
 
 Framer has emerged as the top choice for developers who want a visually polished portfolio without spending weeks on CSS. It produces clean HTML/CSS output (no iframe embeds or div soup), supports custom code components, and handles animations that would take days to hand-code.
 
@@ -103,12 +103,12 @@ export function GitHubStatus({ username }) {
 }
 ```
 
-**Cost:** $15-$25/month for custom domain
-**Limitations:** Vendor lock-in; migrating away requires rebuilding from scratch
+Cost: $15-$25/month for custom domain
+Limitations: Vendor lock-in; migrating away requires rebuilding from scratch
 
-### Webflow
+Webflow
 
-Webflow sits between Framer (designer-focused) and GitHub Pages (developer-focused). It has more powerful CMS capabilities — useful if you want to maintain a blog or case study library without rebuilding the page each time.
+Webflow sits between Framer (designer-focused) and GitHub Pages (developer-focused). It has more powerful CMS capabilities. useful if you want to maintain a blog or case study library without rebuilding the page each time.
 
 Webflow's CMS API lets you programmatically add project case studies:
 
@@ -135,39 +135,39 @@ const response = await fetch(
 )
 ```
 
-**Cost:** $23-$39/month
-**Limitations:** Steeper learning curve than Framer; generated code is verbose
+Cost: $23-$39/month
+Limitations: Steeper learning curve than Framer; generated code is verbose
 
-### Next.js on Vercel
+Next.js on Vercel
 
-For developers who want the most control, Next.js deployed on Vercel is the gold standard. You get server-side rendering, API routes (for contact forms), image optimization, and edge caching — all with zero configuration on Vercel.
+For developers who want the most control, Next.js deployed on Vercel is the gold standard. You get server-side rendering, API routes (for contact forms), image optimization, and edge caching. all with zero configuration on Vercel.
 
 A minimal portfolio structure:
 
 ```
 portfolio/
-├── app/
-│   ├── page.tsx          # Home / hero
-│   ├── projects/
-│   │   ├── page.tsx      # Projects grid
-│   │   └── [slug]/
-│   │       └── page.tsx  # Case study detail
-│   └── contact/
-│       └── page.tsx      # Contact form
-├── content/
-│   └── projects/         # MDX case studies
-└── components/
-    └── ProjectCard.tsx
+ app/
+    page.tsx          # Home / hero
+    projects/
+       page.tsx      # Projects grid
+       [slug]/
+           page.tsx  # Case study detail
+    contact/
+        page.tsx      # Contact form
+ content/
+    projects/         # MDX case studies
+ components/
+     ProjectCard.tsx
 ```
 
-**Cost:** Free on Vercel hobby tier; $20/month for team features
-**Limitations:** Requires developer setup time; overkill for a simple showcase
+Cost: Free on Vercel hobby tier; $20/month for team features
+Limitations: Requires developer setup time; overkill for a simple showcase
 
-## Contact Forms Without a Backend
+Contact Forms Without a Backend
 
 All platforms except Next.js require a third-party service for contact forms. The easiest options:
 
-**Formspree** — drop-in form endpoint, free tier allows 50 submissions/month:
+Formspree. drop-in form endpoint, free tier allows 50 submissions/month:
 
 ```html
 <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
@@ -177,7 +177,7 @@ All platforms except Next.js require a third-party service for contact forms. Th
 </form>
 ```
 
-**Resend + Vercel Edge Function** — for Next.js portfolios:
+Resend + Vercel Edge Function. for Next.js portfolios:
 
 ```typescript
 // app/api/contact/route.ts
@@ -199,19 +199,19 @@ export async function POST(request: Request) {
 }
 ```
 
-## What Actually Gets You Clients
+What Actually Gets You Clients
 
 Platform choice matters less than these factors:
 
-**Specificity over breadth.** "Full-stack developer" gets ignored. "API performance engineer who has cut p99 latency by 60%+ on three different production systems" gets a response.
+Specificity over breadth. "Full-stack developer" gets ignored. "API performance engineer who has cut p99 latency by 60%+ on three different production systems" gets a response.
 
-**Case studies over project lists.** A list of GitHub repos tells a client nothing about your judgment. A 500-word writeup explaining the problem, your approach, and the business outcome tells them everything.
+Case studies over project lists. A list of GitHub repos tells a client nothing about your judgment. A 500-word writeup explaining the problem, your approach, and the business outcome tells them everything.
 
-**Load speed.** A portfolio that takes 4 seconds to load loses potential clients before they read a word. Test with Google PageSpeed Insights; aim for 90+ on mobile.
+Load speed. A portfolio that takes 4 seconds to load loses potential clients before they read a word. Test with Google PageSpeed Insights; aim for 90+ on mobile.
 
-**Clear next step.** Every page should make it obvious how to hire you — a contact form, a Calendly link, or a clear email address.
+Clear next step. Every page should make it obvious how to hire you. a contact form, a Calendly link, or a clear email address.
 
-## Platform Comparison Summary
+Platform Comparison Summary
 
 | Platform | Cost/mo | Dev Effort | Performance | CMS |
 |----------|---------|------------|-------------|-----|
@@ -220,7 +220,7 @@ Platform choice matters less than these factors:
 | Webflow | $23-39 | Medium | Good | Full CMS |
 | Next.js + Vercel | Free-$20 | High | Excellent | Headless |
 
-## Related Articles
+Related Articles
 
 - [Freelance Developer to Product Builder Transition](/freelance-developer-to-product-builder-transition/)
 - [Freelance Developer Networking Strategies Online](/freelance-developer-networking-strategies-online/)
@@ -228,4 +228,4 @@ Platform choice matters less than these factors:
 - [First 90 Days as a Freelance Developer: A Complete Guide](/first-90-days-as-freelance-developer-guide/)
 - [How to Set Freelance Developer Rates in 2026](/how-to-set-freelance-developer-rates-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

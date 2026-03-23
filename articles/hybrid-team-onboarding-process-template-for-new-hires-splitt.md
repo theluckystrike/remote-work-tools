@@ -24,14 +24,14 @@ voice-checked: true
 
 Hybrid onboarding fails when the experience is inconsistent between in-office and remote days. New hires who happen to join on an office day get hallway introductions, context from overheard conversations, and spontaneous help from nearby colleagues. New hires who join on a remote day get a Zoom link and a Notion doc. The template below produces a structured, repeatable onboarding experience that works the same whether the new hire is at their desk at home or sitting in the office.
 
-## Week 1: Orientation and Access
+Week 1: Orientation and Access
 
 The first week is about getting to productive as quickly as possible without overwhelming. Every task should have a clear owner and a deadline.
 
-**Day 1 — Access and accounts:**
+Day 1. Access and accounts:
 
 ```yaml
-# .github/ISSUE_TEMPLATE/onboarding.yml
+.github/ISSUE_TEMPLATE/onboarding.yml
 name: New Hire Onboarding
 description: Checklist for onboarding a new team member
 title: "Onboarding: [NAME] - Start Date: [DATE]"
@@ -51,38 +51,38 @@ body:
         - label: "Add to recurring team ceremonies (standup, sprint planning)"
 ```
 
-**Day 1 — Environment setup (async):**
+Day 1. Environment setup (async):
 
 ```bash
-# Send this setup script before the start date
-# dev-setup.sh — works for macOS
+Send this setup script before the start date
+dev-setup.sh. works for macOS
 
-# Install Homebrew
+Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install mise (tool version manager - replaces nvm, pyenv, etc.)
+Install mise (tool version manager - replaces nvm, pyenv, etc.)
 curl https://mise.run | sh
 echo 'eval "$(~/.local/bin/mise activate zsh)"' >> ~/.zshrc
 
-# Clone and run project setup
+Clone and run project setup
 git clone git@github.com:your-org/dev-setup.git ~/dev-setup
 cd ~/dev-setup && ./setup.sh
 ```
 
 Send this with a README that covers: what the script does, what to do if it fails, who to ask for help. Async setup completion means the new hire arrives (or logs on) ready to write code, not running `brew install`.
 
-## Week 1: Social and Context
+Week 1: Social and Context
 
-**First 1:1 with manager (Day 1 or 2):**
+First 1:1 with manager (Day 1 or 2):
 
-Cover three things: what success looks like in the first 30/60/90 days, how the team communicates and makes decisions, and what the new hire should NOT spend time on in the first two weeks. That last item is important — new hires often try to tackle everything and end up context-switching too much to build deep understanding of anything.
+Cover three things: what success looks like in the first 30/60/90 days, how the team communicates and makes decisions, and what the new hire should NOT spend time on in the first two weeks. That last item is important. new hires often try to tackle everything and end up context-switching too much to build deep understanding of anything.
 
-**Team introductions — async first:**
+Team introductions. async first:
 
 ```
 New hire intro template (post in #introductions Slack channel):
 
-Hey team 👋 I'm [Name], joining as [Role].
+Hey team  I'm [Name], joining as [Role].
 
 Background: [2 sentences on where you're coming from]
 
@@ -90,18 +90,18 @@ What I'll be working on: [project or area]
 
 Where I'm based / hours: [timezone and rough working hours]
 
-Outside work: [1 interesting thing — this is what people actually remember]
+Outside work: [1 interesting thing. this is what people actually remember]
 
 Looking forward to meeting everyone. Feel free to reach out directly.
 ```
 
 Async intros work better than going around a Zoom call. People can read them at their own pace, the new hire isn't put on the spot, and the message is searchable later.
 
-## Week 2-4: Ramp-Up Tasks
+Week 2-4: Ramp-Up Tasks
 
-The goal of weeks 2-4 is a meaningful first contribution — something shipped or merged, not just setup tasks checked off.
+The goal of weeks 2-4 is a meaningful first contribution. something shipped or merged, not just setup tasks checked off.
 
-**Starter issues process:**
+Starter issues process:
 
 Label 5-10 issues as `good-first-issue` before the new hire starts. These should be:
 - Scoped to less than 2 days of work
@@ -111,13 +111,13 @@ Label 5-10 issues as `good-first-issue` before the new hire starts. These should
 
 The new hire picks one, works through it, and ships it. Nothing builds confidence faster than having a real contribution in production in the first two weeks.
 
-**First PR review process:**
+First PR review process:
 
-Assign a designated reviewer for the first 3 PRs. The reviewer's job is not just to approve good code — it's to explain the team's conventions, point out patterns they'll see everywhere, and highlight any context about why things are done a particular way. This context is impossible to find in documentation; it lives in the heads of experienced team members.
+Assign a designated reviewer for the first 3 PRs. The reviewer's job is not just to approve good code. it's to explain the team's conventions, point out patterns they'll see everywhere, and highlight any context about why things are done a particular way. This context is impossible to find in documentation; it lives in the heads of experienced team members.
 
-## Hybrid-Specific Considerations
+Hybrid-Specific Considerations
 
-**Calendar blocking for office days:**
+Calendar blocking for office days:
 
 For hybrid setups, coordinate which days the new hire comes to the office so they overlap with the broader team. Avoid having a new hire's office days be the days most of the team works from home.
 
@@ -128,7 +128,7 @@ Recommended first-month hybrid schedule:
 - Month 2+: Standard hybrid schedule (team-specific)
 ```
 
-**Remote-day async support:**
+Remote-day async support:
 
 On remote days, new hires lose the ability to tap someone's shoulder. Replace this with:
 - A designated async help channel (#help-engineering or similar)
@@ -137,7 +137,7 @@ On remote days, new hires lose the ability to tap someone's shoulder. Replace th
 
 The 2-hour SLA is critical. A new hire who asks a question and waits 6 hours for a response will either give up and work on the wrong thing, or feel unsupported and start disengaging.
 
-## 90-Day Check-In Template
+90-Day Check-In Template
 
 At the 90-day mark, run a structured check-in:
 
@@ -153,7 +153,7 @@ At the 90-day mark, run a structured check-in:
 
 The answers feed directly into improving the onboarding template for the next new hire.
 
-## Related Articles
+Related Articles
 
 - [Hybrid Work Onboarding Process for New Hires](/hybrid-work-onboarding-process-for-new-hires/)
 - [How to Create Remote Team Communication Charter](/how-to-create-remote-team-communication-charter-that-new-hir/)

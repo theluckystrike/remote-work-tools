@@ -17,7 +17,7 @@ tags: [remote-work-tools, remote-work]
 
 A tech radar is a snapshot of your team's technology decisions: what you're adopting, actively trialing, holding off on, and avoiding. For remote teams it replaces hallway conversations about "should we try X?" with a documented, searchable record. This guide builds one using a CSV + static generator approach your whole team can contribute to via pull requests.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -27,37 +27,37 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: The Four Quadrants and Rings
+Step 1: The Four Quadrants and Rings
 
 Thoughtworks format uses four quadrants and four rings:
 
 ```
 Quadrants:
-  Languages & Frameworks  — Python, React, FastAPI
-  Platforms               — AWS, k3s, Cloudflare
-  Tools                   — DBeaver, Bruno, Restic
-  Techniques              — Contract testing, GitOps, ADRs
+  Languages & Frameworks . Python, React, FastAPI
+  Platforms              . AWS, k3s, Cloudflare
+  Tools                  . DBeaver, Bruno, Restic
+  Techniques             . Contract testing, GitOps, ADRs
 
 Rings:
-  ADOPT    — Use in production; proven in our context
-  TRIAL    — Use on low-risk projects; still evaluating
-  ASSESS   — Worth exploring; research phase
-  HOLD     — Pause new adoption; not recommended
+  ADOPT   . Use in production; proven in our context
+  TRIAL   . Use on low-risk projects; still evaluating
+  ASSESS  . Worth exploring; research phase
+  HOLD    . Pause new adoption; not recommended
 ```
 
-### Step 2: Option A: Static Generator (No Infrastructure)
+Step 2: Option A: Static Generator (No Infrastructure)
 
 The `build-your-own-radar` tool from Thoughtworks reads a CSV and generates an interactive radar.
 
 ```bash
-# Clone the generator
+Clone the generator
 git clone https://github.com/thoughtworks/build-your-own-radar.git
 cd build-your-own-radar
 npm install
 ```
 
 ```csv
-# radar.csv
+radar.csv
 name,ring,quadrant,isNew,description
 React,adopt,Languages & Frameworks,FALSE,"Stable choice for web UIs. Well-understood by team."
 FastAPI,adopt,Languages & Frameworks,FALSE,"Python API framework. Good async support and OpenAPI generation."
@@ -78,25 +78,25 @@ Feature Flags,assess,Techniques,TRUE,"Evaluating LaunchDarkly vs self-hosted."
 ```
 
 ```bash
-# Build and serve
+Build and serve
 npm run build
 npx serve dist/
 
-# Or host on GitHub Pages
+Or host on GitHub Pages
 npm run build
-# Copy dist/ to your GitHub Pages repo
+Copy dist/ to your GitHub Pages repo
 ```
 
-### Step 3: Option B: Backstage Tech Radar Plugin
+Step 3: Option B: Backstage Tech Radar Plugin
 
 If you're already running Backstage:
 
 ```bash
-# Install the plugin
+Install the plugin
 cd packages/app
 yarn add @backstage-community/plugin-tech-radar
 
-# In packages/app/src/App.tsx
+In packages/app/src/App.tsx
 import { TechRadarPage } from '@backstage-community/plugin-tech-radar';
 
 // Add route
@@ -169,45 +169,45 @@ export const techRadarLoader = async (): Promise<TechRadarLoaderResponse> => {
 }
 ```
 
-### Step 4: Contributing Process for Remote Teams
+Step 4: Contributing Process for Remote Teams
 
 The radar is most valuable when the whole team contributes. Use a GitHub PR workflow:
 
 ```bash
-# Team member wants to add a new entry
+Team member wants to add a new entry
 git checkout -b radar/add-bruno-api-testing
-# Edit radar.csv or tech-radar.json
+Edit radar.csv or tech-radar.json
 git commit -m "radar: add Bruno to TRIAL (tools)"
-# Open PR with description explaining the recommendation
+Open PR with description explaining the recommendation
 ```
 
 PR template for radar changes:
 
 ```markdown
 <!-- .github/PULL_REQUEST_TEMPLATE/radar_entry.md -->
-### Step 5: Tech Radar Entry
+Step 5: Tech Radar Entry
 
-**Technology:** [name]
-**Proposed ring:** ADOPT / TRIAL / ASSESS / HOLD
-**Quadrant:** Languages & Frameworks / Platforms / Tools / Techniques
+Technology: [name]
+Proposed ring: ADOPT / TRIAL / ASSESS / HOLD
+Quadrant: Languages & Frameworks / Platforms / Tools / Techniques
 
-### Context
+Context
 Why is this relevant to our team right now?
 
-### Experience
+Experience
 Have we used this? In what project/context?
 
-### Recommendation
+Recommendation
 Why this ring placement?
 
-### Risks / Concerns
+Risks / Concerns
 What should we watch out for?
 ```
 
-### Step 6: Automated Publishing
+Step 6: Automated Publishing
 
 ```yaml
-# .github/workflows/radar.yml
+.github/workflows/radar.yml
 name: Publish Tech Radar
 
 on:
@@ -241,71 +241,71 @@ jobs:
           publish_branch: gh-pages
 ```
 
-### Step 7: Radar Review Cadence
+Step 7: Radar Review Cadence
 
 Schedule a quarterly async radar review:
 
 ```markdown
-# Tech Radar Review — Q2 2026
+Tech Radar Review. Q2 2026
 
-**Format:** Async-first (GitHub PR comments), 30-min sync to resolve disagreements
+Format: Async-first (GitHub PR comments), 30-min sync to resolve disagreements
 
-**Timeline:**
+Timeline:
 - Week 1: Submit PRs for new entries or ring changes
 - Week 2: Review and comment on PRs
 - Week 3: Merge consensus PRs; flag disagreements
 - Week 4: Sync call (optional, only if needed)
 
-**Questions to answer per entry:**
+Questions to answer per entry:
 1. Has our experience changed since last quarter?
 2. Are there new risks or alternatives?
 3. Does the ring still reflect our actual usage?
 ```
 
-### Step 8: Ring Change Log
+Step 8: Ring Change Log
 
 Track changes in `CHANGELOG.md` alongside the radar:
 
 ```markdown
-# Radar Changelog
+Radar Changelog
 
-### Step 9: 2026-Q2
+Step 9: 2026-Q2
 
-### Moved to ADOPT
-- Bruno (Tools) — API testing with git-stored collections.
+Moved to ADOPT
+- Bruno (Tools). API testing with git-stored collections.
   Team-wide adoption complete. Postman decommissioned.
-- Contract Testing/Pact (Techniques) — Used in 3 services.
+- Contract Testing/Pact (Techniques). Used in 3 services.
 
-### Moved to TRIAL
-- Svelte (Languages) — Two dashboards in production.
+Moved to TRIAL
+- Svelte (Languages). Two dashboards in production.
   Evaluating bundle size gains.
 
-### Moved to HOLD
-- AWS Lambda@Edge — Complexity too high for our team size.
+Moved to HOLD
+- AWS Lambda@Edge. Complexity too high for our team size.
   Replaced with Cloudflare Workers for edge logic.
 
-### New ASSESS entries
-- Bun (Languages) — Node.js alternative, watching for ecosystem maturity.
+New ASSESS entries
+- Bun (Languages). Node.js alternative, watching for ecosystem maturity.
 ```
 
-### Step 10: Deciding What Goes on the Radar
+Step 10: Deciding What Goes on the Radar
 
-Not everything belongs on a tech radar. A common mistake is listing every library, every SaaS tool, and every language variant — the radar becomes noise and engineers stop consulting it. Apply a filter:
+Not everything belongs on a tech radar. A common mistake is listing every library, every SaaS tool, and every language variant. the radar becomes noise and engineers stop consulting it. Apply a filter:
 
-**Include if:**
+Include if:
 - The team has made or is considering a deliberate adoption decision
 - There is genuine disagreement or uncertainty about whether to use it
 - The tool/technique has cross-team or multi-project implications
 - An entry would save the next person from relitigating a debate you already had
 
-**Exclude if:**
+Exclude if:
 - It is a minor dependency with no real decision behind it (e.g., `lodash`)
 - Only one engineer on one project uses it and there is no wider intent
 - The decision is already universally settled (e.g., Git for version control)
 
 When in doubt, write it as an ADR first. If the ADR matters enough to reference repeatedly, promote it to the radar.
 
-### Step 11: Linking the Radar to ADRs
+Step 11: Linking the Radar to ADRs
 
 Tech radar entries gain credibility when backed by an Architectural Decision Record. Add an `adr` field to your CSV:
 
@@ -329,25 +329,25 @@ When the Backstage plugin renders entries, the `description` field can include a
 
 This creates a traceable audit trail: you can always read the original reasoning behind a ring placement, not just the current recommendation.
 
-### Step 12: Run Your First Radar Session
+Step 12: Run Your First Radar Session
 
 The first time a team builds a radar, the session often stalls because nobody is sure what ring to assign to a technology they have mixed feelings about. Use this facilitation format for remote teams:
 
-**Async phase (Week 1 — 45 minutes per person):**
+Async phase (Week 1. 45 minutes per person):
 1. Each engineer independently lists 5–10 technologies they have a strong opinion about
 2. They assign a ring (ADOPT/TRIAL/ASSESS/HOLD) and write 2–3 sentences of reasoning
 3. Submit as draft PRs or a shared spreadsheet
 
-**Synthesis phase (async, Day 1 of Week 2):**
+Synthesis phase (async, Day 1 of Week 2):
 The radar owner (typically a staff engineer or tech lead) merges duplicates, identifies disagreements, and flags entries where reviewers chose different rings for the same technology.
 
-**Discussion phase (30-min Zoom, Week 2):**
+Discussion phase (30-min Zoom, Week 2):
 Skip consensus items. Only discuss the flagged disagreements. Use a simple rule: if two or more engineers who have actually used the technology prefer different rings, the lower ring wins. You move to ADOPT only when the team has enough shared production experience to say "this works for us."
 
-**Publish and celebrate (Week 2):**
-Merge the PR. Post the radar link in `#engineering`. Make the first publication a moment — it signals that the team takes technology decisions seriously enough to write them down.
+Publish and celebrate (Week 2):
+Merge the PR. Post the radar link in `#engineering`. Make the first publication a moment. it signals that the team takes technology decisions seriously enough to write them down.
 
-### Step 13: Measuring Radar Effectiveness
+Step 13: Measuring Radar Effectiveness
 
 After two quarters, ask these questions to evaluate whether the radar is working:
 
@@ -358,22 +358,22 @@ After two quarters, ask these questions to evaluate whether the radar is working
 
 A radar that gets consulted saves time. A radar that gets ignored is a documentation artifact. If nobody uses it, the problem is usually one of: it is not visible enough (add a link to your eng handbook front page), it is not maintained (stale entries), or it does not cover decisions the team actually faces (wrong quadrant choices for your stack).
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Related Reading
+Related Reading
 
 - [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
 - [Async Decision Making with RFC Documents](/async-decision-making-with-rfc-documents-for-engineering-tea/)
@@ -382,7 +382,7 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [How to Handle Remote Team Subculture Formation When](/how-to-handle-remote-team-subculture-formation-when-departme/)
@@ -390,6 +390,6 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [Remote Team Shadow IT Discovery and Management Guide for IT](/remote-team-shadow-it-discovery-and-management-guide-for-it-/)
 - [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

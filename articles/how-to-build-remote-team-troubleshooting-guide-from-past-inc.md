@@ -20,49 +20,49 @@ When your remote team faces recurring issues, having a well-structured troublesh
 
 This guide shows you how to transform past incident postmortems into a living troubleshooting knowledge base that your remote team can actually use.
 
-## Why Remote Teams Need Structured Troubleshooting Guides
+Why Remote Teams Need Structured Troubleshooting Guides
 
 Remote work introduces unique challenges that make postmortem-derived guides essential. Team members cannot lean over to ask a colleague what fixed last month's database deadlock. Time zone gaps mean the person who solved the problem might be asleep when it reoccurs. Without searchable, structured documentation, you repeatedly rediscover the same solutions.
 
 A well-built troubleshooting guide captures institutional knowledge, reduces mean time to recovery (MTTR), and helps on-call engineers to resolve issues without waiting for the "expert" to wake up.
 
-## Step 1: Standardize Your Postmortem Format
+Step 1: Standardize Your Postmortem Format
 
 Before extracting useful patterns, your postmortems need consistent structure. Create a template your team agrees to use:
 
 ```markdown
-## Incident Summary
-- **Date/Time**:
-- **Severity**: SEV1/SEV2/SEV3
-- **Impact Duration**:
-- **Affected Services**:
+Incident Summary
+- Date/Time:
+- Severity: SEV1/SEV2/SEV3
+- Impact Duration:
+- Affected Services:
 
-## Root Cause
+Root Cause
 What actually happened? (Avoid "human error" without explanation)
 
-## Trigger Conditions
+Trigger Conditions
 What specific conditions caused this incident?
 
-## Resolution
+Resolution
 How was it fixed? Include commands, config changes, rollbacks.
 
-## Prevention
+Prevention
 What prevents this from happening again?
 
-## Related Alerts
+Related Alerts
 List alert names that fired (or failed to fire).
 ```
 
 Store this template in your team repository and link it from your incident response runbook. When every postmortem follows this structure, extracting patterns becomes straightforward.
 
-## Step 2: Extract Recurring Patterns
+Step 2: Extract Recurring Patterns
 
 Review your last 20-30 incidents and categorize them. Look for:
 
-- **Infrastructure patterns**: DNS failures, certificate expirations, capacity limits
-- **Code patterns**: memory leaks, race conditions, dependency conflicts
-- **Process patterns**: deploys without rollback plans, missing alerting
-- **Communication patterns**: incidents detected by customers, not monitoring
+- Infrastructure patterns: DNS failures, certificate expirations, capacity limits
+- Code patterns: memory leaks, race conditions, dependency conflicts
+- Process patterns: deploys without rollback plans, missing alerting
+- Communication patterns: incidents detected by customers, not monitoring
 
 Create a simple categorization script to help:
 
@@ -76,7 +76,7 @@ def categorize_postmortems(articles_dir):
     """Analyze postmortems and extract common failure patterns."""
     categories = Counter()
 
-    for md_file in Path(articles_dir).glob("**/*postmortem*.md"):
+    for md_file in Path(articles_dir).glob("/*postmortem*.md"):
         content = md_file.read_text().lower()
 
         # Simple keyword matching for demonstration
@@ -100,11 +100,11 @@ if __name__ == "__main__":
 
 This script helps you identify which categories deserve the most attention in your troubleshooting guide.
 
-## Step 3: Build a Searchable Knowledge Base
+Step 3: Build a Searchable Knowledge Base
 
 A troubleshooting guide is only useful if people can find it. Consider these approaches:
 
-### Markdown with Front Matter
+Markdown with Front Matter
 
 Store each troubleshooting entry as a markdown file with structured front matter:
 
@@ -122,7 +122,7 @@ causes:
  - "Redis instance undersized for traffic"
 solutions:
  - "Set maxclients in redis.conf"
- - "Implement connection pooling with合理的 pool size"
+ - "Implement connection pooling with pool size"
  - "Add circuit breaker for Redis calls"
 related_incidents:
  - "2025-11-15-payment-service-outage"
@@ -130,7 +130,7 @@ related_incidents:
 ---
 ```
 
-### Search Implementation
+Search Implementation
 
 Add a simple search to your documentation site:
 
@@ -154,26 +154,26 @@ function searchTroubleshooting(query) {
 }
 ```
 
-## Step 4: Create Decision Trees
+Step 4: Create Decision Trees
 
 Rather than long narrative documents, build decision trees that guide engineers to solutions:
 
 ```
 [Service returns 5xx errors]
-├── Check /health endpoint
-│ ├── Returns 200 → Application running but failing requests
-│ │ ├── Check recent deploys
-│ │ │ ├── Deploy in last hour → Rollback and investigate
-│ │ │ └── No recent deploy → Check external dependencies
-│ │ ├── Database accessible? → Check application logs
-│ │ └── Database unreachable → Escalate to infrastructure
-│ └── Returns 5xx → Service completely down → Page on-call
-└── No /health response → Check load balancer / DNS
+ Check /health endpoint
+  Returns 200 → Application running but failing requests
+   Check recent deploys
+    Deploy in last hour → Rollback and investigate
+    No recent deploy → Check external dependencies
+   Database accessible? → Check application logs
+   Database unreachable → Escalate to infrastructure
+  Returns 5xx → Service completely down → Page on-call
+ No /health response → Check load balancer / DNS
 ```
 
 Document these decision trees in your wiki or as interactive scripts that junior engineers can run.
 
-## Step 5: Automate Runbook Generation
+Step 5: Automate Runbook Generation
 
 As your team resolves incidents, generate runbooks programmatically from ticket data:
 
@@ -196,95 +196,95 @@ title: "${runbook.title}"
 symptoms: ${JSON.stringify(runbook.symptoms)}
 ---
 
-# ${runbook.title}
+${runbook.title}
 
-## Symptoms
+Symptoms
 ${runbook.symptoms.map(s => `- ${s}`).join('\n')}
 
-## Diagnosis Steps
+Diagnosis Steps
 ${runbook.diagnosis.map(d => `1. ${d}`).join('\n')}
 
-## Resolution
+Resolution
 ${runbook.resolution}
 
-## Commands to Run
+Commands to Run
 \`\`\`bash
 ${runbook.commands.join('\n')}
 \`\`\`
 
-## Prevention
+Prevention
 ${runbook.prevention}
 `;
 }
 ```
 
-## Step 6: Maintain and Update
+Step 6: Maintain and Update
 
 A troubleshooting guide is not an one-time project. Build these maintenance practices:
 
-- **Review quarterly**: Set calendar reminders to review the top 10 most-used guides
-- **Link to incidents**: Every new postmortem should reference or update existing guides
-- **Track usage**: Add analytics to see which guides are actually consulted
-- **Reward contributions**: Recognize team members who improve documentation
+- Review quarterly: Set calendar reminders to review the top 10 most-used guides
+- Link to incidents: Every new postmortem should reference or update existing guides
+- Track usage: Add analytics to see which guides are actually consulted
+- Reward contributions: Recognize team members who improve documentation
 
-## Practical Example: Building the Guide
+Practical Example: Building the Guide
 
 Here's a minimal working example to get started:
 
 ```bash
-# Create directory structure
+Create directory structure
 mkdir -p troubleshooting/{database,deployment,network,application}
 
-# Create a category index
+Create a category index
 cat > troubleshooting/README.md << 'EOF'
-# Troubleshooting Guide
+Troubleshooting Guide
 
-## Categories
+Categories
 - [Database Issues](database/README.md)
 - [Deployment Problems](deployment/README.md)
 - [Network Issues](network/README.md)
 - [Application Errors](application/README.md)
 
-## Quick Links
+Quick Links
 - [On-Call Runbook](../docs/oncall.md)
 - [Escalation Paths](../docs/escalation.md)
 EOF
 
-# Generate index from all markdown files
+Generate index from all markdown files
 find troubleshooting -name "*.md" -not -name "README.md" | \
  while read f; do
  echo "- [$(basename $f .md)]($f)"
  done >> troubleshooting/README.md
 ```
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to build a remote team troubleshooting guide from past?**
+How long does it take to build a remote team troubleshooting guide from past?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [How to Write Remote Team Postmortem Communication Template](/how-to-write-remote-team-postmortem-communication-template-f/)
 - [Best Tools for Remote Team Incident Postmortems in 2026](/best-tools-for-remote-team-incident-postmortems-2026/)
 - [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 - [How to Organize Remote Team Retrospective Learnings](/how-to-organize-remote-team-retrospective-learnings-document/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Setting Up Grafana Dashboards for Remote Teams"
-description: "Configure Grafana with async-friendly team dashboards — shared views, alerting, annotations, and dashboard-as-code workflows for distributed engineering teams"
+description: "Configure Grafana with async-friendly team dashboards. shared views, alerting, annotations, and dashboard-as-code workflows for distributed engineering teams"
 date: 2026-03-22
 author: theluckystrike
 permalink: /setting-up-grafana-dashboards-for-remote-teams/
@@ -17,7 +17,7 @@ voice-checked: true
 
 Grafana dashboards in co-located teams are glanced at on a monitor on the wall. Remote teams need dashboards designed for async consumption: clear annotations, shareable panels, and automated summaries that land in Slack without anyone having to remember to look. This guide covers the setup that makes Grafana useful for distributed teams.
 
-## Table of Contents
+Table of Contents
 
 - [Installation with Docker Compose](#installation-with-docker-compose)
 - [Dashboard Provisioning (Dashboard-as-Code)](#dashboard-provisioning-dashboard-as-code)
@@ -31,12 +31,12 @@ Grafana dashboards in co-located teams are glanced at on a monitor on the wall. 
 - [Grafana vs. Alternatives for Remote Teams](#grafana-vs-alternatives-for-remote-teams)
 - [Related Reading](#related-reading)
 
-The difference between a useful remote dashboard and an useless one is not the metrics — it is the context. A panel showing "error rate: 0.3%" tells a co-located engineer something because they have been watching it all day. It tells a remote engineer nothing at 9am without a baseline, a threshold, and an indication of whether this is better or worse than yesterday.
+The difference between a useful remote dashboard and an useless one is not the metrics. it is the context. A panel showing "error rate: 0.3%" tells a co-located engineer something because they have been watching it all day. It tells a remote engineer nothing at 9am without a baseline, a threshold, and an indication of whether this is better or worse than yesterday.
 
-## Installation with Docker Compose
+Installation with Docker Compose
 
 ```yaml
-# docker-compose.grafana.yml
+docker-compose.grafana.yml
 services:
   grafana:
     image: grafana/grafana-oss:latest
@@ -72,14 +72,14 @@ volumes:
   prometheus_data:
 ```
 
-For remote teams who do not want to self-host, **Grafana Cloud** offers a free tier (10,000 metrics, 50GB logs, 50GB traces, 14-day retention). The free tier covers most small distributed engineering teams without any infra overhead. For larger teams, the Pro tier at $8/user/month adds unlimited retention and SSO.
+For remote teams who do not want to self-host, Grafana Cloud offers a free tier (10,000 metrics, 50GB logs, 50GB traces, 14-day retention). The free tier covers most small distributed engineering teams without any infra overhead. For larger teams, the Pro tier at $8/user/month adds unlimited retention and SSO.
 
-## Dashboard Provisioning (Dashboard-as-Code)
+Dashboard Provisioning (Dashboard-as-Code)
 
-Store dashboards in git. This prevents dashboard drift — where production dashboards diverge from what's documented.
+Store dashboards in git. This prevents dashboard drift. where production dashboards diverge from what's documented.
 
 ```yaml
-# grafana/provisioning/dashboards/default.yaml
+grafana/provisioning/dashboards/default.yaml
 apiVersion: 1
 providers:
   - name: Default
@@ -94,7 +94,7 @@ providers:
 ```
 
 ```yaml
-# grafana/provisioning/datasources/prometheus.yaml
+grafana/provisioning/datasources/prometheus.yaml
 apiVersion: 1
 datasources:
   - name: Prometheus
@@ -106,35 +106,35 @@ datasources:
       timeInterval: "15s"
 ```
 
-The `allowUiUpdates: true` setting lets engineers iterate on dashboards through the UI, but changes should be exported and committed back to git. Add a comment to the provisioning folder's README: "If you change a dashboard in the UI, export the JSON and commit it — otherwise your changes will be overwritten on next deploy."
+The `allowUiUpdates: true` setting lets engineers iterate on dashboards through the UI, but changes should be exported and committed back to git. Add a comment to the provisioning folder's README: "If you change a dashboard in the UI, export the JSON and commit it. otherwise your changes will be overwritten on next deploy."
 
-## Team Dashboard Structure
+Team Dashboard Structure
 
 For remote teams, organize dashboards by audience, not by metric type:
 
 ```
 Folders:
-├── Executive (SLA, uptime, error rates — simple, text-heavy)
-├── Engineering (detailed metrics, per-service breakdown)
-│   ├── Platform Overview (cross-service health at a glance)
-│   ├── API Service
-│   ├── Background Jobs
-│   └── Databases
-├── On-Call (optimized for incident response — large panels, clear thresholds)
-└── Deploy (before/after comparison for deploys)
+ Executive (SLA, uptime, error rates. simple, text-heavy)
+ Engineering (detailed metrics, per-service breakdown)
+    Platform Overview (cross-service health at a glance)
+    API Service
+    Background Jobs
+    Databases
+ On-Call (optimized for incident response. large panels, clear thresholds)
+ Deploy (before/after comparison for deploys)
 ```
 
-The Executive folder should have no more than 5 panels per dashboard, all using stat panels with large text. Engineers' dashboards can be dense — on-call dashboards must be scannable in 5 seconds when someone is woken at 3am.
+The Executive folder should have no more than 5 panels per dashboard, all using stat panels with large text. Engineers' dashboards can be dense. on-call dashboards must be scannable in 5 seconds when someone is woken at 3am.
 
-## The Async-Friendly Dashboard Panel
+The Async-Friendly Dashboard Panel
 
 Every panel in a remote team dashboard should answer the question "what is this telling me without context?" on first glance.
 
-**Good panel structure:**
+Good panel structure:
 
 ```json
 {
-  "title": "API Error Rate — 5m avg (alert at >1%)",
+  "title": "API Error Rate. 5m avg (alert at >1%)",
   "description": "HTTP 5xx errors as % of total requests. Baseline: ~0.1%. Previous week P95: 0.3%",
   "type": "timeseries",
   "options": {
@@ -159,22 +159,22 @@ Every panel in a remote team dashboard should answer the question "what is this 
 
 Key elements:
 - Title includes the context (alert threshold) not just the metric name
-- Description includes the baseline — "currently 0.1%" means nothing without history
+- Description includes the baseline. "currently 0.1%" means nothing without history
 - Thresholds are color-coded directly in the panel
 
-**What to avoid in remote dashboards:**
+What to avoid in remote dashboards:
 
 - Panels titled only "Error Rate" with no threshold reference
-- Time ranges defaulting to "last 1 hour" — use "last 3 hours" so context is visible
+- Time ranges defaulting to "last 1 hour". use "last 3 hours" so context is visible
 - Stat panels showing a raw number without a trend sparkline
-- Dashboards with more than 20 panels — they become overwhelming to async readers
+- Dashboards with more than 20 panels. they become overwhelming to async readers
 
-## Deploy Annotations
+Deploy Annotations
 
 Annotations mark deploys on every panel, making it obvious when a metric change correlates with a deploy:
 
 ```bash
-# Post annotation via Grafana API after every deploy
+Post annotation via Grafana API after every deploy
 post_deploy_annotation() {
   local VERSION=$1
   local DEPLOYER=$2
@@ -190,7 +190,7 @@ post_deploy_annotation() {
     }"
 }
 
-# Add to your deploy script
+Add to your deploy script
 post_deploy_annotation "$VERSION" "$GITHUB_ACTOR"
 ```
 
@@ -211,11 +211,11 @@ In your GitHub Actions deploy workflow:
 
 Beyond deploys, annotate other meaningful events: database migrations, config changes, traffic spikes from marketing campaigns. Each annotation gives future async readers a reference point when reviewing historical metrics.
 
-## Alerting Configuration for Remote Teams
+Alerting Configuration for Remote Teams
 
 Grafana Alerting (unified alerting, enabled by default since Grafana 9) requires a contact point and notification policy.
 
-**Contact point — Slack:**
+Contact point. Slack:
 
 In Grafana UI: Alerting → Contact points → Add contact point → Slack
 
@@ -231,7 +231,7 @@ Configure with your webhook URL and a message template that includes a link to t
 {{ end }}
 ```
 
-**Notification policy:**
+Notification policy:
 
 ```
 Default policy:
@@ -249,12 +249,12 @@ Nested policy (P1 severity):
 
 The repeat interval for critical alerts should be short enough that an on-call engineer is not waiting 4 hours for a reminder, but long enough that the channel does not flood during a sustained incident.
 
-## Slack Digest: Daily Health Report
+Slack Digest: Daily Health Report
 
 Instead of requiring engineers to check Grafana, send a daily digest to Slack:
 
 ```python
-# scripts/grafana-digest.py
+scripts/grafana-digest.py
 import httpx
 import os
 from datetime import datetime, timedelta
@@ -295,7 +295,7 @@ def send_daily_digest():
         "blocks": [
             {
                 "type": "header",
-                "text": {"type": "plain_text", "text": f"Daily Health Report — {datetime.utcnow().strftime('%Y-%m-%d')}"}
+                "text": {"type": "plain_text", "text": f"Daily Health Report. {datetime.utcnow().strftime('%Y-%m-%d')}"}
             },
             {
                 "type": "section",
@@ -325,16 +325,16 @@ if __name__ == "__main__":
 ```
 
 ```bash
-# Run daily at 9am UTC via cron
+Run daily at 9am UTC via cron
 0 9 * * 1-5 python /opt/scripts/grafana-digest.py
 ```
 
-## Shareable Panel Links
+Shareable Panel Links
 
 When discussing an anomaly async in Slack, link directly to the relevant time range:
 
 ```bash
-# Generate a panel link for the last 4 hours
+Generate a panel link for the last 4 hours
 GRAFANA_URL="https://grafana.yourcompany.com"
 DASHBOARD_UID="platform-overview"
 PANEL_ID=5
@@ -344,9 +344,9 @@ TO=$(date +%s%3N)  # now in ms
 echo "${GRAFANA_URL}/d/${DASHBOARD_UID}?orgId=1&viewPanel=${PANEL_ID}&from=${FROM}&to=${TO}"
 ```
 
-Add this to your incident response bot: when an alert fires, automatically include a pre-linked panel URL showing the 30 minutes around the alert time. This removes a meaningful friction point for remote engineers — instead of navigating to Grafana and manually adjusting the time range, they click a link and immediately see the relevant window.
+Add this to your incident response bot: when an alert fires, automatically include a pre-linked panel URL showing the 30 minutes around the alert time. This removes a meaningful friction point for remote engineers. instead of navigating to Grafana and manually adjusting the time range, they click a link and immediately see the relevant window.
 
-## Dashboard-as-Code with Grafonnet
+Dashboard-as-Code with Grafonnet
 
 For teams managing many dashboards, generate them with code:
 
@@ -381,16 +381,16 @@ dashboard.new(
 ```
 
 ```bash
-# Generate JSON from jsonnet
+Generate JSON from jsonnet
 jsonnet dashboards/api-overview.libsonnet > grafana/dashboards/api-overview.json
 
-# Add to CI to validate dashboards on every push
+Add to CI to validate dashboards on every push
 jsonnet --lint dashboards/*.libsonnet
 ```
 
-An alternative to Grafonnet is **grizzly**, a CLI tool that manages Grafana dashboards declaratively from YAML or JSON files and can apply them via CI. It is simpler than Grafonnet for teams that do not want to learn Jsonnet, and works well with Grafana Cloud.
+An alternative to Grafonnet is grizzly, a CLI tool that manages Grafana dashboards declaratively from YAML or JSON files and can apply them via CI. It is simpler than Grafonnet for teams that do not want to learn Jsonnet, and works well with Grafana Cloud.
 
-## Grafana vs. Alternatives for Remote Teams
+Grafana vs. Alternatives for Remote Teams
 
 | Tool | Strength | Weakness | Best for |
 |---|---|---|---|
@@ -402,7 +402,7 @@ An alternative to Grafonnet is **grizzly**, a CLI tool that manages Grafana dash
 
 For most remote engineering teams self-hosting on Hetzner, DigitalOcean, or similar, Grafana with Prometheus and Loki is the right default. The tooling is mature, free, and integrates with everything.
 
-## Related Reading
+Related Reading
 
 - [Incident Management Setup for a Remote DevOps Team of 5](/incident-management-setup-for-a-remote-devops-team-of-5/)
 - [Remote Engineering Team Infrastructure Cost Per Deploy Tracking](/remote-engineering-team-infrastructure-cost-per-deploy-track/)
@@ -410,12 +410,12 @@ For most remote engineering teams self-hosting on Hetzner, DigitalOcean, or simi
 - [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
 ---
 
-## Related Articles
+Related Articles
 
 - [Best Tools for Remote Team Metrics Dashboards](/best-tools-remote-team-metrics-dashboards/)
 - [Best Business Intelligence Tool for Small Remote Teams](/best-business-intelligence-tool-for-small-remote-teams-witho/)
 - [Best Password Sharing Solution for Remote Teams 2026](/best-password-sharing-solution-for-remote-teams-2026/)
 - [Best Container Registry Tool for Remote Teams Sharing](/best-container-registry-tool-for-remote-teams-sharing-docker/)
 - [Best Tool for Remote Teams Recording and Transcribing](/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -16,7 +16,7 @@ tags: [remote-work-tools, remote-work]
 
 Remote performance improvement plans (PIPs) require different structure than office-based PIPs because you lose real-time observation of work. Build PIPs with weekly check-ins, clearly documented metrics pulled from actual tools (GitHub PR times, Slack activity), and explicit communication expectations. This guide provides JSON templates and tracking scripts to implement fair, measurable PIPs for distributed teams.
 
-## Table of Contents
+Table of Contents
 
 - [Why Remote PIPs Need Different Structure](#why-remote-pips-need-different-structure)
 - [Core Components of a Remote Performance Improvement Plan](#core-components-of-a-remote-performance-improvement-plan)
@@ -29,13 +29,13 @@ Remote performance improvement plans (PIPs) require different structure than off
 - [Handling PIP Conversations Sensitively](#handling-pip-conversations-sensitively)
 - [Scenarios Where PIPs Fail](#scenarios-where-pips-fail)
 
-## Why Remote PIPs Need Different Structure
+Why Remote PIPs Need Different Structure
 
-In a physical office, managers can observe work in real-time—catching issues during standups, noticing when someone seems stuck, or providing immediate feedback on deliverables. Remote work removes these organic check-in moments. A PIP for a distributed employee must compensate for this visibility gap by building in more frequent checkpoints and clearer documentation mechanisms.
+In a physical office, managers can observe work in real-time, catching issues during standups, noticing when someone seems stuck, or providing immediate feedback on deliverables. Remote work removes these organic check-in moments. A PIP for a distributed employee must compensate for this visibility gap by building in more frequent checkpoints and clearer documentation mechanisms.
 
 The core challenge: remote performance issues often stem from communication breakdowns rather than capability gaps. Your template needs to address both the what (measurable outcomes) and the how (communication patterns, collaboration quality).
 
-## Core Components of a Remote Performance Improvement Plan
+Core Components of a Remote Performance Improvement Plan
 
 A solid remote PIP contains these essential elements:
 
@@ -46,7 +46,7 @@ A solid remote PIP contains these essential elements:
 5. Check-in Schedule: Weekly or bi-weekly synchronous meetings
 6. Success Criteria: Quantifiable outcomes that indicate improvement
 
-## A Practical Template for Distributed Teams
+A Practical Template for Distributed Teams
 
 Here's a template you can adapt for your remote team. Save this as a JSON file to track programmatically:
 
@@ -138,10 +138,10 @@ def check_pip_progress(pip_data):
         print(f"Deadline: {goal['deadline']}")
         print()
 
-# Usage: python pip_tracker.py employee-pip.json
+Usage: python pip_tracker.py employee-pip.json
 ```
 
-## Setting Up Tracking in Your Project Management Tool
+Setting Up Tracking in Your Project Management Tool
 
 For teams using tools like Linear, Jira, or Asana, create a structured task breakdown:
 
@@ -151,13 +151,13 @@ For teams using tools like Linear, Jira, or Asana, create a structured task brea
 - Final Review: Task scheduled for end of PIP period
 
 ```markdown
-## Weekly Check-in Template
+Weekly Check-in Template
 
-**Employee**:
-**Date**:
-**Week**:
+Employee:
+Date:
+Week:
 
-### Progress on Goals
+Progress on Goals
 1. [Goal 1]: ___% complete
    - Actions taken this week:
    - blockers encountered:
@@ -166,36 +166,36 @@ For teams using tools like Linear, Jira, or Asana, create a structured task brea
    - Actions taken this week:
    - blockers encountered:
 
-### Support Needed
+Support Needed
 - [ ] Additional resources
 - [ ] Clarification on expectations
 - [ ] Meeting schedule adjustment
 
-### Manager Notes
+Manager Notes
 [Document observations and feedback here]
 ```
 
-## Best Practices for Distributed Managers
+Best Practices for Distributed Managers
 
-**Document everything.** In remote settings, verbal conversations disappear. Keep written records of all check-ins, feedback, and progress. This protects both you and the employee.
+Document everything. In remote settings, verbal conversations disappear. Keep written records of all check-ins, feedback, and progress. This protects both you and the employee.
 
-**Be explicit about communication expectations.** Remote performance issues often boil down to misalignment on response times. Define expected SLAs for Slack/email in your team handbook and reference them in the PIP.
+Be explicit about communication expectations. Remote performance issues often boil down to misalignment on response times. Define expected SLAs for Slack/email in your team handbook and reference them in the PIP.
 
-**Use the right tools for visibility.** Integrate your PIP tracking with your existing tooling. If code review metrics matter, pull them directly from GitHub or GitLab. If communication matters, reference Slack channel activity.
+Use the right tools for visibility. Integrate your PIP tracking with your existing tooling. If code review metrics matter, pull them directly from GitHub or GitLab. If communication matters, reference Slack channel activity.
 
-**Schedule synchronous time.** Despite the asynchronous nature of remote work, PIPs require real-time conversation. Block recurring 30-minute meetings during the PIP period. Video on is non-negotiable—you lose critical context without it.
+Schedule synchronous time. Despite the asynchronous nature of remote work, PIPs require real-time conversation. Block recurring 30-minute meetings during the PIP period. Video on is non-negotiable, you lose critical context without it.
 
-**Separate performance from personal issues.** A PIP addresses measurable performance gaps. It should not attempt to solve personal circumstances, health issues, or life events. Handle those separately with appropriate accommodations.
+Separate performance from personal issues. A PIP addresses measurable performance gaps. It should not attempt to solve personal circumstances, health issues, or life events. Handle those separately with appropriate accommodations.
 
-## When to Escalate
+When to Escalate
 
 If after the defined period (typically 30-60 days) the employee has not met success criteria, escalate to HR or leadership with your documented evidence. Your JSON tracking and weekly check-in notes provide the paper trail needed for fair termination or further action.
 
 The goal of any PIP is genuine improvement. When executed thoughtfully with clear metrics and consistent follow-up, remote performance improvement plans can turn struggling team members into reliable contributors. The structure you build now will scale as your distributed team grows.
 
-## Sample PIPs Across Roles
+Sample PIPs Across Roles
 
-### Performance Improvement Plan: Backend Engineer
+Performance Improvement Plan: Backend Engineer
 
 ```json
 {
@@ -231,7 +231,7 @@ The goal of any PIP is genuine improvement. When executed thoughtfully with clea
 }
 ```
 
-### Performance Improvement Plan: Product Manager
+Performance Improvement Plan: Product Manager
 
 ```json
 {
@@ -267,7 +267,7 @@ The goal of any PIP is genuine improvement. When executed thoughtfully with clea
 }
 ```
 
-### Performance Improvement Plan: Sales Engineer
+Performance Improvement Plan: Sales Engineer
 
 ```json
 {
@@ -303,65 +303,65 @@ The goal of any PIP is genuine improvement. When executed thoughtfully with clea
 }
 ```
 
-## Handling PIP Conversations Sensitively
+Handling PIP Conversations Sensitively
 
 A PIP is a difficult conversation. Approach it with:
 
-**Clarity**: "This is a performance improvement plan. It means we've identified specific areas where your performance isn't meeting expectations, and we're committing to help you improve."
+Clarity: "This is a performance improvement plan. It means we've identified specific areas where your performance isn't meeting expectations, and we're committing to help you improve."
 
-**Specificity**: Show data, not opinions. "Your last 10 PRs averaged 62 hours to first review" beats "you're slow at reviewing."
+Specificity: Show data, not opinions. "Your last 10 PRs averaged 62 hours to first review" beats "you're slow at reviewing."
 
-**Support**: Be explicit about what resources you're providing. The employee shouldn't feel like they're being set up to fail.
+Support: Be explicit about what resources you're providing. The employee shouldn't feel like they're being set up to fail.
 
-**Hope**: "The goal is for you to succeed and continue growing here. This plan is how we get there."
+Hope: "The goal is for you to succeed and continue growing here. This plan is how we get there."
 
-**Documentation**: Send a written summary of the conversation to the employee with the JSON template attached.
+Documentation: Send a written summary of the conversation to the employee with the JSON template attached.
 
-## Scenarios Where PIPs Fail
+Scenarios Where PIPs Fail
 
 PIPs are designed for capability gaps. They fail when:
 
-1. **The issue is cultural fit**: A brilliant engineer who doesn't value async communication won't improve with a PIP focused on response times.
+1. The issue is cultural fit: A brilliant engineer who doesn't value async communication won't improve with a PIP focused on response times.
 
-2. **The issue is health/personal**: Someone struggling due to mental health, caregiving, or life circumstances needs accommodations, not a PIP.
+2. The issue is health/personal: Someone struggling due to mental health, caregiving, or life circumstances needs accommodations, not a PIP.
 
-3. **The expectations are unrealistic**: PIPs should target achievable goals in 30-60 days. If someone needs 6 months to improve, the expectations are too aggressive.
+3. The expectations are unrealistic: PIPs should target achievable goals in 30-60 days. If someone needs 6 months to improve, the expectations are too aggressive.
 
-4. **The feedback is vague**: "Better communication" isn't measurable. "Respond to Slack within 24 hours" is measurable and actionable.
+4. The feedback is vague: "Better communication" isn't measurable. "Respond to Slack within 24 hours" is measurable and actionable.
 
-5. **There's no genuine support**: If the manager isn't invested in the employee's success, the PIP is a formality before termination—and everyone knows it.
+5. There's no genuine support: If the manager isn't invested in the employee's success, the PIP is a formality before termination, and everyone knows it.
 
 When any of these apply, pause the PIP process and address the root cause. A good PIP improves performance. A bad PIP is just documentation for firing someone.
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does Python offer a free tier?**
+Does Python offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check Python's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-employee-performance-tracking-tool-comparison-for-dis/)
 - [How to Write Remote Team Postmortem Communication Template](/how-to-write-remote-team-postmortem-communication-template-f/)
 - [Remote Employee Output-Based Performance Measurement](/remote-employee-output-based-performance-measurement-framewo/)
 - [Remote Work Performance Review Tools Comparison 2026](/remote-work-performance-review-tools-comparison-2026/)
 - [How to Handle Remote Employee Underperformance](/how-to-handle-remote-employee-underperformance-conversation-/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

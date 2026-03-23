@@ -15,28 +15,28 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-A freshly provisioned VPS or home lab server is exposed to the internet with default settings — password authentication enabled, all ports open, no rate limiting. Within minutes of provisioning, automated scanners are probing it. This guide hardens an Ubuntu 22.04/24.04 server to a baseline that remote developers can use with confidence.
+A freshly provisioned VPS or home lab server is exposed to the internet with default settings. password authentication enabled, all ports open, no rate limiting. Within minutes of provisioning, automated scanners are probing it. This guide hardens an Ubuntu 22.04/24.04 server to a baseline that remote developers can use with confidence.
 
 All commands run as root or with sudo unless otherwise noted.
 
-## Step 1: Create a Non-Root User
+Step 1: Create a Non-Root User
 
 Never use the `root` user for routine work. Create a deploy user and disable root login.
 
 ```bash
-# Create admin user
+Create admin user
 adduser devadmin
 usermod -aG sudo devadmin
 
-# Set up SSH keys for devadmin
+Set up SSH keys for devadmin
 mkdir -p /home/devadmin/.ssh
 chmod 700 /home/devadmin/.ssh
 
-# Copy your public key
-# On your local machine:
+Copy your public key
+On your local machine:
 cat ~/.ssh/id_ed25519.pub
 
-# On the server, add to authorized_keys
+On the server, add to authorized_keys
 echo "ssh-ed25519 AAAAC3Nz... your-key-comment" \
   >> /home/devadmin/.ssh/authorized_keys
 chmod 600 /home/devadmin/.ssh/authorized_keys
@@ -46,61 +46,61 @@ chown -R devadmin:devadmin /home/devadmin/.ssh
 Test SSH login with the new user before disabling root login:
 
 ```bash
-# From your local machine — test before locking root out
+From your local machine. test before locking root out
 ssh devadmin@your-server-ip
 sudo whoami  # should return "root"
 ```
 
-## Step 2: Harden SSH Configuration
+Step 2: Harden SSH Configuration
 
 ```bash
-# /etc/ssh/sshd_config — edit these settings
+/etc/ssh/sshd_config. edit these settings
 sudo nano /etc/ssh/sshd_config
 ```
 
 ```ini
-# /etc/ssh/sshd_config
+/etc/ssh/sshd_config
 
-# Disable root login completely
+Disable root login completely
 PermitRootLogin no
 
-# Disable password authentication — keys only
+Disable password authentication. keys only
 PasswordAuthentication no
 ChallengeResponseAuthentication no
 UsePAM no
 
-# Disable forwarding if you don't need it
+Disable forwarding if you don't need it
 X11Forwarding no
 AllowTcpForwarding yes    # needed for SSH tunnels to databases etc.
 
-# Change default port (optional — reduces log noise, not a security measure)
+Change default port (optional. reduces log noise, not a security measure)
 Port 2222
 
-# Only allow specific users
+Only allow specific users
 AllowUsers devadmin deploy
 
-# Idle session timeout
+Idle session timeout
 ClientAliveInterval 300
 ClientAliveCountMax 2
 
-# Use modern key exchange algorithms only
+Use modern key exchange algorithms only
 KexAlgorithms curve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group16-sha512
 HostKeyAlgorithms ssh-ed25519,rsa-sha2-512,rsa-sha2-256
 Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com
 ```
 
 ```bash
-# Test config before restarting
+Test config before restarting
 sudo sshd -t
 
-# Restart SSH
+Restart SSH
 sudo systemctl restart ssh
 ```
 
 If you changed the port, update your local `~/.ssh/config`:
 
 ```bash
-# ~/.ssh/config on your local machine
+~/.ssh/config on your local machine
 Host myserver
   HostName your-server-ip
   User devadmin
@@ -108,42 +108,42 @@ Host myserver
   IdentityFile ~/.ssh/id_ed25519
 ```
 
-## Step 3: Configure UFW Firewall
+Step 3: Configure UFW Firewall
 
 ```bash
-# Install and configure UFW (Uncomplicated Firewall)
+Install and configure UFW (Uncomplicated Firewall)
 sudo apt install ufw -y
 
-# Set defaults: deny all incoming, allow all outgoing
+Set defaults: deny all incoming, allow all outgoing
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 
-# Allow SSH (use the port you set in sshd_config)
+Allow SSH (use the port you set in sshd_config)
 sudo ufw allow 2222/tcp comment "SSH"
 
-# Allow specific services as needed
+Allow specific services as needed
 sudo ufw allow 80/tcp comment "HTTP"
 sudo ufw allow 443/tcp comment "HTTPS"
 
-# Allow access only from a specific IP (e.g., monitoring server)
+Allow access only from a specific IP (e.g., monitoring server)
 sudo ufw allow from 192.168.1.100 to any port 9100 comment "Prometheus node exporter"
 
-# Allow WireGuard
+Allow WireGuard
 sudo ufw allow 51820/udp comment "WireGuard"
 
-# Enable UFW
+Enable UFW
 sudo ufw enable
 sudo ufw status verbose
 ```
 
-## Step 4: Install and Configure fail2ban
+Step 4: Install and Configure fail2ban
 
 fail2ban reads log files and bans IPs that show malicious patterns (e.g., repeated failed SSH logins).
 
 ```bash
 sudo apt install fail2ban -y
 
-# Create local config (don't edit jail.conf — it gets overwritten on updates)
+Create local config (don't edit jail.conf. it gets overwritten on updates)
 sudo tee /etc/fail2ban/jail.local << 'EOF'
 [DEFAULT]
 bantime  = 1h
@@ -170,19 +170,19 @@ EOF
 sudo systemctl enable fail2ban
 sudo systemctl restart fail2ban
 
-# Check status
+Check status
 sudo fail2ban-client status sshd
 
-# Unban an IP if you accidentally banned yourself
+Unban an IP if you accidentally banned yourself
 sudo fail2ban-client set sshd unbanip YOUR_IP
 ```
 
-## Step 5: Automatic Security Updates
+Step 5: Automatic Security Updates
 
 ```bash
 sudo apt install unattended-upgrades -y
 
-# /etc/apt/apt.conf.d/50unattended-upgrades
+/etc/apt/apt.conf.d/50unattended-upgrades
 sudo tee /etc/apt/apt.conf.d/50unattended-upgrades << 'EOF'
 Unattended-Upgrade::Allowed-Origins {
     "${distro_id}:${distro_codename}";
@@ -203,7 +203,7 @@ Unattended-Upgrade::Mail "you@yourdomain.com";
 Unattended-Upgrade::MailReport "on-change";
 EOF
 
-# Enable automatic updates
+Enable automatic updates
 sudo tee /etc/apt/apt.conf.d/20auto-upgrades << 'EOF'
 APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Download-Upgradeable-Packages "1";
@@ -211,38 +211,38 @@ APT::Periodic::AutocleanInterval "7";
 APT::Periodic::Unattended-Upgrade "1";
 EOF
 
-# Test the configuration
+Test the configuration
 sudo unattended-upgrade --dry-run --debug
 ```
 
-## Step 6: Configure auditd for Logging
+Step 6: Configure auditd for Logging
 
-auditd logs privileged commands, file access, and user logins — useful for forensics if something goes wrong.
+auditd logs privileged commands, file access, and user logins. useful for forensics if something goes wrong.
 
 ```bash
 sudo apt install auditd -y
 
-# /etc/audit/rules.d/hardening.rules
+/etc/audit/rules.d/hardening.rules
 sudo tee /etc/audit/rules.d/hardening.rules << 'EOF'
-# Delete all existing rules
+Delete all existing rules
 -D
 
-# Monitor sudoers changes
+Monitor sudoers changes
 -w /etc/sudoers -p wa -k sudoers_changes
 -w /etc/sudoers.d/ -p wa -k sudoers_changes
 
-# Monitor SSH authorized_keys changes
+Monitor SSH authorized_keys changes
 -w /home -p wa -k home_changes
 -w /root/.ssh -p wa -k ssh_changes
 
-# Monitor network configuration changes
+Monitor network configuration changes
 -w /etc/hosts -p wa -k network_changes
 -w /etc/network/ -p wa -k network_changes
 
-# Log all sudo commands
+Log all sudo commands
 -a always,exit -F arch=b64 -S execve -F uid=root -F auid>=1000 -F auid!=-1 -k root_commands
 
-# Monitor cron changes
+Monitor cron changes
 -w /etc/cron.d/ -p wa -k cron_changes
 -w /etc/crontab -p wa -k cron_changes
 EOF
@@ -251,50 +251,50 @@ sudo auditctl -R /etc/audit/rules.d/hardening.rules
 sudo systemctl enable auditd
 sudo systemctl restart auditd
 
-# Query audit logs
+Query audit logs
 sudo ausearch -k sudoers_changes -i  # recent sudoers changes
 sudo ausearch -k root_commands -i    # commands run as root
 sudo aureport --logins --summary     # login summary report
 ```
 
-## Step 7: Kernel Security Settings
+Step 7: Kernel Security Settings
 
 ```bash
-# /etc/sysctl.d/99-hardening.conf
+/etc/sysctl.d/99-hardening.conf
 sudo tee /etc/sysctl.d/99-hardening.conf << 'EOF'
-# Disable IP forwarding (enable only if this is a router/VPN server)
-# net.ipv4.ip_forward = 0
+Disable IP forwarding (enable only if this is a router/VPN server)
+net.ipv4.ip_forward = 0
 
-# Prevent SYN flood attacks
+Prevent SYN flood attacks
 net.ipv4.tcp_syncookies = 1
 net.ipv4.tcp_max_syn_backlog = 2048
 net.ipv4.tcp_synack_retries = 2
 
-# Prevent ICMP redirect attacks
+Prevent ICMP redirect attacks
 net.ipv4.conf.all.accept_redirects = 0
 net.ipv4.conf.default.accept_redirects = 0
 net.ipv6.conf.all.accept_redirects = 0
 
-# Disable source routing
+Disable source routing
 net.ipv4.conf.all.accept_source_route = 0
 
-# Log martian packets (invalid source addresses)
+Log martian packets (invalid source addresses)
 net.ipv4.conf.all.log_martians = 1
 
-# Restrict dmesg to root
+Restrict dmesg to root
 kernel.dmesg_restrict = 1
 
-# Disable core dumps with setuid programs
+Disable core dumps with setuid programs
 fs.suid_dumpable = 0
 EOF
 
 sudo sysctl --system
 ```
 
-## Verification Checklist
+Verification Checklist
 
 ```bash
-# Run after hardening to verify settings
+Run after hardening to verify settings
 echo "=== SSH Config ==="
 sudo sshd -T | grep -E "permitrootlogin|passwordauthentication|port"
 
@@ -317,7 +317,7 @@ echo "=== Open world ports (should only show intended services) ==="
 sudo nmap -sV --open -p- localhost 2>/dev/null | grep "open"
 ```
 
-## Related Reading
+Related Reading
 
 - [Home Lab Setup Guide for Remote Developers](/home-lab-setup-guide-remote-developers/)
 - [WireGuard Team VPN: Multi-User Setup Guide](/wireguard-team-vpn-multi-user-setup/)
@@ -325,34 +325,34 @@ sudo nmap -sV --open -p- localhost 2>/dev/null | grep "open"
 - [Linux Desktop Privacy Hardening Guide](https://securetoolsguide.com/linux-desktop-privacy-hardening-guide/)
 - [macOS Privacy Hardening Checklist 2026](https://securetoolsguide.com/macos-privacy-hardening-checklist-2026/)
 
-## Related Articles
+Related Articles
 
 - [Remote Work Security Hardening Checklist](/remote-work-security-hardening-checklist/)
 - [Best SSH Key Management Solution for Distributed Remote](/best-ssh-key-management-solution-for-distributed-remote-engi/)
 - [SSH Tunnels for Remote Database Access](/ssh-tunnels-remote-database-access/)
 - [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 - [Home Lab Setup Guide for Remote Developers](/home-lab-setup-guide-remote-developers/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to remote developers?**
+How long does it take to remote developers?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Is this approach secure enough for production?**
+Is this approach secure enough for production?
 
 The patterns shown here follow standard practices, but production deployments need additional hardening. Add rate limiting, input validation, proper secret management, and monitoring before going live. Consider a security review if your application handles sensitive user data.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 

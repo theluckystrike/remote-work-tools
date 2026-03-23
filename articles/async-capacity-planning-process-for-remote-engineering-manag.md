@@ -17,7 +17,7 @@ tags: [remote-work-tools, remote-work]
 
 Build async capacity planning by collecting weekly availability reports from each engineer, tracking velocity or throughput metrics over time, and running the numbers in a shared capacity template -- all without scheduling a single meeting. This process replaces synchronous planning sessions with structured written inputs that produce more accurate forecasts, better documentation, and fewer time zone conflicts.
 
-## Table of Contents
+Table of Contents
 
 - [Why Async Capacity Planning Matters for Remote Teams](#why-async-capacity-planning-matters-for-remote-teams)
 - [Step 1: Gather Team Availability Data](#step-1-gather-team-availability-data)
@@ -34,9 +34,9 @@ Build async capacity planning by collecting weekly availability reports from eac
 - [Context Switching Multiplier](#context-switching-multiplier)
 - [Practical Example: Quarterly Planning](#practical-example-quarterly-planning)
 
-## Why Async Capacity Planning Matters for Remote Teams
+Why Async Capacity Planning Matters for Remote Teams
 
-Traditional capacity planning often relies on synchronous planning meetings—sprint planning, quarterly planning sessions, or resource allocation meetings where everyone gathers (or in person) to discuss bandwidth. While these sessions serve a purpose, they create several problems for distributed teams:
+Traditional capacity planning often relies on synchronous planning meetings, sprint planning, quarterly planning sessions, or resource allocation meetings where everyone gathers (or in person) to discuss bandwidth. While these sessions serve a purpose, they create several problems for distributed teams:
 
 - Time zone fatigue: Scheduling meetings that work for everyone often means someone joins outside their working hours
 - Groupthink: Real-time discussions tend to favor vocal participants rather than thoughtful analysis
@@ -45,7 +45,7 @@ Traditional capacity planning often relies on synchronous planning meetings—sp
 
 An async capacity planning process addresses these issues by allowing team members to contribute their input on their own schedules, with time to think through their responses carefully. The result is more thoughtful capacity assessments and better documentation of the planning process.
 
-## Step 1: Gather Team Availability Data
+Step 1: Gather Team Availability Data
 
 The foundation of any capacity planning process is accurate availability data. For remote engineering teams, this means collecting information about:
 
@@ -58,36 +58,36 @@ The foundation of any capacity planning process is accurate availability data. F
 Create a simple template for team members to report their availability:
 
 ```markdown
-## Capacity Report: [Name] - [Period]
+Capacity Report: [Name] - [Period]
 
-### Available Hours
+Available Hours
 - Total contract hours: 40
 - Planned PTO: [X] hours
 - Holiday hours: [X] hours
 - Interview/Meeting overhead: [X] hours
 - On-call hours: [X] hours
 
-### Effective Capacity
+Effective Capacity
 - Net available hours: [X]
-- Historical utilization rate: [X]%
+- Historical usage rate: [X]%
 - Adjusted capacity: [X] hours
 
-### Notes
+Notes
 [Any context about upcoming projects, learning time, or other factors]
 ```
 
 Ask team members to submit this report weekly or bi-weekly. Over time, you'll build historical data that improves the accuracy of your capacity forecasts.
 
-## Step 2: Track Velocity and Throughput
+Step 2: Track Velocity and Throughput
 
 Capacity planning requires understanding how much work your team can actually complete. For remote teams, tracking metrics asynchronously provides visibility without micromanagement.
 
-### Velocity-Based Planning
+Velocity-Based Planning
 
 If your team uses sprints, track velocity over time:
 
 ```markdown
-## Team Velocity History
+Team Velocity History
 
 | Sprint | Committed Points | Completed Points | Velocity |
 |--------|------------------|------------------|----------|
@@ -102,12 +102,12 @@ Standard Deviation: 1.7 points
 
 This data helps you commit to realistic sprint goals and plan capacity for upcoming work.
 
-### Throughput-Based Planning
+Throughput-Based Planning
 
 For teams using continuous flow rather than sprints, throughput provides better forecasting data:
 
 ```markdown
-## Monthly Throughput
+Monthly Throughput
 
 | Month  | Stories Completed | Bug Fixes | Tech Debt |
 |--------|-------------------|-----------|-----------|
@@ -120,20 +120,20 @@ Average: 12.3 stories/month
 
 Throughput data becomes especially valuable when planning work that spans multiple sprints or quarters.
 
-## Step 3: Build a Capacity Planning Template
+Step 3: Build a Capacity Planning Template
 
 Create a standardized template that team leads or engineering managers use to document capacity plans. This ensures consistency and makes it easy to compare capacity across teams or time periods.
 
 ```markdown
-## Capacity Plan: [Team Name] - [Quarter/Month]
+Capacity Plan: [Team Name] - [Quarter/Month]
 
-### Team Composition
+Team Composition
 - Senior Engineers: [X]
 - Mid-level Engineers: [X]
 - Junior Engineers: [X]
 - Total FTE: [X]
 
-### Capacity Calculation
+Capacity Calculation
 ```
 Total Team Hours = FTE × Hours per period
 Less: PTO (planned) = [X] hours
@@ -142,53 +142,53 @@ Less: Overhead (meetings, interviews) = [X] hours
 = Net Available Capacity = [X] hours
 ```
 
-### Projected Work
+Projected Work
 | Project | Estimated Hours | Priority | Notes |
 |---------|-----------------|----------|-------|
 | Project A | 200 | P1 | Must deliver |
 | Project B | 120 | P2 | If time allows |
 | Project C | 80 | P3 | Next quarter |
 
-### Risk Factors
+Risk Factors
 - [List any known risks: onboarding, dependencies, etc.]
 - [Mitigation strategy for each risk]
 
-### Capacity Gap
+Capacity Gap
 - Required: [X] hours
 - Available: [X] hours
 - Gap: [X] hours → [Describe how you'll address]
 ```
 
-## Step 4: Establish the Async Workflow
+Step 4: Establish the Async Workflow
 
 With templates in place, establish a clear async workflow for capacity planning:
 
-### Weekly Check-ins
+Weekly Check-ins
 1. Team members submit availability reports by Wednesday
 2. Lead reviews and aggregates data
 3. Capacity summary shared in team channel by Friday
 
-### Monthly Planning Cycles
+Monthly Planning Cycles
 1. Leads create capacity plans for upcoming month
 2. Plans shared in shared document or project management tool
 3. Cross-team dependencies identified async
 4. Conflicts escalated for synchronous discussion (if needed)
 
-### Quarterly Reviews
+Quarterly Reviews
 1. Leadership reviews aggregate capacity across teams
 2. Strategic projects aligned with available capacity
 3. Resource rebalancing decisions documented
 
 This cadence keeps capacity planning as a continuous process rather than a periodic crisis.
 
-## Step 5: Handle Common Remote Team Challenges
+Step 5: Handle Common Remote Team Challenges
 
-### Unplanned Absences
+Unplanned Absences
 
 Remote team members may have unexpected availability changes. Build buffer into your capacity calculations:
 
 ```markdown
-## Capacity Buffer Calculation
+Capacity Buffer Calculation
 
 Base Capacity: 160 hours/week
 Recommended Buffer: 10-15% (16-24 hours)
@@ -197,12 +197,12 @@ Effective Capacity: 136-144 hours
 
 This buffer absorbs unplanned PTO, sick days, or emergencies without derailing projections.
 
-### Time Zone Visibility
+Time Zone Visibility
 
 When team members work across time zones, capacity planning must account for overlap hours:
 
 ```markdown
-## Team Overlap Analysis
+Team Overlap Analysis
 
 | Team Member | Time Zone | Overlap with UTC |
 |-------------|-----------|------------------|
@@ -211,16 +211,16 @@ When team members work across time zones, capacity planning must account for ove
 | Charlie     | GMT       | 8 hours          |
 | Diana       | JST       | 0 hours          |
 
-Recommendation: Assign async-heavy work to Diana;
+Assign async-heavy work to Diana;
 synchronous coordination for Alice/Bob/Charlie during overlap
 ```
 
-### Context Switching Costs
+Context Switching Costs
 
 Remote engineers often juggle multiple projects. Track context switching impact:
 
 ```markdown
-## Context Switching Multiplier
+Context Switching Multiplier
 
 Single project focus: 1.0x productivity
 Two projects (equal priority): 0.85x productivity
@@ -230,20 +230,20 @@ Apply appropriate multiplier when calculating capacity
 for multi-project team members
 ```
 
-## Practical Example: Quarterly Planning
+Practical Example: Quarterly Planning
 
 Let's walk through a complete async capacity planning cycle for a fictional team:
 
 Team: Platform Engineering (5 engineers)
 Planning Period: Q2 2026
 
-### Available Data
+Available Data
 - Total team hours: 5 × 480 hours (12 weeks × 40 hours) = 2,400 hours
 - Planned PTO: 80 hours (team holidays + personal)
 - Historical overhead: 15% (meetings, emails, interviews)
 - Buffer: 10%
 
-### Calculation
+Calculation
 ```
 Gross Capacity: 2,400 hours
 Less PTO: -80 hours
@@ -254,55 +254,55 @@ Less Buffer (10%): -197 hours
 = Planning Capacity: 1,775 hours
 ```
 
-### Project Requests
+Project Requests
 - Platform migration: 800 hours (mandatory)
 - API modernization: 600 hours (strategic)
 - Internal tools: 400 hours (desired)
 
-### Assessment
+Assessment
 - Required: 1,800 hours
 - Available: 1,775 hours
 - Status: Tight fit, requires careful scope management
 
 This async calculation completed without any meetings, using shared documents and written communication.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Async Capacity Planning Process for Remote: Managers](/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 - [Best Tool for Remote Team Capacity Planning When Scaling](/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 - [Best Tools for Remote Team Capacity Planning](/best-tools-remote-team-capacity-planning-2026/)
 - [Best Tools for Remote Team Capacity Planning in 2026](/best-tools-for-remote-team-capacity-planning-2026/)
 - [Best Practice for Remote Team Quarterly Planning Process](/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Related Reading
+Related Reading
 
 - [Async Capacity Planning Process for Remote: Managers](/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 - [How to Do Async Performance Reviews for Remote Engineering](/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
 - [Do Async Performance Reviews for Remote Engineering Teams](/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

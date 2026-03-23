@@ -16,9 +16,9 @@ intent-checked: true
 
 {% raw %}
 
-## The Problem: Home Networks Are Security Weak Points
+The Problem: Home Networks Are Security Weak Points
 
-## Table of Contents
+Table of Contents
 
 - [The Problem: Home Networks Are Security Weak Points](#the-problem-home-networks-are-security-weak-points)
 - [Layer 1: Router Hardening (Prerequisite)](#layer-1-router-hardening-prerequisite)
@@ -47,83 +47,83 @@ A compromised IoT device on your WiFi can see unencrypted traffic. A malware-inf
 This guide shows how to segment, isolate, and secure home networks for remote work.
 ---
 
-## Layer 1: Router Hardening (Prerequisite)
+Layer 1: Router Hardening (Prerequisite)
 
 Before VLANs, DNS filtering, or any advanced setup, start here.
 
-### Basic Router Security Checklist
+Basic Router Security Checklist
 
-**Step 1: Change Default Credentials**
+Step 1: Change Default Credentials
 ```bash
-# Access router admin panel
-# Login: admin / admin (default)
+Access router admin panel
+Login: admin / admin (default)
 
-# Immediately change to strong password
-# Use: 32-character random string
-# Store in 1Password/Bitwarden
+Immediately change to strong password
+Use: 32-character random string
+Store in 1Password/Bitwarden
 
-# Tools:
-# 1Password: $4.99/month (includes password generator)
-# Bitwarden: Free (open source)
+Tools:
+1Password: $4.99/month (includes password generator)
+Bitwarden: Free (open source)
 ```
 
-**Step 2: Update Firmware**
+Step 2: Update Firmware
 ```bash
-# Router admin panel > System > Firmware Update
-# Check for updates monthly
+Router admin panel > System > Firmware Update
+Check for updates monthly
 
-# Why: Patches WiFi vulnerabilities
-# Critical: Some routers allow remote access without patching
+Why: Patches WiFi vulnerabilities
+Critical: Some routers allow remote access without patching
 
-# Common routers and update frequency:
-# Ubiquiti: Monthly
-# Netgear: Quarterly
-# TP-Link: Quarterly
-# Linksys: Bi-annual (slower)
+Common routers and update frequency:
+Ubiquiti: Monthly
+Netgear: Quarterly
+TP-Link: Quarterly
+Linksys: Bi-annual (slower)
 ```
 
-**Step 3: Disable Remote Access**
+Step 3: Disable Remote Access
 ```bash
-# Router admin panel > Advanced > Remote Management
-# DISABLE all of these:
-# - Remote Management
-# - UPnP (Universal Plug and Play)
-# - Port Forwarding (unless specifically needed)
+Router admin panel > Advanced > Remote Management
+DISABLE all of these:
+- Remote Management
+- UPnP (Universal Plug and Play)
+- Port Forwarding (unless specifically needed)
 
-# Why: Prevents attackers from accessing router from internet
+Why: Prevents attackers from accessing router from internet
 ```
 
-**Step 4: Enable WiFi Encryption**
+Step 4: Enable WiFi Encryption
 ```bash
-# Router admin panel > Wireless > Security
+Router admin panel > Wireless > Security
 
-# Required encryption: WPA3 (if available)
-# Fallback: WPA2 (WPA3 not yet universal)
-# NEVER use: WEP or WPA (deprecated, crackable in minutes)
+Required encryption: WPA3 (if available)
+Fallback: WPA2 (WPA3 not yet universal)
+NEVER use: WEP or WPA (deprecated, crackable in minutes)
 
-# WPA3 password requirements:
-# - 20+ characters
-# - Mixed case, numbers, symbols
-# Example: T#x9mK$pL2@nQ7yW4bV8&Rs
+WPA3 password requirements:
+- 20+ characters
+- Mixed case, numbers, symbols
+T#x9mK$pL2@nQ7yW4bV8&Rs
 
-# Store in password manager
+Store in password manager
 ```
 
-**Step 5: Disable WPS (WiFi Protected Setup)**
+Step 5: Disable WPS (WiFi Protected Setup)
 ```bash
-# Router admin panel > Wireless > Security
-# Disable: WPS
-# Why: Vulnerable to brute-force attacks (8-digit PIN)
-# Attacker can crack WPS in <4 hours with common tools
+Router admin panel > Wireless > Security
+Disable: WPS
+Why: Vulnerable to brute-force attacks (8-digit PIN)
+Attacker can crack WPS in <4 hours with common tools
 ```
 
 ---
 
-## Layer 2: VLAN Segmentation (Isolate IoT/Guests)
+Layer 2: VLAN Segmentation (Isolate IoT/Guests)
 
 VLANs create virtual networks on the same physical router. Different VLANs can't communicate unless explicitly allowed.
 
-### VLAN Design for Remote Work
+VLAN Design for Remote Work
 
 ```
 Router with VLANs:
@@ -158,7 +158,7 @@ VLAN 4 - Guest (Temporary Visitors)
   Isolation: Can't access any other VLAN
 ```
 
-### Which Routers Support VLAN Setup?
+Which Routers Support VLAN Setup?
 
 | Router | VLAN Support | Cost | Setup Difficulty |
 |--------|--------------|------|------------------|
@@ -169,44 +169,44 @@ VLAN 4 - Guest (Temporary Visitors)
 | Apple AirPort (discontinued) | Limited | N/A | N/A |
 | Standard ISP Router | No | $0 (included) | N/A (not possible) |
 
-**Recommendation: Ubiquiti Dream Machine Pro**
+Ubiquiti Dream Machine Pro
 - Native VLAN support
 - Web interface (no Linux knowledge needed)
 - $379 one-time cost
 - Supports 5+ networks
 - Built-in IDS/IPS
 
-### Setting Up VLANs on Ubiquiti Dream Machine
+Setting Up VLANs on Ubiquiti Dream Machine
 
 ```bash
-# Access: https://192.168.1.1 (admin panel)
-# Username/Password: Set during setup
+Access: https://192.168.1.1 (admin panel)
+Username/Password: Set during setup
 
-# Step 1: Create VLANs
-# Unifi > Settings > Networks > Create New Network
-# Name: "Work"
-# VLAN ID: 1
-# Subnet: 192.168.1.0/24
-# Security: WPA3 Enterprise (optional)
+Step 1: Create VLANs
+Unifi > Settings > Networks > Create New Network
+Name: "Work"
+VLAN ID: 1
+Subnet: 192.168.1.0/24
+Security: WPA3 Enterprise (optional)
 
-# Step 2: Create WiFi Networks
-# Unifi > Protect > WiFi Networks > Create
-# Name: "Home-Work"
-# Network: Work (VLAN 1)
-# Security: WPA3
-# Password: [32-char random]
+Step 2: Create WiFi Networks
+Unifi > Protect > WiFi Networks > Create
+Name: "Home-Work"
+Network: Work (VLAN 1)
+Security: WPA3
+Password: [32-char random]
 
-# Repeat for IoT, Guest networks
+Repeat for IoT, Guest networks
 
-# Step 3: Create Firewall Rules
-# Unifi > Settings > Routing & Firewall > Firewall Rules
-# Rule 1: IoT → Internet (allow)
-# Rule 2: IoT → Work (deny)
-# Rule 3: Work → IoT (deny)
-# Result: Complete isolation
+Step 3: Create Firewall Rules
+Unifi > Settings > Routing & Firewall > Firewall Rules
+Rule 1: IoT → Internet (allow)
+Rule 2: IoT → Work (deny)
+Rule 3: Work → IoT (deny)
+Complete isolation
 ```
 
-**Cost Breakdown:**
+Cost Breakdown:
 ```
 Ubiquiti Dream Machine Pro: $379 (one-time)
 Amortized over 5 years: $76/year ($6.30/month)
@@ -215,11 +215,11 @@ vs. replacement of compromised work laptop: $1200+
 
 ---
 
-## Layer 3: DNS Filtering (Block Malware at Query Level)
+Layer 3: DNS Filtering (Block Malware at Query Level)
 
 DNS filtering intercepts domain lookups and blocks known malicious sites before connection happens.
 
-### How DNS Filtering Works
+How DNS Filtering Works
 
 ```
 Normal DNS:
@@ -232,115 +232,115 @@ Device → Router → Filtering DNS (Cloudflare) → Blocks malware domain
        (protected before connection)
 ```
 
-### Top DNS Filtering Services
+Top DNS Filtering Services
 
-**Option 1: Cloudflare 1.1.1.1 for Families (Free)**
-
-```bash
-# Configuration on router
-# Router admin > DNS > Primary: 1.1.1.2 (malware blocking)
-# Secondary: 1.0.0.2 (fallback)
-
-# Features:
-# - Blocks malware domains (free)
-# - Blocks adult content (optional)
-# - DNSSEC validation
-# - No logging (privacy)
-
-# Cost: $0
-# Setup: 2 minutes
-# Coverage: ~92% of known malware domains
-```
-
-**Option 2: NextDNS (Recommended for Advanced Users)**
+Option 1: Cloudflare 1.1.1.1 for Families (Free)
 
 ```bash
-# Setup: https://nextdns.io
-# Create account: $0-19.99/month depending on tier
+Configuration on router
+Router admin > DNS > Primary: 1.1.1.2 (malware blocking)
+Secondary: 1.0.0.2 (fallback)
 
-# Configuration on router
-# Router DNS > 45.90.28.0 (or custom IP)
-# Or: Router > DoH (DNS over HTTPS) for encrypted queries
+Features:
+- Blocks malware domains (free)
+- Blocks adult content (optional)
+- DNSSEC validation
+- No logging (privacy)
 
-# Features:
-# - Blocks malware, phishing, adult content
-# - Per-device whitelisting/blacklisting
-# - Usage analytics (see what was blocked)
-# - Parental controls (block YouTube by time)
-# - 9 domain blocklists to choose from
-
-# Pricing:
-# Free: 300k requests/month (fine for small home)
-# $1.99/month: Unlimited, full features
-# $3.99/month: Additional blocklists
-
-# Coverage: ~98% of known malware domains
-
-# Setup example:
-# Step 1: https://nextdns.io > Sign up
-# Step 2: Create profile "Home Network"
-# Step 3: Enable: Malware Blocking, Security
-# Step 4: Router admin > DNS > 45.90.28.0
+Cost: $0
+Setup: 2 minutes
+Coverage: ~92% of known malware domains
 ```
 
-**Option 3: Quad9 (Privacy-Focused)**
+Option 2: NextDNS (Recommended for Advanced Users)
 
 ```bash
-# DNS: 9.9.9.9 and 149.112.112.112
+Setup: https://nextdns.io
+Create account: $0-19.99/month depending on tier
 
-# Features:
-# - Blocks malware domains
-# - DNSSEC validation
-# - No user profiling (privacy)
-# - No logging
-# - Works with encrypted DNS
+Configuration on router
+Router DNS > 45.90.28.0 (or custom IP)
+Or: Router > DoH (DNS over HTTPS) for encrypted queries
 
-# Cost: $0
-# Coverage: ~95% of known malware
+Features:
+- Blocks malware, phishing, adult content
+- Per-device whitelisting/blacklisting
+- Usage analytics (see what was blocked)
+- Parental controls (block YouTube by time)
+- 9 domain blocklists to choose from
+
+Pricing:
+Free: 300k requests/month (fine for small home)
+$1.99/month: Unlimited, full features
+$3.99/month: Additional blocklists
+
+Coverage: ~98% of known malware domains
+
+Setup example:
+Step 1: https://nextdns.io > Sign up
+Step 2: Create profile "Home Network"
+Step 3: Enable: Malware Blocking, Security
+Step 4: Router admin > DNS > 45.90.28.0
 ```
 
-### Recommendation
+Option 3: Quad9 (Privacy-Focused)
 
-Use **Cloudflare 1.1.1.2** (free) as default, upgrade to **NextDNS** ($1.99/month) if you want:
+```bash
+DNS: 9.9.9.9 and 149.112.112.112
+
+Features:
+- Blocks malware domains
+- DNSSEC validation
+- No user profiling (privacy)
+- No logging
+- Works with encrypted DNS
+
+Cost: $0
+Coverage: ~95% of known malware
+```
+
+Recommendation
+
+Use Cloudflare 1.1.1.2 (free) as default, upgrade to NextDNS ($1.99/month) if you want:
 - Per-device control
 - Usage analytics
 - Parental controls
 
 ---
 
-## Layer 4: VPN for Work Devices (Defense in Depth)
+Layer 4: VPN for Work Devices (Defense in Depth)
 
 Even with network segmentation, your work laptop should have a VPN. This provides encryption for work traffic.
 
-### Two VPN Approaches
+Two VPN Approaches
 
-**Approach A: Company VPN (Required by Most Employers)**
+Approach A: Company VPN (Required by Most Employers)
 ```bash
-# Your company likely mandates VPN for all remote work
-# Common VPN clients:
-# - Cisco AnyConnect
-# - Palo Alto Networks GlobalProtect
-# - Fortinet FortiClient
-# - OpenVPN
+Your company likely mandates VPN for all remote work
+Common VPN clients:
+- Cisco AnyConnect
+- Palo Alto Networks GlobalProtect
+- Fortinet FortiClient
+- OpenVPN
 
-# Setup: Download from company, install, login
+Setup: Download from company, install, login
 
-# Benefit: All work traffic encrypted to company
-# Cost: $0 (provided by employer)
+Benefit: All work traffic encrypted to company
+Cost: $0 (provided by employer)
 ```
 
-**Approach B: Personal VPN (Additional Layer)**
+Approach B: Personal VPN (Additional Layer)
 ```bash
-# Using a personal VPN provides:
-# - Encryption to VPN provider (not to company directly)
-# - IP masking (hide home IP from websites)
-# - Protection on public WiFi (if you work from coffee shops)
+Using a personal VPN provides:
+- Encryption to VPN provider (not to company directly)
+- IP masking (hide home IP from websites)
+- Protection on public WiFi (if you work from coffee shops)
 
-# Note: Check company policy before installing
-# Most companies prohibit personal VPNs (policy enforcement)
+Check company policy before installing
+Most companies prohibit personal VPNs (policy enforcement)
 ```
 
-### VPN Pricing Comparison (If Allowed)
+VPN Pricing Comparison (If Allowed)
 
 | VPN | Cost | Speed | Privacy | Encryption |
 |-----|------|-------|---------|------------|
@@ -350,38 +350,38 @@ Even with network segmentation, your work laptop should have a VPN. This provide
 | Surfshark | $3/mo | Good | Good | AES-256 |
 | ExpressVPN | $7/mo | Excellent | Good | AES-256 |
 
-**Recommendation: Ask your company first**
+Ask your company first
 - Most disallow personal VPN (conflicts with DLP/monitoring)
 - If allowed: Use Mullvad ($5/mo, no accounts, full privacy)
 
 ---
 
-## Layer 5: Guest Network (Isolate Visitors)
+Layer 5: Guest Network (Isolate Visitors)
 
 Most routers have guest networks. Enable it.
 
-### Guest Network Configuration
+Guest Network Configuration
 
-**On Standard Router (Netgear/TP-Link):**
+On Standard Router (Netgear/TP-Link):
 ```bash
-# Router admin > Wireless > Guest Network
-# Enable: Yes
-# SSID: "Home-Guest"
-# Security: WPA3
-# Password: Different from main network
-# Isolation: Enable (guest can't see main network)
+Router admin > Wireless > Guest Network
+Enable: Yes
+SSID: "Home-Guest"
+Security: WPA3
+Password: Different from main network
+Isolation: Enable (guest can't see main network)
 ```
 
-**On Ubiquiti Dream Machine:**
+On Ubiquiti Dream Machine:
 ```bash
-# Unifi > Networks > Create New Network
-# Type: Guest
-# SSID: "Home-Guest"
-# Firewall: Deny to LAN
-# Result: Guests can access internet, nothing else
+Unifi > Networks > Create New Network
+Type: Guest
+SSID: "Home-Guest"
+Firewall: Deny to LAN
+Guests can access internet, nothing else
 ```
 
-**Best Practices:**
+Best Practices:
 ```
 Guest Network Password Rotation:
 - Change password monthly (prevents permanent sharing)
@@ -389,21 +389,21 @@ Guest Network Password Rotation:
 - Store in password manager for easy lookup
 
 Password generation:
-# Use 12-character alphanumeric password
-# Easy for guests to remember
-# Hard for attackers to guess
-# Example: TxK9mL2bVp7s
+Use 12-character alphanumeric password
+Easy for guests to remember
+Hard for attackers to guess
+TxK9mL2bVp7s
 ```
 
 ---
 
-## Layer 6: Firewall Rules (Block Unnecessary Connections)
+Layer 6: Firewall Rules (Block Unnecessary Connections)
 
 Modern routers have built-in firewalls. Configure them properly.
 
-### Firewall Rules for Work Network (VLAN 1)
+Firewall Rules for Work Network (VLAN 1)
 
-**Rule Set for Work VLAN:**
+Rule Set for Work VLAN:
 ```
 Allow: Work → Internet (required)
 Allow: Work → Company DNS (required)
@@ -415,34 +415,34 @@ Deny:  IoT → Work (prevents malware from IoT reaching work)
 Deny:  Guest → Work (prevents visitor device attacks)
 ```
 
-### Implementation on Ubiquiti Dream Machine
+Implementation on Ubiquiti Dream Machine
 
 ```bash
-# Unifi > Settings > Routing & Firewall > Firewall Rules
+Unifi > Settings > Routing & Firewall > Firewall Rules
 
-# Rule 1: Block IoT from accessing Work
-# Source: IoT VLAN (192.168.3.0/24)
-# Destination: Work VLAN (192.168.1.0/24)
-# Action: Drop
-# Logging: Enabled (see blocked attempts)
+Rule 1: Block IoT from accessing Work
+Source: IoT VLAN (192.168.3.0/24)
+Destination: Work VLAN (192.168.1.0/24)
+Action: Drop
+Logging: Enabled (see blocked attempts)
 
-# Rule 2: Block Work from IoT (return traffic allowed)
-# Source: Work VLAN (192.168.1.0/24)
-# Destination: IoT VLAN (192.168.3.0/24)
-# Action: Drop
+Rule 2: Block Work from IoT (return traffic allowed)
+Source: Work VLAN (192.168.1.0/24)
+Destination: IoT VLAN (192.168.3.0/24)
+Action: Drop
 
-# Rule 3: Allow Work to Internet
-# Source: Work VLAN
-# Destination: 0.0.0.0/0 (any)
-# Action: Accept
-# (This is default, but make it explicit)
+Rule 3: Allow Work to Internet
+Source: Work VLAN
+Destination: 0.0.0.0/0 (any)
+Action: Accept
+(This is default, but make it explicit)
 ```
 
 ---
 
-## Complete Setup Costs
+Complete Setup Costs
 
-### Budget Option (Using Existing Router)
+Budget Option (Using Existing Router)
 
 ```
 Cloudflare DNS filtering:    $0/month
@@ -456,7 +456,7 @@ Limitations:
 - IoT devices on same network as work laptop
 - No per-device control
 
-### Mid-Range (TP-Link with OpenWrt + NextDNS)
+Mid-Range (TP-Link with OpenWrt + NextDNS)
 
 ```
 TP-Link Archer AX6000:       $150 (one-time)
@@ -474,7 +474,7 @@ Benefits:
 - Advanced firewall rules
 - per-device control
 
-### Premium (Ubiquiti Dream Machine Pro)
+Premium (Ubiquiti Dream Machine Pro)
 
 ```
 Ubiquiti Dream Machine Pro:  $379 (one-time)
@@ -494,9 +494,9 @@ Benefits:
 
 ---
 
-## Implementation Checklist
+Implementation Checklist
 
-**Week 1: Basic Hardening**
+Week 1: Basic Hardening
 - [ ] Change router admin password
 - [ ] Enable WPA3 (or WPA2)
 - [ ] Update router firmware
@@ -504,7 +504,7 @@ Benefits:
 - [ ] Enable DNS filtering (Cloudflare 1.1.1.2)
 - [ ] Enable guest network
 
-**Week 2: Advanced Segmentation (If New Router)**
+Week 2: Advanced Segmentation (If New Router)
 - [ ] Purchase router supporting VLANs
 - [ ] Install and configure
 - [ ] Create Work VLAN
@@ -512,7 +512,7 @@ Benefits:
 - [ ] Create Guest VLAN
 - [ ] Create firewall rules
 
-**Week 3: Ongoing Maintenance**
+Week 3: Ongoing Maintenance
 - [ ] Schedule monthly firmware checks
 - [ ] Rotate guest network password
 - [ ] Review firewall logs for blocked connections
@@ -520,9 +520,9 @@ Benefits:
 
 ---
 
-## Troubleshooting Common Issues
+Troubleshooting Common Issues
 
-**Issue 1: "My IoT device can't reach the server"**
+Issue 1: "My IoT device can't reach the server"
 ```
 Cause: VLAN firewall rule blocking connection
 Solution:
@@ -531,7 +531,7 @@ Solution:
 3. Or: Create specific allow rule (best)
 ```
 
-**Issue 2: "Website not loading on guest network"**
+Issue 2: "Website not loading on guest network"
 ```
 Cause: DNS filtering blocking domain
 Solution:
@@ -540,7 +540,7 @@ Solution:
 3. Or: Check WiFi isolation (should allow internet)
 ```
 
-**Issue 3: "Work laptop can't reach local NAS"**
+Issue 3: "Work laptop can't reach local NAS"
 ```
 Cause: VLAN isolation prevents local access
 Solution:
@@ -551,57 +551,57 @@ Solution:
 
 ---
 
-## Monitoring and Maintenance
+Monitoring and Maintenance
 
-### Monthly Tasks
+Monthly Tasks
 ```bash
-# Check for firmware updates
-# Router admin > System > Firmware
-# Review DNS filter logs (if using NextDNS)
-# Check for new WiFi security advisories
+Check for firmware updates
+Router admin > System > Firmware
+Review DNS filter logs (if using NextDNS)
+Check for new WiFi security advisories
 ```
 
-### Quarterly Tasks
+Quarterly Tasks
 ```bash
-# Review firewall rule logs
-# Update WiFi password (if policy requires)
-# Check for new malware domains in blocklist
+Review firewall rule logs
+Update WiFi password (if policy requires)
+Check for new malware domains in blocklist
 ```
 
-### Annually
+Annually
 ```bash
-# Full security audit
-# Change all passwords (router admin, WiFi)
-# Review VLAN configuration
-# Update all firmware
+Full security audit
+Change all passwords (router admin, WiFi)
+Review VLAN configuration
+Update all firmware
 ```
 
 ---
 
-## Security Best Practices
+Security Best Practices
 
-**1. Physical Security**
+1. Physical Security
 ```
 - Keep router in locked cabinet (if possible)
 - Prevent guests from accessing router ports
 - Use cable locks for valuable equipment
 ```
 
-**2. Monitoring**
+2. Monitoring
 ```
 - Enable logging on firewall rules
 - Review logs monthly for suspicious activity
 - Set alerts for failed login attempts
 ```
 
-**3. Updates**
+3. Updates
 ```
 - Enable auto-updates on router (if available)
 - Check firmware monthly
 - Don't ignore security patches
 ```
 
-**4. Documentation**
+4. Documentation
 ```
 - Write down network SSIDs
 - Store WiFi passwords in password manager
@@ -611,15 +611,15 @@ Solution:
 
 ---
 
-## Bottom Line
+Bottom Line
 
 A well-configured home network is critical for remote work security:
 
-1. **Start with basics:** Change password, enable WPA3, update firmware ($0)
-2. **Add segmentation:** VLANs isolate IoT/guests from work devices ($150-379)
-3. **Enable filtering:** DNS filtering blocks malware domains ($0-2/month)
-4. **Use VPN:** Company-provided VPN encrypts work traffic ($0)
-5. **Maintain:** Monthly firmware checks and password rotation (15 min/month)
+1. Start with basics: Change password, enable WPA3, update firmware ($0)
+2. Add segmentation: VLANs isolate IoT/guests from work devices ($150-379)
+3. Enable filtering: DNS filtering blocks malware domains ($0-2/month)
+4. Use VPN: Company-provided VPN encrypts work traffic ($0)
+5. Maintain: Monthly firmware checks and password rotation (15 min/month)
 
 Total investment: $150-379 one-time + $2/month
 
@@ -627,7 +627,7 @@ Your company likely spends $10,000+ per year protecting the office network. Your
 
 ---
 
-## Tool Quick Reference
+Tool Quick Reference
 
 | Tool | Purpose | Cost | Setup |
 |------|---------|------|-------|
@@ -639,34 +639,34 @@ Your company likely spends $10,000+ per year protecting the office network. Your
 
 Start with Layer 1 and 3 (free, immediate protection), upgrade to Layer 2 (VLANs) when you can afford better router.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to complete this setup?**
+How long does it take to complete this setup?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Is this approach secure enough for production?**
+Is this approach secure enough for production?
 
 The patterns shown here follow standard practices, but production deployments need additional hardening. Add rate limiting, input validation, proper secret management, and monitoring before going live. Consider a security review if your application handles sensitive user data.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Check your router's current firmware version](/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
 - [Security Tools for a Fully Remote Company Under 20 Employees](/security-tools-for-a-fully-remote-company-under-20-employees/)
 - [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
 - [How to Set Up HIPAA Compliant Home Office for Remote](/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
 - [How to Audit Remote Employee Device Security Compliance](/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

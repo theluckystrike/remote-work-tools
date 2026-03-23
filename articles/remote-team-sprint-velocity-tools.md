@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tools for Remote Team Sprint Velocity"
-description: "Track sprint velocity across a distributed team using Linear, Jira, and custom GitHub scripts — with burndown charts, capacity formulas, and async."
+description: "Track sprint velocity across a distributed team using Linear, Jira, and custom GitHub scripts. with burndown charts, capacity formulas, and async."
 date: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-sprint-velocity-tools/
@@ -14,13 +14,13 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-## Best Tools for Remote Team Sprint Velocity
+Best Tools for Remote Team Sprint Velocity
 
-Velocity is the average story points a team completes per sprint. For remote teams, the hard part isn't the math — it's getting consistent data when team members are across time zones and stand-ups are async. This guide covers the tools and scripts that make velocity tracking accurate and actionable.
+Velocity is the average story points a team completes per sprint. For remote teams, the hard part isn't the math. it's getting consistent data when team members are across time zones and stand-ups are async. This guide covers the tools and scripts that make velocity tracking accurate and actionable.
 
 ---
 
-## Why Velocity Tracking Breaks for Remote Teams
+Why Velocity Tracking Breaks for Remote Teams
 
 Common failure modes:
 
@@ -29,19 +29,19 @@ Common failure modes:
 - Capacity changes (PTO, time zone overlap reductions) aren't tracked against velocity
 - Velocity charts in Jira/Linear that no one looks at because they don't account for team size changes
 
-The fix isn't a better chart — it's enforcing a definition of done and normalizing velocity for capacity. Both require a small amount of process discipline plus the right API queries.
+The fix isn't a better chart. it's enforcing a definition of done and normalizing velocity for capacity. Both require a small amount of process discipline plus the right API queries.
 
 ---
 
-## Tool 1: Linear (Best for Engineering Teams)
+Tool 1: Linear (Best for Engineering Teams)
 
 Linear's Cycles feature is the cleanest sprint tracking interface available. Issues have an explicit cycle scope, and the API lets you pull velocity data programmatically.
 
-**Query sprint velocity via Linear GraphQL API:**
+Query sprint velocity via Linear GraphQL API:
 
 ```python
 #!/usr/bin/env python3
-# linear_velocity.py — print velocity for last 6 cycles
+linear_velocity.py. print velocity for last 6 cycles
 import os
 import requests
 from collections import defaultdict
@@ -103,13 +103,13 @@ for cycle in cycles:
     print(f"{cycle['name']:<20} {total_points:<8} {len(completed_issues):<8} {per_eng}")
 ```
 
-**Linear Cycle Burndown Data**
+Linear Cycle Burndown Data
 
 Pull burndown data per cycle to understand pace mid-sprint, not just at the end:
 
 ```python
 #!/usr/bin/env python3
-# linear_burndown.py — daily remaining points for current cycle
+linear_burndown.py. daily remaining points for current cycle
 import os, requests
 from datetime import datetime, timedelta
 
@@ -168,11 +168,11 @@ print(f"Status: {'On track' if remaining <= ideal_remaining else 'Behind'}")
 
 ---
 
-## Tool 2: Jira Cloud (with JQL and Automation)
+Tool 2: Jira Cloud (with JQL and Automation)
 
 Jira has more configuration overhead but is mandated at many organizations. Use JQL to extract velocity data cleanly.
 
-**JQL for completed sprint work:**
+JQL for completed sprint work:
 
 ```
 project = MYPROJ
@@ -183,11 +183,11 @@ AND issuetype in (Story, Task, Bug)
 ORDER BY resolutiondate ASC
 ```
 
-**Export via Jira REST API:**
+Export via Jira REST API:
 
 ```bash
 #!/bin/bash
-# jira-velocity.sh — print points completed per sprint
+jira-velocity.sh. print points completed per sprint
 JIRA_URL="https://yourorg.atlassian.net"
 JIRA_EMAIL="you@yourcompany.com"
 JIRA_TOKEN="$JIRA_API_TOKEN"
@@ -196,7 +196,7 @@ SPRINTS_BACK=8
 
 auth=$(echo -n "$JIRA_EMAIL:$JIRA_TOKEN" | base64)
 
-# Get sprint IDs
+Get sprint IDs
 sprint_ids=$(curl -s -H "Authorization: Basic $auth" \
   "$JIRA_URL/rest/agile/1.0/board/$(curl -s -H "Authorization: Basic $auth" \
     "$JIRA_URL/rest/agile/1.0/board?projectKeyOrId=$PROJECT" \
@@ -215,7 +215,7 @@ for sprint_id in $sprint_ids; do
 done
 ```
 
-**Jira Automation for Sprint Close Reports**
+Jira Automation for Sprint Close Reports
 
 Use Jira's built-in Automation feature (Project Settings > Automation) to generate a sprint summary automatically when a sprint closes:
 
@@ -227,13 +227,13 @@ This avoids the need for custom API scripts for teams that live in Jira's UI.
 
 ---
 
-## Tool 3: GitHub Issues + Custom Script
+Tool 3: GitHub Issues + Custom Script
 
 Teams using GitHub Issues for project tracking can calculate velocity from closed issues in a milestone:
 
 ```python
 #!/usr/bin/env python3
-# github_velocity.py
+github_velocity.py
 import os
 import requests
 
@@ -245,7 +245,7 @@ headers = {
     "Accept": "application/vnd.github.v3+json",
 }
 
-# Get all closed milestones
+Get all closed milestones
 milestones = requests.get(
     f"https://api.github.com/repos/{REPO}/milestones",
     headers=headers,
@@ -279,12 +279,12 @@ for milestone in milestones[:8]:
 
 ---
 
-## Capacity-Adjusted Velocity
+Capacity-Adjusted Velocity
 
 Raw velocity is misleading if team size changes. Normalize per engineer-sprint:
 
 ```python
-# Capacity-adjusted velocity formula
+Capacity-adjusted velocity formula
 def adjusted_velocity(points_completed, planned_capacity_days, team_size):
     """
     Returns points per engineer-day, normalized for capacity.
@@ -294,7 +294,7 @@ def adjusted_velocity(points_completed, planned_capacity_days, team_size):
     """
     return round(points_completed / planned_capacity_days, 2)
 
-# Example usage
+Example usage
 sprint_data = [
     {"sprint": "Sprint 40", "points": 42, "capacity_days": 50},
     {"sprint": "Sprint 41", "points": 38, "capacity_days": 47},  # PTO
@@ -305,7 +305,7 @@ for sprint in sprint_data:
     adj = adjusted_velocity(sprint["points"], sprint["capacity_days"], team_size=5)
     print(f"{sprint['sprint']}: {sprint['points']} pts | {adj} pts/eng-day")
 
-# Use last 4 sprints average to forecast next sprint
+Use last 4 sprints average to forecast next sprint
 recent = sprint_data[-4:]
 avg_adj_velocity = sum(s["points"] / s["capacity_days"] for s in recent) / len(recent)
 next_sprint_capacity = 48  # one person has 2 PTO days
@@ -313,12 +313,12 @@ forecast = round(avg_adj_velocity * next_sprint_capacity)
 print(f"\nForecast for next sprint ({next_sprint_capacity} eng-days): ~{forecast} points")
 ```
 
-**Tracking Capacity Changes Across Time Zones**
+Tracking Capacity Changes Across Time Zones
 
 For globally distributed teams, available overlap hours matter as much as headcount. A 5-person team with 2 hours of daily overlap has effectively less collaborative capacity than a 4-person co-located team. Track this explicitly:
 
 ```python
-# capacity_tracker.py — log sprint capacity with overlap hours
+capacity_tracker.py. log sprint capacity with overlap hours
 import json
 from datetime import date
 
@@ -353,11 +353,11 @@ def log_sprint_capacity(sprint_name, engineers, pto_days, overlap_hours_per_day)
 
 ---
 
-## Posting Weekly Velocity to Slack
+Posting Weekly Velocity to Slack
 
 ```bash
 #!/bin/bash
-# velocity-report.sh — runs after each sprint closes
+velocity-report.sh. runs after each sprint closes
 VELOCITY=$(python3 /opt/scripts/github_velocity.py | tail -1)
 SLACK_HOOK="$SLACK_WEBHOOK_URL"
 
@@ -388,24 +388,24 @@ jobs:
 
 ---
 
-## Async Retrospective Metrics
+Async Retrospective Metrics
 
 Velocity alone doesn't explain why a sprint went well or poorly. Pair it with structured async retrospective data to build a complete picture:
 
 ```markdown
-## Sprint 42 Retro Data
+Sprint 42 Retro Data
 
-**Velocity:** 45 pts (forecast was 48)
+Velocity: 45 pts (forecast was 48)
 
-**What slowed us:**
+What slowed us:
 - [ ] Auth service PR sat in review 4 days (tag: review_delay)
 - [ ] Two unplanned production incidents (tag: incidents)
 
-**What went well:**
+What went well:
 - [ ] All planned features shipped
 - [ ] Zero regression bugs from QA
 
-**Action items:**
+Action items:
 - [ ] Set max 48-hour review SLA for PRs @alice owns rotation
 - [ ] Add incident response runbook to reduce investigation time
 ```
@@ -413,7 +413,7 @@ Velocity alone doesn't explain why a sprint went well or poorly. Pair it with st
 Store retro notes in a structured format (YAML or JSON in your repo) and query them over time to find patterns:
 
 ```bash
-# Count review_delay tags across last 10 retros
+Count review_delay tags across last 10 retros
 grep -r "review_delay" retros/ | wc -l
 ```
 
@@ -421,7 +421,7 @@ When velocity drops, checking 3 retros back usually surfaces the systemic cause.
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Best Tools for Remote Team A/B Testing](/remote-team-ab-testing-tools/)
 - [Best Tools for Remote Team Post-Mortems](/remote-team-post-mortem-tools/)
@@ -429,5 +429,5 @@ When velocity drops, checking 3 retros back usually surfaces the systemic cause.
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

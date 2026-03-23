@@ -15,79 +15,79 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-When you add an external monitor to your MacBook setup, color inconsistency becomes immediately apparent. The same image looks different on each display—warmer on one, cooler on the other. This mismatch happens because every monitor ships with different color profiles, backlight technology, and calibration settings. Matching colors across your MacBook and external display requires understanding color profiles, display calibration, and sometimes manual adjustment.
+When you add an external monitor to your MacBook setup, color inconsistency becomes immediately apparent. The same image looks different on each display, warmer on one, cooler on the other. This mismatch happens because every monitor ships with different color profiles, backlight technology, and calibration settings. Matching colors across your MacBook and external display requires understanding color profiles, display calibration, and sometimes manual adjustment.
 
 This guide covers practical methods to achieve consistent color reproduction across your dual display setup, from quick adjustments to professional-grade calibration.
 
-## Understanding Color Profiles on macOS
+Understanding Color Profiles on macOS
 
-macOS manages display colors through **ColorSync**, a built-in color management system that matches colors across different devices. Each display uses an ICC (International Color Consortium) profile that defines how colors appear.
+macOS manages display colors through ColorSync, a built-in color management system that matches colors across different devices. Each display uses an ICC (International Color Consortium) profile that defines how colors appear.
 
 Your MacBook automatically assigns color profiles to connected displays. To check current profiles:
 
-1. Open **System Settings** → **Displays**
-2. Click **Color Profile** for each display
+1. Open System Settings → Displays
+2. Click Color Profile for each display
 3. Compare the selected profiles
 
 Common built-in profiles include:
-- **Apple Display** - For MacBook Retina displays
-- **sRGB** - Standard color space for web content
-- **Display P3** - Wide color gamut for modern displays
+- Apple Display - For MacBook Retina displays
+- sRGB - Standard color space for web content
+- Display P3 - Wide color gamut for modern displays
 
 For color matching, you'll typically want both displays using the same profile or profiles calibrated to the same standard.
 
-## Quick Fix: Matching Color Profiles
+Quick Fix: Matching Color Profiles
 
 The fastest way to reduce color mismatch is forcing both displays to use identical color profiles.
 
-### Step 1: Select a Target Profile
+Step 1: Select a Target Profile
 
-Choose a color profile that works for both displays. **sRGB** provides the most consistent experience across devices since it's the web standard, though it may limit color depth on wide-gamut displays.
+Choose a color profile that works for both displays. sRGB provides the most consistent experience across devices since it's the web standard, though it may limit color depth on wide-gamut displays.
 
-### Step 2: Apply to Both Displays
+Step 2: Apply to Both Displays
 
 ```bash
-# List available color profiles
+List available color profiles
 ls /System/Library/ColorSync/Profiles/Profiles/
 
-# Assign sRGB to external display (replace DISPLAY_ID with your display)
+Assign sRGB to external display (replace DISPLAY_ID with your display)
 displayplacer "id:DISPLAY_ID color profile:Color LCD"
 ```
 
 For manual assignment through System Settings:
 1. Connect your external monitor
-2. Go to **System Settings** → **Displays**
+2. Go to System Settings → Displays
 3. Select your external display
 4. Choose the same color profile as your MacBook display
 5. Repeat for the MacBook display
 
 This quick fix reduces obvious color shifts but won't achieve professional-grade accuracy.
 
-## Professional Calibration with Colorimeter
+Professional Calibration with Colorimeter
 
-For precise color matching—a requirement for photo editing, video work, or design—use a **colorimeter**. This hardware device measures your display's actual color output and creates custom profiles.
+For precise color matching, a requirement for photo editing, video work, or design, use a colorimeter. This hardware device measures your display's actual color output and creates custom profiles.
 
-### Recommended Colorimeters
+Recommended Colorimeters
 
-- **X-Rite i1Display Pro** - Industry standard, $275
-- **Datacolor SpyderX Pro** - Good value, $179
-- **X-Rite Colormunki Smile** - Budget option, $79
+- X-Rite i1Display Pro - Industry standard, $275
+- Datacolor SpyderX Pro - Good value, $179
+- X-Rite Colormunki Smile - Budget option, $79
 
-### Calibration Process
+Calibration Process
 
-1. **Connect both displays** and position your MacBook lid open (or closed if using only external monitors)
+1. Connect both displays and position your MacBook lid open (or closed if using only external monitors)
 
-2. **Install calibration software**
+2. Install calibration software
  - For X-Rite: Download i1Profiler from xrite.com
  - For Datacolor: Download SpyderX Elite from datacolor.com
 
-3. **Run the calibration wizard**
+3. Run the calibration wizard
  - Select "Dual Display" or "Multiple Monitors" mode
  - Place the colorimeter on the MacBook display first
  - Follow prompts through grayscale, gamma, and white point adjustments
  - Repeat for external monitor
 
-4. **Save profiles with descriptive names**
+4. Save profiles with descriptive names
  ```
    MacBook-Pro-Retina-2026-03
    Dell-U2723QE-Custom-2026-03
@@ -95,50 +95,50 @@ For precise color matching—a requirement for photo editing, video work, or des
 
 The resulting profiles will have different adjustments but produce visually matching output when both are active.
 
-## Manual White Point Adjustment
+Manual White Point Adjustment
 
 If you lack calibration hardware, manual white point adjustment reduces the most obvious color cast.
 
-### Adjust White Point in macOS
+Adjust White Point in macOS
 
-1. Open **System Settings** → **Displays** → **Color**
-2. Click **Calibrate** to open Display Calibrator Assistant
+1. Open System Settings → Displays → Color
+2. Click Calibrate to open Display Calibrator Assistant
 3. Select "Expert Mode"
 4. Adjust the white point slider toward 6500K (daylight)
 5. Complete the wizard and save a custom profile
 
-### Using Night Shift for Warmth Matching
+Using Night Shift for Warmth Matching
 
 If your external monitor runs warmer (more yellow) than your MacBook:
 
-1. Enable **Night Shift** on the MacBook display
+1. Enable Night Shift on the MacBook display
 2. Set both displays to similar color temperatures
 3. Adjust the slider until displays appear similar
 
 ```bash
-# Enable Night Shift programmatically (requires macOS 12+)
-# Set to 3700K warmth
+Enable Night Shift programmatically (requires macOS 12+)
+Set to 3700K warmth
 defaults write com.apple.NightShift "NSSettings" -dict-add "NightShiftTemperature" 3700
 ```
 
-## Automating Profile Switching
+Automating Profile Switching
 
 If you work in different lighting conditions, create automation to switch color profiles based on ambient light or time of day.
 
-### Shell Script for Profile Switching
+Shell Script for Profile Switching
 
 ```bash
 #!/bin/bash
-# switch-display-profile.sh
+switch-display-profile.sh
 
 EXTERNAL_DISPLAY="Dell U2723QE"
 PROFILE_DAY="Color LCD"
 PROFILE_NIGHT="sRGB"
 
-# Get current hour
+Get current hour
 HOUR=$(date +%H)
 
-# Switch based on time
+Switch based on time
 if [ "$HOUR" -ge 18 ] || [ "$HOUR" -lt 8 ]; then
     echo "Switching to night profile: $PROFILE_NIGHT"
     # Apply to external display
@@ -149,7 +149,7 @@ else
 fi
 ```
 
-### LaunchAgent for Automatic Switching
+LaunchAgent for Automatic Switching
 
 Create `~/Library/LaunchAgents/com.display-profile.schedule.plist`:
 
@@ -181,7 +181,7 @@ Create `~/Library/LaunchAgents/com.display-profile.schedule.plist`:
 
 Load with: `launchctl load ~/Library/LaunchAgents/com.display-profile.schedule.plist`
 
-## Matching Different Monitor Types
+Matching Different Monitor Types
 
 Matching an external monitor to your MacBook becomes tricky when they use different panel technologies:
 
@@ -193,76 +193,76 @@ Matching an external monitor to your MacBook becomes tricky when they use differ
 
 For mismatched panel types:
 
-1. **Accept gamma differences** - VA panels naturally render gamma differently than IPS
-2. **Match white point** - Both displays should have similar color temperature
-3. **Calibrate to a middle ground** - Neither display will be perfectly accurate, but both will be consistent
+1. Accept gamma differences - VA panels naturally render gamma differently than IPS
+2. Match white point - Both displays should have similar color temperature
+3. Calibrate to a middle ground - Neither display will be perfectly accurate, but both will be consistent
 
-## Checking Color Consistency
+Checking Color Consistency
 
 After calibration, verify matching using test images:
 
-### Grayscale Test
+Grayscale Test
 
 Display a grayscale gradient. Both monitors should show smooth transitions from black to white without color casts.
 
-### Skin Tone Test
+Skin Tone Test
 
 Use a reference photo with diverse skin tones. Adjust until skin tones appear similar on both displays.
 
-### Online Test Resources
+Online Test Resources
 
-- **CalMAN Patterns** - Professional calibration patterns
-- **Lagom LCD Test** - Free online display tests
-- **BenQ Calibration Patterns** - Downloadable test images
+- CalMAN Patterns - Professional calibration patterns
+- Lagom LCD Test - Free online display tests
+- BenQ Calibration Patterns - Downloadable test images
 
-## Common Issues and Solutions
+Common Issues and Solutions
 
-**Problem: Colors look washed out on external monitor**
+Problem: Colors look washed out on external monitor
 - Solution: Check the color profile is set to a non-limited range option. Enable "Use Full Range" in display settings.
 
-**Problem: One display is noticeably warmer**
+Problem: One display is noticeably warmer
 - Solution: Manually adjust white point on the warmer display using the Calibrator Assistant.
 
-**Problem: Profiles reset after sleep**
+Problem: Profiles reset after sleep
 - Solution: Create a LaunchAgent that reapplies profiles after wake:
 
 ```bash
 #!/bin/bash
-# Reapply profiles on wake
+Reapply profiles on wake
 /usr/local/bin/displayplacer "id:EXTERNAL_ID color profile:Dell-U2723QE-Custom"
 ```
 
-**Problem: HDR content breaks color matching**
-- Solution: Disable HDR for desktop use. Go to **System Settings** → **Displays** → **Advanced** and disable HDR.
+Problem: HDR content breaks color matching
+- Solution: Disable HDR for desktop use. Go to System Settings → Displays → Advanced and disable HDR.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**Can I trust these tools with sensitive data?**
+Can I trust these tools with sensitive data?
 
 Review each tool's privacy policy, data handling practices, and security certifications before using it with sensitive data. Look for SOC 2 compliance, encryption in transit and at rest, and clear data retention policies. Enterprise tiers often include stronger privacy guarantees.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Best External Display for MacBook Air M4 Home Office Setup](/best-external-display-for-macbook-air-m4-home-office-setup/)
 - [Best Lighting Setup for Video Calls in Basement Home Office](/best-lighting-setup-for-video-calls-in-basement-home-office/)
 - [Best Remote Work Monitor Under 300 Dollars 2026](/best-remote-work-monitor-under-300-dollars-2026/)
 - [Portable Monitor Setup for Digital Nomads](/portable-monitor-setup-for-digital-nomads/)
 - [Home Office Lighting Setup for Productivity](/home-office-lighting-setup-for-productivity-guide/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

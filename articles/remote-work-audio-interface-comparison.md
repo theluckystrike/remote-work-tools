@@ -14,13 +14,13 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-## Remote Work Audio Interface Comparison
+Remote Work Audio Interface Comparison
 
-A USB microphone is fine for most calls. An audio interface with a condenser or dynamic mic is what you use when the quality of your voice is part of your job — when you're running all-hands calls, recording courses, or leading engineering standups for 50 people. This guide compares the four interfaces that remote workers actually buy in 2026.
+A USB microphone is fine for most calls. An audio interface with a condenser or dynamic mic is what you use when the quality of your voice is part of your job. when you're running all-hands calls, recording courses, or leading engineering standups for 50 people. This guide compares the four interfaces that remote workers actually buy in 2026.
 
 ---
 
-## Why an Audio Interface Over a USB Mic
+Why an Audio Interface Over a USB Mic
 
 - Better preamps add less noise and handle more dynamic range than circuits in USB microphones
 - Access to any XLR mic, including the used market for broadcast dynamics ($60-120) that outperform $200 USB mics
@@ -29,7 +29,7 @@ A USB microphone is fine for most calls. An audio interface with a condenser or 
 
 ---
 
-## The Contenders
+The Contenders
 
 | Interface | Inputs | Sample Rate | Price |
 |-----------|--------|-------------|-------|
@@ -40,85 +40,85 @@ A USB microphone is fine for most calls. An audio interface with a condenser or 
 
 ---
 
-## Focusrite Scarlett Solo 4th Gen
+Focusrite Scarlett Solo 4th Gen
 
 The Solo is the default recommendation. Clean preamp, green/red gain halo that shows visually whether you're clipping. The 4th gen added Auto Gain and Clip Safe.
 
-**Strengths:**
+Strengths:
 - Drivers work on macOS, Windows, and Linux (class-compliant USB audio)
 - Auto Gain calibrates optimal level in 10 seconds
 - Air mode adds high-frequency presence boost for clearer voice
 - Built-in headphone output with independent volume control
 
-**Weaknesses:**
+Weaknesses:
 - Only one XLR input
 - Preamp has a slightly bright character compared to SSL
 
-**Gain setting for calls:** Set gain so your voice peaks at -12 dBFS. Dynamic mics need the knob past 12 o'clock. Condenser mics: 9-11 o'clock.
+Gain setting for calls: Set gain so your voice peaks at -12 dBFS. Dynamic mics need the knob past 12 o'clock. Condenser mics: 9-11 o'clock.
 
-**Linux driver check:**
+Linux driver check:
 
 ```bash
 aplay -l | grep -i scarlett
-# card X: Scarlett Solo USB [Scarlett Solo USB], ...
+card X: Scarlett Solo USB [Scarlett Solo USB], ...
 
 cat /proc/asound/card*/stream*
 ```
 
 ---
 
-## SSL 2
+SSL 2
 
 The SSL 2 uses the 4K console preamp character. Noticeably warmer and wider than the Scarlett. The Legacy 4K button adds SSL harmonic saturation that makes vocals sit better without EQ.
 
-**Strengths:**
+Strengths:
 - Two combo inputs
 - Best preamp quality in this price range
 - USB bus-powered, no wall adapter
 - 4K mode adds character without touching the gain chain
 
-**Weaknesses:**
+Weaknesses:
 - No hardware direct monitoring blend knob
 - Headphone amp is weaker than Focusrite
 
-**Who it's for:** Anyone recording voice regularly who cares about warmth.
+Who it's for: Anyone recording voice regularly who cares about warmth.
 
 ---
 
-## M-Audio AIR 192|4
+M-Audio AIR 192|4
 
 Two inputs at $100. The XMAX preamps are clean but unremarkable.
 
-**Strengths:**
+Strengths:
 - Lowest price for a two-input interface
 - Works class-compliant on Linux
 - AIR mode (presence boost) works well with condenser mics
 
-**Weaknesses:**
+Weaknesses:
 - Build quality feels plasticky
 - Preamps pick up more self-noise at high gain settings
 - No standalone headphone monitoring
 
 ---
 
-## Universal Audio Volt 176
+Universal Audio Volt 176
 
 Has a built-in hardware compressor modeled on the UA 176 tube compressor. One-knob compression that makes a dynamic mic recording sound like it's been through a hardware chain.
 
-**Strengths:**
+Strengths:
 - Vintage mode adds subtle harmonic saturation that flatters voice
-- Built-in 76 compressor — flip a switch, get automatic limiting
+- Built-in 76 compressor. flip a switch, get automatic limiting
 - Solid aluminum build
 
-**Weaknesses:**
+Weaknesses:
 - One XLR input only at $200 is harder to justify vs. SSL 2 at $160 for two
 - Compressor has no attack/release control
 
-**76 Compressor in practice:** Enable for conference calls where you move or speak at varying volumes. Disable for recording you'll mix later.
+76 Compressor in practice: Enable for conference calls where you move or speak at varying volumes. Disable for recording you'll mix later.
 
 ---
 
-## Gain Staging Reference
+Gain Staging Reference
 
 ```
 Source                   | Interface Gain | Target Level
@@ -132,17 +132,17 @@ Guitar direct            | 30-50%         | Peaks at -18 dBFS
 
 ---
 
-## Configuring as Default Audio on macOS
+Configuring as Default Audio on macOS
 
 ```bash
-# List audio devices
+List audio devices
 system_profiler SPAudioDataType | grep "Device Name"
 
-# Set default output (requires SwitchAudioSource)
+Set default output (requires SwitchAudioSource)
 brew install switchaudio-osx
 SwitchAudioSource -s "Scarlett Solo USB"
 
-# Check sample rate
+Check sample rate
 system_profiler SPAudioDataType | grep "Current SampleRate"
 ```
 
@@ -150,20 +150,20 @@ Set to 44.1kHz in Audio MIDI Setup for calls. Higher sample rates consume CPU wi
 
 ---
 
-## Platform-Specific Driver Configuration
+Platform-Specific Driver Configuration
 
-### Windows: ASIO vs. WDM
+Windows: ASIO vs. WDM
 
 Windows ships two audio driver models. WDM (Windows Driver Model) is what every app uses by default. ASIO is a low-latency driver model that bypasses Windows audio mixing for near-zero latency monitoring.
 
-For remote work calls (Zoom, Teams, Google Meet), WDM is correct — these apps do not support ASIO and adding an ASIO layer creates routing complexity.
+For remote work calls (Zoom, Teams, Google Meet), WDM is correct. these apps do not support ASIO and adding an ASIO layer creates routing complexity.
 
 ```
-# In Focusrite Control (Scarlett's companion app):
-# Set Sample Rate: 44100 Hz (for calls; 48000 Hz for recording)
-# Set Buffer Size: 256 samples (for calls; 64 samples for tracking)
-# Enable: Mix A → USB 1/2 (sends your audio to the computer)
-# Disable: DAW monitoring (use direct monitoring instead)
+In Focusrite Control (Scarlett's companion app):
+Set Sample Rate: 44100 Hz (for calls; 48000 Hz for recording)
+Set Buffer Size: 256 samples (for calls; 64 samples for tracking)
+Enable: Mix A → USB 1/2 (sends your audio to the computer)
+Disable: DAW monitoring (use direct monitoring instead)
 ```
 
 For the SSL 2 on Windows:
@@ -171,38 +171,38 @@ For the SSL 2 on Windows:
 2. Set the sample rate in SSL 360 software to match your DAW/call app
 3. In Windows Sound settings: set the SSL 2 as both Default Device and Default Communication Device
 
-### Linux: ALSA and PipeWire
+Linux: ALSA and PipeWire
 
-All four interfaces work class-compliant on Linux — no driver installation needed. Verify:
+All four interfaces work class-compliant on Linux. no driver installation needed. Verify:
 
 ```bash
-# List audio capture devices
+List audio capture devices
 arecord -l
-# Should show: card 0: USB [Scarlett Solo USB], device 0: USB Audio [USB Audio]
+Should show: card 0: USB [Scarlett Solo USB], device 0: USB Audio [USB Audio]
 
-# Set default input device
+Set default input device
 cat > ~/.asoundrc << 'EOF'
 defaults.pcm.card 0
 defaults.pcm.device 0
 defaults.ctl.card 0
 EOF
 
-# Verify recording works
+Verify recording works
 arecord -D default -f S24_3LE -r 44100 -d 5 test.wav
 ```
 
 For PipeWire (modern Linux distributions):
 ```bash
-# Check PipeWire sees the interface
+Check PipeWire sees the interface
 pw-cli list-objects | grep -A3 "alsa:pcm"
 
-# Force 44.1kHz for call compatibility
+Force 44.1kHz for call compatibility
 pw-metadata -n settings 0 clock.rate 44100
 ```
 
 ---
 
-## Microphone Pairing Guide
+Microphone Pairing Guide
 
 | Interface | Budget Mic | Premium Mic |
 |-----------|-----------|-------------|
@@ -213,7 +213,7 @@ pw-metadata -n settings 0 clock.rate 44100
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Remote Work Webcam Comparison Guide 2026](/remote-work-webcam-comparison-2026/)
 - [Remote Work Microphone Comparison Guide 2026](/remote-work-microphone-comparison-2026/)
@@ -221,5 +221,5 @@ pw-metadata -n settings 0 clock.rate 44100
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

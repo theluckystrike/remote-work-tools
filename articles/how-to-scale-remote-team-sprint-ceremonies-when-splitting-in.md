@@ -17,7 +17,7 @@ voice-checked: true
 
 When your remote engineering team grows beyond eight to ten people, splitting into multiple squads becomes necessary. The challenge is maintaining sprint coordination without scheduling overlapping meetings across five time zones. This guide provides practical patterns for scaling your sprint ceremonies while preserving team autonomy and alignment.
 
-## Why Sprint Ceremonies Break Down at Scale
+Why Sprint Ceremonies Break Down at Scale
 
 A single-team Scrum format works well with six to eight people sharing a daily 15-minute standup. Once you split into squads, you face three immediate problems:
 
@@ -29,7 +29,7 @@ Third, cross-squad dependencies get lost. When Squad A's API changes break Squad
 
 The solution involves restructuring ceremonies into three categories: squad-specific sync, cross-squad coordination, and async communication.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -39,11 +39,11 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Squad-Specific Ceremonies: Keep Them Lean
+Step 1: Squad-Specific Ceremonies: Keep Them Lean
 
 Each squad should maintain minimal synchronous ceremonies while pushing information to async channels.
 
-### Async Standups Using Threaded Updates
+Async Standups Using Threaded Updates
 
 Replace daily video standups with async text or voice updates. Here's a practical Slack workflow:
 
@@ -80,7 +80,7 @@ async function collectStandupUpdates(channelId, userIds) {
 
 This script runs at a scheduled time each morning, collects responses from the previous 24 hours, and posts a consolidated view to the squad channel. Team members can catch up asynchronously without everyone being online simultaneously.
 
-### Sprint Planning: Two-Hour Workshop Max
+Sprint Planning: Two-Hour Workshop Max
 
 For sprint planning, maintain a synchronous session but limit it to two hours maximum. Structure the agenda:
 
@@ -91,11 +91,11 @@ For sprint planning, maintain a synchronous session but limit it to two hours ma
 
 The key is moving individual story selection to async. Each developer reviews the sprint backlog beforehand and adds comments to tickets they intend to pick up. The synchronous portion focuses purely on coordination.
 
-### Step 2: Cross-Squad Coordination: The Scrum of Scrums Alternative
+Step 2: Cross-Squad Coordination: The Scrum of Scrums Alternative
 
 Rather than scheduling a separate "Scrum of Scrums" meeting that nobody enjoys, embed coordination into existing workflows.
 
-### Dependency Board in Your Project Management Tool
+Dependency Board in Your Project Management Tool
 
 Create a shared board view showing cross-squad dependencies:
 
@@ -133,14 +133,14 @@ function syncDependencyBoard(linearTeams: Team[]): CrossSquadDependency[] {
 }
 ```
 
-This board becomes the single source of truth for cross-squad work. Review it during a brief 15-minute coordination slot on Tuesdays and Thursdays—much shorter than a full Scrum of Scrums.
+This board becomes the single source of truth for cross-squad work. Review it during a brief 15-minute coordination slot on Tuesdays and Thursdays, much shorter than a full Scrum of Scrums.
 
-### Async Dependency Updates
+Async Dependency Updates
 
 Instead of a live meeting, use a scheduled async update:
 
 ```yaml
-# GitHub Actions workflow for weekly cross-team sync
+GitHub Actions workflow for weekly cross-team sync
 name: Weekly Cross-Squad Sync
 on:
   schedule:
@@ -177,7 +177,7 @@ jobs:
 
 This automation posts a dependency status report every Wednesday, giving teams visibility without requiring a live meeting.
 
-### Step 3: Scaling Retrospectives: Rotate and Specialize
+Step 3: Scaling Retrospectives: Rotate and Specialize
 
 Full-team retrospectives don't scale beyond two or three squads. Implement a rotating focus model:
 
@@ -188,31 +188,31 @@ Week 4: Follow-up on previous action items
 
 This distributes the retro load while still surfacing cross-team issues.
 
-### Async Retro Format
+Async Retro Format
 
 For async retros, use a structured document template:
 
 ```markdown
-# Sprint {{sprintNumber}} Retrospective - {{squadName}}
+Sprint {{sprintNumber}} Retrospective - {{squadName}}
 
-### Step 4: What Went Well
+Step 4: What Went Well
 - [ ]
 
-### Step 5: What Could Improve
+Step 5: What Could Improve
 - [ ]
 
-### Step 6: Action Items
+Step 6: Action Items
 | Item | Owner | Due |
 |------|-------|-----|
 |      |       |     |
 
-### Step 7: Cross-Squad Blockers to Escalate
+Step 7: Cross-Squad Blockers to Escalate
 -
 ```
 
 Each squad fills this out asynchronously. The Scrum Master or Engineering Manager consolidates cross-squad blockers and raises them in the next coordination touchpoint.
 
-### Step 8: Practical Scheduling: Time Zone Consideration
+Step 8: Practical Scheduling: Time Zone Consideration
 
 When squads span multiple time zones, ceremony timing requires deliberate rotation:
 
@@ -256,49 +256,49 @@ def calculate_optimal_meeting_times(timezones: list[str], squads: list[dict]) ->
 
 This script helps you generate a rotation schedule where no single time zone consistently takes inconvenient meeting times.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to scale remote team sprint ceremonies when splitting?**
+How long does it take to scale remote team sprint ceremonies when splitting?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Best Tools for Remote Team Sprint Planning](/best-tools-for-remote-sprint-planning/)
 - [How to Run Sprints with a Remote Team of 4 Engineers](/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
 - [Best Tools for Remote Team Sprint Planning (2026)](/best-tools-for-remote-team-sprint-planning-2026/)
 - [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 - [Sprint {{ sprint_number }} Preparation](/remote-team-sprint-planning-communication-template-for-distr/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

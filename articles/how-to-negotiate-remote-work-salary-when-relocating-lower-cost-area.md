@@ -17,7 +17,7 @@ intent-checked: true
 
 Moving to a cheaper city shouldn't cost you money. Yet many remote workers accept pay cuts because they feel they "should" based on local cost of living. This is a negotiation mistake. Your salary is determined by market rate for your role, not where you sit. This guide gives you the framework and data to hold your line.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -27,13 +27,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: The Core Principle: Market Rate ≠ Local CoL
+Step 1: The Core Principle: Market Rate ≠ Local CoL
 
-Here's what employers won't tell you: your comp is based on market rate for your role and performance, not local cost of living. A senior engineer in Austin commands the same salary as a senior engineer in Bozeman. The Austin employee has higher rent; the Bozeman employee has lower rent. Both earn market rate.
+your comp is based on market rate for your role and performance, not local cost of living. A senior engineer in Austin commands the same salary as a senior engineer in Bozeman. The Austin employee has higher rent; the Bozeman employee has lower rent. Both earn market rate.
 
 When an employer suggests a pay cut for relocation, they're trying to pocket the difference in their budget.
 
-### Step 2: Salary Data by Role (2026 Market Rates)
+Step 2: Salary Data by Role (2026 Market Rates)
 
 Use these as anchors for your negotiation. All figures are US-based remote work:
 
@@ -48,21 +48,21 @@ Use these as anchors for your negotiation. All figures are US-based remote work:
 | Designer (Product) | $110k | $145k | $190k | +2% YoY |
 | Data Engineer | $135k | $175k | $240k | +3.5% YoY |
 
-**Sources:** Levels.fyi (real salaries), Blind (anonymous), OpenComp (2026 data)
+Sources: Levels.fyi (real salaries), Blind (anonymous), OpenComp (2026 data)
 
 Your actual market rate depends on:
 1. Years of experience in role
 2. Technical depth (specialization premium: +15-25%)
 3. Company stage (startup vs. public company)
-4. Your geographic region (historical—doesn't change with relocation)
+4. Your geographic region (historical, doesn't change with relocation)
 
-**Important:** If you're moving FROM a high-CoL city (SF, NYC, Boston) TO a lower-CoL city, you have use. Your employer was already paying market rate for your home city. Relocation shouldn't trigger a "cost of living adjustment" in reverse.
+If you're moving FROM a high-CoL city (SF, NYC, Boston) TO a lower-CoL city, you have use. Your employer was already paying market rate for your home city. Relocation shouldn't trigger a "cost of living adjustment" in reverse.
 
-### Step 3: The Negotiation Framework
+Step 3: The Negotiation Framework
 
-### Before the Conversation
+Before the Conversation
 
-**Step 1: Document your current market rate**
+Step 1: Document your current market rate
 
 ```
 Your Profile:
@@ -80,19 +80,19 @@ Market Rate Analysis:
 - Relocation cost savings to employer: $0 (remote, no office overhead)
 ```
 
-**Step 2: Identify negotiation use**
+Step 2: Identify negotiation use
 
 ```
 Your Apply Points:
-✓ Strong performer (reviews document this)
-✓ Specialized skills (rare in market)
-✓ Institutional knowledge (expensive to replace)
-✓ Remote role (no relocation costs to employer)
-✓ Market rate data supports current salary
-✗ Not a counter-offer situation (don't use job market as take advantage of unless true)
+ Strong performer (reviews document this)
+ Specialized skills (rare in market)
+ Institutional knowledge (expensive to replace)
+ Remote role (no relocation costs to employer)
+ Market rate data supports current salary
+ Not a counter-offer situation (don't use job market as take advantage of unless true)
 ```
 
-**Step 3: Prepare responses to common objections**
+Step 3: Prepare responses to common objections
 
 | Objection | Response | Data |
 |-----------|----------|------|
@@ -100,65 +100,65 @@ Your Apply Points:
 | "Other Austin employees earn less" | "I'm comparing to market rate for my level, not internal equity. Would you reduce salary for moving TO SF?" | Point out illogic |
 | "Your value to company depends on location" | "My value is the code I write, systems I build, and teams I lead. Location is irrelevant for remote roles." | List specific contributions |
 | "Austin salaries are lower" | "Austin *entry-level* salaries are lower. Senior roles compete globally. Check Levels.fyi." | Share data |
-| "We need to review your role" | "I'm not asking for a raise—I'm asking you preserve my market-rate salary during relocation." | Reframe as status quo |
+| "We need to review your role" | "I'm not asking for a raise, I'm asking you preserve my market-rate salary during relocation." | Reframe as status quo |
 
-### The Conversation Itself
+The Conversation Itself
 
-**Timing:** After your relocation decision is public but before you announce it to your team.
+Timing: After your relocation decision is public but before you announce it to your team.
 
-**Who to talk to:** Your manager first, then HR/compensation if needed. Ideally your manager advocates for you.
+Who to talk to: Your manager first, then HR/compensation if needed. Ideally your manager advocates for you.
 
-**Opening (your manager):**
+Opening (your manager):
 
-"Hey, I wanted to give you a heads up—I'm relocating to Austin in Q2. My role remains the same, my performance hasn't changed, and I expect my compensation to remain at market rate for a senior engineer. I've done research on market rates, and based on Levels.fyi and industry benchmarks, my salary should stay in the $210-230k range. Can you help me confirm that with compensation?"
+"Hey, I wanted to give you a heads up, I'm relocating to Austin in Q2. My role remains the same, my performance hasn't changed, and I expect my compensation to remain at market rate for a senior engineer. I've done research on market rates, and based on Levels.fyi and industry benchmarks, my salary should stay in the $210-230k range. Can you help me confirm that with compensation?"
 
-**Why this works:**
+Why this works:
 - Non-confrontational tone
 - Assumes positive intent
 - Provides data upfront
 - Positions manager as ally ("can you help me")
 - Doesn't ask for a raise, just status quo
 
-**If manager pushes back:**
+If manager pushes back:
 
-"I understand the company has a cost-of-living policy, but I'd want to understand how it applies here. I'm not relocating to get paid less—I'm relocating for quality of life. My market rate as a senior engineer is X based on Levels.fyi and our own salary bands. Moving to Austin doesn't change that. What would a pay cut assume about my future performance or value?"
+"I understand the company has a cost-of-living policy, but I'd want to understand how it applies here. I'm not relocating to get paid less, I'm relocating for quality of life. My market rate as a senior engineer is X based on Levels.fyi and our own salary bands. Moving to Austin doesn't change that. What would a pay cut assume about my future performance or value?"
 
-**If they insist on a cut:**
+If they insist on a cut:
 
-Document the conversation. Request in writing that they explain which salary band your role falls into and how relocation affects your market rate. This creates a paper trail—if they try to justify a cut, it becomes discoverable if you leave.
+Document the conversation. Request in writing that they explain which salary band your role falls into and how relocation affects your market rate. This creates a paper trail, if they try to justify a cut, it becomes discoverable if you leave.
 
-### Step 4: Specific Scenarios and Strategies
+Step 4: Specific Scenarios and Strategies
 
-### Scenario 1: Relocating from SF to Austin (High to Medium CoL)
+Scenario 1: Relocating from SF to Austin (High to Medium CoL)
 
-**Situation:** You earn $250k base in SF. Employer hints at "adjusting" to Austin market.
+Situation: You earn $250k base in SF. Employer hints at "adjusting" to Austin market.
 
-**Your response:**
-"SF senior backend engineers earn $240-280k (market rate). Austin senior backend engineers earn $210-250k (market rate). Those markets are geographically-linked. I currently earn $250k because I'm a senior engineer in that experience band, not because of SF. My market rate doesn't change when my zip code does. Remote work means you don't have to pay for office space here—there's no cost savings that justify reducing my salary."
+Your response:
+"SF senior backend engineers earn $240-280k (market rate). Austin senior backend engineers earn $210-250k (market rate). Those markets are geographically-linked. I currently earn $250k because I'm a senior engineer in that experience band, not because of SF. My market rate doesn't change when my zip code does. Remote work means you don't have to pay for office space here, there's no cost savings that justify reducing my salary."
 
-**Data to cite:**
+Data to cite:
 - Levels.fyi shows no salary variance for same role at same company across US cities
 - Your company's own salary bands (request this from HR)
 
-### Scenario 2: Relocating from NYC to Bozeman (High to Low CoL)
+Scenario 2: Relocating from NYC to Bozeman (High to Low CoL)
 
-**Situation:** Big gap in CoL. Employer pressure is strongest here.
+Situation: Big gap in CoL. Employer pressure is strongest here.
 
-**Your response:**
-"I understand Bozeman has lower cost of living. That benefits me personally—I save money. But my skills didn't change, my output won't change, and market rate for senior engineers in tech doesn't vary by city for remote roles. If I were moving to become the highest-paid engineer in Bozeman, I'd expect that. But market rate is market rate. What specific changes to my role or responsibilities would justify a pay cut?"
+Your response:
+"I understand Bozeman has lower cost of living. That benefits me personally, I save money. But my skills didn't change, my output won't change, and market rate for senior engineers in tech doesn't vary by city for remote roles. If I were moving to become the highest-paid engineer in Bozeman, I'd expect that. But market rate is market rate. What specific changes to my role or responsibilities would justify a pay cut?"
 
-**The trap to avoid:** Don't accept "we'll review your salary in 6 months after you settle." This sets up a downward spiral. Get your salary agreement in writing before you move.
+The trap to avoid: Don't accept "we'll review your salary in 6 months after you settle." This sets up a downward spiral. Get your salary agreement in writing before you move.
 
-### Scenario 3: Counter-offer Situation (New Job Remote, Different City)
+Scenario 3: Counter-offer Situation (New Job Remote, Different City)
 
-**Situation:** You received an offer in target city. Current employer counters but suggests CoL-adjusted number.
+Situation: You received an offer in target city. Current employer counters but suggests CoL-adjusted number.
 
-**Your response:**
-"I appreciate the counter. But I accepted the new offer based on market rate for my level. If you're countering, I need you to match the market-rate number, not adjust it for where I'm located. I was hired into a competitive market—don't create a two-tier compensation system based on zip code."
+Your response:
+"I appreciate the counter. But I accepted the new offer based on market rate for my level. If you're countering, I need you to match the market-rate number, not adjust it for where I'm located. I was hired into a competitive market, don't create a two-tier compensation system based on zip code."
 
-**Why this works:** Employers can't defend paying two engineers the same salary different amounts based on location. It creates liability and retention problems.
+Why this works: Employers can't defend paying two engineers the same salary different amounts based on location. It creates liability and retention problems.
 
-### Step 5: Compensation Structure to Protect Yourself
+Step 5: Compensation Structure to Protect Yourself
 
 If your employer insists on some "adjustment," negotiate it into a different component:
 
@@ -169,34 +169,34 @@ If your employer insists on some "adjustment," negotiate it into a different com
 | Reduced title/level | Same title, flat salary | Title affects future earning potential |
 | Verbal agreement on future review | "Trial period" with written guarantee to return to X if not extended | Protects you from permanent cut |
 
-### Step 6: Real-World Example: Negotiation Transcript
+Step 6: Real-World Example: Negotiation Transcript
 
-**Context:** Senior engineer, $240k base, SF → Austin, manager is supportive
+Context: Senior engineer, $240k base, SF → Austin, manager is supportive
 
-**Day 1 - Email to Manager:**
-"Hey [Manager], wanted to give you a heads up on some personal news. I've decided to relocate to Austin in May. My role, responsibilities, and performance remain unchanged. I'm planning to discuss compensation structure with HR, and I wanted to align with you first. Based on market data, my salary should stay at market rate for a senior engineer—roughly $210-240k base depending on our salary bands. I know this might trigger some conversations with HR, but I want to front-load the discussion. Can we chat this week?"
+Day 1 - Email to Manager:
+"Hey [Manager], wanted to give you a heads up on some personal news. I've decided to relocate to Austin in May. My role, responsibilities, and performance remain unchanged. I'm planning to discuss compensation structure with HR, and I wanted to align with you first. Based on market data, my salary should stay at market rate for a senior engineer, roughly $210-240k base depending on our salary bands. I know this might trigger some conversations with HR, but I want to front-load the discussion. Can we chat this week?"
 
-**Day 3 - Conversation with Manager:**
+Day 3 - Conversation with Manager:
 Manager: "Hey, yeah, let's talk about this. HR's already asking about it."
-You: "Great, I appreciate you looping them in. Here's my thinking—I'm not asking for a raise. I'm asking for my salary to stay at market rate. I've used Levels.fyi and Blind to cross-reference. Senior engineers at our company in the $240k range stay at $240k regardless of location. I understand the company has cost-of-living policies for entry-level roles, but for senior roles, we compete globally. That's the market we're in. What do you think?"
+You: "Great, I appreciate you looping them in. Here's my thinking, I'm not asking for a raise. I'm asking for my salary to stay at market rate. I've used Levels.fyi and Blind to cross-reference. Senior engineers at our company in the $240k range stay at $240k regardless of location. I understand the company has cost-of-living policies for entry-level roles, but for senior roles, we compete globally. That's the market we're in. What do you think?"
 Manager: "That makes sense. Let me talk to compensation. I'll advocate for keeping you at $240k."
 
-**Day 10 - HR outreach:**
+Day 10 - HR outreach:
 HR: "We wanted to discuss your relocation. Typically Austin is a tier-2 city, so there'd be an adjustment."
-You: "I appreciate you reaching out. I want to clarify something—I'm not asking for anything outside market rate. Per Levels.fyi, senior backend engineers at our company earn $210-240k regardless of location. My current $240k is at the top of that range, and I'm not expecting to stay there. But a reduction below market rate for the same role doesn't make sense when my job is 100% remote and my performance is unchanged. Can you share our salary bands for senior engineers? I want to make sure we're aligned on market rate."
+You: "I appreciate you reaching out. I want to clarify something, I'm not asking for anything outside market rate. Per Levels.fyi, senior backend engineers at our company earn $210-240k regardless of location. My current $240k is at the top of that range, and I'm not expecting to stay there. But a reduction below market rate for the same role doesn't make sense when my job is 100% remote and my performance is unchanged. Can you share our salary bands for senior engineers? I want to make sure we're aligned on market rate."
 HR: "Let me check with [Compensation Manager]."
 
-**Day 14 - Resolution:**
+Day 14 - Resolution:
 HR: "We've confirmed your salary will remain at $240k. We don't adjust remote salaries by location. Welcome to Austin!"
 
-**What worked:**
+What worked:
 - Manager was your advocate
 - You used real data (not anecdotes)
 - You framed as "market rate preservation," not a raise
 - You asked for documentation (salary bands)
 - You stayed professional and data-driven
 
-### Step 7: Red Flags: When to Walk Away
+Step 7: Red Flags: When to Walk Away
 
 If your employer:
 - Insists on a major pay cut (>10%) for relocation
@@ -207,7 +207,7 @@ If your employer:
 
 → These are signs your employer undervalues you. Start interviewing elsewhere immediately. The job market has plenty of remote roles that pay market rate without the negotiation fight.
 
-### Step 8: Negotiation Checklist
+Step 8: Negotiation Checklist
 
 - [ ] Document current market rate using Levels.fyi, Blind, OpenComp
 - [ ] Identify your use (specialization, performance, tenure)
@@ -216,50 +216,50 @@ If your employer:
 - [ ] Use "market rate preservation" framing, not "cost of living"
 - [ ] Request salary bands and market rate data from employer
 - [ ] Get any agreed salary structure in writing before moving
-- [ ] Don't accept "we'll review in 6 months"—get certainty upfront
+- [ ] Don't accept "we'll review in 6 months", get certainty upfront
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to negotiate remote work salary when relocating lower?**
+How long does it take to negotiate remote work salary when relocating lower?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Remote Work Distraction Elimination Guide 2026](/remote-work-distraction-elimination-guide-2026/)
 - [How to Create Remote Team Compensation Benchmarking Report](/how-to-create-remote-team-compensation-benchmarking-report-u/)
 - [How to Build Remote Team Engineering Career Ladder 2026](/how-to-build-remote-team-engineering-career-ladder-2026/)
 - [How to Handle Confidential Client Data on Remote Team](/how-to-handle-confidential-client-data-on-remote-team-device/)
 - [How to Negotiate Remote Work in Job Offer Guide](/how-to-negotiate-remote-work-in-job-offer-guide/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

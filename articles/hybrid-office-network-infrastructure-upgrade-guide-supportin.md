@@ -18,7 +18,7 @@ tags: [remote-work-tools]
 
 Hybrid office network upgrades require symmetric business-class internet (100+ Mbps upload for 50-person offices), Quality of Service (QoS) rules prioritizing video ports (443, 3478-3480, 5000-6000), and gigabit or multi-gig switched infrastructure. WiFi 6E/7 access points with band steering handle concurrent connections better than older standards. Monitor bandwidth continuously using tools like vnstat with Prometheus metrics and Grafana dashboards to catch saturation before video calls degrade. Start by calculating concurrent capacity at 40% occupancy × 2 Mbps per participant plus 30% headroom.
 
-## Table of Contents
+Table of Contents
 
 - [Assessing Your Current Network Capacity](#assessing-your-current-network-capacity)
 - [Upgrading Your Internet Connection](#upgrading-your-internet-connection)
@@ -30,14 +30,14 @@ Hybrid office network upgrades require symmetric business-class internet (100+ M
 - [Network Capacity Planning Example](#network-capacity-planning-example)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
 
-## Assessing Your Current Network Capacity
+Assessing Your Current Network Capacity
 
 Before upgrading, you need to understand your baseline. Video calls consume significant bandwidth, and most platforms recommend 1.5-3 Mbps per participant for HD quality. With multiple simultaneous calls, bandwidth requirements multiply quickly.
 
 Start by measuring your current throughput using standard tools:
 
 ```bash
-# Test upload/download speed to common video call servers
+Test upload/download speed to common video call servers
 curl -s https://speed.cloudflare.com | jq '.'
 iperf3 -c speed.cloudflare.com -p 5201 -R
 ```
@@ -50,11 +50,11 @@ For a hybrid office with 50 employees, you need to account for concurrent usage 
 
 Add 30% headroom for peak usage, and you're looking at 52 Mbps minimum upload bandwidth.
 
-## Upgrading Your Internet Connection
+Upgrading Your Internet Connection
 
 Most offices rely on asymmetric connections, but video calls demand symmetric bandwidth. If your current plan provides 100 Mbps down and only 10 Mbps up, that's your bottleneck.
 
-**Recommended connection tiers for hybrid offices in 2026:**
+Recommended connection tiers for hybrid offices in 2026:
 
 | Office Size | Minimum Upload | Recommended | Enterprise |
 |-------------|---------------|-------------|-------------|
@@ -65,7 +65,7 @@ Most offices rely on asymmetric connections, but video calls demand symmetric ba
 
 Consider business-class fiber connections with Service Level Agreements (SLAs) guaranteeing uptime and latency. Residential connections lack the quality-of-service guarantees that video conferencing requires.
 
-## Implementing Quality of Service (QoS)
+Implementing Quality of Service (QoS)
 
 Network congestion degrades video call quality before affecting other traffic. Quality of Service rules prioritize video traffic to maintain call stability during high-load periods.
 
@@ -73,15 +73,15 @@ Here's a practical QoS configuration for pfSense:
 
 ```php
 // /etc/pf.conf QoS rules for video conferencing
-# Define video call ports
+Define video call ports
 video_ports = "{ 443, 3478, 3479, 3480, 5000-6000 }"
 
-# Prioritize video traffic (highest priority - 7)
+Prioritize video traffic (highest priority - 7)
 altq on $wan_if priq bandwidth 100% queue { q_video, q_default }
 queue q_video priority 7
 queue q_default priority 3
 
-# Tag and queue outbound video traffic
+Tag and queue outbound video traffic
 pass out on $wan_if inet proto tcp from any to any port $video_ports queue q_video
 pass out on $wan_if inet proto udp from any to any port $video_ports queue q_video
 ```
@@ -102,26 +102,26 @@ policy-map VIDEO_PRIORITY
     fair-queue
 ```
 
-## Optimizing Local Network Architecture
+Optimizing Local Network Architecture
 
 Your internal network matters as much as your internet connection. Many offices overlook the impact of local network topology on video call performance.
 
-### Switching to Gigabit or Multi-Gig
+Switching to Gigabit or Multi-Gig
 
 If you're still running 100 Mbps switches, upgrade immediately. Gigabit switches are commodity hardware now, and multi-gig (2.5 Gbps, 5 Gbps, 10 Gbps) switches are affordable for demanding environments.
 
 ```bash
-# Check current switch capabilities
+Check current switch capabilities
 ethtool eth0 | grep -E "Speed|Duplex"
-# Example output: Speed: 1000Mb/s, Duplex: Full
+Example output: Speed: 1000Mb/s, Duplex: Full
 ```
 
-### VLAN Segmentation for Voice/Video Traffic
+VLAN Segmentation for Voice/Video Traffic
 
 Isolating video traffic onto dedicated VLANs reduces contention and improves security:
 
 ```yaml
-# Example network configuration using Ansible
+Example network configuration using Ansible
 - name: Configure video VLAN
   hosts: switches
   vars:
@@ -136,18 +136,18 @@ Isolating video traffic onto dedicated VLANs reduces contention and improves sec
         save: true
 ```
 
-### WiFi Optimization for Video Calls
+WiFi Optimization for Video Calls
 
 Wireless networks struggle with multiple video streams. Implement these strategies:
 
-1. **Deploy WiFi 6E or WiFi 7** access points for better handling of concurrent connections
-2. **Enable band steering** to move devices to less congested 5 GHz or 6 GHz bands
-3. **Implement airtime fairness** to prevent slower clients from degrading performance
-4. **Create dedicated SSIDs** for video conferencing devices with higher priority
+1. Deploy WiFi 6E or WiFi 7 access points for better handling of concurrent connections
+2. Enable band steering to move devices to less congested 5 GHz or 6 GHz bands
+3. Implement airtime fairness to prevent slower clients from degrading performance
+4. Create dedicated SSIDs for video conferencing devices with higher priority
 
 ```bash
-# Example: Configure WiFi 6E access point for video priority
-# Using hostapd configuration
+Configure WiFi 6E access point for video priority
+Using hostapd configuration
 interface=wlan0
 ssid=Office-Video
 hw_mode=ax
@@ -157,7 +157,7 @@ vlan_bridge=br100
 wpa_key_mgmt=WPA-EAP
 ```
 
-## Monitoring and Maintaining Performance
+Monitoring and Maintaining Performance
 
 Network upgrades require ongoing monitoring. Implement bandwidth monitoring to catch issues before they affect calls:
 
@@ -194,7 +194,7 @@ if __name__ == "__main__":
 
 Deploy tools like Prometheus with node_exporter to collect network metrics, and set up Grafana dashboards with alerts for bandwidth saturation.
 
-## Practical Upgrade Checklist
+Practical Upgrade Checklist
 
 Run through this checklist when upgrading your hybrid office network:
 
@@ -208,39 +208,39 @@ Run through this checklist when upgrading your hybrid office network:
 - [ ] Document network topology and configuration for future reference
 - [ ] Schedule quarterly network assessments
 
-## Network Configuration Templates
+Network Configuration Templates
 
-### Firewall/Router QoS Configuration (pfSense Example)
+Firewall/Router QoS Configuration (pfSense Example)
 
 ```bash
-# /etc/pf.conf - Quality of Service rules
+/etc/pf.conf - Quality of Service rules
 
-# Define interfaces
+Define interfaces
 WAN_IF="em0"
 LAN_IF="em1"
 
-# Define video ports with priority
+Define video ports with priority
 VIDEO_PORTS="{ 443, 3478, 3479, 3480, 5000:6000, 8443 }"
 VOIP_PORTS="{ 5060, 5061 }"
 DEFAULT_PORTS="any"
 
-# Queue definitions
+Queue definitions
 altq on $WAN_IF hfsc bandwidth 1Gbps queue { q_video, q_voip, q_default }
 queue q_video hfsc (bandwidth 40%, realtime 40%)
 queue q_voip hfsc (bandwidth 30%, realtime 30%)
 queue q_default hfsc (bandwidth 30%, realtime 10%)
 
-# Classify traffic and assign to queues
+Classify traffic and assign to queues
 pass out on $WAN_IF inet proto tcp from any to any port $VIDEO_PORTS queue q_video
 pass out on $WAN_IF inet proto udp from any to any port $VIDEO_PORTS queue q_video
 pass out on $WAN_IF inet proto udp from any to any port $VOIP_PORTS queue q_voip
 pass out on $WAN_IF inet from any to any queue q_default
 ```
 
-### Bandwidth Monitoring Prometheus Config
+Bandwidth Monitoring Prometheus Config
 
 ```yaml
-# prometheus.yml
+prometheus.yml
 global:
   scrape_interval: 30s
 
@@ -271,13 +271,13 @@ alert_rules:
         expr: (network_bandwidth_used / network_bandwidth_available) > 0.8
         for: 10m
         annotations:
-          summary: "Network utilization above 80%"
+          summary: "Network usage above 80%"
 ```
 
-### WiFi 6E Access Point Config (OpenWRT)
+WiFi 6E Access Point Config (OpenWRT)
 
 ```bash
-# /etc/config/wireless for WiFi 6E AP
+/etc/config/wireless for WiFi 6E AP
 
 config wifi-device 'radio0'
     option type 'mac80211'
@@ -333,13 +333,13 @@ config wifi-iface 'default_radio2'
     option encryption 'sae'
     option key 'your_wifi_password'
 
-# Band steering: Automatically move devices to best band
+Band steering: Automatically move devices to best band
 config wifi-device
     option band_steering '1'
     option band_steering_threshold '80'  # Move if signal < 80dBm
 ```
 
-## Network Capacity Planning Example
+Network Capacity Planning Example
 
 For a 100-person office with hybrid work:
 
@@ -368,9 +368,9 @@ Internal network:
 - VLAN segregation for video traffic
 ```
 
-## Troubleshooting Common Issues
+Troubleshooting Common Issues
 
-**Issue: "Calls cut out during peak hours"**
+Issue: "Calls cut out during peak hours"
 
 ```
 Diagnosis:
@@ -387,7 +387,7 @@ Fix:
 - Consider dedicated video VLAN with separate uplink
 ```
 
-**Issue: "WiFi drops during calls"**
+Issue: "WiFi drops during calls"
 
 ```
 Diagnosis:
@@ -405,34 +405,34 @@ Fix:
 - Increase transmit power on 6GHz (less congested)
 ```
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**Can I trust these tools with sensitive data?**
+Can I trust these tools with sensitive data?
 
 Review each tool's privacy policy, data handling practices, and security certifications before using it with sensitive data. Look for SOC 2 compliance, encryption in transit and at rest, and clear data retention policies. Enterprise tiers often include stronger privacy guarantees.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Home Office Network Setup for Video Calls](/home-office-network-video-calls-setup/)
 - [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
 - [How to Optimize Internet Speed for Remote Work](/how-to-optimize-internet-speed-for-remote-work/)
 - [Remote Work Internet Speed Requirements by Task Type](/remote-work-internet-speed-requirements-by-task-type-guide/)
 - [Veed API - Upload and process video](/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

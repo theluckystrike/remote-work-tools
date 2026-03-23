@@ -19,31 +19,31 @@ Running live group sessions as a remote tutor requires a platform that handles r
 
 This guide evaluates platforms based on API capabilities, session management features, pricing structure, and developer-friendly integrations. Whether you're building a tutoring business from scratch or scaling an existing operation, these recommendations will help you choose the right tool for live group instruction.
 
-## Core Requirements for Live Group Tutoring
+Core Requirements for Live Group Tutoring
 
 Before evaluating specific platforms, identify the technical requirements that matter most for live group sessions:
 
-- **Real-time video and audio** with support for 5-30+ participants
-- **Breakout rooms** for splitting groups into smaller discussion sections
-- **Screen sharing and whiteboard** capabilities for collaborative problem-solving
-- **Session recording** for asynchronous review
-- **API access** for automating enrollment, scheduling, and analytics
-- **No-account-required participation** to reduce friction for students
+- Real-time video and audio with support for 5-30+ participants
+- Breakout rooms for splitting groups into smaller discussion sections
+- Screen sharing and whiteboard capabilities for collaborative problem-solving
+- Session recording for asynchronous review
+- API access for automating enrollment, scheduling, and analytics
+- No-account-required participation to reduce friction for students
 
 With these criteria established, the following platforms stand out for remote tutors managing live group sessions.
 
-## Zoom: The Enterprise Standard
+Zoom: The Enterprise Standard
 
 Zoom remains the most widely adopted platform for live video sessions, and its featureset directly addresses the needs of remote tutors running group sessions.
 
-**Strengths:**
+Strengths:
 - Support for up to 500 participants in a single meeting (with large meetings add-on)
 - Breakout rooms with automatic and manual assignment options
 - Screen sharing with annotation tools
 - Waiting room functionality to control participant entry
 - Extensive REST API for building custom integrations
 
-**API Integration Example:**
+API Integration Example:
 
 ```python
 import requests
@@ -79,42 +79,42 @@ def create_zoom_meeting(topic, start_time, duration, breakout_rooms=True):
     return response.json()
 ```
 
-**Pricing:** Free tier includes 40-minute meetings with up to 100 participants. Paid plans start at $15.99/month for individual use.
+Pricing: Free tier includes 40-minute meetings with up to 100 participants. Paid plans start at $15.99/month for individual use.
 
-Zoom's primary drawback is its consumer-focused origins—while powerful, it wasn't designed specifically for education, so features like gradebook integration or assignment tracking require third-party tools.
+Zoom's primary drawback is its consumer-focused origins, while powerful, it wasn't designed specifically for education, so features like gradebook integration or assignment tracking require third-party tools.
 
-## Google Meet: Google Workspace Integration
+Google Meet: Google Workspace Integration
 
 For tutors already using Google Workspace, Meet offers a frictionless experience with Calendar integration and zero participant setup.
 
-**Strengths:**
+Strengths:
 - Direct integration with Google Calendar for scheduling
 - No participant account required for Google users
 - Breakout rooms available in Google Workspace for Education
 - Recording to Google Drive
 - Live captions and transcription
 
-**Limitations:**
+Limitations:
 - Maximum 150 participants (250 with Workspace Plus)
 - API access requires Google Workspace Admin privileges
 - Less granular control over breakout room assignment compared to Zoom
 
-**Pricing:** Included with Google Workspace ($6/user/month for Education Fundamentals).
+Pricing: Included with Google Workspace ($6/user/month for Education Fundamentals).
 
 Google Meet works best when your tutoring operation runs entirely within Google Workspace, particularly for academic institutions already invested in the ecosystem.
 
-## Microsoft Teams: Enterprise Education Features
+Microsoft Teams: Enterprise Education Features
 
 Microsoft Teams provides the most education-specific features, including assignments, gradebook integration, and Teams Meetings specifically designed for learning environments.
 
-**Strengths:**
+Strengths:
 - Dedicated Education tier with class notebook functionality
 - Breakout rooms with presenter controls
 - Assignment and grading integration
 - Live captions and translation
 - Extensive admin controls for compliance
 
-**API Integration Example:**
+API Integration Example:
 
 ```python
 from azure.identity import ClientSecretCredential
@@ -147,22 +147,22 @@ def create_teams_meeting(topic, start_time, attendees):
     return result
 ```
 
-**Pricing:** Free for Education, $12.50/user/month for commercial.
+Pricing: Free for Education, $12.50/user/month for commercial.
 
 Teams excels when you need tight integration with Microsoft tools, particularly for formal educational institutions requiring gradebook sync and assignment management.
 
-## Jitsi Meet: Open-Source Alternative
+Jitsi Meet: Open-Source Alternative
 
 For developers building custom tutoring platforms, Jitsi Meet offers a self-hostable video conferencing solution with full API access.
 
-**Strengths:**
+Strengths:
 - Completely open-source with no licensing costs
 - Self-hostable or use their free service
 - Embeddable iframe integration
 - No participant account requirements
 - Recording via Jibri
 
-**Embedding Example:**
+Embedding Example:
 
 ```html
 <iframe
@@ -172,10 +172,10 @@ For developers building custom tutoring platforms, Jitsi Meet offers a self-host
 ></iframe>
 ```
 
-**Custom Deployment with Docker:**
+Custom Deployment with Docker:
 
 ```yaml
-# docker-compose.yml for Jitsi Meet
+docker-compose.yml for Jitsi Meet
 version: '3'
 
 services:
@@ -193,20 +193,20 @@ services:
       - ENABLE_RECORDING=true
 ```
 
-**Limitations:** Requires more technical setup than managed platforms. Recording functionality requires additional infrastructure (Jibri servers).
+Limitations: Requires more technical setup than managed platforms. Recording functionality requires additional infrastructure (Jibri servers).
 
-## BigBlueButton: Purpose-Built for Education
+BigBlueButton: Purpose-Built for Education
 
 BigBlueButton stands out as the only platform specifically designed for online learning, making it the top choice for tutors prioritizing educational features.
 
-**Strengths:**
+Strengths:
 - Built specifically for education with polls, quizzes, and whiteboard
 - Breakout rooms with teacher roaming between rooms
 - Real-time feedback and emoji reactions
 - Native learning management system integrations (Moodle, Canvas, etc.)
 - No participant accounts required
 
-**Integration with Moodle:**
+Integration with Moodle:
 
 ```php
 // Example: Creating a BigBlueButton room via API in Moodle
@@ -230,9 +230,9 @@ function create_bbb_room($course_id, $meeting_name) {
 }
 ```
 
-**Pricing:** Self-hosted (free) or hosted plans starting at $30/month.
+Pricing: Self-hosted (free) or hosted plans starting at $30/month.
 
-## Making Your Decision
+Making Your Decision
 
 Choose your platform based on your specific constraints:
 
@@ -244,38 +244,38 @@ Choose your platform based on your specific constraints:
 | Jitsi Meet | Custom platform builders | 75-100 | Full control |
 | BigBlueButton | LMS-integrated learning | 150+ | Good |
 
-For most remote tutors running live group sessions, **Zoom** provides the best balance of features, reliability, and API access. If you're building a custom tutoring platform or need to minimize costs, **Jitsi Meet** or **BigBlueButton** offer self-hostable alternatives with full control over the infrastructure.
+For most remote tutors running live group sessions, Zoom provides the best balance of features, reliability, and API access. If you're building a custom tutoring platform or need to minimize costs, Jitsi Meet or BigBlueButton offer self-hostable alternatives with full control over the infrastructure.
 
 The right choice ultimately depends on your existing tool ecosystem, technical capacity for integration work, and whether you need purpose-built education features like gradebook sync or assignment management.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Are free AI tools good enough for online teaching platform for remote tutors running?**
+Are free AI tools good enough for online teaching platform for remote tutors running?
 
 Free tiers work for basic tasks and evaluation, but paid plans typically offer higher rate limits, better models, and features needed for professional work. Start with free options to find what works for your workflow, then upgrade when you hit limitations.
 
-**How do I evaluate which tool fits my workflow?**
+How do I evaluate which tool fits my workflow?
 
 Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
-**Do these tools work offline?**
+Do these tools work offline?
 
 Most AI-powered tools require an internet connection since they run models on remote servers. A few offer local model options with reduced capability. If offline access matters to you, check each tool's documentation for local or self-hosted options.
 
-**Can I use these tools with a distributed team across time zones?**
+Can I use these tools with a distributed team across time zones?
 
 Most modern tools support asynchronous workflows that work well across time zones. Look for features like async messaging, recorded updates, and timezone-aware scheduling. The best choice depends on your team's specific communication patterns and size.
 
-**Should I switch tools if something better comes out?**
+Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific pain point you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
-## Related Articles
+Related Articles
 
 - [How to Run Remote Client UX Research Sessions with Observers](/how-to-run-remote-client-ux-research-sessions-with-observers/)
 - [Best Virtual Escape Room Platform for Remote Team Building](/best-virtual-escape-room-platform-for-remote-team-building-e/)
 - [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
 - [Best Virtual Team Building Activity Platform for Remote](/best-virtual-team-building-activity-platform-for-remote-team/)
 - [Best Virtual Offsite Planning Platform for Remote Teams 2026](/best-virtual-offsite-planning-platform-for-remote-teams-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -15,9 +15,9 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-Developers spend 6-10 hours a day at a desk. A poorly configured workstation causes back pain, wrist strain, and eye fatigue — all of which compound over months into injuries that sideline you. A well-configured one disappears: you stop noticing it.
+Developers spend 6-10 hours a day at a desk. A poorly configured workstation causes back pain, wrist strain, and eye fatigue. all of which compound over months into injuries that sideline you. A well-configured one disappears: you stop noticing it.
 
-## Table of Contents
+Table of Contents
 
 - [The Right Posture: Four Reference Points](#the-right-posture-four-reference-points)
 - [Chair: The Foundation](#chair-the-foundation)
@@ -31,7 +31,7 @@ Developers spend 6-10 hours a day at a desk. A poorly configured workstation cau
 
 This guide covers the measurements, adjustments, and equipment choices that eliminate the most common developer ergonomics problems.
 
-## The Right Posture: Four Reference Points
+The Right Posture: Four Reference Points
 
 Before buying anything, understand the position you are optimizing toward. These are the target measurements for seated work:
 
@@ -51,11 +51,11 @@ Legs: thighs parallel to floor (or angled slightly downward)
 
 Most pain comes from deviation from these four points, not from equipment brand.
 
-## Chair: The Foundation
+Chair: The Foundation
 
 A good chair does two things: supports lumbar curve and adjusts to your body dimensions. You do not need a $1,500 chair. You need one with working adjustments.
 
-**Adjustments to set in sequence:**
+Adjustments to set in sequence:
 
 ```
 1. Seat height: sit with feet flat on floor, thighs parallel to ground
@@ -74,31 +74,31 @@ A good chair does two things: supports lumbar curve and adjusts to your body dim
    → avoid sitting bolt upright
 ```
 
-**Recommended chairs under $400:**
+Recommended chairs under $400:
 
 - HAG Capisco (used): best for frequent posture changes, good for standing desk pairing
 - Secretlab Titan Evo: gaming chair with working lumbar, wide seat
 - Humanscale Freedom (used): passive recline follows body, no adjustment needed
 - Branch Ergonomic Chair: best value at $329 with all necessary adjustments
 
-## Desk Height and the Standing Desk Setup
+Desk Height and the Standing Desk Setup
 
-Standing desks are worth the investment only if you actually alternate — the benefit is movement, not standing itself.
+Standing desks are worth the investment only if you actually alternate. the benefit is movement, not standing itself.
 
-**Sitting height calculation:**
+Sitting height calculation:
 
 ```bash
-# Rough calculation from floor to elbow height while seated
-# Your desk height should equal your seated elbow height
+Rough calculation from floor to elbow height while seated
+Your desk height should equal your seated elbow height
 
-# Typical ranges:
-# 5'4" person: desk at 65-67cm
-# 5'8" person: desk at 70-72cm
-# 6'0" person: desk at 74-76cm
-# 6'4" person: desk at 78-80cm
+Typical ranges:
+5'4" person: desk at 65-67cm
+5'8" person: desk at 70-72cm
+6'0" person: desk at 74-76cm
+6'4" person: desk at 78-80cm
 ```
 
-**Standing desk preset positions:**
+Standing desk preset positions:
 
 Program two positions into a motorized desk controller:
 
@@ -107,45 +107,45 @@ Sitting height: elbow height while seated (see above)
 Standing height: elbow height while standing upright
 
 Typical standing heights:
-# 5'4": 98-102cm
-# 5'8": 105-108cm
-# 6'0": 110-114cm
-# 6'4": 115-120cm
+5'4": 98-102cm
+5'8": 105-108cm
+6'0": 110-114cm
+6'4": 115-120cm
 ```
 
-Switch positions every 30-60 minutes. A Pomodoro timer works well for this — stand during one work block, sit during the next.
+Switch positions every 30-60 minutes. A Pomodoro timer works well for this. stand during one work block, sit during the next.
 
-## Monitor Position
+Monitor Position
 
 The most common monitor setup mistake is placing the screen too high. Eye strain and neck pain from looking upward is far more common than looking downward.
 
 ```
 Top edge of monitor: at or 2-3cm below eye level
 Bottom edge: looking slightly downward is natural
-Distance: arm's length (50-70cm) — extend arm, fingertips should nearly touch screen
+Distance: arm's length (50-70cm). extend arm, fingertips should nearly touch screen
 Tilt: top of monitor tilted 10-20 degrees away from you
 ```
 
-**Monitor arm vs. stand:**
+Monitor arm vs. stand:
 
 A monitor arm is the single highest-impact ergonomic accessory. It lets you move the monitor to the exact position needed in seconds, and it frees desk space underneath.
 
 ```bash
-# Desk thickness and clamp capacity matter
-# Check your desk edge before buying
+Desk thickness and clamp capacity matter
+Check your desk edge before buying
 
-# VESA mount patterns: most monitors use 75x75mm or 100x100mm
-# Check your monitor's manual or look up the model
-# Command: no terminal needed — check sticker on monitor back
+VESA mount patterns: most monitors use 75x75mm or 100x100mm
+Check your monitor's manual or look up the model
+Command: no terminal needed. check sticker on monitor back
 ```
 
-**Recommended monitor arms:**
+Recommended monitor arms:
 
 - Ergotron LX: the standard, handles up to 11.3kg, single monitor (~$130)
 - Amazon Basics (OEM Ergotron): functionally identical, ~$80
 - Ergotron HX: for monitors 11-18kg (most 34"+ ultrawides)
 
-**Dual monitor setup:**
+Dual monitor setup:
 
 ```
 Option 1: both monitors side by side, primary directly in front
@@ -157,19 +157,19 @@ Option 2: primary in front, secondary stacked vertically (portrait)
    → reduces neck turning vs. side-by-side layout
 ```
 
-## Keyboard and Mouse Position
+Keyboard and Mouse Position
 
 Keyboards and mice at desk level force the shoulders to rise and the wrists to extend. Both are risk factors for repetitive strain.
 
-**Keyboard tilt:**
+Keyboard tilt:
 
 ```
 Flat or negative tilt (front higher than back)
-NOT positive tilt (raised back legs) — this is the default and it is wrong
+NOT positive tilt (raised back legs). this is the default and it is wrong
 Remove the keyboard feet and flip them if needed to achieve negative tilt
 ```
 
-**Wrist position while typing:**
+Wrist position while typing:
 
 ```
 Neutral: wrists flat, not bent up or down
@@ -177,17 +177,17 @@ Hovering: wrists should hover, not rest on a wrist rest while typing
 Resting: use a wrist rest only when pausing, not while actively typing
 ```
 
-**Mouse placement:**
+Mouse placement:
 
-Position the mouse directly adjacent to the keyboard, at the same height. Wide keyboards with number pads force the mouse far to the right — a TKL (tenkeyless) keyboard solves this by removing the numpad.
+Position the mouse directly adjacent to the keyboard, at the same height. Wide keyboards with number pads force the mouse far to the right. a TKL (tenkeyless) keyboard solves this by removing the numpad.
 
 ```
 Wide keyboard + external numpad: keeps numpad accessible but mouse close
 TKL (no numpad): mouse positions 15cm closer, reduces shoulder strain
-Vertical mouse: eliminates forearm pronation (rotation) — try if you have existing wrist pain
+Vertical mouse: eliminates forearm pronation (rotation). try if you have existing wrist pain
 ```
 
-## Lighting
+Lighting
 
 Glare and poor lighting cause more eye fatigue than screen brightness. Fix lighting before adjusting monitor settings.
 
@@ -200,17 +200,17 @@ Bias lighting: a warm LED strip behind the monitor reduces contrast fatigue
 ```
 
 ```bash
-# Monitor brightness should not compensate for poor room lighting
-# Target: monitor brightness matches the brightness of the surrounding environment
-# Dark room → lower brightness (60-80 nits)
-# Well-lit room → higher brightness (200-300 nits)
+Monitor brightness should not compensate for poor room lighting
+Target: monitor brightness matches the brightness of the surrounding environment
+Dark room → lower brightness (60-80 nits)
+Well-lit room → higher brightness (200-300 nits)
 
-# Color temperature for evening work
-# Install f.lux (macOS/Windows/Linux) or use built-in Night Mode
-# Target: 3400K at sunset, 2700K after 10pm
+Color temperature for evening work
+Install f.lux (macOS/Windows/Linux) or use built-in Night Mode
+Target: 3400K at sunset, 2700K after 10pm
 ```
 
-## Daily Stretch Routine (5 Minutes)
+Daily Stretch Routine (5 Minutes)
 
 Equipment is not enough if you sit in the same position for 8 hours:
 
@@ -229,7 +229,7 @@ At end of day:
   - Thoracic rotation: 10 reps each side
 ```
 
-## Budget Breakdown
+Budget Breakdown
 
 | Item | Budget Option | Mid-Range |
 |---|---|---|
@@ -239,16 +239,16 @@ At end of day:
 | Keyboard | Keychron K2 ($90) | ZSA Moonlander ($365) |
 | Mouse | Logitech MX Master 3S ($100) | Logitech MX Master 3S ($100) |
 | Wrist rest | Gelpro ($25) | Gelpro ($25) |
-| **Total** | **~$1,044** | **~$1,420** |
+| Total | ~$1,044 | ~$1,420 |
 
-## Related Reading
+Related Reading
 
 - [Back Pain Prevention for Remote Workers 2026](/back-pain-prevention-for-remote-workers-2026/)
 - [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
 - [Multi-Monitor Linux Workstation Setup Guide](/multi-monitor-linux-workstation-setup-guide/)
 - [How to Mount Monitor on Wall Behind Standing Desk Setup](/how-to-mount-monitor-on-wall-behind-standing-desk-setup/)
 
-## Related Articles
+Related Articles
 
 - [Best Standing Desk for Home Office 2026](/best-standing-desk-for-home-office-2026/)
 - [L-Shaped Desk vs Straight Desk for Home Office](/l-shaped-desk-vs-straight-desk-for-home-office/)
@@ -256,27 +256,27 @@ At end of day:
 - [How to Fit Ergonomic Chair and Standing Desk in Tiny Room](/how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/)
 - [Best Standing Desk Under $500 for Remote Developers 2026](/best-standing-desk-under-500-for-remote-developers-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to guide for developers?**
+How long does it take to guide for developers?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 

@@ -19,7 +19,7 @@ voice-checked: true
 
 Record a screen walkthrough under 10 minutes following a consistent structure -- 30-second sprint overview, 2-5 minutes per feature demo, optional technical highlights, and 30-second next-steps summary -- then distribute it with timestamps and a written summary so stakeholders can review on their own schedule. This eliminates the time zone conflicts of live demos while creating a permanent searchable record of sprint progress.
 
-## Table of Contents
+Table of Contents
 
 - [Why Async Demos Work Better for Distributed Teams](#why-async-demos-work-better-for-distributed-teams)
 - [Recording Your Sprint Demo](#recording-your-sprint-demo)
@@ -28,36 +28,36 @@ Record a screen walkthrough under 10 minutes following a consistent structure --
 - [Distributing to Stakeholders](#distributing-to-stakeholders)
 - [Sprint 24 Demo Recording](#sprint-24-demo-recording)
 - [Handling Feedback Async](#handling-feedback-async)
-- [Feedback Request — Sprint 24 Demo](#feedback-request-sprint-24-demo)
+- [Feedback Request. Sprint 24 Demo](#feedback-request-sprint-24-demo)
 - [Tools Worth Considering](#tools-worth-considering)
 - [Measuring Success](#measuring-success)
 
-## Why Async Demos Work Better for Distributed Teams
+Why Async Demos Work Better for Distributed Teams
 
 Traditional sprint demos force everyone into a single meeting time, often meaning someone joins at 7 AM or 10 PM. Async recordings eliminate this constraint entirely. Stakeholders can watch during their productive hours, pause to review complex sections, and revisit recordings later when questions arise.
 
 The key benefits include:
 
-- **Time zone flexibility** — no one needs to attend live
-- **Playback control** — stakeholders speed up or rewatch sections
-- **Permanent documentation** — recordings serve as historical records
-- **Reduced meeting fatigue** — async communication respects everyone's calendar
+- Time zone flexibility. no one needs to attend live
+- Playback control. stakeholders speed up or rewatch sections
+- Permanent documentation. recordings serve as historical records
+- Reduced meeting fatigue. async communication respects everyone's calendar
 
 Research consistently shows that distributed teams lose significant productivity to scheduling overhead. When your sprint demo requires a 60-minute synchronous block, you spend a full workday equivalent every quarter just aligning calendars across time zones. Async demos convert that overhead into five minutes of distribution effort.
 
-## Recording Your Sprint Demo
+Recording Your Sprint Demo
 
-### Option 1: CLI-Based Screen Recording with ffmpeg
+Option 1: CLI-Based Screen Recording with ffmpeg
 
 For developers who prefer command-line tools, you can automate screen recording using ffmpeg. This approach works well for consistent, repeatable demo recording.
 
 Install ffmpeg first:
 
 ```bash
-# macOS
+macOS
 brew install ffmpeg
 
-# Ubuntu/Debian
+Ubuntu/Debian
 sudo apt install ffmpeg
 ```
 
@@ -65,13 +65,13 @@ Create a recording script:
 
 ```bash
 #!/bin/bash
-# record-demo.sh
+record-demo.sh
 
 OUTPUT_DIR="./sprint-recordings"
 DATE=$(date +%Y-%m-%d)
 OUTPUT_FILE="$OUTPUT_DIR/sprint-demo-$DATE.mp4"
 
-# Capture screen at 1080p, 30fps
+Capture screen at 1080p, 30fps
 ffmpeg -f avfoundation -i "1:0" \
   -c:v libx264 -preset fast -crf 23 \
   -c:a aac -b:a 128k \
@@ -91,7 +91,7 @@ ffmpeg -f x11grab -s 1920x1080 -i :0.0 \
   sprint-demo-$(date +%Y-%m-%d).mp4
 ```
 
-### Option 2: Native Screen Recording Tools
+Option 2: Native Screen Recording Tools
 
 Most operating systems include built-in screen recording:
 
@@ -101,51 +101,51 @@ Most operating systems include built-in screen recording:
 
 These tools are easier for quick demos and require no setup.
 
-### Option 3: Dedicated Demo Recording Software
+Option 3: Dedicated Demo Recording Software
 
 Specialized tools add features useful for sprint demos specifically:
 
-- **Loom**: Auto-uploads, generates shareable links, tracks views and completion rates
-- **Screen Studio**: Adds zoom-on-click and smooth cursor animations for polished recordings
-- **OBS Studio**: Free, supports scene switching, good for multi-source demos
+- Loom: Auto-uploads, generates shareable links, tracks views and completion rates
+- Screen Studio: Adds zoom-on-click and smooth cursor animations for polished recordings
+- OBS Studio: Free, supports scene switching, good for multi-source demos
 
 Loom is the most common choice for sprint demos because the link-sharing workflow integrates cleanly with Slack, Linear, and GitHub notifications.
 
-## Structuring Your Walkthrough
+Structuring Your Walkthrough
 
 A good async demo walkthrough follows a consistent structure. Stakeholders should know what to expect and where to find key information.
 
-### Recommended Demo Structure
+Recommended Demo Structure
 
-1. **Overview** (30 seconds)
+1. Overview (30 seconds)
  - Sprint goal and scope
  - What was completed vs. planned
 
-2. **Feature Walkthrough** (2-5 minutes per feature)
+2. Feature Walkthrough (2-5 minutes per feature)
  - Show the feature in action
  - Narrate what you're demonstrating
  - Highlight key decisions or tradeoffs
 
-3. **Technical Highlights** (optional, 1-2 minutes)
+3. Technical Highlights (optional, 1-2 minutes)
  - Architecture changes
  - Performance improvements
  - Code refactoring
 
-4. **Next Steps** (30 seconds)
+4. Next Steps (30 seconds)
  - What's coming in the next sprint
  - Dependencies or blockers
 
-### Recording Best Practices
+Recording Best Practices
 
-- **Speak clearly and narrate actions** — viewers can't ask questions in real-time
-- **Highlight mouse movements** — use a tool like Keycastr on macOS to show keystrokes
-- **Keep recordings under 10 minutes** — attention drops significantly longer
-- **Show, don't just describe** — demonstrate the actual feature working
-- **Reset demo state before recording** — use seed data or a dedicated demo environment to avoid showing stale or broken state
+- Speak clearly and narrate actions. viewers can't ask questions in real-time
+- Highlight mouse movements. use a tool like Keycastr on macOS to show keystrokes
+- Keep recordings under 10 minutes. attention drops significantly longer
+- Show, don't just describe. demonstrate the actual feature working
+- Reset demo state before recording. use seed data or a dedicated demo environment to avoid showing stale or broken state
 
 One underrated practice: record a silent run-through first, then delete it and record the real version. The first pass reveals timing issues and awkward transitions that you can fix before the final take.
 
-## Automating Demo Video Generation
+Automating Demo Video Generation
 
 For teams building CI/CD pipelines, you can automate demo video creation using tools like Capture It. Here's a GitHub Actions workflow that records test runs:
 
@@ -186,11 +186,11 @@ For headless environments, use `Xvfb` on Linux runners to create a virtual displ
       -t 120 -c:v libx264 -preset fast demo.mp4
 ```
 
-## Distributing to Stakeholders
+Distributing to Stakeholders
 
 Once recorded, get the video to stakeholders effectively:
 
-### Platform Options
+Platform Options
 
 | Platform | Best For | Limitations |
 |---|---|---|
@@ -202,32 +202,32 @@ Once recorded, get the video to stakeholders effectively:
 
 Choose based on your stakeholders. Product managers and executives often prefer Loom links they can open without logging in. Engineering documentation benefits from Confluence or Notion embedding where recordings live alongside specs.
 
-### Add Context with Description
+Add Context with Description
 
 Always include a written summary with your video:
 
 ```markdown
-## Sprint 24 Demo Recording
+Sprint 24 Demo Recording
 
-**Duration**: 8:32
+Duration: 8:32
 
-**Features Shown**:
+Features Shown:
 - User dashboard redesign
 - New export functionality
 - Performance improvements
 
-**Timestamps**:
+Timestamps:
 - 0:00 - Sprint overview
 - 1:45 - Dashboard walkthrough
 - 4:20 - Export feature
 - 6:10 - Performance metrics
 
-**Questions to review**: Please share feedback by Thursday EOD.
+Questions to review: Please share feedback by Thursday EOD.
 ```
 
 The written summary serves a second purpose: it gets indexed by search. In six months when someone asks "when did we ship the export feature," the sprint demo description surfaces in Notion search or Confluence. This is the "permanent searchable record" benefit that makes async demos more valuable than synchronous ones long-term.
 
-## Handling Feedback Async
+Handling Feedback Async
 
 The demo isn't complete until you've gathered feedback. Set up a clear async feedback loop:
 
@@ -241,39 +241,39 @@ For engineering demos specifically, consider linking the recording to a GitHub i
 A lightweight template for collecting structured feedback:
 
 ```markdown
-## Feedback Request — Sprint 24 Demo
+Feedback Request. Sprint 24 Demo
 
-Please review by **Thursday, March 27 EOD**.
+Please review by Thursday, March 27 EOD.
 
 React with:
-- ✅ if feature looks good to ship
-- 🔁 if you need changes before release
-- ❓ if you have questions (comment below)
+-  if feature looks good to ship
+-  if you need changes before release
+-  if you have questions (comment below)
 
 Leave questions as replies in this thread.
 ```
 
-## Tools Worth Considering
+Tools Worth Considering
 
 Several tools specialize in async presentations:
 
-- **Loom**: Quick recordings with links and comments; best overall for most teams
-- **Vidyard**: Business-focused with email gating and analytics dashboards
-- **Screen Studio**: Simple, high-quality Mac screen recording with zoom animations
-- **OBS**: Free, cross-platform, highly customizable scene management
-- **Tella**: Designed specifically for product demos with chapter support
+- Loom: Quick recordings with links and comments; best overall for most teams
+- Vidyard: Business-focused with email gating and analytics dashboards
+- Screen Studio: Simple, high-quality Mac screen recording with zoom animations
+- OBS: Free, cross-platform, highly customizable scene management
+- Tella: Designed specifically for product demos with chapter support
 
 Choose based on your team's existing tools and workflow. The best tool is one your team will actually use consistently.
 
-## Measuring Success
+Measuring Success
 
 Track whether async demos are working for your team:
 
-- **Review completion rate**: Are stakeholders watching? Loom and Vidyard provide view analytics.
-- **Feedback quality**: Are you getting actionable responses within your deadline window?
-- **Time saved**: Compare to synchronous demo meeting hours — multiply by attendee count for true cost.
-- **Stakeholder satisfaction**: Quick pulse survey after each sprint with a single 1-5 rating.
-- **Recording reuse**: How often do recordings get referenced after the initial distribution?
+- Review completion rate: Are stakeholders watching? Loom and Vidyard provide view analytics.
+- Feedback quality: Are you getting actionable responses within your deadline window?
+- Time saved: Compare to synchronous demo meeting hours. multiply by attendee count for true cost.
+- Stakeholder satisfaction: Quick pulse survey after each sprint with a single 1-5 rating.
+- Recording reuse: How often do recordings get referenced after the initial distribution?
 
 The last metric reveals whether you're building genuine documentation or just replacing meetings. Sprint demos that get referenced three months later are doing double duty as onboarding material and design decision records.
 
@@ -282,34 +282,34 @@ Iterate on your approach based on these metrics.
 
 Running async sprint demos requires upfront investment in recording habits and workflows, but pays dividends in team flexibility and stakeholder engagement. Start with simple recordings, gather feedback, and refine your process over time.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to run async sprint demos with recorded walkthroughs?**
+How long does it take to run async sprint demos with recorded walkthroughs?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Sprint {{ sprint_number }} Preparation](/remote-team-sprint-planning-communication-template-for-distr/)
 - [How to Present Sprint Demos to Non-Technical Remote Clients](/how-to-present-sprint-demos-to-non-technical-remote-clients/)
 - [Best Tools for Remote Team Sprint Planning](/best-tools-for-remote-sprint-planning/)
 - [Async Sales Demo Recordings for Remote Enterprise Sales Team](/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
 - [Best Async Video Messaging Tools for Distributed Teams 2026](/best-async-video-messaging-tools-for-distributed-teams-2026/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

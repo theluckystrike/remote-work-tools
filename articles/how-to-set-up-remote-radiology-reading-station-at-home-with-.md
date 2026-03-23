@@ -18,20 +18,20 @@ score: 9
 
 A compliant home radiology reading station requires medical-grade DICOM displays (5-6MP), dedicated GPU hardware (NVIDIA RTX 4090 recommended), symmetric fiber internet (100+ Mbps), and HIPAA-compliant VPN access to hospital PACS servers. Display calibration must meet American College of Radiology standards, and full-disk encryption protects patient data during transmission. This guide provides the complete technical foundation for building a production-ready remote radiology reading workstation.
 
-## Table of Contents
+Table of Contents
 
 - [Understanding the Technical Requirements](#understanding-the-technical-requirements)
 - [Prerequisites](#prerequisites)
 - [Security and Compliance](#security-and-compliance)
 - [Troubleshooting](#troubleshooting)
 
-## Understanding the Technical Requirements
+Understanding the Technical Requirements
 
 A remote radiology workstation must meet clinical-grade standards for diagnostic accuracy. The American College of Radiology (ACR) establishes guidelines that apply equally to hospital-based and home installations. Your setup must support primary diagnosis capabilities, maintain HIPAA compliance, and integrate smoothly with your facility's PACS infrastructure.
 
 The core components break down into four categories: display systems, computing hardware, network connectivity, and security infrastructure. Each category carries specific requirements that interdependently determine overall system performance.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -41,11 +41,11 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Display Systems: The Critical Component
+Step 1: Display Systems: The Critical Component
 
 Medical-grade displays represent the most significant investment in a radiology workstation. Unlike consumer monitors, medical displays undergo rigorous calibration and certification processes to ensure consistent luminance, color accuracy, and spatial uniformity.
 
-### Display Specifications
+Display Specifications
 
 For primary diagnostic reading, your display must meet these baseline specifications:
 
@@ -64,18 +64,18 @@ Consumer displays lack the consistency and calibration capabilities required for
 For practical implementation, many radiologists use a dual-monitor setup:
 
 ```bash
-# Example xrandr configuration for dual medical displays
+Example xrandr configuration for dual medical displays
 xrandr --output DP-1 --mode 3280x2048 --pos 0x0 --primary
 xrandr --output DP-2 --mode 3280x2048 --pos 3280x0
 ```
 
 This configuration places your primary interpretation monitor at the center of your visual field with secondary displays for priors, reports, and ancillary tools.
 
-### Step 2: Computing Hardware Specifications
+Step 2: Computing Hardware Specifications
 
 Your workstation needs sufficient processing power for real-time image rendering, especially when working with volumetric datasets like CT and MRI scans.
 
-### Recommended Hardware Configuration
+Recommended Hardware Configuration
 
 ```yaml
 Workstation Specifications:
@@ -102,14 +102,14 @@ Workstation Specifications:
 
 The GPU deserves particular attention. Modern PACS applications use CUDA and OpenCL for hardware-accelerated rendering. When reviewing your organization's supported workflows, confirm which acceleration technologies they use.
 
-### Step 3: Network Configuration
+Step 3: Network Configuration
 
 Network performance directly impacts your ability to read studies efficiently. Latency and bandwidth requirements vary by imaging modality and study type.
 
-### Network Requirements Analysis
+Network Requirements Analysis
 
 ```python
-# Calculate required bandwidth for different modalities
+Calculate required bandwidth for different modalities
 modality_bandwidths = {
     "CR/DR (Digital X-Ray)": "10-50 Mbps",
     "CT (Computed Tomography)": "50-200 Mbps",
@@ -137,12 +137,12 @@ def calculate_recommended_speed(study_types):
 
 A dedicated internet connection is strongly recommended. Residential connections with asymmetric upload/download speeds create bottlenecks. Aim for symmetric fiber or business-class cable with guaranteed upload speeds of at least 100 Mbps.
 
-### VPN Configuration for PACS Access
+VPN Configuration for PACS Access
 
 Your organization likely requires VPN connectivity to access internal PACS servers. Optimize your VPN configuration:
 
 ```bash
-# Example OpenVPN client configuration for low-latency access
+Example OpenVPN client configuration for low-latency access
 client
 dev tun
 proto udp
@@ -156,11 +156,11 @@ compress lz4
 
 Compression (`lz4`) reduces bandwidth requirements but increases CPU usage. For image-heavy workflows, test both compressed and uncompressed configurations to find your optimal balance.
 
-## Security and Compliance
+Security and Compliance
 
 HIPAA compliance isn't optional for remote radiology stations. Your home setup must implement the same security controls as hospital infrastructure.
 
-### Security Implementation Checklist
+Security Implementation Checklist
 
 ```yaml
 Required Security Controls:
@@ -189,43 +189,43 @@ Required Security Controls:
 
 Document your security configuration. Many healthcare organizations require attestation or audit documentation for remote workstations. Maintain logs of your security settings, VPN connection times, and any configuration changes.
 
-### Step 4: Practical Implementation: Step-by-Step
+Step 4: Practical Implementation: Step-by-Step
 
-### Phase 1: Infrastructure Preparation
+Phase 1: Infrastructure Preparation
 
 1. Internet Upgrade: Ensure symmetric business-class internet with 100+ Mbps upload
 2. Network Equipment: Quality router, managed switch if using wired connections
 3. Power Protection: UPS battery backup for uninterrupted operation
 
-### Phase 2: Hardware Procurement
+Phase 2: Hardware Procurement
 
 1. Medical Display: Purchase or request from organization
 2. Workstation: Build or purchase per specifications above
 3. Ergonomic Setup: Adjustable desk, proper chair, task lighting
 
-### Phase 3: Software Configuration
+Phase 3: Software Configuration
 
 1. Operating System: Windows 10/11 Enterprise or organization-approved distribution
 2. PACS Client: Install and configure per IT specifications
 3. VPN Client: Configure with security team assistance
 4. Display Calibration: Run initial calibration with medical-grade QA software
 
-### Phase 4: Testing and Validation
+Phase 4: Testing and Validation
 
 ```bash
-# Network latency test to PACS server
+Network latency test to PACS server
 ping -c 20 pacs.hospital.org
 
-# Bandwidth test
+Bandwidth test
 speedtest-cli --server nearest
 
-# Display calibration verification
-# Run your organization's QA software validation suite
+Display calibration verification
+Run your organization's QA software validation suite
 ```
 
 Validate image quality by comparing home readings against known datasets. Report any discrepancies to your IT department immediately.
 
-### Step 5: Common Challenges and Solutions
+Step 5: Common Challenges and Solutions
 
 Challenge: Image lag during peak network usage times
 
@@ -239,49 +239,49 @@ Challenge: Family member internet usage impacting performance
 
 *Solution*: Create separate network segments. Run a dedicated ethernet cable to your office if possible.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to set up remote radiology reading station at home?**
+How long does it take to set up remote radiology reading station at home?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Is this approach secure enough for production?**
+Is this approach secure enough for production?
 
 The patterns shown here follow standard practices, but production deployments need additional hardening. Add rate limiting, input validation, proper secret management, and monitoring before going live. Consider a security review if your application handles sensitive user data.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Set Up HIPAA Compliant Home Office for Remote](/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
 - [Remote Work VoIP Setup for Home Offices](/remote-work-voip-setup-for-home-offices/)
 - [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-home-office-tax-deductions-2026/)
 - [Home Lab Setup Guide for Remote Developers](/home-lab-setup-guide-remote-developers/)
 - [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

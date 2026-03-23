@@ -17,7 +17,7 @@ tags: [remote-work-tools]
 
 Verdaccio is a lightweight Node.js private npm registry that proxies the public npm registry and lets your team publish internal packages. It supports scoped packages, htpasswd auth, S3 storage, and all package managers (npm, yarn, pnpm, bun). This guide deploys it with Docker and configures team publishing workflows.
 
-## Table of Contents
+Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Verdaccio Plugins for Team Workflows](#verdaccio-plugins-for-team-workflows)
@@ -27,7 +27,7 @@ Verdaccio is a lightweight Node.js private npm registry that proxies the public 
 - [Verdaccio vs. Alternatives](#verdaccio-vs-alternatives)
 - [Related Reading](#related-reading)
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -37,10 +37,10 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Docker Deployment
+Step 1: Docker Deployment
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 
 services:
@@ -59,15 +59,15 @@ services:
 ```
 
 ```bash
-# Create config directory
+Create config directory
 mkdir -p verdaccio/config verdaccio/storage verdaccio/plugins
 sudo chown -R 10001:65533 verdaccio/
 ```
 
-### Step 2: Verdaccio Configuration
+Step 2: Verdaccio Configuration
 
 ```yaml
-# verdaccio/config/config.yaml
+verdaccio/config/config.yaml
 storage: /verdaccio/storage
 auth:
   htpasswd:
@@ -96,7 +96,7 @@ packages:
     access: authenticated
     proxy: npmjs
 
-  "**":
+  "":
     access: authenticated
     proxy: npmjs
     unpublish: authenticated
@@ -130,25 +130,25 @@ web:
   scope: "@acme"
 ```
 
-### Step 3: User Management
+Step 3: User Management
 
 ```bash
-# Install verdaccio CLI
+Install verdaccio CLI
 npm install -g verdaccio
 
-# Add users via htpasswd
+Add users via htpasswd
 docker exec verdaccio htpasswd -B -b /verdaccio/conf/htpasswd alice alicepassword
 docker exec verdaccio htpasswd -B -b /verdaccio/conf/htpasswd bob bobpassword
 docker exec verdaccio htpasswd -B -b /verdaccio/conf/htpasswd ci-runner cipassword
 
-# Self-service via npm (if registration is enabled)
+Self-service via npm (if registration is enabled)
 npm adduser --registry https://npm.example.com
 ```
 
-### Step 4: Nginx Reverse Proxy
+Step 4: Nginx Reverse Proxy
 
 ```nginx
-# /etc/nginx/sites-available/verdaccio
+/etc/nginx/sites-available/verdaccio
 server {
     listen 80;
     server_name npm.example.com;
@@ -175,39 +175,39 @@ server {
 }
 ```
 
-### Step 5: Developer Configuration
+Step 5: Developer Configuration
 
 Each developer configures their npm to use the private registry:
 
 ```bash
-# Method 1: .npmrc in project root (recommended, committed to git)
-# .npmrc
+Method 1: .npmrc in project root (recommended, committed to git)
+.npmrc
 registry=https://npm.example.com/
 @acme:registry=https://npm.example.com/
 //npm.example.com/:_authToken=${NPM_TOKEN}
 always-auth=false
 
-# Method 2: Global npm config
+Method 2: Global npm config
 npm config set registry https://npm.example.com
 npm config set @acme:registry https://npm.example.com
 
-# Login
+Login
 npm login --registry https://npm.example.com
-# Username: alice
-# Password: alicepassword
-# Email: alice@example.com
+Username: alice
+Password: alicepassword
+Email: alice@example.com
 
-# Verify
+Verify
 npm whoami --registry https://npm.example.com
 ```
 
 ```bash
-# pnpm configuration
-# .npmrc (pnpm reads the same file)
+pnpm configuration
+.npmrc (pnpm reads the same file)
 @acme:registry=https://npm.example.com/
 //npm.example.com/:_authToken=${NPM_TOKEN}
 
-# yarn .yarnrc.yml
+yarn .yarnrc.yml
 npmRegistries:
   "https://npm.example.com":
     npmAuthToken: "${NPM_TOKEN}"
@@ -217,7 +217,7 @@ npmScopes:
     npmRegistryServer: "https://npm.example.com"
 ```
 
-### Step 6: Publish Internal Packages
+Step 6: Publish Internal Packages
 
 ```json
 // packages/ui-components/package.json
@@ -239,22 +239,22 @@ npmScopes:
 ```
 
 ```bash
-# Build and publish
+Build and publish
 cd packages/ui-components
 npm run build
 npm publish
 
-# Verify it's available
+Verify it's available
 npm info @acme/ui-components --registry https://npm.example.com
 
-# Install in another project
+Install in another project
 npm install @acme/ui-components
 ```
 
-### Step 7: Configure CI/CD Publishing Workflow
+Step 7: Configure CI/CD Publishing Workflow
 
 ```yaml
-# .github/workflows/publish.yml
+.github/workflows/publish.yml
 name: Publish Package
 
 on:
@@ -287,17 +287,17 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 ```
 
-### Step 8: S3 Storage Backend
+Step 8: S3 Storage Backend
 
 For production with multiple replicas, use S3 instead of local filesystem:
 
 ```bash
-# Install S3 storage plugin
+Install S3 storage plugin
 docker exec verdaccio npm install -g verdaccio-aws-s3-storage
 ```
 
 ```yaml
-# config.yaml: replace storage section
+config.yaml: replace storage section
 store:
   aws-s3-storage:
     bucket: your-npm-registry-bucket
@@ -306,56 +306,56 @@ store:
     endpoint: https://storage.example.com  # or remove for AWS S3
     s3ForcePathStyle: true  # Required for MinIO
 
-# Set env vars:
-# AWS_ACCESS_KEY_ID=your-access-key
-# AWS_SECRET_ACCESS_KEY=your-secret
+Set env vars:
+AWS_ACCESS_KEY_ID=your-access-key
+AWS_SECRET_ACCESS_KEY=your-secret
 ```
 
-### Step 9: Backup and Restore
+Step 9: Backup and Restore
 
 ```bash
 #!/bin/bash
-# scripts/backup-verdaccio.sh
+scripts/backup-verdaccio.sh
 DATE=$(date +%Y%m%d_%H%M%S)
 BACKUP_PATH="/backups/verdaccio-${DATE}.tar.gz"
 
 tar czf "$BACKUP_PATH" ./verdaccio/storage ./verdaccio/config
 
-# Ship to MinIO
+Ship to MinIO
 mc cp "$BACKUP_PATH" company/backups/verdaccio/
 
 echo "Verdaccio backup: $BACKUP_PATH"
 ```
 
 ```bash
-# Restore
+Restore
 tar xzf "/backups/verdaccio-20260322_020000.tar.gz"
 docker compose restart verdaccio
 ```
 
-## Verdaccio Plugins for Team Workflows
+Verdaccio Plugins for Team Workflows
 
 Verdaccio's plugin system extends its capabilities well beyond basic auth and storage. The most useful plugins for remote teams are:
 
-**verdaccio-github-oauth-ui** — Replaces htpasswd with GitHub OAuth login, so developers authenticate with their GitHub accounts and token rotation is automatic. Configuration is minimal: set the GitHub OAuth app credentials and the registry handles the rest.
+verdaccio-github-oauth-ui. Replaces htpasswd with GitHub OAuth login, so developers authenticate with their GitHub accounts and token rotation is automatic. Configuration is minimal: set the GitHub OAuth app credentials and the registry handles the rest.
 
-**verdaccio-audit** — Enables `npm audit` against your private registry by proxying the npm audit endpoint. Developers running `npm audit` in a project that uses private packages get results from both the public advisory database and your registry's metadata.
+verdaccio-audit. Enables `npm audit` against your private registry by proxying the npm audit endpoint. Developers running `npm audit` in a project that uses private packages get results from both the public advisory database and your registry's metadata.
 
-**verdaccio-ldap** — Connects to an existing corporate LDAP or Active Directory for authentication, which avoids managing a separate htpasswd user database when you already have an identity provider.
+verdaccio-ldap. Connects to an existing corporate LDAP or Active Directory for authentication, which avoids managing a separate htpasswd user database when you already have an identity provider.
 
 Installing a plugin requires placing it in the plugins volume directory and referencing it in config:
 
 ```bash
-# Add plugin to running container (for testing)
+Add plugin to running container (for testing)
 docker exec verdaccio npm install verdaccio-github-oauth-ui
 
-# Or add to Dockerfile for a custom image
+Or add to Dockerfile for a custom image
 FROM verdaccio/verdaccio:5
 RUN npm install -g verdaccio-github-oauth-ui
 ```
 
 ```yaml
-# config.yaml — GitHub OAuth auth section
+config.yaml. GitHub OAuth auth section
 auth:
   github-oauth-ui:
     client-id: your-github-app-client-id
@@ -363,15 +363,15 @@ auth:
     org: your-github-org
 ```
 
-## Scoped Package Strategy for Large Teams
+Scoped Package Strategy for Large Teams
 
 Flat package names in a private registry become hard to manage as teams grow. A scoped namespace strategy keeps packages discoverable and enforces ownership:
 
 ```
-@acme/ui-*        — Frontend design system and shared components (owned by UI team)
-@acme/api-*       — Shared API clients and SDK wrappers (owned by Platform team)
-@acme/config-*    — Shared ESLint, TypeScript, and build configs
-@acme/shared-*    — Cross-team utilities (any team can publish, PR required)
+@acme/ui-*       . Frontend design system and shared components (owned by UI team)
+@acme/api-*      . Shared API clients and SDK wrappers (owned by Platform team)
+@acme/config-*   . Shared ESLint, TypeScript, and build configs
+@acme/shared-*   . Cross-team utilities (any team can publish, PR required)
 ```
 
 Enforce this in Verdaccio config by giving each scope a separate access rule:
@@ -399,14 +399,14 @@ packages:
     unpublish: authenticated
 ```
 
-This requires using `verdaccio-htpasswd-groups` or a plugin that understands user groups. With plain htpasswd, all authenticated users can publish to any scope — the pattern above enforces per-scope ownership only with group-aware auth.
+This requires using `verdaccio-htpasswd-groups` or a plugin that understands user groups. With plain htpasswd, all authenticated users can publish to any scope. the pattern above enforces per-scope ownership only with group-aware auth.
 
-## Monitoring Verdaccio
+Monitoring Verdaccio
 
 Verdaccio exposes basic metrics at `/-/ping` and logs HTTP traffic to stdout. For production, ship logs to your observability stack and set up an uptime check:
 
 ```yaml
-# docker-compose.yml — add healthcheck
+docker-compose.yml. add healthcheck
 services:
   verdaccio:
     image: verdaccio/verdaccio:5
@@ -420,9 +420,9 @@ services:
 
 For richer metrics, pair Verdaccio with a Loki log aggregation setup: Verdaccio's `http`-level logs capture every install, publish, and auth event with timestamps. A simple Grafana dashboard tracking publish frequency, install rates, and auth failures gives your platform team visibility into registry health without custom instrumentation.
 
-## Caching Strategy and Offline Resilience
+Caching Strategy and Offline Resilience
 
-One of the most underused Verdaccio features for remote teams is its aggressive caching of public registry packages. When a developer installs a package routed through Verdaccio, the tarball is stored locally under `verdaccio/storage`. Subsequent installs of the same version — from any developer's machine or CI runner — hit the local cache without reaching npmjs.org.
+One of the most underused Verdaccio features for remote teams is its aggressive caching of public registry packages. When a developer installs a package routed through Verdaccio, the tarball is stored locally under `verdaccio/storage`. Subsequent installs of the same version. from any developer's machine or CI runner. hit the local cache without reaching npmjs.org.
 
 This matters for three reasons. First, it eliminates dependency on npm's CDN uptime; a registry outage does not break your builds. Second, it makes CI pipelines faster: a cold runner installing `react` from a Verdaccio cache on your LAN is faster than pulling from a remote CDN. Third, it freezes public package versions at the point they were first installed, so you cannot silently get a different tarball for the same version string later.
 
@@ -443,7 +443,7 @@ To pre-warm the cache for critical packages before a deploy, install them throug
 
 ```bash
 #!/bin/bash
-# scripts/warm-verdaccio-cache.sh
+scripts/warm-verdaccio-cache.sh
 REGISTRY=https://npm.example.com
 PACKAGES=(
   "react@18.2.0"
@@ -461,19 +461,19 @@ done
 
 The `npm pack --dry-run` forces Verdaccio to fetch and cache the tarball without writing anything locally. After this runs, CI runners pulling those exact versions will get them from the local cache consistently.
 
-## Verdaccio vs. Alternatives
+Verdaccio vs. Alternatives
 
 Verdaccio is the right choice for teams that want a self-hosted registry with zero vendor dependency and minimal infrastructure cost. It runs on a single Docker container, uses local filesystem storage by default, and has no external service dependencies for basic operation.
 
 The trade-off compared to managed alternatives:
 
-- **vs. npm Organizations (npmjs.com)**: npm Orgs is simpler to set up and requires no infrastructure, but you pay per seat and all packages live on the public internet. Verdaccio keeps packages fully private with no external exposure.
-- **vs. GitHub Packages (GHCR for npm)**: GitHub Packages is convenient if you are already on GitHub, but package visibility is tied to repo visibility, and download bandwidth costs can add up at scale. Verdaccio has no per-download cost.
-- **vs. Artifactory/Nexus**: Both support npm registries with enterprise features (LDAP, HA, auditing), but they are significantly heavier and require paid licenses for production features. Verdaccio covers 90% of what most teams need without the operational burden.
+- vs. npm Organizations (npmjs.com): npm Orgs is simpler to set up and requires no infrastructure, but you pay per seat and all packages live on the public internet. Verdaccio keeps packages fully private with no external exposure.
+- vs. GitHub Packages (GHCR for npm): GitHub Packages is convenient if you are already on GitHub, but package visibility is tied to repo visibility, and download bandwidth costs can add up at scale. Verdaccio has no per-download cost.
+- vs. Artifactory/Nexus: Both support npm registries with enterprise features (LDAP, HA, auditing), but they are significantly heavier and require paid licenses for production features. Verdaccio covers 90% of what most teams need without the operational burden.
 
 For a team of 5-50 developers publishing a handful of internal packages, Verdaccio is the practical choice. When you need HA, cross-format support (Maven, PyPI, Docker in one tool), and enterprise RBAC, Nexus or Artifactory become worth the complexity.
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Gitea for Self-Hosted Git](/how-to-set-up-gitea-self-hosted-git/)
 - [How to Set Up Renovate for Dependency Updates](/how-to-set-up-renovate-dependency-updates/)
@@ -482,7 +482,7 @@ For a team of 5-50 developers publishing a handful of internal packages, Verdacc
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Node.js and npm](/claude-code-npm-package-development-guide/)
 - [Setting Up Harbor for Container Registry](/setting-up-harbor-for-container-registry/)
@@ -490,6 +490,6 @@ For a team of 5-50 developers publishing a handful of internal packages, Verdacc
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [How to Secure Slack and Teams Channels for Remote Team](/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

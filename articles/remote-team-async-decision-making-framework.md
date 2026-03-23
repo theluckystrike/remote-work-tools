@@ -20,32 +20,32 @@ Remote teams that require real-time meetings for every decision lose productivit
 
 The challenge: Async decisions are slow without structure. Threads get lost in Slack. Approval chains disappear. Context degrades. This framework fixes that by defining decision types, required tools, escalation rules, and timeboxing.
 
-## Core Principle: Decision Classification
+Core Principle: Decision Classification
 
 Not all decisions should be async. Classify decisions into three categories:
 
-**Level 1: Low-Risk, Low-Urgency (Async-First)**
+Level 1: Low-Risk, Low-Urgency (Async-First)
 - Examples: Choosing Slack channel naming convention, picking logo color, choosing coffee brand for office
 - Decision framework: Propose, gather feedback (24 hours), implement
 - Tool: Slack poll or Notion database
 - Approval: Team lead or owner sign-off only
 
-**Level 2: Medium-Risk, Medium-Urgency (Async-with-Escalation)**
+Level 2: Medium-Risk, Medium-Urgency (Async-with-Escalation)
 - Examples: Hiring decision, feature prioritization, budget allocation, technical architecture choice
 - Decision framework: Propose, gather stakeholder feedback (48 hours), escalate if consensus fails
 - Tool: Loom video + Notion document + Slack thread
 - Approval: Manager + 2 stakeholder sign-offs
 
-**Level 3: High-Risk, High-Urgency (Sync-Required)**
+Level 3: High-Risk, High-Urgency (Sync-Required)
 - Examples: Security incident response, customer SLA breach, layoffs, executive hire, company pivots
 - Decision framework: Real-time meeting or rapid escalation
 - Tool: Zoom/Google Meet
 - Approval: C-level leadership + legal/compliance review
 ---
 
-## Async Decision Framework Workflow
+Async Decision Framework Workflow
 
-## Table of Contents
+Table of Contents
 
 - [Async Decision Framework Workflow](#async-decision-framework-workflow)
 - [Tools & Setup](#tools-setup)
@@ -66,7 +66,7 @@ Not all decisions should be async. Classify decisions into three categories:
 - [Measuring Async Success](#measuring-async-success)
 - [Recommendation](#recommendation)
 
-### Step 1: Propose (Owner Initiative)
+Step 1: Propose (Owner Initiative)
 
 Owner writes a decision proposal document (template below) that includes:
 - Problem statement (why this decision matters)
@@ -75,7 +75,7 @@ Owner writes a decision proposal document (template below) that includes:
 - Timeline (48 hours for feedback, decision by Thursday 5pm PT)
 - Escalation criteria (when this becomes sync)
 
-**Template (Notion or Google Docs):**
+Template (Notion or Google Docs):
 
 ```
 DECISION PROPOSAL: [Title]
@@ -116,38 +116,38 @@ DECISION
 [Filled in after feedback window: Option X chosen]
 ```
 
-**Post proposal:**
+Post proposal:
 1. Create Slack thread in #decisions channel
 2. Tag stakeholders with @mentions and deadlines
 3. Include Loom video walkthrough (if complex, <5min)
 4. Link Notion doc in Slack
 
-### Step 2: Gather Feedback (Async Responses)
+Step 2: Gather Feedback (Async Responses)
 
 Stakeholders respond within 24-48 hours via:
 
-**Slack thread (quick consensus):**
+Slack thread (quick consensus):
 ```
 @owner: I like Option B because it's simpler. Option A is over-engineered.
 ```
 
-**Loom video (complex objection):**
+Loom video (complex objection):
 "I'm concerned about Option A's database migration cost. Here's why... [2min video]"
 
-**Notion comment (detailed analysis):**
+Notion comment (detailed analysis):
 ```
 Concern: Option C's timeline assumes Q2 vendor approval, but from past
 experience that takes 6-8 weeks. Recommend Option B with later rollout.
 ```
 
-**Slack reaction (quick poll):**
+Slack reaction (quick poll):
 ```
-👍 = Agree with owner recommendation
-🤔 = Need more info
-❌ = Strong objection (must comment)
+ = Agree with owner recommendation
+ = Need more info
+ = Strong objection (must comment)
 ```
 
-### Step 3: Synthesize (Owner Consolidation)
+Step 3: Synthesize (Owner Consolidation)
 
 Owner summarizes feedback in the Notion doc:
 
@@ -163,7 +163,7 @@ If consensus exists (85%+ agreement), proceed to Step 4.
 
 If no consensus (< 80%), escalate to manager for 30-minute sync call.
 
-### Step 4: Decide & Implement
+Step 4: Decide & Implement
 
 Owner fills in final decision in Notion doc:
 
@@ -182,11 +182,11 @@ IMPLEMENTATION
 - Rollback plan: [If needed]
 
 OWNER SIGN-OFF
-[Name], [Title] — March 22, 2026
+[Name], [Title]. March 22, 2026
 
 STAKEHOLDER SIGN-OFF
-✅ [Name], Product
-✅ [Name], Engineering
+ [Name], Product
+ [Name], Engineering
 ⏳ [Name], Design (will sign off once designs finalized)
 ```
 
@@ -194,18 +194,18 @@ Post in #decisions with "DECIDED" tag and link to implementation ticket.
 
 ---
 
-## Tools & Setup
+Tools & Setup
 
-### Slack
+Slack
 
 Use Slack for lightweight decisions and escalation routing.
 
-**Channels:**
+Channels:
 - #decisions (all company decisions, searchable history)
 - #decisions-engineering (technical decisions only)
 - #decisions-product (feature/roadmap decisions)
 
-**Slack Workflow Setup:**
+Slack Workflow Setup:
 
 Create a workflow triggered by emoji react (:escalate:):
 ```
@@ -215,7 +215,7 @@ Action 2: Notify manager in DM
 Action 3: Create Jira ticket for escalation follow-up
 ```
 
-**Slack App: Polly (Decision Polling)**
+Slack App: Polly (Decision Polling)
 
 ```
 /polly "Should we adopt Option A, B, or C?" --anonymous
@@ -223,11 +223,11 @@ Action 3: Create Jira ticket for escalation follow-up
 
 Polly aggregates votes, shows results in thread, exports to CSV.
 
-### Notion
+Notion
 
 Use Notion for detailed decision documents, templates, and long-term tracking.
 
-**Notion Database Setup:**
+Notion Database Setup:
 
 Create a "Decisions" database with properties:
 - Title (text)
@@ -241,67 +241,67 @@ Create a "Decisions" database with properties:
 - Feedback summary (text)
 - Final decision (text)
 
-**Notion Template:**
+Notion Template:
 
 ```
 DECISION PROPOSAL TEMPLATE
 
 [Copy this into a new Notion page]
 
-## Problem Statement
+Problem Statement
 [Why does this decision matter?]
 
-## Options Considered
+Options Considered
 - Option A: [Description]
 - Option B: [Description]
 - Option C: [Description]
 
-## Recommendation
+Recommendation
 [Owner's preferred choice]
 
-## Stakeholders & Deadlines
+Stakeholders & Deadlines
 | Role | Person | Status |
 |---|---|---|
 | Product | @Jane | Pending |
 | Engineering | @Bob | Pending |
 | Design | @Alice | Pending |
 
-## Feedback Window
+Feedback Window
 - Start: [Today 9am PT]
 - End: [Date/time, typically 48 hours]
 - Decision deadline: [Following business day 5pm PT]
 
-## Escalation Threshold
+Escalation Threshold
 Auto-escalate if: Risk > 6/10, Cost > $50k, Timeline > 6 months
 
-## Feedback (filled as responses arrive)
+Feedback (filled as responses arrive)
 [Stakeholder name]: [Their feedback]
 
-## Decision
+Decision
 [Final choice, filled after feedback window]
 
-## Implementation
+Implementation
 - Project lead: [Name]
 - Start date: [Date]
 - Milestones: [Linked Gantt chart or timeline]
 
-## Signoffs
-- ✅ Owner: [Signature, date]
+Signoffs
+-  Owner: [Signature, date]
 - ⏳ Stakeholder A: [Pending]
-- ❌ Stakeholder B: [Objected, escalated]
+-  Stakeholder B: [Objected, escalated]
 ```
 
-### Loom (Video Explanation)
+Loom (Video Explanation)
 
 Use Loom for complex decisions, objections, or walkthrough videos.
 
-**When to use Loom:**
+When to use Loom:
 - Explaining a technical architecture decision (show diagram)
 - Recording objections or concerns (tone matters)
 - Walkthrough of a design option (show 3 versions side-by-side)
 - Demo of a tool comparison (play video for both options)
 
-**Loom workflow:**
+Loom workflow:
 1. Record 3-5 minute video explaining the decision
 2. Paste Loom link in Notion doc and Slack thread
 3. Stakeholders can comment on the video with timestamps
@@ -309,11 +309,11 @@ Use Loom for complex decisions, objections, or walkthrough videos.
 
 ---
 
-## Timeboxing Strategy
+Timeboxing Strategy
 
 Async decisions are slow unless time-boxed strictly.
 
-**Standard Timeline:**
+Standard Timeline:
 ```
 March 20, 9am PT:  Proposal posted
 March 20, 5pm PT:  First responses due (24 hours)
@@ -322,14 +322,14 @@ March 23, 10am PT: Decision announced
 March 25:          Implementation begins
 ```
 
-**Express Decisions (1-day turnaround):**
+Express Decisions (1-day turnaround):
 ```
 March 20, 9am PT:  Proposal posted (max 2 stakeholders)
 March 21, 5pm PT:  Decision deadline
 March 21, 6pm PT:  Implemented
 ```
 
-**Complex Decisions (5-day turnaround):**
+Complex Decisions (5-day turnaround):
 ```
 March 20, 9am PT:   Proposal posted (5+ stakeholders, high risk)
 March 22, 5pm PT:   Stakeholder feedback due
@@ -339,7 +339,7 @@ March 24, 5pm PT:   Decision deadline
 March 25+:          Implementation
 ```
 
-**Escalation (Sync Meeting):**
+Escalation (Sync Meeting):
 If no consensus by deadline:
 ```
 March 22, 6pm PT:  Escalation email sent to manager
@@ -350,7 +350,7 @@ March 24:          Implementation begins
 
 ---
 
-## Escalation Criteria (Automatic Sync)
+Escalation Criteria (Automatic Sync)
 
 Escalate immediately (call manager/director) if:
 
@@ -366,9 +366,9 @@ Escalate immediately (call manager/director) if:
 
 ---
 
-## Real Example: Feature Prioritization Decision
+Real Example: Feature Prioritization Decision
 
-**Proposal Posted March 20, 9am PT:**
+Proposal Posted March 20, 9am PT:
 
 *DECISION: Should we build Feature X or Feature Y in Q2?*
 
@@ -383,7 +383,7 @@ Owner recommendation: Option C (balances speed-to-market with customer satisfact
 
 Stakeholders: VP Product, Lead Engineer, Design Lead, Finance
 
-**Feedback Window (March 20-22):**
+Feedback Window (March 20-22):
 
 *VP Product (Slack):* "Option C makes sense. We need Q2 wins but Customer X is threatening churn without Feature Y. Let's do C."
 
@@ -391,9 +391,9 @@ Stakeholders: VP Product, Lead Engineer, Design Lead, Finance
 
 *Design Lead (Notion comment):* "Option C is risky. Design specs for Y aren't finalized yet. Recommend: Option A for Q2, Feature Y planned for Q3 with full design review. Option B is too aggressive."
 
-*Finance (Slack reaction):* "👍 Option C works for budget. No cost difference between A/B/C."
+*Finance (Slack reaction):* " Option C works for budget. No cost difference between A/B/C."
 
-**Synthesis (March 23):**
+Synthesis (March 23):
 
 Owner updates Notion doc:
 ```
@@ -411,10 +411,10 @@ Customer communication: Notify Customer X of Q3 timeline, offer interim workarou
 
 RISK ASSESSMENT
 Original: 4/10 (medium-low)
-Revised: 3/10 (low) — removes engineering switching risk
+Revised: 3/10 (low). removes engineering switching risk
 ```
 
-**Decision (March 23, 5pm PT):**
+Decision (March 23, 5pm PT):
 
 ```
 DECIDED: Option A for Q2, Feature Y planned Q3
@@ -432,10 +432,10 @@ IMPLEMENTATION
 - Q3 planning: Design Y review starts April 15
 
 SIGN-OFFS
-✅ VP Product — March 23
-✅ Lead Engineer — March 23
-✅ Design Lead — March 23
-✅ Finance — March 23
+ VP Product. March 23
+ Lead Engineer. March 23
+ Design Lead. March 23
+ Finance. March 23
 ```
 
 Post in #decisions: "DECIDED: Q2 focus on Feature A, Q3 on Feature Y. Details in Notion link."
@@ -444,58 +444,58 @@ Notify affected customers of Feature Y timeline shift within 1 hour.
 
 ---
 
-## Common Mistakes to Avoid
+Common Mistakes to Avoid
 
-**Mistake 1: No decision deadline**
-Result: Slack thread dies, decision lingers, paralysis.
+Mistake 1: No decision deadline
+Slack thread dies, decision lingers, paralysis.
 Fix: Always specify "Decision by Friday 5pm PT" in proposal.
 
-**Mistake 2: Too many stakeholders**
-Result: Consensus impossible, escalation guaranteed.
+Mistake 2: Too many stakeholders
+Consensus impossible, escalation guaranteed.
 Fix: Limit to 3-5 key stakeholders. Others can comment but don't block.
 
-**Mistake 3: Unclear escalation criteria**
-Result: Manager doesn't know when to step in.
+Mistake 3: Unclear escalation criteria
+Manager doesn't know when to step in.
 Fix: Define thresholds upfront (risk > 6/10 = auto escalate).
 
-**Mistake 4: Vague options**
-Result: Stakeholders confused, debates endless.
+Mistake 4: Vague options
+Stakeholders confused, debates endless.
 Fix: Include cost, timeline, and risk for each option.
 
-**Mistake 5: No implementation ticket**
-Result: Decision made, then forgotten.
+Mistake 5: No implementation ticket
+Decision made, then forgotten.
 Fix: Create Jira/Linear ticket immediately after decision.
 
 ---
 
-## Measuring Async Success
+Measuring Async Success
 
 Track these metrics:
 
-**Decision velocity:** Time from proposal to decision
+Decision velocity: Time from proposal to decision
 - Target: 3 days (72 hours) for normal decisions
 - Express: 24 hours
 - Actual: Measure in Notion (deadline - creation date)
 
-**Escalation rate:** % of decisions requiring sync meeting
+Escalation rate: % of decisions requiring sync meeting
 - Target: < 15%
 - If > 25%: Decision framework unclear, retrain teams
 
-**Stakeholder participation:** % of required stakeholders responding
+Stakeholder participation: % of required stakeholders responding
 - Target: > 90% (at least one response)
 - If < 70%: Reminders needed, reduce async load
 
-**Consensus rate:** % of decisions with 80%+ agreement
+Consensus rate: % of decisions with 80%+ agreement
 - Target: > 80%
 - If < 60%: Framework too complex, simplify options
 
-**Implementation completion:** % of decided decisions that launched
+Implementation completion: % of decided decisions that launched
 - Target: 100% (no abandoned decisions)
 - If < 85%: Escalation thresholds too low, too many sync meetings
 
 ---
 
-## Recommendation
+Recommendation
 
 Implement Level 1 (simple polling) first. Use Slack + simple emoji voting for 4 weeks.
 
@@ -507,34 +507,34 @@ Train managers to enforce timeboxing. If decision drags past deadline, escalate 
 
 Review decision quality quarterly. If 80%+ of implemented decisions have positive outcomes, async is working. If reversals exceed 20%, tighten escalation criteria.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How do I prioritize which recommendations to implement first?**
+How do I prioritize which recommendations to implement first?
 
 Start with changes that require the least effort but deliver the most impact. Quick wins build momentum and demonstrate value to stakeholders. Save larger structural changes for after you have established a baseline and can measure improvement.
 
-**Do these recommendations work for small teams?**
+Do these recommendations work for small teams?
 
-Yes, most practices scale down well. Small teams can often implement changes faster because there are fewer people to coordinate. Adapt the specifics to your team size—a 5-person team does not need the same formal processes as a 50-person organization.
+Yes, most practices scale down well. Small teams can often implement changes faster because there are fewer people to coordinate. Adapt the specifics to your team size, a 5-person team does not need the same formal processes as a 50-person organization.
 
-**How do I measure whether these changes are working?**
+How do I measure whether these changes are working?
 
 Define 2-3 measurable outcomes before you start. Track them weekly for at least a month to see trends. Common metrics include response time, completion rate, team satisfaction scores, and error frequency. Avoid measuring too many things at once.
 
-**How do I handle team members in very different time zones?**
+How do I handle team members in very different time zones?
 
 Establish a shared overlap window of at least 2-3 hours for synchronous work. Use async communication tools for everything else. Document decisions in writing so people in other time zones can catch up without needing a live recap.
 
-**What is the biggest mistake people make when applying these practices?**
+What is the biggest mistake people make when applying these practices?
 
 Trying to change everything at once. Pick one or two practices, implement them well, and let the team adjust before adding more. Gradual adoption sticks better than wholesale transformation, which often overwhelms people and gets abandoned.
 
-## Related Articles
+Related Articles
 
 - [Async Decision-Making Framework for Remote Teams](/articles/how-to-set-up-async-decision-making-framework-guide/)
 - [Best Practice for Remote Team Decision Making Framework That](/best-practice-for-remote-team-decision-making-framework-that/)
 - [How to Create Remote Team Decision Making Framework for Dist](/how-to-create-remote-team-decision-making-framework-for-dist/)
 - [Remote Team Architecture Decision Record Template for Async](/remote-team-architecture-decision-record-template-for-async-/)
 - [Best Tool for Remote Team Async Introductions](/best-tool-for-remote-team-async-introductions-connecting-new/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

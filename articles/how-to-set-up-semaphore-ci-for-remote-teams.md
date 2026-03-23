@@ -17,46 +17,46 @@ tags: [remote-work-tools, remote-work]
 
 Semaphore CI stands out from GitHub Actions and CircleCI for remote teams because of its native parallelism model, fast machine provisioning, and first-class monorepo support. This guide covers a complete Semaphore setup: pipeline structure, secrets, caching, test parallelism, and environment promotions.
 
-## Why Semaphore for Remote Teams
+Why Semaphore for Remote Teams
 
-- **Monorepo change detection** — only run pipelines for changed services
-- **Self-hosted agents** — run jobs inside your own VPC on AWS or GCP
-- **Pipeline promotions** — parameterized deployments with approval gates
-- **Fast cache** — persistent per-branch cache backed by S3
+- Monorepo change detection. only run pipelines for changed services
+- Self-hosted agents. run jobs inside your own VPC on AWS or GCP
+- Pipeline promotions. parameterized deployments with approval gates
+- Fast cache. persistent per-branch cache backed by S3
 
-## Install the Semaphore CLI
+Install the Semaphore CLI
 
 ```bash
-# macOS
+macOS
 brew install semaphoreci/tap/sem
 
-# Linux
+Linux
 curl -sL https://storage.googleapis.com/sem-cli-releases/get.sh | bash
 
-# Authenticate
+Authenticate
 sem context create myteam --apikey YOUR_API_KEY
 
-# Verify
+Verify
 sem get agents
 ```
 
-## Project Structure
+Project Structure
 
 ```
 my-service/
-├── .semaphore/
-│   ├── semaphore.yml        # main pipeline
-│   ├── deploy-staging.yml   # promotion pipeline
-│   └── deploy-prod.yml      # production pipeline
-├── src/
-├── tests/
-└── Dockerfile
+ .semaphore/
+    semaphore.yml        # main pipeline
+    deploy-staging.yml   # promotion pipeline
+    deploy-prod.yml      # production pipeline
+ src/
+ tests/
+ Dockerfile
 ```
 
-## Main Pipeline
+Main Pipeline
 
 ```yaml
-# .semaphore/semaphore.yml
+.semaphore/semaphore.yml
 version: v1.0
 name: CI Pipeline
 
@@ -141,13 +141,13 @@ promotions:
 
   - name: Deploy to Production
     pipeline_file: deploy-prod.yml
-    # No auto_promote — requires manual trigger
+    # No auto_promote. requires manual trigger
 ```
 
-## Staging Deployment Pipeline
+Staging Deployment Pipeline
 
 ```yaml
-# .semaphore/deploy-staging.yml
+.semaphore/deploy-staging.yml
 version: v1.0
 name: Deploy Staging
 
@@ -192,10 +192,10 @@ blocks:
             - npm run test:smoke -- --baseUrl=https://staging.example.com
 ```
 
-## Production Pipeline With Approval Gate
+Production Pipeline With Approval Gate
 
 ```yaml
-# .semaphore/deploy-prod.yml
+.semaphore/deploy-prod.yml
 version: v1.0
 name: Deploy Production
 
@@ -248,33 +248,33 @@ blocks:
                 -d "{\"title\":\"Production Deploy\",\"text\":\"Deployed $(cat image-tag.txt)\",\"tags\":[\"env:production\"]}"
 ```
 
-## Managing Secrets
+Managing Secrets
 
 ```bash
-# Create a secret from env file
+Create a secret from env file
 sem create secret aws-staging \
   --env-file .env.staging
 
-# Create from individual vars
+Create from individual vars
 sem create secret docker-registry \
   -e DOCKER_USERNAME=myteam \
   -e DOCKER_PASSWORD=supersecret
 
-# Create from file (e.g., kubeconfig)
+Create from file (e.g., kubeconfig)
 sem create secret kubeconfig-prod \
   -f kubeconfig.yaml:/root/.kube/config
 
-# List secrets
+List secrets
 sem get secrets
 
-# Update a secret
+Update a secret
 sem edit secret aws-staging
 ```
 
-## Monorepo Change Detection
+Monorepo Change Detection
 
 ```yaml
-# .semaphore/semaphore.yml — monorepo variant
+.semaphore/semaphore.yml. monorepo variant
 version: v1.0
 name: Monorepo CI
 
@@ -318,20 +318,20 @@ blocks:
             - terraform init && terraform plan
 ```
 
-## Self-Hosted Agent on AWS
+Self-Hosted Agent on AWS
 
 ```bash
-# On the EC2 instance (Ubuntu 22.04)
+On the EC2 instance (Ubuntu 22.04)
 curl -sL https://storage.googleapis.com/sem-cli-releases/get.sh | bash
 
-# Register agent
+Register agent
 sem agent register \
   --endpoint https://myteam.semaphoreci.com \
   --token $AGENT_TOKEN \
   --name aws-agent-01 \
   --type s1-prod-large
 
-# Install as systemd service
+Install as systemd service
 sem agent install --start-on-boot
 sudo systemctl start semaphore-agent
 ```
@@ -344,15 +344,15 @@ agent:
     type: s1-prod-large    # your registered agent type
 ```
 
-## Caching Strategy
+Caching Strategy
 
 ```yaml
-# Efficient cache for Node.js
+Efficient cache for Node.js
 - cache restore node-modules-${{ checksum "package-lock.json" }}
 - npm ci
 - cache store node-modules-${{ checksum "package-lock.json" }} node_modules
 
-# Docker layer caching
+Docker layer caching
 - cache restore docker-layers
 - docker build --cache-from myorg/my-service:cache \
     --build-arg BUILDKIT_INLINE_CACHE=1 \
@@ -362,10 +362,10 @@ agent:
 - cache store docker-layers ~/.docker/buildx
 ```
 
-## Notifications
+Notifications
 
 ```yaml
-# .semaphore/semaphore.yml — add at the top level
+.semaphore/semaphore.yml. add at the top level
 notifications:
   - name: Slack Failures
     rules:
@@ -374,10 +374,10 @@ notifications:
       slack:
         endpoint: https://hooks.slack.com/services/YOUR/WEBHOOK
         channels: ["#ci-alerts"]
-        message: "Pipeline failed: {{.WorkflowName}} — {{.Revision}}"
+        message: "Pipeline failed: {{.WorkflowName}}. {{.Revision}}"
 ```
 
-## Related Reading
+Related Reading
 
 - [How to Automate AWS Lambda Deployments](/how-to-automate-aws-lambda-deployments/)
 - [How to Set Up Flux CD for GitOps](/how-to-set-up-flux-cd-for-gitops/)
@@ -385,6 +385,6 @@ notifications:
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

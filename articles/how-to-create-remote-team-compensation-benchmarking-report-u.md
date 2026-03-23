@@ -18,7 +18,7 @@ voice-checked: true
 
 To create a compensation benchmarking report for remote teams, gather salary data from Stack Overflow Developer Survey, GitHub Octoverse, and Glassdoor, then normalize it by cost-of-living adjustments, currency fluctuations, and your chosen compensation philosophy (location-agnostic, location-adjusted, or market-based). This approach ensures your pay structure remains competitive across international talent markets while reflecting the real compensation costs in each region.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Understand the Data Sources
+Step 1: Understand the Data Sources
 
 International salary survey data comes from several reliable sources. The Stack Overflow Developer Survey provides tech role compensation across 180+ countries. GitHub's Octoverse includes global developer trends. Glassdoor and Payscale offer localized data with remote-specific filters. For government-level accuracy, the OECD and World Bank provide purchasing power parity calculations.
 
 The key is combining multiple sources to create a weighted view of your talent market. A senior engineer in Poland competes with opportunities in Germany, the UK, and US remote positions. Your benchmark should reflect this reality.
 
-### Step 2: Structuring Your Compensation Framework
+Step 2: Structuring Your Compensation Framework
 
 Before collecting data, define your compensation philosophy. Remote teams typically use one of three approaches:
 
@@ -46,15 +46,15 @@ Each approach has trade-offs. Location-agnostic creates equity but strains budge
 
 Choose your approach first, then build your data collection around it.
 
-### Step 3: Collecting and Normalizing Salary Data
+Step 3: Collecting and Normalizing Salary Data
 
-Start by gathering raw salary data from your chosen sources. Export data in a consistent format—CSV or JSON works well for processing.
+Start by gathering raw salary data from your chosen sources. Export data in a consistent format, CSV or JSON works well for processing.
 
 ```python
 import pandas as pd
 import json
 
-# Load salary survey data from multiple sources
+Load salary survey data from multiple sources
 def load_survey_data():
     stackoverflow = pd.read_csv('stackoverflow_2026_salaries.csv')
     github = pd.read_csv('github_octoverse_compensation.csv')
@@ -68,7 +68,7 @@ def load_survey_data():
 
     return stackoverflow, github
 
-# Apply purchasing power parity adjustment
+Apply purchasing power parity adjustment
 def adjust_for_ppp(df, ppp_rates):
     """Adjust salaries using PPP exchange rates for fair comparison"""
     df['salary_ppp'] = df.apply(
@@ -80,7 +80,7 @@ def adjust_for_ppp(df, ppp_rates):
 
 Normalize the data by converting all salaries to a common currency and adjusting for purchasing power parity. A developer earning $80,000 in San Francisco has different purchasing power than one earning $80,000 in Lisbon. PPP adjustment provides an apples-to-apples comparison.
 
-### Step 4: Create Role Buckets and Leveling
+Step 4: Create Role Buckets and Leveling
 
 Group your positions into compensation bands. Define clear criteria for each level:
 
@@ -112,7 +112,7 @@ def calculate_compensation_bands(df, role, experience_years):
     }
 ```
 
-### Step 5: Handling Remote Work Premiums
+Step 5: Handling Remote Work Premiums
 
 Remote work affects compensation in complex ways. Some companies pay a geographic differential. Others offer location-agnostic rates. Your benchmark should show both scenarios.
 
@@ -124,7 +124,7 @@ Remote Premium = (Remote Median Salary - On-site Median Salary) / On-site Median
 
 For tech roles, remote premiums vary from -5% to +15% depending on role seniority and company type. Startups often pay premiums for remote talent. Large enterprises sometimes pay less for remote roles.
 
-### Step 6: Build the Report Structure
+Step 6: Build the Report Structure
 
 Your final benchmarking report should include these sections:
 
@@ -169,7 +169,7 @@ def create_benchmark_chart(internal_data, market_data):
     return fig
 ```
 
-### Step 7: Updating and Maintaining the Report
+Step 7: Updating and Maintaining the Report
 
 Compensation benchmarking is not an one-time exercise. Plan for quarterly updates:
 
@@ -180,17 +180,17 @@ Compensation benchmarking is not an one-time exercise. Plan for quarterly update
 
 Automate as much of the data collection as possible. Write scripts that pull from APIs or parse downloaded CSV files. The less manual work required, the more likely you'll maintain the report consistently.
 
-### Step 8: Common Pitfalls to Avoid
+Step 8: Common Pitfalls to Avoid
 
 Several mistakes undermine compensation benchmarking efforts:
 
 - Using unadjusted nominal salaries: Always adjust for cost-of-living or PPP
 - Ignoring equity: Total compensation includes stock options, which vary significantly
 - Single-source data: Combine multiple surveys for reliability
-- Outdated data: Tech salaries change quickly—aim for current year data
+- Outdated data: Tech salaries change quickly, aim for current year data
 - Over-weighting big companies: Startup compensation often differs significantly
 
-## Practical Example: Building a Simple Benchmark
+Practical Example: Building a Simple Benchmark
 
 For a concrete example, consider benchmarking a remote frontend developer with 4 years of experience based in Argentina.
 
@@ -202,11 +202,11 @@ Third, apply remote adjustment: If remote work carries a 10% premium in your ind
 
 The final recommendation: Position this role at $50,000-60,000 (US dollars) or equivalent local currency with PPP adjustment. This reflects global market rates while accounting for remote work value.
 
-### Step 9: Equity vs Market Rate Tensions
+Step 9: Equity vs Market Rate Tensions
 
 Organizations struggle with a fundamental question: should all employees doing the same work earn the same amount (equity), or should compensation reflect local market rates (market-based)?
 
-### The Equity Approach
+The Equity Approach
 
 Benefits:
 - Creates psychological fairness ("we value all contributors equally")
@@ -218,11 +218,11 @@ Costs:
 - Overpaying in low-cost areas (inflated local costs of living)
 - Difficulty recruiting in expensive tech hubs
 
-Example: If you pay $80,000 globally:
+If you pay $80,000 globally:
 - San Francisco engineer: Below market (market is $110,000-140,000), likely to leave
 - Buenos Aires engineer: Above market (market is $45,000-60,000), potentially resentful of perceived unfairness
 
-### The Market-Based Approach
+The Market-Based Approach
 
 Benefits:
 - Competitive in all geographies
@@ -240,12 +240,12 @@ Example with market-based approach:
 
 Same person performing same work, different compensation. This feels unfair until you add context: $52,000 in Argentina has approximately the same purchasing power as $130,000 in San Francisco.
 
-### Hybrid: Location-Adjusted Framework
+Hybrid: Location-Adjusted Framework
 
 Most mature remote organizations use a hybrid:
 
 ```python
-# Three-band compensation model
+Three-band compensation model
 
 def calculate_compensation_band(base_salary, location, adjustment_factor):
     """
@@ -288,10 +288,10 @@ def calculate_compensation_band(base_salary, location, adjustment_factor):
         }
     }
 
-# Example usage
+Example usage
 compensation = calculate_compensation_band('mid', 'eastern_europe', 1.0)
 print(f"Mid-level engineer in Eastern Europe: ${compensation['base_salary']:,}")
-# Output: Mid-level engineer in Eastern Europe: $42,500
+Output: Mid-level engineer in Eastern Europe: $42,500
 ```
 
 This approach:
@@ -300,32 +300,32 @@ This approach:
 - Feels fairer than raw market rates (acknowledges global base)
 - Remains administratively manageable
 
-### Step 10: Benefits and Total Compensation
+Step 10: Benefits and Total Compensation
 
 Salary represents only part of total compensation. Remote organizations must account for:
 
 ```markdown
-### Step 11: Total Compensation Calculator
+Step 11: Total Compensation Calculator
 
-**Cash Compensation:**
+Cash Compensation:
 - Base salary (from benchmarking)
 - Bonus (typically 10-20% of base)
 - Equity (stock options or profit sharing)
 
-**Benefits (varies by location):**
+Benefits (varies by location):
 - Health insurance (cost varies significantly)
 - Retirement contributions (401k, pension, etc.)
 - Professional development budget
 - Equipment stipend (laptop, monitor, standing desk)
 - Time off (vacation + sick days)
 
-**Remote-Specific Benefits:**
+Remote-Specific Benefits:
 - Internet/home office setup allowance
 - Coworking space stipend
 - Equipment upgrade budget (every 3 years)
 - Travel budget (annual team gathering)
 
-**Location-Specific Variations:**
+Location-Specific Variations:
 Some locations require legally mandated benefits:
 - Europe: Mandatory retirement contributions (higher percentage)
 - Brazil: FGTS (severance fund contribution)
@@ -366,7 +366,7 @@ def calculate_total_comp_vs_benchmark(salary, benefits, survey_benchmark):
     }
 ```
 
-### Step 12: Retention Analysis
+Step 12: Retention Analysis
 
 Compensation benchmarking predicts which employees might leave:
 
@@ -409,89 +409,89 @@ def identify_retention_risk(employee_data, market_benchmark):
 
 Run this analysis annually to identify flight risks before people start job hunting.
 
-### Step 13: Timing and Communication Strategy
+Step 13: Timing and Communication Strategy
 
 Compensation adjustments create company-wide emotion. Plan announcements carefully:
 
 ```markdown
-### Step 14: Communication Timeline
+Step 14: Communication Timeline
 
-**T-4 weeks:** Board/executive approval of new comp bands
+T-4 weeks: Board/executive approval of new comp bands
 
-**T-2 weeks:** HR/Manager training on new structure
+T-2 weeks: HR/Manager training on new structure
 - Explain methodology and fairness
 - Practice conversations with leaders
 
-**T-1 week:** Prepare individual conversations
+T-1 week: Prepare individual conversations
 - Calculate impact for each person
 - Prepare retroactive payment timing
 
-**T+0 day:** Individual conversations
+T+0 day: Individual conversations
 - Manager meets 1:1 with each report
 - Explain their new band, rationale, effective date
 - Get questions, document concerns
 
-**T+1 week:** All-hands explanation
+T+1 week: All-hands explanation
 - Present compensation philosophy
 - Share new band ranges (without individual names)
 - Explain regional variations and why
 
-**T+4 weeks:** Follow-up 1:1s
+T+4 weeks: Follow-up 1:1s
 - Check in on reactions
 - Address concerns that surfaced
 - Reinforce fairness of process
 
-**T+12 weeks:** Review and adjust
+T+12 weeks: Review and adjust
 - Have any concerns surfaced in exit interviews?
 - Did benchmark prove accurate?
 - Plan next year's adjustments
 ```
 
-The biggest compensation mistake: announcing changes without adequate explanation. Use benchmarking data to justify decisions—it prevents accusations of favoritism.
+The biggest compensation mistake: announcing changes without adequate explanation. Use benchmarking data to justify decisions, it prevents accusations of favoritism.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to create remote team compensation benchmarking report?**
+How long does it take to create remote team compensation benchmarking report?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Create Automated Client Progress Report for Remote](/how-to-create-automated-client-progress-report-for-remote-pr/)
 - [How to Create Remote Team Architecture Documentation](/how-to-create-remote-team-architecture-documentation-using-d/)
 - [How to Create Remote Team Skip Level Meeting Program](/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
 - [How to Create New Hire Welcome Ritual for Remote Team](/how-to-create-new-hire-welcome-ritual-for-remote-team/)
 - [How to Create Interest-Based Slack Channels for Remote](/how-to-create-interest-based-slack-channels-for-remote-cultu/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

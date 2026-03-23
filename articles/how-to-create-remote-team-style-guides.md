@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Remote Team Style Guides"
-description: "Build engineering style guides for remote teams — code style, API design conventions, commit messages, and PR templates with enforcement tooling"
+description: "Build engineering style guides for remote teams. code style, API design conventions, commit messages, and PR templates with enforcement tooling"
 date: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-remote-team-style-guides/
@@ -15,9 +15,9 @@ voice-checked: true
 
 {% raw %}
 
-Style guides solve a specific remote work problem: code review comments about formatting and naming conventions. In a co-located team, a junior engineer can sit next to a senior and absorb conventions through proximity. In a remote team, they discover them through review feedback at PR time — which is slow and demoralizing. A style guide with automated enforcement eliminates 80% of stylistic review comments, freeing code review time for actual logic.
+Style guides solve a specific remote work problem: code review comments about formatting and naming conventions. In a co-located team, a junior engineer can sit next to a senior and absorb conventions through proximity. In a remote team, they discover them through review feedback at PR time. which is slow and demoralizing. A style guide with automated enforcement eliminates 80% of stylistic review comments, freeing code review time for actual logic.
 
-## Table of Contents
+Table of Contents
 
 - [What Belongs in a Style Guide](#what-belongs-in-a-style-guide)
 - [Code Style: Automate Everything](#code-style-automate-everything)
@@ -41,28 +41,28 @@ Style guides solve a specific remote work problem: code review comments about fo
 - [ADR Process](#adr-process)
 - [Enforcement Without Being Annoying](#enforcement-without-being-annoying)
 - [Onboarding New Engineers to the Style Guide](#onboarding-new-engineers-to-the-style-guide)
-- [Engineering Onboarding — Style Guide Checklist](#engineering-onboarding-style-guide-checklist)
+- [Engineering Onboarding. Style Guide Checklist](#engineering-onboarding-style-guide-checklist)
 - [Style Guide Tooling Comparison](#style-guide-tooling-comparison)
 - [API Design Conventions in Practice](#api-design-conventions-in-practice)
 - [Related Reading](#related-reading)
 
-## What Belongs in a Style Guide
+What Belongs in a Style Guide
 
 An engineering style guide for remote teams should cover:
 
-1. **Code style** — automated via linters (not manual)
-2. **Naming conventions** — not automated, documented
-3. **API design patterns** — endpoint naming, error formats, versioning
-4. **Commit message format** — automated with commitlint
-5. **PR description requirements** — template-enforced
-6. **ADR trigger conditions** — when to write an ADR
+1. Code style. automated via linters (not manual)
+2. Naming conventions. not automated, documented
+3. API design patterns. endpoint naming, error formats, versioning
+4. Commit message format. automated with commitlint
+5. PR description requirements. template-enforced
+6. ADR trigger conditions. when to write an ADR
 
 Anything in the style guide that isn't automated will be inconsistently followed. Prioritize enforcing what you can.
 
-## Code Style: Automate Everything
+Code Style: Automate Everything
 
 ```yaml
-# .github/workflows/lint.yml
+.github/workflows/lint.yml
 name: Code Style
 on: [pull_request]
 
@@ -83,10 +83,10 @@ jobs:
         run: mypy . --ignore-missing-imports
 ```
 
-**Python configuration:**
+Python configuration:
 
 ```toml
-# pyproject.toml
+pyproject.toml
 [tool.ruff]
 line-length = 100
 target-version = "py312"
@@ -99,7 +99,7 @@ select = [
     "B",    # flake8-bugbear
     "SIM",  # simplify
 ]
-ignore = ["E501"]  # line too long — handled by formatter
+ignore = ["E501"]  # line too long. handled by formatter
 
 [tool.ruff.format]
 quote-style = "double"
@@ -111,7 +111,7 @@ python_version = "3.12"
 strict = true
 ```
 
-**TypeScript/JavaScript:**
+TypeScript/JavaScript:
 
 ```json
 // .eslintrc.json
@@ -137,46 +137,46 @@ strict = true
 }
 ```
 
-## Naming Conventions Document
+Naming Conventions Document
 
 Conventions that can't be linted must be documented clearly:
 
 ```markdown
-# Naming Conventions
+Naming Conventions
 
-## Python
+Python
 
-### Functions
+Functions
 - Use snake_case for all functions
-- Async functions: no prefix — all functions in this codebase may be async
+- Async functions: no prefix. all functions in this codebase may be async
 - Boolean functions: prefix with `is_`, `has_`, `can_`, `should_`
-  ✅ is_active_user(), has_permission(), can_publish()
-  ❌ active_user(), check_permission()
+   is_active_user(), has_permission(), can_publish()
+   active_user(), check_permission()
 
-### Classes
+Classes
 - Use PascalCase
 - Services: suffix with `Service` (PaymentService, not PaymentManager)
 - Repositories: suffix with `Repository` (UserRepository)
-- Avoid generic names: Manager, Handler, Util, Helper — be specific
+- Avoid generic names: Manager, Handler, Util, Helper. be specific
 
-### Variables
+Variables
 - Prefer descriptive names over short names
-  ✅ user_count, payment_amount, is_cancelled
-  ❌ cnt, amt, flag
+   user_count, payment_amount, is_cancelled
+   cnt, amt, flag
 - Exception: loop variables i, j, k are fine; keep loop body short
 
-### Constants
+Constants
 - UPPER_SNAKE_CASE
 - Group related constants in Enum or TypedDict, not scattered globals
 
-## API Endpoints
+API Endpoints
 
 - Resource names: plural nouns (/users, /orders, not /user, /order)
 - Nested resources: /users/{id}/orders (2 levels max)
 - Actions that don't map to CRUD: POST /orders/{id}/cancel
 - No verbs in resource names: /orders not /getOrders
 
-## Database
+Database
 
 - Table names: plural snake_case (users, order_items)
 - Column names: snake_case
@@ -186,15 +186,15 @@ Conventions that can't be linted must be documented clearly:
 - Index names: ix_{table}_{column} or uq_{table}_{column}
 ```
 
-## Commit Message Convention
+Commit Message Convention
 
 Conventional Commits + commitlint:
 
 ```bash
-# Install commitlint
+Install commitlint
 npm install --save-dev @commitlint/cli @commitlint/config-conventional
 
-# commitlint.config.js
+commitlint.config.js
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
@@ -216,7 +216,7 @@ module.exports = {
 ```
 
 ```yaml
-# .github/workflows/commitlint.yml
+.github/workflows/commitlint.yml
 name: Commit Lint
 on: [pull_request]
 jobs:
@@ -230,7 +230,7 @@ jobs:
       - run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }}
 ```
 
-**Good commit examples:**
+Good commit examples:
 
 ```
 feat(auth): add OAuth2 PKCE flow for mobile clients
@@ -244,116 +244,116 @@ perf(search): add composite index for status+created_at filter
 docs(api): document rate limiting headers in OpenAPI spec
 ```
 
-## PR Description Template
+PR Description Template
 
 ```markdown
 <!-- .github/PULL_REQUEST_TEMPLATE.md -->
-## Type of change
+Type of change
 - [ ] Bug fix (non-breaking change that fixes an issue)
 - [ ] New feature (non-breaking change that adds functionality)
 - [ ] Breaking change (fix or feature that causes existing functionality to break)
 - [ ] Refactoring (no functional changes)
 - [ ] Infrastructure / CI change
 
-## Testing
+Testing
 <!-- How was this tested? -->
 - [ ] Unit tests added/updated
 - [ ] Integration tests added/updated
 - [ ] Tested locally against staging data
 - [ ] Manual QA steps (describe below if applicable)
 
-## Database changes
+Database changes
 - [ ] No database changes
-- [ ] Migration included — migration is backward compatible
-- [ ] Migration included — requires deployment coordination (explain below)
+- [ ] Migration included. migration is backward compatible
+- [ ] Migration included. requires deployment coordination (explain below)
 
-## Checklist
+Checklist
 - [ ] Code follows the team style guide
 - [ ] Self-review completed
 - [ ] Documentation updated (if applicable)
 - [ ] No secrets or credentials in code
 
-## Notes for reviewers
+Notes for reviewers
 <!-- Anything specific you want reviewers to focus on? -->
 ```
 
-## Publishing the Style Guide
+Publishing the Style Guide
 
 Store the style guide in your documentation repo (or in CONTRIBUTING.md in the main repo):
 
 ```markdown
-# CONTRIBUTING.md structure
+CONTRIBUTING.md structure
 
-## Quick Start
+Quick Start
 [How to set up the dev environment in 5 commands]
 
-## Style Guide
+Style Guide
 [Link to full style guide or inline if short]
 
-## Branching Strategy
+Branching Strategy
 - main: always deployable
 - feature/: new features, branched from main
 - fix/: bug fixes, branched from main
 - No long-lived branches
 
-## PR Process
+PR Process
 1. Create PR
 2. CI checks must pass
 3. One approving review required (two for production-critical paths)
 4. Squash merge only
 5. Delete branch after merge
 
-## ADR Process
+ADR Process
 [When to write an ADR, where to file it]
 ```
 
-## Enforcement Without Being Annoying
+Enforcement Without Being Annoying
 
 The key to a style guide that engineers follow is: automate what you enforce strictly, document what you enforce lightly.
 
-**Blocking (CI fails on violation):**
+Blocking (CI fails on violation):
 - Code formatting (ruff, prettier)
 - Type errors (mypy, TypeScript strict)
 - Commit message format (commitlint)
 - Security linting (bandit, semgrep rules)
 
-**Non-blocking (warning in CI):**
+Non-blocking (warning in CI):
 - Missing docstrings
 - Complex function (cyclomatic complexity)
 - TODO comments without issue references
 
-**Documented but not enforced:**
+Documented but not enforced:
 - Naming conventions
 - PR description quality
 - ADR triggers
 
 Trying to enforce naming conventions with AST tools leads to engineer frustration. Document them clearly, mention them in onboarding, and leave them for code review feedback.
 
-## Onboarding New Engineers to the Style Guide
+Onboarding New Engineers to the Style Guide
 
 The style guide is useless if new engineers don't know it exists. A structured onboarding checklist is the difference between absorbing conventions in week one versus discovering them through painful PR feedback over three months.
 
-**Onboarding checklist for style guide:**
+Onboarding checklist for style guide:
 
 ```markdown
-## Engineering Onboarding — Style Guide Checklist
+Engineering Onboarding. Style Guide Checklist
 
 - [ ] Read CONTRIBUTING.md top to bottom
 - [ ] Run the linter locally: `make lint` passes on your machine
 - [ ] Install pre-commit hooks: `pre-commit install`
-- [ ] Read the commit message guide — make your first commit pass commitlint
+- [ ] Read the commit message guide. make your first commit pass commitlint
 - [ ] Shadow one code review: observe how comments are structured
 - [ ] Submit a PR using the PR template
 - [ ] Read the naming conventions doc once (not memorize, just read)
 ```
 
-**Pre-commit hooks** catch issues locally before they reach CI, which is faster and less demoralizing than a failed CI run:
+Pre-commit hooks catch issues locally before they reach CI, which is faster and less demoralizing than a failed CI run:
 
 ```bash
-# Install pre-commit
+Install pre-commit
 pip install pre-commit
 
-# .pre-commit-config.yaml
+.pre-commit-config.yaml
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.3.0
@@ -373,7 +373,7 @@ repos:
 
 Running `pre-commit install` once sets up the hooks. Every commit gets validated before it leaves the developer's machine.
 
-## Style Guide Tooling Comparison
+Style Guide Tooling Comparison
 
 Different team setups warrant different tool choices. Here is a comparison of the most common options across the stack:
 
@@ -390,11 +390,11 @@ Different team setups warrant different tool choices. Here is a comparison of th
 
 For most Python projects, Ruff + Mypy covers 95% of automated enforcement. For TypeScript, ESLint + Prettier + commitlint is the standard setup.
 
-## API Design Conventions in Practice
+API Design Conventions in Practice
 
 API consistency problems compound in remote teams. When engineers are not in the same room, they implement endpoints independently and the inconsistencies multiply across services. Document these conventions in the style guide and include worked examples of right versus wrong:
 
-**Error response format — be explicit:**
+Error response format. be explicit:
 
 ```json
 // Correct: structured error with machine-readable code
@@ -414,15 +414,15 @@ API consistency problems compound in remote teams. When engineers are not in the
 }
 ```
 
-**Versioning strategy — pick one and document it:**
+Versioning strategy. pick one and document it:
 
-- URL versioning (`/v1/users`, `/v2/users`) — most common, easy to route
-- Header versioning (`Accept: application/vnd.company.v2+json`) — clean URLs, harder to test in a browser
-- Query param (`?version=2`) — avoid; hard to cache and inconsistent
+- URL versioning (`/v1/users`, `/v2/users`). most common, easy to route
+- Header versioning (`Accept: application/vnd.company.v2+json`). clean URLs, harder to test in a browser
+- Query param (`?version=2`). avoid; hard to cache and inconsistent
 
 Document which approach your team uses. Engineers creating new endpoints need to know without asking.
 
-## Related Reading
+Related Reading
 
 - [Async Code Review Process Without Zoom Calls](/async-code-review-process-without-zoom-calls-step-by-step/)
 - [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
@@ -430,12 +430,12 @@ Document which approach your team uses. Engineers creating new endpoints need to
 - [How to Create Interest-Based Slack Channels for Remote](/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Remote Team Code Standards Enforcement (2026)](/how-to-set-up-remote-team-code-standards-enforcement-2026/)
 - [Best Practice for Remote Team Code Review Comments](/best-practice-for-remote-team-code-review-comments-keeping-f/)
 - [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
 - [Remote Team Code Review Checklist Template](/remote-team-code-review-checklist-template/)
 - [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

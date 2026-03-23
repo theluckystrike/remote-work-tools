@@ -14,33 +14,33 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-## How to Set Up Nginx Unit for App Deployment
+How to Set Up Nginx Unit for App Deployment
 
-Nginx Unit is an application server that handles multiple languages (Python, Node.js, Go, PHP, Ruby) through a single unified REST API. Unlike traditional Nginx, you reconfigure it with HTTP calls instead of editing files and reloading — which means zero-downtime deployments become a single `curl` command.
+Nginx Unit is an application server that handles multiple languages (Python, Node.js, Go, PHP, Ruby) through a single unified REST API. Unlike traditional Nginx, you reconfigure it with HTTP calls instead of editing files and reloading. which means zero-downtime deployments become a single `curl` command.
 
 This guide covers installation, deploying Python and Node.js apps, TLS termination, routing multiple apps, Go deployment, process tuning, CI/CD integration via SSH tunnel, health checks, and logging.
 
 ---
 
-## Why Nginx Unit Instead of a Traditional App Server
+Why Nginx Unit Instead of a Traditional App Server
 
 The standard deployment stack for Python or Node.js usually involves Gunicorn or PM2 sitting behind Nginx with a proxy_pass configuration. That works, but it means maintaining two separate configuration systems (Nginx config files and the app server config), two separate reload mechanisms, and two separate places where deployments can break.
 
 Nginx Unit collapses this into one system with one configuration API. Some specific advantages:
 
-- **API-driven config**: Deployments are HTTP PUT requests to a Unix socket. No file editing, no `systemctl reload`, no process restarts that drop connections.
-- **Language isolation**: Each app runs in its own process pool with its own user. A memory leak in one Python app doesn't affect the Node.js app on the same host.
-- **Atomic path swaps**: Point Unit at a new directory and in-flight requests finish against the old code while new requests go to the new code. No brief window of 502 errors.
-- **No glue code**: Unit handles process management, signal handling, logging, and TLS. You do not need to write a systemd service for each app.
+- API-driven config: Deployments are HTTP PUT requests to a Unix socket. No file editing, no `systemctl reload`, no process restarts that drop connections.
+- Language isolation: Each app runs in its own process pool with its own user. A memory leak in one Python app doesn't affect the Node.js app on the same host.
+- Atomic path swaps: Point Unit at a new directory and in-flight requests finish against the old code while new requests go to the new code. No brief window of 502 errors.
+- No glue code: Unit handles process management, signal handling, logging, and TLS. You do not need to write a systemd service for each app.
 
 The tradeoff: Unit's community is smaller than Gunicorn's or PM2's. When something breaks, the debugging path is less well-documented. This guide includes a troubleshooting section to cover the common cases.
 
 ---
 
-## Installation
+Installation
 
 ```bash
-# Ubuntu 22.04 / 24.04
+Ubuntu 22.04 / 24.04
 curl --output /usr/share/keyrings/nginx-keyring.gpg \
   https://unit.nginx.org/keys/nginx-keyring.gpg
 
@@ -58,28 +58,28 @@ Verify Unit is running:
 
 ```bash
 sudo curl --unix-socket /var/run/control.unit.sock http://localhost/
-# Returns current config as JSON
+Returns current config as JSON
 ```
 
-The `unit-python3.12`, `unit-nodejs`, and `unit-go` packages install language-specific modules. Install only the modules you need — each adds a small binary that Unit loads dynamically.
+The `unit-python3.12`, `unit-nodejs`, and `unit-go` packages install language-specific modules. Install only the modules you need. each adds a small binary that Unit loads dynamically.
 
 ---
 
-## Core Concepts
+Core Concepts
 
 Unit uses a JSON config tree with three main sections:
 
-- **listeners**: TCP/Unix sockets that accept connections
-- **routes**: Request routing rules (path matching, headers)
-- **applications**: Process pools for each app
+- listeners: TCP/Unix sockets that accept connections
+- routes: Request routing rules (path matching, headers)
+- applications: Process pools for each app
 
 All changes go through the control API socket. No files to edit, no service restarts.
 
-The config is persistent — Unit stores its state and restores it on restart. You do not need to re-apply your config after a host reboot.
+The config is persistent. Unit stores its state and restores it on restart. You do not need to re-apply your config after a host reboot.
 
 ---
 
-## Deploying a Python (FastAPI) App
+Deploying a Python (FastAPI) App
 
 ```bash
 sudo mkdir -p /var/www/fastapi-app
@@ -134,14 +134,14 @@ Test it:
 
 ```bash
 curl http://localhost:8000/health
-# {"status":"ok"}
+{"status":"ok"}
 ```
 
 The `processes` block sets dynamic scaling. Unit starts with `spare` processes and scales up to `max` under load, then scales back down after `idle_timeout` seconds.
 
 ---
 
-## Deploying a Node.js App
+Deploying a Node.js App
 
 ```bash
 cat > /var/www/nodeapp/server.js << 'EOF'
@@ -171,7 +171,7 @@ curl -X PUT --unix-socket /var/run/control.unit.sock \
   -d '{"pass": "applications/nodeapp"}'
 ```
 
-For Express apps, the `main` file should export the Express `app` object rather than call `app.listen()`. Unit manages the listener — calling `listen()` inside the app causes a conflict:
+For Express apps, the `main` file should export the Express `app` object rather than call `app.listen()`. Unit manages the listener. calling `listen()` inside the app causes a conflict:
 
 ```javascript
 // express-app.js
@@ -185,7 +185,7 @@ module.exports = app; // export, do NOT call app.listen()
 
 ---
 
-## Deploying a Go App
+Deploying a Go App
 
 Go apps compile to a static binary that Unit runs as an external application. No language module is required:
 
@@ -228,7 +228,7 @@ curl -X PUT --unix-socket /var/run/control.unit.sock \
 
 ---
 
-## TLS Termination
+TLS Termination
 
 ```bash
 cat /etc/letsencrypt/live/example.com/fullchain.pem \
@@ -252,7 +252,7 @@ curl -X PUT --unix-socket /var/run/control.unit.sock \
   }'
 ```
 
-Certificate rotation does not require a restart. Upload a new certificate bundle and update the listener — Unit swaps the certificate in-place:
+Certificate rotation does not require a restart. Upload a new certificate bundle and update the listener. Unit swaps the certificate in-place:
 
 ```bash
 curl -X PUT --unix-socket /var/run/control.unit.sock \
@@ -262,19 +262,19 @@ curl -X PUT --unix-socket /var/run/control.unit.sock \
 
 ---
 
-## Zero-Downtime Deployments
+Zero-Downtime Deployments
 
 ```bash
-# Deploy new code to a new path
+Deploy new code to a new path
 rsync -a --delete build/ /var/www/fastapi-app-v2/
 
-# Atomic swap via Unit config — no requests dropped
+Atomic swap via Unit config. no requests dropped
 curl -X PUT --unix-socket /var/run/control.unit.sock \
   http://localhost/config/applications/fastapi/path \
   -H "Content-Type: application/json" \
   -d '"/var/www/fastapi-app-v2"'
 
-# Check application status
+Check application status
 curl --unix-socket /var/run/control.unit.sock \
   http://localhost/status/applications/fastapi/
 ```
@@ -292,7 +292,7 @@ curl -X PUT --unix-socket /var/run/control.unit.sock \
 
 ---
 
-## Routing Multiple Apps on One Port
+Routing Multiple Apps on One Port
 
 ```bash
 curl -X PUT --unix-socket /var/run/control.unit.sock \
@@ -324,21 +324,21 @@ Routes can also match on request headers, HTTP method, or source IP. This replac
 
 ---
 
-## Exposing the Control API for CI/CD
+Exposing the Control API for CI/CD
 
-Never expose Unit's control socket directly over the network — it has no authentication layer. Tunnel from the CI runner:
+Never expose Unit's control socket directly over the network. it has no authentication layer. Tunnel from the CI runner:
 
 ```bash
-# Tunnel from CI runner to the Unix socket
+Tunnel from CI runner to the Unix socket
 ssh -L 9000:/var/run/control.unit.sock user@prod-host -N &
 
-# Deploy from CI using the tunnel
+Deploy from CI using the tunnel
 curl -X PUT http://localhost:9000/config/applications/fastapi/path \
   -H "Content-Type: application/json" \
   -d '"/var/www/fastapi-app-v3"'
 ```
 
-**Full GitHub Actions deployment job:**
+Full GitHub Actions deployment job:
 
 ```yaml
 deploy:
@@ -361,10 +361,10 @@ deploy:
 
 ---
 
-## Systemd Service
+Systemd Service
 
 ```ini
-# /etc/systemd/system/unit.service
+/etc/systemd/system/unit.service
 [Unit]
 Description=NGINX Unit
 After=network.target
@@ -384,12 +384,12 @@ WantedBy=multi-user.target
 
 ---
 
-## Health Checks and Process Monitoring
+Health Checks and Process Monitoring
 
 Unit tracks application process state via the status endpoint. Poll it to confirm healthy startup before updating your load balancer:
 
 ```bash
-# Wait for application to report running processes
+Wait for application to report running processes
 check_unit_health() {
   local app="$1"
   local retries=10
@@ -413,31 +413,31 @@ check_unit_health() {
 check_unit_health fastapi
 ```
 
-Unit log messages go to `/var/log/unit.log` — tail it during deployments to catch startup errors before they reach users:
+Unit log messages go to `/var/log/unit.log`. tail it during deployments to catch startup errors before they reach users:
 
 ```bash
-# Watch for errors during deployment
+Watch for errors during deployment
 tail -f /var/log/unit.log | grep -E "(error|warning|NOTICE)"
 
-# Common startup errors:
-# "failed to apply new conf" — JSON syntax error in config
-# "unable to open ... module" — language module not installed
-# "system error: permission denied" — wrong user/group for app files
+Common startup errors:
+"failed to apply new conf". JSON syntax error in config
+"unable to open ... module". language module not installed
+"system error: permission denied". wrong user/group for app files
 ```
 
 For automated rollback, capture the current config before deploying and restore if the health check fails:
 
 ```bash
-# Save current config
+Save current config
 PREV_CONFIG=$(curl -s --unix-socket /var/run/control.unit.sock \
   http://localhost/config/applications/fastapi)
 
-# Deploy
+Deploy
 curl -X PUT --unix-socket /var/run/control.unit.sock \
   http://localhost/config/applications/fastapi/path \
   -d '"/var/www/fastapi-app-v3"'
 
-# Health check
+Health check
 if ! check_unit_health fastapi; then
   echo "Rollback triggered"
   echo "$PREV_CONFIG" | curl -X PUT --unix-socket /var/run/control.unit.sock \
@@ -445,15 +445,15 @@ if ! check_unit_health fastapi; then
 fi
 ```
 
-## Go App Deployment
+Go App Deployment
 
 Unit supports Go apps compiled as shared libraries. Unlike Python or Node, Go apps need to be compiled with Unit's Go module:
 
 ```bash
-# Install Go module for Unit
+Install Go module for Unit
 go get unit.nginx.org/go
 
-# main.go — wrap your handler with Unit's ListenAndServe
+main.go. wrap your handler with Unit's ListenAndServe
 package main
 
 import (
@@ -473,10 +473,10 @@ func main() {
 ```
 
 ```bash
-# Build as a shared library
+Build as a shared library
 go build -buildmode=c-shared -o /var/www/goapp/app.so
 
-# Configure Unit
+Configure Unit
 curl -X PUT --unix-socket /var/run/control.unit.sock \
   http://localhost/config/applications/goapp \
   -H "Content-Type: application/json" \
@@ -489,9 +489,9 @@ curl -X PUT --unix-socket /var/run/control.unit.sock \
   }'
 ```
 
-Go apps in Unit run as native shared libraries — no interpreter overhead, no port conflicts between apps. Each app uses Unit's shared process pool management regardless of language.
+Go apps in Unit run as native shared libraries. no interpreter overhead, no port conflicts between apps. Each app uses Unit's shared process pool management regardless of language.
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Keel for Continuous Delivery](/keel-continuous-delivery-setup/)
 - [How to Create Automated Rollback Systems](/automated-rollback-systems/)
@@ -499,5 +499,5 @@ Go apps in Unit run as native shared libraries — no interpreter overhead, no p
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

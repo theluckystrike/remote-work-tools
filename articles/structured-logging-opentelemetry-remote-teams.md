@@ -19,15 +19,15 @@ Remote teams debugging production issues need observability infrastructure that 
 
 This guide covers structured logging setup, OpenTelemetry trace instrumentation, and exporting traces and logs to a self-hosted stack using Grafana Tempo and Loki.
 
-## Why Structured Logging Over Plain Text
+Why Structured Logging Over Plain Text
 
 Plain text logs require grep patterns to extract information. Structured logs are queryable like a database.
 
 ```
-# Plain text log — hard to query at scale
+Plain text log. hard to query at scale
 2026-03-21 14:23:01 ERROR Failed to process payment for user 12345: timeout after 5000ms
 
-# Structured log (JSON) — every field is queryable
+Structured log (JSON). every field is queryable
 {
   "timestamp": "2026-03-21T14:23:01.234Z",
   "level": "error",
@@ -43,7 +43,7 @@ Plain text logs require grep patterns to extract information. Structured logs ar
 
 With structured logs, a query like "all errors for user 12345 in the payment service in the last hour" takes seconds. With plain text, it requires brittle regex.
 
-## Node.js: Pino Structured Logger
+Node.js: Pino Structured Logger
 
 ```bash
 npm install pino pino-pretty
@@ -55,7 +55,7 @@ import pino from 'pino';
 
 const logger = pino({
   level: process.env.LOG_LEVEL || 'info',
-  // In production, output JSON (no pretty printing — it's slow)
+  // In production, output JSON (no pretty printing. it's slow)
   // In development, use pino-pretty for human-readable output
   transport: process.env.NODE_ENV === 'development'
     ? { target: 'pino-pretty', options: { colorize: true } }
@@ -96,14 +96,14 @@ try {
 }
 ```
 
-## Python: structlog
+Python: structlog
 
 ```bash
 pip install structlog
 ```
 
 ```python
-# logging_config.py
+logging_config.py
 import logging
 import structlog
 
@@ -124,12 +124,12 @@ def configure_logging():
         cache_logger_on_first_use=True,
     )
 
-# Usage
+Usage
 import structlog
 
 log = structlog.get_logger()
 
-# Bind context for the lifetime of a request
+Bind context for the lifetime of a request
 structlog.contextvars.bind_contextvars(
     request_id=request.id,
     user_id=user.id,
@@ -139,23 +139,23 @@ structlog.contextvars.bind_contextvars(
 log.info("payment_started", cart_total=cart.total, item_count=len(cart.items))
 ```
 
-## OpenTelemetry: Add Distributed Tracing
+OpenTelemetry: Add Distributed Tracing
 
 OpenTelemetry is the standard for distributed tracing. It propagates trace context across service boundaries so you can follow a request through multiple services.
 
 ```bash
-# Node.js
+Node.js
 npm install @opentelemetry/sdk-node \
   @opentelemetry/auto-instrumentations-node \
   @opentelemetry/exporter-otlp-grpc
 
-# Python
+Python
 pip install opentelemetry-distro opentelemetry-exporter-otlp
 opentelemetry-bootstrap -a install
 ```
 
 ```javascript
-// otel.js — initialize before importing your app code
+// otel.js. initialize before importing your app code
 import { NodeSDK } from '@opentelemetry/sdk-node';
 import { getNodeAutoInstrumentations } from '@opentelemetry/auto-instrumentations-node';
 import { OTLPTraceExporter } from '@opentelemetry/exporter-otlp-grpc';
@@ -209,14 +209,14 @@ async function processPayment(cart) {
 }
 ```
 
-## Self-Hosted Observability Stack
+Self-Hosted Observability Stack
 
 ```yaml
-# docker-compose.observability.yml
+docker-compose.observability.yml
 version: "3.9"
 
 services:
-  # OpenTelemetry Collector — receives traces, sends to Tempo
+  # OpenTelemetry Collector. receives traces, sends to Tempo
   otel-collector:
     image: otel/opentelemetry-collector-contrib:0.98.0
     ports:
@@ -226,7 +226,7 @@ services:
       - ./otel-config.yml:/etc/otel-collector-config.yml:ro
     command: ["--config=/etc/otel-collector-config.yml"]
 
-  # Grafana Tempo — distributed trace storage
+  # Grafana Tempo. distributed trace storage
   tempo:
     image: grafana/tempo:2.4.1
     ports:
@@ -236,7 +236,7 @@ services:
       - tempo_data:/tmp/tempo
     command: ["-config.file=/etc/tempo.yml"]
 
-  # Grafana Loki — log aggregation
+  # Grafana Loki. log aggregation
   loki:
     image: grafana/loki:2.9.7
     ports:
@@ -244,7 +244,7 @@ services:
     volumes:
       - loki_data:/loki
 
-  # Grafana — dashboards for traces + logs
+  # Grafana. dashboards for traces + logs
   grafana:
     image: grafana/grafana:10.4.0
     ports:
@@ -259,7 +259,7 @@ volumes:
 ```
 
 ```yaml
-# otel-config.yml
+otel-config.yml
 receivers:
   otlp:
     protocols:
@@ -287,7 +287,7 @@ service:
       exporters: [otlp/tempo]
 ```
 
-## Correlate Traces and Logs
+Correlate Traces and Logs
 
 The trace_id and span_id from OpenTelemetry should appear in every log line so you can jump from a log to the corresponding trace.
 
@@ -318,14 +318,14 @@ Regex: "trace_id":"(\w+)"
 URL: /explore?orgId=1&left=...&right={"datasource":"Tempo","queries":[{"query":"${__value.raw}"}]}
 ```
 
-Clicking a `trace_id` in a log line opens the full distributed trace in Grafana Tempo — no copying and pasting.
+Clicking a `trace_id` in a log line opens the full distributed trace in Grafana Tempo. no copying and pasting.
 
-## Alerting on Trace Anomalies
+Alerting on Trace Anomalies
 
 Set up alerts based on trace data to catch performance regressions:
 
 ```yaml
-# Grafana alert rule
+Grafana alert rule
 groups:
   - name: trace-alerts
     rules:
@@ -338,18 +338,18 @@ groups:
           summary: "P95 payment processing latency exceeds 5 seconds"
 ```
 
-### Async Debugging Workflow for Remote Teams
+Async Debugging Workflow for Remote Teams
 
 When an incident occurs, remote teams benefit from a structured async process:
 
-1. **First responder** captures the trace ID from error logs and posts it in the incident channel
-2. **Anyone on the team** can open the trace in Grafana Tempo and investigate without waiting for a sync meeting
-3. **Root cause** is documented in the incident thread with a link to the relevant trace
-4. **Follow-up** actions are tracked as tickets, not Slack messages
+1. First responder captures the trace ID from error logs and posts it in the incident channel
+2. Anyone on the team can open the trace in Grafana Tempo and investigate without waiting for a sync meeting
+3. Root cause is documented in the incident thread with a link to the relevant trace
+4. Follow-up actions are tracked as tickets, not Slack messages
 
 This workflow works across time zones because all context is embedded in the trace.
 
-## Cost Considerations for Self-Hosted Observability
+Cost Considerations for Self-Hosted Observability
 
 | Component | Storage Cost | Retention | Monthly Estimate (50 services) |
 |-----------|-------------|-----------|-------------------------------|
@@ -360,41 +360,41 @@ This workflow works across time zones because all context is embedded in the tra
 
 Self-hosting the full stack costs a fraction of hosted alternatives like Datadog or New Relic. For a team running 50 services, the difference can be thousands of dollars per month. The trade-off is maintenance burden -- someone needs to own the observability infrastructure.
 
-## Related Reading
+Related Reading
 
 - [Prometheus Monitoring Setup for Remote Infrastructure](/prometheus-monitoring-remote-infrastructure/)
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/ci-cd-pipeline-solo-developer-github-actions/)
 - [Home Lab Setup Guide for Remote Developers](/home-lab-setup-guide-remote-developers/)
 - [Best Observability Platform for Remote Teams Correlating](/best-observability-platform-for-remote-teams-correlating-log/)
 
-## Related Articles
+Related Articles
 
 - [How to Onboard Remote Interns Effectively With Structured](/how-to-onboard-remote-interns-effectively-with-structured-me/)
-- [Diversity Sourcing Strategy for Remote Teams](/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
+- [Diversity Sourcing Strategy for Remote Teams](/remote-team-hiring detailed lookrsity-sourcing-strategy-for-distributed-companies/)
 - [Best Observability Platform for Remote Teams Correlating](/best-observability-platform-for-remote-teams-correlating-log/)
 - [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 - [Remote Work Tools: All Guides and Reviews](/guides-hub/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does Teams offer a free tier?**
+Does Teams offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check Teams's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 

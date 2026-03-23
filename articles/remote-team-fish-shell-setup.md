@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team fish Shell Setup Guide"
-description: "Share a fish shell config across a distributed team using a dotfiles repo — with shared functions, abbreviations, universal variables, and a one-command."
+description: "Share a fish shell config across a distributed team using a dotfiles repo. with shared functions, abbreviations, universal variables, and a one-command."
 date: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-fish-shell-setup/
@@ -14,70 +14,70 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-## Remote Team fish Shell Setup Guide
+Remote Team fish Shell Setup Guide
 
 fish (the Friendly Interactive SHell) has autosuggestions, syntax highlighting, and a sane scripting language without the POSIX baggage. For remote teams that work heavily in terminals, sharing a consistent fish config means everyone benefits from the same abbreviations for your internal tools, the same project navigation functions, and the same prompt without anyone spending a day configuring it.
 
 ---
 
-## Why fish for Team Config Sharing
+Why fish for Team Config Sharing
 
-- **No `~/.bashrc` sourcing chain**: fish reads `~/.config/fish/` cleanly
-- **Universal variables**: set once, persist across all terminals automatically
-- **Abbreviations over aliases**: fish abbreviations expand inline so engineers see and learn the full command
-- **`fish_plugins` file**: Tide prompt and Fisher plugins can be locked to exact versions
+- No `~/.bashrc` sourcing chain: fish reads `~/.config/fish/` cleanly
+- Universal variables: set once, persist across all terminals automatically
+- Abbreviations over aliases: fish abbreviations expand inline so engineers see and learn the full command
+- `fish_plugins` file: Tide prompt and Fisher plugins can be locked to exact versions
 
 ---
 
-## Repo Structure
+Repo Structure
 
 ```
 dotfiles/
-├── fish/
-│   ├── config.fish            -- main config, sourced on startup
-│   ├── fish_plugins           -- Fisher plugin lock file (committed)
-│   ├── functions/
-│   │   ├── mkcd.fish
-│   │   ├── proj.fish          -- project switcher
-│   │   ├── kdeploy.fish       -- kubectl deploy helper
-│   │   └── ghpr.fish          -- open current branch PR
-│   ├── conf.d/
-│   │   ├── abbreviations.fish -- shared abbreviations
-│   │   └── env.fish           -- non-secret env vars
-│   └── completions/           -- custom completions for internal tools
-└── install.sh
+ fish/
+    config.fish            -- main config, sourced on startup
+    fish_plugins           -- Fisher plugin lock file (committed)
+    functions/
+       mkcd.fish
+       proj.fish          -- project switcher
+       kdeploy.fish       -- kubectl deploy helper
+       ghpr.fish          -- open current branch PR
+    conf.d/
+       abbreviations.fish -- shared abbreviations
+       env.fish           -- non-secret env vars
+    completions/           -- custom completions for internal tools
+ install.sh
 ```
 
 ---
 
-## Core Config
+Core Config
 
-**`fish/config.fish`**
+`fish/config.fish`
 
 ```fish
-# ─── PATH ──────────────────────────────────────────────────────────
+ PATH 
 fish_add_path /usr/local/bin
 fish_add_path $HOME/.local/bin
 fish_add_path $HOME/go/bin
 fish_add_path $HOME/.cargo/bin
 
-# ─── Options ───────────────────────────────────────────────────────
+ Options 
 set -g fish_greeting ""           # no welcome message
 set -g EDITOR nvim
 set -g VISUAL nvim
 set -g PAGER "less -R"
 
-# ─── Colors (Catppuccin Mocha) ─────────────────────────────────────
+ Colors (Catppuccin Mocha) 
 set -g fish_color_command cba6f7
 set -g fish_color_param cdd6f4
 set -g fish_color_error f38ba8
 set -g fish_color_autosuggestion 585b70
 set -g fish_color_comment 6c7086
 
-# ─── History ───────────────────────────────────────────────────────
+ History 
 set -g fish_history_max 10000
 
-# ─── Local config (gitignored) ─────────────────────────────────────
+ Local config (gitignored) 
 if test -f $HOME/.config/fish/config.local.fish
     source $HOME/.config/fish/config.local.fish
 end
@@ -85,12 +85,12 @@ end
 
 ---
 
-## Shared Abbreviations
+Shared Abbreviations
 
-**`fish/conf.d/abbreviations.fish`**
+`fish/conf.d/abbreviations.fish`
 
 ```fish
-# ─── Git ───────────────────────────────────────────────────────────
+ Git 
 abbr -a g    git
 abbr -a gs   git status
 abbr -a gd   git diff
@@ -107,7 +107,7 @@ abbr -a gcb  git checkout -b
 abbr -a gst  git stash
 abbr -a gsp  git stash pop
 
-# ─── Docker ────────────────────────────────────────────────────────
+ Docker 
 abbr -a d    docker
 abbr -a dc   docker compose
 abbr -a dcu  docker compose up -d
@@ -115,7 +115,7 @@ abbr -a dcd  docker compose down
 abbr -a dcl  docker compose logs -f
 abbr -a dps  docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
 
-# ─── Kubernetes ────────────────────────────────────────────────────
+ Kubernetes 
 abbr -a k    kubectl
 abbr -a kgp  kubectl get pods
 abbr -a kgpa "kubectl get pods -A"
@@ -124,7 +124,7 @@ abbr -a kex  kubectl exec -it
 abbr -a kns  kubectl config set-context --current --namespace
 abbr -a kdp  kubectl describe pod
 
-# ─── Misc ──────────────────────────────────────────────────────────
+ Misc 
 abbr -a ll   "ls -lah"
 abbr -a la   "ls -A"
 abbr -a ..   "cd .."
@@ -137,9 +137,9 @@ abbr -a awsl "aws --profile"
 
 ---
 
-## Shared Functions
+Shared Functions
 
-**`fish/functions/proj.fish`** — jump to a project directory:
+`fish/functions/proj.fish`. jump to a project directory:
 
 ```fish
 function proj --description "Jump to project directory"
@@ -165,7 +165,7 @@ function proj --description "Jump to project directory"
 end
 ```
 
-**`fish/functions/ghpr.fish`** — open the PR for the current branch:
+`fish/functions/ghpr.fish`. open the PR for the current branch:
 
 ```fish
 function ghpr --description "Open or create PR for current branch"
@@ -176,7 +176,7 @@ function ghpr --description "Open or create PR for current branch"
     end
 
     if test "$branch" = "main" -o "$branch" = "master"
-        echo "Already on $branch — check out a feature branch first"
+        echo "Already on $branch. check out a feature branch first"
         return 1
     end
 
@@ -190,7 +190,7 @@ function ghpr --description "Open or create PR for current branch"
 end
 ```
 
-**`fish/functions/kdeploy.fish`** — deploy to Kubernetes with confirmation:
+`fish/functions/kdeploy.fish`. deploy to Kubernetes with confirmation:
 
 ```fish
 function kdeploy --description "Deploy image to Kubernetes deployment"
@@ -221,9 +221,9 @@ end
 
 ---
 
-## Fisher Plugin Lock File
+Fisher Plugin Lock File
 
-**`fish/fish_plugins`** (committed — locks exact plugin versions):
+`fish/fish_plugins` (committed. locks exact plugin versions):
 
 ```
 jorgebucaran/fisher
@@ -242,9 +242,9 @@ fish -c "fisher update"
 
 ---
 
-## Bootstrap Script
+Bootstrap Script
 
-**`install.sh`**
+`install.sh`
 
 ```bash
 #!/bin/bash
@@ -253,7 +253,7 @@ set -euo pipefail
 DOTFILES_DIR="$(cd "$(dirname "$0")" && pwd)"
 FISH_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/fish"
 
-# Install fish if not present
+Install fish if not present
 if ! command -v fish &>/dev/null; then
   if [[ "$(uname)" == "Darwin" ]]; then
     brew install fish
@@ -263,7 +263,7 @@ if ! command -v fish &>/dev/null; then
   fi
 fi
 
-# Create config dir and symlink
+Create config dir and symlink
 mkdir -p "$FISH_CONFIG/functions" "$FISH_CONFIG/conf.d" "$FISH_CONFIG/completions"
 
 ln -sf "$DOTFILES_DIR/fish/config.fish"            "$FISH_CONFIG/config.fish"
@@ -275,7 +275,7 @@ for fn in "$DOTFILES_DIR/fish/functions/"*.fish; do
   ln -sf "$fn" "$FISH_CONFIG/functions/$(basename "$fn")"
 done
 
-# Install Fisher and plugins
+Install Fisher and plugins
 fish -c "
   if not functions -q fisher
     curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source
@@ -284,7 +284,7 @@ fish -c "
   fisher update
 "
 
-# Set fish as default shell
+Set fish as default shell
 if ! grep -q "$(which fish)" /etc/shells; then
   which fish | sudo tee -a /etc/shells
 fi
@@ -295,7 +295,7 @@ echo "fish setup complete. Open a new terminal or run: exec fish"
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Remote Team Neovim Setup and Config Sharing](/remote-team-neovim-setup-config-sharing/)
 - [Remote Team tmux Config Sharing Guide](/remote-team-tmux-config-sharing/)
@@ -303,5 +303,5 @@ echo "fish setup complete. Open a new terminal or run: exec fish"
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

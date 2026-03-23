@@ -17,7 +17,7 @@ tags: [remote-work-tools]
 {% raw %}
 Building a personal ATS (Applicant Tracking System) with Notion databases gives solo recruiters working remotely a powerful, customizable tool without enterprise software costs. Notion's relational database structure maps naturally to recruitment workflows, and this guide shows you how to construct templates that scale from 10 candidates to 200+ while maintaining data integrity and workflow clarity.
 
-## Table of Contents
+Table of Contents
 
 - [Why Notion Works for Solo Recruiters](#why-notion-works-for-solo-recruiters)
 - [Core Database Architecture](#core-database-architecture)
@@ -32,21 +32,19 @@ Building a personal ATS (Applicant Tracking System) with Notion databases gives 
 - [Scaling from Solo Recruiter to Team](#scaling-from-solo-recruiter-to-team)
 - [Recruiting Metrics Dashboard](#recruiting-metrics-dashboard)
 
-## Why Notion Works for Solo Recruiters
+Why Notion Works for Solo Recruiters
 
 Solo recruiters face unique challenges: managing multiple pipelines simultaneously, tracking communication across platforms, and maintaining candidate relationships without a dedicated ATS team. Notion solves this through three core features: relational databases, formula properties, and template buttons.
 
-Unlike monolithic ATS platforms, Notion lets you design databases that match your exact workflow. You control the fields, views, and automation. The trade-off is that you build some functionality that enterprise tools provide out-of-the-box—but the flexibility rewards your investment.
+Unlike monolithic ATS platforms, Notion lets you design databases that match your exact workflow. You control the fields, views, and automation. The trade-off is that you build some functionality that enterprise tools provide out-of-the-box, but the flexibility rewards your investment.
 
-**Cost comparison**: Enterprise ATS tools (Workable, Greenhouse, Lever) cost $500-2000/month minimum. Notion costs $10/month for all unlimited databases. For solo recruiters managing 1-5 concurrent open positions, Notion's cost-to-functionality ratio is unbeatable. You get a fully customizable system for one-tenth the price.
+Cost comparison: Enterprise ATS tools (Workable, Greenhouse, Lever) cost $500-2000/month minimum. Notion costs $10/month for all unlimited databases. For solo recruiters managing 1-5 concurrent open positions, Notion's cost-to-functionality ratio is unbeatable. You get a fully customizable system for one-tenth the price.
 
-**When to use Notion vs Enterprise ATS**: Use Notion if you're recruiting for 1-5 positions. Use an ATS if you're recruiting at scale (50+ open positions) or need to coordinate with 20+ hiring managers across an organization.
+When to use Notion vs Enterprise ATS: Use Notion if you're recruiting for 1-5 positions. Use an ATS if you're recruiting at scale (50+ open positions) or need to coordinate with 20+ hiring managers across an organization.
 
-## Core Database Architecture
+Core Database Architecture
 
-A functional recruitment system requires three interconnected databases: Candidates, Companies, and Jobs. Here's how to structure each.
-
-**Relational structure importance**: Many solo recruiters start with a single flat database (all candidate info in one table). This becomes painful when searching for candidates from specific companies or with matching job requirements. Splitting into related databases takes 2 hours upfront but saves 20+ hours monthly in complex queries and filtering.
+A functional recruitment system requires three interconnected databases: Candidates, Companies, and Jobs. Many solo recruiters start with a single flat database (all candidate info in one table). This becomes painful when searching for candidates from specific companies or with matching job requirements. Splitting into related databases takes 2 hours upfront but saves 20+ hours monthly in complex queries and filtering.
 
 The relational approach means:
 - A single candidate links to one or many jobs they've applied for
@@ -54,7 +52,7 @@ The relational approach means:
 - Each job links to multiple candidates who applied
 - This structure enables powerful views and formulas across boundaries
 
-### Candidates Database
+Candidates Database
 
 Create a database with these core properties:
 
@@ -72,7 +70,7 @@ Create a database with these core properties:
 
 The `Current Status` select property should include stages like: New, Screening, Interview, Offer, Hired, Rejected, Withdrawn.
 
-### Companies Database
+Companies Database
 
 Track companies separately to avoid data duplication:
 
@@ -86,7 +84,7 @@ Track companies separately to avoid data duplication:
 | Primary Contact | Person | Internal hiring manager |
 | Last Outreach | Date | Communication tracking |
 
-### Jobs Database
+Jobs Database
 
 The jobs database serves as your source of truth for all requisitions:
 
@@ -102,11 +100,11 @@ The jobs database serves as your source of truth for all requisitions:
 | Posted Date | Date | When job went live |
 | Time to Hire | Formula | Days from post to hire |
 
-## Formula Examples for Automation
+Formula Examples for Automation
 
 Notion formulas transform static databases into dynamic tracking systems. Here are practical formulas for recruitment workflows.
 
-**When to use formulas**: Use formulas to calculate values automatically rather than entering them manually. The more you manually update, the more outdated your data becomes. Formulas ensure metrics stay current.
+When to use formulas: Use formulas to calculate values automatically rather than entering them manually. The more you manually update, the more outdated your data becomes. Formulas ensure metrics stay current.
 
 Common mistakes:
 - Creating formulas that require manual refresh (they don't auto-update in list views)
@@ -115,7 +113,7 @@ Common mistakes:
 
 Keep formulas simple and focused on one calculation each.
 
-### Days Since Last Contact
+Days Since Last Contact
 
 ```notion
 dateBetween(now(), prop("Last Contact"), "days")
@@ -127,7 +125,7 @@ This formula calculates how many days have passed since your last candidate touc
 Filter: Days Since Last Contact > 7
 ```
 
-### Candidate Age
+Candidate Age
 
 ```notion
 dateBetween(now(), prop("Applied Date"), "days")
@@ -139,7 +137,7 @@ Track how long candidates sit in your pipeline. Combine with status filters to i
 Filter: Candidate Age > 14 AND Current Status = "Interview"
 ```
 
-### Pipeline Conversion Rate
+Pipeline Conversion Rate
 
 ```notion
 format(round(prop("Hired") / prop("Applied") * 100)) + "%"
@@ -147,7 +145,7 @@ format(round(prop("Hired") / prop("Applied") * 100)) + "%"
 
 Calculate your conversion from applied to hired. Requires rollup properties counting candidates per status.
 
-## Template Button Workflows
+Template Button Workflows
 
 Template buttons automate repetitive tasks. Create a button in your candidates database that:
 
@@ -167,18 +165,18 @@ Template buttons automate repetitive tasks. Create a button in your candidates d
 }
 ```
 
-## View Configurations for Daily Use
+View Configurations for Daily Use
 
 Views determine what you see. Build multiple views for different contexts:
 
-### My Candidates This Week
+My Candidates This Week
 
 ```
 Filter: Assignee = "Me" AND Last Contact > 7 days ago
 Sort: Last Contact ascending
 ```
 
-### Hot Pipeline (Interview Stage)
+Hot Pipeline (Interview Stage)
 
 ```
 Filter: Current Status = "Interview"
@@ -186,14 +184,14 @@ Sort: Rating descending
 View: Board (grouped by Company)
 ```
 
-### Follow-Up Needed
+Follow-Up Needed
 
 ```
 Filter: Last Contact < today() - 5 days
 Show: Name, Company, Last Contact, Phone
 ```
 
-## Integration with Communication Tools
+Integration with Communication Tools
 
 Solo recruiters juggle email, Slack, and calendar. Connect Notion to these tools using native integrations or automation platforms:
 
@@ -207,7 +205,7 @@ Slack Reminders: Set up Slack reminders that query Notion:
 /remind me "Follow up with candidates in interview stage" every Monday at 9am
 ```
 
-## Scaling Your System
+Scaling Your System
 
 As your candidate volume grows, these patterns help maintain efficiency:
 
@@ -219,90 +217,90 @@ As your candidate volume grows, these patterns help maintain efficiency:
 
 4. Separate warm from cold outreach: Maintain different databases or tags for proactive sourcing versus reactive applications.
 
-## What to Avoid
+What to Avoid
 
 Don't over-engineer your system on day one. Start with basic candidate and job tracking, then add complexity as your workflow reveals gaps. Many solo recruiters build elaborate templates they never use.
 
 Avoid storing sensitive data like salary negotiations or internal feedback in databases shared with hiring managers. Use separate private databases for confidential information.
 
-## Advanced Automation with Zapier and Make
+Advanced Automation with Zapier and Make
 
 Notion alone handles core recruitment workflows, but connecting external tools multiplies efficiency:
 
-**Automated Status Updates**: When a candidate accepts an offer via email or form, automatically update their status to "Hired" and archive the related job posting.
+Automated Status Updates: When a candidate accepts an offer via email or form, automatically update their status to "Hired" and archive the related job posting.
 
-**Calendar Sync**: Interview dates entered in Notion automatically populate your Google Calendar or Cal.com, reducing double-entry. Include candidate details and interview notes in calendar events.
+Calendar Sync: Interview dates entered in Notion automatically populate your Google Calendar or Cal.com, reducing double-entry. Include candidate details and interview notes in calendar events.
 
-**Email Capture**: Configure Gmail forwarding or Zapier to parse recruiter emails and create new candidate records or log communication. This eliminates manual data entry.
+Email Capture: Configure Gmail forwarding or Zapier to parse recruiter emails and create new candidate records or log communication. This eliminates manual data entry.
 
-**Slack Reminders**: Trigger daily reminders to follow up with candidates in specific pipeline stages. "You have 3 candidates waiting on feedback from interview stage" helps maintain cadence.
+Slack Reminders: Trigger daily reminders to follow up with candidates in specific pipeline stages. "You have 3 candidates waiting on feedback from interview stage" helps maintain cadence.
 
-## Communication Management Within Notion
+Communication Management Within Notion
 
 Solo recruiters juggle dozens of email threads. Embed communication history directly in Notion:
 
-**Email Thread Summaries**: Use the "Email to Notion" feature or manually paste summaries of key conversations into each candidate record. Include:
+Email Thread Summaries: Use the "Email to Notion" feature or manually paste summaries of key conversations into each candidate record. Include:
 - Date of last contact
 - Key discussion points
 - Any commitments made
 - Next steps agreed upon
 
-**Task Creation from Email**: When a candidate email requires follow-up, create a task directly from Notion. Link it to the candidate record so nothing falls through cracks.
+Task Creation from Email: When a candidate email requires follow-up, create a task directly from Notion. Link it to the candidate record so nothing falls through cracks.
 
-**Interview Scorecard Database**: Create a linked database for interview feedback. Each scorecard links to a candidate, contains evaluator ratings across dimensions (technical skill, communication, culture fit), and includes notes. Average scores across interviewers using formulas.
+Interview Scorecard Database: Create a linked database for interview feedback. Each scorecard links to a candidate, contains evaluator ratings across dimensions (technical skill, communication, culture fit), and includes notes. Average scores across interviewers using formulas.
 
-## Scaling from Solo Recruiter to Team
+Scaling from Solo Recruiter to Team
 
 As recruiting volume grows, Notion's limitations become apparent. Plan for growth:
 
-**Role-Based Views**: If you eventually hire recruiting coordinators, create different views for different roles. Coordinators see "Screening Tasks" view with candidates needing qualification. Hiring managers see "Hot Candidates" view showing interview-stage applicants.
+Role-Based Views: If you eventually hire recruiting coordinators, create different views for different roles. Coordinators see "Screening Tasks" view with candidates needing qualification. Hiring managers see "Hot Candidates" view showing interview-stage applicants.
 
-**Capacity Planning**: Build a simple formula showing your available hours versus pipeline size. When pipeline exceeds your capacity, this signals hiring time or workflow optimization needs.
+Capacity Planning: Build a simple formula showing your available hours versus pipeline size. When pipeline exceeds your capacity, this signals hiring time or workflow optimization needs.
 
-**Integration with ATS**: If volume reaches 50+ active candidates, consider upgrading to a dedicated ATS like Workable or Greenhouse. Use Zapier to maintain a read-only Notion copy as a backup view, but recognize that ATS tools provide better candidate management at scale.
+Integration with ATS: If volume reaches 50+ active candidates, consider upgrading to a dedicated ATS like Workable or Greenhouse. Use Zapier to maintain a read-only Notion copy as a backup view, but recognize that ATS tools provide better candidate management at scale.
 
-## Recruiting Metrics Dashboard
+Recruiting Metrics Dashboard
 
 Track recruiting performance with a summary dashboard using rollups:
 
-**Time to Hire**: Formula calculating average days from application to hire across completed placements.
+Time to Hire: Formula calculating average days from application to hire across completed placements.
 
-**Pipeline Health**: Count of candidates in each stage. Healthy pipelines show decreasing numbers down the funnel; if your ratio of applications to hires is too broad, improve screening.
+Pipeline Health: Count of candidates in each stage. Healthy pipelines show decreasing numbers down the funnel; if your ratio of applications to hires is too broad, improve screening.
 
-**Source Effectiveness**: Which job boards or recruiting sources produce hired candidates? Use this to allocate future effort and budget.
+Source Effectiveness: Which job boards or recruiting sources produce hired candidates? Use this to allocate future effort and budget.
 
-Create a dashboard page that rolls up these metrics for monthly review. Use this data to identify bottlenecks—if interviews rarely convert to offers, improve interview quality or candidate screening.
+Create a dashboard page that rolls up these metrics for monthly review. Use this data to identify bottlenecks, if interviews rarely convert to offers, improve interview quality or candidate screening.
 ---
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Does Notion offer a free tier?**
+Does Notion offer a free tier?
 
 Most major tools offer some form of free tier or trial period. Check Notion's current pricing page for the latest free tier details, as these change frequently. Free tiers typically have usage limits that work for evaluation but may not be sufficient for daily professional use.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Notion Setup for Solo Freelancer Managing 5 Clients](/notion-setup-for-solo-freelancer-managing-5-clients/)
 - [Slite vs Notion for Team Knowledge Base](/slite-vs-notion-for-team-knowledge-base/)
 - [Fibery vs Notion: All-in-One Workspace Comparison](/fibery-vs-notion-all-in-one-workspace-comparison/)
 - [Notion API Integration Returning 502 Errors Fix (2026)](/notion-api-integration-returning-502-errors-fix-2026/)
 - [Coda vs Notion for Project Documentation](/coda-vs-notion-for-project-documentation/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

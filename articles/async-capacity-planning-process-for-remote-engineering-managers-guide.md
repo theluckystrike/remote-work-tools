@@ -17,7 +17,7 @@ voice-checked: true
 
 Capacity planning is one of the most challenging responsibilities for engineering managers, especially when leading distributed teams across time zones. Traditional approaches rely heavily on synchronous planning sessions where everyone shares their availability, discusses bandwidth, and commits to sprint goals in real-time. While this worked in co-located settings, remote teams need a different approach that respects asynchronous workflows and provides documentation for future reference.
 
-## Table of Contents
+Table of Contents
 
 - [Why Async Capacity Planning Works Better for Remote Teams](#why-async-capacity-planning-works-better-for-remote-teams)
 - [Prerequisites](#prerequisites)
@@ -26,13 +26,13 @@ Capacity planning is one of the most challenging responsibilities for engineerin
 
 This guide walks you through implementing an async capacity planning process that reduces meeting fatigue, produces accurate forecasts, and keeps your team aligned without forcing everyone into yet another video call.
 
-## Why Async Capacity Planning Works Better for Remote Teams
+Why Async Capacity Planning Works Better for Remote Teams
 
-Synchronous capacity planning sessions create several problems for distributed teams. First, finding a time that works across multiple time zones often means someone joins at 7 AM or midnight—situations that inevitably lead to fatigue and rushed decisions. Second, verbal discussions happen once and disappear; there's no artifact to reference when questions arise later. Third, some team members contribute better in writing than in spoken conversations, and synchronous meetings inadvertently silence those voices.
+Synchronous capacity planning sessions create several problems for distributed teams. First, finding a time that works across multiple time zones often means someone joins at 7 AM or midnight, situations that inevitably lead to fatigue and rushed decisions. Second, verbal discussions happen once and disappear; there's no artifact to reference when questions arise later. Third, some team members contribute better in writing than in spoken conversations, and synchronous meetings inadvertently silence those voices.
 
-Async capacity planning addresses all three issues. Team members can respond when they're fresh and focused, contributions are documented for accountability, and everyone has equal opportunity to provide thoughtful input. The process also scales better—adding new team members doesn't require explaining an entire meeting culture; they simply participate in the async workflow.
+Async capacity planning addresses all three issues. Team members can respond when they're fresh and focused, contributions are documented for accountability, and everyone has equal opportunity to provide thoughtful input. The process also scales better, adding new team members doesn't require explaining an entire meeting culture; they simply participate in the async workflow.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -42,57 +42,57 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Set Up Your Capacity Data Foundation
+Step 1: Set Up Your Capacity Data Foundation
 
 Before implementing an async process, ensure you have the right data infrastructure in place. Capacity planning requires accurate information about several factors:
 
-**Historical velocity** — Track your team's completed story points or equivalent metrics over multiple sprints. Look for trends, not just averages. A team that consistently completes 40 points per sprint has different capacity than one oscillating between 25 and 55.
+Historical velocity. Track your team's completed story points or equivalent metrics over multiple sprints. Look for trends, not just averages. A team that consistently completes 40 points per sprint has different capacity than one oscillating between 25 and 55.
 
-**Team availability** — Maintain a shared calendar or document tracking:
+Team availability. Maintain a shared calendar or document tracking:
 - Planned time off (vacations, personal days)
 - Holidays (accounting for different regional holidays)
 - Part-time arrangements
 - Expected onboarding ramp-up for new hires
 
-**Scope uncertainty factors** — Different work types require different capacity buffers:
+Scope uncertainty factors. Different work types require different capacity buffers:
 - New feature development: 20-30% uncertainty buffer
 - Bug fixes and maintenance: 10-15% buffer
 - Infrastructure and tech debt: 15-25% buffer
 - On-call rotation impact: Factor in recovery time after incidents
 
-### Step 2: Designing Your Async Capacity Planning Workflow
+Step 2: Designing Your Async Capacity Planning Workflow
 
-### Phase 1: Data Collection (Week 1 of Sprint)
+Phase 1: Data Collection (Week 1 of Sprint)
 
 Three days before sprint planning, send a structured async request to your team. Use a shared document or form rather than email so responses are centralized:
 
 ```
-### Step 3: Sprint [N] Capacity Input
+Step 3: Sprint [N] Capacity Input
 
 Please complete by [DATE]:
 
-1. **Availability this sprint**
+1. Availability this sprint
    - Planned time off: [ ] hours
    - Holidays: [ ] hours
    - Other commitments (interviews, meetings, etc.): [ ] hours
 
-2. **Work in progress**
+2. Work in progress
    - What are you currently working on?
    - Estimated completion date:
 
-3. **Context switching estimate**
+3. Context switching estimate
    - Approximate hours needed for: code reviews, meetings, interviews, support
 
-4. **Capacity assessment**
+4. Capacity assessment
    - Available hours for sprint work: [ ]
    - Confidence level (1-5): [ ]
    - Any blockers or concerns?
 
-5. **Sprint planning input**
+5. Sprint planning input
    - Suggested capacity (story points or tickets): [ ]
 ```
 
-### Phase 2: Aggregation and Analysis
+Phase 2: Aggregation and Analysis
 
 Once responses come in, compile them into a summary view. Your goal is to calculate total team capacity while identifying any red flags:
 
@@ -128,37 +128,37 @@ def calculate_sprint_capacity(team_data, sprint_days=10):
     }
 ```
 
-### Phase 3: Documentation and Communication
+Phase 3: Documentation and Communication
 
 Create a capacity summary document that becomes part of your sprint planning archive:
 
 ```markdown
-## Sprint [N] Capacity Summary
+Sprint [N] Capacity Summary
 
-**Team Capacity:** 320 hours (85% of maximum)
-**Historical Velocity:** 45 story points/sprint
-**Recommended Commitment:** 35-40 points
+Team Capacity: 320 hours (85% of maximum)
+Historical Velocity: 45 story points/sprint
+Recommended Commitment: 35-40 points
 
-**Team Member Breakdown:**
+Team Member Breakdown:
 - Alice: 38h available (100%)
 - Bob: 32h available (84%) - client demo Friday
 - Carol: 30h available (79%) - vacation Friday
 - Dave: 40h available (100%)
 - Elena: 35h available (92%)
 
-**Risk Factors:**
+Risk Factors:
 - Bob has external client commitments
 - Carol's partial vacation reduces buffer
 - New team member requires 20% more review time
 
-**Recommendation:** Conservative commitment of 35 points to account for unexpected work
+Conservative commitment of 35 points to account for unexpected work
 ```
 
-### Step 4: Integrate with Sprint Planning
+Step 4: Integrate with Sprint Planning
 
 Async capacity planning should feed directly into your sprint planning process, whether you're using Scrum, Kanban, or a hybrid approach.
 
-### Pre-Planning Preparation
+Pre-Planning Preparation
 
 Send your capacity summary to the team 24 hours before sprint planning. Ask each person to:
 - Review the calculated capacity
@@ -167,21 +167,21 @@ Send your capacity summary to the team 24 hours before sprint planning. Ask each
 
 This allows everyone to come to planning with context already established. Instead of spending the first 20 minutes figuring out who's available, you can focus on what work makes sense.
 
-### The Async Planning Handoff
+The Async Planning Handoff
 
 For teams that still need a synchronous planning session (many do for commitment alignment), use the async data to structure the meeting:
 
-1. **Share screen** showing the capacity summary
-2. **Review as a group** — Does the calculated capacity feel right?
-3. **Pull items** from the backlog based on priority and capacity
-4. **Assign and commit** — Final commitments happen in real-time
-5. **Document** — Capture final commitments in the same shared document
+1. Share screen showing the capacity summary
+2. Review as a group. Does the calculated capacity feel right?
+3. Pull items from the backlog based on priority and capacity
+4. Assign and commit. Final commitments happen in real-time
+5. Document. Capture final commitments in the same shared document
 
 The async prep work makes the synchronous meeting dramatically more efficient. You're no longer debating availability; you're selecting work that fits the known capacity.
 
-### Step 5: Handling Common Challenges
+Step 5: Handling Common Challenges
 
-### New Team Members
+New Team Members
 
 New hires typically operate at reduced capacity for their first 2-4 weeks as they ramp up on codebase, tools, and team processes. Apply a ramp-up factor:
 
@@ -192,16 +192,16 @@ New hires typically operate at reduced capacity for their first 2-4 weeks as the
 
 Adjust these based on your onboarding complexity. Some teams find that 50% capacity for the first two sprints is more realistic.
 
-### Unexpected Absences
+Unexpected Absences
 
-Build a buffer into your commitments—aim for 80-85% capacity use rather than 100%. When someone has an emergency, you have slack to absorb it without renegotiating commitments mid-sprint.
+Build a buffer into your commitments, aim for 80-85% capacity use rather than 100%. When someone has an emergency, you have slack to absorb it without renegotiating commitments mid-sprint.
 
 If absences exceed your buffer:
 1. Re-prioritize with the team asynchronously
 2. Move lower-priority items to next sprint
 3. Communicate proactively to stakeholders
 
-### Scope Creep and Mid-Sprint Changes
+Scope Creep and Mid-Sprint Changes
 
 One of the biggest threats to capacity planning is scope change. Establish a clear protocol:
 
@@ -209,12 +209,12 @@ One of the biggest threats to capacity planning is scope change. Establish a cle
 - Changes must be documented in the sprint board
 - Capacity is re-calculated when scope changes
 
-### Step 6: Automate the Process
+Step 6: Automate the Process
 
 As your team matures, consider automating parts of the capacity calculation:
 
 ```yaml
-# Example GitHub Actions workflow for capacity tracking
+Example GitHub Actions workflow for capacity tracking
 name: Sprint Capacity Calculator
 on:
   schedule:
@@ -236,79 +236,79 @@ jobs:
 
 Integration with tools like Jira, Linear, or GitHub Projects allows capacity data to appear alongside work items, making planning visible to everyone.
 
-### Step 7: Measuring Your Process
+Step 7: Measuring Your Process
 
 Track these metrics to improve your async capacity planning over time:
 
-- **Planning accuracy** — How close did final commitments match completed work?
-- **Mid-sprint changes** — How often did scope change significantly?
-- **Planning meeting duration** — Did async prep reduce synchronous meeting time?
-- **Team satisfaction** — Do team members feel capacity estimates are fair?
+- Planning accuracy. How close did final commitments match completed work?
+- Mid-sprint changes. How often did scope change significantly?
+- Planning meeting duration. Did async prep reduce synchronous meeting time?
+- Team satisfaction. Do team members feel capacity estimates are fair?
 
 Iterate on your process based on feedback. The first version won't be perfect, and that's okay.
 
-### Step 8: Common Pitfalls to Avoid
+Step 8: Common Pitfalls to Avoid
 
-**Over-committing** — It's tempting to fill 100% of capacity, but unexpected work always appears. Leave buffer.
+Over-committing. It's tempting to fill 100% of capacity, but unexpected work always appears. Leave buffer.
 
-**Ignoring non-development work** — Code reviews, meetings, and interviews consume significant time. Don't plan as if developers only write code.
+Ignoring non-development work. Code reviews, meetings, and interviews consume significant time. Don't plan as if developers only write code.
 
-**Using averages blindly** — Averages hide variance. A team averaging 40 points might have sprints of 25 and 55. Plan for realistic variation.
+Using averages blindly. Averages hide variance. A team averaging 40 points might have sprints of 25 and 55. Plan for realistic variation.
 
-**Failing to update** — Capacity isn't static. If someone's situation changes mid-sprint, recalculate and communicate.
+Failing to update. Capacity isn't static. If someone's situation changes mid-sprint, recalculate and communicate.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Async Capacity Planning Process for Remote Engineering](/async-capacity-planning-process-for-remote-engineering-manag/)
 - [Best Tool for Remote Team Capacity Planning When Scaling](/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 - [Best Tools for Remote Team Capacity Planning](/best-tools-remote-team-capacity-planning-2026/)
 - [Best Tools for Remote Team Capacity Planning in 2026](/best-tools-for-remote-team-capacity-planning-2026/)
 - [Best Practice for Remote Team Quarterly Planning Process](/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
-## Related Reading
+Related Reading
 
 - [Async Capacity Planning Process for Remote Engineering](/async-capacity-planning-process-for-remote-engineering-manag/)
 - [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [Remote Team Documentation Culture Guide (2026)](/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

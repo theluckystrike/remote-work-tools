@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Collaboration — Tools & Workflows for Distributed"
+title: "Async Collaboration. Tools & Workflows for Distributed"
 description: "Async collaboration guides: video messaging, code review without calls, RFC processes, design critiques, and standup alternatives for remote teams."
 permalink: /topics/async-collaboration-tools/
 intent-checked: true
@@ -8,13 +8,13 @@ voice-checked: true
 date: 2026-03-21
 ---
 
-# Async Collaboration — Tools & Workflows for Distributed Teams
+# Async Collaboration. Tools & Workflows for Distributed Teams
 
 Asynchronous collaboration is the superpower of high-performing remote teams. Instead of scheduling more meetings, async workflows let team members contribute on their own schedules across time zones. This hub covers async standup alternatives, code review processes without Zoom calls, RFC-based decision making, recorded design critiques, async retrospective tools, and video messaging platforms like Loom. Learn how to build an async-first culture that reduces meeting fatigue while keeping everyone aligned and productive.
 
 ---
 
-## Articles in This Topic (76)
+Articles in This Topic (76)
 
 - [Async 360 Feedback Process for Remote Teams Without Live](/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/async-bug-triage-process-for-remote-qa-teams-step-by-step/)

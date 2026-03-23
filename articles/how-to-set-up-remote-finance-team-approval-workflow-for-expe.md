@@ -16,11 +16,11 @@ voice-checked: true
 
 {% raw %}
 
-Managing expense report approvals across distributed finance teams presents unique challenges. When your team spans multiple time zones, waiting for synchronous approvals creates bottlenecks. Employees submit reports and then wait hours—or days—for manager review, delaying reimbursements and creating frustration.
+Managing expense report approvals across distributed finance teams presents unique challenges. When your team spans multiple time zones, waiting for synchronous approvals creates bottlenecks. Employees submit reports and then wait hours, or days, for manager review, delaying reimbursements and creating frustration.
 
 An async approval workflow solves this by establishing clear stages, automated notifications, and explicit response expectations. This guide shows you how to design and implement a remote-friendly expense approval system that keeps money flowing without requiring real-time availability.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Understand the Approval Pipeline
+Step 1: Understand the Approval Pipeline
 
 Before building your workflow, map out the decision points in your expense approval process. Most organizations have several stages:
 
@@ -41,7 +41,7 @@ Before building your workflow, map out the decision points in your expense appro
 
 For remote teams, each stage needs clear ownership, response time expectations, and automated handoffs. Without these elements, expenses stall in inboxes and Slack mentions get lost.
 
-### Step 2: Designing Your Workflow Structure
+Step 2: Designing Your Workflow Structure
 
 Create a status-based workflow that tracks each expense report through its lifecycle. Here's a practical schema:
 
@@ -69,7 +69,7 @@ type ExpenseStatus =
 
 This structure lets you build automations around status transitions. When an expense moves to `pending_manager`, the system automatically notifies the appropriate approver and sets an expected response deadline.
 
-### Step 3: Implementing Automated Notifications
+Step 3: Implementing Automated Notifications
 
 The key to keeping async workflows moving is timely notifications. Set up triggers that alert approvers when action is needed:
 
@@ -120,7 +120,7 @@ function notifyApprover(expenseReport) {
 
 This integration sends a rich message with approve/reject buttons directly to the approver. They can act without leaving their communication tool.
 
-### Step 4: Setting Clear Response Time Expectations
+Step 4: Setting Clear Response Time Expectations
 
 Async workflows only work when everyone understands expectations. Define explicit SLAs for each stage:
 
@@ -151,7 +151,7 @@ function checkApprovalTimeouts() {
 
 Run this check hourly via a scheduled job. When someone misses their SLA, the system escalates to their manager or a backup approver.
 
-### Step 5: Build Policy Enforcement
+Step 5: Build Policy Enforcement
 
 Expense policies exist to ensure compliance, but manually checking every expense is tedious. Build policy rules into your workflow:
 
@@ -187,33 +187,33 @@ function validateExpense(expense) {
 
 Run validation when an expense is submitted. If violations exist, reject it immediately with clear feedback rather than letting it progress through the approval pipeline.
 
-### Step 6: Create Approval Templates
+Step 6: Create Approval Templates
 
 Standardize your approval requests to help reviewers work efficiently. When employees submit expenses with consistent formatting, approvers can scan reports quickly:
 
 ```markdown
-### Step 7: Expense Report #{{id}}
+Step 7: Expense Report #{{id}}
 
-**Employee:** {{employee_name}}
-**Date:** {{submission_date}}
-**Total Amount:** ${{total_amount}}
+Employee: {{employee_name}}
+Date: {{submission_date}}
+Total Amount: ${{total_amount}}
 
-### Expenses
+Expenses
 
 | Date | Category | Amount | Notes |
 |------|----------|--------|-------|
 | {{date}} | {{category}} | ${{amount}} | {{notes}} |
 
-### Attachments
+Attachments
 - [Receipt.pdf]({{receipt_url}})
 - [Additional Documentation]({{docs_url}})
 
-**Policy Compliance:** {{compliance_status}}
+Policy Compliance: {{compliance_status}}
 ```
 
 Provide this template through your expense submission form so employees know what information approvers need.
 
-### Step 8: Handling Rejections and Appeals
+Step 8: Handling Rejections and Appeals
 
 Rejections frustrate employees, especially when feedback is vague. Structure rejection responses:
 
@@ -241,7 +241,7 @@ function rejectExpense(expense, approver, reason) {
 
 When approvers select from standardized rejection reasons, the system provides policy context automatically. Employees understand what went wrong and how to fix it.
 
-### Step 9: Measuring Workflow Performance
+Step 9: Measuring Workflow Performance
 
 Track metrics to continuously improve your process:
 
@@ -268,49 +268,49 @@ function generateWeeklyReport() {
 
 Review these metrics weekly. If approval times spike, investigate whether team capacity or policy confusion is causing delays.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to set up remote finance team approval workflow?**
+How long does it take to set up remote finance team approval workflow?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Will this work with my existing CI/CD pipeline?**
+Will this work with my existing CI/CD pipeline?
 
 The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ. You may need to adapt file paths, environment variable names, and trigger conditions to match your pipeline tool. The underlying workflow logic stays the same.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Remote Team Handbook Section Template for Writing Expense Re](/remote-team-handbook-section-template-for-writing-expense-re/)
 - [Best Client Approval Workflow Tool for Remote Design Teams](/best-client-approval-workflow-tool-for-remote-design-teams/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [Best Expense Management Platform for Remote Teams with Recei](/best-expense-management-platform-for-remote-teams-with-recei/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

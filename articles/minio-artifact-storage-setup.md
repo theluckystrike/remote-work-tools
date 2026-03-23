@@ -14,7 +14,7 @@ tags: [remote-work-tools]
 ---
 
 {% raw %}
-## How to Set Up MinIO for Artifact Storage
+How to Set Up MinIO for Artifact Storage
 
 Every CI/CD pipeline produces artifacts: binaries, test reports, Docker layers, Terraform plans, ML model checkpoints. Pushing these to S3 adds latency and egress costs. MinIO gives you an S3-compatible object store that runs on your own hardware, uses the same AWS SDK calls, and costs nothing per-request.
 
@@ -22,22 +22,22 @@ This guide covers a full production MinIO setup: single-node for getting started
 
 ---
 
-## Why MinIO Instead of S3
+Why MinIO Instead of S3
 
-The case for self-hosted artifact storage is straightforward for teams running their own infrastructure. S3 egress can run $0.09/GB, which adds up fast when CI jobs pull multi-gigabyte Docker layers or ML datasets repeatedly. MinIO's egress cost is zero — it's your hardware.
+The case for self-hosted artifact storage is straightforward for teams running their own infrastructure. S3 egress can run $0.09/GB, which adds up fast when CI jobs pull multi-gigabyte Docker layers or ML datasets repeatedly. MinIO's egress cost is zero. it's your hardware.
 
 Beyond cost, MinIO solves a few other problems:
 
-- **Latency**: Artifacts stored in the same data center or VPC as your build runners are retrieved in milliseconds, not hundreds of milliseconds. Fast artifact retrieval keeps CI jobs tight.
-- **Air-gapped environments**: Regulated industries and government contractors often cannot push artifacts to public cloud. MinIO runs entirely on-prem.
-- **S3-compatible API**: Every tool that talks to S3 — Terraform, the AWS CLI, boto3, Rclone, Restic — talks to MinIO without code changes. You only change the endpoint URL.
-- **Unified storage**: One MinIO cluster can hold CI artifacts, Terraform state, ML datasets, database backups, and application uploads. Fewer systems to operate.
+- Latency: Artifacts stored in the same data center or VPC as your build runners are retrieved in milliseconds, not hundreds of milliseconds. Fast artifact retrieval keeps CI jobs tight.
+- Air-gapped environments: Regulated industries and government contractors often cannot push artifacts to public cloud. MinIO runs entirely on-prem.
+- S3-compatible API: Every tool that talks to S3. Terraform, the AWS CLI, boto3, Rclone, Restic. talks to MinIO without code changes. You only change the endpoint URL.
+- Unified storage: One MinIO cluster can hold CI artifacts, Terraform state, ML datasets, database backups, and application uploads. Fewer systems to operate.
 
 MinIO is not the right choice if you need a managed service with zero operations overhead. If your team has the runway to manage a storage service, the economics favor MinIO at any meaningful scale.
 
 ---
 
-## Single-Node Install with Docker
+Single-Node Install with Docker
 
 For a single-developer setup or a small team, one node is enough. Use Docker for the simplest deployment path:
 
@@ -58,7 +58,7 @@ docker run -d \
 
 Browse the console at `http://your-host:9001`. The API is on port 9000.
 
-Save your generated password immediately — it only appears at container creation time. Store it in your team's secret manager, not in a shell history file.
+Save your generated password immediately. it only appears at container creation time. Store it in your team's secret manager, not in a shell history file.
 
 To retrieve the running container's environment for verification:
 
@@ -68,9 +68,9 @@ docker inspect minio | grep -A2 MINIO_ROOT
 
 ---
 
-## Multi-Node Setup with Docker Compose
+Multi-Node Setup with Docker Compose
 
-Four-node erasure-coded deployment tolerates the loss of two nodes without data loss. MinIO requires an even number of nodes (or drives) for erasure coding — four is the minimum recommended for production:
+Four-node erasure-coded deployment tolerates the loss of two nodes without data loss. MinIO requires an even number of nodes (or drives) for erasure coding. four is the minimum recommended for production:
 
 ```yaml
 version: "3.8"
@@ -109,19 +109,19 @@ services:
       - /mnt/disk4/data:/data
 ```
 
-Each node should be on a separate physical disk. The erasure coding overhead is 50% — 10 TB of raw disk yields about 5 TB of usable space in a four-node setup. For larger clusters, 8 or 16 nodes reduce that overhead ratio.
+Each node should be on a separate physical disk. The erasure coding overhead is 50%. 10 TB of raw disk yields about 5 TB of usable space in a four-node setup. For larger clusters, 8 or 16 nodes reduce that overhead ratio.
 
 Deploy and verify:
 
 ```bash
 docker compose up -d
 docker compose logs -f --tail=50 minio1
-# Look for: "MinIO Object Storage Server" and "Console:" lines
+Look for: "MinIO Object Storage Server" and "Console:" lines
 ```
 
 ---
 
-## Configure with the MinIO Client (mc)
+Configure with the MinIO Client (mc)
 
 The `mc` CLI is the primary management tool. Install it once and alias your cluster:
 
@@ -142,22 +142,22 @@ mc ls artifacts/
 Useful day-to-day commands:
 
 ```bash
-# Check cluster health
+Check cluster health
 mc admin info artifacts
 
-# View disk usage per bucket
+View disk usage per bucket
 mc du artifacts/ci-build-outputs
 
-# Copy objects between buckets
+Copy objects between buckets
 mc cp artifacts/ci-build-outputs/v1.2.0/ artifacts/ci-build-outputs-archive/v1.2.0/ --recursive
 
-# Mirror to another MinIO cluster (disaster recovery)
+Mirror to another MinIO cluster (disaster recovery)
 mc mirror artifacts/terraform-state artifacts-dr/terraform-state
 ```
 
 ---
 
-## Bucket Policies and Access Control
+Bucket Policies and Access Control
 
 Service accounts with minimal permissions are safer than sharing root credentials with CI runners. Create a dedicated policy for each use case:
 
@@ -222,11 +222,11 @@ mc admin policy attach artifacts ci-write --group ci-team
 
 ---
 
-## Using MinIO from CI/CD as an S3 Drop-In
+Using MinIO from CI/CD as an S3 Drop-In
 
 MinIO is fully compatible with the AWS SDK. The only change is setting `endpoint_url` (or the equivalent environment variable).
 
-**GitHub Actions:**
+GitHub Actions:
 
 ```yaml
 - name: Upload build artifact to MinIO
@@ -241,7 +241,7 @@ MinIO is fully compatible with the AWS SDK. The only change is setting `endpoint
       --endpoint-url $AWS_ENDPOINT_URL
 ```
 
-**GitLab CI:**
+GitLab CI:
 
 ```yaml
 upload-artifacts:
@@ -255,7 +255,7 @@ upload-artifacts:
     AWS_DEFAULT_REGION: us-east-1
 ```
 
-**Python upload with presigned URL:**
+Python upload with presigned URL:
 
 ```python
 import boto3
@@ -286,7 +286,7 @@ Presigned URLs are useful for sharing test reports or build artifacts with peopl
 
 ---
 
-## Terraform State Backend
+Terraform State Backend
 
 Storing Terraform state in MinIO avoids the need for an S3 bucket with state locking. Use DynamoDB-equivalent locking via a separate backend or enable state locking with the HTTP backend:
 
@@ -311,7 +311,7 @@ The `force_path_style = true` setting is required for MinIO. AWS S3 uses virtual
 
 ---
 
-## Lifecycle Rules for Automatic Cleanup
+Lifecycle Rules for Automatic Cleanup
 
 CI artifacts accumulate fast. A branch that builds 10 times per day produces 300 artifact sets per month. Without cleanup, the bucket grows without bound:
 
@@ -345,7 +345,7 @@ mc admin scanner status artifacts
 
 ---
 
-## TLS with Let's Encrypt
+TLS with Let's Encrypt
 
 MinIO should always run with TLS in production. Using Let's Encrypt certificates:
 
@@ -376,7 +376,7 @@ chmod +x /etc/letsencrypt/renewal-hooks/deploy/minio.sh
 
 ---
 
-## Monitoring MinIO
+Monitoring MinIO
 
 MinIO exposes Prometheus metrics at `/minio/v2/metrics/cluster`:
 
@@ -413,23 +413,23 @@ groups:
           summary: "MinIO request error rate elevated"
 ```
 
-The MinIO console at port 9001 also provides a real-time dashboard covering request rates, bandwidth, and capacity utilization without any additional setup.
+The MinIO console at port 9001 also provides a real-time dashboard covering request rates, bandwidth, and capacity usage without any additional setup.
 
 ---
 
-## Common Issues and Fixes
+Common Issues and Fixes
 
-**"Signature mismatch" errors from AWS SDK**: Check that your system clock is synchronized. S3 request signing is time-sensitive. Run `chronyc tracking` or `timedatectl` to verify NTP sync.
+"Signature mismatch" errors from AWS SDK: Check that your system clock is synchronized. S3 request signing is time-sensitive. Run `chronyc tracking` or `timedatectl` to verify NTP sync.
 
-**Objects not replicating in multi-node setup**: Ensure all nodes can resolve each other's hostnames. In Docker Compose, the hostnames are the service names. Add entries to `/etc/hosts` if needed for bare-metal setups.
+Objects not replicating in multi-node setup: Ensure all nodes can resolve each other's hostnames. In Docker Compose, the hostnames are the service names. Add entries to `/etc/hosts` if needed for bare-metal setups.
 
-**Bucket versioning and delete markers accumulating**: Enable the `--expired-object-delete-marker` lifecycle rule alongside your expiry rule to clean up delete markers left by versioned object expiration.
+Bucket versioning and delete markers accumulating: Enable the `--expired-object-delete-marker` lifecycle rule alongside your expiry rule to clean up delete markers left by versioned object expiration.
 
-**mc alias shows "connection refused"**: Verify the port is not blocked by a firewall rule. Check `ufw status` or `iptables -L` on the host.
+mc alias shows "connection refused": Verify the port is not blocked by a firewall rule. Check `ufw status` or `iptables -L` on the host.
 
 ---
 
-## Storing Terraform State in MinIO
+Storing Terraform State in MinIO
 
 MinIO works as a Terraform remote state backend using the S3-compatible protocol. This centralizes state for distributed teams without paying AWS S3 fees.
 
@@ -439,7 +439,7 @@ Create a dedicated bucket and lock it down:
 mc mb artifacts/terraform-state
 mc anonymous set none artifacts/terraform-state
 
-# Create a terraform-specific user
+Create a terraform-specific user
 cat > tf-policy.json << 'EOF'
 {
   "Version": "2012-10-17",
@@ -454,13 +454,13 @@ mc admin policy create artifacts terraform-state tf-policy.json
 mc admin user add artifacts terraform "$(openssl rand -base64 24)"
 mc admin policy attach artifacts terraform-state --user terraform
 mc admin user svcacct add artifacts terraform
-# Save the generated access key and secret key
+Save the generated access key and secret key
 ```
 
 Configure Terraform to use MinIO as the S3 backend:
 
 ```hcl
-# backend.tf
+backend.tf
 terraform {
   backend "s3" {
     bucket                      = "terraform-state"
@@ -477,7 +477,7 @@ terraform {
 }
 ```
 
-State locking requires a DynamoDB-compatible service. MinIO does not provide this natively — use a PostgreSQL backend for locking, or use Terrakube/Atlantis which manages locking at the application layer.
+State locking requires a DynamoDB-compatible service. MinIO does not provide this natively. use a PostgreSQL backend for locking, or use Terrakube/Atlantis which manages locking at the application layer.
 
 For teams using Terragrunt, set the backend values in a root `terragrunt.hcl`:
 
@@ -497,21 +497,21 @@ remote_state {
 }
 ```
 
-## Replication for Multi-Region Teams
+Replication for Multi-Region Teams
 
 If your team spans multiple offices or regions, MinIO's site replication keeps artifact buckets synchronized so developers pull artifacts from a local node rather than a distant primary.
 
 ```bash
-# Set up site replication between two MinIO instances
-# Both instances must have the same admin credentials
+Set up site replication between two MinIO instances
+Both instances must have the same admin credentials
 mc admin replicate add \
   artifacts http://minio-us.internal:9000 \
   http://minio-eu.internal:9000
 
-# Verify replication status
+Verify replication status
 mc admin replicate status artifacts
 
-# Watch replication lag
+Watch replication lag
 mc admin replicate resync status artifacts http://minio-eu.internal:9000
 ```
 
@@ -528,7 +528,7 @@ mc replicate add \
   --priority 1
 ```
 
-## Related Reading
+Related Reading
 
 - [How to Set Up Thanos for Prometheus HA](/thanos-prometheus-ha-setup/)
 - [Best Tools for Remote Team Wiki Maintenance](/remote-team-wiki-maintenance-tools/)
@@ -536,5 +536,5 @@ mc replicate add \
 
 ---
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

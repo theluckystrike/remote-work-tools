@@ -19,7 +19,7 @@ voice-checked: true
 
 Automated client progress reports aggregate task completion, sprint metrics, and timeline data without manual compilation, saving hours weekly. You can script reports from Linear, Jira, or GitHub APIs, format them as PDF or email, and schedule weekly/monthly delivery. This guide covers reporting pipeline architecture, template examples, and integrations for remote project teams.
 
-## Table of Contents
+Table of Contents
 
 - [Understanding the Reporting Pipeline](#understanding-the-reporting-pipeline)
 - [Choosing the Right Data Sources](#choosing-the-right-data-sources)
@@ -33,17 +33,17 @@ Automated client progress reports aggregate task completion, sprint metrics, and
 - [Security and Access Considerations](#security-and-access-considerations)
 - [Measuring Report Effectiveness](#measuring-report-effectiveness)
 
-## Understanding the Reporting Pipeline
+Understanding the Reporting Pipeline
 
 An automated reporting system consists of three core components:
 
-1. **Data Collection** — Gathering metrics from your project management tools, version control, and CI/CD systems
-2. **Template Processing** — Injecting data into a structured report format
-3. **Delivery Mechanism** — Sending the completed report via email, Slack, or webhook
+1. Data Collection. Gathering metrics from your project management tools, version control, and CI/CD systems
+2. Template Processing. Injecting data into a structured report format
+3. Delivery Mechanism. Sending the completed report via email, Slack, or webhook
 
 For a typical remote project, you'll pull data from sources like GitHub issues, Jira tickets, Linear boards, or Trello. The automation layer then compiles this into a human-readable format.
 
-## Choosing the Right Data Sources
+Choosing the Right Data Sources
 
 Before writing a single line of automation code, decide which data sources will power your reports. The choice depends on your team's toolstack and what your clients actually care about. Here is a comparison of the most common sources:
 
@@ -57,7 +57,7 @@ Before writing a single line of automation code, decide which data sources will 
 
 For most remote development agencies, GitHub covers the majority of client-facing metrics: what shipped, what is in progress, and what is blocking progress. If your team also uses a project management layer like Linear, pull from both and merge the data in your template.
 
-## Building the Data Collection Layer
+Building the Data Collection Layer
 
 Start by identifying which metrics matter to your clients. Common choices include:
 
@@ -106,7 +106,7 @@ def get_open_issues():
 
 This script fetches merged pull requests from the past week and lists current open issues. You can extend it to include commits, milestones, or any other GitHub API data relevant to your client.
 
-## Pulling Data from Linear
+Pulling Data from Linear
 
 If your team tracks work in Linear alongside GitHub, use the Linear GraphQL API to include issue completion data. Linear's API is particularly clean and well-documented:
 
@@ -149,7 +149,7 @@ def get_linear_completed_issues(days=7):
 
 Combining Linear issues with GitHub PRs gives clients a complete picture: business-level work items alongside the actual code changes that delivered them.
 
-## Creating the Report Template
+Creating the Report Template
 
 With data in hand, the next step is formatting it into a readable report. Markdown works well because it converts cleanly to HTML, PDF, or plain text depending on your delivery method.
 
@@ -158,7 +158,7 @@ def generate_report(completed_prs, open_issues, milestone_info):
     """Generate a markdown report from project data."""
     report = []
     report.append("# Project Progress Report")
-    report.append(f"**Report Date:** {datetime.now().strftime('%Y-%m-%d')}\n")
+    report.append(f"Report Date: {datetime.now().strftime('%Y-%m-%d')}\n")
 
     report.append("## Completed This Week")
     if completed_prs:
@@ -178,14 +178,14 @@ def generate_report(completed_prs, open_issues, milestone_info):
     report.append("\n## Milestones")
     if milestone_info:
         for m in milestone_info:
-            report.append(f"- **{m['title']}**: {m['progress']}% complete (due {m['due_date']})")
+            report.append(f"- {m['title']}: {m['progress']}% complete (due {m['due_date']})")
 
     return "\n".join(report)
 ```
 
 This generates a clean, scannable report that highlights what shipped, what's in progress, and where milestones stand.
 
-## Automating Delivery
+Automating Delivery
 
 The final piece is scheduling and delivering the report. For email delivery, you can use a simple SMTP approach:
 
@@ -233,12 +233,12 @@ def send_slack_report(report_content, webhook_url):
                   headers={"Content-Type": "application/json"})
 ```
 
-## Scheduling the Automation
+Scheduling the Automation
 
 With the scripts in place, schedule them using cron for continuous delivery. A typical setup runs weekly:
 
 ```bash
-# Run every Monday at 9 AM
+Run every Monday at 9 AM
 0 9 * * 1 /usr/bin/python3 /path/to/generate_report.py >> /var/log/project-reports.log 2>&1
 ```
 
@@ -261,7 +261,7 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
 ```
 
-## Report Format Options: Choosing What Works for Each Client
+Report Format Options: Choosing What Works for Each Client
 
 Not every client wants a plain-text email. Tailor your delivery format based on the client's preferences and technical comfort level.
 
@@ -275,7 +275,7 @@ Not every client wants a plain-text email. Tailor your delivery format based on 
 
 For HTML emails, render your Markdown to HTML using Python's `markdown` library before sending. This produces professional-looking reports without requiring a dedicated email platform.
 
-## Enhancing Reports with Additional Context
+Enhancing Reports with Additional Context
 
 Basic metrics tell part of the story. Consider adding:
 
@@ -288,7 +288,7 @@ You can gather this context through structured conventions like a weekly standup
 
 A practical approach is to maintain a `report-notes.md` file in the repository that team members update throughout the week. Your automation script reads this file at report generation time and appends it as the "Highlights" section. This keeps qualitative context attached to quantitative metrics without requiring any additional tooling.
 
-## Security and Access Considerations
+Security and Access Considerations
 
 When automating client reports, keep these best practices in mind:
 
@@ -299,7 +299,7 @@ When automating client reports, keep these best practices in mind:
 
 For multi-client setups, use a configuration file per client that specifies their repository, recipients, and preferred format. This prevents accidental data cross-contamination between clients and makes it easy to onboard new accounts without modifying the core script.
 
-## Measuring Report Effectiveness
+Measuring Report Effectiveness
 
 Track whether your automated reports achieve their purpose:
 
@@ -308,39 +308,39 @@ Track whether your automated reports achieve their purpose:
 - Client satisfaction with project visibility
 - Time saved compared to manual reporting
 
-Adjust your template and delivery frequency based on feedback. The goal is consistent, valuable communication—not information overload. If a client starts ignoring reports within a few weeks, that is a signal to shorten the format, increase the signal-to-noise ratio, or shift to a different delivery channel rather than continuing to send reports nobody reads.
+Adjust your template and delivery frequency based on feedback. The goal is consistent, valuable communication, not information overload. If a client starts ignoring reports within a few weeks, that is a signal to shorten the format, increase the signal-to-noise ratio, or shift to a different delivery channel rather than continuing to send reports nobody reads.
 ---
 
 Building an automated client progress reporting system requires upfront development time but pays dividends through consistent stakeholder communication. Start with simple metrics and expand as you identify what matters most to your clients.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to create automated client progress report for remote?**
+How long does it take to create automated client progress report for remote?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Is this approach secure enough for production?**
+Is this approach secure enough for production?
 
 The patterns shown here follow standard practices, but production deployments need additional hardening. Add rate limiting, input validation, proper secret management, and monitoring before going live. Consider a security review if your application handles sensitive user data.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Create Client Project Retrospective Format for Remote](/how-to-create-client-project-retrospective-format-for-remote/)
 - [Remote Agency Client Data Security Compliance Checklist](/remote-agency-client-data-security-compliance-checklist-for-proposals/)
 - [How to Create Remote Team Compensation Benchmarking Report](/how-to-create-remote-team-compensation-benchmarking-report-u/)
 - [How to Handle Confidential Client Data on Remote Team](/how-to-handle-confidential-client-data-on-remote-team-device/)
 - [AI Project Status Generator for Remote Teams Pulling](/ai-project-status-generator-for-remote-teams-pulling-data-fr/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

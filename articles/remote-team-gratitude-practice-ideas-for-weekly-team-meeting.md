@@ -20,7 +20,7 @@ Remote work offers flexibility but can create emotional distance between team me
 
 This guide provides practical gratitude exercises specifically designed for remote developer teams. You'll find ready-to-use formats, automation ideas, and examples you can implement immediately.
 
-## Why Gratitude Practices Matter for Remote Teams
+Why Gratitude Practices Matter for Remote Teams
 
 Remote work accelerates a dangerous pattern: people feel invisible. Developers ship code that gets no acknowledgment. Designers create work that disappears into products without recognition. Support team members handle difficult customers alone, with no one noticing their patience.
 
@@ -31,37 +31,37 @@ Gratitude practices solve several remote-specific problems:
 3. Improve retention: Developers who feel appreciated stay longer
 4. Increase psychological safety: Gratitude creates positive interactions that balance critical code review feedback
 
-## Practical Gratitude Formats for Weekly Meetings
+Practical Gratitude Formats for Weekly Meetings
 
-### The Round-Robin Shoutout
+The Round-Robin Shoutout
 
 The simplest approach: go around the virtual room and have each person shout out one colleague.
 
-**Format:**
+Format:
 ```
 1. Each person shares one specific thing a teammate helped with this week
 2. Keep it to 30-60 seconds per person
-3. The recipient simply says "thank you" — no deflection or self-deprecation
+3. The recipient simply says "thank you". no deflection or self-deprecation
 ```
 
-**Example statements:**
-- "Thanks to Sarah for debugging that race condition in the payment flow — I was stuck for hours."
+Example statements:
+- "Thanks to Sarah for debugging that race condition in the payment flow. I was stuck for hours."
 - "Appreciate Marcus for staying late to review my PR before the sprint ended."
 
-**Why it works:** Specificity matters. "Great job" is nice, but "Thanks for fixing that specific bug" carries more weight because it shows you noticed the actual work.
+Why it works: Specificity matters. "Great job" is nice, but "Thanks for fixing that specific bug" carries more weight because it shows you noticed the actual work.
 
-### The Two-Sentence Rule
+The Two-Sentence Rule
 
 For teams that find round-robins too time-consuming, try this condensed format:
 
-**Format:**
+Format:
 ```
 Meeting leader asks: "Who deserves appreciation this week?"
 Everyone types 2-sentence shoutouts in chat (60 seconds)
 Meeting leader reads 3-5 highlights aloud
 ```
 
-**Automation example:** Use a simple Slack workflow to collect these:
+Automation example: Use a simple Slack workflow to collect these:
 
 ```javascript
 // Slack app: gratitude-collector.js
@@ -71,38 +71,38 @@ app.message('gratitude', async ({ message, client }) => {
   // Store in a gratitude log channel
   await client.chat.postMessage({
     channel: 'C gratitude-log',
-    text: `💚 ${message.user} appreciated: ${thanks}`,
+    text: ` ${message.user} appreciated: ${thanks}`,
     thread_ts: message.ts
   });
 });
 ```
 
-### The Written Appreciation Board
+The Written Appreciation Board
 
 Asynchronous teams benefit from written practices that don't require live attendance.
 
-**Notion/Airtable Setup:**
+Notion/Airtable Setup:
 Create a database with these fields:
-- **Who** (person)
-- **What** (what they did)
-- **Who appreciated them** (appreciator)
-- **Week of** (date)
-- **Category** (code-review, debugging, documentation, etc.)
+- Who (person)
+- What (what they did)
+- Who appreciated them (appreciator)
+- Week of (date)
+- Category (code-review, debugging, documentation, etc.)
 
-**Workflow:**
+Workflow:
 1. Share the link in your weekly Slack announcement
 2. Team members add entries before the meeting
 3. Meeting host reads 3-4 entries as the "gratitude segment"
 4. Optionally: calculate monthly statistics (most appreciated, most generous appreciator)
 
-## Digital Tools for Gratitude Automation
+Digital Tools for Gratitude Automation
 
-### Slack Integration: Kudos Bot
+Slack Integration: Kudos Bot
 
 Build a simple kudos system that tracks appreciation over time:
 
 ```python
-# kudos_bot.py
+kudos_bot.py
 import json
 from datetime import datetime
 
@@ -148,17 +148,17 @@ class KudosStore:
         return sorted_users[:limit]
 ```
 
-**Slack command usage:**
+Slack command usage:
 ```
 /kudos @sarah "for debugging that hairy concurrency issue"
 ```
 
-### GitHub Integration: Auto-Recognize PR Reviews
+GitHub Integration: Auto-Recognize PR Reviews
 
 Automatically recognize code review contributions:
 
 ```yaml
-# .github/workflows/kudos-collector.yml
+.github/workflows/kudos-collector.yml
 name: PR Review Recognition
 on:
   pull_request:
@@ -174,18 +174,18 @@ jobs:
           curl -X POST "${{ secrets.SLACK_WEBHOOK }}" \
             -H 'Content-Type: application/json' \
             -d '{
-              "text": "🎉 ${{ github.actor }} merged PR #${{ github.event.pull_request.number }}: ${{ github.event.pull_request.title }}"
+              "text": " ${{ github.actor }} merged PR #${{ github.event.pull_request.number }}: ${{ github.event.pull_request.title }}"
             }'
 ```
 
 This creates a positive feedback loop around code contribution and review.
 
-## Gratitude Meeting Agenda Template
+Gratitude Meeting Agenda Template
 
 Here's a 5-minute gratitude segment you can add to any weekly meeting:
 
 ```
-## Weekly Meeting - Gratitude Segment (5 min)
+Weekly Meeting - Gratitude Segment (5 min)
 
 [0:00-0:30] Leader frames the practice
 - "Let's start by recognizing great work from this week"
@@ -201,7 +201,7 @@ Here's a 5-minute gratitude segment you can add to any weekly meeting:
 - "Thank you everyone for the work you do"
 ```
 
-## Making Gratitude Stick
+Making Gratitude Stick
 
 Gratitude practices fail when they're mandatory or performative. Here are patterns that work:
 
@@ -209,54 +209,54 @@ Keep it short: 5 minutes maximum. Longer sessions feel like meetings about meeti
 
 Make it optional: Some people are uncomfortable with public recognition. Allow silent participation or written alternatives only.
 
-Be specific: Train the team to mention concrete actions, not just names. "Thanks for the code review" is okay; "Thanks for the thorough code review on the auth refactor — you caught a security issue" is better.
+Be specific: Train the team to mention concrete actions, not just names. "Thanks for the code review" is okay; "Thanks for the thorough code review on the auth refactor. you caught a security issue" is better.
 
 Rotate help: Don't make one person own the gratitude segment forever. Share the responsibility.
 
 Track over time: A leaderboard or simple log helps people see patterns of appreciation and recognizes consistent contributors.
 
-## Overcoming Common Obstacles
+Overcoming Common Obstacles
 
-**"My team is too distributed across time zones"**
+"My team is too distributed across time zones"
 Use async tools. Create a Slack channel or Notion board where people post appreciations before the meeting. Read highlights during the live meeting.
 
-**"Our team is too large for round-robins"**
+"Our team is too large for round-robins"
 Limit to one representative per sub-team, or use the chat-based "two-sentence" format.
 
-**"People will think it's forced"**
+"People will think it's forced"
 Start slowly. Try written-only appreciation boards for a month before adding live segments. Let organic adoption guide the pace.
 
-**"We already have too many meetings"**
+"We already have too many meetings"
 Integrate gratitude into existing meetings rather than creating new ones. Replace 5 minutes of status updates with appreciation instead.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [Async Weekly Recap Email Template for Remote Team Leads 2026](/async-weekly-recap-email-template-for-remote-team-leads-2026/)
 - [How to Handle Remote Team Subculture Formation When](/how-to-handle-remote-team-subculture-formation-when-departme/)
 - [Best Format for Remote Team Weekly Written Status Update](/best-format-for-remote-team-weekly-written-status-update-rep/)
 - [How to Run Remote Team Retrospective Focused on Team Health](/how-to-run-remote-team-retrospective-focused-on-team-health/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

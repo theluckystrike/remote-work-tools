@@ -18,7 +18,7 @@ voice-checked: true
 
 Presenting sprint demos to non-technical clients over video calls presents unique challenges. Your audience cannot see the code, doesn't understand technical terminology, and may lose interest quickly if you focus on implementation details. The difference between a successful demo and a confusing one often comes down to preparation and communication style.
 
-## Table of Contents
+Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
@@ -27,7 +27,7 @@ Presenting sprint demos to non-technical clients over video calls presents uniqu
 
 This guide provides practical strategies for delivering effective sprint demos that keep clients engaged, build trust, and demonstrate real progress.
 
-## Prerequisites
+Prerequisites
 
 Before you begin, make sure you have the following ready:
 
@@ -37,7 +37,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-### Step 1: Understand Your Audience
+Step 1: Understand Your Audience
 
 Non-technical clients care about business outcomes, not implementation details. They want to see their money producing results that solve their problems. Before any demo, answer these questions:
 
@@ -47,11 +47,11 @@ Non-technical clients care about business outcomes, not implementation details. 
 
 A client running an e-commerce business cares about checkout flow improvements, not the refactored API endpoints that enable them. Translate every feature into business value.
 
-### Step 2: Structuring Your Demo
+Step 2: Structuring Your Demo
 
 A well-structured demo follows a clear narrative arc. Use this framework for each sprint presentation:
 
-### 1. Start with Context (2 minutes)
+1. Start with Context (2 minutes)
 
 Begin by reminding the client what you're building and why. Reference their business goals explicitly.
 
@@ -61,7 +61,7 @@ Begin by reminding the client what you're building and why. Reference their busi
 
 This 2-minute opening grounds the client and sets expectations for what they'll see.
 
-### 2. Demonstrate Key Features (10-15 minutes)
+2. Demonstrate Key Features (10-15 minutes)
 
 For each feature, follow the pattern: Show → Explain → Benefit.
 
@@ -77,7 +77,7 @@ Here's a practical example of narrating a new feature:
 "Here's the new password reset flow. Notice how we now send a text message code instead of email. This reduces password reset time from hours to minutes, meaning customers get back to shopping faster."
 ```
 
-### 3. Show Progress Visually (3-5 minutes)
+3. Show Progress Visually (3-5 minutes)
 
 Non-technical clients love seeing progress. Create a simple visual that shows completed work against the roadmap.
 
@@ -98,7 +98,7 @@ const sprintProgress = {
 
 Display this as a simple Kanban board or progress bar during your demo. It helps clients understand where their project stands without requiring them to read technical documentation.
 
-### 4. Address Questions and Gather Feedback (5-10 minutes)
+4. Address Questions and Gather Feedback (5-10 minutes)
 
 End with open-ended questions:
 
@@ -108,7 +108,7 @@ End with open-ended questions:
 
 This turns the demo into a conversation rather than an one-way presentation.
 
-### Step 3: Handling Technical Questions
+Step 3: Handling Technical Questions
 
 Clients occasionally ask technical questions. When they do, bridge back to business value:
 
@@ -118,7 +118,7 @@ You: "We're using PostgreSQL, which is highly reliable and keeps your customer d
 
 This satisfies their curiosity while reinforcing trust in your technical decisions.
 
-### Step 4: Practical Demo Preparation Checklist
+Step 4: Practical Demo Preparation Checklist
 
 Before each demo, verify these items:
 
@@ -130,12 +130,12 @@ Before each demo, verify these items:
 - [ ] Record your demo (with permission) for future reference
 
 ```bash
-# Quick script to start a screen recording on macOS
-# Useful for creating demo recordings to share after calls
+Quick script to start a screen recording on macOS
+Useful for creating demo recordings to share after calls
  screencapture -v ~/Desktop/demo-$(date +%Y%m%d).mov
 ```
 
-## Common Mistakes to Avoid
+Common Mistakes to Avoid
 
 Mistake 1: Diving straight into code or technical architecture
 Solution: Always start with business context and outcomes
@@ -149,7 +149,7 @@ Solution: Maintain a glossary of terms the client understands. When in doubt, si
 Mistake 4: Ignoring the human element
 Solution: Begin and end with genuine conversation. Ask about their week, share updates about the project team, build relationship
 
-### Step 5: Making Remote Demos Engaging
+Step 5: Making Remote Demos Engaging
 
 Remote presentations require extra effort to maintain engagement. Consider these techniques:
 
@@ -161,23 +161,23 @@ Create a shared document: Use a Google Doc or Notion page where clients can add 
 
 Send a pre-demo agenda: Give clients 24 hours notice about what you'll cover. This lets them prepare their own questions and concerns.
 
-## Advanced: Using Storytelling to Engage Clients
+Advanced: Using Storytelling to Engage Clients
 
 Beyond straightforward feature demonstration, compelling storytelling makes demos memorable and builds emotional investment in the work.
 
-### The Problem-Solution-Impact Framework
+The Problem-Solution-Impact Framework
 
 Structure each demo feature using this narrative arc:
 
-**Problem** (30 seconds): "Your current checkout flow requires customers to enter payment information twice—once for billing and once for shipping. This creates confusion."
+Problem (30 seconds): "Your current checkout flow requires customers to enter payment information twice, once for billing and once for shipping. This creates confusion."
 
-**Solution** (45 seconds): "We've unified the checkout to capture all information in a single form. Customers now see where they are in the process and can review everything before confirming."
+Solution (45 seconds): "We've unified the checkout to capture all information in a single form. Customers now see where they are in the process and can review everything before confirming."
 
-**Impact** (30 seconds): "In our test, this reduces checkout abandonment by 8% and decreases support emails about payment confusion by 40%. For your store, that means an extra $2,000 in monthly revenue and fewer customer support requests."
+Impact (30 seconds): "In our test, this reduces checkout abandonment by 8% and decreases support emails about payment confusion by 40%. For your store, that means an extra $2,000 in monthly revenue and fewer customer support requests."
 
 This framework converts feature announcements into compelling business stories.
 
-### Using Analogies to Simplify Complexity
+Using Analogies to Simplify Complexity
 
 When features involve technical changes, explain using analogies:
 
@@ -187,31 +187,31 @@ Say: "We improved how quickly the product list loads. Think of it like reorganiz
 
 Your client doesn't need to understand caching; they need to understand the customer benefit.
 
-### Step 6: Handling Difficult Client Questions
+Step 6: Handling Difficult Client Questions
 
 Some questions reveal deeper concerns beneath the surface. Address the underlying worry:
 
-**Client asks**: "Why did that feature take 3 weeks when the other feature only took 1 week?"
+Client asks: "Why did that feature take 3 weeks when the other feature only took 1 week?"
 
-**Surface answer**: "This feature had more integration points with existing systems."
+Surface answer: "This feature had more integration points with existing systems."
 
-**Better answer**: "The previous feature was straightforward API integration. This feature required changes to our data model and affected three existing systems, so we needed extra testing to ensure we didn't break anything. That's why it took longer."
+Better answer: "The previous feature was straightforward API integration. This feature required changes to our data model and affected three existing systems, so we needed extra testing to ensure we didn't break anything. That's why it took longer."
 
 This answer educates the client and prevents the perception that your team is inefficient.
 
-**Client asks**: "Can't we just add real-time notifications like Slack has?"
+Client asks: "Can't we just add real-time notifications like Slack has?"
 
-**Surface answer**: "It's more complex than it sounds—we'd need WebSocket connections and a notification queue."
+Surface answer: "It's more complex than it sounds, we'd need WebSocket connections and a notification queue."
 
-**Better answer**: "Real-time notifications are powerful, but they require more infrastructure complexity. Given your current user base, scheduled notifications with webhook integrations give you 90% of the benefit with half the complexity. We can always add real-time later if the demand justifies it."
+Better answer: "Real-time notifications are powerful, but they require more infrastructure complexity. Given your current user base, scheduled notifications with webhook integrations give you 90% of the benefit with half the complexity. We can always add real-time later if the demand justifies it."
 
 This shows strategic thinking and prevents scope creep from misunderstandings.
 
-### Step 7: Demo Preparation Beyond Slides
+Step 7: Demo Preparation Beyond Slides
 
 Brilliant slides matter less than a well-rehearsed demo.
 
-### Rehearsal Checklist
+Rehearsal Checklist
 
 - [ ] Perform the demo in the exact same environment where you'll present (same browser, same internet connection, same computer)
 - [ ] Test every feature you'll show in the demo
@@ -223,7 +223,7 @@ Brilliant slides matter less than a well-rehearsed demo.
 
 ```bash
 #!/bin/bash
-# Demo rehearsal checklist script
+Demo rehearsal checklist script
 
 echo "=== DEMO PREP CHECKLIST ==="
 echo "[ ] Tested features in staging environment?"
@@ -238,11 +238,11 @@ echo ""
 echo "DO NOT PRESENT UNTIL ALL ITEMS CHECKED"
 ```
 
-### Step 8: Manage Client Expectations Between Demos
+Step 8: Manage Client Expectations Between Demos
 
 Demos shouldn't be first time clients hear about progress. Maintain visibility throughout the sprint:
 
-### Mid-Sprint Updates
+Mid-Sprint Updates
 
 Send brief async updates mid-sprint:
 
@@ -251,9 +251,9 @@ Thursday update (3-minute read):
 Hi [Client Name],
 
 Quick progress update on Sprint 12. We've completed:
-✅ Checkout flow redesign (feature-complete, in testing)
-✅ Payment provider integration (testing now)
-🔄 Email notification system (50% complete)
+ Checkout flow redesign (feature-complete, in testing)
+ Payment provider integration (testing now)
+ Email notification system (50% complete)
 
 Next: We'll finish testing checkout flow tomorrow and have it ready for demo Friday.
 
@@ -263,7 +263,7 @@ Any questions?
 
 This prevents the demo from being a surprise and ensures client expectations align with reality.
 
-### Handling Scope Creep During Demos
+Handling Scope Creep During Demos
 
 Clients often request new features during demos. Don't commit immediately:
 
@@ -273,7 +273,7 @@ You: "That's a great idea. Gift cards would absolutely add value. Let me add it 
 
 This approach prevents overcommitting and shows you take requests seriously without derailing your planning.
 
-### Step 9: Following Up After the Demo
+Step 9: Following Up After the Demo
 
 The demo doesn't end when the call disconnects. Send a follow-up email within 24 hours containing:
 
@@ -287,7 +287,7 @@ Include a simple one-page summary:
 ```
 Sprint 12 Demo Summary
 
-COMPLETED ✅
+COMPLETED 
 - Checkout flow redesign (ready for production)
 - Payment provider integration (95% complete)
 - Admin dashboard improvements (complete)
@@ -310,49 +310,49 @@ Thanks for your feedback on the checkout flow redesign!
 
 This follow-up keeps clients engaged and ensures alignment on next steps.
 
-## Troubleshooting
+Troubleshooting
 
-**Configuration changes not taking effect**
+Configuration changes not taking effect
 
 Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
 
-**Permission denied errors**
+Permission denied errors
 
 Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
 
-**Connection or network-related failures**
+Connection or network-related failures
 
 Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to present sprint demos to non-technical remote clients?**
+How long does it take to present sprint demos to non-technical remote clients?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [How to Run Async Sprint Demos with Recorded Walkthroughs](/how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/)
 - [Sprint {{ sprint_number }} Preparation](/remote-team-sprint-planning-communication-template-for-distr/)
 - [Best Tools for Remote Team Sprint Planning](/best-tools-for-remote-sprint-planning/)
 - [How to Run Effective Remote Team Demos and Showcases 2026](/how-to-run-effective-remote-team-demos-and-showcases-2026/)
 - [How to Get Recurring Clients as a Freelance Developer](/how-to-get-recurring-clients-as-freelance-developer/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

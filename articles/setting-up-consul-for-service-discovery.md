@@ -19,20 +19,20 @@ Hardcoded service addresses are a maintenance nightmare as infrastructure scales
 
 ---
 
-## Architecture
+Architecture
 
 Consul runs in two modes:
-- **Server**: Maintains the cluster state. Run 3 or 5 for fault tolerance.
-- **Client/Agent**: Runs on every host, registers services, proxies requests to servers.
+- Server: Maintains the cluster state. Run 3 or 5 for fault tolerance.
+- Client/Agent: Runs on every host, registers services, proxies requests to servers.
 
 Minimum production setup: 3 Consul servers + Consul agents on each application host.
 
 ---
 
-## Deploy with Docker Compose (Development/Single-Node)
+Deploy with Docker Compose (Development/Single-Node)
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 version: "3.8"
 services:
   consul-server:
@@ -71,7 +71,7 @@ networks:
 
 ---
 
-## Production 3-Node Cluster
+Production 3-Node Cluster
 
 On each Consul server node, use this config:
 
@@ -114,16 +114,16 @@ On each Consul server node, use this config:
 Generate TLS certificates:
 
 ```bash
-# Install consul CLI
+Install consul CLI
 brew install consul
 
-# Generate CA
+Generate CA
 consul tls ca create
 
-# Generate server certs (run for each server)
+Generate server certs (run for each server)
 consul tls cert create -server -dc dc1
 
-# Generate client certs
+Generate client certs
 consul tls cert create -client
 ```
 
@@ -133,13 +133,13 @@ Start Consul:
 systemctl enable consul
 systemctl start consul
 
-# Verify cluster formed
+Verify cluster formed
 consul members
 ```
 
 ---
 
-## Register Services
+Register Services
 
 Each application registers itself with Consul. For a Docker service:
 
@@ -189,37 +189,37 @@ curl -X PUT \
 Deregister on container stop:
 
 ```bash
-# In container stop/entrypoint script
+In container stop/entrypoint script
 trap 'consul services deregister -id="payments-service-$(hostname)"' TERM
 ```
 
 ---
 
-## Service Discovery in Applications
+Service Discovery in Applications
 
-**DNS-based discovery (simplest):**
+DNS-based discovery (simplest):
 
 ```bash
-# Any service registered as "payments-service" is discoverable at:
-# payments-service.service.consul
+Any service registered as "payments-service" is discoverable at:
+payments-service.service.consul
 
-# Test:
+Test:
 dig @127.0.0.1 -p 8600 payments-service.service.consul
 
-# Point your app at the Consul DNS resolver:
+Point your app at the Consul DNS resolver:
 export PAYMENTS_API_URL="http://payments-service.service.consul:8080"
 ```
 
 Configure systemd-resolved to forward `.consul` queries:
 
 ```ini
-# /etc/systemd/resolved.conf.d/consul.conf
+/etc/systemd/resolved.conf.d/consul.conf
 [Resolve]
 DNS=127.0.0.1:8600
 Domains=~consul
 ```
 
-**HTTP API discovery (Go example):**
+HTTP API discovery (Go example):
 
 ```go
 import (
@@ -258,24 +258,24 @@ func discoverService(name string) (string, error) {
 
 ---
 
-## Key-Value Store for Dynamic Config
+Key-Value Store for Dynamic Config
 
 Consul's KV store replaces configuration that would otherwise require redeployments:
 
 ```bash
-# Write configuration values
+Write configuration values
 consul kv put config/payments-service/db-pool-size 25
 consul kv put config/payments-service/rate-limit-per-user 100
 consul kv put config/payments-service/feature-new-checkout true
 
-# Read
+Read
 consul kv get config/payments-service/db-pool-size
 ```
 
 Watch for changes and reload app config:
 
 ```bash
-# Watch a key and trigger action on change
+Watch a key and trigger action on change
 consul watch \
   -type=key \
   -key=config/payments-service/rate-limit-per-user \
@@ -283,7 +283,7 @@ consul watch \
 ```
 
 ```python
-# Python: watch KV and update in-memory config
+Python: watch KV and update in-memory config
 import consul
 import threading
 
@@ -307,7 +307,7 @@ threading.Thread(target=watch_config, daemon=True).start()
 
 ---
 
-## Health Check Best Practices
+Health Check Best Practices
 
 ```json
 {
@@ -356,37 +356,37 @@ func healthHandler(w http.ResponseWriter, r *http.Request) {
 
 ---
 
-## Useful CLI Commands
+Useful CLI Commands
 
 ```bash
-# List all registered services
+List all registered services
 consul catalog services
 
-# List healthy instances of a service
+List healthy instances of a service
 consul health service payments-service --passing
 
-# View all nodes
+View all nodes
 consul members
 
-# Check cluster status
+Check cluster status
 consul operator raft list-peers
 
-# Watch events in real time
+Watch events in real time
 consul monitor
 
-# Force health check run
+Force health check run
 consul force-leave -prune <node_id>
 
-# Export all KV pairs
+Export all KV pairs
 consul kv export > kv-backup.json
 
-# Import KV backup
+Import KV backup
 consul kv import @kv-backup.json
 ```
 
 ---
 
-## Related Reading
+Related Reading
 
 - [Setting Up pgBouncer for Connection Pooling](/setting-up-pgbouncer-for-connection-pooling/)
 - [How to Set Up Traefik Reverse Proxy](/how-to-set-up-traefik-reverse-proxy/)
@@ -395,13 +395,13 @@ consul kv import @kv-backup.json
 
 ---
 
-## Related Articles
+Related Articles
 
 - [Async Product Discovery Process for Remote Teams](/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
 - [Setting Up Jaeger for Distributed Tracing](/setting-up-jaeger-distributed-tracing/)
 - [Remote Agency Client Data Security Compliance Checklist](/remote-agency-client-data-security-compliance-checklist-for-proposals/)
 - [Setting Up pgBouncer for Connection Pooling](/setting-up-pgbouncer-for-connection-pooling/)
 - [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -15,13 +15,13 @@ tags: [remote-work-tools]
 
 {% raw %}
 
-PostgreSQL creates a new OS process for each connection. At 500 concurrent connections, you're running 500 processes — and memory usage, context switching, and lock contention all scale with that count. pgBouncer sits in front of PostgreSQL and multiplexes thousands of application connections onto a small pool of real database connections.
+PostgreSQL creates a new OS process for each connection. At 500 concurrent connections, you're running 500 processes. and memory usage, context switching, and lock contention all scale with that count. pgBouncer sits in front of PostgreSQL and multiplexes thousands of application connections onto a small pool of real database connections.
 
 For remote teams running microservices, each service having its own connection pool means you can hit hundreds of connections fast. pgBouncer is the standard fix.
 
 ---
 
-## Install pgBouncer
+Install pgBouncer
 
 On Debian/Ubuntu:
 
@@ -32,7 +32,7 @@ apt-get install pgbouncer
 Docker:
 
 ```yaml
-# docker-compose.yml
+docker-compose.yml
 services:
   pgbouncer:
     image: edoburu/pgbouncer:1.22.1
@@ -53,7 +53,7 @@ services:
 
 ---
 
-## Core Configuration
+Core Configuration
 
 The main config file is `/etc/pgbouncer/pgbouncer.ini`:
 
@@ -116,24 +116,24 @@ unix_socket_dir = /var/run/postgresql
 
 ---
 
-## Authentication Setup
+Authentication Setup
 
 pgBouncer uses `userlist.txt` for authentication. Generate entries with a helper script:
 
 ```bash
 #!/bin/bash
-# scripts/pgbouncer-add-user.sh
-# Usage: ./pgbouncer-add-user.sh username password
+scripts/pgbouncer-add-user.sh
+Usage: ./pgbouncer-add-user.sh username password
 
 USER=$1
 PASS=$2
 USERLIST="/etc/pgbouncer/userlist.txt"
 
-# Generate scram-sha-256 hash
+Generate scram-sha-256 hash
 HASH=$(psql -c "SELECT concat('\"SCRAM-SHA-256\"\$', encode(digest('$PASS', 'sha256'), 'base64'), '\$')" \
   -t --no-align)
 
-# Or use md5 (simpler, less secure)
+Or use md5 (simpler, less secure)
 MD5_HASH=$(echo -n "${PASS}${USER}" | md5sum | cut -d' ' -f1)
 echo "\"$USER\" \"md5${MD5_HASH}\"" >> "$USERLIST"
 echo "User $USER added to pgBouncer userlist"
@@ -150,7 +150,7 @@ psql -U postgres -t -A -c \
 Add a cron job to refresh the userlist when users change:
 
 ```bash
-# /etc/cron.d/pgbouncer-userlist
+/etc/cron.d/pgbouncer-userlist
 */5 * * * * postgres psql -U postgres -t -A -c \
   "SELECT concat('\"', rolname, '\" \"', rolpassword, '\"') FROM pg_authid WHERE rolpassword IS NOT NULL;" \
   > /etc/pgbouncer/userlist.txt && \
@@ -159,16 +159,16 @@ Add a cron job to refresh the userlist when users change:
 
 ---
 
-## Per-Database Pool Configuration
+Per-Database Pool Configuration
 
 Set different pool sizes for different databases or users:
 
 ```ini
 [databases]
-; High-traffic OLTP database — large pool
+; High-traffic OLTP database. large pool
 myapp = host=localhost port=5432 dbname=myapp pool_size=50
 
-; Analytics database — smaller pool, longer timeout acceptable
+; Analytics database. smaller pool, longer timeout acceptable
 analytics = host=localhost port=5432 dbname=analytics pool_size=10 pool_timeout=60
 
 ; Read replica for read-heavy services
@@ -185,7 +185,7 @@ worker_service = pool_mode=session pool_size=5
 
 ---
 
-## Monitor Pool Stats
+Monitor Pool Stats
 
 Connect to the pgBouncer admin console:
 
@@ -223,7 +223,7 @@ Automate monitoring with a script:
 
 ```bash
 #!/bin/bash
-# scripts/pgbouncer-stats.sh
+scripts/pgbouncer-stats.sh
 PSQL="psql -h 127.0.0.1 -p 6432 -U pgbouncer_admin pgbouncer -t --no-align"
 
 echo "=== Pool Usage ==="
@@ -242,27 +242,27 @@ $PSQL -c "SELECT database, total_xact_count, avg_xact_time FROM stats;" \
 
 ---
 
-## Integrate with Application Code
+Integrate with Application Code
 
-The application connects to pgBouncer instead of PostgreSQL directly. No code changes needed — just update the connection string:
+The application connects to pgBouncer instead of PostgreSQL directly. No code changes needed. just update the connection string:
 
 ```bash
-# Before (direct PostgreSQL)
+Before (direct PostgreSQL)
 DATABASE_URL=postgresql://app_user:password@db.yourcompany.com:5432/myapp
 
-# After (through pgBouncer)
+After (through pgBouncer)
 DATABASE_URL=postgresql://app_user:password@pgbouncer.yourcompany.com:6432/myapp
 ```
 
 For transaction mode (the most common), avoid connection-level features that don't survive across transactions:
-- `SET search_path` — use schema-qualified table names instead
-- `LISTEN/NOTIFY` — use session mode for these
-- Prepared statements — disable in your driver
+- `SET search_path`. use schema-qualified table names instead
+- `LISTEN/NOTIFY`. use session mode for these
+- Prepared statements. disable in your driver
 
 Disable prepared statements in common drivers:
 
 ```python
-# Python / asyncpg
+Python / asyncpg
 conn = await asyncpg.connect(
     dsn="postgresql://user:pass@pgbouncer:6432/myapp",
     statement_cache_size=0  # Disable prepared statements
@@ -286,7 +286,7 @@ const pool = new Pool({
 
 ---
 
-## Sizing Your Pool
+Sizing Your Pool
 
 The optimal pool size is not "as large as possible." PostgreSQL's throughput peaks at a specific concurrency level based on CPU cores. A common formula:
 
@@ -304,7 +304,7 @@ Monitor `sv_idle` in `SHOW POOLS`. If idle servers are consistently > 20% of poo
 
 ---
 
-## Related Reading
+Related Reading
 
 - [How to Automate Database Backup Verification](/how-to-automate-database-backup-verification/)
 - [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
@@ -313,13 +313,13 @@ Monitor `sv_idle` in `SHOW POOLS`. If idle servers are consistently > 20% of poo
 - [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
 ---
 
-## Related Articles
+Related Articles
 
 - [How to Build a Remote Team Runbook Library 2026](/how-to-build-remote-team-runbook-library-2026/)
 - [Setting Up Consul for Service Discovery](/setting-up-consul-for-service-discovery/)
 - [Secure File Transfer Protocol Setup for Remote Teams](/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
 - [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
 - [How to Set Up Ansible for Remote Server Management](/how-to-set-up-ansible-remote-server-management/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 
 {% endraw %}

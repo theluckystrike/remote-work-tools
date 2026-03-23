@@ -16,9 +16,9 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-Implement Kubernetes network policies with a deny-all baseline, then explicitly allow required pod-to-pod communication to reduce attack surface. When development teams work remotely, securing Kubernetes clusters becomes critical—network policies control traffic flow between pods, protecting clusters from distributed access points and devices. This guide walks through implementing effective network policies tailored for remote team environments, including baseline deny-all policies, egress/ingress rules, and practical YAML configurations.
+Implement Kubernetes network policies with a deny-all baseline, then explicitly allow required pod-to-pod communication to reduce attack surface. When development teams work remotely, securing Kubernetes clusters becomes critical, network policies control traffic flow between pods, protecting clusters from distributed access points and devices. This guide walks through implementing effective network policies tailored for remote team environments, including baseline deny-all policies, egress/ingress rules, and practical YAML configurations.
 
-## Table of Contents
+Table of Contents
 
 - [Understanding Kubernetes Network Policies](#understanding-kubernetes-network-policies)
 - [Baseline Policy for Remote Team Clusters](#baseline-policy-for-remote-team-clusters)
@@ -31,13 +31,13 @@ Implement Kubernetes network policies with a deny-all baseline, then explicitly 
 - [Comparing Network Policy Tools](#comparing-network-policy-tools)
 - [Monitoring and Maintenance](#monitoring-and-maintenance)
 
-## Understanding Kubernetes Network Policies
+Understanding Kubernetes Network Policies
 
 Kubernetes network policies function as firewall rules for your pod-to-pod communication. By default, Kubernetes allows all traffic between pods, which creates a significant security gap, especially in multi-tenant or distributed team setups. Network policies enable you to explicitly define which pods can communicate with each other, reducing the attack surface significantly.
 
-A network policy consists of three main components: pod selection, ingress rules defining allowed incoming traffic, and egress rules defining allowed outgoing traffic. When you apply a policy, only the traffic matching your specified rules is permitted—all other traffic gets blocked.
+A network policy consists of three main components: pod selection, ingress rules defining allowed incoming traffic, and egress rules defining allowed outgoing traffic. When you apply a policy, only the traffic matching your specified rules is permitted, all other traffic gets blocked.
 
-## Baseline Policy for Remote Team Clusters
+Baseline Policy for Remote Team Clusters
 
 Start with a deny-all policy as your foundation, then explicitly allow only required communication paths. This zero-trust approach ensures that new pods cannot communicate until you explicitly permit it.
 
@@ -64,7 +64,7 @@ kubectl apply -f default-deny-all.yaml
 
 After applying the deny-all policy, test that pods cannot communicate. You should see connection timeouts when attempting to access services that haven't been explicitly allowed.
 
-## Implementing Namespace Isolation
+Implementing Namespace Isolation
 
 Remote teams often share clusters across multiple projects or environments. Namespace-based isolation provides a logical separation that network policies can enforce. Create policies that restrict traffic between namespaces while permitting necessary communication.
 
@@ -88,9 +88,9 @@ spec:
 
 This policy allows traffic only within the production namespace. Remote team members working on staging or development environments cannot accidentally or intentionally access production resources.
 
-## Protecting Sensitive Services
+Protecting Sensitive Services
 
-Your cluster likely contains services that require stricter access controls—databases, authentication services, or internal APIs. Create dedicated policies for these critical components.
+Your cluster likely contains services that require stricter access controls, databases, authentication services, or internal APIs. Create dedicated policies for these critical components.
 
 For a database pod that should only accept connections from application pods:
 
@@ -124,7 +124,7 @@ Label your application pods accordingly:
 kubectl label pods/backend-xyz app=backend role=application -n production
 ```
 
-## Egress Control for Remote Workers
+Egress Control for Remote Workers
 
 Remote team members sometimes run local development environments that need cluster access. Egress policies prevent compromised or unauthorized pods from exfiltrating data to external servers.
 
@@ -159,7 +159,7 @@ spec:
 
 This policy allows the sensitive workload to communicate only with approved services and DNS, blocking all other outbound connections.
 
-## Enabling DNS and Essential Services
+Enabling DNS and Essential Services
 
 Every pod needs DNS resolution and often requires access to external APIs for legitimate purposes. Create a policy that allows essential outbound traffic:
 
@@ -197,7 +197,7 @@ spec:
 
 This policy permits DNS queries to the kube-system namespace and HTTPS traffic to public IP addresses only, blocking private network access.
 
-## Testing Your Policies
+Testing Your Policies
 
 After applying network policies, verify they work as expected. Use a debug pod to test connectivity:
 
@@ -208,11 +208,11 @@ kubectl exec -it debug-pod -- wget -qO- http://service-name.namespace.svc.cluste
 
 The connection should fail if no policy permits it. Check the policy status and adjust rules accordingly.
 
-## Remote Team Workflow Considerations
+Remote Team Workflow Considerations
 
 Network policy management requires coordination when your engineering team is distributed. A few patterns that work well for remote teams:
 
-### Policy-as-Code with Git Review
+Policy-as-Code with Git Review
 
 Store all network policy YAML files in a dedicated directory in your infrastructure repository. Require pull request reviews from at least one other engineer before applying any policy change to production. This async review process works naturally for distributed teams and creates a full audit history of every security decision.
 
@@ -233,7 +233,7 @@ k8s/
 
 Use Kustomize overlays to apply environment-specific policies without duplicating base configurations. This keeps staging and production consistent while allowing different access patterns where needed.
 
-### Coordinating Policy Rollouts Across Timezones
+Coordinating Policy Rollouts Across Timezones
 
 Remote teams spanning multiple timezones face a coordination challenge when rolling out security changes: a policy applied during one engineer's afternoon may break services for colleagues who start their day hours later. Establish two rules:
 
@@ -243,16 +243,16 @@ Remote teams spanning multiple timezones face a coordination challenge when roll
 A staging validation run looks like this:
 
 ```bash
-# Apply to staging first
+Apply to staging first
 kubectl apply -f network-policies/ -n staging
-# Run integration tests against staging
+Run integration tests against staging
 ./scripts/smoke-test.sh staging
-# Wait for async approval from team before prod
+Wait for async approval from team before prod
 ```
 
 Configure your CI pipeline to automate staging validation and post results to your team's async communication channel before any production apply is considered.
 
-## Comparing Network Policy Tools
+Comparing Network Policy Tools
 
 The standard Kubernetes NetworkPolicy resource covers most use cases, but several tools extend what is possible:
 
@@ -265,34 +265,34 @@ The standard Kubernetes NetworkPolicy resource covers most use cases, but severa
 
 Cilium deserves particular attention for remote teams. Its Hubble observability layer visualizes real-time traffic flows across your cluster, which is invaluable when a distributed team needs to diagnose why a service cannot reach another without physically being in the same room. Engineers can share Hubble dashboard links rather than coordinating live kubectl sessions.
 
-## Monitoring and Maintenance
+Monitoring and Maintenance
 
 Network policies require ongoing attention as your applications evolve. Review policy logs regularly and update rules when adding new services. Document your policy decisions so remote team members understand the security boundaries.
 
 Consider using tools like Calico or Cilium that provide enhanced network policy capabilities beyond the Kubernetes specification, including more sophisticated traffic matching and visualization.
 
-Schedule a monthly async review where engineers post any observed policy gaps or unnecessary restrictions to a shared document. This keeps security posture current without requiring synchronous meetings and gives every team member — regardless of timezone — a voice in how the cluster is protected.
+Schedule a monthly async review where engineers post any observed policy gaps or unnecessary restrictions to a shared document. This keeps security posture current without requiring synchronous meetings and gives every team member. regardless of timezone. a voice in how the cluster is protected.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Do network policies work on managed Kubernetes services like EKS, GKE, or AKS?**
+Do network policies work on managed Kubernetes services like EKS, GKE, or AKS?
 
 Yes, but you need to verify the CNI plugin supports network policies. EKS requires installing a supported CNI like Calico alongside the default aws-node plugin. GKE and AKS both support network policies natively when enabled during cluster creation. Check your provider's documentation before assuming policies are enforced.
 
-**Can network policies block traffic from cluster administrators?**
+Can network policies block traffic from cluster administrators?
 
-No. Network policies apply to pod-to-pod traffic, not to kubectl or direct API server access. a user with kubectl access and the right RBAC permissions can still interact with any pod regardless of network policies. Network policies and RBAC are complementary controls — you need both.
+No. Network policies apply to pod-to-pod traffic, not to kubectl or direct API server access. a user with kubectl access and the right RBAC permissions can still interact with any pod regardless of network policies. Network policies and RBAC are complementary controls. you need both.
 
-**What happens when two conflicting policies apply to the same pod?**
+What happens when two conflicting policies apply to the same pod?
 
-Kubernetes applies a union of all matching policies. If any policy permits the traffic, it is allowed. There is no deny priority — only explicit allows. This means your deny-all policy blocks traffic by default, and any subsequent policy that permits specific traffic takes effect additively. You cannot write a policy that overrides a more permissive one.
+Kubernetes applies a union of all matching policies. If any policy permits the traffic, it is allowed. There is no deny priority. only explicit allows. This means your deny-all policy blocks traffic by default, and any subsequent policy that permits specific traffic takes effect additively. You cannot write a policy that overrides a more permissive one.
 
-## Related Articles
+Related Articles
 
 - [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
 - [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 - [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 - [How to Maintain Remote Team Culture When Transitioning](/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 - [Remote Team Handbook](/how-to-structure-remote-team-handbook-table-of-contents-cove/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

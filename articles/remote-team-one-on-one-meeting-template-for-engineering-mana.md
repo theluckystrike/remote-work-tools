@@ -20,31 +20,31 @@ Engineering managers overseeing remote teams face a unique challenge: building g
 
 This guide provides a template you can implement immediately, along with the reasoning behind each section and practical code snippets for automating meeting prep.
 
-## The Core One-on-One Template Structure
+The Core One-on-One Template Structure
 
 Effective remote one-on-ones follow a consistent structure that balances multiple objectives: career development, project updates, blockers removal, and relationship building. Here's a template that works for engineering managers:
 
-### Pre-Meeting Async Check-In (Sent 24 Hours Before)
+Pre-Meeting Async Check-In (Sent 24 Hours Before)
 
 ```markdown
-## Pre-1:1 Async Check-in
+Pre-1:1 Async Check-in
 
-**Quick status (bullet points):**
+Quick status (bullet points):
 - What did you accomplish this week?
 - What are you working on next?
 - Any blockers or concerns?
 
-**Discussion topics I want to cover:**
+Discussion topics I want to cover:
 1.
 2.
 3.
 
-**Anything you want me to prepare or look at before our call?**
+Anything you want me to prepare or look at before our call?
 ```
 
 This async pre-check transforms your one-on-one from a status meeting into a strategic conversation. Your direct report comes prepared with specific topics, and you arrive knowing exactly what matters most.
 
-### The Meeting Agenda (30-45 Minute Call)
+The Meeting Agenda (30-45 Minute Call)
 
 ```
 1. Quick Wins & Progress (5 min)
@@ -71,11 +71,11 @@ This async pre-check transforms your one-on-one from a status meeting into a str
    - Unexpected topics
 ```
 
-## Question Framework for Engineering Managers
+Question Framework for Engineering Managers
 
 Generic questions produce generic answers. Use specific, open-ended questions tailored to engineering contexts:
 
-### For Technical Blockers
+For Technical Blockers
 
 Instead of "Any blockers?" try:
 
@@ -83,7 +83,7 @@ Instead of "Any blockers?" try:
 - "Is there any infrastructure or tooling issue slowing you down?"
 - "Which dependency or external service is causing the most pain?"
 
-### For Career Development
+For Career Development
 
 Instead of "How's your career going?" try:
 
@@ -91,13 +91,13 @@ Instead of "How's your career going?" try:
 - "Are there any projects outside your current scope you'd like to explore?"
 - "What's one thing I could do differently to better support your growth?"
 
-### For Team Dynamics (Remote-Specific)
+For Team Dynamics (Remote-Specific)
 
 - "Do you feel you have enough context about what other team members are working on?"
 - "Are there any communication gaps with other teams or stakeholders?"
 - "How can I help make async communication work better for you?"
 
-## Automating Meeting Prep with Scripts
+Automating Meeting Prep with Scripts
 
 Reduce administrative overhead with a simple automation script that pulls relevant data before each meeting:
 
@@ -128,29 +128,29 @@ def prepare_one_on_one(direct_report_github_handle):
     # Build the async check-in template
     template = f"""## Pre-1:1 Async Check-in for {datetime.now().date()}
 
-### Recent Activity
-- **{len(prs)} PRs** reviewed/created recently
-- **{len(commits)} commits** pushed this period
+Recent Activity
+- {len(prs)} PRs reviewed/created recently
+- {len(commits)} commits pushed this period
 
-### Your Reflection
-**What did you accomplish this week?**
-
-_Your answer here_
-
-**What are you working on next?**
+Your Reflection
+What did you accomplish this week?
 
 _Your answer here_
 
-**Any blockers or concerns?**
+What are you working on next?
 
 _Your answer here_
 
-### Discussion Topics
+Any blockers or concerns?
+
+_Your answer here_
+
+Discussion Topics
 1. _Add your topics here_
 2.
 3.
 
-### Anything you want me to prepare?
+Anything you want me to prepare?
 """
     return template
 
@@ -165,72 +165,72 @@ if __name__ == "__main__":
 
 This script generates a personalized check-in template by pulling your direct report's recent GitHub activity. Run it the day before your one-on-one and send the output to your direct report.
 
-## Handling Different Experience Levels
+Handling Different Experience Levels
 
 Your template should adapt based on who's sitting () across from you:
 
-### For Junior Engineers (0-2 years)
+For Junior Engineers (0-2 years)
 
 - Add explicit "learning goals" section
 - Include questions about onboarding experience
 - Ask about mentorship needs
 - Discuss technical fundamentals regularly
 
-### For Mid-Level Engineers (2-5 years)
+For Mid-Level Engineers (2-5 years)
 
 - Focus on technical depth and breadth
 - Discuss mentorship opportunities (giving back)
 - Explore specialization vs. generalist paths
 - Career progression clarity
 
-### For Senior Engineers & Staff (5+ years)
+For Senior Engineers & Staff (5+ years)
 
 - Leadership and influence topics
 - Architecture and technical strategy
 - Cross-team impact
 - Career options (IC vs. management track)
 
-## Async One-on-One Alternative
+Async One-on-One Alternative
 
 When time zones make synchronous meetings difficult, implement an async one-on-one using a shared document:
 
 ```markdown
-# Async 1:1 - [Name] - [Month/Year]
+Async 1:1 - [Name] - [Month/Year]
 
-## This Period's Review
+This Period's Review
 
-**Accomplishments:**
+Accomplishments:
 -
 
-**Challenges:**
+Challenges:
 -
 
-**Growth Focus:**
+Growth Focus:
 - What's working?
 - What needs adjustment?
 
-## Manager Feedback
+Manager Feedback
 
-**What I'm noticing:**
+What I'm noticing:
 -
 
-**What's going well:**
+What's going well:
 -
 
-**Areas for development:**
+Areas for development:
 -
 
-## Discussion Items
+Discussion Items
 
 | Topic | Status | Notes |
 |-------|--------|-------|
-| Topic 1 | 🔲 Open | |
-| Topic 2 | 🔲 Done | |
+| Topic 1 |  Open | |
+| Topic 2 |  Done | |
 ```
 
 Set a weekly cadence where both parties write their sections asynchronously. Schedule a 15-minute synchronous call only when specific topics require real-time discussion.
 
-## Common Pitfalls to Avoid
+Common Pitfalls to Avoid
 
 The status meeting trap: If your one-on-ones feel like status updates, you're doing it wrong. Save status for standups or Slack updates. One-on-ones should be strategic, not operational.
 
@@ -240,7 +240,7 @@ The manager-dominated conversation: If you're talking more than 30% of the time,
 
 Skipping async prep: Without the pre-check, you waste meeting time on basic updates. The 10 minutes spent on async prep saves 20 minutes of meeting time.
 
-## Measuring One-on-One Effectiveness
+Measuring One-on-One Effectiveness
 
 Track these signals to assess if your one-on-ones are working:
 
@@ -251,7 +251,7 @@ Track these signals to assess if your one-on-ones are working:
 
 If these metrics decline, your one-on-ones need adjustment.
 
-## Implementation Checklist
+Implementation Checklist
 
 1. Schedule consistently: Same day/time each week, protected from other meetings
 2. Send async prep 24 hours before: Use the template above
@@ -262,34 +262,34 @@ If these metrics decline, your one-on-ones need adjustment.
 
 A well-executed one-on-one template transforms a simple meeting into your most powerful management tool. The consistency builds trust over time, and the structure ensures nothing important falls through the cracks.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Who is this article written for?**
+Who is this article written for?
 
 This article is written for developers, technical professionals, and power users who want practical guidance. Whether you are evaluating options or implementing a solution, the information here focuses on real-world applicability rather than theoretical overviews.
 
-**How current is the information in this article?**
+How current is the information in this article?
 
 We update articles regularly to reflect the latest changes. However, tools and platforms evolve quickly. Always verify specific feature availability and pricing directly on the official website before making purchasing decisions.
 
-**Are there free alternatives available?**
+Are there free alternatives available?
 
 Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support. Open-source options can fill some gaps if you are willing to handle setup and maintenance yourself. Evaluate whether the time savings from a paid tool justify the cost for your situation.
 
-**How do I get my team to adopt a new tool?**
+How do I get my team to adopt a new tool?
 
 Start with a small pilot group of willing early adopters. Let them use it for 2-3 weeks, then gather their honest feedback. Address concerns before rolling out to the full team. Forced adoption without buy-in almost always fails.
 
-**What is the learning curve like?**
+What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-## Related Articles
+Related Articles
 
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-meeting-agenda-template-for-engineering-teams/)
 - [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 - [Remote Team Meeting Cadence Template for Engineering](/remote-team-meeting-cadence-template-for-engineering-manager/)
 - [Best Wiki Template for Remote Team Engineering Design](/best-wiki-template-for-remote-team-engineering-design-docume/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

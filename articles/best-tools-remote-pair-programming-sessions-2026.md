@@ -17,7 +17,7 @@ intent-checked: true
 
 Remote pair programming should feel like sitting side-by-side at a desk. Yet lag, inconsistent control handoff, and audio quality issues make most tools feel awkward. Testing six leading pair programming tools in March 2026 reveals that latency, code execution environment, and audio integration determine success more than screen sharing quality.
 
-## Table of Contents
+Table of Contents
 
 - [The Pair Programming Problem](#the-pair-programming-problem)
 - [Tool Comparison Matrix](#tool-comparison-matrix)
@@ -32,65 +32,65 @@ Remote pair programming should feel like sitting side-by-side at a desk. Yet lag
 
 This guide benchmarks real tools in production scenarios and provides workflow recommendations for different pair programming styles.
 
-## The Pair Programming Problem
+The Pair Programming Problem
 
 Traditional co-located pair programming has two developers at one keyboard, constant eye contact, and immediate verbal communication. Remote pair programming loses this:
 
-- **Latency** — 100ms lag when switching control feels slow; 200+ ms feels broken
-- **Audio quality** — Hearing your partner clearly is non-negotiable
-- **Cursor tracking** — Knowing where your partner's cursor is prevents confusion
-- **Screen real estate** — Smaller splits mean harder code reading
-- **Environment** — Does code actually execute in the tool, or only show source?
+- Latency. 100ms lag when switching control feels slow; 200+ ms feels broken
+- Audio quality. Hearing your partner clearly is non-negotiable
+- Cursor tracking. Knowing where your partner's cursor is prevents confusion
+- Screen real estate. Smaller splits mean harder code reading
+- Environment. Does code actually execute in the tool, or only show source?
 
-## Tool Comparison Matrix
+Tool Comparison Matrix
 
 | Tool | Best For | Latency | Audio Quality | Code Execution | Setup Time |
 |------|----------|---------|---------------|-----------------|------------|
-| **VS Code Live Share** | Full-stack JavaScript, smaller teams | 150-300ms | Integrated, good | No (view only) | 2 minutes |
-| **Tuple** | Terminal-heavy work, DevOps | 80-150ms | Built-in, excellent | Yes (full shell) | 5 minutes |
-| **Gitpod** | Web apps, Docker-based projects | 120-200ms | External (Zoom/Teams) | Yes (full IDE) | 10 minutes |
-| **Slack Huddle + VS Code** | Quick mob sessions, async recording | 200-400ms | Slack integration | No (view only) | 1 minute |
-| **SSH + tmux + Zoom** | Terminal work, low bandwidth | 50-100ms | Via Zoom | Yes (full shell) | 15 minutes |
-| **JetBrains Code With Me** | JetBrains IDE users | 140-280ms | Integrated, good | No (view only) | 3 minutes |
+| VS Code Live Share | Full-stack JavaScript, smaller teams | 150-300ms | Integrated, good | No (view only) | 2 minutes |
+| Tuple | Terminal-heavy work, DevOps | 80-150ms | Built-in, excellent | Yes (full shell) | 5 minutes |
+| Gitpod | Web apps, Docker-based projects | 120-200ms | External (Zoom/Teams) | Yes (full IDE) | 10 minutes |
+| Slack Huddle + VS Code | Quick mob sessions, async recording | 200-400ms | Slack integration | No (view only) | 1 minute |
+| SSH + tmux + Zoom | Terminal work, low bandwidth | 50-100ms | Via Zoom | Yes (full shell) | 15 minutes |
+| JetBrains Code With Me | JetBrains IDE users | 140-280ms | Integrated, good | No (view only) | 3 minutes |
 
-**Key Finding:** Latency below 150ms is imperceptible; 200+ ms becomes frustrating.
+Key Finding: Latency below 150ms is imperceptible; 200+ ms becomes frustrating.
 
-## Detailed Tool Analysis
+Detailed Tool Analysis
 
-### VS Code Live Share (Best for JavaScript/Web Development)
+VS Code Live Share (Best for JavaScript/Web Development)
 
-**When to use:** Frontend and full-stack JavaScript teams, Node.js projects
+When to use: Frontend and full-stack JavaScript teams, Node.js projects
 
-**Setup:**
+Setup:
 
 ```bash
-# Install extension in VS Code
-# Open Command Palette (Cmd+Shift+P)
-# Type: "Live Share: Start Collaboration Session"
-# Share the generated URL with your partner
+Install extension in VS Code
+Open Command Palette (Cmd+Shift+P)
+Type: "Live Share: Start Collaboration Session"
+Share the generated URL with your partner
 ```
 
-**Strengths:**
+Strengths:
 - Simplest setup (2 minutes)
 - Both developers see the same view, same cursor position
 - Works with any VS Code extension (debugger, linters, etc.)
 - Free for 4-hour sessions, unlimited for GitHub users
 - Integrated audio/video (optional)
 
-**Weaknesses:**
+Weaknesses:
 - Cannot execute code in the tool (view-only)
 - Latency 150-300ms (higher on international connections)
 - Limited to VS Code (no JetBrains support)
 - Terminal sharing is read-only
 
-**Real-World Latency Test (NYC to London):**
+Real-World Latency Test (NYC to London):
 
 ```
 Typed character → Echo on partner's screen: 240ms
 (Perceivable, but acceptable for code review)
 ```
 
-**Best Workflow:**
+Best Workflow:
 
 ```
 1. Partner A: Host session, share URL in Slack
@@ -105,22 +105,22 @@ Typed character → Echo on partner's screen: 240ms
    - Now has full keyboard/cursor control
 ```
 
-**Cost:** Free for GitHub users, $4/month for others (includes unlimited sessions)
+Cost: Free for GitHub users, $4/month for others (includes unlimited sessions)
 
-### Tuple (Best for DevOps and Terminal Work)
+Tuple (Best for DevOps and Terminal Work)
 
-**When to use:** Backend engineers, DevOps, infrastructure work where terminal is primary
+When to use: Backend engineers, DevOps, infrastructure work where terminal is primary
 
-**Setup:**
+Setup:
 
 ```bash
-# Download Tuple from tuple.app
-# Sign up with GitHub/Google
-# Create a session → share link
-# Partner clicks link → instant connection
+Download Tuple from tuple.app
+Sign up with GitHub/Google
+Create a session → share link
+Partner clicks link → instant connection
 ```
 
-**Strengths:**
+Strengths:
 - Lowest latency (80-150ms), imperceptible to users
 - Excellent audio (Opus codec, 48kHz)
 - Full terminal sharing (read/write)
@@ -128,22 +128,22 @@ Typed character → Echo on partner's screen: 240ms
 - Can watch full screen or specific window
 - Recording built-in (saves to Tuple cloud)
 
-**Weaknesses:**
+Weaknesses:
 - Doesn't integrate with IDEs (use alongside VS Code)
 - Requires separate application (not in VS Code)
 - Paid only ($10/month, no free tier)
 - Smaller ecosystem (fewer integrations)
 
-**Real-World Latency Test (same network):**
+Real-World Latency Test (same network):
 
 ```
 Typed character → Echo on partner's screen: 95ms
-(Imperceptible — feels like local collaboration)
+(Imperceptible. feels like local collaboration)
 
 Switched to partner's control: 110ms
 ```
 
-**Best Workflow:**
+Best Workflow:
 
 ```
 1. Developer A: Start Tuple, share link in Slack
@@ -157,24 +157,24 @@ Switched to partner's control: 110ms
    Developer B sees results instantly
 ```
 
-**Recommended For:**
+Recommended For:
 - Debugging production issues together
 - Infrastructure-as-code reviews (Terraform, CloudFormation)
 - Kubernetes deployment pair sessions
 - Database migrations with live execution
 
-### Gitpod (Best for Reproducible Web Development)
+Gitpod (Best for Reproducible Web Development)
 
-**When to use:** Web applications, Docker-based projects, when environment consistency matters
+When to use: Web applications, Docker-based projects, when environment consistency matters
 
-**Setup:**
+Setup:
 
 ```bash
-# Gitpod URLs work from any GitHub repo
-# Method 1: Visit https://gitpod.io/#<github-url>
-# Example: https://gitpod.io/#https://github.com/myorg/myrepo
+Gitpod URLs work from any GitHub repo
+Method 1: Visit https://gitpod.io/#<github-url>
+https://gitpod.io/#https://github.com/myorg/myrepo
 
-# Method 2: Configure .gitpod.yml for custom setup
+Method 2: Configure .gitpod.yml for custom setup
 cat > .gitpod.yml <<EOF
 image: gitpod/workspace-python:latest
 ports:
@@ -189,7 +189,7 @@ git commit -m "Add Gitpod config"
 git push
 ```
 
-**Strengths:**
+Strengths:
 - Full IDE with code execution (no context switching)
 - Reproducible environment (Docker-based)
 - Both developers in same VS Code instance
@@ -197,14 +197,14 @@ git push
 - Can run any language/framework
 - Snapshots save state for later
 
-**Weaknesses:**
+Weaknesses:
 - Higher startup time (30-60 seconds to boot environment)
 - Latency 120-200ms (not as low as Tuple)
 - Paid ($10/month for 50 hours/month, $20/month for unlimited)
 - Requires audio via Zoom/Teams (separate tool)
 - More resource-intensive (slow on older hardware)
 
-**Real-World Setup Time:**
+Real-World Setup Time:
 
 ```
 1. Create Gitpod workspace: 1 minute
@@ -213,7 +213,7 @@ git push
 Total: ~2 minutes
 ```
 
-**Best Workflow:**
+Best Workflow:
 
 ```
 1. Create .gitpod.yml in your repo (one-time setup)
@@ -227,53 +227,53 @@ Total: ~2 minutes
    - Terminal (can run npm start, npm test, etc.)
    - Audio (Zoom/Teams in background)
 
-Example: React app development
+React app development
 - Developer A: Makes UI change in App.tsx
 - Developer B: Sees change in preview pane instantly
 - Both run: npm test
 - Both see test results in terminal
 ```
 
-**Cost & Tier Recommendation:**
+Cost & Tier Recommendation:
 - Small teams (2-4): $10/month (50 hours/month) shared
 - Larger teams: $20/month (unlimited) per person
 - Open source: Free
 
-### Slack Huddle + VS Code (Best for Quick Mob Sessions)
+Slack Huddle + VS Code (Best for Quick Mob Sessions)
 
-**When to use:** Spontaneous collaboration, recording for async feedback, large groups (3+ people)
+When to use: Spontaneous collaboration, recording for async feedback, large groups (3+ people)
 
-**Setup:**
+Setup:
 
 ```bash
-# Open Slack
-# Click message input field
-# Click "+" icon → Select "Huddle"
-# Invite team members
-# Share VS Code Live Share URL in Slack chat
+Open Slack
+Click message input field
+Click "+" icon → Select "Huddle"
+Invite team members
+Share VS Code Live Share URL in Slack chat
 ```
 
-**Strengths:**
+Strengths:
 - Ultra-low friction (1 minute to start)
 - Audio/video integrated in Slack
 - Recordings auto-saved to Slack (valuable for async feedback)
 - Works for 1-99 participants (good for mob programming)
 - No extra licenses (only Slack)
 
-**Weaknesses:**
+Weaknesses:
 - Latency 200-400ms (slower than dedicated tools)
 - No cursor tracking between screens
 - Requires separate VS Code Live Share for code sharing
 - Slack audio quality can degrade with 5+ participants
 
-**Real-World Latency Test (5 participants on Slack Huddle):**
+Real-World Latency Test (5 participants on Slack Huddle):
 
 ```
 Typing latency: 340ms (noticeable but acceptable for review)
 Audio delay: 180ms (slightly delayed speech, but understandable)
 ```
 
-**Best Workflow (Mob Programming):**
+Best Workflow (Mob Programming):
 
 ```
 1. Junior Dev: Shares VS Code Live Share link in Slack
@@ -289,37 +289,37 @@ Usage: Onboarding session where junior is learning
 - Junior watches recording later for reference
 ```
 
-### SSH + tmux + Zoom (Best for Low Bandwidth)
+SSH + tmux + Zoom (Best for Low Bandwidth)
 
-**When to use:** International connections, unstable networks, pure command-line work
+When to use: International connections, unstable networks, pure command-line work
 
-**Setup:**
+Setup:
 
 ```bash
-# On remote server, create tmux session
+On remote server, create tmux session
 tmux new-session -s pair -d
 
-# Partner connects
+Partner connects
 ssh user@server.com
 tmux attach-session -t pair
 
-# Both now in same tmux session, same terminal view
+Both now in same tmux session, same terminal view
 ```
 
-**Strengths:**
+Strengths:
 - Lowest latency (50-100ms, true local I/O speed)
 - Works over 2G/3G networks (text-only)
 - No additional software (just SSH + tmux + Zoom for voice)
 - Full execution environment
 - Terminal multiplexing (3+ people easily)
 
-**Weaknesses:**
+Weaknesses:
 - No IDE integration (command-line only)
 - Steep learning curve (tmux shortcuts)
 - Separate audio tool (Zoom, Google Meet)
 - Harder to visually track cursor
 
-**Best Workflow:**
+Best Workflow:
 
 ```
 1. Developer A: tmux new-session -s pair
@@ -328,43 +328,43 @@ tmux attach-session -t pair
 4. Zoom call in background for voice communication
 5. Execution is instant (no network latency for code run)
 
-Example: Database migration
+Database migration
 $ mysql> ALTER TABLE users ADD COLUMN new_field INT;
 (Both see result immediately, imperceptible latency)
 ```
 
-### JetBrains Code With Me (Best for Java/Kotlin Teams)
+JetBrains Code With Me (Best for Java/Kotlin Teams)
 
-**When to use:** JetBrains IDE users (IntelliJ, PyCharm, GoLand, etc.)
+When to use: JetBrains IDE users (IntelliJ, PyCharm, GoLand, etc.)
 
-**Setup:**
+Setup:
 
 ```bash
-# In JetBrains IDE:
-# Menu → Code With Me → Enable Code With Me
-# Select "Start Session"
-# Share generated URL
+In JetBrains IDE:
+Menu → Code With Me → Enable Code With Me
+Select "Start Session"
+Share generated URL
 ```
 
-**Strengths:**
+Strengths:
 - integration with JetBrains IDEs
 - Can execute code within IDE (run tests, debug)
 - Both developers can navigate independently (unlike VS Code Live Share)
 - 150-280ms latency (acceptable)
 
-**Weaknesses:**
+Weaknesses:
 - Limited to JetBrains products (no VS Code)
 - Requires professional IDE license ($199/year)
 - Less discoverable in Slack/Teams
 - Smaller community than VS Code
 
-**Cost:** Bundled with JetBrains subscription
+Cost: Bundled with JetBrains subscription
 
-## Real-World Scenario Comparison
+Real-World Scenario Comparison
 
-**Scenario: Debugging a Production Bug**
+Scenario: Debugging a Production Bug
 
-**Tools Performance:**
+Tools Performance:
 
 | Task | Tuple | SSH+tmux | VS Code Live Share | Gitpod |
 |------|-------|----------|-------------------|--------|
@@ -372,12 +372,12 @@ $ mysql> ALTER TABLE users ADD COLUMN new_field INT;
 | Run diagnostic query | Instant | Instant | N/A | 2 sec (env boot) |
 | Review logs together | Instant | Instant | View only | N/A |
 | Share findings with team | Manual copy | Manual copy | Live sharing | Manual copy |
-| **Total Time** | 5 min | 4 min | 8 min | 15 min |
+| Total Time | 5 min | 4 min | 8 min | 15 min |
 
-**Winner:** SSH+tmux, Tuple (execution speed)
+Winner: SSH+tmux, Tuple (execution speed)
 ---
 
-**Scenario: Code Review + Refactoring**
+Scenario: Code Review + Refactoring
 
 | Task | VS Code Live Share | Gitpod | Slack Huddle | Tuple |
 |------|-------------------|--------|-------------|-------|
@@ -385,13 +385,13 @@ $ mysql> ALTER TABLE users ADD COLUMN new_field INT;
 | Review code | Excellent | Excellent | Poor (no IDE) | Poor (no IDE) |
 | Refactor code | Good | Excellent | Good | N/A |
 | Run tests | View output | Execute in IDE | View output | Execute |
-| **Total Setup** | 2 min | 3 min | 1 min | 5 min |
+| Total Setup | 2 min | 3 min | 1 min | 5 min |
 
-**Winner:** VS Code Live Share (best balance)
+Winner: VS Code Live Share (best balance)
 
 ---
 
-**Scenario: Onboarding New Developer**
+Scenario: Onboarding New Developer
 
 | Tool | Audio | Code | Execution | Recording | Async Review |
 |------|-------|------|-----------|-----------|--------------|
@@ -399,13 +399,13 @@ $ mysql> ALTER TABLE users ADD COLUMN new_field INT;
 | Gitpod | Good | Excellent | Excellent | Manual | Manual |
 | VS Code Live Share | Good | Excellent | Limited | Manual | Manual |
 
-**Winner:** Slack Huddle + VS Code (recording capability)
+Winner: Slack Huddle + VS Code (recording capability)
 
-## Recommendations by Team Size and Work Style
+Recommendations by Team Size and Work Style
 
-### Small Team (2-3 devs, full-stack JavaScript)
+Small Team (2-3 devs, full-stack JavaScript)
 
-**Recommended:** VS Code Live Share + Zoom
+Recommended: VS Code Live Share + Zoom
 ```
 - Low setup friction
 - Code sharing excellent
@@ -413,18 +413,18 @@ $ mysql> ALTER TABLE users ADD COLUMN new_field INT;
 - No cost for GitHub users
 ```
 
-### Backend/Infrastructure Team (4-6 devs, terminal-heavy)
+Backend/Infrastructure Team (4-6 devs, terminal-heavy)
 
-**Recommended:** Tuple + Gitpod
+Recommended: Tuple + Gitpod
 ```
 - Tuple for terminal work (lowest latency)
 - Gitpod for reproducible web app testing
 - Split tools based on task type
 ```
 
-### Distributed Large Team (10+ devs)
+Distributed Large Team (10+ devs)
 
-**Recommended:** Gitpod + Slack Huddle
+Recommended: Gitpod + Slack Huddle
 ```
 - Gitpod for consistent environment
 - Slack Huddle for mob programming with recordings
@@ -432,27 +432,27 @@ $ mysql> ALTER TABLE users ADD COLUMN new_field INT;
 - Scalable to any team size
 ```
 
-### All-Remote Company (hiring globally)
+All-Remote Company (hiring globally)
 
-**Recommended:** SSH+tmux or Tuple
+Recommended: SSH+tmux or Tuple
 ```
 - Works over international connections
 - Production-grade terminal access
 - Lowest latency for global distributed teams
 ```
 
-## Setup Recommendation by Language
+Setup Recommendation by Language
 
 | Language | Recommended | Backup | Avoid |
 |----------|------------|--------|-------|
-| **JavaScript/Node** | VS Code Live Share | Gitpod | SSH+tmux |
-| **Python** | VS Code Live Share | Gitpod | Tuple (no IDE) |
-| **Go** | Tuple + VS Code | SSH+tmux | Gitpod |
-| **Java/Kotlin** | JetBrains Code With Me | Gitpod | VS Code |
-| **Rust** | VS Code Live Share | Tuple | SSH+tmux |
-| **DevOps/Terraform** | Tuple | SSH+tmux | VS Code |
+| JavaScript/Node | VS Code Live Share | Gitpod | SSH+tmux |
+| Python | VS Code Live Share | Gitpod | Tuple (no IDE) |
+| Go | Tuple + VS Code | SSH+tmux | Gitpod |
+| Java/Kotlin | JetBrains Code With Me | Gitpod | VS Code |
+| Rust | VS Code Live Share | Tuple | SSH+tmux |
+| DevOps/Terraform | Tuple | SSH+tmux | VS Code |
 
-## Audio Comparison (Critical for Pair Programming)
+Audio Comparison (Critical for Pair Programming)
 
 Testing audio quality on three tools (Zoom as baseline):
 
@@ -463,93 +463,93 @@ Testing audio quality on three tools (Zoom as baseline):
 | Tuple | Opus | 64 kbps | 100ms | 9.5 | +0.5 |
 | VS Code Live Share | Opus | 40-80 kbps | 200ms | 8 | -1 |
 
-**Finding:** Tuple has the best audio quality and lowest latency.
+Finding: Tuple has the best audio quality and lowest latency.
 
-## Cost Comparison (Annual)
+Cost Comparison (Annual)
 
 | Tool | Cost | Best For | Value |
 |------|------|----------|-------|
-| **VS Code Live Share** | $0-48/year | JS/web teams | Excellent (free for GitHub users) |
-| **Tuple** | $120/year | Backend/DevOps | Good (low latency justifies cost) |
-| **Gitpod** | $120-240/year | Web apps | Good (reproducible environments) |
-| **Slack Huddle** | $0 (with Slack Pro) | Large teams | Excellent (free if using Slack) |
-| **SSH+tmux** | $0 | Infrastructure | Best (free, lowest latency) |
+| VS Code Live Share | $0-48/year | JS/web teams | Excellent (free for GitHub users) |
+| Tuple | $120/year | Backend/DevOps | Good (low latency justifies cost) |
+| Gitpod | $120-240/year | Web apps | Good (reproducible environments) |
+| Slack Huddle | $0 (with Slack Pro) | Large teams | Excellent (free if using Slack) |
+| SSH+tmux | $0 | Infrastructure | Best (free, lowest latency) |
 
-## Pro Tips for Remote Pair Programming
+Pro Tips for Remote Pair Programming
 
-**1. Establish Session Etiquette**
+1. Establish Session Etiquette
 - Decide before starting: Who drives first? How long per person?
 - Use a timer (5-10 minutes per driver)
 - Driver: Express thoughts aloud; Navigator: Speak up about questions
 
-**2. Use Shared Notes During Sessions**
+2. Use Shared Notes During Sessions
 
 ```markdown
-## Pair Session: Bug #1234
+Pair Session: Bug #1234
 - Driver: Alice
 - Navigator: Bob
 - Goal: Fix login timeout issue
 
-### Progress:
+Progress:
 - [ ] Review logs to find timeout threshold
 - [ ] Check session configuration
 - [ ] Add timeout handling
 - [ ] Test with edge cases
 
-### Findings:
+Findings:
 - Session expires after 15 min inactivity (expected)
 - Bug: Token refresh fails silently (should fail loud)
 ```
 
-**3. Record Sessions for Async Feedback**
+3. Record Sessions for Async Feedback
 
 Even if partner is present, recording sessions creates:
 - Onboarding material for new team members
 - Reference for decision-making rationale
 - Evidence for code reviews
 
-**4. Choose Tools Based on Network, Not Preference**
+4. Choose Tools Based on Network, Not Preference
 
 Test latency to your partner before selecting tool:
 
 ```bash
-# Test network latency
+Test network latency
 ping partner-location
-# <50ms: SSH+tmux is excellent
-# 50-150ms: Tuple optimal
-# 150-250ms: VS Code Live Share acceptable
-# >250ms: Gitpod (execution environment compensates)
+<50ms: SSH+tmux is excellent
+50-150ms: Tuple optimal
+150-250ms: VS Code Live Share acceptable
+>250ms: Gitpod (execution environment compensates)
 ```
 
 ---
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**Are free AI tools good enough for tools for remote pair programming sessions in?**
+Are free AI tools good enough for tools for remote pair programming sessions in?
 
 Free tiers work for basic tasks and evaluation, but paid plans typically offer higher rate limits, better models, and features needed for professional work. Start with free options to find what works for your workflow, then upgrade when you hit limitations.
 
-**How do I evaluate which tool fits my workflow?**
+How do I evaluate which tool fits my workflow?
 
 Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
-**Do these tools work offline?**
+Do these tools work offline?
 
 Most AI-powered tools require an internet connection since they run models on remote servers. A few offer local model options with reduced capability. If offline access matters to you, check each tool's documentation for local or self-hosted options.
 
-**Can I use these tools with a distributed team across time zones?**
+Can I use these tools with a distributed team across time zones?
 
 Most modern tools support asynchronous workflows that work well across time zones. Look for features like async messaging, recorded updates, and timezone-aware scheduling. The best choice depends on your team's specific communication patterns and size.
 
-**Should I switch tools if something better comes out?**
+Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific pain point you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
-## Related Articles
+Related Articles
 
 - [Remote Pair Programming Tools Compared 2026](/remote-pair-programming-tools-compared/)
 - [How to Set Up Remote Pair Programming Sessions in 2026](/how-to-set-up-remote-pair-programming-sessions-2026/)
 - [Best Tools for Remote Pair Programming 2026](/remote-pair-programming-tools-2026/)
 - [How to Set Up Remote Pair Programming Sessions](/how-to-set-up-remote-pair-programming-sessions-guide/)
 - [How to Set Up Remote Pair Programming Workflow Guide](/how-to-set-up-remote-pair-programming-workflow-guide/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)

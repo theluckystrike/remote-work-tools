@@ -14,9 +14,9 @@ voice-checked: true
 tags: [remote-work-tools]
 ---
 
-Install the official Linear browser extension to create issues from any webpage without context switching and preview issues directly in GitHub PRs. Linear is popular among development teams for its clean interface and GitHub integration, but Chrome extensions add capabilities that improve workflow efficiency—create issues without switching tabs, view issue previews in PRs, and access notifications directly in Chrome. This guide covers practical Linear extensions and how to integrate them into your daily development routine.
+Install the official Linear browser extension to create issues from any webpage without context switching and preview issues directly in GitHub PRs. Linear is popular among development teams for its clean interface and GitHub integration, but Chrome extensions add capabilities that improve workflow efficiency, create issues without switching tabs, view issue previews in PRs, and access notifications directly in Chrome. This guide covers practical Linear extensions and how to integrate them into your daily development routine.
 
-## Table of Contents
+Table of Contents
 
 - [Why Use Chrome Extensions with Linear](#why-use-chrome-extensions-with-linear)
 - [Practical Chrome Extensions for Linear](#practical-chrome-extensions-for-linear)
@@ -27,7 +27,7 @@ Install the official Linear browser extension to create issues from any webpage 
 - [Performance Tips for Extension Users](#performance-tips-for-extension-users)
 - [Comparison: Extensions vs. Native Apps](#comparison-extensions-vs-native-apps)
 
-## Why Use Chrome Extensions with Linear
+Why Use Chrome Extensions with Linear
 
 Linear's web application works well, but browser extensions add capabilities that improve productivity for developers who spend significant time in Chrome. These extensions can:
 
@@ -36,9 +36,9 @@ Linear's web application works well, but browser extensions add capabilities tha
 - Provide keyboard shortcuts for common actions
 - Show Linear notifications alongside browser alerts
 
-## Practical Chrome Extensions for Linear
+Practical Chrome Extensions for Linear
 
-### 1. Linear - Issues & Projects
+1. Linear - Issues & Projects
 
 The official Linear browser extension provides core functionality directly in Chrome. After installing, you can create issues, view your inbox, and access recent projects without opening a new tab.
 
@@ -52,7 +52,7 @@ Key Features:
 
 When you click the extension icon, a popup appears showing your inbox count and recent issues. This works well for a quick status check between coding sessions.
 
-### 2. GitHub Linear Issue Connector
+2. GitHub Linear Issue Connector
 
 This extension bridges GitHub pull requests with Linear issues. When viewing a PR that references a Linear issue (like `LINE-123`), the extension displays the issue status directly in the GitHub UI.
 
@@ -68,7 +68,7 @@ const matches = prDescription.match(issuePattern);
 
 This is particularly useful for code reviewers who want to verify issue completion without context switching.
 
-### 3. Linear Quick Add
+3. Linear Quick Add
 
 Quick Add extensions let you create issues from anywhere in Chrome using a keyboard shortcut. This works when you're viewing documentation, a bug report, or any page that contains actionable information.
 
@@ -80,7 +80,7 @@ Workflow:
 
 This eliminates copy-pasting between tabs. The URL serves as context, making issues more actionable for whoever receives them.
 
-### 4. Custom Extension: Issue Linker
+4. Custom Extension: Issue Linker
 
 For teams with specific workflows, building a custom Chrome extension that communicates with Linear's API offers maximum flexibility. Here's a basic implementation:
 
@@ -132,18 +132,18 @@ chrome.action.onClicked.addListener(async (tab) => {
 
 This example creates an issue from the current page's title and URL. Extend it to capture selected text, add labels, or assign to team members based on page content.
 
-## Setting Up Your Extension Workflow
+Setting Up Your Extension Workflow
 
-### Authentication
+Authentication
 
 Most extensions require a Linear API key or OAuth connection. To generate an API key:
 
 1. Open Linear and go to Settings → API
 2. Click "Create new key"
 3. Set appropriate permissions (read/write based on needs)
-4. Store the key securely—never commit it to repositories
+4. Store the key securely, never commit it to repositories
 
-### Keyboard Shortcuts
+Keyboard Shortcuts
 
 Custom keyboard shortcuts make extensions feel native. Check the extension settings page (`chrome://extensions/shortcuts`) to configure:
 
@@ -153,7 +153,7 @@ Custom keyboard shortcuts make extensions feel native. Check the extension setti
 | Open Linear | Cmd+Shift+L |
 | Search issues | Cmd+Shift+F |
 
-### Integration with Development Workflow
+Integration with Development Workflow
 
 Combine extensions with your existing tools for maximum efficiency:
 
@@ -163,7 +163,7 @@ Bug Reporting: When users report bugs in your app, use Quick Add to create issue
 
 Documentation: Create issues for outdated documentation directly from docs.linear.app or your own wikis.
 
-## Limitations and Alternatives
+Limitations and Alternatives
 
 Chrome extensions work within browser constraints. For deeper integration, consider:
 
@@ -173,7 +173,7 @@ Chrome extensions work within browser constraints. For deeper integration, consi
 
 Extensions work best for quick actions and context-aware issue creation. Reserve complex issue management for the full Linear interface.
 
-## Building Your Custom Extension: Complete Example
+Building Your Custom Extension: Complete Example
 
 For teams wanting tighter Linear integration, building a simple custom extension beats any off-the-shelf solution:
 
@@ -304,7 +304,7 @@ document.getElementById('create').addEventListener('click', async () => {
     if (data.data?.issueCreate?.success) {
       const issue = data.data.issueCreate.issue;
       document.getElementById('status').innerHTML =
-        `✓ Created <a href="${issue.url}" target="_blank">${issue.identifier}</a>`;
+        ` Created <a href="${issue.url}" target="_blank">${issue.identifier}</a>`;
       // Clear form
       document.getElementById('title').value = '';
       document.getElementById('description').value = '';
@@ -333,33 +333,33 @@ chrome.storage.local.get(['teams'], (result) => {
 Store your API key securely:
 
 ```bash
-# Never commit the actual key. Instead, create an options page where users provide their key
-# Or use environment variables during build:
+Never commit the actual key. Instead, create an options page where users provide their key
+Or use environment variables during build:
 export LINEAR_API_KEY="your_key_here"
 npm run build
 ```
 
-## Linear Extension Workflow Optimization
+Linear Extension Workflow Optimization
 
 Once you have extensions installed, optimize your daily workflow:
 
-**Suggested keyboard shortcut mapping:**
-- Cmd+Shift+I — Create issue from current page
-- Cmd+Shift+L — Open Linear app in new tab
-- Cmd+Shift+F — Search Linear issues
+Suggested keyboard shortcut mapping:
+- Cmd+Shift+I. Create issue from current page
+- Cmd+Shift+L. Open Linear app in new tab
+- Cmd+Shift+F. Search Linear issues
 
-**Browser bookmark bar organization:**
+Browser bookmark bar organization:
 ```
 Linear |
-├── My Issues
-├── Backlog
-├── Search
-└── Team
+ My Issues
+ Backlog
+ Search
+ Team
 ```
 
 Each bookmark links to a filtered Linear view (e.g., `https://linear.app/team/issues?filter=assignee:me`).
 
-**Workflow templates for common activities:**
+Workflow templates for common activities:
 
 When researching a bug, create an issue immediately with:
 - Current URL in description (provides context)
@@ -378,7 +378,7 @@ When in code review, before commenting on a PR:
 - If blocking, create a Linear issue and reference in PR comment
 - If suggestion, comment directly
 
-## Performance Tips for Extension Users
+Performance Tips for Extension Users
 
 Extensions can slow browser startup if not optimized:
 
@@ -390,51 +390,51 @@ Extensions can slow browser startup if not optimized:
 For teams of developers sharing a custom extension, publish to your internal Chrome Web Store:
 
 ```bash
-# Create a .crx file for distribution
-# Upload to your internal store at chrome.google.com/webstore (requires developer account)
-# Or use policies to force install via chrome policies JSON
+Create a .crx file for distribution
+Upload to your internal store at chrome.google.com/webstore (requires developer account)
+Or use policies to force install via chrome policies JSON
 ```
 
-## Comparison: Extensions vs. Native Apps
+Comparison: Extensions vs. Native Apps
 
 | Feature | Extension | Linear App | VS Code Extension |
 |---------|-----------|------------|------------------|
-| Create issue | ✓ Fast | ✓ Full featured | ✓ Context aware |
-| View details | △ Limited | ✓ Full | ✓ Full |
-| Keyboard shortcuts | ✓ Global | ✓ App only | ✓ Global |
-| Notification integration | △ Browser | ✓ System | ✓ IDE integrated |
-| Offline access | ✗ | △ Limited | △ Limited |
+| Create issue |  Fast |  Full featured |  Context aware |
+| View details |  Limited |  Full |  Full |
+| Keyboard shortcuts |  Global |  App only |  Global |
+| Notification integration |  Browser |  System |  IDE integrated |
+| Offline access |  |  Limited |  Limited |
 | Setup complexity | Medium | None | Low |
 
 Most efficient teams use Chrome extension + VS Code extension together.
 
-## Frequently Asked Questions
+Frequently Asked Questions
 
-**How long does it take to complete this setup?**
+How long does it take to complete this setup?
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
 
-**What are the most common mistakes to avoid?**
+What are the most common mistakes to avoid?
 
 The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully. Follow the steps in order, verify each one works before moving on, and check the official documentation if something behaves unexpectedly.
 
-**Do I need prior experience to follow this guide?**
+Do I need prior experience to follow this guide?
 
 Basic familiarity with the relevant tools and command line is helpful but not strictly required. Each step is explained with context. If you get stuck, the official documentation for each tool covers fundamentals that may fill in knowledge gaps.
 
-**Can I adapt this for a different tech stack?**
+Can I adapt this for a different tech stack?
 
 Yes, the underlying concepts transfer to other stacks, though the specific implementation details will differ. Look for equivalent libraries and patterns in your target stack. The architecture and workflow design remain similar even when the syntax changes.
 
-**Where can I get help if I run into issues?**
+Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-## Related Articles
+Related Articles
 
 - [Google Scholar Chrome Extension Development Guide](/google-scholar-chrome-extension/)
 - [Best Project Management CLI Tools 2026](/best-project-management-cli-tools-2026/)
 - [Shortcut vs Linear Issue Tracking Comparison](/shortcut-vs-linear-issue-tracking-comparison/)
 - [Best Browser Extensions for Developer Productivity](/best-browser-extensions-for-developer-productivity/)
 - [Linear vs Shortcut for a Remote Startup of 8 Engineers](/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by theluckystrike. More at [zovo.one](https://zovo.one)
