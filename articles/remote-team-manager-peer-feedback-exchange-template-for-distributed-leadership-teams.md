@@ -997,7 +997,8 @@ tags: [remote-work-tools, peer-feedback, remote-management, distributed-teams, l
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 {% raw %}

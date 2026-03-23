@@ -997,7 +997,8 @@ tags: [remote-work-tools, remote-hiring, diversity, diversity-sourcing, inclusiv
 score: 9
 voice-checked: true
 reviewed: true
-intent-checked: true---
+intent-checked: true
+---
 
 
 {% raw %}

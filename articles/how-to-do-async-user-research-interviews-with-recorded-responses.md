@@ -1015,7 +1015,8 @@ permalink: /how-to-do-async-user-research-interviews-with-recorded-responses/
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true---
+voice-checked: true
+---
 
 
 categories: [guides]
