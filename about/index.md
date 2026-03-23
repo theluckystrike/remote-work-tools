@@ -1,15 +1,15 @@
 ---
 layout: default
 title: "About Remote Work Tools"
-description: "Who we are and why we review remote work tools, async workflows, and distributed team setups."
+description: "Who runs this site and why these remote work guides exist."
 permalink: /about/
 ---
 
 # About Remote Work Tools
 
-I have been working remotely since before it was mainstream, and I have tried just about every tool, workflow, and home office setup along the way. Remote Work Tools exists to share what actually works -- and what does not -- so you can skip the trial-and-error phase.
+I have worked remotely for over a decade. These guides cover the tools, setups, and workflows that actually make remote work productive -- not the ones that just look good in a Product Hunt launch.
 
-Every review and guide on this site comes from real usage in distributed teams. When I recommend an async standup format or a specific project management tool, it is because I have used it with a real team and seen the results.
+Every review and guide on this site comes from real usage with distributed teams. When I recommend an async standup format or a specific project management tool, it is because I have used it with a real team and seen the results.
 
 ## What we cover
 
@@ -20,6 +20,7 @@ Every review and guide on this site comes from real usage in distributed teams. 
 - **Home office setup** -- desks, monitors, ergonomics, and equipment recommendations
 - **Remote hiring and onboarding** -- ATS tools, async interviews, and onboarding checklists
 - **Security** -- VPNs, zero trust, and compliance for distributed teams
+- **Productivity** -- time management, focus techniques, and workflow optimization
 
 ## Who this is for
 
