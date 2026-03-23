@@ -10,7 +10,7 @@ categories: [guides]
 intent-checked: true
 voice-checked: true
 reviewed: true
-score: 9
+score: 8
 tags: [remote-work-tools, remote-work]
 ---
 

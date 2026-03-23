@@ -9,7 +9,7 @@ permalink: /how-to-create-remote-employee-exit-interview-process-for-distributed
 categories: [guides]
 tags: [remote-work-tools, exit-interview, remote-work, distributed-teams, hr-processes, async, team-management]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 ---
