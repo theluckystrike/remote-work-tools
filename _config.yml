@@ -3,7 +3,6 @@ description: "Reviews, comparisons, and guides for the best remote work tools, a
 url: "https://welikeremotestack.com"
 baseurl: ""
 permalink: /:title/
-theme: minima
 twitter:
   username: _alphashark_
   card: summary_large_image
